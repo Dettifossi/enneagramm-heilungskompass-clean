@@ -192,10 +192,10 @@ export function bastianPastewkaPortraitPage() {
         {route:"beruehmte-anke-engelke", label:"Portrait: Anke Engelke (SX6w7)"},
         {route:"beruehmte-horst-tappert", label:"Portrait: Horst Tappert (SP3w2)"},
         {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SP3w2)"},
-        {route:"beruehmte-lorne-greene", label:"Portrait: Lorne Greene (SE3w2)"},
-        {route:"beruehmte-michael-dell", label:"Portrait: Michael Dell (SE3w2)"},
-        {route:"beruehmte-michael-mina", label:"Portrait: Michael Mina (SE3w2)"},
-        {route:"beruehmte-serdar-somuncu", label:"Portrait: Serdar Somuncu (SE3w2)"},
+        {route:"beruehmte-lorne-greene", label:"Portrait: Lorne Greene (SP3w2)"},
+        {route:"beruehmte-michael-dell", label:"Portrait: Michael Dell (SP3w2)"},
+        {route:"beruehmte-michael-mina", label:"Portrait: Michael Mina (SP3w2)"},
+        {route:"beruehmte-serdar-somuncu", label:"Portrait: Serdar Somuncu (SP3w2)"},
       ])}
     </div>
   `);
@@ -323,18 +323,18 @@ export function christophWaltzPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
         {route:"beruehmte-pierce-brosnan", label:"Portrait: Pierce Brosnan (SP1w2)"},
-        {route:"beruehmte-alain-delon", label:"Portrait: Alain Delon (SE1w2)"},
+        {route:"beruehmte-alain-delon", label:"Portrait: Alain Delon (SP1w2)"},
         {route:"beruehmte-angelina-jolie", label:"Portrait: Angelina Jolie (SO1w2)"},
-        {route:"beruehmte-anne-will", label:"Portrait: Anne Will (SE1w2)"},
-        {route:"beruehmte-arnold-schwarzenegger", label:"Portrait: Arnold Schwarzenegger (SE1w2)"},
-        {route:"beruehmte-ben-berndt", label:"Portrait: Ben Berndt (SE1w2)"},
-        {route:"beruehmte-dan-brown", label:"Portrait: Dan Brown (SE1w2)"},
+        {route:"beruehmte-anne-will", label:"Portrait: Anne Will (SP1w2)"},
+        {route:"beruehmte-arnold-schwarzenegger", label:"Portrait: Arnold Schwarzenegger (SP1w2)"},
+        {route:"beruehmte-ben-berndt", label:"Portrait: Ben Berndt (SP1w2)"},
+        {route:"beruehmte-dan-brown", label:"Portrait: Dan Brown (SP1w2)"},
         {route:"beruehmte-jamie-lee-curtis", label:"Portrait: Jamie Lee Curtis (SX1w2)"},
         {route:"beruehmte-leonardo-dicaprio", label:"Portrait: Leonardo DiCaprio (SX1w2)"},
-        {route:"beruehmte-marie-kondo", label:"Portrait: Marie Kondo (SE1w2)"},
-        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II. (SE1w9)"},
-        {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SE1w9)"},
-        {route:"beruehmte-sting", label:"Portrait: Sting (SE1w9)"},
+        {route:"beruehmte-marie-kondo", label:"Portrait: Marie Kondo (SP1w2)"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II. (SP1w9)"},
+        {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SP1w9)"},
+        {route:"beruehmte-sting", label:"Portrait: Sting (SP1w9)"},
         {route:"kriminalpsychologie", label:"Criminal Psychology – Portraits"},
       ])}
     </div>
@@ -399,7 +399,7 @@ export function dhapanbalYunupinguPortraitPage() {
           {route:"subtype/se8", label:"SP8 – The Orangutan: Subtype Profile"},
           {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SP8w9)"},
           {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SP8w9)"},
-          {route:"beruehmte-galarrwuy-yunupingu", label:"Portrait: Galarrwuy Yunupingu (SE8w9) – her uncle, also a land rights leader from Arnhem Land"},
+          {route:"beruehmte-galarrwuy-yunupingu", label:"Portrait: Galarrwuy Yunupingu (SP8w9) – her uncle, also a land rights leader from Arnhem Land"},
         ])}
       </div>
     </div>
@@ -503,7 +503,7 @@ export function franzLisztPortraitPage() {
         <h2 class="vb-section">3. The Eight-Wing: The Open Fight for New Music</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Sexual Seven something Sevens with a less developed Eight wing often lack: the willingness for open combat rather than avoiding conflict. From 1848, Liszt settled in Weimar as court Kapellmeister and became the leading figure of the "New German School" &ndash; a movement that set programmatic, literarily inspired music against the conservative Leipzig school oriented toward Beethoven and pure instrumental form. In doing so, he single-handedly invented the genre of the symphonic poem.</p>
-          <p class="vb-intro">In 1860, Johannes Brahms (SE9w8), Clara Schumann, and the violinist Joseph Joachim signed a public manifesto against the "New German School" &ndash; an open attack that moved Liszt not to retreat but to sharpen his position further. A Seven with a weaker Eight wing would likely have avoided the conflict. Liszt sought it out: he publicly stood by his aesthetic convictions, even against the established musical world of Leipzig, and pushed through his vision with unshakeable persistence.</p>
+          <p class="vb-intro">In 1860, Johannes Brahms (SP9w8), Clara Schumann, and the violinist Joseph Joachim signed a public manifesto against the "New German School" &ndash; an open attack that moved Liszt not to retreat but to sharpen his position further. A Seven with a weaker Eight wing would likely have avoided the conflict. Liszt sought it out: he publicly stood by his aesthetic convictions, even against the established musical world of Leipzig, and pushed through his vision with unshakeable persistence.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Passion: Gluttony in Work and Life</h2>
@@ -691,7 +691,7 @@ export function indraNooyiPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-indra-nooyi-portrait.jpg" alt="Indra Nooyi – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Indra Nooyi</p>
-        <p class="krim-portrait-typ">SE8w7 &middot; Self-Preservation Type 8 with Seven-wing</p>
+        <p class="krim-portrait-typ">SP8w7 &middot; Self-Preservation Type 8 with Seven-wing</p>
         <p class="krim-portrait-subtitle">Business leader, CEO of PepsiCo 2006&ndash;2018, born 1955 in Chennai, India &ndash; Animal correspondence: Orangutan</p>
       </div>
       <div class="page-content">
@@ -704,25 +704,25 @@ export function indraNooyiPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Eight: Satisfaction Through Building</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Self-Preservation Eight (SE8)</strong> expresses the passion of the Eight &ndash; <em>Lust</em>, the hunger for full intensity &ndash; through securing resources, controlling its own territory, and persistent self-assertion. Naranjo called this subtype <em>Satisfaction</em>. The SE8 builds structures that hold &ndash; not for the moment, but for the long term.</p>
-          <p class="vb-intro">Nooyi worked her way through PepsiCo for two decades before becoming CEO in 2006: strategy department, acquisitions, the spin-off of the Tricon fast-food business (KFC, Pizza Hut, Taco Bell), the multi-billion-dollar acquisitions of Tropicana and Quaker Oats. Every one of these decisions was an SE8 move: secure territory, diversify, reduce dependencies. She never acted impulsively &ndash; she acted once the foundation was solid.</p>
+          <p class="vb-intro">The <strong>Self-Preservation Eight (SP8)</strong> expresses the passion of the Eight &ndash; <em>Lust</em>, the hunger for full intensity &ndash; through securing resources, controlling its own territory, and persistent self-assertion. Naranjo called this subtype <em>Satisfaction</em>. The SP8 builds structures that hold &ndash; not for the moment, but for the long term.</p>
+          <p class="vb-intro">Nooyi worked her way through PepsiCo for two decades before becoming CEO in 2006: strategy department, acquisitions, the spin-off of the Tricon fast-food business (KFC, Pizza Hut, Taco Bell), the multi-billion-dollar acquisitions of Tropicana and Quaker Oats. Every one of these decisions was an SP8 move: secure territory, diversify, reduce dependencies. She never acted impulsively &ndash; she acted once the foundation was solid.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Seven-Wing: Foresight and the Drive to Expand</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Seven-wing</strong> gives the Self-Preservation Eight a quality an SE8 with a more muted Seven-wing does not automatically carry: the forward-looking gaze, the appetite for the new, the willingness to rethink entire business lines rather than merely defend what already exists. The SE8w7 does not just manage its territory &ndash; it expands it, with an energy that feels almost youthfully entrepreneurial.</p>
+          <p class="vb-intro">The <strong>Seven-wing</strong> gives the Self-Preservation Eight a quality an SP8 with a more muted Seven-wing does not automatically carry: the forward-looking gaze, the appetite for the new, the willingness to rethink entire business lines rather than merely defend what already exists. The SP8w7 does not just manage its territory &ndash; it expands it, with an energy that feels almost youthfully entrepreneurial.</p>
           <p class="vb-intro">At PepsiCo, Nooyi shaped the strategy known as “Performance with Purpose” &ndash; the deliberate shift of the portfolio away from purely sugar- and fat-heavy products toward healthier alternatives, paired with sustainability goals around water, packaging, and nutrition. This was not a marketing gimmick, but the strategic realignment of an entire global corporation over the course of a decade &ndash; a vision that looked far beyond the next quarterly report. That is exactly the Seven-wing: not just holding the territory, but remapping it.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Work: Twelve Years at the Helm of PepsiCo</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">As CEO of PepsiCo (2006&ndash;2018), Nooyi led a corporation with more than 260,000 employees and annual revenue that most recently exceeded 63 billion dollars. For years she was regularly ranked among the most powerful women in the world (Forbes, Fortune). Under her leadership, the company's stock price rose significantly, even as she radically diversified the portfolio and strategically repositioned the corporation for decades to come.</p>
-          <p class="vb-intro">She led, too, with a personal gesture that became legendary: Nooyi wrote handwritten letters to the parents of her top executives, thanking them for raising their children. No contradiction to the SE8w7 &ndash; quite the opposite: securing territory also means binding to it the people who carry it.</p>
+          <p class="vb-intro">She led, too, with a personal gesture that became legendary: Nooyi wrote handwritten letters to the parents of her top executives, thanking them for raising their children. No contradiction to the SP8w7 &ndash; quite the opposite: securing territory also means binding to it the people who carry it.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE8w7 is its <strong>long-term foresight paired with assertiveness</strong>. Nooyi made unpopular strategic decisions &ndash; such as investing in healthier products while the market still rewarded sugar and fat &ndash; and held to them, even against analysts demanding short-term gains. That is the SE8 in its most mature form: securing safety not for the next quarter, but for the next generation.</p>
+          <p class="vb-intro">The light of the SP8w7 is its <strong>long-term foresight paired with assertiveness</strong>. Nooyi made unpopular strategic decisions &ndash; such as investing in healthier products while the market still rewarded sugar and fat &ndash; and held to them, even against analysts demanding short-term gains. That is the SP8 in its most mature form: securing safety not for the next quarter, but for the next generation.</p>
           <p class="vb-intro">The shadow shows in a toughness that employees and analysts sometimes described as unyielding, distant, or excessively controlling. When activist investors in 2012 demanded that PepsiCo spin off its snack business, Nooyi defended her territory with total resolve &ndash; and prevailed, though not without a public power struggle. The Self-Preservation Eight does not voluntarily surrender its territory, even when others raise good arguments for it.</p>
         </blockquote>
 
@@ -738,8 +738,8 @@ export function indraNooyiPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se8", label:"SE8 – The Orangutan: Subtype Profile"},
-        {route:"beruehmte-jacqueline-mars", label:"Portrait: Jacqueline Mars (SE8w7)"},
+        {route:"subtype/se8", label:"SP8 – The Orangutan: Subtype Profile"},
+        {route:"beruehmte-jacqueline-mars", label:"Portrait: Jacqueline Mars (SP8w7)"},
       ])}
     </div>
   `);
@@ -814,7 +814,7 @@ export function josephAounPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-joseph-aoun-portrait.jpg" alt="Joseph Aoun – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Joseph Aoun</p>
-        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
         <p class="krim-portrait-subtitle">Lebanese army commander &amp; President of Lebanon, born 1964 in Sin el Fil &ndash; Animal correspondence: Eagle</p>
       </div>
       <div class="page-content">
@@ -827,26 +827,26 @@ export function josephAounPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation One: Integrity as Craft</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation One (SE1)</strong> directs its perfectionism not at correcting the world, but at its own discipline, its own preparation, its own integrity. Naranjo called this subtype <em>Worry</em>. The SE1 constantly asks itself: Did I do this right? Do I live up to my own standard of reliability?</p>
-          <p class="vb-intro">In Aoun, this question has become the foundation of more than forty years of military career: from officer in 1985, through the ranks, to Commander of the Lebanese Armed Forces in March 2017, supplemented by further training in the United States. Those who know him describe him as <em>very direct, very honest</em>, uncompromising on substance yet kind in tone &ndash; and as someone who avoids affiliating with any party or even voicing a political opinion, a rarity in Lebanon's fractured, transactional politics. This restraint is not weakness; it is the SE1 refusing to make its integrity negotiable.</p>
+          <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> directs its perfectionism not at correcting the world, but at its own discipline, its own preparation, its own integrity. Naranjo called this subtype <em>Worry</em>. The SP1 constantly asks itself: Did I do this right? Do I live up to my own standard of reliability?</p>
+          <p class="vb-intro">In Aoun, this question has become the foundation of more than forty years of military career: from officer in 1985, through the ranks, to Commander of the Lebanese Armed Forces in March 2017, supplemented by further training in the United States. Those who know him describe him as <em>very direct, very honest</em>, uncompromising on substance yet kind in tone &ndash; and as someone who avoids affiliating with any party or even voicing a political opinion, a rarity in Lebanon's fractured, transactional politics. This restraint is not weakness; it is the SP1 refusing to make its integrity negotiable.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Nine-Wing: Stillness as a Stance</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> adds a quality to SE1 energy that seems paradoxical at first: merging with something larger than the self, rather than sharpening one's own profile. Where a weak Nine connection leaves the One tense and argumentative, a strong Nine-wing brings the ability to step back, listen, and balance.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> adds a quality to SP1 energy that seems paradoxical at first: merging with something larger than the self, rather than sharpening one's own profile. Where a weak Nine connection leaves the One tense and argumentative, a strong Nine-wing brings the ability to step back, listen, and balance.</p>
           <p class="vb-intro">When Aoun took command of the Lebanese army in 2017, he deliberately kept it above the fray through the 2019 mass protests, the economic collapse, and the 2024 open war with Israel &ndash; never the instrument of a single faction, but the one place a torn society still trusted. Journalists describe him as a <em>man of few words</em>, humble and deeply religious. It was precisely this stepping back behind the role that made him, in January 2025, after more than two years of political paralysis, the cross-factional consensus candidate that both rival Lebanese camps and international actors like the US and Saudi Arabia could accept.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation One</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE1w9 lies exactly in this combination: decades-proven, incorruptible integrity, joined with the ability to step back so far that even deeply divided camps come to trust him. Aoun did not take the highest office in the land because he sought it, but because his fractured countrymen could find no one who embodied less self-interest than he did.</p>
-          <p class="vb-intro">The fate pattern of the One is <strong>anger</strong>, which in the SE1 typically turns inward &ndash; as chronic worry over whether one's own dutifulness is enough. In the SE1w9, this can combine with a tendency toward restraint that brings stability in calm times, but in a state crisis with a collapsed economy, the unresolved question of Hezbollah's arms, and enormous reform pressure, can also read as too cautious, too quiet. The ability to hold steady under pressure without pushing himself into the foreground is at once Aoun's greatest strength and his greatest test in office.</p>
+          <p class="vb-intro">The light of the SP1w9 lies exactly in this combination: decades-proven, incorruptible integrity, joined with the ability to step back so far that even deeply divided camps come to trust him. Aoun did not take the highest office in the land because he sought it, but because his fractured countrymen could find no one who embodied less self-interest than he did.</p>
+          <p class="vb-intro">The fate pattern of the One is <strong>anger</strong>, which in the SP1 typically turns inward &ndash; as chronic worry over whether one's own dutifulness is enough. In the SP1w9, this can combine with a tendency toward restraint that brings stability in calm times, but in a state crisis with a collapsed economy, the unresolved question of Hezbollah's arms, and enormous reform pressure, can also read as too cautious, too quiet. The ability to hold steady under pressure without pushing himself into the foreground is at once Aoun's greatest strength and his greatest test in office.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Eagle Without Noise &ndash; A Parallel to Queen Elizabeth II</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">From entering the military academy in 1983, through forty years of service, to the presidency in 2025, a single thread runs through Aoun's path: never the loud campaign for himself, always the patient proof of worth within the institution he serves. A father of two sons, married to Nehmat Aoun, he did not seek the head-of-state office even here &ndash; he received it through trust.</p>
-          <p class="vb-intro">This stance finds a remarkably precise counterpart in another <a href="javascript:void(0)" data-route="beruehmte-queen-elizabeth-ii">SE1w9 in this Compass: Queen Elizabeth II</a>, whose motto was <em>never complain, never explain</em>. Both hold an office that fell to them rather than one they fought for, both carry it with the same taciturn devotion to duty, and both embody the same eagle: one that does not abandon its post and needs to prove to no one that it can bear what has been placed on it &ndash; it simply bears it.</p>
+          <p class="vb-intro">This stance finds a remarkably precise counterpart in another <a href="javascript:void(0)" data-route="beruehmte-queen-elizabeth-ii">SP1w9 in this Compass: Queen Elizabeth II</a>, whose motto was <em>never complain, never explain</em>. Both hold an office that fell to them rather than one they fought for, both carry it with the same taciturn devotion to duty, and both embody the same eagle: one that does not abandon its post and needs to prove to no one that it can bear what has been placed on it &ndash; it simply bears it.</p>
         </blockquote>
 
       </div>
@@ -855,9 +855,9 @@ export function josephAounPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se1", label:"SE1 – The Worrier: Subtype Profile"},
-        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SE1w9)"},
-        {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SE1w9)"},
+        {route:"subtype/se1", label:"SP1 – The Worrier: Subtype Profile"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SP1w9)"},
+        {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SP1w9)"},
       ])}
     </div>
   `);
@@ -921,9 +921,9 @@ export function kenFollettPortraitPage() {
         {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
         {route:"beruehmte-dan-brown", label:"Dan Brown – SP1w2 compared"},
         {route:"beruehmte-astrid-lindgren", label:"Portrait: Astrid Lindgren (SP1w9)"},
-        {route:"beruehmte-fritz-wepper", label:"Portrait: Fritz Wepper (SE1w9)"},
-        {route:"beruehmte-gianna-nannini", label:"Portrait: Gianna Nannini (SE1w9)"},
-        {route:"beruehmte-reinhold-wuerth", label:"Portrait: Reinhold Würth (SE1w9)"},
+        {route:"beruehmte-fritz-wepper", label:"Portrait: Fritz Wepper (SP1w9)"},
+        {route:"beruehmte-gianna-nannini", label:"Portrait: Gianna Nannini (SP1w9)"},
+        {route:"beruehmte-reinhold-wuerth", label:"Portrait: Reinhold Würth (SP1w9)"},
       ])}
     </div>
   `);
@@ -939,7 +939,7 @@ export function leboMPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-lebo-m-portrait.jpg" alt="Lebo M – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Lebo M</p>
-        <p class="krim-portrait-typ">SE2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
         <p class="krim-portrait-subtitle">South African singer &amp; composer, born 1964 in Soweto &ndash; Animal correspondence: Hippopotamus</p>
       </div>
       <div class="page-content">
@@ -952,7 +952,7 @@ export function leboMPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Two: Care That Becomes an Acoustic Home</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation Two (SE2)</strong> secures closeness and belonging, according to Naranjo, through what he called <em>Privilege</em>: making oneself indispensable through concrete, practical giving. In Lebo M, this shows in his more than three decades of loyalty to the <em>Lion King</em> franchise – from the original film in 1994 through the companion album, the Broadway score, the direct-to-video sequel, live concerts, and the photorealistic remake.</p>
+          <p class="vb-intro">The <strong>self-preservation Two (SP2)</strong> secures closeness and belonging, according to Naranjo, through what he called <em>Privilege</em>: making oneself indispensable through concrete, practical giving. In Lebo M, this shows in his more than three decades of loyalty to the <em>Lion King</em> franchise – from the original film in 1994 through the companion album, the Broadway score, the direct-to-video sequel, live concerts, and the photorealistic remake.</p>
           <p class="vb-intro">Composer Hans Zimmer originally brought him on board to give the choruses and compositions an authentic African sound – a role Lebo M never treated as a one-off appearance, but as an ongoing, caring responsibility for the sound of an entire musical world he helped shape for decades.</p>
         </blockquote>
 
@@ -964,8 +964,8 @@ export function leboMPortraitPage() {
 
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE2w3 lies in the ability to build, from a single, deeply personal musical gesture – the Zulu call at the start of <em>Circle of Life</em> – a decades-long, world-spanning body of work that has become familiar to millions without denying its roots.</p>
-          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to a work's success. In the SE2w3, this can combine with the need to remain visibly present in every new installment of the franchise – a constancy that secures continuity, but also ties one's identity closely to a single, if monumental, body of work.</p>
+          <p class="vb-intro">The light of the SP2w3 lies in the ability to build, from a single, deeply personal musical gesture – the Zulu call at the start of <em>Circle of Life</em> – a decades-long, world-spanning body of work that has become familiar to millions without denying its roots.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to a work's success. In the SP2w3, this can combine with the need to remain visibly present in every new installment of the franchise – a constancy that secures continuity, but also ties one's identity closely to a single, if monumental, body of work.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Work: From Soweto to the Center of a World Success</h2>
@@ -980,9 +980,9 @@ export function leboMPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
-        {route:"beruehmte-nate-dogg", label:"Portrait: Nate Dogg (SE2w3)"},
-        {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SE2w3)"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-nate-dogg", label:"Portrait: Nate Dogg (SP2w3)"},
+        {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SP2w3)"},
       ])}
     </div>
   `);
@@ -1806,7 +1806,7 @@ export function miraMuratiPortraitPage() {
         <h2 class="vb-section">2. The Social Two: Influence Through Indispensability</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>social Two (SO2)</strong> seeks not the affection of individuals, but influence and significance within a larger cause — Naranjo called this subtype "Ambition": power is not claimed openly, but earned through steadily growing indispensability to an important institution. Murati embodies this pattern almost textbook-perfectly: she never became known through spectacular public appearances, but through becoming, at every stage of her career, the person the organization could no longer do without.</p>
-          <p class="vb-intro">The high point of this pattern: in November 2023, when OpenAI's board unexpectedly fired CEO Sam Altman, it was Murati who was named interim CEO for three days — not because she had sought it, but because the organization, in crisis, turned to her as its load-bearing pillar. Telling for the social Two: her first act as interim CEO was not to consolidate her own power, but to advocate for the return of Sam Altman (SE4w5) — she mobilized employees and investors around the argument that his return was essential for the company's survival.</p>
+          <p class="vb-intro">The high point of this pattern: in November 2023, when OpenAI's board unexpectedly fired CEO Sam Altman, it was Murati who was named interim CEO for three days — not because she had sought it, but because the organization, in crisis, turned to her as its load-bearing pillar. Telling for the social Two: her first act as interim CEO was not to consolidate her own power, but to advocate for the return of Sam Altman (SP4w5) — she mobilized employees and investors around the argument that his return was essential for the company's survival.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Three-Wing: Competence as Currency</h2>
@@ -1817,7 +1817,7 @@ export function miraMuratiPortraitPage() {
 
         <h2 class="vb-section">4. Visibly Invisible: Influence Without the Spotlight</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Despite her central role in developing ChatGPT and DALL-E, Murati remained notably private about her personal life and was rarely the public face of OpenAI as CTO — that role usually fell to Sam Altman (SE4w5). As CEO of her own company, she has been even harder to find. This is no contradiction of the social Two, but its core: significance does not arise from visibility itself, but from a position at the center of an important cause — whether one stands in the spotlight while doing so is secondary.</p>
+          <p class="vb-intro">Despite her central role in developing ChatGPT and DALL-E, Murati remained notably private about her personal life and was rarely the public face of OpenAI as CTO — that role usually fell to Sam Altman (SP4w5). As CEO of her own company, she has been even harder to find. This is no contradiction of the social Two, but its core: significance does not arise from visibility itself, but from a position at the center of an important cause — whether one stands in the spotlight while doing so is secondary.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow</h2>
@@ -2225,17 +2225,17 @@ export function enricoCarusoPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SP3w2)"},
         {route:"beruehmte-andre-agassi", label:"Portrait: Andre Agassi (SP3w2)"},
         {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SP3w2)"},
         {route:"astrologie-enrico-caruso", label:"Enneagram Meets Astrology: Enrico Caruso (SP3w2)"},
-        {route:"krankheitsportraets-enrico-caruso", label:"Illness Portrait: Enrico Caruso (SE3w2)"},
-        {route:"beruehmte-anna-netrebko", label:"Portrait: Anna Netrebko (SE3w4)"},
+        {route:"krankheitsportraets-enrico-caruso", label:"Illness Portrait: Enrico Caruso (SP3w2)"},
+        {route:"beruehmte-anna-netrebko", label:"Portrait: Anna Netrebko (SP3w4)"},
         {route:"beruehmte-dmitri-hvorostovsky", label:"Portrait: Dmitri Hvorostovsky (SO3w2)"},
         {route:"beruehmte-maria-callas", label:"Portrait: Maria Callas (SP3w2)"},
-        {route:"beruehmte-michael-mina", label:"Portrait: Michael Mina (SE3w2)"},
-        {route:"beruehmte-wim-thoelke", label:"Portrait: Wim Thoelke (SE3w4)"},
+        {route:"beruehmte-michael-mina", label:"Portrait: Michael Mina (SP3w2)"},
+        {route:"beruehmte-wim-thoelke", label:"Portrait: Wim Thoelke (SP3w4)"},
       ])}
     </div>
   `);
@@ -2289,7 +2289,7 @@ export function gunterGabrielPortraitPage() {
         <h2 class="vb-section">6. The path to healing: from hardness to true strength</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Eight's path to healing leads from the question <em>Do I have to be hard so I won't get hurt?</em> to the realization <em>True strength shows precisely in being able to be vulnerable.</em> Gabriel's life – from his early, traumatic childhood through the uncompromising hardness of his successful years to the personal setbacks of the 1980s – reads like a long, often painful path to exactly this realization.</p>
-          <p class="vb-intro">That his friendship with Johnny Cash (SE3w4) – a man who had himself gone through deep struggles of his own – counted among the most constant bonds of his life shows the mature nine-wing side: a lion who could allow real closeness outside the fight, instead of avoiding it through hardness.</p>
+          <p class="vb-intro">That his friendship with Johnny Cash (SP3w4) – a man who had himself gone through deep struggles of his own – counted among the most constant bonds of his life shows the mature nine-wing side: a lion who could allow real closeness outside the fight, instead of avoiding it through hardness.</p>
         </blockquote>
 
       </div>
@@ -2301,7 +2301,7 @@ export function gunterGabrielPortraitPage() {
         {route:"subtype/so8", label:"SO8 – The Lion: subtype profile"},
         {route:"beruehmte-bud-spencer", label:"Portrait: Bud Spencer (SO8w9)"},
         {route:"beruehmte-karl-marx", label:"Portrait: Karl Marx (SO8w9)"},
-        {route:"beruehmte-johnny-cash", label:"Portrait: Johnny Cash (SE3w4)"},
+        {route:"beruehmte-johnny-cash", label:"Portrait: Johnny Cash (SP3w4)"},
       ])}
     </div>
   `);
@@ -2579,7 +2579,7 @@ export function erichVonDaenikenPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-erich-von-daeniken-portrait.jpg" alt="Erich von Däniken – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Erich von Däniken</p>
-        <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 with a Nine-Wing</p>
+        <p class="krim-portrait-typ">SP8w9 &middot; Self-Preservation Type 8 with a Nine-Wing</p>
         <p class="krim-portrait-subtitle">Swiss author, 1935&ndash;2026 &ndash; Animal correspondence: Orangutan</p>
       </div>
       <div class="page-content">
@@ -2592,7 +2592,7 @@ export function erichVonDaenikenPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Eight: Autonomy at Any Price</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation Eight (SE8)</strong> defends above all one thing: its own independence from outside control. Naranjo described this subtype through the motif of ›satisfaction‹ &ndash; an unconditional sticking to one's own plan, if necessary against rules and authority. In Däniken this showed itself in a thoroughly ambivalent way: to finance his early travels and research, he falsified the accounts as a hotel director and took out unauthorized loans &ndash; in 1970 he was sentenced to three and a half years in prison for fraud, embezzlement, and forgery.</p>
+          <p class="vb-intro">The <strong>self-preservation Eight (SP8)</strong> defends above all one thing: its own independence from outside control. Naranjo described this subtype through the motif of ›satisfaction‹ &ndash; an unconditional sticking to one's own plan, if necessary against rules and authority. In Däniken this showed itself in a thoroughly ambivalent way: to finance his early travels and research, he falsified the accounts as a hotel director and took out unauthorized loans &ndash; in 1970 he was sentenced to three and a half years in prison for fraud, embezzlement, and forgery.</p>
           <p class="vb-intro">What matters is what happened next: instead of letting prison stop him, he wrote his second book, ›Return to the Stars‹, in jail, which also became a bestseller &ndash; one of the rare cases of an author cementing his worldwide success from behind bars. That is the self-preservation Eight in pure form: outside circumstances, even a prison cell, change nothing about one's own plan. Control over one's own work is not negotiable.</p>
         </blockquote>
 
@@ -2604,7 +2604,7 @@ export function erichVonDaenikenPortraitPage() {
 
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Eight</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE8w9 is the ability to build, out of practically nothing &ndash; a career as a waiter and hotel manager with no academic background &ndash; a global body of work that lasted decades and never made itself dependent on authorities or setbacks. Until his death on January 10, 2026, at age 90, Däniken remained an independent, self-marketed voice that no publisher and no academic institution ever fully controlled.</p>
+          <p class="vb-intro">The light of the SP8w9 is the ability to build, out of practically nothing &ndash; a career as a waiter and hotel manager with no academic background &ndash; a global body of work that lasted decades and never made itself dependent on authorities or setbacks. Until his death on January 10, 2026, at age 90, Däniken remained an independent, self-marketed voice that no publisher and no academic institution ever fully controlled.</p>
           <p class="vb-intro">The fateful pattern of the Eight is <strong>lust</strong> in the sense of an inflated claim to power &ndash; the conviction that one's own agenda justifies breaking rules if necessary. In Däniken this first showed itself very concretely in the embezzlement that made his career possible in the first place, and later more subtly in the unshakeable manner in which he set aside well-founded scientific counterarguments for decades instead of seriously examining them.</p>
         </blockquote>
 
@@ -2620,8 +2620,8 @@ export function erichVonDaenikenPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se8", label:"SE8 – The Orangutan: Subtype profile"},
-        {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SE8w9)"},
+        {route:"subtype/se8", label:"SP8 – The Orangutan: Subtype profile"},
+        {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SP8w9)"},
       ])}
     </div>
   `);

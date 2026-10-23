@@ -458,10 +458,10 @@ The growth point of Type One is Type Seven—lightness, creativity, the ability 
       ${relatedLinks([
         {route:"kriminalpsychologie-arno-funke", label:"Criminal Psychology: Arno Funke"},
         {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy"},
-        {route:"kriminalpsychologie-dennis-rader", label:"Dennis Rader (SE1w9) – criminal psychology"},
-        {route:"kriminalpsychologie-michail-popkow", label:"Michail Popkow (SE1w9) – criminal psychology"},
+        {route:"kriminalpsychologie-dennis-rader", label:"Dennis Rader (SP1w9) – criminal psychology"},
+        {route:"kriminalpsychologie-michail-popkow", label:"Michail Popkow (SP1w9) – criminal psychology"},
         {route:"kriminalpsychologie-pedro-alonso-lopez", label:"Pedro Alonso López (SO3w2) – criminal psychology"},
-        {route:"kriminalpsychologie-peter-sutcliffe", label:"Peter Sutcliffe (SE2w1) – criminal psychology"},
+        {route:"kriminalpsychologie-peter-sutcliffe", label:"Peter Sutcliffe (SP2w1) – criminal psychology"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
@@ -632,7 +632,7 @@ export function bonnieParkerPortraitPage() {
           <span style="display:block;"><strong>Known for:</strong> Half of the outlaw couple "Bonnie and Clyde", 21-month crime spree across the American Midwest (1932–1934), author of self-mythologizing poems, killed in a police ambush</span>
         </p>
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The sexual Four compared: how envy becomes the tragic, dramatized uniqueness of a relationship – and why the Three wing turns quiet suffering into public legend.", "The Hidden Dynamics of the 27 Subtypes")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE4, SO4, SX4 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP4, SO4, SX4 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Envy as the core motive of the Four: how the Four's protective system forms – and how it dissolves through healing.", "Who You Really Are (Volume 1)")}
 
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -809,7 +809,7 @@ export function charlesStarkweatherPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The sexual Four compared: how competitive envy can express itself in closeness as well as in destruction.", "The Hidden Dynamics of the 27 Subtypes")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE4, SO4, SX4 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP4, SO4, SX4 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Type 4 portrayed in depth – envy, identity, and the healing path through genuine equal worth.", "Who You Really Are – Volume 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -1039,13 +1039,13 @@ Rader's downfall was not a chance discovery—it was self-induced. He explicitly
         {route:"kriminalpsychologie-andrei-tschikatilo", label:"Criminal Psychology: Andrei Chikatilo"},
         {route:"kriminalpsychologie-arno-funke", label:"Criminal Psychology: Arno Funke"},
         {route:"kriminalpsychologie-alex-murdaugh", label:"Alex Murdaugh (SX1w2) – criminal psychology"},
-        {route:"kriminalpsychologie-beate-zschaepe", label:"Beate Zsch\u00e4pe (SE1w9) – criminal psychology"},
+        {route:"kriminalpsychologie-beate-zschaepe", label:"Beate Zsch\u00e4pe (SP1w9) – criminal psychology"},
         {route:"kriminalpsychologie-fritz-haarmann", label:"Fritz Haarmann (SX1w9) – criminal psychology"},
         {route:"kriminalpsychologie-gary-ridgway", label:"Gary Ridgway (SX1w2) – criminal psychology"},
         {route:"kriminalpsychologie-josef-fritzl", label:"Josef Fritzl (SX1w9) – criminal psychology"},
-        {route:"kriminalpsychologie-michail-popkow", label:"Michail Popkow (SE1w9) – criminal psychology"},
-        {route:"kriminalpsychologie-peter-sutcliffe", label:"Peter Sutcliffe (SE2w1) – criminal psychology"},
-        {route:"kriminalpsychologie-rex-heuermann", label:"Rex Heuermann (SE8w9) – criminal psychology"},
+        {route:"kriminalpsychologie-michail-popkow", label:"Michail Popkow (SP1w9) – criminal psychology"},
+        {route:"kriminalpsychologie-peter-sutcliffe", label:"Peter Sutcliffe (SP2w1) – criminal psychology"},
+        {route:"kriminalpsychologie-rex-heuermann", label:"Rex Heuermann (SP8w9) – criminal psychology"},
         {route:"kriminalpsychologie-ted-bundy", label:"Ted Bundy (SO1w9) – criminal psychology"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
@@ -1328,17 +1328,17 @@ export function harveyWeinsteinPortraitPage() {
 
       ${relatedLinks([
         {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy"},
-        {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar (SE3w4)"},
-        {route:"kriminalpsychologie-anna-delvey", label:"Anna Delvey (SE2w3) – criminal psychology"},
-        {route:"kriminalpsychologie-buster-murdaugh", label:"Buster Murdaugh (SE2w3) – criminal psychology"},
+        {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar (SP3w4)"},
+        {route:"kriminalpsychologie-anna-delvey", label:"Anna Delvey (SP2w3) – criminal psychology"},
+        {route:"kriminalpsychologie-buster-murdaugh", label:"Buster Murdaugh (SP2w3) – criminal psychology"},
         {route:"kriminalpsychologie-jack-unterweger", label:"Jack Unterweger (SO2w1) – criminal psychology"},
         {route:"kriminalpsychologie-jeffrey-epstein", label:"Jeffrey Epstein (SX8w9) – criminal psychology"},
         {route:"kriminalpsychologie-jim-jones", label:"Jim Jones (SO2w3) – criminal psychology"},
-        {route:"kriminalpsychologie-john-wayne-gacy", label:"John Wayne Gacy (SE2w3) – criminal psychology"},
-        {route:"kriminalpsychologie-jonathan-meijer", label:"Jonathan Meijer (SE2w1) – criminal psychology"},
+        {route:"kriminalpsychologie-john-wayne-gacy", label:"John Wayne Gacy (SP2w3) – criminal psychology"},
+        {route:"kriminalpsychologie-jonathan-meijer", label:"Jonathan Meijer (SP2w1) – criminal psychology"},
         {route:"kriminalpsychologie-pamela-smart", label:"Pamela Smart (SX2w3) – criminal psychology"},
-        {route:"kriminalpsychologie-peter-sutcliffe", label:"Peter Sutcliffe (SE2w1) – criminal psychology"},
-        {route:"kriminalpsychologie-tommy-lynn-sells", label:"Tommy Lynn Sells (SE2w1) – criminal psychology"},
+        {route:"kriminalpsychologie-peter-sutcliffe", label:"Peter Sutcliffe (SP2w1) – criminal psychology"},
+        {route:"kriminalpsychologie-tommy-lynn-sells", label:"Tommy Lynn Sells (SP2w1) – criminal psychology"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
@@ -1355,7 +1355,7 @@ export function jeanneWeberPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/jeanne-weber-portrait.jpg" alt="Jeanne Weber – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jeanne Weber</p>
-        <p class="krim-portrait-typ">SE2w1 &middot; Self-Preservation Type 2 with One-wing</p>
+        <p class="krim-portrait-typ">SP2w1 &middot; Self-Preservation Type 2 with One-wing</p>
         <p class="krim-portrait-sub">"The Ogress of the Goutte d'Or" &middot; Animal Correspondence: Hippopotamus</p>
       </div>
 
@@ -1367,13 +1367,13 @@ export function jeanneWeberPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The self-preservation Two: Privilege through indispensability</h3>
-        <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SE2)</strong> the subtype of <em>Privilege</em>: a deeply rooted sense of securing a special place in a loved one's life through being indispensable – and deriving a quiet entitlement from it. Weber repeatedly took on the care of children of her own accord, even after suspicion against her had already grown – she even moved on under a false name to take up a caretaking role with a child unrelated to her.</p>
-        <p class="vb-intro">This inability to let go of the caretaker role, even in the face of mounting suspicion, is the SE2 in its most destructive form: closeness to the child, the position of indispensable caregiver, becomes the compulsive center of her own self-understanding – and the occasion for violence that repeats itself within exactly this intimate frame.</p>
+        <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SP2)</strong> the subtype of <em>Privilege</em>: a deeply rooted sense of securing a special place in a loved one's life through being indispensable – and deriving a quiet entitlement from it. Weber repeatedly took on the care of children of her own accord, even after suspicion against her had already grown – she even moved on under a false name to take up a caretaking role with a child unrelated to her.</p>
+        <p class="vb-intro">This inability to let go of the caretaker role, even in the face of mounting suspicion, is the SP2 in its most destructive form: closeness to the child, the position of indispensable caregiver, becomes the compulsive center of her own self-understanding – and the occasion for violence that repeats itself within exactly this intimate frame.</p>
       </div>
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The One wing: The inner compulsion</h3>
-        <p class="vb-intro">An SE2 with a more muted One wing might have stopped after the first act, or at least grown more careful. In Weber's case, a rigid, almost compulsive repetition emerged instead: the same constellation – a child briefly alone with her – repeated itself over years in different places, with different children, despite mounting investigations and public attention.</p>
+        <p class="vb-intro">An SP2 with a more muted One wing might have stopped after the first act, or at least grown more careful. In Weber's case, a rigid, almost compulsive repetition emerged instead: the same constellation – a child briefly alone with her – repeated itself over years in different places, with different children, despite mounting investigations and public attention.</p>
         <p class="vb-intro">This inability to deviate from an established pattern, even as the risk of discovery became obvious, is the One wing at its darkest: not calculated deliberation, but an inner compulsion stronger than any caution. Unlike a Three-wing pattern built on display or status, there was no public stage here – Weber sought no attention, no social advancement. Each time, she simply and persistently denied everything.</p>
       </div>
 
@@ -1391,8 +1391,8 @@ export function jeanneWeberPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. What the Enneagram reveals</h3>
-        <p class="vb-intro"><strong>a) Caregiving as cover:</strong> Unlike the SE2w3, who seeks status and public image, Weber operated exclusively within the private, familial sphere. The caregiver role was not a facade for prestige, but the only place where the acts could occur at all.</p>
-        <p class="vb-intro"><strong>b) The One wing as compulsive repetition:</strong> An SE2 with a more muted One wing might have stopped after the first discovery. Weber's strongly developed One wing showed itself as a rigid inner necessity to repeat the same pattern again and again – despite mounting risk.</p>
+        <p class="vb-intro"><strong>a) Caregiving as cover:</strong> Unlike the SP2w3, who seeks status and public image, Weber operated exclusively within the private, familial sphere. The caregiver role was not a facade for prestige, but the only place where the acts could occur at all.</p>
+        <p class="vb-intro"><strong>b) The One wing as compulsive repetition:</strong> An SP2 with a more muted One wing might have stopped after the first discovery. Weber's strongly developed One wing showed itself as a rigid inner necessity to repeat the same pattern again and again – despite mounting risk.</p>
         <p class="vb-intro"><strong>c) No public motive:</strong> Unlike Peter Sutcliffe, whose acts were accompanied by a kind of moral crusade, there is no evidence in Weber's case of a similar public justification narrative. Her pattern stayed purely private, hidden, without any self-display.</p>
       </div>
 
@@ -1400,14 +1400,14 @@ export function jeanneWeberPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Classification</h3>
         <p class="vb-intro" style="margin-bottom:1.2rem;">
           <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Jeanne Weber</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SE2w1 – Self-Preservation Two with One-wing</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SP2w1 – Self-Preservation Two with One-wing</span>
           <span style="display:block;margin-bottom:0.3rem;"><strong>Passion:</strong> Pride (as privilege of indispensability within the closest family circle)</span>
           <span style="display:block;margin-bottom:0.3rem;"><strong>Animal Correspondence:</strong> Hippopotamus</span>
           <span style="display:block;margin-bottom:0.3rem;"><strong>Life dates:</strong> October 7, 1874 – July 5, 1918</span>
           <span style="display:block;"><strong>Known for:</strong> Strangling several children from her own and extended family (1905–1908), acquitted in 1906, convicted and declared legally insane in 1908, committed to the Mareville asylum until her death in 1918</span>
         </p>
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The self-preservation Two compared: how the privilege of indispensability becomes a compulsive trap of repetition – and why the One wing pays no heed to the risk of discovery.", "The Hidden Dynamics of the 27 Subtypes")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Pride as the core motive of the Two: how the Two's protective system forms – and how it dissolves through healing.", "Who You Really Are (Volume 1)")}
 
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -1417,11 +1417,11 @@ export function jeanneWeberPortraitPage() {
       </div>
 
         ${relatedLinks([
-          {route:"kriminalpsychologie-peter-sutcliffe", label:"Criminal Psychology: Peter Sutcliffe (SE2w1)"},
-          {route:"kriminalpsychologie-ulrike-meinhof", label:"Criminal Psychology: Ulrike Meinhof (SE2w1)"},
-          {route:"kriminalpsychologie-henri-landru", label:"Criminal Psychology: Henri Désiré Landru (SE3w4)"},
+          {route:"kriminalpsychologie-peter-sutcliffe", label:"Criminal Psychology: Peter Sutcliffe (SP2w1)"},
+          {route:"kriminalpsychologie-ulrike-meinhof", label:"Criminal Psychology: Ulrike Meinhof (SP2w1)"},
+          {route:"kriminalpsychologie-henri-landru", label:"Criminal Psychology: Henri Désiré Landru (SP3w4)"},
           {route:"kriminalpsychologie-gesche-gottfried", label:"Gesche Gottfried (SO1w2) – criminal psychology"},
-          {route:"kriminalpsychologie-juana-barraza", label:"Juana Barraza (SE2w3) – criminal psychology"},
+          {route:"kriminalpsychologie-juana-barraza", label:"Juana Barraza (SP2w3) – criminal psychology"},
         ])}
       </div>
     </div>
@@ -1524,7 +1524,7 @@ export function joachimKrollPortraitPage() {
         {route:"kriminalpsychologie-jeffrey-dahmer", label:"Criminal Psychology: Jeffrey Dahmer"},
         {route:"kriminalpsychologie-anders-breivik", label:"Criminal Psychology: Anders Breivik"},
         {route:"kriminalpsychologie-harold-shipman", label:"Dr. Harold Shipman (SO5w6) – criminal psychology"},
-        {route:"kriminalpsychologie-rudolf-pleil", label:"Rudolf Pleil (SE2w3) – criminal psychology"},
+        {route:"kriminalpsychologie-rudolf-pleil", label:"Rudolf Pleil (SP2w3) – criminal psychology"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
@@ -1797,7 +1797,7 @@ export function maryAnnCottonPortraitPage() {
           <span style="display:block;"><strong>Known for:</strong> Poisoning several husbands, children, and relatives with arsenic; convicted of one murder, suspected in up to 21 deaths</span>
         </p>
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The sexual One compared: how zeal becomes unrelenting control of the closest relationship – and why the Two wing supplies the facade.", "The Hidden Dynamics of the 27 Subtypes")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Anger as the core motive of the One: how the One's protective system forms – and how it dissolves through healing.", "Who You Really Are (Volume 1)")}
 
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -1810,7 +1810,7 @@ export function maryAnnCottonPortraitPage() {
           {route:"kriminalpsychologie-gary-ridgway", label:"Criminal Psychology: Gary Ridgway (SX1w2) – Green River Killer"},
           {route:"kriminalpsychologie-paul-bernardo", label:"Criminal Psychology: Paul Bernardo (SX1w2)"},
           {route:"beruehmte-anna-anderson", label:"Portrait: Anna Anderson (SP3w4)"},
-          {route:"kriminalpsychologie-henri-landru", label:"Henri Désiré Landru (SE3w4) – criminal psychology"},
+          {route:"kriminalpsychologie-henri-landru", label:"Henri Désiré Landru (SP3w4) – criminal psychology"},
         ])}
       </div>
     </div>
@@ -1913,9 +1913,9 @@ export function nielsHoegelPortraitPage() {
         {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy"},
         {route:"kriminalpsychologie-arwed-imiela", label:"Criminal Psychology: Arwed Imiela (SP7w8)"},
         {route:"kriminalpsychologie-aileen-wuornos", label:"Aileen Wuornos (SX7w8) – criminal psychology"},
-        {route:"kriminalpsychologie-arno-funke", label:"Arno Funke (\u201eDagobert\u201c) (SE1w9) – criminal psychology"},
+        {route:"kriminalpsychologie-arno-funke", label:"Arno Funke (\u201eDagobert\u201c) (SP1w9) – criminal psychology"},
         {route:"kriminalpsychologie-chris-watts", label:"Chris Watts (SO7w6) – criminal psychology"},
-        {route:"kriminalpsychologie-dorothea-puente", label:"Dorothea Puente (SE1w2) – criminal psychology"},
+        {route:"kriminalpsychologie-dorothea-puente", label:"Dorothea Puente (SP1w2) – criminal psychology"},
         {route:"kriminalpsychologie-harold-shipman", label:"Dr. Harold Shipman (SO5w6) – criminal psychology"},
         {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Wolfgang Beltracchi (SX9w1) – criminal psychology"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
@@ -2024,15 +2024,15 @@ export function pabloEscobarPortraitPage() {
 
       ${relatedLinks([
         {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy"},
-        {route:"kriminalpsychologie-tom-keating", label:"Criminal Psychology: Tom Keating (SE3w4) – Comparison Portrait"},
-        {route:"beruehmte-wolodymyr-selenskyj", label:"Portrait: Wolodymyr Selenskyj (SE3w2)"},
+        {route:"kriminalpsychologie-tom-keating", label:"Criminal Psychology: Tom Keating (SP3w4) – Comparison Portrait"},
+        {route:"beruehmte-wolodymyr-selenskyj", label:"Portrait: Wolodymyr Selenskyj (SP3w2)"},
         {route:"kriminalpsychologie-adolf-hitler", label:"Adolf Hitler (SX4w3) – criminal psychology"},
-        {route:"kriminalpsychologie-harvey-weinstein", label:"Harvey Weinstein (SE2w1) – criminal psychology"},
+        {route:"kriminalpsychologie-harvey-weinstein", label:"Harvey Weinstein (SP2w1) – criminal psychology"},
         {route:"kriminalpsychologie-john-mcafee", label:"John McAfee (SX8w9) – criminal psychology"},
         {route:"kriminalpsychologie-luka-magnotta", label:"Luka Magnotta (SX3w4) – criminal psychology"},
-        {route:"kriminalpsychologie-michael-franzese", label:"Michael Franzese (SE3w2) – criminal psychology"},
-        {route:"kriminalpsychologie-ruja-ignatova", label:"Ruja Ignatova (SE3w4) – criminal psychology"},
-        {route:"kriminalpsychologie-samuel-bankman-fried", label:"Samuel Bankman-Fried (SE3w4) – criminal psychology"},
+        {route:"kriminalpsychologie-michael-franzese", label:"Michael Franzese (SP3w2) – criminal psychology"},
+        {route:"kriminalpsychologie-ruja-ignatova", label:"Ruja Ignatova (SP3w4) – criminal psychology"},
+        {route:"kriminalpsychologie-samuel-bankman-fried", label:"Samuel Bankman-Fried (SP3w4) – criminal psychology"},
         {route:"kriminalpsychologie-wade-wilson", label:"Wade Wilson (SO3w4) – criminal psychology"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
         {route:"psychogramme", label:"Psychogramme"},
@@ -2175,7 +2175,7 @@ export function ronnieBiggsPortraitPage() {
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong>
         <strong>Ronnie Biggs</strong> is assigned to the <strong>Sexual Type 7
         with Eight Wing (SX7w8)</strong>. The sexual Seven does not seek quiet
-        belonging (SO7) or a secured nest (SE7), but complete fusion with
+        belonging (SO7) or a secured nest (SP7), but complete fusion with
         the most intense, most exciting life available – Naranjo aptly
         described this subtype as marked by <em>Suggestibility</em>: the
         sexual Seven lets itself be enchanted, swept along, drawn into a
@@ -2233,7 +2233,7 @@ export function ronnieBiggsPortraitPage() {
         Biggs was never the mastermind of a plan, but the one who let
         himself be swept along by the intensity of someone else's plan.
         This matches sexual-Seven logic: not building one's own system (SO7),
-        not securing one's own nest (SE7), but surrendering to a pull of
+        not securing one's own nest (SP7), but surrendering to a pull of
         excitement, risk, and possibility greater than oneself.</p>
         <p class="vb-intro"><strong>b) The legend as a survival strategy:</strong>
         In Rio, Biggs turned his crime into a brand. He sold his own story
@@ -2455,7 +2455,7 @@ export function samuelBankmanFriedPortraitPage() {
         {route:"kriminalpsychologie-ruja-ignatova", label:"Criminal Psychology: Ruja Ignatova (SP3w4)"},
         {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar (SP3)"},
         {route:"kriminalpsychologie-wade-wilson", label:"Criminal Psychology: Wade Wilson (SO3w4)"},
-        {route:"kriminalpsychologie-bernie-madoff", label:"Bernie Madoff (SE3w4) – criminal psychology"},
+        {route:"kriminalpsychologie-bernie-madoff", label:"Bernie Madoff (SP3w4) – criminal psychology"},
       ])}
     </div>
   `);
@@ -2648,7 +2648,7 @@ export function tomKeatingPortraitPage() {
       </div>
 
       ${relatedLinks([
-        {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar (SE3w4) – Comparison Portrait"},
+        {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar (SP3w4) – Comparison Portrait"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
         {route:"psychogramme", label:"Psychogramme"},
       ])}
@@ -2904,8 +2904,8 @@ export function bryanKohbergerPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Sexual One in comparison: how anger expresses itself differently in SE1, SO1, and SX1 – and why rejection becomes dangerous in disintegration.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 character profiles compared.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Sexual One in comparison: how anger expresses itself differently in SP1, SO1, and SX1 – and why rejection becomes dangerous in disintegration.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 character profiles compared.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Type 1 portrayed in depth – anger, perfectionism, and the healing path through genuine serenity.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -2985,8 +2985,8 @@ export function frankHanebuthPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Born:</strong> 21 September 1964, Garbsen-Osterwald</span>
           <span style="display:block;"><strong>Legal milestones:</strong> 2001 conviction for causing serious bodily harm (Hamburg), three years in prison; 2013–2015 pretrial detention in Spain, followed by acquittal</span>
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The social Eight compared: how power and control express themselves differently in SE8, SO8, and SX8 – and why the SO8 needs an authority carried by a group.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE8, SO8, SX8 – 27 character profiles compared.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The social Eight compared: how power and control express themselves differently in SP8, SO8, and SX8 – and why the SO8 needs an authority carried by a group.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP8, SO8, SX8 – 27 character profiles compared.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Lust as the core motive of the Eight: how control and intensity become a central life theme.", "Wer du wirklich bist (Band 1)")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">

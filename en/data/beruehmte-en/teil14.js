@@ -57,7 +57,7 @@ export function ingmarBergmanPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
         {route:"beruehmte-virginia-woolf", label:"Portrait: Virginia Woolf (SP4w5)"},
         {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5)"},
         {route:"beruehmte-vanessa-goecking", label:"Portrait: Vanessa Göcking (SP4w5)"},
@@ -327,10 +327,10 @@ export function charlotteWellsPortraitPage() {
         {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
         {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5)"},
         {route:"beruehmte-ludwig-goeransson", label:"Portrait: Ludwig Göransson (SP4w5)"},
-        {route:"beruehmte-barney-fishwick", label:"Portrait: Barney Fishwick (SE4w5) – also quiet detail work in film and radio"},
-        {route:"beruehmte-mara-wilson", label:"Portrait: Mara Wilson (SE4w5) – also an early loss, processed quietly through writing"},
-        {route:"beruehmte-connie-chiu", label:"Portrait: Connie Chiu (SE4w5)"},
-        {route:"beruehmte-neil-harbisson", label:"Portrait: Neil Harbisson (SE4w5)"},
+        {route:"beruehmte-barney-fishwick", label:"Portrait: Barney Fishwick (SP4w5) – also quiet detail work in film and radio"},
+        {route:"beruehmte-mara-wilson", label:"Portrait: Mara Wilson (SP4w5) – also an early loss, processed quietly through writing"},
+        {route:"beruehmte-connie-chiu", label:"Portrait: Connie Chiu (SP4w5)"},
+        {route:"beruehmte-neil-harbisson", label:"Portrait: Neil Harbisson (SP4w5)"},
       ])}
     </div>
   `);
@@ -346,7 +346,7 @@ export function davidHumePortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-david-hume-portrait.jpg" alt="David Hume" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">David Hume</p>
-        <p class="krim-portrait-typ">SE9w8 &middot; Self-Preservation Type 9 with Eight-wing</p>
+        <p class="krim-portrait-typ">SP9w8 &middot; Self-Preservation Type 9 with Eight-wing</p>
         <p class="krim-portrait-subtitle">Scottish philosopher, 1711&ndash;1776 &ndash; Animal correspondence: Elephant</p>
       </div>
       <div class="page-content">
@@ -397,15 +397,15 @@ export function davidHumePortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"krankheitsportraets-david-hume", label:"Illness Portrait: David Hume (SE9w8)"},
-        {route:"subtype/se9", label:"SE9 – The Elephant: Subtype Profile"},
-        {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
-        {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SE9w8)"},
+        {route:"krankheitsportraets-david-hume", label:"Illness Portrait: David Hume (SP9w8)"},
+        {route:"subtype/se9", label:"SP9 – The Elephant: Subtype Profile"},
+        {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SP9w8)"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SP9w8)"},
         {route:"beruehmte-adam-smith", label:"Portrait: Adam Smith (SO1w9) – his close friend"},
         {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5) – whom he roused from ‘dogmatic slumber’"},
-        {route:"beruehmte-thomas-von-aquin", label:"Portrait: Thomas Aquinas (SE9w8)"},
-        {route:"beruehmte-spinoza", label:"Portrait: Baruch de Spinoza (SE5w6)"},
-        {route:"krankheitsportraets-johannes-brahms", label:"Johannes Brahms (SE9w8) – illness portrait"},
+        {route:"beruehmte-thomas-von-aquin", label:"Portrait: Thomas Aquinas (SP9w8)"},
+        {route:"beruehmte-spinoza", label:"Portrait: Baruch de Spinoza (SP5w6)"},
+        {route:"krankheitsportraets-johannes-brahms", label:"Johannes Brahms (SP9w8) – illness portrait"},
         {route:"beruhmte-philosophen", label:"Chart: Famous Philosophers in the Enneagram"},
       ])}
     </div>
@@ -667,12 +667,12 @@ export function hansZimmerPortraitPage() {
         {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
         {route:"beruehmte-jasmin-paolini", label:"Portrait: Jasmine Paolini (SP7w6)"},
         {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6)"},
-        {route:"beruehmte-francis-bacon", label:"Portrait: Francis Bacon (SE7w8)"},
-        {route:"beruehmte-mariah-carey", label:"Portrait: Mariah Carey (SE7w8)"},
-        {route:"beruehmte-moritz-bleibtreu", label:"Portrait: Moritz Bleibtreu (SE7w8)"},
-        {route:"beruehmte-oliver-hardy", label:"Portrait: Oliver Hardy (SE7w8)"},
-        {route:"beruehmte-umberto-eco", label:"Portrait: Dr. Umberto Eco (SE8w7)"},
-        {route:"beruehmte-wallace-shawn", label:"Portrait: Wallace Shawn (SE7w6)"},
+        {route:"beruehmte-francis-bacon", label:"Portrait: Francis Bacon (SP7w8)"},
+        {route:"beruehmte-mariah-carey", label:"Portrait: Mariah Carey (SP7w8)"},
+        {route:"beruehmte-moritz-bleibtreu", label:"Portrait: Moritz Bleibtreu (SP7w8)"},
+        {route:"beruehmte-oliver-hardy", label:"Portrait: Oliver Hardy (SP7w8)"},
+        {route:"beruehmte-umberto-eco", label:"Portrait: Dr. Umberto Eco (SP8w7)"},
+        {route:"beruehmte-wallace-shawn", label:"Portrait: Wallace Shawn (SP7w6)"},
       ])}
     </div>
   `);
@@ -735,10 +735,10 @@ export function iceCubePortraitPage() {
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
         {route:"beruehmte-mr-t", label:"Portrait: Mr. T (SP2w3)"},
         {route:"beruehmte-dr-dre", label:"Portrait: Dr. Dre (SO2w3)"},
-        {route:"beruehmte-jack-ma", label:"Portrait: Jack Ma (SE2w3)"},
-        {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SE2w3)"},
-        {route:"beruehmte-monica-simpson", label:"Portrait: Monica Simpson (SE2w3)"},
-        {route:"beruehmte-nate-dogg", label:"Portrait: Nate Dogg (SE2w3)"},
+        {route:"beruehmte-jack-ma", label:"Portrait: Jack Ma (SP2w3)"},
+        {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SP2w3)"},
+        {route:"beruehmte-monica-simpson", label:"Portrait: Monica Simpson (SP2w3)"},
+        {route:"beruehmte-nate-dogg", label:"Portrait: Nate Dogg (SP2w3)"},
       ])}
     </div>
   `);
@@ -798,10 +798,10 @@ export function jasminPaoliniPortraitPage() {
         {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
         {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SP7w8)"},
         {route:"beruehmte-caroline-peters", label:"Portrait: Caroline Peters (SX7w6)"},
-        {route:"beruehmte-jeanne-calment", label:"Portrait: Jeanne Calment (SE7w6)"},
-        {route:"beruehmte-mariah-carey", label:"Portrait: Mariah Carey (SE7w8)"},
+        {route:"beruehmte-jeanne-calment", label:"Portrait: Jeanne Calment (SP7w6)"},
+        {route:"beruehmte-mariah-carey", label:"Portrait: Mariah Carey (SP7w8)"},
         {route:"beruehmte-rowan-atkinson", label:"Portrait: Rowan Atkinson (SO7w6)"},
-        {route:"beruehmte-wallace-shawn", label:"Portrait: Wallace Shawn (SE7w6)"},
+        {route:"beruehmte-wallace-shawn", label:"Portrait: Wallace Shawn (SP7w6)"},
       ])}
     </div>
   `);
@@ -872,8 +872,8 @@ export function johnnyCashPortraitPage() {
         {route:"beruehmte-norah-jones", label:"Portrait: Norah Jones (SP3w4)"},
         {route:"beruehmte-paul-bocuse", label:"Portrait: Paul Bocuse (SP3w4)"},
         {route:"beruehmte-gunter-gabriel", label:"Portrait: Gunter Gabriel (SO8w9)"},
-        {route:"beruehmte-rosa-parks", label:"Portrait: Rosa Parks (SE3w4)"},
-        {route:"beruehmte-russell-means", label:"Portrait: Russell Means (SE3w4)"},
+        {route:"beruehmte-rosa-parks", label:"Portrait: Rosa Parks (SP3w4)"},
+        {route:"beruehmte-russell-means", label:"Portrait: Russell Means (SP3w4)"},
       ])}
     </div>
   `);
@@ -889,7 +889,7 @@ export function karolineHerfurthPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-karoline-herfurth-portrait.jpg" alt="Karoline Herfurth" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Karoline Herfurth</p>
-        <p class="krim-portrait-typ">SE4w5 &middot; Self-Preservation Type 4 with F\xfcnferfl\xfcgel</p>
+        <p class="krim-portrait-typ">SP4w5 &middot; Self-Preservation Type 4 with F\xfcnferfl\xfcgel</p>
         <p class="krim-portrait-subtitle">Actress, director, b. 1984 – Animal equivalent: Dove</p>
       </div>
       <div class="page-content">
@@ -902,28 +902,28 @@ export function karolineHerfurthPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Four: Tenacity Without Drama</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The self-preservation Four (SE4) is the countertype of the Four; outward-facing, it hardly shows what most people expect from a Four: no drama, no displayed suffering, no romantic self-staging. Instead: a quiet tenacity, a readiness to carry a great deal internally without complaining about it.</p>
-          <p class="vb-intro">Karoline Herfurth began acting at just 12 years old, was in feature films by 16, and played Grenouille's victim in Tom Tykwer's Perfume: The Story of a Murderer at 18. This early start demanded a maturity that did not push itself forward—she had to be internally stable while others were still finding their footing. That is the SE4: not the one who talks about her pain, but the one who walks through it and makes something out of it afterward.</p>
-          <p class="vb-intro">Her filmography speaks this language: she avoids the slick, the comfortable. She chooses roles that exact a cost—characters with fractures, with inner contradictions, with humanity beyond the surface. The defense pattern of the SE4—the tendency to downplay one's own internal experience—paradoxically turns into artistic strength here: she plays real people because she knows how to carry what is real.</p>
+          <p class="vb-intro">The self-preservation Four (SP4) is the countertype of the Four; outward-facing, it hardly shows what most people expect from a Four: no drama, no displayed suffering, no romantic self-staging. Instead: a quiet tenacity, a readiness to carry a great deal internally without complaining about it.</p>
+          <p class="vb-intro">Karoline Herfurth began acting at just 12 years old, was in feature films by 16, and played Grenouille's victim in Tom Tykwer's Perfume: The Story of a Murderer at 18. This early start demanded a maturity that did not push itself forward—she had to be internally stable while others were still finding their footing. That is the SP4: not the one who talks about her pain, but the one who walks through it and makes something out of it afterward.</p>
+          <p class="vb-intro">Her filmography speaks this language: she avoids the slick, the comfortable. She chooses roles that exact a cost—characters with fractures, with inner contradictions, with humanity beyond the surface. The defense pattern of the SP4—the tendency to downplay one's own internal experience—paradoxically turns into artistic strength here: she plays real people because she knows how to carry what is real.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Five Wing: The Observer Behind the Camera</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Five wing (w5) adds something decisive to the self-preservation Four: the observer, the analyst, the person who understands first before acting. While the Three wing drives the Four forward and makes them visible, the Five wing pulls back into silence, into depth, into considered judgment.</p>
           <p class="vb-intro">Herfurth's transition to directing is perhaps the clearest expression of this wing. As director of Wunderschön (2022)—a film about women and their relationship with their own bodies—she displays a precision in observing human vulnerability that stems not from a screenwriting course, but from decades of quiet watching. The Five wing thinks before it speaks. It knows what it wants to show and what it leaves out.</p>
-          <p class="vb-intro">The SE4w5 combination creates a distinctive type: emotionally deep, intellectually precise, withdrawn enough not to reveal everything, yet open enough to touch something genuine. You notice this in her interviews: little self-dramatization, much reflection. She talks about the subject, not about herself.</p>
+          <p class="vb-intro">The SP4w5 combination creates a distinctive type: emotionally deep, intellectually precise, withdrawn enough not to reveal everything, yet open enough to touch something genuine. You notice this in her interviews: little self-dramatization, much reflection. She talks about the subject, not about herself.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow: The Beauty in the Vulnerable</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The core pattern of the Four is envy—not as malice, but as the chronic feeling that others received something one lacks oneself. In the SE4, this envy remains hidden; it manifests as an inner restlessness, as the feeling of never being quite finished, never quite arriving. You see something of this in her choice of film themes: it is almost always about people wrestling with themselves, carrying something broken within them, and moving forward nonetheless.</p>
-          <p class="vb-intro">The Five wing reinforces the tendency toward withdrawal: the SE4w5 can retreat into the inner world and reduce external contact to a minimum. That protects, but it also carries the risk that one's own richness remains unseen. Herfurth has evidently chosen this path consciously: she reveals little personal information—yet what she delivers on screen is all the more meaningful.</p>
-          <p class="vb-intro">The light of this combination: she can make the vulnerable beautiful without artificiality. Her characters in Wunderschön are not heroines; they are real people wrestling with their physical selves, their story, their age. That is SE4w5 in the best sense: shaping the internal into a form that does not leave others alone.</p>
+          <p class="vb-intro">The core pattern of the Four is envy—not as malice, but as the chronic feeling that others received something one lacks oneself. In the SP4, this envy remains hidden; it manifests as an inner restlessness, as the feeling of never being quite finished, never quite arriving. You see something of this in her choice of film themes: it is almost always about people wrestling with themselves, carrying something broken within them, and moving forward nonetheless.</p>
+          <p class="vb-intro">The Five wing reinforces the tendency toward withdrawal: the SP4w5 can retreat into the inner world and reduce external contact to a minimum. That protects, but it also carries the risk that one's own richness remains unseen. Herfurth has evidently chosen this path consciously: she reveals little personal information—yet what she delivers on screen is all the more meaningful.</p>
+          <p class="vb-intro">The light of this combination: she can make the vulnerable beautiful without artificiality. Her characters in Wunderschön are not heroines; they are real people wrestling with their physical selves, their story, their age. That is SP4w5 in the best sense: shaping the internal into a form that does not leave others alone.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Dove That Finds Its Way Home</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Four leads from the question "What am I missing that was given to others?" to the realization "What I am is complete, and it is mine." For the SE4w5, this means experiencing withdrawal not as an escape, but as a silence in which one's own nature becomes clearer.</p>
+          <p class="vb-intro">The healing path of the Four leads from the question "What am I missing that was given to others?" to the realization "What I am is complete, and it is mine." For the SP4w5, this means experiencing withdrawal not as an escape, but as a silence in which one's own nature becomes clearer.</p>
           <p class="vb-intro">Karoline Herfurth's artistic trajectory points precisely there. From the child who acted, to the teenager testing boundaries, to the young woman who shone in ensemble casts, to the director making her view of the world public—that is a journey from the role to her own voice. A voice that is quiet, but precise. The dove that no longer searches because it knows where it belongs.</p>
         </blockquote>
 
@@ -933,9 +933,9 @@ export function karolineHerfurthPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
-        {route:"beruehmte-tim-bendzko", label:"Portrait: Tim Bendzko (SE4w3)"},
-        {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SE4w5)"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-tim-bendzko", label:"Portrait: Tim Bendzko (SP4w3)"},
+        {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SP4w5)"},
       ])}
     </div>
   `);
@@ -951,7 +951,7 @@ export function laoziPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-laozi-portrait.jpg" alt="Laozi (Lao Tzu)" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Laozi (Lao Tzu)</p>
-        <p class="krim-portrait-typ">SE9w1 &middot; Self-Preservation Type 9 with One-wing</p>
+        <p class="krim-portrait-typ">SP9w1 &middot; Self-Preservation Type 9 with One-wing</p>
         <p class="krim-portrait-subtitle">Philosopher, c. 6th century BCE (legendary) &ndash; Founder of Daoism, traditionally credited as author of the Tao Te Ching &ndash; Animal correspondence: Elephant</p>
       </div>
       <div class="page-content">
@@ -964,7 +964,7 @@ export function laoziPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Nine: Peace Through Simplicity</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation Nine (SE9)</strong> seeks inner peace not through relationships or social recognition, but through reduction to the essential: comfort, simplicity, merging with a manageable, natural environment. Naranjo aptly calls this subtype "appetite" &ndash; satisfying one's needs through small, physical comforts as a substitute, when the big, uncomfortable questions of life are meant to be kept at a distance.</p>
+          <p class="vb-intro">The <strong>self-preservation Nine (SP9)</strong> seeks inner peace not through relationships or social recognition, but through reduction to the essential: comfort, simplicity, merging with a manageable, natural environment. Naranjo aptly calls this subtype "appetite" &ndash; satisfying one's needs through small, physical comforts as a substitute, when the big, uncomfortable questions of life are meant to be kept at a distance.</p>
           <p class="vb-intro">In Laozi, this basic tendency appears in its most mature, philosophically distilled form: he did not want to administer a kingdom, found a school with thousands of students, or lead a political movement. According to legend, he served for a long time as keeper of the imperial archives &ndash; a withdrawn, observing post &ndash; before he could no longer bear the growing decay of the state and withdrew for good. Not a fight for reform, but the quiet departure from a world that, in his view, was destroying itself.</p>
         </blockquote>
 
@@ -983,12 +983,12 @@ export function laoziPortraitPage() {
         <h2 class="vb-section">5. The Legend of the Pass: A Quiet Departure</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The best-known account of Laozi's final years shows the self-preservation Nine in raw form: seeing that the state was decaying and reform was hopeless, he mounted a black ox and rode west, turning his back on the collapsing order for good. At the Hangu Pass, the last border post, the gatekeeper Yinxi stopped him and asked him to write down his wisdom before disappearing. Laozi complied, composing the roughly 5,000 characters of the Tao Te Ching in a short span of time &ndash; then rode on into the desert, never to return.</p>
-          <p class="vb-intro">No great farewell speech, no school left behind, no successor appointed &ndash; only a slim text, almost reluctantly written down, and a quiet disappearance. This is precisely the signature of the SE9: no loud struggle for impact, but trust that what truly matters will find its own way even without one's continued involvement &ndash; a trust that, two and a half millennia later, has proven remarkably justified.</p>
+          <p class="vb-intro">No great farewell speech, no school left behind, no successor appointed &ndash; only a slim text, almost reluctantly written down, and a quiet disappearance. This is precisely the signature of the SP9: no loud struggle for impact, but trust that what truly matters will find its own way even without one's continued involvement &ndash; a trust that, two and a half millennia later, has proven remarkably justified.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Light and Shadow of the Self-Preservation Nine</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE9w1 is its ability to live peace not as escape, but as a mature, deliberate stance: not fighting the world, but acting in accordance with its natural course. This calm is not indifference &ndash; the Tao Te Ching is threaded through with a quiet but unyielding clarity about what makes a good life and a good order.</p>
+          <p class="vb-intro">The light of the SP9w1 is its ability to live peace not as escape, but as a mature, deliberate stance: not fighting the world, but acting in accordance with its natural course. This calm is not indifference &ndash; the Tao Te Ching is threaded through with a quiet but unyielding clarity about what makes a good life and a good order.</p>
           <p class="vb-intro">The shadow of the Nine shows in the consequences of withdrawal: Laozi left behind no institution, no organized succession, no body of rules beyond his text &ndash; unlike Confucius, whose school continued to shape society actively for centuries. The Nine's risk of disengaging from commitment to the concrete, imperfect world is carried within Laozi's legacy too: a philosophy of timeless depth, but without the sustaining structure that secured its practical impact over time &ndash; had it not been for the gatekeeper at the pass.</p>
         </blockquote>
 
@@ -998,11 +998,11 @@ export function laoziPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se9", label:"SE9 – The Elephant: Subtype profile"},
+        {route:"subtype/se9", label:"SP9 – The Elephant: Subtype profile"},
         {route:"beruehmte-buddha", label:"Portrait: Siddhartha Gautama (Buddha) (SO5w4)"},
         {route:"beruehmte-konfuzius", label:"Portrait: Confucius (Kong Fuzi) (SO1w2)"},
-        {route:"beruehmte-cynthia-moss", label:"Portrait: Dr. Cynthia Moss (SE9w1)"},
-        {route:"bibel-jakobus", label:"Bible Portrait: James, Son of Alphaeus (SE9w1)"},
+        {route:"beruehmte-cynthia-moss", label:"Portrait: Dr. Cynthia Moss (SP9w1)"},
+        {route:"bibel-jakobus", label:"Bible Portrait: James, Son of Alphaeus (SP9w1)"},
       ])}
     </div>
   `);
@@ -1086,7 +1086,7 @@ export function marieKondoPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-marie-kondo-portrait.jpg" alt="Marie Kondo" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Marie Kondo</p>
-        <p class="krim-portrait-typ">SE1w2 &middot; Self-Preservation Type 1 with Two-Wing</p>
+        <p class="krim-portrait-typ">SP1w2 &middot; Self-Preservation Type 1 with Two-Wing</p>
         <p class="krim-portrait-subtitle">Organizing consultant, author & entrepreneur – b. 1984 – Animal equivalent: Eagle</p>
       </div>
       <div class="page-content">
@@ -1099,9 +1099,9 @@ export function marieKondoPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation One: Order as an Inner Need</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The self-preservation One (SE1) is the subtype that does not carry its demand for perfection outward, but inward and, above all: home. Naranjo called this subtype Worry: a constant, quiet restlessness about whether one's own environment is truly right, whether one's own life corresponds to the inner standard. This restlessness is not a deficiency. It is the engine of a lifelong refinement.</p>
-          <p class="vb-intro">Marie Kondo's KonMari Method is no organization aid like those known from lifehacking books. It is an internal system. The decisive question is not: "Do I need this?" or "Is this practical?" but: "Does it spark joy?" That is the benchmark of an SE1: not utility, not reason, but inner resonance. What corresponds to one's own standard may stay. What is not right goes.</p>
-          <p class="vb-intro">The categories, the sequence, the folding technique: everything is precise, everything has its reason, everything is tested. No improvisation. No "roughly like this." The SE1 lives in a universe in which things are either in their right place or not.</p>
+          <p class="vb-intro">The self-preservation One (SP1) is the subtype that does not carry its demand for perfection outward, but inward and, above all: home. Naranjo called this subtype Worry: a constant, quiet restlessness about whether one's own environment is truly right, whether one's own life corresponds to the inner standard. This restlessness is not a deficiency. It is the engine of a lifelong refinement.</p>
+          <p class="vb-intro">Marie Kondo's KonMari Method is no organization aid like those known from lifehacking books. It is an internal system. The decisive question is not: "Do I need this?" or "Is this practical?" but: "Does it spark joy?" That is the benchmark of an SP1: not utility, not reason, but inner resonance. What corresponds to one's own standard may stay. What is not right goes.</p>
+          <p class="vb-intro">The categories, the sequence, the folding technique: everything is precise, everything has its reason, everything is tested. No improvisation. No "roughly like this." The SP1 lives in a universe in which things are either in their right place or not.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two Wing: Helping as a Calling</h2>
@@ -1113,20 +1113,20 @@ export function marieKondoPortraitPage() {
 
         <h2 class="vb-section">4. The Passion: Wrath as Inner Rigor</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The passion of the One is called wrath, and in the SE1w2 it is turned so completely inward that it is hardly visible on the outside. Marie Kondo always appears calm, always friendly, always measured in public. But behind this stillness lies an inner judge who is relentless: a quiet, constant knowledge of what is right and what is not right.</p>
+          <p class="vb-intro">The passion of the One is called wrath, and in the SP1w2 it is turned so completely inward that it is hardly visible on the outside. Marie Kondo always appears calm, always friendly, always measured in public. But behind this stillness lies an inner judge who is relentless: a quiet, constant knowledge of what is right and what is not right.</p>
           <p class="vb-intro">This wrath does not show itself as criticism of others. It shows itself as absolute consistency in her own system. The KonMari Method has no exceptions. There is no "but this is an inheritance" rule. There is no "maybe later" category. Either an item sparks joy, or it leaves the house. This uncompromisingness is the wrath of the One: not loud, but complete.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Gratitude as a Bridge</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">One of the most famous elements of the KonMari Method is gratitude toward items: one thanks a piece of clothing before giving it away. The house is greeted upon arrival. This practice often seems strange to Western observers—but it is the key to Marie Kondo's inner logic.</p>
-          <p class="vb-intro">Here, the SE1 demand for perfection meets the relational quality of the Two wing. The SE1 knows: everything has its value, its place, its purpose. The Two wing adds: and this value deserves acknowledgment. Things that have departed have served. Letting go becomes an act of respect and thus something healing, not loss-filled. This connection of order and dignity is the core of Marie Kondo's work.</p>
+          <p class="vb-intro">Here, the SP1 demand for perfection meets the relational quality of the Two wing. The SP1 knows: everything has its value, its place, its purpose. The Two wing adds: and this value deserves acknowledgment. Things that have departed have served. Letting go becomes an act of respect and thus something healing, not loss-filled. This connection of order and dignity is the core of Marie Kondo's work.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Gift: Joy as a Compass</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Marie Kondo has given the world goes far beyond tidying tips. She taught an entire generation of people that order is not an end in itself—it is a form of self-respect. And that the decisive question in life is not: "What should I keep?" but: "What sparks joy?"</p>
-          <p class="vb-intro">That is the gift of the SE1w2: an inner system that is so clear that others can learn it, and a warmth that is large enough that it wants to pass it on. The eagle has a benchmark. The Two wing turns it into an invitation. Marie Kondo has both.</p>
+          <p class="vb-intro">That is the gift of the SP1w2: an inner system that is so clear that others can learn it, and a warmth that is large enough that it wants to pass it on. The eagle has a benchmark. The Two wing turns it into an invitation. Marie Kondo has both.</p>
         </blockquote>
 
       </div>
@@ -1135,12 +1135,12 @@ export function marieKondoPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
-        {route:"beruehmte-kennerly-kitt", label:"Portrait: Kennerly Kitt (SE1w2) – same subtype with the same wing"},
-        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SE1w9)"},
-        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SE1w2)"},
-        {route:"beruehmte-udo-juergens", label:"Portrait: Udo Jürgens (SE1w2)"},
-        {route:"beruehmte-ursula-lyon", label:"Portrait: Ursula Lyon (SE1w2)"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
+        {route:"beruehmte-kennerly-kitt", label:"Portrait: Kennerly Kitt (SP1w2) – same subtype with the same wing"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SP1w9)"},
+        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
+        {route:"beruehmte-udo-juergens", label:"Portrait: Udo Jürgens (SP1w2)"},
+        {route:"beruehmte-ursula-lyon", label:"Portrait: Ursula Lyon (SP1w2)"},
       ])}
     </div>
   `);
@@ -1200,10 +1200,10 @@ export function mickeyRourkePortraitPage() {
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-mr-t", label:"Portrait: Mr. T (SP2w3)"},
         {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SP2w3)"},
-        {route:"beruehmte-lionel-boyce", label:"Portrait: Lionel Boyce (SE2w3)"},
-        {route:"beruehmte-lisa-antoni", label:"Portrait: Lisa Antoni (SE2w3)"},
-        {route:"beruehmte-mariacarla-boscono", label:"Portrait: Mariacarla Boscono (SE2w3)"},
-        {route:"beruehmte-monica-simpson", label:"Portrait: Monica Simpson (SE2w3)"},
+        {route:"beruehmte-lionel-boyce", label:"Portrait: Lionel Boyce (SP2w3)"},
+        {route:"beruehmte-lisa-antoni", label:"Portrait: Lisa Antoni (SP2w3)"},
+        {route:"beruehmte-mariacarla-boscono", label:"Portrait: Mariacarla Boscono (SP2w3)"},
+        {route:"beruehmte-monica-simpson", label:"Portrait: Monica Simpson (SP2w3)"},
       ])}
     </div>
   `);
@@ -1264,12 +1264,12 @@ export function nateDoggPortraitPage() {
         {route:"beruehmte-ice-cube", label:"Portrait: Ice Cube (SP2w3)"},
         {route:"beruehmte-monica-simpson", label:"Portrait: Monica Simpson (SP2w3)"},
         {route:"beruehmte-dr-dre", label:"Portrait: Dr. Dre (SO2w3)"},
-        {route:"beruehmte-lebo-m", label:"Portrait: Lebo M (SE2w3)"},
-        {route:"beruehmte-lionel-boyce", label:"Portrait: Lionel Boyce (SE2w3)"},
-        {route:"beruehmte-lisa-antoni", label:"Portrait: Lisa Antoni (SE2w3)"},
-        {route:"beruehmte-loi", label:"Portrait: Loi (Leonie Greiner) (SE2w3)"},
-        {route:"beruehmte-stromae", label:"Portrait: Stromae (Paul Van Haver) (SE2w3)"},
-        {route:"beruehmte-thomas-chaanhing", label:"Portrait: Thomas Chaanhing (SE2w3)"},
+        {route:"beruehmte-lebo-m", label:"Portrait: Lebo M (SP2w3)"},
+        {route:"beruehmte-lionel-boyce", label:"Portrait: Lionel Boyce (SP2w3)"},
+        {route:"beruehmte-lisa-antoni", label:"Portrait: Lisa Antoni (SP2w3)"},
+        {route:"beruehmte-loi", label:"Portrait: Loi (Leonie Greiner) (SP2w3)"},
+        {route:"beruehmte-stromae", label:"Portrait: Stromae (Paul Van Haver) (SP2w3)"},
+        {route:"beruehmte-thomas-chaanhing", label:"Portrait: Thomas Chaanhing (SP2w3)"},
       ])}
     </div>
   `);
@@ -1409,8 +1409,8 @@ export function robertSchumannPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"krankheitsportraets-robert-schumann", label:"Illness Portrait: Robert Schumann (SX7w8)"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5)"},
-        {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SE6w5)"},
-        {route:"beruehmte-johannes-brahms", label:"Portrait: Johannes Brahms (SE9w8) – discovered by Schumann"},
+        {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SP6w5)"},
+        {route:"beruehmte-johannes-brahms", label:"Portrait: Johannes Brahms (SP9w8) – discovered by Schumann"},
         {route:"beruehmte-franz-liszt", label:"Portrait: Franz Liszt (SX7w8)"},
         {route:"beruehmte-adriano-celentano", label:"Portrait: Adriano Celentano (SX7w8)"},
         {route:"krankheitsportraets-franz-liszt", label:"Franz Liszt (SX7w8) – illness portrait"},
@@ -1480,8 +1480,8 @@ export function soerenKierkegaardPortraitPage() {
         {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5)"},
         {route:"beruehmte-heraklit", label:"Portrait: Heraclitus (SO4w5)"},
         {route:"beruehmte-georg-wilhelm-friedrich-hegel", label:"Portrait: Georg Wilhelm Friedrich Hegel (SO5w6) – lifelong adversary of 'the System'"},
-        {route:"beruehmte-joachim-llambi", label:"Portrait: Joachim Llambi (SE2w1)"},
-        {route:"beruehmte-sean-sherman", label:"Portrait: Sean Sherman (SE2w1)"},
+        {route:"beruehmte-joachim-llambi", label:"Portrait: Joachim Llambi (SP2w1)"},
+        {route:"beruehmte-sean-sherman", label:"Portrait: Sean Sherman (SP2w1)"},
       ])}
     </div>
   `);
@@ -2076,7 +2076,7 @@ export function olenaZelenskaPortraitPage() {
         ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx6", label:"SX6 &ndash; The Wolf: Subtype Profile"},
-        {route:"beruehmte-wolodymyr-selenskyj", label:"Portrait: Wolodymyr Selenskyj (SE3w2) – her husband"},
+        {route:"beruehmte-wolodymyr-selenskyj", label:"Portrait: Wolodymyr Selenskyj (SP3w2) – her husband"},
         {route:"beruehmte-eva-mendes", label:"Portrait: Eva Mendes (SX6w7)"},
         {route:"beruehmte-jennifer-aniston", label:"Portrait: Jennifer Aniston (SX6w7)"},
         {route:"beruehmte-scarlett-johansson", label:"Portrait: Scarlett Johansson (SX6w7)"},
@@ -2096,7 +2096,7 @@ export function eltonJohnPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-elton-john-portrait.jpg" alt="Elton John" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Elton John</p>
-        <p class="krim-portrait-typ">SE7w6 · Self-Preservation Type 7 with a Six Wing</p>
+        <p class="krim-portrait-typ">SP7w6 · Self-Preservation Type 7 with a Six Wing</p>
         <p class="krim-portrait-subtitle">Musician, composer, EGOT winner, born 1947 – Animal equivalent: Gorilla</p>
       </div>
       <div class="page-content">
@@ -2109,31 +2109,31 @@ export function eltonJohnPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Seven: Pleasure as a Counterweight</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation Seven (SE7)</strong> secures safety and well-being not through restraint but through active enjoyment and the ability to provide for oneself. Elton John himself said his wild stage costumes and performances were his way of letting go after a restrictive childhood. Ostrich feathers, $5,000 glasses spelling out his name in lights, costumes as the Statue of Liberty, Donald Duck, or Mozart – the most famous of all at his 1975 Dodger Stadium shows in a sequined baseball uniform.</p>
-          <p class="vb-intro">This abundance of color, fabric, and staging is the SE7 in its purest form: not restraint, but excess as a path to one's own safety. Yet the same pursuit of pleasure tipped, over two decades, into severe cocaine and alcohol addiction, compounded by bulimia – until by 1990 nothing was left that still gave him any sense of safety.</p>
+          <p class="vb-intro">The <strong>self-preservation Seven (SP7)</strong> secures safety and well-being not through restraint but through active enjoyment and the ability to provide for oneself. Elton John himself said his wild stage costumes and performances were his way of letting go after a restrictive childhood. Ostrich feathers, $5,000 glasses spelling out his name in lights, costumes as the Statue of Liberty, Donald Duck, or Mozart – the most famous of all at his 1975 Dodger Stadium shows in a sequined baseball uniform.</p>
+          <p class="vb-intro">This abundance of color, fabric, and staging is the SP7 in its purest form: not restraint, but excess as a path to one's own safety. Yet the same pursuit of pleasure tipped, over two decades, into severe cocaine and alcohol addiction, compounded by bulimia – until by 1990 nothing was left that still gave him any sense of safety.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Six Wing: Loyalty as a Lifeline</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Six wing (w6)</strong> gives the self-preservation Seven something a SE7 with a more weakly developed Six wing would not have to the same degree: the ability to stabilize through one firm, loyal bond rather than relying solely on ever-new stimulation. On April 8, 1990, Elton John sat at the bedside of sixteen-year-old Ryan White, a teenager dying of AIDS with whom he had built a close friendship. "Ryan was the spark that helped me to recover from my addictions and start the AIDS foundation," he later said.</p>
+          <p class="vb-intro">The <strong>Six wing (w6)</strong> gives the self-preservation Seven something a SP7 with a more weakly developed Six wing would not have to the same degree: the ability to stabilize through one firm, loyal bond rather than relying solely on ever-new stimulation. On April 8, 1990, Elton John sat at the bedside of sixteen-year-old Ryan White, a teenager dying of AIDS with whom he had built a close friendship. "Ryan was the spark that helped me to recover from my addictions and start the AIDS foundation," he later said.</p>
           <p class="vb-intro">A few months later, on July 29, 1990, he checked himself into Parkside Lutheran Hospital in Chicago – one of the few clinics at the time able to treat bulimia alongside cocaine and alcohol addiction. He has remained sober ever since. In 1992 he founded the Elton John AIDS Foundation, which has since raised over $600 million for HIV programs in more than 55 countries – a lasting, reliable structure that provides exactly the safety the Six wing has always sought.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Passion: Gluttony as a Life Principle and as a Trap</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The passion of the Seven is called <strong>gluttony</strong> – for the SE7w6 not just as an appetite for experience, but as a fundamental strategy of protecting oneself against scarcity by stocking up on everything available. His partnership with lyricist Bernie Taupin, unbroken since 1967, worked on the same principle of effortless abundance: Taupin often wrote a lyric in under an hour, John composed the music for it in about thirty minutes – an output that barely let up for decades.</p>
+          <p class="vb-intro">The passion of the Seven is called <strong>gluttony</strong> – for the SP7w6 not just as an appetite for experience, but as a fundamental strategy of protecting oneself against scarcity by stocking up on everything available. His partnership with lyricist Bernie Taupin, unbroken since 1967, worked on the same principle of effortless abundance: Taupin often wrote a lyric in under an hour, John composed the music for it in about thirty minutes – an output that barely let up for decades.</p>
           <p class="vb-intro">This same abundance became a trap during the addiction years: always more, never enough, until the body itself drew the line. He recorded his 1992 album "The One" fully sober for the first time – "I was used to making records under the haze of alcohol or drugs, and here I was, 100% sober, so it was tough," he reflected in 2020.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Seven</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE7w6 shows in how boundless pleasure can turn into equally boundless generosity: over 300 million records sold, EGOT status (Emmy, Grammy, Oscar, Tony), a knighthood in 1998 – and alongside it, one of the world's most influential AIDS foundations, whose annual Oscar party has long become one of Hollywood's most significant charity events.</p>
+          <p class="vb-intro">The light of the SP7w6 shows in how boundless pleasure can turn into equally boundless generosity: over 300 million records sold, EGOT status (Emmy, Grammy, Oscar, Tony), a knighthood in 1998 – and alongside it, one of the world's most influential AIDS foundations, whose annual Oscar party has long become one of Hollywood's most significant charity events.</p>
           <p class="vb-intro">The shadow showed in the two lost decades of addiction and in a marriage to Renate Blauel, entered in 1984 and lasting only three years – an attempt to force himself into a conventional form that did not fit his true identity. Only with David Furnish, a civil partnership since 2005 and married since 2014, did he find the stable, loyal bond the Six wing had always been searching for.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Legacy: From a Restless Territory-Builder to a Reliable Advocate</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Elton John has traveled the full range of the SE7w6 path: from the boy who built himself a first domain of his own at his grandmother's piano, through the gorilla in ostrich feathers who outshone a cramped childhood home with boundless stage splendor, to the addict who only found the anchor he needed at the bedside of a sixteen-year-old friend.</p>
+          <p class="vb-intro">Elton John has traveled the full range of the SP7w6 path: from the boy who built himself a first domain of his own at his grandmother's piano, through the gorilla in ostrich feathers who outshone a cramped childhood home with boundless stage splendor, to the addict who only found the anchor he needed at the bedside of a sixteen-year-old friend.</p>
           <p class="vb-intro">His "Farewell Yellow Brick Road" tour (2018–2023) became the most successful tour in music history – one last, extended indulgence, this time without the escape reflexes of earlier decades.</p>
         </blockquote>
 
@@ -2143,11 +2143,11 @@ export function eltonJohnPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se7", label:"SE7 – The Gorilla: Subtype Profile"},
-        {route:"beruehmte-larry-king", label:"Portrait: Larry King (SE7w6)"},
-        {route:"beruehmte-junko-tabei", label:"Portrait: Junko Tabei (SE7w6)"},
-        {route:"beruehmte-jeanne-calment", label:"Portrait: Jeanne Calment (SE7w6)"},
-        {route:"krankheitsportraets-elton-john", label:"Illness Portrait: Elton John (SE7w6)"},
+        {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
+        {route:"beruehmte-larry-king", label:"Portrait: Larry King (SP7w6)"},
+        {route:"beruehmte-junko-tabei", label:"Portrait: Junko Tabei (SP7w6)"},
+        {route:"beruehmte-jeanne-calment", label:"Portrait: Jeanne Calment (SP7w6)"},
+        {route:"krankheitsportraets-elton-john", label:"Illness Portrait: Elton John (SP7w6)"},
       ])}
     </div>
   `);
@@ -2233,7 +2233,7 @@ export function heinzRuehmannPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-heinz-ruehmann-portrait.jpg" alt="Heinz Rühmann" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Heinz Rühmann</p>
-        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with Nine-Wing</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-Wing</p>
         <p class="krim-portrait-subtitle">German actor, 1902–1994 &ndash; Animal correspondence: Bald Eagle</p>
       </div>
       <div class="page-content">
@@ -2264,7 +2264,7 @@ export function heinzRuehmannPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation One with a Nine-Wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE1w9 shows in the reliability with which Rühmann maintained a high craft standard for nearly seventy years, without ever needing scandal or self-promotion – over 100 films, carried by quiet discipline rather than loud self-display.</p>
+          <p class="vb-intro">The light of the SP1w9 shows in the reliability with which Rühmann maintained a high craft standard for nearly seventy years, without ever needing scandal or self-promotion – over 100 films, carried by quiet discipline rather than loud self-display.</p>
           <p class="vb-intro">The shadow lies in exactly the evasive move that accompanied him throughout his life: the moral ambivalence of his stance under National Socialism was never publicly worked through, but hidden behind the same friendly, harmless character that had secured his career in the first place. For the self-preservation One with a Nine-wing, one's own conflict avoidance can become a convenient excuse not to face one's own responsibility.</p>
         </blockquote>
 
@@ -2280,7 +2280,7 @@ export function heinzRuehmannPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se1", label:"SE1 – The Bald Eagle: Subtype Profile"},
+        {route:"subtype/se1", label:"SP1 – The Bald Eagle: Subtype Profile"},
         {route:"krankheitsportraets-anthony-hopkins", label:"Illness Portrait: Anthony Hopkins (SP1w9)"},
         {route:"krankheitsportraets-konrad-adenauer", label:"Illness Portrait: Konrad Adenauer (SP1w9)"},
       ])}
@@ -2372,13 +2372,13 @@ export function michaelMinaPortraitPage() {
         <h2 class="vb-section">1. The Raccoon</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three – pragmatic, adaptable, with an unerring instinct for what actually works. Michael Mina was born in 1969 in Cairo and grew up in rural Ellensburg, Washington – the child of Egyptian immigrants in a small town that had little to do with fine dining. At sixteen, when his employer suffered a heart attack, he single-handedly ran the restaurant for weeks – an early confrontation with responsibility, long before it became a career.</p>
-          <p class="vb-intro">This mix of unremarkable origins and early proven practical competence is pure SE3 handwriting: no overnight breakout through a talent show or a famous name, but the patient proof that one can step up when it counts.</p>
+          <p class="vb-intro">This mix of unremarkable origins and early proven practical competence is pure SP3 handwriting: no overnight breakout through a talent show or a famous name, but the patient proof that one can step up when it counts.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Three: Security Through an Empire of Substance</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation Three (SE3)</strong> seeks security not through stage presence or media self-promotion, but through demonstrable, repeatable performance. After training at the Culinary Institute of America, Mina first worked unpaid weekend shifts under Charlie Palmer at New York's Aureole, before gaining a foothold with George Morrone at the Hotel Bel-Air. Together they developed the concept for the restaurant Aqua in San Francisco in 1991, where Mina served as executive chef from 1993 to 2002 and won two James Beard Foundation awards (Rising Star Chef of the Year 1997, Best California Chef 2002).</p>
-          <p class="vb-intro">From this craft-based foundation, he built the Mina Group starting in 2002 – today more than 40 restaurants, from his own namesake restaurants each holding a Michelin star (San Francisco, Las Vegas) to the steakhouse concept Bourbon Steak and the barbecue format International Smoke. Not a one-man show, but a system of repeatable quality across dozens of locations – exactly the kind of scaled, resilient security the SE3 seeks, rather than relying on a single, glamorous TV career.</p>
+          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> seeks security not through stage presence or media self-promotion, but through demonstrable, repeatable performance. After training at the Culinary Institute of America, Mina first worked unpaid weekend shifts under Charlie Palmer at New York's Aureole, before gaining a foothold with George Morrone at the Hotel Bel-Air. Together they developed the concept for the restaurant Aqua in San Francisco in 1991, where Mina served as executive chef from 1993 to 2002 and won two James Beard Foundation awards (Rising Star Chef of the Year 1997, Best California Chef 2002).</p>
+          <p class="vb-intro">From this craft-based foundation, he built the Mina Group starting in 2002 – today more than 40 restaurants, from his own namesake restaurants each holding a Michelin star (San Francisco, Las Vegas) to the steakhouse concept Bourbon Steak and the barbecue format International Smoke. Not a one-man show, but a system of repeatable quality across dozens of locations – exactly the kind of scaled, resilient security the SP3 seeks, rather than relying on a single, glamorous TV career.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Professional Substance: Tableside as Signature</h2>
@@ -2395,7 +2395,7 @@ export function michaelMinaPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE3w2 is the ability to <strong>turn hard, unglamorous work over decades into reliable, warmly delivered quality</strong>. Mina himself describes his relationship to work plainly: "I work hard, and I play hard with my family" – performance as foundation, family as retreat, not another stage.</p>
+          <p class="vb-intro">The light of the SP3w2 is the ability to <strong>turn hard, unglamorous work over decades into reliable, warmly delivered quality</strong>. Mina himself describes his relationship to work plainly: "I work hard, and I play hard with my family" – performance as foundation, family as retreat, not another stage.</p>
           <p class="vb-intro">The shadow of the self-preservation Three lies in the danger of defining one's own worth exclusively through demonstrable performance – running more than forty restaurants also means that a plateau or a single failure can quickly feel like personal failure. The flip side of a life organized almost entirely around work and results is the question of who one is when there's nothing to accomplish right now.</p>
         </blockquote>
 
@@ -2411,7 +2411,7 @@ export function michaelMinaPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se3", label:"SE3 – The Raccoon: subtype profile"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: subtype profile"},
         {route:"beruehmte-horst-tappert", label:"Portrait: Horst Tappert (SP3w2)"},
         {route:"beruehmte-bastian-pastewka", label:"Portrait: Bastian Pastewka (SP3w2)"},
         {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SP3w2)"},
@@ -2486,7 +2486,7 @@ export function dmitriShostakovichPortraitPage() {
         {route:"beruehmte-lise-meitner", label:"Portrait: Lise Meitner (SO5w4)"},
         {route:"beruehmte-david-hockney", label:"Portrait: David Hockney (SO5w4)"},
         {route:"beruehmte-leonardo-da-vinci", label:"Portrait: Leonardo da Vinci (SO5w4)"},
-        {route:"beruehmte-johannes-brahms", label:"Portrait: Johannes Brahms (SE9w8) – composer, 21 years on the 1st Symphony"},
+        {route:"beruehmte-johannes-brahms", label:"Portrait: Johannes Brahms (SP9w8) – composer, 21 years on the 1st Symphony"},
         {route:"krankheitsportraets-dmitri-schostakowitsch", label:"Illness Portrait: Dmitri Shostakovich (SO5w4)"},
       ])}
     </div>
@@ -2577,7 +2577,7 @@ export function lewisHamiltonPortraitPage() {
         <h2 class="vb-section">1. The Golden Retriever Who Leads the Pack</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Where a person needs support, a Golden Retriever is often the one sent: as a therapy dog, as a companion in hospital, as a rescue dog in a disaster area. Its "soft mouth" lets it carry a raw egg without crushing it, and its joy in serving is so open that it rubs off on the people around it. It works not for itself but for the one in front of it, and it wants to be seen doing so.</p>
-          <p class="vb-intro">Lewis Hamilton was born on 7 January 1985 in Stevenage. His father Anthony took on several jobs to pay for his son's expensive karting. At ten, by his own account, Hamilton approached Ron Dennis, then McLaren team principal, at an awards ceremony and told him he wanted to drive for him one day. McLaren took him into its young driver programme in 1998, he debuted in Formula 1 in 2007 and won his first title in 2008 by one point. With seven titles he is level with Michael Schumacher (SE1w9). The young Hamilton found early the patron who could make his path possible, and stayed bound to him for years.</p>
+          <p class="vb-intro">Lewis Hamilton was born on 7 January 1985 in Stevenage. His father Anthony took on several jobs to pay for his son's expensive karting. At ten, by his own account, Hamilton approached Ron Dennis, then McLaren team principal, at an awards ceremony and told him he wanted to drive for him one day. McLaren took him into its young driver programme in 1998, he debuted in Formula 1 in 2007 and won his first title in 2008 by one point. With seven titles he is level with Michael Schumacher (SP1w9). The young Hamilton found early the patron who could make his path possible, and stayed bound to him for years.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social Two: Belonging by Giving</h2>
@@ -2621,7 +2621,7 @@ export function lewisHamiltonPortraitPage() {
         {route:"lebensmusterkompass/so2", label:"Life Pattern Compass: SO2 – Golden Retriever"},
         {route:"beruehmte-nico-rosberg", label:"Portrait: Nico Rosberg (SO1w2) – his Mercedes team-mate"},
         {route:"beruehmte-niki-lauda", label:"Portrait: Niki Lauda (SO1w2) – negotiated with him as Mercedes chairman"},
-        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SE1w9)"},
+        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SP1w9)"},
         {route:"beruehmte-usain-bolt", label:"Portrait: Usain Bolt (SO2w3)"},
       ])}
     </div>
@@ -2706,7 +2706,7 @@ export function fabriceLuchiniPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-fabrice-luchini-portrait.jpg" alt="Fabrice Luchini – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-fabrice-luchini-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Fabrice Luchini</p>
-        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with a Nine-wing</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with a Nine-wing</p>
         <p class="krim-portrait-subtitle">French actor and reader, b. 1951 &ndash; &lsquo;La Discrète&rsquo;, &lsquo;Dans la maison&rsquo;, readings from La Fontaine to Céline &ndash; Animal correspondence: Eagle</p>
       </div>
       <div class="page-content">
@@ -2719,7 +2719,7 @@ export function fabriceLuchiniPortraitPage() {
 
         <h2 class="vb-section">2. The self-preservation One: worry about speaking correctly</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation One (SE1)</strong> directs its perfectionism not primarily at correcting the world but inward: at its own preparation, its own craft, its own integrity. Naranjo called this subtype <em>Worry</em> – the constant, productive concern of not living up to one&rsquo;s own standard. The One&rsquo;s passion is anger, and in the self-preservation One it is aimed not at others but at its own shortcomings. Someone built this way looks for safety not in applause but in having botched nothing.</p>
+          <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> directs its perfectionism not primarily at correcting the world but inward: at its own preparation, its own craft, its own integrity. Naranjo called this subtype <em>Worry</em> – the constant, productive concern of not living up to one&rsquo;s own standard. The One&rsquo;s passion is anger, and in the self-preservation One it is aimed not at others but at its own shortcomings. Someone built this way looks for safety not in applause but in having botched nothing.</p>
           <p class="vb-intro">In Luchini this pattern found an object that can never be finished: the text. At 17 a priest gave him Louis-Ferdinand Céline&rsquo;s &lsquo;Voyage au bout de la nuit&rsquo; (&lsquo;Journey to the End of the Night&rsquo;), &lsquo;the first book I ever read&rsquo;, as he puts it, and he began to learn it by heart. In 1986 Jean-Louis Barrault asked him to turn it into a solo programme. By his own account Luchini was &lsquo;completely terrified&rsquo; at the idea of touching Céline. By his account the programme toured for about fifteen years, and he says thirty years of obsession were needed to speak Céline properly. He calls himself &lsquo;un obsédé de la note&rsquo;, obsessed with the note, the tone in every single sentence. That is Worry in its purest form: the concern is not the audience but whether the sentence is right.</p>
           <p class="vb-intro">His method, which he describes in &lsquo;La Nouvelle Quinzaine&rsquo;, fits: he learns texts through long, almost endless repetition, to wear out the urge to interpret before one looks for meaning. For Arthur Rimbaud&rsquo;s &lsquo;Une saison en enfer&rsquo; (&lsquo;A Season in Hell&rsquo;) he speaks the text for an hour in the morning, then walks and lets it work. He invokes Paul Valéry&rsquo;s mistrust of professional reciters: the yardstick is the text, not the performer. By his own account reading is hard for him (&lsquo;Je lis très difficilement&rsquo; – &lsquo;I read with great difficulty&rsquo;), he wishes to read as Nietzsche recommends, &lsquo;very slowly, full of open doors&rsquo;, and he saves his energy for the good books. Louis Jouvet&rsquo;s &lsquo;Le Comédien désincarné&rsquo; (&lsquo;The Disembodied Actor&rsquo;) he calls the book that takes &lsquo;about twenty years to grasp&rsquo;. A One who allows twenty years for one book measures itself against a standard it will never reach.</p>
         </blockquote>
@@ -2738,7 +2738,7 @@ export function fabriceLuchiniPortraitPage() {
 
         <h2 class="vb-section">5. Parallel in the same subtype: De Niro, Ford and Baum</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Several SE1w9 portraits stand among the portraits in this Compass, and the comparison shows what is special about Luchini. <a href="#beruehmte-robert-de-niro">Robert De Niro (SE1w9)</a> drove his exactness physically: for &lsquo;Taxi Driver&rsquo; he drove a cab for weeks, for &lsquo;Raging Bull&rsquo; he gained over 25 kilograms, and off camera he is known as taciturn. <a href="#beruehmte-harrison-ford">Harrison Ford (SE1w9)</a> worked as a carpenter for almost a decade without ever working to mediocre standards, and is known as one of Hollywood&rsquo;s most buttoned-up interviewees. <a href="#beruehmte-henning-baum">Henning Baum (SE1w9)</a> says of himself: &lsquo;I, as Henning Baum, am actually not of importance.&rsquo;</p>
+          <p class="vb-intro">Several SP1w9 portraits stand among the portraits in this Compass, and the comparison shows what is special about Luchini. <a href="#beruehmte-robert-de-niro">Robert De Niro (SP1w9)</a> drove his exactness physically: for &lsquo;Taxi Driver&rsquo; he drove a cab for weeks, for &lsquo;Raging Bull&rsquo; he gained over 25 kilograms, and off camera he is known as taciturn. <a href="#beruehmte-harrison-ford">Harrison Ford (SP1w9)</a> worked as a carpenter for almost a decade without ever working to mediocre standards, and is known as one of Hollywood&rsquo;s most buttoned-up interviewees. <a href="#beruehmte-henning-baum">Henning Baum (SP1w9)</a> says of himself: &lsquo;I, as Henning Baum, am actually not of importance.&rsquo;</p>
           <p class="vb-intro">In all three cases the standard points inward, at the craft, and the Nine-wing pushes the person into the background. Luchini has the same drive but a different material. Where De Niro and Ford are silent, he speaks, except that his speaking is a service to someone else&rsquo;s text. For him the Nine&rsquo;s withdrawal does not take place in silence but in devotion: the person disappears into another&rsquo;s sentence. It is the same One with a Nine-wing, only loud.</p>
         </blockquote>
 
@@ -2759,12 +2759,12 @@ export function fabriceLuchiniPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
-        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SE1 – Eagle"},
-        {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SE1w9) – actor, same subtype and wing"},
-        {route:"beruehmte-harrison-ford", label:"Portrait: Harrison Ford (SE1w9)"},
-        {route:"beruehmte-henning-baum", label:"Portrait: Henning Baum (SE1w9)"},
-        {route:"beruehmte-catherine-deneuve", label:"Portrait: Catherine Deneuve (SE3w4) – also a French screen great"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SP1 – Eagle"},
+        {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SP1w9) – actor, same subtype and wing"},
+        {route:"beruehmte-harrison-ford", label:"Portrait: Harrison Ford (SP1w9)"},
+        {route:"beruehmte-henning-baum", label:"Portrait: Henning Baum (SP1w9)"},
+        {route:"beruehmte-catherine-deneuve", label:"Portrait: Catherine Deneuve (SP3w4) – also a French screen great"},
       ])}
     </div>
   `);

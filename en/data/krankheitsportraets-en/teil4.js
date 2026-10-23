@@ -883,11 +883,11 @@ export function franzKafkaKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-franz-kafka-portrait.jpg" alt="Franz Kafka" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Franz Kafka</p>
-        <p class="krim-portrait-typ">SE5w4 · Self-Preservation Type 5 with Four-wing · 1883–1924</p>
+        <p class="krim-portrait-typ">SP5w4 · Self-Preservation Type 5 with Four-wing · 1883–1924</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Owl</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se5.jpg" alt="Animal correspondence: Owl" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE5")};left:${tierAvatarLeft("SE5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se5.jpg" alt="Animal correspondence: Owl" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP5")};left:${tierAvatarLeft("SP5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -920,7 +920,7 @@ export function franzKafkaKrankheitsportraetPage() {
         had finally spoken what his mind had long known. The Five's gaze finds a pattern to
         classify even in its own decline.</p>
         <p class="vb-intro"><strong>c) Withdrawal to the point of total voicelessness:</strong>
-        When the illness struck his larynx, Kafka literally lost his voice – the SE5's Castle
+        When the illness struck his larynx, Kafka literally lost his voice – the SP5's Castle
         reached here its most radical form – no longer erected by his own choosing, but
         imposed on him by fate, and just as impossible to overcome.</p>
       </div>
@@ -998,7 +998,7 @@ export function franzKafkaKrankheitsportraetPage() {
         tuberculosis made eating so painful for Kafka himself that he, too, literally starved.</p>
         <p class="vb-intro"><strong>c) A ground for withdrawal he never had to wish for:</strong>
         Kafka had spent his whole life avoiding closeness by citing his literary existence.
-        Tuberculosis gave him, unwanted, an argument no one could question anymore – the SE5's
+        Tuberculosis gave him, unwanted, an argument no one could question anymore – the SP5's
         Castle, this time not self-built but finally completed by his own body.</p>
         <p class="vb-intro"><strong>d) Why the larynx, of all places?</strong>
         Kafka's entire literary work revolves around characters who cannot make themselves
@@ -1037,10 +1037,10 @@ export function franzKafkaKrankheitsportraetPage() {
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"beruehmte-franz-kafka", label:"Portrait: Franz Kafka (SE5w4) – life's work"},
+        {route:"beruehmte-franz-kafka", label:"Portrait: Franz Kafka (SP5w4) – life's work"},
         {route:"astrologie-franz-kafka", label:"Enneagram Meets Astrology: Franz Kafka (SP5w4)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
-        {route:"subtype/se5", label:"Subtype Profile SE5"},
+        {route:"subtype/se5", label:"Subtype Profile SP5"},
       ])}
     </div>
   `);
@@ -1060,7 +1060,7 @@ export function fridaKahloKrankheitsportraetPage() {
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Hippopotamus</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Animal correspondence: Hippopotamus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE2")};left:${tierAvatarLeft("SE2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Animal correspondence: Hippopotamus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP2")};left:${tierAvatarLeft("SP2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -1410,11 +1410,11 @@ export function helmutKohlKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-helmut-kohl-portrait.jpg" alt="Helmut Kohl" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Helmut Kohl</p>
-        <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 with a Nine Wing &middot; 1930–2017</p>
+        <p class="krim-portrait-typ">SP8w9 &middot; Self-Preservation Type 8 with a Nine Wing &middot; 1930–2017</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Orangutan</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se8.jpg" alt="Animal correspondence: Orangutan" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE8")};left:${tierAvatarLeft("SE8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se8.jpg" alt="Animal correspondence: Orangutan" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP8")};left:${tierAvatarLeft("SP8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -1429,7 +1429,7 @@ export function helmutKohlKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
         <strong>Kohl</strong> is assigned to the <strong>Self-Preservation Type 8 with a Nine Wing</strong>.
-        The SE8 invests its strength in the uncompromising securing of its own territory and closest circle; the
+        The SP8 invests its strength in the uncompromising securing of its own territory and closest circle; the
         Nine-wing adds patience and the ability to hold control over long periods without
         visible effort. This exact combination – the will to lead, paired with the Nine's
         typical tendency to keep one's own vulnerability out of public view as much as
@@ -1523,12 +1523,12 @@ export function helmutKohlKrankheitsportraetPage() {
         only now held by another hand.</p>
         <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
         <a href="javascript:void(0)" data-route="krankheitsportraets-winston-churchill">Winston Churchill</a>
-        (also SE8w9) concealed a severe stroke in office for weeks from the public and much
+        (also SP8w9) concealed a severe stroke in office for weeks from the public and much
         of his own cabinet in 1953, rather than exposing his own vulnerability; Kohl
         responded to his own, far more dramatic physical limitation with a structurally
         similar stance – not through public complaint, but through the quiet continuation
         of control over his own surroundings, as far as circumstances still allowed. Both
-        cases show the same SE8w9 pattern: the Eight with a Nine-wing does not readily
+        cases show the same SP8w9 pattern: the Eight with a Nine-wing does not readily
         relinquish control over its own territory and surroundings, even in the face of
         massive physical limitation. More in the
         <a href="javascript:void(0)" data-route="krankheitsportraets-winston-churchill">Illness Portrait of Winston Churchill</a>.</p>
@@ -1570,11 +1570,11 @@ export function helmutKohlKrankheitsportraetPage() {
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"beruehmte-helmut-kohl", label:"Portrait: Helmut Kohl (SE8w9) – Chancellor of Unity"},
-        {route:"krankheitsportraets-winston-churchill", label:"Illness Portrait: Winston Churchill (SE8w9) – the same pattern of hidden vulnerability"},
-        {route:"krankheitsportraets-galarrwuy-yunupingu", label:"Illness Portrait: Galarrwuy Yunupingu (SE8w9) – the same pattern, control despite physical decline"},
+        {route:"beruehmte-helmut-kohl", label:"Portrait: Helmut Kohl (SP8w9) – Chancellor of Unity"},
+        {route:"krankheitsportraets-winston-churchill", label:"Illness Portrait: Winston Churchill (SP8w9) – the same pattern of hidden vulnerability"},
+        {route:"krankheitsportraets-galarrwuy-yunupingu", label:"Illness Portrait: Galarrwuy Yunupingu (SP8w9) – the same pattern, control despite physical decline"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
-        {route:"subtype/se8", label:"Subtype Profile SE8"},
+        {route:"subtype/se8", label:"Subtype Profile SP8"},
       ])}
     </div>
   `);
@@ -1590,11 +1590,11 @@ export function jamesLevineKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-james-levine-portrait.jpg" alt="James Levine" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">James Levine</p>
-        <p class="krim-portrait-typ">SE9w1 · Self-Preservation Type 9 with One-wing · 1943–2021</p>
+        <p class="krim-portrait-typ">SP9w1 · Self-Preservation Type 9 with One-wing · 1943–2021</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Elephant</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Animal correspondence: Elephant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE9")};left:${tierAvatarLeft("SE9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Animal correspondence: Elephant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP9")};left:${tierAvatarLeft("SP9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -1734,9 +1734,9 @@ export function jamesLevineKrankheitsportraetPage() {
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"beruehmte-james-levine", label:"Portrait: James Levine (SE9w1) – life's work"},
+        {route:"beruehmte-james-levine", label:"Portrait: James Levine (SP9w1) – life's work"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
-        {route:"subtype/se9", label:"Subtype Profile SE9"},
+        {route:"subtype/se9", label:"Subtype Profile SP9"},
       ])}
     </div>
   `);
@@ -2049,7 +2049,7 @@ export function karlMarxKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-karl-marx", label:"Portrait: Karl Marx (SO8w9) – life's work"},
-        {route:"krankheitsportraets-winston-churchill", label:"Illness Portrait: Winston Churchill (SE8w9)"},
+        {route:"krankheitsportraets-winston-churchill", label:"Illness Portrait: Winston Churchill (SP8w9)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so8", label:"Subtype Profile SO8"},
       ])}
@@ -2245,11 +2245,11 @@ export function marieCurieKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-marie-curie-portrait.jpg" alt="Marie Curie – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Prof. Dr. Marie Curie</p>
-        <p class="krim-portrait-typ">SE5w6 · Self-Preservation Type 5 with Six-wing · 1867–1934</p>
+        <p class="krim-portrait-typ">SP5w6 · Self-Preservation Type 5 with Six-wing · 1867–1934</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Owl</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se5.jpg" alt="Animal correspondence: Owl" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE5")};left:${tierAvatarLeft("SE5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se5.jpg" alt="Animal correspondence: Owl" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP5")};left:${tierAvatarLeft("SP5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -2374,9 +2374,9 @@ export function marieCurieKrankheitsportraetPage() {
         aplastic anemia.</p>
         <p class="vb-intro"><strong>d) A parallel within the same subtype:</strong>
         <a href="javascript:void(0)" data-route="beruehmte-charles-darwin">Charles Darwin</a>
-        (SE5w6) also lived for decades with a chronic, never clearly diagnosed illness,
+        (SP5w6) also lived for decades with a chronic, never clearly diagnosed illness,
         retreated ever deeper into his self-controlled refuge at Down House because of it, and
-        hardly let it keep him from his research work. Both cases show the same SE5 pattern:
+        hardly let it keep him from his research work. Both cases show the same SP5 pattern:
         retreat into one's own competence protects effectively against the world – but it also
         makes it easier to overlook one's own physical warning signs, because attention to the
         body is experienced as a distraction from the actual cause.</p>
@@ -2385,7 +2385,7 @@ export function marieCurieKrankheitsportraetPage() {
         literally shuts down its own resource production. For a Self-Preservation Five, whose
         entire strategy consists of getting by on minimal consumption and hoarding resources
         rather than continually renewing them, this reads like a physical intensification of
-        her own core pattern: where the SE5 economizes psychologically so as not to run out,
+        her own core pattern: where the SP5 economizes psychologically so as not to run out,
         the organ that should have kept supplying her ultimately failed Curie of all things.
         This reading is explored in more depth in this Compass's Psychosomatics Register.</p>
         <p class="vb-intro"><strong>f) Context without determinism:</strong>
@@ -2412,14 +2412,14 @@ export function marieCurieKrankheitsportraetPage() {
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"beruehmte-marie-curie", label:"Portrait: Marie Curie (SE5w6) – life's work"},
-        {route:"beruehmte-charles-darwin", label:"Portrait: Charles Darwin (SE5w6)"},
-        {route:"krankheitsportraets-charles-darwin", label:"Illness Portrait: Charles Darwin (SE5w6)"},
+        {route:"beruehmte-marie-curie", label:"Portrait: Marie Curie (SP5w6) – life's work"},
+        {route:"beruehmte-charles-darwin", label:"Portrait: Charles Darwin (SP5w6)"},
+        {route:"krankheitsportraets-charles-darwin", label:"Illness Portrait: Charles Darwin (SP5w6)"},
         {route:"krankheitsportraets-sigmund-freud", label:"Illness Portrait: Sigmund Freud (SO6w5)"},
         {route:"krankheitsportraets-spinoza", label:"Illness Portrait: Baruch de Spinoza (SP5w6) – fatal consequence of his own craft"},
-        {route:"krankheitsportraets-warren-buffett", label:"Warren Buffett (SE5w6) – illness portrait"},
+        {route:"krankheitsportraets-warren-buffett", label:"Warren Buffett (SP5w6) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
-        {route:"subtype/se5", label:"Subtype Profile SE5"},
+        {route:"subtype/se5", label:"Subtype Profile SP5"},
       ])}
     </div>
   `);
@@ -2439,7 +2439,7 @@ export function mrTKrankheitsportraetPage() {
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Hippopotamus</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Animal correspondence: Hippopotamus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE2")};left:${tierAvatarLeft("SE2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Animal correspondence: Hippopotamus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP2")};left:${tierAvatarLeft("SP2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -2624,11 +2624,11 @@ export function nusratFatehAliKhanKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-nusrat-fateh-ali-khan-portrait.jpg" alt="Nusrat Fateh Ali Khan" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Nusrat Fateh Ali Khan</p>
-        <p class="krim-portrait-typ">SE2w3 · Self-Preservation Type 2 with Three-wing · 1948–1997</p>
+        <p class="krim-portrait-typ">SP2w3 · Self-Preservation Type 2 with Three-wing · 1948–1997</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Hippopotamus</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Animal correspondence: Hippopotamus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE2")};left:${tierAvatarLeft("SE2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Animal correspondence: Hippopotamus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP2")};left:${tierAvatarLeft("SP2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -2643,7 +2643,7 @@ export function nusratFatehAliKhanKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
         <strong>Nusrat Fateh Ali Khan</strong> is classified as the <strong>Self-Preservation
-        Two with Three-wing</strong>. Naranjo described the SE2 as <em>Me First</em> – the
+        Two with Three-wing</strong>. Naranjo described the SP2 as <em>Me First</em> – the
         subtype who secures her own survival and that of those closest to her before turning
         further outward. The Three-wing adds a further, unconditional drive: proving one's own
         indispensability through visible achievement – a pattern that can be traced right into
@@ -2720,13 +2720,13 @@ export function nusratFatehAliKhanKrankheitsportraetPage() {
         <p class="vb-intro"><strong>a) Peak performance despite a body that had long been warning him:</strong>
         That Khan kept up a workload of hundreds of albums and countless live performances into
         his final years, even as his body increasingly depended on dialysis, shows the endurance
-        of the SE2w3 at its most relentless.</p>
+        of the SP2w3 at its most relentless.</p>
         <p class="vb-intro"><strong>b) A succession secured even while he was still alive:</strong>
         Already before his death, Khan began training his nephew Rahat Fateh Ali Khan as his
         successor – the same care for the continuity of the family tradition with which his own
         career had once begun at his father's funeral extended even into his own illness.</p>
         <p class="vb-intro"><strong>c) The hippopotamus that defended its territory to the point of total exhaustion:</strong>
-        The SE2w3's energy remained, to the very end, directed at the same drive that shaped
+        The SP2w3's energy remained, to the very end, directed at the same drive that shaped
         Khan's entire life: keeping a six-hundred-year-old tradition alive, never letting it
         rest, even as his own body had long since reached its limits.</p>
       </div>
@@ -2739,7 +2739,7 @@ export function nusratFatehAliKhanKrankheitsportraetPage() {
         remained for his own health.</p>
         <p class="vb-intro"><strong>b) Dialysis as a symbol of care that never turned inward:</strong>
         Twice a week, his own blood had to be artificially cleaned while he kept singing for an
-        audience that needed him – an inversion that mirrors the SE2's core pattern almost
+        audience that needed him – an inversion that mirrors the SP2's core pattern almost
         literally: caring for others a whole life long, until one's own body literally needs
         outside help just to function.</p>
         <p class="vb-intro"><strong>c) The journey toward rescue as a final, tragic irony:</strong>
@@ -2779,11 +2779,11 @@ export function nusratFatehAliKhanKrankheitsportraetPage() {
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"beruehmte-nusrat-fateh-ali-khan", label:"Portrait: Nusrat Fateh Ali Khan (SE2w3) – Life's Work"},
-        {route:"krankheitsportraets-wolfgang-amadeus-mozart", label:"Illness Portrait: Wolfgang Amadeus Mozart (SE2w3)"},
-        {route:"krankheitsportraets-frida-kahlo", label:"Illness Portrait: Frida Kahlo (SE2w3) – the same refusal to step back"},
+        {route:"beruehmte-nusrat-fateh-ali-khan", label:"Portrait: Nusrat Fateh Ali Khan (SP2w3) – Life's Work"},
+        {route:"krankheitsportraets-wolfgang-amadeus-mozart", label:"Illness Portrait: Wolfgang Amadeus Mozart (SP2w3)"},
+        {route:"krankheitsportraets-frida-kahlo", label:"Illness Portrait: Frida Kahlo (SP2w3) – the same refusal to step back"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
-        {route:"subtype/se2", label:"Subtype Profile SE2"},
+        {route:"subtype/se2", label:"Subtype Profile SP2"},
       ])}
     </div>
   `);
@@ -3153,7 +3153,7 @@ export function tELawrenceKrankheitsportraetPage() {
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Dove</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Animal correspondence: Dove" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Animal correspondence: Dove" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP4")};left:${tierAvatarLeft("SP4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -3169,7 +3169,7 @@ export function tELawrenceKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
         <strong>Lawrence</strong> is classified as the <strong>Self-Preservation Four with
-        Three-wing</strong>. The SE4 does not carry its suffering outward but endures it
+        Three-wing</strong>. The SP4 does not carry its suffering outward but endures it
         tenaciously and alone – for Lawrence, that meant staying almost entirely silent in
         public about Deraa and instead processing it in a single chapter of his memoir, rewritten
         again and again. The Three-wing, which had earlier made him a co-creator of his own
@@ -3250,7 +3250,7 @@ export function tELawrenceKrankheitsportraetPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
         <p class="vb-intro"><strong>a) Tenacity turned against his own body and psyche:</strong>
-        The same SE4 tenacity that enabled Lawrence to endure weeks-long desert marches and the
+        The same SP4 tenacity that enabled Lawrence to endure weeks-long desert marches and the
         loss of his own manuscript turned, in the postwar years, unabated against his own
         psychological wounds – exhaustion and despair were not read as reasons to change course,
         but translated into ever stricter self-discipline and self-punishment.</p>
@@ -3270,15 +3270,15 @@ export function tELawrenceKrankheitsportraetPage() {
 
       <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
         <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
-        <p class="vb-intro"><strong>a) Parallel within the same subtype – Honoré de Balzac and Lady Diana (SE4w3):</strong>
+        <p class="vb-intro"><strong>a) Parallel within the same subtype – Honoré de Balzac and Lady Diana (SP4w3):</strong>
         As with <a href="javascript:void(0)" data-route="krankheitsportraets-honore-de-balzac">Honoré
         de Balzac</a> and <a href="javascript:void(0)" data-route="krankheitsportraets-lady-diana">Lady
-        Diana</a>, both also SE4w3, Lawrence shows the pattern typical of this subtype: suffering
+        Diana</a>, both also SP4w3, Lawrence shows the pattern typical of this subtype: suffering
         is not carried outward loudly, but endured alone and tenaciously for years, while
         composure is maintained outwardly for as long as possible. For Diana the suffering broke
         through as concealed bulimia, for Balzac as continued physical self-exploitation, for
         Lawrence as a self-arranged punishment ritual and retreat under a false name – three
-        variants of the same SE4 core movement: endure, rather than give up or ask for help.</p>
+        variants of the same SP4 core movement: endure, rather than give up or ask for help.</p>
         <p class="vb-intro"><strong>b) A crisis that grew over years, not a single collapse:</strong>
         From the first noticeable change in behavior in 1919 to the motorcycle accident in 1935
         runs a continuous line – thirteen years in which the psychological strain never
@@ -3291,7 +3291,7 @@ export function tELawrenceKrankheitsportraetPage() {
         <p class="vb-intro"><strong>d) Why, of all things, a low, self-condemning mood?</strong>
         For a Self-Preservation Four, who normally carries suffering silently and alone, one
         reading suggests itself: an event like Deraa, which violently broke through his control
-        over his own body and dignity from the outside, strikes the SE4 at its most sensitive
+        over his own body and dignity from the outside, strikes the SP4 at its most sensitive
         point – and, rather than being shared, is turned into silent self-condemnation. This
         reading is a plausible interpretation, not a documented historical causal link, and is
         explored in more depth in this Compass's
@@ -3328,11 +3328,11 @@ export function tELawrenceKrankheitsportraetPage() {
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"beruehmte-t-e-lawrence", label:"Portrait: T. E. Lawrence (SE4w3) – life's work"},
-        {route:"krankheitsportraets-honore-de-balzac", label:"Illness Portrait: Honoré de Balzac (SE4w3) – same subtype"},
-        {route:"krankheitsportraets-lady-diana", label:"Illness Portrait: Lady Diana (SE4w3) – same subtype"},
+        {route:"beruehmte-t-e-lawrence", label:"Portrait: T. E. Lawrence (SP4w3) – life's work"},
+        {route:"krankheitsportraets-honore-de-balzac", label:"Illness Portrait: Honoré de Balzac (SP4w3) – same subtype"},
+        {route:"krankheitsportraets-lady-diana", label:"Illness Portrait: Lady Diana (SP4w3) – same subtype"},
         {route:"psychosomatik/depression", label:"Psychosomatics Register: Depression"},
-        {route:"subtype/se4", label:"Subtype Profile SE4"},
+        {route:"subtype/se4", label:"Subtype Profile SP4"},
       ])}
     </div>
   `);
@@ -3716,7 +3716,7 @@ export function christophKolumbusKrankheitsportraetPage() {
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Gorilla</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se7.jpg" alt="Animal correspondence: Gorilla" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE7")};left:${tierAvatarLeft("SE7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se7.jpg" alt="Animal correspondence: Gorilla" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP7")};left:${tierAvatarLeft("SP7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -3867,7 +3867,7 @@ export function christophKolumbusKrankheitsportraetPage() {
         {route:"beruehmte-christoph-kolumbus", label:"Portrait: Christopher Columbus (SP7w8) – life's work"},
         {route:"krankheitsportraets-francis-bacon", label:"Illness Portrait: Francis Bacon (SP7w8)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
-        {route:"subtype/se7", label:"Subtype Profile SE7"},
+        {route:"subtype/se7", label:"Subtype Profile SP7"},
       ])}
     </div>
   `);
@@ -4057,11 +4057,11 @@ export function alainDelonKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-alain-delon-portrait.jpg" alt="Alain Delon" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Alain Delon</p>
-        <p class="krim-portrait-typ">SE1w2 · Self-Preservation Type 1 with Two-Wing · 1935–2024</p>
+        <p class="krim-portrait-typ">SP1w2 · Self-Preservation Type 1 with Two-Wing · 1935–2024</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Eagle</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Animal correspondence: Eagle" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Animal correspondence: Eagle" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP1")};left:${tierAvatarLeft("SP1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -4076,7 +4076,7 @@ export function alainDelonKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
         <strong>Delon</strong> is assigned to the <strong>self-preservation Type 1 with
-        Two-Wing</strong>. The SE1 directs its perfectionism at its own discipline and control
+        Two-Wing</strong>. The SP1 directs its perfectionism at its own discipline and control
         over its own image; the Two-Wing gives it the capacity for deep affection strictly
         limited to a very small circle. Exactly this combination – dignity and control over
         one's own appearance, combined with retreat into the innermost private circle rather
@@ -4138,7 +4138,7 @@ export function alainDelonKrankheitsportraetPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
         <p class="vb-intro"><strong>a) Control up to the last possible moment:</strong>
-        The SE1's characteristic discipline also showed in how he handled his own mortality:
+        The SP1's characteristic discipline also showed in how he handled his own mortality:
         Delon wanted to retain control over his own end even where the body would otherwise
         have denied him that control.</p>
         <p class="vb-intro"><strong>b) The Two-Wing and retreat into the innermost circle:</strong>
@@ -4147,7 +4147,7 @@ export function alainDelonKrankheitsportraetPage() {
         spent his final years: not in public, but on his own estate, surrounded by exactly
         that innermost circle.</p>
         <p class="vb-intro"><strong>c) Anger at losing control, not at the illness itself:</strong>
-        The publicly disclosed wish for assisted dying fits the SE1w2 logic: the suffering
+        The publicly disclosed wish for assisted dying fits the SP1w2 logic: the suffering
         itself was not the greatest threat, but the prospect of losing control over his own
         image and dignity.</p>
       </div>
@@ -4159,14 +4159,14 @@ export function alainDelonKrankheitsportraetPage() {
         outward control. Of all things, stroke and leukemia attacked exactly this physical
         self-mastery that had carried his entire public image.</p>
         <p class="vb-intro"><strong>b) A parallel within the same core type, a different wing:</strong>
-        An actual SE1w2 parallel case does not yet exist in this Compass. A parallel within
+        An actual SP1w2 parallel case does not yet exist in this Compass. A parallel within
         the same core type shows, however, in
         <a href="javascript:void(0)" data-route="krankheitsportraets-phil-collins">Phil
-        Collins (SE1w9)</a>: in his case too, a serious physical limitation was met not with
+        Collins (SP1w9)</a>: in his case too, a serious physical limitation was met not with
         public complaint, but with disciplined, quiet adaptation. The difference lies in the
         wing: where Collins' Nine-Wing enabled a pragmatic, almost unassuming continuation of
         work, Delon's Two-Wing showed itself as withdrawal into the innermost private circle –
-        the same SE1 control, but pointed in a different direction.</p>
+        the same SP1 control, but pointed in a different direction.</p>
         <p class="vb-intro"><strong>c) When the One under chronic stress moves toward the Four:</strong>
         In his final years, Delon showed, in rare, very reserved public statements, an
         unusually introspective, almost melancholic tone about loneliness, age, and his own
@@ -4175,7 +4175,7 @@ export function alainDelonKrankheitsportraetPage() {
         stress line toward their stress point – for the One, that is the Four. This
         emotionally charged, inward-turned retrospection in his final years recalls the
         melancholic introspection of the stress point, not the matter-of-fact sense of duty of
-        the core type – with the core type unchanged at SE1w2.</p>
+        the core type – with the core type unchanged at SP1w2.</p>
         <p class="vb-intro"><strong>d) Why the brain and the blood, of all things?</strong>
         For a self-preservation One whose entire public impact rested on physical mastery and
         controlled presence, one interpretation suggests itself: of all things, the systems
@@ -4214,11 +4214,11 @@ export function alainDelonKrankheitsportraetPage() {
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"beruehmte-alain-delon", label:"Portrait: Alain Delon (SE1w2) – life's work"},
+        {route:"beruehmte-alain-delon", label:"Portrait: Alain Delon (SP1w2) – life's work"},
         {route:"krankheitsportraets-arnold-schwarzenegger", label:"Illness Portrait: Arnold Schwarzenegger (SP1w2) – same subtype"},
-        {route:"krankheitsportraets-phil-collins", label:"Illness Portrait: Phil Collins (SE1w9) – same core type, different wing"},
+        {route:"krankheitsportraets-phil-collins", label:"Illness Portrait: Phil Collins (SP1w9) – same core type, different wing"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
-        {route:"subtype/se1", label:"Subtype Profile SE1"},
+        {route:"subtype/se1", label:"Subtype Profile SP1"},
       ])}
     </div>
   `);
@@ -4234,11 +4234,11 @@ export function eltonJohnKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-elton-john-portrait.jpg" alt="Elton John" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Elton John</p>
-        <p class="krim-portrait-typ">SE7w6 · Self-Preservation Type 7 with Six-Wing · born 1947</p>
+        <p class="krim-portrait-typ">SP7w6 · Self-Preservation Type 7 with Six-Wing · born 1947</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Gorilla</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se7.jpg" alt="Animal correspondence: Gorilla" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE7")};left:${tierAvatarLeft("SE7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se7.jpg" alt="Animal correspondence: Gorilla" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP7")};left:${tierAvatarLeft("SP7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -4253,7 +4253,7 @@ export function eltonJohnKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
         <strong>John</strong> is assigned to the <strong>self-preservation Type 7 with
-        Six-Wing</strong>. The SE7 secures safety not through restraint but through active
+        Six-Wing</strong>. The SP7 secures safety not through restraint but through active
         enjoyment and self-supply; the Six-Wing gives it the ability to stabilize through a
         fixed, loyal bond. Exactly this combination – fleeing into boundless consumption until
         a single, deep bond tipped the scale toward recovery – shaped the entire course of
@@ -4316,8 +4316,8 @@ export function eltonJohnKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
-        <p class="vb-intro"><strong>a) Addiction as the most extreme form of SE7 self-supply:</strong>
-        The SE7's characteristic strategy of securing safety through active enjoyment rather
+        <p class="vb-intro"><strong>a) Addiction as the most extreme form of SP7 self-supply:</strong>
+        The SP7's characteristic strategy of securing safety through active enjoyment rather
         than restraint tipped, in John's case, over two decades into an addiction that carried
         the very same underlying principle – always more, never enough – all the way to
         self-destruction.</p>
@@ -4340,20 +4340,20 @@ export function eltonJohnKrankheitsportraetPage() {
         <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
         A parallel shows in
         <a href="javascript:void(0)" data-route="krankheitsportraets-mariah-carey">Mariah
-        Carey (SE7w8)</a>: in her case too, a psychological illness concealed for years – a
+        Carey (SP7w8)</a>: in her case too, a psychological illness concealed for years – a
         bipolar disorder, in Carey's case – shaped her life behind a public facade, before she
-        publicly disclosed it years later. Both SE7s show the same pattern: outwardly
+        publicly disclosed it years later. Both SP7s show the same pattern: outwardly
         demonstrated abundance and joie de vivre conceal, for years, a serious private crisis,
         until it is finally publicly acknowledged and addressed.</p>
         <p class="vb-intro"><strong>c) When the Seven under chronic stress moves toward the One:</strong>
         John's description of his first sober album recording – disciplined, controlled,
         unfamiliarly difficult – and his strict, never-once-interrupted sobriety since 1990
-        show a rigidity unusual for the otherwise pleasure-oriented SE7. Someone living under
+        show a rigidity unusual for the otherwise pleasure-oriented SP7. Someone living under
         chronic addiction strain for years increasingly moves along their stress line toward
         their stress point – for the Seven, that is the One. This strict, unyielding
         self-discipline after recovery recalls the principled rigor of the stress point, not
         the spontaneous joie de vivre of the core type – with the core type unchanged at
-        SE7w6.</p>
+        SP7w6.</p>
         <p class="vb-intro"><strong>d) Why substances and food, of all things?</strong>
         For a self-preservation Seven whose entire strategy rested on active enjoyment and
         self-supply, one interpretation suggests itself: of all things, the means that most
@@ -4391,11 +4391,11 @@ export function eltonJohnKrankheitsportraetPage() {
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"beruehmte-elton-john", label:"Portrait: Elton John (SE7w6) – life's work"},
-        {route:"krankheitsportraets-larry-king", label:"Illness Portrait: Larry King (SE7w6) – same subtype"},
-        {route:"krankheitsportraets-mariah-carey", label:"Illness Portrait: Mariah Carey (SE7w8) – same core type, different wing"},
+        {route:"beruehmte-elton-john", label:"Portrait: Elton John (SP7w6) – life's work"},
+        {route:"krankheitsportraets-larry-king", label:"Illness Portrait: Larry King (SP7w6) – same subtype"},
+        {route:"krankheitsportraets-mariah-carey", label:"Illness Portrait: Mariah Carey (SP7w8) – same core type, different wing"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
-        {route:"subtype/se7", label:"Subtype Profile SE7"},
+        {route:"subtype/se7", label:"Subtype Profile SP7"},
       ])}
     </div>
   `);
@@ -4415,7 +4415,7 @@ export function enricoCarusoKrankheitsportraetPage() {
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Raccoon</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Animal correspondence: Raccoon" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE3")};left:${tierAvatarLeft("SE3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Animal correspondence: Raccoon" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP3")};left:${tierAvatarLeft("SP3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>

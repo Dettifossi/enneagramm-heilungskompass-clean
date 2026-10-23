@@ -151,13 +151,13 @@ export function annaAndersonPortraitPage() {
 
         <h2 class="vb-section">2. The self-preservation Three: Security as a life's project</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to Naranjo, the self-preservation Three (SE3) is the subtype he called "Security" – not a Three seeking the big stage, but one tirelessly working on the material foundation, often in the background, often underestimated. In Anna Anderson this pattern surfaced in an extreme, tragic form: her real goal was never public fame for its own sake, but lasting provision by others – housing, food, medical care, a life free of the poverty she likely came from.</p>
-          <p class="vb-intro">The identity as Anastasia was not the purpose but the means. For decades she moved from one benefactor's household to the next, always wherever belief and sympathy still meant support. In 1968, shortly before her US visa expired, she married historian John Manahan – a pragmatic arrangement that secured her permanent residence in the United States. That very sobriety at the core of an apparently romantic story is the SE3's signature.</p>
+          <p class="vb-intro">According to Naranjo, the self-preservation Three (SP3) is the subtype he called "Security" – not a Three seeking the big stage, but one tirelessly working on the material foundation, often in the background, often underestimated. In Anna Anderson this pattern surfaced in an extreme, tragic form: her real goal was never public fame for its own sake, but lasting provision by others – housing, food, medical care, a life free of the poverty she likely came from.</p>
+          <p class="vb-intro">The identity as Anastasia was not the purpose but the means. For decades she moved from one benefactor's household to the next, always wherever belief and sympathy still meant support. In 1968, shortly before her US visa expired, she married historian John Manahan – a pragmatic arrangement that secured her permanent residence in the United States. That very sobriety at the core of an apparently romantic story is the SP3's signature.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Four wing: Tragic uniqueness</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">An SE3 with a more muted Four wing would likely have chosen a less dramatic legend. In Anderson's case, a pronounced pull toward the dramatic, the singular, the irreproducibly tragic came through instead: not just any survivor, but the last daughter of an extinguished imperial house – marked by a trauma no one else had ever lived through. This narrative offered an identity that went far beyond ordinary suffering.</p>
+          <p class="vb-intro">An SP3 with a more muted Four wing would likely have chosen a less dramatic legend. In Anderson's case, a pronounced pull toward the dramatic, the singular, the irreproducibly tragic came through instead: not just any survivor, but the last daughter of an extinguished imperial house – marked by a trauma no one else had ever lived through. This narrative offered an identity that went far beyond ordinary suffering.</p>
           <p class="vb-intro">Her actual life supported this role in unsettling ways: multiple psychiatric hospitalizations, suicide attempts, extreme mood swings, a life lived in constant emotional crisis. Whether genuine trauma, a learned role, or both interwoven, the Four wing supplied the inner depth that turned a bare claim into a credibly lived, tragic identity.</p>
         </blockquote>
 
@@ -170,12 +170,12 @@ export function annaAndersonPortraitPage() {
         <h2 class="vb-section">5. The DNA resolution: Franziska Schanzkowska</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Only in 1994, ten years after Anderson's death, did a DNA test on preserved tissue samples bring clarity: her mitochondrial DNA matched neither the Romanov remains nor living relatives of the tsar's family – but it did match a great-nephew of Franziska Schanzkowska, a Polish factory worker who had vanished without a trace in 1920, at the very time Anna Anderson appeared.</p>
-          <p class="vb-intro">The SE3 invests enormous energy in securing an identity that holds – to the very end, even beyond death. Even as science contradicted her, Anderson had lived the role so long and so consistently that legend and person could hardly be separated anymore.</p>
+          <p class="vb-intro">The SP3 invests enormous energy in securing an identity that holds – to the very end, even beyond death. Even as science contradicted her, Anderson had lived the role so long and so consistently that legend and person could hardly be separated anymore.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Raccoon that built itself a crown</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Anna Anderson's story shows the SE3w4 in its most extreme, most ambivalent form: the pragmatic, tireless work of securing herself, combined with an identity of such tragic depth that millions of people believed her – or wanted to – for eight decades. Whether she herself came to believe her own story at some point remains an open question. Perhaps that was exactly the point: the line between survival strategy and lived truth blurs when a role is played long enough.</p>
+          <p class="vb-intro">Anna Anderson's story shows the SP3w4 in its most extreme, most ambivalent form: the pragmatic, tireless work of securing herself, combined with an identity of such tragic depth that millions of people believed her – or wanted to – for eight decades. Whether she herself came to believe her own story at some point remains an open question. Perhaps that was exactly the point: the line between survival strategy and lived truth blurs when a role is played long enough.</p>
           <p class="vb-intro">The raccoon builds a working livelihood out of whatever is available – clever, unobtrusive, able to survive under the harshest conditions. Anna Anderson built, out of a trauma, a vanished name, and a fallen dynasty, an existence that held for over six decades. That is not an admirable achievement. But it shows what the self-preservation Three with a Four wing is capable of under extreme pressure.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
@@ -185,9 +185,9 @@ export function annaAndersonPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-judit-polgar", label:"Portrait: Judit Polgár (SP3w4)"},
           {route:"kriminalpsychologie-frank-abagnale-jr", label:"Criminal Psychology: Frank Abagnale Jr. (SO7w6) – The Impostor"},
-          {route:"beruehmte-carl-tanzler", label:"Portrait: Carl Tanzler (SE5w6)"},
-          {route:"beruehmte-sterling-north", label:"Portrait: Sterling North (SE3w4)"},
-          {route:"beruehmte-william-shakespeare", label:"Portrait: William Shakespeare (SE3w4)"},
+          {route:"beruehmte-carl-tanzler", label:"Portrait: Carl Tanzler (SP5w6)"},
+          {route:"beruehmte-sterling-north", label:"Portrait: Sterling North (SP3w4)"},
+          {route:"beruehmte-william-shakespeare", label:"Portrait: William Shakespeare (SP3w4)"},
           {route:"kriminalpsychologie-mary-ann-cotton", label:"Mary Ann Cotton (SX1w2) – criminal psychology"},
           {route:"kriminalpsychologie-victor-lustig", label:"Victor Lustig (SX7w8) – criminal psychology"},
         ])}
@@ -738,7 +738,7 @@ export function jacquelineMarsPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jacqueline-mars-portrait.jpg" alt="Jacqueline Mars – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jacqueline Mars</p>
-        <p class="krim-portrait-typ">SE8w7 &middot; Self-Preservation Type 8 with seven wing</p>
+        <p class="krim-portrait-typ">SP8w7 &middot; Self-Preservation Type 8 with seven wing</p>
         <p class="krim-portrait-subtitle">Entrepreneur & billionaire, b. 1939 in Newark, New Jersey</p>
       </div>
       <div class="page-content">
@@ -751,41 +751,41 @@ export function jacquelineMarsPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Eight: Satisfaction</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The self-preservation Eight (SE8) expresses the passion of the Eight—lust—through ownership, securing resources, and sensory abundance. Naranjo called this subtype Satisfacción: satisfaction as a life principle. The SE8 wants to have what it needs—and builds the structures that ensure it stays that way. Not tomorrow. Permanently.</p>
-          <p class="vb-intro">Jacqueline Mars lived this principle with a consistency barely noticeable from the outside—because she fulfilled it so completely that drama was no longer necessary. The business runs. The territory is secured. The SE8 does not need cameras to maintain control; it needs structures that work. Mars, Incorporated has been family-owned for generations and was never publicly traded—that is not a whim, that is an SE8 decision.</p>
+          <p class="vb-intro">The self-preservation Eight (SP8) expresses the passion of the Eight—lust—through ownership, securing resources, and sensory abundance. Naranjo called this subtype Satisfacción: satisfaction as a life principle. The SP8 wants to have what it needs—and builds the structures that ensure it stays that way. Not tomorrow. Permanently.</p>
+          <p class="vb-intro">Jacqueline Mars lived this principle with a consistency barely noticeable from the outside—because she fulfilled it so completely that drama was no longer necessary. The business runs. The territory is secured. The SP8 does not need cameras to maintain control; it needs structures that work. Mars, Incorporated has been family-owned for generations and was never publicly traded—that is not a whim, that is an SP8 decision.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Seven Wing: The Joy of Life</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Seven wing gives the self-preservation Eight a quality that an SE8 with a weaker Seven wing does not always show: lightness, curiosity, and a willingness to enjoy life to the fullest. The SE8w7 does not just hoard; it savors. Travel, enjoyment, variety, an appetite for the sensory in all its breadth: this is the Seven wing filling the Eight's territory with color.</p>
+          <p class="vb-intro">The Seven wing gives the self-preservation Eight a quality that an SP8 with a weaker Seven wing does not always show: lightness, curiosity, and a willingness to enjoy life to the fullest. The SP8w7 does not just hoard; it savors. Travel, enjoyment, variety, an appetite for the sensory in all its breadth: this is the Seven wing filling the Eight's territory with color.</p>
           <p class="vb-intro">Jacqueline Mars is an avid equestrian and lives on an estate in The Plains, Virginia—the heart of American horse breeding country. The horse world is a world unto itself: tradition-conscious, exclusive, far from the spotlight. She served for years on the Smithsonian Institution Board of Regents—again, expertise over self-dramatization. The Seven wing does not seek the stage; it seeks quality.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Work: The Mars Empire</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Mars, Incorporated is the world's largest confectionery company and one of the most prominent pet food manufacturers globally: M&M's, Snickers, Twix, Milky Way, Skittles, Pedigree, Whiskas. Revenue: over 45 billion dollars annually. Since its founding in 1911, the company has remained entirely family-owned—no shares, no analysts, no quarterly reports for the public. Privacy as a business principle.</p>
-          <p class="vb-intro">Jacqueline Mars sat on the company's board of directors and was involved in key strategic decisions, even as her brother Forrest Jr. long handled operational leadership. Her influence was real and discreet. This is not modesty; this is the SE8w7 in its mature form: exercising power without having to legitimize it.</p>
+          <p class="vb-intro">Jacqueline Mars sat on the company's board of directors and was involved in key strategic decisions, even as her brother Forrest Jr. long handled operational leadership. Her influence was real and discreet. This is not modesty; this is the SP8w7 in its mature form: exercising power without having to legitimize it.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow: Power Without a Face</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE8w7 is its sovereign independence. Jacqueline Mars needs neither applause nor justification. She possesses one of the largest private fortunes in the world and lives a life she shapes herself: horses, nature, connoisseurship, quiet influence. The SE8w7 at its best is not loud; it is complete.</p>
-          <p class="vb-intro">The shadow: the invisibility that protects the SE8 also makes it uncontrollable, for better or worse. What moves a company of this scale remains largely hidden: supply chains, working conditions, political influence. Those who never account publicly never have to. That is the flip side of the SE8 strategy: the territory is secured, but no one knows exactly how.</p>
+          <p class="vb-intro">The light of the SP8w7 is its sovereign independence. Jacqueline Mars needs neither applause nor justification. She possesses one of the largest private fortunes in the world and lives a life she shapes herself: horses, nature, connoisseurship, quiet influence. The SP8w7 at its best is not loud; it is complete.</p>
+          <p class="vb-intro">The shadow: the invisibility that protects the SP8 also makes it uncontrollable, for better or worse. What moves a company of this scale remains largely hidden: supply chains, working conditions, political influence. Those who never account publicly never have to. That is the flip side of the SP8 strategy: the territory is secured, but no one knows exactly how.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Orangutan Who Never Needs to Be Seen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Jacqueline Mars is one of the richest women in the world and one of the most unknown. That is neither shyness nor happenstance. That is the SE8w7 in its ultimate form: territory secured, resources secured, life enjoyed to the fullest—and all of it without a single press conference. The orangutan needs no spectators. It sits enthroned in its tree, high above the noise of the world, knowing exactly what it has.</p>
+          <p class="vb-intro">Jacqueline Mars is one of the richest women in the world and one of the most unknown. That is neither shyness nor happenstance. That is the SP8w7 in its ultimate form: territory secured, resources secured, life enjoyed to the fullest—and all of it without a single press conference. The orangutan needs no spectators. It sits enthroned in its tree, high above the noise of the world, knowing exactly what it has.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-umberto-eco", label:"Portrait: Umberto Eco (SE8w7)"},
-          {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SE8w9)"},
-          {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SE8w9)"},
-          {route:"beruehmte-indra-nooyi", label:"Portrait: Indra Nooyi (SE8w7)"},
+          {route:"beruehmte-umberto-eco", label:"Portrait: Umberto Eco (SP8w7)"},
+          {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SP8w9)"},
+          {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SP8w9)"},
+          {route:"beruehmte-indra-nooyi", label:"Portrait: Indra Nooyi (SP8w7)"},
         ])}
       </div>
     </div>
@@ -845,9 +845,9 @@ export function jjLiuPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-franka-potente", label:"Portrait: Franka Potente (SP2w1)"},
-        {route:"beruehmte-camille-fritsch", label:"Portrait: Dr. Camille Fritsch (SE2w1)"},
-        {route:"beruehmte-lena-urzendowsky", label:"Portrait: Lena Urzendowsky (SE2w1)"},
-        {route:"beruehmte-loni-hui", label:"Portrait: Loni Hui (SE2w3)"},
+        {route:"beruehmte-camille-fritsch", label:"Portrait: Dr. Camille Fritsch (SP2w1)"},
+        {route:"beruehmte-lena-urzendowsky", label:"Portrait: Lena Urzendowsky (SP2w1)"},
+        {route:"beruehmte-loni-hui", label:"Portrait: Loni Hui (SP2w3)"},
       ])}
     </div>
   `);
@@ -1300,9 +1300,9 @@ export function ottoVonBismarckPortraitPage() {
 
         <h2 class="vb-section">3. Why Not the Eight? A Necessary Distinction</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In Enneagram discussions, Bismarck is repeatedly filed under <strong>Self-Preservation Eight with Nine-wing (SE8w9)</strong> &ndash; after all, the ruthlessness with which he wielded resignation threats and sidelined rivals fits, at first glance, the image of an Eight defending its territory through raw shows of power. On closer inspection, however, this classification does not hold up.</p>
+          <p class="vb-intro">In Enneagram discussions, Bismarck is repeatedly filed under <strong>Self-Preservation Eight with Nine-wing (SP8w9)</strong> &ndash; after all, the ruthlessness with which he wielded resignation threats and sidelined rivals fits, at first glance, the image of an Eight defending its territory through raw shows of power. On closer inspection, however, this classification does not hold up.</p>
           <p class="vb-intro">Decisive is Bismarck's own confession: <em>"I am all nerves, so that self-control has always been the greatest task of my life."</em> An Eight, who typically represses vulnerability rather than admitting it openly, would hardly name their own nervousness as a lifelong core struggle. A Six, by contrast, knows exactly this introspective wrestling with one's own fear &ndash; in the SX6 it is merely turned outward into strength, not concealed.</p>
-          <p class="vb-intro">The recurring pattern of retreats to Varzin and Friedrichsruh &ndash; weeks spent in bed, plagued by nervous ailments, insomnia, hypochondria &ndash; likewise does not fit an Eight, who tends to actively seek out threats rather than process them lying down. And even granting the Eight framework: the constantly suspicious, threatening, never-settled Bismarck resembles an impulsive Seven-wing far more than the withdrawn, conflict-averse Nine-wing &ndash; making the SE8w9 thesis internally inconsistent to begin with.</p>
+          <p class="vb-intro">The recurring pattern of retreats to Varzin and Friedrichsruh &ndash; weeks spent in bed, plagued by nervous ailments, insomnia, hypochondria &ndash; likewise does not fit an Eight, who tends to actively seek out threats rather than process them lying down. And even granting the Eight framework: the constantly suspicious, threatening, never-settled Bismarck resembles an impulsive Seven-wing far more than the withdrawn, conflict-averse Nine-wing &ndash; making the SP8w9 thesis internally inconsistent to begin with.</p>
           <p class="vb-intro">Finally, the source matters: <strong>Claudio Naranjo</strong> himself, the originator of the subtype teachings, classified Bismarck in his seminars as a Sexual Six &ndash; not an Eight. The popular Eight attribution stems more from Bismarck's outward bearing as a power politician than from a closer analysis of his inner motivation &ndash; helped along by his physical bulk in old age, which makes him look almost bear-like in the many paintings and early photographs, and by the quality of his gaze in these portraits: a look that certainly radiates strength, but one aimed at demonstrating it outward rather than the quieter, more inward-directed sense of power typical of a Self-Preservation Eight with Nine-wing.</p>
         </blockquote>
 
@@ -1528,7 +1528,7 @@ export function sundarPichaiPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sundar-pichai-portrait.jpg" alt="Sundar Pichai – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Sundar Pichai</p>
-        <p class="krim-portrait-typ">SE6w5 &middot; Self-Preservation Type 6 with F\xfcnferfl\xfcgel</p>
+        <p class="krim-portrait-typ">SP6w5 &middot; Self-Preservation Type 6 with F\xfcnferfl\xfcgel</p>
         <p class="krim-portrait-subtitle">CEO of Google and Alphabet, b. 1972 – Animal equivalent: Rabbit</p>
       </div>
       <div class="page-content">
@@ -1580,17 +1580,17 @@ export function sundarPichaiPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
-        {route:"beruehmte-herbert-kickl", label:"Portrait: Herbert Kickl (SE6w5)"},
+        {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
+        {route:"beruehmte-herbert-kickl", label:"Portrait: Herbert Kickl (SP6w5)"},
         {route:"beruehmte-malaika-mihambo", label:"Portrait: Malaika Mihambo (SP6w5)"},
-        {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fjodor Dostojewski (SE6w5)"},
-        {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SE6w5)"},
-        {route:"beruehmte-luke-nichols", label:"Portrait: Luke Nichols (SE6w5)"},
-        {route:"beruehmte-mahatma-gandhi", label:"Portrait: Mahatma Gandhi (SE6w5)"},
-        {route:"beruehmte-neil-armstrong", label:"Portrait: Neil Armstrong (SE6w5)"},
-        {route:"beruehmte-carlo-masala", label:"Portrait: Carlo Masala (SE6w5)"},
-        {route:"beruehmte-milan-peschel", label:"Portrait: Milan Peschel (SE6w5)"},
-        {route:"beruehmte-michael-greger", label:"Portrait: Michael Greger (SE6w5)"},
+        {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fjodor Dostojewski (SP6w5)"},
+        {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SP6w5)"},
+        {route:"beruehmte-luke-nichols", label:"Portrait: Luke Nichols (SP6w5)"},
+        {route:"beruehmte-mahatma-gandhi", label:"Portrait: Mahatma Gandhi (SP6w5)"},
+        {route:"beruehmte-neil-armstrong", label:"Portrait: Neil Armstrong (SP6w5)"},
+        {route:"beruehmte-carlo-masala", label:"Portrait: Carlo Masala (SP6w5)"},
+        {route:"beruehmte-milan-peschel", label:"Portrait: Milan Peschel (SP6w5)"},
+        {route:"beruehmte-michael-greger", label:"Portrait: Michael Greger (SP6w5)"},
       ])}
     </div>
   `);
@@ -2000,7 +2000,7 @@ export function haraldVPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-harald-v-portrait.jpg" alt="King Harald V" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">King Harald V</p>
-        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 with a Nine Wing</p>
+        <p class="krim-portrait-typ">SP1w9 · Self-Preservation Type 1 with a Nine Wing</p>
         <p class="krim-portrait-subtitle">King of Norway 1991–2026, 1937–2026 – Animal equivalent: Eagle</p>
       </div>
       <div class="page-content">
@@ -2013,31 +2013,31 @@ export function haraldVPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation One: The Oath That Wasn't Negotiable</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation One (SE1)</strong> carries its perfectionism inward rather than outward – Naranjo called this subtype <em>Worry</em>: the constant inner question of whether one is truly doing justice to one's task. In Harald V this showed with a consistency unusual even for a monarch: despite bladder cancer (2003), two heart surgeries (2005 and 2020), several leg operations, repeated respiratory infections, Covid-19 twice, and a permanent pacemaker (2024), he never seriously considered abdicating. Asked by the press, he replied in essence that he stood by his constitutional oath – for life.</p>
-          <p class="vb-intro">That is the SE1: not a publicly performed sense of duty, but a private, inwardly carried obligation that holds even when nobody demands it. His own body became a secondary concern for as long as the oath still had to be kept.</p>
+          <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> carries its perfectionism inward rather than outward – Naranjo called this subtype <em>Worry</em>: the constant inner question of whether one is truly doing justice to one's task. In Harald V this showed with a consistency unusual even for a monarch: despite bladder cancer (2003), two heart surgeries (2005 and 2020), several leg operations, repeated respiratory infections, Covid-19 twice, and a permanent pacemaker (2024), he never seriously considered abdicating. Asked by the press, he replied in essence that he stood by his constitutional oath – for life.</p>
+          <p class="vb-intro">That is the SP1: not a publicly performed sense of duty, but a private, inwardly carried obligation that holds even when nobody demands it. His own body became a secondary concern for as long as the oath still had to be kept.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Nine Wing: Nine Years of Waiting Without a Fight</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine wing (w9)</strong> gives the self-preservation One something a SE1 with a more weakly developed Nine wing would not have to the same degree: the ability to hold quietly, without escalation but also without yielding, to a decision recognized as right. Harald met commoner Sonja Haraldsen in 1959. His father initially opposed the match firmly. Nine years followed – no open rupture, no scandal, just a quiet, immovable persistence, until in 1968 Harald declared he would either marry Sonja or no one. His father relented.</p>
+          <p class="vb-intro">The <strong>Nine wing (w9)</strong> gives the self-preservation One something a SP1 with a more weakly developed Nine wing would not have to the same degree: the ability to hold quietly, without escalation but also without yielding, to a decision recognized as right. Harald met commoner Sonja Haraldsen in 1959. His father initially opposed the match firmly. Nine years followed – no open rupture, no scandal, just a quiet, immovable persistence, until in 1968 Harald declared he would either marry Sonja or no one. His father relented.</p>
           <p class="vb-intro">The same quality carried his nearly sixty-year passion for sailing: three Olympic appearances (1964, 1968, 1972), a World Championship gold in 1987 and bronze in 1988, founding president of the Norwegian Sailing Federation, active until 2022. Not a loud sport, but a single, quiet discipline tended across an entire lifetime – the Nine wing needs its anchor, and it found one on the water.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Passion: Anger as Quiet Persistence</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The passion of the One is called <strong>anger</strong> – for the SE1w9 not as visible harshness, but as an unrelenting inner discipline nobody from outside notices. In Harald V this showed as the very opposite of severity: he was loved as the "grandfather of the nation," with quiet humor and a reassuring presence during the 1992 New Year's storm, the 2011 Utøya attacks, and the Covid-19 pandemic. The One's anger turned inward, against his own lapses – never outward, against others.</p>
+          <p class="vb-intro">The passion of the One is called <strong>anger</strong> – for the SP1w9 not as visible harshness, but as an unrelenting inner discipline nobody from outside notices. In Harald V this showed as the very opposite of severity: he was loved as the "grandfather of the nation," with quiet humor and a reassuring presence during the 1992 New Year's storm, the 2011 Utøya attacks, and the Covid-19 pandemic. The One's anger turned inward, against his own lapses – never outward, against others.</p>
           <p class="vb-intro">This pattern shows most clearly in his 2016 anniversary speech: "Norwegians are girls who love girls, boys who love boys... Norwegians believe in God, Allah, the Universe and nothing." No accusation, no confrontation – just the One's quiet moral insistence on naming what is right, carried by the Nine wing in a form that excluded no one.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation One</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE1w9 is a constancy that holds for decades without pushing itself into the foreground. Harald V held the center of a country that transformed around him for thirty-five years – oil boom, EU debates, social liberalization, pandemic – without himself ever becoming a point of contention. When roughly 10,000 people lined Oslo's streets with flowers and flags on the day of his death, it showed how deeply this quiet reliability had taken hold.</p>
-          <p class="vb-intro">The shadow of the SE1w9 lies in the fact that this inner sense of duty keeps going even when the body has long been asking for rest. Harald V could have stepped down at the latest after his second heart procedure in 2020, as other European monarchs did. He did not. The eagle stayed on its cliff until there was no other way left.</p>
+          <p class="vb-intro">The light of the SP1w9 is a constancy that holds for decades without pushing itself into the foreground. Harald V held the center of a country that transformed around him for thirty-five years – oil boom, EU debates, social liberalization, pandemic – without himself ever becoming a point of contention. When roughly 10,000 people lined Oslo's streets with flowers and flags on the day of his death, it showed how deeply this quiet reliability had taken hold.</p>
+          <p class="vb-intro">The shadow of the SP1w9 lies in the fact that this inner sense of duty keeps going even when the body has long been asking for rest. Harald V could have stepped down at the latest after his second heart procedure in 2020, as other European monarchs did. He did not. The eagle stayed on its cliff until there was no other way left.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Legacy: The Eagle Who Never Left Its Post</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">King Harald V embodied the self-preservation One with a Nine wing in a form that shows striking parallels to <a href="#beruehmte-queen-elizabeth-ii">Queen Elizabeth II (SE1w9)</a>: an office held for life, filled to the very last breath; a public reserve never read as coldness but as reliability; a private anchor – for Elizabeth the corgis and Balmoral, for Harald the sailing and the nine patiently endured years before his own marriage.</p>
+          <p class="vb-intro">King Harald V embodied the self-preservation One with a Nine wing in a form that shows striking parallels to <a href="#beruehmte-queen-elizabeth-ii">Queen Elizabeth II (SP1w9)</a>: an office held for life, filled to the very last breath; a public reserve never read as coldness but as reliability; a private anchor – for Elizabeth the corgis and Balmoral, for Harald the sailing and the nine patiently endured years before his own marriage.</p>
           <p class="vb-intro">After 35 years on the throne, his son Haakon succeeded him as king. The eagle has left its cliff – but the reliability he stood for is what an entire country will remember for a long time to come.</p>
         </blockquote>
 
@@ -2047,15 +2047,15 @@ export function haraldVPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
-        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SE1w9)"},
-        {route:"beruehmte-sting", label:"Portrait: Sting (SE1w9)"},
-        {route:"beruehmte-reinhold-messner", label:"Portrait: Reinhold Messner (SE1w9)"},
-        {route:"beruehmte-carl-xvi-gustaf", label:"Portrait: Carl XVI Gustaf (SE1w9)"},
-        {route:"beruehmte-johannes-paul-ii", label:"Portrait: John Paul II (SE1w9)"},
-        {route:"beruehmte-mette-marit", label:"Portrait: Mette-Marit (SE4w3)"},
-        {route:"beruehmte-phil-collins", label:"Portrait: Phil Collins (SE1w9)"},
-        {route:"beruehmte-tim-cook", label:"Portrait: Tim Cook (SE1w9)"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SP1w9)"},
+        {route:"beruehmte-sting", label:"Portrait: Sting (SP1w9)"},
+        {route:"beruehmte-reinhold-messner", label:"Portrait: Reinhold Messner (SP1w9)"},
+        {route:"beruehmte-carl-xvi-gustaf", label:"Portrait: Carl XVI Gustaf (SP1w9)"},
+        {route:"beruehmte-johannes-paul-ii", label:"Portrait: John Paul II (SP1w9)"},
+        {route:"beruehmte-mette-marit", label:"Portrait: Mette-Marit (SP4w3)"},
+        {route:"beruehmte-phil-collins", label:"Portrait: Phil Collins (SP1w9)"},
+        {route:"beruehmte-tim-cook", label:"Portrait: Tim Cook (SP1w9)"},
       ])}
     </div>
   `);
@@ -2137,7 +2137,7 @@ export function benBerndtPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ben-berndt-portrait.jpg" alt="Ben Berndt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Ben Berndt</p>
-        <p class="krim-portrait-typ">SE1w2 &middot; Self-Preservation One with a Two-Wing</p>
+        <p class="krim-portrait-typ">SP1w2 &middot; Self-Preservation One with a Two-Wing</p>
         <p class="krim-portrait-subtitle">Podcaster &amp; Entrepreneur, born 1984 &ndash; Animal correspondence: Eagle</p>
       </div>
       <div class="page-content">
@@ -2157,7 +2157,7 @@ export function benBerndtPortraitPage() {
         <h2 class="vb-section">3. The Two-Wing: The Friendly Host, Not the Detached Interviewer</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Two-wing (w2)</strong> shows in exactly this self-description as a "friendly host" rather than a detached questioner. A Self-Preservation One with a weakly developed two-wing – or even a Self-Preservation One with a nine-wing – would more likely insist on strict factual correctness and hold back more; the two-wing opens Berndt's format toward the personal, often hours-long closeness to the guest that sets "ungeskriptet" apart from classical interview journalism.</p>
-          <p class="vb-intro">The same wing coloring – discipline and strict principle turned inward, warmth and personal closeness turned outward – appears in Anne Will (SE1w2): here too a self-imposed code of honor, combined with a motto of "asking personally" rather than merely reporting factually.</p>
+          <p class="vb-intro">The same wing coloring – discipline and strict principle turned inward, warmth and personal closeness turned outward – appears in Anne Will (SP1w2): here too a self-imposed code of honor, combined with a motto of "asking personally" rather than merely reporting factually.</p>
         </blockquote>
 
         <h2 class="vb-section">4. From the Fight Ring to Calm: Worry No Longer Directed Outward</h2>
@@ -2168,7 +2168,7 @@ export function benBerndtPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation One with a Two-Wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE1w2 shows in Berndt's ability to offer guests a space in which they can open up for hours without filters – a rare combination of strict formal discipline (no editing, no coordination) and genuine personal warmth.</p>
+          <p class="vb-intro">The light of the SP1w2 shows in Berndt's ability to offer guests a space in which they can open up for hours without filters – a rare combination of strict formal discipline (no editing, no coordination) and genuine personal warmth.</p>
           <p class="vb-intro">The shadow lies in the risk that the principle of leaving things uncut becomes an end in itself. One example is the more than four-hour 2026 conversation with the AfD politician Björn Höcke: there, Höcke was allowed to claim, uncontradicted, that the NSDAP's SA had no slogan. That is historically false. A final 2006 ruling by the Hamm Higher Regional Court holds "Alles für Deutschland" to be the SA's slogan – independently confirmed by museum and weapons-history documentation as well, since the SA service dagger introduced in 1933 carried exactly this inscription, etched into the blade. The claim also contradicts Höcke's own legal history: he was criminally convicted twice for publicly using that exact banned phrase. North Rhine-Westphalia's state media authority subsequently formally admonished Berndt to observe journalistic due-diligence obligations and to provide the missing correction.</p>
           <p class="vb-intro">Berndt's own response to this criticism is telling: he points out that he is not a journalist and speaks of censorship, rather than reconsidering his own rule in this specific case. The very same One's discipline that inspires so much trust in the light shows its flip side here: holding to a self-imposed law without exception also shields it from justified criticism – not only from unjustified criticism.</p>
           <p class="vb-intro">This is precisely the weak point of the "I'm not a journalist, just a host" principle: it presupposes an exceptionally media-literate audience that fact-checks every uncontested claim itself. How time-consuming the research behind just one single false statement can be becomes clear the moment one actually attempts it – most listeners have neither the time nor the means for that. A principle that admits no exception effectively shifts the entire burden of journalistic due diligence onto an audience that can barely carry it.</p>
@@ -2186,10 +2186,10 @@ export function benBerndtPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
-        {route:"beruehmte-anne-will", label:"Portrait: Anne Will (SE1w2)"},
-        {route:"beruehmte-alain-delon", label:"Portrait: Alain Delon (SE1w2)"},
-        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SE1w2)"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
+        {route:"beruehmte-anne-will", label:"Portrait: Anne Will (SP1w2)"},
+        {route:"beruehmte-alain-delon", label:"Portrait: Alain Delon (SP1w2)"},
+        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
       ])}
     </div>
   `);
@@ -2406,7 +2406,7 @@ export function raulAguayoKrauthausenPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-raul-aguayo-krauthausen-portrait.jpg" alt="Raúl Aguayo-Krauthausen" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Raúl Aguayo-Krauthausen</p>
-        <p class="krim-portrait-typ">SE6w7 &middot; Self-Preservation Type 6 with a Seven Wing</p>
+        <p class="krim-portrait-typ">SP6w7 &middot; Self-Preservation Type 6 with a Seven Wing</p>
         <p class="krim-portrait-subtitle">b. 1980 – disability rights activist, co-founder of Wheelmap.org and Sozialhelden e.V. – Animal correspondence: Rabbit</p>
       </div>
       <div class="page-content">
@@ -2425,8 +2425,8 @@ export function raulAguayoKrauthausenPortraitPage() {
 
         <h2 class="vb-section">3. The self-preservation Six: security through verifiable structures</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation Six (SE6)</strong> is, according to Naranjo, the subtype he called <em>Warmth</em> – security here arises not through control over the whole world, but through carefully securing one's own immediate surroundings. In Aguayo-Krauthausen, however, this pattern expands logically: his own physical vulnerability made him vigilant not only for his own safety, but for that of everyone who depends on reliable, verified information about accessible places.</p>
-          <p class="vb-intro">Wheelmap is perhaps the most consistent SE6 solution imaginable: instead of relying on vague assurances, the safety of an environment is collectively checked, documented, and thereby made reliable by a community – each single map point a small, verifiable certainty in a world that often remains unpredictable for people with disabilities.</p>
+          <p class="vb-intro">The <strong>self-preservation Six (SP6)</strong> is, according to Naranjo, the subtype he called <em>Warmth</em> – security here arises not through control over the whole world, but through carefully securing one's own immediate surroundings. In Aguayo-Krauthausen, however, this pattern expands logically: his own physical vulnerability made him vigilant not only for his own safety, but for that of everyone who depends on reliable, verified information about accessible places.</p>
+          <p class="vb-intro">Wheelmap is perhaps the most consistent SP6 solution imaginable: instead of relying on vague assurances, the safety of an environment is collectively checked, documented, and thereby made reliable by a community – each single map point a small, verifiable certainty in a world that often remains unpredictable for people with disabilities.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Seven wing: humor as a tool against heaviness</h2>
@@ -2437,8 +2437,8 @@ export function raulAguayoKrauthausenPortraitPage() {
 
         <h2 class="vb-section">5. Light and shadow of the self-preservation Six</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE6w7 shows in Aguayo-Krauthausen's ability to build, out of a very personal, physically enforced vigilance, an infrastructure that benefits hundreds of thousands of people he will never personally meet. The fear of an inaccessible, dangerous environment was not repressed but transformed into a verifiable, collectively maintained tool.</p>
-          <p class="vb-intro">The shadow of the Seven wing lies in the risk that constant movement toward ever-new projects makes true stillness harder to reach – that humor and pace can also serve as a shield that papers over real exhaustion or pain more easily than it allows it. How much room remains for exactly that pause in the everyday life of someone this consistently active is a question that keeps resurfacing with the SE6w7.</p>
+          <p class="vb-intro">The light of the SP6w7 shows in Aguayo-Krauthausen's ability to build, out of a very personal, physically enforced vigilance, an infrastructure that benefits hundreds of thousands of people he will never personally meet. The fear of an inaccessible, dangerous environment was not repressed but transformed into a verifiable, collectively maintained tool.</p>
+          <p class="vb-intro">The shadow of the Seven wing lies in the risk that constant movement toward ever-new projects makes true stillness harder to reach – that humor and pace can also serve as a shield that papers over real exhaustion or pain more easily than it allows it. How much room remains for exactly that pause in the everyday life of someone this consistently active is a question that keeps resurfacing with the SP6w7.</p>
         </blockquote>
 
       </div>
@@ -2450,7 +2450,7 @@ export function raulAguayoKrauthausenPortraitPage() {
         {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
         {route:"beruehmte-woody-allen", label:"Portrait: Woody Allen (SP6w7)"},
         {route:"beruehmte-beatrice-chebet", label:"Portrait: Beatrice Chebet (SP6w7)"},
-        {route:"beruehmte-heiko-maas", label:"Portrait: Heiko Maas (SE6w7)"},
+        {route:"beruehmte-heiko-maas", label:"Portrait: Heiko Maas (SP6w7)"},
       ])}
     </div>
   `);
@@ -2646,7 +2646,7 @@ export function kevinKuehnertPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-kevin-kuehnert-portrait.jpg" alt="Kevin Kühnert – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-kevin-kuehnert-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Kevin Kühnert</p>
-        <p class="krim-portrait-typ">SE6w7 &middot; Self-Preservation Type 6 with a Seven-wing</p>
+        <p class="krim-portrait-typ">SP6w7 &middot; Self-Preservation Type 6 with a Seven-wing</p>
         <p class="krim-portrait-subtitle">German politician, b. 1989 &ndash; Juso chair 2017&ndash;2021, SPD general secretary 2021&ndash;2024 &ndash; Animal correspondence: Rabbit</p>
       </div>
       <div class="page-content">
@@ -2659,7 +2659,7 @@ export function kevinKuehnertPortraitPage() {
 
         <h2 class="vb-section">2. The self-preservation Six: support in the group, security in withdrawal</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Six senses danger earlier than others and seeks protection. Claudio Naranjo called the <strong>self-preservation Six (SE6)</strong> the subtype of &lsquo;warmth&rsquo;: it secures itself through reliable bonds, through groups and clubs in which people stand by each other. Whoever experiences that as a child in a handball club, as student spokesperson and at 15 in a party builds security from belonging.</p>
+          <p class="vb-intro">The Six senses danger earlier than others and seeks protection. Claudio Naranjo called the <strong>self-preservation Six (SP6)</strong> the subtype of &lsquo;warmth&rsquo;: it secures itself through reliable bonds, through groups and clubs in which people stand by each other. Whoever experiences that as a child in a handball club, as student spokesperson and at 15 in a party builds security from belonging.</p>
           <p class="vb-intro">Kühnert&rsquo;s career is a chain of such groups: in 2012 chairman of the Berlin Jusos, in 2015 deputy federal chairman of the Jusos, in November 2017 federal chairman with 225 of 297 votes, in December 2019 deputy SPD chairman with 70.4 percent, in December 2021 SPD general secretary with 77.8 percent, confirmed in December 2023 with 92.6 percent. When he laid down the office of general secretary in 2024 he still remained an SPD member and justified the tie with the organisation and its values.</p>
           <p class="vb-intro">The departure shows the other side of the Six: where danger grows, it seeks protection, and that can lie in withdrawal. In April 2025 Kühnert told &lsquo;Die Zeit&rsquo;: &lsquo;My red line is where violence is in the air. I am only 1.70 metres tall.&rsquo; He reported neo-Nazis, farmers with self-built gallows outside SPD headquarters, a stadium visitor who said &lsquo;I hate you!&rsquo; to his face, and a Covid denier who threw a raw egg at him at a campaign appearance in Detmold. And: &lsquo;At some point it became clear to me: if I want to be left in peace, I have to go where there are no people at all.&rsquo; He increasingly spent his holidays in lonely mountain regions. That is the Six that cannot put its vigilance down.</p>
         </blockquote>
@@ -2678,7 +2678,7 @@ export function kevinKuehnertPortraitPage() {
 
         <h2 class="vb-section">5. Parallel in the same subtype: Maas, Hörhan and Allen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Several SE6w7s stand among the portraits in this Compass, and the comparison shows how differently the Six seeks its support. <a href="#beruehmte-heiko-maas">Heiko Maas (SE6w7)</a>, like Kühnert, stayed loyal to his party and found his support in institutions, but became a minister and stayed in politics. <a href="#beruehmte-gerald-hoerhan">Gerald Hörhan (SE6w7)</a> seeks security in his own property and sells caution as rebellion. <a href="#beruehmte-woody-allen">Woody Allen (SE6w7)</a> withdrew from the noise of the world into a manageable territory and turned fear into punchlines.</p>
+          <p class="vb-intro">Several SP6w7s stand among the portraits in this Compass, and the comparison shows how differently the Six seeks its support. <a href="#beruehmte-heiko-maas">Heiko Maas (SP6w7)</a>, like Kühnert, stayed loyal to his party and found his support in institutions, but became a minister and stayed in politics. <a href="#beruehmte-gerald-hoerhan">Gerald Hörhan (SP6w7)</a> seeks security in his own property and sells caution as rebellion. <a href="#beruehmte-woody-allen">Woody Allen (SP6w7)</a> withdrew from the noise of the world into a manageable territory and turned fear into punchlines.</p>
           <p class="vb-intro">Kühnert lies between them: his security lies in the group, as with Maas, but when the group could no longer offer it, he withdrew, like Allen into his territory, except that his lies in the mountains. He shares the pleasure in the public appearance with Hörhan, but while Hörhan turns fear into property, in Kühnert it becomes stance and the question of when the price grows too high.</p>
         </blockquote>
 
@@ -2699,12 +2699,12 @@ export function kevinKuehnertPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
-        {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SE6 – Rabbit"},
-        {route:"beruehmte-heiko-maas", label:"Portrait: Heiko Maas (SE6w7) – also SPD, same subtype and wing"},
-        {route:"beruehmte-gerald-hoerhan", label:"Porträt: Gerald Hörhan (SE6w7)"},
-        {route:"beruehmte-woody-allen", label:"Porträt: Woody Allen (SE6w7)"},
-        {route:"beruehmte-thomas-schmelzer", label:"Portrait: Thomas Schmelzer (SE6w7)"},
+        {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
+        {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SP6 – Rabbit"},
+        {route:"beruehmte-heiko-maas", label:"Portrait: Heiko Maas (SP6w7) – also SPD, same subtype and wing"},
+        {route:"beruehmte-gerald-hoerhan", label:"Porträt: Gerald Hörhan (SP6w7)"},
+        {route:"beruehmte-woody-allen", label:"Porträt: Woody Allen (SP6w7)"},
+        {route:"beruehmte-thomas-schmelzer", label:"Portrait: Thomas Schmelzer (SP6w7)"},
       ])}
     </div>
   `);

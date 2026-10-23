@@ -189,7 +189,7 @@ export function bernieMadoffKrankheitsportraetPage() {
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Raccoon</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Animal correspondence: Raccoon" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE3")};left:${tierAvatarLeft("SE3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Animal correspondence: Raccoon" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP3")};left:${tierAvatarLeft("SP3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -1011,7 +1011,7 @@ export function freudKrankheitsportraetPage() {
         {route:"krankheitsportraets-immanuel-kant", label:"Illness Portrait: Immanuel Kant (SO6w5) – the same pattern of self-control"},
         {route:"krankheitsportraets-moliere", label:"Illness Portrait: Molière (SO7w6)"},
         {route:"krankheitsportraets-woody-allen", label:"Illness Portrait: Woody Allen (SP6w7) – related hypochondria, a different instinct response"},
-        {route:"krankheitsportraets-marie-curie", label:"Marie Curie (SE5w6) – illness portrait"},
+        {route:"krankheitsportraets-marie-curie", label:"Marie Curie (SP5w6) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so6", label:"Subtype Profile SO6"},
       ])}
@@ -1209,11 +1209,11 @@ export function hansDietrichGenscherKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-hans-dietrich-genscher-portrait.jpg" alt="Hans-Dietrich Genscher" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Hans-Dietrich Genscher</p>
-        <p class="krim-portrait-typ">SE9w8 · Self-Preservation Type 9 with Eight-Wing · 1927–2016</p>
+        <p class="krim-portrait-typ">SP9w8 · Self-Preservation Type 9 with Eight-Wing · 1927–2016</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Elephant</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Animal correspondence: Elephant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE9")};left:${tierAvatarLeft("SE9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Animal correspondence: Elephant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP9")};left:${tierAvatarLeft("SP9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -1226,7 +1226,7 @@ export function hansDietrichGenscherKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
         <strong>Genscher</strong> is assigned to the <strong>self-preservation Type 9 with
-        Eight-Wing</strong>. The SE9 seeks security through persistence and continuity, even
+        Eight-Wing</strong>. The SP9 seeks security through persistence and continuity, even
         in dealing with its own health; the Eight-Wing adds a quiet but unmistakable
         determination that will not be pushed aside. Exactly this combination – patient
         continuity in office, combined with a refusal to let health setbacks push him out of
@@ -1293,7 +1293,7 @@ export function hansDietrichGenscherKrankheitsportraetPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
         <p class="vb-intro"><strong>a) Continuity as the answer to his own illness:</strong>
-        The SE9's characteristic search for security through persistence also showed in how
+        The SP9's characteristic search for security through persistence also showed in how
         he dealt with his own heart condition: Genscher did not let the illness become the
         occasion for a dramatic withdrawal, but continued his public work with his usual
         continuity.</p>
@@ -1302,7 +1302,7 @@ export function hansDietrichGenscherKrankheitsportraetPage() {
         fronts of the Cold War for decades showed in dealing with his own health as a refusal
         to let the illness push him out of public life.</p>
         <p class="vb-intro"><strong>c) Discretion instead of public staging:</strong>
-        That Genscher never publicly detailed his heart condition fits the SE9w8 tendency to
+        That Genscher never publicly detailed his heart condition fits the SP9w8 tendency to
         treat private matters discreetly while continuing the public role unchanged.</p>
       </div>
 
@@ -1318,9 +1318,9 @@ export function hansDietrichGenscherKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="krankheitsportraets-david-hume">David
         Hume</a> and
         <a href="javascript:void(0)" data-route="krankheitsportraets-johannes-brahms">Johannes
-        Brahms</a> (both also SE9w8): all three met a progressive illness with the same calm,
+        Brahms</a> (both also SP9w8): all three met a progressive illness with the same calm,
         almost serene persistence, without making the illness a central public topic. All
-        SE9w8s show the same pattern: security through continuity, even in the face of their
+        SP9w8s show the same pattern: security through continuity, even in the face of their
         own physical decline.</p>
         <p class="vb-intro"><strong>c) Why the heart, of all things, the organ of quiet mediation?</strong>
         For a self-preservation Type 9 with an Eight-Wing whose entire life's work rested on
@@ -1358,13 +1358,13 @@ export function hansDietrichGenscherKrankheitsportraetPage() {
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SE9w8)"},
-        {route:"krankheitsportraets-david-hume", label:"Illness Portrait: David Hume (SE9w8) – same subtype"},
-        {route:"krankheitsportraets-johannes-brahms", label:"Illness Portrait: Johannes Brahms (SE9w8) – same subtype"},
-        {route:"krankheitsportraets-charles-laughton", label:"Charles Laughton (SE9w8) – illness portrait"},
-        {route:"krankheitsportraets-margaret-rutherford", label:"Margaret Rutherford (SE9w8) – illness portrait"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SP9w8)"},
+        {route:"krankheitsportraets-david-hume", label:"Illness Portrait: David Hume (SP9w8) – same subtype"},
+        {route:"krankheitsportraets-johannes-brahms", label:"Illness Portrait: Johannes Brahms (SP9w8) – same subtype"},
+        {route:"krankheitsportraets-charles-laughton", label:"Charles Laughton (SP9w8) – illness portrait"},
+        {route:"krankheitsportraets-margaret-rutherford", label:"Margaret Rutherford (SP9w8) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
-        {route:"subtype/se9", label:"Subtype Profile SE9"},
+        {route:"subtype/se9", label:"Subtype Profile SP9"},
       ])}
     </div>
   `);
@@ -2074,11 +2074,11 @@ export function mariahCareyKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-mariah-carey-portrait.jpg" alt="Mariah Carey" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Mariah Carey</p>
-        <p class="krim-portrait-typ">SE7w8 &middot; Self-Preservation Type 7 with Eight-wing &middot; b. 1969</p>
+        <p class="krim-portrait-typ">SP7w8 &middot; Self-Preservation Type 7 with Eight-wing &middot; b. 1969</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Gorilla</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se7.jpg" alt="Animal correspondence: Gorilla" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE7")};left:${tierAvatarLeft("SE7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se7.jpg" alt="Animal correspondence: Gorilla" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP7")};left:${tierAvatarLeft("SP7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -2092,7 +2092,7 @@ export function mariahCareyKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
         <strong>Carey</strong> is assigned to the <strong>Self-Preservation Type 7 with
-        Eight-wing</strong>. The SE7 secures practical reserves of possibilities for hard
+        Eight-wing</strong>. The SP7 secures practical reserves of possibilities for hard
         times; the Eight-wing adds assertiveness and the ability to control one's own
         vulnerability for a long time. This exact combination – years of disciplined
         control over her own public image – determined how long Carey kept her diagnosis
@@ -2155,7 +2155,7 @@ export function mariahCareyKrankheitsportraetPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
         <p class="vb-intro"><strong>a) Reserves of control instead of visible vulnerability:</strong>
-        The same SE7 logic of securing reserves for hard times showed in Carey as years
+        The same SP7 logic of securing reserves for hard times showed in Carey as years
         of careful control over what became known about her health.</p>
         <p class="vb-intro"><strong>b) The Eight-wing and the long refusal of weakness:</strong>
         The Eight-wing's assertiveness explains why Carey did not allow the diagnosis to
@@ -2174,7 +2174,7 @@ export function mariahCareyKrankheitsportraetPage() {
         that this image could stay intact.</p>
         <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
         <a href="javascript:void(0)" data-route="krankheitsportraets-francis-bacon">Francis
-        Bacon</a> (also SE7w8) processed his excessive, self-destructive life for a long
+        Bacon</a> (also SP7w8) processed his excessive, self-destructive life for a long
         time without publicly speaking of the despair behind it; Carey kept her own
         mental illness secret with the same basic stance – control over her public image
         until her own conditions for openness were met. More in the
@@ -2208,11 +2208,11 @@ export function mariahCareyKrankheitsportraetPage() {
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"beruehmte-mariah-carey", label:"Portrait: Mariah Carey (SE7w8)"},
-        {route:"krankheitsportraets-francis-bacon", label:"Illness Portrait: Francis Bacon (SE7w8) – the same long concealment"},
-        {route:"krankheitsportraets-elton-john", label:"Illness Portrait: Elton John (SE7w6) – same core type, different wing"},
+        {route:"beruehmte-mariah-carey", label:"Portrait: Mariah Carey (SP7w8)"},
+        {route:"krankheitsportraets-francis-bacon", label:"Illness Portrait: Francis Bacon (SP7w8) – the same long concealment"},
+        {route:"krankheitsportraets-elton-john", label:"Illness Portrait: Elton John (SP7w6) – same core type, different wing"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
-        {route:"subtype/se7", label:"Subtype Profile SE7"},
+        {route:"subtype/se7", label:"Subtype Profile SP7"},
       ])}
     </div>
   `);
@@ -3012,7 +3012,7 @@ export function stephenHawkingKrankheitsportraetPage() {
         belonging to a reliable, tested institution rather than to fleeting personal fame.</p>
         <p class="vb-intro"><strong>c) A public legacy beyond death:</strong>
         Hawking's ashes were interred in Westminster Abbey next to the graves of Isaac
-        Newton and Charles Darwin (SE5w6) – a posthumous belonging to exactly the community of great
+        Newton and Charles Darwin (SP5w6) – a posthumous belonging to exactly the community of great
         scientists he had felt connected to throughout his life.</p>
       </div>
 
@@ -3110,11 +3110,11 @@ export function warrenBuffettKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-warren-buffett-portrait.jpg" alt="Warren Buffett – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Warren Buffett</p>
-        <p class="krim-portrait-typ">SE5w6 · Self-Preservation Type 5 with Six-wing · b. 1930</p>
+        <p class="krim-portrait-typ">SP5w6 · Self-Preservation Type 5 with Six-wing · b. 1930</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Owl</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se5.jpg" alt="Animal correspondence: Owl" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE5")};left:${tierAvatarLeft("SE5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se5.jpg" alt="Animal correspondence: Owl" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP5")};left:${tierAvatarLeft("SP5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -3255,7 +3255,7 @@ export function warrenBuffettKrankheitsportraetPage() {
         fast-food breakfasts, large amounts of Cherry Coke, almost no exercise – stayed unchanged
         for decades, even though he could long since have afforded any alternative imaginable.
         That this physically undercared-for lifestyle nonetheless let him live well past ninety
-        changes nothing about the fact that the same SE5 persistence is visible here that also
+        changes nothing about the fact that the same SP5 persistence is visible here that also
         kept his investment principles unchanged for decades: once a routine is recognized as
         correct, it is not questioned out of consideration for the body, but simply continued.
         That he stayed healthy for so long anyway is luck and constitution, not proof that the
@@ -3274,10 +3274,10 @@ export function warrenBuffettKrankheitsportraetPage() {
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"beruehmte-warren-buffett", label:"Portrait: Warren Buffett (SE5w6) – Life's Work"},
-        {route:"krankheitsportraets-marie-curie", label:"Illness Portrait: Marie Curie (SE5w6) – matter-of-fact to the point of ignoring her own warning signs"},
+        {route:"beruehmte-warren-buffett", label:"Portrait: Warren Buffett (SP5w6) – Life's Work"},
+        {route:"krankheitsportraets-marie-curie", label:"Illness Portrait: Marie Curie (SP5w6) – matter-of-fact to the point of ignoring her own warning signs"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
-        {route:"subtype/se5", label:"Subtype Profile SE5"},
+        {route:"subtype/se5", label:"Subtype Profile SP5"},
       ])}
     </div>
   `);
@@ -3297,7 +3297,7 @@ export function yayoiKusamaKrankheitsportraetPage() {
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Hippopotamus</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Animal correspondence: Hippopotamus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE2")};left:${tierAvatarLeft("SE2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Animal correspondence: Hippopotamus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP2")};left:${tierAvatarLeft("SP2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -4088,11 +4088,11 @@ export function klaraVonAssisiKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-klara-von-assisi-portrait.jpg" alt="Clare of Assisi – portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Clare of Assisi</p>
-        <p class="krim-portrait-typ">SE3w2 · Self-Preservation Type 3 with Two-wing · 1194–1253</p>
+        <p class="krim-portrait-typ">SP3w2 · Self-Preservation Type 3 with Two-wing · 1194–1253</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Raccoon</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Animal correspondence: Raccoon" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE3")};left:${tierAvatarLeft("SE3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Animal correspondence: Raccoon" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP3")};left:${tierAvatarLeft("SP3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -4212,10 +4212,10 @@ export function klaraVonAssisiKrankheitsportraetPage() {
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"beruehmte-klara-von-assisi", label:"Portrait: Clare of Assisi (SE3w2) – life's work"},
-        {route:"krankheitsportraets-enrico-caruso", label:"Enrico Caruso (SE3w2) – illness portrait"},
+        {route:"beruehmte-klara-von-assisi", label:"Portrait: Clare of Assisi (SP3w2) – life's work"},
+        {route:"krankheitsportraets-enrico-caruso", label:"Enrico Caruso (SP3w2) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
-        {route:"subtype/se3", label:"Subtype Profile SE3"},
+        {route:"subtype/se3", label:"Subtype Profile SP3"},
       ])}
     </div>
   `);

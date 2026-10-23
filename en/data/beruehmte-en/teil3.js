@@ -35,7 +35,7 @@ export function adamSmithPortraitPage() {
 
         <h2 class="vb-section">4. The Elephant and the Goose: Friendship with David Hume</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Smith&#39;s closest and most formative friendship was with <a href="#beruehmte-david-hume">David Hume</a> (SE9w8) &ndash; they met around 1750 in Edinburgh&#39;s intellectual circles and remained closely bound until Hume&#39;s death in 1776, exchanging manuscripts, criticizing and encouraging each other across decades. Two very different temperaments: the calm, unshakeable elephant Hume, who met public outrage with cheerful serenity &ndash; and the dutiful, reputation-conscious goose Smith, for whom social standing and moral integrity were inseparable.</p>
+          <p class="vb-intro">Smith&#39;s closest and most formative friendship was with <a href="#beruehmte-david-hume">David Hume</a> (SP9w8) &ndash; they met around 1750 in Edinburgh&#39;s intellectual circles and remained closely bound until Hume&#39;s death in 1776, exchanging manuscripts, criticizing and encouraging each other across decades. Two very different temperaments: the calm, unshakeable elephant Hume, who met public outrage with cheerful serenity &ndash; and the dutiful, reputation-conscious goose Smith, for whom social standing and moral integrity were inseparable.</p>
           <p class="vb-intro">That difference became the friendship&#39;s real difficulty: when Hume lay dying in 1776, Smith visited him repeatedly and was deeply struck by his composure in the face of death. After Hume&#39;s death, Smith published a public letter describing his friend as a man who approached as near the idea of a perfectly wise and virtuous person as the frailty of human nature would permit &ndash; praise that, given Hume&#39;s well-known religious skepticism, ignited a storm of outrage. Smith was publicly attacked as a defender of unbelief; he later wrote that this short letter had brought him more abuse than his entire work on the wealth of nations. For the social One, dependent on recognition and moral integrity, that was a painful price &ndash; and at the same time proof that loyalty to his friend mattered more to him than his own reputation.</p>
         </blockquote>
 
@@ -59,7 +59,7 @@ export function adamSmithPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
         {route:"beruehmte-friedrich-merz", label:"Portrait: Friedrich Merz (SO1w9)"},
-        {route:"beruehmte-david-hume", label:"Portrait: David Hume (SE9w8) – his close friend"},
+        {route:"beruehmte-david-hume", label:"Portrait: David Hume (SP9w8) – his close friend"},
         {route:"krankheitsportraets-adam-smith", label:"Illness Portrait: Adam Smith (SO1w9)"},
         {route:"beruehmte-samuel-hahnemann", label:"Portrait: Dr. Samuel Hahnemann (SO1w9)"},
         {route:"beruehmte-xanthippe", label:"Portrait: Xanthippe (SO1w9)"},
@@ -208,7 +208,7 @@ export function carlFriedrichGaussPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-carl-friedrich-gauss-portrait.jpg" alt="Carl Friedrich Gauss – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Carl Friedrich Gauss</p>
-        <p class="krim-portrait-typ">SE5w6 &middot; Self-Preservation Type 5 with Six-wing</p>
+        <p class="krim-portrait-typ">SP5w6 &middot; Self-Preservation Type 5 with Six-wing</p>
         <p class="krim-portrait-subtitle">Mathematician, astronomer, physicist, 1777&ndash;1855 &ndash; Animal correspondence: Owl</p>
       </div>
       <div class="page-content">
@@ -221,7 +221,7 @@ export function carlFriedrichGaussPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Five: hoarding knowledge until it is ripe</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Self-Preservation Five (SE5)</strong> withdraws to protect its limited inner resources &ndash; it reveals nothing that has not been thought through to the last detail, and experiences disturbance, an audience, or public appearance as a threat to its precious inner order. Gauss taught only reluctantly, avoided distraction and interruption, and preferred to work alone, without collaborating with younger mathematicians or letting them into his world of thought.</p>
+          <p class="vb-intro">The <strong>Self-Preservation Five (SP5)</strong> withdraws to protect its limited inner resources &ndash; it reveals nothing that has not been thought through to the last detail, and experiences disturbance, an audience, or public appearance as a threat to its precious inner order. Gauss taught only reluctantly, avoided distraction and interruption, and preferred to work alone, without collaborating with younger mathematicians or letting them into his world of thought.</p>
           <p class="vb-intro">His perfectionism was radical: many of his most significant discoveries &ndash; including parts of non-Euclidean geometry &ndash; he withheld completely for decades, out of fear of the "outcry of the Boeotians," meaning public criticism from people who would not understand his thinking. The Self-Preservation Five would rather reveal nothing at all than expose something unfinished to the world.</p>
         </blockquote>
 
@@ -233,7 +233,7 @@ export function carlFriedrichGaussPortraitPage() {
 
         <h2 class="vb-section">4. Light and shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE5w6 is its ability to reach, <strong>through radical withdrawal, insights of centuries-long significance</strong> &ndash; the Gaussian normal distribution remains, to this day, one of the central tools of all of statistics, from the natural sciences to social research, and his elimination method belongs to the basic mathematical toolkit of every engineer worldwide.</p>
+          <p class="vb-intro">The light of the SP5w6 is its ability to reach, <strong>through radical withdrawal, insights of centuries-long significance</strong> &ndash; the Gaussian normal distribution remains, to this day, one of the central tools of all of statistics, from the natural sciences to social research, and his elimination method belongs to the basic mathematical toolkit of every engineer worldwide.</p>
           <p class="vb-intro">The shadow showed in missed recognition and lost priority: because Gauss withheld so much, some of his discoveries were later made and published independently by other researchers, who received the credit for them. The flip side of the Self-Preservation Five with a Six-wing: seeking absolute safety from criticism can mean withholding from the world insights it urgently needed.</p>
         </blockquote>
 
@@ -249,15 +249,15 @@ export function carlFriedrichGaussPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se5", label:"SE5 – The Owl: Subtype Profile"},
-        {route:"lebensmusterkompass/se5", label:"Life Pattern Compass: SE5 – Owl"},
+        {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
+        {route:"lebensmusterkompass/se5", label:"Life Pattern Compass: SP5 – Owl"},
         {route:"bewusstseinsgrad-normalverteilung", label:"Levels of Consciousness & the Gaussian Normal Distribution"},
         {route:"beruehmte-archimedes", label:"Portrait: Archimedes (SX5w4)"},
         {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6)"},
-        {route:"beruehmte-stanley-mandelstam", label:"Portrait: Stanley Mandelstam (SE5w6) – same subtype"},
-        {route:"beruehmte-harald-lesch", label:"Portrait: Harald Lesch (SE5w6)"},
-        {route:"beruehmte-ingo-zimmermann", label:"Portrait: Prof. Dr. Ingo Zimmermann (SE5w4)"},
-        {route:"beruehmte-duncan-haldane", label:"Portrait: Duncan Haldane (SE5w6)"},
+        {route:"beruehmte-stanley-mandelstam", label:"Portrait: Stanley Mandelstam (SP5w6) – same subtype"},
+        {route:"beruehmte-harald-lesch", label:"Portrait: Harald Lesch (SP5w6)"},
+        {route:"beruehmte-ingo-zimmermann", label:"Portrait: Prof. Dr. Ingo Zimmermann (SP5w4)"},
+        {route:"beruehmte-duncan-haldane", label:"Portrait: Duncan Haldane (SP5w6)"},
       ])}
     </div>
   `);
@@ -531,7 +531,7 @@ export function franzVonAssisiPortraitPage() {
         {route:"beruehmte-george-gershwin", label:"Portrait: George Gershwin (SO7w6)"},
         {route:"beruehmte-henry-shukman", label:"Portrait: Henry Shukman (SO7w6) – Zen teacher"},
         {route:"krankheitsportraets-moliere", label:"Illness Portrait: Molière (SO7w6)"},
-        {route:"beruehmte-klara-von-assisi", label:"Portrait: Clare of Assisi (SE3w2) – companion"},
+        {route:"beruehmte-klara-von-assisi", label:"Portrait: Clare of Assisi (SP3w2) – companion"},
         {route:"krankheitsportraets-franz-von-assisi", label:"Illness Portrait: Francis of Assisi (SO7w6)"},
       ])}
     </div>
@@ -550,7 +550,7 @@ export function gloriaVonThurnUndTaxisPortraitPage() {
           <div style="display:none;width:100%;aspect-ratio:1;background:var(--surface,#f4f0e8);border-radius:50%;align-items:center;justify-content:center;font-size:4rem;">🦛</div>
         </div>
         <p class="krim-portrait-name">Gloria von Thurn and Taxis</p>
-        <p class="krim-portrait-typ">SE2w1 &middot; Self-Preservation Type 2 with One-Wing</p>
+        <p class="krim-portrait-typ">SP2w1 &middot; Self-Preservation Type 2 with One-Wing</p>
         <p class="krim-portrait-subtitle">Princess, entrepreneur & patron of the arts, b. 1960 – Animal equivalent: Hippopotamus</p>
       </div>
       <div class="page-content">
@@ -563,35 +563,35 @@ export function gloriaVonThurnUndTaxisPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Two: Survival as the Primary Duty</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The self-preservation Two (SE2) is in the Enneagram tradition the subtype that directs the energy of the Two most directly toward its own existence and that of its inner circle. Naranjo called this subtype Me First: not egocentrism, but survival intelligence. The SE2 asks first: What do I need to endure? What does what belongs to me need to survive? It is the most concrete, grounded, least romanticizing of the three Two variants.</p>
-          <p class="vb-intro">When Gloria von Thurn und Taxis became a widow at thirty in 1990, she took on a task that would have overwhelmed most experienced managers: restructuring one of the oldest aristocratic fortunes in Europe. She sold real estate, artwork, land and kept St. Emmeram Castle in Regensburg, the core of the family identity. No sentimentality, no shyness about tough decisions, no hedging. That is the SE2 in its clearest expression: It knows what is essential and protects it with a determination that often unsettles outsiders.</p>
-          <p class="vb-intro">What is remarkable is that Gloria von Thurn und Taxis never spoke the language of management consulting. She spoke the language of responsibility. For the children, for the heritage, for the people who depend on this heritage. That is the SE2 perspective: Survival is not a selfish project it is the foundation on which everything else stands.</p>
+          <p class="vb-intro">The self-preservation Two (SP2) is in the Enneagram tradition the subtype that directs the energy of the Two most directly toward its own existence and that of its inner circle. Naranjo called this subtype Me First: not egocentrism, but survival intelligence. The SP2 asks first: What do I need to endure? What does what belongs to me need to survive? It is the most concrete, grounded, least romanticizing of the three Two variants.</p>
+          <p class="vb-intro">When Gloria von Thurn und Taxis became a widow at thirty in 1990, she took on a task that would have overwhelmed most experienced managers: restructuring one of the oldest aristocratic fortunes in Europe. She sold real estate, artwork, land and kept St. Emmeram Castle in Regensburg, the core of the family identity. No sentimentality, no shyness about tough decisions, no hedging. That is the SP2 in its clearest expression: It knows what is essential and protects it with a determination that often unsettles outsiders.</p>
+          <p class="vb-intro">What is remarkable is that Gloria von Thurn und Taxis never spoke the language of management consulting. She spoke the language of responsibility. For the children, for the heritage, for the people who depend on this heritage. That is the SP2 perspective: Survival is not a selfish project it is the foundation on which everything else stands.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The One Wing: Morality as Backbone</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The One wing (w1) brings something to the self-preservation Two that a Two with a weaker One wing does not possess on its own: an inner set of rules that sustains independently of external recognition. The One knows a right and a wrong. It tolerates no half-measures. It judges and first of all, itself. Combined with the SE2, it creates someone who not only knows what they want, but also knows how it ought to be.</p>
+          <p class="vb-intro">The One wing (w1) brings something to the self-preservation Two that a Two with a weaker One wing does not possess on its own: an inner set of rules that sustains independently of external recognition. The One knows a right and a wrong. It tolerates no half-measures. It judges and first of all, itself. Combined with the SP2, it creates someone who not only knows what they want, but also knows how it ought to be.</p>
           <p class="vb-intro">In Gloria von Thurn und Taxis, this wing shows itself primarily in her deeply rooted religious convictions. After her husband's death, she turned to the Catholic faith with great intensity, which in her biography represents no mere refuge but an inner consequence. The One wing needs a reference point beyond pragmatic survival. It seeks order, principle, something that is true, regardless of whether it is currently convenient.</p>
-          <p class="vb-intro">That she takes clear often uncomfortable positions in public on marriage, family, and life issues is not populism. It is the SE2w1 in its natural posture: I say what I consider right. Whether that goes down well or not is a secondary question. The hippopotamus does not back down when it considers its standpoint to be correct.</p>
+          <p class="vb-intro">That she takes clear often uncomfortable positions in public on marriage, family, and life issues is not populism. It is the SP2w1 in its natural posture: I say what I consider right. Whether that goes down well or not is a secondary question. The hippopotamus does not back down when it considers its standpoint to be correct.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Passion: Pride as a Protective Shell</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The passion of the Two is called pride, and in its deepest form it is not arrogance, but a protective strategy: the belief that through one's own giving, achieving, and carrying, one is indispensable. The Two who is proud of what she does for others never has to ask whether she would also be loved without this achievement. The pride of the SE2w1 carries a special quality: It connects with a consciousness of status, dignity, and duty.</p>
+          <p class="vb-intro">The passion of the Two is called pride, and in its deepest form it is not arrogance, but a protective strategy: the belief that through one's own giving, achieving, and carrying, one is indispensable. The Two who is proud of what she does for others never has to ask whether she would also be loved without this achievement. The pride of the SP2w1 carries a special quality: It connects with a consciousness of status, dignity, and duty.</p>
           <p class="vb-intro">Gloria von Thurn und Taxis carries her inheritance not as a burden, but as a mandate. The Regensburg Castle Festival, which she turned into a cultural institution of rank; the art collection, which she carefully maintained; the public presence, which she never shied away from all of this is an expression of a pride that serves no vain self-dramatization, but rather the conviction: This heritage is worth preserving, and I am the one who preserves it.</p>
-          <p class="vb-intro">The shadow of this pride, as with any Two, lies in the question that remains silent beneath it: What am I when I have nothing left to give? The SE2w1 answers this with even more action, even more posture, even more clarity. The hippopotamus builds its territory larger so that it never stands empty.</p>
+          <p class="vb-intro">The shadow of this pride, as with any Two, lies in the question that remains silent beneath it: What am I when I have nothing left to give? The SP2w1 answers this with even more action, even more posture, even more clarity. The hippopotamus builds its territory larger so that it never stands empty.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Transformation: From Excess to Matriarch</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Gloria von Thurn und Taxis's 1980s are well documented: the mohawk, the costume parties, the headlines. It would be easy to see a contradiction between that and the woman she is today. From an Enneagram perspective, there is none. The SE2 lives in extremes: It is fully present in the moment, fully in enjoyment when that is possible and fully in protection, fully in responsibility when that is required. The shift from Princess TNT to the matriarch of the House of Thurn und Taxis is not a rupture. It is the same character in a different life situation.</p>
+          <p class="vb-intro">Gloria von Thurn und Taxis's 1980s are well documented: the mohawk, the costume parties, the headlines. It would be easy to see a contradiction between that and the woman she is today. From an Enneagram perspective, there is none. The SP2 lives in extremes: It is fully present in the moment, fully in enjoyment when that is possible and fully in protection, fully in responsibility when that is required. The shift from Princess TNT to the matriarch of the House of Thurn und Taxis is not a rupture. It is the same character in a different life situation.</p>
           <p class="vb-intro">What changed is the water in which the hippopotamus swims. In the 1980s, the water was society, parties, the youth of the moment. After 1990, the water became the castle, the heritage, the family, the faith. The hippopotamus did not change. It remeasured its territory.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Gift: Steadfastness as a Cultural Force</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Gloria von Thurn und Taxis gave to the House of Thurn und Taxis and the city of Regensburg can be quantified and not quantified at the same time. Quantifiable is the restructuring of a crumbling heritage, the building of a functioning corporate structure, the establishment of a cultural festival of international renown. Unquantifiable is what lies behind it: the ability not to break under extreme pressure, but to grow.</p>
-          <p class="vb-intro">That is the gift of the SE2w1: steadfastness that does not come at the expense of others. A hippopotamus holding its territory and within it creating space for culture, for family, for that which reaches beyond a single person. Gloria von Thurn und Taxis has proven that nobility is not a fate one inherits but a task one accepts or abandons daily anew. She accepted. The hippopotamus stands.</p>
+          <p class="vb-intro">That is the gift of the SP2w1: steadfastness that does not come at the expense of others. A hippopotamus holding its territory and within it creating space for culture, for family, for that which reaches beyond a single person. Gloria von Thurn und Taxis has proven that nobility is not a fate one inherits but a task one accepts or abandons daily anew. She accepted. The hippopotamus stands.</p>
         </blockquote>
 
       </div>
@@ -600,13 +600,13 @@ export function gloriaVonThurnUndTaxisPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
-        {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SE2w1)"},
-        {route:"beruehmte-jan-ullrich", label:"Portrait: Jan Ullrich (SE2w3)"},
-        {route:"beruehmte-jack-black", label:"Portrait: Jack Black (SE2w1)"},
-        {route:"beruehmte-joachim-llambi", label:"Portrait: Joachim Llambi (SE2w1)"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SP2w1)"},
+        {route:"beruehmte-jan-ullrich", label:"Portrait: Jan Ullrich (SP2w3)"},
+        {route:"beruehmte-jack-black", label:"Portrait: Jack Black (SP2w1)"},
+        {route:"beruehmte-joachim-llambi", label:"Portrait: Joachim Llambi (SP2w1)"},
         {route:"beruehmte-sucharit-bhakdi", label:"Portrait: Prof. Dr. Sucharit Bhakdi (SO2w1)"},
-        {route:"beruehmte-uli-hoeness", label:"Portrait: Uli Hoeneß (SE2w3)"},
+        {route:"beruehmte-uli-hoeness", label:"Portrait: Uli Hoeneß (SP2w3)"},
       ])}
     </div>
   `);
@@ -622,7 +622,7 @@ export function helmutKohlPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-helmut-kohl-portrait.jpg" alt="Helmut Kohl – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Helmut Kohl</p>
-        <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 with a Nine Wing</p>
+        <p class="krim-portrait-typ">SP8w9 &middot; Self-Preservation Type 8 with a Nine Wing</p>
         <p class="krim-portrait-subtitle">German Chancellor, 1930&ndash;2017 &ndash; Animal correspondence: Orangutan</p>
       </div>
       <div class="page-content">
@@ -635,7 +635,7 @@ export function helmutKohlPortraitPage() {
 
         <h2 class="vb-section">2. Self-Preservation Eight: Securing One's Own Territory</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Self-Preservation Eight (SE8)</strong> expresses the Eight's passion &ndash; <em>lust</em>, the hunger for unrestricted intensity &ndash; through self-assertion and the unconditional securing of its own territory. Naranjo called this subtype <em>Satisfacción</em>: it defends what belongs to it uncompromisingly &ndash; not as service to an abstract community, but as protection of its own power base and closest circle. Kohl's entire career bore this pattern: 16 years as Federal Chancellor (1982&ndash;1998), the longest term of office in postwar German history, during which he effectively turned the CDU into his personal territory and defended it by every means available.</p>
+          <p class="vb-intro">The <strong>Self-Preservation Eight (SP8)</strong> expresses the Eight's passion &ndash; <em>lust</em>, the hunger for unrestricted intensity &ndash; through self-assertion and the unconditional securing of its own territory. Naranjo called this subtype <em>Satisfacción</em>: it defends what belongs to it uncompromisingly &ndash; not as service to an abstract community, but as protection of its own power base and closest circle. Kohl's entire career bore this pattern: 16 years as Federal Chancellor (1982&ndash;1998), the longest term of office in postwar German history, during which he effectively turned the CDU into his personal territory and defended it by every means available.</p>
           <p class="vb-intro">His most famous instrument of power was the informal network he built and cultivated over decades &ndash; the so-called "Kohl clan" within the CDU, personal loyalties he nurtured himself, which for a long time secured him against any internal party rivalry. This is the typical power strategy of the self-preservation Eight: not carrying the banner of a cause, but securing one's own closest circle so firmly that it holds through any crisis.</p>
         </blockquote>
 
@@ -653,7 +653,7 @@ export function helmutKohlPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE8w9 is the ability to combine <strong>leadership strength with strategic patience</strong> &ndash; power deployed not impulsively but purposefully and persistently, to permanently secure its own territory. Kohl's legacy &ndash; a reunified Germany within a united Europe &ndash; is exactly that: a work that reaches beyond his own term in office.</p>
+          <p class="vb-intro">The light of the SP8w9 is the ability to combine <strong>leadership strength with strategic patience</strong> &ndash; power deployed not impulsively but purposefully and persistently, to permanently secure its own territory. Kohl's legacy &ndash; a reunified Germany within a united Europe &ndash; is exactly that: a work that reaches beyond his own term in office.</p>
           <p class="vb-intro">The shadow showed itself in the CDU donations scandal uncovered in 1999/2000: Kohl admitted to concealing illegal party donations for years through secret slush funds, but stubbornly refused to name the donors &ndash; even under the pressure of loss of honor and legal consequences. This is the flip side of the self-preservation Eight: its own closest circle is protected uncompromisingly, even against transparency and the public &ndash; and the system of personal ties cultivated over decades can become a trap once its hidden rules come to light. The scandal severely damaged his reputation and plunged the party he himself had shaped into a deep crisis.</p>
         </blockquote>
 
@@ -669,15 +669,15 @@ export function helmutKohlPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se8", label:"SE8 – The Orangutan: Subtype Profile"},
-        {route:"beruehmte-winston-churchill", label:"Portrait: Winston Churchill (SE8w9) – also a statesman, same subtype"},
-        {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SE8w9)"},
-        {route:"krankheitsportraets-helmut-kohl", label:"Illness Portrait: Helmut Kohl (SE8w9) – fall, wheelchair, and loss of speech"},
-        {route:"beruehmte-boris-grundl", label:"Portrait: Boris Grundl (SE8w9)"},
-        {route:"beruehmte-ellen-moons", label:"Portrait: Ellen Moons (SE8w9)"},
-        {route:"beruehmte-galarrwuy-yunupingu", label:"Portrait: Galarrwuy Yunupingu (SE8w9)"},
-        {route:"beruehmte-konrad-adenauer", label:"Portrait: Konrad Adenauer (SE1w9)"},
-        {route:"beruehmte-ryke-geerd-hamer", label:"Portrait: Ryke Geerd Hamer (SE8w9)"},
+        {route:"subtype/se8", label:"SP8 – The Orangutan: Subtype Profile"},
+        {route:"beruehmte-winston-churchill", label:"Portrait: Winston Churchill (SP8w9) – also a statesman, same subtype"},
+        {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SP8w9)"},
+        {route:"krankheitsportraets-helmut-kohl", label:"Illness Portrait: Helmut Kohl (SP8w9) – fall, wheelchair, and loss of speech"},
+        {route:"beruehmte-boris-grundl", label:"Portrait: Boris Grundl (SP8w9)"},
+        {route:"beruehmte-ellen-moons", label:"Portrait: Ellen Moons (SP8w9)"},
+        {route:"beruehmte-galarrwuy-yunupingu", label:"Portrait: Galarrwuy Yunupingu (SP8w9)"},
+        {route:"beruehmte-konrad-adenauer", label:"Portrait: Konrad Adenauer (SP1w9)"},
+        {route:"beruehmte-ryke-geerd-hamer", label:"Portrait: Ryke Geerd Hamer (SP8w9)"},
       ])}
     </div>
   `);
@@ -749,12 +749,12 @@ export function isaacNewtonPortraitPage() {
         {route:"bibel-gamaliel", label:"Bible Portrait: Gamaliel (SO5w6)"},
         {route:"beruehmte-stephen-hawking", label:"Portrait: Stephen Hawking (SO5w6) – same chair"},
         {route:"beruehmte-archimedes", label:"Portrait: Archimedes (SX5w4)"},
-        {route:"beruehmte-carl-friedrich-gauss", label:"Portrait: Carl Friedrich Gauss (SE5w6)"},
+        {route:"beruehmte-carl-friedrich-gauss", label:"Portrait: Carl Friedrich Gauss (SP5w6)"},
         {route:"beruehmte-cg-jung", label:"Portrait: Carl Gustav Jung (SO5w6)"},
         {route:"beruehmte-georg-wilhelm-friedrich-hegel", label:"Portrait: Georg Wilhelm Friedrich Hegel (SO5w6)"},
         {route:"beruehmte-henri-poincare", label:"Portrait: Henri Poincaré (SO5w6)"},
-        {route:"beruehmte-johannes-gutenberg", label:"Portrait: Johannes Gutenberg (SE1w9)"},
-        {route:"beruehmte-rene-descartes", label:"Portrait: René Descartes (SE5w6)"},
+        {route:"beruehmte-johannes-gutenberg", label:"Portrait: Johannes Gutenberg (SP1w9)"},
+        {route:"beruehmte-rene-descartes", label:"Portrait: René Descartes (SP5w6)"},
       ])}
     </div>
   `);
@@ -852,7 +852,7 @@ export function juditPolgarPortraitPage() {
         <h2 class="vb-section">3. The Four-Wing: A Path of One's Own, Apart From the Norm</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the self-preservation Three a question that goes beyond mere competence: <em>What does my path mean &ndash; beyond what is expected of me?</em> Polgár refused throughout her career to compete in the Women's World Championship, even though she likely could have won it with ease. Instead, in 2005 she climbed to eighth place in the open world ranking of all players &ndash; even now the only woman ever to break into the top ten of the open world ranking, a record no one has come close to matching since.</p>
-          <p class="vb-intro">This independence also showed in her playing style: Polgár was known for an aggressive, high-risk, tactically driven approach shaped far more by her own intuition than by pure theory. Over the course of her career she defeated numerous reigning and former world champions &ndash; including Garry Kasparov, Anatoly Karpov, Boris Spassky, Viswanathan Anand, and Magnus Carlsen (SE1w9, also profiled among the Famous Personalities in this app) &ndash; not by conforming to the established system, but through an unmistakable, headstrong approach to the game that made her signature recognizable on every board.</p>
+          <p class="vb-intro">This independence also showed in her playing style: Polgár was known for an aggressive, high-risk, tactically driven approach shaped far more by her own intuition than by pure theory. Over the course of her career she defeated numerous reigning and former world champions &ndash; including Garry Kasparov, Anatoly Karpov, Boris Spassky, Viswanathan Anand, and Magnus Carlsen (SP1w9, also profiled among the Famous Personalities in this app) &ndash; not by conforming to the established system, but through an unmistakable, headstrong approach to the game that made her signature recognizable on every board.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow of Self-Preservation Three</h2>
@@ -874,16 +874,16 @@ export function juditPolgarPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
-        {route:"beruehmte-kathrin-bauerfeind", label:"Portrait: Kathrin Bauerfeind (SE3w4)"},
-        {route:"beruehmte-tony-shalhoub", label:"Portrait: Tony Shalhoub (SE3w4)"},
-        {route:"beruehmte-magnus-carlsen", label:"Portrait: Magnus Carlsen (SE1w9) – a world champion she defeated"},
-        {route:"beruehmte-susan-polgar", label:"Portrait: Susan Polgár (SE3w2) – sister, same subtype with a different wing"},
-        {route:"beruehmte-sofia-polgar", label:"Portrait: Sofia Polgár (SE7w6) – middle sister, different subtype"},
-        {route:"beruehmte-anna-anderson", label:"Portrait: Anna Anderson (SE3w4)"},
-        {route:"beruehmte-annika-von-mutius", label:"Portrait: Dr. Annika von Mutius (SE3w4)"},
-        {route:"beruehmte-bryn-kenney", label:"Portrait: Bryn Kenney (SE3w4)"},
-        {route:"beruehmte-changpeng-zhao", label:"Portrait: Changpeng Zhao (SE3w4)"},
-        {route:"beruehmte-rosa-parks", label:"Portrait: Rosa Parks (SE3w4)"},
+        {route:"beruehmte-kathrin-bauerfeind", label:"Portrait: Kathrin Bauerfeind (SP3w4)"},
+        {route:"beruehmte-tony-shalhoub", label:"Portrait: Tony Shalhoub (SP3w4)"},
+        {route:"beruehmte-magnus-carlsen", label:"Portrait: Magnus Carlsen (SP1w9) – a world champion she defeated"},
+        {route:"beruehmte-susan-polgar", label:"Portrait: Susan Polgár (SP3w2) – sister, same subtype with a different wing"},
+        {route:"beruehmte-sofia-polgar", label:"Portrait: Sofia Polgár (SP7w6) – middle sister, different subtype"},
+        {route:"beruehmte-anna-anderson", label:"Portrait: Anna Anderson (SP3w4)"},
+        {route:"beruehmte-annika-von-mutius", label:"Portrait: Dr. Annika von Mutius (SP3w4)"},
+        {route:"beruehmte-bryn-kenney", label:"Portrait: Bryn Kenney (SP3w4)"},
+        {route:"beruehmte-changpeng-zhao", label:"Portrait: Changpeng Zhao (SP3w4)"},
+        {route:"beruehmte-rosa-parks", label:"Portrait: Rosa Parks (SP3w4)"},
       ])}
     </div>
   `);
@@ -899,7 +899,7 @@ export function klaraVonAssisiPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-klara-von-assisi-portrait.jpg" alt="Clare of Assisi" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Clare of Assisi</p>
-        <p class="krim-portrait-typ">SE3w2 &middot; Self-Preservation Type 3 with a Two-Wing</p>
+        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with a Two-Wing</p>
         <p class="krim-portrait-subtitle">c. 1194&ndash;1253 &ndash; Founder of the Order of Poor Clares &ndash; Animal correspondence: Raccoon</p>
       </div>
       <div class="page-content">
@@ -912,7 +912,7 @@ export function klaraVonAssisiPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Three: Competence as Spiritual Discipline</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation Three (SE3)</strong> seeks its worth not in public admiration but in demonstrable, reliable competence within its own manageable domain. Naranjo called this subtype <em>security</em> &ndash; a quietly working drive for achievement that would rather convince through results than through performance. Clare ran San Damiano for over four decades with remarkable organizational discipline: a regulated daily routine, carefully assigned tasks, a convent that, despite radical poverty, functioned and grew.</p>
+          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> seeks its worth not in public admiration but in demonstrable, reliable competence within its own manageable domain. Naranjo called this subtype <em>security</em> &ndash; a quietly working drive for achievement that would rather convince through results than through performance. Clare ran San Damiano for over four decades with remarkable organizational discipline: a regulated daily routine, carefully assigned tasks, a convent that, despite radical poverty, functioned and grew.</p>
           <p class="vb-intro">Her competence showed most clearly in 1240, when mercenary troops of Emperor Frederick II are said to have threatened Assisi and marched toward San Damiano. Tradition holds that the gravely ill Clare had herself carried to the window with the monstrance &ndash; and the attackers withdrew. Miracle or not, it is the gesture of a woman who remained capable of action even in her own dying, rather than surrendering to fate.</p>
         </blockquote>
 
@@ -925,20 +925,20 @@ export function klaraVonAssisiPortraitPage() {
         <h2 class="vb-section">4. The Privilege of Poverty: Forty Years Against Several Popes</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">No thread in Clare's life shows the self-preservation Three's persistence more clearly than her decades-long fight for the "Privilege of Poverty" &ndash; the right for her convent to own no land or secured income whatsoever, and to live exclusively on alms. Several popes, including Gregory IX, urged her to accept the kind of landholdings customary for other women's convents, purely to secure the sisters economically. Clare resisted unyieldingly &ndash; not out of defiance, but from the deep conviction that this radical freedom from need was precisely the core of her calling.</p>
-          <p class="vb-intro">Only two days before her death in 1253 did she receive papal confirmation of her own, self-written Rule &ndash; the first rule ever written by a woman to receive ecclesiastical approval. Forty years of endurance for a single principle: that is not stubbornness, but the most extreme form of what the SE3 understands as security &ndash; a foundation that no external pressure can shift.</p>
+          <p class="vb-intro">Only two days before her death in 1253 did she receive papal confirmation of her own, self-written Rule &ndash; the first rule ever written by a woman to receive ecclesiastical approval. Forty years of endurance for a single principle: that is not stubbornness, but the most extreme form of what the SP3 understands as security &ndash; a foundation that no external pressure can shift.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE3w2 is a competence that never serves itself, only the cause. Clare built no personal power base &ndash; she built a community that outlasted centuries and still exists worldwide today. Her effectiveness was measured not by visibility, but by whether San Damiano functioned, whether the sisters were provided for, whether the principle held.</p>
-          <p class="vb-intro">The Three's fateful pattern is <strong>self-deceit</strong> &ndash; the unconscious merging of one's own identity with the task performed, until no difference remains perceptible between "I am worthy" and "I function." In Clare this showed up as an asceticism so severe that even her fellow sisters and Francis of Assisi himself tried to moderate it &ndash; fasting so strict that it permanently weakened her health. The SE3w2 can become so absorbed in its own discipline that it no longer recognizes the line between devotion and self-neglect.</p>
+          <p class="vb-intro">The light of the SP3w2 is a competence that never serves itself, only the cause. Clare built no personal power base &ndash; she built a community that outlasted centuries and still exists worldwide today. Her effectiveness was measured not by visibility, but by whether San Damiano functioned, whether the sisters were provided for, whether the principle held.</p>
+          <p class="vb-intro">The Three's fateful pattern is <strong>self-deceit</strong> &ndash; the unconscious merging of one's own identity with the task performed, until no difference remains perceptible between "I am worthy" and "I function." In Clare this showed up as an asceticism so severe that even her fellow sisters and Francis of Assisi himself tried to moderate it &ndash; fasting so strict that it permanently weakened her health. The SP3w2 can become so absorbed in its own discipline that it no longer recognizes the line between devotion and self-neglect.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Legacy: A Foundation That Holds</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Clare of Assisi left behind cannot be reduced to a single miracle or a single rule. The Order of Poor Clares still exists worldwide today, her own Rule remained a model for women's convents for centuries, and in 1958 &ndash; because of a recorded vision in which she "saw and heard" a Mass held elsewhere from her sickbed &ndash; she was declared the patron saint of television, a curious but fitting twist for a woman whose greatest strength was quiet, tireless presence.</p>
           <p class="vb-intro">On 17 February 1958, more than seven hundred years after her death, Pope Pius XII officially named Clare of Assisi the patron saint of television. According to legend, too weak to leave her bed at Christmas, she had the midnight Mass projected onto the wall of her cell from afar, as if on an invisible screen. When television became popular in the 1950s, the Vatican recalled this medieval "live broadcast" and promptly granted her the patronage.</p>
-          <p class="vb-intro">That is the gift of the SE3w2 in its purest form: a competence that needs no stage to have effect, and a foundation that holds precisely because it never depended on outside recognition. The raccoon that never left its territory &ndash; and became immortal exactly because of that.</p>
+          <p class="vb-intro">That is the gift of the SP3w2 in its purest form: a competence that needs no stage to have effect, and a foundation that holds precisely because it never depended on outside recognition. The raccoon that never left its territory &ndash; and became immortal exactly because of that.</p>
         </blockquote>
 
       </div>
@@ -947,12 +947,12 @@ export function klaraVonAssisiPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
-        {route:"beruehmte-tim-maelzer", label:"Portrait: Tim Mälzer (SE3w2)"},
-        {route:"beruehmte-michael-dell", label:"Portrait: Michael Dell (SE3w2)"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-tim-maelzer", label:"Portrait: Tim Mälzer (SP3w2)"},
+        {route:"beruehmte-michael-dell", label:"Portrait: Michael Dell (SP3w2)"},
         {route:"beruehmte-franz-von-assisi", label:"Portrait: Francis of Assisi (SO7w6) – companion"},
-        {route:"beruehmte-susan-link", label:"Portrait: Susan Link (SE3w2)"},
-        {route:"krankheitsportraets-klara-von-assisi", label:"Illness Portrait: Clare of Assisi (SE3w2)"},
+        {route:"beruehmte-susan-link", label:"Portrait: Susan Link (SP3w2)"},
+        {route:"krankheitsportraets-klara-von-assisi", label:"Illness Portrait: Clare of Assisi (SP3w2)"},
       ])}
     </div>
   `);
@@ -1013,7 +1013,7 @@ export function lenaUrzendowskyPortraitPage() {
         {route:"beruehmte-franka-potente", label:"Portrait: Franka Potente (SP2w1)"},
         {route:"beruehmte-margot-friedlaender", label:"Portrait: Margot Friedländer (SP2w1)"},
         {route:"beruehmte-jj-liu", label:"Portrait: J. J. Liu (SP2w1)"},
-        {route:"beruehmte-sebastian-urzendowsky", label:"Portrait: Sebastian Urzendowsky (SE4w3) – her older brother"},
+        {route:"beruehmte-sebastian-urzendowsky", label:"Portrait: Sebastian Urzendowsky (SP4w3) – her older brother"},
       ])}
     </div>
   `);
@@ -1029,7 +1029,7 @@ export function madelineStuartPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-madeline-stuart-portrait.jpg" alt="Madeline Stuart – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Madeline Stuart</p>
-        <p class="krim-portrait-typ">SE2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
         <p class="krim-portrait-subtitle">Australian model &amp; entrepreneur, born 1996 in Brisbane &ndash; Animal correspondence: Hippopotamus</p>
       </div>
       <div class="page-content">
@@ -1042,7 +1042,7 @@ export function madelineStuartPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Two: Care That Becomes Advocacy for Others</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SE2)</strong> <em>Me First</em> &ndash; not meant selfishly, but as care that starts concretely and physically before expanding outward. In Madeline Stuart, this care quickly expanded beyond herself: she became an internationally visible advocate for the inclusion of people with Down syndrome in the fashion industry, walking runways in Paris, London, Dubai, Russia, and China.</p>
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SP2)</strong> <em>Me First</em> &ndash; not meant selfishly, but as care that starts concretely and physically before expanding outward. In Madeline Stuart, this care quickly expanded beyond herself: she became an internationally visible advocate for the inclusion of people with Down syndrome in the fashion industry, walking runways in Paris, London, Dubai, Russia, and China.</p>
           <p class="vb-intro">In 2017 she founded her own modeling label – another step in turning her own visibility into concrete, tangible structures that also offer a platform to other people with disabilities, rather than using her own fame only for herself.</p>
         </blockquote>
 
@@ -1054,8 +1054,8 @@ export function madelineStuartPortraitPage() {
 
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE2w3 lies in the ability to shape a message from one's own, very personal starting point that reaches far beyond oneself – Stuart's modeling career visibly changed who can be represented on the world's great runways.</p>
-          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to the progress of an entire movement through one's own visibility. In the SE2w3, this can combine with the need to continuously reach new, bigger stages to keep her own message alive – a strength that drives change, but also demands sustained public effort.</p>
+          <p class="vb-intro">The light of the SP2w3 lies in the ability to shape a message from one's own, very personal starting point that reaches far beyond oneself – Stuart's modeling career visibly changed who can be represented on the world's great runways.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to the progress of an entire movement through one's own visibility. In the SP2w3, this can combine with the need to continuously reach new, bigger stages to keep her own message alive – a strength that drives change, but also demands sustained public effort.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Work: From a Family in Brisbane to Global Inclusion Advocate</h2>
@@ -1070,9 +1070,9 @@ export function madelineStuartPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
-        {route:"beruehmte-harnaam-kaur", label:"Portrait: Harnaam Kaur (SE2w3)"},
-        {route:"beruehmte-storm-reid", label:"Portrait: Storm Reid (SE2w3)"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-harnaam-kaur", label:"Portrait: Harnaam Kaur (SP2w3)"},
+        {route:"beruehmte-storm-reid", label:"Portrait: Storm Reid (SP2w3)"},
       ])}
     </div>
   `);
@@ -1202,8 +1202,8 @@ export function monicaSimpsonPortraitPage() {
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-mickey-rourke", label:"Portrait: Mickey Rourke (SP2w3)"},
         {route:"beruehmte-ice-cube", label:"Portrait: Ice Cube (SP2w3)"},
-        {route:"beruehmte-nate-dogg", label:"Portrait: Nate Dogg (SE2w3)"},
-        {route:"beruehmte-tracie-d-hall", label:"Portrait: Tracie D. Hall (SE2w3)"},
+        {route:"beruehmte-nate-dogg", label:"Portrait: Nate Dogg (SP2w3)"},
+        {route:"beruehmte-tracie-d-hall", label:"Portrait: Tracie D. Hall (SP2w3)"},
       ])}
     </div>
   `);
@@ -1266,10 +1266,10 @@ export function nusratFatehAliKhanPortraitPage() {
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
         {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SP2w3)"},
-        {route:"beruehmte-fiona-harvey", label:"Portrait: Fiona Harvey (SE2w3)"},
-        {route:"beruehmte-sathya-sai-baba", label:"Portrait: Sathya Sai Baba (SE2w3)"},
-        {route:"beruehmte-tutty-tran", label:"Portrait: Tutty Tran (SE2w3)"},
-        {route:"krankheitsportraets-frida-kahlo", label:"Frida Kahlo (SE2w3) – illness portrait"},
+        {route:"beruehmte-fiona-harvey", label:"Portrait: Fiona Harvey (SP2w3)"},
+        {route:"beruehmte-sathya-sai-baba", label:"Portrait: Sathya Sai Baba (SP2w3)"},
+        {route:"beruehmte-tutty-tran", label:"Portrait: Tutty Tran (SP2w3)"},
+        {route:"krankheitsportraets-frida-kahlo", label:"Frida Kahlo (SP2w3) – illness portrait"},
       ])}
     </div>
   `);
@@ -1401,17 +1401,17 @@ export function sadhguruPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
-        {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SE3w2)"},
-        {route:"krankheitsportraets-sadhguru", label:"Illness Portrait: Sadhguru (SE3w2) – chronic subdural hematoma"},
-        {route:"beruehmte-susan-link", label:"Portrait: Susan Link (SE3w2)"},
-        {route:"beruehmte-vincenzo-califano", label:"Portrait: Vincenzo Califano (SE3w2) – spiritual teacher, same combination at a smaller scale"},
-        {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SE3w4)"},
-        {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SE3w2)"},
-        {route:"beruehmte-kathrin-bauerfeind", label:"Portrait: Kathrin Bauerfeind (SE3w4)"},
-        {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SE3w2)"},
-        {route:"beruehmte-norah-jones", label:"Portrait: Norah Jones (SE3w4)"},
-        {route:"beruehmte-penelope-cruz", label:"Portrait: Penélope Cruz (SE3w2)"},
-        {route:"beruehmte-wolodymyr-selenskyj", label:"Portrait: Wolodymyr Selenskyj (SE3w2)"},
+        {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SP3w2)"},
+        {route:"krankheitsportraets-sadhguru", label:"Illness Portrait: Sadhguru (SP3w2) – chronic subdural hematoma"},
+        {route:"beruehmte-susan-link", label:"Portrait: Susan Link (SP3w2)"},
+        {route:"beruehmte-vincenzo-califano", label:"Portrait: Vincenzo Califano (SP3w2) – spiritual teacher, same combination at a smaller scale"},
+        {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SP3w4)"},
+        {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SP3w2)"},
+        {route:"beruehmte-kathrin-bauerfeind", label:"Portrait: Kathrin Bauerfeind (SP3w4)"},
+        {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SP3w2)"},
+        {route:"beruehmte-norah-jones", label:"Portrait: Norah Jones (SP3w4)"},
+        {route:"beruehmte-penelope-cruz", label:"Portrait: Penélope Cruz (SP3w2)"},
+        {route:"beruehmte-wolodymyr-selenskyj", label:"Portrait: Wolodymyr Selenskyj (SP3w2)"},
       ])}
     </div>
   `);
@@ -1473,13 +1473,13 @@ export function stingPortraitPage() {
         {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
         {route:"beruehmte-anthony-hopkins", label:"Portrait: Anthony Hopkins (SP1w9)"},
         {route:"beruehmte-magnus-carlsen", label:"Portrait: Magnus Carlsen (SP1w9)"},
-        {route:"beruehmte-ludwig-wittgenstein", label:"Portrait: Ludwig Wittgenstein (SE1w9)"},
+        {route:"beruehmte-ludwig-wittgenstein", label:"Portrait: Ludwig Wittgenstein (SP1w9)"},
         {route:"beruehmte-herman-van-veen", label:"Portrait: Herman van Veen (SP1w9)"},
-        {route:"beruehmte-aristoteles", label:"Portrait: Aristotle (SE1w9)"},
-        {route:"beruehmte-harald-v", label:"Portrait: King Harald V (SE1w9)"},
-        {route:"beruehmte-phil-collins", label:"Portrait: Phil Collins (SE1w9)"},
-        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II. (SE1w9)"},
-        {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SE1w9)"},
+        {route:"beruehmte-aristoteles", label:"Portrait: Aristotle (SP1w9)"},
+        {route:"beruehmte-harald-v", label:"Portrait: King Harald V (SP1w9)"},
+        {route:"beruehmte-phil-collins", label:"Portrait: Phil Collins (SP1w9)"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II. (SP1w9)"},
+        {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SP1w9)"},
       ])}
     </div>
   `);
@@ -1543,7 +1543,7 @@ export function tomKaulitzPortraitPage() {
         {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SP2w3)"},
         {route:"beruehmte-bill-kaulitz", label:"Portrait: Bill Kaulitz (SX4w3) – twin brother"},
         {route:"beruehmte-heidi-klum", label:"Portrait: Heidi Klum (SX3w4) – wife"},
-        {route:"beruehmte-6ix9ine", label:"Portrait: 6ix9ine (SE2w3)"},
+        {route:"beruehmte-6ix9ine", label:"Portrait: 6ix9ine (SP2w3)"},
       ])}
     </div>
   `);
@@ -1559,7 +1559,7 @@ export function warrenBuffettPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-warren-buffett-portrait.jpg" alt="Warren Buffett" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Warren Buffett</p>
-        <p class="krim-portrait-typ">SE5w6 &middot; Self-Preservation Type 5 with six-wing wing</p>
+        <p class="krim-portrait-typ">SP5w6 &middot; Self-Preservation Type 5 with six-wing wing</p>
         <p class="krim-portrait-subtitle">Investor, entrepreneur, b. 1930 – Animal equivalent: Owl</p>
       </div>
       <div class="page-content">
@@ -1614,12 +1614,12 @@ export function warrenBuffettPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se5", label:"SE5 – The Owl: Subtype Profile"},
-        {route:"beruehmte-vera-birkenbihl", label:"Portrait: Vera Birkenbihl (SE5w6)"},
-        {route:"beruehmte-charles-darwin", label:"Portrait: Charles Darwin (SE5w6)"},
-        {route:"krankheitsportraets-warren-buffett", label:"Illness Portrait: Warren Buffett (SE5w6) – the 2012 prostate cancer diagnosis"},
-        {route:"beruehmte-stanley-mandelstam", label:"Portrait: Stanley Mandelstam (SE5w6)"},
-        {route:"bibel-nikodemus", label:"Bible Portrait: Nicodemus (SE5w6)"},
+        {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
+        {route:"beruehmte-vera-birkenbihl", label:"Portrait: Vera Birkenbihl (SP5w6)"},
+        {route:"beruehmte-charles-darwin", label:"Portrait: Charles Darwin (SP5w6)"},
+        {route:"krankheitsportraets-warren-buffett", label:"Illness Portrait: Warren Buffett (SP5w6) – the 2012 prostate cancer diagnosis"},
+        {route:"beruehmte-stanley-mandelstam", label:"Portrait: Stanley Mandelstam (SP5w6)"},
+        {route:"bibel-nikodemus", label:"Bible Portrait: Nicodemus (SP5w6)"},
       ])}
     </div>
   `);
@@ -1971,7 +1971,7 @@ export function sebastianUrzendowskyPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sebastian-urzendowsky-portrait.jpg" alt="Sebastian Urzendowsky – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Sebastian Urzendowsky</p>
-        <p class="krim-portrait-typ">SE4w3 &middot; Self-Preservation Type 4 with a Three Wing</p>
+        <p class="krim-portrait-typ">SP4w3 &middot; Self-Preservation Type 4 with a Three Wing</p>
         <p class="krim-portrait-subtitle">Actor, born 1985 in Berlin &ndash; Animal equivalent: Dove</p>
       </div>
       <div class="page-content">
@@ -1984,7 +1984,7 @@ export function sebastianUrzendowskyPortraitPage() {
 
         <h2 class="vb-section">2. Self-Preservation Four: Quiet Roles Instead of Loud Appearances</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to Naranjo, the <strong>Self-Preservation Four (SE4)</strong> is the countertype of the Four: instead of putting one's own emotional depth on display, it is channeled into persistent, understated work. Urzendowsky became known for exactly these quiet, gripping roles – in "Der Turm," "The Counterfeiters," "Mitten in Deutschland: NSU," and "Babylon Berlin," he plays characters whose inner turmoil rarely shows through big gestures, but almost always through muted intensity.</p>
+          <p class="vb-intro">According to Naranjo, the <strong>Self-Preservation Four (SP4)</strong> is the countertype of the Four: instead of putting one's own emotional depth on display, it is channeled into persistent, understated work. Urzendowsky became known for exactly these quiet, gripping roles – in "Der Turm," "The Counterfeiters," "Mitten in Deutschland: NSU," and "Babylon Berlin," he plays characters whose inner turmoil rarely shows through big gestures, but almost always through muted intensity.</p>
           <p class="vb-intro">He describes himself as a "family person" with a close bond to his relatives, despite his unsettled childhood. About his own parents' divorce he speaks matter-of-factly rather than accusingly: divorce has become far more accepted today, he says, and couples no longer stay together just for appearances.</p>
         </blockquote>
 
@@ -2001,7 +2001,7 @@ export function sebastianUrzendowskyPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Four with a Three Wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE4w3 shows in Urzendowsky's ability not to suppress an unsettled, repeatedly interrupted childhood, but to turn it into a remarkably steady career, rewarded with two Grimme Awards – continuity as an answer to early upheaval.</p>
+          <p class="vb-intro">The light of the SP4w3 shows in Urzendowsky's ability not to suppress an unsettled, repeatedly interrupted childhood, but to turn it into a remarkably steady career, rewarded with two Grimme Awards – continuity as an answer to early upheaval.</p>
           <p class="vb-intro">The shadow of the Four shows in the tendency to minimize family ruptures rather than name them openly. His own line, "it takes a lot of courage to address problems openly," reads almost like a piece of self-disclosure about that exact challenge – an insight he articulates without necessarily living it out consistently himself.</p>
         </blockquote>
 
@@ -2015,11 +2015,11 @@ export function sebastianUrzendowskyPortraitPage() {
 
         ${relatedLinks([
           {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/se4", label:"SE4 &ndash; The Dove: Subtype Profile"},
-          {route:"beruehmte-lena-urzendowsky", label:"Portrait: Lena Urzendowsky (SE2w1) – his sister"},
-          {route:"beruehmte-nicolas-cage", label:"Portrait: Nicolas Cage (SE4w3) – also an actor, same subtype"},
-          {route:"beruehmte-tim-bendzko", label:"Portrait: Tim Bendzko (SE4w3)"},
-          {route:"beruehmte-evan-bates", label:"Portrait: Evan Bates (SE4w3)"},
+          {route:"subtype/se4", label:"SP4 &ndash; The Dove: Subtype Profile"},
+          {route:"beruehmte-lena-urzendowsky", label:"Portrait: Lena Urzendowsky (SP2w1) – his sister"},
+          {route:"beruehmte-nicolas-cage", label:"Portrait: Nicolas Cage (SP4w3) – also an actor, same subtype"},
+          {route:"beruehmte-tim-bendzko", label:"Portrait: Tim Bendzko (SP4w3)"},
+          {route:"beruehmte-evan-bates", label:"Portrait: Evan Bates (SP4w3)"},
         ])}
       </div>
     </div>
@@ -2313,7 +2313,7 @@ export function archimedesPortraitPage() {
           <p class="vb-intro">Naranjo describes the counter-principle of the sexual Five as <em>confidence</em> – unlike the self-preservation Five, who withdraws into a protected fortress, or the social Five, who shares knowledge with a community in controlled, measured doses, the sexual Five seeks total, unguarded fusion with a single object – and in doing so frequently loses all awareness of everything else, including self-preservation itself.</p>
           <p class="vb-intro">This exact pattern shows in the most famous anecdote about him: while bathing, he noticed that his body displaced water, and recognized in it the solution to a problem King Hiero had set him – whether a crown was truly made of pure gold. According to legend, he leapt naked from the tub and ran through the streets of Syracuse, unclothed, shouting "Eureka!" ("I have found it!"). No shame, no social restraint, no pause – in that moment, the insight itself had completely displaced every other impulse.</p>
           <p class="vb-intro">The same underlying pattern shows most vividly in the account of his death. When the Romans under Marcellus took Syracuse in 212 BC after a years-long siege, Archimedes – so Plutarch reports – was absorbed in a geometric drawing in the sand when a Roman soldier ordered him to follow. Archimedes is said to have replied that the soldier should wait until he had solved his problem, or asked him not to disturb his circles ("Noli turbare circulos meos") – whereupon the soldier killed him. Whether or not the exact words are historically accurate, the fact that this scene was passed down for centuries as the most fitting image of his character shows how clearly his contemporaries recognized this one pattern in him – complete, death-blind fusion with the one thing in front of him.</p>
-          <p class="vb-intro">Archimedes shares this structure with another SX5w4 of this compass, Jean-Jacques Rousseau (SX5w4): both sacrifice, at the decisive moment, what matters most to most people – Rousseau his own social belonging, Archimedes his own physical safety – to the one unconditional devotion to whatever they are turned toward at that instant. For Rousseau it was the radical exposure of his own truth in the <em>Confessions</em>; for Archimedes, it was the one geometric figure in the sand. In both cases, at the moment of fusion, literally nothing else exists – nothing like the controlled, arm's-length transmission of knowledge of a social Five such as <a href="javascript:void(0)" data-route="beruehmte-isaac-newton">Isaac Newton</a> (SO5w6), who deliberately withheld his discoveries for decades, and nothing like the protected observation post of a self-preservation Five such as Charles Darwin (SE5).</p>
+          <p class="vb-intro">Archimedes shares this structure with another SX5w4 of this compass, Jean-Jacques Rousseau (SX5w4): both sacrifice, at the decisive moment, what matters most to most people – Rousseau his own social belonging, Archimedes his own physical safety – to the one unconditional devotion to whatever they are turned toward at that instant. For Rousseau it was the radical exposure of his own truth in the <em>Confessions</em>; for Archimedes, it was the one geometric figure in the sand. In both cases, at the moment of fusion, literally nothing else exists – nothing like the controlled, arm's-length transmission of knowledge of a social Five such as <a href="javascript:void(0)" data-route="beruehmte-isaac-newton">Isaac Newton</a> (SO5w6), who deliberately withheld his discoveries for decades, and nothing like the protected observation post of a self-preservation Five such as Charles Darwin (SP5).</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Four-wing: the one solution as life's work, not a career milestone</h2>
@@ -2324,7 +2324,7 @@ export function archimedesPortraitPage() {
 
         <h2 class="vb-section">4. What actually made him the greatest mathematician of antiquity</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Sheer absorption alone doesn't explain why Archimedes is still ranked, alongside <a href="javascript:void(0)" data-route="beruehmte-isaac-newton">Isaac Newton</a> (SO5w6) and <a href="javascript:void(0)" data-route="beruehmte-carl-friedrich-gauss">Carl Friedrich Gauss</a> (SE5w6), among the three greatest mathematicians in history. His actual technical achievement lies in what is known as the method of exhaustion: he approximated curved areas and volumes – such as those of a circle or a sphere – with an ongoing sequence of simpler figures whose measurements he could calculate exactly, pushing this approximation, in principle, toward infinity. In doing so, nearly two thousand years before Newton and Leibniz, he anticipated central principles of integral calculus – using this method, among other things, he calculated the value of pi to a range between 3 10/71 and 3 1/7, a precision unmatched in antiquity.</p>
+          <p class="vb-intro">Sheer absorption alone doesn't explain why Archimedes is still ranked, alongside <a href="javascript:void(0)" data-route="beruehmte-isaac-newton">Isaac Newton</a> (SO5w6) and <a href="javascript:void(0)" data-route="beruehmte-carl-friedrich-gauss">Carl Friedrich Gauss</a> (SP5w6), among the three greatest mathematicians in history. His actual technical achievement lies in what is known as the method of exhaustion: he approximated curved areas and volumes – such as those of a circle or a sphere – with an ongoing sequence of simpler figures whose measurements he could calculate exactly, pushing this approximation, in principle, toward infinity. In doing so, nearly two thousand years before Newton and Leibniz, he anticipated central principles of integral calculus – using this method, among other things, he calculated the value of pi to a range between 3 10/71 and 3 1/7, a precision unmatched in antiquity.</p>
           <p class="vb-intro">Equally foundational was his contribution to physics: the principle named after him (a body displaces a volume of fluid equal to its own volume, and experiences buoyancy as a result) established hydrostatics as its own discipline. His law of the lever – summed up in the famous line "Give me a place to stand, and I will move the Earth" – provided, for the first time, a mathematically exact description of a mechanical principle previously known only from practice. His inventions – the water screw named after him, used for irrigation, highly accurate catapults, and the so-called "Claw of Archimedes," with which he lifted Roman ships out of the water – translated these theoretical principles into concrete technology that remained effective for years. That is the substance behind the legend: not merely a man who forgot to bathe, but one whose mathematical methods were not matched by science again for almost two millennia.</p>
         </blockquote>
 
@@ -2352,7 +2352,7 @@ export function archimedesPortraitPage() {
         {route:"beruehmte-frederic-chopin", label:"Portrait: Frédéric Chopin (SX5w4)"},
         {route:"beruehmte-blaise-pascal", label:"Portrait: Blaise Pascal (SX5w6)"},
         {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6)"},
-        {route:"beruehmte-carl-friedrich-gauss", label:"Portrait: Carl Friedrich Gauss (SE5w6)"},
+        {route:"beruehmte-carl-friedrich-gauss", label:"Portrait: Carl Friedrich Gauss (SP5w6)"},
       ])}
     </div>
   `);
@@ -2433,7 +2433,7 @@ export function franzJosefStraussPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-franz-josef-strauss-portrait.jpg" alt="Franz Josef Strauß – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-franz-josef-strauss-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Franz Josef Strauß</p>
-        <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 with a Nine-Wing</p>
+        <p class="krim-portrait-typ">SP8w9 &middot; Self-Preservation Type 8 with a Nine-Wing</p>
         <p class="krim-portrait-subtitle">Politician, 1915&ndash;1988 &ndash; Animal match: Orangutan</p>
       </div>
       <div class="page-content">
@@ -2446,13 +2446,13 @@ export function franzJosefStraussPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Eight: Power as a Matter of Survival</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In Claudio Naranjo's framework, the <strong>self-preservation Eight (SE8)</strong> expresses the Eight's passion – <em>lust</em>, understood as a hunger for intensity and unrestricted self-determination – directly through possession, territory, and securing resources. Naranjo called this subtype <em>Satisfaction</em>: one's own survival, influence, and independence must be secured before anything else is even considered. This is not bravado, but the deep conviction that only someone standing firmly on their own ground cannot be pushed aside.</p>
-          <p class="vb-intro">Strauß's political style was exactly that: direct, confrontational, never at a loss for a blunt word. His annual Ash Wednesday speeches for the CSU in Passau became a fixture of West German political combat – attacks on opponents delivered in imagery that left no room for interpretation. The Spiegel Affair of 1962, when as defense minister he had several Spiegel journalists arrested over an article on the Bundeswehr, cost him his office – but revealed exactly that SE8 stance: defending one's own territory, if necessary, even against the freedom of the press, regardless of the political cost.</p>
+          <p class="vb-intro">In Claudio Naranjo's framework, the <strong>self-preservation Eight (SP8)</strong> expresses the Eight's passion – <em>lust</em>, understood as a hunger for intensity and unrestricted self-determination – directly through possession, territory, and securing resources. Naranjo called this subtype <em>Satisfaction</em>: one's own survival, influence, and independence must be secured before anything else is even considered. This is not bravado, but the deep conviction that only someone standing firmly on their own ground cannot be pushed aside.</p>
+          <p class="vb-intro">Strauß's political style was exactly that: direct, confrontational, never at a loss for a blunt word. His annual Ash Wednesday speeches for the CSU in Passau became a fixture of West German political combat – attacks on opponents delivered in imagery that left no room for interpretation. The Spiegel Affair of 1962, when as defense minister he had several Spiegel journalists arrested over an article on the Bundeswehr, cost him his office – but revealed exactly that SP8 stance: defending one's own territory, if necessary, even against the freedom of the press, regardless of the political cost.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Nine-Wing: Patience as a Strategic Tool</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing</strong> gives the self-preservation Eight an ability an SE8w7 often lacks: the capacity to let decisions ripen and hold several perspectives at once instead of striking immediately. The SE8w9 is no less assertive, but it waits for the right moment, builds alliances meant to last, and pairs readiness for confrontation with the patience to build a life's work over decades rather than through isolated spectacular victories.</p>
+          <p class="vb-intro">The <strong>Nine-wing</strong> gives the self-preservation Eight an ability an SP8w7 often lacks: the capacity to let decisions ripen and hold several perspectives at once instead of striking immediately. The SP8w9 is no less assertive, but it waits for the right moment, builds alliances meant to last, and pairs readiness for confrontation with the patience to build a life's work over decades rather than through isolated spectacular victories.</p>
           <p class="vb-intro">In Strauß this showed in the patient, decades-long buildup of the CSU into Bavaria's dominant political force – a dominance he did not win in a single campaign, but consolidated through decades of internal party work. The same strategic patience showed in his discreet 1975 visit to China's leadership, conducted long before official diplomatic rapprochement – a foreign-policy move aimed at long-term calculation rather than short-term headlines.</p>
         </blockquote>
 
@@ -2464,13 +2464,13 @@ export function franzJosefStraussPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Eight With a Nine-Wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE8w9 shows in Strauß's ability to combine assertiveness with strategic foresight: he did not merely accumulate power, but used it to lay concrete industrial-policy foundations that still support Bavaria today.</p>
+          <p class="vb-intro">The light of the SP8w9 shows in Strauß's ability to combine assertiveness with strategic foresight: he did not merely accumulate power, but used it to lay concrete industrial-policy foundations that still support Bavaria today.</p>
           <p class="vb-intro">The shadow lies in the flip side of that same assertiveness: the Spiegel Affair was not the only episode in which Strauß treated democratic institutions and the freedom of the press as obstacles to be pushed aside by force if necessary, rather than as limits that apply even to the most powerful. His polarizing rhetoric, which often attacked political opponents personally and irreconcilably, deepened rifts in West German society that in part still echo today.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Two Orangutans, Two Forms of Territory: Strauß and Golda Meir</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-golda-meir">Golda Meir</a> (SE8w9) – like Strauß, a politician who rose from modest circumstances to the highest state responsibility, and who showed the same combination of unbending assertiveness and patient, years-long diplomacy. Where Meir directed her SE8w9 energy mainly outward, into securing the young state of Israel, Strauß directed his inward, into building an economically and industrially strong Bavaria – two very different stages for the same underlying pattern: one's own territory is not merely administered, but shaped and defended with full force.</p>
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-golda-meir">Golda Meir</a> (SP8w9) – like Strauß, a politician who rose from modest circumstances to the highest state responsibility, and who showed the same combination of unbending assertiveness and patient, years-long diplomacy. Where Meir directed her SP8w9 energy mainly outward, into securing the young state of Israel, Strauß directed his inward, into building an economically and industrially strong Bavaria – two very different stages for the same underlying pattern: one's own territory is not merely administered, but shaped and defended with full force.</p>
           <p class="vb-intro">Franz Josef Strauß remains one of the most controversial figures in postwar German history – celebrated for his economic foresight, criticized for a political style that repeatedly tested the limits of democratic norms. Both light and shadow spring from the same orangutan pattern: the conviction that only unconditional assertiveness secures lasting influence.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
@@ -2480,9 +2480,9 @@ export function franzJosefStraussPortraitPage() {
       </div>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se8", label:"SE8 – The Orangutan: subtype profile"},
-        {route:"lebensmusterkompass/se8", label:"Life Pattern Compass: SE8 – Orangutan"},
-        {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SE8w9)"},
+        {route:"subtype/se8", label:"SP8 – The Orangutan: subtype profile"},
+        {route:"lebensmusterkompass/se8", label:"Life Pattern Compass: SP8 – Orangutan"},
+        {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SP8w9)"},
       ])}
     </div>
   `);
@@ -2511,7 +2511,7 @@ export function naviPillayPortraitPage() {
 
         <h2 class="vb-section">2. The Social One: justice as an institutional principle</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Social One (SO1)</strong> directs its perfectionism not at its own private integrity (like the SE1) or a personal mission (like the SX1), but at correcting and reliably building collective structures: laws, courts, international institutions. Pillay's entire career forms a single chain of such institutional correction work: as a defense lawyer for political prisoners, she won a landmark 1973 ruling that for the first time secured enforceable rights for political prisoners on Robben Island – among them Nelson Mandela.</p>
+          <p class="vb-intro">The <strong>Social One (SO1)</strong> directs its perfectionism not at its own private integrity (like the SP1) or a personal mission (like the SX1), but at correcting and reliably building collective structures: laws, courts, international institutions. Pillay's entire career forms a single chain of such institutional correction work: as a defense lawyer for political prisoners, she won a landmark 1973 ruling that for the first time secured enforceable rights for political prisoners on Robben Island – among them Nelson Mandela.</p>
           <p class="vb-intro">In 1995 she became the first non-white woman judge of South Africa's High Court, and that same year was also elected to the UN's Rwanda tribunal (ICTR), whose presidency she held from 1999 to 2003. In the case against Jean-Paul Akayesu, her chamber secured a historic precedent: for the first time, systematic sexual violence was recognized under international law as a means of genocide – not as a side effect, but as a distinct offense in its own right. This is the social One in its purest form: a gap in existing law is not lamented but closed through precise legal work, binding for every future case.</p>
         </blockquote>
 
@@ -2641,7 +2641,7 @@ export function thomasSchmelzerPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-thomas-schmelzer-portrait.jpg" alt="Thomas Schmelzer – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-thomas-schmelzer-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Thomas Schmelzer</p>
-        <p class="krim-portrait-typ">SE6w7 &middot; Self-Preservation Type 6 with a Seven-wing</p>
+        <p class="krim-portrait-typ">SP6w7 &middot; Self-Preservation Type 6 with a Seven-wing</p>
         <p class="krim-portrait-subtitle">German presenter, director and founder of MYSTICA.TV &ndash; &lsquo;Die Stille in mir&rsquo;, &lsquo;Wiedergeburt&rsquo; &ndash; Animal correspondence: Rabbit</p>
       </div>
       <div class="page-content">
@@ -2654,7 +2654,7 @@ export function thomasSchmelzerPortraitPage() {
 
         <h2 class="vb-section">2. The self-preservation Six: support in conversation and community</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Six seeks reliable orientation because it knows how shaky it can be. Claudio Naranjo called the <strong>self-preservation Six (SE6)</strong> the subtype of &lsquo;warmth&rsquo;: it finds security in familiar people, in a circle to which it feels it belongs, and in people it can rely on. Whoever receives hundreds of guests over years builds a net of counterparts and a community that comes together on his portal.</p>
+          <p class="vb-intro">The Six seeks reliable orientation because it knows how shaky it can be. Claudio Naranjo called the <strong>self-preservation Six (SP6)</strong> the subtype of &lsquo;warmth&rsquo;: it finds security in familiar people, in a circle to which it feels it belongs, and in people it can rely on. Whoever receives hundreds of guests over years builds a net of counterparts and a community that comes together on his portal.</p>
           <p class="vb-intro">The life story he tells himself fits: after overcoming a cancer, according to his page, he turned to spiritual topics. A review names the diagnosis at the age of 25 and quotes his experience in hospital: he no longer felt himself &lsquo;in a heavy body&rsquo; but in a &lsquo;feather-light being without attachment&rsquo;. Another author writes that the diagnosis led him into stillness and deep self-examination. That someone whose body has become uncertain seeks support in stillness and in conversation with others is the pattern of the Six.</p>
         </blockquote>
 
@@ -2672,7 +2672,7 @@ export function thomasSchmelzerPortraitPage() {
 
         <h2 class="vb-section">5. Parallel in the same subtype: Allen, Kühnert and Hörhan</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Several SE6w7s stand among the portraits in this Compass, and the comparison shows how the Seven-wing sets the Six&rsquo;s worry in motion. <a href="#beruehmte-woody-allen">Woody Allen (SE6w7)</a> turns fear into punchlines and stays in the familiar territory. <a href="#beruehmte-kevin-kuehnert">Kevin Kühnert (SE6w7)</a> moves forward cheekily and publicly as long as the group carries him. <a href="#beruehmte-gerald-hoerhan">Gerald Hörhan (SE6w7)</a> sells caution as rebellion.</p>
+          <p class="vb-intro">Several SP6w7s stand among the portraits in this Compass, and the comparison shows how the Seven-wing sets the Six&rsquo;s worry in motion. <a href="#beruehmte-woody-allen">Woody Allen (SP6w7)</a> turns fear into punchlines and stays in the familiar territory. <a href="#beruehmte-kevin-kuehnert">Kevin Kühnert (SP6w7)</a> moves forward cheekily and publicly as long as the group carries him. <a href="#beruehmte-gerald-hoerhan">Gerald Hörhan (SP6w7)</a> sells caution as rebellion.</p>
           <p class="vb-intro">Schmelzer shares with Allen the pleasure in the word and with Kühnert and Hörhan the public appearance. The difference: he is the host who gives others the stage, not the provocateur. His security lies in the circle of guests and viewers, not in his own property as with Hörhan or in the party as with Kühnert.</p>
         </blockquote>
 
@@ -2693,11 +2693,11 @@ export function thomasSchmelzerPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
-        {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SE6 – Rabbit"},
-        {route:"beruehmte-woody-allen", label:"Portrait: Woody Allen (SE6w7) – same subtype and wing"},
-        {route:"beruehmte-kevin-kuehnert", label:"Porträt: Kevin Kühnert (SE6w7)"},
-        {route:"beruehmte-gerald-hoerhan", label:"Porträt: Gerald Hörhan (SE6w7)"},
+        {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
+        {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SP6 – Rabbit"},
+        {route:"beruehmte-woody-allen", label:"Portrait: Woody Allen (SP6w7) – same subtype and wing"},
+        {route:"beruehmte-kevin-kuehnert", label:"Porträt: Kevin Kühnert (SP6w7)"},
+        {route:"beruehmte-gerald-hoerhan", label:"Porträt: Gerald Hörhan (SP6w7)"},
       ])}
     </div>
   `);

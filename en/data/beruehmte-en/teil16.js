@@ -135,7 +135,7 @@ export function brynKenneyPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-bryn-kenney-portrait.jpg" alt="Bryn Kenney – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Bryn Kenney</p>
-        <p class="krim-portrait-typ">SE3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
+        <p class="krim-portrait-typ">SP3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
         <p class="krim-portrait-subtitle">American professional poker player &ndash; Animal correspondence: Raccoon</p>
       </div>
       <div class="page-content">
@@ -148,7 +148,7 @@ export function brynKenneyPortraitPage() {
 
         <h2 class="vb-section">2. Self-Preservation Three: Skill Over the Stage</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation Three (SE3)</strong> is the counter-type of the Three &ndash; the subtype that does not display achievement outwardly but directs it inward: toward security, competence, craft mastery. SE3 does not ask <em>How am I seen?</em> but <em>What can I actually do?</em></p>
+          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> is the counter-type of the Three &ndash; the subtype that does not display achievement outwardly but directs it inward: toward security, competence, craft mastery. SP3 does not ask <em>How am I seen?</em> but <em>What can I actually do?</em></p>
           <p class="vb-intro">A week before his exam to become a real estate broker, his grandmother died &ndash; a turning point that made clear to Kenney there was no longer any reason to keep pursuing that conventional path. He chose poker as a profession, not out of rebellion, but because it was where he had already proven he had genuine skill. Over decades he sharpened his abilities across countless tournaments, until in 2019 he took second place in the Triton Million for Charity for the single largest cash ever recorded in poker history: over $20.5 million. Since 2026 he has led the All-Time Money List with roughly $90.76 million in tournament winnings &ndash; ahead of Justin Bonomo and longtime leader Daniel Negreanu.</p>
         </blockquote>
 
@@ -160,8 +160,8 @@ export function brynKenneyPortraitPage() {
 
         <h2 class="vb-section">4. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of SE3w4 is its ability to draw genuine uniqueness from pure skill. Kenney's years of skill-building, developed out of sight, ultimately produced the largest single tournament cash ever paid out in poker history &ndash; not a lucky strike, but the result of thousands of hours of analysis that no one from the outside ever saw.</p>
-          <p class="vb-intro">The passion of the Three is <strong>vanity / deceit</strong> &ndash; in SE3w4, subtly present as the need to be seen as unique and unrepeatable, while the real substance stays hidden behind a facade, whether one of understatement or, as with Kenney, one of demonstrative extravagance. The shadow of the Four-wing shows in the isolation that the self-image of the "lone wolf" brings with it: "No one's perfect," Kenney once admitted himself &ndash; a brief line that hints at how much criticism and friction such an uncompromising, individual path can also generate from the outside.</p>
+          <p class="vb-intro">The light of SP3w4 is its ability to draw genuine uniqueness from pure skill. Kenney's years of skill-building, developed out of sight, ultimately produced the largest single tournament cash ever paid out in poker history &ndash; not a lucky strike, but the result of thousands of hours of analysis that no one from the outside ever saw.</p>
+          <p class="vb-intro">The passion of the Three is <strong>vanity / deceit</strong> &ndash; in SP3w4, subtly present as the need to be seen as unique and unrepeatable, while the real substance stays hidden behind a facade, whether one of understatement or, as with Kenney, one of demonstrative extravagance. The shadow of the Four-wing shows in the isolation that the self-image of the "lone wolf" brings with it: "No one's perfect," Kenney once admitted himself &ndash; a brief line that hints at how much criticism and friction such an uncompromising, individual path can also generate from the outside.</p>
         </blockquote>
 
       </div>
@@ -170,10 +170,10 @@ export function brynKenneyPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
-        {route:"beruehmte-annika-von-mutius", label:"Portrait: Dr. Annika von Mutius (SE3w4)"},
-        {route:"beruehmte-judit-polgar", label:"Portrait: Judit Polgár (SE3w4)"},
-        {route:"beruehmte-loni-hui", label:"Portrait: Loni Hui (SE2w3)"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-annika-von-mutius", label:"Portrait: Dr. Annika von Mutius (SP3w4)"},
+        {route:"beruehmte-judit-polgar", label:"Portrait: Judit Polgár (SP3w4)"},
+        {route:"beruehmte-loni-hui", label:"Portrait: Loni Hui (SP2w3)"},
       ])}
     </div>
   `);
@@ -577,7 +577,7 @@ export function harnaamKaurPortraitPage() {
         {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SP2w3)"},
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
-        {route:"beruehmte-madeline-stuart", label:"Portrait: Madeline Stuart (SE2w3)"},
+        {route:"beruehmte-madeline-stuart", label:"Portrait: Madeline Stuart (SP2w3)"},
       ])}
     </div>
   `);
@@ -618,7 +618,7 @@ export function immanuelKantPortraitPage() {
 
         <h2 class="vb-section">4. Hume and the Shock of the Dogmatic Slumber</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In the "Prolegomena to Any Future Metaphysics" (1783), Kant wrote the famous line that David Hume's (SE9w8) critique of causality had roused him "from dogmatic slumber." Hume's skepticism questioned whether cause and effect could be reliably known at all &ndash; a shock that was existentially threatening for Kant: without reliable foundations of knowledge, all of science threatened to sink into uncertainty.</p>
+          <p class="vb-intro">In the "Prolegomena to Any Future Metaphysics" (1783), Kant wrote the famous line that David Hume's (SP9w8) critique of causality had roused him "from dogmatic slumber." Hume's skepticism questioned whether cause and effect could be reliably known at all &ndash; a shock that was existentially threatening for Kant: without reliable foundations of knowledge, all of science threatened to sink into uncertainty.</p>
           <p class="vb-intro">This reaction is exactly SO6w5: not retreat in the face of the threat, but the twenty-year, methodical construction of a system meant to restore the security Hume had shaken. The "Critique of Pure Reason" is at its core a response to a fear &ndash; the fear that there might ultimately be no firm ground for human knowledge &ndash; and the attempt to re-erect that ground with the utmost conceptual precision.</p>
         </blockquote>
 
@@ -643,7 +643,7 @@ export function immanuelKantPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
-        {route:"beruehmte-david-hume", label:"Portrait: David Hume (SE9w8) – whose skepticism roused him from ‘dogmatic slumber’"},
+        {route:"beruehmte-david-hume", label:"Portrait: David Hume (SP9w8) – whose skepticism roused him from ‘dogmatic slumber’"},
         {route:"beruehmte-friedrich-nietzsche", label:"Portrait: Friedrich Nietzsche (SX5w4) – the sharpest critic of his duty-based ethics"},
         {route:"beruehmte-gottfried-wilhelm-leibniz", label:"Portrait: Gottfried Wilhelm Leibniz (SO3w4) – whose rationalism shaped his early, 'dogmatic' phase of thought"},
         {route:"beruehmte-sigmund-freud", label:"Portrait: Sigmund Freud (SO6w5)"},
@@ -653,8 +653,8 @@ export function immanuelKantPortraitPage() {
         {route:"beruehmte-ulrich-ott", label:"Portrait: Dr. Ulrich Ott (SO6w5)"},
         {route:"beruehmte-grit-strassenberger", label:"Portrait: Grit Straßenberger (SO6w5)"},
         {route:"beruehmte-marta-manser", label:"Portrait: Prof. Dr. Marta Manser (SO6w5)"},
-        {route:"beruehmte-rene-descartes", label:"Portrait: René Descartes (SE5w6)"},
-        {route:"beruehmte-soeren-kierkegaard", label:"Portrait: Søren Kierkegaard (SE2w1)"},
+        {route:"beruehmte-rene-descartes", label:"Portrait: René Descartes (SP5w6)"},
+        {route:"beruehmte-soeren-kierkegaard", label:"Portrait: Søren Kierkegaard (SP2w1)"},
         {route:"beruehmte-tim-clutton-brock", label:"Portrait: Prof. Tim Clutton-Brock (SO6w5)"},
         {route:"beruehmte-andreas-gruber", label:"Portrait: Andreas Gruber (SO6w5)"},
       ])}
@@ -852,10 +852,10 @@ export function kathrinBauerfeindPortraitPage() {
         {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SP3w2)"},
         {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SP3w4)"},
         {route:"beruehmte-caren-miosga", label:"Portrait: Caren Miosga (SP3w4) – journalist, same subtype"},
-        {route:"beruehmte-judit-polgar", label:"Portrait: Judit Polgár (SE3w4)"},
-        {route:"beruehmte-osho", label:"Portrait: Osho (SE3w4)"},
-        {route:"beruehmte-sterling-north", label:"Portrait: Sterling North (SE3w4)"},
-        {route:"beruehmte-tony-shalhoub", label:"Portrait: Tony Shalhoub (SE3w4)"},
+        {route:"beruehmte-judit-polgar", label:"Portrait: Judit Polgár (SP3w4)"},
+        {route:"beruehmte-osho", label:"Portrait: Osho (SP3w4)"},
+        {route:"beruehmte-sterling-north", label:"Portrait: Sterling North (SP3w4)"},
+        {route:"beruehmte-tony-shalhoub", label:"Portrait: Tony Shalhoub (SP3w4)"},
       ])}
     </div>
   `);
@@ -986,7 +986,7 @@ export function ludwigGoeranssonPortraitPage() {
         {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
         {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5)"},
         {route:"beruehmte-sam-altman", label:"Portrait: Sam Altman (SP4w5)"},
-        {route:"beruehmte-charlotte-wells", label:"Portrait: Charlotte Wells (SE4w5)"},
+        {route:"beruehmte-charlotte-wells", label:"Portrait: Charlotte Wells (SP4w5)"},
       ])}
     </div>
   `);
@@ -1131,7 +1131,7 @@ export function miguelDeUnamunoPortraitPage() {
         {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
         {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5)"},
         {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
-        {route:"beruehmte-sally-rooney", label:"Portrait: Sally Rooney (SE4w5)"},
+        {route:"beruehmte-sally-rooney", label:"Portrait: Sally Rooney (SP4w5)"},
       ])}
     </div>
   `);
@@ -1196,7 +1196,7 @@ export function neroPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SP2w3)"},
-        {route:"beruehmte-uli-hoeness", label:"Portrait: Uli Hoeneß (SE2w3)"},
+        {route:"beruehmte-uli-hoeness", label:"Portrait: Uli Hoeneß (SP2w3)"},
         {route:"beruehmte-yayoi-kusama", label:"Portrait: Yayoi Kusama (SP2w3)"},
       ])}
     </div>
@@ -1259,7 +1259,7 @@ export function peterLustigPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
         {route:"beruehmte-christian-raetsch", label:"Portrait: Christian Rätsch (SP5w4)"},
-        {route:"beruehmte-vera-birkenbihl", label:"Portrait: Vera Birkenbihl (SE5w6)"},
+        {route:"beruehmte-vera-birkenbihl", label:"Portrait: Vera Birkenbihl (SP5w6)"},
       ])}
     </div>
   `);
@@ -1493,7 +1493,7 @@ export function veraBirkenbihlPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-vera-birkenbihl-portrait.jpg" alt="Vera F. Birkenbihl – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Vera F. Birkenbihl</p>
-        <p class="krim-portrait-typ">SE5w6 &middot; Self-Preservation Type 5 with six-wing wing</p>
+        <p class="krim-portrait-typ">SP5w6 &middot; Self-Preservation Type 5 with six-wing wing</p>
         <p class="krim-portrait-subtitle">Trainer, author, thought leader, 1946–2011 – Animal equivalent: Owl</p>
       </div>
       <div class="page-content">
@@ -1545,10 +1545,10 @@ export function veraBirkenbihlPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se5", label:"SE5 – The Owl: Subtype Profile"},
-        {route:"beruehmte-peter-lustig", label:"Portrait: Peter Lustig (SE5w6)"},
-        {route:"beruehmte-charles-darwin", label:"Portrait: Charles Darwin (SE5w6)"},
-        {route:"beruehmte-warren-buffett", label:"Portrait: Warren Buffett (SE5w6)"},
+        {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
+        {route:"beruehmte-peter-lustig", label:"Portrait: Peter Lustig (SP5w6)"},
+        {route:"beruehmte-charles-darwin", label:"Portrait: Charles Darwin (SP5w6)"},
+        {route:"beruehmte-warren-buffett", label:"Portrait: Warren Buffett (SP5w6)"},
       ])}
     </div>
   `);
@@ -1602,7 +1602,7 @@ export function augustinusVonHippoPortraitPage() {
         <h2 class="vb-section">6. The Chihuahua Whose Bark Outlasted a Millennium</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The healing path of the Four leads from the question <em>Why do I lack what others have?</em> to the insight <em>I am already fully connected, lacking nothing.</em> For the SX4w5, this path shows itself as the restless struggle for the one unattainable bond transforming into a sustaining, ordered certainty &ndash; no less intense, but no longer driven by lack.</p>
-          <p class="vb-intro">Augustine died on August 28, 430 AD, in Hippo Regius, while the Vandals laid siege to the city &ndash; his life ending amid the same collapse of Roman order he had written about in <em>The City of God</em>. His writings became the foundation of Western theology and philosophy for the following millennium and a half, from Thomas Aquinas (SE9w8) to Martin Luther (SX1w2), from René Descartes (SP5w6) to present-day debates on free will and time. The Chihuahua who, as a young man, felt nothing by halves, felt his faith no less fully at the end &ndash; and his bark, once only that of a restless young rhetorician in Carthage, still echoes through the history of Western thought today.</p>
+          <p class="vb-intro">Augustine died on August 28, 430 AD, in Hippo Regius, while the Vandals laid siege to the city &ndash; his life ending amid the same collapse of Roman order he had written about in <em>The City of God</em>. His writings became the foundation of Western theology and philosophy for the following millennium and a half, from Thomas Aquinas (SP9w8) to Martin Luther (SX1w2), from René Descartes (SP5w6) to present-day debates on free will and time. The Chihuahua who, as a young man, felt nothing by halves, felt his faith no less fully at the end &ndash; and his bark, once only that of a restless young rhetorician in Carthage, still echoes through the history of Western thought today.</p>
         </blockquote>
 
       </div>
@@ -1615,7 +1615,7 @@ export function augustinusVonHippoPortraitPage() {
         {route:"beruehmte-dante-alighieri", label:"Portrait: Dante Alighieri (SX4w5)"},
         {route:"beruehmte-claude-debussy", label:"Portrait: Claude Debussy (SX4w5)"},
         {route:"beruehmte-jean-paul-sartre", label:"Portrait: Jean-Paul Sartre (SX4w5)"},
-        {route:"beruehmte-thomas-von-aquin", label:"Portrait: Thomas Aquinas (SE9w8) – whose theology was shaped by Augustine"},
+        {route:"beruehmte-thomas-von-aquin", label:"Portrait: Thomas Aquinas (SP9w8) – whose theology was shaped by Augustine"},
         {route:"beruehmte-martin-luther", label:"Portrait: Martin Luther (SX1w2) – whose theology built on Augustine"},
         {route:"beruehmte-rene-descartes", label:"Portrait: René Descartes (SP5w6)"},
       ])}
@@ -1685,10 +1685,10 @@ export function yayoiKusamaPortraitPage() {
         {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SP2w3)"},
         {route:"beruehmte-frida-kahlo", label:"Portrait: Frida Kahlo (SP2w3)"},
         {route:"krankheitsportraets-yayoi-kusama", label:"Illness Portrait: Yayoi Kusama – hallucinations and depersonalization"},
-        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
-        {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SE2w3)"},
-        {route:"beruehmte-marie-antoinette", label:"Portrait: Marie Antoinette (SE2w3)"},
-        {route:"beruehmte-nero", label:"Portrait: Nero (SE2w3)"},
+        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
+        {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
+        {route:"beruehmte-marie-antoinette", label:"Portrait: Marie Antoinette (SP2w3)"},
+        {route:"beruehmte-nero", label:"Portrait: Nero (SP2w3)"},
       ])}
     </div>
   `);
@@ -1911,7 +1911,7 @@ export function rykeGeerdHamerPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ryke-geerd-hamer-portrait.jpg" alt="Ryke Geerd Hamer – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Ryke Geerd Hamer</p>
-        <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 with a Nine Wing</p>
+        <p class="krim-portrait-typ">SP8w9 &middot; Self-Preservation Type 8 with a Nine Wing</p>
         <p class="krim-portrait-subtitle">Physician, founder of "German New Medicine", 1935&ndash;2017 &ndash; Animal correspondence: Orangutan</p>
       </div>
       <div class="page-content">
@@ -1924,7 +1924,7 @@ export function rykeGeerdHamerPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Eight: One's Own Experience as Untouchable Territory</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Self-Preservation Eight (SE8)</strong> invests its strength, according to Naranjo, not in a wide social mission but in the uncompromising defense of its own, closest territory &ndash; for Hamer, that territory was nothing less than his own body, his own son, his own explanation for both. That is exactly why he defended his "German New Medicine" not as one possible perspective among several, but as his personal, inviolable property &ndash; against medical associations, against courts, against the revocation of his medical license in 1986, and later against an international arrest warrant.</p>
+          <p class="vb-intro">The <strong>Self-Preservation Eight (SP8)</strong> invests its strength, according to Naranjo, not in a wide social mission but in the uncompromising defense of its own, closest territory &ndash; for Hamer, that territory was nothing less than his own body, his own son, his own explanation for both. That is exactly why he defended his "German New Medicine" not as one possible perspective among several, but as his personal, inviolable property &ndash; against medical associations, against courts, against the revocation of his medical license in 1986, and later against an international arrest warrant.</p>
           <p class="vb-intro">Every objection from outside was treated by Hamer not as factual criticism but as an attack on his innermost territory &ndash; on an explanatory system born from his own pain, which he therefore defended with a tenacity that went far beyond ordinary scientific conviction.</p>
         </blockquote>
 
@@ -1937,7 +1937,7 @@ export function rykeGeerdHamerPortraitPage() {
         <h2 class="vb-section">4. The Work and Its Shadow: People Who Trusted His Teaching</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro"><strong>Important note:</strong> "German New Medicine" is regarded by science as a discredited pseudo-medical theory with no sound empirical basis. Hamer's core claim &ndash; that cancer is fundamentally the result of a psychological conflict shock and can be healed by "resolving" that conflict rather than through oncological treatment &ndash; lacks any valid evidence. Several people who, following his teaching, decided against conventional cancer treatment have demonstrably died of their disease, including children. In 2004, Hamer was sentenced to prison in France for fraud; an international arrest warrant was issued.</p>
-          <p class="vb-intro">This is exactly where the dark underside of the SE8w9 pattern shows itself: the very same unshakeable steadfastness that, on a small scale, can look like impressive resilience against hostility became, in Hamer, a lethal stubbornness that cost human lives &ndash; not out of malice, but because defending his own territory, born from personal pain, remained more important to him than any correction in the face of the consequences.</p>
+          <p class="vb-intro">This is exactly where the dark underside of the SP8w9 pattern shows itself: the very same unshakeable steadfastness that, on a small scale, can look like impressive resilience against hostility became, in Hamer, a lethal stubbornness that cost human lives &ndash; not out of malice, but because defending his own territory, born from personal pain, remained more important to him than any correction in the face of the consequences.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Eight with a Nine-Wing</h2>
@@ -1957,10 +1957,10 @@ export function rykeGeerdHamerPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se8", label:"SE8 – The Orangutan: Subtype Profile"},
-        {route:"beruehmte-helmut-kohl", label:"Portrait: Helmut Kohl (SE8w9) – same subtype, unshakeable steadfastness in a political setting"},
-        {route:"beruehmte-winston-churchill", label:"Portrait: Winston Churchill (SE8w9) – also the same subtype"},
-        {route:"beruehmte-boris-grundl", label:"Portrait: Boris Grundl (SE8w9)"},
+        {route:"subtype/se8", label:"SP8 – The Orangutan: Subtype Profile"},
+        {route:"beruehmte-helmut-kohl", label:"Portrait: Helmut Kohl (SP8w9) – same subtype, unshakeable steadfastness in a political setting"},
+        {route:"beruehmte-winston-churchill", label:"Portrait: Winston Churchill (SP8w9) – also the same subtype"},
+        {route:"beruehmte-boris-grundl", label:"Portrait: Boris Grundl (SP8w9)"},
       ])}
     </div>
   `);
@@ -2041,7 +2041,7 @@ export function susanLinkPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-susan-link-portrait.jpg" alt="Susan Link – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Susan Link</p>
-        <p class="krim-portrait-typ">SE3w2 &middot; Self-Preservation Type 3 with a Two Wing</p>
+        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with a Two Wing</p>
         <p class="krim-portrait-subtitle">Television presenter, born 1976 – Animal correspondence: Raccoon</p>
       </div>
       <div class="page-content">
@@ -2054,25 +2054,25 @@ export function susanLinkPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Three: Reliability as a Foundation for Existence</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation Three (SE3)</strong> seeks its worth not in great public admiration but in steady, practical competence – Naranjo called this subtype the "security type": status is secured through demonstrable skill and consistent work, not through glamour. Since 2011, Susan Link has been part of the presenter team of the ARD Morgenmagazin, initially as an editor, and since August 2012 alternating weekly as a presenter – one of German television's earliest, least glamorous time slots, reliably filled year after year.</p>
-          <p class="vb-intro">From 2017 to 2019 she additionally co-hosted the MDR talk show "Riverboat" with Kim Fisher, and from 2023 she joined the presenter team of "Presseclub" alongside Jörg Schönenborn and Ellen Ehni. Not a single big breakthrough, but a continuously growing list of reliably filled formats – the typical SE3 career.</p>
+          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> seeks its worth not in great public admiration but in steady, practical competence – Naranjo called this subtype the "security type": status is secured through demonstrable skill and consistent work, not through glamour. Since 2011, Susan Link has been part of the presenter team of the ARD Morgenmagazin, initially as an editor, and since August 2012 alternating weekly as a presenter – one of German television's earliest, least glamorous time slots, reliably filled year after year.</p>
+          <p class="vb-intro">From 2017 to 2019 she additionally co-hosted the MDR talk show "Riverboat" with Kim Fisher, and from 2023 she joined the presenter team of "Presseclub" alongside Jörg Schönenborn and Ellen Ehni. Not a single big breakthrough, but a continuously growing list of reliably filled formats – the typical SP3 career.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two Wing: Closeness to the Audience as a Formula for Success</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Two wing (w2)</strong> gives the self-preservation Three a warm, personable quality – unlike the cooler, purely task-focused Four-wing variant. Since July 2017, Link has co-hosted "Kölner Treff" with <a href="#beruehmte-micky-beisenherz">Micky Beisenherz (SO2w1)</a>, a conversation format that thrives on personal closeness with its guests rather than confrontation. With her husband, she also produces the podcast "Gintonicundeierlikoer" – a very personal, sociable format away from the main stage.</p>
-          <p class="vb-intro">When Frank Plasberg was unable to appear due to illness, Link stepped in as his substitute on "Hart aber fair" – the SE3w2 in its purest form: reliably filling in when needed, with personal warmth, but without claiming the role for herself.</p>
+          <p class="vb-intro">When Frank Plasberg was unable to appear due to illness, Link stepped in as his substitute on "Hart aber fair" – the SP3w2 in its purest form: reliably filling in when needed, with personal warmth, but without claiming the role for herself.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Passion: Vanity as Constant Self-Improvement</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The passion of the Three is called <strong>vanity</strong> – for the SE3 not as a craving for attention, but as a constant, practical concern with one's own functioning: Am I prepared? Am I performing well? Am I needed? Link's path from local-radio trainee to a fixed part of three nationwide formats shows exactly this pattern – continuous, unassuming improvement rather than a single staged high point.</p>
+          <p class="vb-intro">The passion of the Three is called <strong>vanity</strong> – for the SP3 not as a craving for attention, but as a constant, practical concern with one's own functioning: Am I prepared? Am I performing well? Am I needed? Link's path from local-radio trainee to a fixed part of three nationwide formats shows exactly this pattern – continuous, unassuming improvement rather than a single staged high point.</p>
           <p class="vb-intro">The Two wing directs this concern outward: it's not only her own functioning that counts, but also whether guests and audience feel comfortable around her – a vanity that expresses itself through cultivated relationship work, not pure self-display.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE3w2 shows in a position of trust built up over nearly thirty years in German television: from local radio to "Presseclub," one of the ARD's most respected political discussion formats – reached without a single viral scandal moment, through steady, competent presence instead.</p>
+          <p class="vb-intro">The light of the SP3w2 shows in a position of trust built up over nearly thirty years in German television: from local radio to "Presseclub," one of the ARD's most respected political discussion formats – reached without a single viral scandal moment, through steady, competent presence instead.</p>
           <p class="vb-intro">The shadow lies in the risk of tying one's identity so completely to one's function that private spaces – like the shared podcast with her husband – become the only remaining niche where the role can be set aside.</p>
         </blockquote>
 
@@ -2088,12 +2088,12 @@ export function susanLinkPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
-        {route:"beruehmte-wolodymyr-selenskyj", label:"Portrait: Volodymyr Zelenskyy (SE3w2)"},
-        {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SE3w2)"},
-        {route:"beruehmte-klara-von-assisi", label:"Portrait: Clare of Assisi (SE3w2)"},
-        {route:"beruehmte-barbara-bleisch", label:"Portrait: Dr. Barbara Bleisch (SE3w2)"},
-        {route:"beruehmte-vincenzo-califano", label:"Portrait: Vincenzo Califano (SE3w2)"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-wolodymyr-selenskyj", label:"Portrait: Volodymyr Zelenskyy (SP3w2)"},
+        {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SP3w2)"},
+        {route:"beruehmte-klara-von-assisi", label:"Portrait: Clare of Assisi (SP3w2)"},
+        {route:"beruehmte-barbara-bleisch", label:"Portrait: Dr. Barbara Bleisch (SP3w2)"},
+        {route:"beruehmte-vincenzo-califano", label:"Portrait: Vincenzo Califano (SP3w2)"},
       ])}
     </div>
   `);
@@ -2190,7 +2190,7 @@ export function audreyTautouPortraitPage() {
         <h2 class="vb-section">2. The Self-Preservation Three: Success That Isn't Meant to Translate into Fame</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Naranjo described the self-preservation Three through the theme of <em>security through one's own competence</em>: worth arises from the concrete, verifiable achievement itself, not from the scale of public attention it generates. Tautou put it directly herself: she is not someone who wants to be famous or popular, which is why she never threw herself into Hollywood after "Amélie." Celebrity, she has said, sometimes feels like a prison &ndash; she never wanted to live outside the real world with real people.</p>
-          <p class="vb-intro">This is exactly the typical SE3 stance: instead of using her success as a launching pad for even more visibility, Tautou kept returning to friends and family in France, with her own reasoning that career is not everything. In interviews she appears without makeup, in jeans and a t-shirt, with a relaxed, unpretentious tone &ndash; the exact opposite of the starlet self-presentation her fame would have made possible.</p>
+          <p class="vb-intro">This is exactly the typical SP3 stance: instead of using her success as a launching pad for even more visibility, Tautou kept returning to friends and family in France, with her own reasoning that career is not everything. In interviews she appears without makeup, in jeans and a t-shirt, with a relaxed, unpretentious tone &ndash; the exact opposite of the starlet self-presentation her fame would have made possible.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two-Wing: Roles That Give Other Women Something</h2>
@@ -2217,12 +2217,12 @@ export function audreyTautouPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-penelope-cruz", label:"Portrait: Penélope Cruz (SP3w2)"},
         {route:"beruehmte-halle-berry", label:"Portrait: Halle Berry (SP3w2)"},
         {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SP3w2)"},
         {route:"beruehmte-aylin-tezel", label:"Portrait: Aylin Tezel (SP3w2)"},
-        {route:"beruehmte-barbara-bleisch", label:"Portrait: Dr. Barbara Bleisch (SE3w2)"},
+        {route:"beruehmte-barbara-bleisch", label:"Portrait: Dr. Barbara Bleisch (SP3w2)"},
       ])}
     </div>
   `);
@@ -2286,7 +2286,7 @@ export function barbaraBleischPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-penelope-cruz", label:"Portrait: Penélope Cruz (SP3w2)"},
         {route:"beruehmte-halle-berry", label:"Portrait: Halle Berry (SP3w2)"},
         {route:"beruehmte-susan-link", label:"Portrait: Susan Link (SP3w2)"},
@@ -2581,7 +2581,7 @@ export function nicoRosbergPortraitPage() {
         <h2 class="vb-section">1. The Goose in the Slipstream</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Wild geese in autumn rarely fly alone. The flock forms a V, each goose rides the updraft of the one ahead and saves energy, the lead changes as soon as the front goose tires, and the calls from the rear keep pace and direction steady. The formation works because every goose knows its place, holds it with discipline, and says so loudly when something is off.</p>
-          <p class="vb-intro">Nico Rosberg, born on 27 June 1985 in Wiesbaden and raised in Monaco, spent his career strikingly often in exactly that position: in the slipstream of very big names. His father Keke Rosberg was the 1982 Formula 1 World Champion and became his first manager. From 2010 to 2012 he shared a Mercedes team with seven-time champion Michael Schumacher (SE1w9), and from 2013 with <a href="javascript:void(0)" data-route="beruehmte-lewis-hamilton">Lewis Hamilton</a> (SO2w3), whom he knew from their karting days. In Formula 1 the slipstream is a real aerodynamic principle: whoever follows a faster car becomes faster and learns its line. In 2014 and 2015 Rosberg stayed behind Hamilton, learned that line from close range, and won the title in 2016.</p>
+          <p class="vb-intro">Nico Rosberg, born on 27 June 1985 in Wiesbaden and raised in Monaco, spent his career strikingly often in exactly that position: in the slipstream of very big names. His father Keke Rosberg was the 1982 Formula 1 World Champion and became his first manager. From 2010 to 2012 he shared a Mercedes team with seven-time champion Michael Schumacher (SP1w9), and from 2013 with <a href="javascript:void(0)" data-route="beruehmte-lewis-hamilton">Lewis Hamilton</a> (SO2w3), whom he knew from their karting days. In Formula 1 the slipstream is a real aerodynamic principle: whoever follows a faster car becomes faster and learns its line. In 2014 and 2015 Rosberg stayed behind Hamilton, learned that line from close range, and won the title in 2016.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social One: Order for the Whole</h2>
@@ -2611,7 +2611,7 @@ export function nicoRosbergPortraitPage() {
 
         <h2 class="vb-section">6. Two Ones in One Car: Rosberg and Michael Schumacher</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Rosberg's Mercedes time began in 2010 with a team-mate who was himself a One: <a href="javascript:void(0)" data-route="beruehmte-michael-schumacher">Michael Schumacher</a> (SE1w9), who had returned at forty-one because disciplined work on the car appealed to him more than retirement. Both drivers stood for meticulous preparation and data work, but their forms of the One differ in who they are addressed to. The self-preservation One measures themselves against a private, rarely explained standard and almost never spoke about their inner life. The social One directs their standard outward, explains their method and makes it accessible to others.</p>
+          <p class="vb-intro">Rosberg's Mercedes time began in 2010 with a team-mate who was himself a One: <a href="javascript:void(0)" data-route="beruehmte-michael-schumacher">Michael Schumacher</a> (SP1w9), who had returned at forty-one because disciplined work on the car appealed to him more than retirement. Both drivers stood for meticulous preparation and data work, but their forms of the One differ in who they are addressed to. The self-preservation One measures themselves against a private, rarely explained standard and almost never spoke about their inner life. The social One directs their standard outward, explains their method and makes it accessible to others.</p>
           <p class="vb-intro">That Rosberg stayed ahead of Schumacher in the standings in all three of their years together suggests that both competed on the same ground, precision, and that the younger driver could call it up more reliably in those years. Rosberg's later path, the mental training and the open talk about it, is at the same time the counterpart to Schumacher's reticence about his own inner life.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
@@ -2623,7 +2623,7 @@ export function nicoRosbergPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
         {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
-        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SE1w9) – his Mercedes team-mate"},
+        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SP1w9) – his Mercedes team-mate"},
         {route:"beruehmte-juergen-klopp", label:"Portrait: Jürgen Klopp (SO1w2)"},
         {route:"beruehmte-justin-timberlake", label:"Portrait: Justin Timberlake (SO1w2)"},
         {route:"beruehmte-lewis-hamilton", label:"Portrait: Lewis Hamilton (SO2w3) – his Mercedes team-mate"},
@@ -2713,7 +2713,7 @@ export function johannesGutenbergPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-johannes-gutenberg-portrait.jpg" alt="Johannes Gutenberg – portrait (later imaginary depiction)" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-johannes-gutenberg-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Johannes Gutenberg</p>
-        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with a Nine-Wing</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with a Nine-Wing</p>
         <p class="krim-portrait-subtitle">Inventor of printing with movable metal type, c. 1400 in Mainz &ndash; 1468 in Mainz &ndash; Animal match: Eagle</p>
       </div>
       <div class="page-content">
@@ -2726,7 +2726,7 @@ export function johannesGutenbergPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation One: The Standard Lies in the Workpiece</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Self-Preservation One (SE1)</strong> directs its perfectionism inward: toward its own preparation, its own care, and the question of whether the work is in order, not toward improving others. In Gutenberg this can be read off his main work, the 42-line Bible, produced in Mainz in the mid-1450s. He did not imitate just any script but the hand of the best scribes of his time, including abbreviations and ligatures. This required around 290 different characters, each one cast, checked and set so that the columns stood straight.</p>
+          <p class="vb-intro">The <strong>Self-Preservation One (SP1)</strong> directs its perfectionism inward: toward its own preparation, its own care, and the question of whether the work is in order, not toward improving others. In Gutenberg this can be read off his main work, the 42-line Bible, produced in Mainz in the mid-1450s. He did not imitate just any script but the hand of the best scribes of his time, including abbreviations and ligatures. This required around 290 different characters, each one cast, checked and set so that the columns stood straight.</p>
           <p class="vb-intro">Evidence of this standard is the reaction of contemporaries. Enea Silvio Piccolomini, later Pope Pius II, reported in a letter of March 1455 that he had seen sheets of this Bible in Frankfurt that were very clean and easy to read. Gutenberg was working to a standard that nobody set for him. The result was meant to last whether or not anyone looked closely.</p>
         </blockquote>
 
@@ -2746,12 +2746,12 @@ export function johannesGutenbergPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light lies in precision and endurance: Gutenberg completed a system that changed the spread of knowledge in Europe, and did so with a quality that is still admired today.</p>
           <p class="vb-intro">The shadow shows where the demand on the work meets the reality of money and contracts. Gutenberg appeared in court several times, in Strasbourg over financial claims and a broken promise of marriage. For the Bible he borrowed money from Johannes Fust, repeatedly, probably 1,600 guilders in all (figures vary). At the end of 1455, when the printing of the Bible was close to completion, Fust sued for repayment including interest. The Mainz court ruled for Fust, and Gutenberg lost the equipment and type he had pledged to him. Fust went on printing with Peter Schöffer. The One tends to put the standard into the work and overlook the creditors' standard, and the Nine-wing can contribute to putting off a conflict until it is too late. Whether this was so for Gutenberg remains open, but the course of events fits these patterns of the One and the Nine-wing well.</p>
-          <p class="vb-intro">To be honest, one must add how thin the basis of this typing is. There are no letters and no personal statements, and the portrait above is an imaginary depiction from the 16th century (after André Thevet). What Gutenberg really looked like, we do not know. The assignment to SE1w9 therefore rests on his work and conduct, not on his face or his own words.</p>
+          <p class="vb-intro">To be honest, one must add how thin the basis of this typing is. There are no letters and no personal statements, and the portrait above is an imaginary depiction from the 16th century (after André Thevet). What Gutenberg really looked like, we do not know. The assignment to SP1w9 therefore rests on his work and conduct, not on his face or his own words.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Two Eagles Who Let Their Work Speak: Gutenberg and Schumacher</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The same subtype shows in <a href="javascript:void(0)" data-route="beruehmte-michael-schumacher">Michael Schumacher</a> (SE1w9), and the comparison illuminates both. Schumacher too became known through his work, through preparation and precision, and rarely spoke about his inner life. In his case the reticence is known from interviews and from his later years. With Gutenberg we do not know whether he wanted to stay silent or whether the sources simply pass nothing down.</p>
+          <p class="vb-intro">The same subtype shows in <a href="javascript:void(0)" data-route="beruehmte-michael-schumacher">Michael Schumacher</a> (SP1w9), and the comparison illuminates both. Schumacher too became known through his work, through preparation and precision, and rarely spoke about his inner life. In his case the reticence is known from interviews and from his later years. With Gutenberg we do not know whether he wanted to stay silent or whether the sources simply pass nothing down.</p>
           <p class="vb-intro">The difference lies in the object of precision: Schumacher perfected himself and the car beneath him, Gutenberg a process that others carried on after him. The process spread across Europe within a few decades, and its inventor remained almost invisible behind it.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -2761,14 +2761,14 @@ export function johannesGutenbergPortraitPage() {
       </div>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
-        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SE1 – Eagle"},
-        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SE1w9) – same subtype"},
-        {route:"beruehmte-johannes-paul-ii", label:"Portrait: John Paul II (SE1w9)"},
-        {route:"beruehmte-konrad-zuse", label:"Portrait: Konrad Zuse (SE1w9) – same subtype"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SP1 – Eagle"},
+        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SP1w9) – same subtype"},
+        {route:"beruehmte-johannes-paul-ii", label:"Portrait: John Paul II (SP1w9)"},
+        {route:"beruehmte-konrad-zuse", label:"Portrait: Konrad Zuse (SP1w9) – same subtype"},
         {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6)"},
         {route:"beruehmte-leonardo-da-vinci", label:"Portrait: Leonardo da Vinci (SO5w4)"},
-        {route:"beruehmte-kennerly-kitt", label:"Portrait: Kennerly Kitt (SE1w2)"},
+        {route:"beruehmte-kennerly-kitt", label:"Portrait: Kennerly Kitt (SP1w2)"},
       ])}
     </div>
   `);
@@ -2784,7 +2784,7 @@ export function konradZusePortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-konrad-zuse-portrait.jpg" alt="Konrad Zuse – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-konrad-zuse-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Konrad Zuse</p>
-        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with a Nine-Wing</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with a Nine-Wing</p>
         <p class="krim-portrait-subtitle">Civil engineer and computer pioneer, builder of the Z3, 1910 in Berlin &ndash; 1995 in Hünfeld &ndash; Animal match: Eagle</p>
       </div>
       <div class="page-content">
@@ -2797,7 +2797,7 @@ export function konradZusePortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation One: An Order That Checks Itself</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Self-Preservation One (SE1)</strong> directs its perfectionism at its own work and its own care, less at correcting others. Zuse turned this stance into a programme: from 1935 he built calculating machines in his parents' flat on Berlin's Wrangelstraße, first the purely mechanical Z1, which according to accounts kept jamming, then the Z2 with telephone relays and in 1941 the Z3. It was demonstrated in Berlin on 12 May 1941 and worked with around 2,000 relays in the binary system, programmed via punched film strips. That he did not give up when the mechanics jammed but changed the principle is a typical One trait: the result had to be right, even if the approach had to be rethought for it.</p>
+          <p class="vb-intro">The <strong>Self-Preservation One (SP1)</strong> directs its perfectionism at its own work and its own care, less at correcting others. Zuse turned this stance into a programme: from 1935 he built calculating machines in his parents' flat on Berlin's Wrangelstraße, first the purely mechanical Z1, which according to accounts kept jamming, then the Z2 with telephone relays and in 1941 the Z3. It was demonstrated in Berlin on 12 May 1941 and worked with around 2,000 relays in the binary system, programmed via punched film strips. That he did not give up when the mechanics jammed but changed the principle is a typical One trait: the result had to be right, even if the approach had to be rethought for it.</p>
           <p class="vb-intro">Striking is how long he worked almost alone. One biographical account stresses that he developed the principles of the modern digital computer independently and in largely complete isolation. The drive did not come from outside but from a standard: a calculation that could be automated should be automated.</p>
         </blockquote>
 
@@ -2821,8 +2821,8 @@ export function konradZusePortraitPage() {
 
         <h2 class="vb-section">6. Two Eagles at the Start of a Technology: Zuse and Gutenberg</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-johannes-gutenberg">Johannes Gutenberg</a> (SE1w9), Zuse shares more than the subtype. Both combined various individual parts into a system that changed how information is processed, Gutenberg in printing, Zuse in calculating. Both worked quietly for a long time, and both became dependent on financiers through the financing of their workshop: Gutenberg lost equipment and type to Johannes Fust in 1455, and Zuse's company passed into Siemens's hands from 1967.</p>
-          <p class="vb-intro">The difference lies in the trace they left. Not a single personal sentence of Gutenberg's survives. Zuse wrote an autobiography, &lsquo;Der Computer – Mein Lebenswerk&rsquo; (&lsquo;The Computer – My Life's Work&rsquo;, 1970), painted and explained his ideas publicly. In comparison with <a href="javascript:void(0)" data-route="beruehmte-michael-schumacher">Michael Schumacher</a> (SE1w9), it is also noticeable that Zuse's precision was directed at a work that carried on without him, whereas with Schumacher the person himself was the instrument.</p>
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-johannes-gutenberg">Johannes Gutenberg</a> (SP1w9), Zuse shares more than the subtype. Both combined various individual parts into a system that changed how information is processed, Gutenberg in printing, Zuse in calculating. Both worked quietly for a long time, and both became dependent on financiers through the financing of their workshop: Gutenberg lost equipment and type to Johannes Fust in 1455, and Zuse's company passed into Siemens's hands from 1967.</p>
+          <p class="vb-intro">The difference lies in the trace they left. Not a single personal sentence of Gutenberg's survives. Zuse wrote an autobiography, &lsquo;Der Computer – Mein Lebenswerk&rsquo; (&lsquo;The Computer – My Life's Work&rsquo;, 1970), painted and explained his ideas publicly. In comparison with <a href="javascript:void(0)" data-route="beruehmte-michael-schumacher">Michael Schumacher</a> (SP1w9), it is also noticeable that Zuse's precision was directed at a work that carried on without him, whereas with Schumacher the person himself was the instrument.</p>
           <p class="vb-intro">An earlier forerunner of programmable computing is <a href="javascript:void(0)" data-route="beruehmte-ada-lovelace">Ada Lovelace</a> (SO7w6). Her notes of 1843 describe a method for Charles Babbage's Analytical Engine, which was never fully built, whereas Zuse built his machines himself and got them to run.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -2832,11 +2832,11 @@ export function konradZusePortraitPage() {
       </div>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
-        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SE1 – Eagle"},
-        {route:"beruehmte-johannes-gutenberg", label:"Portrait: Johannes Gutenberg (SE1w9) – same subtype"},
-        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SE1w9)"},
-        {route:"beruehmte-johannes-paul-ii", label:"Portrait: John Paul II (SE1w9)"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SP1 – Eagle"},
+        {route:"beruehmte-johannes-gutenberg", label:"Portrait: Johannes Gutenberg (SP1w9) – same subtype"},
+        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SP1w9)"},
+        {route:"beruehmte-johannes-paul-ii", label:"Portrait: John Paul II (SP1w9)"},
         {route:"beruehmte-ada-lovelace", label:"Portrait: Ada Lovelace (SO7w6) – forerunner of programmable computing"},
       ])}
     </div>
@@ -2988,7 +2988,7 @@ export function seanShermanPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sean-sherman-portrait.jpg" alt="Sean Sherman – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-sean-sherman-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Sean Sherman</p>
-        <p class="krim-portrait-typ">SE2w1 &middot; Self-Preservation Type 2 with a One-Wing</p>
+        <p class="krim-portrait-typ">SP2w1 &middot; Self-Preservation Type 2 with a One-Wing</p>
         <p class="krim-portrait-subtitle">Oglala Lakota chef (&lsquo;The Sioux Chef&rsquo;), author and founder of Owamni, b. 1974 in Pine Ridge (South Dakota) &ndash; Animal match: Hippopotamus</p>
       </div>
       <div class="page-content">
@@ -3001,7 +3001,7 @@ export function seanShermanPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Two: Food as Care and a Principle of Survival</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Self-Preservation Two (SE2)</strong> directs its care first at the survival and health of those closest to it. Naranjo called this subtype &lsquo;Me First&rsquo;, not in the sense of egoism but as care that begins in the narrowest, existential circle. For Sherman this circle is his community and what it eats. By his own account he saw cousins die young of diabetes in Pine Ridge, and according to reports there was only a single grocery store for an area the size of Connecticut. For him the problem lies in what is available to people, not in the people themselves.</p>
+          <p class="vb-intro">The <strong>Self-Preservation Two (SP2)</strong> directs its care first at the survival and health of those closest to it. Naranjo called this subtype &lsquo;Me First&rsquo;, not in the sense of egoism but as care that begins in the narrowest, existential circle. For Sherman this circle is his community and what it eats. By his own account he saw cousins die young of diabetes in Pine Ridge, and according to reports there was only a single grocery store for an area the size of Connecticut. For him the problem lies in what is available to people, not in the people themselves.</p>
           <p class="vb-intro">From this arises care in the form of food: he cooks, trains and builds kitchens to make traditional foods accessible again. That someone who himself suffered from the shortage goes after other people's shortage is a typical trait of the Self-Preservation Two.</p>
         </blockquote>
 
@@ -3025,8 +3025,8 @@ export function seanShermanPortraitPage() {
 
         <h2 class="vb-section">6. Two People with a Mission: Sherman and Thunberg</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-greta-thunberg">Greta Thunberg</a> (SE2w1), Sherman shares that both turn personal affectedness into a clear, rule-bound mission. With Thunberg it is directed at climate policy and aimed outward as a demand. Sherman, by contrast, builds step by step from within: kitchens, training, textbooks. Both are examples of how the Self-Preservation Two with a One-wing turns care into a cause to which it is prepared to commit itself in the long run.</p>
-          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-margot-friedlaender">Margot Friedländer</a> (SE2w1) too, Sherman shares the rootedness in his own history: she made the memory of persecution her task, he the recovery of his ancestors' food. In both cases heritage is not administered but passed on.</p>
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-greta-thunberg">Greta Thunberg</a> (SP2w1), Sherman shares that both turn personal affectedness into a clear, rule-bound mission. With Thunberg it is directed at climate policy and aimed outward as a demand. Sherman, by contrast, builds step by step from within: kitchens, training, textbooks. Both are examples of how the Self-Preservation Two with a One-wing turns care into a cause to which it is prepared to commit itself in the long run.</p>
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-margot-friedlaender">Margot Friedländer</a> (SP2w1) too, Sherman shares the rootedness in his own history: she made the memory of persecution her task, he the recovery of his ancestors' food. In both cases heritage is not administered but passed on.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
@@ -3035,11 +3035,11 @@ export function seanShermanPortraitPage() {
       </div>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
-        {route:"lebensmusterkompass/se2", label:"Life Pattern Compass: SE2 – Hippopotamus"},
-        {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SE2w1) – same subtype"},
-        {route:"beruehmte-margot-friedlaender", label:"Portrait: Margot Friedländer (SE2w1)"},
-        {route:"beruehmte-soeren-kierkegaard", label:"Portrait: Søren Kierkegaard (SE2w1)"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"lebensmusterkompass/se2", label:"Life Pattern Compass: SP2 – Hippopotamus"},
+        {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SP2w1) – same subtype"},
+        {route:"beruehmte-margot-friedlaender", label:"Portrait: Margot Friedländer (SP2w1)"},
+        {route:"beruehmte-soeren-kierkegaard", label:"Portrait: Søren Kierkegaard (SP2w1)"},
       ])}
     </div>
   `);
@@ -3055,7 +3055,7 @@ export function billieLourdPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-billie-lourd-portrait.jpg" alt="Billie Lourd – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-billie-lourd-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Billie Lourd</p>
-        <p class="krim-portrait-typ">SE3w4 &middot; Self-Preservation Type 3 with a Four-Wing</p>
+        <p class="krim-portrait-typ">SP3w4 &middot; Self-Preservation Type 3 with a Four-Wing</p>
         <p class="krim-portrait-subtitle">Actress (&lsquo;Scream Queens&rsquo;, &lsquo;American Horror Story&rsquo;, &lsquo;Star Wars&rsquo;, &lsquo;Booksmart&rsquo;), b. 1992 in Los Angeles &ndash; Animal match: Raccoon</p>
       </div>
       <div class="page-content">
@@ -3068,7 +3068,7 @@ export function billieLourdPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Three: Not Playing Up One's Origins</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Self-Preservation Three (SE3)</strong> counts as the counter-type of the Three: it shows the least of what is usually associated with the image of the Three and seeks security through competence and a solid foundation, not through performance. In Lourd this shows in how she took her first roles. For the Fox series &lsquo;Scream Queens&rsquo; (2015–2016) she met, by her own recollection, with series creator Ryan Murphy believing it was an audition. Only the next day did she learn that it was an offer. She had not expected him to cast her without a try-out, because she knew that is not how it works.</p>
+          <p class="vb-intro">The <strong>Self-Preservation Three (SP3)</strong> counts as the counter-type of the Three: it shows the least of what is usually associated with the image of the Three and seeks security through competence and a solid foundation, not through performance. In Lourd this shows in how she took her first roles. For the Fox series &lsquo;Scream Queens&rsquo; (2015–2016) she met, by her own recollection, with series creator Ryan Murphy believing it was an audition. Only the next day did she learn that it was an offer. She had not expected him to cast her without a try-out, because she knew that is not how it works.</p>
           <p class="vb-intro">The role itself is not a lead either: as Chanel #3 she belongs to the entourage of the sorority chief Chanel Oberlin, played by Emma Roberts. She wears earmuffs as a nod to her mother's famous cinnamon-bun hairstyle as Princess Leia in &lsquo;Star Wars&rsquo;. The same goes for Lieutenant Kaydel Ko Connix, her role in &lsquo;The Force Awakens&rsquo; (2015), &lsquo;The Last Jedi&rsquo; (2017) and &lsquo;The Rise of Skywalker&rsquo; (2019), which she also played alongside her mother. A supporting part in big productions, no star turn, but reliably cast over the years.</p>
         </blockquote>
 
@@ -3087,12 +3087,12 @@ export function billieLourdPortraitPage() {
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three with a Four-Wing</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light lies in that Lourd does not turn a famous name into a business model but earns her own place role by role. In the same interview she said she loves being her mother's daughter but now gets to be just Billie.</p>
-          <p class="vb-intro">The shadow belongs to the same pattern. The Three's fate pattern is vanity, and in the SE3 it expresses itself quietly: in the wish to appear unassailable through restraint. Added to this is the weight of a legacy: Lourd said the pressure is great because her mother left such a large legacy, which she must now uphold and develop in her own way. Between the aim of simply being Billie and the expectation of carrying the legacy, she moves to this day.</p>
+          <p class="vb-intro">The shadow belongs to the same pattern. The Three's fate pattern is vanity, and in the SP3 it expresses itself quietly: in the wish to appear unassailable through restraint. Added to this is the weight of a legacy: Lourd said the pressure is great because her mother left such a large legacy, which she must now uphold and develop in her own way. Between the aim of simply being Billie and the expectation of carrying the legacy, she moves to this day.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Two Daughters of Famous Parents: Lourd and Jones</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-norah-jones">Norah Jones</a> (SE3w4), Lourd shares the origin in a famous family and the decision not to cash in on it. As a teenager Jones took a different surname so as not to appear as Ravi Shankar's daughter; Lourd bears the surname of her father, the agent, and not that of her mother, the acting icon Carrie Fisher. <a href="javascript:void(0)" data-route="beruehmte-cheyenne-ochsenknecht">Cheyenne Ochsenknecht</a> (SE3w4) also bears a well-known name and goes her own way.</p>
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-norah-jones">Norah Jones</a> (SP3w4), Lourd shares the origin in a famous family and the decision not to cash in on it. As a teenager Jones took a different surname so as not to appear as Ravi Shankar's daughter; Lourd bears the surname of her father, the agent, and not that of her mother, the acting icon Carrie Fisher. <a href="javascript:void(0)" data-route="beruehmte-cheyenne-ochsenknecht">Cheyenne Ochsenknecht</a> (SP3w4) also bears a well-known name and goes her own way.</p>
           <p class="vb-intro">The difference lies in dealing with the public. After her rapid fame, Jones largely withdrew from the spotlight and keeps her private life closed. Lourd works in a profession that demands visibility and speaks more openly about grief and family. But both show the same basic stance of the Self-Preservation Three: the achievement should speak for itself, not the name.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -3102,11 +3102,11 @@ export function billieLourdPortraitPage() {
       </div>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
-        {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SE3 – Raccoon"},
-        {route:"beruehmte-norah-jones", label:"Portrait: Norah Jones (SE3w4) – same subtype"},
-        {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SE3w4)"},
-        {route:"beruehmte-catherine-deneuve", label:"Portrait: Catherine Deneuve (SE3w4)"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SP3 – Raccoon"},
+        {route:"beruehmte-norah-jones", label:"Portrait: Norah Jones (SP3w4) – same subtype"},
+        {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SP3w4)"},
+        {route:"beruehmte-catherine-deneuve", label:"Portrait: Catherine Deneuve (SP3w4)"},
       ])}
     </div>
   `);
@@ -3256,7 +3256,7 @@ export function kennerlyKittPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-kennerly-kitt-portrait.jpg" alt="Kennerly Kitt – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-kennerly-kitt-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Kennerly Kitt</p>
-        <p class="krim-portrait-typ">SE1w2 &middot; Self-Preservation Type 1 with a Two-Wing</p>
+        <p class="krim-portrait-typ">SP1w2 &middot; Self-Preservation Type 1 with a Two-Wing</p>
         <p class="krim-portrait-subtitle">Harpist, one half of the &lsquo;Harp Twins&rsquo;, from Illinois &ndash; Animal match: Eagle</p>
       </div>
       <div class="page-content">
@@ -3269,7 +3269,7 @@ export function kennerlyKittPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation One: One's Own Standard</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Self-Preservation One (SE1)</strong> directs its perfectionism inward: toward its own preparation, care and the question of whether the work is right. The twins' path shows this stance. In their last two school years, alongside a music studies programme at a local college, Kennerly and Camille held a 4.0 grade average, graduated summa cum laude from the Wheaton College Conservatory of Music with a Bachelor in harp performance, and qualified for the Junior Olympics five times as swimmers. Added to this are third-degree black belts in Taekwondo and work as instructors. Kennerly broke two fingers in the process, and both gave up the martial art afterwards.</p>
+          <p class="vb-intro">The <strong>Self-Preservation One (SP1)</strong> directs its perfectionism inward: toward its own preparation, care and the question of whether the work is right. The twins' path shows this stance. In their last two school years, alongside a music studies programme at a local college, Kennerly and Camille held a 4.0 grade average, graduated summa cum laude from the Wheaton College Conservatory of Music with a Bachelor in harp performance, and qualified for the Junior Olympics five times as swimmers. Added to this are third-degree black belts in Taekwondo and work as instructors. Kennerly broke two fingers in the process, and both gave up the martial art afterwards.</p>
           <p class="vb-intro">The inner standard shows in the music too. In a profile in &lsquo;Celtic Life International&rsquo;, Kennerly says they now devote far more time and energy to writing original music than to cover songs, because that is where their true passion lies. Whoever moves from arrangements of known songs to pieces of their own no longer measures themselves by applause for the familiar but by what they themselves consider right. In performance it is noticeable that she often uses her index finger to emphasise or explain, and altogether comes across as earthy, determined and physically present, like a gut type.</p>
         </blockquote>
 
@@ -3293,9 +3293,9 @@ export function kennerlyKittPortraitPage() {
 
         <h2 class="vb-section">6. Same Genes, Different Types: Kennerly and Camille</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Understanding Kennerly includes her sister <a href="javascript:void(0)" data-route="beruehmte-camille-kitt">Camille Kitt</a> (SE4w3). The two are identical, have the same training, the same degree and the same appearances, and married twin brothers. Public sources hardly ever tell them apart: interviews are answered jointly, and even reports admit that one can barely distinguish them. The differences between the two types therefore lie less in separate life stories than in temperament, in manner, in gaze, voice and gesture.</p>
+          <p class="vb-intro">Understanding Kennerly includes her sister <a href="javascript:void(0)" data-route="beruehmte-camille-kitt">Camille Kitt</a> (SP4w3). The two are identical, have the same training, the same degree and the same appearances, and married twin brothers. Public sources hardly ever tell them apart: interviews are answered jointly, and even reports admit that one can barely distinguish them. The differences between the two types therefore lie less in separate life stories than in temperament, in manner, in gaze, voice and gesture.</p>
           <p class="vb-intro">In the Enneagram symbol, One and Four are joined by a line: the One moves toward Four under pressure, the Four finds structure and clarity in the One. That explains why the two sisters complement each other. As a One, Kennerly brings standard, order and decisiveness, Camille as a Four the mood and depth, and together arises what makes the Harp Twins. Among the few documented individual details is that Kennerly broke two fingers in Taekwondo, while Camille needed a puncture wound stitched.</p>
-          <p class="vb-intro"><strong>Observation from twin research:</strong> <a href="javascript:void(0)" data-route="beruehmte-david-l-rathmer">David L. Rathmer</a> (SE3w4) and Detlef Rathmer have been conducting twin research for about 15 years. Despite numerous studies, in all that time they have not met a single pair of twins, identical or fraternal, who had the same type and the same instinctual variant, that is, the same subtype. This example too shows: outward signs quickly lead to a type, but the most important and ultimately decisive distinction is the quality of the gaze. In the images in this app it can only be seen to a limited extent, because they are not original photographs, which cannot be shown for copyright reasons.</p>
+          <p class="vb-intro"><strong>Observation from twin research:</strong> <a href="javascript:void(0)" data-route="beruehmte-david-l-rathmer">David L. Rathmer</a> (SP3w4) and Detlef Rathmer have been conducting twin research for about 15 years. Despite numerous studies, in all that time they have not met a single pair of twins, identical or fraternal, who had the same type and the same instinctual variant, that is, the same subtype. This example too shows: outward signs quickly lead to a type, but the most important and ultimately decisive distinction is the quality of the gaze. In the images in this app it can only be seen to a limited extent, because they are not original photographs, which cannot be shown for copyright reasons.</p>
           <p class="vb-intro">Despite the impressive outward similarity, the nature of the two sisters is different, in the gaze, in their way of being and in their energetic quality. One is easily deceived, because many twins deliberately dress alike and wear the same haircut. In difficult individual cases like this one, a reliable typing takes many years of engagement. Fortunately this is not always the case.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -3305,11 +3305,11 @@ export function kennerlyKittPortraitPage() {
       </div>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
-        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SE1 – Eagle"},
-        {route:"beruehmte-camille-kitt", label:"Portrait: Camille Kitt (SE4w3) – her identical twin sister"},
-        {route:"beruehmte-marie-kondo", label:"Portrait: Marie Kondo (SE1w2) – same subtype with the same wing"},
-        {route:"beruehmte-johannes-gutenberg", label:"Portrait: Johannes Gutenberg (SE1w9)"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SP1 – Eagle"},
+        {route:"beruehmte-camille-kitt", label:"Portrait: Camille Kitt (SP4w3) – her identical twin sister"},
+        {route:"beruehmte-marie-kondo", label:"Portrait: Marie Kondo (SP1w2) – same subtype with the same wing"},
+        {route:"beruehmte-johannes-gutenberg", label:"Portrait: Johannes Gutenberg (SP1w9)"},
       ])}
     </div>
   `);
@@ -3325,7 +3325,7 @@ export function camilleKittPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-camille-kitt-portrait.jpg" alt="Camille Kitt – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-camille-kitt-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Camille Kitt</p>
-        <p class="krim-portrait-typ">SE4w3 &middot; Self-Preservation Type 4 with a Three-Wing</p>
+        <p class="krim-portrait-typ">SP4w3 &middot; Self-Preservation Type 4 with a Three-Wing</p>
         <p class="krim-portrait-subtitle">Harpist, one half of the &lsquo;Harp Twins&rsquo;, from Illinois &ndash; Animal match: Dove</p>
       </div>
       <div class="page-content">
@@ -3338,7 +3338,7 @@ export function camilleKittPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Four: Tenacity in Quiet</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Self-Preservation Four (SE4)</strong> is the counter-type of the Four: it does not put its inner life on display but carries it quietly. Naranjo called this subtype &lsquo;Tenacity&rsquo;. In Camille this shows in the endurance behind the success: she paid for her first used instrument with babysitting, dog-walking and office work, qualified for the Junior Olympics five times as a swimmer, and began playing rock on an instrument little known for it.</p>
+          <p class="vb-intro">The <strong>Self-Preservation Four (SP4)</strong> is the counter-type of the Four: it does not put its inner life on display but carries it quietly. Naranjo called this subtype &lsquo;Tenacity&rsquo;. In Camille this shows in the endurance behind the success: she paid for her first used instrument with babysitting, dog-walking and office work, qualified for the Junior Olympics five times as a swimmer, and began playing rock on an instrument little known for it.</p>
           <p class="vb-intro">The inner life stays protected. Camille, who married Dromil Volfgang, described the first meeting with the brothers as one of those moments when you simply know. The two couples kept the wedding of 22 February 2022 to themselves for four years and made it public only on 22 February 2026. Whoever holds back so much that is private carries it alone at first. Added to this is the feeling of being different: Camille said in an interview that most of her viewers are not harp fans and often react with the sentence &lsquo;Wow, this is different&rsquo;. In performance she comes across as a heart type, in a temperament that clearly differs from her sister's.</p>
         </blockquote>
 
@@ -3362,9 +3362,9 @@ export function camilleKittPortraitPage() {
 
         <h2 class="vb-section">6. Same Genes, Different Types: Camille and Kennerly</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Camille's sister <a href="javascript:void(0)" data-route="beruehmte-kennerly-kitt">Kennerly Kitt</a> (SE1w2) belongs to her portrait. The two are identical, have the same training and the same degree, play as a duo and married twin brothers. Public sources hardly separate them: interviews are answered jointly. The differences therefore lie less in the life story than in temperament: Camille comes across as a heart type, softer in performance and guided by mood; Kennerly comes across as a gut type, earthier and more determined, and likes to use her index finger.</p>
+          <p class="vb-intro">Camille's sister <a href="javascript:void(0)" data-route="beruehmte-kennerly-kitt">Kennerly Kitt</a> (SP1w2) belongs to her portrait. The two are identical, have the same training and the same degree, play as a duo and married twin brothers. Public sources hardly separate them: interviews are answered jointly. The differences therefore lie less in the life story than in temperament: Camille comes across as a heart type, softer in performance and guided by mood; Kennerly comes across as a gut type, earthier and more determined, and likes to use her index finger.</p>
           <p class="vb-intro">In the Enneagram symbol, One and Four are joined by a line: the One moves toward Four under pressure, the Four finds structure in the One. This very tension carries the duo: the Four gives the music mood and depth, the One standard and clarity. Among the few documented individual details is that Camille needed a puncture wound stitched in Taekwondo, while Kennerly broke two fingers.</p>
-          <p class="vb-intro"><strong>Observation from twin research:</strong> <a href="javascript:void(0)" data-route="beruehmte-david-l-rathmer">David L. Rathmer</a> (SE3w4) and Detlef Rathmer have been conducting twin research for about 15 years. Despite numerous studies, in all that time they have not met a single pair of twins, identical or fraternal, who had the same type and the same instinctual variant, that is, the same subtype. This example too shows: outward signs quickly lead to a type, but the most important and ultimately decisive distinction is the quality of the gaze. In the images in this app it can only be seen to a limited extent, because they are not original photographs, which cannot be shown for copyright reasons.</p>
+          <p class="vb-intro"><strong>Observation from twin research:</strong> <a href="javascript:void(0)" data-route="beruehmte-david-l-rathmer">David L. Rathmer</a> (SP3w4) and Detlef Rathmer have been conducting twin research for about 15 years. Despite numerous studies, in all that time they have not met a single pair of twins, identical or fraternal, who had the same type and the same instinctual variant, that is, the same subtype. This example too shows: outward signs quickly lead to a type, but the most important and ultimately decisive distinction is the quality of the gaze. In the images in this app it can only be seen to a limited extent, because they are not original photographs, which cannot be shown for copyright reasons.</p>
           <p class="vb-intro">Despite the impressive outward similarity, the nature of the two sisters is different, in the gaze, in their way of being and in their energetic quality. One is easily deceived, because many twins deliberately dress alike and wear the same haircut. In difficult individual cases like this one, a reliable typing takes many years of engagement. Fortunately this is not always the case.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -3374,11 +3374,11 @@ export function camilleKittPortraitPage() {
       </div>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
-        {route:"lebensmusterkompass/se4", label:"Life Pattern Compass: SE4 – Dove"},
-        {route:"beruehmte-kennerly-kitt", label:"Portrait: Kennerly Kitt (SE1w2) – her identical twin sister"},
-        {route:"beruehmte-enya", label:"Portrait: Enya (SE4w3) – same subtype with the same wing"},
-        {route:"beruehmte-adele", label:"Portrait: Adele (SE4w3)"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"lebensmusterkompass/se4", label:"Life Pattern Compass: SP4 – Dove"},
+        {route:"beruehmte-kennerly-kitt", label:"Portrait: Kennerly Kitt (SP1w2) – her identical twin sister"},
+        {route:"beruehmte-enya", label:"Portrait: Enya (SP4w3) – same subtype with the same wing"},
+        {route:"beruehmte-adele", label:"Portrait: Adele (SP4w3)"},
       ])}
     </div>
   `);
@@ -3649,7 +3649,7 @@ export function brunoGroeningPortraitPage() {
         {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
         {route:"beruehmte-samuel-hahnemann", label:"Portrait: Dr. Samuel Hahnemann (SO1w9) – same subtype, founder of a healing system of his own"},
         {route:"beruehmte-werner-ablass", label:"Portrait: Werner Ablass (SX1w2) – teacher with a similar Two-wing"},
-        {route:"beruehmte-joel-goldsmith", label:"Portrait: Joel S. Goldsmith (SE7w6)"},
+        {route:"beruehmte-joel-goldsmith", label:"Portrait: Joel S. Goldsmith (SP7w6)"},
         {route:"beruehmte-maria-treben", label:"Portrait: Maria Treben (SO9w1)"},
       ])}
     </div>
@@ -3666,7 +3666,7 @@ export function joelGoldsmithPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-joel-goldsmith-portrait.jpg" alt="Joel S. Goldsmith – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-joel-goldsmith-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Joel S. Goldsmith</p>
-        <p class="krim-portrait-typ">SE7w6 &middot; Self-Preservation Type 7 with a Six-Wing</p>
+        <p class="krim-portrait-typ">SP7w6 &middot; Self-Preservation Type 7 with a Six-Wing</p>
         <p class="krim-portrait-subtitle">American spiritual teacher, healer and mystic, 1892&ndash;1964 &ndash; Animal match: Gorilla</p>
       </div>
       <div class="page-content">
@@ -3703,7 +3703,7 @@ export function joelGoldsmithPortraitPage() {
 
         <h2 class="vb-section">6. Three Forms of Closeness: Goldsmith, King and Gröning</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-larry-king">Larry King</a> (SE7w6), Goldsmith shares the subtype: both created closeness as a profession, King in the television interview, Goldsmith in the stillness of teaching, and both joined the open with a fixed, reliable rhythm. The difference lies in the place: King appeared before millions, Goldsmith stayed in the small circle.</p>
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-larry-king">Larry King</a> (SP7w6), Goldsmith shares the subtype: both created closeness as a profession, King in the television interview, Goldsmith in the stillness of teaching, and both joined the open with a fixed, reliable rhythm. The difference lies in the place: King appeared before millions, Goldsmith stayed in the small circle.</p>
           <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-bruno-groening">Bruno Gröning</a> (SO1w2) also addressed people in need, but he built an organisation with the Gröning-Bund and appearances before crowds and came into conflict with the authorities. Goldsmith as a self-preservation Seven stayed with the small, mobile form without organisation and without the claim to change the order of the community.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -3713,9 +3713,9 @@ export function joelGoldsmithPortraitPage() {
       </div>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se7", label:"SE7 – The Gorilla: Subtype Profile"},
-        {route:"lebensmusterkompass/se7", label:"Life Pattern Compass: SE7 – Gorilla"},
-        {route:"beruehmte-larry-king", label:"Portrait: Larry King (SE7w6) – same subtype, closeness as a profession"},
+        {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
+        {route:"lebensmusterkompass/se7", label:"Life Pattern Compass: SP7 – Gorilla"},
+        {route:"beruehmte-larry-king", label:"Portrait: Larry King (SP7w6) – same subtype, closeness as a profession"},
         {route:"beruehmte-bruno-groening", label:"Portrait: Bruno Gröning (SO1w2) – healing preacher with an organisation of his own"},
       ])}
     </div>
@@ -3798,7 +3798,7 @@ export function susanPolgarPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-susan-polgar-portrait.jpg" alt="Susan Polgár – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-susan-polgar-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Susan Polgár</p>
-        <p class="krim-portrait-typ">SE3w2 &middot; Self-Preservation Type 3 with a Two-Wing</p>
+        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with a Two-Wing</p>
         <p class="krim-portrait-subtitle">Hungarian-American chess grandmaster, b. 1969 in Budapest &ndash; Animal match: Raccoon</p>
       </div>
       <div class="page-content">
@@ -3811,7 +3811,7 @@ export function susanPolgarPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Three: Skill Instead of Shining</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to Naranjo, the <strong>self-preservation Three (SE3)</strong> is the Three who does not put her achievement on display: she builds security through skill, work and reliability, not through performance. In Polgár this shows in the thoroughness with which she learned chess and teaches it. Her father, by the accounts, held the conviction that genius can be learned through early, intensive practice, and the three daughters grew up in this programme. Susan made a life of preparation out of it.</p>
+          <p class="vb-intro">According to Naranjo, the <strong>self-preservation Three (SP3)</strong> is the Three who does not put her achievement on display: she builds security through skill, work and reliability, not through performance. In Polgár this shows in the thoroughness with which she learned chess and teaches it. Her father, by the accounts, held the conviction that genius can be learned through early, intensive practice, and the three daughters grew up in this programme. Susan made a life of preparation out of it.</p>
           <p class="vb-intro">In 1991 she earned the title of grandmaster. By one account she was the first woman to reach it by the regular route of norms rather than through a women's world championship; other sources count her as the third woman with the title, depending on how one assesses the earlier cases. The figures speak for themselves: from 1996 to 1999 she was women's world champion, and with the Hungarian women's team she won Olympiad gold in 1988 and 1990, with more than ten medals in all.</p>
         </blockquote>
 
@@ -3835,8 +3835,8 @@ export function susanPolgarPortraitPage() {
 
         <h2 class="vb-section">6. Three Sisters and Achievement: Susan, Judit and Sofia</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">With her younger sister <a href="javascript:void(0)" data-route="beruehmte-judit-polgar">Judit Polgár</a> (SE3w4), Susan shares the subtype and the same parental home, but the wing differs: Judit with the Four-wing goes more toward the individual and artistic side of her play, Susan with the Two-wing toward passing on and fostering. The two sisters show how the same subtype under the same conditions can develop two different handwritings. The middle sister <a href="javascript:void(0)" data-route="beruehmte-sofia-polgar">Sofia Polgár</a> (SE7w6) took a third path with the same upbringing: she turned from tournaments to art.</p>
-          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-andre-agassi">Andre Agassi</a> (SE3w2) also joins achievement and passing on: like Polgár he came from a strict training shaped by his father and later founded institutions for education. Both made out of what they had suffered or learned as children a service to others.</p>
+          <p class="vb-intro">With her younger sister <a href="javascript:void(0)" data-route="beruehmte-judit-polgar">Judit Polgár</a> (SP3w4), Susan shares the subtype and the same parental home, but the wing differs: Judit with the Four-wing goes more toward the individual and artistic side of her play, Susan with the Two-wing toward passing on and fostering. The two sisters show how the same subtype under the same conditions can develop two different handwritings. The middle sister <a href="javascript:void(0)" data-route="beruehmte-sofia-polgar">Sofia Polgár</a> (SP7w6) took a third path with the same upbringing: she turned from tournaments to art.</p>
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-andre-agassi">Andre Agassi</a> (SP3w2) also joins achievement and passing on: like Polgár he came from a strict training shaped by his father and later founded institutions for education. Both made out of what they had suffered or learned as children a service to others.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
@@ -3845,11 +3845,11 @@ export function susanPolgarPortraitPage() {
       </div>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
-        {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SE3 – Raccoon"},
-        {route:"beruehmte-judit-polgar", label:"Portrait: Judit Polgár (SE3w4) – sister, same subtype with a different wing"},
-        {route:"beruehmte-andre-agassi", label:"Portrait: Andre Agassi (SE3w2) – top athlete, later patron of education"},
-        {route:"beruehmte-sofia-polgar", label:"Portrait: Sofia Polgár (SE7w6) – middle sister, different subtype"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SP3 – Raccoon"},
+        {route:"beruehmte-judit-polgar", label:"Portrait: Judit Polgár (SP3w4) – sister, same subtype with a different wing"},
+        {route:"beruehmte-andre-agassi", label:"Portrait: Andre Agassi (SP3w2) – top athlete, later patron of education"},
+        {route:"beruehmte-sofia-polgar", label:"Portrait: Sofia Polgár (SP7w6) – middle sister, different subtype"},
       ])}
     </div>
   `);
@@ -3903,7 +3903,7 @@ export function jensRiewaPortraitPage() {
         <h2 class="vb-section">6. Three Faces of Reliability: Riewa, Hanks and Will</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-tom-hanks">Tom Hanks</a> (SO9w1), Riewa shares the subtype: both stand for reliability, both have a calming effect on the audience, and both combine a calm basic attitude with the One-wing that watches quality. Hanks does it as an actor, Riewa as the voice of the news.</p>
-          <p class="vb-intro">A counter-image is <a href="javascript:void(0)" data-route="beruehmte-anne-will">Anne Will</a> (SE1w2): she too presented for the ARD, but as a self-preservation One with a Two-wing the exact, probing engagement stood in the foreground, in Riewa as a social Nine it is the calm presence for the community.</p>
+          <p class="vb-intro">A counter-image is <a href="javascript:void(0)" data-route="beruehmte-anne-will">Anne Will</a> (SP1w2): she too presented for the ARD, but as a self-preservation One with a Two-wing the exact, probing engagement stood in the foreground, in Riewa as a social Nine it is the calm presence for the community.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
@@ -3915,7 +3915,7 @@ export function jensRiewaPortraitPage() {
         {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
         {route:"lebensmusterkompass/so9", label:"Life Pattern Compass: SO9 – Buffalo"},
         {route:"beruehmte-tom-hanks", label:"Portrait: Tom Hanks (SO9w1) – same subtype, reliability as a trademark"},
-        {route:"beruehmte-anne-will", label:"Portrait: Anne Will (SE1w2) – presenter, different subtype"},
+        {route:"beruehmte-anne-will", label:"Portrait: Anne Will (SP1w2) – presenter, different subtype"},
         {route:"beruehmte-dieter-thomas-heck", label:"Portrait: Dieter Thomas Heck (SO9w1)"},
         {route:"beruehmte-hans-sigl", label:"Portrait: Hans Sigl (SO9w1)"},
       ])}
@@ -4199,7 +4199,7 @@ export function sofiaPolgarPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sofia-polgar-portrait.jpg" alt="Sofia Polgár – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-sofia-polgar-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Sofia Polgár</p>
-        <p class="krim-portrait-typ">SE7w6 &middot; Self-Preservation Type 7 with a Six-Wing</p>
+        <p class="krim-portrait-typ">SP7w6 &middot; Self-Preservation Type 7 with a Six-Wing</p>
         <p class="krim-portrait-subtitle">Hungarian-Israeli chess International Master and painter, b. 1974 in Budapest &ndash; Animal match: Gorilla</p>
       </div>
       <div class="page-content">
@@ -4236,8 +4236,8 @@ export function sofiaPolgarPortraitPage() {
 
         <h2 class="vb-section">6. Three Sisters, Three Paths: Susan, Judit and Sofia</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The same upbringing, three different people: <a href="javascript:void(0)" data-route="beruehmte-susan-polgar">Susan Polgár</a> (SE3w2) made chess a career of titles and records and passed it on as a promoter, <a href="javascript:void(0)" data-route="beruehmte-judit-polgar">Judit Polgár</a> (SE3w4) became the strongest player in chess history, and Sofia, with the same gift, turned to play and art. The two elder are self-preservation Threes with different wings, Sofia a self-preservation Seven: the parental home shaped the chess, but not the subtype.</p>
-          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-larry-king">Larry King</a> (SE7w6) she shares the subtype: both built a circle of trust, King in conversation before the camera, Sofia in the family and in the picture.</p>
+          <p class="vb-intro">The same upbringing, three different people: <a href="javascript:void(0)" data-route="beruehmte-susan-polgar">Susan Polgár</a> (SP3w2) made chess a career of titles and records and passed it on as a promoter, <a href="javascript:void(0)" data-route="beruehmte-judit-polgar">Judit Polgár</a> (SP3w4) became the strongest player in chess history, and Sofia, with the same gift, turned to play and art. The two elder are self-preservation Threes with different wings, Sofia a self-preservation Seven: the parental home shaped the chess, but not the subtype.</p>
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-larry-king">Larry King</a> (SP7w6) she shares the subtype: both built a circle of trust, King in conversation before the camera, Sofia in the family and in the picture.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
@@ -4246,11 +4246,11 @@ export function sofiaPolgarPortraitPage() {
       </div>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se7", label:"SE7 – The Gorilla: Subtype Profile"},
-        {route:"lebensmusterkompass/se7", label:"Life Pattern Compass: SE7 – Gorilla"},
-        {route:"beruehmte-susan-polgar", label:"Portrait: Susan Polgár (SE3w2) – eldest sister, different subtype"},
-        {route:"beruehmte-judit-polgar", label:"Portrait: Judit Polgár (SE3w4) – youngest sister, different subtype"},
-        {route:"beruehmte-larry-king", label:"Portrait: Larry King (SE7w6) – same subtype, closeness as a profession"},
+        {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
+        {route:"lebensmusterkompass/se7", label:"Life Pattern Compass: SP7 – Gorilla"},
+        {route:"beruehmte-susan-polgar", label:"Portrait: Susan Polgár (SP3w2) – eldest sister, different subtype"},
+        {route:"beruehmte-judit-polgar", label:"Portrait: Judit Polgár (SP3w4) – youngest sister, different subtype"},
+        {route:"beruehmte-larry-king", label:"Portrait: Larry King (SP7w6) – same subtype, closeness as a profession"},
       ])}
     </div>
   `);
@@ -4400,7 +4400,7 @@ export function lukeNicholsPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-luke-nichols-portrait.jpg" alt="Luke Nichols – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-luke-nichols-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Luke Nichols</p>
-        <p class="krim-portrait-typ">SE6w5 &middot; Self-Preservation Type 6 with a Five-Wing</p>
+        <p class="krim-portrait-typ">SP6w5 &middot; Self-Preservation Type 6 with a Five-Wing</p>
         <p class="krim-portrait-subtitle">American outdoor creator ('Outdoor Boys'), born in Alaska &ndash; Animal match: Rabbit</p>
       </div>
       <div class="page-content">
@@ -4437,8 +4437,8 @@ export function lukeNicholsPortraitPage() {
 
         <h2 class="vb-section">6. Three Rabbits with a Five-Wing: Nichols, Schubert and Pichai</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-franz-schubert">Franz Schubert</a> (SE6w5), Nichols shares the subtype and the preference for the small circle: Schubert created his music in the circle of friends of the 'Schubertiads', Nichols his videos in the circle of the family. Both preferred the closeness of confidants to the big stage.</p>
-          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-sundar-pichai">Sundar Pichai</a> (SE6w5) also shows the reliability of the self-preservation Six with a Five-wing, only in a completely different field: Pichai leads a global company with calm and planning, Nichols built a family channel.</p>
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-franz-schubert">Franz Schubert</a> (SP6w5), Nichols shares the subtype and the preference for the small circle: Schubert created his music in the circle of friends of the 'Schubertiads', Nichols his videos in the circle of the family. Both preferred the closeness of confidants to the big stage.</p>
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-sundar-pichai">Sundar Pichai</a> (SP6w5) also shows the reliability of the self-preservation Six with a Five-wing, only in a completely different field: Pichai leads a global company with calm and planning, Nichols built a family channel.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
@@ -4447,10 +4447,10 @@ export function lukeNicholsPortraitPage() {
       </div>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
-        {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SE6 – Rabbit"},
-        {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SE6w5) – same subtype, protection in a small circle of friends"},
-        {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SE6w5) – same subtype, reliability under pressure"},
+        {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
+        {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SP6 – Rabbit"},
+        {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SP6w5) – same subtype, protection in a small circle of friends"},
+        {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SP6w5) – same subtype, reliability under pressure"},
       ])}
     </div>
   `);

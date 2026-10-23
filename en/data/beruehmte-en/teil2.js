@@ -90,7 +90,7 @@ export function gordonRamsayPortraitPage() {
 
         <h2 class="vb-section">2. The Sexual Three: Performance as an Intense, Public Spectacle</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>sexual Three (SX3)</strong> seeks validation not through quiet, repeatable reliability like the SE3, but through intense, often dramatically heightened attention and direct comparison – being the best, felt unmistakably, in the immediate encounter. After training under Marco Pierre White and Albert Roux in London, then under Guy Savoy and Joël Robuchon in France, Ramsay took over the kitchen at London's Aubergine restaurant in 1993, earning it two Michelin stars within a few years. In 1998 he opened his own restaurant, which received its third star within three years.</p>
+          <p class="vb-intro">The <strong>sexual Three (SX3)</strong> seeks validation not through quiet, repeatable reliability like the SP3, but through intense, often dramatically heightened attention and direct comparison – being the best, felt unmistakably, in the immediate encounter. After training under Marco Pierre White and Albert Roux in London, then under Guy Savoy and Joël Robuchon in France, Ramsay took over the kitchen at London's Aubergine restaurant in 1993, earning it two Michelin stars within a few years. In 1998 he opened his own restaurant, which received its third star within three years.</p>
           <p class="vb-intro">From this professional foundation, he became the face of formats like "Hell's Kitchen" and "Kitchen Nightmares" – shows whose core isn't detached evaluation, but direct, loud, personal confrontation with individual chefs and owners on camera. That is pure SX3 handwriting: performance isn't delivered quietly, but played out in the immediate, often heated encounter. A striking parallel appears in <a href="javascript:void(0)" data-route="beruehmte-dieter-bohlen">Dieter Bohlen (SX3w4)</a>: he built his own public role as an unsparing judge on the German talent show DSDS on exactly the same principle – evaluation not as detached verdict, but as loud, direct confrontation on camera.</p>
         </blockquote>
 
@@ -131,7 +131,7 @@ export function gordonRamsayPortraitPage() {
         {route:"beruehmte-dieter-bohlen", label:"Portrait: Dieter Bohlen (SX3w4)"},
         {route:"beruehmte-michael-mina", label:"Portrait: Michael Mina (SP3w2)"},
         {route:"beruehmte-paul-bocuse", label:"Portrait: Paul Bocuse (SP3w4)"},
-        {route:"beruehmte-johann-lafer", label:"Portrait: Johann Lafer (SE7w8)"},
+        {route:"beruehmte-johann-lafer", label:"Portrait: Johann Lafer (SP7w8)"},
         {route:"beruehmte-steffen-henssler", label:"Portrait: Steffen Henssler (SO7w6)"},
       ])}
     </div>
@@ -173,7 +173,7 @@ export function cocoChanelPortraitPage() {
 
         <h2 class="vb-section">4. Controversy: collaboration and an Aryanization attempt in occupied Paris</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">During the German occupation of Paris, Chanel lived at the Hôtel Ritz, a hub for German officers, and maintained a years-long relationship with Hans Günther von Dincklage, an officer of German military intelligence. In 1943 she became involved in "Operation Modellhut" – an intelligence effort to use her personal acquaintance with <a href="javascript:void(0)" data-route="beruehmte-winston-churchill">Winston Churchill</a> (SE8w9) to relay a separate-peace overture from SS officers to Britain, which collapsed when an associate denounced her.</p>
+          <p class="vb-intro">During the German occupation of Paris, Chanel lived at the Hôtel Ritz, a hub for German officers, and maintained a years-long relationship with Hans Günther von Dincklage, an officer of German military intelligence. In 1943 she became involved in "Operation Modellhut" – an intelligence effort to use her personal acquaintance with <a href="javascript:void(0)" data-route="beruehmte-winston-churchill">Winston Churchill</a> (SP8w9) to relay a separate-peace overture from SS officers to Britain, which collapsed when an associate denounced her.</p>
           <p class="vb-intro">In 1941 she also attempted to use Nazi Aryanization laws to strip her Jewish business partners, the Wertheimer brothers, of full control over Parfums Chanel and thus over her own perfume No. 5 – she failed only because the Wertheimers had pre-emptively transferred their stake to a Christian associate. After the war she went into exile in Switzerland for roughly a decade, likely escaping formal prosecution partly thanks to Churchill's intervention, before relaunching her fashion house in 1954.</p>
         </blockquote>
 
@@ -195,9 +195,9 @@ export function cocoChanelPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype profile"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype profile"},
         {route:"beruehmte-madame-tussaud", label:"Portrait: Madame Tussaud (SP3w4)"},
-        {route:"beruehmte-winston-churchill", label:"Portrait: Winston Churchill (SE8w9)"},
+        {route:"beruehmte-winston-churchill", label:"Portrait: Winston Churchill (SP8w9)"},
       ])}
     </div>
   `);
@@ -260,7 +260,7 @@ export function aylinTezelPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype profile"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype profile"},
         {route:"beruehmte-audrey-tautou", label:"Portrait: Audrey Tautou (SP3w2)"},
         {route:"beruehmte-penelope-cruz", label:"Portrait: Penélope Cruz (SP3w2)"},
       ])}
@@ -392,7 +392,7 @@ export function oliverKahnPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype profile"},
-        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SE1w9)"},
+        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SP1w9)"},
       ])}
     </div>
   `);
@@ -721,7 +721,7 @@ export function abidaParveenPortraitPage() {
         {route:"subtype/se9", label:"SP9 – The Elephant: Subtype Profile"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SP9w8)"},
         {route:"beruehmte-margaret-rutherford", label:"Portrait: Margaret Rutherford (SP9w8)"},
-        {route:"beruehmte-charles-laughton", label:"Portrait: Charles Laughton (SE9w8)"},
+        {route:"beruehmte-charles-laughton", label:"Portrait: Charles Laughton (SP9w8)"},
       ])}
     </div>
   `);
@@ -737,7 +737,7 @@ export function andreAgassiPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-andre-agassi-portrait.jpg" alt="Andre Agassi" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Andre Agassi</p>
-        <p class="krim-portrait-typ">SE3w2 &middot; Self-Preservation Type 3 with Two-wing</p>
+        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with Two-wing</p>
         <p class="krim-portrait-subtitle">Tennis player, 8-time Grand Slam champion, b. 1970 &ndash; Animal correspondence: Raccoon</p>
       </div>
       <div class="page-content">
@@ -786,8 +786,8 @@ export function andreAgassiPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1) – his wife"},
         {route:"beruehmte-tim-maelzer", label:"Portrait: Tim Mälzer (SP3w2)"},
-        {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SE3w2)"},
-        {route:"beruehmte-susan-polgar", label:"Portrait: Susan Polgár (SE3w2)"},
+        {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SP3w2)"},
+        {route:"beruehmte-susan-polgar", label:"Portrait: Susan Polgár (SP3w2)"},
         {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
         {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SP3 – The Raccoon"},
       ])}
@@ -853,7 +853,7 @@ export function beatriceChebetPortraitPage() {
         {route:"beruehmte-woody-allen", label:"Portrait: Woody Allen (SP6w7)"},
         {route:"beruehmte-katie-couric", label:"Portrait: Katie Couric (SP6w7)"},
         {route:"beruehmte-raul-aguayo-krauthausen", label:"Portrait: Raúl Aguayo-Krauthausen (SP6w7)"},
-        {route:"beruehmte-heiko-maas", label:"Portrait: Heiko Maas (SE6w7)"},
+        {route:"beruehmte-heiko-maas", label:"Portrait: Heiko Maas (SP6w7)"},
       ])}
     </div>
   `);
@@ -869,7 +869,7 @@ export function camilleFritschPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-camille-fritsch-portrait.jpg" alt="Dr. Camille Fritsch – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Camille Fritsch</p>
-        <p class="krim-portrait-typ">SE2w1 &middot; Self-Preservation Type 2 with One-wing</p>
+        <p class="krim-portrait-typ">SP2w1 &middot; Self-Preservation Type 2 with One-wing</p>
         <p class="krim-portrait-subtitle">Wildlife biologist &ndash; leading hippopotamus researcher, IUCN Hippo Specialist Group &ndash; Animal correspondence: Hippopotamus</p>
       </div>
       <div class="page-content">
@@ -882,14 +882,14 @@ export function camilleFritschPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Two: Closeness Through Practical Help</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to Naranjo, the <strong>self-preservation Two (SE2)</strong> secures closeness and belonging not through seduction (as the sexual Two does) or through social recognition (as the social Two does), but through what Naranjo called <em>Privilege</em>: making oneself indispensable through very practical helping, providing, enabling &ndash; and thereby securing a privileged place in others' lives. Fritsch, raised in California with a childhood dream of becoming a wildlife biologist in South Africa, spent more than a decade on research and conservation projects on hippos, crocodiles, and crowned eagles in KwaZulu-Natal and Kruger National Park.</p>
-          <p class="vb-intro">Rather than positioning himself as a distant lone expert, he founded <em>Imvubu Safaris</em> &ndash; named after the Zulu word for hippopotamus &ndash; offering personal, exclusive field guiding where guests get direct access to his research and to the animals themselves. This is SE2 in its purest form: not the distance of pure science, but personal, immediate service to the other &ndash; a privileged, very direct access that is earned through closeness.</p>
+          <p class="vb-intro">According to Naranjo, the <strong>self-preservation Two (SP2)</strong> secures closeness and belonging not through seduction (as the sexual Two does) or through social recognition (as the social Two does), but through what Naranjo called <em>Privilege</em>: making oneself indispensable through very practical helping, providing, enabling &ndash; and thereby securing a privileged place in others' lives. Fritsch, raised in California with a childhood dream of becoming a wildlife biologist in South Africa, spent more than a decade on research and conservation projects on hippos, crocodiles, and crowned eagles in KwaZulu-Natal and Kruger National Park.</p>
+          <p class="vb-intro">Rather than positioning himself as a distant lone expert, he founded <em>Imvubu Safaris</em> &ndash; named after the Zulu word for hippopotamus &ndash; offering personal, exclusive field guiding where guests get direct access to his research and to the animals themselves. This is SP2 in its purest form: not the distance of pure science, but personal, immediate service to the other &ndash; a privileged, very direct access that is earned through closeness.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The One-Wing: Scientific Rigor as Foundation</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">An SE2 with a more pronounced Three-wing would likely have staged its helpfulness more visibly, with a focus on public recognition and success. In Fritsch, a serious methodological rigor shows instead: he is an active member of the <em>IUCN SSC Hippo Specialist Group</em>, uses drone technology and radio tracking to gather precise ecological and behavioral data, and studies the role of hippos as ecosystem engineers both in water and on land.</p>
-          <p class="vb-intro">This combination of warm, personal closeness and scientific precision is the SE2w1 in its characteristic form: the Two supplies the motivation to serve others &ndash; people and animals alike; the One-wing ensures that this help is methodically grounded rather than merely well-intentioned.</p>
+          <p class="vb-intro">An SP2 with a more pronounced Three-wing would likely have staged its helpfulness more visibly, with a focus on public recognition and success. In Fritsch, a serious methodological rigor shows instead: he is an active member of the <em>IUCN SSC Hippo Specialist Group</em>, uses drone technology and radio tracking to gather precise ecological and behavioral data, and studies the role of hippos as ecosystem engineers both in water and on land.</p>
+          <p class="vb-intro">This combination of warm, personal closeness and scientific precision is the SP2w1 in its characteristic form: the Two supplies the motivation to serve others &ndash; people and animals alike; the One-wing ensures that this help is methodically grounded rather than merely well-intentioned.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Relationship Over Solo Achievement: The Network as Research Principle</h2>
@@ -911,8 +911,8 @@ export function camilleFritschPortraitPage() {
 
         ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
-        {route:"beruehmte-jj-liu", label:"Portrait: J. J. Liu (SE2w1)"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-jj-liu", label:"Portrait: J. J. Liu (SP2w1)"},
         ])}
         ${animalResearcherMatchBlock("beruehmte-camille-fritsch")}
       </div>
@@ -1019,26 +1019,26 @@ export function dianFosseyPortraitPage() {
 
         <h2 class="vb-section">2. The self-preservation Seven: Security in a self-chosen territory</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to Naranjo, the self-preservation Seven (SE7) is the most grounded of the three Seven subtypes – no restless wanderlust, no need for a public stage, but the need to create a reliable microcosm of one's own in which one is completely at home. Fossey deliberately chose extreme seclusion: she built the Karisoke Research Center in the Rwandan Virunga Mountains, far from any civilization, and stayed there for nearly two decades with only minimal human contact.</p>
-          <p class="vb-intro">Within this self-created framework, she built a firm, family-like structure – a team of loyal trackers and assistants, a familiarity with individual gorilla families grown over years, above all with the young male gorilla Digit, to whom she developed an extraordinarily close bond. This is the SE7 in its purest form: security not through public recognition, but through a self-controlled, familiar territory complete with its own "family".</p>
+          <p class="vb-intro">According to Naranjo, the self-preservation Seven (SP7) is the most grounded of the three Seven subtypes – no restless wanderlust, no need for a public stage, but the need to create a reliable microcosm of one's own in which one is completely at home. Fossey deliberately chose extreme seclusion: she built the Karisoke Research Center in the Rwandan Virunga Mountains, far from any civilization, and stayed there for nearly two decades with only minimal human contact.</p>
+          <p class="vb-intro">Within this self-created framework, she built a firm, family-like structure – a team of loyal trackers and assistants, a familiarity with individual gorilla families grown over years, above all with the young male gorilla Digit, to whom she developed an extraordinarily close bond. This is the SP7 in its purest form: security not through public recognition, but through a self-controlled, familiar territory complete with its own "family".</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Eight wing: When defense becomes retribution</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">An SE7 with a more muted Eight wing would likely have responded to poachers threatening her territory with avoidance or negotiation. In Fossey's case, an uncompromising hardness emerged instead whenever her territory or her gorillas were attacked: when poachers killed Digit in 1977, she launched an increasingly fierce anti-poaching campaign – having poachers' huts burned down, placing bounties on their heads, and resorting to methods considered radical even among conservationists.</p>
+          <p class="vb-intro">An SP7 with a more muted Eight wing would likely have responded to poachers threatening her territory with avoidance or negotiation. In Fossey's case, an uncompromising hardness emerged instead whenever her territory or her gorillas were attacked: when poachers killed Digit in 1977, she launched an increasingly fierce anti-poaching campaign – having poachers' huts burned down, placing bounties on their heads, and resorting to methods considered radical even among conservationists.</p>
           <p class="vb-intro">Important for the correct classification: this was not the exercise of power for its own sake, as one might expect from a pure Eight, but pure defense of her own territory and her own "family". Contemporaries described her as warm toward those she trusted, but merciless toward anything that threatened her gorillas – exactly the pattern already seen in Andreas Baader's "hidden Eight": the Seven withdraws into her secure territory, but when that territory is attacked, she strikes back without hesitation.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The growing isolation</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The longer Fossey lived in the mountains, the more suspicious and withdrawn she became toward people, including colleagues and the local population. Her relationship with the surrounding communities deteriorated increasingly as she pursued anti-poaching efforts more decisively. This growing isolation is a typical downside of the SE7 under pressure: her own zone of security is defined ever more narrowly, until almost no one fits inside it except her closest confidants and the animals themselves.</p>
+          <p class="vb-intro">The longer Fossey lived in the mountains, the more suspicious and withdrawn she became toward people, including colleagues and the local population. Her relationship with the surrounding communities deteriorated increasingly as she pursued anti-poaching efforts more decisively. This growing isolation is a typical downside of the SP7 under pressure: her own zone of security is defined ever more narrowly, until almost no one fits inside it except her closest confidants and the animals themselves.</p>
           <p class="vb-intro">In 1985 she was killed with a machete in her cabin at Karisoke. Her murder is still usually linked to her fierce fight against poachers, but it has never been officially solved.</p>
         </blockquote>
 
         <h2 class="vb-section">5. A legacy that survived</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Fossey's book "Gorillas in the Mist" (1983) and the film adaptation of the same name made the threat to mountain gorillas known worldwide. The Karisoke Research Center she founded still exists today, as does the international conservation effort for mountain gorillas, built substantially on her pioneering work. The mountain gorilla population, which was close to extinction during her lifetime, has since slowly recovered.</p>
-          <p class="vb-intro">This is the SE7w8 at its most effective: out of a personal, almost obsessive need for a territory of her own, a legacy emerged that reaches far beyond her own lifetime.</p>
+          <p class="vb-intro">This is the SP7w8 at its most effective: out of a personal, almost obsessive need for a territory of her own, a legacy emerged that reaches far beyond her own lifetime.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Gorilla that defended its territory to the end</h2>
@@ -1055,7 +1055,7 @@ export function dianFosseyPortraitPage() {
         ${relatedLinks([
         {route:"beruehmte-junko-tabei", label:"Portrait: Junko Tabei (SP7w6)"},
         {route:"kriminalpsychologie-andreas-baader", label:"Criminal Psychology: Andreas Baader (SP7w8)"},
-        {route:"beruehmte-franz-peter-tebartz-van-elst", label:"Portrait: Franz-Peter Tebartz-van Elst (SE7w8)"},
+        {route:"beruehmte-franz-peter-tebartz-van-elst", label:"Portrait: Franz-Peter Tebartz-van Elst (SP7w8)"},
         {route:"beruehmte-jane-goodall", label:"Portrait: Dr. Jane Goodall (SX9w1)"},
         ])}
         ${animalResearcherMatchBlock("beruehmte-dian-fossey")}
@@ -1124,7 +1124,7 @@ export function edwardSnowdenPortraitPage() {
         {route:"beruehmte-roman-polanski", label:"Portrait: Roman Polanski (SX5w6) – also decades spent fleeing"},
         {route:"beruehmte-louis-klamroth", label:"Portrait: Louis Klamroth (SX5w6) – the same breaking of protective distance for a single, significant connection"},
         {route:"beruehmte-bryan-johnson", label:"Portrait: Bryan Johnson (SX5w6)"},
-        {route:"beruehmte-herbert-kickl", label:"Portrait: Herbert Kickl (SE6w5)"},
+        {route:"beruehmte-herbert-kickl", label:"Portrait: Herbert Kickl (SP6w5)"},
         {route:"beruehmte-mark-zuckerberg", label:"Portrait: Mark Zuckerberg (SX5w6)"},
       ])}
     </div>
@@ -1141,7 +1141,7 @@ export function franzSchubertPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-franz-schubert-portrait.jpg" alt="Franz Schubert" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Franz Schubert</p>
-        <p class="krim-portrait-typ">SE6w5 &middot; Self-Preservation Type 6 with a Five-Wing</p>
+        <p class="krim-portrait-typ">SP6w5 &middot; Self-Preservation Type 6 with a Five-Wing</p>
         <p class="krim-portrait-subtitle">Austrian composer, 1797&ndash;1828 &ndash; Animal correspondence: Rabbit</p>
       </div>
       <div class="page-content">
@@ -1155,25 +1155,25 @@ export function franzSchubertPortraitPage() {
         <h2 class="vb-section">2. The Schubertiades: Warmth as a Way of Life</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Claudio Naranjo called Self-Preservation Type 6 <strong>warmth</strong> &ndash; because this subtype seeks safety not through confrontation, but through human closeness and belonging. This was the very core of Schubert's life: the so-called <em>Schubertiades</em>, private evenings among close friends, where he presented his newest songs and piano pieces before &ndash; if ever &ndash; a wider audience heard them.</p>
-          <p class="vb-intro">Unlike most great composers of his time, Schubert never seriously pursued a fixed position at court or in the church, which would have brought him financial security but also public exposure. Instead, he lived off the support of his circle of friends &ndash; poets, painters, singers, students &ndash; who fed him, housed him, and repeatedly caught him when he fell. For SE6, a reliable, warm circle of trusted people matters more than social rank or institutional financial security.</p>
+          <p class="vb-intro">Unlike most great composers of his time, Schubert never seriously pursued a fixed position at court or in the church, which would have brought him financial security but also public exposure. Instead, he lived off the support of his circle of friends &ndash; poets, painters, singers, students &ndash; who fed him, housed him, and repeatedly caught him when he fell. For SP6, a reliable, warm circle of trusted people matters more than social rank or institutional financial security.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Five-Wing: Depth Beneath the Melancholy</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Five-Wing (w5)</strong> gives the Self-Preservation Six analytical depth and the ability to bury itself in a musical idea until its every corner has been explored. SE6w5 seeks safety not only in people but also in fully penetrating its subject &ndash; and Schubert's work shows exactly this combination of emotional warmth and compositional rigor.</p>
+          <p class="vb-intro">The <strong>Five-Wing (w5)</strong> gives the Self-Preservation Six analytical depth and the ability to bury itself in a musical idea until its every corner has been explored. SP6w5 seeks safety not only in people but also in fully penetrating its subject &ndash; and Schubert's work shows exactly this combination of emotional warmth and compositional rigor.</p>
           <p class="vb-intro">In only about 15 years of active creative work, Schubert composed over 600 songs, nine symphonies, countless chamber works, piano sonatas, and masses &ndash; a sheer density of output that seems almost unimaginable for an introverted person who shunned the public eye. The Five-Wing turned the Six's vigilance into quiet, concentrated withdrawal-work: he sat at his desk night after night, often composing several songs in a single day, with no commission, no prospect of performance, driven purely by the inner compulsion to fully give shape to the music inside him.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Winterreise: Fear Becomes a Journey</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In 1822, Schubert most likely contracted syphilis &ndash; a diagnosis that, in the Vienna of his time, amounted to a death sentence delivered in installments. The illness, its painful treatments, and the awareness of his own mortality deeply marked the last six years of his life. In 1827 he set Wilhelm Müller's poem cycle <em>Winterreise</em> (Winter Journey) to music &ndash; 24 songs about a wanderer moving alone, freezing, and aimless through a winter landscape, abandoned by his beloved, abandoned almost by hope itself.</p>
-          <p class="vb-intro">For SE6, this is precisely the deepest conceivable threat: not battle, but the loss of every bond, the absence of any safe place. Schubert's friend Joseph von Spaun reported that the composer was "disturbed and agitated for a long time" while composing the songs, and told his closest friends: "Come and sing me these songs, then tell me how you felt while doing it." The circle of friends initially reacted with unease at the work's darkness &ndash; and it is precisely in this vulnerability, openly shared with the people he trusted, that the whole of SE6w5 lies: fear is not suppressed, but articulated in community, and thereby made bearable.</p>
+          <p class="vb-intro">For SP6, this is precisely the deepest conceivable threat: not battle, but the loss of every bond, the absence of any safe place. Schubert's friend Joseph von Spaun reported that the composer was "disturbed and agitated for a long time" while composing the songs, and told his closest friends: "Come and sing me these songs, then tell me how you felt while doing it." The circle of friends initially reacted with unease at the work's darkness &ndash; and it is precisely in this vulnerability, openly shared with the people he trusted, that the whole of SP6w5 lies: fear is not suppressed, but articulated in community, and thereby made bearable.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow: Belonging Against Isolation</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of SE6w5 is its capacity to draw <strong>emotional truthfulness</strong> from vulnerability, something that touches others immediately. Schubert's songs remain so powerful today because he did not artfully construct longing, fear, and comfort, but drew them from his own experience &ndash; the simple, direct melodic writing of his music strikes an emotional truth that needs no ornamentation.</p>
-          <p class="vb-intro">The shadow: the Six's passion is <strong>fear</strong>, and in SE6w5 it can discharge as social withdrawal, self-doubt, and an almost paralyzing shyness toward public recognition. In his lifetime, Schubert experienced only a fraction of the success his work deserved &ndash; many of his greatest compositions, including Symphony No. 9 (the "Great C major Symphony"), were never performed during his life. Rather than pursuing performances and publishers, he preferred to rely on his close network of friends, which could not truly increase his fame.</p>
+          <p class="vb-intro">The light of SP6w5 is its capacity to draw <strong>emotional truthfulness</strong> from vulnerability, something that touches others immediately. Schubert's songs remain so powerful today because he did not artfully construct longing, fear, and comfort, but drew them from his own experience &ndash; the simple, direct melodic writing of his music strikes an emotional truth that needs no ornamentation.</p>
+          <p class="vb-intro">The shadow: the Six's passion is <strong>fear</strong>, and in SP6w5 it can discharge as social withdrawal, self-doubt, and an almost paralyzing shyness toward public recognition. In his lifetime, Schubert experienced only a fraction of the success his work deserved &ndash; many of his greatest compositions, including Symphony No. 9 (the "Great C major Symphony"), were never performed during his life. Rather than pursuing performances and publishers, he preferred to rely on his close network of friends, which could not truly increase his fame.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Rabbit Who Turned Longing into Music</h2>
@@ -1186,19 +1186,19 @@ export function franzSchubertPortraitPage() {
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
-      <p class="vb-intro">His fatal illness, shared within his trusted circle at the Schubertiades, is picked up as an SE6w5 parallel in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-fjodor-dostojewski">Illness Portrait of Dostoevsky</a>.</p>
+      <p class="vb-intro">His fatal illness, shared within his trusted circle at the Schubertiades, is picked up as an SP6w5 parallel in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-fjodor-dostojewski">Illness Portrait of Dostoevsky</a>.</p>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se6", label:"SE6 \u2013 The Rabbit: Subtype Profile"},
+        {route:"subtype/se6", label:"SP6 \u2013 The Rabbit: Subtype Profile"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5) – whom Schubert revered throughout his life"},
         {route:"beruehmte-robert-schumann", label:"Portrait: Robert Schumann (SX7w8) – discovered Schubert's C major Symphony in 1839"},
-        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SE2w3) – whom Schubert revered throughout his life"},
-        {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fjodor Dostojewski (SE6w5)"},
-        {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SE6w5)"},
-        {route:"krankheitsportraets-fjodor-dostojewski", label:"Illness Portrait: Fjodor Dostoevsky (SE6w5)"},
+        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SP2w3) – whom Schubert revered throughout his life"},
+        {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fjodor Dostojewski (SP6w5)"},
+        {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SP6w5)"},
+        {route:"krankheitsportraets-fjodor-dostojewski", label:"Illness Portrait: Fjodor Dostoevsky (SP6w5)"},
         {route:"krankheitsportraets-franz-schubert", label:"Illness Portrait: Franz Schubert – Syphilis & Winterreise"},
-        {route:"beruehmte-luke-nichols", label:"Portrait: Luke Nichols (SE6w5)"},
-        {route:"beruehmte-milan-peschel", label:"Portrait: Milan Peschel (SE6w5)"},
+        {route:"beruehmte-luke-nichols", label:"Portrait: Luke Nichols (SP6w5)"},
+        {route:"beruehmte-milan-peschel", label:"Portrait: Milan Peschel (SP6w5)"},
       ])}
     </div>
   `);
@@ -1227,14 +1227,14 @@ export function ginaRinehartPortraitPage() {
 
         <h2 class="vb-section">2. The self-preservation Nine: Stability as a life's work</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to Naranjo, the self-preservation Nine (SE9) is the subtype he called Appetite – the tendency to settle into material security and comfort and to do whatever it takes to preserve that state. In Rinehart's case this does not show as personal luxury on display, but as a persistent securing and enlarging of the economic base – a life project that is never considered finished.</p>
+          <p class="vb-intro">According to Naranjo, the self-preservation Nine (SP9) is the subtype he called Appetite – the tendency to settle into material security and comfort and to do whatever it takes to preserve that state. In Rinehart's case this does not show as personal luxury on display, but as a persistent securing and enlarging of the economic base – a life project that is never considered finished.</p>
           <p class="vb-intro">Where other billionaires cultivate their image through media-savvy appearances, Rinehart is notably reserved in public self-presentation – and yet forceful when it comes to substance: taxes, mining rights, her own company. The Nine does not need the spotlight. She only needs to make sure the foundation holds.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Eight wing: When persistence becomes a fight</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A Nine with a weaker Eight wing would tend to avoid conflict. In Rinehart's case, the strongly developed Eight wing brings something else: the willingness to fight for years, at full intensity, whenever control over the company is questioned. In 2011, three of her four children – John Hancock, Bianca Rinehart, and for a time Hope Welker – sued her over the Hope Margaret Hancock Trust, a family trust set up by her father in 1988 that was meant to pay out to them at age 25. Rinehart sought to delay the payout until 2068, citing tax disadvantages.</p>
-          <p class="vb-intro">The legal battle dragged on for years, was fought out publicly in full bitterness, and only ended with a settlement in 2015. This is the SE9w8 under pressure: the Nine might have avoided or sat out the conflict. The Eight wing instead pushed for control to the very end – even against her own children, even at the cost of years of public exposure.</p>
+          <p class="vb-intro">The legal battle dragged on for years, was fought out publicly in full bitterness, and only ended with a settlement in 2015. This is the SP9w8 under pressure: the Nine might have avoided or sat out the conflict. The Eight wing instead pushed for control to the very end – even against her own children, even at the cost of years of public exposure.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Public confrontations: The portrait and the netball players</h2>
@@ -1259,9 +1259,9 @@ export function ginaRinehartPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-        {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
-        {route:"beruehmte-carmen-goglin", label:"Portrait: Carmen Goglin (SE9w8)"},
-        {route:"beruehmte-kevin-james", label:"Portrait: Kevin James (SE9w8)"},
+        {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SP9w8)"},
+        {route:"beruehmte-carmen-goglin", label:"Portrait: Carmen Goglin (SP9w8)"},
+        {route:"beruehmte-kevin-james", label:"Portrait: Kevin James (SP9w8)"},
         ])}
       </div>
     </div>
@@ -1344,7 +1344,7 @@ export function ingoZimmermannPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ingo-zimmermann-portrait.jpg" alt="Prof. Dr. Ingo Zimmermann – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Prof. Dr. Ingo Zimmermann</p>
-        <p class="krim-portrait-typ">SE5w4 &middot; Self-Preservation Type 5 with Four-wing</p>
+        <p class="krim-portrait-typ">SP5w4 &middot; Self-Preservation Type 5 with Four-wing</p>
         <p class="krim-portrait-subtitle">Professor, psychotherapist &ndash; Animal correspondence: Owl</p>
       </div>
       <div class="page-content">
@@ -1357,7 +1357,7 @@ export function ingoZimmermannPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Five: closeness and distance as a field of expertise</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Self-Preservation Five (SE5)</strong> lives its whole life with the question of how much closeness it can afford without losing its own inner order &ndash; it withdraws to protect its limited resources, but precisely because of this seeks forms of connection that remain controllable and safe. Zimmermann has made exactly this question his field of expertise: he explicitly justifies the therapeutic use of owls by their suitability for people with closeness issues, such as autistic or traumatized individuals.</p>
+          <p class="vb-intro">The <strong>Self-Preservation Five (SP5)</strong> lives its whole life with the question of how much closeness it can afford without losing its own inner order &ndash; it withdraws to protect its limited resources, but precisely because of this seeks forms of connection that remain controllable and safe. Zimmermann has made exactly this question his field of expertise: he explicitly justifies the therapeutic use of owls by their suitability for people with closeness issues, such as autistic or traumatized individuals.</p>
           <p class="vb-intro">His teaching method shows the same pattern: rather than banning distraction in the lecture hall, he deliberately redirects it &ndash; "the students are distracted by the owl and, at the same time, more centered," he says himself. Not loud intervention, but quiet, indirect guidance through a carefully chosen means: pure Five energy.</p>
         </blockquote>
 
@@ -1369,7 +1369,7 @@ export function ingoZimmermannPortraitPage() {
 
         <h2 class="vb-section">4. Light and shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE5w4 is its ability to turn <strong>its own, often unconscious self-recognition into a method that genuinely helps other people</strong> &ndash; Zimmermann's students demonstrably show more concentration and presence when Hugo is in the room, and his therapeutic work with owls specifically reaches people for whom conventional closeness is hard to bear.</p>
+          <p class="vb-intro">The light of the SP5w4 is its ability to turn <strong>its own, often unconscious self-recognition into a method that genuinely helps other people</strong> &ndash; Zimmermann's students demonstrably show more concentration and presence when Hugo is in the room, and his therapeutic work with owls specifically reaches people for whom conventional closeness is hard to bear.</p>
           <p class="vb-intro">The shadow of the Self-Preservation Five shows where controlled distance becomes the only access to real connection &ndash; where a person places their deepest trust in a single, carefully raised animal rather than in unfiltered closeness to other people. This is not a criticism, but the consistent flip side of the very same pattern that also makes him an unusually effective teacher and therapist.</p>
         </blockquote>
 
@@ -1387,10 +1387,10 @@ export function ingoZimmermannPortraitPage() {
       ${bookTip("archetypen-der-tiere-im-enneagramm", "The archetypal animals of the 9 types as an inner map – images that work instantly.", "Archetypen der Tiere im Enneagramm")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se5", label:"SE5 – The Owl: Subtype Profile"},
-        {route:"lebensmusterkompass/se5", label:"Life Pattern Compass: SE5 – Owl"},
-        {route:"beruehmte-carl-friedrich-gauss", label:"Portrait: Carl Friedrich Gauss (SE5w6)"},
-        {route:"beruehmte-franz-kafka", label:"Portrait: Franz Kafka (SE5w4)"},
+        {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
+        {route:"lebensmusterkompass/se5", label:"Life Pattern Compass: SP5 – Owl"},
+        {route:"beruehmte-carl-friedrich-gauss", label:"Portrait: Carl Friedrich Gauss (SP5w6)"},
+        {route:"beruehmte-franz-kafka", label:"Portrait: Franz Kafka (SP5w4)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-ingo-zimmermann")}
     </div>
@@ -1522,16 +1522,16 @@ export function josephHaydnPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SE2w3) – close friend and admired colleague"},
+        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SP2w3) – close friend and admired colleague"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5) – his brief student"},
-        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
-        {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SE3w2)"},
-        {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SE3w2)"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SP3w2)"},
+        {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SP3w2)"},
         {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SP3w2)"},
-        {route:"krankheitsportraets-joseph-haydn", label:"Illness Portrait: Joseph Haydn (SE3w2)"},
-        {route:"beruehmte-edita-gruberova", label:"Portrait: Edita Gruberová (SE3w2)"},
-        {route:"beruehmte-michael-dell", label:"Portrait: Michael Dell (SE3w2)"},
-        {route:"beruehmte-vincenzo-califano", label:"Portrait: Vincenzo Califano (SE3w2)"},
+        {route:"krankheitsportraets-joseph-haydn", label:"Illness Portrait: Joseph Haydn (SP3w2)"},
+        {route:"beruehmte-edita-gruberova", label:"Portrait: Edita Gruberová (SP3w2)"},
+        {route:"beruehmte-michael-dell", label:"Portrait: Michael Dell (SP3w2)"},
+        {route:"beruehmte-vincenzo-califano", label:"Portrait: Vincenzo Califano (SP3w2)"},
       ])}
     </div>
   `);
@@ -1595,7 +1595,7 @@ export function kevinCostnerPortraitPage() {
         {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1)"},
         {route:"beruehmte-tom-hanks", label:"Portrait: Tom Hanks (SO9w1)"},
         {route:"beruehmte-willy-brandt", label:"Portrait: Willy Brandt (SO9w8)"},
-        {route:"beruehmte-james-levine", label:"Portrait: James Levine (SE9w1)"},
+        {route:"beruehmte-james-levine", label:"Portrait: James Levine (SP9w1)"},
         {route:"beruehmte-dany-boon", label:"Portrait: Dany Boon (SO9w1)"},
         {route:"beruehmte-iga-swiatek", label:"Portrait: Iga Świątek (SX9w1)"},
         {route:"beruehmte-peter-falk", label:"Portrait: Peter Falk (SO9w1)"},
@@ -1701,9 +1701,9 @@ export function madameTussaudPortraitPage() {
           <p class="vb-intro">What began as a skill became, in her hands, a world enterprise: the brand "Madame Tussauds" exists today, nearly two hundred years after her death, in dozens of cities around the globe. This is no fluke, but the result of a woman who systematically turned practical skill into lasting security &ndash; the raccoon that turns a craft into a legacy.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. SE3: Survival Through Practical Achievement</h2>
+        <h2 class="vb-section">2. SP3: Survival Through Practical Achievement</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> is considered the counter-type of the Three: it seeks its worth not in public admiration, but in the quiet certainty of being needed and able to secure its own existence with its own hands. Where the social Three seeks the stage, the SE3 seeks function &ndash; what carries weight, even when no one applauds.</p>
+          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> is considered the counter-type of the Three: it seeks its worth not in public admiration, but in the quiet certainty of being needed and able to secure its own existence with its own hands. Where the social Three seeks the stage, the SP3 seeks function &ndash; what carries weight, even when no one applauds.</p>
           <p class="vb-intro">Nowhere does this show more dramatically than during the French Revolution. Tussaud, who had previously worked as an art tutor at the court of Louis XVI, herself came under suspicion and imprisonment during the Reign of Terror &ndash; tradition holds that her head was even shaved for the guillotine before an intervention saved her. To survive, she did the one pragmatic thing available: she placed her craft in service of the new rulers and made death masks of the executed &ndash; some of heads she herself had to retrieve from the piles of corpses beneath the guillotine, including, as she later wrote, the faces of Louis XVI and Marie Antoinette. No loyalty was stable enough to offer safety &ndash; only her own, indispensable skill.</p>
         </blockquote>
 
@@ -1722,7 +1722,7 @@ export function madameTussaudPortraitPage() {
         <h2 class="vb-section">5. Energetic Effect: Quiet, Tenacious Persistence</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Tussaud's effect was never that of a spotlight figure. In 1802 she left France with her collection of wax figures for England and toured Britain and Ireland for over thirty-three years &ndash; town by town, with heavy crates, often under the harshest travel conditions, separated from her husband who remained in France, alone with her two sons. Only in 1835, at age seventy-four, did she finally settle on Baker Street in London and found the first permanent museum.</p>
-          <p class="vb-intro">This decades-long, never spectacular but never flagging persistence is pure SE3 energy: no overnight breakthrough, but a long chain of practical decisions, each one aimed at securing continuation. She convinced through the quality of her work, not through personal self-promotion &ndash; a museum that carries her name to this day, though hardly anyone knows her face.</p>
+          <p class="vb-intro">This decades-long, never spectacular but never flagging persistence is pure SP3 energy: no overnight breakthrough, but a long chain of practical decisions, each one aimed at securing continuation. She convinced through the quality of her work, not through personal self-promotion &ndash; a museum that carries her name to this day, though hardly anyone knows her face.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Gift: A Craft That Outlasted Its Time</h2>
@@ -1737,11 +1737,11 @@ export function madameTussaudPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se3", label:"SE3 – The Raccoon: subtype profile"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: subtype profile"},
         {route:"beruehmte-osho", label:"Portrait: Osho (SP3w4)"},
         {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SP3w4)"},
         {route:"beruehmte-coco-chanel", label:"Portrait: Coco Chanel (SP3w4)"},
-        {route:"beruehmte-tony-shalhoub", label:"Portrait: Tony Shalhoub (SE3w4)"},
+        {route:"beruehmte-tony-shalhoub", label:"Portrait: Tony Shalhoub (SP3w4)"},
       ])}
     </div>
   `);
@@ -1925,7 +1925,7 @@ export function molierePortraitPage() {
         As author, director, actor, and theater manager all in one, he spent decades
         building a theater troupe that outlived him – social instinct in its purest form:
         energy flows into building and sustaining a community, not into the one intense
-        pair-bond as with the SX7, or into personal material security as with the SE7.</p>
+        pair-bond as with the SX7, or into personal material security as with the SP7.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -2134,14 +2134,14 @@ export function norahJonesPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
-        {route:"beruehmte-billie-lourd", label:"Portrait: Billie Lourd (SE3w4) – same subtype"},
+        {route:"beruehmte-billie-lourd", label:"Portrait: Billie Lourd (SP3w4) – same subtype"},
         {route:"beruehmte-penelope-cruz", label:"Portrait: Penélope Cruz (SP3w2)"},
         {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SP3w2)"},
         {route:"beruehmte-johnny-cash", label:"Portrait: Johnny Cash (SP3w4)"},
-        {route:"beruehmte-anna-netrebko", label:"Portrait: Anna Netrebko (SE3w4)"},
-        {route:"beruehmte-paul-bocuse", label:"Portrait: Paul Bocuse (SE3w4)"},
-        {route:"beruehmte-wim-thoelke", label:"Portrait: Wim Thoelke (SE3w4)"},
-        {route:"beruehmte-catherine-deneuve", label:"Portrait: Catherine Deneuve (SE3w4)"},
+        {route:"beruehmte-anna-netrebko", label:"Portrait: Anna Netrebko (SP3w4)"},
+        {route:"beruehmte-paul-bocuse", label:"Portrait: Paul Bocuse (SP3w4)"},
+        {route:"beruehmte-wim-thoelke", label:"Portrait: Wim Thoelke (SP3w4)"},
+        {route:"beruehmte-catherine-deneuve", label:"Portrait: Catherine Deneuve (SP3w4)"},
       ])}
     </div>
   `);
@@ -2310,7 +2310,7 @@ export function sterlingNorthPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sterling-north-portrait.jpg" alt="Sterling North – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Sterling North</p>
-        <p class="krim-portrait-typ">SE3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
+        <p class="krim-portrait-typ">SP3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
         <p class="krim-portrait-subtitle">Writer and literary critic, 1906&ndash;1974 &ndash; made the raccoon world-famous with »Rascal« &ndash; Animal correspondence: Raccoon</p>
       </div>
       <div class="page-content">
@@ -2323,20 +2323,20 @@ export function sterlingNorthPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Three: Competence over glamour</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Self-Preservation Three (SE3)</strong> is, according to Naranjo, the countertype of the Three: instead of self-staging and the spotlight, it shows modesty, groundedness, a deliberate avoidance of the limelight – while the energy and ambition of the Three underneath remain unchanged. Sterling North lived this pattern for decades: alongside his work as a book author, he worked for decades as a literary editor, among others at the Chicago Daily News and later at the New York Post – a position that had real influence on the American literary scene of his time, without his own name ever standing in the spotlight.</p>
-          <p class="vb-intro">His photos show this pattern too: the man at the desk with the Royal typewriter, surrounded by shelves full of books, doesn't look like a public figure, but like a quiet, hard-working craftsman of language. That is exactly where the quiet effectiveness of the SE3 lies – a system of discipline, competence, and steady work that carries for decades without ever advertising itself.</p>
+          <p class="vb-intro">The <strong>Self-Preservation Three (SP3)</strong> is, according to Naranjo, the countertype of the Three: instead of self-staging and the spotlight, it shows modesty, groundedness, a deliberate avoidance of the limelight – while the energy and ambition of the Three underneath remain unchanged. Sterling North lived this pattern for decades: alongside his work as a book author, he worked for decades as a literary editor, among others at the Chicago Daily News and later at the New York Post – a position that had real influence on the American literary scene of his time, without his own name ever standing in the spotlight.</p>
+          <p class="vb-intro">His photos show this pattern too: the man at the desk with the Royal typewriter, surrounded by shelves full of books, doesn't look like a public figure, but like a quiet, hard-working craftsman of language. That is exactly where the quiet effectiveness of the SP3 lies – a system of discipline, competence, and steady work that carries for decades without ever advertising itself.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Four-wing: The longing for the "better era"</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A Self-Preservation Three with a weaker Four-wing would probably have turned the same childhood memory into a sober, factual account. In Sterling North, a deep emotional and aesthetic sensitivity emerged instead, visible already in the subtitle of his best-known work: »A Memoir of a Better Era« – the memory of a better, irretrievable time. In it, North also processed the early death of his mother and growing up in a family that never quite found its way back together after that loss – a wistfulness that gives the book its literary depth and lifts it far beyond a mere animal story.</p>
-          <p class="vb-intro">The Four-wing also shows in how North shapes the farewell to Rascal at the end of the book: not as a triumph, but as a painful, consciously accepted loss – letting go of something loved because it is the right thing to do. This ability to transform melancholy into something lasting, artistically shaped, is the typical gift of the Four-wing in the otherwise so pragmatic, down-to-earth SE3.</p>
+          <p class="vb-intro">The Four-wing also shows in how North shapes the farewell to Rascal at the end of the book: not as a triumph, but as a painful, consciously accepted loss – letting go of something loved because it is the right thing to do. This ability to transform melancholy into something lasting, artistically shaped, is the typical gift of the Four-wing in the otherwise so pragmatic, down-to-earth SP3.</p>
         </blockquote>
 
         <h2 class="vb-section">4. A lifetime accompanied by raccoons</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What makes this portrait special: Sterling North remained connected to the raccoon not only in literature, but genuinely, for his entire life. Numerous private photos show him as an adult, later an old man, with real raccoons on his arm, on his shoulder, or on his head – fed, held, with evident real affection. This is no mere literary invention, but a person who maintained the bond from his childhood throughout his whole life.</p>
-          <p class="vb-intro">This constancy – the same passion across more than sixty years, from farm boy to old writer – is itself an SE3 pattern: an identity once found and proven does not get discarded again, but is tended and built upon over an entire lifetime, until an entire society (the »Sterling North Society«) grows out of it.</p>
+          <p class="vb-intro">This constancy – the same passion across more than sixty years, from farm boy to old writer – is itself an SP3 pattern: an identity once found and proven does not get discarded again, but is tended and built upon over an entire lifetime, until an entire society (the »Sterling North Society«) grows out of it.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The raccoon that shaped a whole generation</h2>
@@ -2422,12 +2422,12 @@ export function sterlingNorthPortraitPage() {
 
         ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se3", label:"SE3 – The Raccoon: subtype profile"},
-        {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SE3 – Raccoon"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: subtype profile"},
+        {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SP3 – Raccoon"},
         {route:"tierlexikon/se3", label:"Animal Lexicon: Raccoon"},
-        {route:"beruehmte-kathrin-bauerfeind", label:"Portrait: Kathrin Bauerfeind (SE3w4)"},
-        {route:"beruehmte-anna-anderson", label:"Portrait: Anna Anderson (SE3w4)"},
-        {route:"beruehmte-william-shakespeare", label:"Portrait: William Shakespeare (SE3w4)"},
+        {route:"beruehmte-kathrin-bauerfeind", label:"Portrait: Kathrin Bauerfeind (SP3w4)"},
+        {route:"beruehmte-anna-anderson", label:"Portrait: Anna Anderson (SP3w4)"},
+        {route:"beruehmte-william-shakespeare", label:"Portrait: William Shakespeare (SP3w4)"},
         ])}
       </div>
     </div>
@@ -2494,9 +2494,9 @@ export function timMaelzerPortraitPage() {
         {route:"beruehmte-andre-agassi", label:"Portrait: Andre Agassi (SP3w2)"},
         {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
         {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SP3 – The Raccoon"},
-        {route:"beruehmte-klara-von-assisi", label:"Portrait: Clare of Assisi (SE3w2)"},
+        {route:"beruehmte-klara-von-assisi", label:"Portrait: Clare of Assisi (SP3w2)"},
         {route:"beruehmte-steffen-henssler", label:"Portrait: Steffen Henssler (SO7w6) – Kitchen Impossible partner"},
-        {route:"beruehmte-johann-lafer", label:"Portrait: Johann Lafer (SE7w8)"},
+        {route:"beruehmte-johann-lafer", label:"Portrait: Johann Lafer (SP7w8)"},
       ])}
     </div>
   `);
@@ -2512,7 +2512,7 @@ export function wallaceShawnPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-wallace-shawn-portrait.jpg" alt="Wallace Shawn – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Wallace Shawn</p>
-        <p class="krim-portrait-typ">SE7w6 &middot; Self-Preservation Type 7 with Six-Wing</p>
+        <p class="krim-portrait-typ">SP7w6 &middot; Self-Preservation Type 7 with Six-Wing</p>
         <p class="krim-portrait-subtitle">Actor, playwright, essayist, b. 1943 in New York – Animal equivalent: Gorilla</p>
       </div>
       <div class="page-content">
@@ -2561,11 +2561,11 @@ export function wallaceShawnPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-        {route:"beruehmte-jasmin-paolini", label:"Portrait: Jasmin Paolini (SE7w6)"},
-        {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SE7w8)"},
+        {route:"beruehmte-jasmin-paolini", label:"Portrait: Jasmin Paolini (SP7w6)"},
+        {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SP7w8)"},
         {route:"beruehmte-boris-becker", label:"Portrait: Boris Becker (SX7w8)"},
-        {route:"beruehmte-larry-king", label:"Portrait: Larry King (SE7w6)"},
-        {route:"beruehmte-mariah-carey", label:"Portrait: Mariah Carey (SE7w8)"},
+        {route:"beruehmte-larry-king", label:"Portrait: Larry King (SP7w6)"},
+        {route:"beruehmte-mariah-carey", label:"Portrait: Mariah Carey (SP7w8)"},
         ])}
       </div>
     </div>
@@ -2582,7 +2582,7 @@ export function michaelDavidRosenbergPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michael-david-rosenberg-portrait.jpg" alt="Michael David Rosenberg (Passenger) – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Michael David Rosenberg (Passenger)</p>
-        <p class="krim-portrait-typ">SE4w3 &middot; Self-Preservation Type 4 with a Three Wing</p>
+        <p class="krim-portrait-typ">SP4w3 &middot; Self-Preservation Type 4 with a Three Wing</p>
         <p class="krim-portrait-subtitle">Musician and songwriter, born 1984 &ndash; Animal equivalent: Dove</p>
       </div>
       <div class="page-content">
@@ -2595,7 +2595,7 @@ export function michaelDavidRosenbergPortraitPage() {
 
         <h2 class="vb-section">2. Self-Preservation Four: Quiet Endurance Instead of Loud Drama</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to Naranjo, the <strong>Self-Preservation Four (SE4)</strong> is the countertype of the Four: instead of staging one's own suffering visibly, it is borne stoically – endurance instead of drama, work instead of complaint. Rosenberg described the six years leading to his "overnight success" himself, matter-of-factly, as a long, grinding road of hundreds of pub gigs and countless hours on the street, not as a romantic story of sudden luck.</p>
+          <p class="vb-intro">According to Naranjo, the <strong>Self-Preservation Four (SP4)</strong> is the countertype of the Four: instead of staging one's own suffering visibly, it is borne stoically – endurance instead of drama, work instead of complaint. Rosenberg described the six years leading to his "overnight success" himself, matter-of-factly, as a long, grinding road of hundreds of pub gigs and countless hours on the street, not as a romantic story of sudden luck.</p>
           <p class="vb-intro">His own line about that period is telling: "I used to think when I was busking and playing to empty pubs, that if I could have what I have now I would never complain again." No self-pity, just the sober accounting of someone who endured for a long time without putting his own hardship on display.</p>
         </blockquote>
 
@@ -2612,7 +2612,7 @@ export function michaelDavidRosenbergPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Four with a Three Wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE4w3 shows in Rosenberg's ability to shape genuine artistic and commercial success out of years of unspectacular endurance – without losing his own sensitivity or his connection to people on the margins of society.</p>
+          <p class="vb-intro">The light of the SP4w3 shows in Rosenberg's ability to shape genuine artistic and commercial success out of years of unspectacular endurance – without losing his own sensitivity or his connection to people on the margins of society.</p>
           <p class="vb-intro">The shadow of the Four shows in the tendency to bear one's own suffering silently for years instead of seeking support early on – tellingly, he himself only spoke openly about the hard years with some distance in hindsight. The Three Wing can sharpen this tendency when success becomes the sole yardstick by which one's own endurance is measured.</p>
         </blockquote>
 
@@ -2626,13 +2626,13 @@ export function michaelDavidRosenbergPortraitPage() {
 
         ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se4", label:"SE4 &ndash; The Dove: Subtype Profile"},
-        {route:"beruehmte-tim-bendzko", label:"Portrait: Tim Bendzko (SE4w3) – also a musician, same subtype"},
-        {route:"beruehmte-adele", label:"Portrait: Adele (SE4w3)"},
-        {route:"beruehmte-nicolas-cage", label:"Portrait: Nicolas Cage (SE4w3)"},
-        {route:"beruehmte-brian-fennell", label:"Portrait: Brian Fennell (SYML) (SE4w3) – also a musician, same subtype"},
-        {route:"beruehmte-barney-fishwick", label:"Portrait: Barney Fishwick (SE4w5)"},
-        {route:"beruehmte-yannick-van-de-velde", label:"Portrait: Yannick van de Velde (SE4w3)"},
+        {route:"subtype/se4", label:"SP4 &ndash; The Dove: Subtype Profile"},
+        {route:"beruehmte-tim-bendzko", label:"Portrait: Tim Bendzko (SP4w3) – also a musician, same subtype"},
+        {route:"beruehmte-adele", label:"Portrait: Adele (SP4w3)"},
+        {route:"beruehmte-nicolas-cage", label:"Portrait: Nicolas Cage (SP4w3)"},
+        {route:"beruehmte-brian-fennell", label:"Portrait: Brian Fennell (SYML) (SP4w3) – also a musician, same subtype"},
+        {route:"beruehmte-barney-fishwick", label:"Portrait: Barney Fishwick (SP4w5)"},
+        {route:"beruehmte-yannick-van-de-velde", label:"Portrait: Yannick van de Velde (SP4w3)"},
         ])}
       </div>
     </div>
@@ -2781,7 +2781,7 @@ export function anneWillPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-anne-will-portrait.jpg" alt="Anne Will" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Anne Will</p>
-        <p class="krim-portrait-typ">SE1w2 &middot; Self-Preservation One with a Two-Wing</p>
+        <p class="krim-portrait-typ">SP1w2 &middot; Self-Preservation One with a Two-Wing</p>
         <p class="krim-portrait-subtitle">Journalist &amp; Talk Show Host, born 1966 &ndash; Animal correspondence: Eagle</p>
       </div>
       <div class="page-content">
@@ -2801,7 +2801,7 @@ export function anneWillPortraitPage() {
         <h2 class="vb-section">3. The Two-Wing: Asking Personal Questions, Not Only Thinking Politically</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Two-wing (w2)</strong> shows in the motto of her own show: "Thinking politically, asking personally." A Self-Preservation One with a weakly developed two-wing would stay purely factual; the two-wing opens the interviewing style toward the personal, relational dimension – not only what position a guest holds, but who the person behind the position is.</p>
-          <p class="vb-intro">The same wing coloring appears in Alain Delon (SE1w2): a controlled, disciplined facade beneath which lies genuine but carefully measured attentiveness to others – in Will's case visible in journalistic curiosity about the person behind the office, not in public emotionality.</p>
+          <p class="vb-intro">The same wing coloring appears in Alain Delon (SP1w2): a controlled, disciplined facade beneath which lies genuine but carefully measured attentiveness to others – in Will's case visible in journalistic curiosity about the person behind the office, not in public emotionality.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Stage She Never Wanted</h2>
@@ -2812,7 +2812,7 @@ export function anneWillPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation One with a Two-Wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE1w2 shows in Will's journalistic reliability across more than two decades – a host trusted to be thoroughly prepared and fair on any topic, precisely because she took her own fallibility seriously instead of suppressing it.</p>
+          <p class="vb-intro">The light of the SP1w2 shows in Will's journalistic reliability across more than two decades – a host trusted to be thoroughly prepared and fair on any topic, precisely because she took her own fallibility seriously instead of suppressing it.</p>
           <p class="vb-intro">The shadow lies in exactly the self-criticism she herself exposed: the risk that one's own correctness hardens into a facade perceived as unsympathetic or distant – a strictness toward oneself that reads colder from the outside than it is meant.</p>
         </blockquote>
 
@@ -2828,10 +2828,10 @@ export function anneWillPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
-        {route:"beruehmte-alain-delon", label:"Portrait: Alain Delon (SE1w2)"},
-        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SE1w2)"},
-        {route:"beruehmte-ben-berndt", label:"Portrait: Ben Berndt (SE1w2)"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
+        {route:"beruehmte-alain-delon", label:"Portrait: Alain Delon (SP1w2)"},
+        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
+        {route:"beruehmte-ben-berndt", label:"Portrait: Ben Berndt (SP1w2)"},
         {route:"beruehmte-herfried-muenkler", label:"Portrait: Herfried Münkler (SO6w7)"},
         {route:"beruehmte-jens-riewa", label:"Portrait: Jens Riewa (SO9w1)"},
       ])}
@@ -2963,12 +2963,12 @@ export function knutHamsunPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
         {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5)"},
         {route:"beruehmte-don-mclean", label:"Portrait: Don McLean (SP4w5)"},
         {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SP4w5)"},
-        {route:"krankheitsportraets-knut-hamsun", label:"Illness Portrait: Knut Hamsun (SE4w5)"},
-        {route:"beruehmte-vanessa-goecking", label:"Portrait: Vanessa Göcking (SE4w5)"},
+        {route:"krankheitsportraets-knut-hamsun", label:"Illness Portrait: Knut Hamsun (SP4w5)"},
+        {route:"beruehmte-vanessa-goecking", label:"Portrait: Vanessa Göcking (SP4w5)"},
       ])}
     </div>
   `);
@@ -3031,7 +3031,7 @@ export function wimThoelkePortraitPage() {
       </div>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-anna-netrebko", label:"Portrait: Anna Netrebko (SP3w4)"},
         {route:"beruehmte-norah-jones", label:"Portrait: Norah Jones (SP3w4)"},
         {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SP3w2)"},

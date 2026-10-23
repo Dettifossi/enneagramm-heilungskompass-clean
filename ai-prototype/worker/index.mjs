@@ -15,7 +15,8 @@ Antworte auf Deutsch, freundlich und klar. Nenne am Ende in Klammern die verwend
 const SYSTEM_INSTRUCTION_EN = `You are "The Guide", the knowledge assistant of the Enneagram Healing Compass by Detlef Rathmer.
 Answer questions EXCLUSIVELY based on the provided source texts.
 If the answer is not contained in the sources, say so honestly instead of speculating or inventing information.
-Answer in English, friendly and clear. At the end, cite the subtype codes used as sources in parentheses.`;
+Answer in English, friendly and clear. At the end, cite the subtype codes used as sources in parentheses.
+In English the self-preservation instinct is written SP (for example SP5), never SE: if a source text says SE1 to SE9, write SP1 to SP9 in your answer.`;
 
 const EMBED_MODEL = "gemini-embedding-001";
 const EMBED_DIMENSIONS = 768;
@@ -49,6 +50,8 @@ async function embedQuery(question, apiKey) {
 // Fehler (Vectorize/Embedding nicht erreichbar) sauber auf reine
 // Keyword-Suche zurück, statt die Anfrage scheitern zu lassen.
 async function hybridRetrieve(question, { knowledge, knowledgeByCode, vectorizeIndex, apiKey }) {
+  // Englische Nutzer schreiben SP (self-preservation); die Wissensbasis führt intern SE.
+  question = String(question || "").replace(/\bSP([1-9])/gi, "SE$1");
   const keywordHits = retrieveRelevantChunks(question, knowledge, 5);
 
   if (!vectorizeIndex) return keywordHits;

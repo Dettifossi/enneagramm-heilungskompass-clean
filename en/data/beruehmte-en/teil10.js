@@ -209,9 +209,9 @@ export function anthonyHopkinsPortraitPage() {
         {route:"beruehmte-jodie-foster", label:"Portrait: Jodie Foster (SX5w6) – co-star in 'The Silence of the Lambs'"},
         {route:"krankheitsportraets-anthony-hopkins", label:"Illness Portrait: Anthony Hopkins (SP1w9) – alcoholism and sobriety since 1975"},
         {route:"beruehmte-henning-baum", label:"Portrait: Henning Baum (SP1w9)"},
-        {route:"beruehmte-dieter-lange", label:"Portrait: Dieter Lange (SE1w9)"},
-        {route:"beruehmte-gianna-nannini", label:"Portrait: Gianna Nannini (SE1w9)"},
-        {route:"beruehmte-viktor-frankl", label:"Portrait: Viktor Frankl (SE1w9)"},
+        {route:"beruehmte-dieter-lange", label:"Portrait: Dieter Lange (SP1w9)"},
+        {route:"beruehmte-gianna-nannini", label:"Portrait: Gianna Nannini (SP1w9)"},
+        {route:"beruehmte-viktor-frankl", label:"Portrait: Viktor Frankl (SP1w9)"},
       ])}
     </div>
   `);
@@ -343,7 +343,7 @@ export function carstenStahlPortraitPage() {
         {route:"beruehmte-bud-spencer", label:"Portrait: Bud Spencer (SO8w9)"},
         {route:"beruehmte-gabi-garcia", label:"Portrait: Gabi Garcia (SO8w7)"},
         {route:"beruehmte-cynthia-lummis", label:"Portrait: Cynthia Lummis (SO8w7)"},
-        {route:"astrologie-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
+        {route:"astrologie-angela-merkel", label:"Portrait: Angela Merkel (SP9w8)"},
         ])}
       </div>
     </div>
@@ -543,7 +543,7 @@ export function evaMendesPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
         {route:"beruehmte-ryan-gosling", label:"Portrait: Ryan Gosling (SX2w3) – husband"},
-        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SE1w9)"},
+        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SP1w9)"},
         {route:"beruehmte-heather-thomas", label:"Portrait: Heather Thomas (SX6w7)"},
         {route:"beruehmte-olena-zelenska", label:"Portrait: Olena Zelenska (SX6w7)"},
         {route:"beruehmte-louise-hay", label:"Portrait: Louise Hay (SX6w7) – also the same subtype"},
@@ -755,9 +755,9 @@ export function horstTappertPortraitPage() {
         {route:"beruehmte-fritz-wepper", label:"Portrait: Fritz Wepper (SP1w9) – Derrick partner"},
         {route:"beruehmte-bastian-pastewka", label:"Portrait: Bastian Pastewka (SP3w2)"},
         {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SP3w2)"},
-        {route:"beruehmte-lorne-greene", label:"Portrait: Lorne Greene (SE3w2)"},
-        {route:"beruehmte-edita-gruberova", label:"Portrait: Edita Gruberová (SE3w2)"},
-        {route:"beruehmte-michael-mina", label:"Portrait: Michael Mina (SE3w2)"},
+        {route:"beruehmte-lorne-greene", label:"Portrait: Lorne Greene (SP3w2)"},
+        {route:"beruehmte-edita-gruberova", label:"Portrait: Edita Gruberová (SP3w2)"},
+        {route:"beruehmte-michael-mina", label:"Portrait: Michael Mina (SP3w2)"},
       ])}
     </div>
   `);
@@ -773,7 +773,7 @@ export function jamesLevinePortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-james-levine-portrait.jpg" alt="James Levine – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">James Levine</p>
-        <p class="krim-portrait-typ">SE9w1 &middot; Self-Preservation Type 9 with Einserfl\xfcgel</p>
+        <p class="krim-portrait-typ">SP9w1 &middot; Self-Preservation Type 9 with Einserfl\xfcgel</p>
         <p class="krim-portrait-subtitle">Conductor & pianist, 1943–2021 – Animal equivalent: Elephant</p>
       </div>
       <div class="page-content">
@@ -786,13 +786,13 @@ export function jamesLevinePortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Nine: Appetite</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The self-preservation Nine (SE9) expresses the sloth of the Nine through sensory abundance. Naranjo called this subtype Appetite: the joy of enjoyment, comfort, and deep immersion into what feeds oneself. The SE9 does not want to change the world. It wants to live in it—completely, warmly, surrounded by what brings it well-being.</p>
+          <p class="vb-intro">The self-preservation Nine (SP9) expresses the sloth of the Nine through sensory abundance. Naranjo called this subtype Appetite: the joy of enjoyment, comfort, and deep immersion into what feeds oneself. The SP9 does not want to change the world. It wants to live in it—completely, warmly, surrounded by what brings it well-being.</p>
           <p class="vb-intro">Levine's appetite was music. Not as a career, not as an achievement, but as a way of life. He merged with the repertoire like the elephant with its herd: completely, quietly, out of deep belonging. Wagner, Verdi, Mozart, Mahler, Brahms—he did not merely learn them, he inhabited them. The Met was not his workplace. It was his territory, his home, his appetite made manifest in architecture.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The One Wing: The Inner Rigor</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The One wing gives the self-preservation Nine a quality that complements an SE9 with a weaker One wing: precision, rigor, and an inner standard that accepts no shortcuts. The SE9w8 seeks power. The SE9w1 seeks correctness in detail, in sound, in purity of expression.</p>
+          <p class="vb-intro">The One wing gives the self-preservation Nine a quality that complements an SP9 with a weaker One wing: precision, rigor, and an inner standard that accepts no shortcuts. The SP9w8 seeks power. The SP9w1 seeks correctness in detail, in sound, in purity of expression.</p>
           <p class="vb-intro">Levine was famous for his enormous musical accuracy. He rehearsed with a patience and depth that astonished even veteran singers and orchestral musicians. The One wing provided the drive toward perfection; the Nine provided the tranquility that kept this perfection from ever feeling driven. The result was a conducting style that felt grand without ever needing to act grand.</p>
         </blockquote>
 
@@ -804,8 +804,8 @@ export function jamesLevinePortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow: Appetite Without Bounds</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE9w1 is its persistent depth. Over decades, Levine created a musical institution unthinkable without him. His standards were high, his dedication total, his love for music absolute. The One wing kept him on track; the Nine provided endurance.</p>
-          <p class="vb-intro">The shadow: the appetite of the SE9 knows no natural limit. In 2017, public allegations of sexual abuse were raised against Levine by several men who described being abused by him as teenagers and young adults. The Met terminated his contract. Subsequent investigations corroborated the allegations in essential parts. What had remained hidden in the shadow of his immense power for decades came to light, leaving behind a fractured image: that of the great musician, and that of a man who treated his position as both territory and appetite without bounds.</p>
+          <p class="vb-intro">The light of the SP9w1 is its persistent depth. Over decades, Levine created a musical institution unthinkable without him. His standards were high, his dedication total, his love for music absolute. The One wing kept him on track; the Nine provided endurance.</p>
+          <p class="vb-intro">The shadow: the appetite of the SP9 knows no natural limit. In 2017, public allegations of sexual abuse were raised against Levine by several men who described being abused by him as teenagers and young adults. The Met terminated his contract. Subsequent investigations corroborated the allegations in essential parts. What had remained hidden in the shadow of his immense power for decades came to light, leaving behind a fractured image: that of the great musician, and that of a man who treated his position as both territory and appetite without bounds.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Elephant Who Inhabited the House</h2>
@@ -818,14 +818,14 @@ export function jamesLevinePortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-        {route:"krankheitsportraets-james-levine", label:"Illness Portrait: James Levine (SE9w1)"},
-        {route:"beruehmte-baerbel-bas", label:"Portrait: B\xe4rbel Bas (SE9w1)"},
-        {route:"astrologie-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
-        {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SE9w8)"},
-        {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
+        {route:"krankheitsportraets-james-levine", label:"Illness Portrait: James Levine (SP9w1)"},
+        {route:"beruehmte-baerbel-bas", label:"Portrait: B\xe4rbel Bas (SP9w1)"},
+        {route:"astrologie-angela-merkel", label:"Portrait: Angela Merkel (SP9w8)"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SP9w8)"},
+        {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SP9w8)"},
         {route:"beruehmte-iga-swiatek", label:"Portrait: Iga Świątek (SX9w1)"},
         {route:"beruehmte-kevin-costner", label:"Portrait: Kevin Costner (SO9w1)"},
-        {route:"krankheitsportraets-david-hume", label:"David Hume (SE9w8) – illness portrait"},
+        {route:"krankheitsportraets-david-hume", label:"David Hume (SP9w8) – illness portrait"},
         ])}
       </div>
     </div>
@@ -894,9 +894,9 @@ export function johannesBrahmsPortraitPage() {
         {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5)"},
         {route:"beruehmte-johann-sebastian-bach", label:"Portrait: Johann Sebastian Bach (SX1w9)"},
         {route:"subtype/se9", label:"SP9 – The Elephant: Subtype Profile"},
-        {route:"krankheitsportraets-johannes-brahms", label:"Illness Portrait: Johannes Brahms (SE9w8) – liver cancer, eleven months after Clara Schumann"},
-        {route:"beruehmte-baerbel-bas", label:"Portrait: Bärbel Bas (SE9w1)"},
-        {route:"beruehmte-dietmar-baer", label:"Portrait: Dietmar Bär (SE9w8)"},
+        {route:"krankheitsportraets-johannes-brahms", label:"Illness Portrait: Johannes Brahms (SP9w8) – liver cancer, eleven months after Clara Schumann"},
+        {route:"beruehmte-baerbel-bas", label:"Portrait: Bärbel Bas (SP9w1)"},
+        {route:"beruehmte-dietmar-baer", label:"Portrait: Dietmar Bär (SP9w8)"},
         {route:"beruehmte-dmitri-schostakowitsch", label:"Portrait: Dmitri Shostakovich (SO5w4)"},
       ])}
     </div>
@@ -1047,7 +1047,7 @@ export function lionelBoycePortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-lionel-boyce-portrait.jpg" alt="Lionel Boyce – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Lionel Boyce</p>
-        <p class="krim-portrait-typ">SE2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
         <p class="krim-portrait-subtitle">American actor &amp; artist, born 1991 in Inglewood, California &ndash; Animal correspondence: Hippopotamus</p>
       </div>
       <div class="page-content">
@@ -1060,20 +1060,20 @@ export function lionelBoycePortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Two: Care Within the Closest Creative Circle</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SE2)</strong> <em>Me First</em> &ndash; not in a selfish sense, but existentially: closeness first arises within the closest, most reliable circle. Boyce's decades-long creative partnership with Tyler, the Creator is exactly this pattern: together they co-created the series <em>Loiter Squad</em> (2012–2014) and <em>The Jellies!</em> (2015–2017), and in 2015 they founded the production company Bald Fade Productions together.</p>
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SP2)</strong> <em>Me First</em> &ndash; not in a selfish sense, but existentially: closeness first arises within the closest, most reliable circle. Boyce's decades-long creative partnership with Tyler, the Creator is exactly this pattern: together they co-created the series <em>Loiter Squad</em> (2012–2014) and <em>The Jellies!</em> (2015–2017), and in 2015 they founded the production company Bald Fade Productions together.</p>
           <p class="vb-intro">Rather than spreading his creative energy across as many loose contacts as possible, Boyce invested it for years in the same close friendship and collaboration – a form of care measured not by reach, but by reliability toward one's closest creative companions.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Three-Wing: From the Background to an Emmy Nomination</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to still seek visible, publicly effective success from a secure, close base. Boyce's role as Marcus, the pastry chef in <em>The Bear</em> (since 2022), earned him an Emmy nomination for Outstanding Supporting Actor in a Comedy Series – a clear step out of Odd Future's collective background into an independent, publicly recognized role.</p>
-          <p class="vb-intro">Notably, even as a celebrated supporting actor, Boyce remained loyal to collaboration with his closest creative circle rather than focusing exclusively on a solo career – the Three-wing seeks visible success without giving up the SE2's reliable base to get there.</p>
+          <p class="vb-intro">Notably, even as a celebrated supporting actor, Boyce remained loyal to collaboration with his closest creative circle rather than focusing exclusively on a solo career – the Three-wing seeks visible success without giving up the SP2's reliable base to get there.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE2w3 lies in the ability to develop an independent, publicly visible career out of a decades-long, close creative partnership – without leaving the original base, his friendship with Tyler, the Creator, and the Odd Future circle.</p>
-          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to the success of one's own close group. In the SE2w3, this can combine with the question of how much of one's own identity remains tied to a particular group or collaboration, even once enough independent success exists to break free of it.</p>
+          <p class="vb-intro">The light of the SP2w3 lies in the ability to develop an independent, publicly visible career out of a decades-long, close creative partnership – without leaving the original base, his friendship with Tyler, the Creator, and the Odd Future circle.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to the success of one's own close group. In the SP2w3, this can combine with the question of how much of one's own identity remains tied to a particular group or collaboration, even once enough independent success exists to break free of it.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Work: From Odd Future to Celebrated Supporting Actor</h2>
@@ -1088,9 +1088,9 @@ export function lionelBoycePortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
-        {route:"beruehmte-nate-dogg", label:"Portrait: Nate Dogg (SE2w3)"},
-        {route:"beruehmte-mickey-rourke", label:"Portrait: Mickey Rourke (SE2w3)"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-nate-dogg", label:"Portrait: Nate Dogg (SP2w3)"},
+        {route:"beruehmte-mickey-rourke", label:"Portrait: Mickey Rourke (SP2w3)"},
       ])}
     </div>
   `);
@@ -1106,7 +1106,7 @@ export function mariahCareyPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-mariah-carey-portrait.jpg" alt="Mariah Carey – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Mariah Carey</p>
-        <p class="krim-portrait-typ">SE7w8 &middot; Self-Preservation Type 7 with aft wing</p>
+        <p class="krim-portrait-typ">SP7w8 &middot; Self-Preservation Type 7 with aft wing</p>
         <p class="krim-portrait-subtitle">Singer, songwriter, producer, b. 1969 in Huntington, New York</p>
       </div>
       <div class="page-content">
@@ -1119,14 +1119,14 @@ export function mariahCareyPortraitPage() {
 
         <h2 class="vb-section">2. The Family: Abundance as Home</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Claudio Naranjo called the self-preservation Type 7 Family because this subtype does not seek security in the wide world, but in the tightest circle. It builds nests: out of familiarity, warmth, enjoyment. And it gathers experiences, people, pleasures, security. Abundance for the SE7 is not excess; it is proof that life is good and will remain good.</p>
+          <p class="vb-intro">Claudio Naranjo called the self-preservation Type 7 Family because this subtype does not seek security in the wide world, but in the tightest circle. It builds nests: out of familiarity, warmth, enjoyment. And it gathers experiences, people, pleasures, security. Abundance for the SP7 is not excess; it is proof that life is good and will remain good.</p>
           <p class="vb-intro">Carey grew up in precarious circumstances: her parents separated when she was three years old, and she moved from place to place with her mother. Her mother, Patricia Hickey, was an Irish-American opera singer and vocal coach; her father, Alfred Roy Carey, was of Venezuelan-African American origin and an aeronautical engineer. Mariah grew up between two worlds—too Black for her mother's white environment, too light for her father's Black environment—and learned early on to make herself her own home. At eighteen, she moved to New York City, waitressed, styled hair, and worked tirelessly toward her breakthrough.</p>
-          <p class="vb-intro">When she finally built her nest, she built it big: penthouses, private jets, butterflies as decor, champagne on the return flight. Her fans—the Lambs—are not just an audience, but a family. She communicates with them directly and keeps them in her inner circle. That is the SE7: the nest is never big enough, and whoever belongs to it truly belongs.</p>
+          <p class="vb-intro">When she finally built her nest, she built it big: penthouses, private jets, butterflies as decor, champagne on the return flight. Her fans—the Lambs—are not just an audience, but a family. She communicates with them directly and keeps them in her inner circle. That is the SP7: the nest is never big enough, and whoever belongs to it truly belongs.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Eight Wing: Power as a Shield</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Eight wing gives the self-preservation Seven a quality an SE7 with a weaker Eight wing does not always show: the will to power, readiness for confrontation, and a keen radar for control and its loss. Where the SE7 seeks joy and avoids discomfort, the Eight wing adds: "And if someone threatens my joy, I will let them know."</p>
+          <p class="vb-intro">The Eight wing gives the self-preservation Seven a quality an SP7 with a weaker Eight wing does not always show: the will to power, readiness for confrontation, and a keen radar for control and its loss. Where the SP7 seeks joy and avoids discomfort, the Eight wing adds: "And if someone threatens my joy, I will let them know."</p>
           <p class="vb-intro">The defining experience of Carey's life was her marriage to music executive Tommy Mottola (1993–1998), the then-head of Sony Music. Mottola had discovered her, built her up, and then controlled her: her home was guarded, her phone calls monitored, her circle subject to approval. Carey later described it as a kind of golden cage. When she freed herself, she wrote Fantasy, Emotions, and ultimately the album Butterfly (1997)—an R&B pivot Mottola would never have approved. The Eight wing taught her: loss of control is more dangerous than the big performance. And: whoever has once lost control never surrenders it voluntarily again.</p>
           <p class="vb-intro">The diva legends that have developed since then—the butterflies in the room, the specific drinking water, the famous line "I don't know her" when asked about Jennifer Lopez—are no slip-up. They are a protective wall. "Whoever doesn't respect me doesn't exist for me." That is the Eight wing of the gorilla: clear boundaries.</p>
         </blockquote>
@@ -1135,13 +1135,13 @@ export function mariahCareyPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Mariah Carey's debut album Mariah Carey (1990) produced five consecutive number-one singles in the US—a record previously held only by Whitney Houston. It was followed by Emotions (1991), Music Box (1993), Merry Christmas (1994)—the best-selling Christmas album of all time to the present day—Daydream (1995), and Butterfly (1997). In that decade, she was simply the biggest pop voice in the world.</p>
           <p class="vb-intro">In 2001, she collapsed publicly. The album Glitter and the movie of the same name flopped catastrophically; Carey suffered a public nervous breakdown documented in live appearances and a tearful, seemingly incoherent visit to Total Request Live. She disappeared from the public eye and received inpatient treatment. It was the lowest point of her career and simultaneously the beginning of the most important work she ever did.</p>
-          <p class="vb-intro">The Emancipation of Mimi (2005) was one of the greatest comebacks in pop history. The album went fifteen times platinum in the US; the single We Belong Together was the most played song of the decade in America. Carey didn't just return—she ascended higher than ever before. That is the SE7w8: you don't defeat the gorilla. You only make it stronger.</p>
+          <p class="vb-intro">The Emancipation of Mimi (2005) was one of the greatest comebacks in pop history. The album went fifteen times platinum in the US; the single We Belong Together was the most played song of the decade in America. Carey didn't just return—she ascended higher than ever before. That is the SP7w8: you don't defeat the gorilla. You only make it stronger.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow: The Diva and the Child</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE7w8 is its capacity for joy. Mariah Carey laughs loudly, loves opulently, gives generously. Her memoir The Meaning of Mariah Carey (2020) is no self-pity project, but an honest, often humorous look at a life full of ruptures and ascents. She sugarcoats nothing and apologizes for nothing. The gorilla principle: I was here. I survived. Here is my story.</p>
-          <p class="vb-intro">The shadow: the SE7 avoids what hurts. Carey acted publicly for years as if she had no bad days—as if the diva persona were not a mask, but reality itself. The Eight wing reinforces this: showing weakness is dangerous. The result is images that are sometimes more self-protection than self-expression. The famous rider clauses, the extravagances, the distance from anything uncontrollable—that is not just diva behavior. That is a human who once fell too deep into a world without control and will never allow that to happen again.</p>
+          <p class="vb-intro">The light of the SP7w8 is its capacity for joy. Mariah Carey laughs loudly, loves opulently, gives generously. Her memoir The Meaning of Mariah Carey (2020) is no self-pity project, but an honest, often humorous look at a life full of ruptures and ascents. She sugarcoats nothing and apologizes for nothing. The gorilla principle: I was here. I survived. Here is my story.</p>
+          <p class="vb-intro">The shadow: the SP7 avoids what hurts. Carey acted publicly for years as if she had no bad days—as if the diva persona were not a mask, but reality itself. The Eight wing reinforces this: showing weakness is dangerous. The result is images that are sometimes more self-protection than self-expression. The famous rider clauses, the extravagances, the distance from anything uncontrollable—that is not just diva behavior. That is a human who once fell too deep into a world without control and will never allow that to happen again.</p>
           <p class="vb-intro">Her children—twins Moroccan and Monroe, born in 2011 with Nick Cannon—are the one thing for which the diva pose drops. In interviews about them, Carey appears unfiltered, warm, fully present. That is the gorilla without the protective wall: the mother in the nest.</p>
         </blockquote>
 
@@ -1155,12 +1155,12 @@ export function mariahCareyPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-        {route:"beruehmte-jasmin-paolini", label:"Portrait: Jasmin Paolini (SE7w6)"},
-        {route:"beruehmte-wallace-shawn", label:"Portrait: Wallace Shawn (SE7w6)"},
-        {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SE7w8)"},
-        {route:"beruehmte-christoph-kolumbus", label:"Portrait: Christopher Columbus (SE7w8)"},
-        {route:"krankheitsportraets-mariah-carey", label:"Illness Portrait: Mariah Carey (SE7w8) – bipolar disorder"},
-        {route:"beruehmte-don-king", label:"Portrait: Don King (SE7w8)"},
+        {route:"beruehmte-jasmin-paolini", label:"Portrait: Jasmin Paolini (SP7w6)"},
+        {route:"beruehmte-wallace-shawn", label:"Portrait: Wallace Shawn (SP7w6)"},
+        {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SP7w8)"},
+        {route:"beruehmte-christoph-kolumbus", label:"Portrait: Christopher Columbus (SP7w8)"},
+        {route:"krankheitsportraets-mariah-carey", label:"Illness Portrait: Mariah Carey (SP7w8) – bipolar disorder"},
+        {route:"beruehmte-don-king", label:"Portrait: Don King (SP7w8)"},
         ])}
       </div>
     </div>
@@ -1228,8 +1228,8 @@ export function michaelDellPortraitPage() {
         {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SP3w2)"},
         {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SP3w2)"},
         {route:"beruehmte-bastian-pastewka", label:"Portrait: Bastian Pastewka (SP3w2)"},
-        {route:"beruehmte-klara-von-assisi", label:"Portrait: Clare of Assisi (SE3w2)"},
-        {route:"beruehmte-serdar-somuncu", label:"Portrait: Serdar Somuncu (SE3w2)"},
+        {route:"beruehmte-klara-von-assisi", label:"Portrait: Clare of Assisi (SP3w2)"},
+        {route:"beruehmte-serdar-somuncu", label:"Portrait: Serdar Somuncu (SP3w2)"},
       ])}
     </div>
   `);
@@ -1427,8 +1427,8 @@ export function reneDescartesPortraitPage() {
         {route:"beruehmte-spinoza", label:"Portrait: Baruch de Spinoza (SP5w6) – commented on his philosophy in the only work he published during his lifetime under his own name"},
         {route:"beruehmte-hermann-hesse", label:"Portrait: Hermann Hesse (SP5w6)"},
         {route:"beruehmte-augustinus-von-hippo", label:"Portrait: Augustine of Hippo (SX4w5)"},
-        {route:"beruehmte-carl-tanzler", label:"Portrait: Carl Tanzler (SE5w6)"},
-        {route:"beruehmte-marie-curie", label:"Portrait: Marie Curie (SE5w6)"},
+        {route:"beruehmte-carl-tanzler", label:"Portrait: Carl Tanzler (SP5w6)"},
+        {route:"beruehmte-marie-curie", label:"Portrait: Marie Curie (SP5w6)"},
         {route:"beruhmte-philosophen", label:"Chart: Famous Philosophers in the Enneagram"},
       ])}
     </div>
@@ -1566,8 +1566,8 @@ export function tELawrencePortraitPage() {
         {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
         {route:"beruehmte-honore-de-balzac", label:"Portrait: Honoré de Balzac (SP4w3) – the invented myth"},
         {route:"beruehmte-adele", label:"Portrait: Adele (SP4w3)"},
-        {route:"krankheitsportraets-t-e-lawrence", label:"Illness Portrait: T. E. Lawrence (SE4w3)"},
-        {route:"beruehmte-june-carter-cash", label:"Portrait: June Carter Cash (SE4w3)"},
+        {route:"krankheitsportraets-t-e-lawrence", label:"Illness Portrait: T. E. Lawrence (SP4w3)"},
+        {route:"beruehmte-june-carter-cash", label:"Portrait: June Carter Cash (SP4w3)"},
       ])}
     </div>
   `);
@@ -1708,7 +1708,7 @@ export function wladimirPutinPortraitPage() {
         {route:"beruehmte-otto-von-bismarck", label:"Portrait: Otto von Bismarck (SX6w5)"},
         {route:"beruehmte-bobby-fischer", label:"Portrait: Bobby Fischer (SX6w5) – same pattern, different stage"},
         {route:"beruehmte-abd-al-fattah-as-sisi", label:"Portrait: Abd al-Fattah as-Sisi (SO2w1)"},
-        {route:"beruehmte-kim-jong-un", label:"Portrait: Kim Jong Un (SE7w8)"},
+        {route:"beruehmte-kim-jong-un", label:"Portrait: Kim Jong Un (SP7w8)"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5)"},
         {route:"beruehmte-natalie-dormer", label:"Portrait: Natalie Dormer (SX6w5)"},
         {route:"beruehmte-platon", label:"Portrait: Plato (SX6w5)"},
@@ -1727,7 +1727,7 @@ export function robertCrumbPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-robert-crumb-portrait.jpg" alt="Robert Crumb" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Robert Crumb</p>
-        <p class="krim-portrait-typ">SE5w4 &middot; Self-Preservation Type 5 with Four-wing</p>
+        <p class="krim-portrait-typ">SP5w4 &middot; Self-Preservation Type 5 with Four-wing</p>
         <p class="krim-portrait-subtitle">Cartoonist, b. 1943 &ndash; founder of the underground comix movement &ndash; Animal correspondence: Owl</p>
       </div>
       <div class="page-content">
@@ -1740,7 +1740,7 @@ export function robertCrumbPortraitPage() {
 
         <h2 class="vb-section">2. Self-Preservation Five: The Castle Made of Paper</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Naranjo called the <strong>self-preservation Five (SE5)</strong> the <em>Castle</em>: one's own territory becomes a fortress that limits the world's access as much as possible. In 1968, Crumb self-published "Zap Comix #1," one of the founding works of the underground comix movement &ndash; uncompromising, uncensored, with no regard for a publisher or a mass audience. This was not a market strategy but the most consistent form of the castle: keeping complete control over one's own work rather than surrendering it to an institution.</p>
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Five (SP5)</strong> the <em>Castle</em>: one's own territory becomes a fortress that limits the world's access as much as possible. In 1968, Crumb self-published "Zap Comix #1," one of the founding works of the underground comix movement &ndash; uncompromising, uncensored, with no regard for a publisher or a mass audience. This was not a market strategy but the most consistent form of the castle: keeping complete control over one's own work rather than surrendering it to an institution.</p>
           <p class="vb-intro">The passion of the Five is <strong>avarice</strong> &ndash; hoarding energy, time, and control. When his 1968 image "Keep on Truckin'" became one of the most-copied images in pop culture without him profiting from its countless commercial uses, Crumb sued several companies for copyright infringement &ndash; one of the few public battles he ever deliberately sought, because it directly concerned his control over his own work.</p>
         </blockquote>
 
@@ -1758,13 +1758,13 @@ export function robertCrumbPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Five</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE5w4 shows in Crumb's uncompromising graphic honesty: characters like Fritz the Cat and Mr. Natural exposed the double standards of American society and the hippie generation alike, without exempting himself. Hardly any artist has made social taboos &ndash; sex, drugs, racism &ndash; so unfiltered and visible.</p>
+          <p class="vb-intro">The light of the SP5w4 shows in Crumb's uncompromising graphic honesty: characters like Fritz the Cat and Mr. Natural exposed the double standards of American society and the hippie generation alike, without exempting himself. Hardly any artist has made social taboos &ndash; sex, drugs, racism &ndash; so unfiltered and visible.</p>
           <p class="vb-intro">The shadow lies in the price of this honesty: Crumb described himself as plagued by self-disgust, unable to endorse his own fantasies, which he nonetheless could not suppress. In 1993, the family moved from California to a remote village in southern France &ndash; among his stated reasons: "lousy schools, too much crime, suburban sprawl, media overload." The castle was chosen as an entire country, to escape American life for good.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Owl Who Withdrew to a French Village</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Five leads from the question <em>Do I have enough to show myself?</em> to the insight <em>What is shown does not become less valuable for being imperfect.</em> For the SE5w4, this means no longer hoarding one's own, often shame-laden inner world alone, but &ndash; as in the shared comics with Aline &ndash; understanding it as shared, connecting material.</p>
+          <p class="vb-intro">The healing path of the Five leads from the question <em>Do I have enough to show myself?</em> to the insight <em>What is shown does not become less valuable for being imperfect.</em> For the SP5w4, this means no longer hoarding one's own, often shame-laden inner world alone, but &ndash; as in the shared comics with Aline &ndash; understanding it as shared, connecting material.</p>
           <p class="vb-intro">Robert Crumb still lives today in withdrawn seclusion in southern France, far from the art world he always regarded with suspicion. The owl who, as a child, fled the chaos of his family into his own castle made of paper left behind a body of work that helped millions of readers bear their own shadow sides a little less alone &ndash; precisely because it never tried to hide its own.</p>
         </blockquote>
 
@@ -1862,7 +1862,7 @@ export function arminMuellerStahlPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-armin-mueller-stahl-portrait.jpg" alt="Armin Mueller-Stahl – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Armin Mueller-Stahl</p>
-        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
         <p class="krim-portrait-subtitle">Actor, painter, musician &amp; writer, born 1930 &ndash; Animal correspondence: Eagle</p>
       </div>
       <div class="page-content">
@@ -1875,8 +1875,8 @@ export function arminMuellerStahlPortraitPage() {
 
         <h2 class="vb-section">2. Self-Preservation One: Fidelity to Principle as a Matter of Survival</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to Naranjo, the <strong>Self-Preservation One (SE1)</strong> seeks security through her own correctness and a high, often invisibly lived sense of duty toward herself. In Mueller-Stahl this showed in 1976, when he was among the signatories of the Biermann Resolution &ndash; a manifesto critical of the East German government's expatriation of the singer-songwriter Wolf Biermann. The consequence was a professional ban in East Germany, before he was permitted to emigrate to West Germany in 1980.</p>
-          <p class="vb-intro">This step was not a spontaneous protest but the consistent continuation of an inner stance: principles were not staged for public effect, but simply followed because they were right &ndash; even at the cost of his own career in a country where he was already an established actor. That is exactly SE1 security: it lies not in outward success, but in the knowledge of having acted correctly by one's own standards.</p>
+          <p class="vb-intro">According to Naranjo, the <strong>Self-Preservation One (SP1)</strong> seeks security through her own correctness and a high, often invisibly lived sense of duty toward herself. In Mueller-Stahl this showed in 1976, when he was among the signatories of the Biermann Resolution &ndash; a manifesto critical of the East German government's expatriation of the singer-songwriter Wolf Biermann. The consequence was a professional ban in East Germany, before he was permitted to emigrate to West Germany in 1980.</p>
+          <p class="vb-intro">This step was not a spontaneous protest but the consistent continuation of an inner stance: principles were not staged for public effect, but simply followed because they were right &ndash; even at the cost of his own career in a country where he was already an established actor. That is exactly SP1 security: it lies not in outward success, but in the knowledge of having acted correctly by one's own standards.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Nine-wing: Quiet Persistence Instead of Confrontation</h2>
@@ -1888,12 +1888,12 @@ export function arminMuellerStahlPortraitPage() {
         <h2 class="vb-section">4. Four Crafts, One Standard</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In 1997, Mueller-Stahl published his autobiography "Unterwegs nach Hause" ("On the Way Home") &ndash; yet another craft to which he devoted the same care as acting. His paintings and sculptures were shown in their own exhibitions, not as a byproduct of his film career, but as an independent body of artistic work with its own standard.</p>
-          <p class="vb-intro">This ability to pursue several demanding disciplines in parallel at a high level, without neglecting any of them, is typical for SE1: the inner standard applies equally to every craft &ndash; there are no areas where sloppiness is tolerated just because they aren't in the spotlight.</p>
+          <p class="vb-intro">This ability to pursue several demanding disciplines in parallel at a high level, without neglecting any of them, is typical for SP1: the inner standard applies equally to every craft &ndash; there are no areas where sloppiness is tolerated just because they aren't in the spotlight.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE1w9 shows in Mueller-Stahl in the resilience with which he defended his principles against considerable personal loss, and in the quiet discipline with which he cultivated four different artistic crafts at the highest level for decades &ndash; without ever becoming a loud, self-promoting figure.</p>
+          <p class="vb-intro">The light of the SP1w9 shows in Mueller-Stahl in the resilience with which he defended his principles against considerable personal loss, and in the quiet discipline with which he cultivated four different artistic crafts at the highest level for decades &ndash; without ever becoming a loud, self-promoting figure.</p>
           <p class="vb-intro">The shadow of the One lies in the risk of one's own high standards turning into an unforgiving inner authority that leaves little room for self-leniency. The Nine-wing acts here as a corrective: it prevented fidelity to principle from turning into self-righteousness, and kept Mueller-Stahl in a reserved, conciliatory basic stance, even toward the system that had temporarily denied him his career.</p>
         </blockquote>
 
@@ -2138,7 +2138,7 @@ export function timCookPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-tim-cook-portrait.jpg" alt="Tim Cook – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Tim Cook</p>
-        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with a Nine-Wing</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with a Nine-Wing</p>
         <p class="krim-portrait-subtitle">CEO of Apple, born 1960 – Animal correspondence: Eagle</p>
       </div>
       <div class="page-content">
@@ -2151,7 +2151,7 @@ export function timCookPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation One: Responsibility as Quiet Discipline</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Self-Preservation One (SE1)</strong> carries its perfectionism not outward, but inward. Naranjo called this subtype <em>Worry</em>: the constant inner question of whether one truly lives up to the task. Cook is known for rising daily at 3:45 a.m., answering emails before sunrise, and routinely being the first in the office and the last to leave – a routine he has kept practically unchanged for decades.</p>
+          <p class="vb-intro">The <strong>Self-Preservation One (SP1)</strong> carries its perfectionism not outward, but inward. Naranjo called this subtype <em>Worry</em>: the constant inner question of whether one truly lives up to the task. Cook is known for rising daily at 3:45 a.m., answering emails before sunrise, and routinely being the first in the office and the last to leave – a routine he has kept practically unchanged for decades.</p>
           <p class="vb-intro">When he took over from Steve Jobs in 2011, he assumed one of the largest public responsibilities in business history – not out of ambition to outdo Jobs, but with the quiet conviction that he had to live up to what the company and its employees deserved. In interviews he still repeats, matter-of-factly, that he does not think in terms of legacy but in terms of the next task in front of him.</p>
         </blockquote>
 
@@ -2163,13 +2163,13 @@ export function timCookPortraitPage() {
 
         <h2 class="vb-section">4. The Passion: Anger as Inward Accounting</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The passion of the One is called <strong>anger</strong> – in the SE1w9 it turns not outward, but inward: as an unrelenting standard applied to one's own thoroughness. Cook is known internally as a numbers person who personally works through every detail of a supply chain or a quarterly report before making a decision – he tolerates errors in his own preparation far less than criticism from outside.</p>
+          <p class="vb-intro">The passion of the One is called <strong>anger</strong> – in the SP1w9 it turns not outward, but inward: as an unrelenting standard applied to one's own thoroughness. Cook is known internally as a numbers person who personally works through every detail of a supply chain or a quarterly report before making a decision – he tolerates errors in his own preparation far less than criticism from outside.</p>
           <p class="vb-intro">Publicly, this inward-turned anger shows as moral consequence rather than volume: in 2016, under his leadership, Apple refused the FBI's request to unlock an iPhone despite massive political pressure – a position Cook justified calmly but unyieldingly in an open letter to customers, without escalating the conflict publicly.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Crisis as a Mirror: Leading a Company Without Its Founder</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The SE1w9 has a weak spot: it can seem sober and pale in moments that call for charismatic vision. When Cook officially became CEO in 2011, weeks before Steve Jobs' death, many analysts predicted Apple would stagnate without its visionary founder. Cook responded not with loud self-promotion, but with quiet continuity: he held to Apple's existing core principles while simultaneously building new business areas – services, wearables, in-house chips – with the same methodical patience he had earlier applied to fixing the supply chain.</p>
+          <p class="vb-intro">The SP1w9 has a weak spot: it can seem sober and pale in moments that call for charismatic vision. When Cook officially became CEO in 2011, weeks before Steve Jobs' death, many analysts predicted Apple would stagnate without its visionary founder. Cook responded not with loud self-promotion, but with quiet continuity: he held to Apple's existing core principles while simultaneously building new business areas – services, wearables, in-house chips – with the same methodical patience he had earlier applied to fixing the supply chain.</p>
           <p class="vb-intro">From an Enneagram perspective, this is not a weakness but the pattern's logic at work: where Jobs led with vision, Cook leads with reliability. Under his leadership, Apple became the first trillion-dollar company in history in 2018 – a result built not on a single visionary leap, but on years of meticulous operational discipline.</p>
         </blockquote>
 
@@ -2185,15 +2185,15 @@ export function timCookPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
-        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SE1w9)"},
-        {route:"beruehmte-phil-collins", label:"Portrait: Phil Collins (SE1w9)"},
-        {route:"beruehmte-harald-v", label:"Portrait: King Harald V (SE1w9)"},
-        {route:"beruehmte-alain-delon", label:"Portrait: Alain Delon (SE1w2)"},
-        {route:"beruehmte-arnold-schwarzenegger", label:"Portrait: Arnold Schwarzenegger (SE1w2)"},
-        {route:"beruehmte-carl-xvi-gustaf", label:"Portrait: Carl XVI Gustaf (SE1w9)"},
-        {route:"beruehmte-dietrich-mateschitz", label:"Portrait: Dietrich Mateschitz (SE1w9)"},
-        {route:"beruehmte-wolfgang-grupp", label:"Portrait: Wolfgang Grupp (SE1w9)"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SP1w9)"},
+        {route:"beruehmte-phil-collins", label:"Portrait: Phil Collins (SP1w9)"},
+        {route:"beruehmte-harald-v", label:"Portrait: King Harald V (SP1w9)"},
+        {route:"beruehmte-alain-delon", label:"Portrait: Alain Delon (SP1w2)"},
+        {route:"beruehmte-arnold-schwarzenegger", label:"Portrait: Arnold Schwarzenegger (SP1w2)"},
+        {route:"beruehmte-carl-xvi-gustaf", label:"Portrait: Carl XVI Gustaf (SP1w9)"},
+        {route:"beruehmte-dietrich-mateschitz", label:"Portrait: Dietrich Mateschitz (SP1w9)"},
+        {route:"beruehmte-wolfgang-grupp", label:"Portrait: Wolfgang Grupp (SP1w9)"},
       ])}
     </div>
   `);
@@ -2359,8 +2359,8 @@ export function johannLaferPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Seven: Enjoyment as a Foundation of Existence, Not an Add-On</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Claudio Naranjo called the self-preservation Seven the "Family" type – because this subtype doesn't seek security and joy in the wider world, but in the closest, most trusted circle. Food, conversation, and sensory pleasure aren't luxuries for the SE7, they're existential needs. In almost no other profession does that apply as directly as in cooking: Lafer's entire working life circles around exactly what his type's core passion is about – enjoyment, variety, sensory pleasure at the table.</p>
-          <p class="vb-intro">Married to Silvia Buchholz-Lafer since 1990, with two children, he remained loyal to a fixed life model for decades rather than jumping between changing relationships or locations – the same constancy that shows in his decades-long loyalty to a single fine-dining restaurant. For the SE7, security doesn't come from renouncing pleasure, but from its reliable, recurring availability within the closest circle.</p>
+          <p class="vb-intro">Claudio Naranjo called the self-preservation Seven the "Family" type – because this subtype doesn't seek security and joy in the wider world, but in the closest, most trusted circle. Food, conversation, and sensory pleasure aren't luxuries for the SP7, they're existential needs. In almost no other profession does that apply as directly as in cooking: Lafer's entire working life circles around exactly what his type's core passion is about – enjoyment, variety, sensory pleasure at the table.</p>
+          <p class="vb-intro">Married to Silvia Buchholz-Lafer since 1990, with two children, he remained loyal to a fixed life model for decades rather than jumping between changing relationships or locations – the same constancy that shows in his decades-long loyalty to a single fine-dining restaurant. For the SP7, security doesn't come from renouncing pleasure, but from its reliable, recurring availability within the closest circle.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Professional Substance: Classical French Precision, Not Everyday Cooking</h2>
@@ -2377,7 +2377,7 @@ export function johannLaferPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Seven</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE7w8 is the ability to <strong>turn enjoyment into a reliable, load-bearing foundation for life</strong>, rather than merely consuming it fleetingly – for over four decades, Lafer remained loyal to his profession, his family, and each of his respective kitchen locations.</p>
+          <p class="vb-intro">The light of the SP7w8 is the ability to <strong>turn enjoyment into a reliable, load-bearing foundation for life</strong>, rather than merely consuming it fleetingly – for over four decades, Lafer remained loyal to his profession, his family, and each of his respective kitchen locations.</p>
           <p class="vb-intro">In 2024 he was diagnosed with lymphatic cancer, and he has lived with chemotherapy since. His public response – that the illness made him "slower, more awake, more humble," that he no longer takes "anything for granted" – shows a more mature side of the same pattern: the Seven's otherwise outward-directed search for pleasure is forced inward by the illness, and abundance that had become self-evident is once again consciously recognized as precious, rather than taken for granted.</p>
         </blockquote>
 
@@ -2393,16 +2393,16 @@ export function johannLaferPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se7", label:"SE7 – The Gorilla: subtype profile"},
+        {route:"subtype/se7", label:"SP7 – The Gorilla: subtype profile"},
         {route:"beruehmte-moritz-bleibtreu", label:"Portrait: Moritz Bleibtreu (SP7w8)"},
         {route:"beruehmte-horst-lichter", label:"Portrait: Horst Lichter (SX7w6) – TV partner on \"Lafer! Lichter! Lecker!\""},
         {route:"beruehmte-tim-maelzer", label:"Portrait: Tim Mälzer (SP3w2)"},
         {route:"beruehmte-paul-bocuse", label:"Portrait: Paul Bocuse (SP3w4)"},
         {route:"beruehmte-gordon-ramsay", label:"Portrait: Gordon Ramsay (SX3w4)"},
         {route:"beruehmte-adriano-celentano", label:"Portrait: Adriano Celentano (SX7w8)"},
-        {route:"beruehmte-ilka-bessin", label:"Portrait: Ilka Bessin (SE7w8)"},
+        {route:"beruehmte-ilka-bessin", label:"Portrait: Ilka Bessin (SP7w8)"},
         {route:"beruehmte-steffen-henssler", label:"Portrait: Steffen Henssler (SO7w6)"},
-        {route:"beruehmte-don-king", label:"Portrait: Don King (SE7w8)"},
+        {route:"beruehmte-don-king", label:"Portrait: Don King (SP7w8)"},
       ])}
     </div>
   `);
@@ -2481,7 +2481,7 @@ export function johannesPaulIIPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-johannes-paul-ii-portrait.jpg" alt="John Paul II – portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">John Paul II</p>
-        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with a Nine-Wing</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with a Nine-Wing</p>
         <p class="krim-portrait-subtitle">Pope 1978&ndash;2005, born 1920 as Karol Wojtyła &ndash; Animal correspondence: Bald Eagle</p>
       </div>
       <div class="page-content">
@@ -2494,7 +2494,7 @@ export function johannesPaulIIPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation One: the inner judge before the outer office</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Self-Preservation One (SE1)</strong> directs its perfectionism not primarily at correcting the world, but at the strictest possible self-examination – whether one measures up to one's own ideal before ever holding others to it. In Wojtyła this showed in an extraordinary, decades-long hidden physical asceticism: according to those closest to him, he at times slept on the bare floor, fasted beyond what the Church prescribed, and practiced self-flagellation as an expression of penance and self-discipline – practices that only became public knowledge after his death, since he himself never brought them into the open.</p>
+          <p class="vb-intro">The <strong>Self-Preservation One (SP1)</strong> directs its perfectionism not primarily at correcting the world, but at the strictest possible self-examination – whether one measures up to one's own ideal before ever holding others to it. In Wojtyła this showed in an extraordinary, decades-long hidden physical asceticism: according to those closest to him, he at times slept on the bare floor, fasted beyond what the Church prescribed, and practiced self-flagellation as an expression of penance and self-discipline – practices that only became public knowledge after his death, since he himself never brought them into the open.</p>
           <p class="vb-intro">His private spiritual diaries, in which he repeatedly examined whether he served God and his office sufficiently, are the classic expression of the inward-directed anger of the One: the world is not accused first – one's own insufficiency is. This inner severity toward himself preceded, and was the actual foundation of, the stricter stance he later took toward the Church as an institution – whoever judges themselves mercilessly by a standard will, as a consequence, tolerate no deviation from it in others either.</p>
         </blockquote>
 
@@ -2513,12 +2513,12 @@ export function johannesPaulIIPortraitPage() {
         <h2 class="vb-section">5. Light and shadow of the Self-Preservation One</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In the light, Wojtyła shows an integrity personally lived out and sustained over 26 years – a sense of duty that not even advancing Parkinson's disease in his final years could move him to step back from, combined with genuine reconciliation toward Judaism (the first papal visit to a synagogue, 1986) and Islam (a mosque visit in 2001), as well as the gesture at Jerusalem's Western Wall in 2000, where he asked forgiveness for the Church's historical wrongs.</p>
-          <p class="vb-intro">The besetting sin of the One is <strong>anger</strong> – in the SE1w9 directed primarily inward and further softened by the Nine-wing, yet by no means absent. The shadow shows in the harsh, at times rigid discipline imposed on internal reform voices within the Church, and in his hesitant, by today's standards inadequate response to the first publicly emerging cases of abuse within the Catholic Church during his pontificate – a gap that stands in striking contrast to the image of the morally uncompromising judge, strict with both himself and others.</p>
+          <p class="vb-intro">The besetting sin of the One is <strong>anger</strong> – in the SP1w9 directed primarily inward and further softened by the Nine-wing, yet by no means absent. The shadow shows in the harsh, at times rigid discipline imposed on internal reform voices within the Church, and in his hesitant, by today's standards inadequate response to the first publicly emerging cases of abuse within the Catholic Church during his pontificate – a gap that stands in striking contrast to the image of the morally uncompromising judge, strict with both himself and others.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The healing path: from quiet self-scrutiny to serene mercy</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the One leads from anger to serenity – from the question <em>Do I truly measure up to the ideal in every detail?</em> to the realization <em>The world – and I myself – may be imperfect without losing dignity because of it.</em> For the SE1w9, this means no longer treating the severity he so often directed at himself in private as a necessary burden, but allowing genuine mercy – first toward himself, then toward others.</p>
+          <p class="vb-intro">The healing path of the One leads from anger to serenity – from the question <em>Do I truly measure up to the ideal in every detail?</em> to the realization <em>The world – and I myself – may be imperfect without losing dignity because of it.</em> For the SP1w9, this means no longer treating the severity he so often directed at himself in private as a necessary burden, but allowing genuine mercy – first toward himself, then toward others.</p>
           <p class="vb-intro">His gesture of forgiveness toward his would-be assassin in 1983 and his later reconciliation gestures toward Judaism and Islam read as exactly this step on the healing path: a discipline practiced inwardly for decades that, in his more mature years, increasingly translated into lived grace – never quite abandoning its inner rigor, but growing ever more willing to grant others, and in the end himself, room for imperfection.</p>
         </blockquote>
 
@@ -2530,15 +2530,15 @@ export function johannesPaulIIPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se1", label:"SE1 – The Bald Eagle: subtype profile"},
-        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SE1 – Bald Eagle"},
-        {route:"krankheitsportraets-johannes-paul-ii", label:"Illness Portrait: John Paul II (SE1w9) – Parkinson's disease"},
-        {route:"beruehmte-carl-xvi-gustaf", label:"Portrait: Carl XVI Gustaf (SE1w9) – Swedish monarch"},
-        {route:"beruehmte-harald-v", label:"Portrait: King Harald V (SE1w9) – Norwegian monarch"},
-        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SE1w9)"},
-        {route:"beruehmte-johannes-gutenberg", label:"Portrait: Johannes Gutenberg (SE1w9)"},
-        {route:"beruehmte-konrad-zuse", label:"Portrait: Konrad Zuse (SE1w9)"},
-        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SE1w9)"},
+        {route:"subtype/se1", label:"SP1 – The Bald Eagle: subtype profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SP1 – Bald Eagle"},
+        {route:"krankheitsportraets-johannes-paul-ii", label:"Illness Portrait: John Paul II (SP1w9) – Parkinson's disease"},
+        {route:"beruehmte-carl-xvi-gustaf", label:"Portrait: Carl XVI Gustaf (SP1w9) – Swedish monarch"},
+        {route:"beruehmte-harald-v", label:"Portrait: King Harald V (SP1w9) – Norwegian monarch"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SP1w9)"},
+        {route:"beruehmte-johannes-gutenberg", label:"Portrait: Johannes Gutenberg (SP1w9)"},
+        {route:"beruehmte-konrad-zuse", label:"Portrait: Konrad Zuse (SP1w9)"},
+        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SP1w9)"},
       ])}
     </div>
   `);
@@ -2621,7 +2621,7 @@ export function milanPeschelPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-milan-peschel-portrait.jpg" alt="Milan Peschel – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-milan-peschel-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Milan Peschel</p>
-        <p class="krim-portrait-typ">SE6w5 &middot; Self-Preservation Type 6 with a Five-wing</p>
+        <p class="krim-portrait-typ">SP6w5 &middot; Self-Preservation Type 6 with a Five-wing</p>
         <p class="krim-portrait-subtitle">German actor and director, b. 1968 &ndash; &lsquo;Halt auf freier Strecke&rsquo;, &lsquo;Netto&rsquo; &ndash; Animal correspondence: Rabbit</p>
       </div>
       <div class="page-content">
@@ -2634,7 +2634,7 @@ export function milanPeschelPortraitPage() {
 
         <h2 class="vb-section">2. The self-preservation Six: security in craft, in the house and in the family</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Six seeks security because it knows how quickly it can be missing. Claudio Naranjo called the <strong>self-preservation Six (SE6)</strong> the subtype of &lsquo;warmth&rsquo;: it finds support in a manageable circle of people, in a house and in reliable routines. In Peschel this runs through everything. He calls his family &lsquo;an absolute foundation of my life&rsquo; and says: &lsquo;My family has a large share in that because it was always there.&rsquo; He is married and has two children.</p>
+          <p class="vb-intro">The Six seeks security because it knows how quickly it can be missing. Claudio Naranjo called the <strong>self-preservation Six (SP6)</strong> the subtype of &lsquo;warmth&rsquo;: it finds support in a manageable circle of people, in a house and in reliable routines. In Peschel this runs through everything. He calls his family &lsquo;an absolute foundation of my life&rsquo; and says: &lsquo;My family has a large share in that because it was always there.&rsquo; He is married and has two children.</p>
           <p class="vb-intro">A house for him was the Volksbühne in Berlin: he was a permanent ensemble member there from 1997 to 2008 and worked mainly with Frank Castorf and Dimiter Gotscheff. About the end of the house as he knew it he says: &lsquo;The smashing of the Volksbühne hit me deeply.&rsquo; Whoever has found security in a theatre and loses it feels it like a home that is gone.</p>
           <p class="vb-intro">Caution belongs to it too. He tells of a concert in the Zionskirche in 1987 at which skinheads attacked the event and he left early: &lsquo;I am a child from East Berlin who did not dare go to a punk concert.&rsquo; Perhaps he was &lsquo;too cowardly&rsquo; to stand in the front row; he does not use the word fear, he speaks of a &lsquo;survival instinct&rsquo;. And in his profession: he got his first big film role at 35, &lsquo;not exactly young&rsquo;, as he says, and calls himself a &lsquo;late starter&rsquo;. It was a slow road.</p>
         </blockquote>
@@ -2653,7 +2653,7 @@ export function milanPeschelPortraitPage() {
 
         <h2 class="vb-section">5. Parallel in the same subtype: Davis, Schubert and Pichai</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Several SE6w5s stand among the portraits in this Compass, and the comparison shows how the Six seeks its support. <a href="#beruehmte-stringer-davis">Stringer Davis (SE6w5)</a> held to a familiar centre as an actor and stayed in the background. <a href="#beruehmte-franz-schubert">Franz Schubert (SE6w5)</a> found support in a circle of close friends and worked in quiet, concentrated withdrawal. <a href="#beruehmte-sundar-pichai">Sundar Pichai (SE6w5)</a> stayed in the company he trusted instead of changing.</p>
+          <p class="vb-intro">Several SP6w5s stand among the portraits in this Compass, and the comparison shows how the Six seeks its support. <a href="#beruehmte-stringer-davis">Stringer Davis (SP6w5)</a> held to a familiar centre as an actor and stayed in the background. <a href="#beruehmte-franz-schubert">Franz Schubert (SP6w5)</a> found support in a circle of close friends and worked in quiet, concentrated withdrawal. <a href="#beruehmte-sundar-pichai">Sundar Pichai (SP6w5)</a> stayed in the company he trusted instead of changing.</p>
           <p class="vb-intro">Peschel lies between them: with Schubert he shares the circle of familiar people and the care, with Davis the restraint toward the limelight, and with Pichai the loyalty to a house. The difference: Peschel worked at a theatre known for radicalism and remained in its ensemble for eleven years.</p>
         </blockquote>
 
@@ -2674,11 +2674,11 @@ export function milanPeschelPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
-        {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SE6 – Rabbit"},
-        {route:"beruehmte-stringer-davis", label:"Portrait: Stringer Davis (SE6w5) – actor, same subtype and wing"},
-        {route:"beruehmte-franz-schubert", label:"Porträt: Franz Schubert (SE6w5)"},
-        {route:"beruehmte-sundar-pichai", label:"Porträt: Sundar Pichai (SE6w5)"},
+        {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
+        {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SP6 – Rabbit"},
+        {route:"beruehmte-stringer-davis", label:"Portrait: Stringer Davis (SP6w5) – actor, same subtype and wing"},
+        {route:"beruehmte-franz-schubert", label:"Porträt: Franz Schubert (SP6w5)"},
+        {route:"beruehmte-sundar-pichai", label:"Porträt: Sundar Pichai (SP6w5)"},
       ])}
     </div>
   `);

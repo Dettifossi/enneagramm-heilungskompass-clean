@@ -59,8 +59,8 @@ export function aiWeiweiPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SP2w3)"},
-        {route:"beruehmte-oprah-winfrey", label:"Portrait: Oprah Winfrey (SE2w3)"},
-        {route:"beruehmte-uli-hoeness", label:"Portrait: Uli Hoeneß (SE2w3)"},
+        {route:"beruehmte-oprah-winfrey", label:"Portrait: Oprah Winfrey (SP2w3)"},
+        {route:"beruehmte-uli-hoeness", label:"Portrait: Uli Hoeneß (SP2w3)"},
         {route:"beruehmte-yayoi-kusama", label:"Portrait: Yayoi Kusama (SP2w3)"},
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
@@ -70,8 +70,8 @@ export function aiWeiweiPortraitPage() {
         {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SP2w3)"},
         {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7) – father"},
         {route:"krankheitsportraets-ai-weiwei", label:"Illness Portrait: Ai Weiwei (SP2w3) – violence that became a work of art"},
-        {route:"beruehmte-fiona-harvey", label:"Portrait: Fiona Harvey (SE2w3)"},
-        {route:"beruehmte-sathya-sai-baba", label:"Portrait: Sathya Sai Baba (SE2w3)"},
+        {route:"beruehmte-fiona-harvey", label:"Portrait: Fiona Harvey (SP2w3)"},
+        {route:"beruehmte-sathya-sai-baba", label:"Portrait: Sathya Sai Baba (SP2w3)"},
       ])}
     </div>
   `);
@@ -236,14 +236,14 @@ export function carlTanzlerPortraitPage() {
 
         <h2 class="vb-section">2. The self-preservation Five: Withdrawal as a way of life</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to Naranjo, the self-preservation Five (SE5) is the subtype he called "Refuge" – a retreat into a sealed-off, self-controlled space the outside world cannot reach. Tanzler's life shows this pattern in extreme form: he lived largely isolated, constructed an identity out of invented titles and achievements, and withdrew increasingly into an inner world he alone controlled.</p>
-          <p class="vb-intro">When Elena died of her illness on October 25, 1931, Tanzler could not accept the loss as a loss. He financed her mausoleum, visited it daily – and in 1933 secretly removed her body. For seven years he kept it in his home, spoke to it, danced with it, shared his bed with it. This is the SE5 in its darkest possible expression: a withdrawal so complete that even the death of the beloved did not reopen the boundary to the outside world, but was instead translated into a private, sealed-off reality.</p>
+          <p class="vb-intro">According to Naranjo, the self-preservation Five (SP5) is the subtype he called "Refuge" – a retreat into a sealed-off, self-controlled space the outside world cannot reach. Tanzler's life shows this pattern in extreme form: he lived largely isolated, constructed an identity out of invented titles and achievements, and withdrew increasingly into an inner world he alone controlled.</p>
+          <p class="vb-intro">When Elena died of her illness on October 25, 1931, Tanzler could not accept the loss as a loss. He financed her mausoleum, visited it daily – and in 1933 secretly removed her body. For seven years he kept it in his home, spoke to it, danced with it, shared his bed with it. This is the SP5 in its darkest possible expression: a withdrawal so complete that even the death of the beloved did not reopen the boundary to the outside world, but was instead translated into a private, sealed-off reality.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Six wing: Loyalty beyond death</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">An SE5 with a more muted Six wing might have withdrawn into pure knowledge or technical work. In Tanzler's case, something else emerged instead: a bonding intensity that went far beyond the rational – an almost religious adherence to a promise he had made to himself, to stay loyal to Elena, to preserve her, never to let her go. He built technical devices to preserve the body, experimented with chemicals and materials, with the same systematic care he had learned as a radiologist.</p>
-          <p class="vb-intro">The Six wing seeks anchoring in bond, loyalty, a stabilizer against its own insecurity – and becomes dangerous once that anchor detaches from reality. Tanzler's loyalty no longer belonged to a living person, but to a relationship he had constructed himself and maintained with the same precision a healthy SE5w6 applies to knowledge or skill.</p>
+          <p class="vb-intro">An SP5 with a more muted Six wing might have withdrawn into pure knowledge or technical work. In Tanzler's case, something else emerged instead: a bonding intensity that went far beyond the rational – an almost religious adherence to a promise he had made to himself, to stay loyal to Elena, to preserve her, never to let her go. He built technical devices to preserve the body, experimented with chemicals and materials, with the same systematic care he had learned as a radiologist.</p>
+          <p class="vb-intro">The Six wing seeks anchoring in bond, loyalty, a stabilizer against its own insecurity – and becomes dangerous once that anchor detaches from reality. Tanzler's loyalty no longer belonged to a living person, but to a relationship he had constructed himself and maintained with the same precision a healthy SP5w6 applies to knowledge or skill.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Discovery and legal proceedings</h2>
@@ -678,10 +678,10 @@ export function herbertKicklPortraitPage() {
         {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
         {route:"beruehmte-edward-snowden", label:"Portrait: Edward Snowden (SX5w6)"},
         {route:"beruehmte-malaika-mihambo", label:"Portrait: Malaika Mihambo (SP6w5)"},
-        {route:"beruehmte-beatrice-chebet", label:"Portrait: Beatrice Chebet (SE6w7)"},
-        {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fjodor Dostojewski (SE6w5)"},
-        {route:"beruehmte-neil-armstrong", label:"Portrait: Neil Armstrong (SE6w5)"},
-        {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SE6w5)"},
+        {route:"beruehmte-beatrice-chebet", label:"Portrait: Beatrice Chebet (SP6w7)"},
+        {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fjodor Dostojewski (SP6w5)"},
+        {route:"beruehmte-neil-armstrong", label:"Portrait: Neil Armstrong (SP6w5)"},
+        {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SP6w5)"},
       ])}
     </div>
   `);
@@ -812,7 +812,7 @@ export function jimiBlueOchsenknechtPortraitPage() {
         {route:"beruehmte-wilson-gonzalez-ochsenknecht", label:"Portrait: Wilson Gonzalez Ochsenknecht (SP2w3) – brother"},
         {route:"beruehmte-natascha-ochsenknecht", label:"Portrait: Natascha Ochsenknecht (SO8w7) – mother"},
         {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SP3w4) – sister"},
-        {route:"beruehmte-tutty-tran", label:"Portrait: Tutty Tran (SE2w3)"},
+        {route:"beruehmte-tutty-tran", label:"Portrait: Tutty Tran (SP2w3)"},
       ])}
     </div>
   `);
@@ -1014,7 +1014,7 @@ export function leonardoDaVinciPortraitPage() {
         {route:"beruehmte-claudio-naranjo", label:"Portrait: Claudio Naranjo (SO5w4)"},
         {route:"krankheitsportraets-leonardo-da-vinci", label:"Illness Portrait: Leonardo da Vinci (SO5w4) – paralysis of the right hand"},
         {route:"beruehmte-dmitri-schostakowitsch", label:"Portrait: Dmitri Shostakovich (SO5w4)"},
-        {route:"beruehmte-johannes-gutenberg", label:"Portrait: Johannes Gutenberg (SE1w9)"},
+        {route:"beruehmte-johannes-gutenberg", label:"Portrait: Johannes Gutenberg (SP1w9)"},
         {route:"praxistipps-heilpraktiker/vitruv-enneagramm", label:"Practical Tip: The Vitruvian-Enneagram Awareness Exercise"},
       ])}
     </div>
@@ -1086,7 +1086,7 @@ export function malaikaMihamboPortraitPage() {
         {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
         {route:"beruehmte-herbert-kickl", label:"Portrait: Herbert Kickl (SP6w5)"},
         {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SP6w5)"},
-        {route:"beruehmte-carlo-masala", label:"Portrait: Carlo Masala (SE6w5)"},
+        {route:"beruehmte-carlo-masala", label:"Portrait: Carlo Masala (SP6w5)"},
       ])}
     </div>
   `);
@@ -1220,7 +1220,7 @@ export function moritzBleibtreuPortraitPage() {
         {route:"beruehmte-oliver-hardy", label:"Portrait: Oliver Hardy (SP7w8)"},
         {route:"beruehmte-johann-lafer", label:"Portrait: Johann Lafer (SP7w8)"},
         {route:"beruehmte-til-schweiger", label:"Portrait: Til Schweiger (SO4w3)"},
-        {route:"beruehmte-don-king", label:"Portrait: Don King (SE7w8)"},
+        {route:"beruehmte-don-king", label:"Portrait: Don King (SP7w8)"},
       ])}
     </div>
   `);
@@ -1291,10 +1291,10 @@ export function oshoPortraitPage() {
         {route:"krankheitsportraets-osho", label:"Illness Portrait: Osho (SP3w4)"},
         {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-kathrin-bauerfeind", label:"Portrait: Kathrin Bauerfeind (SP3w4)"},
-        {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SE3w4)"},
-        {route:"beruehmte-johnny-cash", label:"Portrait: Johnny Cash (SE3w4)"},
-        {route:"beruehmte-madame-tussaud", label:"Portrait: Madame Tussaud (SE3w4)"},
-        {route:"krankheitsportraets-bernie-madoff", label:"Bernie Madoff (SE3w4) – illness portrait"},
+        {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SP3w4)"},
+        {route:"beruehmte-johnny-cash", label:"Portrait: Johnny Cash (SP3w4)"},
+        {route:"beruehmte-madame-tussaud", label:"Portrait: Madame Tussaud (SP3w4)"},
+        {route:"krankheitsportraets-bernie-madoff", label:"Bernie Madoff (SP3w4) – illness portrait"},
       ])}
     </div>
   `);
@@ -1357,7 +1357,7 @@ export function rangaYogeshwarPortraitPage() {
         {route:"beruehmte-alexander-gerst", label:"Portrait: Alexander Gerst (SO2w1) – also SO2w1"},
         {route:"beruehmte-anastasia-barner", label:"Portrait: Anastasia Barner (SO2w1)"},
         {route:"beruehmte-david-lurey", label:"Portrait: David Lurey (SO2w1)"},
-        {route:"beruehmte-fiona-harvey", label:"Portrait: Fiona Harvey (SE2w3)"},
+        {route:"beruehmte-fiona-harvey", label:"Portrait: Fiona Harvey (SP2w3)"},
       ])}
     </div>
   `);
@@ -1373,7 +1373,7 @@ export function samAltmanPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sam-altman-portrait.jpg" alt="Sam Altman" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Sam Altman</p>
-        <p class="krim-portrait-typ">SE4w5 &middot; Self-Preservation Type 4 with Five-Wing</p>
+        <p class="krim-portrait-typ">SP4w5 &middot; Self-Preservation Type 4 with Five-Wing</p>
         <p class="krim-portrait-subtitle">CEO of OpenAI, born 1985 – Animal equivalent: Dove</p>
       </div>
       <div class="page-content">
@@ -1386,7 +1386,7 @@ export function samAltmanPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Four: Ambition as a Quiet Burden</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The self-preservation Four (SE4) does not carry its inner struggle out into the open, but endures it stoically – it tells itself: I feel more deeply, think further ahead, and work longer at what is missing than others do, and that is precisely where my dignity lies. Altman himself has repeatedly reflected publicly on how much it shaped him to feel, as a young gay man in conservative 1990s Missouri, different from those around him – an early experience of not belonging that, for the Four, often becomes the starting point of a lifelong, quiet search for what is missing.</p>
+          <p class="vb-intro">The self-preservation Four (SP4) does not carry its inner struggle out into the open, but endures it stoically – it tells itself: I feel more deeply, think further ahead, and work longer at what is missing than others do, and that is precisely where my dignity lies. Altman himself has repeatedly reflected publicly on how much it shaped him to feel, as a young gay man in conservative 1990s Missouri, different from those around him – an early experience of not belonging that, for the Four, often becomes the starting point of a lifelong, quiet search for what is missing.</p>
           <p class="vb-intro">Rather than putting this feeling on display, Altman channeled it into methodical, decades-long building work: at nineteen, he founded the startup Loopt; in his early thirties, he ran the influential startup incubator Y Combinator as its president; and eventually he took the helm of OpenAI – each time with the same quiet, unspectacular consistency rather than loud self-promotion. His lifestyle, too, remains deliberately understated for someone of his influence – no ostentatious wealth, no public role as a self-promoter, but the reserve of the Dove, which would rather work in the background than put itself on display.</p>
         </blockquote>
 
@@ -1404,7 +1404,7 @@ export function samAltmanPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE4w5 is the ability to turn a deep personal sense of what is missing into long-term, systemic creative power – Altman translated his early sense of being different not into withdrawal, but into the methodical building of technologies he understands as answers to fundamental human deficiencies and bottlenecks: energy, disease, knowledge, prosperity.</p>
+          <p class="vb-intro">The light of the SP4w5 is the ability to turn a deep personal sense of what is missing into long-term, systemic creative power – Altman translated his early sense of being different not into withdrawal, but into the methodical building of technologies he understands as answers to fundamental human deficiencies and bottlenecks: energy, disease, knowledge, prosperity.</p>
           <p class="vb-intro">The shadow shows itself in the flip side of this quiet consistency: a certain opacity that even close colleagues have noticed – some former OpenAI executives criticized a lack of openness, particularly on safety-related questions. The Dove's quiet reserve can, taken to an extreme, turn into a distance that others experience as control rather than calm.</p>
         </blockquote>
 
@@ -1420,12 +1420,12 @@ export function samAltmanPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
-        {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SE4w5)"},
-        {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SE4w5)"},
-        {route:"beruehmte-don-mclean", label:"Portrait: Don McLean (SE4w5)"},
-        {route:"beruehmte-ludwig-goeransson", label:"Portrait: Ludwig Göransson (SE4w5)"},
-        {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SE4w5)"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
+        {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SP4w5)"},
+        {route:"beruehmte-don-mclean", label:"Portrait: Don McLean (SP4w5)"},
+        {route:"beruehmte-ludwig-goeransson", label:"Portrait: Ludwig Göransson (SP4w5)"},
+        {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5)"},
       ])}
     </div>
   `);
@@ -1491,7 +1491,7 @@ export function sucharitBhakdiPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
         {route:"beruehmte-juergen-klopp", label:"Portrait: Jürgen Klopp (SO1w2)"},
-        {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Portrait: Gloria von Thurn und Taxis (SE2w1)"},
+        {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Portrait: Gloria von Thurn und Taxis (SP2w1)"},
         {route:"beruehmte-jesus-christus", label:"Portrait: Jesus Christ (SO2w1)"},
         {route:"beruehmte-will-smith", label:"Portrait: Will Smith (SO2w3)"},
       ])}
@@ -1751,9 +1751,9 @@ export function carenMiosgaPortraitPage() {
         {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SP3 – Raccoon"},
         {route:"beruehmte-kathrin-bauerfeind", label:"Portrait: Kathrin Bauerfeind (SP3w4) – journalist, same subtype"},
         {route:"beruehmte-rosa-parks", label:"Portrait: Rosa Parks (SP3w4)"},
-        {route:"beruehmte-fiona-harvey", label:"Portrait: Fiona Harvey (SE2w3)"},
-        {route:"beruehmte-indira-gandhi", label:"Portrait: Indira Gandhi (SE3w4)"},
-        {route:"beruehmte-catherine-deneuve", label:"Portrait: Catherine Deneuve (SE3w4)"},
+        {route:"beruehmte-fiona-harvey", label:"Portrait: Fiona Harvey (SP2w3)"},
+        {route:"beruehmte-indira-gandhi", label:"Portrait: Indira Gandhi (SP3w4)"},
+        {route:"beruehmte-catherine-deneuve", label:"Portrait: Catherine Deneuve (SP3w4)"},
       ])}
     </div>
   `);
@@ -1887,7 +1887,7 @@ export function stringerDavisPortraitPage() {
         {route:"beruehmte-klaus-j-behrendt", label:"Portrait: Klaus J. Behrendt (SP6w5)"},
         {route:"beruehmte-anne-mcbride", label:"Portrait: Dr. Anne McBride (SP6w5)"},
         {route:"beruehmte-stan-laurel", label:"Portrait: Stan Laurel (SP6w5)"},
-        {route:"beruehmte-milan-peschel", label:"Portrait: Milan Peschel (SE6w5)"},
+        {route:"beruehmte-milan-peschel", label:"Portrait: Milan Peschel (SP6w5)"},
       ])}
     </div>
   `);
@@ -1947,7 +1947,7 @@ export function oliverHardyPortraitPage() {
         {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
         {route:"beruehmte-moritz-bleibtreu", label:"Portrait: Moritz Bleibtreu (SP7w8)"},
         {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SP7w8)"},
-        {route:"beruehmte-ilka-bessin", label:"Portrait: Ilka Bessin (SE7w8) – same subtype, different comedic register"},
+        {route:"beruehmte-ilka-bessin", label:"Portrait: Ilka Bessin (SP7w8) – same subtype, different comedic register"},
         {route:"beruehmte-stan-laurel", label:"Portrait: Stan Laurel (SP6w5) – his film partner"},
         {route:"kriminalpsychologie-andreas-baader", label:"Criminal Psychology: Andreas Baader (SP7w8)"},
       ])}
@@ -1965,7 +1965,7 @@ export function ellenMoonsPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ellen-moons-portrait.jpg" alt="Ellen Moons – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Prof. Dr. Ellen Moons</p>
-        <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 with a Nine Wing</p>
+        <p class="krim-portrait-typ">SP8w9 &middot; Self-Preservation Type 8 with a Nine Wing</p>
         <p class="krim-portrait-subtitle">Physicist, Secretary General of the Royal Swedish Academy of Sciences, b. 1966 &ndash; Animal correspondence: Orangutan</p>
       </div>
       <div class="page-content">
@@ -1978,7 +1978,7 @@ export function ellenMoonsPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Eight: Uncompromising Commitment to Her Own Research Territory</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Self-Preservation Eight (SE8)</strong> invests its strength, according to Naranjo, not in an abstract stage but in the consistent securing of its own, closest sphere of influence. In Moons this shows in the decades-long, persistent leadership of her own research group, SOLA, at Karlstad University, where she has been a full professor of materials physics since 2011, pursuing molecular self-assembly in thin films &ndash; a highly specialized, self-built territory she developed unwaveringly over many years.</p>
+          <p class="vb-intro">The <strong>Self-Preservation Eight (SP8)</strong> invests its strength, according to Naranjo, not in an abstract stage but in the consistent securing of its own, closest sphere of influence. In Moons this shows in the decades-long, persistent leadership of her own research group, SOLA, at Karlstad University, where she has been a full professor of materials physics since 2011, pursuing molecular self-assembly in thin films &ndash; a highly specialized, self-built territory she developed unwaveringly over many years.</p>
           <p class="vb-intro">The same territorial consistency shows in her current role as Secretary General of the Royal Swedish Academy of Sciences, which she has held since 2026 as the first woman in the institution's nearly three-hundred-year history: a central concern for her there is what she herself calls an "uncompromising" commitment to academic freedom and research freedom worldwide &ndash; the defense of a territory that reaches far beyond her own lab, but is defended with the same unwavering consistency.</p>
         </blockquote>
 
@@ -2011,9 +2011,9 @@ export function ellenMoonsPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se8", label:"SE8 – The Orangutan: Subtype Profile"},
-        {route:"beruehmte-helmut-kohl", label:"Portrait: Helmut Kohl (SE8w9) – same subtype"},
-        {route:"beruehmte-boris-grundl", label:"Portrait: Boris Grundl (SE8w9) – also the same subtype"},
+        {route:"subtype/se8", label:"SP8 – The Orangutan: Subtype Profile"},
+        {route:"beruehmte-helmut-kohl", label:"Portrait: Helmut Kohl (SP8w9) – same subtype"},
+        {route:"beruehmte-boris-grundl", label:"Portrait: Boris Grundl (SP8w9) – also the same subtype"},
       ])}
     </div>
   `);
@@ -2096,7 +2096,7 @@ export function arnoldSchwarzeneggerPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-arnold-schwarzenegger-portrait.jpg" alt="Arnold Schwarzenegger – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Arnold Schwarzenegger</p>
-        <p class="krim-portrait-typ">SE1w2 &middot; Self-Preservation Type 1 with a Two-Wing</p>
+        <p class="krim-portrait-typ">SP1w2 &middot; Self-Preservation Type 1 with a Two-Wing</p>
         <p class="krim-portrait-subtitle">Bodybuilder, actor & politician, born 1947 in Thal, Austria &ndash; Animal correspondence: Eagle</p>
       </div>
       <div class="page-content">
@@ -2109,32 +2109,32 @@ export function arnoldSchwarzeneggerPortraitPage() {
 
         <h2 class="vb-section">2. The self-preservation one: perfection as one's own, non-negotiable standard</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation one (SE1)</strong> does not direct its perfectionism outward, but works at its own preparation and integrity. Naranjo called this subtype <em>Worry</em>: the constant inner question of whether one is truly living up to one's own standard. Schwarzenegger's entire career follows this pattern with almost textbook consistency: a seven-time Mr. Olympia champion through the strictest training discipline, alongside a business degree earned by correspondence course and an early-built real estate portfolio – while other bodybuilders worked only on their bodies, he systematically controlled every area of his life.</p>
+          <p class="vb-intro">The <strong>self-preservation one (SP1)</strong> does not direct its perfectionism outward, but works at its own preparation and integrity. Naranjo called this subtype <em>Worry</em>: the constant inner question of whether one is truly living up to one's own standard. Schwarzenegger's entire career follows this pattern with almost textbook consistency: a seven-time Mr. Olympia champion through the strictest training discipline, alongside a business degree earned by correspondence course and an early-built real estate portfolio – while other bodybuilders worked only on their bodies, he systematically controlled every area of his life.</p>
           <p class="vb-intro">His best-known line, "There are no shortcuts," is not a marketing phrase but the essence of his inner standard: any shortcut would be a betrayal of his own integrity. He carried this same rigor unchanged into his acting career – a painstakingly trained English accent, years of targeted role preparation – and later into his political office as Governor of California (2003–2011).</p>
         </blockquote>
 
         <h2 class="vb-section">3. The two-wing: mentorship and targeted support</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>two-wing (w2)</strong> opens the inwardly controlled SE1 energy outward – not as broad, public warmth, but as targeted support for a chosen circle. In Schwarzenegger's case, this shows in his close, decades-long friendship with his training partner Franco Columbu, whom he supported from the very start of his career and kept as his closest confidant until Columbu's death in 2019.</p>
+          <p class="vb-intro">The <strong>two-wing (w2)</strong> opens the inwardly controlled SP1 energy outward – not as broad, public warmth, but as targeted support for a chosen circle. In Schwarzenegger's case, this shows in his close, decades-long friendship with his training partner Franco Columbu, whom he supported from the very start of his career and kept as his closest confidant until Columbu's death in 2019.</p>
           <p class="vb-intro">In 2002 he founded the After-School All-Stars, a support program for children from low-income families that remains active at hundreds of schools today – not diffuse goodwill, but a structured, long-term institution modeled on his own template of discipline and advancement through hard work. The eagle who deliberately passes on its own formula for success to others, rather than keeping it only for itself.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The passion: anger as a demand on one's own integrity</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The passion of the one is <strong>anger</strong> – in the SE1w2, it is directed above all at one's own inadequacy and at any form of half-heartedness. In 2011 it became public that Schwarzenegger had concealed a child from an extramarital relationship with a member of his household staff for over a decade – a secret that caused his carefully controlled public facade of integrity, maintained for decades, to collapse in on itself.</p>
-          <p class="vb-intro">Characteristic of the SE1w2 was his response: no public self-pity, but a terse, factual confirmation and an immediate withdrawal from public life for a time – the same inner standard with which he controlled himself now turned with full force against his own transgression.</p>
+          <p class="vb-intro">The passion of the one is <strong>anger</strong> – in the SP1w2, it is directed above all at one's own inadequacy and at any form of half-heartedness. In 2011 it became public that Schwarzenegger had concealed a child from an extramarital relationship with a member of his household staff for over a decade – a secret that caused his carefully controlled public facade of integrity, maintained for decades, to collapse in on itself.</p>
+          <p class="vb-intro">Characteristic of the SP1w2 was his response: no public self-pity, but a terse, factual confirmation and an immediate withdrawal from public life for a time – the same inner standard with which he controlled himself now turned with full force against his own transgression.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The crisis as mirror: discipline down to the heartbeat</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The SE1w2 has a vulnerability: it can let its own control become so absolute that it barely yields even to existential warning signs. Schwarzenegger had known since 1997 about a congenital heart valve defect and repeatedly chose, against medical advice, minimally invasive procedures over the open-heart surgery that was actually indicated – until an emergency operation became unavoidable in 2018, after a planned valve repair led to internal bleeding.</p>
-          <p class="vb-intro">From an Enneagram perspective, this is not mere stubbornness but the consequence of the pattern: for the SE1w2, treating one's own body like a perfectly controlled project also means refusing to submit one's own vulnerability to conditions set by others – until the body itself takes over control.</p>
+          <p class="vb-intro">The SP1w2 has a vulnerability: it can let its own control become so absolute that it barely yields even to existential warning signs. Schwarzenegger had known since 1997 about a congenital heart valve defect and repeatedly chose, against medical advice, minimally invasive procedures over the open-heart surgery that was actually indicated – until an emergency operation became unavoidable in 2018, after a planned valve repair led to internal bleeding.</p>
+          <p class="vb-intro">From an Enneagram perspective, this is not mere stubbornness but the consequence of the pattern: for the SP1w2, treating one's own body like a perfectly controlled project also means refusing to submit one's own vulnerability to conditions set by others – until the body itself takes over control.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The legacy: controlled discipline that became its own brand</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Arnold Schwarzenegger remains one of the few people to have taken three completely different careers – elite sport, Hollywood, politics – each to the very top. That is not the coincidence of three separate talents, but a single, consistent principle: the self-preservation one, subjecting every new field to the same iron self-discipline it once used to shape its own body.</p>
-          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-alain-delon">Alain Delon</a> (SE1w2) – he too shows the same controlled, almost relentless facade, behind which warmth was reserved only for a tightly chosen circle. More in the <a href="javascript:void(0)" data-route="beruehmte-alain-delon">portrait of Alain Delon</a>.</p>
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-alain-delon">Alain Delon</a> (SP1w2) – he too shows the same controlled, almost relentless facade, behind which warmth was reserved only for a tightly chosen circle. More in the <a href="javascript:void(0)" data-route="beruehmte-alain-delon">portrait of Alain Delon</a>.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
@@ -2143,11 +2143,11 @@ export function arnoldSchwarzeneggerPortraitPage() {
       </div>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
-        {route:"beruehmte-alain-delon", label:"Portrait: Alain Delon (SE1w2)"},
-        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SE1w2)"},
-        {route:"beruehmte-tim-cook", label:"Portrait: Tim Cook (SE1w9)"},
-        {route:"krankheitsportraets-arnold-schwarzenegger", label:"Illness Portrait: Arnold Schwarzenegger (SE1w2)"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
+        {route:"beruehmte-alain-delon", label:"Portrait: Alain Delon (SP1w2)"},
+        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
+        {route:"beruehmte-tim-cook", label:"Portrait: Tim Cook (SP1w9)"},
+        {route:"krankheitsportraets-arnold-schwarzenegger", label:"Illness Portrait: Arnold Schwarzenegger (SP1w2)"},
       ])}
     </div>
   `);
@@ -2206,7 +2206,7 @@ export function alecBaldwinPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
         {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7)"},
-        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SE1w9)"},
+        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SP1w9)"},
       ])}
     </div>
   `);
@@ -2360,7 +2360,7 @@ export function lorneGreenePortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-lorne-greene-portrait.jpg" alt="Lorne Greene" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Lorne Greene</p>
-        <p class="krim-portrait-typ">SE3w2 &middot; Self-Preservation Type 3 with a Two Wing</p>
+        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with a Two Wing</p>
         <p class="krim-portrait-subtitle">Actor and newscaster, 1915–1987 – Ben Cartwright in "Bonanza," Commander Adama in "Battlestar Galactica" – Animal correspondence: Raccoon</p>
       </div>
       <div class="page-content">
@@ -2379,8 +2379,8 @@ export function lorneGreenePortraitPage() {
 
         <h2 class="vb-section">3. The self-preservation Three: security through provable continuity</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation Three (SE3)</strong> is the countertype of the Three – security here arises not through a shifting image but through reliability proven over years. Naranjo called this subtype <em>Security</em>: trust is earned not through reinvention, but by delivering the same quality again and again. For fourteen seasons, from 1959 to 1973, Greene was, as Ben Cartwright, the calm, load-bearing center of "Bonanza" – one of the longest-running western series in US television history.</p>
-          <p class="vb-intro">It is telling how pragmatically Greene carried his already-established standing into new territory: in 1964 he recorded "Ringo," a spoken-word ballad, without ever having been a professional singer – and the single reached number one on the US Billboard charts. Not an artistic risk taken for its own sake, but the sober use of an already established, trusted voice for a new format – typically SE3.</p>
+          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> is the countertype of the Three – security here arises not through a shifting image but through reliability proven over years. Naranjo called this subtype <em>Security</em>: trust is earned not through reinvention, but by delivering the same quality again and again. For fourteen seasons, from 1959 to 1973, Greene was, as Ben Cartwright, the calm, load-bearing center of "Bonanza" – one of the longest-running western series in US television history.</p>
+          <p class="vb-intro">It is telling how pragmatically Greene carried his already-established standing into new territory: in 1964 he recorded "Ringo," a spoken-word ballad, without ever having been a professional singer – and the single reached number one on the US Billboard charts. Not an artistic risk taken for its own sake, but the sober use of an already established, trusted voice for a new format – typically SP3.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Two wing: care as a life theme, on screen and off</h2>
@@ -2391,7 +2391,7 @@ export function lorneGreenePortraitPage() {
 
         <h2 class="vb-section">5. Light and shadow of the self-preservation Three</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE3w2 shows in Greene's rare ability to be perceived as a reliable anchor across decades – whether as a wartime newscaster, a television father, or the savior of a fictional humanity – without that constancy ever feeling hollow or put on. His authority was never claimed; it was earned, piece by piece, over thousands of broadcast hours and shooting days.</p>
+          <p class="vb-intro">The light of the SP3w2 shows in Greene's rare ability to be perceived as a reliable anchor across decades – whether as a wartime newscaster, a television father, or the savior of a fictional humanity – without that constancy ever feeling hollow or put on. His authority was never claimed; it was earned, piece by piece, over thousands of broadcast hours and shooting days.</p>
           <p class="vb-intro">The shadow of the self-preservation Three lies in the risk of binding one's own identity so tightly to the reliable, competent facade that little room remains for anything else. Colleagues described Greene as extremely disciplined professionally but rather reserved in private – someone who consistently put the professional role ahead of the person, which produced security and trust but also carried a certain distance from himself.</p>
         </blockquote>
 
@@ -2401,10 +2401,10 @@ export function lorneGreenePortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype profile"},
-        {route:"beruehmte-horst-tappert", label:"Portrait: Horst Tappert (SE3w2)"},
-        {route:"beruehmte-bastian-pastewka", label:"Portrait: Bastian Pastewka (SE3w2)"},
-        {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SE3w2)"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype profile"},
+        {route:"beruehmte-horst-tappert", label:"Portrait: Horst Tappert (SP3w2)"},
+        {route:"beruehmte-bastian-pastewka", label:"Portrait: Bastian Pastewka (SP3w2)"},
+        {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SP3w2)"},
       ])}
     </div>
   `);
@@ -2487,7 +2487,7 @@ export function russellMeansPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-russell-means-portrait.jpg" alt="Russell Means – portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Russell Means</p>
-        <p class="krim-portrait-typ">SE3w4 · Self-Preservation Type 3 with a Four-wing</p>
+        <p class="krim-portrait-typ">SP3w4 · Self-Preservation Type 3 with a Four-wing</p>
         <p class="krim-portrait-subtitle">Activist, actor and author, 1939–2012 – spokesman of the American Indian Movement – animal equivalent: Raccoon</p>
       </div>
       <div class="page-content">
@@ -2500,7 +2500,7 @@ export function russellMeansPortraitPage() {
 
         <h2 class="vb-section">2. The self-preservation Three: appearing for a task, not for one's own image</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">At its core, the <strong>Three</strong>, according to Naranjo, is about the need to gain worth through achievement and effectiveness. The <strong>self-preservation Three (SE3)</strong> is regarded as the countertype: it does not seek glamour but wants to convince through ability and lasting structures. At first glance that seems not to fit Means, who occupied monuments and ships for the cameras. The difference lies in the object: he appeared as the spokesman of a cause larger than himself, and the stage was a tool, not an end in itself. His appearances had a goal and an effect that could be checked.</p>
+          <p class="vb-intro">At its core, the <strong>Three</strong>, according to Naranjo, is about the need to gain worth through achievement and effectiveness. The <strong>self-preservation Three (SP3)</strong> is regarded as the countertype: it does not seek glamour but wants to convince through ability and lasting structures. At first glance that seems not to fit Means, who occupied monuments and ships for the cameras. The difference lies in the object: he appeared as the spokesman of a cause larger than himself, and the stage was a tool, not an end in itself. His appearances had a goal and an effect that could be checked.</p>
           <p class="vb-intro">That this approach remained disputed is part of the picture. Critics inside and outside the movement also saw in him a man who sought attention. The typing therefore rests on behaviour over decades, not on single appearances: wherever he failed or was pushed out, he built anew somewhere else.</p>
         </blockquote>
 
@@ -2524,14 +2524,14 @@ export function russellMeansPortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow of the self-preservation Three</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE3w4 in Means lies in the ability to create effect from scarce means: to make a cause visible in a way that a world public could no longer overlook, and alongside it to create lasting institutions. This is the raccoon's resourcefulness on a larger scale.</p>
+          <p class="vb-intro">The light of the SP3w4 in Means lies in the ability to create effect from scarce means: to make a cause visible in a way that a world public could no longer overlook, and alongside it to create lasting institutions. This is the raccoon's resourcefulness on a larger scale.</p>
           <p class="vb-intro">The shadow is the restlessness that grows from the achievement pattern: whoever defines themselves through effect has trouble bearing setbacks and loss of significance. The repeated resignations, the factional fights and the tendency to keep looking for new stages can be read in this light, without thereby explaining or excusing them.</p>
         </blockquote>
 
         <h2 class="vb-section">7. The legacy: a life as a public figure</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In August 2011 Means was diagnosed with oesophageal cancer, which doctors called inoperable. He initially declined the standard treatment and relied on traditional remedies, though he later also underwent tomotherapy. In December 2011 he said he had beaten the cancer. Russell Means died on 22 October 2012 in Rapid City, South Dakota, aged 72. His ashes were scattered in the Black Hills.</p>
-          <p class="vb-intro">His image remains divided: for some a pioneer who brought the concerns of Native Americans into the world's awareness, for others a man who too often spoke for people who had not authorised him to. Both belong to an SE3w4 who for decades found tasks through which he was seen, and who measured his effect by what he set in motion.</p>
+          <p class="vb-intro">His image remains divided: for some a pioneer who brought the concerns of Native Americans into the world's awareness, for others a man who too often spoke for people who had not authorised him to. Both belong to an SP3w4 who for decades found tasks through which he was seen, and who measured his effect by what he set in motion.</p>
         </blockquote>
 
       </div>
@@ -2540,9 +2540,9 @@ export function russellMeansPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se3", label:"SE3 – The Raccoon: subtype profile"},
-        {route:"beruehmte-rosa-parks", label:"Portrait: Rosa Parks (SE3w4) – same subtype, another path of protest"},
-        {route:"beruehmte-johnny-cash", label:"Portrait: Johnny Cash (SE3w4) – same subtype and wing"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: subtype profile"},
+        {route:"beruehmte-rosa-parks", label:"Portrait: Rosa Parks (SP3w4) – same subtype, another path of protest"},
+        {route:"beruehmte-johnny-cash", label:"Portrait: Johnny Cash (SP3w4) – same subtype and wing"},
       ])}
     </div>
   `);
@@ -2629,7 +2629,7 @@ export function dietrichMateschitzPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-dietrich-mateschitz-portrait.jpg" alt="Dietrich Mateschitz – portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dietrich Mateschitz</p>
-        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 with a Nine-wing</p>
+        <p class="krim-portrait-typ">SP1w9 · Self-Preservation Type 1 with a Nine-wing</p>
         <p class="krim-portrait-subtitle">Austrian entrepreneur, 1944–2022 – co-founder of Red Bull – animal equivalent: Eagle</p>
       </div>
       <div class="page-content">
@@ -2642,7 +2642,7 @@ export function dietrichMateschitzPortraitPage() {
 
         <h2 class="vb-section">2. The self-preservation One: concern about success and control over the whole</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">At its core, the <strong>One</strong>, according to Naranjo, is about the inner demand to act rightly and without error, accompanied by suppressed anger at everything that falls short. The <strong>self-preservation One (SE1)</strong> carries this demand as a quiet worry whether one really lives up to it, and secures itself through preparation and control. In Mateschitz this can be linked to the way he kept the company in his hands: Red Bull never went public, he held 49 percent of the shares until his death, and for decades he decided product, image and direction himself.</p>
+          <p class="vb-intro">At its core, the <strong>One</strong>, according to Naranjo, is about the inner demand to act rightly and without error, accompanied by suppressed anger at everything that falls short. The <strong>self-preservation One (SP1)</strong> carries this demand as a quiet worry whether one really lives up to it, and secures itself through preparation and control. In Mateschitz this can be linked to the way he kept the company in his hands: Red Bull never went public, he held 49 percent of the shares until his death, and for decades he decided product, image and direction himself.</p>
           <p class="vb-intro">His private life also fits this picture: he gave few interviews, avoided society events, dressed deliberately casually and once said he did not believe in having many friends. That is not flight from the world but an attitude in which achievement and scrutiny count in private, and the public appearance belongs to the product, not the person.</p>
         </blockquote>
 
@@ -2666,7 +2666,7 @@ export function dietrichMateschitzPortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow of the self-preservation One</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE1w9 lies in Mateschitz in patience and precision: he waited years, reworked the product until it was right and then carried the project out with full consistency. To this adds generosity in private: in 2004 he co-founded, with Heinz Kinigadner, the foundation Wings for Life for research into spinal cord injuries and in 2012 donated 70 million euros to the Paracelsus Medical Private University.</p>
+          <p class="vb-intro">The light of the SP1w9 lies in Mateschitz in patience and precision: he waited years, reworked the product until it was right and then carried the project out with full consistency. To this adds generosity in private: in 2004 he co-founded, with Heinz Kinigadner, the foundation Wings for Life for research into spinal cord injuries and in 2012 donated 70 million euros to the Paracelsus Medical Private University.</p>
           <p class="vb-intro">The shadow is the hardness of control: whoever decides everything himself tolerates opposing forces poorly. The episode around the closure of Servus TV can be read in this light, without thereby excusing it.</p>
         </blockquote>
 
@@ -2682,10 +2682,10 @@ export function dietrichMateschitzPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se1", label:"SE1 – The Eagle: subtype profile"},
-        {route:"beruehmte-tim-cook", label:"Portrait: Tim Cook (SE1w9) – same subtype and wing, another corporation"},
-        {route:"beruehmte-phil-collins", label:"Portrait: Phil Collins (SE1w9) – same subtype and wing"},
-        {route:"beruehmte-wolfgang-grupp", label:"Portrait: Wolfgang Grupp (SE1w9)"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: subtype profile"},
+        {route:"beruehmte-tim-cook", label:"Portrait: Tim Cook (SP1w9) – same subtype and wing, another corporation"},
+        {route:"beruehmte-phil-collins", label:"Portrait: Phil Collins (SP1w9) – same subtype and wing"},
+        {route:"beruehmte-wolfgang-grupp", label:"Portrait: Wolfgang Grupp (SP1w9)"},
       ])}
     </div>
   `);
@@ -2701,7 +2701,7 @@ export function wolfgangGruppPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-wolfgang-grupp-portrait.jpg" alt="Wolfgang Grupp – portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Wolfgang Grupp</p>
-        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 with a Nine-wing</p>
+        <p class="krim-portrait-typ">SP1w9 · Self-Preservation Type 1 with a Nine-wing</p>
         <p class="krim-portrait-subtitle">German entrepreneur, b. 1942 – owner of Trigema until 2023 – animal equivalent: Eagle</p>
       </div>
       <div class="page-content">
@@ -2714,7 +2714,7 @@ export function wolfgangGruppPortraitPage() {
 
         <h2 class="vb-section">2. The self-preservation One: personal liability as a principle of life</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">At its core, the <strong>One</strong>, according to Naranjo, is about the inner demand to act rightly and about anger at everything that falls short. The <strong>self-preservation One (SE1)</strong> carries this demand as concern about security and order and secures itself through reliability. In Grupp this shows in a principle he has publicly held for decades: whoever runs a company is personally liable for their decisions. He himself was liable for 54 years as personally liable owner with his private assets and considered this equally self-evident for managers and politicians.</p>
+          <p class="vb-intro">At its core, the <strong>One</strong>, according to Naranjo, is about the inner demand to act rightly and about anger at everything that falls short. The <strong>self-preservation One (SP1)</strong> carries this demand as concern about security and order and secures itself through reliability. In Grupp this shows in a principle he has publicly held for decades: whoever runs a company is personally liable for their decisions. He himself was liable for 54 years as personally liable owner with his private assets and considered this equally self-evident for managers and politicians.</p>
           <p class="vb-intro">In it lies the One's pull toward moral clarity: whoever decides should stand for it. His anger is directed at irresponsibility, at managers who make decisions without bearing their consequences. His talk-show appearances, in which he passed clear judgments, can also be linked to this demand.</p>
         </blockquote>
 
@@ -2738,7 +2738,7 @@ export function wolfgangGruppPortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow of the self-preservation One</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE1w9 in Grupp lies in reliability: an entrepreneur who for decades did not shirk responsibility and offered his employees security. For this he received the Cicero Speaker Prize in 2005, honorary citizenship of Burladingen in 2012 and the Federal Cross of Merit, first class, in 2019.</p>
+          <p class="vb-intro">The light of the SP1w9 in Grupp lies in reliability: an entrepreneur who for decades did not shirk responsibility and offered his employees security. For this he received the Cicero Speaker Prize in 2005, honorary citizenship of Burladingen in 2012 and the Federal Cross of Merit, first class, in 2019.</p>
           <p class="vb-intro">The shadow is unyieldingness in judgment: whoever applies high standards to himself tends to impose them on others and tolerates objection to his principles poorly.</p>
         </blockquote>
 
@@ -2755,9 +2755,9 @@ export function wolfgangGruppPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se1", label:"SE1 – The Eagle: subtype profile"},
-        {route:"beruehmte-tim-cook", label:"Portrait: Tim Cook (SE1w9) – same subtype and wing, another corporation"},
-        {route:"beruehmte-dietrich-mateschitz", label:"Portrait: Dietrich Mateschitz (SE1w9) – same subtype and wing, another entrepreneur"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: subtype profile"},
+        {route:"beruehmte-tim-cook", label:"Portrait: Tim Cook (SP1w9) – same subtype and wing, another corporation"},
+        {route:"beruehmte-dietrich-mateschitz", label:"Portrait: Dietrich Mateschitz (SP1w9) – same subtype and wing, another entrepreneur"},
       ])}
     </div>
   `);

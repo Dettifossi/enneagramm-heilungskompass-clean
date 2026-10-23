@@ -56,8 +56,8 @@ export function christophKolumbusPortraitPage() {
         {route:"beruehmte-mariah-carey", label:"Portrait: Mariah Carey (SP7w8)"},
         {route:"beruehmte-kim-jong-un", label:"Portrait: Kim Jong Un (SP7w8)"},
         {route:"beruehmte-takashi-murakami", label:"Portrait: Takashi Murakami (SP7w8)"},
-        {route:"krankheitsportraets-christoph-kolumbus", label:"Illness Portrait: Christopher Columbus (SE7w8)"},
-        {route:"beruehmte-franz-peter-tebartz-van-elst", label:"Portrait: Franz-Peter Tebartz-van Elst (SE7w8)"},
+        {route:"krankheitsportraets-christoph-kolumbus", label:"Illness Portrait: Christopher Columbus (SP7w8)"},
+        {route:"beruehmte-franz-peter-tebartz-van-elst", label:"Portrait: Franz-Peter Tebartz-van Elst (SP7w8)"},
       ])}
     </div>
   `);
@@ -137,7 +137,7 @@ export function angelaMerkelPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-angela-merkel-portrait.jpg" alt="Angela Merkel – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Angela Merkel</p>
-        <p class="krim-portrait-typ">SE9w8 &middot; Self-Preservation Type 9 with aft wing</p>
+        <p class="krim-portrait-typ">SP9w8 &middot; Self-Preservation Type 9 with aft wing</p>
         <p class="krim-portrait-subtitle">Federal Chancellor 2005–2021, b. 1954 – Animal equivalent: Elephant</p>
       </div>
       <div class="page-content">
@@ -150,51 +150,51 @@ export function angelaMerkelPortraitPage() {
 
         <h2 class="vb-section">2. The self-preservation Nine: Sitting things out as a method</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to Naranjo, the self-preservation Nine (SE9) is the subtype he called Appetite – the tendency to settle into comfort and stability, avoid conflicts through passivity, and manage discomfort until it has dissolved. That sounds like weakness. It is one of the most effective forms of power that exists.</p>
+          <p class="vb-intro">According to Naranjo, the self-preservation Nine (SP9) is the subtype he called Appetite – the tendency to settle into comfort and stability, avoid conflicts through passivity, and manage discomfort until it has dissolved. That sounds like weakness. It is one of the most effective forms of power that exists.</p>
           <p class="vb-intro">Merkel's political method was sitting things out. She decided late, spoke little, let other positions exhaust themselves first – and then entered the room when the alternatives were burned out. That is often described as pragmatism. It is primarily the sloth of the Nine that has become a method: no attack, no retreat, only persistence – until the opponent is no longer there.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Eight wing: The Silent Power</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Eight wing gives the self-preservation Nine a quality that is barely visible from the outside until it is too late: power instinct, capacity for cool decision-making, and a willingness to sacrifice loyalties when necessary. The SE9 alone would wait. The SE9w8 waits – and then decides without hesitation.</p>
-          <p class="vb-intro">This side showed itself early. When the CDU donation scandal threatened to crush her political mentor Helmut Kohl in 1999/2000, Merkel – then CDU General Secretary – wrote an article in the Frankfurter Allgemeine Zeitung calling on the party to sever ties with Kohl and move forward independently. It was a public knife in the back of her mentor. Kohl always called her his "Mädchen" – meaning he had shaped her. The SE9w8 had just overtaken him without changing her expression.</p>
-          <p class="vb-intro">Helmut Kohl was a self-preservation type 8 with a Nine wing (SE8w9) – the bedrock, the great patriarch who treated the CDU for decades as his personal territory. The SE8 needs loyalty; he sees people through the lens of belonging and possession. For him, Merkel was not a conversation partner – she was his project, his discovery, his "Mädchen". What Helmut Kohl as an SE8 overlooked: The Nine does not submit. It adapts – and waits.</p>
-          <p class="vb-intro">The dynamic between SE8w9 and SE9w8 is instructive. The Eight dominates openly, occupies space, demands presence. The Nine lets him – registers, learns, quietly builds her own position. Kohl believed he had shaped Merkel. In truth, she had learned near him how power works – and how it works when you do not want to be a patriarch. The Eight must show that it is strong. The Nine does not have to – and precisely that is her advantage.</p>
+          <p class="vb-intro">The Eight wing gives the self-preservation Nine a quality that is barely visible from the outside until it is too late: power instinct, capacity for cool decision-making, and a willingness to sacrifice loyalties when necessary. The SP9 alone would wait. The SP9w8 waits – and then decides without hesitation.</p>
+          <p class="vb-intro">This side showed itself early. When the CDU donation scandal threatened to crush her political mentor Helmut Kohl in 1999/2000, Merkel – then CDU General Secretary – wrote an article in the Frankfurter Allgemeine Zeitung calling on the party to sever ties with Kohl and move forward independently. It was a public knife in the back of her mentor. Kohl always called her his "Mädchen" – meaning he had shaped her. The SP9w8 had just overtaken him without changing her expression.</p>
+          <p class="vb-intro">Helmut Kohl was a self-preservation type 8 with a Nine wing (SP8w9) – the bedrock, the great patriarch who treated the CDU for decades as his personal territory. The SP8 needs loyalty; he sees people through the lens of belonging and possession. For him, Merkel was not a conversation partner – she was his project, his discovery, his "Mädchen". What Helmut Kohl as an SP8 overlooked: The Nine does not submit. It adapts – and waits.</p>
+          <p class="vb-intro">The dynamic between SP8w9 and SP9w8 is instructive. The Eight dominates openly, occupies space, demands presence. The Nine lets him – registers, learns, quietly builds her own position. Kohl believed he had shaped Merkel. In truth, she had learned near him how power works – and how it works when you do not want to be a patriarch. The Eight must show that it is strong. The Nine does not have to – and precisely that is her advantage.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Early Independence: The End of the First Marriage</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Merkel's first marriage to physicist Ulrich Merkel – from whom she took her name – lasted from 1977 to 1982. The marriage failed, as many biographers describe, quietly and without drama: Merkel stayed in Berlin, her husband moved out. He took the washing machine with him. She did not seem to hesitate long.</p>
-          <p class="vb-intro">What this episode shows is less cold-bloodedness than an early willingness to let go when something no longer works – without grand explanations, without scenes, without looking back. The SE9w8 handles breakups like administrative procedures: objective, final, move on. The life of the self-preservation Nine remains orderly – even when everything is currently changing.</p>
+          <p class="vb-intro">What this episode shows is less cold-bloodedness than an early willingness to let go when something no longer works – without grand explanations, without scenes, without looking back. The SP9w8 handles breakups like administrative procedures: objective, final, move on. The life of the self-preservation Nine remains orderly – even when everything is currently changing.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Refugee Crisis and Corona: When Sitting Things Out Fails</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In 2015, Merkel opened German borders to over a million refugees. "Wir schaffen das" became the symbol of a decision made without parliamentary debate, without a legal basis, and without an impact assessment – and which overwhelmed a state and its administrative structures in a way that continues to resonate today. The SE9 acted out of a moral gesture. The Eight wing pushed it through. What was missing was the sober analysis of what comes next.</p>
-          <p class="vb-intro">A related quality emerged during the Corona crisis (2020–2022). Merkel appeared calm in press conferences – yet pursued a communication policy built on fear. "The pandemic will only end when everyone is vaccinated" was not a medical statement. It was a control statement formulated in the characteristic language of the SE9w8: no threat, no order – just a statement that leaves no alternative. Measures were extended, relaxations rolled back, fundamental rights restricted – with a determination that looked like responsibility to the outside and like persistence on one's own position from within.</p>
+          <p class="vb-intro">In 2015, Merkel opened German borders to over a million refugees. "Wir schaffen das" became the symbol of a decision made without parliamentary debate, without a legal basis, and without an impact assessment – and which overwhelmed a state and its administrative structures in a way that continues to resonate today. The SP9 acted out of a moral gesture. The Eight wing pushed it through. What was missing was the sober analysis of what comes next.</p>
+          <p class="vb-intro">A related quality emerged during the Corona crisis (2020–2022). Merkel appeared calm in press conferences – yet pursued a communication policy built on fear. "The pandemic will only end when everyone is vaccinated" was not a medical statement. It was a control statement formulated in the characteristic language of the SP9w8: no threat, no order – just a statement that leaves no alternative. Measures were extended, relaxations rolled back, fundamental rights restricted – with a determination that looked like responsibility to the outside and like persistence on one's own position from within.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Legacy: Greatness and Empty Space</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Angela Merkel is the longest-serving Chancellor in German history. She stabilized the country in a time of transition, survived major crises, and maintained a straightforwardness that even her critics respect. But the legacy of the sixteen years is also one of postponement: too little invested in infrastructure, digitalization, and defense. Too long hesitated with Russia. Too little explained, too much decided.</p>
-          <p class="vb-intro">That is the SE9w8 in her full contradiction: great in silence, strong in persistence, capable of cool decision-making – and at the same time vulnerable to that form of self-certainty that permits no more corrections. The elephant moves at its own pace. Sometimes that is wisdom. Sometimes that is standstill. And sometimes – when the elephant walks over things – you only realize afterwards what it has crushed.</p>
+          <p class="vb-intro">That is the SP9w8 in her full contradiction: great in silence, strong in persistence, capable of cool decision-making – and at the same time vulnerable to that form of self-certainty that permits no more corrections. The elephant moves at its own pace. Sometimes that is wisdom. Sometimes that is standstill. And sometimes – when the elephant walks over things – you only realize afterwards what it has crushed.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
-        {route:"astrologie-angela-merkel", label:"Enneagramm meets Astrologie: Angela Merkel (SE9w8)"},
-        {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SE9w8)"},
-        {route:"beruehmte-james-levine", label:"Portrait: James Levine (SE9w1)"},
-        {route:"beruehmte-margaret-rutherford", label:"Portrait: Margaret Rutherford (SE9w8)"},
-        {route:"beruehmte-carmen-goglin", label:"Portrait: Carmen Goglin (SE9w8)"},
-        {route:"beruehmte-charles-laughton", label:"Portrait: Charles Laughton (SE9w8)"},
-        {route:"beruehmte-david-hume", label:"Portrait: David Hume (SE9w8)"},
-        {route:"beruehmte-gina-rinehart", label:"Portrait: Gina Rinehart (SE9w8)"},
-        {route:"beruehmte-kevin-james", label:"Portrait: Kevin James (SE9w8)"},
+        {route:"astrologie-angela-merkel", label:"Enneagramm meets Astrologie: Angela Merkel (SP9w8)"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SP9w8)"},
+        {route:"beruehmte-james-levine", label:"Portrait: James Levine (SP9w1)"},
+        {route:"beruehmte-margaret-rutherford", label:"Portrait: Margaret Rutherford (SP9w8)"},
+        {route:"beruehmte-carmen-goglin", label:"Portrait: Carmen Goglin (SP9w8)"},
+        {route:"beruehmte-charles-laughton", label:"Portrait: Charles Laughton (SP9w8)"},
+        {route:"beruehmte-david-hume", label:"Portrait: David Hume (SP9w8)"},
+        {route:"beruehmte-gina-rinehart", label:"Portrait: Gina Rinehart (SP9w8)"},
+        {route:"beruehmte-kevin-james", label:"Portrait: Kevin James (SP9w8)"},
         {route:"beruehmte-ronald-reagan", label:"Portrait: Ronald Reagan (SO9w8)"},
-        {route:"beruehmte-thomas-von-aquin", label:"Portrait: Thomas Aquinas (SE9w8)"},
+        {route:"beruehmte-thomas-von-aquin", label:"Portrait: Thomas Aquinas (SP9w8)"},
         ])}
       </div>
     </div>
@@ -327,15 +327,15 @@ export function carlosSantanaPortraitPage() {
         {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SP2w3)"},
         {route:"beruehmte-oprah-winfrey", label:"Portrait: Oprah Winfrey (SP2w3)"},
         {route:"beruehmte-yayoi-kusama", label:"Portrait: Yayoi Kusama (SP2w3)"},
-        {route:"beruehmte-fiona-harvey", label:"Portrait: Fiona Harvey (SE2w3)"},
-        {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SE2w3)"},
-        {route:"beruehmte-harnaam-kaur", label:"Portrait: Harnaam Kaur (SE2w3)"},
-        {route:"beruehmte-ice-cube", label:"Portrait: Ice Cube (SE2w3)"},
-        {route:"beruehmte-mr-t", label:"Portrait: Mr. T (SE2w3)"},
-        {route:"beruehmte-nusrat-fateh-ali-khan", label:"Portrait: Nusrat Fateh Ali Khan (SE2w3)"},
-        {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SE2w3)"},
-        {route:"beruehmte-storm-reid", label:"Portrait: Storm Reid (SE2w3)"},
-        {route:"beruehmte-tom-kaulitz", label:"Portrait: Tom Kaulitz (SE2w3)"},
+        {route:"beruehmte-fiona-harvey", label:"Portrait: Fiona Harvey (SP2w3)"},
+        {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
+        {route:"beruehmte-harnaam-kaur", label:"Portrait: Harnaam Kaur (SP2w3)"},
+        {route:"beruehmte-ice-cube", label:"Portrait: Ice Cube (SP2w3)"},
+        {route:"beruehmte-mr-t", label:"Portrait: Mr. T (SP2w3)"},
+        {route:"beruehmte-nusrat-fateh-ali-khan", label:"Portrait: Nusrat Fateh Ali Khan (SP2w3)"},
+        {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SP2w3)"},
+        {route:"beruehmte-storm-reid", label:"Portrait: Storm Reid (SP2w3)"},
+        {route:"beruehmte-tom-kaulitz", label:"Portrait: Tom Kaulitz (SP2w3)"},
       ])}
     </div>
   `);
@@ -397,8 +397,8 @@ export function clemensArvayPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
         {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SP4w3)"},
-        {route:"beruehmte-christian-raetsch", label:"Portrait: Dr. Christian Rätsch (SE5w4)"},
-        {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SE4w5)"},
+        {route:"beruehmte-christian-raetsch", label:"Portrait: Dr. Christian Rätsch (SP5w4)"},
+        {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SP4w5)"},
       ])}
     </div>
   `);
@@ -626,7 +626,7 @@ export function goldaMeirPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-golda-meir-portrait.jpg" alt="Golda Meir – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Golda Meir</p>
-        <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 with nine-wing piano</p>
+        <p class="krim-portrait-typ">SP8w9 &middot; Self-Preservation Type 8 with nine-wing piano</p>
         <p class="krim-portrait-subtitle">Politician & statesman, 1898–1978 – Animal equivalent: Orangutan</p>
       </div>
       <div class="page-content">
@@ -639,49 +639,49 @@ export function goldaMeirPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Eight: The Right to Survival</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The self-preservation Eight (SE8) expresses the passion of the Eight—lust—through self-assertion, securing resources, and the unconditional right to one's own life. Naranjo called this subtype Satisfaction: satisfaction as a life principle. The SE8 wants to have what it needs—security, space, independence. Not out of greed, but out of the deep knowledge that only those who stand firm themselves can stand for others.</p>
-          <p class="vb-intro">Meir's childhood was marked by poverty and fear of pogroms in Tsarist Russia. The family fled to America; she grew up in Milwaukee, worked early, and secured her existence step by step. Her decision to emigrate to British Palestine in 1921 and live on a kibbutz was not a romantic one: it was the decision of an SE8 who had understood that lasting survival is only possible on one's own land. Not eventually. Now.</p>
+          <p class="vb-intro">The self-preservation Eight (SP8) expresses the passion of the Eight—lust—through self-assertion, securing resources, and the unconditional right to one's own life. Naranjo called this subtype Satisfaction: satisfaction as a life principle. The SP8 wants to have what it needs—security, space, independence. Not out of greed, but out of the deep knowledge that only those who stand firm themselves can stand for others.</p>
+          <p class="vb-intro">Meir's childhood was marked by poverty and fear of pogroms in Tsarist Russia. The family fled to America; she grew up in Milwaukee, worked early, and secured her existence step by step. Her decision to emigrate to British Palestine in 1921 and live on a kibbutz was not a romantic one: it was the decision of an SP8 who had understood that lasting survival is only possible on one's own land. Not eventually. Now.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Nine Wing: Patience as Statesmanship</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Nine wing grants the self-preservation Eight something that an Eight with a less developed Nine wing often struggles with: patience and the ability to hold many perspectives simultaneously. The SE8w7 is impulsive, risk-taking, direct—it wants things immediately. The SE8w9 can wait. It builds. It sees the big picture, even when the situation is unclear.</p>
-          <p class="vb-intro">Meir was Israel's Foreign Minister for ten years (1956–1966)—a term that speaks to the tenacity of an SE8, but also to the diplomatic patience of the Nine wing. She built relationships with African states when Israel threatened to become increasingly isolated on the international stage; she negotiated where others confronted; she let things mature where a more muted Nine wing would have forced them. David Ben-Gurion, who knew her like few others, called her simply: the best man in the cabinet.</p>
+          <p class="vb-intro">The Nine wing grants the self-preservation Eight something that an Eight with a less developed Nine wing often struggles with: patience and the ability to hold many perspectives simultaneously. The SP8w7 is impulsive, risk-taking, direct—it wants things immediately. The SP8w9 can wait. It builds. It sees the big picture, even when the situation is unclear.</p>
+          <p class="vb-intro">Meir was Israel's Foreign Minister for ten years (1956–1966)—a term that speaks to the tenacity of an SP8, but also to the diplomatic patience of the Nine wing. She built relationships with African states when Israel threatened to become increasingly isolated on the international stage; she negotiated where others confronted; she let things mature where a more muted Nine wing would have forced them. David Ben-Gurion, who knew her like few others, called her simply: the best man in the cabinet.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Work: From Milwaukee to Jerusalem</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Golda Meir was one of the 37 signatories of the Israeli Declaration of Independence on May 14, 1948. As Minister of Labor (1949–1956), she helped build the young state's social security system. As Foreign Minister, she changed her name from Mabovitch-Myerson to the Hebrew Meir—"the illuminating one". In 1969, at the age of 70, she became Prime Minister—one of the first women worldwide in such an office.</p>
-          <p class="vb-intro">Her leadership style was unmistakable: she held her cabinet together informally in her kitchen—the so-called kitchen cabinet—over tea and home-cooked food. No staging, no protocol distance. The SE8 needs no stage. It needs results.</p>
+          <p class="vb-intro">Her leadership style was unmistakable: she held her cabinet together informally in her kitchen—the so-called kitchen cabinet—over tea and home-cooked food. No staging, no protocol distance. The SP8 needs no stage. It needs results.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow: The Yom Kippur War</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE8w9 is its unshakeable presence. Meir was not a charismatic speaker in the traditional sense, but anyone sitting opposite her felt immediately: this woman cannot be intimidated. Her directness was not a mask; her humor was dry and self-deprecating; her loyalty to her people was unconditional. The SE8w9 is not one to show off. It is simply there—and that is enough.</p>
-          <p class="vb-intro">The shadow: On October 6, 1973, Yom Kippur, the highest Jewish holiday, Egyptian and Syrian troops attacked Israel in a coordinated assault. Meir had seen warning signs and acted too late; the element of surprise cost Israel heavy casualties. She accepted political responsibility and resigned in April 1974. The SE8 does not apologize. It bears the consequences.</p>
+          <p class="vb-intro">The light of the SP8w9 is its unshakeable presence. Meir was not a charismatic speaker in the traditional sense, but anyone sitting opposite her felt immediately: this woman cannot be intimidated. Her directness was not a mask; her humor was dry and self-deprecating; her loyalty to her people was unconditional. The SP8w9 is not one to show off. It is simply there—and that is enough.</p>
+          <p class="vb-intro">The shadow: On October 6, 1973, Yom Kippur, the highest Jewish holiday, Egyptian and Syrian troops attacked Israel in a coordinated assault. Meir had seen warning signs and acted too late; the element of surprise cost Israel heavy casualties. She accepted political responsibility and resigned in April 1974. The SP8 does not apologize. It bears the consequences.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Orangutan Who Could Not Be Moved</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Golda Meir was one of the most powerful women of the 20th century, and she would have been the last to say that sentence about herself. That is the SE8w9: power without pathos, strength without self-dramatization. She came from the deepest nothingness—poverty, emigration, exile—and ended up at the head of a state she had co-founded. The orangutan that climbs slowly, never falls, and in the end sits higher than all those who were louder.</p>
+          <p class="vb-intro">Golda Meir was one of the most powerful women of the 20th century, and she would have been the last to say that sentence about herself. That is the SP8w9: power without pathos, strength without self-dramatization. She came from the deepest nothingness—poverty, emigration, exile—and ended up at the head of a state she had co-founded. The orangutan that climbs slowly, never falls, and in the end sits higher than all those who were louder.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
-        <p class="vb-intro">The lymphoma diagnosis Meir kept secret for seventeen years, throughout her entire term as Prime Minister, is explored in full in the separate <a href="javascript:void(0)" data-route="krankheitsportraets-golda-meir">illness portrait on Meir</a> – with a parallel to Winston Churchill (also SE8w9), whose own concealed stroke is explored in the <a href="javascript:void(0)" data-route="krankheitsportraets-winston-churchill">illness portrait on Churchill</a>.</p>
+        <p class="vb-intro">The lymphoma diagnosis Meir kept secret for seventeen years, throughout her entire term as Prime Minister, is explored in full in the separate <a href="javascript:void(0)" data-route="krankheitsportraets-golda-meir">illness portrait on Meir</a> – with a parallel to Winston Churchill (also SP8w9), whose own concealed stroke is explored in the <a href="javascript:void(0)" data-route="krankheitsportraets-winston-churchill">illness portrait on Churchill</a>.</p>
 
         ${relatedLinks([
-        {route:"krankheitsportraets-golda-meir", label:"Illness Portrait: Golda Meir (SE8w9)"},
-        {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SE8w9)"},
-        {route:"beruehmte-umberto-eco", label:"Portrait: Umberto Eco (SE8w7)"},
-        {route:"astrologie-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
-        {route:"krankheitsportraets-winston-churchill", label:"Illness Portrait: Winston Churchill (SE8w9)"},
-        {route:"beruehmte-franz-josef-strauss", label:"Portrait: Franz Josef Strauß (SE8w9)"},
-        {route:"beruehmte-dhapanbal-yunupingu", label:"Portrait: Dhapanbal Yunupingu (SE8w9)"},
-        {route:"beruehmte-helmut-kohl", label:"Portrait: Helmut Kohl (SE8w9)"},
-        {route:"beruehmte-jacqueline-mars", label:"Portrait: Jacqueline Mars (SE8w7)"},
-        {route:"beruehmte-winston-churchill", label:"Portrait: Winston Churchill (SE8w9)"},
+        {route:"krankheitsportraets-golda-meir", label:"Illness Portrait: Golda Meir (SP8w9)"},
+        {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SP8w9)"},
+        {route:"beruehmte-umberto-eco", label:"Portrait: Umberto Eco (SP8w7)"},
+        {route:"astrologie-angela-merkel", label:"Portrait: Angela Merkel (SP9w8)"},
+        {route:"krankheitsportraets-winston-churchill", label:"Illness Portrait: Winston Churchill (SP8w9)"},
+        {route:"beruehmte-franz-josef-strauss", label:"Portrait: Franz Josef Strauß (SP8w9)"},
+        {route:"beruehmte-dhapanbal-yunupingu", label:"Portrait: Dhapanbal Yunupingu (SP8w9)"},
+        {route:"beruehmte-helmut-kohl", label:"Portrait: Helmut Kohl (SP8w9)"},
+        {route:"beruehmte-jacqueline-mars", label:"Portrait: Jacqueline Mars (SP8w7)"},
+        {route:"beruehmte-winston-churchill", label:"Portrait: Winston Churchill (SP8w9)"},
         ])}
       </div>
     </div>
@@ -756,7 +756,7 @@ export function heraklitPortraitPage() {
         {route:"beruehmte-gustav-mahler", label:"Portrait: Gustav Mahler (SO4w5)"},
         {route:"beruehmte-pythagoras", label:"Portrait: Pythagoras (SO5w6) – whom he sharply criticized in his fragments"},
         {route:"beruehmte-platon", label:"Portrait: Plato (SX6w5)"},
-        {route:"beruehmte-soeren-kierkegaard", label:"Portrait: Søren Kierkegaard (SE2w1)"},
+        {route:"beruehmte-soeren-kierkegaard", label:"Portrait: Søren Kierkegaard (SP2w1)"},
         {route:"beruehmte-sokrates", label:"Portrait: Socrates (SO8w7)"},
       ])}
     </div>
@@ -1175,7 +1175,7 @@ export function magnusCarlsenPortraitPage() {
         {route:"beruehmte-anthony-hopkins", label:"Portrait: Anthony Hopkins (SP1w9)"},
         {route:"beruehmte-sting", label:"Portrait: Sting (SP1w9)"},
         {route:"beruehmte-herman-van-veen", label:"Portrait: Herman van Veen (SP1w9)"},
-        {route:"beruehmte-judit-polgar", label:"Portrait: Judit Polgár (SE3w4) – defeated him in chess"},
+        {route:"beruehmte-judit-polgar", label:"Portrait: Judit Polgár (SP3w4) – defeated him in chess"},
       ])}
     </div>
   `);
@@ -1387,7 +1387,7 @@ export function queenElizabethIIPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-queen-elizabeth-ii-portrait.jpg" alt="Queen Elizabeth II." class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Queen Elizabeth II.</p>
-        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with Nine-Wing</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-Wing</p>
         <p class="krim-portrait-subtitle">Queen of the United Kingdom, 1926–2022 – Animal equivalent: Eagle</p>
       </div>
       <div class="page-content">
@@ -1395,39 +1395,39 @@ export function queenElizabethIIPortraitPage() {
         <h2 class="vb-section">1. The Eagle</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Elizabeth Alexandra Mary Windsor ascended the throne in 1952 at the age of twenty-five, following the death of her father King George VI—a throne she had not sought, which had fallen to her through the abdication of her uncle Edward VIII. She said yes. Not with enthusiasm, not with ambition—but with the quiet, absolute resolve of a person who understands that certain tasks are non-negotiable. For seventy years, she renewed this yes every single day. The eagle remained at its post.</p>
-          <p class="vb-intro">The British monarch Queen Elizabeth II lived out this pattern in a form that is historically unique. In seventy years, she never gave an interview in which she expressed her personal opinion on a political question. Never. Not because she didn't have one—but because she knew the position was more important than the person. The SE1 does not deny its own wishes out of weakness. It puts them aside out of inner conviction: "This comes first."</p>
+          <p class="vb-intro">The British monarch Queen Elizabeth II lived out this pattern in a form that is historically unique. In seventy years, she never gave an interview in which she expressed her personal opinion on a political question. Never. Not because she didn't have one—but because she knew the position was more important than the person. The SP1 does not deny its own wishes out of weakness. It puts them aside out of inner conviction: "This comes first."</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation One: Duty as Life's Purpose</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Her guiding principle was never formulated, but it was palpable: "Never complain, never explain." That is the SE1 in its purest, most disciplined form. She endured what others would not endure—not as a victim, but as an expression of what she considered right.</p>
+          <p class="vb-intro">Her guiding principle was never formulated, but it was palpable: "Never complain, never explain." That is the SP1 in its purest, most disciplined form. She endured what others would not endure—not as a victim, but as an expression of what she considered right.</p>
           <p class="vb-intro">This wing explains why Queen Elizabeth II could remain the center of a country that changed profoundly around her for seventy years. Empire, decolonization, Cold War, Thatcher, Blair, Brexit, pandemic—she outlasted it all without ever taking a position. That is not indifference. That is the capacity of the nine-energy to keep the space open for others. By the Queen remaining silent, the country was allowed to speak.</p>
           <p class="vb-intro">The same shows in her private world: the corgi dogs that accompanied her for a lifetime; the annual stay at Balmoral, the Scottish castle that meant more to her than Buckingham Palace; the long marriage to Prince Philip, based on deep mutual loyalty. The nine wing needs its anchors. It is not weak—it knows where it is rooted.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Nine Wing: Peace as a Second Force</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Queen Elizabeth II channeled this inner wrath in the form of duty. She worked until the last year of her life—two days before her death, on September 6, 2022, she still received Prime Minister Liz Truss at Balmoral. She was ninety-six years old. That is no longer a sense of duty. That is the SE1w9 in its final, complete consequence: the eagle that leaves its post only when there is no other possibility left.</p>
-          <p class="vb-intro">The SE1w9 has a vulnerability: in moments demanding human warmth, it can appear like coldness. The death of Princess Diana in August 1997 became Queen Elizabeth II's toughest public test of her reign. The Queen stayed at Balmoral, followed protocol, showed no emotion—while the country sank into mourning and outrage. The press asked: "Where is the Queen?"</p>
-          <p class="vb-intro">From an Enneagram perspective, this moment is not a failure of the person, but the limit of the pattern: The SE1w9 sticks to what is right—and what was right, as she understood it, was protocol and demeanor. That the people needed something else only became clear to her through external pressure. She returned to London, spoke live to the nation, bowed before Diana's coffin. For an SE1w9, that was an extraordinary step: leaving the pattern because the situation demanded it.</p>
+          <p class="vb-intro">Queen Elizabeth II channeled this inner wrath in the form of duty. She worked until the last year of her life—two days before her death, on September 6, 2022, she still received Prime Minister Liz Truss at Balmoral. She was ninety-six years old. That is no longer a sense of duty. That is the SP1w9 in its final, complete consequence: the eagle that leaves its post only when there is no other possibility left.</p>
+          <p class="vb-intro">The SP1w9 has a vulnerability: in moments demanding human warmth, it can appear like coldness. The death of Princess Diana in August 1997 became Queen Elizabeth II's toughest public test of her reign. The Queen stayed at Balmoral, followed protocol, showed no emotion—while the country sank into mourning and outrage. The press asked: "Where is the Queen?"</p>
+          <p class="vb-intro">From an Enneagram perspective, this moment is not a failure of the person, but the limit of the pattern: The SP1w9 sticks to what is right—and what was right, as she understood it, was protocol and demeanor. That the people needed something else only became clear to her through external pressure. She returned to London, spoke live to the nation, bowed before Diana's coffin. For an SP1w9, that was an extraordinary step: leaving the pattern because the situation demanded it.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Passion: Wrath as Inner Rigor</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Queen Elizabeth II gave to the United Kingdom—and to a world that reinvented itself multiple times in seventy years—can be summarized in one word: constancy. In an era of incessant change, she was the thing that did not change. No scandal made her speak. No crisis drove her from her post. No fashion swept her along.</p>
-          <p class="vb-intro">That is the gift of the SE1w9: reliability as home. An eagle sitting on its rock—not because it couldn't move, but because it knows its task is endurance. Queen Elizabeth II took her last breath in Balmoral on September 8, 2022. Her son Charles III succeeded her on the throne. The rock is empty. But it is still there.</p>
+          <p class="vb-intro">That is the gift of the SP1w9: reliability as home. An eagle sitting on its rock—not because it couldn't move, but because it knows its task is endurance. Queen Elizabeth II took her last breath in Balmoral on September 8, 2022. Her son Charles III succeeded her on the throne. The rock is empty. But it is still there.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Crisis as a Mirror: 1997 and the Limits of Silence</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The SE1w9 has a weak point: it can seem like cold in moments that require human warmth. The death of Princess Diana in August 1997 became Queen Elizabeth II's toughest public test of her reign. The Queen stayed at Balmoral, followed protocol, showed no emotion &mdash; while the country sank into grief and outrage. The press asked: <em>Where is the queen?</em></p>
-          <p class="vb-intro">From an Enneagram perspective, this moment is not a failure of the person, but the limit of the pattern: The SE1w9 is sticking to the right thing &mdash; and the right thing, as she understood it, was protocol and attitude. It was only through external pressure that she became aware that the people needed something different. She returned to London, spoke live to the nation, bowed in front of Diana's coffin. This was an extraordinary step for an SE1w9: leaving the pattern because the situation demanded it.</p>
+          <p class="vb-intro">The SP1w9 has a weak point: it can seem like cold in moments that require human warmth. The death of Princess Diana in August 1997 became Queen Elizabeth II's toughest public test of her reign. The Queen stayed at Balmoral, followed protocol, showed no emotion &mdash; while the country sank into grief and outrage. The press asked: <em>Where is the queen?</em></p>
+          <p class="vb-intro">From an Enneagram perspective, this moment is not a failure of the person, but the limit of the pattern: The SP1w9 is sticking to the right thing &mdash; and the right thing, as she understood it, was protocol and attitude. It was only through external pressure that she became aware that the people needed something different. She returned to London, spoke live to the nation, bowed in front of Diana's coffin. This was an extraordinary step for an SP1w9: leaving the pattern because the situation demanded it.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Gift: Constancy as Home</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Queen Elizabeth II did to the United Kingdom &mdash; and a world that has reinvented itself several times in seventy years &mdash; can be summed up in one word: consistency. In an era of constant change, she was what didn't change. No scandal has made her speak. No crisis drove her from her post. No fashion took her away.</p>
-          <p class="vb-intro">This is the gift of SE1w9: reliability as a home. An eagle sitting on its rock &mdash; not because he cannot move, but because he knows that his task is permanent. Queen Elizabeth II breathed her last at Balmoral on September 8, 2022. Her son Charles III. followed her to the throne. The rock is empty. But he's still there.</p>
+          <p class="vb-intro">This is the gift of SP1w9: reliability as a home. An eagle sitting on its rock &mdash; not because he cannot move, but because he knows that his task is permanent. Queen Elizabeth II breathed her last at Balmoral on September 8, 2022. Her son Charles III. followed her to the throne. The rock is empty. But he's still there.</p>
         </blockquote>
 
       </div>
@@ -1436,20 +1436,20 @@ export function queenElizabethIIPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
-        {route:"beruehmte-sting", label:"Portrait: Sting (SE1w9)"},
-        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SE1w2)"},
-        {route:"beruehmte-ludwig-wittgenstein", label:"Portrait: Ludwig Wittgenstein (SE1w9)"},
-        {route:"beruehmte-harald-v", label:"Portrait: King Harald V (SE1w9)"},
-        {route:"beruehmte-alain-delon", label:"Portrait: Alain Delon (SE1w2)"},
-        {route:"beruehmte-carl-xvi-gustaf", label:"Portrait: Carl XVI Gustaf (SE1w9)"},
-        {route:"beruehmte-johannes-paul-ii", label:"Portrait: John Paul II (SE1w9)"},
-        {route:"beruehmte-joseph-aoun", label:"Portrait: Joseph Aoun (SE1w9)"},
-        {route:"beruehmte-konrad-adenauer", label:"Portrait: Konrad Adenauer (SE1w9)"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
+        {route:"beruehmte-sting", label:"Portrait: Sting (SP1w9)"},
+        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
+        {route:"beruehmte-ludwig-wittgenstein", label:"Portrait: Ludwig Wittgenstein (SP1w9)"},
+        {route:"beruehmte-harald-v", label:"Portrait: King Harald V (SP1w9)"},
+        {route:"beruehmte-alain-delon", label:"Portrait: Alain Delon (SP1w2)"},
+        {route:"beruehmte-carl-xvi-gustaf", label:"Portrait: Carl XVI Gustaf (SP1w9)"},
+        {route:"beruehmte-johannes-paul-ii", label:"Portrait: John Paul II (SP1w9)"},
+        {route:"beruehmte-joseph-aoun", label:"Portrait: Joseph Aoun (SP1w9)"},
+        {route:"beruehmte-konrad-adenauer", label:"Portrait: Konrad Adenauer (SP1w9)"},
         {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Portrait: Marie-Agnes Strack-Zimmermann (SX1w9)"},
-        {route:"beruehmte-marie-kondo", label:"Portrait: Marie Kondo (SE1w2)"},
-        {route:"beruehmte-phil-collins", label:"Portrait: Phil Collins (SE1w9)"},
-        {route:"beruehmte-tim-cook", label:"Portrait: Tim Cook (SE1w9)"},
+        {route:"beruehmte-marie-kondo", label:"Portrait: Marie Kondo (SP1w2)"},
+        {route:"beruehmte-phil-collins", label:"Portrait: Phil Collins (SP1w9)"},
+        {route:"beruehmte-tim-cook", label:"Portrait: Tim Cook (SP1w9)"},
       ])}
     </div>
   `);
@@ -1522,7 +1522,7 @@ export function sahraWagenknechtPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-cristiano-ronaldo", label:"Portrait: Cristiano Ronaldo (SO3w2)"},
         {route:"beruehmte-obama", label:"Portrait: Barack Obama (SO2w3)"},
-        {route:"beruehmte-wolodymyr-selenskyj", label:"Portrait: Wolodymyr Selenskyj (SE3w2)"},
+        {route:"beruehmte-wolodymyr-selenskyj", label:"Portrait: Wolodymyr Selenskyj (SP3w2)"},
         {route:"beruehmte-klemens-von-metternich", label:"Portrait: Klemens von Metternich (SO3w2)"},
         {route:"beruehmte-christiaan-barnard", label:"Portrait: Dr. Christiaan Barnard (SO3w2)"},
         {route:"beruehmte-karl-lagerfeld", label:"Portrait: Karl Lagerfeld (SO3w4)"},
@@ -1590,7 +1590,7 @@ export function stormReidPortraitPage() {
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
         {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SP2w3)"},
         {route:"beruehmte-tom-kaulitz", label:"Portrait: Tom Kaulitz (SP2w3)"},
-        {route:"beruehmte-madeline-stuart", label:"Portrait: Madeline Stuart (SE2w3)"},
+        {route:"beruehmte-madeline-stuart", label:"Portrait: Madeline Stuart (SP2w3)"},
       ])}
     </div>
   `);
@@ -1649,11 +1649,11 @@ export function toniMorrisonPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se8", label:"SP8 – The Orangutan: Subtype Profile"},
         {route:"beruehmte-umberto-eco", label:"Portrait: Umberto Eco (SP8w7)"},
-        {route:"beruehmte-draupadi-murmu", label:"Portrait: Draupadi Murmu (SE8w9) – the same quiet tenacity after structural disadvantage"},
-        {route:"beruehmte-dhapanbal-yunupingu", label:"Portrait: Dhapanbal Yunupingu (SE8w9)"},
-        {route:"beruehmte-erich-von-daeniken", label:"Portrait: Erich von Däniken (SE8w9)"},
-        {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SE8w9)"},
-        {route:"beruehmte-jacqueline-mars", label:"Portrait: Jacqueline Mars (SE8w7)"},
+        {route:"beruehmte-draupadi-murmu", label:"Portrait: Draupadi Murmu (SP8w9) – the same quiet tenacity after structural disadvantage"},
+        {route:"beruehmte-dhapanbal-yunupingu", label:"Portrait: Dhapanbal Yunupingu (SP8w9)"},
+        {route:"beruehmte-erich-von-daeniken", label:"Portrait: Erich von Däniken (SP8w9)"},
+        {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SP8w9)"},
+        {route:"beruehmte-jacqueline-mars", label:"Portrait: Jacqueline Mars (SP8w7)"},
         {route:"beruehmte-jamaica-kincaid", label:"Portrait: Jamaica Kincaid (SO8w9)"},
         {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
       ])}
@@ -1795,8 +1795,8 @@ export function joachimLlambiPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
-        {route:"lebensmusterkompass/se2", label:"Life Pattern Compass: SE2 – Hippopotamus"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"lebensmusterkompass/se2", label:"Life Pattern Compass: SP2 – Hippopotamus"},
         {route:"beruehmte-jack-black", label:"Portrait: Jack Black (SP2w1)"},
         {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Portrait: Gloria von Thurn und Taxis (SP2w1)"},
         {route:"beruehmte-soeren-kierkegaard", label:"Portrait: Søren Kierkegaard (SP2w1)"},
@@ -1928,7 +1928,7 @@ export function margaretRutherfordPortraitPage() {
         {route:"beruehmte-abida-parveen", label:"Portrait: Abida Parveen (SP9w8)"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SP9w8)"},
         {route:"beruehmte-kevin-james", label:"Portrait: Kevin James (SP9w8)"},
-        {route:"krankheitsportraets-margaret-rutherford", label:"Illness Portrait: Margaret Rutherford (SE9w8) – depression and dementia"},
+        {route:"krankheitsportraets-margaret-rutherford", label:"Illness Portrait: Margaret Rutherford (SP9w8) – depression and dementia"},
         {route:"beruehmte-stringer-davis", label:"Portrait: Stringer Davis (SP6w5) – her husband"},
         {route:"beruehmte-charles-laughton", label:"Portrait: Charles Laughton (SP9w8)"},
       ])}
@@ -2083,7 +2083,7 @@ export function philCollinsPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-phil-collins-portrait.jpg" alt="Phil Collins – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Phil Collins</p>
-        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with a Nine-Wing</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with a Nine-Wing</p>
         <p class="krim-portrait-subtitle">Musician, drummer, born 1951 – Animal correspondence: Eagle</p>
       </div>
       <div class="page-content">
@@ -2096,8 +2096,8 @@ export function philCollinsPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation One: Perfection as a Quiet Demand on Oneself</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Self-Preservation One (SE1)</strong> carries its perfectionism not outward, but inward. Naranjo called this subtype <em>Worry</em>: the constant inner question of whether one truly lives up to the task. Collins' production work was famous for exactly this discipline: the distinctive, compressed gated-reverb drum sound on "In the Air Tonight" emerged from months of meticulous studio experimentation with producer Hugh Padgham, not from a spontaneous flash of inspiration.</p>
-          <p class="vb-intro">The same inner strictness showed in how he dealt with his own failures as a husband and father. After three failed marriages, Collins spoke with unusual openness in later interviews and in his autobiography "Not Dead Yet" (2016) about his regret over spending too little time with his children because of constant touring – no self-pity, but the same inner accounting the SE1 applies to every achievement of its own.</p>
+          <p class="vb-intro">The <strong>Self-Preservation One (SP1)</strong> carries its perfectionism not outward, but inward. Naranjo called this subtype <em>Worry</em>: the constant inner question of whether one truly lives up to the task. Collins' production work was famous for exactly this discipline: the distinctive, compressed gated-reverb drum sound on "In the Air Tonight" emerged from months of meticulous studio experimentation with producer Hugh Padgham, not from a spontaneous flash of inspiration.</p>
+          <p class="vb-intro">The same inner strictness showed in how he dealt with his own failures as a husband and father. After three failed marriages, Collins spoke with unusual openness in later interviews and in his autobiography "Not Dead Yet" (2016) about his regret over spending too little time with his children because of constant touring – no self-pity, but the same inner accounting the SP1 applies to every achievement of its own.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Nine-Wing: Modesty Instead of a Rockstar Facade</h2>
@@ -2108,14 +2108,14 @@ export function philCollinsPortraitPage() {
 
         <h2 class="vb-section">4. The Passion: Anger as Inward Accounting</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The passion of the One is called <strong>anger</strong> – in the SE1w9 it turns not outward, but inward: as an unrelenting standard applied to one's own performance and conduct. His solo debut album "Face Value" (1981), written during his first divorce, is exactly this inward-turned anger set to music – raw, self-critical, without placing the blame solely on his ex-wife.</p>
+          <p class="vb-intro">The passion of the One is called <strong>anger</strong> – in the SP1w9 it turns not outward, but inward: as an unrelenting standard applied to one's own performance and conduct. His solo debut album "Face Value" (1981), written during his first divorce, is exactly this inward-turned anger set to music – raw, self-critical, without placing the blame solely on his ex-wife.</p>
           <p class="vb-intro">The same harshness toward himself showed professionally: Collins later openly called his own decades-long absence from home his greatest mistake – not a reproach directed at outside circumstances, but his own failing, which he himself never fully forgave.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Crisis as a Mirror: Playing On Through Pain</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The SE1w9 has a weak spot: it can downplay its own suffering until the body itself draws the line. After his 2015 fall, Collins could no longer walk without help and had to perform his concerts seated, helped on and off stage with crutches. Rather than cancel the tour, he played "Not Dead Yet" through to 2019 – a title he had chosen himself, with dry humor.</p>
-          <p class="vb-intro">From an Enneagram perspective, this is not mere stubbornness, but the pattern's logic at work: for the SE1w9, the commitment made counts for more than one's own comfort. Only once his condition made continuing objectively impossible did he withdraw – not sooner, by his own judgment.</p>
+          <p class="vb-intro">The SP1w9 has a weak spot: it can downplay its own suffering until the body itself draws the line. After his 2015 fall, Collins could no longer walk without help and had to perform his concerts seated, helped on and off stage with crutches. Rather than cancel the tour, he played "Not Dead Yet" through to 2019 – a title he had chosen himself, with dry humor.</p>
+          <p class="vb-intro">From an Enneagram perspective, this is not mere stubbornness, but the pattern's logic at work: for the SP1w9, the commitment made counts for more than one's own comfort. Only once his condition made continuing objectively impossible did he withdraw – not sooner, by his own judgment.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Legacy: Reliability Instead of Showmanship</h2>
@@ -2130,13 +2130,13 @@ export function philCollinsPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
-        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SE1w9)"},
-        {route:"beruehmte-sting", label:"Portrait: Sting (SE1w9)"},
-        {route:"beruehmte-harald-v", label:"Portrait: King Harald V (SE1w9)"},
-        {route:"krankheitsportraets-phil-collins", label:"Illness Portrait: Phil Collins (SE1w9)"},
-        {route:"beruehmte-dietrich-mateschitz", label:"Portrait: Dietrich Mateschitz (SE1w9)"},
-        {route:"beruehmte-tim-cook", label:"Portrait: Tim Cook (SE1w9)"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SP1w9)"},
+        {route:"beruehmte-sting", label:"Portrait: Sting (SP1w9)"},
+        {route:"beruehmte-harald-v", label:"Portrait: King Harald V (SP1w9)"},
+        {route:"krankheitsportraets-phil-collins", label:"Illness Portrait: Phil Collins (SP1w9)"},
+        {route:"beruehmte-dietrich-mateschitz", label:"Portrait: Dietrich Mateschitz (SP1w9)"},
+        {route:"beruehmte-tim-cook", label:"Portrait: Tim Cook (SP1w9)"},
       ])}
     </div>
   `);
@@ -2228,7 +2228,7 @@ export function katieCouricPortraitPage() {
         <h2 class="vb-section">2. The Self-Preservation Six: Security Through Concrete Prevention</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Naranjo described the self-preservation Six through the theme of <em>security through concrete, practical precaution</em>: fear isn't processed abstractly, but translated into tangible protective measures &ndash; in one's own body, one's own household, one's own immediate environment. This shows in pure form in Couric: out of the private, fatal experience with colon cancer came not just her own screening, but the co-founding of the National Colorectal Cancer Research Alliance in March 2000 &ndash; a lasting, institutional structure for cancer prevention, not just a one-time public appearance.</p>
-          <p class="vb-intro">In 2022, after her own breast cancer diagnosis, she reacted with the same movement: active public education for early detection, rather than private processing behind closed doors. For the SE6, security doesn't come from avoiding danger, but from precisely understanding it and actively guarding against it.</p>
+          <p class="vb-intro">In 2022, after her own breast cancer diagnosis, she reacted with the same movement: active public education for early detection, rather than private processing behind closed doors. For the SP6, security doesn't come from avoiding danger, but from precisely understanding it and actively guarding against it.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Seven-Wing: Fear as an Invitation to Take the Risk</h2>
@@ -2240,7 +2240,7 @@ export function katieCouricPortraitPage() {
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Six with a Seven-Wing</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SP6w7 shows in Couric's ability to turn one of the deepest personal losses into a structural, decades-effective prevention movement that measurably saved lives &ndash; not as an abstract message, but as a concrete, self-modeled act on live camera.</p>
-          <p class="vb-intro">The shadow of the SE6 shows in how she describes her own development: she herself says she evolved "from a journalist with a personality to a TV personality" &ndash; a self-criticism that points to the risk that the Seven-wing's warm accessibility could eventually cover over the Six's serious journalistic substance instead of carrying it.</p>
+          <p class="vb-intro">The shadow of the SP6 shows in how she describes her own development: she herself says she evolved "from a journalist with a personality to a TV personality" &ndash; a self-criticism that points to the risk that the Seven-wing's warm accessibility could eventually cover over the Six's serious journalistic substance instead of carrying it.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Rabbit Who Turned Its Own Fear into Prevention for Others</h2>
@@ -2255,12 +2255,12 @@ export function katieCouricPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
+        {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
         {route:"beruehmte-beatrice-chebet", label:"Portrait: Beatrice Chebet (SP6w7)"},
         {route:"krankheitsportraets-woody-allen", label:"Illness Portrait: Woody Allen (SP6w7)"},
         {route:"beruehmte-ellen-degeneres", label:"Portrait: Ellen DeGeneres (SP6w5) – same core type, different wing"},
-        {route:"beruehmte-heiko-maas", label:"Portrait: Heiko Maas (SE6w7)"},
-        {route:"beruehmte-gerald-hoerhan", label:"Portrait: Gerald H\u00f6rhan (SE6w7)"},
+        {route:"beruehmte-heiko-maas", label:"Portrait: Heiko Maas (SP6w7)"},
+        {route:"beruehmte-gerald-hoerhan", label:"Portrait: Gerald H\u00f6rhan (SP6w7)"},
       ])}
     </div>
   `);
@@ -2471,7 +2471,7 @@ export function ursulaLyonPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ursula-lyon-portrait.jpg" alt="Ursula Lyon – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-ursula-lyon-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Ursula Lyon</p>
-        <p class="krim-portrait-typ">SE1w2 &middot; Self-Preservation Type 1 with Two-wing</p>
+        <p class="krim-portrait-typ">SP1w2 &middot; Self-Preservation Type 1 with Two-wing</p>
         <p class="krim-portrait-subtitle">Yoga and meditation teacher, 'Grande Dame of Buddhism' in the German-speaking world, born 1928 &ndash; Animal correspondence: Eagle</p>
       </div>
       <div class="page-content">
@@ -2484,7 +2484,7 @@ export function ursulaLyonPortraitPage() {
 
         <h2 class="vb-section">2. The self-preservation One: care as a way of life</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Naranjo called the <strong>self-preservation One (SE1)</strong> the subtype of 'Worry': a mostly quiet inner question of whether one truly lives up to one's own standard. Unlike the social or sexual One, this attitude is not directed at improving the world but at conducting one's own life with care, reliability and honesty. In Lyon this shows throughout her path: nursing training, physiotherapy, the persistent practice of yoga and meditation over decades – all ways of keeping one's own body and mind in order and passing that order on.</p>
+          <p class="vb-intro">Naranjo called the <strong>self-preservation One (SP1)</strong> the subtype of 'Worry': a mostly quiet inner question of whether one truly lives up to one's own standard. Unlike the social or sexual One, this attitude is not directed at improving the world but at conducting one's own life with care, reliability and honesty. In Lyon this shows throughout her path: nursing training, physiotherapy, the persistent practice of yoga and meditation over decades – all ways of keeping one's own body and mind in order and passing that order on.</p>
           <p class="vb-intro">From this care grew a clearly structured practice system of her own: <strong>Sampada Yoga</strong>. The name stands for the binding together of healing elements for the blessing and inner happiness of those who practice. In it, Lyon combines yoga, non-denominational Vipassana meditation (insight meditation), the teaching of Theravada Buddhism – the oldest surviving school tradition – and rituals into a 'healing life strategy' that includes body, mind and heart alike.</p>
         </blockquote>
 
@@ -2502,7 +2502,7 @@ export function ursulaLyonPortraitPage() {
 
         <h2 class="vb-section">5. Light and shadow: old age as continuation, not withdrawal</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE1w2 shows especially clearly in Lyon's old age: for her, age is not a time of withdrawal but a continuation of devotion. That she still taught, spoke to people and held conversations well beyond ninety bears witness to a vitality that springs not from busyness but from inner collectedness. In early October 2026, aged 98, she was interviewed as part of Mathias Berner's 'Herbst der Heilung' ('Autumn of Healing'), whose theme is 'Von der Erstarrung in die Lebendigkeit' ('From Rigidity into Aliveness') and thus into life force – two years earlier, aged 96, she had already been a guest there. Someone who is asked twice, two years apart, about aliveness, and both times is herself the liveliest contribution, needs no further explanation. A radio feature of the Austrian broadcaster ORF (Ö1) from January 2025 was titled 'Ich möchte lebendig sterben' ('I want to die alive') – a sentence that sums up her attitude: to lead life awake, attentive and open-hearted to the last breath.</p>
+          <p class="vb-intro">The light of the SP1w2 shows especially clearly in Lyon's old age: for her, age is not a time of withdrawal but a continuation of devotion. That she still taught, spoke to people and held conversations well beyond ninety bears witness to a vitality that springs not from busyness but from inner collectedness. In early October 2026, aged 98, she was interviewed as part of Mathias Berner's 'Herbst der Heilung' ('Autumn of Healing'), whose theme is 'Von der Erstarrung in die Lebendigkeit' ('From Rigidity into Aliveness') and thus into life force – two years earlier, aged 96, she had already been a guest there. Someone who is asked twice, two years apart, about aliveness, and both times is herself the liveliest contribution, needs no further explanation. A radio feature of the Austrian broadcaster ORF (Ö1) from January 2025 was titled 'Ich möchte lebendig sterben' ('I want to die alive') – a sentence that sums up her attitude: to lead life awake, attentive and open-hearted to the last breath.</p>
           <p class="vb-intro">On her 95th birthday she thanked for the gift of time. The reason to speak of farewell, she said, was not a terminal illness but the certainty of a foreseeable, if uncertain, end; she wanted to express her love, joy and gratitude in good time to those who had crossed her path. That, too, is One-care at its ripest: leaving nothing unspoken behind. A shadow can hardly be found in the public record; the strictness toward oneself typical of the One seems to have transformed over the decades into gentleness and humor.</p>
         </blockquote>
 
@@ -2526,11 +2526,11 @@ export function ursulaLyonPortraitPage() {
       ${bookTip("archetypen-der-tiere-im-enneagramm", "The archetypal animals of the 9 types as an inner map – images that work instantly.", "Archetypen der Tiere im Enneagramm")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
-        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SE1 – Eagle"},
-        {route:"beruehmte-marie-kondo", label:"Portrait: Marie Kondo (SE1w2)"},
-        {route:"beruehmte-udo-juergens", label:"Portrait: Udo Jürgens (SE1w2)"},
-        {route:"beruehmte-dan-brown", label:"Portrait: Dan Brown (SE1w2)"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SP1 – Eagle"},
+        {route:"beruehmte-marie-kondo", label:"Portrait: Marie Kondo (SP1w2)"},
+        {route:"beruehmte-udo-juergens", label:"Portrait: Udo Jürgens (SP1w2)"},
+        {route:"beruehmte-dan-brown", label:"Portrait: Dan Brown (SP1w2)"},
       ])}
     </div>
   `);
@@ -2682,7 +2682,7 @@ export function heikoMaasPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-heiko-maas-portrait.jpg" alt="Heiko Maas – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-heiko-maas-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Heiko Maas</p>
-        <p class="krim-portrait-typ">SE6w7 &middot; Self-Preservation Type 6 with a Seven-wing</p>
+        <p class="krim-portrait-typ">SP6w7 &middot; Self-Preservation Type 6 with a Seven-wing</p>
         <p class="krim-portrait-subtitle">German politician and lawyer, b. 1966 &ndash; Federal Minister of Justice 2013&ndash;2018, Foreign Minister 2018&ndash;2021 &ndash; Animal correspondence: Rabbit</p>
       </div>
       <div class="page-content">
@@ -2695,7 +2695,7 @@ export function heikoMaasPortraitPage() {
 
         <h2 class="vb-section">2. The self-preservation Six: security through belonging and rules</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Six lives with the fear that something could go wrong, and secures itself. Claudio Naranjo called the <strong>self-preservation Six (SE6)</strong> the subtype of &lsquo;warmth&rsquo;: it seeks security not in strength or control of the world but in reliable bonds, in people and structures one can count on. Where other Sixes spot danger early, it wants above all to know who stands by it.</p>
+          <p class="vb-intro">The Six lives with the fear that something could go wrong, and secures itself. Claudio Naranjo called the <strong>self-preservation Six (SP6)</strong> the subtype of &lsquo;warmth&rsquo;: it seeks security not in strength or control of the world but in reliable bonds, in people and structures one can count on. Where other Sixes spot danger early, it wants above all to know who stands by it.</p>
           <p class="vb-intro">Maas&rsquo; career reads like a series of such bonds. At 26 he became chairman of the Saar Jusos (the SPD&rsquo;s youth wing) in 1992; in 1994 he sat in the state parliament, sponsored by Oskar Lafontaine and Reinhard Klimmt. When Lafontaine switched to the Left Party in 2004, he left him, as the taz wrote in 2009, &lsquo;standing in the rain&rsquo; before an election. Maas later said, it is reported, that he had too often seen people abandoned who relied on Lafontaine. For a Six this is the classic blow: the authority one leaned on fails, and one has to learn to give support oneself. Maas stayed 18 years chairman of the SPD Saar (2000 to 2018), 13 years leader of the opposition in the state parliament and a member of the party executive until 2021. That is the reliability of a Six who never leaves their group.</p>
           <p class="vb-intro">The choice of profession fits too. The lawyer holds to rules that apply to everyone. In 1999 he waived a transition allowance that was due to him under the rules of the time and called those rules in urgent need of change. As Federal Minister of Justice he moved on data retention from scepticism in January 2014 to one of the strongest SPD supporters in 2015: an example of the Six that seeks security through safeguards. And on sport he says himself how he works off aggression: &lsquo;When I want to work off aggression, I do sport.&rsquo; The taz portrayed him in 2009 under the title &lsquo;Hart gegen sich selbst&rsquo; (&lsquo;Hard on himself&rsquo;) and meant jogging and triathlon: the Six&rsquo;s hardness is not directed at others but at itself.</p>
         </blockquote>
@@ -2715,7 +2715,7 @@ export function heikoMaasPortraitPage() {
 
         <h2 class="vb-section">5. Parallel in the same subtype: Woody Allen, Katie Couric, Raúl Aguayo-Krauthausen and Beatrice Chebet</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Several SE6w7s stand among the portraits in this Compass, and the comparison shows how differently the same safeguarding can look. <a href="#beruehmte-woody-allen">Woody Allen (SE6w7)</a> turned his fear into punchlines and stayed for decades in the same New York territory. <a href="#beruehmte-katie-couric">Katie Couric (SE6w7)</a> turned her own experience with cancer into lasting prevention. <a href="#beruehmte-raul-aguayo-krauthausen">Raúl Aguayo-Krauthausen (SE6w7)</a> created a mapped, verifiable security with Wheelmap. <a href="#beruehmte-beatrice-chebet">Beatrice Chebet (SE6w7)</a> finds support in the community of runners.</p>
+          <p class="vb-intro">Several SP6w7s stand among the portraits in this Compass, and the comparison shows how differently the same safeguarding can look. <a href="#beruehmte-woody-allen">Woody Allen (SP6w7)</a> turned his fear into punchlines and stayed for decades in the same New York territory. <a href="#beruehmte-katie-couric">Katie Couric (SP6w7)</a> turned her own experience with cancer into lasting prevention. <a href="#beruehmte-raul-aguayo-krauthausen">Raúl Aguayo-Krauthausen (SP6w7)</a> created a mapped, verifiable security with Wheelmap. <a href="#beruehmte-beatrice-chebet">Beatrice Chebet (SP6w7)</a> finds support in the community of runners.</p>
           <p class="vb-intro">Maas&rsquo; path is closest to that of Aguayo-Krauthausen: security that arises from rules and structures. Where Aguayo-Krauthausen builds a map, Maas writes laws, and both distrust vague assurances. Unlike Allen, who turns his fear into language, Maas lets it pass into paragraphs, meetings and stance, and unlike Chebet he seeks his community in institutions: party, union, church, state.</p>
         </blockquote>
 
@@ -2736,14 +2736,14 @@ export function heikoMaasPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
-        {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SE6 – Rabbit"},
-        {route:"beruehmte-woody-allen", label:"Portrait: Woody Allen (SE6w7) – same subtype and wing"},
-        {route:"beruehmte-katie-couric", label:"Portrait: Katie Couric (SE6w7)"},
-        {route:"beruehmte-raul-aguayo-krauthausen", label:"Portrait: Raúl Aguayo-Krauthausen (SE6w7)"},
-        {route:"beruehmte-beatrice-chebet", label:"Portrait: Beatrice Chebet (SE6w7)"},
-        {route:"beruehmte-gerald-hoerhan", label:"Portrait: Gerald H\u00f6rhan (SE6w7)"},
-        {route:"beruehmte-kevin-kuehnert", label:"Portrait: Kevin K\u00fchnert (SE6w7)"},
+        {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
+        {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SP6 – Rabbit"},
+        {route:"beruehmte-woody-allen", label:"Portrait: Woody Allen (SP6w7) – same subtype and wing"},
+        {route:"beruehmte-katie-couric", label:"Portrait: Katie Couric (SP6w7)"},
+        {route:"beruehmte-raul-aguayo-krauthausen", label:"Portrait: Raúl Aguayo-Krauthausen (SP6w7)"},
+        {route:"beruehmte-beatrice-chebet", label:"Portrait: Beatrice Chebet (SP6w7)"},
+        {route:"beruehmte-gerald-hoerhan", label:"Portrait: Gerald H\u00f6rhan (SP6w7)"},
+        {route:"beruehmte-kevin-kuehnert", label:"Portrait: Kevin K\u00fchnert (SP6w7)"},
       ])}
     </div>
   `);

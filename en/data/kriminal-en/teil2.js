@@ -125,7 +125,7 @@ In the tension between disintegration (Two: manipulation, emotional control) and
         {route:"beruehmte-charlie-chaplin", label:"Portrait: Charlie Chaplin (SX4w3)"},
         {route:"kriminalpsychologie-anders-breivik", label:"Anders Breivik (SX6w5) – criminal psychology"},
         {route:"kriminalpsychologie-bonnie-parker", label:"Bonnie Parker (SX4w3) – criminal psychology"},
-        {route:"kriminalpsychologie-david-berkowitz", label:"David Berkowitz (SE4w3) – criminal psychology"},
+        {route:"kriminalpsychologie-david-berkowitz", label:"David Berkowitz (SP4w3) – criminal psychology"},
         {route:"kriminalpsychologie-elliot-rodger", label:"Elliot Rodger (SO4w5) – criminal psychology"},
         {route:"kriminalpsychologie-jeffrey-dahmer", label:"Jeffrey Dahmer (SX5w4) – criminal psychology"},
         {route:"kriminalpsychologie-luka-magnotta", label:"Luka Magnotta (SX3w4) – criminal psychology"},
@@ -232,16 +232,16 @@ export function andersBreivikPortraitPage() {
         {route:"kriminalpsychologie-adolf-eichmann", label:"Adolf Eichmann (SO6w5) – criminal psychology"},
         {route:"kriminalpsychologie-armin-meiwes", label:"Armin Meiwes (SX6w5) – criminal psychology"},
         {route:"kriminalpsychologie-charles-manson", label:"Charles Manson (SX6w7) – criminal psychology"},
-        {route:"kriminalpsychologie-david-berkowitz", label:"David Berkowitz (SE4w3) – criminal psychology"},
+        {route:"kriminalpsychologie-david-berkowitz", label:"David Berkowitz (SP4w3) – criminal psychology"},
         {route:"kriminalpsychologie-heinrich-pommerenke", label:"Heinrich Pommerenke (SO1w9) – criminal psychology"},
-        {route:"kriminalpsychologie-joachim-kroll", label:"Joachim Kroll (SE5w6) – criminal psychology"},
+        {route:"kriminalpsychologie-joachim-kroll", label:"Joachim Kroll (SP5w6) – criminal psychology"},
         {route:"kriminalpsychologie-joel-rifkin", label:"Joel Rifkin (SX5w6) – criminal psychology"},
-        {route:"kriminalpsychologie-john-list", label:"John List (SE6w5) – criminal psychology"},
-        {route:"kriminalpsychologie-niels-hoegel", label:"Niels H\xf6gel (SE7w8) – criminal psychology"},
+        {route:"kriminalpsychologie-john-list", label:"John List (SP6w5) – criminal psychology"},
+        {route:"kriminalpsychologie-niels-hoegel", label:"Niels H\xf6gel (SP7w8) – criminal psychology"},
         {route:"kriminalpsychologie-osama-bin-laden", label:"Osama bin Laden (SO2w1) – criminal psychology"},
-        {route:"kriminalpsychologie-paul-ogorzow", label:"Paul Ogorzow (SE1w9) – criminal psychology"},
-        {route:"kriminalpsychologie-rudolf-pleil", label:"Rudolf Pleil (SE2w3) – criminal psychology"},
-        {route:"kriminalpsychologie-salvatore-riina", label:"Salvatore Riina (SE8w9) – criminal psychology"},
+        {route:"kriminalpsychologie-paul-ogorzow", label:"Paul Ogorzow (SP1w9) – criminal psychology"},
+        {route:"kriminalpsychologie-rudolf-pleil", label:"Rudolf Pleil (SP2w3) – criminal psychology"},
+        {route:"kriminalpsychologie-salvatore-riina", label:"Salvatore Riina (SP8w9) – criminal psychology"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
@@ -429,8 +429,8 @@ export function belleGunnessPortraitPage() {
           {route:"kriminalpsychologie-karla-homolka", label:"Criminal Psychology: Karla Homolka (SP3w4)"},
           {route:"kriminalpsychologie-ruja-ignatova", label:"Criminal Psychology: Ruja Ignatova (SP3w4)"},
           {route:"kriminalpsychologie-pamela-smart", label:"Criminal Psychology: Pamela Smart (SX2w3)"},
-          {route:"kriminalpsychologie-henri-landru", label:"Henri Désiré Landru (SE3w4) – criminal psychology"},
-          {route:"kriminalpsychologie-john-list", label:"John List (SE6w5) – criminal psychology"},
+          {route:"kriminalpsychologie-henri-landru", label:"Henri Désiré Landru (SP3w4) – criminal psychology"},
+          {route:"kriminalpsychologie-john-list", label:"John List (SP6w5) – criminal psychology"},
         ])}
       </div>
     </div>
@@ -706,7 +706,7 @@ export function dorotheaPuentePortraitPage() {
         {route:"kriminalpsychologie-harold-shipman", label:"Criminal Psychology: Harold Shipman (SO5w6) – Doctor as Perpetrator"},
         {route:"kriminalpsychologie-niels-hoegel", label:"Criminal Psychology: Niels Högel (SP7w8) – Caregiver as Perpetrator"},
         {route:"kriminalpsychologie-gesche-gottfried", label:"Gesche Gottfried (SO1w2) – criminal psychology"},
-        {route:"kriminalpsychologie-tommy-lynn-sells", label:"Tommy Lynn Sells (SE2w1) – criminal psychology"},
+        {route:"kriminalpsychologie-tommy-lynn-sells", label:"Tommy Lynn Sells (SP2w1) – criminal psychology"},
       ])}
     </div>
   `);
@@ -833,7 +833,7 @@ During interrogation and at trial, Haarmann displayed a peculiar willingness to 
         {route:"kriminalpsychologie-bryan-kohberger", label:"Criminal Psychology: Bryan Kohberger (SX1w2) – the same subtype, different wing"},
         {route:"kriminalpsychologie-peter-moore", label:"Criminal Psychology: Peter Moore (SX8w7) – considered alternative typing"},
         {route:"kriminalpsychologie-james-dusty-rhodes", label:"Criminal Psychology: James ›Dusty‹ Rhodes (SX1w9) – the same subtype"},
-        {route:"kriminalpsychologie-dennis-nilsen", label:"Dennis Nilsen (SE1w2) – criminal psychology"},
+        {route:"kriminalpsychologie-dennis-nilsen", label:"Dennis Nilsen (SP1w2) – criminal psychology"},
         {route:"kriminalpsychologie-gary-ridgway", label:"Gary Ridgway (SX1w2) – criminal psychology"},
         {route:"kriminalpsychologie-gennadi-mikhasevich", label:"Gennadi Mikhasevich (SX1w2) – criminal psychology"},
         {route:"kriminalpsychologie-paul-bernardo", label:"Paul Bernardo (SX1w2) – criminal psychology"},
@@ -931,7 +931,7 @@ export function henriLandruPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/henri-landru-portrait.jpg" alt="Henri Désiré Landru – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Henri Désiré Landru</p>
-        <p class="krim-portrait-typ">SE3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
+        <p class="krim-portrait-typ">SP3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
         <p class="krim-portrait-sub">The "Bluebeard of Paris" &middot; Animal Correspondence: Raccoon</p>
       </div>
 
@@ -943,47 +943,47 @@ export function henriLandruPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The self-preservation Three: Security through bookkeeping</h3>
-        <p class="vb-intro">Naranjo called the <strong>self-preservation Three (SE3)</strong> the subtype of <em>Security</em>: not a Three seeking the big stage, but one tirelessly and often unobtrusively working on her own material foundation. Landru kept a meticulous little notebook for years, recording every expense, every train ticket, every franc he collected from his victims – an obsessive, private bookkeeping that let no cent go unaccounted for.</p>
-        <p class="vb-intro">This exact accountant's mentality is the core of the SE3 in its darkest form: it was not the desire for public fame that drove Landru, but the sober, systematic securing of his own material existence – with a ruthlessness that stopped at nothing. For him, murder was not a dramatic act but a necessary step in a cost-benefit calculation.</p>
+        <p class="vb-intro">Naranjo called the <strong>self-preservation Three (SP3)</strong> the subtype of <em>Security</em>: not a Three seeking the big stage, but one tirelessly and often unobtrusively working on her own material foundation. Landru kept a meticulous little notebook for years, recording every expense, every train ticket, every franc he collected from his victims – an obsessive, private bookkeeping that let no cent go unaccounted for.</p>
+        <p class="vb-intro">This exact accountant's mentality is the core of the SP3 in its darkest form: it was not the desire for public fame that drove Landru, but the sober, systematic securing of his own material existence – with a ruthlessness that stopped at nothing. For him, murder was not a dramatic act but a necessary step in a cost-benefit calculation.</p>
       </div>
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Four wing: Morbid irony</h3>
-        <p class="vb-intro">An SE3 with a more muted Four wing would likely have carried out her crimes as emotionlessly and colorlessly as possible. In Landru's case, a dark, almost artistic humor emerged instead, one that stayed with him to the end. In court in 1921, he remained cynical and sharp-witted at once: to the charges he responded mockingly, demanding "Show me the bodies!" – fully aware that only ash remained of his victims. His only indirect confession was a drawing he made himself of his kitchen stove.</p>
+        <p class="vb-intro">An SP3 with a more muted Four wing would likely have carried out her crimes as emotionlessly and colorlessly as possible. In Landru's case, a dark, almost artistic humor emerged instead, one that stayed with him to the end. In court in 1921, he remained cynical and sharp-witted at once: to the charges he responded mockingly, demanding "Show me the bodies!" – fully aware that only ash remained of his victims. His only indirect confession was a drawing he made himself of his kitchen stove.</p>
         <p class="vb-intro">This morbid, self-assured irony is the Four wing at its darkest: a tragedy turned into a deliberate pose, a sense of one's own uniqueness that does not disappear even facing the guillotine. The courtroom audience was fascinated by this small, bald man who, with his long black beard and eerie calm, seemed like a figure out of a dark fairy tale.</p>
       </div>
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Lonely-hearts ads as a system</h3>
         <p class="vb-intro">Landru used false identities and the "matters of the heart" columns of Paris newspapers to target lonely, mostly widowed or single women with their own fortunes – a system he refined systematically over the years. The war provided him with the perfect setting: as millions of men died at the front, countless women were left alone, vulnerable, and open to the prospect of a new, secure bond.</p>
-        <p class="vb-intro">This is the SE3 at its most calculating: Landru identified a structural gap – a pool of vulnerable, wealthy women – and built a repeatable procedure that he applied routinely for five years, with the same systematic care he brought to recording his expenses.</p>
+        <p class="vb-intro">This is the SP3 at its most calculating: Landru identified a structural gap – a pool of vulnerable, wealthy women – and built a repeatable procedure that he applied routinely for five years, with the same systematic care he brought to recording his expenses.</p>
       </div>
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Arrest, trial, and execution</h3>
         <p class="vb-intro">In 1919, Landru was arrested after relatives of several missing women alerted the police. The 1921 trial lasted three weeks and became a public spectacle – not because Landru wanted it that way, but because his cold precision and dry wit captured the public imagination. He was found guilty on all eleven counts and sentenced to death.</p>
-        <p class="vb-intro">Three months later he was guillotined at Versailles. To the end he confessed to nothing – not a single word of remorse, no admission beyond the drawing of the stove. The SE3 holds to her version of reality even when the evidence is overwhelming.</p>
+        <p class="vb-intro">Three months later he was guillotined at Versailles. To the end he confessed to nothing – not a single word of remorse, no admission beyond the drawing of the stove. The SP3 holds to her version of reality even when the evidence is overwhelming.</p>
       </div>
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. What the Enneagram reveals</h3>
-        <p class="vb-intro"><strong>a) Bookkeeping instead of a stage:</strong> Unlike the social Three, who seeks public prestige, Landru operated as privately as possible – in his own house, in his own stove, in his own notebook. This is the SE3 in its purest form: security is built in hiding, not on a stage.</p>
-        <p class="vb-intro"><strong>b) The Four wing as a dark signature:</strong> An SE3 with a more muted Four wing would likely have behaved more inconspicuously, more colorlessly. Landru's cynical wit in court, his sense of his own morbid uniqueness, show a strongly developed Four wing that gave even his own downfall an unmistakable signature.</p>
-        <p class="vb-intro"><strong>c) A system, not an isolated act:</strong> Like Belle Gunness, another SE3w4 with an almost identical pattern, Landru shows the same structure: lonely-hearts ads as a tool, a repeatable procedure, not a single impulse but a methodical routine refined over years.</p>
+        <p class="vb-intro"><strong>a) Bookkeeping instead of a stage:</strong> Unlike the social Three, who seeks public prestige, Landru operated as privately as possible – in his own house, in his own stove, in his own notebook. This is the SP3 in its purest form: security is built in hiding, not on a stage.</p>
+        <p class="vb-intro"><strong>b) The Four wing as a dark signature:</strong> An SP3 with a more muted Four wing would likely have behaved more inconspicuously, more colorlessly. Landru's cynical wit in court, his sense of his own morbid uniqueness, show a strongly developed Four wing that gave even his own downfall an unmistakable signature.</p>
+        <p class="vb-intro"><strong>c) A system, not an isolated act:</strong> Like Belle Gunness, another SP3w4 with an almost identical pattern, Landru shows the same structure: lonely-hearts ads as a tool, a repeatable procedure, not a single impulse but a methodical routine refined over years.</p>
       </div>
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Classification</h3>
         <p class="vb-intro" style="margin-bottom:1.2rem;">
           <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Henri Désiré Landru</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SE3w4 – Self-Preservation Three with Four-wing</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SP3w4 – Self-Preservation Three with Four-wing</span>
           <span style="display:block;margin-bottom:0.3rem;"><strong>Passion:</strong> Deceit (as calculated, systematic securing of one's own material existence)</span>
           <span style="display:block;margin-bottom:0.3rem;"><strong>Animal Correspondence:</strong> Raccoon</span>
           <span style="display:block;margin-bottom:0.3rem;"><strong>Life dates:</strong> April 12, 1869 – February 25, 1922</span>
           <span style="display:block;"><strong>Known for:</strong> Murdering at least ten women and one teenager via lonely-hearts ads (1914–1919), burning the bodies in his own kitchen stove, sentenced to death and guillotined in 1921/22</span>
         </p>
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The self-preservation Three compared: how security becomes calculated destruction – and why the Four wing gives the crime a dark signature.", "The Hidden Dynamics of the 27 Subtypes")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Deceit as the core motive of the Three: how the Three's protective system forms – and how it dissolves through healing.", "Who You Really Are (Volume 1)")}
 
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -993,10 +993,10 @@ export function henriLandruPortraitPage() {
       </div>
 
         ${relatedLinks([
-          {route:"kriminalpsychologie-belle-gunness", label:"Criminal Psychology: Belle Gunness (SE3w4) – The Black Widow of La Porte"},
-          {route:"kriminalpsychologie-bernie-madoff", label:"Criminal Psychology: Bernie Madoff (SE3w4)"},
+          {route:"kriminalpsychologie-belle-gunness", label:"Criminal Psychology: Belle Gunness (SP3w4) – The Black Widow of La Porte"},
+          {route:"kriminalpsychologie-bernie-madoff", label:"Criminal Psychology: Bernie Madoff (SP3w4)"},
           {route:"kriminalpsychologie-mary-ann-cotton", label:"Criminal Psychology: Mary Ann Cotton (SX1w2)"},
-          {route:"kriminalpsychologie-jeanne-weber", label:"Jeanne Weber (SE2w1) – criminal psychology"},
+          {route:"kriminalpsychologie-jeanne-weber", label:"Jeanne Weber (SP2w1) – criminal psychology"},
         ])}
       </div>
     </div>
@@ -1109,10 +1109,10 @@ export function jeffreyEpsteinPortraitPage() {
         {route:"kriminalpsychologie-harvey-weinstein", label:"Criminal Psychology: Harvey Weinstein"},
         {route:"kriminalpsychologie-amelia-dyer", label:"Criminal Psychology: Amelia Dyer (SX8w9) – same subtype"},
         {route:"kriminalpsychologie-peter-moore", label:"Criminal Psychology: Peter Moore (SX8w7) – different wing"},
-        {route:"kriminalpsychologie-griselda-blanco", label:"Griselda Blanco (SE8w9) – criminal psychology"},
+        {route:"kriminalpsychologie-griselda-blanco", label:"Griselda Blanco (SP8w9) – criminal psychology"},
         {route:"kriminalpsychologie-john-gotti", label:"John Gotti (SO8w7) – criminal psychology"},
         {route:"kriminalpsychologie-john-mcafee", label:"John McAfee (SX8w9) – criminal psychology"},
-        {route:"kriminalpsychologie-jonathan-meijer", label:"Jonathan Meijer (SE2w1) – criminal psychology"},
+        {route:"kriminalpsychologie-jonathan-meijer", label:"Jonathan Meijer (SP2w1) – criminal psychology"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
@@ -1224,7 +1224,7 @@ export function johnGottiPortraitPage() {
           {route:"kriminalpsychologie-jeffrey-epstein", label:"Criminal Psychology: Jeffrey Epstein (SX8w9)"},
           {route:"kriminalpsychologie-john-mcafee", label:"Criminal Psychology: John McAfee (SX8w9)"},
           {route:"krankheitsportraets-john-gotti", label:"Illness Portrait: John Gotti (SO8w7) – laryngeal cancer in isolation"},
-          {route:"kriminalpsychologie-griselda-blanco", label:"Griselda Blanco (SE8w9) – criminal psychology"},
+          {route:"kriminalpsychologie-griselda-blanco", label:"Griselda Blanco (SP8w9) – criminal psychology"},
         ])}
       </div>
     </div>
@@ -1409,7 +1409,7 @@ export function leslieVanHoutenPortraitPage() {
           {route:"kriminalpsychologie-charles-manson", label:"Criminal Psychology: Charles Manson (SX6w7)"},
           {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Criminal Psychology: Wolfgang Beltracchi (SX9w1)"},
           {route:"kriminalpsychologie-armin-meiwes", label:"Criminal Psychology: Armin Meiwes (SX6w5)"},
-          {route:"kriminalpsychologie-alfons-schuhbeck", label:"Alfons Schuhbeck (SE9w1) – criminal psychology"},
+          {route:"kriminalpsychologie-alfons-schuhbeck", label:"Alfons Schuhbeck (SP9w1) – criminal psychology"},
           {route:"kriminalpsychologie-nick-leeson", label:"Nick Leeson (SO9w8) – criminal psychology"},
         ])}
       </div>
@@ -1534,7 +1534,7 @@ The growth point of the One is the Seven—lightness, joy, the courage for imper
       ${relatedLinks([
         {route:"kriminalpsychologie-andrei-tschikatilo", label:"Criminal Psychology: Andrei Tschikatilo"},
         {route:"kriminalpsychologie-dennis-rader", label:"Criminal Psychology: Dennis Rader"},
-        {route:"kriminalpsychologie-dennis-nilsen", label:"Dennis Nilsen (SE1w2) – criminal psychology"},
+        {route:"kriminalpsychologie-dennis-nilsen", label:"Dennis Nilsen (SP1w2) – criminal psychology"},
         {route:"kriminalpsychologie-josef-fritzl", label:"Josef Fritzl (SX1w9) – criminal psychology"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
@@ -1616,7 +1616,7 @@ export function osamaBinLadenPortraitPage() {
         {route:"kriminalpsychologie-jack-unterweger", label:"Criminal Psychology: Jack Unterweger (SO2w1) – The Poet and Death"},
         {route:"kriminalpsychologie-jim-jones", label:"Criminal Psychology: Jim Jones (SO2w3) – Mass Murder in Jonestown"},
         {route:"kriminalpsychologie-anders-breivik", label:"Criminal Psychology: Anders Breivik (SX6w5) – Comparison: Terror Out of Fear vs. Terror Out of Pride"},
-        {route:"kriminalpsychologie-angel-resendez", label:"Ángel Reséndez (SE2w1) – criminal psychology"},
+        {route:"kriminalpsychologie-angel-resendez", label:"Ángel Reséndez (SP2w1) – criminal psychology"},
       ])}
       <div style="margin-top:1.5rem;max-width:100%;">
         <button class="ghost-link" data-route="kriminalpsychologie">\u2190 Zur\xfcck zur Kriminalpsychologie-\xdcbersicht</button>
@@ -1806,10 +1806,10 @@ export function peterSutcliffePortraitPage() {
         {route:"kriminalpsychologie-harvey-weinstein", label:"Criminal Psychology: Harvey Weinstein (SP2w1) – also a hippopotamus"},
         {route:"kriminalpsychologie-andrei-tschikatilo", label:"Criminal Psychology: Andrei Chikatilo (SP1w9) – similar offender structure"},
         {route:"kriminalpsychologie-dennis-rader", label:"Criminal Psychology: Dennis Rader (SP1w9) – moral self-justification"},
-        {route:"kriminalpsychologie-angel-resendez", label:"Ángel Reséndez (SE2w1) – criminal psychology"},
-        {route:"kriminalpsychologie-jeanne-weber", label:"Jeanne Weber (SE2w1) – criminal psychology"},
-        {route:"kriminalpsychologie-juana-barraza", label:"Juana Barraza (SE2w3) – criminal psychology"},
-        {route:"kriminalpsychologie-tommy-lynn-sells", label:"Tommy Lynn Sells (SE2w1) – criminal psychology"},
+        {route:"kriminalpsychologie-angel-resendez", label:"Ángel Reséndez (SP2w1) – criminal psychology"},
+        {route:"kriminalpsychologie-jeanne-weber", label:"Jeanne Weber (SP2w1) – criminal psychology"},
+        {route:"kriminalpsychologie-juana-barraza", label:"Juana Barraza (SP2w3) – criminal psychology"},
+        {route:"kriminalpsychologie-tommy-lynn-sells", label:"Tommy Lynn Sells (SP2w1) – criminal psychology"},
       ])}
     </div>
   `);
@@ -1934,13 +1934,13 @@ Unlike all other portraits in this series, Ignatova's story is not concluded. Sh
       ${relatedLinks([
         {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar"},
         {route:"kriminalpsychologie-luka-magnotta", label:"Criminal Psychology: Luka Magnotta"},
-        {route:"kriminalpsychologie-anna-delvey", label:"Anna Delvey (SE2w3) – criminal psychology"},
-        {route:"kriminalpsychologie-belle-gunness", label:"Belle Gunness (SE3w4) – criminal psychology"},
-        {route:"kriminalpsychologie-bernie-madoff", label:"Bernie Madoff (SE3w4) – criminal psychology"},
-        {route:"kriminalpsychologie-karla-homolka", label:"Karla Homolka (SE3w4) – criminal psychology"},
-        {route:"kriminalpsychologie-michael-franzese", label:"Michael Franzese (SE3w2) – criminal psychology"},
-        {route:"kriminalpsychologie-samuel-bankman-fried", label:"Samuel Bankman-Fried (SE3w4) – criminal psychology"},
-        {route:"kriminalpsychologie-sebastian-greenwood", label:"Sebastian Greenwood (SE2w3) – criminal psychology"},
+        {route:"kriminalpsychologie-anna-delvey", label:"Anna Delvey (SP2w3) – criminal psychology"},
+        {route:"kriminalpsychologie-belle-gunness", label:"Belle Gunness (SP3w4) – criminal psychology"},
+        {route:"kriminalpsychologie-bernie-madoff", label:"Bernie Madoff (SP3w4) – criminal psychology"},
+        {route:"kriminalpsychologie-karla-homolka", label:"Karla Homolka (SP3w4) – criminal psychology"},
+        {route:"kriminalpsychologie-michael-franzese", label:"Michael Franzese (SP3w2) – criminal psychology"},
+        {route:"kriminalpsychologie-samuel-bankman-fried", label:"Samuel Bankman-Fried (SP3w4) – criminal psychology"},
+        {route:"kriminalpsychologie-sebastian-greenwood", label:"Sebastian Greenwood (SP2w3) – criminal psychology"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
@@ -2050,14 +2050,14 @@ export function tedBundyPortraitPage() {
           {route:"kriminalpsychologie-armin-meiwes", label:"Criminal Psychology: Armin Meiwes (SX6w5)"},
           {route:"kriminalpsychologie-adolf-hitler", label:"Adolf Hitler (SX4w3) – criminal psychology"},
           {route:"kriminalpsychologie-alex-murdaugh", label:"Alex Murdaugh (SX1w2) – criminal psychology"},
-          {route:"kriminalpsychologie-andrei-tschikatilo", label:"Andrei Tschikatilo (SE1w9) – criminal psychology"},
+          {route:"kriminalpsychologie-andrei-tschikatilo", label:"Andrei Tschikatilo (SP1w9) – criminal psychology"},
           {route:"kriminalpsychologie-andrew-cunanan", label:"Andrew Cunanan (SO3w4) – criminal psychology"},
           {route:"kriminalpsychologie-diane-downs", label:"Diane Downs (SX3w4) – criminal psychology"},
-          {route:"kriminalpsychologie-harvey-weinstein", label:"Harvey Weinstein (SE2w1) – criminal psychology"},
-          {route:"kriminalpsychologie-karla-homolka", label:"Karla Homolka (SE3w4) – criminal psychology"},
-          {route:"kriminalpsychologie-niels-hoegel", label:"Niels H\xf6gel (SE7w8) – criminal psychology"},
+          {route:"kriminalpsychologie-harvey-weinstein", label:"Harvey Weinstein (SP2w1) – criminal psychology"},
+          {route:"kriminalpsychologie-karla-homolka", label:"Karla Homolka (SP3w4) – criminal psychology"},
+          {route:"kriminalpsychologie-niels-hoegel", label:"Niels H\xf6gel (SP7w8) – criminal psychology"},
           {route:"kriminalpsychologie-oj-simpson", label:"O.J. Simpson (SO3w4) – criminal psychology"},
-          {route:"kriminalpsychologie-pablo-escobar", label:"Pablo Escobar (SE3w4) – criminal psychology"},
+          {route:"kriminalpsychologie-pablo-escobar", label:"Pablo Escobar (SP3w4) – criminal psychology"},
           {route:"kriminalpsychologie-pedro-alonso-lopez", label:"Pedro Alonso López (SO3w2) – criminal psychology"},
           {route:"kriminalpsychologie-richard-ramirez", label:"Richard Ramírez (SX3w4) – criminal psychology"},
         ])}
@@ -2141,8 +2141,8 @@ export function ulrikeMeinhofPortraitPage() {
           {route:"kriminalpsychologie-gudrun-ensslin", label:"Criminal Psychology: Gudrun Ensslin (SX7w8) – partner and RAF co-founder"},
           {route:"kriminalpsychologie-charles-manson", label:"Criminal Psychology: Charles Manson (SX6w7)"},
           {route:"kriminalpsychologie-adolf-eichmann", label:"Criminal Psychology: Adolf Eichmann (SO6w5)"},
-          {route:"beruehmte-natascha-kampusch", label:"Portrait: Natascha Kampusch (SE2w1)"},
-          {route:"kriminalpsychologie-jeanne-weber", label:"Jeanne Weber (SE2w1) – criminal psychology"},
+          {route:"beruehmte-natascha-kampusch", label:"Portrait: Natascha Kampusch (SP2w1)"},
+          {route:"kriminalpsychologie-jeanne-weber", label:"Jeanne Weber (SP2w1) – criminal psychology"},
         ])}
       </div>
     </div>
@@ -2270,8 +2270,8 @@ Beltracchi's own statement is the purest SX9 self-description: He was able to "f
         {route:"kriminalpsychologie-niels-hoegel", label:"Criminal Psychology: Niels Högel"},
         {route:"kriminalpsychologie-luka-magnotta", label:"Criminal Psychology: Luka Magnotta"},
         {route:"beruehmte-helge-schneider", label:"Portrait: Helge Schneider (SX9w1)"},
-        {route:"kriminalpsychologie-alfons-schuhbeck", label:"Alfons Schuhbeck (SE9w1) – criminal psychology"},
-        {route:"kriminalpsychologie-arno-funke", label:"Arno Funke (\u201eDagobert\u201c) (SE1w9) – criminal psychology"},
+        {route:"kriminalpsychologie-alfons-schuhbeck", label:"Alfons Schuhbeck (SP9w1) – criminal psychology"},
+        {route:"kriminalpsychologie-arno-funke", label:"Arno Funke (\u201eDagobert\u201c) (SP1w9) – criminal psychology"},
         {route:"kriminalpsychologie-bernard-eugene-giles", label:"Bernard Eugene Giles (SX9w1) – criminal psychology"},
         {route:"kriminalpsychologie-leslie-van-houten", label:"Leslie Van Houten (SO9w1) – criminal psychology"},
         {route:"kriminalpsychologie-nick-leeson", label:"Nick Leeson (SO9w8) – criminal psychology"},
@@ -2448,8 +2448,8 @@ export function wernerGladowPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The social Three compared: how vanity expresses itself differently in SE3, SO3, and SX3.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 – 27 character profiles compared.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The social Three compared: how vanity expresses itself differently in SP3, SO3, and SX3.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – 27 character profiles compared.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Type 3 portrayed in depth – vanity, the compulsion to achieve, and the healing path through genuine self-perception.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -2634,8 +2634,8 @@ export function susanWrightPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Sexual Three compared: how vanity expresses itself differently in SE3, SO3, and SX3 – and why blocked heart energy can become so dangerous.", "Die verborgene Dynamik der 27 Subtypes")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 – 27 character profiles compared.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Sexual Three compared: how vanity expresses itself differently in SP3, SO3, and SX3 – and why blocked heart energy can become so dangerous.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP3, SO3, SX3 – 27 character profiles compared.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Type 3 portrayed in depth – vanity, success, and the healing path through genuine heart connection.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -2796,8 +2796,8 @@ export function juanaBarrazaPortraitPage() {
 
       ${relatedLinks([
         {route:"kriminalpsychologie-john-wayne-gacy", label:"Criminal Psychology: John Wayne Gacy (SP2w3) – costume identity as cover"},
-        {route:"kriminalpsychologie-jeanne-weber", label:"Criminal Psychology: Jeanne Weber (SE2w1) – care as cover, different wing"},
-        {route:"kriminalpsychologie-peter-sutcliffe", label:"Criminal Psychology: Peter Sutcliffe (SE2w1)"},
+        {route:"kriminalpsychologie-jeanne-weber", label:"Criminal Psychology: Jeanne Weber (SP2w1) – care as cover, different wing"},
+        {route:"kriminalpsychologie-peter-sutcliffe", label:"Criminal Psychology: Peter Sutcliffe (SP2w1)"},
       ])}
     </div>
   `);
@@ -2868,8 +2868,8 @@ export function gertPostelKriminalPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Sexual Eight in comparison: how intensity and dominance express themselves differently in SE8, SO8, and SX8.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE8, SO8, SX8 – 27 character profiles compared.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Sexual Eight in comparison: how intensity and dominance express themselves differently in SP8, SO8, and SX8.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP8, SO8, SX8 – 27 character profiles compared.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Type 8 portrayed in depth – lust, control and the path to vulnerability.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -2880,7 +2880,7 @@ export function gertPostelKriminalPortraitPage() {
 
       ${relatedLinks([
         {route:"beruehmte-gert-postel", label:"Portrait: Gert Postel (SX8w9) – nature and career"},
-        {route:"kriminalpsychologie-bernie-madoff", label:"Criminal Psychology: Bernie Madoff (SE3w4) – another fraud case"},
+        {route:"kriminalpsychologie-bernie-madoff", label:"Criminal Psychology: Bernie Madoff (SP3w4) – another fraud case"},
         {route:"kriminalpsychologie-peter-moore", label:"Criminal Psychology: Peter Moore (SX8w7) – same subtype, different wing"},
       ])}
     </div>
@@ -2897,7 +2897,7 @@ export function beateZschaepePortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/kriminalpsychologie-beate-zschaepe-portrait.jpg" alt="Beate Zschäpe – portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Beate Zschäpe</p>
-        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 with a Nine-wing</p>
+        <p class="krim-portrait-typ">SP1w9 · Self-Preservation Type 1 with a Nine-wing</p>
       </div>
       <p class="psycho-intro">
         <strong>Beate Zschäpe</strong>, born 2 January 1975 in Jena, lived underground from 1998 to 2011 with Uwe Mundlos and Uwe Böhnhardt. The trio called itself the ›National Socialist Underground‹ (NSU). Ten murders between 2000 and 2007, two bombings in Cologne and several robberies are attributed to the network. After the two men died on 4 November 2011, Zschäpe turned herself in to the police on 8 November. On 11 July 2018 the Munich Higher Regional Court sentenced her to life imprisonment and found a particular gravity of guilt.
@@ -2947,8 +2947,8 @@ export function beateZschaepePortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The self-preservation One in comparison: how anger expresses itself differently in SE1, SO1, and SX1.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 character profiles compared.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The self-preservation One in comparison: how anger expresses itself differently in SP1, SO1, and SX1.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 character profiles compared.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Type 1 portrayed in depth – anger, perfectionism and the path to serenity.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -2958,8 +2958,8 @@ export function beateZschaepePortraitPage() {
       </div>
 
       ${relatedLinks([
-        {route:"kriminalpsychologie-dennis-rader", label:"Dennis Rader (SE1w9) – same subtype and wing"},
-        {route:"kriminalpsychologie-paul-ogorzow", label:"Paul Ogorzow (SE1w9) – petty-bourgeois cover"},
+        {route:"kriminalpsychologie-dennis-rader", label:"Dennis Rader (SP1w9) – same subtype and wing"},
+        {route:"kriminalpsychologie-paul-ogorzow", label:"Paul Ogorzow (SP1w9) – petty-bourgeois cover"},
         {route:"kriminalpsychologie", label:"Criminal Psychology – all portraits"},
       ])}
     </div>

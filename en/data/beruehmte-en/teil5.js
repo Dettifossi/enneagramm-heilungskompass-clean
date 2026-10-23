@@ -131,17 +131,17 @@ export function adelePortraitPage() {
         {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
         {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SP4w3)"},
         {route:"beruehmte-tim-bendzko", label:"Portrait: Tim Bendzko (SP4w3)"},
-        {route:"krankheitsportraets-adele", label:"Illness Portrait: Adele (SE4w3) – postnatal depression"},
-        {route:"beruehmte-edith-piaf", label:"Portrait: Édith Piaf (SE4w3) – also quiet, disciplined pain shaped into universal songs"},
-        {route:"beruehmte-brian-fennell", label:"Portrait: Brian Fennell (SYML) (SE4w3)"},
-        {route:"beruehmte-camille-kitt", label:"Portrait: Camille Kitt (SE4w3)"},
-        {route:"beruehmte-enya", label:"Portrait: Enya (SE4w3)"},
-        {route:"beruehmte-evan-bates", label:"Portrait: Evan Bates (SE4w3)"},
-        {route:"beruehmte-honore-de-balzac", label:"Portrait: Honoré de Balzac (SE4w3)"},
-        {route:"beruehmte-michael-david-rosenberg", label:"Portrait: Michael David Rosenberg (Passenger) (SE4w3)"},
-        {route:"beruehmte-nicolas-cage", label:"Portrait: Nicolas Cage (SE4w3)"},
-        {route:"beruehmte-t-e-lawrence", label:"Portrait: T. E. Lawrence (SE4w3)"},
-        {route:"beruehmte-yannick-van-de-velde", label:"Portrait: Yannick van de Velde (SE4w3)"},
+        {route:"krankheitsportraets-adele", label:"Illness Portrait: Adele (SP4w3) – postnatal depression"},
+        {route:"beruehmte-edith-piaf", label:"Portrait: Édith Piaf (SP4w3) – also quiet, disciplined pain shaped into universal songs"},
+        {route:"beruehmte-brian-fennell", label:"Portrait: Brian Fennell (SYML) (SP4w3)"},
+        {route:"beruehmte-camille-kitt", label:"Portrait: Camille Kitt (SP4w3)"},
+        {route:"beruehmte-enya", label:"Portrait: Enya (SP4w3)"},
+        {route:"beruehmte-evan-bates", label:"Portrait: Evan Bates (SP4w3)"},
+        {route:"beruehmte-honore-de-balzac", label:"Portrait: Honoré de Balzac (SP4w3)"},
+        {route:"beruehmte-michael-david-rosenberg", label:"Portrait: Michael David Rosenberg (Passenger) (SP4w3)"},
+        {route:"beruehmte-nicolas-cage", label:"Portrait: Nicolas Cage (SP4w3)"},
+        {route:"beruehmte-t-e-lawrence", label:"Portrait: T. E. Lawrence (SP4w3)"},
+        {route:"beruehmte-yannick-van-de-velde", label:"Portrait: Yannick van de Velde (SP4w3)"},
       ])}
     </div>
   `);
@@ -209,7 +209,7 @@ export function angelinaJoliePortraitPage() {
         {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
         {route:"beruehmte-billy-bob-thornton", label:"Portrait: Billy Bob Thornton (SO7w6)"},
         {route:"beruehmte-friedrich-merz", label:"Portrait: Friedrich Merz (SO1w9)"},
-        {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SE2w1)"},
+        {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SP2w1)"},
         {route:"beruehmte-hillary-clinton", label:"Portrait: Hillary Clinton (SO1w2)"},
         {route:"beruehmte-juergen-klopp", label:"Portrait: Jürgen Klopp (SO1w2)"},
         {route:"beruehmte-nicole-kidman", label:"Portrait: Nicole Kidman (SO1w2)"},
@@ -765,7 +765,7 @@ export function jackBlackPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jack-black-portrait.jpg" alt="Jack Black" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jack Black</p>
-        <p class="krim-portrait-typ">SE2w1 &middot; Self-Preservation Type 2 with One-Wing</p>
+        <p class="krim-portrait-typ">SP2w1 &middot; Self-Preservation Type 2 with One-Wing</p>
         <p class="krim-portrait-subtitle">Actor & musician, b. 1969 – School of Rock, Tenacious D – Animal equivalent: Hippopotamus</p>
       </div>
       <div class="page-content">
@@ -778,9 +778,9 @@ export function jackBlackPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Two: Care with Full Physical Commitment</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The self-preservation Two (SE2) directs the energy of the Two most directly toward its own survival and that of its closest circle. Naranjo called this subtype Me First—not egocentrism, but the conviction that one must first be stable, provided for, and alive oneself in order to be there for others. The SE2 is the most concrete, most physical of the three Two variants—it does not give abstractly, it gives with full commitment.</p>
-          <p class="vb-intro">In Jack Black, this shows in the way he fuses care and entertainment into one. In <em>School of Rock</em>, he plays a failed musician who brings a class of uptight children to life through rock music—not through lecturing, but through pure, infectious energy. The character Dewey Finn is at his core an SE2: he gives everything he has so that others can bloom, and he does it not quietly, but at the highest possible volume.</p>
-          <p class="vb-intro">Privately, too, Jack Black carries this quality: he is known as one of Hollywood's most approachable, caring stars in dealing with young fans, with his bandmate Kyle Gass, with his family. The SE2 does not care from a distance—it cares by throwing itself right into the middle of things.</p>
+          <p class="vb-intro">The self-preservation Two (SP2) directs the energy of the Two most directly toward its own survival and that of its closest circle. Naranjo called this subtype Me First—not egocentrism, but the conviction that one must first be stable, provided for, and alive oneself in order to be there for others. The SP2 is the most concrete, most physical of the three Two variants—it does not give abstractly, it gives with full commitment.</p>
+          <p class="vb-intro">In Jack Black, this shows in the way he fuses care and entertainment into one. In <em>School of Rock</em>, he plays a failed musician who brings a class of uptight children to life through rock music—not through lecturing, but through pure, infectious energy. The character Dewey Finn is at his core an SP2: he gives everything he has so that others can bloom, and he does it not quietly, but at the highest possible volume.</p>
+          <p class="vb-intro">Privately, too, Jack Black carries this quality: he is known as one of Hollywood's most approachable, caring stars in dealing with young fans, with his bandmate Kyle Gass, with his family. The SP2 does not care from a distance—it cares by throwing itself right into the middle of things.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The One Wing: Craft and Standards</h2>
@@ -792,21 +792,21 @@ export function jackBlackPortraitPage() {
 
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE2w1 is its ability to give joy as a gift without downplaying it. Jack Black's career, from independent film beginnings through <em>School of Rock</em> to global hits like the <em>Kung Fu Panda</em> films and the <em>Minecraft</em> movie, follows a clear line: he wants people to feel alive when they see him. That is not a side effect of his talent—it is the core of his drive.</p>
-          <p class="vb-intro">The passion of the Two is called pride—the conviction that one is indispensable through one's own giving. In the SE2w1, this shows as the quiet certainty: <em>I know how to create joy, and nobody can take that from me.</em> This certainty carries, but it can also exhaust—anyone who continuously defines themselves through energy and entertainment risks overlooking their own quieter, more vulnerable sides.</p>
+          <p class="vb-intro">The light of the SP2w1 is its ability to give joy as a gift without downplaying it. Jack Black's career, from independent film beginnings through <em>School of Rock</em> to global hits like the <em>Kung Fu Panda</em> films and the <em>Minecraft</em> movie, follows a clear line: he wants people to feel alive when they see him. That is not a side effect of his talent—it is the core of his drive.</p>
+          <p class="vb-intro">The passion of the Two is called pride—the conviction that one is indispensable through one's own giving. In the SP2w1, this shows as the quiet certainty: <em>I know how to create joy, and nobody can take that from me.</em> This certainty carries, but it can also exhaust—anyone who continuously defines themselves through energy and entertainment risks overlooking their own quieter, more vulnerable sides.</p>
           <p class="vb-intro">Jack Black has spoken openly in interviews about self-doubt, fears, and the challenges of aging in an industry fixated on youth—a hippopotamus that also admits, at times, that the water does not always carry.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Music as a Second Territory</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">That Jack Black pursues a serious music career with Tenacious D alongside acting is typical for the SE2: it needs several territories in which to invest its energy. The stage with the guitar is a place where he does not perform aliveness—he is alive. Grammy nominations, sold-out tours, his own film (<em>Tenacious D in The Pick of Destiny</em>)—the hippopotamus defends this second territory with the same devotion as the first.</p>
+          <p class="vb-intro">That Jack Black pursues a serious music career with Tenacious D alongside acting is typical for the SP2: it needs several territories in which to invest its energy. The stage with the guitar is a place where he does not perform aliveness—he is alive. Grammy nominations, sold-out tours, his own film (<em>Tenacious D in The Pick of Destiny</em>)—the hippopotamus defends this second territory with the same devotion as the first.</p>
           <p class="vb-intro">This double role, film star and rock musician, is not a contradiction but two expressions of the same energy: complete, physical, loud devotion to whatever is needed in the moment.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Gift: Joy Without Reservation</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Jack Black has given popular culture is a rare permission: to give oneself completely, unironically, and without false coolness to joy. In an entertainment industry that often relies on distance and irony, he throws himself in without restraint—and by doing so gives others the courage to do the same.</p>
-          <p class="vb-intro">That is the gift of the SE2w1: a hippopotamus that does not defend its territory with aggression, but fills it with infectious aliveness. Whoever experiences Jack Black on stage or on screen feels it: here is someone giving everything he has—and that is exactly where his strength lies.</p>
+          <p class="vb-intro">That is the gift of the SP2w1: a hippopotamus that does not defend its territory with aggression, but fills it with infectious aliveness. Whoever experiences Jack Black on stage or on screen feels it: here is someone giving everything he has—and that is exactly where his strength lies.</p>
         </blockquote>
 
       </div>
@@ -815,11 +815,11 @@ export function jackBlackPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
-        {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SE2w1)"},
-        {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Portrait: Gloria von Thurn und Taxis (SE2w1)"},
-        {route:"beruehmte-joachim-llambi", label:"Portrait: Joachim Llambi (SE2w1)"},
-        {route:"beruehmte-oprah-winfrey", label:"Portrait: Oprah Winfrey (SE2w3)"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SP2w1)"},
+        {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Portrait: Gloria von Thurn und Taxis (SP2w1)"},
+        {route:"beruehmte-joachim-llambi", label:"Portrait: Joachim Llambi (SP2w1)"},
+        {route:"beruehmte-oprah-winfrey", label:"Portrait: Oprah Winfrey (SP2w3)"},
       ])}
     </div>
   `);
@@ -1101,7 +1101,7 @@ export function mahatmaGandhiPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-mahatma-gandhi-portrait.jpg" alt="Mahatma Gandhi – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Mahatma Gandhi</p>
-        <p class="krim-portrait-typ">SE6w5 &middot; Self-Preservation Type 6 with Five-wing</p>
+        <p class="krim-portrait-typ">SP6w5 &middot; Self-Preservation Type 6 with Five-wing</p>
         <p class="krim-portrait-subtitle">Indian lawyer and freedom fighter, 1869&ndash;1948 &ndash; Animal correspondence: Rabbit</p>
       </div>
       <div class="page-content">
@@ -1155,10 +1155,10 @@ export function mahatmaGandhiPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
+        {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
         {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SP6w5)"},
         {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fyodor Dostoevsky (SP6w5)"},
-        {route:"beruehmte-anne-mcbride", label:"Portrait: Dr. Anne McBride (SE6w5)"},
+        {route:"beruehmte-anne-mcbride", label:"Portrait: Dr. Anne McBride (SP6w5)"},
       ])}
     </div>
   `);
@@ -1317,7 +1317,7 @@ export function oprahWinfreyPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-oprah-winfrey-portrait.jpg" alt="Oprah Winfrey" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Oprah Winfrey</p>
-        <p class="krim-portrait-typ">SE2w3 &middot; Self-Preservation Type 2 with Three-Wing</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-Wing</p>
         <p class="krim-portrait-subtitle">TV host, entrepreneur & philanthropist, b. 1954 – Animal equivalent: Hippopotamus</p>
       </div>
       <div class="page-content">
@@ -1366,16 +1366,16 @@ export function oprahWinfreyPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
         {route:"krankheitsportraets-oprah-winfrey", label:"Illness Portrait: Oprah Winfrey (SP2w3) – From Trauma to Voice"},
-        {route:"beruehmte-uli-hoeness", label:"Portrait: Uli Hoeneß (SE2w3)"},
-        {route:"beruehmte-jack-black", label:"Portrait: Jack Black (SE2w1)"},
+        {route:"beruehmte-uli-hoeness", label:"Portrait: Uli Hoeneß (SP2w3)"},
+        {route:"beruehmte-jack-black", label:"Portrait: Jack Black (SP2w1)"},
         {route:"beruehmte-armin-rohde", label:"Portrait: Armin Rohde (SP2w3)"},
-        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SE2w3)"},
-        {route:"beruehmte-andre-duqum", label:"Portrait: André Duqum (SE2w3)"},
-        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
-        {route:"beruehmte-madison-chock", label:"Portrait: Madison Chock (SE2w3)"},
-        {route:"beruehmte-sathya-sai-baba", label:"Portrait: Sathya Sai Baba (SE2w3)"},
+        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SP2w3)"},
+        {route:"beruehmte-andre-duqum", label:"Portrait: André Duqum (SP2w3)"},
+        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
+        {route:"beruehmte-madison-chock", label:"Portrait: Madison Chock (SP2w3)"},
+        {route:"beruehmte-sathya-sai-baba", label:"Portrait: Sathya Sai Baba (SP2w3)"},
       ])}
     </div>
   `);
@@ -1437,13 +1437,13 @@ export function quentinTarantinoPortraitPage() {
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
         {route:"beruehmte-nusrat-fateh-ali-khan", label:"Portrait: Nusrat Fateh Ali Khan (SP2w3)"},
         {route:"beruehmte-storm-reid", label:"Portrait: Storm Reid (SP2w3)"},
-        {route:"beruehmte-lebo-m", label:"Portrait: Lebo M (SE2w3)"},
-        {route:"beruehmte-mariacarla-boscono", label:"Portrait: Mariacarla Boscono (SE2w3)"},
-        {route:"beruehmte-mickey-rourke", label:"Portrait: Mickey Rourke (SE2w3)"},
-        {route:"beruehmte-stromae", label:"Portrait: Stromae (Paul Van Haver) (SE2w3)"},
-        {route:"beruehmte-tom-kaulitz", label:"Portrait: Tom Kaulitz (SE2w3)"},
-        {route:"beruehmte-tutty-tran", label:"Portrait: Tutty Tran (SE2w3)"},
-        {route:"beruehmte-6ix9ine", label:"Portrait: 6ix9ine (SE2w3)"},
+        {route:"beruehmte-lebo-m", label:"Portrait: Lebo M (SP2w3)"},
+        {route:"beruehmte-mariacarla-boscono", label:"Portrait: Mariacarla Boscono (SP2w3)"},
+        {route:"beruehmte-mickey-rourke", label:"Portrait: Mickey Rourke (SP2w3)"},
+        {route:"beruehmte-stromae", label:"Portrait: Stromae (Paul Van Haver) (SP2w3)"},
+        {route:"beruehmte-tom-kaulitz", label:"Portrait: Tom Kaulitz (SP2w3)"},
+        {route:"beruehmte-tutty-tran", label:"Portrait: Tutty Tran (SP2w3)"},
+        {route:"beruehmte-6ix9ine", label:"Portrait: 6ix9ine (SP2w3)"},
       ])}
     </div>
   `);
@@ -1510,8 +1510,8 @@ export function sallyRooneyPortraitPage() {
         {route:"beruehmte-virginia-woolf", label:"Portrait: Virginia Woolf (SP4w5)"},
         {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
         {route:"beruehmte-miguel-de-unamuno", label:"Portrait: Miguel de Unamuno (SP4w5)"},
-        {route:"beruehmte-barney-fishwick", label:"Portrait: Barney Fishwick (SE4w5)"},
-        {route:"beruehmte-mara-wilson", label:"Portrait: Mara Wilson (SE4w5)"},
+        {route:"beruehmte-barney-fishwick", label:"Portrait: Barney Fishwick (SP4w5)"},
+        {route:"beruehmte-mara-wilson", label:"Portrait: Mara Wilson (SP4w5)"},
       ])}
     </div>
   `);
@@ -1571,7 +1571,7 @@ export function stromaePortraitPage() {
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-nate-dogg", label:"Portrait: Nate Dogg (SP2w3)"},
         {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SP2w3)"},
-        {route:"beruehmte-thomas-chaanhing", label:"Portrait: Thomas Chaanhing (SE2w3)"},
+        {route:"beruehmte-thomas-chaanhing", label:"Portrait: Thomas Chaanhing (SP2w3)"},
       ])}
     </div>
   `);
@@ -1629,13 +1629,13 @@ export function tonyShalhoubPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
-        {route:"beruehmte-kathrin-bauerfeind", label:"Portrait: Kathrin Bauerfeind (SE3w4)"},
-        {route:"beruehmte-madame-tussaud", label:"Portrait: Madame Tussaud (SE3w4)"},
-        {route:"beruehmte-judit-polgar", label:"Portrait: Judit Polgár (SE3w4)"},
-        {route:"beruehmte-annika-von-mutius", label:"Portrait: Dr. Annika von Mutius (SE3w4)"},
-        {route:"beruehmte-paul-bocuse", label:"Portrait: Paul Bocuse (SE3w4)"},
-        {route:"beruehmte-rosa-parks", label:"Portrait: Rosa Parks (SE3w4)"},
-        {route:"beruehmte-william-shakespeare", label:"Portrait: William Shakespeare (SE3w4)"},
+        {route:"beruehmte-kathrin-bauerfeind", label:"Portrait: Kathrin Bauerfeind (SP3w4)"},
+        {route:"beruehmte-madame-tussaud", label:"Portrait: Madame Tussaud (SP3w4)"},
+        {route:"beruehmte-judit-polgar", label:"Portrait: Judit Polgár (SP3w4)"},
+        {route:"beruehmte-annika-von-mutius", label:"Portrait: Dr. Annika von Mutius (SP3w4)"},
+        {route:"beruehmte-paul-bocuse", label:"Portrait: Paul Bocuse (SP3w4)"},
+        {route:"beruehmte-rosa-parks", label:"Portrait: Rosa Parks (SP3w4)"},
+        {route:"beruehmte-william-shakespeare", label:"Portrait: William Shakespeare (SP3w4)"},
       ])}
     </div>
   `);
@@ -1843,8 +1843,8 @@ export function williamShakespearePortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
-        {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SE3 – Raccoon"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SP3 – Raccoon"},
         {route:"beruehmte-sterling-north", label:"Portrait: Sterling North (SP3w4)"},
         {route:"beruehmte-tony-shalhoub", label:"Portrait: Tony Shalhoub (SP3w4)"},
         {route:"beruehmte-anna-anderson", label:"Portrait: Anna Anderson (SP3w4)"},
@@ -2042,7 +2042,7 @@ export function eckhartTollePortraitPage() {
         {route:"beruehmte-carl-rogers", label:"Portrait: Dr. Carl Rogers (SX9w1)"},
         {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
         {route:"bibel-mutter-maria", label:"Bible Portrait: Mother Mary (SX9w1)"},
-        {route:"beruehmte-kim-eng", label:"Portrait: Kim Eng (SE3w2) – his life and work partner"},
+        {route:"beruehmte-kim-eng", label:"Portrait: Kim Eng (SP3w2) – his life and work partner"},
       ])}
     </div>
   `);
@@ -2058,7 +2058,7 @@ export function borisGrundlPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-boris-grundl-portrait.jpg" alt="Boris Grundl – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Boris Grundl</p>
-        <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 with a Nine Wing</p>
+        <p class="krim-portrait-typ">SP8w9 &middot; Self-Preservation Type 8 with a Nine Wing</p>
         <p class="krim-portrait-subtitle">Entrepreneur, speaker, author, b. 1962 &ndash; Animal correspondence: Orangutan</p>
       </div>
       <div class="page-content">
@@ -2071,7 +2071,7 @@ export function borisGrundlPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Eight: One's Own Life as Non-Negotiable Territory</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Self-Preservation Eight (SE8)</strong> secures, according to Naranjo, not a social cause but its own closest territory &ndash; for Grundl, that territory is total control over his own stance toward his own fate. His central life motto, which he made the core of his entire teaching, is "consequence": it is not circumstances that determine the outcome, but the decision how to deal with them. He has defended this position uncompromisingly for more than three decades &ndash; against every expectation that he present himself as a victim, against every temptation to use pity as currency.</p>
+          <p class="vb-intro">The <strong>Self-Preservation Eight (SP8)</strong> secures, according to Naranjo, not a social cause but its own closest territory &ndash; for Grundl, that territory is total control over his own stance toward his own fate. His central life motto, which he made the core of his entire teaching, is "consequence": it is not circumstances that determine the outcome, but the decision how to deal with them. He has defended this position uncompromisingly for more than three decades &ndash; against every expectation that he present himself as a victim, against every temptation to use pity as currency.</p>
           <p class="vb-intro">Out of this radical self-responsibility he founded the Grundl Leadership Academy and built his own training and consulting company &ndash; his own, self-controlled territory, operating exclusively by his own, hard-won principles.</p>
         </blockquote>
 
@@ -2090,7 +2090,7 @@ export function borisGrundlPortraitPage() {
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Eight with a Nine-Wing</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of this combination shows in Grundl's extraordinary ability to build, out of an existential loss of control over his own body, a new and unshakeable form of self-determination &ndash; not despite his own limits, but by means of them.</p>
-          <p class="vb-intro">The shadow lies in the danger of turning one's own, hard-won consequence into a universal yardstick for others: those without the same willpower or the same starting conditions can quickly feel overwhelmed rather than encouraged by the severity of this philosophy &ndash; a typical SE8 trap, declaring one's own territorial defense the general norm without being asked.</p>
+          <p class="vb-intro">The shadow lies in the danger of turning one's own, hard-won consequence into a universal yardstick for others: those without the same willpower or the same starting conditions can quickly feel overwhelmed rather than encouraged by the severity of this philosophy &ndash; a typical SP8 trap, declaring one's own territorial defense the general norm without being asked.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Branch That Became His Own Foundation</h2>
@@ -2104,10 +2104,10 @@ export function borisGrundlPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se8", label:"SE8 – The Orangutan: Subtype Profile"},
-        {route:"beruehmte-helmut-kohl", label:"Portrait: Helmut Kohl (SE8w9) – same subtype"},
-        {route:"beruehmte-ryke-geerd-hamer", label:"Portrait: Dr. Ryke Geerd Hamer (SE8w9) – also the same subtype, here with a destructive shadow side"},
-        {route:"beruehmte-ellen-moons", label:"Portrait: Ellen Moons (SE8w9)"},
+        {route:"subtype/se8", label:"SP8 – The Orangutan: Subtype Profile"},
+        {route:"beruehmte-helmut-kohl", label:"Portrait: Helmut Kohl (SP8w9) – same subtype"},
+        {route:"beruehmte-ryke-geerd-hamer", label:"Portrait: Dr. Ryke Geerd Hamer (SP8w9) – also the same subtype, here with a destructive shadow side"},
+        {route:"beruehmte-ellen-moons", label:"Portrait: Ellen Moons (SP8w9)"},
       ])}
     </div>
   `);
@@ -2272,7 +2272,7 @@ export function halleBerryPortraitPage() {
         <h2 class="vb-section">2. The Self-Preservation Three: The Body as Proven Discipline</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Naranjo described the self-preservation Three through the theme of <em>security through one's own competence</em>: worth arises from the concrete, verifiable achievement itself, not from public display. This shows especially vividly in how Berry handles her type 1 diabetes, diagnosed in 1989 after she fell into a diabetic coma while shooting a television series. Instead of letting the illness dictate her career, she submitted herself to strict self-control through diet, blood sugar monitoring, and daily insulin &ndash; management through pure discipline, not withdrawal.</p>
-          <p class="vb-intro">The same stance shows in her still nearly daily fitness routine: five to six training sessions a week, often over ninety minutes, well past her sixtieth year. Her longtime trainer called her "the hardest working actress" he had ever encountered. For the SE3, the body is not a display object, but proof of one's own competence &ndash; not talent, but daily, verifiable work.</p>
+          <p class="vb-intro">The same stance shows in her still nearly daily fitness routine: five to six training sessions a week, often over ninety minutes, well past her sixtieth year. Her longtime trainer called her "the hardest working actress" he had ever encountered. For the SP3, the body is not a display object, but proof of one's own competence &ndash; not talent, but daily, verifiable work.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two-Wing: Visibility in Service of Other Women</h2>
@@ -2299,11 +2299,11 @@ export function halleBerryPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-penelope-cruz", label:"Portrait: Penélope Cruz (SP3w2)"},
         {route:"beruehmte-audrey-tautou", label:"Portrait: Audrey Tautou (SP3w2)"},
-        {route:"beruehmte-barbara-bleisch", label:"Portrait: Dr. Barbara Bleisch (SE3w2)"},
-        {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SE3w2)"},
+        {route:"beruehmte-barbara-bleisch", label:"Portrait: Dr. Barbara Bleisch (SP3w2)"},
+        {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SP3w2)"},
       ])}
     </div>
   `);
@@ -2366,14 +2366,14 @@ export function annaNetrebkoPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-norah-jones", label:"Portrait: Norah Jones (SP3w4)"},
         {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SP3w2)"},
         {route:"beruehmte-dmitri-hvorostovsky", label:"Portrait: Dmitri Hvorostovsky (SO3w2)"},
         {route:"beruehmte-wim-thoelke", label:"Portrait: Wim Thoelke (SP3w4)"},
-        {route:"beruehmte-barbara-bleisch", label:"Portrait: Dr. Barbara Bleisch (SE3w2)"},
-        {route:"beruehmte-paul-bocuse", label:"Portrait: Paul Bocuse (SE3w4)"},
-        {route:"beruehmte-catherine-deneuve", label:"Portrait: Catherine Deneuve (SE3w4)"},
+        {route:"beruehmte-barbara-bleisch", label:"Portrait: Dr. Barbara Bleisch (SP3w2)"},
+        {route:"beruehmte-paul-bocuse", label:"Portrait: Paul Bocuse (SP3w4)"},
+        {route:"beruehmte-catherine-deneuve", label:"Portrait: Catherine Deneuve (SP3w4)"},
       ])}
     </div>
   `);
@@ -2599,7 +2599,7 @@ export function catherineDeneuvePortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-catherine-deneuve-portrait.jpg" alt="Catherine Deneuve – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-catherine-deneuve-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Catherine Deneuve</p>
-        <p class="krim-portrait-typ">SE3w4 &middot; Self-Preservation Type 3 with a Four-wing</p>
+        <p class="krim-portrait-typ">SP3w4 &middot; Self-Preservation Type 3 with a Four-wing</p>
         <p class="krim-portrait-subtitle">French actress, b. 1943 &ndash; &lsquo;The Umbrellas of Cherbourg&rsquo;, &lsquo;Belle de Jour&rsquo;, &lsquo;Indochine&rsquo; &ndash; Animal correspondence: Raccoon</p>
       </div>
       <div class="page-content">
@@ -2612,7 +2612,7 @@ export function catherineDeneuvePortraitPage() {
 
         <h2 class="vb-section">2. The self-preservation Three: security instead of shine</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Three lives from having its worth made visible, through achievement, success and the fitting image. Its passion is deceit: it plays the role that is needed and mistakes itself for that role. In this app&rsquo;s Life Pattern Compass the <strong>self-preservation Three (SE3)</strong> counts as the countertype: it shows the least of what one associates with a Three. It is not after shine but after security. It seeks it in solid ability, in reliability and in being unassailable because it masters its work. The image that the other Threes carry outward, the self-preservation Three keeps small and well guarded.</p>
+          <p class="vb-intro">The Three lives from having its worth made visible, through achievement, success and the fitting image. Its passion is deceit: it plays the role that is needed and mistakes itself for that role. In this app&rsquo;s Life Pattern Compass the <strong>self-preservation Three (SP3)</strong> counts as the countertype: it shows the least of what one associates with a Three. It is not after shine but after security. It seeks it in solid ability, in reliability and in being unassailable because it masters its work. The image that the other Threes carry outward, the self-preservation Three keeps small and well guarded.</p>
           <p class="vb-intro">In Deneuve this fits strikingly. She was one of the most famous beauties of Europe and yet never ran that beauty as a performance but as a working foundation. The early film was not followed by shine at any cost, but by cooperation with the great directors of her time: Jacques Demy, Roman Polanski, Luis Buñuel, François Truffaut, Régis Wargnier, Lars von Trier, François Ozon. The result is a body of work that does not rest on one success but on a long series of sound works.</p>
           <p class="vb-intro">It fits that she protected her private life. On speculation about it she said in 2002 in the magazine &lsquo;Knack&rsquo;, in essence, that people guess as soon as they know nothing about it, and that a relationship is assumed whenever she is seen with a female friend. In 1983, in a cosmetics campaign photographed by Richard Avedon, she answered the question about her age with: &lsquo;Look closely. Next year, I will be 40.&rsquo; A woman who lives from her image lets herself be looked at on request, but not questioned.</p>
         </blockquote>
@@ -2632,7 +2632,7 @@ export function catherineDeneuvePortraitPage() {
 
         <h2 class="vb-section">5. Parallel in the same subtype: Netrebko, Jones, Miosga and Lourd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Several SE3w4s stand among the portraits in this Compass, and the comparison shows what is special about Deneuve. <a href="#beruehmte-anna-netrebko">Anna Netrebko (SE3w4)</a> relies on her own voice as capital and yet keeps the glamour of her appearances entirely in her own hands: she designs her fashion and social media herself. <a href="#beruehmte-norah-jones">Norah Jones (SE3w4)</a> withdrew after the overwhelming success of her debut album and appeared in side projects such as El Madmo under another name and in disguise. <a href="#beruehmte-caren-miosga">Caren Miosga (SE3w4)</a> hosts calmly and thoroughly prepared where others get loud. <a href="#beruehmte-billie-lourd">Billie Lourd (SE3w4)</a> is, like Deneuve, the daughter of an actress, but took the supporting roles she was offered instead of playing up her mother&rsquo;s name.</p>
+          <p class="vb-intro">Several SP3w4s stand among the portraits in this Compass, and the comparison shows what is special about Deneuve. <a href="#beruehmte-anna-netrebko">Anna Netrebko (SP3w4)</a> relies on her own voice as capital and yet keeps the glamour of her appearances entirely in her own hands: she designs her fashion and social media herself. <a href="#beruehmte-norah-jones">Norah Jones (SP3w4)</a> withdrew after the overwhelming success of her debut album and appeared in side projects such as El Madmo under another name and in disguise. <a href="#beruehmte-caren-miosga">Caren Miosga (SP3w4)</a> hosts calmly and thoroughly prepared where others get loud. <a href="#beruehmte-billie-lourd">Billie Lourd (SP3w4)</a> is, like Deneuve, the daughter of an actress, but took the supporting roles she was offered instead of playing up her mother&rsquo;s name.</p>
           <p class="vb-intro">What all four share is that they produce security through ability and control over their own image, and that the Four-wing adds something wilful. In Deneuve the mask itself becomes material: where Jones changes it and Netrebko curates it, Deneuve makes the stillness of the face her art form. That she stayed both a symbol and out of reach as Marianne, face of Chanel and muse of a fashion designer shows how far she took this.</p>
         </blockquote>
 
@@ -2653,13 +2653,13 @@ export function catherineDeneuvePortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se3", label:"SE3 – The Raccoon: subtype profile"},
-        {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SE3 – Raccoon"},
-        {route:"beruehmte-anna-netrebko", label:"Portrait: Anna Netrebko (SE3w4) – stage artist, same subtype and wing"},
-        {route:"beruehmte-norah-jones", label:"Portrait: Norah Jones (SE3w4)"},
-        {route:"beruehmte-caren-miosga", label:"Portrait: Caren Miosga (SE3w4)"},
-        {route:"beruehmte-billie-lourd", label:"Portrait: Billie Lourd (SE3w4) – also the daughter of an actress"},
-        {route:"beruehmte-fabrice-luchini", label:"Portrait: Fabrice Luchini (SE1w9)"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: subtype profile"},
+        {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SP3 – Raccoon"},
+        {route:"beruehmte-anna-netrebko", label:"Portrait: Anna Netrebko (SP3w4) – stage artist, same subtype and wing"},
+        {route:"beruehmte-norah-jones", label:"Portrait: Norah Jones (SP3w4)"},
+        {route:"beruehmte-caren-miosga", label:"Portrait: Caren Miosga (SP3w4)"},
+        {route:"beruehmte-billie-lourd", label:"Portrait: Billie Lourd (SP3w4) – also the daughter of an actress"},
+        {route:"beruehmte-fabrice-luchini", label:"Portrait: Fabrice Luchini (SP1w9)"},
       ])}
     </div>
   `);

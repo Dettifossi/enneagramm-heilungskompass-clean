@@ -81,10 +81,10 @@ export function adolfEichmannPortraitPage() {
           {route:"kriminalpsychologie-anders-breivik", label:"Criminal Psychology: Anders Breivik (SX6w5)"},
           {route:"kriminalpsychologie-charles-manson", label:"Criminal Psychology: Charles Manson (SX6w7)"},
           {route:"kriminalpsychologie-harold-shipman", label:"Criminal Psychology: Harold Shipman (SO5w6)"},
-          {route:"kriminalpsychologie-andreas-baader", label:"Andreas Baader (SE7w8) – criminal psychology"},
-          {route:"kriminalpsychologie-john-list", label:"John List (SE6w5) – criminal psychology"},
+          {route:"kriminalpsychologie-andreas-baader", label:"Andreas Baader (SP7w8) – criminal psychology"},
+          {route:"kriminalpsychologie-john-list", label:"John List (SP6w5) – criminal psychology"},
           {route:"kriminalpsychologie-ted-kaczynski", label:"Dr. Ted Kaczynski (SO5w4) – criminal psychology"},
-          {route:"kriminalpsychologie-ulrike-meinhof", label:"Ulrike Meinhof (SE2w1) – criminal psychology"},
+          {route:"kriminalpsychologie-ulrike-meinhof", label:"Ulrike Meinhof (SP2w1) – criminal psychology"},
         ])}
       </div>
     </div>
@@ -204,9 +204,9 @@ An SP3w4 like Bernie Madoff needed conscious staging, ultimate greed, and the bi
         {route:"kriminalpsychologie-nick-leeson", label:"Criminal Psychology: Nick Leeson (SO9w8) \u2013 Rogue Trader, Barings Bank"},
         {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Criminal Psychology: Wolfgang Beltracchi (SX9w1) – Art Forger"},
         {route:"kriminalpsychologie-leslie-van-houten", label:"Criminal Psychology: Leslie Van Houten (SO9w1) \u2013 Manson Family"},
-        {route:"beruehmte-baerbel-bas", label:"Portrait: Bärbel Bas (SE9w1)"},
+        {route:"beruehmte-baerbel-bas", label:"Portrait: Bärbel Bas (SP9w1)"},
         {route:"kriminalpsychologie-ed-gein", label:"Ed Gein (SX9w1) – criminal psychology"},
-        {route:"kriminalpsychologie-john-hinckley-jr", label:"John Hinckley Jr. (SE9w8) – criminal psychology"},
+        {route:"kriminalpsychologie-john-hinckley-jr", label:"John Hinckley Jr. (SP9w8) – criminal psychology"},
       ])}
       <div style="margin-top:1.5rem;max-width:100%;">
         <button class="ghost-link" data-route="kriminalpsychologie">\u2190 Zur\xfcck zur Criminal Psychology-\xdcbersicht</button>
@@ -407,8 +407,8 @@ export function arnoFunkePortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-niels-hoegel", label:"Criminal Psychology: Niels Högel (SP7w8)"},
         {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Criminal Psychology: Wolfgang Beltracchi"},
-        {route:"kriminalpsychologie-andrei-tschikatilo", label:"Andrei Tschikatilo (SE1w9) – criminal psychology"},
-        {route:"kriminalpsychologie-dennis-rader", label:"Dennis Rader (SE1w9) – criminal psychology"},
+        {route:"kriminalpsychologie-andrei-tschikatilo", label:"Andrei Tschikatilo (SP1w9) – criminal psychology"},
+        {route:"kriminalpsychologie-dennis-rader", label:"Dennis Rader (SP1w9) – criminal psychology"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
@@ -509,8 +509,8 @@ export function busterMurdaughPortraitPage() {
         {route:"kriminalpsychologie-harvey-weinstein", label:"Criminal Psychology: Harvey Weinstein"},
         {route:"kriminalpsychologie-jonathan-meijer", label:"Criminal Psychology: Jonathan Meijer"},
         {route:"kriminalpsychologie-alex-murdaugh", label:"Alex Murdaugh (SX1w2) – criminal psychology"},
-        {route:"kriminalpsychologie-john-wayne-gacy", label:"John Wayne Gacy (SE2w3) – criminal psychology"},
-        {route:"kriminalpsychologie-sebastian-greenwood", label:"Sebastian Greenwood (SE2w3) – criminal psychology"},
+        {route:"kriminalpsychologie-john-wayne-gacy", label:"John Wayne Gacy (SP2w3) – criminal psychology"},
+        {route:"kriminalpsychologie-sebastian-greenwood", label:"Sebastian Greenwood (SP2w3) – criminal psychology"},
       ])}
     </div>
   `);
@@ -578,7 +578,7 @@ export function clydeBarrowPortraitPage() {
           <span style="display:block;"><strong>Known for:</strong> Half of the outlaw couple "Bonnie and Clyde", 21-month crime spree across the American Midwest (1932–1934), at least 13 killings, killed in a police ambush</span>
         </p>
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The sexual Seven compared: how fleeing confinement becomes a restless way of life – and why the Eight wing turns lightness into lethal confrontation.", "The Hidden Dynamics of the 27 Subtypes")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE7, SO7, SX7 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP7, SO7, SX7 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Gluttony as the core motive of the Seven: how the Seven's protective system forms – and how it dissolves through healing.", "Who You Really Are (Volume 1)")}
 
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -764,9 +764,9 @@ export function frankAbagnalePortraitPage() {
       </div>
 
       ${relatedLinks([
-        {route:"beruehmte-anna-anderson", label:"Porträt: Anna Anderson (SE3w4)"},
+        {route:"beruehmte-anna-anderson", label:"Porträt: Anna Anderson (SP3w4)"},
         {route:"beruehmte-josh-safdie", label:"Porträt: Josh Safdie (SO7w6)"},
-        {route:"kriminalpsychologie-bernie-madoff", label:"Bernie Madoff (SE3w4) – criminal psychology"},
+        {route:"kriminalpsychologie-bernie-madoff", label:"Bernie Madoff (SP3w4) – criminal psychology"},
         {route:"kriminalpsychologie-victor-lustig", label:"Victor Lustig (SX7w8) – criminal psychology"},
         {route:"kriminalpsychologie", label:"Criminal psychology – all portraits"},
       ])}
@@ -871,7 +871,7 @@ export function grisdaBlancoPortraitPage() {
           {route:"kriminalpsychologie-john-gotti", label:"Criminal Psychology: John Gotti (SO8w7)"},
           {route:"kriminalpsychologie-jeffrey-epstein", label:"Criminal Psychology: Jeffrey Epstein (SX8w9)"},
           {route:"kriminalpsychologie-p-diddy", label:"Sean 'P. Diddy' Combs (SX7w8) – criminal psychology"},
-          {route:"kriminalpsychologie-rex-heuermann", label:"Rex Heuermann (SE8w9) – criminal psychology"},
+          {route:"kriminalpsychologie-rex-heuermann", label:"Rex Heuermann (SP8w9) – criminal psychology"},
         ])}
       </div>
     </div>
@@ -974,7 +974,7 @@ export function heinrichPommerenkePortraitPage() {
         {route:"kriminalpsychologie-anders-breivik", label:"Criminal Psychology: Anders Breivik"},
         {route:"kriminalpsychologie-gesche-gottfried", label:"Criminal Psychology: Gesche Gottfried (SO1w2)"},
         {route:"kriminalpsychologie-dieter-zlof", label:"Dieter Zlof (SO1w9) – criminal psychology"},
-        {route:"kriminalpsychologie-paul-ogorzow", label:"Paul Ogorzow (SE1w9) – criminal psychology"},
+        {route:"kriminalpsychologie-paul-ogorzow", label:"Paul Ogorzow (SP1w9) – criminal psychology"},
         {route:"kriminalpsychologie-ted-bundy", label:"Ted Bundy (SO1w9) – criminal psychology"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
@@ -1105,12 +1105,12 @@ In prison, Dahmer was baptized in 1994 and, according to the prison chaplain, sh
         {route:"kriminalpsychologie-luka-magnotta", label:"Criminal Psychology: Luka Magnotta"},
         {route:"kriminalpsychologie-anders-breivik", label:"Anders Breivik (SX6w5) – criminal psychology"},
         {route:"kriminalpsychologie-armin-meiwes", label:"Armin Meiwes (SX6w5) – criminal psychology"},
-        {route:"kriminalpsychologie-david-berkowitz", label:"David Berkowitz (SE4w3) – criminal psychology"},
-        {route:"kriminalpsychologie-dennis-nilsen", label:"Dennis Nilsen (SE1w2) – criminal psychology"},
+        {route:"kriminalpsychologie-david-berkowitz", label:"David Berkowitz (SP4w3) – criminal psychology"},
+        {route:"kriminalpsychologie-dennis-nilsen", label:"Dennis Nilsen (SP1w2) – criminal psychology"},
         {route:"kriminalpsychologie-harold-shipman", label:"Dr. Harold Shipman (SO5w6) – criminal psychology"},
-        {route:"kriminalpsychologie-joachim-kroll", label:"Joachim Kroll (SE5w6) – criminal psychology"},
+        {route:"kriminalpsychologie-joachim-kroll", label:"Joachim Kroll (SP5w6) – criminal psychology"},
         {route:"kriminalpsychologie-joel-rifkin", label:"Joel Rifkin (SX5w6) – criminal psychology"},
-        {route:"kriminalpsychologie-salvatore-riina", label:"Salvatore Riina (SE8w9) – criminal psychology"},
+        {route:"kriminalpsychologie-salvatore-riina", label:"Salvatore Riina (SP8w9) – criminal psychology"},
         {route:"kriminalpsychologie-ted-kaczynski", label:"Dr. Ted Kaczynski (SO5w4) – criminal psychology"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
@@ -1392,7 +1392,7 @@ export function karlaHomolkaPortraitPage() {
         {route:"kriminalpsychologie-ruja-ignatova", label:"Criminal Psychology: Ruja Ignatova (SP3w4)"},
         {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy (SO1w9)"},
         {route:"kriminalpsychologie-aileen-wuornos", label:"Aileen Wuornos (SX7w8) – criminal psychology"},
-        {route:"kriminalpsychologie-belle-gunness", label:"Belle Gunness (SE3w4) – criminal psychology"},
+        {route:"kriminalpsychologie-belle-gunness", label:"Belle Gunness (SP3w4) – criminal psychology"},
       ])}
     </div>
   `);
@@ -1705,7 +1705,7 @@ export function pamelaSmartPortraitPage() {
           {route:"kriminalpsychologie-diane-downs", label:"Criminal Psychology: Diane Downs (SX3w4)"},
           {route:"kriminalpsychologie-harvey-weinstein", label:"Criminal Psychology: Harvey Weinstein (SP2w1)"},
           {route:"kriminalpsychologie-jim-jones", label:"Criminal Psychology: Jim Jones (SO2w3)"},
-          {route:"kriminalpsychologie-belle-gunness", label:"Belle Gunness (SE3w4) – criminal psychology"},
+          {route:"kriminalpsychologie-belle-gunness", label:"Belle Gunness (SP3w4) – criminal psychology"},
         ])}
       </div>
     </div>
@@ -2283,7 +2283,7 @@ export function sebastianGreenwoodPortraitPage() {
         {route:"kriminalpsychologie-ruja-ignatova", label:"Criminal Psychology: Ruja Ignatova"},
         {route:"kriminalpsychologie-anna-delvey", label:"Criminal Psychology: Anna Delvey"},
         {route:"kriminalpsychologie-buster-murdaugh", label:"Criminal Psychology: Buster Murdaugh"},
-        {route:"kriminalpsychologie-michael-franzese", label:"Michael Franzese (SE3w2) – criminal psychology"},
+        {route:"kriminalpsychologie-michael-franzese", label:"Michael Franzese (SP3w2) – criminal psychology"},
       ])}
     </div>
   `);
@@ -2375,7 +2375,7 @@ export function tommyLynnSellsPortraitPage() {
         {route:"kriminalpsychologie-peter-sutcliffe", label:"Criminal Psychology: Peter Sutcliffe (SP2w1) – Yorkshire Ripper"},
         {route:"kriminalpsychologie-harvey-weinstein", label:"Criminal Psychology: Harvey Weinstein (SP2w1)"},
         {route:"kriminalpsychologie-dorothea-puente", label:"Criminal Psychology: Dorothea Puente (SP1w2) – Death House Landlady"},
-        {route:"kriminalpsychologie-angel-resendez", label:"Ángel Reséndez (SE2w1) – criminal psychology"},
+        {route:"kriminalpsychologie-angel-resendez", label:"Ángel Reséndez (SP2w1) – criminal psychology"},
       ])}
     </div>
   `);
@@ -2490,7 +2490,7 @@ export function wadeWilsonPortraitPage() {
         {route:"kriminalpsychologie-andrew-cunanan", label:"Andrew Cunanan (SO3w4) – criminal psychology"},
         {route:"kriminalpsychologie-oj-simpson", label:"O.J. Simpson (SO3w4) – criminal psychology"},
         {route:"kriminalpsychologie-pedro-alonso-lopez", label:"Pedro Alonso López (SO3w2) – criminal psychology"},
-        {route:"kriminalpsychologie-samuel-bankman-fried", label:"Samuel Bankman-Fried (SE3w4) – criminal psychology"},
+        {route:"kriminalpsychologie-samuel-bankman-fried", label:"Samuel Bankman-Fried (SP3w4) – criminal psychology"},
         {route:"kriminalpsychologie-vincenzo-peruggia", label:"Vincenzo Peruggia (SO3w4) – criminal psychology"},
       ])}
     </div>
@@ -2598,8 +2598,8 @@ export function gescheGottfriedPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Social One in comparison: how anger expresses itself differently in SE1, SO1, and SX1 – and why a public caregiving role can become the most dangerous camouflage.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 character profiles compared.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Social One in comparison: how anger expresses itself differently in SP1, SO1, and SX1 – and why a public caregiving role can become the most dangerous camouflage.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 character profiles compared.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Type 1 portrayed in depth – anger, perfectionism, and the healing path through genuine serenity.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -2610,8 +2610,8 @@ export function gescheGottfriedPortraitPage() {
 
       ${relatedLinks([
         {route:"kriminalpsychologie-heinrich-pommerenke", label:"Criminal Psychology: Heinrich Pommerenke (SO1w9)"},
-        {route:"kriminalpsychologie-dorothea-puente", label:"Criminal Psychology: Dorothea Puente (SE1w9) – also care as camouflage"},
-        {route:"kriminalpsychologie-jeanne-weber", label:"Criminal Psychology: Jeanne Weber (SE2w1) – also caregiving role as a tool"},
+        {route:"kriminalpsychologie-dorothea-puente", label:"Criminal Psychology: Dorothea Puente (SP1w9) – also care as camouflage"},
+        {route:"kriminalpsychologie-jeanne-weber", label:"Criminal Psychology: Jeanne Weber (SP2w1) – also caregiving role as a tool"},
       ])}
     </div>
   `);
@@ -2937,7 +2937,7 @@ export function jamesDustyRhodesPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The sexual One compared: how anger disguises itself as countertype warmth.", "The Hidden Dynamics of the 27 Subtypes")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Type 1 portrayed in depth – anger, control, and the healing path through genuine serenity.", "Who You Really Are – Volume 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -2964,7 +2964,7 @@ export function rexHeuermannPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/kriminalpsychologie-rex-heuermann-portrait.jpg" alt="Rex Heuermann – portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Rex Heuermann</p>
-        <p class="krim-portrait-typ">SE8w9 · Self-Preservation Type 8 with a Nine-wing</p>
+        <p class="krim-portrait-typ">SP8w9 · Self-Preservation Type 8 with a Nine-wing</p>
       </div>
       <p class="psycho-intro">
         <strong>Rex Heuermann</strong>, born 13 September 1963 in Massapequa Park, New York, worked as an architect in Manhattan and lived with his family on Long Island. He was arrested on 13 July 2023 and on 8 April 2026 pleaded guilty in Suffolk County Court to the murders of seven women. He also admitted an eighth killing for which he was not charged. The victims disappeared between 1993 and 2010, and their bodies were found at Gilgo Beach and other sites, which is why the case is known as the ›Gilgo Beach murders‹. On 17 June 2026 he was sentenced to life in prison without the possibility of parole.
@@ -2976,7 +2976,7 @@ export function rexHeuermannPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: the Orangutan</h3>
-        <p class="vb-intro">The <strong>orangutan</strong> of the self-preservation Eight lives withdrawn in a territory of its own and meets others only on its own terms. It is the most solitary of the great apes, a planner with a very good memory. In Heuermann's case this can be linked to the picture of a man who lived for decades in a fixed environment and, by his own admission, at the same time kept a hidden second territory for many years. In <a href="javascript:void(0)" data-route="kriminalpsychologie-griselda-blanco">Griselda Blanco</a> and <a href="javascript:void(0)" data-route="kriminalpsychologie-salvatore-riina">Salvatore Riina</a>, who share the same subtype and wing (both SE8w9), the same basic force appeared as open power over an organisation. Here it appears in concealment.</p>
+        <p class="vb-intro">The <strong>orangutan</strong> of the self-preservation Eight lives withdrawn in a territory of its own and meets others only on its own terms. It is the most solitary of the great apes, a planner with a very good memory. In Heuermann's case this can be linked to the picture of a man who lived for decades in a fixed environment and, by his own admission, at the same time kept a hidden second territory for many years. In <a href="javascript:void(0)" data-route="kriminalpsychologie-griselda-blanco">Griselda Blanco</a> and <a href="javascript:void(0)" data-route="kriminalpsychologie-salvatore-riina">Salvatore Riina</a>, who share the same subtype and wing (both SP8w9), the same basic force appeared as open power over an organisation. Here it appears in concealment.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -3010,7 +3010,7 @@ export function rexHeuermannPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Classification</h3>
-        <p class="vb-intro">The pattern of the self-preservation Eight that can be recognised in this case is that of control over life and death that got by without public power. Unlike <a href="javascript:void(0)" data-route="kriminalpsychologie-griselda-blanco">Griselda Blanco</a> (SE8w9) and <a href="javascript:void(0)" data-route="kriminalpsychologie-salvatore-riina">Salvatore Riina</a> (SE8w9), who showed their power openly, it remained concealed in Heuermann: he lived as an architect and family man, used burner phones and kept the two areas apart for years. The Nine-wing can be linked to this calm manner and the ability to compartmentalise what is unpleasant.</p>
+        <p class="vb-intro">The pattern of the self-preservation Eight that can be recognised in this case is that of control over life and death that got by without public power. Unlike <a href="javascript:void(0)" data-route="kriminalpsychologie-griselda-blanco">Griselda Blanco</a> (SP8w9) and <a href="javascript:void(0)" data-route="kriminalpsychologie-salvatore-riina">Salvatore Riina</a> (SP8w9), who showed their power openly, it remained concealed in Heuermann: he lived as an architect and family man, used burner phones and kept the two areas apart for years. The Nine-wing can be linked to this calm manner and the ability to compartmentalise what is unpleasant.</p>
         <p class="vb-intro">That he hardly spoke in court fits this type's reticence. The Enneagram cannot explain why he killed, and it replaces neither expert opinions nor the answers he owes the FBI.</p>
       </div>
 
@@ -3026,11 +3026,11 @@ export function rexHeuermannPortraitPage() {
       </div>
 
       ${relatedLinks([
-        {route:"kriminalpsychologie-griselda-blanco", label:"Griselda Blanco (SE8w9) – same subtype and wing, power in public"},
-        {route:"kriminalpsychologie-salvatore-riina", label:"Salvatore Riina (SE8w9) – same subtype and wing"},
-        {route:"kriminalpsychologie-dennis-rader", label:"Dennis Rader (SE1w9) – a double life behind a bourgeois facade"},
+        {route:"kriminalpsychologie-griselda-blanco", label:"Griselda Blanco (SP8w9) – same subtype and wing, power in public"},
+        {route:"kriminalpsychologie-salvatore-riina", label:"Salvatore Riina (SP8w9) – same subtype and wing"},
+        {route:"kriminalpsychologie-dennis-rader", label:"Dennis Rader (SP1w9) – a double life behind a bourgeois facade"},
         {route:"kriminalpsychologie-gary-ridgway", label:"Gary Ridgway (SX1w2) – a serial offender with a similar choice of victims"},
-        {route:"kriminalmusterkompass/se8", label:"Criminal Pattern Compass: SE8 – Orangutan"},
+        {route:"kriminalmusterkompass/se8", label:"Criminal Pattern Compass: SP8 – Orangutan"},
         {route:"kriminalpsychologie", label:"Criminal psychology – all portraits"},
       ])}
     </div>

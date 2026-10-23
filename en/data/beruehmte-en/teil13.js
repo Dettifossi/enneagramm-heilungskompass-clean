@@ -216,7 +216,7 @@ export function charlesDarwinPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-charles-darwin-portrait.jpg" alt="Charles Darwin" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Charles Darwin</p>
-        <p class="krim-portrait-typ">SE5w6 &middot; Self-Preservation Type 5 with six-wing wing</p>
+        <p class="krim-portrait-typ">SP5w6 &middot; Self-Preservation Type 5 with six-wing wing</p>
         <p class="krim-portrait-subtitle">Naturalist, founder of the theory of evolution, 1809–1882 – Animal equivalent: Owl</p>
       </div>
       <div class="page-content">
@@ -269,13 +269,13 @@ export function charlesDarwinPortraitPage() {
       <p class="vb-intro">The nearly forty years of unexplained chronic complaints following the Beagle voyage – from nausea to exhaustion – are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-charles-darwin">Illness Portrait of Darwin</a>.</p>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se5", label:"SE5 – The Owl: Subtype Profile"},
-        {route:"beruehmte-vera-birkenbihl", label:"Portrait: Vera Birkenbihl (SE5w6)"},
-        {route:"beruehmte-warren-buffett", label:"Portrait: Warren Buffett (SE5w6)"},
-        {route:"krankheitsportraets-charles-darwin", label:"Illness Portrait: Charles Darwin (SE5w6)"},
-        {route:"krankheitsportraets-marie-curie", label:"Illness Portrait: Marie Curie (SE5w6) – parallel to Darwin's chronic illness"},
-        {route:"beruehmte-stanley-mandelstam", label:"Portrait: Stanley Mandelstam (SE5w6)"},
-        {route:"beruehmte-duncan-haldane", label:"Portrait: Duncan Haldane (SE5w6)"},
+        {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
+        {route:"beruehmte-vera-birkenbihl", label:"Portrait: Vera Birkenbihl (SP5w6)"},
+        {route:"beruehmte-warren-buffett", label:"Portrait: Warren Buffett (SP5w6)"},
+        {route:"krankheitsportraets-charles-darwin", label:"Illness Portrait: Charles Darwin (SP5w6)"},
+        {route:"krankheitsportraets-marie-curie", label:"Illness Portrait: Marie Curie (SP5w6) – parallel to Darwin's chronic illness"},
+        {route:"beruehmte-stanley-mandelstam", label:"Portrait: Stanley Mandelstam (SP5w6)"},
+        {route:"beruehmte-duncan-haldane", label:"Portrait: Duncan Haldane (SP5w6)"},
       ])}
     </div>
   `);
@@ -419,7 +419,7 @@ export function fjodorDostojewskiPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-fjodor-dostojewski-portrait.jpg" alt="Fjodor Dostojewski" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Fjodor Dostojewski</p>
-        <p class="krim-portrait-typ">SE6w5 &middot; Self-Preservation Type 6 with Five-wing</p>
+        <p class="krim-portrait-typ">SP6w5 &middot; Self-Preservation Type 6 with Five-wing</p>
         <p class="krim-portrait-subtitle">Russian writer, 1821&ndash;1881 &ndash; Animal correspondence: Rabbit</p>
       </div>
       <div class="page-content">
@@ -469,17 +469,17 @@ export function fjodorDostojewskiPortraitPage() {
       <p class="vb-intro">His lifelong epilepsy and its direct literary processing in characters such as Prince Myshkin are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-fjodor-dostojewski">Illness Portrait of Dostoevsky</a>.</p>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
-        {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SE6w5)"},
-        {route:"beruehmte-herbert-kickl", label:"Portrait: Herbert Kickl (SE6w5)"},
-        {route:"beruehmte-huang-yong-ping", label:"Portrait: Huang Yong Ping (SE6w5)"},
-        {route:"beruehmte-alberto-marini", label:"Portrait: Alberto Marini (SE6w5)"},
-        {route:"beruehmte-karl-lauterbach", label:"Portrait: Karl Lauterbach (SE6w5)"},
-        {route:"krankheitsportraets-fjodor-dostojewski", label:"Illness Portrait: Fjodor Dostoevsky (SE6w5)"},
-        {route:"beruehmte-anne-mcbride", label:"Portrait: Dr. Anne McBride (SE6w5)"},
-        {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SE6w5)"},
-        {route:"beruehmte-mahatma-gandhi", label:"Portrait: Mahatma Gandhi (SE6w5)"},
-        {route:"bibel-zachaeus", label:"Bible Portrait: Zacchaeus (SE6w5)"},
+        {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
+        {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SP6w5)"},
+        {route:"beruehmte-herbert-kickl", label:"Portrait: Herbert Kickl (SP6w5)"},
+        {route:"beruehmte-huang-yong-ping", label:"Portrait: Huang Yong Ping (SP6w5)"},
+        {route:"beruehmte-alberto-marini", label:"Portrait: Alberto Marini (SP6w5)"},
+        {route:"beruehmte-karl-lauterbach", label:"Portrait: Karl Lauterbach (SP6w5)"},
+        {route:"krankheitsportraets-fjodor-dostojewski", label:"Illness Portrait: Fjodor Dostoevsky (SP6w5)"},
+        {route:"beruehmte-anne-mcbride", label:"Portrait: Dr. Anne McBride (SP6w5)"},
+        {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SP6w5)"},
+        {route:"beruehmte-mahatma-gandhi", label:"Portrait: Mahatma Gandhi (SP6w5)"},
+        {route:"bibel-zachaeus", label:"Bible Portrait: Zacchaeus (SP6w5)"},
       ])}
     </div>
   `);
@@ -602,13 +602,13 @@ export function hansDietrichGenscherPortraitPage() {
         {route:"beruehmte-baerbel-bas", label:"Portrait: Bärbel Bas (SP9w1)"},
         {route:"beruehmte-kevin-james", label:"Portrait: Kevin James (SP9w8)"},
         {route:"beruehmte-margaret-rutherford", label:"Portrait: Margaret Rutherford (SP9w8)"},
-        {route:"krankheitsportraets-hans-dietrich-genscher", label:"Illness Portrait: Hans-Dietrich Genscher (SE9w8) – heart condition"},
-        {route:"beruehmte-abida-parveen", label:"Portrait: Abida Parveen (SE9w8)"},
-        {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
-        {route:"beruehmte-carmen-goglin", label:"Portrait: Carmen Goglin (SE9w8)"},
-        {route:"beruehmte-david-hume", label:"Portrait: David Hume (SE9w8)"},
-        {route:"beruehmte-dietmar-baer", label:"Portrait: Dietmar Bär (SE9w8)"},
-        {route:"beruehmte-james-levine", label:"Portrait: James Levine (SE9w1)"},
+        {route:"krankheitsportraets-hans-dietrich-genscher", label:"Illness Portrait: Hans-Dietrich Genscher (SP9w8) – heart condition"},
+        {route:"beruehmte-abida-parveen", label:"Portrait: Abida Parveen (SP9w8)"},
+        {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SP9w8)"},
+        {route:"beruehmte-carmen-goglin", label:"Portrait: Carmen Goglin (SP9w8)"},
+        {route:"beruehmte-david-hume", label:"Portrait: David Hume (SP9w8)"},
+        {route:"beruehmte-dietmar-baer", label:"Portrait: Dietmar Bär (SP9w8)"},
+        {route:"beruehmte-james-levine", label:"Portrait: James Levine (SP9w1)"},
         {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1)"},
         {route:"beruehmte-willy-brandt", label:"Portrait: Willy Brandt (SO9w8)"},
       ])}
@@ -742,8 +742,8 @@ export function janUllrichPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SP2w1)"},
-        {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Portrait: Gloria von Thurn und Taxis (SE2w1)"},
-        {route:"beruehmte-uli-hoeness", label:"Portrait: Uli Hoeneß (SE2w3)"},
+        {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Portrait: Gloria von Thurn und Taxis (SP2w1)"},
+        {route:"beruehmte-uli-hoeness", label:"Portrait: Uli Hoeneß (SP2w3)"},
       ])}
     </div>
   `);
@@ -932,7 +932,7 @@ export function langLangPortraitPage() {
         <h2 class="vb-section">5. The Injury and the Return</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In 2017, a severe tendon inflammation in his left arm, caused by decades of intense practice and public performance, forced Lang Lang into a break of more than a year &ndash; an existential threat to a musician whose entire identity rested on demonstrable, physical mastery. Rather than despairing, he used the time to focus more on music education and teaching, and returned to the stage in 2018 with new maturity.</p>
-          <p class="vb-intro">In 2019 he married the German pianist Gina Alice Redlinger (SE2w3), with whom he has since performed and taught together. The raccoon, whose security once rested solely on his own playing ability, found in the crisis a new, more sustainable foundation: not just to be able to do something, but to pass that ability on.</p>
+          <p class="vb-intro">In 2019 he married the German pianist Gina Alice Redlinger (SP2w3), with whom he has since performed and taught together. The raccoon, whose security once rested solely on his own playing ability, found in the crisis a new, more sustainable foundation: not just to be able to do something, but to pass that ability on.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Legacy: The Raccoon That Inspired a Generation to Play Piano</h2>
@@ -947,20 +947,20 @@ export function langLangPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
-        {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SE3w2)"},
-        {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SE3w2)"},
-        {route:"beruehmte-helene-fischer", label:"Portrait: Helene Fischer (SE3w2)"},
-        {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SE3w4)"},
-        {route:"beruehmte-halle-berry", label:"Portrait: Halle Berry (SE3w2)"},
-        {route:"beruehmte-audrey-tautou", label:"Portrait: Audrey Tautou (SE3w2)"},
-        {route:"beruehmte-lorne-greene", label:"Portrait: Lorne Greene (SE3w2)"},
-        {route:"beruehmte-bastian-pastewka", label:"Portrait: Bastian Pastewka (SE3w2)"},
-        {route:"beruehmte-edita-gruberova", label:"Portrait: Edita Gruberová (SE3w2)"},
-        {route:"beruehmte-horst-tappert", label:"Portrait: Horst Tappert (SE3w2)"},
-        {route:"beruehmte-michael-dell", label:"Portrait: Michael Dell (SE3w2)"},
-        {route:"beruehmte-michael-mina", label:"Portrait: Michael Mina (SE3w2)"},
-        {route:"beruehmte-serdar-somuncu", label:"Portrait: Serdar Somuncu (SE3w2)"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SP3w2)"},
+        {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SP3w2)"},
+        {route:"beruehmte-helene-fischer", label:"Portrait: Helene Fischer (SP3w2)"},
+        {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SP3w4)"},
+        {route:"beruehmte-halle-berry", label:"Portrait: Halle Berry (SP3w2)"},
+        {route:"beruehmte-audrey-tautou", label:"Portrait: Audrey Tautou (SP3w2)"},
+        {route:"beruehmte-lorne-greene", label:"Portrait: Lorne Greene (SP3w2)"},
+        {route:"beruehmte-bastian-pastewka", label:"Portrait: Bastian Pastewka (SP3w2)"},
+        {route:"beruehmte-edita-gruberova", label:"Portrait: Edita Gruberová (SP3w2)"},
+        {route:"beruehmte-horst-tappert", label:"Portrait: Horst Tappert (SP3w2)"},
+        {route:"beruehmte-michael-dell", label:"Portrait: Michael Dell (SP3w2)"},
+        {route:"beruehmte-michael-mina", label:"Portrait: Michael Mina (SP3w2)"},
+        {route:"beruehmte-serdar-somuncu", label:"Portrait: Serdar Somuncu (SP3w2)"},
       ])}
     </div>
   `);
@@ -976,7 +976,7 @@ export function loniHuiPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-loni-hui-portrait.jpg" alt="Loni Hui – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Loni Hui (née Harwood)</p>
-        <p class="krim-portrait-typ">SE2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
         <p class="krim-portrait-subtitle">American professional poker player, born c. 1989 &ndash; Animal correspondence: Hippopotamus</p>
       </div>
       <div class="page-content">
@@ -989,8 +989,8 @@ export function loniHuiPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Two: Care as Financial Security Within the Game</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SE2)</strong> <em>Me First</em>: one's own concrete material and personal security is secured first, before turning outward. Loni Hui's finance degree and her methodical entry via WSOP Circuit tournaments rather than jumping straight into the highest stakes show exactly this stance: secure the foundation first, then take on risk.</p>
-          <p class="vb-intro">More than 3.4 million dollars in total live tournament earnings and five WSOP Circuit rings did not arise from a single big score, but from years of consistent presence on the tournament circuit – an SE2-typical care for her own financial future, built step by step.</p>
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SP2)</strong> <em>Me First</em>: one's own concrete material and personal security is secured first, before turning outward. Loni Hui's finance degree and her methodical entry via WSOP Circuit tournaments rather than jumping straight into the highest stakes show exactly this stance: secure the foundation first, then take on risk.</p>
+          <p class="vb-intro">More than 3.4 million dollars in total live tournament earnings and five WSOP Circuit rings did not arise from a single big score, but from years of consistent presence on the tournament circuit – an SP2-typical care for her own financial future, built step by step.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Three-Wing: The Historic 2013 Bracelet Win</h2>
@@ -1001,8 +1001,8 @@ export function loniHuiPortraitPage() {
 
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE2w3 lies in the ability to achieve historic, publicly measurable success from a carefully built financial and methodical foundation – Loni Hui's path from a finance degree to two WSOP bracelets and over 3.4 million dollars in tournament winnings shows exactly this combination of caution and visible ambition.</p>
-          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of having earned her own success through her own concrete performance. In the SE2w3, this can combine with the need to continuously reaffirm an achieved status – in the competitive sport of poker, a stance that can contribute to long-term success just as much as it can become exhausting.</p>
+          <p class="vb-intro">The light of the SP2w3 lies in the ability to achieve historic, publicly measurable success from a carefully built financial and methodical foundation – Loni Hui's path from a finance degree to two WSOP bracelets and over 3.4 million dollars in tournament winnings shows exactly this combination of caution and visible ambition.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of having earned her own success through her own concrete performance. In the SP2w3, this can combine with the need to continuously reaffirm an achieved status – in the competitive sport of poker, a stance that can contribute to long-term success just as much as it can become exhausting.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Work: From a Finance Degree to Poker History</h2>
@@ -1017,9 +1017,9 @@ export function loniHuiPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
-        {route:"beruehmte-jj-liu", label:"Portrait: J. J. Liu (SE2w1)"},
-        {route:"beruehmte-bryn-kenney", label:"Portrait: Bryn Kenney (SE3w4)"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-jj-liu", label:"Portrait: J. J. Liu (SP2w1)"},
+        {route:"beruehmte-bryn-kenney", label:"Portrait: Bryn Kenney (SP3w4)"},
       ])}
     </div>
   `);
@@ -1048,26 +1048,26 @@ export function marieCuriePortraitPage() {
 
         <h2 class="vb-section">2. The self-preservation Five: Security through knowledge</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to Naranjo, the self-preservation Five (SE5) is the subtype he called "Refuge" – a retreat into a sealed-off, self-controlled space in which knowledge becomes the actual foundation of existence. Curie lived this stance radically: her Paris student room was so sparsely heated that water froze in the basin, and she reduced her diet to the bare minimum – not out of poverty alone, but out of an almost ascetic prioritizing of study above everything else.</p>
+          <p class="vb-intro">According to Naranjo, the self-preservation Five (SP5) is the subtype he called "Refuge" – a retreat into a sealed-off, self-controlled space in which knowledge becomes the actual foundation of existence. Curie lived this stance radically: her Paris student room was so sparsely heated that water froze in the basin, and she reduced her diet to the bare minimum – not out of poverty alone, but out of an almost ascetic prioritizing of study above everything else.</p>
           <p class="vb-intro">The same stance shaped her entire research career: years of laborious manual work on tons of pitchblende to isolate a few milligrams of radium – no spectacular flash of insight, but a methodical, almost stubborn endurance that drew its sense of security solely from her own expertise.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Six wing: Bonding as a foundation</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">An SE5 with a more muted Six wing might have pursued her research entirely alone and isolated. In Curie's case, a deep, loyal capacity for bonding emerged instead: her marriage to Pierre Curie was at the same time a scientific partnership of equals – shared lab work, shared publications, a shared Nobel Prize in 1903.</p>
+          <p class="vb-intro">An SP5 with a more muted Six wing might have pursued her research entirely alone and isolated. In Curie's case, a deep, loyal capacity for bonding emerged instead: her marriage to Pierre Curie was at the same time a scientific partnership of equals – shared lab work, shared publications, a shared Nobel Prize in 1903.</p>
           <p class="vb-intro">When Pierre died in a traffic accident in 1906, Marie not only took over his professorship at the Sorbonne – becoming the first woman ever to hold it – but continued their shared research with the same persistence that had already distinguished her. The Six wing shows itself here as the ability to turn loss not into withdrawal, but into continuation of the shared cause – loyalty beyond death.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Science in service of humanity: The mobile X-ray units</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">During the First World War, Curie developed mobile X-ray units – later nicknamed "Petites Curies" – and drove to the front herself to help diagnose wounded soldiers. She also trained around 150 women as X-ray assistants. This is the SE5w6 at its most practical: knowledge is not merely accumulated, but deliberately translated into concrete, reliable benefit for others.</p>
+          <p class="vb-intro">During the First World War, Curie developed mobile X-ray units – later nicknamed "Petites Curies" – and drove to the front herself to help diagnose wounded soldiers. She also trained around 150 women as X-ray assistants. This is the SP5w6 at its most practical: knowledge is not merely accumulated, but deliberately translated into concrete, reliable benefit for others.</p>
           <p class="vb-intro">Despite two Nobel Prizes and worldwide recognition, Curie remained publicly reserved, almost shy – she avoided large public appearances wherever possible and returned to the lab as quickly as she could after every honor. Fame was never her goal, only a tiresome side effect of the actual work.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The invisible risk</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Curie and her contemporaries only partially understood the dangers of radioactive radiation during her lifetime. Her notebooks remain so radioactively contaminated to this day that they are stored in lead-lined boxes and can only be viewed while wearing protective clothing. She died in 1934 of aplastic anemia, a direct consequence of decades of radiation exposure.</p>
-          <p class="vb-intro">That she did not stop researching despite mounting health warnings reveals the flip side of the SE5: devotion to one's own field of knowledge can become so complete that even physical safety recedes behind it – a contradiction of the SE5's need for security that dissolves once "security" is understood not physically, but intellectually.</p>
+          <p class="vb-intro">That she did not stop researching despite mounting health warnings reveals the flip side of the SP5: devotion to one's own field of knowledge can become so complete that even physical safety recedes behind it – a contradiction of the SP5's need for security that dissolves once "security" is understood not physically, but intellectually.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Owl that found the glow in the dark</h2>
@@ -1084,9 +1084,9 @@ export function marieCuriePortraitPage() {
         ${relatedLinks([
         {route:"beruehmte-rene-descartes", label:"Portrait: René Descartes (SP5w6)"},
         {route:"beruehmte-amelia-earhart", label:"Portrait: Amelia Earhart (SP9w1)"},
-        {route:"krankheitsportraets-marie-curie", label:"Illness Portrait: Marie Curie (SE5w6)"},
-        {route:"krankheitsportraets-charles-darwin", label:"Charles Darwin (SE5w6) – illness portrait"},
-        {route:"krankheitsportraets-warren-buffett", label:"Warren Buffett (SE5w6) – illness portrait"},
+        {route:"krankheitsportraets-marie-curie", label:"Illness Portrait: Marie Curie (SP5w6)"},
+        {route:"krankheitsportraets-charles-darwin", label:"Charles Darwin (SP5w6) – illness portrait"},
+        {route:"krankheitsportraets-warren-buffett", label:"Warren Buffett (SP5w6) – illness portrait"},
         ])}
       </div>
     </div>
@@ -1288,9 +1288,9 @@ export function penelopeCruzPortraitPage() {
         {route:"beruehmte-halle-berry", label:"Portrait: Halle Berry (SP3w2)"},
         {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SP3w2)"},
         {route:"beruehmte-norah-jones", label:"Portrait: Norah Jones (SP3w4)"},
-        {route:"beruehmte-wolodymyr-selenskyj", label:"Portrait: Wolodymyr Selenskyj (SE3w2)"},
-        {route:"beruehmte-aylin-tezel", label:"Portrait: Aylin Tezel (SE3w2)"},
-        {route:"beruehmte-barbara-bleisch", label:"Portrait: Dr. Barbara Bleisch (SE3w2)"},
+        {route:"beruehmte-wolodymyr-selenskyj", label:"Portrait: Wolodymyr Selenskyj (SP3w2)"},
+        {route:"beruehmte-aylin-tezel", label:"Portrait: Aylin Tezel (SP3w2)"},
+        {route:"beruehmte-barbara-bleisch", label:"Portrait: Dr. Barbara Bleisch (SP3w2)"},
       ])}
     </div>
   `);
@@ -1359,17 +1359,17 @@ export function robertDeNiroPortraitPage() {
         {route:"beruehmte-pierce-brosnan", label:"Portrait: Pierce Brosnan (SP1w2)"},
         {route:"beruehmte-anthony-hopkins", label:"Portrait: Anthony Hopkins (SP1w9)"},
         {route:"beruehmte-magnus-carlsen", label:"Portrait: Magnus Carlsen (SP1w9)"},
-        {route:"krankheitsportraets-robert-de-niro", label:"Illness Portrait: Robert De Niro (SE1w9) – prostate cancer"},
-        {route:"beruehmte-armin-mueller-stahl", label:"Portrait: Armin Mueller-Stahl (SE1w9)"},
+        {route:"krankheitsportraets-robert-de-niro", label:"Illness Portrait: Robert De Niro (SP1w9) – prostate cancer"},
+        {route:"beruehmte-armin-mueller-stahl", label:"Portrait: Armin Mueller-Stahl (SP1w9)"},
         {route:"beruehmte-dieter-lange", label:"Portrait: Dieter Lange (SP1w9)"},
         {route:"beruehmte-henning-baum", label:"Portrait: Henning Baum (SP1w9)"},
         {route:"beruehmte-harrison-ford", label:"Portrait: Harrison Ford (SP1w9)"},
-        {route:"beruehmte-herman-van-veen", label:"Portrait: Herman van Veen (SE1w9)"},
-        {route:"beruehmte-joseph-aoun", label:"Portrait: Joseph Aoun (SE1w9)"},
-        {route:"beruehmte-juergen-klinsmann", label:"Portrait: Jürgen Klinsmann (SE1w9)"},
-        {route:"beruehmte-reinhold-messner", label:"Portrait: Reinhold Messner (SE1w9)"},
-        {route:"beruehmte-viktor-frankl", label:"Portrait: Viktor Frankl (SE1w9)"},
-        {route:"beruehmte-fabrice-luchini", label:"Portrait: Fabrice Luchini (SE1w9)"},
+        {route:"beruehmte-herman-van-veen", label:"Portrait: Herman van Veen (SP1w9)"},
+        {route:"beruehmte-joseph-aoun", label:"Portrait: Joseph Aoun (SP1w9)"},
+        {route:"beruehmte-juergen-klinsmann", label:"Portrait: Jürgen Klinsmann (SP1w9)"},
+        {route:"beruehmte-reinhold-messner", label:"Portrait: Reinhold Messner (SP1w9)"},
+        {route:"beruehmte-viktor-frankl", label:"Portrait: Viktor Frankl (SP1w9)"},
+        {route:"beruehmte-fabrice-luchini", label:"Portrait: Fabrice Luchini (SP1w9)"},
       ])}
     </div>
   `);
@@ -1494,7 +1494,7 @@ export function thomasChaanhingPortraitPage() {
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-stromae", label:"Portrait: Stromae (SP2w3)"},
         {route:"beruehmte-nate-dogg", label:"Portrait: Nate Dogg (SP2w3)"},
-        {route:"beruehmte-tracie-d-hall", label:"Portrait: Tracie D. Hall (SE2w3)"},
+        {route:"beruehmte-tracie-d-hall", label:"Portrait: Tracie D. Hall (SP2w3)"},
       ])}
     </div>
   `);
@@ -1635,10 +1635,10 @@ export function woodyAllenPortraitPage() {
         {route:"beruehmte-neil-armstrong", label:"Portrait: Neil Armstrong (SP6w5)"},
         {route:"krankheitsportraets-woody-allen", label:"Illness Portrait: Woody Allen (SP6w7) – lifelong hypochondria"},
         {route:"beruehmte-raul-aguayo-krauthausen", label:"Portrait: Raúl Aguayo-Krauthausen (SP6w7)"},
-        {route:"beruehmte-heiko-maas", label:"Portrait: Heiko Maas (SE6w7)"},
-        {route:"beruehmte-gerald-hoerhan", label:"Portrait: Gerald H\u00f6rhan (SE6w7)"},
-        {route:"beruehmte-kevin-kuehnert", label:"Portrait: Kevin K\u00fchnert (SE6w7)"},
-        {route:"beruehmte-thomas-schmelzer", label:"Portrait: Thomas Schmelzer (SE6w7)"},
+        {route:"beruehmte-heiko-maas", label:"Portrait: Heiko Maas (SP6w7)"},
+        {route:"beruehmte-gerald-hoerhan", label:"Portrait: Gerald H\u00f6rhan (SP6w7)"},
+        {route:"beruehmte-kevin-kuehnert", label:"Portrait: Kevin K\u00fchnert (SP6w7)"},
+        {route:"beruehmte-thomas-schmelzer", label:"Portrait: Thomas Schmelzer (SP6w7)"},
       ])}
     </div>
   `);
@@ -1908,8 +1908,8 @@ export function hermanVanVeenPortraitPage() {
         {route:"beruehmte-anthony-hopkins", label:"Portrait: Anthony Hopkins (SP1w9)"},
         {route:"beruehmte-magnus-carlsen", label:"Portrait: Magnus Carlsen (SP1w9)"},
         {route:"beruehmte-armin-mueller-stahl", label:"Portrait: Armin Mueller-Stahl (SP1w9)"},
-        {route:"beruehmte-dieter-lange", label:"Portrait: Dieter Lange (SE1w9)"},
-        {route:"beruehmte-reinhold-messner", label:"Portrait: Reinhold Messner (SE1w9)"},
+        {route:"beruehmte-dieter-lange", label:"Portrait: Dieter Lange (SP1w9)"},
+        {route:"beruehmte-reinhold-messner", label:"Portrait: Reinhold Messner (SP1w9)"},
       ])}
     </div>
   `);
@@ -1995,7 +1995,7 @@ export function galarrwuyYunupinguPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-galarrwuy-yunupingu-portrait.jpg" alt="Galarrwuy Yunupingu – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Galarrwuy Yunupingu</p>
-        <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 with a Nine Wing</p>
+        <p class="krim-portrait-typ">SP8w9 &middot; Self-Preservation Type 8 with a Nine Wing</p>
         <p class="krim-portrait-subtitle">Yolngu Leader, Land Rights Activist, 1948&ndash;2023 &ndash; Animal correspondence: Orangutan</p>
       </div>
       <div class="page-content">
@@ -2008,8 +2008,8 @@ export function galarrwuyYunupinguPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Eight: Land as Inalienable Property</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Self-Preservation Eight (SE8)</strong> invests its strength, according to Naranjo, not in an abstract, wide-reaching mission but in the uncompromising securing of its own, closest territory. In hardly any other figure in this compass is that as literal as in Yunupingu: his life's theme was, quite literally, land – the land of his ancestors, which he defended for decades as chairman of the Northern Land Council against mining companies and the Australian government.</p>
-          <p class="vb-intro">In 1971, he and his uncle lost the first major land rights case in Australian history, Milirrpum v Nabalco – a legal defeat, but politically the start of a decades-long, never-flagging campaign that eventually led to the Aboriginal Land Rights Act of 1976. This persistence in defending a territory across setbacks, rather than abandoning it, is pure SE8 logic.</p>
+          <p class="vb-intro">The <strong>Self-Preservation Eight (SP8)</strong> invests its strength, according to Naranjo, not in an abstract, wide-reaching mission but in the uncompromising securing of its own, closest territory. In hardly any other figure in this compass is that as literal as in Yunupingu: his life's theme was, quite literally, land – the land of his ancestors, which he defended for decades as chairman of the Northern Land Council against mining companies and the Australian government.</p>
+          <p class="vb-intro">In 1971, he and his uncle lost the first major land rights case in Australian history, Milirrpum v Nabalco – a legal defeat, but politically the start of a decades-long, never-flagging campaign that eventually led to the Aboriginal Land Rights Act of 1976. This persistence in defending a territory across setbacks, rather than abandoning it, is pure SP8 logic.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Nine-Wing: Negotiation Instead of Confrontation at Any Cost</h2>
@@ -2026,14 +2026,14 @@ export function galarrwuyYunupinguPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Eight with a Nine-Wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE8w9 shows in Yunupingu's lifelong, never-flagging defense of his land and his community – a steadfastness that did not let up across half a century, even as many battles were lost before they were won.</p>
+          <p class="vb-intro">The light of the SP8w9 shows in Yunupingu's lifelong, never-flagging defense of his land and his community – a steadfastness that did not let up across half a century, even as many battles were lost before they were won.</p>
           <p class="vb-intro">The shadow showed in recurring internal conflicts within the land rights movement, where Yunupingu's uncompromising leadership style also met resistance from within his own ranks – the flip side of a territorial defense that sometimes struggled to share control, even with allies.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Land He Never Gave Up</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Galarrwuy Yunupingu died in 2023 in his homeland of Arnhem Land – the same land he had fought for his entire adult life. The orangutan never really left its branch; it defended it, negotiation by negotiation, agreement by agreement, until the land he was born into passed to the next generation, legally and culturally secured.</p>
-          <p class="vb-intro">His niece <a href="javascript:void(0)" data-route="beruehmte-dhapanbal-yunupingu">Dhapanbal Yunupingu</a> (SE8w9), daughter of his younger brother Dr. M. Yunupingu (Yothu Yindi), carries the same principle forward from a younger generation – quietly claiming a cultural legacy rather than marketing it.</p>
+          <p class="vb-intro">His niece <a href="javascript:void(0)" data-route="beruehmte-dhapanbal-yunupingu">Dhapanbal Yunupingu</a> (SP8w9), daughter of his younger brother Dr. M. Yunupingu (Yothu Yindi), carries the same principle forward from a younger generation – quietly claiming a cultural legacy rather than marketing it.</p>
         </blockquote>
 
       </div>
@@ -2042,10 +2042,10 @@ export function galarrwuyYunupinguPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se8", label:"SE8 – The Orangutan: Subtype Profile"},
-        {route:"beruehmte-dhapanbal-yunupingu", label:"Portrait: Dhapanbal Yunupingu (SE8w9) – same principle, younger generation"},
-        {route:"beruehmte-helmut-kohl", label:"Portrait: Helmut Kohl (SE8w9) – also the same subtype"},
-        {route:"krankheitsportraets-galarrwuy-yunupingu", label:"Illness Portrait: Galarrwuy Yunupingu (SE8w9)"},
+        {route:"subtype/se8", label:"SP8 – The Orangutan: Subtype Profile"},
+        {route:"beruehmte-dhapanbal-yunupingu", label:"Portrait: Dhapanbal Yunupingu (SP8w9) – same principle, younger generation"},
+        {route:"beruehmte-helmut-kohl", label:"Portrait: Helmut Kohl (SP8w9) – also the same subtype"},
+        {route:"krankheitsportraets-galarrwuy-yunupingu", label:"Illness Portrait: Galarrwuy Yunupingu (SP8w9)"},
       ])}
     </div>
   `);
@@ -2207,7 +2207,7 @@ export function ellenDegeneresPortraitPage() {
         <h2 class="vb-section">2. The Self-Preservation Six: Caution Hidden Behind Lightness</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Naranjo described the self-preservation Six through the theme of <em>security through concrete caution</em>: fear is not shown openly, but translated into constant, often invisible vigilance. DeGeneres describes herself as someone who doesn't rush to trust her own emotional impulses, but first holds back to gain distance and perspective before committing &ndash; a basic stance that seems to contradict the spontaneous, warm stage persona millions know from her show.</p>
-          <p class="vb-intro">Her own admission that she puts "an enormous amount of pressure" on herself, and her use of daily meditation to manage chronic anxiety, also show the SE6-typical translation of insecurity into controlled, repeated routine &ndash; not into open confrontation, but into quiet, private self-regulation.</p>
+          <p class="vb-intro">Her own admission that she puts "an enormous amount of pressure" on herself, and her use of daily meditation to manage chronic anxiety, also show the SP6-typical translation of insecurity into controlled, repeated routine &ndash; not into open confrontation, but into quiet, private self-regulation.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Five-Wing: Withdrawal Instead of New Stimulation</h2>
@@ -2234,7 +2234,7 @@ export function ellenDegeneresPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
+        {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
         {route:"beruehmte-stan-laurel", label:"Portrait: Stan Laurel (SP6w5)"},
         {route:"beruehmte-katie-couric", label:"Portrait: Katie Couric (SP6w7) – same core type, different wing"},
       ])}
@@ -2318,7 +2318,7 @@ export function henningBaumPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-henning-baum-portrait.jpg" alt="Henning Baum – portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Henning Baum</p>
-        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with a Nine-wing</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with a Nine-wing</p>
         <p class="krim-portrait-subtitle">Actor, b. 1972 in Essen, Germany &ndash; animal correspondence: Eagle</p>
       </div>
       <div class="page-content">
@@ -2331,8 +2331,8 @@ export function henningBaumPortraitPage() {
 
         <h2 class="vb-section">2. The self-preservation One: living rightly rather than appearing right</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation One (SE1)</strong> directs its drive for perfection not at public correctness, but at its own, mostly unobserved way of living. Naranjo called this subtype <em>Worry</em> – concern with getting the practical, everyday things right: how to live with as little waste as possible, how to stay true to one's own standard even when no one is watching.</p>
-          <p class="vb-intro">Baum lives out exactly this pattern in a demonstratively unspectacular way: he washes with soap and cold water instead of the growing array of personal-care products, keeps driving his car as long as possible rather than regularly trading it in for a newer model, and explains his shift toward an almost meat-free diet soberly as improved personal performance rather than as following a trend. His own comment on it: "One should use one's own judgment and not chase after every trend." This isn't demonstrative asceticism – it's the SE1 quietly defending its own standards against fashionable expectation.</p>
+          <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> directs its drive for perfection not at public correctness, but at its own, mostly unobserved way of living. Naranjo called this subtype <em>Worry</em> – concern with getting the practical, everyday things right: how to live with as little waste as possible, how to stay true to one's own standard even when no one is watching.</p>
+          <p class="vb-intro">Baum lives out exactly this pattern in a demonstratively unspectacular way: he washes with soap and cold water instead of the growing array of personal-care products, keeps driving his car as long as possible rather than regularly trading it in for a newer model, and explains his shift toward an almost meat-free diet soberly as improved personal performance rather than as following a trend. His own comment on it: "One should use one's own judgment and not chase after every trend." This isn't demonstrative asceticism – it's the SP1 quietly defending its own standards against fashionable expectation.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Nine-wing: robustness instead of righteousness</h2>
@@ -2350,13 +2350,13 @@ export function henningBaumPortraitPage() {
 
         <h2 class="vb-section">5. Light and shadow of the self-preservation One</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In its light, Baum shows a rare combination: physical discipline that serves not self-display but his own reliability – from paramedic training, through a rigorously physical approach to acting, to a deliberately frugal everyday life. His comment on masculinity – "masculinity has a lot to do with putting your own interests last" – captures the core of the SE1: duty before self-presentation, family and the common good before personal advantage.</p>
-          <p class="vb-intro">The shadow shows in the harshness with which the SE1 turns its own, often unspoken standards against itself – and in a reticence so consistent, in Baum's case, that even his own children remain publicly invisible. Where a social One carries its principles into the community, the self-preservation One with a Nine-wing often stays entirely to itself – a withdrawal that protects integrity, but costs closeness.</p>
+          <p class="vb-intro">In its light, Baum shows a rare combination: physical discipline that serves not self-display but his own reliability – from paramedic training, through a rigorously physical approach to acting, to a deliberately frugal everyday life. His comment on masculinity – "masculinity has a lot to do with putting your own interests last" – captures the core of the SP1: duty before self-presentation, family and the common good before personal advantage.</p>
+          <p class="vb-intro">The shadow shows in the harshness with which the SP1 turns its own, often unspoken standards against itself – and in a reticence so consistent, in Baum's case, that even his own children remain publicly invisible. Where a social One carries its principles into the community, the self-preservation One with a Nine-wing often stays entirely to itself – a withdrawal that protects integrity, but costs closeness.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The healing path: from quiet standard to relaxed self-evidence</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The One's healing path leads from anger to serenity – from the question <em>Am I living rightly enough?</em> to the realization <em>My own standard doesn't need an audience to be true.</em> For the SE1w9, this means no longer needing withdrawal as a protective shell, but experiencing it as one of several possible forms of genuine integrity.</p>
+          <p class="vb-intro">The One's healing path leads from anger to serenity – from the question <em>Am I living rightly enough?</em> to the realization <em>My own standard doesn't need an audience to be true.</em> For the SP1w9, this means no longer needing withdrawal as a protective shell, but experiencing it as one of several possible forms of genuine integrity.</p>
           <p class="vb-intro">That Baum has kept his values – frugality, physical discipline, reticence about himself – consistent over decades, without proclaiming them publicly or pressing them on others, reads as a mature form of this pattern: not the loud defense of one's own rightness, but the quiet, persistent practice of it.</p>
         </blockquote>
 
@@ -2366,12 +2366,12 @@ export function henningBaumPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se1", label:"SE1 – The Eagle: subtype profile"},
-        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SE1 – Eagle"},
-        {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SE1w9)"},
-        {route:"beruehmte-reinhold-messner", label:"Portrait: Reinhold Messner (SE1w9)"},
-        {route:"beruehmte-anthony-hopkins", label:"Portrait: Anthony Hopkins (SE1w9)"},
-        {route:"beruehmte-fabrice-luchini", label:"Portrait: Fabrice Luchini (SE1w9)"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: subtype profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SP1 – Eagle"},
+        {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SP1w9)"},
+        {route:"beruehmte-reinhold-messner", label:"Portrait: Reinhold Messner (SP1w9)"},
+        {route:"beruehmte-anthony-hopkins", label:"Portrait: Anthony Hopkins (SP1w9)"},
+        {route:"beruehmte-fabrice-luchini", label:"Portrait: Fabrice Luchini (SP1w9)"},
       ])}
     </div>
   `);
@@ -2605,7 +2605,7 @@ export function draupadiMurmuPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-draupadi-murmu-portrait.jpg" alt="Draupadi Murmu – portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Draupadi Murmu</p>
-        <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type Eight with a Nine-Wing</p>
+        <p class="krim-portrait-typ">SP8w9 &middot; Self-Preservation Type Eight with a Nine-Wing</p>
         <p class="krim-portrait-subtitle">15th President of India, b. 1958 &ndash; animal correspondence: orangutan</p>
       </div>
       <div class="page-content">
@@ -2618,13 +2618,13 @@ export function draupadiMurmuPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Eight: Survival Through Tenacity</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to Naranjo, the <strong>self-preservation Eight (SE8)</strong> is the subtype in which the Eight's passion – lust, in the sense of immediate, unfiltered intensity – is directed above all at physical survival and material security. It is not about prestige or social leadership, but about the raw question: will I, and will mine, make it through? Naranjo also described this subtype as marked by a particular kind of satisfaction that arises simply from enduring hardship.</p>
+          <p class="vb-intro">According to Naranjo, the <strong>self-preservation Eight (SP8)</strong> is the subtype in which the Eight's passion – lust, in the sense of immediate, unfiltered intensity – is directed above all at physical survival and material security. It is not about prestige or social leadership, but about the raw question: will I, and will mine, make it through? Naranjo also described this subtype as marked by a particular kind of satisfaction that arises simply from enduring hardship.</p>
           <p class="vb-intro">Murmu's life reads like a textbook example of this dynamic. After studying political science and economics at Ramadevi Women's College in Bhubaneswar (graduating in 1979), she first worked at an irrigation department before becoming a teacher. Between 2009 and 2015 she lost nearly her entire immediate family in rapid succession: her younger son Laxman under unclear circumstances, her elder son Sipun in a road accident, her mother, her brother, and finally, in 2014, her husband Shyam Charan Murmu to cardiac arrest. She later said of herself: "I was devastated and suffered from depression." What distinguishes a self-preservation Eight in such a situation from other types is not the absence of collapse – she experienced it – but the ability to keep working, keep surviving afterward, without confronting the outside world with her own despair.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Nine-Wing: Calm Instead of Display</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> softens the raw assertiveness of the pure Eight into a quiet, almost unassuming persistence in the self-preservation Eight. The SE8w9 does not have to prove that she is strong – she simply is, and she shows it through endurance rather than volume. This composure marks Murmu's entire public presence: countless reports describe her as reserved, modest in manner, and strikingly unpretentious for someone holding such a representative office.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> softens the raw assertiveness of the pure Eight into a quiet, almost unassuming persistence in the self-preservation Eight. The SP8w9 does not have to prove that she is strong – she simply is, and she shows it through endurance rather than volume. This composure marks Murmu's entire public presence: countless reports describe her as reserved, modest in manner, and strikingly unpretentious for someone holding such a representative office.</p>
           <p class="vb-intro">Telling is how she found her own way out of depression after the years of loss: through turning to the Brahma Kumaris movement, a spiritual community that emphasizes inner peace and meditation. "It was when I visited the Brahma Kumaris that I realized I had to move on," she later said. This is not the retreat of a pure Eight, who would more likely push forward combatively – it is the Nine-type search for inner peace as a way of recovering one's own strength.</p>
           <p class="vb-intro">The same quiet persistence shows in her political career: rather than standing out through loud campaigns, she worked her way over decades through local and regional offices – legislator and minister in Odisha, district president of Mayurbhanj, governor of Jharkhand from 2015 to 2021 – before being nominated for the highest office of state in 2022. Not a leap, but a long, steady path.</p>
         </blockquote>
@@ -2632,23 +2632,23 @@ export function draupadiMurmuPortraitPage() {
         <h2 class="vb-section">4. The Substance: What Carried Her Rise</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What sets Murmu's path apart from a mere story of victimhood is the concrete institutional competence she built over decades. As governor of Jharkhand – a state with a high proportion of indigenous population – she made a name for herself by repeatedly rejecting state government bills that, in her view, would have undermined the land rights of indigenous communities, intervening directly in political disputes that went far beyond the mostly ceremonial role of an Indian governorship. This was not a symbolic gesture but the practical application of decades of experience with exactly the problems facing her own community.</p>
-          <p class="vb-intro">As a teacher, she also at times taught on an honorary basis at a school in Rairangpur after giving up her post at the irrigation department to be with her family – a decision that traded concrete material security for her own duty of care, typical of an SE8 whose priorities orient around the immediate survival and well-being of her own family rather than career planning.</p>
+          <p class="vb-intro">As a teacher, she also at times taught on an honorary basis at a school in Rairangpur after giving up her post at the irrigation department to be with her family – a decision that traded concrete material security for her own duty of care, typical of an SP8 whose priorities orient around the immediate survival and well-being of her own family rather than career planning.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE8w9 is her ability to pass through repeated, existential losses without breaking under them and without turning her own vulnerability into a public stage. Murmu never made her grief into political capital – she processed it and moved on.</p>
+          <p class="vb-intro">The light of the SP8w9 is her ability to pass through repeated, existential losses without breaking under them and without turning her own vulnerability into a public stage. Murmu never made her grief into political capital – she processed it and moved on.</p>
           <p class="vb-intro">The shadow: the same ability to process pain without showing it outwardly can mean leaving herself little room to be vulnerable. The Nine-type calm on the outside says little about how much of the burden was actually processed inwardly, compared with what simply had to be set aside in order to keep functioning.</p>
         </blockquote>
 
         <h2 class="vb-section">6. A Parallel Within the Same Subtype: Toni Morrison</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">A revealing parallel can be found in writer Toni Morrison (SE8w9): she too came from a community shaped by structural disadvantage, and she too combined raw, grounded tenacity with a calm, unhurried public presence that never depended on volume. Both women show the same SE8w9 pattern: the hardship of survival is neither suppressed nor concealed, but converted into a quiet, load-bearing authority that convinces precisely through its restraint.</p>
+          <p class="vb-intro">A revealing parallel can be found in writer Toni Morrison (SP8w9): she too came from a community shaped by structural disadvantage, and she too combined raw, grounded tenacity with a calm, unhurried public presence that never depended on volume. Both women show the same SP8w9 pattern: the hardship of survival is neither suppressed nor concealed, but converted into a quiet, load-bearing authority that convinces precisely through its restraint.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Legacy</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Draupadi Murmu's presidency is, first and foremost, a symbol: the first member of an indigenous community at the head of the Indian state, after a life that repeatedly threatened to take everything dear to her. The SE8w9 pattern explains how this path became psychologically possible – not through suppressing pain, but through a tenacious, quiet endurance that refused to break under loss and preferred to show its strength through calm persistence rather than loud self-display.</p>
+          <p class="vb-intro">Draupadi Murmu's presidency is, first and foremost, a symbol: the first member of an indigenous community at the head of the Indian state, after a life that repeatedly threatened to take everything dear to her. The SP8w9 pattern explains how this path became psychologically possible – not through suppressing pain, but through a tenacious, quiet endurance that refused to break under loss and preferred to show its strength through calm persistence rather than loud self-display.</p>
         </blockquote>
 
       </div>
@@ -2657,9 +2657,9 @@ export function draupadiMurmuPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se8", label:"SE8 – The Orangutan: subtype profile"},
-        {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SE8w9) – the same quiet tenacity after structural disadvantage"},
-        {route:"beruehmte-birute-galdikas", label:"Portrait: Dr. Biruté Galdikas (SE8w9)"},
+        {route:"subtype/se8", label:"SP8 – The Orangutan: subtype profile"},
+        {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SP8w9) – the same quiet tenacity after structural disadvantage"},
+        {route:"beruehmte-birute-galdikas", label:"Portrait: Dr. Biruté Galdikas (SP8w9)"},
       ])}
     </div>
   `);
@@ -2675,7 +2675,7 @@ export function carloMasalaPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-carlo-masala-portrait.jpg" alt="Carlo Masala – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-carlo-masala-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Carlo Masala</p>
-        <p class="krim-portrait-typ">SE6w5 &middot; Self-Preservation Type 6 with a Five-wing</p>
+        <p class="krim-portrait-typ">SP6w5 &middot; Self-Preservation Type 6 with a Five-wing</p>
         <p class="krim-portrait-subtitle">German political scientist, b. 1968 &ndash; Professor at the Bundeswehr University Munich, &lsquo;Weltunordnung&rsquo; &ndash; Animal correspondence: Rabbit</p>
       </div>
       <div class="page-content">
@@ -2688,7 +2688,7 @@ export function carloMasalaPortraitPage() {
 
         <h2 class="vb-section">2. The self-preservation Six: security through belonging and thinking ahead</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Six reckons with the worst so as not to be surprised. Claudio Naranjo called the <strong>self-preservation Six (SE6)</strong> the subtype of &lsquo;warmth&rsquo;: it seeks security in reliable bonds and in being prepared. In Masala both threads are visible early. Whoever experiences exclusion as the child of a guest worker learns how much depends on belonging. At 28 he became a German citizen and gave up Italian citizenship for it, because otherwise he could not have been given full civil-servant status. The price: his father&rsquo;s passport. The gain: a security nobody can take from him any more.</p>
+          <p class="vb-intro">The Six reckons with the worst so as not to be surprised. Claudio Naranjo called the <strong>self-preservation Six (SP6)</strong> the subtype of &lsquo;warmth&rsquo;: it seeks security in reliable bonds and in being prepared. In Masala both threads are visible early. Whoever experiences exclusion as the child of a guest worker learns how much depends on belonging. At 28 he became a German citizen and gave up Italian citizenship for it, because otherwise he could not have been given full civil-servant status. The price: his father&rsquo;s passport. The gain: a security nobody can take from him any more.</p>
           <p class="vb-intro">Later thinking ahead became his profession. Since 2020 he has led the Competence Center for Crisis Early Warning at his university, and the Metis Institute for Strategy and Foresight advises the Federal Ministry of Defence. He sees himself as a neorealist: states act in a world without a world police, in which each must first secure its own safety. That is the world in which the Six moves anyway.</p>
           <p class="vb-intro">What he says about fear is striking. Asked whether he had been afraid of nuclear war in the 1980s, he answered the taz: &lsquo;Never. I never had fear of this nuclear Armageddon.&rsquo; And about himself: &lsquo;The mode I always have is: attack.&rsquo; This does not fit the cliché of the anxious Six, and yet it is its pattern: the Six often does not feel its fear as fear, it turns it into work. He has the vigilance not in the feeling but in the scenario.</p>
         </blockquote>
@@ -2707,7 +2707,7 @@ export function carloMasalaPortraitPage() {
 
         <h2 class="vb-section">5. Parallel in the same subtype: Lauterbach, Pichai and Mihambo</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Several SE6w5s stand among the portraits in this Compass, and the comparison shows how differently the Five-wing makes knowledge out of worry. <a href="#beruehmte-karl-lauterbach">Karl Lauterbach (SE6w5)</a> backed his warnings during the Covid pandemic with studies and model calculations, often in the worst-case scenario. <a href="#beruehmte-sundar-pichai">Sundar Pichai (SE6w5)</a> collects information as security and is known for his memory. <a href="#beruehmte-malaika-mihambo">Malaika Mihambo (SE6w5)</a> studies her own movement down to the detail.</p>
+          <p class="vb-intro">Several SP6w5s stand among the portraits in this Compass, and the comparison shows how differently the Five-wing makes knowledge out of worry. <a href="#beruehmte-karl-lauterbach">Karl Lauterbach (SP6w5)</a> backed his warnings during the Covid pandemic with studies and model calculations, often in the worst-case scenario. <a href="#beruehmte-sundar-pichai">Sundar Pichai (SP6w5)</a> collects information as security and is known for his memory. <a href="#beruehmte-malaika-mihambo">Malaika Mihambo (SP6w5)</a> studies her own movement down to the detail.</p>
           <p class="vb-intro">Masala is close to Lauterbach: both translate the Six&rsquo;s vigilance into public warnings backed by expertise. The difference: Lauterbach warns as a politician who is supposed to act; Masala as a scholar who draws up scenarios and leaves the decision to others. With Pichai he shares thinking ahead, with Mihambo the pleasure of understanding the mechanics behind events.</p>
         </blockquote>
 
@@ -2728,12 +2728,12 @@ export function carloMasalaPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
-        {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SE6 – Rabbit"},
-        {route:"beruehmte-karl-lauterbach", label:"Portrait: Karl Lauterbach (SE6w5) – same subtype and wing"},
-        {route:"beruehmte-sundar-pichai", label:"Porträt: Sundar Pichai (SE6w5)"},
-        {route:"beruehmte-malaika-mihambo", label:"Porträt: Malaika Mihambo (SE6w5)"},
-        {route:"beruehmte-michael-greger", label:"Portrait: Michael Greger (SE6w5)"},
+        {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
+        {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SP6 – Rabbit"},
+        {route:"beruehmte-karl-lauterbach", label:"Portrait: Karl Lauterbach (SP6w5) – same subtype and wing"},
+        {route:"beruehmte-sundar-pichai", label:"Porträt: Sundar Pichai (SP6w5)"},
+        {route:"beruehmte-malaika-mihambo", label:"Porträt: Malaika Mihambo (SP6w5)"},
+        {route:"beruehmte-michael-greger", label:"Portrait: Michael Greger (SP6w5)"},
       ])}
     </div>
   `);

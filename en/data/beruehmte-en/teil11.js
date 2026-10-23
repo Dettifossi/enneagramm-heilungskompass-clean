@@ -57,7 +57,7 @@ export function vanessaGoeckingPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
         {route:"beruehmte-virginia-woolf", label:"Portrait: Virginia Woolf (SP4w5)"},
         {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5)"},
         {route:"beruehmte-knut-hamsun", label:"Portrait: Knut Hamsun (SP4w5)"},
@@ -139,7 +139,7 @@ export function aristotelesPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-aristoteles-portrait.jpg" alt="Aristotle" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Aristotle</p>
-        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with Nine-Wing</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-Wing</p>
         <p class="krim-portrait-subtitle">Greek philosopher, 384–322 BC – Animal equivalent: Eagle</p>
       </div>
       <div class="page-content">
@@ -152,8 +152,8 @@ export function aristotelesPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation One: The Golden Mean as a Way of Life</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The self-preservation One (SE1) does not carry its standards outward to lecture others – it directs them first at itself, with a quiet, often invisible strictness. Naranjo called this subtype Worry: the constant, quiet question of whether one is really doing it right. In Aristotle, this shows up in one of the most influential ethical concepts in the history of philosophy: the Golden Mean (Mesotes), the principle that every virtue lies between two extremes – courage between cowardice and recklessness, generosity between stinginess and extravagance.</p>
-          <p class="vb-intro">This is pure SE1 signature: not a moral crusade against the world, but the quiet, continuous self-correction of finding and holding the right balance in one's own conduct. Unlike his teacher Plato, who sought eternal, abstract ideas beyond the visible world, Aristotle anchored his ethics in lived practice: virtue arises not from insight alone, but through habituation – through the persistent, daily practice of the right thing until it becomes second nature.</p>
+          <p class="vb-intro">The self-preservation One (SP1) does not carry its standards outward to lecture others – it directs them first at itself, with a quiet, often invisible strictness. Naranjo called this subtype Worry: the constant, quiet question of whether one is really doing it right. In Aristotle, this shows up in one of the most influential ethical concepts in the history of philosophy: the Golden Mean (Mesotes), the principle that every virtue lies between two extremes – courage between cowardice and recklessness, generosity between stinginess and extravagance.</p>
+          <p class="vb-intro">This is pure SP1 signature: not a moral crusade against the world, but the quiet, continuous self-correction of finding and holding the right balance in one's own conduct. Unlike his teacher Plato, who sought eternal, abstract ideas beyond the visible world, Aristotle anchored his ethics in lived practice: virtue arises not from insight alone, but through habituation – through the persistent, daily practice of the right thing until it becomes second nature.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Nine Wing: The Whole Field in View</h2>
@@ -164,14 +164,14 @@ export function aristotelesPortraitPage() {
 
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation One</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE1w9 is the ability to create order without harshness – a system that does not force the world into rigid rules, but seeks the right mean for each situation. Aristotle's logic, his theory of categories, and his ethics remain cornerstones of Western thought even now, precisely because they aim at balance rather than dogma.</p>
+          <p class="vb-intro">The light of the SP1w9 is the ability to create order without harshness – a system that does not force the world into rigid rules, but seeks the right mean for each situation. Aristotle's logic, his theory of categories, and his ethics remain cornerstones of Western thought even now, precisely because they aim at balance rather than dogma.</p>
           <p class="vb-intro">The shadow showed itself at the end of his life: after the death of Alexander the Great in 336 BC, a wave of anti-Macedonian sentiment turned against Aristotle as Alexander's former tutor. He fled Athens, saying he would not allow the city "to sin twice against philosophy" – a reference to the execution of Socrates. The self-preservation One rarely chooses open resistance in a crisis: it withdraws before the conflict escalates, even when that looks like quiet surrender.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Healing Path: From Strictness to Equanimity</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The healing path of the One leads from anger at one's own and others' imperfection to equanimity – the trust that the world can find its right course even without constant correction. Aristotle himself described this state in his ethics as Eudaimonia, the flourishing, self-contained life that grows out of the practice of virtue over time – not out of a single perfect moment.</p>
-          <p class="vb-intro">His final year in voluntary exile, far from Athens, shows the most mature side of the SE1w9: no bitterness, no last fight for vindication, but the calm withdrawal of an eagle that knows its work speaks for itself.</p>
+          <p class="vb-intro">His final year in voluntary exile, far from Athens, shows the most mature side of the SP1w9: no bitterness, no last fight for vindication, but the calm withdrawal of an eagle that knows its work speaks for itself.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Legacy: An Order That Carries Millennia</h2>
@@ -186,11 +186,11 @@ export function aristotelesPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
-        {route:"beruehmte-sting", label:"Portrait: Sting (SE1w9)"},
-        {route:"beruehmte-konrad-adenauer", label:"Portrait: Konrad Adenauer (SE1w9)"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
+        {route:"beruehmte-sting", label:"Portrait: Sting (SP1w9)"},
+        {route:"beruehmte-konrad-adenauer", label:"Portrait: Konrad Adenauer (SP1w9)"},
         {route:"beruehmte-alexander-der-grosse", label:"Portrait: Alexander the Great (SO2w3)"},
-        {route:"beruehmte-thomas-von-aquin", label:"Portrait: Thomas Aquinas (SE9w8) – fused his logic with Christian theology"},
+        {route:"beruehmte-thomas-von-aquin", label:"Portrait: Thomas Aquinas (SP9w8) – fused his logic with Christian theology"},
         {route:"beruhmte-philosophen", label:"Chart: Famous Philosophers in the Enneagram"},
       ])}
     </div>
@@ -254,7 +254,7 @@ export function borisBeckerPortraitPage() {
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
         {route:"beruehmte-serena-williams", label:"Portrait: Serena Williams (SX7w8)"},
         {route:"beruehmte-shakira", label:"Portrait: Shakira (SX7w8)"},
-        {route:"beruehmte-wallace-shawn", label:"Portrait: Wallace Shawn (SE7w6)"},
+        {route:"beruehmte-wallace-shawn", label:"Portrait: Wallace Shawn (SP7w6)"},
         {route:"beruehmte-john-travolta", label:"Portrait: John Travolta (SX7w8)"},
         {route:"beruehmte-knossi", label:"Portrait: Knossi (Jens Knossalla) (SX7w8)"},
       ])}
@@ -384,9 +384,9 @@ export function danBrownPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
         {route:"beruehmte-christoph-waltz", label:"Christoph Waltz – SP1w2"},
-        {route:"beruehmte-ken-follett", label:"Portrait: Ken Follett (SE1w9)"},
-        {route:"beruehmte-udo-juergens", label:"Portrait: Udo Jürgens (SE1w2)"},
-        {route:"beruehmte-ursula-lyon", label:"Portrait: Ursula Lyon (SE1w2)"},
+        {route:"beruehmte-ken-follett", label:"Portrait: Ken Follett (SP1w9)"},
+        {route:"beruehmte-udo-juergens", label:"Portrait: Udo Jürgens (SP1w2)"},
+        {route:"beruehmte-ursula-lyon", label:"Portrait: Ursula Lyon (SP1w2)"},
       ])}
     </div>
   `);
@@ -455,7 +455,7 @@ export function donaldTrumpPortraitPage() {
         {route:"beruehmte-pablo-picasso", label:"Portrait: Pablo Picasso (SX8w7)"},
         {route:"beruehmte-paul-gauguin", label:"Portrait: Paul Gauguin (SX8w7)"},
         {route:"beruehmte-ruth-bader-ginsburg", label:"Portrait: Ruth Bader Ginsburg (SX8w9)"},
-        {route:"beruehmte-don-king", label:"Portrait: Don King (SE7w8)"},
+        {route:"beruehmte-don-king", label:"Portrait: Don King (SP7w8)"},
       ])}
     </div>
   `);
@@ -787,7 +787,7 @@ export function jamieleecurtisPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
         {route:"beruehmte-leonardo-dicaprio", label:"Portrait: Leonardo DiCaprio (SX1w2)"},
-        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SE1w2)"},
+        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
         {route:"krankheitsportraets-jamie-lee-curtis", label:"Illness Portrait: Jamie Lee Curtis (SX1w2) – opioid dependency"},
         {route:"beruehmte-klaus-kinski", label:"Portrait: Klaus Kinski (SX1w9)"},
         {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Portrait: Marie-Agnes Strack-Zimmermann (SX1w9)"},
@@ -861,7 +861,7 @@ export function johannSebastianBachPortraitPage() {
         {route:"krankheitsportraets-johann-sebastian-bach", label:"Illness Portrait: Johann Sebastian Bach (SX1w9)"},
         {route:"beruehmte-johannes-brahms", label:"Portrait: Johannes Brahms (SP9w8) – shaped by Bach's rigor of form"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5)"},
-        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SE2w3) – who studied his fugal art"},
+        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SP2w3) – who studied his fugal art"},
         {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
         {route:"beruehmte-udo-lindenberg", label:"Portrait: Udo Lindenberg (SX1w9)"},
       ])}
@@ -1025,7 +1025,7 @@ export function lisaAntoniPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-lisa-antoni-portrait.jpg" alt="Lisa Antoni – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Lisa Antoni</p>
-        <p class="krim-portrait-typ">SE2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
         <p class="krim-portrait-subtitle">Austrian musical theatre actress, born in Vienna &ndash; Animal correspondence: Hippopotamus</p>
       </div>
       <div class="page-content">
@@ -1038,7 +1038,7 @@ export function lisaAntoniPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Two: Care Through Reliable Craft</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SE2)</strong> <em>Me First</em>: she secures closeness and belonging through concrete, reliable performance within a familiar environment, not through grand public gestures. Antoni's career reads like a demonstration of this stance – roles in <em>Into the Woods</em>, <em>Rebecca</em>, <em>The Witches of Eastwick</em>, <em>Next to Normal</em>, <em>Showboat</em>, <em>Artus – Excalibur</em>, <em>The Addams Family</em>, and <em>How to Succeed in Business Without Really Trying</em> across Austria, Germany, and Switzerland.</p>
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SP2)</strong> <em>Me First</em>: she secures closeness and belonging through concrete, reliable performance within a familiar environment, not through grand public gestures. Antoni's career reads like a demonstration of this stance – roles in <em>Into the Woods</em>, <em>Rebecca</em>, <em>The Witches of Eastwick</em>, <em>Next to Normal</em>, <em>Showboat</em>, <em>Artus – Excalibur</em>, <em>The Addams Family</em>, and <em>How to Succeed in Business Without Really Trying</em> across Austria, Germany, and Switzerland.</p>
           <p class="vb-intro">Rather than focus on a single major role, she built a broad, reliable repertoire within the German-speaking musical theatre scene over years – care for her own craft, expressed through steady, high-quality work rather than spectacular one-off appearances.</p>
         </blockquote>
 
@@ -1050,8 +1050,8 @@ export function lisaAntoniPortraitPage() {
 
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE2w3 lies in the ability to reach the great, visible roles through steady, reliable work in a familiar environment – Antoni's path from her first major role in Vienna to Christine Daaé shows a career built step by step out of solid craft.</p>
-          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to a production's success through one's own reliable performance. In the SE2w3, this can combine with the wish to prove herself in as many different, publicly visible roles as possible – a strength that leads to a broad repertoire, but also raises the question of how much room remains for the one truly defining signature role.</p>
+          <p class="vb-intro">The light of the SP2w3 lies in the ability to reach the great, visible roles through steady, reliable work in a familiar environment – Antoni's path from her first major role in Vienna to Christine Daaé shows a career built step by step out of solid craft.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to a production's success through one's own reliable performance. In the SP2w3, this can combine with the wish to prove herself in as many different, publicly visible roles as possible – a strength that leads to a broad repertoire, but also raises the question of how much room remains for the one truly defining signature role.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Work: From Mary Vetsera to Christine Daaé</h2>
@@ -1066,9 +1066,9 @@ export function lisaAntoniPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
-        {route:"beruehmte-nate-dogg", label:"Portrait: Nate Dogg (SE2w3)"},
-        {route:"beruehmte-mickey-rourke", label:"Portrait: Mickey Rourke (SE2w3)"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-nate-dogg", label:"Portrait: Nate Dogg (SP2w3)"},
+        {route:"beruehmte-mickey-rourke", label:"Portrait: Mickey Rourke (SP2w3)"},
       ])}
     </div>
   `);
@@ -1134,7 +1134,7 @@ export function marieAgnesStrackZimmermannPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
-        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SE1w9)"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SP1w9)"},
         {route:"beruehmte-jamie-lee-curtis", label:"Portrait: Jamie Lee Curtis (SX1w2)"},
         {route:"beruehmte-gunther-von-hagens", label:"Portrait: Gunther von Hagens (SX1w9)"},
         {route:"beruehmte-klaus-kinski", label:"Portrait: Klaus Kinski (SX1w9)"},
@@ -1215,7 +1215,7 @@ export function michaelJacksonPortraitPage() {
         {route:"beruehmte-eddie-redmayne", label:"Portrait: Eddie Redmayne (SO4w3)"},
         {route:"beruehmte-prince-rogers-nelson", label:"Portrait: Prince Rogers Nelson (SX4w3) – the legendary 1980s rivalry"},
         {route:"beruehmte-mariella-superina", label:"Portrait: Dr. Mariella Superina (SO4w5)"},
-        {route:"beruehmte-don-king", label:"Portrait: Don King (SE7w8)"},
+        {route:"beruehmte-don-king", label:"Portrait: Don King (SP7w8)"},
         ])}
       </div>
     </div>
@@ -1595,7 +1595,7 @@ export function uliHoenessPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-uli-hoeness-portrait.jpg" alt="Uli Hoeneß" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Uli Hoeneß</p>
-        <p class="krim-portrait-typ">SE2w3 &middot; Self-Preservation Type 2 with Three-Wing</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-Wing</p>
         <p class="krim-portrait-subtitle">Professional footballer, manager & president of FC Bayern Munich, b. 1952 – Animal equivalent: Hippopotamus</p>
       </div>
       <div class="page-content">
@@ -1644,15 +1644,15 @@ export function uliHoenessPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
-        {route:"beruehmte-jan-ullrich", label:"Portrait: Jan Ullrich (SE2w3)"},
-        {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Portrait: Gloria von Thurn und Taxis (SE2w1)"},
-        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SE2w3)"},
-        {route:"beruehmte-fiona-harvey", label:"Portrait: Fiona Harvey (SE2w3)"},
-        {route:"beruehmte-nero", label:"Portrait: Nero (SE2w3)"},
-        {route:"beruehmte-oprah-winfrey", label:"Portrait: Oprah Winfrey (SE2w3)"},
-        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SE2w3)"},
-        {route:"beruehmte-6ix9ine", label:"Portrait: 6ix9ine (SE2w3)"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-jan-ullrich", label:"Portrait: Jan Ullrich (SP2w3)"},
+        {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Portrait: Gloria von Thurn und Taxis (SP2w1)"},
+        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SP2w3)"},
+        {route:"beruehmte-fiona-harvey", label:"Portrait: Fiona Harvey (SP2w3)"},
+        {route:"beruehmte-nero", label:"Portrait: Nero (SP2w3)"},
+        {route:"beruehmte-oprah-winfrey", label:"Portrait: Oprah Winfrey (SP2w3)"},
+        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SP2w3)"},
+        {route:"beruehmte-6ix9ine", label:"Portrait: 6ix9ine (SP2w3)"},
       ])}
     </div>
   `);
@@ -1700,7 +1700,7 @@ export function wolfgangAmadeusMozartPortraitPage() {
         <h2 class="vb-section">5. Bach, Beethoven, and Schubert: Encounters Across Time</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In the early 1780s, Mozart discovered the fugal art of Johann Sebastian Bach (SX1w9) in the Vienna library of Baron Gottfried van Swieten &ndash; an encounter that fundamentally transformed his late work. He arranged Bach fugues for string trio, and the contrapuntal rigor he studied there flowed into works such as the finale of the "Jupiter Symphony" or the C minor Mass. The zeal of Sexual One met the stage presence of the self-preservation Two here &ndash; and both found common ground in the raw form of the fugue.</p>
-          <p class="vb-intro">Tradition holds that the young Ludwig van Beethoven (SX6w5) played for Mozart in Vienna in 1787; whether Mozart's often-quoted remark that this young man would "give the world something to talk about" is historically verified remains disputed &ndash; the meeting itself is considered plausible. Beethoven's Third Piano Concerto in C minor, in any case, unmistakably follows the model of Mozart's Piano Concerto No. 24 in the same key, a quiet dialogue between wolf and hippopotamus across the era of Viennese Classicism. Franz Schubert (SE6w5), born in 1797, could never meet Mozart in person &ndash; he came into the world six years after Mozart's death. Yet his diaries testify to an almost religious veneration for Mozart's music, which he described as a comforting light in dark times. The rabbit found, in the departed hippopotamus, a solace that his own present often denied him.</p>
+          <p class="vb-intro">Tradition holds that the young Ludwig van Beethoven (SX6w5) played for Mozart in Vienna in 1787; whether Mozart's often-quoted remark that this young man would "give the world something to talk about" is historically verified remains disputed &ndash; the meeting itself is considered plausible. Beethoven's Third Piano Concerto in C minor, in any case, unmistakably follows the model of Mozart's Piano Concerto No. 24 in the same key, a quiet dialogue between wolf and hippopotamus across the era of Viennese Classicism. Franz Schubert (SP6w5), born in 1797, could never meet Mozart in person &ndash; he came into the world six years after Mozart's death. Yet his diaries testify to an almost religious veneration for Mozart's music, which he described as a comforting light in dark times. The rabbit found, in the departed hippopotamus, a solace that his own present often denied him.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Legacy: The Requiem and the Abundance of a Short Life</h2>
@@ -1717,17 +1717,17 @@ export function wolfgangAmadeusMozartPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"krankheitsportraets-wolfgang-amadeus-mozart", label:"Illness Portrait: Wolfgang Amadeus Mozart (SE2w3)"},
+        {route:"krankheitsportraets-wolfgang-amadeus-mozart", label:"Illness Portrait: Wolfgang Amadeus Mozart (SP2w3)"},
         {route:"beruehmte-johann-sebastian-bach", label:"Portrait: Johann Sebastian Bach (SX1w9) – whose fugal art he studied"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5) – who may have played for him"},
-        {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SE6w5) – who revered him throughout his life"},
-        {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SE3w2) – close friend and admired colleague"},
+        {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SP6w5) – who revered him throughout his life"},
+        {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SP3w2) – close friend and admired colleague"},
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
-        {route:"beruehmte-uli-hoeness", label:"Portrait: Uli Hoeneß (SE2w3)"},
+        {route:"beruehmte-uli-hoeness", label:"Portrait: Uli Hoeneß (SP2w3)"},
         {route:"beruehmte-yayoi-kusama", label:"Portrait: Yayoi Kusama (SP2w3)"},
         {route:"beruehmte-nero", label:"Portrait: Nero (SP2w3) – emperor and stage performer"},
-        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SE2w3)"},
-        {route:"krankheitsportraets-frida-kahlo", label:"Frida Kahlo (SE2w3) – illness portrait"},
+        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SP2w3)"},
+        {route:"krankheitsportraets-frida-kahlo", label:"Frida Kahlo (SP2w3) – illness portrait"},
       ])}
     </div>
   `);
@@ -1790,10 +1790,10 @@ export function albertoMariniPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype profile"},
+        {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype profile"},
         {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fyodor Dostoevsky (SP6w5)"},
         {route:"beruehmte-huang-yong-ping", label:"Portrait: Huang Yong Ping (SP6w5)"},
-        {route:"beruehmte-karl-lauterbach", label:"Portrait: Karl Lauterbach (SE6w5)"},
+        {route:"beruehmte-karl-lauterbach", label:"Portrait: Karl Lauterbach (SP6w5)"},
       ])}
     </div>
   `);
@@ -2026,7 +2026,7 @@ export function barneyFishwickPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-barney-fishwick-portrait.jpg" alt="Barney Fishwick – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Barney Fishwick</p>
-        <p class="krim-portrait-typ">SE4w5 &middot; Self-Preservation Type 4 with a Five Wing</p>
+        <p class="krim-portrait-typ">SP4w5 &middot; Self-Preservation Type 4 with a Five Wing</p>
         <p class="krim-portrait-subtitle">British actor, writer and comedian &ndash; Animal equivalent: Dove</p>
       </div>
       <div class="page-content">
@@ -2039,7 +2039,7 @@ export function barneyFishwickPortraitPage() {
 
         <h2 class="vb-section">2. Self-Preservation Four: The Unassuming Role Instead of the Big Gesture</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to Naranjo, the <strong>Self-Preservation Four (SE4)</strong> is the countertype of the Four: one's inner life is not put on display, but processed through persistent, often unspectacular work. In Fishwick, this shows in the choice of his best-known film role: rather than a dramatic lead, he plays the deliberately understated, coolly distant son Michael opposite Bill Nighy in "Living" – a role that works through restraint, not through showing off.</p>
+          <p class="vb-intro">According to Naranjo, the <strong>Self-Preservation Four (SP4)</strong> is the countertype of the Four: one's inner life is not put on display, but processed through persistent, often unspectacular work. In Fishwick, this shows in the choice of his best-known film role: rather than a dramatic lead, he plays the deliberately understated, coolly distant son Michael opposite Bill Nighy in "Living" – a role that works through restraint, not through showing off.</p>
           <p class="vb-intro">His career as a whole follows the same pattern: no single, loud breakthrough, but a series of smaller, carefully chosen appearances spread across years – "Showtrial," "House of the Dragon," "Big Boys," "The Buccaneers" – which only add up to a visible profile in sum.</p>
         </blockquote>
 
@@ -2056,7 +2056,7 @@ export function barneyFishwickPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Four with a Five Wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE4w5 shows in Fishwick's ability to shape a varied yet coherent body of work out of years of quiet detail work – taken as seriously as a writer as he is as a performer, without one side overshadowing the other.</p>
+          <p class="vb-intro">The light of the SP4w5 shows in Fishwick's ability to shape a varied yet coherent body of work out of years of quiet detail work – taken as seriously as a writer as he is as a performer, without one side overshadowing the other.</p>
           <p class="vb-intro">The shadow of the Four shows in the tendency to hide one's own profile behind a multitude of smaller projects instead of deliberately making it visible. The Five Wing can reinforce this restraint when working out a piece of material precisely becomes a retreat from the stage itself.</p>
         </blockquote>
 
@@ -2070,12 +2070,12 @@ export function barneyFishwickPortraitPage() {
 
         ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se4", label:"SE4 &ndash; The Dove: Subtype Profile"},
-        {route:"beruehmte-charlotte-wells", label:"Portrait: Charlotte Wells (SE4w5) – also quiet film work, same subtype"},
-        {route:"beruehmte-sally-rooney", label:"Portrait: Sally Rooney (SE4w5)"},
-        {route:"beruehmte-michael-david-rosenberg", label:"Portrait: Michael David Rosenberg / Passenger (SE4w3)"},
-        {route:"beruehmte-neil-harbisson", label:"Portrait: Neil Harbisson (SE4w5) – also years of precise technical work, same subtype"},
-        {route:"beruehmte-connie-chiu", label:"Portrait: Connie Chiu (SE4w5)"},
+        {route:"subtype/se4", label:"SP4 &ndash; The Dove: Subtype Profile"},
+        {route:"beruehmte-charlotte-wells", label:"Portrait: Charlotte Wells (SP4w5) – also quiet film work, same subtype"},
+        {route:"beruehmte-sally-rooney", label:"Portrait: Sally Rooney (SP4w5)"},
+        {route:"beruehmte-michael-david-rosenberg", label:"Portrait: Michael David Rosenberg / Passenger (SP4w3)"},
+        {route:"beruehmte-neil-harbisson", label:"Portrait: Neil Harbisson (SP4w5) – also years of precise technical work, same subtype"},
+        {route:"beruehmte-connie-chiu", label:"Portrait: Connie Chiu (SP4w5)"},
         ])}
       </div>
     </div>
@@ -2092,7 +2092,7 @@ export function brianFennellPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-brian-fennell-portrait.jpg" alt="Brian Fennell (SYML) – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Brian Fennell (SYML)</p>
-        <p class="krim-portrait-typ">SE4w3 &middot; Self-Preservation Four with a Three Wing</p>
+        <p class="krim-portrait-typ">SP4w3 &middot; Self-Preservation Four with a Three Wing</p>
         <p class="krim-portrait-subtitle">Musician and songwriter, born 1983 – Animal correspondence: Dove</p>
       </div>
       <div class="page-content">
@@ -2105,7 +2105,7 @@ export function brianFennellPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Four: Pain Processed Quietly</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation Four (SE4)</strong> doesn't display the Four's characteristic longing for what is missing, but processes it quietly, often in a disciplined, craft-like form – Naranjo called this subtype the "stoic" or "brave" variant of the Four: suffering isn't put on display, it's transformed into a daily, disciplined practice. Fennell studied music education with an emphasis on percussion at Seattle Pacific University – a methodical, craft-based approach to a deeply emotional field.</p>
+          <p class="vb-intro">The <strong>self-preservation Four (SP4)</strong> doesn't display the Four's characteristic longing for what is missing, but processes it quietly, often in a disciplined, craft-like form – Naranjo called this subtype the "stoic" or "brave" variant of the Four: suffering isn't put on display, it's transformed into a daily, disciplined practice. Fennell studied music education with an emphasis on percussion at Seattle Pacific University – a methodical, craft-based approach to a deeply emotional field.</p>
           <p class="vb-intro">In 2021 his adoptive father died of cancer. Instead of suppressing the loss, Fennell made it the center of his work: the EP "Dim" (Welsh for "nothing") and later the album "The Day My Father Died" (2023) grew directly out of this grief. "The word dim perfectly describes mourning," he said – a theme he has kept returning to ever since, not dramatically, but as a recurring, quiet reworking of the same pain.</p>
         </blockquote>
 
@@ -2117,19 +2117,19 @@ export function brianFennellPortraitPage() {
 
         <h2 class="vb-section">4. The Passion: Envy as Longing for What Others Seem to Take for Granted</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The passion of the Four is called <strong>envy</strong> – for the SE4w3 not as malice, but as a constant wrestling with what others seem to be granted effortlessly: a known origin, an unbroken family, a taken-for-granted sense of belonging. Fennell's entire body of work circles around exactly these themes – adoption, heritage, loss – revisited again and again, never finally resolved.</p>
+          <p class="vb-intro">The passion of the Four is called <strong>envy</strong> – for the SP4w3 not as malice, but as a constant wrestling with what others seem to be granted effortlessly: a known origin, an unbroken family, a taken-for-granted sense of belonging. Fennell's entire body of work circles around exactly these themes – adoption, heritage, loss – revisited again and again, never finally resolved.</p>
           <p class="vb-intro">In 2023, Lana Del Rey sampled his instrumental composition "I Wanted to Leave" for her song "Paris, Texas" – a late, public confirmation that this quiet, self-sufficient musical language is also recognized as significant from the outside, without him ever having sought to attach himself to a larger pop-star apparatus.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Four</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE4w3 shows in how a deeply personal, even existential subject – his own adoption, the loss of his father – becomes a body of work reaching millions of people without losing its sincerity. In 2025 Fennell released "Nobody Lives Here," already his third studio album – continuous, disciplined creative output rather than a single outburst.</p>
-          <p class="vb-intro">The shadow lies in the risk of getting stuck in exactly this one subject: grief, loss, and origin run through nearly his entire body of work – a rich, honest well, but one that also shows how easily the SE4 can stay bound to its own pain, precisely because it keeps setting that pain to music again and again instead of ever finally leaving it behind.</p>
+          <p class="vb-intro">The light of the SP4w3 shows in how a deeply personal, even existential subject – his own adoption, the loss of his father – becomes a body of work reaching millions of people without losing its sincerity. In 2025 Fennell released "Nobody Lives Here," already his third studio album – continuous, disciplined creative output rather than a single outburst.</p>
+          <p class="vb-intro">The shadow lies in the risk of getting stuck in exactly this one subject: grief, loss, and origin run through nearly his entire body of work – a rich, honest well, but one that also shows how easily the SP4 can stay bound to its own pain, precisely because it keeps setting that pain to music again and again instead of ever finally leaving it behind.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Legacy: The Quiet Dove That Was Heard Anyway</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Brian Fennell lives with his wife Marion and their three children near Seattle, working from a home studio – a deliberately small, protected setting for a body of work heard internationally. Like <a href="#beruehmte-michael-david-rosenberg">Michael David Rosenberg, aka Passenger (SE4w3)</a>, Fennell also shows how the self-preservation Four with a Three wing can shape quiet, often sorrowful introspection into measurable, worldwide success without losing its own vulnerability.</p>
+          <p class="vb-intro">Brian Fennell lives with his wife Marion and their three children near Seattle, working from a home studio – a deliberately small, protected setting for a body of work heard internationally. Like <a href="#beruehmte-michael-david-rosenberg">Michael David Rosenberg, aka Passenger (SP4w3)</a>, Fennell also shows how the self-preservation Four with a Three wing can shape quiet, often sorrowful introspection into measurable, worldwide success without losing its own vulnerability.</p>
           <p class="vb-intro">His stage name remains the most fitting self-portrait: "simple" – not a grand stage persona, but a dove that, despite its quiet nature, found its way to a global audience.</p>
         </blockquote>
 
@@ -2139,11 +2139,11 @@ export function brianFennellPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
-        {route:"beruehmte-michael-david-rosenberg", label:"Portrait: Michael David Rosenberg (Passenger) (SE4w3) – also a musician, same subtype"},
-        {route:"beruehmte-adele", label:"Portrait: Adele (SE4w3)"},
-        {route:"beruehmte-tim-bendzko", label:"Portrait: Tim Bendzko (SE4w3)"},
-        {route:"beruehmte-yannick-van-de-velde", label:"Portrait: Yannick van de Velde (SE4w3)"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-michael-david-rosenberg", label:"Portrait: Michael David Rosenberg (Passenger) (SP4w3) – also a musician, same subtype"},
+        {route:"beruehmte-adele", label:"Portrait: Adele (SP4w3)"},
+        {route:"beruehmte-tim-bendzko", label:"Portrait: Tim Bendzko (SP4w3)"},
+        {route:"beruehmte-yannick-van-de-velde", label:"Portrait: Yannick van de Velde (SP4w3)"},
       ])}
     </div>
   `);
@@ -2364,7 +2364,7 @@ export function steffenHensslerPortraitPage() {
 
         <h2 class="vb-section">2. The Social Seven: Enthusiasm, Delivered Live to a Group</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>social Seven (SO7)</strong> seeks belonging not through private enjoyment within the closest circle like the SE7, but by actively letting others share in its own enthusiasm – as mediator, host, idea-generator for an entire group. Henssler's TV career is a textbook example: with "Grill den Henssler" (since 2013) he hosts a weekly competition format with celebrity guests in front of a live audience – culinary skill isn't quietly celebrated, but passed on loudly and entertainingly to as many viewers as possible.</p>
+          <p class="vb-intro">The <strong>social Seven (SO7)</strong> seeks belonging not through private enjoyment within the closest circle like the SP7, but by actively letting others share in its own enthusiasm – as mediator, host, idea-generator for an entire group. Henssler's TV career is a textbook example: with "Grill den Henssler" (since 2013) he hosts a weekly competition format with celebrity guests in front of a live audience – culinary skill isn't quietly celebrated, but passed on loudly and entertainingly to as many viewers as possible.</p>
           <p class="vb-intro">"Schlag den Henssler" and his duels with <a href="javascript:void(0)" data-route="beruehmte-tim-maelzer">Tim Mälzer (SP3w2)</a> on "Kitchen Impossible" follow the same pattern: publicly staged, audience-facing competitions rather than secluded fine dining. In 2018 he set a Guinness World Record for the largest live cooking show in front of 6,512 spectators – enthusiasm explicitly staged as a mass event, not an intimate experience.</p>
         </blockquote>
 
@@ -2418,7 +2418,7 @@ export function sathyaSaiBabaPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sathya-sai-baba-portrait.jpg" alt="Sathya Sai Baba – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-sathya-sai-baba-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Sathya Sai Baba</p>
-        <p class="krim-portrait-typ">SE2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
         <p class="krim-portrait-subtitle">Indian spiritual teacher, 1926–2011 &ndash; Animal correspondence: Hippopotamus</p>
       </div>
       <div class="page-content">
@@ -2431,7 +2431,7 @@ export function sathyaSaiBabaPortraitPage() {
 
         <h2 class="vb-section">2. The self-preservation Two: closeness through care</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Naranjo calls the <strong>self-preservation Two (SE2)</strong> the subtype of 'privilege': closeness and significance are not demanded but secured through care and the quiet feeling of being needed. In Sathya Sai Baba this shows in the core of his role: he was the 'Swami' (lord, master) and at the same time, for his followers, a fatherly-motherly figure. The famous motto 'Love All, Serve All; Help Ever, Hurt Never' sums up the pattern in eight words: devotion to others as a principle of life.</p>
+          <p class="vb-intro">Naranjo calls the <strong>self-preservation Two (SP2)</strong> the subtype of 'privilege': closeness and significance are not demanded but secured through care and the quiet feeling of being needed. In Sathya Sai Baba this shows in the core of his role: he was the 'Swami' (lord, master) and at the same time, for his followers, a fatherly-motherly figure. The famous motto 'Love All, Serve All; Help Ever, Hurt Never' sums up the pattern in eight words: devotion to others as a principle of life.</p>
           <p class="vb-intro">The gifts he distributed – sacred ash (<em>Vibhuti</em>), personal encounters, the chance to be near him at the daily <em>Darshan</em> appearances (the 'sight' of the master) – correspond to the logic of the Two: whoever gives is indispensable, and whoever is indispensable is loved. That followers experienced these gifts as miracles while skeptics interpreted them as sleight of hand does not change the type structure: in both readings it is the giving that creates the connection.</p>
         </blockquote>
 
@@ -2449,7 +2449,7 @@ export function sathyaSaiBabaPortraitPage() {
 
         <h2 class="vb-section">5. Light, shadow and open questions</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE2w3 shows in the institutions mentioned, which continue to operate beyond his death, and in the way he offered people of the most varied backgrounds a home. The shadow of the Two is pride – the danger of becoming unassailable oneself through the role of the indispensable giver. Honesty is needed here as well: Sathya Sai Baba was a controversial figure.</p>
+          <p class="vb-intro">The light of the SP2w3 shows in the institutions mentioned, which continue to operate beyond his death, and in the way he offered people of the most varied backgrounds a home. The shadow of the Two is pride – the danger of becoming unassailable oneself through the role of the indispensable giver. Honesty is needed here as well: Sathya Sai Baba was a controversial figure.</p>
           <p class="vb-intro">Skeptics and rationalists accused him of sleight of hand in the 'materializations' (the apparent producing of objects out of nothing). In 2004 a BBC documentary ('The Secret Swami') raised allegations of sexual misconduct through former followers; he rejected them, and he was never charged. In June 1993 several people died in his private quarters, among them his personal assistant; the ashram spoke of an attempt on his life, and the circumstances have never been fully clarified. This portrait does not pass judgment on these allegations; it records that they were raised publicly, never confirmed in court and disputed by his movement, and that the typing makes no statement about their truth.</p>
         </blockquote>
 
@@ -2466,11 +2466,11 @@ export function sathyaSaiBabaPortraitPage() {
       ${bookTip("archetypen-der-tiere-im-enneagramm", "The archetypal animals of the 9 types as an inner map – images that work instantly.", "Archetypen der Tiere im Enneagramm")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
-        {route:"lebensmusterkompass/se2", label:"Life Pattern Compass: SE2 – Hippopotamus"},
-        {route:"beruehmte-oprah-winfrey", label:"Portrait: Oprah Winfrey (SE2w3)"},
-        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SE2w3)"},
-        {route:"beruehmte-nusrat-fateh-ali-khan", label:"Portrait: Nusrat Fateh Ali Khan (SE2)"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"lebensmusterkompass/se2", label:"Life Pattern Compass: SP2 – Hippopotamus"},
+        {route:"beruehmte-oprah-winfrey", label:"Portrait: Oprah Winfrey (SP2w3)"},
+        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SP2w3)"},
+        {route:"beruehmte-nusrat-fateh-ali-khan", label:"Portrait: Nusrat Fateh Ali Khan (SP2)"},
       ])}
     </div>
   `);
@@ -2486,7 +2486,7 @@ export function carlXVIGustafPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-carl-xvi-gustaf-portrait.jpg" alt="Carl XVI Gustaf – portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Carl XVI Gustaf</p>
-        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with a Nine-wing</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with a Nine-wing</p>
         <p class="krim-portrait-subtitle">King of Sweden since 1973, b. 1946 &ndash; animal correspondence: Bald Eagle</p>
       </div>
       <div class="page-content">
@@ -2499,7 +2499,7 @@ export function carlXVIGustafPortraitPage() {
 
         <h2 class="vb-section">2. The self-preservation One: duty as a private standard</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation One (SE1)</strong> directs its perfectionism not outward, toward correcting others, but inward, toward its own conduct and sense of duty. Carl Gustaf has explicitly described his kingship as an ongoing task with no fixed retirement date: one works as long as health and strength allow – a stance he maintained without public complaint across more than fifty years on the throne, including after heart surgery in 2023.</p>
+          <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> directs its perfectionism not outward, toward correcting others, but inward, toward its own conduct and sense of duty. Carl Gustaf has explicitly described his kingship as an ongoing task with no fixed retirement date: one works as long as health and strength allow – a stance he maintained without public complaint across more than fifty years on the throne, including after heart surgery in 2023.</p>
           <p class="vb-intro">Particularly telling is his decades-long, mostly unspoken handling of his own dyslexia, which only became public in 1973, when during a mine visit he misspelled his own name on a rock wall and the press mocked him for it. Only in 1997 did Queen Silvia speak publicly about it, saying that not enough attention had been paid to the problem during his own childhood. Rather than addressing the weakness publicly, Carl Gustaf carried it for decades as a private burden to be managed alone – a classic pattern of the inward-directed One.</p>
         </blockquote>
 
@@ -2518,12 +2518,12 @@ export function carlXVIGustafPortraitPage() {
         <h2 class="vb-section">5. Light and shadow of the self-preservation One</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In its light, Carl Gustaf shows a sense of duty sustained for over fifty years and never publicly questioned – an office he kept carrying out without interruption despite a personal weakness (the unspoken dyslexia) and despite public crises (the 2010 scandal), combined with a professionally grounded, decades-consistent commitment to conservation.</p>
-          <p class="vb-intro">The One's besetting sin is <strong>anger</strong> – in the SE1w9 almost entirely directed inward and further muted by the Nine-wing, until it becomes barely visible. The shadow side shows in how the same conflict avoidance that carried him through the 2010 scandal also meant that legitimate questions – about his alleged closeness to dubious circles, for instance – were never truly addressed publicly, because he preferred to wait them out rather than answer them head-on.</p>
+          <p class="vb-intro">The One's besetting sin is <strong>anger</strong> – in the SP1w9 almost entirely directed inward and further muted by the Nine-wing, until it becomes barely visible. The shadow side shows in how the same conflict avoidance that carried him through the 2010 scandal also meant that legitimate questions – about his alleged closeness to dubious circles, for instance – were never truly addressed publicly, because he preferred to wait them out rather than answer them head-on.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The healing path: from silent duty to relaxed self-acceptance</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The One's healing path leads from anger to serenity – from the question <em>Must I handle every shortcoming of my own alone and in silence?</em> to the realization <em>Even a public figure is allowed to show a weakness without being broken by it.</em> For the SE1w9, this means no longer treating one's own, often decades-concealed burden – for Carl Gustaf, the dyslexia – as a shameful private load, but as what it is: one of many human traits that calls no one's dignity into question.</p>
+          <p class="vb-intro">The One's healing path leads from anger to serenity – from the question <em>Must I handle every shortcoming of my own alone and in silence?</em> to the realization <em>Even a public figure is allowed to show a weakness without being broken by it.</em> For the SP1w9, this means no longer treating one's own, often decades-concealed burden – for Carl Gustaf, the dyslexia – as a shameful private load, but as what it is: one of many human traits that calls no one's dignity into question.</p>
           <p class="vb-intro">That Queen Silvia spoke publicly about his dyslexia in 1997 – evidently with his consent – reads as a cautious step along exactly this path: a weakness hidden for decades is finally named, even if not by him directly, instead of staying in silence forever.</p>
         </blockquote>
 
@@ -2533,14 +2533,14 @@ export function carlXVIGustafPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se1", label:"SE1 – The Bald Eagle: subtype profile"},
-        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SE1 – Bald Eagle"},
-        {route:"beruehmte-harald-v", label:"Portrait: King Harald V (SE1w9) – Norwegian monarch"},
-        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SE1w9)"},
-        {route:"beruehmte-tim-cook", label:"Portrait: Tim Cook (SE1w9)"},
-        {route:"beruehmte-johannes-paul-ii", label:"Portrait: John Paul II (SE1w9)"},
-        {route:"beruehmte-mette-marit", label:"Portrait: Mette-Marit (SE4w3)"},
-        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SE1w9)"},
+        {route:"subtype/se1", label:"SP1 – The Bald Eagle: subtype profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SP1 – Bald Eagle"},
+        {route:"beruehmte-harald-v", label:"Portrait: King Harald V (SP1w9) – Norwegian monarch"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SP1w9)"},
+        {route:"beruehmte-tim-cook", label:"Portrait: Tim Cook (SP1w9)"},
+        {route:"beruehmte-johannes-paul-ii", label:"Portrait: John Paul II (SP1w9)"},
+        {route:"beruehmte-mette-marit", label:"Portrait: Mette-Marit (SP4w3)"},
+        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SP1w9)"},
       ])}
     </div>
   `);
@@ -2672,7 +2672,7 @@ export function adaLovelacePortraitPage() {
 
         <h2 class="vb-section">7. Related patterns: Tesla, Verne and Musk</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The combination of wealth of ideas, service to a larger whole and a building never finished appears in <a href="javascript:void(0)" data-route="beruehmte-nikola-tesla">Nikola Tesla</a> (SO7w6), who designed inventions for the public, and in <a href="javascript:void(0)" data-route="beruehmte-jules-verne">Jules Verne</a> (SO7w6), whose novels anticipated a technical future, and in <a href="javascript:void(0)" data-route="beruehmte-elon-musk">Elon Musk</a> (SO7w6), who drives rockets, electric cars and ever new large-scale ventures forward at the same time. As a later pioneer of computer science, <a href="javascript:void(0)" data-route="beruehmte-alan-turing">Alan Turing</a> (SX5w4) appears in this compass, a different type with a similar subject, and <a href="javascript:void(0)" data-route="beruehmte-konrad-zuse">Konrad Zuse</a> (SE1w9) later built a programmable computer himself with the Z3.</p>
+          <p class="vb-intro">The combination of wealth of ideas, service to a larger whole and a building never finished appears in <a href="javascript:void(0)" data-route="beruehmte-nikola-tesla">Nikola Tesla</a> (SO7w6), who designed inventions for the public, and in <a href="javascript:void(0)" data-route="beruehmte-jules-verne">Jules Verne</a> (SO7w6), whose novels anticipated a technical future, and in <a href="javascript:void(0)" data-route="beruehmte-elon-musk">Elon Musk</a> (SO7w6), who drives rockets, electric cars and ever new large-scale ventures forward at the same time. As a later pioneer of computer science, <a href="javascript:void(0)" data-route="beruehmte-alan-turing">Alan Turing</a> (SX5w4) appears in this compass, a different type with a similar subject, and <a href="javascript:void(0)" data-route="beruehmte-konrad-zuse">Konrad Zuse</a> (SP1w9) later built a programmable computer himself with the Z3.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
@@ -2687,7 +2687,7 @@ export function adaLovelacePortraitPage() {
         {route:"beruehmte-jules-verne", label:"Portrait: Jules Verne (SO7w6) – same subtype and wing"},
         {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6) – same subtype and wing"},
         {route:"beruehmte-alan-turing", label:"Portrait: Alan Turing (SX5w4) – pioneer of computer science"},
-        {route:"beruehmte-konrad-zuse", label:"Portrait: Konrad Zuse (SE1w9) – builder of the Z3"},
+        {route:"beruehmte-konrad-zuse", label:"Portrait: Konrad Zuse (SP1w9) – builder of the Z3"},
       ])}
     </div>
   `);
