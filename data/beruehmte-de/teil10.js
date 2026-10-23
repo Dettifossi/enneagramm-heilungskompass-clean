@@ -2799,7 +2799,7 @@ export function viggoMortensenPortraitPage() {
 
         <h2 class="vb-section">5. Parallele im selben Subtyp: Peter Maffay und Bruce Springsteen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Auch unter den SX9w1ern dieses Kompasses stehen Menschen, die ihre Verbindung zu einer Sache über Jahrzehnte gehalten haben. <a href="#beruehmte-peter-maffay">Peter Maffay (SX9w1)</a> verbindet sich mit der Musik und mit einem sozialen Anliegen, das er jahrzehntelang trägt. <a href="#beruehmte-bruce-springsteen">Bruce Springsteen (SX9w1)</a> bleibt seinem Publikum und seiner Herkunft treu und überträgt beides in sein Werk.</p>
+          <p class="vb-intro">Auch unter den SX9w1ern dieses Kompasses stehen Menschen, die ihre Verbindung zu einer Sache über Jahrzehnte gehalten haben. Die größte Nähe besteht zu <a href="#beruehmte-mads-mikkelsen">Mads Mikkelsen (SX9w1)</a>: Beide sind Schauspieler mit nordeuropäischen Wurzeln, die ihre Präsenz über Zurückhaltung statt über Lautstärke aufbauen, und bei beiden hat die Rolle viel mit Hingabe und Verschmelzung zu tun. <a href="#beruehmte-peter-maffay">Peter Maffay (SX9w1)</a> verbindet sich mit der Musik und mit einem sozialen Anliegen, das er jahrzehntelang trägt. <a href="#beruehmte-bruce-springsteen">Bruce Springsteen (SX9w1)</a> bleibt seinem Publikum und seiner Herkunft treu und überträgt beides in sein Werk.</p>
           <p class="vb-intro">Der Unterschied: Maffay und Springsteen bleiben bei einem Medium, Mortensen wechselt zwischen Film, Dichtung, Malerei, Fotografie und Musik. Die Gemeinsamkeit: eine langsame, treue Ausdehnung statt eines Plans.</p>
         </blockquote>
 
@@ -2824,7 +2824,7 @@ export function viggoMortensenPortraitPage() {
         {route:"lebensmusterkompass/sx9", label:"Lebensmusterkompass: SX9 – Faultier"},
         {route:"beruehmte-peter-maffay", label:"Porträt: Peter Maffay (SX9w1)"},
         {route:"beruehmte-bruce-springsteen", label:"Porträt: Bruce Springsteen (SX9w1)"},
-        {route:"beruehmte-willie-nelson", label:"Porträt: Willie Nelson (SX9w1)"},
+        {route:"beruehmte-mads-mikkelsen", label:"Porträt: Mads Mikkelsen (SX9w1)"},
       ])}
     </div>
   `);
