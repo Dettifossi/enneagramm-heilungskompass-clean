@@ -2575,6 +2575,7 @@ export function aliceWeidelPortraitPage() {
         {route:"beruehmte-friedrich-merz", label:"Porträt: Friedrich Merz (SO1w9) – gleicher Subtyp, politischer Gegenspieler"},
         {route:"beruehmte-marcel-reich-ranicki", label:"Porträt: Marcel Reich-Ranicki (SO1w9)"},
         {route:"beruehmte-navi-pillay", label:"Porträt: Navi Pillay (SO1w9)"},
+        {route:"beruehmte-vicky-leandros", label:"Porträt: Vicky Leandros (SX3w2)"},
       ])}
     </div>
   `);

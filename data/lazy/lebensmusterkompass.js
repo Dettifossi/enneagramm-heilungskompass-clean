@@ -449,7 +449,7 @@ export const LEBENSMUSTERKOMPASS = {
   SX3: {
     tier: "Pfau",
     kernthema: "Unmittelbare Präsenz und Magnetismus – ohne Berechnung, aber mit ganzer Wirkung",
-    beispiele: ["Christina Plate", "Brad Pitt", "Kai Pflaume", "Lena Meyer-Landrut", "Brigitte Bardot", "Meg Ryan", "Marilyn Monroe", "Dieter Bohlen", "Prof. Dr. Marlene Zuk", "Heidi Klum", "Dolly Parton", "Diane Downs", "Luka Magnotta", "Richard Ramírez", "Judas Iskariot", "Brigitte Macron", "Iris Berben", "Linda Evans", "Frank Schätzing", "Matthew McConaughey", "Lenny Kravitz", "Wolfgang Joop", "Madonna", "Lana Del Rey", "Bianca Censori"],
+    beispiele: ["Vicky Leandros", "Christina Plate", "Brad Pitt", "Kai Pflaume", "Lena Meyer-Landrut", "Brigitte Bardot", "Meg Ryan", "Marilyn Monroe", "Dieter Bohlen", "Prof. Dr. Marlene Zuk", "Heidi Klum", "Dolly Parton", "Diane Downs", "Luka Magnotta", "Richard Ramírez", "Judas Iskariot", "Brigitte Macron", "Iris Berben", "Linda Evans", "Frank Schätzing", "Matthew McConaughey", "Lenny Kravitz", "Wolfgang Joop", "Madonna", "Lana Del Rey", "Bianca Censori"],
     fingerabdruecke: [
       {
         titel: "Unmittelbare, magnetische Präsenz statt berechneter Inszenierung",
@@ -459,7 +459,7 @@ export const LEBENSMUSTERKOMPASS = {
       {
         titel: "Strahlt, ohne es selbst bewusst einzusetzen",
         beschreibung: "Bei einem Teil der Fälle geschieht die Wirkung fast unbewusst – die Person selbst ist sich der eigenen Anziehungskraft kaum bewusst, was den Effekt oft noch verstärkt.",
-        beleg: "Christina Plate, die schon als Kind Werbespots drehte und über Jahrzehnte als Gesicht von Fernsehserien Ausstrahlung zu ihrem Beruf machte; Kai Pflaume: ›Er strahlt nicht, weil er strahlen muss. Er strahlt, weil sein Licht von innen kommt‹; Lena Meyer-Landrut: ›Der Pfau entfaltet sein Rad nicht auf Befehl. Er tut es, weil es sein Wesen ist. Was ihn bisweilen auszeichnet: Er weiß es selbst nicht immer‹ – ›Sie zieht an, ohne zu verführen. Sie strahlt, ohne zu inszenieren.‹; Meg Ryan, die als ›Mädchen von nebenan‹ nie unnahbar wirkte und dennoch unwiderstehlich war – der Pfau, der sein Rad entfaltet, ohne es zu wissen."
+        beleg: "Vicky Leandros, die als Teenager auf die Bühne kam, 1972 den Eurovision Song Contest gewann und über sechs Jahrzehnte in mehreren Sprachen vor Publikum steht; Christina Plate, die schon als Kind Werbespots drehte und über Jahrzehnte als Gesicht von Fernsehserien Ausstrahlung zu ihrem Beruf machte; Kai Pflaume: ›Er strahlt nicht, weil er strahlen muss. Er strahlt, weil sein Licht von innen kommt‹; Lena Meyer-Landrut: ›Der Pfau entfaltet sein Rad nicht auf Befehl. Er tut es, weil es sein Wesen ist. Was ihn bisweilen auszeichnet: Er weiß es selbst nicht immer‹ – ›Sie zieht an, ohne zu verführen. Sie strahlt, ohne zu inszenieren.‹; Meg Ryan, die als ›Mädchen von nebenan‹ nie unnahbar wirkte und dennoch unwiderstehlich war – der Pfau, der sein Rad entfaltet, ohne es zu wissen."
       },
       {
         titel: "Die bewusste, vollständige Darbietung als Kunstform für andere",

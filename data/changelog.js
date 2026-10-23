@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2586", date: "2026-10-23", text: "Neues Porträt: Vicky Leandros (SX3w2) – Sängerin.", text_en: "New portrait: Vicky Leandros (SX3w2) – singer.", route: "beruehmte-vicky-leandros" },
     { version: "v2585", date: "2026-10-23", text: "Neues Porträt: Christina Plate (SX3w2) – Schauspielerin.", text_en: "New portrait: Christina Plate (SX3w2) – actress.", route: "beruehmte-christina-plate" },
     { version: "v2584", date: "2026-10-23", text: "Neues Porträt: Rolf Zuckowski (SE4w3) – Liedermacher und Kinderlieder-Autor.", text_en: "New portrait: Rolf Zuckowski (SP4w3) – songwriter and children's song author.", route: "beruehmte-rolf-zuckowski" },
     { version: "v2583", date: "2026-10-23", text: "Neues Porträt: Atze Schröder (SX7w6) – Comedy-Kunstfigur.", text_en: "New portrait: Atze Schröder (SX7w6) – comedy character.", route: "beruehmte-atze-schroeder" },

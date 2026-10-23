@@ -1843,6 +1843,7 @@ export function heleneFischerPortraitPage() {
           {route:"beruehmte-naomi-campbell", label:"Portrait: Naomi Campbell (SX3w2)"},
           {route:"beruehmte-wolfgang-joop", label:"Portrait: Wolfgang Joop (SX3w2)"},
           {route:"beruehmte-christina-plate", label:"Portrait: Christina Plate (SX3w2)"},
+          {route:"beruehmte-vicky-leandros", label:"Portrait: Vicky Leandros (SX3w2)"},
         ])}
       </div>
     </div>
@@ -2516,6 +2517,7 @@ export function aliceWeidelPortraitPage() {
         {route:"beruehmte-friedrich-merz", label:"Portrait: Friedrich Merz (SO1w9) – same subtype, political opponent"},
         {route:"beruehmte-marcel-reich-ranicki", label:"Portrait: Marcel Reich-Ranicki (SO1w9)"},
         {route:"beruehmte-navi-pillay", label:"Portrait: Navi Pillay (SO1w9)"},
+        {route:"beruehmte-vicky-leandros", label:"Portrait: Vicky Leandros (SX3w2)"},
       ])}
     </div>
   `);

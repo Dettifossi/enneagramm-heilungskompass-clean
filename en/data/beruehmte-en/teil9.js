@@ -2728,3 +2728,76 @@ export function duncanHaldanePortraitPage() {
     </div>
   `);
 }
+
+
+export function vickyLeandrosPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-vicky-leandros-portrait.jpg" alt="Vicky Leandros – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-vicky-leandros-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Vicky Leandros</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexual Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Greek-German singer, Eurovision winner 1972 &ndash; Animal correspondence: Peacock</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Peacock: the voice that went from Hamburg into the world</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>peacock</strong> shows itself and enjoys being seen. Vicky Leandros was born, by most accounts, on 23 August 1952 on Corfu (the article also gives 1948 and 1949 as possible years), as Vasiliki Papathanasiou. In 1958 the family moved to Hamburg-Wandsbek, in 1961 her parents divorced and she then grew up with her father, the singer and producer Leo Leandros. She received training in singing, ballet and guitar.</p>
+          <p class="vb-intro">Her first single &lsquo;Messer, Gabel, Schere, Licht&rsquo; (&lsquo;Knife, Fork, Scissors, Light&rsquo;) appeared in July 1965 and reached number 16 in the German charts. Even as a teenager she was in the spotlight, in German, Greek and later in many more languages.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Three: glamour, attraction and the world stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three lives on impact, and Claudio Naranjo described the <strong>sexual Three (SX3)</strong> as the subtype of femininity or masculinity: radiance, attraction and the ability to shine in the spotlight. In Vicky Leandros this shows in a stage presence that brings glamour and warmth together. In 1967 she represented Luxembourg at the Eurovision Song Contest with &lsquo;L&rsquo;amour est bleu&rsquo; (&lsquo;Love Is Blue&rsquo;) and finished fourth, and in 1972 she won the contest with &lsquo;Après toi&rsquo; (&lsquo;After You&rsquo;).</p>
+          <p class="vb-intro">She sang in German, Greek, English, French, Dutch, Japanese and Spanish and, according to the article, sold over 55 million records worldwide. In the German-speaking world &lsquo;Ich hab&rsquo; die Liebe geseh&rsquo;n&rsquo; (1972), &lsquo;Theo, wir fahr&rsquo;n nach Lodz&rsquo; (&lsquo;Theo, We&rsquo;re Going to Lodz&rsquo;, 1974, number 1) and &lsquo;Ich liebe das Leben&rsquo; (&lsquo;I Love Life&rsquo;, 1975) remain her best-known songs.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: warmth and belonging</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> brings the Three warmth, attention and the need to be there for others. In Leandros it is weaker than the core but clearly recognisable in her work: she says she stands for diversity, tolerance, human dignity, human rights and internationality. In 2006 she ran for the Greek PASOK party in the municipal elections in Piraeus, won a seat and became deputy mayor and councillor for culture and international relations. On 28 May 2008 she resigned from all offices.</p>
+          <p class="vb-intro">The warmth also shows in hospitality: in 2021 her cookbook &lsquo;Ein Hoch auf das Leben&rsquo; (&lsquo;A Toast to Life&rsquo;) appeared. That is the Two in practice: the Three shines, the Two invites.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: voice, languages, stamina</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Leandros has twenty top-20 hits in the German singles charts. Her strength is the combination of vocal technique and expression: she moves between chanson, schlager and pop, sings in several languages and delivers songs so that they do not seem put on. &lsquo;Après toi&rsquo; sold over 7.8 million copies in several languages, according to the article. In 1968 and 1974 she received the Goldene Europa, in 1972 the award as the world&rsquo;s best-selling artist, and in 2001 the Goldene Stimmgabel.</p>
+          <p class="vb-intro">Her career has also been honoured over decades: in 2011 as Commander of the Order of Merit of the Grand Duchy of Luxembourg, in 2015 with the Federal Cross of Merit, in 2024 with the &lsquo;Eins der Besten&rsquo; award of the Schlagerchampions for her life&rsquo;s work and in 2025 with the Bavarian Order of Merit. In 2011 she sang a new version of &lsquo;L&rsquo;amour est bleu&rsquo; with the band Scooter, and in 2020 she appeared on &lsquo;The Masked Singer&rsquo; as the Cat and finished sixth.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Helene Fischer and Brigitte Bardot</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Among the SX3w2s in this Compass are also women who combine glamour and warmth. <a href="#beruehmte-helene-fischer">Helene Fischer (SX3w2)</a> stands as a singer on big stages and combines shine with perfection. <a href="#beruehmte-brigitte-bardot">Brigitte Bardot (SX3w2)</a> was an international face of her time as actress and singer.</p>
+          <p class="vb-intro">The difference: Fischer works in a younger generation, Bardot later withdrew from the spotlight, Leandros remains on stage for decades. What they share: the ability to win an audience with their own appearance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Three with a Two-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in radiance, diligence and attentiveness. Someone who sings in front of an audience in several languages for six decades has a discipline that underlies the glamour.</p>
+          <p class="vb-intro">The shadow of this combination is dependence on image and applause. In July 2025 she declared publicly that the politician <a href="#beruehmte-alice-weidel">Alice Weidel (SO1w9)</a> was not welcome at her concert in Regensburg, whereupon Weidel stayed away. Someone who stands for diversity and human dignity also draws a line publicly for it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: farewell and return</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 23 October 2026) Vicky Leandros is 74 years old. After an announced farewell tour of 13 concerts in 2024 she appeared in July 2025 at the Schlossfestspiele Regensburg. In May 2026 it was announced that she would open the first semi-final of the Eurovision Song Contest in Vienna with &lsquo;L&rsquo;amour est bleu&rsquo;. In 2026 she also re-recorded &lsquo;Ich liebe das Leben&rsquo; with Die Toten Hosen for their bonus CD.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
+        {route:"lebensmusterkompass/sx3", label:"Life Pattern Compass: SX3 – Peacock"},
+        {route:"beruehmte-helene-fischer", label:"Porträt: Helene Fischer (SX3w2)"},
+        {route:"beruehmte-brigitte-bardot", label:"Porträt: Brigitte Bardot (SX3w2)"},
+        {route:"beruehmte-alice-weidel", label:"Porträt: Alice Weidel (SO1w9)"},
+      ])}
+    </div>
+  `);
+}

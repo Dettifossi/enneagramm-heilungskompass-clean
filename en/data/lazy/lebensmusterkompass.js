@@ -449,7 +449,7 @@ export const LEBENSMUSTERKOMPASS = {
   SX3: {
     tier: "Peacock",
     kernthema: "Immediate presence and magnetism – without calculation, yet with full effect",
-    beispiele: ["Christina Plate", "Brad Pitt", "Kai Pflaume", "Lena Meyer-Landrut", "Brigitte Bardot", "Meg Ryan", "Marilyn Monroe", "Dieter Bohlen", "Prof. Dr. Marlene Zuk", "Heidi Klum", "Dolly Parton", "Diane Downs", "Luka Magnotta", "Richard Ramírez", "Judas Iscariot", "Brigitte Macron", "Iris Berben", "Linda Evans", "Frank Schätzing", "Matthew McConaughey", "Lenny Kravitz", "Madonna", "Lana Del Rey", "Bianca Censori"],
+    beispiele: ["Vicky Leandros", "Christina Plate", "Brad Pitt", "Kai Pflaume", "Lena Meyer-Landrut", "Brigitte Bardot", "Meg Ryan", "Marilyn Monroe", "Dieter Bohlen", "Prof. Dr. Marlene Zuk", "Heidi Klum", "Dolly Parton", "Diane Downs", "Luka Magnotta", "Richard Ramírez", "Judas Iscariot", "Brigitte Macron", "Iris Berben", "Linda Evans", "Frank Schätzing", "Matthew McConaughey", "Lenny Kravitz", "Madonna", "Lana Del Rey", "Bianca Censori"],
     fingerabdruecke: [
       {
         titel: "Immediate, magnetic presence instead of calculated staging",
@@ -459,7 +459,7 @@ export const LEBENSMUSTERKOMPASS = {
       {
         titel: "Radiates without deliberately deploying it",
         beschreibung: "In some cases, the effect happens almost unconsciously – the person is barely aware of their own magnetism, which often strengthens the effect even further.",
-        beleg: "Christina Plate, who shot commercials as a child and for decades made radiance her profession as the face of television series; Kai Pflaume: 'He doesn't radiate because he has to. He radiates because his light comes from within'; Lena Meyer-Landrut: 'The peacock doesn't spread its tail on command. It does so because it's its nature. What sometimes distinguishes it: it doesn't always know it itself' – 'She attracts without seducing. She radiates without staging.'; Meg Ryan, who as the 'girl next door' never seemed unapproachable and yet was irresistible – the peacock spreading its tail without knowing it."
+        beleg: "Vicky Leandros, who came to the stage as a teenager, won the Eurovision Song Contest in 1972 and has stood before audiences in several languages for six decades; Christina Plate, who shot commercials as a child and for decades made radiance her profession as the face of television series; Kai Pflaume: 'He doesn't radiate because he has to. He radiates because his light comes from within'; Lena Meyer-Landrut: 'The peacock doesn't spread its tail on command. It does so because it's its nature. What sometimes distinguishes it: it doesn't always know it itself' – 'She attracts without seducing. She radiates without staging.'; Meg Ryan, who as the 'girl next door' never seemed unapproachable and yet was irresistible – the peacock spreading its tail without knowing it."
       },
       {
         titel: "The deliberate, complete performance as an art form for others",

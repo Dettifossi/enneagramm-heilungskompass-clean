@@ -127,6 +127,8 @@ const ROUTES = [
   { hash: "en/#warum-nur-9-heilmittel", label: "Neu EN: Why only 9 remedies" },
   { hash: "#yogi-tee-kompass", label: "Neu: Yogi-Tee-Kompass" },
   { hash: "en/#yogi-tee-kompass", label: "Neu EN: Yogi Tea Compass" },
+  { hash: "#beruehmte-vicky-leandros", label: "Neues Porträt: Vicky Leandros" },
+  { hash: "en/#beruehmte-vicky-leandros", label: "Neues EN-Porträt: Vicky Leandros" },
   { hash: "#beruehmte-christina-plate", label: "Neues Porträt: Christina Plate" },
   { hash: "en/#beruehmte-christina-plate", label: "Neues EN-Porträt: Christina Plate" },
   { hash: "#beruehmte-rolf-zuckowski", label: "Neues Porträt: Rolf Zuckowski" },

@@ -261,6 +261,7 @@ export function brigitteBardotPortraitPage() {
         {route:"beruehmte-linda-evans", label:"Portrait: Linda Evans (SX3w2)"},
         {route:"beruehmte-bianca-censori", label:"Portrait: Bianca Censori (SX3w2)"},
         {route:"beruehmte-lenny-kravitz", label:"Portrait: Lenny Kravitz (SX3w2)"},
+        {route:"beruehmte-vicky-leandros", label:"Portrait: Vicky Leandros (SX3w2)"},
       ])}
     </div>
   `);

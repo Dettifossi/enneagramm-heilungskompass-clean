@@ -2761,3 +2761,76 @@ export function andreasGruberPortraitPage() {
     </div>
   `);
 }
+
+
+export function vickyLeandrosPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-vicky-leandros-portrait.jpg" alt="Vicky Leandros – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-vicky-leandros-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Vicky Leandros</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexueller Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Griechisch-deutsche Sängerin, Eurovision-Siegerin 1972 &ndash; Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Pfau: die Stimme, die aus Hamburg in die Welt ging</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> zeigt sich und genießt es, gesehen zu werden. Vicky Leandros wurde nach den meisten Angaben am 23. August 1952 auf Korfu geboren (der Artikel nennt als mögliche Jahre auch 1948 und 1949), als Vasiliki Papathanasiou. 1958 zog die Familie nach Hamburg-Wandsbek, 1961 ließen sich ihre Eltern scheiden, danach wuchs sie beim Vater auf, dem Sänger und Produzenten Leo Leandros. Sie erhielt eine Ausbildung in Gesang, Ballett und Gitarre.</p>
+          <p class="vb-intro">Ihre erste Single ›Messer, Gabel, Schere, Licht‹ erschien im Juli 1965 und erreichte Platz 16 der deutschen Charts. Schon als Teenager stand sie im Rampenlicht, auf Deutsch, Griechisch und später in vielen weiteren Sprachen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: Glanz, Anziehung und Weltbühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Drei lebt von der Wirkung, und Claudio Naranjo beschrieb die <strong>sexuelle Drei (SX3)</strong> als den Subtyp der Weiblichkeit beziehungsweise Männlichkeit: Strahlkraft, Anziehung und die Fähigkeit, im Rampenlicht zu leuchten. Bei Vicky Leandros zeigt sich das in der Bühnenerscheinung, die Glamour und Wärme zusammenbringt. 1967 vertrat sie Luxemburg beim Eurovision Song Contest mit ›L'amour est bleu‹ (›Die Liebe ist blau‹) und wurde Vierte, 1972 gewann sie den Wettbewerb mit ›Après toi‹ (›Nach dir‹).</p>
+          <p class="vb-intro">Sie sang auf Deutsch, Griechisch, Englisch, Französisch, Niederländisch, Japanisch und Spanisch, und verkaufte nach Angabe des Artikels weltweit über 55 Millionen Tonträger. Im deutschsprachigen Raum bleiben ›Ich hab' die Liebe geseh'n‹ (1972), ›Theo, wir fahr'n nach Lodz‹ (1974, Platz 1) und ›Ich liebe das Leben‹ (1975) die bekanntesten Lieder.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Herzlichkeit und Zugehörigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> bringt der Drei Wärme, Zuwendung und das Bedürfnis, für andere da zu sein. Bei Leandros ist er schwächer ausgeprägt als der Kern, aber in ihrem Wirken deutlich zu erkennen: Sie sagt von sich, sie stehe für Vielfalt, Toleranz, Menschenwürde, Menschenrechte und Internationalität. 2006 trat sie für die griechische PASOK bei den Kommunalwahlen in Piräus an, gewann ein Mandat und wurde Vizebürgermeisterin und Stadträtin für Kultur und internationale Beziehungen. Am 28. Mai 2008 trat sie von allen Ämtern zurück.</p>
+          <p class="vb-intro">Die Wärme zeigt sich auch im Gastgeberischen: 2021 erschien ihr Kochbuch ›Ein Hoch auf das Leben‹. Das ist die Zwei in der Praxis: Die Drei strahlt, die Zwei lädt ein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Stimme, Sprachen, Ausdauer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Leandros hat zwanzig Top-20-Hits in den deutschen Singlecharts. Ihre Stärke ist die Verbindung von gesanglicher Technik und Ausdruck: Sie wechselt zwischen Chanson, Schlager und Pop, singt in mehreren Sprachen und trägt Lieder so vor, dass sie nicht aufgesetzt wirken. ›Après toi‹ verkaufte sich nach Angabe des Artikels in mehreren Sprachen über 7,8 Millionen Mal. 1968 und 1974 erhielt sie die Goldene Europa, 1972 die Auszeichnung als weltweit meistverkaufte Künstlerin, 2001 die Goldene Stimmgabel.</p>
+          <p class="vb-intro">Ihre Laufbahn wurde über Jahrzehnte hinweg auch gewürdigt: 2011 als Kommandeurin des Verdienstordens des Großherzogtums Luxemburg, 2015 mit dem Bundesverdienstkreuz am Bande, 2024 mit dem Preis ›Eins der Besten‹ der Schlagerchampions für ihr Lebenswerk und 2025 mit dem Bayerischen Verdienstorden. 2011 sang sie mit der Band Scooter eine Neufassung von ›L'amour est bleu‹, und 2020 trat sie bei ›The Masked Singer‹ als Katze auf und belegte Platz 6.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Helene Fischer und Brigitte Bardot</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Auch unter den SX3w2ern dieses Kompasses stehen Frauen, die Glanz und Wärme verbinden. <a href="#beruehmte-helene-fischer">Helene Fischer (SX3w2)</a> steht als Sängerin auf großen Bühnen und verbindet Strahlen mit Perfektion. <a href="#beruehmte-brigitte-bardot">Brigitte Bardot (SX3w2)</a> war als Schauspielerin und Sängerin ein internationales Gesicht ihrer Zeit.</p>
+          <p class="vb-intro">Der Unterschied: Fischer arbeitet in einer jüngeren Generation, Bardot hat sich später aus dem Rampenlicht zurückgezogen, Leandros bleibt über Jahrzehnte auf der Bühne. Die Gemeinsamkeit: die Fähigkeit, ein Publikum mit der eigenen Erscheinung zu gewinnen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sexuellen Drei mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Strahlkraft, im Fleiß und in der Zugewandtheit. Wer über sechs Jahrzehnte in mehreren Sprachen vor Publikum singt, hat eine Disziplin, die dem Glanz zugrunde liegt.</p>
+          <p class="vb-intro">Der Schatten dieser Kombination ist die Abhängigkeit vom Bild und vom Beifall. Im Juli 2025 erklärte sie öffentlich, die Politikerin <a href="#beruehmte-alice-weidel">Alice Weidel (SO1w9)</a> sei bei ihrem Konzert in Regensburg nicht willkommen, worauf diese dem Konzert fernblieb. Wer für Vielfalt und Menschenwürde eintritt, zieht dafür auch öffentlich eine Grenze.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Abschied und Rückkehr</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 23. Oktober 2026) ist Vicky Leandros 74 Jahre alt. Nach einer angekündigten Abschiedstournee mit 13 Konzerten im Jahr 2024 trat sie im Juli 2025 bei den Schlossfestspielen Regensburg auf. Im Mai 2026 wurde angekündigt, dass sie das erste Halbfinale des Eurovision Song Contest in Wien mit ›L'amour est bleu‹ eröffnen würde. 2026 nahm sie außerdem ›Ich liebe das Leben‹ mit den Toten Hosen neu auf, für deren Bonus-CD.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx3", label:"Lebensmusterkompass: SX3 – Pfau"},
+        {route:"beruehmte-helene-fischer", label:"Porträt: Helene Fischer (SX3w2)"},
+        {route:"beruehmte-brigitte-bardot", label:"Porträt: Brigitte Bardot (SX3w2)"},
+        {route:"beruehmte-alice-weidel", label:"Porträt: Alice Weidel (SO1w9)"},
+      ])}
+    </div>
+  `);
+}

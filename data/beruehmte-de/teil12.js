@@ -1843,6 +1843,7 @@ export function heleneFischerPortraitPage() {
         {route:"beruehmte-naomi-campbell", label:"Porträt: Naomi Campbell (SX3w2)"},
         {route:"beruehmte-wolfgang-joop", label:"Porträt: Wolfgang Joop (SX3w2)"},
         {route:"beruehmte-christina-plate", label:"Porträt: Christina Plate (SX3w2)"},
+        {route:"beruehmte-vicky-leandros", label:"Porträt: Vicky Leandros (SX3w2)"},
         ])}
       </div>
     </div>
