@@ -17015,6 +17015,7 @@ const uiText = {
       { route: "enneagramm-meets-jin-shin-jyutsu", label: "Enneagramm meets Jin Shin Jyutsu" },
       { route: "enneagramm-zahnpsychosomatik", label: "Enneagramm meets Zahnpsychosomatik" },
       { route: "enneagramm-astrologie", label: "Enneagramm meets Astrologie" },
+      { route: "yogi-tee-kompass", label: "Yogi-Tee-Kompass (Tees für 9 Typen & 27 Subtypen)" },
       { heading: "Enneagramm in Kultur & Welt" },
       { route: "ennead-enneagramm", label: "Die Ennead von Heliopolis und das Enneagramm" },
       { route: "navagraha-enneagramm", label: "Navagraha und das Enneagramm" },
