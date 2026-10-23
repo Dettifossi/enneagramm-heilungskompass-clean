@@ -2826,7 +2826,7 @@ export function richyMuellerPortraitPage() {
         <h2 class="vb-section">5. Parallel in the same subtype: Dustin Hoffman and Keanu Reeves</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Among the SX9w1s in this Compass are also actors with a calm, physical presence. <a href="#beruehmte-dustin-hoffman">Dustin Hoffman (SX9w1)</a> has an energetic similarity with Richy Müller: the same warm down-to-earthness beneath a layer of intensity. <a href="#beruehmte-keanu-reeves">Keanu Reeves (SX9w1)</a> often plays hard men but is calm and friendly as a person, like Müller.</p>
-          <p class="vb-intro">The difference: Hoffman and Reeves became world stars, Müller stayed in the German-speaking world. What they share: the role of the hard man is a role, the person behind it is calm.</p>
+          <p class="vb-intro">The difference: Hoffman and Reeves became world stars, Müller stayed in the German-speaking world. What they share: the role of the hard man is just a role, the person behind it is calm. As a good actor, Müller can activate his Eight-wing in certain scenes and films without using it constantly, entirely in keeping with the dynamic understanding of the Enneagram.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Light and shadow of the sexual Nine with a One-wing</h2>

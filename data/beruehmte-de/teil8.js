@@ -2854,7 +2854,7 @@ export function richyMuellerPortraitPage() {
         <h2 class="vb-section">5. Parallele im selben Subtyp: Dustin Hoffman und Keanu Reeves</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Auch unter den SX9w1ern dieses Kompasses stehen Schauspieler mit ruhiger, körperlicher Präsenz. <a href="#beruehmte-dustin-hoffman">Dustin Hoffman (SX9w1)</a> hat mit Richy Müller eine energetische Ähnlichkeit: dieselbe warme Bodenständigkeit unter einer Schicht Intensität. <a href="#beruehmte-keanu-reeves">Keanu Reeves (SX9w1)</a> spielt oft harte Typen, ist als Mensch aber ruhig und freundlich, wie Müller.</p>
-          <p class="vb-intro">Der Unterschied: Hoffman und Reeves wurden Weltstars, Müller blieb im deutschen Sprachraum. Die Gemeinsamkeit: Die Rolle des Harten ist eine Rolle, der Mensch dahinter ist ruhig.</p>
+          <p class="vb-intro">Der Unterschied: Hoffman und Reeves wurden Weltstars, Müller blieb im deutschen Sprachraum. Die Gemeinsamkeit: Die Rolle des harten Typs ist eben nur eine Rolle, der Mensch dahinter ist ruhig. Als guter Schauspieler kann Müller in bestimmten Szenen und Filmen seinen Achterflügel aktivieren, ohne ihn ständig zu nutzen, ganz im Sinne des dynamischen Verständnisses des Enneagramms.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Licht und Schatten der sexuellen Neun mit Einserflügel</h2>
