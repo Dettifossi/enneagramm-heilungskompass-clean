@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=306";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=307";
 import { psychogrammErklaerung } from "../data/psychogramme-erklaerung.js?v=2";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -3615,7 +3615,7 @@ const BERUEHMT_PORTRAITS = [
     heading:"Anton Zeilinger – Social Type 5",
     teaser:"SO5w6 \xb7 b. 1945, Ried im Innkreis. Quantum physicist, 2022 Nobel Prize in Physics for experiments on quantum entanglement. President of the Austrian Academy of Sciences 2013–2022. The octopus whose research only functions as a team.",
     land:"Austria", tags:["Wissenschaft"], gender:"m"},
-{ route:"beruehmte-maria-callas", name:"Maria Callas", added:"2026-09-18", subtyp:"SP3w2",
+{ route:"beruehmte-maria-callas", name:"Maria Callas", added:"2026-09-18", subtyp:"SE3w2",
     heading:"Maria Callas – Self-Preservation Type 3",
     teaser:"SP3w2 \xb7 1923–1977. Soprano, pioneer of the bel canto revival (Norma, Lucia di Lammermoor, Anna Bolena). Lost roughly 36 kg through discipline in 1953/54. Studied the libretto as thoroughly as the score. The raccoon who rebuilt her own voice.",
     land:"USA/Greece", tags:["Musik"], gender:"f"},
@@ -10749,6 +10749,11 @@ function zahlenFaktenPage() {
   });
   const _rubFarben = ["var(--copper)", "#6b8f71", "#a8553f"];
   const _rubBlocks = [1,2,3,4,5,6,7,8,9].map(n => `<div style="margin:.4rem 0 .7rem;"><div style="font-family:system-ui,sans-serif;font-size:.82rem;font-weight:700;color:var(--ink);">Type ${n}</div>${_rubTyp.map(([c, tot], i) => _row(["Famous", "Illness", "Criminal"][i], _pct(c[n] || 0, tot || 1), 25, _rubFarben[i], _pct(c[n] || 0, tot || 1) + " %")).join("")}</div>`).join("");
+
+  const _rowW = (label, v, max, color, shown, w) => `<div style="display:flex;align-items:center;gap:.6rem;margin:.18rem 0;font-family:system-ui,sans-serif;font-size:.8rem;"><span style="width:${w};color:var(--muted);white-space:nowrap;">${label}</span>${_bar(v, max, color)}<span style="width:2.4rem;text-align:right;font-variant-numeric:tabular-nums;">${shown}</span></div>`;
+  const _tierSort = Object.keys(_proSub).map(c => [_TQ_TIERE[c.replace("SE", "SP")] + " (" + c + ")", _proSub[c]]).sort((a, b) => b[1] - a[1]);
+  const _tierMax = _tierSort[0][1];
+  const _tierBalken = _tierSort.map(([n, v]) => _rowW(n, v, _tierMax, "var(--copper)", v, "9.5rem")).join("");
   const _frauen = BERUEHMT_PORTRAITS.filter(p => p.gender === "f" || p.gender === "w").length;
   const _laender = new Set(BERUEHMT_PORTRAITS.map(p => p.land).filter(Boolean));
   const _deUsa = BERUEHMT_PORTRAITS.filter(p => p.land === "Germany" || p.land === "USA").length;
@@ -10763,6 +10768,16 @@ function zahlenFaktenPage() {
       <div style="font-family:system-ui,sans-serif;font-size:2.1rem;font-weight:800;color:var(--copper);line-height:1;font-variant-numeric:tabular-nums;">${num}</div>
       <div style="font-family:system-ui,sans-serif;font-size:.82rem;color:var(--muted);margin-top:.4rem;">${label}</div>
     </article>`;
+  setTimeout(() => {
+    const waitFor = key => new Promise(res => { const d = _LAZY_DATA[key]; if (!d || d.loaded) return res(); _prefetchData(key, res); });
+    Promise.race([Promise.all(["psychosomatik", "beziehungen", "situationskompass", "lebensmuster"].map(waitFor)), new Promise(r => setTimeout(r, 20000))]).then(() => {
+      const set = (id, n, label) => { const el = document.getElementById(id); if (el && n) el.innerHTML = statCard(n.toLocaleString("en-US"), label); };
+      set("wz-psy", PSYCHOSOMATIK_KRANKHEITEN ? Object.keys(PSYCHOSOMATIK_KRANKHEITEN).length : 0, "Psychosomatic conditions");
+      set("wz-bez", BEZIEHUNGS_PAARUNGEN ? BEZIEHUNGS_PAARUNGEN.length : 0, "Relationship pairings");
+      set("wz-sit", SITUATIONSKOMPASS && SITUATIONSKOMPASS.situationen ? SITUATIONSKOMPASS.situationen.length : 0, "Everyday situations in the Situations Compass");
+      set("wz-lmk", LEBENSMUSTERKOMPASS ? Object.values(LEBENSMUSTERKOMPASS).reduce((s, b) => s + ((b && b.fingerabdruecke) ? b.fingerabdruecke.length : 0), 0) : 0, "Life-pattern fingerprints");
+    });
+  }, 0);
   return shell(`
     ${pageHeader("library")}
     <section class="narrow">
@@ -10803,6 +10818,13 @@ function zahlenFaktenPage() {
       <h3 style="font-size:.95rem;font-weight:700;margin:1.6rem 0 .5rem;color:var(--ink);">Portraits per subtype (all 27)</h3>
       <p style="font-family:system-ui,sans-serif;font-size:.78rem;color:var(--muted);margin:0 0 .6rem;"><span style="color:#6b8f71;">&#9632;</span> self-preservation &nbsp; <span style="color:#c4a456;">&#9632;</span> social &nbsp; <span style="color:#a8553f;">&#9632;</span> sexual</p>
       ${_subBalken}
+      <h3 style="font-size:.95rem;font-weight:700;margin:1.6rem 0 .5rem;color:var(--ink);">Portraits per Animal</h3>
+      <p style="font-family:system-ui,sans-serif;font-size:.78rem;color:var(--muted);margin:0 0 .6rem;">Each of the 27 subtypes has an animal. The bars show the number of portraits per animal, across all three sections.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.9rem;margin-bottom:.8rem;">
+        ${statCard(_tierSort[0][0], "Most frequently portrayed animal")}
+        ${statCard(_tierSort[_tierSort.length - 1][0], "Least frequently portrayed animal")}
+      </div>
+      ${_tierBalken}
       <p style="font-family:system-ui,sans-serif;font-size:.75rem;color:var(--muted);margin-top:.6rem;">Counted live from the portrait lists. The distribution reflects which portraits were chosen, not how common the types are in the population.</p>
 
             <h2 style="font-size:1.1rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Wing Distribution</h2>
@@ -10828,6 +10850,19 @@ function zahlenFaktenPage() {
       <h2 style="font-size:1.1rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">The Sections Compared</h2>
       <p style="font-family:system-ui,sans-serif;font-size:.85rem;color:var(--muted);margin:0 0 .6rem;">Share of types per section in percent. The numbers for illness and criminal portraits are small and describe only this selection. They say nothing about which types tend toward illness or crimes.</p>
       ${_rubBlocks}
+
+            <h2 style="font-size:1.1rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Scope of Knowledge</h2>
+      <p style="font-family:system-ui,sans-serif;font-size:.85rem;color:var(--muted);margin:0 0 .6rem;">How much content the Compass holds besides the portraits. The numbers are counted from the data when opened, some appear a moment later.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.9rem;">
+        ${statCard(135, "Remedy assignments<br><span style=\"font-weight:400;\">(27 subtypes × 5 systems)</span>")}
+        ${statCard(27, "Animal profiles in the Animal Lexicon")}
+        ${statCard(27, "Communication profiles for the 27 subtypes")}
+        <div id="wz-quiz">${statCard((window._quizData || []).length || "…", "Quiz questions")}</div>
+        <div id="wz-psy">${statCard("…", "Psychosomatic conditions")}</div>
+        <div id="wz-bez">${statCard("…", "Relationship pairings")}</div>
+        <div id="wz-sit">${statCard("…", "Everyday situations in the Situations Compass")}</div>
+        <div id="wz-lmk">${statCard("…", "Life-pattern fingerprints")}</div>
+      </div>
 
       <h2 style="font-size:1.1rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Text Volume</h2>
       <div style="background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1.4rem 1.6rem;">

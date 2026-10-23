@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2578", date: "2026-10-23", text: "Der Kompass in Zahlen: neue Abschnitte zu den Porträts je Tier und zum Wissensumfang (Heilmittel, Quiz, Psychosomatik, Beziehungs-Paarungen und mehr).", text_en: "The Compass in Numbers: new sections on portraits per animal and the scope of knowledge (remedies, quiz, psychosomatics, relationship pairings and more).", route: "zahlen-fakten" },
     { version: "v2577", date: "2026-10-23", text: "Der Kompass in Zahlen: neue Auswertungen zu Flügeln, Berufsfeldern, Frauenanteil, Herkunftsländern, Wachstum und dem Vergleich der Rubriken.", text_en: "The Compass in Numbers: new analyses of wings, fields, share of women, countries of origin, growth and a comparison of the sections.", route: "zahlen-fakten" },
     { version: "v2576", date: "2026-10-23", text: "Neues Porträt: Knossi, Jens Knossalla (SX7w8) – Streamer und Entertainer.", text_en: "New portrait: Knossi, Jens Knossalla (SX7w8) – streamer and entertainer.", route: "beruehmte-knossi" },
     { version: "v2575", date: "2026-10-23", text: "Neues Porträt: Rudi Carrell (SX7w6) – Showmaster (Am laufenden Band, Rudis Tagesshow).", text_en: "New portrait: Rudi Carrell (SX7w6) – showmaster (Am laufenden Band, Rudis Tagesshow).", route: "beruehmte-rudi-carrell" },

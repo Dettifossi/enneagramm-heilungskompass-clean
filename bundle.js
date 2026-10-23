@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=311";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=312";
 import { psychogrammErklaerung } from "./data/psychogramme-erklaerung.js?v=2";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -35575,6 +35575,51 @@ const TEXTUMFANG_STAND = { datum: "16.10.2026", woerterMio: "1,9", normseiten: "
 // bei jedem neuen Praxistipp hier mitz\u00e4hlen.
 const PRAXISTIPPS_ANZAHL = 18;
 
+
+// Interne Übersicht (nicht verlinkt, nicht im Register): wo noch Porträts fehlen. Aufruf: #intern-luecken
+function internLueckenPage() {
+  const rub = [["Berühmte", BERUEHMT_PORTRAITS], ["Krankheit", KRANKHEITS_PORTRAITS], ["Kriminal", KRIMINAL_PORTRAITS]];
+  const codes = [];
+  for (let n = 1; n <= 9; n++) ["SE", "SO", "SX"].forEach(i => codes.push(i + n));
+  const zahl = {}, frau = {};
+  codes.forEach(c => { zahl[c] = [0, 0, 0]; frau[c] = [0, 0]; });
+  rub.forEach(([, arr], r) => arr.forEach(p => {
+    const m = /^(S[EOX][1-9])/.exec(p.subtyp || ""); if (!m || !zahl[m[1]]) return;
+    zahl[m[1]][r]++;
+    if (p.gender) { frau[m[1]][1]++; if (p.gender === "f" || p.gender === "w") frau[m[1]][0]++; }
+  }));
+  const summe = c => zahl[c][0] + zahl[c][1] + zahl[c][2];
+  const max = Math.max(...codes.map(summe));
+  const zelle = (v, m) => `<td style="text-align:center;padding:.28rem .3rem;background:color-mix(in srgb, var(--copper) ${Math.round(5 + 70 * v / m)}%, var(--paper));font-variant-numeric:tabular-nums;">${v}</td>`;
+  const maxR = [0, 1, 2].map(r => Math.max(...codes.map(c => zahl[c][r])));
+  const zeilen = codes.map(c => `<tr><td style="padding:.28rem .4rem;white-space:nowrap;font-weight:700;">${c}</td><td style="padding:.28rem .4rem;white-space:nowrap;color:var(--muted);">${_TQ_TIERE[c]}</td>${zelle(zahl[c][0], maxR[0])}${zelle(zahl[c][1], maxR[1])}${zelle(zahl[c][2], maxR[2])}${zelle(summe(c), max)}<td style="text-align:center;padding:.28rem .3rem;">${frau[c][1] ? Math.round(100 * frau[c][0] / frau[c][1]) + " %" : "–"}</td></tr>`).join("");
+  const wenig = codes.slice().sort((a, b) => summe(a) - summe(b)).slice(0, 8).map(c => `${c} (${_TQ_TIERE[c]}, ${summe(c)})`).join(" · ");
+  const wenigFrauen = codes.filter(c => frau[c][1] >= 10).sort((a, b) => frau[a][0] / frau[a][1] - frau[b][0] / frau[b][1]).slice(0, 8).map(c => `${c} (${Math.round(100 * frau[c][0] / frau[c][1])} %)`).join(" · ");
+  const ohneKrank = codes.filter(c => zahl[c][1] === 0).join(", ") || "keine";
+  const ohneKrimi = codes.filter(c => zahl[c][2] === 0).join(", ") || "keine";
+  const p = "font-family:system-ui,sans-serif;font-size:.85rem;color:var(--muted);margin:.4rem 0;";
+  return shell(`
+    ${pageHeader("library")}
+    <section class="narrow">
+      <p class="eyebrow">Intern</p>
+      <h1>Lücken-Radar</h1>
+      <p class="lead-small">Interne Übersicht für die Planung neuer Porträts. Diese Seite ist nirgends verlinkt und nicht im Register. Die Zahlen werden live aus den Porträt-Listen gezählt.</p>
+      <h2 style="font-size:1.1rem;font-weight:700;margin:2rem 0 .6rem;color:var(--ink);">Nächste Kandidaten</h2>
+      <p style="${p}"><strong>Wenigste Porträts insgesamt:</strong> ${wenig}</p>
+      <p style="${p}"><strong>Geringster Frauenanteil</strong> (ab 10 Porträts): ${wenigFrauen}</p>
+      <p style="${p}"><strong>Ohne Krankheitsporträt:</strong> ${ohneKrank}</p>
+      <p style="${p}"><strong>Ohne Kriminalporträt:</strong> ${ohneKrimi}</p>
+      <h2 style="font-size:1.1rem;font-weight:700;margin:2rem 0 .6rem;color:var(--ink);">Alle 27 Subtypen</h2>
+      <div style="overflow-x:auto;"><table style="border-collapse:collapse;width:100%;font-family:system-ui,sans-serif;font-size:.8rem;">
+        <thead><tr style="color:var(--muted);text-align:center;"><th style="text-align:left;padding:.3rem .4rem;">Subtyp</th><th style="text-align:left;padding:.3rem .4rem;">Tier</th><th>Berühmte</th><th>Krankheit</th><th>Kriminal</th><th>Gesamt</th><th>Frauen</th></tr></thead>
+        <tbody>${zeilen}</tbody>
+      </table></div>
+      <p style="${p}">Je dunkler die Zelle, desto mehr Porträts (Berühmte, Krankheit und Kriminal jeweils eigene Skala). Frauenanteil über alle drei Rubriken.</p>
+      ${relatedLinks([{route:"zahlen-fakten", label:"Der Kompass in Zahlen"}])}
+    </section>
+  `);
+}
+
 function zahlenFaktenPage() {
   const beruehmt = BERUEHMT_PORTRAITS.length;
   const krankheit = KRANKHEITS_PORTRAITS.length;
@@ -35669,6 +35714,11 @@ function zahlenFaktenPage() {
   });
   const _rubFarben = ["var(--copper)", "#6b8f71", "#a8553f"];
   const _rubBlocks = [1,2,3,4,5,6,7,8,9].map(n => `<div style="margin:.4rem 0 .7rem;"><div style="font-family:system-ui,sans-serif;font-size:.82rem;font-weight:700;color:var(--ink);">Typ ${n}</div>${_rubTyp.map(([c, tot], i) => _row(["Berühmte", "Krankheit", "Kriminal"][i], _pct(c[n] || 0, tot || 1), 25, _rubFarben[i], _pct(c[n] || 0, tot || 1) + " %")).join("")}</div>`).join("");
+
+  const _rowW = (label, v, max, color, shown, w) => `<div style="display:flex;align-items:center;gap:.6rem;margin:.18rem 0;font-family:system-ui,sans-serif;font-size:.8rem;"><span style="width:${w};color:var(--muted);white-space:nowrap;">${label}</span>${_bar(v, max, color)}<span style="width:2.4rem;text-align:right;font-variant-numeric:tabular-nums;">${shown}</span></div>`;
+  const _tierSort = Object.keys(_proSub).map(c => [_TQ_TIERE[c] + " (" + c + ")", _proSub[c]]).sort((a, b) => b[1] - a[1]);
+  const _tierMax = _tierSort[0][1];
+  const _tierBalken = _tierSort.map(([n, v]) => _rowW(n, v, _tierMax, "var(--copper)", v, "9.5rem")).join("");
   const _frauen = BERUEHMT_PORTRAITS.filter(p => p.gender === "f" || p.gender === "w").length;
   const _laender = new Set(BERUEHMT_PORTRAITS.map(p => p.land).filter(Boolean));
   const _deUsa = BERUEHMT_PORTRAITS.filter(p => p.land === "Deutschland" || p.land === "USA").length;
@@ -35683,6 +35733,16 @@ function zahlenFaktenPage() {
       <div style="font-family:system-ui,sans-serif;font-size:2.1rem;font-weight:800;color:var(--copper);line-height:1;font-variant-numeric:tabular-nums;">${num}</div>
       <div style="font-family:system-ui,sans-serif;font-size:.82rem;color:var(--muted);margin-top:.4rem;">${label}</div>
     </article>`;
+  setTimeout(() => {
+    const waitFor = key => new Promise(res => { const d = _LAZY_DATA[key]; if (!d || d.loaded) return res(); _prefetchData(key, res); });
+    Promise.race([Promise.all(["psychosomatik", "beziehungen", "situationskompass", "lebensmuster"].map(waitFor)), new Promise(r => setTimeout(r, 20000))]).then(() => {
+      const set = (id, n, label) => { const el = document.getElementById(id); if (el && n) el.innerHTML = statCard(n.toLocaleString("de-DE"), label); };
+      set("wz-psy", PSYCHOSOMATIK_KRANKHEITEN ? Object.keys(PSYCHOSOMATIK_KRANKHEITEN).length : 0, "Psychosomatik-Krankheitsbilder");
+      set("wz-bez", BEZIEHUNGS_PAARUNGEN ? BEZIEHUNGS_PAARUNGEN.length : 0, "Beziehungs-Paarungen");
+      set("wz-sit", SITUATIONSKOMPASS && SITUATIONSKOMPASS.situationen ? SITUATIONSKOMPASS.situationen.length : 0, "Alltagssituationen im Situationskompass");
+      set("wz-lmk", LEBENSMUSTERKOMPASS ? Object.values(LEBENSMUSTERKOMPASS).reduce((s, b) => s + ((b && b.fingerabdruecke) ? b.fingerabdruecke.length : 0), 0) : 0, "Lebensmuster-Fingerabdrücke");
+    });
+  }, 0);
   return shell(`
     ${pageHeader("library")}
     <section class="narrow">
@@ -35723,6 +35783,13 @@ function zahlenFaktenPage() {
       <h3 style="font-size:.95rem;font-weight:700;margin:1.6rem 0 .5rem;color:var(--ink);">Porträts je Subtyp (alle 27)</h3>
       <p style="font-family:system-ui,sans-serif;font-size:.78rem;color:var(--muted);margin:0 0 .6rem;"><span style="color:#6b8f71;">&#9632;</span> selbsterhaltend &nbsp; <span style="color:#c4a456;">&#9632;</span> sozial &nbsp; <span style="color:#a8553f;">&#9632;</span> sexuell</p>
       ${_subBalken}
+      <h3 style="font-size:.95rem;font-weight:700;margin:1.6rem 0 .5rem;color:var(--ink);">Porträts je Tier</h3>
+      <p style="font-family:system-ui,sans-serif;font-size:.78rem;color:var(--muted);margin:0 0 .6rem;">Jedem der 27 Subtypen ist ein Tier zugeordnet. Die Balken zeigen die Zahl der Porträts je Tier, über alle drei Rubriken.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.9rem;margin-bottom:.8rem;">
+        ${statCard(_tierSort[0][0], "Am häufigsten porträtiertes Tier")}
+        ${statCard(_tierSort[_tierSort.length - 1][0], "Am seltensten porträtiertes Tier")}
+      </div>
+      ${_tierBalken}
       <p style="font-family:system-ui,sans-serif;font-size:.75rem;color:var(--muted);margin-top:.6rem;">Live aus den Porträt-Listen gezählt. Die Verteilung spiegelt die Auswahl der Porträts wider, nicht die Häufigkeit der Typen in der Bevölkerung.</p>
 
             <h2 style="font-size:1.1rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Flügel-Verteilung</h2>
@@ -35748,6 +35815,19 @@ function zahlenFaktenPage() {
       <h2 style="font-size:1.1rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Die Rubriken im Vergleich</h2>
       <p style="font-family:system-ui,sans-serif;font-size:.85rem;color:var(--muted);margin:0 0 .6rem;">Anteil der Typen je Rubrik in Prozent. Die Zahlen bei Krankheits- und Kriminalporträts sind klein und beschreiben nur diese Auswahl. Sie sagen nichts darüber aus, welche Typen zu Krankheiten oder Straftaten neigen.</p>
       ${_rubBlocks}
+
+            <h2 style="font-size:1.1rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Wissensumfang</h2>
+      <p style="font-family:system-ui,sans-serif;font-size:.85rem;color:var(--muted);margin:0 0 .6rem;">Wie viel Inhalt neben den Porträts im Kompass steckt. Die Zahlen werden beim Öffnen aus den Daten gezählt, einige erscheinen einen Moment später.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.9rem;">
+        ${statCard(135, "Heilmittel-Zuordnungen<br><span style=\"font-weight:400;\">(27 Subtypen × 5 Systeme)</span>")}
+        ${statCard(27, "Tierprofile im Tierlexikon")}
+        ${statCard(27, "Kommunikationsprofile für die 27 Subtypen")}
+        <div id="wz-quiz">${statCard((window._quizData || []).length || "…", "Quizfragen")}</div>
+        <div id="wz-psy">${statCard("…", "Psychosomatik-Krankheitsbilder")}</div>
+        <div id="wz-bez">${statCard("…", "Beziehungs-Paarungen")}</div>
+        <div id="wz-sit">${statCard("…", "Alltagssituationen im Situationskompass")}</div>
+        <div id="wz-lmk">${statCard("…", "Lebensmuster-Fingerabdrücke")}</div>
+      </div>
 
       <h2 style="font-size:1.1rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Textumfang</h2>
       <div style="background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1.4rem 1.6rem;">
@@ -65458,6 +65538,7 @@ const ROUTES = {
     "praxistipps-heilpraktiker": praxistippsHeilpraktikerPage,
     library: libraryPage,
     "zahlen-fakten": zahlenFaktenPage,
+    "intern-luecken": internLueckenPage,
     knowledge: typesPage,
     types: typesPage,
     wissen: knowledgePage,

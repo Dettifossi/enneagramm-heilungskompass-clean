@@ -755,6 +755,11 @@ export const LEBENSMUSTERKOMPASS = {
         titel: "Transformation into a recognizable symbol – or a deliberate rejection of the safe territory for it",
         beschreibung: "At the end of the development often stands an instantly identifiable, iconic image. The path there often runs through a deliberate rejection of a safe but limiting option in favor of the open, visible field.",
         beleg: "Lagerfeld: 'He had turned himself into a symbol ... global, timeless'; Leibniz turned down a secure professorship because 'the cheetah doesn't stay in the protected territory of a single lecture hall'; Sean Connery's radical crossing of distance from milkman to James Bond; Teresa of Ávila, for whom the regular convent routine was not enough: 'She didn't just want to be a nun – she wanted to renew the order, visibly, tangibly, undeniably.'"
+      },
+      {
+        titel: "When the one bold leap and the controlled facade become a deadly staging (shadow form)",
+        beschreibung: "In the destructive form, exactly the same ability for the single, risky, publicly effective step and for the flawless outer facade becomes a tool of deception or violence – the decisive moment is not sought in sport or business but staged criminally.",
+        beleg: "Pedro Alonso López, 'the Monster of the Andes', whose targeted seduction and charismatic mask enabled at least 350 murders – success measured in victim numbers instead of records; Andrew Cunanan, for whom prestige and a flawless facade became the only content of life before he murdered his way across the USA within twelve days and finally killed Gianni Versace; Vincenzo Peruggia, who in 1911 stole the Mona Lisa from the Louvre in a single precise blow and kept it hidden for two years – patriotic staging instead of financial gain; Wade Wilson, for whom the courtroom itself became the last stage on which attention became the only currency. Important: these four cases are rare extreme forms, not a typical expression of SO3 in this Compass."
       }
     ]
   }
