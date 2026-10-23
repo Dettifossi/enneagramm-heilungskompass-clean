@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=314";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=315";
 import { psychogrammErklaerung } from "./data/psychogramme-erklaerung.js?v=2";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -17144,6 +17144,7 @@ const uiText = {
       { route: "montagmorgen-gedanken-9-typen", label: "„Montagmorgen-Gedanken“ der 9 Typen" },
       { route: "spirituelle-uebungen", label: "Spirituelle \xdcbungen" },
       { route: "tee-enneagramm", label: "Tees" },
+      { route: "yogi-tee-kompass", label: "Yogi-Tee-Kompass" },
       { route: "verantwortung", label: "Verantwortung" },
       { route: "wahre-freiheit", label: "Wahre Freiheit" },
       { route: "zentrale-fragen", label: "Zentrale Fragen" },
@@ -61724,6 +61725,7 @@ function teeEnneagrammPage() {
       </div>
 
       ${relatedLinks([
+        {route:"yogi-tee-kompass", label:"Yogi-Tee-Kompass"},
         {route:"aetherische-oele", label:"\xc4therische \xd6le"},
         {route:"edelsteine", label:"Edelsteine"},
         {route:"heilungsweg", label:"Heilungsweg"},
@@ -61731,6 +61733,77 @@ function teeEnneagrammPage() {
     </section>
   `);
 }
+
+// ── Yogi-Tee-Kompass: Yogi-Tea-Sorten für die 9 Typen und 27 Subtypen (Daten: data/yogitee.js) ──
+let YOGITEE = null;
+_LAZY_DATA.yogitee = { spec: "./data/yogitee.js", assign: m => { YOGITEE = m.YOGITEE; } };
+function yogiTeeKompassPage() {
+  { const _w = _needData("yogitee"); if (_w) return _w; }
+  const Y = YOGITEE.de;
+  const nr = parseInt((state.route.split("/")[1] || "")) || 0;
+  const tee = id => Y.tees.find(t => t.id === id);
+  const az = q => "https://www.amazon.de/s?k=" + encodeURIComponent(q) + "&tag=enneagrammkom-21";
+  const kauf = t => `<a href="${az(t.such)}" target="_blank" rel="noopener sponsored" style="display:inline-block;font-size:.82rem;font-weight:600;color:var(--copper);border:1px solid var(--line);border-radius:6px;padding:.3rem .7rem;text-decoration:none;">Bei Amazon ansehen (Werbelink)</a>`;
+  const karte = (t, warum) => `<div style="border:1px solid var(--line);border-radius:12px;padding:.9rem 1rem;background:var(--paper);">
+      <div style="font-weight:700;color:var(--ink);">${t.name}</div>
+      <div style="font-size:.78rem;color:var(--muted);margin:.15rem 0 .5rem;">${Y.fam[t.fam]} &middot; ${t.zutaten.slice(0, 5).join(", ")}</div>
+      ${warum ? `<p style="font-size:.9rem;line-height:1.6;margin:0 0 .6rem;">${warum}</p>` : ""}
+      ${kauf(t)}
+    </div>`;
+  const grid = inner => `<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:.8rem;margin:.8rem 0;">${inner}</div>`;
+  const h2 = txt => `<h2 style="font-size:1.1rem;font-weight:700;margin:2rem 0 .6rem;color:var(--ink);">${txt}</h2>`;
+  const hinweis = `<div style="margin:1.5rem 0 0;padding:1rem 1.2rem;background:color-mix(in srgb, var(--copper) 6%, var(--paper));border:1px solid var(--line);border-radius:10px;font-size:.84rem;line-height:1.65;color:var(--ink);">
+      <p style="margin:0 0 .5rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.04em;font-size:.78rem;">Wichtige Hinweise</p>
+      <p style="margin:0 0 .5rem;">Genuss und Ritual, keine Heilaussage: Dieser Kompass ist eine Anregung, welche Teemischung zur eigenen Art passen kann. Er ersetzt weder ärztliche oder heilpraktische Beratung noch eine Behandlung.</p><p style="margin:0 0 .5rem;">Süßholz steckt in vielen Sorten, bei hohem Blutdruck nicht in größeren Mengen trinken. Schwarztee, Grüntee, Weißer Tee, Mate und Guarana enthalten Koffein. In Schwangerschaft und Stillzeit, bei Medikamenten oder Beschwerden vorher Arzt oder Apotheker fragen, das gilt vor allem bei Baldrian, Echinacea, Salbei und Süßholz.</p><p style="margin:0;">Yogi Tea® ist eine Marke der Yogi Tea GmbH. Dies ist eine unabhängige Empfehlung ohne Verbindung zur Marke. Die Links sind Werbelinks (Amazon-Partnerprogramm). Zutaten laut Händlerangaben, Stand Oktober 2026: Rezepturen und Namen können sich ändern, verbindlich ist die Packung. In anderen Ländern heißen Sorten anders, so entspricht zum Beispiel Abendtee dem englischen Bedtime und Ingwer Orange Vanille dem Ginger Orange.</p></div>`;
+  let body = "";
+  if (nr >= 1 && nr <= 9) {
+    const T = Y.typen[nr];
+    const instinkte = [["Selbsterhaltend", "SE"], ["Sozial", "SO"], ["Sexuell", "SX"]];
+    body += `<button class="ghost-link" data-route="yogi-tee-kompass" style="margin:1.2rem 0 0;">&larr; Alle Typen</button>`;
+    body += `<h2 style="font-size:1.25rem;font-weight:700;margin:1rem 0 .3rem;color:var(--ink);">Typ ${nr} &ndash; ${T.anker}</h2><p class="vb-intro">${T.intro}</p>`;
+    body += grid(T.tees.map(x => karte(tee(x.id), x.warum)).join(""));
+    body += h2("Die drei Subtypen von Typ " + nr);
+    body += `<p style="font-size:.88rem;color:var(--muted);margin:0 0 .4rem;">Zur Typ-Empfehlung kommt der Instinkt dazu: Der selbsterhaltende Subtyp mag es warm, vertraut und ruhig, der soziale gern gemeinsam und gesellig, der sexuelle intensiv und würzig.</p>`;
+    body += instinkte.map(([name, pre]) => {
+      const code = "S" + (pre === "SE" ? "E" : pre.slice(1)) + nr;
+      const disp = pre === "SE" ? "SE" + nr : code;
+      const s = Y.sub[code];
+      const tier = _TQ_TIERE[disp] || "";
+      return `<div style="margin:1.2rem 0 0;"><h3 style="font-size:1rem;font-weight:700;margin:0 0 .3rem;color:var(--ink);">${disp} &middot; ${tier} <span style="font-weight:400;color:var(--muted);font-size:.85rem;">(${name})</span></h3><p style="font-size:.9rem;line-height:1.6;margin:0 0 .3rem;">${s.text}</p>${grid(s.tees.map(id => karte(tee(id))).join(""))}</div>`;
+    }).join("");
+  } else {
+    body += h2("Wähle deinen Typ");
+    body += `<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.8rem;">${[1,2,3,4,5,6,7,8,9].map(n => {
+      const T = Y.typen[n];
+      return `<button class="tool-card tool-card--link" data-route="yogi-tee-kompass/${n}"><span>Typ ${n}</span><h2>${T.anker}</h2><p>${T.tees.map(x => tee(x.id).name).join(" &middot; ")}</p><span class="tool-card__arrow">Ansehen &rarr;</span></button>`;
+    }).join("")}</div>`;
+  }
+  const alle = Y.tees.slice().sort((a, b) => a.name.localeCompare(b.name, "de"));
+  body += `<details style="margin:2.2rem 0 0;"><summary style="cursor:pointer;font-weight:700;color:var(--ink);">Alle Sorten im Überblick (${alle.length})</summary><ul style="list-style:none;padding:0;margin:.8rem 0 0;font-size:.86rem;line-height:1.6;">${alle.map(t => `<li style="padding:.5rem 0;border-bottom:1px solid var(--line);"><strong>${t.name}</strong> <span style="color:var(--muted);">&middot; ${Y.fam[t.fam]}</span><br><span style="color:var(--muted);">${t.zutaten.join(", ")}</span><br>${kauf(t)}</li>`).join("")}</ul></details>`;
+  return shell(`
+    ${pageHeader("tee-enneagramm")}
+    <section class="narrow">
+      <p class="eyebrow">Wissen &middot; Tee &amp; Enneagramm</p>
+      <h1>Der Yogi-Tee-Kompass</h1>
+      <p class="lead-small">Yogi Tea gibt es in über 50 Mischungen. Welche passt zu deinem Enneagrammtyp, welche zu deinem Subtyp? Der Kompass führt vom Typ über das passende Heilkraut zu konkreten Sorten.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.2rem;">
+        <img src="${R2_CDN}assets/schaubilder/yogi-tee/yogi-tee-hero.jpg" alt="Dampfende Teetasse mit Untertasse im Gegenlicht" class="psycho-img" loading="lazy" onerror="this.parentElement.style.display='none'" />
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
+        <p class="vb-intro">Die Zuordnung folgt zwei Schritten. Erst der Typ: Aus dem Heiltee-Kompass kommt zu jedem Typ ein Heilkraut (Melisse, Rose, Rosmarin, Weidenröschen, Haferkraut, Kamille, Pfefferminze, Ingwer, Fenchel). Dann werden Yogi-Mischungen gesucht, die dieses Kraut enthalten oder seine Stimmung treffen.</p>
+        <p class="vb-intro">Dann kommt der Subtyp: Er verschiebt die Wahl in Richtung seines Instinkts, also warm und vertraut (selbsterhaltend), gemeinsam und gesellig (sozial) oder intensiv und würzig (sexuell). So bekommt jeder der 27 Subtypen zwei eigene Vorschläge.</p>
+      </div>
+      ${body}
+      ${hinweis}
+      ${relatedLinks([
+        {route:"tee-enneagramm", label:"Tee &amp; Enneagramm"},
+        {route:"heiltees", label:"Heiltees"},
+        {route:"aetherische-oele", label:"Ätherische Öle"},
+      ])}
+    </section>
+  `);
+}
+
 
 // Psychogramm-Seite: Lerncomic-Bild (typ-N-comic.jpg auf R2) mit Umschalter zur klassischen Fassung.
 // Fehlt das Comic-Bild, bleibt die klassische Ansicht unverändert (kein Umschalter).
@@ -65555,6 +65628,7 @@ const ROUTES = {
     "wann-entsteht-der-typ": typEntstehungPage,
     "kroetenschlucken": kroetenschluckenPage,
     "tee-enneagramm": teeEnneagrammPage,
+    "yogi-tee-kompass": yogiTeeKompassPage,
     "aetherische-oele": aetherischeOelePage,
     "angst-essenz": angstEssenzPage,
     "edelsteine": edelsteinePage,
