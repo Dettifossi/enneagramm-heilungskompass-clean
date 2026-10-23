@@ -61743,7 +61743,7 @@ function yogiTeeKompassPage() {
   const nr = parseInt((state.route.split("/")[1] || "")) || 0;
   const tee = id => Y.tees.find(t => t.id === id);
   const az = q => "https://www.amazon.de/s?k=" + encodeURIComponent(q) + "&tag=enneagrammkom-21";
-  const kauf = t => `<a href="${az(t.such)}" target="_blank" rel="noopener sponsored" style="display:inline-block;font-size:.82rem;font-weight:600;color:var(--copper);border:1px solid var(--line);border-radius:6px;padding:.3rem .7rem;text-decoration:none;">Bei Amazon ansehen (Werbelink)</a>`;
+  const kauf = t => `<a href="${t.link || az(t.such)}" target="_blank" rel="noopener sponsored" style="display:inline-block;font-size:.82rem;font-weight:600;color:var(--copper);border:1px solid var(--line);border-radius:6px;padding:.3rem .7rem;text-decoration:none;">Bei Amazon ansehen (Werbelink)</a>`;
   const karte = (t, warum) => `<div style="border:1px solid var(--line);border-radius:12px;padding:.9rem 1rem;background:var(--paper);">
       <div style="font-weight:700;color:var(--ink);">${t.name}</div>
       <div style="font-size:.78rem;color:var(--muted);margin:.15rem 0 .5rem;">${Y.fam[t.fam]} &middot; ${t.zutaten.slice(0, 5).join(", ")}</div>
@@ -61785,14 +61785,14 @@ function yogiTeeKompassPage() {
     <section class="narrow">
       <p class="eyebrow">Wissen &middot; Tee &amp; Enneagramm</p>
       <h1>Der Yogi-Tee-Kompass</h1>
-      <p class="lead-small">Yogi Tea gibt es in über 50 Mischungen. Welche passt zu deinem Enneagrammtyp, welche zu deinem Subtyp? Der Kompass führt vom Typ über das passende Heilkraut zu konkreten Sorten.</p>
+      ${nr ? "" : `<p class="lead-small">Yogi Tea gibt es in über 50 Mischungen. Welche passt zu deinem Enneagrammtyp, welche zu deinem Subtyp? Der Kompass führt vom Typ über das passende Heilkraut zu konkreten Sorten.</p>
       <div class="psycho-img-wrap" style="margin-top:1.2rem;">
         <img src="${R2_CDN}assets/schaubilder/yogi-tee/yogi-tee-hero.jpg" alt="Dampfende Teetasse mit Untertasse im Gegenlicht" class="psycho-img" loading="lazy" onerror="this.parentElement.style.display='none'" />
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
         <p class="vb-intro">Die Zuordnung folgt zwei Schritten. Erst der Typ: Aus dem Heiltee-Kompass kommt zu jedem Typ ein Heilkraut (Melisse, Rose, Rosmarin, Weidenröschen, Haferkraut, Kamille, Pfefferminze, Ingwer, Fenchel). Dann werden Yogi-Mischungen gesucht, die dieses Kraut enthalten oder seine Stimmung treffen.</p>
         <p class="vb-intro">Dann kommt der Subtyp: Er verschiebt die Wahl in Richtung seines Instinkts, also warm und vertraut (selbsterhaltend), gemeinsam und gesellig (sozial) oder intensiv und würzig (sexuell). So bekommt jeder der 27 Subtypen zwei eigene Vorschläge.</p>
-      </div>
+      </div>`}
       ${body}
       ${hinweis}
       ${relatedLinks([
