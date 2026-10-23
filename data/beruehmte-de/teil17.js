@@ -2827,7 +2827,7 @@ export function volkerRosinPortraitPage() {
 
         <h2 class="vb-section">1. Der Schimpanse: der Junge, der Gitarre spielen wollte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Schimpanse</strong> ist beweglich, verspielt und mitten im Rudel. Volker Rosin wurde am 25. Februar 1956 in Rheinkamp geboren und zog 1969 mit dreizehn nach Minden. Er kam aus einfachen Verhältnissen: ›Als Arbeiterkind komme ich von ganz unten‹, sagt er. In der Schule galt er als Außenseiter, weil er täglich weit pendeln musste. Mit vierzehn lernte er sich Gitarre selbst bei und übte, bis die Finger wund waren. Seinen Antrieb beschreibt er mit einem Augenzwinkern: ›Ich wollte unbedingt Gitarre spielen, denn Gitarristen bekommen die besten Mädchen ab.‹</p>
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist beweglich, verspielt und mitten im Rudel. Volker Rosin wurde am 25. Februar 1956 in Rheinkamp geboren und zog 1969 mit dreizehn nach Minden. Er kam aus einfachen Verhältnissen: ›Als Arbeiterkind komme ich von ganz unten‹, sagt er. In der Schule galt er als Außenseiter, weil er täglich weit pendeln musste. Mit vierzehn brachte er sich Gitarre selbst bei und übte, bis die Finger wund waren. Seinen Antrieb beschreibt er mit einem Augenzwinkern: ›Ich wollte unbedingt Gitarre spielen, denn Gitarristen bekommen die besten Mädchen ab.‹</p>
           <p class="vb-intro">Er trat mit eigenen Songs und Protestliedern auf. Einmal endete ein Auftritt in einer Diskothek nach einer halben Stunde, er wurde für den Abbruch bezahlt: ›Das war die größte Pleite meines Lebens.‹</p>
         </blockquote>
 
