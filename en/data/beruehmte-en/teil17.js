@@ -917,6 +917,7 @@ export function katjaRiemannPortraitPage() {
         {route:"beruehmte-til-schweiger", label:"Portrait: Til Schweiger (SO4w3) – co-star in ‘Der bewegte Mann’"},
         {route:"beruehmte-byron-katie", label:"Portrait: Byron Katie (SX6w7)"},
         {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7)"},
+        {route:"beruehmte-dagi-bee", label:"Portrait: Dagi Bee (SX6w7)"},
       ])}
     </div>
   `);

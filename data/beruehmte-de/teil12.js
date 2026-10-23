@@ -2796,3 +2796,76 @@ export function wietskeVanTongerenPortraitPage() {
     </div>
   `);
 }
+
+
+export function dagiBeePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-dagi-bee-portrait.jpg" alt="Dagi Bee – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-dagi-bee-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Dagi Bee</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Deutsche YouTuberin und Unternehmerin, geb. 1994 &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf: das Mädchen aus Düsseldorf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> läuft im Rudel und stellt sich der Gefahr direkt. Dagi Bee, bürgerlich Dagmar Nicole Kazakov, geborene Ochmanczyk, wurde am 21. September 1994 in Düsseldorf geboren. Ihre Eltern stammen aus Kattowitz in Polen. Sie wuchs mit ihrer jüngeren Schwester Lena in Düsseldorf auf, machte das Fachabitur und absolvierte eine Ausbildung zur Industriekauffrau.</p>
+          <p class="vb-intro">Zu den Videos kam sie über einen anderen YouTuber: Sie trat zuerst in Videos von Liont auf, mit dem sie von 2011 bis 2015 zusammen war. Ihr erstes Video auf dem eigenen Kanal erschien am 6. Oktober 2012, der Kanal selbst war am 17. Juni 2012 gegründet worden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Klartext und Nähe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Sechs reagiert auf Angst, und Claudio Naranjo beschrieb die <strong>sexuelle Sechs (SX6)</strong> als den Kontratyp der Sechs: Sie begegnet der Unsicherheit mit Stärke, Direktheit und Nähe statt mit Rückzug. Bei Dagi Bee zeigt sich das in der Art, wie sie ihr Leben öffentlich teilte. Sie sprach in ihren Videos über Alltagsthemen, in der humorvollen Reihe ›Probleme …‹ und in Fragerunden mit ihren Zuschauern.</p>
+          <p class="vb-intro">Die Nähe wurde zum Format: Ihren zweiten Kanal gründete sie am 20. Juni 2014 unter dem Namen ›Dagi & Eugen‹ gemeinsam mit dem Filmeditor Eugen Kazakov, den sie im Juni 2018 heiratete. Im August 2020 gründeten die beiden das Musiklabel 23 Hours, im Dezember 2021 kam ihr Sohn zur Welt. Wer Beziehung und Familie so offen zeigt, lebt die Intensität der sexuellen Sechs: Nähe wird nicht versteckt, sondern gezeigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Spiel, Humor und Neugier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> bringt der Sechs Leichtigkeit, Neugier und Spaß am Ausprobieren. Bei Dagi Bee zeigt er sich im Inhalt ihrer Videos: Mode, Make-up, Haar- und Nageltutorials, Haul-Videos (Einkaufsvorführungen) und Fragerunden, dazu Humor und Selbstironie. Sie probierte sich auch außerhalb von YouTube aus: Sie spielte in den Kinofilmen ›Kartoffelsalat – Nicht fragen!‹ (2015), ›Fack ju Göhte 2‹ (2015) und ›Ostwind – Aufbruch nach Ora‹ (2017) mit und war von 2016 bis 2018 als ›Angie‹ in der Webserie ›Wishlist‹ zu sehen.</p>
+          <p class="vb-intro">Im März 2020 gewann sie in der Show ›Schlag den Star‹ gegen Jasmin Wagner, und 2026 nahm sie an der ›Jetski Star WM‹ auf RTL teil. Der Siebenerflügel schaut immer nach dem nächsten Spiel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Reichweite aus Vertrautheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dagi Bees Leistung liegt im Aufbau einer Reichweite, die auf Vertrautheit beruht. Ihr Hauptkanal hat nach der Wikipedia-Infobox mehr als 3,96 Millionen Abonnenten und über eine Milliarde Aufrufe. Sie baute ihn mit Inhalten auf, die Alltag und Persönlichkeit verbinden, nicht mit einer einzelnen Sensation. 2015 und 2016 gewann sie den Nickelodeon Kids' Choice Award als beliebteste deutschsprachige Videobloggerin, 2016 den Signsaward. Nominiert war sie für den Bravo Otto (2015) und den About You Award (2018).</p>
+          <p class="vb-intro">Dass die Videos eines Teenagers aus Düsseldorf in wenigen Jahren ein Millionenpublikum erreichten, war ein Zeichen einer neuen Generation von Medienschaffenden, die Produktion, Auftritt und Vermarktung selbst in der Hand hatten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Avril Lavigne und Katja Riemann</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Auch unter den SX6w7ern dieses Kompasses stehen Frauen, die früh in der Öffentlichkeit standen und dabei direkt blieben. <a href="#beruehmte-avril-lavigne">Avril Lavigne (SX6w7)</a> wurde schon als junge Sängerin bekannt. <a href="#beruehmte-katja-riemann">Katja Riemann (SX6w7)</a> ist Schauspielerin, bei der Direktheit und Neugier zusammenkommen.</p>
+          <p class="vb-intro">Der Unterschied: Lavigne und Riemann arbeiten in Musik und Film, Dagi Bee in einem Medium, das sie selbst mitgeprägt hat. Die Gemeinsamkeit: Klartext, Nähe und ein Publikum, das ihnen vertraut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sexuellen Sechs mit Siebenerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Offenheit und im Mut, sich zu zeigen, und in der Fähigkeit, Menschen zu binden, die sich in ihr wiederfinden. Wer als Jugendliche mit eigenen Videos beginnt und daraus ein Unternehmen formt, zeigt Eigeninitiative.</p>
+          <p class="vb-intro">Der Schatten dieser Kombination ist die Abhängigkeit vom Publikum: Wer sein Leben zum Inhalt macht, hat wenig Schutzraum, und Zuspruch und Kritik treffen die Person selbst. Die Sechs sucht Sicherheit in der Zugehörigkeit zu ihrer Community, und diese Sicherheit hängt an der Aufmerksamkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Kanal, Label, Familie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 23. Oktober 2026) ist Dagi Bee 32 Jahre alt, betreibt ihre Kanäle weiter und lebt mit Eugen Kazakov und dem gemeinsamen Sohn zusammen. Über ihre aktuellen Projekte liegen nur wenige verlässliche Angaben vor.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx6", label:"Lebensmusterkompass: SX6 – Wolf"},
+        {route:"beruehmte-avril-lavigne", label:"Porträt: Avril Lavigne (SX6w7)"},
+        {route:"beruehmte-katja-riemann", label:"Porträt: Katja Riemann (SX6w7)"},
+        {route:"beruehmte-uwe-ochsenknecht", label:"Porträt: Uwe Ochsenknecht (SX6w7)"},
+      ])}
+    </div>
+  `);
+}

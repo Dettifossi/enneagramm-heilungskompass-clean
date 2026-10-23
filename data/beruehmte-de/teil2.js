@@ -2780,6 +2780,7 @@ export function avrilLavignePortraitPage() {
         {route:"beruehmte-natalie-dormer", label:"Porträt: Natalie Dormer (SX6w5)"},
         {route:"beruehmte-bobby-fischer", label:"Porträt: Bobby Fischer (SX6w5)"},
         {route:"krankheitsportraets-avril-lavigne", label:"Krankheitsporträt: Avril Lavigne (SX6w7)"},
+        {route:"beruehmte-dagi-bee", label:"Porträt: Dagi Bee (SX6w7)"},
       ])}
     </div>
   `);

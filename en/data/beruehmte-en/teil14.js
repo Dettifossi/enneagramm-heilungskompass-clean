@@ -2844,3 +2844,76 @@ export function christianKohlundPortraitPage() {
     </div>
   `);
 }
+
+
+export function dagiBeePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-dagi-bee-portrait.jpg" alt="Dagi Bee – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-dagi-bee-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Dagi Bee</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">German YouTuber and entrepreneur, b. 1994 &ndash; Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Wolf: the girl from Düsseldorf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>wolf</strong> runs in a pack and faces danger directly. Dagi Bee, whose civil name is Dagmar Nicole Kazakov, born Ochmanczyk, was born on 21 September 1994 in Düsseldorf. Her parents come from Katowice in Poland. She grew up in Düsseldorf with her younger sister Lena, earned a Fachabitur (vocational baccalaureate) and completed training as an industrial clerk.</p>
+          <p class="vb-intro">She came to videos through another YouTuber: she first appeared in videos by Liont, with whom she was in a relationship from 2011 to 2015. Her first video on her own channel was published on 6 October 2012; the channel itself had been founded on 17 June 2012.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Six: plain speech and closeness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Six reacts to fear, and Claudio Naranjo described the <strong>sexual Six (SX6)</strong> as the countertype of the Six: it meets insecurity with strength, directness and closeness rather than withdrawal. In Dagi Bee this shows in the way she shared her life in public. In her videos she talked about everyday topics, in the humorous series &lsquo;Probleme …&rsquo; (&lsquo;Problems …&rsquo;) and in Q&amp;A sessions with her viewers.</p>
+          <p class="vb-intro">Closeness became a format: she founded her second channel on 20 June 2014 under the name &lsquo;Dagi &amp; Eugen&rsquo; together with the film editor Eugen Kazakov, whom she married in June 2018. In August 2020 the two founded the music label 23 Hours, and in December 2021 their son was born. Someone who shows relationship and family so openly lives the intensity of the sexual Six: closeness is not hidden but shown.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-wing: play, humour and curiosity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> brings the Six lightness, curiosity and delight in trying things out. In Dagi Bee it shows in the content of her videos: fashion, make-up, hair and nail tutorials, haul videos (shopping showcases) and Q&amp;A, with humour and self-irony. She also tried herself out beyond YouTube: she appeared in the films &lsquo;Kartoffelsalat – Nicht fragen!&rsquo; (&lsquo;Potato Salad – Don&rsquo;t Ask!&rsquo;, 2015), &lsquo;Fack ju Göhte 2&rsquo; (2015) and &lsquo;Ostwind – Aufbruch nach Ora&rsquo; (&lsquo;Windstorm – Departure to Ora&rsquo;, 2017) and was seen as &lsquo;Angie&rsquo; in the web series &lsquo;Wishlist&rsquo; from 2016 to 2018.</p>
+          <p class="vb-intro">In March 2020 she won the show &lsquo;Schlag den Star&rsquo; against Jasmin Wagner, and in 2026 she took part in the &lsquo;Jetski Star WM&rsquo; on RTL. The Seven-wing always looks for the next game.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: reach built on familiarity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dagi Bee&rsquo;s achievement lies in building a reach based on familiarity. According to the Wikipedia infobox her main channel has more than 3.96 million subscribers and over a billion views. She built it with content that combines everyday life and personality, not with a single sensation. In 2015 and 2016 she won the Nickelodeon Kids&rsquo; Choice Award as favourite German-speaking video blogger, and in 2016 the Signsaward. She was nominated for the Bravo Otto (2015) and the About You Award (2018).</p>
+          <p class="vb-intro">That the videos of a teenager from Düsseldorf reached an audience of millions within a few years was a sign of a new generation of media creators who held production, appearance and marketing in their own hands.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Avril Lavigne and Katja Riemann</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Among the SX6w7s in this Compass are also women who stood in public early and stayed direct. <a href="#beruehmte-avril-lavigne">Avril Lavigne (SX6w7)</a> became known as a young singer. <a href="#beruehmte-katja-riemann">Katja Riemann (SX6w7)</a> is an actress in whom directness and curiosity come together.</p>
+          <p class="vb-intro">The difference: Lavigne and Riemann work in music and film, Dagi Bee in a medium she helped to shape. What they share: plain speech, closeness and an audience that trusts them.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Six with a Seven-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in openness and the courage to show oneself, and in the ability to bind people who find themselves in her. Someone who begins with her own videos as a teenager and forms a company from them shows initiative.</p>
+          <p class="vb-intro">The shadow of this combination is dependence on the audience: someone who makes their life the content has little protected space, and praise and criticism hit the person herself. The Six seeks security in belonging to her community, and this security depends on attention.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: channel, label, family</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 23 October 2026) Dagi Bee is 32 years old, still runs her channels and lives with Eugen Kazakov and their son. Only little reliable information is available about her current projects.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"lebensmusterkompass/sx6", label:"Life Pattern Compass: SX6 – Wolf"},
+        {route:"beruehmte-avril-lavigne", label:"Portrait: Avril Lavigne (SX6w7)"},
+        {route:"beruehmte-katja-riemann", label:"Portrait: Katja Riemann (SX6w7)"},
+        {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
