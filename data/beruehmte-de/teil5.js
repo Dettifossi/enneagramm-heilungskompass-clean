@@ -2751,7 +2751,7 @@ export function heinzRudolfKunzePortraitPage() {
 
         <h2 class="vb-section">3. Der Siebenerflügel: Witz und Wortspiel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> bringt der Sechs Leichtigkeit, Neugier und Humor. Bei Kunze ist der Flügel schwächer ausgeprägt als der Kern, aber hörbar: Die Wortspiele, die ironische Brechung und die Lust am Sprachspiel sind seine Markenzeichen, schon seit den frühen Platten. Eines seiner Alben heißt ›Können vor Lachen‹ (2023). Er tritt als Schauspieler in Fernsehserien auf, darunter ›In aller Freundschaft‹, ›Großstadtrevier‹ und zwei ›Tatort‹-Folgen, und moderiert seit Juni 2020 den Podcast ›Durch die Brille gefragt‹.</p>
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> bringt der Sechs Leichtigkeit, Neugier und Humor. Bei Kunze ist der Flügel deutlich hörbar: Die Wortspiele, die ironische Brechung und die Lust am Sprachspiel sind seine Markenzeichen, schon seit den frühen Platten. Eines seiner Alben heißt ›Können vor Lachen‹ (2023). Er tritt als Schauspieler in Fernsehserien auf, darunter ›In aller Freundschaft‹, ›Großstadtrevier‹ und zwei ›Tatort‹-Folgen, und moderiert seit Juni 2020 den Podcast ›Durch die Brille gefragt‹.</p>
           <p class="vb-intro">Hinter dem Witz steht die Wachsamkeit der Sechs. Die Ironie hält Abstand, schützt vor zu viel Pathos und erlaubt, auch Ernstes zu sagen, ohne sich zu verraten. Die Siebenerseite zeigt sich in der Fülle: Mehr als 500 Lieder und nach eigener Angabe rund 13.000 Texte insgesamt.</p>
         </blockquote>
 

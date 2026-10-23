@@ -2813,7 +2813,7 @@ export function heinzRudolfKunzePortraitPage() {
 
         <h2 class="vb-section">3. The Seven-wing: wit and wordplay</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> brings the Six lightness, curiosity and humour. In Kunze the wing is weaker than the core, but audible: wordplay, ironic refraction and delight in language games are his trademarks, from the early records onward. One of his albums is called &lsquo;Können vor Lachen&rsquo; (&lsquo;Can&rsquo;t Stop Laughing&rsquo;, 2023). He appears as an actor in TV series, among them &lsquo;In aller Freundschaft&rsquo;, &lsquo;Großstadtrevier&rsquo; and two &lsquo;Tatort&rsquo; episodes, and has hosted the podcast &lsquo;Durch die Brille gefragt&rsquo; since June 2020.</p>
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> brings the Six lightness, curiosity and humour. In Kunze the wing is clearly audible: wordplay, ironic refraction and delight in language games are his trademarks, from the early records onward. One of his albums is called &lsquo;Können vor Lachen&rsquo; (&lsquo;Can&rsquo;t Stop Laughing&rsquo;, 2023). He appears as an actor in TV series, among them &lsquo;In aller Freundschaft&rsquo;, &lsquo;Großstadtrevier&rsquo; and two &lsquo;Tatort&rsquo; episodes, and has hosted the podcast &lsquo;Durch die Brille gefragt&rsquo; since June 2020.</p>
           <p class="vb-intro">Behind the wit stands the vigilance of the Six. Irony keeps distance, protects against too much pathos and allows serious things to be said without giving oneself away. The Seven side shows in abundance: more than 500 songs and, by his own account, around 13,000 texts in all.</p>
         </blockquote>
 

@@ -2759,7 +2759,7 @@ export function vickyLeandrosPortraitPage() {
 
         <h2 class="vb-section">3. The Two-wing: warmth and belonging</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> brings the Three warmth, attention and the need to be there for others. In Leandros it is weaker than the core but clearly recognisable in her work: she says she stands for diversity, tolerance, human dignity, human rights and internationality. In 2006 she ran for the Greek PASOK party in the municipal elections in Piraeus, won a seat and became deputy mayor and councillor for culture and international relations. On 28 May 2008 she resigned from all offices.</p>
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> brings the Three warmth, attention and the need to be there for others. In Leandros it is clearly recognisable in her work: she says she stands for diversity, tolerance, human dignity, human rights and internationality. In 2006 she ran for the Greek PASOK party in the municipal elections in Piraeus, won a seat and became deputy mayor and councillor for culture and international relations. On 28 May 2008 she resigned from all offices.</p>
           <p class="vb-intro">The warmth also shows in hospitality: in 2021 her cookbook &lsquo;Ein Hoch auf das Leben&rsquo; (&lsquo;A Toast to Life&rsquo;) appeared. That is the Two in practice: the Three shines, the Two invites.</p>
         </blockquote>
 
