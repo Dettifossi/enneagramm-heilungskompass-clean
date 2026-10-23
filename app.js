@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=315";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=316";
 import { psychogrammErklaerung } from "./data/psychogramme-erklaerung.js?v=2";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -17009,6 +17009,7 @@ const uiText = {
       { heading: "Enneagramm meets … (Heilkunde & Deutung)" },
       { route: "enneagramm-homoeopathie", label: "Enneagramm meets Homöopathie" },
       { route: "signaturenlehre-enneagramm-heilmittel", label: "Die 9 Enneagramm-Heilmittel & die Signaturenlehre" },
+      { route: "warum-nur-9-heilmittel", label: "Warum nur 9 Enneagramm-Heilmittel und nicht 27?" },
       { route: "enneagramm-reflexzonentherapie", label: "Enneagramm meets Reflexzonentherapie" },
       { route: "enneagramm-akupunktur", label: "Enneagramm meets Akupunktur" },
       { route: "enneagramm-handanalyse", label: "Enneagramm meets Handanalyse" },
@@ -48547,6 +48548,40 @@ function signaturenlehreEnneagrammHeilmittelPage() {
   `);
 }
 
+function warumNeunHeilmittelPage() {
+  const sec = (h, ps) => `<div class="vb-section" style="max-width:100%;margin-top:1.6rem;"><h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .7rem;color:var(--ink);">${h}</h2>${ps.map((p, i) => `<p class="vb-intro"${i ? ' style="margin-top:1rem;"' : ""}>${p}</p>`).join("")}</div>`;
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('warum-nur-9-heilmittel')}
+      <div class="page-content">
+        <button class="ghost-link" data-route="enneagramm-homoeopathie" style="margin-bottom:1.2rem;">← Zurück zu Enneagramm meets Homöopathie</button>
+        <p class="eyebrow">Wissen &middot; Enneagramm meets … (Heilkunde &amp; Deutung)</p>
+        <h1 class="section-title">Warum nur neun Enneagramm-Heilmittel &ndash; und nicht 27?</h1>
+        <div style="margin:1.2rem 0 1.8rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="${R2_CDN}assets/schaubilder/warum-nur-9-heilmittel/goethe-werther-de.jpg" alt="Johann Wolfgang von Goethe am Schreibtisch, darüber sein Satz aus »Die Leiden des jungen Werthers« über Leidenschaften und Elend" style="width:100%;display:block;" loading="lazy" />
+        </div>
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;"><p class="vb-intro">Das Enneagramm kennt 27 Subtypen, und dieser Kompass weist immer wieder darauf hin, wie wichtig sie sind. Warum gibt es in der Enneagramm-Homöopathie dann nur neun Heilmittel, je eines für jeden Typ, und nicht 27? Die Antwort: Die Subtypen entscheiden über die Diagnose. Das Mittel aber richtet sich nach der Leidenschaft, und davon gibt es nur neun.</p></blockquote>
+        ${sec("Die naheliegende Frage", ["Wer lange Homöopathie praktiziert, arbeitet nicht mit neun Mitteln, sondern mit dreißig, vierzig, fünfzig, hundert, fünfhundert oder mehr. Für solche Therapeuten ist es zunächst schwer vorstellbar, dass in der Enneagramm-Homöopathie je Typ ein einziges Mittel im Zentrum stehen soll. Sie fragen berechtigt: Müssten die 27 Subtypen nicht auch 27 verschiedene Mittel haben, so wie es für Tees und andere begleitende Empfehlungen verschiedene Vorschläge je Subtyp gibt?","Nach jahrzehntelanger Erfahrung lautet die Antwort trotzdem: Nein. Der Grund liegt in der Aufgabe, die die Subtypen und die Mittel jeweils erfüllen."])}
+        ${sec("Erst die Diagnose, dann die Therapie", ["Es gibt den alten Satz: Vor die Therapie haben die Götter die Diagnose gestellt. Genau dafür sind die 27 Subtypen da. Sie beschreiben, wie sich dasselbe Grundmuster im Leben zeigt, und nur mit diesem Wissen lässt sich ein Typ sicher bestimmen. Wer sie nicht berücksichtigt, kommt immer wieder zu Fehltypisierungen. Dieses Wissen ist deshalb unerlässlich.","Die Subtypen sind also keine Ausdrucksformen, die behandelt werden müssten. Sie sind das Werkzeug, um zu erkennen: Ist das ein Typ 7, ein Typ 2, ein Typ 5 oder ein Typ 9? Ist der Typ festgestellt, ist ihre diagnostische Aufgabe erfüllt."])}
+        ${sec("Warum danach nur ein Mittel je Typ", ["Das tiefwirkende homöopathische Mittel soll die Leidenschaft des Menschen in ein harmonisches Gleichgewicht bringen. Das geschieht nach dem Ähnlichkeitsprinzip der Homöopathie: Ähnliches wird durch Ähnliches geheilt, <em>Similia similibus curentur</em>. Entscheidend ist dabei: Es gibt nicht 27 Leidenschaften, sondern neun. Also gibt es auf dieser Ebene auch nur ein zentrales Mittel je Typ.","In der Homöopathie heißt ein gut passendes Mittel <em>Simile</em>. Gesucht wird aber immer das <em>Similimum</em>, das am besten passende Mittel. Es wird auf der Leidenschaftsebene gefunden. Um die neun Leidenschaften des Menschen nach der Enneagramm-Homöopathie ins Gleichgewicht zu bringen, genügen deshalb neun Mittel.","Auf der Ebene der Kernwunde gibt es gelegentlich Alternativen. Grundsätzlich aber setzt die Enneagramm-Homöopathie bei der Leidenschaft an."])}
+        ${sec("Leidenschaft heißt: Leiden schaffen", ["Schon Goethe hat es im »Werther« so gefragt: <em>&bdquo;Werden wir nicht durch eben die Leidenschaften, die uns das Glück zu machen schienen, in das grenzenlose Elend geführt?&ldquo;</em> Große Geister haben das immer erkannt. Das steckt schon im Wort: Eine Leidenschaft ist eine Eigenschaft, die Leiden schafft.","Heute klingt der Begriff meist positiv, etwa wenn jemand sagt, er habe eine Leidenschaft fürs Drachenfliegen. Früher, auch zu Goethes Zeit, wurde das Wort nicht umsonst im ursprünglichen Sinn verwendet. Im Enneagramm sind es die neun Leidenschaften, oft verborgen, die als tiefste erkennbare Ursache für das Leiden gelten: seelisch, geistig, körperlich. Sie prägen nicht nur den Blick eines Menschen auf die Welt und sein Menschsein, sondern auch sein Kranksein. Geraten sie aus dem Gleichgewicht, wird der Mensch auf Dauer krank.","Menschsein und Kranksein sind deshalb zwei Seiten derselben Münze: Was einen Menschen in seinem Wesen antreibt, prägt auch die Art, wie er krank wird."])}
+        ${sec("Eine Leidenschaft, viele Gesichter", ["Die Subtypen zeigen, wie dieselbe Leidenschaft im Alltag gelebt wird. Die Sieben zum Beispiel lebt ihre Völlerei als sexuelle Sieben in Begeisterung und Beziehung, als selbsterhaltende Sieben eher in materiellen Dingen, im Genuss. Auch das Energiefeld wirkt unterschiedlich: Die selbsterhaltenden Subtypen erscheinen meist geerdeter, oft ein wenig kindlich, manchmal sogar naiv. Die sexuellen wirken eher jugendlich, hitzig, die sozialen eher erwachsen, unabhängig vom Typ.","Ausnahmen bestätigen die Regel: Eine selbsterhaltende Eins wirkt nicht naiv, denn ihr Ansatzprinzip verträgt sich schlecht mit Naivität. Im Vergleich zur sozialen Eins, dem erwachsenen Typus, und zur sexuellen Eins mit ihrem hitzigen, jugendlichen Charakter erscheint sie aber relativ kindlich und unbedarft. Das ist die Oberfläche. Darunter liegt bei allen derselben Typs dieselbe Leidenschaft."])}
+        ${sec("Die Ursache behandeln, nicht das Symptom", ["Ein Bild dafür: Leuchtet im Auto die Ölwarnleuchte auf, fährt man nicht zur Werkstatt und sagt, bitte schrauben Sie mir die Warnleuchte heraus, damit ich weiterfahren kann. Man behandelt die Ursache dahinter. Genauso geht die Enneagramm-Homöopathie vor: Eine Verhaltensweise aus einem Instinkt heraus ist nicht die tiefste Ursache. Sie ist der Ausdruck der Leidenschaft.","Auch an der Symptomatik einer Erkrankung kann ein Enneagramm-Homöopath manchmal die Handschrift der Leidenschaft erkennen: Diese Erkrankung zeigt sich auf diese Weise, weil diese Leidenschaft des Patienten aus dem Gleichgewicht geraten ist. Deshalb muss die Leidenschaft ausgeglichen werden."])}
+        ${sec("Was damit nicht gemeint ist", ["Gemeint ist nicht, die Leidenschaft wegzutherapieren. Gemeint ist, sie durch das passende homöopathische Mittel nach dem Ähnlichkeitsprinzip in ein gesundes Gleichgewicht zu bringen, so wie es Hahnemann richtigerweise erkannt hatte. Nach dem Verständnis der Homöopathie geschieht Heilung dann gesetzmäßig, von innen nach außen.","Bei begleitenden Impulsen wie Tee, Mineralstoffen, Bachblüten, Edelsteinen oder ätherischen Ölen dagegen spielen die 27 Subtypen sehr wohl eine Rolle. Der Heilmittel-Kompass und der Yogi-Tee-Kompass berücksichtigen sie. Der Unterschied liegt im Anspruch: Dort geht es um passende Begleitung, beim konstitutionellen Mittel um die Leidenschaft."])}
+        <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+          <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Hinweis:</strong> Dieser Artikel beschreibt das Vorgehen der Enneagramm-Homöopathie und ersetzt keine ärztliche oder heilpraktische Beratung oder Behandlung.</p>
+        </div>
+        ${relatedLinks([
+          {route:"enneagramm-homoeopathie", label:"Enneagramm meets Homöopathie"},
+          {route:"yogi-tee-kompass", label:"Yogi-Tee-Kompass"},
+          {route:"leidenschaft-und-wunde", label:"Leidenschaft und Wunde"},
+          {route:"bedeutung-27-subtypen", label:"Warum die 27 Subtypen so wichtig sind"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function klassischeVsEnneagrammHomoeopathiePage() {
   return shell(`
     <div class="page-container">
@@ -65634,6 +65669,7 @@ const ROUTES = {
     "kroetenschlucken": kroetenschluckenPage,
     "tee-enneagramm": teeEnneagrammPage,
     "yogi-tee-kompass": yogiTeeKompassPage,
+    "warum-nur-9-heilmittel": warumNeunHeilmittelPage,
     "aetherische-oele": aetherischeOelePage,
     "angst-essenz": angstEssenzPage,
     "edelsteine": edelsteinePage,
