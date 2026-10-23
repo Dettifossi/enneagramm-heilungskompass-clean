@@ -2458,6 +2458,7 @@ export function madsMikkelsenPortraitPage() {
         {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
         {route:"beruehmte-kris-marshall", label:"Portrait: Kris Marshall (SX9w1)"},
         {route:"beruehmte-sophie-marceau", label:"Portrait: Sophie Marceau (SX9w1)"},
+        {route:"beruehmte-richy-mueller", label:"Portrait: Richy M\u00fcller (SX9w1)"},
       ])}
     </div>
   `);

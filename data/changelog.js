@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2591", date: "2026-10-23", text: "Neues Porträt: Richy Müller (SX9w1) – Schauspieler.", text_en: "New portrait: Richy Müller (SX9w1) – actor.", route: "beruehmte-richy-mueller" },
     { version: "v2590", date: "2026-10-23", text: "Neues Porträt: Dagi Bee (SX6w7) – YouTuberin und Unternehmerin.", text_en: "New portrait: Dagi Bee (SX6w7) – YouTuber and entrepreneur.", route: "beruehmte-dagi-bee" },
     { version: "v2589", date: "2026-10-23", text: "Neues Porträt: Viggo Mortensen (SX9w1) – Schauspieler, Regisseur und Künstler.", text_en: "New portrait: Viggo Mortensen (SX9w1) – actor, director and artist.", route: "beruehmte-viggo-mortensen" },
     { version: "v2588", date: "2026-10-23", text: "Neues Porträt: Jon-Erik Hexum (SX3w4) – Schauspieler.", text_en: "New portrait: Jon-Erik Hexum (SX3w4) – actor.", route: "beruehmte-jon-erik-hexum" },

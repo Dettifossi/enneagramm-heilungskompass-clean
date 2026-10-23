@@ -2209,6 +2209,7 @@ export function dustinHoffmanPortraitPage() {
         {route:"beruehmte-peter-maffay", label:"Portrait: Peter Maffay (SX9w1)"},
         {route:"beruehmte-stefan-homburg", label:"Portrait: Stefan Homburg (SX9w1)"},
         {route:"beruehmte-bruce-springsteen", label:"Portrait: Bruce Springsteen (SX9w1)"},
+        {route:"beruehmte-richy-mueller", label:"Portrait: Richy M\u00fcller (SX9w1)"},
       ])}
     </div>
   `);

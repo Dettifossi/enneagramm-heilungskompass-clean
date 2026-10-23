@@ -2810,3 +2810,76 @@ export function ulrichSelzPortraitPage() {
     </div>
   `);
 }
+
+
+export function richyMuellerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-richy-mueller-portrait.jpg" alt="Richy Müller – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-richy-mueller-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Richy Müller</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Schauspieler, geb. 1955 &ndash; Tatort Stuttgart &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier: der Werkzeugmacher aus Mannheim</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> bewegt sich ruhig, trägt viel und gibt sich nicht aus der Ruhe bringen. Richy Müller, bürgerlich Hans-Jürgen Müller, wurde am 26. September 1955 in Mannheim geboren und wuchs im Stadtteil Seckenheim auf. Er machte eine Ausbildung zum Werkzeugmacher, bevor er zur Schauspielerei kam.</p>
+          <p class="vb-intro">Zwei Jahre besuchte er die Schauspielschule Bochum und zog dann nach West-Berlin. 1979 gelang ihm der Durchbruch mit der Fernsehserie ›Die große Flatter‹, in der er einen jungen Mann in einer Berliner Obdachlosensiedlung spielte. Den Namen der Figur nahm er als Künstlernamen an.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: ruhige Präsenz und Verschmelzung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Neun sucht Frieden und Verbindung, und Claudio Naranjo beschrieb die <strong>sexuelle Neun (SX9)</strong> als den Subtyp der Vereinigung: Die Verschmelzung mit einer Person, einer Sache oder einer Aufgabe steht im Mittelpunkt, getragen von einer ruhigen, körperlichen Präsenz. Bei Richy Müller zeigt sich das im Motorsport. Er besitzt eine internationale C-Lizenz, fuhr von 2011 bis 2013 einen Porsche 911 GT3 im Porsche Cup und arbeitete 2011 und 2014 als Experte für Eurosport beim 24-Stunden-Rennen von Le Mans.</p>
+          <p class="vb-intro">Auch seine Rolle im Fernsehen zeigt diese Qualität: Seit 2008 spielt er im Stuttgarter ›Tatort‹ den Hauptkommissar Thorsten Lannert, gemeinsam mit Felix Klare als Sebastian Bootz. Das Duo arbeitet seit 2008 zusammen, ein Beispiel für die Beständigkeit der Neun. Er lebt am Chiemsee; seine Tochter ist die Journalistin Paulina Czienskowski.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Anstand und Verantwortung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der Neun Pflichtgefühl, Anstand und den Wunsch, etwas Richtiges zu tun. Bei Richy Müller zeigt er sich im sozialen Engagement: Er ist Botschafter von Arche IntensivKinder in Kusterdingen, einer Einrichtung für die intensivmedizinische Betreuung von Säuglingen und Kindern, und erhielt im Mai 2017 den Verdienstorden des Landes Baden-Württemberg für sein soziales Engagement. Auch die Ausbildung zum Werkzeugmacher, ein Beruf der Genauigkeit, passt zu einem Einserflügel.</p>
+          <p class="vb-intro">Der Kerntyp Neun ruht in sich, der Einserflügel sorgt dafür, dass das Handwerk stimmt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: vom rauen Typ zum Charakterdarsteller</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In den frühen Jahren spielte Müller oft raue, männliche Figuren, in Filmen wie ›Der Mann auf der Mauer‹ (1982), ›Das Arche Noah Prinzip‹ (1984) und ›Rosamunde‹ (1990). In den Achtzigern konzentrierte er sich vor allem auf das Theater, an der Freien Volksbühne Berlin (1986 bis 1988) und am Schauspiel Frankfurt (1989 bis 1990). Später zeigte er eine größere Bandbreite: als Milan Sova in ›xXx – Triple X‹ (2002), als Charly Wiesner in ›Die Affäre Semmeling‹ (2002) und als Verwalter in ›Poll‹ (2010), wofür er 2011 den Deutschen Filmpreis als bester Nebendarsteller erhielt.</p>
+          <p class="vb-intro">In ›Willkommen im Club‹ (2013) spielte er die Hauptrolle des Thilo Wagner. Seit 2012 moderiert er die n-tv-Reisereihe ›Das ist mein …‹. Die Substanz liegt in der Ruhe seiner Darstellung: Er braucht keine großen Gesten, damit eine Figur Gewicht bekommt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Dustin Hoffman und Keanu Reeves</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Auch unter den SX9w1ern dieses Kompasses stehen Schauspieler mit ruhiger, körperlicher Präsenz. <a href="#beruehmte-dustin-hoffman">Dustin Hoffman (SX9w1)</a> hat mit Richy Müller eine energetische Ähnlichkeit: dieselbe warme Bodenständigkeit unter einer Schicht Intensität. <a href="#beruehmte-keanu-reeves">Keanu Reeves (SX9w1)</a> spielt oft harte Typen, ist als Mensch aber ruhig und freundlich, wie Müller.</p>
+          <p class="vb-intro">Der Unterschied: Hoffman und Reeves wurden Weltstars, Müller blieb im deutschen Sprachraum. Die Gemeinsamkeit: Die Rolle des Harten ist eine Rolle, der Mensch dahinter ist ruhig.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sexuellen Neun mit Einserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Ruhe, in der Verlässlichkeit und in der Bereitschaft, sich für andere einzusetzen. Wer seit 2008 in derselben Rolle bleibt und gleichzeitig soziale Verantwortung übernimmt, zeigt die Stärke dieses Subtyps.</p>
+          <p class="vb-intro">Der Schatten dieser Kombination ist die Neigung, sich von Aufgaben und Rollen tragen zu lassen und eigene Konflikte zu vermeiden. Im April 2021 beteiligte er sich an der Aktion #allesdichtmachen und zog sein Video nach der Kontroverse zurück. Der Rückzug nach der Kontroverse passt zum Muster der Neun, Konflikte nicht auszutragen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Lannert, Chiemsee, Reisen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 23. Oktober 2026) ist Richy Müller 71 Jahre alt, spielt weiter den Kommissar Lannert im Stuttgarter ›Tatort‹ und lebt am Chiemsee.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx9", label:"Lebensmusterkompass: SX9 – Faultier"},
+        {route:"beruehmte-dustin-hoffman", label:"Porträt: Dustin Hoffman (SX9w1)"},
+        {route:"beruehmte-keanu-reeves", label:"Porträt: Keanu Reeves (SX9w1)"},
+        {route:"beruehmte-mads-mikkelsen", label:"Porträt: Mads Mikkelsen (SX9w1)"},
+      ])}
+    </div>
+  `);
+}

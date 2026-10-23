@@ -922,6 +922,7 @@ export function keanuReevesPortraitPage() {
         {route:"beruehmte-jane-goodall", label:"Porträt: Dr. Jane Goodall (SX9w1)"},
         {route:"beruehmte-kris-marshall", label:"Porträt: Kris Marshall (SX9w1)"},
         {route:"beruehmte-sophie-marceau", label:"Porträt: Sophie Marceau (SX9w1)"},
+        {route:"beruehmte-richy-mueller", label:"Porträt: Richy M\u00fcller (SX9w1)"},
       ])}
     </div>
   `);

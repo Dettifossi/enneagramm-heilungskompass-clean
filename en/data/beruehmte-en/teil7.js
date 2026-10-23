@@ -2782,3 +2782,76 @@ export function joshuaRichardsPortraitPage() {
     </div>
   `);
 }
+
+
+export function richyMuellerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-richy-mueller-portrait.jpg" alt="Richy Müller – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-richy-mueller-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Richy Müller</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">German actor, b. 1955 &ndash; Tatort Stuttgart &ndash; Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Sloth: the toolmaker from Mannheim</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sloth</strong> moves calmly, carries a great deal and does not let itself be thrown off balance. Richy Müller, whose civil name is Hans-Jürgen Müller, was born on 26 September 1955 in Mannheim and grew up in the Seckenheim district. He trained as a toolmaker before turning to acting.</p>
+          <p class="vb-intro">For two years he attended the Schauspielschule Bochum and then moved to West Berlin. In 1979 he made his breakthrough in the television series &lsquo;Die große Flatter&rsquo; (&lsquo;The Great Flutter&rsquo;), in which he played a young man in a Berlin homeless settlement. He took the character&rsquo;s name as his stage name.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Nine: calm presence and merging</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Nine seeks peace and connection, and Claudio Naranjo described the <strong>sexual Nine (SX9)</strong> as the subtype of union: merging with a person, a cause or a task is at the centre, carried by a calm, physical presence. In Richy Müller this shows in motorsport. He holds an international C licence, drove a Porsche 911 GT3 in the Porsche Cup from 2011 to 2013 and worked in 2011 and 2014 as an expert for Eurosport at the 24 Hours of Le Mans.</p>
+          <p class="vb-intro">His role on television also shows this quality: since 2008 he has played Chief Inspector Thorsten Lannert in the Stuttgart &lsquo;Tatort&rsquo;, together with Felix Klare as Sebastian Bootz. The duo has worked together since 2008, an example of the constancy of the Nine. He lives at Chiemsee; his daughter is the journalist Paulina Czienskowski.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-wing: decency and responsibility</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the Nine a sense of duty, decency and the wish to do the right thing. In Richy Müller it shows in his social commitment: he is an ambassador for Arche IntensivKinder in Kusterdingen, a facility for the intensive medical care of infants and children, and in May 2017 he received the Order of Merit of the State of Baden-Württemberg for his social commitment. His training as a toolmaker, a trade of precision, also fits a One-wing.</p>
+          <p class="vb-intro">The core type Nine rests in itself, the One-wing makes sure that the craft is right.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: from the rough type to the character actor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In his early years Müller often played rough, masculine characters, in films such as &lsquo;Der Mann auf der Mauer&rsquo; (&lsquo;The Man on the Wall&rsquo;, 1982), &lsquo;Das Arche Noah Prinzip&rsquo; (&lsquo;The Noah&rsquo;s Ark Principle&rsquo;, 1984) and &lsquo;Rosamunde&rsquo; (1990). In the eighties he focused mainly on the theatre, at the Freie Volksbühne Berlin (1986 to 1988) and the Schauspiel Frankfurt (1989 to 1990). Later he showed a greater range: as Milan Sova in &lsquo;xXx&rsquo; (2002), as Charly Wiesner in &lsquo;Die Affäre Semmeling&rsquo; (&lsquo;The Semmeling Affair&rsquo;, 2002) and as an estate manager in &lsquo;Poll&rsquo; (2010), for which he received the German Film Award for Best Supporting Actor in 2011.</p>
+          <p class="vb-intro">In &lsquo;Willkommen im Club&rsquo; (&lsquo;Welcome to the Club&rsquo;, 2013) he played the lead role of Thilo Wagner. Since 2012 he has hosted the n-tv travel series &lsquo;Das ist mein …&rsquo; (&lsquo;This Is My …&rsquo;). The substance lies in the calm of his performance: he does not need big gestures for a character to gain weight.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Dustin Hoffman and Keanu Reeves</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Among the SX9w1s in this Compass are also actors with a calm, physical presence. <a href="#beruehmte-dustin-hoffman">Dustin Hoffman (SX9w1)</a> has an energetic similarity with Richy Müller: the same warm down-to-earthness beneath a layer of intensity. <a href="#beruehmte-keanu-reeves">Keanu Reeves (SX9w1)</a> often plays hard men but is calm and friendly as a person, like Müller.</p>
+          <p class="vb-intro">The difference: Hoffman and Reeves became world stars, Müller stayed in the German-speaking world. What they share: the role of the hard man is a role, the person behind it is calm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Nine with a One-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in calm, reliability and the readiness to commit oneself for others. Someone who stays in the same role since 2008 and at the same time takes on social responsibility shows the strength of this subtype.</p>
+          <p class="vb-intro">The shadow of this combination is the tendency to let oneself be carried by tasks and roles and to avoid one&rsquo;s own conflicts. In April 2021 he took part in the #allesdichtmachen campaign and withdrew his video after the controversy. The retreat after the controversy fits the Nine&rsquo;s pattern of not fighting conflicts out.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: Lannert, Chiemsee, travels</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 23 October 2026) Richy Müller is 71 years old, still plays Inspector Lannert in the Stuttgart &lsquo;Tatort&rsquo; and lives at Chiemsee.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
+        {route:"lebensmusterkompass/sx9", label:"Life Pattern Compass: SX9 – Sloth"},
+        {route:"beruehmte-dustin-hoffman", label:"Portrait: Dustin Hoffman (SX9w1)"},
+        {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
+        {route:"beruehmte-mads-mikkelsen", label:"Portrait: Mads Mikkelsen (SX9w1)"},
+      ])}
+    </div>
+  `);
+}
