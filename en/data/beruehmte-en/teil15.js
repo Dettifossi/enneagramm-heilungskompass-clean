@@ -2778,8 +2778,8 @@ export function michaelGregerPortraitPage() {
         {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
         {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SP6 – Rabbit"},
         {route:"beruehmte-karl-lauterbach", label:"Portrait: Karl Lauterbach (SP6w5) – same subtype and wing"},
-        {route:"beruehmte-carlo-masala", label:"Porträt: Carlo Masala (SP6w5)"},
-        {route:"beruehmte-sundar-pichai", label:"Porträt: Sundar Pichai (SP6w5)"},
+        {route:"beruehmte-carlo-masala", label:"Portrait: Carlo Masala (SP6w5)"},
+        {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SP6w5)"},
       ])}
     </div>
   `);
@@ -2850,9 +2850,9 @@ export function heinzRudolfKunzePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
         {route:"lebensmusterkompass/so6", label:"Life Pattern Compass: SO6 – Meerkat"},
-        {route:"beruehmte-herbert-groenemeyer", label:"Porträt: Herbert Grönemeyer (SO6w7)"},
-        {route:"beruehmte-herfried-muenkler", label:"Porträt: Herfried Münkler (SO6w7)"},
-        {route:"beruehmte-wolfram-eilenberger", label:"Porträt: Wolfram Eilenberger (SO6w7)"},
+        {route:"beruehmte-herbert-groenemeyer", label:"Portrait: Herbert Grönemeyer (SO6w7)"},
+        {route:"beruehmte-herfried-muenkler", label:"Portrait: Herfried Münkler (SO6w7)"},
+        {route:"beruehmte-wolfram-eilenberger", label:"Portrait: Wolfram Eilenberger (SO6w7)"},
       ])}
     </div>
   `);

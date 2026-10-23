@@ -2679,8 +2679,8 @@ export function milanPeschelPortraitPage() {
         {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
         {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SP6 – Rabbit"},
         {route:"beruehmte-stringer-davis", label:"Portrait: Stringer Davis (SP6w5) – actor, same subtype and wing"},
-        {route:"beruehmte-franz-schubert", label:"Porträt: Franz Schubert (SP6w5)"},
-        {route:"beruehmte-sundar-pichai", label:"Porträt: Sundar Pichai (SP6w5)"},
+        {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SP6w5)"},
+        {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SP6w5)"},
       ])}
     </div>
   `);
@@ -2757,9 +2757,9 @@ export function rudiCarrellPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
         {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
-        {route:"beruehmte-johannes-heesters", label:"Porträt: Johannes Heesters (SX7w6)"},
-        {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
-        {route:"beruehmte-jerry-lewis", label:"Porträt: Jerry Lewis (SX7w6)"},
+        {route:"beruehmte-johannes-heesters", label:"Portrait: Johannes Heesters (SX7w6)"},
+        {route:"beruehmte-thomas-gottschalk", label:"Portrait: Thomas Gottschalk (SX7w6)"},
+        {route:"beruehmte-jerry-lewis", label:"Portrait: Jerry Lewis (SX7w6)"},
         {route:"beruehmte-atze-schroeder", label:"Portrait: Atze Schröder (SE7w6)"},
       ])}
     </div>

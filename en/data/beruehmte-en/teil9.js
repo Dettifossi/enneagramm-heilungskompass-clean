@@ -2722,8 +2722,8 @@ export function duncanHaldanePortraitPage() {
         {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
         {route:"lebensmusterkompass/se5", label:"Life Pattern Compass: SP5 – Owl"},
         {route:"beruehmte-stanley-mandelstam", label:"Portrait: Stanley Mandelstam (SP5w6) – physicist, same subtype and wing"},
-        {route:"beruehmte-charles-darwin", label:"Porträt: Charles Darwin (SP5w6)"},
-        {route:"beruehmte-carl-friedrich-gauss", label:"Porträt: Carl Friedrich Gauß (SP5w6)"},
+        {route:"beruehmte-charles-darwin", label:"Portrait: Charles Darwin (SP5w6)"},
+        {route:"beruehmte-carl-friedrich-gauss", label:"Portrait: Carl Friedrich Gauß (SP5w6)"},
       ])}
     </div>
   `);
@@ -2794,9 +2794,9 @@ export function vickyLeandrosPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
         {route:"lebensmusterkompass/sx3", label:"Life Pattern Compass: SX3 – Peacock"},
-        {route:"beruehmte-helene-fischer", label:"Porträt: Helene Fischer (SX3w2)"},
-        {route:"beruehmte-brigitte-bardot", label:"Porträt: Brigitte Bardot (SX3w2)"},
-        {route:"beruehmte-alice-weidel", label:"Porträt: Alice Weidel (SO1w9)"},
+        {route:"beruehmte-helene-fischer", label:"Portrait: Helene Fischer (SX3w2)"},
+        {route:"beruehmte-brigitte-bardot", label:"Portrait: Brigitte Bardot (SX3w2)"},
+        {route:"beruehmte-alice-weidel", label:"Portrait: Alice Weidel (SO1w9)"},
       ])}
     </div>
   `);

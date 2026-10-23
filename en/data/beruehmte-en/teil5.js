@@ -2731,9 +2731,9 @@ export function ulrichSelzPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
         {route:"lebensmusterkompass/so6", label:"Life Pattern Compass: SO6 – Meerkat"},
-        {route:"beruehmte-marta-manser", label:"Porträt: Prof. Dr. Marta Manser (SO6w5)"},
-        {route:"beruehmte-ulrich-ott", label:"Porträt: Dr. Ulrich Ott (SO6w5)"},
-        {route:"beruehmte-andreas-gruber", label:"Porträt: Andreas Gruber (SO6w5)"},
+        {route:"beruehmte-marta-manser", label:"Portrait: Prof. Dr. Marta Manser (SO6w5)"},
+        {route:"beruehmte-ulrich-ott", label:"Portrait: Dr. Ulrich Ott (SO6w5)"},
+        {route:"beruehmte-andreas-gruber", label:"Portrait: Andreas Gruber (SO6w5)"},
       ])}
     </div>
   `);
@@ -2804,9 +2804,9 @@ export function jonErikHexumPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
         {route:"lebensmusterkompass/sx3", label:"Life Pattern Compass: SX3 – Peacock"},
-        {route:"beruehmte-matthew-mcconaughey", label:"Porträt: Matthew McConaughey (SX3w4)"},
-        {route:"beruehmte-heidi-klum", label:"Porträt: Heidi Klum (SX3w4)"},
-        {route:"beruehmte-madonna", label:"Porträt: Madonna (SX3w4)"},
+        {route:"beruehmte-matthew-mcconaughey", label:"Portrait: Matthew McConaughey (SX3w4)"},
+        {route:"beruehmte-heidi-klum", label:"Portrait: Heidi Klum (SX3w4)"},
+        {route:"beruehmte-madonna", label:"Portrait: Madonna (SX3w4)"},
       ])}
     </div>
   `);

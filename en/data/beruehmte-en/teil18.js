@@ -2716,8 +2716,8 @@ export function geraldHoerhanPortraitPage() {
         {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
         {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SP6 – Rabbit"},
         {route:"beruehmte-woody-allen", label:"Portrait: Woody Allen (SP6w7) – same subtype and wing"},
-        {route:"beruehmte-katie-couric", label:"Porträt: Katie Couric (SP6w7)"},
-        {route:"beruehmte-heiko-maas", label:"Porträt: Heiko Maas (SP6w7)"},
+        {route:"beruehmte-katie-couric", label:"Portrait: Katie Couric (SP6w7)"},
+        {route:"beruehmte-heiko-maas", label:"Portrait: Heiko Maas (SP6w7)"},
         {route:"beruehmte-kevin-kuehnert", label:"Portrait: Kevin K\u00fchnert (SP6w7)"},
         {route:"beruehmte-thomas-schmelzer", label:"Portrait: Thomas Schmelzer (SP6w7)"},
       ])}
@@ -2789,9 +2789,9 @@ export function volkerRosinPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
         {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
-        {route:"beruehmte-jerry-lewis", label:"Porträt: Jerry Lewis (SX7w6)"},
-        {route:"beruehmte-horst-lichter", label:"Porträt: Horst Lichter (SX7w6)"},
-        {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
+        {route:"beruehmte-jerry-lewis", label:"Portrait: Jerry Lewis (SX7w6)"},
+        {route:"beruehmte-horst-lichter", label:"Portrait: Horst Lichter (SX7w6)"},
+        {route:"beruehmte-thomas-gottschalk", label:"Portrait: Thomas Gottschalk (SX7w6)"},
         {route:"beruehmte-johannes-heesters", label:"Portrait: Johannes Heesters (SX7w6)"},
         {route:"beruehmte-rolf-zuckowski", label:"Portrait: Rolf Zuckowski (SE4w3)"},
       ])}

@@ -2759,8 +2759,8 @@ export function johnTravoltaPortraitPage() {
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
         {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
         {route:"beruehmte-adriano-celentano", label:"Portrait: Adriano Celentano (SX7w8) – same subtype and wing"},
-        {route:"beruehmte-shakira", label:"Porträt: Shakira (SX7w8)"},
-        {route:"beruehmte-boris-becker", label:"Porträt: Boris Becker (SX7w8)"},
+        {route:"beruehmte-shakira", label:"Portrait: Shakira (SX7w8)"},
+        {route:"beruehmte-boris-becker", label:"Portrait: Boris Becker (SX7w8)"},
         {route:"beruehmte-christian-kohlund", label:"Portrait: Christian Kohlund (SX7w8)"},
         {route:"beruehmte-knossi", label:"Portrait: Knossi (Jens Knossalla) (SX7w8)"},
       ])}
@@ -2833,9 +2833,9 @@ export function atzeSchroederPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
         {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
-        {route:"beruehmte-rudi-carrell", label:"Porträt: Rudi Carrell (SX7w6)"},
-        {route:"beruehmte-jerry-lewis", label:"Porträt: Jerry Lewis (SX7w6)"},
-        {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
+        {route:"beruehmte-rudi-carrell", label:"Portrait: Rudi Carrell (SX7w6)"},
+        {route:"beruehmte-jerry-lewis", label:"Portrait: Jerry Lewis (SX7w6)"},
+        {route:"beruehmte-thomas-gottschalk", label:"Portrait: Thomas Gottschalk (SX7w6)"},
       ])}
     </div>
   `);

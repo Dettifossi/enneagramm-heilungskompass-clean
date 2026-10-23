@@ -2696,8 +2696,8 @@ export function thomasSchmelzerPortraitPage() {
         {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
         {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SP6 – Rabbit"},
         {route:"beruehmte-woody-allen", label:"Portrait: Woody Allen (SP6w7) – same subtype and wing"},
-        {route:"beruehmte-kevin-kuehnert", label:"Porträt: Kevin Kühnert (SP6w7)"},
-        {route:"beruehmte-gerald-hoerhan", label:"Porträt: Gerald Hörhan (SP6w7)"},
+        {route:"beruehmte-kevin-kuehnert", label:"Portrait: Kevin Kühnert (SP6w7)"},
+        {route:"beruehmte-gerald-hoerhan", label:"Portrait: Gerald Hörhan (SP6w7)"},
       ])}
     </div>
   `);
@@ -2774,9 +2774,9 @@ export function johannesHeestersPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
         {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
-        {route:"beruehmte-jerry-lewis", label:"Porträt: Jerry Lewis (SX7w6)"},
-        {route:"beruehmte-wietske-van-tongeren", label:"Porträt: Wietske van Tongeren (SX7w6)"},
-        {route:"beruehmte-volker-rosin", label:"Porträt: Volker Rosin (SX7w6)"},
+        {route:"beruehmte-jerry-lewis", label:"Portrait: Jerry Lewis (SX7w6)"},
+        {route:"beruehmte-wietske-van-tongeren", label:"Portrait: Wietske van Tongeren (SX7w6)"},
+        {route:"beruehmte-volker-rosin", label:"Portrait: Volker Rosin (SX7w6)"},
         {route:"beruehmte-rudi-carrell", label:"Portrait: Rudi Carrell (SX7w6)"},
       ])}
     </div>

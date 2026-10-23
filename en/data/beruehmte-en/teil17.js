@@ -2756,9 +2756,9 @@ export function andreasGruberPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
         {route:"lebensmusterkompass/so6", label:"Life Pattern Compass: SO6 – Meerkat"},
-        {route:"beruehmte-immanuel-kant", label:"Porträt: Immanuel Kant (SO6w5)"},
-        {route:"beruehmte-ulrich-ott", label:"Porträt: Dr. Ulrich Ott (SO6w5)"},
-        {route:"beruehmte-andy-reid", label:"Porträt: Andy Reid (SO6w5)"},
+        {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5)"},
+        {route:"beruehmte-ulrich-ott", label:"Portrait: Dr. Ulrich Ott (SO6w5)"},
+        {route:"beruehmte-andy-reid", label:"Portrait: Andy Reid (SO6w5)"},
         {route:"beruehmte-ulrich-selz", label:"Portrait: Dr. Ulrich Selz (SO6w5)"},
       ])}
     </div>

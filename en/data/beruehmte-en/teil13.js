@@ -2732,8 +2732,8 @@ export function carloMasalaPortraitPage() {
         {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
         {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SP6 – Rabbit"},
         {route:"beruehmte-karl-lauterbach", label:"Portrait: Karl Lauterbach (SP6w5) – same subtype and wing"},
-        {route:"beruehmte-sundar-pichai", label:"Porträt: Sundar Pichai (SP6w5)"},
-        {route:"beruehmte-malaika-mihambo", label:"Porträt: Malaika Mihambo (SP6w5)"},
+        {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SP6w5)"},
+        {route:"beruehmte-malaika-mihambo", label:"Portrait: Malaika Mihambo (SP6w5)"},
         {route:"beruehmte-michael-greger", label:"Portrait: Michael Greger (SP6w5)"},
       ])}
     </div>
@@ -2810,9 +2810,9 @@ export function knossiPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
         {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
-        {route:"beruehmte-ina-mueller", label:"Porträt: Ina Müller (SX7w8)"},
-        {route:"beruehmte-boris-becker", label:"Porträt: Boris Becker (SX7w8)"},
-        {route:"beruehmte-john-travolta", label:"Porträt: John Travolta (SX7w8)"},
+        {route:"beruehmte-ina-mueller", label:"Portrait: Ina Müller (SX7w8)"},
+        {route:"beruehmte-boris-becker", label:"Portrait: Boris Becker (SX7w8)"},
+        {route:"beruehmte-john-travolta", label:"Portrait: John Travolta (SX7w8)"},
       ])}
     </div>
   `);

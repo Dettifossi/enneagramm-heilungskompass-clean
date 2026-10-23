@@ -2702,8 +2702,8 @@ export function kevinKuehnertPortraitPage() {
         {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
         {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SP6 – Rabbit"},
         {route:"beruehmte-heiko-maas", label:"Portrait: Heiko Maas (SP6w7) – also SPD, same subtype and wing"},
-        {route:"beruehmte-gerald-hoerhan", label:"Porträt: Gerald Hörhan (SP6w7)"},
-        {route:"beruehmte-woody-allen", label:"Porträt: Woody Allen (SP6w7)"},
+        {route:"beruehmte-gerald-hoerhan", label:"Portrait: Gerald Hörhan (SP6w7)"},
+        {route:"beruehmte-woody-allen", label:"Portrait: Woody Allen (SP6w7)"},
         {route:"beruehmte-thomas-schmelzer", label:"Portrait: Thomas Schmelzer (SP6w7)"},
       ])}
     </div>
@@ -2775,9 +2775,9 @@ export function joshuaRichardsPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
         {route:"lebensmusterkompass/so8", label:"Life Pattern Compass: SO8 – Lion"},
-        {route:"beruehmte-bud-spencer", label:"Porträt: Bud Spencer (SO8w9)"},
-        {route:"beruehmte-gunter-gabriel", label:"Porträt: Gunter Gabriel (SO8w9)"},
-        {route:"beruehmte-mohammed", label:"Porträt: Mohammed (SO8w9)"},
+        {route:"beruehmte-bud-spencer", label:"Portrait: Bud Spencer (SO8w9)"},
+        {route:"beruehmte-gunter-gabriel", label:"Portrait: Gunter Gabriel (SO8w9)"},
+        {route:"beruehmte-mohammed", label:"Portrait: Mohammed (SO8w9)"},
       ])}
     </div>
   `);

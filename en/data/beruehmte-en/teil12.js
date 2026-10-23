@@ -2750,8 +2750,8 @@ export function wietskeVanTongerenPortraitPage() {
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
         {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
         {route:"beruehmte-caroline-peters", label:"Portrait: Caroline Peters (SX7w6) – actress, same subtype and wing"},
-        {route:"beruehmte-leonard-bernstein", label:"Porträt: Leonard Bernstein (SX7w6)"},
-        {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
+        {route:"beruehmte-leonard-bernstein", label:"Portrait: Leonard Bernstein (SX7w6)"},
+        {route:"beruehmte-thomas-gottschalk", label:"Portrait: Thomas Gottschalk (SX7w6)"},
         {route:"beruehmte-helene-spilling-odegaard", label:"Portrait: Helene Spilling \u00d8degaard (SX7w6)"},
         {route:"beruehmte-isabell-gerschke", label:"Portrait: Isabell Gerschke (SX7w6)"},
         {route:"beruehmte-johannes-heesters", label:"Portrait: Johannes Heesters (SX7w6)"},
@@ -2825,9 +2825,9 @@ export function christinaPlatePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
         {route:"lebensmusterkompass/sx3", label:"Life Pattern Compass: SX3 – Peacock"},
-        {route:"beruehmte-helene-fischer", label:"Porträt: Helene Fischer (SX3w2)"},
-        {route:"beruehmte-iris-berben", label:"Porträt: Iris Berben (SX3w2)"},
-        {route:"beruehmte-kai-pflaume", label:"Porträt: Kai Pflaume (SX3w2)"},
+        {route:"beruehmte-helene-fischer", label:"Portrait: Helene Fischer (SX3w2)"},
+        {route:"beruehmte-iris-berben", label:"Portrait: Iris Berben (SX3w2)"},
+        {route:"beruehmte-kai-pflaume", label:"Portrait: Kai Pflaume (SX3w2)"},
       ])}
     </div>
   `);

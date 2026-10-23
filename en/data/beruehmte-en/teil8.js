@@ -2780,8 +2780,8 @@ export function heleneSpillingOedegaardPortraitPage() {
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
         {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
         {route:"beruehmte-wietske-van-tongeren", label:"Portrait: Wietske van Tongeren (SX7w6) – musical performer, same subtype and wing"},
-        {route:"beruehmte-allie-sherlock", label:"Porträt: Allie Sherlock (SX7w6)"},
-        {route:"beruehmte-miley-cyrus", label:"Porträt: Miley Cyrus (SX7w6)"},
+        {route:"beruehmte-allie-sherlock", label:"Portrait: Allie Sherlock (SX7w6)"},
+        {route:"beruehmte-miley-cyrus", label:"Portrait: Miley Cyrus (SX7w6)"},
         {route:"beruehmte-isabell-gerschke", label:"Portrait: Isabell Gerschke (SX7w6)"},
       ])}
     </div>

@@ -2454,6 +2454,7 @@ export function madsMikkelsenPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype profile"},
+        {route:"beruehmte-viggo-mortensen", label:"Portrait: Viggo Mortensen (SX9w1)"},
         {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
         {route:"beruehmte-kris-marshall", label:"Portrait: Kris Marshall (SX9w1)"},
         {route:"beruehmte-sophie-marceau", label:"Portrait: Sophie Marceau (SX9w1)"},
@@ -2814,9 +2815,9 @@ export function isabellGerschkePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
         {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
-        {route:"beruehmte-caroline-peters", label:"Porträt: Caroline Peters (SX7w6)"},
-        {route:"beruehmte-helene-spilling-odegaard", label:"Porträt: Helene Spilling Ødegaard (SX7w6)"},
-        {route:"beruehmte-wietske-van-tongeren", label:"Porträt: Wietske van Tongeren (SX7w6)"},
+        {route:"beruehmte-caroline-peters", label:"Portrait: Caroline Peters (SX7w6)"},
+        {route:"beruehmte-helene-spilling-odegaard", label:"Portrait: Helene Spilling Ødegaard (SX7w6)"},
+        {route:"beruehmte-wietske-van-tongeren", label:"Portrait: Wietske van Tongeren (SX7w6)"},
       ])}
     </div>
   `);
@@ -2864,7 +2865,7 @@ export function viggoMortensenPortraitPage() {
 
         <h2 class="vb-section">5. Parallel in the same subtype: Peter Maffay and Bruce Springsteen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Among the SX9w1s in this Compass are also people who have held their bond to a cause over decades. <a href="#beruehmte-peter-maffay">Peter Maffay (SX9w1)</a> binds himself to music and to a social cause he has carried for decades. <a href="#beruehmte-bruce-springsteen">Bruce Springsteen (SX9w1)</a> stays true to his audience and origins and carries both into his work.</p>
+          <p class="vb-intro">Among the SX9w1s in this Compass are also people who have held their bond to a cause over decades. The closest affinity is with <a href="#beruehmte-mads-mikkelsen">Mads Mikkelsen (SX9w1)</a>: both are actors with northern European roots who build their presence on restraint rather than volume, and for both the role has a great deal to do with devotion and merging. <a href="#beruehmte-peter-maffay">Peter Maffay (SX9w1)</a> binds himself to music and to a social cause he has carried for decades. <a href="#beruehmte-bruce-springsteen">Bruce Springsteen (SX9w1)</a> stays true to his audience and origins and carries both into his work.</p>
           <p class="vb-intro">The difference: Maffay and Springsteen stay with one medium, Mortensen moves between film, poetry, painting, photography and music. What they share: a slow, faithful expansion instead of a plan.</p>
         </blockquote>
 
@@ -2887,9 +2888,9 @@ export function viggoMortensenPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
         {route:"lebensmusterkompass/sx9", label:"Life Pattern Compass: SX9 – Sloth"},
-        {route:"beruehmte-peter-maffay", label:"Porträt: Peter Maffay (SX9w1)"},
-        {route:"beruehmte-bruce-springsteen", label:"Porträt: Bruce Springsteen (SX9w1)"},
-        {route:"beruehmte-willie-nelson", label:"Porträt: Willie Nelson (SX9w1)"},
+        {route:"beruehmte-peter-maffay", label:"Portrait: Peter Maffay (SX9w1)"},
+        {route:"beruehmte-bruce-springsteen", label:"Portrait: Bruce Springsteen (SX9w1)"},
+        {route:"beruehmte-mads-mikkelsen", label:"Portrait: Mads Mikkelsen (SX9w1)"},
       ])}
     </div>
   `);
