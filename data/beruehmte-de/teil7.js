@@ -2698,3 +2698,76 @@ export function duncanHaldanePortraitPage() {
     </div>
   `);
 }
+
+
+export function sidneyLumetPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sidney-lumet-portrait.jpg" alt="Sidney Lumet – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-sidney-lumet-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Sidney Lumet</p>
+        <p class="krim-portrait-typ">SE5w4 &middot; Selbsterhaltender Typ 5 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Regisseur, 1924&ndash;2011 &ndash; Tierentsprechung: Eule</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Eule: das Kind aus dem jiddischen Theater</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Eule</strong> sieht im Dunkeln und beobachtet, bevor sie handelt. Sidney Lumet wurde am 25. Juni 1924 in Philadelphia geboren, als Sohn polnisch-jüdischer Eltern. Sein Vater Baruch Lumet war Schauspieler und Radioautor, seine Mutter Eugenia Wermus Schauspielerin. Als Kind stand er mit den Eltern im jiddischen Theater auf der Bühne und besuchte die Professional Children's School. 1935 debütierte er am Broadway in Sidney Kingsleys ›Dead End‹.</p>
+          <p class="vb-intro">Er studierte ein Semester an der Columbia University und diente ab 1942 rund drei Jahre in der US-Armee in Indien und Burma als Funk- und Radarspezialist. Wer das Theater von klein auf kennt und dann im Krieg mit Technik zu tun hat, lernt zwei Seiten kennen: die Bühne als Ort der Wirkung und das Handwerk als Ort der Sicherheit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Fünf: die Burg der Vorbereitung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Fünf zieht sich zurück, um zu verstehen, und Claudio Naranjo beschrieb die <strong>selbsterhaltende Fünf (SE5)</strong> als den Subtyp der Burg: Der Rückzug ist bewusst gebaut, er schützt den Raum, in dem man vorbereitet und sicher ist. Bei Lumet war diese Burg der Probenraum. Er probte vor dem Dreh mehrere Wochen mit den Schauspielern und brauchte beim Drehen selten mehr als zwei oder drei Aufnahmen. Er galt als Perfektionist und als sehr effizienter Filmemacher.</p>
+          <p class="vb-intro">1950 kam er über seinen Freund Yul Brynner zum Fernsehsender CBS und arbeitete eng mit dem Autor Reginald Rose zusammen. 1995 veröffentlichte er das Buch ›Making Movies‹ (deutsch: ›Filme machen‹, 2006), in dem er sein Handwerk beschrieb. Auch das ist typisch für die SE5: Wissen wird gesammelt, geordnet und weitergegeben, wenn es unangreifbar geworden ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Gewissen und Außenseiter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der Fünf Tiefe, Gefühl und einen Blick für Menschen am Rand. Bei Lumet zeigt er sich in der Themenwahl: Er drehte Justiz- und Polizeidramen, in denen es um Macht, Machtmissbrauch und Korruption geht. Seine Figuren sind oft Einzelne gegen ein System, ein Gewissen, das gegen die Bequemlichkeit der Mehrheit steht.</p>
+          <p class="vb-intro">Die Fünf liefert dazu das Handwerk, die Vier den moralischen Antrieb. Diese Mischung macht aus Lumets Filmen mehr als gut gebaute Dramen: Sie sind Prozesse des Abwägens.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Gerechtigkeit als Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lumets Spielfilmdebüt ›12 Angry Men‹ (1957) gewann den Goldenen Bären der Berlinale. Es folgten ›The Pawnbroker‹ (1964), ›Serpico‹ (1973), ›Murder on the Orient Express‹ (1974), ›Dog Day Afternoon‹ (1975), ›Network‹ (1976), ›Prince of the City‹ (1981), ›The Verdict‹ (1982) und zuletzt ›Before the Devil Knows You're Dead‹ (2007). Er wurde viermal für den Regie-Oscar nominiert, für ›12 Angry Men‹, ›Dog Day Afternoon‹, ›Network‹ und ›The Verdict‹, und einmal für das beste adaptierte Drehbuch (›Prince of the City‹, gemeinsam mit Jay Presson Allen). 2005 erhielt er den Ehrenoscar für sein Lebenswerk.</p>
+          <p class="vb-intro">Seine Besonderheit lag darin, dass er Spannung nicht aus Spektakel gewann, sondern aus Vorbereitung und Präzision: lange Proben, wenige Takes, ein geschützter Raum für die Schauspieler.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Franz Kafka und Xu Bing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Auch unter den SE5w4ern dieses Kompasses stehen Menschen, die über Macht und Sprache nachdenken. <a href="#beruehmte-franz-kafka">Franz Kafka (SE5w4)</a> beschrieb Apparate, in denen der Einzelne sich verliert, und Lumet zeigte, wie Menschen innerhalb solcher Apparate Gewissen beweisen. <a href="#beruehmte-xu-bing">Xu Bing (SE5w4)</a> arbeitet als Konzeptkünstler mit Zeichen und Schrift und baut ebenfalls aus Genauigkeit und Rückzug ein eigenes Werk.</p>
+          <p class="vb-intro">Der Unterschied: Kafka veröffentlichte zu Lebzeiten wenig, Xu Bing stellt aus, Lumet arbeitete für ein großes Publikum. Die Gemeinsamkeit: Die Welt wird zuerst verstanden und dann in eine Form gebracht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Fünf mit Viererflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Genauigkeit, in der Gründlichkeit und im Gewissen. Lumet hielt Arbeit und Anspruch über Jahrzehnte hoch, ohne laut zu werden.</p>
+          <p class="vb-intro">Der Schatten dieser Kombination ist der Preis im Privaten: Er war viermal verheiratet, die ersten drei Ehen endeten mit einer Scheidung. Die Burg, in der man vorbereitet und sicher ist, lässt anderen Menschen weniger Raum, als sie bräuchten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Sidney Lumet 1924 bis 2011</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sidney Lumet starb am 9. April 2011 im Alter von 86 Jahren an einem Lymphom in Manhattan, New York. Seine Tochter Jenny Lumet schrieb das Drehbuch zu ›Rachel Getting Married‹ (2008). Seine Filme gelten bis heute als Maßstab für das Genre des Justiz- und Polizeidramas.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se5", label:"Lebensmusterkompass: SE5 – Eule"},
+        {route:"beruehmte-franz-kafka", label:"Porträt: Franz Kafka (SE5w4)"},
+        {route:"beruehmte-xu-bing", label:"Porträt: Xu Bing (SE5w4)"},
+        {route:"beruehmte-robert-crumb", label:"Porträt: Robert Crumb (SE5w4)"},
+      ])}
+    </div>
+  `);
+}

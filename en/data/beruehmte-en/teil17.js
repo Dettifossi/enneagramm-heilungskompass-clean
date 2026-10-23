@@ -2764,3 +2764,76 @@ export function andreasGruberPortraitPage() {
     </div>
   `);
 }
+
+
+export function sidneyLumetPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sidney-lumet-portrait.jpg" alt="Sidney Lumet – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-sidney-lumet-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Sidney Lumet</p>
+        <p class="krim-portrait-typ">SP5w4 &middot; Self-Preservation Type 5 with Four-wing</p>
+        <p class="krim-portrait-subtitle">American film director, 1924&ndash;2011 &ndash; Animal correspondence: Owl</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Owl: the child from Yiddish theatre</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>owl</strong> sees in the dark and observes before it acts. Sidney Lumet was born on 25 June 1924 in Philadelphia, the son of Polish-Jewish parents. His father Baruch Lumet was an actor and radio writer, his mother Eugenia Wermus an actress. As a child he stood on stage with his parents in Yiddish theatre and attended the Professional Children&rsquo;s School. In 1935 he made his Broadway debut in Sidney Kingsley&rsquo;s &lsquo;Dead End&rsquo;.</p>
+          <p class="vb-intro">He studied for one semester at Columbia University and from 1942 served about three years in the US Army in India and Burma as a radio and radar specialist. Someone who knows the theatre from childhood and then works with technology in war learns two sides: the stage as a place of impact and craft as a place of safety.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Five: the castle of preparation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Five withdraws in order to understand, and Claudio Naranjo described the <strong>Self-Preservation Five (SP5)</strong> as the subtype of the castle: the retreat is consciously built, it protects the space in which one prepares and is safe. In Lumet this castle was the rehearsal room. Before shooting he rehearsed with the actors for several weeks and rarely needed more than two or three takes. He was regarded as a perfectionist and a very efficient filmmaker.</p>
+          <p class="vb-intro">In 1950 he came to the television network CBS through his friend Yul Brynner and worked closely with the writer Reginald Rose. In 1995 he published the book &lsquo;Making Movies&rsquo; (German edition &lsquo;Filme machen&rsquo;, 2006), in which he described his craft. This too is typical of the SP5: knowledge is collected, ordered and passed on once it has become unassailable.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: conscience and outsiders</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the Five depth, feeling and an eye for people on the margins. In Lumet it shows in his choice of themes: he made justice and police dramas about power, abuse of power and corruption. His characters are often individuals against a system, a conscience that stands against the comfort of the majority.</p>
+          <p class="vb-intro">The Five supplies the craft, the Four the moral drive. This mix makes Lumet&rsquo;s films more than well-built dramas: they are processes of weighing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: justice as craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lumet&rsquo;s feature debut &lsquo;12 Angry Men&rsquo; (1957) won the Golden Bear at the Berlin Film Festival. It was followed by &lsquo;The Pawnbroker&rsquo; (1964), &lsquo;Serpico&rsquo; (1973), &lsquo;Murder on the Orient Express&rsquo; (1974), &lsquo;Dog Day Afternoon&rsquo; (1975), &lsquo;Network&rsquo; (1976), &lsquo;Prince of the City&rsquo; (1981), &lsquo;The Verdict&rsquo; (1982) and finally &lsquo;Before the Devil Knows You&rsquo;re Dead&rsquo; (2007). He was nominated four times for the Oscar for Best Director, for &lsquo;12 Angry Men&rsquo;, &lsquo;Dog Day Afternoon&rsquo;, &lsquo;Network&rsquo; and &lsquo;The Verdict&rsquo;, and once for Best Adapted Screenplay (&lsquo;Prince of the City&rsquo;, shared with Jay Presson Allen). In 2005 he received the Honorary Oscar for lifetime achievement.</p>
+          <p class="vb-intro">His distinction lay in gaining tension not from spectacle but from preparation and precision: long rehearsals, few takes, a protected space for the actors.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Franz Kafka and Xu Bing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Among the SP5w4s in this Compass are also people who think about power and language. <a href="#beruehmte-franz-kafka">Franz Kafka (SP5w4)</a> described apparatuses in which the individual loses himself, and Lumet showed how people prove conscience inside such apparatuses. <a href="#beruehmte-xu-bing">Xu Bing (SP5w4)</a> works as a conceptual artist with signs and script and likewise builds his own oeuvre from precision and withdrawal.</p>
+          <p class="vb-intro">The difference: Kafka published little in his lifetime, Xu Bing exhibits, Lumet worked for a large audience. What they share: the world is first understood and then brought into a form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the Self-Preservation Five with a Four-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in precision, thoroughness and conscience. Lumet kept up work and standards for decades without becoming loud.</p>
+          <p class="vb-intro">The shadow of this combination is the price in private life: he was married four times, and the first three marriages ended in divorce. The castle in which one is prepared and safe leaves other people less room than they would need.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: Sidney Lumet, 1924 to 2011</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sidney Lumet died on 9 April 2011 at the age of 86 of lymphoma in Manhattan, New York. His daughter Jenny Lumet wrote the screenplay for &lsquo;Rachel Getting Married&rsquo; (2008). His films are still regarded as the benchmark of the legal and police drama.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
+        {route:"lebensmusterkompass/se5", label:"Life Pattern Compass: SP5 – Owl"},
+        {route:"beruehmte-franz-kafka", label:"Portrait: Franz Kafka (SP5w4)"},
+        {route:"beruehmte-xu-bing", label:"Portrait: Xu Bing (SP5w4)"},
+        {route:"beruehmte-robert-crumb", label:"Portrait: Robert Crumb (SP5w4)"},
+      ])}
+    </div>
+  `);
+}

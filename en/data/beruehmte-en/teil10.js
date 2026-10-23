@@ -1779,6 +1779,7 @@ export function robertCrumbPortraitPage() {
         {route:"beruehmte-franz-kafka", label:"Portrait: Franz Kafka (SP5w4)"},
         {route:"beruehmte-xu-bing", label:"Portrait: Xu Bing (SP5w4)"},
         {route:"beruehmte-christian-raetsch", label:"Portrait: Christian Rätsch (SP5w4)"},
+        {route:"beruehmte-sidney-lumet", label:"Portrait: Sidney Lumet (SE5w4)"},
       ])}
     </div>
   `);

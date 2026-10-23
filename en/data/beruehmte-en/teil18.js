@@ -527,6 +527,7 @@ export function franzKafkaPortraitPage() {
         {route:"beruehmte-robert-crumb", label:"Portrait: Robert Crumb (SP5w4)"},
         {route:"krankheitsportraets-franz-kafka", label:"Illness Portrait: Franz Kafka (SP5w4)"},
         {route:"beruehmte-ingo-zimmermann", label:"Portrait: Prof. Dr. Ingo Zimmermann (SP5w4)"},
+        {route:"beruehmte-sidney-lumet", label:"Portrait: Sidney Lumet (SE5w4)"},
         {route:"astrologie-franz-kafka", label:"Enneagram Meets Astrology: Franz Kafka (SP5w4)"},
       ])}
     </div>

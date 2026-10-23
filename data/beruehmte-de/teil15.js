@@ -1691,6 +1691,7 @@ export function xuBingPortraitPage() {
         {route:"beruehmte-franz-kafka", label:"Porträt: Franz Kafka (SE5w4)"},
         {route:"beruehmte-blaise-pascal", label:"Porträt: Blaise Pascal (SX5w6)"},
         {route:"beruehmte-robert-crumb", label:"Porträt: Robert Crumb (SE5w4)"},
+        {route:"beruehmte-sidney-lumet", label:"Porträt: Sidney Lumet (SE5w4)"},
       ])}
     </div>
   `);
