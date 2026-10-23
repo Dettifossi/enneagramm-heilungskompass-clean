@@ -2746,7 +2746,7 @@ export function rolfZuckowskiPortraitPage() {
         <h2 class="vb-section">3. Der Dreierflügel: Wirkung und Handwerk</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> bringt der Vier Ehrgeiz, Zielstrebigkeit und das Gespür dafür, wie etwas wirkt. Bei Zuckowski ist der Flügel deutlich erkennbar: Er ist Diplom-Betriebswirt, hat in der Verlagsbranche gearbeitet und versteht Musik als Produkt, das ankommen muss. Mit mehr als 20 Millionen verkauften Tonträgern gehört er laut Wikipedia zu den erfolgreichsten deutschen Künstlern. 1982 stand er mit ›… und ganz doll mich‹ auf Platz 1 der ZDF-Hitparade, 1984 trug ihn das Guinness-Buch der Rekorde für das ›längste Lied der Welt‹ ein, dessen Zeilen Kinder selbst getextet hatten.</p>
-          <p class="vb-intro">Die Dreier-Seite zeigt sich auch im Auftritt: Das Lied ›In der Weihnachtsbäckerei‹ wurde 1987 in der Show ›Wetten, dass..?‹ vorgestellt und wurde zum Dauerbrenner, den bis heute viele Familien kennen. Die Vier gibt dem Ganzen den Ton, die Drei sorgt dafür, dass er gehört wird.</p>
+          <p class="vb-intro">Die Dreier-Seite zeigt sich auch im Auftritt: Das Lied ›In der Weihnachtsbäckerei‹ wurde 1987 in der Show ›Wetten, dass..?‹ vorgestellt und wurde zum Dauerbrenner, den bis heute viele Familien kennen. Der Kerntyp Vier gibt dem Ganzen den Ton, der Dreierflügel sorgt dafür, dass er gehört wird.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: Lieder, in denen Kinder ernst genommen werden</h2>

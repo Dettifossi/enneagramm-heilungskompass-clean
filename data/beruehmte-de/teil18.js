@@ -2823,7 +2823,7 @@ export function christinaPlatePortraitPage() {
         <h2 class="vb-section">3. Der Zweierflügel: Wärme und Zuwendung</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> bringt der Drei Herzlichkeit, Hilfsbereitschaft und den Wunsch, gebraucht zu werden. Bei Plate ist er in der Rollenwahl deutlich zu sehen: Ihre Serienfiguren stammen aus dem Umfeld von Arztpraxis, Familie und Polizeiarbeit, aus Rollen, in denen man sich um andere kümmert. Von 2004 bis 2011 war sie die weibliche Hauptfigur der ARD-Serie ›Familie Dr. Kleist‹ (52 Folgen), 2015 und 2016 spielte sie in ›SOKO Köln‹ die Hauptkommissarin Nina Jacobs (24 Folgen).</p>
-          <p class="vb-intro">Im Januar 2011 kündigte sie an, ihre Schauspielkarriere einzuschränken, und verließ die Serie. Die Nähe zur Familie hat seitdem Vorrang. Das ist der Zweierflügel in der Praxis: Die Drei steht für den Erfolg, die Zwei für den Menschen, der dafür da ist.</p>
+          <p class="vb-intro">Im Januar 2011 kündigte sie an, ihre Schauspielkarriere einzuschränken, und verließ die Serie. Die Nähe zur Familie hat seitdem Vorrang. Der Kerntyp Drei steht für den Erfolg, der Zweierflügel für den Menschen, der dafür da ist.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: Verlässlichkeit vor der Kamera</h2>

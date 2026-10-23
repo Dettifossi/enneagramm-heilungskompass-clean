@@ -2791,7 +2791,7 @@ export function christinaPlatePortraitPage() {
         <h2 class="vb-section">3. The Two-wing: warmth and care</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Two-wing (w2)</strong> brings the Three warmth, helpfulness and the wish to be needed. In Plate it is clearly visible in her choice of roles: her series characters come from the world of the doctor&rsquo;s practice, family and police work, roles in which one cares for others. From 2004 to 2011 she was the female lead of the ARD series &lsquo;Familie Dr. Kleist&rsquo; (&lsquo;The Kleist Family Doctor&rsquo;, 52 episodes), and in 2015 and 2016 she played Chief Inspector Nina Jacobs in &lsquo;SOKO Köln&rsquo; (24 episodes).</p>
-          <p class="vb-intro">In January 2011 she announced that she would scale back her acting career and left the series. Closeness to her family has taken priority since. That is the Two-wing in practice: the Three stands for success, the Two for the person who is there for others.</p>
+          <p class="vb-intro">In January 2011 she announced that she would scale back her acting career and left the series. Closeness to her family has taken priority since. The core type Three stands for success, the Two-wing for the person who is there for others.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The substance: reliability in front of the camera</h2>

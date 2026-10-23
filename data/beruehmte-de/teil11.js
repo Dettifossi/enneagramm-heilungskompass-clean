@@ -2793,7 +2793,7 @@ export function vickyLeandrosPortraitPage() {
         <h2 class="vb-section">3. Der Zweierflügel: Herzlichkeit und Zugehörigkeit</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> bringt der Drei Wärme, Zuwendung und das Bedürfnis, für andere da zu sein. Bei Leandros ist er in ihrem Wirken deutlich zu erkennen: Sie sagt von sich, sie stehe für Vielfalt, Toleranz, Menschenwürde, Menschenrechte und Internationalität. 2006 trat sie für die griechische PASOK bei den Kommunalwahlen in Piräus an, gewann ein Mandat und wurde Vizebürgermeisterin und Stadträtin für Kultur und internationale Beziehungen. Am 28. Mai 2008 trat sie von allen Ämtern zurück.</p>
-          <p class="vb-intro">Die Wärme zeigt sich auch im Gastgeberischen: 2021 erschien ihr Kochbuch ›Ein Hoch auf das Leben‹. Das ist die Zwei in der Praxis: Die Drei strahlt, die Zwei lädt ein.</p>
+          <p class="vb-intro">Die Wärme zeigt sich auch im Gastgeberischen: 2021 erschien ihr Kochbuch ›Ein Hoch auf das Leben‹. Der Kerntyp Drei strahlt, der Zweierflügel lädt ein.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: Stimme, Sprachen, Ausdauer</h2>
