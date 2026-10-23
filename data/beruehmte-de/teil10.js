@@ -2264,6 +2264,7 @@ export function enricoCarusoPortraitPage() {
         {route:"beruehmte-maria-callas", label:"Porträt: Maria Callas (SE3w2)"},
         {route:"beruehmte-michael-mina", label:"Porträt: Michael Mina (SE3w2)"},
         {route:"beruehmte-wim-thoelke", label:"Porträt: Wim Thoelke (SE3w4)"},
+        {route:"beruehmte-hong-chau", label:"Porträt: Hong Chau (SE3w2)"},
       ])}
     </div>
   `);

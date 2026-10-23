@@ -3877,6 +3877,7 @@ export function susanPolgarPortraitPage() {
         {route:"beruehmte-judit-polgar", label:"Porträt: Judit Polgár (SE3w4) – Schwester, derselbe Subtyp mit anderem Flügel"},
         {route:"beruehmte-andre-agassi", label:"Porträt: Andre Agassi (SE3w2) – Leistungssportler, später Förderer der Bildung"},
         {route:"beruehmte-sofia-polgar", label:"Porträt: Sofia Polgár (SE7w6) – mittlere Schwester, anderer Subtyp"},
+        {route:"beruehmte-hong-chau", label:"Porträt: Hong Chau (SE3w2)"},
       ])}
     </div>
   `);

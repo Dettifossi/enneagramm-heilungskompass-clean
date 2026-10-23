@@ -3868,6 +3868,7 @@ export function susanPolgarPortraitPage() {
         {route:"beruehmte-judit-polgar", label:"Portrait: Judit Polgár (SP3w4) – sister, same subtype with a different wing"},
         {route:"beruehmte-andre-agassi", label:"Portrait: Andre Agassi (SP3w2) – top athlete, later patron of education"},
         {route:"beruehmte-sofia-polgar", label:"Portrait: Sofia Polgár (SP7w6) – middle sister, different subtype"},
+        {route:"beruehmte-hong-chau", label:"Portrait: Hong Chau (SE3w2)"},
       ])}
     </div>
   `);

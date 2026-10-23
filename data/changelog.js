@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2594", date: "2026-10-24", text: "Neues Porträt: Hong Chau (SE3w2) – Schauspielerin.", text_en: "New portrait: Hong Chau (SP3w2) – actress.", route: "beruehmte-hong-chau" },
     { version: "v2593", date: "2026-10-24", text: "Neues Porträt: Lance Oppenheim (SO7w6) – Dokumentarfilmer.", text_en: "New portrait: Lance Oppenheim (SO7w6) – documentary filmmaker.", route: "beruehmte-lance-oppenheim" },
     { version: "v2592", date: "2026-10-24", text: "Neues Porträt: Bradley Cooper (SO1w2) – Schauspieler und Regisseur.", text_en: "New portrait: Bradley Cooper (SO1w2) – actor and director.", route: "beruehmte-bradley-cooper" },
     { version: "v2591", date: "2026-10-23", text: "Neues Porträt: Richy Müller (SX9w1) – Schauspieler.", text_en: "New portrait: Richy Müller (SX9w1) – actor.", route: "beruehmte-richy-mueller" },

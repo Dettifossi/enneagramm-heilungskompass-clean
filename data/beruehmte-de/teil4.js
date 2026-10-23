@@ -2831,3 +2831,76 @@ export function rudiCarrellPortraitPage() {
     </div>
   `);
 }
+
+
+export function hongChauPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-hong-chau-portrait.jpg" alt="Hong Chau – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-hong-chau-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Hong Chau</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanische Schauspielerin, geb. 1979 &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär: das Kind aus dem Flüchtlingslager</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> arbeitet mit ruhigen Pfoten und wachen Augen, unauffällig und gründlich. Hong Chau wurde am 25. Juni 1979 in einem Flüchtlingslager in Thailand geboren, als Tochter vietnamesischer Eltern. Die Familie war im selben Jahr per Boot aus Vietnam geflohen, ihre Mutter war damals etwa im sechsten Monat schwanger. Eine vietnamesische katholische Kirche in New Orleans übernahm die Patenschaft für den Umzug in die USA.</p>
+          <p class="vb-intro">Sie wuchs in New Orleans East auf und besuchte die Louisiana School for Math, Science, and the Arts in Natchitoches. Ihre Eltern wurden als asiatische Migranten oft ausgegrenzt, sie arbeiteten zuerst als Tellerwäscher und führten später einen Laden für den täglichen Bedarf. 2001 schloss sie mit Hilfe von Pell Grants (staatlichen Stipendien) ein Studium der Filmwissenschaft an der Boston University ab, nachdem sie zuerst Kreatives Schreiben studiert hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Können statt Glänzen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Drei strebt nach Erfolg, und die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei, den Claudio Naranjo ›Sicherheit‹ nannte: Sie zeigt ihre Leistung nicht auf der Bühne vor, sondern baut Substanz und Sicherheit auf. Bei Hong Chau zeigt sich das im Weg zur Schauspielerei: Nach dem Studium arbeitete sie für den Sender PBS, besuchte Kurse in Vortragskunst und Improvisation und zog dann nach Los Angeles. Ab 2006 spielte sie in Film und Fernsehen, in Gastrollen bei ›NCIS‹ und ›How I Met Your Mother‹ und in einer Hauptrolle in ›Trenches‹, von 2010 bis 2013 als Linh in ›Treme‹.</p>
+          <p class="vb-intro">Ihr Spielfilmdebüt hatte sie 2014 in ›Inherent Vice‹, danach bekam sie rund zwei Jahre lang kein Vorsprechen für einen weiteren Film. Sie hat also lange im Verborgenen gearbeitet, bevor ihr Name bekannt wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Zuwendung und Dienst an der Rolle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der Drei Wärme, Zuwendung und die Bereitschaft, anderen zu dienen. Bei Hong Chau zeigt er sich in der Haltung gegenüber ihrer Arbeit: Sie gibt Regisseuren nach der Wikipedia-Seite ›a wide range of line readings and reactions‹ – eine große Bandbreite an Textvarianten und Reaktionen –, jedes Mal, wenn sie ›Action‹ rufen. Sie arbeitet für die Szene und für den Regisseur, nicht für den eigenen Auftritt.</p>
+          <p class="vb-intro">Der Kerntyp Drei strebt nach dem Gelingen, der Zweierflügel stellt es in den Dienst der anderen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: die Frau, die Szenen trägt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hong Chau ist keine Schauspielerin, die ein Werk allein trägt, sondern eine, die Szenen verändert. Für ihre Rolle in ›Downsizing‹ (2017) erhielt sie Nominierungen für den Golden Globe, den SAG Award und den Critics' Choice Award. Sie spielte in ›Homecoming‹ (2018 und 2020), als Lady Trieu in der HBO-Serie ›Watchmen‹ (2019) und 2022 in ›Showing Up‹, ›The Menu‹ und ›The Whale‹. Für ›The Whale‹ wurde sie bei den 95. Academy Awards (2023) für den Oscar als beste Nebendarstellerin nominiert.</p>
+          <p class="vb-intro">2023 spielte sie in der Netflix-Serie ›The Night Agent‹ und in einer einzigen Szene in Wes Andersons ›Asteroid City‹, 2024 in drei Rollen in Yorgos Lanthimos' ›Kinds of Kindness‹. Für ›Showing Up‹ erhielt das Ensemble 2024 den Independent Spirit Robert Altman Award. Für 2026 ist sie in ›Wuthering Heights‹ (als Nelly Dean) und ›The Sheep Detectives‹ gelistet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Susan Polgár und Enrico Caruso</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Auch unter den SE3w2ern dieses Kompasses stehen Menschen, die ihr Können über Jahre aufgebaut haben, bevor die Welt es sah. <a href="#beruehmte-susan-polgar">Susan Polgár (SE3w2)</a> wurde als Schachspielerin an die Weltspitze geführt, nicht durch Auftritte, sondern durch Training. <a href="#beruehmte-enrico-caruso">Enrico Caruso (SE3w2)</a> verband als Sänger Disziplin mit großer Wärme.</p>
+          <p class="vb-intro">Der Unterschied: Polgár und Caruso standen im Zentrum ihrer Kunst, Hong Chau arbeitet oft im Ensemble. Die Gemeinsamkeit: Handwerk und Zuwendung statt Selbstdarstellung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Drei mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Verlässlichkeit, im Handwerk und in der Bereitschaft, einer Szene zu dienen. Wer aus einer Flüchtlingsfamilie kommt, ohne Netz studiert und dann in Nebenrollen Preise gewinnt, zeigt die Stärke dieses Subtyps.</p>
+          <p class="vb-intro">Der Schatten dieser Kombination ist das Risiko, unsichtbar zu bleiben: Wer sich für andere zurücknimmt, wird leicht übersehen. Die Wikipedia-Seite vermerkt, dass sie für ›Downsizing‹ als Oscar-Anwärterin galt, aber nicht nominiert wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Nebenrolle, Hauptsache</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 24. Oktober 2026) ist Hong Chau 47 Jahre alt, seit November 2020 Mutter einer Tochter und lebt mit ihrem Mann, den sie in Boston kennenlernte. Sie bleibt als Darstellerin gefragt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se3", label:"Lebensmusterkompass: SE3 – Waschbär"},
+        {route:"beruehmte-susan-polgar", label:"Porträt: Susan Polgár (SE3w2)"},
+        {route:"beruehmte-enrico-caruso", label:"Porträt: Enrico Caruso (SE3w2)"},
+        {route:"beruehmte-andre-agassi", label:"Porträt: André Agassi (SE3w2)"},
+      ])}
+    </div>
+  `);
+}

@@ -2817,3 +2817,76 @@ export function knossiPortraitPage() {
     </div>
   `);
 }
+
+
+export function hongChauPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-hong-chau-portrait.jpg" alt="Hong Chau – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-hong-chau-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Hong Chau</p>
+        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">American actress, b. 1979 &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon: the child from the refugee camp</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> works with quiet paws and watchful eyes, unobtrusively and thoroughly. Hong Chau was born on 25 June 1979 in a refugee camp in Thailand to Vietnamese parents. The family had fled Vietnam by boat that same year, her mother then about six months pregnant. A Vietnamese Catholic church in New Orleans sponsored the move to the US.</p>
+          <p class="vb-intro">She grew up in New Orleans East and attended the Louisiana School for Math, Science, and the Arts in Natchitoches. Her parents were often shunned as Asian migrants; they worked first as dishwashers and later ran a convenience store. In 2001 she graduated in film studies from Boston University with the help of Pell Grants, after first studying creative writing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: skill instead of shine</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three strives for success, and the <strong>Self-Preservation Three (SP3)</strong> is the countertype of the Three, which Claudio Naranjo called &lsquo;security&rsquo;: it does not show its achievement on stage but builds substance and security. In Hong Chau this shows in her path to acting: after university she worked for PBS, took classes in public speaking and improv and then moved to Los Angeles. From 2006 she acted in film and television, in guest roles on &lsquo;NCIS&rsquo; and &lsquo;How I Met Your Mother&rsquo; and a main role in &lsquo;Trenches&rsquo;, and from 2010 to 2013 as Linh in &lsquo;Treme&rsquo;.</p>
+          <p class="vb-intro">She made her feature film debut in 2014 in &lsquo;Inherent Vice&rsquo;, after which she could not get an audition for another film for about two years. So she worked for a long time in the background before her name became known.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: attention and service to the role</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the Three warmth, attention and the readiness to serve others. In Hong Chau it shows in her attitude to her work: according to the Wikipedia page she gives directors &lsquo;a wide range of line readings and reactions&rsquo; every time they call &lsquo;action&rsquo;. She works for the scene and for the director, not for her own appearance.</p>
+          <p class="vb-intro">The core type Three strives to succeed, the Two-wing puts it at the service of others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the woman who carries scenes</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hong Chau is not an actress who carries a work alone but one who transforms scenes. For her role in &lsquo;Downsizing&rsquo; (2017) she received nominations for the Golden Globe, the SAG Award and the Critics&rsquo; Choice Award. She appeared in &lsquo;Homecoming&rsquo; (2018 and 2020), as Lady Trieu in the HBO series &lsquo;Watchmen&rsquo; (2019) and in 2022 in &lsquo;Showing Up&rsquo;, &lsquo;The Menu&rsquo; and &lsquo;The Whale&rsquo;. For &lsquo;The Whale&rsquo; she was nominated for the Oscar for Best Supporting Actress at the 95th Academy Awards (2023).</p>
+          <p class="vb-intro">In 2023 she appeared in the Netflix series &lsquo;The Night Agent&rsquo; and in a single scene in Wes Anderson&rsquo;s &lsquo;Asteroid City&rsquo;, and in 2024 in three roles in Yorgos Lanthimos&rsquo;s &lsquo;Kinds of Kindness&rsquo;. For &lsquo;Showing Up&rsquo; the ensemble received the Independent Spirit Robert Altman Award in 2024. For 2026 she is listed in &lsquo;Wuthering Heights&rsquo; (as Nelly Dean) and &lsquo;The Sheep Detectives&rsquo;.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Susan Polgár and Enrico Caruso</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Among the SP3w2s in this Compass are also people who built their skill over years before the world saw it. <a href="#beruehmte-susan-polgar">Susan Polgár (SP3w2)</a> was led to the world top as a chess player, not through appearances but through training. <a href="#beruehmte-enrico-caruso">Enrico Caruso (SP3w2)</a> combined discipline with great warmth as a singer.</p>
+          <p class="vb-intro">The difference: Polgár and Caruso stood at the centre of their art, Hong Chau often works in an ensemble. What they share: craft and attention instead of self-presentation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the Self-Preservation Three with a Two-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in reliability, craft and the readiness to serve a scene. Someone who comes from a refugee family, studies without a safety net and then wins nominations in supporting roles shows the strength of this subtype.</p>
+          <p class="vb-intro">The shadow of this combination is the risk of remaining invisible: someone who steps back for others is easily overlooked. The Wikipedia page notes that she was widely expected to be an Oscar nominee for &lsquo;Downsizing&rsquo; but was not nominated.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: supporting role, main point</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 24 October 2026) Hong Chau is 47 years old, has been the mother of a daughter since November 2020 and lives with her husband, whom she met in Boston. She remains in demand as an actress.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SP3 – Raccoon"},
+        {route:"beruehmte-susan-polgar", label:"Portrait: Susan Polgár (SP3w2)"},
+        {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SP3w2)"},
+        {route:"beruehmte-andre-agassi", label:"Portrait: André Agassi (SP3w2)"},
+      ])}
+    </div>
+  `);
+}
