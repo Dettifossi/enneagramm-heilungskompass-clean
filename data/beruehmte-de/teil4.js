@@ -2068,6 +2068,7 @@ export function jerryLewisPortraitPage() {
         {route:"beruehmte-volker-rosin", label:"Porträt: Volker Rosin (SX7w6)"},
         {route:"beruehmte-johannes-heesters", label:"Porträt: Johannes Heesters (SX7w6)"},
         {route:"beruehmte-rudi-carrell", label:"Porträt: Rudi Carrell (SX7w6)"},
+        {route:"beruehmte-atze-schroeder", label:"Porträt: Atze Schröder (SX7w6)"},
       ])}
     </div>
   `);
@@ -2825,6 +2826,7 @@ export function rudiCarrellPortraitPage() {
         {route:"beruehmte-johannes-heesters", label:"Porträt: Johannes Heesters (SX7w6)"},
         {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
         {route:"beruehmte-jerry-lewis", label:"Porträt: Jerry Lewis (SX7w6)"},
+        {route:"beruehmte-atze-schroeder", label:"Porträt: Atze Schröder (SX7w6)"},
       ])}
     </div>
   `);

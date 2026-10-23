@@ -2767,3 +2767,76 @@ export function johnTravoltaPortraitPage() {
     </div>
   `);
 }
+
+
+export function atzeSchroederPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-atze-schroeder-portrait.jpg" alt="Atze Schröder – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-atze-schroeder-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Atze Schröder</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 with a Six-wing</p>
+        <p class="krim-portrait-subtitle">German comedy character &ndash; Ruhr-area lout with a head of curls &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chimpanzee: the man with the curls from the Ruhr</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>chimpanzee</strong> laughs loudly, plays, provokes and is still very good at reading the mood of the group. Atze Schröder is a stage character: a Ruhr-area lout with a head of curls and aviator glasses who delivers coarse punchlines in Ruhr dialect about men, women and relationships. The character debuted in 1995 in small venues, among them the Schmidt Theater in Hamburg. The performer behind it keeps his civil name and private life deliberately out of the public eye. This portrait therefore deals only with the character.</p>
+          <p class="vb-intro">The character&rsquo;s invented life story begins in Essen-Kray, where &lsquo;Atze&rsquo; is said to have been born in 1965 as Thomas Schröder, a youth gymnastics champion, trained dance teacher and briefly a sociology student. That is part of the game. The character became known through the &lsquo;Quatsch Comedy Club&rsquo; (ProSieben) and the RTL series &lsquo;Alles Atze&rsquo;.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Seven: fire, charm and women&rsquo;s topics</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Seven flees pain into enthusiasm, and Claudio Naranjo described the <strong>sexual Seven (SX7)</strong> as the subtype of fantasy and enchantment: life becomes a stage on which attraction, stimulation and play are central. In Atze Schröder this is the red thread of all his programmes, from &lsquo;Nur so geht&rsquo;s&rsquo; (&lsquo;That&rsquo;s the Only Way&rsquo;, 1998) through &lsquo;Revolution&rsquo; (2009) and &lsquo;Richtig Fremdgehen&rsquo; (&lsquo;Cheating Properly&rsquo;) to &lsquo;Erlöser&rsquo; (&lsquo;Redeemer&rsquo;, 2023) and &lsquo;Lovemachine&rsquo; (2025). It is about love, relationships, jealousy and the game between the sexes, carried by a youthful, hot energy that wants to appear neither grown-up nor well-behaved.</p>
+          <p class="vb-intro">The character itself is the shell for this energy: the show-off with curls and sunglasses says things that a person without a mask would not dare to say. The mask turns intensity into a show that lands, and at the same time protects the person behind it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: protection and loyalty</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> brings the Seven vigilance, a need for bonds and a sense of security. In Atze Schröder it is weaker than the core, but clearly visible: in the protection of his own identity, in loyal work with the same partners over decades and in his readiness to take responsibility for others. Together with the psychologist Leon Windscheid he makes the podcast &lsquo;Betreutes Fühlen&rsquo; (&lsquo;Supervised Feeling&rsquo;), which deals with fears, depression and loneliness. In 2024 he spoke about loneliness at a conference of the North Rhine-Westphalian state government.</p>
+          <p class="vb-intro">Here it becomes clear that behind the loud Seven sits a Six who cares about others. In February 2020 he was a guest on Markus Lanz when the Holocaust survivor Eva Szepesi spoke; there he talked about his father&rsquo;s deeds in wartime and apologised to her. Later he said he had opened up there as never before in public.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: character, language, timing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Atze Schröder has held his place in German comedy since the late nineties because the character is built with great craft: Ruhr dialect as tone colour, fast punchlines, self-irony and precise timing between provocation and disarming. He hosted the Deutscher Comedypreis (2000 and 2002 to 2007), the RTL Comedy Advent Calendar (2008 to 2012) and, since September 2019, &lsquo;NightWash&rsquo;. For &lsquo;Revolution&rsquo; (2011) and &lsquo;Richtig Fremdgehen&rsquo; (2016) he won the Deutscher Comedypreis for best TV solo show, and in 2013 the 1Live Krone for best comedy.</p>
+          <p class="vb-intro">In cinema he played the court jester in &lsquo;7 Zwerge – Männer allein im Wald&rsquo; (&lsquo;7 Dwarves – Men Alone in the Forest&rsquo;, 2004) and its sequel (2006), later in &lsquo;U-900&rsquo; (2008) and &lsquo;Das Traumschiff – Miami&rsquo; (&lsquo;The Dream Ship – Miami&rsquo;, 2025). His books range from the novel &lsquo;Und dann kam Ute&rsquo; (&lsquo;And Then Came Ute&rsquo;, 2013) to the autobiography &lsquo;Blauäugig – Mein Leben als Atze Schröder&rsquo; (&lsquo;Blue-Eyed – My Life as Atze Schröder&rsquo;, 2022), in which he becomes more personal. The substance lies in the combination of the spotlight and constant work, as often found in Seven types: behind the lightness stands discipline.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Rudi Carrell and Jerry Lewis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Among the SX7w6s in this Compass are other entertainers who turn their energy into the show. <a href="#beruehmte-rudi-carrell">Rudi Carrell (SX7w6)</a> was the Dutch-German showmaster who entertained millions with ease and wit. <a href="#beruehmte-jerry-lewis">Jerry Lewis (SX7w6)</a> lived out his playfulness as a comedian on the big stage and carried a serious, very disciplined side behind it.</p>
+          <p class="vb-intro">The difference: Carrell and Lewis appeared as themselves, Atze Schröder plays his character and hides the person behind it. What they share: delighting an audience and dissolving their own pain in laughter.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Seven with a Six-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the ability to make people laugh and in the readiness to address serious matters when the setting is right. The mix of coarseness and vulnerability makes the character credible.</p>
+          <p class="vb-intro">The shadow of this combination is the tendency to hide feelings behind the mask. Someone who appears in public only as a stage character protects himself but at the same time remains unrecognised. That he himself said he opened up late shows how much work it is to get from the show to the person.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: &lsquo;Lovemachine&rsquo;</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 23 October 2026) Atze Schröder is touring with the programme &lsquo;Lovemachine&rsquo;, with dates running into 2027. He continues to work as a comedian, podcaster and host.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
+        {route:"beruehmte-rudi-carrell", label:"Porträt: Rudi Carrell (SX7w6)"},
+        {route:"beruehmte-jerry-lewis", label:"Porträt: Jerry Lewis (SX7w6)"},
+        {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
+      ])}
+    </div>
+  `);
+}

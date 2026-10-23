@@ -1549,6 +1549,7 @@ export function thomasGottschalkPortraitPage() {
         {route:"beruehmte-wietske-van-tongeren", label:"Portrait: Wietske van Tongeren (SX7w6)"},
         {route:"beruehmte-volker-rosin", label:"Portrait: Volker Rosin (SX7w6)"},
         {route:"beruehmte-rudi-carrell", label:"Portrait: Rudi Carrell (SX7w6)"},
+        {route:"beruehmte-atze-schroeder", label:"Portrait: Atze Schröder (SE7w6)"},
       ])}
     </div>
   `);

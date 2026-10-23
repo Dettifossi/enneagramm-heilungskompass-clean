@@ -1547,6 +1547,7 @@ export function thomasGottschalkPortraitPage() {
         {route:"beruehmte-wietske-van-tongeren", label:"Porträt: Wietske van Tongeren (SX7w6)"},
         {route:"beruehmte-volker-rosin", label:"Porträt: Volker Rosin (SX7w6)"},
         {route:"beruehmte-rudi-carrell", label:"Porträt: Rudi Carrell (SX7w6)"},
+        {route:"beruehmte-atze-schroeder", label:"Porträt: Atze Schröder (SX7w6)"},
       ])}
     </div>
   `);
@@ -2835,6 +2836,79 @@ export function michaelGregerPortraitPage() {
         {route:"beruehmte-karl-lauterbach", label:"Porträt: Karl Lauterbach (SE6w5) – derselbe Subtyp und Flügel"},
         {route:"beruehmte-carlo-masala", label:"Porträt: Carlo Masala (SE6w5)"},
         {route:"beruehmte-sundar-pichai", label:"Porträt: Sundar Pichai (SE6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+
+export function atzeSchroederPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-atze-schroeder-portrait.jpg" alt="Atze Schröder – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-atze-schroeder-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Atze Schröder</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexueller Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Deutsche Comedy-Kunstfigur &ndash; Ruhrpott-Proll mit Lockenkopf &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse: der Mann mit den Locken aus dem Ruhrgebiet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> lacht laut, spielt, provoziert und ist trotzdem sehr gut darin, die Stimmung der Gruppe zu lesen. Atze Schröder ist eine Kunstfigur: ein Ruhrpott-Proll mit Lockenkopf und Pilotenbrille, der im Ruhrdeutsch derbe Pointen über Männer, Frauen und Beziehungen setzt. Die Figur debütierte 1995 auf kleinen Bühnen, darunter das Schmidt Theater in Hamburg. Der Darsteller dahinter hält seinen bürgerlichen Namen und sein Privatleben bewusst aus der Öffentlichkeit heraus. Dieses Porträt führt deshalb nur die Kunstfigur.</p>
+          <p class="vb-intro">Die erfundene Lebensgeschichte der Figur beginnt in Essen-Kray, wo ›Atze‹ 1965 als Thomas Schröder zur Welt gekommen sein soll, als Jugend-Turnmeister, ausgebildeter Tanzlehrer und kurzzeitiger Soziologiestudent. Das ist Teil des Spiels. Bekannt wurde die Figur über den ›Quatsch Comedy Club‹ (ProSieben) und die RTL-Serie ›Alles Atze‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Feuer, Charme und Frauenthemen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Sieben flieht vor dem Schmerz in die Begeisterung, und Claudio Naranjo beschrieb die <strong>sexuelle Sieben (SX7)</strong> als den Subtyp der Fantasie und der Verzauberung: Das Leben wird zur Bühne, auf der Anziehung, Reiz und Spiel im Mittelpunkt stehen. Bei Atze Schröder ist das der rote Faden aller Programme, von ›Nur so geht's‹ (1998) über ›Revolution‹ (2009) und ›Richtig Fremdgehen‹ bis zu ›Erlöser‹ (2023) und ›Lovemachine‹ (2025). Es geht um Liebe, Beziehung, Eifersucht und das Spiel der Geschlechter, getragen von einer jugendlichen, heißen Energie, die weder erwachsen noch brav wirken will.</p>
+          <p class="vb-intro">Die Figur selbst ist die Hülle dieser Energie: Der Angeber mit Locken und Sonnenbrille sagt Dinge, die sich ein Mensch ohne Maske nicht trauen würde. Die Maske macht aus der Intensität eine Show, die ankommt, und schützt zugleich den Menschen dahinter.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Schutz und Loyalität</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> bringt der Sieben Wachsamkeit, Bindungsbedürfnis und ein Gespür für Sicherheit. Bei Atze Schröder ist er schwächer ausgeprägt als der Kern, aber er zeigt sich deutlich: im Schutz der eigenen Identität, in der treuen Arbeit mit denselben Partnern über Jahrzehnte und in der Bereitschaft, Verantwortung für andere zu übernehmen. Gemeinsam mit dem Psychologen Leon Windscheid macht er den Podcast ›Betreutes Fühlen‹, in dem es um Ängste, Depressionen und Einsamkeit geht. 2024 sprach er bei einer Konferenz der nordrhein-westfälischen Landesregierung über Einsamkeit.</p>
+          <p class="vb-intro">Hier zeigt sich, dass hinter der lauten Sieben eine Sechs sitzt, die sich um andere sorgt. Im Februar 2020 war er bei Markus Lanz zu Gast, als die Holocaust-Überlebende Eva Szepesi erzählte; er sprach dort über die Taten seines Vaters in der Kriegszeit und entschuldigte sich bei ihr. Später sagte er, er habe sich damals geöffnet, wie nie zuvor in der Öffentlichkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Figur, Sprache, Timing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Atze Schröder hält sich seit Ende der Neunziger in der deutschen Comedy, weil die Figur handwerklich sehr genau gebaut ist: Ruhrdeutsch als Klangfarbe, schnelle Pointen, Selbstironie und ein genaues Timing zwischen Provokation und Entwaffnung. Er moderierte den Deutschen Comedypreis (2000 und 2002 bis 2007), den RTL-Comedy-Adventskalender (2008 bis 2012) und seit September 2019 die Sendung ›NightWash‹. Für ›Revolution‹ (2011) und ›Richtig Fremdgehen‹ (2016) bekam er den Deutschen Comedypreis als beste TV-Solo-Show, 2013 die 1Live Krone für die beste Comedy.</p>
+          <p class="vb-intro">Im Kino spielte er den Hofnarren in ›7 Zwerge – Männer allein im Wald‹ (2004) und in der Fortsetzung (2006), später in ›U-900‹ (2008) und ›Das Traumschiff – Miami‹ (2025). Seine Bücher reichen vom Roman ›Und dann kam Ute‹ (2013) bis zur Autobiografie ›Blauäugig – Mein Leben als Atze Schröder‹ (2022), in der er persönlicher wird. Die Substanz liegt in der Verbindung aus Rampenlicht und Dauerarbeit, wie man sie bei Sieben-Typen oft findet: Hinter der Leichtigkeit steht Disziplin.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Rudi Carrell und Jerry Lewis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Auch unter den SX7w6ern dieses Kompasses stehen Entertainer, die ihre Energie in die Show verwandeln. <a href="#beruehmte-rudi-carrell">Rudi Carrell (SX7w6)</a> war der niederländisch-deutsche Showmaster, der mit Leichtigkeit und Witz ein Millionenpublikum unterhielt. <a href="#beruehmte-jerry-lewis">Jerry Lewis (SX7w6)</a> lebte seine Verspieltheit als Komiker auf der großen Bühne aus und trug dahinter eine ernste, sehr disziplinierte Seite.</p>
+          <p class="vb-intro">Der Unterschied: Carrell und Lewis zeigten sich als sie selbst, Atze Schröder spielt seine Figur und verbirgt den Menschen dahinter. Die Gemeinsamkeit: ein Publikum zu begeistern und dabei den eigenen Schmerz im Lachen aufzulösen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sexuellen Sieben mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Fähigkeit, Menschen zum Lachen zu bringen, und in der Bereitschaft, Ernstes anzusprechen, wenn der Rahmen stimmt. Die Mischung aus Derbheit und Verletzlichkeit macht die Figur glaubwürdig.</p>
+          <p class="vb-intro">Der Schatten dieser Kombination ist die Neigung, Gefühle hinter der Maske zu verstecken. Wer nur als Kunstfigur öffentlich auftritt, schützt sich, bleibt aber zugleich unerkannt. Dass er selbst den Satz sagte, er habe sich erst spät geöffnet, zeigt, wie viel Arbeit es ist, von der Show zum Menschen zu kommen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: ›Lovemachine‹</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 23. Oktober 2026) tritt Atze Schröder mit dem Programm ›Lovemachine‹ auf Tour, die Termine reichen bis in das Jahr 2027. Er arbeitet weiter als Comedian, Podcaster und Moderator.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx7", label:"Lebensmusterkompass: SX7 – Schimpanse"},
+        {route:"beruehmte-rudi-carrell", label:"Porträt: Rudi Carrell (SX7w6)"},
+        {route:"beruehmte-jerry-lewis", label:"Porträt: Jerry Lewis (SX7w6)"},
+        {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
       ])}
     </div>
   `);

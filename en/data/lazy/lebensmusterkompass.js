@@ -142,7 +142,7 @@ export const LEBENSMUSTERKOMPASS = {
   SX7: {
     tier: "Chimpanzee",
     kernthema: "Complete merging with an idea, person, or moment (Naranjo: Suggestibility)",
-    beispiele: ["Caroline Peters", "Thomas Gottschalk", "Miley Cyrus", "Morgan Freeman", "Leonard Bernstein", "Ina Müller", "Robert Schumann", "Franz Liszt", "Shakira", "Boris Becker", "Gudrun Ensslin", "Sean 'P. Diddy' Combs", "Aileen Wuornos", "Clyde Barrow", "Victor Lustig", "Ronnie Biggs", "Prof. Dr. Frans de Waal", "Prof. Dr. Christophe Boesch", "Dr. Jill Pruetz", "John, the Beloved Disciple", "Ida Pfeiffer", "Jerry Lewis", "Horst Lichter", "Serena Williams", "Michaela Benthaus", "Allie Sherlock", "John Travolta", "Wietske van Tongeren", "Helene Spilling Ødegaard", "Isabell Gerschke", "Christian Kohlund", "Volker Rosin", "Johannes Heesters", "Rudi Carrell", "Knossi"],
+    beispiele: ["Atze Schröder", "Caroline Peters", "Thomas Gottschalk", "Miley Cyrus", "Morgan Freeman", "Leonard Bernstein", "Ina Müller", "Robert Schumann", "Franz Liszt", "Shakira", "Boris Becker", "Gudrun Ensslin", "Sean 'P. Diddy' Combs", "Aileen Wuornos", "Clyde Barrow", "Victor Lustig", "Ronnie Biggs", "Prof. Dr. Frans de Waal", "Prof. Dr. Christophe Boesch", "Dr. Jill Pruetz", "John, the Beloved Disciple", "Ida Pfeiffer", "Jerry Lewis", "Horst Lichter", "Serena Williams", "Michaela Benthaus", "Allie Sherlock", "John Travolta", "Wietske van Tongeren", "Helene Spilling Ødegaard", "Isabell Gerschke", "Christian Kohlund", "Volker Rosin", "Johannes Heesters", "Rudi Carrell", "Knossi"],
     fingerabdruecke: [
       {
         titel: "Complete merging with an idea, person, or moment",
@@ -157,7 +157,7 @@ export const LEBENSMUSTERKOMPASS = {
       {
         titel: "Constant, openly visible transformation without shame",
         beschreibung: "Personal development happens not in hiding, but publicly and directly – shedding skins, changing roles, or contradictory inner parts are not concealed, but lived openly.",
-        beleg: "Miley Cyrus, 'from Disney child star to independent artist ... every one of these transformations was loud, visible – and honest'; Robert Schumann, who consciously split his personality into the figures Florestan and Eusebius: 'As if he himself knew that more than one voice spoke within him'; Caroline Peters: 'The chimpanzee, who can turn into anyone – and never forgets who he himself is.'; Morgan Freeman, who lived out an almost unsurveyable range of roles – from a wise prison inmate to God himself to Nelson Mandela – without ever settling on a single genre."
+        beleg: "Atze Schröder, who turns his intensity into a stage character with curls and aviator glasses and protects the person behind it; Miley Cyrus, 'from Disney child star to independent artist ... every one of these transformations was loud, visible – and honest'; Robert Schumann, who consciously split his personality into the figures Florestan and Eusebius: 'As if he himself knew that more than one voice spoke within him'; Caroline Peters: 'The chimpanzee, who can turn into anyone – and never forgets who he himself is.'; Morgan Freeman, who lived out an almost unsurveyable range of roles – from a wise prison inmate to God himself to Nelson Mandela – without ever settling on a single genre."
       },
       {
         titel: "When total merging turns toward a destructive idea or person (shadow form)",
