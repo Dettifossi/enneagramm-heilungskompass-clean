@@ -72,6 +72,14 @@ const codes = []; for (let n = 1; n <= 9; n++) ["SE","SO","SX"].forEach(i => cod
       }).filter(x => x.need > 0).sort((a, b) => b.need - a.need);
       document.getElementById("empf").innerHTML = list.length ? list.slice(0, 14).map(x => `<li><strong>${x.c}</strong> (${TIER[x.c]}): ${x.needF ? "<strong>+" + x.needF + " Frauen</strong>" : ""}${x.needF && x.needM ? ", " : ""}${x.needM ? "+" + x.needM + " Männer" : ""} <span>(jetzt ${x.m} M / ${x.f} F)</span></li>`).join("") : "<li>Alle Subtypen erreichen das Ziel.</li>";
     };
+    const rubLis = () => {
+      const ziele = [+document.getElementById("z-b").value || 0, +document.getElementById("z-k").value || 0, +document.getElementById("z-c").value || 0];
+      const namen = ["Berühmte", "Krankheitsporträts", "Kriminalporträts"];
+      document.getElementById("rub").innerHTML = namen.map((n, r) => {
+        const l = codes.map(c => ({ c, have: zahl[c][r], need: ziele[r] - zahl[c][r] })).filter(x => x.need > 0).sort((a, b) => b.need - a.need);
+        return `<p><strong>${n}</strong> (Ziel ${ziele[r]} je Subtyp): ` + (l.length ? l.slice(0, 12).map(x => `${x.c} (${TIER[x.c]}) <strong>+${x.need}</strong> <span>(jetzt ${x.have})</span>`).join(" · ") + (l.length > 12 ? ` · … und ${l.length - 12} weitere` : "") : "alle Subtypen erreichen das Ziel") + `</p>`;
+      }).join("");
+    };
     const gesamt = codes.reduce((s, c) => s + summe(c), 0);
     out.innerHTML = `
       <p><strong>${gesamt}</strong> Porträts mit Subtyp (Berühmte, Krankheit, Kriminal).</p>
@@ -79,6 +87,10 @@ const codes = []; for (let n = 1; n <= 9; n++) ["SE","SO","SX"].forEach(i => cod
       <div class="ziel"><label>Ziel je Subtyp (Porträts gesamt) <input id="ziel-n" type="number" min="1" value="40"></label><label>Ziel Frauenanteil (%) <input id="ziel-f" type="number" min="0" max="100" value="40"></label></div>
       <ul class="empf" id="empf"></ul>
       <p>Die Liste zeigt je Subtyp, wie viele Frauen- und Männerporträts noch fehlen, um das Ziel zu erreichen, sortiert nach dem größten Bedarf. Die Ziele lassen sich oben ändern.</p>
+      <h2>Was fehlt je Rubrik?</h2>
+      <div class="ziel"><label>Ziel Berühmte <input id="z-b" type="number" min="0" value="30"></label><label>Ziel Krankheit <input id="z-k" type="number" min="0" value="7"></label><label>Ziel Kriminal <input id="z-c" type="number" min="0" value="4"></label></div>
+      <div id="rub"></div>
+      <p>Je Rubrik die Subtypen, die unter dem Ziel liegen, sortiert nach dem größten Fehlbestand. Die Ziele lassen sich ändern.</p>
       <h2>Nächste Kandidaten</h2>
       <p><strong>Wenigste Porträts insgesamt:</strong> ${wenig}</p>
       <p><strong>Geringster Frauenanteil</strong> (ab 10 Porträts): ${wenigF}</p>
@@ -87,6 +99,7 @@ const codes = []; for (let n = 1; n <= 9; n++) ["SE","SO","SX"].forEach(i => cod
       <h2>Alle 27 Subtypen</h2>
       <div class="wrap"><table><thead><tr><th style="text-align:left">Subtyp</th><th style="text-align:left">Tier</th><th>Berühmte</th><th>Krankheit</th><th>Kriminal</th><th>Gesamt</th><th>Männer</th><th>Frauen</th><th>Frauen %</th></tr></thead><tbody>${rows}</tbody></table></div>
       <p>Je dunkler die Zelle, desto mehr Porträts (jede Spalte mit eigener Skala). Männer, Frauen und Frauenanteil über alle drei Rubriken.</p>`;
+    rubLis(); ["z-b", "z-k", "z-c"].forEach(i => document.getElementById(i).addEventListener("input", rubLis));
     empf(); document.getElementById("ziel-n").addEventListener("input", empf); document.getElementById("ziel-f").addEventListener("input", empf);
   } catch (e) { out.innerHTML = "<p>Konnte die Daten nicht laden: " + e.message + "</p>"; }
 })();
