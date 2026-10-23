@@ -35606,6 +35606,69 @@ function zahlenFaktenPage() {
       <span style="width:2.4rem;text-align:right;font-variant-numeric:tabular-nums;">${v}</span>
     </div>`;
   }).join("") + '<div style="height:.5rem;"></div>').join("");
+
+  const _wingCnt = {};
+  _alle.forEach(p => { const m = /^S[EOX]([1-9])w([1-9])/.exec(p.subtyp || ""); if (m) { const k = m[1] + "w" + m[2]; _wingCnt[k] = (_wingCnt[k] || 0) + 1; } });
+  const _wingMax = Math.max(...Object.values(_wingCnt));
+  const _bar = (v, max, color) => `<span style="flex:1;border-radius:5px;height:.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));"><span style="display:block;height:100%;width:${_pct(v, max)}%;background:${color};border-radius:5px;"></span></span>`;
+  const _row = (label, v, max, color, shown) => `<div style="display:flex;align-items:center;gap:.6rem;margin:.18rem 0;font-family:system-ui,sans-serif;font-size:.8rem;"><span style="width:3.2rem;color:var(--muted);">${label}</span>${_bar(v, max, color)}<span style="width:3rem;text-align:right;font-variant-numeric:tabular-nums;">${shown === undefined ? v : shown}</span></div>`;
+  const _wingBlocks = [1,2,3,4,5,6,7,8,9].map(n => {
+    const a = n === 1 ? 9 : n - 1, b = n === 9 ? 1 : n + 1;
+    return `<div style="margin:.5rem 0 .9rem;"><div style="font-family:system-ui,sans-serif;font-size:.82rem;font-weight:700;color:var(--ink);">Typ ${n}</div>${_row(n + "w" + a, _wingCnt[n + "w" + a] || 0, _wingMax, "var(--copper)")}${_row(n + "w" + b, _wingCnt[n + "w" + b] || 0, _wingMax, "var(--copper)")}</div>`;
+  }).join("");
+  const _FELDER = [
+    ["Musik", ["Musik"]],
+    ["Schauspiel, Film & Medien", ["Schauspiel", "Film", "Fernsehen", "TV", "Comedy", "Komik", "Unterhaltung", "Medien"]],
+    ["Wissenschaft & Medizin", ["Wissenschaft", "Medizin", "Psychologie", "Wissen"]],
+    ["Politik & Geschichte", ["Politik", "Geschichte", "Adel", "Recht", "Aktivismus", "Gesellschaft"]],
+    ["Philosophie, Religion & Spiritualität", ["Philosophie", "Religion", "Spiritualität", "Coaching"]],
+    ["Literatur", ["Literatur"]],
+    ["Kunst & Mode", ["Kunst", "Mode", "Kultur"]],
+    ["Sport", ["Sport", "Fußball", "Tennis", "Motorsport", "Eiskunstlauf", "Schach"]],
+    ["Wirtschaft", ["Wirtschaft", "Unternehmen", "Business"]],
+  ];
+  const _feldTyp = _FELDER.map(([name, tags]) => {
+    const c = [0,0,0,0,0,0,0,0,0,0];
+    BERUEHMT_PORTRAITS.forEach(p => {
+      const m = /^S[EOX]([1-9])/.exec(p.subtyp || "");
+      if (m && (p.tags || []).some(t => tags.includes(t))) c[+m[1]]++;
+    });
+    return [name, c];
+  });
+  const _feldMax = Math.max(...[].concat(..._feldTyp.map(([, c]) => c.slice(1))));
+  const _heat = `<div style="overflow-x:auto;"><table style="border-collapse:collapse;width:100%;font-family:system-ui,sans-serif;font-size:.78rem;"><thead><tr><th style="text-align:left;padding:.3rem .4rem;"></th>${[1,2,3,4,5,6,7,8,9].map(n => `<th style="padding:.3rem .25rem;color:var(--muted);font-weight:600;">${n}</th>`).join("")}</tr></thead><tbody>${_feldTyp.map(([name, c]) => `<tr><td style="padding:.3rem .4rem;white-space:nowrap;color:var(--ink);">${name}</td>${[1,2,3,4,5,6,7,8,9].map(n => `<td style="text-align:center;padding:.3rem .25rem;background:color-mix(in srgb, var(--copper) ${Math.round(6 + 70 * c[n] / _feldMax)}%, var(--paper));font-variant-numeric:tabular-nums;">${c[n]}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+  const _istFrau = p => p.gender === "f" || p.gender === "w";
+  const _frTyp = {}, _gesTyp = {}, _frSub = {}, _gesSub = {};
+  _alle.forEach(p => {
+    const m = /^(S[EOX])([1-9])/.exec(p.subtyp || ""); if (!m || !p.gender) return;
+    const c = m[1] + m[2];
+    _gesTyp[m[2]] = (_gesTyp[m[2]] || 0) + 1; _gesSub[c] = (_gesSub[c] || 0) + 1;
+    if (_istFrau(p)) { _frTyp[m[2]] = (_frTyp[m[2]] || 0) + 1; _frSub[c] = (_frSub[c] || 0) + 1; }
+  });
+  const _frBalken = [1,2,3,4,5,6,7,8,9].map(n => _row("Typ " + n, _pct(_frTyp[n] || 0, _gesTyp[n] || 1), 100, "#a8553f", _pct(_frTyp[n] || 0, _gesTyp[n] || 1) + " %")).join("");
+  const _frSubSort = Object.keys(_gesSub).filter(c => _gesSub[c] >= 10).sort((a, b) => _frSub[a] / _gesSub[a] - _frSub[b] / _gesSub[b]);
+  const _frNiedrig = _frSubSort.slice(0, 3).map(c => c + " (" + _pct(_frSub[c] || 0, _gesSub[c]) + " %)").join(", ");
+  const _frHoch = _frSubSort.slice(-3).reverse().map(c => c + " (" + _pct(_frSub[c] || 0, _gesSub[c]) + " %)").join(", ");
+  const _monate = ["Jan","Feb","Mär","Apr","Mai","Jun","Jul","Aug","Sep","Okt","Nov","Dez"];
+  const _proMonat = {};
+  [...BERUEHMT_PORTRAITS, ...KRIMINAL_PORTRAITS].forEach(p => { const m = /^(\d{4})-(\d{2})/.exec(p.added || ""); if (m) { const k = m[1] + "-" + m[2]; _proMonat[k] = (_proMonat[k] || 0) + 1; } });
+  const _monKeys = Object.keys(_proMonat).sort();
+  const _monMax = Math.max(...Object.values(_proMonat));
+  const _monBalken = _monKeys.map(k => _row(_monate[+k.slice(5) - 1] + " " + k.slice(2, 4), _proMonat[k], _monMax, "var(--copper)")).join("");
+  const _landNorm = l => ({ "Vereinigtes Königreich": "Großbritannien", "Großbritannien": "Großbritannien", "England": "Großbritannien", "Schottland": "Großbritannien", "United Kingdom": "Großbritannien" })[l] || l;
+  const _landCnt = {};
+  _alle.forEach(p => { if (p.land) { const l = _landNorm(p.land); _landCnt[l] = (_landCnt[l] || 0) + 1; } });
+  const _landSort = Object.entries(_landCnt).sort((a, b) => b[1] - a[1]);
+  const _landMax = _landSort[0][1];
+  const _landBalken = _landSort.slice(0, 10).map(([l, v]) => _row(l, v, _landMax, "var(--copper)")).join("");
+  const _landEin = _landSort.filter(([, v]) => v === 1).length;
+  const _rubTyp = [BERUEHMT_PORTRAITS, KRANKHEITS_PORTRAITS, KRIMINAL_PORTRAITS].map(arr => {
+    const c = {}; let tot = 0;
+    arr.forEach(p => { const m = /^S[EOX]([1-9])/.exec(p.subtyp || ""); if (m) { c[m[1]] = (c[m[1]] || 0) + 1; tot++; } });
+    return [c, tot];
+  });
+  const _rubFarben = ["var(--copper)", "#6b8f71", "#a8553f"];
+  const _rubBlocks = [1,2,3,4,5,6,7,8,9].map(n => `<div style="margin:.4rem 0 .7rem;"><div style="font-family:system-ui,sans-serif;font-size:.82rem;font-weight:700;color:var(--ink);">Typ ${n}</div>${_rubTyp.map(([c, tot], i) => _row(["Berühmte", "Krankheit", "Kriminal"][i], _pct(c[n] || 0, tot || 1), 25, _rubFarben[i], _pct(c[n] || 0, tot || 1) + " %")).join("")}</div>`).join("");
   const _frauen = BERUEHMT_PORTRAITS.filter(p => p.gender === "f" || p.gender === "w").length;
   const _laender = new Set(BERUEHMT_PORTRAITS.map(p => p.land).filter(Boolean));
   const _deUsa = BERUEHMT_PORTRAITS.filter(p => p.land === "Deutschland" || p.land === "USA").length;
@@ -35661,6 +35724,30 @@ function zahlenFaktenPage() {
       <p style="font-family:system-ui,sans-serif;font-size:.78rem;color:var(--muted);margin:0 0 .6rem;"><span style="color:#6b8f71;">&#9632;</span> selbsterhaltend &nbsp; <span style="color:#c4a456;">&#9632;</span> sozial &nbsp; <span style="color:#a8553f;">&#9632;</span> sexuell</p>
       ${_subBalken}
       <p style="font-family:system-ui,sans-serif;font-size:.75rem;color:var(--muted);margin-top:.6rem;">Live aus den Porträt-Listen gezählt. Die Verteilung spiegelt die Auswahl der Porträts wider, nicht die Häufigkeit der Typen in der Bevölkerung.</p>
+
+            <h2 style="font-size:1.1rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Flügel-Verteilung</h2>
+      <p style="font-family:system-ui,sans-serif;font-size:.85rem;color:var(--muted);margin:0 0 .6rem;">Zu jedem Typ die beiden möglichen Flügel. Zum Beispiel 2w1 ist die Zwei mit Einserflügel, 2w3 die Zwei mit Dreierflügel. Gezählt über alle Porträts mit Flügelangabe.</p>
+      ${_wingBlocks}
+      <h2 style="font-size:1.1rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Berufsfelder und Typen</h2>
+      <p style="font-family:system-ui,sans-serif;font-size:.85rem;color:var(--muted);margin:0 0 .6rem;">Wie viele berühmte Persönlichkeiten aus einem Feld zu welchem Typ gehören. Ein Porträt kann zu mehreren Feldern zählen. Die Verteilung zeigt die Auswahl der Porträts, nicht die Häufigkeit der Typen im jeweiligen Beruf.</p>
+      ${_heat}
+      <h2 style="font-size:1.1rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Frauenanteil nach Typ</h2>
+      <p style="font-family:system-ui,sans-serif;font-size:.85rem;color:var(--muted);margin:0 0 .6rem;">Anteil der Frauenporträts je Enneagramm-Typ, über alle drei Porträt-Rubriken.</p>
+      ${_frBalken}
+      <p style="font-family:system-ui,sans-serif;font-size:.8rem;color:var(--muted);margin:.8rem 0 0;">Geringster Frauenanteil bei den Subtypen (ab 10 Porträts): ${_frNiedrig}<br>Höchster Frauenanteil: ${_frHoch}</p>
+      <h2 style="font-size:1.1rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Herkunftsländer</h2>
+      <p style="font-family:system-ui,sans-serif;font-size:.85rem;color:var(--muted);margin:0 0 .6rem;">Die zehn häufigsten Länder über alle drei Porträt-Rubriken. Länder mit mehreren Bezeichnungen (etwa Großbritannien) sind zusammengefasst.</p>
+      ${_landBalken}
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.9rem;margin-top:.9rem;">
+        ${statCard(_landSort.length, "Verschiedene Länder insgesamt")}
+        ${statCard(_landEin, "Länder mit genau einem Porträt")}
+      </div>
+      <h2 style="font-size:1.1rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Wachstum des Kompasses</h2>
+      <p style="font-family:system-ui,sans-serif;font-size:.85rem;color:var(--muted);margin:0 0 .6rem;">Neue Porträts pro Monat (Berühmte und Kriminalpsychologie, soweit mit Datum erfasst; der aktuelle Monat ist noch nicht abgeschlossen).</p>
+      ${_monBalken}
+      <h2 style="font-size:1.1rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Die Rubriken im Vergleich</h2>
+      <p style="font-family:system-ui,sans-serif;font-size:.85rem;color:var(--muted);margin:0 0 .6rem;">Anteil der Typen je Rubrik in Prozent. Die Zahlen bei Krankheits- und Kriminalporträts sind klein und beschreiben nur diese Auswahl. Sie sagen nichts darüber aus, welche Typen zu Krankheiten oder Straftaten neigen.</p>
+      ${_rubBlocks}
 
       <h2 style="font-size:1.1rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Textumfang</h2>
       <div style="background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1.4rem 1.6rem;">
