@@ -356,6 +356,7 @@ export const registerEntries = [
   // T
   { term: "Taube",                   route: "tierlexikon/se4",              description: "Tierarchetyp des SE4 · Typ 4 · Herzzentrum" },
   { term: "TCM",                     route: "tcm",                      description: "Traditionelle Chinesische Medizin · Meridiane & Organuhr" },
+  { term: "Warum nur 9 Enneagramm-Heilmittel und nicht 27?", route: "warum-nur-9-heilmittel", description: "Wissensartikel: Subtypen für die Diagnose, ein Mittel je Typ für die Leidenschaft" },
   { term: "Yogi-Tee-Kompass",         route: "yogi-tee-kompass",           description: "Yogi-Tea-Sorten für die 9 Typen und 27 Subtypen mit Zutaten und Amazon-Links" },
   { term: "Teeempfehlungen",         route: "tee-enneagramm",           description: "Schaubild: Tees für alle 9 Enneagrammtypen" },
   { term: "Tischdialoge der 27 Subtypen", route: "tischdialoge", description: "Innerer Dialog zwischen Leidenschaft & Instinkt je Subtyp, mit Ergebnis" },
@@ -2706,6 +2707,7 @@ export const registerEntriesEN = [
   { term: "SX · Sexual Type", route: "knowledge", description: "One of the three subtypes: focus on depth & intensity" },
   { term: "Dove", route: "tierlexikon/se4", description: "Animal archetype of SP4 · Typ 4 · Heart center" },
   { term: "TCM", route: "tcm", description: "Traditional Chinese Medicine · meridians & organ clock" },
+  { term: "Why Only 9 Enneagram Remedies and Not 27?", route: "warum-nur-9-heilmittel", description: "Knowledge article: subtypes for diagnosis, one remedy per type for the passion" },
   { term: "Yogi Tea Compass", route: "yogi-tee-kompass", description: "Yogi Tea varieties for the 9 types and 27 subtypes with ingredients and Amazon links" },
   { term: "Tea Recommendations", route: "tee-enneagramm", description: "Diagram: teas for all 9 Enneagram types" },
   { term: "Table Dialogues of the 27 Subtypes", route: "tischdialoge", description: "Inner dialogue between passion & instinct per subtype, with result" },

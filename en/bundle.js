@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=312";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=314";
 import { psychogrammErklaerung } from "../data/psychogramme-erklaerung.js?v=2";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -5743,6 +5743,7 @@ text.nav = [
     { route: "subtyp-motivationsquiz", label: "Subtype Motivation Quiz (guess motivation-driven behavior)" },
     { heading: "Enneagram Meets … (Healing & Interpretation)" },
     { route: "enneagramm-homoeopathie", label: "Enneagram Meets Homeopathy" },
+    { route: "warum-nur-9-heilmittel", label: "Why Only 9 Enneagram Remedies and Not 27?" },
     { route: "enneagramm-reflexzonentherapie", label: "Enneagram Meets Reflexology" },
     { route: "enneagramm-akupunktur", label: "Enneagram Meets Acupuncture" },
     { route: "enneagramm-handanalyse", label: "Enneagram Meets Hand Analysis" },
@@ -25803,6 +25804,40 @@ function enneagrammAutopoesePage() {
   `);
 }
 
+function warumNeunHeilmittelPage() {
+  const sec = (h, ps) => `<div class="vb-section" style="max-width:100%;margin-top:1.6rem;"><h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .7rem;color:var(--ink);">${h}</h2>${ps.map((p, i) => `<p class="vb-intro"${i ? ' style="margin-top:1rem;"' : ""}>${p}</p>`).join("")}</div>`;
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('warum-nur-9-heilmittel')}
+      <div class="page-content">
+        <button class="ghost-link" data-route="enneagramm-homoeopathie" style="margin-bottom:1.2rem;">← Back to Enneagram Meets Homeopathy</button>
+        <p class="eyebrow">Knowledge &middot; Enneagram Meets … (Healing &amp; Interpretation)</p>
+        <h1 class="section-title">Why Only Nine Enneagram Remedies &ndash; and Not 27?</h1>
+        <div style="margin:1.2rem 0 1.8rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="${R2_CDN}assets/schaubilder/warum-nur-9-heilmittel/goethe-werther-en.jpg" alt="Johann Wolfgang von Goethe at his desk, above him his sentence from The Sorrows of Young Werther about passions and misery" style="width:100%;display:block;" loading="lazy" />
+        </div>
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;"><p class="vb-intro">The Enneagram knows 27 subtypes, and this Compass keeps pointing out how important they are. Why, then, are there only nine remedies in Enneagram homeopathy, one for each type, and not 27? The answer: the subtypes decide the diagnosis. The remedy, however, follows the passion, and there are only nine of those.</p></blockquote>
+        ${sec("The obvious question", ["Anyone who has practised homeopathy for a long time works not with nine remedies but with thirty, forty, fifty, a hundred, five hundred or more. For such therapists it is at first hard to imagine that in Enneagram homeopathy a single remedy per type should be at the centre. They rightly ask: should the 27 subtypes not have 27 different remedies, just as there are different suggestions per subtype for teas and other accompanying recommendations?","After decades of experience the answer is nevertheless: no. The reason lies in the task that the subtypes and the remedies each fulfil."])}
+        ${sec("First the diagnosis, then the therapy", ["There is the old saying: before the therapy the gods placed the diagnosis. This is exactly what the 27 subtypes are for. They describe how the same basic pattern shows itself in life, and only with this knowledge can a type be determined reliably. Whoever ignores them keeps arriving at mistypings. This knowledge is therefore indispensable.","The subtypes are thus not forms of expression that would have to be treated. They are the tool for recognising: is this a Type 7, a Type 2, a Type 5 or a Type 9? Once the type is established, their diagnostic task is fulfilled."])}
+        ${sec("Why only one remedy per type afterwards", ["The deep-acting homeopathic remedy is meant to bring a person's passion into harmonious balance. This happens according to the law of similars: like is cured by like, <em>Similia similibus curentur</em>. What matters here: there are not 27 passions but nine. So at this level there is only one central remedy per type.","In homeopathy a well-fitting remedy is called a <em>simile</em>. What is always sought, however, is the <em>similimum</em>, the best-fitting remedy. It is found at the level of the passion. To bring the nine passions of human beings into balance according to Enneagram homeopathy, nine remedies are therefore enough.","At the level of the core wound there are occasionally alternatives. In principle, however, Enneagram homeopathy starts with the passion."])}
+        ${sec("Passion means: creating suffering", ["Goethe already asked it in &lsquo;Werther&rsquo;: <em>&lsquo;Are we not led into boundless misery by the very passions that seemed to make us happy?&rsquo;</em> Great minds have always recognised this. It is already in the German word: a passion (Leidenschaft) is a quality that creates suffering (Leiden schafft).","Today the word usually sounds positive, for example when someone says they have a passion for hang gliding. Formerly, also in Goethe's time, the word was used in its original sense for a reason. In the Enneagram it is the nine passions, often hidden, that are regarded as the deepest recognisable cause of suffering: emotional, mental, physical. They shape not only a person's view of the world and being human but also being ill. When they fall out of balance, the person becomes ill in the long run.","Being human and being ill are therefore two sides of the same coin: what drives a person in their nature also shapes the way they fall ill."])}
+        ${sec("One passion, many faces", ["The subtypes show how the same passion is lived in everyday life. The Seven, for example, lives gluttony as a sexual Seven in enthusiasm and relationship, as a self-preservation Seven more in material things, in enjoyment. The energy field also feels different: the self-preservation subtypes usually seem more grounded, often a little childlike, sometimes even naive. The sexual ones seem more youthful, fiery, the social ones more adult, regardless of type.","Exceptions prove the rule: a self-preservation One does not seem naive, because its basic principle hardly tolerates naivety. Compared with the social One, the adult type, and the sexual One with its fiery, youthful character, it nevertheless seems relatively childlike and unworldly. That is the surface. Beneath it lies the same passion for everyone of the same type."])}
+        ${sec("Treating the cause, not the symptom", ["A picture for this: when the oil warning light comes on in the car, you do not go to the garage and say, please unscrew the warning light so that I can drive on. You treat the cause behind it. Enneagram homeopathy proceeds in the same way: a behaviour arising from an instinct is not the deepest cause. It is the expression of the passion.","From the symptoms of an illness too, an Enneagram homeopath can sometimes recognise the signature of the passion: this illness shows itself in this way because this patient's passion has fallen out of balance. That is why the passion must be balanced."])}
+        ${sec("What this does not mean", ["It does not mean therapising the passion away. It means bringing it into healthy balance through the fitting homeopathic remedy according to the law of similars, as Hahnemann rightly recognised. According to the understanding of homeopathy, healing then happens lawfully, from the inside out.","For accompanying impulses such as tea, minerals, Bach flowers, gemstones or essential oils, on the other hand, the 27 subtypes do play a role. The Remedy Compass and the Yogi Tea Compass take them into account. The difference lies in the claim: there it is about fitting accompaniment, with the constitutional remedy it is about the passion."])}
+        <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+          <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Note:</strong> This article describes the approach of Enneagram homeopathy and does not replace medical or naturopathic advice or treatment.</p>
+        </div>
+        ${relatedLinks([
+          {route:"enneagramm-homoeopathie", label:"Enneagram Meets Homeopathy"},
+          {route:"yogi-tee-kompass", label:"Yogi Tea Compass"},
+          {route:"leidenschaft-und-wunde", label:"Passion and Wound"},
+          {route:"bedeutung-27-subtypen", label:"Why the 27 Subtypes Matter"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function enneagrammHomoeopathiePage() {
   function card(f) {
     const col = (typeof TYPE_COLORS !== 'undefined' ? TYPE_COLORS[f.typ] : null) || 'var(--copper)';
@@ -44942,6 +44977,7 @@ function subtypeSchaubilderPage() {
     "kroetenschlucken": kroetenschluckenPage,
     "tee-enneagramm": teeEnneagrammPage,
     "yogi-tee-kompass": yogiTeeKompassPage,
+    "warum-nur-9-heilmittel": warumNeunHeilmittelPage,
     "aetherische-oele": aetherischeOelePage,
     "angst-essenz": angstEssenzPage,
     "edelsteine": edelsteinePage,
