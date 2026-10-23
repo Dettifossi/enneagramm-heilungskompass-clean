@@ -2759,14 +2759,14 @@ export function johannesHeestersPortraitPage() {
 
         <h2 class="vb-section">2. Die sexuelle Sieben: Charme, Abenteuer, Faszination</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Sieben sucht Genuss und neue Eindrücke und meidet, was bedrückt. Die <strong>sexuelle Sieben (SX7)</strong> nannte Claudio Naranjo den Subtyp der ›Suggestibility‹ (Beeinflussbarkeit durch Faszination): Sie lässt sich von dem tragen, was sie anzieht, und strahlt dabei selbst Anziehung aus. Bei Heesters ist beides sichtbar. 1934 debütierte er an der Wiener Volksoper in Millöckers ›Der Bettelstudent‹, 1936 ging er nach Berlin und wurde für die UFA, die große deutsche Filmgesellschaft, zum Star von Musik- und Operettenfilmen. 1953 holte ihn der Regisseur Otto Preminger für ›Die Jungfrau auf dem Dach‹ nach Hollywood.</p>
+          <p class="vb-intro">Die Sieben sucht Genuss und neue Eindrücke und meidet, was bedrückt. Die <strong>sexuelle Sieben (SX7)</strong> nannte Claudio Naranjo den Subtyp der ›Suggestibility‹ (Beeinflussbarkeit durch Faszination): Sie lässt sich von dem tragen, was sie anzieht, und strahlt dabei selbst Anziehung aus. Bei Heesters war beides sichtbar. 1934 debütierte er an der Wiener Volksoper in Millöckers ›Der Bettelstudent‹, 1936 ging er nach Berlin und wurde für die UFA, die große deutsche Filmgesellschaft, zum Star von Musik- und Operettenfilmen. 1953 holte ihn der Regisseur Otto Preminger für ›Die Jungfrau auf dem Dach‹ nach Hollywood.</p>
           <p class="vb-intro">Seine Paraderolle wurde der Graf Danilo in Lehárs ›Die lustige Witwe‹, den er am Silvesterabend 1938 in München zum ersten Mal sang und danach über 1.600-mal spielte, ein charmanter Lebemann, der von Frauen umschwärmt wird. Auf seinen späten Lebensweg blickte er sinngemäß mit der Aussage zurück, er würde alles wieder so leben, es sei ein großes Abenteuer gewesen.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Sechserflügel: Treue, Rahmen, Anpassung</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der Sieben Loyalität und das Bedürfnis nach einem tragenden Rahmen. Eine Sieben mit schwächer ausgeprägtem Sechserflügel würde freier umherziehen; Heesters bleibt Häusern, Ensembles und Menschen treu. 1930 heiratete er die belgische Schauspielerin Louisa ›Wiske‹ Ghijs, die Ehe hielt bis zu ihrem Tod 1985, aus ihr gingen zwei Töchter hervor. 1992 heiratete er die Schauspielerin Simone Rethel. Der Volksoper Wien blieb er verbunden, die ihn 1984 zum Ehrenmitglied ernannte.</p>
-          <p class="vb-intro">Zum Sechserflügel gehört auch, dass er sich in Ordnungen einfügt, ohne sie zu hinterfragen. Seine eigene Begründung für die Jahre im Deutschen Reich lautete später, er habe sich nicht für Politik interessiert und versucht, seine Familie zu schützen.</p>
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der Sieben Loyalität und das Bedürfnis nach einem tragenden Rahmen. Eine Sieben mit schwächer ausgeprägtem Sechserflügel würde freier umherziehen; Heesters blieb Häusern, Ensembles und Menschen treu. 1930 heiratete er die belgische Schauspielerin Louisa ›Wiske‹ Ghijs, die Ehe hielt bis zu ihrem Tod 1985, aus ihr gingen zwei Töchter hervor. 1992 heiratete er die Schauspielerin Simone Rethel. Der Volksoper Wien blieb er verbunden, die ihn 1984 zum Ehrenmitglied ernannte.</p>
+          <p class="vb-intro">Zum Sechserflügel gehört auch, dass er sich in Ordnungen einfügte, ohne sie zu hinterfragen. Seine eigene Begründung für die Jahre im Deutschen Reich lautete später, er habe sich nicht für Politik interessiert und versucht, seine Familie zu schützen.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: die Stimme der Operette über neun Jahrzehnte</h2>
@@ -2790,8 +2790,8 @@ export function johannesHeestersPortraitPage() {
 
         <h2 class="vb-section">7. Licht und Schatten der sexuellen Sieben mit Sechserflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt in der Lebensfreude, im Humor und in der Zähigkeit, mit der er über ein Jahrhundert hinweg auf der Bühne stand. Für sein Alter nannte er im Dezember 2010 ›Liebe und Leidenschaft‹ als Geheimnis, bei der Liebe zähle der Altersunterschied nicht. 2010 hörte er für seine Frau mit dem Rauchen auf.</p>
-          <p class="vb-intro">Der Schatten der Sieben liegt darin, dass sie das Schwere lieber nicht ansieht: die Politik, das Lager, die Frage nach dem eigenen Anteil. Das Wegschauen kostete ihn Ansehen, vor allem in den Niederlanden, und führte zu Jahrzehnten des Streits.</p>
+          <p class="vb-intro">Das Licht lag in der Lebensfreude, im Humor und in der Zähigkeit, mit der er über ein Jahrhundert hinweg auf der Bühne stand. Für sein Alter nannte er im Dezember 2010 ›Liebe und Leidenschaft‹ als Geheimnis, bei der Liebe zähle der Altersunterschied nicht. 2010 hörte er für seine Frau mit dem Rauchen auf.</p>
+          <p class="vb-intro">Der Schatten der Sieben lag darin, dass sie das Schwere lieber nicht ansah: die Politik, das Lager, die Frage nach dem eigenen Anteil. Das Wegschauen kostete ihn Ansehen, vor allem in den Niederlanden, und führte zu Jahrzehnten des Streits.</p>
         </blockquote>
 
         <h2 class="vb-section">8. Stand: gestorben am 24. Dezember 2011 in Starnberg</h2>

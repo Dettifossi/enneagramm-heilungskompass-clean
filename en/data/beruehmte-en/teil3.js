@@ -2726,13 +2726,13 @@ export function johannesHeestersPortraitPage() {
 
         <h2 class="vb-section">2. The sexual Seven: charm, adventure, fascination</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Seven seeks enjoyment and new impressions and avoids what weighs on one. Claudio Naranjo called the <strong>sexual Seven (SX7)</strong> the subtype of &lsquo;suggestibility&rsquo; (being swayed by fascination): it lets itself be carried by what attracts it and radiates attraction itself. In Heesters both are visible. In 1934 he made his debut at the Vienna Volksoper in Millöcker&rsquo;s &lsquo;Der Bettelstudent&rsquo; (&lsquo;The Beggar Student&rsquo;), in 1936 he went to Berlin and became a star of musical and operetta films for UFA, the big German film company. In 1953 the director Otto Preminger brought him to Hollywood for &lsquo;Die Jungfrau auf dem Dach&rsquo; (&lsquo;The Virgin on the Roof&rsquo;).</p>
+          <p class="vb-intro">The Seven seeks enjoyment and new impressions and avoids what weighs on one. Claudio Naranjo called the <strong>sexual Seven (SX7)</strong> the subtype of &lsquo;suggestibility&rsquo; (being swayed by fascination): it lets itself be carried by what attracts it and radiates attraction itself. In Heesters both were visible. In 1934 he made his debut at the Vienna Volksoper in Millöcker&rsquo;s &lsquo;Der Bettelstudent&rsquo; (&lsquo;The Beggar Student&rsquo;), in 1936 he went to Berlin and became a star of musical and operetta films for UFA, the big German film company. In 1953 the director Otto Preminger brought him to Hollywood for &lsquo;Die Jungfrau auf dem Dach&rsquo; (&lsquo;The Virgin on the Roof&rsquo;).</p>
           <p class="vb-intro">His signature role became Count Danilo in Lehár&rsquo;s &lsquo;Die lustige Witwe&rsquo; (&lsquo;The Merry Widow&rsquo;), which he first sang on New Year&rsquo;s Eve 1938 in Munich and then played over 1,600 times, a charming bon vivant courted by women. Looking back on his long life, he said in effect that he would live everything again, it had been a great adventure.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Six-wing: loyalty, framework, adaptation</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Seven loyalty and the need for a carrying framework. A Seven with a weaker Six-wing would roam more freely; Heesters stays loyal to houses, ensembles and people. In 1930 he married the Belgian actress Louisa &lsquo;Wiske&rsquo; Ghijs; the marriage lasted until her death in 1985, and two daughters came from it. In 1992 he married the actress Simone Rethel. He stayed attached to the Vienna Volksoper, which made him an honorary member in 1984.</p>
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Seven loyalty and the need for a carrying framework. A Seven with a weaker Six-wing would roam more freely; Heesters stayed loyal to houses, ensembles and people. In 1930 he married the Belgian actress Louisa &lsquo;Wiske&rsquo; Ghijs; the marriage lasted until her death in 1985, and two daughters came from it. In 1992 he married the actress Simone Rethel. He stayed attached to the Vienna Volksoper, which made him an honorary member in 1984.</p>
           <p class="vb-intro">The Six-wing also includes fitting into orders without questioning them. His own explanation for the years in the German Reich later was that he had not been interested in politics and had tried to protect his family.</p>
         </blockquote>
 
@@ -2757,8 +2757,8 @@ export function johannesHeestersPortraitPage() {
 
         <h2 class="vb-section">7. Light and shadow of the sexual Seven with a Six-wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light lies in zest for life, humour and the toughness with which he stood on stage across a century. As his secret in December 2010 he named &lsquo;love and passion&rsquo;, with love the age difference did not matter. In 2010 he quit smoking for his wife.</p>
-          <p class="vb-intro">The shadow of the Seven lies in that it prefers not to look at the heavy: politics, the camp, the question of one&rsquo;s own share. The looking away cost him reputation, above all in the Netherlands, and led to decades of dispute.</p>
+          <p class="vb-intro">The light lay in zest for life, humour and the toughness with which he stood on stage across a century. As his secret in December 2010 he named &lsquo;love and passion&rsquo;, with love the age difference did not matter. In 2010 he quit smoking for his wife.</p>
+          <p class="vb-intro">The shadow of the Seven lay in that it preferred not to look at the heavy: politics, the camp, the question of one&rsquo;s own share. The looking away cost him reputation, above all in the Netherlands, and led to decades of dispute.</p>
         </blockquote>
 
         <h2 class="vb-section">8. Status: died on 24 December 2011 in Starnberg</h2>
