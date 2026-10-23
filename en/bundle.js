@@ -8087,6 +8087,10 @@ function enTwoPoints(tp) {
       "Today, consciously choose an essential oil suited to your subtype and inhale it three times deeply.",
     "Wie schaust du heute in die Welt? Beobachte deine Blickrichtung, Spannung in den Augen und die Qualität deiner Aufmerksamkeit.":
       "How do you look at the world today? Observe your gaze direction, the tension in your eyes, and the quality of your attention.",
+    "Atme länger aus als ein. Zähle beim Einatmen bis vier und beim Ausatmen bis sechs. Wiederhole das dreimal.": "Breathe out longer than in. Count to four as you breathe in and to six as you breathe out. Repeat three times.",
+    "Ich darf prüfen, aber ich muss nicht kämpfen, um sicher zu sein.": "I may check, but I do not have to fight in order to be safe.",
+    "Spüre einen Punkt der Anspannung und einen Punkt von Stabilität. Halte beide gleichzeitig im Bewusstsein, bis der Körper mehr Raum findet.": "Feel one point of tension and one point of stability. Hold both in awareness at the same time until the body finds more space.",
+    "Stelle beide Füße bewusst auf den Boden. Spüre Gewicht, Kontakt und Rücken. Antworte erst danach.": "Place both feet consciously on the ground. Feel weight, contact and your back. Only then respond.",
     "Aktivierung gezielt steuern": "Channel activation with intention",
     "Drei tiefe Atemzüge. Auf der Einatmung weiten, auf der Ausatmung loslassen.": "Three deep breaths. Expand on the inhale, let go on the exhale.",
     "Gefühle bewusst zulassen": "Allow feelings consciously",
@@ -8512,6 +8516,11 @@ function oelForType(code) {
   return aetherischeOele.find((o) => o.typ === num) || null;
 }
 
+const OIL_WOUND_EN = {
+  1:"I am flawed and imperfect.", 2:"I am worthless without being useful.", 3:"I am only valuable through achievement.",
+  4:"I am different, I do not belong.", 5:"The world drains me.", 6:"There is no secure footing.",
+  7:"The pain will destroy me.", 8:"Weakness means destruction.", 9:"I do not matter."
+};
 const OIL_TYPE_NAMES_EN = {
   1:"The Perfectionist", 2:"The Helper", 3:"The Performer",
   4:"The Individualist", 5:"The Observer", 6:"The Loyalist",
@@ -8532,7 +8541,7 @@ function oilCard(oel) {
       <div class="oil-card__body">
         <span class="oil-card__type">${typLabelEN}</span>
         <h3>${name}</h3>
-        <p class="oil-card__wound"><strong>Core Wound:</strong> “${oel.urWunde}”</p>
+        <p class="oil-card__wound"><strong>Core Wound:</strong> “${OIL_WOUND_EN[oel.typ] || oel.urWunde}”</p>
         <p class="oil-card__effect">${wirkung}</p>
         ${vertiefung ? `<p class="oil-card__text">${vertiefung}</p>` : ""}
         ${AFFILIATE_LINKS.oel[name] ? affiliateBoxHtml("oel", name) : ""}
@@ -15868,7 +15877,7 @@ function regulierenInner(entry, sp) {
   const enNsr = NSR_EN[(entry.code || "").toLowerCase()];
   if (enNsr || (entry.nervousSystemRegulation && entry.nervousSystemRegulation.length)) blocks.push(`<div class="room-field"><strong>${sp.nervousSystemRegulation || "Nervous System Regulation"}</strong><ul>${(enNsr || entry.nervousSystemRegulation).map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
   if ((enReg.tensionFields || (entry.tensionFields && entry.tensionFields.length))) blocks.push(`<div class="room-field"><strong>${sp.tensionFields || "Tension Fields"}</strong><ul>${(enReg.tensionFields || entry.tensionFields).map((i) => `<li>${i}</li>`).join("")}</ul></div>`);
-  if (entry.practice) blocks.push(`<div class="room-field"><strong>${sp.practice}</strong><p>${entry.practice}</p></div>`);
+  if (entry.practice) blocks.push(`<div class="room-field"><strong>${sp.practice}</strong><p>${PRACTICE_EN[String(entry.code || "").toLowerCase()] || entry.practice}</p></div>`);
   blocks.push(`
     <div class="room-field" style="margin-top:1.4rem;padding:1.1rem 1.2rem;background:var(--paper);border-radius:12px;border-left:3px solid var(--gold);text-align:left;">
       <p style="margin:0 0 0.5rem;font-size:0.88rem;color:var(--ink-muted);line-height:1.6;">Once you have recognised the patterns of this subtype — let what you have read settle now. No further analysis. Simply be.</p>
@@ -15935,6 +15944,9 @@ function translateGroupTitle(title) {
 function translateGroupNote(note) {
   if (note && note.indexOf("Medienblock mit Praxis- und Vertiefungslinks") !== -1) {
     return "Media block with practice and deepening links, wing video, and song and affirmation fields.";
+  }
+  if (note && note.indexOf("Diese Gruppe gehört zur Heilungsseite") !== -1) {
+    return "This group belongs to the healing side: homeopathy, Enneagram homeopathy, healing music, and homeopathy song material.";
   }
   if (note && note.indexOf("Diese Gruppe entspricht dem Medienblock auf Seite 3") !== -1) {
     return "This group corresponds to the media block on page 3: practice links, wing video, and the six song/affirmation fields.";
@@ -20207,7 +20219,7 @@ function detlefRathmerJazzPage() {
     { id: "bjuxx198edA", num: "73", label: "Album 73 – Jazz of Inner Light" },
     { id: "jtN0f9j99Lc", num: "74", label: "Album 74 – Jazz of the Unwritten Path" },
     { id: "HkzeR-6z428", num: "75", label: "Album 75 – Jazz of the Wandering Soul" },
-    { id: "4O3ukz_lkTM", num: "76", label: "Album 76 – Jazz & Healing Vibes", desc: "70 der schönsten Jazzkompositionen von Detlef Rathmer – eine 3¾-stündige Reise durch Klang und Wohlbefinden." },
+    { id: "4O3ukz_lkTM", num: "76", label: "Album 76 – Jazz & Healing Vibes", desc: "70 of the most beautiful jazz compositions by Detlef Rathmer – a 3¾-hour journey through sound and well-being." },
     { id: "BIVoUgrInEY", num: "77", label: "Album 77 – Jazz of the Eternal Flow" },
     { id: "jwaiY-XAICw", num: "78", label: "Album 78 – Jazz of Destiny’s Flow" },
     { id: "vHzAIXpkOro", num: "79", label: "Album 79 – Jazz of the Unfolding Mystery" },
@@ -20218,22 +20230,22 @@ function detlefRathmerJazzPage() {
     { id: "NE7kqSM1PGU", num: "84", label: "Album 84 – Jazz of Vital Resonance" },
     { id: "1AGJ32cw6lI", num: "85", label: "Album 85 – Swinging Jazz of Cosmic Clarity" },
     { id: "LlqDcFqqm8I", num: "86", label: "Album 86 – Spirit of 1950s West Coast Jazz" },
-    { id: "U5CgE4r9G9c", num: "87", label: "Album 87 – Spirit of 1920s New Orleans Jazz (Dixieland)", desc: "Mitreißende Klarinetten, Trompeten und Posaunen im Dixieland-Stil des frühen New-Orleans-Jazz." },
-    { id: "MC-fXn94Nv0", label: "Album 88 – Spirit of 1930s Energetic Swing Jazz", desc: "Mitreißende Big-Band-Klänge und tanzbare Rhythmen des Swing-Jazz der 1930er Jahre." },
-    { id: "GInMSoLraG0", num: "89", label: "Album 89 – Spirit of 1940s Fast-paced Bebop Jazz", desc: "Rasanter Bebop mit komplexen Harmonien und virtuosen Soli – Jazz der 1940er in seiner schnellsten Form." },
-    { id: "Vnre_ymfs3Y", label: "Album 90 – Spirit of 1950s Smooth Cool Jazz", desc: "Sanfte Melodien und weiche Bläser im Stil des Cool Jazz der 1950er – entspannt und stilvoll." },
-    { id: "-MK_u80PKWw", label: "Album 91 – Spirit of Lively Latin Jazz", desc: "Lateinamerikanische Rhythmen treffen auf Jazz-Improvisation – kubanische und brasilianische Einflüsse." },
-    { id: "ddD6oSU_I_4", label: "Album 92 – Spirit of Meditative Modal Jazz", desc: "Modaler Jazz mit wenigen Harmoniewechseln und viel Tiefe – meditativ und frei in der Improvisation." },
-    { id: "uoDD_45vCgU", label: "Album 93 – Spirit of Relaxing Lo-Fi Jazz", desc: "Entspannter Lo-Fi-Jazz mit weichen Beats und nostalgischem Klang – ideal zum Lernen, Arbeiten oder Entspannen." },
-    { id: "IaxD4i3ZIUo", num: "94", label: "Album 94 – Lo-Fi Jazz of the Unwritten Language of Life", desc: "Lo-Fi Jazz als Sprache des Lebens – zwischen Stille und Schwingen, wo keine Worte mehr nötig sind." },
-    { id: "5d-jXATn2Lk", num: "95", label: "Album 95 – Jazz of Gravity and Grace", desc: "Schwere und Anmut im Dialog – Jazz, der die Erdung mit der Leichtigkeit des Seins verbindet." },
-    { id: "xIIbqGrQB_U", label: "Album 96 – Jazz of Echoes Beyond the Form", desc: "Klangreisen jenseits der Form – Jazz als Spiegel des Unausgesprochenen und Fluss des inneren Nachhalls." },
-    { id: "BDyzUXBdy-o", num: "97", label: "Album 97 – Jazz of Inner Stillness (Lo-fi, Bossanova)", desc: "Lo-Fi und Bossanova im Zeichen der inneren Stille – Musik für ruhige Momente und tiefes Atemholen." },
-    { id: "g8k8nzvnTSo", label: "Album 98 – Jazz of the Spiritual Flow", desc: "Lo-fi, Bossa und Swing im Fluss des Spirituellen – Musik für tiefe Stille und innere Weite." },
-    { id: "jw9n6Dccr7M", num: "99", label: "Album 99 – Jazz of Cosmic Law (Lo-fi, Swing Jazz)", desc: "Lo-Fi und Swing im Einklang mit dem kosmischen Gesetz – Rhythmus und Stille als Ausdruck der Weltordnung." },
-    { id: "5AYWhg50bnw", label: "Album 100 – Jazz XXI – 21st Century Jazz", desc: "Lo-fi, Swing und Nordic Jazz des 21. Jahrhunderts – zeitgenössischer Jazz zwischen Stille und Energie." },
-    { id: "ku-pxWpNCZc", num: "101", label: "Album 101 – Stillness in the Shifting Sky (Nordic Jazz)", desc: "Nordischer Jazz unter wechselndem Himmel – Stille und Bewegung, Licht und Wolken in klingender Form." },
-    { id: "4firu1KRKIk", label: "Album 102 – Breath of the Unseen (Nordic Jazz)", desc: "Nordischer Jazz mit Atem und Weite – Musik für das Unsichtbare zwischen den Tönen." },
+    { id: "U5CgE4r9G9c", num: "87", label: "Album 87 – Spirit of 1920s New Orleans Jazz (Dixieland)", desc: "Rousing clarinets, trumpets and trombones in the Dixieland style of early New Orleans jazz." },
+    { id: "MC-fXn94Nv0", label: "Album 88 – Spirit of 1930s Energetic Swing Jazz", desc: "Rousing big-band sounds and danceable rhythms of 1930s swing jazz." },
+    { id: "GInMSoLraG0", num: "89", label: "Album 89 – Spirit of 1940s Fast-paced Bebop Jazz", desc: "Fast-paced bebop with complex harmonies and virtuoso solos – 1940s jazz in its fastest form." },
+    { id: "Vnre_ymfs3Y", label: "Album 90 – Spirit of 1950s Smooth Cool Jazz", desc: "Gentle melodies and soft horns in the style of 1950s cool jazz – relaxed and stylish." },
+    { id: "-MK_u80PKWw", label: "Album 91 – Spirit of Lively Latin Jazz", desc: "Latin American rhythms meet jazz improvisation – Cuban and Brazilian influences." },
+    { id: "ddD6oSU_I_4", label: "Album 92 – Spirit of Meditative Modal Jazz", desc: "Modal jazz with few chord changes and great depth – meditative and free in improvisation." },
+    { id: "uoDD_45vCgU", label: "Album 93 – Spirit of Relaxing Lo-Fi Jazz", desc: "Relaxed lo-fi jazz with soft beats and a nostalgic sound – ideal for studying, working or relaxing." },
+    { id: "IaxD4i3ZIUo", num: "94", label: "Album 94 – Lo-Fi Jazz of the Unwritten Language of Life", desc: "Lo-fi jazz as the language of life – between stillness and swing, where no words are needed any more." },
+    { id: "5d-jXATn2Lk", num: "95", label: "Album 95 – Jazz of Gravity and Grace", desc: "Gravity and grace in dialogue – jazz that joins groundedness with the lightness of being." },
+    { id: "xIIbqGrQB_U", label: "Album 96 – Jazz of Echoes Beyond the Form", desc: "Sound journeys beyond form – jazz as a mirror of the unspoken and a flow of inner resonance." },
+    { id: "BDyzUXBdy-o", num: "97", label: "Album 97 – Jazz of Inner Stillness (Lo-fi, Bossanova)", desc: "Lo-fi and bossa nova in the sign of inner stillness – music for quiet moments and deep breaths." },
+    { id: "g8k8nzvnTSo", label: "Album 98 – Jazz of the Spiritual Flow", desc: "Lo-fi, bossa and swing in the flow of the spiritual – music for deep stillness and inner expanse." },
+    { id: "jw9n6Dccr7M", num: "99", label: "Album 99 – Jazz of Cosmic Law (Lo-fi, Swing Jazz)", desc: "Lo-fi and swing in harmony with the cosmic law – rhythm and stillness as an expression of the world order." },
+    { id: "5AYWhg50bnw", label: "Album 100 – Jazz XXI – 21st Century Jazz", desc: "Lo-fi, swing and Nordic jazz of the 21st century – contemporary jazz between stillness and energy." },
+    { id: "ku-pxWpNCZc", num: "101", label: "Album 101 – Stillness in the Shifting Sky (Nordic Jazz)", desc: "Nordic jazz under a changing sky – stillness and movement, light and clouds in sounding form." },
+    { id: "4firu1KRKIk", label: "Album 102 – Breath of the Unseen (Nordic Jazz)", desc: "Nordic jazz with breath and expanse – music for the invisible between the notes." },
   ];
 
   const enneagrammAlbenGenres = [
@@ -20386,7 +20398,7 @@ const SPIRITUELL_TRACKS = {
     { id: "L2ZsAW7Dngo", label: "7. Like Fire Beneath the Skin" },
     { id: "i4GxkTdlPCk", label: "8. Forever and a Day" },
     { id: "c2CcthcXRxc", label: "9. Wings of Light" },
-    { id: "BCn5c-Z8ulM", label: "10. Wahre Liebe", desc: "Ein Liebeslied für die neun Typen des Enneagramms – jeder Typ wird mit seiner ganz eigenen Lebensart, seiner Sehnsucht und seinem Weg zur Liebe besungen." },
+    { id: "BCn5c-Z8ulM", label: "10. Wahre Liebe", desc: "A love song for the nine Enneagram types – each type is sung about with its very own way of life, its longing and its path to love." },
   ];
 
   const grid = (items, tracksMap) => `
@@ -20579,7 +20591,7 @@ const SPIRITUELL_TRACKS = {
         { route: "detlef-rathmer-jazz|dr-spirituell", label: "Spirituelle Songs" },
         { route: "detlef-rathmer-jazz|dr-biblisch", label: "Biblical Subtype Songs" },
         { route: "stille", label: "9 Minuten Stille" },
-        { route: "musik", label: "Entspannungs- und Heilungsmusik" },
+        { route: "musik", label: "Relaxation and Healing Music" },
         { route: "homoeopathie-songs", label: "Homeopathy and Enneagram-Homeopathy Songs" },
         { route: "beruhmte-komponisten", label: "Famous Composers" },
       ])}
@@ -21211,17 +21223,17 @@ function naehePage() {
 
         <div style="display:grid;gap:.55rem;margin:1.5rem 0;padding:1rem 1.1rem;background:var(--paper);border-radius:8px;border:1px solid var(--line);font-size:.85rem;line-height:1.6;">
           ${[
-            [1,"versucht, die Welt zu verbessern","weil er fr\xfch gelernt hat, dass Fehler schwer wiegen"],
-            [2,"k\xfcmmert sich um andere","nicht selten, weil er Liebe mit Bed\xfcrftigkeit verkn\xfcpft hat"],
-            [3,"strebt nach Erfolg","weil Anerkennung einmal an Leistung gebunden war"],
-            [4,"sucht Tiefe und Besonderheit","weil das Gef\xfchl des Andersseins nie ganz verschwunden ist"],
-            [5,"zieht sich zur\xfcck","um inneren Raum zu bewahren, wenn \xe4u\xdfere Anforderungen \xfcberw\xe4ltigend waren"],
-            [6,"pr\xfcft und sichert ab","weil Vertrauen nicht selbstverst\xe4ndlich war"],
-            [7,"plant, erweitert, entkommt","um Schmerz nicht zu nahe kommen zu lassen"],
-            [8,"wird stark","weil Schw\xe4che gef\xe4hrlich erschien"],
-            [9,"harmonisiert","um Verbindung nicht zu verlieren"],
+            [1,"tries to improve the world","because he learned early that mistakes weigh heavily"],
+            [2,"cares for others","often because he has linked love with neediness"],
+            [3,"strives for success","because recognition was once tied to achievement"],
+            [4,"seeks depth and uniqueness","because the feeling of being different never quite disappeared"],
+            [5,"withdraws","to preserve inner space when external demands were overwhelming"],
+            [6,"checks and secures","because trust was not a given"],
+            [7,"plans, expands, escapes","in order not to let pain come too close"],
+            [8,"becomes strong","because weakness seemed dangerous"],
+            [9,"harmonizes","in order not to lose connection"],
           ].map(([nr,was,weil]) => `
-            <div><span style="font-weight:700;color:var(--copper);">Typ\xa0${nr}</span> ${was} &ndash; <span style="color:var(--muted);">${weil}.</span></div>
+            <div><span style="font-weight:700;color:var(--copper);">Type\xa0${nr}</span> ${was} &ndash; <span style="color:var(--muted);">${weil}.</span></div>
           `).join("")}
         </div>
 
@@ -27250,50 +27262,50 @@ function enneagrammZimmerpflanzenPage() {
 function persoenlichkeitsmodelleVergleichPage() {
   const MODELLE = [
     {
-      name: "Big Five (OCEAN-Modell)",
-      was: "Messbare, stabile Verhaltenstendenzen auf fünf Dimensionen: Offenheit, Gewissenhaftigkeit, Extraversion, Verträglichkeit, Neurotizismus.",
-      blick: "Das <em>„Was“</em> – Symptom und Beschreibung",
-      ziel: "Wissenschaftlich exakte Beschreibung des Status quo",
+      name: "Big Five (OCEAN model)",
+      was: "Measurable, stable behavioral tendencies on five dimensions: openness, conscientiousness, extraversion, agreeableness, neuroticism.",
+      blick: "The <em>&ldquo;what&rdquo;</em> &ndash; symptom and description",
+      ziel: "Scientifically exact description of the status quo",
       farbe: "#5a8a6e",
       icon: "📊",
     },
     {
-      name: "MBTI (Myers-Briggs-Typenindikator)",
-      was: "Kognitive Präferenzen der Informationsverarbeitung; ordnet Menschen in 16 Profile ein (z. B. INFJ, ESTP) – basierend auf C. G. Jungs Typenlehre.",
-      blick: "Das <em>„Wie“</em> – Informationsverarbeitung und Denkstile",
-      ziel: "Verständnis von Wahrnehmungs- und Entscheidungsstilen",
+      name: "MBTI (Myers-Briggs Type Indicator)",
+      was: "Cognitive preferences in processing information; sorts people into 16 profiles (e.g. INFJ, ESTP) &ndash; based on C. G. Jung&rsquo;s theory of types.",
+      blick: "The <em>&ldquo;how&rdquo;</em> &ndash; information processing and thinking styles",
+      ziel: "Understanding styles of perception and decision-making",
       farbe: "#4a6e9e",
       icon: "🧩",
     },
     {
-      name: "DISG-Modell",
-      was: "Vier Verhaltenstendenzen im sozialen und beruflichen Kontext (Dominanz, Initiative, Stetigkeit, Gewissenhaftigkeit), oft als Farbenmodell visualisiert.",
-      blick: "Das <em>„Was“</em> – Außenwirkung und Kommunikationsverhalten",
-      ziel: "Pragmatische Optimierung von Zusammenarbeit und Teamdynamik",
+      name: "DISC model",
+      was: "Four behavioral tendencies in social and professional contexts (dominance, initiative, steadiness, conscientiousness), often visualized as a color model.",
+      blick: "The <em>&ldquo;what&rdquo;</em> &ndash; outward impact and communication behavior",
+      ziel: "Pragmatic optimization of cooperation and team dynamics",
       farbe: "#9e7a4a",
       icon: "🎨",
     },
     {
       name: "Human Design",
-      was: "Moderne Synthese aus Astrologie, I Ging, Kabbala und Quantenphysik; beschreibt den energetischen „Bauplan“ einer Person anhand ihres Geburtszeitpunkts.",
-      blick: "Der <em>„Energiefluss“</em> – kosmische Voraussetzungen",
-      ziel: "Erkenntnis der eigenen Lebens- und Entscheidungsstrategie",
+      was: "A modern synthesis of astrology, I Ching, Kabbalah and quantum physics; describes a person&rsquo;s energetic &ldquo;blueprint&rdquo; based on the time of birth.",
+      blick: "The <em>&ldquo;energy flow&rdquo;</em> &ndash; cosmic preconditions",
+      ziel: "Insight into one&rsquo;s own life and decision-making strategy",
       farbe: "#7a5a9e",
       icon: "✦",
     },
     {
       name: "Spiral Dynamics",
-      was: "Modell der Evolution von Werte- und Bewusstseinssystemen; beschreibt gesellschaftliche und individuelle Entwicklungsstufen als farbige Spirale.",
-      blick: "Die <em>„Bewusstseinsebene“</em> – Werte und Weltbild",
-      ziel: "Einordnung in evolutionäre Entwicklungsstufen",
+      was: "A model of the evolution of value and consciousness systems; describes social and individual stages of development as a colored spiral.",
+      blick: "The <em>&ldquo;level of consciousness&rdquo;</em> &ndash; values and worldview",
+      ziel: "Placement within evolutionary stages of development",
       farbe: "#5a6e3e",
       icon: "🌀",
     },
     {
-      name: "Enneagramm",
-      was: "Tiefsitzende Kernmotivationen, unbewusste Ängste und existenzielle Sehnsüchte – die psychische Grundstruktur, aus der alles Verhalten entspringt.",
-      blick: "Das <em>„Warum“</em> – die psychische Ursache",
-      ziel: "Echte psychologische Transformation und innere Befreiung",
+      name: "Enneagram",
+      was: "Deep-seated core motivations, unconscious fears and existential longings &ndash; the psychological basic structure from which all behavior arises.",
+      blick: "The <em>&ldquo;why&rdquo;</em> &ndash; the psychological cause",
+      ziel: "Genuine psychological transformation and inner liberation",
       farbe: "var(--gold-dark)",
       icon: "◉",
     },
@@ -37992,33 +38004,33 @@ function solfeggioFrequenzenPage() {
   const IMG = "https://res.cloudinary.com/ymooybdl/image/upload/v1783725116/kompass/stille-sounds/solfeggio-kreis.jpg";
 
   const frequenzen = [
-    { hz: 174, typ: 7, titel: "Schutz und Sicherheit",
-      wirkung: "Diese tiefste der Solfeggio-Frequenzen wird oft mit der Linderung von Schmerz und Stress assoziiert. Sie soll den K\xf6rper beruhigen und Stabilit\xe4t geben.",
-      chakra: "Wirkt erdend und hilft, ein Gef\xfchl von Sicherheit zu schaffen &mdash; korrespondiert mit dem Wurzelchakra." },
-    { hz: 285, typ: 8, titel: "Regeneration und Heilung",
-      wirkung: "Unterst\xfctzt die Regeneration von Gewebe und Zellen und wird mit k\xf6rperlicher Heilung in Verbindung gebracht.",
-      chakra: "F\xf6rdert ein Gef\xfchl der Ganzheit und Erneuerung &mdash; der K\xf6rper wird energetisch gest\xe4rkt." },
-    { hz: 396, typ: 9, titel: "Befreiung von Schuld und Angst",
-      wirkung: "Diese Frequenz wird verwendet, um emotionale Blockaden zu l\xf6sen, insbesondere Schuldgef\xfchle und \xc4ngste. Sie hilft, inneren Frieden zu finden.",
-      chakra: "Unterst\xfctzt das Wurzelchakra und bringt Stabilit\xe4t und Kraft." },
-    { hz: 417, typ: 1, titel: "Ver\xe4nderung und Neubeginn",
-      wirkung: "Hilft dabei, alte Muster und Gewohnheiten aufzul\xf6sen, um Platz f\xfcr Wachstum zu schaffen.",
-      chakra: "St\xe4rkt das Sakralchakra und f\xf6rdert Kreativit\xe4t sowie emotionale Transformation." },
-    { hz: 528, typ: 2, titel: "Liebe und DNA-Heilung",
-      wirkung: "Oft als \u201eLiebesfrequenz\u201c bezeichnet &mdash; soll die DNA reparieren und Liebe sowie Heilung f\xf6rdern. Sie wird mit tiefer Harmonie und Vitalit\xe4t in Verbindung gebracht.",
-      chakra: "\xd6ffnet das Herzchakra und vertieft die emotionale Verbindung." },
-    { hz: 639, typ: 3, titel: "Harmonie in Relationships",
-      wirkung: "Diese Frequenz hilft, harmonische Beziehungen aufzubauen und zwischenmenschliche Konflikte zu l\xf6sen.",
-      chakra: "Aktiviert das Herzchakra und f\xf6rdert Empathie und Verst\xe4ndnis." },
-    { hz: 741, typ: 4, titel: "Reinigung und Selbstausdruck",
-      wirkung: "Unterst\xfctzt bei der Reinigung von negativen Energien und Toxinen und hilft, klar zu kommunizieren.",
-      chakra: "F\xf6rdert das Kehlchakra und hilft, die eigene Wahrheit authentisch auszudr\xfccken." },
-    { hz: 852, typ: 5, titel: "Intuition und spirituelles Erwachen",
-      wirkung: "Sch\xe4rft die Intuition und bringt den Geist in Einklang mit h\xf6heren spirituellen Dimensionen.",
-      chakra: "\xd6ffnet das Stirnchakra und f\xf6rdert das spirituelle Bewusstsein." },
-    { hz: 963, typ: 6, titel: "Einheit und Verbindung mit dem Universum",
-      wirkung: "Diese Frequenz wird mit der Aktivierung der Zirbeldr\xfcse und der Erfahrung von Einheit und g\xf6ttlicher Verbundenheit in Verbindung gebracht.",
-      chakra: "\xd6ffnet das Kronenchakra und f\xf6rdert die Verbindung zur universellen Energie." },
+    { hz: 174, typ: 7, titel: "Protection and Security",
+      wirkung: "This lowest of the Solfeggio frequencies is often associated with relief from pain and stress. It is said to calm the body and give stability.",
+      chakra: "Has a grounding effect and helps to create a sense of security &mdash; corresponds to the root chakra." },
+    { hz: 285, typ: 8, titel: "Regeneration and Healing",
+      wirkung: "Supports the regeneration of tissue and cells and is associated with physical healing.",
+      chakra: "Promotes a feeling of wholeness and renewal &mdash; the body is energetically strengthened." },
+    { hz: 396, typ: 9, titel: "Liberation from Guilt and Fear",
+      wirkung: "This frequency is used to release emotional blockages, in particular feelings of guilt and fears. It helps to find inner peace.",
+      chakra: "Supports the root chakra and brings stability and strength." },
+    { hz: 417, typ: 1, titel: "Change and New Beginnings",
+      wirkung: "Helps to dissolve old patterns and habits in order to make room for growth.",
+      chakra: "Strengthens the sacral chakra and promotes creativity as well as emotional transformation." },
+    { hz: 528, typ: 2, titel: "Love and DNA Repair",
+      wirkung: "Often called the &ldquo;love frequency&rdquo; &mdash; said to repair DNA and to promote love and healing. It is associated with deep harmony and vitality.",
+      chakra: "Opens the heart chakra and deepens the emotional connection." },
+    { hz: 639, typ: 3, titel: "Harmony in Relationships",
+      wirkung: "This frequency helps to build harmonious relationships and to resolve interpersonal conflicts.",
+      chakra: "Activates the heart chakra and promotes empathy and understanding." },
+    { hz: 741, typ: 4, titel: "Cleansing and Self-Expression",
+      wirkung: "Supports the cleansing of negative energies and toxins and helps to communicate clearly.",
+      chakra: "Promotes the throat chakra and helps to express one's own truth authentically." },
+    { hz: 852, typ: 5, titel: "Intuition and Spiritual Awakening",
+      wirkung: "Sharpens intuition and brings the mind into harmony with higher spiritual dimensions.",
+      chakra: "Opens the third-eye chakra and promotes spiritual awareness." },
+    { hz: 963, typ: 6, titel: "Unity and Connection with the Universe",
+      wirkung: "This frequency is associated with the activation of the pineal gland and the experience of unity and divine connection.",
+      chakra: "Opens the crown chakra and promotes the connection to universal energy." },
   ];
 
   const kartenHTML = frequenzen.map((f, i) => `
@@ -38026,11 +38038,11 @@ function solfeggioFrequenzenPage() {
       <div style="display:flex;align-items:center;justify-content:space-between;gap:.75rem;margin-bottom:.15rem;flex-wrap:wrap;">
         <div style="display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap;">
             <p style="font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-dark,#a07830);font-weight:700;margin:0;">${f.hz} Hz &mdash; ${f.titel}</p>
-            <span style="font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:var(--cream,#f5f0e8);background:var(--anthracite,#2a2a2a);padding:.15rem .55rem;border-radius:999px;font-weight:700;white-space:nowrap;">Typ ${f.typ}</span>
+            <span style="font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:var(--cream,#f5f0e8);background:var(--anthracite,#2a2a2a);padding:.15rem .55rem;border-radius:999px;font-weight:700;white-space:nowrap;">Type ${f.typ}</span>
           </div>
         <button class="solf-play-btn" data-hz="${f.hz}"
           style="display:flex;align-items:center;gap:.35rem;background:var(--gold,#c8a84b);color:#1a1208;border:none;border-radius:999px;padding:.3rem .85rem;font-size:.78rem;font-weight:700;cursor:pointer;white-space:nowrap;flex-shrink:0;">
-          ▶ Anhören
+          ▶ Listen
         </button>
       </div>
       <p style="font-size:.88rem;line-height:1.7;color:var(--anthracite);margin:.5rem 0 .4rem;"><strong>Effect:</strong> ${f.wirkung}</p>
@@ -38039,9 +38051,9 @@ function solfeggioFrequenzenPage() {
   `).join("");
 
   const einsteinZitate = [
-    "„Alles ist Energie und das ist alles, was ist. Triff die Schwingungszahl der von dir gew\xfcnschten Realit\xe4t, und du wirst nichts als diese Realit\xe4t bekommen. Es gibt keinen anderen Weg. Das ist keine Philosophie. Das ist Physik.“",
-    "„Was Materie betrifft, haben wir uns alle geirrt. Was wir Materie genannt haben, ist Energie, deren Vibrationen derart gesenkt wurde, dass man sie mit den Sinnen wahrnehmen konnte. Materie ist Geist, der reduziert ist bis zu dem Punkt der Sichtbarkeit.“",
-    "„Alles ist vorherbestimmt, jeder Anfang, jedes Ende, durch Kr\xe4fte, \xfcber die wir keine Kontrolle haben. Es ist vorherbestimmt f\xfcr die Insekten ebenso wie f\xfcr die Sterne.“",
+    "&ldquo;Everything is energy and that is all there is to it. Match the frequency of the reality you want, and you cannot help but get that reality. There is no other way. This is not philosophy. This is physics.&rdquo;",
+    "&ldquo;As far as matter is concerned, we have all been wrong. What we called matter is energy whose vibration has been lowered so much that it could be perceived by the senses. Matter is spirit reduced to the point of visibility.&rdquo;",
+    "&ldquo;Everything is determined, the beginning as well as the end, by forces over which we have no control. It is determined for the insect as well as for the star.&rdquo;",
   ];
 
   return shell(`
@@ -38091,26 +38103,26 @@ function solfeggioFrequenzenPage() {
 function zehnAnwendungenPage() {
   const IMG = "https://res.cloudinary.com/ymooybdl/image/upload/v1783721122/kompass/stille-sounds/zehn-anwendungen-schaubild.png";
   const anwendungen = [
-    { nr:1, titel:"Pers\xf6nliches Wachstum",
-      text:"Das Enneagramm als Selbsterkenntnismodell beginnt mit Selbstmanagement. Wir lernen zu erkennen, wie selektiv wir durch die Brille unseres Typs wahrnehmen und wie stark unsere Handlungsalternativen durch automatische Reaktionen und Muster eingeschr\xe4nkt werden. Wer das versteht, gewinnt dadurch einen enormen Effektivit\xe4tsgewinn &mdash; weil er nach und nach immer besser lernt, ganzheitlich und urteilsfrei wahrzunehmen: 360 Grad der Realit\xe4t statt nur einem Neuntel davon." },
-    { nr:2, titel:"Ver\xe4nderungsmanagement",
-      text:"Gerade wenn Menschen sich unsicher f\xfchlen und nicht ganz bewusst agieren, zeigen sie st\xe4rker ihr typspezifisches Verhalten. Das macht Widerspr\xfcche und Widerst\xe4nde in Ver\xe4nderungsprozessen erkl\xe4rbar. Enneagrammkenntnisse helfen, das Personalmanagement w\xe4hrend Ver\xe4nderungen gezielt zu unterst\xfctzen &mdash; Prozesse laufen gl\xe4tter, Mitarbeiter kommen leichter mit." },
-    { nr:3, titel:"Dauerhafte Relationships",
-      text:"Zwischen Menschen zu verstehen, anzuerkennen und zu sch\xe4tzen zu lernen, ist vielleicht der gr\xf6\xdfte Gewinn durch das Enneagramm. Zu verstehen, dass die Dinge bei anderen anders sind, f\xfchrt automatisch zu mehr Geduld und Mitgef\xfchl. Hinterher h\xf6rt man immer wieder von Menschen, dass sie, nachdem sie Enneagrammkenntnisse erworben haben, abends zu Hause ein ganz anderes, wunderbares Gespr\xe4ch gef\xfchrt haben." },
-    { nr:4, titel:"Mehr Erfolg bei der Mediation",
-      text:"Das Enneagramm bietet Mediatoren eine Abk\xfcrzung zu fundierter Menschenkenntnis und Einf\xfchlungsverm\xf6gen. Je besser ein Mediator die menschliche und emotionale Seite eines Konflikts in den Griff bekommt, desto h\xe4ufiger wird er ein befriedigendes Ergebnis verbuchen k\xf6nnen. Besonders bei Scheidungen und Trennungen, bei denen Kinder betroffen sind, ist fundiertes Enneagrammwissen au\xdferordentlich wertvoll." },
-    { nr:5, titel:"Effektivit\xe4tsgewinn als Manager",
-      text:"F\xfchrungskr\xe4fte neigen neben Anderen auch dazu, andere auf der Grundlage ihrer eigenen Selbstverst\xe4ndlichkeiten zu f\xfchren. Das Enneagramm dient ihnen als Handbuch, wie sie mit anderen Menschentypen umgehen k\xf6nnen &mdash; eine Anleitung f\xfcr situationsbezogenes Management, das hilft, eigene Selbstverst\xe4ndlichkeiten loszulassen und neue Handlungsoptionen zu gewinnen." },
-    { nr:6, titel:"Lernende Organisationen, Projektmanagement, Siegerteams",
-      text:"Das Enneagramm bietet die fundierte Menschenkenntnis, das Vehikel zur Reflexion, das F\xfchrungskr\xe4fte brauchen: f\xfcr die Gestaltung einer lernenden Organisation, f\xfcr erfolgreiches Projektmanagement und beim Schaffen von Siegerteams. Die entscheidende Frage bleibt: Wie k\xf6nnen F\xfchrungskr\xe4fte die eigenen Beschr\xe4nkungen \xfcberwinden, um das zu tun, was n\xf6tig ist &mdash; und wozu sie vielleicht nicht von Natur aus neigen?" },
-    { nr:7, titel:"Unterricht (f\xfcr Lehrkr\xe4fte)",
-      text:"Lehrenden, die die Enneagrammtypen kennen, k\xf6nnen besser verstehen, welche Schwierigkeiten ein Sch\xfcler mit manchen Dingen hat und vor allem warum. Sie k\xf6nnen erkennen, dass sie selbst (und dem Kind) gegen\xfcber vielleicht erkennen, dass ihnen die Begleitung eines bestimmten Kindertyps schwer f\xe4llt. Das Enneagramm hilft dabei, wahrzunehmen, in welcher Richtung die L\xf6sung zu finden ist &mdash; auch bei der Lehrperson selbst." },
-    { nr:8, titel:"Personalbeschaffung",
-      text:"Das Enneagramm ist sinnvoll bei der Personalbeschaffung, wenn es darum geht, zwei geeignete Kandidaten auszuw\xe4hlen und festzustellen, welcher der beiden in seiner Pers\xf6nlichkeitsstruktur besser zum zuk\xfcnftigen Chef und zum Rest des Teams passt. Wichtig: Das Enneagramm darf nicht zur Stereotypisierung verwendet werden &mdash; pers\xf6nliche Entwicklung und Lernverm\xf6gen z\xe4hlen ebenso." },
-    { nr:9, titel:"Erziehung",
-      text:"Eine der sch\xf6nsten Anwendungsm\xf6glichkeiten. Gerade die sozial-emotionale Entwicklung w\xe4hrend des Heranwachsens hat starken Einfluss auf das sp\xe4tere Verhalten als Erwachsener. Das Enneagramm hilft, sich besser auf das einzelne Kind abzustimmen &mdash; die Pers\xf6nlichkeitsstruktur des Kindes entwickelt sich zwar noch, zeigt sich aber bereits in jungen Jahren. Aufmerksame ErzieherInnen, die die Kinder wirklich sehen und h\xf6ren, k\xf6nnen das auch ohne Enneagramm." },
-    { nr:10, titel:"Elternschaft",
-      text:"Erziehung und Elternschaft klingt \xe4hnlich, aber es gibt einen gro\xdfen Unterschied. Elternschaft ist das, was wir mit den Kindern tun und ihnen anbieten. Sich in der eigenen Elternrolle zu entwickeln ist etwas anderes: Es geht darum, wie man sich selbst erzieht, was man sich selbst beibringt. Das Enneagramm eignet sich hier als Hilfsmittel, als hilfreiches Tool, um bewusst gemeinsam Elternschaft und Erziehung auszuf\xfcllen." },
+    { nr:1, titel:"Personal Growth",
+      text:"The Enneagram as a model of self-knowledge begins with self-management. We learn to recognize how selectively we perceive through the lens of our type and how strongly our options for action are limited by automatic reactions and patterns. Those who understand this gain an enormous gain in effectiveness &mdash; because step by step they learn to perceive more holistically and without judgment: 360 degrees of reality instead of only a ninth of it." },
+    { nr:2, titel:"Change Management",
+      text:"Precisely when people feel insecure and do not act fully consciously, they show their type-specific behavior more strongly. This makes contradictions and resistance in change processes explicable. Knowledge of the Enneagram helps to support staff management during change in a targeted way &mdash; processes run more smoothly, and employees come along more easily." },
+    { nr:3, titel:"Lasting Relationships",
+      text:"Learning to understand, acknowledge and appreciate one another is perhaps the greatest gain the Enneagram offers. Understanding that things are different for other people automatically leads to more patience and compassion. Time and again people report that, after acquiring Enneagram knowledge, they had a completely different, wonderful conversation at home in the evening." },
+    { nr:4, titel:"More Success in Mediation",
+      text:"The Enneagram offers mediators a shortcut to well-founded insight into people and empathy. The better a mediator gets a grip on the human and emotional side of a conflict, the more often they will achieve a satisfying result. Especially in divorces and separations in which children are affected, sound knowledge of the Enneagram is extraordinarily valuable." },
+    { nr:5, titel:"Efficiency Gains as a Manager",
+      text:"Like others, managers tend to lead other people on the basis of their own self-evident assumptions. The Enneagram serves them as a handbook for dealing with other types of people &mdash; a guide to situational management that helps to let go of one's own assumptions and to gain new options for action." },
+    { nr:6, titel:"Learning Organizations, Project Management, Winning Teams",
+      text:"The Enneagram offers the well-founded insight into people and the vehicle for reflection that managers need: for shaping a learning organization, for successful project management and for building winning teams. The decisive question remains: how can managers overcome their own limitations in order to do what is necessary &mdash; and what they may not naturally tend to do?" },
+    { nr:7, titel:"Teaching (for Educators)",
+      text:"Teachers who know the Enneagram types can better understand which difficulties a student has with certain things and, above all, why. They can recognize that they themselves find it hard to accompany a certain type of child. The Enneagram helps to perceive in which direction the solution is to be found &mdash; including in the teacher themselves." },
+    { nr:8, titel:"Recruitment",
+      text:"The Enneagram is useful in recruitment when it comes to choosing between two suitable candidates and determining which of the two fits better, in terms of personality structure, with the future boss and the rest of the team. Important: the Enneagram must not be used for stereotyping &mdash; personal development and the ability to learn count just as much." },
+    { nr:9, titel:"Child-Rearing",
+      text:"One of the most beautiful applications. Social-emotional development during growing up has a strong influence on later behavior as an adult. The Enneagram helps to tune in better to the individual child &mdash; the child's personality structure is still developing, yet it already shows at a young age. Attentive educators who truly see and hear the children can do this even without the Enneagram." },
+    { nr:10, titel:"Parenting",
+      text:"Child-rearing and parenting sound similar, but there is a big difference. Parenting is what we do with children and offer them. Developing in one's own role as a parent is something else: it is about how one raises oneself and what one teaches oneself. The Enneagram is suitable here as an aid, a helpful tool, for consciously fulfilling parenting and child-rearing together." },
   ];
 
   const kartenHTML = anwendungen.map(a => `
@@ -38130,7 +38142,7 @@ function zehnAnwendungenPage() {
         <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1rem 0 1.5rem;">The Enneagram is highly versatile. Because it is about our actions as human beings, the Enneagram can be used in every area of our lives &mdash; privately and professionally alike. There is one thing we deal with every day: the relationship between two or more people. The following ten topics show just how diverse the benefits of the Enneagram truly are &mdash; and invite you to explore your own areas and topics even deeper.</p>
       </div>
 
-      <img src="${IMG}" alt="10 Anwendungen f\xfcr das Enneagramm &mdash; \xdcbersicht"
+      <img src="${IMG}" alt="10 Applications for the Enneagram &mdash; Overview"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2.5rem;border-radius:14px;" loading="lazy" />
 
       <div class="vb-section" style="max-width:100%;">
