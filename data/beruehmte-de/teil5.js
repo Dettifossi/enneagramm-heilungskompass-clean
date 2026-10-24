@@ -2890,7 +2890,7 @@ export function peterThielPortraitPage() {
         <h2 class="vb-section">2. Die sexuelle Eins: Intensität im engen Kreis</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die sexuelle Eins richtet ihre Strenge nicht auf die ganze Welt, sondern mit voller Intensität auf wenige Dinge, Menschen und Gegner. Bei Thiel zeigt sich das zuerst im Kreis seiner Mitgründer: PayPal gründete er mit Max Levchin und Luke Nosek, bis 2002 war er Vorstandsvorsitzender, dann kaufte eBay die Firma für 1,5 Milliarden Dollar. Später baute er Beteiligungen auf, die ähnlichen Gründerkreisen folgten.</p>
-          <p class="vb-intro">Der schärfste Ausdruck dieser Intensität war sein Vorgehen gegen die Medienfirma Gawker. Er sagte, Gawker habe ihn 2007 öffentlich geoutet. 2016 bestätigte er, dass er Prozesskosten von etwa 10 Millionen Dollar für Klagen gegen Gawker finanziert hatte, darunter den Prozess von Hulk Hogan. Gawker stellte im August nach einer Geschworenenentscheidung über 140 Millionen Dollar den Betrieb ein.</p>
+          <p class="vb-intro">Der schärfste Ausdruck dieser Intensität war sein Vorgehen gegen die Medienfirma Gawker. Er sagte, Gawker habe ihn 2007 öffentlich geoutet. 2016 bestätigte er, dass er Prozesskosten von etwa 10 Millionen Dollar für Klagen gegen Gawker finanziert hatte, darunter den Prozess von Hulk Hogan. Ein Geschworenengericht sprach Hulk Hogan rund 140 Millionen Dollar Schadenersatz gegen Gawker zu. Im August 2016 stellte die Firma den Betrieb ein.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Neunerflügel: Handeln aus der Distanz</h2>

@@ -2938,7 +2938,7 @@ export function peterThielPortraitPage() {
         <h2 class="vb-section">2. The sexual One: intensity in the close circle</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The sexual One directs its strictness not at the whole world but with full intensity at few things, people and opponents. In Thiel this shows first in the circle of his co-founders: he founded PayPal with Max Levchin and Luke Nosek and was CEO until 2002, when eBay bought the company for $1.5 billion. Later he built holdings that followed similar founder circles.</p>
-          <p class="vb-intro">The sharpest expression of this intensity was his action against the media company Gawker. He said Gawker had publicly outed him in 2007. In 2016 he confirmed that he had funded about $10 million in legal costs for lawsuits against Gawker, among them Hulk Hogan&rsquo;s case. In August, after a jury verdict of over $140 million, Gawker ceased operations.</p>
+          <p class="vb-intro">The sharpest expression of this intensity was his action against the media company Gawker. He said Gawker had publicly outed him in 2007. In 2016 he confirmed that he had funded about $10 million in legal costs for lawsuits against Gawker, among them Hulk Hogan&rsquo;s case. A jury awarded Hulk Hogan about $140 million in damages against Gawker. In August 2016 the company ceased operations.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Nine-wing: acting from a distance</h2>
