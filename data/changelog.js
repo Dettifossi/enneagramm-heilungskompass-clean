@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2605", date: "2026-10-24", text: "Neues Porträt: Hagen Rether (SE3w2) – Kabarettist und Pianist.", text_en: "New portrait: Hagen Rether (SP3w2) – cabaret artist and pianist.", route: "beruehmte-hagen-rether" },
     { version: "v2604", date: "2026-10-24", text: "Neues Porträt: Dr. Johann Lechner (SO7w6) – Zahnarzt und Heilpraktiker.", text_en: "New portrait: Dr. Johann Lechner (SO7w6) – dentist and Heilpraktiker.", route: "beruehmte-johann-lechner" },
     { version: "v2603", date: "2026-10-24", text: "Neues Porträt: Wolfgang Niedecken (SO1w2) – Sänger, Texter und Maler (BAP).", text_en: "New portrait: Wolfgang Niedecken (SO1w2) – singer, lyricist and painter (BAP).", route: "beruehmte-wolfgang-niedecken" },
     { version: "v2602", date: "2026-10-24", text: "Neues Porträt: Dr. med. Sheila de Liz (SX6w7) – Gynäkologin und Bestsellerautorin.", text_en: "New portrait: Dr. med. Sheila de Liz (SX6w7) – gynecologist and bestselling author.", route: "beruehmte-sheila-de-liz" },

@@ -2919,3 +2919,74 @@ export function leaMichelePortraitPage() {
     </div>
   `);
 }
+
+export function hagenRetherPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-hagen-rether-portrait.jpg" alt="Hagen Rether – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-hagen-rether-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Hagen Rether</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltungs-Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Kabarettist und Pianist, geb. 1969 &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Waschbär: vom Siebenbürger Kind zum Pianisten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Waschbär</strong> untersucht seine Umgebung mit den Pfoten, genau und geduldig, bevor er etwas annimmt. Hagen Rether wurde am 8. Oktober 1969 in Bukarest geboren, als Sohn deutschsprachiger siebenbürgisch-sächsischer Eltern. 1973 zog die Familie nach Deutschland und ließ sich in Freiburg im Breisgau nieder. Mit acht Jahren begann er Klavier zu spielen.</p>
+          <p class="vb-intro">In den frühen 1990er Jahren studierte er an der Folkwang-Hochschule und begann eine Ausbildung zum Heilpraktiker, die er nicht abschloss. Von 1996 bis 2005 war er Pianist im Programm von Ludger Stratmann. Heute lebt er in Essen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Selbsterhaltungs-Drei: Können statt Glänzen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Drei strebt nach Erfolg, und die <strong>selbsterhaltende Drei (SE3)</strong> ist nach Claudio Naranjo der Kontratyp der Drei und steht für Sicherheit: Sie zeigt ihre Leistung nicht auf der Bühne vor, sondern baut Substanz auf. Bei Rether zeigt sich das in der Art seiner Auftritte. Seit 2003 spielt er sein Solo-Programm ›Liebe‹, das er laufend aktualisiert. Die Bühne ist fast leer: ein schwarzer Flügel, ein Bürostuhl, ein Wasserglas, ein Putztuch, mitunter Bananen. Während des Abends putzt er den Flügel.</p>
+          <p class="vb-intro">Die Abende sind lang, bis zu dreieinhalb Stunden, und leben vom Plauderton und von überraschenden Vergleichen statt von Pointenfeuerwerk. Er verknüpft aktuelle Themen mit der Geschichte und verlässt sich auf Material und Geduld.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Anteilnahme und Engagement</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der Drei Wärme, Zuwendung und den Wunsch, für andere da zu sein. Bei Rether zeigt er sich im Engagement außerhalb der Bühne: Er ist seit 2002 Mitglied von Attac und Mitglied von Amnesty International und unterstützt die Frauenrechtsorganisation Medica mondiale. Er lebt vegan und kritisiert in seinem Programm unter anderem Massentierhaltung, die katholische Kirche, die US-Politik und wachsende Islamfeindlichkeit.</p>
+          <p class="vb-intro">Der Kerntyp Drei arbeitet auf Wirkung hin, der Zweierflügel richtet diese Wirkung auf die Menschen im Saal und auf die Welt außerhalb.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Kabarett mit Klavier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Rethers Besonderheit ist die Form: Er spielt Klavier, aber nicht als Begleitung. Das Instrument ist Ruhepol und Bühnenbild zugleich, und der Abend ist eher ein langes politisches Gespräch als eine Nummernrevue. ›Liebe‹ behandelt Religion, Massenmedien, Kapitalismus, Konsum und Globalisierung. Presse und Veranstalter beschreiben ihn als Kabarettisten, der nicht ausweicht, sondern Stellung bezieht.</p>
+          <p class="vb-intro">Dafür erhielt er den Deutschen Kleinkunstpreis (2005 und 2008), den Deutschen Kabarettpreis (2010), den Schweizer Cornichon (2010) und die Bocholter Pepperoni (2011). 2011 wurde der Asteroid (233653) Rether nach ihm benannt. Im Fernsehen trat er in ›Mitternachtsspitzen‹, ›Neues aus der Anstalt‹ und im ›Satire Gipfel‹ auf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Serdar Somuncu und Lang Lang</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-serdar-somuncu">Serdar Somuncu (SE3w2)</a> steht wie Rether für politisches Kabarett, das nicht gefallen will, sondern etwas sagen. Der Unterschied liegt im Ton: Somuncu sucht die offene Provokation, Rether setzt auf den Plauderton.</p>
+          <p class="vb-intro"><a href="#beruehmte-lang-lang">Lang Lang (SE3w2)</a> verbindet mit ihm das Klavier als Lebensinstrument und die Disziplin, die in jahrelangem Üben liegt. Bei Lang Lang steht die Virtuosität im Mittelpunkt, bei Rether der Gedanke, den das Klavier trägt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Drei mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt im Durchhaltevermögen: Wer über zwei Jahrzehnte dasselbe Programm pflegt und weiterentwickelt, baut mit Geduld statt mit Glanz. Dass er Engagement außerhalb der Bühne lebt, zeigt den Zweierflügel.</p>
+          <p class="vb-intro">Der Schatten dieser Kombination ist die Moral, die belehrend wirken kann. Eine Kritik aus der Schweiz (›Sadismus mit der Moralkeule‹) sieht in seiner moralischen Zuspitzung ein Problem. Die Drei will überzeugen, und der Zweierflügel will helfen; zusammen kann das für Zuhörer anstrengend werden, wenn der Abend lang ist und die Haltung keinen Widerspruch zulässt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: ein Programm, das mit der Zeit geht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 24. Oktober 2026) ist Hagen Rether 57 Jahre alt und lebt in Essen. ›Liebe‹ ist weiter sein Programm und wird je nach Lage angepasst. Über sein Privatleben ist wenig öffentlich dokumentiert; dieses Porträt beschränkt sich auf sein öffentliches Wirken.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se3", label:"Lebensmusterkompass: SE3 – Waschbär"},
+        {route:"beruehmte-serdar-somuncu", label:"Porträt: Serdar Somuncu (SE3w2)"},
+        {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
+        {route:"beruehmte-hong-chau", label:"Porträt: Hong Chau (SE3w2)"},
+            ])}
+    </div>
+  `);
+}

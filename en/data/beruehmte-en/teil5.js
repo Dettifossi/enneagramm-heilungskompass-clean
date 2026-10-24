@@ -2812,3 +2812,74 @@ export function jonErikHexumPortraitPage() {
     </div>
   `);
 }
+
+export function hagenRetherPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-hagen-rether-portrait.jpg" alt="Hagen Rether – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-hagen-rether-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Hagen Rether</p>
+        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">German cabaret artist and pianist, b. 1969 &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Raccoon: from the Transylvanian child to the pianist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>raccoon</strong> examines its surroundings with its paws, exactly and patiently, before it accepts anything. Hagen Rether was born on 8 October 1969 in Bucharest to German-speaking Transylvanian Saxon parents. In 1973 the family moved to Germany and settled in Freiburg im Breisgau. At eight he began playing the piano.</p>
+          <p class="vb-intro">In the early 1990s he studied at the Folkwang school and began training as a Heilpraktiker (alternative practitioner), which he did not finish. From 1996 to 2005 he was the pianist in Ludger Stratmann&rsquo;s program. Today he lives in Essen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: skill instead of shine</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three strives for success, and the <strong>Self-Preservation Three (SP3)</strong> is, according to Claudio Naranjo, the countertype of the Three and stands for security: it does not show its achievement on stage but builds substance. In Rether this shows in the way he performs. Since 2003 he has played his solo program &lsquo;Liebe&rsquo; (&lsquo;Love&rsquo;), which he keeps updating. The stage is almost empty: a black grand piano, an office chair, a water glass, a cleaning cloth, sometimes bananas. During the evening he cleans the piano.</p>
+          <p class="vb-intro">The evenings are long, up to three and a half hours, and live from a chatty tone and surprising comparisons instead of a firework of punchlines. He links current topics with history and relies on material and patience.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: sympathy and commitment</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the Three warmth, attention and the wish to be there for others. In Rether it shows in his commitment off stage: he has been a member of Attac since 2002 and a member of Amnesty International and supports the women&rsquo;s rights organization Medica mondiale. He lives vegan and in his program criticizes, among other things, factory farming, the Catholic Church, US politics and growing Islamophobia.</p>
+          <p class="vb-intro">The core type Three works toward impact; the Two-wing directs this impact at the people in the hall and at the world outside.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: cabaret with piano</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Rether&rsquo;s distinctive feature is the form: he plays the piano, but not as accompaniment. The instrument is both resting point and stage set, and the evening is more a long political conversation than a revue of numbers. &lsquo;Liebe&rsquo; deals with religion, mass media, capitalism, consumption and globalization. Press and organizers describe him as a cabaret artist who does not evade but takes a stand.</p>
+          <p class="vb-intro">For this he received the Deutscher Kleinkunstpreis (German Small Art Prize, 2005 and 2008), the Deutscher Kabarettpreis (German Cabaret Prize, 2010), the Swiss Cornichon (2010) and the Bocholter Pepperoni (2011). In 2011 the asteroid (233653) Rether was named after him. On television he appeared in &lsquo;Mitternachtsspitzen&rsquo;, &lsquo;Neues aus der Anstalt&rsquo; and the &lsquo;Satire Gipfel&rsquo;.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Serdar Somuncu and Lang Lang</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-serdar-somuncu">Serdar Somuncu (SP3w2)</a> stands, like Rether, for political cabaret that does not want to please but to say something. The difference lies in the tone: Somuncu seeks open provocation, Rether relies on the chatty tone.</p>
+          <p class="vb-intro"><a href="#beruehmte-lang-lang">Lang Lang (SP3w2)</a> shares with him the piano as a lifelong instrument and the discipline found in years of practice. With Lang Lang virtuosity is at the center, with Rether the thought that the piano carries.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the Self-Preservation Three with Two-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in perseverance: someone who tends and develops the same program for over two decades builds with patience instead of glamour. That he lives commitment off stage shows the Two-wing.</p>
+          <p class="vb-intro">The shadow of this combination is the morality, which can come across as lecturing. A review from Switzerland (&lsquo;Sadismus mit der Moralkeule&rsquo;, &lsquo;Sadism with the moral club&rsquo;) sees a problem in his moral sharpening. The Three wants to convince, and the Two-wing wants to help; together this can be tiring for listeners when the evening is long and the stance allows no contradiction.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: a program that moves with the times</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 24 October 2026) Hagen Rether is 57 years old and lives in Essen. &lsquo;Liebe&rsquo; is still his program and is adapted to the situation. Little is publicly documented about his private life; this portrait limits itself to his public work.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SP3 – Raccoon"},
+        {route:"beruehmte-serdar-somuncu", label:"Portrait: Serdar Somuncu (SP3w2)"},
+        {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SP3w2)"},
+        {route:"beruehmte-hong-chau", label:"Portrait: Hong Chau (SP3w2)"},
+            ])}
+    </div>
+  `);
+}
