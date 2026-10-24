@@ -2930,6 +2930,7 @@ export function vitaliKlitschkoPortraitPage() {
         {route:"beruehmte-wladimir-klitschko", label:"Boxer portrait: Wladimir Klitschko (SP1w9)"},
         {route:"beruehmte-henry-maske", label:"Boxer portrait: Henry Maske (SP1w9)"},
         {route:"beruehmte-mike-tyson", label:"Boxer portrait: Mike Tyson (SP7w8)"},
+        {route:"beruehmte-max-schmeling", label:"Boxer portrait: Max Schmeling (SP1w9)"},
       ])}
     </div>
   `);

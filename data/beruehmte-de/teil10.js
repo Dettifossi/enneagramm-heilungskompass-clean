@@ -2832,3 +2832,77 @@ export function viggoMortensenPortraitPage() {
     </div>
   `);
 }
+
+export function maxSchmelingPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-max-schmeling-portrait.jpg" alt="Max Schmeling – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-max-schmeling-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Max Schmeling</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Schwergewichts-Weltmeister, 1905&ndash;2005 &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Adler: der Sohn des Steuermanns</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Adler</strong> bleibt hoch über dem Getümmel und fällt nicht auf jeden Reiz herein. Max Schmeling wurde am 28. September 1905 im ländlichen Nordosten Deutschlands (Klein Luckow) als Sohn eines Schiffssteuermanns geboren. Als junger Teenager sah er einen Film vom Schwergewichtskampf zwischen Jack Dempsey und Georges Carpentier und war von da an dem Boxen verfallen. Er zog nach Westen, um an Amateurturnieren teilzunehmen.</p>
+          <p class="vb-intro">1924 wurde er Profi. Der Herausgeber einer Boxzeitschrift, Arthur Bülow, finanzierte sein Training in Berlin, Max Machon wurde sein langjähriger Trainer. 1927 wurde Schmeling als erster Deutscher Europameister im Halbschwergewicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Anstand als Vorsicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bei der <strong>selbsterhaltenden Eins (SE1)</strong> zeigt sich die Strenge der Eins vor allem als Sorgfalt gegen sich selbst: Wer sich nichts durchgehen lässt, muss sich auch nichts vorwerfen. Claudio Naranjo sprach bei diesem Subtyp von einer ständigen Sorge, nicht zu genügen. Bei Schmeling erscheint das als ruhige Bescheidenheit. Als er 1930 den Weltmeistertitel erhielt, weil Jack Sharkey wegen eines Tiefschlags disqualifiziert worden war, es war das einzige Mal, dass der Titel durch ein Foul entschieden wurde, sagte er, der Sieg bedeute ihm nicht viel.</p>
+          <p class="vb-intro">Über seine Laufbahn sagte er später: ›I accomplished everything you can. What more can you want?‹ (›Ich habe alles erreicht, was man erreichen kann. Was will man mehr?‹).</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: ein Gentleman, der niemanden bloßstellte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der Eins Gelassenheit und eine versöhnliche Art. Bei Schmeling zeigt sich das in der Freundschaft mit seinem Gegner Joe Louis, die 1954 begann und bis zu Louis’ Tod 1981 hielt. Als Louis starb, half Schmeling, die Beerdigung zu bezahlen. Er gab ihm in schweren Zeiten auch Geld. Wer nach zwei Kämpfen mit einem der berühmtesten Gegner der Boxgeschichte Freund wird, trägt keinen Groll.</p>
+          <p class="vb-intro">Die Eins gibt den Maßstab, und der Neunerflügel nimmt dem Maßstab die Härte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: die Kämpfe gegen Joe Louis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Berühmt wurde Schmeling durch seine Kämpfe gegen Joe Louis. 1936 besiegte er ihn durch K. o., ein Ergebnis, das das NS-Regime als Propaganda nutzte. Im Rückkampf 1938 gewann Louis in der ersten Runde. 1932 hatte er den Titelkampf gegen Sharkey nach Punkten verloren, in einer Entscheidung, die in den USA weithin kritisiert wurde. Seine Bilanz: 70 Profikämpfe, 56 Siege (40 durch K. o.), 10 Niederlagen und 4 Unentschieden. 1947 kehrte er für einige Kämpfe zurück und hörte 1948 nach einer Punktniederlage auf.</p>
+          <p class="vb-intro">Seine Rolle im Nationalsozialismus ist ein eigenes Kapitel. Hitler soll ihn 1933 gebeten haben, in den USA ein günstiges Bild Deutschlands zu vermitteln, was er tat. Er trat der NSDAP nie bei. In der Pogromnacht 1938 versteckte er die beiden halbwüchsigen Söhne eines jüdischen Freundes, Henri und Werner Lewin, in seinem Berliner Hotelzimmer und half später, sie außer Landes zu bringen. Henri Lewin erzählte das, und in seiner Autobiografie erwähnte Schmeling es nicht. Wie weit er sich vom Regime distanzierte, ist umstritten und beruht teils auf seinen eigenen Angaben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Henry Maske und Wladimir Klitschko</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-henry-maske">Henry Maske (SE1w9)</a> verbindet mit Schmeling mehr als den Typ: Er wurde 2008 als Hauptdarsteller des Films ›Max Schmeling‹ angekündigt. Beide gelten als Gentlemen des deutschen Boxens, beide haben nach dem Sport als Unternehmer gearbeitet und fördern Menschen in Not.</p>
+          <p class="vb-intro"><a href="#beruehmte-wladimir-klitschko">Wladimir Klitschko (SE1w9)</a> ist der dritte Boxer mit demselben Typ im Kompass. Bei ihm trat die Ironie hinzu, bei Schmeling die Gelassenheit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Eins mit Neunerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist sein Bild dort, wo er Haltung zeigte, ohne davon zu reden: die Bescheidenheit, die Freundschaft mit Louis und die Hilfe für die Lewins. Britische Behörden entlasteten ihn nach dem Krieg von einer Mittäterschaft an NS-Verbrechen.</p>
+          <p class="vb-intro">Der Schatten liegt im Schweigen über das Eigene: Dass er die Rettung der Lewins nicht in seiner Autobiografie erwähnte, passt zu einer Bescheidenheit, die bei der Eins in Selbstkritik übergehen kann. Es ließ aber auch Raum für Debatten über seine Haltung im Nationalsozialismus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: ein Leben von 99 Jahren</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach seiner Laufbahn war Schmeling Geschäftsmann und hielt die Coca-Cola-Abfüllung in Deutschland. Er engagierte sich für Wohltätigkeit und wurde in die International Boxing Hall of Fame aufgenommen. Im Februar 2005 starb er im Alter von 99 Jahren in der Nähe von Hamburg. 1932 heiratete er die Schauspielerin Anny Ondra.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se1", label:"Lebensmusterkompass: SE1 – Adler"},
+        {route:"beruehmte-henry-maske", label:"Boxer-Porträt: Henry Maske (SE1w9)"},
+        {route:"beruehmte-wladimir-klitschko", label:"Boxer-Porträt: Wladimir Klitschko (SE1w9)"},
+        {route:"beruehmte-vitali-klitschko", label:"Boxer-Porträt: Vitali Klitschko (SE7w8)"},
+        {route:"beruehmte-muhammad-ali", label:"Boxer-Porträt: Muhammad Ali (SO2w1)"},
+        {route:"beruehmte-mike-tyson", label:"Boxer-Porträt: Mike Tyson (SE7w8)"},
+        {route:"beruehmte-floyd-mayweather", label:"Boxer-Porträt: Floyd Mayweather Jr. (SO2w3)"},
+            ])}
+    </div>
+  `);
+}

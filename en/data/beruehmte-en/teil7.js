@@ -2926,7 +2926,8 @@ export function mikeTysonPortraitPage() {
         {route:"beruehmte-muhammad-ali", label:"Boxer portrait: Muhammad Ali (SO2w1)"},
         {route:"beruehmte-floyd-mayweather", label:"Boxer portrait: Floyd Mayweather Jr. (SO2w3)"},
         {route:"beruehmte-don-king", label:"Boxing: Don King (SP7w8)"},
-            ])}
+        {route:"beruehmte-max-schmeling", label:"Boxer portrait: Max Schmeling (SP1w9)"},
+      ])}
     </div>
   `);
 }

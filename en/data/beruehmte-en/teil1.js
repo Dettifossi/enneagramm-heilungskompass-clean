@@ -2888,3 +2888,77 @@ export function lanceOppenheimPortraitPage() {
     </div>
   `);
 }
+
+export function maxSchmelingPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-max-schmeling-portrait.jpg" alt="Max Schmeling – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-max-schmeling-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Max Schmeling</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">German heavyweight world champion, 1905&ndash;2005 &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Eagle: the navigator&rsquo;s son</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An <strong>eagle</strong> stays high above the turmoil and does not fall for every stimulus. Max Schmeling was born on 28 September 1905 in rural northeastern Germany (Klein Luckow), the son of a ship&rsquo;s navigator. As a young teenager he saw a film of the heavyweight fight between Jack Dempsey and Georges Carpentier and from then on was devoted to boxing. He moved west to take part in amateur tournaments.</p>
+          <p class="vb-intro">In 1924 he turned professional. The editor of a boxing magazine, Arthur Bülow, financed his training in Berlin, and Max Machon became his longtime trainer. In 1927 Schmeling became the first German European champion in the light heavyweight division.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation One: decency as caution</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the <strong>self-preservation One (SP1)</strong> the strictness of the One shows above all as care toward oneself: whoever lets nothing slide has nothing to reproach himself with. Claudio Naranjo spoke of a constant worry of not being enough in this subtype. In Schmeling it appears as quiet modesty. When in 1930 he was awarded the world title because Jack Sharkey was disqualified for a low blow, the only time the title was decided by a foul, he said the win did not mean much to him.</p>
+          <p class="vb-intro">About his career he said later: &lsquo;I accomplished everything you can. What more can you want?&rsquo;</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-wing: a gentleman who exposed no one</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the One composure and a conciliatory manner. In Schmeling it shows in the friendship with his opponent Joe Louis, which began in 1954 and lasted until Louis&rsquo;s death in 1981. When Louis died, Schmeling helped pay for the funeral. He had also given him money in hard times. Someone who becomes a friend of one of the most famous opponents in boxing history after two fights bears no grudge.</p>
+          <p class="vb-intro">The One sets the standard, and the Nine-wing takes the harshness out of it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the fights against Joe Louis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Schmeling became famous through his fights against Joe Louis. In 1936 he beat him by knockout, a result the Nazi regime used as propaganda. In the 1938 rematch Louis won in the first round. In 1932 he had lost the title fight against Sharkey on points, in a decision widely criticized in the USA. His record: 70 professional fights, 56 wins (40 by knockout), 10 losses and 4 draws. In 1947 he returned for a few fights and retired in 1948 after a points loss.</p>
+          <p class="vb-intro">His role under National Socialism is a chapter of its own. Hitler is said to have asked him in 1933 to present a favorable picture of Germany in the USA, which he did. He never joined the Nazi party. In the November 1938 pogroms he hid the two teenage sons of a Jewish friend, Henri and Werner Lewin, in his Berlin hotel room and later helped bring them out of the country. Henri Lewin told this, and Schmeling did not mention it in his autobiography. How far he distanced himself from the regime is disputed and rests partly on his own account.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Henry Maske and Wladimir Klitschko</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-henry-maske">Henry Maske (SP1w9)</a> shares more with Schmeling than the type: he was announced in 2008 as the lead of the film &lsquo;Max Schmeling&rsquo;. Both are regarded as gentlemen of German boxing, both worked as entrepreneurs after sport and support people in need.</p>
+          <p class="vb-intro"><a href="#beruehmte-wladimir-klitschko">Wladimir Klitschko (SP1w9)</a> is the third boxer with the same type in the Compass. With him irony was added, with Schmeling composure.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the self-preservation One with Nine-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">His picture is bright where he showed stance without talking about it: modesty, the friendship with Louis and the help for the Lewins. British authorities cleared him after the war of complicity in Nazi crimes.</p>
+          <p class="vb-intro">The shadow lies in silence about oneself: that he did not mention the rescue of the Lewins in his autobiography fits a modesty that in the One can turn into self-criticism. But it also left room for debates about his stance under National Socialism.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: a life of 99 years</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After his career Schmeling was a businessman and held the Coca-Cola bottling business in Germany. He was involved in charity and was inducted into the International Boxing Hall of Fame. In February 2005 he died aged 99 near Hamburg. In 1932 he had married the actress Anny Ondra.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SP1 – Eagle"},
+        {route:"beruehmte-henry-maske", label:"Boxer portrait: Henry Maske (SP1w9)"},
+        {route:"beruehmte-wladimir-klitschko", label:"Boxer portrait: Wladimir Klitschko (SP1w9)"},
+        {route:"beruehmte-vitali-klitschko", label:"Boxer portrait: Vitali Klitschko (SP7w8)"},
+        {route:"beruehmte-muhammad-ali", label:"Boxer portrait: Muhammad Ali (SO2w1)"},
+        {route:"beruehmte-mike-tyson", label:"Boxer portrait: Mike Tyson (SP7w8)"},
+        {route:"beruehmte-floyd-mayweather", label:"Boxer portrait: Floyd Mayweather Jr. (SO2w3)"},
+            ])}
+    </div>
+  `);
+}
