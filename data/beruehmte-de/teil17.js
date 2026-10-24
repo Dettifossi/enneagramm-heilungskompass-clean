@@ -2975,7 +2975,7 @@ export function patrickStewartPortraitPage() {
       <div class="page-content">
         <h2 class="vb-section">1. Der Schimpanse: der Junge aus Mirfield</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Ein <strong>Schimpanse</strong> lernt durch Nachahmung und Spiel, und er probiert Rollen aus, bevor er sie ernst nimmt. Patrick Stewart wurde am 13. Juli 1940 in Mirfield in der englischen Grafschaft Yorkshire geboren. Sein Vater, ein Feldwebel der Fallschirmjäger, litt nach Dünkirchen unter einem Kriegstrauma, das man heute als posttraumatische Belastungsstörung bezeichnet, und war gewalttätig gegen die Familie. Stewart hat beschrieben, wie nachhaltig das ihn geprägt hat.</p>
+          <p class="vb-intro">Ein <strong>Schimpanse</strong> lernt durch Nachahmung und Spiel, und er probiert Rollen aus, bevor er sie ernst nimmt. Patrick Stewart wurde am 13. Juli 1940 in Mirfield in der englischen Grafschaft Yorkshire geboren. Sein Vater, ein Feldwebel der Fallschirmjäger, litt nach Dünkirchen unter einem Kriegstrauma, das man heute als posttraumatische Belastungsstörung bezeichnet, und war gewalttätig gegen die Familie. Stewart hat beschrieben, wie nachhaltig ihn das geprägt hat.</p>
           <p class="vb-intro">Sein Englischlehrer Cecil Dormand förderte ihn im Theaterspielen. Mit 15 verließ er die Schule, arbeitete als Lokalreporter und dann in einem Möbelgeschäft, wo er laut Wikipedia sein Schauspiel übte, indem er seine Verkaufsgespräche auf jeden Kunden zuschnitt. Er ging an die Bristol Old Vic Theatre School, zusammen mit Brian Blessed. Sein erster Auftritt als Berufsschauspieler war am 19. Mai 1959 in ›Cyrano de Bergerac‹ am Theatre Royal in Bristol.</p>
         </blockquote>
 
