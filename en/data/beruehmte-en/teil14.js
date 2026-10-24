@@ -1552,6 +1552,7 @@ export function thomasGottschalkPortraitPage() {
         {route:"beruehmte-volker-rosin", label:"Portrait: Volker Rosin (SX7w6)"},
         {route:"beruehmte-rudi-carrell", label:"Portrait: Rudi Carrell (SX7w6)"},
         {route:"beruehmte-atze-schroeder", label:"Portrait: Atze Schröder (SE7w6)"},
+        {route:"beruehmte-patrick-stewart", label:"Portrait: Sir Patrick Stewart (SX7w8)"},
       ])}
     </div>
   `);
@@ -2841,6 +2842,7 @@ export function christianKohlundPortraitPage() {
         {route:"beruehmte-john-travolta", label:"Portrait: John Travolta (SX7w8)"},
         {route:"beruehmte-adriano-celentano", label:"Portrait: Adriano Celentano (SX7w8)"},
         {route:"beruehmte-ina-mueller", label:"Portrait: Ina Müller (SX7w8)"},
+        {route:"beruehmte-patrick-stewart", label:"Portrait: Sir Patrick Stewart (SX7w8)"},
       ])}
     </div>
   `);

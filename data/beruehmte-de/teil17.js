@@ -2958,3 +2958,74 @@ export function bradleyCooperPortraitPage() {
     </div>
   `);
 }
+
+export function patrickStewartPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-patrick-stewart-portrait.jpg" alt="Sir Patrick Stewart – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-patrick-stewart-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Sir Patrick Stewart</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexueller Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Britischer Schauspieler, geb. 1940 &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Schimpanse: der Junge aus Mirfield</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Schimpanse</strong> lernt durch Nachahmung und Spiel, und er probiert Rollen aus, bevor er sie ernst nimmt. Patrick Stewart wurde am 13. Juli 1940 in Mirfield in der englischen Grafschaft Yorkshire geboren. Sein Vater, ein Feldwebel der Fallschirmjäger, litt nach Dünkirchen unter einem Kriegstrauma, das man heute als posttraumatische Belastungsstörung bezeichnet, und war gewalttätig gegen die Familie. Stewart hat beschrieben, wie nachhaltig das ihn geprägt hat.</p>
+          <p class="vb-intro">Sein Englischlehrer Cecil Dormand förderte ihn im Theaterspielen. Mit 15 verließ er die Schule, arbeitete als Lokalreporter und dann in einem Möbelgeschäft, wo er laut Wikipedia sein Schauspiel übte, indem er seine Verkaufsgespräche auf jeden Kunden zuschnitt. Er ging an die Bristol Old Vic Theatre School, zusammen mit Brian Blessed. Sein erster Auftritt als Berufsschauspieler war am 19. Mai 1959 in ›Cyrano de Bergerac‹ am Theatre Royal in Bristol.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: ganz in der Rolle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die sexuelle Sieben nannte Claudio Naranjo ›Suggestibilität‹, also Beeinflussbarkeit: Sie lässt sich von einer Idee, einer Rolle oder einem Menschen ganz erfassen und gibt sich mit der Intensität eines Fans hin. Aus der Sieben, die vor dem Schmerz in die Begeisterung flieht, wird so die Hingabe an eine einzige Sache. Bei Stewart ist diese Sache das Theater.</p>
+          <p class="vb-intro">Von 1966 bis 1982 gehörte er zur Royal Shakespeare Company und stand in mehr als 60 Produktionen auf der Bühne. Sein Ein-Mann-Stück ›A Christmas Carol‹ spielte er mit mehr als 40 Figuren und erhielt dafür einen Drama Desk Award und einen Olivier Award. 1979 gewann er den Olivier als bester Nebendarsteller in ›Antony and Cleopatra‹, 2008 noch einmal für ›Hamlet‹, in dem er neben David Tennant den Claudius spielte. Die Flucht vor der Gewalt im Elternhaus wurde zur Hingabe an die Verwandlung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: der Realist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso und Russ Hudson nennen die Sieben mit Achterflügel ›Der Realist‹ und die Sieben mit Sechserflügel ›Der Entertainer‹. Der <strong>Achterflügel (w8)</strong> verleiht der Sieben Durchsetzung, Nüchternheit und einen Kommandoton. Bei Stewart passt das zu dem, was er als Schlüssel seiner Kindheit beschreibt: ›Violence is a choice, and it’s a choice a man makes.‹ (›Gewalt ist eine Entscheidung, und es ist eine Entscheidung, die ein Mann trifft.‹) Man kann die Gewalt des Vaters so lesen, dass sie ihm das Unbeschwerte austrieb und der Achterflügel zum Schutz wurde.</p>
+          <p class="vb-intro">Dieser Zug zeigt sich in seinem Engagement: Er ist Schirmherr der Organisation Refuge gegen häusliche Gewalt, drehte ein Video für Amnesty International zu diesem Thema und unterstützt Combat Stress (Hilfe für traumatisierte Soldaten), die UN-Vereinigung Großbritanniens und Dignity in Dying (für das Recht auf ein selbstbestimmtes Lebensende). Er beschreibt sich selbst als Sozialist, Feminist und Atheist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Autorität mit Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Weltweit bekannt wurde Stewart als Captain Jean-Luc Picard in ›Star Trek: The Next Generation‹ (1987 bis 1994). Er zögerte, den Sechsjahresvertrag zu unterschreiben, weil er erwartete, dass die Serie scheitern würde. Nach eigener Erinnerung sagte er der Besetzung anfangs sogar: ›We’re not here… to have fun!‹ (›Wir sind nicht zum Spaß hier!‹). Picard prägte das Bild eines ernsten, überlegten Anführers. Es folgten Professor Charles Xavier in sieben X-Men-Filmen (2000 bis 2017), die Rückkehr als Picard in ›Star Trek: Picard‹ (2020 bis 2023) und ein Auftritt im Marvel-Film ›Doctor Strange in the Multiverse of Madness‹ (2022).</p>
+          <p class="vb-intro">Daneben zeigt er die komische Seite, die in der Sieben angelegt ist: in der Serie ›Extras‹ (2005, für einen Emmy nominiert), als Stimme von Avery Bullock in ›American Dad!‹ (seit 2005) und in der Serie ›Blunt Talk‹ (2015 bis 2016). Mit Ian McKellen spielte er ›Waiting for Godot‹ und ›No Man’s Land‹, und die verspielten Werbefotos der beiden mit Melonenhüten verschoben 2014 sein öffentliches Bild Richtung Humor.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Christian Kohlund, John Travolta und Thomas Gottschalk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-christian-kohlund">Christian Kohlund (SX7w8)</a> und <a href="#beruehmte-john-travolta">John Travolta (SX7w8)</a> sind wie Stewart Schauspieler mit Achterflügel, also Siebener, deren Präsenz Gewicht hat.</p>
+          <p class="vb-intro"><a href="#beruehmte-thomas-gottschalk">Thomas Gottschalk (SX7w6)</a> ist dagegen der Entertainer im Sinne von Riso und Hudson: Bei ihm bricht die Verspieltheit sofort durch, bei Stewart bleibt der Ernst oft stehen, und das Verschmitzte zeigt sich eher im zweiten Blick.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sexuellen Sieben mit Achterflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Stark ist die Verbindung von Hingabe und Haltung: Wer 60 Jahre lang Shakespeare und Science-Fiction mit derselben Sorgfalt spielt, nimmt beides ernst. Dass er das Thema Gewalt in der Familie öffentlich anspricht, zeigt, was die Sieben im Achterflügel an Mut gewinnt.</p>
+          <p class="vb-intro">Die Schattenseite liegt im Stress: Die Sieben geht unter Druck zur Eins, ihrem Stresspunkt. Dann wirkt sie streng, pflichtbewusst und unnachgiebig, ohne in der Eins ihren Kern zu haben. Bei Stewart könnten der ernste Picard-Ton, die moralische Klarheit und der Anspruch an sich selbst auch so zu lesen sein, als Zug, der aus der Belastung der Kindheit und den hohen Rollen erwächst. Ein sichtbarer Unterschied zur Eins im Kern: Er belehrt nicht und will andere nicht ändern, er erzählt Geschichten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: ein Erzähler mit Alterswerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 24. Oktober 2026) ist Patrick Stewart 86 Jahre alt. Er wurde 2001 zum OBE ernannt und 2010 zum Ritter geschlagen, hat zwei Olivier Awards und einen Grammy (für die Erzählung von ›Peter und der Wolf‹), und er teilt mit Hugh Jackman den Guinness-Rekord für die längste Karriere als Realdarsteller eines Marvel-Superhelden. 2023 erschien seine Autobiografie ›Making It So‹, 2026 das Hörbuch aller Sonette Shakespeares in seiner Lesung und der Film ›The Sheep Detectives‹. Er ist seit 2013 in dritter Ehe mit der Sängerin Sunny Ozell verheiratet und Tierschützer: Er nimmt über eine Rettungsorganisation in Los Angeles Hunde auf und setzt sich für Pitbulls ein.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx7", label:"Lebensmusterkompass: SX7 – Schimpanse"},
+        {route:"beruehmte-christian-kohlund", label:"Porträt: Christian Kohlund (SX7w8)"},
+        {route:"beruehmte-john-travolta", label:"Porträt: John Travolta (SX7w8)"},
+        {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
+            ])}
+    </div>
+  `);
+}

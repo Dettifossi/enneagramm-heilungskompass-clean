@@ -159,6 +159,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-wladimir-klitschko", label: "Neues EN-Porträt: Wladimir Klitschko" },
   { hash: "#beruehmte-henry-maske", label: "Neues Porträt: Henry Maske" },
   { hash: "en/#beruehmte-henry-maske", label: "Neues EN-Porträt: Henry Maske" },
+  { hash: "#beruehmte-patrick-stewart", label: "Neues Porträt: Patrick Stewart" },
+  { hash: "en/#beruehmte-patrick-stewart", label: "Neues EN-Porträt: Patrick Stewart" },
   { hash: "#beruehmte-bradley-cooper", label: "Neues Porträt: Bradley Cooper" },
   { hash: "en/#beruehmte-bradley-cooper", label: "Neues EN-Porträt: Bradley Cooper" },
   { hash: "#beruehmte-richy-mueller", label: "Neues Porträt: Richy Müller" },

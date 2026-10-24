@@ -2716,6 +2716,7 @@ export function johnTravoltaPortraitPage() {
         {route:"beruehmte-boris-becker", label:"Porträt: Boris Becker (SX7w8)"},
         {route:"beruehmte-christian-kohlund", label:"Porträt: Christian Kohlund (SX7w8)"},
         {route:"beruehmte-knossi", label:"Porträt: Knossi (Jens Knossalla) (SX7w8)"},
+        {route:"beruehmte-patrick-stewart", label:"Porträt: Sir Patrick Stewart (SX7w8)"},
       ])}
     </div>
   `);

@@ -2753,6 +2753,7 @@ export function christianKohlundPortraitPage() {
         {route:"beruehmte-john-travolta", label:"Porträt: John Travolta (SX7w8)"},
         {route:"beruehmte-adriano-celentano", label:"Porträt: Adriano Celentano (SX7w8)"},
         {route:"beruehmte-ina-mueller", label:"Porträt: Ina Müller (SX7w8)"},
+        {route:"beruehmte-patrick-stewart", label:"Porträt: Sir Patrick Stewart (SX7w8)"},
       ])}
     </div>
   `);

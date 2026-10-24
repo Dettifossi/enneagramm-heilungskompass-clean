@@ -2872,3 +2872,74 @@ export function bradleyCooperPortraitPage() {
     </div>
   `);
 }
+
+export function patrickStewartPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-patrick-stewart-portrait.jpg" alt="Sir Patrick Stewart – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-patrick-stewart-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Sir Patrick Stewart</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexual Type 7 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">British actor, b. 1940 &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Chimpanzee: the boy from Mirfield</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>chimpanzee</strong> learns through imitation and play, and it tries on roles before taking them seriously. Patrick Stewart was born on 13 July 1940 in Mirfield in the English county of Yorkshire. His father, a sergeant major of the Parachute Regiment, suffered after Dunkirk from combat fatigue, what is now called post-traumatic stress disorder, and was violent toward the family. Stewart has described how lastingly this shaped him.</p>
+          <p class="vb-intro">His English teacher Cecil Dormand encouraged him in acting. At 15 he left school, worked as a local newspaper reporter and then in a furniture store, where according to Wikipedia he practised acting by tailoring his sales pitches to each customer. He went to the Bristol Old Vic Theatre School, together with Brian Blessed. His first professional appearance was on 19 May 1959 in &lsquo;Cyrano de Bergerac&rsquo; at the Theatre Royal in Bristol.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Seven: wholly in the role</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the sexual Seven &lsquo;suggestibility&rsquo;: it lets itself be seized wholly by an idea, a role or a person and gives itself with the intensity of a fan. The Seven who flees pain into enthusiasm thus becomes devotion to a single cause. In Stewart that cause is the theater.</p>
+          <p class="vb-intro">From 1966 to 1982 he belonged to the Royal Shakespeare Company and appeared in more than 60 productions. His one-man show &lsquo;A Christmas Carol&rsquo; he played with more than 40 characters and received a Drama Desk Award and an Olivier Award for it. In 1979 he won the Olivier as Best Supporting Actor for &lsquo;Antony and Cleopatra&rsquo;, in 2008 again for &lsquo;Hamlet&rsquo;, in which he played Claudius opposite David Tennant. The flight from violence in his parents&rsquo; house became devotion to transformation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-wing: the Realist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso and Russ Hudson call the Seven with an Eight-wing &lsquo;The Realist&rsquo; and the Seven with a Six-wing &lsquo;The Entertainer&rsquo;. The <strong>Eight-wing (w8)</strong> lends the Seven assertiveness, sobriety and a commanding tone. In Stewart this fits what he describes as the key of his childhood: &lsquo;Violence is a choice, and it&rsquo;s a choice a man makes.&rsquo; One can read his father&rsquo;s violence as having driven out his lightness, with the Eight-wing becoming protection.</p>
+          <p class="vb-intro">This trait shows in his commitment: he is a patron of the organization Refuge against domestic violence, made a video for Amnesty International on the subject and supports Combat Stress (help for traumatized soldiers), the UN Association UK and Dignity in Dying (for the right to a self-determined end of life). He describes himself as a socialist, feminist and atheist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: authority with craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Stewart became known worldwide as Captain Jean-Luc Picard in &lsquo;Star Trek: The Next Generation&rsquo; (1987 to 1994). He hesitated to sign the six-year contract because he expected the series to fail. By his own recollection he even told the cast at the start: &lsquo;We&rsquo;re not here&hellip; to have fun!&rsquo; Picard shaped the image of a serious, thoughtful leader. Professor Charles Xavier in seven X-Men films (2000 to 2017) followed, the return as Picard in &lsquo;Star Trek: Picard&rsquo; (2020 to 2023) and an appearance in the Marvel film &lsquo;Doctor Strange in the Multiverse of Madness&rsquo; (2022).</p>
+          <p class="vb-intro">He also shows the comic side that is laid out in the Seven: in the series &lsquo;Extras&rsquo; (2005, Emmy-nominated), as the voice of Avery Bullock in &lsquo;American Dad!&rsquo; (since 2005) and in the series &lsquo;Blunt Talk&rsquo; (2015 to 2016). With Ian McKellen he played &lsquo;Waiting for Godot&rsquo; and &lsquo;No Man&rsquo;s Land&rsquo;, and their playful promotional photos in bowler hats shifted his public image toward humor in 2014.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Christian Kohlund, John Travolta and Thomas Gottschalk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-christian-kohlund">Christian Kohlund (SX7w8)</a> and <a href="#beruehmte-john-travolta">John Travolta (SX7w8)</a> are, like Stewart, actors with an Eight-wing, that is, Sevens whose presence has weight.</p>
+          <p class="vb-intro"><a href="#beruehmte-thomas-gottschalk">Thomas Gottschalk (SX7w6)</a> is by contrast the Entertainer in the sense of Riso and Hudson: with him playfulness breaks through at once, with Stewart the seriousness often stays standing, and the roguish side shows rather on a second look.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Seven with Eight-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Strong is the combination of devotion and stance: someone who plays Shakespeare and science fiction with the same care for 60 years takes both seriously. That he speaks publicly about domestic violence shows what courage the Seven gains from the Eight-wing.</p>
+          <p class="vb-intro">The shadow side lies in stress: under pressure the Seven goes to the One, its stress point. Then it appears strict, dutiful and unyielding without having its core in the One. In Stewart the serious Picard tone, the moral clarity and the demand on himself could also be read this way, as a trait that arises from the burden of childhood and demanding roles. A visible difference from the One at the core: he does not lecture and does not want to change others, he tells stories.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: a storyteller with late work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 24 October 2026) Patrick Stewart is 86 years old. He was appointed OBE in 2001 and knighted in 2010, has two Olivier Awards and a Grammy (for narrating &lsquo;Peter and the Wolf&rsquo;), and shares the Guinness record for the longest career as a live-action Marvel superhero with Hugh Jackman. His memoir &lsquo;Making It So&rsquo; appeared in 2023, in 2026 the audiobook of all Shakespeare sonnets in his reading and the film &lsquo;The Sheep Detectives&rsquo;. He has been married to the singer Sunny Ozell since 2013, his third marriage, and is an animal welfare advocate: he fosters dogs through a rescue organization in Los Angeles and campaigns for pit bulls.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
+        {route:"beruehmte-christian-kohlund", label:"Portrait: Christian Kohlund (SX7w8)"},
+        {route:"beruehmte-john-travolta", label:"Portrait: John Travolta (SX7w8)"},
+        {route:"beruehmte-thomas-gottschalk", label:"Portrait: Thomas Gottschalk (SX7w6)"},
+            ])}
+    </div>
+  `);
+}
