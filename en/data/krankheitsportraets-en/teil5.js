@@ -840,6 +840,7 @@ export function franzLisztKrankheitsportraetPage() {
         {route:"beruehmte-franz-liszt", label:"Portrait: Franz Liszt (SX7w8) – life's work"},
         {route:"krankheitsportraets-robert-schumann", label:"Illness Portrait: Robert Schumann (SX7w8) – the same inability to slow down"},
         {route:"krankheitsportraets-leonard-bernstein", label:"Illness Portrait: Leonard Bernstein (SX7w6) – final concert against medical advice"},
+        {route:"krankheitsportraets-johannes-heesters", label:"Johannes Heesters (SX7w6) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx7", label:"Subtype Profile SX7"},
       ])}

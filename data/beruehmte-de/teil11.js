@@ -2831,6 +2831,7 @@ export function vickyLeandrosPortraitPage() {
         {route:"beruehmte-helene-fischer", label:"Porträt: Helene Fischer (SX3w2)"},
         {route:"beruehmte-brigitte-bardot", label:"Porträt: Brigitte Bardot (SX3w2)"},
         {route:"beruehmte-alice-weidel", label:"Porträt: Alice Weidel (SO1w9)"},
+        {route:"beruehmte-katharina-koenig", label:"Porträt: Katharina K\u00f6nig (SX3w2)"},
       ])}
     </div>
   `);

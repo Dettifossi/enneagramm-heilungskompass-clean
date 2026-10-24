@@ -2828,6 +2828,7 @@ export function christinaPlatePortraitPage() {
         {route:"beruehmte-helene-fischer", label:"Portrait: Helene Fischer (SX3w2)"},
         {route:"beruehmte-iris-berben", label:"Portrait: Iris Berben (SX3w2)"},
         {route:"beruehmte-kai-pflaume", label:"Portrait: Kai Pflaume (SX3w2)"},
+        {route:"beruehmte-katharina-koenig", label:"Portrait: Katharina K\u00f6nig (SX3w2)"},
       ])}
     </div>
   `);

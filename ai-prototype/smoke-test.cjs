@@ -133,6 +133,8 @@ const ROUTES = [
   { hash: "en/#krankheitsportraets-rudi-carrell", label: "Neues EN-Krankheitsporträt: Rudi Carrell" },
   { hash: "#krankheitsportraets-johannes-heesters", label: "Neues Krankheitsporträt: Johannes Heesters" },
   { hash: "en/#krankheitsportraets-johannes-heesters", label: "Neues EN-Krankheitsporträt: Johannes Heesters" },
+  { hash: "#beruehmte-katharina-koenig", label: "Neues Porträt: Katharina König" },
+  { hash: "en/#beruehmte-katharina-koenig", label: "Neues EN-Porträt: Katharina König" },
   { hash: "#beruehmte-hong-chau", label: "Neues Porträt: Hong Chau" },
   { hash: "en/#beruehmte-hong-chau", label: "Neues EN-Porträt: Hong Chau" },
   { hash: "#beruehmte-lance-oppenheim", label: "Neues Porträt: Lance Oppenheim" },

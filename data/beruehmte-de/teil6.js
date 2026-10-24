@@ -2833,3 +2833,77 @@ export function knossiPortraitPage() {
     </div>
   `);
 }
+
+
+export function katharinaKoenigPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-katharina-koenig-portrait.jpg" alt="Katharina König – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-katharina-koenig-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Katharina König</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexueller Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Deutsche Betroffene und öffentliche Stimme &ndash; Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Pfau: eine Stimme, die sich zeigt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> zeigt sich und wird gesehen. Katharina König ist durch ihre öffentlichen Auftritte bekannt geworden, in denen sie über ihre schwere Erkrankung nach einer Corona-Impfung spricht. Nach den Angaben, die sie selbst macht und die in Interviews und Berichten wiedergegeben werden, war sie 43 Jahre alt, als die Erkrankung begann. Zuvor arbeitete sie im Motorsport-Bereich, einem Feld, in dem Tempo, Körper und Auftritt eine Rolle spielen. Diese Tätigkeit kann sie nach eigener Aussage nicht mehr ausüben.</p>
+          <p class="vb-intro">Dieses Porträt hält sich an das, was sie selbst sagt, und ordnet es als ihre Darstellung ein. Es bewertet weder Impfstoffe noch Impfkritik. Ob zwischen einer Impfung und einem einzelnen Krankheitsverlauf ein ursächlicher Zusammenhang besteht, entscheiden Medizin, Behörden und Gerichte, nicht ein Porträt. Unbestritten ist, dass Impfstoffe wie jedes Arzneimittel Nebenwirkungen haben können, in seltenen Fällen auch schwere und bleibende Schäden. Das gilt für jede Impfung, und das Paul-Ehrlich-Institut sammelt und veröffentlicht entsprechende Verdachtsmeldungen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: Sichtbarkeit als Mittel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Drei lebt von der Wirkung, und Claudio Naranjo beschrieb die <strong>sexuelle Drei (SX3)</strong> als den Subtyp der Weiblichkeit beziehungsweise Männlichkeit: Ausstrahlung, Präsenz und die Fähigkeit, andere zu erreichen. Bei Katharina König zeigt sich das darin, dass sie ihre Erkrankung nicht verbirgt, sondern zeigt. Im Oktober 2022 machte sie ihre Geschichte auf TikTok öffentlich. Seither spricht sie in Videos und Interviews und trat zum Beispiel am 23. März 2025 bei einer Demonstration in Kassel auf.</p>
+          <p class="vb-intro">Die Drei sucht Erfolg, und auch das Ziel hat bei ihr eine Form: Gemeinsam mit dem Anwalt Tobias Ulbrich hat sie nach den vorliegenden Berichten die Initiative für rund 200 Strafanzeigen gegen den Impfstoffhersteller und das Paul-Ehrlich-Institut angestoßen. Auf der Rechtslage und dem Ausgang solcher Verfahren liegt hier nicht der Fokus. Es geht um die Haltung: aus der Betroffenheit ein Projekt machen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: anderen eine Stimme geben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der Drei Zuwendung und den Wunsch, für andere da zu sein. Bei Katharina König zeigt er sich darin, dass sie nach eigenen Aussagen anderen Betroffenen eine Stimme geben will, weil viele aus Angst nicht an die Öffentlichkeit gehen, und dass sie Ärzte aufklären möchte. Sie gibt an, dass sich seit ihrem ersten Video rund 500.000 weitere Betroffene bei ihr und ihrem Anwalt gemeldet hätten. Diese Zahl stammt von ihr und ist nicht unabhängig geprüft.</p>
+          <p class="vb-intro">Der Kerntyp Drei strebt nach Wirkung, der Zweierflügel stellt diese Wirkung in den Dienst anderer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: eine Erfahrung, die Gehör sucht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wodurch ihre Stimme Gewicht bekommt, ist die Schwere dessen, was sie schildert. Nach ihren Angaben erkrankte sie plötzlich schwer, mit Blutungen und Organversagen, und musste mehrfach notoperiert werden, unter anderem wurde ihr Darm entfernt. Sie berichtet außerdem von einem Schlaganfall im Jahr 2021, Nierenversagen und einer Herzmuskelentzündung und gibt an, seit Beginn der Erkrankung auf einen Rollstuhl angewiesen zu sein. Der Ausdruck ›Du stirbst jetzt‹, den ein Arzt zu ihr gesagt haben soll, ist als Überschrift eines Interviews in der ›Epoch Times‹ überliefert.</p>
+          <p class="vb-intro">Diese Angaben sind ihre eigenen, und dieses Porträt kann sie nicht unabhängig prüfen. Es zweifelt sie aber auch nicht an. Wer sich einem so schweren Eingriff wie einer Darmentfernung unterzieht, ist schwer krank, und das verdient Ernst. Sie berichtet zudem, dass Ärzte ihre Beschwerden nicht ernst genommen und sie als Hypochonderin dargestellt hätten. Dieses Porträt folgt dieser Abwertung ausdrücklich nicht.</p>
+          <p class="vb-intro">Bei einem neuen Impfstoff ist besondere Aufmerksamkeit geboten. Die Corona-Impfstoffe waren neu: die ersten in der Breite eingesetzten mRNA-Impfstoffe, ab Dezember 2020 bedingt zugelassen. Gerade am Anfang einer neuen Impfserie sind die laufende Überwachung der Sicherheit nach der Zulassung und die Meldung seltener Nebenwirkungen besonders wichtig. Öffentlich entstand dabei zeitweise der Eindruck, die Impfung sei ohne Nebenwirkungen: Der SPD-Gesundheitspolitiker Karl Lauterbach, später Bundesgesundheitsminister, schrieb im August 2021 auf Twitter von einer ›nebenwirkungsfreien‹ Impfung und nannte das später im ›heute-journal‹ des ZDF eine ›Übertreibung‹ und eine missglückte Nachricht. Für Menschen, die schwere Folgen erlebten, war ein solcher Satz schwer zu ertragen. Ob bei der Einführung des Impfstoffs jede gebotene Vorsicht angewandt wurde, wird kontrovers diskutiert; das entscheidet dieses Porträt nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Brigitte Bardot und Vicky Leandros</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Auch unter den SX3w2ern dieses Kompasses stehen Frauen, die ihre Sichtbarkeit für eine Sache einsetzen. <a href="#beruehmte-brigitte-bardot">Brigitte Bardot (SX3w2)</a> nutzte ihre Bekanntheit später für den Tierschutz. <a href="#beruehmte-vicky-leandros">Vicky Leandros (SX3w2)</a> tritt öffentlich für ihre Haltung ein.</p>
+          <p class="vb-intro">Der Unterschied: Bardot und Leandros waren schon vor ihrem Engagement bekannt, Katharina König wurde durch ihr Thema bekannt. Die Gemeinsamkeit: Aus der Sichtbarkeit wird Stimme.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sexuellen Drei mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt im Mut, sich zu zeigen, und in der Ausdauer, mit der sie trotz körperlicher Einschränkung weiter spricht und handelt. Wer krank ist und dennoch öffentlich Rede und Antwort steht, zeigt Stärke.</p>
+          <p class="vb-intro">Der Schatten dieser Kombination ist die Abhängigkeit von Aufmerksamkeit: Wer ein Thema öffentlich trägt, wird von Zustimmung und Ablehnung getroffen und von beiden Seiten vereinnahmt. Nach eigener Angabe ist sie zudem finanziell auf Unterstützung angewiesen. Die Wut, die sie als Kraftquelle beschreibt (so die Überschrift eines Interviews), kann tragen und zehren zugleich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Videos, Anzeigen, Auftritte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 24. Oktober 2026) ist Katharina König weiter mit Videos, Interviews und Auftritten öffentlich aktiv und verfolgt mit ihrem Anwalt rechtliche Schritte. Belastbare Angaben zu Aktenzeichen oder Ausgang ihrer eigenen Verfahren liegen nicht vor. Dass schwere Impffolgen bei jeder Impfung auftreten können, steht dabei außer Frage und ist durch die Meldesysteme der Arzneimittelbehörden dokumentiert. Zu ihren Diagnosen und Operationen liegen keine unabhängig überprüfbaren Unterlagen vor; das Porträt stützt sich auf ihre Aussagen, wie sie in Videos und in überwiegend impfkritischen Medien (Epoch Times, Blogs) wiedergegeben werden.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx3", label:"Lebensmusterkompass: SX3 – Pfau"},
+        {route:"beruehmte-brigitte-bardot", label:"Porträt: Brigitte Bardot (SX3w2)"},
+        {route:"beruehmte-vicky-leandros", label:"Porträt: Vicky Leandros (SX3w2)"},
+        {route:"beruehmte-christina-plate", label:"Porträt: Christina Plate (SX3w2)"},
+      ])}
+    </div>
+  `);
+}

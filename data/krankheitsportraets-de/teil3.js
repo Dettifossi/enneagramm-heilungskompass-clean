@@ -2167,6 +2167,7 @@ export function leonardBernsteinKrankheitsportraetPage() {
         {route:"krankheitsportraets-morgan-freeman", label:"Krankheitsporträt: Morgan Freeman (SX7w6)"},
         {route:"krankheitsportraets-frans-de-waal", label:"Krankheitsporträt: Frans de Waal (SX7w6)"},
         {route:"krankheitsportraets-franz-liszt", label:"Franz Liszt (SX7w8) – Krankheitsporträt"},
+        {route:"krankheitsportraets-rudi-carrell", label:"Rudi Carrell (SX7w6) – Krankheitsporträt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx7", label:"Subtyp-Profil SX7"},
       ])}
@@ -2485,6 +2486,8 @@ export function morganFreemanKrankheitsportraetPage() {
         {route:"beruehmte-morgan-freeman", label:"Porträt: Morgan Freeman (SX7w6)"},
         {route:"krankheitsportraets-leonard-bernstein", label:"Krankheitsporträt: Leonard Bernstein (SX7w6) – dasselbe Muster ungebremsten Weiterarbeitens"},
         {route:"krankheitsportraets-frans-de-waal", label:"Krankheitsporträt: Frans de Waal (SX7w6)"},
+        {route:"krankheitsportraets-johannes-heesters", label:"Johannes Heesters (SX7w6) – Krankheitsporträt"},
+        {route:"krankheitsportraets-rudi-carrell", label:"Rudi Carrell (SX7w6) – Krankheitsporträt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx7", label:"Subtyp-Profil SX7"},
       ])}

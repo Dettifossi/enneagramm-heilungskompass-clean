@@ -2766,3 +2766,77 @@ export function rudiCarrellPortraitPage() {
     </div>
   `);
 }
+
+
+export function katharinaKoenigPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-katharina-koenig-portrait.jpg" alt="Katharina König – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-katharina-koenig-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Katharina König</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexual Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">German affected person and public voice &ndash; Animal correspondence: Peacock</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Peacock: a voice that shows itself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>peacock</strong> shows itself and is seen. Katharina König became known through public appearances in which she speaks about her severe illness after a Corona vaccination. According to what she herself says, as reported in interviews and articles, she was 43 years old when the illness began. Before that she worked in the motorsport field, an area in which speed, body and appearance play a role. By her own account she can no longer carry out this work.</p>
+          <p class="vb-intro">This portrait sticks to what she herself says and classifies it as her account. It judges neither vaccines nor vaccine criticism. Whether there is a causal connection between a vaccination and an individual course of illness is decided by medicine, authorities and courts, not by a portrait. It is undisputed that vaccines, like any medicine, can have side effects, in rare cases also severe and lasting harm. This applies to every vaccination, and the Paul-Ehrlich-Institut collects and publishes suspected-case reports.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Three: visibility as a means</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three lives on impact, and Claudio Naranjo described the <strong>sexual Three (SX3)</strong> as the subtype of femininity or masculinity: radiance, presence and the ability to reach others. In Katharina König this shows in the fact that she does not hide her illness but shows it. In October 2022 she made her story public on TikTok. Since then she has spoken in videos and interviews and, for example, appeared at a demonstration in Kassel on 23 March 2025.</p>
+          <p class="vb-intro">The Three seeks success, and her goal too has a form: according to the available reports she initiated, together with the lawyer Tobias Ulbrich, about 200 criminal complaints against the vaccine manufacturer and the Paul-Ehrlich-Institut. The legal position and outcome of such proceedings are not the focus here. It is about the attitude: turning being affected into a project.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: giving others a voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the Three attentiveness and the wish to be there for others. In Katharina König it shows in her saying that she wants to give other affected people a voice because many do not go public out of fear, and that she wants to educate doctors. She states that since her first video about 500,000 further affected people have contacted her and her lawyer. This figure comes from her and has not been independently verified.</p>
+          <p class="vb-intro">The core type Three strives for impact, the Two-wing puts this impact at the service of others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: an experience that seeks a hearing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What gives her voice weight is the severity of what she describes. According to her, she suddenly fell seriously ill, with bleeding and organ failure, and had to undergo emergency operations several times, among them the removal of her bowel. She also reports a stroke in 2021, kidney failure and heart muscle inflammation and states that she has depended on a wheelchair since the illness began. The words &lsquo;Du stirbst jetzt&rsquo; (&lsquo;You are dying now&rsquo;), which a doctor is said to have said to her, are known as the headline of an interview in the &lsquo;Epoch Times&rsquo;.</p>
+          <p class="vb-intro">These statements are her own, and this portrait cannot verify them independently. But it does not doubt them either. Someone who undergoes such a serious procedure as bowel removal is seriously ill, and that deserves seriousness. She also reports that doctors did not take her complaints seriously and portrayed her as a hypochondriac. This portrait expressly does not follow this devaluation.</p>
+          <p class="vb-intro">With a new vaccine, particular attention is called for. The Corona vaccines were new: the first mRNA vaccines used on a broad scale, conditionally authorised from December 2020. Right at the start of a new vaccination series, ongoing monitoring of safety after authorisation and the reporting of rare side effects are especially important. At the same time the impression arose at times in public that the vaccination was free of side effects: the SPD health politician Karl Lauterbach, later Federal Health Minister, wrote on Twitter in August 2021 of a vaccination &lsquo;free of side effects&rsquo; (&lsquo;nebenwirkungsfrei&rsquo;) and later called this, on the ZDF &lsquo;heute-journal&rsquo;, an &lsquo;exaggeration&rsquo; and a failed message. For people who experienced severe consequences, such a sentence was hard to bear. Whether all due caution was applied when the vaccine was introduced is controversially discussed; this portrait does not decide that.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Brigitte Bardot and Vicky Leandros</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Among the SX3w2s in this Compass are also women who use their visibility for a cause. <a href="#beruehmte-brigitte-bardot">Brigitte Bardot (SX3w2)</a> later used her fame for animal protection. <a href="#beruehmte-vicky-leandros">Vicky Leandros (SX3w2)</a> publicly stands for her convictions.</p>
+          <p class="vb-intro">The difference: Bardot and Leandros were already famous before their commitment, Katharina König became known through her topic. What they share: visibility becomes voice.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Three with a Two-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the courage to show oneself and in the stamina with which she keeps speaking and acting despite physical limitation. Someone who is ill and yet answers to the public shows strength.</p>
+          <p class="vb-intro">The shadow of this combination is the dependence on attention: someone who carries a topic publicly is hit by approval and rejection and claimed by both sides. By her own account she also depends on financial support. The anger she describes as a source of strength (so the headline of an interview) can both carry and consume.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: videos, complaints, appearances</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 24 October 2026) Katharina König remains publicly active with videos, interviews and appearances and pursues legal steps with her lawyer. No reliable information about case numbers or the outcome of her own proceedings is available. That severe vaccine consequences can occur with any vaccination is beyond question and is documented by the reporting systems of the medicines authorities. For her diagnoses and operations no independently verifiable documents are available; the portrait rests on her statements as reported in videos and in predominantly vaccine-critical media (Epoch Times, blogs).</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
+        {route:"lebensmusterkompass/sx3", label:"Life Pattern Compass: SX3 – Peacock"},
+        {route:"beruehmte-brigitte-bardot", label:"Portrait: Brigitte Bardot (SX3w2)"},
+        {route:"beruehmte-vicky-leandros", label:"Portrait: Vicky Leandros (SX3w2)"},
+        {route:"beruehmte-christina-plate", label:"Portrait: Christina Plate (SX3w2)"},
+      ])}
+    </div>
+  `);
+}
