@@ -7843,6 +7843,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://kompass.verlagshausrathmer.com/beruehmte-mike-tyson/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://kompass.verlagshausrathmer.com/beruehmte-bradley-cooper/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
@@ -13160,6 +13166,12 @@
   </url>
   <url>
     <loc>https://kompass.verlagshausrathmer.com/en/beruehmte-patrick-stewart/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kompass.verlagshausrathmer.com/en/beruehmte-mike-tyson/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
