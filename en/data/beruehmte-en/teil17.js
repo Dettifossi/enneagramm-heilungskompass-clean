@@ -2914,3 +2914,74 @@ export function johannLechnerPortraitPage() {
     </div>
   `);
 }
+
+export function johannesBKernerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-johannes-b-kerner-portrait.jpg" alt="Johannes B. Kerner – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-johannes-b-kerner-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Johannes B. Kerner</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Social Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">German television presenter, b. 1964 &ndash; Animal correspondence: Cheetah</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Cheetah: from intern to television face</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>cheetah</strong> acts out of calm, and an appearance is often decided in a few moments. Johannes B. Kerner was born on 9 December 1964 in Bonn, grew up in a Catholic family in Hersel and attended the Jesuit school Aloisiuskolleg in Bad Godesberg. He began a business studies degree but dropped it after an internship at the broadcaster Sender Freies Berlin in 1986 to work in television.</p>
+          <p class="vb-intro">At SFB he worked as a sports reporter and presenter, from 1990 to 1992 at ARD. From 1992 to 1997 he hosted the football magazine &lsquo;ran&rsquo; on Sat.1 and in 1996 launched a daily talk show there.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Three: standing as a host</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the social Three standing in the community drives action, which Claudio Naranjo called prestige. In Kerner this shows in the combination of popularity and care. He says that whoever works in television and claims not to be vain is lying, and that he admits to it, but not excessively (Lokalkompass interview).</p>
+          <p class="vb-intro">In an older interview he says he had been driven by the ambition not to make mistakes. His loneliest professional time was 2009, when he asked himself whether his television career was over. He calls the move to Sat.1 that year the biggest mistake of his career. In a more recent conversation he says of the failure only: &lsquo;Das hat nicht funktioniert&rsquo; (that did not work). He still does not think of quitting.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: friendliness and attentiveness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> brings the Three warmth and interest in people. Don Richard Riso and Russ Hudson call the Three with a Two-wing &lsquo;The Charmer&rsquo;. In Kerner it shows in how he interviews guests: friendly, attentive and modest. He says of himself that he is practically never angry, rather sad, but does not tend toward depression, and he appears reserved when he first doubts whether his advice interests anyone at all.</p>
+          <p class="vb-intro">He calls his surroundings &lsquo;nice&rsquo; and &lsquo;sorted&rsquo;, including his former wife. The interplay of friendliness and focus defines him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: sport, talk and changes between channels</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From 1996 Kerner worked as a freelancer at ZDF, among other things on &lsquo;das aktuelle sportstudio&rsquo; until 2006. His talk show &lsquo;Johannes B. Kerner&rsquo; ran from 1998 to 2009. In 2004 he co-founded the production company Die Fernsehmacher and left it in 2009. In that year he went back to Sat.1, where the show &lsquo;Kerner&rsquo; ended in 2011. From 2009 to 2013 he hosted Bundesliga matches for LIGA total!, in 2013 he returned to ZDF. Since 2021 he has hosted football tournaments for MagentaTV and since October 2022 a talk show there.</p>
+          <p class="vb-intro">He received the Goldene Kamera (2003), the Bambi (2004), the Deutscher Fernsehpreis (2006), the Goldene Romy (2008) and the Federal Cross of Merit First Class (2021). In 2026 he was honored with an honorary Blauer Panther. There was criticism, among other things, of his show with Eva Herman in 2007, of the advertising for Air Berlin&rsquo;s IPO in 2006 while working for a public broadcaster, and of a ZDF broadcast from Afghanistan with Karl-Theodor zu Guttenberg in 2010.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same type: Kai Pflaume and Christiane Hörbiger</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-kai-pflaume">Kai Pflaume (SX3w2)</a> is, like Kerner, a friendly presenter with a Two-wing, but in the sexual subtype the accent lies on personal radiance, in the social one on standing in the shared space of television. <a href="#beruehmte-christiane-hoerbiger">Christiane Hörbiger (SO3w2)</a> shares with him the subtype and the warmth that reaches a broad audience.</p>
+          <p class="vb-intro">The difference: Kerner brings sport as a second footing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social Three with Two-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Impressive is the combination of reliability and friendliness: someone who carries sport, talk and quiz on television for decades wins the viewers&rsquo; trust. The open word about his biggest mistake belongs here too.</p>
+          <p class="vb-intro">The shadow side of the Three is the close link between self-image and success: someone who understands himself as a person of ratings feels setbacks like 2009 more strongly. Kerner himself says there are quite a few things he cannot do well and that he is not patient.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: Hamburg, family and football</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kerner is 61 years old (as of 24 October 2026) and lives in Hamburg-Winterhude. He was married to Britta Becker from 1996 to 2019 and has three daughters and a son with her. In spring 2024 he married Alina Schiess. He says the football stadium is the place where he likes to be most. This portrait describes his public work and the criticism of individual shows without evaluating it.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
+        {route:"lebensmusterkompass/so3", label:"Life Pattern Compass: SO3 – Cheetah"},
+        {route:"beruehmte-kai-pflaume", label:"Portrait: Kai Pflaume (SX3w2)"},
+        {route:"beruehmte-christiane-hoerbiger", label:"Portrait: Christiane Hörbiger (SO3w2)"},
+        {route:"beruehmte-thomas-gottschalk", label:"Portrait: Thomas Gottschalk (SX7w6)"},
+            ])}
+    </div>
+  `);
+}

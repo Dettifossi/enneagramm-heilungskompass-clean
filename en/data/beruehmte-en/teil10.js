@@ -965,6 +965,7 @@ export function kaiPflaumePortraitPage() {
         {route:"beruehmte-dieter-bohlen", label:"Portrait: Dieter Bohlen (SX3w4)"},
         {route:"beruehmte-lena-meyer-landrut", label:"Portrait: Lena Meyer-Landrut (SX3w2)"},
         {route:"beruehmte-christina-plate", label:"Portrait: Christina Plate (SX3w2)"},
+        {route:"beruehmte-johannes-b-kerner", label:"Portrait: Johannes B. Kerner (SO3w2)"},
       ])}
     </div>
   `);

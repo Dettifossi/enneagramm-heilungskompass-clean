@@ -2950,7 +2950,8 @@ export function christianeHoerbigerPortraitPage() {
         {route:"beruehmte-zoe-kravitz", label:"Portrait: Zoë Kravitz (SO3w2)"},
         {route:"beruehmte-christiaan-barnard", label:"Portrait: Dr. Christiaan Barnard (SO3w2)"},
         {route:"beruehmte-pharrell-williams", label:"Portrait: Pharrell Williams (SO3w2)"},
-            ])}
+        {route:"beruehmte-johannes-b-kerner", label:"Portrait: Johannes B. Kerner (SO3w2)"},
+      ])}
     </div>
   `);
 }

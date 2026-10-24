@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2622", date: "2026-10-24", text: "Neues Porträt: Johannes B. Kerner (SO3w2) – Fernsehmoderator.", text_en: "New portrait: Johannes B. Kerner (SO3w2) – television presenter.", route: "beruehmte-johannes-b-kerner" },
     { version: "v2621", date: "2026-10-24", text: "Neues Porträt: Franziska van Almsick (SO3w4) – Schwimmerin.", text_en: "New portrait: Franziska van Almsick (SO3w4) – swimmer.", route: "beruehmte-franziska-van-almsick" },
     { version: "v2620", date: "2026-10-24", text: "Neues Porträt: Danielle Vasinova (SO3w4) – Schauspielerin und Model.", text_en: "New portrait: Danielle Vasinova (SO3w4) – actress and model.", route: "beruehmte-danielle-vasinova" },
     { version: "v2619", date: "2026-10-24", text: "Neues Porträt: Christiane Hörbiger (SO3w2) – Schauspielerin.", text_en: "New portrait: Christiane Hörbiger (SO3w2) – actress.", route: "beruehmte-christiane-hoerbiger" },

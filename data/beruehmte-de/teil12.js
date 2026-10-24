@@ -2946,3 +2946,74 @@ export function vitaliKlitschkoPortraitPage() {
     </div>
   `);
 }
+
+export function johannesBKernerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-johannes-b-kerner-portrait.jpg" alt="Johannes B. Kerner – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-johannes-b-kerner-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Johannes B. Kerner</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Sozialer Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Fernsehmoderator, geb. 1964 &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Gepard: vom Praktikanten zum Fernsehgesicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Gepard</strong> wirkt aus der Ruhe heraus, und ein Auftritt entscheidet sich oft in wenigen Momenten. Johannes B. Kerner wurde am 9. Dezember 1964 in Bonn geboren, wuchs in einer katholischen Familie in Hersel auf und besuchte das Jesuitengymnasium Aloisiuskolleg in Bad Godesberg. Er begann ein Betriebswirtschaftsstudium, brach es aber nach einem Praktikum beim Sender Freies Berlin 1986 ab, um Fernsehen zu machen.</p>
+          <p class="vb-intro">Beim SFB arbeitete er als Sportreporter und Moderator, von 1990 bis 1992 bei der ARD. Von 1992 bis 1997 moderierte er bei Sat.1 das Fußballmagazin ›ran‹ und startete 1996 dort eine tägliche Talkshow.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Ansehen als Gastgeber</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bei der sozialen Drei bestimmt das Ansehen in der Gemeinschaft das Handeln, und Claudio Naranjo nannte das Prestige. Bei Kerner zeigt sich das in der Verbindung von Beliebtheit und Sorgfalt. Er sagt, wer im Fernsehen arbeite und behaupte, nicht eitel zu sein, lüge, und er bekenne sich dazu, aber nicht übertrieben (Lokalkompass-Interview).</p>
+          <p class="vb-intro">In einem älteren Interview sagt er, er sei vom Ehrgeiz getrieben gewesen, keine Fehler zu machen. Seine einsamste berufliche Zeit war 2009, als er sich fragte, ob seine Fernsehkarriere vorbei sei. Den Wechsel zu Sat.1 in diesem Jahr nennt er den größten Fehler seiner Laufbahn. In einem neueren Gespräch sagt er zum Misserfolg nur: ›Das hat nicht funktioniert.‹ Ans Aufhören denke er trotzdem nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Freundlichkeit und Zugewandtheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> bringt der Drei Wärme und das Interesse an Menschen. Don Richard Riso und Russ Hudson nennen die Drei mit Zweierflügel ›Den Charmeur‹. Bei Kerner zeigt sich das in seiner Art, Gäste zu befragen: freundlich, zugewandt und bescheiden. Er sagt von sich, er sei praktisch nie wütend, eher traurig, neige aber nicht zur Depression, und er wirkt zurückhaltend, wenn er zunächst zweifelt, ob sein Rat überhaupt jemanden interessiert.</p>
+          <p class="vb-intro">Er nennt sein Umfeld ›schön‹ und ›sortiert‹, einschließlich seiner früheren Ehefrau. Das Zusammenspiel von Freundlichkeit und Fokus macht ihn aus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Sport, Talk und Wechsel zwischen den Sendern</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ab 1996 arbeitete Kerner als Freier beim ZDF, unter anderem bei ›das aktuelle sportstudio‹ bis 2006. Seine Talkshow ›Johannes B. Kerner‹ lief von 1998 bis 2009. 2004 gründete er die Produktionsfirma Die Fernsehmacher mit und verließ sie 2009. In diesem Jahr ging er zurück zu Sat.1, wo die Show ›Kerner‹ 2011 endete. Von 2009 bis 2013 moderierte er Bundesligaspiele für LIGA total!, 2013 kehrte er zum ZDF zurück. Seit 2021 moderiert er Fußballturniere für MagentaTV und seit Oktober 2022 eine Talkshow dort.</p>
+          <p class="vb-intro">Er erhielt die Goldene Kamera (2003), den Bambi (2004), den Deutschen Fernsehpreis (2006), die Goldene Romy (2008) und das Verdienstkreuz 1. Klasse (2021). 2026 wurde er mit einem Ehren-Blauen-Panther ausgezeichnet. Kritik gab es unter anderem an seiner Sendung mit Eva Herman 2007, an der Werbung für den Börsengang von Air Berlin 2006 während seiner Arbeit für einen öffentlich-rechtlichen Sender und an einer ZDF-Sendung aus Afghanistan mit Karl-Theodor zu Guttenberg 2010.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Typ: Kai Pflaume und Christiane Hörbiger</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-kai-pflaume">Kai Pflaume (SX3w2)</a> ist wie Kerner ein freundlicher Moderator mit Zweierflügel, doch beim sexuellen Subtyp liegt der Akzent auf der persönlichen Ausstrahlung, beim sozialen auf dem Ansehen im Gemeinschaftsraum Fernsehen. <a href="#beruehmte-christiane-hoerbiger">Christiane Hörbiger (SO3w2)</a> teilt mit ihm den Subtyp und die Wärme, die ein breites Publikum erreicht.</p>
+          <p class="vb-intro">Der Unterschied: Kerner bringt den Sport als zweiten Boden mit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Drei mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Beeindruckend ist die Verbindung von Verlässlichkeit und Freundlichkeit: Wer über Jahrzehnte Sport, Talk und Quiz im Fernsehen trägt, gewinnt das Vertrauen der Zuschauer. Auch das offene Wort über den größten Fehler gehört dazu.</p>
+          <p class="vb-intro">Die Schattenseite der Drei ist die enge Verbindung von Selbstbild und Erfolg: Wer sich selbst als Person der Quote versteht, spürt Rückschläge wie 2009 stärker. Kerner sagt selbst, es gebe eine ganze Reihe von Sachen, die er nicht gut könne, und er sei nicht geduldig.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Hamburg, Familie und Fußball</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kerner ist (Stand 24. Oktober 2026) 61 Jahre alt und lebt in Hamburg-Winterhude. Er war von 1996 bis 2019 mit Britta Becker verheiratet und hat mit ihr drei Töchter und einen Sohn. Im Frühjahr 2024 heiratete er Alina Schiess. Er sagt, das Fußballstadion sei der Ort, an dem er sich am liebsten aufhalte. Dieses Porträt beschreibt sein öffentliches Wirken und die Kritik an einzelnen Sendungen, ohne sie zu bewerten.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so3", label:"Lebensmusterkompass: SO3 – Gepard"},
+        {route:"beruehmte-kai-pflaume", label:"Porträt: Kai Pflaume (SX3w2)"},
+        {route:"beruehmte-christiane-hoerbiger", label:"Porträt: Christiane Hörbiger (SO3w2)"},
+        {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
+            ])}
+    </div>
+  `);
+}
