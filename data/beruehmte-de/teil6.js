@@ -2974,7 +2974,8 @@ export function curtisYarvinPortraitPage() {
         {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
         {route:"beruehmte-jordan-peterson", label:"Porträt: Dr. Jordan Peterson (SO1w9)"},
         {route:"beruehmte-richard-david-precht", label:"Porträt: Richard David Precht (SO1w9)"},
-            ])}
+        {route:"beruehmte-peter-thiel", label:"Porträt: Peter Thiel (SX1w9)"},
+      ])}
     </div>
   `);
 }

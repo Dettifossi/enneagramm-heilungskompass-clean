@@ -4212,6 +4212,7 @@ export function robertGreenePortraitPage() {
         {route:"lebensmusterkompass/sx1", label:"Lebensmusterkompass: SX1 – Schwarze Mamba"},
         {route:"beruehmte-michel-foucault", label:"Porträt: Michel Foucault (SX1w9) – derselbe Subtyp, Macht als Gegenstand des Denkens"},
         {route:"beruehmte-joseph-beuys", label:"Porträt: Joseph Beuys (SX1w9) – derselbe Subtyp, Sendungsbewusstsein"},
+        {route:"beruehmte-peter-thiel", label:"Porträt: Peter Thiel (SX1w9)"},
       ])}
     </div>
   `);

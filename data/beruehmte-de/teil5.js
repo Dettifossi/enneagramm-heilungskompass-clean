@@ -2866,3 +2866,75 @@ export function robertMcCollumPortraitPage() {
     </div>
   `);
 }
+
+export function peterThielPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-peter-thiel-portrait.jpg" alt="Peter Thiel – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-peter-thiel-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Peter Thiel</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexueller Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Unternehmer und Investor, geb. 1967 in Frankfurt &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Die Schwarze Mamba: vom Frankfurter Kind zum Valedictorian</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine <strong>Schwarze Mamba</strong> liegt unauffällig im Gras und ist blitzschnell, wenn sie sich bedroht fühlt. Peter Thiel wurde am 11. Oktober 1967 in Frankfurt am Main als Sohn von Klaus und Susanne Thiel geboren. Die Familie zog, als er ein Jahr alt war, in die USA nach Cleveland, Ohio, lebte später in Südafrika und in Südwestafrika (dem heutigen Namibia) zur Zeit der Apartheid und ließ sich 1977 in Foster City in Kalifornien nieder. Er sagte später, die uniformierte deutschsprachige Schule in Swakopmund habe seine Abneigung gegen Reglementierung geprägt.</p>
+          <p class="vb-intro">1985 war er Jahrgangsbester der San Mateo High School. In Stanford studierte er Philosophie und gründete 1987 die konservativ-libertäre Zeitung ›The Stanford Review‹. 1992 schloss er an der Stanford Law School als Jurist ab, arbeitete kurz als Wertpapieranwalt bei Sullivan & Cromwell, wurde Devisenoptionshändler bei Credit Suisse und schrieb nebenbei Reden für William Bennett.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Intensität im engen Kreis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die sexuelle Eins richtet ihre Strenge nicht auf die ganze Welt, sondern mit voller Intensität auf wenige Dinge, Menschen und Gegner. Bei Thiel zeigt sich das zuerst im Kreis seiner Mitgründer: PayPal gründete er mit Max Levchin und Luke Nosek, bis 2002 war er Vorstandsvorsitzender, dann kaufte eBay die Firma für 1,5 Milliarden Dollar. Später baute er Beteiligungen auf, die ähnlichen Gründerkreisen folgten.</p>
+          <p class="vb-intro">Der schärfste Ausdruck dieser Intensität war sein Vorgehen gegen die Medienfirma Gawker. Er sagte, Gawker habe ihn 2007 öffentlich geoutet. 2016 bestätigte er, dass er Prozesskosten von etwa 10 Millionen Dollar für Klagen gegen Gawker finanziert hatte, darunter den Prozess von Hulk Hogan. Gawker stellte im August nach einer Geschworenenentscheidung über 140 Millionen Dollar den Betrieb ein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Handeln aus der Distanz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der Eins Zurückhaltung und die Neigung, nicht selbst in der ersten Reihe zu stehen. Bei Thiel zeigt sich das darin, dass er den Gawker-Prozess jahrelang im Verborgenen finanzierte und erst 2016 bestätigte. Auch die Entscheidung, 2011 die Staatsbürgerschaft von Neuseeland anzunehmen, wurde erst 2017 öffentlich und löste Kontroversen aus.</p>
+          <p class="vb-intro">Der Kerntyp Eins hat die Strenge, der Neunerflügel die ruhige Distanz, aus der er sie umsetzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Gründer, Geldgeber, Netzwerker</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach PayPal gründete er den Hedgefonds Clarium Capital, der nach starken Jahren seit 2008 schwächelte und dessen Vermögen 2011 auf 350 Millionen Dollar gefallen war. 2003 gründete er das Datenanalyse-Unternehmen Palantir, dessen Vorsitzender er ist. 2004 investierte er 500.000 Dollar in Facebook für 10,2 Prozent, die erste Außenfinanzierung der Firma, und kam in den Verwaltungsrat. Den größten Teil seiner Anteile verkaufte er nach dem Börsengang 2012.</p>
+          <p class="vb-intro">2005 gründete er den Risikokapitalfonds Founders Fund, der sich auf Verteidigung und ›Hard Tech‹ ausrichtete und unter anderem SpaceX, Airbnb, Spotify und Anduril unterstützte. Von 2015 bis 2017 war er Teilzeit-Partner bei Y Combinator. Ein Wissenschaftler nannte ihn ›einen politischen Theologen im Herzen des Silicon Valley‹, ein anderer den ›intellektuellen Architekten des heutigen Ethos des Silicon Valley‹. Laut Forbes liegt sein Vermögen im Oktober 2026 bei 37,7 Milliarden Dollar.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Positionen und Kontroversen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Thiel bezeichnet sich als Libertären. Beobachter beschreiben ihn unterschiedlich, etwa als ›konservativen Libertären‹ oder ›libertären Autoritären‹, und seine Ansichten über Demokratie sind umstritten. Im Februar 2022 kündigte er an, den Verwaltungsrat von Meta zu verlassen, um 2022 Kandidaten zu unterstützen, die Trump nahestehen.</p>
+          <p class="vb-intro">Um Palantir gibt es Verschwörungstheorien über Verbindungen zur CIA, die laut der Quelle teilweise aus dem Selbstbild der Gründer selbst entstanden sind. Dieses Porträt gibt Beschreibung und Kritik wieder und nimmt keine Stellung zu den politischen Streitfragen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallele im selben Subtyp: Robert Greene und Gunther von Hagens</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-robert-greene">Robert Greene (SX1w9)</a> beschäftigt sich als Autor mit Macht und Strategie und verbindet mit Thiel den nüchternen Blick auf das, was Menschen antreibt. <a href="#beruehmte-gunther-von-hagens">Gunther von Hagens (SX1w9)</a> ist ein umstrittener Unternehmer, der wie Thiel für seine Sache auch Kritik aushält.</p>
+          <p class="vb-intro">Der Unterschied: Greene schreibt über Macht, von Hagens zeigt sie mit dem eigenen Werk, Thiel finanziert sie.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Licht und Schatten, Stand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Konsequenz: Wer früh in Technologien und Gründer investiert, die später groß wurden, hat einen langen Atem. Der Schatten der sexuellen Eins mit Neunerflügel kann eine Härte im persönlichen Konflikt sein, die aus der Distanz verfolgt wird.</p>
+          <p class="vb-intro">Thiel ist (Stand 24. Oktober 2026) 59 Jahre alt. Dieses Porträt beschreibt sein öffentliches Wirken und bewertet seine Positionen nicht.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx1", label:"Lebensmusterkompass: SX1 – Schwarze Mamba"},
+        {route:"beruehmte-robert-greene", label:"Porträt: Robert Greene (SX1w9)"},
+        {route:"beruehmte-gunther-von-hagens", label:"Porträt: Gunther von Hagens (SX1w9)"},
+        {route:"beruehmte-curtis-yarvin", label:"Porträt: Curtis Yarvin (SO1w9)"},
+            ])}
+    </div>
+  `);
+}

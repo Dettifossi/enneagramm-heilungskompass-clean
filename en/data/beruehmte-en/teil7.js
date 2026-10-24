@@ -2325,6 +2325,7 @@ export function guntherVonHagensPortraitPage() {
         {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Portrait: Marie-Agnes Strack-Zimmermann (SX1w9)"},
         {route:"beruehmte-udo-lindenberg", label:"Portrait: Udo Lindenberg (SX1w9) – the same hat, the same principle"},
         {route:"krankheitsportraets-gunther-von-hagens", label:"Illness Portrait: Gunther von Hagens (SX1w9)"},
+        {route:"beruehmte-peter-thiel", label:"Portrait: Peter Thiel (SX1w9)"},
       ])}
     </div>
   `);

@@ -171,6 +171,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-dominik-krause", label: "Neues EN-Porträt: Dominik Krause" },
   { hash: "#beruehmte-curtis-yarvin", label: "Neues Porträt: Curtis Yarvin" },
   { hash: "en/#beruehmte-curtis-yarvin", label: "Neues EN-Porträt: Curtis Yarvin" },
+  { hash: "#beruehmte-peter-thiel", label: "Neues Porträt: Peter Thiel" },
+  { hash: "en/#beruehmte-peter-thiel", label: "Neues EN-Porträt: Peter Thiel" },
   { hash: "#beruehmte-bradley-cooper", label: "Neues Porträt: Bradley Cooper" },
   { hash: "en/#beruehmte-bradley-cooper", label: "Neues EN-Porträt: Bradley Cooper" },
   { hash: "#beruehmte-richy-mueller", label: "Neues Porträt: Richy Müller" },

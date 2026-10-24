@@ -4203,6 +4203,7 @@ export function robertGreenePortraitPage() {
         {route:"lebensmusterkompass/sx1", label:"Life Pattern Compass: SX1 – Black Mamba"},
         {route:"beruehmte-michel-foucault", label:"Portrait: Michel Foucault (SX1w9) – same subtype, power as a subject of thought"},
         {route:"beruehmte-joseph-beuys", label:"Portrait: Joseph Beuys (SX1w9) – same subtype, sense of mission"},
+        {route:"beruehmte-peter-thiel", label:"Portrait: Peter Thiel (SX1w9)"},
       ])}
     </div>
   `);

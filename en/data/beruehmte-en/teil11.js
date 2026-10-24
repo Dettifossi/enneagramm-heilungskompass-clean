@@ -2914,3 +2914,75 @@ export function robertMcCollumPortraitPage() {
     </div>
   `);
 }
+
+export function peterThielPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-peter-thiel-portrait.jpg" alt="Peter Thiel – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-peter-thiel-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Peter Thiel</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexual Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">American entrepreneur and investor, b. 1967 in Frankfurt &ndash; Animal correspondence: Black Mamba</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Black Mamba: from the Frankfurt child to valedictorian</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>black mamba</strong> lies inconspicuously in the grass and is lightning fast when it feels threatened. Peter Thiel was born on 11 October 1967 in Frankfurt am Main to Klaus and Susanne Thiel. When he was one year old the family moved to the USA, to Cleveland, Ohio, later lived in South Africa and in South West Africa (today Namibia) during apartheid, and settled in Foster City, California in 1977. He later said the uniformed German-language school in Swakopmund shaped his dislike of regimentation.</p>
+          <p class="vb-intro">In 1985 he was valedictorian of San Mateo High School. At Stanford he studied philosophy and in 1987 founded the conservative-libertarian newspaper &lsquo;The Stanford Review&rsquo;. In 1992 he graduated from Stanford Law School, worked briefly as a securities lawyer at Sullivan &amp; Cromwell, became a currency-options trader at Credit Suisse and wrote speeches for William Bennett on the side.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual One: intensity in the close circle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The sexual One directs its strictness not at the whole world but with full intensity at few things, people and opponents. In Thiel this shows first in the circle of his co-founders: he founded PayPal with Max Levchin and Luke Nosek and was CEO until 2002, when eBay bought the company for $1.5 billion. Later he built holdings that followed similar founder circles.</p>
+          <p class="vb-intro">The sharpest expression of this intensity was his action against the media company Gawker. He said Gawker had publicly outed him in 2007. In 2016 he confirmed that he had funded about $10 million in legal costs for lawsuits against Gawker, among them Hulk Hogan&rsquo;s case. In August, after a jury verdict of over $140 million, Gawker ceased operations.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-wing: acting from a distance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the One reserve and the tendency not to stand in the front row oneself. In Thiel it shows in that he financed the Gawker litigation for years in the background and only confirmed it in 2016. The decision to take New Zealand citizenship in 2011 also became public only in 2017 and caused controversy.</p>
+          <p class="vb-intro">The core type One has the strictness, the Nine-wing the calm distance from which he carries it out.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: founder, backer, networker</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After PayPal he founded the hedge fund Clarium Capital, which weakened after strong years from 2008 and whose assets had fallen to $350 million by 2011. In 2003 he founded the data analysis company Palantir, of which he is chairman. In 2004 he invested $500,000 in Facebook for 10.2 percent, the company&rsquo;s first outside investment, and joined its board. He sold most of his stake after the 2012 IPO.</p>
+          <p class="vb-intro">In 2005 he founded the venture fund Founders Fund, which turned toward defense and &lsquo;hard tech&rsquo; and backed among others SpaceX, Airbnb, Spotify and Anduril. From 2015 to 2017 he was a part-time partner at Y Combinator. One scholar called him &lsquo;a political theologian operating at the heart of Silicon Valley&rsquo;, another the &lsquo;intellectual architect of Silicon Valley&rsquo;s contemporary ethos&rsquo;. According to Forbes his net worth stands at $37.7 billion in October 2026.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Positions and controversies</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Thiel identifies as a libertarian. Observers describe him in different ways, for example as a &lsquo;conservative libertarian&rsquo; or &lsquo;libertarian authoritarian&rsquo;, and his views on democracy are disputed. In February 2022 he announced he would leave Meta&rsquo;s board to support candidates close to Trump in the 2022 elections.</p>
+          <p class="vb-intro">Around Palantir there are conspiracy theories about connections to the CIA, which according to the source partly arose from the founders&rsquo; own image-building. This portrait reports description and criticism and takes no position on the political disputes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallel in the same subtype: Robert Greene and Gunther von Hagens</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-robert-greene">Robert Greene (SX1w9)</a> deals as an author with power and strategy and shares with Thiel the sober view of what drives people. <a href="#beruehmte-gunther-von-hagens">Gunther von Hagens (SX1w9)</a> is a controversial entrepreneur who, like Thiel, withstands criticism for his cause.</p>
+          <p class="vb-intro">The difference: Greene writes about power, von Hagens shows it with his own work, Thiel finances it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Light and shadow, where things stand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is the consistency: someone who invests early in technologies and founders that later became big has a long breath. The shadow of the sexual One with a Nine-wing can be a hardness in personal conflict that is pursued from a distance.</p>
+          <p class="vb-intro">Thiel is 59 years old (as of 24 October 2026). This portrait describes his public work and does not evaluate his positions.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
+        {route:"lebensmusterkompass/sx1", label:"Life Pattern Compass: SX1 – Black Mamba"},
+        {route:"beruehmte-robert-greene", label:"Portrait: Robert Greene (SX1w9)"},
+        {route:"beruehmte-gunther-von-hagens", label:"Portrait: Gunther von Hagens (SX1w9)"},
+        {route:"beruehmte-curtis-yarvin", label:"Portrait: Curtis Yarvin (SO1w9)"},
+            ])}
+    </div>
+  `);
+}

@@ -2924,7 +2924,8 @@ export function curtisYarvinPortraitPage() {
         {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
         {route:"beruehmte-jordan-peterson", label:"Portrait: Dr. Jordan Peterson (SO1w9)"},
         {route:"beruehmte-richard-david-precht", label:"Portrait: Richard David Precht (SO1w9)"},
-            ])}
+        {route:"beruehmte-peter-thiel", label:"Portrait: Peter Thiel (SX1w9)"},
+      ])}
     </div>
   `);
 }
