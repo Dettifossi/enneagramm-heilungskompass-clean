@@ -2892,7 +2892,7 @@ export function mikeTysonPortraitPage() {
         <h2 class="vb-section">4. The substance: rise, fall and return</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Tyson won gold at the Junior Olympics in 1981 and 1982 and the New York Golden Gloves in 1984. He lost two amateur bouts to Henry Tillman, who later became an Olympic champion. In March 1985 he made his professional debut. In 1986 he won the WBC title against Trevor Berbick and at 20 became the youngest heavyweight world champion. In 1987 he unified the WBA, WBC and IBF titles as the first heavyweight to hold all three at once. In February 1990 he unexpectedly lost in Tokyo to Buster Douglas.</p>
-          <p class="vb-intro">After prison he returned in 1995 and won back the WBC and WBA titles in 1996. In the same year he lost to Evander Holyfield by technical knockout in the eleventh round. His final record: 50 wins (44 by knockout), 7 losses and 2 no contests. In 2011 he was inducted into the International Boxing Hall of Fame.</p>
+          <p class="vb-intro">In 1992 he was convicted of rape and served about three years in prison, more on this in section 6. After prison he returned in 1995 and won back the WBC and WBA titles in 1996. In the same year he lost to Evander Holyfield by technical knockout in the eleventh round. His final record: 50 wins (44 by knockout), 7 losses and 2 no contests. In 2011 he was inducted into the International Boxing Hall of Fame.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Parallel in the same subtype: Vitali Klitschko and Don King</h2>
