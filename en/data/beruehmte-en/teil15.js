@@ -2858,3 +2858,74 @@ export function heinzRudolfKunzePortraitPage() {
     </div>
   `);
 }
+
+export function vitaliKlitschkoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-vitali-klitschko-portrait.jpg" alt="Vitali Klitschko – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-vitali-klitschko-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Vitali Klitschko</p>
+        <p class="krim-portrait-typ">SP7w8 &middot; Self-Preservation Type 7 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">Ukrainian politician and former boxing world champion, b. 1971 &ndash; Animal correspondence: Gorilla</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Gorilla: from kickboxer to heavyweight champion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>gorilla</strong> leads its group with calm and body mass, and it rarely has to show that it is strong. Vitali Klitschko was born on 19 July 1971 in Belovodskoye in the Kirghiz Soviet Republic. He first competed in amateur boxing, kickboxing and sport karate and won six world titles in kickboxing. In 1995 he won super-heavyweight gold at the Military World Games and silver at the World Championships.</p>
+          <p class="vb-intro">In 1996 he tested positive for a banned steroid, which he attributed to the treatment of a leg injury. He was dismissed from the team and missed the Olympic Games in Atlanta. In the same year he turned professional.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Seven: the circle of the family</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Seven sidesteps pain by turning to enthusiasm, and its passion is gluttony, the craving for ever more. Claudio Naranjo called the <strong>self-preservation Seven (SP7)</strong> the family: its appetite is directed at security and belonging in the closest circle. In Klitschko this circle is the pair of brothers. Vitali and his brother Wladimir dominated the heavyweight division together in the period known as the &lsquo;Klitschko Era&rsquo; (2006 to 2015), and they never fought each other.</p>
+          <p class="vb-intro">He was married to Natalia Yehorova from 1996; they have three children and have lived separately since 2022. When Russia launched its full-scale invasion in February 2022, he and Wladimir pledged to defend Kyiv and raised &euro;100 million in Germany in March.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-wing: standing firm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Seven assertiveness, directness and the willingness to fight a fight. In Klitschko it shows in the ring and afterwards in politics. He was never knocked down in his whole professional career, and he is one of the few heavyweight champions of whom that is true. After retiring in 2005 with a knee injury he returned in 2008 and beat Samuel Peter for the WBC title.</p>
+          <p class="vb-intro">In politics he became a leading figure of the Euromaidan protests of 2013/14 and, since 2014, mayor of Kyiv. The core type Seven seeks mobility; the Eight-wing makes sure he stays where he takes responsibility.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: boxer, strategist, mayor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Klitschko&rsquo;s professional record stands at 45 wins and 2 losses, 41 of them by knockout. In 1999 he won the WBO title against Herbie Hide. In 2000 he lost to Chris Byrd because he had to retire with a shoulder injury, in 2003 to Lennox Lewis by technical knockout after a cut. In 2004 he won the WBC and The Ring titles against Corrie Sanders. His title defenses include fights against Chris Arreola, Shannon Briggs, Tomasz Adamek, Derek Chisora and Manuel Charr. In December 2013 he retired as WBC champion emeritus; in 2011 the WBC had named him Fighter of the Year.</p>
+          <p class="vb-intro">His second career was just as consistent: in 2006 he came second in the Kyiv mayoral election and joined the city council, in 2010 he took over the party UDAR, in 2012 he entered parliament. In 2014 he became mayor of Kyiv, was re-elected in 2015, and in 2020 he won in the first round with 50.52 percent. He holds the title Hero of Ukraine.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Don King and Larry King</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-don-king">Don King (SP7w8)</a> shares with him the Eight-wing and the world of heavyweight boxing, but from the other side: he organized fights, Klitschko fought them. Both appear with great presence.</p>
+          <p class="vb-intro"><a href="#beruehmte-larry-king">Larry King (SP7w6)</a> is also a self-preservation Seven and shares the sense of family, except that he lived it in the conversation at the kitchen table and Klitschko in the pair of brothers.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the self-preservation Seven with Eight-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in reliability under pressure: someone who stays in the capital of an attacked country and carries responsibility there shows steadfastness. That as an athlete he never went down belongs in the same picture.</p>
+          <p class="vb-intro">The shadow of this combination is the toughness that can fall back on him: in December 2023 he accused President Zelenskyy of authoritarianism under martial law, and as mayor he is under criticism. According to Wikipedia, in October 2026 after Russian air strikes on infrastructure there were calls for his resignation over inadequate preparation for winter, and Zelenskyy also criticized it. It is typical of the Eight-wing to answer criticism openly and directly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: Kyiv in autumn 2026</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 24 October 2026) Vitali Klitschko is 55 years old and mayor of Kyiv. His politics and his conduct in office are assessed controversially in Ukraine and internationally. This portrait describes his public work and takes no position on the political disputes.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
+        {route:"lebensmusterkompass/se7", label:"Life Pattern Compass: SP7 – Gorilla"},
+        {route:"beruehmte-don-king", label:"Portrait: Don King (SP7w8)"},
+        {route:"beruehmte-larry-king", label:"Portrait: Larry King (SP7w6)"},
+        {route:"beruehmte-kim-jong-un", label:"Portrait: Kim Jong Un (SP7w8)"},
+            ])}
+    </div>
+  `);
+}

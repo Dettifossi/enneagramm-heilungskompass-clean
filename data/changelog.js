@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2607", date: "2026-10-24", text: "Neues Porträt: Vitali Klitschko (SE7w8) – Box-Weltmeister und Bürgermeister von Kiew.", text_en: "New portrait: Vitali Klitschko (SP7w8) – boxing world champion and mayor of Kyiv.", route: "beruehmte-vitali-klitschko" },
     { version: "v2606", date: "2026-10-24", text: "Neues Porträt: Thylane Blondeau (SX3w4) – Model und Schauspielerin.", text_en: "New portrait: Thylane Blondeau (SX3w4) – model and actress.", route: "beruehmte-thylane-blondeau" },
     { version: "v2605", date: "2026-10-24", text: "Neues Porträt: Hagen Rether (SE3w2) – Kabarettist und Pianist.", text_en: "New portrait: Hagen Rether (SP3w2) – cabaret artist and pianist.", route: "beruehmte-hagen-rether" },
     { version: "v2604", date: "2026-10-24", text: "Neues Porträt: Dr. Johann Lechner (SO7w6) – Zahnarzt und Heilpraktiker.", text_en: "New portrait: Dr. Johann Lechner (SO7w6) – dentist and Heilpraktiker.", route: "beruehmte-johann-lechner" },

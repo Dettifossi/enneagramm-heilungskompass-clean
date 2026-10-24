@@ -2869,3 +2869,74 @@ export function dagiBeePortraitPage() {
     </div>
   `);
 }
+
+export function vitaliKlitschkoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-vitali-klitschko-portrait.jpg" alt="Vitali Klitschko – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-vitali-klitschko-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Vitali Klitschko</p>
+        <p class="krim-portrait-typ">SE7w8 &middot; Selbsterhaltender Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Ukrainischer Politiker und ehemaliger Boxweltmeister, geb. 1971 &ndash; Tierentsprechung: Gorilla</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Gorilla: vom Kickboxer zum Schwergewichts-Champion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Gorilla</strong> führt seine Gruppe mit Ruhe und Körpermasse, und er muss selten zeigen, dass er stark ist. Vitali Klitschko wurde am 19. Juli 1971 in Belowodsk in der Kirgisischen Sowjetrepublik geboren. Er trat zuerst im Amateurboxen, im Kickboxen und im Sportkarate an und gewann sechs Weltmeistertitel im Kickboxen. 1995 gewann er bei den Militär-Weltspielen Gold im Superschwergewicht und bei der Weltmeisterschaft Silber.</p>
+          <p class="vb-intro">1996 fiel bei ihm ein Dopingtest auf ein verbotenes Steroid positiv aus; er führte das auf die Behandlung einer Beinverletzung zurück. Er wurde aus dem Team ausgeschlossen und verpasste die Olympischen Spiele in Atlanta. Im selben Jahr wurde er Profi.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sieben: der Kreis der Familie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Sieben weicht dem Schmerz in die Begeisterung aus, und ihre Leidenschaft ist die Völlerei, das Verlangen nach immer mehr. Die <strong>selbsterhaltende Sieben (SE7)</strong> nannte Claudio Naranjo die Familie: Ihr Appetit richtet sich auf Sicherheit und Zugehörigkeit im engsten Kreis. Bei Klitschko ist dieser Kreis das Brüderpaar. Vitali und sein Bruder Wladimir dominierten gemeinsam das Schwergewicht in der Zeit, die als ›Klitschko-Ära‹ (2006 bis 2015) gilt, und sie traten nie gegeneinander an.</p>
+          <p class="vb-intro">Seit 1996 war er mit Natalia Jehorowa verheiratet; sie haben drei Kinder und leben seit 2022 getrennt. Als Russland im Februar 2022 die Ukraine vollständig angriff, versprachen er und Wladimir, Kiew zu verteidigen, und sammelten im März in Deutschland 100 Millionen Euro.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Stand halten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der Sieben Durchsetzung, Direktheit und die Bereitschaft, einen Kampf auszutragen. Bei Klitschko zeigt er sich im Ring und danach in der Politik. Er wurde in seiner ganzen Profikarriere nie zu Boden geschlagen, und er gehört zu den wenigen Schwergewichts-Champions, auf die das zutrifft. Nach seinem Rücktritt wegen einer Knieverletzung 2005 kehrte er 2008 zurück und schlug Samuel Peter um den WBC-Titel.</p>
+          <p class="vb-intro">In der Politik wurde er zu einer führenden Figur der Euromaidan-Proteste 2013/14 und seit 2014 Bürgermeister von Kiew. Der Kerntyp Sieben sucht die Beweglichkeit, der Achterflügel sorgt dafür, dass er dort, wo er Verantwortung übernimmt, auch bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Boxer, Stratege, Bürgermeister</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Klitschkos Profibilanz liegt bei 45 Siegen und 2 Niederlagen, davon 41 durch K. o. 1999 gewann er den WBO-Titel gegen Herbie Hide. 2000 verlor er gegen Chris Byrd, weil er mit einer Schulterverletzung aufgeben musste, 2003 gegen Lennox Lewis durch technischen K. o. nach einer Platzwunde. 2004 gewann er gegen Corrie Sanders die Titel der WBC und des Magazins ›The Ring‹. Zu seinen Titelverteidigungen zählen Kämpfe gegen Chris Arreola, Shannon Briggs, Tomasz Adamek, Derek Chisora und Manuel Charr. Im Dezember 2013 trat er als Weltmeister im Ruhestand des WBC zurück; 2011 war er vom WBC zum Kämpfer des Jahres gewählt worden.</p>
+          <p class="vb-intro">Seine zweite Laufbahn verlief ähnlich konsequent: 2006 wurde er Zweiter bei der Bürgermeisterwahl in Kiew und kam in den Stadtrat, 2010 übernahm er die Partei UDAR, 2012 zog er ins Parlament ein. 2014 wurde er Bürgermeister von Kiew, 2015 wiedergewählt, und 2020 siegte er schon im ersten Wahlgang mit 50,52 Prozent. Er trägt den Titel Held der Ukraine.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Don King und Larry King</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-don-king">Don King (SE7w8)</a> teilt mit ihm den Achterflügel und die Welt des Schwergewichtsboxens, aber von der anderen Seite: Er organisierte Kämpfe, Klitschko bestritt sie. Beide treten mit großer Präsenz auf.</p>
+          <p class="vb-intro"><a href="#beruehmte-larry-king">Larry King (SE7w6)</a> ist ebenfalls ein selbsterhaltender Siebener und teilt den Familiensinn, nur dass er ihn im Gespräch am Küchentisch lebte und Klitschko im Bruderpaar.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Sieben mit Achterflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Verlässlichkeit unter Druck: Wer in der Hauptstadt eines angegriffenen Landes bleibt und dort Verantwortung trägt, zeigt Standfestigkeit. Dass er als Sportler nie zu Boden ging, gehört in dasselbe Bild.</p>
+          <p class="vb-intro">Der Schatten dieser Kombination ist die Härte, die auf ihn zurückfallen kann: Im Dezember 2023 warf er Präsident Selenskyj Autoritarismus unter Kriegsrecht vor, und als Bürgermeister steht er in der Kritik. Laut Wikipedia gab es im Oktober 2026 nach russischen Luftangriffen auf die Infrastruktur Rücktrittsforderungen wegen mangelhafter Vorbereitung auf den Winter, und auch Selenskyj kritisierte das. Typisch für den Achterflügel ist, Kritik offen und direkt zu beantworten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Kiew im Herbst 2026</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 24. Oktober 2026) ist Vitali Klitschko 55 Jahre alt und Bürgermeister von Kiew. Seine Politik und seine Amtsführung werden in der Ukraine und international kontrovers beurteilt. Dieses Porträt beschreibt sein öffentliches Wirken und nimmt keine Stellung zu den politischen Streitfragen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se7", label:"Lebensmusterkompass: SE7 – Gorilla"},
+        {route:"beruehmte-don-king", label:"Porträt: Don King (SE7w8)"},
+        {route:"beruehmte-larry-king", label:"Porträt: Larry King (SE7w6)"},
+        {route:"beruehmte-kim-jong-un", label:"Porträt: Kim Jong Un (SE7w8)"},
+            ])}
+    </div>
+  `);
+}
