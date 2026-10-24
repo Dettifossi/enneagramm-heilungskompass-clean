@@ -2896,7 +2896,7 @@ export function mathiasBernerPortraitPage() {
 
         <h2 class="vb-section">7. Stand: Zypern, Netzwerk und der Herbst der Heilung</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Mathias Berner lebt (Stand 24. Oktober 2026) auf Zypern und leitet die Mathias Berner Academy. Sein Kongress ›Herbst der Heilung 2026‹ ist gerade zu Ende gegangen. In den letzten Jahren ist seine Arbeit nach seiner Darstellung immer spiritueller geworden: Achtsamkeit, gelebte Menschlichkeit und der Weg zum eigenen Herzen stehen im Mittelpunkt, und Heilung versteht er als Weg, das eigene Leben und damit die Welt zu heilen. Über sein Privatleben hinaus, das er selbst auf seiner Seite schildert, ist wenig öffentlich dokumentiert.</p>
+          <p class="vb-intro">Mathias Berner lebt (Stand 24. Oktober 2026) auf Zypern und leitet die Mathias Berner Academy. Sein Kongress ›Herbst der Heilung 2026‹ ist gerade zu Ende gegangen. In den letzten Jahren ist seine Arbeit nach seiner Darstellung immer spiritueller geworden: Achtsamkeit, gelebte Menschlichkeit und der Weg zum eigenen Herzen stehen im Mittelpunkt, und Heilung versteht er als Weg, das eigene Leben und damit die Welt zu heilen. Über sein Privatleben hinaus, das er selbst auf seiner Seite schildert, ist wenig öffentlich dokumentiert. Zur Transparenz: Der Autor dieses Kompasses, Detlef Rathmer, und sein Sohn <a href="#beruehmte-david-l-rathmer">David L. Rathmer</a> waren als Referenten am Kongress ›Herbst der Heilung 2026‹ beteiligt.</p>
         </blockquote>
 
       </div>

@@ -2894,7 +2894,7 @@ export function mathiasBernerPortraitPage() {
 
         <h2 class="vb-section">7. Where things stand: Cyprus, network and the Autumn of Healing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Mathias Berner lives on Cyprus (as of 24 October 2026) and runs the Mathias Berner Academy. His congress &lsquo;Herbst der Heilung 2026&rsquo; has just ended. In recent years his work has, by his account, become ever more spiritual: mindfulness, lived humanity and the way to one&rsquo;s own heart are at the center, and he understands healing as a way of healing one&rsquo;s own life and thereby the world. Beyond his private life, which he describes on his own page, little is publicly documented.</p>
+          <p class="vb-intro">Mathias Berner lives on Cyprus (as of 24 October 2026) and runs the Mathias Berner Academy. His congress &lsquo;Herbst der Heilung 2026&rsquo; has just ended. In recent years his work has, by his account, become ever more spiritual: mindfulness, lived humanity and the way to one&rsquo;s own heart are at the center, and he understands healing as a way of healing one&rsquo;s own life and thereby the world. Beyond his private life, which he describes on his own page, little is publicly documented. For transparency: the author of this Compass, Detlef Rathmer, and his son <a href="#beruehmte-david-l-rathmer">David L. Rathmer</a> took part as speakers in the congress &lsquo;Herbst der Heilung 2026&rsquo;.</p>
         </blockquote>
 
       </div>
