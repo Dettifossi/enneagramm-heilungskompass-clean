@@ -2838,3 +2838,74 @@ export function sidneyLumetPortraitPage() {
     </div>
   `);
 }
+
+export function johannLechnerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-johann-lechner-portrait.jpg" alt="Dr. Johann Lechner – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-johann-lechner-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Dr. Johann Lechner</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">German dentist and Heilpraktiker, b. 1949 &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Beaver: the dentist from Munich</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>beaver</strong> tests the wood before building with it and keeps building in one place until the structure holds. Dr. Dr. Johann Lechner was born in 1949, is married and has two children. He studied dentistry until 1975 at Ludwig Maximilian University in Munich and has run the Praxisklinik für ganzheitliche Zahnmedizin (clinic for holistic dentistry) in Munich since 1980.</p>
+          <p class="vb-intro">He is a dentist and, since December 2004, a licensed Heilpraktiker (alternative practitioner). In 2002 he earned an Austrian medical diploma in holistic dentistry, in 2003 the research prize of the Gesellschaft für Ganzheitliche ZahnMedizin (GZM) and a teaching post at Danube University Krems.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Seven: building new things for the community</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Seven flees pain into enthusiasm, and its passion is gluttony: the urge to want more of everything, more stimulation, more novelty, more enjoyment for oneself. According to Claudio Naranjo the <strong>social Seven (SO7)</strong> is the countertype of the Seven. Countertype means: it seems to act against the principle of its type. Instead of feasting for itself, it finds its joy in serving a community, and lives its gluttony there: it wants to contribute more and build more for the group. Naranjo called this the subtype of sacrifice, because one&rsquo;s own pleasure steps back behind the cause.</p>
+          <p class="vb-intro">In Lechner this shows in a long series of innovations for his field: in 1996 he introduced the orthocranial prosthetic system ACCU-Liner from the USA to Germany, in 1998 CAD/CAM technology with zirconia for metal-free dentures. Add founding FocoDent (2005), lectures and teaching. He gave over 100 seminars and lectures, among them symposia at the Universities of Bern and Graz, and was a guest lecturer at Capital University in Washington, D.C., and at the University Dental Clinic in Beijing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: network and passing on</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Seven loyalty, team spirit and the need to work in a reliable circle. In Lechner it shows in associations and cooperations: for several years he served on the boards of the Deutsche Arbeitsgemeinschaft für Herd- und Regulationsforschung (DAH, German working group for focal and regulation research) and the International Society for Holistic Dentistry (GZM). His publications are written with partners, for example with Jerry Bouquot and Volker von Baehr (book on osteolysis of the jawbone), with S. Noumbissi (2019) and with F. Schick and F. Notter (2024). According to a colleague he also invites colleagues yearly to operating days where they can watch him.</p>
+          <p class="vb-intro">The core type Seven tries new things; the Six-wing ties him to colleagues and professional associations with whom he tests and passes on his methods.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the jaw as a subject</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lechner&rsquo;s focus is the jawbone. By his account, chronic inflammatory processes in the jaw, which he calls Kieferostitis or NICO (lately also FDOK, fatty-degenerative osteonecrosis of the jawbone), can become effective throughout the body. He examines this with imaging methods; he worked with the ultrasound device Cavitat and, according to colleagues, is developing a successor. His best-known publications are the book &lsquo;Gesunde Zähne – Gesunder Mensch&rsquo; (&lsquo;Healthy Teeth – Healthy Person&rsquo;, 2009) and a series of papers, among them on ozone (2011), ceramic implants (2018), titanium implants and inflammation in the jawbone (2019), ultrasound diagnostics of bone density (2021, 2022) and &lsquo;Building up immunological firewalls&rsquo; (2024). By his own account he has written 11 to 13 books and 15 scientific studies so far.</p>
+          <p class="vb-intro">His theses are controversial in dentistry. Critical sources such as MedWatch and Psiram regard the concept as unproven; supporters point to their experience. This portrait does not evaluate this and contains no healing claim and no treatment recommendation. Anyone with health questions should consult their dentist or physician. In 2008 Lechner also received a patent for a method of contactless information transfer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Nikola Tesla and Prof. Dr. John Ioannidis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-nikola-tesla">Nikola Tesla (SO7w6)</a> shares with Lechner the appetite for new methods and patents and the conviction of serving the community with them. For Tesla it was energy, for Lechner the jaw.</p>
+          <p class="vb-intro"><a href="#beruehmte-john-ioannidis">Prof. Dr. John Ioannidis (SO7w6)</a> shares with him the questioning of the majority view in medicine. The difference: Ioannidis examines studies with the methods of statistics, Lechner works in practice.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social Seven with Six-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in curiosity and the courage to go one&rsquo;s own way for decades and pass the knowledge on. Someone who gives over 100 seminars, lets colleagues watch operations and publishes with partners seeks exchange.</p>
+          <p class="vb-intro">The shadow of this combination is the risk that enthusiasm for one&rsquo;s own concept finds it hard to accept contradiction. According to supporters, many colleagues are critical of his approach, and a tight circle of like-minded people can reinforce this distance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: practice, teaching and research</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 24 October 2026) Johann Lechner still runs his clinic in Munich, gives lectures and publishes papers. Little is publicly documented about his private life. No statements of his own about his motivation were found; this portrait therefore limits itself to his documented career and public work.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
+        {route:"beruehmte-john-ioannidis", label:"Portrait: Prof. Dr. John Ioannidis (SO7w6)"},
+        {route:"beruehmte-christian-drosten", label:"Portrait: Prof. Dr. Christian Drosten (SO7w6)"},
+            ])}
+    </div>
+  `);
+}

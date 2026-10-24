@@ -2873,3 +2873,74 @@ export function joshuaRichardsPortraitPage() {
     </div>
   `);
 }
+
+export function johannLechnerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-johann-lechner-portrait.jpg" alt="Dr. Johann Lechner – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-johann-lechner-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Dr. Johann Lechner</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Zahnarzt und Heilpraktiker, Jahrgang 1949 &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Biber: der Zahnarzt aus München</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Biber</strong> prüft das Holz, bevor er es verbaut, und baut dann an einem Ort weiter, bis das Gefüge hält. Dr. Dr. Johann Lechner ist Jahrgang 1949, verheiratet und hat zwei Kinder. Er studierte bis 1975 Zahnmedizin an der Ludwig-Maximilians-Universität München und führt seit 1980 in München die Praxisklinik für ganzheitliche Zahnmedizin.</p>
+          <p class="vb-intro">Er ist Zahnarzt und seit Dezember 2004 zugelassener Heilpraktiker. 2002 erwarb er ein österreichisches Ärztediplom für ganzheitliche Zahnmedizin, 2003 den Forschungspreis der Gesellschaft für Ganzheitliche ZahnMedizin (GZM) und einen Lehrauftrag an der Donau-Universität Krems.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Neues bauen für die Gemeinschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Sieben flieht vor dem Schmerz in die Begeisterung, und ihre Leidenschaft ist die Völlerei: der Drang, von allem mehr zu wollen, mehr Anregung, mehr Neues, mehr Genuss für sich selbst. Die <strong>soziale Sieben (SO7)</strong> ist nach Claudio Naranjo der Kontratyp der Sieben. Kontratyp heißt: Sie handelt scheinbar gegen das Prinzip ihres Typs. Statt für sich selbst zu schlemmen, findet sie ihre Freude darin, einer Gemeinschaft zu dienen, und lebt die Völlerei dort aus: Sie will für die Gruppe immer mehr beitragen und aufbauen. Naranjo nannte das den Subtyp des Opfers, weil die eigene Lust hinter der Sache zurücktritt.</p>
+          <p class="vb-intro">Bei Lechner zeigt sich das in einer langen Reihe von Neuerungen für seine Fachwelt: 1996 führte er das orthokranielle Prothesensystem ACCU-Liner aus den USA in Deutschland ein, 1998 die CAD/CAM-Technik mit Zirkonoxid für metallfreien Zahnersatz. Dazu kommen Gründungen wie FocoDent (2005), Vorträge und Lehrtätigkeit. Er hielt über 100 Seminare und Vorträge, unter anderem bei Symposien der Universitäten Bern und Graz, und war Gastdozent an der Capital University in Washington, D.C., und an der Universitätszahnklinik Peking.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Netzwerk und Weitergabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der Sieben Loyalität, Teamgeist und das Bedürfnis, in einem verlässlichen Kreis zu arbeiten. Bei Lechner zeigt er sich in den Verbänden und Kooperationen: Er war mehrere Jahre im Vorstand der Deutschen Arbeitsgemeinschaft für Herd- und Regulationsforschung (DAH) und der Internationalen Gesellschaft für Ganzheitliche ZahnMedizin (GZM). Seine Veröffentlichungen entstehen mit Partnern, etwa mit Jerry Bouquot und Volker von Baehr (Buch zu Osteolysen des Kieferknochens), mit S. Noumbissi (2019) sowie mit F. Schick und F. Notter (2024). Außerdem lädt er nach der Darstellung eines Kollegen jährlich zu OP-Tagen, bei denen Kolleginnen und Kollegen ihm zusehen können.</p>
+          <p class="vb-intro">Der Kerntyp Sieben probiert Neues, der Sechserflügel bindet ihn an Kollegen und Fachverbände, mit denen er seine Methoden prüft und weitergibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Der Kiefer als Thema</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lechners Schwerpunkt ist der Kieferknochen. Nach seiner Darstellung können chronische Entzündungsprozesse im Kiefer, die er Kieferostitis oder NICO nennt (neuerdings auch FDOK, fettig-degenerative Osteonekrose des Kieferknochens), im ganzen Körper wirksam werden. Er untersucht dies mit bildgebenden Verfahren; er arbeitete mit dem Ultraschallgerät Cavitat und entwickelt nach Darstellung von Kollegen einen Nachfolger. Seine bekanntesten Veröffentlichungen sind das Buch ›Gesunde Zähne – Gesunder Mensch‹ (2009) und eine Reihe von Fachbeiträgen, darunter zu Ozon (2011), Keramikimplantaten (2018), Titanimplantaten und Entzündung im Kieferknochen (2019), Ultraschalldiagnostik der Knochendichte (2021, 2022) und ›Building up immunological firewalls‹ (2024, ›Aufbau immunologischer Brandmauern‹). Nach eigenen Angaben schrieb er bislang 11 bis 13 Bücher und 15 wissenschaftliche Untersuchungen.</p>
+          <p class="vb-intro">Seine Thesen sind in der Zahnmedizin umstritten. Kritische Quellen wie MedWatch und Psiram halten das Konzept für nicht belegt; Befürworter verweisen auf ihre Erfahrungen. Dieses Porträt bewertet das nicht und enthält keine Heilaussage und keine Therapieempfehlung. Wer gesundheitliche Fragen hat, sollte sich an die behandelnde Zahnärztin oder den behandelnden Arzt wenden. 2008 erhielt Lechner außerdem ein Patent für ein Verfahren zur berührungslosen Informationsübertragung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Nikola Tesla und Prof. Dr. John Ioannidis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-nikola-tesla">Nikola Tesla (SO7w6)</a> verbindet mit Lechner die Lust an neuen Verfahren und Patenten und die Überzeugung, damit der Gemeinschaft zu dienen. Bei Tesla war es die Energie, bei Lechner der Kiefer.</p>
+          <p class="vb-intro"><a href="#beruehmte-john-ioannidis">Prof. Dr. John Ioannidis (SO7w6)</a> teilt mit ihm das Hinterfragen der Mehrheitsmeinung in der Medizin. Der Unterschied: Ioannidis prüft Studien mit den Methoden der Statistik, Lechner arbeitet in der Praxis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Sieben mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Neugier und im Mut, über Jahrzehnte eigene Wege zu gehen und das Wissen weiterzugeben. Wer über 100 Seminare hält, Kolleginnen und Kollegen bei Operationen zuschauen lässt und mit Partnern publiziert, sucht den Austausch.</p>
+          <p class="vb-intro">Der Schatten dieser Kombination ist die Gefahr, dass die Begeisterung für das eigene Konzept Widerspruch schwer annimmt. Nach Berichten von Unterstützern äußern sich viele Kollegen kritisch über sein Vorgehen, und ein enger Kreis von Gleichgesinnten kann diese Distanz verstärken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Praxis, Lehre und Forschung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 24. Oktober 2026) leitet Johann Lechner weiterhin seine Praxisklinik in München, hält Vorträge und veröffentlicht Fachbeiträge. Über sein Privatleben ist wenig öffentlich dokumentiert. Eigene Aussagen zu seiner Motivation fanden sich nicht; dieses Porträt beschränkt sich deshalb auf seinen belegten Werdegang und sein öffentliches Wirken.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
+        {route:"beruehmte-john-ioannidis", label:"Porträt: Prof. Dr. John Ioannidis (SO7w6)"},
+        {route:"beruehmte-christian-drosten", label:"Porträt: Prof. Dr. Christian Drosten (SO7w6)"},
+            ])}
+    </div>
+  `);
+}
