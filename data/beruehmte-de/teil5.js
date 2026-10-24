@@ -2794,3 +2794,75 @@ export function heinzRudolfKunzePortraitPage() {
     </div>
   `);
 }
+
+export function robertMcCollumPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-robert-mccollum-portrait.jpg" alt="Robert McCollum – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-robert-mccollum-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Robert McCollum</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Synchronsprecher, Moderator und Produzent &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Biber: vom Mikrofon in Texas</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Biber</strong> arbeitet unauffällig am Ufer, und was er baut, bemerken meist erst die anderen. Robert Howard McCollum ist ein US-amerikanischer Synchronsprecher, Fernsehmoderator und Produzent aus Dallas, Texas. Er besuchte die Trinity University in San Antonio und arbeitet seit 2002 als Sprecher, inzwischen seit fast 25 Jahren.</p>
+          <p class="vb-intro">Seine erste Rolle war der junge Goten in ›Dragon Ball GT‹. Seither hat er laut seiner Agentur mehr als 300 Rollen gesprochen, überwiegend in englischen Fassungen japanischer Anime-Serien.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: die Stimme, die dem Werk dient</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Sieben flieht vor dem Schmerz in die Begeisterung, und Claudio Naranjo beschrieb die <strong>soziale Sieben (SO7)</strong> als den Subtyp des Opfers: Die Sieben stellt ihr Talent in den Dienst einer Sache oder Gruppe. Bei McCollum zeigt sich das schon im Beruf. Ein Synchronsprecher spricht seinen Text zum Bild einer fremden Produktion und muss Lippenbewegung, Atem und Gefühl der Vorlage treffen, ohne dass sein Gesicht je auftaucht.</p>
+          <p class="vb-intro">Er tritt dabei hinter die Figur zurück: Reiner Braun in ›Attack on Titan‹, Donquixote Doflamingo in ›One Piece‹, Stain in ›My Hero Academia‹, Jellal in ›Fairy Tail‹, Julius Novachrono in ›Black Clover‹, Shinya Kogami in ›Psycho-Pass‹, Baki Hanma in ›Baki the Grappler‹. Zu seinen Rollen gehört auch Earl Vincent Phantomhive in ›Black Butler‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Treue zur Gemeinschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der Sieben Loyalität, Teamgeist und das Bedürfnis, zu einer Gruppe zu gehören. Bei McCollum zeigt sich das in der Verbundenheit mit der Anime-Gemeinde: Er unterschreibt auf Conventions für Fans, zuletzt 2025 bei einer öffentlichen Signierstunde auf der New York Comic Con, und er bezeichnet sich selbst als ›proud trans ally‹ – stolzer Verbündeter von trans Menschen. Ein Teil seiner Einnahmen auf Conventions geht an ›Anime Stands Up For All‹, eine Spendenaktion für die Bürgerrechtsorganisation Lambda Legal.</p>
+          <p class="vb-intro">Der Kerntyp Sieben ist beweglich und sucht die nächste Rolle, der Sechserflügel bindet ihn an die Menschen, die diese Rollen gemeinsam mit ihm lebendig halten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Stimme als Spielfeld</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Besondere an McCollums Arbeit ist die Spannweite. Er begann als jugendlicher Goten, sprach dann Figuren wie den kalten Sensui in ›Yu Yu Hakusho: Ghost Files‹, seine erste Schurkenrolle, den eiskalten Doflamingo, den gejagten Reiner mit seiner gespaltenen Loyalität oder den kämpferischen Baki Hanma. In der Spielwelt sprach er Axton in ›Borderlands 2‹ (2012) und ›Borderlands 3‹ (2020), DJ Scully in ›Killing Floor 2‹ (2016) und Seamus Doyle in ›Brothers in Arms: Earned in Blood‹ (2005). Auf Audible liest er B. F. Skinners Roman ›Walden Two‹.</p>
+          <p class="vb-intro">Dazu kommt Arbeit abseits des Mikrofons: Er ist Produzent und Regisseur von Unternehmenskommunikation und Werbespots in den USA und Großbritannien, führte Regie beim historischen Hörspiel-Podcast ›1865‹ und schuf für KnowBe4 die Schulungsserie ›The Inside Man‹ zur IT-Sicherheit. 2009 moderierte er die Fernsehsendung ›Good Morning Texas‹ des Senders WFAA-TV.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Rowan Atkinson und Alexander Bommes</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-rowan-atkinson">Rowan Atkinson (SO7w6)</a> verbindet mit McCollum die Lust an Figuren, hinter denen die eigene Person zurücktritt, und auch die Freude daran, andere zum Lachen zu bringen. Bei Atkinson trägt die Figur ein Gesicht, bei McCollum nur eine Stimme.</p>
+          <p class="vb-intro"><a href="#beruehmte-alexander-bommes">Alexander Bommes (SO7w6)</a> teilt mit ihm die Arbeit vor dem Mikrofon und das Moderieren im Fernsehen. Beide dienen mit ihrer Beweglichkeit einer Sendung und einem Publikum.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Sieben mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in Vielseitigkeit und Verlässlichkeit: Wer über 300 Rollen in fast 25 Jahren spricht, bleibt im Gespräch mit einem Publikum, das ihn kennt. Dass er sich öffentlich für eine Gruppe einsetzt, die angegriffen wird, passt zur Treue des Sechserflügels.</p>
+          <p class="vb-intro">Der Schatten dieser Kombination ist die Gefahr, hinter den Rollen zu verschwinden: Wer so viele fremde Figuren spricht, wird in der Öffentlichkeit oft nur als Stimme wahrgenommen. Und die Vielfalt der Projekte, vom Hörspiel über Werbefilme bis zu Sicherheitsschulungen, verlangt, dass die Tiefe mit der Breite mithält.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: zwischen Dallas und den Conventions</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 24. Oktober 2026) lebt Robert McCollum in Dallas, spricht weiter Anime-Rollen und tritt auf Conventions auf. Über sein Privatleben ist wenig öffentlich dokumentiert; dieses Porträt beschränkt sich auf das, was er selbst und seine Agentur öffentlich über seine Arbeit angeben.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
+        {route:"beruehmte-rowan-atkinson", label:"Porträt: Rowan Atkinson (SO7w6)"},
+        {route:"beruehmte-alexander-bommes", label:"Porträt: Alexander Bommes (SO7w6)"},
+        {route:"beruehmte-lance-oppenheim", label:"Porträt: Lance Oppenheim (SO7w6)"},
+
+      ])}
+    </div>
+  `);
+}

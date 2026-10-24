@@ -2841,3 +2841,75 @@ export function atzeSchroederPortraitPage() {
     </div>
   `);
 }
+
+export function robertMcCollumPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-robert-mccollum-portrait.jpg" alt="Robert McCollum – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-robert-mccollum-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Robert McCollum</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">American voice actor, host and producer &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Beaver: from the microphone in Texas</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>beaver</strong> works inconspicuously at the bank, and what it builds is usually noticed by others first. Robert Howard McCollum is an American voice actor, television host and producer from Dallas, Texas. He attended Trinity University in San Antonio and has worked as a voice actor since 2002, now for almost 25 years.</p>
+          <p class="vb-intro">His first role was young Goten in &lsquo;Dragon Ball GT&rsquo;. Since then, according to his agency, he has voiced more than 300 roles, mostly in English versions of Japanese anime series.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Seven: the voice in service of the work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Seven flees pain into enthusiasm, and Claudio Naranjo described the <strong>social Seven (SO7)</strong> as the subtype of sacrifice: the Seven puts talent at the service of a cause or group. In McCollum this shows in the profession itself. A dubbing actor speaks his lines to the picture of someone else&rsquo;s production and must match lip movement, breath and feeling of the original, without his face ever appearing.</p>
+          <p class="vb-intro">He steps behind the character: Reiner Braun in &lsquo;Attack on Titan&rsquo;, Donquixote Doflamingo in &lsquo;One Piece&rsquo;, Stain in &lsquo;My Hero Academia&rsquo;, Jellal in &lsquo;Fairy Tail&rsquo;, Julius Novachrono in &lsquo;Black Clover&rsquo;, Shinya Kogami in &lsquo;Psycho-Pass&rsquo;, Baki Hanma in &lsquo;Baki the Grappler&rsquo;. His roles also include Earl Vincent Phantomhive in &lsquo;Black Butler&rsquo;.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: loyalty to the community</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Seven loyalty, team spirit and the need to belong to a group. In McCollum this shows in his connection to the anime community: he signs for fans at conventions, most recently in 2025 at a public signing at New York Comic Con, and he calls himself a &lsquo;proud trans ally&rsquo;. A portion of his convention earnings goes to &lsquo;Anime Stands Up For All&rsquo;, a fundraiser for the civil rights organization Lambda Legal.</p>
+          <p class="vb-intro">The core type Seven is mobile and looks for the next role; the Six-wing ties him to the people who keep these roles alive together with him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: voice as a playing field</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What is distinctive about McCollum&rsquo;s work is its range. He began as the teenage Goten, then voiced characters like the cold Sensui in &lsquo;Yu Yu Hakusho: Ghost Files&rsquo;, his first villain role, the icy Doflamingo, the hunted Reiner with his split loyalty, or the combative Baki Hanma. In games he voiced Axton in &lsquo;Borderlands 2&rsquo; (2012) and &lsquo;Borderlands 3&rsquo; (2020), DJ Scully in &lsquo;Killing Floor 2&rsquo; (2016) and Seamus Doyle in &lsquo;Brothers in Arms: Earned in Blood&rsquo; (2005). On Audible he reads B. F. Skinner&rsquo;s novel &lsquo;Walden Two&rsquo;.</p>
+          <p class="vb-intro">There is also work away from the microphone: he is a producer and director of corporate communication and commercials in the US and the UK, directed the historical audio drama podcast &lsquo;1865&rsquo; and created the IT security training series &lsquo;The Inside Man&rsquo; for KnowBe4. In 2009 he hosted the television show &lsquo;Good Morning Texas&rsquo; on WFAA-TV.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Rowan Atkinson and Alexander Bommes</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-rowan-atkinson">Rowan Atkinson (SO7w6)</a> shares with McCollum the pleasure in characters behind whom the own person steps back, and the joy of making others laugh. With Atkinson the character wears a face, with McCollum only a voice.</p>
+          <p class="vb-intro"><a href="#beruehmte-alexander-bommes">Alexander Bommes (SO7w6)</a> shares with him work in front of the microphone and hosting on television. Both use their mobility in the service of a show and an audience.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social Seven with Six-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in versatility and reliability: someone who voices over 300 roles in almost 25 years stays in conversation with an audience that knows him. That he publicly supports a group that is under attack fits the loyalty of the Six-wing.</p>
+          <p class="vb-intro">The shadow of this combination is the risk of disappearing behind the roles: someone who voices so many other characters is often perceived in public only as a voice. And the variety of projects, from audio drama through commercials to security training, requires that depth keeps pace with breadth.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: between Dallas and the conventions</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 24 October 2026) Robert McCollum lives in Dallas, keeps voicing anime roles and appears at conventions. Little is publicly documented about his private life; this portrait limits itself to what he and his agency state publicly about his work.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
+        {route:"beruehmte-rowan-atkinson", label:"Portrait: Rowan Atkinson (SO7w6)"},
+        {route:"beruehmte-alexander-bommes", label:"Portrait: Alexander Bommes (SO7w6)"},
+        {route:"beruehmte-lance-oppenheim", label:"Portrait: Lance Oppenheim (SO7w6)"},
+
+      ])}
+    </div>
+  `);
+}
