@@ -2734,6 +2734,8 @@ export function donKingPortraitPage() {
         {route:"beruehmte-mariah-carey", label:"Porträt: Mariah Carey (SE7w8)"},
         {route:"beruehmte-franz-peter-tebartz-van-elst", label:"Porträt: Franz-Peter Tebartz-van Elst (SE7w8)"},
         {route:"beruehmte-johann-lafer", label:"Porträt: Johann Lafer (SE7w8)"},
+        {route:"beruehmte-vitali-klitschko", label:"Boxer-Porträt: Vitali Klitschko (SE7w8)"},
+        {route:"beruehmte-floyd-mayweather", label:"Boxer-Porträt: Floyd Mayweather Jr. (SO2w3)"},
       ])}
     </div>
   `);

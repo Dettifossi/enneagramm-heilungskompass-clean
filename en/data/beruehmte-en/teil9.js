@@ -1295,6 +1295,8 @@ export function muhammadAliPortraitPage() {
         {route:"beruehmte-bob-marley", label:"Portrait: Bob Marley (SO2w1)"},
         {route:"beruehmte-don-king", label:"Portrait: Don King (SP7w8)"},
         {route:"bibel-jesus", label:"Bible Portrait: Jesus (SO2w1)"},
+        {route:"beruehmte-vitali-klitschko", label:"Boxer portrait: Vitali Klitschko (SP7w8)"},
+        {route:"beruehmte-floyd-mayweather", label:"Boxer portrait: Floyd Mayweather Jr. (SO2w3)"},
       ])}
     </div>
   `);
@@ -2652,6 +2654,8 @@ export function donKingPortraitPage() {
         {route:"beruehmte-mariah-carey", label:"Portrait: Mariah Carey (SP7w8)"},
         {route:"beruehmte-franz-peter-tebartz-van-elst", label:"Portrait: Franz-Peter Tebartz-van Elst (SP7w8)"},
         {route:"beruehmte-johann-lafer", label:"Portrait: Johann Lafer (SP7w8)"},
+        {route:"beruehmte-vitali-klitschko", label:"Boxer portrait: Vitali Klitschko (SP7w8)"},
+        {route:"beruehmte-floyd-mayweather", label:"Boxer portrait: Floyd Mayweather Jr. (SO2w3)"},
       ])}
     </div>
   `);

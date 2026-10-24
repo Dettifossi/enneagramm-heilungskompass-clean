@@ -2925,7 +2925,9 @@ export function vitaliKlitschkoPortraitPage() {
         {route:"beruehmte-don-king", label:"Portrait: Don King (SP7w8)"},
         {route:"beruehmte-larry-king", label:"Portrait: Larry King (SP7w6)"},
         {route:"beruehmte-kim-jong-un", label:"Portrait: Kim Jong Un (SP7w8)"},
-            ])}
+        {route:"beruehmte-muhammad-ali", label:"Boxer portrait: Muhammad Ali (SO2w1)"},
+        {route:"beruehmte-floyd-mayweather", label:"Boxer portrait: Floyd Mayweather Jr. (SO2w3)"},
+      ])}
     </div>
   `);
 }
