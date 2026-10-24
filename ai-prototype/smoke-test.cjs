@@ -139,6 +139,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-hong-chau", label: "Neues EN-Porträt: Hong Chau" },
   { hash: "#beruehmte-lance-oppenheim", label: "Neues Porträt: Lance Oppenheim" },
   { hash: "en/#beruehmte-lance-oppenheim", label: "Neues EN-Porträt: Lance Oppenheim" },
+  { hash: "#beruehmte-darren-aronofsky", label: "Neues Porträt: Darren Aronofsky" },
+  { hash: "en/#beruehmte-darren-aronofsky", label: "Neues EN-Porträt: Darren Aronofsky" },
   { hash: "#beruehmte-bradley-cooper", label: "Neues Porträt: Bradley Cooper" },
   { hash: "en/#beruehmte-bradley-cooper", label: "Neues EN-Porträt: Bradley Cooper" },
   { hash: "#beruehmte-richy-mueller", label: "Neues Porträt: Richy Müller" },

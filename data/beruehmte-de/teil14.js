@@ -2917,3 +2917,76 @@ export function atzeSchroederPortraitPage() {
     </div>
   `);
 }
+
+export function darrenAronofskyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-darren-aronofsky-portrait.jpg" alt="Darren Aronofsky – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-darren-aronofsky-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Darren Aronofsky</p>
+        <p class="krim-portrait-typ">SO7w8 &middot; Sozialer Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Regisseur und Produzent, geb. 1969 &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber: vom Feldbiologen zum Filmemacher</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Biber</strong> staut einen Bach und schafft damit einen Lebensraum, von dem viele andere Tiere profitieren. Darren Aronofsky wurde am 12. Februar 1969 in Brooklyn, New York, als Sohn der Lehrer Charlotte und Abraham Aronofsky geboren, beide polnisch-jüdischer Herkunft. Mit 16 und 17 Jahren ließ er sich in Programmen der School for Field Studies in Kenia (1985) und Alaska (1986) zum Feldbiologen ausbilden.</p>
+          <p class="vb-intro">Mit 18 begann er sein Studium in Harvard und schloss 1991 in Sozialanthropologie ab. Sein Abschlussfilm ›Supermarket Sweep‹ kam 1991 ins Finale der Student Academy Awards. 1992 folgte der Master of Fine Arts in Regie am AFI Conservatory, wo unter anderem Todd Field und Scott Silver zu seinem Jahrgang gehörten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: das Team, das mitkommt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Sieben flieht vor dem Schmerz in die Begeisterung, und Claudio Naranjo beschrieb die <strong>soziale Sieben (SO7)</strong> als den Subtyp des Opfers: Die Sieben stellt ihre Neugier und Beweglichkeit in den Dienst einer Gruppe. Aronofsky arbeitet seit Jahrzehnten mit demselben Kern von Mitstreitern: dem Kameramann Matthew Libatique, dem Cutter Andrew Weisblum und dem Komponisten Clint Mansell. 1997 gründete er die Produktionsfirma Protozoa Pictures, mit der er nicht nur eigene Filme, sondern auch die anderer verwirklicht.</p>
+          <p class="vb-intro">Als Produzent gab er anderen Filmemachern eine Bühne: ›Jackie‹ (2016), die Dokumentarfilme ›Some Kind of Heaven‹ (2020, das Debüt von <a href="#beruehmte-lance-oppenheim">Lance Oppenheim (SO7w6)</a>) und ›The Territory‹ (2022, über das indigene Volk der Uru-Eu-Wau-Wau, mit einem Peabody Award ausgezeichnet). Für National Geographic war er Executive Producer von ›One Strange Rock‹ (2018) und schuf die Reihe ›Limitless with Chris Hemsworth‹ (2022).</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Wucht ohne Rücksicht auf Verluste</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der Sieben Durchsetzungskraft, Direktheit und die Bereitschaft, einen Streit auszuhalten. Bei Aronofsky zeigt er sich im Umgang mit Widerständen. ›Requiem for a Dream‹ (2000) erhielt von der amerikanischen Freigabestelle die Einstufung NC-17, sein Einspruch blieb erfolglos, und er brachte den Film ohne Altersfreigabe ungeschnitten in die Kinos, statt ihn zu entschärfen. ›Noah‹ (2014) wurde in mehreren Ländern aus religiösen Gründen verboten, und ›mother!‹ (2017) erhielt von den Kinobesuchern die Note F im CinemaScore, der Zuschauerumfrage an der Kinokasse.</p>
+          <p class="vb-intro">Der Kerntyp Sieben ist neugierig und sucht immer neue Welten, der Achterflügel sorgt dafür, dass er in jede davon mit voller Wucht hineingeht und auch dann bei seiner Sicht bleibt, wenn das Publikum sich abwendet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Besessenheit als Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Aronofsky erzählt in fast jedem Film von Menschen, die ein Ziel bis zur Selbstzerstörung verfolgen: ein Mathematiker auf der Suche nach der Zahlenordnung der Welt (›Pi‹, 1998), vier Süchtige (›Requiem for a Dream‹), ein gealterter Wrestler (›The Wrestler‹, 2008), eine Ballerina (›Black Swan‹, 2010), ein todkranker Mann in seiner Wohnung (›The Whale‹, 2022). Er findet für diese Innenwelten eine körperliche Bildsprache: ›Requiem for a Dream‹ besteht aus über 2.000 Schnitten, wo ein Film dieser Länge sonst auf 600 bis 700 kommt. Dazu kommen Splitscreen, extreme Nahaufnahmen, die Snorricam (eine am Körper des Darstellers befestigte Kamera, die dessen Gesicht fest im Bild hält) und Zeitraffer. ›The Wrestler‹ und ›Black Swan‹ drehte er mit körnigem, gedämpftem Bild nah an den Figuren.</p>
+          <p class="vb-intro">Auch das Handwerk der Anfänge zeigt den Antrieb: ›Pi‹ drehte er im Oktober 1997 mit nur 60.000 Dollar, zum Teil finanziert durch Spenden von je 100 Dollar aus Familie und Freundeskreis. 1998 gewann der Film in Sundance den Regiepreis, und Artisan kaufte den Vertrieb für eine Million Dollar. ›The Fountain‹ (2006) war zunächst mit Brad Pitt als 70-Millionen-Dollar-Projekt geplant; als Pitt ausstieg, drehte er den Film mit Hugh Jackman für rund die Hälfte des Budgets.</p>
+          <p class="vb-intro">Die Erfolge sind belegt: ›The Wrestler‹ gewann den Goldenen Löwen von Venedig und brachte Mickey Rourke eine Oscar-Nominierung, ›Black Swan‹ erhielt fünf Oscar-Nominierungen und Natalie Portman den Oscar als beste Hauptdarstellerin, ›The Whale‹ brachte Brendan Fraser den Oscar als bester Hauptdarsteller.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Typ: Lance Oppenheim und Dieter Nuhr</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Aronofsky und <a href="#beruehmte-lance-oppenheim">Lance Oppenheim (SO7w6)</a> sind beide soziale Siebener, und beide richten ihre Neugier auf Gemeinschaften. Aronofsky produzierte Oppenheims Debüt ›Some Kind of Heaven‹. Der Unterschied liegt im Flügel: Beim Sechserflügel steht die Zusammenarbeit im Vordergrund, beim Achterflügel die Konfrontation.</p>
+          <p class="vb-intro">Beim Achterflügel gibt es eine Verwandtschaft mit <a href="#beruehmte-dieter-nuhr">Dieter Nuhr (SO7w8)</a>: Beide ziehen sich bei Gegenwind nicht zurück, sondern bleiben bei ihrer Sicht, Nuhr auf der Kabarettbühne, Aronofsky im Kino.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Sieben mit Achterflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Bereitschaft, andere nach vorn zu bringen und eigene Ideen kompromisslos zu verfolgen. Wer von Feldbiologie über Anthropologie zum Film kommt und sich zugleich als Aktivist engagiert (er sitzt im Vorstand der Sierra Club Foundation und der School for Field Studies und lebt vegan), zeigt, dass die Neugier mehr ist als Unterhaltung.</p>
+          <p class="vb-intro">Der Schatten ist die Wucht, mit der er Projekte durchzieht, auch gegen Widerstand und gegen das Publikum. Und die Lust am Neuen führt auch zu Experimenten, die das Publikum nicht überzeugen: Sein KI-Studio Primordial Soup veröffentlichte am 29. Januar 2026 die Reihe ›On This Day... 1776‹ auf YouTube, die überwiegend negative Kritiken erhielt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Brooklyn, Polen und die nächsten Welten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 24. Oktober 2026) ist Darren Aronofsky 57 Jahre alt. Seit 2024 besitzt er gemeinsam mit seiner Schwester Patti die polnische Staatsbürgerschaft. Mit ›Caught Stealing‹ (2025, mit Austin Butler) legte er zuletzt einen Kriminalfilm vor, mit dem Las-Vegas-Sphere-Film ›Postcard from Earth‹ (2023) arbeitete er an einer riesigen Rundumleinwand.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
+        {route:"beruehmte-lance-oppenheim", label:"Porträt: Lance Oppenheim (SO7w6)"},
+        {route:"beruehmte-dieter-nuhr", label:"Porträt: Dieter Nuhr (SO7w8)"},
+        {route:"beruehmte-drew-barrymore", label:"Porträt: Drew Barrymore (SO7w8)"},
+      ])}
+    </div>
+  `);
+}

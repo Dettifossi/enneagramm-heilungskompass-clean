@@ -2784,3 +2784,76 @@ export function johannesHeestersPortraitPage() {
     </div>
   `);
 }
+
+export function darrenAronofskyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-darren-aronofsky-portrait.jpg" alt="Darren Aronofsky – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-darren-aronofsky-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Darren Aronofsky</p>
+        <p class="krim-portrait-typ">SO7w8 &middot; Social Type 7 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">American film director and producer, b. 1969 &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Beaver: from field biologist to filmmaker</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>beaver</strong> dams a stream and creates a habitat that many other animals benefit from. Darren Aronofsky was born on 12 February 1969 in Brooklyn, New York, the son of teachers Charlotte and Abraham Aronofsky, both of Polish-Jewish descent. At 16 and 17 he trained as a field biologist in programs of the School for Field Studies in Kenya (1985) and Alaska (1986).</p>
+          <p class="vb-intro">He entered Harvard at 18 and graduated in 1991 in social anthropology. His senior thesis film &lsquo;Supermarket Sweep&rsquo; was a finalist at the 1991 Student Academy Awards. In 1992 he earned a Master of Fine Arts in directing at the AFI Conservatory, where Todd Field and Scott Silver were among his classmates.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Seven: the team that comes along</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Seven flees pain into enthusiasm, and Claudio Naranjo described the <strong>social Seven (SO7)</strong> as the subtype of sacrifice: the Seven puts curiosity and mobility at the service of a group. For decades Aronofsky has worked with the same core of collaborators: cinematographer Matthew Libatique, editor Andrew Weisblum and composer Clint Mansell. In 1997 he founded the production company Protozoa Pictures, through which he realizes not only his own films but those of others.</p>
+          <p class="vb-intro">As a producer he gave other filmmakers a stage: &lsquo;Jackie&rsquo; (2016), the documentaries &lsquo;Some Kind of Heaven&rsquo; (2020, the debut of <a href="#beruehmte-lance-oppenheim">Lance Oppenheim (SO7w6)</a>) and &lsquo;The Territory&rsquo; (2022, about the Indigenous Uru-Eu-Wau-Wau people, awarded a Peabody Award). For National Geographic he was executive producer of &lsquo;One Strange Rock&rsquo; (2018) and created &lsquo;Limitless with Chris Hemsworth&rsquo; (2022).</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-wing: force without regard for losses</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Seven assertiveness, directness and the willingness to endure a fight. In Aronofsky it shows in how he deals with resistance. &lsquo;Requiem for a Dream&rsquo; (2000) was rated NC-17 by the American ratings board, his appeal failed, and he released the film uncut and unrated instead of softening it. &lsquo;Noah&rsquo; (2014) was banned in several countries on religious grounds, and &lsquo;mother!&rsquo; (2017) received an F from cinema audiences in CinemaScore, the exit poll at the box office.</p>
+          <p class="vb-intro">The core type Seven is curious and always looks for new worlds; the Eight-wing makes sure he enters each of them at full force and sticks to his view even when the audience turns away.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: obsession as a craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In almost every film Aronofsky tells of people who pursue a goal to the point of self-destruction: a mathematician searching for the numerical order of the world (&lsquo;Pi&rsquo;, 1998), four addicts (&lsquo;Requiem for a Dream&rsquo;), an aging wrestler (&lsquo;The Wrestler&rsquo;, 2008), a ballerina (&lsquo;Black Swan&rsquo;, 2010), a terminally ill man in his apartment (&lsquo;The Whale&rsquo;, 2022). For these inner worlds he finds a physical visual language: &lsquo;Requiem for a Dream&rsquo; consists of over 2,000 cuts, where a film of that length usually has 600 to 700. Add split screen, extreme close-ups, the Snorricam (a camera attached to the actor&rsquo;s body that keeps the face fixed in the frame) and time-lapse. &lsquo;The Wrestler&rsquo; and &lsquo;Black Swan&rsquo; he shot in a grainy, muted look close to the characters.</p>
+          <p class="vb-intro">The craft of the beginnings also shows the drive: he shot &lsquo;Pi&rsquo; in October 1997 on just $60,000, partly financed by $100 donations from family and friends. In 1998 the film won the directing award at Sundance, and Artisan bought distribution for one million dollars. &lsquo;The Fountain&rsquo; (2006) was first planned as a $70 million project with Brad Pitt; when Pitt left, he made the film with Hugh Jackman for about half the budget.</p>
+          <p class="vb-intro">The successes are documented: &lsquo;The Wrestler&rsquo; won the Golden Lion at Venice and earned Mickey Rourke an Oscar nomination, &lsquo;Black Swan&rsquo; received five Oscar nominations and won Natalie Portman the Oscar for Best Actress, and &lsquo;The Whale&rsquo; won Brendan Fraser the Oscar for Best Actor.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same type: Lance Oppenheim and Dieter Nuhr</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Aronofsky and <a href="#beruehmte-lance-oppenheim">Lance Oppenheim (SO7w6)</a> are both social Sevens, and both turn their curiosity to communities. Aronofsky produced Oppenheim&rsquo;s debut &lsquo;Some Kind of Heaven&rsquo;. The difference lies in the wing: with the Six-wing collaboration is in the foreground, with the Eight-wing confrontation.</p>
+          <p class="vb-intro">With the Eight-wing there is a kinship with <a href="#beruehmte-dieter-nuhr">Dieter Nuhr (SO7w8)</a>: neither retreats in a headwind, both stick to their view, Nuhr on the cabaret stage, Aronofsky in the cinema.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social Seven with Eight-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the willingness to bring others to the front and to pursue one&rsquo;s own ideas uncompromisingly. Someone who goes from field biology through anthropology to film and is also active as an advocate (he sits on the boards of the Sierra Club Foundation and the School for Field Studies and lives vegan) shows that the curiosity is more than entertainment.</p>
+          <p class="vb-intro">The shadow is the force with which he pushes projects through, even against resistance and against the audience. And the appetite for the new also leads to experiments that do not convince the public: his AI studio Primordial Soup released the series &lsquo;On This Day... 1776&rsquo; on YouTube on 29 January 2026, which received overwhelmingly negative reviews.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: Brooklyn, Poland and the next worlds</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 24 October 2026) Darren Aronofsky is 57 years old. Since 2024 he and his sister Patti hold Polish citizenship. With &lsquo;Caught Stealing&rsquo; (2025, with Austin Butler) he most recently delivered a crime film; with the Las Vegas Sphere film &lsquo;Postcard from Earth&rsquo; (2023) he worked on a giant wraparound screen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
+        {route:"beruehmte-lance-oppenheim", label:"Portrait: Lance Oppenheim (SO7w6)"},
+        {route:"beruehmte-dieter-nuhr", label:"Portrait: Dieter Nuhr (SO7w8)"},
+        {route:"beruehmte-drew-barrymore", label:"Portrait: Drew Barrymore (SO7w8)"},
+      ])}
+    </div>
+  `);
+}
