@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2619", date: "2026-10-24", text: "Neues Porträt: Christiane Hörbiger (SO3w2) – Schauspielerin.", text_en: "New portrait: Christiane Hörbiger (SO3w2) – actress.", route: "beruehmte-christiane-hoerbiger" },
     { version: "v2618", date: "2026-10-24", text: "Neues Porträt: Mathias Berner (SO7w6) – Veranstalter von Online-Gesundheitskongressen.", text_en: "New portrait: Mathias Berner (SO7w6) – organizer of online health congresses.", route: "beruehmte-mathias-berner" },
     { version: "v2617", date: "2026-10-24", text: "Neues Porträt: Karolina Lodyga (SX6w7) – Schauspielerin.", text_en: "New portrait: Karolina Lodyga (SX6w7) – actress.", route: "beruehmte-karolina-lodyga" },
     { version: "v2616", date: "2026-10-24", text: "Neues Porträt: Peter Thiel (SX1w9) – Unternehmer und Investor.", text_en: "New portrait: Peter Thiel (SX1w9) – entrepreneur and investor.", route: "beruehmte-peter-thiel" },

@@ -2951,3 +2951,74 @@ export function wayneDyerPortraitPage() {
     </div>
   `);
 }
+
+export function christianeHoerbigerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-christiane-hoerbiger-portrait.jpg" alt="Christiane Hörbiger – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-christiane-hoerbiger-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Christiane Hörbiger</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Sozialer Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Österreichische Schauspielerin, 1938&ndash;2022 &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Gepard: das Kind aus der Schauspielerfamilie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Gepard</strong> wirkt aus der Ruhe heraus, und sein Auftritt entscheidet sich in wenigen Augenblicken. Christiane Hörbiger wurde am 13. Oktober 1938 in Wien geboren, als Tochter der Schauspieler Attila Hörbiger und Paula Wessely und als Schwester von Elisabeth Orth und Maresa Hörbiger. Sie besaß auch die Schweizer Staatsbürgerschaft.</p>
+          <p class="vb-intro">Auf Wunsch der Mutter machte sie zunächst eine Konditorlehre. Gegen den Wunsch der Eltern studierte sie dann Schauspiel am Max-Reinhardt-Seminar. 1955 gab sie ihr Filmdebüt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Prestige und der gute Ruf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte die <strong>soziale Drei (SO3)</strong> den Subtyp des Prestiges: Wer so lebt, will in der Gemeinschaft Ansehen, gewinnt es durch Leistung und achtet auf das eigene Bild. Bei Hörbiger lag das Ansehen schon in der Familie, und sie hatte es gegen die Erwartungen der Eltern zu eigenem zu machen. Über mehr als sechs Jahrzehnte wurde sie zu einem Gesicht, dem man vertraute, in mehr als 130 Film- und Fernsehproduktionen.</p>
+          <p class="vb-intro">Auf der Bühne spielte sie am Burgtheater und am Schauspielhaus Zürich und gab bei den Salzburger Festspielen die Buhlschaft im ›Jedermann‹. Ihre Autobiografie ›Ich bin der Weiße Clown‹ (2008) erschien 2013 in fünfter Auflage, ergänzt um die letzten fünf Jahre. Ihre Erinnerungen an die Eltern und der Umgang mit Angst gehören dazu. Der Weiße Clown ist in der Zirkuskunst die würdevolle, elegante Figur im Zweiergespann; dass sie dieses Bild für sich wählte, lässt sich mit der Rolle der Haltung in Verbindung bringen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Wärme und Dienst am Gemeinwohl</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit dem <strong>Zweierflügel (w2)</strong> kam die Wärme, die ihre Rollen auszeichnete: Sie spielte Frauen, denen man zuhört. Als UNICEF-Botschafterin für Österreich setzte sie sich ab 2003 für Kinder ein. Nach dem frühen Tod ihres zweiten Mannes, des Schweizer Journalisten Rolf R. Bigler, der 1978 starb, zog sie ihren Sohn Sascha Bigler allein auf.</p>
+          <p class="vb-intro">Die Drei will Wirkung, und der Zweierflügel lenkt sie zu den Menschen, die darauf angewiesen sind.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Rollen, denen man glaubte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bekannt wurde sie als Christl Müller in ›Donaugeschichten‹, als Gräfin von Guldenburg in ›Das Erbe der Guldenburgs‹ und als Dr. Julia Laubach in ›Julia – Eine ungewöhnliche Frau‹. Im Kino war sie in ›Schtonk!‹ (1992) zu sehen, einer Satire, die für den Oscar als bester fremdsprachiger Film nominiert wurde.</p>
+          <p class="vb-intro">Sie erhielt mehrere Romy und Goldene Kameras, einen Bambi, den Deutschen Filmpreis und das Bundesverdienstkreuz 1. Klasse.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Zoë Kravitz und Christiaan Barnard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-zoe-kravitz">Zoë Kravitz (SO3w2)</a> teilt mit Hörbiger den Typ und die Ausgangslage: Auch sie kommt aus einer berühmten Familie und musste ihren eigenen Platz finden. <a href="#beruehmte-christiaan-barnard">Dr. Christiaan Barnard (SO3w2)</a> verbindet mit ihr das öffentliche Ansehen, das aus Leistung kommt und mit Wärme getragen wird.</p>
+          <p class="vb-intro">Der Unterschied: Kravitz und Barnard suchten die Bühne der Gegenwart, Hörbiger prägte über Jahrzehnte das Fernsehen im deutschsprachigen Raum.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Drei mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu den Stärken zählt die Verlässlichkeit: Wer über Jahrzehnte Rollen mit Würde und Wärme trägt, wird zu einer Figur, der das Publikum traut. Auch ihr Einsatz für Kinder gehört dazu.</p>
+          <p class="vb-intro">Als Kehrseite kann das Bild der Würde bedrücken: Wer als Tochter großer Eltern früh Ansehen trägt, hat wenig Raum, auch Schwäche zu zeigen. Ihre Autobiografie berührt nach der Verlagsbeschreibung den Umgang mit Angst, doch eigene Aussagen von ihr dazu konnte ich nicht belegen, dieser Satz ist eine Deutung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: ein langes Leben im Rampenlicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Christiane Hörbiger lebte mit ihrem Lebensgefährten Gerhard Tötschinger von 1984 bis zu dessen Tod 2016. Davor war sie von 1962 bis 1967 mit dem Regisseur Wolfgang Glück verheiratet. Sie starb am 30. November 2022 im Alter von 84 Jahren in Wien und ist in einem Ehrengrab auf dem Wiener Zentralfriedhof beigesetzt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so3", label:"Lebensmusterkompass: SO3 – Gepard"},
+        {route:"beruehmte-zoe-kravitz", label:"Porträt: Zoë Kravitz (SO3w2)"},
+        {route:"beruehmte-christiaan-barnard", label:"Porträt: Dr. Christiaan Barnard (SO3w2)"},
+        {route:"beruehmte-pharrell-williams", label:"Porträt: Pharrell Williams (SO3w2)"},
+            ])}
+    </div>
+  `);
+}

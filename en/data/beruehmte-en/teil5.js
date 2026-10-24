@@ -2883,3 +2883,74 @@ export function hagenRetherPortraitPage() {
     </div>
   `);
 }
+
+export function christianeHoerbigerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-christiane-hoerbiger-portrait.jpg" alt="Christiane Hörbiger – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-christiane-hoerbiger-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Christiane Hörbiger</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Social Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Austrian actress, 1938&ndash;2022 &ndash; Animal correspondence: Cheetah</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Cheetah: the child of an acting family</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>cheetah</strong> acts out of calm, and its appearance is decided in a few moments. Christiane Hörbiger was born on 13 October 1938 in Vienna, the daughter of the actors Attila Hörbiger and Paula Wessely and the sister of Elisabeth Orth and Maresa Hörbiger. She also held Swiss citizenship.</p>
+          <p class="vb-intro">At her mother&rsquo;s wish she first trained as a pastry maker. Against her parents&rsquo; wish she then studied acting at the Max Reinhardt Seminar. In 1955 she made her film debut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Three: prestige and a good name</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the <strong>social Three (SO3)</strong> the subtype of prestige: whoever lives this way wants standing in the community, gains it through achievement and pays attention to their own image. With Hörbiger the standing already lay in the family, and she had to make it her own against her parents&rsquo; expectations. Over more than six decades she became a face that people trusted, in more than 130 film and television productions.</p>
+          <p class="vb-intro">On stage she played at the Burgtheater and the Schauspielhaus Zürich and gave the Buhlschaft in &lsquo;Jedermann&rsquo; at the Salzburg Festival. Her autobiography &lsquo;Ich bin der Weiße Clown&rsquo; (&lsquo;I Am the White Clown&rsquo;, 2008) appeared in 2013 in a fifth edition, extended by the last five years. Her memories of her parents and the handling of fear belong to it. The White Clown is, in circus art, the dignified, elegant figure in the pair; that she chose this image for herself can be connected with the role of composure.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: warmth and service to the common good</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With the <strong>Two-wing (w2)</strong> came the warmth that distinguished her roles: she played women one listens to. As UNICEF ambassador for Austria from 2003 she campaigned for children. After the early death in 1978 of her second husband, the Swiss journalist Rolf R. Bigler, she raised her son Sascha Bigler alone.</p>
+          <p class="vb-intro">The Three wants impact, and the Two-wing directs it to the people who depend on it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: roles one believed</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">She became known as Christl Müller in &lsquo;Donaugeschichten&rsquo;, as the Countess of Guldenburg in &lsquo;Das Erbe der Guldenburgs&rsquo; and as Dr. Julia Laubach in &lsquo;Julia – Eine ungewöhnliche Frau&rsquo;. In cinema she was seen in &lsquo;Schtonk!&rsquo; (1992), a satire nominated for the Oscar for Best Foreign Language Film.</p>
+          <p class="vb-intro">She received several Romys and Goldene Kameras, a Bambi, the Deutscher Filmpreis and the Federal Cross of Merit First Class.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Zoë Kravitz and Christiaan Barnard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-zoe-kravitz">Zoë Kravitz (SO3w2)</a> shares with Hörbiger the type and the starting point: she too comes from a famous family and had to find her own place. <a href="#beruehmte-christiaan-barnard">Dr. Christiaan Barnard (SO3w2)</a> shares with her the public standing that comes from achievement and is carried with warmth.</p>
+          <p class="vb-intro">The difference: Kravitz and Barnard sought the stage of the present, Hörbiger shaped German-language television over decades.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social Three with Two-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Among the strengths is reliability: someone who carries roles with dignity and warmth for decades becomes a figure the audience trusts. Her commitment to children belongs here too.</p>
+          <p class="vb-intro">As a flip side the image of dignity can weigh: someone who as the daughter of great parents carries standing early has little room to show weakness as well. According to the publisher&rsquo;s description her autobiography touches on dealing with fear, but I could not verify statements of her own on this; this sentence is an interpretation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: a long life in the spotlight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Christiane Hörbiger lived with her partner Gerhard Tötschinger from 1984 until his death in 2016. Before that she had been married from 1962 to 1967 to the director Wolfgang Glück. She died on 30 November 2022 in Vienna at the age of 84 and is buried in an honorary grave at the Vienna Central Cemetery.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
+        {route:"lebensmusterkompass/so3", label:"Life Pattern Compass: SO3 – Cheetah"},
+        {route:"beruehmte-zoe-kravitz", label:"Portrait: Zoë Kravitz (SO3w2)"},
+        {route:"beruehmte-christiaan-barnard", label:"Portrait: Dr. Christiaan Barnard (SO3w2)"},
+        {route:"beruehmte-pharrell-williams", label:"Portrait: Pharrell Williams (SO3w2)"},
+            ])}
+    </div>
+  `);
+}

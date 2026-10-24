@@ -273,6 +273,7 @@ export function christiaanBarnardPortraitPage() {
         {route:"beruehmte-will-yun-lee", label:"Portrait: Will Yun Lee (SO3w2)"},
         {route:"beruehmte-virgil-van-dijk", label:"Portrait: Virgil van Dijk (SO3w2)"},
         {route:"beruehmte-harry-houdini", label:"Portrait: Harry Houdini (SO3w2)"},
+        {route:"beruehmte-christiane-hoerbiger", label:"Portrait: Christiane Hörbiger (SO3w2)"},
       ])}
     </div>
   `);
