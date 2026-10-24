@@ -2852,6 +2852,7 @@ export function richyMuellerPortraitPage() {
         {route:"beruehmte-dustin-hoffman", label:"Portrait: Dustin Hoffman (SX9w1)"},
         {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
         {route:"beruehmte-mads-mikkelsen", label:"Portrait: Mads Mikkelsen (SX9w1)"},
+        {route:"beruehmte-dominik-krause", label:"Portrait: Dominik Krause (SX9w1)"},
       ])}
     </div>
   `);

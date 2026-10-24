@@ -2908,3 +2908,73 @@ export function wayneDyerPortraitPage() {
     </div>
   `);
 }
+
+export function dominikKrausePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-dominik-krause-portrait.jpg" alt="Dominik Krause – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-dominik-krause-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Dominik Krause</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">Lord Mayor of Munich, b. 1990 &ndash; Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Sloth: the physicist from Moosach</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>sloth</strong> moves deliberately and holds on firmly to the branch it hangs from. Dominik Krause was born on 3 August 1990 in Munich and grew up in the districts of Moosach and Untermenzing. In 2009 he took his school-leaving exam at the Städtisches Louise-Schroeder-Gymnasium and then did civilian service at an inclusive Montessori school.</p>
+          <p class="vb-intro">He studied Applied and Engineering Physics at the Technical University of Munich and graduated with a Master of Science in physics. Today he lives in the Munich district of Obergiesing-Fasangarten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Nine: union with a cause</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Nine seeks peace through connection, and the <strong>sexual Nine (SX9)</strong> merges with a single cause, person or place. Claudio Naranjo called this union. In Krause that place is his city, and the cause became clear to him during civilian service: there he saw a neo-Nazi march that shocked him and led him into politics. He became involved in &lsquo;München ist bunt&rsquo; (&lsquo;Munich Is Colorful&rsquo;), an association against racism (member since 2012, on the board since 2016), and then joined the Greens.</p>
+          <p class="vb-intro">His career followed steadily: 2012 to 2014 spokesperson of the Green Youth in Munich, elected to the city council in 2014 at 24, 2019 to 2020 chair of the Munich Greens, 2022 to 2023 parliamentary group leader on the council and on 26 October 2023 Second Mayor. He got engaged to his partner, a physician, at Pentecost 2024.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-wing: principles and standard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso and Russ Hudson call the Nine with a One-wing &lsquo;The Dreamer&rsquo; and the Nine with an Eight-wing &lsquo;The Referee&rsquo;. The <strong>One-wing (w1)</strong> makes the Nine more exact, dutiful and equipped with a moral standard. In Krause it shows in his demand for precision and in how he deals with antisemitism: he said he was shaken by classical antisemitism in progressive circles and demands that it be named in all milieus and not only among political opponents. In 2017 he left the advisory board of the Eine-Welt-Haus in protest against a decision of the association in dealing with antisemitic statements.</p>
+          <p class="vb-intro">He is a member of the Deutsch-Israelische Gesellschaft (German-Israeli Society). Charlotte Knobloch, president of the Jewish Community of Munich and Upper Bavaria, called him after the election a &lsquo;close friend and ally of the Jewish community&rsquo;. A Nine with a One-wing stays calm and at the same time holds on to his principles.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the first Green at the head of Munich</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In December 2024 the Munich Greens nominated him with 99.3 percent. In the 2026 election he reached 29.5 percent in the first round and, as the first Green, the runoff. On 22 March 2026 he won it with 56.4 percent against the incumbent Dieter Reiter (SPD), ending an SPD-led city government that had lasted, with a brief interruption, since 1948. On 1 May 2026 he took office as the first Green Lord Mayor of Munich. His campaign slogan was &lsquo;Weil mehr geht&rsquo; (&lsquo;Because more is possible&rsquo;).</p>
+          <p class="vb-intro">As Second Mayor he had chaired or sat on the supervisory boards of several municipal companies such as Gasteig and Stadtwerke München. In 2023 he drew national attention when he called the Oktoberfest the &lsquo;world&rsquo;s largest open drug scene&rsquo; and spoke in favor of a relaxed approach to cannabis after legalization. He commutes by public transport. In his campaign he jokingly called himself &lsquo;BürGAYmeister&rsquo; (a pun on mayor and gay) and found support in the queer community, also because he lives openly gay.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Richy Müller and Viggo Mortensen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-richy-mueller">Richy Müller (SX9w1)</a> and <a href="#beruehmte-viggo-mortensen">Viggo Mortensen (SX9w1)</a> share with Krause the type and the One-wing: calm, reliability and a standard for what they do. With Müller and Mortensen this standard lies in the craft of the role, with Krause in responsibility for a city.</p>
+          <p class="vb-intro">The parallel also shows a difference: the two actors work with roles, Krause with decisions that affect many people.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Nine with One-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is the combination of calm and stance: he is regarded as pragmatic, undogmatic and solution-oriented, not a man of grand gestures, whose standing according to the &lsquo;Jüdische Allgemeine&rsquo; rests on presence and listening. That he criticizes his own camp fits the One-wing.</p>
+          <p class="vb-intro">It gets hard for this type where connection and principle fall apart: whoever wants to stay connected to the whole city has to decide, and every decision separates. Housing, transport and budget pressure, which he addressed in the interview with the NZZ, are subjects where a Nine with a One-wing must also endure contradiction.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: the first year in office</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dominik Krause is 36 years old (as of 24 October 2026) and has been Lord Mayor of Munich since 1 May 2026. This portrait describes his public work and takes no position on the political disputes connected with his office.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
+        {route:"lebensmusterkompass/sx9", label:"Life Pattern Compass: SX9 – Sloth"},
+        {route:"beruehmte-richy-mueller", label:"Portrait: Richy Müller (SX9w1)"},
+        {route:"beruehmte-viggo-mortensen", label:"Portrait: Viggo Mortensen (SX9w1)"},
+            ])}
+    </div>
+  `);
+}

@@ -2912,3 +2912,73 @@ export function hongChauPortraitPage() {
     </div>
   `);
 }
+
+export function dominikKrausePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-dominik-krause-portrait.jpg" alt="Dominik Krause – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-dominik-krause-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Dominik Krause</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Oberbürgermeister von München, geb. 1990 &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Das Faultier: der Physiker aus Moosach</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Faultier</strong> bewegt sich bedächtig und hält sich fest an dem Ast, an dem es hängt. Dominik Krause wurde am 3. August 1990 in München geboren und wuchs in den Stadtteilen Moosach und Untermenzing auf. 2009 machte er am Städtischen Louise-Schroeder-Gymnasium Abitur und leistete danach Zivildienst an einer inklusiven Montessori-Schule.</p>
+          <p class="vb-intro">Er studierte Angewandte und Technische Physik an der Technischen Universität München und schloss mit einem Master of Science in Physik ab. Heute lebt er im Münchner Stadtteil Obergiesing-Fasangarten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der sexuelle Neuner: Verbindung mit einer Sache</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Neuner sucht Frieden durch Verbindung, und der <strong>sexuelle Neuner (SX9)</strong> verschmilzt dabei mit einer einzelnen Sache, einem Menschen oder einem Ort. Claudio Naranjo nannte das Vereinigung. Bei Krause ist dieser Ort seine Stadt, und die Sache wurde ihm mit dem Zivildienst klar: Dort sah er einen Neonazi-Marsch, der ihn schockierte und in die Politik führte. Er engagierte sich im Bündnis ›München ist bunt‹, einem Verein gegen Rassismus (Mitglied seit 2012, im Vorstand seit 2016), und kam dann zu den Grünen.</p>
+          <p class="vb-intro">Seine Laufbahn folgte stetig: 2012 bis 2014 Sprecher der Grünen Jugend in München, 2014 mit 24 Jahren in den Stadtrat gewählt, 2019 bis 2020 Vorsitzender der Münchner Grünen, 2022 bis 2023 Fraktionsvorsitzender im Stadtrat und am 26. Oktober 2023 Zweiter Bürgermeister. Mit seinem Partner, einem Arzt, verlobte er sich an Pfingsten 2024.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Prinzipien und Maßstab</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso und Russ Hudson nennen die Neun mit Einserflügel ›Den Träumer‹ und die Neun mit Achterflügel ›Den Schiedsrichter‹. Der <strong>Einserflügel (w1)</strong> macht den Neuner genauer, pflichtbewusster und mit einem moralischen Maßstab. Bei Krause zeigt sich das in seinem Anspruch an Genauigkeit und im Umgang mit Antisemitismus: Er erklärte, er sei erschüttert gewesen über klassischen Antisemitismus in fortschrittlichen Kreisen und fordert, ihn in allen Milieus zu benennen und nicht nur bei politischen Gegnern. 2017 verließ er aus Protest gegen eine Entscheidung des Vereins im Umgang mit antisemitischen Äußerungen den Beirat des Eine-Welt-Hauses.</p>
+          <p class="vb-intro">Er ist Mitglied der Deutsch-Israelischen Gesellschaft. Charlotte Knobloch, die Präsidentin der Israelitischen Kultusgemeinde München und Oberbayern, nannte ihn nach der Wahl einen ›engen Freund und Verbündeten der jüdischen Gemeinschaft‹. Ein Neuner mit Einserflügel bleibt ruhig und hält zugleich an seinen Grundsätzen fest.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: der erste Grüne an der Spitze Münchens</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Dezember 2024 nominierten ihn die Münchner Grünen mit 99,3 Prozent. Bei der Wahl 2026 erreichte er im ersten Wahlgang 29,5 Prozent und als erster Grüner die Stichwahl. Am 22. März 2026 gewann er sie mit 56,4 Prozent gegen den Amtsinhaber Dieter Reiter (SPD) und beendete damit eine SPD-geführte Stadtregierung, die seit 1948 mit einer kurzen Unterbrechung bestanden hatte. Am 1. Mai 2026 trat er das Amt an, als erster grüner Oberbürgermeister Münchens. Sein Wahlkampfmotto lautete ›Weil mehr geht‹.</p>
+          <p class="vb-intro">Als Zweiter Bürgermeister hatte er den Aufsichtsrat mehrerer städtischer Unternehmen wie Gasteig und Stadtwerke München geleitet oder gehörte ihm an. 2023 fiel er bundesweit auf, als er das Oktoberfest die ›weltweit größte offene Drogenszene‹ nannte und sich für einen entspannten Umgang mit Cannabis nach der Legalisierung aussprach. Er pendelt mit öffentlichen Verkehrsmitteln. In seinem Wahlkampf nannte er sich scherzhaft ›BürGAYmeister‹ und fand damit Rückhalt in der queeren Gemeinschaft, auch weil er offen schwul lebt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Richy Müller und Viggo Mortensen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-richy-mueller">Richy Müller (SX9w1)</a> und <a href="#beruehmte-viggo-mortensen">Viggo Mortensen (SX9w1)</a> verbinden mit Krause den Typ und den Einserflügel: Ruhe, Verlässlichkeit und ein Anspruch an das, was sie tun. Bei Müller und Mortensen liegt dieser Anspruch im Handwerk der Rolle, bei Krause in der Verantwortung für eine Stadt.</p>
+          <p class="vb-intro">Die Parallele zeigt auch einen Unterschied: Die beiden Schauspieler arbeiten mit Rollen, Krause mit Entscheidungen, die viele Menschen betreffen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten des sexuellen Neuners mit Einserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Verbindung von Ruhe und Haltung: Er gilt als pragmatisch, undogmatisch und lösungsorientiert, kein Mann der großen Gesten, dessen Ansehen laut ›Jüdische Allgemeine‹ auf Präsenz und Zuhören beruht. Dass er Kritik am eigenen Lager übt, passt zum Einserflügel.</p>
+          <p class="vb-intro">Schwer wird es für diesen Typ dort, wo Verbindung und Prinzip auseinanderfallen: Wer mit der ganzen Stadt verbunden bleiben will, muss entscheiden, und jede Entscheidung trennt. Der Wohnungsmarkt, der Verkehr und der Haushaltsdruck, über die er sich im Interview mit der NZZ äußerte, sind Themen, bei denen ein Neuner mit Einserflügel auch Widerspruch aushalten muss.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: das erste Jahr im Amt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dominik Krause ist (Stand 24. Oktober 2026) 36 Jahre alt und seit dem 1. Mai 2026 Oberbürgermeister von München. Dieses Porträt beschreibt sein öffentliches Wirken und nimmt keine Stellung zu den politischen Streitfragen, die mit seinem Amt verbunden sind.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx9", label:"Lebensmusterkompass: SX9 – Faultier"},
+        {route:"beruehmte-richy-mueller", label:"Porträt: Richy Müller (SX9w1)"},
+        {route:"beruehmte-viggo-mortensen", label:"Porträt: Viggo Mortensen (SX9w1)"},
+            ])}
+    </div>
+  `);
+}

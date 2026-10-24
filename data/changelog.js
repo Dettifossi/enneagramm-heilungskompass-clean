@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2614", date: "2026-10-24", text: "Neues Porträt: Dominik Krause (SX9w1) – Oberbürgermeister von München.", text_en: "New portrait: Dominik Krause (SX9w1) – Lord Mayor of Munich.", route: "beruehmte-dominik-krause" },
     { version: "v2613", date: "2026-10-24", text: "Neues Porträt: Julia Koschitz (SE4w5) – Schauspielerin.", text_en: "New portrait: Julia Koschitz (SP4w5) – actress.", route: "beruehmte-julia-koschitz" },
     { version: "v2612", date: "2026-10-24", text: "Neues Porträt: Max Schmeling (SE1w9) – Box-Weltmeister im Schwergewicht.", text_en: "New portrait: Max Schmeling (SP1w9) – heavyweight boxing world champion.", route: "beruehmte-max-schmeling" },
     { version: "v2611", date: "2026-10-24", text: "Neues Porträt: Mike Tyson (SE7w8) – Box-Weltmeister im Schwergewicht.", text_en: "New portrait: Mike Tyson (SP7w8) – heavyweight boxing world champion.", route: "beruehmte-mike-tyson" },
