@@ -2526,7 +2526,7 @@ export function katharinaDieGrossePortraitPage() {
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. Der Gepard, der eine Prinzessin aus der Provinz zur Kaiserin machte</h2>
+        <h2 class="vb-section">1. Der Gepard: die Prinzessin aus der Provinz, die zur Kaiserin wurde</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Gepard</strong> wartet nicht auf die Erlaubnis zu glänzen – er ergreift den einen entscheidenden Moment, sobald sich die Gelegenheit bietet. Sophie Auguste Friederike von Anhalt-Zerbst, geboren 1729 als Tochter eines unbedeutenden deutschen Fürsten, kam 1744 als 15-Jährige an den russischen Hof, um den designierten Thronfolger Peter zu heiraten. Sie besaß keinerlei erbliches Anrecht auf den russischen Thron – alles, was sie später erreichte, verdankte sie der eigenen, systematisch aufgebauten Position.</p>
           <p class="vb-intro">Fanatisch lernte sie Russisch, konvertierte zur orthodoxen Kirche und nahm den Namen Jekaterina an, studierte die Mentalität von Hof und Volk, um die Rolle der russischen Herrscherin perfekt auszufüllen – eine achtzehnjährige Vorbereitungszeit in einer von ihr selbst als quälend beschriebenen Ehe, die sie später als bewusste Härtung des eigenen Charakters deutete. 1762 ließ sie ihren glücklosen Ehemann Peter III. in einem von ihr mitgetragenen Putsch stürzen und bestieg selbst den Thron.</p>
