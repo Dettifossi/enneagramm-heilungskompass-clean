@@ -3000,7 +3000,8 @@ export function danielleVasinovaPortraitPage() {
         {route:"beruehmte-bella-thorne", label:"Portrait: Bella Thorne (SO3w4)"},
         {route:"beruehmte-sonoya-mizuno", label:"Portrait: Sonoya Mizuno (SO3w4)"},
         {route:"beruehmte-christiane-hoerbiger", label:"Portrait: Christiane Hörbiger (SO3w2)"},
-            ])}
+        {route:"beruehmte-franziska-van-almsick", label:"Portrait: Franziska van Almsick (SO3w4)"},
+      ])}
     </div>
   `);
 }

@@ -2304,6 +2304,7 @@ export function leonGoretzkaPortraitPage() {
         {route:"beruehmte-pedro-alonso", label:"Portrait: Pedro Alonso (SO3w4)"},
         {route:"beruehmte-virgil-van-dijk", label:"Portrait: Virgil van Dijk (SO3w2)"},
         {route:"beruehmte-george-vithoulkas", label:"Portrait: Prof. George Vithoulkas (SO3w4)"},
+        {route:"beruehmte-franziska-van-almsick", label:"Portrait: Franziska van Almsick (SO3w4)"},
       ])}
     </div>
   `);

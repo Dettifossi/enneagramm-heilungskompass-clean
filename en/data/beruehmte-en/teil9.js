@@ -2886,3 +2886,75 @@ export function thylaneBlondeauPortraitPage() {
     </div>
   `);
 }
+
+export function franziskaVanAlmsickPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-franziska-van-almsick-portrait.jpg" alt="Franziska van Almsick – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-franziska-van-almsick-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Franziska van Almsick</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Social Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">German swimmer, b. 1978 &ndash; Animal correspondence: Cheetah</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Cheetah: the Berlin swimming prodigy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>cheetah</strong> sprints out of calm and decides in seconds. Franziska van Almsick was born on 5 April 1978 in East Berlin. She began swimming at five, and at seven she joined the Berlin training center. Even as a child she trained in the system of GDR sport.</p>
+          <p class="vb-intro">In 1992, aged 14, she swam at the Olympic Games in Barcelona to silver in the 200 m freestyle and with the medley relay, and to bronze in the 100 m freestyle and with the freestyle relay. In 1993 she won the overall World Cup and was voted World Sportswoman of the Year.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Three: the face of the nation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The social Three lives on standing in the community, which Claudio Naranjo called prestige. In van Almsick prestige early became a burden: in 1994 in Rome she reached the 200 m freestyle final only because a teammate withdrew, and became world champion with a world record. After that the public expected gold, and at the Olympic Games it stayed at silver and bronze. In total she won four silver and six bronze at the Olympics, but never gold, and the media spoke of the &lsquo;gold curse&rsquo;.</p>
+          <p class="vb-intro">By her own statements the pressure from outside was hard, because only first places counted. But in the end her own ambition was greater than herself. In an interview she said the gold curse had almost broken her.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: inwardness behind the image</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso and Russ Hudson call the Three with a Four-wing &lsquo;The Professional&rsquo; and the Three with a Two-wing &lsquo;The Charmer&rsquo;. In the 1990s van Almsick appeared as the approachable &lsquo;Franzi&rsquo; whom a country liked. Today the <strong>Four-wing (w4)</strong> shows more: seriousness, inwardness and the look inward, a calm that can also be earnest.</p>
+          <p class="vb-intro">This fits what she says publicly about her story: she says she lost herself and no longer knew who she was, and always pretended outwardly that everything was fine. In the ARD documentary &lsquo;Being Franziska van Almsick&rsquo; (2025) she speaks of a hamster wheel in which she was constantly told what to do and not to do.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: medals, setbacks, return</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1996 in Atlanta she won silver in the 200 m freestyle although she was a favorite. In 2000 in Sydney she reached no individual final and won only relay bronze; the tabloid press criticized her sharply, and the &lsquo;B.Z.&rsquo; called her &lsquo;Franzi van Speck&rsquo; (&lsquo;Franzi van Bacon&rsquo;). She says she was terribly ashamed and that it was the first time she seriously considered throwing it all in. A break helped her carry on.</p>
+          <p class="vb-intro">In 2002 she won five gold medals at the European Championships in Berlin and was again named Sportswoman of the Year. In 2004 in Athens she won two bronze medals with the relays and then ended her active career. At European Championships she won 18 gold medals in total, and she is one of five athletes with six Olympic bronze medals.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Leon Goretzka and Danielle Vasinova</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-leon-goretzka">Leon Goretzka (SO3w4)</a> shares with her the type and the Four-wing: he too is an athlete whose performance is publicly judged, and he shows stance. <a href="#beruehmte-danielle-vasinova">Danielle Vasinova (SO3w4)</a> shares with her the experience that the image outward and the feeling inside can fall apart.</p>
+          <p class="vb-intro">The difference: with van Almsick her reputation became the lasting topic of a whole nation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social Three with Four-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Impressive is how she deals with the pressure she names: she speaks publicly about loss of self and about the eating disorder that, by her own account, she had in the mid-1990s, triggered by pressure from outside. She says that today it is a kind of warning signal. This is a step that can encourage others, and this portrait reproduces only what she herself has said publicly.</p>
+          <p class="vb-intro">The shadow of the Three is that the image of success can cover the person behind it. With van Almsick this became a question of life, and the Four-wing gives the feeling of alienation additional room.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: family, sports aid and documentary</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After her career van Almsick was from 2005 to 2012 an ARD co-commentator at Olympic Games and world championships and in 2016 a sports expert in Rio. Since 2010 she has been deputy chair of the supervisory board of the Stiftung Deutsche Sporthilfe (German Sports Aid Foundation). She lent her voice to characters in &lsquo;Cars&rsquo; and &lsquo;Finding Dory&rsquo;, appeared seven times on &lsquo;Wer weiß denn sowas?&rsquo; (2015 to 2024) and came ninth on &lsquo;The Masked Singer&rsquo; in 2021. Her autobiography &lsquo;Aufgetaucht&rsquo; (&lsquo;Resurfaced&rsquo;) appeared in 2004, and from 2009 to 2017 she wrote the children&rsquo;s book series &lsquo;Paul Plantschnase&rsquo;.</p>
+          <p class="vb-intro">She received the Bambi (1992 and 2002), the Silbernes Lorbeerblatt (1992 and 2005), in 2024 the Federal Cross of Merit on ribbon, and she has been in the International Swimming Hall of Fame since 2010. With her partner Jürgen B. Harder, since 2005, she lives in Heidelberg, and they have two sons (born 2007 and 2013). In the Sport1 interview of April 2026 she says she wants to go through life, dance wildly and also make mistakes.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
+        {route:"lebensmusterkompass/so3", label:"Life Pattern Compass: SO3 – Cheetah"},
+        {route:"beruehmte-leon-goretzka", label:"Portrait: Leon Goretzka (SO3w4)"},
+        {route:"beruehmte-danielle-vasinova", label:"Portrait: Danielle Vasinova (SO3w4)"},
+        {route:"beruehmte-christiane-hoerbiger", label:"Portrait: Christiane Hörbiger (SO3w2)"},
+            ])}
+    </div>
+  `);
+}

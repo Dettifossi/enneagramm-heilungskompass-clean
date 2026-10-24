@@ -2990,3 +2990,75 @@ export function hagenRetherPortraitPage() {
     </div>
   `);
 }
+
+export function franziskaVanAlmsickPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-franziska-van-almsick-portrait.jpg" alt="Franziska van Almsick – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-franziska-van-almsick-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Franziska van Almsick</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Sozialer Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Deutsche Schwimmerin, geb. 1978 &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Gepard: das Berliner Schwimmwunder</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Gepard</strong> sprintet aus der Ruhe und entscheidet in Sekunden. Franziska van Almsick wurde am 5. April 1978 in Ost-Berlin geboren. Mit fünf Jahren begann sie zu schwimmen, mit sieben kam sie ins Berliner Trainingszentrum. Schon als Kind trainierte sie im System des DDR-Sports.</p>
+          <p class="vb-intro">1992 schwamm sie als 14-Jährige bei den Olympischen Spielen in Barcelona zu Silber über 200 Meter Freistil und mit der Lagenstaffel sowie zu Bronze über 100 Meter Freistil und mit der Freistilstaffel. 1993 gewann sie den Gesamtweltcup und wurde zur Weltsportlerin des Jahres gewählt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: das Gesicht der Nation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die soziale Drei lebt vom Ansehen in der Gemeinschaft, und Claudio Naranjo nannte das Prestige. Bei van Almsick wurde das Prestige früh zur Last: 1994 in Rom kam sie nur ins Finale über 200 Meter Freistil, weil eine Teamkameradin zurückzog, und wurde Weltmeisterin mit Weltrekord. Danach erwartete die Öffentlichkeit Gold, und bei den Olympischen Spielen blieb es bei Silber und Bronze. Insgesamt hat sie bei Olympia viermal Silber und sechsmal Bronze gewonnen, aber nie Gold, und die Medien sprachen vom ›Goldfluch‹.</p>
+          <p class="vb-intro">Nach eigenen Aussagen war der Druck von außen hart, weil immer nur erste Plätze zählten. Doch zuletzt sei ihr eigener Ehrgeiz größer gewesen als sie selbst. In einem Interview sagte sie, der Goldfluch habe sie fast kaputt gemacht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Innerlichkeit hinter dem Bild</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso und Russ Hudson nennen die Drei mit Viererflügel ›Den Profi‹ und die Drei mit Zweierflügel ›Den Charmeur‹. In den 1990er-Jahren wirkte van Almsick wie die zugewandte ›Franzi‹, die ein Land mochte. Heute zeigt sich eher der <strong>Viererflügel (w4)</strong>: Ernst, Innerlichkeit und der Blick nach innen, eine Ruhe, die auch ernst sein kann.</p>
+          <p class="vb-intro">Das passt zu dem, was sie öffentlich über ihre Geschichte sagt: Sie habe sich selbst verloren und nicht mehr gewusst, wer sie war, und nach außen immer so getan, als sei alles in Ordnung. In der ARD-Doku ›Being Franziska van Almsick‹ (2025) spricht sie von einem Hamsterrad, in dem ihr ständig gesagt wurde, was sie zu tun und zu lassen habe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Medaillen, Rückschläge, Rückkehr</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1996 holte sie in Atlanta Silber über 200 Meter Freistil, obwohl sie als Favoritin galt. 2000 in Sydney erreichte sie kein Einzelfinale und gewann nur Staffelbronze; die Boulevardpresse kritisierte sie scharf, die ›B.Z.‹ nannte sie ›Franzi van Speck‹. Sie sagt, sie habe sich furchtbar geschämt, und es sei das erste Mal gewesen, dass sie ernsthaft überlegte, alles hinzuwerfen. Eine Auszeit half ihr, weiterzumachen.</p>
+          <p class="vb-intro">2002 gewann sie bei der Europameisterschaft in Berlin fünf Goldmedaillen und wurde erneut Sportlerin des Jahres. 2004 in Athen gewann sie zwei Bronzemedaillen mit den Staffeln und beendete danach ihre aktive Laufbahn. Bei Europameisterschaften gewann sie insgesamt 18 Goldmedaillen, und sie ist eine von fünf Sportlern mit sechs olympischen Bronzemedaillen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Leon Goretzka und Danielle Vasinova</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-leon-goretzka">Leon Goretzka (SO3w4)</a> verbindet mit ihr den Typ und den Viererflügel: Auch er ist ein Sportler, dessen Leistung öffentlich bewertet wird, und er zeigt Haltung. <a href="#beruehmte-danielle-vasinova">Danielle Vasinova (SO3w4)</a> teilt mit ihr die Erfahrung, dass das Bild nach außen und das Gefühl im Inneren auseinanderfallen können.</p>
+          <p class="vb-intro">Der Unterschied: Bei van Almsick wurde der Ruf zum Dauerthema einer ganzen Nation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Drei mit Viererflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Beeindruckend ist, wie sie mit dem Druck umgeht, den sie benennt: Sie spricht öffentlich über Selbstverlust und über die Essstörung, die sie nach eigener Darstellung in der Mitte der 1990er-Jahre hatte, ausgelöst durch den Druck von außen. Sie sagt, sie sei heute eine Art Warnsignal. Das ist ein Schritt, der anderen Mut machen kann, und dieses Porträt gibt nur wieder, was sie selbst öffentlich gesagt hat.</p>
+          <p class="vb-intro">Der Schatten der Drei ist, dass das Bild des Erfolgs den Menschen dahinter überdecken kann. Bei van Almsick wurde das zur Lebensfrage, und der Viererflügel gibt dem Gefühl der Fremdheit zusätzlich Raum.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Familie, Sporthilfe und Dokumentation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach ihrer Laufbahn war van Almsick von 2005 bis 2012 ARD-Co-Kommentatorin bei Olympischen Spielen und Weltmeisterschaften und 2016 Sportexpertin in Rio. Seit 2010 ist sie stellvertretende Vorsitzende des Aufsichtsrats der Stiftung Deutsche Sporthilfe. Sie lieh Figuren in ›Cars‹ und ›Findet Dorie‹ ihre Stimme, war siebenmal bei ›Wer weiß denn sowas?‹ zu sehen (2015 bis 2024) und wurde 2021 bei ›The Masked Singer‹ Neunte. Ihre Autobiografie ›Aufgetaucht‹ erschien 2004, und von 2009 bis 2017 schrieb sie die Kinderbuchreihe ›Paul Plantschnase‹.</p>
+          <p class="vb-intro">Sie erhielt den Bambi (1992 und 2002), das Silberne Lorbeerblatt (1992 und 2005), 2024 das Bundesverdienstkreuz am Bande, und sie ist seit 2010 in der International Swimming Hall of Fame. Mit ihrem Partner Jürgen B. Harder, seit 2005, lebt sie in Heidelberg, die beiden haben zwei Söhne (geboren 2007 und 2013). Im Sport1-Interview vom April 2026 sagt sie, sie wolle durchs Leben gehen, wild tanzen und auch Fehler machen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so3", label:"Lebensmusterkompass: SO3 – Gepard"},
+        {route:"beruehmte-leon-goretzka", label:"Porträt: Leon Goretzka (SO3w4)"},
+        {route:"beruehmte-danielle-vasinova", label:"Porträt: Danielle Vasinova (SO3w4)"},
+        {route:"beruehmte-christiane-hoerbiger", label:"Porträt: Christiane Hörbiger (SO3w2)"},
+            ])}
+    </div>
+  `);
+}
