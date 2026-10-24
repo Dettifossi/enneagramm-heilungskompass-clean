@@ -2738,6 +2738,7 @@ export function donKingPortraitPage() {
         {route:"beruehmte-floyd-mayweather", label:"Boxer-Porträt: Floyd Mayweather Jr. (SO2w3)"},
         {route:"beruehmte-wladimir-klitschko", label:"Boxer-Porträt: Wladimir Klitschko (SE1w9)"},
         {route:"beruehmte-henry-maske", label:"Boxer-Porträt: Henry Maske (SE1w9)"},
+        {route:"beruehmte-mike-tyson", label:"Boxer-Porträt: Mike Tyson (SE7w8)"},
       ])}
     </div>
   `);
@@ -2884,6 +2885,80 @@ export function richyMuellerPortraitPage() {
         {route:"beruehmte-keanu-reeves", label:"Porträt: Keanu Reeves (SX9w1)"},
         {route:"beruehmte-mads-mikkelsen", label:"Porträt: Mads Mikkelsen (SX9w1)"},
       ])}
+    </div>
+  `);
+}
+
+export function mikeTysonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-mike-tyson-portrait.jpg" alt="Mike Tyson – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-mike-tyson-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Mike Tyson</p>
+        <p class="krim-portrait-typ">SE7w8 &middot; Selbsterhaltender Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Ex-Boxweltmeister im Schwergewicht, geb. 1966 &ndash; Tierentsprechung: Gorilla</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Gorilla: der Junge mit den Tauben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Gorilla</strong> hält seine Gruppe zusammen und wird gefährlich, wenn jemand sie bedroht. Mike Tyson wurde am 30. Juni 1966 in Brooklyn, New York, geboren und wuchs in rauen Vierteln wie Bedford-Stuyvesant und Brownsville auf. Nach seinen Schilderungen war er als Kind ein kräftiger, gehänselter Junge, bis ihm ältere Männer die Arbeit gaben, ihre Taubenschläge auf dem Dach zu säubern. Die Tauben retteten ihm nach eigenen Worten das Leben, bevor Cus kam.</p>
+          <p class="vb-intro">Als jemand eine seiner Tauben tötete, traute er sich zunächst nicht zu kämpfen. Ein Freund schob ihn an, er schlug zu, und der Mann ging zu Boden. Nach eigener Darstellung blieb er trotz seines Rufs auf der Straße ein schüchterner Mitläufer. Er hatte ein langes Jugendstrafregister und kam in die Tryon School for Boys. Dort fiel er dem Wärter Bobby Stewart auf, der ein Boxprogramm leitete, und der brachte ihn zu Cus D’Amato in ein Studio über der Polizeiwache in Catskill. Als Tysons Mutter starb, war er 16, und D’Amato wurde sein gesetzlicher Vormund.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sieben: Schutz durch eine Familie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wer Sicherheit sucht, baut sich eine Familie. Bei der <strong>selbsterhaltenden Sieben (SE7)</strong> geht der Hunger der Sieben nach mehr auf einen geschützten Kreis, den Claudio Naranjo die ›Familie‹ nannte. Bei Tyson wurde Cus D’Amato zu dieser Familie: Er machte die Angst zum ersten Thema des Trainings und sagte ihm, wer keine Angst habe, sei verrückt. Tyson nannte D’Amato den Grund seines Erfolgs, nicht seine Härte.</p>
+          <p class="vb-intro">Er hat über sich gesagt, er sehe sich als verängstigten, schmächtigen Jungen, und Gewalt sei sein Schutz gewesen. Er habe Angst gehabt vor anderen Kämpfern, vor Cus und vor allen. Die Sieben flieht vor dem Schmerz, und bei Tyson wurde die Flucht zur Angriffsfläche: Wer zuerst zuschlägt, muss die Angst nicht spüren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: rohe Wucht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zum <strong>Achterflügel (w8)</strong> gehört die rohe Kraft, die andere einschüchtert und ihm den Beinamen ›the Baddest Man on the Planet‹ (›der gefährlichste Mann der Welt‹) einbrachte. Seine ersten 19 Profikämpfe gewann er alle durch K. o. Gegen Michael Spinks genügten ihm 1988 genau 91 Sekunden.</p>
+          <p class="vb-intro">Hier wird auch die Kehrseite sichtbar: Die Wucht, die im Ring Ruhm brachte, richtete sich nicht immer nur gegen Gegner, die sich dafür entschieden hatten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Aufstieg, Fall und Rückkehr</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Tyson gewann 1981 und 1982 Gold bei den Junior Olympics und 1984 die New Yorker Golden Gloves. Er verlor zwei Amateurkämpfe gegen Henry Tillman, der später Olympiasieger wurde. Im März 1985 gab er sein Profidebüt. 1986 gewann er gegen Trevor Berbick den WBC-Titel und wurde mit 20 Jahren der jüngste Schwergewichts-Weltmeister. 1987 vereinte er die Titel von WBA, WBC und IBF als erster Schwergewichtler gleichzeitig. Im Februar 1990 verlor er in Tokio überraschend gegen Buster Douglas.</p>
+          <p class="vb-intro">Nach der Haft kehrte er 1995 zurück und gewann 1996 die WBC- und WBA-Titel zurück. Im selben Jahr verlor er gegen Evander Holyfield durch technischen K. o. in der elften Runde. Seine Bilanz am Ende: 50 Siege (44 durch K. o.), 7 Niederlagen und 2 nicht gewertete Kämpfe. 2011 wurde er in die International Boxing Hall of Fame aufgenommen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Vitali Klitschko und Don King</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-vitali-klitschko">Vitali Klitschko (SE7w8)</a> teilt mit Tyson den Typ und den Achterflügel: Beide haben im Ring Härte gezeigt und beide sind in ihre Kreise eingebunden. Bei Klitschko ist es das Brüderpaar, bei Tyson der Ziehvater. Der Unterschied: Klitschko wurde nie zu Boden geschlagen und hielt später Verantwortung als Politiker, Tysons Weg führte über Haft und Bankrott.</p>
+          <p class="vb-intro"><a href="#beruehmte-don-king">Don King (SE7w8)</a> war in den 1990er-Jahren Tysons Promoter und teilt den Typ, trat aber nicht im Ring, sondern mit der Veranstaltung auf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Sieben mit Achterflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Fähigkeit, sich nach Tiefschlägen zurückzukämpfen: Tyson verlor 1990 seinen Titel, kam aus der Haft zurück und holte sich 1996 zwei Gürtel. Auch das ehrliche Sprechen über die eigene Angst gehört dazu.</p>
+          <p class="vb-intro">Der Schatten ist schwer. Im Februar 1992 wurde Tyson wegen der Vergewaltigung von Desiree Washington schuldig gesprochen und zu sechs Jahren Haft verurteilt, von denen er etwa drei verbüßte. Am 28. Juni 1997 biss er Evander Holyfield in einem WM-Kampf in Las Vegas ein Stück des rechten Ohres ab, wurde disqualifiziert und verlor zeitweise die Boxlizenz, die 1998 wieder erteilt wurde. 2003 meldete er Insolvenz an, mit rund 23 Millionen Dollar Schulden. Dieses Porträt beschönigt das nicht: Wer Gewalt als Schutz gegen die eigene Angst einsetzt, verletzt am Ende andere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: vom Champion zur Legende</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Tyson verlor 2004 gegen Danny Williams und gab 2005 im Kampf gegen Kevin McBride mitten im Kampf auf. Sein letzter großer Titelkampf war 2002 die Niederlage gegen Lennox Lewis. Er trat in den Filmen ›Rocky Balboa‹ und ›The Hangover‹ auf, das Videospiel ›Mike Tyson’s Punch-Out!!‹ trägt seinen Namen. 2020 boxte er in einem Schaukampf gegen Roy Jones Jr. unentschieden, und im November 2024 verlor er nach Punkten gegen Jake Paul, in einem kommerziellen Erfolg. Er ist (Stand 24. Oktober 2026) 60 Jahre alt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se7", label:"Lebensmusterkompass: SE7 – Gorilla"},
+        {route:"beruehmte-vitali-klitschko", label:"Boxer-Porträt: Vitali Klitschko (SE7w8)"},
+        {route:"beruehmte-wladimir-klitschko", label:"Boxer-Porträt: Wladimir Klitschko (SE1w9)"},
+        {route:"beruehmte-henry-maske", label:"Boxer-Porträt: Henry Maske (SE1w9)"},
+        {route:"beruehmte-muhammad-ali", label:"Boxer-Porträt: Muhammad Ali (SO2w1)"},
+        {route:"beruehmte-floyd-mayweather", label:"Boxer-Porträt: Floyd Mayweather Jr. (SO2w3)"},
+        {route:"beruehmte-don-king", label:"Boxen: Don King (SE7w8)"},
+            ])}
     </div>
   `);
 }

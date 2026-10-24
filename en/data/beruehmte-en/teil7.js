@@ -2856,3 +2856,77 @@ export function richyMuellerPortraitPage() {
     </div>
   `);
 }
+
+export function mikeTysonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-mike-tyson-portrait.jpg" alt="Mike Tyson – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-mike-tyson-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Mike Tyson</p>
+        <p class="krim-portrait-typ">SP7w8 &middot; Self-Preservation Type 7 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">American former heavyweight boxing world champion, b. 1966 &ndash; Animal correspondence: Gorilla</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Gorilla: the boy with the pigeons</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>gorilla</strong> holds its group together and becomes dangerous when someone threatens it. Mike Tyson was born on 30 June 1966 in Brooklyn, New York, and grew up in rough neighborhoods such as Bedford-Stuyvesant and Brownsville. By his account he was a heavyset, bullied child until older men gave him the job of cleaning their pigeon coops on the roof. In his own words the pigeons saved his life before Cus came along.</p>
+          <p class="vb-intro">When someone killed one of his pigeons he at first did not dare to fight. A friend pushed him, he hit, and the man went down. By his own account he remained, despite his street reputation, a shy follower. He had a long juvenile record and ended up at the Tryon School for Boys. There he caught the eye of the guard Bobby Stewart, who ran a boxing program, and Stewart took him to Cus D&rsquo;Amato at a gym above the police station in Catskill. When Tyson&rsquo;s mother died he was 16, and D&rsquo;Amato became his legal guardian.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Seven: protection through a family</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Whoever seeks security builds a family. In the <strong>self-preservation Seven (SP7)</strong> the Seven&rsquo;s hunger for more turns to a protected circle that Claudio Naranjo called the &lsquo;family&rsquo;. In Tyson that family became Cus D&rsquo;Amato: he made fear the first subject of training and told him that whoever was not afraid was crazy. Tyson called D&rsquo;Amato the reason for his success, not his toughness.</p>
+          <p class="vb-intro">He has said that he sees himself as a scared, frail boy and that violence was his protection. He was afraid of other fighters, of Cus and of everyone. The Seven flees pain, and in Tyson the flight became attack: whoever strikes first does not have to feel the fear.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-wing: raw force</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> brings the raw power that intimidates others and earned him the nickname &lsquo;the Baddest Man on the Planet&rsquo;. He won his first 19 professional fights all by knockout. Against Michael Spinks in 1988, exactly 91 seconds were enough.</p>
+          <p class="vb-intro">Here the flip side becomes visible too: the force that brought fame in the ring was not always directed only at opponents who had chosen it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: rise, fall and return</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Tyson won gold at the Junior Olympics in 1981 and 1982 and the New York Golden Gloves in 1984. He lost two amateur bouts to Henry Tillman, who later became an Olympic champion. In March 1985 he made his professional debut. In 1986 he won the WBC title against Trevor Berbick and at 20 became the youngest heavyweight world champion. In 1987 he unified the WBA, WBC and IBF titles as the first heavyweight to hold all three at once. In February 1990 he unexpectedly lost in Tokyo to Buster Douglas.</p>
+          <p class="vb-intro">After prison he returned in 1995 and won back the WBC and WBA titles in 1996. In the same year he lost to Evander Holyfield by technical knockout in the eleventh round. His final record: 50 wins (44 by knockout), 7 losses and 2 no contests. In 2011 he was inducted into the International Boxing Hall of Fame.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Vitali Klitschko and Don King</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-vitali-klitschko">Vitali Klitschko (SP7w8)</a> shares with Tyson the type and the Eight-wing: both showed toughness in the ring and both are embedded in their circles. For Klitschko it is the pair of brothers, for Tyson the foster father. The difference: Klitschko was never knocked down and later carried responsibility as a politician; Tyson&rsquo;s path led through prison and bankruptcy.</p>
+          <p class="vb-intro"><a href="#beruehmte-don-king">Don King (SP7w8)</a> was Tyson&rsquo;s promoter in the 1990s and shares the type, but appeared not in the ring but with the event.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the self-preservation Seven with Eight-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is the ability to fight back after low blows: Tyson lost his title in 1990, came back from prison and won two belts in 1996. Speaking honestly about his own fear belongs here too.</p>
+          <p class="vb-intro">The shadow is heavy. In February 1992 Tyson was found guilty of the rape of Desiree Washington and sentenced to six years, of which he served about three. On 28 June 1997 he bit a piece off Evander Holyfield&rsquo;s right ear in a world title fight in Las Vegas, was disqualified and temporarily lost his boxing license, which was reinstated in 1998. In 2003 he filed for bankruptcy with about $23 million in debt. This portrait does not gloss over any of it: whoever uses violence as protection against his own fear ends up hurting others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: from champion to legend</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Tyson lost to Danny Williams in 2004 and quit mid-fight against Kevin McBride in 2005. His last major title fight was the 2002 defeat against Lennox Lewis. He appeared in the films &lsquo;Rocky Balboa&rsquo; and &lsquo;The Hangover&rsquo;, and the video game &lsquo;Mike Tyson&rsquo;s Punch-Out!!&rsquo; carries his name. In 2020 he drew an exhibition against Roy Jones Jr., and in November 2024 he lost on points to Jake Paul, in a commercial success. He is 60 years old (as of 24 October 2026).</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
+        {route:"lebensmusterkompass/se7", label:"Life Pattern Compass: SP7 – Gorilla"},
+        {route:"beruehmte-vitali-klitschko", label:"Boxer portrait: Vitali Klitschko (SP7w8)"},
+        {route:"beruehmte-wladimir-klitschko", label:"Boxer portrait: Wladimir Klitschko (SP1w9)"},
+        {route:"beruehmte-henry-maske", label:"Boxer portrait: Henry Maske (SP1w9)"},
+        {route:"beruehmte-muhammad-ali", label:"Boxer portrait: Muhammad Ali (SO2w1)"},
+        {route:"beruehmte-floyd-mayweather", label:"Boxer portrait: Floyd Mayweather Jr. (SO2w3)"},
+        {route:"beruehmte-don-king", label:"Boxing: Don King (SP7w8)"},
+            ])}
+    </div>
+  `);
+}

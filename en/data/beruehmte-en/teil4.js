@@ -2402,6 +2402,7 @@ export function floydMayweatherPortraitPage() {
         {route:"beruehmte-don-king", label:"Boxing: Don King (SP7w8)"},
         {route:"beruehmte-wladimir-klitschko", label:"Boxer portrait: Wladimir Klitschko (SP1w9)"},
         {route:"beruehmte-henry-maske", label:"Boxer portrait: Henry Maske (SP1w9)"},
+        {route:"beruehmte-mike-tyson", label:"Boxer portrait: Mike Tyson (SP7w8)"},
       ])}
     </div>
   `);
@@ -2972,7 +2973,8 @@ export function henryMaskePortraitPage() {
         {route:"beruehmte-floyd-mayweather", label:"Boxer portrait: Floyd Mayweather Jr. (SO2w3)"},
         {route:"beruehmte-don-king", label:"Boxing: Don King (SP7w8)"},
         {route:"beruehmte-magnus-carlsen", label:"Portrait: Magnus Carlsen (SP1w9)"},
-            ])}
+        {route:"beruehmte-mike-tyson", label:"Boxer portrait: Mike Tyson (SP7w8)"},
+      ])}
     </div>
   `);
 }

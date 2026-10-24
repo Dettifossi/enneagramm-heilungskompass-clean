@@ -2911,6 +2911,7 @@ export function wladimirKlitschkoPortraitPage() {
         {route:"beruehmte-don-king", label:"Boxen: Don King (SE7w8)"},
         {route:"beruehmte-magnus-carlsen", label:"Porträt: Magnus Carlsen (SE1w9)"},
         {route:"beruehmte-henry-maske", label:"Boxer-Porträt: Henry Maske (SE1w9)"},
+        {route:"beruehmte-mike-tyson", label:"Boxer-Porträt: Mike Tyson (SE7w8)"},
       ])}
     </div>
   `);

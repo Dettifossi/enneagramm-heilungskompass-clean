@@ -2402,6 +2402,7 @@ export function floydMayweatherPortraitPage() {
         {route:"beruehmte-don-king", label:"Boxen: Don King (SE7w8)"},
         {route:"beruehmte-wladimir-klitschko", label:"Boxer-Porträt: Wladimir Klitschko (SE1w9)"},
         {route:"beruehmte-henry-maske", label:"Boxer-Porträt: Henry Maske (SE1w9)"},
+        {route:"beruehmte-mike-tyson", label:"Boxer-Porträt: Mike Tyson (SE7w8)"},
       ])}
     </div>
   `);

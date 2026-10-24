@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2611", date: "2026-10-24", text: "Neues Porträt: Mike Tyson (SE7w8) – Box-Weltmeister im Schwergewicht.", text_en: "New portrait: Mike Tyson (SP7w8) – heavyweight boxing world champion.", route: "beruehmte-mike-tyson" },
     { version: "v2610", date: "2026-10-24", text: "Neues Porträt: Sir Patrick Stewart (SX7w8) – Schauspieler.", text_en: "New portrait: Sir Patrick Stewart (SX7w8) – actor.", route: "beruehmte-patrick-stewart" },
     { version: "v2609", date: "2026-10-24", text: "Neues Porträt: Henry Maske (SE1w9) – Olympiasieger und Box-Weltmeister.", text_en: "New portrait: Henry Maske (SP1w9) – Olympic champion and boxing world champion.", route: "beruehmte-henry-maske" },
     { version: "v2608", date: "2026-10-24", text: "Neues Porträt: Wladimir Klitschko (SE1w9) – Olympiasieger und Box-Weltmeister.", text_en: "New portrait: Wladimir Klitschko (SP1w9) – Olympic champion and boxing world champion.", route: "beruehmte-wladimir-klitschko" },
