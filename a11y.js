@@ -51,3 +51,52 @@
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start);
   else start();
 })();
+
+// Sprunglink „Zum Inhalt" und Screenreader-Ansage der Suchergebnisse.
+// Der Sprunglink ist ein Button-artiger Link ohne Hash, damit die Hash-Routen unberührt bleiben.
+(function () {
+  var EN = (document.documentElement.lang || "").indexOf("en") === 0;
+
+  function addSkipLink() {
+    if (document.querySelector(".skip-link")) return;
+    var a = document.createElement("a");
+    a.className = "skip-link";
+    a.href = "#";
+    a.textContent = EN ? "Skip to content" : "Zum Inhalt springen";
+    a.addEventListener("click", function (e) {
+      e.preventDefault();
+      var target = document.querySelector("#app main, #app h1, #app");
+      if (!target) return;
+      if (!target.hasAttribute("tabindex")) target.setAttribute("tabindex", "-1");
+      target.focus();
+    });
+    document.body.insertBefore(a, document.body.firstChild);
+  }
+
+  var live = null, last = "";
+  function announce() {
+    var box = document.getElementById("suche-ergebnisse");
+    if (!box) { last = ""; return; }
+    if (!live) {
+      live = document.createElement("div");
+      live.className = "sr-only";
+      live.setAttribute("role", "status");
+      live.setAttribute("aria-live", "polite");
+      document.body.appendChild(live);
+    }
+    var n = 0, counts = box.querySelectorAll(".suche-count");
+    for (var i = 0; i < counts.length; i++) n += parseInt(counts[i].textContent, 10) || 0;
+    var msg = n > 0 ? (EN ? n + (n === 1 ? " result" : " results") : n + (n === 1 ? " Ergebnis" : " Ergebnisse")) : (box.querySelector(".suche-hint") ? box.querySelector(".suche-hint").textContent : "");
+    if (msg && msg !== last) { last = msg; live.textContent = msg; }
+  }
+
+  var t = null;
+  function schedule() { if (t) return; t = setTimeout(function () { t = null; announce(); }, 400); }
+
+  function start() {
+    addSkipLink();
+    new MutationObserver(schedule).observe(document.getElementById("app") || document.body, { childList: true, subtree: true });
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start);
+  else start();
+})();

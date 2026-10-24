@@ -5651,7 +5651,7 @@ button.primary:active::after {
    Hover-Regeln stehen weiter oben hinter (hover: hover) and (pointer: fine),
    Druck-Rückmeldung auf Touch läuft über die gespiegelten :active-Regeln. */
 html { -webkit-tap-highlight-color: transparent; }
-html, body { overscroll-behavior: none; }
+@media (pointer: fine) { html, body { overscroll-behavior: none; } }
 button, a, [role="button"], [data-route], summary, label, select, input { touch-action: manipulation; }
 @media (pointer: coarse) {
   input:not([type="checkbox"]):not([type="radio"]):not([type="range"]), textarea, select { font-size: 16px !important; }
@@ -5753,3 +5753,15 @@ p, li, .vb-intro { text-wrap: pretty; }
 /* Namen in Neuigkeiten und im Update-Verzeichnis nie per Silbentrennung zerlegen (z. B. »Hei-ko Maas«) */
 #neuigkeiten-banner li, #neuigkeiten-banner li *,
 .typentest-card ul li, .typentest-card ul li * { hyphens: manual; -webkit-hyphens: manual; }
+
+/* Barrierefreiheit (24.10.2026): Sprunglink und Screenreader-Hinweise */
+.skip-link {
+  position: absolute; left: 0.75rem; top: -4rem; z-index: 9999;
+  padding: 0.6rem 1rem; border-radius: 8px;
+  background: var(--ink); color: var(--paper); font-size: 0.95rem; text-decoration: none;
+}
+.skip-link:focus { top: 0.75rem; outline: 2px solid var(--copper); outline-offset: 2px; }
+.sr-only {
+  position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
