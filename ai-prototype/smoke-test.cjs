@@ -179,6 +179,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-mathias-berner", label: "Neues EN-Porträt: Mathias Berner" },
   { hash: "#beruehmte-christiane-hoerbiger", label: "Neues Porträt: Christiane Hörbiger" },
   { hash: "en/#beruehmte-christiane-hoerbiger", label: "Neues EN-Porträt: Christiane Hörbiger" },
+  { hash: "#beruehmte-danielle-vasinova", label: "Neues Porträt: Danielle Vasinova" },
+  { hash: "en/#beruehmte-danielle-vasinova", label: "Neues EN-Porträt: Danielle Vasinova" },
   { hash: "#beruehmte-bradley-cooper", label: "Neues Porträt: Bradley Cooper" },
   { hash: "en/#beruehmte-bradley-cooper", label: "Neues EN-Porträt: Bradley Cooper" },
   { hash: "#beruehmte-richy-mueller", label: "Neues Porträt: Richy Müller" },

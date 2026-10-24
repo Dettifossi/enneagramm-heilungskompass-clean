@@ -1965,7 +1965,8 @@ export function sonoyaMizunoPortraitPage() {
         {route:"beruehmte-sean-connery", label:"Portrait: Sean Connery (SO3w4)"},
         {route:"beruehmte-bella-thorne", label:"Portrait: Bella Thorne (SO3w4)"},
         {route:"beruehmte-will-yun-lee", label:"Portrait: Will Yun Lee (SO3w2)"},
-        ])}
+        {route:"beruehmte-danielle-vasinova", label:"Portrait: Danielle Vasinova (SO3w4)"},
+      ])}
       </div>
     </div>
   `);
@@ -2928,6 +2929,77 @@ export function wolfgangNiedeckenPortraitPage() {
         {route:"beruehmte-juergen-klopp", label:"Portrait: Jürgen Klopp (SO1w2)"},
         {route:"beruehmte-brian-wilson", label:"Portrait: Brian Wilson (SO1w2)"},
         {route:"beruehmte-bradley-cooper", label:"Portrait: Bradley Cooper (SO1w2)"},
+            ])}
+    </div>
+  `);
+}
+
+export function danielleVasinovaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-danielle-vasinova-portrait.jpg" alt="Danielle Vasinova – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-danielle-vasinova-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Danielle Vasinova</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Social Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">American actress, model and producer &ndash; Animal correspondence: Cheetah</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Cheetah: from model to rider in front of the camera</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>cheetah</strong> waits for the decisive moment and uses it with full force. Danielle Vasinova is an actress, model and producer and lives in Los Angeles. According to reports a talent scout approached her as a teenager in a shopping mall. A New York agency signed her and she then worked as a model for about five years, with covers of &lsquo;Vogue&rsquo; and &lsquo;Harper&rsquo;s Bazaar&rsquo; among others. Sources contradict each other on date of birth and origin, so this portrait gives neither.</p>
+          <p class="vb-intro">Modeling became her way into acting. She had guest roles in &lsquo;Dexter&rsquo;, &lsquo;The Philanthropist&rsquo; and &lsquo;Rules of Engagement&rsquo; and in 2017 played the recurring role of Agent Eva Santoa in &lsquo;MacGyver&rsquo;. In the video game &lsquo;Belle&rsquo;s War&rsquo;, based on the comic &lsquo;13 Chambers&rsquo;, she is Belle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Three: standing in a big world</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The social Three seeks standing in the community and gains it through achievement, which Claudio Naranjo named &lsquo;prestige&rsquo;. For a long time Vasinova&rsquo;s weight lay on appearance in front of the camera, until she created a second footing as an actress. Her breakthrough came with two roles in the universe of series creator Taylor Sheridan: Ata Waipa in &lsquo;1923&rsquo; and Kestrel Harris in &lsquo;The Madison&rsquo;, alongside Michelle Pfeiffer and Kurt Russell. She is the only actress who appears in both series.</p>
+          <p class="vb-intro">According to reports she was close to giving up acting before the two calls came. This shows the other side of the Three: whoever draws standing from achievement feels every dry spell.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: depth and her own signature</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso and Russ Hudson call the Three with a Four-wing &lsquo;The Professional&rsquo; and the Three with a Two-wing &lsquo;The Charmer&rsquo;. The <strong>Four-wing (w4)</strong> lends the Three inwardness and the wish not to be interchangeable.</p>
+          <p class="vb-intro">In Vasinova the wing shows in the care with which she prepares roles: she wanted to do right by the Comanche women who taught her the language for the role of Ata Waipa. It also shows in the faith that, by her own account, carried her through the hardest time of her life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: riding without a double</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Vasinova describes a life in the saddle, from show jumping and dressage through saddle seat to today&rsquo;s cutting. By her own account she needs no double for her riding scenes. For &lsquo;1923&rsquo; she was flown in at short notice because another actress could not ride, and was to start the next day. Cowgirl Magazine calls her a woman who redefines the modern cowgirl.</p>
+          <p class="vb-intro">She is an ambassador of the American Wild Horse Campaign, which campaigns for wild horses.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Bella Thorne and Sonoya Mizuno</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-bella-thorne">Bella Thorne (SO3w4)</a> and <a href="#beruehmte-sonoya-mizuno">Sonoya Mizuno (SO3w4)</a> share with Vasinova type and wing: they come from appearance, but then build a signature of their own.</p>
+          <p class="vb-intro">The difference: Vasinova became known to a broad audience only through the Sheridan series.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social Three with Four-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Impressive is the perseverance: someone who almost gives up and then receives two major roles has held on where others would have quit. Her respect for the people she learns from belongs here too.</p>
+          <p class="vb-intro">The shadow side of the Three is the dependence on the success of the moment: whoever draws standing from the next job feels the pauses. This is an interpretation based on her statement that she was close to giving up.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: after the hardest time</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">At the end of 2019, by her account, Vasinova fell ill with COVID. At first she was sent home with a sore throat; the next day she was too weak to walk. Her heart stopped for three minutes, she lay in a coma and for almost a month on a ventilator. Admitted on 12 December 2019, she was released on New Year&rsquo;s Day, at 90 pounds, and had to learn to walk again. Five years later her left lung is not at full capacity, but she says she is better every day. Her faith helped her &lsquo;100 percent&rsquo;, she says, and the horses: she went to the barn even when she was too weak to ride and calls &lsquo;the healing power of horses&rsquo; a sign of a greater purpose. This portrait reproduces this by her account and contains no medical statements.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
+        {route:"lebensmusterkompass/so3", label:"Life Pattern Compass: SO3 – Cheetah"},
+        {route:"beruehmte-bella-thorne", label:"Portrait: Bella Thorne (SO3w4)"},
+        {route:"beruehmte-sonoya-mizuno", label:"Portrait: Sonoya Mizuno (SO3w4)"},
+        {route:"beruehmte-christiane-hoerbiger", label:"Portrait: Christiane Hörbiger (SO3w2)"},
             ])}
     </div>
   `);

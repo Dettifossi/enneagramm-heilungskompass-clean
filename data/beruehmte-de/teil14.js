@@ -2993,3 +2993,74 @@ export function darrenAronofskyPortraitPage() {
     </div>
   `);
 }
+
+export function danielleVasinovaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-danielle-vasinova-portrait.jpg" alt="Danielle Vasinova – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-danielle-vasinova-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Danielle Vasinova</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Sozialer Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Amerikanische Schauspielerin, Model und Produzentin &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Gepard: vom Model zur Reiterin vor der Kamera</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Gepard</strong> wartet auf den entscheidenden Augenblick und nutzt ihn mit ganzer Kraft. Danielle Vasinova ist Schauspielerin, Model und Produzentin und lebt in Los Angeles. Nach Berichten sprach ein Talentscout sie als Teenager in einem Einkaufszentrum an. Sie wurde von einer New Yorker Agentur unter Vertrag genommen und arbeitete danach etwa fünf Jahre als Model, mit Titelseiten unter anderem von ›Vogue‹ und ›Harper’s Bazaar‹. Die Quellen widersprechen sich zu Geburtsdatum und Herkunft, deshalb nennt dieses Porträt beides nicht.</p>
+          <p class="vb-intro">Das Modeln wurde für sie zum Weg zur Schauspielerei. Sie hatte Gastrollen in ›Dexter‹, ›The Philanthropist‹ und ›Rules of Engagement‹ und spielte 2017 die wiederkehrende Rolle der Agentin Eva Santoa in ›MacGyver‹. In dem Videospiel ›Belle’s War‹ nach dem Comic ›13 Chambers‹ ist sie Belle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Ansehen in einer großen Welt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die soziale Drei sucht das Ansehen in der Gemeinschaft und gewinnt es über Leistung, wie es Claudio Naranjo mit ›Prestige‹ benannte. Bei Vasinova lag das Gewicht lange auf dem Aussehen vor der Kamera, bis sie sich als Schauspielerin einen zweiten Boden schuf. Ihr Durchbruch kam mit zwei Rollen im Universum des Serienautors Taylor Sheridan: Ata Waipa in ›1923‹ und Kestrel Harris in ›The Madison‹, an der Seite von Michelle Pfeiffer und Kurt Russell. Sie ist die einzige Schauspielerin, die in beiden Serien auftritt.</p>
+          <p class="vb-intro">Nach Berichten war sie kurz davor, die Schauspielerei aufzugeben, bevor die beiden Anrufe kamen. Das zeigt die andere Seite der Drei: Wer sein Ansehen aus Leistung zieht, spürt jede Durststrecke.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Tiefe und eigene Handschrift</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> verleiht der Drei Innerlichkeit und den Wunsch, nicht austauschbar zu sein. Don Richard Riso und Russ Hudson nennen die Drei mit Viererflügel ›Den Profi‹ und die Drei mit Zweierflügel ›Den Charmeur‹.</p>
+          <p class="vb-intro">Der Flügel zeigt sich bei Vasinova in der Sorgfalt, mit der sie Rollen vorbereitet: Sie wollte den Frauen der Comanche gerecht werden, die ihr die Sprache für die Rolle der Ata Waipa beibrachten. Er zeigt sich auch in dem Glauben, der sie nach eigener Darstellung durch die schwerste Zeit ihres Lebens trug.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Reiten ohne Double</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Vasinova beschreibt ein Leben im Sattel, von Springreiten und Dressur über Saddle Seat bis zum heutigen Cutting. Sie braucht nach eigenen Angaben für ihre Reitszenen kein Double. Für ›1923‹ wurde sie kurzfristig eingeflogen, weil eine andere Darstellerin nicht reiten konnte, und sollte am nächsten Tag anfangen. Das Cowgirl Magazine nennt sie eine Frau, die das moderne Cowgirl neu definiert.</p>
+          <p class="vb-intro">Sie ist Botschafterin der American Wild Horse Campaign, die sich für Wildpferde einsetzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Bella Thorne und Sonoya Mizuno</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-bella-thorne">Bella Thorne (SO3w4)</a> und <a href="#beruehmte-sonoya-mizuno">Sonoya Mizuno (SO3w4)</a> verbinden mit Vasinova Typ und Flügel: Sie kommen aus dem Auftreten, bauen dann aber eine eigene Handschrift auf.</p>
+          <p class="vb-intro">Der Unterschied: Vasinova wurde einem breiten Publikum erst durch die Sheridan-Serien bekannt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Drei mit Viererflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Beeindruckend ist die Ausdauer: Wer fast aufgibt und dann zwei große Rollen erhält, hat durchgehalten, wo andere aufgegeben hätten. Auch ihr Respekt vor den Menschen, von denen sie lernt, gehört dazu.</p>
+          <p class="vb-intro">Die Schattenseite der Drei ist die Abhängigkeit vom Erfolg des Moments: Wer sein Ansehen aus dem nächsten Auftrag zieht, spürt die Pausen. Das ist eine Deutung nach ihrer Aussage, sie sei kurz vor dem Aufgeben gewesen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: nach der schwersten Zeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ende 2019 erkrankte Vasinova nach ihrer Schilderung an COVID. Zunächst wurde sie mit einer Halsentzündung heimgeschickt, am nächsten Tag war sie zu schwach zum Gehen. Ihr Herz stand drei Minuten still, sie lag im Koma und fast einen Monat am Beatmungsgerät. Am 12. Dezember 2019 aufgenommen, wurde sie am Neujahrstag entlassen, mit 90 Pfund und musste das Gehen neu lernen. Fünf Jahre später ist ihre linke Lunge nicht ganz leistungsfähig, doch es gehe ihr jeden Tag besser. Ihr Glaube habe ihr dabei zu ›hundert Prozent‹ geholfen, und die Pferde: Sie ging in den Stall, auch als sie zu schwach zum Reiten war, und nennt ›die heilende Kraft der Pferde‹ ein Zeichen für einen größeren Sinn. Dieses Porträt gibt das nach ihren Angaben wieder und enthält keine medizinischen Aussagen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so3", label:"Lebensmusterkompass: SO3 – Gepard"},
+        {route:"beruehmte-bella-thorne", label:"Porträt: Bella Thorne (SO3w4)"},
+        {route:"beruehmte-sonoya-mizuno", label:"Porträt: Sonoya Mizuno (SO3w4)"},
+        {route:"beruehmte-christiane-hoerbiger", label:"Porträt: Christiane Hörbiger (SO3w2)"},
+            ])}
+    </div>
+  `);
+}
