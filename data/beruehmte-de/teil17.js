@@ -3011,7 +3011,7 @@ export function patrickStewartPortraitPage() {
 
         <h2 class="vb-section">7. Stand: ein Erzähler mit Alterswerk</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 24. Oktober 2026) ist Patrick Stewart 86 Jahre alt. Er wurde 2001 zum OBE ernannt und 2010 zum Ritter geschlagen, hat zwei Olivier Awards und einen Grammy (für die Erzählung von ›Peter und der Wolf‹), und er teilt mit Hugh Jackman den Guinness-Rekord für die längste Karriere als Realdarsteller eines Marvel-Superhelden. 2023 erschien seine Autobiografie ›Making It So‹, 2026 das Hörbuch aller Sonette Shakespeares in seiner Lesung und der Film ›The Sheep Detectives‹. Er ist seit 2013 in dritter Ehe mit der Sängerin Sunny Ozell verheiratet und Tierschützer: Er nimmt über eine Rettungsorganisation in Los Angeles Hunde auf und setzt sich für Pitbulls ein.</p>
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 24. Oktober 2026) ist Patrick Stewart 86 Jahre alt. Er wurde 2001 zum OBE (Officer des Order of the British Empire, einer britischen Ehrung für besondere Verdienste) ernannt und 2010 zum Ritter geschlagen, hat zwei Olivier Awards und einen Grammy (für die Erzählung von ›Peter und der Wolf‹), und er teilt mit Hugh Jackman den Guinness-Rekord für die längste Karriere als Realdarsteller eines Marvel-Superhelden. 2023 erschien seine Autobiografie ›Making It So‹, 2026 das Hörbuch aller Sonette Shakespeares in seiner Lesung und der Film ›The Sheep Detectives‹. Er ist seit 2013 in dritter Ehe mit der Sängerin Sunny Ozell verheiratet und Tierschützer: Er nimmt über eine Rettungsorganisation in Los Angeles Hunde auf und setzt sich für Pitbulls ein.</p>
         </blockquote>
 
       </div>
