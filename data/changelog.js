@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2602", date: "2026-10-24", text: "Neues Porträt: Dr. med. Sheila de Liz (SX6w7) – Gynäkologin und Bestsellerautorin.", text_en: "New portrait: Dr. med. Sheila de Liz (SX6w7) – gynecologist and bestselling author.", route: "beruehmte-sheila-de-liz" },
     { version: "v2601", date: "2026-10-24", text: "Neues Porträt: Robert McCollum (SO7w6) – Synchronsprecher.", text_en: "New portrait: Robert McCollum (SO7w6) – voice actor.", route: "beruehmte-robert-mccollum" },
     { version: "v2600", date: "2026-10-24", text: "Neues Porträt: Darren Aronofsky (SO7w8) – Regisseur und Produzent.", text_en: "New portrait: Darren Aronofsky (SO7w8) – film director and producer.", route: "beruehmte-darren-aronofsky" },
     { version: "v2599", date: "2026-10-24", text: "Wenn Sie diese Zeilen lesen, nutzen Sie den Kompass vermutlich gern. Dann würde ich mich sehr über eine kurze Bewertung freuen: Sie hilft anderen bei der Orientierung und lässt den Kompass weiterwachsen. Hier geht es direkt zur Bewertung.", text_en: "If you are reading these lines, you probably enjoy using the Compass. In that case I would be very glad about a short review: it helps others find their way and lets the Compass keep growing. Go straight to the review form here.", route: "start|bewertungen" },

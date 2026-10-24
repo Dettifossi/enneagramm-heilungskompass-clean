@@ -2833,3 +2833,74 @@ export function christinaPlatePortraitPage() {
     </div>
   `);
 }
+
+export function sheilaDeLizPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sheila-de-liz-portrait.jpg" alt="Dr. med. Sheila de Liz – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-sheila-de-liz-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Dr. med. Sheila de Liz</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">German gynecologist and bestselling author, b. 1969 &ndash; Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Wolf: from New Jersey to Wiesbaden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>wolf</strong> faces what seems threatening and runs in a pack. Sheila Christiane de Liz was born in 1969 in New Jersey and moved to Germany at 15. She studied medicine in Mainz and is a gynecologist. In her own words she was neither the best in school nor in medical school.</p>
+          <p class="vb-intro">Since 2006 she has run her own practice for gynecology and obstetrics in Wiesbaden. According to her agency biography she is probably the best-known gynecologist in Germany; she is a mother of two.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Six: facing fear head-on</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Six lives with doubt and vigilance, and Claudio Naranjo described the <strong>sexual Six (SX6)</strong> as a countertype that answers fear not with leaning on others but with strength. In de Liz this shows in how she deals with shame. Women&rsquo;s bodies, menstruation, menopause and desire are a delicate subject for many. She speaks about them openly: in books, on YouTube, on Instagram and TikTok, in a column in the youth magazine &lsquo;Mädchen&rsquo; (&lsquo;Girls&rsquo;).</p>
+          <p class="vb-intro">She sums up her basic attitude like this: &lsquo;Schweigen ist das Schlimmste, was man machen kann&rsquo; (silence is the worst thing you can do). She traces the silence around the female body to a tradition of shame and sexualization. In her own words she sees herself more as a crusader than as an influencer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-wing: humor and lightness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the Six liveliness, humor and the desire to convey things with lightness. In de Liz it shows in the titles and the tone: &lsquo;Unverschämt: Alles über den fabelhaften weiblichen Körper&rsquo; (&lsquo;Shameless: Everything About the Fabulous Female Body&rsquo;, 2019), &lsquo;Woman On Fire: Alles über die fabelhaften Wechseljahre&rsquo; (subtitle: Everything About the Fabulous Menopause, 2020), &lsquo;Girl on Fire&rsquo; (2022). Together with the urologist Volker Wittkamp she explains questions about body and sexuality on TikTok under the name &lsquo;Doktorsex&rsquo;.</p>
+          <p class="vb-intro">The core type Six takes the way through the fear; the Seven-wing turns it into an invitation with wit, so that teenagers and people in menopause feel addressed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: education as a craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">De Liz combines medical expertise with language that needs no technical terms. She criticizes gaps in training: teachers receive only minimal training for sex education, and medical students do not learn the anatomy of the clitoris. From practice she knows the questions patients do not dare to ask, and answers them in book form. According to the publisher &lsquo;Unverschämt&rsquo; spent three months in the top ten of the Spiegel bestseller list, &lsquo;Woman On Fire&rsquo; according to her agency spent years in the top five. Next came &lsquo;Endometriose – Alles, was du wirklich wissen musst&rsquo; (&lsquo;Endometriosis – Everything You Really Need to Know&rsquo;, 2024) and &lsquo;Light My Fire&rsquo; (2026, Rowohlt).</p>
+          <p class="vb-intro">Add to that a way of working she names openly: she does everything at about 80 percent, lets the housework slide while writing books and relies on a network of helpers. She explicitly does not name perfectionism as her goal.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Dagi Bee and Anke Engelke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-dagi-bee">Dagi Bee (SX6w7)</a> shares with de Liz the directness toward a young audience and the courage to say private and delicate things. Both use social media as a stage, Dagi Bee for everyday life and relationship, de Liz for body and health.</p>
+          <p class="vb-intro"><a href="#beruehmte-anke-engelke">Anke Engelke (SX6w7)</a> shares with her the lightness with which delicate subjects are tackled, and the absorption in a community: Engelke in the ensemble, de Liz in the network of colleagues and readers.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Six with Seven-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the courage to name a taboo and in the ability to make it understandable. Someone who tells women over 40 that desire and menopause may be thought of together takes a burden off them.</p>
+          <p class="vb-intro">The shadow of this combination is the risk of hiding one&rsquo;s own vigilance behind constant effort: someone who fights on many fronts has to take care not to forget recovery. And an open tone invites headwind, which according to the available sources she does not use as a reason to retreat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: practice, books and online consultation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 24 October 2026) Sheila de Liz keeps working in her practice in Wiesbaden and offers an online hormone consultation. She keeps writing books and appears in media and social networks. This portrait limits itself to her public work; it gives no medical recommendations.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"lebensmusterkompass/sx6", label:"Life Pattern Compass: SX6 – Wolf"},
+        {route:"beruehmte-dagi-bee", label:"Portrait: Dagi Bee (SX6w7)"},
+        {route:"beruehmte-anke-engelke", label:"Portrait: Anke Engelke (SX6w7)"},
+        {route:"beruehmte-louise-hay", label:"Portrait: Louise Hay (SX6w7)"},
+            ])}
+    </div>
+  `);
+}

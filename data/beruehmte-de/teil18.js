@@ -2867,3 +2867,74 @@ export function christinaPlatePortraitPage() {
     </div>
   `);
 }
+
+export function sheilaDeLizPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sheila-de-liz-portrait.jpg" alt="Dr. med. Sheila de Liz – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-sheila-de-liz-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Dr. med. Sheila de Liz</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Deutsche Gynäkologin und Bestsellerautorin, Jahrgang 1969 &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Wolf: von New Jersey nach Wiesbaden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Wolf</strong> stellt sich dem, was bedrohlich wirkt, und läuft im Rudel. Sheila Christiane de Liz wurde 1969 in New Jersey geboren und zog mit 15 Jahren nach Deutschland. Sie studierte Medizin in Mainz und ist Frauenärztin. Nach eigenen Worten war sie weder in der Schule noch im Medizinstudium die Beste.</p>
+          <p class="vb-intro">Seit 2006 führt sie eine eigene Praxis für Gynäkologie und Geburtshilfe in Wiesbaden. Laut ihrer Agenturbiografie ist sie wohl die bekannteste Frauenärztin Deutschlands; sie ist zweifache Mutter.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der sexuelle Sechser: die Angst frontal angehen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Sechs lebt mit Zweifel und Wachsamkeit, und Claudio Naranjo beschrieb den <strong>sexuellen Sechser (SX6)</strong> als Kontratyp, der Angst nicht durch Anlehnung, sondern durch Stärke beantwortet. Bei de Liz zeigt sich das im Umgang mit Scham. Frauenkörper, Menstruation, Wechseljahre und Lust gelten vielen als heikles Thema. Sie spricht darüber offen: In Büchern, auf YouTube, auf Instagram und TikTok, in einer Kolumne in der Jugendzeitschrift ›Mädchen‹.</p>
+          <p class="vb-intro">Ihre Grundhaltung fasst sie so zusammen: ›Schweigen ist das Schlimmste, was man machen kann.‹ Das Schweigen um den weiblichen Körper führt sie auf eine Tradition von Scham und Sexualisierung zurück. Sie sieht sich nach eigenen Worten eher als Kreuzritterin denn als Influencerin.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Humor und Leichtigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der Sechs Lebendigkeit, Humor und die Lust, Dinge mit Leichtigkeit zu vermitteln. Bei de Liz zeigt er sich in den Titeln und im Ton: ›Unverschämt: Alles über den fabelhaften weiblichen Körper‹ (2019), ›Woman On Fire: Alles über die fabelhaften Wechseljahre‹ (2020), ›Girl on Fire‹ (2022). Gemeinsam mit dem Urologen Volker Wittkamp erklärt sie auf TikTok unter dem Namen ›Doktorsex‹ Fragen zu Körper und Sexualität.</p>
+          <p class="vb-intro">Der Kerntyp Sechs wählt den Weg durch die Angst hindurch, der Siebenerflügel macht daraus eine Einladung mit Witz, sodass sich auch Jugendliche und Menschen in den Wechseljahren angesprochen fühlen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Aufklärung als Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">De Liz verbindet ärztliches Fachwissen mit einer Sprache, die ohne Fremdwörter auskommt. Sie bemängelt Lücken in der Ausbildung: Lehrkräfte erhielten nur minimale Schulung für Sexualkunde, und Medizinstudierende lernten die Anatomie der Klitoris nicht. Aus der Praxis kennt sie die Fragen, die Patientinnen sich nicht zu stellen trauen, und beantwortet sie in Buchform. ›Unverschämt‹ stand nach Verlagsangabe drei Monate in den Top Ten der Spiegel-Bestsellerliste, ›Woman On Fire‹ laut Agentur über Jahre in den Top Fünf. Es folgten ›Endometriose – Alles, was du wirklich wissen musst‹ (2024) und ›Light My Fire‹ (2026, Rowohlt).</p>
+          <p class="vb-intro">Dazu kommt eine Arbeitsweise, die sie selbst offen benennt: Sie macht alles zu etwa 80 Prozent, lässt beim Bücherschreiben den Haushalt schleifen und baut auf ein Netz von Helfern. Perfektionismus nennt sie ausdrücklich nicht ihr Ziel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Dagi Bee und Anke Engelke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-dagi-bee">Dagi Bee (SX6w7)</a> teilt mit de Liz die Direktheit gegenüber einem jungen Publikum und den Mut, Privates und Heikles auszusprechen. Beide nutzen Social Media als Bühne, Dagi Bee für Alltag und Beziehung, de Liz für Körper und Gesundheit.</p>
+          <p class="vb-intro"><a href="#beruehmte-anke-engelke">Anke Engelke (SX6w7)</a> verbindet mit ihr die Leichtigkeit, mit der heikle Themen angegangen werden, und das Aufgehen in einer Gemeinschaft: Engelke im Ensemble, de Liz im Netzwerk aus Kollegen und Lesern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sexuellen Sechs mit Siebenerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt im Mut, ein Tabu beim Namen zu nennen, und in der Fähigkeit, es verständlich zu machen. Wer Frauen ab 40 sagt, dass Lust und Wechseljahre zusammen gedacht werden dürfen, nimmt ihnen eine Last ab.</p>
+          <p class="vb-intro">Der Schatten dieser Kombination ist die Gefahr, die eigene Wachsamkeit hinter dem Dauereinsatz zu verbergen: Wer an vielen Fronten kämpft, muss darauf achten, die Erholung nicht zu vergessen. Und ein offener Ton lädt zu Gegenwind ein, den sie nach der vorliegenden Quellenlage aber nicht zum Rückzug nutzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Praxis, Bücher und Online-Sprechstunde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 24. Oktober 2026) arbeitet Sheila de Liz weiter in ihrer Praxis in Wiesbaden und bietet eine Online-Hormonsprechstunde an. Sie schreibt weiter Bücher und tritt in Medien und Sozialen Netzwerken auf. Dieses Porträt beschränkt sich auf ihr öffentliches Wirken; es gibt keine medizinischen Empfehlungen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx6", label:"Lebensmusterkompass: SX6 – Wolf"},
+        {route:"beruehmte-dagi-bee", label:"Porträt: Dagi Bee (SX6w7)"},
+        {route:"beruehmte-anke-engelke", label:"Porträt: Anke Engelke (SX6w7)"},
+        {route:"beruehmte-louise-hay", label:"Porträt: Louise Hay (SX6w7)"},
+            ])}
+    </div>
+  `);
+}

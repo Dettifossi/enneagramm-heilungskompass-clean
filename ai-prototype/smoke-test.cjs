@@ -143,6 +143,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-darren-aronofsky", label: "Neues EN-Porträt: Darren Aronofsky" },
   { hash: "#beruehmte-robert-mccollum", label: "Neues Porträt: Robert McCollum" },
   { hash: "en/#beruehmte-robert-mccollum", label: "Neues EN-Porträt: Robert McCollum" },
+  { hash: "#beruehmte-sheila-de-liz", label: "Neues Porträt: Sheila de Liz" },
+  { hash: "en/#beruehmte-sheila-de-liz", label: "Neues EN-Porträt: Sheila de Liz" },
   { hash: "#beruehmte-bradley-cooper", label: "Neues Porträt: Bradley Cooper" },
   { hash: "en/#beruehmte-bradley-cooper", label: "Neues EN-Porträt: Bradley Cooper" },
   { hash: "#beruehmte-richy-mueller", label: "Neues Porträt: Richy Müller" },
