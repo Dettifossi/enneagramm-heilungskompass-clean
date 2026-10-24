@@ -11173,10 +11173,10 @@ function libraryPage() {
 
 // Text-volume estimate (section 2 below) – recalculate TEXTUMFANG_STAND and update the date
 // once several hundred more portraits have been added.
-const TEXTUMFANG_STAND = { datum: "Oct 16, 2026", woerterMio: "1.9", normseiten: "7,350", buecher: "25" };
+const TEXTUMFANG_STAND = { datum: "Oct 24, 2026", woerterMio: "2.1", normseiten: "7,980", buecher: "27" };
 // PRAXISTIPPS_ANZAHL is maintained manually (the TIPPS array is local to praxistippsHeilpraktikerPage) –
 // count it up whenever a new practice tip is added.
-const PRAXISTIPPS_ANZAHL = 18;
+const PRAXISTIPPS_ANZAHL = 19;
 
 function zahlenFaktenPage() {
   const beruehmt = BERUEHMT_PORTRAITS.length;
