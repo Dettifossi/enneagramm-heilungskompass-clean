@@ -2823,7 +2823,7 @@ export function robertMcCollumPortraitPage() {
 
         <h2 class="vb-section">3. Der Sechserflügel: Treue zur Gemeinschaft</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der Sieben Loyalität, Teamgeist und das Bedürfnis, zu einer Gruppe zu gehören. Bei McCollum zeigt sich das in der Verbundenheit mit der Anime-Gemeinde: Er unterschreibt auf Conventions für Fans, zuletzt 2025 bei einer öffentlichen Signierstunde auf der New York Comic Con, und er bezeichnet sich selbst als ›proud trans ally‹ – stolzer Verbündeter von trans Menschen. Ein Teil seiner Einnahmen auf Conventions geht an ›Anime Stands Up For All‹, eine Spendenaktion für die Bürgerrechtsorganisation Lambda Legal.</p>
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der Sieben Loyalität, Teamgeist und das Bedürfnis, zu einer Gruppe zu gehören. Bei McCollum zeigt sich das in der Verbundenheit mit der Anime-Gemeinde: Er unterschreibt auf Conventions für Fans, zuletzt 2025 bei einer öffentlichen Signierstunde auf der New York Comic Con, und er bezeichnet sich selbst als ›proud trans ally‹ – stolzer Verbündeter von Transmenschen. Ein Teil seiner Einnahmen auf Conventions geht an ›Anime Stands Up For All‹, eine Spendenaktion für die Bürgerrechtsorganisation Lambda Legal.</p>
           <p class="vb-intro">Der Kerntyp Sieben ist beweglich und sucht die nächste Rolle, der Sechserflügel bindet ihn an die Menschen, die diese Rollen gemeinsam mit ihm lebendig halten.</p>
         </blockquote>
 
