@@ -1553,6 +1553,7 @@ export function thomasGottschalkPortraitPage() {
         {route:"beruehmte-rudi-carrell", label:"Porträt: Rudi Carrell (SX7w6)"},
         {route:"beruehmte-atze-schroeder", label:"Porträt: Atze Schröder (SX7w6)"},
         {route:"beruehmte-patrick-stewart", label:"Porträt: Sir Patrick Stewart (SX7w8)"},
+        {route:"beruehmte-joerg-pilawa", label:"Porträt: Jörg Pilawa (SX7w6)"},
       ])}
     </div>
   `);
@@ -2916,6 +2917,7 @@ export function atzeSchroederPortraitPage() {
         {route:"beruehmte-rudi-carrell", label:"Porträt: Rudi Carrell (SX7w6)"},
         {route:"beruehmte-jerry-lewis", label:"Porträt: Jerry Lewis (SX7w6)"},
         {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
+        {route:"beruehmte-joerg-pilawa", label:"Porträt: Jörg Pilawa (SX7w6)"},
       ])}
     </div>
   `);

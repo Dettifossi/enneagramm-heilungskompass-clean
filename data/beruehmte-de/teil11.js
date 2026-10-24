@@ -2912,3 +2912,74 @@ export function henryMaskePortraitPage() {
     </div>
   `);
 }
+
+export function joergPilawaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-joerg-pilawa-portrait.jpg" alt="Jörg Pilawa – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-joerg-pilawa-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Jörg Pilawa</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexueller Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Fernsehmoderator, geb. 1965 &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Schimpanse: der Hamburger, der immer weiterzog</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Schimpanse</strong> probiert aus, spielt und zieht weiter, sobald etwas Neues lockt. Jörg Pilawa wurde am 7. September 1965 in Hamburg als Sohn eines Ingenieurs geboren und besuchte das Gymnasium Hamburg-Hummelsbüttel. Nach dem Wunsch der Eltern begann er ein Medizinstudium, das er nach sechs Semestern abbrach. Nach seiner Aussage war es eher der Wunsch seiner Mutter. Als er 16 oder 18 war (die Quellen widersprechen sich), erkrankte sein Vater an einem Hirntumor.</p>
+          <p class="vb-intro">1987 verbrachte er ein Jahr in einem landwirtschaftlichen Kibbuz in Israel und verließ ihn, als er zu Militärdienst eingeteilt wurde. Danach begann er ein Studium der Geschichte mit Schwerpunkt Judentum sowie Soziologie und Politikwissenschaft, das er nicht abschloss. Schon als Student berichtete er für das Hamburger Campusradio ›Korah‹ über die Bundesliga, und ab 1987 arbeitete er beim Radio Schleswig-Holstein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der sexuelle Siebener: Beweglichkeit und Leichtigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die sexuelle Sieben nannte Claudio Naranjo ›Suggestibilität‹: Sie lässt sich von dem begeistern, was gerade ruft, und gibt sich ihm mit Haut und Haar hin. Bei Pilawa lässt sich das an seinem Lebenslauf ablesen. 1993 wurde er Nachrichtenredakteur bei der Bundesligasendung ›ran‹, 1994 ging er zu ProSieben, dann zu Sat.1, 2001 zur ARD mit ›Das Quiz mit Jörg Pilawa‹ und der ›NDR Talk Show‹, 2010 zum ZDF mit ›Rette die Million!‹ und 2014 zurück zur ARD mit ›Quizduell‹ bis 2022. Seitdem moderiert er bei Sat.1 ›Das 1-%-Quiz‹ und ›Das große Allgemeinwissensquiz‹.</p>
+          <p class="vb-intro">Dazu kamen eigene Unternehmungen: 2001 gründete er die Produktionsfirma White Balance und verkaufte sie 2005, von 2006 bis 2015 war er Mitinhaber des Herrenausstatters ›herrensache‹, und 2020 startete er eine kostenlose Quiz-Website. Er sagt, er komme ursprünglich aus den Informationsmedien, habe Magazine und Sport gemacht und sich dann für die Unterhaltung entschieden, denn Fernsehen solle unterhalten und entspannen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Verlässlichkeit gegenüber Publikum und Familie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso und Russ Hudson nennen die Sieben mit Sechserflügel ›Den Entertainer‹. Der <strong>Sechserflügel (w6)</strong> sorgt dafür, dass die bewegliche Sieben Anschluss und Verlässlichkeit sucht. Bei Pilawa zeigt er sich im Verhältnis zum Publikum: Er sagt, den Zuschauer über die Quote ernst zu nehmen sei Teil seiner Aufgabe, denn er wolle sich als Programmmacher nicht von den Zuschauern lösen.</p>
+          <p class="vb-intro">Er unterstützt seit 2006 die Welthungerhilfe und ist Botschafter mehrerer Organisationen, darunter ›Schau hin!‹, die Deutsche Rheuma-Liga, Tafeln Deutschland und der Verein wünschdirwas, der Herzenswünsche schwer kranker Kinder erfüllt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Insel, Auszeit und die Lust am Neuen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2009 kaufte Pilawa die kleine Hunt Island im Ponhook Lake in Nova Scotia, Kanada, rund 36.000 Quadratmeter groß, die er zeitweise an bis zu sechs Personen vermietet. 2010 kündigte er eine Auszeit an. Später berichtete er, dass er mit seiner Familie monatelang durch Neuseeland, die Südsee und Kanada gereist sei, um einem Burn-out zu entgehen. Viele Jahre erholte er sich außerdem im Ferienhaus der Familie auf Amrum.</p>
+          <p class="vb-intro">Beruflich gewann er die Goldene Kamera (2006) und wurde 2002 für den Deutschen Fernsehpreis nominiert. Sein Rückzug von Sendern und seine Auswahl von Formaten zeigen den Wunsch, zu bestimmen, was er macht: 2022 verließ er die öffentlich-rechtliche Welt und ging zu Sat.1, nach t-online eine eigene Entscheidung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Thomas Gottschalk und Atze Schröder</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-thomas-gottschalk">Thomas Gottschalk (SX7w6)</a> ist wie Pilawa ein Entertainer, der das Publikum durch Leichtigkeit gewinnt und Sender wechselt. Beide wirken jünger, als sie sind. <a href="#beruehmte-atze-schroeder">Atze Schröder (SX7w6)</a> verbindet mit ihm den Humor und die Bühne.</p>
+          <p class="vb-intro">Der Unterschied: Gottschalk lebt vom großen Auftritt, Pilawa vom ruhigeren Spiel mit dem Quiz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten des sexuellen Siebeners mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Fähigkeit, Unterhaltung zu machen, ohne das Publikum zu überfordern, und immer wieder Neues zu wagen: Wer Studien, Sender und Unternehmen wechselt und dabei im Beruf Erfolg hat, bleibt beweglich. Auch sein Einsatz für Kinder gehört dazu.</p>
+          <p class="vb-intro">Die Schattenseite der Sieben ist die Überforderung durch zu viele Aufgaben, die in seinem Fall als Burn-out beschrieben ist. Dass er seit Jahren keine Presse mehr lese, sagt er in einem Interview, ein Zeichen, dass Kritik ihm zu viel wird. Dieses Porträt gibt das nach seinen Angaben wieder.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Quiz, Familie und Hamburg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Pilawa ist (Stand 24. Oktober 2026) 61 Jahre alt und lebte zuletzt in Hamburg-Bergedorf. Er war dreimal verheiratet und hat mehrere Kinder, 2022 trennte er sich, und im August 2025 wurde eine neue Beziehung bekannt, über die das Paar öffentlich nicht spricht. Als Glück nennt er alltägliche Momente, etwa einen Atemzug an der Nordsee oder ein Lachen am Küchentisch.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx7", label:"Lebensmusterkompass: SX7 – Schimpanse"},
+        {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
+        {route:"beruehmte-atze-schroeder", label:"Porträt: Atze Schröder (SX7w6)"},
+        {route:"beruehmte-johannes-b-kerner", label:"Porträt: Johannes B. Kerner (SO3w2)"},
+            ])}
+    </div>
+  `);
+}

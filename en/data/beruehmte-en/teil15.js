@@ -2935,3 +2935,74 @@ export function vitaliKlitschkoPortraitPage() {
     </div>
   `);
 }
+
+export function joergPilawaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-joerg-pilawa-portrait.jpg" alt="Jörg Pilawa – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-joerg-pilawa-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Jörg Pilawa</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">German television presenter, b. 1965 &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Chimpanzee: the Hamburger who kept moving on</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>chimpanzee</strong> tries things out, plays and moves on as soon as something new beckons. Jörg Pilawa was born on 7 September 1965 in Hamburg, the son of an engineer, and attended the Gymnasium Hamburg-Hummelsbüttel. At his parents&rsquo; wish he began studying medicine, which he dropped after six semesters. By his own statement it was more his mother&rsquo;s wish. When he was 16 or 18 (the sources contradict each other) his father fell ill with a brain tumor.</p>
+          <p class="vb-intro">In 1987 he spent a year on an agricultural kibbutz in Israel and left it when he was assigned to military duty. Afterwards he began studying history with a focus on Judaism as well as sociology and political science, which he did not complete. Already as a student he reported on the Bundesliga for the Hamburg campus radio &lsquo;Korah&rsquo;, and from 1987 he worked at Radio Schleswig-Holstein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Seven: mobility and lightness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the sexual Seven &lsquo;suggestibility&rsquo;: it lets itself be fired up by whatever calls at the moment and gives itself to it body and soul. In Pilawa this can be read from his résumé. In 1993 he became a news editor at the Bundesliga show &lsquo;ran&rsquo;, in 1994 he went to ProSieben, then to Sat.1, in 2001 to ARD with &lsquo;Das Quiz mit Jörg Pilawa&rsquo; and the &lsquo;NDR Talk Show&rsquo;, in 2010 to ZDF with &lsquo;Rette die Million!&rsquo; and in 2014 back to ARD with &lsquo;Quizduell&rsquo; until 2022. Since then he has hosted &lsquo;Das 1-%-Quiz&rsquo; and &lsquo;Das große Allgemeinwissensquiz&rsquo; on Sat.1.</p>
+          <p class="vb-intro">Added to this were ventures of his own: in 2001 he founded the production company White Balance and sold it in 2005, from 2006 to 2015 he was co-owner of the menswear shop &lsquo;herrensache&rsquo;, and in 2020 he launched a free quiz website. He says he originally comes from information media, made magazines and sport and then decided on entertainment, because television should entertain and relax.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: reliability toward audience and family</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso and Russ Hudson call the Seven with a Six-wing &lsquo;The Entertainer&rsquo;. The <strong>Six-wing (w6)</strong> makes sure the mobile Seven seeks connection and reliability. In Pilawa it shows in his relationship with the audience: he says that taking the viewer seriously through ratings is part of his task, because as a program maker he does not want to detach himself from the viewers.</p>
+          <p class="vb-intro">He has supported the Welthungerhilfe (World Hunger Help) since 2006 and is an ambassador of several organizations, among them &lsquo;Schau hin!&rsquo;, the Deutsche Rheuma-Liga, Tafeln Deutschland and the association wünschdirwas, which fulfills heartfelt wishes of seriously ill children.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: island, time-out and the joy of the new</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2009 Pilawa bought the small Hunt Island in Ponhook Lake in Nova Scotia, Canada, about 36,000 square meters, which he occasionally rents to up to six people. In 2010 he announced a time-out. Later he reported that he had traveled with his family for months through New Zealand, the South Seas and Canada to escape a burn-out. For many years he also recovered in the family holiday home on Amrum.</p>
+          <p class="vb-intro">Professionally he won the Goldene Kamera (2006) and was nominated for the Deutscher Fernsehpreis in 2002. His withdrawal from broadcasters and his choice of formats show the wish to determine what he does: in 2022 he left the public-broadcasting world and went to Sat.1, according to t-online his own decision.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Thomas Gottschalk and Atze Schröder</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-thomas-gottschalk">Thomas Gottschalk (SX7w6)</a> is, like Pilawa, an entertainer who wins the audience through lightness and changes channels. Both appear younger than they are. <a href="#beruehmte-atze-schroeder">Atze Schröder (SX7w6)</a> shares with him the humor and the stage.</p>
+          <p class="vb-intro">The difference: Gottschalk lives on the grand appearance, Pilawa on the quieter play with the quiz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Seven with Six-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is the ability to make entertainment without overburdening the audience and to keep daring something new: someone who changes studies, broadcasters and businesses and succeeds professionally stays mobile. His commitment for children belongs here too.</p>
+          <p class="vb-intro">The shadow side of the Seven is overload from too many tasks, which in his case is described as burn-out. That he has not read the press for years he says in an interview, a sign that criticism becomes too much for him. This portrait reproduces that by his own statements.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: quiz, family and Hamburg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Pilawa is 61 years old (as of 24 October 2026) and most recently lived in Hamburg-Bergedorf. He was married three times and has several children, separated in 2022, and in August 2025 a new relationship became known, about which the couple does not speak publicly. As happiness he names everyday moments, such as a breath at the North Sea or laughter at the kitchen table.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
+        {route:"beruehmte-thomas-gottschalk", label:"Portrait: Thomas Gottschalk (SX7w6)"},
+        {route:"beruehmte-atze-schroeder", label:"Portrait: Atze Schröder (SX7w6)"},
+        {route:"beruehmte-johannes-b-kerner", label:"Portrait: Johannes B. Kerner (SO3w2)"},
+            ])}
+    </div>
+  `);
+}

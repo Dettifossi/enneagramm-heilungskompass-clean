@@ -185,6 +185,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-franziska-van-almsick", label: "Neues EN-Porträt: Franziska van Almsick" },
   { hash: "#beruehmte-johannes-b-kerner", label: "Neues Porträt: Johannes B. Kerner" },
   { hash: "en/#beruehmte-johannes-b-kerner", label: "Neues EN-Porträt: Johannes B. Kerner" },
+  { hash: "#beruehmte-joerg-pilawa", label: "Neues Porträt: Jörg Pilawa" },
+  { hash: "en/#beruehmte-joerg-pilawa", label: "Neues EN-Porträt: Jörg Pilawa" },
   { hash: "#beruehmte-bradley-cooper", label: "Neues Porträt: Bradley Cooper" },
   { hash: "en/#beruehmte-bradley-cooper", label: "Neues EN-Porträt: Bradley Cooper" },
   { hash: "#beruehmte-richy-mueller", label: "Neues Porträt: Richy Müller" },

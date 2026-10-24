@@ -1555,6 +1555,7 @@ export function thomasGottschalkPortraitPage() {
         {route:"beruehmte-rudi-carrell", label:"Portrait: Rudi Carrell (SX7w6)"},
         {route:"beruehmte-atze-schroeder", label:"Portrait: Atze Schröder (SE7w6)"},
         {route:"beruehmte-patrick-stewart", label:"Portrait: Sir Patrick Stewart (SX7w8)"},
+        {route:"beruehmte-joerg-pilawa", label:"Portrait: Jörg Pilawa (SX7w6)"},
       ])}
     </div>
   `);

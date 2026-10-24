@@ -2838,6 +2838,7 @@ export function atzeSchroederPortraitPage() {
         {route:"beruehmte-rudi-carrell", label:"Portrait: Rudi Carrell (SX7w6)"},
         {route:"beruehmte-jerry-lewis", label:"Portrait: Jerry Lewis (SX7w6)"},
         {route:"beruehmte-thomas-gottschalk", label:"Portrait: Thomas Gottschalk (SX7w6)"},
+        {route:"beruehmte-joerg-pilawa", label:"Portrait: Jörg Pilawa (SX7w6)"},
       ])}
     </div>
   `);

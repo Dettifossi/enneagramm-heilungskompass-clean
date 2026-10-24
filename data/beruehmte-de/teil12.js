@@ -3013,7 +3013,8 @@ export function johannesBKernerPortraitPage() {
         {route:"beruehmte-kai-pflaume", label:"Porträt: Kai Pflaume (SX3w2)"},
         {route:"beruehmte-christiane-hoerbiger", label:"Porträt: Christiane Hörbiger (SO3w2)"},
         {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
-            ])}
+        {route:"beruehmte-joerg-pilawa", label:"Porträt: Jörg Pilawa (SX7w6)"},
+      ])}
     </div>
   `);
 }
