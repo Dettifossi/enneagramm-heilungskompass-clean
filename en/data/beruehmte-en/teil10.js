@@ -2901,6 +2901,14 @@ export function mathiasBernerPortraitPage() {
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      <a class="book-tip" href="https://www.amazon.de/dp/3910521002?tag=enneagrammkom-21" target="_blank" rel="noopener sponsored">
+        <span class="book-tip__icon">\ud83d\udcd6</span>
+        <div class="book-tip__text">
+          <strong>Book tip: \u00bbHeartMillionaire\u00ab (affiliate link)</strong>
+          <span>Mathias Berner&rsquo;s autobiography: his way through loss and new beginning, by his own account.</span>
+        </div>
+        <span class="book-tip__arrow">\u2192</span>
+      </a>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},

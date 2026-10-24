@@ -2903,6 +2903,14 @@ export function mathiasBernerPortraitPage() {
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      <a class="book-tip" href="https://www.amazon.de/dp/3910521002?tag=enneagrammkom-21" target="_blank" rel="noopener sponsored">
+        <span class="book-tip__icon">\ud83d\udcd6</span>
+        <div class="book-tip__text">
+          <strong>Buchtipp: \u00bbHeartMillionaire\u00ab (Werbelink)</strong>
+          <span>Mathias Berners Autobiografie: sein Weg durch Verlust und Neuanfang, nach eigener Darstellung.</span>
+        </div>
+        <span class="book-tip__arrow">\u2192</span>
+      </a>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
