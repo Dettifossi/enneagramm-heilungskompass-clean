@@ -2840,14 +2840,14 @@ export function lanceOppenheimPortraitPage() {
 
         <h2 class="vb-section">2. The social Seven: the view on the community</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Seven flees pain into enthusiasm, and Claudio Naranjo described the <strong>social Seven (SO7)</strong> as the subtype of sacrifice: the fun steps back behind the cause, and the Seven puts their talent at the service of a group. In Oppenheim this shows in his pointing the camera at communities. His debut &lsquo;Some Kind of Heaven&rsquo; (2020) follows residents of The Villages, a huge retirement community in Florida. The film began as his senior thesis at Harvard University, was produced by <a href="#beruehmte-darren-aronofsky">Darren Aronofsky (SO7w8)</a> and the &lsquo;New York Times&rsquo;, premiered at the Sundance Festival and was acquired by Magnolia Pictures.</p>
+          <p class="vb-intro">The fun steps back behind the cause, and the Seven puts their talent at the service of a group: that is why Claudio Naranjo described the <strong>social Seven (SO7)</strong> as the subtype of sacrifice. In Oppenheim this shows in his pointing the camera at communities. His debut &lsquo;Some Kind of Heaven&rsquo; (2020) follows residents of The Villages, a huge retirement community in Florida. The film began as his senior thesis at Harvard University, was produced by <a href="#beruehmte-darren-aronofsky">Darren Aronofsky (SO7w8)</a> and the &lsquo;New York Times&rsquo;, premiered at the Sundance Festival and was acquired by Magnolia Pictures.</p>
           <p class="vb-intro">More films about groups followed: &lsquo;Spermworld&rsquo; (2024, premiered at the True/False festival, later on FX, Disney+ and Hulu) and the HBO series &lsquo;Ren Faire&rsquo; (2024, premiered at SXSW) about the Texas Renaissance Festival. In 2023 he was on the Forbes &lsquo;30 Under 30&rsquo; list.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Six-wing: collaboration and loyalty to the cause</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Seven loyalty, team spirit and the need for reliable partners. In Oppenheim it shows in the way he works: with producers and collaborators such as Darren Aronofsky, with the production company Elara Pictures on &lsquo;Ren Faire&rsquo; and in 2026 with Nathan Fielder as co-director of &lsquo;You Can See Everything&rsquo;, a film about Elizabeth Holmes. In 2025 he was also a producer of &lsquo;The Python Hunt&rsquo;, directed by Xander Robin.</p>
-          <p class="vb-intro">The core type Seven is curious and mobile, the Six-wing makes sure he stays reliable in teams.</p>
+          <p class="vb-intro">The Seven owes to the <strong>Six-wing (w6)</strong> loyalty, team spirit and the need for reliable partners. In Oppenheim it shows in the way he works: with producers and collaborators such as Darren Aronofsky, with the production company Elara Pictures on &lsquo;Ren Faire&rsquo; and in 2026 with Nathan Fielder as co-director of &lsquo;You Can See Everything&rsquo;, a film about Elizabeth Holmes. In 2025 he was also a producer of &lsquo;The Python Hunt&rsquo;, directed by Xander Robin.</p>
+          <p class="vb-intro">The Seven stays curious and mobile, and the Six-wing makes sure he stays reliable in teams.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The substance: reality with form</h2>
@@ -2864,13 +2864,13 @@ export function lanceOppenheimPortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow of the social Seven with a Six-wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light lies in curiosity, mobility and the readiness to leave the stage to others. Someone who films retirement communities, donor communities and medieval festivals with the same attention shows interest in people and not only in effects.</p>
-          <p class="vb-intro">The shadow of this combination is the danger of spreading oneself across ever new projects and never staying with one. Someone who at thirty already has two series, a documentary, a co-directed film and a feature to their name has to watch that depth keeps pace with breadth.</p>
+          <p class="vb-intro">Curiosity, mobility and the readiness to leave the stage to others shine here. Someone who films retirement communities, donor communities and medieval festivals with the same attention shows interest in people and not only in effects.</p>
+          <p class="vb-intro">The risk is spreading oneself across ever new projects and never staying with one. Someone who at thirty already has two series, a documentary, a co-directed film and a feature to their name has to watch that depth keeps pace with breadth.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Status: from documentary to feature film</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to the available information (as of 24 October 2026) Lance Oppenheim is 30 years old, has been married to Abigail Rowe since 2025 and has a child. With &lsquo;Primetime&rsquo; and &lsquo;You Can See Everything&rsquo; (both 2026) he moves between feature film and documentary.</p>
+          <p class="vb-intro">On 24 October 2026, Lance Oppenheim is 30 years old, has been married to Abigail Rowe since 2025 and has a child. With &lsquo;Primetime&rsquo; and &lsquo;You Can See Everything&rsquo; (both 2026) he moves between feature film and documentary.</p>
         </blockquote>
 
       </div>

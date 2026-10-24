@@ -2791,14 +2791,14 @@ export function katharinaKoenigPortraitPage() {
 
         <h2 class="vb-section">2. The sexual Three: visibility as a means</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Three lives on impact, and Claudio Naranjo described the <strong>sexual Three (SX3)</strong> as the subtype of femininity or masculinity: radiance, presence and the ability to reach others. In Katharina König this shows in the fact that she does not hide her illness but shows it. In October 2022 she made her story public on TikTok. Since then she has spoken in videos and interviews and, for example, appeared at a demonstration in Kassel on 23 March 2025.</p>
+          <p class="vb-intro">Radiance, presence and the ability to reach others: that is the core of the <strong>sexual Three (SX3)</strong>, which Claudio Naranjo called the subtype of femininity or masculinity. In Katharina König this shows in the fact that she does not hide her illness but shows it. In October 2022 she made her story public on TikTok. Since then she has spoken in videos and interviews and, for example, appeared at a demonstration in Kassel on 23 March 2025.</p>
           <p class="vb-intro">The Three seeks success, and her goal too has a form: according to the available reports she initiated, together with the lawyer Tobias Ulbrich, about 200 criminal complaints against BioNTech and the Paul-Ehrlich-Institut. The legal position and outcome of such proceedings are not the focus here. It is about the attitude: turning being affected into a project.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two-wing: giving others a voice</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the Three attentiveness and the wish to be there for others. In Katharina König it shows in her saying that she wants to give other affected people a voice because many do not go public out of fear, and that she wants to educate doctors. She states that since her first video about 500,000 further affected people have contacted her and her lawyer. This figure comes from her and has not been independently verified.</p>
-          <p class="vb-intro">The core type Three strives for impact, the Two-wing puts this impact at the service of others.</p>
+          <p class="vb-intro">With the <strong>Two-wing (w2)</strong> come attentiveness and the wish to be there for others. In Katharina König it shows in her saying that she wants to give other affected people a voice because many do not go public out of fear, and that she wants to educate doctors. She states that since her first video about 500,000 further affected people have contacted her and her lawyer. This figure comes from her and has not been independently verified.</p>
+          <p class="vb-intro">The Three seeks impact, and the Two-wing puts this impact at the service of others.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The substance: an experience that seeks a hearing</h2>
@@ -2816,13 +2816,13 @@ export function katharinaKoenigPortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow of the sexual Three with a Two-wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light lies in the courage to show oneself and in the stamina with which she keeps speaking and acting despite physical limitation. Someone who is ill and yet answers to the public shows strength.</p>
-          <p class="vb-intro">The shadow of this combination is the dependence on attention: someone who carries a topic publicly is hit by approval and rejection and claimed by both sides. By her own account she also depends on financial support. The anger she describes as a source of strength (so the headline of an interview) can both carry and consume.</p>
+          <p class="vb-intro">Strong are the courage to show oneself and the stamina with which she keeps speaking and acting despite physical limitation. Someone who is ill and yet answers to the public shows strength.</p>
+          <p class="vb-intro">Difficult is the dependence on attention: someone who carries a topic publicly is hit by approval and rejection and claimed by both sides. By her own account she also depends on financial support. The anger she describes as a source of strength (so the headline of an interview) can both carry and consume.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Status: videos, complaints, appearances</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to the available information (as of 24 October 2026) Katharina König remains publicly active with videos, interviews and appearances and pursues legal steps with her lawyer. No reliable information about case numbers or the outcome of her own proceedings is available. That severe vaccine consequences can occur with any vaccination is beyond question and is documented by the reporting systems of the medicines authorities. For her diagnoses and operations no independently verifiable documents are available; the portrait rests on her statements as reported in videos and in predominantly vaccine-critical media (Epoch Times, blogs).</p>
+          <p class="vb-intro">As of 24 October 2026, Katharina König remains publicly active with videos, interviews and appearances and pursues legal steps with her lawyer. No reliable information about case numbers or the outcome of her own proceedings is available. That severe vaccine consequences can occur with any vaccination is beyond question and is documented by the reporting systems of the medicines authorities. For her diagnoses and operations no independently verifiable documents are available; the portrait rests on her statements as reported in videos and in predominantly vaccine-critical media (Epoch Times, blogs).</p>
         </blockquote>
 
       </div>

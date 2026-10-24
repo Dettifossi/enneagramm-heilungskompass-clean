@@ -2942,14 +2942,14 @@ export function hagenRetherPortraitPage() {
 
         <h2 class="vb-section">2. Die Selbsterhaltungs-Drei: Können statt Glänzen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Drei strebt nach Erfolg, und die <strong>selbsterhaltende Drei (SE3)</strong> ist nach Claudio Naranjo der Kontratyp der Drei und steht für Sicherheit: Sie zeigt ihre Leistung nicht auf der Bühne vor, sondern baut Substanz auf. Bei Rether zeigt sich das in der Art seiner Auftritte. Seit 2003 spielt er sein Solo-Programm ›Liebe‹, das er laufend aktualisiert. Die Bühne ist fast leer: ein schwarzer Flügel, ein Bürostuhl, ein Wasserglas, ein Putztuch, mitunter Bananen. Während des Abends putzt er den Flügel.</p>
+          <p class="vb-intro">Wo die Drei sonst glänzen will, baut die <strong>selbsterhaltende Drei (SE3)</strong> lieber still Substanz auf: Claudio Naranjo ordnete sie als Kontratyp ein, dem Sicherheit wichtiger ist als der große Auftritt. Bei Rether zeigt sich das in der Art seiner Auftritte. Seit 2003 spielt er sein Solo-Programm ›Liebe‹, das er laufend aktualisiert. Die Bühne ist fast leer: ein schwarzer Flügel, ein Bürostuhl, ein Wasserglas, ein Putztuch, mitunter Bananen. Während des Abends putzt er den Flügel.</p>
           <p class="vb-intro">Die Abende sind lang, bis zu dreieinhalb Stunden, und leben vom Plauderton und von überraschenden Vergleichen statt von Pointenfeuerwerk. Er verknüpft aktuelle Themen mit der Geschichte und verlässt sich auf Material und Geduld.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Zweierflügel: Anteilnahme und Engagement</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der Drei Wärme, Zuwendung und den Wunsch, für andere da zu sein. Bei Rether zeigt er sich im Engagement außerhalb der Bühne: Er ist seit 2002 Mitglied von Attac und Mitglied von Amnesty International und unterstützt die Frauenrechtsorganisation Medica mondiale. Er lebt vegan und kritisiert in seinem Programm unter anderem Massentierhaltung, die katholische Kirche, die US-Politik und wachsende Islamfeindlichkeit.</p>
-          <p class="vb-intro">Der Kerntyp Drei arbeitet auf Wirkung hin, der Zweierflügel richtet diese Wirkung auf die Menschen im Saal und auf die Welt außerhalb.</p>
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> färbt die Drei mit Wärme und dem Wunsch, für andere da zu sein. Bei Rether zeigt er sich im Engagement außerhalb der Bühne: Er ist seit 2002 Mitglied von Attac und Mitglied von Amnesty International und unterstützt die Frauenrechtsorganisation Medica mondiale. Er lebt vegan und kritisiert in seinem Programm unter anderem Massentierhaltung, die katholische Kirche, die US-Politik und wachsende Islamfeindlichkeit.</p>
+          <p class="vb-intro">Die Drei arbeitet auf Wirkung hin, und der Zweierflügel lenkt sie auf die Menschen im Saal und auf die Welt draußen.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: Kabarett mit Klavier</h2>
@@ -2966,13 +2966,13 @@ export function hagenRetherPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Drei mit Zweierflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt im Durchhaltevermögen: Wer über zwei Jahrzehnte dasselbe Programm pflegt und weiterentwickelt, baut mit Geduld statt mit Glanz. Dass er Engagement außerhalb der Bühne lebt, zeigt den Zweierflügel.</p>
-          <p class="vb-intro">Der Schatten dieser Kombination ist die Moral, die belehrend wirken kann. Eine Kritik aus der Schweiz (›Sadismus mit der Moralkeule‹) sieht in seiner moralischen Zuspitzung ein Problem. Die Drei will überzeugen, und der Zweierflügel will helfen; zusammen kann das für Zuhörer anstrengend werden, wenn der Abend lang ist und die Haltung keinen Widerspruch zulässt.</p>
+          <p class="vb-intro">Bemerkenswert ist das Durchhaltevermögen: Wer über zwei Jahrzehnte dasselbe Programm pflegt und weiterentwickelt, baut mit Geduld statt mit Glanz. Dass er Engagement außerhalb der Bühne lebt, zeigt den Zweierflügel.</p>
+          <p class="vb-intro">Die Kehrseite dieser Kombination ist die Moral, die belehrend wirken kann. Eine Kritik aus der Schweiz (›Sadismus mit der Moralkeule‹) sieht in seiner moralischen Zuspitzung ein Problem. Die Drei will überzeugen, und der Zweierflügel will helfen; zusammen kann das für Zuhörer anstrengend werden, wenn der Abend lang ist und die Haltung keinen Widerspruch zulässt.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Stand: ein Programm, das mit der Zeit geht</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 24. Oktober 2026) ist Hagen Rether 57 Jahre alt und lebt in Essen. ›Liebe‹ ist weiter sein Programm und wird je nach Lage angepasst. Über sein Privatleben ist wenig öffentlich dokumentiert; dieses Porträt beschränkt sich auf sein öffentliches Wirken.</p>
+          <p class="vb-intro">Hagen Rether ist (Stand 24. Oktober 2026) 57 Jahre alt und lebt in Essen. ›Liebe‹ ist weiter sein Programm und wird je nach Lage angepasst. Privates bleibt außen vor; dieses Porträt beschränkt sich auf sein öffentliches Wirken.</p>
         </blockquote>
 
       </div>

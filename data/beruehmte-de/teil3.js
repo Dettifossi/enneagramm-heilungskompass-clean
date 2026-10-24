@@ -2863,14 +2863,14 @@ export function wladimirKlitschkoPortraitPage() {
 
         <h2 class="vb-section">2. Die selbsterhaltende Eins: Vorbereitung gegen die Sorge</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Eins ringt mit dem Ärger über das Unvollkommene und will alles richtig machen. Die <strong>selbsterhaltende Eins (SE1)</strong> beschrieb Claudio Naranjo mit der Ängstlichkeit: Die Sorge, etwas falsch zu machen, richtet sich auf Vorbereitung, Kontrolle und Sicherheit. Bei Klitschko zeigt sich das im Boxstil und im Umgang mit Rückschlägen. 2003 verlor er überraschend gegen Corrie Sanders, 2004 gegen Lamon Brewster. Nach der Sanders-Niederlage übernahm der Trainer Emanuel Steward, mit dem er bis zu dessen Tod 2012 arbeitete, und Klitschko baute sein Boxen auf Kontrolle auf: Distanz, Jab, wenig Risiko.</p>
+          <p class="vb-intro">Die Eins will es richtig machen und ärgert sich über jede Abweichung. Was Claudio Naranjo bei der <strong>selbsterhaltenden Eins (SE1)</strong> ›Ängstlichkeit‹ nannte, zeigt sich als dauernde Vorsicht: Lieber einen Fehler zu viel verhindern als einen zu wenig, durch Vorbereitung, Kontrolle und Sicherheit. Bei Klitschko zeigt sich das im Boxstil und im Umgang mit Rückschlägen. 2003 verlor er überraschend gegen Corrie Sanders, 2004 gegen Lamon Brewster. Nach der Sanders-Niederlage übernahm der Trainer Emanuel Steward, mit dem er bis zu dessen Tod 2012 arbeitete, und Klitschko baute sein Boxen auf Kontrolle auf: Distanz, Jab, wenig Risiko.</p>
           <p class="vb-intro">Sein Gegner David Haye nannte ihn 2011 einen ›control freak‹ (Kontrollfreak). Aus der Sicht der Selbsterhaltungs-Eins ist das die Kehrseite einer Stärke: Wer so auf Fehlervermeidung baut, verliert selten die Nerven und riskiert wenig. 2006 holte er sich den Titel zurück, von 2008 bis 2015 hielt er die vereinten Titel, und laut Wikipedia ist seine Titelherrschaft von 4.382 Tagen die längste im Schwergewicht.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Neunerflügel: Gelassenheit und Haltung</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der Eins Ruhe, Ausgleich und eine gelassene Höflichkeit. Bei Klitschko zeigt er sich im Auftreten: freundlich, sachlich, kaum je laut. Selbst gegenüber einem Gegner, der ihn öffentlich provozierte, antwortete er mit Ironie statt mit Wut und sagte, er respektiere ihn als Boxer, aber nicht als Menschen.</p>
-          <p class="vb-intro">Der Kerntyp Eins setzt Maßstäbe, der Neunerflügel sorgt dafür, dass sie ohne Lärm durchgesetzt werden.</p>
+          <p class="vb-intro">Mit dem <strong>Neunerflügel (w9)</strong> kommen Ruhe, Ausgleich und eine gelassene Höflichkeit hinzu. Bei Klitschko zeigt er sich im Auftreten: freundlich, sachlich, kaum je laut. Selbst gegenüber einem Gegner, der ihn öffentlich provozierte, antwortete er mit Ironie statt mit Wut und sagte, er respektiere ihn als Boxer, aber nicht als Menschen.</p>
+          <p class="vb-intro">Die Eins setzt Maßstäbe, und der Neunerflügel sorgt dafür, dass sie ohne Lärm durchgesetzt werden.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Anekdote: Manieren für David Haye</h2>
@@ -2888,13 +2888,13 @@ export function wladimirKlitschkoPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Eins mit Neunerflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt in der Disziplin: Ein Olympiasieger, der zweimal überraschend verliert und mit neuem Trainer zur längsten Titelherrschaft im Schwergewicht zurückkehrt, zeigt, wie Sorge in Arbeit übersetzt werden kann. Auch sein Auftritt gegenüber Haye gehört dazu: Er antwortete mit Ironie, wo andere laut geworden wären.</p>
-          <p class="vb-intro">Der Schatten dieser Kombination ist die Kontrolle um jeden Preis. Wer das Risiko meidet, wirkt auf Zuschauer mitunter zögerlich, und die Selbsterhaltungs-Eins kann so viel Sicherheit suchen, dass wenig Raum für Spontaneität bleibt. Die beiden letzten Niederlagen gegen Tyson Fury (2015) und Anthony Joshua (2017) beendeten seine Karriere als Profi.</p>
+          <p class="vb-intro">Gelungen ist vor allem die Übersetzung von Sorge in Disziplin: Ein Olympiasieger, der zweimal überraschend verliert und mit neuem Trainer zur längsten Titelherrschaft im Schwergewicht zurückkehrt, zeigt, wie Sorge in Arbeit übersetzt werden kann. Auch sein Auftritt gegenüber Haye gehört dazu: Er antwortete mit Ironie, wo andere laut geworden wären.</p>
+          <p class="vb-intro">Die andere Seite der Medaille ist die Kontrolle um jeden Preis. Wer das Risiko meidet, wirkt auf Zuschauer mitunter zögerlich, und die Selbsterhaltungs-Eins kann so viel Sicherheit suchen, dass wenig Raum für Spontaneität bleibt. Die beiden letzten Niederlagen gegen Tyson Fury (2015) und Anthony Joshua (2017) beendeten seine Karriere als Profi.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Stand: vom Ring in den Dienst der Verteidigung</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Nach seinem Rücktritt 2017 wurde Klitschko 2021 in die International Boxing Hall of Fame aufgenommen. Seine Profibilanz: 69 Kämpfe, 64 Siege (53 durch K. o.), 5 Niederlagen. Nach dem russischen Angriff auf die Ukraine 2022 schloss er sich den ukrainischen Landstreitkräften an. Er und sein Bruder <a href="#beruehmte-vitali-klitschko">Vitali (SE7w8)</a> sammelten im März 2022 in Deutschland 100 Millionen Euro. Nach den vorliegenden Angaben (Stand 24. Oktober 2026) ist er 50 Jahre alt.</p>
+          <p class="vb-intro">Nach seinem Rücktritt 2017 wurde Klitschko 2021 in die International Boxing Hall of Fame aufgenommen. Seine Profibilanz: 69 Kämpfe, 64 Siege (53 durch K. o.), 5 Niederlagen. Nach dem russischen Angriff auf die Ukraine 2022 schloss er sich den ukrainischen Landstreitkräften an. Er und sein Bruder <a href="#beruehmte-vitali-klitschko">Vitali (SE7w8)</a> sammelten im März 2022 in Deutschland 100 Millionen Euro. Er ist 50 Jahre alt (Stand 24. Oktober 2026).</p>
         </blockquote>
 
       </div>

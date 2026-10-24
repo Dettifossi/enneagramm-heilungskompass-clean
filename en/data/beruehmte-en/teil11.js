@@ -2864,14 +2864,14 @@ export function robertMcCollumPortraitPage() {
 
         <h2 class="vb-section">2. The social Seven: the voice in service of the work</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Seven flees pain into enthusiasm, and its passion is gluttony: the urge to want more of everything, more experiences, more stimulation, more enjoyment for oneself. According to Claudio Naranjo the <strong>social Seven (SO7)</strong> is the countertype of the Seven. Countertype means: it seems to act against the principle of its type. Instead of feasting for itself, it finds its joy in serving a community, and lives its gluttony there: it wants to contribute more for the group, create more, give more. Naranjo called this the subtype of sacrifice, because one&rsquo;s own pleasure steps back behind the cause from which the joy is drawn. In McCollum this shows in the profession itself. A dubbing actor speaks his lines to the picture of someone else&rsquo;s production and must match lip movement, breath and feeling of the original, without his face ever appearing.</p>
+          <p class="vb-intro">Gluttony, the craving for ever more experience, stimulation and enjoyment, is the passion of the Seven, who escapes pain into enthusiasm. The <strong>social Seven (SO7)</strong> is, according to Claudio Naranjo, its countertype. Countertype means: it seems to act against the principle of its type. Instead of feasting for itself, it finds its joy in serving a community, and lives its gluttony there: it wants to contribute more for the group, create more, give more. Naranjo called this the subtype of sacrifice, because one&rsquo;s own pleasure steps back behind the cause from which the joy is drawn. In McCollum this shows in the profession itself. A dubbing actor speaks his lines to the picture of someone else&rsquo;s production and must match lip movement, breath and feeling of the original, without his face ever appearing.</p>
           <p class="vb-intro">He steps behind the character: Reiner Braun in &lsquo;Attack on Titan&rsquo;, Donquixote Doflamingo in &lsquo;One Piece&rsquo;, Stain in &lsquo;My Hero Academia&rsquo;, Jellal in &lsquo;Fairy Tail&rsquo;, Julius Novachrono in &lsquo;Black Clover&rsquo;, Shinya Kogami in &lsquo;Psycho-Pass&rsquo;, Baki Hanma in &lsquo;Baki the Grappler&rsquo;. His roles also include Earl Vincent Phantomhive in &lsquo;Black Butler&rsquo;.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Six-wing: loyalty to the community</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Seven loyalty, team spirit and the need to belong to a group. In McCollum this shows in his connection to the anime community: he signs for fans at conventions, most recently in 2025 at a public signing at New York Comic Con, and he calls himself a &lsquo;proud trans ally&rsquo;. A portion of his convention earnings goes to &lsquo;Anime Stands Up For All&rsquo;, a fundraiser for the civil rights organization Lambda Legal.</p>
-          <p class="vb-intro">The core type Seven is mobile and looks for the next role; the Six-wing ties him to the people who keep these roles alive together with him.</p>
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> brings loyalty, team spirit and the need to belong to a group. In McCollum this shows in his connection to the anime community: he signs for fans at conventions, most recently in 2025 at a public signing at New York Comic Con, and he calls himself a &lsquo;proud trans ally&rsquo;. A portion of his convention earnings goes to &lsquo;Anime Stands Up For All&rsquo;, a fundraiser for the civil rights organization Lambda Legal.</p>
+          <p class="vb-intro">So the mobility of the Seven combines with the Six-wing&rsquo;s loyalty to the people who keep his roles alive with him.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The substance: voice as a playing field</h2>
@@ -2888,13 +2888,13 @@ export function robertMcCollumPortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow of the social Seven with Six-wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light lies in versatility and reliability: someone who voices over 300 roles in almost 25 years stays in conversation with an audience that knows him. That he publicly supports a group that is under attack fits the loyalty of the Six-wing.</p>
-          <p class="vb-intro">The shadow of this combination is the risk of disappearing behind the roles: someone who voices so many other characters is often perceived in public only as a voice. And the variety of projects, from audio drama through commercials to security training, requires that depth keeps pace with breadth.</p>
+          <p class="vb-intro">The mix of versatility and reliability is convincing: someone who voices over 300 roles in almost 25 years stays in conversation with an audience that knows him. That he publicly supports a group that is under attack fits the loyalty of the Six-wing.</p>
+          <p class="vb-intro">The dark side is the risk of disappearing behind the roles: someone who voices so many other characters is often perceived in public only as a voice. And the variety of projects, from audio drama through commercials to security training, requires that depth keeps pace with breadth.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Where things stand: between Dallas and the conventions</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to the available information (as of 24 October 2026) Robert McCollum lives in Dallas, keeps voicing anime roles and appears at conventions. Little is publicly documented about his private life; this portrait limits itself to what he and his agency state publicly about his work.</p>
+          <p class="vb-intro">Robert McCollum lives (as of 24 October 2026) in Dallas, keeps voicing anime roles and appears at conventions. His private life is hardly documented; this portrait limits itself to what he and his agency state publicly about his work.</p>
         </blockquote>
 
       </div>

@@ -2859,14 +2859,14 @@ export function henryMaskePortraitPage() {
 
         <h2 class="vb-section">2. Die selbsterhaltende Eins: Anspruch an sich selbst</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Eins ringt mit dem Ärger über das Unvollkommene und will es richtig machen. Die <strong>selbsterhaltende Eins (SE1)</strong> beschrieb Claudio Naranjo mit der Ängstlichkeit: Die Sorge, zu versagen, wandelt sich in Vorbereitung, Konsequenz und Selbstkontrolle. Bei Maske ist das ein Lebensthema. In einem Interview mit Sports Illustrated vom 24. April 2026 sagt er: ›Ich war kein Naturtalent.‹ Deshalb habe er Disziplin und Ausdauer gebraucht, und am meisten hätten ihn die mentalen Durchbrüche unter seinem Trainer geprägt.</p>
+          <p class="vb-intro">Die Eins sucht das Richtige und leidet am Unvollkommenen. Bei der <strong>selbsterhaltenden Eins (SE1)</strong> richtet sich dieser Maßstab vor allem nach innen: Sie misst sich an dem, was sie leisten müsste, und die stille Sorge, dem nicht zu genügen, wird zu Training, Planung und Selbstkontrolle. Bei Maske ist das ein Lebensthema. In einem Interview mit Sports Illustrated vom 24. April 2026 sagt er: ›Ich war kein Naturtalent.‹ Deshalb habe er Disziplin und Ausdauer gebraucht, und am meisten hätten ihn die mentalen Durchbrüche unter seinem Trainer geprägt.</p>
           <p class="vb-intro">Er nennt Ehrlichkeit zu sich selbst, Konsequenz und das Festhalten an eigenen Ansprüchen als Werte. Wer ihn bewusst enttäusche oder hintergehe, bekomme keine zweite Chance. Das ist die Strenge der Eins, die zuerst gegen sich selbst gerichtet ist und dann auch an andere denselben Maßstab legt.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Neunerflügel: der ruhige Gentleman</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der Eins Ruhe, Gelassenheit und eine freundliche Zurückhaltung. Bei Maske zeigt er sich im Ruf des ›Gentleman‹: Als Profi trat er so auf, dass er für sein beherrschtes Auftreten bekannt wurde, mit einem defensiven, kontrollierten Stil. Er selbst sagt, er habe keine Rolle gespielt: Anstand, Respekt und ein ruhiger Umgang seien für ihn selbstverständlich gewesen.</p>
-          <p class="vb-intro">Der Kerntyp Eins setzt den Maßstab, der Neunerflügel verleiht ihm die Gelassenheit, ihn ohne Lärm zu leben.</p>
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> lässt die Eins gelassener und freundlicher auftreten, mit ruhiger Zurückhaltung. Bei Maske zeigt er sich im Ruf des ›Gentleman‹: Als Profi trat er so auf, dass er für sein beherrschtes Auftreten bekannt wurde, mit einem defensiven, kontrollierten Stil. Er selbst sagt, er habe keine Rolle gespielt: Anstand, Respekt und ein ruhiger Umgang seien für ihn selbstverständlich gewesen.</p>
+          <p class="vb-intro">Die Eins setzt den Maßstab, und der Neunerflügel gibt ihr die Gelassenheit, ihn ohne Lärm zu leben.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: Gentleman im Ring</h2>
@@ -2883,13 +2883,13 @@ export function henryMaskePortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Eins mit Neunerflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt in der Glaubwürdigkeit: Wer dasselbe Auftreten im Ring und danach lebt, wird als verlässlich erlebt. Maske sagt dazu, Anerkennung sei angenehm, aber auch belastend, weil sie Erwartungen wecke, und das Rampenlicht habe nicht nur positive Seiten.</p>
-          <p class="vb-intro">Der Schatten dieser Kombination ist die Strenge, die keine zweite Chance gibt, und der hohe Anspruch an sich selbst, der unter Beobachtung noch wächst. Ein Gentleman-Image kann auch einengen, weil jede Abweichung davon als Fehler gilt.</p>
+          <p class="vb-intro">Er wirkt glaubwürdig: Wer dasselbe Auftreten im Ring und danach lebt, wird als verlässlich erlebt. Maske sagt dazu, Anerkennung sei angenehm, aber auch belastend, weil sie Erwartungen wecke, und das Rampenlicht habe nicht nur positive Seiten.</p>
+          <p class="vb-intro">Der Preis der Konsequenz ist die Strenge, die keine zweite Chance gibt, und der hohe Anspruch an sich selbst, der unter Beobachtung noch wächst. Ein Gentleman-Image kann auch einengen, weil jede Abweichung davon als Fehler gilt.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Stand: Unternehmer, Förderer und Gentleman a. D.</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">1999 gründete Maske den Henry Maske Fonds, der benachteiligten Jugendlichen hilft. Er war bis 2019 McDonald&rsquo;s-Franchisenehmer und ist seit 2005 Schirmherr eines Ronald McDonald Hauses in Essen. Für die Hauptrolle im Film ›Max Schmeling‹ (Regie: Uwe Boll) wurde er 2008 angekündigt. Er erhielt das Bundesverdienstkreuz (2001), die Goldene Sportpyramide und den Eintritt in die Hall of Fame des deutschen Sports (2012) sowie einen Platz auf dem Olympischen Walk of Stars in München (2013). Nach den vorliegenden Angaben (Stand 24. Oktober 2026) ist er 62 Jahre alt, mit Manuela verheiratet und lebt in Overath bei Köln.</p>
+          <p class="vb-intro">1999 gründete Maske den Henry Maske Fonds, der benachteiligten Jugendlichen hilft. Er war bis 2019 McDonald&rsquo;s-Franchisenehmer und ist seit 2005 Schirmherr eines Ronald McDonald Hauses in Essen. Für die Hauptrolle im Film ›Max Schmeling‹ (Regie: Uwe Boll) wurde er 2008 angekündigt. Er erhielt das Bundesverdienstkreuz (2001), die Goldene Sportpyramide und den Eintritt in die Hall of Fame des deutschen Sports (2012) sowie einen Platz auf dem Olympischen Walk of Stars in München (2013). Er ist (Stand 24. Oktober 2026) 62 Jahre alt, mit Manuela verheiratet und lebt in Overath bei Köln.</p>
         </blockquote>
 
       </div>

@@ -2896,14 +2896,14 @@ export function johannLechnerPortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Sieben: Neues bauen für die Gemeinschaft</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Sieben weicht dem Schmerz in die Begeisterung aus, und ihre Leidenschaft ist die Völlerei, das Verlangen nach immer mehr Anregung und Neuem. Bei der <strong>sozialen Sieben (SO7)</strong> kehrt sich das nach Claudio Naranjo um: Sie ist der Kontratyp der Sieben und richtet ihren Appetit nicht auf das eigene Vergnügen, sondern auf die Gemeinschaft. Ihre Freude liegt darin, für andere etwas aufzubauen, und dort ist sie maßlos: Immer noch ein Verfahren, noch ein Beitrag, noch ein Baustein für die Gruppe. Naranjo sprach vom Subtyp des Opfers, weil das eigene Genießen hinter der gemeinsamen Sache zurücksteht.</p>
+          <p class="vb-intro">Hinter der Sieben steht das Verlangen nach immer mehr, nach Anregung, Neuem und Genuss, und der Ausweg vor dem Schmerz heißt Begeisterung. Bei der <strong>sozialen Sieben (SO7)</strong> dreht sich dieser Appetit Naranjo zufolge um: Sie ist der Kontratyp und richtet ihn nicht auf das eigene Vergnügen, sondern auf die Gemeinschaft. Ihre Freude liegt darin, für andere etwas aufzubauen, und dort ist sie maßlos: Immer noch ein Verfahren, noch ein Beitrag, noch ein Baustein für die Gruppe. Naranjo sprach vom Subtyp des Opfers, weil das eigene Genießen hinter der gemeinsamen Sache zurücksteht.</p>
           <p class="vb-intro">Bei Lechner zeigt sich das in einer langen Reihe von Neuerungen für seine Fachwelt: 1996 führte er das orthokranielle Prothesensystem ACCU-Liner aus den USA in Deutschland ein, 1998 die CAD/CAM-Technik mit Zirkonoxid für metallfreien Zahnersatz. Dazu kommen Gründungen wie FocoDent (2005), Vorträge und Lehrtätigkeit. Er hielt über 100 Seminare und Vorträge, unter anderem bei Symposien der Universitäten Bern und Graz, und war Gastdozent an der Capital University in Washington, D.C., und an der Universitätszahnklinik Peking.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Sechserflügel: Netzwerk und Weitergabe</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der Sieben Loyalität, Teamgeist und das Bedürfnis, in einem verlässlichen Kreis zu arbeiten. Bei Lechner zeigt er sich in den Verbänden und Kooperationen: Er war mehrere Jahre im Vorstand der Deutschen Arbeitsgemeinschaft für Herd- und Regulationsforschung (DAH) und der Internationalen Gesellschaft für Ganzheitliche ZahnMedizin (GZM). Seine Veröffentlichungen entstehen mit Partnern, etwa mit Jerry Bouquot und Volker von Baehr (Buch zu Osteolysen des Kieferknochens), mit S. Noumbissi (2019) sowie mit F. Schick und F. Notter (2024). Außerdem lädt er nach der Darstellung eines Kollegen jährlich zu OP-Tagen, bei denen Kolleginnen und Kollegen ihm zusehen können.</p>
-          <p class="vb-intro">Der Kerntyp Sieben probiert Neues, der Sechserflügel bindet ihn an Kollegen und Fachverbände, mit denen er seine Methoden prüft und weitergibt.</p>
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> verleiht der Sieben Loyalität, Teamgeist und den Wunsch, in einem verlässlichen Kreis zu arbeiten. Bei Lechner zeigt er sich in den Verbänden und Kooperationen: Er war mehrere Jahre im Vorstand der Deutschen Arbeitsgemeinschaft für Herd- und Regulationsforschung (DAH) und der Internationalen Gesellschaft für Ganzheitliche ZahnMedizin (GZM). Seine Veröffentlichungen entstehen mit Partnern, etwa mit Jerry Bouquot und Volker von Baehr (Buch zu Osteolysen des Kieferknochens), mit S. Noumbissi (2019) sowie mit F. Schick und F. Notter (2024). Außerdem lädt er nach der Darstellung eines Kollegen jährlich zu OP-Tagen, bei denen Kolleginnen und Kollegen ihm zusehen können.</p>
+          <p class="vb-intro">Die Sieben probiert Neues aus, und der Sechserflügel führt sie zu Kollegen und Fachverbänden, mit denen sie ihre Methoden prüft und weitergibt.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: Der Kiefer als Thema</h2>
@@ -2920,14 +2920,14 @@ export function johannLechnerPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der sozialen Sieben mit Sechserflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt in der Neugier und im Mut, über Jahrzehnte eigene Wege zu gehen und das Wissen weiterzugeben. Wer über 100 Seminare hält, Kolleginnen und Kollegen bei Operationen zuschauen lässt und mit Partnern publiziert, sucht den Austausch.</p>
-          <p class="vb-intro">Der Schatten dieser Kombination ist die Gefahr, dass die Begeisterung für das eigene Konzept Widerspruch schwer annimmt. Nach Berichten von Unterstützern äußern sich viele Kollegen kritisch über sein Vorgehen, und ein enger Kreis von Gleichgesinnten kann diese Distanz verstärken.</p>
+          <p class="vb-intro">Beeindruckend sind Neugier und der Mut, über Jahrzehnte eigene Wege zu gehen und das Wissen weiterzugeben. Wer über 100 Seminare hält, Kolleginnen und Kollegen bei Operationen zuschauen lässt und mit Partnern publiziert, sucht den Austausch.</p>
+          <p class="vb-intro">Die Schwachstelle dieser Kombination ist die Gefahr, dass die Begeisterung für das eigene Konzept Widerspruch schwer annimmt. Nach Berichten von Unterstützern äußern sich viele Kollegen kritisch über sein Vorgehen, und ein enger Kreis von Gleichgesinnten kann diese Distanz verstärken.</p>
           <p class="vb-intro">Hinzu kommt ein typisches Muster der Kopftypen (Fünf, Sechs und Sieben): das Denken in Ursache und Wirkung. Die Sieben sucht gern die eine Ursache, die ein Ungleichgewicht erklärt, auch in der Medizin, und findet sie dann in einem einzelnen Bereich wie dem Kiefer. Dieser Blick sagt etwas über die Denkweise des Typs, aber nichts darüber, ob die Ursache tatsächlich die richtige ist.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Stand: Praxis, Lehre und Forschung</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 24. Oktober 2026) leitet Johann Lechner weiterhin seine Praxisklinik in München, hält Vorträge und veröffentlicht Fachbeiträge. Über sein Privatleben ist wenig öffentlich dokumentiert. Eigene Aussagen zu seiner Motivation fanden sich nicht; dieses Porträt beschränkt sich deshalb auf seinen belegten Werdegang und sein öffentliches Wirken.</p>
+          <p class="vb-intro">Johann Lechner leitet laut den vorliegenden Angaben (Stand 24. Oktober 2026) weiterhin seine Praxisklinik in München, hält Vorträge und veröffentlicht Fachbeiträge. Über sein Privatleben ist wenig öffentlich dokumentiert. Eigene Aussagen zu seiner Motivation fanden sich nicht; dieses Porträt beschränkt sich deshalb auf seinen belegten Werdegang und sein öffentliches Wirken.</p>
           <p class="vb-intro">Wie sich Kopf-, Herz- und Bauchtypen in Zahngruppen und Zahnbeschwerden deuten lassen, beschreibt der Beitrag <a href="#enneagramm-zahnpsychosomatik">Enneagramm meets Zahnpsychosomatik</a>.</p>
         </blockquote>
 

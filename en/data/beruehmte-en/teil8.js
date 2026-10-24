@@ -2883,14 +2883,14 @@ export function wolfgangNiedeckenPortraitPage() {
 
         <h2 class="vb-section">2. The social One: standing for the community</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The One strives for rightness and wrestles with its own anger, and Claudio Naranjo described the <strong>social One (SO1)</strong> as the subtype of non-adaptability: the One measures themselves and the community against a high standard, feels not quite at home, and campaigns for the common good precisely for that reason. In Niedecken this shows in his having sung in the Cologne dialect since 1976 while taking public positions again and again.</p>
+          <p class="vb-intro">In the <strong>social One (SO1)</strong> the striving for rightness is directed at the community. Claudio Naranjo called it the subtype of non-adaptability: the One measures themselves and the community against a high standard, feels not quite at home, and campaigns for the common good precisely for that reason. In Niedecken this shows in his having sung in the Cologne dialect since 1976 while taking public positions again and again.</p>
           <p class="vb-intro">In 1992 he was one of the shaping faces of the anti-racism concert &lsquo;Arsch huh, Zäng ussenander&rsquo; (&lsquo;Get off your butt, open your mouth&rsquo;) in Cologne. He says of himself that he is stubborn and does not want to leave the field to the right-wing rabble. At 67 he also said he was no longer an angry young man, still got worked up, but no longer jumped on the table immediately.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two-wing: warmth and help for others</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the One warmth, attention and the willingness to help concretely. In Niedecken it shows in his commitment to people in need: since 2004 he has been a special ambassador for &lsquo;Gemeinsam für Afrika&rsquo; (&lsquo;Together for Africa&rsquo;). With World Vision and Manfred Hell he founded the Rebound project for former child soldiers in Uganda. It was discontinued in September 2025 because of the security situation in eastern Congo. In December 2025 he became an official ambassador of Welthungerhilfe and supports the &lsquo;Au secours&rsquo; (&lsquo;Help!&rsquo;) project for women and girls in the east of the Democratic Republic of Congo. In 2014 he took part in the German version of &lsquo;Do They Know It&rsquo;s Christmas?&rsquo; (Band Aid 30).</p>
-          <p class="vb-intro">The core type One holds on to its standard; the Two-wing makes sure it does not become a cold demand but sympathy.</p>
+          <p class="vb-intro">With the <strong>Two-wing (w2)</strong> come warmth, attention and the willingness to help concretely. In Niedecken it shows in his commitment to people in need: since 2004 he has been a special ambassador for &lsquo;Gemeinsam für Afrika&rsquo; (&lsquo;Together for Africa&rsquo;). With World Vision and Manfred Hell he founded the Rebound project for former child soldiers in Uganda. It was discontinued in September 2025 because of the security situation in eastern Congo. In December 2025 he became an official ambassador of Welthungerhilfe and supports the &lsquo;Au secours&rsquo; (&lsquo;Help!&rsquo;) project for women and girls in the east of the Democratic Republic of Congo. In 2014 he took part in the German version of &lsquo;Do They Know It&rsquo;s Christmas?&rsquo; (Band Aid 30).</p>
+          <p class="vb-intro">The One holds on to its standard, and the Two-wing prevents it from becoming a cold demand: it stays sympathy.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The substance: dialect rock with a stance</h2>
@@ -2907,13 +2907,13 @@ export function wolfgangNiedeckenPortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow of the social One with Two-wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light lies in the reliability of the stance: someone who stands for the same values over decades gives others orientation. That he does not only sing about commitment but turns it into projects shows the Two-wing.</p>
-          <p class="vb-intro">The shadow of this combination is strictness toward oneself and others. The One holds back anger until it makes room for itself. Niedecken says himself that he no longer jumps on the table at once, and the stroke in November 2011 was for him, in his own words, a yellow card, a warning.</p>
+          <p class="vb-intro">Above all his stance is reliable: someone who stands for the same values over decades gives others orientation. That he does not only sing about commitment but turns it into projects shows the Two-wing.</p>
+          <p class="vb-intro">What weighs heavier is strictness toward oneself and others. The One holds back anger until it makes room for itself. Niedecken says himself that he no longer jumps on the table at once, and the stroke in November 2011 was for him, in his own words, a yellow card, a warning.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Where things stand: an encore after the stroke</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">On 2 November 2011 Niedecken suffered a stroke; the BAP tour was postponed to May 2012. Afterwards he could at first neither speak nor play guitar. His wife Tina helped him back, and for him every concert since is an encore, as he wrote in his book &lsquo;Zugabe&rsquo; (&lsquo;Encore&rsquo;, 2013). According to the available information (as of 24 October 2026) he is 75 years old, married to Tina since 1994 and has four children. In 2026 he received the Georg Elser Award. He describes himself as an &lsquo;Agnostiker mit Gottvertrauen&rsquo; (agnostic with trust in God).</p>
+          <p class="vb-intro">On 2 November 2011 Niedecken suffered a stroke; the BAP tour was postponed to May 2012. Afterwards he could at first neither speak nor play guitar. His wife Tina helped him back, and for him every concert since is an encore, as he wrote in his book &lsquo;Zugabe&rsquo; (&lsquo;Encore&rsquo;, 2013). He is 75 years old (as of 24 October 2026), married to Tina since 1994 and has four children. In 2026 he received the Georg Elser Award. He describes himself as an &lsquo;Agnostiker mit Gottvertrauen&rsquo; (agnostic with trust in God).</p>
         </blockquote>
 
       </div>

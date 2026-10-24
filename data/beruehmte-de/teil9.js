@@ -2816,14 +2816,14 @@ export function wolfgangNiedeckenPortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Eins: Haltung für die Gemeinschaft</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Eins strebt nach Richtigkeit und ringt mit dem eigenen Ärger, und Claudio Naranjo beschrieb die <strong>soziale Eins (SO1)</strong> als den Subtyp der Unangepasstheit: Die Eins misst sich und die Gemeinschaft an einem hohen Maßstab, fühlt sich nicht ganz zugehörig und setzt sich gerade deshalb für das Gemeinwohl ein. Bei Niedecken zeigt sich das darin, dass er seit 1976 im Kölner Dialekt singt und sich dabei immer wieder öffentlich positioniert.</p>
+          <p class="vb-intro">Bei der <strong>sozialen Eins (SO1)</strong> richtet sich das Streben nach Richtigkeit auf die Gemeinschaft. Claudio Naranjo nannte sie den Subtyp der Unangepasstheit: Die Eins misst sich und die Gemeinschaft an einem hohen Maßstab, fühlt sich nicht ganz zugehörig und setzt sich gerade deshalb für das Gemeinwohl ein. Bei Niedecken zeigt sich das darin, dass er seit 1976 im Kölner Dialekt singt und sich dabei immer wieder öffentlich positioniert.</p>
           <p class="vb-intro">1992 gehörte er zu den prägenden Gesichtern des Antirassismus-Konzerts ›Arsch huh, Zäng ussenander‹ (›Arsch hoch, Zähne auseinander‹) in Köln. Er sagt von sich, er sei stur und wolle dem rechten Pöbel nicht das Feld überlassen. Mit 67 sagte er außerdem, er sei kein wütender junger Mann mehr, rege sich aber immer noch auf, stehe dabei aber nicht mehr sofort auf dem Tisch.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Zweierflügel: Zuwendung und Hilfe für andere</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der Eins Wärme, Zuwendung und die Bereitschaft, konkret zu helfen. Bei Niedecken zeigt er sich im Engagement für Menschen in Not: Seit 2004 ist er Sonderbotschafter von ›Gemeinsam für Afrika‹. Mit World Vision und Manfred Hell gründete er das Projekt Rebound für ehemalige Kindersoldaten in Uganda. Es wurde im September 2025 wegen der Sicherheitslage im Osten des Kongo eingestellt. Im Dezember 2025 wurde er offizieller Botschafter der Welthungerhilfe und unterstützt das Projekt ›Au secours‹ (›Zu Hilfe‹) für Frauen und Mädchen im Osten der Demokratischen Republik Kongo. 2014 sang er bei der deutschen Fassung von ›Do They Know It’s Christmas?‹ (Band Aid 30) mit.</p>
-          <p class="vb-intro">Der Kerntyp Eins hält an seinem Maßstab fest, der Zweierflügel sorgt dafür, dass daraus kein kalter Anspruch wird, sondern Anteilnahme.</p>
+          <p class="vb-intro">Mit dem <strong>Zweierflügel (w2)</strong> kommen Wärme, Zuwendung und die Bereitschaft hinzu, konkret zu helfen. Bei Niedecken zeigt er sich im Engagement für Menschen in Not: Seit 2004 ist er Sonderbotschafter von ›Gemeinsam für Afrika‹. Mit World Vision und Manfred Hell gründete er das Projekt Rebound für ehemalige Kindersoldaten in Uganda. Es wurde im September 2025 wegen der Sicherheitslage im Osten des Kongo eingestellt. Im Dezember 2025 wurde er offizieller Botschafter der Welthungerhilfe und unterstützt das Projekt ›Au secours‹ (›Zu Hilfe‹) für Frauen und Mädchen im Osten der Demokratischen Republik Kongo. 2014 sang er bei der deutschen Fassung von ›Do They Know It’s Christmas?‹ (Band Aid 30) mit.</p>
+          <p class="vb-intro">Die Eins hält an ihrem Maßstab fest, und der Zweierflügel verhindert, dass daraus ein kalter Anspruch wird: Er bleibt Anteilnahme.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: Dialekt-Rock mit Haltung</h2>
@@ -2840,13 +2840,13 @@ export function wolfgangNiedeckenPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der sozialen Eins mit Zweierflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt in der Verlässlichkeit der Haltung: Wer über Jahrzehnte für dieselben Werte eintritt, gibt anderen Orientierung. Dass er Engagement nicht nur singt, sondern in Projekte übersetzt, zeigt den Zweierflügel.</p>
-          <p class="vb-intro">Der Schatten dieser Kombination ist die Strenge gegen sich selbst und andere. Die Eins hält ihren Ärger zurück, bis er sich Luft macht. Niedecken sagt selbst, er stehe nicht mehr sofort auf dem Tisch, und der Schlaganfall im November 2011 war für ihn nach eigenen Worten eine Gelbe Karte, also eine Warnung.</p>
+          <p class="vb-intro">Verlässlich ist vor allem seine Haltung: Wer über Jahrzehnte für dieselben Werte eintritt, gibt anderen Orientierung. Dass er Engagement nicht nur singt, sondern in Projekte übersetzt, zeigt den Zweierflügel.</p>
+          <p class="vb-intro">Schwerer wiegt die Strenge gegen sich selbst und andere. Die Eins hält ihren Ärger zurück, bis er sich Luft macht. Niedecken sagt selbst, er stehe nicht mehr sofort auf dem Tisch, und der Schlaganfall im November 2011 war für ihn nach eigenen Worten eine Gelbe Karte, also eine Warnung.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Stand: Zugabe nach dem Schlaganfall</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Am 2. November 2011 erlitt Niedecken einen Schlaganfall; die BAP-Tour wurde auf Mai 2012 verschoben. Er konnte danach zunächst weder sprechen noch Gitarre spielen. Seine Frau Tina half ihm zurück ins Leben, und für ihn ist jedes Konzert seither eine Zugabe, wie er in seinem Buch ›Zugabe‹ (2013) schrieb. Nach den vorliegenden Angaben (Stand 24. Oktober 2026) ist er 75 Jahre alt, in zweiter Ehe seit 1994 mit Tina verheiratet und hat vier Kinder. 2026 erhielt er die Georg-Elser-Auszeichnung. Er bezeichnet sich als ›Agnostiker mit Gottvertrauen‹.</p>
+          <p class="vb-intro">Am 2. November 2011 erlitt Niedecken einen Schlaganfall; die BAP-Tour wurde auf Mai 2012 verschoben. Er konnte danach zunächst weder sprechen noch Gitarre spielen. Seine Frau Tina half ihm zurück ins Leben, und für ihn ist jedes Konzert seither eine Zugabe, wie er in seinem Buch ›Zugabe‹ (2013) schrieb. Er ist (Stand 24. Oktober 2026) 75 Jahre alt, in zweiter Ehe seit 1994 mit Tina verheiratet und hat vier Kinder. 2026 erhielt er die Georg-Elser-Auszeichnung. Er bezeichnet sich als ›Agnostiker mit Gottvertrauen‹.</p>
         </blockquote>
 
       </div>

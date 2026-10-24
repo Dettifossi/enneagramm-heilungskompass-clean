@@ -2858,14 +2858,14 @@ export function katharinaKoenigPortraitPage() {
 
         <h2 class="vb-section">2. Die sexuelle Drei: Sichtbarkeit als Mittel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Drei lebt von der Wirkung, und Claudio Naranjo beschrieb die <strong>sexuelle Drei (SX3)</strong> als den Subtyp der Weiblichkeit beziehungsweise Männlichkeit: Ausstrahlung, Präsenz und die Fähigkeit, andere zu erreichen. Bei Katharina König zeigt sich das darin, dass sie ihre Erkrankung nicht verbirgt, sondern zeigt. Im Oktober 2022 machte sie ihre Geschichte auf TikTok öffentlich. Seither spricht sie in Videos und Interviews und trat zum Beispiel am 23. März 2025 bei einer Demonstration in Kassel auf.</p>
+          <p class="vb-intro">Ausstrahlung, Präsenz und die Fähigkeit, andere zu erreichen: Das ist der Kern der <strong>sexuellen Drei (SX3)</strong>, die Claudio Naranjo den Subtyp der Weiblichkeit beziehungsweise Männlichkeit nannte. Bei Katharina König zeigt sich das darin, dass sie ihre Erkrankung nicht verbirgt, sondern zeigt. Im Oktober 2022 machte sie ihre Geschichte auf TikTok öffentlich. Seither spricht sie in Videos und Interviews und trat zum Beispiel am 23. März 2025 bei einer Demonstration in Kassel auf.</p>
           <p class="vb-intro">Die Drei sucht Erfolg, und auch das Ziel hat bei ihr eine Form: Gemeinsam mit dem Anwalt Tobias Ulbrich hat sie nach den vorliegenden Berichten die Initiative für rund 200 Strafanzeigen gegen BioNTech und das Paul-Ehrlich-Institut angestoßen. Auf der Rechtslage und dem Ausgang solcher Verfahren liegt hier nicht der Fokus. Es geht um die Haltung: aus der Betroffenheit ein Projekt machen.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Zweierflügel: anderen eine Stimme geben</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der Drei Zuwendung und den Wunsch, für andere da zu sein. Bei Katharina König zeigt er sich darin, dass sie nach eigenen Aussagen anderen Betroffenen eine Stimme geben will, weil viele aus Angst nicht an die Öffentlichkeit gehen, und dass sie Ärzte aufklären möchte. Sie gibt an, dass sich seit ihrem ersten Video rund 500.000 weitere Betroffene bei ihr und ihrem Anwalt gemeldet hätten. Diese Zahl stammt von ihr und ist nicht unabhängig geprüft.</p>
-          <p class="vb-intro">Der Kerntyp Drei strebt nach Wirkung, der Zweierflügel stellt diese Wirkung in den Dienst anderer.</p>
+          <p class="vb-intro">Mit dem <strong>Zweierflügel (w2)</strong> kommen Zuwendung und der Wunsch hinzu, für andere da zu sein. Bei Katharina König zeigt er sich darin, dass sie nach eigenen Aussagen anderen Betroffenen eine Stimme geben will, weil viele aus Angst nicht an die Öffentlichkeit gehen, und dass sie Ärzte aufklären möchte. Sie gibt an, dass sich seit ihrem ersten Video rund 500.000 weitere Betroffene bei ihr und ihrem Anwalt gemeldet hätten. Diese Zahl stammt von ihr und ist nicht unabhängig geprüft.</p>
+          <p class="vb-intro">Die Drei sucht Wirkung, und der Zweierflügel stellt diese Wirkung in den Dienst anderer.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: eine Erfahrung, die Gehör sucht</h2>
@@ -2883,13 +2883,13 @@ export function katharinaKoenigPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der sexuellen Drei mit Zweierflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt im Mut, sich zu zeigen, und in der Ausdauer, mit der sie trotz körperlicher Einschränkung weiter spricht und handelt. Wer krank ist und dennoch öffentlich Rede und Antwort steht, zeigt Stärke.</p>
-          <p class="vb-intro">Der Schatten dieser Kombination ist die Abhängigkeit von Aufmerksamkeit: Wer ein Thema öffentlich trägt, wird von Zustimmung und Ablehnung getroffen und von beiden Seiten vereinnahmt. Nach eigener Angabe ist sie zudem finanziell auf Unterstützung angewiesen. Die Wut, die sie als Kraftquelle beschreibt (so die Überschrift eines Interviews), kann tragen und zehren zugleich.</p>
+          <p class="vb-intro">Stark sind der Mut, sich zu zeigen, und die Ausdauer, mit der sie trotz körperlicher Einschränkung weiter spricht und handelt. Wer krank ist und dennoch öffentlich Rede und Antwort steht, zeigt Stärke.</p>
+          <p class="vb-intro">Schwierig wird die Abhängigkeit von Aufmerksamkeit: Wer ein Thema öffentlich trägt, wird von Zustimmung und Ablehnung getroffen und von beiden Seiten vereinnahmt. Nach eigener Angabe ist sie zudem finanziell auf Unterstützung angewiesen. Die Wut, die sie als Kraftquelle beschreibt (so die Überschrift eines Interviews), kann tragen und zehren zugleich.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Stand: Videos, Anzeigen, Auftritte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 24. Oktober 2026) ist Katharina König weiter mit Videos, Interviews und Auftritten öffentlich aktiv und verfolgt mit ihrem Anwalt rechtliche Schritte. Belastbare Angaben zu Aktenzeichen oder Ausgang ihrer eigenen Verfahren liegen nicht vor. Dass schwere Impffolgen bei jeder Impfung auftreten können, steht dabei außer Frage und ist durch die Meldesysteme der Arzneimittelbehörden dokumentiert. Zu ihren Diagnosen und Operationen liegen keine unabhängig überprüfbaren Unterlagen vor; das Porträt stützt sich auf ihre Aussagen, wie sie in Videos und in überwiegend impfkritischen Medien (Epoch Times, Blogs) wiedergegeben werden.</p>
+          <p class="vb-intro">Katharina König ist (Stand 24. Oktober 2026) weiter mit Videos, Interviews und Auftritten öffentlich aktiv und verfolgt mit ihrem Anwalt rechtliche Schritte. Belastbare Angaben zu Aktenzeichen oder Ausgang ihrer eigenen Verfahren liegen nicht vor. Dass schwere Impffolgen bei jeder Impfung auftreten können, steht dabei außer Frage und ist durch die Meldesysteme der Arzneimittelbehörden dokumentiert. Zu ihren Diagnosen und Operationen liegen keine unabhängig überprüfbaren Unterlagen vor; das Porträt stützt sich auf ihre Aussagen, wie sie in Videos und in überwiegend impfkritischen Medien (Epoch Times, Blogs) wiedergegeben werden.</p>
         </blockquote>
 
       </div>

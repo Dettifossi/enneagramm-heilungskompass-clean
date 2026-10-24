@@ -2824,14 +2824,14 @@ export function bradleyCooperPortraitPage() {
 
         <h2 class="vb-section">2. The social One: standards and responsibility</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The One wants to get it right, and Claudio Naranjo described the <strong>social One (SO1)</strong> as the subtype of non-adaptability: it directs its standards at the group, takes responsibility and does not let itself be bent. In Cooper this shows in the thoroughness of his education (English, French, an acting MFA) and in the consistency with which he has changed: since 2004 he has, by his own account, abstained from alcohol and drugs.</p>
+          <p class="vb-intro">The <strong>social One (SO1)</strong> directs its standards at the group, takes responsibility and does not let itself be bent; Claudio Naranjo spoke of the subtype of non-adaptability. In Cooper this shows in the thoroughness of his education (English, French, an acting MFA) and in the consistency with which he has changed: since 2004 he has, by his own account, abstained from alcohol and drugs.</p>
           <p class="vb-intro">His way of dealing with the loss of his father, who died of lung cancer in 2011, also shows responsibility for others. He then supported cancer initiatives, joined the board of the Hole in the Wall Gang Camp in 2014 and was an executive producer of Stand Up to Cancer.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two-wing: attention and charm</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the One warmth, attention and the wish to be needed. In Cooper it shows in his dealings with others and in the question of how he comes across to people. He said of his work: &lsquo;I enjoy people, that makes this profession a lot easier, and I can sleep anywhere.&rsquo; In 2011 &lsquo;People&rsquo; magazine named him &lsquo;Sexiest Man Alive&rsquo;, and in an &lsquo;Esquire&rsquo; interview he answered with the sentence: &lsquo;Fall in love with my looks, fine, but stay with me for my talent.&rsquo;</p>
-          <p class="vb-intro">The core type One sets the standard, the Two-wing makes it human.</p>
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> is the source of warmth, attention and the wish to be needed. In Cooper it shows in his dealings with others and in the question of how he comes across to people. He said of his work: &lsquo;I enjoy people, that makes this profession a lot easier, and I can sleep anywhere.&rsquo; In 2011 &lsquo;People&rsquo; magazine named him &lsquo;Sexiest Man Alive&rsquo;, and in an &lsquo;Esquire&rsquo; interview he answered with the sentence: &lsquo;Fall in love with my looks, fine, but stay with me for my talent.&rsquo;</p>
+          <p class="vb-intro">The One sets the standard, and the Two-wing makes it human.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The substance: from actor to director</h2>
@@ -2848,13 +2848,13 @@ export function bradleyCooperPortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow of the social One with a Two-wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light lies in standards, diligence and the readiness to take others along. Someone who works consistently on themselves for years and passes on this experience shows the strength of the One with a Two-wing.</p>
-          <p class="vb-intro">The shadow of this combination is the inner strictness that shows as perfectionism and the wish to be seen for it. His sentence about looks and talent shows that he does not want to be reduced to his image.</p>
+          <p class="vb-intro">Good are his standards, his diligence and his readiness to take others along. Someone who works consistently on themselves for years and passes on this experience shows the strength of the One with a Two-wing.</p>
+          <p class="vb-intro">Burdensome is the inner strictness that shows as perfectionism and the wish to be seen for it. His sentence about looks and talent shows that he does not want to be reduced to his image.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Status: directing, roles, restaurant</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to the available information (as of 24 October 2026) Bradley Cooper is 51 years old. In 2025 he made a cameo as Jor-El in &lsquo;Superman&rsquo;, directed and appeared in &lsquo;Is This Thing On?&rsquo; and opened the cheesesteak restaurant &lsquo;Danny and Coop&rsquo;s&rsquo; in New York. He has a daughter, born in 2017.</p>
+          <p class="vb-intro">As of 24 October 2026, Bradley Cooper is 51 years old. In 2025 he made a cameo as Jor-El in &lsquo;Superman&rsquo;, directed and appeared in &lsquo;Is This Thing On?&rsquo; and opened the cheesesteak restaurant &lsquo;Danny and Coop&rsquo;s&rsquo; in New York. He has a daughter, born in 2017.</p>
         </blockquote>
 
       </div>

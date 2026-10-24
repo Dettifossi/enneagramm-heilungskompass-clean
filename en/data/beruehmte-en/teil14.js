@@ -2941,14 +2941,14 @@ export function wladimirKlitschkoPortraitPage() {
 
         <h2 class="vb-section">2. The self-preservation One: preparation against worry</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The One wrestles with anger about the imperfect and wants to do everything right. Claudio Naranjo described the <strong>self-preservation One (SP1)</strong> with anxiety: the worry of doing something wrong turns to preparation, control and safety. In Klitschko this shows in his boxing style and in how he handled setbacks. In 2003 he unexpectedly lost to Corrie Sanders, in 2004 to Lamon Brewster. After the Sanders defeat the trainer Emanuel Steward took over, with whom he worked until Steward&rsquo;s death in 2012, and Klitschko built his boxing on control: distance, jab, little risk.</p>
+          <p class="vb-intro">The One wants to get it right and is annoyed by every deviation. What Claudio Naranjo called anxiety in the <strong>self-preservation One (SP1)</strong> shows as constant caution: better to prevent one mistake too many than one too few, through preparation, control and safety. In Klitschko this shows in his boxing style and in how he handled setbacks. In 2003 he unexpectedly lost to Corrie Sanders, in 2004 to Lamon Brewster. After the Sanders defeat the trainer Emanuel Steward took over, with whom he worked until Steward&rsquo;s death in 2012, and Klitschko built his boxing on control: distance, jab, little risk.</p>
           <p class="vb-intro">His opponent David Haye called him a &lsquo;control freak&rsquo; in 2011. From the view of the self-preservation One this is the flip side of a strength: someone who builds so much on error avoidance rarely loses his nerve and takes few risks. In 2006 he won the title back, from 2008 to 2015 he held the unified titles, and according to Wikipedia his title reign of 4,382 days is the longest in the heavyweight division.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Nine-wing: calm and stance</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the One calm, balance and a relaxed courtesy. In Klitschko it shows in his demeanor: friendly, factual, rarely loud. Even toward an opponent who provoked him publicly he answered with irony instead of rage and said he respected him as a fighter but not as a person.</p>
-          <p class="vb-intro">The core type One sets standards; the Nine-wing makes sure they are enforced without noise.</p>
+          <p class="vb-intro">With the <strong>Nine-wing (w9)</strong> come calm, balance and a relaxed courtesy. In Klitschko it shows in his demeanor: friendly, factual, rarely loud. Even toward an opponent who provoked him publicly he answered with irony instead of rage and said he respected him as a fighter but not as a person.</p>
+          <p class="vb-intro">The One sets standards, and the Nine-wing makes sure they are enforced without noise.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The anecdote: manners for David Haye</h2>
@@ -2966,13 +2966,13 @@ export function wladimirKlitschkoPortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow of the self-preservation One with Nine-wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light lies in discipline: an Olympic champion who unexpectedly loses twice and returns with a new trainer to the longest title reign in the heavyweight division shows how worry can be translated into work. His conduct toward Haye belongs here too: he answered with irony where others would have become loud.</p>
-          <p class="vb-intro">The shadow of this combination is control at any price. Someone who avoids risk can seem hesitant to spectators, and the self-preservation One can seek so much safety that little room is left for spontaneity. His last two defeats, against Tyson Fury (2015) and Anthony Joshua (2017), ended his professional career.</p>
+          <p class="vb-intro">What succeeds above all is the translation of worry into discipline: an Olympic champion who unexpectedly loses twice and returns with a new trainer to the longest title reign in the heavyweight division shows how worry can be translated into work. His conduct toward Haye belongs here too: he answered with irony where others would have become loud.</p>
+          <p class="vb-intro">The other side of the coin is control at any price. Someone who avoids risk can seem hesitant to spectators, and the self-preservation One can seek so much safety that little room is left for spontaneity. His last two defeats, against Tyson Fury (2015) and Anthony Joshua (2017), ended his professional career.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Where things stand: from the ring to the defense of his country</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">After retiring in 2017, Klitschko was inducted into the International Boxing Hall of Fame in 2021. His professional record: 69 fights, 64 wins (53 by knockout), 5 losses. After the Russian attack on Ukraine in 2022 he joined the Ukrainian Ground Forces. He and his brother <a href="#beruehmte-vitali-klitschko">Vitali (SP7w8)</a> raised &euro;100 million in Germany in March 2022. According to the available information (as of 24 October 2026) he is 50 years old.</p>
+          <p class="vb-intro">After retiring in 2017, Klitschko was inducted into the International Boxing Hall of Fame in 2021. His professional record: 69 fights, 64 wins (53 by knockout), 5 losses. After the Russian attack on Ukraine in 2022 he joined the Ukrainian Ground Forces. He and his brother <a href="#beruehmte-vitali-klitschko">Vitali (SP7w8)</a> raised &euro;100 million in Germany in March 2022. He is 50 years old (as of 24 October 2026).</p>
         </blockquote>
 
       </div>

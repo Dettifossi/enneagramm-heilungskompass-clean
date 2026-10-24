@@ -2842,14 +2842,14 @@ export function lanceOppenheimPortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Sieben: der Blick auf die Gemeinschaft</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Sieben flieht vor dem Schmerz in die Begeisterung, und Claudio Naranjo beschrieb die <strong>soziale Sieben (SO7)</strong> als den Subtyp des Opfers: Der Spaß tritt hinter die Sache zurück, und die Sieben stellt ihr Talent in den Dienst einer Gruppe. Bei Oppenheim zeigt sich das darin, dass er seine Kamera auf Gemeinschaften richtet. Sein Debüt ›Some Kind of Heaven‹ (2020) begleitet Bewohner von The Villages, einer riesigen Seniorensiedlung in Florida. Der Film entstand als Abschlussarbeit an der Harvard University, wurde von <a href="#beruehmte-darren-aronofsky">Darren Aronofsky (SO7w8)</a> und der ›New York Times‹ produziert, feierte beim Sundance Festival Premiere und wurde von Magnolia Pictures gekauft.</p>
+          <p class="vb-intro">Der Spaß tritt hinter die Sache zurück, und die Sieben stellt ihr Talent in den Dienst einer Gruppe: Claudio Naranjo beschrieb die <strong>soziale Sieben (SO7)</strong> deshalb als den Subtyp des Opfers. Bei Oppenheim zeigt sich das darin, dass er seine Kamera auf Gemeinschaften richtet. Sein Debüt ›Some Kind of Heaven‹ (2020) begleitet Bewohner von The Villages, einer riesigen Seniorensiedlung in Florida. Der Film entstand als Abschlussarbeit an der Harvard University, wurde von <a href="#beruehmte-darren-aronofsky">Darren Aronofsky (SO7w8)</a> und der ›New York Times‹ produziert, feierte beim Sundance Festival Premiere und wurde von Magnolia Pictures gekauft.</p>
           <p class="vb-intro">Danach folgten weitere Filme über Gruppen: ›Spermworld‹ (2024, Premiere beim Festival True/False, später bei FX, Disney+ und Hulu) und die HBO-Serie ›Ren Faire‹ (2024, Premiere bei SXSW) über das Texas Renaissance Festival. 2023 stand er auf der Forbes-Liste ›30 Under 30‹.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Sechserflügel: Zusammenarbeit und Treue zur Sache</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der Sieben Loyalität, Teamgeist und das Bedürfnis nach verlässlichen Partnern. Bei Oppenheim zeigt er sich in der Art, wie er arbeitet: mit Produzenten und Mitarbeitern wie Darren Aronofsky, mit der Produktionsfirma Elara Pictures bei ›Ren Faire‹ und 2026 mit Nathan Fielder als Co-Regisseur von ›You Can See Everything‹, einem Film über Elizabeth Holmes. 2025 war er außerdem Produzent von ›The Python Hunt‹, bei dem Xander Robin Regie führte.</p>
-          <p class="vb-intro">Der Kerntyp Sieben ist neugierig und beweglich, der Sechserflügel sorgt dafür, dass er in Teams verlässlich bleibt.</p>
+          <p class="vb-intro">Dem <strong>Sechserflügel (w6)</strong> verdankt die Sieben Loyalität, Teamgeist und das Bedürfnis nach verlässlichen Partnern. Bei Oppenheim zeigt er sich in der Art, wie er arbeitet: mit Produzenten und Mitarbeitern wie Darren Aronofsky, mit der Produktionsfirma Elara Pictures bei ›Ren Faire‹ und 2026 mit Nathan Fielder als Co-Regisseur von ›You Can See Everything‹, einem Film über Elizabeth Holmes. 2025 war er außerdem Produzent von ›The Python Hunt‹, bei dem Xander Robin Regie führte.</p>
+          <p class="vb-intro">Die Sieben bleibt neugierig und beweglich, und der Sechserflügel sorgt dafür, dass er in Teams verlässlich bleibt.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: Wirklichkeit mit Form</h2>
@@ -2866,13 +2866,13 @@ export function lanceOppenheimPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der sozialen Sieben mit Sechserflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt in der Neugier, in der Beweglichkeit und in der Bereitschaft, anderen die Bühne zu überlassen. Wer Seniorensiedlungen, Spendergemeinschaften und Mittelalterfeste mit gleicher Aufmerksamkeit filmt, zeigt Interesse an Menschen und nicht nur an Effekten.</p>
-          <p class="vb-intro">Der Schatten dieser Kombination ist die Gefahr, sich in immer neuen Projekten zu verteilen und nie bei einem zu bleiben. Wer als Dreißigjähriger bereits zwei Serien, einen Dokumentarfilm, eine Co-Regie und einen Spielfilm im Gepäck hat, muss darauf achten, dass die Tiefe mit der Breite mithält.</p>
+          <p class="vb-intro">Hell wirken Neugier, Beweglichkeit und die Bereitschaft, anderen die Bühne zu überlassen. Wer Seniorensiedlungen, Spendergemeinschaften und Mittelalterfeste mit gleicher Aufmerksamkeit filmt, zeigt Interesse an Menschen und nicht nur an Effekten.</p>
+          <p class="vb-intro">Riskant ist die Neigung, sich in immer neuen Projekten zu verteilen und nie bei einem zu bleiben. Wer als Dreißigjähriger bereits zwei Serien, einen Dokumentarfilm, eine Co-Regie und einen Spielfilm im Gepäck hat, muss darauf achten, dass die Tiefe mit der Breite mithält.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Stand: vom Dokumentarfilm zum Spielfilm</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 24. Oktober 2026) ist Lance Oppenheim 30 Jahre alt, seit 2025 mit Abigail Rowe verheiratet und hat ein Kind. Mit ›Primetime‹ und ›You Can See Everything‹ (beide 2026) wechselt er zwischen Spielfilm und Dokumentarfilm.</p>
+          <p class="vb-intro">Lance Oppenheim ist (Stand 24. Oktober 2026) 30 Jahre alt, seit 2025 mit Abigail Rowe verheiratet und hat ein Kind. Mit ›Primetime‹ und ›You Can See Everything‹ (beide 2026) wechselt er zwischen Spielfilm und Dokumentarfilm.</p>
         </blockquote>
 
       </div>

@@ -2817,14 +2817,14 @@ export function robertMcCollumPortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Sieben: die Stimme, die dem Werk dient</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Sieben flieht vor dem Schmerz in die Begeisterung, und ihre Leidenschaft ist die Völlerei: der Drang, von allem mehr zu wollen, mehr Erlebnisse, mehr Anregung, mehr Genuss für sich selbst. Die <strong>soziale Sieben (SO7)</strong> ist nach Claudio Naranjo der Kontratyp der Sieben. Kontratyp heißt: Sie handelt scheinbar gegen das Prinzip ihres Typs. Statt für sich selbst zu schlemmen, findet sie ihre Freude darin, einer Gemeinschaft zu dienen, und lebt die Völlerei dort aus: Sie will für die Gruppe immer mehr beitragen, mehr schaffen, mehr geben. Naranjo nannte das den Subtyp des Opfers, weil die eigene Lust hinter der Sache zurücktritt, aus der sie ihre Freude zieht. Bei McCollum zeigt sich das schon im Beruf. Ein Synchronsprecher spricht seinen Text zum Bild einer fremden Produktion und muss Lippenbewegung, Atem und Gefühl der Vorlage treffen, ohne dass sein Gesicht je auftaucht.</p>
+          <p class="vb-intro">Völlerei, das Verlangen nach immer mehr Erlebnis, Anregung und Genuss, ist die Leidenschaft der Sieben, die vor dem Schmerz in die Begeisterung ausweicht. Die <strong>soziale Sieben (SO7)</strong> ist nach Claudio Naranjo ihr Kontratyp. Kontratyp heißt: Sie handelt scheinbar gegen das Prinzip ihres Typs. Statt für sich selbst zu schlemmen, findet sie ihre Freude darin, einer Gemeinschaft zu dienen, und lebt die Völlerei dort aus: Sie will für die Gruppe immer mehr beitragen, mehr schaffen, mehr geben. Naranjo nannte das den Subtyp des Opfers, weil die eigene Lust hinter der Sache zurücktritt, aus der sie ihre Freude zieht. Bei McCollum zeigt sich das schon im Beruf. Ein Synchronsprecher spricht seinen Text zum Bild einer fremden Produktion und muss Lippenbewegung, Atem und Gefühl der Vorlage treffen, ohne dass sein Gesicht je auftaucht.</p>
           <p class="vb-intro">Er tritt dabei hinter die Figur zurück: Reiner Braun in ›Attack on Titan‹, Donquixote Doflamingo in ›One Piece‹, Stain in ›My Hero Academia‹, Jellal in ›Fairy Tail‹, Julius Novachrono in ›Black Clover‹, Shinya Kogami in ›Psycho-Pass‹, Baki Hanma in ›Baki the Grappler‹. Zu seinen Rollen gehört auch Earl Vincent Phantomhive in ›Black Butler‹.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Sechserflügel: Treue zur Gemeinschaft</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der Sieben Loyalität, Teamgeist und das Bedürfnis, zu einer Gruppe zu gehören. Bei McCollum zeigt sich das in der Verbundenheit mit der Anime-Gemeinde: Er unterschreibt auf Conventions für Fans, zuletzt 2025 bei einer öffentlichen Signierstunde auf der New York Comic Con, und er bezeichnet sich selbst als ›proud trans ally‹ – stolzer Verbündeter von Transmenschen. Ein Teil seiner Einnahmen auf Conventions geht an ›Anime Stands Up For All‹, eine Spendenaktion für die Bürgerrechtsorganisation Lambda Legal.</p>
-          <p class="vb-intro">Der Kerntyp Sieben ist beweglich und sucht die nächste Rolle, der Sechserflügel bindet ihn an die Menschen, die diese Rollen gemeinsam mit ihm lebendig halten.</p>
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> bringt Loyalität, Teamgeist und das Bedürfnis mit, zu einer Gruppe zu gehören. Bei McCollum zeigt sich das in der Verbundenheit mit der Anime-Gemeinde: Er unterschreibt auf Conventions für Fans, zuletzt 2025 bei einer öffentlichen Signierstunde auf der New York Comic Con, und er bezeichnet sich selbst als ›proud trans ally‹ – stolzer Verbündeter von Transmenschen. Ein Teil seiner Einnahmen auf Conventions geht an ›Anime Stands Up For All‹, eine Spendenaktion für die Bürgerrechtsorganisation Lambda Legal.</p>
+          <p class="vb-intro">So verbindet sich die Beweglichkeit der Sieben mit der Treue des Sechserflügels zu den Menschen, die seine Rollen mit ihm lebendig halten.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: Stimme als Spielfeld</h2>
@@ -2841,13 +2841,13 @@ export function robertMcCollumPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der sozialen Sieben mit Sechserflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt in Vielseitigkeit und Verlässlichkeit: Wer über 300 Rollen in fast 25 Jahren spricht, bleibt im Gespräch mit einem Publikum, das ihn kennt. Dass er sich öffentlich für eine Gruppe einsetzt, die angegriffen wird, passt zur Treue des Sechserflügels.</p>
-          <p class="vb-intro">Der Schatten dieser Kombination ist die Gefahr, hinter den Rollen zu verschwinden: Wer so viele fremde Figuren spricht, wird in der Öffentlichkeit oft nur als Stimme wahrgenommen. Und die Vielfalt der Projekte, vom Hörspiel über Werbefilme bis zu Sicherheitsschulungen, verlangt, dass die Tiefe mit der Breite mithält.</p>
+          <p class="vb-intro">Überzeugend wirkt die Mischung aus Vielseitigkeit und Verlässlichkeit: Wer über 300 Rollen in fast 25 Jahren spricht, bleibt im Gespräch mit einem Publikum, das ihn kennt. Dass er sich öffentlich für eine Gruppe einsetzt, die angegriffen wird, passt zur Treue des Sechserflügels.</p>
+          <p class="vb-intro">Die Schattenseite ist die Gefahr, hinter den Rollen zu verschwinden: Wer so viele fremde Figuren spricht, wird in der Öffentlichkeit oft nur als Stimme wahrgenommen. Und die Vielfalt der Projekte, vom Hörspiel über Werbefilme bis zu Sicherheitsschulungen, verlangt, dass die Tiefe mit der Breite mithält.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Stand: zwischen Dallas und den Conventions</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 24. Oktober 2026) lebt Robert McCollum in Dallas, spricht weiter Anime-Rollen und tritt auf Conventions auf. Über sein Privatleben ist wenig öffentlich dokumentiert; dieses Porträt beschränkt sich auf das, was er selbst und seine Agentur öffentlich über seine Arbeit angeben.</p>
+          <p class="vb-intro">Robert McCollum lebt (Stand 24. Oktober 2026) in Dallas, spricht weiter Anime-Rollen und tritt auf Conventions auf. Sein Privatleben ist kaum dokumentiert; dieses Porträt beschränkt sich auf das, was er selbst und seine Agentur öffentlich über seine Arbeit angeben.</p>
         </blockquote>
 
       </div>

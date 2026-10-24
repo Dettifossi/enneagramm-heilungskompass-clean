@@ -2881,14 +2881,14 @@ export function vitaliKlitschkoPortraitPage() {
 
         <h2 class="vb-section">2. The self-preservation Seven: the circle of the family</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Seven sidesteps pain by turning to enthusiasm, and its passion is gluttony, the craving for ever more. Claudio Naranjo called the <strong>self-preservation Seven (SP7)</strong> the family: its appetite is directed at security and belonging in the closest circle. In Klitschko this circle is the pair of brothers. Vitali and his brother Wladimir dominated the heavyweight division together in the period known as the &lsquo;Klitschko Era&rsquo; (2006 to 2015), and they never fought each other.</p>
+          <p class="vb-intro">In the <strong>self-preservation Seven (SP7)</strong> the Seven&rsquo;s craving for ever more turns to its own protected space: Claudio Naranjo spoke of the &lsquo;family&rsquo;, an appetite for security and belonging in the closest circle. In Klitschko this circle is the pair of brothers. Vitali and his brother Wladimir dominated the heavyweight division together in the period known as the &lsquo;Klitschko Era&rsquo; (2006 to 2015), and they never fought each other.</p>
           <p class="vb-intro">He was married to Natalia Yehorova from 1996; they have three children and have lived separately since 2022. When Russia launched its full-scale invasion in February 2022, he and Wladimir pledged to defend Kyiv and raised &euro;100 million in Germany in March.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Eight-wing: standing firm</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Seven assertiveness, directness and the willingness to fight a fight. In Klitschko it shows in the ring and afterwards in politics. He was never knocked down in his whole professional career, and he is one of the few heavyweight champions of whom that is true. After retiring in 2005 with a knee injury he returned in 2008 and beat Samuel Peter for the WBC title.</p>
-          <p class="vb-intro">In politics he became a leading figure of the Euromaidan protests of 2013/14 and, since 2014, mayor of Kyiv. The core type Seven seeks mobility; the Eight-wing makes sure he stays where he takes responsibility.</p>
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> makes the Seven assertive, direct and ready to fight. In Klitschko it shows in the ring and afterwards in politics. He was never knocked down in his whole professional career, and he is one of the few heavyweight champions of whom that is true. After retiring in 2005 with a knee injury he returned in 2008 and beat Samuel Peter for the WBC title.</p>
+          <p class="vb-intro">In politics he became a leading figure of the Euromaidan protests of 2013/14 and, since 2014, mayor of Kyiv. The Seven seeks mobility, and the Eight-wing holds it where it takes responsibility.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The substance: boxer, strategist, mayor</h2>
@@ -2905,13 +2905,13 @@ export function vitaliKlitschkoPortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow of the self-preservation Seven with Eight-wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light lies in reliability under pressure: someone who stays in the capital of an attacked country and carries responsibility there shows steadfastness. That as an athlete he never went down belongs in the same picture.</p>
-          <p class="vb-intro">The shadow of this combination shows in conflicts that are fought out openly: in December 2023 Klitschko publicly criticized President Zelenskyy and accused him of authoritarianism under martial law. Conversely, according to Wikipedia, in October 2026 after Russian air strikes on infrastructure there were calls for his resignation over inadequate preparation for winter, and Zelenskyy also expressed criticism. Who is right in this dispute is not judged by this portrait: both sides may have legitimate arguments on individual points, and the situation will keep changing. It is typical of the Eight-wing that conflicts are fought out openly and directly instead of being avoided.</p>
+          <p class="vb-intro">He can be relied on even under pressure: someone who stays in the capital of an attacked country and carries responsibility there shows steadfastness. That as an athlete he never went down belongs in the same picture.</p>
+          <p class="vb-intro">The shadow side shows in conflicts that are fought out openly: in December 2023 Klitschko publicly criticized President Zelenskyy and accused him of authoritarianism under martial law. Conversely, according to Wikipedia, in October 2026 after Russian air strikes on infrastructure there were calls for his resignation over inadequate preparation for winter, and Zelenskyy also expressed criticism. Who is right in this dispute is not judged by this portrait: both sides may have legitimate arguments on individual points, and the situation will keep changing. It is typical of the Eight-wing that conflicts are fought out openly and directly instead of being avoided.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Where things stand: Kyiv in autumn 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to the available information (as of 24 October 2026) Vitali Klitschko is 55 years old and mayor of Kyiv. His politics and his conduct in office are assessed controversially in Ukraine and internationally. This portrait describes his public work and takes no position on the political disputes.</p>
+          <p class="vb-intro">Vitali Klitschko is 55 years old (as of 24 October 2026) and mayor of Kyiv. His politics and his conduct in office are assessed controversially in Ukraine and internationally. This portrait describes his public work and takes no position on the political disputes.</p>
         </blockquote>
 
       </div>

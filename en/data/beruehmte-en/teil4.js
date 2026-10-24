@@ -2925,14 +2925,14 @@ export function henryMaskePortraitPage() {
 
         <h2 class="vb-section">2. The self-preservation One: the demand on himself</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The One wrestles with anger about the imperfect and wants to get it right. Claudio Naranjo described the <strong>self-preservation One (SP1)</strong> with anxiety: the worry of failing turns into preparation, consistency and self-control. In Maske this is a life theme. In an interview with Sports Illustrated of 24 April 2026 he says: &lsquo;Ich war kein Naturtalent&rsquo; (I was not a natural talent). That is why he needed discipline and endurance, and the mental breakthroughs under his trainer shaped him most.</p>
+          <p class="vb-intro">The One looks for what is right and suffers from the imperfect. In the <strong>self-preservation One (SP1)</strong> this standard points mainly inward: it measures itself against what it ought to achieve, and the quiet worry of not measuring up turns into training, planning and self-control. In Maske this is a life theme. In an interview with Sports Illustrated of 24 April 2026 he says: &lsquo;Ich war kein Naturtalent&rsquo; (I was not a natural talent). That is why he needed discipline and endurance, and the mental breakthroughs under his trainer shaped him most.</p>
           <p class="vb-intro">He names honesty with himself, consistency and holding on to his own standards as values. Whoever deliberately disappoints or betrays him gets no second chance. This is the strictness of the One, directed first at itself and then applying the same measure to others.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Nine-wing: the calm gentleman</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the One calm, composure and a friendly reserve. In Maske it shows in his reputation as &lsquo;the gentleman&rsquo;: as a professional he appeared in such a way that he became known for his composed manner, with a defensive, controlled style. He himself says he did not play a role: decency, respect and a calm way of dealing with others had been natural to him.</p>
-          <p class="vb-intro">The core type One sets the standard; the Nine-wing gives it the composure to live it without noise.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> lets the One appear calmer and friendlier, with quiet reserve. In Maske it shows in his reputation as &lsquo;the gentleman&rsquo;: as a professional he appeared in such a way that he became known for his composed manner, with a defensive, controlled style. He himself says he did not play a role: decency, respect and a calm way of dealing with others had been natural to him.</p>
+          <p class="vb-intro">The One sets the standard, and the Nine-wing gives it the composure to live it without noise.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The substance: gentleman in the ring</h2>
@@ -2949,13 +2949,13 @@ export function henryMaskePortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow of the self-preservation One with Nine-wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light lies in credibility: someone who lives the same demeanor in the ring and afterwards is experienced as reliable. Maske says on this that recognition is pleasant but also a burden because it raises expectations, and that the spotlight does not only have positive sides.</p>
-          <p class="vb-intro">The shadow of this combination is the strictness that gives no second chance, and the high demand on himself that grows under observation. A gentleman image can also confine, because every deviation from it counts as a mistake.</p>
+          <p class="vb-intro">He comes across as credible: someone who lives the same demeanor in the ring and afterwards is experienced as reliable. Maske says on this that recognition is pleasant but also a burden because it raises expectations, and that the spotlight does not only have positive sides.</p>
+          <p class="vb-intro">The price of consistency is the strictness that gives no second chance, and the high demand on himself that grows under observation. A gentleman image can also confine, because every deviation from it counts as a mistake.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Where things stand: entrepreneur, patron and gentleman emeritus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In 1999 Maske founded the Henry Maske Fonds, which helps disadvantaged young people. He was a McDonald&rsquo;s franchisee until 2019 and has been patron of a Ronald McDonald House in Essen since 2005. In 2008 he was announced for the lead role in the film &lsquo;Max Schmeling&rsquo; (directed by Uwe Boll). He received the Federal Cross of Merit (2001), the Golden Sports Pyramid and induction into the Hall of Fame of German Sport (2012) as well as a place on the Munich Olympic Walk of Stars (2013). According to the available information (as of 24 October 2026) he is 62 years old, married to Manuela and lives in Overath near Cologne.</p>
+          <p class="vb-intro">In 1999 Maske founded the Henry Maske Fonds, which helps disadvantaged young people. He was a McDonald&rsquo;s franchisee until 2019 and has been patron of a Ronald McDonald House in Essen since 2005. In 2008 he was announced for the lead role in the film &lsquo;Max Schmeling&rsquo; (directed by Uwe Boll). He received the Federal Cross of Merit (2001), the Golden Sports Pyramid and induction into the Hall of Fame of German Sport (2012) as well as a place on the Munich Olympic Walk of Stars (2013). He is 62 years old (as of 24 October 2026), married to Manuela and lives in Overath near Cologne.</p>
         </blockquote>
 
       </div>

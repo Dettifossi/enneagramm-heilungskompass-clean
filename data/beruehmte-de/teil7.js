@@ -2795,14 +2795,14 @@ export function thylaneBlondeauPortraitPage() {
 
         <h2 class="vb-section">2. Die sexuelle Drei: Wirkung ohne Worte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Drei strebt nach Erfolg, und die <strong>sexuelle Drei (SX3)</strong> macht nach Claudio Naranjo persönliche Anziehungskraft zum Mittel: Naranjo nannte den Subtyp ›Masculinity/Femininity‹, das Verkörpern eines Ideals von Männlichkeit oder Weiblichkeit. Bei Blondeau begann dies als Kind, ohne dass sie es sich ausgesucht hätte. Als Zehnjährige erschien sie in einem Supplement der ›Vogue Paris‹ in Erwachsenenkleidung und Make-up, was eine öffentliche Debatte über die Sexualisierung von Kindern in den Medien auslöste. Die Verantwortung dafür lag bei den Erwachsenen, nicht bei dem Kind.</p>
+          <p class="vb-intro">Bei der <strong>sexuellen Drei (SX3)</strong> wird die eigene Anziehungskraft zum Mittel des Erfolgs; Claudio Naranjo nannte den Subtyp ›Masculinity/Femininity‹ (Männlichkeit/Weiblichkeit), das Verkörpern eines Ideals. Bei Blondeau begann dies als Kind, ohne dass sie es sich ausgesucht hätte. Als Zehnjährige erschien sie in einem Supplement der ›Vogue Paris‹ in Erwachsenenkleidung und Make-up, was eine öffentliche Debatte über die Sexualisierung von Kindern in den Medien auslöste. Die Verantwortung dafür lag bei den Erwachsenen, nicht bei dem Kind.</p>
           <p class="vb-intro">Später wurde die Wirkung zur Arbeit: Mit 13 war sie auf dem Cover von ›Jalouse‹, 2015 unterschrieb sie bei IMG Models, 2016 posierte sie für ›Flaunt‹. Sie arbeitete unter anderem mit Dolce & Gabbana, L'Oréal und Versace.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Viererflügel: Stil und eigene Handschrift</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der Drei den Wunsch, einzigartig zu sein und sich über Ästhetik auszudrücken. Bei Blondeau zeigt er sich im Wechsel von der Muse zur Gestalterin: 2018 gründete sie ihre Modemarke Heaven May. 2017 wurde sie an ihrem 16. Geburtstag globale Botschafterin von L'Oréal Paris und damit die jüngste in der Geschichte der Marke. Zu dieser Rolle sagte sie, die Marke passe zu ihren Werten wie Selbstvertrauen und Selbstachtung.</p>
-          <p class="vb-intro">Der Kerntyp Drei will wirken, der Viererflügel sucht dabei den eigenen Ausdruck, sodass aus dem Gesicht für andere ein eigenes Label wird.</p>
+          <p class="vb-intro">Aus dem <strong>Viererflügel (w4)</strong> stammt der Wunsch, einzigartig zu sein und sich über Ästhetik auszudrücken. Bei Blondeau zeigt er sich im Wechsel von der Muse zur Gestalterin: 2018 gründete sie ihre Modemarke Heaven May. 2017 wurde sie an ihrem 16. Geburtstag globale Botschafterin von L'Oréal Paris und damit die jüngste in der Geschichte der Marke. Zu dieser Rolle sagte sie, die Marke passe zu ihren Werten wie Selbstvertrauen und Selbstachtung.</p>
+          <p class="vb-intro">Die Drei will wirken, und der Viererflügel sucht dabei den eigenen Ausdruck, sodass aus dem Gesicht für andere ein eigenes Label wird.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: Karriere statt Kindheitsetikett</h2>
@@ -2819,13 +2819,13 @@ export function thylaneBlondeauPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der sexuellen Drei mit Viererflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt in der Fähigkeit, ein früh aufgedrücktes Etikett in eigene Projekte zu verwandeln. Wer als Kind für ein Aussehen bekannt wird und als junge Erwachsene eine Marke gründet, nimmt die Deutung wieder selbst in die Hand.</p>
-          <p class="vb-intro">Der Schatten dieser Kombination ist die Abhängigkeit vom Bild: Wer früh über Wirkung wahrgenommen wird, muss lernen, dass der eigene Wert nicht an das Echo der Öffentlichkeit gebunden ist. Das gilt für die Drei besonders, und der Viererflügel verschärft die Frage, wer hinter dem Bild steht.</p>
+          <p class="vb-intro">Hell ist ihre Fähigkeit, ein früh aufgedrücktes Etikett in eigene Projekte zu verwandeln. Wer als Kind für ein Aussehen bekannt wird und als junge Erwachsene eine Marke gründet, nimmt die Deutung wieder selbst in die Hand.</p>
+          <p class="vb-intro">Heikel ist die Abhängigkeit vom Bild: Wer früh über Wirkung wahrgenommen wird, muss lernen, dass der eigene Wert nicht an das Echo der Öffentlichkeit gebunden ist. Das gilt für die Drei besonders, und der Viererflügel verschärft die Frage, wer hinter dem Bild steht.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Stand: eine junge Frau mit eigener Marke</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 24. Oktober 2026) ist Thylane Blondeau 25 Jahre alt. Laut Wikipedia heiratete sie am 30. Juni 2026 in Paris den Modeunternehmer Benjamin Attal; die Verlobung war im März 2026 bekannt gegeben worden. Zu ihrem Privatleben ist darüber hinaus wenig dokumentiert, und dieses Porträt belässt es dabei.</p>
+          <p class="vb-intro">Thylane Blondeau ist (Stand 24. Oktober 2026) 25 Jahre alt. Laut Wikipedia heiratete sie am 30. Juni 2026 in Paris den Modeunternehmer Benjamin Attal; die Verlobung war im März 2026 bekannt gegeben worden. Zu ihrem Privatleben ist darüber hinaus wenig dokumentiert, und dieses Porträt belässt es dabei.</p>
         </blockquote>
 
       </div>

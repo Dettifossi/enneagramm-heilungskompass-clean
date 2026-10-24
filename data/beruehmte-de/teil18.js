@@ -2890,14 +2890,14 @@ export function sheilaDeLizPortraitPage() {
 
         <h2 class="vb-section">2. Der sexuelle Sechser: die Angst frontal angehen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Sechs lebt mit Zweifel und Wachsamkeit, und Claudio Naranjo beschrieb den <strong>sexuellen Sechser (SX6)</strong> als Kontratyp, der Angst nicht durch Anlehnung, sondern durch Stärke beantwortet. Bei de Liz zeigt sich das im Umgang mit Scham. Frauenkörper, Menstruation, Wechseljahre und Lust gelten vielen als heikles Thema. Sie spricht darüber offen: In Büchern, auf YouTube, auf Instagram und TikTok, in einer Kolumne in der Jugendzeitschrift ›Mädchen‹.</p>
+          <p class="vb-intro">Die Sechs trägt Zweifel und Wachsamkeit in sich; der <strong>sexuelle Sechser (SX6)</strong> ist nach Claudio Naranjo ihr Kontratyp und antwortet auf Angst nicht mit Anlehnung, sondern mit Stärke. Bei de Liz zeigt sich das im Umgang mit Scham. Frauenkörper, Menstruation, Wechseljahre und Lust gelten vielen als heikles Thema. Sie spricht darüber offen: In Büchern, auf YouTube, auf Instagram und TikTok, in einer Kolumne in der Jugendzeitschrift ›Mädchen‹.</p>
           <p class="vb-intro">Ihre Grundhaltung fasst sie so zusammen: ›Schweigen ist das Schlimmste, was man machen kann.‹ Das Schweigen um den weiblichen Körper führt sie auf eine Tradition von Scham und Sexualisierung zurück. Sie sieht sich nach eigenen Worten eher als Kreuzritterin denn als Influencerin.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Siebenerflügel: Humor und Leichtigkeit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der Sechs Lebendigkeit, Humor und die Lust, Dinge mit Leichtigkeit zu vermitteln. Bei de Liz zeigt er sich in den Titeln und im Ton: ›Unverschämt: Alles über den fabelhaften weiblichen Körper‹ (2019), ›Woman On Fire: Alles über die fabelhaften Wechseljahre‹ (2020), ›Girl on Fire‹ (2022). Gemeinsam mit dem Urologen Volker Wittkamp erklärt sie auf TikTok unter dem Namen ›Doktorsex‹ Fragen zu Körper und Sexualität.</p>
-          <p class="vb-intro">Der Kerntyp Sechs wählt den Weg durch die Angst hindurch, der Siebenerflügel macht daraus eine Einladung mit Witz, sodass sich auch Jugendliche und Menschen in den Wechseljahren angesprochen fühlen.</p>
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> bringt Lebendigkeit, Humor und die Lust mit, Dinge mit Leichtigkeit zu vermitteln. Bei de Liz zeigt er sich in den Titeln und im Ton: ›Unverschämt: Alles über den fabelhaften weiblichen Körper‹ (2019), ›Woman On Fire: Alles über die fabelhaften Wechseljahre‹ (2020), ›Girl on Fire‹ (2022). Gemeinsam mit dem Urologen Volker Wittkamp erklärt sie auf TikTok unter dem Namen ›Doktorsex‹ Fragen zu Körper und Sexualität.</p>
+          <p class="vb-intro">Die Sechs geht durch die Angst hindurch, und der Siebenerflügel macht daraus eine Einladung mit Witz, sodass sich auch Jugendliche und Menschen in den Wechseljahren angesprochen fühlen.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: Aufklärung als Handwerk</h2>
@@ -2914,13 +2914,13 @@ export function sheilaDeLizPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der sexuellen Sechs mit Siebenerflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt im Mut, ein Tabu beim Namen zu nennen, und in der Fähigkeit, es verständlich zu machen. Wer Frauen ab 40 sagt, dass Lust und Wechseljahre zusammen gedacht werden dürfen, nimmt ihnen eine Last ab.</p>
-          <p class="vb-intro">Der Schatten dieser Kombination ist die Gefahr, die eigene Wachsamkeit hinter dem Dauereinsatz zu verbergen: Wer an vielen Fronten kämpft, muss darauf achten, die Erholung nicht zu vergessen. Und ein offener Ton lädt zu Gegenwind ein, den sie nach der vorliegenden Quellenlage aber nicht zum Rückzug nutzt.</p>
+          <p class="vb-intro">Zu ihren Stärken zählt der Mut, ein Tabu beim Namen zu nennen, und in der Fähigkeit, es verständlich zu machen. Wer Frauen ab 40 sagt, dass Lust und Wechseljahre zusammen gedacht werden dürfen, nimmt ihnen eine Last ab.</p>
+          <p class="vb-intro">Der Preis dieser Kombination ist die Gefahr, die eigene Wachsamkeit hinter dem Dauereinsatz zu verbergen: Wer an vielen Fronten kämpft, muss darauf achten, die Erholung nicht zu vergessen. Und ein offener Ton lädt zu Gegenwind ein, den sie nach der vorliegenden Quellenlage aber nicht zum Rückzug nutzt.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Stand: Praxis, Bücher und Online-Sprechstunde</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 24. Oktober 2026) arbeitet Sheila de Liz weiter in ihrer Praxis in Wiesbaden und bietet eine Online-Hormonsprechstunde an. Sie schreibt weiter Bücher und tritt in Medien und Sozialen Netzwerken auf. Dieses Porträt beschränkt sich auf ihr öffentliches Wirken; es gibt keine medizinischen Empfehlungen.</p>
+          <p class="vb-intro">Sheila de Liz arbeitet laut den vorliegenden Angaben (Stand 24. Oktober 2026) weiter in ihrer Praxis in Wiesbaden und bietet eine Online-Hormonsprechstunde an. Sie schreibt weiter Bücher und tritt in Medien und Sozialen Netzwerken auf. Dieses Porträt beschränkt sich auf ihr öffentliches Wirken; es gibt keine medizinischen Empfehlungen.</p>
         </blockquote>
 
       </div>

@@ -2892,14 +2892,14 @@ export function vitaliKlitschkoPortraitPage() {
 
         <h2 class="vb-section">2. Die selbsterhaltende Sieben: der Kreis der Familie</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Sieben weicht dem Schmerz in die Begeisterung aus, und ihre Leidenschaft ist die Völlerei, das Verlangen nach immer mehr. Die <strong>selbsterhaltende Sieben (SE7)</strong> nannte Claudio Naranjo die Familie: Ihr Appetit richtet sich auf Sicherheit und Zugehörigkeit im engsten Kreis. Bei Klitschko ist dieser Kreis das Brüderpaar. Vitali und sein Bruder Wladimir dominierten gemeinsam das Schwergewicht in der Zeit, die als ›Klitschko-Ära‹ (2006 bis 2015) gilt, und sie traten nie gegeneinander an.</p>
+          <p class="vb-intro">Bei der <strong>selbsterhaltenden Sieben (SE7)</strong> wendet sich die Gier der Sieben nach immer mehr auf den eigenen Schutzraum: Claudio Naranjo sprach von der ›Familie‹, einem Appetit auf Sicherheit und Zugehörigkeit im engsten Kreis. Bei Klitschko ist dieser Kreis das Brüderpaar. Vitali und sein Bruder Wladimir dominierten gemeinsam das Schwergewicht in der Zeit, die als ›Klitschko-Ära‹ (2006 bis 2015) gilt, und sie traten nie gegeneinander an.</p>
           <p class="vb-intro">Seit 1996 war er mit Natalia Jehorowa verheiratet; sie haben drei Kinder und leben seit 2022 getrennt. Als Russland im Februar 2022 die Ukraine vollständig angriff, versprachen er und Wladimir, Kiew zu verteidigen, und sammelten im März in Deutschland 100 Millionen Euro.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Achterflügel: Stand halten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der Sieben Durchsetzung, Direktheit und die Bereitschaft, einen Kampf auszutragen. Bei Klitschko zeigt er sich im Ring und danach in der Politik. Er wurde in seiner ganzen Profikarriere nie zu Boden geschlagen, und er gehört zu den wenigen Schwergewichts-Champions, auf die das zutrifft. Nach seinem Rücktritt wegen einer Knieverletzung 2005 kehrte er 2008 zurück und schlug Samuel Peter um den WBC-Titel.</p>
-          <p class="vb-intro">In der Politik wurde er zu einer führenden Figur der Euromaidan-Proteste 2013/14 und seit 2014 Bürgermeister von Kiew. Der Kerntyp Sieben sucht die Beweglichkeit, der Achterflügel sorgt dafür, dass er dort, wo er Verantwortung übernimmt, auch bleibt.</p>
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> macht die Sieben durchsetzungsstark, direkt und kampfbereit. Bei Klitschko zeigt er sich im Ring und danach in der Politik. Er wurde in seiner ganzen Profikarriere nie zu Boden geschlagen, und er gehört zu den wenigen Schwergewichts-Champions, auf die das zutrifft. Nach seinem Rücktritt wegen einer Knieverletzung 2005 kehrte er 2008 zurück und schlug Samuel Peter um den WBC-Titel.</p>
+          <p class="vb-intro">In der Politik wurde er zu einer führenden Figur der Euromaidan-Proteste 2013/14 und seit 2014 Bürgermeister von Kiew. Die Sieben sucht Beweglichkeit, und der Achterflügel hält sie dort fest, wo sie Verantwortung übernimmt.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: Boxer, Stratege, Bürgermeister</h2>
@@ -2916,13 +2916,13 @@ export function vitaliKlitschkoPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Sieben mit Achterflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt in der Verlässlichkeit unter Druck: Wer in der Hauptstadt eines angegriffenen Landes bleibt und dort Verantwortung trägt, zeigt Standfestigkeit. Dass er als Sportler nie zu Boden ging, gehört in dasselbe Bild.</p>
-          <p class="vb-intro">Der Schatten dieser Kombination zeigt sich in Konflikten, die offen ausgetragen werden: Im Dezember 2023 kritisierte Klitschko Präsident Selenskyj öffentlich und warf ihm Autoritarismus unter dem Kriegsrecht vor. Umgekehrt gab es laut Wikipedia im Oktober 2026 nach russischen Luftangriffen auf die Infrastruktur Rücktrittsforderungen gegen ihn wegen mangelhafter Vorbereitung auf den Winter, und auch Selenskyj äußerte Kritik. Wer in diesem Streit recht hat, beurteilt dieses Porträt nicht: Beide Seiten können in einzelnen Punkten berechtigte Argumente haben, und die Lage wird sich weiter verändern. Typisch für den Achterflügel ist, dass Konflikte offen und direkt ausgetragen werden, statt ihnen auszuweichen.</p>
+          <p class="vb-intro">Auf ihn ist auch unter Druck Verlass: Wer in der Hauptstadt eines angegriffenen Landes bleibt und dort Verantwortung trägt, zeigt Standfestigkeit. Dass er als Sportler nie zu Boden ging, gehört in dasselbe Bild.</p>
+          <p class="vb-intro">Die Schattenseite zeigt sich in Konflikten, die offen ausgetragen werden: Im Dezember 2023 kritisierte Klitschko Präsident Selenskyj öffentlich und warf ihm Autoritarismus unter dem Kriegsrecht vor. Umgekehrt gab es laut Wikipedia im Oktober 2026 nach russischen Luftangriffen auf die Infrastruktur Rücktrittsforderungen gegen ihn wegen mangelhafter Vorbereitung auf den Winter, und auch Selenskyj äußerte Kritik. Wer in diesem Streit recht hat, beurteilt dieses Porträt nicht: Beide Seiten können in einzelnen Punkten berechtigte Argumente haben, und die Lage wird sich weiter verändern. Typisch für den Achterflügel ist, dass Konflikte offen und direkt ausgetragen werden, statt ihnen auszuweichen.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Stand: Kiew im Herbst 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 24. Oktober 2026) ist Vitali Klitschko 55 Jahre alt und Bürgermeister von Kiew. Seine Politik und seine Amtsführung werden in der Ukraine und international kontrovers beurteilt. Dieses Porträt beschreibt sein öffentliches Wirken und nimmt keine Stellung zu den politischen Streitfragen.</p>
+          <p class="vb-intro">Vitali Klitschko ist (Stand 24. Oktober 2026) 55 Jahre alt und Bürgermeister von Kiew. Seine Politik und seine Amtsführung werden in der Ukraine und international kontrovers beurteilt. Dieses Porträt beschreibt sein öffentliches Wirken und nimmt keine Stellung zu den politischen Streitfragen.</p>
         </blockquote>
 
       </div>

@@ -2910,14 +2910,14 @@ export function bradleyCooperPortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Eins: Anspruch und Verantwortung</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Eins will es richtig machen, und Claudio Naranjo beschrieb die <strong>soziale Eins (SO1)</strong> als den Subtyp der Unangepasstheit: Sie richtet den Anspruch auf die Gruppe, nimmt Verantwortung wahr und lässt sich nicht verbiegen. Bei Cooper zeigt sich das in der Gründlichkeit seiner Ausbildung (Englisch, Französisch, ein Schauspiel-Master) und in der Konsequenz, mit der er sich verändert hat: Seit 2004 verzichtet er nach eigener Aussage auf Alkohol und Drogen.</p>
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> richtet ihren Anspruch auf die Gruppe, nimmt Verantwortung wahr und lässt sich nicht verbiegen; Claudio Naranjo sprach vom Subtyp der Unangepasstheit. Bei Cooper zeigt sich das in der Gründlichkeit seiner Ausbildung (Englisch, Französisch, ein Schauspiel-Master) und in der Konsequenz, mit der er sich verändert hat: Seit 2004 verzichtet er nach eigener Aussage auf Alkohol und Drogen.</p>
           <p class="vb-intro">Auch sein Umgang mit dem Verlust des Vaters, der 2011 an Lungenkrebs starb, zeigt die Verantwortung für andere. Er unterstützte danach Krebs-Initiativen, kam 2014 in den Vorstand des Hole in the Wall Gang Camp und war ausführender Produzent von Stand Up to Cancer.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Zweierflügel: Zuwendung und Charme</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der Eins Wärme, Zuwendung und den Wunsch, gebraucht zu werden. Bei Cooper zeigt er sich im Umgang mit anderen und in der Frage, wie er auf Menschen wirkt. Er sagte über seine Arbeit: ›I enjoy people, that makes this profession a lot easier, and I can sleep anywhere.‹ – er mag Menschen, das macht den Beruf einfacher, und er kann überall schlafen. Das Magazin ›People‹ ernannte ihn 2011 zum ›Sexiest Man Alive‹ (›begehrtesten Mann der Welt‹), und er antwortete darauf in einem ›Esquire‹-Interview mit dem Satz: ›Fall in love with my looks, fine, but stay with me for my talent.‹ – von mir aus verliebt euch in mein Aussehen, aber bleibt wegen meines Talents.</p>
-          <p class="vb-intro">Der Kerntyp Eins stellt den Anspruch, der Zweierflügel macht ihn menschlich.</p>
+          <p class="vb-intro">Aus dem <strong>Zweierflügel (w2)</strong> stammen Wärme, Zuwendung und der Wunsch, gebraucht zu werden. Bei Cooper zeigt er sich im Umgang mit anderen und in der Frage, wie er auf Menschen wirkt. Er sagte über seine Arbeit: ›I enjoy people, that makes this profession a lot easier, and I can sleep anywhere.‹ – er mag Menschen, das macht den Beruf einfacher, und er kann überall schlafen. Das Magazin ›People‹ ernannte ihn 2011 zum ›Sexiest Man Alive‹ (›begehrtesten Mann der Welt‹), und er antwortete darauf in einem ›Esquire‹-Interview mit dem Satz: ›Fall in love with my looks, fine, but stay with me for my talent.‹ – von mir aus verliebt euch in mein Aussehen, aber bleibt wegen meines Talents.</p>
+          <p class="vb-intro">Die Eins stellt den Anspruch, und der Zweierflügel macht ihn menschlich.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: vom Schauspieler zum Regisseur</h2>
@@ -2934,13 +2934,13 @@ export function bradleyCooperPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der sozialen Eins mit Zweierflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt im Anspruch, im Fleiß und in der Bereitschaft, andere mitzunehmen. Wer jahrelang konsequent an sich arbeitet und diese Erfahrung weitergibt, zeigt die Stärke der Eins mit Zweierflügel.</p>
-          <p class="vb-intro">Der Schatten dieser Kombination ist die innere Strenge, die sich als Perfektionismus zeigt, und der Wunsch, dafür gesehen zu werden. Sein Satz über Aussehen und Talent zeigt, dass er sich nicht auf sein Bild reduzieren lassen will.</p>
+          <p class="vb-intro">Gut sind sein Anspruch, sein Fleiß und seine Bereitschaft, andere mitzunehmen. Wer jahrelang konsequent an sich arbeitet und diese Erfahrung weitergibt, zeigt die Stärke der Eins mit Zweierflügel.</p>
+          <p class="vb-intro">Belastend ist die innere Strenge, die sich als Perfektionismus zeigt, und der Wunsch, dafür gesehen zu werden. Sein Satz über Aussehen und Talent zeigt, dass er sich nicht auf sein Bild reduzieren lassen will.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Stand: Regie, Rolle, Restaurant</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 24. Oktober 2026) ist Bradley Cooper 51 Jahre alt. 2025 hatte er einen Gastauftritt als Jor-El in ›Superman‹, drehte als Regisseur und Darsteller ›Is This Thing On?‹ und eröffnete in New York das Käse-Steak-Restaurant ›Danny and Coop's‹. Er hat eine Tochter, die 2017 geboren wurde.</p>
+          <p class="vb-intro">Bradley Cooper ist (Stand 24. Oktober 2026) 51 Jahre alt. 2025 hatte er einen Gastauftritt als Jor-El in ›Superman‹, drehte als Regisseur und Darsteller ›Is This Thing On?‹ und eröffnete in New York das Käse-Steak-Restaurant ›Danny and Coop's‹. Er hat eine Tochter, die 2017 geboren wurde.</p>
         </blockquote>
 
       </div>

@@ -2835,14 +2835,14 @@ export function hagenRetherPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Three: skill instead of shine</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Three strives for success, and the <strong>Self-Preservation Three (SP3)</strong> is, according to Claudio Naranjo, the countertype of the Three and stands for security: it does not show its achievement on stage but builds substance. In Rether this shows in the way he performs. Since 2003 he has played his solo program &lsquo;Liebe&rsquo; (&lsquo;Love&rsquo;), which he keeps updating. The stage is almost empty: a black grand piano, an office chair, a water glass, a cleaning cloth, sometimes bananas. During the evening he cleans the piano.</p>
+          <p class="vb-intro">Where the Three usually wants to shine, the <strong>self-preservation Three (SP3)</strong> prefers to build substance quietly: Claudio Naranjo classed it as a countertype for which security matters more than the big appearance. In Rether this shows in the way he performs. Since 2003 he has played his solo program &lsquo;Liebe&rsquo; (&lsquo;Love&rsquo;), which he keeps updating. The stage is almost empty: a black grand piano, an office chair, a water glass, a cleaning cloth, sometimes bananas. During the evening he cleans the piano.</p>
           <p class="vb-intro">The evenings are long, up to three and a half hours, and live from a chatty tone and surprising comparisons instead of a firework of punchlines. He links current topics with history and relies on material and patience.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two-wing: sympathy and commitment</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the Three warmth, attention and the wish to be there for others. In Rether it shows in his commitment off stage: he has been a member of Attac since 2002 and a member of Amnesty International and supports the women&rsquo;s rights organization Medica mondiale. He lives vegan and in his program criticizes, among other things, factory farming, the Catholic Church, US politics and growing Islamophobia.</p>
-          <p class="vb-intro">The core type Three works toward impact; the Two-wing directs this impact at the people in the hall and at the world outside.</p>
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> colors the Three with warmth and the wish to be there for others. In Rether it shows in his commitment off stage: he has been a member of Attac since 2002 and a member of Amnesty International and supports the women&rsquo;s rights organization Medica mondiale. He lives vegan and in his program criticizes, among other things, factory farming, the Catholic Church, US politics and growing Islamophobia.</p>
+          <p class="vb-intro">The Three works toward impact, and the Two-wing directs it at the people in the hall and the world outside.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The substance: cabaret with piano</h2>
@@ -2859,13 +2859,13 @@ export function hagenRetherPortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow of the Self-Preservation Three with Two-wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light lies in perseverance: someone who tends and develops the same program for over two decades builds with patience instead of glamour. That he lives commitment off stage shows the Two-wing.</p>
-          <p class="vb-intro">The shadow of this combination is the morality, which can come across as lecturing. A review from Switzerland (&lsquo;Sadismus mit der Moralkeule&rsquo;, &lsquo;Sadism with the moral club&rsquo;) sees a problem in his moral sharpening. The Three wants to convince, and the Two-wing wants to help; together this can be tiring for listeners when the evening is long and the stance allows no contradiction.</p>
+          <p class="vb-intro">Remarkable is the perseverance: someone who tends and develops the same program for over two decades builds with patience instead of glamour. That he lives commitment off stage shows the Two-wing.</p>
+          <p class="vb-intro">The flip side of this combination is the morality, which can come across as lecturing. A review from Switzerland (&lsquo;Sadismus mit der Moralkeule&rsquo;, &lsquo;Sadism with the moral club&rsquo;) sees a problem in his moral sharpening. The Three wants to convince, and the Two-wing wants to help; together this can be tiring for listeners when the evening is long and the stance allows no contradiction.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Where things stand: a program that moves with the times</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to the available information (as of 24 October 2026) Hagen Rether is 57 years old and lives in Essen. &lsquo;Liebe&rsquo; is still his program and is adapted to the situation. Little is publicly documented about his private life; this portrait limits itself to his public work.</p>
+          <p class="vb-intro">Hagen Rether is 57 years old (as of 24 October 2026) and lives in Essen. &lsquo;Liebe&rsquo; is still his program and is adapted to the situation. Private matters stay out; this portrait limits itself to his public work.</p>
         </blockquote>
 
       </div>

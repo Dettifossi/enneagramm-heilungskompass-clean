@@ -2862,14 +2862,14 @@ export function hongChauPortraitPage() {
 
         <h2 class="vb-section">2. Die selbsterhaltende Drei: Können statt Glänzen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Drei strebt nach Erfolg, und die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei, den Claudio Naranjo ›Sicherheit‹ nannte: Sie zeigt ihre Leistung nicht auf der Bühne vor, sondern baut Substanz und Sicherheit auf. Bei Hong Chau zeigt sich das im Weg zur Schauspielerei: Nach dem Studium arbeitete sie für den Sender PBS, besuchte Kurse in Vortragskunst und Improvisation und zog dann nach Los Angeles. Ab 2006 spielte sie in Film und Fernsehen, in Gastrollen bei ›NCIS‹ und ›How I Met Your Mother‹ und in einer Hauptrolle in ›Trenches‹, von 2010 bis 2013 als Linh in ›Treme‹.</p>
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> zeigt ihre Leistung nicht auf der Bühne vor und baut stattdessen Substanz und Sicherheit auf: im Enneagramm der Kontratyp der Drei, den Claudio Naranjo ›Sicherheit‹ nannte. Bei Hong Chau zeigt sich das im Weg zur Schauspielerei: Nach dem Studium arbeitete sie für den Sender PBS, besuchte Kurse in Vortragskunst und Improvisation und zog dann nach Los Angeles. Ab 2006 spielte sie in Film und Fernsehen, in Gastrollen bei ›NCIS‹ und ›How I Met Your Mother‹ und in einer Hauptrolle in ›Trenches‹, von 2010 bis 2013 als Linh in ›Treme‹.</p>
           <p class="vb-intro">Ihr Spielfilmdebüt hatte sie 2014 in ›Inherent Vice‹, danach bekam sie rund zwei Jahre lang kein Vorsprechen für einen weiteren Film. Sie hat also lange im Verborgenen gearbeitet, bevor ihr Name bekannt wurde.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Zweierflügel: Zuwendung und Dienst an der Rolle</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der Drei Wärme, Zuwendung und die Bereitschaft, anderen zu dienen. Bei Hong Chau zeigt er sich in der Haltung gegenüber ihrer Arbeit: Sie gibt Regisseuren nach der Wikipedia-Seite ›a wide range of line readings and reactions‹ – eine große Bandbreite an Textvarianten und Reaktionen –, jedes Mal, wenn sie ›Action‹ rufen. Sie arbeitet für die Szene und für den Regisseur, nicht für den eigenen Auftritt.</p>
-          <p class="vb-intro">Der Kerntyp Drei strebt nach dem Gelingen, der Zweierflügel stellt es in den Dienst der anderen.</p>
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der Drei Wärme, Zuwendung und die Bereitschaft, anderen zu dienen. Bei Hong Chau zeigt er sich in der Haltung gegenüber ihrer Arbeit: Sie gibt Regisseuren nach der Wikipedia-Seite ›a wide range of line readings and reactions‹ – eine große Bandbreite an Textvarianten und Reaktionen –, jedes Mal, wenn sie ›Action‹ rufen. Sie arbeitet für die Szene und für den Regisseur, nicht für den eigenen Auftritt.</p>
+          <p class="vb-intro">Die Drei strebt nach dem Gelingen, und der Zweierflügel stellt es in den Dienst der anderen.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: die Frau, die Szenen trägt</h2>
@@ -2886,13 +2886,13 @@ export function hongChauPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Drei mit Zweierflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt in der Verlässlichkeit, im Handwerk und in der Bereitschaft, einer Szene zu dienen. Wer aus einer Flüchtlingsfamilie kommt, ohne Netz studiert und dann in Nebenrollen Preise gewinnt, zeigt die Stärke dieses Subtyps.</p>
-          <p class="vb-intro">Der Schatten dieser Kombination ist das Risiko, unsichtbar zu bleiben: Wer sich für andere zurücknimmt, wird leicht übersehen. Die Wikipedia-Seite vermerkt, dass sie für ›Downsizing‹ als Oscar-Anwärterin galt, aber nicht nominiert wurde.</p>
+          <p class="vb-intro">Verlass ist auf Verlässlichkeit, Handwerk und die Bereitschaft, einer Szene zu dienen. Wer aus einer Flüchtlingsfamilie kommt, ohne Netz studiert und dann in Nebenrollen Preise gewinnt, zeigt die Stärke dieses Subtyps.</p>
+          <p class="vb-intro">Zu leicht übersehen zu werden ist das Risiko: Wer sich für andere zurücknimmt, wird leicht übersehen. Die Wikipedia-Seite vermerkt, dass sie für ›Downsizing‹ als Oscar-Anwärterin galt, aber nicht nominiert wurde.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Stand: Nebenrolle, Hauptsache</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 24. Oktober 2026) ist Hong Chau 47 Jahre alt, seit November 2020 Mutter einer Tochter und lebt mit ihrem Mann, den sie in Boston kennenlernte. Sie bleibt als Darstellerin gefragt.</p>
+          <p class="vb-intro">Hong Chau ist (Stand 24. Oktober 2026) 47 Jahre alt, seit November 2020 Mutter einer Tochter und lebt mit ihrem Mann, den sie in Boston kennenlernte. Sie bleibt als Darstellerin gefragt.</p>
         </blockquote>
 
       </div>

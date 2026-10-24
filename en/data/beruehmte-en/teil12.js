@@ -2856,14 +2856,14 @@ export function sheilaDeLizPortraitPage() {
 
         <h2 class="vb-section">2. The sexual Six: facing fear head-on</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Six lives with doubt and vigilance, and Claudio Naranjo described the <strong>sexual Six (SX6)</strong> as a countertype that answers fear not with leaning on others but with strength. In de Liz this shows in how she deals with shame. Women&rsquo;s bodies, menstruation, menopause and desire are a delicate subject for many. She speaks about them openly: in books, on YouTube, on Instagram and TikTok, in a column in the youth magazine &lsquo;Mädchen&rsquo; (&lsquo;Girls&rsquo;).</p>
+          <p class="vb-intro">The Six carries doubt and vigilance within; the <strong>sexual Six (SX6)</strong> is, according to Claudio Naranjo, its countertype and answers fear not with leaning on others but with strength. In de Liz this shows in how she deals with shame. Women&rsquo;s bodies, menstruation, menopause and desire are a delicate subject for many. She speaks about them openly: in books, on YouTube, on Instagram and TikTok, in a column in the youth magazine &lsquo;Mädchen&rsquo; (&lsquo;Girls&rsquo;).</p>
           <p class="vb-intro">She sums up her basic attitude like this: &lsquo;Schweigen ist das Schlimmste, was man machen kann&rsquo; (silence is the worst thing you can do). She traces the silence around the female body to a tradition of shame and sexualization. In her own words she sees herself more as a crusader than as an influencer.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Seven-wing: humor and lightness</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the Six liveliness, humor and the desire to convey things with lightness. In de Liz it shows in the titles and the tone: &lsquo;Unverschämt: Alles über den fabelhaften weiblichen Körper&rsquo; (&lsquo;Shameless: Everything About the Fabulous Female Body&rsquo;, 2019), &lsquo;Woman On Fire: Alles über die fabelhaften Wechseljahre&rsquo; (subtitle: Everything About the Fabulous Menopause, 2020), &lsquo;Girl on Fire&rsquo; (2022). Together with the urologist Volker Wittkamp she explains questions about body and sexuality on TikTok under the name &lsquo;Doktorsex&rsquo;.</p>
-          <p class="vb-intro">The core type Six takes the way through the fear; the Seven-wing turns it into an invitation with wit, so that teenagers and people in menopause feel addressed.</p>
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> brings liveliness, humor and the desire to convey things with lightness. In de Liz it shows in the titles and the tone: &lsquo;Unverschämt: Alles über den fabelhaften weiblichen Körper&rsquo; (&lsquo;Shameless: Everything About the Fabulous Female Body&rsquo;, 2019), &lsquo;Woman On Fire: Alles über die fabelhaften Wechseljahre&rsquo; (subtitle: Everything About the Fabulous Menopause, 2020), &lsquo;Girl on Fire&rsquo; (2022). Together with the urologist Volker Wittkamp she explains questions about body and sexuality on TikTok under the name &lsquo;Doktorsex&rsquo;.</p>
+          <p class="vb-intro">The Six goes through the fear, and the Seven-wing turns it into an invitation with wit, so that teenagers and people in menopause feel addressed.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The substance: education as a craft</h2>
@@ -2880,13 +2880,13 @@ export function sheilaDeLizPortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow of the sexual Six with Seven-wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light lies in the courage to name a taboo and in the ability to make it understandable. Someone who tells women over 40 that desire and menopause may be thought of together takes a burden off them.</p>
-          <p class="vb-intro">The shadow of this combination is the risk of hiding one&rsquo;s own vigilance behind constant effort: someone who fights on many fronts has to take care not to forget recovery. And an open tone invites headwind, which according to the available sources she does not use as a reason to retreat.</p>
+          <p class="vb-intro">Among her strengths is the courage to name a taboo and in the ability to make it understandable. Someone who tells women over 40 that desire and menopause may be thought of together takes a burden off them.</p>
+          <p class="vb-intro">The price of this combination is the risk of hiding one&rsquo;s own vigilance behind constant effort: someone who fights on many fronts has to take care not to forget recovery. And an open tone invites headwind, which according to the available sources she does not use as a reason to retreat.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Where things stand: practice, books and online consultation</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to the available information (as of 24 October 2026) Sheila de Liz keeps working in her practice in Wiesbaden and offers an online hormone consultation. She keeps writing books and appears in media and social networks. This portrait limits itself to her public work; it gives no medical recommendations.</p>
+          <p class="vb-intro">Sheila de Liz keeps working, according to the available information (as of 24 October 2026), in her practice in Wiesbaden and offers an online hormone consultation. She keeps writing books and appears in media and social networks. This portrait limits itself to her public work; it gives no medical recommendations.</p>
         </blockquote>
 
       </div>

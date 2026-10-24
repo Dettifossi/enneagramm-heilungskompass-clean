@@ -2808,14 +2808,14 @@ export function darrenAronofskyPortraitPage() {
 
         <h2 class="vb-section">2. The social Seven: the team that comes along</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Seven flees pain into enthusiasm, and Claudio Naranjo described the <strong>social Seven (SO7)</strong> as the subtype of sacrifice: the Seven puts curiosity and mobility at the service of a group. For decades Aronofsky has worked with the same core of collaborators: cinematographer Matthew Libatique, editor Andrew Weisblum and composer Clint Mansell. In 1997 he founded the production company Protozoa Pictures, through which he realizes not only his own films but those of others.</p>
+          <p class="vb-intro">Claudio Naranjo called the <strong>social Seven (SO7)</strong> the subtype of sacrifice: the Seven, who otherwise escapes pain into enthusiasm, here puts curiosity and mobility at the service of a group. For decades Aronofsky has worked with the same core of collaborators: cinematographer Matthew Libatique, editor Andrew Weisblum and composer Clint Mansell. In 1997 he founded the production company Protozoa Pictures, through which he realizes not only his own films but those of others.</p>
           <p class="vb-intro">As a producer he gave other filmmakers a stage: &lsquo;Jackie&rsquo; (2016), the documentaries &lsquo;Some Kind of Heaven&rsquo; (2020, the debut of <a href="#beruehmte-lance-oppenheim">Lance Oppenheim (SO7w6)</a>) and &lsquo;The Territory&rsquo; (2022, about the Indigenous Uru-Eu-Wau-Wau people, awarded a Peabody Award). For National Geographic he was executive producer of &lsquo;One Strange Rock&rsquo; (2018) and created &lsquo;Limitless with Chris Hemsworth&rsquo; (2022).</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Eight-wing: force without regard for losses</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Seven assertiveness, directness and the willingness to endure a fight. In Aronofsky it shows in how he deals with resistance. &lsquo;Requiem for a Dream&rsquo; (2000) was rated NC-17 by the American ratings board, his appeal failed, and he released the film uncut and unrated instead of softening it. &lsquo;Noah&rsquo; (2014) was banned in several countries on religious grounds, and &lsquo;mother!&rsquo; (2017) received an F from cinema audiences in CinemaScore, the exit poll at the box office.</p>
-          <p class="vb-intro">The core type Seven is curious and always looks for new worlds; the Eight-wing makes sure he enters each of them at full force and sticks to his view even when the audience turns away.</p>
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> is the source of assertiveness, directness and the willingness to endure a fight. In Aronofsky it shows in how he deals with resistance. &lsquo;Requiem for a Dream&rsquo; (2000) was rated NC-17 by the American ratings board, his appeal failed, and he released the film uncut and unrated instead of softening it. &lsquo;Noah&rsquo; (2014) was banned in several countries on religious grounds, and &lsquo;mother!&rsquo; (2017) received an F from cinema audiences in CinemaScore, the exit poll at the box office.</p>
+          <p class="vb-intro">From the Seven&rsquo;s curiosity and the Eight-wing&rsquo;s assertiveness comes a director who dives into every new world at full force and sticks to his view even when the audience turns away.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The substance: obsession as a craft</h2>
@@ -2833,13 +2833,13 @@ export function darrenAronofskyPortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow of the social Seven with Eight-wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light lies in the willingness to bring others to the front and to pursue one&rsquo;s own ideas uncompromisingly. Someone who goes from field biology through anthropology to film and is also active as an advocate (he sits on the boards of the Sierra Club Foundation and the School for Field Studies and lives vegan) shows that the curiosity is more than entertainment.</p>
-          <p class="vb-intro">The shadow is the force with which he pushes projects through, even against resistance and against the audience. And the appetite for the new also leads to experiments that do not convince the public: his AI studio Primordial Soup released the series &lsquo;On This Day... 1776&rsquo; on YouTube on 29 January 2026, which received overwhelmingly negative reviews.</p>
+          <p class="vb-intro">His strength is the willingness to bring others to the front and to pursue one&rsquo;s own ideas uncompromisingly. Someone who goes from field biology through anthropology to film and is also active as an advocate (he sits on the boards of the Sierra Club Foundation and the School for Field Studies and lives vegan) shows that the curiosity is more than entertainment.</p>
+          <p class="vb-intro">The flip side is the force with which he pushes projects through, even against resistance and against the audience. And the appetite for the new also leads to experiments that do not convince the public: his AI studio Primordial Soup released the series &lsquo;On This Day... 1776&rsquo; on YouTube on 29 January 2026, which received overwhelmingly negative reviews.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Where things stand: Brooklyn, Poland and the next worlds</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to the available information (as of 24 October 2026) Darren Aronofsky is 57 years old. Since 2024 he and his sister Patti hold Polish citizenship. With &lsquo;Caught Stealing&rsquo; (2025, with Austin Butler) he most recently delivered a crime film; with the Las Vegas Sphere film &lsquo;Postcard from Earth&rsquo; (2023) he worked on a giant wraparound screen.</p>
+          <p class="vb-intro">As of 24 October 2026, Darren Aronofsky is 57 years old. Since 2024 he and his sister Patti hold Polish citizenship. With &lsquo;Caught Stealing&rsquo; (2025, with Austin Butler) he most recently delivered a crime film; with the Las Vegas Sphere film &lsquo;Postcard from Earth&rsquo; (2023) he worked on a giant wraparound screen.</p>
         </blockquote>
 
       </div>

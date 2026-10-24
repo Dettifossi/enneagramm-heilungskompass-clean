@@ -2861,14 +2861,14 @@ export function johannLechnerPortraitPage() {
 
         <h2 class="vb-section">2. The social Seven: building new things for the community</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Seven sidesteps pain by turning to enthusiasm, and its passion is gluttony, the craving for ever more stimulation and novelty. In the <strong>social Seven (SO7)</strong> this turns around, according to Claudio Naranjo: it is the countertype of the Seven and directs its appetite not at its own pleasure but at the community. Its joy lies in building something for others, and there it knows no limit: one more method, one more contribution, one more building block for the group. Naranjo spoke of the subtype of sacrifice, because one&rsquo;s own enjoyment steps back behind the common cause.</p>
+          <p class="vb-intro">Behind the Seven stands the craving for ever more, for stimulation, novelty and enjoyment, and the escape from pain is called enthusiasm. In the <strong>social Seven (SO7)</strong> this appetite turns around, according to Naranjo: it is the countertype and directs it not at its own pleasure but at the community. Its joy lies in building something for others, and there it knows no limit: one more method, one more contribution, one more building block for the group. Naranjo spoke of the subtype of sacrifice, because one&rsquo;s own enjoyment steps back behind the common cause.</p>
           <p class="vb-intro">In Lechner this shows in a long series of innovations for his field: in 1996 he introduced the orthocranial prosthetic system ACCU-Liner from the USA to Germany, in 1998 CAD/CAM technology with zirconia for metal-free dentures. Add founding FocoDent (2005), lectures and teaching. He gave over 100 seminars and lectures, among them symposia at the Universities of Bern and Graz, and was a guest lecturer at Capital University in Washington, D.C., and at the University Dental Clinic in Beijing.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Six-wing: network and passing on</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Seven loyalty, team spirit and the need to work in a reliable circle. In Lechner it shows in associations and cooperations: for several years he served on the boards of the Deutsche Arbeitsgemeinschaft für Herd- und Regulationsforschung (DAH, German working group for focal and regulation research) and the International Society for Holistic Dentistry (GZM). His publications are written with partners, for example with Jerry Bouquot and Volker von Baehr (book on osteolysis of the jawbone), with S. Noumbissi (2019) and with F. Schick and F. Notter (2024). According to a colleague he also invites colleagues yearly to operating days where they can watch him.</p>
-          <p class="vb-intro">The core type Seven tries new things; the Six-wing ties him to colleagues and professional associations with whom he tests and passes on his methods.</p>
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> lends the Seven loyalty, team spirit and the wish to work in a reliable circle. In Lechner it shows in associations and cooperations: for several years he served on the boards of the Deutsche Arbeitsgemeinschaft für Herd- und Regulationsforschung (DAH, German working group for focal and regulation research) and the International Society for Holistic Dentistry (GZM). His publications are written with partners, for example with Jerry Bouquot and Volker von Baehr (book on osteolysis of the jawbone), with S. Noumbissi (2019) and with F. Schick and F. Notter (2024). According to a colleague he also invites colleagues yearly to operating days where they can watch him.</p>
+          <p class="vb-intro">The Seven tries new things, and the Six-wing leads it to colleagues and professional associations with whom it tests and passes on its methods.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The substance: the jaw as a subject</h2>
@@ -2885,14 +2885,14 @@ export function johannLechnerPortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow of the social Seven with Six-wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light lies in curiosity and the courage to go one&rsquo;s own way for decades and pass the knowledge on. Someone who gives over 100 seminars, lets colleagues watch operations and publishes with partners seeks exchange.</p>
-          <p class="vb-intro">The shadow of this combination is the risk that enthusiasm for one&rsquo;s own concept finds it hard to accept contradiction. According to supporters, many colleagues are critical of his approach, and a tight circle of like-minded people can reinforce this distance.</p>
+          <p class="vb-intro">Impressive are curiosity and the courage to go one&rsquo;s own way for decades and pass the knowledge on. Someone who gives over 100 seminars, lets colleagues watch operations and publishes with partners seeks exchange.</p>
+          <p class="vb-intro">The weak point of this combination is the risk that enthusiasm for one&rsquo;s own concept finds it hard to accept contradiction. According to supporters, many colleagues are critical of his approach, and a tight circle of like-minded people can reinforce this distance.</p>
           <p class="vb-intro">Added to this is a typical pattern of the head types (Five, Six and Seven): thinking in cause and effect. The Seven likes to look for the one cause that explains an imbalance, also in medicine, and then finds it in a single area such as the jaw. This view says something about the thinking style of the type, but nothing about whether the cause is in fact the right one.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Where things stand: practice, teaching and research</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to the available information (as of 24 October 2026) Johann Lechner still runs his clinic in Munich, gives lectures and publishes papers. Little is publicly documented about his private life. No statements of his own about his motivation were found; this portrait therefore limits itself to his documented career and public work.</p>
+          <p class="vb-intro">Johann Lechner still runs, according to the available information (as of 24 October 2026), his clinic in Munich, gives lectures and publishes papers. Little is publicly documented about his private life. No statements of his own about his motivation were found; this portrait therefore limits itself to his documented career and public work.</p>
           <p class="vb-intro">How head, heart and gut types can be interpreted in groups of teeth and dental complaints is described in the article <a href="#enneagramm-zahnpsychosomatik">Enneagram Meets Dental Psychosomatics</a>.</p>
         </blockquote>
 

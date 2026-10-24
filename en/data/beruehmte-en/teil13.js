@@ -2842,14 +2842,14 @@ export function hongChauPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Three: skill instead of shine</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Three strives for success, and the <strong>Self-Preservation Three (SP3)</strong> is the countertype of the Three, which Claudio Naranjo called &lsquo;security&rsquo;: it does not show its achievement on stage but builds substance and security. In Hong Chau this shows in her path to acting: after university she worked for PBS, took classes in public speaking and improv and then moved to Los Angeles. From 2006 she acted in film and television, in guest roles on &lsquo;NCIS&rsquo; and &lsquo;How I Met Your Mother&rsquo; and a main role in &lsquo;Trenches&rsquo;, and from 2010 to 2013 as Linh in &lsquo;Treme&rsquo;.</p>
+          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> does not show its achievement on stage and builds substance and security instead: in the Enneagram the countertype of the Three, which Claudio Naranjo called &lsquo;security&rsquo;. In Hong Chau this shows in her path to acting: after university she worked for PBS, took classes in public speaking and improv and then moved to Los Angeles. From 2006 she acted in film and television, in guest roles on &lsquo;NCIS&rsquo; and &lsquo;How I Met Your Mother&rsquo; and a main role in &lsquo;Trenches&rsquo;, and from 2010 to 2013 as Linh in &lsquo;Treme&rsquo;.</p>
           <p class="vb-intro">She made her feature film debut in 2014 in &lsquo;Inherent Vice&rsquo;, after which she could not get an audition for another film for about two years. So she worked for a long time in the background before her name became known.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two-wing: attention and service to the role</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the Three warmth, attention and the readiness to serve others. In Hong Chau it shows in her attitude to her work: according to the Wikipedia page she gives directors &lsquo;a wide range of line readings and reactions&rsquo; every time they call &lsquo;action&rsquo;. She works for the scene and for the director, not for her own appearance.</p>
-          <p class="vb-intro">The core type Three strives to succeed, the Two-wing puts it at the service of others.</p>
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> lends the Three warmth, attention and the readiness to serve others. In Hong Chau it shows in her attitude to her work: according to the Wikipedia page she gives directors &lsquo;a wide range of line readings and reactions&rsquo; every time they call &lsquo;action&rsquo;. She works for the scene and for the director, not for her own appearance.</p>
+          <p class="vb-intro">The Three strives to succeed, and the Two-wing puts it at the service of others.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The substance: the woman who carries scenes</h2>
@@ -2866,13 +2866,13 @@ export function hongChauPortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow of the Self-Preservation Three with a Two-wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light lies in reliability, craft and the readiness to serve a scene. Someone who comes from a refugee family, studies without a safety net and then wins nominations in supporting roles shows the strength of this subtype.</p>
-          <p class="vb-intro">The shadow of this combination is the risk of remaining invisible: someone who steps back for others is easily overlooked. The Wikipedia page notes that she was widely expected to be an Oscar nominee for &lsquo;Downsizing&rsquo; but was not nominated.</p>
+          <p class="vb-intro">Reliability, craft and the readiness to serve a scene can be counted on. Someone who comes from a refugee family, studies without a safety net and then wins nominations in supporting roles shows the strength of this subtype.</p>
+          <p class="vb-intro">The risk is being overlooked too easily: someone who steps back for others is easily overlooked. The Wikipedia page notes that she was widely expected to be an Oscar nominee for &lsquo;Downsizing&rsquo; but was not nominated.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Status: supporting role, main point</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to the available information (as of 24 October 2026) Hong Chau is 47 years old, has been the mother of a daughter since November 2020 and lives with her husband, whom she met in Boston. She remains in demand as an actress.</p>
+          <p class="vb-intro">Hong Chau is 47 years old (as of 24 October 2026), has been the mother of a daughter since November 2020 and lives with her husband, whom she met in Boston. She remains in demand as an actress.</p>
         </blockquote>
 
       </div>

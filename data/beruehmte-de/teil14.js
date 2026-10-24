@@ -2941,14 +2941,14 @@ export function darrenAronofskyPortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Sieben: das Team, das mitkommt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Sieben flieht vor dem Schmerz in die Begeisterung, und Claudio Naranjo beschrieb die <strong>soziale Sieben (SO7)</strong> als den Subtyp des Opfers: Die Sieben stellt ihre Neugier und Beweglichkeit in den Dienst einer Gruppe. Aronofsky arbeitet seit Jahrzehnten mit demselben Kern von Mitstreitern: dem Kameramann Matthew Libatique, dem Cutter Andrew Weisblum und dem Komponisten Clint Mansell. 1997 gründete er die Produktionsfirma Protozoa Pictures, mit der er nicht nur eigene Filme, sondern auch die anderer verwirklicht.</p>
+          <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> nannte Claudio Naranjo den Subtyp des Opfers: Die Sieben, die sonst dem Schmerz in die Begeisterung ausweicht, stellt hier ihre Neugier und Beweglichkeit in den Dienst einer Gruppe. Aronofsky arbeitet seit Jahrzehnten mit demselben Kern von Mitstreitern: dem Kameramann Matthew Libatique, dem Cutter Andrew Weisblum und dem Komponisten Clint Mansell. 1997 gründete er die Produktionsfirma Protozoa Pictures, mit der er nicht nur eigene Filme, sondern auch die anderer verwirklicht.</p>
           <p class="vb-intro">Als Produzent gab er anderen Filmemachern eine Bühne: ›Jackie‹ (2016), die Dokumentarfilme ›Some Kind of Heaven‹ (2020, das Debüt von <a href="#beruehmte-lance-oppenheim">Lance Oppenheim (SO7w6)</a>) und ›The Territory‹ (2022, über das indigene Volk der Uru-Eu-Wau-Wau, mit einem Peabody Award ausgezeichnet). Für National Geographic war er Executive Producer von ›One Strange Rock‹ (2018) und schuf die Reihe ›Limitless with Chris Hemsworth‹ (2022).</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Achterflügel: Wucht ohne Rücksicht auf Verluste</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der Sieben Durchsetzungskraft, Direktheit und die Bereitschaft, einen Streit auszuhalten. Bei Aronofsky zeigt er sich im Umgang mit Widerständen. ›Requiem for a Dream‹ (2000) erhielt von der amerikanischen Freigabestelle die Einstufung NC-17, sein Einspruch blieb erfolglos, und er brachte den Film ohne Altersfreigabe ungeschnitten in die Kinos, statt ihn zu entschärfen. ›Noah‹ (2014) wurde in mehreren Ländern aus religiösen Gründen verboten, und ›mother!‹ (2017) erhielt von den Kinobesuchern die Note F im CinemaScore, der Zuschauerumfrage an der Kinokasse.</p>
-          <p class="vb-intro">Der Kerntyp Sieben ist neugierig und sucht immer neue Welten, der Achterflügel sorgt dafür, dass er in jede davon mit voller Wucht hineingeht und auch dann bei seiner Sicht bleibt, wenn das Publikum sich abwendet.</p>
+          <p class="vb-intro">Aus dem <strong>Achterflügel (w8)</strong> speisen sich Durchsetzungskraft, Direktheit und die Bereitschaft, einen Streit auszuhalten. Bei Aronofsky zeigt er sich im Umgang mit Widerständen. ›Requiem for a Dream‹ (2000) erhielt von der amerikanischen Freigabestelle die Einstufung NC-17, sein Einspruch blieb erfolglos, und er brachte den Film ohne Altersfreigabe ungeschnitten in die Kinos, statt ihn zu entschärfen. ›Noah‹ (2014) wurde in mehreren Ländern aus religiösen Gründen verboten, und ›mother!‹ (2017) erhielt von den Kinobesuchern die Note F im CinemaScore, der Zuschauerumfrage an der Kinokasse.</p>
+          <p class="vb-intro">Aus der Neugier der Sieben und der Durchsetzung des Achterflügels wird ein Regisseur, der in jede neue Welt mit voller Wucht eintaucht und auch dann bei seiner Sicht bleibt, wenn das Publikum sich abwendet.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: Besessenheit als Handwerk</h2>
@@ -2966,13 +2966,13 @@ export function darrenAronofskyPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der sozialen Sieben mit Achterflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt in der Bereitschaft, andere nach vorn zu bringen und eigene Ideen kompromisslos zu verfolgen. Wer von Feldbiologie über Anthropologie zum Film kommt und sich zugleich als Aktivist engagiert (er sitzt im Vorstand der Sierra Club Foundation und der School for Field Studies und lebt vegan), zeigt, dass die Neugier mehr ist als Unterhaltung.</p>
-          <p class="vb-intro">Der Schatten ist die Wucht, mit der er Projekte durchzieht, auch gegen Widerstand und gegen das Publikum. Und die Lust am Neuen führt auch zu Experimenten, die das Publikum nicht überzeugen: Sein KI-Studio Primordial Soup veröffentlichte am 29. Januar 2026 die Reihe ›On This Day... 1776‹ auf YouTube, die überwiegend negative Kritiken erhielt.</p>
+          <p class="vb-intro">Seine Stärke ist die Bereitschaft, andere nach vorn zu bringen und eigene Ideen kompromisslos zu verfolgen. Wer von Feldbiologie über Anthropologie zum Film kommt und sich zugleich als Aktivist engagiert (er sitzt im Vorstand der Sierra Club Foundation und der School for Field Studies und lebt vegan), zeigt, dass die Neugier mehr ist als Unterhaltung.</p>
+          <p class="vb-intro">Die Kehrseite ist die Wucht, mit der er Projekte durchzieht, auch gegen Widerstand und gegen das Publikum. Und die Lust am Neuen führt auch zu Experimenten, die das Publikum nicht überzeugen: Sein KI-Studio Primordial Soup veröffentlichte am 29. Januar 2026 die Reihe ›On This Day... 1776‹ auf YouTube, die überwiegend negative Kritiken erhielt.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Stand: Brooklyn, Polen und die nächsten Welten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 24. Oktober 2026) ist Darren Aronofsky 57 Jahre alt. Seit 2024 besitzt er gemeinsam mit seiner Schwester Patti die polnische Staatsbürgerschaft. Mit ›Caught Stealing‹ (2025, mit Austin Butler) legte er zuletzt einen Kriminalfilm vor, mit dem Las-Vegas-Sphere-Film ›Postcard from Earth‹ (2023) arbeitete er an einer riesigen Rundumleinwand.</p>
+          <p class="vb-intro">Darren Aronofsky ist (Stand 24. Oktober 2026) 57 Jahre alt. Seit 2024 besitzt er gemeinsam mit seiner Schwester Patti die polnische Staatsbürgerschaft. Mit ›Caught Stealing‹ (2025, mit Austin Butler) legte er zuletzt einen Kriminalfilm vor, mit dem Las-Vegas-Sphere-Film ›Postcard from Earth‹ (2023) arbeitete er an einer riesigen Rundumleinwand.</p>
         </blockquote>
 
       </div>
