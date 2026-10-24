@@ -2554,7 +2554,7 @@ export function katharinaDieGrossePortraitPage() {
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Cheetah: the provincial princess who became an empress</h2>
+        <h2 class="vb-section">1. The Cheetah: How a Provincial Princess Made Herself Empress</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>cheetah</strong> doesn't wait for permission to shine – it seizes the one decisive moment the instant it appears. Sophie Auguste Friederike of Anhalt-Zerbst, born in 1729, the daughter of a minor German prince, arrived at the Russian court in 1744 at age fifteen to marry the designated heir, Peter. She had no hereditary claim whatsoever to the Russian throne – everything she later achieved she owed to a position she built herself, systematically.</p>
           <p class="vb-intro">She learned Russian with fanatical determination, converted to the Orthodox Church and took the name Yekaterina, and studied the mentality of court and people to play the role of Russian ruler to perfection – an eighteen-year preparation period inside a marriage she herself later described as agonizing, which she came to interpret as a deliberate hardening of her own character. In 1762 she helped engineer the coup that deposed her luckless husband, Peter III, and ascended the throne herself.</p>
