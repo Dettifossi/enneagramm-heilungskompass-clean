@@ -2888,13 +2888,13 @@ export function mathiasBernerPortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow of the social Seven with Six-wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Impressive is how a network came out of a crisis: someone who loses his life&rsquo;s work and makes a book, congresses and an academy of it does not let the experience turn into bitterness. The commitment toward contributors and audience belongs here too.</p>
-          <p class="vb-intro">The shadow side of the Seven is constant motion: someone who is always planning the next project can hardly take a step back. In addition this portrait rests on his own statements. There is no independent biography, and the contents of the congresses, which lie in the field of alternative and spiritual healing, are not evaluated by this Compass. It contains no healing claim and no treatment recommendation.</p>
+          <p class="vb-intro">Impressive is how a task came out of a crisis: someone who loses his life&rsquo;s work and makes a book, congresses and an academy of it does not let the experience turn into bitterness but passes it on. His sentence &lsquo;Das Leben kennt keine Fehler&rsquo; and his aim of meeting people with heart and mindfulness fit this. Someone who brings so many speakers together gives them a stage and the audience free access.</p>
+          <p class="vb-intro">The Seven with a Six-wing has above all a friendly shadow side: someone who is always planning the next project has little time to pause, even when he seeks stillness in his topics. This portrait rests on his own statements. There is no independent biography, and the contents of the congresses, which lie in the field of alternative and spiritual healing, are not evaluated by this Compass. It contains no healing claim and no treatment recommendation.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Where things stand: Cyprus, network and the Autumn of Healing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Mathias Berner lives on Cyprus (as of 24 October 2026) and runs the Mathias Berner Academy. His congress &lsquo;Herbst der Heilung 2026&rsquo; has just ended. Beyond his private life, which he describes on his own page, little is publicly documented.</p>
+          <p class="vb-intro">Mathias Berner lives on Cyprus (as of 24 October 2026) and runs the Mathias Berner Academy. His congress &lsquo;Herbst der Heilung 2026&rsquo; has just ended. In recent years his work has, by his account, become ever more spiritual: mindfulness, lived humanity and the way to one&rsquo;s own heart are at the center, and he understands healing as a way of healing one&rsquo;s own life and thereby the world. Beyond his private life, which he describes on his own page, little is publicly documented.</p>
         </blockquote>
 
       </div>

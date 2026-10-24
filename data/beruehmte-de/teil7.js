@@ -2890,13 +2890,13 @@ export function mathiasBernerPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der sozialen Sieben mit Sechserflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Beeindruckend ist, wie aus einer Krise ein Netzwerk wurde: Wer sein Lebenswerk verliert und daraus ein Buch, Kongresse und eine Akademie macht, lässt das Erlebte nicht zur Bitterkeit werden. Auch die Verbindlichkeit gegenüber Mitwirkenden und Publikum gehört dazu.</p>
-          <p class="vb-intro">Die Schattenseite der Sieben ist die ständige Bewegung: Wer immer das nächste Projekt plant, kann sich kaum zurücknehmen. Dazu kommt, dass sich das Porträt auf seine eigenen Angaben stützt. Es gibt keine unabhängige Biografie, und die Inhalte der Kongresse, die im Feld alternativer und spiritueller Heilung liegen, bewertet dieser Kompass nicht. Er enthält keine Heilaussage und keine Therapieempfehlung.</p>
+          <p class="vb-intro">Beeindruckend ist, wie aus einer Krise eine Aufgabe wurde: Wer sein Lebenswerk verliert und daraus ein Buch, Kongresse und eine Akademie macht, lässt das Erlebte nicht zur Bitterkeit werden, sondern gibt es weiter. Dazu passen sein Satz ›Das Leben kennt keine Fehler‹ und sein Anspruch, Menschen mit Herz und Achtsamkeit zu begegnen. Wer so viele Referentinnen und Referenten zusammenbringt, schenkt ihnen eine Bühne und dem Publikum einen freien Zugang.</p>
+          <p class="vb-intro">Die Sieben mit Sechserflügel hat vor allem eine freundliche Schattenseite: Wer immer das nächste Projekt plant, hat wenig Zeit, innezuhalten, auch wenn er die Stille in seinen Themen sucht. Das Porträt stützt sich auf seine eigenen Angaben. Es gibt keine unabhängige Biografie, und die Inhalte der Kongresse, die im Feld alternativer und spiritueller Heilung liegen, bewertet dieser Kompass nicht. Er enthält keine Heilaussage und keine Therapieempfehlung.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Stand: Zypern, Netzwerk und der Herbst der Heilung</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Mathias Berner lebt (Stand 24. Oktober 2026) auf Zypern und leitet die Mathias Berner Academy. Sein Kongress ›Herbst der Heilung 2026‹ ist gerade zu Ende gegangen. Über sein Privatleben hinaus, das er selbst auf seiner Seite schildert, ist wenig öffentlich dokumentiert.</p>
+          <p class="vb-intro">Mathias Berner lebt (Stand 24. Oktober 2026) auf Zypern und leitet die Mathias Berner Academy. Sein Kongress ›Herbst der Heilung 2026‹ ist gerade zu Ende gegangen. In den letzten Jahren ist seine Arbeit nach seiner Darstellung immer spiritueller geworden: Achtsamkeit, gelebte Menschlichkeit und der Weg zum eigenen Herzen stehen im Mittelpunkt, und Heilung versteht er als Weg, das eigene Leben und damit die Welt zu heilen. Über sein Privatleben hinaus, das er selbst auf seiner Seite schildert, ist wenig öffentlich dokumentiert.</p>
         </blockquote>
 
       </div>
