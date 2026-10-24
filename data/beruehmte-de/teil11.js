@@ -2965,7 +2965,7 @@ export function joergPilawaPortraitPage() {
 
         <h2 class="vb-section">7. Stand: Quiz, Familie und Hamburg</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Pilawa ist (Stand 24. Oktober 2026) 61 Jahre alt und lebte zuletzt in Hamburg-Bergedorf. Er war dreimal verheiratet und hat mehrere Kinder, 2022 trennte er sich, und im August 2025 wurde eine neue Beziehung bekannt, über die das Paar öffentlich nicht spricht. Als Glück nennt er alltägliche Momente, etwa einen Atemzug an der Nordsee oder ein Lachen am Küchentisch.</p>
+          <p class="vb-intro">Pilawa ist (Stand 24. Oktober 2026) 61 Jahre alt und lebte zuletzt in Hamburg-Bergedorf. Er war dreimal verheiratet und hat mehrere Kinder, 2022 trennte er sich, und seit August 2025 ist öffentlich bekannt, dass er mit der CDU-Politikerin Julia Klöckner, der Präsidentin des Deutschen Bundestages, zusammen ist. Über das Private sprechen beide nur zurückhaltend. Als Glück nennt er alltägliche Momente, etwa einen Atemzug an der Nordsee oder ein Lachen am Küchentisch.</p>
         </blockquote>
 
       </div>

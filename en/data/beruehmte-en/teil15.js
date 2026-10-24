@@ -2988,7 +2988,7 @@ export function joergPilawaPortraitPage() {
 
         <h2 class="vb-section">7. Where things stand: quiz, family and Hamburg</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Pilawa is 61 years old (as of 24 October 2026) and most recently lived in Hamburg-Bergedorf. He was married three times and has several children, separated in 2022, and in August 2025 a new relationship became known, about which the couple does not speak publicly. As happiness he names everyday moments, such as a breath at the North Sea or laughter at the kitchen table.</p>
+          <p class="vb-intro">Pilawa is 61 years old (as of 24 October 2026) and most recently lived in Hamburg-Bergedorf. He was married three times and has several children, separated in 2022, and since August 2025 it has been publicly known that he is together with the CDU politician Julia Klöckner, President of the German Bundestag. Both speak only sparingly about their private life. As happiness he names everyday moments, such as a breath at the North Sea or laughter at the kitchen table.</p>
         </blockquote>
 
       </div>
