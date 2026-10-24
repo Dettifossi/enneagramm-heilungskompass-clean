@@ -2789,3 +2789,74 @@ export function rolfZuckowskiPortraitPage() {
     </div>
   `);
 }
+
+export function wolfgangNiedeckenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-wolfgang-niedecken-portrait.jpg" alt="Wolfgang Niedecken – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-wolfgang-niedecken-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Wolfgang Niedecken</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Sozialer Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Rockmusiker, Texter und Maler, geb. 1951 &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Die Gans: der Kölner aus der Südstadt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine <strong>Gans</strong> schlägt Alarm, wenn Fremde den Hof betreten, und sie lässt sich davon nicht abbringen. Wolfgang Niedecken wurde am 30. März 1951 in Köln geboren. Sein Vater führte einen kleinen Lebensmittelladen in der Südstadt; Niedecken beschreibt ihn als ehemaliges NSDAP-Mitglied. Von 1962 bis 1970 besuchte er das katholische Konvikt St. Albert in Rheinbach und berichtete später öffentlich von körperlichen und sexuellen Übergriffen eines Priesters dort.</p>
+          <p class="vb-intro">Ab 1970 studierte er freie Malerei an den Kölner Werkschulen und schloss 1974 ab, mit einem Studienaufenthalt in New York. Schon als Schüler spielte er in Bands, ab 1966 bei The Convikts, später bei The Troop und Goin’ Sad.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Haltung für die Gemeinschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Eins strebt nach Richtigkeit und ringt mit dem eigenen Ärger, und Claudio Naranjo beschrieb die <strong>soziale Eins (SO1)</strong> als den Subtyp der Unangepasstheit: Die Eins misst sich und die Gemeinschaft an einem hohen Maßstab, fühlt sich nicht ganz zugehörig und setzt sich gerade deshalb für das Gemeinwohl ein. Bei Niedecken zeigt sich das darin, dass er seit 1976 im Kölner Dialekt singt und sich dabei immer wieder öffentlich positioniert.</p>
+          <p class="vb-intro">1992 gehörte er zu den prägenden Gesichtern des Antirassismus-Konzerts ›Arsch huh, Zäng ussenander‹ (›Arsch hoch, Zähne auseinander‹) in Köln. Er sagt von sich, er sei stur und wolle dem rechten Pöbel nicht das Feld überlassen. Mit 67 sagte er außerdem, er sei kein wütender junger Mann mehr, rege sich aber immer noch auf, stehe dabei aber nicht mehr sofort auf dem Tisch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Zuwendung und Hilfe für andere</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der Eins Wärme, Zuwendung und die Bereitschaft, konkret zu helfen. Bei Niedecken zeigt er sich im Engagement für Menschen in Not: Seit 2004 ist er Sonderbotschafter von ›Gemeinsam für Afrika‹. Mit World Vision und Manfred Hell gründete er das Projekt Rebound für ehemalige Kindersoldaten in Uganda. Es wurde im September 2025 wegen der Sicherheitslage im Osten des Kongo eingestellt. Im Dezember 2025 wurde er offizieller Botschafter der Welthungerhilfe und unterstützt das Projekt ›Au secours‹ für Frauen und Mädchen im Osten der Demokratischen Republik Kongo. 2014 sang er bei der deutschen Fassung von ›Do They Know It’s Christmas?‹ (Band Aid 30) mit.</p>
+          <p class="vb-intro">Der Kerntyp Eins hält an seinem Maßstab fest, der Zweierflügel sorgt dafür, dass daraus kein kalter Anspruch wird, sondern Anteilnahme.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Dialekt-Rock mit Haltung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Niedecken gründete BAP 1976, der Name wurde im Juli 1977 erstmals auf der Bühne geführt. Er ist bis heute Sänger, Haupttexter und das einzige verbliebene Gründungsmitglied. Der Durchbruch kam mit der Platte ›Wolfgang Niedeckens BAP rockt andere kölsche Leeder‹ (›… rockt andere kölsche Lieder‹, 1979), der große Erfolg mit ›Für usszeschnigge!‹ (›Zum Ausschneiden!‹, 1981) und dem Lied ›Verdamp lang her‹ (›Verdammt lange her‹). Die Besonderheit liegt in der Verbindung von Rock und Mundart: Niedecken erzählt in Kölsch von Köln, vom Alltag, von Politik und von sich selbst, und fand damit weit über Köln hinaus Gehör. Bob Dylan war sein großes Vorbild, was ihm den Beinamen ›Südstadt-Dylan‹ eintrug; 2021 erschien sein Buch über Dylan, 2022 das Soloalbum ›Dylanreise‹.</p>
+          <p class="vb-intro">Dazu kommt die Malerei, die seit den frühen 1970er Jahren zu seiner Arbeit gehört: Er gestaltete die meisten BAP-Plattenhüllen und zeigte Ausstellungen wie ›Pissjääl & Kackbrung‹ (1994) und die Retrospektive ›Spuren‹ (2004) in Bonn. Als Solist veröffentlichte er sechs Studioalben, darunter ›Schlagzeilen‹ (1987), ›Leopardefell‹ (›Leopardenfell‹, 1995), ›Zosamme alt‹ (›Zusammen alt‹, 2013) und ›Reinrassije Stroossekööter‹ (›Reinrassige Straßenköter‹, 2017). Für sein Werk erhielt er unter anderem das Bundesverdienstkreuz (1998, 1. Klasse 2013), den ECHO für sein Lebenswerk (2012) und den Internationalen Beethovenpreis (2017).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Jürgen Klopp und Brian Wilson</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-juergen-klopp">Jürgen Klopp (SO1w2)</a> ist wie Niedecken ein Mensch, der eine Gemeinschaft anführt, der sie mit Haltung und Wärme zusammenhält und dessen Haltung auch außerhalb seines Fachs gehört wird. Beide verbinden einen hohen Anspruch an die Sache mit offener Zuneigung zu ihrem Publikum.</p>
+          <p class="vb-intro"><a href="#beruehmte-brian-wilson">Brian Wilson (SO1w2)</a> verbindet mit ihm das Musikmachen aus einem inneren Maßstab heraus: Wilson suchte den perfekten Klang, Niedecken die passende Sprache für Köln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Eins mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Verlässlichkeit der Haltung: Wer über Jahrzehnte für dieselben Werte eintritt, gibt anderen Orientierung. Dass er Engagement nicht nur singt, sondern in Projekte übersetzt, zeigt den Zweierflügel.</p>
+          <p class="vb-intro">Der Schatten dieser Kombination ist die Strenge gegen sich selbst und andere. Die Eins hält ihren Ärger zurück, bis er sich Luft macht. Niedecken sagt selbst, er stehe nicht mehr sofort auf dem Tisch, und der Schlaganfall im November 2011 war für ihn nach eigenen Worten eine Gelbe Karte, also eine Warnung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Zugabe nach dem Schlaganfall</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am 2. November 2011 erlitt Niedecken einen Schlaganfall; die BAP-Tour wurde auf Mai 2012 verschoben. Er konnte danach zunächst weder sprechen noch Gitarre spielen. Seine Frau Tina half ihm zurück ins Leben, und für ihn ist jedes Konzert seither eine Zugabe, wie er in seinem Buch ›Zugabe‹ (2013) schrieb. Nach den vorliegenden Angaben (Stand 24. Oktober 2026) ist er 75 Jahre alt, in zweiter Ehe seit 1994 mit Tina verheiratet und hat vier Kinder. 2026 erhielt er die Georg-Elser-Auszeichnung. Er bezeichnet sich als ›Agnostiker mit Gottvertrauen‹.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
+        {route:"beruehmte-juergen-klopp", label:"Porträt: Jürgen Klopp (SO1w2)"},
+        {route:"beruehmte-brian-wilson", label:"Porträt: Brian Wilson (SO1w2)"},
+        {route:"beruehmte-bradley-cooper", label:"Porträt: Bradley Cooper (SO1w2)"},
+            ])}
+    </div>
+  `);
+}

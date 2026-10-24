@@ -145,6 +145,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-robert-mccollum", label: "Neues EN-Porträt: Robert McCollum" },
   { hash: "#beruehmte-sheila-de-liz", label: "Neues Porträt: Sheila de Liz" },
   { hash: "en/#beruehmte-sheila-de-liz", label: "Neues EN-Porträt: Sheila de Liz" },
+  { hash: "#beruehmte-wolfgang-niedecken", label: "Neues Porträt: Wolfgang Niedecken" },
+  { hash: "en/#beruehmte-wolfgang-niedecken", label: "Neues EN-Porträt: Wolfgang Niedecken" },
   { hash: "#beruehmte-bradley-cooper", label: "Neues Porträt: Bradley Cooper" },
   { hash: "en/#beruehmte-bradley-cooper", label: "Neues EN-Porträt: Bradley Cooper" },
   { hash: "#beruehmte-richy-mueller", label: "Neues Porträt: Richy Müller" },

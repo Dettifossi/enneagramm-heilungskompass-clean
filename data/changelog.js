@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2603", date: "2026-10-24", text: "Neues Porträt: Wolfgang Niedecken (SO1w2) – Sänger, Texter und Maler (BAP).", text_en: "New portrait: Wolfgang Niedecken (SO1w2) – singer, lyricist and painter (BAP).", route: "beruehmte-wolfgang-niedecken" },
     { version: "v2602", date: "2026-10-24", text: "Neues Porträt: Dr. med. Sheila de Liz (SX6w7) – Gynäkologin und Bestsellerautorin.", text_en: "New portrait: Dr. med. Sheila de Liz (SX6w7) – gynecologist and bestselling author.", route: "beruehmte-sheila-de-liz" },
     { version: "v2601", date: "2026-10-24", text: "Neues Porträt: Robert McCollum (SO7w6) – Synchronsprecher.", text_en: "New portrait: Robert McCollum (SO7w6) – voice actor.", route: "beruehmte-robert-mccollum" },
     { version: "v2600", date: "2026-10-24", text: "Neues Porträt: Darren Aronofsky (SO7w8) – Regisseur und Produzent.", text_en: "New portrait: Darren Aronofsky (SO7w8) – film director and producer.", route: "beruehmte-darren-aronofsky" },

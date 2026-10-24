@@ -2860,3 +2860,74 @@ export function rolfZuckowskiPortraitPage() {
     </div>
   `);
 }
+
+export function wolfgangNiedeckenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-wolfgang-niedecken-portrait.jpg" alt="Wolfgang Niedecken – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-wolfgang-niedecken-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Wolfgang Niedecken</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Social Type 1 with Two-wing</p>
+        <p class="krim-portrait-subtitle">German rock musician, lyricist and painter, b. 1951 &ndash; Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Goose: the Cologne boy from the Südstadt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>goose</strong> raises the alarm when strangers enter the yard, and it will not be talked out of it. Wolfgang Niedecken was born on 30 March 1951 in Cologne. His father ran a small grocery shop in the Südstadt; Niedecken describes him as a former NSDAP member. From 1962 to 1970 he attended the Catholic boarding school Konvikt St. Albert in Rheinbach and later spoke publicly of physical and sexual abuse by a priest there.</p>
+          <p class="vb-intro">From 1970 he studied free painting at the Kölner Werkschulen and graduated in 1974, with a study stay in New York. Even as a pupil he played in bands, from 1966 in The Convikts, later in The Troop and Goin&rsquo; Sad.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social One: standing for the community</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The One strives for rightness and wrestles with its own anger, and Claudio Naranjo described the <strong>social One (SO1)</strong> as the subtype of non-adaptability: the One measures themselves and the community against a high standard, feels not quite at home, and campaigns for the common good precisely for that reason. In Niedecken this shows in his having sung in the Cologne dialect since 1976 while taking public positions again and again.</p>
+          <p class="vb-intro">In 1992 he was one of the shaping faces of the anti-racism concert &lsquo;Arsch huh, Zäng ussenander&rsquo; (&lsquo;Get your butt up, teeth apart&rsquo;) in Cologne. He says of himself that he is stubborn and does not want to leave the field to the right-wing rabble. At 67 he also said he was no longer an angry young man, still got worked up, but no longer jumped on the table immediately.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: warmth and help for others</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the One warmth, attention and the willingness to help concretely. In Niedecken it shows in his commitment to people in need: since 2004 he has been a special ambassador for &lsquo;Gemeinsam für Afrika&rsquo; (&lsquo;Together for Africa&rsquo;). With World Vision and Manfred Hell he founded the Rebound project for former child soldiers in Uganda. It was discontinued in September 2025 because of the security situation in eastern Congo. In December 2025 he became an official ambassador of Welthungerhilfe and supports the &lsquo;Au secours&rsquo; project for women and girls in the east of the Democratic Republic of Congo. In 2014 he took part in the German version of &lsquo;Do They Know It&rsquo;s Christmas?&rsquo; (Band Aid 30).</p>
+          <p class="vb-intro">The core type One holds on to its standard; the Two-wing makes sure it does not become a cold demand but sympathy.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: dialect rock with a stance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Niedecken founded BAP in 1976; the name was first used on stage in July 1977. He is still singer, main songwriter and the only remaining founding member. The breakthrough came with the record &lsquo;Wolfgang Niedeckens BAP rockt andere kölsche Leeder&rsquo; (&lsquo;… rocks other Cologne songs&rsquo;, 1979), the great success with &lsquo;Für usszeschnigge!&rsquo; (&lsquo;To Cut Out!&rsquo;, 1981) and the song &lsquo;Verdamp lang her&rsquo; (&lsquo;Damn long ago&rsquo;). The distinctive feature is the combination of rock and dialect: Niedecken tells in Kölsch of Cologne, of everyday life, of politics and of himself, and found a hearing far beyond Cologne. Bob Dylan was his great model, which earned him the nickname &lsquo;Südstadt-Dylan&rsquo;; in 2021 his book about Dylan appeared, in 2022 the solo album &lsquo;Dylanreise&rsquo; (&lsquo;Dylan Journey&rsquo;).</p>
+          <p class="vb-intro">Add to that painting, which has been part of his work since the early 1970s: he designed most BAP record sleeves and showed exhibitions such as &lsquo;Pissjääl &amp; Kackbrung&rsquo; (1994) and the retrospective &lsquo;Spuren&rsquo; (&lsquo;Traces&rsquo;, 2004) in Bonn. As a solo artist he released six studio albums, among them &lsquo;Schlagzeilen&rsquo; (&lsquo;Headlines&rsquo;, 1987), &lsquo;Leopardefell&rsquo; (&lsquo;Leopard Skin&rsquo;, 1995), &lsquo;Zosamme alt&rsquo; (&lsquo;Old Together&rsquo;, 2013) and &lsquo;Reinrassije Stroossekööter&rsquo; (&lsquo;Purebred Street Mutts&rsquo;, 2017). For his work he received, among others, the Federal Cross of Merit (1998, First Class 2013), the ECHO for lifetime achievement (2012) and the International Beethoven Prize (2017).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Jürgen Klopp and Brian Wilson</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-juergen-klopp">Jürgen Klopp (SO1w2)</a> is, like Niedecken, a person who leads a community, holds it together with stance and warmth, and whose stance is heard beyond his field. Both combine a high demand on the cause with open affection for their audience.</p>
+          <p class="vb-intro"><a href="#beruehmte-brian-wilson">Brian Wilson (SO1w2)</a> shares with him making music from an inner standard: Wilson sought the perfect sound, Niedecken the right language for Cologne.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social One with Two-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the reliability of the stance: someone who stands for the same values over decades gives others orientation. That he does not only sing about commitment but turns it into projects shows the Two-wing.</p>
+          <p class="vb-intro">The shadow of this combination is strictness toward oneself and others. The One holds back anger until it makes room for itself. Niedecken says himself that he no longer jumps on the table at once, and the stroke in November 2011 was for him, in his own words, a yellow card, a warning.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: an encore after the stroke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">On 2 November 2011 Niedecken suffered a stroke; the BAP tour was postponed to May 2012. Afterwards he could at first neither speak nor play guitar. His wife Tina helped him back, and for him every concert since is an encore, as he wrote in his book &lsquo;Zugabe&rsquo; (&lsquo;Encore&rsquo;, 2013). According to the available information (as of 24 October 2026) he is 75 years old, married to Tina since 1994 and has four children. In 2026 he received the Georg Elser Award. He describes himself as an &lsquo;Agnostiker mit Gottvertrauen&rsquo; (agnostic with trust in God).</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+        {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
+        {route:"beruehmte-juergen-klopp", label:"Portrait: Jürgen Klopp (SO1w2)"},
+        {route:"beruehmte-brian-wilson", label:"Portrait: Brian Wilson (SO1w2)"},
+        {route:"beruehmte-bradley-cooper", label:"Portrait: Bradley Cooper (SO1w2)"},
+            ])}
+    </div>
+  `);
+}
