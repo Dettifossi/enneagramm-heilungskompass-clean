@@ -2400,6 +2400,7 @@ export function floydMayweatherPortraitPage() {
         {route:"beruehmte-vitali-klitschko", label:"Boxer-Porträt: Vitali Klitschko (SE7w8)"},
         {route:"beruehmte-muhammad-ali", label:"Boxer-Porträt: Muhammad Ali (SO2w1)"},
         {route:"beruehmte-don-king", label:"Boxen: Don King (SE7w8)"},
+        {route:"beruehmte-wladimir-klitschko", label:"Boxer-Porträt: Wladimir Klitschko (SE1w9)"},
       ])}
     </div>
   `);

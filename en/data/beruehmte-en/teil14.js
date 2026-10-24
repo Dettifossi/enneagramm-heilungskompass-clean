@@ -2918,3 +2918,77 @@ export function dagiBeePortraitPage() {
     </div>
   `);
 }
+
+export function wladimirKlitschkoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-wladimir-klitschko-portrait.jpg" alt="Wladimir Klitschko – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-wladimir-klitschko-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Wladimir Klitschko</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Ukrainian former boxing world champion and Olympic champion, b. 1976 &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Eagle: Olympic champion and doctor of sports science</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An <strong>eagle</strong> surveys its territory from above and strikes only when it is sure. Wladimir Klitschko was born on 25 March 1976 in Semipalatinsk in the Kazakh Soviet Republic, the son of a major general of the Soviet air force. He holds a PhD in sports science. In 1996 he won super-heavyweight gold at the Olympic Games in Atlanta; his amateur record is 134 wins and 6 losses.</p>
+          <p class="vb-intro">Then he turned professional. After an early loss to Ross Puritty, he won the WBO heavyweight title in 2000 against Chris Byrd.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation One: preparation against worry</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The One wrestles with anger about the imperfect and wants to do everything right. Claudio Naranjo described the <strong>self-preservation One (SP1)</strong> with anxiety: the worry of doing something wrong turns to preparation, control and safety. In Klitschko this shows in his boxing style and in how he handled setbacks. In 2003 he unexpectedly lost to Corrie Sanders, in 2004 to Lamon Brewster. After the Sanders defeat the trainer Emanuel Steward took over, with whom he worked until Steward&rsquo;s death in 2012, and Klitschko built his boxing on control: distance, jab, little risk.</p>
+          <p class="vb-intro">His opponent David Haye called him a &lsquo;control freak&rsquo; in 2011. From the view of the self-preservation One this is the flip side of a strength: someone who builds so much on error avoidance rarely loses his nerve and takes few risks. In 2006 he won the title back, from 2008 to 2015 he held the unified titles, and according to Wikipedia his title reign of 4,382 days is the longest in the heavyweight division.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-wing: calm and stance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the One calm, balance and a relaxed courtesy. In Klitschko it shows in his demeanor: friendly, factual, rarely loud. Even toward an opponent who provoked him publicly he answered with irony instead of rage and said he respected him as a fighter but not as a person.</p>
+          <p class="vb-intro">The core type One sets standards; the Nine-wing makes sure they are enforced without noise.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The anecdote: manners for David Haye</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">On 16 April 2009 the British heavyweight David Haye appeared at a press conference in a T-shirt showing him with the severed heads of both Klitschko brothers. He refused to shake hands and called Wladimir a control freak. A planned fight in 2009 fell through because Haye withdrew with a back injury.</p>
+          <p class="vb-intro">Before the fight on 2 July 2011 in Hamburg, Klitschko responded at the press conference with a mix of irony and announcement: Haye arrived 30 minutes late, and Klitschko addressed him as &lsquo;princess&rsquo;. He said he was a doctor and would give Haye some &lsquo;reality rehab&rsquo;, and announced &lsquo;you will learn some manners&rsquo; and be on time in future, after a count of ten in the ring. Klitschko won the fight by unanimous decision (118&ndash;108, 117&ndash;109, 116&ndash;110). Haye blamed his defeat on a broken toe; many in boxing did not take that seriously.</p>
+          <p class="vb-intro">For the self-preservation One the scene is typical: it is annoyed by the lack of decency, classifies it and answers with stance instead of rage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Magnus Carlsen and Jürgen Klinsmann</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-magnus-carlsen">Magnus Carlsen (SP1w9)</a> is, like Klitschko, a top athlete who defines himself through preparation and control. In chess as in boxing, whoever avoids mistakes decides.</p>
+          <p class="vb-intro"><a href="#beruehmte-juergen-klinsmann">Jürgen Klinsmann (SP1w9)</a> shares with him the demand on himself as an athlete and later as a coach, and the calm, factual manner in public.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the self-preservation One with Nine-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in discipline: an Olympic champion who unexpectedly loses twice and returns with a new trainer to the longest title reign in the heavyweight division shows how worry can be translated into work. His conduct toward Haye belongs here too: he answered with irony where others would have become loud.</p>
+          <p class="vb-intro">The shadow of this combination is control at any price. Someone who avoids risk can seem hesitant to spectators, and the self-preservation One can seek so much safety that little room is left for spontaneity. His last two defeats, against Tyson Fury (2015) and Anthony Joshua (2017), ended his professional career.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: from the ring to the defense of his country</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After retiring in 2017, Klitschko was inducted into the International Boxing Hall of Fame in 2021. His professional record: 69 fights, 64 wins (53 by knockout), 5 losses. After the Russian attack on Ukraine in 2022 he joined the Ukrainian Ground Forces. He and his brother <a href="#beruehmte-vitali-klitschko">Vitali (SP7w8)</a> raised &euro;100 million in Germany in March 2022. According to the available information (as of 24 October 2026) he is 50 years old.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SP1 – Eagle"},
+        {route:"beruehmte-vitali-klitschko", label:"Boxer portrait: Vitali Klitschko (SP7w8)"},
+        {route:"beruehmte-muhammad-ali", label:"Boxer portrait: Muhammad Ali (SO2w1)"},
+        {route:"beruehmte-floyd-mayweather", label:"Boxer portrait: Floyd Mayweather Jr. (SO2w3)"},
+        {route:"beruehmte-don-king", label:"Boxing: Don King (SP7w8)"},
+        {route:"beruehmte-magnus-carlsen", label:"Portrait: Magnus Carlsen (SP1w9)"},
+            ])}
+    </div>
+  `);
+}

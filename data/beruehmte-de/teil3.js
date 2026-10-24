@@ -2840,3 +2840,77 @@ export function jonErikHexumPortraitPage() {
     </div>
   `);
 }
+
+export function wladimirKlitschkoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-wladimir-klitschko-portrait.jpg" alt="Wladimir Klitschko – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-wladimir-klitschko-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Wladimir Klitschko</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Ukrainischer Ex-Boxweltmeister und Olympiasieger, geb. 1976 &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Adler: Olympiasieger und Doktor der Sportwissenschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Adler</strong> überblickt sein Revier von oben und greift erst an, wenn er sicher ist. Wladimir Klitschko wurde am 25. März 1976 in Semipalatinsk in der Kasachischen Sowjetrepublik geboren, als Sohn eines Generalmajors der sowjetischen Luftwaffe. Er ist promovierter Sportwissenschaftler. 1996 gewann er bei den Olympischen Spielen in Atlanta Gold im Superschwergewicht; seine Amateurbilanz lautet 134 Siege bei 6 Niederlagen.</p>
+          <p class="vb-intro">Danach wurde er Profi. Nach einer frühen Niederlage gegen Ross Puritty gewann er im Jahr 2000 gegen Chris Byrd den WBO-Titel im Schwergewicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Vorbereitung gegen die Sorge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Eins ringt mit dem Ärger über das Unvollkommene und will alles richtig machen. Die <strong>selbsterhaltende Eins (SE1)</strong> beschrieb Claudio Naranjo mit der Ängstlichkeit: Die Sorge, etwas falsch zu machen, richtet sich auf Vorbereitung, Kontrolle und Sicherheit. Bei Klitschko zeigt sich das im Boxstil und im Umgang mit Rückschlägen. 2003 verlor er überraschend gegen Corrie Sanders, 2004 gegen Lamon Brewster. Nach der Sanders-Niederlage übernahm der Trainer Emanuel Steward, mit dem er bis zu dessen Tod 2012 arbeitete, und Klitschko baute sein Boxen auf Kontrolle auf: Distanz, Jab, wenig Risiko.</p>
+          <p class="vb-intro">Sein Gegner David Haye nannte ihn 2011 einen ›control freak‹ (Kontrollfreak). Aus der Sicht der Selbsterhaltungs-Eins ist das die Kehrseite einer Stärke: Wer so auf Fehlervermeidung baut, verliert selten die Nerven und riskiert wenig. 2006 holte er sich den Titel zurück, von 2008 bis 2015 hielt er die vereinten Titel, und laut Wikipedia ist seine Titelherrschaft von 4.382 Tagen die längste im Schwergewicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Gelassenheit und Haltung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der Eins Ruhe, Ausgleich und eine gelassene Höflichkeit. Bei Klitschko zeigt er sich im Auftreten: freundlich, sachlich, kaum je laut. Selbst gegenüber einem Gegner, der ihn öffentlich provozierte, antwortete er mit Ironie statt mit Wut und sagte, er respektiere ihn als Boxer, aber nicht als Menschen.</p>
+          <p class="vb-intro">Der Kerntyp Eins setzt Maßstäbe, der Neunerflügel sorgt dafür, dass sie ohne Lärm durchgesetzt werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Anekdote: Manieren für David Haye</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am 16. April 2009 erschien der britische Schwergewichtler David Haye bei einer Pressekonferenz in einem T-Shirt, das ihn mit den abgetrennten Köpfen der beiden Klitschko-Brüder zeigte. Er verweigerte den Handschlag und nannte Wladimir einen Kontrollfreak. Ein geplanter Kampf 2009 platzte, weil Haye wegen einer Rückenverletzung absagte.</p>
+          <p class="vb-intro">Vor dem Kampf am 2. Juli 2011 in Hamburg reagierte Klitschko auf der Pressekonferenz mit einer Mischung aus Ironie und Ansage: Haye kam 30 Minuten zu spät, und Klitschko sprach ihn als ›princess‹ (Prinzessin) an. Er sagte, er sei Doktor und werde Haye eine Art ›reality rehab‹ (Realitätsentzug, wörtlich eine Reha für die Wirklichkeit) verpassen, und kündigte an, ›you will learn some manners‹ (›Sie werden Manieren lernen‹) und künftig pünktlich sein, nach einer Auszählung bis zehn im Ring. Den Kampf gewann Klitschko einstimmig nach Punkten (118:108, 117:109, 116:110). Haye führte seine Niederlage auf einen gebrochenen Zeh zurück; viele im Boxsport nahmen das nicht ernst.</p>
+          <p class="vb-intro">Für die Selbsterhaltungs-Eins ist die Szene typisch: Sie ärgert sich über das Fehlen von Anstand, ordnet es ein und beantwortet es mit Haltung statt mit Wut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Magnus Carlsen und Jürgen Klinsmann</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-magnus-carlsen">Magnus Carlsen (SE1w9)</a> ist wie Klitschko ein Spitzensportler, der sich über Vorbereitung und Kontrolle definiert. Beim Schach wie beim Boxen entscheidet, wer Fehler vermeidet.</p>
+          <p class="vb-intro"><a href="#beruehmte-juergen-klinsmann">Jürgen Klinsmann (SE1w9)</a> verbindet mit ihm den Anspruch an sich selbst als Sportler und später als Trainer sowie die ruhige, sachliche Art im öffentlichen Auftreten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Eins mit Neunerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Disziplin: Ein Olympiasieger, der zweimal überraschend verliert und mit neuem Trainer zur längsten Titelherrschaft im Schwergewicht zurückkehrt, zeigt, wie Sorge in Arbeit übersetzt werden kann. Auch sein Auftritt gegenüber Haye gehört dazu: Er antwortete mit Ironie, wo andere laut geworden wären.</p>
+          <p class="vb-intro">Der Schatten dieser Kombination ist die Kontrolle um jeden Preis. Wer das Risiko meidet, wirkt auf Zuschauer mitunter zögerlich, und die Selbsterhaltungs-Eins kann so viel Sicherheit suchen, dass wenig Raum für Spontaneität bleibt. Die beiden letzten Niederlagen gegen Tyson Fury (2015) und Anthony Joshua (2017) beendeten seine Karriere als Profi.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: vom Ring in den Dienst der Verteidigung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach seinem Rücktritt 2017 wurde Klitschko 2021 in die International Boxing Hall of Fame aufgenommen. Seine Profibilanz: 69 Kämpfe, 64 Siege (53 durch K. o.), 5 Niederlagen. Nach dem russischen Angriff auf die Ukraine 2022 schloss er sich den ukrainischen Landstreitkräften an. Er und sein Bruder <a href="#beruehmte-vitali-klitschko">Vitali (SE7w8)</a> sammelten im März 2022 in Deutschland 100 Millionen Euro. Nach den vorliegenden Angaben (Stand 24. Oktober 2026) ist er 50 Jahre alt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se1", label:"Lebensmusterkompass: SE1 – Adler"},
+        {route:"beruehmte-vitali-klitschko", label:"Boxer-Porträt: Vitali Klitschko (SE7w8)"},
+        {route:"beruehmte-muhammad-ali", label:"Boxer-Porträt: Muhammad Ali (SO2w1)"},
+        {route:"beruehmte-floyd-mayweather", label:"Boxer-Porträt: Floyd Mayweather Jr. (SO2w3)"},
+        {route:"beruehmte-don-king", label:"Boxen: Don King (SE7w8)"},
+        {route:"beruehmte-magnus-carlsen", label:"Porträt: Magnus Carlsen (SE1w9)"},
+            ])}
+    </div>
+  `);
+}
