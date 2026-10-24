@@ -2792,7 +2792,7 @@ export function katharinaKoenigPortraitPage() {
         <h2 class="vb-section">2. The sexual Three: visibility as a means</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Three lives on impact, and Claudio Naranjo described the <strong>sexual Three (SX3)</strong> as the subtype of femininity or masculinity: radiance, presence and the ability to reach others. In Katharina König this shows in the fact that she does not hide her illness but shows it. In October 2022 she made her story public on TikTok. Since then she has spoken in videos and interviews and, for example, appeared at a demonstration in Kassel on 23 March 2025.</p>
-          <p class="vb-intro">The Three seeks success, and her goal too has a form: according to the available reports she initiated, together with the lawyer Tobias Ulbrich, about 200 criminal complaints against the vaccine manufacturer and the Paul-Ehrlich-Institut. The legal position and outcome of such proceedings are not the focus here. It is about the attitude: turning being affected into a project.</p>
+          <p class="vb-intro">The Three seeks success, and her goal too has a form: according to the available reports she initiated, together with the lawyer Tobias Ulbrich, about 200 criminal complaints against BioNTech and the Paul-Ehrlich-Institut. The legal position and outcome of such proceedings are not the focus here. It is about the attitude: turning being affected into a project.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two-wing: giving others a voice</h2>

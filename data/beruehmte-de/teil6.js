@@ -2859,7 +2859,7 @@ export function katharinaKoenigPortraitPage() {
         <h2 class="vb-section">2. Die sexuelle Drei: Sichtbarkeit als Mittel</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die Drei lebt von der Wirkung, und Claudio Naranjo beschrieb die <strong>sexuelle Drei (SX3)</strong> als den Subtyp der Weiblichkeit beziehungsweise Männlichkeit: Ausstrahlung, Präsenz und die Fähigkeit, andere zu erreichen. Bei Katharina König zeigt sich das darin, dass sie ihre Erkrankung nicht verbirgt, sondern zeigt. Im Oktober 2022 machte sie ihre Geschichte auf TikTok öffentlich. Seither spricht sie in Videos und Interviews und trat zum Beispiel am 23. März 2025 bei einer Demonstration in Kassel auf.</p>
-          <p class="vb-intro">Die Drei sucht Erfolg, und auch das Ziel hat bei ihr eine Form: Gemeinsam mit dem Anwalt Tobias Ulbrich hat sie nach den vorliegenden Berichten die Initiative für rund 200 Strafanzeigen gegen den Impfstoffhersteller und das Paul-Ehrlich-Institut angestoßen. Auf der Rechtslage und dem Ausgang solcher Verfahren liegt hier nicht der Fokus. Es geht um die Haltung: aus der Betroffenheit ein Projekt machen.</p>
+          <p class="vb-intro">Die Drei sucht Erfolg, und auch das Ziel hat bei ihr eine Form: Gemeinsam mit dem Anwalt Tobias Ulbrich hat sie nach den vorliegenden Berichten die Initiative für rund 200 Strafanzeigen gegen BioNTech und das Paul-Ehrlich-Institut angestoßen. Auf der Rechtslage und dem Ausgang solcher Verfahren liegt hier nicht der Fokus. Es geht um die Haltung: aus der Betroffenheit ein Projekt machen.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Zweierflügel: anderen eine Stimme geben</h2>
