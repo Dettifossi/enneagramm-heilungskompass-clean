@@ -2375,6 +2375,7 @@ export function henryShukmanPortraitPage() {
         {route:"beruehmte-franz-von-assisi", label:"Porträt: Franz von Assisi (SO7w6)"},
         {route:"beruehmte-sigourney-weaver", label:"Porträt: Sigourney Weaver (SO7w6)"},
         {route:"beruehmte-billy-bob-thornton", label:"Porträt: Billy Bob Thornton (SO7w6)"},
+        {route:"beruehmte-mathias-berner", label:"Porträt: Mathias Berner (SO7w6)"},
       ])}
     </div>
   `);

@@ -2909,7 +2909,8 @@ export function johannLechnerPortraitPage() {
         {route:"beruehmte-john-ioannidis", label:"Portrait: Prof. Dr. John Ioannidis (SO7w6)"},
         {route:"beruehmte-christian-drosten", label:"Portrait: Prof. Dr. Christian Drosten (SO7w6)"},
         {route:"enneagramm-zahnpsychosomatik", label:"Enneagram Meets Dental Psychosomatics"},
-            ])}
+        {route:"beruehmte-mathias-berner", label:"Portrait: Mathias Berner (SO7w6)"},
+      ])}
     </div>
   `);
 }

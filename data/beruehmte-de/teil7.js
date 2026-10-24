@@ -2843,3 +2843,74 @@ export function thylaneBlondeauPortraitPage() {
     </div>
   `);
 }
+
+export function mathiasBernerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-mathias-berner-portrait.jpg" alt="Mathias Berner – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-mathias-berner-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Mathias Berner</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Veranstalter von Online-Gesundheitskongressen und Autor &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Biber: vom Bauernhof in die Welt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Biber</strong> baut dort, wo Wasser fließt, und schafft damit Raum für viele. Mathias Berner wuchs nach eigener Darstellung auf einem Bauernhof auf dem Land auf, nah an der Natur. Mit sieben Jahren erkrankte er schwer, in seiner Schilderung lebensbedrohlich. Nach eigenen Angaben trat er 1981 mit 14 Jahren den Grünen bei.</p>
+          <p class="vb-intro">Nach Schule und Zivildienst verließ er den Hof und reiste nach Asien und Indien. Er nennt spirituelle Lehrer und Heiler, bei denen er gelernt habe, darunter Osho und den Dalai Lama, und er bildete sich in verschiedenen Heil- und Therapieverfahren fort.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Gemeinschaft stiften</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Verlangen der Sieben nach immer mehr heißt bei Claudio Naranjo Völlerei, und die <strong>soziale Sieben (SO7)</strong> richtet es auf die Gemeinschaft statt auf sich selbst: Sie ist der Kontratyp, bei dem das Mehr dem Wir gilt und nicht dem eigenen Genuss. Bei Berner lässt sich das an seiner Arbeit ablesen. Er finanzierte seine Ausbildung durch ein Textil- und Accessoire-Geschäft und baute bis 1999 ein internationales Textilunternehmen mit Fabriken und Büros in China und Indien auf.</p>
+          <p class="vb-intro">Danach wurde aus dem Aufbauen von Waren das Aufbauen von Kontakten: Er hat nach eigenen Angaben etwa 20 Gesundheitskongresse veranstaltet, darunter ›United To Heal‹, ›Inner Evolution‹ und ›Network To Heal‹, und die Mathias Berner Academy, die er als Netzwerk für Gesundheit und spirituelle Entwicklung beschreibt, nennt über 720 Referentinnen und Referenten. Zuletzt lief vom 24. September bis 4. Oktober 2026 der kostenlose Online-Kongress ›Herbst der Heilung‹ mit über 65 Beteiligten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Treue zu Netzwerk und Familie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> macht aus der beweglichen Sieben einen Menschen, der Verbündete sucht und an ihnen festhält. Don Richard Riso und Russ Hudson nennen die Sieben mit Sechserflügel ›Den Entertainer‹. Bei Berner zeigt sich der Flügel im Netzwerk und im Privaten: Er ist seit etwa 1999 mit Doris verheiratet, mit der er auch die Homöopathie-Kongresse entwickelte, gemeinsam mit Gabi Schörk, und sie haben zwei Kinder. Er lebt auf Zypern.</p>
+          <p class="vb-intro">Die Sieben sucht das Neue, der Sechserflügel gibt ihm das verlässliche Team.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: der Bruch und das Buch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach seiner Darstellung geriet sein Unternehmen in Korruption, die Einkäufer eines Großkunden betraf. Er schildert, wie er sein Lebenswerk verlor und einen finanziellen und seelischen Tiefpunkt erreichte. Aus dieser Erfahrung entstand seine Autobiografie ›Heart Millionaire‹ (›Herzmillionär‹), die seine Lebenskrisen und seinen Weg hindurch beschreibt. Ein Satz, der mit dem Buch verbunden ist, lautet: ›Das Leben kennt keine Fehler.‹</p>
+          <p class="vb-intro">Er ist Chefredakteur der Zeitschrift ›BewusstSein mit Mathias Berner‹. Sein Motto lautet ›Heile dein Leben – Heile die Welt‹. Als Werte nennt er Heilung, Achtsamkeit und gelebte Menschlichkeit; er wolle Menschen helfen, ihre Bestimmung frei zu entfalten, und betont, dass Veränderung nicht nur den Verstand, sondern auch Herzen brauche.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Johann Lechner und Henry Shukman</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-johann-lechner">Dr. Johann Lechner (SO7w6)</a> und Berner bewegen sich beide im Feld ganzheitlicher Gesundheit und bauen dort Netzwerke und Veranstaltungen auf. Lechner tut es als Zahnarzt in Fachverbänden, Berner als Veranstalter für ein breites Publikum.</p>
+          <p class="vb-intro"><a href="#beruehmte-henry-shukman">Henry Shukman (SO7w6)</a> teilt mit ihm die spirituelle Suche, die in die Lehre für andere mündet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Sieben mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Beeindruckend ist, wie aus einer Krise ein Netzwerk wurde: Wer sein Lebenswerk verliert und daraus ein Buch, Kongresse und eine Akademie macht, lässt das Erlebte nicht zur Bitterkeit werden. Auch die Verbindlichkeit gegenüber Mitwirkenden und Publikum gehört dazu.</p>
+          <p class="vb-intro">Die Schattenseite der Sieben ist die ständige Bewegung: Wer immer das nächste Projekt plant, kann sich kaum zurücknehmen. Dazu kommt, dass sich das Porträt auf seine eigenen Angaben stützt. Es gibt keine unabhängige Biografie, und die Inhalte der Kongresse, die im Feld alternativer und spiritueller Heilung liegen, bewertet dieser Kompass nicht. Er enthält keine Heilaussage und keine Therapieempfehlung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Zypern, Netzwerk und der Herbst der Heilung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mathias Berner lebt (Stand 24. Oktober 2026) auf Zypern und leitet die Mathias Berner Academy. Sein Kongress ›Herbst der Heilung 2026‹ ist gerade zu Ende gegangen. Über sein Privatleben hinaus, das er selbst auf seiner Seite schildert, ist wenig öffentlich dokumentiert.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
+        {route:"beruehmte-johann-lechner", label:"Porträt: Dr. Johann Lechner (SO7w6)"},
+        {route:"beruehmte-henry-shukman", label:"Porträt: Henry Shukman (SO7w6)"},
+        {route:"beruehmte-rupert-spira", label:"Porträt: Rupert Spira (SO7w6)"},
+            ])}
+    </div>
+  `);
+}

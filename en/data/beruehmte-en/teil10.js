@@ -2841,3 +2841,74 @@ export function katharinaKoenigPortraitPage() {
     </div>
   `);
 }
+
+export function mathiasBernerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-mathias-berner-portrait.jpg" alt="Mathias Berner – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-mathias-berner-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Mathias Berner</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Organizer of online health congresses and author &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Beaver: from the farm into the world</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>beaver</strong> builds where water flows and thereby creates room for many. Mathias Berner grew up, by his own account, on a farm in the countryside, close to nature. At seven he fell seriously ill, in his description life-threateningly. By his own statement he joined the Greens in 1981 at 14.</p>
+          <p class="vb-intro">After school and civilian service he left the farm and traveled to Asia and India. He names spiritual teachers and healers from whom he says he learned, among them Osho and the Dalai Lama, and he trained in various healing and therapy methods.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Seven: creating community</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Seven&rsquo;s craving for ever more is called gluttony by Claudio Naranjo, and the <strong>social Seven (SO7)</strong> directs it at the community instead of at itself: it is the countertype in which the more serves the we and not one&rsquo;s own enjoyment. In Berner this can be read from his work. He financed his training through a textile and accessories business and by 1999 built an international textile company with factories and offices in China and India.</p>
+          <p class="vb-intro">Afterwards the building of goods became the building of contacts: by his own account he has organized about 20 health congresses, among them &lsquo;United To Heal&rsquo;, &lsquo;Inner Evolution&rsquo; and &lsquo;Network To Heal&rsquo;, and the Mathias Berner Academy, which he describes as a network for health and spiritual development, lists over 720 speakers. Most recently the free online congress &lsquo;Herbst der Heilung&rsquo; (&lsquo;Autumn of Healing&rsquo;) ran from 24 September to 4 October 2026 with over 65 participants.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: loyalty to network and family</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> turns the mobile Seven into a person who seeks allies and holds on to them. Don Richard Riso and Russ Hudson call the Seven with a Six-wing &lsquo;The Entertainer&rsquo;. In Berner the wing shows in the network and in private life: he has been married to Doris since about 1999, with whom he also developed the homeopathy congresses, together with Gabi Schörk, and they have two children. He lives on Cyprus.</p>
+          <p class="vb-intro">The Seven seeks the new, and the Six-wing gives it the reliable team.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the break and the book</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">By his account his company became entangled in corruption involving the buyers of a major client. He describes how he lost his life&rsquo;s work and reached a financial and psychological low point. From this experience came his autobiography &lsquo;Heart Millionaire&rsquo;, which describes his life crises and his way through them. A sentence connected with the book reads: &lsquo;Das Leben kennt keine Fehler&rsquo; (life knows no mistakes).</p>
+          <p class="vb-intro">He is editor-in-chief of the magazine &lsquo;BewusstSein mit Mathias Berner&rsquo; (&lsquo;Awareness with Mathias Berner&rsquo;). His motto is &lsquo;Heile dein Leben – Heile die Welt&rsquo; (heal your life, heal the world). As values he names healing, mindfulness and lived humanity; he wants to help people freely develop their purpose and stresses that change needs not only the mind but also hearts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Johann Lechner and Henry Shukman</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-johann-lechner">Dr. Johann Lechner (SO7w6)</a> and Berner both move in the field of holistic health and build networks and events there. Lechner does it as a dentist in professional associations, Berner as an organizer for a broad public.</p>
+          <p class="vb-intro"><a href="#beruehmte-henry-shukman">Henry Shukman (SO7w6)</a> shares with him the spiritual search that leads into teaching for others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social Seven with Six-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Impressive is how a network came out of a crisis: someone who loses his life&rsquo;s work and makes a book, congresses and an academy of it does not let the experience turn into bitterness. The commitment toward contributors and audience belongs here too.</p>
+          <p class="vb-intro">The shadow side of the Seven is constant motion: someone who is always planning the next project can hardly take a step back. In addition this portrait rests on his own statements. There is no independent biography, and the contents of the congresses, which lie in the field of alternative and spiritual healing, are not evaluated by this Compass. It contains no healing claim and no treatment recommendation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: Cyprus, network and the Autumn of Healing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mathias Berner lives on Cyprus (as of 24 October 2026) and runs the Mathias Berner Academy. His congress &lsquo;Herbst der Heilung 2026&rsquo; has just ended. Beyond his private life, which he describes on his own page, little is publicly documented.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
+        {route:"beruehmte-johann-lechner", label:"Portrait: Dr. Johann Lechner (SO7w6)"},
+        {route:"beruehmte-henry-shukman", label:"Portrait: Henry Shukman (SO7w6)"},
+        {route:"beruehmte-rupert-spira", label:"Portrait: Rupert Spira (SO7w6)"},
+            ])}
+    </div>
+  `);
+}
