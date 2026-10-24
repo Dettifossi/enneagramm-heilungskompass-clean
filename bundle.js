@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=335";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=336";
 import { psychogrammErklaerung } from "./data/psychogramme-erklaerung.js?v=2";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
