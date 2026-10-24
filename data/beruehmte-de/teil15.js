@@ -2928,6 +2928,7 @@ export function johannLechnerPortraitPage() {
         <h2 class="vb-section">7. Stand: Praxis, Lehre und Forschung</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Nach den vorliegenden Angaben (Stand 24. Oktober 2026) leitet Johann Lechner weiterhin seine Praxisklinik in München, hält Vorträge und veröffentlicht Fachbeiträge. Über sein Privatleben ist wenig öffentlich dokumentiert. Eigene Aussagen zu seiner Motivation fanden sich nicht; dieses Porträt beschränkt sich deshalb auf seinen belegten Werdegang und sein öffentliches Wirken.</p>
+          <p class="vb-intro">Wie sich Kopf-, Herz- und Bauchtypen in Zahngruppen und Zahnbeschwerden deuten lassen, beschreibt der Beitrag <a href="#enneagramm-zahnpsychosomatik">Enneagramm meets Zahnpsychosomatik</a>.</p>
         </blockquote>
 
       </div>
@@ -2941,6 +2942,7 @@ export function johannLechnerPortraitPage() {
         {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
         {route:"beruehmte-john-ioannidis", label:"Porträt: Prof. Dr. John Ioannidis (SO7w6)"},
         {route:"beruehmte-christian-drosten", label:"Porträt: Prof. Dr. Christian Drosten (SO7w6)"},
+        {route:"enneagramm-zahnpsychosomatik", label:"Enneagramm meets Zahnpsychosomatik"},
             ])}
     </div>
   `);

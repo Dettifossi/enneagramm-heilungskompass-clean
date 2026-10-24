@@ -2893,6 +2893,7 @@ export function johannLechnerPortraitPage() {
         <h2 class="vb-section">7. Where things stand: practice, teaching and research</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">According to the available information (as of 24 October 2026) Johann Lechner still runs his clinic in Munich, gives lectures and publishes papers. Little is publicly documented about his private life. No statements of his own about his motivation were found; this portrait therefore limits itself to his documented career and public work.</p>
+          <p class="vb-intro">How head, heart and gut types can be interpreted in groups of teeth and dental complaints is described in the article <a href="#enneagramm-zahnpsychosomatik">Enneagram Meets Dental Psychosomatics</a>.</p>
         </blockquote>
 
       </div>
@@ -2906,6 +2907,7 @@ export function johannLechnerPortraitPage() {
         {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
         {route:"beruehmte-john-ioannidis", label:"Portrait: Prof. Dr. John Ioannidis (SO7w6)"},
         {route:"beruehmte-christian-drosten", label:"Portrait: Prof. Dr. Christian Drosten (SO7w6)"},
+        {route:"enneagramm-zahnpsychosomatik", label:"Enneagram Meets Dental Psychosomatics"},
             ])}
     </div>
   `);
