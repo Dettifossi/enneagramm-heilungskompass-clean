@@ -10442,13 +10442,18 @@ function deinWilleGeschehePage() {
                           background:var(--paper);list-style:none;user-select:none;font-weight:700;
                           font-size:0.95rem;color:var(--ink);">
             <span style="font-size:1.2rem;color:var(--copper);">&#9672;</span>
-            <span style="flex:1;">Further reading by Detlef Rathmer</span>
+            <span style="flex:1;">Spiritual and further reading by Detlef Rathmer</span>
             <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
           </summary>
           <div style="padding:1rem 1.2rem 1.2rem;">
             ${bookTip("sei-still-und-wisse-ich-bin-gott", "A spiritual book on the deepest stillness within us and the experience of transcendence beyond all concepts.", "Sei still und wisse – ich bin Gott!")}
-            <div style="margin-top:.8rem;">${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}</div>
+            <div style="margin-top:.8rem;">${bookTip("nichts-und-alles", "A book on the nature of consciousness – between emptiness and fullness, between the nothing and the everything of life.", "Nichts und Alles")}</div>
+            <div style="margin-top:.8rem;">${bookTip("der-raum-hinter-allem", "An exploration of consciousness beyond thought – on the silent space that lies behind all experience.", "Der Raum hinter allem")}</div>
+            <div style="margin-top:.8rem;">${bookTip("heilung-als-erinnerung", "Healing not as repair, but as remembering what we truly are – a profound look at health and wholeness.", "Heilung als Erinnerung")}</div>
+            <div style="margin-top:.8rem;">${bookTip("in-der-tiefe-der-zeit", "A book on consciousness, time and the silent dimension behind all experience.", "In der Tiefe der Zeit")}</div>
+            <div style="margin-top:.8rem;">${bookTip("du-bist-nicht-dein-zweifel", "Recognizing and letting go of core beliefs – a guide to inner freedom for all 9 types.", "Du bist nicht dein Zweifel")}</div>
             <div style="margin-top:.8rem;">${bookTip("hinter-der-leidenschaft", "The nine wounds of the Enneagram – an in-depth analysis of the primal wound behind each passion, with concrete paths of healing for all 9 types.", "Hinter der Leidenschaft")}</div>
+            <div style="margin-top:.8rem;">${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}</div>
           </div>
         </details>
       </div>

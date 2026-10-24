@@ -34635,13 +34635,18 @@ function deinWilleGeschehePage() {
                           background:var(--paper);list-style:none;user-select:none;font-weight:700;
                           font-size:0.95rem;color:var(--ink);">
             <span style="font-size:1.2rem;color:var(--copper);">&#9672;</span>
-            <span style="flex:1;">Vertiefende Literatur von Detlef Rathmer</span>
+            <span style="flex:1;">Spirituelle und vertiefende Literatur von Detlef Rathmer</span>
             <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
           </summary>
           <div style="padding:1rem 1.2rem 1.2rem;">
             ${bookTip("sei-still-und-wisse-ich-bin-gott", "Ein spirituelles Buch über die tiefste Stille in uns und die Erfahrung von Transzendenz jenseits aller Konzepte.", "Sei still und wisse – ich bin Gott!")}
-            <div style="margin-top:.8rem;">${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}</div>
+            <div style="margin-top:.8rem;">${bookTip("nichts-und-alles", "Ein Buch über das Wesen des Bewusstseins – zwischen Leere und Fülle, zwischen dem Nichts und dem Alles des Lebens.", "Nichts und Alles")}</div>
+            <div style="margin-top:.8rem;">${bookTip("der-raum-hinter-allem", "Eine Erkundung des Bewusstseins jenseits der Gedanken – über den stillen Raum, der hinter allem Erleben liegt.", "Der Raum hinter allem")}</div>
+            <div style="margin-top:.8rem;">${bookTip("heilung-als-erinnerung", "Heilung nicht als Reparatur, sondern als Erinnerung an das, was wir eigentlich sind – ein tiefgründiger Blick auf Gesundheit und Ganzheit.", "Heilung als Erinnerung")}</div>
+            <div style="margin-top:.8rem;">${bookTip("in-der-tiefe-der-zeit", "Ein Buch über Bewusstsein, Zeit und die stille Dimension hinter allem Erleben.", "In der Tiefe der Zeit")}</div>
+            <div style="margin-top:.8rem;">${bookTip("du-bist-nicht-dein-zweifel", "Kernüberzeugungen erkennen und loslassen – ein Wegweiser zu innerer Freiheit für alle 9 Typen.", "Du bist nicht dein Zweifel")}</div>
             <div style="margin-top:.8rem;">${bookTip("hinter-der-leidenschaft", "Die neun Wunden des Enneagramms – tiefgreifende Analyse der Urwunde hinter jeder Leidenschaft, mit konkreten Heilungswegen für alle 9 Typen.", "Hinter der Leidenschaft")}</div>
+            <div style="margin-top:.8rem;">${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}</div>
           </div>
         </details>
       </div>
