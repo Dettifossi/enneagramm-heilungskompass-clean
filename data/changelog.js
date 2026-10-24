@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2609", date: "2026-10-24", text: "Neues Porträt: Henry Maske (SE1w9) – Olympiasieger und Box-Weltmeister.", text_en: "New portrait: Henry Maske (SP1w9) – Olympic champion and boxing world champion.", route: "beruehmte-henry-maske" },
     { version: "v2608", date: "2026-10-24", text: "Neues Porträt: Wladimir Klitschko (SE1w9) – Olympiasieger und Box-Weltmeister.", text_en: "New portrait: Wladimir Klitschko (SP1w9) – Olympic champion and boxing world champion.", route: "beruehmte-wladimir-klitschko" },
     { version: "v2607", date: "2026-10-24", text: "Neues Porträt: Vitali Klitschko (SE7w8) – Box-Weltmeister und Bürgermeister von Kiew.", text_en: "New portrait: Vitali Klitschko (SP7w8) – boxing world champion and mayor of Kyiv.", route: "beruehmte-vitali-klitschko" },
     { version: "v2606", date: "2026-10-24", text: "Neues Porträt: Thylane Blondeau (SX3w4) – Model und Schauspielerin.", text_en: "New portrait: Thylane Blondeau (SX3w4) – model and actress.", route: "beruehmte-thylane-blondeau" },

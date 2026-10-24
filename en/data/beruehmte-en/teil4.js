@@ -2401,6 +2401,7 @@ export function floydMayweatherPortraitPage() {
         {route:"beruehmte-muhammad-ali", label:"Boxer portrait: Muhammad Ali (SO2w1)"},
         {route:"beruehmte-don-king", label:"Boxing: Don King (SP7w8)"},
         {route:"beruehmte-wladimir-klitschko", label:"Boxer portrait: Wladimir Klitschko (SP1w9)"},
+        {route:"beruehmte-henry-maske", label:"Boxer portrait: Henry Maske (SP1w9)"},
       ])}
     </div>
   `);
@@ -2898,6 +2899,80 @@ export function viggoMortensenPortraitPage() {
         {route:"beruehmte-mads-mikkelsen", label:"Portrait: Mads Mikkelsen (SX9w1)"},
         {route:"beruehmte-willie-nelson", label:"Portrait: Willie Nelson (SX9w1)"},
       ])}
+    </div>
+  `);
+}
+
+export function henryMaskePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-henry-maske-portrait.jpg" alt="Henry Maske – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-henry-maske-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Henry Maske</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">German former boxing world champion and Olympic champion, b. 1964 &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Eagle: from the boy from Jüterbog to Olympic champion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An <strong>eagle</strong> circles the terrain for a long time and does not let itself be rattled before it strikes. Henry Maske was born on 6 January 1964 in Treuenbrietzen in the GDR. At seven he started boxing in Jüterbog, later he trained in Ludwigsfelde and at ASK Vorwärts Frankfurt (Oder) under Manfred Wolke. He was an officer of the National People&rsquo;s Army. In his own words he comes from a household in which there was not much.</p>
+          <p class="vb-intro">He became GDR champion five times (1983, 1985 to 1988), European champion in 1985, 1987 and 1989, and won Olympic gold in Seoul in 1988 in the middleweight division. In 1986 he was world championship runner-up in Reno, in 1989 he won the world title in the light heavyweight division in Moscow. His amateur record: 163 wins in 181 fights.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation One: the demand on himself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The One wrestles with anger about the imperfect and wants to get it right. Claudio Naranjo described the <strong>self-preservation One (SP1)</strong> with anxiety: the worry of failing turns into preparation, consistency and self-control. In Maske this is a life theme. In an interview with Sports Illustrated of 24 April 2026 he says: &lsquo;Ich war kein Naturtalent&rsquo; (I was not a natural talent). That is why he needed discipline and endurance, and the mental breakthroughs under his trainer shaped him most.</p>
+          <p class="vb-intro">He names honesty with himself, consistency and holding on to his own standards as values. Whoever deliberately disappoints or betrays him gets no second chance. This is the strictness of the One, directed first at itself and then applying the same measure to others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-wing: the calm gentleman</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the One calm, composure and a friendly reserve. In Maske it shows in his reputation as &lsquo;the gentleman&rsquo;: as a professional he appeared in such a way that he became known for his composed manner, with a defensive, controlled style. He himself says he did not play a role: decency, respect and a calm way of dealing with others had been natural to him.</p>
+          <p class="vb-intro">The core type One sets the standard; the Nine-wing gives it the composure to live it without noise.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: gentleman in the ring</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1990 Maske turned professional with the promoter Wilfried Sauerland; his debut was on 9 May 1990 in London. The nickname &lsquo;Der Gentleman&rsquo; stood for his composed manner and his defensive counter-punching style, and he became a national figure and a driver of the boxing boom of the early 1990s on RTL. In March 1993 he won the IBF light heavyweight title in Düsseldorf by unanimous decision against Charles Williams. He defended it several times until 1996, among them twice against Graciano Rocchigiani in 1995: the first fight ended with a narrow, contested decision, the second in Munich with a clear win.</p>
+          <p class="vb-intro">On 23 November 1996 he lost the title on points to Virgil Hill in Munich, in a fight the sources describe as controversial. He had announced beforehand that he would retire afterwards. In 2006 he announced a comeback for a single fight, the rematch with Hill. On 31 March 2007 he won it on points after twelve rounds and retired for good at once. The comeback had been viewed with skepticism by experts and the public.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Wladimir Klitschko and Magnus Carlsen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-wladimir-klitschko">Wladimir Klitschko (SP1w9)</a> shares with Maske the type and the boxing: both build on control and preparation, both became Olympic champions and both went through setbacks with stance. The difference lies in tone: Maske was the calm gentleman, Klitschko answered a provoker with irony.</p>
+          <p class="vb-intro"><a href="#beruehmte-magnus-carlsen">Magnus Carlsen (SP1w9)</a> shares with him the demand to avoid mistakes and the calm under pressure.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the self-preservation One with Nine-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in credibility: someone who lives the same demeanor in the ring and afterwards is experienced as reliable. Maske says on this that recognition is pleasant but also a burden because it raises expectations, and that the spotlight does not only have positive sides.</p>
+          <p class="vb-intro">The shadow of this combination is the strictness that gives no second chance, and the high demand on himself that grows under observation. A gentleman image can also confine, because every deviation from it counts as a mistake.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: entrepreneur, patron and gentleman emeritus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1999 Maske founded the Henry Maske Fonds, which helps disadvantaged young people. He was a McDonald&rsquo;s franchisee until 2019 and has been patron of a Ronald McDonald House in Essen since 2005. In 2008 he was announced for the lead role in the film &lsquo;Max Schmeling&rsquo; (directed by Uwe Boll). He received the Federal Cross of Merit (2001), the Golden Sports Pyramid and induction into the Hall of Fame of German Sport (2012) as well as a place on the Munich Olympic Walk of Stars (2013). According to the available information (as of 24 October 2026) he is 62 years old, married to Manuela and lives in Overath near Cologne.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SP1 – Eagle"},
+        {route:"beruehmte-wladimir-klitschko", label:"Boxer portrait: Wladimir Klitschko (SP1w9)"},
+        {route:"beruehmte-vitali-klitschko", label:"Boxer portrait: Vitali Klitschko (SP7w8)"},
+        {route:"beruehmte-muhammad-ali", label:"Boxer portrait: Muhammad Ali (SO2w1)"},
+        {route:"beruehmte-floyd-mayweather", label:"Boxer portrait: Floyd Mayweather Jr. (SO2w3)"},
+        {route:"beruehmte-don-king", label:"Boxing: Don King (SP7w8)"},
+        {route:"beruehmte-magnus-carlsen", label:"Portrait: Magnus Carlsen (SP1w9)"},
+            ])}
     </div>
   `);
 }

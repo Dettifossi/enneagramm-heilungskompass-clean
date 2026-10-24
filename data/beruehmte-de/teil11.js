@@ -2836,3 +2836,77 @@ export function vickyLeandrosPortraitPage() {
     </div>
   `);
 }
+
+export function henryMaskePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-henry-maske-portrait.jpg" alt="Henry Maske – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-henry-maske-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Henry Maske</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Ex-Boxweltmeister und Olympiasieger, geb. 1964 &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Adler: vom Jüterboger Jungen zum Olympiasieger</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Adler</strong> kreist lange über dem Gelände und lässt sich nicht aus der Ruhe bringen, bevor er zupackt. Henry Maske wurde am 6. Januar 1964 in Treuenbrietzen in der DDR geboren. Mit sieben Jahren begann er in Jüterbog mit dem Boxen, später trainierte er in Ludwigsfelde und beim ASK Vorwärts Frankfurt (Oder) unter Manfred Wolke. Er war Offizier der Nationalen Volksarmee. Nach eigener Aussage stammt er aus einem Haushalt, in dem nicht viel vorhanden war.</p>
+          <p class="vb-intro">Er wurde fünfmal DDR-Meister (1983, 1985 bis 1988), Europameister 1985, 1987 und 1989 und gewann 1988 in Seoul Olympiagold im Mittelgewicht. 1986 war er WM-Zweiter in Reno, 1989 gewann er in Moskau den WM-Titel im Halbschwergewicht. Seine Amateurbilanz: 163 Siege in 181 Kämpfen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Anspruch an sich selbst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Eins ringt mit dem Ärger über das Unvollkommene und will es richtig machen. Die <strong>selbsterhaltende Eins (SE1)</strong> beschrieb Claudio Naranjo mit der Ängstlichkeit: Die Sorge, zu versagen, wandelt sich in Vorbereitung, Konsequenz und Selbstkontrolle. Bei Maske ist das ein Lebensthema. In einem Interview mit Sports Illustrated vom 24. April 2026 sagt er: ›Ich war kein Naturtalent.‹ Deshalb habe er Disziplin und Ausdauer gebraucht, und am meisten hätten ihn die mentalen Durchbrüche unter seinem Trainer geprägt.</p>
+          <p class="vb-intro">Er nennt Ehrlichkeit zu sich selbst, Konsequenz und das Festhalten an eigenen Ansprüchen als Werte. Wer ihn bewusst enttäusche oder hintergehe, bekomme keine zweite Chance. Das ist die Strenge der Eins, die zuerst gegen sich selbst gerichtet ist und dann auch an andere denselben Maßstab legt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: der ruhige Gentleman</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der Eins Ruhe, Gelassenheit und eine freundliche Zurückhaltung. Bei Maske zeigt er sich im Ruf des ›Gentleman‹: Als Profi trat er so auf, dass er für sein beherrschtes Auftreten bekannt wurde, mit einem defensiven, kontrollierten Stil. Er selbst sagt, er habe keine Rolle gespielt: Anstand, Respekt und ein ruhiger Umgang seien für ihn selbstverständlich gewesen.</p>
+          <p class="vb-intro">Der Kerntyp Eins setzt den Maßstab, der Neunerflügel verleiht ihm die Gelassenheit, ihn ohne Lärm zu leben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Gentleman im Ring</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1990 wurde Maske Profi, mit dem Promoter Wilfried Sauerland; sein Debüt war am 9. Mai 1990 in London. Der Beiname ›Der Gentleman‹ stand für sein beherrschtes Auftreten und den defensiven Konterstil, und er wurde zu einer nationalen Figur und zu einem Treiber des Boxbooms der frühen 1990er-Jahre auf RTL. Im März 1993 gewann er in Düsseldorf durch einstimmigen Punktsieg gegen Charles Williams den IBF-Titel im Halbschwergewicht. Er verteidigte ihn mehrfach bis 1996, darunter zweimal gegen Graciano Rocchigiani 1995: Der erste Kampf endete mit knapper, umstrittener Entscheidung, der zweite in München mit klarem Sieg.</p>
+          <p class="vb-intro">Am 23. November 1996 verlor er in München nach Punkten den Titel an Virgil Hill, in einem Kampf, den die Quellen als umstritten beschreiben. Er hatte vorher angekündigt, danach aufzuhören. 2006 kündigte er ein Comeback für einen einzigen Kampf an, den Rückkampf gegen Hill. Am 31. März 2007 gewann er ihn nach zwölf Runden nach Punkten und trat sofort für immer zurück. Das Comeback war von Fachleuten und Öffentlichkeit mit Skepsis betrachtet worden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Wladimir Klitschko und Magnus Carlsen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-wladimir-klitschko">Wladimir Klitschko (SE1w9)</a> teilt mit Maske den Typ und das Boxen: Beide bauen auf Kontrolle und Vorbereitung, beide wurden Olympiasieger und beide gingen mit Haltung durch Rückschläge. Der Unterschied liegt im Ton: Maske war der ruhige Gentleman, Klitschko antwortete einem Provokateur mit Ironie.</p>
+          <p class="vb-intro"><a href="#beruehmte-magnus-carlsen">Magnus Carlsen (SE1w9)</a> verbindet mit ihm den Anspruch, Fehler zu vermeiden, und die Ruhe unter Druck.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Eins mit Neunerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Glaubwürdigkeit: Wer dasselbe Auftreten im Ring und danach lebt, wird als verlässlich erlebt. Maske sagt dazu, Anerkennung sei angenehm, aber auch belastend, weil sie Erwartungen wecke, und das Rampenlicht habe nicht nur positive Seiten.</p>
+          <p class="vb-intro">Der Schatten dieser Kombination ist die Strenge, die keine zweite Chance gibt, und der hohe Anspruch an sich selbst, der unter Beobachtung noch wächst. Ein Gentleman-Image kann auch einengen, weil jede Abweichung davon als Fehler gilt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Unternehmer, Förderer und Gentleman a. D.</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1999 gründete Maske den Henry Maske Fonds, der benachteiligten Jugendlichen hilft. Er war bis 2019 McDonald&rsquo;s-Franchisenehmer und ist seit 2005 Schirmherr eines Ronald McDonald Hauses in Essen. Für die Hauptrolle im Film ›Max Schmeling‹ (Regie: Uwe Boll) wurde er 2008 angekündigt. Er erhielt das Bundesverdienstkreuz (2001), die Goldene Sportpyramide und den Eintritt in die Hall of Fame des deutschen Sports (2012) sowie einen Platz auf dem Olympischen Walk of Stars in München (2013). Nach den vorliegenden Angaben (Stand 24. Oktober 2026) ist er 62 Jahre alt, mit Manuela verheiratet und lebt in Overath bei Köln.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se1", label:"Lebensmusterkompass: SE1 – Adler"},
+        {route:"beruehmte-wladimir-klitschko", label:"Boxer-Porträt: Wladimir Klitschko (SE1w9)"},
+        {route:"beruehmte-vitali-klitschko", label:"Boxer-Porträt: Vitali Klitschko (SE7w8)"},
+        {route:"beruehmte-muhammad-ali", label:"Boxer-Porträt: Muhammad Ali (SO2w1)"},
+        {route:"beruehmte-floyd-mayweather", label:"Boxer-Porträt: Floyd Mayweather Jr. (SO2w3)"},
+        {route:"beruehmte-don-king", label:"Boxen: Don King (SE7w8)"},
+        {route:"beruehmte-magnus-carlsen", label:"Porträt: Magnus Carlsen (SE1w9)"},
+            ])}
+    </div>
+  `);
+}
