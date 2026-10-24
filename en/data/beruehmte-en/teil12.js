@@ -2900,6 +2900,78 @@ export function sheilaDeLizPortraitPage() {
         {route:"beruehmte-dagi-bee", label:"Portrait: Dagi Bee (SX6w7)"},
         {route:"beruehmte-anke-engelke", label:"Portrait: Anke Engelke (SX6w7)"},
         {route:"beruehmte-louise-hay", label:"Portrait: Louise Hay (SX6w7)"},
+        {route:"beruehmte-karolina-lodyga", label:"Portrait: Karolina Lodyga (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
+
+export function karolinaLodygaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-karolina-lodyga-portrait.jpg" alt="Karolina Lodyga – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-karolina-lodyga-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Karolina Lodyga</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">German-Polish actress, b. 1984 &ndash; Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Wolf: from Gdynia to Berlin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>wolf</strong> runs in a pack and faces what threatens it. Karolina Lodyga was born on 13 April 1984 in Gdynia in Poland. Polish is her mother tongue and she speaks fluent German. From 2001 to 2003 she attended the Berliner Schule für Bühnenkunst, from 2003 to 2007 the Transform Schauspielschule Berlin.</p>
+          <p class="vb-intro">From 2004 she appeared at the Teatr Studio am Salzufer in Berlin, a German-Polish studio stage, in plays by Różewicz, Witkiewicz and Horváth. In 2007 she played Alice in &lsquo;Alice in Wonderland&rsquo; at the Schlosstheater Celle, in 2008 Brooke in &lsquo;Der nackte Wahnsinn&rsquo; (&lsquo;Noises Off&rsquo;) at the Komödie Dresden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Six: strength as the answer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Six carries doubt within, and the <strong>sexual Six (SX6)</strong> answers this, according to Claudio Naranjo, not with leaning on others but with strength. In Lodyga this can be read from her choice of roles, not from statements of her own: she often plays women who assert themselves, such as the police inspector Zofia Kowalska in &lsquo;Der Masuren-Krimi&rsquo; (since 2021) and Danuta Masik in the series &lsquo;Die Eifelpraxis&rsquo; (2016 to 2019). This is an interpretation based on the roles, not on self-statements.</p>
+          <p class="vb-intro">Her path also shows toughness: from a Berlin studio stage over the years came a television career with roles from telenovela through drama to crime.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-wing: sociability and curiosity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso and Russ Hudson call the Six with a Seven-wing &lsquo;The Buddy&rsquo; and the Six with a Five-wing &lsquo;The Defender&rsquo;. The <strong>Seven-wing (w7)</strong> brings sociability, humor and curiosity. In an interview with Quotenmeter (19 August 2021) she says that new professional challenges and meeting new colleagues energize her, and that she spends her best days with family and friends. In the evening she unwinds with dinner and wine with colleagues or with documentaries at home with her husband.</p>
+          <p class="vb-intro">The Six holds on to what is reliable, and the Seven-wing turns this into mobility and community.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: from telenovela face to the discovery of the film</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">She became known in 2008 as Katja Polauke in the telenovela &lsquo;Anna und die Liebe&rsquo; (2008 to 2010 and 2011, 361 episodes in the first phase). She also played a supporting role in 2008 and 2009 in Dominik Graf&rsquo;s &lsquo;Im Angesicht des Verbrechens&rsquo; (&lsquo;In the Face of Crime&rsquo;) and, by her own account, would like to work with Graf again. In 2014 she received much praise as Wanda in the ARD television film &lsquo;… und dann kam Wanda&rsquo;; reviews called her the &lsquo;discovery of the film&rsquo;.</p>
+          <p class="vb-intro">In 2022 followed the role of Miriam Merizadi in the ZDF series &lsquo;Der Überfall&rsquo; (&lsquo;The Heist&rsquo;) as well as appearances in &lsquo;4 Blocks&rsquo;, &lsquo;Der Bergdoktor&rsquo; (2023), &lsquo;Der Alte&rsquo; (2024) and Tatort episodes (2025).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Katja Riemann and Anke Engelke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-katja-riemann">Katja Riemann (SX6w7)</a> and <a href="#beruehmte-anke-engelke">Anke Engelke (SX6w7)</a> share with Lodyga type and wing: a combination of directness and sociability. Riemann and Engelke have been in the business for decades, Lodyga is at the beginning of a longer stretch.</p>
+          <p class="vb-intro">The difference lies in the biography: Lodyga came from Poland and worked her way to a place in German television.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Six with Seven-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Strong is the reliability: someone who carries roles from telenovela to television film for years becomes a face one can count on. Bright too is the sociability that she, by her own account, draws from working together.</p>
+          <p class="vb-intro">The shadow side of the Six with a Seven-wing can be constant activity: someone who keeps taking on new roles has little time to feel one&rsquo;s own worry. No statements of her own on this exist; this sentence is an interpretation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: Franconia, family and new roles</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lodyga is 42 years old (as of 24 October 2026), married and lives in Franconia. She lived in Berlin for almost 20 years. Most recently she was seen in &lsquo;Der Masuren-Krimi&rsquo;, in the Tatort and in &lsquo;Wilsberg&rsquo; (2026). She speaks little about her private life, and this portrait respects that.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"lebensmusterkompass/sx6", label:"Life Pattern Compass: SX6 – Wolf"},
+        {route:"beruehmte-katja-riemann", label:"Portrait: Katja Riemann (SX6w7)"},
+        {route:"beruehmte-anke-engelke", label:"Portrait: Anke Engelke (SX6w7)"},
+        {route:"beruehmte-sheila-de-liz", label:"Portrait: Dr. med. Sheila de Liz (SX6w7)"},
             ])}
     </div>
   `);

@@ -135,6 +135,7 @@ export function ankeEngelkePortraitPage() {
         {route:"beruehmte-byron-katie", label:"Portrait: Byron Katie (SX6w7)"},
         {route:"beruehmte-jennifer-aniston", label:"Portrait: Jennifer Aniston (SX6w7)"},
         {route:"beruehmte-scarlett-johansson", label:"Portrait: Scarlett Johansson (SX6w7)"},
+        {route:"beruehmte-karolina-lodyga", label:"Portrait: Karolina Lodyga (SX6w7)"},
       ])}
     </div>
   `);

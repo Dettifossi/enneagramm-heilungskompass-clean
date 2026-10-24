@@ -173,6 +173,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-curtis-yarvin", label: "Neues EN-Porträt: Curtis Yarvin" },
   { hash: "#beruehmte-peter-thiel", label: "Neues Porträt: Peter Thiel" },
   { hash: "en/#beruehmte-peter-thiel", label: "Neues EN-Porträt: Peter Thiel" },
+  { hash: "#beruehmte-karolina-lodyga", label: "Neues Porträt: Karolina Lodyga" },
+  { hash: "en/#beruehmte-karolina-lodyga", label: "Neues EN-Porträt: Karolina Lodyga" },
   { hash: "#beruehmte-bradley-cooper", label: "Neues Porträt: Bradley Cooper" },
   { hash: "en/#beruehmte-bradley-cooper", label: "Neues EN-Porträt: Bradley Cooper" },
   { hash: "#beruehmte-richy-mueller", label: "Neues Porträt: Richy Müller" },

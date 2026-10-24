@@ -2935,6 +2935,78 @@ export function sheilaDeLizPortraitPage() {
         {route:"beruehmte-dagi-bee", label:"Porträt: Dagi Bee (SX6w7)"},
         {route:"beruehmte-anke-engelke", label:"Porträt: Anke Engelke (SX6w7)"},
         {route:"beruehmte-louise-hay", label:"Porträt: Louise Hay (SX6w7)"},
+        {route:"beruehmte-karolina-lodyga", label:"Porträt: Karolina Lodyga (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
+
+export function karolinaLodygaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-karolina-lodyga-portrait.jpg" alt="Karolina Lodyga – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-karolina-lodyga-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Karolina Lodyga</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Deutsch-polnische Schauspielerin, geb. 1984 &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Wolf: von Gdynia nach Berlin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Wolf</strong> läuft im Rudel und stellt sich dem, was ihn bedroht. Karolina Lodyga wurde am 13. April 1984 in Gdynia in Polen geboren. Polnisch ist ihre Muttersprache, und sie spricht fließend Deutsch. Von 2001 bis 2003 besuchte sie die Berliner Schule für Bühnenkunst, von 2003 bis 2007 die Transform Schauspielschule Berlin.</p>
+          <p class="vb-intro">Ab 2004 stand sie am Teatr Studio am Salzufer in Berlin, einer deutsch-polnischen Studiobühne, in Stücken von Różewicz, Witkiewicz und Horváth. 2007 spielte sie am Schlosstheater Celle die Alice in ›Alice im Wunderland‹, 2008 an der Komödie Dresden die Brooke in ›Der nackte Wahnsinn‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Stärke als Antwort</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Sechs trägt Zweifel in sich, und die <strong>sexuelle Sechs (SX6)</strong> beantwortet das nach Claudio Naranjo nicht mit Anlehnung, sondern mit Stärke. Bei Lodyga lässt sich das aus ihrer Rollenwahl lesen, nicht aus eigenen Aussagen: Sie spielt häufig Frauen, die sich behaupten, etwa die Kriminalkommissarin Zofia Kowalska im ›Masuren-Krimi‹ (seit 2021) und Danuta Masik in der Reihe ›Die Eifelpraxis‹ (2016 bis 2019). Das ist eine Deutung, die sich auf die Rollen stützt, nicht auf Selbstaussagen.</p>
+          <p class="vb-intro">Auch ihr Weg zeigt Zähigkeit: Aus einer Berliner Studiobühne wurde über Jahre eine Fernsehkarriere mit Rollen von Telenovela über Drama bis zum Krimi.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Geselligkeit und Neugier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso und Russ Hudson nennen die Sechs mit Siebenerflügel ›Den Kumpel‹ und die Sechs mit Fünferflügel ›Den Verteidiger‹. Der <strong>Siebenerflügel (w7)</strong> bringt Geselligkeit, Humor und Neugier. In einem Interview mit Quotenmeter (19. August 2021) sagt sie, neue berufliche Herausforderungen und die Begegnung mit neuen Kolleginnen und Kollegen beflügelten sie, und ihre besten Tage verbringe sie mit Familie und Freunden. Abends entspannt sie sich mit Essen und Wein mit Kollegen oder mit Dokumentationen zu Hause mit ihrem Mann.</p>
+          <p class="vb-intro">Die Sechs hält an Verlässlichem fest, der Siebenerflügel macht daraus Beweglichkeit und Gemeinschaft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: vom Telenovela-Gesicht zur Entdeckung des Films</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bekannt wurde sie 2008 als Katja Polauke in der Telenovela ›Anna und die Liebe‹ (2008 bis 2010 und 2011, in der ersten Phase 361 Folgen). Daneben spielte sie 2008 und 2009 eine Nebenrolle in Dominik Grafs ›Im Angesicht des Verbrechens‹ und möchte nach eigener Aussage gern wieder mit Graf arbeiten. 2014 erhielt sie als Wanda im ARD-Fernsehfilm ›… und dann kam Wanda‹ viel Lob, Kritiken nannten sie die ›Entdeckung des Films‹.</p>
+          <p class="vb-intro">Es folgten 2022 die Rolle der Miriam Merizadi in der ZDF-Serie ›Der Überfall‹ sowie Auftritte in ›4 Blocks‹, ›Der Bergdoktor‹ (2023), ›Der Alte‹ (2024) und Tatort-Folgen (2025).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Katja Riemann und Anke Engelke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-katja-riemann">Katja Riemann (SX6w7)</a> und <a href="#beruehmte-anke-engelke">Anke Engelke (SX6w7)</a> verbinden mit Lodyga Typ und Flügel: Verbindung von Direktheit und Geselligkeit. Riemann und Engelke sind seit Jahrzehnten im Geschäft, Lodyga am Anfang einer längeren Strecke.</p>
+          <p class="vb-intro">Der Unterschied liegt in der Biografie: Lodyga kam aus Polen und hat sich ihren Platz im deutschen Fernsehen erarbeitet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sexuellen Sechs mit Siebenerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Stark ist die Verlässlichkeit: Wer über Jahre Rollen von der Telenovela bis zum Fernsehfilm trägt, wird zum Gesicht, auf das man zählt. Hell ist auch die Geselligkeit, die sie nach eigener Aussage aus Zusammenarbeit zieht.</p>
+          <p class="vb-intro">Die Schattenseite der Sechs mit Siebenerflügel kann der Dauereinsatz sein: Wer immer neue Rollen annimmt, hat wenig Zeit, die eigene Sorge zu spüren. Eigene Aussagen von ihr dazu liegen nicht vor, dieser Satz ist eine Deutung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Franken, Familie und neue Rollen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lodyga ist (Stand 24. Oktober 2026) 42 Jahre alt, verheiratet und lebt in Franken. Sie hat fast 20 Jahre in Berlin gelebt. Zuletzt war sie in ›Der Masuren-Krimi‹, im Tatort und in ›Wilsberg‹ (2026) zu sehen. Über ihr Privatleben spricht sie wenig, und dieses Porträt respektiert das.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx6", label:"Lebensmusterkompass: SX6 – Wolf"},
+        {route:"beruehmte-katja-riemann", label:"Porträt: Katja Riemann (SX6w7)"},
+        {route:"beruehmte-anke-engelke", label:"Porträt: Anke Engelke (SX6w7)"},
+        {route:"beruehmte-sheila-de-liz", label:"Porträt: Dr. med. Sheila de Liz (SX6w7)"},
             ])}
     </div>
   `);

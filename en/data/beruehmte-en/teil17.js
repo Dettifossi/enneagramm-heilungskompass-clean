@@ -918,6 +918,7 @@ export function katjaRiemannPortraitPage() {
         {route:"beruehmte-byron-katie", label:"Portrait: Byron Katie (SX6w7)"},
         {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7)"},
         {route:"beruehmte-dagi-bee", label:"Portrait: Dagi Bee (SX6w7)"},
+        {route:"beruehmte-karolina-lodyga", label:"Portrait: Karolina Lodyga (SX6w7)"},
       ])}
     </div>
   `);
