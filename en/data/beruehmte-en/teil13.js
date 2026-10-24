@@ -2890,3 +2890,74 @@ export function hongChauPortraitPage() {
     </div>
   `);
 }
+
+export function juliaKoschitzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-julia-koschitz-portrait.jpg" alt="Julia Koschitz – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-julia-koschitz-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Julia Koschitz</p>
+        <p class="krim-portrait-typ">SP4w5 &middot; Self-Preservation Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Austrian actress, b. 1974 &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Dove: from Brussels via Frankfurt to Munich</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>dove</strong> finds its way home over long distances and returns quietly to the same place. Julia Koschitz was born on 26 December 1974 in Brussels and grew up in Frankfurt am Main as the daughter of Viennese parents. Until the age of 16 she trained in ballet. From 1995 to 1998 she studied acting at the Franz Schubert Konservatorium in Vienna.</p>
+          <p class="vb-intro">After that she held permanent engagements at the theater in Coburg and in Regensburg and worked at the Kammerspiele Landshut. In 2006 she received the acting prize of the Bayerische Theatertage for her role as Nora. She has lived in Munich since 2002.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Four: quietly enduring</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Four senses that something is missing and carries this feeling with her. In the <strong>self-preservation Four (SP4)</strong> this happens without a performance: Claudio Naranjo spoke here of tenacity, a quiet enduring that does not complain. In Koschitz it shows in the precision with which she practices her craft and in how she handles doubt. In an interview with the &lsquo;Berliner Morgenpost&rsquo; (e-paper of 14 August 2026) she said: &lsquo;Mir gefällt vieles nicht in meinem Leben&rsquo; (there is much in my life I do not like). Instead of dwelling on it, she questions herself.</p>
+          <p class="vb-intro">According to reports (teleschau) she describes her shyness and self-doubt in such a way that one can hide wonderfully behind roles. She sees herself more as crispbread than as fluffy toast, that is, sober instead of glamorous.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: precise observation and reserve</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso and Russ Hudson call the Four with a Five-wing &lsquo;The Bohemian&rsquo; and the Four with a Three-wing &lsquo;The Aristocrat&rsquo;. From the <strong>Five-wing (w5)</strong> come powers of observation, reserve and the tendency to turn inward. In Koschitz it shows in her withdrawal from the public: she rarely speaks about private matters and lets her roles speak for her.</p>
+          <p class="vb-intro">At 27 she gave up a permanent theater contract to move to film. She describes it as a hard decision that brought fear and still felt right. Someone who decides like this weighs for a long time and then acts without fuss.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the face as an instrument</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Critics praise her nuanced, expressive acting, especially in dramatic and tragic roles, and call her a &lsquo;Gesichtstänzerin&rsquo; (face dancer). The ballet in her background makes her body control understandable. On television she played Sandra Holzapfel in &lsquo;München 7&rsquo; from 2004 to 2016 and Dr. Maria Hassmann in &lsquo;Doctor&rsquo;s Diary&rsquo; from 2008 to 2011. In cinema she was seen in &lsquo;Shoppen&rsquo; (2006) and &lsquo;Hin und weg&rsquo; (2013).</p>
+          <p class="vb-intro">For her lead role in &lsquo;Pass gut auf ihn auf!&rsquo; she received, among others, the Deutscher Schauspielerpreis (German Actors&rsquo; Prize) and the Bayerischer Fernsehpreis (Bavarian TV Prize) in 2014. Supporting roles in large productions followed, such as &lsquo;Das Sacher&rsquo; (2016) and &lsquo;Herrhausen – Der Herr des Geldes&rsquo;, as well as the role of Christina Eismayer in the Austrian film &lsquo;Eismayer&rsquo; (2022).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Karoline Herfurth and Charlotte Wells</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-karoline-herfurth">Karoline Herfurth (SP4w5)</a> is, like Koschitz, a German-language actress who doses feeling precisely. With Herfurth her own directing is added, with Koschitz the focus stays on acting.</p>
+          <p class="vb-intro"><a href="#beruehmte-charlotte-wells">Charlotte Wells (SP4w5)</a> shares with her the quiet, precise way of showing emotion without putting it on display.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the self-preservation Four with Five-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Convincing is the precision: someone who does not deny shyness but turns it into roles gives the acting depth. The open statement that much in her life does not please her also shows an honesty that does not aim at effect.</p>
+          <p class="vb-intro">The inward gaze can become a burden. Growing older is harder for her, in her own words, than professional upheavals, and looking in the mirror she asks what she wants and who she wants to be. The Four with a Five-wing tends to withdraw behind tasks and roles.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: friendship as a mirror</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Koschitz is 51 years old (as of 24 October 2026) and lives in Munich. Besides partner and family, friends are especially important to her, and she calls them her most important mirror: she values honest feedback without judgment and believes that growing old together takes growing together. Most recently she appeared in the ZDF comedy &lsquo;Nix ist fix&rsquo; (&lsquo;Nothing Is Certain&rsquo;) about a group of friends who learn that nothing lasts forever, as well as in the films &lsquo;Schatten der Angst&rsquo; (&lsquo;Shadow of Fear&rsquo;) and &lsquo;Die kleinen und die großen Lügen&rsquo; (&lsquo;The Small and the Big Lies&rsquo;). She rarely talks about her private life, and this portrait respects that.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"lebensmusterkompass/se4", label:"Life Pattern Compass: SP4 – Dove"},
+        {route:"beruehmte-karoline-herfurth", label:"Portrait: Karoline Herfurth (SP4w5)"},
+        {route:"beruehmte-charlotte-wells", label:"Portrait: Charlotte Wells (SP4w5)"},
+        {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SP4w5)"},
+            ])}
+    </div>
+  `);
+}

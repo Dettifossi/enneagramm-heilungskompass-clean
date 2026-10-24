@@ -333,6 +333,7 @@ export function charlotteWellsPortraitPage() {
         {route:"beruehmte-mara-wilson", label:"Porträt: Mara Wilson (SE4w5) – ebenfalls früher Verlust, still literarisch verarbeitet"},
         {route:"beruehmte-connie-chiu", label:"Porträt: Connie Chiu (SE4w5)"},
         {route:"beruehmte-neil-harbisson", label:"Porträt: Neil Harbisson (SE4w5)"},
+        {route:"beruehmte-julia-koschitz", label:"Porträt: Julia Koschitz (SE4w5)"},
       ])}
     </div>
   `);
@@ -936,6 +937,7 @@ export function karolineHerfurthPortraitPage() {
         {route:"subtype/se4", label:"SE4 \u2013 Die Taube: Subtyp-Profil"},
         {route:"beruehmte-tim-bendzko", label:"Portr\xe4t: Tim Bendzko (SE4w3)"},
         {route:"beruehmte-paul-mccartney", label:"Porträt: Paul McCartney (SE4w5)"},
+        {route:"beruehmte-julia-koschitz", label:"Porträt: Julia Koschitz (SE4w5)"},
       ])}
     </div>
   `);

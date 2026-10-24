@@ -2890,3 +2890,74 @@ export function lanceOppenheimPortraitPage() {
     </div>
   `);
 }
+
+export function juliaKoschitzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-julia-koschitz-portrait.jpg" alt="Julia Koschitz – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-julia-koschitz-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Julia Koschitz</p>
+        <p class="krim-portrait-typ">SE4w5 &middot; Selbsterhaltender Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Österreichische Schauspielerin, geb. 1974 &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Die Taube: von Brüssel über Frankfurt nach München</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine <strong>Taube</strong> findet über weite Strecken heim und kehrt still an denselben Ort zurück. Julia Koschitz wurde am 26. Dezember 1974 in Brüssel geboren und wuchs als Tochter Wiener Eltern in Frankfurt am Main auf. Bis zum Alter von 16 Jahren ließ sie sich im Ballett ausbilden. Von 1995 bis 1998 studierte sie Schauspiel am Franz Schubert Konservatorium in Wien.</p>
+          <p class="vb-intro">Danach hatte sie feste Engagements am Theater in Coburg und in Regensburg und arbeitete an den Kammerspielen Landshut. 2006 erhielt sie für ihre Rolle der Nora den Schauspielpreis der Bayerischen Theatertage. Seit 2002 lebt sie in München.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: leise ausdauernd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Vier spürt, dass ihr etwas fehlt, und trägt dieses Gefühl mit sich. Bei der <strong>selbsterhaltenden Vier (SE4)</strong> geschieht das ohne Aufführung: Claudio Naranjo sprach hier von Zähigkeit, einem stillen Aushalten, das sich nicht beklagt. Bei Koschitz zeigt es sich in der Genauigkeit, mit der sie ihr Handwerk betreibt, und im Umgang mit Zweifel. In einem Interview mit der ›Berliner Morgenpost‹ (E-Paper vom 14. August 2026) sagte sie: ›Mir gefällt vieles nicht in meinem Leben.‹ Statt darin zu verharren, hinterfrage sie sich.</p>
+          <p class="vb-intro">Nach Berichten (teleschau) beschreibt sie ihre Schüchternheit und ihre Selbstzweifel so, dass man sich hinter den Rollen wunderbar verbergen könne. Sie sieht sich eher als Knäckebrot denn als fluffigen Toast, also nüchtern statt glamourös.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: genaue Beobachtung und Zurückhaltung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso und Russ Hudson nennen die Vier mit Fünferflügel ›Der Bohemien‹ und die Vier mit Dreierflügel ›Der Aristokrat‹. Aus dem <strong>Fünferflügel (w5)</strong> kommen Beobachtungsgabe, Zurückhaltung und der Hang, sich nach innen zu wenden. Bei Koschitz zeigt sich das im Rückzug aus der Öffentlichkeit: Sie spricht selten über Privates und lässt ihre Rollen für sich sprechen.</p>
+          <p class="vb-intro">Mit 27 gab sie einen festen Theatervertrag auf, um zum Film zu wechseln. Sie beschreibt es als schwere Entscheidung, die Angst machte und sich trotzdem richtig anfühlte. Wer so entscheidet, wägt lange ab und handelt dann ohne Aufhebens.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: das Gesicht als Instrument</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kritiker loben ihr nuanciertes, ausdrucksstarkes Spiel, besonders in dramatischen und tragischen Rollen, und nennen sie eine ›Gesichtstänzerin‹. Das Ballett im Hintergrund macht die Körperbeherrschung verständlich. Im Fernsehen spielte sie von 2004 bis 2016 Sandra Holzapfel in ›München 7‹ und von 2008 bis 2011 Dr. Maria Hassmann in ›Doctor’s Diary‹. Im Kino sah man sie in ›Shoppen‹ (2006) und ›Hin und weg‹ (2013).</p>
+          <p class="vb-intro">Für ihre Hauptrolle in ›Pass gut auf ihn auf!‹ erhielt sie unter anderem den Deutschen Schauspielerpreis und den Bayerischen Fernsehpreis (2014). Später folgten Nebenrollen in großen Produktionen wie ›Das Sacher‹ (2016) und ›Herrhausen – Der Herr des Geldes‹ sowie die Rolle der Christina Eismayer im österreichischen Film ›Eismayer‹ (2022).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Karoline Herfurth und Charlotte Wells</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-karoline-herfurth">Karoline Herfurth (SE4w5)</a> ist wie Koschitz eine deutschsprachige Schauspielerin, die Gefühl genau dosiert. Bei Herfurth kommt die eigene Regie hinzu, bei Koschitz bleibt der Fokus auf dem Spiel.</p>
+          <p class="vb-intro"><a href="#beruehmte-charlotte-wells">Charlotte Wells (SE4w5)</a> verbindet mit ihr die stille, genaue Art, Emotion zu zeigen, ohne sie auszustellen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Vier mit Fünferflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Überzeugend ist die Genauigkeit: Wer Schüchternheit nicht verleugnet, sondern in Rollen verwandelt, gibt dem Spiel Tiefe. Auch die offene Aussage, dass ihr vieles in ihrem Leben nicht gefällt, zeigt eine Ehrlichkeit, die nicht auf Wirkung zielt.</p>
+          <p class="vb-intro">Belastend kann der Blick nach innen werden. Das Älterwerden fällt ihr nach eigenen Worten schwerer als berufliche Umbrüche, und sie fragt sich beim Blick in den Spiegel, was sie will und wer sie sein will. Die Vier mit Fünferflügel neigt dazu, sich hinter Aufgaben und Rollen zurückzuziehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Freundschaft als Spiegel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Koschitz ist (Stand 24. Oktober 2026) 51 Jahre alt und lebt in München. Besonders wichtig sind ihr neben Partner und Familie die Freunde, die sie als wichtigsten Spiegel nennt: Sie schätzt ehrliche Rückmeldung ohne Urteil und glaubt, dass gemeinsames Älterwerden gemeinsames Wachsen braucht. Zuletzt spielte sie in der ZDF-Komödie ›Nix ist fix‹ über eine Gruppe von Freunden, die lernen, dass nichts für immer hält, sowie in den Filmen ›Schatten der Angst‹ und ›Die kleinen und die großen Lügen‹. Über ihr Privatleben spricht sie nur selten, und das respektiert dieses Porträt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se4", label:"Lebensmusterkompass: SE4 – Taube"},
+        {route:"beruehmte-karoline-herfurth", label:"Porträt: Karoline Herfurth (SE4w5)"},
+        {route:"beruehmte-charlotte-wells", label:"Porträt: Charlotte Wells (SE4w5)"},
+        {route:"beruehmte-paul-mccartney", label:"Porträt: Paul McCartney (SE4w5)"},
+            ])}
+    </div>
+  `);
+}

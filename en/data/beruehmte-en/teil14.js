@@ -333,6 +333,7 @@ export function charlotteWellsPortraitPage() {
         {route:"beruehmte-mara-wilson", label:"Portrait: Mara Wilson (SP4w5) – also an early loss, processed quietly through writing"},
         {route:"beruehmte-connie-chiu", label:"Portrait: Connie Chiu (SP4w5)"},
         {route:"beruehmte-neil-harbisson", label:"Portrait: Neil Harbisson (SP4w5)"},
+        {route:"beruehmte-julia-koschitz", label:"Portrait: Julia Koschitz (SP4w5)"},
       ])}
     </div>
   `);
@@ -938,6 +939,7 @@ export function karolineHerfurthPortraitPage() {
         {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
         {route:"beruehmte-tim-bendzko", label:"Portrait: Tim Bendzko (SP4w3)"},
         {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SP4w5)"},
+        {route:"beruehmte-julia-koschitz", label:"Portrait: Julia Koschitz (SP4w5)"},
       ])}
     </div>
   `);
