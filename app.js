@@ -35940,10 +35940,10 @@ function libraryPage() {
 
 // Stand der Textumfang-Sch\u00e4tzung (Punkt 2 unten) \u2013 bei deutlich mehr neuen Portr\u00e4ts
 // (grob alle paar hundert) den Wert in TEXTUMFANG_STAND neu berechnen und Datum aktualisieren.
-const TEXTUMFANG_STAND = { datum: "16.10.2026", woerterMio: "1,9", normseiten: "7.350", buecher: "25" };
+const TEXTUMFANG_STAND = { datum: "24.10.2026", woerterMio: "2,1", normseiten: "7.980", buecher: "27" };
 // PRAXISTIPPS_ANZAHL manuell pflegen (TIPPS-Array ist lokal in praxistippsHeilpraktikerPage gekapselt) \u2013
 // bei jedem neuen Praxistipp hier mitz\u00e4hlen.
-const PRAXISTIPPS_ANZAHL = 18;
+const PRAXISTIPPS_ANZAHL = 19;
 
 
 // Interne Übersicht (nicht verlinkt, nicht im Register): wo noch Porträts fehlen. Aufruf: #intern-luecken
