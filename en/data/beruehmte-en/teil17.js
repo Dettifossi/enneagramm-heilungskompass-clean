@@ -2887,6 +2887,7 @@ export function johannLechnerPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light lies in curiosity and the courage to go one&rsquo;s own way for decades and pass the knowledge on. Someone who gives over 100 seminars, lets colleagues watch operations and publishes with partners seeks exchange.</p>
           <p class="vb-intro">The shadow of this combination is the risk that enthusiasm for one&rsquo;s own concept finds it hard to accept contradiction. According to supporters, many colleagues are critical of his approach, and a tight circle of like-minded people can reinforce this distance.</p>
+          <p class="vb-intro">Added to this is a typical pattern of the head types (Five, Six and Seven): thinking in cause and effect. The Seven likes to look for the one cause that explains an imbalance, also in medicine, and then finds it in a single area such as the jaw. This view says something about the thinking style of the type, but nothing about whether the cause is in fact the right one.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Where things stand: practice, teaching and research</h2>

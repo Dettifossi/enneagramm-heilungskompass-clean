@@ -2922,6 +2922,7 @@ export function johannLechnerPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht liegt in der Neugier und im Mut, über Jahrzehnte eigene Wege zu gehen und das Wissen weiterzugeben. Wer über 100 Seminare hält, Kolleginnen und Kollegen bei Operationen zuschauen lässt und mit Partnern publiziert, sucht den Austausch.</p>
           <p class="vb-intro">Der Schatten dieser Kombination ist die Gefahr, dass die Begeisterung für das eigene Konzept Widerspruch schwer annimmt. Nach Berichten von Unterstützern äußern sich viele Kollegen kritisch über sein Vorgehen, und ein enger Kreis von Gleichgesinnten kann diese Distanz verstärken.</p>
+          <p class="vb-intro">Hinzu kommt ein typisches Muster der Kopftypen (Fünf, Sechs und Sieben): das Denken in Ursache und Wirkung. Die Sieben sucht gern die eine Ursache, die ein Ungleichgewicht erklärt, auch in der Medizin, und findet sie dann in einem einzelnen Bereich wie dem Kiefer. Dieser Blick sagt etwas über die Denkweise des Typs, aber nichts darüber, ob die Ursache tatsächlich die richtige ist.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Stand: Praxis, Lehre und Forschung</h2>
