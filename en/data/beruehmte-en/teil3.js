@@ -2857,3 +2857,74 @@ export function darrenAronofskyPortraitPage() {
     </div>
   `);
 }
+
+export function curtisYarvinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-curtis-yarvin-portrait.jpg" alt="Curtis Yarvin – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-curtis-yarvin-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Curtis Yarvin</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">American software developer and political writer, b. 1973 &ndash; Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Goose: the precocious programmer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>goose</strong> guards its territory and warns loudly when it considers something wrong. Curtis Yarvin, born in 1973, grew up in a secular, liberal family, skipped grades and attended Brown University, where he graduated in 1992. He began a computer science PhD at the University of California in Berkeley but dropped out after about a year and a half to work at a technology company.</p>
+          <p class="vb-intro">In 2002 he began the private software project that became Urbit, a decentralized platform for personal servers. In 2013 he co-founded the company Tlon Corp for it, funded among others by Peter Thiel&rsquo;s Founders Fund. He left in 2019 and returned in 2024 in the role of a &lsquo;wartime C.E.O.&rsquo;.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social One: the outsider with the standard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the <strong>social One (SO1)</strong> the striving for what is right is directed at the commonwealth. Claudio Naranjo spoke of the subtype of non-adaptability: someone who does not feel quite at home in the community measures it against a high standard and criticizes what seems wrong to him. In Yarvin this standard stands for the question of how a state is governed well.</p>
+          <p class="vb-intro">From 2007 to 2014 he wrote, under the pen name Mencius Moldbug, the blog &lsquo;Unqualified Reservations&rsquo;, a founding text of the neo-reactionary movement, which is also called the &lsquo;Dark Enlightenment&rsquo;. According to the source he co-founded it with the philosopher Nick Land. Since 2020 he has published the Substack newsletter &lsquo;Gray Mirror&rsquo;.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-wing: the calm, ironic voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso and Russ Hudson call the One with a Nine-wing &lsquo;The Idealist&rsquo; and the One with a Two-wing &lsquo;The Advocate&rsquo;. The <strong>Nine-wing (w9)</strong> lends the One composure and a reserved, sometimes ironic distance. In Yarvin it shows in the form of his texts: long, weighing essays, written under a pen name, in a tone that explains rather than accuses.</p>
+          <p class="vb-intro">How his positions are to be judged is highly disputed. This portrait does not evaluate them.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: a counter-design to democracy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Yarvin&rsquo;s central thesis is that American democracy has failed and should be replaced by an accountable monarchy or a corporate-style leadership with a chief at the top. He also describes a model of &lsquo;neocameralism&rsquo; modeled on Frederick the Great of Prussia. His concepts include the &lsquo;Cathedral&rsquo;, by which he means universities and mass media that in his view shape the opinion of elites, and &lsquo;RAGE&rsquo;, short for &lsquo;Retire All Government Employees&rsquo;, from a 2012 talk.</p>
+          <p class="vb-intro">Observers link his ideas with people such as Steve Bannon, JD Vance, Michael Anton, Marc Andreessen and Peter Thiel. Some of them have supported him to varying degrees, others have downplayed the connection. In January 2025 he attended an event at the inauguration of President Trump, and major media profiled him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The criticism: counter-voices and his answers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Critics describe his views as authoritarian, anti-democratic and in part fascist. Several authors see him as an influence on the alt-right movement, which he rejects. Objections were raised to texts on race and intelligence, to statements that were read as supporting slavery and to remarks about civil rights programs. He disputes being racist and says he is not a white nationalist. In 2016 speakers and sponsors withdrew from a programming conference because of his views.</p>
+          <p class="vb-intro">This portrait reports both sides and takes no position on who is right.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallel in the same subtype: Jordan Peterson and Richard David Precht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-jordan-peterson">Dr. Jordan Peterson (SO1w9)</a> and <a href="#beruehmte-richard-david-precht">Richard David Precht (SO1w9)</a> are, like Yarvin, authors who look at society with a large standard and reach a wide public with their texts and appearances. The contents of their positions differ greatly; what connects them is the attitude of measuring society against a demand.</p>
+          <p class="vb-intro">The difference from the two: Yarvin wrote for a long time under a pen name before his name became known.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Light and shadow, where things stand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is the thoroughness with which he asks questions others avoid, and the courage to write against the majority opinion. The shadow of the One with a Nine-wing is the risk of taking one&rsquo;s own view for self-evidently right.</p>
+          <p class="vb-intro">Yarvin was born in 1973. His first wife, Jennifer Kollmer, died in 2021; in 2024 he married Kristine Militello. He identifies as an atheist. This portrait describes his positions and the criticism of them and does not evaluate them.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+        {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
+        {route:"beruehmte-jordan-peterson", label:"Portrait: Dr. Jordan Peterson (SO1w9)"},
+        {route:"beruehmte-richard-david-precht", label:"Portrait: Richard David Precht (SO1w9)"},
+            ])}
+    </div>
+  `);
+}

@@ -1849,6 +1849,7 @@ export function richardDavidPrechtPortraitPage() {
         {route:"beruehmte-ursula-von-der-leyen", label:"Portrait: Ursula von der Leyen (SO1w9)"},
         {route:"beruehmte-gert-scobel", label:"Portrait: Gert Scobel (SO1w9)"},
         {route:"beruehmte-volker-gerhardt", label:"Portrait: Prof. Dr. Volker Gerhardt (SO1w9)"},
+        {route:"beruehmte-curtis-yarvin", label:"Portrait: Curtis Yarvin (SO1w9)"},
       ])}
     </div>
   `);

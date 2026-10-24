@@ -2907,3 +2907,74 @@ export function katharinaKoenigPortraitPage() {
     </div>
   `);
 }
+
+export function curtisYarvinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-curtis-yarvin-portrait.jpg" alt="Curtis Yarvin – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-curtis-yarvin-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Curtis Yarvin</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Softwareentwickler und politischer Autor, Jahrgang 1973 &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Die Gans: der frühreife Programmierer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine <strong>Gans</strong> bewacht ihr Revier und warnt laut, wenn sie etwas für falsch hält. Curtis Yarvin, Jahrgang 1973, wuchs in einer säkularen, liberalen Familie auf, übersprang Schulklassen und besuchte die Brown University, wo er 1992 seinen Abschluss machte. Er begann ein Informatik-Doktorat an der University of California in Berkeley, brach es aber nach etwa anderthalb Jahren ab, um bei einer Technologiefirma zu arbeiten.</p>
+          <p class="vb-intro">2002 begann er das private Softwareprojekt, aus dem Urbit wurde, eine dezentrale Plattform für persönliche Server. 2013 gründete er dafür gemeinsam mit anderen die Firma Tlon Corp, finanziert unter anderem vom Founders Fund von Peter Thiel. 2019 verließ er sie und kehrte 2024 in der Rolle eines ›wartime C.E.O.‹ (Chef für Kriegszeiten) zurück.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: der Außenseiter mit dem Maßstab</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bei der <strong>sozialen Eins (SO1)</strong> richtet sich das Streben nach dem Richtigen auf das Gemeinwesen. Claudio Naranjo sprach vom Subtyp der Unangepasstheit: Wer sich der Gemeinschaft nicht zugehörig fühlt, misst sie an einem hohen Maßstab und kritisiert, was ihm falsch erscheint. Bei Yarvin steht dieser Maßstab für die Frage, wie ein Staat gut regiert wird.</p>
+          <p class="vb-intro">Von 2007 bis 2014 schrieb er unter dem Pseudonym Mencius Moldbug den Blog ›Unqualified Reservations‹ (›Unqualifizierte Vorbehalte‹), einen Gründungstext der neoreaktionären Bewegung, die auch ›Dunkle Aufklärung‹ genannt wird. Nach der Darstellung der Quelle gründete er sie gemeinsam mit dem Philosophen Nick Land. Seit 2020 veröffentlicht er den Substack-Newsletter ›Gray Mirror‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: die ruhige, ironische Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso und Russ Hudson nennen die Eins mit Neunerflügel ›Den Idealisten‹ und die Eins mit Zweierflügel ›Den Anwalt‹. Der <strong>Neunerflügel (w9)</strong> verleiht der Eins Gelassenheit und eine zurückhaltende, mitunter ironische Distanz. Bei Yarvin zeigt sich das in der Form seiner Texte: lange, abwägende Essays, geschrieben unter Pseudonym, mit einem Ton, der eher erklärt als anklagt.</p>
+          <p class="vb-intro">Wie seine Positionen zu beurteilen sind, ist stark umstritten. Dieses Porträt bewertet sie nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: ein Gegenentwurf zur Demokratie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Yarvins zentrale These lautet, dass die amerikanische Demokratie gescheitert sei und durch eine rechenschaftspflichtige Monarchie oder eine unternehmensähnliche Führung mit einem Chef an der Spitze ersetzt werden solle. Er beschreibt auch ein Modell des ›Neocameralismus‹, das sich an Friedrich dem Großen von Preußen orientiert. Zu seinen Begriffen gehört die ›Cathedral‹ (›Kathedrale‹), womit er Universitäten und Massenmedien meint, die nach seiner Sicht die Meinung der Eliten prägen, und ›RAGE‹, eine Abkürzung für ›Retire All Government Employees‹ (›Alle Regierungsangestellten in den Ruhestand schicken‹), aus einem Vortrag von 2012.</p>
+          <p class="vb-intro">Beobachter bringen seine Ideen mit Personen wie Steve Bannon, JD Vance, Michael Anton, Marc Andreessen und Peter Thiel in Verbindung. Einige von ihnen haben ihn in unterschiedlichem Maß unterstützt, andere haben die Verbindung heruntergespielt. Im Januar 2025 nahm er an einer Veranstaltung zur Amtseinführung von Präsident Trump teil, und große Medien porträtierten ihn.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Kritik: Gegenstimmen und seine Antworten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kritiker bezeichnen seine Ansichten als autoritär, antidemokratisch und teilweise als faschistisch. Mehrere Autoren sehen in ihm einen Einfluss auf die Alt-Right-Bewegung, was er zurückweist. Beanstandet wurden Texte zu Rasse und Intelligenz, Äußerungen, die als Befürwortung der Sklaverei gelesen wurden, und Bemerkungen zu Bürgerrechtsprogrammen. Er bestreitet, rassistisch zu sein, und sagt, er sei kein weißer Nationalist. 2016 zogen sich bei einer Programmierkonferenz Redner und Sponsoren wegen seiner Ansichten zurück.</p>
+          <p class="vb-intro">Dieses Porträt gibt beide Seiten wieder und nimmt keine Stellung dazu, wer recht hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallele im selben Subtyp: Jordan Peterson und Richard David Precht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-jordan-peterson">Dr. Jordan Peterson (SO1w9)</a> und <a href="#beruehmte-richard-david-precht">Richard David Precht (SO1w9)</a> sind wie Yarvin Autoren, die mit großem Maßstab auf die Gesellschaft blicken und mit ihren Texten und Auftritten eine breite Öffentlichkeit erreichen. Die Inhalte ihrer Positionen unterscheiden sich stark, die Haltung, die Gesellschaft an einem Anspruch zu messen, verbindet sie.</p>
+          <p class="vb-intro">Der Unterschied zu den beiden: Yarvin schrieb lange unter Pseudonym, bevor sein Name bekannt wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Licht und Schatten, Stand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Gründlichkeit, mit der er Fragen stellt, die andere meiden, und der Mut, gegen die Mehrheitsmeinung zu schreiben. Der Schatten der Eins mit Neunerflügel ist die Gefahr, die eigene Sicht für selbstverständlich richtig zu halten.</p>
+          <p class="vb-intro">Yarvin ist Jahrgang 1973. Seine erste Frau, Jennifer Kollmer, starb 2021, 2024 heiratete er Kristine Militello. Er bezeichnet sich als Atheisten. Dieses Porträt beschreibt seine Positionen und die Kritik daran und bewertet sie nicht.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
+        {route:"beruehmte-jordan-peterson", label:"Porträt: Dr. Jordan Peterson (SO1w9)"},
+        {route:"beruehmte-richard-david-precht", label:"Porträt: Richard David Precht (SO1w9)"},
+            ])}
+    </div>
+  `);
+}

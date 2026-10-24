@@ -851,6 +851,7 @@ export function jordanPetersonPortraitPage() {
         {route:"krankheitsportraets-jordan-peterson", label:"Illness Portrait: Dr. Jordan Peterson (SO1w9) – benzodiazepine dependency"},
         {route:"beruehmte-peter-sage", label:"Portrait: Peter Sage (SO1w9)"},
         {route:"beruehmte-gert-scobel", label:"Portrait: Gert Scobel (SO1w9)"},
+        {route:"beruehmte-curtis-yarvin", label:"Portrait: Curtis Yarvin (SO1w9)"},
       ])}
     </div>
   `);
