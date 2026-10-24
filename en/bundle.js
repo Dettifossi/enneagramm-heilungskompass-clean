@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=331";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=332";
 import { psychogrammErklaerung } from "../data/psychogramme-erklaerung.js?v=2";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -9277,6 +9277,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"vierter-weg-selbsterinnerung", titel:"The Fourth Way According to Gurdjieff: Self-Remembering in the Middle of Everyday Life", teaser:"Four practical exercise paths from G. I. Gurdjieff for interrupting mechanized everyday sleep – practiced in the middle of the bustle, not in quiet seclusion.", img:"../assets/schaubilder/vierter-weg-selbsterinnerung/vierter-weg-selbsterinnerung-en.jpg", kategorie:"geist" },
     { slug:"das-ewige-ich-bin", titel:"The Eternal ›I Am‹: The Enneagram Healing Compass Beyond Fixation", teaser:"How Judaism, Christianity, Hinduism, Buddhism, Islam, and Taoism describe the same silent ground of being – and what that means for Enneagram work.", img:"../assets/schaubilder/das-ewige-ich-bin/das-ewige-ich-bin-en.jpg", kategorie:"geist" },
     { slug:"chakra-kern-uebung", titel:"The Chakra Core of Your Enneagram Type", teaser:"The nine Enneagram types, nine body centers and the matching homeopathic constitutional remedies – and a short exercise to sense your own zone deliberately.", img:"../assets/schaubilder/chakra-kern-uebung/chakra-kern-uebung.jpg", kategorie:"geist" },
+    { slug:"dein-wille-geschehe", titel:"‘Thy Will Be Done’: Surrender Instead of Ego-Will", teaser:"What Christianity, Taoism, Zen and Sufism say about self-will – and how ‘My will be done’ shows in all 27 Enneagram subtypes, with surrender as its counterpart.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/dein-wille-geschehe/dein-wille-geschehe.jpg", kategorie:"geist" },
   ];
   const TIPP_KATEGORIEN = [
     { id:"koerper", label:"Body & Movement", icon:"🧭" },
@@ -9332,6 +9333,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "chakra-kern-uebung") {
     return chakraKernUebungPage();
+  }
+  if (param === "dein-wille-geschehe") {
+    return deinWilleGeschehePage();
   }
   if (param === "das-ewige-ich-bin") {
     return dasEwigeIchBinPage();
@@ -10182,6 +10186,284 @@ function metaintelligenzAchtsamkeitPage() {
   `);
 }
 
+function deinWilleGeschehePage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Back to Practical Tips</button>
+      <p class="eyebrow">Tools · Practical Tips from the Naturopath</p>
+      <h1 class="h1--tip">&lsquo;Thy Will Be Done&rsquo;: Surrender Instead of Ego-Will</h1>
+      <p class="lead-small">Almost all wisdom traditions name the ego&rsquo;s self-will as the root of restlessness and suffering. The Enneagram shows what this self-will looks like in each of the nine types and each of their three subtypes – and which attitude of surrender stands opposite it.</p>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.2rem;">
+        <p class="vb-intro">Hardly any sentence sums up the spiritual path as briefly as &lsquo;Thy will be done&rsquo;. It stands in the Lord&rsquo;s Prayer, it echoes in Taoism as Wu Wei, in Zen as pure sitting and in Sufism as surrender to the Divine. Many traditions make the same observation: our self-will, the sentence &lsquo;My will be done&rsquo;, is the source of tension, control and inner restlessness.</p>
+        <p class="vb-intro" style="margin-top:1rem;">The Enneagram makes this observation concrete. Each of the nine fixations has its own version of the ego-will, and each of the three instincts colors it differently once more. This gives 27 distinct versions of &lsquo;My will be done&rsquo;, each with a surrender as its counterpart. This practical tip places both side by side: the great teaching and the 27 personal variants. It invites you to recognize your own sentence without fighting it.</p>
+      </div>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="${R2_CDN}assets/schaubilder/dein-wille-geschehe/dein-wille-geschehe.jpg"
+             alt="Painting: on the left a man wrestles with a current, a sleeping woman rests in an ornamented cradle and a thinker sits in a net of light. In front, a woman holds a shield. At the centre a woman walks barefoot with open arms through a luminous river of light among lotus flowers toward the sun, beneath crumbling gears in the background."
+             class="psycho-img" loading="lazy" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">1. The Universal Spiritual Teaching: Surrender Instead of Ego-Will</h2>
+        <p class="vb-intro">In almost all great wisdom and spiritual traditions the ego&rsquo;s self-will is described as the fundamental cause of suffering, separation and inner restlessness. In the mystical paths, attaining lasting happiness is closely linked with letting go of this dynamic of control:</p>
+        <ul style="margin:1rem 0 0;padding-left:1.2rem;display:flex;flex-direction:column;gap:.9rem;">
+          <li class="vb-intro"><strong style="color:var(--ink);">Christianity:</strong> The Lord&rsquo;s Prayer says: &lsquo;Thy will be done&rsquo; (Matthew 6:10), and in Gethsemane Jesus prays: &lsquo;Not my will, but thine, be done&rsquo; (Luke 22:42). Meister Eckhart called this attitude <em>Gelassenheit</em> (releasement): letting go of one&rsquo;s own plans in favor of a higher, divine guidance.</li>
+          <li class="vb-intro"><strong style="color:var(--ink);">Judaism:</strong> In the Mishnah tractate Pirkei Avot (2:4) there is the saying that one should set one&rsquo;s own will aside before the divine will, so that the divine will may become one&rsquo;s own. Here too surrender is not a loss but the path to unity.</li>
+          <li class="vb-intro"><strong style="color:var(--ink);">Taoism:</strong> The basic principle of <em>Wu Wei</em> (acting through non-action): whoever tries to force the natural flow of life, the <em>Tao</em>, with their own will creates friction, resistance and exhaustion. Harmony arises when the ego yields to the flow of things.</li>
+          <li class="vb-intro"><strong style="color:var(--ink);">Hinduism and Advaita Vedanta:</strong> In Patañjali&rsquo;s Yoga Sutra, <em>Īśvara-praṇidhāna</em>, surrender to the Supreme, is a path of practice in its own right. Advaita Vedanta sees the separate, steering self as an overlay (<em>Māyā</em>) upon the one Self (<em>Ātman</em>), which is one with the whole (<em>Brahman</em>).</li>
+          <li class="vb-intro"><strong style="color:var(--ink);">Buddhism:</strong> Clinging (<em>Upādāna</em>) and the resisting of what is create suffering (<em>Dukkha</em>). Liberation lies in seeing through the non-self nature (<em>Anattā</em>): the idea of a separate, steering mind is an illusion.</li>
+          <li class="vb-intro"><strong style="color:var(--ink);">Zen Buddhism:</strong> Pure sitting (<em>Shikantaza</em>), also <em>Zazen</em>, is an attitude without wanting to achieve, without attempts at manipulation and without grasping at particular mental states – pure surrender to the present moment.</li>
+          <li class="vb-intro"><strong style="color:var(--ink);">Sufism (Islamic mysticism):</strong> The word <em>Islam</em> itself means submission or surrender. The Sufis describe the path as the dying of the ego-personality (<em>Fanā</em>) so that divine consciousness (<em>Baqā</em>) can work through the person unhindered.</li>
+        </ul>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">2. The Mechanics of the Enneagram Fixation</h2>
+        <p class="vb-intro">From the perspective of transpersonal psychology and characterology, every Enneagram fixation is a highly complex, unconscious system of avoidance and protection. In the course of development the direct contact with essence (pure being, divine trust, fullness) has been lost. The ego takes the helm in order to secure survival and psychological integrity. It operates on the principle: &lsquo;I must control, organize and defend in order to survive.&rsquo;</p>
+        <p class="vb-intro" style="margin-top:1rem;">&lsquo;My will be done&rsquo; is rarely a conscious, malicious claim to power but usually a fear-driven survival strategy. The personality tries to safeguard itself against threatening loss of control, pain, emptiness, powerlessness or annihilation. As long as the fixation remains unconscious, the person confuses the ego-will with their true identity.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Arthur Schopenhauer put this unfreedom of willing in a nutshell: <em>&lsquo;A man can do what he wants, but he cannot want what he wants.&rsquo;</em> (Prize essay on the freedom of the will, 1839). We follow wishes we did not choose and take them for our own free choice. The Enneagram describes where these wishes come from.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Goethe asked in &lsquo;Werther&rsquo;: <em>&lsquo;Are we not led into boundless misery by the very passions that seemed to make us happy?&rsquo;</em> How passion leads to suffering is described in the knowledge article <a href="javascript:void(0)" data-route="warum-nur-9-heilmittel">Why Only Nine Enneagram Remedies – and Not 27?</a>.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">3. The 27 Subtypes in Detail</h2>
+        <p class="vb-intro">The following sections look at all 27 subtypes in turn, each with the pattern of the ego-will, the unconscious sentence &lsquo;My will be done&rsquo; and the attitude of surrender as its counterpart. The order within each type: self-preservation (SP), social (SO), sexual (SX).</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 .4rem;color:var(--ink);">Type 1: The Perfectionist</h3>
+        <p class="vb-intro">The basic fixation tries to correct the world and oneself according to an internalized moral, structural or ideal standard.</p>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SP1 &ndash; Anxiety</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Pattern:</strong> The energy turns inward, toward self-control, preparation and avoiding mistakes.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>My will be done:</strong> &lsquo;I must organize, foresee and control everything perfectly, so that no mistake happens and no guilt falls on me.&rsquo;</p>
+            <p class="vb-intro" style="margin:0;"><strong>Thy will be done:</strong> Trusting that mistakes and imperfections are an organic part of life&rsquo;s process and that one is carried by a higher order.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SO1 &ndash; Non-Adaptability</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Pattern:</strong> The corrective energy is directed at social structures, norms, teaching and correct behavior in the community.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>My will be done:</strong> &lsquo;The order, the rules and the standard of how things ought to be must be enforced in the community.&rsquo;</p>
+            <p class="vb-intro" style="margin:0;"><strong>Thy will be done:</strong> Recognizing that existence, in all its apparent imperfection, is already perfectly ordered, and allowing judgments to fall away.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SX1 &ndash; Zeal</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Pattern:</strong> The driving force is directed with high intensity at a partner or direct counterpart in order to reshape them according to one&rsquo;s own ideals.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>My will be done:</strong> &lsquo;The other person must be corrected, shaped and improved according to my moral and qualitative standards.&rsquo;</p>
+            <p class="vb-intro" style="margin:0;"><strong>Thy will be done:</strong> Letting the other person stand uncensored in their unique nature and giving up one&rsquo;s own expectations.</p>
+          </div>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 .4rem;color:var(--ink);">Type 2: The Helper</h3>
+        <p class="vb-intro">The ego tries to deny its own neediness and dependence and binds relationships to itself through help and affection.</p>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SP2 &ndash; Privilege</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Pattern:</strong> The ego shows itself as childlike, in need of protection or charming, in order to obtain care and special treatment.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>My will be done:</strong> &lsquo;I must secure care, protection and attention through my lovable and adaptable behavior.&rsquo;</p>
+            <p class="vb-intro" style="margin:0;"><strong>Thy will be done:</strong> Feeling one&rsquo;s own deeper neediness and vulnerability directly and allowing life to nourish one without disguise.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SO2 &ndash; Ambition</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Pattern:</strong> The helping and seductive force is directed at groups, power structures and networks in order to take on a key role.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>My will be done:</strong> &lsquo;I steer the network and the leading group through my indispensability and my strategic influence.&rsquo;</p>
+            <p class="vb-intro" style="margin:0;"><strong>Thy will be done:</strong> Accepting that one is loved and anchored in being even without a special role, influence or the obligation of others.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SX2 &ndash; Seduction</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Pattern:</strong> Highest focus on a single person in order to awaken their desire and enter an unbreakable bond.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>My will be done:</strong> &lsquo;I must win the other for myself, fascinate him or her and bind them to me irrevocably.&rsquo;</p>
+            <p class="vb-intro" style="margin:0;"><strong>Thy will be done:</strong> Respecting the absolute freedom of the other and finding one&rsquo;s own inner wholeness without outer conquest.</p>
+          </div>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 .4rem;color:var(--ink);">Type 3: The Achiever</h3>
+        <p class="vb-intro">The ego identifies with achievement, efficiency, success and the outer facade in order to avoid worthlessness and deep feelings of shame.</p>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SP3 &ndash; Security</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Pattern:</strong> The drive to achieve is directed at material security, efficiency in everyday life and tireless work.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>My will be done:</strong> &lsquo;I must achieve tirelessly and be useful in order to secure my material and physical existence.&rsquo;</p>
+            <p class="vb-intro" style="margin:0;"><strong>Thy will be done:</strong> Pausing the constant doing and trusting the natural rhythm of rest, stillness and being.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SO3 &ndash; Prestige</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Pattern:</strong> Focus on social recognition, titles, status and keeping up the perfect image of success.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>My will be done:</strong> &lsquo;My image and my achievements must reflect the picture of perfection and success.&rsquo;</p>
+            <p class="vb-intro" style="margin:0;"><strong>Thy will be done:</strong> Letting the mask of success fall and trusting that one&rsquo;s own worth lies in pure being.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SX3 &ndash; Femininity / Masculinity</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Pattern:</strong> The achieving energy is used to be the most attractive, supportive counterpart for someone.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>My will be done:</strong> &lsquo;I must shape the perfect, most attractive counterpart in order to guarantee desire and appreciation.&rsquo;</p>
+            <p class="vb-intro" style="margin:0;"><strong>Thy will be done:</strong> Showing one&rsquo;s own unvarnished, imperfect truth and allowing rejection as part of reality.</p>
+          </div>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 .4rem;color:var(--ink);">Type 4: The Individualist</h3>
+        <p class="vb-intro">The fixation revolves around the feeling of lack, suffering from separation and the longing search for meaning believed lost.</p>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SP4 &ndash; Tenacity</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Pattern:</strong> Pain and longing are turned inward; the ego defines itself through silent endurance and resilience.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>My will be done:</strong> &lsquo;I must endure in silence, bear my burden without complaint and master my fate alone.&rsquo;</p>
+            <p class="vb-intro" style="margin:0;"><strong>Thy will be done:</strong> Softening the hardness toward oneself, inviting lightness and accepting help from life.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SO4 &ndash; Shame</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Pattern:</strong> The ego openly shows its suffering, its sense of lack and its being different in the group in order to ask for belonging or compassion.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>My will be done:</strong> &lsquo;My suffering and my being different distinguish me from the others and form my real identity.&rsquo;</p>
+            <p class="vb-intro" style="margin:0;"><strong>Thy will be done:</strong> Giving up the identification with victimhood and pain and consenting to a present, undramatic happiness.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SX4 &ndash; Competition</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Pattern:</strong> Envy turns into an intensely demanded claim on others.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>My will be done:</strong> &lsquo;I demand with intensity what was withheld from me and make the other responsible for my fulfilment.&rsquo;</p>
+            <p class="vb-intro" style="margin:0;"><strong>Thy will be done:</strong> Recognizing that essentially nothing is missing and that envy melts in the mere seeing of the fullness of the moment.</p>
+          </div>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 .4rem;color:var(--ink);">Type 5: The Observer</h3>
+        <p class="vb-intro">The ego withdraws mentally and physically in order to protect its own energy and knowledge resources and to avoid overload.</p>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SP5 &ndash; Castle</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Pattern:</strong> The boundary is directed at the outer environment, one&rsquo;s own space and the reduction of needs.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>My will be done:</strong> &lsquo;I draw my boundaries as tight as possible and protect my cave, so that nobody makes demands on me.&rsquo;</p>
+            <p class="vb-intro" style="margin:0;"><strong>Thy will be done:</strong> Opening the door of the cave and allowing the unfiltered fullness and aliveness of the world to enter.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SO5 &ndash; Totem</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Pattern:</strong> The ego does not connect with the world emotionally but through overarching ideas, theories, systems and knowledge.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>My will be done:</strong> &lsquo;I build myself a mental system of abstractions in order to understand the world safely from a distance.&rsquo;</p>
+            <p class="vb-intro" style="margin:0;"><strong>Thy will be done:</strong> Letting go of theoretical knowledge and throwing oneself directly into the uncertain, unprotected experience of life.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SX5 &ndash; Confidence</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Pattern:</strong> The withdrawal is opened only for one single, special person with whom a deep, secret inner world is shared.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>My will be done:</strong> &lsquo;I reveal myself only to one single chosen person and keep exclusive control over this world.&rsquo;</p>
+            <p class="vb-intro" style="margin:0;"><strong>Thy will be done:</strong> Opening the heart to the unrestricted, free and vulnerable flow of love in the whole.</p>
+          </div>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 .4rem;color:var(--ink);">Type 6: The Loyalist</h3>
+        <p class="vb-intro">The ego constantly seeks security through forward planning, doubt, loyalty to a system or preventive counterattack in order to ward off dangers.</p>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SP6 &ndash; Warmth</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Pattern:</strong> The ego tries to appease threats by showing itself as friendly, in need of protection and peaceful.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>My will be done:</strong> &lsquo;I must show myself as committed, cautious and in need of protection, so that nobody harms me and I am protected.&rsquo;</p>
+            <p class="vb-intro" style="margin:0;"><strong>Thy will be done:</strong> Recognizing that true security lies in the universal basic trust of being and not in defensive safeguards.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SO6 &ndash; Duty</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Pattern:</strong> Orientation toward laws, ideologies, duties and clear structures in order to escape one&rsquo;s own inner insecurity.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>My will be done:</strong> &lsquo;Exact observance of rules, systems and duties protects me and the collective from chaos.&rsquo;</p>
+            <p class="vb-intro" style="margin:0;"><strong>Thy will be done:</strong> Developing trust in the inner, direct guidance, the inner authority beyond written rules.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SX6 &ndash; Strength</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Pattern:</strong> Fear is covered over by displaying strength, toughness, doubt about authorities or counterattack (counterphobic).</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>My will be done:</strong> &lsquo;I go preventively into confrontation and control so as not to have to feel my inner fear.&rsquo;</p>
+            <p class="vb-intro" style="margin:0;"><strong>Thy will be done:</strong> Laying down the mental weapons, feeling one&rsquo;s own vulnerability and allowing peace.</p>
+          </div>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 .4rem;color:var(--ink);">Type 7: The Enthusiast</h3>
+        <p class="vb-intro">The ego flees from inner pain, narrowness and stillness into constant future options, plans, visions and pleasant stimulation.</p>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SP7 &ndash; Family</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Pattern:</strong> Practical safeguarding through a network of contacts, advantages and constant options for pleasant experiences.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>My will be done:</strong> &lsquo;I secure myself a wealth of possibilities and contacts, so that I never get stuck in lack.&rsquo;</p>
+            <p class="vb-intro" style="margin:0;"><strong>Thy will be done:</strong> Enduring the limits, the limitations and the stillness of the present moment without evasion.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SO7 &ndash; Sacrifice</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Pattern:</strong> The ego-will seemingly restricts its own enjoyment in order to advance visions and projects for the good of others.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>My will be done:</strong> &lsquo;I give up direct advantages in order to be perceived as kind-hearted, exemplary and visionary.&rsquo;</p>
+            <p class="vb-intro" style="margin:0;"><strong>Thy will be done:</strong> Giving up one&rsquo;s own greatness and special role and being present in the simple, unspectacular now.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SX7 &ndash; Suggestibility</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Pattern:</strong> Beautifying reality through fantasy, enthusiasm and the search for the magical experience.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>My will be done:</strong> &lsquo;I decorate reality with my imagination in order to avoid the sobriety of everyday life.&rsquo;</p>
+            <p class="vb-intro" style="margin:0;"><strong>Thy will be done:</strong> Accepting and penetrating reality unembellished, sober and simple, as it is.</p>
+          </div>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 .4rem;color:var(--ink);">Type 8: The Protector</h3>
+        <p class="vb-intro">The ego seeks absolute independence, autonomy and control over its surroundings in order to prevent weakness, vulnerability and submission.</p>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SP8 &ndash; Survival</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Pattern:</strong> Power and control energy is applied to protecting one&rsquo;s own material resources, territory and body.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>My will be done:</strong> &lsquo;I secure my resources and my territory with a firm hand, so that nobody impairs me.&rsquo;</p>
+            <p class="vb-intro" style="margin:0;"><strong>Thy will be done:</strong> Giving up the necessity of constant struggle, laying down the armor and allowing softness.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SO8 &ndash; Friendship</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Pattern:</strong> Strength is used to protect one&rsquo;s own group, family or workforce from unjust external forces.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>My will be done:</strong> &lsquo;I take the lead and fight for my group against injustice and encroachment.&rsquo;</p>
+            <p class="vb-intro" style="margin:0;"><strong>Thy will be done:</strong> Recognizing that a higher order is at work and that one does not have to carry the world alone on one&rsquo;s shoulders.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SX8 &ndash; Possession</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Pattern:</strong> Complete, fiery taking of the other; the ego seeks absolute control over the relationship and its dynamics.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>My will be done:</strong> &lsquo;I overwhelm and steer my surroundings and my bonds through my sheer intensity.&rsquo;</p>
+            <p class="vb-intro" style="margin:0;"><strong>Thy will be done:</strong> Surrendering to the tender, uncontrollable and gentle nature of real encounter.</p>
+          </div>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 .4rem;color:var(--ink);">Type 9: The Peacemaker</h3>
+        <p class="vb-intro">The ego numbs its own presence, its own life impulse and emerging conflicts in order to preserve outer and inner calm.</p>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SP9 &ndash; Appetite</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Pattern:</strong> Distraction from the actual life impulse through cozy routines, food, media or physical comfort.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>My will be done:</strong> &lsquo;I comfort myself with my small routines and comforts in order to shut out the urgency of life.&rsquo;</p>
+            <p class="vb-intro" style="margin:0;"><strong>Thy will be done:</strong> Awakening from the numbness and fully agreeing to the living, demanding and dynamic flow of life.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SO9 &ndash; Participation</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Pattern:</strong> The ego is absorbed in the tasks of the group or community and forgets its own impulses and priorities.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>My will be done:</strong> &lsquo;I am absorbed in the demands of the group and fulfil its needs so as not to have to stand out.&rsquo;</p>
+            <p class="vb-intro" style="margin:0;"><strong>Thy will be done:</strong> Bringing in one&rsquo;s own individual existence, voice and life impulse fully and truthfully.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SX9 &ndash; Union</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Pattern:</strong> The ego takes over the identity, opinions and will of a significant other in order to avoid separation.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>My will be done:</strong> &lsquo;I adapt to the will of the other and merge with him or her so as not to have to feel my own conflicts.&rsquo;</p>
+            <p class="vb-intro" style="margin:0;"><strong>Thy will be done:</strong> Staying in one&rsquo;s own center, daring the separation and serving the divine will as an independent being.</p>
+          </div>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">4. Conclusion: The Path from Fixation to Essence</h2>
+        <p class="vb-intro">The Enneagram shows, as a kind of map, where and how the human mind unconsciously tries to impose its will against the flow of reality. True happiness does not arise from the ego finally getting what it demands. It arises from the gradual seeing-through and softening of the ego&rsquo;s 27 survival mechanisms.</p>
+        <p class="vb-intro" style="margin-top:1rem;">When the ego gets what it wants, emptiness usually returns, because fulfilment does not fill the fixation, it feeds it. A saying attributed to Oscar Wilde, with a similar one in George Bernard Shaw, fits here: there are only two tragedies in life, one is not getting what one wants, the other is getting it.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Acting from surrender (&lsquo;Thy will be done&rsquo;) leads to the awakening of the essential qualities of our being: deep calm, unshakable trust, clearly oriented presence and unconditional love.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">5. An Impulse for Practice</h2>
+        <ol style="margin:0;padding-left:1.2rem;display:flex;flex-direction:column;gap:.6rem;">
+          <li class="vb-intro">Look for your own subtype in the list above and read the sentence &lsquo;My will be done&rsquo; calmly, without judging it.</li>
+          <li class="vb-intro">Check for a moment in which situations of the day this sentence is actually acting (in tension, control, withdrawal, adaptation).</li>
+          <li class="vb-intro">Take three calm breaths and inwardly offer the sentence of surrender (&lsquo;Thy will be done&rsquo;), not as a resolution but as an invitation.</li>
+          <li class="vb-intro">Notice what happens in the body and change nothing. The will softens through recognizing, not through fighting.</li>
+        </ol>
+        <p style="font-size:.85rem;color:var(--muted);margin:1rem 0 0;">This tip does not replace medical or therapeutic treatment. It is an impulse for self-observation.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Finally: Hermann Hesse</h2>
+        <p class="vb-intro" style="margin-bottom:0;">Hermann Hesse captured the same experience in his poem &lsquo;Glück&rsquo; (&lsquo;Happiness&rsquo;, 1907). It opens with the line <em>&lsquo;As long as you chase after happiness, you are not ready for happiness&rsquo;</em> – even if everything he loves were his. As it continues, the poem says that anyone who still mourns what is lost and has goals and restlessness does not yet know peace. Only those who renounce all wishing, who know neither goal nor desire any more and no longer call happiness by name are no longer reached by the flood of events, and the soul rests. The poem is still under copyright and is therefore reproduced here only in outline; it can be found in Hesse&rsquo;s collected poems.</p>
+      </div>
+
+      <div style="margin-top:2rem;">
+        <details style="border:1px solid var(--line);border-radius:12px;overflow:hidden;">
+          <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
+                          background:var(--paper);list-style:none;user-select:none;font-weight:700;
+                          font-size:0.95rem;color:var(--ink);">
+            <span style="font-size:1.2rem;color:var(--copper);">&#9672;</span>
+            <span style="flex:1;">Further reading by Detlef Rathmer</span>
+            <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
+          </summary>
+          <div style="padding:1rem 1.2rem 1.2rem;">
+            ${bookTip("sei-still-und-wisse-ich-bin-gott", "A spiritual book on the deepest stillness within us and the experience of transcendence beyond all concepts.", "Sei still und wisse – ich bin Gott!")}
+            <div style="margin-top:.8rem;">${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}</div>
+            <div style="margin-top:.8rem;">${bookTip("hinter-der-leidenschaft", "The nine wounds of the Enneagram – an in-depth analysis of the primal wound behind each passion, with concrete paths of healing for all 9 types.", "Hinter der Leidenschaft")}</div>
+          </div>
+        </details>
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"All Practical Tips"},
+        {route:"praxistipps-heilpraktiker/das-ewige-ich-bin", label:"The Eternal &lsquo;I Am&rsquo;: The Enneagram Healing Compass Beyond Fixation"},
+        {route:"praxistipps-heilpraktiker/ich-illusion", label:"Who&rsquo;s Really Steering Here? – The Gentle Way Out of the Illusion of Self"},
+        {route:"warum-nur-9-heilmittel", label:"Why Only Nine Enneagram Remedies – and Not 27?"},
+        {route:"bedeutung-27-subtypen", label:"Why the 27 Subtypes Matter So Much"},
+      ])}
+    </section>
+  `);
+}
+
 function chakraKernUebungPage() {
   const ZONEN = [
     { typ:"1", name:"Crown", ort:"just above the top of the head (not the scalp itself)", farbe:"#b5542f" },
@@ -10450,6 +10732,7 @@ function dasEwigeIchBinPage() {
 
       ${relatedLinks([
         {route:"praxistipps-heilpraktiker", label:"All Practical Tips"},
+        {route:"praxistipps-heilpraktiker/dein-wille-geschehe", label:"Thy Will Be Done – Surrender Instead of Ego-Will"},
         {route:"praxistipps-heilpraktiker/turiya-enneagramm", label:"The Observer Behind the Pattern – Turiya and the Enneagram"},
         {route:"praxistipps-heilpraktiker/ich-illusion", label:"Who's Really Steering Here? – The Gentle Way Out of the Illusion of Self"},
         {route:"beruehmte-rupert-spira", label:"Portrait: Rupert Spira (SO7w6)"},

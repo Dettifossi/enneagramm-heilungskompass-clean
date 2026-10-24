@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=333";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=334";
 import { psychogrammErklaerung } from "./data/psychogramme-erklaerung.js?v=2";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -34110,6 +34110,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"vierter-weg-selbsterinnerung", titel:"Der Vierte Weg nach Gurdjieff: Selbsterinnerung mitten im Alltag", teaser:"Vier praktische \u00dcbungswege von G. I. Gurdjieff, um den mechanisierten Alltagsschlaf zu unterbrechen \u2013 ge\u00fcbt mitten im Trubel, nicht im stillen K\u00e4mmerlein.", img:"./assets/schaubilder/vierter-weg-selbsterinnerung/vierter-weg-selbsterinnerung.jpg", kategorie:"geist" },
     { slug:"das-ewige-ich-bin", titel:"Das ewige \u201eIch bin\u201c: Der Enneagramm-Heilungskompass jenseits der Fixierung", teaser:"Wie Judentum, Christentum, Hinduismus, Buddhismus, Islam und Taoismus denselben stillen Seinsgrund beschreiben \u2013 und was das f\u00fcr die Enneagramm-Arbeit bedeutet.", img:"./assets/schaubilder/das-ewige-ich-bin/das-ewige-ich-bin.jpg", kategorie:"geist" },
     { slug:"chakra-kern-uebung", titel:"Der Chakra-Kern Ihres Enneagrammtyps", teaser:"Die neun Enneagrammtypen, neun K\u00f6rperzentren und die passenden hom\u00f6opathischen Konstitutionsmittel \u2013 und eine kurze \u00dcbung, um die eigene Zone bewusst zu sp\u00fcren.", img:"./assets/schaubilder/chakra-kern-uebung/chakra-kern-uebung.jpg", kategorie:"geist" },
+    { slug:"dein-wille-geschehe", titel:"›Dein Wille geschehe‹: Hingabe statt Ego-Wille", teaser:"Was Christentum, Taoismus, Zen und Sufismus über den Eigenwillen sagen – und wie sich das ›Mein Wille geschehe‹ bei allen 27 Enneagramm-Subtypen zeigt, mit der Hingabe als Gegenstück.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/dein-wille-geschehe/dein-wille-geschehe.jpg", kategorie:"geist" },
   ];
   const TIPP_KATEGORIEN = [
     { id:"koerper", label:"K\u00f6rper & Bewegung", icon:"\ud83e\udded" },
@@ -34171,6 +34172,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "chakra-kern-uebung") {
     return chakraKernUebungPage();
+  }
+  if (param === "dein-wille-geschehe") {
+    return deinWilleGeschehePage();
   }
 
   return shell(`
@@ -34370,6 +34374,284 @@ function fussreflexzonenAktivierungPage() {
         {route:"enneagramm-reflexzonentherapie", label:"Enneagramm meets Reflexzonentherapie"},
         {route:"situationskompass", label:"Situationskompass"},
         {route:"practice", label:"Werkzeuge"},
+      ])}
+    </section>
+  `);
+}
+
+function deinWilleGeschehePage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Zurück zu Praxistipps</button>
+      <p class="eyebrow">Werkzeuge · Praxistipps vom Heilpraktiker</p>
+      <h1 class="h1--tip">›Dein Wille geschehe‹: Hingabe statt Ego-Wille</h1>
+      <p class="lead-small">Fast alle Weisheitstraditionen nennen den Eigenwillen des Egos als Wurzel von Unruhe und Leiden. Das Enneagramm zeigt, wie dieser Eigenwille bei jedem der neun Typen und jedem seiner drei Subtypen aussieht – und welche Haltung der Hingabe ihm als Gegenpol gegenübersteht.</p>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.2rem;">
+        <p class="vb-intro">Kaum ein Satz fasst den spirituellen Weg so knapp zusammen wie ›Dein Wille geschehe‹. Er steht im Vaterunser, er klingt im Taoismus als Wu Wei an, im Zen als reines Sitzen und im Sufismus als Hingabe an das Göttliche. In vielen Traditionen wird dabei dieselbe Beobachtung gemacht: Unser Eigenwille, der Satz ›Mein Wille geschehe‹, ist die Quelle von Anspannung, Kontrolle und innerer Unruhe.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Das Enneagramm macht diese Beobachtung konkret. Jede der neun Fixierungen hat ihre eigene Version des Ego-Willens, und jeder der drei Instinkte färbt sie noch einmal anders. So entstehen 27 unterschiedliche Sätze von ›Mein Wille geschehe‹, jeder mit einer Hingabe als Gegenstück. Dieser Praxistipp stellt beides nebeneinander: die große Lehre und die 27 persönlichen Varianten. Er lädt dazu ein, den eigenen Satz zu erkennen, ohne ihn zu bekämpfen.</p>
+      </div>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="${R2_CDN}assets/schaubilder/dein-wille-geschehe/dein-wille-geschehe.jpg"
+             alt="Gemälde: Links ringt ein Mann mit einer Strömung, eine Schlafende ruht in einer verzierten Wiege und ein Denker sitzt in einem Netz aus Licht. Davor hält eine Frau einen Schild. Im Zentrum geht eine Frau mit geöffneten Armen barfuß durch einen leuchtenden Fluss aus Licht zwischen Lotosblüten auf die Sonne zu, über zerfallenden Zahnrädern im Hintergrund."
+             class="psycho-img" loading="lazy" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">1. Die spirituelle Universallehre: Hingabe statt Ego-Wille</h2>
+        <p class="vb-intro">In nahezu allen großen Weisheits- und Geistestraditionen wird der Eigenwille des Egos als fundamentale Ursache für Leiden, Trennung und innere Unruhe beschrieben. Das Erreichen eines dauerhaften Glücks ist in den mystischen Wegen eng mit dem Loslassen dieser Kontrolldynamik verbunden:</p>
+        <ul style="margin:1rem 0 0;padding-left:1.2rem;display:flex;flex-direction:column;gap:.9rem;">
+          <li class="vb-intro"><strong style="color:var(--ink);">Christentum:</strong> Im Vaterunser heißt es: ›Dein Wille geschehe‹ (Matthäus 6,10), und im Garten Gethsemane betet Jesus: ›Nicht mein, sondern dein Wille geschehe‹ (Lukas 22,42). Meister Eckhart nannte diese Haltung <em>Gelassenheit</em>: das Loslassen der eigenen Pläne zugunsten einer höheren, göttlichen Führung.</li>
+          <li class="vb-intro"><strong style="color:var(--ink);">Judentum:</strong> Im Mischna-Traktat Pirkei Avot (2,4) steht der Satz, man solle seinen Willen vor dem göttlichen Willen zurücknehmen, damit der göttliche Wille zum eigenen werde. Auch hier ist die Hingabe kein Verlust, sondern der Weg zur Einheit.</li>
+          <li class="vb-intro"><strong style="color:var(--ink);">Taoismus:</strong> Das Grundprinzip des <em>Wu Wei</em> (Handeln durch Nichthandeln): Wer den natürlichen Fluss des Lebens, das <em>Tao</em>, mit dem eigenen Willen erzwingen will, erzeugt Reibung, Widerstand und Erschöpfung. Harmonie entsteht, wenn das Ego dem Fluss der Dinge weicht.</li>
+          <li class="vb-intro"><strong style="color:var(--ink);">Hinduismus und Advaita Vedanta:</strong> Im Yoga-Sutra des Patañjali ist <em>Īśvara-praṇidhāna</em>, die Hingabe an das Höchste, ein eigener Übungsweg. Der Advaita Vedanta sieht das getrennte, steuernde Ich als Überlagerung (<em>Māyā</em>) über dem einen Selbst (<em>Ātman</em>), das mit dem Ganzen (<em>Brahman</em>) eins ist.</li>
+          <li class="vb-intro"><strong style="color:var(--ink);">Buddhismus:</strong> Das Festhalten an Anhaftung (<em>Upādāna</em>) und das Abwehren des Soseins erzeugen Leiden (<em>Dukkha</em>). Befreiung liegt im Durchschauen der Nicht-Ich-Natur (<em>Anattā</em>): der Vorstellung eines getrennten, steuernden Geistes als Illusion.</li>
+          <li class="vb-intro"><strong style="color:var(--ink);">Zen-Buddhismus:</strong> Das reine Sitzen (<em>Shikantaza</em>), auch <em>Zazen</em>, ist eine Haltung ohne Erreichenwollen, ohne Manipulationsversuche und ohne Greifen nach bestimmten Geisteszuständen – reine Hingabe an den gegenwärtigen Augenblick.</li>
+          <li class="vb-intro"><strong style="color:var(--ink);">Sufismus (islamische Mystik):</strong> Das Wort <em>Islam</em> selbst bedeutet Ergebenheit oder Hingabe. Die Sufis beschreiben den Weg als das Sterben der Ego-Persönlichkeit (<em>Fanā</em>), damit das göttliche Bewusstsein (<em>Baqā</em>) ungehindert durch den Menschen wirken kann.</li>
+        </ul>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">2. Die Mechanik der Enneagramm-Fixierung</h2>
+        <p class="vb-intro">Aus der Sicht der transpersonalen Psychologie und der Charakterkunde ist jede Enneagramm-Fixierung ein hochkomplexes, unbewusstes Vermeidungs- und Schutzsystem. Im Laufe der Entwicklung ist der unmittelbare Kontakt zur Essenz (dem reinen Sein, dem göttlichen Vertrauen, der Fülle) verloren gegangen. Das Ego übernimmt das Ruder, um das Überleben und die psychische Integrität zu sichern. Es arbeitet dabei nach dem Grundsatz: ›Ich muss kontrollieren, organisieren und abwehren, um zu überleben.‹</p>
+        <p class="vb-intro" style="margin-top:1rem;">›Mein Wille geschehe‹ ist dabei selten ein bewusster, böswilliger Machtanspruch, sondern meist eine angstgetriebene Überlebensstrategie. Die Persönlichkeit versucht, sich gegen drohenden Kontrollverlust, Schmerz, Leere, Machtlosigkeit oder Vernichtung abzusichern. Solange die Fixierung unbewusst bleibt, verwechselt der Mensch den Ego-Willen mit seiner wahren Identität.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Arthur Schopenhauer hat diese Unfreiheit des Wollens knapp gefasst: <em>›Der Mensch kann tun, was er will; er kann aber nicht wollen, was er will.‹</em> (Preisschrift über die Freiheit des Willens, 1839). Wir folgen Wünschen, die wir uns nicht ausgesucht haben, und halten sie für unsere eigene freie Wahl. Das Enneagramm beschreibt, woher diese Wünsche kommen.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Goethe fragte im ›Werther‹: <em>›Werden wir nicht durch eben die Leidenschaften, die uns das Glück zu machen schienen, in das grenzenlose Elend geführt?‹</em> Wie die Leidenschaft zum Leiden führt, beschreibt der Wissensartikel <a href="javascript:void(0)" data-route="warum-nur-9-heilmittel">Warum nur neun Enneagramm-Heilmittel – und nicht 27?</a>.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">3. Die 27 Subtypen im Detail</h2>
+        <p class="vb-intro">Die folgenden Abschnitte betrachten alle 27 Subtypen der Reihe nach, jeweils mit dem Muster des Ego-Willens, dem unbewussten Satz ›Mein Wille geschehe‹ und der Haltung der Hingabe als Gegenstück. Die Reihenfolge je Typ: Selbsterhaltung (SE), sozial (SO), sexuell (SX).</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 .4rem;color:var(--ink);">Typ 1: Der Perfektionist</h3>
+        <p class="vb-intro">Die Grundfixierung versucht, die Welt und sich selbst nach einem verinnerlichten moralischen, strukturellen oder idealen Standard zu korrigieren.</p>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SE1 &ndash; Sorge</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Muster:</strong> Die Energie richtet sich nach innen auf eigene Kontrolle, Vorbereitung und Fehlervermeidung.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Mein Wille geschehe:</strong> ›Ich muss alles perfekt organisieren, vorausschauen und kontrollieren, damit kein Fehler passiert und keine Schuld auf mich fällt.‹</p>
+            <p class="vb-intro" style="margin:0;"><strong>Dein Wille geschehe:</strong> Vertrauen darauf, dass Fehler und Unvollkommenheiten ein organischer Teil des Lebensprozesses sind und man von einer höheren Ordnung getragen wird.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SO1 &ndash; Unangepasstheit</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Muster:</strong> Die Korrekturenergie richtet sich auf soziale Strukturen, Normen, Lehre und das richtige Verhalten in der Gemeinschaft.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Mein Wille geschehe:</strong> ›Die Ordnung, die Regeln und der Standard, wie die Dinge richtig zu sein haben, müssen in der Gemeinschaft durchgesetzt werden.‹</p>
+            <p class="vb-intro" style="margin:0;"><strong>Dein Wille geschehe:</strong> Erkennen, dass die Existenz in all ihrer scheinbaren Unvollkommenheit bereits vollkommen geordnet ist, und Urteile loslassen dürfen.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SX1 &ndash; Eifer</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Muster:</strong> Die Triebkraft richtet sich mit hoher Intensität auf Partner oder direktes Gegenüber, um sie nach eigenen Idealvorstellungen umzugestalten.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Mein Wille geschehe:</strong> ›Der andere Mensch muss nach meinen moralischen und qualitativen Maßstäben korrigiert, geformt und verbessert werden.‹</p>
+            <p class="vb-intro" style="margin:0;"><strong>Dein Wille geschehe:</strong> Den anderen Menschen in seiner einzigartigen Eigenart unzensiert stehen lassen und die eigenen Erwartungen aufgeben.</p>
+          </div>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 .4rem;color:var(--ink);">Typ 2: Der Helfer</h3>
+        <p class="vb-intro">Das Ego versucht, die eigene Bedürftigkeit und Abhängigkeit zu verleugnen und bindet Beziehungen durch Hilfe und Zuneigung an sich.</p>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SE2 &ndash; Privileg</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Muster:</strong> Das Ego zeigt sich kindlich, schutzbedürftig oder charmant, um Versorgung und Sonderbehandlung zu erwirken.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Mein Wille geschehe:</strong> ›Ich muss mir Fürsorge, Schutz und Zuwendung durch mein liebenswertes und anpassungsfähiges Verhalten sichern.‹</p>
+            <p class="vb-intro" style="margin:0;"><strong>Dein Wille geschehe:</strong> Die eigene tiefere Bedürftigkeit und Verletzlichkeit unmittelbar spüren und dem Leben erlauben, einen unverstellt zu nähren.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SO2 &ndash; Ehrgeiz</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Muster:</strong> Die helfende und verführende Kraft richtet sich auf Gruppen, Machtstrukturen und Netzwerke, um eine Schlüsselrolle einzunehmen.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Mein Wille geschehe:</strong> ›Ich steuere das Netzwerk und die führende Gruppe durch meine Unentbehrlichkeit und meinen strategischen Einfluss.‹</p>
+            <p class="vb-intro" style="margin:0;"><strong>Dein Wille geschehe:</strong> Annehmen, dass man auch ohne Sonderrolle, Einfluss oder die Verpflichtung anderer geliebt und im Sein verankert ist.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SX2 &ndash; Verführung</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Muster:</strong> Höchste Fokussierung auf eine einzelne Person, um deren Verlangen zu wecken und eine unlösbare Bindung einzugehen.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Mein Wille geschehe:</strong> ›Ich muss den anderen für mich gewinnen, ihn faszinieren und unlösbar an mich binden.‹</p>
+            <p class="vb-intro" style="margin:0;"><strong>Dein Wille geschehe:</strong> Die absolute Freiheit des Gegenübers respektieren und die eigene innere Ganzheit ohne äußere Eroberung finden.</p>
+          </div>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 .4rem;color:var(--ink);">Typ 3: Der Leistungsträger</h3>
+        <p class="vb-intro">Das Ego identifiziert sich mit Leistung, Effizienz, Erfolg und der äußeren Fassade, um Wertlosigkeit und tiefe Schamgefühle zu vermeiden.</p>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SE3 &ndash; Sicherheit</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Muster:</strong> Der Leistungstrieb richtet sich auf materielle Absicherung, Effizienz im Alltag und unermüdlichen Arbeitseinsatz.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Mein Wille geschehe:</strong> ›Ich muss unermüdlich leisten und nützlich sein, um meine materielle und körperliche Existenz abzusichern.‹</p>
+            <p class="vb-intro" style="margin:0;"><strong>Dein Wille geschehe:</strong> Das ständige Tun anhalten und dem natürlichen Rhythmus von Ruhe, Stille und Sein vertrauen.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SO3 &ndash; Prestige</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Muster:</strong> Fokussierung auf gesellschaftliche Anerkennung, Titel, Status und die Wahrung des perfekten Erfolgsbildes.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Mein Wille geschehe:</strong> ›Mein Bild und meine Errungenschaften müssen das Bild von Perfektion und Erfolg widerspiegeln.‹</p>
+            <p class="vb-intro" style="margin:0;"><strong>Dein Wille geschehe:</strong> Die Maske des Erfolgs fallen lassen und darauf vertrauen, dass der eigene Wert im reinen Sein liegt.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SX3 &ndash; Weiblichkeit / Männlichkeit</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Muster:</strong> Die Leistungsenergie wird eingesetzt, um das attraktivste, unterstützendste Gegenüber für jemanden zu sein.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Mein Wille geschehe:</strong> ›Ich muss das perfekte, anziehendste Gegenüber gestalten, um Begehren und Wertschätzung zu garantieren.‹</p>
+            <p class="vb-intro" style="margin:0;"><strong>Dein Wille geschehe:</strong> Die eigene ungeschminkte, unvollkommene Wahrheit zeigen und Ablehnung als Teil der Wirklichkeit zulassen.</p>
+          </div>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 .4rem;color:var(--ink);">Typ 4: Der Individualist</h3>
+        <p class="vb-intro">Die Fixierung kreist um das Gefühl des Mangels, das Leiden an der Trennung und die sehnsüchtige Suche nach dem verloren geglaubten Sinn.</p>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SE4 &ndash; Beharrlichkeit</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Muster:</strong> Schmerz und Sehnsucht werden nach innen gewendet; das Ego definiert sich über stummes Durchhalten und Widerstandskraft.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Mein Wille geschehe:</strong> ›Ich muss schweigend durchhalten, meine Belastung klaglos ertragen und mein Schicksal allein bewältigen.‹</p>
+            <p class="vb-intro" style="margin:0;"><strong>Dein Wille geschehe:</strong> Die Härte gegen sich selbst aufweichen, Leichtigkeit einladen und Hilfe vom Leben annehmen.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SO4 &ndash; Scham</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Muster:</strong> Das Ego zeigt sein Leiden, sein Mangelgefühl und sein Anderssein offen in der Gruppe, um Zugehörigkeit oder Mitgefühl zu erbitten.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Mein Wille geschehe:</strong> ›Mein Leiden und mein Anderssein unterscheiden mich von den anderen und bilden meine eigentliche Identität.‹</p>
+            <p class="vb-intro" style="margin:0;"><strong>Dein Wille geschehe:</strong> Die Identifikation mit dem Opferdasein und dem Schmerz aufgeben und in ein gegenwärtiges, unaufgeregtes Glück einwilligen.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SX4 &ndash; Konkurrenz</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Muster:</strong> Der Neid wandelt sich in einen intensiv einzufordernden Anspruch gegenüber anderen.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Mein Wille geschehe:</strong> ›Ich fordere mit Intensität ein, was mir vorenthalten wurde, und mache das Gegenüber für meine Erfüllung verantwortlich.‹</p>
+            <p class="vb-intro" style="margin:0;"><strong>Dein Wille geschehe:</strong> Erkennen, dass im Wesentlichen nichts fehlt und der Neid im bloßen Schauen der Fülle des Augenblicks schmilzt.</p>
+          </div>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 .4rem;color:var(--ink);">Typ 5: Der Beobachter</h3>
+        <p class="vb-intro">Das Ego zieht sich mental und körperlich zurück, um die eigenen Energie- und Wissensressourcen zu schützen und Überforderung zu vermeiden.</p>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SE5 &ndash; Burg</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Muster:</strong> Die Abgrenzung richtet sich auf das äußere Umfeld, den eigenen Raum und die Reduzierung von Bedürfnissen.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Mein Wille geschehe:</strong> ›Ich ziehe meine Grenzen so eng wie möglich und schütze meine Höhle, damit niemand Ansprüche an mich stellt.‹</p>
+            <p class="vb-intro" style="margin:0;"><strong>Dein Wille geschehe:</strong> Die Tür der Höhle öffnen und der ungefilterten Fülle und Lebendigkeit der Welt erlauben einzutreten.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SO5 &ndash; Totem</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Muster:</strong> Das Ego verbindet sich nicht emotional mit der Welt, sondern über übergeordnete Ideen, Theorien, Systeme und Wissen.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Mein Wille geschehe:</strong> ›Ich baue mir ein gedankliches System aus Abstraktionen, um die Welt sicher auf Distanz zu verstehen.‹</p>
+            <p class="vb-intro" style="margin:0;"><strong>Dein Wille geschehe:</strong> Das theoretische Wissen loslassen und sich unmittelbar in das ungewisse, ungeschützte Erleben des Lebens werfen.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SX5 &ndash; Vertrauen</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Muster:</strong> Der Rückzug wird nur für eine einzige, besondere Person geöffnet, mit der eine tiefe, geheime Innenwelt geteilt wird.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Mein Wille geschehe:</strong> ›Ich gebe mich nur einem einzigen, auserwählten Menschen preis und behalte die exklusive Kontrolle über diese Welt.‹</p>
+            <p class="vb-intro" style="margin:0;"><strong>Dein Wille geschehe:</strong> Das Herz für die uneingeschränkte, freie und verletzliche Strömung der Liebe im Ganzen öffnen.</p>
+          </div>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 .4rem;color:var(--ink);">Typ 6: Der Loyalist</h3>
+        <p class="vb-intro">Das Ego sucht unentwegt Sicherheit durch Vorausplanung, Zweifel, Systemtreue oder vorbeugenden Gegenangriff, um Gefahren abzuwehren.</p>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SE6 &ndash; Wärme</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Muster:</strong> Das Ego versucht, Bedrohungen zu besänftigen, indem es sich freundlich, schutzbedürftig und friedfertig zeigt.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Mein Wille geschehe:</strong> ›Ich muss mich verbindlich, vorsichtig und schutzbedürftig zeigen, damit man mir nichts antut und mich schützt.‹</p>
+            <p class="vb-intro" style="margin:0;"><strong>Dein Wille geschehe:</strong> Erkennen, dass wahre Sicherheit im universellen Grundvertrauen des Seins liegt und nicht in defensiven Absicherungen.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SO6 &ndash; Pflicht</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Muster:</strong> Ausrichtung an Gesetzen, Ideologien, Pflichten und klaren Strukturen, um der eigenen inneren Unsicherheit zu entgehen.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Mein Wille geschehe:</strong> ›Die genaue Befolgung von Regeln, Systemen und Pflichten schützt mich und das Kollektiv vor dem Chaos.‹</p>
+            <p class="vb-intro" style="margin:0;"><strong>Dein Wille geschehe:</strong> Vertrauen in die innere, unmittelbare Führung entwickeln, die innere Autorität jenseits geschriebener Regeln.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SX6 &ndash; Stärke</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Muster:</strong> Angst wird durch die Demonstration von Stärke, Härte, Zweifel an Autoritäten oder Gegenangriff überdeckt (kontraphobisch).</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Mein Wille geschehe:</strong> ›Ich gehe vorbeugend in die Konfrontation und in die Kontrolle, um meine innere Angst nicht spüren zu müssen.‹</p>
+            <p class="vb-intro" style="margin:0;"><strong>Dein Wille geschehe:</strong> Die gedanklichen Waffen niederlegen, die eigene Verletzlichkeit spüren und Frieden zulassen.</p>
+          </div>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 .4rem;color:var(--ink);">Typ 7: Der Enthusiast</h3>
+        <p class="vb-intro">Das Ego flieht vor innerem Schmerz, Enge und Stille in ständige Zukunftsoptionen, Pläne, Visionen und angenehme Stimulation.</p>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SE7 &ndash; Familie</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Muster:</strong> Praktische Absicherung durch ein Netz von Kontakten, Vorteilen und ständigen Optionen auf angenehme Erlebnisse.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Mein Wille geschehe:</strong> ›Ich sichere mir eine Fülle von Möglichkeiten und Kontakten, damit ich niemals im Mangel feststecke.‹</p>
+            <p class="vb-intro" style="margin:0;"><strong>Dein Wille geschehe:</strong> Die Grenzen, die Begrenzungen und die Stille des gegenwärtigen Augenblicks ohne Ausflüchte aushalten.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SO7 &ndash; Opfer</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Muster:</strong> Der Egowille schränkt den eigenen Genuss scheinbar ein, um für das Wohl anderer Visionen und Projekte voranzutreiben.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Mein Wille geschehe:</strong> ›Ich verzichte auf direkte Vorteile, um als gutherzig, vorbildlich und visionär wahrgenommen zu werden.‹</p>
+            <p class="vb-intro" style="margin:0;"><strong>Dein Wille geschehe:</strong> Die eigene Großartigkeit und Sonderrolle aufgeben und im schlichten, unspektakulären Jetzt gegenwärtig sein.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SX7 &ndash; Suggestibilität</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Muster:</strong> Verschönerung der Wirklichkeit durch Phantasie, Begeisterung und die Suche nach dem magischen Erlebnis.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Mein Wille geschehe:</strong> ›Ich schmücke die Wirklichkeit mit meiner Vorstellungskraft aus, um die Nüchternheit des Alltags zu umgehen.‹</p>
+            <p class="vb-intro" style="margin:0;"><strong>Dein Wille geschehe:</strong> Die Wirklichkeit ungeschönt, nüchtern und schlicht so annehmen und durchdringen, wie sie ist.</p>
+          </div>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 .4rem;color:var(--ink);">Typ 8: Der Beschützer</h3>
+        <p class="vb-intro">Das Ego sucht absolute Unabhängigkeit, Autonomie und Kontrolle über das Umfeld, um Schwäche, Verletzbarkeit und Unterwerfung zu verhindern.</p>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SE8 &ndash; Überleben</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Muster:</strong> Macht- und Kontrollenergie wird auf den Schutz der eigenen materiellen Ressourcen, des Territoriums und des Körpers angewandt.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Mein Wille geschehe:</strong> ›Ich sichere mir meine Ressourcen und mein Territorium mit harter Hand, damit mich niemand beeinträchtigt.‹</p>
+            <p class="vb-intro" style="margin:0;"><strong>Dein Wille geschehe:</strong> Die Notwendigkeit des ständigen Kampfes aufgeben, die Rüstung ablegen und Weichheit zulassen.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SO8 &ndash; Freundschaft</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Muster:</strong> Die Stärke wird eingesetzt, um die eigene Gruppe, Familie oder Belegschaft vor ungerechten äußeren Kräften zu schützen.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Mein Wille geschehe:</strong> ›Ich übernehme die Führung und kämpfe für meine Gruppe gegen Ungerechtigkeit und Übergriffe.‹</p>
+            <p class="vb-intro" style="margin:0;"><strong>Dein Wille geschehe:</strong> Erkennen, dass eine höhere Ordnung wirkt und man die Welt nicht allein auf seinen Schultern tragen muss.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SX8 &ndash; Besitz</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Muster:</strong> Vollständige, feurige Einnahme des Gegenübers; das Ego sucht die absolute Kontrolle über die Beziehung und ihre Dynamik.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Mein Wille geschehe:</strong> ›Ich überwältige und steuere meine Umgebung und meine Bindungen durch meine schiere Intensität.‹</p>
+            <p class="vb-intro" style="margin:0;"><strong>Dein Wille geschehe:</strong> Sich der zarten, unkontrollierbaren und sanften Natur echter Begegnung hingeben.</p>
+          </div>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 .4rem;color:var(--ink);">Typ 9: Der Friedensstifter</h3>
+        <p class="vb-intro">Das Ego betäubt die eigene Präsenz, den eigenen Lebensimpuls und aufkeimende Konflikte, um äußere und innere Ruhe zu bewahren.</p>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SE9 &ndash; Appetit</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Muster:</strong> Ablenkung vom eigentlichen Lebensimpuls durch behagliche Routinen, Essen, Medien oder körperliche Bequemlichkeit.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Mein Wille geschehe:</strong> ›Ich tröste mich mit meinen kleinen Routinen und Annehmlichkeiten, um die Dringlichkeit des Lebens auszublenden.‹</p>
+            <p class="vb-intro" style="margin:0;"><strong>Dein Wille geschehe:</strong> Aus der Betäubung erwachen und dem lebendigen, fordernden und dynamischen Lebensfluss voll zustimmen.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SO9 &ndash; Teilnahme</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Muster:</strong> Das Ego geht in den Aufgaben der Gruppe oder Gemeinschaft auf und vergisst dabei die eigenen Impulse und Prioritäten.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Mein Wille geschehe:</strong> ›Ich gehe in den Anforderungen der Gruppe auf und erfülle deren Bedürfnisse, um nicht auffallen zu müssen.‹</p>
+            <p class="vb-intro" style="margin:0;"><strong>Dein Wille geschehe:</strong> Die eigene individuelle Existenz, Stimme und den eigenen Lebensimpuls voll und wahrhaftig einbringen.</p>
+          </div>
+          <div style="margin:.9rem 0 0;padding:.9rem 1.1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-left:3px solid var(--gold);border-radius:8px;">
+            <p style="margin:0 0 .35rem;font-weight:700;color:var(--ink);">SX9 &ndash; Vereinigung</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Muster:</strong> Das Ego übernimmt Identität, Meinungen und Willen eines bedeutsamen Anderen, um Trennung zu vermeiden.</p>
+            <p class="vb-intro" style="margin:0 0 .35rem;"><strong>Mein Wille geschehe:</strong> ›Ich passe mich dem Willen des anderen an und verschmelze mit ihm, um eigene Konflikte nicht spüren zu müssen.‹</p>
+            <p class="vb-intro" style="margin:0;"><strong>Dein Wille geschehe:</strong> In der eigenen Mitte stehen bleiben, die Trennung wagen und dem göttlichen Willen als eigenständiges Wesen dienen.</p>
+          </div>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">4. Fazit: Der Weg von der Fixierung zur Essenz</h2>
+        <p class="vb-intro">Das Enneagramm zeigt auf einer Art Landkarte, wo und wie der menschliche Verstand unbewusst versucht, seinen Willen gegen den Fluss der Wirklichkeit durchzusetzen. Wahres Glück erwächst nicht daraus, dass das Ego am Ende bekommt, was es fordert. Es erwächst aus dem schrittweisen Durchschauen und Aufweichen der 27 Überlebensmechanismen des Egos.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Wenn das Ego bekommt, was es will, kehrt die Leere meist zurück, denn die Erfüllung füllt die Fixierung nicht, sie nährt sie. Dazu passt ein Spruch, der Oscar Wilde zugeschrieben wird und ähnlich bei George Bernard Shaw steht: Es gebe nur zwei Tragödien im Leben, die eine, nicht zu bekommen, was man will, die andere, es zu bekommen.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Das Handeln aus der Hingabe (›Dein Wille geschehe‹) führt zum Erwachen der wesentlichen Qualitäten unseres Wesens: tiefe Ruhe, unerschütterliches Vertrauen, klar ausgerichtete Präsenz und bedingungslose Liebe.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">5. Ein Impuls für die Praxis</h2>
+        <ol style="margin:0;padding-left:1.2rem;display:flex;flex-direction:column;gap:.6rem;">
+          <li class="vb-intro">Den eigenen Subtyp in der Liste oben suchen und den Satz ›Mein Wille geschehe‹ ruhig lesen, ohne ihn zu bewerten.</li>
+          <li class="vb-intro">Einen Moment lang prüfen, in welchen Situationen des Tages dieser Satz tatsächlich handelt (bei Anspannung, Kontrolle, Rückzug, Anpassung).</li>
+          <li class="vb-intro">Drei ruhige Atemzüge nehmen und dabei den Satz der Hingabe (›Dein Wille geschehe‹) innerlich anbieten, nicht als Vorsatz, sondern als Einladung.</li>
+          <li class="vb-intro">Wahrnehmen, was im Körper geschieht, und nichts verändern. Der Wille wird durch Erkennen weicher, nicht durch Bekämpfen.</li>
+        </ol>
+        <p style="font-size:.85rem;color:var(--muted);margin:1rem 0 0;">Dieser Tipp ersetzt keine ärztliche oder therapeutische Behandlung. Er ist ein Impuls zur Selbstbeobachtung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Zum Schluss: Hermann Hesse</h2>
+        <p class="vb-intro" style="margin-bottom:0;">Hermann Hesse hat dieselbe Erfahrung in seinem Gedicht ›Glück‹ (1907) gefasst. Es beginnt mit der Zeile <em>›Solange du nach dem Glücke jagst, bist du nicht reif zum Glücklichsein‹</em> – selbst wenn ihm alles gehörte, was er liebt. Im weiteren Verlauf beschreibt das Gedicht, dass auch der noch nicht den Frieden kennt, der Verlorenem nachtrauert und Ziele und Unruhe hat. Erst wer dem Wünschen entsagt, kein Ziel und kein Begehren mehr kennt und das Glück nicht mehr beim Namen nennt, den erreicht die Flut des Geschehens nicht mehr bis ins Herz, und die Seele ruht. Das Gedicht ist urheberrechtlich noch geschützt und wird hier deshalb nur im Gedankengang wiedergegeben; zu finden ist es in Hesses gesammelten Gedichten.</p>
+      </div>
+
+      <div style="margin-top:2rem;">
+        <details style="border:1px solid var(--line);border-radius:12px;overflow:hidden;">
+          <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
+                          background:var(--paper);list-style:none;user-select:none;font-weight:700;
+                          font-size:0.95rem;color:var(--ink);">
+            <span style="font-size:1.2rem;color:var(--copper);">&#9672;</span>
+            <span style="flex:1;">Vertiefende Literatur von Detlef Rathmer</span>
+            <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
+          </summary>
+          <div style="padding:1rem 1.2rem 1.2rem;">
+            ${bookTip("sei-still-und-wisse-ich-bin-gott", "Ein spirituelles Buch über die tiefste Stille in uns und die Erfahrung von Transzendenz jenseits aller Konzepte.", "Sei still und wisse – ich bin Gott!")}
+            <div style="margin-top:.8rem;">${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}</div>
+            <div style="margin-top:.8rem;">${bookTip("hinter-der-leidenschaft", "Die neun Wunden des Enneagramms – tiefgreifende Analyse der Urwunde hinter jeder Leidenschaft, mit konkreten Heilungswegen für alle 9 Typen.", "Hinter der Leidenschaft")}</div>
+          </div>
+        </details>
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
+        {route:"praxistipps-heilpraktiker/das-ewige-ich-bin", label:"Das ewige ›Ich bin‹: Der Enneagramm-Heilungskompass jenseits der Fixierung"},
+        {route:"praxistipps-heilpraktiker/ich-illusion", label:"Wer lenkt hier eigentlich wen? – Der sanfte Ausweg aus der Ich-Illusion"},
+        {route:"warum-nur-9-heilmittel", label:"Warum nur neun Enneagramm-Heilmittel – und nicht 27?"},
+        {route:"bedeutung-27-subtypen", label:"Warum die 27 Subtypen so wichtig sind"},
       ])}
     </section>
   `);
@@ -35285,6 +35567,7 @@ function dasEwigeIchBinPage() {
 
       ${relatedLinks([
         {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
+        {route:"praxistipps-heilpraktiker/dein-wille-geschehe", label:"Dein Wille geschehe – Hingabe statt Ego-Wille"},
         {route:"praxistipps-heilpraktiker/turiya-enneagramm", label:"Der Beobachter hinter dem Muster – Turiya und das Enneagramm"},
         {route:"praxistipps-heilpraktiker/ich-illusion", label:"Wer lenkt hier eigentlich wen? – Der sanfte Ausweg aus der Ich-Illusion"},
         {route:"beruehmte-rupert-spira", label:"Porträt: Rupert Spira (SO7w6)"},
