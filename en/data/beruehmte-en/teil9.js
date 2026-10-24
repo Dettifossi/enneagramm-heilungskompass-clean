@@ -2802,3 +2802,74 @@ export function vickyLeandrosPortraitPage() {
     </div>
   `);
 }
+
+export function thylaneBlondeauPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-thylane-blondeau-portrait.jpg" alt="Thylane Blondeau – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-thylane-blondeau-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Thylane Blondeau</p>
+        <p class="krim-portrait-typ">SX3w4 &middot; Sexual Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">French model and actress, b. 2001 &ndash; Animal correspondence: Peacock</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Peacock: a child in front of the camera</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>peacock</strong> does not show itself because it has to, but because its form works at once. Thylane Blondeau was born on 5 April 2001 in Aix-en-Provence, the daughter of footballer Patrick Blondeau and actress and TV presenter Véronika Loubry. Her parents married in 2002 and separated in 2016; she has a younger brother, Ayrton.</p>
+          <p class="vb-intro">At about four she walked for Jean Paul Gaultier, the first of many appearances. As a child she was called the &lsquo;most beautiful girl in the world&rsquo; by the media, a label that followed her for years.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Three: impact without words</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three strives for success, and the <strong>sexual Three (SX3)</strong> makes personal attraction its means, according to Claudio Naranjo, who called the subtype &lsquo;Masculinity/Femininity&rsquo;, the embodiment of an ideal of masculinity or femininity. In Blondeau this began in childhood, without her having chosen it. At ten she appeared in adult clothing and make-up in a supplement of &lsquo;Vogue Paris&rsquo;, which triggered a public debate about the sexualization of children in the media. The responsibility for that lay with the adults, not with the child.</p>
+          <p class="vb-intro">Later the impact became work: at 13 she was on the cover of &lsquo;Jalouse&rsquo;, in 2015 she signed with IMG Models, in 2016 she posed for &lsquo;Flaunt&rsquo;. She worked with Dolce &amp; Gabbana, L&rsquo;Oréal and Versace, among others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: style and her own signature</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the Three the wish to be unique and to express oneself through aesthetics. In Blondeau it shows in the move from muse to creator: in 2018 she founded her fashion label Heaven May. In 2017, on her 16th birthday, she became global ambassador of L&rsquo;Oréal Paris and thus the youngest in the brand&rsquo;s history. About this role she said the brand fits her values such as self-confidence and self-esteem.</p>
+          <p class="vb-intro">The core type Three wants to have an impact; the Four-wing looks for its own expression, so that a face for others becomes a label of her own.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: a career instead of a childhood label</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Blondeau has translated the role of child model into an adult career in which fashion remains the center. She made her acting debut in the film &lsquo;Belle &amp; Sebastian: The Adventure Continues&rsquo; (2015). According to reports she said in a 2023 interview with &lsquo;Grazia&rsquo; that she would like to explore acting further. Extensive statements of her own about her work are rarely documented.</p>
+          <p class="vb-intro">The sources on her consist mostly of reports on her appearances and contracts. This portrait therefore limits itself to documented milestones and does not make her appearance the subject.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Heidi Klum and Lana Del Rey</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-heidi-klum">Heidi Klum (SX3w4)</a> shares with Blondeau the path from model to entrepreneur: impact becomes a brand of its own. Klum took the stage herself early, Blondeau grew into it.</p>
+          <p class="vb-intro"><a href="#beruehmte-lana-del-rey">Lana Del Rey (SX3w4)</a> shares with her the shaped aesthetics and the play with an image that outsiders project. With Lana Del Rey the music carries this role, with Blondeau fashion.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Three with Four-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the ability to turn a label imposed early into projects of one&rsquo;s own. Someone who becomes known as a child for appearance and founds a label as a young adult takes the interpretation back into her own hands.</p>
+          <p class="vb-intro">The shadow of this combination is the dependence on the image: someone perceived early through impact must learn that her own worth is not tied to the echo of the public. This applies to the Three in particular, and the Four-wing sharpens the question of who stands behind the image.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: a young woman with her own label</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 24 October 2026) Thylane Blondeau is 25 years old. According to Wikipedia she married the fashion entrepreneur Benjamin Attal in Paris on 30 June 2026; the engagement had been announced in March 2026. Little else is documented about her private life, and this portrait leaves it at that.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
+        {route:"lebensmusterkompass/sx3", label:"Life Pattern Compass: SX3 – Peacock"},
+        {route:"beruehmte-heidi-klum", label:"Portrait: Heidi Klum (SX3w4)"},
+        {route:"beruehmte-lana-del-rey", label:"Portrait: Lana Del Rey (SX3w4)"},
+        {route:"beruehmte-marilyn-monroe", label:"Portrait: Marilyn Monroe (SX3w4)"},
+            ])}
+    </div>
+  `);
+}
