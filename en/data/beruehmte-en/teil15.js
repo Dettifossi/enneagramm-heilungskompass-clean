@@ -2906,7 +2906,7 @@ export function vitaliKlitschkoPortraitPage() {
         <h2 class="vb-section">6. Light and shadow of the self-preservation Seven with Eight-wing</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light lies in reliability under pressure: someone who stays in the capital of an attacked country and carries responsibility there shows steadfastness. That as an athlete he never went down belongs in the same picture.</p>
-          <p class="vb-intro">The shadow of this combination is the toughness that can fall back on him: in December 2023 he accused President Zelenskyy of authoritarianism under martial law, and as mayor he is under criticism. According to Wikipedia, in October 2026 after Russian air strikes on infrastructure there were calls for his resignation over inadequate preparation for winter, and Zelenskyy also criticized it. It is typical of the Eight-wing to answer criticism openly and directly.</p>
+          <p class="vb-intro">The shadow of this combination shows in conflicts that are fought out openly: in December 2023 Klitschko publicly criticized President Zelenskyy and accused him of authoritarianism under martial law. Conversely, according to Wikipedia, in October 2026 after Russian air strikes on infrastructure there were calls for his resignation over inadequate preparation for winter, and Zelenskyy also expressed criticism. Who is right in this dispute is not judged by this portrait: both sides may have legitimate arguments on individual points, and the situation will keep changing. It is typical of the Eight-wing that conflicts are fought out openly and directly instead of being avoided.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Where things stand: Kyiv in autumn 2026</h2>
