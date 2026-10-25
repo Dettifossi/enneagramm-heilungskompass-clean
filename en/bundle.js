@@ -39290,6 +39290,13 @@ function enneagrammProfilingPage() {
       <p class="eyebrow">Charts &middot; Profiling</p>
       <h1 class="section-title">Enneagram Profiling</h1>
       <p class="psycho-intro">Typing via gaze, posture, and rhythm &ndash; not via conversation and self-reporting.</p>
+      <div style="margin:0 0 1.8rem;padding:1.1rem 1.2rem;border:1px solid var(--copper);border-radius:14px;background:color-mix(in srgb, var(--copper) 6%, var(--paper));">
+        <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">To begin with: how profiling came about</p>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
+          <iframe width="100%" height="100%" style="border:none;display:block;" title="David Rathmer | How Profiling Became a Business (in German)" src="https://www.youtube.com/embed/mFV2mnKuaqc?rel=0&playsinline=1" allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <p style="font-size:0.88rem;line-height:1.6;margin:0.8rem 0 0;color:var(--ink);">David L. Rathmer, who developed Enneagram profiling as a method of its own, tells in a half-hour conversation with Digistore24 how he came to the Enneagram as a child, how the method came about together with his father and why profiling according to the principles of the Enneagram is central for him not only at work but also in his own life. He also describes how, through self-knowledge and reflection, he found more inner calm and balance with his own type. The video is in German. More about him in the <a href="#beruehmte-david-l-rathmer" style="color:var(--copper);">portrait of David L. Rathmer</a>.</p>
+      </div>
       <img
         src="../assets/enneagramm-profiling.jpg"
         alt="Enneagram Profiling &ndash; Detlef Rathmer"

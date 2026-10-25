@@ -59713,6 +59713,13 @@ function enneagrammProfilingPage() {
       <p class="eyebrow">Schaubilder \xb7 Profiling</p>
       <h1 class="section-title">Enneagramm-Profiling</h1>
       <p class="psycho-intro">Typisierung \xfcber Blick, Haltung und Rhythmus &ndash; nicht \xfcber Gespr\xe4ch und Selbstauskunft.</p>
+      <div style="margin:0 0 1.8rem;padding:1.1rem 1.2rem;border:1px solid var(--copper);border-radius:14px;background:color-mix(in srgb, var(--copper) 6%, var(--paper));">
+        <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Zum Einstieg: Wie das Profiling entstand</p>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
+          <iframe width="100%" height="100%" style="border:none;display:block;" title="David Rathmer | Wie aus Profiling ein Business wurde" src="https://www.youtube.com/embed/mFV2mnKuaqc?rel=0&playsinline=1" allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <p style="font-size:0.88rem;line-height:1.6;margin:0.8rem 0 0;color:var(--ink);">David L. Rathmer, der das Enneagramm-Profiling als eigene Methode entwickelt hat, erzählt in einem halbstündigen Gespräch mit Digistore24, wie er schon als Kind zum Enneagramm kam, wie die Methode gemeinsam mit seinem Vater entstand und warum Profiling nach den Grundsätzen des Enneagramms für ihn nicht nur im Beruf, sondern auch im eigenen Leben zentral ist. Er beschreibt auch, wie er durch Selbsterkenntnis und Reflexion mit seinem eigenen Typ zu mehr innerer Ruhe und Ausgeglichenheit gefunden hat. Mehr zu ihm im <a href="#beruehmte-david-l-rathmer" style="color:var(--copper);">Porträt von David L. Rathmer</a>.</p>
+      </div>
       <img
         src="./assets/enneagramm-profiling.jpg"
         alt="Enneagramm-Profiling &ndash; Detlef Rathmer"
