@@ -221,6 +221,8 @@ const ROUTES = [
   { hash: "en/#mindmap-belladonna", label: "EN Mindmap Belladonna" },
   { hash: "en/#mindmap-veratrum", label: "EN Mindmap Veratrum album" },
   { hash: "en/#mindmap-cannabis", label: "EN Mindmap Cannabis indica" },
+  { hash: "#claudio-naranjo-lehrer", label: "Neu: Claudio Naranjo Lehrer" },
+  { hash: "en/#claudio-naranjo-lehrer", label: "Neu EN: Claudio Naranjo Lehrer" },
   { hash: "#beruehmte-joe-vitale", label: "Neues Porträt: Dr. Joe Vitale" },
   { hash: "en/#beruehmte-joe-vitale", label: "Neues EN-Porträt: Dr. Joe Vitale" },
   { hash: "#beruehmte-martina-gedeck", label: "Neues Porträt: Martina Gedeck" },

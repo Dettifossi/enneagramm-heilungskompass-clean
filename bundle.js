@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=395";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=396";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -17040,6 +17040,7 @@ const uiText = {
     { route: "wissen", label: "Wissen", dropdown: [
       { heading: "Porträts und Muster" },
       { route: "knowledge", label: "Wissensbasis" },
+      { route: "claudio-naranjo-lehrer", label: "Claudio Naranjo: Lehrer und Wegbereiter der Subtypen" },
       { route: "beruehmte-persoenlichkeiten", label: "Berühmte Persönlichkeiten" },
       { route: "kriminalpsychologie", label: "Spannende Kriminalfälle (Kriminalpsychologie)" },
       { route: "krankheitsportraets", label: "Krankheitsporträts" },
@@ -31723,7 +31724,7 @@ function _neuAktiv(route) {
   return !!d && (new Date() - new Date(d)) < 30 * 864e5;
 }
 
-const HEILWISSEN_ROUTES = new Set(["wann-entsteht-der-typ", "kroetenschlucken", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "nicht-reale-vorstellungen", "wahnideen-nicht-reale-vorstellungen", "mindmaps-single-rubriken", "mindmap-platin", "mindmap-ignatia", "mindmap-hyoscyamus", "mindmap-tarentula", "mindmap-stramonium", "mindmap-opium", "mindmap-belladonna", "mindmap-veratrum", "mindmap-cannabis", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["wann-entsteht-der-typ", "kroetenschlucken", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "nicht-reale-vorstellungen", "wahnideen-nicht-reale-vorstellungen", "mindmaps-single-rubriken", "mindmap-platin", "mindmap-ignatia", "mindmap-hyoscyamus", "mindmap-tarentula", "mindmap-stramonium", "mindmap-opium", "mindmap-belladonna", "mindmap-veratrum", "mindmap-cannabis", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9, "claudio-naranjo-lehrer"].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -60744,6 +60745,35 @@ function gifteDesGeistesPage() {
   `);
 }
 
+function claudioNaranjoLehrerPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("claudio-naranjo-lehrer")}
+      <div class="page-content">
+        <button class="ghost-link" data-route="beruehmte-claudio-naranjo" style="margin-bottom:1.2rem;">← Zum Porträt Claudio Naranjo</button>
+        <p class="eyebrow">Wissen · Porträts und Muster</p>
+        <h1 class="section-title">Claudio Naranjo: Lehrer, Mentor, Wegbereiter der Subtypen</h1>
+        <p class="lead-small">Dr. Claudio Naranjo (1932–2019) war der Enneagrammlehrer des Autors. Die folgenden acht Seiten stellen sein Leben, seine Bedeutung für das Enneagramm und die persönliche Verbindung des Autors zu ihm dar.</p>
+        <figure style="margin:0 0 1.2rem;"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/naranjo/naranjo-seite-159.jpg" alt="Enneagrammlehrer Dr. Claudio Naranjo (1932–2019), SO5w4" loading="lazy" style="width:100%;height:auto;border-radius:12px;display:block;" /></figure>
+        <figure style="margin:0 0 1.2rem;"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/naranjo/naranjo-seite-160.jpg" alt="Claudio Naranjo – Lebensstationen von 1932 bis 2019" loading="lazy" style="width:100%;height:auto;border-radius:12px;display:block;" /></figure>
+        <figure style="margin:0 0 1.2rem;"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/naranjo/naranjo-seite-161.jpg" alt="Kurzbiografie: Valparaíso, Psychiatrie, Esalen, Atacama-Wüste, erstes SAT-Programm" loading="lazy" style="width:100%;height:auto;border-radius:12px;display:block;" /></figure>
+        <figure style="margin:0 0 1.2rem;"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/naranjo/naranjo-seite-162.jpg" alt="Bedeutung für das Enneagramm: Systematisierung, Subtypen, Verkörperung, Ethik" loading="lazy" style="width:100%;height:auto;border-radius:12px;display:block;" /></figure>
+        <figure style="margin:0 0 1.2rem;"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/naranjo/naranjo-seite-163.jpg" alt="Kulturelle Vision und Literaturhinweise zu Naranjo" loading="lazy" style="width:100%;height:auto;border-radius:12px;display:block;" /></figure>
+        <figure style="margin:0 0 1.2rem;"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/naranjo/naranjo-seite-164.jpg" alt="Persönlicher Nachklang: das Lernen aus den Videoaufzeichnungen und der Austausch 2014/2015" loading="lazy" style="width:100%;height:auto;border-radius:12px;display:block;" /></figure>
+        <figure style="margin:0 0 1.2rem;"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/naranjo/naranjo-seite-165.jpg" alt="Persönlicher Nachklang: ein sozialer Fünfer mit Vierer-Flügel, der Einfluss bis heute" loading="lazy" style="width:100%;height:auto;border-radius:12px;display:block;" /></figure>
+        <figure style="margin:0 0 1.2rem;"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/naranjo/naranjo-seite-166.jpg" alt="Persönlicher Nachklang: Dankbarkeit und die Einladung zu mehr Menschlichkeit" loading="lazy" style="width:100%;height:auto;border-radius:12px;display:block;" /></figure>
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"beruehmte-claudio-naranjo", label:"Porträt: Dr. Claudio Naranjo (SO5w4)"},
+        {route:"krankheitsportraets-claudio-naranjo", label:"Krankheitsporträt: Claudio Naranjo"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
+
 function wahnideenNichtRealeVorstellungenPage() {
   return shell(`
     <div class="page-container">
@@ -66593,6 +66623,7 @@ const ROUTES = {
     "mindmap-veratrum": veratrumMindmapPage,
     "mindmap-cannabis": cannabisMindmapPage,
     "mindmaps-single-rubriken": mindmapsUebersichtPage,
+    "claudio-naranjo-lehrer": claudioNaranjoLehrerPage,
     "befreiende-fragen": befreiendeFragenPage,
     "fuehrungsstile": fuehrungsstilePage,
     "gifte-des-geistes": gifteDesGeistesPage,
