@@ -3431,7 +3431,7 @@ export const registerEntriesEN = [
   { term: "Jean Marais", route: "beruehmte-jean-marais", description: "Portrait: SP1w2 · Self-Preservation Type 1 · French actor, sculptor, potter, 1913–1998" },
   { term: "Martina Gedeck", route: "beruehmte-martina-gedeck", description: "Portrait: SP3w4 · Self-Preservation Type 3 · German actress, b. 1961" },
   { term: "Dr. Joe Vitale", route: "beruehmte-joe-vitale", description: "Portrait: SP2w1 · Self-Preservation Type 2 · author, marketing consultant, spiritual teacher, b. 1953" },
-  { term: "Claudio Naranjo: teacher and pioneer of the subtypes", route: "claudio-naranjo-lehrer", description: "Knowledge: life, significance for the Enneagram and the author's personal connection to his teacher Claudio Naranjo (pages in German)" },
+  { term: "Claudio Naranjo: teacher and pioneer of the subtypes", route: "claudio-naranjo-lehrer", description: "Knowledge: life, significance for the Enneagram and the author's personal connection to his teacher Claudio Naranjo (translated from the original slides)" },
   { term: "Platinum metallicum: mind map of the single rubrics", route: "mindmap-platin", description: "Knowledge: all single rubrics of Platinum metallicum (Type 1) as an expandable mind map, main delusion: superiority" },
   { term: "Ignatia amara: mind map of the single rubrics", route: "mindmap-ignatia", description: "Knowledge: all single rubrics of Ignatia amara (Type 4) as an expandable mind map, main delusion: the vow" },
   { term: "Hyoscyamus niger: mind map of the single rubrics", route: "mindmap-hyoscyamus", description: "Knowledge: all single rubrics of Hyoscyamus niger (Type 2) as an expandable mind map, main delusion: being sold" },
