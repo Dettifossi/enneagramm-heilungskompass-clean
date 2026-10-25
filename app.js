@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=382";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=383";
 import { psychogrammErklaerung } from "./data/psychogramme-erklaerung.js?v=2";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -60862,7 +60862,7 @@ function wahnideenNichtRealeVorstellungenPage() {
             <div style="font-size:0.9rem;line-height:1.65;display:grid;gap:0.45rem;">
               <div><span style="font-weight:700;color:var(--muted);">Repertoriums-Vorstellung:</span> <em>Gnom, Wicht, sei ein</em></div>
               <div><span style="font-weight:700;color:var(--muted);">Bei Kent:</span> Kents Repertorium kennt keine gleichlautende Rubrik.</div>
-              <div>Die Neun macht sich klein, um den Frieden zu halten, und kann sich zuletzt als winzig und unbedeutend erleben: ein Wicht, der nicht zählt. Das Bild kreist um Unwichtigkeit und um die Sehnsucht, niemandem zur Last zu fallen. Nach Angabe des Autors geht die Vorstellung auf Edward C. Whitmont zurück (›Psyche and Substance‹ (›Psyche und Substanz‹)). Seit 1980 ist diese Rubrik bekannt.</div>
+              <div>Die Neun macht sich klein, um den Frieden zu halten, und kann sich zuletzt als winzig und unbedeutend erleben: ein Wicht, der nicht zählt. Das Bild kreist um Unwichtigkeit und um die Sehnsucht, niemandem zur Last zu fallen. Bei Kent finden sich zum Mittel Cannabis indica außerdem ›annihilation, about to sink into‹ (im Begriff, in der Vernichtung zu versinken; Cannabis indica und Carbo hydrogenisatus) und ›weight, has no‹ (kein Gewicht zu haben; Cannabis indica und Opium), Bilder des Sich-Auflösens und der Gewichtslosigkeit. Nach Angabe des Autors geht die Vorstellung ›Gnom, Wicht‹ auf Edward C. Whitmont zurück (›Psyche and Substance‹ (›Psyche und Substanz‹)). Seit 1980 ist diese Rubrik bekannt.</div>
               <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">Im Lebensfaden:</span> <a href="#beruehmte-eleanor-roosevelt">Eleanor Roosevelt</a></div>
               <div style="font-size:0.78rem;color:var(--muted);">Zugeordnetes Mittel in der Enneagramm-Homöopathie dieses Kompasses: Cannabis indica</div>
             </div>
