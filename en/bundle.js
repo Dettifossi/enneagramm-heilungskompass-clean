@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=375";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=376";
 import { psychogrammErklaerung } from "../data/psychogramme-erklaerung.js?v=2";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -40305,7 +40305,7 @@ function nichtRealeVorstellungenPage() {
     { typ:5, vorstellung:"alone in a wilderness", deutung:"Whoever withdraws to be safe can in the end feel utterly alone: entirely on his own, without connection. The idea circles around self-preservation and isolation.", mittel:"Stramonium", rubrik:"In Kent's Repertory exactly one remedy is listed in the rubric \"alone, in a wilderness\": Stramonium. This is a single rubric." },
     { typ:6, vorstellung:"people would execute him/her", deutung:"Whoever scans the world for dangers can raise the threat to the extreme: they want to destroy me. The idea circles around persecution, distrust and the fear of the judgment of others.", mittel:"Opium", rubrik:"Kent's Repertory has no rubric of the same wording. The related rubric \"murdered, that he would be\" lists many remedies, among them Opium." },
     { typ:7, vorstellung:"would be taken prisoner", deutung:"Whoever needs freedom and variety can experience constraint as captivity: I am being pinned down, I will not get out. The idea circles around loss of mobility and the fear of the pain that freedom was meant to keep away.", mittel:"Belladonna", rubrik:"Kent\'s Repertory has no rubric of the same wording. The related rubric \"arrested, is about to be\" lists eight remedies, among them Belladonna." },
-    { typ:8, vorstellung:"being a prince", deutung:"Whoever radiates natural, self-confident power can work himself into a position of dominance: I am the one who decides here, I have power over you. The idea circles around the matter-of-course self-assurance of the Eight and its overflowing presence and strength. It does not mean the superiority of Type 1: there it is about the standard, here about power.", mittel:"Veratrum album", rubrik:"In Kent's Repertory exactly one remedy is listed in the rubric \"prince, is a\": Veratrum album." },
+    { typ:8, vorstellung:"being a prince", deutung:"Whoever radiates natural, self-confident power can work himself into a position of dominance: I am the one who decides here, I have power over you. The idea circles around the matter-of-course self-assurance of the Eight and its overflowing presence and strength. This does not refer to the superiority of Type 1: there it is about the standard, here about power.", mittel:"Veratrum album", rubrik:"In Kent's Repertory exactly one remedy is listed in the rubric \"prince, is a\": Veratrum album." },
     { typ:9, vorstellung:"being a gnome, a wight", deutung:"Whoever makes himself small to keep the peace can experience himself as tiny and insignificant: I am a wight who does not count. The idea circles around unimportance and the longing not to be a burden.", mittel:"Cannabis indica", rubrik:"Kent\'s Repertory has no rubric of the same wording." },
   ];
   return shell(`
