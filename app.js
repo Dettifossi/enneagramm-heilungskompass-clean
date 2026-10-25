@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=372";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=373";
 import { psychogrammErklaerung } from "./data/psychogramme-erklaerung.js?v=2";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -60723,9 +60723,9 @@ function nichtRealeVorstellungenPage() {
     { typ:4, vorstellung:"Gelübde (= Versprechen!) brechen, würde ein", deutung:"Wer dem Verlorenen und dem Ideal treu bleibt, kann sich an ein inneres Versprechen gebunden fühlen und die Vorstellung haben, es zu brechen, wenn er sich dem Leben zuwendet. Treue zum Schmerz, zur Sehnsucht und zur eigenen Tragik gehört zu diesem Bild.", mittel:"Ignatia amara" },
     { typ:5, vorstellung:"Wildnis zu sein, allein in der", deutung:"Wer sich zurückzieht, um sicher zu sein, kann sich zuletzt mutterseelenallein erleben: ganz auf sich gestellt, ohne Verbindung. Die Vorstellung kreist um Selbsterhaltung und Isolation. Nach Auskunft des Autors ist sie eine Single-Rubrik: Sie findet sich in der Repertoriumssprache nur bei diesem einen Mittel.", mittel:"Stramonium" },
     { typ:6, vorstellung:"hinrichten wollen, Menschen würden sie/ihn", deutung:"Wer die Welt auf Gefahren absucht, kann die Bedrohung ins Äußerste steigern: Man will mich vernichten. Die Vorstellung kreist um Verfolgung, Misstrauen und die Angst vor dem Urteil der anderen.", mittel:"Opium" },
-    { typ:7, vorstellung:"gefangen genommen werden, würde", deutung:"Wer Freiheit und Vielfalt braucht, kann die Einengung als Gefangenschaft erleben: Ich werde festgesetzt, ich komme nicht mehr heraus. Die Vorstellung kreist um Verlust der Beweglichkeit und die Angst vor dem Schmerz, den die Freiheit fernhalten sollte.", mittel:"Belladonna" },
+    { typ:7, vorstellung:"gefangen genommen werden, würde", deutung:"Wer Freiheit und Vielfalt braucht, kann die Einengung als Gefangenschaft erleben: Ich werde festgesetzt, ich komme nicht mehr heraus. Die Vorstellung kreist um Verlust der Beweglichkeit und die Angst vor dem Schmerz, den die Freiheit fernhalten sollte.", mittel:"Belladonna", rubrik:"In dieser Rubrik stehen nach dem Repertorium des Autors nur drei Mittel: Belladonna, Germanium metallicum und Stramonium." },
     { typ:8, vorstellung:"Prinz, sei ein", deutung:"Wer Stärke und Gerechtigkeit verkörpert, kann sich in eine herrscherliche Rolle hineinsteigern: Ich bin der, dem Rang und Respekt zustehen. Die Vorstellung kreist um Macht, Würde und den Schutz des Eigenen.", mittel:"Veratrum album" },
-    { typ:9, vorstellung:"Gnom, Wicht, sei ein", deutung:"Wer sich klein macht, um Frieden zu halten, kann sich als winzig und unbedeutend erleben: Ich bin ein Wicht, der nicht zählt. Die Vorstellung kreist um Unwichtigkeit und die Sehnsucht, nicht zur Last zu fallen.", mittel:"Cannabis indica" },
+    { typ:9, vorstellung:"Gnom, Wicht, sei ein", deutung:"Wer sich klein macht, um Frieden zu halten, kann sich als winzig und unbedeutend erleben: Ich bin ein Wicht, der nicht zählt. Die Vorstellung kreist um Unwichtigkeit und die Sehnsucht, nicht zur Last zu fallen.", mittel:"Cannabis indica", rubrik:"In dieser Rubrik steht nach dem Repertorium des Autors nur ein einziges Mittel: Cannabis indica." },
   ];
   return shell(`
     ${pageHeader("nicht-reale-vorstellungen")}
@@ -60757,6 +60757,7 @@ function nichtRealeVorstellungenPage() {
               <div style="font-size:0.88rem;line-height:1.6;display:grid;gap:0.4rem;">
                 <div><span style="font-weight:700;color:var(--muted);">Repertoriums-Vorstellung:</span> <em>${r.vorstellung}</em></div>
                 <div><span style="font-weight:700;color:var(--muted);">Deutung:</span> ${r.deutung}</div>
+                ${r.rubrik ? `<div><span style="font-weight:700;color:var(--muted);">Rubrik:</span> ${r.rubrik}</div>` : ""}
                 <div style="font-size:0.78rem;color:var(--muted);">Zugeordnetes Mittel in der Enneagramm-Homöopathie dieses Kompasses: ${r.mittel}</div>
               </div>
             </div>
@@ -60764,11 +60765,16 @@ function nichtRealeVorstellungenPage() {
         </div>
 
         <h2 style="font-size:1.05rem;font-weight:700;margin:2rem 0 1rem;color:var(--ink);">Wie sich das Bild in Lebensläufen zeigt</h2>
-        <p class="vb-intro">Am Typ 5 lässt sich das gut nachlesen: Das Bild der Wildnis begegnet einem in den Lebensfäden von <a href="#beruehmte-juliane-koepcke">Juliane Koepcke</a>, <a href="#beruehmte-jean-jacques-rousseau">Jean-Jacques Rousseau</a>, <a href="#beruehmte-hermann-hesse">Hermann Hesse</a>, <a href="#beruehmte-edward-snowden">Edward Snowden</a>, <a href="#beruehmte-hannah-arendt">Hannah Arendt</a>, <a href="#beruehmte-lise-meitner">Lise Meitner</a>, <a href="#beruehmte-blaise-pascal">Blaise Pascal</a> und <a href="#beruehmte-franz-kafka">Franz Kafka</a>. Nach der Beobachtung des Autors zeigt sich dieses Erleben am reinsten beim selbsterhaltenden Fünfer, bei dem es um die pure Selbsterhaltung geht.</p>
+        <p class="vb-intro">In den Porträts der Berühmten Persönlichkeiten lässt sich nachlesen, wie die Hauptvorstellung eines Typs im Lebensfaden wiederkehrt, äußerlich in Ereignissen, innerlich in einem Lebensthema. Nach der Beobachtung des Autors zeigt sich das Bild der Wildnis am reinsten beim selbsterhaltenden Fünfer, bei dem es um die pure Selbsterhaltung geht. Bisher stehen Abschnitte zu diesen Porträts:</p>
+        <ul style="margin:0.6rem 0 0.6rem 1.1rem;line-height:1.8;"><li><strong>Typ 2:</strong> <a href="#beruehmte-jesus-christus">Jesus Christus</a>, <a href="#beruehmte-elvis-presley">Elvis Presley</a></li><li><strong>Typ 3:</strong> <a href="#beruehmte-harry-houdini">Harry Houdini</a>, <a href="#beruehmte-william-shakespeare">William Shakespeare</a></li><li><strong>Typ 4:</strong> <a href="#beruehmte-leonard-cohen">Leonard Cohen</a>, <a href="#beruehmte-hippokrates-von-kos">Hippokrates von Kos</a></li><li><strong>Typ 5:</strong> <a href="#beruehmte-juliane-koepcke">Juliane Koepcke</a>, <a href="#beruehmte-jean-jacques-rousseau">Jean-Jacques Rousseau</a>, <a href="#beruehmte-hermann-hesse">Hermann Hesse</a>, <a href="#beruehmte-edward-snowden">Edward Snowden</a>, <a href="#beruehmte-hannah-arendt">Hannah Arendt</a>, <a href="#beruehmte-lise-meitner">Lise Meitner</a>, <a href="#beruehmte-blaise-pascal">Blaise Pascal</a>, <a href="#beruehmte-franz-kafka">Franz Kafka</a></li><li><strong>Typ 6:</strong> <a href="#beruehmte-fjodor-dostojewski">Fjodor Dostojewski</a></li><li><strong>Typ 7:</strong> <a href="#beruehmte-jeanne-marie-guyon">Madame Guyon</a></li><li><strong>Typ 9:</strong> <a href="#beruehmte-eleanor-roosevelt">Eleanor Roosevelt</a></li></ul>
+        <p class="vb-intro">Für die Typen 1 und 8 folgen weitere Porträts.</p>
 
         <p class="vb-anmerkung" style="margin-top:1rem;font-style:italic;">Wichtig für das Verständnis: Die Deutungen sind Angebote des Autors, das Schaubild stellt keine Diagnose und keine Therapieempfehlung dar und trifft keine Aussage zu Wirkung oder Heilung. Ein Mensch hat eine Fixierung und damit auch eine Hauptvorstellung, er ist nicht seine Vorstellung. Wer sich in einem Bild wiedererkennt, kann es als Hinweis auf den eigenen Filter lesen. Die Seite ersetzt keine ärztliche oder heilkundliche Beratung.</p>
       </div>
 
+      ${bookTip("rathmer-s-repertorium-gebundene-ausgabe", "Das weltweit umfangreichste homöopathische Gemütsrepertorium – 1568 Seiten, 20.000 Rubriken.", "Rathmer’s Repertorium")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("der-code-deiner-persoenlichkeit", "Wie der Enneagrammtyp entsteht – und was er über unsere tiefsten Prägungen verrät.", "Der Code deiner Persönlichkeit")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${relatedLinks([
         {route:"enneagramm-homoeopathie", label:"Enneagramm & Homöopathie"},
