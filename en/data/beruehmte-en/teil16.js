@@ -3628,7 +3628,7 @@ export function eleanorRooseveltPortraitPage() {
         <h2 class="vb-section">7. A thought from homeopathy: the image of the wight</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 9 is assigned the remedy Cannabis indica (Indian hemp) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). In the language of the repertory its main idea includes the idea of being a gnome or a wight. In Eleanor Roosevelt the image meets one in her childhood: she lost her mother and father early, grew up with her grandmother, and her mother called her &lsquo;Granny&rsquo; because of her serious nature. As a child she experienced herself as plain and small.</p>
-          <p class="vb-intro">Kent&rsquo;s Repertory has no rubric of the same wording. It is a juxtaposition of two similar images, nothing more. The text says nothing about health, recommends nothing and does not replace medical or therapeutic advice.</p>
+          <p class="vb-intro">Kent&rsquo;s Repertory has no rubric of the same wording. According to the author the idea &ldquo;gnome, wight&rdquo; goes back to Edward C. Whitmont (&ldquo;Psyche and Substance&rdquo;, 1980). It is a juxtaposition of two similar images, nothing more. The text says nothing about health, recommends nothing and does not replace medical or therapeutic advice.</p>
         </blockquote>
 
 
