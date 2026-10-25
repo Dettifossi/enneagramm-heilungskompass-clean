@@ -3073,3 +3073,72 @@ export function franziskaVanAlmsickPortraitPage() {
     </div>
   `);
 }
+
+export function happyAndersonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-happy-anderson-portrait.jpg" alt="Happy Anderson – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Happy Anderson</p>
+        <p class="krim-portrait-typ">SE9w8 &middot; Selbsterhaltender Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Schauspieler (Film, Fernsehen, Broadway), geb. in High Falls, New York &ndash; Tierentsprechung: Elefant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Elefant: einer, der erst einmal Raum schafft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Elefant</strong> tritt selten auf, um aufzufallen: Er füllt den Raum, und die anderen ordnen sich um ihn. Eric ›Happy‹ Anderson stammt aus High Falls im Bundesstaat New York und besuchte dort die Rondout Valley High School (Abschluss 1995). Er studierte Schauspiel am Ithaca College (Bachelor 1999) und an der Indiana University Bloomington (Master 2002), zog 2003 nach New York City und baute sich von dort eine Laufbahn auf.</p>
+          <p class="vb-intro">Auffällig an diesem Weg ist seine Gründlichkeit: Er ging über ein volles Schauspielstudium mit Bachelor und Master und zog erst danach nach New York. Sein Weg war nach den Angaben kein Sprung, sondern ein langer, beharrlicher Aufbau.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Neun: Beständigkeit statt Aufsehen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo beschrieb die selbsterhaltende Neun als Subtyp des <em>Appetit</em>: Sie sucht Sicherheit im Konkreten, in verlässlichen Gewohnheiten, Genuss und gleichmäßiger Arbeit. Bei Anderson passt dazu die Breite und Stetigkeit seiner Laufbahn: Er spielte im Fernsehen, im Kino, auf dem Broadway und lieh seine Stimme Videospielen, darunter ›Max Payne 3‹, ›Grand Theft Auto V‹ und ›Red Dead Redemption 2‹ (kleinere Rollen) und Davor Gorski in ›Saint Kotar: The Yellow Mask‹ (2020).</p>
+          <p class="vb-intro">Auf der Bühne arbeitete er unter anderem bei Shakespeare in the Park (2010, ›Der Kaufmann von Venedig‹ und ›Das Wintermärchen‹), in einer Broadway-Inszenierung von ›Der Kaufmann von Venedig‹ unter der Regie von Daniel J. Sullivan, am Old Globe Theatre (2012), am Public Theater (›The Twenty-Seventh Man‹, 2013) und bei der Shakespeare Theatre Company (›Wie es euch gefällt‹, 2014). Wer so viele Jahre am Theater verbringt, lernt, zuverlässig zu liefern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Wucht unter der freundlichen Oberfläche</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der Neun Gewicht, Direktheit und eine Kraft, die bei Bedarf hervortritt. Mit dem Achterflügel lässt sich in Verbindung bringen, dass mehrere seiner Rollen etwas Düsteres tragen. Am bekanntesten ist Jerry Brudos in der Netflix-Serie ›Mindhunter‹ (2017), ein realer Serienmörder, den er darstellte. Er nahm die Rolle 2025 in ›Monster: The Ed Gein Story‹ wieder auf. Zur Neun passt, dass Spannung bei ihr eher unter der Oberfläche gehalten als ausgestellt wird.</p>
+          <p class="vb-intro">Weitere Rollen zeigen die Spannweite: Mr. James ›Jimmy‹ Fester in ›The Knick‹ (2014&ndash;2015), Hildebrandt Ulysses Montehugh in ›Bright‹ (2017), der River Man in ›Bird Box‹ (2018), Bobby Navarro in ›The Blacklist‹ (2017&ndash;2018), Donny in ›The Tick‹ (2019), Reverend Craig in ›The New Mutants‹ (2020), Jenkins in ›Bad Boys for Life‹ (2020), Dr. Henry Klimpt in ›Snowpiercer‹ und Big Jack in ›The Bikeriders‹ (2023).</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Der Charakterdarsteller</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Anderson gehört zu den Schauspielern, die man als Gesicht kennt, bevor man den Namen weiß. Er ist kein Star im klassischen Sinn, sondern ein Charakterdarsteller, der in vielen Produktionen eine Figur mit einem eigenen Gewicht gibt. Das ist die Stärke der selbsterhaltenden Neun: Sie sichert sich ihren Platz über Verlässlichkeit, nicht über Lautstärke. Privat ist über ihn wenig bekannt. Nach Wikipedia ist er seit 2011 verheiratet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp und Flügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dieselbe Verbindung aus ruhiger Fülle und Kraft darunter zeigt der Schauspieler <a href="#beruehmte-robbie-coltrane">Robbie Coltrane (SE9w8)</a>, der als Hagrid und als Dr. Fitz Wärme und Schärfe vereinte. Auch <a href="#beruehmte-charles-laughton">Charles Laughton (SE9w8)</a>, <a href="#beruehmte-dietmar-baer">Dietmar Bär (SE9w8)</a> und <a href="#beruehmte-kevin-james">Kevin James (SE9w8)</a> stehen für diesen Subtyp mit Achterflügel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Stark an Anderson ist die Verlässlichkeit, mit der er auch kleine Rollen füllt, und eine Gelassenheit, die Spannung trägt. Der Schatten der Neun liegt darin, dass die eigene Stimme hinter dem Dienst an der Rolle zurücktreten kann. Der Achterflügel kann diese Zurückhaltung in Härte kippen lassen, im Spiel sichtbar, privat nicht belegt. Eigene Aussagen zu seinem Selbstbild sind kaum überliefert, und das Porträt erfindet keine.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Der Heilungsweg: von der Rolle zur eigenen Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Weg der Neun führt vom Aufgehen in dem, was gebraucht wird, zum Wissen um das Eigene. Dass Anderson seine Laufbahn zwischen Bühne, Film und Stimme verteilt und nach Jahrzehnten Hauptfiguren spielt, die ihm Gewicht geben, kann man als Schritt in diese Richtung lesen. Es bleibt ein Hinweis, kein Beleg.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
+        {route:"beruehmte-robbie-coltrane", label:"Porträt: Robbie Coltrane (SE9w8)"},
+        {route:"beruehmte-charles-laughton", label:"Porträt: Charles Laughton (SE9w8)"},
+        {route:"beruehmte-dietmar-baer", label:"Porträt: Dietmar Bär (SE9w8)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}

@@ -3023,3 +3023,72 @@ export function danielleVasinovaPortraitPage() {
     </div>
   `);
 }
+
+export function happyAndersonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-happy-anderson-portrait.jpg" alt="Happy Anderson – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Happy Anderson</p>
+        <p class="krim-portrait-typ">SP9w8 &middot; Self-Preservation Type 9 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">American actor (film, television, Broadway), born in High Falls, New York &ndash; Animal correspondence: Elephant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Elephant: one who first makes room</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Elephant</strong> seldom appears in order to be noticed: it fills the space, and the others arrange themselves around it. Eric &lsquo;Happy&rsquo; Anderson comes from High Falls in the state of New York and attended Rondout Valley High School there (graduating in 1995). He studied acting at Ithaca College (BFA 1999) and Indiana University Bloomington (MFA 2002), moved to New York City in 2003 and built his career from there.</p>
+          <p class="vb-intro">Striking about this path is its thoroughness: he went through a full acting education with bachelor&rsquo;s and master&rsquo;s degrees and moved to New York only afterwards. According to the sources his career was no leap but a long, persistent build-up.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Nine: constancy instead of attention</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo described the self-preservation Nine as the subtype of <em>Appetite</em>: it seeks security in the concrete, in reliable habits, enjoyment and steady work. In Anderson this fits the breadth and steadiness of his career: he worked in television, in cinema, on Broadway and lent his voice to video games, among them &lsquo;Max Payne 3&rsquo;, &lsquo;Grand Theft Auto V&rsquo; and &lsquo;Red Dead Redemption 2&rsquo; (smaller roles) and Davor Gorski in &lsquo;Saint Kotar: The Yellow Mask&rsquo; (2020).</p>
+          <p class="vb-intro">On stage he worked, among others, at Shakespeare in the Park (2010, &lsquo;The Merchant of Venice&rsquo; and &lsquo;The Winter&rsquo;s Tale&rsquo;), in a Broadway production of &lsquo;The Merchant of Venice&rsquo; directed by Daniel J. Sullivan, at the Old Globe Theatre (2012), at The Public Theater (&lsquo;The Twenty-Seventh Man&rsquo;, 2013) and at the Shakespeare Theatre Company (&lsquo;As You Like It&rsquo;, 2014). Whoever spends so many years in the theatre learns to deliver reliably.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-wing: weight under the friendly surface</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Nine weight, directness and a strength that comes forward when needed. With the Eight-wing it can be connected that several of his roles carry something dark. Best known is Jerry Brudos in the Netflix series &lsquo;Mindhunter&rsquo; (2017), a real serial killer whom he portrayed. He took up the role again in &lsquo;Monster: The Ed Gein Story&rsquo; in 2025. It fits the Nine that tension is held beneath the surface rather than displayed.</p>
+          <p class="vb-intro">Other roles show the range: Mr. James &lsquo;Jimmy&rsquo; Fester in &lsquo;The Knick&rsquo; (2014&ndash;2015), Hildebrandt Ulysses Montehugh in &lsquo;Bright&rsquo; (2017), the River Man in &lsquo;Bird Box&rsquo; (2018), Bobby Navarro in &lsquo;The Blacklist&rsquo; (2017&ndash;2018), Donny in &lsquo;The Tick&rsquo; (2019), Reverend Craig in &lsquo;The New Mutants&rsquo; (2020), Jenkins in &lsquo;Bad Boys for Life&rsquo; (2020), Dr. Henry Klimpt in &lsquo;Snowpiercer&rsquo; and Big Jack in &lsquo;The Bikeriders&rsquo; (2023).</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the character actor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Anderson belongs to the actors one knows as a face before one knows the name. He is no star in the classical sense but a character actor who gives a figure weight of its own in many productions. That is the strength of the self-preservation Nine: she secures her place through reliability, not through volume. Little is known about him privately. According to Wikipedia he has been married since 2011.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. A parallel in the same subtype and wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The same combination of calm fullness and strength beneath is shown by the actor <a href="#beruehmte-robbie-coltrane">Robbie Coltrane (SP9w8)</a>, who united warmth and sharpness as Hagrid and as Dr Fitz. <a href="#beruehmte-charles-laughton">Charles Laughton (SP9w8)</a>, <a href="#beruehmte-dietmar-baer">Dietmar Bär (SP9w8)</a> and <a href="#beruehmte-kevin-james">Kevin James (SP9w8)</a> also stand for this subtype with Eight-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Strong in Anderson is the reliability with which he fills even small roles, and a composure that carries tension. The shadow of the Nine lies in the fact that one&rsquo;s own voice can recede behind service to the role. The Eight-wing can let this restraint tip into hardness, visible in the acting, not documented privately. Few statements of his own about his self-image have been handed down, and the portrait invents none.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The path of healing: from the role to one&rsquo;s own voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The path of the Nine leads from dissolving into what is needed to knowing what is one&rsquo;s own. That Anderson spreads his career between stage, film and voice and after decades plays main figures that give him weight can be read as a step in this direction. It remains a hint, not proof.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se9", label:"SP9 – The Elephant: Subtype Profile"},
+        {route:"beruehmte-robbie-coltrane", label:"Portrait: Robbie Coltrane (SP9w8)"},
+        {route:"beruehmte-charles-laughton", label:"Portrait: Charles Laughton (SP9w8)"},
+        {route:"beruehmte-dietmar-baer", label:"Portrait: Dietmar Bär (SP9w8)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}

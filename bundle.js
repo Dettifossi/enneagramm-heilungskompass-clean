@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=402";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=403";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -92,6 +92,7 @@ const joeVitalePortraitPage = () => _lazyPage("./data/beruehmte-de/teil15.js", "
 const klausMariaBrandauerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil7.js", "klausMariaBrandauerPortraitPage");
 const rosalieThomassPortraitPage = () => _lazyPage("./data/beruehmte-de/teil11.js", "rosalieThomassPortraitPage");
 const robbieColtranePortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "robbieColtranePortraitPage");
+const happyAndersonPortraitPage = () => _lazyPage("./data/beruehmte-de/teil2.js", "happyAndersonPortraitPage");
 const ruthBaderGinsburgPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "ruthBaderGinsburgPortraitPage");
 const stephenHawkingPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "stephenHawkingPortraitPage");
 const suzanLoriParksPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "suzanLoriParksPortraitPage");
@@ -27669,6 +27670,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Robbie Coltrane \u2013 Selbsterhaltender Typ 9",
     teaser:"SE9w8 \u00b7 1950\u20132022. Schottischer Schauspieler und Komiker (Hagrid in \u203aHarry Potter\u2039, \u203aCracker\u2039, Zukovsky in \u203aGoldenEye\u2039). Der Elefant mit dem leisen Humor und der Kraft darunter.",
     land:"Gro\u00dfbritannien", tags:["Schauspiel"], gender:"m"},
+  { route:"beruehmte-happy-anderson", name:"Happy Anderson", added:"2026-10-26", subtyp:"SE9w8",
+    heading:"Happy Anderson \u2013 Selbsterhaltender Typ 9",
+    teaser:"SE9w8 \u00b7 US-amerikanischer Schauspieler aus High Falls, New York (\u203aMindhunter\u2039, \u203aThe Knick\u2039, Broadway). Der Elefant, der als Charakterdarsteller \u00fcber Verl\u00e4sslichkeit seinen Platz gefunden hat.",
+    land:"USA", tags:["Schauspiel"], gender:"m"},
   { route:"beruehmte-christoph-waltz", name:"Christoph Waltz", subtyp:"SE1w2",
     heading:"Christoph Waltz \u2013 Selbsterhaltender Typ 1",
     teaser:"SE1w2 \u00b7 \u201eDer Adler\u201c, geb. 1956. Zweifacher Oscar-Preistr\u00e4ger f\u00fcr Inglourious Basterds und Django Unchained. F\u00fcnfzig Jahre Handwerk, ein ganzes Leben lang innere Pr\u00e4zision \u2013 dann der Moment, auf den der Adler gewartet hatte. Tierentsprechung: Adler.",
@@ -66835,6 +66840,7 @@ const ROUTES = {
       "beruehmte-klaus-maria-brandauer": klausMariaBrandauerPortraitPage,
       "beruehmte-rosalie-thomass": rosalieThomassPortraitPage,
       "beruehmte-robbie-coltrane": robbieColtranePortraitPage,
+      "beruehmte-happy-anderson": happyAndersonPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,
       "beruehmte-arnold-schwarzenegger": arnoldSchwarzeneggerPortraitPage, "beruehmte-sigourney-weaver": sigourneyWeaverPortraitPage, "beruehmte-jessica-biel": jessicaBielPortraitPage, "beruehmte-justin-timberlake": justinTimberlakePortraitPage, "beruehmte-nico-rosberg": nicoRosbergPortraitPage, "beruehmte-lewis-hamilton": lewisHamiltonPortraitPage, "beruehmte-niki-lauda": nikiLaudaPortraitPage, "beruehmte-johannes-gutenberg": johannesGutenbergPortraitPage, "beruehmte-konrad-zuse": konradZusePortraitPage, "beruehmte-javier-tebas": javierTebasPortraitPage, "beruehmte-philippe-sands": philippeSandsPortraitPage, "beruehmte-sean-sherman": seanShermanPortraitPage, "beruehmte-billie-lourd": billieLourdPortraitPage, "beruehmte-ruby-true": rubyTruePortraitPage, "beruehmte-caroline-wozniacki": carolineWozniackiPortraitPage, "beruehmte-kennerly-kitt": kennerlyKittPortraitPage, "beruehmte-camille-kitt": camilleKittPortraitPage, "beruehmte-werner-ablass": wernerAblassPortraitPage, "beruehmte-hubert-benoit": hubertBenoitPortraitPage, "beruehmte-eleanor-roosevelt": eleanorRooseveltPortraitPage, "beruehmte-bruno-groening": brunoGroeningPortraitPage, "beruehmte-joel-goldsmith": joelGoldsmithPortraitPage, "beruehmte-maria-treben": mariaTrebenPortraitPage, "beruehmte-susan-polgar": susanPolgarPortraitPage, "beruehmte-jens-riewa": jensRiewaPortraitPage, "beruehmte-marleen-lohse": marleenLohsePortraitPage, "beruehmte-andrea-sawatzki": andreaSawatzkiPortraitPage, "beruehmte-senta-berger": sentaBergerPortraitPage, "beruehmte-robert-greene": robertGreenePortraitPage, "beruehmte-sofia-polgar": sofiaPolgarPortraitPage, "beruehmte-dieter-thomas-heck": dieterThomasHeckPortraitPage, "beruehmte-ramana-maharshi": ramanaMaharshiPortraitPage, "beruehmte-luke-nichols": lukeNicholsPortraitPage, "beruehmte-matthias-reim": matthiasReimPortraitPage,

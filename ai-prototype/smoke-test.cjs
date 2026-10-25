@@ -225,6 +225,8 @@ const ROUTES = [
   { hash: "en/#claudio-naranjo-lehrer", label: "Neu EN: Claudio Naranjo Lehrer" },
   { hash: "#david-rathmer-gespraech", label: "David Rathmer Gespräch" },
   { hash: "en/#david-rathmer-gespraech", label: "EN David Rathmer conversation" },
+  { hash: "#beruehmte-happy-anderson", label: "Neues Porträt: Happy Anderson" },
+  { hash: "en/#beruehmte-happy-anderson", label: "Neues EN-Porträt: Happy Anderson" },
   { hash: "#beruehmte-robbie-coltrane", label: "Neues Porträt: Robbie Coltrane" },
   { hash: "en/#beruehmte-robbie-coltrane", label: "Neues EN-Porträt: Robbie Coltrane" },
   { hash: "#beruehmte-rosalie-thomass", label: "Neues Porträt: Rosalie Thomass" },
