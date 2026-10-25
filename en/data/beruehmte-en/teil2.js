@@ -115,7 +115,7 @@ export function gordonRamsayPortraitPage() {
         <h2 class="vb-section">6. The Legacy: The Peacock Who Turned His Wound Into a Stage</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Gordon Ramsay represents a rare combination: professionally grounded fine dining that became familiar to a mass audience through media volume, without losing its underlying substance. Unlike many TV chefs whose training takes a back seat to camera presence, Ramsay's classical craft remains visible at every turn – the confrontation is an expression of genuine standards, not a substitute for them.</p>
-          <p class="vb-intro">From a boy with a shattered football dream and a violence-marked childhood to the loud face of international fine dining: this is the sexual Three with a Four wing at its most public – intensity that never stops carrying its own wound along, rather than hiding it behind a polished facade.</p>
+          <p class="vb-intro">From a boy with a shattered football dream and a violence-marked childhood to the loud face of international fine dining: here we see the sexual Three with a Four wing at its most public – intensity that never stops carrying its own wound along, rather than hiding it behind a polished facade.</p>
         </blockquote>
 
       </div>
@@ -710,7 +710,7 @@ export function abidaParveenPortraitPage() {
         <h2 class="vb-section">6. The Elephant That Sinks Into Trance and Carries Everyone Along</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The healing path of the Nine leads from inertia to genuine, active presence &ndash; from self-forgetting in the everyday to a conscious dissolving into something larger than one's own self. In Abida Parveen, exactly this path has become an artistic principle: she does not forget herself on stage out of passivity, but out of a practised, decades-deepened spiritual surrender.</p>
-          <p class="vb-intro">When Parveen sings, the boundary between performer and audience dissolves, as does the boundary between this world and what the Sufi poets spoke of. That is the SP9w8 at its most mature: the elephant that seemingly sinks motionless into itself &ndash; and precisely through that sets everyone else into motion.</p>
+          <p class="vb-intro">When Parveen sings, the boundary between performer and audience dissolves, as does the boundary between this world and what the Sufi poets spoke of. This shows the SP9w8 at its most mature: the elephant that seemingly sinks motionless into itself &ndash; and precisely through that sets everyone else into motion.</p>
         </blockquote>
 
       </div>
@@ -841,7 +841,7 @@ export function beatriceChebetPortraitPage() {
         <h2 class="vb-section">5. The Healing Path: Trust Your Own Step</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The healing path of the Six leads from the question <em>Am I safe enough to start running?</em> to the recognition <em>Safety itself arises in the running.</em> For the SP6w7 this means trusting one's own body, one's own rhythm, one's own strength &ndash; not because everything is guaranteed, but because experience shows: I arrive. I endure. I get faster when it matters.</p>
-          <p class="vb-intro">Beatrice Chebet has proven this trust on the world's biggest stage &ndash; twice, within a few days, in Paris. The rabbit that does not flee the course, but finds its way home on it. That is the SP6w7 on its healing path: not running despite the fear &ndash; but running long enough until the fear no longer matters.</p>
+          <p class="vb-intro">Beatrice Chebet has proven this trust on the world's biggest stage &ndash; twice, within a few days, in Paris. The rabbit that does not flee the course, but finds its way home on it. Here you can see the SP6w7 on its healing path: not running despite the fear &ndash; but running long enough until the fear no longer matters.</p>
         </blockquote>
 
       </div>
@@ -891,7 +891,7 @@ export function camilleFritschPortraitPage() {
         <h2 class="vb-section">3. The One-Wing: Scientific Rigor as Foundation</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">An SP2 with a more pronounced Three-wing would likely have staged its helpfulness more visibly, with a focus on public recognition and success. In Fritsch, a serious methodological rigor shows instead: he is an active member of the <em>IUCN SSC Hippo Specialist Group</em>, uses drone technology and radio tracking to gather precise ecological and behavioral data, and studies the role of hippos as ecosystem engineers both in water and on land.</p>
-          <p class="vb-intro">This combination of warm, personal closeness and scientific precision is the SP2w1 in its characteristic form: the Two supplies the motivation to serve others &ndash; people and animals alike; the One-wing ensures that this help is methodically grounded rather than merely well-intentioned.</p>
+          <p class="vb-intro">This combination of warm, personal closeness and scientific precision shows the SP2w1 in its characteristic form: the Two supplies the motivation to serve others &ndash; people and animals alike; the One-wing ensures that this help is methodically grounded rather than merely well-intentioned.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Relationship Over Solo Achievement: The Network as Research Principle</h2>
@@ -953,7 +953,7 @@ export function claudeDebussyPortraitPage() {
         <h2 class="vb-section">3. The Five-wing: The Sound Researcher</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the sexual Four the analytical lens, the hunger for understanding, the ability not just to feel one&#39;s own experience but to penetrate it down to its smallest components. In Debussy this showed as an almost scientific engagement with sound itself: whole-tone scales, parallel fifths, unresolved chords, tone colors he mixed like a chemist.</p>
-          <p class="vb-intro">Decisive was the 1889 Paris World&#39;s Fair, where Debussy first heard a Javanese gamelan orchestra &ndash; music without Western harmony, built on layers of sound rather than resolution. He sat before it for hours, took notes, studied, let an utterly foreign tonal world rewrite him. That is the Five-wing at its purest: not merely being moved, but wanting to understand until the foreign logic can be translated into one&#39;s own language.</p>
+          <p class="vb-intro">Decisive was the 1889 Paris World&#39;s Fair, where Debussy first heard a Javanese gamelan orchestra &ndash; music without Western harmony, built on layers of sound rather than resolution. He sat before it for hours, took notes, studied, let an utterly foreign tonal world rewrite him. Here we see the Five-wing at its purest: not merely being moved, but wanting to understand until the foreign logic can be translated into one&#39;s own language.</p>
           <p class="vb-intro">His piano cycle <em>Préludes</em>, the string quartet, and above all <em>Prélude à l&#39;après-midi d&#39;un faune</em> (1894) &ndash; which Debussy himself called the beginning of modern music &ndash; are the result of years of this research: music that floats instead of resolving, that suggests instead of asserting. The Five-wing turned the SX4&#39;s rivalry into a craft of unmatched precision.</p>
         </blockquote>
 
@@ -973,7 +973,7 @@ export function claudeDebussyPortraitPage() {
         <h2 class="vb-section">6. The Chihuahua Who Trusted Sound</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The healing path of the Four leads from the question <em>Why am I not like the others?</em> to the insight <em>What I hear is true &ndash; and it is mine to show.</em> For the SX4w5 this means treating his rivalry against convention not as a flaw, but as a compass leading toward something that did not exist before.</p>
-          <p class="vb-intro">Debussy died in 1918 of cancer, as Paris was under German artillery fire &ndash; one of his last public appearances was a concert under wartime conditions, at which he refused to let the circumstances dictate his own music. The Chihuahua from Saint-Germain-en-Laye did not make music louder to be heard &ndash; he taught it to float, to shimmer, to suggest. That is the sexual Four with a Five-wing. That is Claude Debussy.</p>
+          <p class="vb-intro">Debussy died in 1918 of cancer, as Paris was under German artillery fire &ndash; one of his last public appearances was a concert under wartime conditions, at which he refused to let the circumstances dictate his own music. The Chihuahua from Saint-Germain-en-Laye did not make music louder to be heard &ndash; he taught it to float, to shimmer, to suggest. This shows the sexual Four with a Five-wing. That is Claude Debussy.</p>
         </blockquote>
 
         <p class="vb-intro">The almost nine-year colorectal cancer illness that Debussy kept largely private during the First World War is explored in full in the separate <a href="javascript:void(0)" data-route="krankheitsportraets-claude-debussy">illness portrait on Debussy</a>.</p>
@@ -1022,7 +1022,7 @@ export function dianFosseyPortraitPage() {
         <h2 class="vb-section">2. The self-preservation Seven: Security in a self-chosen territory</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">According to Naranjo, the self-preservation Seven (SP7) is the most grounded of the three Seven subtypes – no restless wanderlust, no need for a public stage, but the need to create a reliable microcosm of one's own in which one is completely at home. Fossey deliberately chose extreme seclusion: she built the Karisoke Research Center in the Rwandan Virunga Mountains, far from any civilization, and stayed there for nearly two decades with only minimal human contact.</p>
-          <p class="vb-intro">Within this self-created framework, she built a firm, family-like structure – a team of loyal trackers and assistants, a familiarity with individual gorilla families grown over years, above all with the young male gorilla Digit, to whom she developed an extraordinarily close bond. This is the SP7 in its purest form: security not through public recognition, but through a self-controlled, familiar territory complete with its own "family".</p>
+          <p class="vb-intro">Within this self-created framework, she built a firm, family-like structure – a team of loyal trackers and assistants, a familiarity with individual gorilla families grown over years, above all with the young male gorilla Digit, to whom she developed an extraordinarily close bond. Here you can see the SP7 in its purest form: security not through public recognition, but through a self-controlled, familiar territory complete with its own "family".</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Eight wing: When defense becomes retribution</h2>
@@ -1040,7 +1040,7 @@ export function dianFosseyPortraitPage() {
         <h2 class="vb-section">5. A legacy that survived</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Fossey's book "Gorillas in the Mist" (1983) and the film adaptation of the same name made the threat to mountain gorillas known worldwide. The Karisoke Research Center she founded still exists today, as does the international conservation effort for mountain gorillas, built substantially on her pioneering work. The mountain gorilla population, which was close to extinction during her lifetime, has since slowly recovered.</p>
-          <p class="vb-intro">This is the SP7w8 at its most effective: out of a personal, almost obsessive need for a territory of her own, a legacy emerged that reaches far beyond her own lifetime.</p>
+          <p class="vb-intro">Here we see the SP7w8 at its most effective: out of a personal, almost obsessive need for a territory of her own, a legacy emerged that reaches far beyond her own lifetime.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Gorilla that defended its territory to the end</h2>
@@ -1091,14 +1091,14 @@ export function edwardSnowdenPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>sexual Five (SX5)</strong> is, according to Naranjo, the <strong>counter-type</strong> of the Five: the passion of avarice is least obvious here &ndash; because the sexual energy pulls the Five out of isolation and drives a search for deep, intense connection. Naranjo named this subtype <em>Trust</em>: the SX5 seeks the one bond that sustains everything &ndash; the person, the principle, the truth &ndash; to which it can open completely. For everyone else: spines.</p>
           <p class="vb-intro">For Snowden, this bond was not a person &ndash; it was a principle: the conviction that people have the right to know what is being done in their name. He worked for years as a systems engineer for the CIA and NSA, had access to information almost no one else saw &ndash; and he stayed silent. Until he could no longer. The SX5 does not hoard forever. When trust in a deeper truth is strong enough, it gives everything away &ndash; and accepts any price for doing so.</p>
-          <p class="vb-intro">Snowden has lived in Moscow since 2013. He risked his homeland, his family, his freedom. This is not calculation. This is the SX5 following its trust &ndash; to the last consequence.</p>
+          <p class="vb-intro">Snowden has lived in Moscow since 2013. He risked his homeland, his family, his freedom. This is not calculation. This shows the SX5 following its trust &ndash; to the last consequence.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Six-wing: Duty and Resistance</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Six-wing (w6)</strong> brings to the sexual Five a deep sense of duty and a watchful skepticism toward institutions. The SX5w6 does not follow the system blindly &ndash; it tests it. It asks: <em>Is what is being done here really what it claims to be? And if not &ndash; what do I owe?</em> The Six-wing&apos;s answer is not always courage. Often it is fear first. But sometimes &ndash; once the fear has been worked through &ndash; a sense of duty becomes action.</p>
-          <p class="vb-intro">Snowden describes in his autobiography <em>Permanent Record</em> how long he hesitated, how he hoped others would act, how he asked himself whether he was doing the right thing. That is the Six-wing: not the hero who knows no fear, but the person who is afraid &ndash; and acts anyway, because he cannot do otherwise. The doubt belongs to it. It is not a sign of weakness. It is proof that the decision was taken seriously.</p>
-          <p class="vb-intro">The Six-wing also explains Snowden&apos;s deep loyalty to the principles of the Constitution he had once sworn an oath to uphold. He did not break secrecy despite his oath &ndash; but because he believed the state had broken its oath. That is the SX5w6: loyalty to the principle, not to the institution.</p>
+          <p class="vb-intro">Snowden describes in his autobiography <em>Permanent Record</em> how long he hesitated, how he hoped others would act, how he asked himself whether he was doing the right thing. Here you can see the Six-wing: not the hero who knows no fear, but the person who is afraid &ndash; and acts anyway, because he cannot do otherwise. The doubt belongs to it. It is not a sign of weakness. It is proof that the decision was taken seriously.</p>
+          <p class="vb-intro">The Six-wing also explains Snowden&apos;s deep loyalty to the principles of the Constitution he had once sworn an oath to uphold. He did not break secrecy despite his oath &ndash; but because he believed the state had broken its oath. Here we see the SX5w6: loyalty to the principle, not to the institution.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow</h2>
@@ -1236,7 +1236,7 @@ export function ginaRinehartPortraitPage() {
         <h2 class="vb-section">3. The Eight wing: When persistence becomes a fight</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A Nine with a weaker Eight wing would tend to avoid conflict. In Rinehart's case, the strongly developed Eight wing brings something else: the willingness to fight for years, at full intensity, whenever control over the company is questioned. In 2011, three of her four children – John Hancock, Bianca Rinehart, and for a time Hope Welker – sued her over the Hope Margaret Hancock Trust, a family trust set up by her father in 1988 that was meant to pay out to them at age 25. Rinehart sought to delay the payout until 2068, citing tax disadvantages.</p>
-          <p class="vb-intro">The legal battle dragged on for years, was fought out publicly in full bitterness, and only ended with a settlement in 2015. This is the SP9w8 under pressure: the Nine might have avoided or sat out the conflict. The Eight wing instead pushed for control to the very end – even against her own children, even at the cost of years of public exposure.</p>
+          <p class="vb-intro">The legal battle dragged on for years, was fought out publicly in full bitterness, and only ended with a settlement in 2015. This shows the SP9w8 under pressure: the Nine might have avoided or sat out the conflict. The Eight wing instead pushed for control to the very end – even against her own children, even at the cost of years of public exposure.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Public confrontations: The portrait and the netball players</h2>
@@ -1434,7 +1434,7 @@ export function jenniferAnistonPortraitPage() {
 
         <h2 class="vb-section">4. The Pack: Solidarity Over Competition</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">A central chapter in Aniston's SX6 story is the salary negotiation of the <em>Friends</em> ensemble: rather than letting themselves be played off against one another, all six lead actors agreed to negotiate together and, in the end, earn the same &ndash; eventually one million dollars per episode, per person. This was extraordinary in Hollywood at the time. It is the SX6 in its most mature form: strength not deployed against the pack, but for it.</p>
+          <p class="vb-intro">A central chapter in Aniston's SX6 story is the salary negotiation of the <em>Friends</em> ensemble: rather than letting themselves be played off against one another, all six lead actors agreed to negotiate together and, in the end, earn the same &ndash; eventually one million dollars per episode, per person. This was extraordinary in Hollywood at the time. It shows the SX6 in its most mature form: strength not deployed against the pack, but for it.</p>
           <p class="vb-intro">This pack held together well beyond the show's end: the six cast members stayed closely connected, publicly reuniting for the 2021 reunion special. Loyalty across decades, without the individual careers suffering for it &ndash; that is the Wolf that knows the pack makes it stronger, not smaller.</p>
         </blockquote>
 
@@ -1587,7 +1587,7 @@ export function kevinCostnerPortraitPage() {
         <h2 class="vb-section">6. The Buffalo That Endures</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Kevin Costner is among the few actor-directors whose work carries a consistent worldview: America is not a location, but a promise. Belonging is not taken for granted, but earned. And the man who holds a community must be willing to step back himself. Not loud, not brilliant—but persistent. And deeper than one might suspect at first glance.</p>
-          <p class="vb-intro">That is the SO9w1 at its best: it does nothing for itself. It does everything for what it believes in. And sometimes—as in Dances with Wolves, as in Field of Dreams, as in Yellowstone—that is enough to create something that endures.</p>
+          <p class="vb-intro">Here you can see the SO9w1 at its best: it does nothing for itself. It does everything for what it believes in. And sometimes—as in Dances with Wolves, as in Field of Dreams, as in Yellowstone—that is enough to create something that endures.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
@@ -1640,7 +1640,7 @@ export function lenaMeyerLandrutPortraitPage() {
         <h2 class="vb-section">3. The Two Wing: Connection as a Matter of the Heart</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Two wing (w2) brings something decisive to the Three energy: a genuine joy in connection. The Two doesn't just want to be admired—it wants to be connected. In Lena Meyer-Landrut, this shows in the way she interacts with fans: not as a brand to consumers, but as a human to humans.</p>
-          <p class="vb-intro">She has spoken openly about her mental health crises—about depression, exhaustion, the moments when fame was not enough. That is no marketing strategy. That is the Two wing: the SX3w2 shares because it feels that real connection only arises through truthfulness, and because it hopes to help others who feel alone.</p>
+          <p class="vb-intro">She has spoken openly about her mental health crises—about depression, exhaustion, the moments when fame was not enough. That is no marketing strategy. Here we see the Two wing: the SX3w2 shares because it feels that real connection only arises through truthfulness, and because it hopes to help others who feel alone.</p>
           <p class="vb-intro">The SX3w2 doesn't just attract—it cares. This difference explains why Lena, after more than fifteen years in the spotlight, still has a fan base that takes her personally, not as a product.</p>
         </blockquote>
 
@@ -1660,7 +1660,7 @@ export function lenaMeyerLandrutPortraitPage() {
         <h2 class="vb-section">6. The Path to Healing: When Attraction Transforms into Authenticity</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The healing path of the Three leads from the question "How do I come across?" to the realization "I am independent of how I come across." For the SX3, this means: no longer needing to seduce, but being allowed to be connected. Attraction turns into authenticity. Charisma turns into character.</p>
-          <p class="vb-intro">Lena Meyer-Landrut has taken steps along this path in public: taking breaks, setting boundaries, speaking about inner exhaustion at a time when that was still a risk in show business, not a trend. That is the SX3w2 on her healing path: exchanging facade for depth, radiance for warmth, applause for genuine encounter.</p>
+          <p class="vb-intro">Lena Meyer-Landrut has taken steps along this path in public: taking breaks, setting boundaries, speaking about inner exhaustion at a time when that was still a risk in show business, not a trend. This shows the SX3w2 on her healing path: exchanging facade for depth, radiance for warmth, applause for genuine encounter.</p>
           <p class="vb-intro">The peacock that stops unfolding its fan because it thinks it has to—and discovers that it is loved just as it is. That is the most beautiful moment of this transformation.</p>
         </blockquote>
 
@@ -1730,7 +1730,7 @@ export function madameTussaudPortraitPage() {
         <h2 class="vb-section">6. The Gift: A Craft That Outlasted Its Time</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Madame Tussaud left the world cannot be reduced to a cabinet of curiosities. She created one of the most enduring institutions in popular culture &ndash; a museum that still draws millions of visitors annually in London and dozens of other cities, and a wax-sculpting art that was simultaneously historical document: her death masks from the French Revolution rank among the few immediate physical testimonies of that era that survive today.</p>
-          <p class="vb-intro">This is the SP3w4 at its farthest-reaching level: a woman whose need for material security merged with an unerring instinct for what truly fascinates people &ndash; beauty and horror, power and downfall, cast in wax and handed down to posterity. The raccoon with the Four-wing does not merely survive &ndash; it leaves behind a work that far outlasts its own lifetime.</p>
+          <p class="vb-intro">Here you can see the SP3w4 at its farthest-reaching level: a woman whose need for material security merged with an unerring instinct for what truly fascinates people &ndash; beauty and horror, power and downfall, cast in wax and handed down to posterity. The raccoon with the Four-wing does not merely survive &ndash; it leaves behind a work that far outlasts its own lifetime.</p>
         </blockquote>
 
       </div>
@@ -1939,7 +1939,7 @@ export function molierePortraitPage() {
         This is exactly the Six-wing: attack, yes, but covered, never fully exposed.</p>
         <p class="vb-intro"><strong>b) Persistence through variety, not stubbornness:</strong>
         Despite censorship and repeated performance bans, he never gave up – but he sidestepped,
-        revised, found new ways around the ban. This is the Seven-style agility, not a
+        revised, found new ways around the ban. Here we see the Seven-style agility, not a
         One-style stubborn insistence on the one right way.</p>
         <p class="vb-intro"><strong>c) The mask as self-protection:</strong>
         Again and again he played the central roles in his own plays – including Argan, the
@@ -2003,7 +2003,7 @@ export function molierePortraitPage() {
         <p class="vb-intro"><strong>c) When the Seven slides into her stress point – the One:</strong>
         This reveals an important pattern that applies to Illness Portraits in general:
         under years of chronic stress, types often move along their stress line toward
-        their stress point – for the Seven, that is the One. This is exactly why a first,
+        their stress point – for the Seven, this shows the One. This is exactly why a first,
         superficial look at Molière's late years so easily points toward &bdquo;One&ldquo;: the
         growing rigidity, the duty-bound perseverance at any cost, the inability to admit
         weakness, the moral seriousness with which he ran his work in the end. These are not
@@ -2549,7 +2549,7 @@ export function wallaceShawnPortraitPage() {
         <h2 class="vb-section">5. Light and Shadow: The Smallest Man in the Room</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SP7w6 is its capacity for joy without self-deception. Shawn can laugh while simultaneously knowing that laughter is not everything. He seeks pleasure, but does not escape into it. He is warm, present, curious—and holds serious convictions without forcing them onto others.</p>
-          <p class="vb-intro">The shadow: The SP7 tends to overestimate itself—not in the sense of arrogance, but in the sense of the Vizzini Problem: One's own analysis holds true until it no longer does. And then it is too late. Shawn has admitted in interviews that for years he barely believed he was a real artist—that he considered himself a dilettante who merely got lucky. That is the Six wing: the inner doubter whispering even in the finest hour.</p>
+          <p class="vb-intro">The shadow: The SP7 tends to overestimate itself—not in the sense of arrogance, but in the sense of the Vizzini Problem: One's own analysis holds true until it no longer does. And then it is too late. Shawn has admitted in interviews that for years he barely believed he was a real artist—that he considered himself a dilettante who merely got lucky. Here you can see the Six wing: the inner doubter whispering even in the finest hour.</p>
           <p class="vb-intro">And yet Shawn has left behind a body of work far more durable than most Hollywood careers. Vizzini fails because he thought the unthinkable was impossible. Shawn survives because he always considered the unthinkable possible—and pondered it thoroughly. That is what separates the thinker from the villain.</p>
         </blockquote>
 
@@ -2665,7 +2665,7 @@ export function jonahHillPortraitPage() {
         <h2 class="vb-section">2. The Social Six: Twenty Years on High Alert</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>social Six (SO6)</strong> seeks safety not in a private fortress but in the group's reliable network – becoming a constant lookout for dangers others may not yet have noticed. Hill has said he suffered from anxiety attacks for nearly two decades, intensified especially by public appearances and press events. In 2022 he announced he would stop actively promoting his upcoming films to protect his mental health – an unusually candid decision for a Hollywood star at the height of his success.</p>
-          <p class="vb-intro">This is the SO6 pattern in its purest form: the watchful concern is not just for one's own safety, but for how the public perceives one, how reliable one's place within the group really is. When fans kept commenting on his appearance in 2021, he publicly asked them to stop: "I want to politely let you know it's not helpful and doesn't feel good." No threat, no withdrawal – an appeal to the community to change the rules.</p>
+          <p class="vb-intro">Here we see the SO6 pattern in its purest form: the watchful concern is not just for one's own safety, but for how the public perceives one, how reliable one's place within the group really is. When fans kept commenting on his appearance in 2021, he publicly asked them to stop: "I want to politely let you know it's not helpful and doesn't feel good." No threat, no withdrawal – an appeal to the community to change the rules.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Seven Wing: The Lookout That Runs Ahead</h2>
@@ -2878,7 +2878,7 @@ export function bennySafdiePortraitPage() {
         <h2 class="vb-section">4. Stepping Out of the Shared Shadow: Asserting an Identity of His Own</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">For over a decade, Benny Safdie was publicly inseparable from his brother Josh &ndash; shared directing, shared editing, a shared name. With ›The Smashing Machine‹ he directed alone for the first time in 2025, without Josh. Asked whether the change had been difficult, he answered that it "wasn't really an adjustment," since acting on his own had already given him "a level of independence." He described the split as "a natural progression of what we each want to explore": "I will direct on my own, and I will explore things that I want to explore. I want that freedom right now in my life."</p>
-          <p class="vb-intro">This is the social Four in its most constructive form: not a loud break, but the quiet, yet firm assertion of an independent artistic identity that had until then been hidden under a shared name &ndash; confirmed by the Silver Lion for Best Direction he received in Venice for this first solo outing.</p>
+          <p class="vb-intro">This shows the social Four in its most constructive form: not a loud break, but the quiet, yet firm assertion of an independent artistic identity that had until then been hidden under a shared name &ndash; confirmed by the Silver Lion for Best Direction he received in Venice for this first solo outing.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow of the Social Four with a Five-Wing</h2>

@@ -22,7 +22,7 @@ export function adolfEichmannPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale Sechs: Sicherheit durch Gehorsam</h3>
         <p class="vb-intro">Die <strong>soziale Sechs (SO6)</strong> sucht Sicherheit nicht durch eigene St\xe4rke, sondern durch Zugeh\xf6rigkeit zu einer Autorit\xe4tsstruktur. Die Leidenschaft der Sechs ist <em>Angst</em> &ndash; die SO6 bew\xe4ltigt diese Angst, indem sie sich in eine Institution, eine Ideologie oder eine Hierarchie einbettet. Solange sie dem System dient und das System ihr Deckung gibt, ist die Angst still.</p>
-        <p class="vb-intro"><strong>Otto Adolf Eichmann</strong>, geboren am 19. M\xe4rz 1906 in Solingen, war ein durch und durch durchschnittlicher Mensch. Als junger Mann gl\u00fccklos im Beruf, ohne besondere Begabung, ohne ausgep\xe4gten Ehrgeiz. Der Beitritt zur NSDAP und zur SS 1932 war f\xfcr ihn kein ideologischer Akt &ndash; es war ein Akt der <em>Einbindung</em>. Er fand eine Struktur, die ihm Halt, Zugeh\xf6rigkeit und Aufgaben gab. Er stieg auf, weil er zuverl\xe4ssig war, gehorsam war, Aufgaben sauber erledigte. Das ist die SO6-Karriere: nicht durch Brillanz, sondern durch Konformit\xe4t.</p>
+        <p class="vb-intro"><strong>Otto Adolf Eichmann</strong>, geboren am 19. M\xe4rz 1906 in Solingen, war ein durch und durch durchschnittlicher Mensch. Als junger Mann gl\u00fccklos im Beruf, ohne besondere Begabung, ohne ausgep\xe4gten Ehrgeiz. Der Beitritt zur NSDAP und zur SS 1932 war f\xfcr ihn kein ideologischer Akt &ndash; es war ein Akt der <em>Einbindung</em>. Er fand eine Struktur, die ihm Halt, Zugeh\xf6rigkeit und Aufgaben gab. Er stieg auf, weil er zuverl\xe4ssig war, gehorsam war, Aufgaben sauber erledigte. Hier zeigt sich die SO6-Karriere: nicht durch Brillanz, sondern durch Konformit\xe4t.</p>
       </div>
 
       <div class="vb-section">
@@ -143,7 +143,7 @@ export function alfonsSchuhbeckPortraitPage() {
         <p class="vb-intro"><strong>a) Der Aufbau des Systems:</strong>
         Die Manipulationen begannen nach Erkenntnissen der Staatsanwaltschaft sp\xe4testens ab 2009 und erstreckten sich \xfcber mehrere Jahre. Schuhbeck oder Mitarbeiter unter seiner Verantwortung nutzten eine sogenannte \u201eZapper\u201c-Software, die es erm\xf6glichte, Kasseneintr\xe4ge nachtr\xe4glich zu l\xf6schen oder zu ver\xe4ndern. Bareinnahmen in seinen M\xfcnchner Restaurants wurden systematisch nicht vollst\xe4ndig verbucht. Das Finanzamt erhielt gek\xfcrzte Zahlen, die Differenz verschwand unversteuert.</p>
         <p class="vb-intro"><strong>b) Die Methode:</strong>
-        Kein Raubzug, kein \xfcberw\xe4ltigender Betrug \u2013 sondern die stille, konsequente Verschiebung kleiner Betr\xe4ge \xfcber lange Zeit. Genau das ist die SE9-Methode: kein Drama, keine Konfrontation, kein Aufschrei. Die Neun gelangt zu ihren Zielen durch Beharrlichkeit, nicht durch Gewalt. Der Gesamtschaden: rund <strong>2,3 Millionen Euro</strong> nicht abgef\xfchrte Steuern. Aufgeflogen durch eine Betriebspr\xfcfung \u2013 nicht durch ein dramatisches Zusammenbrechen, sondern durch die n\xfcchterne Arbeit der Beh\xf6rden.</p>
+        Kein Raubzug, kein \xfcberw\xe4ltigender Betrug \u2013 sondern die stille, konsequente Verschiebung kleiner Betr\xe4ge \xfcber lange Zeit. Genau das zeigt die SE9-Methode: kein Drama, keine Konfrontation, kein Aufschrei. Die Neun gelangt zu ihren Zielen durch Beharrlichkeit, nicht durch Gewalt. Der Gesamtschaden: rund <strong>2,3 Millionen Euro</strong> nicht abgef\xfchrte Steuern. Aufgeflogen durch eine Betriebspr\xfcfung \u2013 nicht durch ein dramatisches Zusammenbrechen, sondern durch die n\xfcchterne Arbeit der Beh\xf6rden.</p>
         <p class="vb-intro"><strong>c) Der Prozess:</strong>
         Das Verfahren vor dem Landgericht M\xfcnchen begann 2022. Schuhbeck trat zun\xe4chst mit gewohnter Fassung auf \u2013 auch das SE9-typisch: keine Panik, kein \xdcberschwang. Im Prozessverlauf r\xe4umte er Fehler ein, versuchte jedoch, die volle Verantwortung zu relativieren. Am <strong>4. Oktober 2022</strong> f\xe4llte das Gericht das Urteil: schuldig in 18 F\xe4llen der Steuerhinterziehung.</p>
         <p class="vb-intro"><strong>d) Das Urteil und der Gang ins Gef\xe4ngnis:</strong>
@@ -366,7 +366,7 @@ export function arnoFunkePortraitPage() {
         Neunerfl\xfcgels.</p>
         <p class="vb-intro"><strong>c) Ohne Aggression:</strong>
         Anders als viele Kriminelle wirkte Funke nie bedrohlich. Sein Blick
-        signalisierte keine Dominanz, sondern Konzentration. Das ist die SE1w9
+        signalisierte keine Dominanz, sondern Konzentration. Hier wirkt die SE1w9
         in ihrer zivilen Auspr\xe4gung: Intensit\xe4t ohne Gef\xe4hrlichkeit.</p>
       </div>
 
@@ -395,7 +395,7 @@ export function arnoFunkePortraitPage() {
         <p class="vb-intro"><strong>a) Methodisches Vorgehen:</strong>
         Nicht Spontaneit\xe4t, sondern Methode pr\xe4gte Funkes Handeln. Jede
         Geldabholung war ein Projekt \u2013 mit Vorlauf, Testl\xe4ufen, Alternativpl\xe4nen.
-        Das ist die Eins, die Fehler antizipiert und ausschlie\xdft, bevor sie entstehen.</p>
+        Hier zeigt sich die Eins, die Fehler antizipiert und ausschlie\xdft, bevor sie entstehen.</p>
         <p class="vb-intro"><strong>b) Innerer Groll gegen das System:</strong>
         Der Zorn der Eins ist selten laut \u2013 er ist ein stiller, anhaltender Groll.
         Funkes Erpressung eines Gro\xdfkonzerns l\xe4sst sich als Ausdruck dieses Grolls
@@ -422,7 +422,7 @@ export function arnoFunkePortraitPage() {
         <p class="vb-intro"><strong>c) Sympathisch trotz Kriminalit\xe4t:</strong>
         Die \xd6ffentlichkeit jubelte Funke zu \u2013 ein Zeichen daf\xfcr, dass seine
         Grundhaltung (gewaltlos, klar begr\xfcndet, niemanden verletzend) intuitiv
-        als \"fair\" wahrgenommen wurde. Das ist die Eins in ihrer besten
+        als \"fair\" wahrgenommen wurde. Darin zeigt sich die Eins in ihrer besten
         Auspr\xe4gung: ein tief verankerter Sinn f\xfcr das, was vertretbar ist.</p>
       </div>
 
@@ -840,7 +840,7 @@ export function clydeBarrowPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Achterfl\xfcgel: Wenn die Flucht zur Konfrontation wird</h3>
         <p class="vb-intro">Eine SX7 mit schw\xe4cher ausgepr\xe4gtem Achterfl\xfcgel h\xe4tte auf drohende Gefahr vermutlich mit reiner Flucht reagiert &ndash; ausweichen, verschwinden, die Situation verlassen. Bei Clyde trat stattdessen eine H\xe4rte hervor, die \xfcber blo\xdfes Entkommen hinausging: Wenn die Flucht an ihre Grenze stie\xdf, schoss er, ohne zu z\xf6gern. &bdquo;Lieber sterben als zur\xfcck ins Gef\xe4ngnis&ldquo; war f\xfcr ihn keine Floskel, sondern eine gelebte innere Notwendigkeit.</p>
-        <p class="vb-intro">Das ist der Achterfl\xfcgel bei der Sieben: Die Flucht bleibt die Grundbewegung, aber wenn kein Ausweg mehr bleibt, verwandelt sich die Leichtigkeit in kompromisslose Konfrontation. Nicht Kontrolle als Ziel wie bei der reinen Acht, sondern Kontrolle als letztes Mittel, um die Freiheit zu verteidigen, die die Sieben \xfcber alles stellt.</p>
+        <p class="vb-intro">Hier wirkt der Achterfl\xfcgel bei der Sieben: Die Flucht bleibt die Grundbewegung, aber wenn kein Ausweg mehr bleibt, verwandelt sich die Leichtigkeit in kompromisslose Konfrontation. Nicht Kontrolle als Ziel wie bei der reinen Acht, sondern Kontrolle als letztes Mittel, um die Freiheit zu verteidigen, die die Sieben \xfcber alles stellt.</p>
       </div>
 
       <div class="vb-section">
@@ -857,7 +857,7 @@ export function clydeBarrowPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro"><strong>a) Flucht vor der Enge, nicht Lust an der Gewalt:</strong> Clydes Ausgangspunkt war nicht Kontrollsucht, sondern panische Angst vor dem Eingesperrtsein. Das ist die SX7-Grundleidenschaft: Schmerz durch Bewegung, Geschwindigkeit und immer neue Optionen vermeiden.</p>
+        <p class="vb-intro"><strong>a) Flucht vor der Enge, nicht Lust an der Gewalt:</strong> Clydes Ausgangspunkt war nicht Kontrollsucht, sondern panische Angst vor dem Eingesperrtsein. Hier zeigt sich die SX7-Grundleidenschaft: Schmerz durch Bewegung, Geschwindigkeit und immer neue Optionen vermeiden.</p>
         <p class="vb-intro"><strong>b) Der Achterfl\xfcgel als letzte Verteidigungslinie:</strong> Eine SX7 mit schw\xe4cher ausgepr\xe4gtem Achterfl\xfcgel h\xe4tte sich bei drohender Festnahme vermutlich ergeben. Clydes stark ausgepr\xe4gter Achterfl\xfcgel machte aus der Flucht eine Bereitschaft zur t\xf6dlichen Konfrontation, sobald kein Ausweg mehr blieb.</p>
         <p class="vb-intro"><strong>c) Die eine Bindung inmitten der Rastlosigkeit:</strong> Die bedingungslose Treue zu Bonnie, trotz wachsendem Risiko, zeigt, wie die sexuelle Sieben ihre sonstige Vielfalt an M\xf6glichkeiten auf eine einzige, unaufgebbare Beziehung fokussieren kann.</p>
       </div>
@@ -1141,7 +1141,7 @@ export function frankAbagnalePortraitPage() {
         Abagnale trat nicht als Blender auf, der Misstrauen weckt, sondern als
         jemand, den man sofort ins Herz schlie\u00dft \u2013 zugewandt, gespr\u00e4chig,
         mit einer optimistischen Leichtigkeit, die Skepsis gar nicht erst aufkommen lie\u00df.
-        Das ist die soziale Sieben in Reinform: Charme als Eintrittskarte in jedes System.</p>
+        Darin zeigt sich die soziale Sieben in Reinform: Charme als Eintrittskarte in jedes System.</p>
         <p class="vb-intro"><strong>b) Immer eine Option in der Hinterhand:</strong>
         Zeitgenossen beschrieben ihn als schnell denkend und nie um eine Ausrede
         oder einen Ausweg verlegen. Wurde eine Identit\u00e4t zu eng oder zu riskant,
@@ -1234,7 +1234,7 @@ export function frankAbagnalePortraitPage() {
         Nach einer Haftstrafe schloss Abagnale einen Deal mit dem FBI:
         Er half bei der \u00dcberf\u00fchrung von Scheckf\u00e4lschern
         und wurde zum gesuchten Experten f\u00fcr Dokumentenbetrug.
-        Das ist die SO7w6-Aufl\u00f6sung pur:
+        Hier wirkt die SO7w6-Aufl\u00f6sung pur:
         Aus der endlosen Suche nach dem n\u00e4chsten System wird endlich eine
         Zugeh\u00f6rigkeit, der er wirklich vertrauen kann \u2013 legitim, gebraucht,
         endlich angekommen.</p>
@@ -1267,7 +1267,7 @@ export function frankAbagnalePortraitPage() {
       <div class="vb-section" style="background:rgba(232,146,42,0.07);border-left:3px solid #e8922a;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">Zusammenfassung</h3>
         <p style="margin:0 0 0.6rem;font-size:0.95rem;color:var(--ink);">
-        Frank Abagnale Jr. ist der SO7w6 in seiner pathologischen Reinform:
+        Frank Abagnale Jr. zeigt der SO7w6 in seiner pathologischen Reinform:
         ein Mensch, der Identit\u00e4t nicht als Selbstausdruck versteht,
         sondern als Eintrittskarte in immer neue Systeme, in denen er sich
         n\u00fctzlich, willkommen und lebendig f\u00fchlen konnte.
@@ -1360,7 +1360,7 @@ export function grisdaBlancoPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Was das Enneagramm sichtbar macht</h3>
         <p class="vb-intro"><strong>a) \xdcberleben als tiefstes Motiv:</strong> Griselda Blanco begann nicht als Verbrecherin aus Gier oder Ideologie. Sie begann als jemand, der in einer Welt aufwuchs, in der Schw\xe4che den Tod bedeutete. Die selbsterhaltende Acht zieht aus einer solchen Kindheit eine strukturelle Konsequenz: Macht ist Sicherheit. Ressourcen sind Sicherheit. Wer nichts hat, ist schutzlos. Dieses Muster lie\u00df sich sp\xe4ter nicht mehr abschalten &ndash; auch dann nicht, als die materielle Not l\xe4ngst \xfcberwunden war.</p>
         <p class="vb-intro"><strong>b) Der Neunerfl\xfcgel als strategischer Vorteil:</strong> Was Griselda Blanco von vielen m\xe4nnlichen Kartellfiguren unterschied, war ihre F\xe4higkeit, unsichtbar zu bleiben. Die SE8w7 sucht die Konfrontation, genie\u00dft Macht sichtbar. Die SE8w9 verwaltet Macht still. Griselda Blanco blieb jahrzehntelang im Verborgenen, w\xe4hrend die M\xe4nner um sie herum starben. Der Neunerfl\xfcgel rettete ihr mehrfach das Leben.</p>
-        <p class="vb-intro"><strong>c) Mutterschaft und Machtlogik:</strong> Sie k\xe4mpfte um ihre S\xf6hne mit derselben Kompromisslosigkeit, mit der sie ihr Gesch\xe4ft f\xfchrte. Als ihr dritter Mann ihren j\xfcngsten Sohn Michael entf\xfchrte, lie\xdf sie ihn t\xf6ten. Das ist keine Pathologie der Lieblosigkeit &ndash; das ist die selbsterhaltende Acht, die alles, was ihr geh\xf6rt, mit absoluter Konsequenz sch\xfctzt. Ihr Revier umfasste auch ihre Kinder.</p>
+        <p class="vb-intro"><strong>c) Mutterschaft und Machtlogik:</strong> Sie k\xe4mpfte um ihre S\xf6hne mit derselben Kompromisslosigkeit, mit der sie ihr Gesch\xe4ft f\xfchrte. Als ihr dritter Mann ihren j\xfcngsten Sohn Michael entf\xfchrte, lie\xdf sie ihn t\xf6ten. Das ist keine Pathologie der Lieblosigkeit &ndash; hier zeigt sich die selbsterhaltende Acht, die alles, was ihr geh\xf6rt, mit absoluter Konsequenz sch\xfctzt. Ihr Revier umfasste auch ihre Kinder.</p>
         <p class="vb-intro"><strong>d) Die eigene Methode als Ende:</strong> Dass sie durch einen Moto Sicario get\xf6tet wurde &ndash; exakt die Methode, die sie selbst entwickelt und verfeinert hatte &ndash; ist mehr als tragische Ironie. Es zeigt, was die selbsterhaltende Acht in der Pathologie \xfcbersieht: Die Welt, die man durch Gewalt kontrolliert, bleibt eine Welt voller Gewalt. Es gibt kein sicheres Ende in einem System, das man selbst auf Angst gebaut hat.</p>
       </div>
 
@@ -1501,7 +1501,7 @@ export function heinrichPommerenkePortraitPage() {
         die Szene tanzender Frauen um das Goldene Kalb,
         habe ihn mit der \u00dcberzeugung erf\u00fcllt,
         s\u00fcndhafte Frauen bestrafen zu m\u00fcssen.
-        Das ist der SO1 in seiner extremsten religi\u00f6sen Verzerrung:
+        Darin zeigt sich der SO1 in seiner extremsten religi\u00f6sen Verzerrung:
         Die soziale Eins erlebt sich als H\u00fcterin der gesellschaftlichen Ordnung \u2013
         bei Pommerenke wurde diese Ordnungsvorstellung ins Religi\u00f6se gehoben
         und zur Wahnidee, die jeden Widerspruch eliminierte.</p>
@@ -1601,7 +1601,7 @@ export function heinrichPommerenkePortraitPage() {
         <strong>Pommerenke</strong> wirkte auf Gespr\u00e4chspartner
         weder einsch\u00fcchternd noch warm \u2013
         er wirkte weg. Als sei er nicht ganz anwesend.
-        Das ist die Neunerfl\u00fcgel-Energie der Eins:
+        Hier wirkt die Neunerfl\u00fcgel-Energie der Eins:
         nicht Feuer, sondern Permafrost.</p>
         <p class="vb-intro"><strong>b) Moralischer Druck ohne Wort:</strong>
         Die Eins sendet st\u00e4ndig ein stilles Signal aus:
@@ -2320,7 +2320,7 @@ export function johnMcAfeePortraitPage() {
         <strong>McAfee</strong> zahlte \u00fcber ein Jahrzehnt keine Steuern \u2013 nicht
         weil er kein Geld hatte, sondern weil er Steuern f\u00fcr Diebstahl
         hielt. Regeln, die er f\u00fcr ungerecht befand, ignorierte er.
-        Das ist die Acht in ihrer klarsten Ausprägung: moralischer Eigensinn
+        Hier zeigt sich die Acht in ihrer klarsten Ausprägung: moralischer Eigensinn
         jenseits gesellschaftlicher Konventionen.</p>
         <p class="vb-intro"><strong>c) Fl\u00fcchtigkeit und Bewegung:</strong>
         <strong>McAfee</strong> war selten lange an einem Ort. Guatemala, Belize,
@@ -2514,7 +2514,7 @@ export function karlaHomolkaPortraitPage() {
         in der sie gelernt hatte, keinen eigenen Willen mehr zu haben.
         Sie tat, was er wollte \u2013 weil das Selbstbild des perfekten Paares wichtiger war
         als die Entscheidung zwischen Richtig und Falsch.
-        Das ist der Neuner-Stresspunkt in seiner dunkelsten Form:
+        Darin zeigt sich der Neuner-Stresspunkt in seiner dunkelsten Form:
         Selbst-Ausl\u00f6schung als Form der Selbsterhaltung.</p>
       </div>
 
@@ -2527,7 +2527,7 @@ export function karlaHomolkaPortraitPage() {
         gefilmt von Karla, die die Szene absicherte.
         Tammy aspiriierte ihren eigenen Mageninhalt und starb.
         Der Tod wurde als Unfall eingestuft. Karla nahm an der Beerdigung teil.
-        Das ist die SE3 im Zusammenbruch: Die Schwester war ein Hindernis
+        Hier wirkt die SE3 im Zusammenbruch: Die Schwester war ein Hindernis
         f\u00fcr das Bild der perfekten Beziehung geworden. Bernardo wollte sie.
         Karla lieferte sie.</p>
         <p class="vb-intro"><strong>b) Leslie Mahaffy und Kristen French:</strong>
@@ -2555,7 +2555,7 @@ export function karlaHomolkaPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Was das Enneagramm sichtbar macht</h3>
         <p class="vb-intro">
-        Karla Homolka ist kein Monster im klassischen Sinn. Sie ist die selbsterhaltende Drei
+        Karla Homolka ist kein Monster im klassischen Sinn. Sie zeigt die selbsterhaltende Drei
         in ihrer absoluten Desintegration: ein Mensch, der das \u00dcberleben des eigenen Selbstbildes
         \u00fcber alles stellte \u2013 \u00fcber die Schwester, \u00fcber die Opfer, \u00fcber das eigene Gewissen.
         Die SE3 kann nicht zulassen, dass ihr Bild von sich selbst zerbricht.
@@ -2653,7 +2653,7 @@ export function michaelFranzesePortraitPage() {
         Sie zeigt immer das Gesicht, das gerade erfolgreich ist.</p>
         <p class="vb-intro"><strong>c) Gewinnendes Selbstbewusstsein:</strong>
         Wer <strong>Franzese</strong> begegnet \u2013 damals wie heute \u2013 beschreibt ihn als jemanden,
-        der Raum f\xfcllt ohne zu dr\xe4ngen. Das ist der SE3w2-Typ: er strahlt Erfolg aus,
+        der Raum f\xfcllt ohne zu dr\xe4ngen. Hier zeigt sich der SE3w2-Typ: er strahlt Erfolg aus,
         ohne damit zu prahlen. Der Erfolg soll f\xfcr sich sprechen.</p>
       </div>
 
@@ -2671,7 +2671,7 @@ export function michaelFranzesePortraitPage() {
         <p class="vb-intro"><strong>c) Wie halte ich die Loyalit\xe4t meiner Umgebung?</strong>
         Der Zweierfl\xfcgel lenkt einen Teil der Aufmerksamkeit auf Beziehungen.
         <strong>Franzese</strong> war f\xfcr seine Gro\xdfz\xfcgigkeit bekannt \u2013 er bezahlte gut,
-        behandelte seine Leute fair. Das ist die SE3w2-Kombination: Leistung plus
+        behandelte seine Leute fair. Darin zeigt sich die SE3w2-Kombination: Leistung plus
         Verbindlichkeit.</p>
       </div>
 
@@ -3590,7 +3590,7 @@ export function rudolfPleilPortraitPage() {
         Erw\u00fcrgen, Schlagen, brutale k\u00f6rperliche Gewalt \u2013
         keine distanzierte, geplante T\u00f6tung,
         sondern ein \u00dcberrollen durch K\u00f6rperkraft und Wucht.
-        Das ist die Zwei in der Acht:
+        Hier wirkt die Zwei in der Acht:
         Wenn ich nicht durch Liebe binden kann,
         erzwinge ich die Unterwerfung durch St\u00e4rke.
         In Pleils Fall war die Achter-Energie nicht nur der Stressabfluss \u2013
@@ -3667,7 +3667,7 @@ export function sebastianGreenwoodPortraitPage() {
         <p class="vb-intro"><strong>a) W\xe4rmend und einladend:</strong>
         <strong>Greenwood</strong> war bekannt daf\xfcr, Menschen sofort das Gef\xfchl zu geben,
         willkommen zu sein. Wer mit ihm sprach, f\xfchlte sich gesehen \u2013 oft das erste
-        Mal in langer Zeit. Das ist die selbsterhaltende Zwei: Zuwendung als Werkzeug,
+        Mal in langer Zeit. Hier zeigt sich die selbsterhaltende Zwei: Zuwendung als Werkzeug,
         Warmherzigkeit als Eintrittskarte.</p>
         <p class="vb-intro"><strong>b) Selbstsicher bis strahlend:</strong>
         Der Dreierfl\xfcgel gibt der Zwei eine souver\xe4ne Au\xdfenpr\xe4senz. <strong>Greenwood</strong>
@@ -3677,7 +3677,7 @@ export function sebastianGreenwoodPortraitPage() {
         <p class="vb-intro"><strong>c) Kontrolliert bei Kritik:</strong>
         <strong>Greenwood</strong> reagierte auf Zweifel nicht defensiv, sondern rerahmend.
         Er verwandelte kritische Fragen in Einladungen zur weiteren Erkl\xe4rung.
-        Das ist das SE2w3-Muster: statt Konfrontation Umlenkung, statt Verteidigung Charme.</p>
+        Darin zeigt sich das SE2w3-Muster: statt Konfrontation Umlenkung, statt Verteidigung Charme.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -4109,7 +4109,7 @@ export function wadeWilsonPortraitPage() {
         war in seiner Konsequenz ungew\u00f6hnlich:
         Er lachte, machte Grimassen, schien die Aufmerksamkeit
         der Medien und des Publikums zu suchen.
-        Das ist das SO3-Muster: Die soziale Drei braucht
+        Hier wirkt das SO3-Muster: Die soziale Drei braucht
         ein Publikum, eine B\u00fchne, Resonanz.
         Dass der Kontext ein Mordprozess war,
         \u00e4nderte an dieser Grundstruktur offenbar nichts \u2013
@@ -4192,7 +4192,7 @@ export function wadeWilsonPortraitPage() {
         <p class="vb-intro"><strong>c) Todesurteil als letzter Auftritt:</strong>
         Die Verk\u00fcndung des Todesurteils
         schien <strong>Wilson</strong> nicht zu ersch\u00fcttern.
-        Das ist das SO3w4-Muster in seiner extremsten Auspr\u00e4gung:
+        Hier zeigt sich das SO3w4-Muster in seiner extremsten Auspr\u00e4gung:
         Selbst das eigene Ende wird zum Inhalt
         des Narrativs \u00fcber sich selbst \u2013
         als letzte Best\u00e4tigung, dass man
@@ -4216,7 +4216,7 @@ export function wadeWilsonPortraitPage() {
         zunehmend ersch\u00f6pft und abgenutzt.
         <strong>Wilson</strong> schien im Gegenteil zu wachsen \u2013
         als w\u00fcrde die Aufmerksamkeit ihm Energie geben.
-        Das ist die Drei, die ihren Energiehaushalt
+        Darin zeigt sich die Drei, die ihren Energiehaushalt
         \u00fcber Au\u00dfenwirkung reguliert:
         Resonanz ist Nahrung; B\u00fchne ist Erholung.</p>
         <p class="vb-intro"><strong>c) Leerstelle hinter dem Auftritt:</strong>
@@ -4434,7 +4434,7 @@ export function bryanKohbergerPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die sexuelle Eins: Zurückweisung als Reinheitsverletzung</h3>
         <p class="vb-intro"><strong>a) Die innere Logik:</strong>
         Mehrere Quellen, darunter eine forensische Psychiaterin, beschreiben Kohberger als von Wut und Groll gegen
-        Frauen getrieben, die ihn zurückwiesen oder von denen er eine Zurückweisung erwartete. Das ist die SX1 in
+        Frauen getrieben, die ihn zurückwiesen oder von denen er eine Zurückweisung erwartete. Hier wirkt die SX1 in
         ihrer destruktivsten Form: Die intimste Beziehung soll rein, kontrolliert, vollständig sein – jede Zurückweisung
         wird nicht als Enttäuschung, sondern als Verletzung einer als absolut empfundenen Ordnung erlebt, die eine
         Antwort verlangt.</p>
@@ -4488,7 +4488,7 @@ export function bryanKohbergerPortraitPage() {
         Eine gerichtlich vorgelegte psychologische Begutachtung attestierte Kohberger "extrem rigides Denken",
         ein Verharren auf einzelnen Themen sowie kaum Einsicht in eigenes Verhalten und eigene Gefühle – seine
         eigene Familie bestätigte "starres Denken und Verhalten" sowie Schwierigkeiten, mit Veränderungen der
-        Routine umzugehen. Das ist der Vierer-Stresspunkt der Eins in seiner unfruchtbarsten Form: kein Weg zur
+        Routine umzugehen. Hier zeigt sich der Vierer-Stresspunkt der Eins in seiner unfruchtbarsten Form: kein Weg zur
         echten Selbstprüfung, sondern ein geschlossener, sich selbst bestätigender Gedankenkreis, aus dem heraus
         die eigene Wut nie infrage gestellt, sondern zunehmend gerechtfertigt wurde.
         </p>

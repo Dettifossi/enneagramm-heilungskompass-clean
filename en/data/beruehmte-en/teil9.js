@@ -238,7 +238,7 @@ export function blaisePascalPortraitPage() {
         <h2 class="vb-section">3. The Six-Wing: The Search for a Load-Bearing Foundation</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Six-wing brings Five an element the pure Five alone would not have: the need for a reliable, tested foundation against which every thought can be secured. Where a Five with a stronger Four-wing stays introspective-melancholic, the Five with a Six-wing seeks systematic order, vigilance toward its own doubt, the structured framework in which insight can be secured before it is spoken.</p>
-          <p class="vb-intro">This exact signature runs through Pascal's most famous wager: <em>Pascal's Wager</em>. It is not a religious confession but a cool, almost accountant's risk calculation &ndash; one should believe in God because the possible gain (eternal bliss) far outweighs the possible loss (a finite life of humility), even if God's existence remains uncertain. This is the Six-wing at work: even the deepest existential question is translated into a security calculus in which doubt is not repressed but structurally priced in. His posthumously published <em>Pensées</em> read the same way &ndash; a collection of individual, self-secured fragments of thought that don't overcome doubt but give it structure.</p>
+          <p class="vb-intro">This exact signature runs through Pascal's most famous wager: <em>Pascal's Wager</em>. It is not a religious confession but a cool, almost accountant's risk calculation &ndash; one should believe in God because the possible gain (eternal bliss) far outweighs the possible loss (a finite life of humility), even if God's existence remains uncertain. Here we see the Six-wing at work: even the deepest existential question is translated into a security calculus in which doubt is not repressed but structurally priced in. His posthumously published <em>Pensées</em> read the same way &ndash; a collection of individual, self-secured fragments of thought that don't overcome doubt but give it structure.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Thinking Reed</h2>
@@ -306,7 +306,7 @@ export function carolinePetersPortraitPage() {
         <h2 class="vb-section">3. The Six wing: The Conscience of Adventure</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Six wing gives the sexual Seven a quality that grounds an SX7 with a weaker Six wing: loyalty, warmth, and a quiet sense for what holds up. Where an SX7 with a more muted Six wing jumps from fascination to fascination, a strongly developed Six wing asks: Do I belong? Am I really good enough for what I am doing?</p>
-          <p class="vb-intro">Peters has been a permanent ensemble member of the Burgtheater Vienna for years – one of the most respected German-language theaters in the world. That is not typical for a weaker Six wing; that is the Six wing taking root. At the same time, she returned multiple times to Mord mit Aussicht – a role she could have long left behind. Loyalty to characters, theater houses, and colleagues: that is the w6 at work.</p>
+          <p class="vb-intro">Peters has been a permanent ensemble member of the Burgtheater Vienna for years – one of the most respected German-language theaters in the world. That is not typical for a weaker Six wing; this shows the Six wing taking root. At the same time, she returned multiple times to Mord mit Aussicht – a role she could have long left behind. Loyalty to characters, theater houses, and colleagues: that is the w6 at work.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Work: From Sophie Haas to the Burgtheater</h2>
@@ -460,7 +460,7 @@ export function dirkRossmannPortraitPage() {
         <h2 class="vb-section">7. The Octopus Who Keeps Writing</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Dirk Rossmann is today well into his eighties and still publicly present—as a defining figure in the background of the company, as a philanthropist, as an author. His path from the small drugstore next to the funeral home to a pan-European retail chain reads like a classic SO5 biography: a slow build-up of knowledge and system, the near double failure of 1996 that made the Six wing visible, and finally the late literary turn in which he—without realizing it—put his own animal totem to paper three times over.</p>
-          <p class="vb-intro">This is the social Five with a Six wing at its most mature: build a system that carries others. Hold on to it when it wavers. And in the end, without ever planning it, become the very image of what you always were.</p>
+          <p class="vb-intro">Here you can see the social Five with a Six wing at its most mature: build a system that carries others. Hold on to it when it wavers. And in the end, without ever planning it, become the very image of what you always were.</p>
         </blockquote>
 
       </div>
@@ -657,7 +657,7 @@ export function guentherJauchPortraitPage() {
 
         <h2 class="vb-section">4. The Work: Between the Million-Dollar Question and Monday</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">stern TV, which he took over in 1990 and hosted for two decades, was different terrain: investigative reports, exposures, socially critical features. Jauch led the show with the same coolness with which he later questioned potential millionaires—without emotion, with precise questions, without stepping too close to the counterpart. That is the SO5: closeness through distance, connection through professionalism.</p>
+          <p class="vb-intro">stern TV, which he took over in 1990 and hosted for two decades, was different terrain: investigative reports, exposures, socially critical features. Jauch led the show with the same coolness with which he later questioned potential millionaires—without emotion, with precise questions, without stepping too close to the counterpart. Here we see the SO5: closeness through distance, connection through professionalism.</p>
           <p class="vb-intro">He gave up the ARD Sunday evening talk show Günther Jauch (2011 to 2015) after four years. He explained that the format had exhausted itself. Many wondered if he meant himself. The social Five loses its sense of purpose for a system when it feels that it no longer carries weight. Then it lets go—calmly, without drama, without publicity.</p>
           <p class="vb-intro">Alongside this, through his production company iu TV, later sold to RTL, he introduced a variety of formats into the broadcasting landscape. The octopus reaches out with several arms at once and cannot be reduced to just one.</p>
         </blockquote>
@@ -666,14 +666,14 @@ export function guentherJauchPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Jauch is not on social media. He rarely gives interviews about himself—only about his shows. He lives in a villa on Lake Heiliger See in Potsdam, whose property lies behind walls. He has four daughters whose names he did not mention publicly for years. That is not privacy born of fear. That is the fortress of the SO5 in its social form: I am among you, I give you knowledge, I host your society—but I do not give away myself.</p>
           <p class="vb-intro">The shadow of the Five is avarice—not just with money, but with oneself. With what one would reveal about oneself. Jauch is a man who for decades put contestants in existential pressure situations, studied their reactions, commented on their cold sweats, while remaining completely impenetrable himself. The octopus observing and altering while remaining invisible.</p>
-          <p class="vb-intro">In the light, however: a presenter who never exposed a contestant. Who never laughed at anyone. Who hosts with a friendliness that does not feel staged. That is the SO5 in the best sense: sharing knowledge without dominating. Accompanying without overwhelming.</p>
+          <p class="vb-intro">In the light, however: a presenter who never exposed a contestant. Who never laughed at anyone. Who hosts with a friendliness that does not feel staged. This shows the SO5 in the best sense: sharing knowledge without dominating. Accompanying without overwhelming.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Octopus That Does Not Shrink</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Günther Jauch is sixty-eight years old in 2024 and still hosts Wer wird Millionär?. Television has reinvented itself around him multiple times. Formats came and went. Presenters were discovered, burned out, and replaced. Jauch remained.</p>
           <p class="vb-intro">That is the image that lingers: a man who is not loud, who does not push, who does not urge. Who is simply there. Who holds his place, shares his knowledge, asks his questions, and after the show drives home to Potsdam. Behind the walls. Into the silence. To the octopus in its depth.</p>
-          <p class="vb-intro">That is the social Five: presence without surrender. Visibility without revelation. And the quiet certainty that one knows more than one shows—and that this is completely sufficient.</p>
+          <p class="vb-intro">Here you can see the social Five: presence without surrender. Visibility without revelation. And the quiet certainty that one knows more than one shows—and that this is completely sufficient.</p>
         </blockquote>
 
       </div>
@@ -806,7 +806,7 @@ export function jamesCordenPortraitPage() {
         <h2 class="vb-section">3. The Seven-wing: Enthusiasm as an Invitation</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Seven-wing (w7)</strong> brings the Social Six speed, lightness, and the ability to turn any situation into a celebration. Where an SO6 with a weaker Seven-wing would mainly serve reliably, the Seven-wing adds a love of variety and show: the SO6w7 does not serve quietly in the background &ndash; it serves by sharing the stage with everyone while shining itself.</p>
-          <p class="vb-intro">Corden's energy is explosive, contagious, constantly in motion: he sings, dances, performs sketches, hosts the Grammys and the Tony Awards, produces shows, writes scripts. This range is the Seven-wing in its clearest expression &ndash; not the quiet depth of the Five-wing, but the breadth that constantly seeks new forms, new formats, new connections. ‹Carpool Karaoke› itself is the Seven-wing as a concept: an improvised, spontaneous, joyful format that turns a simple idea into an inexhaustible source of shared experience.</p>
+          <p class="vb-intro">Corden's energy is explosive, contagious, constantly in motion: he sings, dances, performs sketches, hosts the Grammys and the Tony Awards, produces shows, writes scripts. This range shows the Seven-wing in its clearest expression &ndash; not the quiet depth of the Five-wing, but the breadth that constantly seeks new forms, new formats, new connections. ‹Carpool Karaoke› itself is the Seven-wing as a concept: an improvised, spontaneous, joyful format that turns a simple idea into an inexhaustible source of shared experience.</p>
           <p class="vb-intro">Where Herbert Grönemeyer (SO6w7) uses his Seven-wing to rise again after losses and keep going, Corden uses his to permanently create opportunities for connection. Both are meerkats with forward drive &ndash; only Corden's energy is directed less at his own healing than at the constant bringing-together of others.</p>
         </blockquote>
 
@@ -941,7 +941,7 @@ export function junkoTabeiPortraitPage() {
         <h2 class="vb-section">4. After Everest: The quiet second act</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Unlike what one might expect from a "record chaser", Tabei did not fall into constant self-promotion after her worldwide fame. She continued systematically climbing the highest peaks on every continent without seeking media attention, and increasingly devoted herself to environmental protection – particularly the litter accumulating on Everest's trails due to growing tourism.</p>
-          <p class="vb-intro">Late in life she even studied environmental science and advocated for protecting the mountain world that had given her so much. This is the SP7w6 at its most mature: initial personal endurance transforms into responsibility for a cause larger than one's own achievement.</p>
+          <p class="vb-intro">Late in life she even studied environmental science and advocated for protecting the mountain world that had given her so much. Here we see the SP7w6 at its most mature: initial personal endurance transforms into responsibility for a cause larger than one's own achievement.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Climbing to the end</h2>
@@ -1072,7 +1072,7 @@ export function lindaLeinweberPortraitPage() {
         <h2 class="vb-section">3. The Five Wing: The Analyst Behind the Voice</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Five wing (w5) brings something decisive to the sexual Four: the analytical lens, the hunger for understanding, the ability not only to feel one's own experience, but to penetrate it. The SX4 alone could get stuck in the intensity of its own feelings; the Five wing pulls it into observation, into theory, into craft. It says: feeling is not enough—you also have to understand.</p>
-          <p class="vb-intro">Linda Leinweber's educational path bears this signature: psychology degree, systemic organizational consulting, certified coaching, hypnotherapy. That is not a collection of certificates—that is a Five wing moving from one tool to the next because no single one is sufficient. Hypnotherapy stands out in particular: it engages where classical talk therapy hits its limits—in the deep subconscious, in body memory, in patterns that cannot be dissolved by insight alone. Anyone taking this path thinks in depths.</p>
+          <p class="vb-intro">Linda Leinweber's educational path bears this signature: psychology degree, systemic organizational consulting, certified coaching, hypnotherapy. That is not a collection of certificates—this shows a Five wing moving from one tool to the next because no single one is sufficient. Hypnotherapy stands out in particular: it engages where classical talk therapy hits its limits—in the deep subconscious, in body memory, in patterns that cannot be dissolved by insight alone. Anyone taking this path thinks in depths.</p>
           <p class="vb-intro">The Five wing also manifests in Leinweber's publishing work. Her book Frei und trotzdem verbunden ("Free yet connected")—a title that itself contemplates a paradox—is dedicated to relationship dynamics, attachment patterns, and conflict resolution. This is no classic self-help book: no "10 steps to a better relationship," but an attempt to understand why people get stuck in the exact same patterns and what it takes to find a way out. That is SX4w5 in its best element: depth that serves others.</p>
         </blockquote>
 
@@ -1093,8 +1093,8 @@ export function lindaLeinweberPortraitPage() {
         <h2 class="vb-section">6. The Chihuahua Showing Others the Way</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The healing path of the Four leads from the question "Why am I not like the others?" to the realization "What I am is unique, and it is mine." For the SX4w5, this means not tempering one's own intensity, but directing it—not against oneself, not against the world, but toward what is possible.</p>
-          <p class="vb-intro">Linda Leinweber walked this path in her biography. From experiencing panic attacks herself to a grounded education, from education to the platform, from the platform to a public voice for mental health. That is no self-optimization project. That is a Four that learned not to hide her inner world, but to carry it—and transformed that carrying into a craft that serves others.</p>
-          <p class="vb-intro">The Chihuahua from Altmünster on Lake Traunsee is not afraid of big feelings. It learned to read them. That is the sexual Four with a Five wing. That is Linda Leinweber.</p>
+          <p class="vb-intro">Linda Leinweber walked this path in her biography. From experiencing panic attacks herself to a grounded education, from education to the platform, from the platform to a public voice for mental health. That is no self-optimization project. Here you can see a Four that learned not to hide her inner world, but to carry it—and transformed that carrying into a craft that serves others.</p>
+          <p class="vb-intro">The Chihuahua from Altmünster on Lake Traunsee is not afraid of big feelings. It learned to read them. Here we see the sexual Four with a Five wing. That is Linda Leinweber.</p>
         </blockquote>
 
       </div>
@@ -1187,7 +1187,7 @@ export function melanieKreisPortraitPage() {
 
         <h2 class="vb-section">1. The Meerkat</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The meerkat lives in groups that cannot survive without cohesion. It is vigilant, cooperative, and knows its task in the collective. One always keeps watch while the others eat, dig, play. The meerkat itself needs no spotlight—it needs the group. And the group needs it. That is the social Six: security arises through belonging, through reliable service, through the knowledge that one is fulfilling one's place.</p>
+          <p class="vb-intro">The meerkat lives in groups that cannot survive without cohesion. It is vigilant, cooperative, and knows its task in the collective. One always keeps watch while the others eat, dig, play. The meerkat itself needs no spotlight—it needs the group. And the group needs it. This shows the social Six: security arises through belonging, through reliable service, through the knowledge that one is fulfilling one's place.</p>
           <p class="vb-intro">The German executive Melanie Kreis is CFO of DHL Group—one of the largest logistics corporations in the world. She is responsible for the finances of a DAX company with billions in revenue and employees in over 220 countries. And yet: when journalists describe her, the word ego is rarely dropped. She is described as reliable, precise, analytical, and as someone who works for the corporation, not for her own appearance. That is the meerkat: it keeps watch. Not for itself. For the group.</p>
         </blockquote>
 
@@ -1195,14 +1195,14 @@ export function melanieKreisPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Claudio Naranjo called the social Type 6 Duty because security for this subtype arises from making a contribution, serving the collective, being needed. The social Six (SO6) does not follow structures blindly—it understands them as a framework that creates reliability. Rules, systems, responsibilities: things one can refer to. The SO6 does not seek the stage. It seeks the task.</p>
           <p class="vb-intro">Kreis did not plan her career as a leap to the top, but as a series of responsibilities that she assumed. In 1997, she began at McKinsey & Company—a place that demands analytical thoroughness and structured thinking. In 2004, she moved to Deutsche Post AG, where she worked in corporate development and was significantly involved in the integration of the acquired Exel Group. In 2014, she assumed HR responsibility on the Management Board; in 2016, she became Chief Financial Officer. Not one step of that was a PR move. Every step was an expansion of responsibility.</p>
-          <p class="vb-intro">The fact that she stands at the top of a DAX 40 corporation as one of the few women is something she herself rarely says out loud. It is simply so—a byproduct of the work, not her goal. That is the SO6: those who truly fill their place do not need to talk about it.</p>
+          <p class="vb-intro">The fact that she stands at the top of a DAX 40 corporation as one of the few women is something she herself rarely says out loud. It is simply so—a byproduct of the work, not her goal. Here you can see the SO6: those who truly fill their place do not need to talk about it.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Five Wing: Analysis as a Foundation</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Five wing (w5) brings something decisive to the social Six: analytical depth, precision, and trust in knowledge as the foundation of every decision. Where an SO6 with a weaker Five wing seeks security through belonging, the Five wing adds another layer—the conviction that one can only be reliable for others if one truly understands things. The SO6w5 checks before trusting. And it trusts when the analysis is right.</p>
           <p class="vb-intro">Kreis studied physics—first at the Westfälische Wilhelms-Universität Münster, then with a Master of Science at the State University of New York at Stony Brook. Physics is the subject of precision: no assumption without proof, no model without verification. Afterward, she expanded her horizon with an MBA at INSEAD in France. Two worlds: the exact thinking of natural sciences and the strategic thinking of business. This combination has a clear logic—it is the SO6w5 in training: First understand. Then act. Then be reliable.</p>
-          <p class="vb-intro">In annual reports, analyst conferences, and investor meetings, Kreis is known for a language that remains clear and matter-of-fact. No exaggerations, no empty promises. That is the Five wing as a communication principle: Say what you know. And say it precisely.</p>
+          <p class="vb-intro">In annual reports, analyst conferences, and investor meetings, Kreis is known for a language that remains clear and matter-of-fact. No exaggerations, no empty promises. Here we see the Five wing as a communication principle: Say what you know. And say it precisely.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Work: From Physics to a DAX Corporation</h2>
@@ -1213,7 +1213,7 @@ export function melanieKreisPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow: The Sentinel on the Executive Board</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SO6w5 is its integrity. Kreis has succeeded in an environment that structurally hinders women in leadership positions as much as ever—not through loud self-promotion, but through persistent competence. She is a role model without striving to be one. Present without standing out. Effective without blustering. That is the SO6: stability as a message, reliability as a leadership principle.</p>
+          <p class="vb-intro">The light of the SO6w5 is its integrity. Kreis has succeeded in an environment that structurally hinders women in leadership positions as much as ever—not through loud self-promotion, but through persistent competence. She is a role model without striving to be one. Present without standing out. Effective without blustering. This shows the SO6: stability as a message, reliability as a leadership principle.</p>
           <p class="vb-intro">The shadow of the SO6w5 lies in the danger of binding oneself too much to existing structures and experiencing change as a threat rather than a design space. A global logistics corporation moves in a world of rapid transformation: digitalization, automation, geopolitical uncertainties, the change of entire supply chains. The SO6 can rely too much on the tried-and-true in such moments. And the Five wing can tend to lose itself in analysis instead of deciding. The tension between thoroughness and speed is the inner terrain of the SO6w5 in a leadership role.</p>
           <p class="vb-intro">Anyone observing Melanie Kreis publicly sees no such hesitation moments. What one sees is a woman who knows what she is doing. And who knows why.</p>
         </blockquote>
@@ -1221,7 +1221,7 @@ export function melanieKreisPortraitPage() {
         <h2 class="vb-section">6. The Meerkat That Keeps Watch</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Melanie Kreis is not a name that pops up on talk shows. She rarely gives interviews that go beyond professional topics. She writes no bestsellers on leadership and resilience. She keeps watch for one of the largest logistics corporations in the world, which moves millions of packages and letters daily and in doing so depends on precise financial control like air to breathe.</p>
-          <p class="vb-intro">That is the SO6w5: not a person of grand gestures, but one of great reliability. One who understands the system and therefore can shape within it. One who analyzes before deciding. One who bears responsibility without speaking of it. The meerkat keeps watch. Quietly. Precisely. Absolutely.</p>
+          <p class="vb-intro">Here you can see the SO6w5: not a person of grand gestures, but one of great reliability. One who understands the system and therefore can shape within it. One who analyzes before deciding. One who bears responsibility without speaking of it. The meerkat keeps watch. Quietly. Precisely. Absolutely.</p>
         </blockquote>
 
       </div>
@@ -1331,7 +1331,7 @@ export function pamelaReifPortraitPage() {
         <h2 class="vb-section">2. SX2: Seduction Through the Screen</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">This also includes the readiness for self-sacrifice: Pamela invests an enormous amount of time and energy—not to show off herself, but to give others the best. The SX2 fulfills itself through giving. And when the giving comes back—as a comment, as gratitude, as a shared video—that is no reward. It is the answer to the Two's deepest question: Am I truly important to you?</p>
-          <p class="vb-intro">The three wing is also the reason why Pamela Reif does not stick to just one thing. The Three diversifies, expands, develops—always with the goal of broadening the circle of those she can reach. App, book, brand, collaboration: This is no vanity project; this is the SX2w3 at work—the greater the reach, the more people the longing for connection can fulfill.</p>
+          <p class="vb-intro">The three wing is also the reason why Pamela Reif does not stick to just one thing. The Three diversifies, expands, develops—always with the goal of broadening the circle of those she can reach. App, book, brand, collaboration: This is no vanity project; here we see the SX2w3 at work—the greater the reach, the more people the longing for connection can fulfill.</p>
           <p class="vb-intro">Anyone who watches Pamela Reif's videos encounters no loud personality. She does not push herself forward, she does not scream, she does not exaggerate. Her energy is quiet—but it is there. Fully there. The gaze, the posture, the precision of movement: everything communicates the same thing—"I am doing this with you. You can do this." That is the quiet strength of the camel: no drama, no gesture, but a reliability that works deeper than any staging.</p>
         </blockquote>
 
@@ -1349,14 +1349,14 @@ export function pamelaReifPortraitPage() {
 
         <h2 class="vb-section">5. Energetic Impact: Emotional Intensity Behind the Calm</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The camel knows the desert. It knows how to carry. And it knows that even the longest journey has a moment when one arrives—and is simply grateful not to have been alone. That is Pamela Reif. That is the SX2w3 at its highest level of expression.</p>
+          <p class="vb-intro">The camel knows the desert. It knows how to carry. And it knows that even the longest journey has a moment when one arrives—and is simply grateful not to have been alone. That is Pamela Reif. This shows the SX2w3 at its highest level of expression.</p>
           <p class="vb-intro">The triple wing gives this energy form and direction &mdash; it channels the SX2's passionate longing for connection into concrete, high-quality offerings. The result is an energy that motivates and comforts at the same time: you don't have to be perfect. But I'm going with you.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Gift: Fitness Content as an Offer of Relationship</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Pamela Reif gives to the world is more than fitness. She showed a generation that your body is not an enemy to be conquered, but a home to be invited in &mdash; with dignity, with perseverance, with joy. <em>You Deserve This</em> is not just a book title: it is the message of the SX2w3 to everyone who knows the feeling of having to do something to care for them.</p>
-          <p class="vb-intro">The camel knows the desert. It knows how to carry. And it knows that even the longest journey has a moment when you arrive - and is just grateful to not have been alone. This is Pamela Reif. This is the SX2w3 at its highest level of expression.</p>
+          <p class="vb-intro">The camel knows the desert. It knows how to carry. And it knows that even the longest journey has a moment when you arrive - and is just grateful to not have been alone. This is Pamela Reif. Here you can see the SX2w3 at its highest level of expression.</p>
         </blockquote>
 
       </div>
@@ -1534,14 +1534,14 @@ export function taylorSwiftPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>sexual Five (SX5)</strong> is, according to Naranjo, the <strong>counter-type</strong> of the Five: the passion of avarice is least obvious here &ndash; because the sexual energy pulls the Five out of isolation and drives a search for deep, intense connection. Naranjo named this subtype <em>Trust</em>: the SX5 seeks the one bond that sustains everything &ndash; the partner, the friend, the audience &ndash; to whom it can truly open. But this openness is reserved for very few. For everyone else: spines.</p>
           <p class="vb-intro">In Taylor Swift, this shows in the way she organizes closeness. Publicly she is everywhere &ndash; on the charts, on stages, in the headlines. But what she truly thinks, feels, believes: that is in the songs. Not in interviews. Not on social media. In the lyrics, in the vault tracks, in the Easter eggs that only those who truly listen can decode. That is SX5: I reveal everything &ndash; but only to those who speak the language.</p>
-          <p class="vb-intro">The Five&apos;s hoarding manifests in Swift in a different domain: hoarding control. When her former label sold her first six albums to manager Scooter Braun without asking her, she did not respond with resignation. She re-recorded her albums &ndash; one by one, with the addition of <em>Taylor&apos;s Version</em> &ndash; and called on her fans to stream only those versions. That is the SX5 fighting for its most personal work: <em>This belongs to me. I am taking it back.</em></p>
+          <p class="vb-intro">The Five&apos;s hoarding manifests in Swift in a different domain: hoarding control. When her former label sold her first six albums to manager Scooter Braun without asking her, she did not respond with resignation. She re-recorded her albums &ndash; one by one, with the addition of <em>Taylor&apos;s Version</em> &ndash; and called on her fans to stream only those versions. Here we see the SX5 fighting for its most personal work: <em>This belongs to me. I am taking it back.</em></p>
         </blockquote>
 
         <h2 class="vb-section">3. The Four-wing: The Poet of Her Own World</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Four-wing (w4)</strong> brings the sexual Five a characteristic depth: the need to name the unique, to put the unsayable into language, to treat one&apos;s own experience as something that deserves meaning. The SX5w4 does not merely live &ndash; she observes how she lives, and transforms what she observes into art.</p>
-          <p class="vb-intro">Taylor Swift&apos;s songwriting is the purest example of this. She does not write about abstract feelings &ndash; she writes about specific moments, specific people, specific December evenings. She documents obsessively: diaries, secret notes, hidden clues in album artwork. That is the Four-wing: <em>I must hold on to what was. Because otherwise it will be lost. Because it is meaningful, even if no one sees it.</em></p>
-          <p class="vb-intro">The Four-wing also explains Swift&apos;s capacity for artistic reinvention. From country to pop to indie folk to electropop &ndash; each album is a new identity, a new perspective on herself. This is not a marketing strategy. That is the SX5w4: always searching for the image that captures more precisely what is within.</p>
+          <p class="vb-intro">Taylor Swift&apos;s songwriting is the purest example of this. She does not write about abstract feelings &ndash; she writes about specific moments, specific people, specific December evenings. She documents obsessively: diaries, secret notes, hidden clues in album artwork. This shows the Four-wing: <em>I must hold on to what was. Because otherwise it will be lost. Because it is meaningful, even if no one sees it.</em></p>
+          <p class="vb-intro">The Four-wing also explains Swift&apos;s capacity for artistic reinvention. From country to pop to indie folk to electropop &ndash; each album is a new identity, a new perspective on herself. This is not a marketing strategy. Here you can see the SX5w4: always searching for the image that captures more precisely what is within.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow</h2>
@@ -1554,7 +1554,7 @@ export function taylorSwiftPortraitPage() {
         <h2 class="vb-section">5. The Healing Path: From Hoarding to Trust</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The healing path of the Five leads from the question <em>Do I have enough?</em> to the realization <em>I am enough &ndash; even without controlling everything.</em> For the SX5w4 this means gradually extending the trust she places in her closest circle into the wider world: not telling every story herself, not pouring every attack into a song, not retaining every right of interpretation.</p>
-          <p class="vb-intro">The hedgehog that curls up is protecting itself &ndash; but it is not exploring the world. Taylor Swift has found moments of genuine opening throughout her work: <em>folklore</em> and <em>evermore</em>, written during lockdown, without an audience, without staging &ndash; just words and guitar. That is the SX5w4 on her healing path: when the spines fall, the softest thing emerges. And that is the strongest.</p>
+          <p class="vb-intro">The hedgehog that curls up is protecting itself &ndash; but it is not exploring the world. Taylor Swift has found moments of genuine opening throughout her work: <em>folklore</em> and <em>evermore</em>, written during lockdown, without an audience, without staging &ndash; just words and guitar. Here we see the SX5w4 on her healing path: when the spines fall, the softest thing emerges. And that is the strongest.</p>
         </blockquote>
 
       </div>
@@ -2228,7 +2228,7 @@ export function charlesLaughtonPortraitPage() {
         <h2 class="vb-section">5. The One Film He Ever Directed</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In 1955 Laughton directed for the only time in his career: "The Night of the Hunter," a film now regarded as one of the most influential and idiosyncratic works in American cinema. On release, however, it flopped at the box office and was savaged by critics &ndash; a rejection that struck Laughton so deeply that he never directed again, retreating for the rest of his life into the more familiar, safer role of actor.</p>
-          <p class="vb-intro">This is the Nine's inertia in its purest form: rather than facing the painful disappointment again, he returned to the familiar, where he felt safe &ndash; even though it cost him a second artistic career that, as the film's posthumous rediscovery showed, might well have been worth pursuing.</p>
+          <p class="vb-intro">This shows the Nine's inertia in its purest form: rather than facing the painful disappointment again, he returned to the familiar, where he felt safe &ndash; even though it cost him a second artistic career that, as the film's posthumous rediscovery showed, might well have been worth pursuing.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Gift: Weight That Carries Without Crushing</h2>
@@ -2367,7 +2367,7 @@ export function paulBocusePortraitPage() {
         <h2 class="vb-section">6. The Legacy: The Raccoon Who Never Lost His Star</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Paul Bocuse represents a rare constancy in an industry that lives on rapid change: nearly 55 uninterrupted years with three Michelin stars at the very same location, a record that only became fully visible once his death and the subsequent loss of the star in 2020 made it so. In 1989, the Gault-Millau guide crowned him "Chef of the Century" – a title that celebrated not a single peak, but decades of consistently high quality.</p>
-          <p class="vb-intro">From the son of a family of restaurateurs who put on his first chef's jacket at sixteen, to the namesake of the world's best-known culinary world championship: this is the self-preservation Three with a Four wing at its most enduring – substance that outlasts one's own lifetime, bought at the price of an inner life that never fully settled.</p>
+          <p class="vb-intro">From the son of a family of restaurateurs who put on his first chef's jacket at sixteen, to the namesake of the world's best-known culinary world championship: here you can see the self-preservation Three with a Four wing at its most enduring – substance that outlasts one's own lifetime, bought at the price of an inner life that never fully settled.</p>
         </blockquote>
 
       </div>
@@ -2722,7 +2722,7 @@ export function duncanHaldanePortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow of the self-preservation Five with a Six-wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light lies in persistence and in the modesty with which he looks at the prize: &lsquo;My work was a kind of sleeper.&rsquo; He also says: &lsquo;It didn&rsquo;t become such a big deal until my work got extended&rsquo; by others. That is a Five that does not make its contribution larger than it is.</p>
+          <p class="vb-intro">The light lies in persistence and in the modesty with which he looks at the prize: &lsquo;My work was a kind of sleeper.&rsquo; He also says: &lsquo;It didn&rsquo;t become such a big deal until my work got extended&rsquo; by others. Here we see a Five that does not make its contribution larger than it is.</p>
           <p class="vb-intro">The shadow of the Five is that one finds oneself alone with one&rsquo;s insight. In an interview in Stockholm Haldane said that one of the prize-winning papers took long to appear because it contradicted the doctrine then valid: &lsquo;Perhaps I didn&rsquo;t explain it clearly enough, but in any case, this paper was rejected by a number of journals.&rsquo; And it had been so clear to him that he could not understand why others did not appreciate his arguments. Whoever works in the castle also stays alone with contradiction at first.</p>
         </blockquote>
 

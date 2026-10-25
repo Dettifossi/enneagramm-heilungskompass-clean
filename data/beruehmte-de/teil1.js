@@ -30,7 +30,7 @@ export function abdAlFattahAsSisiPortraitPage() {
         <h2 class="vb-section">3. Der Einserflügel: Ordnung, Pflicht und moralische Strenge</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sozialen Zwei eine innere Achse aus Pflichtbewusstsein und dem Anspruch, im Sinne einer höheren Ordnung zu handeln, statt sich im bloßen Werben um Zustimmung zu verlieren. Bei as-Sisi zeigt sich das in seiner Selbstdarstellung als praktizierender, frommer Muslim ebenso wie in seiner erklärten Bewunderung für den säkularen Staatsgründer Gamal Abdel Nasser &ndash; eine Kombination, die weniger widersprüchlich ist, als sie zunächst scheint: In beiden Fällen geht es um eine strenge, von oben gesetzte Ordnung, der sich alle unterzuordnen haben, ob religiös oder staatlich begründet.</p>
-          <p class="vb-intro">2017 erklärte as-Sisi das Bevölkerungswachstum zur größten Bedrohung Ägyptens neben dem Terrorismus und startete unter dem Slogan <em>Zwei reichen</em> eine Kampagne zur Geburtenkontrolle &ndash; ein staatlich verordneter Eingriff bis in die private Familienplanung hinein, begründet mit der Sorge um das große Ganze. Genau das ist die SO2w1-Kombination in ihrer autoritären Schattierung: Fürsorge, die sich selbst das Recht zuspricht, die Lebensführung aller Einzelnen im Namen der Gemeinschaft zu regeln.</p>
+          <p class="vb-intro">2017 erklärte as-Sisi das Bevölkerungswachstum zur größten Bedrohung Ägyptens neben dem Terrorismus und startete unter dem Slogan <em>Zwei reichen</em> eine Kampagne zur Geburtenkontrolle &ndash; ein staatlich verordneter Eingriff bis in die private Familienplanung hinein, begründet mit der Sorge um das große Ganze. Genau das zeigt die SO2w1-Kombination in ihrer autoritären Schattierung: Fürsorge, die sich selbst das Recht zuspricht, die Lebensführung aller Einzelnen im Namen der Gemeinschaft zu regeln.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Aufstieg: Vom Geheimdienstchef zum Präsidenten</h2>
@@ -179,7 +179,7 @@ export function bastianPastewkaPortraitPage() {
         <h2 class="vb-section">6. Das Vermächtnis: Der Waschbär, der Verlässlichkeit zur Kunstform macht</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Bastian Pastewka gehört zu den prägendsten Figuren der deutschen Comedy-Landschaft – nicht, weil er lauter oder auffälliger war als andere, sondern weil er sein Handwerk mit einer Genauigkeit betrieb, die Kolleginnen und Kollegen wie Publikum gleichermaßen überzeugte.</p>
-          <p class="vb-intro">Vom akribischen Figurenschöpfer bei ›Die Wochenshow‹ bis zum international gefragten Synchronsprecher, von der eigenen Sitcom bis zur fast dreißigjährigen Partnerschaft mit Anke Engelke: Das ist die selbsterhaltende Drei mit Zweierflügel in ihrer reifsten Form – Können, das durch Beständigkeit und echte Verbundenheit erst seine volle Wirkung entfaltet.</p>
+          <p class="vb-intro">Vom akribischen Figurenschöpfer bei ›Die Wochenshow‹ bis zum international gefragten Synchronsprecher, von der eigenen Sitcom bis zur fast dreißigjährigen Partnerschaft mit Anke Engelke: Darin zeigt sich die selbsterhaltende Drei mit Zweierflügel in ihrer reifsten Form – Können, das durch Beständigkeit und echte Verbundenheit erst seine volle Wirkung entfaltet.</p>
         </blockquote>
 
       </div>
@@ -371,7 +371,7 @@ export function dhapanbalYunupinguPortraitPage() {
         <h2 class="vb-section">3. Der Neunerflügel: Stille Kontinuität statt Bühne</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Neunerflügel</strong> verleiht der selbsterhaltenden Acht etwas, das einer Acht mit schwach ausgeprägtem Neunerflügel oft schwerfällt: Geduld, Verschmelzung mit der Gemeinschaft und die Fähigkeit, im Hintergrund zu wirken, statt im Vordergrund zu kämpfen. Die SE8w9 sichert ihr Territorium nicht durch Konfrontation, sondern durch beharrliche, stille Präsenz.</p>
-          <p class="vb-intro">Neben ihrer Musik ist Yunupingu auch als bildende Künstlerin tätig – im Rahmen des <em>Seven Sisters</em>-Projekts koordinierte sie unter anderem Radierprozesse, eine Arbeit, die Geduld, Präzision und handwerkliche Kontinuität verlangt statt spektakulärer Selbstdarstellung. Das ist der Neunerflügel: Kunst als geteilte, gemeinschaftliche Praxis, nicht als Ausdruck des Einzelnen allein.</p>
+          <p class="vb-intro">Neben ihrer Musik ist Yunupingu auch als bildende Künstlerin tätig – im Rahmen des <em>Seven Sisters</em>-Projekts koordinierte sie unter anderem Radierprozesse, eine Arbeit, die Geduld, Präzision und handwerkliche Kontinuität verlangt statt spektakulärer Selbstdarstellung. Hier wirkt der Neunerflügel: Kunst als geteilte, gemeinschaftliche Praxis, nicht als Ausdruck des Einzelnen allein.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Das Werk: Von Deadly Hearts bis Bidiwidi</h2>
@@ -454,7 +454,7 @@ export function editaGruberovaPortraitPage() {
         <h2 class="vb-section">6. Das Vermächtnis: Der Waschbär, der eine ganze Fachrichtung neu definierte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Edita Gruberová gilt bis heute als eine der bedeutendsten Koloratursopranistinnen der Operngeschichte – nicht wegen einer einzigen legendären Vorstellung, sondern wegen einer über ein halbes Jahrhundert reichenden, gleichbleibend präzisen künstlerischen Laufbahn, die weit über das hinausging, was in ihrem Fach als normal galt.</p>
-          <p class="vb-intro">Von der jungen Konservatoriumsschülerin in Bratislava über die riskante Flucht nach Wien bis zur ›Königin der Koloratur‹, die noch mit zweiundsiebzig Jahren höchste technische Ansprüche erfüllte: Das ist die selbsterhaltende Drei mit Zweierflügel in ihrer reifsten Form – Meisterschaft, die sich nicht in einem einzigen glänzenden Moment erschöpft, sondern über Jahrzehnte hinweg beständig weitergetragen wird.</p>
+          <p class="vb-intro">Von der jungen Konservatoriumsschülerin in Bratislava über die riskante Flucht nach Wien bis zur ›Königin der Koloratur‹, die noch mit zweiundsiebzig Jahren höchste technische Ansprüche erfüllte: Hier zeigt sich die selbsterhaltende Drei mit Zweierflügel in ihrer reifsten Form – Meisterschaft, die sich nicht in einem einzigen glänzenden Moment erschöpft, sondern über Jahrzehnte hinweg beständig weitergetragen wird.</p>
         </blockquote>
 
       </div>
@@ -497,7 +497,7 @@ export function franzLisztPortraitPage() {
         <h2 class="vb-section">2. Die sexuelle Sieben: Begeisterung ohne Vorbehalt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> sucht nicht die vorsichtige Prüfung, sondern die vollständige Hingabe an das, was sie begeistert. Naranjo nannte diesen Subtyp <em>Suggestibility</em>: die Fähigkeit, sich selbst und andere restlos in einen Zustand der Begeisterung hineinzuziehen. Zwischen 1839 und 1847 tourte Liszt als reisender Virtuose durch ganz Europa, gab oft mehrere Konzerte pro Woche in verschiedenen Städten – ein Lebenstempo, das reine Erschöpfung für die meisten Musiker seiner Zeit bedeutet hätte, für Liszt aber der natürliche Ausdruck seiner unerschöpflichen Begeisterungsfähigkeit war.</p>
-          <p class="vb-intro">Diese Suggestivkraft zeigte sich auch als Förderer: Liszt unterrichtete in seinen späteren Jahren in Weimar und Rom Hunderte Schüler kostenlos, öffnete sein Haus für jeden ernsthaft Talentierten, der zu ihm kam, und setzte sich mit Feuereifer für Komponisten ein, deren Musik er für zukunftsweisend hielt – darunter Richard Wagner, Edvard Grieg und Bedřich Smetana. Genau das ist die SX7: keine abgewogene Förderung nach Kriterien, sondern der volle, ansteckende Ausbruch der Begeisterung für das, was ihn faszinierte.</p>
+          <p class="vb-intro">Diese Suggestivkraft zeigte sich auch als Förderer: Liszt unterrichtete in seinen späteren Jahren in Weimar und Rom Hunderte Schüler kostenlos, öffnete sein Haus für jeden ernsthaft Talentierten, der zu ihm kam, und setzte sich mit Feuereifer für Komponisten ein, deren Musik er für zukunftsweisend hielt – darunter Richard Wagner, Edvard Grieg und Bedřich Smetana. Genau das zeigt die SX7: keine abgewogene Förderung nach Kriterien, sondern der volle, ansteckende Ausbruch der Begeisterung für das, was ihn faszinierte.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Achterflügel: Der offene Kampf um die neue Musik</h2>
@@ -713,7 +713,7 @@ export function indraNooyiPortraitPage() {
         <h2 class="vb-section">3. Der Siebenerfl\u00fcgel: Weitsicht und Expansionslust</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Siebenerfl\u00fcgel</strong> verleiht der selbsterhaltenden Acht eine Qualität, die eine SE8 mit schwach ausgeprägtem Siebenerflügel nicht automatisch mitbringt: den Blick nach vorn, die Lust am Neuen, die Bereitschaft, ganze Gesch\u00e4ftsfelder neu zu denken, statt nur das Bestehende zu verteidigen. Die SE8w7 verwaltet nicht nur ihr Territorium &ndash; sie erweitert es, mit einer Energie, die fast unternehmerisch-jugendlich wirkt.</p>
-          <p class="vb-intro">Nooyi pr\u00e4gte bei PepsiCo die Strategie \u201ePerformance with Purpose" &ndash; die bewusste Verschiebung des Portfolios weg von reinen Zucker- und Fettprodukten hin zu ges\u00fcnderen Alternativen, verbunden mit Nachhaltigkeitszielen bei Wasser, Verpackung und Ern\u00e4hrung. Das war kein Marketing-Trick, sondern eine strategische Neuausrichtung eines gesamten Weltkonzerns \u00fcber ein Jahrzehnt hinweg &ndash; eine Vision, die weit \u00fcber das Quartalsergebnis hinausblickte. Genau das ist der Siebenerfl\u00fcgel: das Territorium nicht nur zu halten, sondern es neu zu vermessen.</p>
+          <p class="vb-intro">Nooyi pr\u00e4gte bei PepsiCo die Strategie \u201ePerformance with Purpose" &ndash; die bewusste Verschiebung des Portfolios weg von reinen Zucker- und Fettprodukten hin zu ges\u00fcnderen Alternativen, verbunden mit Nachhaltigkeitszielen bei Wasser, Verpackung und Ern\u00e4hrung. Das war kein Marketing-Trick, sondern eine strategische Neuausrichtung eines gesamten Weltkonzerns \u00fcber ein Jahrzehnt hinweg &ndash; eine Vision, die weit \u00fcber das Quartalsergebnis hinausblickte. Genau das zeigt der Siebenerfl\u00fcgel: das Territorium nicht nur zu halten, sondern es neu zu vermessen.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Das Werk: Zw\u00f6lf Jahre an der Spitze von PepsiCo</h2>
@@ -724,7 +724,7 @@ export function indraNooyiPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE8w7 ist ihre <strong>langfristige Weitsicht gepaart mit Durchsetzungskraft</strong>. Nooyi traf unpopul\u00e4re strategische Entscheidungen &ndash; etwa die Investition in ges\u00fcndere Produkte, als der Markt noch auf Zucker und Fett setzte &ndash; und hielt an ihnen fest, auch gegen den Widerstand von Analysten, die kurzfristige Gewinne forderten. Das ist die SE8 in ihrer reifsten Form: Sicherheit nicht f\u00fcr das n\u00e4chste Quartal, sondern f\u00fcr die n\u00e4chste Generation.</p>
+          <p class="vb-intro">Das Licht der SE8w7 ist ihre <strong>langfristige Weitsicht gepaart mit Durchsetzungskraft</strong>. Nooyi traf unpopul\u00e4re strategische Entscheidungen &ndash; etwa die Investition in ges\u00fcndere Produkte, als der Markt noch auf Zucker und Fett setzte &ndash; und hielt an ihnen fest, auch gegen den Widerstand von Analysten, die kurzfristige Gewinne forderten. Hier zeigt sich die SE8 in ihrer reifsten Form: Sicherheit nicht f\u00fcr das n\u00e4chste Quartal, sondern f\u00fcr die n\u00e4chste Generation.</p>
           <p class="vb-intro">Der Schatten zeigt sich in einer H\u00e4rte, die von Mitarbeitern und Analysten zuweilen als unnachgiebig, distanziert oder \u00fcberm\u00e4\u00dfig kontrollierend beschrieben wurde. Als aktivistische Investoren 2012 forderten, das Snackgesch\u00e4ft von PepsiCo abzuspalten, verteidigte Nooyi ihr Territorium mit aller Konsequenz &ndash; und setzte sich durch, aber nicht ohne \u00f6ffentlichen Machtkampf. Die selbsterhaltende Acht gibt ihr Territorium nicht freiwillig ab, selbst wenn andere gute Argumente daf\u00fcr vorbringen.</p>
         </blockquote>
 
@@ -1094,7 +1094,7 @@ export function markZuckerbergPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Sechserfl\u00fcgel (w6)</strong> bringt der sexuellen F\u00fcnf ein tiefes Sicherheitsbed\u00fcrfnis, ein Denken in Bedrohungsszenarien und eine au\u00dferordentliche Loyalit\u00e4t gegen\u00fcber dem inneren Kreis. Die SX5w6 baut keine offenen Strukturen. Sie baut Systeme, die sie versteht und kontrolliert &ndash; weil Kontrolle Sicherheit bedeutet.</p>
           <p class="vb-intro">Das zeigt sich bei Zuckerberg in seiner Art, Meta zu f\u00fchren. Er ist keine F\u00fchrungskraft aus \u00dcberzeugung. Die wichtigsten Entscheidungen &ndash; Produktstrategie, Akquisitionen, die grundlegenden architektonischen Entscheidungen der Plattform &ndash; trifft er selbst oder mit einem winzigen Kreis enger Vertrauter. Der Kauf von Instagram (2012) und WhatsApp (2014) f\u00fcr jeweils Milliarden Dollar, als beide noch kaum Umsatz machten &ndash; das waren keine Entscheidungen aus Datenbankmodellen. Das war der Sechserfl\u00fcgel, der potenzielle Bedrohungen fr\u00fch erkennt und eliminiert: <em>Was mich gef\u00e4hrden k\u00f6nnte, will ich lieber kontrollieren.</em></p>
-          <p class="vb-intro">Der Sechserfl\u00fcgel zeigt sich auch in Zuckerbergs ungew\u00f6hnlicher Reaktion auf Kritik und Druck: Er wird nicht emotional, er wird systematischer. Auf die Facebook-Anh\u00f6rungen im US-Kongress (2018) bereitete er sich mit einer Intensit\u00e4t vor, die Insider als fast be\u00e4ngstigend beschrieben. Stundenlange Vorbereitung, auswendig gelernte Antworten, kein Anzeichen von Nervosit\u00e4t &ndash; aber auch kein Anzeichen von Spontaneit\u00e4t. Das ist die SX5w6 unter Beobachtung: Sie gibt nicht nach. Sie bereitet sich vor.</p>
+          <p class="vb-intro">Der Sechserfl\u00fcgel zeigt sich auch in Zuckerbergs ungew\u00f6hnlicher Reaktion auf Kritik und Druck: Er wird nicht emotional, er wird systematischer. Auf die Facebook-Anh\u00f6rungen im US-Kongress (2018) bereitete er sich mit einer Intensit\u00e4t vor, die Insider als fast be\u00e4ngstigend beschrieben. Stundenlange Vorbereitung, auswendig gelernte Antworten, kein Anzeichen von Nervosit\u00e4t &ndash; aber auch kein Anzeichen von Spontaneit\u00e4t. Darin zeigt sich die SX5w6 unter Beobachtung: Sie gibt nicht nach. Sie bereitet sich vor.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Licht und Schatten</h2>
@@ -1223,7 +1223,7 @@ export function ninaChubaPortraitPage() {
         <h2 class="vb-section">3. Der Dreierfl\u00fcgel: Strahlkraft mit Substanz</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Dreierfl\u00fcgel (w3)</strong> bringt der sozialen Zwei etwas Entscheidendes: den Antrieb zur Wirksamkeit, zur sichtbaren Leistung, zum Erfolg, der das Gute verst\u00e4rkt. Eine SO2 mit schwach ausgeprägtem Dreierflügel könnte sich im Geben verlieren – immer für andere da, immer erreichbar, ohne zu fragen, wohin das führt. Ein stark ausgeprägter Dreierflügel setzt Ziele. Er sagt: <em>Wenn du wirklich etwas bewegen willst, musst du auch ankommen. Musst du auch strahlen.</em></p>
-          <p class="vb-intro">Bei Nina Chuba ist dieser Fl\u00fcgel in ihrer B\u00fchnenpr\u00e4senz und ihrer Professionalit\u00e4t sp\u00fcrbar. Sie ist nicht nur herzlich &ndash; sie ist wirksam. Die Songs sind produziert, die Auftritte pr\u00e4zise, die Marke koh\u00e4rent. Das ist kein Widerspruch zur Echtheit der Zwei. Das ist der Dreierfl\u00fcgel, der daf\u00fcr sorgt, dass die W\u00e4rme auch wirklich ankommt &ndash; und nicht im Rauschen untergeht.</p>
+          <p class="vb-intro">Bei Nina Chuba ist dieser Fl\u00fcgel in ihrer B\u00fchnenpr\u00e4senz und ihrer Professionalit\u00e4t sp\u00fcrbar. Sie ist nicht nur herzlich &ndash; sie ist wirksam. Die Songs sind produziert, die Auftritte pr\u00e4zise, die Marke koh\u00e4rent. Das ist kein Widerspruch zur Echtheit der Zwei. Hier wirkt der Dreierfl\u00fcgel, der daf\u00fcr sorgt, dass die W\u00e4rme auch wirklich ankommt &ndash; und nicht im Rauschen untergeht.</p>
           <p class="vb-intro">Die SO2w3 tr\u00e4gt in sich die seltene Kombination aus echtem Mitgef\u00fchl und strategischer Klarheit. Sie will verbinden &ndash; und sie wei\u00df, wie man das so gestaltet, dass es auch wirklich tr\u00e4gt. Das ist kein Kalk\u00fcl. Das ist die nat\u00fcrliche Synergie dieser beiden Energien.</p>
         </blockquote>
 
@@ -1636,7 +1636,7 @@ export function isadoraDuncanPortraitPage() {
         <h2 class="vb-section">6. Das Kamel, dessen Schal zum Symbol wurde</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Isadora Duncan starb 1927 in Nizza unter tragischen Umständen: Ihr langer Seidenschal verfing sich in einem Rad des Autos, in dem sie mitfuhr, und erdrosselte sie – ein plötzliches, öffentliches Ende, das ebenso dramatisch war wie das Leben, das ihm vorausging.</p>
-          <p class="vb-intro">Vom kindlichen Bruch mit dem klassischen Ballett über die weltweite Verbreitung ihres eigenen Tanzstils bis zum abrupten, symbolisch aufgeladenen Tod: Das ist die sexuelle Zwei mit Dreierflügel in einer ihrer konsequentesten Formen – eine Hingabe an einzelne Menschen und eine künstlerische Vision, die sich nie den Regeln ihrer Zeit unterordnete.</p>
+          <p class="vb-intro">Vom kindlichen Bruch mit dem klassischen Ballett über die weltweite Verbreitung ihres eigenen Tanzstils bis zum abrupten, symbolisch aufgeladenen Tod: Hier zeigt sich die sexuelle Zwei mit Dreierflügel in einer ihrer konsequentesten Formen – eine Hingabe an einzelne Menschen und eine künstlerische Vision, die sich nie den Regeln ihrer Zeit unterordnete.</p>
         </blockquote>
 
       </div>
@@ -1810,7 +1810,7 @@ export function fayeDunawayPortraitPage() {
         <h2 class="vb-section">2. Die sexuelle Eins: Kompromisslosigkeit statt Reformanspruch</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> sucht nach Naranjo nicht die Reform der ganzen Welt wie die soziale Eins, sondern lebt ihre Kompromisslosigkeit dort aus, wo sie unmittelbar wirkt – im eigenen Handwerk, in der eigenen Rolle, in der eigenen Beziehung zur Arbeit. Bei Dunaway zeigte sich das in einer geradezu sprichwörtlichen Detailbesessenheit: Sie ließ sich zwischen Einstellungen wiederholt die Lippen eincremen, weil selbst dieses kleine Detail nicht dem Zufall überlassen werden durfte – ein Verhalten, das Produktionen verlangsamte, aber für sie schlicht notwendig war.</p>
-          <p class="vb-intro">Für „Mommie Dearest" tauchte sie mit method-artiger Vollständigkeit in die Rolle der Joan Crawford ein – ohne Halbheiten, mit spürbarem persönlichem Preis, gerade als sie selbst frisch Mutter geworden war. Genau das ist die SX1-Intensität: keine abgestufte Hingabe, sondern vollständiges Engagement, das keine Kompromisse kennt.</p>
+          <p class="vb-intro">Für „Mommie Dearest" tauchte sie mit method-artiger Vollständigkeit in die Rolle der Joan Crawford ein – ohne Halbheiten, mit spürbarem persönlichem Preis, gerade als sie selbst frisch Mutter geworden war. Genau das zeigt die SX1-Intensität: keine abgestufte Hingabe, sondern vollständiges Engagement, das keine Kompromisse kennt.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Zweierflügel: Intensität, die sich in Beziehungen entlädt</h2>
@@ -1887,7 +1887,7 @@ export function thomasMannPortraitPage() {
         <h2 class="vb-section">4. Die verdrängte Leidenschaft hinter der Fassade</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Manns Tagebücher, die er testamentarisch erst zwanzig Jahre nach seinem Tod freigeben ließ, offenbarten eine tief empfundene homoerotische Sehnsucht, die er zeitlebens nie auslebte &ndash; intensive, nie eingestandene Verliebtheiten etwa in den jungen Klaus Heuser oder Jahrzehnte zuvor in Paul Ehrenberg. Statt diese Leidenschaft direkt zu verfolgen, wie es ein sexueller Subtyp eher täte, kanalisierte Mann sie vollständig in kontrollierte literarische Form &ndash; am deutlichsten in der Novelle „Der Tod in Venedig" (1912), in der genau diese verbotene, nie berührte Sehnsucht zur zentralen Handlung wird.</p>
-          <p class="vb-intro">Das ist die SO1-Handschrift in Reinform: Nicht die Verfolgung des privaten Verlangens steht im Zentrum, sondern die Wahrung der öffentlichen Form &ndash; die Leidenschaft wird nicht unterdrückt, weil sie nicht da wäre, sondern weil die soziale Korrektheit als höherer Wert gilt. Genau diese Spannung zwischen kontrollierter Fassade und ungelebter Intensität durchzieht sein gesamtes Werk, von „Buddenbrooks" (1901) über „Der Zauberberg" (1924) bis zu „Doktor Faustus" (1947).</p>
+          <p class="vb-intro">Hier wirkt die SO1-Handschrift in Reinform: Nicht die Verfolgung des privaten Verlangens steht im Zentrum, sondern die Wahrung der öffentlichen Form &ndash; die Leidenschaft wird nicht unterdrückt, weil sie nicht da wäre, sondern weil die soziale Korrektheit als höherer Wert gilt. Genau diese Spannung zwischen kontrollierter Fassade und ungelebter Intensität durchzieht sein gesamtes Werk, von „Buddenbrooks" (1901) über „Der Zauberberg" (1924) bis zu „Doktor Faustus" (1947).</p>
         </blockquote>
 
         <h2 class="vb-section">5. Licht und Schatten der sozialen Eins mit Neunerflügel</h2>
@@ -1942,7 +1942,7 @@ export function willYunLeePortraitPage() {
         <h2 class="vb-section">3. Der Zweierflügel: Die eigene Familiengeschichte wird zur Rolle</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Zweierflügel</strong> verleiht der sozialen Drei eine warme, fürsorgliche Note, die über reines Statusdenken hinausgeht. Bei Lee zeigt sich das nicht abstrakt, sondern in einer der bewegendsten Wendungen seiner Karriere: Als sein Sohn Cash im Alter von drei Jahren die ersten Schlaganfälle erlitt und schließlich mit der seltenen Moyamoya-Krankheit diagnostiziert wurde – nach einem Jahr fehlgeleiteter Chemotherapie –, brachte Lee genau diese Geschichte 2023 als Vorlage für eine Folge von „The Good Doctor" ein.</p>
-          <p class="vb-intro">Er beschrieb die Episode als eine, die „die Essenz" dessen einfange, was seine Familie durchlebt hatte – eine Person, die ihren öffentlichsten Erfolg nutzte, um eine private, verletzliche Erfahrung sichtbar zu machen, statt sie zu verbergen. Genau das ist der Zweierflügel: Fürsorge, die nicht im Verborgenen bleibt, sondern zum eigenen Ausdrucksmittel wird.</p>
+          <p class="vb-intro">Er beschrieb die Episode als eine, die „die Essenz" dessen einfange, was seine Familie durchlebt hatte – eine Person, die ihren öffentlichsten Erfolg nutzte, um eine private, verletzliche Erfahrung sichtbar zu machen, statt sie zu verbergen. Genau das zeigt der Zweierflügel: Fürsorge, die nicht im Verborgenen bleibt, sondern zum eigenen Ausdrucksmittel wird.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Das Werk: Vom Bösewicht zum Publikumsliebling</h2>
@@ -2091,7 +2091,7 @@ export function natalieDormerPortraitPage() {
         <h2 class="vb-section">6. Das Vermächtnis: Vorbereitung als Form der Selbstbehauptung</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Natalie Dormer bleibt eine Schauspielerin, die sich ihre Rollen nie einfach zuweisen ließ, sondern sie sich durch eigene Recherche und klar formulierte Ansprüche aneignete. Von Anne Boleyn über Margaery Tyrell bis Cressida zieht sich dasselbe Muster: gründliche Vorbereitung als Grundlage für eine Selbstbehauptung, die sich nicht wegdiskutieren lässt.</p>
-          <p class="vb-intro">Das ist die sexuelle Sechs mit Fünferflügel in ihrer produktivsten Form: kein Rückzug vor Unsicherheit, sondern eine Wölfin, die sich durch eigenes Wissen so gründlich rüstet, dass sie jede Konfrontation mit offenem Visier führen kann.</p>
+          <p class="vb-intro">Darin zeigt sich die sexuelle Sechs mit Fünferflügel in ihrer produktivsten Form: kein Rückzug vor Unsicherheit, sondern eine Wölfin, die sich durch eigenes Wissen so gründlich rüstet, dass sie jede Konfrontation mit offenem Visier führen kann.</p>
         </blockquote>
 
       </div>

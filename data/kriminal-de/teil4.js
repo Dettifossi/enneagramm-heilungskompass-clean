@@ -101,7 +101,7 @@ export function ameliaDyerPortraitPage() {
         dieses Doppelleben über nahezu drei Jahrzehnte.</p>
         <p class="vb-intro"><strong>d) Gefährlichkeit ohne Sichtbarkeit:</strong>
         Dyer war nicht laut, nicht offensichtlich bedrohlich. Sie war die Frau von nebenan, der
-        man sein Neugeborenes anvertraute. Das ist die SX8w9 in ihrer gefährlichsten Form: die
+        man sein Neugeborenes anvertraute. Hier zeigt sich die SX8w9 in ihrer gefährlichsten Form: die
         Acht, die man nicht als Acht erkennt, bis das Kind bereits in ihrer Obhut ist.</p>
       </div>
 
@@ -282,7 +282,7 @@ export function alexMurdaughPortraitPage() {
         <p class="vb-intro"><strong>a) Warm und zugewandt:</strong>
         Wer <strong>Alex Murdaugh</strong> begegnete, beschrieb ihn als offen,
         herzlich und aufmerksam \u2013 einen Mann, der zuh\u00f6rte,
-        den Namen kannte, sich erinnerte. Das ist der Zweierfl\u00fcgel
+        den Namen kannte, sich erinnerte. Darin zeigt sich der Zweierfl\u00fcgel
         der Eins: Beziehungsaufbau als nat\u00fcrliches Talent,
         als Mittel der Bindung. Der Blick der SX1w2 signalisiert
         echtes Interesse \u2013 und das ist keine vollst\u00e4ndige L\u00fcge:
@@ -362,7 +362,7 @@ export function alexMurdaughPortraitPage() {
         Frau und Sohn erschoss, weil die unmittelbar
         bevorstehende Aufdeckung seiner Finanzdelikte
         den Zusammenbruch seines \u00f6ffentlichen Bildes
-        bedeutet h\u00e4tte. Das ist die Einser-Logik
+        bedeutet h\u00e4tte. Hier wirkt die Einser-Logik
         in ihrer zerst\u00f6rerischsten Form: Das Bild \u2013
         die Fassade der Ordnung, des Ansehens,
         der Integrit\u00e4t \u2013 wird als sch\u00fctzenswerter
@@ -396,7 +396,7 @@ export function alexMurdaughPortraitPage() {
         f\u00fcr die Person hielten. Wer man ist und
         wie man wirkt \u2013 zwischen diesen beiden
         Ebenen gab es f\u00fcr ihn offenbar keine
-        innere Spannung mehr. Das ist die SX1-Desintegration
+        innere Spannung mehr. Hier zeigt sich die SX1-Desintegration
         in ihrer vollst\u00e4ndigsten Auspr\u00e4gung:
         Das Bild hat das Selbst vollst\u00e4ndig ersetzt.</p>
       </div>
@@ -443,7 +443,7 @@ export function alexMurdaughPortraitPage() {
         gewinnend, charmant, souver\u00e4n.
         Wer ihm begegnete, erlebte zuerst
         die Anziehung \u2013 nicht die Gefahr.
-        Das ist das SX1w2-Muster ungefiltert:
+        Darin zeigt sich das SX1w2-Muster ungefiltert:
         Die Intensit\u00e4t ist verf\u00fchrerisch,
         bevor sie kontrollierend wird.</p>
         <p class="vb-intro"><strong>b) Blitzschnell im entscheidenden Moment:</strong>
@@ -559,7 +559,7 @@ export function alexMurdaughPortraitPage() {
         beschrieben seine L\u00fcgen als strukturierte,
         komplex aufgebaute Narrative \u2013
         nicht als nerv\u00f6ses Improvisieren.
-        Das ist die Einser-Pr\u00e4zision im Dienst der Verleugnung:
+        Hier wirkt die Einser-Pr\u00e4zision im Dienst der Verleugnung:
         selbst unter maximalem Druck
         konstruiert die Eins ein geordnetes Bild.</p>
       </div>
@@ -739,7 +739,7 @@ export function andreiTschikatiloPortraitPage() {
         <p class="vb-intro"><strong>c) Intensit\xe4t hinter Stille:</strong>
         Im Verh\xf6r nach seiner Verhaftung beschrieben Ermittler
         eine Intensit\xe4t, die pl\xf6tzlich sichtbar wurde \u2013 als habe
-        sich eine Schleuse ge\xf6ffnet. Das ist das Muster der SE1w9:
+        sich eine Schleuse ge\xf6ffnet. Hier zeigt sich das Muster der SE1w9:
         Lange Stille, dann unerwartete Eruption der aufgestauten Energie.</p>
       </div>
 
@@ -764,7 +764,7 @@ export function andreiTschikatiloPortraitPage() {
         \xfcber zw\xf6lf Jahre eine eiserne Geduld: zwischen den Taten
         lebte er sein b\u00fcrgerliches Leben, wartete, kontrollierte
         den inneren Druck \u2013 bis er ihn nicht mehr kontrollieren konnte.
-        Diese Geduld ist die SE1w9 in ihrer dunkelsten Form.</p>
+        Diese Geduld zeigt die SE1w9 in ihrer dunkelsten Form.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
@@ -824,7 +824,7 @@ export function andreiTschikatiloPortraitPage() {
         weil das sowjetische System nicht glauben konnte,
         dass ein Parteimitglied und Familienmensch ein Serienm\xf6rder war.
         Seine b\u00fcrgerliche Fassade sch\u00fctzte ihn institutionell.
-        Das ist die SE1w9 als systemische Fehlfunktion:
+        Darin zeigt sich die SE1w9 als systemische Fehlfunktion:
         Das Image der Korrektheit als Schutzpanzer.</p>
         <p class="vb-intro"><strong>f) Kein Wachstum, keine Integration:</strong>
         Der Wachstumspunkt der Eins ist die Sieben \u2013 Leichtigkeit,
@@ -1092,13 +1092,13 @@ export function bonnieParkerPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die sexuelle Vier: Die tragische Liebe als Kunstwerk</h3>
         <p class="vb-intro">Naranjo nannte die <strong>sexuelle Vier (SX4)</strong> den Subtyp des <em>Konkurrenzneids</em> &ndash; eine Intensit\xe4t, die sich ganz auf die eine, au\xdfergew\xf6hnliche Beziehung richtet, oft getragen von einer d\xfcsteren Vorahnung des eigenen Untergangs, die die Liebe nicht schm\xe4lert, sondern erst vollst\xe4ndig macht. W\xe4hrend der gesamten Flucht schrieb Bonnie Gedichte, die ihre Beziehung zu Clyde chronisierten &ndash; darunter &bdquo;The Story of Suicide Sal&ldquo; und &bdquo;The Trail's End&ldquo;, das ihren eigenen gewaltsamen Tod fast prophetisch vorwegnahm.</p>
-        <p class="vb-intro">Das ist die SX4 in Reinform: Die Beziehung wird nicht einfach gelebt, sondern zugleich als Erz\xe4hlung gestaltet &ndash; eine Liebe, die sich selbst als tragisch, einzigartig und unwiederholbar begreift, und die genau aus dieser Tragik ihre Intensit\xe4t bezieht. Bonnie wusste um das wahrscheinliche Ende und schrieb trotzdem &ndash; oder gerade deswegen &ndash; weiter daran, es literarisch zu gestalten.</p>
+        <p class="vb-intro">Hier wirkt die SX4 in Reinform: Die Beziehung wird nicht einfach gelebt, sondern zugleich als Erz\xe4hlung gestaltet &ndash; eine Liebe, die sich selbst als tragisch, einzigartig und unwiederholbar begreift, und die genau aus dieser Tragik ihre Intensit\xe4t bezieht. Bonnie wusste um das wahrscheinliche Ende und schrieb trotzdem &ndash; oder gerade deswegen &ndash; weiter daran, es literarisch zu gestalten.</p>
       </div>
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Dreierfl\xfcgel: Die bewusste Inszenierung</h3>
         <p class="vb-intro">Eine SX4 mit schw\xe4cher ausgepr\xe4gtem Dreierfl\xfcgel h\xe4tte ihre Gef\xfchle vermutlich privat verarbeitet, ohne den Drang, sie einem Publikum zu zeigen. Bei Bonnie trat stattdessen ein ausgepr\xe4gtes Bewusstsein f\xfcr die eigene \xf6ffentliche Wirkung hervor: Sie schickte ihre Gedichte gezielt an Zeitungen. Die inzwischen ikonischen Fotos, auf denen sie mit Zigarre und Pistole posiert, waren bewusst inszeniert &ndash; kalkulierte Bilder, die zur Legende von &bdquo;Bonnie and Clyde&ldquo; wesentlich beitrugen.</p>
-        <p class="vb-intro">Das ist der Dreierfl\xfcgel bei der Vier: Die eigene Tragik bleibt nicht privates Erleben, sondern wird bewusst nach au\xdfen getragen, gestaltet, ver\xf6ffentlicht. Bonnie wollte nicht nur f\xfchlen, was sie f\xfchlte &ndash; sie wollte, dass die Welt sah, was sie f\xfchlte, und dass die Geschichte, die daraus wurde, so blieb, wie sie sie selbst erz\xe4hlt hatte.</p>
+        <p class="vb-intro">Hier zeigt sich der Dreierfl\xfcgel bei der Vier: Die eigene Tragik bleibt nicht privates Erleben, sondern wird bewusst nach au\xdfen getragen, gestaltet, ver\xf6ffentlicht. Bonnie wollte nicht nur f\xfchlen, was sie f\xfchlte &ndash; sie wollte, dass die Welt sah, was sie f\xfchlte, und dass die Geschichte, die daraus wurde, so blieb, wie sie sie selbst erz\xe4hlt hatte.</p>
       </div>
 
       <div class="vb-section">
@@ -1570,7 +1570,7 @@ export function dennisRaderPortraitPage() {
         Zwischen 1977 und 1991 t\u00f6tete <strong>Rader</strong> nicht \u2013 vierzehn Jahre Pause.
         Die BTK-Aktivit\u00e4ten kehrten erst in Form von Briefen zur\u00fcck,
         bevor er 2004 die Diskette schickte. Diese F\u00e4higkeit zum
-        langen Warten ist die SE1w9 in ihrer kontrolliertesten Form:
+        langen Warten zeigt die SE1w9 in ihrer kontrolliertesten Form:
         Der aufgestaute Druck findet keinen sofortigen Auslass,
         er wird gehalten \u2013 manchmal jahrzehntelang.</p>
         <p class="vb-intro"><strong>b) Innere Spannung als Dauerzustand:</strong>
@@ -1585,7 +1585,7 @@ export function dennisRaderPortraitPage() {
         Kommunikation \u00fcber die Taten. Darin unterscheidet er sich
         grundlegend von Tschikatilo: Der Zorn suchte nicht nur
         Entladung in der Tat, sondern Best\u00e4tigung durch
-        Aufmerksamkeit. Das ist der Einser-Hunger nach Richtigkeit:
+        Aufmerksamkeit. Darin zeigt sich der Einser-Hunger nach Richtigkeit:
         auch die eigene Dunkelheit soll anerkannt werden.</p>
       </div>
 
@@ -1662,7 +1662,7 @@ export function dennisRaderPortraitPage() {
         Der Zorn will Recht behalten. Bei Tschikatilo blieb der Zorn
         nach innen gewendet; bei Rader suchte er nach au\u00dfen \u2013
         in der Botschaft: Seht her, was ich getan habe, und erkennt es an.
-        Das ist die Eins, die auch im Verbrechen auf Vollst\u00e4ndigkeit besteht.</p>
+        Hier wirkt die Eins, die auch im Verbrechen auf Vollst\u00e4ndigkeit besteht.</p>
         <p class="vb-intro"><strong>e) Der Ordnungsbeauftragte als Einser-Beruf:</strong>
         Kaum ein Beruf passt besser zur entgleisten Eins als der
         kommunale Ordnungsbeauftragte: Man hat die Befugnis,
@@ -1675,7 +1675,7 @@ export function dennisRaderPortraitPage() {
         Raders Untergang kam nicht von ungefähr \u2013 er war selbst
         herbeigef\u00fchrt. Er fragte die Polizei ausdr\u00fccklich,
         ob eine Diskette zur\u00fcckverfolgt werden k\u00f6nne, und vertraute
-        der Antwort. Das ist die Eins, die Regeln f\u00fcr verbindlich h\u00e4lt:
+        der Antwort. Hier zeigt sich die Eins, die Regeln f\u00fcr verbindlich h\u00e4lt:
         Er glaubte der offiziellen Aussage \u2013 weil er an Institutionen glaubte.
         Diese fatale Naivit\u00e4t gegen\u00fcber dem System, dem er selbst diente,
         ist das letzte Paradoxon des Einser-T\u00e4ters Dennis Rader.</p>
@@ -1945,7 +1945,7 @@ export function gennadiMikhasevichPortraitPage() {
         die \u00dcberzeugung, im Kern anders zu sein als alle anderen.
         Mikhasevich beschrieb in Verh\u00f6ren eine Spannung, die er nicht benennen konnte:
         ein inneres Chaos, das sich nur in den Momenten der Tat aufl\u00f6ste.
-        Das ist die Vier-Energie der desintegrierten Eins:
+        Darin zeigt sich die Vier-Energie der desintegrierten Eins:
         kein lauter Ausbruch, kein Drama nach au\u00dfen \u2013
         sondern ein brennendes, akkumulierendes Innenleben,
         das sich in der kontrollierten Pr\u00e4zision der Tat f\u00fcr kurze Zeit beruhigte.
@@ -2261,13 +2261,13 @@ export function jeanneWeberPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die selbsterhaltende Zwei: Privileg durch Unentbehrlichkeit</h3>
         <p class="vb-intro">Naranjo nannte die <strong>selbsterhaltende Zwei (SE2)</strong> den Subtyp des <em>Privilegs</em>: das tief verankerte Gef\xfchl, sich einen besonderen Platz im Leben eines geliebten Menschen durch Unentbehrlichkeit zu sichern &ndash; und daraus einen stillschweigenden Anspruch abzuleiten. Weber \xfcbernahm immer wieder freiwillig die Betreuung von Kindern, auch nachdem der Verdacht gegen sie l\xe4ngst gewachsen war &ndash; sie zog sogar unter falschem Namen weiter, um erneut eine Betreuungsrolle bei einem fremden Kind zu \xfcbernehmen.</p>
-        <p class="vb-intro">Diese Unf\xe4higkeit, von der Rolle der Betreuenden zu lassen, selbst im Angesicht wachsender Verd\xe4chtigungen, ist die SE2 in ihrer zerst\xf6rerischsten Form: Die N\xe4he zum Kind, die Position als unverzichtbare Bezugsperson, wird zum zwanghaften Zentrum des eigenen Selbstverst\xe4ndnisses &ndash; und zur Gelegenheit f\xfcr eine Gewalt, die sich in genau diesem intimen Rahmen wiederholt.</p>
+        <p class="vb-intro">Diese Unf\xe4higkeit, von der Rolle der Betreuenden zu lassen, selbst im Angesicht wachsender Verd\xe4chtigungen, zeigt die SE2 in ihrer zerst\xf6rerischsten Form: Die N\xe4he zum Kind, die Position als unverzichtbare Bezugsperson, wird zum zwanghaften Zentrum des eigenen Selbstverst\xe4ndnisses &ndash; und zur Gelegenheit f\xfcr eine Gewalt, die sich in genau diesem intimen Rahmen wiederholt.</p>
       </div>
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Einserfl\xfcgel: Der innere Zwang</h3>
         <p class="vb-intro">Eine SE2 mit schw\xe4cher ausgepr\xe4gtem Einserfl\xfcgel h\xe4tte m\xf6glicherweise nach der ersten Tat innegehalten oder w\xe4re zumindest vorsichtiger geworden. Bei Weber trat stattdessen eine rigide, fast zwanghafte Wiederholung hervor: Dieselbe Konstellation &ndash; ein Kind, kurz allein mit ihr &ndash; wiederholte sich \xfcber Jahre hinweg an verschiedenen Orten, mit unterschiedlichen Kindern, trotz wachsender Ermittlungen und \xf6ffentlicher Aufmerksamkeit.</p>
-        <p class="vb-intro">Diese Unf\xe4higkeit, vom einmal etablierten Muster abzuweichen, selbst als das Risiko der Entdeckung offensichtlich stieg, ist der Einserfl\xfcgel in seiner dunkelsten Auspr\xe4gung: kein kalkuliertes \xdcberlegen, sondern ein innerer Zwang, der st\xe4rker war als jede Vorsicht. Anders als bei einem Dreierfl\xfcgel-Muster mit Inszenierung oder Status ging es hier um keine \xf6ffentliche B\xfchne &ndash; Weber suchte keine Aufmerksamkeit, keinen sozialen Aufstieg. Sie leugnete jedes Mal beharrlich und still.</p>
+        <p class="vb-intro">Diese Unf\xe4higkeit, vom einmal etablierten Muster abzuweichen, selbst als das Risiko der Entdeckung offensichtlich stieg, zeigt der Einserfl\xfcgel in seiner dunkelsten Auspr\xe4gung: kein kalkuliertes \xdcberlegen, sondern ein innerer Zwang, der st\xe4rker war als jede Vorsicht. Anders als bei einem Dreierfl\xfcgel-Muster mit Inszenierung oder Status ging es hier um keine \xf6ffentliche B\xfchne &ndash; Weber suchte keine Aufmerksamkeit, keinen sozialen Aufstieg. Sie leugnete jedes Mal beharrlich und still.</p>
       </div>
 
       <div class="vb-section">
@@ -2697,7 +2697,7 @@ export function johnListPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der F\xfcnferfl\xfcgel: R\xfcckzug, Analyse, Schweigen</h3>
         <p class="vb-intro">Der <strong>F\xfcnferfl\xfcgel (w5)</strong> verleiht der selbsterhaltenden Sechs eine zus\xe4tzliche Dimension: Introversion, Distanz, eine Neigung zum Beobachten statt zum Sprechen. Der SE6w5 ist nicht nur \xe4ngstlich &ndash; er ist au\xdferdem verschlossen. Er teilt sein Innenleben nicht. Er analysiert, gr\xfcbelt, kreist allein um seine Probleme. Er sucht keine Hilfe, weil er anderen nicht vertraut.</p>
-        <p class="vb-intro">Bei John List zeigt sich dieser F\xfcnferfl\xfcgel in seiner reinsten, zerst\xf6rerischsten Form: Er verlor seinen Job im Oktober 1971 &ndash; und sagte es niemandem. Nicht seiner Frau. Nicht seiner Mutter. Nicht seinen Kindern. Er fuhr jeden Morgen aus dem Haus, als g\xfcnge er arbeiten, verbrachte Stunden in einem Bahnhof oder wartete irgendwo, und kehrte abends zur\xfcck. Wochenlang. Das ist der F\xfcnferfl\xfcgel: nicht reden, nicht zeigen, allein tragen &ndash; bis die Last nicht mehr zu tragen ist.</p>
+        <p class="vb-intro">Bei John List zeigt sich dieser F\xfcnferfl\xfcgel in seiner reinsten, zerst\xf6rerischsten Form: Er verlor seinen Job im Oktober 1971 &ndash; und sagte es niemandem. Nicht seiner Frau. Nicht seiner Mutter. Nicht seinen Kindern. Er fuhr jeden Morgen aus dem Haus, als g\xfcnge er arbeiten, verbrachte Stunden in einem Bahnhof oder wartete irgendwo, und kehrte abends zur\xfcck. Wochenlang. Hier wirkt der F\xfcnferfl\xfcgel: nicht reden, nicht zeigen, allein tragen &ndash; bis die Last nicht mehr zu tragen ist.</p>
       </div>
 
       <div class="vb-section">
@@ -2718,7 +2718,7 @@ export function johnListPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Das Verschwinden: 17 Jahre als Robert Clark</h3>
         <p class="vb-intro">Die Leichen wurden erst <strong>vier Wochen sp\xe4ter</strong> entdeckt &ndash; als ein Nachbarsjunge das Haus betrat. Das Radio spielte noch. John List war l\xe4ngst weg.</p>
         <p class="vb-intro">Er nahm eine neue Identit\xe4t an: <strong>Robert Peter Clark</strong>. Er zog nach Denver, Colorado, arbeitete als Buchhalter, heiratete 1985 erneut &ndash; eine Frau namens Delores Miller &ndash; und zog mit ihr nach Richmond, Virginia. Er besuchte weiterhin regelm\xe4\xdfig die lutherische Kirche. Er war der zuverl\xe4ssige, ruhige, freundliche Buchhalter von nebenan. Niemand ahnte etwas.</p>
-        <p class="vb-intro">Das ist der SE6w5 in seiner erschreckendsten Auspr\xe4gung: die F\xe4higkeit, eine neue Identit\xe4t zu konstruieren, sie konsequent zu leben, keinerlei Anzeichen von innerer Unruhe nach au\xdfen zu zeigen. Die Angst war weg &ndash; weil die Bedrohung beseitigt worden war. Er hatte das System neu aufgesetzt.</p>
+        <p class="vb-intro">Hier zeigt sich der SE6w5 in seiner erschreckendsten Auspr\xe4gung: die F\xe4higkeit, eine neue Identit\xe4t zu konstruieren, sie konsequent zu leben, keinerlei Anzeichen von innerer Unruhe nach au\xdfen zu zeigen. Die Angst war weg &ndash; weil die Bedrohung beseitigt worden war. Er hatte das System neu aufgesetzt.</p>
       </div>
 
       <div class="vb-section">
@@ -2840,7 +2840,7 @@ export function josefFritzlPortraitPage() {
         auf sich zog. Nachbarn und Bekannte
         erinnerten sich an einen normalen,
         leicht m\u00fcrrischen \u00e4lteren Mann.
-        Das ist der Neunerfl\u00fcgel der Eins:
+        Darin zeigt sich der Neunerfl\u00fcgel der Eins:
         Er zieht sich in den Hintergrund,
         er sucht keine Aufmerksamkeit,
         er ist sozial unsichtbar.
@@ -2851,7 +2851,7 @@ export function josefFritzlPortraitPage() {
         <strong>Fritzl</strong> ein anderer Mensch:
         herrisch, unnahbar, seine Autorit\u00e4t
         als selbstverst\u00e4ndlich und unbestreitbar
-        voraussetzend. Das ist die Eins in der
+        voraussetzend. Hier wirkt die Eins in der
         Hausmacht: Der Hausherr, dessen Wort gilt.
         Wer innerhalb seines Einflussbereichs stand,
         kannte einen Mann, der Gehorsam
@@ -2878,7 +2878,7 @@ export function josefFritzlPortraitPage() {
         ein ausgekl\u00fcgeltes Schlosssystem.
         Der Keller war kein Ort der Emotion;
         er war ein Werk der Planung.
-        Das ist die Einser-Energie in ihrer
+        Hier zeigt sich die Einser-Energie in ihrer
         handwerklichsten Form: Die Eins baut
         Systeme, die funktionieren.
         Dass dieses System der Versklavung diente,
@@ -2933,7 +2933,7 @@ export function josefFritzlPortraitPage() {
         der Einkerkerung; er war kein
         spontanes Verbrechen, sondern
         ein jahrelang vorbereitetes System.
-        Das ist die Eins: Sie plant,
+        Darin zeigt sich die Eins: Sie plant,
         sie sichert ab, sie baut Strukturen.
         Selbst das Schwerste wird durchdacht,
         bevor es vollzogen wird.</p>
@@ -2998,7 +2998,7 @@ export function josefFritzlPortraitPage() {
         nicht Bedrohung.
         Eine bleischwere Normalit\u00e4t,
         die keinen Raum f\u00fcr Fragen lie\u00df.
-        Das ist der Neunerfl\u00fcgel
+        Hier wirkt der Neunerfl\u00fcgel
         in seiner unterdr\u00fcckendsten Qualit\u00e4t:
         nicht laut, nicht aggressiv \u2013
         aber erdr\u00fcckend schwer,
@@ -3207,7 +3207,7 @@ export function maryAnnCottonPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die sexuelle Eins: Kontrolle im engsten Kreis</h3>
         <p class="vb-intro">Naranjo nannte die <strong>sexuelle Eins (SX1)</strong> den Subtyp der <em>Eifersucht</em> oder des <em>Eifers</em>: eine Intensit\xe4t, die sich nicht auf die Welt im Allgemeinen richtet, sondern auf die eine, engste Beziehung &ndash; mit dem unerbittlichen Anspruch, dass diese Beziehung perfekt, rein und unangefochten bleibt. Wo die soziale Eins ein Kollektiv reformieren will, konzentriert sich die SX1 auf den Nahbereich: den Partner, die Familie, das eigene Zuhause.</p>
-        <p class="vb-intro">Cottons gesamtes Handeln spielte sich in genau diesem Nahbereich ab. Ihre Opfer waren keine Fremden, sondern jene Menschen, die einer neuen Beziehung, einem neuen Ehemann oder einer finanziell entlasteten Zukunft im Weg standen. Kinder aus fr\xfcheren Ehen, kranke oder l\xe4stig gewordene Ehem\xe4nner, eine Mutter, die ihr zur Last fiel &ndash; jeder Todesfall r\xe4umte buchst\xe4blich den Weg f\xfcr die n\xe4chste Beziehung frei. Das ist die SX1 in ihrer zerst\xf6rerischsten Form: ein unerbittlicher innerer Ma\xdfstab, was und wer in die eigene, ideal gedachte Beziehung passt &ndash; und was rigoros entfernt werden muss, wenn es nicht passt.</p>
+        <p class="vb-intro">Cottons gesamtes Handeln spielte sich in genau diesem Nahbereich ab. Ihre Opfer waren keine Fremden, sondern jene Menschen, die einer neuen Beziehung, einem neuen Ehemann oder einer finanziell entlasteten Zukunft im Weg standen. Kinder aus fr\xfcheren Ehen, kranke oder l\xe4stig gewordene Ehem\xe4nner, eine Mutter, die ihr zur Last fiel &ndash; jeder Todesfall r\xe4umte buchst\xe4blich den Weg f\xfcr die n\xe4chste Beziehung frei. Hier zeigt sich die SX1 in ihrer zerst\xf6rerischsten Form: ein unerbittlicher innerer Ma\xdfstab, was und wer in die eigene, ideal gedachte Beziehung passt &ndash; und was rigoros entfernt werden muss, wenn es nicht passt.</p>
       </div>
 
       <div class="vb-section">
@@ -3230,7 +3230,7 @@ export function maryAnnCottonPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro"><strong>a) Der Nahbereich als Schauplatz:</strong> Anders als T\xe4ter, die Fremde angreifen, richtete sich Cottons Kontrolle ausschlie\xdflich auf den engsten Kreis &ndash; Partner, Kinder, Familie. Das ist die SX1 in ihrer reinsten, gef\xe4hrlichsten Ausrichtung: Die intimste Beziehung wird zum Feld, auf dem der eigene Anspruch an Reinheit und Richtigkeit r\xfccksichtslos durchgesetzt wird.</p>
+        <p class="vb-intro"><strong>a) Der Nahbereich als Schauplatz:</strong> Anders als T\xe4ter, die Fremde angreifen, richtete sich Cottons Kontrolle ausschlie\xdflich auf den engsten Kreis &ndash; Partner, Kinder, Familie. Darin zeigt sich die SX1 in ihrer reinsten, gef\xe4hrlichsten Ausrichtung: Die intimste Beziehung wird zum Feld, auf dem der eigene Anspruch an Reinheit und Richtigkeit r\xfccksichtslos durchgesetzt wird.</p>
         <p class="vb-intro"><strong>b) Der Zweierfl\xfcgel als Charme-Instrument:</strong> Eine SX1 mit schw\xe4cher ausgepr\xe4gtem Zweierfl\xfcgel h\xe4tte m\xf6glicherweise k\xfchler, distanzierter gewirkt &ndash; und w\xe4re fr\xfcher aufgefallen. Bei Cotton sorgte der stark ausgepr\xe4gte Zweierfl\xfcgel daf\xfcr, dass sie als f\xfcrsorglich, liebensw\xfcrdig und vertrauensw\xfcrdig wahrgenommen wurde, w\xe4hrend sie systematisch t\xf6tete.</p>
         <p class="vb-intro"><strong>c) Wiederholung als Ordnungsprinzip:</strong> Die fast identische Abfolge von Heirat, Todesf\xe4llen und Neubeginn \xfcber zwei Jahrzehnte zeigt, wie sich bei der SX1 ein einmal etabliertes Muster zur unhinterfragten inneren Regel verfestigen kann &ndash; besonders dann, wenn keine \xe4u\xdfere Instanz fr\xfch genug eingreift.</p>
       </div>
@@ -3429,7 +3429,7 @@ export function nielsHoegelPortraitPage() {
         <p class="vb-intro"><strong>b) Reframing \u2013 die gef\xe4hrlichste Gabe der Sieben:</strong>
         Siebener sind Meister im Umdeuten von Realit\xe4t. H\xf6gel rahmte seine Morde
         kognitiv als Rettungsaktionen um: Er t\xf6tete keine Patienten, er schuf
-        Gelegenheiten f\xfcr Heldenmomente. Dies ist der Siebener-Mechanismus in seiner
+        Gelegenheiten f\xfcr Heldenmomente. Dies zeigt der Siebener-Mechanismus in seiner
         perversesten Form \u2013 die F\xe4higkeit, jede eigene Handlung so zu deuten, dass
         sie innerlich ertr\xe4glich bleibt. Ohne dieses Reframing w\xe4re die Serie nicht
         \xfcber f\xfcnf Jahre m\xf6glich gewesen.</p>
@@ -4178,7 +4178,7 @@ export function ronnieBiggsPortraitPage() {
         <p class="vb-intro"><strong>b) Die Legende als eigenst\u00e4ndiges Werk:</strong>
         Biggs\u2019 eigentliche \u201eTat" nach 1965 war weniger der Postraub selbst
         als die permanente Fortschreibung seiner eigenen Legende \u2013 Interviews,
-        Merchandise, Musik, \u00f6ffentliche Auftritte. Das ist die sexuelle
+        Merchandise, Musik, \u00f6ffentliche Auftritte. Hier wirkt die sexuelle
         Sieben in ihrer unverfälschtesten Gestalt: Das Leben selbst wird zur B\u00fchne,
         auf der Intensit\u00e4t immer wieder neu erzeugt werden muss.</p>
         <p class="vb-intro"><strong>c) Abgrenzung zu anderen SX7w8-F\u00e4llen:</strong>
@@ -4459,7 +4459,7 @@ export function samuelBankmanFriedPortraitPage() {
         das absichtlich Unfertige \u2013 war die Inszenierung
         von Effizienz als Wert: Ich tue nicht so,
         als w\u00fcrde ich gut aussehen, ich tue Dinge, die z\u00e4hlen.
-        Das ist die SE3 als Selbstbild.</p>
+        Hier zeigt sich die SE3 als Selbstbild.</p>
         <p class="vb-intro"><strong>b) Der Viererfl\u00fcgel und das altruistische Narrativ:</strong>
         Der Viererfl\u00fcgel der Drei bringt das Bed\u00fcrfnis nach Tiefe,
         nach Bedeutung, nach einer Geschichte,
@@ -4479,7 +4479,7 @@ export function samuelBankmanFriedPortraitPage() {
         die Beobachter irritierte \u2013
         keine dramatische Reue, kein Zusammenbruch,
         eine fast passive Akzeptanz.
-        Das ist die Drei in der Desintegration:
+        Darin zeigt sich die Drei in der Desintegration:
         Wenn Erfolg nicht mehr m\u00f6glich ist,
         schaltet sie ab.</p>
         <p class="vb-intro"><strong>d) Vergleich mit Ruja Ignatova (SE3w4):</strong>

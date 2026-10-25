@@ -798,7 +798,7 @@ export function franzLisztKrankheitsportraetPage() {
         prohibition reads less like the playful free choice of a healthy Seven and more like an
         almost dutiful, rigid refusal to yield. Someone who lives for years in chronic physical
         decline increasingly moves along their stress line toward their stress point – for the
-        Seven, that is the One. This unyielding "nothing will stop me" in his final weeks
+        Seven, here we see the One. This unyielding "nothing will stop me" in his final weeks
         resembles the rigid duty-fulfillment of the stress point, not the free-spirited choice
         of the core type – with an unchanged core type of SX7w8.</p>
         <p class="vb-intro"><strong>d) Why the heart and lungs, of all things?</strong>
@@ -3964,7 +3964,7 @@ export function philCollinsKrankheitsportraetPage() {
         otherwise matter-of-fact, disciplined SP1: extensive, introspective passages about
         regret, loneliness, and the feeling of having failed as a father and husband. Someone
         living under chronic physical strain for years increasingly moves along their stress
-        line toward their stress point – for the One, that is the Four. This unusually
+        line toward their stress point – for the One, this shows the Four. This unusually
         melancholic, inward-turned self-examination in his later years recalls the
         emotionally charged retrospection of the stress point, not the matter-of-fact sense of
         duty of the core type – with the core type unchanged at SP1w9.</p>
@@ -4692,7 +4692,7 @@ export function dmitriShostakovichKrankheitsportraetPage() {
         explained by lifelong smoking; reading it as a pattern is an additional, complementary view.</p>
         <p class="vb-intro"><strong>c) The stress point: when the Five slides toward Seven:</strong>
         Anyone living under chronic pressure for decades moves along the stress line increasingly
-        toward the stress point – for the Five, that is the Seven. This could be seen in the later
+        toward the stress point – for the Five, here you can see the Seven. This could be seen in the later
         years: numbing through nicotine and alcohol, nervous restlessness, flight into distraction
         instead of focused withdrawal. The core type remains unchanged SO5w4; the Seven traits are
         signs of stress, not a change of type. Anyone looking only at the illness picture of the

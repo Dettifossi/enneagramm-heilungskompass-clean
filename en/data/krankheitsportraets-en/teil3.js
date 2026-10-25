@@ -903,7 +903,7 @@ export function freudKrankheitsportraetPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Qualities</h3>
         <p class="vb-intro"><strong>a) Demanding and giving loyalty:</strong>
         Whoever stayed true to the movement could count on Freud's support; whoever went
-        their own way lost it. This is the Six, for whom belonging is not a side issue but
+        their own way lost it. Here we see the Six, for whom belonging is not a side issue but
         the foundation of one's own security.</p>
         <p class="vb-intro"><strong>b) Building authority – and distrusting it:</strong>
         Freud became an authority himself, yet remained watchful of outside criticism
@@ -954,7 +954,7 @@ export function freudKrankheitsportraetPage() {
         ordeal and that he himself called &bdquo;the monster&ldquo;.</p>
         <p class="vb-intro"><strong>b) Clarity valued above freedom from pain:</strong>
         For long stretches, Freud refused effective painkillers and made do with aspirin –
-        for fear that stronger medication might cloud his thinking. This is the Five-wing
+        for fear that stronger medication might cloud his thinking. This shows the Five-wing
         in its purest, most dangerous form: mental clarity as the highest good, to which even
         one's own freedom from pain is subordinated. The social Six also needs this clarity
         in order to keep standing guard – over her own theory, over the movement, over her
@@ -2013,7 +2013,7 @@ export function leonardBernsteinKrankheitsportraetPage() {
         not stem from a Seven's playful lightness, but from an almost rigid, duty-bound refusal
         to change the program. Someone who lives for decades in chronic bodily excess
         increasingly moves along their stress line toward their stress point – for the Seven,
-        that is the One. This rigid "I will see it through, whatever happens" in his final
+        here you can see the One. This rigid "I will see it through, whatever happens" in his final
         weeks reads less like the free-spirited choice of a healthy Seven and more like the
         rigid duty-fulfillment of its stress point – with an unchanged core type of SX7w6.</p>
         <p class="vb-intro"><strong>d) Why the lungs, of all things?</strong>

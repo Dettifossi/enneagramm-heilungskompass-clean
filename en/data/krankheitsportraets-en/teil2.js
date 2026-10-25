@@ -2220,7 +2220,7 @@ export function marcelProustKrankheitsportraetPage() {
         availability in his final years shows a pattern that goes beyond the usual withdrawal
         of the Four with Five-wing. Someone who lives for decades in chronic illness
         increasingly moves along their stress line toward their stress point – for the Four,
-        that is the Two. This needy, care-seeking behavior in his final ill years reads more
+        here we see the Two. This needy, care-seeking behavior in his final ill years reads more
         like the Two than the otherwise distanced, analytical baseline of the Five-wing Four –
         with an unchanged core type of SO4w5.</p>
         <p class="vb-intro"><strong>c) Withdrawal as both protection and art form:</strong>
@@ -4015,7 +4015,7 @@ export function avrilLavigneKrankheitsportraetPage() {
         success – a new album, a publicity-generating foundation launch – almost as if the
         vulnerability she had survived needed to be offset by quickly visible achievement.
         Someone living through months of existential crisis increasingly moves along their
-        stress line toward their stress point – for the Six, that is the Three. This
+        stress line toward their stress point – for the Six, this shows the Three. This
         intensified focus on image and success right after recovery recalls the achievement
         logic of the stress point, not the pure joy of confrontation of the core type – with
         the core type unchanged at SX6w7.</p>

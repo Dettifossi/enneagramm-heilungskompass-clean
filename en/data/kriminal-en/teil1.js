@@ -22,7 +22,7 @@ export function adolfEichmannPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Social Six: Security Through Obedience</h3>
         <p class="vb-intro">The <strong>Social Six (SO6)</strong> seeks security not through their own strength, but through belonging to an authority structure. The passion of Type Six is <em>Fear</em> — the SO6 copes with this fear by embedding themselves within an institution, an ideology, or a hierarchy. As long as they serve the system and the system provides them cover, the fear is quieted.</p>
-        <p class="vb-intro"><strong>Otto Adolf Eichmann</strong>, born on March 19, 1906, in Solingen, was a thoroughly average man. As a young man, he was unsuccessful in his career, lacking special talent or pronounced ambition. Joining the NSDAP and the SS in 1932 was not an ideological act for him — it was an act of <em>integration</em>. He found a structure that provided him support, belonging, and duties. He rose through the ranks because he was reliable, obedient, and carried out tasks neatly. That is the SO6 career: achieved not through brilliance, but through conformity.</p>
+        <p class="vb-intro"><strong>Otto Adolf Eichmann</strong>, born on March 19, 1906, in Solingen, was a thoroughly average man. As a young man, he was unsuccessful in his career, lacking special talent or pronounced ambition. Joining the NSDAP and the SS in 1932 was not an ideological act for him — it was an act of <em>integration</em>. He found a structure that provided him support, belonging, and duties. He rose through the ranks because he was reliable, obedient, and carried out tasks neatly. Here we see the SO6 career: achieved not through brilliance, but through conformity.</p>
       </div>
 
       <div class="vb-section">
@@ -173,7 +173,7 @@ Three years and two months in prison without parole—the court saw no mitigatin
         <p class="vb-intro"><strong>a) No Malice – But a Lack of Wakefulness:</strong>
 Schuhbeck is not a criminal in the sense of a person who actively wants to harm others. The Nine does not direct its damage outward like an Eight—it inflicts damage quietly and without guilt because a fundamental inner wakefulness is missing. This is the core of Nine psychology: not malice, but sleeping in a moral sense. One who sleeps feels no pain—and yet sometimes causes harm anyway.</p>
         <p class="vb-intro"><strong>b) The Double Life as Mere Routine:</strong>
-The most astounding aspect of the Schuhbeck case is its normality. He kept cooking, kept laughing, kept appearing on TV, kept opening new shops. The fraud was no crisis—it was routine. This is the SP9 capability: inhabiting two levels simultaneously without them touching internally. Enjoyment in the foreground, wrongdoing in the background—and no psychological signal bringing the two together.</p>
+The most astounding aspect of the Schuhbeck case is its normality. He kept cooking, kept laughing, kept appearing on TV, kept opening new shops. The fraud was no crisis—it was routine. This shows the SP9 capability: inhabiting two levels simultaneously without them touching internally. Enjoyment in the foreground, wrongdoing in the background—and no psychological signal bringing the two together.</p>
         <p class="vb-intro"><strong>c) No Comparison to Other White-Collar Criminals:</strong>
 An SP3w4 like Bernie Madoff needed conscious staging, ultimate greed, and the biggest game. An SX8 like Jeffrey Epstein needed power, control, and the thrill of the forbidden. Schuhbeck needed none of that. He only needed comfort. That makes the SP9 white-collar criminal particularly difficult to grasp—and particularly puzzling to outsiders. Where is the greed? Where is the calculation? There is none. Just appetite. Just habit. Just sleep.</p>
       </div>
@@ -338,7 +338,7 @@ export function arnoFunkePortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
         <p class="vb-intro"><strong>a) Probing and Attentive:</strong> Funke's gaze was that of a person who notices and evaluates details. Type One perceives the world with an analytical eye — what is correct, what is incorrect, where does the flaw lie? This quality is palpable in his meticulous preparation for every action.</p>
         <p class="vb-intro"><strong>b) Calm and Watchful:</strong> The Nine-wing imparts a patience and calm to the gaze that appears unusual for a Type One. Funke did not rush — he waited, observed, planned. This watchful, almost meditative gaze is the hallmark of the Nine-wing.</p>
-        <p class="vb-intro"><strong>c) Devoid of Aggression:</strong> Unlike many criminals, Funke never appeared threatening. His gaze signaled concentration rather than dominance. This is the SP1w9 in its civil expression: intensity without dangerousness.</p>
+        <p class="vb-intro"><strong>c) Devoid of Aggression:</strong> Unlike many criminals, Funke never appeared threatening. His gaze signaled concentration rather than dominance. Here you can see the SP1w9 in its civil expression: intensity without dangerousness.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -545,7 +545,7 @@ export function clydeBarrowPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Eight wing: When flight turns into confrontation</h3>
         <p class="vb-intro">An SX7 with a more muted Eight wing would likely have responded to imminent danger with pure flight – evading, disappearing, leaving the situation. In Clyde's case, a hardness emerged instead that went beyond mere escape: when flight reached its limit, he shot without hesitation. "Die rather than go back to prison" was, for him, not a figure of speech but a lived inner necessity.</p>
-        <p class="vb-intro">This is the Eight wing on the Seven: flight remains the basic movement, but once no way out remains, lightness turns into uncompromising confrontation. Not control as a goal in itself, as with a pure Eight, but control as a last resort to defend the freedom the Seven prizes above all else.</p>
+        <p class="vb-intro">Here we see the Eight wing on the Seven: flight remains the basic movement, but once no way out remains, lightness turns into uncompromising confrontation. Not control as a goal in itself, as with a pure Eight, but control as a last resort to defend the freedom the Seven prizes above all else.</p>
       </div>
 
       <div class="vb-section">
@@ -562,7 +562,7 @@ export function clydeBarrowPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. What the Enneagram reveals</h3>
-        <p class="vb-intro"><strong>a) Fleeing confinement, not craving violence:</strong> Clyde's starting point was not a lust for control, but a panicked fear of being caged. This is the SX7's core passion: avoiding pain through movement, speed, and ever-new options.</p>
+        <p class="vb-intro"><strong>a) Fleeing confinement, not craving violence:</strong> Clyde's starting point was not a lust for control, but a panicked fear of being caged. This shows the SX7's core passion: avoiding pain through movement, speed, and ever-new options.</p>
         <p class="vb-intro"><strong>b) The Eight wing as a last line of defense:</strong> An SX7 with a more muted Eight wing would likely have surrendered when arrest loomed. Clyde's strongly developed Eight wing turned flight into a readiness for lethal confrontation once no way out remained.</p>
         <p class="vb-intro"><strong>c) The one bond amid the restlessness:</strong> His unconditional loyalty to Bonnie, despite mounting risk, shows how the sexual Seven can focus her otherwise wide array of possibilities onto a single, non-negotiable relationship.</p>
       </div>
@@ -724,7 +724,7 @@ export function frankAbagnalePortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Facial & Gaze Expression Quality</h3>
-        <p class="vb-intro"><strong>a) Charming, Quick-Tongued, Instantly Likeable:</strong> Abagnale never came across as a showman triggering suspicion, but as someone you warmed to immediately — engaging, talkative, carrying an optimistic ease that never let skepticism take hold. This is the social Seven in its rawest form: charm as a passport into any system.</p>
+        <p class="vb-intro"><strong>a) Charming, Quick-Tongued, Instantly Likeable:</strong> Abagnale never came across as a showman triggering suspicion, but as someone you warmed to immediately — engaging, talkative, carrying an optimistic ease that never let skepticism take hold. Here you can see the social Seven in its rawest form: charm as a passport into any system.</p>
         <p class="vb-intro"><strong>b) Always Another Option Up His Sleeve:</strong> Contemporaries described him as quick-thinking and never at a loss for an excuse or an exit. Whenever an identity grew too tight or too risky, the next one was already prepared. This ability never to feel cornered mentally is a core trait of the Seven — in the social variant paired with the conviction that the next step should also serve the larger whole, not just personal pleasure.</p>
         <p class="vb-intro"><strong>c) The Six-Wing: Testing Authority, Seeking Safety:</strong> Unlike a Seven with a weaker Six wing, who tends to simply drift, Abagnale carefully studied the systems he infiltrated for their rules, weak points, and trust mechanisms — a typical Six-like vigilance. And that very vigilance eventually led him exactly where he never wanted to go and yet needed most: into a system he could genuinely trust.</p>
       </div>
@@ -743,7 +743,7 @@ export function frankAbagnalePortraitPage() {
         <p class="vb-intro"><strong>c) Lawyer in Louisiana — Passing the Bar on the Third Try:</strong> Abagnale forged a Harvard transcript and passed the state bar exam on his third attempt. No panic, no giving up — just the Seven's optimistic persistence, which treats every setback as merely a temporary hurdle on the way to the next open door. He worked for nearly a year as an Assistant Attorney General until a real Harvard graduate joined the firm.</p>
         <p class="vb-intro"><strong>d) Check Fraud on an Industrial Scale:</strong> Abagnale inflicted the greatest financial damage through forged checks. He printed checks using authentic routing numbers and cashed them worldwide using his pilot ID — at hotels, banks, and currency exchanges. A system, expanded into ever more countries and channels — beaver business on a grand scale.</p>
         <p class="vb-intro"><strong>e) Arrest, Escape, Rearrest:</strong> In 1969 an Air France flight attendant recognized him in Montpellier. He was incarcerated in France, Sweden, and the United States. He escaped from a Swedish prison by posing as a US prison inspector. In the US, he convinced a guard that he was working undercover for the Department of Justice. Even behind bars, his mindset remained: which role opens the next door here?</p>
-        <p class="vb-intro"><strong>f) From Offender to FBI Consultant:</strong> Following a prison term, Abagnale struck a deal with the FBI: he assisted in capturing check counterfeiters and became a sought-after expert on document fraud. This is the SO7w6 resolution in its clearest expression: the endless search for the next system finally settling into a belonging he could genuinely trust — legitimate, needed, finally arrived.</p>
+        <p class="vb-intro"><strong>f) From Offender to FBI Consultant:</strong> Following a prison term, Abagnale struck a deal with the FBI: he assisted in capturing check counterfeiters and became a sought-after expert on document fraud. Here we see the SO7w6 resolution in its clearest expression: the endless search for the next system finally settling into a belonging he could genuinely trust — legitimate, needed, finally arrived.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -908,7 +908,7 @@ export function heinrichPommerenkePortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
-        <p class="vb-intro"><strong>a) The Divine Mandate to Punish:</strong> Pommerenke's central psychological document is his own explanation: a film scene depicting women dancing around the Golden Calf filled him with the conviction that he had to punish sinful women. This is the SO1 in its most extreme religious distortion: the social One experiences itself as a guardian of social order — in Pommerenke's case, this concept of order was elevated into the religious and turned into a delusion that eliminated all contradiction.</p>
+        <p class="vb-intro"><strong>a) The Divine Mandate to Punish:</strong> Pommerenke's central psychological document is his own explanation: a film scene depicting women dancing around the Golden Calf filled him with the conviction that he had to punish sinful women. This shows the SO1 in its most extreme religious distortion: the social One experiences itself as a guardian of social order — in Pommerenke's case, this concept of order was elevated into the religious and turned into a delusion that eliminated all contradiction.</p>
         <p class="vb-intro"><strong>b) Precision and Planning:</strong> The number 71,317 — the number of women that he, by his own admission, intended to kill, rape, or impregnate — is not a product of chance. It is the result of inner accounting, a compulsive order within chaos. The One is the type that needs rules, lists, and systems — even for the most unfathomable things. Pommerenke's planned figure shows that his delusion was not a chaotic release of impulse, but possessed a thoroughly structured inner logic.</p>
         <p class="vb-intro"><strong>c) Nine-Wing: Freezing Instead of Exploding:</strong> Where a 1w2 would surge emotionally, the 1w9 freezes. Pommerenke's Nine-wing enabled a complete dissociation from his own actions: the act was experienced not as part of the self, but as a quasi-external execution of a mandate. The conscience — which normally shouts loudly in the One — was silenced through this detachment. No inner alarm. Only execution.</p>
       </div>
@@ -929,7 +929,7 @@ export function heinrichPommerenkePortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
-        <p class="vb-intro"><strong>a) Frozen and Compressed:</strong> The energetic quality of the 1w9 is like a deeply chilled system under pressure: no visible movements on the surface, but enormous, rigid tension underneath. Pommerenke appeared to those he spoke with neither intimidating nor warm — he appeared gone. As if he were not quite present. That is the Nine-wing energy of the One: not fire, but permafrost.</p>
+        <p class="vb-intro"><strong>a) Frozen and Compressed:</strong> The energetic quality of the 1w9 is like a deeply chilled system under pressure: no visible movements on the surface, but enormous, rigid tension underneath. Pommerenke appeared to those he spoke with neither intimidating nor warm — he appeared gone. As if he were not quite present. Here you can see the Nine-wing energy of the One: not fire, but permafrost.</p>
         <p class="vb-intro"><strong>b) Moral Pressure Without Words:</strong> The One constantly broadcasts a silent signal: standards are lived by here. Anyone who is with a One feels this pressure — even if not a word is spoken. With Pommerenke, this pressure was encoded into his relationship with the entire world: he evaluated everything, always, automatically. No person in his environment was simply present — everyone was a moral case.</p>
         <p class="vb-intro"><strong>c) Nine-Wing: Dissociation as Energy Protection:</strong> The Nine-wing of the One creates a specific defense mechanism energy: the numbing of one's own inner life so as not to have to feel the inner rigidity. For Pommerenke, this meant: he could do what he did without his own experience acting as a boundary. The dissociation was not a weakness — it was his system.</p>
       </div>
@@ -1260,7 +1260,7 @@ export function johnMcAfeePortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Typical Behavioral Patterns</h3>
         <p class="vb-intro"><strong>a) Confrontation as a Means of Communication:</strong> McAfee communicated through provocation. His tweets, interviews, and public appearances were rarely objective — they were attacks. The Sexual Eight speaks the language of confrontation because it considers it the most honest language.
         </p>
-        <p class="vb-intro"><strong>b) Disobedience as Identity:</strong> McAfee paid no taxes for over a decade — not because he had no money, but because he considered taxes to be theft. Rules he deemed unjust, he ignored. That is the Eight in its clearest expression: moral self-will beyond social conventions.</p>
+        <p class="vb-intro"><strong>b) Disobedience as Identity:</strong> McAfee paid no taxes for over a decade — not because he had no money, but because he considered taxes to be theft. Rules he deemed unjust, he ignored. Here we see the Eight in its clearest expression: moral self-will beyond social conventions.</p>
         <p class="vb-intro"><strong>c) Elusiveness and Movement:</strong> McAfee was rarely in one place for long. Guatemala, Belize, Russia, Spain: he lived in permanent motion, partly out of necessity, partly out of nature. The Sexual Eight seeks intensity — and for it, intensity arises in change, not in stillness.</p>
       </div>
 
@@ -1351,7 +1351,7 @@ export function karlaHomolkaPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Crimes: What Karla Homolka Did</h3>
-        <p class="vb-intro"><strong>a) Tammy Homolka – Her Own Sister:</strong> In December 1990, Karla secretly administered Halothane — an anesthetic stolen from the veterinary clinic where she worked — to her 15-year-old sister, Tammy. While Tammy was unconscious, Bernardo raped her while Karla recorded the assault and secured the scene. Tammy aspirated her own vomit and died. The death was initially ruled an accident, and Karla attended the funeral as a grieving sister. This is the SP3 in collapse: her sister became an obstacle to maintaining the image of her relationship with Bernardo. He demanded her; Karla delivered her.</p>
+        <p class="vb-intro"><strong>a) Tammy Homolka – Her Own Sister:</strong> In December 1990, Karla secretly administered Halothane — an anesthetic stolen from the veterinary clinic where she worked — to her 15-year-old sister, Tammy. While Tammy was unconscious, Bernardo raped her while Karla recorded the assault and secured the scene. Tammy aspirated her own vomit and died. The death was initially ruled an accident, and Karla attended the funeral as a grieving sister. This shows the SP3 in collapse: her sister became an obstacle to maintaining the image of her relationship with Bernardo. He demanded her; Karla delivered her.</p>
         <p class="vb-intro"><strong>b) Leslie Mahaffy and Kristen French:</strong> In June 1991, Bernardo and Homolka abducted 14-year-old Leslie Mahaffy. They brought her to their home, held her captive for days, raped her, killed her, and dismembered her body — encasing the remains in concrete blocks that were later recovered from Lake Gibson. In April 1992, they abducted 15-year-old Kristen French, holding her captive for days before murdering her. Homolka was actively present during these crimes — not as a coerced bystander, but as an active participant. Video recordings made by Bernardo conclusively documented her involvement.</p>
         <p class="vb-intro"><strong>c) The Plea Bargain:</strong> Before the videotapes were discovered by investigators, Homolka's defense attorney negotiated a plea deal with prosecutors: twelve years for manslaughter in exchange for her complete testimony against Bernardo. When the tapes subsequently surfaced, revealing the full extent of her active participation, the deal was already legally binding. The press termed it the "Deal with the Devil." Karla Homolka was released in 2005 — younger than many of her victims would have been had they lived. Today, she resides in Quebec under a new name, remarried, with children of her own. This is the raccoon: it slips away, adapts, and survives.</p>
       </div>
@@ -1426,14 +1426,14 @@ export function michaelFranzesePortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Outward Signs</h3>
         <p class="vb-intro">a) Charming and Down-to-Earth: Franzese never came across as cold or threatening — despite being one of the most powerful criminals of his era. The Two-wing infuses the Three with warmth and approachability. People in his presence felt comfortable, not intimidated.</p>
         <p class="vb-intro">b) Composed and Adaptable to Circumstances: Franzese switched effortlessly between street vernacular and the language of corporate business. He spoke with bankers like a financier, and with soldiers like a boss. The SP3 is a master of role adaptation: showing whichever face currently delivers success.</p>
-        <p class="vb-intro">c) Winning Self-Confidence: Anyone meeting Franzese — then or now — describes him as someone who fills a room without forcing himself forward. That is the SP3w2 profile: radiating success without boasting about it. Success should speak for itself.</p>
+        <p class="vb-intro">c) Winning Self-Confidence: Anyone meeting Franzese — then or now — describes him as someone who fills a room without forcing himself forward. Here you can see the SP3w2 profile: radiating success without boasting about it. Success should speak for itself.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Focus of Attention</h3>
         <p class="vb-intro">a) What Works Here? The Self-Preservation Three directs its gaze first toward efficiency: Which path reaches the objective fastest? Franzese's gas tax scam was a masterclass in operational logic — utilizing legal frameworks to disguise illegal aims. The SP3 gaze is pragmatic, not ideological.</p>
         <p class="vb-intro">b) How Do I Secure What Has Been Achieved? Security is the core theme of the self-preservation instinct. Franzese built structures to insulate himself: attorneys, shell companies, aliases. He didn't just want to get rich — he wanted to be untouchable.</p>
-        <p class="vb-intro">c) How Do I Maintain the Loyalty of Those Around Me? The Two-wing channels a portion of attention toward relationships. Franzese was known for his generosity — paying well and treating his crew fairly. That is the SP3w2 combination: high performance plus connection.</p>
+        <p class="vb-intro">c) How Do I Maintain the Loyalty of Those Around Me? The Two-wing channels a portion of attention toward relationships. Franzese was known for his generosity — paying well and treating his crew fairly. Here we see the SP3w2 combination: high performance plus connection.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -1446,7 +1446,7 @@ export function michaelFranzesePortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Typical Behavioral Patterns</h3>
         <p class="vb-intro">a) Achievement as Language: Franzese communicated through results. In the mob: money, power, loyalty. Today: books, keynotes, media reach. The channel shifts, but the pattern remains. The SP3 exists through what it produces — being without doing is foreign to them.</p>
-        <p class="vb-intro">b) Strategic Generosity: Franzese was known for rewarding his people. That is the Two-wing: giving as a bonding mechanism. Unlike a core Two, however, the SP3w2 does not give out of raw emotional need — they give because it fosters loyalty that keeps the system stable.</p>
+        <p class="vb-intro">b) Strategic Generosity: Franzese was known for rewarding his people. This shows the Two-wing: giving as a bonding mechanism. Unlike a core Two, however, the SP3w2 does not give out of raw emotional need — they give because it fosters loyalty that keeps the system stable.</p>
         <p class="vb-intro">c) Calculated Risk Over Impulse: Franzese rarely acted on impulse. His gas tax scheme remained airtight for years because he operated methodically. The SP3 is no reckless gambler — they calculate, hedge, and plan escape routes. This distinguishes them from more impulsive types like Type Eight.</p>
       </div>
 
@@ -2153,7 +2153,7 @@ Pleil's murders had a distinctly physical quality:
 strangling, beating, brutal physical violence –
 not a detached, planned killing,
 but an overpowering through physical strength and force.
-This is the Two in the Eight:
+Here you can see the Two in the Eight:
 if I cannot bind through love,
 I force submission through strength.
 In Pleil's case, the Eight energy was not merely a release of stress –
@@ -2217,7 +2217,7 @@ export function sebastianGreenwoodPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Outward Signs</h3>
         <p class="vb-intro">a) Warming and Inviting: Greenwood was known for instantly making people feel welcome. Anyone who spoke with him felt seen — often for the first time in a long while. That is the Self-Preservation Two: affection as a tool, warmth as an entry ticket.</p>
         <p class="vb-intro">b) Self-Confident to Radiant: The Three-wing gives Type Two a commanding public presence. Greenwood did not come across as a pushy salesperson, but as a visionary. His self-confidence was infectious — it transferred to his listeners and transformed skepticism into enthusiasm.</p>
-        <p class="vb-intro">c) Controlled When Facing Criticism: Greenwood did not react to doubts defensively, but by reframing. He turned critical questions into invitations for further explanation. That is the SP2w3 pattern: redirection instead of confrontation, charm instead of defense.</p>
+        <p class="vb-intro">c) Controlled When Facing Criticism: Greenwood did not react to doubts defensively, but by reframing. He turned critical questions into invitations for further explanation. Here we see the SP2w3 pattern: redirection instead of confrontation, charm instead of defense.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -2411,7 +2411,7 @@ export function wadeWilsonPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
-        <p class="vb-intro"><strong>a) The Courtroom as a Stage:</strong> Wilson's behavior during the trial was unusual in its consistency: he laughed, pulled faces, seemed to seek the attention of the media and the public. This is the SO3 pattern: the Social Three needs an audience, a stage, resonance. The fact that the context was a murder trial changed nothing about this basic structure — the stage instinct overrode the situation.</p>
+        <p class="vb-intro"><strong>a) The Courtroom as a Stage:</strong> Wilson's behavior during the trial was unusual in its consistency: he laughed, pulled faces, seemed to seek the attention of the media and the public. This shows the SO3 pattern: the Social Three needs an audience, a stage, resonance. The fact that the context was a murder trial changed nothing about this basic structure — the stage instinct overrode the situation.</p>
         <p class="vb-intro"><strong>b) Uniqueness as the Core of Identity:</strong> The Four-wing of the Three carries a deep longing for distinctiveness: not just to be good, but to be different, deeper, more intense, beyond the category of the ordinary. Wilson actually seemed to experience himself in the trial as something special — not as a criminal in a moral sense, but as someone who, through his actions, has stepped out from the crowd.</p>
         <p class="vb-intro"><strong>c) Coldness as Performance:</strong> The emotional distance that Wilson displayed toward his victims was not a psychopathic void — it was the expression of a Three that has learned to manage emotions in the service of the performance. The Three strictly separates inner life from external appearance. For the SO3w4, this separation becomes a weapon: he who controls what he shows determines how he is perceived.</p>
       </div>
@@ -2427,13 +2427,13 @@ export function wadeWilsonPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
         <p class="vb-intro"><strong>a) Fascination Instead of Repulsion:</strong> Many observers of the trial reported that Wilson's behavior held them spellbound despite everything — not out of sympathy, but out of sheer incomprehension. That is the effect of the SO3w4 on an audience: he is not easily categorized, not easy to look away from, not easy to forget. The Three is a performer; the Four-wing ensures that the performance is not slick, but disturbingly striking.</p>
         <p class="vb-intro"><strong>b) Media Presence as Triumph:</strong> Wilson gained international notoriety through the trial. For the SO3, fame is currency — regardless of its moral quality. The verdict brought him more attention than any other action of his life up to that point. In the twisted logic of the disintegrated SO3, this could feel like a success.</p>
-        <p class="vb-intro"><strong>c) Death Sentence as the Final Performance:</strong> The pronouncement of the death penalty did not seem to shake Wilson. That is the SO3w4 pattern in its most extreme manifestation: even one's own end becomes part of the narrative about oneself — as the ultimate confirmation that one was something extraordinary.</p>
+        <p class="vb-intro"><strong>c) Death Sentence as the Final Performance:</strong> The pronouncement of the death penalty did not seem to shake Wilson. Here you can see the SO3w4 pattern in its most extreme manifestation: even one's own end becomes part of the narrative about oneself — as the ultimate confirmation that one was something extraordinary.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
         <p class="vb-intro"><strong>a) Electrifying Presence:</strong> Wilson's energy in the courtroom was consistently described by journalists and spectators as disturbingly alive. Not aggressive, not intimidated — but alert, quick to react, seemingly amused. The SO3w4 carries an electrifying quality that draws attention without actively begging for it.</p>
-        <p class="vb-intro"><strong>b) No Visible Exhaustion:</strong> A murder trial lasts for weeks. Most defendants appear increasingly exhausted and worn down over time. Wilson, on the contrary, seemed to thrive — as if the attention were feeding him energy. That is the Three regulating its energy household through external impression: resonance is fuel; the stage is rest.</p>
+        <p class="vb-intro"><strong>b) No Visible Exhaustion:</strong> A murder trial lasts for weeks. Most defendants appear increasingly exhausted and worn down over time. Wilson, on the contrary, seemed to thrive — as if the attention were feeding him energy. Here we see the Three regulating its energy household through external impression: resonance is fuel; the stage is rest.</p>
         <p class="vb-intro"><strong>c) The Void Behind the Performance:</strong> Anyone who looked closely noticed a strange hollowness behind the stage presence — not emptiness in the sense of lack of feeling, but the absence of an inner core that exists independently of the audience. This is the deepest pattern of the Three: it often does not know itself who it is when no one is watching.</p>
       </div>
 

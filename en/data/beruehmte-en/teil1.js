@@ -371,7 +371,7 @@ export function dhapanbalYunupinguPortraitPage() {
         <h2 class="vb-section">3. The Nine-Wing: Quiet Continuity Over the Spotlight</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Nine-wing</strong> gives the self-preservation Eight something an Eight with a more muted Nine wing often finds difficult: patience, fusion with community, and the ability to work in the background rather than fight in the foreground. The SP8w9 secures its territory not through confrontation but through persistent, quiet presence.</p>
-          <p class="vb-intro">Alongside her music, Yunupingu is also active as a visual artist &ndash; as part of the <em>Seven Sisters</em> project, she coordinated etching processes among other work, a practice that demands patience, precision, and craft continuity rather than spectacular self-display. This is the Nine-wing: art as a shared, communal practice, not merely as an expression of the individual alone.</p>
+          <p class="vb-intro">Alongside her music, Yunupingu is also active as a visual artist &ndash; as part of the <em>Seven Sisters</em> project, she coordinated etching processes among other work, a practice that demands patience, precision, and craft continuity rather than spectacular self-display. Here we see the Nine-wing: art as a shared, communal practice, not merely as an expression of the individual alone.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Work: From Deadly Hearts to Bidiwidi</h2>
@@ -724,7 +724,7 @@ export function indraNooyiPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP8w7 is its <strong>long-term foresight paired with assertiveness</strong>. Nooyi made unpopular strategic decisions &ndash; such as investing in healthier products while the market still rewarded sugar and fat &ndash; and held to them, even against analysts demanding short-term gains. That is the SP8 in its most mature form: securing safety not for the next quarter, but for the next generation.</p>
+          <p class="vb-intro">The light of the SP8w7 is its <strong>long-term foresight paired with assertiveness</strong>. Nooyi made unpopular strategic decisions &ndash; such as investing in healthier products while the market still rewarded sugar and fat &ndash; and held to them, even against analysts demanding short-term gains. This shows the SP8 in its most mature form: securing safety not for the next quarter, but for the next generation.</p>
           <p class="vb-intro">The shadow shows in a toughness that employees and analysts sometimes described as unyielding, distant, or excessively controlling. When activist investors in 2012 demanded that PepsiCo spin off its snack business, Nooyi defended her territory with total resolve &ndash; and prevailed, though not without a public power struggle. The Self-Preservation Eight does not voluntarily surrender its territory, even when others raise good arguments for it.</p>
         </blockquote>
 
@@ -1159,7 +1159,7 @@ export function markZuckerbergPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Six-wing (w6)</strong> brings to the sexual Five a deep need for security, a tendency to think in threat scenarios, and an extraordinary loyalty toward the inner circle. The SX5w6 does not build open structures. It builds systems it understands and controls &ndash; because control means safety.</p>
           <p class="vb-intro">This is visible in the way Zuckerberg runs Meta. He is not a leader by conviction. The most important decisions &ndash; product strategy, acquisitions, the fundamental architectural choices of the platform &ndash; he makes himself or with a tiny circle of trusted individuals. The purchase of Instagram (2012) and WhatsApp (2014) for billions of dollars each, when both companies barely generated revenue, were not decisions derived from spreadsheet models. That was the Six-wing identifying potential threats early and eliminating them: <em>What could endanger me, I would rather control.</em></p>
-          <p class="vb-intro">The Six-wing is also visible in Zuckerberg&apos;s unusual response to criticism and pressure: he does not become emotional, he becomes more systematic. He prepared for the congressional hearings in 2018 with an intensity that insiders described as almost unnerving. Hours of preparation, memorized responses, no sign of nervousness &ndash; but also no sign of spontaneity. That is the SX5w6 under scrutiny: it does not yield. It prepares.</p>
+          <p class="vb-intro">The Six-wing is also visible in Zuckerberg&apos;s unusual response to criticism and pressure: he does not become emotional, he becomes more systematic. He prepared for the congressional hearings in 2018 with an intensity that insiders described as almost unnerving. Hours of preparation, memorized responses, no sign of nervousness &ndash; but also no sign of spontaneity. Here you can see the SX5w6 under scrutiny: it does not yield. It prepares.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow</h2>
@@ -1288,7 +1288,7 @@ export function ninaChubaPortraitPage() {
         <h2 class="vb-section">3. The Three-wing: Radiance with Substance</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Three-wing (w3)</strong> brings the social Two something decisive: the drive toward effectiveness, visible performance, the success that amplifies the good. An SO2 with a more muted Three-wing could lose itself in giving &ndash; always there for others, always reachable, without asking where that leads. The Three-wing sets goals. It says: <em>If you really want to move something, you must also arrive. You must also shine.</em></p>
-          <p class="vb-intro">In Nina Chuba this wing is perceptible in her stage presence and her professionalism. She is not only warm-hearted &ndash; she is effective. The songs are produced, the appearances precise, the brand coherent. That is no contradiction to the authenticity of the Two. That is the Three-wing ensuring the warmth actually arrives &ndash; and does not disappear in the noise.</p>
+          <p class="vb-intro">In Nina Chuba this wing is perceptible in her stage presence and her professionalism. She is not only warm-hearted &ndash; she is effective. The songs are produced, the appearances precise, the brand coherent. That is no contradiction to the authenticity of the Two. Here we see the Three-wing ensuring the warmth actually arrives &ndash; and does not disappear in the noise.</p>
           <p class="vb-intro">The SO2w3 carries within it the rare combination of genuine empathy and strategic clarity. It wants to connect &ndash; and it knows how to shape that so it truly holds. That is not calculation. That is the natural synergy of these two energies.</p>
         </blockquote>
 
@@ -1951,7 +1951,7 @@ export function thomasMannPortraitPage() {
         <h2 class="vb-section">4. The Suppressed Passion Behind the Facade</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Mann's diaries, which he had released by will only twenty years after his death, revealed a deeply felt homoerotic longing he never acted on in life &ndash; intense, never-admitted infatuations with, among others, the young Klaus Heuser or, decades earlier, Paul Ehrenberg. Rather than pursuing this passion directly, as a sexual subtype might, Mann channeled it entirely into controlled literary form &ndash; most clearly in the novella "Death in Venice" (1912), in which this exact forbidden, never-touched longing becomes the central plot.</p>
-          <p class="vb-intro">This is the SO1 signature in its purest form: not the pursuit of private desire at the center, but the preservation of public form &ndash; the passion is not suppressed because it does not exist, but because social correctness is held as the higher value. This exact tension between controlled facade and unlived intensity runs through his entire body of work, from "Buddenbrooks" (1901) through "The Magic Mountain" (1924) to "Doctor Faustus" (1947).</p>
+          <p class="vb-intro">This shows the SO1 signature in its purest form: not the pursuit of private desire at the center, but the preservation of public form &ndash; the passion is not suppressed because it does not exist, but because social correctness is held as the higher value. This exact tension between controlled facade and unlived intensity runs through his entire body of work, from "Buddenbrooks" (1901) through "The Magic Mountain" (1924) to "Doctor Faustus" (1947).</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow of the Social One with Nine-Wing</h2>
@@ -2469,7 +2469,7 @@ export function bruceSpringsteenPortraitPage() {
         <h2 class="vb-section">2. The Sexual Nine: Merging Instead of Spreading</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>sexual Nine (SX9)</strong> lives the passion of sloth as complete merging with a single, all-encompassing counterpart &ndash; the self steps back in order to dissolve fully into it. For Springsteen, this counterpart is the stage and the audience itself: his concerts are famous for the fact that he often changes the setlist spontaneously mid-show, responds to shouted requests, and adapts completely to that particular night instead of running through a fixed program.</p>
-          <p class="vb-intro">For decades he stayed loyal to the same band, the same core musical theme &ndash; the life of the American working class &ndash; and the same audience, rather than scattering himself across shifting projects the way many peers do. That is the SX9 at its most sustainable: not many loose attachments, but a single, lifelong merging.</p>
+          <p class="vb-intro">For decades he stayed loyal to the same band, the same core musical theme &ndash; the life of the American working class &ndash; and the same audience, rather than scattering himself across shifting projects the way many peers do. Here you can see the SX9 at its most sustainable: not many loose attachments, but a single, lifelong merging.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The One-Wing: Discipline Behind the Apparent Effortlessness</h2>
@@ -2599,7 +2599,7 @@ export function erichVonDaenikenPortraitPage() {
         <h2 class="vb-section">2. The Self-Preservation Eight: Autonomy at Any Price</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>self-preservation Eight (SP8)</strong> defends above all one thing: its own independence from outside control. Naranjo described this subtype through the motif of ›satisfaction‹ &ndash; an unconditional sticking to one's own plan, if necessary against rules and authority. In Däniken this showed itself in a thoroughly ambivalent way: to finance his early travels and research, he falsified the accounts as a hotel director and took out unauthorized loans &ndash; in 1970 he was sentenced to three and a half years in prison for fraud, embezzlement, and forgery.</p>
-          <p class="vb-intro">What matters is what happened next: instead of letting prison stop him, he wrote his second book, ›Return to the Stars‹, in jail, which also became a bestseller &ndash; one of the rare cases of an author cementing his worldwide success from behind bars. That is the self-preservation Eight in pure form: outside circumstances, even a prison cell, change nothing about one's own plan. Control over one's own work is not negotiable.</p>
+          <p class="vb-intro">What matters is what happened next: instead of letting prison stop him, he wrote his second book, ›Return to the Stars‹, in jail, which also became a bestseller &ndash; one of the rare cases of an author cementing his worldwide success from behind bars. Here we see the self-preservation Eight in pure form: outside circumstances, even a prison cell, change nothing about one's own plan. Control over one's own work is not negotiable.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Nine-Wing: The Great, All-Connecting Narrative</h2>

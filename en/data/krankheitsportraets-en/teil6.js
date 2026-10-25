@@ -4104,7 +4104,7 @@ export function fionaAppleKrankheitsportraetPage() {
         intensity of care for another being unusual for the otherwise introverted, inward-
         focused SO4w5. Someone living under chronic psychological strain for years
         increasingly moves along their stress line toward their stress point – for the Four,
-        that is the Two. This unusually intense, almost self-sacrificing care in a moment of
+        here we see the Two. This unusually intense, almost self-sacrificing care in a moment of
         crisis recalls the devotion logic of the stress point, not the otherwise more inward-
         directed introspection of the core type – with the core type unchanged at SO4w5.</p>
         <p class="vb-intro"><strong>d) Why the body and the mind themselves, of all things?</strong>
@@ -4857,7 +4857,7 @@ export function johannesPaulIIKrankheitsportraetPage() {
         <p class="vb-intro"><strong>c) When the One turns toward the Four under chronic stress:</strong>
         Anyone who lives for a decade and a half with a progressive, publicly barely
         acknowledged illness increasingly moves along their stress line toward their stress
-        point – for the One, that is the Four. In his final years, Wojtyła appeared at public
+        point – for the One, this shows the Four. In his final years, Wojtyła appeared at public
         events increasingly introspective, melancholic, and visibly suffering, a striking
         contrast to the humorous, easygoing Nine-wing presence of his middle years in office.
         This unusually inward-turned, marked presence recalls the emotionally charged,

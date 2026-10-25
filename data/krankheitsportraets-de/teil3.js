@@ -914,7 +914,7 @@ export function freudKrankheitsportraetPage() {
         <p class="vb-intro"><strong>a) Analytisch und unbestechlich:</strong>
         Freuds Blick zerlegte, ordnete, deutete – auf Patienten, auf Kultur, auf sich selbst.
         Nichts blieb an der Oberfläche stehen, alles wurde auf eine dahinterliegende
-        Struktur hin befragt. Das ist der Fünferflügel: Verstehen als Sicherheit.</p>
+        Struktur hin befragt. Hier zeigt sich der Fünferflügel: Verstehen als Sicherheit.</p>
         <p class="vb-intro"><strong>b) Wachsam gegenüber Verrat und Abweichung:</strong>
         Freud registrierte genau, wer der Bewegung treu blieb und wer sich entfernte – Jungs
         und Adlers Abspaltungen erlebte er nicht als intellektuelle Differenz, sondern als
@@ -947,7 +947,7 @@ export function freudKrankheitsportraetPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
         <p class="vb-intro"><strong>a) Loyalität einfordern und geben:</strong>
         Wer der Bewegung treu blieb, konnte auf Freuds Rückhalt zählen; wer eigene Wege
-        ging, verlor ihn. Das ist die Sechs, für die Zugehörigkeit keine Nebensache,
+        ging, verlor ihn. Darin zeigt sich die Sechs, für die Zugehörigkeit keine Nebensache,
         sondern das Fundament der eigenen Sicherheit ist.</p>
         <p class="vb-intro"><strong>b) Autorität aufbauen – und ihr misstrauen:</strong>
         Freud wurde selbst zur Autorität, blieb aber zeitlebens wachsam gegenüber Kritik von

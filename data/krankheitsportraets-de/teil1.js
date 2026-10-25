@@ -478,7 +478,7 @@ export function charlesDarwinKrankheitsportraetPage() {
         <p class="vb-intro"><strong>b) Die Wasserkur als Ritual der Kontrolle:</strong>
         Darwin unterzog sich wiederholt aufwendigen Hydrotherapie-Kuren in Spezialkliniken –
         strikt getaktete Anwendungen von kaltem Wasser, Wickeln und Bädern nach festem Schema.
-        Das ist der Fünferflügel in der Krankheit selbst: Selbst die Behandlung musste
+        Hier zeigt sich der Fünferflügel in der Krankheit selbst: Selbst die Behandlung musste
         nachvollziehbar strukturiert und kontrollierbar sein.</p>
         <p class="vb-intro"><strong>c) Rückzug als doppelte Notwendigkeit:</strong>
         Die Krankheit lieferte Darwin einen zusätzlichen, unangreifbaren Grund für den

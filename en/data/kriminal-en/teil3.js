@@ -194,11 +194,11 @@ Anna Delvey is assigned to the Self-Preservation Two with Three-wing in the Enne
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Outward Signs</h3>
         <p class="vb-intro"><strong>a) Charismatic and strong in presence:</strong>
-Delvey immediately struck people who met her as someone who belonged. Confident, style-conscious, worldly. That is the Two with a Three-wing: She knows how she comes across – and uses that impact.</p>
+Delvey immediately struck people who met her as someone who belonged. Confident, style-conscious, worldly. Here we see the Two with a Three-wing: She knows how she comes across – and uses that impact.</p>
         <p class="vb-intro"><strong>b) Engaging without revealing:</strong>
 Delvey projected a great deal – and disclosed very little. People who knew her later described feeling as though they had never truly known her. The Two shares what impresses and hides what might show weakness.</p>
         <p class="vb-intro"><strong>c) Cool under confrontation:</strong>
-When Delvey was confronted with inconsistencies, she did not react nervously, but coolly and with superiority. That is the Three-wing: it gives the Two the ability to maintain the image even under pressure.</p>
+When Delvey was confronted with inconsistencies, she did not react nervously, but coolly and with superiority. This shows the Three-wing: it gives the Two the ability to maintain the image even under pressure.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -234,7 +234,7 @@ Delvey commercialized her story – Netflix series, podcast, art exhibitions whi
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
         <p class="vb-intro"><strong>a) Attractive and magnetic:</strong>
-Delvey's energy was inviting, glamorous, full of promise. People wanted to be near her because she conveyed the sense that something special was happening. That is the Two with a Three-wing on a stage: warmth and spectacle simultaneously.</p>
+Delvey's energy was inviting, glamorous, full of promise. People wanted to be near her because she conveyed the sense that something special was happening. Here you can see the Two with a Three-wing on a stage: warmth and spectacle simultaneously.</p>
         <p class="vb-intro"><strong>b) Controlled emotionality:</strong>
 Unlike the One-wing, which feels morally charged, the Three-wing remains cool and calculated. Delvey never showed too much – emotion as a tool, not as a state.</p>
         <p class="vb-intro"><strong>c) Obligation through exclusivity:</strong>
@@ -364,7 +364,7 @@ In March 2009, Madoff pleaded guilty to eleven felony counts. On June 29, 2009, 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. The Four-Wing: Depth in the Service of Deception</h3>
         <p class="vb-intro">Without a Four-wing, Madoff might have been just another greedy fraudster among many. The Four-wing made him something peculiar: a fraudster with style, with taste, with an almost artistic care in the construction of his world. Type Four seeks significance and depth—in the SP3w4, this energy directs itself toward the uniqueness of their project.</p>
-        <p class="vb-intro">In later conversations, Madoff displayed an almost narcissistic fascination with his own deed: how precisely the system ran, how long it held, how many intelligent people he convinced. That is the Four-wing: even in catastrophe, still maintaining a sense that what one did was special.</p>
+        <p class="vb-intro">In later conversations, Madoff displayed an almost narcissistic fascination with his own deed: how precisely the system ran, how long it held, how many intelligent people he convinced. Here we see the Four-wing: even in catastrophe, still maintaining a sense that what one did was special.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -1039,9 +1039,9 @@ Gary Ridgway is assigned to the Sexual Type 1 with Two-wing in the Enneagram. Th
         <p class="vb-intro"><strong>a) The Inner Logic:</strong>
 The Sexual One strives for a perfect, pure, completely controlled connection in their most intimate relationships. They hold a rigid image of how this connection ought to look—and experience any deviating reality as an affront, a stain, or a failure. Ridgway admitted to having a deep contempt for sex workers, referring to them as garbage and worthless human beings. At the same time, he constantly sought them out. This tension—desire and contempt for the very same object—is the core pattern of the disintegrating SX1: craving something perceived as impure, and destroying it as a result.</p>
         <p class="vb-intro"><strong>b) The Two-Wing: Charm as a Weapon:</strong>
-The Two-wing brings warmth, adaptability, and the ability to build trust to the Sexual One. Ridgway systematically exploited this wing. He came across as friendly, relaxed, and unthreatening, adapting smoothly to his victims' expectations: a paying customer, polite, appearing entirely safe. Women voluntarily got into his car. This is the Two-wing in its darkest function: helpfulness and warmth serving as camouflage for what lies beneath.</p>
+The Two-wing brings warmth, adaptability, and the ability to build trust to the Sexual One. Ridgway systematically exploited this wing. He came across as friendly, relaxed, and unthreatening, adapting smoothly to his victims' expectations: a paying customer, polite, appearing entirely safe. Women voluntarily got into his car. This shows the Two-wing in its darkest function: helpfulness and warmth serving as camouflage for what lies beneath.</p>
         <p class="vb-intro"><strong>c) The Facade of Normalcy:</strong>
-Ridgway regularly attended church services, read the Bible, and spoke with coworkers about his faith. He married three times. His third marriage lasted nearly thirty years—spanning the entire duration of his most active murder spree. His son knew nothing. His wife knew nothing. This is the SX1 pattern: absolute control over an intimate sphere internally, alongside complete adaptation to community expectations externally.</p>
+Ridgway regularly attended church services, read the Bible, and spoke with coworkers about his faith. He married three times. His third marriage lasted nearly thirty years—spanning the entire duration of his most active murder spree. His son knew nothing. His wife knew nothing. Here you can see the SX1 pattern: absolute control over an intimate sphere internally, alongside complete adaptation to community expectations externally.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -1855,7 +1855,7 @@ export function nickLeesonPortraitPage() {
         <h2 class="vb-section">5. Account 88888: The Hiding Place of Sloth</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In 1992, Leeson opened an internal error account in Singapore—number 88888, considered a lucky number in Chinese culture. Originally intended for minor administrative errors, it soon became the hiding place for his own trading losses. Leeson transferred losses into this account while showing the London headquarters only the profits. He lived in two worlds: the official world where he was a star, and the hidden world of the account that grew and grew.</p>
-          <p class="vb-intro">This is the SO9 mechanism on an institutional level: maintain the image the community needs. The bank needed profits. He delivered profits. What lay behind the facade could not be seen by the community—because then he would no longer be one of them. Account 88888 was not the master plan of a con artist. It was the hideout of a man who wanted to belong at all costs.</p>
+          <p class="vb-intro">Here we see the SO9 mechanism on an institutional level: maintain the image the community needs. The bank needed profits. He delivered profits. What lay behind the facade could not be seen by the community—because then he would no longer be one of them. Account 88888 was not the master plan of a con artist. It was the hideout of a man who wanted to belong at all costs.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Earthquake as a Turning Point</h2>
@@ -1954,7 +1954,7 @@ In the "self-portrayal" sessions, Mühl's gaze fell publicly on individuals to e
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
         <p class="vb-intro"><strong>a) The Reformer as Self-Empowerment:</strong>
-Mühl positioned himself as a liberator from bourgeois sexual morality and repression—a mission he pursued with missionary zeal. This is the One in its socio-ideological form: one's own conviction is elevated to universal truth, and its enforcement justifies any means.</p>
+Mühl positioned himself as a liberator from bourgeois sexual morality and repression—a mission he pursued with missionary zeal. This shows the One in its socio-ideological form: one's own conviction is elevated to universal truth, and its enforcement justifies any means.</p>
         <p class="vb-intro"><strong>b) Care as an Instrument of Dominance:</strong>
 Mühl portrayed himself as the paternal caretaker of the commune, providing for everyone's well-being—collective child-rearing, shared property, a promise of security. The Two-wing produces exactly this pattern: giving as a bonding strategy that creates dependency rather than fostering genuine autonomy.</p>
         <p class="vb-intro"><strong>c) Double Standard as System Principle:</strong>
@@ -2079,7 +2079,7 @@ Ogorzow attacked predominantly on railway property and inside S-Bahn compartment
         <p class="vb-intro"><strong>b) Violence Without Excess – The One-Principle:</strong>
 Unlike perpetrators driven by Eight-energy, Ogorzow's approach lacked an excessive, self-serving character. He struck, choked, and threw victims from moving trains. Brutality was present – but it was functional, not expressive. This corresponds to SP1 logic: no outburst for the sake of an outburst, but an operation executed and completed. Afterward, a return to routine. No echo, no trace, no arousal.</p>
         <p class="vb-intro"><strong>c) The Blackout as SP1 Protective Structure:</strong>
-The wartime blackout in Berlin was for Ogorzow the external equivalent of his inner splitting: a structurally secured space of invisibility. The SP1 acts only when believing itself unassailable – when no external oversight is possible. The darkness was his system. When investigators began focusing specifically on railway personnel and his name came up, the system collapsed immediately: he confessed that very night. That is the SP1 without its protective structure – it does not hold up.</p>
+The wartime blackout in Berlin was for Ogorzow the external equivalent of his inner splitting: a structurally secured space of invisibility. The SP1 acts only when believing itself unassailable – when no external oversight is possible. The darkness was his system. When investigators began focusing specifically on railway personnel and his name came up, the system collapsed immediately: he confessed that very night. Here you can see the SP1 without its protective structure – it does not hold up.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -2414,14 +2414,14 @@ export function tedKaczynskiPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. The Crimes: Bombings 1978–1995</h3>
         <p class="vb-intro">Between 1978 and 1995, Kaczynski mailed or placed 16 bomb packages targeting universities and airlines – leading to the FBI codename UNABOM (Universities and Airlines Bomber). Three people were killed, and 23 were injured.</p>
         <p class="vb-intro">The initial packages were relatively crude. Over the years, Kaczynski significantly refined his bombs through careful craftsmanship – fabricating all components himself, leaving virtually no clues. He altered shipping locations, forged sender details, and avoided commercially bought typewriter paper. For 17 years, investigators were faced with a riddle. In the 1990s, the FBI launched one of the largest manhunts in its history.</p>
-        <p class="vb-intro">The victims were not random: he targeted computer science professors, aerospace engineers, and advertising executives – individuals who, in his eyes, represented the technological-industrial system. That is the SO5: not blind killing, but a targeted sentence – executed by the sole individual possessing the resolve to carry it out.</p>
+        <p class="vb-intro">The victims were not random: he targeted computer science professors, aerospace engineers, and advertising executives – individuals who, in his eyes, represented the technological-industrial system. Here we see the SO5: not blind killing, but a targeted sentence – executed by the sole individual possessing the resolve to carry it out.</p>
       </div>
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Das Manifest: <em>Industrial Society and Its Future</em></h3>
         <p class="vb-intro">In 1995, Kaczynski sent his 35,000-word manifesto to the New York Times and the Washington Post, threatening further attacks if it was not published. The FBI advised publication. The manifesto appeared in print in September 1995.</p>
         <p class="vb-intro">It is a remarkable document. Kaczynski argues clearly and rigorously: industrial society destroys human psychological autonomy by replacing natural needs for power, challenge, and purpose with surrogate activities. The individual becomes dependent on a system they neither control nor understand. The only resolution, he argued, was a radical collapse of technological civilization.</p>
-        <p class="vb-intro">Philosophers, sociologists, and critics of technology have since acknowledged individual analyses in the manifesto as intellectually notable – when examined independently of his criminal acts. That is the SO5w4 paradox: a thinker whose ideas were partially open to debate – and whose methods were unacceptable.</p>
+        <p class="vb-intro">Philosophers, sociologists, and critics of technology have since acknowledged individual analyses in the manifesto as intellectually notable – when examined independently of his criminal acts. This shows the SO5w4 paradox: a thinker whose ideas were partially open to debate – and whose methods were unacceptable.</p>
       </div>
 
       <div class="vb-section">
@@ -2504,7 +2504,7 @@ export function victorLustigPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Eight wing: Coolness under maximum risk</h3>
         <p class="vb-intro">An SX7 with a more muted Eight wing would likely have run the con once and disappeared. In Lustig's case, an uncompromising streak emerged that went far beyond ordinary boldness: after the first buyer alerted the police – but, out of shame at having been conned, never filed a public complaint – Lustig returned to Paris a few months later and sold the Eiffel Tower a second time.</p>
-        <p class="vb-intro">This willingness to repeat an already-risked game under even higher exposure is the Eight wing in its purest form: no fear of confrontation, no regard for one's own vulnerability, but the conviction that controlling the situation matters more than caution. Later, in the United States, Lustig went so far as to draw mob boss Al Capone himself into a deal – returning his money intact to secure his trust completely, before the real, larger con followed.</p>
+        <p class="vb-intro">This willingness to repeat an already-risked game under even higher exposure shows the Eight wing in its purest form: no fear of confrontation, no regard for one's own vulnerability, but the conviction that controlling the situation matters more than caution. Later, in the United States, Lustig went so far as to draw mob boss Al Capone himself into a deal – returning his money intact to secure his trust completely, before the real, larger con followed.</p>
       </div>
 
       <div class="vb-section">
@@ -2521,7 +2521,7 @@ export function victorLustigPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. What the Enneagram reveals</h3>
-        <p class="vb-intro"><strong>a) Suggestibility as a professional tool:</strong> Lustig's entire career rested on the ability to transform himself and others completely in a single persuasive moment. This is the SX7 in its purest form: not long-term systemic planning, but brilliant improvisation at the decisive moment.</p>
+        <p class="vb-intro"><strong>a) Suggestibility as a professional tool:</strong> Lustig's entire career rested on the ability to transform himself and others completely in a single persuasive moment. Here you can see the SX7 in its purest form: not long-term systemic planning, but brilliant improvisation at the decisive moment.</p>
         <p class="vb-intro"><strong>b) The Eight wing as compulsion to repeat under risk:</strong> An SX7 with a more muted Eight wing would have withdrawn after the first Eiffel Tower sale. Lustig's strongly developed Eight wing demanded that the risk be repeated, escalated, proven – that control remained entirely his.</p>
         <p class="vb-intro"><strong>c) Identity as fluid material:</strong> More than forty aliases show how much the SX7 treats identity not as a fixed quantity but as a tool – malleable, interchangeable, always adapted to the moment at hand.</p>
       </div>
@@ -2595,7 +2595,7 @@ export function fritzHonkaPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Properties</h3>
         <p class="vb-intro"><strong>a) Violence as sudden loss of control, not as a plan:</strong> Unlike perpetrators who acted with premeditation, Honka's crimes appear to have discharged in sudden, uncontrolled fits of rage — triggered by mockery, rejection, or the women's attempts to leave his apartment. The SP5 holds impulses back for extremely long periods; when the Six-wing's lid of fear finally bursts, it does not happen through calculation, but explosively.</p>
         <p class="vb-intro"><strong>b) Stramonium — the Five's homeopathic remedy of passion, and its warning about concealed violence:</strong> A revealing parallel lies in <strong>Stramonium</strong> (thorn apple), the homeopathic remedy of passion associated with the self-preservation Five. Its materia medica includes a distinct rubric — <em>violent, concealed, masked</em> — that describes precisely what became visible in Honka: when emotions are suppressed over very long periods and rarely shown outwardly, this accumulated inner tension eventually seeks an outlet, at wide intervals — not through calculation, but through sudden, explosive outbursts of violence in a person who had appeared calm, almost inconspicuous, until then. This naturally applies to only a vanishingly small exception among self-preservation Fives — in Honka's case, this constellation coincided with a passion of avarice lived out with particular intensity, which brought the pattern to light in its darkest form. The same underlying structure can also be found in Kroll, once the deeper motivation is considered.</p>
-        <p class="vb-intro"><strong>c) His own apartment as the hiding place for the crimes — not the outside world:</strong> The most striking feature of Honka's method: he did not dispose of the body parts far from his own living space, as many other perpetrators do, but concealed them within his own four walls — behind a self-built partition wall, in the attic above his apartment. This is the SP5 logic in its darkest form: the private retreat is so completely under control that even the unspeakable seems safer there than outside — a parallel to Kroll, who kept body parts in his own refrigerator instead of disposing of them.</p>
+        <p class="vb-intro"><strong>c) His own apartment as the hiding place for the crimes — not the outside world:</strong> The most striking feature of Honka's method: he did not dispose of the body parts far from his own living space, as many other perpetrators do, but concealed them within his own four walls — behind a self-built partition wall, in the attic above his apartment. Here we see the SP5 logic in its darkest form: the private retreat is so completely under control that even the unspeakable seems safer there than outside — a parallel to Kroll, who kept body parts in his own refrigerator instead of disposing of them.</p>
         <p class="vb-intro"><strong>d) A cooperative, almost relieved confession:</strong> After his arrest, Honka confessed comparatively quickly and in detail. Investigators described him as cooperative; at times he seemed almost relieved that the years-long secrecy had finally ended. The meager, fear-driven hiding had itself become unbearable to carry.</p>
         <p class="vb-intro"><strong>e) Tool rather than weapon: the hands as the instrument of the crime:</strong> Looking back on the case, Honka's unusually large, massive hands stood out — described by those who knew him as tool-like, almost shovel-shaped, the hands with which he beat and strangled his victims. As a warehouse laborer who had moved crates and loads for decades, he had inevitably developed such powerful hands — yet their coarse, almost digging quality recalls the image of the mole, which effortlessly burrows through resistance with powerful, shovel-like forepaws — an animal, interestingly, likewise associated with the principle of the self-preservation Five — not the Five in general, but specifically that self-preservation variant which asserts itself against a world experienced as threatening through physical strength and burrowing persistence. Honka needed no weapon: his hands alone gave him crushing superiority over women who were mostly physically weaker than him. In accounts of the case, both in criminal-history literature and in later film adaptations, these hands became a recurring symbol — for the raw, immediate violence and the helpless fate of his victims from Hamburg's bar scene.</p>
       </div>

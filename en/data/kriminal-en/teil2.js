@@ -278,7 +278,7 @@ export function angelResendezPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Self-Preservation Two: Survival as the Only Law</h3>
-        <p class="vb-intro"><strong>a) The Core Principle:</strong> The Self-Preservation Type 2 secures its survival space by occupying the space of others. It approaches — whether through helpfulness, charm, or violence — and makes itself indispensable simply by being present. For Reséndez, this strategy was radical: he invaded homes not to help, but because the house belonged to someone else and he possessed no sphere of his own. Intrusion was the SP2's survival strategy in its darkest form: not caretaking as a disguise, but territorial takeover as a drive.</p>
+        <p class="vb-intro"><strong>a) The Core Principle:</strong> The Self-Preservation Type 2 secures its survival space by occupying the space of others. It approaches — whether through helpfulness, charm, or violence — and makes itself indispensable simply by being present. For Reséndez, this strategy was radical: he invaded homes not to help, but because the house belonged to someone else and he possessed no sphere of his own. Intrusion showed the SP2's survival strategy in its darkest form: not caretaking as a disguise, but territorial takeover as a drive.</p>
         <p class="vb-intro"><strong>b) The One-Wing: Internal Justification:</strong> The One-wing equips the Self-Preservation Two with a quiet inner justification. In interrogations, Reséndez expressed a form of moral indifference toward his victims — showing little remorse, yet maintaining a tone devoid of overt cruelty. It was as if an internal set of rules dictated: <em>This was necessary. This was my right.</em> This moral self-justification is the hallmark of the SP2w1 — not sadism, but indifference to the suffering of others when one's own survival strategy is threatened.</p>
         <p class="vb-intro"><strong>c) The Passion: Pride as Entitlement:</strong> The passion of Type Two is <strong>Pride</strong> — the unconscious grasp on one's own sense of superiority and the conviction of being entitled to what others possess. In Reséndez, this pride manifested not as vanity, but as a primitive form of sovereignty: the conviction that his needs mattered, even when society treated him as invisible.</p>
       </div>
@@ -567,7 +567,7 @@ export function davidBerkowitzPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Typical Behavioral Patterns</h3>
         <p class="vb-intro"><strong>a) Withdrawal and Isolation:</strong> Berkowitz lived alone, worked as a mail carrier, had almost no social contacts. The Self-Preservation Four withdraws because the outer world cannot ease the inner pain. Solitude became the norm, which further fed the longing.</p>
         <p class="vb-intro"><strong>b) Ritualization of Violence:</strong> Berkowitz's attacks were ritually structured: same weapon, similar victim profiles, nocturnal environment. The Four tends to stage its own experience. The killer created his own dark liturgy.</p>
-        <p class="vb-intro"><strong>c) Writing as Self-Expression:</strong> Berkowitz left letters for the police and press — literary, theatrical, self-pitying. This is the SP4w3: the inner world must get out; it must find a form. The Three-wing pressed for visibility.</p>
+        <p class="vb-intro"><strong>c) Writing as Self-Expression:</strong> Berkowitz left letters for the police and press — literary, theatrical, self-pitying. Here we see the SP4w3: the inner world must get out; it must find a form. The Three-wing pressed for visibility.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -736,7 +736,7 @@ export function fritzHaarmannPortraitPage() {
         <p class="vb-intro"><strong>Type Assignment:</strong>
 Fritz Haarmann is assigned to the Sexual Type One with a Nine-wing in the Enneagram. The passion of the One is Anger—a deep, pent-up resentment that, in the Sexual Subtype (SX1), is not directed toward institutions or the world in general, but toward the single, most intense one-on-one relationship. The SX1 is the countertype of the One: in its external appearance, it looks the least like a classic One—it is warm, engaging, passionate, and socially embedded. Behind this facade, however, lies an absolute drive for control that recognizes no boundaries in intimate relationships. The Nine-wing lends this structure external warmth and good-naturedness, completely softening the visible sharpness of the One and enabling a deep dissociation between everyday life and crime. In Haarmann, this constellation unfolded in the darkest form of the SX1: the impulse for total possession of the other could only end in destruction.</p>
         <p class="vb-intro"><strong>a) Warm and Inviting:</strong>
-Haarmann's gaze was not a threatening one. Young people at the station described him—in the few surviving witness reports—as attentive and paternal. He offered food, shelter, and a familiar hand amidst the disorientation of the post-war period. This is the Nine-wing of the SX1: outwardly warming, drawing people in, providing stability. The threat remains entirely hidden.</p>
+Haarmann's gaze was not a threatening one. Young people at the station described him—in the few surviving witness reports—as attentive and paternal. He offered food, shelter, and a familiar hand amidst the disorientation of the post-war period. This shows the Nine-wing of the SX1: outwardly warming, drawing people in, providing stability. The threat remains entirely hidden.</p>
         <p class="vb-intro"><strong>b) The Gaze of Institutional Legitimacy:</strong>
 As a police informant, Haarmann carried an informal authority that silenced questions. Anyone checking IDs belongs to the order. Whoever belongs to the order stands beyond suspicion. The SX1w9 instinctively finds the institutional embedding that protects him—not always consciously, but with a structural accuracy.</p>
       </div>
@@ -756,7 +756,7 @@ Haarmann's partner Hans Grans was involved in several murders—he reportedly se
         <p class="vb-intro"><strong>c) The Neighborhood Figure:</strong>
 Haarmann did not live in hiding. He was part of the neighborhood—known, accessible, helpful. He sold clothing and meat, and the community bought from him without asking questions. This integration into the community represents the Nine-wing pattern: the Nine assimilates, avoids friction, and becomes part of the space in which it lives.</p>
         <p class="vb-intro"><strong>a) Killing as an Act of Absolute Possession:</strong>
-Haarmann's method of killing—biting the throat—is psychologically significant. It is not a crime committed from a distance; it requires physical proximity, bodily contact, and literal intimacy. This is the SX1 pattern at its darkest frontier: the impulse for complete possession of the other, for seamless control over life and death, executes itself through the most direct physical act.</p>
+Haarmann's method of killing—biting the throat—is psychologically significant. It is not a crime committed from a distance; it requires physical proximity, bodily contact, and literal intimacy. Here you can see the SX1 pattern at its darkest frontier: the impulse for complete possession of the other, for seamless control over life and death, executes itself through the most direct physical act.</p>
         <p class="vb-intro"><strong>b) Post-War Context as a Protective Sphere:</strong>
 Early 1920s Hanover was torn apart by economic hardship, homelessness, and broken family structures. Missing person reports for homeless youth rarely triggered investigations. Haarmann acted within a structural vacuum that he had not created himself, but which he utilized with precision. The One recognizes and uses existing structures—it does not reinvent them, it deploys them.</p>
       </div>
@@ -768,7 +768,7 @@ As a police informant (V-Mann), Haarmann enjoyed double protection: institutiona
         <p class="vb-intro"><strong>a) The Caring Predator:</strong>
 Haarmann's effect on his immediate environment was one of care, not threat. He helped, he provided, he was present. This care was not mere cold calculation—the Nine-wing generates genuine social warmth and helpfulness. That a destructive structure stood behind it remained imperceptible to those around him because the warmth was not entirely performed.</p>
         <p class="vb-intro"><strong>b) The Moniker "Werewolf":</strong>
-The press dubbed Haarmann the "Werewolf of Hanover." Psychologically, the term strikes closer than it realizes: the werewolf is a creature that is a normal human by day and something entirely different by night. This is the Nine-wing pattern in its vividest condensation: two completely separate existences within a single body, without a visible seam.</p>
+The press dubbed Haarmann the "Werewolf of Hanover." Psychologically, the term strikes closer than it realizes: the werewolf is a creature that is a normal human by day and something entirely different by night. Here we see the Nine-wing pattern in its vividest condensation: two completely separate existences within a single body, without a visible seam.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -956,7 +956,7 @@ export function henriLandruPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Lonely-hearts ads as a system</h3>
         <p class="vb-intro">Landru used false identities and the "matters of the heart" columns of Paris newspapers to target lonely, mostly widowed or single women with their own fortunes – a system he refined systematically over the years. The war provided him with the perfect setting: as millions of men died at the front, countless women were left alone, vulnerable, and open to the prospect of a new, secure bond.</p>
-        <p class="vb-intro">This is the SP3 at its most calculating: Landru identified a structural gap – a pool of vulnerable, wealthy women – and built a repeatable procedure that he applied routinely for five years, with the same systematic care he brought to recording his expenses.</p>
+        <p class="vb-intro">This shows the SP3 at its most calculating: Landru identified a structural gap – a pool of vulnerable, wealthy women – and built a repeatable procedure that he applied routinely for five years, with the same systematic care he brought to recording his expenses.</p>
       </div>
 
       <div class="vb-section">
@@ -967,7 +967,7 @@ export function henriLandruPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. What the Enneagram reveals</h3>
-        <p class="vb-intro"><strong>a) Bookkeeping instead of a stage:</strong> Unlike the social Three, who seeks public prestige, Landru operated as privately as possible – in his own house, in his own stove, in his own notebook. This is the SP3 in its purest form: security is built in hiding, not on a stage.</p>
+        <p class="vb-intro"><strong>a) Bookkeeping instead of a stage:</strong> Unlike the social Three, who seeks public prestige, Landru operated as privately as possible – in his own house, in his own stove, in his own notebook. Here you can see the SP3 in its purest form: security is built in hiding, not on a stage.</p>
         <p class="vb-intro"><strong>b) The Four wing as a dark signature:</strong> An SP3 with a more muted Four wing would likely have behaved more inconspicuously, more colorlessly. Landru's cynical wit in court, his sense of his own morbid uniqueness, show a strongly developed Four wing that gave even his own downfall an unmistakable signature.</p>
         <p class="vb-intro"><strong>c) A system, not an isolated act:</strong> Like Belle Gunness, another SP3w4 with an almost identical pattern, Landru shows the same structure: lonely-hearts ads as a tool, a repeatable procedure, not a single impulse but a methodical routine refined over years.</p>
       </div>
@@ -1254,7 +1254,7 @@ export function johnWayneGacyPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Outward Signs</h3>
-        <p class="vb-intro"><strong>a) Warm and Engaging:</strong> Contemporaries described Gacy as gregarious, charming, and attentive. He took time for people, remembered names, and asked about families. This is the Two on its social stage: genuine warmth cultivated as a perfected, habitual practice.</p>
+        <p class="vb-intro"><strong>a) Warm and Engaging:</strong> Contemporaries described Gacy as gregarious, charming, and attentive. He took time for people, remembered names, and asked about families. Here we see the Two on its social stage: genuine warmth cultivated as a perfected, habitual practice.</p>
         <p class="vb-intro"><strong>b) Orderly and Self-Satisfied:</strong> <strong>Gacy</strong> presented himself as a successful, orderly man — an entrepreneur, civic leader, and generous host. The Three-wing provides the Two with a façade of competence and control: anyone who organizes and gives so much stands above suspicion.</p>
         <p class="vb-intro"><strong>c) The Clown as Deliberate Role Amplification:</strong> The clown persona "Pogo" was no mere sideline — it was an instrument. As a clown, Gacy was grotesquely well-camouflaged: no one looks behind the mask of an entertainer. The Three-wing understands roles not as mere disguise, but as strategy.</p>
       </div>
@@ -1282,7 +1282,7 @@ export function johnWayneGacyPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
-        <p class="vb-intro"><strong>a) Inviting and Controlled:</strong> Gacy's energy was magnetic — he drew people in, built an inviting atmosphere, and generated a sense of belonging. This is the Two with a Three-wing functioning as a social machine: precisely calibrated to the desires of its environment.</p>
+        <p class="vb-intro"><strong>a) Inviting and Controlled:</strong> Gacy's energy was magnetic — he drew people in, built an inviting atmosphere, and generated a sense of belonging. This shows the Two with a Three-wing functioning as a social machine: precisely calibrated to the desires of its environment.</p>
         <p class="vb-intro"><strong>b) Devoid of True Reciprocity:</strong> Behind the warmth lay no authentic interest in the other person — only an interest in the reflection the other returned. This is the essence of Two-pride: relationship as a mirror, not a meeting.</p>
         <p class="vb-intro"><strong>c) The Mask Without a Face:</strong> Following his arrest, former acquaintances reported feeling as though they had never truly known him. The Three-wing can create a persona so complete that nothing recognizable remains beneath it.</p>
       </div>
@@ -1452,7 +1452,7 @@ None of the victims who rode with him suspected a thing. This ability to radiate
         <p class="vb-intro"><strong>a) The Guardian as Perpetrator:</strong>
 Popkov was an active police officer during the entire period of his crimes. At times, he even investigated cases he himself had committed. This paradoxical constellation is inherently logical for the Self-Preservation One: the One identifies with order, law, and institution—and uses this identification as a psychological sanctuary that exempts its own actions from moral evaluation.</p>
         <p class="vb-intro"><strong>b) Moral Self-Justification:</strong>
-Popkov justified his actions with a clear moral principle: he killed women who were out on the streets at night, drinking, and behaving "immorally"—a cleaning mission he had assigned to himself. This framing is the One pattern in its purest and most dangerous form: anger finds a principle that legitimizes it.</p>
+Popkov justified his actions with a clear moral principle: he killed women who were out on the streets at night, drinking, and behaving "immorally"—a cleaning mission he had assigned to himself. This framing shows the One pattern in its purest and most dangerous form: anger finds a principle that legitimizes it.</p>
         <p class="vb-intro"><strong>c) Bourgeois Double Life:</strong>
 Popkov lived with his wife—also a police officer—and his daughter, maintained friendly relations with neighbors, and was considered inconspicuous and dependable. The complete separation between family and professional daily life and the nocturnal crimes is the classic SP1 pattern: outer order is maintained with absolute effort because it is the foundation of the self-image.</p>
       </div>
@@ -1470,7 +1470,7 @@ At least 18 years of active crimes are a sign of a discipline that goes far beyo
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
         <p class="vb-intro"><strong>a) The Uniform as Complete Disguise:</strong>
-Popkov's police uniform was his most effective disguise—more effective than any social mask. It signaled belonging to order, to state power, to the side of the law. In the post-Soviet society of Siberia, the militia officer was a figure of respect. The One in uniform is the One in its most socially accepted form.</p>
+Popkov's police uniform was his most effective disguise—more effective than any social mask. It signaled belonging to order, to state power, to the side of the law. In the post-Soviet society of Siberia, the militia officer was a figure of respect. The One in uniform shows the One in its most socially accepted form.</p>
         <p class="vb-intro"><strong>b) Dutiful Colleague:</strong>
 In his precinct, Popkov was regarded as orderly and dutiful. No conspicuous outbursts, no service infractions, no peculiarities. This consistent reliability is the Nine-wing of the One in professional life: appearing calm, solid, predictable—and thus being the last thing anyone would associate with a serial killer.</p>
         <p class="vb-intro"><strong>c) Familiarly and Socially Integrated:</strong>
@@ -1484,7 +1484,7 @@ Popkov radiated no visible tension. His energy appeared controlled and restraine
         <p class="vb-intro"><strong>b) Night as an Outlet:</strong>
 Police officer by day, perpetrator by night—this temporal separation is energetically significant. The One needs channels for its pent-up pressure. For Popkov, the night created the space outside the regulated order in which the pressure discharged. Daytime life remained seemingly untouched by it—because the separation was absolute.</p>
         <p class="vb-intro"><strong>c) No Impulsive Remorse, No Integration:</strong>
-Popkov showed no real remorse during interrogations. He explained his actions as the consistent execution of an inner principle. This is the One at the deepest level of disintegration: anger has completely allied with a conviction and has thus stepped outside the realm of moral self-reflection.</p>
+Popkov showed no real remorse during interrogations. He explained his actions as the consistent execution of an inner principle. Here you can see the One at the deepest level of disintegration: anger has completely allied with a conviction and has thus stepped outside the realm of moral self-reflection.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -1515,7 +1515,7 @@ The One must be able to internally agree with its actions. Popkov resolved this 
         <p class="vb-intro"><strong>d) The Investigator as Perpetrator:</strong>
 The fact that Popkov was involved in investigations against himself is psychologically revealing. The One identifies with the system—it believes in institutions and operates within them without internal contradiction. Popkov could investigate because he did not perceive himself as a perpetrator in the institutional sense: "Factor X" in Rader has an ideological equivalent in Popkov—the purifier is no criminal.</p>
         <p class="vb-intro"><strong>e) Scale as Expression of Conviction:</strong>
-86 confirmed victims over 18 years—this number is not the result of uncontrollable impulses, but of a stable conviction. The more solidified the moral framing, the longer the behavior persists. In Popkov, the ideological foundation remained constant—and with it, the crimes. This is the One in its most persistent manifestation: as long as the principle holds, the consequence holds as well.</p>
+86 confirmed victims over 18 years—this number is not the result of uncontrollable impulses, but of a stable conviction. The more solidified the moral framing, the longer the behavior persists. In Popkov, the ideological foundation remained constant—and with it, the crimes. Here we see the One in its most persistent manifestation: as long as the principle holds, the consequence holds as well.</p>
         <p class="vb-intro"><strong>f) No Path of Growth – Total Disintegration:</strong>
 The growth point of the One is the Seven—lightness, joy, the courage for imperfection. For Popkov, this path did not exist. No humor, no play, no creativity as an outlet—only silent official duty and nocturnal discharge. The counterpoint of the One is the Four: deep suffering, a feeling of fundamental difference. Popkov lived permanently in Four-disintegration—a person who felt profoundly different from others without ever bringing this difference into language or relationships.</p>
       </div>
@@ -1991,7 +1991,7 @@ export function tedBundyPortraitPage() {
           <p class="vb-intro">The wound did not begin with Stephanie Brooks — it began at birth. Ted Bundy was born out of wedlock in 1946. His mother, Eleanor Cowell, was unmarried and 22 years old. To hide the social shame, Eleanor's parents raised the child as their own son. Eleanor was passed off as Ted's older sister. He grew up in this lie — for years. He likely discovered the truth about his origin as a teenager when he found his birth certificate.</p>
           <p class="vb-intro">This is the soil on which an SO1 pattern grows: from the beginning, the mother modeled that social acceptability takes absolute precedence — even over the truth. Maintain the facade. Hide the shame. Be respectable on the outside, whatever burns on the inside. Bundy deeply internalized this message. Suburban respectability on the outside, hidden chaos behind it — that was the life pattern he had learned as a child. His later double life was not an invention. It was a continuation.</p>
           <p class="vb-intro">The second wound came as a young adult: the decisive turning point in Bundy's life was the breakup with Stephanie Brooks, his great love from the upper middle class. She left him in the late 1960s — she considered him not ambitious enough, not of suitable social standing. Bundy was composed on the outside, cut off contact. And began purposefully improving himself: law school, political career. He contacted her again, regained her trust — and then dumped her in turn. Only after that did the murders begin.</p>
-          <p class="vb-intro">This is not a Three pattern (shame over failure). This is the One pattern: resentment. The feeling of having been unfairly devalued. The feeling that an injustice must be settled. All later victims looked like Stephanie Brooks: long, brown hair parted in the middle. Bundy carried the anger toward a specific woman forward — and directed it at everyone who resembled her.</p>
+          <p class="vb-intro">This is not a Three pattern (shame over failure). This shows the One pattern: resentment. The feeling of having been unfairly devalued. The feeling that an injustice must be settled. All later victims looked like Stephanie Brooks: long, brown hair parted in the middle. Bundy carried the anger toward a specific woman forward — and directed it at everyone who resembled her.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Double Life: Citizen and Perpetrator</h2>
@@ -2113,7 +2113,7 @@ export function ulrikeMeinhofPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. What the Enneagram Reveals</h3>
         <p class="vb-intro"><strong>a) Care That No Longer Recognizes Itself:</strong> A healthy SP2w1 advocates for others without losing sight of itself and those closest to it. In Meinhof's case, this pattern tipped over: concern for distant, abstract victims increasingly crowded out concern for her own children &ndash; a pattern Naranjo describes as the Two's care overshooting into ideology.</p>
         <p class="vb-intro"><strong>b) The One-Wing as an Engine of Radicalization:</strong> What began as a journalistic search for justice grew increasingly uncompromising through the One-wing's moral unwavering certainty. The self-critical restraint a healthy One normally has grew weaker and weaker in Meinhof over time.</p>
-        <p class="vb-intro"><strong>c) From Caretaker to Symbolic Figure:</strong> Within the RAF, Meinhof was not the head of the armed struggle but its intellectual legitimation &ndash; she supplied the language, the texts, the moral justification. This is the SP2w1 in its most radical form: making oneself indispensable by giving the cause exactly what it most urgently needs.</p>
+        <p class="vb-intro"><strong>c) From Caretaker to Symbolic Figure:</strong> Within the RAF, Meinhof was not the head of the armed struggle but its intellectual legitimation &ndash; she supplied the language, the texts, the moral justification. Here you can see the SP2w1 in its most radical form: making oneself indispensable by giving the cause exactly what it most urgently needs.</p>
       </div>
 
       <div class="vb-section">

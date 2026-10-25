@@ -150,7 +150,7 @@ export function biruteGaldikasPortraitPage() {
         <h2 class="vb-section">1. The Orangutan</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Orangutan</strong> is the animal of the self-preservation Eight &ndash; not a pack animal like the lion, but a solitary creature that claims its own territory deep in the rainforest and defends it with quiet, tenacious strength. Dr. Biruté Galdikas was, worldwide, the leading authority on orangutans and led the longest continuous field study of a wild mammal ever conducted by a single principal investigator &ndash; more than fifty years, from 1971 until her death in 2026.</p>
-          <p class="vb-intro">Here too, the pattern that runs through several of this compass's animal-researcher portraits holds: the animal correspondences were fixed long before anyone knew of Galdikas's life's work. She herself put it once: "I've always felt I was born to study orangutans." That is the self-preservation Eight in its purest form &ndash; an unshakeable, almost instinctive knowledge of one's own territory, long before the mind can explain it.</p>
+          <p class="vb-intro">Here too, the pattern that runs through several of this compass's animal-researcher portraits holds: the animal correspondences were fixed long before anyone knew of Galdikas's life's work. She herself put it once: "I've always felt I was born to study orangutans." Here we see the self-preservation Eight in its purest form &ndash; an unshakeable, almost instinctive knowledge of one's own territory, long before the mind can explain it.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Eight: A Territory for Life</h2>
@@ -162,7 +162,7 @@ export function biruteGaldikasPortraitPage() {
         <h2 class="vb-section">3. The Nine-Wing: Merging Instead of Conquest</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">An SP8 with a more pronounced Seven-wing would likely have turned her authority into a portfolio of parallel ventures &ndash; farms, tourism, several enterprises at once. In Galdikas the opposite shows: a quiet, patient merging with a single place and a single task, sustained across five decades without distraction. She did found the Orangutan Foundation International in 1986, but at its core this remained one focused mission &ndash; not expansion into new fronts, but deepening the same single cause.</p>
-          <p class="vb-intro">This is the Nine-wing at its most mature: the Eight supplies the tenacious, unshakeable assertiveness to defend one's own territory against threats &ndash; the Nine supplies the capacity to merge completely into that one territory rather than merely ruling it. Unlike Grahame Webb, whose Seven-wing drove him from project to project, Galdikas stayed her entire life in one place, with one species, in a marriage to a local man &ndash; roots instead of growth.</p>
+          <p class="vb-intro">This shows the Nine-wing at its most mature: the Eight supplies the tenacious, unshakeable assertiveness to defend one's own territory against threats &ndash; the Nine supplies the capacity to merge completely into that one territory rather than merely ruling it. Unlike Grahame Webb, whose Seven-wing drove him from project to project, Galdikas stayed her entire life in one place, with one species, in a marriage to a local man &ndash; roots instead of growth.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Defending the Territory: Poachers, Loggers, Authorities</h2>
@@ -223,13 +223,13 @@ export function carmenGoglinPortraitPage() {
         <h2 class="vb-section">2. The self-preservation Nine: Comfort as a mission</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">According to Naranjo, the self-preservation Nine (SP9) is the subtype he called Appetite – the focus on physical comfort, coziness, and small rituals of pleasure as a way to calm oneself and stay centered. In Goglin's case, this "appetite" became a profession: she gives others exactly what the SP9 seeks for itself – bodily relaxation, lightness, the feeling that nothing is urgent right now.</p>
-          <p class="vb-intro">Laughter yoga itself is, at its core, an SP9 method: no analyzing, no talking about problems, just a physical practice that dissolves tension directly. You do not need to understand why you are laughing – the body simply does it, and the mind follows. That is the Nine in its purest expression: reaching calm not through thinking, but through doing.</p>
+          <p class="vb-intro">Laughter yoga itself is, at its core, an SP9 method: no analyzing, no talking about problems, just a physical practice that dissolves tension directly. You do not need to understand why you are laughing – the body simply does it, and the mind follows. Here you can see the Nine in its purest expression: reaching calm not through thinking, but through doing.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Eight wing: Why a trainer became a brand</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A Nine with a more muted Eight wing would probably have kept her laughter school small and local. Goglin's strongly developed Eight wing brings something else: assertiveness, a certain fearlessness, the willingness to put herself out there even when it gets uncomfortable. In late 2020/early 2021, German rapper Finch ("Finch Asozial") picked up videos of Goglin's unfiltered laughter and parodied them – and instead of retreating, Goglin used the sudden attention. Appearances on SAT.1's Frühstücksfernsehen, SWR1 Leute, and World Wide Wohnzimmer followed, along with an advertising campaign for Aldi.</p>
-          <p class="vb-intro">This is the SP9w8 movement in miniature: The Nine might have sat out the viral moment until it passed on its own. The Eight wing instead said: this is the opportunity, and you take it. Goglin remained recognizably herself throughout – no reinvention, no image change – simply more stage for what she was already doing.</p>
+          <p class="vb-intro">Here we see the SP9w8 movement in miniature: The Nine might have sat out the viral moment until it passed on its own. The Eight wing instead said: this is the opportunity, and you take it. Goglin remained recognizably herself throughout – no reinvention, no image change – simply more stage for what she was already doing.</p>
         </blockquote>
 
         <h2 class="vb-section">4. From human resources to laughter trainer: A shift without a break</h2>
@@ -311,7 +311,7 @@ export function cynthiaLummisPortraitPage() {
         <h2 class="vb-section">6. The Lioness Who Defends New Terrain</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The healing path of the Eight leads from lust to innocence &ndash; from the compulsive assertion of one's own position to a strength that can also listen without losing its power. Lummis has shown over decades that political persistence and the willingness to venture into unknown terrain are not mutually exclusive.</p>
-          <p class="vb-intro">From the ranch in Cheyenne to Wyoming's first female senator, from a ridiculed fringe position to a recognized voice in US crypto policy: that is the SO8w7 at its most mature &ndash; the lioness who defends her pride by going ahead, into territory no one has entered yet, and then standing her ground until others follow.</p>
+          <p class="vb-intro">From the ranch in Cheyenne to Wyoming's first female senator, from a ridiculed fringe position to a recognized voice in US crypto policy: this shows the SO8w7 at its most mature &ndash; the lioness who defends her pride by going ahead, into territory no one has entered yet, and then standing her ground until others follow.</p>
         </blockquote>
 
       </div>
@@ -499,7 +499,7 @@ export function friedrichNietzschePortraitPage() {
         <h2 class="vb-section">4. Sils-Maria: Ten Years of Solitude as a Body of Work</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">From 1879 Nietzsche gave up his professorship for health reasons and spent the following ten years as a homeless wanderer &ndash; moving between cheap boarding houses in Sils-Maria in the Engadin, Nice, Genoa, and Turin, often with only a single suitcase, chronically ill, nearly blind, mostly alone. It was precisely in these years of radical withdrawal that his major work emerged: <em>Thus Spoke Zarathustra</em>, <em>Beyond Good and Evil</em>, <em>On the Genealogy of Morality</em>, <em>Twilight of the Idols</em>.</p>
-          <p class="vb-intro">This is the SX5w4 in its clearest expression: withdrawal is not a deficiency, but the precondition. Only in near-total solitude, without academic post, without a fixed bond, did the one channel open through which everything within him could flow.</p>
+          <p class="vb-intro">Here you can see the SX5w4 in its clearest expression: withdrawal is not a deficiency, but the precondition. Only in near-total solitude, without academic post, without a fixed bond, did the one channel open through which everything within him could flow.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow: Clarity and Collapse</h2>
@@ -559,7 +559,7 @@ export function gretaThunbergPortraitPage() {
         <h2 class="vb-section">2. The Self-Preservation Two: The Right to Exist</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>self-preservation Two (SP2)</strong> is, in the Enneagram tradition, the subtype that most strongly directs the energy of the Two inward and toward its own survival. While the social Two fights for the group and the sexual Two operates through seduction and personal attraction, the SP2 asks first: <em>What do I need to survive? What does the world I live in need to survive?</em> Naranjo called this subtype <em>Me First</em> &ndash; not in the egotistical sense, but in the existential: the Two that does not deny its own needs, but names them directly.</p>
-          <p class="vb-intro">In Greta Thunberg this shows in a rare, almost relentless directness. She does not say: <em>I am worried about the future of others.</em> She says: <em>You are stealing my future.</em> That is the SP2 view: climate change is not an abstract humanitarian question &ndash; it is a threat to her own basis of existence. This immediacy makes her message so different from that of many other activists. She does not talk about the world out there. She talks about the world in which she herself exists.</p>
+          <p class="vb-intro">In Greta Thunberg this shows in a rare, almost relentless directness. She does not say: <em>I am worried about the future of others.</em> She says: <em>You are stealing my future.</em> Here we see the SP2 view: climate change is not an abstract humanitarian question &ndash; it is a threat to her own basis of existence. This immediacy makes her message so different from that of many other activists. She does not talk about the world out there. She talks about the world in which she herself exists.</p>
           <p class="vb-intro">Her openness about her own neurodivergence &ndash; Asperger syndrome, OCD, selective mutism &ndash; carries this SP2 quality too: no hiding, no sugarcoating. <em>My brain works differently. That is who I am.</em> The SP2 names its reality &ndash; even when the world would rather look away.</p>
         </blockquote>
 
@@ -711,7 +711,7 @@ export function jamaicaKincaidPortraitPage() {
         <h2 class="vb-section">4. The Work: A Voice That Does Not Back Down</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Jamaica Kincaid began her writing career in the 1970s at The New Yorker under editor-in-chief William Shawn. Her novel Annie John (1985) depicts growing up in Antigua—the close, intense bond with her mother and its gradual collapse—with a precision that feels autobiographical because it is. Lucy (1990) continues this story: a Caribbean girl working as an au pair in New York, standing between two worlds without accepting either as her own.</p>
-          <p class="vb-intro">The Autobiography of My Mother (1996) and My Brother (1997)—a memoir about her brother Devon, who died of AIDS—deepen these themes: the colonization of the body, language, and memory. Kincaid currently teaches at Harvard University. She changed her name, left her homeland, and forged her language into a weapon. That is the SO8w9: not fleeing, but transforming.</p>
+          <p class="vb-intro">The Autobiography of My Mother (1996) and My Brother (1997)—a memoir about her brother Devon, who died of AIDS—deepen these themes: the colonization of the body, language, and memory. Kincaid currently teaches at Harvard University. She changed her name, left her homeland, and forged her language into a weapon. This shows the SO8w9: not fleeing, but transforming.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow: Relentlessness</h2>
@@ -722,7 +722,7 @@ export function jamaicaKincaidPortraitPage() {
 
         <h2 class="vb-section">6. The Lion Who Writes</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Jamaica Kincaid carries no weapon other than language, and that language is sharper than anything else. She transformed one of the most brutal colonial histories of the Caribbean into literature, without romanticizing the victims and without sparing the perpetrators. That is the SO8w9: not the lion that roars, but the one that bit long before you saw it coming. Strength that is not loud. Truth that remains.</p>
+          <p class="vb-intro">Jamaica Kincaid carries no weapon other than language, and that language is sharper than anything else. She transformed one of the most brutal colonial histories of the Caribbean into literature, without romanticizing the victims and without sparing the perpetrators. Here you can see the SO8w9: not the lion that roars, but the one that bit long before you saw it coming. Strength that is not loud. Truth that remains.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
@@ -796,7 +796,7 @@ export function jodieFosterPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The healing path of the Five leads from <em>I do not have enough to show myself</em> to <em>I can show myself fully &ndash; to the one I trust.</em> For the SX5w6, this does not mean tearing down all walls. It means truly opening the one door that does get opened &ndash; without half-measures, without hedging, without the feeling of losing something of oneself in the process.</p>
           <p class="vb-intro">Jodie Foster has walked this path in her own way: she never surrendered herself to the public, but she has truly shown herself, over decades, to the few people who earned her trust. That is no contradiction &ndash; it is the rawest form of SX5w6: the hedgehog that shows itself to no one who has not earned it &ndash; and shows itself fully to the one who has.</p>
-          <p class="vb-intro">More than sixty years after her first film appearance, Jodie Foster remains one of Hollywood&apos;s least publicly exposed and, at the same time, most deeply bonded personalities. That is the sexual Five with Six-wing: trust as a protected, but never empty, space.</p>
+          <p class="vb-intro">More than sixty years after her first film appearance, Jodie Foster remains one of Hollywood&apos;s least publicly exposed and, at the same time, most deeply bonded personalities. Here we see the sexual Five with Six-wing: trust as a protected, but never empty, space.</p>
         </blockquote>
 
       </div>
@@ -1426,13 +1426,13 @@ export function sandraHuellerPortraitPage() {
         <h2 class="vb-section">4. Requiem: The early breakthrough</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In 2006, Hüller played Michaela Klingler in Hans-Christian Schmid's "Requiem" – a woman with epilepsy believed by her church congregation to be possessed, a role based on the real case of Anneliese Michel. For this performance she received the Silver Bear at the Berlinale, the German Film Award, and the Bavarian Film Award.</p>
-          <p class="vb-intro">The breakthrough barely changed her everyday life visibly. She stayed in Leipzig and Bochum, kept doing theater instead of moving straight to Hollywood. That is the social Nine in its purest form: success gets integrated, not used as a break from one's own structure.</p>
+          <p class="vb-intro">The breakthrough barely changed her everyday life visibly. She stayed in Leipzig and Bochum, kept doing theater instead of moving straight to Hollywood. This shows the social Nine in its purest form: success gets integrated, not used as a break from one's own structure.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Toni Erdmann and Anatomy of a Fall: Two women under pressure</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In Maren Ade's "Toni Erdmann" (2016), Hüller played a success-driven management consultant whose facade is systematically dismantled by her eccentric father – an international success that earned her the European Film Award. In "Anatomy of a Fall" (2023), she played a successful novelist who becomes the accused herself after her husband's death – for which she received the 2024 César for Best Actress.</p>
-          <p class="vb-intro">Both characters stand under public scrutiny, have to justify themselves, are judged from the outside. Hüller never plays this pressure loudly – she lets it show in posture, in hesitation, in small delays. This is the SO9: conflict is not fought out, but carried, until it discharges within the character itself.</p>
+          <p class="vb-intro">Both characters stand under public scrutiny, have to justify themselves, are judged from the outside. Hüller never plays this pressure loudly – she lets it show in posture, in hesitation, in small delays. Here you can see the SO9: conflict is not fought out, but carried, until it discharges within the character itself.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Buffalo in the spotlight</h2>
@@ -1481,7 +1481,7 @@ export function taddlPortraitPage() {
         <h2 class="vb-section">2. The Social Type 4: Shame as Silent Driving Force</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>social Type 4 (SO4)</strong> is the <em>amplification type</em> of the Four: it carries its passion of envy inward &ndash; as shame. Naranjo aptly named this subtype <em>Shame</em>. The life-feeling of the SO4 is a deep sense of lack: the grass on the other side of the fence is always greener. Others have something I don't have. Others <em>are</em> something I am not. This feeling of inferiority is not loud and accusatory &ndash; it works quietly, stubbornly, and exhaustingly within. And it is at the same time the drive that pushes the SO4 toward achievement: <em>Perhaps one day I will be enough after all.</em></p>
-          <p class="vb-intro">In Taddl, this manifests in the tension between visibility and withdrawal that has shaped his public path. He was present &ndash; and disappeared. He shared &ndash; and protected. He showed humor &ndash; and behind it lay something he did not show for a long time. That is the SO4: it wants to be seen. But it fears being truly seen &ndash; because it is not certain whether what is then seen is good enough.</p>
+          <p class="vb-intro">In Taddl, this manifests in the tension between visibility and withdrawal that has shaped his public path. He was present &ndash; and disappeared. He shared &ndash; and protected. He showed humor &ndash; and behind it lay something he did not show for a long time. Here we see the SO4: it wants to be seen. But it fears being truly seen &ndash; because it is not certain whether what is then seen is good enough.</p>
           <p class="vb-intro">His later work &ndash; music, visual art, more honest glimpses into his life &ndash; shows the SO4 on a path: from the shame that conceals to the vulnerability that reveals. That is no small step. It is the essential one.</p>
         </blockquote>
 
@@ -2267,7 +2267,7 @@ export function vincenzoCalifanoPortraitPage() {
         <h2 class="vb-section">2. The Social Three: Standing in the Community of Seekers</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>social Three (SO3)</strong> asks who counts one as part of the community, and Claudio Naranjo spoke of prestige here. Califano answers by having earned a place in the German-speaking scene of nondual teachers: he regularly holds satsangs, is listed in directories such as Jetzt-TV and appears publicly. His offering is clearly structured: an "8-week 1:1 accompaniment," individual sessions, a fixed membership ("Inner Circle"), bookable day events with a specific date and countdown on his own website.</p>
-          <p class="vb-intro">That is the social Three in a field that traditionally resists structure: even the teaching of the radical dissolution of the seeking self gets translated by Califano into a reliable, repeatable system lived in a community of participants – competence and consistency as the foundation, visibility in the scene as the result.</p>
+          <p class="vb-intro">This shows the social Three in a field that traditionally resists structure: even the teaching of the radical dissolution of the seeking self gets translated by Califano into a reliable, repeatable system lived in a community of participants – competence and consistency as the foundation, visibility in the scene as the result.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two-Wing: Accompaniment as the Actual Drive</h2>

@@ -97,7 +97,7 @@ export function lanaDelReyPortraitPage() {
         <h2 class="vb-section">3. Der Viererflügel: Die Schönheit der untergehenden Liebe</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der sexuellen Drei eine melancholische, tragödienverliebte Tiefe, die der reinen Erfolgsorientierung einer SX3w2 fehlt – das Bild, das gebaut wird, ist nicht makellos-strahlend, sondern morbide-schön, durchzogen von Verlust und Selbstzerstörung. Del Reys Songs kreisen fast durchgängig um besessene, oft zum Scheitern verurteilte Liebe – ihre eigenen Beziehungen, darunter mit dem italienischen Fotografen Francesco Carrozzini (öffentlich eskalierend bis zu einem lautstarken Streit am Flughafen LAX) oder eine wiederkehrend beschriebene Vorliebe für deutlich ältere Partner, fließen direkt in dieses lyrische Material ein.</p>
-          <p class="vb-intro">Ihr selbst gewählter Beiname ›Gangster Nancy Sinatra‹ zeigt diese Flügel-Färbung besonders deutlich: Kritiker bemerkten, dass ihr tatsächliches Auftreten eher zurückhaltend und fügsam wirkte als hart – der ›Gangster‹-Anteil war weniger reale Härte als eine bewusst gewählte, dramatisch aufgeladene Erzählung über sich selbst. Genau das ist die SX3w4-Formel: Das eigene Bild wird nicht auf Perfektion, sondern auf eine faszinierende, tragische Geschichte hin optimiert.</p>
+          <p class="vb-intro">Ihr selbst gewählter Beiname ›Gangster Nancy Sinatra‹ zeigt diese Flügel-Färbung besonders deutlich: Kritiker bemerkten, dass ihr tatsächliches Auftreten eher zurückhaltend und fügsam wirkte als hart – der ›Gangster‹-Anteil war weniger reale Härte als eine bewusst gewählte, dramatisch aufgeladene Erzählung über sich selbst. Genau das zeigt die SX3w4-Formel: Das eigene Bild wird nicht auf Perfektion, sondern auf eine faszinierende, tragische Geschichte hin optimiert.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die tatsächliche Leistung: Vom Kitsch-Verdacht zur kritisch gefeierten Songwriterin</h2>
@@ -360,7 +360,7 @@ export function oliverKahnPortraitPage() {
         <h2 class="vb-section">3. Der Siebenerflügel: Die Affäre als Ausbruch aus der Anspannung</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der sexuellen Sechs eine zusätzliche Energie und Reizsuche – die Konfrontation mit der Bedrohung wird nicht nur ertragen, sondern in Bewegung, Tempo und neue Stimulation verwandelt. 2003, kurz nach dem WM-Erfolg 2002, begann Kahn eine Affäre mit der 13 Jahre jüngeren Verena Kerth, während seine damalige Frau Simone mit dem gemeinsamen Sohn schwanger war – ein abrupter, öffentlich sichtbarer Bruch mit der bestehenden familiären Struktur, zeitlich verwoben mit dem Verlust seines Stammplatzes an Jens Lehmann.</p>
-          <p class="vb-intro">Auch seine spätere Karriere als bissig-direkter TV-Experte und sein Wechsel in die Bayern-Vorstandsetage 2021 zeigen dieselbe Rastlosigkeit: kaum ist eine Rolle ausgefüllt, sucht er die nächste, intensivere Bühne. Sein Bayern-Engagement endete 2023 abrupt und öffentlichkeitswirksam ungünstig terminiert – kurz vor dem Meisterschaftsspiel bekanntgegeben –, nach internen Konflikten, die er später als Zustände ›wie im Irrenhaus‹ beschrieb. Genau das ist die SX6w7-Formel: Stärke, die sich nicht in Rückzug erschöpft, sondern immer neue, intensivere Auseinandersetzungen sucht.</p>
+          <p class="vb-intro">Auch seine spätere Karriere als bissig-direkter TV-Experte und sein Wechsel in die Bayern-Vorstandsetage 2021 zeigen dieselbe Rastlosigkeit: kaum ist eine Rolle ausgefüllt, sucht er die nächste, intensivere Bühne. Sein Bayern-Engagement endete 2023 abrupt und öffentlichkeitswirksam ungünstig terminiert – kurz vor dem Meisterschaftsspiel bekanntgegeben –, nach internen Konflikten, die er später als Zustände ›wie im Irrenhaus‹ beschrieb. Genau das zeigt die SX6w7-Formel: Stärke, die sich nicht in Rückzug erschöpft, sondern immer neue, intensivere Auseinandersetzungen sucht.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die tatsächliche Leistung: Perfektionismus, der zur Formsprache wurde</h2>
@@ -706,7 +706,7 @@ export function abidaParveenPortraitPage() {
         <h2 class="vb-section">6. Der Elefant, der in Trance versinkt und alle mitrei\u00dft</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Heilungsweg der Neun f\u00fchrt von der Tr\u00e4gheit zu echter, aktiver Pr\u00e4senz &ndash; von der Selbstvergessenheit im Allt\u00e4glichen zu einem bewussten Aufgehen in etwas, das gr\u00f6\u00dfer ist als das eigene Ich. Bei Abida Parveen ist genau dieser Weg zum k\u00fcnstlerischen Prinzip geworden: Sie vergisst sich selbst auf der B\u00fchne nicht aus Passivit\u00e4t, sondern aus einer ge\u00fcbten, jahrzehntelang vertieften spirituellen Hingabe.</p>
-          <p class="vb-intro">Wenn Parveen singt, verschwindet die Grenze zwischen Performerin und Publikum, zwischen Diesseits und dem, wovon die Sufi-Dichter sprachen. Das ist die SE9w8 in ihrer reifsten Form: der Elefant, der scheinbar bewegungslos in sich selbst versinkt &ndash; und genau dadurch alle mit sich in Bewegung setzt.</p>
+          <p class="vb-intro">Wenn Parveen singt, verschwindet die Grenze zwischen Performerin und Publikum, zwischen Diesseits und dem, wovon die Sufi-Dichter sprachen. Hier wirkt die SE9w8 in ihrer reifsten Form: der Elefant, der scheinbar bewegungslos in sich selbst versinkt &ndash; und genau dadurch alle mit sich in Bewegung setzt.</p>
         </blockquote>
 
       </div>
@@ -772,7 +772,7 @@ export function andreAgassiPortraitPage() {
         <h2 class="vb-section">6. Das Vermächtnis: Der Waschbär, der die eigene Maske entlarvte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Andre Agassi gehört zu den prägendsten Figuren der Tennisgeschichte – nicht wegen einer makellosen Karriere, sondern wegen eines Weges, der von erzwungenem Kinderdrill über eine öffentlich gelebte Lüge bis zu einer der ehrlichsten Sportlerautobiografien überhaupt führte. Seit 2001 ist er mit der Tennisspielerin <a href="#beruehmte-steffi-graf">Steffi Graf (SO9w1)</a> verheiratet – eine bewusst private, unaufgeregte Verbindung, die den lautesten Gegensatz zu seinem früheren ›Image is Everything‹-Image bildet.</p>
-          <p class="vb-intro">Vom gedrillten Kind über den Rebellen mit geliehenem Image bis zum Gründer einer Bildungsstiftung, die mehr Geld einwarb als seine gesamte Tenniskarriere: Das ist die selbsterhaltende Drei mit Zweierflügel in ihrer reifsten Form – Substanz, die sich zunächst hinter einer fremden Maske verstecken musste, bevor sie sich selbst, öffentlich und vollständig, die Wahrheit erlaubte.</p>
+          <p class="vb-intro">Vom gedrillten Kind über den Rebellen mit geliehenem Image bis zum Gründer einer Bildungsstiftung, die mehr Geld einwarb als seine gesamte Tenniskarriere: Hier zeigt sich die selbsterhaltende Drei mit Zweierflügel in ihrer reifsten Form – Substanz, die sich zunächst hinter einer fremden Maske verstecken musste, bevor sie sich selbst, öffentlich und vollständig, die Wahrheit erlaubte.</p>
         </blockquote>
 
       </div>
@@ -837,7 +837,7 @@ export function beatriceChebetPortraitPage() {
         <h2 class="vb-section">5. Der Heilungsweg: Dem eigenen Schritt vertrauen</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Heilungsweg der Sechs f\u00fchrt von der Frage <em>Bin ich sicher genug, um loszulaufen?</em> zur Erkenntnis <em>Im Laufen selbst entsteht die Sicherheit.</em> F\u00fcr die SE6w7 bedeutet das, dem eigenen K\u00f6rper zu vertrauen, dem eigenen Rhythmus, der eigenen Kraft &ndash; nicht weil alles garantiert ist, sondern weil die Erfahrung zeigt: Ich komme an. Ich halte durch. Ich werde schneller, wenn es darauf ankommt.</p>
-          <p class="vb-intro">Beatrice Chebet hat dieses Vertrauen auf der gr\u00f6\u00dften B\u00fchne der Welt bewiesen &ndash; zweimal, innerhalb weniger Tage, in Paris. Das Kaninchen, das nicht vor der Strecke flieht, sondern auf ihr nach Hause kommt. Das ist die SE6w7 auf ihrem Heilungsweg: Nicht trotz der Angst laufen &ndash; sondern so lange laufen, bis die Angst keine Rolle mehr spielt.</p>
+          <p class="vb-intro">Beatrice Chebet hat dieses Vertrauen auf der gr\u00f6\u00dften B\u00fchne der Welt bewiesen &ndash; zweimal, innerhalb weniger Tage, in Paris. Das Kaninchen, das nicht vor der Strecke flieht, sondern auf ihr nach Hause kommt. Darin zeigt sich die SE6w7 auf ihrem Heilungsweg: Nicht trotz der Angst laufen &ndash; sondern so lange laufen, bis die Angst keine Rolle mehr spielt.</p>
         </blockquote>
 
       </div>
@@ -887,13 +887,13 @@ export function camilleFritschPortraitPage() {
         <h2 class="vb-section">3. Der Einserfl\xfcgel: Wissenschaftliche Genauigkeit als Fundament</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Eine SE2 mit st\xe4rker ausgepr\xe4gtem Dreierfl\xfcgel h\xe4tte ihre Hilfsbereitschaft vermutlich st\xe4rker inszeniert, mit Fokus auf \xf6ffentliche Sichtbarkeit und Erfolg. Bei Fritsch zeigt sich stattdessen eine ernsthafte methodische Strenge: Er ist aktives Mitglied der <em>IUCN SSC Hippo Specialist Group</em>, arbeitet mit Drohnentechnologie und Radiotracking, um pr\xe4zise \xf6kologische und Verhaltensdaten zu erheben, und untersucht die Rolle von Flusspferden als \xd6kosystem-Ingenieure sowohl im Wasser als auch an Land.</p>
-          <p class="vb-intro">Diese Kombination aus w\xe4rmender, pers\xf6nlicher N\xe4he und wissenschaftlicher Pr\xe4zision ist die SE2w1 in ihrer charakteristischen Form: Die Zwei gibt die Motivation, sich f\xfcr andere &ndash; Menschen wie Tiere &ndash; einzusetzen; der Einserfl\xfcgel sorgt daf\xfcr, dass diese Hilfe methodisch fundiert und nicht bloß gut gemeint ist.</p>
+          <p class="vb-intro">Diese Kombination aus w\xe4rmender, pers\xf6nlicher N\xe4he und wissenschaftlicher Pr\xe4zision zeigt die SE2w1 in ihrer charakteristischen Form: Die Zwei gibt die Motivation, sich f\xfcr andere &ndash; Menschen wie Tiere &ndash; einzusetzen; der Einserfl\xfcgel sorgt daf\xfcr, dass diese Hilfe methodisch fundiert und nicht bloß gut gemeint ist.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Beziehung statt Alleingang: Das Netzwerk als Forschungsprinzip</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Flusspferdforschung ist, anders als etwa Galdikas' jahrzehntelange Einzelstudie an Orang-Utans, von Natur aus vernetzt: Fritsch betont ausdr\xfccklich, dass er nicht der alleinige Experte ist, sondern auf ein umfangreiches Netzwerk regionaler Spezialisten zur\xfcckgreift, um Forschenden und Filmteams aus aller Welt die bestm\xf6glichen Ergebnisse zu verschaffen. Er arbeitet international, zweisprachig (Englisch/Franz\xf6sisch), und tritt regelm\xe4\xdfig in Dokumentationen und Podcasts als zug\xe4nglicher, kollaborativer Vermittler auf &ndash; nicht als distanzierte Autorit\xe4t.</p>
-          <p class="vb-intro">Genau das ist die Zwei in ihrem Element: Wert entsteht nicht durch Alleinherrschaft \xfcber ein Fachgebiet, sondern durch das Gewebe von Beziehungen, das man um sich herum aufbaut &ndash; zu Kolleginnen, zu G\xe4sten, zu den Tieren selbst.</p>
+          <p class="vb-intro">Genau das zeigt die Zwei in ihrem Element: Wert entsteht nicht durch Alleinherrschaft \xfcber ein Fachgebiet, sondern durch das Gewebe von Beziehungen, das man um sich herum aufbaut &ndash; zu Kolleginnen, zu G\xe4sten, zu den Tieren selbst.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Das Flusspferd, das bleibt</h2>
@@ -949,14 +949,14 @@ export function claudeDebussyPortraitPage() {
         <h2 class="vb-section">3. Der F\u00fcnferfl\u00fcgel: Der Klangforscher</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>F\u00fcnferfl\u00fcgel (w5)</strong> gibt der sexuellen Vier den analytischen Blick, den Hunger nach Verst\u00e4ndnis, die F\u00e4higkeit, das eigene Empfinden nicht nur zu f\u00fchlen, sondern bis in seine kleinsten Bausteine zu durchdringen. Bei Debussy zeigte sich das in einer beinahe wissenschaftlichen Besch\u00e4ftigung mit Klang selbst: Ganztonleitern, parallele Quinten, unaufgel\u00f6ste Akkorde, Klangfarben, die er wie ein Chemiker mischte.</p>
-          <p class="vb-intro">Entscheidend war die Pariser Weltausstellung von 1889, auf der Debussy zum ersten Mal javanisches Gamelan-Orchester h\u00f6rte &ndash; eine Musik ohne westliche Harmonielehre, gebaut auf Klangschichten statt auf Aufl\u00f6sung. Er sa\u00df stundenlang davor, notierte, studierte, lie\u00df sich von einer v\u00f6llig fremden Tonwelt umschreiben. Das ist der F\u00fcnferfl\u00fcgel in Reinform: nicht nur ber\u00fchrt sein, sondern verstehen wollen, bis man die fremde Logik in die eigene Sprache \u00fcbersetzen kann.</p>
+          <p class="vb-intro">Entscheidend war die Pariser Weltausstellung von 1889, auf der Debussy zum ersten Mal javanisches Gamelan-Orchester h\u00f6rte &ndash; eine Musik ohne westliche Harmonielehre, gebaut auf Klangschichten statt auf Aufl\u00f6sung. Er sa\u00df stundenlang davor, notierte, studierte, lie\u00df sich von einer v\u00f6llig fremden Tonwelt umschreiben. Hier zeigt sich der F\u00fcnferfl\u00fcgel in Reinform: nicht nur ber\u00fchrt sein, sondern verstehen wollen, bis man die fremde Logik in die eigene Sprache \u00fcbersetzen kann.</p>
           <p class="vb-intro">Sein Klavierzyklus <em>Pr\u00e9ludes</em>, das Streichquartett und vor allem <em>Pr\u00e9lude \u00e0 l&#39;apr\u00e8s-midi d&#39;un faune</em> (1894) &ndash; von Debussy selbst als Beginn der modernen Musik bezeichnet &ndash; sind das Ergebnis dieser jahrelangen Forschung: Musik, die schwebt statt sich aufzul\u00f6sen, die andeutet statt zu behaupten. Der F\u00fcnferfl\u00fcgel verwandelte die Rivalit\u00e4t der SX4 in ein Handwerk von unerreichter Pr\u00e4zision.</p>
         </blockquote>
 
         <h2 class="vb-section">4. La Mer: Komposition inmitten des Skandals</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Debussy komponierte sein Orchesterwerk <em>La Mer</em> (1903&ndash;1905) ausgerechnet in den Jahren des gr\u00f6\u00dften pers\u00f6nlichen Aufruhrs &ndash; w\u00e4hrend der Trennung von Lilly Texier, ihrem Suizidversuch und dem gesellschaftlichen Skandal, der ihn fast seine Karriere kostete. Statt sich zur\u00fcckzuziehen, vertiefte er sich in ein Werk \u00fcber das Meer: drei symphonische Skizzen, die Licht, Bewegung und Klangfarbe verschmelzen, ohne einer klassischen Form zu folgen.</p>
-          <p class="vb-intro">Die Urauff\u00fchrung 1905 wurde von Kritik und Publikum zun\u00e4chst verrissen &ndash; zu formlos, zu unklar, kein &bdquo;richtiges&ldquo; Meeresbild. Erst Jahre sp\u00e4ter wurde <em>La Mer</em> als eines der bedeutendsten Orchesterwerke der Moderne anerkannt. Das ist die SX4w5 in ihrer reinsten Form: Der private Sturm wird nicht verdr\u00e4ngt, sondern in ein Werk \u00fcbersetzt, das so pr\u00e4zise durchdacht ist, dass es die eigene Zeit \u00fcberdauert, auch wenn sie es zun\u00e4chst nicht verstehen will.</p>
+          <p class="vb-intro">Die Urauff\u00fchrung 1905 wurde von Kritik und Publikum zun\u00e4chst verrissen &ndash; zu formlos, zu unklar, kein &bdquo;richtiges&ldquo; Meeresbild. Erst Jahre sp\u00e4ter wurde <em>La Mer</em> als eines der bedeutendsten Orchesterwerke der Moderne anerkannt. Darin zeigt sich die SX4w5 in ihrer reinsten Form: Der private Sturm wird nicht verdr\u00e4ngt, sondern in ein Werk \u00fcbersetzt, das so pr\u00e4zise durchdacht ist, dass es die eigene Zeit \u00fcberdauert, auch wenn sie es zun\u00e4chst nicht verstehen will.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Licht und Schatten: Der Klang, der nicht l\u00fcgt</h2>
@@ -969,7 +969,7 @@ export function claudeDebussyPortraitPage() {
         <h2 class="vb-section">6. Der Chihuahua, der dem Klang traute</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Heilungsweg der Vier f\u00fchrt von der Frage <em>Warum bin ich nicht wie die anderen?</em> zur Erkenntnis <em>Das, was ich h\u00f6re, ist wahr &ndash; und es ist meins, es zu zeigen.</em> F\u00fcr die SX4w5 bedeutet das, die eigene Rivalit\u00e4t gegen die Konvention nicht als Makel zu behandeln, sondern als Kompass, der zu etwas f\u00fchrt, das vorher nicht existierte.</p>
-          <p class="vb-intro">Debussy starb 1918 an Krebs, w\u00e4hrend Paris von deutscher Artillerie beschossen wurde &ndash; einer seiner letzten \u00f6ffentlichen Auftritte war ein Konzert unter Kriegsbedingungen, bei dem er sich weigerte, sich von den Umst\u00e4nden die eigene Musik diktieren zu lassen. Der Chihuahua aus Saint-Germain-en-Laye hat die Musik nicht lauter gemacht, um geh\u00f6rt zu werden &ndash; er hat ihr beigebracht, zu schweben, zu schimmern, das Wesentliche anzudeuten. Das ist die sexuelle Vier mit F\u00fcnferfl\u00fcgel. Das ist Claude Debussy.</p>
+          <p class="vb-intro">Debussy starb 1918 an Krebs, w\u00e4hrend Paris von deutscher Artillerie beschossen wurde &ndash; einer seiner letzten \u00f6ffentlichen Auftritte war ein Konzert unter Kriegsbedingungen, bei dem er sich weigerte, sich von den Umst\u00e4nden die eigene Musik diktieren zu lassen. Der Chihuahua aus Saint-Germain-en-Laye hat die Musik nicht lauter gemacht, um geh\u00f6rt zu werden &ndash; er hat ihr beigebracht, zu schweben, zu schimmern, das Wesentliche anzudeuten. Hier wirkt die sexuelle Vier mit F\u00fcnferfl\u00fcgel. Das ist Claude Debussy.</p>
         </blockquote>
 
         <p class="vb-intro">Die fast neunjährige Darmkrebs-Erkrankung, die Debussy während des Ersten Weltkriegs weitgehend privat hielt, wird ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-claude-debussy">Krankheitsporträt zu Debussy</a> gedeutet.</p>
@@ -1018,7 +1018,7 @@ export function dianFosseyPortraitPage() {
         <h2 class="vb-section">2. Die selbsterhaltende Sieben: Sicherheit im selbst gewählten Revier</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>selbsterhaltende Sieben (SE7)</strong> ist nach Naranjo die bodenst\xe4ndigste der drei Siebener-Subtypen &ndash; keine rastlose Reiselust, keine B\xfchnenpr\xe4senz, sondern das Bed\xfcrfnis, sich einen eigenen, verl\xe4sslichen Mikrokosmos zu schaffen, in dem man vollst\xe4ndig zuhause ist. Fossey w\xe4hlte bewusst extreme Abgeschiedenheit: Sie baute die Forschungsstation Karisoke in den ruandischen Virunga-Bergen auf, weit entfernt von jeder Zivilisation, und blieb dort \xfcber fast zwei Jahrzehnte hinweg mit nur minimalem menschlichen Kontakt.</p>
-          <p class="vb-intro">Innerhalb dieses selbst geschaffenen Rahmens baute sie eine feste, familien\xe4hnliche Struktur auf &ndash; ein Team loyaler Fährtenleser und Assistenten, eine über Jahre gewachsene Vertrautheit mit einzelnen Gorillafamilien, allen voran mit dem jungen Gorillam\xe4nnchen Digit, zu dem sie eine au\xdfergew\xf6hnlich enge Bindung entwickelte. Das ist die SE7 in Reinform: Sicherheit nicht durch \xf6ffentliche Anerkennung, sondern durch ein selbst kontrolliertes, vertrautes Territorium samt eigener &bdquo;Familie&ldquo;.</p>
+          <p class="vb-intro">Innerhalb dieses selbst geschaffenen Rahmens baute sie eine feste, familien\xe4hnliche Struktur auf &ndash; ein Team loyaler Fährtenleser und Assistenten, eine über Jahre gewachsene Vertrautheit mit einzelnen Gorillafamilien, allen voran mit dem jungen Gorillam\xe4nnchen Digit, zu dem sie eine au\xdfergew\xf6hnlich enge Bindung entwickelte. Hier zeigt sich die SE7 in Reinform: Sicherheit nicht durch \xf6ffentliche Anerkennung, sondern durch ein selbst kontrolliertes, vertrautes Territorium samt eigener &bdquo;Familie&ldquo;.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Achterfl\xfcgel: Wenn Verteidigung zur Vergeltung wird</h2>
@@ -1036,7 +1036,7 @@ export function dianFosseyPortraitPage() {
         <h2 class="vb-section">5. Ein Erbe, das \xfcberlebte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Fosseys Buch &bdquo;Gorillas im Nebel&ldquo; (1983) und die gleichnamige Verfilmung machten die Bedrohung der Berggorillas weltweit bekannt. Die von ihr gegr\xfcndete Forschungsstation Karisoke besteht bis heute, ebenso wie der internationale Naturschutz f\xfcr Berggorillas, der ma\xdfgeblich auf ihrer Pionierarbeit aufbaut. Die Population der Berggorillas, die zu ihren Lebzeiten kurz vor dem Aussterben stand, hat sich seither langsam erholt.</p>
-          <p class="vb-intro">Das ist die SE7w8 in ihrer wirkungsvollsten Form: Aus einem pers\xf6nlichen, fast obsessiven Bed\xfcrfnis nach einem eigenen, sicheren Revier entstand ein Verm\xe4chtnis, das weit \xfcber die eigene Lebensspanne hinausreicht.</p>
+          <p class="vb-intro">Darin zeigt sich die SE7w8 in ihrer wirkungsvollsten Form: Aus einem pers\xf6nlichen, fast obsessiven Bed\xfcrfnis nach einem eigenen, sicheren Revier entstand ein Verm\xe4chtnis, das weit \xfcber die eigene Lebensspanne hinausreicht.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der Gorilla, der sein Revier bis zuletzt verteidigte</h2>
@@ -1087,14 +1087,14 @@ export function edwardSnowdenPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>sexuelle F\u00fcnf (SX5)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der F\u00fcnf: Hier tritt die Leidenschaft des Geizes am wenigsten offen zutage &ndash; weil die sexuelle Energie die F\u00fcnf aus ihrer Isolation herauszieht und nach tiefer, intensiver Verbindung suchen l\u00e4sst. Naranjo nannte diesen Subtyp <em>Vertrauen</em>: Die SX5 sucht die eine Verbindung, die alles tr\u00e4gt &ndash; den Menschen, das Prinzip, die Wahrheit &ndash; dem sie sich vollst\u00e4ndig \u00f6ffnen kann. F\u00fcr alle anderen: Stacheln.</p>
           <p class="vb-intro">Bei Snowden war diese Verbindung keine Person &ndash; es war ein Prinzip: die \u00dcberzeugung, dass Menschen das Recht haben zu wissen, was in ihrem Namen getan wird. Er arbeitete jahrelang als Systemtechniker f\u00fcr CIA und NSA, hatte Zugang zu Informationen, die kaum jemand sah &ndash; und er schwieg. Bis er nicht mehr schweigen konnte. Die SX5 hortet nicht ewig. Wenn das Vertrauen in eine tiefere Wahrheit stark genug ist, gibt sie alles preis &ndash; und nimmt daf\u00fcr jeden Preis in Kauf.</p>
-          <p class="vb-intro">Snowden lebt seit 2013 in Moskau. Er hat seine Heimat, seine Familie, seine Freiheit riskiert. Das ist nicht Kalkulation. Das ist die SX5, die ihrem Vertrauen folgt &ndash; bis zur letzten Konsequenz.</p>
+          <p class="vb-intro">Snowden lebt seit 2013 in Moskau. Er hat seine Heimat, seine Familie, seine Freiheit riskiert. Das ist nicht Kalkulation. Hier wirkt die SX5, die ihrem Vertrauen folgt &ndash; bis zur letzten Konsequenz.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Sechserfl\u00fcgel: Pflicht und Widerstand</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Sechserfl\u00fcgel (w6)</strong> bringt der sexuellen F\u00fcnf ein tiefes Pflichtgef\u00fchl und eine wache Skepsis gegen\u00fcber Institutionen. Die SX5w6 folgt nicht blind dem System &ndash; sie pr\u00fcft es. Sie fragt: <em>Ist das, was hier getan wird, wirklich das, wof\u00fcr es ausgegeben wird? Und wenn nicht &ndash; was bin ich schuldig?</em> Die Antwort des Sechserfl\u00fcgels ist nicht immer Mut. Oft ist es zuerst Angst. Aber manchmal &ndash; wenn die Angst durchgearbeitet ist &ndash; wird aus Pflichtgef\u00fchl Handlung.</p>
-          <p class="vb-intro">Snowden beschreibt in seiner Autobiografie <em>Permanent Record</em>, wie er lange z\u00f6gerte, wie er hoffte, dass andere handeln w\u00fcrden, wie er sich fragte, ob er das Richtige tue. Das ist der Sechserfl\u00fcgel: nicht der Held, der keine Angst kennt, sondern der Mensch, der Angst hat &ndash; und trotzdem handelt, weil er nicht anders kann. Der Zweifel geh\u00f6rt dazu. Er ist kein Zeichen von Schw\u00e4che. Er ist der Beweis, dass die Entscheidung ernst genommen wurde.</p>
-          <p class="vb-intro">Der Sechserfl\u00fcgel erkl\u00e4rt auch Snowdens tiefe Loyalit\u00e4t gegen\u00fcber den Grunds\u00e4tzen der Verfassung, der er einst einen Eid geschworen hatte. Er brach die Geheimhaltung nicht trotz seines Eids &ndash; sondern weil er glaubte, dass der Staat seinen Eid gebrochen hatte. Das ist die SX5w6: Loyalit\u00e4t gegen\u00fcber dem Prinzip, nicht gegen\u00fcber der Institution.</p>
+          <p class="vb-intro">Snowden beschreibt in seiner Autobiografie <em>Permanent Record</em>, wie er lange z\u00f6gerte, wie er hoffte, dass andere handeln w\u00fcrden, wie er sich fragte, ob er das Richtige tue. Hier zeigt sich der Sechserfl\u00fcgel: nicht der Held, der keine Angst kennt, sondern der Mensch, der Angst hat &ndash; und trotzdem handelt, weil er nicht anders kann. Der Zweifel geh\u00f6rt dazu. Er ist kein Zeichen von Schw\u00e4che. Er ist der Beweis, dass die Entscheidung ernst genommen wurde.</p>
+          <p class="vb-intro">Der Sechserfl\u00fcgel erkl\u00e4rt auch Snowdens tiefe Loyalit\u00e4t gegen\u00fcber den Grunds\u00e4tzen der Verfassung, der er einst einen Eid geschworen hatte. Er brach die Geheimhaltung nicht trotz seines Eids &ndash; sondern weil er glaubte, dass der Staat seinen Eid gebrochen hatte. Darin zeigt sich die SX5w6: Loyalit\u00e4t gegen\u00fcber dem Prinzip, nicht gegen\u00fcber der Institution.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Licht und Schatten</h2>
@@ -1231,7 +1231,7 @@ export function ginaRinehartPortraitPage() {
         <h2 class="vb-section">3. Der Achterfl\xfcgel: Wenn Beharren zu K\xe4mpfen wird</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Eine Neun mit schwach ausgepr\xe4gtem Achterfl\xfcgel w\xfcrde Konflikten eher ausweichen. Der <strong>Achterfl\xfcgel</strong> bringt bei Rinehart etwas anderes mit: die Bereitschaft, jahrelang und mit voller H\xe4rte zu k\xe4mpfen, wenn ihre Kontrolle \xfcber das Unternehmen infrage gestellt wird. 2011 verklagten drei ihrer vier Kinder &ndash; John Hancock, Bianca Rinehart und zeitweise Hope Welker &ndash; sie wegen des Hope Margaret Hancock Trust, eines von ihrem Vater 1988 errichteten Familientrusts, der ihnen mit 25 Jahren ausgezahlt werden sollte. Rinehart versuchte, die Aussch\xfcttung bis 2068 zu verschieben, mit Verweis auf steuerliche Nachteile.</p>
-          <p class="vb-intro">Der Rechtsstreit zog sich \xfcber Jahre, wurde \xf6ffentlich in aller Bitterkeit ausgetragen und endete erst 2015 mit einem Vergleich. Das ist die SE9w8 unter Druck: Die Neun h\xe4tte den Konflikt vielleicht vermieden oder ausgesessen. Der Achterfl\xfcgel setzte stattdessen auf Kontrolle bis zum Letzten &ndash; selbst gegen die eigenen Kinder, selbst um den Preis jahrelanger \xf6ffentlicher Bloßstellung.</p>
+          <p class="vb-intro">Der Rechtsstreit zog sich \xfcber Jahre, wurde \xf6ffentlich in aller Bitterkeit ausgetragen und endete erst 2015 mit einem Vergleich. Hier wirkt die SE9w8 unter Druck: Die Neun h\xe4tte den Konflikt vielleicht vermieden oder ausgesessen. Der Achterfl\xfcgel setzte stattdessen auf Kontrolle bis zum Letzten &ndash; selbst gegen die eigenen Kinder, selbst um den Preis jahrelanger \xf6ffentlicher Bloßstellung.</p>
         </blockquote>
 
         <h2 class="vb-section">4. \xd6ffentliche Konfrontationen: Das Portr\xe4t und die Netballerinnen</h2>
@@ -1429,7 +1429,7 @@ export function jenniferAnistonPortraitPage() {
 
         <h2 class="vb-section">4. Das Rudel: Solidarität statt Konkurrenz</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Ein zentrales Kapitel der SX6-Geschichte Anistons ist die Gehaltsverhandlung des <em>Friends</em>-Ensembles: Statt sich gegeneinander ausspielen zu lassen, einigten sich alle sechs Hauptdarsteller darauf, gemeinsam zu verhandeln und am Ende gleich viel zu verdienen &ndash; zuletzt eine Million Dollar pro Folge und Person. Das war zu der Zeit in Hollywood außergewöhnlich. Es ist die SX6 in ihrer reifsten Form: Stärke, die nicht gegen das Rudel eingesetzt wird, sondern für es.</p>
+          <p class="vb-intro">Ein zentrales Kapitel der SX6-Geschichte Anistons ist die Gehaltsverhandlung des <em>Friends</em>-Ensembles: Statt sich gegeneinander ausspielen zu lassen, einigten sich alle sechs Hauptdarsteller darauf, gemeinsam zu verhandeln und am Ende gleich viel zu verdienen &ndash; zuletzt eine Million Dollar pro Folge und Person. Das war zu der Zeit in Hollywood außergewöhnlich. Es zeigt die SX6 in ihrer reifsten Form: Stärke, die nicht gegen das Rudel eingesetzt wird, sondern für es.</p>
           <p class="vb-intro">Auch über das Ende der Serie hinaus hielt dieses Rudel: Die sechs Darsteller blieben eng verbunden, trafen sich öffentlich wieder zur Reunion-Sondersendung 2021. Loyalität über Jahrzehnte, ohne dass die individuellen Karrieren darunter litten &ndash; das ist der Wolf, der weiß, dass das Rudel ihn stärker macht, nicht kleiner.</p>
         </blockquote>
 
@@ -1582,7 +1582,7 @@ export function kevinCostnerPortraitPage() {
         <h2 class="vb-section">6. Der B\xfcffel, der bleibt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Kevin Costner geh\xf6rt zu den wenigen Schauspieler-Regisseuren, deren Werk ein konsistentes Weltbild tr\xe4gt: Amerika ist nicht ein Ort, sondern ein Versprechen. Zugeh\xf6rigkeit ist nicht selbstverst\xe4ndlich, sondern wird verdient. Und der Mann, der eine Gemeinschaft h\xe4lt, muss bereit sein, sich selbst zur\xfcckzunehmen. Nicht laut, nicht brillant &ndash; aber beharrlich. Und tiefer, als man zunächst vermutet.</p>
-          <p class="vb-intro">Das ist die SO9w1 in ihrer besten Form: Sie macht nichts f\xfcr sich. Sie macht alles f\xfcr das, woran sie glaubt. Und manchmal &ndash; wie in <em>Der mit dem Wolf tanzt</em>, wie in <em>Feld der Tr\xe4ume</em>, wie in <em>Yellowstone</em> &ndash; reicht das, um etwas zu schaffen, das \xfcberdauert.</p>
+          <p class="vb-intro">Hier zeigt sich die SO9w1 in ihrer besten Form: Sie macht nichts f\xfcr sich. Sie macht alles f\xfcr das, woran sie glaubt. Und manchmal &ndash; wie in <em>Der mit dem Wolf tanzt</em>, wie in <em>Feld der Tr\xe4ume</em>, wie in <em>Yellowstone</em> &ndash; reicht das, um etwas zu schaffen, das \xfcberdauert.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
@@ -1635,7 +1635,7 @@ export function lenaMeyerLandrutPortraitPage() {
         <h2 class="vb-section">3. Der Zweierfl\u00fcgel: Verbindung als Herzensangelegenheit</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Zweierfl\u00fcgel (w2)</strong> bringt zur Dreierenergie etwas Entscheidendes: die echte Freude an Verbindung. Die Zwei will nicht nur bewundert werden &ndash; sie will verbunden sein. Bei Lena Meyer-Landrut zeigt sich das in der Art, wie sie mit Fans umgeht: nicht als Marke zu Konsumenten, sondern als Mensch zu Menschen.</p>
-          <p class="vb-intro">Sie hat offen \u00fcber ihre psychischen Krisen gesprochen &ndash; \u00fcber Depressionen, Ersch\u00f6pfung, die Momente, in denen der Ruhm nicht genug war. Das ist keine Marketingstrategie. Das ist der Zweierfl\u00fcgel: Der SX3w2er teilt sich mit, weil er sp\u00fcrt, dass echte Verbindung nur durch Wahrhaftigkeit entsteht &ndash; und weil er hofft, damit anderen zu helfen, die sich allein f\u00fchlen.</p>
+          <p class="vb-intro">Sie hat offen \u00fcber ihre psychischen Krisen gesprochen &ndash; \u00fcber Depressionen, Ersch\u00f6pfung, die Momente, in denen der Ruhm nicht genug war. Das ist keine Marketingstrategie. Darin zeigt sich der Zweierfl\u00fcgel: Der SX3w2er teilt sich mit, weil er sp\u00fcrt, dass echte Verbindung nur durch Wahrhaftigkeit entsteht &ndash; und weil er hofft, damit anderen zu helfen, die sich allein f\u00fchlen.</p>
           <p class="vb-intro">Der SX3w2er zieht nicht nur an &ndash; er k\u00fcmmert sich. Dieser Unterschied erkl\u00e4rt, warum Lena nach \u00fcber f\u00fcnfzehn Jahren im Rampenlicht noch immer eine Fanbase hat, die sie pers\u00f6nlich nimmt, nicht als Produkt.</p>
         </blockquote>
 
@@ -1655,7 +1655,7 @@ export function lenaMeyerLandrutPortraitPage() {
         <h2 class="vb-section">6. Der Heilungsweg: wenn Anziehung sich in Echtheit verwandelt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Heilungsweg der Drei f\u00fchrt von der Frage <em>Wie wirke ich?</em> zur Erkenntnis <em>Ich bin &ndash; unabh\u00e4ngig davon, wie ich wirke.</em> F\u00fcr die SX3 bedeutet das: nicht mehr verf\u00fchren m\u00fcssen, sondern verbunden sein d\u00fcrfen. Aus Anziehung wird Echtheit. Aus Charisma wird Charakter.</p>
-          <p class="vb-intro">Lena Meyer-Landrut hat Schritte dieses Weges \u00f6ffentlich gemacht: Pausen eingelegt, Grenzen gesetzt, \u00fcber innere Ersch\u00f6pfung gesprochen &ndash; zu einer Zeit, als das im Showbusiness noch ein Risiko war, kein Trend. Das ist die SX3w2 auf ihrem Heilungsweg: Sie tauscht die Fassade gegen Tiefe, das Strahlen gegen W\u00e4rme, den Applaus gegen echte Begegnung.</p>
+          <p class="vb-intro">Lena Meyer-Landrut hat Schritte dieses Weges \u00f6ffentlich gemacht: Pausen eingelegt, Grenzen gesetzt, \u00fcber innere Ersch\u00f6pfung gesprochen &ndash; zu einer Zeit, als das im Showbusiness noch ein Risiko war, kein Trend. Hier wirkt die SX3w2 auf ihrem Heilungsweg: Sie tauscht die Fassade gegen Tiefe, das Strahlen gegen W\u00e4rme, den Applaus gegen echte Begegnung.</p>
           <p class="vb-intro">Der Pfau, der aufh\u00f6rt, sein Rad zu entfalten, weil er denkt, er m\u00fcsse es &ndash; und entdeckt, dass er auch so geliebt wird. Das ist der sch\u00f6nste Moment dieser Verwandlung.</p>
         </blockquote>
 
@@ -1725,7 +1725,7 @@ export function madameTussaudPortraitPage() {
         <h2 class="vb-section">6. Das Geschenk: Ein Handwerk, das die Zeit \u00fcberdauert</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Madame Tussaud der Welt hinterlie\u00df, l\u00e4sst sich nicht auf ein Kuriosit\u00e4tenkabinett reduzieren. Sie schuf eine der best\u00e4ndigsten Institutionen der Popul\u00e4rkultur &ndash; ein Museum, das bis auf den heutigen Tag in London und Dutzenden weiteren St\u00e4dten Millionen Besucher j\u00e4hrlich anzieht, und eine Wachsbildnerkunst, die zugleich historisches Dokument war: Ihre Totenmasken der Franz\u00f6sischen Revolution z\u00e4hlen heute zu den wenigen unmittelbaren physischen Zeugnissen jener Epoche.</p>
-          <p class="vb-intro">Das ist die SE3w4 in ihrer eindr\u00fccklichsten Gestalt: eine Frau, deren Bed\u00fcrfnis nach materieller Sicherheit sich mit einem untr\u00fcglichen Gesp\u00fcr f\u00fcr das verband, was Menschen wirklich fasziniert &ndash; Sch\u00f6nheit und Schrecken, Macht und Untergang, in Wachs gegossen und der Nachwelt \u00fcberlassen. Der Waschb\u00e4r mit dem Viererfl\u00fcgel \u00fcberlebt nicht nur &ndash; er hinterl\u00e4sst ein Werk, das seine eigene Lebenszeit weit \u00fcberdauert.</p>
+          <p class="vb-intro">Hier zeigt sich die SE3w4 in ihrer eindr\u00fccklichsten Gestalt: eine Frau, deren Bed\u00fcrfnis nach materieller Sicherheit sich mit einem untr\u00fcglichen Gesp\u00fcr f\u00fcr das verband, was Menschen wirklich fasziniert &ndash; Sch\u00f6nheit und Schrecken, Macht und Untergang, in Wachs gegossen und der Nachwelt \u00fcberlassen. Der Waschb\u00e4r mit dem Viererfl\u00fcgel \u00fcberlebt nicht nur &ndash; er hinterl\u00e4sst ein Werk, das seine eigene Lebenszeit weit \u00fcberdauert.</p>
         </blockquote>
 
       </div>
@@ -1937,7 +1937,7 @@ export function molierePortraitPage() {
         Ob Heuchler (<em>Tartuffe</em>), Geizhals (<em>Der Geizige</em>) oder Menschenfeind
         (<em>Der Menschenfeind</em>) – <strong>Molière</strong> griff Missstände nie direkt an,
         sondern immer durch eine Bühnenfigur, hinter der er sich im Zweifel verstecken
-        konnte. Genau das ist der Sechserflügel: Angriff ja, aber abgesichert, nie ganz
+        konnte. Genau das zeigt der Sechserflügel: Angriff ja, aber abgesichert, nie ganz
         ungedeckt.</p>
         <p class="vb-intro"><strong>b) Ausdauer durch Vielfalt statt Sturheit:</strong>
         Trotz Zensur und wiederholter Aufführungsverbote gab er nie auf – aber er wich aus,
@@ -2186,7 +2186,7 @@ export function platonPortraitPage() {
         <h2 class="vb-section">2. Die sexuelle Sechs: Sicherheit durch die richtige Ordnung</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der Kontratyp der Sechs: Die Leidenschaft der Angst zeigt sich hier nicht als Zögern, sondern als das Gegenteil – als der entschlossene Griff nach einer Ordnung, die stark genug ist, um nie wieder erschüttert zu werden. Nach dem Tod des Sokrates zog sich Platon nicht resigniert zurück, sondern begann, in seinem Alterswerk "Politeia" (Der Staat) systematisch zu entwerfen, wie eine Gesellschaft aussehen müsste, die einen solchen Justizmord nie wieder zuließe.</p>
-          <p class="vb-intro">Das Ergebnis ist eine der autoritärsten politischen Utopien der Ideengeschichte: eine strikt hierarchische Ordnung aus Philosophenkönigen, Wächtern und Produzenten, Zensur der Dichtung, gemeinsame Erziehung der Kinder durch den Staat, keine Volksherrschaft, sondern die Herrschaft derer, die "die Wahrheit" erkannt haben. Das ist die sexuelle Sechs in ihrer politischsten Form: Wo Vertrauen einmal fundamental zerbrochen ist, wird nicht Misstrauen zum Programm, sondern eine Ordnung, die stark genug ist, dass man ihr wieder vertrauen kann – notfalls, indem man selbst darüber bestimmt, wer regieren darf.</p>
+          <p class="vb-intro">Das Ergebnis ist eine der autoritärsten politischen Utopien der Ideengeschichte: eine strikt hierarchische Ordnung aus Philosophenkönigen, Wächtern und Produzenten, Zensur der Dichtung, gemeinsame Erziehung der Kinder durch den Staat, keine Volksherrschaft, sondern die Herrschaft derer, die "die Wahrheit" erkannt haben. Hier wirkt die sexuelle Sechs in ihrer politischsten Form: Wo Vertrauen einmal fundamental zerbrochen ist, wird nicht Misstrauen zum Programm, sondern eine Ordnung, die stark genug ist, dass man ihr wieder vertrauen kann – notfalls, indem man selbst darüber bestimmt, wer regieren darf.</p>
           <p class="vb-intro">Auch persönlich zeigte sich diese Unbeugsamkeit: Platon reiste dreimal nach Sizilien an den Hof von Syrakus, um dort – zunächst unter Dionysios I., später unter dessen Sohn Dionysios II. – sein Ideal des "Philosophenkönigs" tatsächlich in die politische Praxis umzusetzen. Der Überlieferung nach wurde er bei der ersten Reise um 388 v. Chr. sogar in die Sklaverei verkauft und musste von Freunden freigekauft werden. Ein vorsichtigerer Mensch hätte nach diesem Debakel nie wieder einen Fuß nach Sizilien gesetzt – Platon reiste zweimal zurück.</p>
         </blockquote>
 
@@ -2281,7 +2281,7 @@ export function ryanGoslingPortraitPage() {
         <h2 class="vb-section">6. Das Vermächtnis: Das Kamel, das trägt, ohne sich aufzudrängen</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Ryan Gosling gehört zu den anerkanntesten Charakterdarstellern seiner Generation – nicht wegen einer einzelnen spektakulären Rolle, sondern wegen eines über Jahrzehnte konsequent verfolgten Wegs vom belächelten Kinderstar zum dreifach oscarnominierten Schauspieler, der dieselbe Intensität in seine Rollen wie in sein Privatleben trägt.</p>
-          <p class="vb-intro">Vom gemobbten Einzelgänger über den Mickey-Mouse-Club bis zur vierjährigen Karrierepause für seine Töchter: Das ist die sexuelle Zwei mit Dreierflügel in ihrer reifsten Form – eine Hingabe, die trägt, ohne sich aufzudrängen, und eine Leistung, die sichtbar wird, ohne die eigentliche Verbindung dahinter zu verraten.</p>
+          <p class="vb-intro">Vom gemobbten Einzelgänger über den Mickey-Mouse-Club bis zur vierjährigen Karrierepause für seine Töchter: Hier zeigt sich die sexuelle Zwei mit Dreierflügel in ihrer reifsten Form – eine Hingabe, die trägt, ohne sich aufzudrängen, und eine Leistung, die sichtbar wird, ohne die eigentliche Verbindung dahinter zu verraten.</p>
         </blockquote>
 
       </div>
@@ -2497,7 +2497,7 @@ export function timMaelzerPortraitPage() {
         <h2 class="vb-section">6. Das Vermächtnis: Der Waschbär, der zeigt, wie es geht</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Tim Mälzer gehört zu den prägendsten Küchenfiguren des deutschen Fernsehens – nicht wegen einer makellosen Bühnenpersönlichkeit, sondern weil hinter der lauten Fassade tatsächlich ein Handwerk steht, das er sich lange vor jeder Kamera erarbeitet hat.</p>
-          <p class="vb-intro">Vom klassisch ausgebildeten Koch über den eigenen Restaurantbetrieb bis zum Format, das Familien das Kochen zurückbringt: Das ist die selbsterhaltende Drei mit Zweierflügel in ihrer zugänglichsten Form – Kompetenz, die nicht für sich selbst glänzen will, sondern anderen tatsächlich weiterhilft.</p>
+          <p class="vb-intro">Vom klassisch ausgebildeten Koch über den eigenen Restaurantbetrieb bis zum Format, das Familien das Kochen zurückbringt: Darin zeigt sich die selbsterhaltende Drei mit Zweierflügel in ihrer zugänglichsten Form – Kompetenz, die nicht für sich selbst glänzen will, sondern anderen tatsächlich weiterhilft.</p>
         </blockquote>
 
       </div>
@@ -2562,7 +2562,7 @@ export function wallaceShawnPortraitPage() {
         <h2 class="vb-section">5. Licht und Schatten: Der kleinste Mann im Raum</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht des SE7w6 ist seine <strong>F\u00e4higkeit zur Freude ohne Selbst\u00e4uschung</strong>. Shawn kann lachen und gleichzeitig wissen, dass Lachen nicht alles ist. Er sucht das Vergn\u00fcgen, aber fl\u00fcchtet sich nicht in dieses. Er ist warm, anwesend, neugierig \u2013 und er tr\u00e4gt eine ernsthafte Meinung, ohne sie anderen mit Druck aufzuzwingen.</p>
-          <p class="vb-intro">Der Schatten: Die SE7 neigt zur Selbst\u00fcbersch\u00e4tzung \u2013 nicht im Sinne von Arroganz, sondern im Sinne des Vizzini-Problems: Die eigene Analyse stimmt so lange, bis sie nicht mehr stimmt. Und dann ist es zu sp\u00e4t. Shawn hat in Interviews zugegeben, dass er jahrelang kaum glaubte, ein wirklicher K\u00fcnstler zu sein \u2013 dass er sich selbst f\u00fcr einen Dilettanten hielt, der nur Gl\u00fcck hatte. Das ist der Sechserfl\u00fcgel: der innere Zweifler, der auch in der besten Stunde fl\u00fcstert.</p>
+          <p class="vb-intro">Der Schatten: Die SE7 neigt zur Selbst\u00fcbersch\u00e4tzung \u2013 nicht im Sinne von Arroganz, sondern im Sinne des Vizzini-Problems: Die eigene Analyse stimmt so lange, bis sie nicht mehr stimmt. Und dann ist es zu sp\u00e4t. Shawn hat in Interviews zugegeben, dass er jahrelang kaum glaubte, ein wirklicher K\u00fcnstler zu sein \u2013 dass er sich selbst f\u00fcr einen Dilettanten hielt, der nur Gl\u00fcck hatte. Hier wirkt der Sechserfl\u00fcgel: der innere Zweifler, der auch in der besten Stunde fl\u00fcstert.</p>
           <p class="vb-intro">Und doch hat Shawn ein Werk hinterlassen, das l\u00e4nger haltbar ist als die meisten Karrieren in Hollywood. Vizzini scheitert, weil er dachte, das Undenkbare sei unm\u00f6glich. Shawn \u00fcberlebt, weil er das Undenkbare stets f\u00fcr m\u00f6glich hielt \u2013 und dar\u00fcber nachdachte. Das unterscheidet den Denker vom Schurken.</p>
         </blockquote>
 
@@ -2768,7 +2768,7 @@ export function avrilLavignePortraitPage() {
         <h2 class="vb-section">6. Das Vermächtnis: Rebellion mit einem Augenzwinkern</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Avril Lavigne bleibt die Künstlerin, die eine ganze Generation junger Frauen zeigte, dass Popmusik nicht makellos inszeniert sein muss, um erfolgreich zu sein. Von ›Sk8er Boi‹ bis zur öffentlichen Auseinandersetzung mit ihrer eigenen Krankheit zieht sich dasselbe Muster: direkte Konfrontation statt Anpassung, aber nie ohne einen Funken Selbstironie.</p>
-          <p class="vb-intro">Das ist die sexuelle Sechs mit Siebenerflügel in ihrer produktivsten Form: ein Wolf, der sich der Bedrohung stellt, ohne dabei die Fähigkeit zu verlieren, über sich selbst zu lachen.</p>
+          <p class="vb-intro">Hier zeigt sich die sexuelle Sechs mit Siebenerflügel in ihrer produktivsten Form: ein Wolf, der sich der Bedrohung stellt, ohne dabei die Fähigkeit zu verlieren, über sich selbst zu lachen.</p>
         </blockquote>
 
       </div>
@@ -2823,7 +2823,7 @@ export function bennySafdiePortraitPage() {
         <h2 class="vb-section">4. Der Schritt aus dem gemeinsamen Schatten: eine eigene Identität behaupten</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Über ein Jahrzehnt lang war Benny Safdie öffentlich untrennbar mit seinem Bruder Josh verbunden – gemeinsame Regie, gemeinsamer Schnitt, ein gemeinsamer Name. Mit ›The Smashing Machine‹ inszenierte er 2025 zum ersten Mal allein, ohne Josh. Auf die Frage, ob ihm die Umstellung schwergefallen sei, antwortete er, es sei „eigentlich keine große Umstellung" gewesen, da er durch seine Schauspielarbeit bereits eine „gewisse Unabhängigkeit" entwickelt habe. Die Trennung beschrieb er als „eine natürliche Weiterentwicklung dessen, was wir beide erkunden wollen": „Ich werde allein Regie führen und die Dinge erkunden, die ich erkunden möchte. Ich will diese Freiheit gerade jetzt in meinem Leben."</p>
-          <p class="vb-intro">Das ist die soziale Vier in ihrer konstruktivsten Form: nicht der laute Bruch, sondern die ruhige, aber bestimmte Behauptung einer eigenständigen künstlerischen Identität, die bislang unter einem gemeinsamen Namen verborgen war – bestätigt durch den Silbernen Löwen für die beste Regie in Venedig, den er für diesen ersten Alleingang erhielt.</p>
+          <p class="vb-intro">Darin zeigt sich die soziale Vier in ihrer konstruktivsten Form: nicht der laute Bruch, sondern die ruhige, aber bestimmte Behauptung einer eigenständigen künstlerischen Identität, die bislang unter einem gemeinsamen Namen verborgen war – bestätigt durch den Silbernen Löwen für die beste Regie in Venedig, den er für diesen ersten Alleingang erhielt.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Licht und Schatten der sozialen Vier mit Fünferflügel</h2>

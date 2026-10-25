@@ -644,7 +644,7 @@ export function hansZimmerPortraitPage() {
         <h2 class="vb-section">3. Der Achterfl\u00fcgel: Kraft, die tr\u00e4gt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Achterfl\u00fcgel</strong> gibt der selbsterhaltenden Sieben etwas, das nicht jeder Sieben zur Verf\u00fcgung steht: Durchsetzungskraft. Bei schwach ausgepr\u00e4gtem Achterfl\u00fcgel kann sich die Sieben in M\u00f6glichkeiten verlieren, kann ausweichen, kann umlenken, wenn etwas schwer wird. Der Achterfl\u00fcgel h\u00e4lt dagegen &ndash; er bringt Entschlossenheit, Direktheit, die Bereitschaft, Konflikte auszuhalten.</p>
-          <p class="vb-intro">Zimmers Musik ist nicht zart. Sie ist wuchtig, archaisch, k\u00f6rperlich &ndash; Klang, der man sp\u00fcrt, bevor man ihn versteht. Das Blechbl\u00e4sergewitter in <em>Gladiator</em>, das Herzklopfen von <em>Inception</em>, die Wellen in <em>Dunkirk</em>. Das ist der Achterfl\u00fcgel: Freude, die keine Angst hat vor Lautst\u00e4rke, vor Gewicht, vor dem Moment, in dem Musik jemanden \u00fcberw\u00e4ltigt.</p>
+          <p class="vb-intro">Zimmers Musik ist nicht zart. Sie ist wuchtig, archaisch, k\u00f6rperlich &ndash; Klang, der man sp\u00fcrt, bevor man ihn versteht. Das Blechbl\u00e4sergewitter in <em>Gladiator</em>, das Herzklopfen von <em>Inception</em>, die Wellen in <em>Dunkirk</em>. Hier zeigt sich der Achterfl\u00fcgel: Freude, die keine Angst hat vor Lautst\u00e4rke, vor Gewicht, vor dem Moment, in dem Musik jemanden \u00fcberw\u00e4ltigt.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Leidenschaft: V\u00f6llerei als Sch\u00f6pfungsdrang</h2>
@@ -656,7 +656,7 @@ export function hansZimmerPortraitPage() {
         <h2 class="vb-section">5. Das Geschenk: Emotionen, die die Welt ber\u00fchren</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Hans Zimmer dem Kino gegeben hat &ndash; und durch das Kino der Welt &ndash; ist die Erfahrung, dass Musik ein Raum sein kann. Nicht Hintergrundtapete, nicht emotionale Markierung, sondern ein eigenst\u00e4ndiges Erleben: Man sitzt im Kino, h\u00f6rt den Score, und versteht pl\u00f6tzlich etwas \u00fcber die Szene, \u00fcber die Figur, \u00fcber sich selbst.</p>
-          <p class="vb-intro">Das ist das Geschenk der SE7w8: Freude, die nicht bei sich bleibt. Ein Gorilla, der nicht nur sein Rudel sch\u00fctzt, sondern es wachsen l\u00e4sst &ndash; und dessen Stimme, einmal geh\u00f6rt, nicht mehr aus dem Kopf geht. Hans Zimmer hat keine Noten studiert. Er hat gelernt, wie Klang Menschen ber\u00fchrt. Das ist die selbsterhaltende Sieben mit Achterfl\u00fcgel. Das ist der Gorilla, der singt.</p>
+          <p class="vb-intro">Das ist das Geschenk der SE7w8: Freude, die nicht bei sich bleibt. Ein Gorilla, der nicht nur sein Rudel sch\u00fctzt, sondern es wachsen l\u00e4sst &ndash; und dessen Stimme, einmal geh\u00f6rt, nicht mehr aus dem Kopf geht. Hans Zimmer hat keine Noten studiert. Er hat gelernt, wie Klang Menschen ber\u00fchrt. Darin zeigt sich die selbsterhaltende Sieben mit Achterfl\u00fcgel. Das ist der Gorilla, der singt.</p>
         </blockquote>
 
       </div>
@@ -787,7 +787,7 @@ export function jasminPaoliniPortraitPage() {
         <h2 class="vb-section">5. Das Geschenk: Freude, die nicht aufgibt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Jasmine Paolini dem Tennis gibt &ndash; und dem Publikum &ndash; ist etwas, das sich nicht trainieren l\u00e4sst: echte Freude. Nicht das L\u00e4cheln einer Marke, nicht die kalkulierte Zug\u00e4nglichkeit eines Kommunikationsteams. Sondern die Freude einer Frau, die auf dem Platz zu Hause ist, die ihren Beruf liebt und das nicht versteckt.</p>
-          <p class="vb-intro">Das ist das Geschenk der SE7w6: Freude, die standh\u00e4lt. Nicht die fl\u00fcchtige Begeisterung, die beim ersten R\u00fcckschlag verschwindet, sondern eine Freude, die tief genug verankert ist, um auch Niederlagen zu \u00fcberstehen. Wer Jasmine Paolini beim Tennis zusieht, sieht einen Gorilla in seinem Element: stark, warm, unersch\u00fctterlich. Das ist die SE7w6. Das ist die Freude als Heimat.</p>
+          <p class="vb-intro">Das ist das Geschenk der SE7w6: Freude, die standh\u00e4lt. Nicht die fl\u00fcchtige Begeisterung, die beim ersten R\u00fcckschlag verschwindet, sondern eine Freude, die tief genug verankert ist, um auch Niederlagen zu \u00fcberstehen. Wer Jasmine Paolini beim Tennis zusieht, sieht einen Gorilla in seinem Element: stark, warm, unersch\u00fctterlich. Hier wirkt die SE7w6. Das ist die Freude als Heimat.</p>
         </blockquote>
 
       </div>
@@ -897,14 +897,14 @@ export function karolineHerfurthPortraitPage() {
 
         <h2 class="vb-section">1. Die Taube, die beobachtet</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier &ndash; und bei Karoline Herfurth zeigt sie eine besondere Qualit\xe4t: Diese Taube landet nicht gleich. Sie kreist zuerst. Sie beobachtet, nimmt wahr, tr\xe4gt innerlich, was sie gesehen hat &ndash; und landet dann genau dort, wo sie gebraucht wird. Das ist die selbsterhaltende Vier mit F\xfcnferfl\xfcgel: ein Mensch, der das Innere vollst\xe4ndig durchlebt, bevor er nach au\xdfen tritt.</p>
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier &ndash; und bei Karoline Herfurth zeigt sie eine besondere Qualit\xe4t: Diese Taube landet nicht gleich. Sie kreist zuerst. Sie beobachtet, nimmt wahr, tr\xe4gt innerlich, was sie gesehen hat &ndash; und landet dann genau dort, wo sie gebraucht wird. Hier zeigt sich die selbsterhaltende Vier mit F\xfcnferfl\xfcgel: ein Mensch, der das Innere vollst\xe4ndig durchlebt, bevor er nach au\xdfen tritt.</p>
           <p class="vb-intro">Die deutsche Schauspielerin Karoline Herfurth ist eine der wenigen Pers\xf6nlichkeiten, die diese Verbindung verk\xf6rpern: gro\xdfe emotionale Pr\xe4senz auf der Leinwand, stilles Zur\xfcckhalten daneben. Keine Social-Media-Bespielung, kein dauerndes Erkl\xe4ren. Stattdessen: Filme, die f\xfcr sich sprechen. Eine Haltung, die mehr sagt als jedes Interview.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die selbsterhaltende Vier: Z\xe4higkeit ohne Drama</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> ist der Kontratyp der Vier &ndash; sie zeigt nach au\xdfen kaum das, was die meisten Menschen von einer Vier erwarten: keine Dramatik, kein zur Schau gestelltes Leiden, keine romantische Selbstinszenierung. Stattdessen: eine stille Z\xe4higkeit (engl. <em>Tenacity</em>), eine Bereitschaft, innerlich viel zu tragen, ohne dar\xfcber zu klagen.</p>
-          <p class="vb-intro">Karoline Herfurth hat bereits mit 12 Jahren begonnen zu spielen, mit 16 stand sie im Kinofilm, mit 18 spielte sie Grenouilles Opfer in Tom Tykwers &bdquo;Das Parfum&ldquo;. Dieser fr\xfche Einstieg verlangte eine Reife, die sich nicht aufdr\xe4ngt &ndash; sie musste innerlich stabil sein, w\xe4hrend andere noch die Orientierung suchten. Das ist die SE4: nicht die, die von ihrem Schmerz erz\xe4hlt, sondern die, die durch ihn hindurchgeht und danach etwas daraus macht.</p>
+          <p class="vb-intro">Karoline Herfurth hat bereits mit 12 Jahren begonnen zu spielen, mit 16 stand sie im Kinofilm, mit 18 spielte sie Grenouilles Opfer in Tom Tykwers &bdquo;Das Parfum&ldquo;. Dieser fr\xfche Einstieg verlangte eine Reife, die sich nicht aufdr\xe4ngt &ndash; sie musste innerlich stabil sein, w\xe4hrend andere noch die Orientierung suchten. Darin zeigt sich die SE4: nicht die, die von ihrem Schmerz erz\xe4hlt, sondern die, die durch ihn hindurchgeht und danach etwas daraus macht.</p>
           <p class="vb-intro">Ihre Filmografie spricht diese Sprache: Sie vermeidet das Glatte, das Bequeme. Sie w\xe4hlt Rollen, die etwas kosten &ndash; Figuren mit Br\xfcchen, mit inneren Widerspr\xfcchen, mit Menschlichkeit jenseits der Oberfl\xe4che. Das Schutzmuster der SE4 &ndash; die Tendenz, das eigene Erleben herunterzuspielen &ndash; wird hier paradoxerweise zur k\xfcnstlerischen St\xe4rke: Sie spielt echte Menschen, weil sie wei\xdf, wie man Echtes tr\xe4gt.</p>
         </blockquote>
 
@@ -973,7 +973,7 @@ export function laoziPortraitPage() {
         <h2 class="vb-section">3. Wu Wei: M\u00fchelosigkeit als h\u00f6chstes Prinzip</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Kernkonzept des Daodejing ist <strong>Wu Wei</strong>, meist \u00fcbersetzt als \u201eNicht-Handeln" oder \u201em\u00fcheloses Handeln". Gemeint ist damit kein Nichtstun im w\u00f6rtlichen Sinn, sondern ein Handeln, das nicht gegen den nat\u00fcrlichen Lauf der Dinge (das Dao) ank\u00e4mpft, sondern sich ihm einf\u00fcgt &ndash; so wie Wasser, das keinem Hindernis Widerstand leistet und doch mit der Zeit den h\u00e4rtesten Stein formt. \u201eDas Weichste der Welt \u00fcberwindet das H\u00e4rteste der Welt", hei\u00dft es im Daodejing.</p>
-          <p class="vb-intro">Das ist die Neun in ihrer reinsten, hochintegrierten Form: keine Vermeidung aus Bequemlichkeit, sondern eine bewusste Weigerung, sich in Reibung und Widerstand zu verschlei\u00dfen. Wo Konfuzius (Typ 1) Ordnung durch Regeln, Pflichten und aktives Vorbild schaffen wollte, und Buddha (Typ 5) das Leiden durch schonungslose Analyse durchdrang, lehrte Laotse das Gegenteil beider Wege: loslassen, nicht eingreifen, dem Fluss des Lebens vertrauen, statt ihn kontrollieren zu wollen.</p>
+          <p class="vb-intro">Hier wirkt die Neun in ihrer reinsten, hochintegrierten Form: keine Vermeidung aus Bequemlichkeit, sondern eine bewusste Weigerung, sich in Reibung und Widerstand zu verschlei\u00dfen. Wo Konfuzius (Typ 1) Ordnung durch Regeln, Pflichten und aktives Vorbild schaffen wollte, und Buddha (Typ 5) das Leiden durch schonungslose Analyse durchdrang, lehrte Laotse das Gegenteil beider Wege: loslassen, nicht eingreifen, dem Fluss des Lebens vertrauen, statt ihn kontrollieren zu wollen.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Der Einserfl\u00fcgel: Stille moralische Klarheit</h2>
@@ -1110,7 +1110,7 @@ export function marieKondoPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Zweierfl\u00fcgel (w2)</strong> verleiht der selbsterhaltenden Eins etwas, das sie von innen her allein nicht so leicht findet: W\u00e4rme, Kontakt, das Bed\u00fcrfnis, andere zu ber\u00fchren. Der Zweierfl\u00fcgel will geben. Er will, dass andere aufbl\u00fchen &ndash; nicht weil er etwas daf\u00fcr erwartet, sondern weil ihm das Wohlergehen anderer wirklich am Herzen liegt.</p>
           <p class="vb-intro">Marie Kondo w\u00e4re ohne diesen Fl\u00fcgel vielleicht eine au\u00dfergew\u00f6hnlich ordentliche Privatperson geblieben. Der Zweierfl\u00fcgel ist der Grund, warum aus dem inneren Standard eine Methode wurde, aus der Methode ein Buch, aus dem Buch ein globales Ph\u00e4nomen. Sie hat nicht nur ihr eigenes Zuhause aufger\u00e4umt &ndash; sie hat beschlossen, anderen zu helfen, dasselbe zu tun. Nicht weil es ihr Beruf war, sondern weil sie verstand, dass das Aufr\u00e4umen von au\u00dfen das Aufr\u00e4umen von innen erm\u00f6glicht.</p>
-          <p class="vb-intro">In ihrer Netflix-Serie <em>Tidying Up with Marie Kondo</em> sieht man diesen Fl\u00fcgel in Reinform: Sie betritt fremde H\u00e4user mit vollst\u00e4ndiger Aufmerksamkeit, mit echter Neugier f\u00fcr die Menschen hinter den Dingen. Sie urteilt nicht. Sie begleitet. Das ist die Zwei in der Eins: Pr\u00e4zision im Dienst der Verbindung.</p>
+          <p class="vb-intro">In ihrer Netflix-Serie <em>Tidying Up with Marie Kondo</em> sieht man diesen Fl\u00fcgel in Reinform: Sie betritt fremde H\u00e4user mit vollst\u00e4ndiger Aufmerksamkeit, mit echter Neugier f\u00fcr die Menschen hinter den Dingen. Sie urteilt nicht. Sie begleitet. Hier zeigt sich die Zwei in der Eins: Pr\u00e4zision im Dienst der Verbindung.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Leidenschaft: Zorn als innere Strenge</h2>
@@ -1374,13 +1374,13 @@ export function robertSchumannPortraitPage() {
         <h2 class="vb-section">2. Die sexuelle Sieben: Begeisterung ohne Vorbehalt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> sucht nicht die vorsichtige Prüfung, sondern die vollständige Hingabe an das, was sie begeistert. Naranjo nannte diesen Subtyp <em>Suggestibility</em>: die Fähigkeit, sich selbst und andere restlos in einen Zustand der Begeisterung hineinzuziehen. Schumann lebte dieses Muster nicht nur in seiner Musik, sondern auch als Kritiker und Entdecker.</p>
-          <p class="vb-intro">1853, drei Jahre vor seinem Tod, hörte er einen völlig unbekannten, 20-jährigen Pianisten namens Johannes Brahms vorspielen – und schrieb noch am selben Abend in sein Tagebuch, hier komme einer, "der berufen war, den höchsten Ausdruck der Zeit in idealer Weise auszusprechen". Wenige Tage später veröffentlichte er das Essay <em>Neue Bahnen</em>, in dem er den jungen Brahms ohne jede Zurückhaltung als kommenden Meister ausrief – ein Sprung ins Enthusiastische, den ein zögerlicherer Kritiker nie gewagt hätte. Genau das ist die SX7: keine abgewogene Einschätzung, sondern der volle, ansteckende Ausbruch der Begeisterung.</p>
+          <p class="vb-intro">1853, drei Jahre vor seinem Tod, hörte er einen völlig unbekannten, 20-jährigen Pianisten namens Johannes Brahms vorspielen – und schrieb noch am selben Abend in sein Tagebuch, hier komme einer, "der berufen war, den höchsten Ausdruck der Zeit in idealer Weise auszusprechen". Wenige Tage später veröffentlichte er das Essay <em>Neue Bahnen</em>, in dem er den jungen Brahms ohne jede Zurückhaltung als kommenden Meister ausrief – ein Sprung ins Enthusiastische, den ein zögerlicherer Kritiker nie gewagt hätte. Genau das zeigt die SX7: keine abgewogene Einschätzung, sondern der volle, ansteckende Ausbruch der Begeisterung.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Achterflügel: Der Kampf um Clara</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der sexuellen Sieben etwas, das Siebener mit schwach ausgeprägtem Achterflügel oft vermissen lassen: die Bereitschaft zum offenen Kampf. Schumann verliebte sich in Clara Wieck, die hochbegabte Pianistentochter seines eigenen Klavierlehrers Friedrich Wieck – und Wieck tat alles, um die Verbindung zu verhindern: Verleumdungskampagnen, Umzüge, sogar ein jahrelanger Gerichtsprozess.</p>
-          <p class="vb-intro">Ein Siebener mit schwach ausgeprägtem Achterflügel hätte an dieser Front vermutlich resigniert und sich einer leichteren Liebe zugewandt. Schumann kämpfte stattdessen über Jahre, zog vor Gericht und erzwang schließlich 1840 die Heirat gegen den erklärten Willen seines Lehrers. Das ist der Achterflügel der sexuellen Sieben: Wo eine Sieben mit schwächerem Achterflügel ausweicht, bleibt die SX7w8 und setzt sich durch – nicht aus Berechnung, sondern weil das ersehnte Objekt der Begeisterung um keinen Preis aufgegeben werden kann.</p>
+          <p class="vb-intro">Ein Siebener mit schwach ausgeprägtem Achterflügel hätte an dieser Front vermutlich resigniert und sich einer leichteren Liebe zugewandt. Schumann kämpfte stattdessen über Jahre, zog vor Gericht und erzwang schließlich 1840 die Heirat gegen den erklärten Willen seines Lehrers. Hier wirkt der Achterflügel der sexuellen Sieben: Wo eine Sieben mit schwächerem Achterflügel ausweicht, bleibt die SX7w8 und setzt sich durch – nicht aus Berechnung, sondern weil das ersehnte Objekt der Begeisterung um keinen Preis aufgegeben werden kann.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Leidenschaft: Völlerei als schöpferischer Ausbruch</h2>
@@ -1513,7 +1513,7 @@ export function thomasGottschalkPortraitPage() {
         <h2 class="vb-section">2. Die sexuelle Sieben: Enthusiasmus als Funken</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> ist der Subtyp der Sieben, bei dem die Energie nicht nach innen (SE7) oder in die Gesellschaft (SO7) geht, sondern direkt in den Kontakt: in die andere Person, in den Moment, in die Verbindung. Naranjo nannte diesen Subtyp <em>Suggestibility</em> &ndash; Begeisterungsf\u00e4higkeit, die sich \u00fcbertr\u00e4gt. Die SX7 steckt andere an. Nicht mit einer Botschaft, sondern mit ihrer blo\u00dfen Energie.</p>
-          <p class="vb-intro">Thomas Gottschalk war nie eine Marke. Er war eine Energie. Die Zuschauer schalteten <em>Wetten, dass..?</em> nicht wegen der Wetten ein. Sie schalteten ein, weil sie wissen wollten, was passiert, wenn Gottschalk auf der B\u00fchne ist &ndash; was er sagen w\u00fcrde, was ihn begeistern w\u00fcrde, womit er diesmal \u00fcberrascht. Das ist die SX7: nicht das Format zieht an, sondern der Mensch. Nicht das Konzept, sondern der Funke.</p>
+          <p class="vb-intro">Thomas Gottschalk war nie eine Marke. Er war eine Energie. Die Zuschauer schalteten <em>Wetten, dass..?</em> nicht wegen der Wetten ein. Sie schalteten ein, weil sie wissen wollten, was passiert, wenn Gottschalk auf der B\u00fchne ist &ndash; was er sagen w\u00fcrde, was ihn begeistern w\u00fcrde, womit er diesmal \u00fcberrascht. Hier zeigt sich die SX7: nicht das Format zieht an, sondern der Mensch. Nicht das Konzept, sondern der Funke.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Sechserfl\u00fcgel: Treue und Verl\u00e4sslichkeit</h2>
@@ -1531,7 +1531,7 @@ export function thomasGottschalkPortraitPage() {
         <h2 class="vb-section">5. Das Geschenk: die B\u00fchne als lebendiger Raum</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Thomas Gottschalk dem deutschen Fernsehen gegeben hat, ist schwer zu ersetzen: die Erfahrung, dass eine Sendung atmet. Dass nicht das Skript tr\u00e4gt, sondern der Mensch. Dass das Publikum nicht zuschaut, sondern miterlebt. 212 Ausgaben <em>Wetten, dass..?</em>, Jahrzehnte im Radio, Film, Buch &ndash; und immer derselbe Grundton: Hier ist jemand, dem das gerade wirklich Spa\u00df macht. Das Publikum sp\u00fcrt das. Und lacht mit.</p>
-          <p class="vb-intro">Das ist das Geschenk der SX7w6: Begeisterung, die sich \u00fcbertr\u00e4gt. Ein Schimpanse, der tanzt &ndash; und dabei jeden im Raum mitrei\u00dft, ohne auch nur einen einzigen davon zu fragen, ob er tanzen m\u00f6chte. Thomas Gottschalk hat nie geplant, ein Ph\u00e4nomen zu werden. Er hat einfach immer weitergemacht. Das ist die sexuelle Sieben. Das ist der Schimpanse.</p>
+          <p class="vb-intro">Das ist das Geschenk der SX7w6: Begeisterung, die sich \u00fcbertr\u00e4gt. Ein Schimpanse, der tanzt &ndash; und dabei jeden im Raum mitrei\u00dft, ohne auch nur einen einzigen davon zu fragen, ob er tanzen m\u00f6chte. Thomas Gottschalk hat nie geplant, ein Ph\u00e4nomen zu werden. Er hat einfach immer weitergemacht. Darin zeigt sich die sexuelle Sieben. Das ist der Schimpanse.</p>
         </blockquote>
 
       </div>
@@ -1738,7 +1738,7 @@ export function giacomoCasanovaPortraitPage() {
         <h2 class="vb-section">6. Das Kamel, das am Ende allein durch die eigene Geschichte weiterzog</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Casanova gehört zu den bekanntesten Gestalten des europäischen 18. Jahrhunderts – weniger wegen einer einzelnen großen Leistung als wegen eines Lebens, das er selbst so überzeugend erzählte, dass sein Name bis heute zum Gattungsbegriff für den charmanten Verführer wurde, obwohl seine eigenen Memoiren ein sehr viel vielschichtigeres Bild zeichnen.</p>
-          <p class="vb-intro">Vom rastlosen jungen Geheimagenten über den europaweit bewunderten Gefängnisausbrecher bis zum alternden Bibliothekar, der seine eigene Geschichte für die Nachwelt niederschrieb: Das ist die sexuelle Zwei mit Dreierflügel in einer ihrer weitreichendsten Formen – eine Hingabe an unzählige einzelne Menschen, die sich am Ende in ein einziges, sorgfältig komponiertes Werk über das eigene Leben verwandelte.</p>
+          <p class="vb-intro">Vom rastlosen jungen Geheimagenten über den europaweit bewunderten Gefängnisausbrecher bis zum alternden Bibliothekar, der seine eigene Geschichte für die Nachwelt niederschrieb: Hier wirkt die sexuelle Zwei mit Dreierflügel in einer ihrer weitreichendsten Formen – eine Hingabe an unzählige einzelne Menschen, die sich am Ende in ein einziges, sorgfältig komponiertes Werk über das eigene Leben verwandelte.</p>
         </blockquote>
 
       </div>
@@ -1979,7 +1979,7 @@ export function jonHammPortraitPage() {
         <h2 class="vb-section">1. Der Löwe, der erst für andere stand, bevor er selbst gesehen wurde</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Löwe</strong> ist das Tier des sozialen Typs 8 – Kraft, die nicht zur Selbstbehauptung, sondern zum Schutz und Zusammenhalt einer Gemeinschaft eingesetzt wird. Jon Hamm, geboren 1971 in St. Louis, verlor seine Mutter mit zehn Jahren an Krebs und mit zwanzig seinen Vater – bevor er selbst zum gefeierten Schauspieler wurde, arbeitete er als Drama-Lehrer an seiner alten High School und unterrichtete dort unter anderem die spätere Schauspielerin Ellie Kemper.</p>
-          <p class="vb-intro">Kemper beschrieb ihn Jahre später als „großzügigen, selbstlosen Menschen" – als sie in Los Angeles ihr eigenes Comedy-Solo-Programm aufführte, kam der inzwischen durch ›Mad Men‹ weltberühmte Hamm einfach vorbei, um sie zu unterstützen. Genau das ist die SO8-Grundhaltung: Kraft wird nicht gehortet, sondern denen zur Verfügung gestellt, die zur eigenen Gemeinschaft gehören.</p>
+          <p class="vb-intro">Kemper beschrieb ihn Jahre später als „großzügigen, selbstlosen Menschen" – als sie in Los Angeles ihr eigenes Comedy-Solo-Programm aufführte, kam der inzwischen durch ›Mad Men‹ weltberühmte Hamm einfach vorbei, um sie zu unterstützen. Genau das zeigt die SO8-Grundhaltung: Kraft wird nicht gehortet, sondern denen zur Verfügung gestellt, die zur eigenen Gemeinschaft gehören.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Acht: Präsenz statt Dauerbrüllen</h2>
@@ -2182,7 +2182,7 @@ export function peterMaffayPortraitPage() {
         <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung mit einem einzigen Lebenswerk</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> ist nach Naranjo die Variante der Trägheits-Leidenschaft, die sich in vollständiger Verschmelzung mit einem einzigen, alles überragenden Werk oder Gegenüber ausdrückt – das eigene Selbst tritt zurück, um vollständig darin aufzugehen. Bei Maffay ist dieses eine Werk der kleine Drache Tabaluga: 1983 als Konzeptalbum entstanden, entwickelte sich die Figur über vier Jahrzehnte zu Musical, Zeichentrickserie und schließlich zum Namensgeber seiner eigenen Stiftung.</p>
-          <p class="vb-intro">Anders als viele Musiker seiner Generation, die ihre kreative Energie auf wechselnde Projekte, Bands oder Genres verteilten, blieb Maffay über sein gesamtes späteres Berufsleben bei dieser einen Figur – nicht als Nebenprojekt neben der Musikkarriere, sondern zunehmend als deren eigentliches Zentrum. Genau das ist die SX9 in ihrer produktivsten Form: keine Verteilung auf viele Bindungen, sondern das vollständige Aufgehen in der einen.</p>
+          <p class="vb-intro">Anders als viele Musiker seiner Generation, die ihre kreative Energie auf wechselnde Projekte, Bands oder Genres verteilten, blieb Maffay über sein gesamtes späteres Berufsleben bei dieser einen Figur – nicht als Nebenprojekt neben der Musikkarriere, sondern zunehmend als deren eigentliches Zentrum. Genau das zeigt die SX9 in ihrer produktivsten Form: keine Verteilung auf viele Bindungen, sondern das vollständige Aufgehen in der einen.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Einserflügel: Disziplinierte Struktur statt diffuser Wohltätigkeit</h2>
@@ -2206,7 +2206,7 @@ export function peterMaffayPortraitPage() {
         <h2 class="vb-section">6. Das Vermächtnis: Ein Drache, der zum Lebenswerk wurde</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Peter Maffay bleibt der Musiker, dessen größtes Werk nicht ein einzelnes Album, sondern eine über vierzig Jahre gewachsene Figur ist – vom Konzeptalbum zum Musical, von der Zeichentrickserie zur Stiftung, die heute traumatisierten Kindern ein neues Zuhause gibt. Von den ersten Tabaluga-Liedern bis zu den Kinderdörfern zieht sich dasselbe Muster: vollständige, disziplinierte Verschmelzung mit der einen Sache, die trägt.</p>
-          <p class="vb-intro">Das ist die sexuelle Neun mit Einserflügel in ihrer wirkungsvollsten Form: ein Faultier, das nicht laut wird, sondern aus stiller, jahrzehntelanger Hingabe heraus ein Lebenswerk baut, das über die eigene Musikkarriere weit hinausreicht.</p>
+          <p class="vb-intro">Hier wirkt die sexuelle Neun mit Einserflügel in ihrer wirkungsvollsten Form: ein Faultier, das nicht laut wird, sondern aus stiller, jahrzehntelanger Hingabe heraus ein Lebenswerk baut, das über die eigene Musikkarriere weit hinausreicht.</p>
         </blockquote>
 
       </div>
@@ -2252,7 +2252,7 @@ export function bruceSpringsteenPortraitPage() {
         <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung statt Verteilung</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> lebt die Trägheits-Leidenschaft als vollständige Verschmelzung mit einem einzigen, alles überragenden Gegenüber &ndash; das eigene Selbst tritt zurück, um ganz darin aufzugehen. Bei Springsteen ist dieses Gegenüber die Bühne und das Publikum selbst: Seine Konzerte sind berüchtigt dafür, dass er die Setlist oft erst während der Show spontan verändert, auf Zurufe reagiert und sich dem jeweiligen Abend restlos anpasst, statt ein starres Programm abzuspulen.</p>
-          <p class="vb-intro">Über Jahrzehnte blieb er derselben Band, demselben musikalischen Grundthema &ndash; dem Leben der amerikanischen Arbeiterklasse &ndash; und demselben Publikum treu, statt sich wie viele Kollegen auf wechselnde Projekte zu verteilen. Genau das ist die SX9 in ihrer tragfähigsten Form: nicht viele lose Bindungen, sondern eine einzige, lebenslange Verschmelzung.</p>
+          <p class="vb-intro">Über Jahrzehnte blieb er derselben Band, demselben musikalischen Grundthema &ndash; dem Leben der amerikanischen Arbeiterklasse &ndash; und demselben Publikum treu, statt sich wie viele Kollegen auf wechselnde Projekte zu verteilen. Genau das zeigt die SX9 in ihrer tragfähigsten Form: nicht viele lose Bindungen, sondern eine einzige, lebenslange Verschmelzung.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Einserflügel: Disziplin hinter der scheinbaren Mühelosigkeit</h2>
@@ -2480,7 +2480,7 @@ export function michaelMinaPortraitPage() {
         <h2 class="vb-section">6. Das Vermächtnis: Der Waschbär, der ein Ritual zum System machte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Michael Mina steht für eine bestimmte Art kulinarischen Erfolgs: kein Ein-Gericht-Wunder und keine Fernsehpersönlichkeit, sondern ein handwerklich fundiertes System, das sich über vierzig Standorte hinweg verlässlich reproduzieren lässt – getragen von einem einzigen, fast dreißig Jahre alten Tischritual, das er nie ersetzt, nur perfektioniert hat.</p>
-          <p class="vb-intro">Vom Kleinstadtjungen mit ägyptischen Wurzeln, der mit sechzehn ein Restaurant am Laufen hielt, zum Kopf eines internationalen Restaurant-Imperiums: Das ist die selbsterhaltende Drei mit Zweierflügel in ihrer produktivsten Form – Sicherheit durch bewiesene, wiederholbare Substanz, getragen von echter Fürsorge für die, die am Tisch sitzen.</p>
+          <p class="vb-intro">Vom Kleinstadtjungen mit ägyptischen Wurzeln, der mit sechzehn ein Restaurant am Laufen hielt, zum Kopf eines internationalen Restaurant-Imperiums: Darin zeigt sich die selbsterhaltende Drei mit Zweierflügel in ihrer produktivsten Form – Sicherheit durch bewiesene, wiederholbare Substanz, getragen von echter Fürsorge für die, die am Tisch sitzen.</p>
         </blockquote>
 
       </div>
@@ -2542,7 +2542,7 @@ export function michaelaBenthausPortraitPage() {
 
         <h2 class="vb-section">5. Der Schimpanse im Rollstuhl, elf Minuten über der Kármán-Linie</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Elf Minuten lang, am 20. Dezember 2025, war Michaela Benthaus schwerelos – gesichert durch Gurte, die eigens für sie konstruiert worden waren, begleitet von einem Mann, den eine einzige online gestellte Frage überzeugt hatte, mitzufliegen. Das ist die sexuelle Sieben mit Sechserflügel in ihrer reinsten Form: ein Traum, der keine halben Sachen duldet, und ein System aus Vorbereitung und Verbündeten, das stark genug war, ihn zu tragen.</p>
+          <p class="vb-intro">Elf Minuten lang, am 20. Dezember 2025, war Michaela Benthaus schwerelos – gesichert durch Gurte, die eigens für sie konstruiert worden waren, begleitet von einem Mann, den eine einzige online gestellte Frage überzeugt hatte, mitzufliegen. Hier wirkt die sexuelle Sieben mit Sechserflügel in ihrer reinsten Form: ein Traum, der keine halben Sachen duldet, und ein System aus Vorbereitung und Verbündeten, das stark genug war, ihn zu tragen.</p>
         </blockquote>
 
       </div>

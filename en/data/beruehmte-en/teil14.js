@@ -646,7 +646,7 @@ export function hansZimmerPortraitPage() {
         <h2 class="vb-section">3. The Eight-Wing: Strength That Carries</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Eight-wing</strong> gives the Self-Preservation Seven something not every Seven has access to: assertiveness. A Seven with a weaker Eight wing can lose itself in possibilities, can evade, can redirect when something becomes difficult. The Eight-wing holds firm &ndash; it brings decisiveness, directness, the willingness to endure conflict.</p>
-          <p class="vb-intro">Zimmer's music is not delicate. It is massive, archaic, physical &ndash; sound that one feels before one understands it. The brass thunder in <em>Gladiator</em>, the heartbeat of <em>Inception</em>, the waves in <em>Dunkirk</em>. That is the Eight-wing: joy that is not afraid of volume, of weight, of the moment when music overwhelms someone.</p>
+          <p class="vb-intro">Zimmer's music is not delicate. It is massive, archaic, physical &ndash; sound that one feels before one understands it. The brass thunder in <em>Gladiator</em>, the heartbeat of <em>Inception</em>, the waves in <em>Dunkirk</em>. Here we see the Eight-wing: joy that is not afraid of volume, of weight, of the moment when music overwhelms someone.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Passion: Gluttony as Creative Drive</h2>
@@ -789,7 +789,7 @@ export function jasminPaoliniPortraitPage() {
         <h2 class="vb-section">5. The Gift: Joy That Does Not Give Up</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Jasmine Paolini gives to tennis &ndash; and to the audience &ndash; is something that cannot be trained: genuine joy. Not the smile of a brand, not the calculated accessibility of a communications team. But the joy of a woman who is at home on the court, who loves her profession and does not hide it.</p>
-          <p class="vb-intro">That is the gift of the SP7w6: joy that holds firm. Not the fleeting enthusiasm that vanishes at the first setback, but a joy anchored deeply enough to survive even defeat. Watching Jasmine Paolini at tennis, one sees a Gorilla in its element: strong, warm, unshakeable. That is the SP7w6. That is joy as home.</p>
+          <p class="vb-intro">That is the gift of the SP7w6: joy that holds firm. Not the fleeting enthusiasm that vanishes at the first setback, but a joy anchored deeply enough to survive even defeat. Watching Jasmine Paolini at tennis, one sees a Gorilla in its element: strong, warm, unshakeable. This shows the SP7w6. That is joy as home.</p>
         </blockquote>
 
       </div>
@@ -899,14 +899,14 @@ export function karolineHerfurthPortraitPage() {
 
         <h2 class="vb-section">1. The Dove That Observes</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The dove is the animal of the self-preservation Type 4, and in Karoline Herfurth it demonstrates a special quality: this dove does not land right away. It circles first. It observes, perceives, carries internally what it has seen, and then lands right where it is needed. That is the self-preservation Four with a Five wing: a person who fully lives through their inner world before stepping outward.</p>
+          <p class="vb-intro">The dove is the animal of the self-preservation Type 4, and in Karoline Herfurth it demonstrates a special quality: this dove does not land right away. It circles first. It observes, perceives, carries internally what it has seen, and then lands right where it is needed. Here you can see the self-preservation Four with a Five wing: a person who fully lives through their inner world before stepping outward.</p>
           <p class="vb-intro">The German actress Karoline Herfurth is one of the few personalities in Germany who embody this synthesis: a powerful emotional presence on screen, quiet restraint beside it. No constant social media stream, no continuous explanations. Instead: films that speak for themselves. An attitude that says more than any interview.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Four: Tenacity Without Drama</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The self-preservation Four (SP4) is the countertype of the Four; outward-facing, it hardly shows what most people expect from a Four: no drama, no displayed suffering, no romantic self-staging. Instead: a quiet tenacity, a readiness to carry a great deal internally without complaining about it.</p>
-          <p class="vb-intro">Karoline Herfurth began acting at just 12 years old, was in feature films by 16, and played Grenouille's victim in Tom Tykwer's Perfume: The Story of a Murderer at 18. This early start demanded a maturity that did not push itself forward—she had to be internally stable while others were still finding their footing. That is the SP4: not the one who talks about her pain, but the one who walks through it and makes something out of it afterward.</p>
+          <p class="vb-intro">Karoline Herfurth began acting at just 12 years old, was in feature films by 16, and played Grenouille's victim in Tom Tykwer's Perfume: The Story of a Murderer at 18. This early start demanded a maturity that did not push itself forward—she had to be internally stable while others were still finding their footing. Here we see the SP4: not the one who talks about her pain, but the one who walks through it and makes something out of it afterward.</p>
           <p class="vb-intro">Her filmography speaks this language: she avoids the slick, the comfortable. She chooses roles that exact a cost—characters with fractures, with inner contradictions, with humanity beyond the surface. The defense pattern of the SP4—the tendency to downplay one's own internal experience—paradoxically turns into artistic strength here: she plays real people because she knows how to carry what is real.</p>
         </blockquote>
 
@@ -975,7 +975,7 @@ export function laoziPortraitPage() {
         <h2 class="vb-section">3. Wu Wei: Effortlessness as the Highest Principle</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The core concept of the Tao Te Ching is <strong>wu wei</strong>, usually translated as "non-action" or "effortless action." This does not mean literally doing nothing, but acting in a way that does not fight against the natural course of things (the Dao), but fits into it &ndash; like water, which offers no resistance to any obstacle and yet, over time, shapes the hardest stone. "The softest thing in the world overcomes the hardest thing in the world," the Tao Te Ching says.</p>
-          <p class="vb-intro">This is the Nine in its purest, most highly integrated form: not avoidance out of comfort, but a deliberate refusal to wear oneself out in friction and resistance. Where Confucius (Type 1) sought to create order through rules, duties, and active example, and Buddha (Type 5) penetrated suffering through unsparing analysis, Laozi taught the opposite of both paths: let go, do not interfere, trust the flow of life instead of trying to control it.</p>
+          <p class="vb-intro">This shows the Nine in its purest, most highly integrated form: not avoidance out of comfort, but a deliberate refusal to wear oneself out in friction and resistance. Where Confucius (Type 1) sought to create order through rules, duties, and active example, and Buddha (Type 5) penetrated suffering through unsparing analysis, Laozi taught the opposite of both paths: let go, do not interfere, trust the flow of life instead of trying to control it.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The One-Wing: Quiet Moral Clarity</h2>
@@ -1112,7 +1112,7 @@ export function marieKondoPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Two wing (w2) lends the self-preservation One something that it does not find so easily on its own from within: warmth, contact, the need to touch others. The Two wing wants to give. It wants others to bloom—not because it expects something in return, but because the well-being of others is genuinely close to its heart.</p>
           <p class="vb-intro">Without this wing, Marie Kondo might have remained an extraordinarily tidy private individual. The Two wing is the reason why an inner standard became a method, the method a book, and the book a global phenomenon. She did not just tidy her own home—she decided to help others do the same. Not because it was her job, but because she understood that clearing the outside enables clearing the inside.</p>
-          <p class="vb-intro">In her Netflix series Tidying Up with Marie Kondo, one sees this wing in pure form: she enters strangers' houses with complete attentiveness, with genuine curiosity for the people behind the things. She does not judge. She accompanies. That is the Two in the One: precision in the service of connection.</p>
+          <p class="vb-intro">In her Netflix series Tidying Up with Marie Kondo, one sees this wing in pure form: she enters strangers' houses with complete attentiveness, with genuine curiosity for the people behind the things. She does not judge. She accompanies. Here you can see the Two in the One: precision in the service of connection.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Passion: Wrath as Inner Rigor</h2>
@@ -1382,7 +1382,7 @@ export function robertSchumannPortraitPage() {
         <h2 class="vb-section">3. The Eight-Wing: The Fight for Clara</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Sexual Seven something Sevens with a less developed Eight wing often lack: the willingness for open combat. Schumann fell in love with Clara Wieck, the highly gifted pianist daughter of his own piano teacher Friedrich Wieck &ndash; and Wieck did everything to prevent the union: smear campaigns, relocations, even a years-long court case.</p>
-          <p class="vb-intro">A Seven with a weaker Eight wing would likely have given up on this front and turned to an easier love. Schumann instead fought for years, took the matter to court, and finally forced the marriage in 1840 against his teacher's declared will. That is the Eight-wing of the Sexual Seven: where a more muted Eight wing evades, the SX7w8 stays and prevails &ndash; not out of calculation, but because the longed-for object of enthusiasm cannot be given up at any price.</p>
+          <p class="vb-intro">A Seven with a weaker Eight wing would likely have given up on this front and turned to an easier love. Schumann instead fought for years, took the matter to court, and finally forced the marriage in 1840 against his teacher's declared will. Here we see the Eight-wing of the Sexual Seven: where a more muted Eight wing evades, the SX7w8 stays and prevails &ndash; not out of calculation, but because the longed-for object of enthusiasm cannot be given up at any price.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Passion: Gluttony as Creative Outburst</h2>
@@ -1515,7 +1515,7 @@ export function thomasGottschalkPortraitPage() {
         <h2 class="vb-section">2. The Sexual Seven: Enthusiasm as a Spark</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Sexual Seven (SX7)</strong> is the subtype of the Seven in which energy does not turn inward (SP7) or into society (SO7) but directly into contact: into the other person, into the moment, into the connection. Naranjo called this subtype <em>Suggestibility</em> &ndash; the capacity for enthusiasm that is transmitted. The SX7 infects others. Not with a message, but with its sheer energy.</p>
-          <p class="vb-intro">Thomas Gottschalk was never a brand. He was an energy. Viewers did not tune in to <em>Wetten, dass..?</em> for the bets. They tuned in because they wanted to know what would happen when Gottschalk was on stage &ndash; what he would say, what would excite him, what he would surprise them with this time. That is the SX7: it is not the format that draws people in, but the person. Not the concept, but the spark.</p>
+          <p class="vb-intro">Thomas Gottschalk was never a brand. He was an energy. Viewers did not tune in to <em>Wetten, dass..?</em> for the bets. They tuned in because they wanted to know what would happen when Gottschalk was on stage &ndash; what he would say, what would excite him, what he would surprise them with this time. This shows the SX7: it is not the format that draws people in, but the person. Not the concept, but the spark.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Six-Wing: Loyalty and Reliability</h2>
@@ -2117,7 +2117,7 @@ export function eltonJohnPortraitPage() {
         <h2 class="vb-section">2. The Self-Preservation Seven: Pleasure as a Counterweight</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>self-preservation Seven (SP7)</strong> secures safety and well-being not through restraint but through active enjoyment and the ability to provide for oneself. Elton John himself said his wild stage costumes and performances were his way of letting go after a restrictive childhood. Ostrich feathers, $5,000 glasses spelling out his name in lights, costumes as the Statue of Liberty, Donald Duck, or Mozart – the most famous of all at his 1975 Dodger Stadium shows in a sequined baseball uniform.</p>
-          <p class="vb-intro">This abundance of color, fabric, and staging is the SP7 in its purest form: not restraint, but excess as a path to one's own safety. Yet the same pursuit of pleasure tipped, over two decades, into severe cocaine and alcohol addiction, compounded by bulimia – until by 1990 nothing was left that still gave him any sense of safety.</p>
+          <p class="vb-intro">This abundance of color, fabric, and staging shows the SP7 in its purest form: not restraint, but excess as a path to one's own safety. Yet the same pursuit of pleasure tipped, over two decades, into severe cocaine and alcohol addiction, compounded by bulimia – until by 1990 nothing was left that still gave him any sense of safety.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Six Wing: Loyalty as a Lifeline</h2>
@@ -2184,7 +2184,7 @@ export function peterMaffayPortraitPage() {
         <h2 class="vb-section">2. The Sexual Nine: Merging With a Single Life's Work</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Sexual Nine (SX9)</strong> is, according to Naranjo, the variant of the passion of sloth that expresses itself through complete merging with a single, all-encompassing work or counterpart – the self steps back to fully dissolve into it. For Maffay, that one work is the little dragon Tabaluga: created in 1983 as a concept album, the figure grew over four decades into a musical, an animated series, and eventually the namesake of his own foundation.</p>
-          <p class="vb-intro">Unlike many musicians of his generation who spread their creative energy across shifting projects, bands, or genres, Maffay stayed with this one figure throughout his later career – not as a side project alongside his music career, but increasingly as its actual center. This is the SX9 at its most productive: not spread across many bonds, but fully merged into the one.</p>
+          <p class="vb-intro">Unlike many musicians of his generation who spread their creative energy across shifting projects, bands, or genres, Maffay stayed with this one figure throughout his later career – not as a side project alongside his music career, but increasingly as its actual center. Here you can see the SX9 at its most productive: not spread across many bonds, but fully merged into the one.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The One-Wing: Disciplined Structure Instead of Diffuse Charity</h2>
@@ -2410,7 +2410,7 @@ export function michaelMinaPortraitPage() {
         <h2 class="vb-section">6. The Legacy: The Raccoon Who Turned a Ritual Into a System</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Michael Mina represents a particular kind of culinary success: not a one-dish wonder or a television personality, but a craft-based system that reliably reproduces itself across forty locations – carried by a single, nearly thirty-year-old tableside ritual that he never replaced, only perfected.</p>
-          <p class="vb-intro">From a small-town boy with Egyptian roots who kept a restaurant running at sixteen, to the head of an international restaurant empire: this is the self-preservation Three with a Two wing at its most productive – security through proven, repeatable substance, carried by genuine care for the people sitting at the table.</p>
+          <p class="vb-intro">From a small-town boy with Egyptian roots who kept a restaurant running at sixteen, to the head of an international restaurant empire: here we see the self-preservation Three with a Two wing at its most productive – security through proven, repeatable substance, carried by genuine care for the people sitting at the table.</p>
         </blockquote>
 
       </div>

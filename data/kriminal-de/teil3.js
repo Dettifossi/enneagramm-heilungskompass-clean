@@ -333,7 +333,7 @@ export function annaDelveyPortraitPage() {
         <p class="vb-intro"><strong>a) Charismatisch und pr\xe4senz-stark:</strong>
         <strong>Delvey</strong> wirkte auf Menschen, die ihr begegneten,
         sofort wie jemand, der geh\xf6rt. Selbstsicher, stilbewusst,
-        weltgew\xe4ndt. Das ist die Zwei mit Dreierfl\xfcgel:
+        weltgew\xe4ndt. Hier zeigt sich die Zwei mit Dreierfl\xfcgel:
         Sie wei\xdf, wie sie wirkt \u2013 und nutzt diese Wirkung.</p>
         <p class="vb-intro"><strong>b) Einnehmend ohne Offenbarung:</strong>
         <strong>Delvey</strong> gab viel vor \u2013 und wenig preis. Menschen, die sie kannten,
@@ -343,7 +343,7 @@ export function annaDelveyPortraitPage() {
         <p class="vb-intro"><strong>c) K\xfchl bei Konfrontation:</strong>
         Wenn Delvey mit Inkonsistenzen konfrontiert wurde,
         reagierte sie nicht nerv\u00f6s, sondern k\xfchl und \xfcberlegen.
-        Das ist der Dreierfl\xfcgel: er gibt der Zwei die F\xe4higkeit,
+        Darin zeigt sich der Dreierfl\xfcgel: er gibt der Zwei die F\xe4higkeit,
         auch unter Druck das Image aufrechtzuerhalten.</p>
       </div>
 
@@ -420,7 +420,7 @@ export function annaDelveyPortraitPage() {
         Delveys Energie war einladend, glamour\xf6s, vielversprechend.
         Menschen wollten in ihrer N\xe4he sein, weil sie das Gef\xfchl
         vermittelte, dass etwas Besonderes passiert.
-        Das ist die Zwei mit Dreierfl\xfcgel auf einer B\xfchne:
+        Hier wirkt die Zwei mit Dreierfl\xfcgel auf einer B\xfchne:
         zugleich W\xe4rme und Spektakel.</p>
         <p class="vb-intro"><strong>b) Kontrollierte Emotionalit\xe4t:</strong>
         Anders als der Einserfl\xfcgel, der moralisch aufgeladen wirkt,
@@ -598,7 +598,7 @@ export function bernieMadoffPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Der Viererfl\xfcgel: Tiefe im Dienst der T\xe4uschung</h3>
         <p class="vb-intro">Ohne Viererfl\xfcgel w\xe4re Madoff vielleicht ein gieriger Betr\xfcger unter vielen. Der Viererfl\xfcgel machte ihn zu etwas Eigenartigem: einem Betr\xfcger mit Stil, mit Geschmack, mit einer fast k\xfcnstlerischen Sorgfalt in der Konstruktion seiner Welt. Die Vier sucht nach Bedeutung und Tiefe \u2013 beim SE3w4er richtet sich diese Energie auf die Einzigartigkeit des eigenen Projekts.</p>
-        <p class="vb-intro">In sp\xe4teren Gespr\xe4chen zeigte Madoff eine beinahe narzisstische Faszination mit der eigenen Tat: wie pr\xe4zise das System lief, wie lange es hielt, wie viele kluge Menschen er \xfcberzeugte. Das ist der Viererfl\xfcgel: selbst in der Katastrophe noch ein Gesp\xfcr daf\xfcr, dass das, was man getan hat, <em>besonders</em> war.</p>
+        <p class="vb-intro">In sp\xe4teren Gespr\xe4chen zeigte Madoff eine beinahe narzisstische Faszination mit der eigenen Tat: wie pr\xe4zise das System lief, wie lange es hielt, wie viele kluge Menschen er \xfcberzeugte. Hier zeigt sich der Viererfl\xfcgel: selbst in der Katastrophe noch ein Gesp\xfcr daf\xfcr, dass das, was man getan hat, <em>besonders</em> war.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -610,7 +610,7 @@ export function bernieMadoffPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Psychologisches Profil</h3>
         <p class="vb-intro"><strong>a) Kein Monstrum \u2013 ein Mechanismus:</strong>
-        Madoff war kein sadistischer T\xe4ter, der das Leiden seiner Opfer genoss. Er verdr\xe4ngte es. In Interviews klang er gelegentlich ehrlich \xfcberrascht von der Intensit\xe4t des Schmerzes, den er verursacht hatte. Das ist die Dreier-Psychologie: Der Schaden am anderen dringt nicht durch die Inszenierung. Was z\xe4hlt, ist die eigene B\xfchne \u2013 nicht die Konsequenzen dahinter.</p>
+        Madoff war kein sadistischer T\xe4ter, der das Leiden seiner Opfer genoss. Er verdr\xe4ngte es. In Interviews klang er gelegentlich ehrlich \xfcberrascht von der Intensit\xe4t des Schmerzes, den er verursacht hatte. Darin zeigt sich die Dreier-Psychologie: Der Schaden am anderen dringt nicht durch die Inszenierung. Was z\xe4hlt, ist die eigene B\xfchne \u2013 nicht die Konsequenzen dahinter.</p>
         <p class="vb-intro"><strong>b) Die S\xf6hne als tragischer Spiegel:</strong>
         Dass Madoffs eigene S\xf6hne ihn anzeigten, ist das tiefste Symbol des Falls. Die SE3 baut ihr Nest \u2013 Familie, Firma, Ansehen \u2013 und zerst\xf6rt es durch denselben Mechanismus, der es aufgebaut hat. Die S\xf6hne glaubten an den Vater. Als die Wahrheit herauskam, war der Vater pl\xf6tzlich weg \u2013 was blieb, war nicht mehr tragf\xe4hig. Mark Madoff nahm sich das Leben am zweiten Jahrestag der Verhaftung seines Vaters.</p>
         <p class="vb-intro"><strong>c) Kein Vergleich mit anderen Betr\xfcgern:</strong>
@@ -1429,14 +1429,14 @@ export function garyRidgwayPortraitPage() {
         Er war freundlich, entspannt, nicht bedrohlich wirkend.
         Er konnte sich in die Erwartungen seiner Opfer einf\u00fcgen:
         ein Mann, der zahlt, der h\u00f6flich ist, der kein Risiko zu sein scheint.
-        Frauen stiegen freiwillig in sein Auto. Das ist der Zweierfl\u00fcgel in seiner dunkelsten Funktion:
+        Frauen stiegen freiwillig in sein Auto. Hier wirkt der Zweierfl\u00fcgel in seiner dunkelsten Funktion:
         Hilfsbereitschaft und W\u00e4rme als Tarnung f\u00fcr das, was darunter liegt.</p>
         <p class="vb-intro"><strong>c) Die Fassade des Normalen:</strong>
         Ridgway besuchte regelm\u00e4\u00dfig den Gottesdienst, las die Bibel,
         sprach mit Kollegen \u00fcber den Glauben. Er heiratete dreimal.
         Sein dritter Ehe dauerte fast drei\u00dfig Jahre \u2013 die gesamte Zeit seiner aktivsten Mordserie.
         Sein Sohn wusste nichts. Seine Frau wusste nichts.
-        Das ist das SX1-Muster: Nach innen totale Kontrolle \u00fcber eine intime Sph\u00e4re \u2013
+        Hier zeigt sich das SX1-Muster: Nach innen totale Kontrolle \u00fcber eine intime Sph\u00e4re \u2013
         nach au\u00dfen totale Anpassung an die Erwartungen der Gemeinschaft.</p>
       </div>
 
@@ -1467,7 +1467,7 @@ export function garyRidgwayPortraitPage() {
         Er brachte dort manchmal Zigarettenstummel und Gegenst\u00e4nde anderer M\u00e4nner aus,
         um die Ermittlungen zu verwirren. Er kannte die Ermittlungsmethoden
         aus Medienberichten und passte sein Verhalten gezielt an.
-        Das ist die SX1-Intelligenz in ihrer dunkelsten Form:
+        Darin zeigt sich die SX1-Intelligenz in ihrer dunkelsten Form:
         Ordnung, Planung, Systemdenken \u2013 im Dienst der Vernichtung.</p>
         <p class="vb-intro"><strong>d) Fast zwanzig Jahre unentdeckt:</strong>
         Ridgway war bereits 1983, 1984 und 1987 von der Polizei befragt worden \u2013
@@ -1489,7 +1489,7 @@ export function garyRidgwayPortraitPage() {
         einem Impuls, der st\u00e4rker war als sein Wille, st\u00e4rker als sein Glaube, st\u00e4rker als seine Vernunft.
         Er betete. Er las die Bibel. Er versuchte, ein guter Mann zu sein.
         Und er t\u00f6tete weiter.
-        Das ist der Vierer-Stresspunkt der Eins in seiner dunkelsten Form:
+        Hier wirkt der Vierer-Stresspunkt der Eins in seiner dunkelsten Form:
         Das Wissen, dass man b\u00f6se ist, ohne es stoppen zu k\u00f6nnen \u2013
         und die Entscheidung, es nach au\u00dfen hin trotzdem perfekt zu verbergen.
         </p>
@@ -1516,7 +1516,7 @@ export function garyRidgwayPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
         <p class="vb-intro">
         Gary Ridgway ist kein R\u00e4tsel f\u00fcr das Enneagramm.
-        Er ist die sexuelle Eins in ihrer absolutesten Dekonstruktion:
+        Er zeigt die sexuelle Eins in ihrer absolutesten Dekonstruktion:
         ein Mensch, der Reinheit wollte und sich von dem anzog, was er als unrein empfand.
         Der Zweierfl\u00fcgel gab ihm die soziale Kompetenz, die er brauchte, um jahrzehntelang
         als normaler B\u00fcrger zu leben. Der Vierer-Stresspunkt lieferte den inneren Aufruhr,
@@ -2489,7 +2489,7 @@ export function jonathanMeijerPortraitPage() {
         <p class="vb-intro"><strong>b) Uneinsichtig trotz Konsequenzen:</strong>
         Selbst nach mehreren Gerichtsurteilen, nach internationaler
         Berichterstattung und nach dem Schmerz vieler Betroffener
-        zeigte Meijer wenig echte Einsicht. Das ist die Zwei
+        zeigte Meijer wenig echte Einsicht. Hier zeigt sich die Zwei
         im Stolz: Kritik wird als Missverst\xe4ndnis erlebt,
         nicht als berechtigter Einwand.</p>
         <p class="vb-intro"><strong>c) Gro\xdfes Vergehen, kleines Bewusstsein:</strong>
@@ -2900,7 +2900,7 @@ export function nickLeesonPortraitPage() {
         <h2 class="vb-section">5. Das Konto 88888: Das Versteck der Tr\xe4gheit</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">1992 er\xf6ffnet Leeson in Singapur ein internes Fehlerkonto &ndash; die Nummer 88888, in der chinesischen Kultur eine Gl\xfccksahl. Urspr\xfcnglich gedacht f\xfcr kleinere administrative Fehler. Bald wird es zum Versteck f\xfcr seine eigenen Handelsverluste. Leeson \xfcberweist Verluste auf dieses Konto und zeigt der Londoner Zentrale nur die Gewinne. Er lebte in zwei Welten: der offiziellen Welt, in der er ein Stern war, und der verborgenen Welt des Kontos, das wuchs und wuchs.</p>
-          <p class="vb-intro">Das ist die SO9-Mechanik auf der institutionellen Ebene: <em>das Bild aufrechterhalten, das die Gemeinschaft braucht</em>. Die Bank brauchte Gewinne. Er lieferte Gewinne. Was hinter der Fassade lag, durfte die Gemeinschaft nicht sehen &ndash; denn dann w\xe4re er nicht mehr einer von ihnen. Das Konto 88888 war nicht der Plan eines Betr\xfcgers. Es war das Versteck eines Mannes, der um jeden Preis dazugeh\xf6ren wollte.</p>
+          <p class="vb-intro">Darin zeigt sich die SO9-Mechanik auf der institutionellen Ebene: <em>das Bild aufrechterhalten, das die Gemeinschaft braucht</em>. Die Bank brauchte Gewinne. Er lieferte Gewinne. Was hinter der Fassade lag, durfte die Gemeinschaft nicht sehen &ndash; denn dann w\xe4re er nicht mehr einer von ihnen. Das Konto 88888 war nicht der Plan eines Betr\xfcgers. Es war das Versteck eines Mannes, der um jeden Preis dazugeh\xf6ren wollte.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Das Erdbeben als Wendepunkt</h2>
@@ -3032,7 +3032,7 @@ export function ottoMuehlPortraitPage() {
         Zeitzeugen beschreiben Mühls Blick als intensiv, prüfend,
         kaum auszuhalten – einen Blick, der sofort bewertete,
         ob man „echt" war oder noch in „bürgerlicher Verklemmung"
-        gefangen. Das ist die SX1-Intensität: kein distanziertes
+        gefangen. Hier wirkt die SX1-Intensität: kein distanziertes
         Prüfen wie bei anderen Einser-Subtypen, sondern ein
         unmittelbares, fast körperliches Einfordern von Wahrhaftigkeit –
         nach seinen eigenen Maßstäben.</p>
@@ -3056,7 +3056,7 @@ export function ottoMuehlPortraitPage() {
         <p class="vb-intro"><strong>a) Der Reformer als Selbstermächtigung:</strong>
         Mühl positionierte sich als Befreier von bürgerlicher
         Sexualmoral und Verklemmtheit – eine Mission, die er
-        mit missionarischem Eifer verfolgte. Das ist die Eins
+        mit missionarischem Eifer verfolgte. Hier zeigt sich die Eins
         in ihrer sozial-ideologischen Form: Die eigene Überzeugung
         wird zur universellen Wahrheit erhoben, deren Durchsetzung
         jedes Mittel rechtfertigt.</p>
@@ -3396,7 +3396,7 @@ export function paulOgorzowPortraitPage() {
         zu schauen, und sein Name fiel,
         brach das System sofort zusammen:
         Er gestand noch in derselben Nacht.
-        Das ist die SE1 ohne ihre Schutzstruktur \u2013
+        Darin zeigt sich die SE1 ohne ihre Schutzstruktur \u2013
         sie h\u00e4lt nicht stand.</p>
       </div>
 
@@ -3852,7 +3852,7 @@ export function salvatoreRiinaPortraitPage() {
         Zeitzeugen beschrieben Riinas Blick als still und durchdringend \u2013
         kein Rasen, keine Hektik, aber eine Intensit\xe4t, die den Gegen\xfcber
         einsch\xfcchterte, ohne dass Riina die Stimme h\xe4tte heben m\xfcssen.
-        Das ist der Achter-Blick mit Neunerfl\xfcgel: ruhig nach au\xdfen,
+        Hier wirkt der Achter-Blick mit Neunerfl\xfcgel: ruhig nach au\xdfen,
         aber mit einer Tiefe, die signalisiert: Hier ist jemand, der alles sieht.</p>
         <p class="vb-intro"><strong>b) Abwartend und kalkulierend:</strong>
         <strong>Riina</strong> beobachtete mehr als er sprach. Der Neunerfl\xfcgel verst\xe4rkt
@@ -3880,7 +3880,7 @@ export function salvatoreRiinaPortraitPage() {
         echte Vertraute und den Rest.</p>
         <p class="vb-intro"><strong>c) Kompromisslose Eskalation bei Bedrohung:</strong>
         Als Riina die rivalisierende Mafia-F\xfchrung als Bedrohung einstufte,
-        eskalierte er ohne Z\xf6gern in die totale Vernichtung. Das ist die SE8
+        eskalierte er ohne Z\xf6gern in die totale Vernichtung. Hier zeigt sich die SE8
         unter existenziellem Druck: kein Verhandeln, kein halbes Ma\xdf \u2013
         sondern die vollst\xe4ndige Ausl\xf6schung der Bedrohungsquelle.</p>
       </div>
@@ -3898,7 +3898,7 @@ export function salvatoreRiinaPortraitPage() {
         Der Neunerfl\xfcgel gab Riina eine Geduld, die bei einer Acht
         ungew\xf6hnlich ist. Er wartete Jahrzehnte auf den richtigen Moment,
         lebte 23 Jahre im Verborgenen ohne Ungeduld oder \xdcberheblichkeit.
-        Das ist die SE8w9 in ihrer strategischen Auspr\xe4gung: die F\xe4higkeit,
+        Darin zeigt sich die SE8w9 in ihrer strategischen Auspr\xe4gung: die F\xe4higkeit,
         den eigenen Angriffstrieb so lange zu z\xfcgeln, bis der Zeitpunkt stimmt.</p>
         <p class="vb-intro"><strong>c) Einsch\xfccherung als Kommunikation:</strong>
         <strong>Riina</strong> musste selten laut werden. Seine Reputation war sein Werkzeug \u2013
@@ -4096,7 +4096,7 @@ export function tedKaczynskiPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Das Manifest: <em>Industrial Society and Its Future</em></h3>
         <p class="vb-intro">1995 sandte Kaczynski sein 35.000 W\u00f6rter langes Manifest an die <em>New York Times</em> und die <em>Washington Post</em> mit der Drohung, andernfalls weitere Anschl\xe4ge zu ver\u00fcben. Das FBI riet zur Ver\xf6ffentlichung. Das Manifest erschien im September 1995.</p>
         <p class="vb-intro">Es ist ein bemerkenswertes Dokument. Kaczynski argumentiert klar und konsequent: Die Industriegesellschaft zerst\xf6rt die psychologische Autonomie des Menschen, indem sie nat\xfcrliche Bed\xfcrfnisse nach Macht, Herausforderung und Sinn durch surrogat-Aktivit\xe4ten ersetzt. Der Einzelne wird abh\xe4ngig von einem System, das er nicht kontrolliert und nicht versteht. Der einzige Ausweg sei ein radikaler Zusammenbruch der technologischen Zivilisation.</p>
-        <p class="vb-intro">Philosophen, Soziologen und Technik-Kritiker haben seither einzelne Analysen des Manifests als intellektuell bemerkenswert bezeichnet &ndash; abgel\xf6st von seiner kriminellen Handlung betrachtet. Das ist das SO5w4-Paradox: ein Denker, dessen Ideen partiell diskutierbar w\xe4ren &ndash; und dessen Mittel inakzeptabel sind.</p>
+        <p class="vb-intro">Philosophen, Soziologen und Technik-Kritiker haben seither einzelne Analysen des Manifests als intellektuell bemerkenswert bezeichnet &ndash; abgel\xf6st von seiner kriminellen Handlung betrachtet. Hier wirkt das SO5w4-Paradox: ein Denker, dessen Ideen partiell diskutierbar w\xe4ren &ndash; und dessen Mittel inakzeptabel sind.</p>
       </div>
 
       <div class="vb-section">
@@ -4185,7 +4185,7 @@ export function victorLustigPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Die &bdquo;Geldkiste&ldquo;: Gier als Angriffsfl\xe4che</h3>
         <p class="vb-intro">Eines von Lustigs bekanntesten Betrugsinstrumenten war die sogenannte &bdquo;Rumänische Geldkiste&ldquo; &ndash; ein Kasten, der angeblich Geldscheine kopieren konnte. Lustig f\xfchrte K\xe4ufern vor, wie die Maschine \xfcber mehrere Stunden echte Geldscheine &bdquo;druckte&ldquo; (tats\xe4chlich hatte er zuvor Scheine im Ger\xe4t versteckt) und verkaufte die Kiste anschlie\xdfend f\xfcr hohe Summen &ndash; wohl wissend, dass die K\xe4ufer, sobald die Kiste nur noch Blankopapier produzierte, aus Scham nie zur Polizei gehen w\xfcrden.</p>
-        <p class="vb-intro">Das ist die SX7w8-Logik in ihrer kalkuliertesten Form: Lustig baute seine Betr\xfcgereien systematisch so, dass die Gier oder Korruptheit seiner Opfer selbst zum Schutzschild wurde. Die Suggestion \xfcberzeugte nicht durch Vertrauen allein, sondern durch das gezielte Ausnutzen der Schwachstellen des Gegen\xfcbers.</p>
+        <p class="vb-intro">Hier zeigt sich die SX7w8-Logik in ihrer kalkuliertesten Form: Lustig baute seine Betr\xfcgereien systematisch so, dass die Gier oder Korruptheit seiner Opfer selbst zum Schutzschild wurde. Die Suggestion \xfcberzeugte nicht durch Vertrauen allein, sondern durch das gezielte Ausnutzen der Schwachstellen des Gegen\xfcbers.</p>
       </div>
 
       <div class="vb-section">
@@ -4196,7 +4196,7 @@ export function victorLustigPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro"><strong>a) Suggestibilit\xe4t als Berufswerkzeug:</strong> Lustigs gesamte Karriere beruhte auf der F\xe4higkeit, sich selbst und andere in einem einzigen \xfcberzeugenden Moment vollst\xe4ndig zu verwandeln. Das ist die SX7 in ihrer reinsten Form: keine langfristige Systemplanung, sondern die geniale Improvisation im entscheidenden Augenblick.</p>
+        <p class="vb-intro"><strong>a) Suggestibilit\xe4t als Berufswerkzeug:</strong> Lustigs gesamte Karriere beruhte auf der F\xe4higkeit, sich selbst und andere in einem einzigen \xfcberzeugenden Moment vollst\xe4ndig zu verwandeln. Darin zeigt sich die SX7 in ihrer reinsten Form: keine langfristige Systemplanung, sondern die geniale Improvisation im entscheidenden Augenblick.</p>
         <p class="vb-intro"><strong>b) Der Achterfl\xfcgel als Wiederholungszwang unter Risiko:</strong> Eine SX7 mit schw\xe4cher ausgepr\xe4gtem Achterfl\xfcgel h\xe4tte sich nach dem ersten Eiffelturm-Verkauf zur\xfcckgezogen. Der stark ausgepr\xe4gte Achterfl\xfcgel bei Lustig verlangte danach, das Risiko zu wiederholen, zu steigern, zu beweisen, dass die Kontrolle vollst\xe4ndig bei ihm lag.</p>
         <p class="vb-intro"><strong>c) Identit\xe4t als flie\xdfendes Material:</strong> \xdcber vierzig Aliasnamen zeigen, wie sehr die SX7 die eigene Identit\xe4t nicht als feste Gr\xf6\xdfe, sondern als Werkzeug begreift &ndash; formbar, austauschbar, immer dem jeweiligen Moment angepasst.</p>
       </div>
@@ -4358,7 +4358,7 @@ export function fritzHonkaPortraitPage() {
         nicht wie viele andere Täter fern seines eigenen Lebensraums,
         sondern verbarg sie innerhalb der eigenen vier Wände – hinter einer
         selbst errichteten Zwischenwand, im Dachboden über seiner Wohnung.
-        Das ist die SE5-Logik in ihrer düstersten Form: Der eigene Rückzugsraum
+        Hier wirkt die SE5-Logik in ihrer düstersten Form: Der eigene Rückzugsraum
         ist so vollständig unter Kontrolle, dass selbst das Unaussprechliche
         dort sicherer erscheint als draußen – eine Parallele zu Kroll, der
         Leichenteile im eigenen Kühlschrank aufbewahrte, statt sie zu entsorgen.</p>

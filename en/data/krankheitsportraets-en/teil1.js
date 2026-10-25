@@ -452,7 +452,7 @@ export function charlesDarwinKrankheitsportraetPage() {
         <p class="vb-intro"><strong>b) The water cure as a ritual of control:</strong>
         Darwin repeatedly underwent elaborate hydrotherapy treatments at specialized
         clinics – strictly scheduled applications of cold water, wraps, and baths on a fixed
-        regimen. This is the Six-wing within the illness itself: even the treatment had to be
+        regimen. Here we see the Six-wing within the illness itself: even the treatment had to be
         comprehensibly structured and controllable.</p>
         <p class="vb-intro"><strong>c) Withdrawal as a double necessity:</strong>
         The illness gave Darwin an additional, unassailable reason for the retreat the SP5's
@@ -4322,7 +4322,7 @@ export function virginiaWoolfKrankheitsportraetPage() {
         for his well-being: she wrote that she could not go on burdening his life, that
         without her he could work, and that she owed all the happiness of her life to him.
         Someone living under chronic psychological strain for years increasingly moves along
-        their stress line toward their stress point – for the Four, that is the Two. This
+        their stress line toward their stress point – for the Four, this shows the Two. This
         outward-, rather than inward-, directed care in her final, most existential hour
         recalls the self-sacrifice of the stress point, not the otherwise strongly
         inward-directed introspection of the core type – with the core type unchanged at

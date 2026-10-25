@@ -107,7 +107,7 @@ export function ankeEngelkePortraitPage() {
         <h2 class="vb-section">3. The Seven-Wing: Humour as Home</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Seven-wing</strong> lends the Sexual Six a lightness it would lack without it. A Six with a more muted Seven wing tends toward heaviness: brooding, mistrust, the constant weighing of risks. The Seven-wing brightens that &ndash; it brings curiosity, playfulness, the ability to make connections that others do not notice.</p>
-          <p class="vb-intro">In Anke Engelke this is visible from the very start of her career. At 14 she presents the <em>ZDF Ferienprogramm</em> and the weekly children's sports show <em>Pfiff</em> &ndash; as a teenager bringing summer and sport closer to other children. This early ease on stage has a clear source: it is the Seven-wing that plays over the fear before it can take hold. From this beginning grows a career of constant change &ndash; television, radio, comedy, acting, voice-over, singing. No format too many, no direction too narrow. Her humour is rarely bitter &ndash; it is warm, absurd, at times childlike. That is the Seven-wing: turning fear into play, and doing so from the age of fourteen.</p>
+          <p class="vb-intro">In Anke Engelke this is visible from the very start of her career. At 14 she presents the <em>ZDF Ferienprogramm</em> and the weekly children's sports show <em>Pfiff</em> &ndash; as a teenager bringing summer and sport closer to other children. This early ease on stage has a clear source: it is the Seven-wing that plays over the fear before it can take hold. From this beginning grows a career of constant change &ndash; television, radio, comedy, acting, voice-over, singing. No format too many, no direction too narrow. Her humour is rarely bitter &ndash; it is warm, absurd, at times childlike. Here we see the Seven-wing: turning fear into play, and doing so from the age of fourteen.</p>
           <p class="vb-intro">Since 1996 she has shared one of the longest-running partnerships in German comedy history with <a href="#beruehmte-bastian-pastewka">Bastian Pastewka (SP3w2)</a>, whom she met on "Die Wochenshow" – joint formats from "Fröhliche Weihnachten! – mit Wolfgang und Anneliese" to "Wiedersehen macht Freude" bear witness to a collaboration that carried across decades.</p>
         </blockquote>
 
@@ -173,7 +173,7 @@ export function billieEilishPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Sexual Four the ability not just to feel her own experience, but to translate it into impact. Where an SX4 with a more muted Three-wing might burn out in her own fire, the Three-wing adds ambition, an instinct for stage and image, and the discipline to turn a SoundCloud upload into a global career.</p>
           <p class="vb-intro">In Eilish this shows in the precision with which image, sound, and performance are aligned &ndash; from the green-and-black hair to the vast, aesthetically composed music videos to the deliberate reinvention of her look on the 2021 Vogue cover. The w3 ensures that the SX4&#39;s raw honesty doesn&#39;t fade into the private, but reaches an entire generation.</p>
-          <p class="vb-intro">In 2020, Eilish won all four major Grammy categories &ndash; Album, Song, and Record of the Year plus Best New Artist &ndash; in the same year, at eighteen, the youngest artist ever to do so. That is the Three-wing at its purest: the SX4&#39;s fire is not merely felt, but translated into a success no one can ignore.</p>
+          <p class="vb-intro">In 2020, Eilish won all four major Grammy categories &ndash; Album, Song, and Record of the Year plus Best New Artist &ndash; in the same year, at eighteen, the youngest artist ever to do so. This shows the Three-wing at its purest: the SX4&#39;s fire is not merely felt, but translated into a success no one can ignore.</p>
         </blockquote>
 
         <h2 class="vb-section">4. What Was I Made For?: The Wound Becomes an Oscar</h2>
@@ -238,7 +238,7 @@ export function carlTanzlerPortraitPage() {
         <h2 class="vb-section">2. The self-preservation Five: Withdrawal as a way of life</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">According to Naranjo, the self-preservation Five (SP5) is the subtype he called "Refuge" – a retreat into a sealed-off, self-controlled space the outside world cannot reach. Tanzler's life shows this pattern in extreme form: he lived largely isolated, constructed an identity out of invented titles and achievements, and withdrew increasingly into an inner world he alone controlled.</p>
-          <p class="vb-intro">When Elena died of her illness on October 25, 1931, Tanzler could not accept the loss as a loss. He financed her mausoleum, visited it daily – and in 1933 secretly removed her body. For seven years he kept it in his home, spoke to it, danced with it, shared his bed with it. This is the SP5 in its darkest possible expression: a withdrawal so complete that even the death of the beloved did not reopen the boundary to the outside world, but was instead translated into a private, sealed-off reality.</p>
+          <p class="vb-intro">When Elena died of her illness on October 25, 1931, Tanzler could not accept the loss as a loss. He financed her mausoleum, visited it daily – and in 1933 secretly removed her body. For seven years he kept it in his home, spoke to it, danced with it, shared his bed with it. Here you can see the SP5 in its darkest possible expression: a withdrawal so complete that even the death of the beloved did not reopen the boundary to the outside world, but was instead translated into a private, sealed-off reality.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Six wing: Loyalty beyond death</h2>
@@ -315,7 +315,7 @@ export function craigFosterPortraitPage() {
         <h2 class="vb-section">3. The One-Wing: From Personal Healing to Mission</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">An SX9 with a more muted One-wing would likely have kept this merging experience to herself, as purely private healing. In Foster, instead, a quiet, unshakeable seriousness emerged that translated his experience into responsibility: in 2012 he co-founded the <em>Sea Change Project</em>, a conservation organization dedicated to the long-term protection of the Great African Seaforest, the unique kelp-forest ecosystem off South Africa's coast. His years of respectful training in the ancient tracking techniques of the San, the indigenous people of the Kalahari, shaped his entire method: nature observation as discipline, not coincidence.</p>
-          <p class="vb-intro">The daily diving ritual, sustained for over a decade &ndash; in any weather, without equipment, without exception &ndash; is the One-wing in its purest form: not a casual habit, but an almost monastic vow to himself, which he described in his book "Amphibious Soul" (2021).</p>
+          <p class="vb-intro">The daily diving ritual, sustained for over a decade &ndash; in any weather, without equipment, without exception &ndash; shows the One-wing in its purest form: not a casual habit, but an almost monastic vow to himself, which he described in his book "Amphibious Soul" (2021).</p>
         </blockquote>
 
         <h2 class="vb-section">4. Two Sloths, Two Continents: Foster and Jane Goodall</h2>
@@ -326,7 +326,7 @@ export function craigFosterPortraitPage() {
 
         <h2 class="vb-section">5. From Filmmaker to Conservationist</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">"My Octopus Teacher" won the 2021 Academy Award for Best Documentary Feature &ndash; a success Foster himself commented on with striking distance. After a setback that, in his own words, "crushed" him and made him "deeply humble," he stated that awards and public recognition "really didn't matter at all" compared to the experience itself. That is the Nine in the light: no interest in status for its own sake, but in a cause larger than oneself.</p>
+          <p class="vb-intro">"My Octopus Teacher" won the 2021 Academy Award for Best Documentary Feature &ndash; a success Foster himself commented on with striking distance. After a setback that, in his own words, "crushed" him and made him "deeply humble," he stated that awards and public recognition "really didn't matter at all" compared to the experience itself. Here we see the Nine in the light: no interest in status for its own sake, but in a cause larger than oneself.</p>
           <p class="vb-intro">His central, often-repeated message: every investment, every asset, every plan for the future is worthless "if biodiversity collapses." A personal healing story thus became a public mission &ndash; carried not by loud activism, but by the One-wing's quiet conviction that one does what is right, even when no one is watching.</p>
         </blockquote>
 
@@ -464,7 +464,7 @@ export function elvisPresleyPortraitPage() {
         <h2 class="vb-section">6. The Gift: A Voice That Connects</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Elvis Presley gave the world was more than music. He broke down barriers between genres, between Black and white musical traditions, between what was considered proper and what people actually felt. His gospel roots, his love of rhythm and blues, his ballads &ndash; all of it carried the same SX2w3 message: I am showing you my full intensity, unfiltered, and I hope you love me for it.</p>
-          <p class="vb-intro">The camel knows the desert, and it knows the exhaustion that comes from giving without limit. Yet what remains is the memory of a man who made millions of strangers feel completely seen in a single song or a single glance. That is Elvis Presley. That is the SX2w3, celebrated and vulnerable at once.</p>
+          <p class="vb-intro">The camel knows the desert, and it knows the exhaustion that comes from giving without limit. Yet what remains is the memory of a man who made millions of strangers feel completely seen in a single song or a single glance. That is Elvis Presley. This shows the SX2w3, celebrated and vulnerable at once.</p>
         </blockquote>
 
         <p class="vb-intro">The decade-long escalating drug dependency and his death in 1977 are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-elvis-presley">Illness Portrait of Elvis</a>.</p>
@@ -585,7 +585,7 @@ export function grahameWebbPortraitPage() {
         <h2 class="vb-section">3. The Seven-Wing: An Empire Instead of a Single Territory</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">An SX8 with a more muted Seven-wing would likely have concentrated on a single domain &ndash; crocodile research, and nothing else. In Webb, a pronounced appetite for expansion shows instead: before specializing in crocodiles, he researched kangaroos, sharks, sea turtles, monkeys, tuna, and whales. And even after specializing, it did not stop at one thing: in 1994 he opened <em>Crocodylus Park</em> in Darwin &ndash; simultaneously a research station, a crocodile farm, and a tourist attraction. He also founded Essington School in Darwin and, in 1980, wrote the novel "Numunwari" about a giant rogue crocodile, later adapted into a film.</p>
-          <p class="vb-intro">This is the Seven-wing in action: rather than narrowing to a single territory, Webb built an entire portfolio of parallel ventures &ndash; science, commerce, tourism, education, even literature. The Eight supplies the assertiveness and the uncompromising defense of territory; the Seven supplies the breadth and the appetite for always opening new fronts.</p>
+          <p class="vb-intro">Here you can see the Seven-wing in action: rather than narrowing to a single territory, Webb built an entire portfolio of parallel ventures &ndash; science, commerce, tourism, education, even literature. The Eight supplies the assertiveness and the uncompromising defense of territory; the Seven supplies the breadth and the appetite for always opening new fronts.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Leadership by Authority, Not by Consensus</h2>
@@ -653,14 +653,14 @@ export function herbertKicklPortraitPage() {
         <h2 class="vb-section">3. The Five-wing: Analysis Instead of Slogans</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Five-wing (w5)</strong> brings the Self-Preservation Six a characteristic intellectual depth: the ability to analyse connections, to deconstruct narratives, to build arguments step by step. The SP6w5 is not satisfied with gut feeling &ndash; she wants to know why something is wrong. She wants to be able to demonstrate it.</p>
-          <p class="vb-intro">In Kickl this shows itself in his role as political strategist and orator. He is not a man of spontaneous emotion &ndash; he is a man of prepared argumentation, of precise analysis, of the ability to translate complex political connections into clear language. That is the Five-wing: knowledge as armour, analysis as a means of security. <em>If I understand what is happening, I am less at the mercy of it.</em></p>
+          <p class="vb-intro">In Kickl this shows itself in his role as political strategist and orator. He is not a man of spontaneous emotion &ndash; he is a man of prepared argumentation, of precise analysis, of the ability to translate complex political connections into clear language. Here we see the Five-wing: knowledge as armour, analysis as a means of security. <em>If I understand what is happening, I am less at the mercy of it.</em></p>
           <p class="vb-intro">This combination &ndash; the emotional connection of the SP6 with the analytical sharpness of the Five-wing &ndash; makes him an unusually effective political communicator: he speaks to the heart and simultaneously delivers the arguments for it.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Corona Crisis: Actively Overcoming Fear</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The corona crisis was a particular test for Type 6 &ndash; for nowhere was fear deployed as systematically as in that period. For a Six who perceives threats early and is oriented toward security, this was a double challenge: the fear of the virus on one side &ndash; and the fear of a politics that uses fear as an instrument of control on the other.</p>
-          <p class="vb-intro">Herbert Kickl chose the second path. He publicly opposed lockdowns, compulsory vaccination and the restriction of fundamental rights &ndash; at a point when this was associated with considerable headwinds politically and socially. This is no small step for a Six: naming the institutions that are normally supposed to guarantee security as a threat requires working through one's own fear and speaking anyway. That is the Six on its path of courage: not the absence of fear &ndash; but acting despite it.</p>
+          <p class="vb-intro">Herbert Kickl chose the second path. He publicly opposed lockdowns, compulsory vaccination and the restriction of fundamental rights &ndash; at a point when this was associated with considerable headwinds politically and socially. This is no small step for a Six: naming the institutions that are normally supposed to guarantee security as a threat requires working through one's own fear and speaking anyway. This shows the Six on its path of courage: not the absence of fear &ndash; but acting despite it.</p>
           <p class="vb-intro">In doing so he gave a voice to many people who no longer recognised themselves in official politics &ndash; people who felt the same dissonance, but had no language for it. That is the deepest service an SP6w5 can render: naming the collective perception that others cannot yet put into words.</p>
         </blockquote>
 
@@ -867,7 +867,7 @@ export function julianAssangePortraitPage() {
         <h2 class="vb-section">6. The Buffalo Who Put the Truth Above Himself</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The healing path of the Nine leads from inertia to genuine, conscious presence &ndash; from self-dissolution into a cause to an identity that can also stand outside that cause. Assange's years of isolation, physical and psychological, show the dark side of this dissolving into a mission: a self that fully subordinates itself to an idea can break when that idea becomes a prison.</p>
-          <p class="vb-intro">In 2024, Assange returned to Australia, after more than a decade in embassy asylum and detention. That is the SO9w1 in its full ambivalence: the buffalo who committed himself without reservation to an idea larger than himself &ndash; and who ultimately paid a price for it that almost no one would pay willingly.</p>
+          <p class="vb-intro">In 2024, Assange returned to Australia, after more than a decade in embassy asylum and detention. Here you can see the SO9w1 in its full ambivalence: the buffalo who committed himself without reservation to an idea larger than himself &ndash; and who ultimately paid a price for it that almost no one would pay willingly.</p>
         </blockquote>
 
       </div>
@@ -1060,7 +1060,7 @@ export function malaikaMihamboPortraitPage() {
         <h2 class="vb-section">4. Tokyo 2021: The Jump Despite Fear</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">At the Tokyo 2021 Olympics, Mihambo stood in second place in the final before her last attempt &ndash; behind the leader, with only one jump left to turn things around. For a Six who perceives danger and risk intensely, that is precisely the moment that costs the most: not the jump itself, but the seconds beforehand, in which every possibility of failure has already been thought through.</p>
-          <p class="vb-intro">She jumped 7.00 meters &ndash; and won Olympic gold, in what was probably the greatest pressure situation of her career. Afterward, she spoke publicly about how she had mentally prepared for exactly this moment: through meditation, through consciously allowing nervousness rather than suppressing it, through the conviction that fear is not an enemy but a signal that can be understood and used. That is the Six on its path of courage: not the absence of fear, but acting with it along for the ride.</p>
+          <p class="vb-intro">She jumped 7.00 meters &ndash; and won Olympic gold, in what was probably the greatest pressure situation of her career. Afterward, she spoke publicly about how she had mentally prepared for exactly this moment: through meditation, through consciously allowing nervousness rather than suppressing it, through the conviction that fear is not an enemy but a signal that can be understood and used. Here we see the Six on its path of courage: not the absence of fear, but acting with it along for the ride.</p>
           <p class="vb-intro">She remained at world-class level afterward as well &ndash; world champion in 2019 in Doha and again in 2022 in Eugene &ndash; and spoke repeatedly and openly about setbacks, injuries, and self-doubt. This openness is rare in elite sport. For an SP6w5, it follows naturally: those who know their own fear this precisely can also name it without shame.</p>
         </blockquote>
 
@@ -1192,7 +1192,7 @@ export function moritzBleibtreuPortraitPage() {
         <h2 class="vb-section">3. The Eight-Wing: Strength That Carries</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Eight-wing</strong> gives the self-preservation Seven something not every Seven has access to: assertiveness, and the ability to immerse fully in the darkest, most confrontational roles without retreating from one's own intensity.</p>
-          <p class="vb-intro">In 2008, Bleibtreu portrayed RAF terrorist Andreas Baader in <em>The Baader Meinhof Complex</em> &ndash; a role of unflinching harshness that earned international acclaim and a nomination for the European Film Award. It is a portrayal with no distancing whatsoever: no commentary, no softening, full confrontation with a deeply disturbing historical figure. This is the Eight-wing: the willingness to expose oneself to the heaviest energy of a subject, rather than avoid it.</p>
+          <p class="vb-intro">In 2008, Bleibtreu portrayed RAF terrorist Andreas Baader in <em>The Baader Meinhof Complex</em> &ndash; a role of unflinching harshness that earned international acclaim and a nomination for the European Film Award. It is a portrayal with no distancing whatsoever: no commentary, no softening, full confrontation with a deeply disturbing historical figure. This shows the Eight-wing: the willingness to expose oneself to the heaviest energy of a subject, rather than avoid it.</p>
           <p class="vb-intro">Notably, Andreas Baader himself was also a self-preservation Seven with a strong Eight-wing (SP7w8) &ndash; status symbols and fast cars as an expression of his drive for freedom, funding himself through robbery rather than any orderly system, a life lived consistently by his own rules, regardless of consequences. The film was directed by Uli Edel, with the screenplay and production overseen by Bernd Eichinger, based on the book by Stefan Aust. Whether the casting deliberately aimed at this typological match is not recorded &ndash; from an Enneagram perspective, it was a fortunate one regardless: an SP7w8 playing an SP7w8, and it is likely this very overlap that contributed to the credibility with which Bleibtreu carried the role into its most uncomfortable facets.</p>
         </blockquote>
 
@@ -1481,7 +1481,7 @@ export function sucharitBhakdiPortraitPage() {
         <h2 class="vb-section">6. The Golden Retriever: Loyalty as the Highest Form of Love</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Golden Retriever stands for unconditional affection, loyalty, dependability—and a quality that has grown exceptionally rare in our time: fidelity to truth, even when truth comes at great cost. It seeks no accolades; it seeks trust. It needs the sense of being truly needed, truly useful—not as a celebrity, but as a protector.</p>
-          <p class="vb-intro">Sucharit Bhakdi is this Golden Retriever. His entire life's work—forty years of research, countless publications, and the courage to publicly dissent when almost everyone fell silent—can be summarized in a single sentence: "I am warning you because I love you." That is the SO2w1. That is the Golden Retriever that does not stop barking because it knows the intruder is still at the door.</p>
+          <p class="vb-intro">Sucharit Bhakdi is this Golden Retriever. His entire life's work—forty years of research, countless publications, and the courage to publicly dissent when almost everyone fell silent—can be summarized in a single sentence: "I am warning you because I love you." Here you can see the SO2w1. That is the Golden Retriever that does not stop barking because it knows the intruder is still at the door.</p>
         </blockquote>
 
       </div>
@@ -2873,7 +2873,7 @@ export function wayneDyerPortraitPage() {
 
         <h2 class="vb-section">4. The Eight-wing: self-responsibility and a clear statement</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> can be linked in Dyer to a strongly pronounced directness that noticeably colours the otherwise gentle Nine: his early books deal with motivation, self-actualisation and assertiveness, and his message is unmistakable: whoever is unhappy should take responsibility for their own thinking and not rely on others. That is the Eight's directness in the garb of a friendly teacher.</p>
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> can be linked in Dyer to a strongly pronounced directness that noticeably colours the otherwise gentle Nine: his early books deal with motivation, self-actualisation and assertiveness, and his message is unmistakable: whoever is unhappy should take responsibility for their own thinking and not rely on others. Here we see the Eight's directness in the garb of a friendly teacher.</p>
           <p class="vb-intro">He said, for example, ›Don't be Christian, be Christ-like‹ and thereby placed lived attitude above labels. The mix of warmth and plain speaking, of community and independence, shows the Nine with an Eight-wing in its most effective form.</p>
         </blockquote>
 

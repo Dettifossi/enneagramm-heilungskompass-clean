@@ -250,7 +250,7 @@ export function billHaastPortraitPage() {
         <h2 class="vb-section">3. The Nine-Wing: Quiet Endurance Instead of Public Display</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">An SX1 with a more pronounced Two-wing would likely have lived out its mission as a shared, relationship-carried project &ndash; as Thea Litschka-Koen did with her husband Clifton. In Haast, an entirely different pattern shows instead: for more than thirty years, every Sunday, he released a king cobra alone on his lawn to "fence" with it &ndash; a solitary, almost meditative ritual, not a communal act.</p>
-          <p class="vb-intro">His reaction to fame is equally telling of the Nine-wing: Haast rejected the distinction of being known for surviving the most snakebites &ndash; he did not consider being bitten a goal worth achieving or admiring. Colleagues described him as devoted but reserved and inward: "I know of no one who understood the behavior of snakes better than he did," said Miami zoologist Ron Magill of him. This exact quiet, unhurried persistence &ndash; without any need for recognition, without public performance &ndash; is the Nine-wing in its characteristic form.</p>
+          <p class="vb-intro">His reaction to fame is equally telling of the Nine-wing: Haast rejected the distinction of being known for surviving the most snakebites &ndash; he did not consider being bitten a goal worth achieving or admiring. Colleagues described him as devoted but reserved and inward: "I know of no one who understood the behavior of snakes better than he did," said Miami zoologist Ron Magill of him. This exact quiet, unhurried persistence &ndash; without any need for recognition, without public performance &ndash; shows the Nine-wing in its characteristic form.</p>
         </blockquote>
 
         <h2 class="vb-section">4. One Hundred Seventy-Two Bites</h2>
@@ -306,7 +306,7 @@ export function carlRogersPortraitPage() {
         <h2 class="vb-section">2. The Sexual Nine: Merging Without Judgment</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Sexual Nine (SX9)</strong> is what Naranjo called <em>Fusion</em>: peace through complete immersion in another person or experience, without inserting one's own position in between. The SX9 does not lose itself in the other out of weakness, but because it is precisely there that it finds its deepest form of connection &ndash; a state in which judgment, separation, and evaluation no longer exist.</p>
-          <p class="vb-intro">Rogers originally began his career at Union Theological Seminary, but switched to psychology after realizing, through clinical work with children, that people carry their own answers within themselves &ndash; if only given the space for them. This core conviction, that a person unfolds best when one fully engages with them rather than instructing them, is the SX9 in its purest professional expression.</p>
+          <p class="vb-intro">Rogers originally began his career at Union Theological Seminary, but switched to psychology after realizing, through clinical work with children, that people carry their own answers within themselves &ndash; if only given the space for them. This core conviction, that a person unfolds best when one fully engages with them rather than instructing them, shows the SX9 in its purest professional expression.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The One-Wing: Principle Instead of Arbitrariness</h2>
@@ -445,7 +445,7 @@ export function dieterNuhrPortraitPage() {
         <h2 class="vb-section">3. The Eight Wing: The Beaver Who Bites Back</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Eight wing gives the social Seven something that an SO7 with a weaker Eight wing does not always show: readiness for confrontation, assertiveness, and the ability to clearly name and defend boundaries. Where an SO7 with a more muted Eight wing yields and mediates, a strongly developed Eight wing says: This far and no further.</p>
-          <p class="vb-intro">In recent years, Nuhr has repeatedly engaged in public disputes that are unusually direct for a comedian: with climate activists, with media critics, with Deutschlandfunk, which deleted a tweet by him after public pressure and later apologized for it. He does not retreat when it gets uncomfortable; he stands firm and strikes back. That is the Eight wing: strength not as a threat, but as an attitude.</p>
+          <p class="vb-intro">In recent years, Nuhr has repeatedly engaged in public disputes that are unusually direct for a comedian: with climate activists, with media critics, with Deutschlandfunk, which deleted a tweet by him after public pressure and later apologized for it. He does not retreat when it gets uncomfortable; he stands firm and strikes back. Here we see the Eight wing: strength not as a threat, but as an attitude.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Work: From Stage Cabaret to Das Erste German Television</h2>
@@ -462,7 +462,7 @@ export function dieterNuhrPortraitPage() {
 
         <h2 class="vb-section">6. The Beaver Who Cannot Stay Silent</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Dieter Nuhr has been in the business for four decades and shows no inclination to get quieter. On the contrary: With age, he seems sharper, more precise, less intent on consensus. That is the SO7w8: The beaver who does not build for himself, but for what he considers right. Whether one agrees with him or not he does not stay silent. The dam stands. And it is guarded.</p>
+          <p class="vb-intro">Dieter Nuhr has been in the business for four decades and shows no inclination to get quieter. On the contrary: With age, he seems sharper, more precise, less intent on consensus. This shows the SO7w8: The beaver who does not build for himself, but for what he considers right. Whether one agrees with him or not he does not stay silent. The dam stands. And it is guarded.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
@@ -727,7 +727,7 @@ export function herbertGroenomeyerPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Seven-wing (w7)</strong> brings the Social Six a characteristic lightness: the drive forward, the joy in variety, the ability to draw energy even from pain. The SO6w7 grieves &ndash; but she does not grieve in silence. She transforms.</p>
           <p class="vb-intro">This shows itself in Grönemeyer's extraordinary range: musician, producer, composer, lyricist, actor &ndash; he changes forms of expression because every new form excites him. The Seven-wing also explains his unmistakable sound: that mixture of depth and energy, of pain and departure, of the feeling that life is hard &ndash; and yet goes on. Unconditionally goes on.</p>
-          <p class="vb-intro">In 1998 Grönemeyer lost his wife Marion to cancer and his brother Wilhelm within a few days. It was one of the most devastating losses a person can bear. He withdrew, lived in London for years. And then &ndash; he came back. <em>Mensch</em>, the 2002 album, became the best-selling German studio album of all time. From the deepest loss came the greatest sign of life. That is the Seven-wing: <em>I was down. And I am back.</em></p>
+          <p class="vb-intro">In 1998 Grönemeyer lost his wife Marion to cancer and his brother Wilhelm within a few days. It was one of the most devastating losses a person can bear. He withdrew, lived in London for years. And then &ndash; he came back. <em>Mensch</em>, the 2002 album, became the best-selling German studio album of all time. From the deepest loss came the greatest sign of life. Here you can see the Seven-wing: <em>I was down. And I am back.</em></p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow</h2>
@@ -739,7 +739,7 @@ export function herbertGroenomeyerPortraitPage() {
         <h2 class="vb-section">5. The Healing Path: Stay and Sing</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The healing path of the Six leads from the question <em>Am I safe enough to be here?</em> to the recognition <em>I am here &ndash; and that is enough.</em> For the SO6w7 this means not only running forward, but also pausing, feeling, grieving &ndash; and then singing again from a genuine place, not out of duty or the drive to move alone.</p>
-          <p class="vb-intro">Herbert Grönemeyer has walked this path. The meerkat that stands up after every loss &ndash; not because it has no choice, but because the community is waiting and because singing itself heals. That is the SO6w7 on its healing path: when duty and joy coincide, what arises is what makes people stand in stadiums.</p>
+          <p class="vb-intro">Herbert Grönemeyer has walked this path. The meerkat that stands up after every loss &ndash; not because it has no choice, but because the community is waiting and because singing itself heals. Here we see the SO6w7 on its healing path: when duty and joy coincide, what arises is what makes people stand in stadiums.</p>
         </blockquote>
 
       </div>
@@ -2430,7 +2430,7 @@ export function markusSoederPortraitPage() {
         <h2 class="vb-section">6. The Legacy: The Crocodile Who Kept Governing After the Loss</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Markus Söder represents a rare combination: a power career consistently pursued for decades, intense media self-presentation, and the ability, after a publicly lost power struggle, not to remain locked in ongoing conflict but to return to orderly governing.</p>
-          <p class="vb-intro">From a mason's son in Nuremberg who joined the Young Union at 16, to Bavarian State Premier and CSU federal chairman who kept governing even after losing the chancellor candidacy: this is the sexual Eight with a Nine wing at its most politically effective – intensity that doesn't dissolve after a lost battle, but redirects toward the next manageable stage.</p>
+          <p class="vb-intro">From a mason's son in Nuremberg who joined the Young Union at 16, to Bavarian State Premier and CSU federal chairman who kept governing even after losing the chancellor candidacy: this shows the sexual Eight with a Nine wing at its most politically effective – intensity that doesn't dissolve after a lost battle, but redirects toward the next manageable stage.</p>
         </blockquote>
 
       </div>

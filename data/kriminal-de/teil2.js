@@ -975,7 +975,7 @@ export function davidBerkowitzPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\u00e4t</h3>
         <p class="vb-intro"><strong>a) Unscheinbar und zur\u00fcckgezogen:</strong>
         <strong>Berkowitz</strong> fiel in seiner Umgebung nicht auf. Nachbarn beschrieben
-        ihn als ruhig, unauff\u00e4llig, fast unsichtbar. Das ist die selbsterhaltende
+        ihn als ruhig, unauff\u00e4llig, fast unsichtbar. Hier zeigt sich die selbsterhaltende
         Vier: Sie tr\u00e4gt ihr inneres Leben nach innen, nicht nach au\u00dfen. Was
         brennt, bleibt verborgen.</p>
         <p class="vb-intro"><strong>b) Suchend und sehnend:</strong>
@@ -1042,7 +1042,7 @@ export function davidBerkowitzPortraitPage() {
         eigene dunkle Liturgie.</p>
         <p class="vb-intro"><strong>c) Schreiben als Selbstausdruck:</strong>
         <strong>Berkowitz</strong> hinterlie\u00df Briefe an die Polizei und die Presse \u2013
-        literarisch, theatralisch, selbstmitleidig. Das ist der SE4w3:
+        literarisch, theatralisch, selbstmitleidig. Darin zeigt sich der SE4w3:
         die innere Welt muss nach au\u00dfen, sie muss eine Form finden.
         Der Dreierfl\u00fcgel drang auf Sichtbarkeit.</p>
       </div>
@@ -1428,7 +1428,7 @@ export function fritzHaarmannPortraitPage() {
         Er bot Essen an, eine Unterkunft,
         eine vertraute Hand in der Orientierungslosigkeit
         der Nachkriegszeit.
-        Das ist der Neunerfl\u00fcgel der SX1:
+        Hier wirkt der Neunerfl\u00fcgel der SX1:
         Nach au\u00dfen w\u00e4rmt er, zieht er an,
         gibt er Halt. Die Bedrohung bleibt
         vollst\u00e4ndig verborgen.</p>
@@ -1501,7 +1501,7 @@ export function fritzHaarmannPortraitPage() {
         Es ist kein Abstandsverbrechen:
         Es setzt physische N\u00e4he, k\u00f6rperlichen Kontakt,
         Intimit\u00e4t im Wortsinne voraus.
-        Das ist das SX1-Muster an seiner dunkelsten Grenze:
+        Hier zeigt sich das SX1-Muster an seiner dunkelsten Grenze:
         Der Impuls zur vollst\u00e4ndigen Vereinnahmung
         des Anderen, zur l\u00fcckenlosen Kontrolle
         \u00fcber Leben und Tod, vollzieht sich
@@ -1551,7 +1551,7 @@ export function fritzHaarmannPortraitPage() {
         Der Werwolf ist ein Wesen,
         das tags\u00fcber ein normaler Mensch ist
         und nachts etwas v\u00f6llig anderes.
-        Das ist das Neunerfl\u00fcgel-Muster
+        Darin zeigt sich das Neunerfl\u00fcgel-Muster
         in seiner bildlichsten Verdichtung:
         zwei vollst\u00e4ndig getrennte Existenzen
         in einem K\u00f6rper, ohne sichtbare Naht.</p>
@@ -1630,7 +1630,7 @@ export function fritzHaarmannPortraitPage() {
         n\u00e4chste Form der Gewalt:
         kein Abstand, kein Werkzeug,
         nur K\u00f6rper und K\u00f6rper.
-        Das ist die SX1-Energie in ihrer
+        Hier wirkt die SX1-Energie in ihrer
         radikalsten Verk\u00f6rperung.</p>
         <p class="vb-intro"><strong>c) Schnell, pr\u00e4zise, ohne Reue:</strong>
         Die Schwarze Mamba schl\u00e4gt nicht z\u00f6gernd zu.
@@ -1879,13 +1879,13 @@ export function henriLandruPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Viererfl\xfcgel: Die morbide Ironie</h3>
         <p class="vb-intro">Eine SE3 mit schw\xe4cher ausgepr\xe4gtem Viererfl\xfcgel h\xe4tte ihre Taten vermutlich m\xf6glichst emotionslos und farblos durchgezogen. Bei Landru trat stattdessen ein d\xfcsterer, fast k\xfcnstlerischer Humor hervor, der ihn bis zum Schluss begleitete. Vor Gericht, 1921, blieb er zynisch und geistreich zugleich: Auf die Anklage antwortete er h\xf6hnisch mit der Forderung &bdquo;Zeigen Sie mir die Leichen!&ldquo; &ndash; wohl wissend, dass von seinen Opfern nur Asche \xfcbrig war. Sein einziges indirektes Gest\xe4ndnis war eine selbst angefertigte Zeichnung seines K\xfcchenofens.</p>
-        <p class="vb-intro">Diese morbide, selbstbewusste Ironie ist der Viererfl\xfcgel in seiner dunkelsten Auspr\xe4gung: eine Tragik, die zur bewussten Pose wird, ein Gef\xfchl der eigenen Einzigartigkeit, das selbst im Angesicht der Guillotine nicht verschwindet. Das Gerichtssaal-Publikum war fasziniert von diesem kleinen, kahlen Mann, der mit seinem langen schwarzen Bart und seiner unheimlichen Ruhe wie eine Figur aus einer d\xfcsteren M\xe4rchenerz\xe4hlung wirkte.</p>
+        <p class="vb-intro">Diese morbide, selbstbewusste Ironie zeigt der Viererfl\xfcgel in seiner dunkelsten Auspr\xe4gung: eine Tragik, die zur bewussten Pose wird, ein Gef\xfchl der eigenen Einzigartigkeit, das selbst im Angesicht der Guillotine nicht verschwindet. Das Gerichtssaal-Publikum war fasziniert von diesem kleinen, kahlen Mann, der mit seinem langen schwarzen Bart und seiner unheimlichen Ruhe wie eine Figur aus einer d\xfcsteren M\xe4rchenerz\xe4hlung wirkte.</p>
       </div>
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Kontaktanzeigen als System</h3>
         <p class="vb-intro">Landru nutzte falsche Identit\xe4ten und die &bdquo;Herzensangelegenheiten&ldquo;-Rubriken Pariser Zeitungen, um gezielt einsame, meist verwitwete oder alleinstehende Frauen mit eigenem Verm\xf6gen anzusprechen &ndash; ein System, das er \xfcber Jahre systematisch verfeinerte. Der Krieg lieferte ihm dabei den perfekten Rahmen: W\xe4hrend Millionen M\xe4nner an der Front starben, blieben zahllose Frauen allein zur\xfcck, verwundbar und offen f\xfcr die Aussicht auf eine neue, sichere Verbindung.</p>
-        <p class="vb-intro">Das ist die SE3 in ihrer kalkuliertesten Form: Landru identifizierte eine strukturelle L\xfccke &ndash; einen Markt aus verwundbaren, verm\xf6genden Frauen &ndash; und baute ein wiederholbares Verfahren, das er \xfcber f\xfcnf Jahre routiniert anwendete, mit derselben systematischen Sorgfalt, mit der er auch seine Ausgaben notierte.</p>
+        <p class="vb-intro">Hier zeigt sich die SE3 in ihrer kalkuliertesten Form: Landru identifizierte eine strukturelle L\xfccke &ndash; einen Markt aus verwundbaren, verm\xf6genden Frauen &ndash; und baute ein wiederholbares Verfahren, das er \xfcber f\xfcnf Jahre routiniert anwendete, mit derselben systematischen Sorgfalt, mit der er auch seine Ausgaben notierte.</p>
       </div>
 
       <div class="vb-section">
@@ -1896,7 +1896,7 @@ export function henriLandruPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro"><strong>a) Buchf\xfchrung statt B\xfchne:</strong> Anders als die soziale Drei, die \xf6ffentliches Prestige sucht, agierte Landru maximal privat &ndash; im eigenen Haus, im eigenen Ofen, in einem eigenen Notizbuch. Das ist die SE3 in ihrer reinsten Form: Sicherheit wird im Verborgenen aufgebaut, nicht auf einer Bühne.</p>
+        <p class="vb-intro"><strong>a) Buchf\xfchrung statt B\xfchne:</strong> Anders als die soziale Drei, die \xf6ffentliches Prestige sucht, agierte Landru maximal privat &ndash; im eigenen Haus, im eigenen Ofen, in einem eigenen Notizbuch. Darin zeigt sich die SE3 in ihrer reinsten Form: Sicherheit wird im Verborgenen aufgebaut, nicht auf einer Bühne.</p>
         <p class="vb-intro"><strong>b) Der Viererfl\xfcgel als d\xfcstere Signatur:</strong> Eine SE3 mit schw\xe4cher ausgepr\xe4gtem Viererfl\xfcgel h\xe4tte sich vermutlich unauff\xe4lliger, farbloser verhalten. Landrus zynischer Witz vor Gericht, sein Gef\xfchl f\xfcr die eigene morbide Einzigartigkeit, zeigen einen stark ausgepr\xe4gten Viererfl\xfcgel, der selbst dem eigenen Untergang eine unverwechselbare Note verlieh.</p>
         <p class="vb-intro"><strong>c) Ein System statt eines Einzelfalls:</strong> Wie bei Belle Gunness, einer weiteren SE3w4 mit fast identischem Muster, zeigt sich bei Landru dieselbe Struktur: Heiratsanzeigen als Werkzeug, ein wiederholbares Verfahren, kein Einzelimpuls, sondern eine methodische, \xfcber Jahre verfeinerte Routine.</p>
       </div>
@@ -2050,7 +2050,7 @@ export function jeffreyEpsteinPortraitPage() {
         <p class="vb-intro"><strong>c) Fassadenloser Kern:</strong>
         Wer hinter die Fassade sah, erkannte eine kalte,
         besitzorientierte Struktur ohne Empathie f\xfcr die Opfer.
-        Das ist die Acht ohne Heilung: Kraft ohne Mitgef\xfchl,
+        Hier wirkt die Acht ohne Heilung: Kraft ohne Mitgef\xfchl,
         Intensit\xe4t ohne R\xfccksicht.</p>
       </div>
 
@@ -2228,7 +2228,7 @@ export function johnGottiPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Biografie: vom Stra\xdfenjungen zum Paten</h3>
         <p class="vb-intro">John Joseph Gotti Jr. wurde am 27. Oktober 1940 in der South Bronx, New York, als zehntes von dreizehn Kindern einer \xe4rmlichen s\xfcditalienischen Einwandererfamilie geboren. Sein Vater arbeitete auf dem Bau, die Familie zog mehrfach um und landete schlie\xdflich in East New York, Brooklyn &ndash; einem Viertel, in dem die Gambino-Familie pr\xe4sent war und Jugendliche fr\xfch ihren Einfluss sp\xfcrten.</p>
         <p class="vb-intro">Mit zw\xf6lf Jahren geh\xf6rte Gotti zu einer Stra\xdfengang. Mit sechzehn brach er die Schule ab. Er stahl, \xfcberfiel Lagerhallen, besorgte sich Respekt auf die einzige Art, die in seinem Milieu z\xe4hlte: durch K\xf6rper und Mut. Dabei war er kein rauer Schreier &ndash; er war charmant, gutaussehend, anf\xfchrend. Die anderen folgten ihm, weil er ausstrahlte, was sie sich w\xfcnschten: keine Angst zu haben.</p>
-        <p class="vb-intro">Er heiratete 1962 Victoria DiGiorgio. Sie blieben bis zu seinem Tod zusammen. In Howard Beach, Queens, wo er sp\xe4ter lebte, war er ein gesch\u00e4tzter Nachbar: Er organisierte das allj\u00e4hrliche Feuerwerk, verteilte Truthh\u00e4hne zu Thanksgiving, kannte jeden beim Namen. Das Viertel liebte ihn. Das ist die soziale Acht: Sie besch\u00fctzt ihr Rudel &ndash; und das Rudel erwidert es mit Loyalit\u00e4t.</p>
+        <p class="vb-intro">Er heiratete 1962 Victoria DiGiorgio. Sie blieben bis zu seinem Tod zusammen. In Howard Beach, Queens, wo er sp\xe4ter lebte, war er ein gesch\u00e4tzter Nachbar: Er organisierte das allj\u00e4hrliche Feuerwerk, verteilte Truthh\u00e4hne zu Thanksgiving, kannte jeden beim Namen. Das Viertel liebte ihn. Hier zeigt sich die soziale Acht: Sie besch\u00fctzt ihr Rudel &ndash; und das Rudel erwidert es mit Loyalit\u00e4t.</p>
       </div>
 
       <div class="vb-section">
@@ -2351,7 +2351,7 @@ export function johnWayneGacyPortraitPage() {
         <p class="vb-intro"><strong>a) Warm und einnehmend:</strong>
         Zeitgenossen beschrieben Gacy als gesellig, charmant und zuvorkommend.
         Er nahm sich Zeit f\xfcr Menschen, kannte Namen, fragte nach Familien.
-        Das ist die Zwei auf ihrer gesellschaftlichen B\xfchne:
+        Darin zeigt sich die Zwei auf ihrer gesellschaftlichen B\xfchne:
         aufrichtige W\xe4rme als erlernte, perfektionierte Praxis.</p>
         <p class="vb-intro"><strong>b) Ordnungsliebend und selbstzufrieden:</strong>
         <strong>Gacy</strong> pr\xe4sentierte sich als erfolgreichen, geordneten Mann \u2013
@@ -2406,7 +2406,7 @@ export function johnWayneGacyPortraitPage() {
         <strong>Gacy</strong> sah sich als bedeutenden Menschen, dem Unrecht geschah.
         Sein letzter Satz vor der Hinrichtung (1994)
         war eine Klage, kein Gest\xe4ndnis.
-        Das ist das Zweier-Privileg in seiner extremsten Form:
+        Hier wirkt das Zweier-Privileg in seiner extremsten Form:
         das Gef\xfchl, durch das eigene Geben unantastbar zu sein \u2013
         selbst angesichts von 33 Morden.</p>
       </div>
@@ -2440,7 +2440,7 @@ export function johnWayneGacyPortraitPage() {
         <p class="vb-intro"><strong>a) Einladend und kontrolliert:</strong>
         Gacys Energie war einladend \u2013 er zog Menschen an,
         schuf Atmosph\xe4re, erzeugte das Gef\xfchl von Zugeh\xf6rigkeit.
-        Das ist die Zwei im Dreierfl\xfcgel als soziale Maschine:
+        Hier zeigt sich die Zwei im Dreierfl\xfcgel als soziale Maschine:
         pr\xe4zise kalibriert auf die W\xfcnsche der Umgebung.</p>
         <p class="vb-intro"><strong>b) Ohne echte Gegenleistung:</strong>
         Hinter der W\xe4rme stand kein echtes Interesse am Anderen \u2013
@@ -2501,7 +2501,7 @@ export function johnWayneGacyPortraitPage() {
         Bei Gacy war dieser Anspruch absolut:
         Er glaubte, durch seinen gesellschaftlichen Einsatz
         ein Recht auf Straflosigkeit erworben zu haben.
-        Das ist der Zwei-Stolz in seiner m\xf6rderischen Konsequenz.</p>
+        Darin zeigt sich der Zwei-Stolz in seiner m\xf6rderischen Konsequenz.</p>
         <p class="vb-intro"><strong>b) Der Dreierfl\xfcgel als Tarnung:</strong>
         Kein anderer Fl\xfcgel h\xe4tte diese Tarnung so perfekt erm\xf6glicht.
         Der Dreierfl\xfcgel gibt der Zwei die F\xe4higkeit,
@@ -2766,7 +2766,7 @@ export function michailPopkowPortraitPage() {
         Zugeh\u00f6rigkeit zur Ordnung, zur Staatsmacht, zur Seite
         des Gesetzes. In der postsowjetischen Gesellschaft Sibiriens
         war der Milizion\u00e4r eine Respektsperson. Die Eins in Uniform
-        ist die Eins in ihrer sozial akzeptiertesten Form.</p>
+        zeigt die Eins in ihrer sozial akzeptiertesten Form.</p>
         <p class="vb-intro"><strong>b) Pflichtbewusster Kollege:</strong>
         In seiner Dienststelle galt <strong>Popkow</strong> als ordentlich und
         pflichtbewusst. Keine auff\u00e4lligen Ausbr\u00fcche, keine
@@ -2803,7 +2803,7 @@ export function michailPopkowPortraitPage() {
         <p class="vb-intro"><strong>c) Kein Reue-Impuls, keine Integration:</strong>
         <strong>Popkow</strong> zeigte in Verh\u00f6ren keine echte Reue.
         Er erkl\u00e4rte seine Taten als konsequente Umsetzung
-        eines inneren Prinzips. Das ist die Eins in der
+        eines inneren Prinzips. Hier wirkt die Eins in der
         tiefsten Stufe der Desintegration: Der Zorn hat
         sich vollst\u00e4ndig mit einer \u00dcberzeugung verb\u00fcndet
         und ist damit aus dem Bereich der moralischen
@@ -2900,7 +2900,7 @@ export function michailPopkowPortraitPage() {
         einer stabilen \u00dcberzeugung. Je gefestigter die moralische
         Rahmung, desto l\u00e4nger h\u00e4lt das Verhalten an.
         Bei <strong>Popkow</strong> blieb die ideologische Grundlage
-        konstant \u2013 und damit auch die Taten. Das ist die Eins
+        konstant \u2013 und damit auch die Taten. Hier zeigt sich die Eins
         in ihrer beharrlichsten Auspr\u00e4gung: Solange das
         Prinzip gilt, gilt auch die Konsequenz.</p>
         <p class="vb-intro"><strong>f) Kein Wachstumsweg \u2013 totale Desintegration:</strong>
@@ -3535,7 +3535,7 @@ export function rujaIgnatovaPortraitPage() {
         <p class="vb-intro"><strong>b) Anpassungsf\xe4higkeit als \xdcberlebensstrategie:</strong>
         Als der Druck gr\xf6\xdfer wurde, verschwand Ignatova \u2013 ein radikaler
         Identit\xe4tswechsel. Diese F\xe4higkeit, das eigene Bild vollst\xe4ndig
-        zu wechseln, ist die Drei in ihrer extremsten Auspr\xe4gung:
+        zu wechseln, zeigt die Drei in ihrer extremsten Auspr\xe4gung:
         kein fester Kern, sondern reine Anpassung.</p>
         <p class="vb-intro"><strong>c) Materielle Sicherung als tiefstes Motiv:</strong>
         Hinter der Vision\xe4rin stand eine SE3-Grundmotivation: Akkumulation
@@ -3575,7 +3575,7 @@ export function rujaIgnatovaPortraitPage() {
         <p class="vb-intro"><strong>c) K\xfchl dahinter:</strong>
         Wer n\xe4her heranr\xfcckte, sp\xfcrte die K\xe4lte hinter der Ausstrahlung.
         Ignatova pflegte keine echten Beziehungen \u2013 sie pflegte Anh\xe4ngerschaften.
-        Das ist die Drei ohne Heilung: Kontakt als Funktion, nicht als Verbindung.</p>
+        Darin zeigt sich die Drei ohne Heilung: Kontakt als Funktion, nicht als Verbindung.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -3849,7 +3849,7 @@ export function ulrikeMeinhofPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
         <p class="vb-intro"><strong>a) F\xfcrsorge, die sich selbst nicht mehr erkennt:</strong> Die gesunde SE2w1 setzt sich f\xfcr andere ein, ohne sich selbst und die eigenen N\xe4chsten zu verlieren. Bei Meinhof kippte dieses Muster: Die Sorge um abstrakte, weit entfernte Opfer verdr\xe4ngte zunehmend die Sorge um die eigenen Kinder &ndash; ein Muster, das Naranjo als \xdcberschie\xdfen der Zwei ins Ideologische beschreibt.</p>
         <p class="vb-intro"><strong>b) Der Einserfl\xfcgel als Radikalisierungsmotor:</strong> Was als journalistische Gerechtigkeitssuche begann, wurde durch die moralische Unbeirrbarkeit des Einserfl\xfcgels zunehmend kompromissloser. Die selbstkritische Bremse, die eine gesunde Eins normalerweise hat, wurde bei Meinhof mit der Zeit immer schw\xe4cher.</p>
-        <p class="vb-intro"><strong>c) Von der F\xfcrsorgerin zur Symbolfigur:</strong> Innerhalb der RAF war Meinhof nicht die Kopf des bewaffneten Kampfes, sondern dessen intellektuelle Legitimation &ndash; sie lieferte die Sprache, die Texte, die moralische Begr\xfcndung. Das ist die SE2w1 in ihrer radikalsten Form: sich selbst unentbehrlich machen, indem man der Sache gibt, was sie am dringendsten braucht.</p>
+        <p class="vb-intro"><strong>c) Von der F\xfcrsorgerin zur Symbolfigur:</strong> Innerhalb der RAF war Meinhof nicht die Kopf des bewaffneten Kampfes, sondern dessen intellektuelle Legitimation &ndash; sie lieferte die Sprache, die Texte, die moralische Begr\xfcndung. Hier wirkt die SE2w1 in ihrer radikalsten Form: sich selbst unentbehrlich machen, indem man der Sache gibt, was sie am dringendsten braucht.</p>
       </div>
 
       <div class="vb-section">

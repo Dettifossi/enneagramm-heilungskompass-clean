@@ -2281,7 +2281,7 @@ export function marieCurieKrankheitsportraetPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
         <p class="vb-intro"><strong>a) Precise, tireless, incorruptible:</strong>
         Curie's gaze went to what others overlooked – invisible radiation hidden in tons of
-        pitchblende, sought by manual labor over years. That is the Five's gaze: truth doesn't
+        pitchblende, sought by manual labor over years. Here we see the Five's gaze: truth doesn't
         sit on the surface but must be laboriously uncovered.</p>
         <p class="vb-intro"><strong>b) Watchful outward, blind inward:</strong>
         For measurement errors, imprecise data, and methodological weaknesses Curie had no
@@ -4172,7 +4172,7 @@ export function alainDelonKrankheitsportraetPage() {
         unusually introspective, almost melancholic tone about loneliness, age, and his own
         mortality – a tone that departed from his otherwise controlled, matter-of-fact facade.
         Someone living under chronic health strain for years increasingly moves along their
-        stress line toward their stress point – for the One, that is the Four. This
+        stress line toward their stress point – for the One, this shows the Four. This
         emotionally charged, inward-turned retrospection in his final years recalls the
         melancholic introspection of the stress point, not the matter-of-fact sense of duty of
         the core type – with the core type unchanged at SP1w2.</p>
@@ -4350,7 +4350,7 @@ export function eltonJohnKrankheitsportraetPage() {
         unfamiliarly difficult – and his strict, never-once-interrupted sobriety since 1990
         show a rigidity unusual for the otherwise pleasure-oriented SP7. Someone living under
         chronic addiction strain for years increasingly moves along their stress line toward
-        their stress point – for the Seven, that is the One. This strict, unyielding
+        their stress point – for the Seven, here you can see the One. This strict, unyielding
         self-discipline after recovery recalls the principled rigor of the stress point, not
         the spontaneous joie de vivre of the core type – with the core type unchanged at
         SP7w6.</p>
