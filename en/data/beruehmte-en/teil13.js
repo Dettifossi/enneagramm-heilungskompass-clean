@@ -2963,3 +2963,74 @@ export function juliaKoschitzPortraitPage() {
     </div>
   `);
 }
+
+export function rominaPalmPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-romina-palm-portrait.jpg" alt="Romina Palm – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-romina-palm-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Romina Palm</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Social Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">German model and content creator, b. 1999 &ndash; Animal correspondence: Cheetah</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Cheetah: from the Eifel to the runway</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>cheetah</strong> acts from stillness, and its appearance is decided in a few moments. Romina Palm was born on 2 June 1999 as Romina Scholl and comes originally from Münstermaifeld in Rhineland-Palatinate. Later she lived in Cologne. After her parents&rsquo; wedding she took her father&rsquo;s name.</p>
+          <p class="vb-intro">According to several profiles she already had a growing community on social media before her television fame. In 2021 she took part in season 16 of &lsquo;Germany&rsquo;s Next Topmodel&rsquo; with Heidi Klum and reached fourth place.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Three: community, visibility and standing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the social Three, standing in the community drives action, and Claudio Naranjo called it prestige. In Palm it shows in a profession that lives on the recognition of a large audience. She stayed in the race in episodes 1 to 16 and left in the finale after a duel with Dascha Carriero. Since then she has worked as a model and influencer, according to third-party figures with more than one million Instagram followers.</p>
+          <p class="vb-intro">She says herself that much has changed since the show: &lsquo;My head has changed so crazily since GNTM.&rsquo; She says she became more confident, more focused and more independent, but also feels more stress and more pressure: &lsquo;I have more stress, I have more pressure.&rsquo; She names changes for the better and for the worse and describes more responsibility and duties whose extent was not clear to her before.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: friendships and closeness to the audience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso and Russ Hudson call the Three with a Two-wing &lsquo;The Charmer&rsquo;. The <strong>Two-wing (w2)</strong> gives the Three warmth and interest in people. In Palm it shows in how she speaks with her community and in the fact that she made many new friendships through the show, some of whom live near her.</p>
+          <p class="vb-intro">She also says that former acquaintances got back in touch after the show, which felt somewhat forced to her. The sense of who comes from genuine interest belongs to the Two-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: building closeness and living with evaluation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Palm&rsquo;s achievement is less a single work than a skill: moving in front of an audience, letting herself be evaluated and making a career of her own from it. In episode 13 she booked her first job at a casting for Dyson, the second followed in episode 14, and in episode 12, according to Wikipedia, she struggled to find the right balance. This alternation of attempt and hit belongs to the modeling profession.</p>
+          <p class="vb-intro">During the season she spoke about having suffered earlier from &lsquo;commercial beauty ideals&rsquo;. That she says this publicly belongs to her role as a voice for an audience that has similar experiences.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Zoë Kravitz and Johannes B. Kerner</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-zoe-kravitz">Zoë Kravitz (SO3w2)</a> shares with Palm the youthful presence and growing up in the public eye. <a href="#beruehmte-johannes-b-kerner">Johannes B. Kerner (SO3w2)</a> shares with her the warmth toward a broad audience and living with judgment by ratings or by the community.</p>
+          <p class="vb-intro">For comparison among models: <a href="#beruehmte-thylane-blondeau">Thylane Blondeau (SX3w4)</a> relies more on personal attraction, Palm on exchange with the community.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social Three with Two-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is the openness with which Palm speaks about pressure and change, and the courage to show her own face to a large audience. The friendships from the season also belong to the warmth of the Two-wing.</p>
+          <p class="vb-intro">The shadow side of the Three is dependence on the judgment of others: whoever lives on visibility feels pressure when the image is evaluated. Palm speaks of this herself. That can be connected with the social Three.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: model and content creator</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Palm is (as of 25 October 2026) 27 years old and works as a model and content creator. Since 2025 she has been the mother of a daughter. On further private questions this portrait stays reserved.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
+        {route:"lebensmusterkompass/so3", label:"Life Pattern Compass: SO3 – Cheetah"},
+        {route:"beruehmte-zoe-kravitz", label:"Portrait: Zoë Kravitz (SO3w2)"},
+        {route:"beruehmte-johannes-b-kerner", label:"Portrait: Johannes B. Kerner (SO3w2)"},
+        {route:"beruehmte-thylane-blondeau", label:"Portrait: Thylane Blondeau (SX3w4)"},
+            ])}
+    </div>
+  `);
+}

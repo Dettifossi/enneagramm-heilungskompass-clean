@@ -2984,6 +2984,7 @@ export function johannesBKernerPortraitPage() {
         {route:"beruehmte-christiane-hoerbiger", label:"Portrait: Christiane Hörbiger (SO3w2)"},
         {route:"beruehmte-thomas-gottschalk", label:"Portrait: Thomas Gottschalk (SX7w6)"},
         {route:"beruehmte-joerg-pilawa", label:"Portrait: Jörg Pilawa (SX7w6)"},
+        {route:"beruehmte-romina-palm", label:"Portrait: Romina Palm (SO3w2)"},
       ])}
     </div>
   `);

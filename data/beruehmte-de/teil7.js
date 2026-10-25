@@ -2839,7 +2839,8 @@ export function thylaneBlondeauPortraitPage() {
         {route:"beruehmte-heidi-klum", label:"Porträt: Heidi Klum (SX3w4)"},
         {route:"beruehmte-lana-del-rey", label:"Porträt: Lana Del Rey (SX3w4)"},
         {route:"beruehmte-marilyn-monroe", label:"Porträt: Marilyn Monroe (SX3w4)"},
-            ])}
+        {route:"beruehmte-romina-palm", label:"Porträt: Romina Palm (SO3w2)"},
+      ])}
     </div>
   `);
 }

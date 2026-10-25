@@ -1979,6 +1979,7 @@ export function zoeKravitzPortraitPage() {
         {route:"beruehmte-sahra-wagenknecht", label:"Porträt: Sahra Wagenknecht (SO3w2)"},
         {route:"beruehmte-christiaan-barnard", label:"Porträt: Dr. Christiaan Barnard (SO3w2)"},
         {route:"beruehmte-christiane-hoerbiger", label:"Porträt: Christiane Hörbiger (SO3w2)"},
+        {route:"beruehmte-romina-palm", label:"Porträt: Romina Palm (SO3w2)"},
       ])}
       </div>
     </div>

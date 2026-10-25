@@ -2046,6 +2046,7 @@ export function zoeKravitzPortraitPage() {
           {route:"beruehmte-sahra-wagenknecht", label:"Portrait: Sahra Wagenknecht (SO3w2)"},
           {route:"beruehmte-christiaan-barnard", label:"Portrait: Dr. Christiaan Barnard (SO3w2)"},
         {route:"beruehmte-christiane-hoerbiger", label:"Portrait: Christiane Hörbiger (SO3w2)"},
+        {route:"beruehmte-romina-palm", label:"Portrait: Romina Palm (SO3w2)"},
       ])}
       </div>
     </div>
@@ -2883,7 +2884,8 @@ export function thylaneBlondeauPortraitPage() {
         {route:"beruehmte-heidi-klum", label:"Portrait: Heidi Klum (SX3w4)"},
         {route:"beruehmte-lana-del-rey", label:"Portrait: Lana Del Rey (SX3w4)"},
         {route:"beruehmte-marilyn-monroe", label:"Portrait: Marilyn Monroe (SX3w4)"},
-            ])}
+        {route:"beruehmte-romina-palm", label:"Portrait: Romina Palm (SO3w2)"},
+      ])}
     </div>
   `);
 }

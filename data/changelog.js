@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2628", date: "2026-10-25", text: "Neues Porträt: Romina Palm (SO3w2) – Model und Content Creatorin.", text_en: "New portrait: Romina Palm (SO3w2) – model and content creator.", route: "beruehmte-romina-palm" },
     { version: "v2627", date: "2026-10-25", text: "Neues Porträt: Sarah Paulson (SO3w4) – Schauspielerin.", text_en: "New portrait: Sarah Paulson (SO3w4) – actress.", route: "beruehmte-sarah-paulson" },
     { version: "v2626", date: "2026-10-25", text: "Neues Porträt: Falco (SO3w2) – österreichischer Sänger.", text_en: "New portrait: Falco (SO3w2) – Austrian singer.", route: "beruehmte-falco" },
     { version: "v2625", date: "2026-10-25", text: "Neues Porträt: Bruce Lee (SO3w4) – Schauspieler und Kampfkunst-Lehrer.", text_en: "New portrait: Bruce Lee (SO3w4) – actor and martial arts teacher.", route: "beruehmte-bruce-lee" },

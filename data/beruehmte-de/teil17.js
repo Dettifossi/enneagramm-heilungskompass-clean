@@ -3030,3 +3030,74 @@ export function patrickStewartPortraitPage() {
     </div>
   `);
 }
+
+export function rominaPalmPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-romina-palm-portrait.jpg" alt="Romina Palm – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-romina-palm-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Romina Palm</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Sozialer Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Deutsches Model und Content Creatorin, geb. 1999 &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Gepard: aus der Eifel auf den Laufsteg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Gepard</strong> wirkt aus der Ruhe heraus, und sein Auftritt entscheidet sich in wenigen Momenten. Romina Palm wurde am 2. Juni 1999 als Romina Scholl geboren und stammt ursprünglich aus Münstermaifeld in Rheinland-Pfalz. Später lebte sie in Köln. Nach der Hochzeit ihrer Eltern trug sie den Namen ihres Vaters.</p>
+          <p class="vb-intro">Schon vor ihrer Fernsehbekanntheit hatte sie nach Angaben mehrerer Porträts eine wachsende Community in den sozialen Medien. 2021 nahm sie an der 16. Staffel von ›Germany's Next Topmodel‹ mit Heidi Klum teil und erreichte den vierten Platz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Gemeinschaft, Sichtbarkeit und Ansehen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bei der sozialen Drei bestimmt das Ansehen in der Gemeinschaft das Handeln, und Claudio Naranjo nannte das Prestige. Bei Palm zeigt sich das in einem Beruf, der von der Anerkennung eines großen Publikums lebt. Sie blieb in den Folgen 1 bis 16 im Rennen und schied im Finale nach einem Duell mit Dascha Carriero aus. Seitdem arbeitet sie als Model und Influencerin, nach Fremdangaben mit mehr als einer Million Instagram-Followern.</p>
+          <p class="vb-intro">Sie sagt selbst, dass sich seit der Show vieles verändert hat: ›Mein Kopf hat sich seit GNTM so krass verändert.‹ Sie sei selbstbewusster, fokussierter und selbstständiger geworden, spüre aber auch mehr Stress und mehr Druck: ›Ich habe mehr Stress, ich habe mehr Druck.‹ Sie nennt Veränderungen im Positiven und im Negativen und beschreibt mehr Verantwortung und Pflichten, deren Ausmaß ihr vorher nicht klar war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Freundschaften und Nähe zum Publikum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso und Russ Hudson nennen die Drei mit Zweierflügel ›Den Charmeur‹. Der <strong>Zweierflügel (w2)</strong> bringt der Drei Wärme und das Interesse an Menschen. Bei Palm zeigt sich das in ihrer Art, mit der Community zu sprechen, und darin, dass sie durch die Show viele neue Freundschaften geschlossen hat, von denen einige in ihrer Nähe wohnen.</p>
+          <p class="vb-intro">Sie erzählt auch, dass frühere Bekannte sich nach der Show wieder meldeten, was auf sie etwas gezwungen wirkte. Das Gespür dafür, wer aus echtem Interesse kommt, gehört zum Zweierflügel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Nähe aufbauen und mit Bewertung leben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Palms Leistung ist weniger ein einzelnes Werk als eine Fähigkeit: sich vor Publikum zu bewegen, sich bewerten zu lassen und daraus eine eigene Laufbahn zu machen. In Episode 13 buchte sie bei einem Casting für Dyson ihren ersten Job, in Episode 14 folgte der zweite, und in Episode 12 hatte sie laut Wikipedia Mühe, die richtige Balance zu finden. Dieser Wechsel von Anlauf und Treffer gehört zum Modelberuf.</p>
+          <p class="vb-intro">Sie sprach in der Staffel darüber, früher unter ›kommerziellen Schönheitsidealen‹ gelitten zu haben. Dass sie das öffentlich sagt, gehört zu ihrer Rolle als Stimme für ein Publikum, das ähnliche Erfahrungen macht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Zoë Kravitz und Johannes B. Kerner</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-zoe-kravitz">Zoë Kravitz (SO3w2)</a> teilt mit Palm die junge Ausstrahlung und das Aufwachsen im Blick der Öffentlichkeit. <a href="#beruehmte-johannes-b-kerner">Johannes B. Kerner (SO3w2)</a> verbindet mit ihr die Zugewandtheit gegenüber einem breiten Publikum und das Leben mit der Beurteilung durch die Quote beziehungsweise die Community.</p>
+          <p class="vb-intro">Zum Vergleich unter Models: <a href="#beruehmte-thylane-blondeau">Thylane Blondeau (SX3w4)</a> setzt eher auf die persönliche Anziehung, Palm auf den Austausch mit der Gemeinschaft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Drei mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Offenheit, mit der Palm über Druck und Veränderung spricht, und der Mut, vor einem großen Publikum ein eigenes Gesicht zu zeigen. Auch die Freundschaften aus der Staffel gehören zur Wärme des Zweierflügels.</p>
+          <p class="vb-intro">Die Schattenseite der Drei ist die Abhängigkeit vom Urteil anderer: Wer von Sichtbarkeit lebt, spürt Druck, wenn das Bild bewertet wird. Palm spricht davon selbst. Das lässt sich mit der sozialen Drei in Verbindung bringen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Model und Content Creatorin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Palm ist (Stand 25. Oktober 2026) 27 Jahre alt und arbeitet als Model und Content Creatorin. Sie ist seit 2025 Mutter einer Tochter. Zu weiteren privaten Fragen bleibt dieses Porträt zurückhaltend.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so3", label:"Lebensmusterkompass: SO3 – Gepard"},
+        {route:"beruehmte-zoe-kravitz", label:"Porträt: Zoë Kravitz (SO3w2)"},
+        {route:"beruehmte-johannes-b-kerner", label:"Porträt: Johannes B. Kerner (SO3w2)"},
+        {route:"beruehmte-thylane-blondeau", label:"Porträt: Thylane Blondeau (SX3w4)"},
+            ])}
+    </div>
+  `);
+}
