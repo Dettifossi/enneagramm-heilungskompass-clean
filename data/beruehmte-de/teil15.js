@@ -406,6 +406,7 @@ export function davidLRathmerPortraitPage() {
         </blockquote>
 
       </div>
+      ${bookTip("fuehrung-mit-fundament", "632 Seiten Tiefenpsychologie für Führungskräfte: die neun Führungstypen, ihre blinden Flecken und der Weg zu reifer, wirksamer Führung. Mitautor: David L. Rathmer.", "Führung mit Fundament")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
