@@ -668,7 +668,7 @@ export function belleGunnessPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Waschb\xe4r</h3>
-        <p class="vb-intro">Der <strong>Waschb\xe4r</strong> ist das Tier der selbsterhaltenden Drei &ndash; und kein Tier passt besser zu Belle Gunness. Der Waschb\xe4r ist kein Raubtier im klassischen Sinne: Er greift nicht frontal an, er jagt nicht laut. Er ist geduldig, geschickt, anpassungsf\xe4hig. Er taucht auf, wo Ressourcen sind, sucht nach dem, was er gebrauchen kann, und verschwindet wieder. Vor allem: Er ist t\xe4uschend harmlos. Sein Gesicht &ndash; die Maske, die dunklen Augen hinter dem hellen Fell &ndash; lassen nicht erkennen, was er gerade tut.</p>
+        <p class="vb-intro">Der <strong>Waschb\xe4r</strong> gilt als das Tier der selbsterhaltenden Drei &ndash; und kein Tier passt besser zu Belle Gunness. Der Waschb\xe4r ist kein Raubtier im klassischen Sinne: Er greift nicht frontal an, er jagt nicht laut. Er ist geduldig, geschickt, anpassungsf\xe4hig. Er taucht auf, wo Ressourcen sind, sucht nach dem, was er gebrauchen kann, und verschwindet wieder. Vor allem: Er ist t\xe4uschend harmlos. Sein Gesicht &ndash; die Maske, die dunklen Augen hinter dem hellen Fell &ndash; lassen nicht erkennen, was er gerade tut.</p>
         <p class="vb-intro">Belle Gunness war so eine Figur: eine Farmbesitzerin, eine Witwe, eine Mutter. Sie bat um Hilfe. Sie schrieb liebevolle Briefe. Sie empfing M\xe4nner mit Kaffee und Hausmannskost. Und sie begrub sie in ihrem Schweinestall.</p>
       </div>
 
@@ -1866,7 +1866,7 @@ export function henriLandruPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Waschb\xe4r</h3>
-        <p class="vb-intro">Der <strong>Waschb\xe4r</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das nicht auf offener Fl\xe4che jagt, sondern im Verborgenen, mit geschickten H\xe4nden, ohne \xfcberfl\xfcssige Bewegung, ohne Publikum. Henri D\xe9sir\xe9 Landru, 1869 in Paris geboren, verk\xf6rperte genau diese Qualit\xe4t: Ein unscheinbarer, kleiner, kahlk\xf6pfiger Mann mit gepflegtem schwarzem Bart, der w\xe4hrend des Ersten Weltkriegs \xfcber Kontaktanzeigen wohlhabende Witwen in sein Landhaus in Gambais lockte, sie ermordete, ihre Verm\xf6gen einzog und ihre \xdcberreste im eigenen K\xfcchenofen verbrannte.</p>
+        <p class="vb-intro">Der <strong>Waschb\xe4r</strong> ist das Wappentier der selbsterhaltenden Drei &ndash; ein Tier, das nicht auf offener Fl\xe4che jagt, sondern im Verborgenen, mit geschickten H\xe4nden, ohne \xfcberfl\xfcssige Bewegung, ohne Publikum. Henri D\xe9sir\xe9 Landru, 1869 in Paris geboren, verk\xf6rperte genau diese Qualit\xe4t: Ein unscheinbarer, kleiner, kahlk\xf6pfiger Mann mit gepflegtem schwarzem Bart, der w\xe4hrend des Ersten Weltkriegs \xfcber Kontaktanzeigen wohlhabende Witwen in sein Landhaus in Gambais lockte, sie ermordete, ihre Verm\xf6gen einzog und ihre \xdcberreste im eigenen K\xfcchenofen verbrannte.</p>
         <p class="vb-intro">Zwischen 1914 und 1919 t\xf6tete er mindestens zehn Frauen und den Sohn einer seiner Opfer. Keine \xf6ffentliche Inszenierung, kein Spektakel &ndash; nur die stille, systematische Arbeit eines Mannes, der genau wusste, was er brauchte, und der bereit war, alles Notwendige zu tun, um es sich zu beschaffen.</p>
       </div>
 
@@ -2208,7 +2208,7 @@ export function johnGottiPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der L\xf6we</h3>
-        <p class="vb-intro">Der <strong>L\xf6we</strong> ist das Tier der sozialen Acht &ndash; und kein Bild trifft John Gotti besser. Der L\xf6we ist kein Einzelk\xe4mpfer. Er lebt im Rudel, er herrscht \xfcber ein Revier, er sch\xfctzt die Seinen und duldet keinen Rivalen. Er bek\xe4mpft nicht aus Sadismus, sondern aus Herrschaftslogik: Wer hier lebt, lebt unter meinem Schutz &ndash; und nach meinen Regeln. Der L\xf6we zeigt sich. Er versteckt sich nicht. Er tr\xe4gt seine Macht im K\xf6rper, im Gang, im Blick. Er braucht keine Erkl\xe4rung.</p>
+        <p class="vb-intro">Der <strong>L\xf6we</strong> gilt als das Tier der sozialen Acht &ndash; und kein Bild trifft John Gotti besser. Der L\xf6we ist kein Einzelk\xe4mpfer. Er lebt im Rudel, er herrscht \xfcber ein Revier, er sch\xfctzt die Seinen und duldet keinen Rivalen. Er bek\xe4mpft nicht aus Sadismus, sondern aus Herrschaftslogik: Wer hier lebt, lebt unter meinem Schutz &ndash; und nach meinen Regeln. Der L\xf6we zeigt sich. Er versteckt sich nicht. Er tr\xe4gt seine Macht im K\xf6rper, im Gang, im Blick. Er braucht keine Erkl\xe4rung.</p>
         <p class="vb-intro">John Gotti war ein L\xf6we. Er regierte den Gambino-Clan, das m\xe4chtigste Verbrechersyndikat der Vereinigten Staaten, nicht aus dem Verborgenen, sondern im Rampenlicht. Er trug Brioni-Anz\xfcge f\xfcr Tausende von Dollar. Er winkte Kameras zu. Er liebte es, dass sein Viertel ihn kannte. Er gab Truthh\xe4hne an Nachbarn zu Weihnachten. Er war ihr K\xf6nig &ndash; und er wusste es.</p>
       </div>
 

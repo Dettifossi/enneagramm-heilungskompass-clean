@@ -86,7 +86,7 @@ export function anastasiaBarnerPortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that doesn't limit its warmth to individuals, but wants to reach an entire generation. Anastasia Barner began working as a journalist at just fourteen years old and, a year later, was recognized by <em>Der Spiegel</em> as one of the best young up-and-coming journalists &ndash; early proof that her voice was oriented toward a public audience from the start.</p>
+          <p class="vb-intro">The <strong>Golden Retriever</strong> stands as the animal of the social Two &ndash; an animal that doesn't limit its warmth to individuals, but wants to reach an entire generation. Anastasia Barner began working as a journalist at just fourteen years old and, a year later, was recognized by <em>Der Spiegel</em> as one of the best young up-and-coming journalists &ndash; early proof that her voice was oriented toward a public audience from the start.</p>
           <p class="vb-intro">She became known as the international TikTok face of Deutsche Welle and worked as a freelance journalist for outlets including Spiegel Online and the Berliner Zeitung. Even this early journalistic career showed a drive that went beyond herself: making topics understandable and relevant for a broad audience.</p>
         </blockquote>
 
@@ -285,7 +285,7 @@ export function christopheBoeschPortraitPage() {
 
         <h2 class="vb-section">1. The chimpanzee who discovered chimpanzee culture</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>chimpanzee</strong> is the animal of the Sexual Seven &ndash; clever, playful, intensity-seeking, never a homebody. Few scientists embodied this principle as boldly as Prof. Dr. Christophe Boesch: the Swiss primatologist, born in 1951 in St. Gallen, founded the Taï Chimpanzee Project on the Ivory Coast in 1979 together with his wife Hedwige &ndash; the first continuous long-term study of wild chimpanzees in unbroken rainforest.</p>
+          <p class="vb-intro">The <strong>chimpanzee</strong> stands as the animal of the Sexual Seven &ndash; clever, playful, intensity-seeking, never a homebody. Few scientists embodied this principle as boldly as Prof. Dr. Christophe Boesch: the Swiss primatologist, born in 1951 in St. Gallen, founded the Taï Chimpanzee Project on the Ivory Coast in 1979 together with his wife Hedwige &ndash; the first continuous long-term study of wild chimpanzees in unbroken rainforest.</p>
           <p class="vb-intro">For five years the couple lived in the forest with their two young children to habituate a wild chimpanzee community to their presence. Boesch was the first to demonstrate that chimpanzees possess highly developed, distinct "cultures" &ndash; different techniques for cracking nuts, tool use, and collective hunting, passed down from generation to generation. He died in 2024 at the age of 72.</p>
         </blockquote>
 
@@ -693,7 +693,7 @@ export function indilaPortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>golden retriever</strong> is the animal of the Social Two – an animal whose success only feels complete for the Social Two once it is shared with others. Adila Sedraïa, better known as Indila, was born in 1984 in Paris and described herself as a "child of the world" of Algerian, Cambodian, Indian, and Egyptian descent. Her mother worked as a caregiver, her grandmother sang at weddings; music was a communal, connecting practice from childhood on, not a private talent that stood on its own.</p>
+          <p class="vb-intro">The <strong>golden retriever</strong> stands as the animal of the Social Two – an animal whose success only feels complete for the Social Two once it is shared with others. Adila Sedraïa, better known as Indila, was born in 1984 in Paris and described herself as a "child of the world" of Algerian, Cambodian, Indian, and Egyptian descent. Her mother worked as a caregiver, her grandmother sang at weddings; music was a communal, connecting practice from childhood on, not a private talent that stood on its own.</p>
           <p class="vb-intro">Before becoming a musician herself, Indila worked as a tour guide at the Rungis wholesale market near Paris – an unspectacular, service-oriented job that fits a pattern that would later continue in her musical career: being there for others before stepping into the center herself.</p>
         </blockquote>
 
@@ -752,7 +752,7 @@ export function jeanneMarieGuyonPortraitPage() {
 
         <h2 class="vb-section">1. The Beaver</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Beaver</strong> is the animal of the Social Type 7 &ndash; a builder that does not work for itself alone but for a larger system: the dam, the lodge, the community that benefits from it. The Beaver is industrious, purposeful, and willing to subordinate itself to a task greater than itself &ndash; as long as it knows what it is building for.</p>
+          <p class="vb-intro">The <strong>Beaver</strong> is the symbolic animal of the Social Type 7 &ndash; a builder that does not work for itself alone but for a larger system: the dam, the lodge, the community that benefits from it. The Beaver is industrious, purposeful, and willing to subordinate itself to a task greater than itself &ndash; as long as it knows what it is building for.</p>
           <p class="vb-intro">Jeanne-Marie Bouvier de la Motte Guyon, born 1648 in Montargis, is this Beaver. The leading exponent of Quietism in the France of Louis XIV devoted her entire life to a single edifice: complete surrender to God. No territory, no power, no personal glory &ndash; but service to a spiritual idea for which she was willing to endure persecution, imprisonment and public defamation.</p>
         </blockquote>
 
@@ -964,7 +964,7 @@ export function laurieMarkerPortraitPage() {
 
         <h2 class="vb-section">1. The Cheetah</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Cheetah</strong> is the animal of the Social Three &ndash; not an animal of raw power like the lion, but one of precision, speed, and flawless, visible success. It does not hunt secretly from ambush, but in the open field, visible to anyone watching &ndash; and wins through timing, elegance, and speed. Dr. Laurie Marker is, worldwide, the leading voice of cheetah conservation and is widely regarded as the most renowned cheetah researcher alive.</p>
+          <p class="vb-intro">The <strong>Cheetah</strong> is the animal counterpart of the Social Three &ndash; not an animal of raw power like the lion, but one of precision, speed, and flawless, visible success. It does not hunt secretly from ambush, but in the open field, visible to anyone watching &ndash; and wins through timing, elegance, and speed. Dr. Laurie Marker is, worldwide, the leading voice of cheetah conservation and is widely regarded as the most renowned cheetah researcher alive.</p>
           <p class="vb-intro">Here too, the pattern already seen with Dian Fossey and Jennifer Mather holds: the Enneagram's animal correspondences were fixed long before anyone knew of Marker's life's work. That the world's best-known cheetah researcher should herself carry the cheetah's traits &ndash; speed, visibility, flawless precision &ndash; in her own personality fits a pattern that runs through several of this compass's animal-researcher portraits.</p>
         </blockquote>
 
@@ -1097,7 +1097,7 @@ export function marisaAbelaPortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two, a creature that does not treat connection as a task but as its very nature. Friendly, engaged, attentive to what a room needs. The Golden Retriever does not push itself forward, it is simply present, attuned, ready. And when things get serious, it becomes clear that behind the warmth lies remarkable stamina.</p>
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the emblem of the social Two, a creature that does not treat connection as a task but as its very nature. Friendly, engaged, attentive to what a room needs. The Golden Retriever does not push itself forward, it is simply present, attuned, ready. And when things get serious, it becomes clear that behind the warmth lies remarkable stamina.</p>
           <p class="vb-intro">The British actress Marisa Abela, born in 1996 in London, has grown in just a few years from supporting roles to celebrated lead performances, not through volume, but through a presence that binds directors and audiences alike. Those who work with her describe someone who reads a room before she enters it, and who knows exactly what a scene, an ensemble, a moment needs right now.</p>
         </blockquote>
 
@@ -1165,7 +1165,7 @@ export function milowPortraitPage() {
 
         <h2 class="vb-section">1. The Camel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Camel</strong> is the animal of the sexual Two, a creature that carries without imposing itself. It crosses long distances, quietly, patiently, staying in steady contact with what it accompanies. Not a loud animal. An animal that creates closeness simply by going along, step by step, reliable, with a gaze that is direct and warm at once.</p>
+          <p class="vb-intro">The <strong>Camel</strong> stands as the animal of the sexual Two, a creature that carries without imposing itself. It crosses long distances, quietly, patiently, staying in steady contact with what it accompanies. Not a loud animal. An animal that creates closeness simply by going along, step by step, reliable, with a gaze that is direct and warm at once.</p>
           <p class="vb-intro">Milow, born Jonathan Vandenbroeck in 1982 in Belgium, became internationally known in 2007 with a quiet acoustic cover of Ayo Technology, a song whose original was loud and aggressive, which he turned into a fragile, intimate ballad. That is the gesture of the camel: it takes something hard and carries it gently onward until it arrives.</p>
         </blockquote>
 
@@ -1233,7 +1233,7 @@ export function nikolaTeslaPortraitPage() {
 
         <h2 class="vb-section">1. The beaver that wanted to give the whole of humanity energy</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>beaver</strong> is the animal of the Social Seven &ndash; it does not build for itself, but for a system larger than itself, and it is never truly finished: no sooner does one dam stand than the next project begins. Nikola Tesla embodied this principle to an almost alarming degree: the AC induction motor, the transformer, radio technology, the foundations of radar, remote control &ndash; he left behind more than 300 patents, plus dozens of parallel large-scale projects that were never fully completed. Every invention was at the same time the prelude to the next.</p>
+          <p class="vb-intro">The <strong>beaver</strong> stands as the animal of the Social Seven &ndash; it does not build for itself, but for a system larger than itself, and it is never truly finished: no sooner does one dam stand than the next project begins. Nikola Tesla embodied this principle to an almost alarming degree: the AC induction motor, the transformer, radio technology, the foundations of radar, remote control &ndash; he left behind more than 300 patents, plus dozens of parallel large-scale projects that were never fully completed. Every invention was at the same time the prelude to the next.</p>
           <p class="vb-intro">The Serbian-American inventor Nikola Tesla was born in 1856 in Smiljan, in present-day Croatia, the son of a Serbian Orthodox priest. Even as a child, he later reported, he had spontaneous, flash-like inner images of machines that he could construct in complete detail in his mind's eye before ever picking up a tool &ndash; an abundance of ideas that, from early on, went far beyond what a single life could ever realize.</p>
         </blockquote>
 
@@ -1315,7 +1315,7 @@ export function pharrellWilliamsPortraitPage() {
 
         <h2 class="vb-section">1. The Cheetah</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Cheetah</strong> is the animal of the social Three &ndash; the fastest animal on Earth, built not for strength but for speed and precision. The cheetah does not hunt a single territory: it adapts, changes direction with breathtaking agility the moment the target moves. It is exactly this speed of adaptation that makes it the fastest, not the strongest, hunter of the savanna.</p>
+          <p class="vb-intro">The <strong>Cheetah</strong> is the symbolic animal of the social Three &ndash; the fastest animal on Earth, built not for strength but for speed and precision. The cheetah does not hunt a single territory: it adapts, changes direction with breathtaking agility the moment the target moves. It is exactly this speed of adaptation that makes it the fastest, not the strongest, hunter of the savanna.</p>
           <p class="vb-intro">Pharrell Williams embodies this speed across decades and across genre boundaries: as one half of The Neptunes, he and Chad Hugo shaped the sound of the 2000s &ndash; from Jay-Z to Britney Spears to Nelly &ndash; founded his own band with N.E.R.D., produced, wrote, sang, rapped, and simultaneously moved into fashion, where he now serves as men&#39;s creative director at Louis Vuitton. No other artist of his generation has chased so many tracks at once &ndash; and won on almost every one.</p>
         </blockquote>
 
@@ -1662,7 +1662,7 @@ export function sammyDavisJrPortraitPage() {
 
         <h2 class="vb-section">1. The Camel That Never Stopped Carrying</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Camel</strong> is the animal of the sexual Two &ndash; enduring, devoted, able to go beyond its own limits for others, without ever seeming to tire. In Sammy Davis Jr., this image became a life that began, quite literally, in the desert: born in 1925 in Harlem, he was on stage by the age of three, touring with his father Sammy Davis Sr. and his father's partner Will Mastin as "The Will Mastin Trio" through the vaudeville circuits of Jim Crow-era America &ndash; a child who traded his childhood for applause long before he could understand what he was giving up.</p>
+          <p class="vb-intro">The <strong>Camel</strong> is the emblem of the sexual Two &ndash; enduring, devoted, able to go beyond its own limits for others, without ever seeming to tire. In Sammy Davis Jr., this image became a life that began, quite literally, in the desert: born in 1925 in Harlem, he was on stage by the age of three, touring with his father Sammy Davis Sr. and his father's partner Will Mastin as "The Will Mastin Trio" through the vaudeville circuits of Jim Crow-era America &ndash; a child who traded his childhood for applause long before he could understand what he was giving up.</p>
           <p class="vb-intro">Out of this early, almost enforced giving grew not bitterness but a talent that spread across six decades of singing, dancing, acting, and Broadway. The camel knows no gait other than carrying &ndash; and Davis carried, with a versatility rarely matched, well into his final months.</p>
         </blockquote>
 
@@ -1871,7 +1871,7 @@ export function giorgiaMeloniPortraitPage() {
 
         <h2 class="vb-section">1. The Goose Who Rose Out of Garbatella</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>goose</strong> is the animal of the social One — orderly, disciplined, with an early, firmly rooted sense of how the world ought to function correctly, and ready to commit to that order with consistency. Giorgia Meloni, born in 1977 in Rome, grew up with her older sister in the working-class neighborhood of Garbatella. Her father left the family early — for him, she has said, she feels to this day "only indifference." Her mother, by contrast, who wrote around 140 romance novels under a pseudonym to support the family, is the one to whom she says she owes "everything."</p>
+          <p class="vb-intro">The <strong>goose</strong> is the animal counterpart of the social One — orderly, disciplined, with an early, firmly rooted sense of how the world ought to function correctly, and ready to commit to that order with consistency. Giorgia Meloni, born in 1977 in Rome, grew up with her older sister in the working-class neighborhood of Garbatella. Her father left the family early — for him, she has said, she feels to this day "only indifference." Her mother, by contrast, who wrote around 140 romance novels under a pseudonym to support the family, is the one to whom she says she owes "everything."</p>
           <p class="vb-intro">At fifteen she joined the youth wing of a neo-fascist party — an early, clear ideological commitment that barely shifted over the following three decades, even as her political style changed considerably.</p>
         </blockquote>
 
@@ -2137,7 +2137,7 @@ export function michaelStipePortraitPage() {
 
         <h2 class="vb-section">1. The Armadillo That Built Its Own Shell</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four – a creature that hides its vulnerability behind a self-built protective layer and, when needed, curls up rather than exposing itself. John Michael Stipe was born in 1960 in Decatur, Georgia, the son of an Army helicopter pilot – the family moved repeatedly, between West Germany, Texas, Illinois, and Alabama. No fixed place, no fixed belonging that came naturally.</p>
+          <p class="vb-intro">The <strong>armadillo</strong> stands as the animal of the social Four – a creature that hides its vulnerability behind a self-built protective layer and, when needed, curls up rather than exposing itself. John Michael Stipe was born in 1960 in Decatur, Georgia, the son of an Army helicopter pilot – the family moved repeatedly, between West Germany, Texas, Illinois, and Alabama. No fixed place, no fixed belonging that came naturally.</p>
           <p class="vb-intro">At fourteen he came across an article about the CBGB scene and Patti Smith in Creem magazine. "Since then, I never looked back," he said later. The armadillo finds its own shell early – not out of fear, but because it learns that the outside world is unreliable and one's own, self-constructed identity is more dependable.</p>
         </blockquote>
 
@@ -2277,7 +2277,7 @@ export function indiraGandhiPortraitPage() {
 
         <h2 class="vb-section">1. The Raccoon in Her Father's Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that doesn't want to shine on stage, but moves inconspicuously, yet extremely skillfully, through its own territory: watching, feeling its way, before it acts. Indira Gandhi, born in 1917 as the only child of Jawaharlal Nehru, grew up in a childhood she herself later described as one of deprivation, though outwardly privileged: her father was repeatedly imprisoned, her mother Kamala died young of tuberculosis. "I felt rather deprived of everything," she said in retrospect about a childhood others perceived as pampered.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> is the symbolic animal of the self-preservation Three &ndash; an animal that doesn't want to shine on stage, but moves inconspicuously, yet extremely skillfully, through its own territory: watching, feeling its way, before it acts. Indira Gandhi, born in 1917 as the only child of Jawaharlal Nehru, grew up in a childhood she herself later described as one of deprivation, though outwardly privileged: her father was repeatedly imprisoned, her mother Kamala died young of tuberculosis. "I felt rather deprived of everything," she said in retrospect about a childhood others perceived as pampered.</p>
           <p class="vb-intro">In 1966, two years after Nehru's death, she surprisingly became Prime Minister &ndash; initially underestimated by the old Congress party guard as a pliable, easily led "Gungi Gudiya" (dumb doll). This already shows the self-preservation Three at the very start of her career: she was not chosen for loud self-promotion, but because she initially seemed harmless, manageable, and quietly competent in the background &ndash; until she took the wheel completely.</p>
         </blockquote>
 
@@ -2343,7 +2343,7 @@ export function georgeVithoulkasPortraitPage() {
 
         <h2 class="vb-section">1. The Cheetah Who Re-founded an Entire Discipline</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Cheetah</strong> is the animal of the social Three – fast, striking, built for the one decisive moment that carries an entire career. George Vithoulkas, born 1932 in Athens, studied homeopathy in South Africa and received his diploma from the Indian Institute of Homeopathy in 1966. Back in Greece, he began teaching a small group of doctors classical homeopathy – the therapeutic success of these first doctors quickly attracted further attention. In recognition of his life's work, the Greek University of the Aegean appointed him Honorary Professor in 2011, and he also holds several honorary doctorates, including from the medical academies of Kyiv and Moscow – since then he has consistently been referred to as Professor Vithoulkas.</p>
+          <p class="vb-intro">The <strong>Cheetah</strong> is the emblem of the social Three – fast, striking, built for the one decisive moment that carries an entire career. George Vithoulkas, born 1932 in Athens, studied homeopathy in South Africa and received his diploma from the Indian Institute of Homeopathy in 1966. Back in Greece, he began teaching a small group of doctors classical homeopathy – the therapeutic success of these first doctors quickly attracted further attention. In recognition of his life's work, the Greek University of the Aegean appointed him Honorary Professor in 2011, and he also holds several honorary doctorates, including from the medical academies of Kyiv and Moscow – since then he has consistently been referred to as Professor Vithoulkas.</p>
           <p class="vb-intro">In 1970, this grew into the Athenian School of Homeopathic Medicine, and in 1994 he founded the International Academy for Classical Homeopathy on the Greek island of Alonissos for the postgraduate training of physicians, homeopathic practitioners, and other interested professionals from around the world – with a clear emphasis on physicians, since there are far more medical doctors than dedicated homeopathic practitioners worldwide (that specific profession, in the German sense of "Heilpraktiker," is largely a German peculiarity). Numerous American homeopaths traveled specifically to the remote island to learn what became known as the "Vithoulkas method" directly from him. The cheetah used the one moment when his knowledge proved effective to build an international institution out of it.</p>
         </blockquote>
 

@@ -18,7 +18,7 @@ export function ingmarBergmanPortraitPage() {
         <h2 class="vb-section">1. The dove who filmed her own childhood drama</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Ingmar Bergman was born in 1918 in Uppsala, the son of a strict Lutheran pastor who later became chaplain to the Swedish royal family. His father punished him with caning and locked him in dark closets – Bergman later described himself as a child who was "shut in, in every way," and he stammered for years. At 17 he hit his father and left home; afterward he barely spoke to his parents for decades. His grandmother secretly introduced him to the cinema, against his father's wishes.</p>
-          <p class="vb-intro">The <strong>dove</strong> is the animal of the self-preservation Four – gentle, vulnerable, with a quiet tenacity that does not put its own suffering on display but transforms it into a sustainable form. Bergman did exactly that with unmatched consistency: his late work "Fanny and Alexander" (1982) directly and explicitly processes his own childhood, and many of his middle-period works – guilt, family estrangement, the search for a silent God – trace directly back to his own upbringing.</p>
+          <p class="vb-intro">The <strong>dove</strong> is the emblem of the self-preservation Four – gentle, vulnerable, with a quiet tenacity that does not put its own suffering on display but transforms it into a sustainable form. Bergman did exactly that with unmatched consistency: his late work "Fanny and Alexander" (1982) directly and explicitly processes his own childhood, and many of his middle-period works – guilt, family estrangement, the search for a silent God – trace directly back to his own upbringing.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The self-preservation Four: one's own suffering as cinematic material</h2>
@@ -356,7 +356,7 @@ export function davidHumePortraitPage() {
 
         <h2 class="vb-section">1. The Elephant Who Doubted Everything</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>elephant</strong> is the animal of the self-preservation Nine &ndash; patient, grounding, possessing a presence that comes not from volume but from weight. It is not easily rattled, even when it questions the very foundations of the world. It carries its insights calmly, without forcing them on anyone.</p>
+          <p class="vb-intro">The <strong>elephant</strong> is the emblem of the self-preservation Nine &ndash; patient, grounding, possessing a presence that comes not from volume but from weight. It is not easily rattled, even when it questions the very foundations of the world. It carries its insights calmly, without forcing them on anyone.</p>
           <p class="vb-intro">The Scottish philosopher David Hume was born in 1711 in Edinburgh, briefly studied law, abandoned it, and devoted himself to philosophy instead &ndash; against his family&#39;s wishes. Contemporaries consistently described him as cheerful, agreeable, without a trace of bitterness, even though he spent his life writing against fierce opposition from the church and academic institutions. He was called &bdquo;le bon David&ldquo; &ndash; the good David &ndash; even by circles that considered his ideas dangerous.</p>
         </blockquote>
 
@@ -432,7 +432,7 @@ export function douglasSmithPortraitPage() {
 
         <h2 class="vb-section">1. The wolf who brought the wolves back to Yellowstone</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>wolf</strong> is the animal of the Sexual Six &ndash; it meets fear not by retreating but through direct confrontation, finding its deepest meaning in protecting and sustaining the pack. Few life's works show this principle as directly as that of Dr. Douglas W. Smith: hired in 1994 by the National Park Service as project biologist for the reintroduction of wolves to Yellowstone, he led the entire Yellowstone Wolf Project from 1997 onward for decades &ndash; until his retirement in 2022, after 28 years of service to the park.</p>
+          <p class="vb-intro">The <strong>wolf</strong> is the animal counterpart of the Sexual Six &ndash; it meets fear not by retreating but through direct confrontation, finding its deepest meaning in protecting and sustaining the pack. Few life's works show this principle as directly as that of Dr. Douglas W. Smith: hired in 1994 by the National Park Service as project biologist for the reintroduction of wolves to Yellowstone, he led the entire Yellowstone Wolf Project from 1997 onward for decades &ndash; until his retirement in 2022, after 28 years of service to the park.</p>
           <p class="vb-intro">Even before Yellowstone, Smith had worked with wolves on Isle Royale from 1979 to 1992 &ndash; the very same legendary long-term research site where Dr. L. David Mech (SX6w5), the "father of modern wolf research" and himself a leading wolf researcher for over sixty years, began his own career. Both men spent their lives literally in the rough field, decoding the same complex social code of the wolf &ndash; a connection that goes far beyond mere professional collegiality.</p>
         </blockquote>
 
@@ -566,7 +566,7 @@ export function georgeGershwinPortraitPage() {
 
         <h2 class="vb-section">1. The Beaver from Brooklyn</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>beaver</strong> is the animal of the social Seven &ndash; a builder who doesn't keep its overflowing energy to itself but turns it into something the whole surrounding landscape benefits from. George Gershwin, born in 1898 in Brooklyn to Russian-Jewish immigrants, was largely self-taught at the piano before entering Tin Pan Alley as a teenager &ndash; New York's music-publishing district, where he worked as a "song plugger," playing other people's songs on the piano to sell them to customers.</p>
+          <p class="vb-intro">The <strong>beaver</strong> is the symbolic animal of the social Seven &ndash; a builder who doesn't keep its overflowing energy to itself but turns it into something the whole surrounding landscape benefits from. George Gershwin, born in 1898 in Brooklyn to Russian-Jewish immigrants, was largely self-taught at the piano before entering Tin Pan Alley as a teenager &ndash; New York's music-publishing district, where he worked as a "song plugger," playing other people's songs on the piano to sell them to customers.</p>
           <p class="vb-intro">Out of this apprenticeship in other people's melodies quickly grew something larger: the wish to create a wholly original, genuinely American musical language that would tear down the wall between popular and serious music. The beaver does not build for itself alone &ndash; it builds so that an entire river finds its bed.</p>
         </blockquote>
 
@@ -698,7 +698,7 @@ export function iceCubePortraitPage() {
 
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature that knows its environment precisely and moves through it securely because it knows and respects its dangers. It builds its territory firmly, defends it decisively, and returns there after every excursion, back to where it belongs.</p>
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the symbolic animal of the self-preservation Two &ndash; a creature that knows its environment precisely and moves through it securely because it knows and respects its dangers. It builds its territory firmly, defends it decisively, and returns there after every excursion, back to where it belongs.</p>
           <p class="vb-intro">The American rapper and actor Ice Cube, born O'Shea Jackson on June 15, 1969, in Baldwin Hills, Los Angeles, grew up as the fourth child of an African American family in South Central Los Angeles &ndash; a neighborhood increasingly marked by drugs, guns, and violence. His mother Doris worked as a hospital employee, his father Hosea as a groundskeeper at UCLA. With stable, working parents behind him, young Ice Cube navigated an environment that proved fatal for many of his peers.</p>
         </blockquote>
 
@@ -764,7 +764,7 @@ export function jasminPaoliniPortraitPage() {
 
         <h2 class="vb-section">1. The Gorilla</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Gorilla</strong> is the animal of the Self-Preservation Type 7 &ndash; and it surprises, because on the surface one does not associate it with lightness. The Gorilla is powerful, calm and deeply family-oriented. It lives in close-knit groups, cultivates bonds, protects its troop. It does not seek confrontation &ndash; but does not avoid it when it matters. Its strength is not aggression. It is reliability.</p>
+          <p class="vb-intro">The <strong>Gorilla</strong> is the animal counterpart of the Self-Preservation Type 7 &ndash; and it surprises, because on the surface one does not associate it with lightness. The Gorilla is powerful, calm and deeply family-oriented. It lives in close-knit groups, cultivates bonds, protects its troop. It does not seek confrontation &ndash; but does not avoid it when it matters. Its strength is not aggression. It is reliability.</p>
           <p class="vb-intro">Jasmine Paolini is this Gorilla. On the court: explosive, combative, tireless. Off it: warm, laughing, familial. She celebrates victories with an openness that is contagious, and carries defeats with a dignity that impresses. The Gorilla does not dance &ndash; but when it smiles, the whole forest lights up.</p>
         </blockquote>
 
@@ -827,7 +827,7 @@ export function johnnyCashPortraitPage() {
 
         <h2 class="vb-section">1. The Raccoon</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the Self-Preservation Three – an animal that builds something functioning out of scarce resources through resourceful cleverness rather than strength or display. J. R. Cash was born in 1932 in Kingsland, Arkansas, the son of poor cotton tenant farmers; at age three the family moved to the government resettlement colony of Dyess, where he worked the fields daily until he was fifteen. This scarcity produced no self-pity, but an early-trained sense for what one can actually accomplish with one's own hands.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal counterpart of the Self-Preservation Three – an animal that builds something functioning out of scarce resources through resourceful cleverness rather than strength or display. J. R. Cash was born in 1932 in Kingsland, Arkansas, the son of poor cotton tenant farmers; at age three the family moved to the government resettlement colony of Dyess, where he worked the fields daily until he was fifteen. This scarcity produced no self-pity, but an early-trained sense for what one can actually accomplish with one's own hands.</p>
           <p class="vb-intro">In 1944, his older brother Jack died at fourteen, a week after a severe accident on a circular saw in the school workshop. Jack had been their father Ray Cash's declared favorite son, and Ray let his surviving son feel, for decades, who he believed should have died instead. Johnny carried this guilt his whole life – and began early to build something for himself that no one could take away.</p>
         </blockquote>
 
@@ -962,7 +962,7 @@ export function laoziPortraitPage() {
 
         <h2 class="vb-section">1. The Elephant</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>elephant</strong> is the animal of the self-preservation Nine &ndash; calm, heavy, almost impossible to rattle, and yet, for all its inertia, of enormous strength. It does not fight for territory, does not defend its status &ndash; it simply moves on when the pasture grows thin, leaving behind what no longer sustains it. Few figures in intellectual history embody this image as completely as Laozi, who, according to tradition, ended his life by riding a black ox westward and vanishing into the desert.</p>
+          <p class="vb-intro">The <strong>elephant</strong> is the emblem of the self-preservation Nine &ndash; calm, heavy, almost impossible to rattle, and yet, for all its inertia, of enormous strength. It does not fight for territory, does not defend its status &ndash; it simply moves on when the pasture grows thin, leaving behind what no longer sustains it. Few figures in intellectual history embody this image as completely as Laozi, who, according to tradition, ended his life by riding a black ox westward and vanishing into the desert.</p>
           <p class="vb-intro">Little is historically certain about Laozi's existence (also Lao Tzu, literally "old master") &ndash; tradition places him in the 6th century BCE and makes him an older contemporary of Confucius, whom legend even has him meet. He is credited with the <em>Tao Te Ching</em>, a slim text of just over 5,000 Chinese characters that became the foundation of Daoism &ndash; one of the most influential schools of thought in China, still shaping philosophy, medicine, and the art of living today.</p>
         </blockquote>
 
@@ -1167,7 +1167,7 @@ export function mickeyRourkePortraitPage() {
 
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature that hides its vulnerability under a massive, often intimidating surface and allows real closeness only within its closest, most reliable circle. Few careers show this dual nature as clearly as Mickey Rourke's: a man whose public image is defined by toughness, while for decades his deepest, most faithful bond was with his dogs.</p>
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the emblem of the self-preservation Two &ndash; a creature that hides its vulnerability under a massive, often intimidating surface and allows real closeness only within its closest, most reliable circle. Few careers show this dual nature as clearly as Mickey Rourke's: a man whose public image is defined by toughness, while for decades his deepest, most faithful bond was with his dogs.</p>
           <p class="vb-intro">Philip Andre Rourke Jr. was born on September 16, 1952, in Schenectady, New York, and found early refuge from a difficult home life in the boxing ring &ndash; at the same Miami gym that had once produced Muhammad Ali (SO2w1). The ring became, for him, a place where pain took on a clear, controllable form instead of remaining diffuse and unpredictable.</p>
         </blockquote>
 
@@ -1230,7 +1230,7 @@ export function nateDoggPortraitPage() {
 
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature that draws its strength from a fixed, familiar circle rather than scattering it far and wide. Nate Dogg began his musical life not on a stage but at New Hope Baptist Church in Long Beach, where his own father, Daniel Lee Hale, preached as pastor &ndash; a voice shaped from the ground up within the closest family and community environment.</p>
+          <p class="vb-intro">The <strong>Hippopotamus</strong> stands as the animal of the self-preservation Two &ndash; a creature that draws its strength from a fixed, familiar circle rather than scattering it far and wide. Nate Dogg began his musical life not on a stage but at New Hope Baptist Church in Long Beach, where his own father, Daniel Lee Hale, preached as pastor &ndash; a voice shaped from the ground up within the closest family and community environment.</p>
           <p class="vb-intro">Nathaniel Dwayne Hale was born on August 19, 1969, in Clarksdale, Mississippi, and moved to Long Beach, California, at age fourteen after his parents' divorce. After dropping out of high school at seventeen, he served three years as an ammunition specialist in the US Marine Corps in Japan before returning to Long Beach &ndash; a path through discipline and service before music became his actual calling.</p>
         </blockquote>
 
@@ -1296,7 +1296,7 @@ export function peterFalkPortraitPage() {
 
         <h2 class="vb-section">1. The Buffalo</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>buffalo</strong> is the animal of the social Nine &ndash; an animal that never stands out through aggression, but exerts its effect simply through its unhurried presence. It moves slowly, seems almost harmless &ndash; and yet is the animal on the prairie that fewest creatures willingly stand in the way of. Few actors embodied this image as precisely as Peter Falk, and few roles made it as visible as his most famous one: the detective Columbo, in a rumpled trench coat, with a half-smoked cigar and an old Peugeot that always seems on the verge of breaking down.</p>
+          <p class="vb-intro">The <strong>buffalo</strong> stands as the animal of the social Nine &ndash; an animal that never stands out through aggression, but exerts its effect simply through its unhurried presence. It moves slowly, seems almost harmless &ndash; and yet is the animal on the prairie that fewest creatures willingly stand in the way of. Few actors embodied this image as precisely as Peter Falk, and few roles made it as visible as his most famous one: the detective Columbo, in a rumpled trench coat, with a half-smoked cigar and an old Peugeot that always seems on the verge of breaking down.</p>
           <p class="vb-intro">From 1968 to 2003, Falk played this man across 69 episodes &ndash; a detective who never shouts, never threatens, never draws a weapon. His only tool is patience. The buffalo seems as though it could be pushed aside. Every single time, that turns out to be a mistake &ndash; and the role fit Falk so precisely that many still believe he barely acted the part, but simply showed himself.</p>
         </blockquote>
 
@@ -2110,7 +2110,7 @@ export function eltonJohnPortraitPage() {
 
         <h2 class="vb-section">1. The Gorilla</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>gorilla</strong> is the animal of the self-preservation Seven: pleasure-seeking, territorial, always working to build itself a protected domain of abundance and safety. Reginald Kenneth Dwight was born in 1947 in Pinner, into a home full of tension – his father, a Royal Air Force officer, rejected his musical ambitions and wanted a conventional banking career for him. There were, by all accounts, fierce arguments at home that weighed heavily on the boy. His parents divorced when he was fourteen.</p>
+          <p class="vb-intro">The <strong>gorilla</strong> stands as the animal of the self-preservation Seven: pleasure-seeking, territorial, always working to build itself a protected domain of abundance and safety. Reginald Kenneth Dwight was born in 1947 in Pinner, into a home full of tension – his father, a Royal Air Force officer, rejected his musical ambitions and wanted a conventional banking career for him. There were, by all accounts, fierce arguments at home that weighed heavily on the boy. His parents divorced when he was fourteen.</p>
           <p class="vb-intro">His mother and grandmother raised him more generously and freely – at their piano, as a small boy, he learned to play classical pieces by ear. At eleven he won a scholarship to the Royal Academy of Music. The gorilla learned early to carve out a first domain of his own using talent – a place away from a cramped childhood home, where his own rules applied.</p>
         </blockquote>
 
@@ -2177,7 +2177,7 @@ export function peterMaffayPortraitPage() {
 
         <h2 class="vb-section">1. The Sloth Behind the Rock Star</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>sloth</strong> is the animal of the Sexual Nine – an animal that does not push, but lives fully present at its own pace. Peter Maffay was born in 1949 in Kronstadt (Romania) as a member of the German-speaking Transylvanian Saxon minority and emigrated with his family to West Germany in 1963. Despite more than fifty years as one of Germany's most successful rock musicians – over 40 million records sold – he remained noticeably reserved and undramatic in interviews, almost the opposite of the classic rock-star overstatement.</p>
+          <p class="vb-intro">The <strong>sloth</strong> is the symbolic animal of the Sexual Nine – an animal that does not push, but lives fully present at its own pace. Peter Maffay was born in 1949 in Kronstadt (Romania) as a member of the German-speaking Transylvanian Saxon minority and emigrated with his family to West Germany in 1963. Despite more than fifty years as one of Germany's most successful rock musicians – over 40 million records sold – he remained noticeably reserved and undramatic in interviews, almost the opposite of the classic rock-star overstatement.</p>
           <p class="vb-intro">Rather than defining himself through countless stage appearances and media self-promotion, Maffay repeatedly withdrew to his finca on Mallorca – a retreat where he kept his private life largely out of public view. The sloth does not seek the stage for its own sake, but the one thing it can fully merge with.</p>
         </blockquote>
 
@@ -2248,7 +2248,7 @@ export function heinzRuehmannPortraitPage() {
 
         <h2 class="vb-section">1. The Eagle Playing the Harmless Neighbor</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>bald eagle</strong> is the animal of the self-preservation One: a watchful, inward-turned gaze that keeps its own small world in order without putting itself loudly on display. Heinz Rühmann, one of the most successful German film actors for nearly seventy years, built his entire career on exactly this principle: he almost always played the honest, shy, humorous ordinary man struggling with the small adversities of everyday life – never the hero, never the powerful.</p>
+          <p class="vb-intro">The <strong>bald eagle</strong> is the emblem of the self-preservation One: a watchful, inward-turned gaze that keeps its own small world in order without putting itself loudly on display. Heinz Rühmann, one of the most successful German film actors for nearly seventy years, built his entire career on exactly this principle: he almost always played the honest, shy, humorous ordinary man struggling with the small adversities of everyday life – never the hero, never the powerful.</p>
           <p class="vb-intro">Contemporaries described him off-camera as a strikingly quiet, reserved man – a contrast to his comedic screen persona that lays bare exactly the self-preservation One's logic: public presence is generated through a carefully controlled role, while the actual self stays protected in the background.</p>
         </blockquote>
 
@@ -2448,7 +2448,7 @@ export function dmitriShostakovichPortraitPage() {
 
         <h2 class="vb-section">1. The Octopus Inside a System's Armor</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>octopus</strong> is the animal of the social Five – a creature that grasps with eight arms at once, reacts with remarkable intelligence, and yet, the moment danger appears, withdraws into a sheltering den or vanishes behind a shift of color. Dmitri Shostakovich, born on 25 September 1906 in St. Petersburg, showed his extraordinary musical talent early: at nineteen he submitted his First Symphony as his graduation piece at the Leningrad Conservatory – a work performed internationally within a short time and one that made him famous almost overnight.</p>
+          <p class="vb-intro">The <strong>octopus</strong> is the emblem of the social Five – a creature that grasps with eight arms at once, reacts with remarkable intelligence, and yet, the moment danger appears, withdraws into a sheltering den or vanishes behind a shift of color. Dmitri Shostakovich, born on 25 September 1906 in St. Petersburg, showed his extraordinary musical talent early: at nineteen he submitted his First Symphony as his graduation piece at the Leningrad Conservatory – a work performed internationally within a short time and one that made him famous almost overnight.</p>
           <p class="vb-intro">But this early fame fell into an era in which an artist with a public voice could pay for that voice with his life. Shostakovich spent his entire adult life inside a political system that needed his art and distrusted it in equal measure – a tension that shaped his career as it did almost no other composer of the twentieth century.</p>
         </blockquote>
 
@@ -2518,7 +2518,7 @@ export function amberBensonPortraitPage() {
 
         <h2 class="vb-section">1. The Sloth Known for a Supporting Role</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>sloth</strong> is the animal of the Sexual Type 9: it hangs in the tree seemingly uninvolved, and whoever looks closer notices how firmly it holds on to the one thing it has chosen. Amber Benson, born on 8 January 1977 in Birmingham, Alabama, the daughter of a psychiatrist, danced at six in the Alabama Ballet's 'Nutcracker', moved to Orlando at twelve and to Los Angeles at fourteen to become an actress. Her first film role came in 1993 in Steven Soderbergh's 'King of the Hill', as the epileptic Ella McShane.</p>
+          <p class="vb-intro">The <strong>sloth</strong> stands as the animal of the Sexual Type 9: it hangs in the tree seemingly uninvolved, and whoever looks closer notices how firmly it holds on to the one thing it has chosen. Amber Benson, born on 8 January 1977 in Birmingham, Alabama, the daughter of a psychiatrist, danced at six in the Alabama Ballet's 'Nutcracker', moved to Orlando at twelve and to Los Angeles at fourteen to become an actress. Her first film role came in 1993 in Steven Soderbergh's 'King of the Hill', as the epileptic Ella McShane.</p>
           <p class="vb-intro">She became known worldwide as Tara Maclay in 'Buffy the Vampire Slayer', a gentle, shy witch who appeared in the fourth season and died in the sixth. The role still shapes her public image. That is telling for the Nine: she is remembered above all as the character who stood in the background, even though she has since written books, directed films and produced audio dramas.</p>
         </blockquote>
 

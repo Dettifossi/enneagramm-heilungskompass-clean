@@ -84,7 +84,7 @@ export function arminRohdePortraitPage() {
 
         <h2 class="vb-section">1. Das Flusspferd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, das sein Revier nicht verlässt, weil es dort verwurzelt ist, nicht weil es dort gefangen wäre. Es kennt jeden Stein am Ufer, jede Strömung, jeden Nachbarn im selben Gewässer &ndash; und genau aus dieser tiefen Vertrautheit mit dem eigenen Ursprung zieht es seine Kraft, nicht aus Fremde oder Distanz.</p>
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Sinnbild der selbsterhaltenden Zwei &ndash; ein Tier, das sein Revier nicht verlässt, weil es dort verwurzelt ist, nicht weil es dort gefangen wäre. Es kennt jeden Stein am Ufer, jede Strömung, jeden Nachbarn im selben Gewässer &ndash; und genau aus dieser tiefen Vertrautheit mit dem eigenen Ursprung zieht es seine Kraft, nicht aus Fremde oder Distanz.</p>
           <p class="vb-intro">Armin Rohde, geboren 1955 in Herne im Ruhrgebiet, ist diesem Ursprung sein ganzes Leben und seine gesamte Karriere über treu geblieben. Auch nach Jahrzehnten als einer der bekanntesten deutschen Schauspieler bezeichnet er sich unverändert als Kind des Ruhrpotts, spricht offen im heimischen Dialekt und hat seine Herkunft nie als etwas behandelt, das man ablegt, sobald man berühmt wird. Das Flusspferd bleibt in seinem Wasser &ndash; und wird gerade dadurch unverwechselbar.</p>
         </blockquote>
 
@@ -205,7 +205,7 @@ export function changpengZhaoPortraitPage() {
 
         <h2 class="vb-section">1. Der Waschbär</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das im Dunkeln am geschicktesten ist: unauffällig, anpassungsfähig, überall zuhause, wo es gerade gebraucht wird. Erst wenn man genau hinschaut, wird sichtbar, wie viel Kontrolle in dieser scheinbaren Bescheidenheit steckt.</p>
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Wappentier der selbsterhaltenden Drei &ndash; ein Tier, das im Dunkeln am geschicktesten ist: unauffällig, anpassungsfähig, überall zuhause, wo es gerade gebraucht wird. Erst wenn man genau hinschaut, wird sichtbar, wie viel Kontrolle in dieser scheinbaren Bescheidenheit steckt.</p>
           <p class="vb-intro">Der kanadisch-chinesische Unternehmer Changpeng Zhao, meist nur als &bdquo;CZ&ldquo; bekannt, wurde 1977 in der chinesischen Provinz Jiangsu geboren und wanderte als Teenager mit seiner Familie nach Kanada aus, wo er in Vancouver aufwuchs und Informatik an der McGill University studierte. Vor der eigenen Firmengründung arbeitete er handwerklich-technisch im Hintergrund von Finanzsystemen &ndash; bei Bloomberg Tradebook, bei der Handelssoftware-Firma Fusion Systems und schließlich als Chief Technology Officer bei OKCoin, einer der damals größten Krypto-Börsen.</p>
         </blockquote>
 
@@ -408,7 +408,7 @@ export function fionaApplePortraitPage() {
 
         <h2 class="vb-section">1. Das G\u00fcrteltier</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>G\u00fcrteltier</strong> ist das Tier des sozialen Typs 4 &ndash; ein Tier voller Widerspr\u00fcche: ein harter Panzer nach au\u00dfen, eine au\u00dfergew\u00f6hnliche Empfindlichkeit im Inneren. Es zieht sich zur\u00fcck, sobald es sich bedroht f\u00fchlt, und gr\u00e4bt sich lieber ein, als sich zu verstellen. Und doch bleibt es, trotz seines R\u00fcckzugs, zutiefst auf die Gemeinschaft bezogen &ndash; es beobachtet sie genau, auch aus der Distanz.</p>
+          <p class="vb-intro">Das <strong>G\u00fcrteltier</strong> ist das Wappentier des sozialen Typs 4 &ndash; ein Tier voller Widerspr\u00fcche: ein harter Panzer nach au\u00dfen, eine au\u00dfergew\u00f6hnliche Empfindlichkeit im Inneren. Es zieht sich zur\u00fcck, sobald es sich bedroht f\u00fchlt, und gr\u00e4bt sich lieber ein, als sich zu verstellen. Und doch bleibt es, trotz seines R\u00fcckzugs, zutiefst auf die Gemeinschaft bezogen &ndash; es beobachtet sie genau, auch aus der Distanz.</p>
           <p class="vb-intro">Fiona Apple, geboren 1977 in New York City, verk\u00f6rpert dieses Paradox seit ihrem ersten Album: eine K\u00fcnstlerin, die sich dem \u00f6ffentlichen Betrieb immer wieder entzogen hat &ndash; jahrelange Pausen, R\u00fcckz\u00fcge aus dem Rampenlicht, Verweigerung von Interviews &ndash; und die trotzdem, oder gerade deshalb, zu den schonungslosesten Beobachterinnen der eigenen und der gesellschaftlichen Verh\u00e4ltnisse wurde. Das G\u00fcrteltier, das sich einrollt, um dann mit umso sch\u00e4rferer Klarheit wieder hervorzutreten.</p>
         </blockquote>
 
@@ -480,7 +480,7 @@ export function gangajiPortraitPage() {
 
         <h2 class="vb-section">1. Der Chihuahua</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Chihuahua</strong> ist das Tier der sexuellen Vier – ein Tier, das nach Herkunft und äußerer Erscheinung unscheinbar wirkt und doch ein Innenleben von kaum zu bändigender Intensität trägt. Gangaji wurde 1942 als Merle Antoinette Roberson in Mississippi geboren und arbeitete zunächst als Lehrerin in Memphis, dann als politische Aktivistin und später als Akupunkteurin – ein Leben, das äußerlich in mehreren bürgerlichen Bahnen verlief, ohne dass eine davon je die eigentliche Unruhe darunter stillte.</p>
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist die tierische Entsprechung der sexuellen Vier – ein Tier, das nach Herkunft und äußerer Erscheinung unscheinbar wirkt und doch ein Innenleben von kaum zu bändigender Intensität trägt. Gangaji wurde 1942 als Merle Antoinette Roberson in Mississippi geboren und arbeitete zunächst als Lehrerin in Memphis, dann als politische Aktivistin und später als Akupunkteurin – ein Leben, das äußerlich in mehreren bürgerlichen Bahnen verlief, ohne dass eine davon je die eigentliche Unruhe darunter stillte.</p>
           <p class="vb-intro">1972 zog sie nach Kalifornien, ließ sich später von ihrem ersten Mann scheiden und ging eine zweite Ehe mit dem sexuellen Achter <a href="#beruehmte-eli-jaxon-bear">Eli Jaxon-Bear (SX8w9)</a> ein, mit dem sie ein tibetisch-buddhistisches Dharma-Zentrum betrieb. 1989 heirateten die beiden formell in einer Höhle am Haleakala-Krater auf Maui – eine Verbindung, die bis heute anhält. Keine dieser Stationen war ein Irrweg – jede war eine weitere Form, in der dieselbe grundlegende Sehnsucht nach etwas Wirklicherem einen Ausdruck suchte, bevor sie 1990 gemeinsam mit ihm nach Indien reiste.</p>
         </blockquote>
 
@@ -545,7 +545,7 @@ export function hansChristianAndersenPortraitPage() {
 
         <h2 class="vb-section">1. Das Gürteltier, das sich niemals ganz zugehörig fühlte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier: Es trägt seine Verletzlichkeit sichtbar auf der Haut, geschützt und zugleich preisgegeben zugleich, und bewegt sich durch die Welt mit dem beständigen Gefühl, anders gepanzert zu sein als alle anderen. Wo die selbsterhaltende Vier sich zurückzieht und die sexuelle Vier ihre Intensität in engen Beziehungen auslebt, sucht die soziale Vier die Gruppe &ndash; nicht obwohl, sondern gerade weil sie sich in ihr fremd fühlt.</p>
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist die tierische Entsprechung der sozialen Vier: Es trägt seine Verletzlichkeit sichtbar auf der Haut, geschützt und zugleich preisgegeben zugleich, und bewegt sich durch die Welt mit dem beständigen Gefühl, anders gepanzert zu sein als alle anderen. Wo die selbsterhaltende Vier sich zurückzieht und die sexuelle Vier ihre Intensität in engen Beziehungen auslebt, sucht die soziale Vier die Gruppe &ndash; nicht obwohl, sondern gerade weil sie sich in ihr fremd fühlt.</p>
           <p class="vb-intro">Hans Christian Andersen, geboren 1805 als Sohn eines Schuhmachers und einer Wäscherin in Odense, war dieses Gürteltier von Kindheit an. Arm, hässlich in den Augen seiner Umgebung genannt, mit einer hohen, oft belächelten Stimme und einer Empfindsamkeit, die in seiner ärmlichen Welt als Schwäche galt &ndash; er wuchs als jemand auf, der nirgendwo wirklich hingehörte, und der genau deshalb sein Leben lang nichts sehnlicher wollte, als dazuzugehören.</p>
         </blockquote>
 
@@ -615,7 +615,7 @@ export function heinrichHeinePortraitPage() {
 
         <h2 class="vb-section">1. Das Gürteltier zwischen zwei Welten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier: Es trägt seine Verletzlichkeit sichtbar auf der Haut, geschützt und preisgegeben zugleich, und bewegt sich mit dem beständigen Gefühl durch die Welt, anders gepanzert zu sein als alle anderen. Heinrich Heine wurde 1797 in Düsseldorf in eine jüdische Familie hineingeboren &ndash; eine Herkunft, die ihn in einer Gesellschaft, die Juden systematisch ausschloss, von Kindheit an zum Außenseiter machte.</p>
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Wappentier der sozialen Vier: Es trägt seine Verletzlichkeit sichtbar auf der Haut, geschützt und preisgegeben zugleich, und bewegt sich mit dem beständigen Gefühl durch die Welt, anders gepanzert zu sein als alle anderen. Heinrich Heine wurde 1797 in Düsseldorf in eine jüdische Familie hineingeboren &ndash; eine Herkunft, die ihn in einer Gesellschaft, die Juden systematisch ausschloss, von Kindheit an zum Außenseiter machte.</p>
           <p class="vb-intro">1825 ließ er sich lutherisch taufen, um seine juristische Karriere überhaupt erst zu ermöglichen &ndash; er nannte die Taufurkunde selbst offen das "Entrée-Billet zur europäischen Kultur". Der Schritt brachte ihm jedoch keine wirkliche Zugehörigkeit: Für Juden galt er fortan als Abtrünniger, für Christen blieb er der unaufrichtige Konvertit oder gefährliche Radikale. Das Gürteltier wechselte den Panzer &ndash; und blieb doch auf beiden Seiten der Grenze ein Fremder.</p>
         </blockquote>
 
@@ -684,7 +684,7 @@ export function hughWarwickPortraitPage() {
 
         <h2 class="vb-section">1. Der Igel, der eine lebenslange Liebesaffäre mit dem Igel führt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier der sexuellen Fünf &ndash; stachelig nach außen, verletzlich im Kern, und fähig zu einer Intensität der Bindung, die sich nicht auf viele, sondern auf eine einzige, tief erforschte Sache konzentriert. Kaum ein Leben zeigt dieses Muster so wörtlich wie das von Hugh Warwick, britischer Ökologe, Autor und Sprecher der British Hedgehog Preservation Society, den man wegen seiner jahrzehntelangen Hingabe schlicht "den Igelflüsterer" nennt.</p>
+          <p class="vb-intro">Der <strong>Igel</strong> ist das Sinnbild der sexuellen Fünf &ndash; stachelig nach außen, verletzlich im Kern, und fähig zu einer Intensität der Bindung, die sich nicht auf viele, sondern auf eine einzige, tief erforschte Sache konzentriert. Kaum ein Leben zeigt dieses Muster so wörtlich wie das von Hugh Warwick, britischer Ökologe, Autor und Sprecher der British Hedgehog Preservation Society, den man wegen seiner jahrzehntelangen Hingabe schlicht "den Igelflüsterer" nennt.</p>
           <p class="vb-intro">Der britische Ökologe Hugh Warwick studierte Igel seit Mitte der 1980er-Jahre, verbrachte Monate mit Radiotelemetrie-Verfolgung der Tiere in Südwestengland und Schottland und widmet ihnen seit über drei Jahrzehnten praktisch sein gesamtes berufliches Leben. Eines seiner bekanntesten Bücher trägt den bezeichnenden Titel "A Prickly Affair" &ndash; eine "stachelige Liebesaffäre" &ndash; ein Titel, der seine Beziehung zum Igel selbst als das beschreibt, was sie ist: eine Affäre, keine bloße Fachstudie.</p>
         </blockquote>
 
@@ -748,7 +748,7 @@ export function janeGoodallPortraitPage() {
 
         <h2 class="vb-section">1. Das Faultier</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier der sexuellen Neun &ndash; ein Tier, das nicht kämpft, nicht drängt, sondern die Dinge zu sich kommen lässt, vollkommen präsent in seinem eigenen Tempo. Jane Goodall, 1934 in London geboren, verkörperte genau diese Qualität, als sie 1960, mit 26 Jahren, an den Gombe-Stream-See in Tansania reiste, um wilde Schimpansen zu erforschen &ndash; ohne akademische Vorbildung, nur mit einem Notizbuch und der Bereitschaft zu warten.</p>
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Wappentier der sexuellen Neun &ndash; ein Tier, das nicht kämpft, nicht drängt, sondern die Dinge zu sich kommen lässt, vollkommen präsent in seinem eigenen Tempo. Jane Goodall, 1934 in London geboren, verkörperte genau diese Qualität, als sie 1960, mit 26 Jahren, an den Gombe-Stream-See in Tansania reiste, um wilde Schimpansen zu erforschen &ndash; ohne akademische Vorbildung, nur mit einem Notizbuch und der Bereitschaft zu warten.</p>
           <p class="vb-intro">Die ersten drei Monate verbrachte sie damit, den Schimpansen einfach nur aus der Distanz zuzusehen, bis sie sich an ihre Anwesenheit gewöhnten. Kein forscher Zugriff, kein hastiges Sammeln von Daten &ndash; sondern geduldiges Warten, bis Vertrauen entstand. Diese Studie wurde zur längsten kontinuierlichen Feldforschung an einer Tiergruppe der Geschichte.</p>
         </blockquote>
 
@@ -817,7 +817,7 @@ export function johannWolfgangVonGoethePortraitPage() {
 
         <h2 class="vb-section">1. Der Biber, der nie ein Bauwerk für abgeschlossen hielt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier des sozialen Typs 7 – er baut nicht für den eigenen Genuss, sondern errichtet Strukturen, die weit über ihn hinaus wirken, und ist dabei nie wirklich fertig. Kaum eine Gestalt der deutschen Geistesgeschichte verkörpert dieses rastlose, nie abgeschlossene Bauen so umfassend wie Johann Wolfgang von Goethe: Dichter, Dramatiker, Romanautor, Naturforscher, Minister, Theaterleiter – oft alles gleichzeitig, ein Leben lang.</p>
+          <p class="vb-intro">Der <strong>Biber</strong> ist die tierische Entsprechung des sozialen Typs 7 – er baut nicht für den eigenen Genuss, sondern errichtet Strukturen, die weit über ihn hinaus wirken, und ist dabei nie wirklich fertig. Kaum eine Gestalt der deutschen Geistesgeschichte verkörpert dieses rastlose, nie abgeschlossene Bauen so umfassend wie Johann Wolfgang von Goethe: Dichter, Dramatiker, Romanautor, Naturforscher, Minister, Theaterleiter – oft alles gleichzeitig, ein Leben lang.</p>
           <p class="vb-intro">Geboren 1749 in Frankfurt am Main als Sohn eines wohlhabenden, streng erziehenden Juristen, wuchs Goethe in einem Haushalt auf, der Bildung als Pflicht und Selbstzweck zugleich verstand. Schon als Jugendlicher lernte er mehrere Sprachen parallel, verfasste erste Gedichte und begann, was sein ganzes Leben prägen sollte: nie bei einem einzigen Interessensgebiet zu verweilen, sondern beständig neue Bereiche zu erschließen.</p>
         </blockquote>
 
@@ -1043,7 +1043,7 @@ export function loiPortraitPage() {
 
         <h2 class="vb-section">1. Das Flusspferd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, dessen Name selbst schon Programm ist: standhaft, warmherzig, im eigenen Element unerschütterlich. Leonie Greiner wählte sich als Künstlernamen ausgerechnet <em>Loi</em>, eine andere Schreibweise von „Löwe" – abgeleitet von ihrem Kindheitsspitznamen „Leonie Löwenherz". Ein Name, der schon früh eine innere Stärke behauptete, die sich erst später öffentlich bestätigen sollte.</p>
+          <p class="vb-intro">Das <strong>Flusspferd</strong> gilt als das Tier der selbsterhaltenden Zwei &ndash; ein Tier, dessen Name selbst schon Programm ist: standhaft, warmherzig, im eigenen Element unerschütterlich. Leonie Greiner wählte sich als Künstlernamen ausgerechnet <em>Loi</em>, eine andere Schreibweise von „Löwe" – abgeleitet von ihrem Kindheitsspitznamen „Leonie Löwenherz". Ein Name, der schon früh eine innere Stärke behauptete, die sich erst später öffentlich bestätigen sollte.</p>
           <p class="vb-intro">Geboren am 3. Juli 2002 in Mannheim, begann Loi ihre musikalische Laufbahn nicht mit einem plötzlichen Durchbruch, sondern über Jahre des Übens an Gitarre und Klavier – ein solides, handwerkliches Fundament, bevor sie überhaupt einem größeren Publikum bekannt wurde.</p>
         </blockquote>
 
@@ -1386,7 +1386,7 @@ export function robbieWilliamsPortraitPage() {
 
         <h2 class="vb-section">1. Die Schwarze Mamba</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Tier der sexuellen Eins &ndash; blitzschnell, pr\u00e4zise, kompromisslos. Sie greift nicht aus Bosheit an, sondern aus einem inneren Gesetz heraus: Was falsch ist, wird benannt, auch wenn es das eigene Selbst betrifft. Kein Tier verk\u00f6rpert so sehr die Unf\u00e4higkeit, sich zu verstellen &ndash; und die Konsequenzen, die daraus entstehen, wenn man es trotzdem versucht.</p>
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> gilt als das Tier der sexuellen Eins &ndash; blitzschnell, pr\u00e4zise, kompromisslos. Sie greift nicht aus Bosheit an, sondern aus einem inneren Gesetz heraus: Was falsch ist, wird benannt, auch wenn es das eigene Selbst betrifft. Kein Tier verk\u00f6rpert so sehr die Unf\u00e4higkeit, sich zu verstellen &ndash; und die Konsequenzen, die daraus entstehen, wenn man es trotzdem versucht.</p>
           <p class="vb-intro">Der britische Sänger Robbie Williams, geboren 1974 in Stoke-on-Trent, trat mit sechzehn Jahren der Boygroup Take That bei &ndash; und wurde schon dort zur unruhigsten, unangepasstesten Figur der Gruppe. W\u00e4hrend die anderen das Image pflegten, brach er es: zu laut, zu ehrlich, zu sehr er selbst f\u00fcr ein Format, das Kontrolle verlangte. Die Mamba l\u00e4sst sich nicht dauerhaft in eine Choreografie zwingen.</p>
         </blockquote>
 
@@ -1522,7 +1522,7 @@ export function theaLitschkaKoenPortraitPage() {
 
         <h2 class="vb-section">1. Die Schwarze Mamba</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Tier der sexuellen Eins &ndash; blitzschnell, pr\xe4zise, kompromisslos, ohne Bosheit, aber auch ohne Verhandlungsspielraum. Thea Litschka-Koen gilt als eine der weltweit f\xfchrenden Expertinnen f\xfcr Schwarze Mambas &ndash; nicht durch ein Biologiestudium, sondern durch \xfcber f\xfcnfzehn Jahre praktische, akribisch aufgebaute Expertise im direkten Umgang mit genau dieser Schlangenart.</p>
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> gilt als das Tier der sexuellen Eins &ndash; blitzschnell, pr\xe4zise, kompromisslos, ohne Bosheit, aber auch ohne Verhandlungsspielraum. Thea Litschka-Koen gilt als eine der weltweit f\xfchrenden Expertinnen f\xfcr Schwarze Mambas &ndash; nicht durch ein Biologiestudium, sondern durch \xfcber f\xfcnfzehn Jahre praktische, akribisch aufgebaute Expertise im direkten Umgang mit genau dieser Schlangenart.</p>
           <p class="vb-intro">Sie ist Mitglied im WHO Snakebite Panel of Experts und in der African Snakebite Advisory Group &ndash; eine von Fachkolleginnen und -kollegen anerkannte Autorit\xe4t, obwohl ihr beruflicher Hintergrund urspr\xfcnglich im Hotelmanagement lag. Genau das ist bemerkenswert: Wie bei Prof. Grahame Webb (SX8w7) und dem Krokodil zeigt sich auch hier, dass wissenschaftliche Autorit\xe4t nicht zwingend \xfcber den akademischen Werdegang entsteht, sondern \xfcber jahrelange, unerbittlich genaue praktische Auseinandersetzung mit einem einzigen Gegenstand &ndash; eine Form von Wissenschaft, die sich in ihrer Genauigkeit von keiner Universit\xe4tskarriere unterscheidet.</p>
         </blockquote>
 
@@ -1647,7 +1647,7 @@ export function wolodymyrSelenskyjPortraitPage() {
 
         <h2 class="vb-section">1. Der Waschb\u00e4r: Nachtaktiv, geschickt, unsichtbar</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschb\u00e4r</strong> ist das Tier der selbsterhaltenden Drei &ndash; und er ist kein Tier, das man sofort erkennt. Er kommt in der Nacht. Er \u00f6ffnet Schl\u00f6sser, durchw\u00fchlt Vorr\u00e4te, hinterl\u00e4sst Spuren &ndash; aber er ist l\u00e4ngst weg, wenn man ihn sucht. Er wirkt harmlos, fast niedlich. Sein Gesicht tr\u00e4gt von Natur aus eine Maske. Und er ist klug genug, genau das zu wissen.</p>
+          <p class="vb-intro">Der <strong>Waschb\u00e4r</strong> ist die tierische Entsprechung der selbsterhaltenden Drei &ndash; und er ist kein Tier, das man sofort erkennt. Er kommt in der Nacht. Er \u00f6ffnet Schl\u00f6sser, durchw\u00fchlt Vorr\u00e4te, hinterl\u00e4sst Spuren &ndash; aber er ist l\u00e4ngst weg, wenn man ihn sucht. Er wirkt harmlos, fast niedlich. Sein Gesicht tr\u00e4gt von Natur aus eine Maske. Und er ist klug genug, genau das zu wissen.</p>
           <p class="vb-intro">Der ukrainische Politiker Wolodymyr Selenskyj, geboren 1978 in Krywyj Rih, begann seine Karriere als Comedian und Schauspieler. Er spielte in der Fernsehserie <em>Diener des Volkes</em> einen Lehrer, der zuf\u00e4llig Pr\u00e4sident wird &ndash; und wurde dann tats\u00e4chlich Pr\u00e4sident der Ukraine. Was wie ein M\u00e4rchen klingt, ist im Enneagramm eine Warnung: Ein Schauspieler, der eine Rolle spielt, bis er selbst nicht mehr wei\u00df, wo die Rolle endet und er anf\u00e4ngt. Das ist die Falle der selbsterhaltenden Drei &ndash; und bei Selenskyj ist sie auf der Weltb\u00fchne aufgegangen.</p>
         </blockquote>
 
@@ -1795,7 +1795,7 @@ export function heleneFischerPortraitPage() {
 
         <h2 class="vb-section">1. Der Pfau, der sein Rad vollständig für andere entfaltet</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier des sexuellen Typs 3 – ein Tier, dessen schönster Moment kein privates Vergnügen ist, sondern eine vollständig für ein Publikum ausgespielte Vorstellung. Helene Fischer, 1984 in Krasnojarsk geboren und mit ihrer Familie als Kind nach Deutschland übergesiedelt, arbeitete sich über Jahre unermüdlicher Auftritte, Proben und Tourneen zur erfolgreichsten deutschen Schlagersängerin der Gegenwart hoch – mit Bühnenshows, die an Aufwand und Akrobatik eher an eine Cirque-du-Soleil-Produktion erinnern als an ein klassisches Schlagerkonzert.</p>
+          <p class="vb-intro">Der <strong>Pfau</strong> ist die tierische Entsprechung des sexuellen Typs 3 – ein Tier, dessen schönster Moment kein privates Vergnügen ist, sondern eine vollständig für ein Publikum ausgespielte Vorstellung. Helene Fischer, 1984 in Krasnojarsk geboren und mit ihrer Familie als Kind nach Deutschland übergesiedelt, arbeitete sich über Jahre unermüdlicher Auftritte, Proben und Tourneen zur erfolgreichsten deutschen Schlagersängerin der Gegenwart hoch – mit Bühnenshows, die an Aufwand und Akrobatik eher an eine Cirque-du-Soleil-Produktion erinnern als an ein klassisches Schlagerkonzert.</p>
           <p class="vb-intro">Trotz Weltruhm hält sie ihr Privatleben streng abgeschottet – kaum Home-Storys, kaum Social-Media-Selbstinszenierung im Alltag. Das ist kein Widerspruch zur SX3, sondern ihre Konzentration: Die gesamte magnetische Wirkung wird nicht in ständiger Präsenz verstreut, sondern vollständig auf den einen Moment gebündelt, in dem der Vorhang aufgeht.</p>
         </blockquote>
 
@@ -1868,7 +1868,7 @@ export function dieterLangePortraitPage() {
 
         <h2 class="vb-section">1. Der Adler</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins &ndash; ein Tier, das nicht durch Lautstärke beeindruckt, sondern durch die Genauigkeit seines Blicks. Er kreist lange, bevor er sich festlegt, und wenn er handelt, dann aus einer inneren Klarheit heraus, die er sich über Jahre erarbeitet hat.</p>
+          <p class="vb-intro">Der <strong>Adler</strong> ist die tierische Entsprechung der selbsterhaltenden Eins &ndash; ein Tier, das nicht durch Lautstärke beeindruckt, sondern durch die Genauigkeit seines Blicks. Er kreist lange, bevor er sich festlegt, und wenn er handelt, dann aus einer inneren Klarheit heraus, die er sich über Jahre erarbeitet hat.</p>
           <p class="vb-intro">Dieter Lange, geboren 1951, verkörpert diesen Adlerblick in einem ungewöhnlichen Berufsweg: Nach einem Studium der Psychologie und Betriebswirtschaftslehre, unter anderem in Harvard, verbrachte er mehrere Jahre damit, bei Naturvölkern, in Wüstenregionen und in ostasiatischen Klöstern zu leben &ndash; eine Selbstprüfung, die weit über das hinausgeht, was die meisten Trainer seines Fachs je unternommen haben.</p>
         </blockquote>
 
@@ -1932,7 +1932,7 @@ export function juergenKlinsmannPortraitPage() {
 
         <h2 class="vb-section">1. Der Adler</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins – ein Tier, das nicht durch Lautstärke beeindruckt, sondern durch die Genauigkeit seines Blicks und die Konsequenz seines Handelns, sobald der eigene Anspruch erfüllt ist. Jürgen Klinsmann, geboren 1964 in Göppingen als Sohn eines Bäckermeisters, fiel schon als junger Stürmer bei VfB Stuttgart durch eine Disziplin auf, die in den 1980er-Jahren im deutschen Fußball noch unüblich war: gezieltes Zusatztraining, Ernährungsbewusstsein, akribische Vorbereitung auf jedes Detail seines Spiels.</p>
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Sinnbild der selbsterhaltenden Eins – ein Tier, das nicht durch Lautstärke beeindruckt, sondern durch die Genauigkeit seines Blicks und die Konsequenz seines Handelns, sobald der eigene Anspruch erfüllt ist. Jürgen Klinsmann, geboren 1964 in Göppingen als Sohn eines Bäckermeisters, fiel schon als junger Stürmer bei VfB Stuttgart durch eine Disziplin auf, die in den 1980er-Jahren im deutschen Fußball noch unüblich war: gezieltes Zusatztraining, Ernährungsbewusstsein, akribische Vorbereitung auf jedes Detail seines Spiels.</p>
           <p class="vb-intro">Diese frühe Bereitschaft, sich selbst höheren Maßstäben zu unterwerfen als das übliche Trainingspensum verlangte, zieht sich durch seine gesamte Karriere – vom Spieler bis zum Trainer, der Jahrzehnte später genau diese Haltung zur Grundlage einer kompletten Reform des deutschen Nationalteams machte.</p>
         </blockquote>
 
@@ -2059,7 +2059,7 @@ export function usainBoltPortraitPage() {
 
         <h2 class="vb-section">1. Der Golden Retriever, der das Stadion mitnahm</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei – zugewandt, unwiderstehlich darauf aus, ein ganzes Publikum für sich zu gewinnen. Usain Bolt, 1986 im ländlichen Sherwood Content in Jamaika geboren, spielte als Kind zunächst Cricket und Fußball, bevor sein Grundschullehrer und Cricket-Trainer seine außergewöhnliche Schnelligkeit bemerkte und ihn zum Sprint drängte. Schon als Teenager fiel Bolt weniger durch stille Disziplin auf als durch die schiere Freude, vor Publikum zu laufen.</p>
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> gilt als das Tier der sozialen Zwei – zugewandt, unwiderstehlich darauf aus, ein ganzes Publikum für sich zu gewinnen. Usain Bolt, 1986 im ländlichen Sherwood Content in Jamaika geboren, spielte als Kind zunächst Cricket und Fußball, bevor sein Grundschullehrer und Cricket-Trainer seine außergewöhnliche Schnelligkeit bemerkte und ihn zum Sprint drängte. Schon als Teenager fiel Bolt weniger durch stille Disziplin auf als durch die schiere Freude, vor Publikum zu laufen.</p>
           <p class="vb-intro">Diese Freude am Publikum wurde zu seinem Markenzeichen: Kein anderer Sprinter der Geschichte tanzte, scherzte und posierte so ausgiebig vor dem Start und nach dem Zieleinlauf wie Bolt. Der Golden Retriever läuft nicht nur für sich selbst schnell – er läuft, um ein ganzes Stadion mitzureißen.</p>
         </blockquote>
 
@@ -2127,7 +2127,7 @@ export function davidGarrettPortraitPage() {
 
         <h2 class="vb-section">1. Der Chihuahua, der sich einen eigenen Namen gab</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Chihuahua</strong> ist das Tier der sexuellen Vier: klein, aber von einer Intensität, die in keinem Verhältnis zur eigenen Größe steht. David Garrett wurde 1980 in Aachen als David Bongartz geboren, Sohn eines deutschen Juristen und einer amerikanischen Ballerina. Mit vier Jahren griff er erstmals zur Geige seiner Schwester, mit zehn debütierte er bereits professionell mit der Hamburger Philharmonie unter Zubin Mehta.</p>
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist die tierische Entsprechung der sexuellen Vier: klein, aber von einer Intensität, die in keinem Verhältnis zur eigenen Größe steht. David Garrett wurde 1980 in Aachen als David Bongartz geboren, Sohn eines deutschen Juristen und einer amerikanischen Ballerina. Mit vier Jahren griff er erstmals zur Geige seiner Schwester, mit zehn debütierte er bereits professionell mit der Hamburger Philharmonie unter Zubin Mehta.</p>
           <p class="vb-intro">Sein Vater übernahm früh die vollständige Kontrolle über seine Karriere und seine Finanzen – ein enges, kompromissloses Regiment, dem sich der junge Garrett Jahre lang fügte. Mit 17 nahm er den Mädchennamen seiner Mutter als Künstlernamen an: ein erster, kleiner, aber unmissverständlicher Akt der Abgrenzung von der Identität, die sein Vater für ihn entworfen hatte.</p>
         </blockquote>
 
@@ -2402,7 +2402,7 @@ export function madisonChockPortraitPage() {
 
         <h2 class="vb-section">1. Das Flusspferd, das seine Konkurrentinnen einkleidet</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei: warm, stolz, mit einem ausgeprägten Gespür dafür, wer im eigenen Umfeld Fürsorge braucht. Madison Chock wurde 1992 in Redondo Beach, Kalifornien, geboren – väterlicherseits chinesisch-hawaiianischer, mütterlicherseits europäischer Abstammung – und begann mit fünf Jahren, Eis zu laufen. 2011 fand sie mit Evan Bates eine neue Partnerschaft, die sie über vier Olympische Winterspiele hinweg zu drei Weltmeistertiteln, sechs US-Meistertiteln und mehreren olympischen Medaillen führte.</p>
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist die tierische Entsprechung der selbsterhaltenden Zwei: warm, stolz, mit einem ausgeprägten Gespür dafür, wer im eigenen Umfeld Fürsorge braucht. Madison Chock wurde 1992 in Redondo Beach, Kalifornien, geboren – väterlicherseits chinesisch-hawaiianischer, mütterlicherseits europäischer Abstammung – und begann mit fünf Jahren, Eis zu laufen. 2011 fand sie mit Evan Bates eine neue Partnerschaft, die sie über vier Olympische Winterspiele hinweg zu drei Weltmeistertiteln, sechs US-Meistertiteln und mehreren olympischen Medaillen führte.</p>
           <p class="vb-intro">2023 gründete Chock zusätzlich zu ihrer aktiven Wettkampfkarriere ihr eigenes Modelabel, Madison Chock Design – und stattet seither auch direkte Konkurrentinnen mit ihren preisgekrönten Kostümen aus. „Ich möchte so viel Selbstvertrauen wie möglich für die Menschen schaffen, für die ich designe", sagt sie über diese doppelte Rolle als Athletin und Ausstatterin der eigenen Konkurrenz.</p>
         </blockquote>
 
@@ -2666,7 +2666,7 @@ export function adaLovelacePortraitPage() {
 
         <h2 class="vb-section">1. Der Biber: ein Mädchen, das mit zwölf eine Flugmaschine entwarf</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier der sozialen Sieben. Er baut ohne Pause, und was er baut, dient mehr als ihm selbst: Dämme, Teiche, ein ganzes Gefüge, von dem andere leben. Augusta Ada Byron wurde am 10. Dezember 1815 in London als Tochter des Dichters Lord Byron und der Reformerin Anne Isabella Milbanke geboren. Byron trennte sich etwa einen Monat nach ihrer Geburt von der Mutter und starb im April 1824, als Ada acht war. Eine wirkliche Beziehung zu ihm hatte sie nie.</p>
+          <p class="vb-intro">Der <strong>Biber</strong> gilt als das Tier der sozialen Sieben. Er baut ohne Pause, und was er baut, dient mehr als ihm selbst: Dämme, Teiche, ein ganzes Gefüge, von dem andere leben. Augusta Ada Byron wurde am 10. Dezember 1815 in London als Tochter des Dichters Lord Byron und der Reformerin Anne Isabella Milbanke geboren. Byron trennte sich etwa einen Monat nach ihrer Geburt von der Mutter und starb im April 1824, als Ada acht war. Eine wirkliche Beziehung zu ihm hatte sie nie.</p>
           <p class="vb-intro">Die Mutter hielt sie von Byrons Einfluss fern und ließ sie auf Anzeichen ›moralischer Abweichung‹ beobachten, Ada nannte diese Aufpasser die ›Furien‹. Ab dem achten Lebensjahr hatte sie Kopfschmerzen, im Juni 1829 lähmten sie die Masern, sie lag fast ein Jahr im Bett und ging 1831 an Krücken. Im Februar 1828, mit zwölf, plante sie eine Flugmaschine, studierte die Anatomie von Vögeln und entwarf ein Buch mit dem Titel ›Flyology‹.</p>
         </blockquote>
 

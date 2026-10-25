@@ -17,7 +17,7 @@ export function abdAlFattahAsSisiPortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that wants to be needed and puts its strength in the service of the group. From outside, the Golden Retriever seems warm, caring, connecting. But the same energy that creates bonds can also turn into the role of the indispensable protector to whom everyone else must submit &ndash; a claim that, in Abd al-Fattah as-Sisi, extends all the way into the leadership of the Egyptian state.</p>
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the emblem of the social Two &ndash; an animal that wants to be needed and puts its strength in the service of the group. From outside, the Golden Retriever seems warm, caring, connecting. But the same energy that creates bonds can also turn into the role of the indispensable protector to whom everyone else must submit &ndash; a claim that, in Abd al-Fattah as-Sisi, extends all the way into the leadership of the Egyptian state.</p>
           <p class="vb-intro">Abd al-Fattah as-Sisi was born on November 19, 1954, in Cairo, into a military family, and is married to his maternal cousin, Entissar Amer. In 1977 he graduated from the Military Academy and began a career in mechanized infantry &ndash; a path oriented from the start toward belonging to a clearly ordered, hierarchical community in which care and command authority are inseparably linked.</p>
         </blockquote>
 
@@ -83,7 +83,7 @@ export function anastasiiaMetelkinaPortraitPage() {
 
         <h2 class="vb-section">1. The Camel on the Ice</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>camel</strong> is the animal of the sexual Two – enduring, load-bearing, built for the long, demanding journey rather than the brief performance. In pair skating this image becomes literal: two bodies must carry each other, through lifts, death spirals and throw jumps, where a single break in trust means a fall. Anastasiia Metelkina, born on March 10, 2005 in Vladimir, Russia, has made exactly this capacity to carry into her life's work – not as a solo competitor, but as one half of a pair that can only succeed together.</p>
+          <p class="vb-intro">The <strong>camel</strong> stands as the animal of the sexual Two – enduring, load-bearing, built for the long, demanding journey rather than the brief performance. In pair skating this image becomes literal: two bodies must carry each other, through lifts, death spirals and throw jumps, where a single break in trust means a fall. Anastasiia Metelkina, born on March 10, 2005 in Vladimir, Russia, has made exactly this capacity to carry into her life's work – not as a solo competitor, but as one half of a pair that can only succeed together.</p>
           <p class="vb-intro">Her path was not a straight one. After earlier partnerships, including with Daniil Parkman, and a difficult transition at a Berlin training center in 2022, she found a new partner in spring 2023 in Georgian figure skater Luka Berulawa – and has competed internationally for Georgia ever since. The camel knows when the caravan changes course. It adapts to the new route without losing the load it carries.</p>
         </blockquote>
 
@@ -148,7 +148,7 @@ export function bastianPastewkaPortraitPage() {
 
         <h2 class="vb-section">1. The Raccoon</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the Self-Preservation Three – an animal that works with tireless diligence out of sight before it shows itself, and whose dexterity owes not to chance but to years of patient preparation. Bastian Pastewka was born in 1972 in Bochum and became known to a broad audience in the late 1990s through the sketch show "Die Wochenshow," in which he created carefully worked-out characters of his own, such as Brisko Schneider and Ottmar Zittlau.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> stands as the animal of the Self-Preservation Three – an animal that works with tireless diligence out of sight before it shows itself, and whose dexterity owes not to chance but to years of patient preparation. Bastian Pastewka was born in 1972 in Bochum and became known to a broad audience in the late 1990s through the sketch show "Die Wochenshow," in which he created carefully worked-out characters of his own, such as Brisko Schneider and Ottmar Zittlau.</p>
           <p class="vb-intro">The path there did not run through spontaneous improvisation but through craft preparation – Pastewka is still regarded today as a perfectionist who meticulously refines every role, every punchline, every piece of timing before stepping on stage or in front of the camera.</p>
         </blockquote>
 
@@ -218,7 +218,7 @@ export function byronKatiePortraitPage() {
 
         <h2 class="vb-section">1. The Wolf</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>wolf</strong> is the animal of the sexual Type 6 &ndash; an animal that does not avoid threat, but looks it straight in the eye. Wolves test one another through eye contact and closeness, not through retreat. Anyone who wants to hold their place in the pack must be able to stand firm when things get uncomfortable &ndash; exactly the movement Byron Katie turned into her life's work: not avoiding her own fear, but looking directly at it, question by question.</p>
+          <p class="vb-intro">The <strong>wolf</strong> is the emblem of the sexual Type 6 &ndash; an animal that does not avoid threat, but looks it straight in the eye. Wolves test one another through eye contact and closeness, not through retreat. Anyone who wants to hold their place in the pack must be able to stand firm when things get uncomfortable &ndash; exactly the movement Byron Katie turned into her life's work: not avoiding her own fear, but looking directly at it, question by question.</p>
           <p class="vb-intro">The American Byron Kathleen Reid, born in 1942 in the desert town of Barstow, California, was a successful businesswoman in real estate during the 1970s, married, mother of three children. Nothing about this life hinted at what followed: a near-total inner collapse &ndash; and, born out of it, one of the most influential self-inquiry methods of our time.</p>
         </blockquote>
 
@@ -359,7 +359,7 @@ export function dhapanbalYunupinguPortraitPage() {
 
         <h2 class="vb-section">1. The Orangutan</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>orangutan</strong> is the animal of the self-preservation Type 8 &ndash; an animal that needs no troop, no stage, no outside confirmation. It lives in its own territory, grounded, patient, with a strength that needs no proving. Dhapanbal Yunupingu embodies exactly this quiet groundedness: an artist who remains rooted in her own land, in her own community, while her music carries far beyond it.</p>
+          <p class="vb-intro">The <strong>orangutan</strong> stands as the animal of the self-preservation Type 8 &ndash; an animal that needs no troop, no stage, no outside confirmation. It lives in its own territory, grounded, patient, with a strength that needs no proving. Dhapanbal Yunupingu embodies exactly this quiet groundedness: an artist who remains rooted in her own land, in her own community, while her music carries far beyond it.</p>
           <p class="vb-intro">Dhapanbal Yunupingu is a singer, songwriter, and visual artist from North East Arnhem Land, Australia &ndash; the third of six daughters of Dr. M. Yunupingu, frontman of the legendary band Yothu Yindi and one of the most defining figures in modern Indigenous Australian music and civil rights history. She lives and works at the Buku-Larrŋgay Mulka Art Centre in Yirrkala &ndash; the cultural center of her community.</p>
         </blockquote>
 
@@ -558,7 +558,7 @@ export function giannaNanniniPortraitPage() {
 
         <h2 class="vb-section">1. The Eagle</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>eagle</strong> is the animal of the Self-Preservation One – it circles high above events, sees with unusual clarity what happens below, and intervenes only when it truly matters. Gianna Nannini was born in 1954 in Siena, the daughter of a wealthy industrialist and confectionery entrepreneur and sister of the future Formula 1 driver Alessandro Nannini. In this conservative, tradition-bound business family, she was early on seen as the creative counterpoint – expected to follow in the family business, she wanted something entirely different.</p>
+          <p class="vb-intro">The <strong>eagle</strong> is the animal counterpart of the Self-Preservation One – it circles high above events, sees with unusual clarity what happens below, and intervenes only when it truly matters. Gianna Nannini was born in 1954 in Siena, the daughter of a wealthy industrialist and confectionery entrepreneur and sister of the future Formula 1 driver Alessandro Nannini. In this conservative, tradition-bound business family, she was early on seen as the creative counterpoint – expected to follow in the family business, she wanted something entirely different.</p>
           <p class="vb-intro">Rather than openly rebelling against her family, the young Gianna chose the disciplined path: throughout her adolescence she underwent classical training at the Lucca Conservatory, was trained as a pianist, and later studied composition with Bruno Bettinelli. The eagle that does not fight for its flight path but works it out precisely before taking off.</p>
         </blockquote>
 
@@ -765,7 +765,7 @@ export function jennaOrtegaPortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>golden retriever</strong> is the animal of the Social Two – an animal that does not keep its energy to itself but puts it to work for a larger community. Jenna Ortega was born in 2002 in Rancho Mirage, California, the fourth of six children in a family of Mexican and Puerto Rican descent. Her father worked in law enforcement, her mother as an emergency-room nurse – a household whose professional imprint was consistently oriented toward serving the public good.</p>
+          <p class="vb-intro">The <strong>golden retriever</strong> is the symbolic animal of the Social Two – an animal that does not keep its energy to itself but puts it to work for a larger community. Jenna Ortega was born in 2002 in Rancho Mirage, California, the fourth of six children in a family of Mexican and Puerto Rican descent. Her father worked in law enforcement, her mother as an emergency-room nurse – a household whose professional imprint was consistently oriented toward serving the public good.</p>
           <p class="vb-intro">Her acting career began early, with roles as the young Jane in "Jane the Virgin" and as Harley Diaz in "Stuck in the Middle" – a child actress in an environment that taught her, from a young age, to carry public attention.</p>
         </blockquote>
 
@@ -824,7 +824,7 @@ export function josephAounPortraitPage() {
 
         <h2 class="vb-section">1. The Eagle</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eagle</strong> is the animal of the self-preservation One &ndash; an animal that impresses not through volume but through precision and restraint. It watches for a long time before it acts, and needs no stage to prove its effectiveness. Few political portraits show this more clearly than the path of Lebanese President Joseph Aoun: ahead of his election he campaigned in no public forum whatsoever, and unlike what is customary in Lebanon's fractured political system, he did not make the rounds of rival factions to secure support.</p>
+          <p class="vb-intro">The <strong>Eagle</strong> is the emblem of the self-preservation One &ndash; an animal that impresses not through volume but through precision and restraint. It watches for a long time before it acts, and needs no stage to prove its effectiveness. Few political portraits show this more clearly than the path of Lebanese President Joseph Aoun: ahead of his election he campaigned in no public forum whatsoever, and unlike what is customary in Lebanon's fractured political system, he did not make the rounds of rival factions to secure support.</p>
           <p class="vb-intro">Joseph Khalil Aoun was born on January 10, 1964, in Sin el Fil, Mount Lebanon, into a Maronite Christian family. In 1983, in the middle of the Lebanese Civil War, he entered the Lebanese Military Academy and was commissioned as an officer in 1985 &ndash; a career built from the start not on visible impact, but on decades of patient proof within an institution.</p>
         </blockquote>
 
@@ -949,7 +949,7 @@ export function leboMPortraitPage() {
 
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal whose voice comes from deep within, and whose power is rooted in its own home territory. Few voices in film history carry this as directly as the Zulu call with which Lebo M opened <em>The Lion King</em> in 1994 – a single cry that became the most internationally recognized line of film music of the 1990s.</p>
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the emblem of the self-preservation Two &ndash; an animal whose voice comes from deep within, and whose power is rooted in its own home territory. Few voices in film history carry this as directly as the Zulu call with which Lebo M opened <em>The Lion King</em> in 1994 – a single cry that became the most internationally recognized line of film music of the 1990s.</p>
           <p class="vb-intro">Lebohang Morake was born in 1964 in Soweto, Johannesburg, a musical natural without formal training. In 1979, at age 16, during apartheid, he left his home country in exile for the United States to study music – an early break from familiar surroundings that would tie him for life to a longing for his musical roots.</p>
         </blockquote>
 
@@ -1081,7 +1081,7 @@ export function bryanJohnsonPortraitPage() {
         <h2 class="vb-section">1. The hedgehog measuring its own decay</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Bryan Johnson was born in 1977 in Provo, Utah, and grew up nearby in Springville in a religiously shaped Mormon environment. His childhood was anything but sheltered: his father struggled with drug addiction for more than 25 years, his stepfather showed early signs of Alzheimer's disease, and his parents' marriage broke apart. Johnson himself later described a decade of severe depression. After a degree from Brigham Young University and an MBA from the University of Chicago, he founded the payment-processing company Braintree in 2007, which he sold to PayPal in 2013 for $800 million.</p>
-          <p class="vb-intro">The <strong>hedgehog</strong> is the animal of the sexual Five – a quiet, watchful creature that explores the world from a protected distance and opens up only with absolute trust. Since 2021, under the name "Project Blueprint," Johnson has run what is probably the most meticulous self-measurement project any person has ever undertaken: daily measurement of dozens of organ functions, over 100 supplements a day, a strictly vegan diet, rigorous training routines, and experimental therapies – with the stated goal of measurably slowing biological aging.</p>
+          <p class="vb-intro">The <strong>hedgehog</strong> stands as the animal of the sexual Five – a quiet, watchful creature that explores the world from a protected distance and opens up only with absolute trust. Since 2021, under the name "Project Blueprint," Johnson has run what is probably the most meticulous self-measurement project any person has ever undertaken: daily measurement of dozens of organ functions, over 100 supplements a day, a strictly vegan diet, rigorous training routines, and experimental therapies – with the stated goal of measurably slowing biological aging.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The sexual Five: trust as foundation, withdrawal as norm</h2>
@@ -1208,7 +1208,7 @@ export function mohammedPortraitPage() {
 
         <h2 class="vb-section">1. The Lion</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>lion</strong> is the animal of the social Eight &ndash; an animal that does not display its strength for its own sake, but uses it to protect the pride. It does not claim prey for itself alone, but defends the territory in which everyone can live safely. No accidental animal for a man who grew up an orphan in sixth-century Mecca &ndash; a society in which orphans, widows, and slaves had almost no rights &ndash; and who stood up for exactly these weakest members throughout his life.</p>
+          <p class="vb-intro">The <strong>lion</strong> stands as the animal of the social Eight &ndash; an animal that does not display its strength for its own sake, but uses it to protect the pride. It does not claim prey for itself alone, but defends the territory in which everyone can live safely. No accidental animal for a man who grew up an orphan in sixth-century Mecca &ndash; a society in which orphans, widows, and slaves had almost no rights &ndash; and who stood up for exactly these weakest members throughout his life.</p>
           <p class="vb-intro">Muhammad ibn Abdullah, born around 570 CE in Mecca, lost both parents early and grew up with his grandfather and later his uncle. As a caravan leader and merchant he earned a reputation for exceptional reliability and honesty &ndash; even before he received, according to tradition, the first revelations at around age 40 that became the Quran. The beginning of a path that turned one individual into the founder of a world religion that today shapes roughly two billion people.</p>
         </blockquote>
 
@@ -1275,7 +1275,7 @@ export function ninaChubaPortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; and it is a creature you can barely resist. Not because it forces itself on you. But because it is so unaffectedly present. No calculation, no distance, no mask. The Golden Retriever comes toward you &ndash; and you know immediately: this is real. It really means it.</p>
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal counterpart of the social Two &ndash; and it is a creature you can barely resist. Not because it forces itself on you. But because it is so unaffectedly present. No calculation, no distance, no mask. The Golden Retriever comes toward you &ndash; and you know immediately: this is real. It really means it.</p>
           <p class="vb-intro">The German singer Nina Chuba has built one of the deepest fan bonds in the German music scene in a very short time &ndash; not through perfect staging, but through closeness. She talks about her feelings, about bad days, about insecurity. She replies to comments. She makes her music a space in which her listeners do not feel alone. That is the Golden Retriever: it does not warm because it must. It warms because warmth is its nature.</p>
         </blockquote>
 
@@ -1542,7 +1542,7 @@ export function timCluttonBrockPortraitPage() {
 
         <h2 class="vb-section">1. The meerkat who built a community for the meerkat</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>meerkat</strong> is the animal of the Social Six &ndash; total interconnection, mutual protection, a constant eye on the community. Few scientists embody this principle as fully as Prof. Tim Clutton-Brock: in 1993, the Cambridge zoologist founded the Kalahari Meerkat Project &ndash; one of the longest-running behavioural studies in the world, still ongoing today and carrying generations of researchers.</p>
+          <p class="vb-intro">The <strong>meerkat</strong> is the animal counterpart of the Social Six &ndash; total interconnection, mutual protection, a constant eye on the community. Few scientists embody this principle as fully as Prof. Tim Clutton-Brock: in 1993, the Cambridge zoologist founded the Kalahari Meerkat Project &ndash; one of the longest-running behavioural studies in the world, still ongoing today and carrying generations of researchers.</p>
           <p class="vb-intro">Rather than working as a solo genius, he built a collaborative infrastructure over decades: land purchases, farmhouses, a continuously staffed field research team. His best-known book carries the programmatic title "Mammal Societies" &ndash; societies, not individuals.</p>
         </blockquote>
 
@@ -1671,7 +1671,7 @@ export function isadoraDuncanPortraitPage() {
 
         <h2 class="vb-section">1. The camel that freed dance from its corset</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>camel</strong> is the animal of the Sexual Two &ndash; an animal that can carry a great deal without putting it on display, and that turns entirely toward one single companion. Isadora Duncan was born in 1877 in San Francisco, into modest circumstances, but into a household that valued art and free thinking over bourgeois convention. Even as a child, she rejected classical ballet training as unnatural and confining.</p>
+          <p class="vb-intro">The <strong>camel</strong> is the symbolic animal of the Sexual Two &ndash; an animal that can carry a great deal without putting it on display, and that turns entirely toward one single companion. Isadora Duncan was born in 1877 in San Francisco, into modest circumstances, but into a household that valued art and free thinking over bourgeois convention. Even as a child, she rejected classical ballet training as unnatural and confining.</p>
           <p class="vb-intro">Out of this early rejection grew an entirely new art form: barefoot dance in flowing Greek-inspired robes, oriented around nature, breath, and inner movement rather than rigid form. Duncan is still considered the founder of modern dance today &ndash; a revolution she developed not from theory, but from her own unrestrained bodily sense.</p>
         </blockquote>
 
@@ -1804,7 +1804,7 @@ export function miraMuratiPortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever Who Became the Indispensable Mind</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>golden retriever</strong> is the animal of the social Two — loyal, competent, always ready to place itself in service of an important cause, and, without loud posturing, becoming indispensable exactly where it matters. Mira Murati, born in 1988 in Vlorë, Albania, reached Canada and the US via scholarships — Pearson College UWC, Colby College, Dartmouth's Thayer School of Engineering. From there her path led through Goldman Sachs, Zodiac Aerospace, and Tesla (as senior product manager for the Model X program) to Leap Motion and finally, in 2018, to OpenAI.</p>
+          <p class="vb-intro">The <strong>golden retriever</strong> is the emblem of the social Two — loyal, competent, always ready to place itself in service of an important cause, and, without loud posturing, becoming indispensable exactly where it matters. Mira Murati, born in 1988 in Vlorë, Albania, reached Canada and the US via scholarships — Pearson College UWC, Colby College, Dartmouth's Thayer School of Engineering. From there her path led through Goldman Sachs, Zodiac Aerospace, and Tesla (as senior product manager for the Model X program) to Leap Motion and finally, in 2018, to OpenAI.</p>
           <p class="vb-intro">At OpenAI she rose within a few years from VP of Applied AI through SVP of Research, Product and Partnerships to Chief Technology Officer (2022) — a career marked not by public self-promotion, but by steadily growing indispensability to ever more significant institutions.</p>
         </blockquote>
 
@@ -2060,7 +2060,7 @@ export function guentherKrabbenhoeftPortraitPage() {
 
         <h2 class="vb-section">1. The Beaver</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>beaver</strong> is the animal of the social Seven – an animal that doesn't build for itself alone, but creates habitats an entire ecosystem benefits from. Günther Krabbenhöft, born in 1945 near Hanover in Hildesheim, worked as a cook for fifty years – a craft of fixed routines, recurring tasks, dependable structure. At 25 he married and became father to a daughter, divorced ten years later, and raised her alone afterward. Since 1968 he has lived in Berlin, first in Moabit, later in Kreuzberg, where over the decades he became a familiar, well-known figure in the neighborhood.</p>
+          <p class="vb-intro">The <strong>beaver</strong> is the emblem of the social Seven – an animal that doesn't build for itself alone, but creates habitats an entire ecosystem benefits from. Günther Krabbenhöft, born in 1945 near Hanover in Hildesheim, worked as a cook for fifty years – a craft of fixed routines, recurring tasks, dependable structure. At 25 he married and became father to a daughter, divorced ten years later, and raised her alone afterward. Since 1968 he has lived in Berlin, first in Moabit, later in Kreuzberg, where over the decades he became a familiar, well-known figure in the neighborhood.</p>
           <p class="vb-intro">Nothing in this biography hinted at what followed from February 2015 onward: a tourist photographed the then 69-year-old at the Kottbusser Tor subway station – bowler hat, waistcoat, bow tie – and posted the picture on Facebook. Within weeks, Günther was appearing in fashion blogs, on magazine covers, and across social media. Almost overnight, the neighborhood character became "the world's most stylish grandpa".</p>
         </blockquote>
 
@@ -2126,7 +2126,7 @@ export function natalieDormerPortraitPage() {
 
         <h2 class="vb-section">1. The She-Wolf Who Fought for Her Own Roles</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>wolf</strong> is the animal of the Sexual Six: an animal that meets threat not with retreat, but with confrontation. Natalie Dormer, born in 1982 in Reading, trained for years in classical ballet as a child – a physical discipline that early on demanded endurance and concentration under pressure – before studying acting at the Webber Douglas Academy.</p>
+          <p class="vb-intro">The <strong>wolf</strong> is the animal counterpart of the Sexual Six: an animal that meets threat not with retreat, but with confrontation. Natalie Dormer, born in 1982 in Reading, trained for years in classical ballet as a child – a physical discipline that early on demanded endurance and concentration under pressure – before studying acting at the Webber Douglas Academy.</p>
           <p class="vb-intro">Her breakthrough came in 2007 as Anne Boleyn in "The Tudors" – a role for which she did not simply rely on the given script, but independently researched historical sources and repeatedly pushed for script changes when she considered them historically inaccurate. The wolf does not let its own interpretation be dictated from outside.</p>
         </blockquote>
 
@@ -2264,7 +2264,7 @@ export function gunterGabrielPortraitPage() {
 
         <h2 class="vb-section">1. The Lion</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>lion</strong> is the animal of the social Type 8 – an animal that does not need to roar to have an effect, whose mere presence changes every room it enters. In Gunter Gabriel this presence was physically tangible from the start: a deep, gravelly voice, a build no one overlooked, and a directness many found abrasive – and which nonetheless, or precisely because of it, reached millions of people.</p>
+          <p class="vb-intro">The <strong>lion</strong> is the animal counterpart of the social Type 8 – an animal that does not need to roar to have an effect, whose mere presence changes every room it enters. In Gunter Gabriel this presence was physically tangible from the start: a deep, gravelly voice, a build no one overlooked, and a directness many found abrasive – and which nonetheless, or precisely because of it, reached millions of people.</p>
           <p class="vb-intro">Born in 1942 in Bünde as Günter Caspelherr, he lost his mother at age four, grew up with a violent father, left school early to work, and made his way through half of Europe with hard physical jobs. Not a sheltered path into music, but one the lion had to fight his own way through.</p>
         </blockquote>
 
@@ -2397,7 +2397,7 @@ export function wolfgangWodargPortraitPage() {
 
         <h2 class="vb-section">1. The Goose</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>goose</strong> is the animal of the social Type 1 – vigilant, formation-conscious, with an unerring sense for when something in the community has gone off course. Dr. Wolfgang Wodarg, born in 1947, spent most of his professional life exactly in this watchdog role: as a pulmonologist, a specialist in hygiene and environmental medicine, and for years as a local public health officer (Amtsarzt) in Schleswig-Holstein – a profession whose entire purpose is to keep an eye on the health of an entire population, not just individual patients.</p>
+          <p class="vb-intro">The <strong>goose</strong> is the animal counterpart of the social Type 1 – vigilant, formation-conscious, with an unerring sense for when something in the community has gone off course. Dr. Wolfgang Wodarg, born in 1947, spent most of his professional life exactly in this watchdog role: as a pulmonologist, a specialist in hygiene and environmental medicine, and for years as a local public health officer (Amtsarzt) in Schleswig-Holstein – a profession whose entire purpose is to keep an eye on the health of an entire population, not just individual patients.</p>
           <p class="vb-intro">From 1994 to 2009 he was a member of the German Bundestag for the SPD, afterward chair of the health committee of the Parliamentary Assembly of the Council of Europe – a career that consistently combined medical expertise with political mandate rather than keeping the two separate.</p>
         </blockquote>
 
@@ -2464,7 +2464,7 @@ export function bruceSpringsteenPortraitPage() {
 
         <h2 class="vb-section">1. The Sloth on Stage</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>sloth</strong> is the animal of the sexual Nine &ndash; not an animal of urgency, but one of complete, uncompromising devotion to whatever is happening right now. Bruce Springsteen, born September 23, 1949 in Freehold, New Jersey, the son of a bus driver with untreated mental health problems, found in music an early place where he could lose himself completely &ndash; an escape that over six decades became his life's work.</p>
+          <p class="vb-intro">The <strong>sloth</strong> is the symbolic animal of the sexual Nine &ndash; not an animal of urgency, but one of complete, uncompromising devotion to whatever is happening right now. Bruce Springsteen, born September 23, 1949 in Freehold, New Jersey, the son of a bus driver with untreated mental health problems, found in music an early place where he could lose himself completely &ndash; an escape that over six decades became his life's work.</p>
           <p class="vb-intro">With the E Street Band, founded in 1972, he developed a concert style still regarded as one of the most intense in rock history: shows that regularly run three to four hours, in which Springsteen appears to dissolve entirely into the music and the audience on stage rather than merely performing it. Albums such as ›Born to Run‹ (1975) and ›Born in the USA‹ (1984) made him one of the central voices of the American working class.</p>
         </blockquote>
 
@@ -2652,7 +2652,7 @@ export function williamJamesSidisPortraitPage() {
 
         <h2 class="vb-section">1. The Armadillo</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four: a hard shell on the outside, an exceptionally sensitive interior beneath. Hardly any biography shows this image as starkly as that of William James Sidis: a child who at eleven lectured the Harvard faculty on four-dimensional bodies, and an adult who spent half his life trying to stay undiscovered under a false name as a simple office clerk.</p>
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal counterpart of the social Four: a hard shell on the outside, an exceptionally sensitive interior beneath. Hardly any biography shows this image as starkly as that of William James Sidis: a child who at eleven lectured the Harvard faculty on four-dimensional bodies, and an adult who spent half his life trying to stay undiscovered under a false name as a simple office clerk.</p>
           <p class="vb-intro">Sidis was born April 1, 1898 in Boston, the son of the psychologist Boris Sidis, who worked on his own theory that exceptional early education could unlock genius-level abilities in any child &ndash; with his son as the proof of concept. William was reading newspaper text by age two, typed in French and English at four, wrote his own anatomical treatise at five, and at eight devised a complete artificial language with its own grammar in his ›Book of Vendergood‹, combining Latin, Greek, German, and Romance roots. At eleven he was admitted to Harvard University &ndash; the youngest freshman in the university's history.</p>
         </blockquote>
 
@@ -2713,7 +2713,7 @@ export function nicoleKidmanPortraitPage() {
 
         <h2 class="vb-section">1. The Goose</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>goose</strong> is the animal of the social One &ndash; unassuming in appearance, but relentless about the cause it serves. Nicole Kidman, born June 20, 1967 in Honolulu to Australian parents, grew up in Sydney and as a child suffered from severe shyness and a stutter that she overcame by attending drama school &ndash; an early lesson that discipline and repeated practice can turn fear into the capacity to act.</p>
+          <p class="vb-intro">The <strong>goose</strong> is the symbolic animal of the social One &ndash; unassuming in appearance, but relentless about the cause it serves. Nicole Kidman, born June 20, 1967 in Honolulu to Australian parents, grew up in Sydney and as a child suffered from severe shyness and a stutter that she overcame by attending drama school &ndash; an early lesson that discipline and repeated practice can turn fear into the capacity to act.</p>
           <p class="vb-intro">Her international breakthrough came with the Australian thriller ›Dead Calm‹ (1989). What followed was a career spanning more than three decades across nearly every genre and scale of production &ndash; from Hollywood blockbusters to European arthouse cinema to prestige television drama &ndash; for which she became the first Australian to win the Academy Award for Best Actress, in 2003.</p>
         </blockquote>
 
@@ -2776,7 +2776,7 @@ export function naomiCampbellPortraitPage() {
 
         <h2 class="vb-section">1. The Peacock</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>peacock</strong> is the animal of the sexual Three &ndash; impact not as a means to an end, but as immediate, physical presence itself. Naomi Campbell, born May 22, 1970 in London, attended the Italia Conti Academy of Theatre Arts from the age of three and received there a thorough training in ballet and jazz dance &ndash; a physical schooling that would later become the foundation of her unmistakable runway walk.</p>
+          <p class="vb-intro">The <strong>peacock</strong> stands as the animal of the sexual Three &ndash; impact not as a means to an end, but as immediate, physical presence itself. Naomi Campbell, born May 22, 1970 in London, attended the Italia Conti Academy of Theatre Arts from the age of three and received there a thorough training in ballet and jazz dance &ndash; a physical schooling that would later become the foundation of her unmistakable runway walk.</p>
           <p class="vb-intro">At 15 she was discovered on the street; by 18 she was already one of the most sought-after up-and-coming models in the world. In 1988 she became the first Black woman on the cover of French Vogue &ndash; a break with taboo in an industry that until then had systematically given Black models less visibility. Together with Linda Evangelista, Cindy Crawford, and Christy Turlington, she defined the era of the first ›supermodels‹ in the 1990s, whose names alone carried entire campaigns.</p>
         </blockquote>
 

@@ -87,7 +87,7 @@ export function albertSchweitzerPortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>golden retriever</strong> is the animal of the social Two &ndash; a being that puts its full strength into the service of others without becoming smaller in the process. By his early thirties, Albert Schweitzer was already a celebrated theologian, philosopher, and one of the foremost Bach organists of his time &ndash; a man for whom every academic and artistic door stood open. And it was exactly at this point of greatest success that he made the decision that would change his life forever.</p>
+          <p class="vb-intro">The <strong>golden retriever</strong> is the animal counterpart of the social Two &ndash; a being that puts its full strength into the service of others without becoming smaller in the process. By his early thirties, Albert Schweitzer was already a celebrated theologian, philosopher, and one of the foremost Bach organists of his time &ndash; a man for whom every academic and artistic door stood open. And it was exactly at this point of greatest success that he made the decision that would change his life forever.</p>
           <p class="vb-intro">In 1905, at age 30, he began studying medicine &ndash; not to expand his career, but to go to Africa as a doctor. The golden retriever does not bark for attention. It sees where there is need, and goes there, even if it means leaving behind everything it has already achieved.</p>
         </blockquote>
 
@@ -499,7 +499,7 @@ export function evaMendesPortraitPage() {
 
         <h2 class="vb-section">1. The Wolf</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>wolf</strong> is the animal of the sexual Six – an animal that does not shy away from threat but confronts it head-on, and that finds its deepest safety not in distance, but in close bonding with its pack. Eva Mendes grew up as the youngest of five children of Cuban immigrants in a loud, emotionally intense household in Los Angeles. She later described herself as "a very anxious kid" – raised amid big emotions she learned early to read and manage.</p>
+          <p class="vb-intro">The <strong>wolf</strong> is the animal counterpart of the sexual Six – an animal that does not shy away from threat but confronts it head-on, and that finds its deepest safety not in distance, but in close bonding with its pack. Eva Mendes grew up as the youngest of five children of Cuban immigrants in a loud, emotionally intense household in Los Angeles. She later described herself as "a very anxious kid" – raised amid big emotions she learned early to read and manage.</p>
           <p class="vb-intro">Out of this early vigilance toward emotional unpredictability grew something that later looked like the exact opposite of fear: a confident, fearless public presence. The wolf that overcomes its own fear not through retreat, but through confrontation.</p>
         </blockquote>
 
@@ -637,7 +637,7 @@ export function gustavMahlerPortraitPage() {
 
         <h2 class="vb-section">1. The Armadillo at the Conductor's Podium</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four &ndash; it does not hide its difference but carries it visibly into public life, into a group that both fascinates and excludes it. It seeks the stage precisely in order to be recognized there as the tragic exception.</p>
+          <p class="vb-intro">The <strong>armadillo</strong> is the emblem of the social Four &ndash; it does not hide its difference but carries it visibly into public life, into a group that both fascinates and excludes it. It seeks the stage precisely in order to be recognized there as the tragic exception.</p>
           <p class="vb-intro">Gustav Mahler was born in 1860 in Kalischt (Bohemia), one of 14 children, more than half of whom died in childhood &ndash; an early, ever-present experience of death and loss that ran through his entire body of work. As a Jew in the Catholic-dominated Habsburg Empire and as an artist with a radically idiosyncratic musical language, he experienced the feeling of being an outsider throughout his life &ndash; even at the height of his fame as director of the Vienna Court Opera (1897&ndash;1907), the most prestigious musical post in Europe.</p>
         </blockquote>
 
@@ -711,7 +711,7 @@ export function horstTappertPortraitPage() {
 
         <h2 class="vb-section">1. The Raccoon</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the Self-Preservation Three – an animal that works with tireless diligence out of sight before it shows itself, and that draws its security from steady, demonstrable competence rather than loud self-promotion. Horst Tappert was born in 1923 in what is today the Elberfeld district of Wuppertal, was drafted during the Second World War, and was held as a prisoner of war. Only at the end of the 1950s, in his mid-thirties, did he begin his film and television career – considerably later than most of his later colleagues.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> is the emblem of the Self-Preservation Three – an animal that works with tireless diligence out of sight before it shows itself, and that draws its security from steady, demonstrable competence rather than loud self-promotion. Horst Tappert was born in 1923 in what is today the Elberfeld district of Wuppertal, was drafted during the Second World War, and was held as a prisoner of war. Only at the end of the 1950s, in his mid-thirties, did he begin his film and television career – considerably later than most of his later colleagues.</p>
           <p class="vb-intro">This late but all the more methodical career development is typical of the Self-Preservation Three: no early meteoric rise, but the patient building of role continuity and reliability in postwar German television, step by step, until it became load-bearing substance across decades.</p>
         </blockquote>
 
@@ -849,7 +849,7 @@ export function johannesBrahmsPortraitPage() {
 
         <h2 class="vb-section">1. The Elephant</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>elephant</strong> is the animal of the self-preservation Nine of the Enneagram &ndash; a being of enormous weight that nonetheless moves through the world unhurried, almost deliberate, that forgets nothing, and that never abandons anyone to whom it has once pledged loyalty. Johannes Brahms was this elephant: massive in his artistic stature, unshakable in his bonds, and possessed of a memory that carried a single friendship across four decades.</p>
+          <p class="vb-intro">The <strong>elephant</strong> is the animal counterpart of the self-preservation Nine of the Enneagram &ndash; a being of enormous weight that nonetheless moves through the world unhurried, almost deliberate, that forgets nothing, and that never abandons anyone to whom it has once pledged loyalty. Johannes Brahms was this elephant: massive in his artistic stature, unshakable in his bonds, and possessed of a memory that carried a single friendship across four decades.</p>
           <p class="vb-intro">The German composer Johannes Brahms, born in 1833 in Hamburg as the son of a town musician, earned money as a teenager as a teenager playing piano in the dockside taverns of St. Pauli &ndash; a hard, spare schooling that kept him modest for the rest of his life, even after fame had made him one of the wealthiest composers in Europe.</p>
         </blockquote>
 
@@ -988,7 +988,7 @@ export function konradLorenzPortraitPage() {
 
         <h2 class="vb-section">1. The Goose</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Goose</strong> is the animal of the social One &ndash; an animal that lives within a flock, orients itself by clear rules and rank order, and passes its knowledge on to the group rather than keeping it to itself. Konrad Lorenz, the Austrian zoologist and founder of modern ethology, became world-famous for his research on exactly this animal: the greylag goose. In 1989, the German magazine Der Spiegel called him the "Einstein of the animal soul."</p>
+          <p class="vb-intro">The <strong>Goose</strong> is the animal counterpart of the social One &ndash; an animal that lives within a flock, orients itself by clear rules and rank order, and passes its knowledge on to the group rather than keeping it to itself. Konrad Lorenz, the Austrian zoologist and founder of modern ethology, became world-famous for his research on exactly this animal: the greylag goose. In 1989, the German magazine Der Spiegel called him the "Einstein of the animal soul."</p>
           <p class="vb-intro">As with several other animal-researcher portraits in this compass, a striking pattern confirms itself here too: the Enneagram's animal correspondences were fixed long before anyone knew of Lorenz's life's work. That the world's most famous greylag goose researcher was himself a social One &ndash; the type whose animal in this compass exactly matches his own research subject &ndash; is one of the most striking matches in this series.</p>
         </blockquote>
 
@@ -1056,7 +1056,7 @@ export function lionelBoycePortraitPage() {
 
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal most at ease within a tight, familiar circle, developing its full strength there before ever stepping into the spotlight. Lionel Boyce, born in Inglewood, California, to a water-delivery driver father and a sheriff's deputy mother, found his creative origin not as a solo act but within the hip-hop collective Odd Future – a close, chosen circle out of which he slowly emerged as an individual figure.</p>
+          <p class="vb-intro">The <strong>Hippopotamus</strong> stands as the animal of the self-preservation Two &ndash; an animal most at ease within a tight, familiar circle, developing its full strength there before ever stepping into the spotlight. Lionel Boyce, born in Inglewood, California, to a water-delivery driver father and a sheriff's deputy mother, found his creative origin not as a solo act but within the hip-hop collective Odd Future – a close, chosen circle out of which he slowly emerged as an individual figure.</p>
           <p class="vb-intro">Within the group he was known as "L-Boy," largely a non-musical member in the best sense – someone who contributed to cohesion without standing at the center himself. Only over years did this background role grow into an independent acting career.</p>
         </blockquote>
 
@@ -1254,7 +1254,7 @@ export function mutterMeeraPortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal whose entire being is oriented toward caring for many at once, without calculation, without selection, out of an inner need to be needed and to give unconditionally. No accidental animal for a woman who, for decades, received hundreds of strangers each day, silently met every single one's eyes, and gave each of them, for a few seconds, her full, undivided attention.</p>
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the symbolic animal of the social Two &ndash; an animal whose entire being is oriented toward caring for many at once, without calculation, without selection, out of an inner need to be needed and to give unconditionally. No accidental animal for a woman who, for decades, received hundreds of strangers each day, silently met every single one's eyes, and gave each of them, for a few seconds, her full, undivided attention.</p>
           <p class="vb-intro">Mother Meera, born Kamala Reddy in 1960 in the south Indian state of Andhra Pradesh, was revered by her followers as a spiritual master and embodiment of the Divine Feminine. From the 1980s onward she lived mostly in Germany, first in Thalheim near Balduinstein, where for decades she regularly gave so-called darshans &ndash; silent audiences in which visitors from around the world knelt before her one by one to receive her gaze. The Golden Retriever, whose attention is not confined to a single relationship but extends to everyone who comes to it.</p>
         </blockquote>
 
@@ -1318,7 +1318,7 @@ export function parisHiltonPortraitPage() {
 
         <h2 class="vb-section">1. The Chihuahua who always had a Chihuahua by her side</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Chihuahua</strong> is the animal of the Sexual Four &ndash; small, but with a presence that fills the entire room, dramatic in every gesture, always searching for the one intense bond that outshines everything else. Few images embody this principle as literally as Paris Hilton with her most famous companion: the Chihuahua Tinkerbell, who barely left her side for over a decade, was carried through public life in diamond-studded outfits, and became the symbol of an entire fashion trend &ndash; the "handbag dog."</p>
+          <p class="vb-intro">The <strong>Chihuahua</strong> is the emblem of the Sexual Four &ndash; small, but with a presence that fills the entire room, dramatic in every gesture, always searching for the one intense bond that outshines everything else. Few images embody this principle as literally as Paris Hilton with her most famous companion: the Chihuahua Tinkerbell, who barely left her side for over a decade, was carried through public life in diamond-studded outfits, and became the symbol of an entire fashion trend &ndash; the "handbag dog."</p>
           <p class="vb-intro">Hilton, great-granddaughter of hotel founder Conrad Hilton, first became known in the late 1990s as part of New York's society scene before becoming world-famous from 2003 onward with the reality series "The Simple Life." Her style &ndash; tracksuits, rhinestones, and that small dog in the handbag &ndash; shaped mass taste for years, long before influencer marketing was a term anyone used.</p>
         </blockquote>
 
@@ -1664,7 +1664,7 @@ export function wladimirPutinPortraitPage() {
 
         <h2 class="vb-section">1. The Wolf</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Wolf</strong> is the animal of the Sexual Type 6 &ndash; a pack animal that asserts its position through strength and answers any threat to its territory with bared teeth. The Wolf does not trust easily. It watches for a long time before it acts, and when it acts, it does so decisively. It knows fear &ndash; and precisely for that reason it refuses to allow it.</p>
+          <p class="vb-intro">The <strong>Wolf</strong> stands as the animal of the Sexual Type 6 &ndash; a pack animal that asserts its position through strength and answers any threat to its territory with bared teeth. The Wolf does not trust easily. It watches for a long time before it acts, and when it acts, it does so decisively. It knows fear &ndash; and precisely for that reason it refuses to allow it.</p>
           <p class="vb-intro">The Russian president Vladimir Putin, born 1952 in Leningrad, today's St. Petersburg, into modest circumstances and the only surviving child of his parents after two siblings died in the war or of illness, is this Wolf. His path from KGB officer through the St. Petersburg administration to the top of the Russian state is the story of a man who learned that control over one's own environment is the only reliable answer to an uncertain world.</p>
           <p class="vb-intro">Fittingly, Putin recounted in his memoirs a formative childhood memory from a courtyard in Leningrad: he had cornered a rat with a stick &ndash; but instead of surrendering, the animal suddenly leapt straight at his face. For him this became a central life lesson: when cornered, never retreat, but spring forward like the rat. The rat is a fitting image for the SX6: it does not attack out of superiority but out of fear and confinement &ndash; and turns that into aggression. How deep this pattern runs is shown by another famous SX6, Watergate operative G. Gordon Liddy, who was tormented by a rat phobia as a child and later caught, cooked and ate one to conquer his fear through sheer will. Whether metaphorically, as with Putin, or literally, as with Liddy: both try to escape their own vulnerability by becoming the most dangerous factor in the room themselves.</p>
         </blockquote>
@@ -1738,7 +1738,7 @@ export function robertCrumbPortraitPage() {
 
         <h2 class="vb-section">1. The Owl Who Fled the Chaos of a Family</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>owl</strong> is the animal of the self-preservation Five &ndash; a being that withdraws into its own darkness not to flee, but to be able to see clearly at all. Robert Crumb was born in 1943 in Philadelphia, into a family he himself later described as deeply dysfunctional: his mother, who suffered the aftereffects of her own abuse-marked childhood, took amphetamines and reacted with paranoid mood swings, while his parents' marriage was marked by constant conflict.</p>
+          <p class="vb-intro">The <strong>owl</strong> is the emblem of the self-preservation Five &ndash; a being that withdraws into its own darkness not to flee, but to be able to see clearly at all. Robert Crumb was born in 1943 in Philadelphia, into a family he himself later described as deeply dysfunctional: his mother, who suffered the aftereffects of her own abuse-marked childhood, took amphetamines and reacted with paranoid mood swings, while his parents' marriage was marked by constant conflict.</p>
           <p class="vb-intro">In this chaos, the young Crumb found refuge in drawing &ndash; guided and driven by his older brother Charles, who organized the siblings into veritable drawing assembly lines to produce homemade comics. Without Charles, Crumb said later, he would never have become a professional artist. The owl retreated into its own drawn universe even as a child &ndash; not out of boredom, but out of self-defense.</p>
         </blockquote>
 
@@ -2292,7 +2292,7 @@ export function davidHockneyPortraitPage() {
 
         <h2 class="vb-section">1. The octopus that reached for sight itself with eight arms</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>octopus</strong> is the animal of the social Five – a creature that reaches with several arms at once and grasps things from many angles simultaneously. In David Hockney's case, this image shows up almost literally in his life's work: across six decades he kept asking himself the same question – "How do you, as an artist, represent the world of three and four dimensions, feeling and emotion, on a two-dimensional surface?" – and answered it through oil painting, photography, stage design, and finally the iPad, never satisfied with just one medium.</p>
+          <p class="vb-intro">The <strong>octopus</strong> is the animal counterpart of the social Five – a creature that reaches with several arms at once and grasps things from many angles simultaneously. In David Hockney's case, this image shows up almost literally in his life's work: across six decades he kept asking himself the same question – "How do you, as an artist, represent the world of three and four dimensions, feeling and emotion, on a two-dimensional surface?" – and answered it through oil painting, photography, stage design, and finally the iPad, never satisfied with just one medium.</p>
           <p class="vb-intro">Hockney was born in 1937 in Bradford, studied at Bradford School of Art and the Royal College of Art in London, and died in 2026 in London. A life that never settled on a single style or tool, but kept searching for new approaches to the same underlying question: how do people actually see?</p>
         </blockquote>
 

@@ -495,7 +495,7 @@ export function elonMuskPortraitPage() {
 
         <h2 class="vb-section">1. The Beaver</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Beaver</strong> is the animal of the Social Type 7 &ndash; and no animal in the world describes Elon Musk more aptly. The Beaver builds. Not because it must. Not because it is asked. But because building is its nature. It fells trees, dams rivers, creates ponds where there were none, transforms entire landscapes &ndash; and starts again the next morning. What it leaves behind transforms ecosystems, creates new habitat, turns desert into wetland.</p>
+          <p class="vb-intro">The <strong>Beaver</strong> is the emblem of the Social Type 7 &ndash; and no animal in the world describes Elon Musk more aptly. The Beaver builds. Not because it must. Not because it is asked. But because building is its nature. It fells trees, dams rivers, creates ponds where there were none, transforms entire landscapes &ndash; and starts again the next morning. What it leaves behind transforms ecosystems, creates new habitat, turns desert into wetland.</p>
           <p class="vb-intro">In less than thirty years Elon Musk co-founded PayPal, built SpaceX from nothing, saved Tesla from bankruptcy, launched Starlink into space, acquired X (formerly Twitter) and along the way unleashed a flamethrower manufacturer called The Boring Company on the world. The Beaver does nothing by halves. It builds and builds &ndash; and seeks out the next obstacle to dam.</p>
         </blockquote>
 
@@ -644,7 +644,7 @@ export function gottfriedWilhelmLeibnizPortraitPage() {
 
         <h2 class="vb-section">1. The Cheetah That Ran Every Field at Once</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>cheetah</strong> is the animal of the social Three &ndash; the fastest animal on earth, built for visible, undeniable success. Few historical figures embody this image as completely as Gottfried Wilhelm Leibniz, often called the "last universal genius": he worked simultaneously as philosopher, mathematician, logician, lawyer, diplomat, historian, librarian, and engineer &ndash; not one after another, but in constant overlap, often on several major projects at once.</p>
+          <p class="vb-intro">The <strong>cheetah</strong> is the animal counterpart of the social Three &ndash; the fastest animal on earth, built for visible, undeniable success. Few historical figures embody this image as completely as Gottfried Wilhelm Leibniz, often called the "last universal genius": he worked simultaneously as philosopher, mathematician, logician, lawyer, diplomat, historian, librarian, and engineer &ndash; not one after another, but in constant overlap, often on several major projects at once.</p>
           <p class="vb-intro">The German philosopher Gottfried Wilhelm Leibniz, born in 1646 in Leipzig, the son of a professor of moral philosophy, largely taught himself Latin and Greek as a child by gaining access to his father's library. By the age of twenty he already held a doctorate and was qualified for an academic career &ndash; yet he turned down an offered professorship at Altdorf. The cheetah does not remain in the protected territory of a single lecture hall. It seeks the open plain, where speed can truly show itself.</p>
         </blockquote>
 
@@ -909,7 +909,7 @@ export function julesVernePortraitPage() {
 
         <h2 class="vb-section">1. The Beaver Who Wrote the Future in Advance</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Beaver</strong> is the animal of the Social Type 7 &ndash; it does not build for itself, but creates structures that transform an entire landscape, and is never truly finished. Few writers lived this restless building as thoroughly as Jules Verne: over more than forty years he wrote more than sixty novels and stories for his series "Voyages extraordinaires" &ndash; a literary universe spanning the entire known world of his time and far beyond, from the center of the earth to the moon.</p>
+          <p class="vb-intro">The <strong>Beaver</strong> is the emblem of the Social Type 7 &ndash; it does not build for itself, but creates structures that transform an entire landscape, and is never truly finished. Few writers lived this restless building as thoroughly as Jules Verne: over more than forty years he wrote more than sixty novels and stories for his series "Voyages extraordinaires" &ndash; a literary universe spanning the entire known world of his time and far beyond, from the center of the earth to the moon.</p>
           <p class="vb-intro">The French writer Jules Verne was born in 1828 in Nantes, the son of a lawyer. As a boy, he reportedly tried to smuggle himself aboard a sailing ship bound for India as a cabin boy &ndash; his father retrieved him at the last moment. This early, thwarted attempt to escape to the open sea later transformed into a lifelong literary building project: where real departure was denied him, imagination became the ship that knew no boundary.</p>
         </blockquote>
 
@@ -1265,7 +1265,7 @@ export function morganFreemanPortraitPage() {
 
         <h2 class="vb-section">1. The Chimpanzee With the Voice of Providence</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>chimpanzee</strong> is the animal of the sexual Seven &ndash; playful, curious, socially highly intelligent, always on the lookout for the next exciting experience that draws the group under its spell. It doesn't captivate through restraint but through sheer presence and magnetism &ndash; a creature that sweeps others along without ever having to push itself into the foreground.</p>
+          <p class="vb-intro">The <strong>chimpanzee</strong> is the animal counterpart of the sexual Seven &ndash; playful, curious, socially highly intelligent, always on the lookout for the next exciting experience that draws the group under its spell. It doesn't captivate through restraint but through sheer presence and magnetism &ndash; a creature that sweeps others along without ever having to push itself into the foreground.</p>
           <p class="vb-intro">The American actor Morgan Freeman was born in 1937 in Memphis, Tennessee, and grew up between rural Mississippi and Chicago, in an era of deep racial segregation in the American South. He discovered acting as a child through a school play and made his first nationwide radio appearance at age 12. After four years in the US Air Force as a radar technician, he finally decided against a military career and for art &ndash; a leap into the unknown that would only pay off after decades of hard, often unsuccessful work as an off-Broadway actor and children's TV performer. His real breakthrough came only at age 50, with the film "Street Smart" (1987) &ndash; a late but lasting flowering.</p>
         </blockquote>
 
@@ -1605,7 +1605,7 @@ export function tonyShalhoubPortraitPage() {
 
         <h2 class="vb-section">1. The Raccoon</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal whose skill only reveals itself in the details: in the fine motor control of its paws, in patient trial and error, in the methodical way it approaches every new task. Not an animal built for the grand gesture, but for the thousand small, precisely executed movements that add up to mastery.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> is the emblem of the self-preservation Three &ndash; an animal whose skill only reveals itself in the details: in the fine motor control of its paws, in patient trial and error, in the methodical way it approaches every new task. Not an animal built for the grand gesture, but for the thousand small, precisely executed movements that add up to mastery.</p>
           <p class="vb-intro">The American actor Tony Shalhoub, trained at the Yale School of Drama, was exactly that for decades: an actor whose name many people learned only after learning his roles, not the other way around. Before he became a star in 2002 as the compulsively meticulous detective Adrian Monk, he had already built a craft through theater, independent films, and supporting roles that few actors of his generation mastered as precisely.</p>
         </blockquote>
 
@@ -1740,7 +1740,7 @@ export function hannahArendtPortraitPage() {
 
         <h2 class="vb-section">1. The Octopus Who Escaped an Internment Camp</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>octopus</strong> is the animal of the social Five &ndash; highly intelligent, grasping with eight arms at once, yet hard to fully pin down. Hannah Arendt was born in 1906 in Hanover and went to the University of Marburg in 1924 to study under Martin Heidegger &ndash; an encounter that led to a brief but intense love affair and shaped her thinking for life.</p>
+          <p class="vb-intro">The <strong>octopus</strong> stands as the animal of the social Five &ndash; highly intelligent, grasping with eight arms at once, yet hard to fully pin down. Hannah Arendt was born in 1906 in Hanover and went to the University of Marburg in 1924 to study under Martin Heidegger &ndash; an encounter that led to a brief but intense love affair and shaped her thinking for life.</p>
           <p class="vb-intro">In 1933, after Hitler seized power, she had to trick the police to escape and fled to Paris with her mother. In 1937 she was stripped of her German citizenship &ndash; she remained stateless for nearly fourteen years. When the Wehrmacht invaded France in 1940, she was interned at the Gurs camp, from which she escaped amid the chaotic collapse of the French administration. In 1941 she and her husband together reached the United States. The octopus does not escape through force, but through the ability to find any opening, however narrow.</p>
         </blockquote>
 
@@ -1819,7 +1819,7 @@ export function williamShakespearePortraitPage() {
 
         <h2 class="vb-section">1. The raccoon whose very existence is still doubted today</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; inconspicuous, skillful, persistent behind the scenes, without any need for the spotlight. Hardly anyone in this compass shows this principle as radically as William Shakespeare: roughly 39 plays and 154 sonnets that still shape the English language today &ndash; and behind them a man who left so few personal traces that people still seriously debate whether a glovemaker's son from the provinces, without a university education, could have written this body of work at all.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal counterpart of the self-preservation Three &ndash; inconspicuous, skillful, persistent behind the scenes, without any need for the spotlight. Hardly anyone in this compass shows this principle as radically as William Shakespeare: roughly 39 plays and 154 sonnets that still shape the English language today &ndash; and behind them a man who left so few personal traces that people still seriously debate whether a glovemaker's son from the provinces, without a university education, could have written this body of work at all.</p>
           <p class="vb-intro">That very debate is itself the strongest evidence for the type: the person behind the work was so inconspicuous that posterity doubts his existence rather than his authorship. No scandal, no recorded political stance, not a single personal letter &ndash; only the work itself, speaking for itself.</p>
         </blockquote>
 
@@ -2158,7 +2158,7 @@ export function chesterBenningtonPortraitPage() {
 
         <h2 class="vb-section">1. The Chihuahua That Never Hid Its Pain</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>chihuahua</strong> is the animal of the sexual Four: small, but with an intensity utterly disproportionate to its size – all or nothing, never dampened. Chester Bennington was born in 1976 in Phoenix, Arizona. Between the ages of seven and thirteen, he was sexually abused by a family acquaintance – a trauma he kept secret for years, afraid of being judged rather than understood.</p>
+          <p class="vb-intro">The <strong>chihuahua</strong> is the animal counterpart of the sexual Four: small, but with an intensity utterly disproportionate to its size – all or nothing, never dampened. Chester Bennington was born in 1976 in Phoenix, Arizona. Between the ages of seven and thirteen, he was sexually abused by a family acquaintance – a trauma he kept secret for years, afraid of being judged rather than understood.</p>
           <p class="vb-intro">As a teenager he developed a severe methamphetamine and cocaine addiction, trying to numb his pain and loneliness. The chihuahua doesn't know muted suffering – when the pain is there, it's fully there, unfiltered, until it has to discharge somewhere.</p>
         </blockquote>
 
@@ -2424,7 +2424,7 @@ export function markusSoederPortraitPage() {
 
         <h2 class="vb-section">1. The Crocodile</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>crocodile</strong> is the animal of the sexual Eight – still until it acts, then with full force, intense in connection, relentless in pursuing its goals. Markus Söder was born in 1967 in Nuremberg, the son of a master mason, joined the Young Union at just 16, and earned a doctorate after studying law in Erlangen. From 1995 to 2003 he led the Bavarian Young Union as state chairman, then served as CSU General Secretary at party headquarters.</p>
+          <p class="vb-intro">The <strong>crocodile</strong> is the animal counterpart of the sexual Eight – still until it acts, then with full force, intense in connection, relentless in pursuing its goals. Markus Söder was born in 1967 in Nuremberg, the son of a master mason, joined the Young Union at just 16, and earned a doctorate after studying law in Erlangen. From 1995 to 2003 he led the Bavarian Young Union as state chairman, then served as CSU General Secretary at party headquarters.</p>
           <p class="vb-intro">Across several ministerial posts – European affairs, environment, health, and finally seven years as finance minister – he systematically worked his way to the top of the state: he has been Bavarian State Premier since March 2018, and CSU federal chairman since January 2019. Not an accidental rise, but a power career pursued consistently for decades.</p>
         </blockquote>
 

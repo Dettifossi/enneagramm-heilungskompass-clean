@@ -17,7 +17,7 @@ export function aiWeiweiPortraitPage() {
 
         <h2 class="vb-section">1. Das Flusspferd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei – ein Wesen, das gutmütig und rund wirkt und dennoch zu den gefährlichsten Tieren seines Lebensraums zählt, sobald sein Revier bedroht wird. Ai Weiwei trägt diese Doppelnatur unübersehbar: ein Künstler mit warmem, oft ironischem Blick auf Menschen, der zugleich zu den unerschrockensten Kritikern der chinesischen Regierung wurde – ein Mann, der sein Terrain nicht kampflos räumt.</p>
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Sinnbild der selbsterhaltenden Zwei – ein Wesen, das gutmütig und rund wirkt und dennoch zu den gefährlichsten Tieren seines Lebensraums zählt, sobald sein Revier bedroht wird. Ai Weiwei trägt diese Doppelnatur unübersehbar: ein Künstler mit warmem, oft ironischem Blick auf Menschen, der zugleich zu den unerschrockensten Kritikern der chinesischen Regierung wurde – ein Mann, der sein Terrain nicht kampflos räumt.</p>
           <p class="vb-intro">Der chinesische Künstler Ai Weiwei, geboren 1957 als Sohn des Dichters Ai Qing, verbrachte einen Großteil seiner Kindheit in der Verbannung: Sein Vater wurde während der Kulturrevolution als "Rechtsabweichler" gebrandmarkt und mit der Familie in ein Arbeitslager in Xinjiang geschickt. Ai Weiwei wuchs also mit der sehr konkreten, körperlich erfahrenen Erkenntnis auf, dass Sicherheit und Existenz keine Selbstverständlichkeit sind – eine Prägung, die die Instinktenergie der Selbsterhaltung von früh an schärfte.</p>
         </blockquote>
 
@@ -94,7 +94,7 @@ export function ankeEngelkePortraitPage() {
 
         <h2 class="vb-section">1. Der Wolf</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; und er passt zu Anke Engelke mit einer Pr\u00e4zision, die man erst erkennt, wenn man genauer hinsieht. W\u00f6lfe gelten als soziale Tiere: loyal, verspielt, eng im Rudel verbunden. Doch was sie von anderen Rudeltieren unterscheidet, ist ihre Bereitschaft zur offenen Auseinandersetzung. Der Wolf weicht nicht aus. Er stellt sich. Er zeigt Z\u00e4hne &ndash; nicht aus Aggression, sondern aus Klarheit. Er definiert, wer er ist, indem er sagt, was er nicht hinnimmt.</p>
+          <p class="vb-intro">Der <strong>Wolf</strong> gilt als das Tier des sexuellen Typs 6 &ndash; und er passt zu Anke Engelke mit einer Pr\u00e4zision, die man erst erkennt, wenn man genauer hinsieht. W\u00f6lfe gelten als soziale Tiere: loyal, verspielt, eng im Rudel verbunden. Doch was sie von anderen Rudeltieren unterscheidet, ist ihre Bereitschaft zur offenen Auseinandersetzung. Der Wolf weicht nicht aus. Er stellt sich. Er zeigt Z\u00e4hne &ndash; nicht aus Aggression, sondern aus Klarheit. Er definiert, wer er ist, indem er sagt, was er nicht hinnimmt.</p>
           <p class="vb-intro">Die deutsche Komikerin Anke Engelke ist eine W\u00f6lfin. Ihre B\u00fchne ist das Rudel: Ensemble, Comedy-Partner, Kolleginnen. Ihre St\u00e4rke kommt nicht aus Isolation, sondern aus Verbindung. Und ihr Humor ist kein R\u00fcckzug &ndash; er ist ein Auftreten. Direkt. Unverkleidet. Mit Z\u00e4hnen, die man sieht, weil man wei\u00df, dass dahinter kein Angriff steckt &ndash; sondern Klarheit.</p>
         </blockquote>
 
@@ -513,7 +513,7 @@ export function fridaKahloPortraitPage() {
 
         <h2 class="vb-section">1. Das Flusspferd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, dessen Augen, Ohren und Nüstern auf einer einzigen Linie am Kopf liegen, sodass es fast vollständig untertauchen kann und dabei doch wach und verbunden mit der Welt an der Oberfläche bleibt. Der Körper ruht verborgen, geschützt, fast unbeweglich &ndash; nur das Wesentliche bleibt sichtbar, aufmerksam, präsent.</p>
+          <p class="vb-intro">Das <strong>Flusspferd</strong> gilt als das Tier der selbsterhaltenden Zwei &ndash; ein Tier, dessen Augen, Ohren und Nüstern auf einer einzigen Linie am Kopf liegen, sodass es fast vollständig untertauchen kann und dabei doch wach und verbunden mit der Welt an der Oberfläche bleibt. Der Körper ruht verborgen, geschützt, fast unbeweglich &ndash; nur das Wesentliche bleibt sichtbar, aufmerksam, präsent.</p>
           <p class="vb-intro">Die mexikanische Künstlerin Frida Kahlo lebte genau diese Verborgenheit am eigenen Leib: Mit sechs Jahren erkrankte sie an Polio, mit achtzehn erlitt sie einen Busunfall, der ihre Wirbelsäule, ihr Becken und ihr rechtes Bein zertrümmerte &ndash; über dreißig Operationen, Korsetts und lebenslange Schmerzen waren die Folge. Über weite Strecken ihres Lebens war ihr Körper unter Gips, Verbänden und Stützkonstruktionen verborgen &ndash; sichtbar blieb nur, was sie selbst zeigen wollte: ihr Gesicht, ihr Blick, ihre Kunst. Malen wurde für sie zu genau jener Verbindung zwischen dem verborgenen, verletzten Körper und der wachen, präsenten Oberfläche &ndash; keine künstlerische Wahl unter mehreren, sondern die einzige Bedingung, unter der ihre Existenz überhaupt weiterbestehen konnte.</p>
         </blockquote>
 
@@ -580,7 +580,7 @@ export function grahameWebbPortraitPage() {
 
         <h2 class="vb-section">1. Das Krokodil</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Krokodil</strong> ist das Tier der sexuellen Acht &ndash; ein Tier, das nicht jagt, um zu beeindrucken, sondern weil es muss, mit roher, unverstellter Kraft und einem Biss, dem nichts entkommt. Grahame Webb gilt weltweit als eine der f\xfchrenden Autorit\xe4ten f\xfcr Krokodilforschung und -management &ndash; seit 1970 erforscht er das Salzwasserkrokodil im Norden Australiens, mit blo\xdfen H\xe4nden im Feld, oft gemeinsam mit Fährtenlesern der Aborigines.</p>
+          <p class="vb-intro">Das <strong>Krokodil</strong> ist das Wappentier der sexuellen Acht &ndash; ein Tier, das nicht jagt, um zu beeindrucken, sondern weil es muss, mit roher, unverstellter Kraft und einem Biss, dem nichts entkommt. Grahame Webb gilt weltweit als eine der f\xfchrenden Autorit\xe4ten f\xfcr Krokodilforschung und -management &ndash; seit 1970 erforscht er das Salzwasserkrokodil im Norden Australiens, mit blo\xdfen H\xe4nden im Feld, oft gemeinsam mit Fährtenlesern der Aborigines.</p>
           <p class="vb-intro">Auch hier best\xe4tigt sich das Muster, das sich durch mehrere Tierforscher-Portr\xe4ts dieses Kompasses zieht: Die Tierentsprechungen standen lange fest, bevor irgendjemand von Webbs Lebenswerk wusste. Dass ausgerechnet der weltweit bekannteste Krokodilforscher selbst die Eigenschaften des Krokodils &ndash; Territorialit\xe4t, rohe Direktheit, unerbittlicher Zugriff &ndash; in seiner Pers\xf6nlichkeit tr\xe4gt, f\xfcgt sich nahtlos ein.</p>
         </blockquote>
 
@@ -773,7 +773,7 @@ export function jimiBlueOchsenknechtPortraitPage() {
 
         <h2 class="vb-section">1. Das Flusspferd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das sich mit seiner Herde tief verbunden fühlt, dessen Identität von Geburt an eng an die nächste Umgebung geknüpft ist. Es kennt sein Rudel, es kennt seinen Platz darin &ndash; und ringt zugleich damit, in dieser Herde als eigenständiges Wesen wahrgenommen zu werden.</p>
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist die tierische Entsprechung der selbsterhaltenden Zwei &ndash; ein Wesen, das sich mit seiner Herde tief verbunden fühlt, dessen Identität von Geburt an eng an die nächste Umgebung geknüpft ist. Es kennt sein Rudel, es kennt seinen Platz darin &ndash; und ringt zugleich damit, in dieser Herde als eigenständiges Wesen wahrgenommen zu werden.</p>
           <p class="vb-intro">Der deutsche Schauspieler und Musiker Jimi Blue Ochsenknecht, geboren am 27. Dezember 1991 in München, trägt seinen ungewöhnlichen Namen bereits als erste Familiengeschichte: Bei der Geburt lief sein Gesicht blau an, weil sich die Nabelschnur mehrfach um seinen Hals gewickelt hatte &ndash; daher der Spitzname „Blue", kombiniert mit einer Hommage an Jimi Hendrix. Als Sohn des Schauspielers Uwe Ochsenknecht und des Models und Reality-TV-Stars Natascha Ochsenknecht sowie als Bruder von Wilson Gonzalez und Cheyenne Savannah wuchs er in einer Familie auf, in der das Rampenlicht von Anfang an zum Alltag gehörte.</p>
         </blockquote>
 
@@ -844,7 +844,7 @@ export function julianAssangePortraitPage() {
 
         <h2 class="vb-section">1. Der B\u00fcffel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>B\u00fcffel</strong> ist das Tier des sozialen Typs 9 &ndash; ein Tier, das sich nicht durch Alleingang, sondern durch das Angebundensein in eine gr\u00f6\u00dfere Sache definiert. Er senkt den Kopf und geht hindurch durch das, was ihm im Weg steht, ohne sich um Ansehen oder Applaus zu k\u00fcmmern. Er k\u00e4mpft nicht f\u00fcr sich selbst &ndash; er k\u00e4mpft f\u00fcr etwas, das gr\u00f6\u00dfer ist als das eigene \u00dcberleben.</p>
+          <p class="vb-intro">Der <strong>B\u00fcffel</strong> ist das Sinnbild des sozialen Typs 9 &ndash; ein Tier, das sich nicht durch Alleingang, sondern durch das Angebundensein in eine gr\u00f6\u00dfere Sache definiert. Er senkt den Kopf und geht hindurch durch das, was ihm im Weg steht, ohne sich um Ansehen oder Applaus zu k\u00fcmmern. Er k\u00e4mpft nicht f\u00fcr sich selbst &ndash; er k\u00e4mpft f\u00fcr etwas, das gr\u00f6\u00dfer ist als das eigene \u00dcberleben.</p>
           <p class="vb-intro">Der australische Aktivist Julian Assange, 1971 in Townsville, Australien, geboren, ist dieser B\u00fcffel: kein Redner, der Menschenmengen mitrei\u00dft, sondern ein Programmierer und Aktivist, der glaubte, dass die Wahrheit selbst das m\u00e4chtigste Werkzeug sei. Mit der Gr\u00fcndung von WikiLeaks 2006 begann er, eine Plattform zu bauen, die geheime Dokumente von Regierungen und Konzernen der Welt\u00f6ffentlichkeit zug\u00e4nglich machen sollte &ndash; ohne R\u00fccksicht darauf, wer dabei blo\u00dfgestellt wurde.</p>
         </blockquote>
 
@@ -978,7 +978,7 @@ export function leonardoDaVinciPortraitPage() {
 
         <h2 class="vb-section">1. Der Oktopus mit acht Denkarmen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier der sozialen F\u00fcnf &ndash; ein Wesen mit au\u00dfergew\u00f6hnlicher Intelligenz, das die Welt mit unz\u00e4hligen &bdquo;Armen&ldquo; gleichzeitig erforscht und sein Wissen der Gemeinschaft zur Verf\u00fcgung stellt, statt es nur f\u00fcr sich zu horten. Kein Tier passt besser zu einem Mann, der gleichzeitig Maler, Anatom, Ingenieur, Botaniker und Erfinder war.</p>
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Sinnbild der sozialen F\u00fcnf &ndash; ein Wesen mit au\u00dfergew\u00f6hnlicher Intelligenz, das die Welt mit unz\u00e4hligen &bdquo;Armen&ldquo; gleichzeitig erforscht und sein Wissen der Gemeinschaft zur Verf\u00fcgung stellt, statt es nur f\u00fcr sich zu horten. Kein Tier passt besser zu einem Mann, der gleichzeitig Maler, Anatom, Ingenieur, Botaniker und Erfinder war.</p>
           <p class="vb-intro">Der italienische Universalgelehrte Leonardo da Vinci wurde 1452 unehelich in Vinci bei Florenz geboren &ndash; ein Umstand, der ihm den Zugang zu einer klassischen Universit\u00e4tsausbildung verwehrte und ihn stattdessen zum autodidaktischen Beobachter der Natur machte. In der Werkstatt des Bildhauers Verrocchio ausgebildet, entwickelte er schon fr\u00fch eine unstillbare Neugier, die weit \u00fcber die Malerei hinausging: Er sezierte Leichen, um Anatomie zu verstehen, beobachtete den Vogelflug, um Flugmaschinen zu entwerfen, und studierte Wasserstr\u00f6mungen, um hydraulische Systeme zu entwickeln.</p>
         </blockquote>
 
@@ -1047,7 +1047,7 @@ export function malaikaMihamboPortraitPage() {
 
         <h2 class="vb-section">1. Das Kaninchen, das sich in der Luft nicht verliert</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier des selbsterhaltenden Typs 6 &ndash; ein Wesen von au\u00dferordentlicher Wachheit, das sein Umfeld st\u00e4ndig pr\u00fcft, bevor es sich bewegt. Es ist kein Tier der impulsiven gro\u00dfen Spr\u00fcnge. Wenn es doch springt, dann erst, nachdem es den Boden, die Distanz, die Gefahr genau abgewogen hat. Und dann springt es mit einer Entschlossenheit, die alles vorherige Z\u00f6gern vergessen macht.</p>
+          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Sinnbild des selbsterhaltenden Typs 6 &ndash; ein Wesen von au\u00dferordentlicher Wachheit, das sein Umfeld st\u00e4ndig pr\u00fcft, bevor es sich bewegt. Es ist kein Tier der impulsiven gro\u00dfen Spr\u00fcnge. Wenn es doch springt, dann erst, nachdem es den Boden, die Distanz, die Gefahr genau abgewogen hat. Und dann springt es mit einer Entschlossenheit, die alles vorherige Z\u00f6gern vergessen macht.</p>
           <p class="vb-intro">Die deutsche Leichtathletin Malaika Mihambo ist dieses Kaninchen &ndash; im w\u00f6rtlichsten Sinn ihrer Disziplin. Weitsprung ist der Sport der kontrollierten Explosion: Wochen der Vorbereitung, Sekunden der Ausf\u00fchrung, ein einziger Absprung, der \u00fcber Gold oder Nichts entscheidet. Kaum eine andere Sportart verlangt so viel Analyse f\u00fcr einen Moment, der so kurz ist. Mihambo hat aus dieser Anspannung eine Methode gemacht &ndash; und aus der Methode eine der konstantesten Karrieren der deutschen Leichtathletik.</p>
         </blockquote>
 
@@ -1118,7 +1118,7 @@ export function mataHariPortraitPage() {
 
         <h2 class="vb-section">1. Das Kamel, das sich selbst neu erschuf</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei – ein Tier, das viel tragen kann, ohne es zur Schau zu stellen, und das Nähe nicht fordert, sondern anbietet, einem einzelnen Gegenüber zugewandt. Margaretha Geertruida Zelle wurde 1876 in den Niederlanden geboren, heiratete mit achtzehn den deutlich älteren Offizier Rudolf MacLeod und folgte ihm in die niederländische Kolonie Ostindien – eine Ehe, die sich rasch als gewalttätig und von Alkohol geprägt erwies. Ihr Sohn starb dort vermutlich an den Folgen einer Syphilis-Behandlung, die Ehe endete in Scheidung.</p>
+          <p class="vb-intro">Das <strong>Kamel</strong> ist das Wappentier der sexuellen Zwei – ein Tier, das viel tragen kann, ohne es zur Schau zu stellen, und das Nähe nicht fordert, sondern anbietet, einem einzelnen Gegenüber zugewandt. Margaretha Geertruida Zelle wurde 1876 in den Niederlanden geboren, heiratete mit achtzehn den deutlich älteren Offizier Rudolf MacLeod und folgte ihm in die niederländische Kolonie Ostindien – eine Ehe, die sich rasch als gewalttätig und von Alkohol geprägt erwies. Ihr Sohn starb dort vermutlich an den Folgen einer Syphilis-Behandlung, die Ehe endete in Scheidung.</p>
           <p class="vb-intro">Aus dieser gescheiterten, von Gewalt und Verlust gezeichneten Existenz baute sich Zelle in Paris eine vollständig neue Person: Mata Hari, angeblich eine javanische Priesterin, in Wahrheit eine niederländische Kaufmannstochter, die sich Kostüm, Herkunftsmythos und Bühnenname selbst erfand. Kein Zufall, sondern eine bewusst konstruierte, in jedem Detail durchdachte zweite Identität.</p>
         </blockquote>
 
@@ -1252,7 +1252,7 @@ export function oshoPortraitPage() {
 
         <h2 class="vb-section">1. Der Waschb\u00e4r</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschb\u00e4r</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das seine Umgebung mit wachen Pfoten abtastet, jede Ritze auf Nutzen pr\u00fcft und aus begrenzten Mitteln funktionierende Systeme baut. Kein lautes Tier, aber ein au\u00dferordentlich findiges: Es \u00fcberlebt nicht durch Kraft, sondern durch Cleverness und die F\u00e4higkeit, sich jeder Umgebung anzuverwandeln.</p>
+          <p class="vb-intro">Der <strong>Waschb\u00e4r</strong> gilt als das Tier der selbsterhaltenden Drei &ndash; ein Tier, das seine Umgebung mit wachen Pfoten abtastet, jede Ritze auf Nutzen pr\u00fcft und aus begrenzten Mitteln funktionierende Systeme baut. Kein lautes Tier, aber ein au\u00dferordentlich findiges: Es \u00fcberlebt nicht durch Kraft, sondern durch Cleverness und die F\u00e4higkeit, sich jeder Umgebung anzuverwandeln.</p>
           <p class="vb-intro">Der indische Osho, geboren als Chandra Mohan Jain, baute innerhalb weniger Jahre aus einem staubigen Grundst\u00fcck in Poona einen internationalen Kommune-Betrieb auf &ndash; und wenig sp\u00e4ter, in der W\u00fcste von Oregon, binnen vier Jahren eine funktionierende Stadt mit eigenem Flughafen, Krankenhaus, Kl\u00e4ranlage und Bustransportsystem f\u00fcr Zehntausende Besucher. Der Waschb\u00e4r, der aus nacktem Land ein funktionierendes System macht &ndash; mit einer Effizienz, die selbst Kritiker verbl\u00fcffte.</p>
         </blockquote>
 
@@ -1389,7 +1389,7 @@ export function samAltmanPortraitPage() {
 
         <h2 class="vb-section">1. Die Taube im Zentrum eines Sturms</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier \u2013 sie tr\u00e4gt ihr tiefes Gef\u00fchlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrzehntelanger Beharrlichkeit. Sie sucht keinen Applaus f\u00fcr ihr inneres Ringen, sondern einen eigenen, unverwechselbaren Weg hindurch \u2013 selbst dann, wenn die Welt um sie herum l\u00e4ngst laut geworden ist.</p>
+          <p class="vb-intro">Die <strong>Taube</strong> ist die tierische Entsprechung der selbsterhaltenden Vier \u2013 sie tr\u00e4gt ihr tiefes Gef\u00fchlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrzehntelanger Beharrlichkeit. Sie sucht keinen Applaus f\u00fcr ihr inneres Ringen, sondern einen eigenen, unverwechselbaren Weg hindurch \u2013 selbst dann, wenn die Welt um sie herum l\u00e4ngst laut geworden ist.</p>
           <p class="vb-intro">Der US-amerikanische Unternehmer Sam Altman, geboren 1985 in Chicago, ist als CEO von OpenAI eine der einflussreichsten Personen der Technologiegeschichte \u2013 verantwortlich f\u00fcr ChatGPT, ein Produkt, das binnen weniger Jahre den \u00f6ffentlichen Diskurs \u00fcber k\u00fcnstliche Intelligenz neu geordnet hat. Und doch bleibt Altman \u00f6ffentlich auffallend zur\u00fcckhaltend: kein B\u00fchnenauftritt im Stil anderer Tech-Gr\u00fcnder, keine demonstrative Selbstinszenierung, sondern ein ruhiger, fast unscheinbarer Ton, selbst wenn die Tragweite seiner Entscheidungen die ganze Menschheit betrifft.</p>
         </blockquote>
 
@@ -1457,7 +1457,7 @@ export function sucharitBhakdiPortraitPage() {
 
         <h2 class="vb-section">1. Der Golden Retriever, der Alarm schl\u00e4gt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; und kein Tier beschreibt Prof. Dr. Sucharit Bhakdi treffender. Der Golden Retriever ist von Natur aus dem Menschen zugewandt, loyal, w\u00e4rmend, treu. Er schl\u00e4gt nicht aus Aggression an &ndash; er schl\u00e4gt aus Liebe an. Weil er sp\u00fcrt, dass etwas nicht stimmt. Weil er die Gefahr sieht, bevor andere sie sehen. Weil er nicht schweigen kann, wenn diejenigen, die er liebt, in Gefahr sind.</p>
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> gilt als das Tier der sozialen Zwei &ndash; und kein Tier beschreibt Prof. Dr. Sucharit Bhakdi treffender. Der Golden Retriever ist von Natur aus dem Menschen zugewandt, loyal, w\u00e4rmend, treu. Er schl\u00e4gt nicht aus Aggression an &ndash; er schl\u00e4gt aus Liebe an. Weil er sp\u00fcrt, dass etwas nicht stimmt. Weil er die Gefahr sieht, bevor andere sie sehen. Weil er nicht schweigen kann, wenn diejenigen, die er liebt, in Gefahr sind.</p>
           <p class="vb-intro">Sucharit Bhakdi, geboren 1946 in Washington D.C., aufgewachsen in Thailand, studiert und gelehrt in Deutschland &ndash; 22 Jahre lang als Ordinarius f\u00fcr Medizinische Mikrobiologie an der Universit\u00e4t Mainz, einer der meistzitierten Mikrobiologen Deutschlands &ndash; wurde in der Pandemiezeit zu einer der markantesten und mutigsten Stimmen wissenschaftlicher Kritik. Er trat an die \u00d6ffentlichkeit nicht, weil er Aufmerksamkeit suchte, sondern weil er glaubte, dass er es musste. Weil der Golden Retriever nicht schlafen kann, wenn er Alarm riecht.</p>
         </blockquote>
 
@@ -1525,7 +1525,7 @@ export function tracieDHallPortraitPage() {
 
         <h2 class="vb-section">1. Das Flusspferd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das seine Kraft aus der praktischen, alltäglichen Arbeit in konkreten Gemeinschaften schöpft, bevor es größere Verantwortung übernimmt. Tracie D. Hall arbeitete über Jahre in öffentlichen Bibliotheken quer durch die USA – der Seattle Public Library, der New Haven Free Library, der Queens Public Library und der Hartford Free Public Library –, bevor sie in eine landesweite Führungsrolle aufstieg.</p>
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist die tierische Entsprechung der selbsterhaltenden Zwei &ndash; ein Wesen, das seine Kraft aus der praktischen, alltäglichen Arbeit in konkreten Gemeinschaften schöpft, bevor es größere Verantwortung übernimmt. Tracie D. Hall arbeitete über Jahre in öffentlichen Bibliotheken quer durch die USA – der Seattle Public Library, der New Haven Free Library, der Queens Public Library und der Hartford Free Public Library –, bevor sie in eine landesweite Führungsrolle aufstieg.</p>
           <p class="vb-intro">Ihre akademische Basis ist ebenso breit verwurzelt wie ihre praktische Erfahrung: einen Master in Bibliotheks- und Informationswissenschaft von der University of Washington, einen Master in International and Area Studies mit Schwerpunkt Subsahara-Afrika von Yale sowie zwei Bachelor-Abschlüsse in Recht und Gesellschaft sowie Black Studies von der University of California, Santa Barbara, ergänzt durch Studienaufenthalte an den Universitäten Nairobi und Daressalam.</p>
         </blockquote>
 
@@ -1716,7 +1716,7 @@ export function carenMiosgaPortraitPage() {
 
         <h2 class="vb-section">1. Der Waschbär, der die Fragen stellt, statt die Show zu machen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; kein Auftritt für die Kamera, sondern stille, geschickte Kompetenz, die sich ihr eigenes Territorium schafft. Caren Miosga, geboren 1969 in Ratingen, moderierte über zwei Jahrzehnte die "Tagesthemen", bevor sie 2023 mit ihrer eigenen politischen Talkshow "Caren Miosga" im Ersten den prestigeträchtigen Sonntagabend-Sendeplatz übernahm, den zuvor Anne Will besetzt hatte.</p>
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist die tierische Entsprechung der selbsterhaltenden Drei &ndash; kein Auftritt für die Kamera, sondern stille, geschickte Kompetenz, die sich ihr eigenes Territorium schafft. Caren Miosga, geboren 1969 in Ratingen, moderierte über zwei Jahrzehnte die "Tagesthemen", bevor sie 2023 mit ihrer eigenen politischen Talkshow "Caren Miosga" im Ersten den prestigeträchtigen Sonntagabend-Sendeplatz übernahm, den zuvor Anne Will besetzt hatte.</p>
           <p class="vb-intro">Was an ihrem Aufstieg auffällt, ist das Fehlen jeder Selbstinszenierung: Miosga baute ihre Reputation über Jahre in der Nachrichtenredaktion auf, nicht über mediale Präsenz jenseits der Sendung. Der Waschbär gräbt nicht im Rampenlicht &ndash; er sammelt beharrlich, was er für die nächste Aufgabe braucht.</p>
         </blockquote>
 
@@ -1785,7 +1785,7 @@ export function gregorGysiPortraitPage() {
 
         <h2 class="vb-section">1. Der Biber, der eine Partei durch den Umbruch trug</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier des sozialen Typs 7 – ein Tier, das für die Gemeinschaft baut und dabei besonders in Umbruchzeiten unentbehrlich wird. Gregor Gysi, 1948 geboren als Sohn des späteren DDR-Kulturministers Klaus Gysi, verteidigte als Rechtsanwalt in der DDR Regimekritiker wie Robert Havemann, Rudolf Bahro und Bärbel Bohley – eine riskante Rolle innerhalb eines Systems, dem er selbst als SED-Mitglied angehörte.</p>
+          <p class="vb-intro">Der <strong>Biber</strong> ist die tierische Entsprechung des sozialen Typs 7 – ein Tier, das für die Gemeinschaft baut und dabei besonders in Umbruchzeiten unentbehrlich wird. Gregor Gysi, 1948 geboren als Sohn des späteren DDR-Kulturministers Klaus Gysi, verteidigte als Rechtsanwalt in der DDR Regimekritiker wie Robert Havemann, Rudolf Bahro und Bärbel Bohley – eine riskante Rolle innerhalb eines Systems, dem er selbst als SED-Mitglied angehörte.</p>
           <p class="vb-intro">Nach der Wende war es Gysi, der maßgeblich die Transformation der SED über die PDS zur heutigen Linkspartei gestaltete und von 2005 bis 2015 die Linksfraktion im Bundestag anführte. Kein Biber überlebt den Zusammenbruch des alten Damms unverändert – aber ein Biber baut aus den Trümmern etwas Neues, das trägt.</p>
         </blockquote>
 
@@ -1851,7 +1851,7 @@ export function stringerDavisPortraitPage() {
 
         <h2 class="vb-section">1. Das Kaninchen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier der selbsterhaltenden Sechs &ndash; wachsam, vorsichtig, nie das erste, das sich exponiert. Stringer Davis verkörperte dieses Bild fast wörtlich: Über Jahrzehnte begleitete er seine Ehefrau <a href="javascript:void(0)" data-route="beruehmte-margaret-rutherford">Margaret Rutherford</a> (SE9w8) in kleinen, oft nur wenige Minuten langen Nebenrollen in ihren eigenen Filmen &ndash; nie im Zentrum, aber immer präsent, immer verlässlich in Reichweite.</p>
+          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Sinnbild der selbsterhaltenden Sechs &ndash; wachsam, vorsichtig, nie das erste, das sich exponiert. Stringer Davis verkörperte dieses Bild fast wörtlich: Über Jahrzehnte begleitete er seine Ehefrau <a href="javascript:void(0)" data-route="beruehmte-margaret-rutherford">Margaret Rutherford</a> (SE9w8) in kleinen, oft nur wenige Minuten langen Nebenrollen in ihren eigenen Filmen &ndash; nie im Zentrum, aber immer präsent, immer verlässlich in Reichweite.</p>
           <p class="vb-intro">Der wache, leicht angespannte Blick, der auf Fotos von ihm auffällt, passt zu einem Mann, der sein ganzes Berufsleben in der zweiten Reihe verbrachte, ohne dabei unsichtbar zu sein &ndash; das Kaninchen prüft die Lage genau, bevor es sich zeigt, und zieht sich zurück, sobald die Aufmerksamkeit zu groß wird.</p>
         </blockquote>
 
@@ -1919,7 +1919,7 @@ export function oliverHardyPortraitPage() {
 
         <h2 class="vb-section">1. Der Gorilla</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier des selbsterhaltenden Typs 7 &ndash; mächtig, ruhig, überraschend genussfreudig statt aggressiv. Oliver Hardy, als „Ollie" oder international schlicht als „der Dicke" bekannt, war auf der Leinwand der aufgeblasene, würdevolle Blowhard, der mit theatralischem Seufzer und der berühmten Krawatten-Nestelgeste jede neue Katastrophe seines Partners Stan Laurel quittierte: „Here's another nice mess you've gotten me into."</p>
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Sinnbild des selbsterhaltenden Typs 7 &ndash; mächtig, ruhig, überraschend genussfreudig statt aggressiv. Oliver Hardy, als „Ollie" oder international schlicht als „der Dicke" bekannt, war auf der Leinwand der aufgeblasene, würdevolle Blowhard, der mit theatralischem Seufzer und der berühmten Krawatten-Nestelgeste jede neue Katastrophe seines Partners Stan Laurel quittierte: „Here's another nice mess you've gotten me into."</p>
           <p class="vb-intro">Privat war Hardy fast das Gegenteil dieser aufgeblasenen Bühnenfigur: ein umgänglicher, bescheidener Mann, der lieber Golf spielte und Karten klopfte, als sich in Szene zu setzen. Genau dieser Kontrast zwischen Bühnenpose und echtem Wesen ist der Schlüssel zu seinem Subtyp.</p>
         </blockquote>
 
@@ -2112,7 +2112,7 @@ export function arnoldSchwarzeneggerPortraitPage() {
 
         <h2 class="vb-section">1. Der Adler, der sich seinen Körper selbst erschuf</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins: kein Bedürfnis nach Beifall, nur der eigene, unerbittliche Maßstab. Arnold Schwarzenegger wurde 1947 im österreichischen Thal geboren, Sohn eines strengen, gewaltbereiten Gendarmerie-Kommandanten, der Disziplin und Leistung als einzig akzeptable Maßstäbe im Haus durchsetzte. Schon als Teenager begann Schwarzenegger ein selbst auferlegtes, fast militärisches Trainingsregime im Bodybuilding – nicht aus Spaß an der Bewegung, sondern aus dem Bedürfnis, den eigenen Körper wie ein Projekt zu perfektionieren.</p>
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Wappentier der selbsterhaltenden Eins: kein Bedürfnis nach Beifall, nur der eigene, unerbittliche Maßstab. Arnold Schwarzenegger wurde 1947 im österreichischen Thal geboren, Sohn eines strengen, gewaltbereiten Gendarmerie-Kommandanten, der Disziplin und Leistung als einzig akzeptable Maßstäbe im Haus durchsetzte. Schon als Teenager begann Schwarzenegger ein selbst auferlegtes, fast militärisches Trainingsregime im Bodybuilding – nicht aus Spaß an der Bewegung, sondern aus dem Bedürfnis, den eigenen Körper wie ein Projekt zu perfektionieren.</p>
           <p class="vb-intro">Mit zwanzig Jahren gewann er 1967 den Titel „Mister Universe" – jünger als jeder Gewinner vor ihm. Der Adler kreiste nicht aus Zufall über dem Gipfel des Bodybuildings; er hatte seinen eigenen Kurs längst mit eiserner Selbstkontrolle festgelegt.</p>
         </blockquote>
 
@@ -2179,7 +2179,7 @@ export function alecBaldwinPortraitPage() {
 
         <h2 class="vb-section">1. Der Wolf, der die Politikwissenschaft gegen die Bühne tauschte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier der sexuellen Sechs &ndash; ein Tier, das Angst nicht durch Rückzug bewältigt, sondern durch offene, manchmal einschüchternde Konfrontation. Alec Baldwin, 1958 als Alexander Rae Baldwin III. in Massapequa, Long Island, geboren, wuchs mit fünf Geschwistern auf, von denen drei jüngere Brüder ebenfalls Schauspieler wurden. Er begann sein Studium an der George Washington University mit Politikwissenschaft, bevor er zur New York University und ans Lee-Strasberg-Institut wechselte, um Schauspiel zu lernen &ndash; ein früher Bruch, der zeigt, wie sehr ihn ein bereits eingeschlagener, sicherer Weg nicht binden konnte, sobald eine intensivere Option sichtbar wurde.</p>
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Sinnbild der sexuellen Sechs &ndash; ein Tier, das Angst nicht durch Rückzug bewältigt, sondern durch offene, manchmal einschüchternde Konfrontation. Alec Baldwin, 1958 als Alexander Rae Baldwin III. in Massapequa, Long Island, geboren, wuchs mit fünf Geschwistern auf, von denen drei jüngere Brüder ebenfalls Schauspieler wurden. Er begann sein Studium an der George Washington University mit Politikwissenschaft, bevor er zur New York University und ans Lee-Strasberg-Institut wechselte, um Schauspiel zu lernen &ndash; ein früher Bruch, der zeigt, wie sehr ihn ein bereits eingeschlagener, sicherer Weg nicht binden konnte, sobald eine intensivere Option sichtbar wurde.</p>
           <p class="vb-intro">Seit den frühen 1980er-Jahren, beginnend am Broadway und in der Serie ›The Doctors‹, ist Baldwin nahezu vier Jahrzehnte im Geschäft geblieben &ndash; nicht nur wegen seiner schauspielerischen Bandbreite, sondern, wie es Beobachter formulieren, wegen seiner realen, öffentlich sichtbaren Persönlichkeit: ausgesprochen liberal, gelegentlich hitzköpfig, Talkshow-Gast, Podcast-Host, Gameshow-Moderator und der meistgebuchte Gastgeber in der Geschichte von ›Saturday Night Live‹.</p>
         </blockquote>
 
@@ -2239,7 +2239,7 @@ export function volkerGerhardtPortraitPage() {
         <h2 class="vb-section">1. Die Gans, die zwei Werke über Jahrzehnte hütet</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Volker Gerhardt wurde 1944 in Guben geboren und wuchs in Hagen/Westfalen auf. Er studierte Philosophie, Psychologie, Rechtswissenschaft und Soziologie in Frankfurt und Münster, promovierte 1974 und habilitierte sich 1984. Nach einer Professur in Münster (ab 1985) und einer Gastprofessur in Zürich (1986) lehrte er von 1992 bis 2012 Philosophie an der Humboldt-Universität zu Berlin, wo er bis heute als Seniorprofessor tätig ist.</p>
-          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins – wachsam, prinzipientreu, in Verantwortung für die Ordnung eines Ganzen, nicht für die eigene Bühne. Bei kaum jemandem zeigt sich dieses Muster so konkret wie bei Gerhardt: Von 2001 bis 2023 leitete er die Nietzsche-Kommission der Berlin-Brandenburgischen Akademie der Wissenschaften und verantwortete damit über zwei Jahrzehnte die kritische Gesamtausgabe des Werks von <a href="javascript:void(0)" data-route="beruehmte-friedrich-nietzsche">Friedrich Nietzsche</a> (SX5w4). Parallel dazu initiierte er 2001 eine Neuausgabe der Akademie-Ausgabe von Kants Werken – ein auf 2026 angelegtes Editionsprojekt, dessen Vorsitz und Projektleitung ebenfalls bei ihm lag.</p>
+          <p class="vb-intro">Die <strong>Gans</strong> ist die tierische Entsprechung der sozialen Eins – wachsam, prinzipientreu, in Verantwortung für die Ordnung eines Ganzen, nicht für die eigene Bühne. Bei kaum jemandem zeigt sich dieses Muster so konkret wie bei Gerhardt: Von 2001 bis 2023 leitete er die Nietzsche-Kommission der Berlin-Brandenburgischen Akademie der Wissenschaften und verantwortete damit über zwei Jahrzehnte die kritische Gesamtausgabe des Werks von <a href="javascript:void(0)" data-route="beruehmte-friedrich-nietzsche">Friedrich Nietzsche</a> (SX5w4). Parallel dazu initiierte er 2001 eine Neuausgabe der Akademie-Ausgabe von Kants Werken – ein auf 2026 angelegtes Editionsprojekt, dessen Vorsitz und Projektleitung ebenfalls bei ihm lag.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Eins: Korrektheit als Lebensaufgabe, nicht als Auftritt</h2>
@@ -2377,7 +2377,7 @@ export function abdulHayyHoldijkPortraitPage() {
 
         <h2 class="vb-section">1. Der Oktopus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier der sozialen Fünf – das intelligenteste wirbellose Tier der Erde, das in Systemen denkt, still vernetzt und mit erstaunlicher Präzision agiert. Abdul Hayy Holdijk wurde in den Niederlanden geboren und wuchs teils in Deutschland auf, bevor er an Universitäten in den USA und in London studierte. Als junger Mann führten ihn Reisen nach Sri Lanka, Beirut und Damaskus – in einer Moschee in Damaskus fand er bei einem englischsprachigen Sufi-Scheich das, was er selbst als seine ›spirituelle Heimat‹ bezeichnet.</p>
+          <p class="vb-intro">Der <strong>Oktopus</strong> gilt als das Tier der sozialen Fünf – das intelligenteste wirbellose Tier der Erde, das in Systemen denkt, still vernetzt und mit erstaunlicher Präzision agiert. Abdul Hayy Holdijk wurde in den Niederlanden geboren und wuchs teils in Deutschland auf, bevor er an Universitäten in den USA und in London studierte. Als junger Mann führten ihn Reisen nach Sri Lanka, Beirut und Damaskus – in einer Moschee in Damaskus fand er bei einem englischsprachigen Sufi-Scheich das, was er selbst als seine ›spirituelle Heimat‹ bezeichnet.</p>
           <p class="vb-intro">Seit rund vierzig Jahren folgt er nun bereits diesem Sufi-Pfad und ist selbst zum Scheich geworden – eine über Jahrzehnte gewachsene, in eine konkrete spirituelle Tradition eingebettete Autorität, kein spontanes Bühnenauftreten.</p>
         </blockquote>
 
@@ -2442,7 +2442,7 @@ export function nicoleKidmanPortraitPage() {
 
         <h2 class="vb-section">1. Die Gans</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins &ndash; unauffällig in der Erscheinung, aber unerbittlich in der Sache, der sie dient. Nicole Kidman, geboren am 20. Juni 1967 in Honolulu als Tochter australischer Eltern, wuchs in Sydney auf und litt als Kind unter starker Schüchternheit und einem Stottern, das sie durch den Besuch einer Schauspielschule überwand &ndash; eine erste, frühe Lektion darin, dass Disziplin und wiederholte Übung Angst in Handlungsfähigkeit verwandeln können.</p>
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Sinnbild der sozialen Eins &ndash; unauffällig in der Erscheinung, aber unerbittlich in der Sache, der sie dient. Nicole Kidman, geboren am 20. Juni 1967 in Honolulu als Tochter australischer Eltern, wuchs in Sydney auf und litt als Kind unter starker Schüchternheit und einem Stottern, das sie durch den Besuch einer Schauspielschule überwand &ndash; eine erste, frühe Lektion darin, dass Disziplin und wiederholte Übung Angst in Handlungsfähigkeit verwandeln können.</p>
           <p class="vb-intro">Der internationale Durchbruch gelang ihr mit dem australischen Thriller ›Dead Calm‹ (1989). Es folgte eine Karriere, die sich über mehr als drei Jahrzehnte durch nahezu jedes Genre und jede Produktionsgröße zog &ndash; vom Hollywood-Blockbuster über das europäische Arthouse-Kino bis zum prestigeträchtigen Fernsehdrama &ndash; und für die sie 2003 als erste Australierin den Oscar als beste Hauptdarstellerin gewann.</p>
         </blockquote>
 

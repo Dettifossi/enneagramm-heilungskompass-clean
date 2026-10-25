@@ -17,7 +17,7 @@ export function abdAlFattahAsSisiPortraitPage() {
 
         <h2 class="vb-section">1. Der Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; ein Tier, das gebraucht werden will und seine Kraft in den Dienst der Gruppe stellt. Von außen wirkt der Golden Retriever warm, fürsorglich, verbindend. Doch dieselbe Energie, die Bindung schafft, kann auch zur Rolle des unentbehrlichen Beschützers werden, dem sich alle anderen unterzuordnen haben &ndash; ein Anspruch, der sich bei Abd al-Fattah as-Sisi bis in die Staatsführung Ägyptens hinein zeigt.</p>
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Sinnbild der sozialen Zwei &ndash; ein Tier, das gebraucht werden will und seine Kraft in den Dienst der Gruppe stellt. Von außen wirkt der Golden Retriever warm, fürsorglich, verbindend. Doch dieselbe Energie, die Bindung schafft, kann auch zur Rolle des unentbehrlichen Beschützers werden, dem sich alle anderen unterzuordnen haben &ndash; ein Anspruch, der sich bei Abd al-Fattah as-Sisi bis in die Staatsführung Ägyptens hinein zeigt.</p>
           <p class="vb-intro">Abd al-Fattah as-Sisi wurde am 19. November 1954 in Kairo geboren, in eine Militärfamilie hinein, und ist mit seiner Cousine mütterlicherseits, Entissar Amer, verheiratet. 1977 schloss er die Militärakademie ab und begann eine Karriere in der mechanisierten Infanterie &ndash; ein Weg, der von Anfang an auf Zugehörigkeit zu einer klar geordneten, hierarchischen Gemeinschaft ausgerichtet war, in der Fürsorge und Befehlsgewalt untrennbar miteinander verbunden sind.</p>
         </blockquote>
 
@@ -218,7 +218,7 @@ export function byronKatiePortraitPage() {
 
         <h2 class="vb-section">1. Der Wolf</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 – ein Tier, das der Bedrohung nicht ausweicht, sondern sie direkt ansieht. Wölfe testen sich gegenseitig durch Blickkontakt und Nähe, nicht durch Rückzug. Wer im Rudel bestehen will, muss standhalten können, wenn es unbequem wird – genau das ist die Bewegung, die Byron Katie zu ihrem Lebenswerk gemacht hat: der eigenen Angst nicht auszuweichen, sondern sie direkt anzuschauen, Frage für Frage.</p>
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Wappentier des sexuellen Typs 6 – ein Tier, das der Bedrohung nicht ausweicht, sondern sie direkt ansieht. Wölfe testen sich gegenseitig durch Blickkontakt und Nähe, nicht durch Rückzug. Wer im Rudel bestehen will, muss standhalten können, wenn es unbequem wird – genau das ist die Bewegung, die Byron Katie zu ihrem Lebenswerk gemacht hat: der eigenen Angst nicht auszuweichen, sondern sie direkt anzuschauen, Frage für Frage.</p>
           <p class="vb-intro">Die US-amerikanische Byron Kathleen Reid, 1942 in der Wüstenstadt Barstow, Kalifornien, geboren, war in den 1970er-Jahren eine erfolgreiche Geschäftsfrau in der Immobilienbranche, verheiratet, Mutter dreier Kinder. Nichts an diesem Leben deutete auf das hin, was folgte: ein fast vollständiger innerer Zusammenbruch – und daraus geboren eine der einflussreichsten Selbsterkenntnismethoden der Gegenwart.</p>
         </blockquote>
 
@@ -491,7 +491,7 @@ export function franzLisztPortraitPage() {
 
         <h2 class="vb-section">1. Der Schimpanse, der ganze Säle in Ekstase versetzte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier des sexuellen Typs 7 – ein Wesen, das nicht in ruhiger Distanz lebt, sondern im unmittelbaren, oft überschäumenden Kontakt mit der Welt, das ganze Gruppen mit seiner Energie ansteckt. Kaum ein Musiker der Geschichte hat das so buchstäblich erlebt wie Franz Liszt: Der Dichter Heinrich Heine prägte 1844 eigens den Begriff "Lisztomania" für die kollektive Hysterie, die seine Konzerte auslösten – ohnmächtige Zuhörerinnen, Frauen, die um seine zerbrochenen Klaviersaiten und weggeworfenen Handschuhe rangen, um sie als Reliquien zu behalten.</p>
+          <p class="vb-intro">Der <strong>Schimpanse</strong> gilt als das Tier des sexuellen Typs 7 – ein Wesen, das nicht in ruhiger Distanz lebt, sondern im unmittelbaren, oft überschäumenden Kontakt mit der Welt, das ganze Gruppen mit seiner Energie ansteckt. Kaum ein Musiker der Geschichte hat das so buchstäblich erlebt wie Franz Liszt: Der Dichter Heinrich Heine prägte 1844 eigens den Begriff "Lisztomania" für die kollektive Hysterie, die seine Konzerte auslösten – ohnmächtige Zuhörerinnen, Frauen, die um seine zerbrochenen Klaviersaiten und weggeworfenen Handschuhe rangen, um sie als Reliquien zu behalten.</p>
           <p class="vb-intro">Der ungarische Komponist Franz Liszt, geboren 1811 im ungarischen Raiding als Sohn eines Verwalters im Dienst der Fürsten Esterházy, zeigte Liszt schon als Kind ein außergewöhnliches Talent, das ihn bald zum Unterricht bei Carl Czerny und später nach Paris führte. Seine physische Spielweise war so kraftvoll, dass bei seinem Klavierspiel regelmäßig Klaviersaiten zerrissen – ein Klavierbauer musste eigens verstärkte Instrumente für seine Konzerte bereitstellen. Der Schimpanse spielt nicht für sich – er reißt begeistert den ganzen Saal mit sich.</p>
         </blockquote>
 
@@ -558,7 +558,7 @@ export function giannaNanniniPortraitPage() {
 
         <h2 class="vb-section">1. Der Adler</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins – er kreist hoch über dem Geschehen, sieht mit ungewöhnlicher Klarheit, was unten geschieht, und greift nur ein, wenn es wirklich zählt. Gianna Nannini wurde 1954 in Siena geboren, als Tochter eines wohlhabenden Industriellen und Konditoreiunternehmers und Schwester des späteren Formel-1-Fahrers Alessandro Nannini. In dieser konservativen, traditionsbewussten Unternehmerfamilie galt sie früh als das kreative Gegenstück – erwartet wurde eine Nachfolge im Familienbetrieb, gewollt hatte sie etwas ganz anderes.</p>
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Sinnbild der selbsterhaltenden Eins – er kreist hoch über dem Geschehen, sieht mit ungewöhnlicher Klarheit, was unten geschieht, und greift nur ein, wenn es wirklich zählt. Gianna Nannini wurde 1954 in Siena geboren, als Tochter eines wohlhabenden Industriellen und Konditoreiunternehmers und Schwester des späteren Formel-1-Fahrers Alessandro Nannini. In dieser konservativen, traditionsbewussten Unternehmerfamilie galt sie früh als das kreative Gegenstück – erwartet wurde eine Nachfolge im Familienbetrieb, gewollt hatte sie etwas ganz anderes.</p>
           <p class="vb-intro">Statt sich offen gegen die Familie aufzulehnen, wählte die junge Gianna den disziplinierten Weg: Sie durchlief ihre gesamte Jugend hindurch eine klassische Ausbildung am Konservatorium von Lucca, wurde als Pianistin geschult und studierte später Komposition bei Bruno Bettinelli. Der Adler, der sich seine Flugbahn nicht erkämpft, sondern sie sich präzise erarbeitet, bevor er abhebt.</p>
         </blockquote>
 
@@ -824,7 +824,7 @@ export function josephAounPortraitPage() {
 
         <h2 class="vb-section">1. Der Adler</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins &ndash; ein Tier, das nicht durch Lautstärke beeindruckt, sondern durch Präzision und Zurückhaltung. Er beobachtet lange, bevor er handelt, und braucht keine Bühne, um seine Wirksamkeit zu beweisen. Kaum ein politisches Porträt zeigt das deutlicher als der Weg des libanesischen Präsidenten Joseph Aoun: Er warb im Vorfeld seiner Wahl in keinem einzigen öffentlichen Forum für seine Kandidatur und klapperte, anders als üblich in Libanons zerstrittenem politischem System, keine der rivalisierenden Fraktionen ab, um sich Unterstützung zu sichern.</p>
+          <p class="vb-intro">Der <strong>Adler</strong> gilt als das Tier der selbsterhaltenden Eins &ndash; ein Tier, das nicht durch Lautstärke beeindruckt, sondern durch Präzision und Zurückhaltung. Er beobachtet lange, bevor er handelt, und braucht keine Bühne, um seine Wirksamkeit zu beweisen. Kaum ein politisches Porträt zeigt das deutlicher als der Weg des libanesischen Präsidenten Joseph Aoun: Er warb im Vorfeld seiner Wahl in keinem einzigen öffentlichen Forum für seine Kandidatur und klapperte, anders als üblich in Libanons zerstrittenem politischem System, keine der rivalisierenden Fraktionen ab, um sich Unterstützung zu sichern.</p>
           <p class="vb-intro">Joseph Khalil Aoun wurde am 10. Januar 1964 in Sin el Fil im Libanongebirge geboren, in eine maronitisch-christliche Familie. 1983, mitten im libanesischen Bürgerkrieg, trat er in die Militärakademie ein und wurde 1985 zum Offizier ernannt – ein Berufsweg, der von Anfang an nicht auf sichtbare Wirkung, sondern auf jahrzehntelange, geduldige Bewährung innerhalb einer Institution angelegt war.</p>
         </blockquote>
 
@@ -949,7 +949,7 @@ export function leboMPortraitPage() {
 
         <h2 class="vb-section">1. Das Flusspferd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, dessen Stimme aus der Tiefe kommt und dessen Kraft im eigenen, angestammten Revier verwurzelt ist. Kaum eine Stimme der Filmgeschichte trägt das so unmittelbar in sich wie der Zulu-Ruf, mit dem Lebo M 1994 den Beginn von <em>Der König der Löwen</em> eröffnete – ein einziger Klageruf, der zur international bekanntesten Filmmusikzeile der 1990er-Jahre wurde.</p>
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist die tierische Entsprechung der selbsterhaltenden Zwei &ndash; ein Tier, dessen Stimme aus der Tiefe kommt und dessen Kraft im eigenen, angestammten Revier verwurzelt ist. Kaum eine Stimme der Filmgeschichte trägt das so unmittelbar in sich wie der Zulu-Ruf, mit dem Lebo M 1994 den Beginn von <em>Der König der Löwen</em> eröffnete – ein einziger Klageruf, der zur international bekanntesten Filmmusikzeile der 1990er-Jahre wurde.</p>
           <p class="vb-intro">Lebohang Morake wurde 1964 in Soweto, Johannesburg, geboren, als musikalisches Naturtalent ohne formale Ausbildung. 1979 verließ er im Alter von 16 Jahren, während der Apartheid, sein Heimatland als Exilant und ging in die USA, um dort Musik zu studieren – ein früher Bruch mit der vertrauten Umgebung, der ihn zeitlebens mit der Sehnsucht nach seinen musikalischen Wurzeln verband.</p>
         </blockquote>
 
@@ -1080,7 +1080,7 @@ export function markZuckerbergPortraitPage() {
 
         <h2 class="vb-section">1. Der Igel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier des sexuellen Typs 5 &ndash; ein stilles, nachtaktives Wesen mit stacheligen Abwehrmechanismen, das die Welt aus sicherer Distanz erkundet. Wer ihn antrifft, merkt sofort: Das hier ist kein Tier der gro\u00dfen Gesten. Aber untersch\u00e4tze es nicht. Darunter liegt etwas au\u00dfergew\u00f6hnlich Scharfes &ndash; ein Verstand, der mehr wahrnimmt, als er zeigt.</p>
+          <p class="vb-intro">Der <strong>Igel</strong> gilt als das Tier des sexuellen Typs 5 &ndash; ein stilles, nachtaktives Wesen mit stacheligen Abwehrmechanismen, das die Welt aus sicherer Distanz erkundet. Wer ihn antrifft, merkt sofort: Das hier ist kein Tier der gro\u00dfen Gesten. Aber untersch\u00e4tze es nicht. Darunter liegt etwas au\u00dfergew\u00f6hnlich Scharfes &ndash; ein Verstand, der mehr wahrnimmt, als er zeigt.</p>
           <p class="vb-intro">Der US-amerikanische Unternehmer Mark Zuckerberg ist dieser Igel. Er hat als 19-J\u00e4hriger aus seinem Harvardstudenten-Zimmer heraus ein Netzwerk gebaut, das heute mehr als drei Milliarden Menschen t\u00e4glich nutzen. Er ist einer der m\u00e4chtigsten Menschen der Welt &ndash; und zugleich jemand, der in einem Interview wirkt, als ob er lieber woanders w\u00e4re. Die Stacheln sind aus Code. Das Innere sieht nur, wem er wirklich vertraut.</p>
         </blockquote>
 
@@ -1143,7 +1143,7 @@ export function mohammedPortraitPage() {
 
         <h2 class="vb-section">1. Der L\u00f6we</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>L\u00f6we</strong> ist das Tier der sozialen Acht &ndash; ein Tier, das seine St\u00e4rke nicht zur Schau stellt, sondern zum Schutz des Rudels einsetzt. Es beansprucht keine Beute f\u00fcr sich allein, sondern verteidigt das Territorium, in dem alle sicher leben k\u00f6nnen. Kein Zufallstier f\u00fcr einen Mann, der als Waisenkind im Mekka des 6. Jahrhunderts aufwuchs &ndash; einer Gesellschaft, in der Waisen, Witwen und Sklaven kaum Rechte hatten &ndash; und der Zeit seines Lebens genau f\u00fcr diese Schw\u00e4chsten eintrat.</p>
+          <p class="vb-intro">Der <strong>L\u00f6we</strong> ist die tierische Entsprechung der sozialen Acht &ndash; ein Tier, das seine St\u00e4rke nicht zur Schau stellt, sondern zum Schutz des Rudels einsetzt. Es beansprucht keine Beute f\u00fcr sich allein, sondern verteidigt das Territorium, in dem alle sicher leben k\u00f6nnen. Kein Zufallstier f\u00fcr einen Mann, der als Waisenkind im Mekka des 6. Jahrhunderts aufwuchs &ndash; einer Gesellschaft, in der Waisen, Witwen und Sklaven kaum Rechte hatten &ndash; und der Zeit seines Lebens genau f\u00fcr diese Schw\u00e4chsten eintrat.</p>
           <p class="vb-intro">Mohammed ibn Abdullah, geboren um 570 n. Chr. in Mekka, verlor fr\u00fch beide Eltern und wuchs bei seinem Gro\u00dfvater und sp\u00e4ter seinem Onkel auf. Als Karawanenf\u00fchrer und Kaufmann erwarb er sich den Ruf eines au\u00dfergew\u00f6hnlich verl\u00e4sslichen, ehrlichen Mannes &ndash; noch bevor er mit etwa 40 Jahren nach eigener \u00dcberlieferung die ersten Offenbarungen erhielt, die zum Koran wurden. Der Beginn eines Weges, der aus einem Einzelnen den Gr\u00fcnder einer Weltreligion machte, die heute rund zwei Milliarden Menschen pr\u00e4gt.</p>
         </blockquote>
 
@@ -1276,7 +1276,7 @@ export function pierceBrosnanPortraitPage() {
 
         <h2 class="vb-section">1. Der Adler</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins &ndash; er kreist hoch, beobachtet genau, und wenn er handelt, dann mit einer Präzision, die keine Nachbesserung braucht. Kein Tier des Lärms, sondern der stillen, konzentrierten Beherrschung des eigenen Terrains.</p>
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Wappentier der selbsterhaltenden Eins &ndash; er kreist hoch, beobachtet genau, und wenn er handelt, dann mit einer Präzision, die keine Nachbesserung braucht. Kein Tier des Lärms, sondern der stillen, konzentrierten Beherrschung des eigenen Terrains.</p>
           <p class="vb-intro">Der irische Schauspieler Pierce Brosnan verkörperte zwischen 1995 und 2002 in vier Filmen James Bond &ndash; eine Rolle, die vor allem Disziplin und Kontrolle verlangt: den perfekt sitzenden Anzug, die makellose Haltung, keine überflüssige Geste. Was viele als bloße Eleganz lasen, war bei Brosnan echte Arbeit: Er bereitete sich auf jede Actionszene selbst akribisch vor und bestand darauf, seine Stunts so weit wie möglich selbst zu übernehmen. Der Adler zeigt keine Anstrengung. Aber er hat sie geleistet.</p>
         </blockquote>
 
@@ -1343,7 +1343,7 @@ export function ruthBaderGinsburgPortraitPage() {
 
         <h2 class="vb-section">1. Das Krokodil</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Krokodil</strong> ist das Tier des sexuellen Typs 8 &ndash; und kein Bild trifft Ruth Bader Ginsburg pr\xe4ziser. Das Krokodil ist das \xe4lteste Raubtier der Erde: geduldig im Warten, pr\xe4zise im Zugriff, unbeeindruckt von Gegenwehr und nahezu unver\xe4ndert seit Jahrmillionen. Es braucht keine Gr\xf6\xdfe, um Respekt einzufl\xf6\xdfen. Es gen\xfcgt, dass es da ist.</p>
+          <p class="vb-intro">Das <strong>Krokodil</strong> gilt als das Tier des sexuellen Typs 8 &ndash; und kein Bild trifft Ruth Bader Ginsburg pr\xe4ziser. Das Krokodil ist das \xe4lteste Raubtier der Erde: geduldig im Warten, pr\xe4zise im Zugriff, unbeeindruckt von Gegenwehr und nahezu unver\xe4ndert seit Jahrmillionen. Es braucht keine Gr\xf6\xdfe, um Respekt einzufl\xf6\xdfen. Es gen\xfcgt, dass es da ist.</p>
           <p class="vb-intro">Die US-amerikanische Richterin Ruth Bader Ginsburg, 1933 in Brooklyn geboren, 2020 verstorben, war 27 Jahre lang Richterin am Obersten Gerichtshof der Vereinigten Staaten &ndash; die zweite Frau in dieser Geschichte. Sie war 1,57 Meter gro\xdf. Sie sprach leise. Ihre Sondervoten waren ber\xfchmt daf\xfcr, dass sie den Mehrheitsmeinungen direkt, ohne Umschreibung, ins Herz schnitten. Das Krokodil braucht kein Imponiergehabe. Sein Zugriff reicht.</p>
         </blockquote>
 
@@ -1409,7 +1409,7 @@ export function stephenHawkingPortraitPage() {
 
         <h2 class="vb-section">1. Der Oktopus, der das Universum für alle übersetzte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier der sozialen Fünf &ndash; hochintelligent, ein Meister der Problemlösung, und doch kein reiner Einzelgänger: Er passt sein komplexes Denken so an, dass es auch für andere zugänglich wird. Stephen Hawking, geboren 1942 in Oxford als Sohn eines Medizinforschers und einer Politikwissenschaftlerin, zeigte schon in der Schule eine für sein Alter ungewöhnliche Fähigkeit, komplizierte Sachverhalte in verständliche Bilder zu übersetzen &ndash; ein Talent, das sein gesamtes späteres Werk prägen sollte.</p>
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Sinnbild der sozialen Fünf &ndash; hochintelligent, ein Meister der Problemlösung, und doch kein reiner Einzelgänger: Er passt sein komplexes Denken so an, dass es auch für andere zugänglich wird. Stephen Hawking, geboren 1942 in Oxford als Sohn eines Medizinforschers und einer Politikwissenschaftlerin, zeigte schon in der Schule eine für sein Alter ungewöhnliche Fähigkeit, komplizierte Sachverhalte in verständliche Bilder zu übersetzen &ndash; ein Talent, das sein gesamtes späteres Werk prägen sollte.</p>
           <p class="vb-intro">Mit 21 Jahren, kurz vor Abschluss seines Studiums in Oxford, erhielt Hawking die Diagnose Amyotrophe Lateralsklerose (ALS) und eine Prognose von nur noch wenigen Lebensjahren. Er lebte weitere 55 Jahre &ndash; bei fortschreitender vollständiger Lähmung, aber ungebrochener wissenschaftlicher Schärfe. Die Einzelheiten dieses fünfundfünfzigjährigen Krankheitsverlaufs werden ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-stephen-hawking">Krankheitsporträt zu Hawking</a> gedeutet; dieses Porträt widmet sich seinem wissenschaftlichen Lebenswerk.</p>
         </blockquote>
 
@@ -1675,7 +1675,7 @@ export function suzanLoriParksPortraitPage() {
 
         <h2 class="vb-section">1. Der Gorilla, der sich aus 365 Tagen ein Territorium schrieb</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier des selbsterhaltenden Typs 7 &ndash; ein Tier von enormer Kraft, das im Verband lebt und dessen Reichweite sich \xfcber ein ganzes Territorium erstreckt. Suzan-Lori Parks, 1963 in Fort Knox, Kentucky, als Tochter eines afroamerikanischen Armeeoffiziers geboren, wuchs zwischen st\xe4ndig wechselnden Milit\xe4rstandorten auf &ndash; Kentucky, Texas, sp\xe4ter Westdeutschland w\xe4hrend ihrer High-School-Jahre &ndash; und musste sich immer wieder neu einrichten, ohne je lange an einem Ort zu bleiben.</p>
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Sinnbild des selbsterhaltenden Typs 7 &ndash; ein Tier von enormer Kraft, das im Verband lebt und dessen Reichweite sich \xfcber ein ganzes Territorium erstreckt. Suzan-Lori Parks, 1963 in Fort Knox, Kentucky, als Tochter eines afroamerikanischen Armeeoffiziers geboren, wuchs zwischen st\xe4ndig wechselnden Milit\xe4rstandorten auf &ndash; Kentucky, Texas, sp\xe4ter Westdeutschland w\xe4hrend ihrer High-School-Jahre &ndash; und musste sich immer wieder neu einrichten, ohne je lange an einem Ort zu bleiben.</p>
           <p class="vb-intro">An der Mount Holyoke College studierte sie Prosa bei James Baldwin, der ihr riet, sich dem Theater zuzuwenden. Aus einer Kindheit ohne feste Wurzeln entwickelte sich eine Erwachsene, die sich ihre Sicherheit selbst schrieb &ndash; buchst\xe4blich, in einer F\xfclle von Text, die kaum ein anderer Dramatiker ihrer Generation erreicht.</p>
         </blockquote>
 
@@ -1805,7 +1805,7 @@ export function fayeDunawayPortraitPage() {
 
         <h2 class="vb-section">1. Die Mamba, die keine Halbheiten kannte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Tier des sexuellen Typs 1 – ein Tier, dessen Wirkung nicht auf Sympathiewerben beruht, sondern auf einer durchdringenden, kaum zu umgehenden Präsenz. Faye Dunaway wurde mit Rollen wie Bonnie Parker in „Bonnie and Clyde", Evelyn Mulwray in „Chinatown" und Diana Christensen in „Network" – dafür erhielt sie den Oscar – zu einer der prägendsten Schauspielerinnen ihrer Generation, über eine Karriere von mehr als fünfzig Jahren.</p>
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist die tierische Entsprechung des sexuellen Typs 1 – ein Tier, dessen Wirkung nicht auf Sympathiewerben beruht, sondern auf einer durchdringenden, kaum zu umgehenden Präsenz. Faye Dunaway wurde mit Rollen wie Bonnie Parker in „Bonnie and Clyde", Evelyn Mulwray in „Chinatown" und Diana Christensen in „Network" – dafür erhielt sie den Oscar – zu einer der prägendsten Schauspielerinnen ihrer Generation, über eine Karriere von mehr als fünfzig Jahren.</p>
           <p class="vb-intro">Ihr Ruf als „schwierig" begleitete sie durch die gesamte Karriere. Nach eigenem Eingeständnis war sie fordernd, perfektionistisch und geradezu obsessiv in ihrem Streben nach schauspielerischer Präzision – Eigenschaften, für die männliche Kollegen gefeiert wurden, während sie ihr als „Diva"-Etikett angehängt wurden.</p>
         </blockquote>
 
@@ -1870,7 +1870,7 @@ export function thomasMannPortraitPage() {
 
         <h2 class="vb-section">1. Die Gans</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier des sozialen Typs 1 &ndash; wachsam, formationsbewusst, mit einem untrüglichen Gespür dafür, was sich für die Gemeinschaft gehört und was nicht. Thomas Mann, geboren 1875 in Lübeck als Sohn eines Senators und Kaufmanns, trug diese Formation zeitlebens wie ein zweites Rückgrat: aufrecht, kontrolliert, öffentlich makellos &ndash; ein Mann, der sich selbst zum „repräsentativen" deutschen Schriftsteller stilisierte und genau wusste, wie diese Rolle auszufüllen war.</p>
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Sinnbild des sozialen Typs 1 &ndash; wachsam, formationsbewusst, mit einem untrüglichen Gespür dafür, was sich für die Gemeinschaft gehört und was nicht. Thomas Mann, geboren 1875 in Lübeck als Sohn eines Senators und Kaufmanns, trug diese Formation zeitlebens wie ein zweites Rückgrat: aufrecht, kontrolliert, öffentlich makellos &ndash; ein Mann, der sich selbst zum „repräsentativen" deutschen Schriftsteller stilisierte und genau wusste, wie diese Rolle auszufüllen war.</p>
           <p class="vb-intro">Seine Zeitgenossen nannten ihn respektvoll-distanziert den „Zauberer" &ndash; ein Spitzname, der genau die Mischung aus Bewunderung und Unnahbarkeit einfängt, die Mann Zeit seines Lebens ausstrahlte. Hinter der makellosen Fassade des öffentlichen Repräsentanten verbarg sich, wie seine erst postum vollständig zugänglichen Tagebücher zeigten, ein weitaus unruhigeres Innenleben.</p>
         </blockquote>
 
@@ -1996,7 +1996,7 @@ export function guentherKrabbenhoeftPortraitPage() {
 
         <h2 class="vb-section">1. Der Biber</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier der sozialen Sieben – ein Tier, das nicht für sich allein baut, sondern Lebensräume schafft, von denen ein ganzes Ökosystem profitiert. Günther Krabbenhöft, 1945 in Hildesheim bei Hannover geboren, hat fünfzig Jahre lang als Koch gearbeitet – ein Handwerk mit festen Abläufen, wiederkehrenden Handgriffen, verlässlicher Struktur. Mit 25 Jahren heiratete er, wurde Vater einer Tochter, ließ sich zehn Jahre später scheiden und zog sie danach allein groß. Seit 1968 lebt er in Berlin, zunächst in Moabit, später in Kreuzberg, wo er über Jahrzehnte zu einer festen, bekannten Figur im Kiez wurde.</p>
+          <p class="vb-intro">Der <strong>Biber</strong> gilt als das Tier der sozialen Sieben – ein Tier, das nicht für sich allein baut, sondern Lebensräume schafft, von denen ein ganzes Ökosystem profitiert. Günther Krabbenhöft, 1945 in Hildesheim bei Hannover geboren, hat fünfzig Jahre lang als Koch gearbeitet – ein Handwerk mit festen Abläufen, wiederkehrenden Handgriffen, verlässlicher Struktur. Mit 25 Jahren heiratete er, wurde Vater einer Tochter, ließ sich zehn Jahre später scheiden und zog sie danach allein groß. Seit 1968 lebt er in Berlin, zunächst in Moabit, später in Kreuzberg, wo er über Jahrzehnte zu einer festen, bekannten Figur im Kiez wurde.</p>
           <p class="vb-intro">Nichts an dieser Biografie deutete auf das hin, was ab Februar 2015 folgte: Ein Tourist fotografierte den damals bereits 69-Jährigen am U-Bahnhof Kottbusser Tor – mit Melone, Weste und Fliege – und stellte das Bild auf Facebook. Innerhalb weniger Wochen war Günther in Modeblogs, auf Titelseiten und in sozialen Medien präsent. Aus dem Kiez-Original wurde, fast über Nacht, „der stilvollste Opa der Welt".</p>
         </blockquote>
 
@@ -2062,7 +2062,7 @@ export function natalieDormerPortraitPage() {
 
         <h2 class="vb-section">1. Die Wölfin, die sich ihre Rollen selbst erkämpfte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6: ein Tier, das Bedrohung nicht mit Rückzug, sondern mit Konfrontation beantwortet. Natalie Dormer, geboren 1982 in Reading, trainierte als Kind jahrelang klassisches Ballett – eine körperliche Disziplin, die früh Ausdauer und Konzentration unter Druck verlangte – bevor sie an der Webber Douglas Academy Schauspiel studierte.</p>
+          <p class="vb-intro">Der <strong>Wolf</strong> gilt als das Tier des sexuellen Typs 6: ein Tier, das Bedrohung nicht mit Rückzug, sondern mit Konfrontation beantwortet. Natalie Dormer, geboren 1982 in Reading, trainierte als Kind jahrelang klassisches Ballett – eine körperliche Disziplin, die früh Ausdauer und Konzentration unter Druck verlangte – bevor sie an der Webber Douglas Academy Schauspiel studierte.</p>
           <p class="vb-intro">Ihren Durchbruch hatte sie 2007 als Anne Boleyn in ›Die Tudors‹ – eine Rolle, für die sie sich nicht auf das vorgegebene Drehbuch verließ, sondern eigenständig historische Quellen recherchierte und mehrfach Änderungen am Skript einforderte, wenn sie es für historisch ungenau hielt. Der Wolf lässt sich seine eigene Deutung nicht von außen vorschreiben.</p>
         </blockquote>
 
@@ -2199,7 +2199,7 @@ export function gunterGabrielPortraitPage() {
 
         <h2 class="vb-section">1. Der Löwe</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Löwe</strong> ist das Tier des sozialen Typs 8 – ein Tier, das nicht brüllen muss, um zu wirken, dessen bloße Anwesenheit aber jeden Raum verändert. Bei Gunter Gabriel war diese Präsenz von Anfang an körperlich spürbar: eine tiefe, raue Stimme, eine Statur, die niemand übersah, und eine Direktheit, die viele als unangenehm empfanden – und die trotzdem, oder gerade deshalb, Millionen Menschen erreichte.</p>
+          <p class="vb-intro">Der <strong>Löwe</strong> gilt als das Tier des sozialen Typs 8 – ein Tier, das nicht brüllen muss, um zu wirken, dessen bloße Anwesenheit aber jeden Raum verändert. Bei Gunter Gabriel war diese Präsenz von Anfang an körperlich spürbar: eine tiefe, raue Stimme, eine Statur, die niemand übersah, und eine Direktheit, die viele als unangenehm empfanden – und die trotzdem, oder gerade deshalb, Millionen Menschen erreichte.</p>
           <p class="vb-intro">Geboren 1942 in Bünde als Günter Caspelherr, verlor er mit vier Jahren seine Mutter, wuchs bei einem gewalttätigen Vater auf, verließ die Schule früh, um zu arbeiten, und schlug sich mit harten körperlichen Jobs durch halb Europa. Kein geschützter Weg in die Musik, sondern einer, den sich der Löwe selbst freikämpfen musste.</p>
         </blockquote>
 
@@ -2400,7 +2400,7 @@ export function wolfgangWodargPortraitPage() {
 
         <h2 class="vb-section">1. Die Gans</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier des sozialen Typs 1 – wachsam, formationsbewusst, mit einem untrüglichen Gespür dafür, wann etwas in der Gemeinschaft aus dem Lot gerät. Dr. Wolfgang Wodarg, 1947 geboren, verbrachte den größten Teil seines Berufslebens genau in dieser Wächterrolle: als Lungenarzt, Facharzt für Hygiene und Umweltmedizin und über Jahre als Amtsarzt in Schleswig-Holstein – ein Beruf, dessen gesamte Aufgabe darin besteht, die Gesundheit einer ganzen Bevölkerung im Blick zu behalten, nicht nur die einzelner Patienten.</p>
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Sinnbild des sozialen Typs 1 – wachsam, formationsbewusst, mit einem untrüglichen Gespür dafür, wann etwas in der Gemeinschaft aus dem Lot gerät. Dr. Wolfgang Wodarg, 1947 geboren, verbrachte den größten Teil seines Berufslebens genau in dieser Wächterrolle: als Lungenarzt, Facharzt für Hygiene und Umweltmedizin und über Jahre als Amtsarzt in Schleswig-Holstein – ein Beruf, dessen gesamte Aufgabe darin besteht, die Gesundheit einer ganzen Bevölkerung im Blick zu behalten, nicht nur die einzelner Patienten.</p>
           <p class="vb-intro">Von 1994 bis 2009 war er für die SPD Mitglied des Deutschen Bundestags, danach Vorsitzender des Gesundheitsausschusses der Parlamentarischen Versammlung des Europarats – eine Laufbahn, die medizinischen Sachverstand konsequent mit politischem Mandat verband, statt beides getrennt zu halten.</p>
         </blockquote>
 
@@ -2607,7 +2607,7 @@ export function nickNoltePortraitPage() {
 
         <h2 class="vb-section">1. Der Wolf: ein unruhiger Junge aus Omaha, der sich nirgends festhielt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier der sexuellen Sechs: Er wendet sich der Gefahr zu, statt ihr auszuweichen, und sucht die Nähe zu denen, denen er vertraut. Nick Nolte wurde am 8. Februar 1941 in Omaha, Nebraska, geboren. Er wuchs in einer Familie auf, in der der Vater im Zweiten Weltkrieg diente und verändert zurückkehrte; in seinen Memoiren beschreibt er eine Kindheit voller Unruhe und Wechsel. Nach eigener Darstellung gab ihm seine Mutter in jungen Jahren Aufputschmittel. Er besuchte mehrere Highschools und Colleges in Kalifornien, Arizona und Nebraska und spielte Football.</p>
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Sinnbild der sexuellen Sechs: Er wendet sich der Gefahr zu, statt ihr auszuweichen, und sucht die Nähe zu denen, denen er vertraut. Nick Nolte wurde am 8. Februar 1941 in Omaha, Nebraska, geboren. Er wuchs in einer Familie auf, in der der Vater im Zweiten Weltkrieg diente und verändert zurückkehrte; in seinen Memoiren beschreibt er eine Kindheit voller Unruhe und Wechsel. Nach eigener Darstellung gab ihm seine Mutter in jungen Jahren Aufputschmittel. Er besuchte mehrere Highschools und Colleges in Kalifornien, Arizona und Nebraska und spielte Football.</p>
           <p class="vb-intro">1961 wurde er festgenommen, weil er gefälschte Einberufungskarten (›draft cards‹) verkauft hatte; die Strafe wurde zur Bewährung ausgesetzt. Die Geschichte des jungen Nolte ist die eines Menschen, der Regeln testete, bevor er einen Platz gefunden hatte, an dem seine Unruhe nützlich wurde. Diesen Platz fand er auf der Bühne: Schon 1960 hatte er mit dem Actor's Inner Circle in Phoenix begonnen, später arbeitete er in Minneapolis, New York und Los Angeles und studierte bei Stella Adler.</p>
         </blockquote>
 
@@ -2825,7 +2825,7 @@ export function danyBoonPortraitPage() {
 
         <h2 class="vb-section">1. Der Büffel: ein Junge aus Armentières, der sich seinen Namen aus einem Western lieh</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Büffel</strong> ist das Tier der sozialen Neun: Er geht in der Herde auf und trägt verlässlich seinen Teil bei. Dany Boon wurde am 26. Juni 1966 als Daniel Hamidou in Armentières in Nordfrankreich geboren. Sein Vater, von kabylischer Herkunft aus Algerien, war Boxer und Lastwagenfahrer, seine Mutter stammte aus dem Norden Frankreichs. Den Künstlernamen entlehnte er der Westernserie ›Daniel Boone‹. Er wuchs im Arbeitermilieu einer Region auf, die in Frankreich lange als rau, kalt und rückständig verspottet wurde.</p>
+          <p class="vb-intro">Der <strong>Büffel</strong> ist das Sinnbild der sozialen Neun: Er geht in der Herde auf und trägt verlässlich seinen Teil bei. Dany Boon wurde am 26. Juni 1966 als Daniel Hamidou in Armentières in Nordfrankreich geboren. Sein Vater, von kabylischer Herkunft aus Algerien, war Boxer und Lastwagenfahrer, seine Mutter stammte aus dem Norden Frankreichs. Den Künstlernamen entlehnte er der Westernserie ›Daniel Boone‹. Er wuchs im Arbeitermilieu einer Region auf, die in Frankreich lange als rau, kalt und rückständig verspottet wurde.</p>
           <p class="vb-intro">Dieser Hintergrund ist für sein Werk entscheidend: Wer als Kind zu einer Minderheit gehört und in einer belächelten Gegend aufwächst, kennt das Gefühl, dazugehören zu wollen, und die Kraft einer Gemeinschaft, die sich gegen Vorurteile zusammenschließt. Das lässt sich mit dem Wunsch der sozialen Neun in Verbindung bringen, Teil einer Gruppe zu sein und ihr zu dienen.</p>
         </blockquote>
 

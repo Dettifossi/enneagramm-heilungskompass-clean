@@ -17,7 +17,7 @@ export function adamSmithPortraitPage() {
 
         <h2 class="vb-section">1. The Goose Who Designed a Moral Order</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>goose</strong> is the animal of the social One &ndash; watchful, principled, incorruptible in its sense of right and wrong. It doesn&#39;t fly for itself alone: it holds the formation together and watches over the rules that keep the common good intact.</p>
+          <p class="vb-intro">The <strong>goose</strong> is the animal counterpart of the social One &ndash; watchful, principled, incorruptible in its sense of right and wrong. It doesn&#39;t fly for itself alone: it holds the formation together and watches over the rules that keep the common good intact.</p>
           <p class="vb-intro">The Scottish economist Adam Smith was born in 1723 in Kirkcaldy, Scotland, a few months after his father&#39;s death. He was raised by his mother, to whom he remained closely bound his whole life, studied at Glasgow and Oxford, and became a professor of logic in 1751 and of moral philosophy the following year, in Glasgow. Contemporaries described him as absent-minded, modest, almost shy in person &ndash; and at the same time as one of the sharpest observers of human behavior of his age.</p>
         </blockquote>
 
@@ -154,7 +154,7 @@ export function bernardFayePortraitPage() {
 
         <h2 class="vb-section">1. The Camel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Camel</strong> is the animal of the sexual Two &ndash; tough, enduring, headstrong, storing energy and water over long distances only to release them fully, all at once, when the moment comes: up to 150 liters in a single go. Dr. Bernard Faye is considered one of the world's absolute authorities on camel research &ndash; a French veterinarian who, over decades, including for the French agricultural research institute CIRAD, studied camel physiology, milk production, and disease.</p>
+          <p class="vb-intro">The <strong>Camel</strong> stands as the animal of the sexual Two &ndash; tough, enduring, headstrong, storing energy and water over long distances only to release them fully, all at once, when the moment comes: up to 150 liters in a single go. Dr. Bernard Faye is considered one of the world's absolute authorities on camel research &ndash; a French veterinarian who, over decades, including for the French agricultural research institute CIRAD, studied camel physiology, milk production, and disease.</p>
           <p class="vb-intro">As with several other animal-researcher portraits in this compass, the same striking pattern shows itself here: Faye is the man people ask when it comes to the global role of camels in agriculture and desert ecology &ndash; and he himself carries the camel principle within him: store, store, store &ndash; and then, when it counts, give everything at once.</p>
         </blockquote>
 
@@ -280,7 +280,7 @@ export function claudioNaranjoPortraitPage() {
 
         <h2 class="vb-section">1. The Octopus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>octopus</strong> is the animal of the social Type 5 &ndash; and barely any image fits Claudio Naranjo more precisely. The octopus is the most intelligent invertebrate on earth: a creature with nine brains, capable of thinking simultaneously in eight different directions. It lives in the depths where light no longer reaches &ndash; and there it finds what remains hidden from others. It is not a creature of the surface. It is a creature of the ground.</p>
+          <p class="vb-intro">The <strong>octopus</strong> is the symbolic animal of the social Type 5 &ndash; and barely any image fits Claudio Naranjo more precisely. The octopus is the most intelligent invertebrate on earth: a creature with nine brains, capable of thinking simultaneously in eight different directions. It lives in the depths where light no longer reaches &ndash; and there it finds what remains hidden from others. It is not a creature of the surface. It is a creature of the ground.</p>
           <p class="vb-intro">Claudio Naranjo was this octopus. A Chilean psychiatrist who in the 1970s began to explore the Enneagram systematically &ndash; and from it developed a body of work that to this day has no real equivalent. The nine types, the twenty-seven subtypes, the character passions, the healing paths &ndash; everything that today counts as modern Enneagram knowledge goes back in essence to his work. The octopus did what octopuses do: it explored the depths. And it brought back what it found there.</p>
         </blockquote>
 
@@ -786,7 +786,7 @@ export function jenniferMatherPortraitPage() {
 
         <h2 class="vb-section">1. The Octopus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Octopus</strong> is the animal of the Social Five &ndash; and Jennifer Mather is, worldwide, arguably the most renowned octopus behavior researcher alive. She has published on cephalopod cognition and personality since 1978, is regarded as a pioneer in the study of octopus behavior and intelligence, and is one of the leading ethical voices on invertebrate animal welfare.</p>
+          <p class="vb-intro">The <strong>Octopus</strong> stands as the animal of the Social Five &ndash; and Jennifer Mather is, worldwide, arguably the most renowned octopus behavior researcher alive. She has published on cephalopod cognition and personality since 1978, is regarded as a pioneer in the study of octopus behavior and intelligence, and is one of the leading ethical voices on invertebrate animal welfare.</p>
           <p class="vb-intro">That is no coincidence, and it is exactly what makes this case so remarkable: the Enneagram's animal correspondences were fixed long before anyone knew anything about Jennifer Mather's life's work &ndash; independently of her, derived purely from observing human character structures. That the world's best-known researcher of the octopus should herself be a Social Five is therefore not a detail read in after the fact, but a striking confirmation from outside: someone who devotes their life to studying a particular animal often does so precisely because that animal sits closest to their own inner archetype. The same was true of Dian Fossey and the gorillas &ndash; there, too, researcher and researched animal shared the same animal correspondence.</p>
         </blockquote>
 
@@ -847,7 +847,7 @@ export function juditPolgarPortraitPage() {
 
         <h2 class="vb-section">1. The Raccoon</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; a nocturnal animal that reads its surroundings not through raw force, but through touch and calculation: it feels, tests, computes before it strikes. Only those who look closely recognize the calculation behind what looks like a playful movement.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal counterpart of the self-preservation Three &ndash; a nocturnal animal that reads its surroundings not through raw force, but through touch and calculation: it feels, tests, computes before it strikes. Only those who look closely recognize the calculation behind what looks like a playful movement.</p>
           <p class="vb-intro">The Hungarian chess player Judit Polgár, born in 1976 in Budapest as the youngest of the three Polgár sisters, grew up in an educational experiment devised by her father László Polgár, who was convinced that genius could be trained if practice began early enough and intensively enough. The three daughters were homeschooled with chess as the core subject of their curriculum &ndash; not happenstance, but the result of thousands of hours of training at the board, long before the public ever heard of her.</p>
         </blockquote>
 
@@ -915,7 +915,7 @@ export function klaraVonAssisiPortraitPage() {
 
         <h2 class="vb-section">1. The Raccoon Behind the Convent Wall</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; not the dazzling performance on the grand stage, but the quiet, tireless competence within one's own, manageable territory. It washes, sorts, organizes, secures its ground with calm persistence &ndash; unglamorous, but highly effective. Clare, born around 1194 into a wealthy noble family in Assisi, secretly left her parents' home one night at eighteen to follow the example of Francis of Assisi (SO7w6) &ndash; a break with everything that would have meant safety and social standing.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> stands as the animal of the self-preservation Three &ndash; not the dazzling performance on the grand stage, but the quiet, tireless competence within one's own, manageable territory. It washes, sorts, organizes, secures its ground with calm persistence &ndash; unglamorous, but highly effective. Clare, born around 1194 into a wealthy noble family in Assisi, secretly left her parents' home one night at eighteen to follow the example of Francis of Assisi (SO7w6) &ndash; a break with everything that would have meant safety and social standing.</p>
           <p class="vb-intro">Yet contrary to what one might expect, this radical step did not lead her into a restless, wandering life. Clare founded her own, fixed convent at San Damiano &ndash; and stayed there for over forty years, until her death, almost never leaving. The raccoon does not give up its territory; it simply chooses a radically different one.</p>
         </blockquote>
 
@@ -1104,7 +1104,7 @@ export function marquisDeSadePortraitPage() {
 
         <h2 class="vb-section">1. The Chihuahua Who Recognized No Boundary</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Chihuahua</strong> is the animal of the sexual Four: small in stature, immeasurable in its inner intensity, unable to fit into a form that isn&#39;t its own. It knows no half-feelings, no moderate positions. What it rejects, it rejects radically. What it desires, it desires without compromise &ndash; even when that puts it in open conflict with everything its era holds sacred.</p>
+          <p class="vb-intro">The <strong>Chihuahua</strong> stands as the animal of the sexual Four: small in stature, immeasurable in its inner intensity, unable to fit into a form that isn&#39;t its own. It knows no half-feelings, no moderate positions. What it rejects, it rejects radically. What it desires, it desires without compromise &ndash; even when that puts it in open conflict with everything its era holds sacred.</p>
           <p class="vb-intro">Donatien Alphonse François, Marquis de Sade, was born in 1740 in Paris into one of France&#39;s oldest noble families. Even as a child he was considered unruly, hot-tempered, boundless in his emotions. An upbringing under a dissolute uncle in Provence, steeped in free-thinking and openly lived libertinism, laid the early foundation for a life that seemed to follow a single question throughout: why should I submit to an order others have prescribed for me?</p>
           <p class="vb-intro">What he was concretely accused of: in 1768 he lured the beggar woman Rose Keller to his house in Arcueil under a pretext, bound her, and whipped her &ndash; she escaped and pressed charges, the first major scandal that briefly landed him in prison. In 1772 came the so-called Marseille affair: Sade allegedly gave prostitutes candy laced with the irritant, potentially poisonous substance cantharidin (&bdquo;Spanish fly&ldquo;), and several women fell seriously ill; combined with a sodomy charge against his servant, he was sentenced to death in absentia and fled to Italy. Finally in 1777 his own mother-in-law had him imprisoned via a <em>lettre de cachet</em> &ndash; a royal warrant issued without any trial &ndash; at Vincennes and later the Bastille, where he spent more than a decade without ever being formally convicted.</p>
         </blockquote>
@@ -1235,7 +1235,7 @@ export function nusratFatehAliKhanPortraitPage() {
 
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature deeply rooted in its ancestral waters, drawing from that very rootedness a strength that reaches far beyond its own territory. Nusrat Fateh Ali Khan carried such waters literally within himself: a Qawwali tradition passed down through his family for nearly six hundred years before he carried it out to the entire world.</p>
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal counterpart of the self-preservation Two &ndash; a creature deeply rooted in its ancestral waters, drawing from that very rootedness a strength that reaches far beyond its own territory. Nusrat Fateh Ali Khan carried such waters literally within himself: a Qawwali tradition passed down through his family for nearly six hundred years before he carried it out to the entire world.</p>
           <p class="vb-intro">The Pakistani singer Nusrat Fateh Ali Khan was born on October 13, 1948, in Lyallpur, now Faisalabad, the fifth child and first son of the renowned Qawwal master Fateh Ali Khan. His family had fled to Pakistan from Jalandhar in East Punjab after the partition of India in 1947 &ndash; their most precious baggage was the knowledge of Sufi devotional singing, refined across generations.</p>
         </blockquote>
 
@@ -1372,7 +1372,7 @@ export function sadhguruPortraitPage() {
 
         <h2 class="vb-section">1. The Raccoon</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Raccoon</strong> is the animal of the self-preservation Three &ndash; and at first sight it appears inconspicuous. No lion that roars. No peacock that shines. The raccoon wears a natural mask &ndash; not from intent to deceive, but because adaptability and quiet dexterity are its nature. It finds what it needs. It uses what is there. It overlooks nothing.</p>
+          <p class="vb-intro">The <strong>Raccoon</strong> is the emblem of the self-preservation Three &ndash; and at first sight it appears inconspicuous. No lion that roars. No peacock that shines. The raccoon wears a natural mask &ndash; not from intent to deceive, but because adaptability and quiet dexterity are its nature. It finds what it needs. It uses what is there. It overlooks nothing.</p>
           <p class="vb-intro">Sadhguru (legal name: Jaggi Vasudev) might be taken for a simple man: motorcyclist, yoga teacher, barefoot on stage. No throne room, no vestments, no divine rapture. And yet this man built the Isha Foundation &ndash; one of the largest yogic institutions worldwide, with over nine million volunteers. The raccoon makes much from little &ndash; quietly, efficiently, without fuss. And then you look up, and he has planted the entire desert.</p>
         </blockquote>
 
@@ -1511,7 +1511,7 @@ export function tomKaulitzPortraitPage() {
 
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature that doesn't claim its territory alone, but builds and defends it within its closest, most trusted bond. For Tom Kaulitz, that bond has existed from birth: he came into the world just ten minutes before his identical twin brother Bill, and has shared with him every territory he's ever staked out.</p>
+          <p class="vb-intro">The <strong>Hippopotamus</strong> stands as the animal of the self-preservation Two &ndash; a creature that doesn't claim its territory alone, but builds and defends it within its closest, most trusted bond. For Tom Kaulitz, that bond has existed from birth: he came into the world just ten minutes before his identical twin brother Bill, and has shared with him every territory he's ever staked out.</p>
           <p class="vb-intro">The German musician Tom Kaulitz was born on September 1, 1989, in Leipzig. When he was seven, his parents divorced; not long after, Gordon Trumper, his mother's new partner and himself a guitarist in the band Fatun, brought a formative musical influence into the family. At age seven, Tom began playing guitar and writing his own music &ndash; the foundation everything else would grow from took shape right in the middle of a family upheaval.</p>
         </blockquote>
 
@@ -1653,7 +1653,7 @@ export function cleopatraPortraitPage() {
 
         <h2 class="vb-section">1. The camel that kept a kingdom alive</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>camel</strong> is the animal of the Sexual Two &ndash; an animal that can carry a great deal without putting it on display, and that turns entirely toward one single companion. Cleopatra VII was born in 69 BCE into a Macedonian-Greek dynasty that had ruled Egypt for roughly 300 years without ever fully merging with the country itself. She deliberately broke this pattern: as one of the few Ptolemaic rulers, she learned Egyptian and presented herself to her own people as the living embodiment of the goddess Isis.</p>
+          <p class="vb-intro">The <strong>camel</strong> is the emblem of the Sexual Two &ndash; an animal that can carry a great deal without putting it on display, and that turns entirely toward one single companion. Cleopatra VII was born in 69 BCE into a Macedonian-Greek dynasty that had ruled Egypt for roughly 300 years without ever fully merging with the country itself. She deliberately broke this pattern: as one of the few Ptolemaic rulers, she learned Egyptian and presented herself to her own people as the living embodiment of the goddess Isis.</p>
           <p class="vb-intro">At eighteen, she ascended the throne jointly with her younger brother &ndash; a fragile power arrangement from the start that quickly escalated into open conflict. What followed was not a story of military conquest, but one of personal alliances: Cleopatra secured her throne not through her own armies, but through the closest possible bond with Rome's most powerful men.</p>
         </blockquote>
 
@@ -1789,7 +1789,7 @@ export function brigitteMacronPortraitPage() {
 
         <h2 class="vb-section">1. The Peacock Who Ran the Theater Workshop</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>peacock</strong> is the animal of the sexual Three — radiance that serves not a broad audience, but the intensification of a single, significant bond. Brigitte Trogneux, born in 1953 in Amiens, the youngest of six children in a wealthy family that ran a well-known chocolate business, became a teacher of literature and Latin. In the 1990s she ran a theater workshop at the Lycée la Providence in Amiens — and there, in 1992, met fifteen-year-old Emmanuel Macron (SO1w9), a student in her own daughter's class.</p>
+          <p class="vb-intro">The <strong>peacock</strong> is the emblem of the sexual Three — radiance that serves not a broad audience, but the intensification of a single, significant bond. Brigitte Trogneux, born in 1953 in Amiens, the youngest of six children in a wealthy family that ran a well-known chocolate business, became a teacher of literature and Latin. In the 1990s she ran a theater workshop at the Lycée la Providence in Amiens — and there, in 1992, met fifteen-year-old Emmanuel Macron (SO1w9), a student in her own daughter's class.</p>
           <p class="vb-intro">They worked together on a school play — a collaboration out of which, despite the considerable age gap of nearly 25 years and Macron's status as a minor, a deep bond developed that was publicly and heatedly debated then and continues to be so today.</p>
         </blockquote>
 
@@ -2258,7 +2258,7 @@ export function pedroAlonsoPortraitPage() {
 
         <h2 class="vb-section">1. The Cheetah Who Took Almost Fifty Years</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Cheetah</strong> is the animal of the social Three – fast, striking, built for the one decisive moment. For Pedro González Alonso, born 1971 in Vigo, Galicia, that moment came late: after graduating from the Royal Higher School of Dramatic Art (RESAD) and years as a well-regarded but regionally confined television actor in Galicia and Spain – including roles in "Rías Baixas," "Padre Casares," and as Diego Murquía in "Grand Hotel" – he only became world-famous at 46, through his role as Andrés "Berlin" de Fonollosa in "Money Heist" (2017).</p>
+          <p class="vb-intro">The <strong>Cheetah</strong> stands as the animal of the social Three – fast, striking, built for the one decisive moment. For Pedro González Alonso, born 1971 in Vigo, Galicia, that moment came late: after graduating from the Royal Higher School of Dramatic Art (RESAD) and years as a well-regarded but regionally confined television actor in Galicia and Spain – including roles in "Rías Baixas," "Padre Casares," and as Diego Murquía in "Grand Hotel" – he only became world-famous at 46, through his role as Andrés "Berlin" de Fonollosa in "Money Heist" (2017).</p>
           <p class="vb-intro">The cheetah doesn't sprint impatiently before its time – it prepares for as long as necessary and seizes the decisive moment only once it genuinely arrives. Nearly two decades of solid craft preceded the one role that made him internationally recognizable overnight.</p>
         </blockquote>
 
@@ -2395,7 +2395,7 @@ export function abdulHayyHoldijkPortraitPage() {
 
         <h2 class="vb-section">1. The Octopus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>octopus</strong> is the animal of the social Five – the most intelligent invertebrate on earth, thinking in systems, quietly networking, and acting with astonishing precision. Abdul Hayy Holdijk was born in the Netherlands and grew up partly in Germany before studying at universities in the United States and London. As a young man, travels took him to Sri Lanka, Beirut, and Damascus – in a mosque in Damascus, he found what he himself calls his "spiritual home" with an English-speaking Sufi sheikh.</p>
+          <p class="vb-intro">The <strong>octopus</strong> is the emblem of the social Five – the most intelligent invertebrate on earth, thinking in systems, quietly networking, and acting with astonishing precision. Abdul Hayy Holdijk was born in the Netherlands and grew up partly in Germany before studying at universities in the United States and London. As a young man, travels took him to Sri Lanka, Beirut, and Damascus – in a mosque in Damascus, he found what he himself calls his "spiritual home" with an English-speaking Sufi sheikh.</p>
           <p class="vb-intro">He has now followed this Sufi path for around forty years and has become a sheikh himself – an authority grown over decades and embedded in a concrete spiritual tradition, not a spontaneous stage persona.</p>
         </blockquote>
 
@@ -2460,7 +2460,7 @@ export function franzJosefStraussPortraitPage() {
 
         <h2 class="vb-section">1. The Orangutan</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>orangutan</strong> is the animal of the self-preservation Eight – the most solitary of the great apes, needing no troop to assert its standing. It rules its own territory with quiet, unmistakable power, tolerates no serious rival within it, and defends what it holds with a determination that needs no justification. At the same time it is a patient strategist: it does not act on impulse, but chooses the moment when its move will be most effective.</p>
+          <p class="vb-intro">The <strong>orangutan</strong> stands as the animal of the self-preservation Eight – the most solitary of the great apes, needing no troop to assert its standing. It rules its own territory with quiet, unmistakable power, tolerates no serious rival within it, and defends what it holds with a determination that needs no justification. At the same time it is a patient strategist: it does not act on impulse, but chooses the moment when its move will be most effective.</p>
           <p class="vb-intro">Franz Josef Strauß, born in Munich in 1915 as the son of a master butcher, rose over three decades from modest middle-class origins to become the most powerful man in Bavaria: federal defense minister, federal finance minister, and from 1978 until his death in 1988 Bavaria's minister-president and CSU party chairman for nearly three decades. The orangutan who penetrated his territory – the free state of Bavaria – so completely that his dominance there remains proverbial to this day.</p>
         </blockquote>
 

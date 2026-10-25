@@ -86,7 +86,7 @@ export function ameliaEarhartPortraitPage() {
 
         <h2 class="vb-section">1. Der B\xfcffel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>B\xfcffel</strong> ist das Tier der sozialen Neun &ndash; ein Tier, das nicht durch individuelle Auffälligkeit wirkt, sondern durch seine Zugehörigkeit zur Herde und seine ruhige, unaufgeregte Präsenz darin. Amelia Earhart, 1897 in Kansas geboren, wurde 1932 als erste Frau bekannt, die den Atlantik im Alleinflug überquerte &ndash; und doch war ihr eigentliches Projekt nie der pers\xf6nliche Nervenkitzel, sondern der Beweis, dass Frauen fliegen k\xf6nnen wie M\xe4nner.</p>
+          <p class="vb-intro">Der <strong>B\xfcffel</strong> ist die tierische Entsprechung der sozialen Neun &ndash; ein Tier, das nicht durch individuelle Auffälligkeit wirkt, sondern durch seine Zugehörigkeit zur Herde und seine ruhige, unaufgeregte Präsenz darin. Amelia Earhart, 1897 in Kansas geboren, wurde 1932 als erste Frau bekannt, die den Atlantik im Alleinflug überquerte &ndash; und doch war ihr eigentliches Projekt nie der pers\xf6nliche Nervenkitzel, sondern der Beweis, dass Frauen fliegen k\xf6nnen wie M\xe4nner.</p>
           <p class="vb-intro">1937 verschwand sie w\xe4hrend eines Versuchs, die Erde entlang des \xc4quators zu umrunden, über dem Pazifik &ndash; ihr Flugzeug wurde nie gefunden. Bis heute bleibt ihr Verschwinden eines der bekanntesten ungel\xf6sten R\xe4tsel der Luftfahrtgeschichte.</p>
         </blockquote>
 
@@ -231,7 +231,7 @@ export function brunoMarsPortraitPage() {
 
         <h2 class="vb-section">1. Der Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; ein Tier, das in der Familie aufwächst und von klein auf lernt, Publikum zu unterhalten. Bruno Mars stand schon als Kind auf der Bühne einer Familienband in Waikiki, lange bevor er ein eigenständiger Weltstar wurde – Unterhaltung war für ihn nie ein Ziel, das man erst erreichen muss, sondern ein Milieu, in dem er von Anfang an zu Hause war.</p>
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> gilt als das Tier der sozialen Zwei &ndash; ein Tier, das in der Familie aufwächst und von klein auf lernt, Publikum zu unterhalten. Bruno Mars stand schon als Kind auf der Bühne einer Familienband in Waikiki, lange bevor er ein eigenständiger Weltstar wurde – Unterhaltung war für ihn nie ein Ziel, das man erst erreichen muss, sondern ein Milieu, in dem er von Anfang an zu Hause war.</p>
           <p class="vb-intro">Peter Gene Hernandez wurde am 8. Oktober 1985 in Honolulu, Hawaii, geboren, als Sohn eines halb puerto-ricanischen, halb jüdischen Vaters aus Brooklyn und einer philippinischen Mutter. 1991, mit gerade einmal sechs Jahren, trat er in der Arsenio-Hall-Show als Elvis-Presley-Imitator auf – ein früher Beweis dafür, wie sehr sein Selbstverständnis von Anfang an an ein Publikum gebunden war, das er unterhalten wollte.</p>
         </blockquote>
 
@@ -292,7 +292,7 @@ export function cheyenneOchsenknechtPortraitPage() {
 
         <h2 class="vb-section">1. Der Waschbär</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das lieber ein funktionierendes System baut als ein Schaufenster. Es zeigt nicht, was es kann, sondern lässt das Ergebnis für sich sprechen, während im Verborgenen längst die eigentliche Arbeit läuft. Kaum jemand aus der eigenen, medial äußerst sichtbaren Familie verkörpert diese Wende so konsequent wie Cheyenne Ochsenknecht.</p>
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist die tierische Entsprechung der selbsterhaltenden Drei &ndash; ein Tier, das lieber ein funktionierendes System baut als ein Schaufenster. Es zeigt nicht, was es kann, sondern lässt das Ergebnis für sich sprechen, während im Verborgenen längst die eigentliche Arbeit läuft. Kaum jemand aus der eigenen, medial äußerst sichtbaren Familie verkörpert diese Wende so konsequent wie Cheyenne Ochsenknecht.</p>
           <p class="vb-intro">Die deutsche Model und Landwirtin Cheyenne Savannah Ochsenknecht wurde am 13. Januar 2000 in München geboren, als Tochter von Uwe und Natascha Ochsenknecht und jüngere Schwester von Wilson Gonzalez und Jimi Blue Ochsenknecht (beide SE2w3). Bereits mit fünf Jahren stand sie für <em>Die Wilden Kerle 2</em> vor der Kamera, mit sechzehn debütierte sie als Model bei der Berlin Fashion Week für das Label Riani, 2016 zierte sie das Cover der <em>Grazia</em>.</p>
         </blockquote>
 
@@ -359,7 +359,7 @@ export function davidLRathmerPortraitPage() {
 
         <h2 class="vb-section">1. Der Waschb\u00e4r, der im Licht arbeitet</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschb\u00e4r</strong> ist das Tier der selbsterhaltenden Drei &ndash; klug, anpassungsf\u00e4hig, mit geschickten Pfoten und einem wachen Blick f\u00fcr das, was sich lohnt. Wenn der Waschb\u00e4r bewusst lebt, nutzt er seine au\u00dfergew\u00f6hnliche Intelligenz nicht f\u00fcr die Nacht &ndash; sondern f\u00fcr das Licht. Er liest Situationen pr\u00e4zise, handelt effizient, und schafft aus dem, was da ist, etwas N\u00fctzliches. Er sieht, was andere \u00fcbersehen. Er \u00f6ffnet, was andere nicht \u00f6ffnen k\u00f6nnen.</p>
+          <p class="vb-intro">Der <strong>Waschb\u00e4r</strong> ist das Sinnbild der selbsterhaltenden Drei &ndash; klug, anpassungsf\u00e4hig, mit geschickten Pfoten und einem wachen Blick f\u00fcr das, was sich lohnt. Wenn der Waschb\u00e4r bewusst lebt, nutzt er seine au\u00dfergew\u00f6hnliche Intelligenz nicht f\u00fcr die Nacht &ndash; sondern f\u00fcr das Licht. Er liest Situationen pr\u00e4zise, handelt effizient, und schafft aus dem, was da ist, etwas N\u00fctzliches. Er sieht, was andere \u00fcbersehen. Er \u00f6ffnet, was andere nicht \u00f6ffnen k\u00f6nnen.</p>
           <p class="vb-intro">David L. Rathmer, geboren 2003 in M\u00fcnster, ist einer der seltenen Waschb\u00e4ren, die fr\u00fch erwacht sind. Mit acht Jahren in die Welt des Enneagramms eingef\u00fchrt durch seinen Vater, den Heilpraktiker und Enneagramm-Experten Detlef Rathmer, hat er nicht einfach ein Interesse entwickelt &ndash; er hat es zur Wissenschaft gemacht. Was mit einem Kind begann, das Fotos von Menschen betrachtete und fragte: \u201eWas ist das f\u00fcr ein Typ?", wurde zu \u00fcber f\u00fcnfzehn Jahren empirischer Forschung und schlie\u00dflich zu einer eigenst\u00e4ndigen Methode, die heute international eingesetzt wird.</p>
         </blockquote>
 
@@ -433,7 +433,7 @@ export function drDrePortraitPage() {
 
         <h2 class="vb-section">1. Der Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; ein Tier, das sein eigenes Talent am liebsten dort einsetzt, wo es fremdes Talent zum Leuchten bringt. Andre Romell Young wuchs in einfachen Verhältnissen in Compton, Kalifornien, auf, seine Eltern trennten sich, als er sieben war, und er erlebte häusliche Gewalt in der Familie mit – ein früher Kontrast zu der Rolle des ordnenden, fördernden Architekten, die er später einnehmen sollte.</p>
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist die tierische Entsprechung der sozialen Zwei &ndash; ein Tier, das sein eigenes Talent am liebsten dort einsetzt, wo es fremdes Talent zum Leuchten bringt. Andre Romell Young wuchs in einfachen Verhältnissen in Compton, Kalifornien, auf, seine Eltern trennten sich, als er sieben war, und er erlebte häusliche Gewalt in der Familie mit – ein früher Kontrast zu der Rolle des ordnenden, fördernden Architekten, die er später einnehmen sollte.</p>
           <p class="vb-intro">Dr. Dre wurde am 18. Februar 1965 als Sohn zweier Sänger geboren, was seinen frühen Zugang zu Musik erklärt. Statt selbst möglichst oft im Rampenlicht zu stehen, entdeckte er schon in jungen Jahren seine Begabung fürs Produzieren – dafür, aus dem Talent anderer etwas Größeres zu formen, als es allein je hätte werden können.</p>
         </blockquote>
 
@@ -557,7 +557,7 @@ export function georgWilhelmFriedrichHegelPortraitPage() {
 
         <h2 class="vb-section">1. Der Oktopus, der die ganze Wirklichkeit umfassen wollte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier der sozialen Fünf – intelligent, vielarmig, in der Lage, alles um sich herum zu erfassen und in ein einziges, geordnetes Ganzes zu übersetzen. Hegel brauchte ungewöhnlich lange, bis er dieses Ganze öffentlich ausbreiten konnte: Nach dem Studium am Tübinger Stift arbeitete er jahrelang als Hauslehrer und Zeitungsredakteur, bevor er erst 1816, mit 46 Jahren, seine erste ordentliche Professur in Heidelberg erhielt – ein für seine Zeit spätes akademisches Debüt, dem eine lange Phase des stillen, zurückgezogenen Systemschreibens vorausging.</p>
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Sinnbild der sozialen Fünf – intelligent, vielarmig, in der Lage, alles um sich herum zu erfassen und in ein einziges, geordnetes Ganzes zu übersetzen. Hegel brauchte ungewöhnlich lange, bis er dieses Ganze öffentlich ausbreiten konnte: Nach dem Studium am Tübinger Stift arbeitete er jahrelang als Hauslehrer und Zeitungsredakteur, bevor er erst 1816, mit 46 Jahren, seine erste ordentliche Professur in Heidelberg erhielt – ein für seine Zeit spätes akademisches Debüt, dem eine lange Phase des stillen, zurückgezogenen Systemschreibens vorausging.</p>
           <p class="vb-intro">Sein erstes Hauptwerk, die "Phänomenologie des Geistes", vollendete er 1806 in Jena – der Überlieferung nach in der Nacht vor der Schlacht bei Jena, während napoleonische Truppen bereits die Stadt besetzten. Als er Napoleon selbst durch die Straßen reiten sah, beschrieb er ihn in einem Brief als "die Weltseele zu Pferde". Der Oktopus arbeitet im Verborgenen an seinem System, auch wenn die Welt draußen in Flammen steht.</p>
         </blockquote>
 
@@ -627,7 +627,7 @@ export function haraldGloeocklerPortraitPage() {
 
         <h2 class="vb-section">1. Das Flusspferd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das sich, wo immer möglich, ein sicheres, geschütztes eigenes Terrain schafft, in dem es sich fern von äußerer Bedrohung bewegen kann. Es baut sich sein Revier nicht leise, sondern mit einer Präsenz, die weithin sichtbar bleibt.</p>
+          <p class="vb-intro">Das <strong>Flusspferd</strong> gilt als das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das sich, wo immer möglich, ein sicheres, geschütztes eigenes Terrain schafft, in dem es sich fern von äußerer Bedrohung bewegen kann. Es baut sich sein Revier nicht leise, sondern mit einer Präsenz, die weithin sichtbar bleibt.</p>
           <p class="vb-intro">Der deutsche Modedesigner Harald Glööckler, geboren am 30. Mai 1965 im badischen Maulbronn-Zaisersweiher, wuchs in einem von ihm selbst als traumatisch beschriebenen Elternhaus auf: Sein Vater, der gemeinsam mit der Mutter eine Gastwirtschaft führte, war gewalttätig und alkoholkrank; zusätzlich wurde Glööckler als Kind von einem Bekannten der Familie sexuell missbraucht, worüber er in dem instabilen Elternhaus nie sprechen konnte. Als er neunzehn war, starb seine Mutter durch einen Sturz. Schon mit sieben Jahren aber, angeregt durch seine Tante, eine Schneiderin, entwarf der junge Harald sein erstes Kleid &ndash; ein schwarzes Spitzenkleid mit goldfarbenem Innenfutter. Die Sehnsucht nach Glanz und Fülle war früh geboren, mitten in einer Kindheit, die alles andere als glanzvoll war.</p>
         </blockquote>
 
@@ -696,7 +696,7 @@ export function igaSwiatekPortraitPage() {
 
         <h2 class="vb-section">1. Das Faultier</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; und wer Iga \u015awi\u0105tek beim Spielen beobachtet, versteht warum. Das Faultier wirkt, als schliefe es halb. Es bewegt sich nicht, wenn es sich nicht bewegen muss. Doch dieser Eindruck t\xe4uscht: Das Faultier ist perfekt an seine Umgebung angepasst. Jede Bewegung sitzt. Kein Energieaufwand ohne Notwendigkeit. Und wenn es zuschnappt &ndash; dann mit einer Pr\xe4zision, die verbl\xfcffend ist.</p>
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Sinnbild des sexuellen Typs 9 &ndash; und wer Iga \u015awi\u0105tek beim Spielen beobachtet, versteht warum. Das Faultier wirkt, als schliefe es halb. Es bewegt sich nicht, wenn es sich nicht bewegen muss. Doch dieser Eindruck t\xe4uscht: Das Faultier ist perfekt an seine Umgebung angepasst. Jede Bewegung sitzt. Kein Energieaufwand ohne Notwendigkeit. Und wenn es zuschnappt &ndash; dann mit einer Pr\xe4zision, die verbl\xfcffend ist.</p>
           <p class="vb-intro">Die polnische Tennisspielerin Iga \u015awi\u0105tek, 2001 in Warschau, Polen geboren, ist die dominanteste Tennisspielerin ihrer Generation. Sie gewann Roland Garros 2020, 2022, 2023 und 2024 &ndash; viermal das h\xe4rteste Sandplatz-Turnier der Welt. Dazu die US Open 2022. Sie war \xfcber 150 Wochen lang die Nummer eins der Weltrangliste. Und wer ihr dabei zusieht, fragt sich: Wie macht sie das so m\xfchelos?</p>
         </blockquote>
 
@@ -764,7 +764,7 @@ export function javierParisiPortraitPage() {
 
         <h2 class="vb-section">1. Das G\u00fcrteltier</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>G\u00fcrteltier</strong> ist das Tier des sozialen Typs 4 &ndash; ein Tier voller Widerspr\u00fcche: ein harter Panzer nach au\u00dfen, eine au\u00dfergew\u00f6hnliche Empfindlichkeit im Inneren. Kein Einzelg\u00e4nger, sondern ein Wesen, das die Gemeinschaft braucht, auch wenn es sich in ihr oft fremd f\u00fchlt. Und trotz seiner Einzigartigkeit tr\u00e4gt es ein Paradox in sich: Es sucht seinen Platz gerade dadurch, dass es sich unabl\u00e4ssig mit anderen vergleicht.</p>
+          <p class="vb-intro">Das <strong>G\u00fcrteltier</strong> gilt als das Tier des sozialen Typs 4 &ndash; ein Tier voller Widerspr\u00fcche: ein harter Panzer nach au\u00dfen, eine au\u00dfergew\u00f6hnliche Empfindlichkeit im Inneren. Kein Einzelg\u00e4nger, sondern ein Wesen, das die Gemeinschaft braucht, auch wenn es sich in ihr oft fremd f\u00fchlt. Und trotz seiner Einzigartigkeit tr\u00e4gt es ein Paradox in sich: Es sucht seinen Platz gerade dadurch, dass es sich unabl\u00e4ssig mit anderen vergleicht.</p>
           <p class="vb-intro">Javier Parisi, geboren 1980 in Lan\u00fas bei Buenos Aires, ist weltweit bekannt als der wohl verbl\u00fcffendste John-Lennon-Doppelg\u00e4nger der Gegenwart &ndash; ein Mann, der sein Leben der exakten Verk\u00f6rperung eines anderen Menschen gewidmet hat. Das G\u00fcrteltier, das sich nicht mit dem eigenen Panzer zufriedengibt, sondern sich einen zweiten, fremden anlegt &ndash; und darin, paradoxerweise, sich selbst findet.</p>
         </blockquote>
 
@@ -833,7 +833,7 @@ export function johnnyDeppPortraitPage() {
 
         <h2 class="vb-section">1. Das G\u00fcrteltier auf der gro\u00dfen B\u00fchne</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>G\u00fcrteltier</strong> ist das Tier der sozialen Vier &ndash; ein Wesen, das sein Anderssein nicht verbirgt, sondern sichtbar auf der Haut tr\u00e4gt. Anders als seine introvertierten Artgenossen versteckt sich diese Vier nicht im eigenen Panzer, sondern tr\u00e4gt ihn stolz zur Schau &ndash; als Beweis der eigenen Einzigartigkeit, auf einer B\u00fchne, die alle sehen k\u00f6nnen.</p>
+          <p class="vb-intro">Das <strong>G\u00fcrteltier</strong> gilt als das Tier der sozialen Vier &ndash; ein Wesen, das sein Anderssein nicht verbirgt, sondern sichtbar auf der Haut tr\u00e4gt. Anders als seine introvertierten Artgenossen versteckt sich diese Vier nicht im eigenen Panzer, sondern tr\u00e4gt ihn stolz zur Schau &ndash; als Beweis der eigenen Einzigartigkeit, auf einer B\u00fchne, die alle sehen k\u00f6nnen.</p>
           <p class="vb-intro">Der US-amerikanische Schauspieler Johnny Depp wurde 1963 in Owensboro, Kentucky, geboren, wuchs in einer von h\u00e4ufigen Umz\u00fcgen und famili\u00e4ren Spannungen gepr\u00e4gten Kindheit auf und brach die Schule mit 15 ab, um Musiker zu werden. Bevor er zum Schauspieler wurde, spielte er in Bands, unter anderem mit Musikern, die sp\u00e4ter bei Guns N&rsquo; Roses landeten &ndash; die Sehnsucht nach k\u00fcnstlerischem Ausdruck war von Anfang an gr\u00f6\u00dfer als jede konventionelle Laufbahnplanung. Der Durchbruch kam 1987 mit der Fernsehserie &bdquo;21 Jump Street&ldquo; &ndash; einer Rolle, die er selbst zeitlebens als zu glattes Teenie-Idol-Image empfand und die so gar nicht zu seinem Selbstverst\u00e4ndnis als K\u00fcnstler passte.</p>
         </blockquote>
 
@@ -1294,7 +1294,7 @@ export function peterGabrielPortraitPage() {
 
         <h2 class="vb-section">1. Die Taube</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier – sie trägt ihre Tiefe nicht lautstark zur Schau, sondern verarbeitet sie in beharrlicher, oft jahrelanger Zurückgezogenheit. Peter Gabriel wurde 1950 im englischen Woking geboren, sang als Kind im Kirchenchor und lernte Schlagzeug, bevor er an der Charterhouse-Schule gemeinsam mit Mitschülern wie Tony Banks und Mike Rutherford eine Band gründete, aus der 1967 Genesis hervorging. Aus dieser behüteten, bürgerlichen Herkunft heraus entwickelte sich kein lauter Selbstdarsteller, sondern ein grüblerischer, introvertierter junger Mann, der seine innere Welt zunächst vor allem in Songtexten verarbeitete.</p>
+          <p class="vb-intro">Die <strong>Taube</strong> ist die tierische Entsprechung der selbsterhaltenden Vier – sie trägt ihre Tiefe nicht lautstark zur Schau, sondern verarbeitet sie in beharrlicher, oft jahrelanger Zurückgezogenheit. Peter Gabriel wurde 1950 im englischen Woking geboren, sang als Kind im Kirchenchor und lernte Schlagzeug, bevor er an der Charterhouse-Schule gemeinsam mit Mitschülern wie Tony Banks und Mike Rutherford eine Band gründete, aus der 1967 Genesis hervorging. Aus dieser behüteten, bürgerlichen Herkunft heraus entwickelte sich kein lauter Selbstdarsteller, sondern ein grüblerischer, introvertierter junger Mann, der seine innere Welt zunächst vor allem in Songtexten verarbeitete.</p>
           <p class="vb-intro">Erst mit den Jahren wuchs aus dieser stillen Tiefe eine ganz eigene, unverwechselbare Bühnenpräsenz – ein Muster, das sich bei der selbsterhaltenden Vier immer wieder zeigt: Nicht das Rampenlicht sucht die Vier von sich aus, sondern die Notwendigkeit, komplexe innere Bilder überhaupt mitteilbar zu machen, drängt sie irgendwann fast zwangsläufig auf die Bühne.</p>
         </blockquote>
 
@@ -1564,7 +1564,7 @@ export function uweOchsenknechtPortraitPage() {
 
         <h2 class="vb-section">1. Der Wolf</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; ein Tier, das der Bedrohung nicht ausweicht, sondern sich ihr direkt entgegenstellt. Statt Sicherheit im Vertrauten zu suchen, sucht er sie in der Konfrontation selbst. Bereits als Elfjähriger zeigte Uwe Ochsenknecht dieses Muster in aller Deutlichkeit: Er riss von zu Hause aus und verbrachte ein Jahr in Spanien &ndash; keine Flucht aus Angst, sondern ein Sprung mitten hinein in die Unsicherheit, der ihn nach eigener Aussage entscheidend prägte.</p>
+          <p class="vb-intro">Der <strong>Wolf</strong> gilt als das Tier des sexuellen Typs 6 &ndash; ein Tier, das der Bedrohung nicht ausweicht, sondern sich ihr direkt entgegenstellt. Statt Sicherheit im Vertrauten zu suchen, sucht er sie in der Konfrontation selbst. Bereits als Elfjähriger zeigte Uwe Ochsenknecht dieses Muster in aller Deutlichkeit: Er riss von zu Hause aus und verbrachte ein Jahr in Spanien &ndash; keine Flucht aus Angst, sondern ein Sprung mitten hinein in die Unsicherheit, der ihn nach eigener Aussage entscheidend prägte.</p>
           <p class="vb-intro">Der deutsche Schauspieler Uwe Adam Ochsenknecht, geboren 1956 in Biblis in Südhessen, wuchs in Mannheim auf, besuchte das Ludwig-Frank-Gymnasium und begann seine Bühnenlaufbahn zunächst als Komparse am Nationaltheater. Nach seiner Ausbildung an der Westfälischen Schauspielschule Bochum (1974&ndash;1977) folgten Engagements in Wuppertal, München und Hamburg &ndash; ein Werdegang, der von Anfang an eher rastlos als geradlinig verlief.</p>
         </blockquote>
 
@@ -1856,7 +1856,7 @@ export function skylarGreyPortraitPage() {
 
         <h2 class="vb-section">1. Der Wolf, der freiwillig in die Wildnis ging</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 – ein Tier, das seine Angst nicht durch Rückzug bewältigt, sondern indem es sich der Bedrohung stellt und daran wächst. Als Holly Brook Hafermann als Teenager unter dem Namen „Holly Brook" ihren ersten Plattenvertrag verlor, ohne Management, ohne Anwalt, praktisch mittellos, stand sie an einem Punkt, an dem sie später selbst sagte, sie hätte in Los Angeles vermutlich den Verstand oder gar ihr Leben verloren. Ihre Antwort darauf war keine Therapie, keine Auszeit im gewohnten Umfeld – sondern eine Blockhütte in den Wäldern Oregons, ohne Heizung, ein Jahr lang, Holz hackend und sich selbst versorgend.</p>
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Sinnbild des sexuellen Typs 6 – ein Tier, das seine Angst nicht durch Rückzug bewältigt, sondern indem es sich der Bedrohung stellt und daran wächst. Als Holly Brook Hafermann als Teenager unter dem Namen „Holly Brook" ihren ersten Plattenvertrag verlor, ohne Management, ohne Anwalt, praktisch mittellos, stand sie an einem Punkt, an dem sie später selbst sagte, sie hätte in Los Angeles vermutlich den Verstand oder gar ihr Leben verloren. Ihre Antwort darauf war keine Therapie, keine Auszeit im gewohnten Umfeld – sondern eine Blockhütte in den Wäldern Oregons, ohne Heizung, ein Jahr lang, Holz hackend und sich selbst versorgend.</p>
           <p class="vb-intro">Aus dieser Frau, die sich freiwillig der Härte aussetzte, um herauszufinden, ob sie ihr gewachsen war, wurde „Skylar Grey" – ein Künstlername, den sie selbst erklärt hat: „Grey" (grau) stehe für das Unbekannte im Leben, vor dem die meisten Menschen Angst hätten, während sie selbst „das genaue Gegenteil" empfinde – eine bewusste Zuwendung zum Ungewissen statt Furcht davor. Genau darin liegt die Wolfsnatur: nicht die Angst vermeiden, sondern sie aufsuchen, um an ihr die eigene Stärke zu beweisen.</p>
         </blockquote>
 
@@ -1921,7 +1921,7 @@ export function matthewMcConaugheyPortraitPage() {
 
         <h2 class="vb-section">1. Der Pfau, der sein eigenes Bild komplett neu entfaltete</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier des sexuellen Typs 3 – unmittelbare, magnetische Präsenz, die sich der Berechnung entzieht. Matthew McConaughey wurde in den 1990er- und 2000er-Jahren zum Inbegriff des charmanten romantischen Komödien-Stars, bevor er sich ab etwa 2011 mit ernsten, körperlich radikalen Rollen – unter anderem einem Gewichtsverlust von über zwanzig Kilogramm für ›Dallas Buyers Club‹ – komplett neu erfand.</p>
+          <p class="vb-intro">Der <strong>Pfau</strong> gilt als das Tier des sexuellen Typs 3 – unmittelbare, magnetische Präsenz, die sich der Berechnung entzieht. Matthew McConaughey wurde in den 1990er- und 2000er-Jahren zum Inbegriff des charmanten romantischen Komödien-Stars, bevor er sich ab etwa 2011 mit ernsten, körperlich radikalen Rollen – unter anderem einem Gewichtsverlust von über zwanzig Kilogramm für ›Dallas Buyers Club‹ – komplett neu erfand.</p>
           <p class="vb-intro">Dieser als ›McConaissance‹ bezeichnete Wandel brachte ihm 2014 den Oscar als bester Hauptdarsteller ein und zeigt exemplarisch, wie vollständig sich dieser Subtyp neu präsentieren kann, ohne die eigene Präsenz dabei zu verlieren.</p>
         </blockquote>
 
@@ -2117,7 +2117,7 @@ export function oleNymoenPortraitPage() {
 
         <h2 class="vb-section">1. Das Gürteltier, das gegen den Strom analysierte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier: Es sucht seine Bedeutung nicht im Verborgenen, sondern in einer bewusst unangepassten Position innerhalb der Gemeinschaft, der es sich zugehörig fühlt. Ole Nymoen wurde 1998 in Berlin geboren, absolvierte zunächst eine Ausbildung zum Mediengestalter beim Rundfunk Berlin-Brandenburg, bevor er Wirtschaftswissenschaften und Soziologie an der Friedrich-Schiller-Universität Jena studierte.</p>
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Sinnbild der sozialen Vier: Es sucht seine Bedeutung nicht im Verborgenen, sondern in einer bewusst unangepassten Position innerhalb der Gemeinschaft, der es sich zugehörig fühlt. Ole Nymoen wurde 1998 in Berlin geboren, absolvierte zunächst eine Ausbildung zum Mediengestalter beim Rundfunk Berlin-Brandenburg, bevor er Wirtschaftswissenschaften und Soziologie an der Friedrich-Schiller-Universität Jena studierte.</p>
           <p class="vb-intro">Statt sich einer der etablierten wirtschaftswissenschaftlichen Schulen anzuschließen, orientierte er sich am marxistischen Theorierahmen der Zeitschrift ›GegenStandpunkt‹ – eine bewusst randständige, intellektuell kompromisslose Position innerhalb seines eigenen Fachgebiets.</p>
         </blockquote>
 
@@ -2315,7 +2315,7 @@ export function barbaraBleischPortraitPage() {
         <h2 class="vb-section">1. Der Waschbär, der aus Substanz Vertrauen baut</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Barbara Bleisch wurde 1973 in Basel als drittes Kind von Arnold Bleisch und Monique Bernoulli geboren. Ihre ersten drei Lebensjahre verbrachte sie im lesothischen Roma, wo ihr Vater als Arzt für die Organisation Solidarmed arbeitete – nach der Rückkehr eröffnete er eine Praxis im aargauischen Niedergösgen. Von 1994 bis 2001 studierte sie Philosophie, Germanistik und Religionswissenschaft in Zürich, Basel und Tübingen, 2007 promovierte sie am Ethikzentrum der Universität Zürich bei Peter Schaber mit der Arbeit ›Pflichten auf Distanz: Weltarmut und individuelle Verantwortung‹.</p>
-          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – geschickt, anpassungsfähig, kompetent statt auf Wirkung bedacht. Genau dieses Muster zeigt sich bereits im Ausgangspunkt ihrer akademischen Laufbahn: Statt eines abstrakten, spektakulären Themas wählte Bleisch eine Dissertation über die ganz konkrete Frage, was Menschen in reichen Ländern anderen, weit entfernten Menschen tatsächlich schulden – Fürsorge und Verantwortung als philosophisches Handwerk, nicht als bloße Behauptung.</p>
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Wappentier der selbsterhaltenden Drei – geschickt, anpassungsfähig, kompetent statt auf Wirkung bedacht. Genau dieses Muster zeigt sich bereits im Ausgangspunkt ihrer akademischen Laufbahn: Statt eines abstrakten, spektakulären Themas wählte Bleisch eine Dissertation über die ganz konkrete Frage, was Menschen in reichen Ländern anderen, weit entfernten Menschen tatsächlich schulden – Fürsorge und Verantwortung als philosophisches Handwerk, nicht als bloße Behauptung.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die selbsterhaltende Drei: Vertrauen durch Substanz statt Auftritt</h2>
@@ -2383,7 +2383,7 @@ export function steffenHensslerPortraitPage() {
 
         <h2 class="vb-section">1. Der Biber</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier der sozialen Sieben – pragmatisch, ideenreich, mit dem Bedürfnis, die eigene Begeisterung nicht für sich zu behalten, sondern in die Welt zu tragen, damit möglichst viele davon profitieren. Steffen Henssler wurde 1972 in Neuenbürg im Schwarzwald geboren, wuchs in Pinneberg auf und zog nach dem frühen Tod seiner Mutter, als er neun Jahre alt war, zu seinem Vater, einem Gastronomen, nach Hamburg. Nach der Kochausbildung bei einem Sternekoch finanzierte er sich 1999 mit einem Lottogewinn den Besuch der California Sushi Academy in Los Angeles – und schloss als erster Deutscher mit Bestnote als ›Professional Sushi Chef‹ ab.</p>
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Wappentier der sozialen Sieben – pragmatisch, ideenreich, mit dem Bedürfnis, die eigene Begeisterung nicht für sich zu behalten, sondern in die Welt zu tragen, damit möglichst viele davon profitieren. Steffen Henssler wurde 1972 in Neuenbürg im Schwarzwald geboren, wuchs in Pinneberg auf und zog nach dem frühen Tod seiner Mutter, als er neun Jahre alt war, zu seinem Vater, einem Gastronomen, nach Hamburg. Nach der Kochausbildung bei einem Sternekoch finanzierte er sich 1999 mit einem Lottogewinn den Besuch der California Sushi Academy in Los Angeles – und schloss als erster Deutscher mit Bestnote als ›Professional Sushi Chef‹ ab.</p>
           <p class="vb-intro">2001 eröffnete er gemeinsam mit seinem Vater das Restaurant ›Henssler Henssler‹ in Hamburg – ein Familienprojekt, das über zwei Jahrzehnte Bestand hatte, bevor er 2025 aus dem Betrieb ausstieg.</p>
         </blockquote>
 

@@ -3200,7 +3200,7 @@ export function maryAnnCottonPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Die Schwarze Mamba</h3>
-        <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Tier der sexuellen Eins &ndash; pr\xe4zise, schnell, kompromisslos, und t\xf6dlich nicht aus Brutalit\xe4t, sondern aus einem inneren Gesetz heraus, das keinen Widerspruch duldet. Mary Ann Cotton, 1832 in der Grafschaft Durham geboren, arbeitete als Krankenschwester und Schneiderin, bevor sie 1852 ihren ersten Ehemann heiratete. \xdcber zwei Jahrzehnte hinweg t\xf6tete sie vermutlich bis zu 21 Menschen &ndash; vier Ehem\xe4nner, mehrere ihrer eigenen und Stiefkinder, eine Mutter und Liebhaber &ndash; mit Arsen, das sie unauff\xe4llig in Tee einr\xfchrte.</p>
+        <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Sinnbild der sexuellen Eins &ndash; pr\xe4zise, schnell, kompromisslos, und t\xf6dlich nicht aus Brutalit\xe4t, sondern aus einem inneren Gesetz heraus, das keinen Widerspruch duldet. Mary Ann Cotton, 1832 in der Grafschaft Durham geboren, arbeitete als Krankenschwester und Schneiderin, bevor sie 1852 ihren ersten Ehemann heiratete. \xdcber zwei Jahrzehnte hinweg t\xf6tete sie vermutlich bis zu 21 Menschen &ndash; vier Ehem\xe4nner, mehrere ihrer eigenen und Stiefkinder, eine Mutter und Liebhaber &ndash; mit Arsen, das sie unauff\xe4llig in Tee einr\xfchrte.</p>
         <p class="vb-intro">1873 wurde sie f\xfcr die Vergiftung ihres siebenj\xe4hrigen Stiefsohns Charles Edward Cotton verurteilt und geh\xe4ngt. Man verdächtigte sie an weit mehr Todesfällen, doch verurteilt wurde sie nur für diesen einen &ndash; genug, um sie als Gro\xdfbritanniens erste dokumentierte Serienm\xf6rderin in die Geschichte eingehen zu lassen.</p>
       </div>
 
@@ -4954,7 +4954,7 @@ export function frankHanebuthPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Löwe</h3>
-        <p class="vb-intro">Der <strong>Löwe</strong> ist das Tier der sozialen Acht &ndash; nicht der Einzelgänger, der auf eigene Faust jägt, sondern das Oberhaupt eines Rudels, dessen Macht sich gerade darin zeigt, dass andere sich ihm freiwillig unterordnen. Der Löwe muss selten selbst kämpfen; seine Präsenz allein regelt die Hackordnung. Frank Hanebuth, über mehr als zwei Jahrzehnte die prägende Figur des Hells-Angels-Charters Hannover, verkörpert genau diese Rolle: kein Mann, der jede Auseinandersetzung persönlich austrägt, sondern einer, dessen bloße Zugehörigkeit und Autorität ein ganzes Territorium &ndash; das Hannoveraner Rotlichtmilieu &ndash; jahrzehntelang strukturierte.</p>
+        <p class="vb-intro">Der <strong>Löwe</strong> ist das Wappentier der sozialen Acht &ndash; nicht der Einzelgänger, der auf eigene Faust jägt, sondern das Oberhaupt eines Rudels, dessen Macht sich gerade darin zeigt, dass andere sich ihm freiwillig unterordnen. Der Löwe muss selten selbst kämpfen; seine Präsenz allein regelt die Hackordnung. Frank Hanebuth, über mehr als zwei Jahrzehnte die prägende Figur des Hells-Angels-Charters Hannover, verkörpert genau diese Rolle: kein Mann, der jede Auseinandersetzung persönlich austrägt, sondern einer, dessen bloße Zugehörigkeit und Autorität ein ganzes Territorium &ndash; das Hannoveraner Rotlichtmilieu &ndash; jahrzehntelang strukturierte.</p>
       </div>
 
       <div class="vb-section">

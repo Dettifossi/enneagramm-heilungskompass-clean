@@ -144,7 +144,7 @@ export function angelaMerkelPortraitPage() {
 
         <h2 class="vb-section">1. Der Elefant</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des selbsterhaltenden Typs 9 &ndash; und kein Bild trifft Angela Merkel genauer. Der Elefant ist geduldig, erdend, von einer Pr\xe4senz, die nicht durch Lautst\xe4rke entsteht, sondern durch Gewicht. Er bewegt sich nicht eilig. Aber er bewegt sich &ndash; und wenn er in Bewegung ist, h\xe4lt ihn nichts auf.</p>
+          <p class="vb-intro">Der <strong>Elefant</strong> ist das Sinnbild des selbsterhaltenden Typs 9 &ndash; und kein Bild trifft Angela Merkel genauer. Der Elefant ist geduldig, erdend, von einer Pr\xe4senz, die nicht durch Lautst\xe4rke entsteht, sondern durch Gewicht. Er bewegt sich nicht eilig. Aber er bewegt sich &ndash; und wenn er in Bewegung ist, h\xe4lt ihn nichts auf.</p>
           <p class="vb-intro">Die deutsche Politikerin Angela Merkel, 1954 in Hamburg geboren, aufgewachsen in der DDR, Physikerin von Beruf, wurde nach der Wende \xfcber Nacht zur Politikerin und regierte Deutschland f\xfcr sechzehn Jahre. Sie sprach selten laut. Sie machte keine gro\xdfen Gesten. Und sie \xfcberstand Krisen, Gegner und Koalitionspartner mit einer Beharrlichkeit, die mehr wie Naturgewalt wirkte als wie Strategie. Das ist der Elefant: Er braucht keine Szene. Er hat Zeit.</p>
         </blockquote>
 
@@ -359,7 +359,7 @@ export function clemensArvayPortraitPage() {
 
         <h2 class="vb-section">1. Die Taube</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier des selbsterhaltenden Typs 4 &ndash; und sie ist ein Tier, das man leicht \u00fcbersieht. Keine Sch\u00e4rfe, keine Dominanz, kein lautes Auftreten. Die Taube bewegt sich nah am Boden, nah an den Menschen, nah an dem, was w\u00e4chst und atmet. Und doch tr\u00e4gt sie seit Jahrtausenden die tiefsten Botschaften: Frieden. Heimkehr. Das Versprechen, dass es weitergeht.</p>
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Sinnbild des selbsterhaltenden Typs 4 &ndash; und sie ist ein Tier, das man leicht \u00fcbersieht. Keine Sch\u00e4rfe, keine Dominanz, kein lautes Auftreten. Die Taube bewegt sich nah am Boden, nah an den Menschen, nah an dem, was w\u00e4chst und atmet. Und doch tr\u00e4gt sie seit Jahrtausenden die tiefsten Botschaften: Frieden. Heimkehr. Das Versprechen, dass es weitergeht.</p>
           <p class="vb-intro">Clemens G. Arvay war ein \u00f6sterreichischer Biologe und Autor, der einer breiten \u00d6ffentlichkeit zeigte, was Wissenschaft und innere Sehnsucht gemeinsam wissen: dass der Wald heilt. Sein Werk &ndash; darunter <em>Der Biophilia-Effekt</em> und <em>Wir k\u00f6nnen es besser</em> &ndash; ist die Arbeit einer Taube: kein Drama, keine Selbstinszenierung, aber eine Botschaft, die tr\u00e4gt und bleibt. 2022 hat er sich das Leben genommen. Die Taube, die anderen den Weg zeigt, hat ihren eigenen manchmal verloren.</p>
         </blockquote>
 
@@ -706,7 +706,7 @@ export function heraklitPortraitPage() {
 
         <h2 class="vb-section">1. Das Gürteltier, das der Menge den Rücken kehrte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier – es bleibt im Umfeld der Gemeinschaft, misst sich an ihr und gewinnt seine Bedeutung gerade aus dem Kontrast zu ihr. Heraklit wurde um 535 v. Chr. in Ephesos geboren, in eine Familie mit Anspruch auf das erbliche Königsamt der Stadt – eine Würde, die er der Überlieferung nach seinem jüngeren Bruder überließ, um sich ganz dem Nachdenken zu widmen.</p>
+          <p class="vb-intro">Das <strong>Gürteltier</strong> gilt als das Tier der sozialen Vier – es bleibt im Umfeld der Gemeinschaft, misst sich an ihr und gewinnt seine Bedeutung gerade aus dem Kontrast zu ihr. Heraklit wurde um 535 v. Chr. in Ephesos geboren, in eine Familie mit Anspruch auf das erbliche Königsamt der Stadt – eine Würde, die er der Überlieferung nach seinem jüngeren Bruder überließ, um sich ganz dem Nachdenken zu widmen.</p>
           <p class="vb-intro">Diese Abwendung war kein stiller Rückzug ins Private. Heraklit blieb Ephesos zugewandt, kritisierte seine Mitbürger und ihre Politik offen und scharf, verweigerte sich aber der aktiven Teilnahme am öffentlichen Leben, das er für oberflächlich hielt. Der Legende nach zog er sich zeitweise in die Berge zurück und ernährte sich von Kräutern – ein Leben am Rand der Gemeinschaft, die er nie ganz verließ, weil sie der Resonanzraum blieb, an dem sich sein Denken schärfte.</p>
         </blockquote>
 
@@ -781,7 +781,7 @@ export function isabellaBriggsPortraitPage() {
 
         <h2 class="vb-section">1. Das Flusspferd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, das sein Revier nicht durch Lautstärke behauptet, sondern durch die schiere Konsequenz, mit der es früh lernt, wo sein Platz ist, und diesen Platz beharrlich ausbaut. Kein Tier des schnellen Auftritts, sondern eines, das mit sechs Jahren ins Wasser geht und von da an weiß, wo es hingehört.</p>
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Sinnbild der selbsterhaltenden Zwei &ndash; ein Tier, das sein Revier nicht durch Lautstärke behauptet, sondern durch die schiere Konsequenz, mit der es früh lernt, wo sein Platz ist, und diesen Platz beharrlich ausbaut. Kein Tier des schnellen Auftritts, sondern eines, das mit sechs Jahren ins Wasser geht und von da an weiß, wo es hingehört.</p>
           <p class="vb-intro">Isabella Briggs begann bereits im Kindesalter mit Schauspielunterricht und stand mit sieben Jahren erstmals professionell vor der Kamera, zunächst für Werbespots und Printanzeigen. Diese frühe, kontinuierliche Hinwendung zu einem einzigen Handwerk, Jahr für Jahr, ohne den schnellen Durchbruch, ist die Grundbewegung der selbsterhaltenden Zwei: sich dort einzurichten, wo man gebraucht und gesehen werden kann, und von dort aus beständig zu wachsen.</p>
         </blockquote>
 
@@ -932,7 +932,7 @@ export function juergenKloppPortraitPage() {
 
         <h2 class="vb-section">1. Die Gans</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins &ndash; und kein Tier trifft J\u00fcrgen Klopp so genau. Die Gans fliegt nicht allein. Sie fliegt im V-Formationsverband, sie ruft, sie h\u00e4lt die Gruppe zusammen, sie \u00fcbernimmt Verantwortung f\u00fcr das Kollektiv. Wenn eine Gans ersch\u00f6pft ist, \u00fcbernimmt eine andere die Spitze. Das Prinzip ist Solidarit\u00e4t &ndash; und die \u00dcberzeugung, dass man gemeinsam weiter kommt als allein.</p>
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Sinnbild der sozialen Eins &ndash; und kein Tier trifft J\u00fcrgen Klopp so genau. Die Gans fliegt nicht allein. Sie fliegt im V-Formationsverband, sie ruft, sie h\u00e4lt die Gruppe zusammen, sie \u00fcbernimmt Verantwortung f\u00fcr das Kollektiv. Wenn eine Gans ersch\u00f6pft ist, \u00fcbernimmt eine andere die Spitze. Das Prinzip ist Solidarit\u00e4t &ndash; und die \u00dcberzeugung, dass man gemeinsam weiter kommt als allein.</p>
           <p class="vb-intro">Der deutsche Fußballtrainer J\u00fcrgen Klopp, geboren 1967 in Stuttgart, war als Spieler ordentlich &ndash; und als Trainer au\u00dfergew\u00f6hnlich. Nicht weil er taktisch so brillant gewesen w\u00e4re wie andere, sondern weil er verstand, was Mannschaften wirklich brauchen: das Gef\u00fchl, f\u00fcreinander zu spielen. Mit dem BVB gewann er zweimal die Deutsche Meisterschaft und den DFB-Pokal. Mit dem FC Liverpool holte er 2019 die Champions League und 2020 die englische Meisterschaft &ndash; Titel, auf die Liverpool \u00fcber drei\u00dfig Jahre gewartet hatte. Kein Zufall. Eine Gans, die ihre Formation findet.</p>
         </blockquote>
 
@@ -1071,7 +1071,7 @@ export function leonardBernsteinPortraitPage() {
 
         <h2 class="vb-section">1. Der Schimpanse am Dirigentenpult</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier der sexuellen Sieben – verspielt, sozial hochintelligent, immer auf der Suche nach dem nächsten intensiven Moment, der die Gruppe in seinen Bann zieht. Kaum ein Dirigent hat diese ansteckende Begeisterung so körperlich manifestiert wie Leonard Bernstein: Er sprang am Pult, warf sich in die Musik hinein, riss das Orchester mit einer Ekstase mit sich, die man auf Aufnahmen auch heute noch förmlich spüren kann.</p>
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist die tierische Entsprechung der sexuellen Sieben – verspielt, sozial hochintelligent, immer auf der Suche nach dem nächsten intensiven Moment, der die Gruppe in seinen Bann zieht. Kaum ein Dirigent hat diese ansteckende Begeisterung so körperlich manifestiert wie Leonard Bernstein: Er sprang am Pult, warf sich in die Musik hinein, riss das Orchester mit einer Ekstase mit sich, die man auf Aufnahmen auch heute noch förmlich spüren kann.</p>
           <p class="vb-intro">Sein Durchbruch kam am 14. November 1943, praktisch über Nacht: Als der erkrankte Dirigent Bruno Walter kurzfristig ausfiel, sprang der 25-jährige, bis dahin unbekannte Assistenzdirigent Bernstein für ihn beim New York Philharmonic ein – ohne Probe, live landesweit im Radio übertragen. Der Auftritt wurde zur Sensation und machte ihn über Nacht bekannt. Der Schimpanse wartet nicht auf die perfekte Gelegenheit – er ergreift den Moment, sobald er sich zeigt.</p>
         </blockquote>
 
@@ -1139,7 +1139,7 @@ export function magnusCarlsenPortraitPage() {
 
         <h2 class="vb-section">1. Der Adler</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins &ndash; er jagt nicht mit Wucht, sondern mit Geduld und einem Blick, der jedes Detail erfasst. Er kreist lange über dem Spielfeld, bevor er zuschlägt, und wenn er zuschlägt, braucht es keine zweite Bewegung.</p>
+          <p class="vb-intro">Der <strong>Adler</strong> gilt als das Tier der selbsterhaltenden Eins &ndash; er jagt nicht mit Wucht, sondern mit Geduld und einem Blick, der jedes Detail erfasst. Er kreist lange über dem Spielfeld, bevor er zuschlägt, und wenn er zuschlägt, braucht es keine zweite Bewegung.</p>
           <p class="vb-intro">Der norwegische Schachspieler Magnus Carlsen gilt seit über einem Jahrzehnt als der beste Schachspieler der Welt &ndash; nicht durch spektakuläre Kombinationen, sondern durch eine fast unmenschliche Fähigkeit, aus minimalen, kaum sichtbaren Vorteilen unaufhaltsam Gewinnstellungen zu erarbeiten. Gegner beschreiben Partien gegen ihn oft als langsames Erdrücken: kein einzelner Fehler entscheidet, sondern die Summe unzähliger, unauffälliger Ungenauigkeiten, die der Adler gnadenlos registriert und ausnutzt.</p>
         </blockquote>
 
@@ -1274,7 +1274,7 @@ export function monikaGruberPortraitPage() {
 
         <h2 class="vb-section">1. Das Kamel, das tausend Menschen gleichzeitig anschaut</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei &ndash; und kein Tier beschreibt Monika Gruber treffender. Das Kamel ist z\u00e4h, ausdauernd, eigensinnig. Es duldet keine schlechte Behandlung &ndash; aber wer ihm mit Respekt begegnet, findet einen der treuesten Gef\u00e4hrten der Tierwelt. Das Kamel speichert: Energie, Wasser, Geduld &ndash; und wenn es schlie\u00dflich trinkt, trinkt es auf einmal bis zu 150 Liter. Diese \u00fcberschie\u00dfende Energie ist das Prinzip der sexuellen Zwei: Was sie f\u00fchlt, f\u00fchlt sie vollst\u00e4ndig. Was sie gibt, gibt sie ganz.</p>
+          <p class="vb-intro">Das <strong>Kamel</strong> ist das Wappentier der sexuellen Zwei &ndash; und kein Tier beschreibt Monika Gruber treffender. Das Kamel ist z\u00e4h, ausdauernd, eigensinnig. Es duldet keine schlechte Behandlung &ndash; aber wer ihm mit Respekt begegnet, findet einen der treuesten Gef\u00e4hrten der Tierwelt. Das Kamel speichert: Energie, Wasser, Geduld &ndash; und wenn es schlie\u00dflich trinkt, trinkt es auf einmal bis zu 150 Liter. Diese \u00fcberschie\u00dfende Energie ist das Prinzip der sexuellen Zwei: Was sie f\u00fchlt, f\u00fchlt sie vollst\u00e4ndig. Was sie gibt, gibt sie ganz.</p>
           <p class="vb-intro">Monika Gruber, geboren 1970 in Wasserburg am Inn, ist Bayerns bekannteste Kabarettistin &ndash; und eine der erfolgreichsten B\u00fchnenk\u00fcnstlerinnen des deutschsprachigen Raums. Ihre Programme f\u00fcllen Hallen mit tausenden Menschen. Und trotzdem &ndash; oder genau deshalb &ndash; hat man beim Zuschauen das Gef\u00fchl: Sie spricht mit mir. Nur mit mir. Das ist das Geheimnis der sexuellen Zwei auf der B\u00fchne: Sie schafft Intimit\u00e4t im Gro\u00dfen. Sie macht aus einem Publikum eine einzige pers\u00f6nliche Begegnung.</p>
         </blockquote>
 
@@ -1344,7 +1344,7 @@ export function omarSyPortraitPage() {
 
         <h2 class="vb-section">1. Der Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; ein Tier, das früh lernt, für eine Gruppe Verantwortung zu übernehmen, und diese Fürsorge später auf ein weit größeres Publikum ausdehnt. Omar Sy wuchs als ältestes von zehn Geschwistern auf – eine Position, die von klein auf Rücksichtnahme und Verantwortung für andere verlangte, lange bevor er selbst zur öffentlichen Figur wurde.</p>
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Wappentier der sozialen Zwei &ndash; ein Tier, das früh lernt, für eine Gruppe Verantwortung zu übernehmen, und diese Fürsorge später auf ein weit größeres Publikum ausdehnt. Omar Sy wuchs als ältestes von zehn Geschwistern auf – eine Position, die von klein auf Rücksichtnahme und Verantwortung für andere verlangte, lange bevor er selbst zur öffentlichen Figur wurde.</p>
           <p class="vb-intro">Omar Sy wurde am 20. Januar 1978 in Trappes bei Paris geboren, als Sohn mauretanischer Einwanderer, und wuchs in einem multikulturellen Umfeld auf. Zwischen 1996 und 1997 arbeitete er beim Radiosender Radio Nova, wo er Fred Testot kennenlernte – der Beginn einer jahrelangen, öffentlich sichtbaren Partnerschaft, die seinen Weg in die Öffentlichkeit prägte.</p>
         </blockquote>
 
@@ -1403,7 +1403,7 @@ export function queenElizabethIIPortraitPage() {
 
         <h2 class="vb-section">1. Der Adler</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins &ndash; und kein Bild trifft Queen Elizabeth II. genauer. Der Adler fliegt allein, hoch \u00fcber dem L\u00e4rm der Welt. Er braucht keine Zustimmung, keine B\u00fchne, keine Bewunderung. Er hat einen Posten &ndash; und er verl\u00e4sst ihn nicht. Wenn er kreist, dann mit vollst\u00e4ndiger Konzentration. Wenn er landet, dann mit W\u00fcrde.</p>
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Wappentier der selbsterhaltenden Eins &ndash; und kein Bild trifft Queen Elizabeth II. genauer. Der Adler fliegt allein, hoch \u00fcber dem L\u00e4rm der Welt. Er braucht keine Zustimmung, keine B\u00fchne, keine Bewunderung. Er hat einen Posten &ndash; und er verl\u00e4sst ihn nicht. Wenn er kreist, dann mit vollst\u00e4ndiger Konzentration. Wenn er landet, dann mit W\u00fcrde.</p>
           <p class="vb-intro">Die britische Königin Elizabeth Alexandra Mary Windsor bestieg 1952, mit f\u00fcnfundzwanzig Jahren, nach dem Tod ihres Vaters K\u00f6nig George VI. den Thron &ndash; einen Thron, den sie nicht gesucht hatte, der ihr durch den Verzicht ihres Onkels Edward VIII. zugefallen war. Sie sagte Ja. Nicht mit Begeisterung, nicht mit Ehrgeiz &ndash; sondern mit dem stillen, absoluten Entschluss eines Menschen, der versteht, dass bestimmte Aufgaben nicht verhandelbar sind. Siebzig Jahre lang hat sie dieses Ja jeden Tag erneuert. Der Adler blieb auf seinem Posten.</p>
         </blockquote>
 
@@ -1560,7 +1560,7 @@ export function stormReidPortraitPage() {
 
         <h2 class="vb-section">1. Das Flusspferd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das sein Revier nicht allein, sondern im Verbund mit seiner nächsten Umgebung aufbaut und verteidigt. Bei Storm Reid war dieser Verbund von Beginn an die eigene Familie: Als sie neun Jahre alt war, zog die gesamte Familie von Atlanta nach Los Angeles um &ndash; nicht sie allein zog aus, sondern das ganze Gewässer verlagerte sich mit ihr.</p>
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Wappentier der selbsterhaltenden Zwei &ndash; ein Wesen, das sein Revier nicht allein, sondern im Verbund mit seiner nächsten Umgebung aufbaut und verteidigt. Bei Storm Reid war dieser Verbund von Beginn an die eigene Familie: Als sie neun Jahre alt war, zog die gesamte Familie von Atlanta nach Los Angeles um &ndash; nicht sie allein zog aus, sondern das ganze Gewässer verlagerte sich mit ihr.</p>
           <p class="vb-intro">Die US-amerikanische Schauspielerin Storm Reid wurde am 1. Juli 2003 in Atlanta, Georgia, geboren, als jüngstes von vier Geschwistern. Ihr Vater Rodney arbeitet als Personal Trainer, ihre Mutter Robyn als Stylistin und Kostümbildnerin in der Filmbranche &ndash; die berufliche Nähe zum Filmgeschäft war also bereits im engsten Familienkreis vorhanden, lange bevor Storm selbst vor der Kamera stand. Ihre erste Rolle in einem Werbespot hatte sie bereits mit drei Jahren.</p>
         </blockquote>
 
@@ -1622,7 +1622,7 @@ export function toniMorrisonPortraitPage() {
 
         <h2 class="vb-section">1. Der Orang-Utan</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Orang-Utan</strong> ist das Tier des selbsterhaltenden Typs 8 &ndash; und kein Bild passt besser zu Toni Morrison. Der Orang-Utan ist der solit\u00e4rste der Menschenaffen: Er braucht kein Rudel, keine Best\u00e4tigung, keine Zuschauer. Er lebt auf seine eigene Weise, in seinem eigenen Rhythmus, mit einer W\u00fcrde, die nicht erkl\u00e4rt werden muss. Sein Blick ist ruhig und tief zugleich &ndash; der Blick eines Wesens, das schon viel gesehen hat und nichts davon verdr\u00e4ngt.</p>
+          <p class="vb-intro">Der <strong>Orang-Utan</strong> ist das Sinnbild des selbsterhaltenden Typs 8 &ndash; und kein Bild passt besser zu Toni Morrison. Der Orang-Utan ist der solit\u00e4rste der Menschenaffen: Er braucht kein Rudel, keine Best\u00e4tigung, keine Zuschauer. Er lebt auf seine eigene Weise, in seinem eigenen Rhythmus, mit einer W\u00fcrde, die nicht erkl\u00e4rt werden muss. Sein Blick ist ruhig und tief zugleich &ndash; der Blick eines Wesens, das schon viel gesehen hat und nichts davon verdr\u00e4ngt.</p>
           <p class="vb-intro">Die US-amerikanische Schriftstellerin Toni Morrison schrieb \u00fcber das, was Amerika verdr\u00e4ngt hatte. Die Sklaverei, die Dem\u00fctigung, das Schweigen der \u00dcberlebenden. Sie tat das nicht anklagend oder hysterisch, sondern mit der Ruhe des Orang-Utans: geerdet, geduldig, unausweichlich. Wer ihren B\u00fcchern begegnet, kommt nicht unbesch\u00e4digt heraus &ndash; und das war ihre Absicht.</p>
         </blockquote>
 
@@ -1687,7 +1687,7 @@ export function willSmithPortraitPage() {
 
         <h2 class="vb-section">1. Der Golden Retriever, der die Welt umarmen will</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; und Will Smith ist vielleicht die bekannteste Golden-Retriever-Pers\u00f6nlichkeit der Unterhaltungswelt. Er ist von Natur aus zugewandt, warm, einnehmend. Er will, dass es allen gut geht. Er will, dass alle lachen. Er will geliebt werden &ndash; und er gibt daf\u00fcr alles, was er hat. Kein anderes Tier in der Enneagramm-Welt strahlt diese Art bedingungsloser, aktiver, fast ansteckender W\u00e4rme aus wie der Golden Retriever. Kein anderer Mensch im Hollywood der 1990er und 2000er Jahre verk\u00f6rperte diese W\u00e4rme so vollst\u00e4ndig wie Will Smith.</p>
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> gilt als das Tier der sozialen Zwei &ndash; und Will Smith ist vielleicht die bekannteste Golden-Retriever-Pers\u00f6nlichkeit der Unterhaltungswelt. Er ist von Natur aus zugewandt, warm, einnehmend. Er will, dass es allen gut geht. Er will, dass alle lachen. Er will geliebt werden &ndash; und er gibt daf\u00fcr alles, was er hat. Kein anderes Tier in der Enneagramm-Welt strahlt diese Art bedingungsloser, aktiver, fast ansteckender W\u00e4rme aus wie der Golden Retriever. Kein anderer Mensch im Hollywood der 1990er und 2000er Jahre verk\u00f6rperte diese W\u00e4rme so vollst\u00e4ndig wie Will Smith.</p>
           <p class="vb-intro">Der US-amerikanische Schauspieler Will Smith, geboren 1968 in Philadelphia, aufgewachsen in einfachen Verh\u00e4ltnissen, begann seine Karriere als Rapper &ndash; und wurde als <em>Fresh Prince</em> innerhalb weniger Jahre zum Liebling einer ganzen Generation. Seine Energie war unwiderstehlich: \u00fcbersch\u00e4umend, spielerisch, warm &ndash; und dabei immer auf das Publikum ausgerichtet. Die soziale Zwei lebt nicht f\u00fcr sich. Sie lebt f\u00fcr die anderen. Will Smith brauchte das Publikum nicht nur als Zuschauer &ndash; er brauchte es als Empf\u00e4nger seiner Energie, als Best\u00e4tigung, dass er willkommen ist.</p>
         </blockquote>
 
@@ -1831,7 +1831,7 @@ export function johnIoannidisPortraitPage() {
 
         <h2 class="vb-section">1. Der Biber, der das System selbst reparierte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier des sozialen Typs 7 – ein Tier, das nicht für sich allein baut, sondern ganze Ökosysteme umgestaltet, von denen viele andere profitieren. Prof. Dr. John Ioannidis, geboren 1965 in New York, aufgewachsen in Athen, schloss sein Medizinstudium an der Universität Athen 1990 als Jahrgangsbester ab. Statt sich mit einer glänzenden klinischen Karriere zu begnügen, wandte er sich einer Frage zu, die kaum jemand vor ihm ernsthaft gestellt hatte: Wie zuverlässig ist eigentlich die Wissenschaft selbst?</p>
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Sinnbild des sozialen Typs 7 – ein Tier, das nicht für sich allein baut, sondern ganze Ökosysteme umgestaltet, von denen viele andere profitieren. Prof. Dr. John Ioannidis, geboren 1965 in New York, aufgewachsen in Athen, schloss sein Medizinstudium an der Universität Athen 1990 als Jahrgangsbester ab. Statt sich mit einer glänzenden klinischen Karriere zu begnügen, wandte er sich einer Frage zu, die kaum jemand vor ihm ernsthaft gestellt hatte: Wie zuverlässig ist eigentlich die Wissenschaft selbst?</p>
           <p class="vb-intro">Seine Antwort, der 2005 veröffentlichte Aufsatz „Why Most Published Research Findings Are False", wurde zum meistgelesenen Artikel in der Geschichte der Fachzeitschrift PLOS – über drei Millionen Aufrufe. Kein Biber baut einen einzelnen Damm für sich selbst. Ioannidis baute ein ganzes System zur Selbstkorrektur der Wissenschaft.</p>
         </blockquote>
 
@@ -1898,7 +1898,7 @@ export function margaretRutherfordPortraitPage() {
 
         <h2 class="vb-section">1. Der Elefant</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des Typs 9 &ndash; gewichtig, unaufgeregt, mit einem Gedächtnis, das nichts vergisst, und einer Ruhe, die selbst unter Druck nicht bricht. Margaret Rutherford war genau dieser Elefant: eine physisch raumgreifende, „formidable" genannte Bühnenpräsenz, die jede Szene allein durch bloßes Dasein dominierte, ohne je laut oder aggressiv zu wirken.</p>
+          <p class="vb-intro">Der <strong>Elefant</strong> ist das Wappentier des Typs 9 &ndash; gewichtig, unaufgeregt, mit einem Gedächtnis, das nichts vergisst, und einer Ruhe, die selbst unter Druck nicht bricht. Margaret Rutherford war genau dieser Elefant: eine physisch raumgreifende, „formidable" genannte Bühnenpräsenz, die jede Szene allein durch bloßes Dasein dominierte, ohne je laut oder aggressiv zu wirken.</p>
           <p class="vb-intro">Als Miss Marple in vier Verfilmungen (1961&ndash;1964) und als Madame Arcati in ›Blithe Spirit‹ verkörperte sie Figuren, die nicht durch Tempo oder Schärfe wirken, sondern durch behäbige, beruhigende Beständigkeit &ndash; mit einem plötzlichen Schuss Entschlossenheit, sobald es darauf ankommt.</p>
         </blockquote>
 
@@ -2027,7 +2027,7 @@ export function jerryLewisPortraitPage() {
 
         <h2 class="vb-section">1. Der Schimpanse, der sich ganz in einen Moment warf</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier der sexuellen Sieben – nicht auf viele Bindungen verteilt, sondern fähig, sich mit einer Intensität in eine einzige Sache zu stürzen, die keine halben Schritte kennt. Jerry Lewis, 1926 als Joseph Levitch in Newark, New Jersey, geboren, wuchs als Sohn zweier Vaudeville-Künstler weitgehend bei Verwandten auf, während seine Eltern auf Tournee waren – von zwei Schulen flog er, doch schon als Kind entwickelte er eine Schallplatten-Mimik-Nummer, in die er sich mit voller Hingabe warf, sobald ihm ein Publikum zur Verfügung stand.</p>
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Sinnbild der sexuellen Sieben – nicht auf viele Bindungen verteilt, sondern fähig, sich mit einer Intensität in eine einzige Sache zu stürzen, die keine halben Schritte kennt. Jerry Lewis, 1926 als Joseph Levitch in Newark, New Jersey, geboren, wuchs als Sohn zweier Vaudeville-Künstler weitgehend bei Verwandten auf, während seine Eltern auf Tournee waren – von zwei Schulen flog er, doch schon als Kind entwickelte er eine Schallplatten-Mimik-Nummer, in die er sich mit voller Hingabe warf, sobald ihm ein Publikum zur Verfügung stand.</p>
           <p class="vb-intro">Dieses früh angelegte Muster – sich restlos in einen einzigen Moment, eine einzige Bühne, eine einzige Beziehung zu stürzen, statt Aufmerksamkeit breit zu streuen – trug ihn sein gesamtes Leben lang. Der Schimpanse tobt nicht wahllos herum; er wählt einen Ast, ein Gegenüber, einen Augenblick – und hängt sich mit vollem Gewicht hinein.</p>
         </blockquote>
 
@@ -2100,7 +2100,7 @@ export function philCollinsPortraitPage() {
 
         <h2 class="vb-section">1. Der Adler, der weiterspielte, als seine Hände es nicht mehr konnten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins: Er braucht keine Bühne, keine Bewunderung – nur einen Posten, den er nicht verlässt. Phil Collins, geboren 1951 in Chiswick, London, kam 1970 als Schlagzeuger zu Genesis und übernahm 1975 nach dem Abgang von Peter Gabriel auch den Gesang – nicht aus Ehrgeiz nach der Frontfigur-Rolle, sondern weil die Band ohne ihn keinen Sänger hatte und jemand die Aufgabe übernehmen musste.</p>
+          <p class="vb-intro">Der <strong>Adler</strong> ist die tierische Entsprechung der selbsterhaltenden Eins: Er braucht keine Bühne, keine Bewunderung – nur einen Posten, den er nicht verlässt. Phil Collins, geboren 1951 in Chiswick, London, kam 1970 als Schlagzeuger zu Genesis und übernahm 1975 nach dem Abgang von Peter Gabriel auch den Gesang – nicht aus Ehrgeiz nach der Frontfigur-Rolle, sondern weil die Band ohne ihn keinen Sänger hatte und jemand die Aufgabe übernehmen musste.</p>
           <p class="vb-intro">Jahrzehnte später, 2007, wurde bei ihm eine Nervenschädigung an den Händen diagnostiziert, die ihn zwang, das Schlagzeugspielen aufzugeben. Nach einem schweren Sturz 2015 mit Wirbelsäulenverletzung konnte er kaum noch ohne Stütze stehen. Von 2017 bis 2019 tourte er dennoch mit der ›Not Dead Yet‹-Tournee – sitzend, während sein Sohn Nic am Schlagzeug übernahm. Der Adler verließ seinen Posten erst, als es wirklich keine andere Möglichkeit mehr gab.</p>
         </blockquote>
 
@@ -2169,7 +2169,7 @@ export function gritStrassenbergerPortraitPage() {
 
         <h2 class="vb-section">1. Das Erdmännchen, dessen Lebensthema die Frage nach vertrauenswürdiger Autorität ist</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Erdmännchen</strong> ist das Tier der sozialen Sechs – ein wachsames, kluges Tier, das Sicherheit nicht im Alleingang sucht, sondern in einem verlässlichen System aus gegenseitiger Warnung und klaren Rollen. Der Blick des Erdmännchens gilt in diesem Kompass als "kühl, wachsam, skeptisch, verkopft, kritisch beäugend" – eine Beschreibung, die sich auffällig deckt mit dem, was sich in Fotos von Grit Straßenberger zeigt: eine nach außen gerichtete Bestimmtheit, hinter der ein prüfender, skeptischer Blick liegt.</p>
+          <p class="vb-intro">Das <strong>Erdmännchen</strong> gilt als das Tier der sozialen Sechs – ein wachsames, kluges Tier, das Sicherheit nicht im Alleingang sucht, sondern in einem verlässlichen System aus gegenseitiger Warnung und klaren Rollen. Der Blick des Erdmännchens gilt in diesem Kompass als "kühl, wachsam, skeptisch, verkopft, kritisch beäugend" – eine Beschreibung, die sich auffällig deckt mit dem, was sich in Fotos von Grit Straßenberger zeigt: eine nach außen gerichtete Bestimmtheit, hinter der ein prüfender, skeptischer Blick liegt.</p>
           <p class="vb-intro">Straßenberger, geboren 1970 in Berlin, ist Professorin für Politische Theorie und Ideengeschichte an der Universität Bonn. Ihr wissenschaftliches Lebensthema, dem sie sich über Jahrzehnte widmet, lässt sich in einem einzigen Satz zusammenfassen: Wann ist Autorität legitim und schützenswert – und wann wird sie zur Gefahr? Kaum eine Frage könnte näher am Kern der sozialen Sechs liegen.</p>
         </blockquote>
 
@@ -2294,7 +2294,7 @@ export function donMcleanPortraitPage() {
         <h2 class="vb-section">1. Die Taube, die ihren Schmerz in Allegorien verpackte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Don McLean wurde 1945 in New Rochelle, New York, geboren. Sein Vater starb, als er fünfzehn war; schweres Asthma sorgte für lange Fehlzeiten in der Schule, während sich seine Liebe zur Musik früh entfalten konnte. 1971 veröffentlichte er mit ›American Pie‹ einen der einflussreichsten Songs der amerikanischen Musikgeschichte – eine mehrschichtige Allegorie auf den Verlust der Unschuld der frühen Rock'n'Roll-Generation, ausgelöst durch den Flugzeugabsturz, der Buddy Holly, Ritchie Valens und den ›Big Bopper‹ das Leben kostete.</p>
-          <p class="vb-intro">Die <strong>Haustaube</strong> ist das Tier der selbsterhaltenden Vier – sie trägt ihre Sehnsucht nicht zur Schau, sondern verpackt sie in etwas, das sich leise mitteilt, statt zu schreien. Genau das tat McLean 1971 auch mit ›Vincent‹: Er schrieb den Song über <a href="javascript:void(0)" data-route="beruehmte-vincent-van-gogh">Vincent van Gogh</a> (ebenfalls SE4w5), während er selbst mitten in einer, wie er es später nannte, „quälenden" Ehekrise steckte – seine eigene Not floss unausgesprochen in die Zeilen über einen anderen, missverstandenen Künstler.</p>
+          <p class="vb-intro">Die <strong>Haustaube</strong> ist die tierische Entsprechung der selbsterhaltenden Vier – sie trägt ihre Sehnsucht nicht zur Schau, sondern verpackt sie in etwas, das sich leise mitteilt, statt zu schreien. Genau das tat McLean 1971 auch mit ›Vincent‹: Er schrieb den Song über <a href="javascript:void(0)" data-route="beruehmte-vincent-van-gogh">Vincent van Gogh</a> (ebenfalls SE4w5), während er selbst mitten in einer, wie er es später nannte, „quälenden" Ehekrise steckte – seine eigene Not floss unausgesprochen in die Zeilen über einen anderen, missverstandenen Künstler.</p>
           <p class="vb-intro">Dass McLean sich ausgerechnet van Gogh als Projektionsfläche wählte, ist dabei kaum Zufall: Unter 27 möglichen Subtypen traf er auf einen anderen SE4w5er – denselben stillen, nach innen gerichteten Umgang mit Schmerz, dieselbe Kluft zwischen äußerem Funktionieren und innerer Verzweiflung, die van Gogh zu Lebzeiten fast niemand zugestand. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-vincent-van-gogh">Porträt zu Vincent van Gogh</a>.</p>
         </blockquote>
 
@@ -2362,7 +2362,7 @@ export function floydMayweatherPortraitPage() {
 
         <h2 class="vb-section">1. Der Golden Retriever, der sich selbst „Money" nannte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei: warm, stolz, auf Verbindung ausgerichtet – ein Tier, das Zuneigung nicht nur empfängt, sondern aktiv organisiert. Floyd Mayweather Jr. wurde 1977 in Grand Rapids, Michigan, geboren, in eine von Armut und familiärer Instabilität geprägte Kindheit hinein: Seine Mutter kämpfte mit einer Drogenabhängigkeit, sein Vater und Trainer Floyd Mayweather Sr. saß fünf Jahre wegen Drogenhandels im Gefängnis. Aufgewachsen zwischen Mutter und Großmutter, war es die Großmutter, die seine frühe Leidenschaft fürs Boxen aktiv förderte.</p>
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Sinnbild der sozialen Zwei: warm, stolz, auf Verbindung ausgerichtet – ein Tier, das Zuneigung nicht nur empfängt, sondern aktiv organisiert. Floyd Mayweather Jr. wurde 1977 in Grand Rapids, Michigan, geboren, in eine von Armut und familiärer Instabilität geprägte Kindheit hinein: Seine Mutter kämpfte mit einer Drogenabhängigkeit, sein Vater und Trainer Floyd Mayweather Sr. saß fünf Jahre wegen Drogenhandels im Gefängnis. Aufgewachsen zwischen Mutter und Großmutter, war es die Großmutter, die seine frühe Leidenschaft fürs Boxen aktiv förderte.</p>
           <p class="vb-intro">Mit 50 Siegen in 50 Profikämpfen über fünf Gewichtsklassen hinweg beendete er seine Karriere ungeschlagen – eine der seltensten Bilanzen im Boxsport überhaupt. Doch der Name, unter dem er weltberühmt wurde, war nicht „der Unbesiegte", sondern „Money Mayweather" – eine selbstgewählte Marke, die von Anfang an auf Beziehung zum Publikum zielte, nicht nur auf sportliche Leistung.</p>
         </blockquote>
 
@@ -2503,7 +2503,7 @@ export function sathyaSaiBabaPortraitPage() {
 
         <h2 class="vb-section">1. Das Nilpferd von Puttaparthi</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Nilpferd</strong> ist das Tier der selbsterhaltenden Zwei: warm, rund, zugänglich – und zugleich ein Wesen, das sein Revier mit großer Entschlossenheit hält. Sathya Sai Baba wurde am 23. November 1926 im südindischen Dorf Puttaparthi (damals Provinz Madras, heute Andhra Pradesh) als Sathyanarayana Raju geboren. Mit vierzehn Jahren, am 29. Oktober 1940, erklärte er seiner Familie und den Dorfbewohnern, er sei der wiedergekehrte Sai Baba von Shirdi (einem im frühen 20. Jahrhundert verehrten Heiligen) und werde nun seine Mission aufnehmen: die geistige Erneuerung der Menschheit durch Wahrheit, rechtes Handeln, Frieden und Liebe.</p>
+          <p class="vb-intro">Das <strong>Nilpferd</strong> ist das Sinnbild der selbsterhaltenden Zwei: warm, rund, zugänglich – und zugleich ein Wesen, das sein Revier mit großer Entschlossenheit hält. Sathya Sai Baba wurde am 23. November 1926 im südindischen Dorf Puttaparthi (damals Provinz Madras, heute Andhra Pradesh) als Sathyanarayana Raju geboren. Mit vierzehn Jahren, am 29. Oktober 1940, erklärte er seiner Familie und den Dorfbewohnern, er sei der wiedergekehrte Sai Baba von Shirdi (einem im frühen 20. Jahrhundert verehrten Heiligen) und werde nun seine Mission aufnehmen: die geistige Erneuerung der Menschheit durch Wahrheit, rechtes Handeln, Frieden und Liebe.</p>
           <p class="vb-intro">Ab 1948 entstand in Puttaparthi der Ashram (die spirituelle Gemeinschaft) <em>Prasanthi Nilayam</em> (›Wohnstätte des höchsten Friedens‹), fertiggestellt 1950. Der Mann, der später Millionen Menschen anzog, blieb sein Leben lang an dem Ort, an dem er geboren wurde – das Dorf wurde zum Pilgerzentrum, nicht er zum Auswanderer.</p>
         </blockquote>
 
@@ -2640,7 +2640,7 @@ export function olafSchubertPortraitPage() {
         <h2 class="vb-section">1. Die Gans im Argyle-Pullunder</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Olaf Schubert ist die Bühnenfigur des 1967 im vogtländischen Plauen geborenen Comedians Michael Haubold, der sie 1995 auf sächsischen Kleinkunstbühnen erfand. Markenzeichen sind ein gestrickter Argyle-Pullunder, eine eigenwillige Überkämmfrisur und eine Bühnenfigur, die sich selbst als ›Weltverbesserer und Humorist‹ sowie ›Wunder im Pullunder‹ bezeichnet. Den bundesweiten Durchbruch brachten Auftritte im ›Quatsch Comedy Club‹ und regelmäßige Beiträge für die ZDF-heute-show, die Schubert über Jahre als feste satirische Stimme etablierten.</p>
-          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins: Sie wacht über die Gemeinschaft, mahnt zur Ordnung, zieht laut und unübersehbar Aufmerksamkeit auf das, was falsch läuft – aber als Herdentier, nicht als Einzelkämpferin. Schuberts komische Grundhaltung ist exakt das: Er tritt nicht als zynischer Außenseiter auf, sondern als jemand, der sich ausdrücklich und ernsthaft dem Gemeinwohl verschrieben hat – nur eben mit einer Methode, die komplett schiefläuft, sobald sie auf die Bühne trifft.</p>
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Wappentier der sozialen Eins: Sie wacht über die Gemeinschaft, mahnt zur Ordnung, zieht laut und unübersehbar Aufmerksamkeit auf das, was falsch läuft – aber als Herdentier, nicht als Einzelkämpferin. Schuberts komische Grundhaltung ist exakt das: Er tritt nicht als zynischer Außenseiter auf, sondern als jemand, der sich ausdrücklich und ernsthaft dem Gemeinwohl verschrieben hat – nur eben mit einer Methode, die komplett schiefläuft, sobald sie auf die Bühne trifft.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Eins: Der erklärte Weltverbesserer als komisches Prinzip</h2>

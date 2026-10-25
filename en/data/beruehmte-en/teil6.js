@@ -94,7 +94,7 @@ export function ankeEngelkePortraitPage() {
 
         <h2 class="vb-section">1. The Wolf</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Wolf</strong> is the animal of the Sexual Type 6 &ndash; and it fits Anke Engelke with a precision one only recognises on closer inspection. Wolves are considered social animals: loyal, playful, closely bound within the pack. But what distinguishes them from other pack animals is their willingness to engage openly. The Wolf does not evade. It faces things. It bares its teeth &ndash; not from aggression but from clarity. It defines who it is by saying what it will not accept.</p>
+          <p class="vb-intro">The <strong>Wolf</strong> is the emblem of the Sexual Type 6 &ndash; and it fits Anke Engelke with a precision one only recognises on closer inspection. Wolves are considered social animals: loyal, playful, closely bound within the pack. But what distinguishes them from other pack animals is their willingness to engage openly. The Wolf does not evade. It faces things. It bares its teeth &ndash; not from aggression but from clarity. It defines who it is by saying what it will not accept.</p>
           <p class="vb-intro">The German comedian Anke Engelke is a she-wolf. Her stage is the pack: ensemble, comedy partners, colleagues. Her strength comes not from isolation but from connection. And her humour is not a retreat &ndash; it is a presence. Direct. Unmasked. With teeth one can see, because one knows there is no attack behind them &ndash; only clarity.</p>
         </blockquote>
 
@@ -368,7 +368,7 @@ export function dietlandMuellerSchwarzePortraitPage() {
 
         <h2 class="vb-section">1. The beaver who first decoded the beaver's language</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>beaver</strong> is the animal of the Social Seven &ndash; it does not build for itself, but creates knowledge and structures that reach far beyond its own person. Few scientists laid the foundation for this field of research as completely as Prof. Dr. Dietland Müller-Schwarze: the German-American biologist is regarded as the pioneer of modern beaver behavioural research and devoted 26 years of his career to these animals' chemical communication &ndash; long before younger researchers such as Frank Rosell carried the field further.</p>
+          <p class="vb-intro">The <strong>beaver</strong> is the symbolic animal of the Social Seven &ndash; it does not build for itself, but creates knowledge and structures that reach far beyond its own person. Few scientists laid the foundation for this field of research as completely as Prof. Dr. Dietland Müller-Schwarze: the German-American biologist is regarded as the pioneer of modern beaver behavioural research and devoted 26 years of his career to these animals' chemical communication &ndash; long before younger researchers such as Frank Rosell carried the field further.</p>
           <p class="vb-intro">Born in Germany, Müller-Schwarze began his academic career with doctoral research in animal behaviour under none other than Nobel laureate Konrad Lorenz at the Max Planck Institute for Behavioural Physiology &ndash; the very same Konrad Lorenz who is himself portrayed in this compass as a Social One (Goose). From there, his research took him across Germany, Sweden, Greece, India, South Africa, Canada, Uruguay, and all the way to Antarctica.</p>
         </blockquote>
 
@@ -432,7 +432,7 @@ export function elvisPresleyPortraitPage() {
 
         <h2 class="vb-section">1. The Camel on Stage</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Camel</strong> is the animal of the sexual Two &ndash; enduring, devoted, able to go beyond its own limits for others. It carries what it has straight to the one person who needs it right now, without calculation, without holding back. In Elvis Presley, this image became a stage presence that electrified an entire generation: he did not sing to an audience, he sang to every single person in it, with an intensity that reached across the room as if no one else existed.</p>
+          <p class="vb-intro">The <strong>Camel</strong> is the animal counterpart of the sexual Two &ndash; enduring, devoted, able to go beyond its own limits for others. It carries what it has straight to the one person who needs it right now, without calculation, without holding back. In Elvis Presley, this image became a stage presence that electrified an entire generation: he did not sing to an audience, he sang to every single person in it, with an intensity that reached across the room as if no one else existed.</p>
           <p class="vb-intro">The American singer Elvis Aaron Presley, born in 1935 in Tupelo, Mississippi, grew up in modest circumstances, closely bonded to his mother Gladys, whose love he described throughout his life as his surest ground. In 1954 he recorded his first songs in Memphis &ndash; and within a few years, a shy young man with an unusual voice became the best-selling solo artist in music history. The camel knows the desert of beginnings. And it still gives everything the moment it is needed.</p>
         </blockquote>
 
@@ -513,7 +513,7 @@ export function fridaKahloPortraitPage() {
 
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal whose eyes, ears, and nostrils sit on a single line along its head, allowing it to submerge almost entirely while remaining awake and connected to the world above the surface. The body rests hidden, protected, nearly motionless &ndash; only what is essential stays visible, alert, present.</p>
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the emblem of the self-preservation Two &ndash; an animal whose eyes, ears, and nostrils sit on a single line along its head, allowing it to submerge almost entirely while remaining awake and connected to the world above the surface. The body rests hidden, protected, nearly motionless &ndash; only what is essential stays visible, alert, present.</p>
           <p class="vb-intro">The Mexican artist Frida Kahlo lived exactly this hiddenness in her own body: at six she contracted polio, at eighteen she survived a bus accident that shattered her spine, pelvis, and right leg &ndash; over thirty operations, corsets, and lifelong pain followed. For long stretches of her life her body was hidden beneath plaster, bandages, and support structures &ndash; visible only what she chose to show: her face, her gaze, her art. Painting became for her exactly that connection between the hidden, wounded body and the wakeful, present surface &ndash; not one artistic choice among several, but the single condition under which her existence could continue at all.</p>
         </blockquote>
 
@@ -1118,7 +1118,7 @@ export function mataHariPortraitPage() {
 
         <h2 class="vb-section">1. The camel that reinvented itself</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>camel</strong> is the animal of the Sexual Two &ndash; an animal that can carry a great deal without putting it on display, and that offers closeness rather than demanding it, turned toward one single companion. Margaretha Geertruida Zelle was born in 1876 in the Netherlands, married the considerably older officer Rudolf MacLeod at eighteen, and followed him to the Dutch colony of the East Indies &ndash; a marriage that quickly proved violent and marked by alcohol. Her son died there, likely from the effects of a syphilis treatment, and the marriage ended in divorce.</p>
+          <p class="vb-intro">The <strong>camel</strong> stands as the animal of the Sexual Two &ndash; an animal that can carry a great deal without putting it on display, and that offers closeness rather than demanding it, turned toward one single companion. Margaretha Geertruida Zelle was born in 1876 in the Netherlands, married the considerably older officer Rudolf MacLeod at eighteen, and followed him to the Dutch colony of the East Indies &ndash; a marriage that quickly proved violent and marked by alcohol. Her son died there, likely from the effects of a syphilis treatment, and the marriage ended in divorce.</p>
           <p class="vb-intro">Out of this failed existence, marked by violence and loss, Zelle built herself an entirely new person in Paris: Mata Hari, supposedly a Javanese priestess, in truth a Dutch merchant's daughter who invented her own costume, origin myth, and stage name in every detail. Not chance, but a deliberately constructed second identity, thought through to the last detail.</p>
         </blockquote>
 
@@ -1187,7 +1187,7 @@ export function moritzBleibtreuPortraitPage() {
 
         <h2 class="vb-section">1. The Gorilla</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>gorilla</strong> is the animal of the Self-Preservation Type 7 &ndash; and it surprises, because at a glance one does not associate it with lightness. The gorilla is powerful, calm, and deeply family-oriented. It lives in a close-knit group, tends its bonds, protects its troop. It does not seek confrontation &ndash; but does not avoid it either, when it matters.</p>
+          <p class="vb-intro">The <strong>gorilla</strong> is the animal counterpart of the Self-Preservation Type 7 &ndash; and it surprises, because at a glance one does not associate it with lightness. The gorilla is powerful, calm, and deeply family-oriented. It lives in a close-knit group, tends its bonds, protects its troop. It does not seek confrontation &ndash; but does not avoid it either, when it matters.</p>
           <p class="vb-intro">The German actor Moritz Bleibtreu, born in 1971 in Munich, son of actor Hans-Peter Bleibtreu, has for over three decades been one of the most versatile faces of German cinema. Few of his generation can point to such a dense, unusually varied body of work &ndash; from comedy to psychological thriller, from historical roles to major international productions.</p>
         </blockquote>
 
@@ -1525,7 +1525,7 @@ export function tracieDHallPortraitPage() {
 
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature that draws its strength from practical, everyday work within concrete communities before taking on greater responsibility. Tracie D. Hall spent years working in public libraries across the United States &ndash; the Seattle Public Library, the New Haven Free Library, the Queens Public Library, and the Hartford Free Public Library &ndash; before rising into a national leadership role.</p>
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the emblem of the self-preservation Two &ndash; a creature that draws its strength from practical, everyday work within concrete communities before taking on greater responsibility. Tracie D. Hall spent years working in public libraries across the United States &ndash; the Seattle Public Library, the New Haven Free Library, the Queens Public Library, and the Hartford Free Public Library &ndash; before rising into a national leadership role.</p>
           <p class="vb-intro">Her academic foundation is as broadly rooted as her practical experience: a master's degree in library and information science from the University of Washington, a master's in International and Area Studies with a focus on Sub-Saharan Africa from Yale, and dual bachelor's degrees in Law and Society and Black Studies from the University of California, Santa Barbara, complemented by periods of study at the Universities of Nairobi and Dar es Salaam.</p>
         </blockquote>
 
@@ -1651,7 +1651,7 @@ export function milarepaPortraitPage() {
 
         <h2 class="vb-section">1. The Octopus Who Shaped Guilt into a Teaching Structure</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>octopus</strong> is the animal of the social Five &ndash; a creature that does not keep its knowledge to itself, but carries it out into the world with many reaching arms at once, until it becomes a system a whole community can carry. No accidental animal for a man whose life began in utter ruin and ended as one of the most influential transmission lineages of Tibetan Buddhism. Milarepa, born Mila Zhepa Dorje into a prosperous family in Kya Ngatsa, lost his father at seven. His uncle and aunt seized the inheritance and forced his mother, sister, and him into field labor like serfs.</p>
+          <p class="vb-intro">The <strong>octopus</strong> is the animal counterpart of the social Five &ndash; a creature that does not keep its knowledge to itself, but carries it out into the world with many reaching arms at once, until it becomes a system a whole community can carry. No accidental animal for a man whose life began in utter ruin and ended as one of the most influential transmission lineages of Tibetan Buddhism. Milarepa, born Mila Zhepa Dorje into a prosperous family in Kya Ngatsa, lost his father at seven. His uncle and aunt seized the inheritance and forced his mother, sister, and him into field labor like serfs.</p>
           <p class="vb-intro">Out of desperation and at his mother's urging, Milarepa learned black magic and killed 35 members of his uncle's family with a conjured hailstorm &ndash; an act of revenge that burdened him with a guilt shaping the rest of his life. No path back to an ordinary life remained conceivable afterward &ndash; only a radical search for a way out of that guilt.</p>
         </blockquote>
 
@@ -1716,7 +1716,7 @@ export function carenMiosgaPortraitPage() {
 
         <h2 class="vb-section">1. The raccoon who asks the questions, instead of putting on the show</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; not a performance for the camera, but quiet, skillful competence that creates its own territory. Caren Miosga, born in 1969 in Ratingen, anchored the "Tagesthemen" news program for over two decades before taking over the prestigious Sunday-evening political talk show slot on Das Erste in 2023, previously held by Anne Will.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> is the emblem of the self-preservation Three &ndash; not a performance for the camera, but quiet, skillful competence that creates its own territory. Caren Miosga, born in 1969 in Ratingen, anchored the "Tagesthemen" news program for over two decades before taking over the prestigious Sunday-evening political talk show slot on Das Erste in 2023, previously held by Anne Will.</p>
           <p class="vb-intro">What stands out about her rise is the absence of any self-promotion: Miosga built her reputation over years inside the news desk, not through media presence beyond the broadcast itself. The raccoon does not rummage in the spotlight &ndash; it patiently gathers what it needs for the next task.</p>
         </blockquote>
 
@@ -1851,7 +1851,7 @@ export function stringerDavisPortraitPage() {
 
         <h2 class="vb-section">1. The Rabbit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Rabbit</strong> is the animal of the self-preservation Six &ndash; watchful, cautious, never the first to expose itself. Stringer Davis embodied this image almost literally: for decades he accompanied his wife <a href="javascript:void(0)" data-route="beruehmte-margaret-rutherford">Margaret Rutherford</a> (SP9w8) in small, often only minutes-long supporting roles in her own films &ndash; never at the center, but always present, always reliably within reach.</p>
+          <p class="vb-intro">The <strong>Rabbit</strong> stands as the animal of the self-preservation Six &ndash; watchful, cautious, never the first to expose itself. Stringer Davis embodied this image almost literally: for decades he accompanied his wife <a href="javascript:void(0)" data-route="beruehmte-margaret-rutherford">Margaret Rutherford</a> (SP9w8) in small, often only minutes-long supporting roles in her own films &ndash; never at the center, but always present, always reliably within reach.</p>
           <p class="vb-intro">The watchful, slightly tense gaze that stands out in photographs of him fits a man who spent his entire professional life in the second row without ever becoming invisible &ndash; the rabbit checks the situation carefully before showing itself, and withdraws again once attention grows too large.</p>
         </blockquote>
 
@@ -2179,7 +2179,7 @@ export function alecBaldwinPortraitPage() {
 
         <h2 class="vb-section">1. The Wolf Who Traded Political Science for the Stage</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>wolf</strong> is the animal of the sexual Six &ndash; an animal that doesn't cope with fear through withdrawal, but through open, sometimes intimidating confrontation. Alec Baldwin, born in 1958 as Alexander Rae Baldwin III in Massapequa, Long Island, grew up with five siblings, three of whom (younger brothers) also became actors. He began studying political science at George Washington University before transferring to New York University and the Lee Strasberg Institute to study acting &ndash; an early break that shows how little an already-chosen, safe path could hold him once a more intense option came into view.</p>
+          <p class="vb-intro">The <strong>wolf</strong> stands as the animal of the sexual Six &ndash; an animal that doesn't cope with fear through withdrawal, but through open, sometimes intimidating confrontation. Alec Baldwin, born in 1958 as Alexander Rae Baldwin III in Massapequa, Long Island, grew up with five siblings, three of whom (younger brothers) also became actors. He began studying political science at George Washington University before transferring to New York University and the Lee Strasberg Institute to study acting &ndash; an early break that shows how little an already-chosen, safe path could hold him once a more intense option came into view.</p>
           <p class="vb-intro">Since the early 1980s, starting on Broadway and in the series "The Doctors," Baldwin has stayed in the business for nearly four decades &ndash; not only because of his range as an actor, but, as observers put it, because of his real, publicly visible personality: outspokenly liberal, occasionally hot-tempered, talk-show guest, podcast host, game-show host, and the most-booked host in the history of "Saturday Night Live."</p>
         </blockquote>
 
@@ -2239,7 +2239,7 @@ export function volkerGerhardtPortraitPage() {
         <h2 class="vb-section">1. The Goose Who Guards Two Works for Decades</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Volker Gerhardt was born in 1944 in Guben and grew up in Hagen, Westphalia. He studied philosophy, psychology, law, and sociology in Frankfurt and Münster, earned his doctorate in 1974, and completed his habilitation in 1984. After a professorship in Münster (from 1985) and a guest professorship in Zurich (1986), he taught philosophy at Humboldt University Berlin from 1992 to 2012, where he continues to serve as senior professor today.</p>
-          <p class="vb-intro">The <strong>goose</strong> is the animal of the social One &ndash; watchful, principled, responsible for the order of a whole rather than for its own stage. Hardly anyone shows this pattern as concretely as Gerhardt: from 2001 to 2023 he chaired the Nietzsche Commission of the Berlin-Brandenburg Academy of Sciences, overseeing the critical complete edition of the work of <a href="javascript:void(0)" data-route="beruehmte-friedrich-nietzsche">Friedrich Nietzsche</a> (SX5w4) for over two decades. In parallel, in 2001 he initiated a new academy edition of Kant's works &ndash; an editorial project planned through 2026, whose chairmanship and project leadership also fell to him.</p>
+          <p class="vb-intro">The <strong>goose</strong> is the animal counterpart of the social One &ndash; watchful, principled, responsible for the order of a whole rather than for its own stage. Hardly anyone shows this pattern as concretely as Gerhardt: from 2001 to 2023 he chaired the Nietzsche Commission of the Berlin-Brandenburg Academy of Sciences, overseeing the critical complete edition of the work of <a href="javascript:void(0)" data-route="beruehmte-friedrich-nietzsche">Friedrich Nietzsche</a> (SX5w4) for over two decades. In parallel, in 2001 he initiated a new academy edition of Kant's works &ndash; an editorial project planned through 2026, whose chairmanship and project leadership also fell to him.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social One: Correctness as a Life's Task, Not a Performance</h2>
@@ -2306,7 +2306,7 @@ export function sigourneyWeaverPortraitPage() {
 
         <h2 class="vb-section">1. The Beaver Who Built Ripley</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>beaver</strong> is the animal of the social Seven: alert, wide-eyed, constantly in motion — but not an animal that drifts, one that builds. A coincidence that hardly feels like one: her surname, <em>Weaver</em>, is a near-homophone of <em>Beaver</em>. Sigourney Weaver, born in 1949 in New York as the daughter of NBC president Pat Weaver and actress Elizabeth Inglis, grew up with a clear lesson from her father: he called show business itself "the racket" — no place for illusions, but a field where you work seriously if you want to create something lasting.</p>
+          <p class="vb-intro">The <strong>beaver</strong> is the emblem of the social Seven: alert, wide-eyed, constantly in motion — but not an animal that drifts, one that builds. A coincidence that hardly feels like one: her surname, <em>Weaver</em>, is a near-homophone of <em>Beaver</em>. Sigourney Weaver, born in 1949 in New York as the daughter of NBC president Pat Weaver and actress Elizabeth Inglis, grew up with a clear lesson from her father: he called show business itself "the racket" — no place for illusions, but a field where you work seriously if you want to create something lasting.</p>
           <p class="vb-intro">After Stanford and a directing degree from the Yale School of Drama, she started with supporting roles until, in 1979, she created Warrant Officer Ellen Ripley in Ridley Scott's "Alien" — a figure the genre hadn't had before: a woman who isn't rescued but survives on her own, built with the same sober care with which a beaver constructs a dam, not through spontaneous heroism.</p>
         </blockquote>
 
@@ -2377,7 +2377,7 @@ export function lorneGreenePortraitPage() {
 
         <h2 class="vb-section">1. The Raccoon</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three – tireless, methodical, and equipped with a security that grows from demonstrable competence rather than loud self-presentation. Lorne Greene, born Lyon Himan Green in Ottawa in 1915, the son of Russian-Jewish immigrants, began his career not as an actor but as a chemistry student who spoke on the side for university radio. That side job grew into one of the most defining voices in Canada.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> is the emblem of the self-preservation Three – tireless, methodical, and equipped with a security that grows from demonstrable competence rather than loud self-presentation. Lorne Greene, born Lyon Himan Green in Ottawa in 1915, the son of Russian-Jewish immigrants, began his career not as an actor but as a chemistry student who spoke on the side for university radio. That side job grew into one of the most defining voices in Canada.</p>
           <p class="vb-intro">During the Second World War, he read the national news as CBC's chief announcer – often the heaviest war reports of the day – with a calm, deep, unshakeable authority that earned him the nickname "The Voice of Doom" from the public. No showmanship, no early meteoric rise as an actor, but the patient building of trustworthiness over years at the microphone – the classic raccoon's path to security.</p>
         </blockquote>
 
@@ -2718,7 +2718,7 @@ export function wolfgangGruppPortraitPage() {
 
         <h2 class="vb-section">1. The Eagle: an entrepreneur's son from Burladingen who saw the business as a duty</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>eagle</strong> is the animal of the self-preservation One: it surveys its territory, checks that everything is in its place and is reluctant to take up the new as long as the proven carries. Wolfgang Grupp was born on 4 April 1942 in Burladingen on the Swabian Alb, the town where the textile company Trigema is based. His father Franz Grupp, son-in-law of the founder Josef Mayer, had taken over the management after the latter's death in the 1950s and was personally liable for the firm's success and failure. Wolfgang Grupp studied business administration in Cologne, joined the management in 1969 and became sole managing director in 1972.</p>
+          <p class="vb-intro">The <strong>eagle</strong> is the animal counterpart of the self-preservation One: it surveys its territory, checks that everything is in its place and is reluctant to take up the new as long as the proven carries. Wolfgang Grupp was born on 4 April 1942 in Burladingen on the Swabian Alb, the town where the textile company Trigema is based. His father Franz Grupp, son-in-law of the founder Josef Mayer, had taken over the management after the latter's death in the 1950s and was personally liable for the firm's success and failure. Wolfgang Grupp studied business administration in Cologne, joined the management in 1969 and became sole managing director in 1972.</p>
           <p class="vb-intro">The path into the family business was thus laid out early. The business and the people who lived from it shaped his working life from the start.</p>
         </blockquote>
 

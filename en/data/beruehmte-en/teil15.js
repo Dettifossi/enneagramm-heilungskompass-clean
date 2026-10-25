@@ -149,7 +149,7 @@ export function astridLindgrenPortraitPage() {
 
         <h2 class="vb-section">1. The Eagle</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eagle</strong> is the animal of the self-preservation One &ndash; it circles high above the fray, sees with unusual clarity what unfolds below, and intervenes only when it truly matters. Not an animal of loud gestures, but of quiet, incorruptible precision. And when it spreads its wings, it carries further than almost any other creature.</p>
+          <p class="vb-intro">The <strong>Eagle</strong> stands as the animal of the self-preservation One &ndash; it circles high above the fray, sees with unusual clarity what unfolds below, and intervenes only when it truly matters. Not an animal of loud gestures, but of quiet, incorruptible precision. And when it spreads its wings, it carries further than almost any other creature.</p>
           <p class="vb-intro">Astrid Lindgren, born in 1907 on the Näs farm near Vimmerby in the Swedish province of Småland, became the most-read Swedish author of all time &ndash; over 165 million books sold, translated into more than 100 languages. And yet she remained remarkably reserved her whole life, almost invisible behind her own work. The Eagle need not circle constantly to be seen. It need only fly correctly once.</p>
         </blockquote>
 
@@ -229,7 +229,7 @@ export function brunoMarsPortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that grows up within a family and learns from an early age to entertain an audience. Bruno Mars was already performing on stage with his family band in Waikiki as a child, long before he became a solo world star &ndash; entertainment was never a goal to reach for him, but an environment he had always been at home in.</p>
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the emblem of the social Two &ndash; an animal that grows up within a family and learns from an early age to entertain an audience. Bruno Mars was already performing on stage with his family band in Waikiki as a child, long before he became a solo world star &ndash; entertainment was never a goal to reach for him, but an environment he had always been at home in.</p>
           <p class="vb-intro">Peter Gene Hernandez was born on October 8, 1985, in Honolulu, Hawaii, the son of a half Puerto Rican, half Jewish father from Brooklyn and a Filipino mother. In 1991, at just six years old, he appeared on The Arsenio Hall Show as an Elvis Presley impersonator &ndash; early proof of how much his sense of self was tied from the start to an audience he wanted to entertain.</p>
         </blockquote>
 
@@ -290,7 +290,7 @@ export function cheyenneOchsenknechtPortraitPage() {
 
         <h2 class="vb-section">1. The Raccoon</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that would rather build a working system than a shop window. It doesn't show off what it can do; it lets the result speak for itself, while the real work quietly continues out of sight. Few people in her own, intensely media-visible family embody this turn as consistently as Cheyenne Ochsenknecht.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal counterpart of the self-preservation Three &ndash; an animal that would rather build a working system than a shop window. It doesn't show off what it can do; it lets the result speak for itself, while the real work quietly continues out of sight. Few people in her own, intensely media-visible family embody this turn as consistently as Cheyenne Ochsenknecht.</p>
           <p class="vb-intro">The German model and farmer Cheyenne Savannah Ochsenknecht was born on January 13, 2000, in Munich, the daughter of Uwe and Natascha Ochsenknecht and younger sister of Wilson Gonzalez and Jimi Blue Ochsenknecht (both SP2w3). At just five, she appeared on camera for <em>Die Wilden Kerle 2</em>; at sixteen, she debuted as a model at Berlin Fashion Week for the label Riani; in 2016, she appeared on the cover of <em>Grazia</em>.</p>
         </blockquote>
 
@@ -625,7 +625,7 @@ export function haraldGloeocklerPortraitPage() {
 
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature that, wherever possible, builds itself a safe, protected territory it can move within, far from outside threat. It does not build its territory quietly, but with a presence that remains visible from far away.</p>
+          <p class="vb-intro">The <strong>Hippopotamus</strong> stands as the animal of the self-preservation Two &ndash; a creature that, wherever possible, builds itself a safe, protected territory it can move within, far from outside threat. It does not build its territory quietly, but with a presence that remains visible from far away.</p>
           <p class="vb-intro">The German fashion designer Harald Glööckler, born May 30, 1965, in Maulbronn-Zaisersweiher, Baden-Württemberg, Germany, grew up in a household he himself has described as traumatic: his father, who ran a restaurant together with his mother, was violent and alcoholic; Glööckler was also sexually abused as a child by a family acquaintance, something he could never speak about in that unstable household. When he was nineteen, his mother died after a fall. Yet already at age seven, inspired by his aunt, a seamstress, young Harald designed his first dress &ndash; a black lace dress with gold-colored lining. The longing for glamour and abundance was born early, in the middle of a childhood that was anything but glamorous.</p>
         </blockquote>
 
@@ -897,7 +897,7 @@ export function katharinaTempelPortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that measures its own happiness by whether it can be useful to others, and that doesn't limit its warmth to a few people but wants to make it available to as many as possible. Dr. Katharina Tempel has turned exactly this drive into a mission: as the "Glücksdetektiv" (happiness detective), she reaches several hundred thousand people every month with scientifically grounded paths to greater wellbeing.</p>
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the symbolic animal of the social Two &ndash; an animal that measures its own happiness by whether it can be useful to others, and that doesn't limit its warmth to a few people but wants to make it available to as many as possible. Dr. Katharina Tempel has turned exactly this drive into a mission: as the "Glücksdetektiv" (happiness detective), she reaches several hundred thousand people every month with scientifically grounded paths to greater wellbeing.</p>
           <p class="vb-intro">Katharina Tempel was born in June 1984, studied psychology, and earned her doctorate with a dissertation on exercises to increase wellbeing, for which she conducted a study involving more than 1,500 participants. Even her academic work was aimed at something beyond her own career: creating a solid, widely usable body of knowledge.</p>
         </blockquote>
 
@@ -1159,7 +1159,7 @@ export function mickyBeisenherzPortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that warms every room and doesn't wait to be asked, but volunteers what matters right now. Micky Beisenherz built an entire career out of exactly this drive: as one of the most-listened-to voices in German-language news podcasting, guiding millions of people through world events every day.</p>
+          <p class="vb-intro">The <strong>Golden Retriever</strong> stands as the animal of the social Two &ndash; an animal that warms every room and doesn't wait to be asked, but volunteers what matters right now. Micky Beisenherz built an entire career out of exactly this drive: as one of the most-listened-to voices in German-language news podcasting, guiding millions of people through world events every day.</p>
           <p class="vb-intro">Michael Beisenherz was born on June 28, 1977, in Recklinghausen and grew up in Castrop-Rauxel as the son of a master plumber. After graduating high school he studied social sciences in Bochum for one semester, then spent a year working construction before an internship at a local radio station led him to Radio NRW &ndash; a path that didn't lead straight to the stage, but took detours that kept him grounded.</p>
         </blockquote>
 
@@ -1292,7 +1292,7 @@ export function peterGabrielPortraitPage() {
 
         <h2 class="vb-section">1. The Dove</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>dove</strong> is the animal of the Self-Preservation Four – it does not put its depth on loud display, but processes it in persistent, often years-long withdrawal. Peter Gabriel was born in 1950 in Woking, England, sang as a child in the church choir, and learned drums before forming a band with schoolmates Tony Banks and Mike Rutherford at Charterhouse School – the group that became Genesis in 1967. Out of this sheltered, middle-class upbringing came not a loud self-promoter but a brooding, introverted young man who first processed his inner world mainly through song lyrics.</p>
+          <p class="vb-intro">The <strong>dove</strong> is the emblem of the Self-Preservation Four – it does not put its depth on loud display, but processes it in persistent, often years-long withdrawal. Peter Gabriel was born in 1950 in Woking, England, sang as a child in the church choir, and learned drums before forming a band with schoolmates Tony Banks and Mike Rutherford at Charterhouse School – the group that became Genesis in 1967. Out of this sheltered, middle-class upbringing came not a loud self-promoter but a brooding, introverted young man who first processed his inner world mainly through song lyrics.</p>
           <p class="vb-intro">Only over the years did this quiet depth grow into a wholly distinctive stage presence – a pattern that recurs again and again in the Self-Preservation Four: it is rarely the spotlight itself that the Four seeks out, but the need to make complex inner images communicable at all that eventually, almost inevitably, drives them onto the stage.</p>
         </blockquote>
 
@@ -1713,7 +1713,7 @@ export function jeanPaulSartrePortraitPage() {
 
         <h2 class="vb-section">1. The Chihuahua With the Wandering Gaze</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Chihuahua</strong> is the animal of the sexual Four &ndash; small in stature, but carrying an intensity wildly out of proportion to its size, and a wariness that never quite lets it rest. At age three, Sartre fell severely ill with the flu, which left a scar on the cornea of his right eye and rendered him nearly blind in it &ndash; over the years, the blind eye visibly drifted outward, giving him the distinctive strabismus that later became his unmistakable trademark.</p>
+          <p class="vb-intro">The <strong>Chihuahua</strong> is the emblem of the sexual Four &ndash; small in stature, but carrying an intensity wildly out of proportion to its size, and a wariness that never quite lets it rest. At age three, Sartre fell severely ill with the flu, which left a scar on the cornea of his right eye and rendered him nearly blind in it &ndash; over the years, the blind eye visibly drifted outward, giving him the distinctive strabismus that later became his unmistakable trademark.</p>
           <p class="vb-intro">Born in 1905 in Paris, an only child, Sartre lost his father in infancy and grew up in his maternal grandfather's house, surrounded by books and intellectual expectation. Even as a child, he developed the conviction that he was no ordinary child &ndash; a perception his wandering gaze only reinforced. The Chihuahua, whose appearance set him apart from others, early made that difference a source of inner meaning.</p>
         </blockquote>
 
@@ -1919,7 +1919,7 @@ export function matthewMcConaugheyPortraitPage() {
 
         <h2 class="vb-section">1. The peacock that completely re-unfolded its own image</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>peacock</strong> is the animal of the sexual Type 3 – immediate, magnetic presence that resists calculation. In the 1990s and 2000s, Matthew McConaughey became the epitome of the charming romantic-comedy star, before completely reinventing himself from around 2011 with serious, physically radical roles – including losing over forty pounds for "Dallas Buyers Club."</p>
+          <p class="vb-intro">The <strong>peacock</strong> is the symbolic animal of the sexual Type 3 – immediate, magnetic presence that resists calculation. In the 1990s and 2000s, Matthew McConaughey became the epitome of the charming romantic-comedy star, before completely reinventing himself from around 2011 with serious, physically radical roles – including losing over forty pounds for "Dallas Buyers Club."</p>
           <p class="vb-intro">This transformation, dubbed the "McConaissance," earned him the 2014 Best Actor Oscar and shows exemplarily how completely this subtype can re-present itself without losing its own presence in the process.</p>
         </blockquote>
 
@@ -2115,7 +2115,7 @@ export function oleNymoenPortraitPage() {
 
         <h2 class="vb-section">1. The Armadillo That Analyzed Against the Current</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four: it doesn't seek its meaning in hiding but in a deliberately unadapted position within the community it feels it belongs to. Ole Nymoen was born in 1998 in Berlin, first completing training as a media designer at Rundfunk Berlin-Brandenburg before studying economics and sociology at Friedrich Schiller University Jena.</p>
+          <p class="vb-intro">The <strong>armadillo</strong> stands as the animal of the social Four: it doesn't seek its meaning in hiding but in a deliberately unadapted position within the community it feels it belongs to. Ole Nymoen was born in 1998 in Berlin, first completing training as a media designer at Rundfunk Berlin-Brandenburg before studying economics and sociology at Friedrich Schiller University Jena.</p>
           <p class="vb-intro">Instead of aligning himself with one of the established schools of economics, he oriented himself toward the Marxist theoretical framework of the journal "GegenStandpunkt" – a deliberately marginal, intellectually uncompromising position within his own field.</p>
         </blockquote>
 
@@ -2379,7 +2379,7 @@ export function ulrichOttPortraitPage() {
 
         <h2 class="vb-section">1. The Meerkat</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>meerkat</strong> is the animal of the social Six – vigilant, cooperative, constantly making sure the group stands on solid ground before anything is treated as established fact. Ulrich Ott studied psychology at Goethe University Frankfurt (diploma 1996) and earned his doctorate there in 2000 with a dissertation on 40 Hz EEG activity at rest, during mental arithmetic, and during meditation – an early, methodologically rigorous approach to a topic that lay outside established academic paths at the time.</p>
+          <p class="vb-intro">The <strong>meerkat</strong> stands as the animal of the social Six – vigilant, cooperative, constantly making sure the group stands on solid ground before anything is treated as established fact. Ulrich Ott studied psychology at Goethe University Frankfurt (diploma 1996) and earned his doctorate there in 2000 with a dissertation on 40 Hz EEG activity at rest, during mental arithmetic, and during meditation – an early, methodologically rigorous approach to a topic that lay outside established academic paths at the time.</p>
           <p class="vb-intro">From 1998 to 2005 he worked at the Institute of Psychobiology and Behavioral Medicine at the University of Giessen; since 2005 he has held a permanent position at the Institute for Frontier Areas of Psychology and Mental Health (IGPP) in Freiburg, while also leading the "Altered States of Consciousness" working group at the Bender Institute of Neuroimaging (BION) at the University of Giessen. Over two decades at the same, clearly located institutions rather than shifting affiliations – a first signal of the social Six.</p>
         </blockquote>
 
@@ -2586,7 +2586,7 @@ export function ilkaBessinPortraitPage() {
         <h2 class="vb-section">1. The gorilla who built herself a pink suit of armor out of welfare</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Ilka Bessin was born on 18 November 1971 in Luckenwalde in what was then East Germany, trained as a cook and later worked as an entertainment host on cruise ships, before inventing her stage persona Cindy aus Marzahn around 1999/2000: a pink-clad, loud, dirt-poor long-term unemployed woman from East Berlin, who skewers welfare offices and her own body with unsparing East–West sarcasm. In 2004 Bessin won the final season of ProSieben's ›Quatsch Comedy Club‹ talent contest with this character – the breakthrough after years on cruise ships and small-venue entertainment circuits.</p>
-          <p class="vb-intro">The <strong>gorilla</strong> is the animal of the self-preservation Seven: a body that becomes its own stage, that knows no quiet restraint but takes up what it needs – attention, laughter, material security – with full physical presence. Bessin built, out of a real experience of scarcity (she later spoke openly about her own years of unemployment and financial hardship), a stage character that turned exactly that vulnerability into quick-witted, outward-directed comedy – protection through exaggeration rather than concealment.</p>
+          <p class="vb-intro">The <strong>gorilla</strong> stands as the animal of the self-preservation Seven: a body that becomes its own stage, that knows no quiet restraint but takes up what it needs – attention, laughter, material security – with full physical presence. Bessin built, out of a real experience of scarcity (she later spoke openly about her own years of unemployment and financial hardship), a stage character that turned exactly that vulnerability into quick-witted, outward-directed comedy – protection through exaggeration rather than concealment.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The self-preservation Seven: pleasure and security through abundance, not abstinence</h2>

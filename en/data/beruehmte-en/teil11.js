@@ -84,7 +84,7 @@ export function alexanderBommesPortraitPage() {
 
         <h2 class="vb-section">1. The Beaver</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Beaver</strong> is the animal of the social Seven &ndash; it doesn't build for itself alone, but creates structures and formats that serve a broad public, and it's rarely satisfied with just one project. Alexander Bommes has hosted several regular television formats in parallel for years &ndash; a restless simultaneity that reflects exactly this beaver nature.</p>
+          <p class="vb-intro">The <strong>Beaver</strong> is the animal counterpart of the social Seven &ndash; it doesn't build for itself alone, but creates structures and formats that serve a broad public, and it's rarely satisfied with just one project. Alexander Bommes has hosted several regular television formats in parallel for years &ndash; a restless simultaneity that reflects exactly this beaver nature.</p>
           <p class="vb-intro">Alexander Bommes was born on January 21, 1976, in Kiel, and played handball from a young age, first in his hometown club's second-division team, then from 1999 in Germany's top handball league for TSV Bayer Dormagen and from 2001 for VfL Gummersbach. Alongside his active sports career, he began studying law in Kiel in 1997 &ndash; pursuing two demanding paths at once was, for him, never a contradiction but the normal state of affairs.</p>
         </blockquote>
 
@@ -478,7 +478,7 @@ export function evaPeronPortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever from the Provinces</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; devoted, irresistibly driven to be needed, ready to give everything for the pack it feels it belongs to. Few biographies show this as uncompromisingly as that of Eva Duarte, born in 1919 as the illegitimate daughter of a family of modest means in Los Toldos, a provincial Argentine town. At fifteen she moved to Buenos Aires to become an actress &ndash; not out of pure vanity, but out of a deep need to be seen and needed, in a city that barely noticed a penniless young woman at first.</p>
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the emblem of the social Two &ndash; devoted, irresistibly driven to be needed, ready to give everything for the pack it feels it belongs to. Few biographies show this as uncompromisingly as that of Eva Duarte, born in 1919 as the illegitimate daughter of a family of modest means in Los Toldos, a provincial Argentine town. At fifteen she moved to Buenos Aires to become an actress &ndash; not out of pure vanity, but out of a deep need to be seen and needed, in a city that barely noticed a penniless young woman at first.</p>
           <p class="vb-intro">In 1944 she met Colonel Juan Domingo Perón at a charity event for earthquake victims &ndash; a meeting that would prove symbolic of her entire subsequent life: caring for others as the very place where her own fate was decided. The Golden Retriever had found its pack &ndash; and with it a stage on which devotion and self-presentation no longer stood in contradiction.</p>
         </blockquote>
 
@@ -610,7 +610,7 @@ export function hannahEmdePortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two, a creature that does not treat connection as a task but as its very nature. Friendly, engaged, with a warmth that leaves no one out. The Golden Retriever does not push itself forward, but it is there the moment it's needed – and when things get serious, remarkable stamina and readiness show up behind the warmth.</p>
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the emblem of the social Two, a creature that does not treat connection as a task but as its very nature. Friendly, engaged, with a warmth that leaves no one out. The Golden Retriever does not push itself forward, but it is there the moment it's needed – and when things get serious, remarkable stamina and readiness show up behind the warmth.</p>
           <p class="vb-intro">The German veterinarian and TV host Hannah Emde, born in 1992 in Bonn, embodies exactly this image: after finishing school, she spent twelve months in the Philippines through the volunteer program weltwärts, then studied veterinary medicine at the University of Veterinary Medicine Hannover, graduating as a licensed veterinarian in 2019. Anyone following her path sees not a straightforward TV career, but a biography that placed itself, step by step, in service of something larger.</p>
         </blockquote>
 
@@ -678,7 +678,7 @@ export function hughGrantPortraitPage() {
 
         <h2 class="vb-section">1. The Armadillo with the Stammering Charm</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four &ndash; a creature that does not hide its difference but wears it visibly on its skin. Unlike its more introverted counterparts, this Four does not retreat into its own shell but turns it into a signature trademark &ndash; as proof of its own uniqueness, on a stage everyone can see.</p>
+          <p class="vb-intro">The <strong>armadillo</strong> is the emblem of the social Four &ndash; a creature that does not hide its difference but wears it visibly on its skin. Unlike its more introverted counterparts, this Four does not retreat into its own shell but turns it into a signature trademark &ndash; as proof of its own uniqueness, on a stage everyone can see.</p>
           <p class="vb-intro">The British actor Hugh Grant was born in 1960 in London, studied English Literature at Oxford, and was already performing on stage there before tentatively turning to film. His international breakthrough came only in 1994, in his mid-thirties, in "Four Weddings and a Funeral" &ndash; a role that defined one very specific character: the charmingly stammering, perpetually apologizing Englishman who can barely finish a sentence for sheer self-doubt. That one, unmistakable nuance became his trademark &ndash; and the blueprint for his entire early career.</p>
         </blockquote>
 
@@ -886,7 +886,7 @@ export function kamalaHarrisPortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two, a creature that seeks belonging by committing itself to the community. Friendly, engaged, oriented toward connection. The Golden Retriever wants to be needed, not by one person, but by many. It runs ahead, looks back, gathers the group. And when things get tough, it becomes clear that behind the warmth lies a tenacious will.</p>
+          <p class="vb-intro">The <strong>Golden Retriever</strong> stands as the animal of the social Two, a creature that seeks belonging by committing itself to the community. Friendly, engaged, oriented toward connection. The Golden Retriever wants to be needed, not by one person, but by many. It runs ahead, looks back, gathers the group. And when things get tough, it becomes clear that behind the warmth lies a tenacious will.</p>
           <p class="vb-intro">The American politician Kamala Harris, born in 1964 in Oakland as the daughter of an Indian cancer researcher and a Jamaican economist, grew up in a household shaped by civil rights activism, her mother took her to demonstrations as a toddler. That early imprint became a career that circled almost without interruption around a single question: how can I become effective for the community?</p>
         </blockquote>
 
@@ -1032,7 +1032,7 @@ export function lisaAntoniPortraitPage() {
 
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal that unfolds its full strength wherever it feels safe and rooted. Lisa Antoni, born and raised in Vienna, found that secure ground in Viennese musical theatre – her first major role as Mary Vetsera in the German-language premiere of <em>Rudolf – Affaire Mayerling</em> became the starting point of a career that stayed closely tied to her home city.</p>
+          <p class="vb-intro">The <strong>Hippopotamus</strong> stands as the animal of the self-preservation Two &ndash; an animal that unfolds its full strength wherever it feels safe and rooted. Lisa Antoni, born and raised in Vienna, found that secure ground in Viennese musical theatre – her first major role as Mary Vetsera in the German-language premiere of <em>Rudolf – Affaire Mayerling</em> became the starting point of a career that stayed closely tied to her home city.</p>
           <p class="vb-intro">The cast recording of that production reached platinum status in Austria – an early, concrete sign that Antoni's voice and presence reached a broad audience, long before she became one of the most sought-after musical theatre performers in the German-speaking world.</p>
         </blockquote>
 
@@ -1162,7 +1162,7 @@ export function michaelJacksonPortraitPage() {
 
         <h2 class="vb-section">1. The Armadillo</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Type 4 &ndash; armored on the outside, soft within. Hardly any image fits Michael Jackson more precisely: an artist who appeared untouchable on stage &ndash; flawlessly choreographed, wrapped in glittering costumes, hidden behind a mask of perfection &ndash; and who, in interviews, repeatedly spoke of profound loneliness.</p>
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal counterpart of the social Type 4 &ndash; armored on the outside, soft within. Hardly any image fits Michael Jackson more precisely: an artist who appeared untouchable on stage &ndash; flawlessly choreographed, wrapped in glittering costumes, hidden behind a mask of perfection &ndash; and who, in interviews, repeatedly spoke of profound loneliness.</p>
           <p class="vb-intro">No musician of the twentieth century redefined pop culture as completely. And hardly any musician spoke as openly, at the same time, about feeling like an outsider &ndash; within his own family, within his own fame, within his own skin. The armadillo shows the world its armor. What lies beneath it, it shows almost no one.</p>
         </blockquote>
 
@@ -1309,7 +1309,7 @@ export function paulGauguinPortraitPage() {
 
         <h2 class="vb-section">1. The Crocodile</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>crocodile</strong> is the animal of the Sexual Type 8 – it does not wait to see whether a territory is owed to it, it takes it. Paul Gauguin lived exactly by that principle: at thirty-six, without hesitation, he left a secure bourgeois career, his wife, and five children to devote himself entirely to painting – not a gradual transition, but a single, decisive cut. In established Enneagram literature, Gauguin is usually classified as a Four, the romantically suffering, misunderstood artist. His actual behavior, however – the uncompromising conquest of new territory, the cool boundary-setting toward closeness, the open defiance of every authority right up to his death – paints the picture of a Sexual Eight with a Seven-wing.</p>
+          <p class="vb-intro">The <strong>crocodile</strong> is the animal counterpart of the Sexual Type 8 – it does not wait to see whether a territory is owed to it, it takes it. Paul Gauguin lived exactly by that principle: at thirty-six, without hesitation, he left a secure bourgeois career, his wife, and five children to devote himself entirely to painting – not a gradual transition, but a single, decisive cut. In established Enneagram literature, Gauguin is usually classified as a Four, the romantically suffering, misunderstood artist. His actual behavior, however – the uncompromising conquest of new territory, the cool boundary-setting toward closeness, the open defiance of every authority right up to his death – paints the picture of a Sexual Eight with a Seven-wing.</p>
           <p class="vb-intro">What the crocodile seizes, it holds onto. What it no longer wants, it drops without looking back. Gauguin's life – from the Paris stock exchange floor through provincial Brittany, Panama, Arles, and finally the South Seas – reads like a chain of exactly such seizures and such abrupt breaks.</p>
         </blockquote>
 
@@ -1532,7 +1532,7 @@ export function teresaVonAvilaPortraitPage() {
 
         <h2 class="vb-section">1. The Cheetah Who Founded a Realm of Convents</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>cheetah</strong> is the animal of the social Three &ndash; the fastest animal on earth, built for visible, undeniable success. Few historical figures outside politics or the stage embody this pattern as vividly as Teresa of Ávila. With chronically fragile health, in an era when women were barely permitted to appear in public at all, she built a network of seventeen reformed convents across Spain within two decades &ndash; an institutional achievement that even healthy men of her time would have struggled to match.</p>
+          <p class="vb-intro">The <strong>cheetah</strong> is the emblem of the social Three &ndash; the fastest animal on earth, built for visible, undeniable success. Few historical figures outside politics or the stage embody this pattern as vividly as Teresa of Ávila. With chronically fragile health, in an era when women were barely permitted to appear in public at all, she built a network of seventeen reformed convents across Spain within two decades &ndash; an institutional achievement that even healthy men of her time would have struggled to match.</p>
           <p class="vb-intro">The Spanish mystic Teresa of Ávila, born in 1515 in Ávila, the daughter of a wealthy merchant family with Jewish roots, entered the Carmelite order at twenty against her father's wishes. But ordinary convent life soon wasn't enough for her. She didn't want merely to be a nun &ndash; she wanted to renew the order, visibly, tangibly, irrefutably. The cheetah does not stay back with the pack. It sprints ahead while others keep to their accustomed pace.</p>
         </blockquote>
 
@@ -1750,7 +1750,7 @@ export function albertoMariniPortraitPage() {
 
         <h2 class="vb-section">1. The Rabbit That Built Itself a New Home</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>rabbit</strong> is the animal of the self-preservation Six &ndash; watchful, adaptable, searching for a reliable place where it can put down roots. Alberto Marini, born 1972 in Turin, moved to Barcelona in 1999 &ndash; and stayed. For over a quarter century, the Catalan city became his true creative home, the base from which he established himself as a screenwriter in Spanish genre cinema, far from his Italian origins.</p>
+          <p class="vb-intro">The <strong>rabbit</strong> is the animal counterpart of the self-preservation Six &ndash; watchful, adaptable, searching for a reliable place where it can put down roots. Alberto Marini, born 1972 in Turin, moved to Barcelona in 1999 &ndash; and stayed. For over a quarter century, the Catalan city became his true creative home, the base from which he established himself as a screenwriter in Spanish genre cinema, far from his Italian origins.</p>
           <p class="vb-intro">It is no accident that precisely the close, familiar territory became the central motif of his best-known work: an apartment building under quarantine, a flat someone sneaks into at night, a city that turns threatening the moment the familiar is no longer safe. The rabbit that knows exactly how fragile security can be, once it has been breached.</p>
         </blockquote>
 
@@ -1816,7 +1816,7 @@ export function helmutSchmidtPortraitPage() {
 
         <h2 class="vb-section">1. The Goose That Held Formation in the Storm</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>goose</strong> is the animal of the social One — orderly, disciplined, with an unerring sense of how something ought to be done correctly, and ready to take responsibility within its own formation the moment it matters. Helmut Schmidt, born in 1918 in Hamburg, became a defining figure of postwar West German history in exactly such moments: as Hamburg's Interior Senator during the storm surge of February 1962, when he mobilized and coordinated roughly 40,000 helpers within a few hours — and, as he later admitted himself, "knowingly and willingly" violated the Basic Law by requesting Bundeswehr units without any legal basis, because the situation allowed no delay.</p>
+          <p class="vb-intro">The <strong>goose</strong> stands as the animal of the social One — orderly, disciplined, with an unerring sense of how something ought to be done correctly, and ready to take responsibility within its own formation the moment it matters. Helmut Schmidt, born in 1918 in Hamburg, became a defining figure of postwar West German history in exactly such moments: as Hamburg's Interior Senator during the storm surge of February 1962, when he mobilized and coordinated roughly 40,000 helpers within a few hours — and, as he later admitted himself, "knowingly and willingly" violated the Basic Law by requesting Bundeswehr units without any legal basis, because the situation allowed no delay.</p>
           <p class="vb-intro">From 1974 to 1982 he served as Chancellor of the Federal Republic of Germany — a term marked by economic crises, RAF terrorism, and pivotal security-policy decisions, during which he definitively earned his reputation as the unflappable crisis manager.</p>
         </blockquote>
 
@@ -1892,7 +1892,7 @@ export function rupertSpiraPortraitPage() {
 
         <h2 class="vb-section">1. The beaver that never stopped building</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>beaver</strong> is the animal of the social Type 7 – Naranjo's counter-type of the Seven: restless building in service of the community, never truly finished, never in the name of one's own enjoyment. Rupert Spira began his career as a celebrated ceramic artist, with works held in major collections such as London's Victoria and Albert Museum – before devoting himself entirely to teaching non-dual wisdom (Advaita Vedanta).</p>
+          <p class="vb-intro">The <strong>beaver</strong> is the emblem of the social Type 7 – Naranjo's counter-type of the Seven: restless building in service of the community, never truly finished, never in the name of one's own enjoyment. Rupert Spira began his career as a celebrated ceramic artist, with works held in major collections such as London's Victoria and Albert Museum – before devoting himself entirely to teaching non-dual wisdom (Advaita Vedanta).</p>
           <p class="vb-intro">For decades he has held retreats, written books, led dialogues, and released videos – a body of work never considered finished, but constantly continuing into new formats and formulations, hardly has one question been exhaustively addressed.</p>
         </blockquote>
 
@@ -2292,7 +2292,7 @@ export function corneliaFunkePortraitPage() {
 
         <h2 class="vb-section">1. The Goose Who Served Before She Told Stories</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Goose</strong> is the animal of the social One – disciplined, reliable, with a clear sense of what its own formation and the wider community need. Cornelia Funke, born 1958 in Dorsten, did not begin her professional path as a writer, but as a trained social education worker: after her studies, she worked as a social worker at the Tegelsbarg adventure playground in Hamburg, with children who often had it hard in life.</p>
+          <p class="vb-intro">The <strong>Goose</strong> is the emblem of the social One – disciplined, reliable, with a clear sense of what its own formation and the wider community need. Cornelia Funke, born 1958 in Dorsten, did not begin her professional path as a writer, but as a trained social education worker: after her studies, she worked as a social worker at the Tegelsbarg adventure playground in Hamburg, with children who often had it hard in life.</p>
           <p class="vb-intro">Only as a side project, while studying book illustration in parallel, did she begin illustrating other authors' children's stories – and discovered along the way that she didn't much like the stories that went with her own pictures. At 28, she became a freelance author and illustrator in one; her first self-illustrated children's book, "The Great Dragon Search," appeared in 1988.</p>
         </blockquote>
 
@@ -2565,7 +2565,7 @@ export function olafSchubertPortraitPage() {
         <h2 class="vb-section">1. The goose in the argyle vest</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Olaf Schubert is the stage persona of comedian Michael Haubold, born in 1967 in Plauen in the Vogtland region, who invented the character in 1995 on small cabaret stages in Saxony. His trademarks are a knitted argyle vest, a distinctive combed-over hairstyle, and a stage character who describes himself as a ›world improver and humorist‹ and a ›miracle in a vest‹. National breakthrough came through appearances in the ›Quatsch Comedy Club‹ and regular contributions to ZDF's satirical news show heute-show, which established Schubert over the years as a fixed satirical voice.</p>
-          <p class="vb-intro">The <strong>goose</strong> is the animal of the social One: it watches over the community, calls for order, loudly and unmistakably draws attention to what is going wrong – but as a herd animal, not a lone fighter. Schubert's comic stance is exactly this: he does not present himself as a cynical outsider, but as someone explicitly and seriously devoted to the common good – only with a method that goes completely sideways the moment it hits the stage.</p>
+          <p class="vb-intro">The <strong>goose</strong> is the emblem of the social One: it watches over the community, calls for order, loudly and unmistakably draws attention to what is going wrong – but as a herd animal, not a lone fighter. Schubert's comic stance is exactly this: he does not present himself as a cynical outsider, but as someone explicitly and seriously devoted to the common good – only with a method that goes completely sideways the moment it hits the stage.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The social One: the declared world improver as comic principle</h2>

@@ -81,7 +81,7 @@ export function ayoEdebiriPortraitPage() {
 
         <h2 class="vb-section">1. Der Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; ein Tier, das seine Energie zunächst in den Dienst anderer stellt, bevor es selbst ins Rampenlicht tritt. Ayo Edebiri begann ihren beruflichen Weg nicht auf der Bühne, sondern im Klassenzimmer: An der New York University studierte sie zunächst Lehramt, bevor sie zum Dramatischen Schreiben wechselte – eine frühe Entscheidung für das Vermitteln und Fördern anderer, die sich später in anderer Form fortsetzte.</p>
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Sinnbild der sozialen Zwei &ndash; ein Tier, das seine Energie zunächst in den Dienst anderer stellt, bevor es selbst ins Rampenlicht tritt. Ayo Edebiri begann ihren beruflichen Weg nicht auf der Bühne, sondern im Klassenzimmer: An der New York University studierte sie zunächst Lehramt, bevor sie zum Dramatischen Schreiben wechselte – eine frühe Entscheidung für das Vermitteln und Fördern anderer, die sich später in anderer Form fortsetzte.</p>
           <p class="vb-intro">Ayo Edebiri wurde am 3. Oktober 1995 in Boston geboren, als Tochter einer Mutter aus Barbados und eines Vaters aus Nigeria, und wuchs in einem pfingstkirchlichen Haushalt in Dorchester auf. Über den Dramaunterricht in der achten Klasse fand sie zur Comedy und trat der Improv-Gruppe ihrer High School bei – ein erster, kollektiver Schritt in eine Karriere, die von Beginn an auf Zusammenarbeit statt Alleingang setzte.</p>
         </blockquote>
 
@@ -142,7 +142,7 @@ export function brynKenneyPortraitPage() {
 
         <h2 class="vb-section">1. Der Waschbär</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier mit ruhigen Pfoten und wachen Augen, das am Pokertisch niemand fürchtet, bis es zu spät ist. Es blufft nicht durch Lautstärke, sondern durch die schiere Präzision seiner Bewegungen: Während andere Tiere um Aufmerksamkeit buhlen, sammelt der Waschbär in aller Stille genau die Informationen, die am Ende den Unterschied machen.</p>
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist die tierische Entsprechung der selbsterhaltenden Drei &ndash; ein Tier mit ruhigen Pfoten und wachen Augen, das am Pokertisch niemand fürchtet, bis es zu spät ist. Es blufft nicht durch Lautstärke, sondern durch die schiere Präzision seiner Bewegungen: Während andere Tiere um Aufmerksamkeit buhlen, sammelt der Waschbär in aller Stille genau die Informationen, die am Ende den Unterschied machen.</p>
           <p class="vb-intro">Der US-amerikanische Profi-Pokerspieler Bryn Kenney wurde 1986 in Long Beach, New York, geboren und spielte als Jugendlicher wettkampfmäßig das Strategiekartenspiel Magic: The Gathering &ndash; ein analytisches, tief taktisches Spiel, das seine spätere Herangehensweise an Poker entscheidend prägte. Mit sechzehn begann er, online Poker zu spielen, lange bevor ihn irgendjemand kannte, und erkannte früh, dass er damit sein Geld verdienen konnte. Seinen ersten größeren Live-Gewinn erzielte er 2007 &ndash; Jahre stiller, weitgehend unbeachteter Übung, bevor die Öffentlichkeit von ihm erfuhr.</p>
         </blockquote>
 
@@ -357,7 +357,7 @@ export function drewBarrymorePortraitPage() {
 
         <h2 class="vb-section">1. Der Biber</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier des sozialen Typs 7 &ndash; ein Baumeister, der Katastrophen \u00fcbersteht, weil er st\u00e4ndig weiterbaut. F\u00e4llt ein Damm ein, beginnt der Biber sofort von Neuem, ohne lange innezuhalten. Er arbeitet nicht f\u00fcr sich allein, sondern f\u00fcr ein ganzes \u00d6kosystem, das von seiner Konstruktion abh\u00e4ngt.</p>
+          <p class="vb-intro">Der <strong>Biber</strong> gilt als das Tier des sozialen Typs 7 &ndash; ein Baumeister, der Katastrophen \u00fcbersteht, weil er st\u00e4ndig weiterbaut. F\u00e4llt ein Damm ein, beginnt der Biber sofort von Neuem, ohne lange innezuhalten. Er arbeitet nicht f\u00fcr sich allein, sondern f\u00fcr ein ganzes \u00d6kosystem, das von seiner Konstruktion abh\u00e4ngt.</p>
           <p class="vb-intro">Die US-amerikanische Schauspielerin Drew Barrymore, geboren 1975 in Los Angeles als Spross der legend\u00e4ren Schauspielerdynastie Barrymore, ist dieser Biber. Mit sieben Jahren wurde sie durch ihre Rolle als Gertie in <em>E.T. &ndash; Der Au\u00dferirdische</em> (1982) weltber\u00fchmt &ndash; und st\u00fcrzte anschlie\u00dfend in eine der \u00f6ffentlichsten Kindheitskrisen Hollywoods. Doch statt daran zu zerbrechen, baute sie ihr Leben immer wieder neu auf: als Schauspielerin, als Unternehmerin, als eine der erfolgreichsten Produzentinnen ihrer Generation, und schlie\u00dflich als eine der beliebtesten Talkshow-Moderatorinnen Amerikas.</p>
         </blockquote>
 
@@ -490,7 +490,7 @@ export function gerhardSchroederPortraitPage() {
 
         <h2 class="vb-section">1. Das Krokodil im Anzug</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Krokodil</strong> ist das Tier der sexuellen Acht &ndash; lauernd, kraftvoll, im entscheidenden Moment blitzschnell zuschnappend. Es teilt sein Revier mit niemandem und misst seine Kraft im direkten, unmittelbaren Duell &ndash; nicht durch langsame Strategie, sondern durch den einen entscheidenden Biss zur richtigen Zeit.</p>
+          <p class="vb-intro">Das <strong>Krokodil</strong> ist das Sinnbild der sexuellen Acht &ndash; lauernd, kraftvoll, im entscheidenden Moment blitzschnell zuschnappend. Es teilt sein Revier mit niemandem und misst seine Kraft im direkten, unmittelbaren Duell &ndash; nicht durch langsame Strategie, sondern durch den einen entscheidenden Biss zur richtigen Zeit.</p>
           <p class="vb-intro">Der deutsche Politiker Gerhard Schr\u00f6der wurde 1944 in Mossenberg (Lippe) geboren, wenige Wochen vor dem Kriegstod seines Vaters, den er nie kennenlernte. Er wuchs in \u00e4rmlichen Verh\u00e4ltnissen auf, arbeitete fr\u00fch in einem Eisenwarengesch\u00e4ft, holte \u00fcber den zweiten Bildungsweg Abitur und Jurastudium nach. Der Aufstieg vom Arbeiterkind zum Bundeskanzler war f\u00fcr ihn selbst stets Teil seiner politischen Erz\u00e4hlung &ndash; ein Beweis daf\u00fcr, dass Wille und Kampfkraft Herkunft \u00fcberwinden k\u00f6nnen. Als Jusochef lie\u00df er sich 1982 vor dem Kanzleramtszaun fotografieren, die H\u00e4nde am Gitter, mit dem Satz: &bdquo;Ich will da rein.&ldquo; Ein Bild, das seine ganze Instinktausrichtung vorwegnahm.</p>
         </blockquote>
 
@@ -565,7 +565,7 @@ export function harnaamKaurPortraitPage() {
 
         <h2 class="vb-section">1. Das Flusspferd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, dessen Erscheinung von außen sofort auffällt und das dennoch fest in seinem eigenen Körper, seinem eigenen Element ruht. Es verteidigt nicht nur sein Revier, sondern vor allem seine physische Integrität &ndash; mit einer Selbstverständlichkeit, die keine Erklärung braucht.</p>
+          <p class="vb-intro">Das <strong>Flusspferd</strong> gilt als das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, dessen Erscheinung von außen sofort auffällt und das dennoch fest in seinem eigenen Körper, seinem eigenen Element ruht. Es verteidigt nicht nur sein Revier, sondern vor allem seine physische Integrität &ndash; mit einer Selbstverständlichkeit, die keine Erklärung braucht.</p>
           <p class="vb-intro">Die britische Aktivistin und Model Harnaam Kaur, geboren am 29. November 1990 in Slough in einer traditionellen Punjabi-Sikh-Familie, wuchs mit einer sehr konkreten, körperlichen Herausforderung auf: Bereits mit elf Jahren begann bei ihr, ausgelöst durch das polyzystische Ovarialsyndrom (PCOS), verstärkter Bartwuchs im Gesicht, mit zwölf folgte die Diagnose. Als Teenager erlebte sie erbittertes Mobbing und versuchte zunächst alles, um den Bart loszuwerden &ndash; Wachsen, Zupfen, Rasieren, Fäden. Erst mit sechzehn traf sie eine Entscheidung, die ihr ganzes weiteres Leben prägen sollte: Sie hörte auf, die Haare aus ihrem Gesicht zu entfernen, und ließ den Bart einfach wachsen.</p>
         </blockquote>
 
@@ -626,7 +626,7 @@ export function immanuelKantPortraitPage() {
 
         <h2 class="vb-section">1. Das Erdm\u00e4nnchen, das seine Stadt nie verlie\u00df</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Erdm\u00e4nnchen</strong> ist das Tier der sozialen Sechs \u2013 ein hochsoziales Wesen, das in streng organisierten Kolonien lebt und seine Sicherheit durch Wachsamkeit und verl\u00e4ssliche Routine gewinnt. Immanuel Kant wurde 1724 in K\u00f6nigsberg geboren und verlie\u00df die Stadt und ihre n\u00e4here Umgebung in 80 Lebensjahren praktisch nie \u2013 kein einziges Mal reiste er weiter als etwa 150 Kilometer von seinem Geburtsort weg. Sicherheit fand er nicht im Aufbruch, sondern im festen, vertrauten Rahmen.</p>
+          <p class="vb-intro">Das <strong>Erdm\u00e4nnchen</strong> ist die tierische Entsprechung der sozialen Sechs \u2013 ein hochsoziales Wesen, das in streng organisierten Kolonien lebt und seine Sicherheit durch Wachsamkeit und verl\u00e4ssliche Routine gewinnt. Immanuel Kant wurde 1724 in K\u00f6nigsberg geboren und verlie\u00df die Stadt und ihre n\u00e4here Umgebung in 80 Lebensjahren praktisch nie \u2013 kein einziges Mal reiste er weiter als etwa 150 Kilometer von seinem Geburtsort weg. Sicherheit fand er nicht im Aufbruch, sondern im festen, vertrauten Rahmen.</p>
           <p class="vb-intro">Sein Tagesablauf war der \u00dcberlieferung nach so unver\u00e4nderlich getaktet, dass die Bewohner K\u00f6nigsbergs angeblich ihre Uhren nach seinem allnachmitt\u00e4glichen Spaziergang stellen konnten \u2013 eine Anekdote, deren genaue historische Exaktheit umstritten ist, die aber treffend beschreibt, wie sehr Kant sein Leben durch feste, wiederkehrende Strukturen absicherte. Das Erdm\u00e4nnchen postiert seine Wachen an denselben Stellen, zur selben Zeit, jeden Tag \u2013 Verl\u00e4sslichkeit ist sein Schutz vor einer unberechenbaren Welt.</p>
         </blockquote>
 
@@ -781,7 +781,7 @@ export function johnWaynePortraitPage() {
 
         <h2 class="vb-section">1. Das Krokodil, das eine ganze Leinwand füllte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Krokodil</strong> ist das Tier der sexuellen Acht &ndash; massiv, unübersehbar, mit einer Präsenz, die den gesamten Raum beherrscht, sobald es sich zeigt. Kaum ein Schauspieler verkörperte dieses Prinzip so vollständig wie John Wayne: 1,93 Meter groß, weit über 100 Kilogramm schwer auf dem Höhepunkt seiner Karriere, überragte er buchstäblich jede Szene, in der er auftrat. Ob Sprechen, Fluchen oder Kämpfen &ndash; alles geschah bei ihm mit voller Wucht, nie halbherzig.</p>
+          <p class="vb-intro">Das <strong>Krokodil</strong> gilt als das Tier der sexuellen Acht &ndash; massiv, unübersehbar, mit einer Präsenz, die den gesamten Raum beherrscht, sobald es sich zeigt. Kaum ein Schauspieler verkörperte dieses Prinzip so vollständig wie John Wayne: 1,93 Meter groß, weit über 100 Kilogramm schwer auf dem Höhepunkt seiner Karriere, überragte er buchstäblich jede Szene, in der er auftrat. Ob Sprechen, Fluchen oder Kämpfen &ndash; alles geschah bei ihm mit voller Wucht, nie halbherzig.</p>
           <p class="vb-intro">Mit über 170 Filmen und dem endgültigen Durchbruch 1939 in "Stagecoach" unter Regisseur John Ford wurde der US-amerikanische Schauspieler Wayne zur Verkörperung des unbeugsamen amerikanischen Western- und Kriegshelden &ndash; ein Symbol, das weit über das Kino hinaus zum Sinnbild eines ganzen Landes wurde.</p>
         </blockquote>
 
@@ -853,7 +853,7 @@ export function kathrinBauerfeindPortraitPage() {
 
         <h2 class="vb-section">1. Der Waschb\u00e4r</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschb\u00e4r</strong> ist das Tier der selbsterhaltenden Drei &ndash; und er ist ein Tier, das man untersch\u00e4tzt. Kein lauter Auftritt, kein Glanz, keine B\u00fchne. Der Waschb\u00e4r tr\u00e4gt eine nat\u00fcrliche Maske, bewegt sich leise durch die Nacht, nimmt das wahr, was andere \u00fcbersehen, und wendet seine Geschicklichkeit ganz praktisch an: Was brauche ich? Wie komme ich dorthin? Der Waschb\u00e4r ist kein Performer &ndash; er ist ein \u00dcberlebensk\u00fcnstler mit feinen H\u00e4nden.</p>
+          <p class="vb-intro">Der <strong>Waschb\u00e4r</strong> ist das Sinnbild der selbsterhaltenden Drei &ndash; und er ist ein Tier, das man untersch\u00e4tzt. Kein lauter Auftritt, kein Glanz, keine B\u00fchne. Der Waschb\u00e4r tr\u00e4gt eine nat\u00fcrliche Maske, bewegt sich leise durch die Nacht, nimmt das wahr, was andere \u00fcbersehen, und wendet seine Geschicklichkeit ganz praktisch an: Was brauche ich? Wie komme ich dorthin? Der Waschb\u00e4r ist kein Performer &ndash; er ist ein \u00dcberlebensk\u00fcnstler mit feinen H\u00e4nden.</p>
           <p class="vb-intro">Die deutsche Moderatorin Kathrin Bauerfeind ist in der deutschen Medienlandschaft eine Figur, die sich dieser Logik entzieht. Sie ist nicht laut. Sie ist nicht glamour\u00f6s. Und trotzdem ist sie \u00fcberall: Talkshows, Podcasts, B\u00fccher, Fernsehserien, journalistische Texte. Nicht durch Selbstinszenierung, sondern durch Kompetenz, Verl\u00e4sslichkeit und eine stilistische Unverwechselbarkeit, die sich \u00fcber Jahre aufgebaut hat. Der Waschb\u00e4r w\u00fchlt nicht im Rampenlicht &ndash; er schafft sich sein eigenes Territorium.</p>
         </blockquote>
 
@@ -920,7 +920,7 @@ export function laurenceFrankPortraitPage() {
 
         <h2 class="vb-section">1. Der Löwe, der für den Löwen kämpfte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Löwe</strong> ist das Tier der sozialen Acht &ndash; Stärke, die nicht für sich selbst, sondern für das Rudel eingesetzt wird. Dr. Laurence Frank, verbunden mit der UC Berkeley und der University of Oxford, widmete sein Leben genau diesem Tier: über 35 Jahre furchtlose Feldforschung an Löwen und Hyänen in Kenia, ohne je eine feste Professur anzustreben, weil ihm die Arbeit im Busch wichtiger war als die akademische Karriereleiter.</p>
+          <p class="vb-intro">Der <strong>Löwe</strong> ist das Wappentier der sozialen Acht &ndash; Stärke, die nicht für sich selbst, sondern für das Rudel eingesetzt wird. Dr. Laurence Frank, verbunden mit der UC Berkeley und der University of Oxford, widmete sein Leben genau diesem Tier: über 35 Jahre furchtlose Feldforschung an Löwen und Hyänen in Kenia, ohne je eine feste Professur anzustreben, weil ihm die Arbeit im Busch wichtiger war als die akademische Karriereleiter.</p>
           <p class="vb-intro">Weltbekannt wurde er als Gründer des Lion-Guardians-Projekts: Er erkannte, dass die größte Bedrohung für Löwen nicht die Natur war, sondern der Konflikt mit den Massai-Siedlern – und entwickelte ein Konzept, das ehemalige Löwentöter zu Löwenbeschützern machte. Der Löwe, der erkannte, dass sein Tier nur überlebt, wenn er selbst zwischen den Fronten vermittelt.</p>
         </blockquote>
 
@@ -1051,7 +1051,7 @@ export function marilynMonroePortraitPage() {
 
         <h2 class="vb-section">1. Der Pfau</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier der sexuellen Drei &ndash; ein Tier, dessen Pracht keine Berechnung ist, sondern Ausdruck. Kaum eine Gestalt des 20. Jahrhunderts verk\u00f6rperte diese Wirkung reiner als Marilyn Monroe: Ihr Auftritt auf der Leinwand war nicht Technik, sondern eine Pr\u00e4senz, der sich niemand entziehen konnte &ndash; ein Leuchten, das durch die Kamera hindurch direkt beim Publikum ankam.</p>
+          <p class="vb-intro">Der <strong>Pfau</strong> ist das Wappentier der sexuellen Drei &ndash; ein Tier, dessen Pracht keine Berechnung ist, sondern Ausdruck. Kaum eine Gestalt des 20. Jahrhunderts verk\u00f6rperte diese Wirkung reiner als Marilyn Monroe: Ihr Auftritt auf der Leinwand war nicht Technik, sondern eine Pr\u00e4senz, der sich niemand entziehen konnte &ndash; ein Leuchten, das durch die Kamera hindurch direkt beim Publikum ankam.</p>
           <p class="vb-intro">Die Szene mit dem hochwehenden Kleid \u00fcber dem U-Bahn-Gitter in &bdquo;Das verflixte 7. Jahr&ldquo; (1955) wurde zu einer der meistreproduzierten Filmaufnahmen der Geschichte &ndash; nicht wegen einer besonderen dramaturgischen Leistung, sondern weil in diesem einen Moment die reine Wirkung des Pfaus sichtbar wurde. Kein Zufall, dass gerade dieses Bild zum globalen Symbol wurde: Es zeigt nichts als Strahlkraft selbst.</p>
         </blockquote>
 
@@ -1129,7 +1129,7 @@ export function miguelDeUnamunoPortraitPage() {
 
         <h2 class="vb-section">1. Die Taube</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier – sie trägt ihr tiefes Gefühlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrzehntelanger Beharrlichkeit. Miguel de Unamuno wurde 1864 im baskischen Bilbao geboren, verlor mit sechs Jahren seinen Vater und wuchs in einem streng katholischen, bürgerlichen Elternhaus auf, das ihm früh eine tiefe, nie ganz aufgelöste Auseinandersetzung mit Glauben, Zweifel und dem eigenen Sterben mitgab. Diese Frage – ob es nach dem Tod ein persönliches Fortbestehen gibt oder nicht – sollte sein gesamtes intellektuelles Lebenswerk durchziehen, nicht als abstraktes philosophisches Problem, sondern als quälende, ganz persönliche Wunde.</p>
+          <p class="vb-intro">Die <strong>Taube</strong> gilt als das Tier der selbsterhaltenden Vier – sie trägt ihr tiefes Gefühlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrzehntelanger Beharrlichkeit. Miguel de Unamuno wurde 1864 im baskischen Bilbao geboren, verlor mit sechs Jahren seinen Vater und wuchs in einem streng katholischen, bürgerlichen Elternhaus auf, das ihm früh eine tiefe, nie ganz aufgelöste Auseinandersetzung mit Glauben, Zweifel und dem eigenen Sterben mitgab. Diese Frage – ob es nach dem Tod ein persönliches Fortbestehen gibt oder nicht – sollte sein gesamtes intellektuelles Lebenswerk durchziehen, nicht als abstraktes philosophisches Problem, sondern als quälende, ganz persönliche Wunde.</p>
           <p class="vb-intro">Unamuno studierte Philosophie und Literatur in Madrid, brachte sich weitgehend autodidaktisch Deutsch, Dänisch und weitere Sprachen bei, um Kierkegaard, Hegel und andere Denker im Original zu lesen, und wurde 1891 Professor für Griechische Sprache an der Universität Salamanca – der Stadt, die für den Rest seines Lebens sein geistiges Zuhause blieb.</p>
         </blockquote>
 
@@ -1325,7 +1325,7 @@ export function romySchneiderPortraitPage() {
 
         <h2 class="vb-section">1. Das G\u00fcrteltier</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>G\u00fcrteltier</strong> ist das Tier des sozialen Typs 4 &ndash; und es ist ein Tier voller Widerspr\u00fcche. Nach au\u00dfen tr\u00e4gt es einen harten Panzer, der es unverwundbar wirken l\u00e4sst. Aber dieser Panzer sch\u00fctzt ein Inneres, das au\u00dfergew\u00f6hnlich empfindlich ist: Das G\u00fcrteltier ist eines der wenigen S\u00e4ugetiere, das sich bei Gefahr nicht k\u00e4mpfend oder fliehend verh\u00e4lt, sondern sich zusammenrollt &ndash; es h\u00fcllt sich in sich selbst ein. Gleichzeitig ist das G\u00fcrteltier ein geselliges Tier. Es lebt nicht allein. Es braucht die Gemeinschaft, auch wenn es sich in ihr manchmal fremd f\u00fchlt.</p>
+          <p class="vb-intro">Das <strong>G\u00fcrteltier</strong> ist die tierische Entsprechung des sozialen Typs 4 &ndash; und es ist ein Tier voller Widerspr\u00fcche. Nach au\u00dfen tr\u00e4gt es einen harten Panzer, der es unverwundbar wirken l\u00e4sst. Aber dieser Panzer sch\u00fctzt ein Inneres, das au\u00dfergew\u00f6hnlich empfindlich ist: Das G\u00fcrteltier ist eines der wenigen S\u00e4ugetiere, das sich bei Gefahr nicht k\u00e4mpfend oder fliehend verh\u00e4lt, sondern sich zusammenrollt &ndash; es h\u00fcllt sich in sich selbst ein. Gleichzeitig ist das G\u00fcrteltier ein geselliges Tier. Es lebt nicht allein. Es braucht die Gemeinschaft, auch wenn es sich in ihr manchmal fremd f\u00fchlt.</p>
           <p class="vb-intro">Die \u00f6sterreichisch-deutsche Schauspielerin Romy Schneider war eine der gr\u00f6\u00dften Schauspielerinnen des 20. Jahrhunderts &ndash; und eine der einsamsten. Die Welt sah den Glanz: <em>Sissi</em>, die Leinwand, die Preise, die Eleganz. Was hinter dem Panzer lag, hat sie selbst immer wieder beschrieben: Schmerz, Einsamkeit, das Gef\u00fchl, nie wirklich gesehen zu werden &ndash; nur die Rolle, nie die Frau. Das G\u00fcrteltier, das sich in der \u00d6ffentlichkeit zeigt und sich dabei innerlich einrollt.</p>
         </blockquote>
 
@@ -1472,7 +1472,7 @@ export function tildaSwintonPortraitPage() {
 
         <h2 class="vb-section">1. Der Igel, der sich vollst\xe4ndig verwandelt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier des sexuellen Typs 5 &ndash; ein kleines, nachtaktives Wesen, das sich bei Gefahr blitzschnell zusammenrollt und ein Geflecht aus Stacheln zeigt. Wer ihn kennt, wei\xdf: Darunter ist etwas au\xdferordentlich Weiches. Aber man muss Vertrauen aufgebaut haben, um es zu ber\xfchren. Der Igel erkundet die Welt neugierig und intensiv &ndash; wenn er sich sicher f\xfchlt. Andernfalls: Kugel. Stacheln. Warten.</p>
+          <p class="vb-intro">Der <strong>Igel</strong> gilt als das Tier des sexuellen Typs 5 &ndash; ein kleines, nachtaktives Wesen, das sich bei Gefahr blitzschnell zusammenrollt und ein Geflecht aus Stacheln zeigt. Wer ihn kennt, wei\xdf: Darunter ist etwas au\xdferordentlich Weiches. Aber man muss Vertrauen aufgebaut haben, um es zu ber\xfchren. Der Igel erkundet die Welt neugierig und intensiv &ndash; wenn er sich sicher f\xfchlt. Andernfalls: Kugel. Stacheln. Warten.</p>
           <p class="vb-intro">Die britische Schauspielerin Tilda Swinton ist dieser Igel &ndash; eine Schauspielerin, die sich so vollst\xe4ndig in jede Rolle verwandelt, dass die \xf6ffentliche Person Tilda Swinton fast verschwindet. Androgyn, unheimlich, aristokratisch, monstr\xf6s, engelhaft: Sie hat all das gespielt, oft im selben Jahrzehnt, manchmal im selben Film. Und dennoch bleibt sie eine der am wenigsten fassbaren Figuren des internationalen Films &ndash; nicht weil sie sich versteckt, sondern weil sie sich jedes Mal neu erfindet, bevor man sie auf eine bestimmte Rolle festnageln kann.</p>
         </blockquote>
 
@@ -1616,7 +1616,7 @@ export function augustinusVonHippoPortraitPage() {
 
         <h2 class="vb-section">1. Der Chihuahua, der nichts halb empfand</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Chihuahua</strong> ist das Tier der sexuellen Vier &ndash; klein von Statur, aber mit einer Intensität ausgestattet, die in keinem Verhältnis zu seiner Größe steht. Er liebt mit voller Hingabe oder gar nicht, verteidigt sein Revier lautstark gegen jeden vermeintlichen Rivalen und kennt kein gedämpftes Mittelmaß. Was ihm an Fläche fehlt, gleicht er an Feuer aus.</p>
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist die tierische Entsprechung der sexuellen Vier &ndash; klein von Statur, aber mit einer Intensität ausgestattet, die in keinem Verhältnis zu seiner Größe steht. Er liebt mit voller Hingabe oder gar nicht, verteidigt sein Revier lautstark gegen jeden vermeintlichen Rivalen und kennt kein gedämpftes Mittelmaß. Was ihm an Fläche fehlt, gleicht er an Feuer aus.</p>
           <p class="vb-intro">Augustinus wurde 354 n. Chr. in Thagaste im römischen Nordafrika geboren, Sohn eines heidnischen Vaters, Patricius, und einer später heiliggesprochenen Mutter, Monica, die ihn Zeit seines Lebens mit unerbittlicher Sorge begleitete. Schon als junger Rhetoriklehrer in Karthago lebte er nichts halbherzig: In seinen &raquo;Bekenntnissen&laquo;, geschrieben mit etwa 43 Jahren als Rückblick auf die ersten 33 seines Lebens, beschreibt er sich selbst als jemanden, der in seiner Jugend &raquo;nach Karthago kam, wo um mich herum ein Kessel schändlicher Liebschaften brodelte&laquo; &ndash; kein distanzierter Beobachter, sondern jemand, der jede Leidenschaft, jede Beziehung, jede intellektuelle Überzeugung mit der ganzen Wucht seines Wesens durchlebte.</p>
         </blockquote>
 
@@ -1685,7 +1685,7 @@ export function yayoiKusamaPortraitPage() {
 
         <h2 class="vb-section">1. Das Flusspferd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, dessen Haut ohne den ständigen Kontakt mit Wasser binnen Stunden aufreißen würde. Es sondert sogar eine eigene, rötliche Flüssigkeit ab, die seine Haut vor der Sonne schützt, wenn es das Wasser kurz verlassen muss. Sein Element ist keine Vorliebe. Es ist die einzige Bedingung, unter der sein Körper überhaupt bestehen kann.</p>
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist die tierische Entsprechung der selbsterhaltenden Zwei &ndash; ein Tier, dessen Haut ohne den ständigen Kontakt mit Wasser binnen Stunden aufreißen würde. Es sondert sogar eine eigene, rötliche Flüssigkeit ab, die seine Haut vor der Sonne schützt, wenn es das Wasser kurz verlassen muss. Sein Element ist keine Vorliebe. Es ist die einzige Bedingung, unter der sein Körper überhaupt bestehen kann.</p>
           <p class="vb-intro">Die japanische Künstlerin Yayoi Kusama malt seit ihrer Kindheit Punkte &ndash; unzählige, sich endlos wiederholende Kreise, die sich über Leinwände, Kürbisse, ganze Räume und ihren eigenen Körper ausbreiten. Für sie ist das kein künstlerisches Konzept im gewöhnlichen Sinn, sondern eine Überlebensnotwendigkeit: Ohne das Malen, sagt sie selbst, hätte sie sich längst das Leben genommen. Das Flusspferd braucht sein Wasser. Kusama braucht ihre Punkte.</p>
         </blockquote>
 
@@ -1756,7 +1756,7 @@ export function roaldAmundsenPortraitPage() {
 
         <h2 class="vb-section">1. Die Gans, die eine junge Nation zum Südpol trug</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins &ndash; wachsam, prinzipientreu, unbestechlich in ihrem Sinn für Recht und Ordnung, und stets in Verantwortung für die Formation, nicht für sich allein. Roald Amundsen, geboren 1872 in Norwegen, härtete sich schon als Jugendlicher systematisch ab &ndash; er schlief bei offenem Fenster im norwegischen Winter, trainierte diszipliniert seinen Körper, bereitete sich jahrelang methodisch auf ein Leben in lebensfeindlichem Terrain vor.</p>
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Sinnbild der sozialen Eins &ndash; wachsam, prinzipientreu, unbestechlich in ihrem Sinn für Recht und Ordnung, und stets in Verantwortung für die Formation, nicht für sich allein. Roald Amundsen, geboren 1872 in Norwegen, härtete sich schon als Jugendlicher systematisch ab &ndash; er schlief bei offenem Fenster im norwegischen Winter, trainierte diszipliniert seinen Körper, bereitete sich jahrelang methodisch auf ein Leben in lebensfeindlichem Terrain vor.</p>
           <p class="vb-intro">1911 erreichte er als erster Mensch den Südpol, 1926 überquerte er mit dem Luftschiff "Norge" als Erster den Nordpol &ndash; als einziger Mensch der Geschichte stand er an beiden geografischen Polen. Doch seine Expeditionen waren nie nur persönlicher Ehrgeiz: Norwegen war erst 1905 unabhängig von Schweden geworden, und Amundsen verstand seine Leistungen ausdrücklich als Beweis, dass die junge Nation in der "Formation" der großen Länder mithalten konnte.</p>
         </blockquote>
 
@@ -2093,7 +2093,7 @@ export function susanLinkPortraitPage() {
 
         <h2 class="vb-section">1. Der Waschbär, der sich in jedem Studio zurechtfand</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei: anpassungsfähig, tüchtig, in ständiger, ruhiger Bewegung, ohne dabei laut aufzufallen. Susan Link wurde 1976 in Pößneck in Thüringen geboren; nach dem Mauerfall zog sie mit ihrer Mutter nach Wuppertal, wo sie später Germanistik studierte. 1998 begann ihre berufliche Laufbahn bei Radio Wuppertal – zunächst als Volontärin, dann als Moderatorin.</p>
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Wappentier der selbsterhaltenden Drei: anpassungsfähig, tüchtig, in ständiger, ruhiger Bewegung, ohne dabei laut aufzufallen. Susan Link wurde 1976 in Pößneck in Thüringen geboren; nach dem Mauerfall zog sie mit ihrer Mutter nach Wuppertal, wo sie später Germanistik studierte. 1998 begann ihre berufliche Laufbahn bei Radio Wuppertal – zunächst als Volontärin, dann als Moderatorin.</p>
           <p class="vb-intro">Von 2002 bis 2011 arbeitete sie bei Radio NRW als Moderatorin und Redakteurin, bevor sie zum Fernsehen wechselte. Der Waschbär verändert sein Revier, sobald sich eine bessere Gelegenheit bietet – nicht aus Unruhe, sondern aus der stillen Gewissheit, dass er sich überall zurechtfinden wird.</p>
         </blockquote>
 
@@ -2236,7 +2236,7 @@ export function audreyTautouPortraitPage() {
 
         <h2 class="vb-section">1. Der Waschbär, der den Weltruhm in Jeans erlebte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das nicht auf Sichtbarkeit angewiesen ist, um seine Fähigkeiten zu beweisen, sondern sein Können lieber im eigenen, geschützten Territorium einsetzt. Audrey Tautou, 1976 im mittelfranzösischen Beaumont geboren und in Montluçon aufgewachsen, kam eher zufällig zum Schauspiel: Nach dem Abitur besuchte sie einen Sommerkurs an der Pariser Schauspielschule Cours Florent, mehr aus Neugier als aus ernsthaftem Ehrgeiz, und studierte parallel Literaturwissenschaft an der Sorbonne.</p>
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Sinnbild der selbsterhaltenden Drei &ndash; ein Tier, das nicht auf Sichtbarkeit angewiesen ist, um seine Fähigkeiten zu beweisen, sondern sein Können lieber im eigenen, geschützten Territorium einsetzt. Audrey Tautou, 1976 im mittelfranzösischen Beaumont geboren und in Montluçon aufgewachsen, kam eher zufällig zum Schauspiel: Nach dem Abitur besuchte sie einen Sommerkurs an der Pariser Schauspielschule Cours Florent, mehr aus Neugier als aus ernsthaftem Ehrgeiz, und studierte parallel Literaturwissenschaft an der Sorbonne.</p>
           <p class="vb-intro">Bereits ihr erster Spielfilm, ›Venus Beauty Institute‹ (1999), brachte ihr den César als vielversprechendste Nachwuchsschauspielerin ein. Doch der eigentliche Ruhm kam 2001 mit ›Die fabelhafte Welt der Amélie‹ &ndash; über Nacht wurde sie zum international bekannten Gesicht des französischen Kinos. Was folgte, war jedoch kein Griff nach der großen Hollywood-Karriere, sondern das genaue Gegenteil.</p>
         </blockquote>
 
@@ -2505,7 +2505,7 @@ export function jessicaBielPortraitPage() {
 
         <h2 class="vb-section">1. Der Biber, der das eigene Image abriss, um ernst genommen zu werden</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier der sozialen Sieben: wach, rastlos, aber nie ziellos – die Energie fließt nicht in Zerstreuung, sondern in ein konkretes, selbst verantwortetes Werk. Jessica Biel, geboren 1982 in Ely, Minnesota, wurde als Teenager durch die Rolle der Mary Camden in der langjährigen Familienserie „7th Heaven" (1996–2006) bekannt – ein braves, wohlerzogenes Bild, das Millionen amerikanischer Haushalte wöchentlich ins Wohnzimmer bekamen.</p>
+          <p class="vb-intro">Der <strong>Biber</strong> gilt als das Tier der sozialen Sieben: wach, rastlos, aber nie ziellos – die Energie fließt nicht in Zerstreuung, sondern in ein konkretes, selbst verantwortetes Werk. Jessica Biel, geboren 1982 in Ely, Minnesota, wurde als Teenager durch die Rolle der Mary Camden in der langjährigen Familienserie „7th Heaven" (1996–2006) bekannt – ein braves, wohlerzogenes Bild, das Millionen amerikanischer Haushalte wöchentlich ins Wohnzimmer bekamen.</p>
           <p class="vb-intro">1999 sprengte sie dieses Bild bewusst: Ein freizügiges Fotoshooting für das Magazin „Gear" löste einen Skandal aus, der sie beinahe ihre Serienrolle kostete. Sie selbst erklärte später, sie habe diesen Bruch gezielt gesucht, um nicht für immer auf die brave Serientochter festgelegt zu werden. Kein Ausrutscher, sondern eine kalkulierte Grenzüberschreitung, mit der sich ein Biber selbst aus einem zu eng gewordenen Damm befreit.</p>
         </blockquote>
 

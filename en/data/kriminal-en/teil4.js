@@ -586,7 +586,7 @@ export function bonnieParkerPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. The Chihuahua</h3>
-        <p class="vb-intro">The <strong>chihuahua</strong> is the animal of the sexual Four – small, but carrying an intensity wildly out of proportion to its size. It does not seek attention in general, but total, exclusive closeness to a single person – and is willing to take any risk for it. Bonnie Parker, born in Texas in 1910, a gifted student with a strong interest in poetry and literature, embodied exactly this quality: small, energetic, unshakeably devoted to one man, all the way to their shared death.</p>
+        <p class="vb-intro">The <strong>chihuahua</strong> is the animal counterpart of the sexual Four – small, but carrying an intensity wildly out of proportion to its size. It does not seek attention in general, but total, exclusive closeness to a single person – and is willing to take any risk for it. Bonnie Parker, born in Texas in 1910, a gifted student with a strong interest in poetry and literature, embodied exactly this quality: small, energetic, unshakeably devoted to one man, all the way to their shared death.</p>
         <p class="vb-intro">In 1930, at nineteen, she met Clyde Barrow. What followed was a 21-month crime spree across the American Midwest, allegedly responsible for at least 13 killings, numerous robberies and kidnappings – until both were shot dead in a police ambush in Louisiana on May 23, 1934. Bonnie was 23 years old.</p>
       </div>
 
@@ -1361,7 +1361,7 @@ export function jeanneWeberPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. The Hippopotamus</h3>
-        <p class="vb-intro">The <strong>hippopotamus</strong> is the animal of the self-preservation Two – an animal that appears gentle and slow-moving on the surface, while hiding an entirely different reality beneath the water. Jeanne Weber, born in 1874 in a fishing village in western France, worked in Paris households from the age of fourteen before marrying in 1893. Between 1905 and 1908 she allegedly killed at least eight children – including her own and those of her extended family – by strangulation, each time in moments when she was briefly alone with the child.</p>
+        <p class="vb-intro">The <strong>hippopotamus</strong> is the emblem of the self-preservation Two – an animal that appears gentle and slow-moving on the surface, while hiding an entirely different reality beneath the water. Jeanne Weber, born in 1874 in a fishing village in western France, worked in Paris households from the age of fourteen before marrying in 1893. Between 1905 and 1908 she allegedly killed at least eight children – including her own and those of her extended family – by strangulation, each time in moments when she was briefly alone with the child.</p>
         <p class="vb-intro">To the outside world she was a caregiver: mother, aunt, minder, the woman who looked after the children while the rest of the family worked. It was exactly in this role, in the closest, most trusted circle, that the acts took place – invisible to everyone who saw her as a caring figure.</p>
       </div>
 
@@ -1751,7 +1751,7 @@ export function maryAnnCottonPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. The Black Mamba</h3>
-        <p class="vb-intro">The <strong>black mamba</strong> is the animal of the sexual One – precise, fast, uncompromising, and lethal not out of brutality but out of an inner law that tolerates no contradiction. Mary Ann Cotton, born in County Durham in 1832, worked as a nurse and dressmaker before marrying her first husband in 1852. Over two decades, she likely killed as many as 21 people – four husbands, several of her own and step-children, a mother and lovers – with arsenic, quietly stirred into tea.</p>
+        <p class="vb-intro">The <strong>black mamba</strong> is the animal counterpart of the sexual One – precise, fast, uncompromising, and lethal not out of brutality but out of an inner law that tolerates no contradiction. Mary Ann Cotton, born in County Durham in 1832, worked as a nurse and dressmaker before marrying her first husband in 1852. Over two decades, she likely killed as many as 21 people – four husbands, several of her own and step-children, a mother and lovers – with arsenic, quietly stirred into tea.</p>
         <p class="vb-intro">In 1873 she was convicted and hanged for poisoning her seven-year-old stepson, Charles Edward Cotton. She was suspected in far more deaths, but convicted of only this one – enough to make her Britain's first documented serial killer.</p>
       </div>
 

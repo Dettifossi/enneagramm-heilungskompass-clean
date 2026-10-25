@@ -84,7 +84,7 @@ export function alexanderBommesPortraitPage() {
 
         <h2 class="vb-section">1. Der Biber</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier des sozialen Typs 7 &ndash; er baut nicht für sich allein, sondern schafft Strukturen und Formate, die einem breiten Publikum dienen, und ist dabei selten mit nur einem Projekt zufrieden. Alexander Bommes moderiert seit Jahren gleich mehrere feste Fernsehformate parallel – ein rastloses Nebeneinander, das genau diese Bibernatur widerspiegelt.</p>
+          <p class="vb-intro">Der <strong>Biber</strong> gilt als das Tier des sozialen Typs 7 &ndash; er baut nicht für sich allein, sondern schafft Strukturen und Formate, die einem breiten Publikum dienen, und ist dabei selten mit nur einem Projekt zufrieden. Alexander Bommes moderiert seit Jahren gleich mehrere feste Fernsehformate parallel – ein rastloses Nebeneinander, das genau diese Bibernatur widerspiegelt.</p>
           <p class="vb-intro">Alexander Bommes wurde am 21. Januar 1976 in Kiel geboren und spielte von Jugend an Handball, zunächst in der Zweitligamannschaft seines Heimatvereins, ab 1999 in der Handball-Bundesliga für TSV Bayer Dormagen und ab 2001 für den VfL Gummersbach. Parallel zur aktiven Sportlerkarriere begann er 1997 ein Jurastudium in Kiel – zwei anspruchsvolle Wege gleichzeitig zu verfolgen, war für ihn von Beginn an kein Widerspruch, sondern Normalzustand.</p>
         </blockquote>
 
@@ -886,7 +886,7 @@ export function kamalaHarrisPortraitPage() {
 
         <h2 class="vb-section">1. Der Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; ein Tier, das Zugeh\u00f6rigkeit sucht, indem es sich f\u00fcr die Gemeinschaft einsetzt. Freundlich, engagiert, auf Verbindung ausgerichtet. Der Golden Retriever will gebraucht werden &ndash; nicht von einem Einzelnen, sondern von vielen. Er l\u00e4uft voraus, schaut zur\u00fcck, sammelt die Gruppe ein. Und wenn es hart auf hart kommt, zeigt sich, dass hinter der Warmherzigkeit ein z\u00e4her Wille steckt.</p>
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Sinnbild der sozialen Zwei &ndash; ein Tier, das Zugeh\u00f6rigkeit sucht, indem es sich f\u00fcr die Gemeinschaft einsetzt. Freundlich, engagiert, auf Verbindung ausgerichtet. Der Golden Retriever will gebraucht werden &ndash; nicht von einem Einzelnen, sondern von vielen. Er l\u00e4uft voraus, schaut zur\u00fcck, sammelt die Gruppe ein. Und wenn es hart auf hart kommt, zeigt sich, dass hinter der Warmherzigkeit ein z\u00e4her Wille steckt.</p>
           <p class="vb-intro">Die US-amerikanische Politikerin Kamala Harris, geboren 1964 in Oakland als Tochter einer indischen Krebsforscherin und eines jamaikanischen \u00d6konomen, wuchs in einem Elternhaus auf, das von B\u00fcrgerrechtsaktivismus gepr\u00e4gt war &ndash; ihre Mutter nahm sie schon als Kleinkind zu Demonstrationen mit. Aus dieser fr\u00fchen Pr\u00e4gung wurde eine Karriere, die sich fast l\u00fcckenlos um eine Frage drehte: Wie kann ich f\u00fcr die Gemeinschaft wirksam werden?</p>
         </blockquote>
 
@@ -959,7 +959,7 @@ export function krisMarshallPortraitPage() {
 
         <h2 class="vb-section">1. Das Faultier</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; ein Tier, das sich, wo immer es hingesetzt wird, mit genau diesem einen Ast vollständig verbindet, statt ständig einen besseren zu suchen. Es passt sich nicht an die Umgebung an, um aufzufallen &ndash; es verbindet sich mit ihr, bis kaum noch ein Unterschied zwischen ihm und dem Baum besteht.</p>
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Sinnbild des sexuellen Typs 9 &ndash; ein Tier, das sich, wo immer es hingesetzt wird, mit genau diesem einen Ast vollständig verbindet, statt ständig einen besseren zu suchen. Es passt sich nicht an die Umgebung an, um aufzufallen &ndash; es verbindet sich mit ihr, bis kaum noch ein Unterschied zwischen ihm und dem Baum besteht.</p>
           <p class="vb-intro">Der britische Schauspieler Kris Marshall, geboren am 1. April 1973 in Bath, Somerset, musste diese Fähigkeit zur vollständigen Verbindung schon als Kind immer wieder neu aufbringen. Sein Vater Glyn Marshall war Navigator bei der Royal Air Force, brachte es bis zum Squadron Leader und diente im Queen&#8217;s Flight &ndash; ein Beruf, der die Familie durch wechselnde Postierungen führte, unter anderem nach Hongkong und Kanada. Bis zu seinem zehnten Lebensjahr sprach Kris mit kanadischem Akzent. Als er zwölf war, ließen sich seine Eltern scheiden; anschließend besuchte er die Wells Cathedral School als Internatsschüler &ndash; wieder ein neuer Ort, wieder eine neue, diesmal sehr strikt geordnete Umgebung, in die er sich einfügen musste.</p>
         </blockquote>
 
@@ -1032,7 +1032,7 @@ export function lisaAntoniPortraitPage() {
 
         <h2 class="vb-section">1. Das Flusspferd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, das seine ganze Kraft dort entfaltet, wo es sich sicher und verwurzelt fühlt. Lisa Antoni, in Wien geboren und aufgewachsen, fand diesen sicheren Grund im Wiener Musicaltheater – ihr erster großer Auftritt als Mary Vetsera in der deutschsprachigen Erstaufführung von <em>Rudolf – Affaire Mayerling</em> wurde zum Startpunkt einer Karriere, die eng mit ihrer Heimatstadt verbunden blieb.</p>
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Wappentier der selbsterhaltenden Zwei &ndash; ein Tier, das seine ganze Kraft dort entfaltet, wo es sich sicher und verwurzelt fühlt. Lisa Antoni, in Wien geboren und aufgewachsen, fand diesen sicheren Grund im Wiener Musicaltheater – ihr erster großer Auftritt als Mary Vetsera in der deutschsprachigen Erstaufführung von <em>Rudolf – Affaire Mayerling</em> wurde zum Startpunkt einer Karriere, die eng mit ihrer Heimatstadt verbunden blieb.</p>
           <p class="vb-intro">Der Cast-Mitschnitt dieser Produktion erreichte in Österreich Platin-Status – ein früher, konkreter Beleg dafür, dass Antonis Stimme und Präsenz ein breites Publikum erreichten, noch bevor sie zu einer der gefragtesten Musical-Darstellerinnen im deutschsprachigen Raum wurde.</p>
         </blockquote>
 
@@ -1091,7 +1091,7 @@ export function marieAgnesStrackZimmermannPortraitPage() {
 
         <h2 class="vb-section">1. Die Schwarze Mamba</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Tier der sexuellen Eins &ndash; blitzschnell, pr\u00e4zise und vollkommen kompromisslos. Sie greift nicht aus Aggression an, sondern aus einem inneren Gesetz heraus: Was falsch ist, wird benannt. Was unecht ist, wird abgelehnt. Was stimmt, wird verteidigt &ndash; mit allem, was zur Verf\u00fcgung steht.</p>
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Sinnbild der sexuellen Eins &ndash; blitzschnell, pr\u00e4zise und vollkommen kompromisslos. Sie greift nicht aus Aggression an, sondern aus einem inneren Gesetz heraus: Was falsch ist, wird benannt. Was unecht ist, wird abgelehnt. Was stimmt, wird verteidigt &ndash; mit allem, was zur Verf\u00fcgung steht.</p>
           <p class="vb-intro">Die deutsche Politikerin Marie-Agnes Strack-Zimmermann, geboren 1958 in D\u00fcsseldorf, ist eine der direktesten Politikerinnen, die der Deutsche Bundestag in den letzten Jahrzehnten erlebt hat. Als Vorsitzende des Verteidigungsausschusses wurde sie zum sch\u00e4rfsten \u00f6ffentlichen Mahner f\u00fcr eine ausreichende Ausstattung der Bundeswehr und f\u00fcr klare Unterst\u00fctzung der Ukraine &ndash; zu einem Zeitpunkt, als viele Politikerkollegen noch auf Ausgewogenheit setzten. Die Mamba wartet nicht, bis alle einverstanden sind.</p>
         </blockquote>
 
@@ -1162,7 +1162,7 @@ export function michaelJacksonPortraitPage() {
 
         <h2 class="vb-section">1. Das Gürteltier</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier des sozialen Typs 4 – gepanzert nach außen, weich im Inneren. Kaum ein Bild trifft Michael Jackson genauer: ein Künstler, der auf der Bühne unangreifbar wirkte – makellos choreografiert, in glitzernde Kostüme gehüllt, hinter einer Maske aus Perfektion – und der zugleich in Interviews immer wieder von tiefer Einsamkeit sprach.</p>
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist die tierische Entsprechung des sozialen Typs 4 – gepanzert nach außen, weich im Inneren. Kaum ein Bild trifft Michael Jackson genauer: ein Künstler, der auf der Bühne unangreifbar wirkte – makellos choreografiert, in glitzernde Kostüme gehüllt, hinter einer Maske aus Perfektion – und der zugleich in Interviews immer wieder von tiefer Einsamkeit sprach.</p>
           <p class="vb-intro">Kein Musiker des 20. Jahrhunderts hat die Popkultur so vollständig neu definiert. Und kaum ein Musiker hat gleichzeitig so offen davon gesprochen, sich fremd zu fühlen – in der eigenen Familie, im eigenen Ruhm, in der eigenen Haut. Das Gürteltier zeigt der Welt seine Rüstung. Was darunter liegt, zeigt es fast niemandem.</p>
         </blockquote>
 
@@ -1466,7 +1466,7 @@ export function serdarSomuncuPortraitPage() {
 
         <h2 class="vb-section">1. Der Waschbär</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das mit unermüdlichem Fleiß im Verborgenen arbeitet, bevor es sich zeigt, und das seine Sicherheit aus nachweisbarem Handwerk zieht. Serdar Somuncu wurde 1968 in Istanbul geboren und zog schon als Kleinkind mit seiner Familie nach Deutschland, wo er in Neuss aufwuchs. Bevor er als Kabarettist bekannt wurde, durchlief er eine gründliche musikalische und schauspielerische Ausbildung: von 1984 bis 1986 studierte er am Konservatorium für Musik in Maastricht, von 1986 bis 1992 Schlagzeug an der Staatlichen Hochschule für Musik in Wuppertal, anschließend von 1992 bis 1995 Schauspiel und Regie in Frankfurt am Main.</p>
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist die tierische Entsprechung der selbsterhaltenden Drei – ein Tier, das mit unermüdlichem Fleiß im Verborgenen arbeitet, bevor es sich zeigt, und das seine Sicherheit aus nachweisbarem Handwerk zieht. Serdar Somuncu wurde 1968 in Istanbul geboren und zog schon als Kleinkind mit seiner Familie nach Deutschland, wo er in Neuss aufwuchs. Bevor er als Kabarettist bekannt wurde, durchlief er eine gründliche musikalische und schauspielerische Ausbildung: von 1984 bis 1986 studierte er am Konservatorium für Musik in Maastricht, von 1986 bis 1992 Schlagzeug an der Staatlichen Hochschule für Musik in Wuppertal, anschließend von 1992 bis 1995 Schauspiel und Regie in Frankfurt am Main.</p>
           <p class="vb-intro">Über 100 Theaterstücke inszenierte er, bevor sein eigentlicher öffentlicher Durchbruch kam – Jahre disziplinierter, oft unsichtbarer Vorarbeit, bevor sich das eigentliche, öffentlich sichtbare Werk zeigte.</p>
         </blockquote>
 
@@ -1602,7 +1602,7 @@ export function uliHoenessPortraitPage() {
 
         <h2 class="vb-section">1. Das Flusspferd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; und Uli Hoene\u00df ist dieses Tier in seiner kompromisslosesten Auspr\u00e4gung. Das Flusspferd braucht kein Publikum. Es braucht sein Revier: das Wasser, das es kennt, die Ufer, die ihm geh\u00f6ren, die Grenzen, die es mit jedem Gramm seines K\u00f6rpers markiert und verteidigt. Es wirkt gutm\u00fctig &ndash; bis jemand zu nah kommt. Dann zeigt es, was wirklich in ihm steckt.</p>
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist die tierische Entsprechung der selbsterhaltenden Zwei &ndash; und Uli Hoene\u00df ist dieses Tier in seiner kompromisslosesten Auspr\u00e4gung. Das Flusspferd braucht kein Publikum. Es braucht sein Revier: das Wasser, das es kennt, die Ufer, die ihm geh\u00f6ren, die Grenzen, die es mit jedem Gramm seines K\u00f6rpers markiert und verteidigt. Es wirkt gutm\u00fctig &ndash; bis jemand zu nah kommt. Dann zeigt es, was wirklich in ihm steckt.</p>
           <p class="vb-intro">Der deutsche Fu\u00dfballfunktion\u00e4r Uli Hoene\u00df ist seit mehr als f\u00fcnfzig Jahren der FC Bayern M\u00fcnchen. Nicht als Angestellter, nicht als Funktion\u00e4r &ndash; sondern als Mensch, der diesen Verein als sein Revier begriffen und mit einer Energie aufgebaut hat, die in der deutschen Fu\u00dfballgeschichte ihresgleichen sucht. Er hat als Spieler gewonnen, als Manager aufgebaut, als Pr\u00e4sident gef\u00fchrt &ndash; und nach dem tiefsten Sturz seines Lebens ist er zur\u00fcckgekehrt. Das Flusspferd steht auf.</p>
         </blockquote>
 
@@ -1675,7 +1675,7 @@ export function wolfgangAmadeusMozartPortraitPage() {
 
         <h2 class="vb-section">1. Das Flusspferd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei – ein Wesen, das nach außen verspielt und gutmütig wirkt, sich aber mit ungeahnter Wucht behauptet, sobald sein Revier oder seine Nächsten bedroht sind. Wolfgang Amadeus Mozart passte selten in das Bild des überirdisch schwebenden Genies, das die Nachwelt aus ihm gemacht hat – er war ein Mensch von enormer Direktheit, körperlicher Lebensfreude und einem sehr konkreten Gespür dafür, was er zum Überleben brauchte.</p>
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist die tierische Entsprechung der selbsterhaltenden Zwei – ein Wesen, das nach außen verspielt und gutmütig wirkt, sich aber mit ungeahnter Wucht behauptet, sobald sein Revier oder seine Nächsten bedroht sind. Wolfgang Amadeus Mozart passte selten in das Bild des überirdisch schwebenden Genies, das die Nachwelt aus ihm gemacht hat – er war ein Mensch von enormer Direktheit, körperlicher Lebensfreude und einem sehr konkreten Gespür dafür, was er zum Überleben brauchte.</p>
           <p class="vb-intro">Der österreichische Komponist Wolfgang Amadeus Mozart, geboren 1756 in Salzburg, wurde von seinem Vater Leopold, selbst Komponist und ehrgeiziger Manager seines Sohnes, ab dem sechsten Lebensjahr durch die Höfe Europas gereicht – Paris, London, Den Haag, Italien. Ein Kind, das lernen musste, sich selbst und seine Familie durch die eigene Begabung abzusichern, bevor es überhaupt eine Kindheit außerhalb der Bühne kannte.</p>
         </blockquote>
 
@@ -1750,7 +1750,7 @@ export function albertoMariniPortraitPage() {
 
         <h2 class="vb-section">1. Das Kaninchen, das sich ein neues Zuhause baute</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier des selbsterhaltenden Typs 6 &ndash; wachsam, anpassungsf\xe4hig, auf der Suche nach einem verl\xe4sslichen Ort, an dem es Wurzeln schlagen kann. Alberto Marini, 1972 in Turin geboren, zog 1999 nach Barcelona &ndash; und blieb. \xdcber ein Vierteljahrhundert lang wurde die katalanische Stadt zu seinem eigentlichen kreativen Zuhause, dem Ort, von dem aus er sich als Drehbuchautor im spanischen Genrekino etablierte, weit entfernt von seiner italienischen Herkunft.</p>
+          <p class="vb-intro">Das <strong>Kaninchen</strong> gilt als das Tier des selbsterhaltenden Typs 6 &ndash; wachsam, anpassungsf\xe4hig, auf der Suche nach einem verl\xe4sslichen Ort, an dem es Wurzeln schlagen kann. Alberto Marini, 1972 in Turin geboren, zog 1999 nach Barcelona &ndash; und blieb. \xdcber ein Vierteljahrhundert lang wurde die katalanische Stadt zu seinem eigentlichen kreativen Zuhause, dem Ort, von dem aus er sich als Drehbuchautor im spanischen Genrekino etablierte, weit entfernt von seiner italienischen Herkunft.</p>
           <p class="vb-intro">Kein Zufall, dass ausgerechnet das enge, vertraute Terrain zum zentralen Motiv seiner bekanntesten Arbeiten wurde: ein Wohnhaus unter Quarant\xe4ne, eine Wohnung, in der sich nachts jemand einschleicht, eine Stadt, die zur Bedrohung wird, sobald das Vertraute nicht mehr sicher ist. Das Kaninchen, das genau wei\xdf, wie zerbrechlich Sicherheit sein kann, sobald sie einmal durchbrochen wird.</p>
         </blockquote>
 
@@ -1816,7 +1816,7 @@ export function helmutSchmidtPortraitPage() {
 
         <h2 class="vb-section">1. Die Gans, die im Sturm die Formation hielt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins – geordnet, diszipliniert, mit einem untr\xfcglichen Gesp\xfcr daf\xfcr, wie etwas richtig gemacht wird, und bereit, in der eigenen Formation Verantwortung zu \xfcbernehmen, sobald es darauf ankommt. Helmut Schmidt, 1918 in Hamburg geboren, wurde genau in solchen Momenten zur pr\xe4genden Figur der bundesdeutschen Nachkriegsgeschichte: als Hamburger Innensenator w\xe4hrend der Sturmflut vom Februar 1962, als er binnen weniger Stunden rund 40.000 Helfer mobilisierte und koordinierte – und dabei, wie er sp\xe4ter selbst einr\xe4umte, „wissentlich und willentlich" gegen das Grundgesetz verstie\xdf, indem er ohne rechtliche Grundlage sogar Bundeswehreinheiten anforderte, weil die Lage keinen Aufschub duldete.</p>
+          <p class="vb-intro">Die <strong>Gans</strong> ist die tierische Entsprechung der sozialen Eins – geordnet, diszipliniert, mit einem untr\xfcglichen Gesp\xfcr daf\xfcr, wie etwas richtig gemacht wird, und bereit, in der eigenen Formation Verantwortung zu \xfcbernehmen, sobald es darauf ankommt. Helmut Schmidt, 1918 in Hamburg geboren, wurde genau in solchen Momenten zur pr\xe4genden Figur der bundesdeutschen Nachkriegsgeschichte: als Hamburger Innensenator w\xe4hrend der Sturmflut vom Februar 1962, als er binnen weniger Stunden rund 40.000 Helfer mobilisierte und koordinierte – und dabei, wie er sp\xe4ter selbst einr\xe4umte, „wissentlich und willentlich" gegen das Grundgesetz verstie\xdf, indem er ohne rechtliche Grundlage sogar Bundeswehreinheiten anforderte, weil die Lage keinen Aufschub duldete.</p>
           <p class="vb-intro">Von 1974 bis 1982 war er Bundeskanzler der Bundesrepublik Deutschland – eine Amtszeit, die von wirtschaftlichen Krisen, dem RAF-Terror und sicherheitspolitischen Weichenstellungen gepr\xe4gt war, und in der er sich den Ruf des unerschrockenen Krisenmanagers endg\xfcltig erarbeitete.</p>
         </blockquote>
 
@@ -1964,7 +1964,7 @@ export function jonBonJoviPortraitPage() {
 
         <h2 class="vb-section">1. Das Faultier, das bei einer Bindung blieb</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier der sexuellen Neun – ein Tier, das sich nicht auf viele Kontakte verteilt, sondern vollständig mit einer einzigen, tragenden Bindung verschmilzt. John Francis Bongiovi Jr., 1962 in Perth Amboy, New Jersey, geboren, lernte seine spätere Frau Dorothea Hurley 1980 als Schüler an der Sayreville War Memorial High School kennen. Nach Jahren wechselhafter Beziehung heirateten die beiden 1989 heimlich in einer Hochzeitskapelle in Las Vegas – und sind bis heute, über 35 Jahre später, verheiratet.</p>
+          <p class="vb-intro">Das <strong>Faultier</strong> ist die tierische Entsprechung der sexuellen Neun – ein Tier, das sich nicht auf viele Kontakte verteilt, sondern vollständig mit einer einzigen, tragenden Bindung verschmilzt. John Francis Bongiovi Jr., 1962 in Perth Amboy, New Jersey, geboren, lernte seine spätere Frau Dorothea Hurley 1980 als Schüler an der Sayreville War Memorial High School kennen. Nach Jahren wechselhafter Beziehung heirateten die beiden 1989 heimlich in einer Hochzeitskapelle in Las Vegas – und sind bis heute, über 35 Jahre später, verheiratet.</p>
           <p class="vb-intro">Dieselbe Verschmelzungsfähigkeit zeigt sich in seiner Band: Bon Jovi wurde 1983 gegründet und besteht in ihrem Kern bis heute – eine der seltenen Rockbands, die über vier Jahrzehnte im Wesentlichen zusammenblieb, statt sich in wechselnden Besetzungen aufzulösen.</p>
         </blockquote>
 
@@ -2359,7 +2359,7 @@ export function gordonRamsayPortraitPage() {
 
         <h2 class="vb-section">1. Der Pfau</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier der sexuellen Drei – charismatisch, intensiv, mit einem untrüglichen Gespür dafür, wie er wirkt, und dem Bedürfnis, dieses Wirken bewusst und laut einzusetzen. Gordon Ramsay wurde 1966 im schottischen Johnstone geboren und wuchs in einer von häufigen Umzügen und einem alkoholkranken, phasenweise gewalttätigen Vater geprägten Kindheit auf. Er flüchtete sich in den Fußball und spielte in der Jugend bei den Glasgow Rangers, bis eine schwere Knieverletzung diesen Weg als Teenager beendete.</p>
+          <p class="vb-intro">Der <strong>Pfau</strong> ist die tierische Entsprechung der sexuellen Drei – charismatisch, intensiv, mit einem untrüglichen Gespür dafür, wie er wirkt, und dem Bedürfnis, dieses Wirken bewusst und laut einzusetzen. Gordon Ramsay wurde 1966 im schottischen Johnstone geboren und wuchs in einer von häufigen Umzügen und einem alkoholkranken, phasenweise gewalttätigen Vater geprägten Kindheit auf. Er flüchtete sich in den Fußball und spielte in der Jugend bei den Glasgow Rangers, bis eine schwere Knieverletzung diesen Weg als Teenager beendete.</p>
           <p class="vb-intro">Diese frühe, öffentlich gemachte Verwundbarkeit – ein zerbrochener erster Lebenstraum, eine Kindheit, über die er später ausführlich in Memoiren und Dokumentationen sprach, statt sie zu verschweigen – ist bereits ein erstes Signal für die emotionale Tiefe, die unter der lautstarken Fassade liegt.</p>
         </blockquote>
 
@@ -2430,7 +2430,7 @@ export function dmitriSchostakowitschPortraitPage() {
 
         <h2 class="vb-section">1. Der Oktopus im Panzer eines Systems</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier des sozialen Typs 5 – ein Wesen, das mit acht Armen gleichzeitig greift, hochintelligent reagiert und sich doch, sobald Gefahr droht, in eine schützende Höhle zurückzieht oder hinter einer Tarnfarbe verschwindet. Dmitri Schostakowitsch, geboren am 25. September 1906 in St. Petersburg, zeigte sein außergewöhnliches musikalisches Talent früh: Mit neunzehn Jahren legte er am Leningrader Konservatorium seine Erste Symphonie als Abschlussarbeit vor – ein Werk, das binnen kurzer Zeit international aufgeführt wurde und ihn praktisch über Nacht bekannt machte.</p>
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist die tierische Entsprechung des sozialen Typs 5 – ein Wesen, das mit acht Armen gleichzeitig greift, hochintelligent reagiert und sich doch, sobald Gefahr droht, in eine schützende Höhle zurückzieht oder hinter einer Tarnfarbe verschwindet. Dmitri Schostakowitsch, geboren am 25. September 1906 in St. Petersburg, zeigte sein außergewöhnliches musikalisches Talent früh: Mit neunzehn Jahren legte er am Leningrader Konservatorium seine Erste Symphonie als Abschlussarbeit vor – ein Werk, das binnen kurzer Zeit international aufgeführt wurde und ihn praktisch über Nacht bekannt machte.</p>
           <p class="vb-intro">Doch dieser frühe Ruhm fiel in eine Zeit, die für einen Künstler mit öffentlicher Stimme lebensgefährlich werden konnte. Schostakowitsch verbrachte sein gesamtes Erwachsenenleben in einem politischen System, das seine Kunst zugleich brauchte und misstraute – eine Spannung, die seinen gesamten Werdegang prägte wie bei kaum einem anderen Komponisten des 20. Jahrhunderts.</p>
         </blockquote>
 
@@ -2500,7 +2500,7 @@ export function yannickVanDeVeldePortraitPage() {
 
         <h2 class="vb-section">1. Die Taube im Schatten des eigenen Namens</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier &ndash; ein Vogel, der nicht durch lautes Auftreten auffällt, sondern dadurch, dass er immer wieder seinen eigenen, stillen Weg zurückfindet. Yannick van de Velde, geboren am 15. August 1989 in Utrecht, stand bereits mit acht Jahren vor der Kamera, unter anderem in der Kinderserie ›Schoon Goed‹ (niederländisch für ›Sauberes Zeug‹) und 1999 in ›Kruimeltje‹ (›Krümelchen‹) &ndash; als Sohn des bekannten Regisseurs Jean van de Velde wuchs er von Anfang an im Schatten eines bereits etablierten Namens auf, ohne selbst schon zu wissen, welche eigene Spur er darin hinterlassen würde.</p>
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Wappentier der selbsterhaltenden Vier &ndash; ein Vogel, der nicht durch lautes Auftreten auffällt, sondern dadurch, dass er immer wieder seinen eigenen, stillen Weg zurückfindet. Yannick van de Velde, geboren am 15. August 1989 in Utrecht, stand bereits mit acht Jahren vor der Kamera, unter anderem in der Kinderserie ›Schoon Goed‹ (niederländisch für ›Sauberes Zeug‹) und 1999 in ›Kruimeltje‹ (›Krümelchen‹) &ndash; als Sohn des bekannten Regisseurs Jean van de Velde wuchs er von Anfang an im Schatten eines bereits etablierten Namens auf, ohne selbst schon zu wissen, welche eigene Spur er darin hinterlassen würde.</p>
           <p class="vb-intro">2004 gelang ihm mit der Hauptrolle des Remco van Leeuwen in ›In Oranje‹ (›In Orange‹, Anspielung auf die Trikotfarbe der niederländischen Nationalmannschaft) der eigentliche Durchbruch: 2005 wurde er dafür als erster niederländischer Schauspieler überhaupt mit einem Young Artist Award in Hollywood ausgezeichnet &ndash; eine frühe, öffentliche Bestätigung, die ihn zugleich endgültig aus dem bloßen Reflex des väterlichen Namens heraustreten ließ.</p>
         </blockquote>
 

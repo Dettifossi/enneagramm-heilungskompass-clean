@@ -2491,7 +2491,7 @@ export function victorLustigPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. The Chimpanzee</h3>
-        <p class="vb-intro">The <strong>chimpanzee</strong> is the animal of the sexual Seven – highly intelligent, socially agile, able to fit itself instantly into any group, any situation, any relationship, and turn it to its advantage. Victor Lustig, born around 1890 in Bohemia, was exactly this animal in human form: he spoke five languages fluently, used more than forty different aliases and identities, and managed to make himself completely credible in any setting – from the ocean-liner salon to the Chicago underworld.</p>
+        <p class="vb-intro">The <strong>chimpanzee</strong> is the animal counterpart of the sexual Seven – highly intelligent, socially agile, able to fit itself instantly into any group, any situation, any relationship, and turn it to its advantage. Victor Lustig, born around 1890 in Bohemia, was exactly this animal in human form: he spoke five languages fluently, used more than forty different aliases and identities, and managed to make himself completely credible in any setting – from the ocean-liner salon to the Chicago underworld.</p>
         <p class="vb-intro">In 1925 he read a short item in a Paris newspaper: the upkeep of the Eiffel Tower had become so expensive that demolition might be cheaper. From that single sentence, Lustig constructed one of the boldest cons in history – and sold the tower not once, but twice, to unsuspecting scrap dealers.</p>
       </div>
 

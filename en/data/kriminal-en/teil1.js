@@ -231,7 +231,7 @@ export function andrewCunananPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. The Cheetah</h3>
-        <p class="vb-intro">The <strong>cheetah</strong> is the animal of the Social Three — and it fits Andrew Cunanan with an almost eerie precision. The cheetah is the fastest land animal in the world, but not a creature of endurance: it is built for the perfect moment of attack, for speed and accuracy, not for the long haul. It thrives on its external elegance, its adaptability to the terrain, its ability to maneuver into the exact position from which it can strike most effectively. When the hunt fails, there is no Plan B — the cheetah breaks off and retreats to safety. Andrew Cunanan had no Plan B. When his world collapsed, he kept hunting — until he had nothing left except the biggest headline he could possibly imagine.</p>
+        <p class="vb-intro">The <strong>cheetah</strong> is the emblem of the Social Three — and it fits Andrew Cunanan with an almost eerie precision. The cheetah is the fastest land animal in the world, but not a creature of endurance: it is built for the perfect moment of attack, for speed and accuracy, not for the long haul. It thrives on its external elegance, its adaptability to the terrain, its ability to maneuver into the exact position from which it can strike most effectively. When the hunt fails, there is no Plan B — the cheetah breaks off and retreats to safety. Andrew Cunanan had no Plan B. When his world collapsed, he kept hunting — until he had nothing left except the biggest headline he could possibly imagine.</p>
       </div>
 
       <div class="vb-section">

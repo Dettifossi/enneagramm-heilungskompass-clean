@@ -1122,7 +1122,7 @@ export function frankAbagnalePortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Biber</h3>
-        <p class="vb-intro">Der <strong>Biber</strong> ist das Tier der sozialen Sieben \u2013 ein
+        <p class="vb-intro">Der <strong>Biber</strong> gilt als das Tier der sozialen Sieben \u2013 ein
         Baumeister, kein Einzelg\u00e4nger. Er verschwendet keine Energie im Alleingang,
         sondern errichtet Strukturen, die einem gr\u00f6\u00dferen Zweck dienen: den Damm,
         das Revier, das Netzwerk aus Kan\u00e4len, die das ganze \u00d6kosystem ver\u00e4ndern.
@@ -1314,7 +1314,7 @@ export function grisdaBlancoPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Orang-Utan</h3>
-        <p class="vb-intro">Der <strong>Orang-Utan</strong> ist das Tier der selbsterhaltenden Acht &ndash; und kein Bild trifft Griselda Blanco genauer. Der Orang-Utan ist das einsamste der gro\xdfen Menschenaffen. Er lebt nicht im Rudel, er braucht keine Herde. Er beansprucht ein Revier &ndash; still, methodisch, unnachgiebig &ndash; und verteidigt es mit einer Kraft, die man ihm von au\xdfen nicht ansieht. Er ist kein Angeber. Er zeigt sich nicht, wenn es nicht n\xf6tig ist. Aber wer in sein Territorium eindringt, lernt schnell, mit wem er es zu tun hat.</p>
+        <p class="vb-intro">Der <strong>Orang-Utan</strong> ist das Sinnbild der selbsterhaltenden Acht &ndash; und kein Bild trifft Griselda Blanco genauer. Der Orang-Utan ist das einsamste der gro\xdfen Menschenaffen. Er lebt nicht im Rudel, er braucht keine Herde. Er beansprucht ein Revier &ndash; still, methodisch, unnachgiebig &ndash; und verteidigt es mit einer Kraft, die man ihm von au\xdfen nicht ansieht. Er ist kein Angeber. Er zeigt sich nicht, wenn es nicht n\xf6tig ist. Aber wer in sein Territorium eindringt, lernt schnell, mit wem er es zu tun hat.</p>
         <p class="vb-intro">Griselda Blanco war ein Orang-Utan. Sie regierte das Kokaingesch\xe4ft in Miami nicht durch Charisma oder politischen Einfluss, sondern durch stille, kompromisslose Kontrolle. Sie gab keine Interviews. Sie trat nicht ins Rampenlicht. Sie lebte unter falschen Namen, wechselte Identit\xe4ten, operierte aus dem Verborgenen. Und wer ihr in die Quere kam, verschwand.</p>
       </div>
 
@@ -2825,7 +2825,7 @@ export function ojSimpsonPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Gepard</h3>
-        <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei &ndash; und er tr\xe4gt O.J. Simpsons Geschichte in jeder Faser. Der Gepard ist das schnellste Landtier der Welt: vollk\xf6rperlicher Einsatz, absolute Pr\xe4senz, der gro\xdfe Moment &ndash; und dann die Ersch\u00f6pfung, das Abseits, der Zusammenbruch. Was der Gepard nicht ist: ein Ausdauertier. Er brilliert, solange er im Rampenlicht steht. In der Stille wird er unsichtbar. O.J. Simpson hat während seines ganzen Lebens gebrillt. Als das Rampenlicht erlosch, konnte er nicht einfach gehen.</p>
+        <p class="vb-intro">Der <strong>Gepard</strong> ist die tierische Entsprechung der sozialen Drei &ndash; und er tr\xe4gt O.J. Simpsons Geschichte in jeder Faser. Der Gepard ist das schnellste Landtier der Welt: vollk\xf6rperlicher Einsatz, absolute Pr\xe4senz, der gro\xdfe Moment &ndash; und dann die Ersch\u00f6pfung, das Abseits, der Zusammenbruch. Was der Gepard nicht ist: ein Ausdauertier. Er brilliert, solange er im Rampenlicht steht. In der Stille wird er unsichtbar. O.J. Simpson hat während seines ganzen Lebens gebrillt. Als das Rampenlicht erlosch, konnte er nicht einfach gehen.</p>
       </div>
 
       <div class="vb-section">
@@ -2935,7 +2935,7 @@ export function pamelaSmartPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Das Kamel</h3>
-        <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei &ndash; und es ist ein unerwartetes, aber treffendes Bild. Das Kamel gibt alles: es tr\xe4gt Lasten \xfcber die gr\xf6\xdfte Hitze, stellt sich in den Dienst, verzichtet auf eigene Bed\xfcrfnisse, speichert Ressourcen f\xfcr den Weg. Aber das Kamel ist kein zahmes Tier. Wer es untersch\u00e4tzt, wer glaubt, es dauerhaft ausnutzen zu k\xf6nnen, erlebt eine andere Seite: das Kamel bei\u00dft, spuckt, bricht aus. Es hat Geduld &ndash; aber keine grenzenlose Unterwerfung.</p>
+        <p class="vb-intro">Das <strong>Kamel</strong> ist das Wappentier der sexuellen Zwei &ndash; und es ist ein unerwartetes, aber treffendes Bild. Das Kamel gibt alles: es tr\xe4gt Lasten \xfcber die gr\xf6\xdfte Hitze, stellt sich in den Dienst, verzichtet auf eigene Bed\xfcrfnisse, speichert Ressourcen f\xfcr den Weg. Aber das Kamel ist kein zahmes Tier. Wer es untersch\u00e4tzt, wer glaubt, es dauerhaft ausnutzen zu k\xf6nnen, erlebt eine andere Seite: das Kamel bei\u00dft, spuckt, bricht aus. Es hat Geduld &ndash; aber keine grenzenlose Unterwerfung.</p>
         <p class="vb-intro">Pamela Smart gab viel: ihre Zeit, ihre Aufmerksamkeit, ihre Sexualit\xe4t, ihre Zuneigung. Sie gab einem 15-j\xe4hrigen Jungen das Gef\u00fchl, das Wichtigste auf der Welt zu sein. Und dann, als sie bekam, was sie brauchte, war ihre Gabe zugleich das giftigste Mittel, das sie einsetzen konnte.</p>
       </div>
 

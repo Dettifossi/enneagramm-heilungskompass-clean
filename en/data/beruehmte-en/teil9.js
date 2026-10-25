@@ -18,7 +18,7 @@ export function cgJungPortraitPage() {
         <h2 class="vb-section">1. The octopus who mapped the unconscious</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Carl Gustav Jung was born in 1875 in Kesswil on Lake Constance, the son of a Swiss Reformed pastor. Even as a child he showed a pronounced inwardness and a strong interest in dreams, myths, and religious questions. From 1895 to 1900 he studied medicine at the University of Basel, with a particular interest in psychiatry – a field still held in low regard within medicine at the time, one most of his fellow students avoided. Immediately after graduating, in 1900, he took a position as an assistant physician at the Burghölzli clinic in Zurich under Eugen Bleuler, and in the following years, together with Franz Riklin, developed the word association test, which gave him his first empirical evidence for unconscious psychic content.</p>
-          <p class="vb-intro">The <strong>octopus</strong> is the animal of the social Five – highly intelligent, a master problem-solver that shapes its complex thinking so others can share in it. Over decades Jung built an encyclopedic system out of mythology, alchemy, the history of religion, and psychiatry – not to keep it to himself, but to make it accessible to a growing community of students and patients.</p>
+          <p class="vb-intro">The <strong>octopus</strong> is the emblem of the social Five – highly intelligent, a master problem-solver that shapes its complex thinking so others can share in it. Over decades Jung built an encyclopedic system out of mythology, alchemy, the history of religion, and psychiatry – not to keep it to himself, but to make it accessible to a growing community of students and patients.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The social Five: knowledge as a legacy for the community</h2>
@@ -163,7 +163,7 @@ export function annikaVonMutiusPortraitPage() {
 
         <h2 class="vb-section">1. The Raccoon</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that would rather build a working system than a shop window. It doesn't show off what it can do; it lets the result speak for itself, while the real work quietly continues out of sight.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> is the emblem of the self-preservation Three &ndash; an animal that would rather build a working system than a shop window. It doesn't show off what it can do; it lets the result speak for itself, while the real work quietly continues out of sight.</p>
           <p class="vb-intro">The German entrepreneur Dr. Annika von Mutius grew up in Koblenz, in a family that ran a wire-processing company &ndash; a solid, craft-driven family business, not an environment that called for a big stage. She earned her PhD in mathematics at WHU in Vallendar, but found the academic path too abstract and instead spent four years as Head of Product at Multiply Labs in Silicon Valley &ndash; a detour through pure practice before she found her own way.</p>
         </blockquote>
 
@@ -367,7 +367,7 @@ export function cynthiaMossPortraitPage() {
 
         <h2 class="vb-section">1. The Elephant Who Stayed with the Elephants for a Lifetime</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>elephant</strong> is the animal of the Self-Preservation Nine &ndash; majestic, deeply grounded, peaceful, carried by wisdom, memory, and unshakeable loyalty, working steadily in the background rather than pushing itself to the front. Dr. Cynthia Moss embodies this principle so completely that there is hardly a more fitting image in this compass: the American behavioral ecologist is regarded as the undisputed grande dame of elephant research.</p>
+          <p class="vb-intro">The <strong>elephant</strong> is the symbolic animal of the Self-Preservation Nine &ndash; majestic, deeply grounded, peaceful, carried by wisdom, memory, and unshakeable loyalty, working steadily in the background rather than pushing itself to the front. Dr. Cynthia Moss embodies this principle so completely that there is hardly a more fitting image in this compass: the American behavioral ecologist is regarded as the undisputed grande dame of elephant research.</p>
           <p class="vb-intro">In 1972, together with Harvey Croze, she founded the Amboseli Elephant Research Project in Kenya &ndash; and still directs it today, more than fifty years later. She has followed individual elephant families and their matriarchs continuously for over five decades: the same animals, the same region, the same quiet, unshakeable focus, decade after decade. This is not one career among several. It is a single, undivided life's work.</p>
         </blockquote>
 
@@ -869,7 +869,7 @@ export function joeNavarroPortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that ultimately wants to pass its own, hard-won abilities on to an entire community. Joe Navarro's interest in body language did not arise from academic curiosity, but from sheer necessity: as a young Cuban refugee in Miami who did not yet speak English, he learned to understand people through their bodily signals instead of words.</p>
+          <p class="vb-intro">The <strong>Golden Retriever</strong> stands as the animal of the social Two &ndash; an animal that ultimately wants to pass its own, hard-won abilities on to an entire community. Joe Navarro's interest in body language did not arise from academic curiosity, but from sheer necessity: as a young Cuban refugee in Miami who did not yet speak English, he learned to understand people through their bodily signals instead of words.</p>
           <p class="vb-intro">Joe Navarro was born on May 26, 1953, in Cienfuegos, Cuba. What began as a survival skill of a linguistically isolated child became the foundation of an extraordinary career &ndash; at 23, he was personally recruited by the FBI and became one of the youngest agents in the agency's history.</p>
         </blockquote>
 
@@ -1401,7 +1401,7 @@ export function reinholdWuerthPortraitPage() {
 
         <h2 class="vb-section">1. The Eagle That Built an Empire From a Small Nest</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>bald eagle</strong> is the animal of the self-preservation One: over decades it keeps enlarging its nest, piece by piece, until it can weigh tons &ndash; never a spontaneous leap, but persistent, patient growth of what already bears weight. It rarely acts on impulse, defends its territory with the utmost care, and its gaze is fixed on order and control, not on display.</p>
+          <p class="vb-intro">The <strong>bald eagle</strong> is the symbolic animal of the self-preservation One: over decades it keeps enlarging its nest, piece by piece, until it can weigh tons &ndash; never a spontaneous leap, but persistent, patient growth of what already bears weight. It rarely acts on impulse, defends its territory with the utmost care, and its gaze is fixed on order and control, not on display.</p>
           <p class="vb-intro">Reinhold Würth, born in 1935 in Öhringen, took over his father's small wholesale screw business &ndash; two employees &ndash; at nineteen in 1954, after his father's sudden death. Over seven decades he built this tiny nest into one of Europe's largest trading groups: the Würth Group, today spanning well over 400 companies in more than 80 countries with more than 85,000 employees. No single spectacular coup, but decades of systematic expansion, one country after another, one sales channel after another.</p>
         </blockquote>
 
@@ -1599,7 +1599,7 @@ export function udoJuergensPortraitPage() {
 
         <h2 class="vb-section">1. The Eagle With the Longest Breath in Schlager Music</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>eagle</strong> is the animal of the self-preservation One &ndash; it builds its work with the utmost care, disciplined and persistent, high above the fast-moving hustle, and surveys its craft with unerring precision. Hardly any artist embodies this lifelong, disciplined persistence as much as Udo Jürgens.</p>
+          <p class="vb-intro">The <strong>eagle</strong> is the symbolic animal of the self-preservation One &ndash; it builds its work with the utmost care, disciplined and persistent, high above the fast-moving hustle, and surveys its craft with unerring precision. Hardly any artist embodies this lifelong, disciplined persistence as much as Udo Jürgens.</p>
           <p class="vb-intro">The Austrian singer Udo Jürgen Bockelmann was born in 1934 in Klagenfurt, began playing piano and trumpet as a child, and composed his first schlager song at age 14. Despite years of setbacks &ndash; he took part in talent competitions and selection processes for over a decade before his breakthrough came &ndash; he held unwaveringly to his musical discipline: daily piano practice, meticulous work perfecting melodies and lyrics, an almost craftsman-like standard for his own art.</p>
         </blockquote>
 
@@ -1946,7 +1946,7 @@ export function reinholdMessnerPortraitPage() {
 
         <h2 class="vb-section">1. The Bald Eagle</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Bald Eagle</strong> is the animal of the self-preservation One &ndash; an animal that impresses not through shows of force, but through the precision with which it reaches heights most others cannot survive. Reinhold Messner, born in 1944 in South Tyrol, began climbing at age five and has since undertaken well over a hundred expeditions to mountains and deserts.</p>
+          <p class="vb-intro">The <strong>Bald Eagle</strong> is the animal counterpart of the self-preservation One &ndash; an animal that impresses not through shows of force, but through the precision with which it reaches heights most others cannot survive. Reinhold Messner, born in 1944 in South Tyrol, began climbing at age five and has since undertaken well over a hundred expeditions to mountains and deserts.</p>
           <p class="vb-intro">As the first person, he climbed all 14 eight-thousanders on Earth, summited Mount Everest in 1978 together with Peter Habeler as the first to do so without bottled oxygen, and in 1980 even solo. None of these feats came from recklessness &ndash; each was the result of years of meticulous preparation, in a place where a single mistake would have meant death.</p>
         </blockquote>
 
@@ -2145,7 +2145,7 @@ export function haraldLeschPortraitPage() {
 
         <h2 class="vb-section">1. The Owl Who Refused to Simplify Science</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>owl</strong> is the animal of the Self-Preservation Five: it hoards its knowledge until it is truly sound, and only shows itself once nothing more is missing. Harald Lesch, born in 1960 in Gießen, studied physics, mathematics, and philosophy, and has been professor of theoretical astrophysics at Ludwig Maximilian University of Munich since 1995 – he also holds a chair in natural philosophy at the Munich School of Philosophy, an institution run by Jesuits.</p>
+          <p class="vb-intro">The <strong>owl</strong> is the emblem of the Self-Preservation Five: it hoards its knowledge until it is truly sound, and only shows itself once nothing more is missing. Harald Lesch, born in 1960 in Gießen, studied physics, mathematics, and philosophy, and has been professor of theoretical astrophysics at Ludwig Maximilian University of Munich since 1995 – he also holds a chair in natural philosophy at the Munich School of Philosophy, an institution run by Jesuits.</p>
           <p class="vb-intro">From 1998 to 2015 he hosted more than 200 episodes of "alpha-Centauri," in which he explained complex physics questions in full depth rather than cutting them down to headline format. The owl shows itself only once the explanation is complete – not sooner.</p>
         </blockquote>
 
@@ -2279,7 +2279,7 @@ export function gabiGarciaPortraitPage() {
 
         <h2 class="vb-section">1. The Lion</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Lion</strong> is the animal of the social Eight – an animal whose sheer physical presence commands respect before any fight even begins. In Gabrielle "Gabi" Garcia, born 1985 in Porto Alegre, that image is almost literal: at 1.87 meters and a muscular 95 kilograms, she physically towers over nearly every opponent in women's combat sports – a stature that, in a sport where weight classes usually settle everything, became a category of its own.</p>
+          <p class="vb-intro">The <strong>Lion</strong> stands as the animal of the social Eight – an animal whose sheer physical presence commands respect before any fight even begins. In Gabrielle "Gabi" Garcia, born 1985 in Porto Alegre, that image is almost literal: at 1.87 meters and a muscular 95 kilograms, she physically towers over nearly every opponent in women's combat sports – a stature that, in a sport where weight classes usually settle everything, became a category of its own.</p>
           <p class="vb-intro">As a teenager she first played volleyball, team handball, and field hockey, before her uncle introduced her to Brazilian Jiu-Jitsu around age 13, shortly after her family moved to São Paulo. She was close to finishing a degree in advertising when she decided to commit fully to combat sports – a decision that would make her the most dominant competitor in the history of women's Jiu-Jitsu.</p>
         </blockquote>
 
@@ -2345,7 +2345,7 @@ export function paulBocusePortraitPage() {
 
         <h2 class="vb-section">1. The Raccoon</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three – pragmatic, grounded, with an unerring instinct for what holds up over decades, rather than merely shining briefly. Paul Bocuse was born in 1926 in Collonges-au-Mont-d'Or near Lyon, the only son of a family of restaurateurs who had hosted guests there since the eighteenth century. At sixteen, in the middle of the Second World War, he put on his first chef's jacket and later trained under two formative masters of French cuisine, Eugénie Brazier and Fernand Point.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> is the emblem of the self-preservation Three – pragmatic, grounded, with an unerring instinct for what holds up over decades, rather than merely shining briefly. Paul Bocuse was born in 1926 in Collonges-au-Mont-d'Or near Lyon, the only son of a family of restaurateurs who had hosted guests there since the eighteenth century. At sixteen, in the middle of the Second World War, he put on his first chef's jacket and later trained under two formative masters of French cuisine, Eugénie Brazier and Fernand Point.</p>
           <p class="vb-intro">In 1959 he took over his family's struggling inn – not a glamorous fresh start elsewhere, but a patient return to his own roots to build something lasting there. For more than fifty years he remained loyal to the same house, until his death in 2018.</p>
         </blockquote>
 
@@ -2479,7 +2479,7 @@ export function yannickVanDeVeldePortraitPage() {
 
         <h2 class="vb-section">1. The Dove in the Shadow of a Family Name</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>dove</strong> is the animal of the self-preservation Four &ndash; a bird that does not stand out through loud display, but through always finding its own quiet way back. Yannick van de Velde, born August 15, 1989 in Utrecht, stood in front of a camera as early as age eight, including in the children's series ›Schoon Goed‹ (Dutch for ›Clean Stuff‹) and in 1999 in ›Kruimeltje‹ (›Little Crumb‹) &ndash; as the son of the well-known director Jean van de Velde, he grew up from the start in the shadow of an already established name, without yet knowing what trace of his own he would leave in it.</p>
+          <p class="vb-intro">The <strong>dove</strong> is the animal counterpart of the self-preservation Four &ndash; a bird that does not stand out through loud display, but through always finding its own quiet way back. Yannick van de Velde, born August 15, 1989 in Utrecht, stood in front of a camera as early as age eight, including in the children's series ›Schoon Goed‹ (Dutch for ›Clean Stuff‹) and in 1999 in ›Kruimeltje‹ (›Little Crumb‹) &ndash; as the son of the well-known director Jean van de Velde, he grew up from the start in the shadow of an already established name, without yet knowing what trace of his own he would leave in it.</p>
           <p class="vb-intro">In 2004, the lead role of Remco van Leeuwen in ›In Oranje‹ (›In Orange‹, a nod to the Dutch national football team's jersey color) became his real breakthrough: in 2005 he became the first Dutch actor ever to receive a Young Artist Award in Hollywood for it &ndash; an early, public confirmation that, at the same time, finally let him step out from under the mere reflex of his father's name.</p>
         </blockquote>
 

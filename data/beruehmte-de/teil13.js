@@ -17,7 +17,7 @@ export function aliceSchwarzerPortraitPage() {
 
         <h2 class="vb-section">1. Der Wolf</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; ein Tier, das in den M\u00e4rchen als Bedrohung erscheint, in der Realit\u00e4t aber vor allem eines ist: loyal, territorial und missverstanden. Der Wolf lebt im Rudel, k\u00e4mpft f\u00fcr das Rudel &ndash; und zeigt die Z\u00e4hne, wenn das Rudel bedroht wird. Er duckt sich nicht. Er weicht nicht aus. Und er erinnert sich, wer ihm feindlich gegen\u00fcberstand.</p>
+          <p class="vb-intro">Der <strong>Wolf</strong> gilt als das Tier des sexuellen Typs 6 &ndash; ein Tier, das in den M\u00e4rchen als Bedrohung erscheint, in der Realit\u00e4t aber vor allem eines ist: loyal, territorial und missverstanden. Der Wolf lebt im Rudel, k\u00e4mpft f\u00fcr das Rudel &ndash; und zeigt die Z\u00e4hne, wenn das Rudel bedroht wird. Er duckt sich nicht. Er weicht nicht aus. Und er erinnert sich, wer ihm feindlich gegen\u00fcberstand.</p>
           <p class="vb-intro">Die deutsche Journalistin Alice Schwarzer ist dieser Wolf. Seit mehr als f\u00fcnf Jahrzehnten k\u00e4mpft sie f\u00fcr Frauenrechte &ndash; mit einer Direktheit, die viele erschreckt, und einer Ausdauer, die wenige aufbringen. Sie hat Debatten angesto\u00dfen, die niemand f\u00fchren wollte. Sie hat Strukturen benannt, die niemand benennen wollte. Und sie hat daf\u00fcr einen Preis gezahlt: Anfeindungen, Verachtung, Missverst\u00e4ndnisse &ndash; und mehr Gegner als die meisten Menschen in einem Leben sammeln. Der Wolf, der nicht aufh\u00f6rt zu heulen.</p>
         </blockquote>
 
@@ -149,7 +149,7 @@ export function bradPittPortraitPage() {
 
         <h2 class="vb-section">1. Der Pfau</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier der sexuellen Drei &ndash; ein Tier, dessen Wirkung nicht aus Berechnung entsteht, sondern aus reiner, unmittelbarer Präsenz. Er muss nichts beweisen, er muss nur da sein. Wer ihm begegnet, spürt eine Anziehungskraft, die sich jeder Analyse entzieht &ndash; und genau darin liegt seine Macht.</p>
+          <p class="vb-intro">Der <strong>Pfau</strong> ist die tierische Entsprechung der sexuellen Drei &ndash; ein Tier, dessen Wirkung nicht aus Berechnung entsteht, sondern aus reiner, unmittelbarer Präsenz. Er muss nichts beweisen, er muss nur da sein. Wer ihm begegnet, spürt eine Anziehungskraft, die sich jeder Analyse entzieht &ndash; und genau darin liegt seine Macht.</p>
           <p class="vb-intro">Der US-amerikanische Schauspieler Brad Pitt wurde mit einer kleinen, aber unübersehbaren Nebenrolle in <em>Thelma &amp; Louise</em> (1991) quasi über Nacht zum Objekt kollektiver Faszination &ndash; wenige Filmminuten genügten, um ein ganzes Kinopublikum aufhorchen zu lassen. Kein aufwendig konstruierter Star-Auftritt, sondern schlichte, körperliche Präsenz, die sich nicht erklären lässt, nur erleben. Der Pfau, der einen Raum verändert, allein durch das, was er darstellt.</p>
         </blockquote>
 
@@ -223,7 +223,7 @@ export function charlesDarwinPortraitPage() {
 
         <h2 class="vb-section">1. Die Eule, die zwanzig Jahre wartete</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Eule</strong> ist das Tier des selbsterhaltenden Typs 5 &ndash; ein Tier der n\xe4chtlichen Stille, der pr\xe4zisen Beobachtung und des tiefen Wissens. Sie jagt nicht im offenen Feld, sondern aus der Deckung heraus: unbewegt, geduldig, bis der Moment reif ist. Sie sieht Dinge, an denen andere achtlos vorbeigehen &ndash; und sie schweigt lange, bevor sie ruft.</p>
+          <p class="vb-intro">Die <strong>Eule</strong> ist das Sinnbild des selbsterhaltenden Typs 5 &ndash; ein Tier der n\xe4chtlichen Stille, der pr\xe4zisen Beobachtung und des tiefen Wissens. Sie jagt nicht im offenen Feld, sondern aus der Deckung heraus: unbewegt, geduldig, bis der Moment reif ist. Sie sieht Dinge, an denen andere achtlos vorbeigehen &ndash; und sie schweigt lange, bevor sie ruft.</p>
           <p class="vb-intro">Der britische Naturforscher Charles Darwin war diese Eule: Ein Mann, der eine der folgenreichsten Ideen der Wissenschaftsgeschichte in sich trug &ndash; und der sie zwanzig Jahre lang zur\xfcckhielt, bevor er sie ver\xf6ffentlichte. Nicht aus Zweifel an ihrer Richtigkeit, sondern aus einem tiefen Bed\xfcrfnis, jeden Einwand vorwegzunehmen, jedes Detail zu sichern, bevor er sich der Welt aussetzte. Kein Abenteurer, der die Sensation suchte. Ein Beobachter, der wartete, bis das Beobachtete unangreifbar war.</p>
         </blockquote>
 
@@ -299,7 +299,7 @@ export function davidBowiePortraitPage() {
 
         <h2 class="vb-section">1. Die Gans</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins &ndash; ein Tier, das wacht, warnt, und R\u00e4ume f\u00fcr die Gruppe \u00f6ffnet, die sie sonst nicht h\u00e4tte. Bei David Bowie zeigt sich das nicht als musikalische Formation, sondern als kulturelle: Er ging voran, damit andere folgen konnten. Jede seiner Verwandlungen &ndash; Ziggy Stardust, der Thin White Duke, sp\u00e4ter der zur\u00fcckhaltende Berliner Elektronik-Experimentator &ndash; \u00f6ffnete einen Raum, den vorher niemand betreten hatte, und den danach viele betreten durften.</p>
+          <p class="vb-intro">Die <strong>Gans</strong> gilt als das Tier der sozialen Eins &ndash; ein Tier, das wacht, warnt, und R\u00e4ume f\u00fcr die Gruppe \u00f6ffnet, die sie sonst nicht h\u00e4tte. Bei David Bowie zeigt sich das nicht als musikalische Formation, sondern als kulturelle: Er ging voran, damit andere folgen konnten. Jede seiner Verwandlungen &ndash; Ziggy Stardust, der Thin White Duke, sp\u00e4ter der zur\u00fcckhaltende Berliner Elektronik-Experimentator &ndash; \u00f6ffnete einen Raum, den vorher niemand betreten hatte, und den danach viele betreten durften.</p>
           <p class="vb-intro">Der britische Musiker David Bowie, geboren 1947 in London als David Robert Jones, war zun\u00e4chst m\u00e4\u00dfig erfolgreich unter mehreren Namen, bevor er Anfang der Siebzigerjahre mit einer androgynen, au\u00dferirdischen B\u00fchnenfigur die Popkultur ver\u00e4nderte. Das war keine Laune und kein reiner Selbstausdruck &ndash; es war eine gezielte, fast strategische \u00d6ffnung des \u00f6ffentlichen Raums f\u00fcr alles, was bis dahin dort keinen Platz hatte.</p>
           <p class="vb-intro">Die Gans fliegt nicht f\u00fcr sich allein. Sie ruft, damit die anderen die Formation finden. Bowie tat genau das &ndash; \u00fcber f\u00fcnf Jahrzehnte hinweg, in immer neuer Gestalt.</p>
         </blockquote>
@@ -427,7 +427,7 @@ export function fjodorDostojewskiPortraitPage() {
 
         <h2 class="vb-section">1. Das Kaninchen, das dem Tod ins Gesicht sah</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier des selbsterhaltenden Typs 6 &ndash; wachsam, liebenswert, anpassungsf\u00e4hig. Es l\u00e4uft nicht auf Konfrontation zu. Es h\u00f6rt, bevor es sich bewegt. Es sucht Sicherheit in N\u00e4he, in Bindung, in dem, was vertraut ist &ndash; und bleibt selbst in Ausnahmesituationen erstaunlich funktionsf\u00e4hig, weil es die Gefahr l\u00e4ngst kalkuliert hat, bevor sie eintraf.</p>
+          <p class="vb-intro">Das <strong>Kaninchen</strong> gilt als das Tier des selbsterhaltenden Typs 6 &ndash; wachsam, liebenswert, anpassungsf\u00e4hig. Es l\u00e4uft nicht auf Konfrontation zu. Es h\u00f6rt, bevor es sich bewegt. Es sucht Sicherheit in N\u00e4he, in Bindung, in dem, was vertraut ist &ndash; und bleibt selbst in Ausnahmesituationen erstaunlich funktionsf\u00e4hig, weil es die Gefahr l\u00e4ngst kalkuliert hat, bevor sie eintraf.</p>
           <p class="vb-intro">Der russische Schriftsteller Fjodor Michailowitsch Dostojewski wurde 1821 in Moskau als Sohn eines Milit\u00e4rarztes geboren, der von seinen eigenen Leibeigenen ermordet worden sein soll, als Fjodor 17 war &ndash; ein Ereignis, das während seines ganzen Lebens wie ein Schatten \u00fcber ihm lag. Schon in jungen Jahren litt er an Epilepsie, einer Krankheit, die ihn ein Leben lang begleitete und die er sp\u00e4ter in mehreren seiner Figuren verarbeitete.</p>
         </blockquote>
 
@@ -511,7 +511,7 @@ export function genesisPOrridgePortraitPage() {
 
         <h2 class="vb-section">1. Das Krokodil</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Krokodil</strong> ist das Tier des sexuellen Typs 8 &ndash; das \u00e4lteste Raubtier der Erde, urt\u00fcmlich, geduldig und von einer Beharrlichkeit, die Jahrmillionen \u00fcberdauert hat. Es ver\u00e4ndert sich nicht, weil es keinen Grund dazu sieht. Es liegt im Wasser, fast reglos, und wartet. Wenn es zuschnappt, gibt es kein Zur\u00fcck mehr.</p>
+          <p class="vb-intro">Das <strong>Krokodil</strong> gilt als das Tier des sexuellen Typs 8 &ndash; das \u00e4lteste Raubtier der Erde, urt\u00fcmlich, geduldig und von einer Beharrlichkeit, die Jahrmillionen \u00fcberdauert hat. Es ver\u00e4ndert sich nicht, weil es keinen Grund dazu sieht. Es liegt im Wasser, fast reglos, und wartet. Wenn es zuschnappt, gibt es kein Zur\u00fcck mehr.</p>
           <p class="vb-intro">Der britische K\u00fcnstler Genesis P-Orridge war dieses Krokodil &ndash; ein Wesen, das in den Tiefen der Gegenkultur lauerte und mit einem Werk zuschnappte, das die Welt der Kunst, der Musik und des Bewusstseins f\u00fcr immer ver\u00e4ndert hat. Als Gr\u00fcnder von Throbbing Gristle schuf Genesis 1975 mit Industrial Music ein Genre, das Jahrzehnte vor seiner Zeit war. Als Gr\u00fcnder der COUM Transmissions provozierte Genesis das Establishment so grundlegend, dass ein britischer Abgeordneter die Gruppe im Parlament als "Feinde der Gesellschaft" bezeichnete. Das Krokodil muss nicht laut sein. Es muss nur da sein &ndash; und zuschlagen, wenn der Moment kommt.</p>
         </blockquote>
 
@@ -642,7 +642,7 @@ export function hundertwasserPortraitPage() {
 
         <h2 class="vb-section">1. Das Faultier</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier der sexuellen Neun &ndash; kein Symbol f\u00fcr Tr\u00e4gheit, sondern f\u00fcr eine Existenzweise, die sich der Umgebung so vollst\u00e4ndig anverwandelt, dass die Grenze zwischen Wesen und Lebensraum verschwimmt. Faultiere bewegen sich langsam, weil Eile der Verschmelzung im Weg steht &ndash; und ihr Fell tr\u00e4gt eigene Algen und \u00d6kosysteme: Das Tier wird buchst\u00e4blich zum Lebensraum f\u00fcr anderes Leben. Kein Zufallstier f\u00fcr einen Mann, der sein Haus mit Erde bedecken und B\u00e4ume auf jedem Balkon wachsen lassen wollte.</p>
+          <p class="vb-intro">Das <strong>Faultier</strong> gilt als das Tier der sexuellen Neun &ndash; kein Symbol f\u00fcr Tr\u00e4gheit, sondern f\u00fcr eine Existenzweise, die sich der Umgebung so vollst\u00e4ndig anverwandelt, dass die Grenze zwischen Wesen und Lebensraum verschwimmt. Faultiere bewegen sich langsam, weil Eile der Verschmelzung im Weg steht &ndash; und ihr Fell tr\u00e4gt eigene Algen und \u00d6kosysteme: Das Tier wird buchst\u00e4blich zum Lebensraum f\u00fcr anderes Leben. Kein Zufallstier f\u00fcr einen Mann, der sein Haus mit Erde bedecken und B\u00e4ume auf jedem Balkon wachsen lassen wollte.</p>
           <p class="vb-intro">Hundertwassers gesamtes Werk ist der Versuch, diese Verschmelzung sichtbar zu machen: H\u00e4user ohne gerade Linie, D\u00e4cher, die Wiesen tragen, Fassaden, die wie Baumrinde wachsen. Wo andere Architektur gegen die Natur behaupten, lie\u00df er sie mit der Natur verschmelzen &ndash; das Faultier, das keine Grenze zwischen sich und seinem Baum kennt.</p>
         </blockquote>
 
@@ -713,7 +713,7 @@ export function janUllrichPortraitPage() {
 
         <h2 class="vb-section">1. Das Flusspferd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, das trotz seines gewaltigen Gewichts auf dem Grund eines Flusses mit einer Leichtigkeit l\u00e4uft, die man ihm von au\u00dfen nicht zutraut, fast schwerelos abst\u00f6\u00dft und gleitet, obwohl es kaum schwimmen kann im eigentlichen Sinn. Es bewegt sich am kraftvollsten dort, wo sein Gewicht ihm eigentlich im Weg sein m\u00fcsste.</p>
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Wappentier der selbsterhaltenden Zwei &ndash; ein Tier, das trotz seines gewaltigen Gewichts auf dem Grund eines Flusses mit einer Leichtigkeit l\u00e4uft, die man ihm von au\u00dfen nicht zutraut, fast schwerelos abst\u00f6\u00dft und gleitet, obwohl es kaum schwimmen kann im eigentlichen Sinn. Es bewegt sich am kraftvollsten dort, wo sein Gewicht ihm eigentlich im Weg sein m\u00fcsste.</p>
           <p class="vb-intro">Der deutsche Radrennfahrer Jan Ullrich hat dieses Tier in sich gelebt &ndash; mit allem, was dazugeh\u00f6rt. Auf dem Rad war er das reinste Naturtalent der Radsportgeschichte: Kraftentfaltung, Rhythmus, Leidensf\u00e4higkeit auf einem Niveau, das selbst seine sch\u00e4rfsten Rivalen zur Ehrerbietung zwang. Abseits des Rads suchte er das Gleichgewicht immer wieder &ndash; und fand es nicht immer. Das Flusspferd braucht sein Wasser. F\u00fcr Ullrich war das Fahrrad dieses Wasser.</p>
         </blockquote>
 
@@ -775,7 +775,7 @@ export function johnLennonPortraitPage() {
 
         <h2 class="vb-section">1. Das G\u00fcrteltier</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>G\u00fcrteltier</strong> ist das Tier des sozialen Typs 4 &ndash; und es ist ein Tier, das Widerspr\u00fcche in sich vereint. Nach au\u00dfen tr\u00e4gt es einen harten Panzer, der es unverwundbar wirken l\u00e4sst. Innen sch\u00fctzt dieser Panzer ein Wesen, das au\u00dfergew\u00f6hnlich empfindlich ist. Das G\u00fcrteltier ist kein Einzelg\u00e4nger &ndash; es lebt in der Gemeinschaft, braucht die Gemeinschaft, auch wenn es sich in ihr manchmal fremd f\u00fchlt. Und in seiner Einzigartigkeit unter den S\u00e4ugetieren tr\u00e4gt es etwas Unverwechselbares: Niemand sonst sieht so aus. Niemand sonst ist so gebaut.</p>
+          <p class="vb-intro">Das <strong>G\u00fcrteltier</strong> ist das Sinnbild des sozialen Typs 4 &ndash; und es ist ein Tier, das Widerspr\u00fcche in sich vereint. Nach au\u00dfen tr\u00e4gt es einen harten Panzer, der es unverwundbar wirken l\u00e4sst. Innen sch\u00fctzt dieser Panzer ein Wesen, das au\u00dfergew\u00f6hnlich empfindlich ist. Das G\u00fcrteltier ist kein Einzelg\u00e4nger &ndash; es lebt in der Gemeinschaft, braucht die Gemeinschaft, auch wenn es sich in ihr manchmal fremd f\u00fchlt. Und in seiner Einzigartigkeit unter den S\u00e4ugetieren tr\u00e4gt es etwas Unverwechselbares: Niemand sonst sieht so aus. Niemand sonst ist so gebaut.</p>
           <p class="vb-intro">John Lennon war einer der einflussreichsten Musiker des 20. Jahrhunderts &ndash; und ein Mann, der sein ganzes Leben zwischen Panzer und Verletzlichkeit pendelte. Auf der B\u00fchne: Sch\u00e4rfe, Witz, Provokation. Im Inneren: ein Mensch, der tief nach Frieden suchte &ndash; in der Welt und in sich selbst. Das G\u00fcrteltier, das sich manchmal einrollt, um sich zu sch\u00fctzen, und manchmal aus dem Panzer heraustritt, um die Welt zu ver\u00e4ndern.</p>
         </blockquote>
 
@@ -1252,7 +1252,7 @@ export function penelopeCruzPortraitPage() {
 
         <h2 class="vb-section">1. Der Waschb\u00e4r</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschb\u00e4r</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das nicht durch Auftritt beeindruckt, sondern durch Geschicklichkeit. Er tr\u00e4gt eine nat\u00fcrliche Maske, ver\u00e4ndert sich mit seiner Umgebung, findet in jeder Nische einen Weg &ndash; leise, funktional, ohne Aufhebens um sich selbst zu machen.</p>
+          <p class="vb-intro">Der <strong>Waschb\u00e4r</strong> gilt als das Tier der selbsterhaltenden Drei &ndash; ein Tier, das nicht durch Auftritt beeindruckt, sondern durch Geschicklichkeit. Er tr\u00e4gt eine nat\u00fcrliche Maske, ver\u00e4ndert sich mit seiner Umgebung, findet in jeder Nische einen Weg &ndash; leise, funktional, ohne Aufhebens um sich selbst zu machen.</p>
           <p class="vb-intro">Die spanische Schauspielerin Pen\u00e9lope Cruz deb\u00fctierte mit f\u00fcnfzehn Jahren im spanischen Fernsehen, drehte mit siebzehn ihren ersten Kinofilm und ist seither, \u00fcber mehr als drei Jahrzehnte hinweg, pr\u00e4sent geblieben &ndash; als einzige spanische Schauspielerin mit einem Oscar, in Hollywood-Gro\u00dfproduktionen ebenso wie im spanischen Autorenkino. Und doch ist ihr \u00f6ffentliches Bild bemerkenswert unspektakul\u00e4r: kein Dauerskandal, keine inszenierte Selbstdarstellung, sondern ein Werk, das f\u00fcr sich spricht. Der Waschb\u00e4r, der sich in jede Rolle, jede Sprache, jedes Filmset einf\u00fcgt &ndash; und dabei doch niemals verschwindet.</p>
         </blockquote>
 
@@ -1325,7 +1325,7 @@ export function robertDeNiroPortraitPage() {
 
         <h2 class="vb-section">1. Der Adler</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins &ndash; ein Tier, das nicht durch Lautstärke beeindruckt, sondern durch Präzision. Er beobachtet lange, bevor er handelt. Er verschwendet keine Bewegung. Und wenn er schließlich zuschlägt, dann mit einer Genauigkeit, die keine Wiederholung braucht.</p>
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Sinnbild der selbsterhaltenden Eins &ndash; ein Tier, das nicht durch Lautstärke beeindruckt, sondern durch Präzision. Er beobachtet lange, bevor er handelt. Er verschwendet keine Bewegung. Und wenn er schließlich zuschlägt, dann mit einer Genauigkeit, die keine Wiederholung braucht.</p>
           <p class="vb-intro">Der US-amerikanische Schauspieler Robert De Niro gilt seit Jahrzehnten als einer der genauesten Beobachter seines Fachs. Kein Interview, in dem er sich selbst erklärt. Keine Talkshow-Präsenz, die von seiner Arbeit ablenkt. Der Adler zeigt sich nicht, um gesehen zu werden. Er zeigt sich, wenn die Rolle es verlangt &ndash; und verschwindet danach wieder in die Stille.</p>
         </blockquote>
 
@@ -1480,7 +1480,7 @@ export function thomasChaanhingPortraitPage() {
 
         <h2 class="vb-section">1. Das Flusspferd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das seine Basis nicht in einer einzigen Kultur oder Sprache sucht, sondern sich in mehreren Welten zugleich verwurzelt, um in jeder von ihnen zuverlässig präsent sein zu können. Thomas Chaanhing wurde am 2. Januar 1976 in Dänemark als Sohn dänisch-chinesischer Herkunft geboren – zwei kulturelle Wurzeln, die er im Lauf seiner Karriere nie gegeneinander ausspielte, sondern beide gleichermaßen pflegte.</p>
+          <p class="vb-intro">Das <strong>Flusspferd</strong> gilt als das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das seine Basis nicht in einer einzigen Kultur oder Sprache sucht, sondern sich in mehreren Welten zugleich verwurzelt, um in jeder von ihnen zuverlässig präsent sein zu können. Thomas Chaanhing wurde am 2. Januar 1976 in Dänemark als Sohn dänisch-chinesischer Herkunft geboren – zwei kulturelle Wurzeln, die er im Lauf seiner Karriere nie gegeneinander ausspielte, sondern beide gleichermaßen pflegte.</p>
           <p class="vb-intro">Seine Sprachkompetenz spiegelt diese doppelte Verwurzelung wider: Neben seiner dänischen Muttersprache spricht er fließend Kantonesisch, Englisch, Schwedisch, Deutsch und Mandarin – eine sprachliche Basis, die weit über das für eine Schauspielkarriere übliche Maß hinausgeht und von einem tiefen, persönlichen Bedürfnis nach Verbindung mit unterschiedlichen kulturellen Wurzeln zeugt.</p>
         </blockquote>
 
@@ -1608,7 +1608,7 @@ export function woodyAllenPortraitPage() {
 
         <h2 class="vb-section">1. Das Kaninchen, das lieber daheim bleibt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier des selbsterhaltenden Typs 6 &ndash; wachsam bis zur Ersch\u00f6pfung, st\u00e4ndig auf der Hut vor der n\u00e4chsten Gefahr, und am gl\u00fccklichsten im eigenen, vertrauten Bau. Es verl\u00e4sst sein Territorium nicht leichtfertig. Wenn es doch hinaus muss, dann am liebsten auf bekannten Wegen, zu bekannten Zeiten, mit einem Fluchtweg immer im Blick.</p>
+          <p class="vb-intro">Das <strong>Kaninchen</strong> ist die tierische Entsprechung des selbsterhaltenden Typs 6 &ndash; wachsam bis zur Ersch\u00f6pfung, st\u00e4ndig auf der Hut vor der n\u00e4chsten Gefahr, und am gl\u00fccklichsten im eigenen, vertrauten Bau. Es verl\u00e4sst sein Territorium nicht leichtfertig. Wenn es doch hinaus muss, dann am liebsten auf bekannten Wegen, zu bekannten Zeiten, mit einem Fluchtweg immer im Blick.</p>
           <p class="vb-intro">Der US-amerikanische Regisseur Woody Allen ist dieses Kaninchen ungefiltert &ndash; ein Mann, der praktisch sein ganzes Leben in Manhattan verbracht hat, der Flugzeuge, Aufz\u00fcge, Insekten, geschlossene R\u00e4ume und den Tod selbst f\u00fcrchtet, und der aus genau dieser Angst heraus eines der umfangreichsten Lebenswerke der Filmgeschichte geschaffen hat. Kaum ein anderer K\u00fcnstler hat die eigene Nervosit\u00e4t so offen zum Material seiner Kunst gemacht &ndash; und kaum einer hat trotz dieser Nervosit\u00e4t so viel geschaffen.</p>
         </blockquote>
 
@@ -1752,7 +1752,7 @@ export function seanPennPortraitPage() {
 
         <h2 class="vb-section">1. Das Krokodil, das in den Dschungel ging, um zuzubeißen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Krokodil</strong> ist das Tier der sexuellen Acht &ndash; geduldiges Warten, dann ein vollständiger, unwiderruflicher Zugriff, ohne Vorwarnung, ohne verschwendete Energie. Sean Penn, geboren 1960 in Kalifornien, wurde als Schauspieler durch Rollen bekannt, die genau diese Intensität körperlich spürbar machten: "Mystic River" und "Milk" brachten ihm zwei Oscars ein, jeweils für Figuren, die bis an die Grenze des Erträglichen gehen.</p>
+          <p class="vb-intro">Das <strong>Krokodil</strong> ist die tierische Entsprechung der sexuellen Acht &ndash; geduldiges Warten, dann ein vollständiger, unwiderruflicher Zugriff, ohne Vorwarnung, ohne verschwendete Energie. Sean Penn, geboren 1960 in Kalifornien, wurde als Schauspieler durch Rollen bekannt, die genau diese Intensität körperlich spürbar machten: "Mystic River" und "Milk" brachten ihm zwei Oscars ein, jeweils für Figuren, die bis an die Grenze des Erträglichen gehen.</p>
           <p class="vb-intro">2015 zeigte sich dasselbe Muster außerhalb der Leinwand: Penn reiste heimlich in den mexikanischen Dschungel, um den flüchtigen Drogenboss Joaquín "El Chapo" Guzmán persönlich für ein Rolling-Stone-Interview aufzusuchen &ndash; kein distanziertes Recherchieren, sondern direkte, lebensgefährliche Konfrontation mit der Sache selbst.</p>
         </blockquote>
 
@@ -1819,7 +1819,7 @@ export function carolinKebekusPortraitPage() {
 
         <h2 class="vb-section">1. Der Biber, der die Bühne für viele baut</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier des sozialen Typs 7 – ein Tier, das nicht für sich selbst baut, sondern Strukturen schafft, die einer ganzen Gemeinschaft zugutekommen. Carolin Kebekus, 1980 in Bergisch Gladbach geboren und in Köln aufgewachsen, begann als Praktikantin bei „Freitag Nacht News" und wurde über eigene Bühnenprogramme wie „PussyTerror" und „AlphaPussy" sowie als festes Mitglied der „heute-show" zu einer der bekanntesten Stimmen der deutschen Comedy-Szene.</p>
+          <p class="vb-intro">Der <strong>Biber</strong> ist die tierische Entsprechung des sozialen Typs 7 – ein Tier, das nicht für sich selbst baut, sondern Strukturen schafft, die einer ganzen Gemeinschaft zugutekommen. Carolin Kebekus, 1980 in Bergisch Gladbach geboren und in Köln aufgewachsen, begann als Praktikantin bei „Freitag Nacht News" und wurde über eigene Bühnenprogramme wie „PussyTerror" und „AlphaPussy" sowie als festes Mitglied der „heute-show" zu einer der bekanntesten Stimmen der deutschen Comedy-Szene.</p>
           <p class="vb-intro">Mit der „Carolin Kebekus Show" in der ARD erreichte sie 2021, was zuvor selbst Anke Engelke nur Spott einbrachte: als Frau dauerhaft eine eigene Late-Night-Show zu moderieren. Sie baute damit nicht nur ihre eigene Karriere, sondern eine Bühne, auf der seither andere Comedians – vor allem Frauen – sichtbarer wurden.</p>
         </blockquote>
 
@@ -2091,7 +2091,7 @@ export function joachimLoewPortraitPage() {
 
         <h2 class="vb-section">1. Das Gürteltier, das für seinen Fußball die eigene Ästhetik suchte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier: Es sucht seine Bedeutung nicht in der Anpassung an das Übliche, sondern in einer bewusst eigenen, unverwechselbaren Form. Joachim Löw wurde 1960 in Schönau im Schwarzwald als ältester von vier Söhnen geboren, machte 1977 sein Abitur und begann eine kaufmännische Ausbildung, bevor er sich ganz dem Fußball widmete. Seine Spielerkarriere führte ihn ab 1978 zum SC Freiburg, später zu VfB Stuttgart, Eintracht Frankfurt und Karlsruher SC, mit insgesamt 52 Bundesliga-Einsätzen.</p>
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist die tierische Entsprechung der sozialen Vier: Es sucht seine Bedeutung nicht in der Anpassung an das Übliche, sondern in einer bewusst eigenen, unverwechselbaren Form. Joachim Löw wurde 1960 in Schönau im Schwarzwald als ältester von vier Söhnen geboren, machte 1977 sein Abitur und begann eine kaufmännische Ausbildung, bevor er sich ganz dem Fußball widmete. Seine Spielerkarriere führte ihn ab 1978 zum SC Freiburg, später zu VfB Stuttgart, Eintracht Frankfurt und Karlsruher SC, mit insgesamt 52 Bundesliga-Einsätzen.</p>
           <p class="vb-intro">Über Stationen als Co-Trainer bei Rolf Fringer, als Cheftrainer beim VfB Stuttgart, bei Fenerbahçe Istanbul, dem FC Tirol Innsbruck und schließlich als Assistent von Jürgen Klinsmann fand er 2006 zu seiner eigentlichen Berufung: dem Amt des Bundestrainers. Das Gürteltier braucht seine Zeit, um den eigenen Weg zu finden – aber wenn es ihn gefunden hat, verfolgt es ihn mit großer Beharrlichkeit.</p>
         </blockquote>
 
@@ -2157,7 +2157,7 @@ export function madonnaPortraitPage() {
 
         <h2 class="vb-section">1. Der Pfau, der sein Gefieder immer wieder neu färbte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier der sexuellen Drei – ein Tier, dessen Pracht keine Berechnung ist, sondern Ausdruck. Doch anders als bei den meisten Pfauen wechselt Madonnas Gefieder alle paar Jahre die Farbe. Madonna Louise Ciccone, 1958 in Bay City, Michigan geboren, hat sich über mehr als vier Jahrzehnte immer wieder radikal neu erfunden – von der frechen Straßenmode der frühen "Like a Virgin"-Ära über die religiöse Provokation von "Like a Prayer" (1989) bis zur elektronisch-spirituellen Neuausrichtung mit "Ray of Light" (1998).</p>
+          <p class="vb-intro">Der <strong>Pfau</strong> ist das Wappentier der sexuellen Drei – ein Tier, dessen Pracht keine Berechnung ist, sondern Ausdruck. Doch anders als bei den meisten Pfauen wechselt Madonnas Gefieder alle paar Jahre die Farbe. Madonna Louise Ciccone, 1958 in Bay City, Michigan geboren, hat sich über mehr als vier Jahrzehnte immer wieder radikal neu erfunden – von der frechen Straßenmode der frühen "Like a Virgin"-Ära über die religiöse Provokation von "Like a Prayer" (1989) bis zur elektronisch-spirituellen Neuausrichtung mit "Ray of Light" (1998).</p>
           <p class="vb-intro">Jede dieser Wenden war kein Zufall und kein Ausbrennen eines alten Images, sondern eine bewusste, strategisch gesetzte Erneuerung im exakt richtigen Moment – bevor das Publikum eines Bildes müde wurde, präsentierte Madonna bereits das nächste. Genau das ist der Pfau, dessen Gefieder sich nicht einmal, sondern immer wieder neu entfaltet, sobald es gesehen werden soll.</p>
         </blockquote>
 
@@ -2224,7 +2224,7 @@ export function ellenDegeneresPortraitPage() {
 
         <h2 class="vb-section">1. Das Kaninchen hinter der tanzenden Bühnenfigur</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier der selbsterhaltenden Sechs &ndash; ein Tier, das Sicherheit nicht auf der offenen Fläche sucht, sondern im eigenen, genau kontrollierten Bau. Ellen DeGeneres, 1958 geboren, moderierte fast zwei Jahrzehnte lang eine der erfolgreichsten Talkshows der USA &ndash; tanzend, scherzend, mit einer Leichtigkeit, die zu ihrem Markenzeichen wurde. 1997 riskierte sie mit ihrem öffentlichen Coming-out einen der größten beruflichen Einschnitte der amerikanischen Fernsehgeschichte, zu einer Zeit, in der das für eine Hauptrolle im US-Fernsehen faktisch ohne Präzedenzfall war.</p>
+          <p class="vb-intro">Das <strong>Kaninchen</strong> gilt als das Tier der selbsterhaltenden Sechs &ndash; ein Tier, das Sicherheit nicht auf der offenen Fläche sucht, sondern im eigenen, genau kontrollierten Bau. Ellen DeGeneres, 1958 geboren, moderierte fast zwei Jahrzehnte lang eine der erfolgreichsten Talkshows der USA &ndash; tanzend, scherzend, mit einer Leichtigkeit, die zu ihrem Markenzeichen wurde. 1997 riskierte sie mit ihrem öffentlichen Coming-out einen der größten beruflichen Einschnitte der amerikanischen Fernsehgeschichte, zu einer Zeit, in der das für eine Hauptrolle im US-Fernsehen faktisch ohne Präzedenzfall war.</p>
           <p class="vb-intro">Ihre Kindheit war von früher Unsicherheit geprägt: Die Scheidung ihrer Eltern, als sie dreizehn war, und der spätere sexuelle Missbrauch durch ihren Stiefvater, dem ihre Mutter zunächst keinen Glauben schenkte und bei dem sie noch achtzehn weitere Jahre blieb &ndash; ein früher, tiefgreifender Vertrauensbruch genau in dem Umfeld, das eigentlich Sicherheit hätte bieten sollen.</p>
         </blockquote>
 
@@ -2284,7 +2284,7 @@ export function michelFoucaultPortraitPage() {
         <h2 class="vb-section">1. Die Schwarze Mamba, die Institutionen sezierte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Michel Foucault wurde 1926 in Poitiers als Sohn eines angesehenen Chirurgen geboren, der von ihm erwartete, ebenfalls Medizin zu studieren. Foucault verweigerte sich dem und studierte stattdessen Philosophie und Psychologie an der École Normale Supérieure – Lizenziat in Philosophie 1948, in Psychologie 1950, Diplom in Psychopathologie 1952. Es folgten Lehrjahre in Uppsala, Warschau und Hamburg, bevor er 1970 Professor für die Geschichte der Denksysteme am Collège de France wurde, Frankreichs renommiertester Hochschule.</p>
-          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Tier der sexuellen Eins – schnell, präzise, tödlich, wenn sie sich provoziert fühlt, niemals gleichgültig. Genau das beschreibt Foucaults intellektuelle Methode: Er griff nicht beiläufig an, sondern sezierte mit chirurgischer Präzision, welche Institutionen – Psychiatrie, Gefängnis, Medizin, Sexualmoral – unter dem Deckmantel der Vernunft tatsächlich Macht ausübten. Wer einmal ins Visier seiner Analyse geriet, kam selten unbeschädigt heraus.</p>
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> gilt als das Tier der sexuellen Eins – schnell, präzise, tödlich, wenn sie sich provoziert fühlt, niemals gleichgültig. Genau das beschreibt Foucaults intellektuelle Methode: Er griff nicht beiläufig an, sondern sezierte mit chirurgischer Präzision, welche Institutionen – Psychiatrie, Gefängnis, Medizin, Sexualmoral – unter dem Deckmantel der Vernunft tatsächlich Macht ausübten. Wer einmal ins Visier seiner Analyse geriet, kam selten unbeschädigt heraus.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Eins: Inbrunst statt kühler Prinzipientreue</h2>
@@ -2421,7 +2421,7 @@ export function lorneGreenePortraitPage() {
 
         <h2 class="vb-section">1. Der Waschbär</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – unermüdlich, methodisch, und mit einer Sicherheit ausgestattet, die aus nachweisbarem Können wächst statt aus lauter Selbstdarstellung. Lorne Greene, geboren 1915 als Lyon Himan Green in Ottawa, Sohn russisch-jüdischer Einwanderer, begann seine Karriere nicht als Schauspieler, sondern als Chemiestudent, der nebenbei fürs Universitätsradio sprach. Aus diesem Nebenjob wurde eine der prägendsten Stimmen Kanadas.</p>
+          <p class="vb-intro">Der <strong>Waschbär</strong> gilt als das Tier der selbsterhaltenden Drei – unermüdlich, methodisch, und mit einer Sicherheit ausgestattet, die aus nachweisbarem Können wächst statt aus lauter Selbstdarstellung. Lorne Greene, geboren 1915 als Lyon Himan Green in Ottawa, Sohn russisch-jüdischer Einwanderer, begann seine Karriere nicht als Schauspieler, sondern als Chemiestudent, der nebenbei fürs Universitätsradio sprach. Aus diesem Nebenjob wurde eine der prägendsten Stimmen Kanadas.</p>
           <p class="vb-intro">Während des Zweiten Weltkriegs verlas er als Chefsprecher der CBC die nationalen Nachrichten – oft die schwersten Kriegsmeldungen des Tages –, mit einer so ruhigen, tiefen und unerschütterlichen Autorität, dass ihm die Öffentlichkeit den Beinamen „The Voice of Doom" (die Stimme des Schicksals) gab. Keine Show, kein früher Senkrechtstart als Schauspieler, sondern der geduldige Aufbau von Vertrauenswürdigkeit über Jahre am Mikrofon – der klassische Waschbär-Weg zur Sicherheit.</p>
         </blockquote>
 
@@ -2481,7 +2481,7 @@ export function amberBensonPortraitPage() {
 
         <h2 class="vb-section">1. Das Faultier, das man an einer Nebenrolle erkannte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9: Es hängt scheinbar unbeteiligt im Baum, und wer genauer hinsieht, bemerkt, wie fest es sich an das eine hält, was es gewählt hat. Amber Benson, am 8. Januar 1977 in Birmingham, Alabama, als Tochter eines Psychiaters geboren, tanzte mit sechs Jahren im ›Nussknacker‹ des Alabama Ballet, zog mit zwölf nach Orlando und mit vierzehn nach Los Angeles, um Schauspielerin zu werden. Ihre erste Filmrolle spielte sie 1993 in Steven Soderberghs ›King of the Hill‹, als an Epilepsie erkrankte Ella McShane.</p>
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Sinnbild des sexuellen Typs 9: Es hängt scheinbar unbeteiligt im Baum, und wer genauer hinsieht, bemerkt, wie fest es sich an das eine hält, was es gewählt hat. Amber Benson, am 8. Januar 1977 in Birmingham, Alabama, als Tochter eines Psychiaters geboren, tanzte mit sechs Jahren im ›Nussknacker‹ des Alabama Ballet, zog mit zwölf nach Orlando und mit vierzehn nach Los Angeles, um Schauspielerin zu werden. Ihre erste Filmrolle spielte sie 1993 in Steven Soderberghs ›King of the Hill‹, als an Epilepsie erkrankte Ella McShane.</p>
           <p class="vb-intro">Weltweit bekannt wurde sie als Tara Maclay in ›Buffy the Vampire Slayer‹, einer sanften, schüchternen Hexe, die in der vierten Staffel auftrat und in der sechsten Staffel starb. Die Rolle prägt ihr öffentliches Bild bis heute. Das ist bezeichnend für die Neun: Sie ist vor allem als die Figur in Erinnerung, die im Hintergrund stand, obwohl sie seither selbst Bücher geschrieben, Filme inszeniert und Hörspiele produziert hat.</p>
         </blockquote>
 

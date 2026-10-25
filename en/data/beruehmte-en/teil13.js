@@ -149,7 +149,7 @@ export function bradPittPortraitPage() {
 
         <h2 class="vb-section">1. The Peacock</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Peacock</strong> is the animal of the Sexual Three &ndash; an animal whose impact does not come from calculation but from pure, immediate presence. It doesn't need to prove anything, it only needs to be there. Whoever encounters it feels a magnetism that resists analysis &ndash; and that is exactly where its power lies.</p>
+          <p class="vb-intro">The <strong>Peacock</strong> is the animal counterpart of the Sexual Three &ndash; an animal whose impact does not come from calculation but from pure, immediate presence. It doesn't need to prove anything, it only needs to be there. Whoever encounters it feels a magnetism that resists analysis &ndash; and that is exactly where its power lies.</p>
           <p class="vb-intro">The American actor Brad Pitt became an object of collective fascination almost overnight with a small but unmistakable supporting role in <em>Thelma &amp; Louise</em> (1991) &ndash; a few minutes of screen time were enough to make an entire cinema audience sit up. No elaborately staged star entrance, just plain physical presence that resists explanation and can only be experienced. The Peacock that changes a room simply by what it portrays.</p>
         </blockquote>
 
@@ -299,7 +299,7 @@ export function davidBowiePortraitPage() {
 
         <h2 class="vb-section">1. The Goose</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Goose</strong> is the animal of the social One &ndash; an animal that watches, warns, and opens spaces for the group that it would not otherwise have. In David Bowie, this shows not as musical formation but as cultural formation: he went ahead so others could follow. Each of his transformations &ndash; Ziggy Stardust, the Thin White Duke, later the reserved Berlin-era electronic experimenter &ndash; opened a space no one had entered before, and that many were allowed to enter afterward.</p>
+          <p class="vb-intro">The <strong>Goose</strong> is the animal counterpart of the social One &ndash; an animal that watches, warns, and opens spaces for the group that it would not otherwise have. In David Bowie, this shows not as musical formation but as cultural formation: he went ahead so others could follow. Each of his transformations &ndash; Ziggy Stardust, the Thin White Duke, later the reserved Berlin-era electronic experimenter &ndash; opened a space no one had entered before, and that many were allowed to enter afterward.</p>
           <p class="vb-intro">The British musician David Bowie, born in London in 1947 as David Robert Jones, was at first a modestly successful musician under several names, before he transformed popular culture in the early 1970s with an androgynous, extraterrestrial stage persona. This was no fluke and no mere self-expression &ndash; it was a deliberate, almost strategic opening of public space for everything that had had no place there before.</p>
           <p class="vb-intro">The goose does not fly for itself alone. It calls out so that others can find the formation. Bowie did exactly that &ndash; across five decades, in ever new form.</p>
         </blockquote>
@@ -427,7 +427,7 @@ export function fjodorDostojewskiPortraitPage() {
 
         <h2 class="vb-section">1. The Rabbit Who Looked Death in the Face</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>rabbit</strong> is the animal of the self-preservation Six &ndash; watchful, endearing, adaptable. It does not run toward confrontation. It listens before it moves. It seeks security in closeness, in bonds, in what is familiar &ndash; and remains remarkably functional even in extreme situations, because it has already calculated the danger long before it arrives.</p>
+          <p class="vb-intro">The <strong>rabbit</strong> is the symbolic animal of the self-preservation Six &ndash; watchful, endearing, adaptable. It does not run toward confrontation. It listens before it moves. It seeks security in closeness, in bonds, in what is familiar &ndash; and remains remarkably functional even in extreme situations, because it has already calculated the danger long before it arrives.</p>
           <p class="vb-intro">Fyodor Mikhailovich Dostoevsky was born in 1821 in Moscow, the son of a military doctor who is said to have been murdered by his own serfs when Fyodor was 17 &ndash; an event that hung over him like a shadow for the rest of his life. From a young age he suffered from epilepsy, a condition that accompanied him his entire life and which he later worked into several of his characters.</p>
         </blockquote>
 
@@ -642,7 +642,7 @@ export function hundertwasserPortraitPage() {
 
         <h2 class="vb-section">1. The Sloth</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Sloth</strong> is the animal of the sexual Nine &ndash; not a symbol of laziness, but of a mode of existence that merges so completely with its surroundings that the boundary between creature and habitat dissolves. Sloths move slowly because haste would get in the way of fusion &ndash; and their fur hosts its own algae and ecosystems: the animal literally becomes a habitat for other life. No accidental animal for a man who wanted to cover his house in soil and grow trees on every balcony.</p>
+          <p class="vb-intro">The <strong>Sloth</strong> is the emblem of the sexual Nine &ndash; not a symbol of laziness, but of a mode of existence that merges so completely with its surroundings that the boundary between creature and habitat dissolves. Sloths move slowly because haste would get in the way of fusion &ndash; and their fur hosts its own algae and ecosystems: the animal literally becomes a habitat for other life. No accidental animal for a man who wanted to cover his house in soil and grow trees on every balcony.</p>
           <p class="vb-intro">Hundertwasser's entire body of work is an attempt to make this fusion visible: houses without a single straight line, roofs that carry meadows, facades that grow like tree bark. Where other architecture asserts itself against nature, he let it merge with nature &ndash; the Sloth that knows no boundary between itself and its tree.</p>
         </blockquote>
 
@@ -713,7 +713,7 @@ export function janUllrichPortraitPage() {
 
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal that, despite its enormous weight, walks along a riverbed with a lightness no one would credit it with, pushing off and gliding almost weightlessly, even though it can barely swim in the ordinary sense. It moves most powerfully exactly where its own weight should be working against it.</p>
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the symbolic animal of the self-preservation Two &ndash; an animal that, despite its enormous weight, walks along a riverbed with a lightness no one would credit it with, pushing off and gliding almost weightlessly, even though it can barely swim in the ordinary sense. It moves most powerfully exactly where its own weight should be working against it.</p>
           <p class="vb-intro">The German cyclist Jan Ullrich lived this animal within himself &ndash; with everything that entails. On the bike he was the purest natural talent in cycling history: power output, rhythm, capacity to suffer at a level that compelled even his sharpest rivals to reverence. Away from the bike he searched again and again for balance &ndash; and did not always find it. The hippopotamus needs its water. For Ullrich, the bicycle was that water.</p>
         </blockquote>
 
@@ -916,7 +916,7 @@ export function langLangPortraitPage() {
 
         <h2 class="vb-section">1. The Raccoon</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that works tirelessly out of sight before it shows itself, arriving at a skill others assume is innate only through years of patient practice. Lang Lang, born in 1982 in Shenyang in northeastern China, began playing piano at age two, after being deeply moved by a scene from the cartoon "Tom and Jerry": in the episode "The Cat Concerto" (1946), Tom the cat plays Franz Liszt's virtuosic Hungarian Rhapsody No. 2 at the piano &ndash; a rapid, densely packed torrent of notes whose driving rhythm so fascinated the young Lang Lang that he wanted to learn piano himself. This very fascination with precision, tempo, and dense, efficient sequences of notes is characteristic of the self-preservation Three: rhythm as an expression of skill that can be measured and proven.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal counterpart of the self-preservation Three &ndash; an animal that works tirelessly out of sight before it shows itself, arriving at a skill others assume is innate only through years of patient practice. Lang Lang, born in 1982 in Shenyang in northeastern China, began playing piano at age two, after being deeply moved by a scene from the cartoon "Tom and Jerry": in the episode "The Cat Concerto" (1946), Tom the cat plays Franz Liszt's virtuosic Hungarian Rhapsody No. 2 at the piano &ndash; a rapid, densely packed torrent of notes whose driving rhythm so fascinated the young Lang Lang that he wanted to learn piano himself. This very fascination with precision, tempo, and dense, efficient sequences of notes is characteristic of the self-preservation Three: rhythm as an expression of skill that can be measured and proven.</p>
           <p class="vb-intro">His father, Lang Guoren, gave up his own job with the police to devote himself entirely to his son's musical education, and moved with the nine-year-old Lang Lang to Beijing while his mother stayed behind in Shenyang to earn money. The years of training were marked by extreme discipline and severity &ndash; hours of daily practice, high expectations, little room for an ordinary childhood. The raccoon learned early: skill does not come from talent alone, but from endless, often painful repetition.</p>
         </blockquote>
 
@@ -1188,7 +1188,7 @@ export function nataschaOchsenknechtPortraitPage() {
 
         <h2 class="vb-section">1. The Lion</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>lion</strong> is the animal of the social Eight &ndash; an animal that doesn't live as a lone fighter, but puts its strength in service of the pride. Few images fit Natascha Ochsenknecht as well: for decades she stood at the center of a sprawling, publicly visible family &ndash; not as a quiet side figure, but as its recognizable head.</p>
+          <p class="vb-intro">The <strong>lion</strong> is the emblem of the social Eight &ndash; an animal that doesn't live as a lone fighter, but puts its strength in service of the pride. Few images fit Natascha Ochsenknecht as well: for decades she stood at the center of a sprawling, publicly visible family &ndash; not as a quiet side figure, but as its recognizable head.</p>
           <p class="vb-intro">The German model Natascha Ochsenknecht, born August 17, 1964, in Düsseldorf, grew up in the Lower Saxon village of Liedingen, where her father was successful in the construction industry. At just fourteen, encouraged by her mother, she began working as a model; at twenty-one, she moved to Munich to pursue the career full-time &ndash; an early, self-determined departure from a sheltered childhood home.</p>
         </blockquote>
 
@@ -1250,7 +1250,7 @@ export function penelopeCruzPortraitPage() {
 
         <h2 class="vb-section">1. The Raccoon</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that impresses not through performance but through dexterity. It wears a natural mask, adapts to its surroundings, finds a way through every niche &ndash; quietly, functionally, without making a fuss of itself.</p>
+          <p class="vb-intro">The <strong>Raccoon</strong> is the animal counterpart of the self-preservation Three &ndash; an animal that impresses not through performance but through dexterity. It wears a natural mask, adapts to its surroundings, finds a way through every niche &ndash; quietly, functionally, without making a fuss of itself.</p>
           <p class="vb-intro">The Spanish actress Penélope Cruz debuted on Spanish television at fifteen, shot her first feature film at seventeen, and has remained present ever since, across more than three decades &ndash; the only Spanish actress to hold an Oscar, equally at home in Hollywood blockbusters and Spanish auteur cinema. And yet her public image is remarkably unspectacular: no permanent scandal, no staged self-presentation, but a body of work that speaks for itself. The raccoon that fits into every role, every language, every film set &ndash; and yet never disappears.</p>
         </blockquote>
 
@@ -1671,7 +1671,7 @@ export function simoneDeBeauvoirPortraitPage() {
 
         <h2 class="vb-section">1. The Octopus Who Passed the Youngest Agrégation in History</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>octopus</strong> is the animal of the social Five &ndash; highly intelligent, grasping with eight arms at once, yet hard to fully pin down. It camouflages itself without hiding, and holds its territory with a precision rarely visible from outside. Simone de Beauvoir was born in 1908 in Paris and was among the first women ever allowed to complete her studies at the École Normale Supérieure.</p>
+          <p class="vb-intro">The <strong>octopus</strong> is the symbolic animal of the social Five &ndash; highly intelligent, grasping with eight arms at once, yet hard to fully pin down. It camouflages itself without hiding, and holds its territory with a precision rarely visible from outside. Simone de Beauvoir was born in 1908 in Paris and was among the first women ever allowed to complete her studies at the École Normale Supérieure.</p>
           <p class="vb-intro">In 1929, at age 21, she became the youngest person ever to pass France's highly competitive agrégation examination in philosophy &ndash; ahead of Paul Nizan and Jean Hyppolite, just behind Jean-Paul Sartre (SX4w5), who took first place. The octopus already reached with several arms at once here: not only through extraordinary intelligence, but through the quiet persistence to become a recognized authority in a field dominated by men, without pushing loudly to the front.</p>
         </blockquote>
 
@@ -1739,7 +1739,7 @@ export function seanPennPortraitPage() {
 
         <h2 class="vb-section">1. The crocodile who went into the jungle to strike</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>crocodile</strong> is the animal of the sexual Eight &ndash; patient waiting, then a complete, irrevocable strike, without warning, without wasted energy. Sean Penn, born in 1960 in California, became known as an actor for roles that made exactly this intensity physically palpable: "Mystic River" and "Milk" earned him two Academy Awards, both for characters who go right to the edge of what is bearable.</p>
+          <p class="vb-intro">The <strong>crocodile</strong> is the animal counterpart of the sexual Eight &ndash; patient waiting, then a complete, irrevocable strike, without warning, without wasted energy. Sean Penn, born in 1960 in California, became known as an actor for roles that made exactly this intensity physically palpable: "Mystic River" and "Milk" earned him two Academy Awards, both for characters who go right to the edge of what is bearable.</p>
           <p class="vb-intro">In 2015 the same pattern showed itself off-screen: Penn secretly traveled into the Mexican jungle to personally seek out the fugitive drug lord Joaquín "El Chapo" Guzmán for a Rolling Stone interview &ndash; not detached reporting, but direct, life-threatening confrontation with the story itself.</p>
         </blockquote>
 
@@ -1942,7 +1942,7 @@ export function juergenVonDerLippePortraitPage() {
 
         <h2 class="vb-section">1. The Buffalo With the Cheeky Remark</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>buffalo</strong> is the animal of the Social Type 9: it walks calmly with the herd, carries its weight without fuss, and when it sets off, the others follow. Jürgen von der Lippe, born Hans-Jürgen Dohrenkamp in 1948 in Bad Salzuflen, had his breakthrough in 1980 with the 'WWF-Club' on WDR. Afterwards he remained a fixture of German television for decades without ever being the loudest name in the house.</p>
+          <p class="vb-intro">The <strong>buffalo</strong> is the animal counterpart of the Social Type 9: it walks calmly with the herd, carries its weight without fuss, and when it sets off, the others follow. Jürgen von der Lippe, born Hans-Jürgen Dohrenkamp in 1948 in Bad Salzuflen, had his breakthrough in 1980 with the 'WWF-Club' on WDR. Afterwards he remained a fixture of German television for decades without ever being the loudest name in the house.</p>
           <p class="vb-intro">Telling is how he treats his audience: on his live tours he deliberately chooses venues seating 500 to 2,000 people, because larger halls make him uncomfortable, and after every single show he holds an autograph session. For him the audience is not an anonymous mass but a community he feels part of for an evening.</p>
         </blockquote>
 
@@ -2078,7 +2078,7 @@ export function joachimLoewPortraitPage() {
 
         <h2 class="vb-section">1. The Armadillo That Sought Its Own Aesthetic for Football</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four: it doesn't seek its meaning by conforming to the usual, but in a deliberately distinctive, unmistakable form of its own. Joachim Löw was born in 1960 in Schönau im Schwarzwald, the eldest of four sons, finished his Abitur in 1977 and began a commercial apprenticeship before devoting himself entirely to football. His playing career took him from 1978 to SC Freiburg, later to VfB Stuttgart, Eintracht Frankfurt, and Karlsruher SC, with a total of 52 Bundesliga appearances.</p>
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal counterpart of the social Four: it doesn't seek its meaning by conforming to the usual, but in a deliberately distinctive, unmistakable form of its own. Joachim Löw was born in 1960 in Schönau im Schwarzwald, the eldest of four sons, finished his Abitur in 1977 and began a commercial apprenticeship before devoting himself entirely to football. His playing career took him from 1978 to SC Freiburg, later to VfB Stuttgart, Eintracht Frankfurt, and Karlsruher SC, with a total of 52 Bundesliga appearances.</p>
           <p class="vb-intro">Via stints as assistant coach under Rolf Fringer, head coach at VfB Stuttgart, Fenerbahçe Istanbul, FC Tirol Innsbruck, and finally as Jürgen Klinsmann's assistant, he found his true calling in 2006: the position of national team head coach. The armadillo needs time to find its own path – but once it has found it, it pursues it with great persistence.</p>
         </blockquote>
 
@@ -2144,7 +2144,7 @@ export function madonnaPortraitPage() {
 
         <h2 class="vb-section">1. The Peacock That Kept Recoloring Its Feathers</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>peacock</strong> is the animal of the sexual Three – an animal whose splendor is no calculation, but expression. Unlike most peacocks, though, Madonna's plumage changes color every few years. Madonna Louise Ciccone, born in 1958 in Bay City, Michigan, has radically reinvented herself again and again over more than four decades – from the brash street fashion of the early "Like a Virgin" era through the religious provocation of "Like a Prayer" (1989) to the electronic-spiritual reorientation of "Ray of Light" (1998).</p>
+          <p class="vb-intro">The <strong>peacock</strong> stands as the animal of the sexual Three – an animal whose splendor is no calculation, but expression. Unlike most peacocks, though, Madonna's plumage changes color every few years. Madonna Louise Ciccone, born in 1958 in Bay City, Michigan, has radically reinvented herself again and again over more than four decades – from the brash street fashion of the early "Like a Virgin" era through the religious provocation of "Like a Prayer" (1989) to the electronic-spiritual reorientation of "Ray of Light" (1998).</p>
           <p class="vb-intro">Each of these turns was no accident and no burnout of an old image, but a deliberate, strategically timed renewal at exactly the right moment – before the audience tired of one image, Madonna already presented the next. That is exactly the peacock whose plumage doesn't unfold once, but keeps unfolding anew, every time it needs to be seen.</p>
         </blockquote>
 
@@ -2211,7 +2211,7 @@ export function ellenDegeneresPortraitPage() {
 
         <h2 class="vb-section">1. The Rabbit Behind the Dancing Stage Persona</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>rabbit</strong> is the animal of the self-preservation Six &ndash; an animal that doesn't seek safety out in the open, but inside its own, precisely controlled burrow. Ellen DeGeneres, born in 1958, hosted one of the most successful talk shows in the US for nearly two decades &ndash; dancing, joking, with a lightness that became her trademark. In 1997 she risked one of the biggest career ruptures in American television history with her public coming out, at a time when this was effectively without precedent for a lead role on US television.</p>
+          <p class="vb-intro">The <strong>rabbit</strong> is the emblem of the self-preservation Six &ndash; an animal that doesn't seek safety out in the open, but inside its own, precisely controlled burrow. Ellen DeGeneres, born in 1958, hosted one of the most successful talk shows in the US for nearly two decades &ndash; dancing, joking, with a lightness that became her trademark. In 1997 she risked one of the biggest career ruptures in American television history with her public coming out, at a time when this was effectively without precedent for a lead role on US television.</p>
           <p class="vb-intro">Her childhood was marked by early instability: her parents' divorce when she was thirteen, and the later sexual abuse by her stepfather, whom her mother initially didn't believe and stayed married to for eighteen more years &ndash; an early, deep breach of trust in exactly the environment that should have provided security.</p>
         </blockquote>
 
@@ -2270,7 +2270,7 @@ export function leonGoretzkaPortraitPage() {
 
         <h2 class="vb-section">1. The Cheetah from the Ruhr</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Cheetah</strong> is the animal of the social Three – fast, striking, built for the one decisive moment. Leon Goretzka, born 1995 in Bochum, began his football career at Werner SV Bochum, moved to the youth academy of VfL Bochum in 2001, and made the jump to the first team there in 2012. Just a year later, Schalke 04 signed him, and he quickly established himself as a regular starter – a steep, publicly visible rise from the start.</p>
+          <p class="vb-intro">The <strong>Cheetah</strong> is the emblem of the social Three – fast, striking, built for the one decisive moment. Leon Goretzka, born 1995 in Bochum, began his football career at Werner SV Bochum, moved to the youth academy of VfL Bochum in 2001, and made the jump to the first team there in 2012. Just a year later, Schalke 04 signed him, and he quickly established himself as a regular starter – a steep, publicly visible rise from the start.</p>
           <p class="vb-intro">In 2018 he moved to FC Bayern Munich, and has since won numerous German championships, the DFB Cup, and the UEFA Champions League. The cheetah doesn't wait around – it uses every opportunity that arises to move up to the next level.</p>
         </blockquote>
 
@@ -2625,7 +2625,7 @@ export function draupadiMurmuPortraitPage() {
 
         <h2 class="vb-section">1. The Orangutan</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>orangutan</strong> is the animal of the self-preservation Eight – a creature that survives in the thicket not by roaring the loudest, but by being tough, by carving out its own territory, and by never giving up on climbing to the next branch, however harsh the forest. Draupadi Murmu, born on 20 June 1958 in the village of Uparbeda in the eastern Indian state of Odisha as a member of the indigenous Santal community, embodies this image in a way that goes far beyond any political career: a woman who came from one of India's poorest and most marginalized communities and fought her way, through a series of personal catastrophes, to the head of state of the world's largest democracy, without ever losing her inner calm.</p>
+          <p class="vb-intro">The <strong>orangutan</strong> stands as the animal of the self-preservation Eight – a creature that survives in the thicket not by roaring the loudest, but by being tough, by carving out its own territory, and by never giving up on climbing to the next branch, however harsh the forest. Draupadi Murmu, born on 20 June 1958 in the village of Uparbeda in the eastern Indian state of Odisha as a member of the indigenous Santal community, embodies this image in a way that goes far beyond any political career: a woman who came from one of India's poorest and most marginalized communities and fought her way, through a series of personal catastrophes, to the head of state of the world's largest democracy, without ever losing her inner calm.</p>
           <p class="vb-intro">In 2022 she was sworn in as India's 15th President – the first president from an indigenous community in the country's history and only the second woman to hold the office after Pratibha Patil. Between that office and her origins lies a path that speaks of tenacity, not of a glittering rise.</p>
         </blockquote>
 

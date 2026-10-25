@@ -165,7 +165,7 @@ export function angelinaJoliePortraitPage() {
 
         <h2 class="vb-section">1. Die Gans</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins &ndash; und ein Tier, das zunächst untersch\u00e4tzt wird. Keine Sch\u00f6nheit wie der Pfau. Keine St\u00e4rke wie der Adler. Aber wer je einer Gans begegnet ist, wei\u00df: Sie weicht nicht. Sie sch\u00fctzt ihr Revier. Sie warnt ihre Gruppe. Und wenn sie in Formation fliegt, dann nicht f\u00fcr sich &ndash; sondern f\u00fcr alle.</p>
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Wappentier der sozialen Eins &ndash; und ein Tier, das zunächst untersch\u00e4tzt wird. Keine Sch\u00f6nheit wie der Pfau. Keine St\u00e4rke wie der Adler. Aber wer je einer Gans begegnet ist, wei\u00df: Sie weicht nicht. Sie sch\u00fctzt ihr Revier. Sie warnt ihre Gruppe. Und wenn sie in Formation fliegt, dann nicht f\u00fcr sich &ndash; sondern f\u00fcr alle.</p>
           <p class="vb-intro">Die US-amerikanische Schauspielerin Angelina Jolie ist seit Jahrzehnten im Blickfeld der Welt\u00f6ffentlichkeit. Nicht weil sie Aufsehen sucht &ndash; sondern weil Aufsehen entsteht, wenn jemand mit dieser Klarheit spricht. Als UN-Sonderbotschafterin f\u00fcr Fl\u00fcchtlinge, als Regisseurin von Filmen \u00fcber Genozid, als Mutter von sechs Kindern aus drei Kontinenten: Sie hat ihr Leben in den Dienst einer \u00dcberzeugung gestellt. Die \u00dcberzeugung, dass es falsch ist, wegzuschauen.</p>
         </blockquote>
 
@@ -237,7 +237,7 @@ export function billHaastPortraitPage() {
 
         <h2 class="vb-section">1. Die Schwarze Mamba</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Tier der sexuellen Eins &ndash; blitzschnell, pr\xe4zise, kompromisslos, ganz auf ein einziges Gesetz konzentriert, das keine Ausnahme kennt. Bill Haast war eine lebende Legende der Schlangenforschung: 1947 gr\xfcndete er das <em>Miami Serpentarium</em>, das zeitweise \xfcber f\xfcnfhundert Giftschlangen beherbergte, und wurde zu einem der einflussreichsten Giftsammler der Wissenschaftsgeschichte.</p>
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> gilt als das Tier der sexuellen Eins &ndash; blitzschnell, pr\xe4zise, kompromisslos, ganz auf ein einziges Gesetz konzentriert, das keine Ausnahme kennt. Bill Haast war eine lebende Legende der Schlangenforschung: 1947 gr\xfcndete er das <em>Miami Serpentarium</em>, das zeitweise \xfcber f\xfcnfhundert Giftschlangen beherbergte, und wurde zu einem der einflussreichsten Giftsammler der Wissenschaftsgeschichte.</p>
           <p class="vb-intro">Wie bei Thea Litschka-Koen (SX1w2) und der Schwarzen Mamba zeigt sich auch hier dieselbe verbl\xfcffende \xdcbereinstimmung zwischen Tierentsprechung und Lebenswerk &ndash; nur mit einem anderen Fl\xfcgel und einer anderen Grundfarbe: Wo Litschka-Koen ihre Hingabe an die Schlange in Partnerschaft und Gemeinschaftsarbeit lebte, lebte der US-amerikanische Bill Haast sie in radikaler Einsamkeit und in Selbstversuchen.</p>
         </blockquote>
 
@@ -365,7 +365,7 @@ export function cluesoPortraitPage() {
 
         <h2 class="vb-section">1. Das Kamel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei – ein Tier, das trägt, ohne sich aufzudrängen. Es überquert weite Strecken, still, ausdauernd, in stetigem Kontakt mit dem, was es begleitet. Thomas Hübner, besser bekannt als Clueso, wurde 1980 in Erfurt geboren und entdeckte, inspiriert vom Kultfilm ›Beat Street‹, der Ende der 1980er auch in DDR-Kinos lief, früh seine Leidenschaft für HipHop.</p>
+          <p class="vb-intro">Das <strong>Kamel</strong> ist das Wappentier der sexuellen Zwei – ein Tier, das trägt, ohne sich aufzudrängen. Es überquert weite Strecken, still, ausdauernd, in stetigem Kontakt mit dem, was es begleitet. Thomas Hübner, besser bekannt als Clueso, wurde 1980 in Erfurt geboren und entdeckte, inspiriert vom Kultfilm ›Beat Street‹, der Ende der 1980er auch in DDR-Kinos lief, früh seine Leidenschaft für HipHop.</p>
           <p class="vb-intro">Ab 1995 sang er in verschiedenen Erfurter Musikprojekten und verfeinerte sein Können gemeinsam mit DJ Malik und Steer M bei Jam-Sessions im Jenaer Club Kassablanca – eine enge, über Jahre gewachsene Freundschaft, aus der sich sein musikalischer Stil erst richtig entwickelte. Das ist die Geste des Kamels: Es geht nicht allein voran, sondern im engen, verlässlichen Kontakt mit denen, die den Weg mit ihm teilen.</p>
         </blockquote>
 
@@ -495,7 +495,7 @@ export function elonMuskPortraitPage() {
 
         <h2 class="vb-section">1. Der Biber</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier des sozialen Typs 7 &ndash; und kein Tier der Welt beschreibt Elon Musk treffender. Der Biber baut. Nicht weil er muss. Nicht weil man ihn bittet. Sondern weil Bauen sein Wesen ist. Er f\u00e4llt B\u00e4ume, staut Fl\u00fcsse auf, erschafft Teiche, wo keine waren, ver\u00e4ndert ganze Landschaften &ndash; und f\u00e4ngt am n\u00e4chsten Morgen von vorne an. Was er hinterl\u00e4sst, ver\u00e4ndert \u00d6kosysteme, schafft neuen Lebensraum, macht aus W\u00fcste Feuchtgebiet.</p>
+          <p class="vb-intro">Der <strong>Biber</strong> gilt als das Tier des sozialen Typs 7 &ndash; und kein Tier der Welt beschreibt Elon Musk treffender. Der Biber baut. Nicht weil er muss. Nicht weil man ihn bittet. Sondern weil Bauen sein Wesen ist. Er f\u00e4llt B\u00e4ume, staut Fl\u00fcsse auf, erschafft Teiche, wo keine waren, ver\u00e4ndert ganze Landschaften &ndash; und f\u00e4ngt am n\u00e4chsten Morgen von vorne an. Was er hinterl\u00e4sst, ver\u00e4ndert \u00d6kosysteme, schafft neuen Lebensraum, macht aus W\u00fcste Feuchtgebiet.</p>
           <p class="vb-intro">Der s\u00fcdafrikanisch-amerikanische Unternehmer Elon Musk hat in weniger als drei\u00dfig Jahren PayPal mitgegr\u00fcndet, SpaceX aus dem Nichts aufgebaut, Tesla vor dem Bankrott gerettet, Starlink ins All geschossen, X (ehemals Twitter) \u00fcbernommen und nebenbei einen Flammenwerferhersteller namens The Boring Company auf die Welt losgelassen. Der Biber macht keine halben Sachen. Er baut und baut &ndash; und sucht sich das n\u00e4chste Hindernis, das es zu stauen gilt.</p>
         </blockquote>
 
@@ -562,7 +562,7 @@ export function fredericChopinPortraitPage() {
 
         <h2 class="vb-section">1. Der Igel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier des sexuellen Typs 5 &ndash; nachtaktiv, still, mit Stacheln aus Instinkt, nicht aus Bosheit. Wer ihn antrifft, bemerkt sofort: Das hier ist kein Tier, das sich zeigt. Es rollt sich zusammen. Es wartet. Und nur wer wirklich vertraut ist, bekommt zu sehen, was darunter liegt.</p>
+          <p class="vb-intro">Der <strong>Igel</strong> ist das Sinnbild des sexuellen Typs 5 &ndash; nachtaktiv, still, mit Stacheln aus Instinkt, nicht aus Bosheit. Wer ihn antrifft, bemerkt sofort: Das hier ist kein Tier, das sich zeigt. Es rollt sich zusammen. Es wartet. Und nur wer wirklich vertraut ist, bekommt zu sehen, was darunter liegt.</p>
           <p class="vb-intro">Fr&eacute;d&eacute;ric Chopin lebte neununddrei\u00dfig Jahre &ndash; und in dieser Zeit komponierte er ein Werk, das noch heute so klingt wie kein anderes: als \xf6ffne sich jemand vollst\xe4ndig, aber nur am Klavier. In Salons, nicht in Konzerts\xe4len. F\xfcr wenige, nicht f\xfcr viele. Er gab in seinem gesamten Leben kaum drei\u00dfig \xf6ffentliche Konzerte. Den Rest der Zeit arbeitete er, liebte er &ndash; und schrieb Musik, die mehr von ihm preisgab, als er jemals h\xe4tte in Worte fassen k\xf6nnen.</p>
         </blockquote>
 
@@ -644,7 +644,7 @@ export function gottfriedWilhelmLeibnizPortraitPage() {
 
         <h2 class="vb-section">1. Der Gepard, der auf jedem Feld gleichzeitig lief</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei – das schnellste Tier der Erde, gebaut für sichtbaren, unbestreitbaren Erfolg. Kaum eine historische Gestalt verkörpert dieses Bild so vollständig wie Gottfried Wilhelm Leibniz, oft als "letzter Universalgelehrter" bezeichnet: Er wirkte gleichzeitig als Philosoph, Mathematiker, Logiker, Jurist, Diplomat, Historiker, Bibliothekar und Ingenieur – nicht nacheinander, sondern in ständiger Überlappung, oft an mehreren Großprojekten parallel.</p>
+          <p class="vb-intro">Der <strong>Gepard</strong> ist die tierische Entsprechung der sozialen Drei – das schnellste Tier der Erde, gebaut für sichtbaren, unbestreitbaren Erfolg. Kaum eine historische Gestalt verkörpert dieses Bild so vollständig wie Gottfried Wilhelm Leibniz, oft als "letzter Universalgelehrter" bezeichnet: Er wirkte gleichzeitig als Philosoph, Mathematiker, Logiker, Jurist, Diplomat, Historiker, Bibliothekar und Ingenieur – nicht nacheinander, sondern in ständiger Überlappung, oft an mehreren Großprojekten parallel.</p>
           <p class="vb-intro">Der deutsche Philosoph Gottfried Wilhelm Leibniz, geboren 1646 in Leipzig als Sohn eines Moralphilosophieprofessors, brachte sich als Kind weitgehend selbst Latein und Griechisch bei, indem er sich Zugang zur väterlichen Bibliothek verschaffte. Mit nur zwanzig Jahren war er promoviert und für eine akademische Karriere qualifiziert – doch er lehnte eine angebotene Professur in Altdorf ab. Der Gepard bleibt nicht im geschützten Revier eines einzelnen Hörsaals. Er sucht die offene Fläche, auf der sich Tempo wirklich zeigen lässt.</p>
         </blockquote>
 
@@ -974,7 +974,7 @@ export function klausKinskiPortraitPage() {
 
         <h2 class="vb-section">1. Die Schwarze Mamba</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Tier der sexuellen Eins &ndash; und kein Tier spiegelt Klaus Kinski auf erschreckendere Weise wider. Die Schwarze Mamba ist bekannt f\u00fcr ihre Geschwindigkeit, ihre Pr\u00e4zision und ihre t\u00f6dliche Bisskraft. Sie schl\u00e4gt nicht aus Laune zu, sondern aus einem inneren Gesetz: Wenn sie sich bedroht f\u00fchlt, reagiert sie gnadenlos. Gleichg\u00fcltigkeit ist ihr fremd. In ihrer N\u00e4he zu sein, bedeutet, vollst\u00e4ndig wach zu sein.</p>
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> gilt als das Tier der sexuellen Eins &ndash; und kein Tier spiegelt Klaus Kinski auf erschreckendere Weise wider. Die Schwarze Mamba ist bekannt f\u00fcr ihre Geschwindigkeit, ihre Pr\u00e4zision und ihre t\u00f6dliche Bisskraft. Sie schl\u00e4gt nicht aus Laune zu, sondern aus einem inneren Gesetz: Wenn sie sich bedroht f\u00fchlt, reagiert sie gnadenlos. Gleichg\u00fcltigkeit ist ihr fremd. In ihrer N\u00e4he zu sein, bedeutet, vollst\u00e4ndig wach zu sein.</p>
           <p class="vb-intro">Der deutsche Schauspieler Klaus Kinski, geboren 1926 in Danzig, gestorben 1991 in Kalifornien, war eine der intensivsten Pers\u00f6nlichkeiten der Filmgeschichte. Mit Werner Herzog drehte er f\u00fcnf Filme, die zu den bedeutendsten des deutschen Kinos z\u00e4hlen: <em>Aguirre, der Zorn Gottes</em>, <em>Nosferatu &ndash; Phantom der Nacht</em>, <em>Woyzeck</em>, <em>Fitzcarraldo</em> und <em>Cobra Verde</em>. Auf dem Set war er legend\u00e4r gef\u00fcrchtet. Und legend\u00e4r unverzichtbar.</p>
         </blockquote>
 
@@ -1119,7 +1119,7 @@ export function williamJamesSidisPortraitPage() {
 
         <h2 class="vb-section">1. Das Gürteltier</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier: ein harter Panzer nach außen, darunter ein außergewöhnlich empfindsames Inneres. Kaum eine Biografie zeigt dieses Bild so schroff wie die von William James Sidis: ein Kind, das mit elf Jahren vor der Harvard-Fakultät über vierdimensionale Körper referierte, und ein Erwachsener, der sein halbes Leben damit verbrachte, unter falschem Namen als einfacher Büroangestellter unentdeckt zu bleiben.</p>
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Wappentier der sozialen Vier: ein harter Panzer nach außen, darunter ein außergewöhnlich empfindsames Inneres. Kaum eine Biografie zeigt dieses Bild so schroff wie die von William James Sidis: ein Kind, das mit elf Jahren vor der Harvard-Fakultät über vierdimensionale Körper referierte, und ein Erwachsener, der sein halbes Leben damit verbrachte, unter falschem Namen als einfacher Büroangestellter unentdeckt zu bleiben.</p>
           <p class="vb-intro">Sidis wurde am 1. April 1898 in Boston als Sohn des Psychologen Boris Sidis geboren, der an der eigenen Theorie arbeitete, außergewöhnliche Frühförderung könne geniale Fähigkeiten in jedem Kind freilegen &ndash; mit seinem Sohn als Beweisobjekt. William las bereits mit zwei Jahren Zeitungstexte, tippte mit vier Buchstaben auf Französisch und Englisch, verfasste mit fünf eine eigene anatomische Abhandlung und entwarf mit acht Jahren in seinem ›Book of Vendergood‹ eine vollständige Kunstsprache mit eigener Grammatik, die lateinische, griechische, deutsche und romanische Wurzeln verband. Mit elf Jahren wurde er an der Harvard University aufgenommen &ndash; der jüngste Studienanfänger in der Geschichte der Universität.</p>
         </blockquote>
 
@@ -1326,7 +1326,7 @@ export function morganFreemanPortraitPage() {
 
         <h2 class="vb-section">1. Der Schimpanse mit der Stimme der Vorsehung</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier der sexuellen Sieben &ndash; verspielt, neugierig, sozial hochintelligent, immer auf der Suche nach dem n\u00e4chsten spannenden Erlebnis, das die Gruppe in seinen Bann zieht. Er begeistert nicht durch Zur\u00fcckhaltung, sondern durch pure Pr\u00e4senz und Anziehungskraft &ndash; ein Wesen, das andere mitrei\u00dft, ohne sich selbst je in den Vordergrund dr\u00e4ngen zu m\u00fcssen.</p>
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Sinnbild der sexuellen Sieben &ndash; verspielt, neugierig, sozial hochintelligent, immer auf der Suche nach dem n\u00e4chsten spannenden Erlebnis, das die Gruppe in seinen Bann zieht. Er begeistert nicht durch Zur\u00fcckhaltung, sondern durch pure Pr\u00e4senz und Anziehungskraft &ndash; ein Wesen, das andere mitrei\u00dft, ohne sich selbst je in den Vordergrund dr\u00e4ngen zu m\u00fcssen.</p>
           <p class="vb-intro">Der US-amerikanische Schauspieler Morgan Freeman wurde 1937 in Memphis, Tennessee, geboren und wuchs zwischen dem l\u00e4ndlichen Mississippi und Chicago auf, in einer Zeit tiefer Rassentrennung im S\u00fcden der USA. Er entdeckte die Schauspielerei bereits als Kind \u00fcber ein Schultheaterst\u00fcck und trat mit 12 Jahren erstmals landesweit im Radio auf. Nach vier Jahren bei der US Air Force als Radartechniker entschied er sich endg\u00fcltig gegen eine Milit\u00e4rlaufbahn und f\u00fcr die Kunst &ndash; ein Sprung ins Ungewisse, der sich erst nach Jahrzehnten harter, oft erfolgloser Arbeit als Off-Broadway-Schauspieler und Kinderfernsehdarsteller auszahlen sollte. Der eigentliche Durchbruch kam erst mit 50 Jahren, mit dem Film &bdquo;Street Smart&ldquo; (1987) &ndash; ein sp\u00e4tes, aber nachhaltiges Aufbl\u00fchen.</p>
         </blockquote>
 
@@ -1538,7 +1538,7 @@ export function sallyRooneyPortraitPage() {
 
         <h2 class="vb-section">1. Die Taube</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier – sie trägt ihr tiefes Gefühlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrzehntelanger Beharrlichkeit. Sally Rooney wurde 1991 im westirischen Castlebar geboren; ihre Mutter leitete ein örtliches Kulturzentrum, ihr Vater arbeitete für die irische Telefongesellschaft. Schon als Kind schrieb sie viel, blieb dabei aber sozial zurückhaltend – eine stille Beobachterin, die ihre Umgebung genau registrierte, ohne sich selbst in den Vordergrund zu drängen.</p>
+          <p class="vb-intro">Die <strong>Taube</strong> gilt als das Tier der selbsterhaltenden Vier – sie trägt ihr tiefes Gefühlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrzehntelanger Beharrlichkeit. Sally Rooney wurde 1991 im westirischen Castlebar geboren; ihre Mutter leitete ein örtliches Kulturzentrum, ihr Vater arbeitete für die irische Telefongesellschaft. Schon als Kind schrieb sie viel, blieb dabei aber sozial zurückhaltend – eine stille Beobachterin, die ihre Umgebung genau registrierte, ohne sich selbst in den Vordergrund zu drängen.</p>
           <p class="vb-intro">Am Trinity College Dublin studierte sie englische Literatur und trat parallel als Wettkampf-Debattiererin an – ein scheinbarer Widerspruch zur zurückhaltenden Beobachterin, der sich aus SE4w5-Perspektive auflöst: Nicht das Rampenlicht selbst reizte sie, sondern die strukturierte, analytisch durchdachte Auseinandersetzung mit einer Sache.</p>
         </blockquote>
 
@@ -1666,7 +1666,7 @@ export function tonyShalhoubPortraitPage() {
 
         <h2 class="vb-section">1. Der Waschbär</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, dessen Geschick sich erst in den Details zeigt: in der Feinmotorik der Pfoten, im geduldigen Ausprobieren, im methodischen Herantasten an jede neue Aufgabe. Kein Tier für die große Geste, sondern für die tausend kleinen, exakt ausgeführten Handgriffe, aus denen sich am Ende Meisterschaft zusammensetzt.</p>
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist die tierische Entsprechung der selbsterhaltenden Drei – ein Tier, dessen Geschick sich erst in den Details zeigt: in der Feinmotorik der Pfoten, im geduldigen Ausprobieren, im methodischen Herantasten an jede neue Aufgabe. Kein Tier für die große Geste, sondern für die tausend kleinen, exakt ausgeführten Handgriffe, aus denen sich am Ende Meisterschaft zusammensetzt.</p>
           <p class="vb-intro">Der US-amerikanische Schauspieler Tony Shalhoub, ausgebildet an der Yale School of Drama, war über Jahrzehnte genau das: ein Schauspieler, dessen Namen viele erst nach seinen Rollen kennenlernten, nicht umgekehrt. Bevor er 2002 als zwanghaft-akribischer Detektiv Adrian Monk zum Star wurde, hatte er sich bereits durch Theater, Independent-Filme und Nebenrollen ein Handwerk erarbeitet, das kaum ein anderer Schauspieler seiner Generation so präzise beherrschte.</p>
         </blockquote>
 
@@ -1730,7 +1730,7 @@ export function willyBrandtPortraitPage() {
 
         <h2 class="vb-section">1. Der B\u00fcffel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>B\u00fcffel</strong> ist das Tier des sozialen Typs 9 &ndash; und kaum eine Pers\u00f6nlichkeit des 20. Jahrhunderts verk\u00f6rpert dieses Bild so vollst\u00e4ndig wie Willy Brandt. Der B\u00fcffel ist ein Tier der Herde: gro\u00df, geerdet, still im Inneren. Er trumpft nicht auf, er dominiert nicht durch L\u00e4rm. Er ist einfach da &ndash; massiv, verl\u00e4sslich, unersch\u00fctterlich. Und wenn er sich in Bewegung setzt, h\u00e4lt ihn nichts auf.</p>
+          <p class="vb-intro">Der <strong>B\u00fcffel</strong> gilt als das Tier des sozialen Typs 9 &ndash; und kaum eine Pers\u00f6nlichkeit des 20. Jahrhunderts verk\u00f6rpert dieses Bild so vollst\u00e4ndig wie Willy Brandt. Der B\u00fcffel ist ein Tier der Herde: gro\u00df, geerdet, still im Inneren. Er trumpft nicht auf, er dominiert nicht durch L\u00e4rm. Er ist einfach da &ndash; massiv, verl\u00e4sslich, unersch\u00fctterlich. Und wenn er sich in Bewegung setzt, h\u00e4lt ihn nichts auf.</p>
           <p class="vb-intro">Am 7. Dezember 1970 kniete der deutsche Politiker Willy Brandt vor dem Mahnmal des Warschauer Ghettos. Kein Wort. Keine Geste des \u00dcberlegens &ndash; er lie\u00df sich einfach nieder, im Regen, auf den Knien, und schwieg. Minuten lang. Das war kein diplomatischer Akt, kein Protokoll, keine Regieanweisung. Es war ein B\u00fcffel, der sich vor dem beugte, was war &ndash; und damit ein ganzes Volk repr\u00e4sentierte. Dieser Kniefall ging um die Welt. Er ist auch heute noch eines der m\u00e4chtigsten Bilder der deutschen Nachkriegsgeschichte.</p>
         </blockquote>
 
@@ -1801,7 +1801,7 @@ export function hannahArendtPortraitPage() {
 
         <h2 class="vb-section">1. Der Oktopus, der aus dem Internierungslager entkam</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier des sozialen Typs 5 &ndash; hochintelligent, mit acht Armen gleichzeitig greifend, dabei kaum vollst\u00e4ndig zu fassen. Hannah Arendt wurde 1906 in Hannover geboren und ging 1924 an die Universit\u00e4t Marburg, um bei Martin Heidegger zu studieren &ndash; eine Begegnung, die in eine kurze, aber intensive Liebesbeziehung m\u00fcndete und ihr Denken lebenslang pr\u00e4gte.</p>
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist die tierische Entsprechung des sozialen Typs 5 &ndash; hochintelligent, mit acht Armen gleichzeitig greifend, dabei kaum vollst\u00e4ndig zu fassen. Hannah Arendt wurde 1906 in Hannover geboren und ging 1924 an die Universit\u00e4t Marburg, um bei Martin Heidegger zu studieren &ndash; eine Begegnung, die in eine kurze, aber intensive Liebesbeziehung m\u00fcndete und ihr Denken lebenslang pr\u00e4gte.</p>
           <p class="vb-intro">1933 musste sie, nachdem Hitler die Macht \u00fcbernommen hatte, mit einer List der Polizei entkommen und floh mit ihrer Mutter nach Paris. 1937 wurde ihr die deutsche Staatsb\u00fcrgerschaft entzogen &ndash; fast vierzehn Jahre blieb sie staatenlos. Als die Wehrmacht 1940 Frankreich \u00fcberfiel, wurde sie im Lager Gurs interniert, aus dem ihr w\u00e4hrend des chaotischen Zusammenbruchs der franz\u00f6sischen Verwaltung die Flucht gelang. 1941 erreichten sie und ihr Mann gemeinsam die Vereinigten Staaten. Der Oktopus entkommt nicht durch Kraft, sondern durch die F\u00e4higkeit, jede noch so enge \u00d6ffnung zu finden.</p>
         </blockquote>
 
@@ -1958,7 +1958,7 @@ export function christianDrostenPortraitPage() {
 
         <h2 class="vb-section">1. Der Biber im Strom statt gegen ihn</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier des sozialen Typs 7 – ein Tier, das für die Gemeinschaft baut und dabei besonders wirksam ist, wenn viele andere mitziehen. Christian Drosten, Virologe an der Charité Berlin, wurde mit seinem NDR-Podcast „Das Coronavirus-Update" 2020 innerhalb weniger Wochen zur bekanntesten wissenschaftlichen Stimme Deutschlands – laut Umfragen der meistgehörte unter den damals populären Podcasts: Rund jeder sechste Podcast-Hörer in Deutschland hatte zu dieser Zeit mindestens einmal reingehört. Er beriet die Bundesregierung um Angela Merkel während der gesamten Pandemie.</p>
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Sinnbild des sozialen Typs 7 – ein Tier, das für die Gemeinschaft baut und dabei besonders wirksam ist, wenn viele andere mitziehen. Christian Drosten, Virologe an der Charité Berlin, wurde mit seinem NDR-Podcast „Das Coronavirus-Update" 2020 innerhalb weniger Wochen zur bekanntesten wissenschaftlichen Stimme Deutschlands – laut Umfragen der meistgehörte unter den damals populären Podcasts: Rund jeder sechste Podcast-Hörer in Deutschland hatte zu dieser Zeit mindestens einmal reingehört. Er beriet die Bundesregierung um Angela Merkel während der gesamten Pandemie.</p>
           <p class="vb-intro">Dieses Porträt zeigt bewusst eine andere Seite der SO7w6 als das Ioannidis-Porträt dieses Kompasses: Wo Ioannidis als Kontratyp gegen den Strom schwamm, auch um den Preis erheblicher Reputationsschäden, zeigt Drosten das Muster der sozialen Sieben in ihrer anpassungsfreudigeren Ausprägung – die enge Bindung an den wissenschaftlich-politischen Konsens der Gruppe, mit allen Stärken und Schwächen, die das mit sich bringt.</p>
         </blockquote>
 
@@ -2624,7 +2624,7 @@ export function louisKlamrothPortraitPage() {
 
         <h2 class="vb-section">1. Der Igel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier des sexuellen Typs 5 &ndash; ein Wesen, das sich bei Gefahr zusammenrollt und Stacheln zeigt, das lieber beobachtet als sich zu zeigen, das aber, wenn es sich einmal entrollt, mit erstaunlicher Direktheit auf jemanden zugehen kann. Louis Klamroth, seit Januar 2023 Nachfolger von Frank Plasberg als Moderator der ARD-Polittalkshow &bdquo;Hart aber fair&ldquo;, trägt diese Doppelnatur sichtbar vor sich her: ein Mann mit politikwissenschaftlichem Studium in Amsterdam und an der London School of Economics, der sich lieber hinter Analyse und Struktur verschanzt, als sich emotional zu exponieren &ndash; und der zugleich öffentlich eine seiner intimsten Beziehungen offenlegte, obwohl er genau wusste, welchen beruflichen Preis das haben würde.</p>
+          <p class="vb-intro">Der <strong>Igel</strong> ist das Sinnbild des sexuellen Typs 5 &ndash; ein Wesen, das sich bei Gefahr zusammenrollt und Stacheln zeigt, das lieber beobachtet als sich zu zeigen, das aber, wenn es sich einmal entrollt, mit erstaunlicher Direktheit auf jemanden zugehen kann. Louis Klamroth, seit Januar 2023 Nachfolger von Frank Plasberg als Moderator der ARD-Polittalkshow &bdquo;Hart aber fair&ldquo;, trägt diese Doppelnatur sichtbar vor sich her: ein Mann mit politikwissenschaftlichem Studium in Amsterdam und an der London School of Economics, der sich lieber hinter Analyse und Struktur verschanzt, als sich emotional zu exponieren &ndash; und der zugleich öffentlich eine seiner intimsten Beziehungen offenlegte, obwohl er genau wusste, welchen beruflichen Preis das haben würde.</p>
           <p class="vb-intro">Geboren am 28. Oktober 1989 in Hamburg als Sohn des Schauspielers Peter Lohmeyer (bekannt u. a. aus &bdquo;Das Wunder von Bern&ldquo;) und Neffe der Journalistin Wibke Bruhns, wuchs Klamroth selbst zunächst als Kinderdarsteller im Scheinwerferlicht auf, bevor er sich dem analytisch-distanzierten Pol seiner Herkunft zuwandte: dem politischen Journalismus. 2016 startete er mit &bdquo;Klamroths Konter&ldquo; bei n-tv als damals jüngster Polit-Talk-Moderator Deutschlands &ndash; ein Format, in dem er lernte, Nähe zu Gesprächspartnern herzustellen, ohne sich selbst preiszugeben.</p>
         </blockquote>
 

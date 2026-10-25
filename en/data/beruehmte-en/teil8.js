@@ -17,7 +17,7 @@ export function alanMcelligottPortraitPage() {
 
         <h2 class="vb-section">1. The Buffalo Who Researched the Buffalo's Herd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>buffalo</strong> is the animal of the Social Nine &ndash; in this compass embodied by the African buffalo, not a bison from the plains of North America: a herd animal that finds its value not through going it alone, but through reliable belonging to the group. Dr. Alan McElligott, a behavioral researcher at the City University of Hong Kong, studies that animal's close Asian relative, the water buffalo &ndash; genetically and behaviorally far closer to the African buffalo than the American bison is to either. A central part of his research is devoted to exactly this herd animal &ndash; and made him an internationally recognized voice in understanding its social behavior.</p>
+          <p class="vb-intro">The <strong>buffalo</strong> is the symbolic animal of the Social Nine &ndash; in this compass embodied by the African buffalo, not a bison from the plains of North America: a herd animal that finds its value not through going it alone, but through reliable belonging to the group. Dr. Alan McElligott, a behavioral researcher at the City University of Hong Kong, studies that animal's close Asian relative, the water buffalo &ndash; genetically and behaviorally far closer to the African buffalo than the American bison is to either. A central part of his research is devoted to exactly this herd animal &ndash; and made him an internationally recognized voice in understanding its social behavior.</p>
           <p class="vb-intro">Together with his research team, he studied feral, free-ranging water buffalo populations and demonstrated what had long been considered unlikely: these animals maintain complex social friendships, individual personality profiles, and preferred bonds within the herd &ndash; by no means the merely 'dull' or purely functional creatures they are often mistakenly assumed to be. The buffalo who proves that the buffalo is more than its cliché.</p>
         </blockquote>
 
@@ -83,7 +83,7 @@ export function anneMcBridePortraitPage() {
 
         <h2 class="vb-section">1. The rabbit who spent a lifetime researching the rabbit's fear</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>rabbit</strong> is the animal of the Self-Preservation Six &ndash; vigilant, safety-conscious, always ready to spot a threat early, before it becomes a danger. Few academic bodies of work show this principle as directly as that of Dr. Anne McBride: she devoted her entire doctorate at University College London to the social and parental behaviour of the European wild rabbit &ndash; making her own archetypal animal, of all things, the subject of years of scholarly devotion.</p>
+          <p class="vb-intro">The <strong>rabbit</strong> is the animal counterpart of the Self-Preservation Six &ndash; vigilant, safety-conscious, always ready to spot a threat early, before it becomes a danger. Few academic bodies of work show this principle as directly as that of Dr. Anne McBride: she devoted her entire doctorate at University College London to the social and parental behaviour of the European wild rabbit &ndash; making her own archetypal animal, of all things, the subject of years of scholarly devotion.</p>
           <p class="vb-intro">She has practiced as a behavioural therapist since 1987, led the University of Southampton's Animal Behaviour Clinic from 1999 to 2009, and has chaired the International Society for Anthrozoology since 1991. Over a hundred scientific publications carry her name &ndash; a life's work built on methodical thoroughness rather than spectacular single discoveries.</p>
         </blockquote>
 
@@ -149,7 +149,7 @@ export function biruteGaldikasPortraitPage() {
 
         <h2 class="vb-section">1. The Orangutan</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Orangutan</strong> is the animal of the self-preservation Eight &ndash; not a pack animal like the lion, but a solitary creature that claims its own territory deep in the rainforest and defends it with quiet, tenacious strength. Dr. Biruté Galdikas was, worldwide, the leading authority on orangutans and led the longest continuous field study of a wild mammal ever conducted by a single principal investigator &ndash; more than fifty years, from 1971 until her death in 2026.</p>
+          <p class="vb-intro">The <strong>Orangutan</strong> stands as the animal of the self-preservation Eight &ndash; not a pack animal like the lion, but a solitary creature that claims its own territory deep in the rainforest and defends it with quiet, tenacious strength. Dr. Biruté Galdikas was, worldwide, the leading authority on orangutans and led the longest continuous field study of a wild mammal ever conducted by a single principal investigator &ndash; more than fifty years, from 1971 until her death in 2026.</p>
           <p class="vb-intro">Here too, the pattern that runs through several of this compass's animal-researcher portraits holds: the animal correspondences were fixed long before anyone knew of Galdikas's life's work. She herself put it once: "I've always felt I was born to study orangutans." Here we see the self-preservation Eight in its purest form &ndash; an unshakeable, almost instinctive knowledge of one's own territory, long before the mind can explain it.</p>
         </blockquote>
 
@@ -411,7 +411,7 @@ export function enyaPortraitPage() {
 
         <h2 class="vb-section">1. The Dove</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>dove</strong> is the animal of the Self-Preservation Four – it does not put its depth on loud display, but processes it in persistent, often years-long withdrawal. Enya was born in 1961 as Eithne Patricia Ní Bhraonáin in the Irish-speaking area of Gweedore, County Donegal, one of nine children in a musical family – her father led a dance band, and several siblings later formed the group Clannad. Eithne joined that family band too, but left it again in 1982 to work on her own.</p>
+          <p class="vb-intro">The <strong>dove</strong> is the emblem of the Self-Preservation Four – it does not put its depth on loud display, but processes it in persistent, often years-long withdrawal. Enya was born in 1961 as Eithne Patricia Ní Bhraonáin in the Irish-speaking area of Gweedore, County Donegal, one of nine children in a musical family – her father led a dance band, and several siblings later formed the group Clannad. Eithne joined that family band too, but left it again in 1982 to work on her own.</p>
           <p class="vb-intro">That early decision to withdraw from a loud, shared band life became a lifelong pattern: for more than forty years, Enya has worked almost exclusively with just two people – producer Nicky Ryan and his wife, lyricist Roma Ryan. No rotating team, no large studio apparatus, but an extremely small, closed circle in which every album takes shape over years.</p>
         </blockquote>
 
@@ -478,7 +478,7 @@ export function friedrichNietzschePortraitPage() {
 
         <h2 class="vb-section">1. The Hedgehog Who Thought the World from a Distance</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>hedgehog</strong> is the animal of the sexual Five &ndash; nocturnal, quiet, with quills born of instinct rather than malice. It curls up when the world grows too loud, and waits until only what truly matters remains. Only someone truly trusted gets to see what lies beneath the quills.</p>
+          <p class="vb-intro">The <strong>hedgehog</strong> stands as the animal of the sexual Five &ndash; nocturnal, quiet, with quills born of instinct rather than malice. It curls up when the world grows too loud, and waits until only what truly matters remains. Only someone truly trusted gets to see what lies beneath the quills.</p>
           <p class="vb-intro">Friedrich Nietzsche was born in 1844 in Röcken near Lützen, the son of a Lutheran pastor who died when Friedrich was five. He grew up in a household of women &ndash; mother, sister, grandmother, two aunts &ndash; and was already so serious and withdrawn as a child that classmates called him &bdquo;the little pastor.&ldquo; At 24, unusually young, he became a professor of classical philology in Basel &ndash; an outsider who preferred thinking alone to thinking in company from the very start.</p>
         </blockquote>
 
@@ -621,7 +621,7 @@ export function hippokratesVonKosPortraitPage() {
 
         <h2 class="vb-section">1. The Armadillo That Turned Away From the Temples</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four &ndash; it seeks community in order to measure itself against it, to spot its blind spots, and to draw its own significance from exactly that difference. Hippocrates of Kos was born around 460 BC on the island of Kos into a family of physicians who traced their lineage back to Asclepius, the god of healing &ndash; an origin that placed him, at first, squarely within the religiously shaped healing arts of his time.</p>
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal counterpart of the social Four &ndash; it seeks community in order to measure itself against it, to spot its blind spots, and to draw its own significance from exactly that difference. Hippocrates of Kos was born around 460 BC on the island of Kos into a family of physicians who traced their lineage back to Asclepius, the god of healing &ndash; an origin that placed him, at first, squarely within the religiously shaped healing arts of his time.</p>
           <p class="vb-intro">Yet it was from exactly this tradition that he set himself apart: in a world where illness was seen as divine punishment or message, and healing was sought in the temples of Asclepius through dream interpretation and ritual sacrifice, Hippocrates positioned himself as the one who understood disease as a natural, explicable process. The armadillo remains part of the community of healers &ndash; but contradicts it at its very core.</p>
         </blockquote>
 
@@ -841,7 +841,7 @@ export function juneCarterCashPortraitPage() {
 
         <h2 class="vb-section">1. The Dove</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>dove</strong> is the animal of the Self-Preservation Four – it does not put its deep emotional life on display, but processes it in quiet, often decades-long persistence. June Carter was born in 1929 in rural Maces Spring, Virginia, the daughter of Maybelle Carter, a founding figure of the legendary Carter Family, one of the most influential groups in American country and folk music. As a child, June already performed on stage alongside her sisters Helen and Anita – born into a family whose entire identity depended on its public musical presence.</p>
+          <p class="vb-intro">The <strong>dove</strong> is the animal counterpart of the Self-Preservation Four – it does not put its deep emotional life on display, but processes it in quiet, often decades-long persistence. June Carter was born in 1929 in rural Maces Spring, Virginia, the daughter of Maybelle Carter, a founding figure of the legendary Carter Family, one of the most influential groups in American country and folk music. As a child, June already performed on stage alongside her sisters Helen and Anita – born into a family whose entire identity depended on its public musical presence.</p>
           <p class="vb-intro">Out of this early imprint grew a lifelong pattern: from childhood on, her own person and her stage persona were barely distinguishable. Rather than resisting this externally imposed role, June turned it into something distinctly her own – a quick-witted, comedic performance style with her own sketches and monologues that set her apart early on from her equally talented sisters.</p>
         </blockquote>
 
@@ -910,7 +910,7 @@ export function konfuziusPortraitPage() {
 
         <h2 class="vb-section">1. The Goose</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>goose</strong> is the animal of the social One &ndash; an animal that flies in formation, holds the line, and insists loudly and unyieldingly that everyone stays within the same order. No accidental animal for a man who devoted his entire life to the question of how a disintegrating society could be brought back into a workable shape through example, ritual, and self-cultivation. Kong Fuzi &ndash; Latinized in the West as Confucius &ndash; lived from 551 to 479 BCE, during a period of political fragmentation and moral decline known as China's Spring and Autumn period.</p>
+          <p class="vb-intro">The <strong>goose</strong> is the emblem of the social One &ndash; an animal that flies in formation, holds the line, and insists loudly and unyieldingly that everyone stays within the same order. No accidental animal for a man who devoted his entire life to the question of how a disintegrating society could be brought back into a workable shape through example, ritual, and self-cultivation. Kong Fuzi &ndash; Latinized in the West as Confucius &ndash; lived from 551 to 479 BCE, during a period of political fragmentation and moral decline known as China's Spring and Autumn period.</p>
           <p class="vb-intro">The Chinese philosopher Confucius, born into an impoverished noble family, worked his way up as a minor official before becoming a wandering teacher: for decades he traveled with a growing circle of students through China's warring principalities, offered his counsel to rulers, and was usually sent away disappointed. Only after his death did his teachings, recorded in the <em>Analects</em> (Lunyu), become the defining moral and political foundation of China for more than two millennia.</p>
         </blockquote>
 
@@ -983,7 +983,7 @@ export function leoTolstoiPortraitPage() {
 
         <h2 class="vb-section">1. The Dove That Thought Through Its Own Suffering</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>dove</strong> is the animal of the self-preservation Four &ndash; it does not put its deep emotional life on display but processes it in quiet, often decades-long persistence. It seeks no applause for its pain, only its own, unmistakable way through it.</p>
+          <p class="vb-intro">The <strong>dove</strong> stands as the animal of the self-preservation Four &ndash; it does not put its deep emotional life on display but processes it in quiet, often decades-long persistence. It seeks no applause for its pain, only its own, unmistakable way through it.</p>
           <p class="vb-intro">The Russian writer Lev Nikolayevich Tolstoy was born in 1828 on the family estate of Yasnaya Polyana, lost both parents early, and grew up with relatives. As a young man he already kept a meticulous diary &ndash; a lifelong ritual of unsparing self-observation in which he recorded his own moral weaknesses, his gambling addiction, his sexual transgressions, and his constant self-criticism in minute detail. This early habit of inner bookkeeping became the foundation of his entire literary work.</p>
         </blockquote>
 
@@ -1544,7 +1544,7 @@ export function tuttyTranPortraitPage() {
 
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature that does not leave its own waters but makes them its own, and that shows its true strength precisely when its own territory comes into question. Tutty Tran did not find his waters on a big stage, but in the everyday life of a Vietnamese immigrant family in Berlin's Neukölln district &ndash; and it is exactly that everyday life that remains at the center of his stand-up to this day.</p>
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the emblem of the self-preservation Two &ndash; a creature that does not leave its own waters but makes them its own, and that shows its true strength precisely when its own territory comes into question. Tutty Tran did not find his waters on a big stage, but in the everyday life of a Vietnamese immigrant family in Berlin's Neukölln district &ndash; and it is exactly that everyday life that remains at the center of his stand-up to this day.</p>
           <p class="vb-intro">The German comedian was born Thomas To Truong Tran in West Berlin in 1988, the son of Vietnamese parents who had come to Germany as so-called boat people in the late 1970s. He grew up in Neukölln &ndash; a setting that gave his later comedy a built-in double layer from the start: the culture clash between the expectations of his parents' generation and his own life as a son who grew up in Germany.</p>
         </blockquote>
 
@@ -1606,7 +1606,7 @@ export function winifredCharlesworthPortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; friendly, reliable, entirely oriented toward the wellbeing of the community, without ever seeming pushy. Alongside Lord Tweedmouth, Mrs. Winifred Charlesworth is considered the breed's most important founding figure: she acquired her first golden bitch, Noranby Beauty, in 1906, co-founded the Golden Retriever Club in Britain in 1911, and wrote the first official breed standard &ndash; a document that remains largely unchanged to this day.</p>
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the symbolic animal of the social Two &ndash; friendly, reliable, entirely oriented toward the wellbeing of the community, without ever seeming pushy. Alongside Lord Tweedmouth, Mrs. Winifred Charlesworth is considered the breed's most important founding figure: she acquired her first golden bitch, Noranby Beauty, in 1906, co-founded the Golden Retriever Club in Britain in 1911, and wrote the first official breed standard &ndash; a document that remains largely unchanged to this day.</p>
           <p class="vb-intro">Here too, the pattern that runs through several of this compass's animal-researcher portraits shows itself: there is no science in the strict sense when it comes to the Golden Retriever, yet decades of meticulous, systematic breeding work produced a form of expert authority whose rigor differs little from a research career &ndash; much like Prof. Grahame Webb or Thea Litschka-Koen. And once again, the very person who shaped an entire breed herself carries exactly the qualities that breed is known for to this day.</p>
         </blockquote>
 
@@ -1667,7 +1667,7 @@ export function karlLauterbachPortraitPage() {
 
         <h2 class="vb-section">1. The Rabbit That Devoted Its Life to Warding Off Danger</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>rabbit</strong> is the animal of the self-preservation Six &ndash; watchful, focused on risk, always striving to recognize danger earlier than others. Karl Lauterbach, born 1963, earned a doctorate in health economics at Harvard University and built a scientific reputation as an epidemiologist and health-policy expert over decades before entering politics. His entire professional life circled around the same basic question: how can danger to public health be recognized and averted as early as possible?</p>
+          <p class="vb-intro">The <strong>rabbit</strong> is the emblem of the self-preservation Six &ndash; watchful, focused on risk, always striving to recognize danger earlier than others. Karl Lauterbach, born 1963, earned a doctorate in health economics at Harvard University and built a scientific reputation as an epidemiologist and health-policy expert over decades before entering politics. His entire professional life circled around the same basic question: how can danger to public health be recognized and averted as early as possible?</p>
           <p class="vb-intro">This portrait looks exclusively at the Enneagram-typical behavior pattern &ndash; not at a political assessment of his tenure or his party. The question here is how the Six's passion, <strong>fear</strong>, can behave under extreme, years-long pressure when it is no longer kept in balance.</p>
         </blockquote>
 
@@ -2073,7 +2073,7 @@ export function alainDelonPortraitPage() {
 
         <h2 class="vb-section">1. The Eagle Who Imposed His Own Discipline</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>eagle</strong> is the animal of the Self-Preservation One: no need for applause, only its own unrelenting standard. Alain Delon was born in 1935 in Sceaux, near Paris; his parents divorced when he was four, and he grew up in changing foster families and with relatives, was expelled from several schools, and at seventeen joined the French Navy, serving during the Indochina War.</p>
+          <p class="vb-intro">The <strong>eagle</strong> is the emblem of the Self-Preservation One: no need for applause, only its own unrelenting standard. Alain Delon was born in 1935 in Sceaux, near Paris; his parents divorced when he was four, and he grew up in changing foster families and with relatives, was expelled from several schools, and at seventeen joined the French Navy, serving during the Indochina War.</p>
           <p class="vb-intro">He was discovered at Cannes in 1957, but his real breakthrough came only through strict, self-imposed discipline: Delon was known as extremely demanding of his own work, chose roles with great care, and required the same uncompromising standard from directors as from himself. The eagle did not circle above French cinema's greatest roles by chance – it had long since set its own course.</p>
         </blockquote>
 
@@ -2213,7 +2213,7 @@ export function mariaCallasPortraitPage() {
 
         <h2 class="vb-section">1. The raccoon who rebuilt her own voice</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three – a creature that builds a working system out of little with skillful hands, quietly and persistently, without waiting for favorable starting conditions. Maria Callas was born in 1923 in New York to Greek immigrant parents, raised by a demanding mother who recognized early on that her daughter's voice was something special – and from then on left no doubt that something had to come of it. At thirteen the family moved to Athens, where Callas began training at the conservatory under Elvira de Hidalgo, the foundation of everything she later mastered.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal counterpart of the self-preservation Three – a creature that builds a working system out of little with skillful hands, quietly and persistently, without waiting for favorable starting conditions. Maria Callas was born in 1923 in New York to Greek immigrant parents, raised by a demanding mother who recognized early on that her daughter's voice was something special – and from then on left no doubt that something had to come of it. At thirteen the family moved to Athens, where Callas began training at the conservatory under Elvira de Hidalgo, the foundation of everything she later mastered.</p>
           <p class="vb-intro">As with Enrico Caruso (SP3w2, see <a href="javascript:void(0)" data-route="beruehmte-enrico-caruso">portrait</a>) – also a self-preservation Three with a two wing – there was no question of effortless talent: what later looked like natural greatness was the result of years of often painful technical work on a voice that only became what revolutionized the music world through discipline.</p>
         </blockquote>
 
@@ -2278,7 +2278,7 @@ export function vincenzoCalifanoPortraitPage() {
         <h2 class="vb-section">1. The Cheetah Who Built a Business Into a Teaching</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Vincenzo Califano lives and teaches in Zurich. By his own account, he had an experience in his youth "for which there was no explanation" – a sudden break in ordinary experience. In parallel, he lived a completely ordinary life for years: he worked, took on responsibility, ran a business. Only after years of intensive seeking – meditation, studying various methods – came the actual turning point: not an event brought about by effort, but the sudden falling away of the seeker itself.</p>
-          <p class="vb-intro">The <strong>cheetah</strong> is the animal of the social Three – it lies quietly for a long time and decides in one moment that then changes everything. That fits Califano's path: years of seeking were followed by a sudden turning point, and out of the sober entrepreneurial biography grew a teaching practice that became visible in the scene – satsangs in several cities, a weekly YouTube channel, his own book, fixed programs for one-on-one guidance.</p>
+          <p class="vb-intro">The <strong>cheetah</strong> is the animal counterpart of the social Three – it lies quietly for a long time and decides in one moment that then changes everything. That fits Califano's path: years of seeking were followed by a sudden turning point, and out of the sober entrepreneurial biography grew a teaching practice that became visible in the scene – satsangs in several cities, a weekly YouTube channel, his own book, fixed programs for one-on-one guidance.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social Three: Standing in the Community of Seekers</h2>
@@ -2344,7 +2344,7 @@ export function henryShukmanPortraitPage() {
 
         <h2 class="vb-section">1. The Beaver Who Searched Before It Built</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>beaver</strong> is the animal of the social Seven: alert, constantly in motion — but not an animal that drifts, one that builds. Henry Shukman was born in 1962 in Oxford to two university professors, but grew up with chronic eczema, anxiety, and depression that accompanied him from childhood. At nineteen he had a spontaneous spiritual awakening — an event he himself only gradually learned to understand and integrate over decades.</p>
+          <p class="vb-intro">The <strong>beaver</strong> is the emblem of the social Seven: alert, constantly in motion — but not an animal that drifts, one that builds. Henry Shukman was born in 1962 in Oxford to two university professors, but grew up with chronic eczema, anxiety, and depression that accompanied him from childhood. At nineteen he had a spontaneous spiritual awakening — an event he himself only gradually learned to understand and integrate over decades.</p>
           <p class="vb-intro">Before becoming a Zen teacher, Shukman worked as a trombonist, a trawlerman, and a travel writer — three completely different life paths he pursued one after another with full commitment. His first book, "Sons of the Moon" (1989), described a journey through Bolivia's most remote regions; it was followed by "Travels with My Trombone," about a year as a calypso and salsa musician in the Caribbean and Colombia, and "Savage Pilgrims," a search for traces of D. H. Lawrence in New Mexico — the very state where, decades later, Shukman would find his spiritual home.</p>
         </blockquote>
 
@@ -2411,7 +2411,7 @@ export function harrisonFordPortraitPage() {
 
         <h2 class="vb-section">1. The Eagle</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>eagle</strong> is the animal of the self-preservation One – an animal whose standing comes not from spectacle, but from the plain fact that it has fully mastered its craft before moving on to the next level. Harrison Ford, born in Chicago in 1942, spent nearly a decade as a professional carpenter after early unsuccessful years as an actor, supporting his family – a craft he practiced with the same care he would later bring to acting, rather than treating it as a mere stopgap.</p>
+          <p class="vb-intro">The <strong>eagle</strong> stands as the animal of the self-preservation One – an animal whose standing comes not from spectacle, but from the plain fact that it has fully mastered its craft before moving on to the next level. Harrison Ford, born in Chicago in 1942, spent nearly a decade as a professional carpenter after early unsuccessful years as an actor, supporting his family – a craft he practiced with the same care he would later bring to acting, rather than treating it as a mere stopgap.</p>
           <p class="vb-intro">A carpentry job of all things became the turning point: while building office cabinets for George Lucas during the making of "American Graffiti," Ford caught the director's attention – a coincidence that could only turn into a breakthrough because Ford genuinely mastered his craft over years, rather than just playing a role while waiting for the big break.</p>
         </blockquote>
 

@@ -18,7 +18,7 @@ export function claraLoeselPortraitPage() {
         <h2 class="vb-section">1. The wolf who says her fear out loud</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Clara Lösel, from Gießen, found an unusual path to literary public life with a completed teaching degree and her work as a poet: through short, pointed poetry performances on Instagram and TikTok. With her project "100 Gedichte in 100 Tagen" ("100 Poems in 100 Days"), she publicly committed herself to a strict daily writing discipline – no spontaneous occasional poetry, but a self-imposed, consistently maintained system.</p>
-          <p class="vb-intro">The <strong>wolf</strong> is the animal of the sexual Six – an animal that responds to threat not with withdrawal but with confrontation. Today Lösel reaches around two million people monthly across her channels; her debut, "Wehe du gibst auf" ("Don't You Dare Give Up"), reached number 1 on the Spiegel bestseller list. About the hate comments she regularly receives, she herself says: "Hate comments sometimes scare me. But I won't let hateful people silence me."</p>
+          <p class="vb-intro">The <strong>wolf</strong> is the emblem of the sexual Six – an animal that responds to threat not with withdrawal but with confrontation. Today Lösel reaches around two million people monthly across her channels; her debut, "Wehe du gibst auf" ("Don't You Dare Give Up"), reached number 1 on the Spiegel bestseller list. About the hate comments she regularly receives, she herself says: "Hate comments sometimes scare me. But I won't let hateful people silence me."</p>
         </blockquote>
 
         <h2 class="vb-section">2. The sexual Six: fear spoken publicly instead of hidden</h2>
@@ -296,7 +296,7 @@ export function christianRaetschPortraitPage() {
 
         <h2 class="vb-section">1. The Owl</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Owl</strong> is the animal of the Self-Preservation Type 5 &ndash; and it is an animal of silence and depth. It sees what others cannot: in the darkness, in the spaces between, where the ordinary eye fails. The Owl is not a social animal. It observes from a distance, hoards its knowledge, waits &ndash; and when it acts, it does so with a precision that wastes no energy. It is not an animal of grand gestures. It is an animal of concentrated force.</p>
+          <p class="vb-intro">The <strong>Owl</strong> is the symbolic animal of the Self-Preservation Type 5 &ndash; and it is an animal of silence and depth. It sees what others cannot: in the darkness, in the spaces between, where the ordinary eye fails. The Owl is not a social animal. It observes from a distance, hoards its knowledge, waits &ndash; and when it acts, it does so with a precision that wastes no energy. It is not an animal of grand gestures. It is an animal of concentrated force.</p>
           <p class="vb-intro">The German ethnopharmacologist Christian Rätsch was one of the most significant ethnopharmacologists of his time &ndash; a researcher who devoted his life to knowledge of medicinal plants, incense substances and shamanic traditions. His standard work <em>Encyclopedia of Psychoactive Plants</em> is considered the most comprehensive botanical-ethnological reference work in the field. He did not popularise. He documented, systematised, preserved. The Owl that sees in the darkness &ndash; where others do not want or are not permitted to look.</p>
         </blockquote>
 
@@ -495,7 +495,7 @@ export function fransDeWaalPortraitPage() {
 
         <h2 class="vb-section">1. The chimpanzee who discovered chimpanzee politics</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>chimpanzee</strong> is the animal of the Sexual Seven &ndash; clever, playful, socially highly intelligent, with a preference for intense bonds and intellectual boundary-crossing. Few scientists embodied this principle as fully as Prof. Dr. Frans de Waal: the Dutch-American primatologist is regarded as the most influential behavioural researcher in his field worldwide and became known as the "bridge-builder between humans and chimpanzees."</p>
+          <p class="vb-intro">The <strong>chimpanzee</strong> is the emblem of the Sexual Seven &ndash; clever, playful, socially highly intelligent, with a preference for intense bonds and intellectual boundary-crossing. Few scientists embodied this principle as fully as Prof. Dr. Frans de Waal: the Dutch-American primatologist is regarded as the most influential behavioural researcher in his field worldwide and became known as the "bridge-builder between humans and chimpanzees."</p>
           <p class="vb-intro">Born in 1948 in 's-Hertogenbosch, de Waal earned his doctorate in Utrecht in 1977. His groundbreaking first book, "Chimpanzee Politics" (1982), documented the complex power alliances and shifting coalitions of chimpanzees at Arnhem Zoo &ndash; and introduced the concept of "Machiavellian intelligence" into primatology. De Waal died in 2024 at the age of 75.</p>
         </blockquote>
 
@@ -561,7 +561,7 @@ export function gertrudeElionPortraitPage() {
 
         <h2 class="vb-section">1. The Octopus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>octopus</strong> is the animal of the social Type 5 &ndash; and it is one of the most intelligent creatures on earth. Eight arms, each with its own nervous system, each capable of thinking and acting independently. The octopus solves problems no other animal of its kind can solve. It adapts, it observes, it understands connections &ndash; and it does so mostly in concealment, without fanfare, without an audience.</p>
+          <p class="vb-intro">The <strong>octopus</strong> is the emblem of the social Type 5 &ndash; and it is one of the most intelligent creatures on earth. Eight arms, each with its own nervous system, each capable of thinking and acting independently. The octopus solves problems no other animal of its kind can solve. It adapts, it observes, it understands connections &ndash; and it does so mostly in concealment, without fanfare, without an audience.</p>
           <p class="vb-intro">Gertrude Belle Elion was this octopus: a scientist who thought simultaneously in multiple directions, who saw connections others did not see &ndash; and whose work saved millions of human lives, without most people today knowing her name. In 1988 she received the Nobel Prize in Physiology or Medicine. But her actual work had begun decades earlier &ndash; in a laboratory that initially did not want to let her in at all.</p>
         </blockquote>
 
@@ -623,7 +623,7 @@ export function hazelBruggerPortraitPage() {
 
         <h2 class="vb-section">1. The Beaver</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Beaver</strong> is the animal of the Social Type 7 &ndash; and Hazel Brugger is a Beaver who builds on stage. The Beaver creates something where nothing was before: it dams water, transforms landscapes, turns stillness into movement. Hazel Brugger steps onto the stage &ndash; and afterwards the room is different. Not because she is loud. But because her thoughts build dams that hold back the water of reality and redirect it in another direction.</p>
+          <p class="vb-intro">The <strong>Beaver</strong> is the emblem of the Social Type 7 &ndash; and Hazel Brugger is a Beaver who builds on stage. The Beaver creates something where nothing was before: it dams water, transforms landscapes, turns stillness into movement. Hazel Brugger steps onto the stage &ndash; and afterwards the room is different. Not because she is loud. But because her thoughts build dams that hold back the water of reality and redirect it in another direction.</p>
           <p class="vb-intro">Beavers are solitary animals that nevertheless build for others. They construct their habitat not for show but because they cannot do otherwise &ndash; and what they create benefits the entire ecosystem. Hazel Brugger writes books, performs on stage, presents, blogs, podcasts, slams. The Beaver always has a new project. And everyone watching benefits from it.</p>
         </blockquote>
 
@@ -685,7 +685,7 @@ export function inaMuellerPortraitPage() {
 
         <h2 class="vb-section">1. The Chimpanzee</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Chimpanzee</strong> is the animal of the Sexual Type 7 &ndash; and Ina Müller is a Chimpanzee through and through. The Chimpanzee needs contact: direct, vivid, unfiltered. It learns not from books but through encounter. It is curious, full of energy, sometimes loud, sometimes tender &ndash; but always present. And when it laughs, the whole forest laughs with it.</p>
+          <p class="vb-intro">The <strong>Chimpanzee</strong> is the animal counterpart of the Sexual Type 7 &ndash; and Ina Müller is a Chimpanzee through and through. The Chimpanzee needs contact: direct, vivid, unfiltered. It learns not from books but through encounter. It is curious, full of energy, sometimes loud, sometimes tender &ndash; but always present. And when it laughs, the whole forest laughs with it.</p>
           <p class="vb-intro">The German host Ina Müller created with <em>Inas Nacht</em> a format that is unique in the German television landscape: no couch, no desk, no distance. A bar, a piano, a guest, a conversation &ndash; and a host who genuinely listens. The Chimpanzee does not sit opposite. It sits beside. And that makes all the difference.</p>
         </blockquote>
 
@@ -879,7 +879,7 @@ export function katjaRiemannPortraitPage() {
 
         <h2 class="vb-section">1. The Wolf</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>wolf</strong> is the animal of the sexual Type 6 &ndash; an animal that does not avoid threat, but looks it straight in the eye. It tests, holds eye contact, bares its teeth when it must. Hardly any German actress embodies this directness as consistently as Katja Riemann: known not only for her roles, but for interviews in which she holds nothing back.</p>
+          <p class="vb-intro">The <strong>wolf</strong> is the animal counterpart of the sexual Type 6 &ndash; an animal that does not avoid threat, but looks it straight in the eye. It tests, holds eye contact, bares its teeth when it must. Hardly any German actress embodies this directness as consistently as Katja Riemann: known not only for her roles, but for interviews in which she holds nothing back.</p>
           <p class="vb-intro">The German actress Katja Riemann, born in 1963 in Bad Kreuznach and trained at the Folkwang drama school in Essen, became a star of German cinema overnight with <em>Der bewegte Mann</em> (1994), alongside Til Schweiger (SO4w3). But unlike many who follow their first major success with something similar, she has since shifted consistently between comedy, musical film, and historical drama &ndash; with a willingness to take risks that has become rare.</p>
         </blockquote>
 
@@ -1565,7 +1565,7 @@ export function vincentVanGoghPortraitPage() {
 
         <h2 class="vb-section">1. The Dove</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>dove</strong> is the animal of the Self-Preservation Four – it does not put its deep emotional life on display, but processes it in quiet, often decades-long persistence. Vincent van Gogh was born on March 30, 1853, in Groot-Zundert – exactly one year to the day after his mother had given birth to a stillborn son, who had also been baptized Vincent. In the village cemetery stood a gravestone bearing his own name and birth year, past which the family walked every Sunday – a child who literally grew up in the shadow of a predecessor he could never replace.</p>
+          <p class="vb-intro">The <strong>dove</strong> is the animal counterpart of the Self-Preservation Four – it does not put its deep emotional life on display, but processes it in quiet, often decades-long persistence. Vincent van Gogh was born on March 30, 1853, in Groot-Zundert – exactly one year to the day after his mother had given birth to a stillborn son, who had also been baptized Vincent. In the village cemetery stood a gravestone bearing his own name and birth year, past which the family walked every Sunday – a child who literally grew up in the shadow of a predecessor he could never replace.</p>
           <p class="vb-intro">This early experience of never being fully one's own, unmistakable self, but always also a replacement, is the soil in which the Self-Preservation Four grows. Van Gogh, son of a Calvinist pastor, worked first as an art dealer in The Hague, London, and Paris, then briefly as a teacher, and finally as a lay preacher in the Belgian coal-mining region of the Borinage – where, to stay as close as possible to the miners, he gave away his own clothing, slept on straw, and renounced comfort so radically that his church superiors dismissed him in 1880 for "excessive zeal."</p>
         </blockquote>
 
@@ -1642,7 +1642,7 @@ export function zoeSaldanaPortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that does not limit its warmth to one person, but extends it to everyone in the pack. It seeks community rather than exclusive attachment, and feels most at ease when it can be part of something larger that it serves.</p>
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the emblem of the social Two &ndash; an animal that does not limit its warmth to one person, but extends it to everyone in the pack. It seeks community rather than exclusive attachment, and feels most at ease when it can be part of something larger that it serves.</p>
           <p class="vb-intro">The American actress Zoe Saldaña is the only actress to hold lead roles in several of the highest-grossing film franchises in cinema history &ndash; as Neytiri in <em>Avatar</em>, as Gamora in the Marvel films, as Uhura in the rebooted <em>Star Trek</em> series. In all three cases she is part of an ensemble larger than herself, and carries that ensemble along rather than standing apart from it. The Golden Retriever seeks the ensemble, not the solitary hunt.</p>
         </blockquote>
 
@@ -2233,7 +2233,7 @@ export function kimEngPortraitPage() {
 
         <h2 class="vb-section">1. The Raccoon Who Discovered the Body as a Tool</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three – an animal that works with its own paws, feels, washes, sorts: competence shows here not in a grand gesture, but in the skillful, concrete handling of whatever lies directly in front of it. Kim Eng, born in Vancouver (her exact birth year is not publicly confirmed), began her spiritual search as early as the early 1980s. In 1998 she met Eckhart Tolle and, shortly after, underwent a profound spiritual experience during one of his retreats, followed by seven years of intensive inner training before she herself began guiding others.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal counterpart of the self-preservation Three – an animal that works with its own paws, feels, washes, sorts: competence shows here not in a grand gesture, but in the skillful, concrete handling of whatever lies directly in front of it. Kim Eng, born in Vancouver (her exact birth year is not publicly confirmed), began her spiritual search as early as the early 1980s. In 1998 she met Eckhart Tolle and, shortly after, underwent a profound spiritual experience during one of his retreats, followed by seven years of intensive inner training before she herself began guiding others.</p>
           <p class="vb-intro">Since then she has been not only his life partner but a teacher with her own body of work: "Presence Through Movement" (PTM), a practice that makes consciousness accessible through concrete, physical movement – exactly the self-preservation competence of the raccoon, which does not proclaim insight abstractly but works it out hands-on, through the body itself.</p>
         </blockquote>
 
@@ -2292,7 +2292,7 @@ export function dmitriHvorostovskyPortraitPage() {
 
         <h2 class="vb-section">1. The Cheetah from Siberia</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Cheetah</strong> is the animal of the social Three – fast, striking, built for the one decisive moment when every eye is on it. Dmitri Hvorostovsky, born 1962 in Siberian Krasnoyarsk, needed exactly two international competitions to leap from the provinces to the world stage: in 1987 he won first prize at the Glinka Competition, then in 1989 the BBC Cardiff Singer of the World – beating the Welsh bass-baritone Bryn Terfel, who had been the favorite going into the final.</p>
+          <p class="vb-intro">The <strong>Cheetah</strong> stands as the animal of the social Three – fast, striking, built for the one decisive moment when every eye is on it. Dmitri Hvorostovsky, born 1962 in Siberian Krasnoyarsk, needed exactly two international competitions to leap from the provinces to the world stage: in 1987 he won first prize at the Glinka Competition, then in 1989 the BBC Cardiff Singer of the World – beating the Welsh bass-baritone Bryn Terfel, who had been the favorite going into the final.</p>
           <p class="vb-intro">Within a few years, appearances followed at practically every major opera house in the world. The cheetah doesn't wait long for its chance – it seizes it the moment it appears, turning a single won competition into a decades-long international career.</p>
         </blockquote>
 
@@ -2361,7 +2361,7 @@ export function adrianoCelentanoPortraitPage() {
 
         <h2 class="vb-section">1. The Chimpanzee</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>chimpanzee</strong> is the animal of the sexual Seven – highly intelligent, adaptable, full of impulsive zest for life, with a vitality that opens up new forms of expression at breathtaking speed. Adriano Celentano was born in 1938 into modest circumstances in Milan, on Via Cristoforo Gluck – the street he later immortalized in his hit "Il ragazzo della via Gluck." As a teenager he founded the band "Rock Boys" and was discovered by talent scout Ezio Leoni.</p>
+          <p class="vb-intro">The <strong>chimpanzee</strong> is the emblem of the sexual Seven – highly intelligent, adaptable, full of impulsive zest for life, with a vitality that opens up new forms of expression at breathtaking speed. Adriano Celentano was born in 1938 into modest circumstances in Milan, on Via Cristoforo Gluck – the street he later immortalized in his hit "Il ragazzo della via Gluck." As a teenager he founded the band "Rock Boys" and was discovered by talent scout Ezio Leoni.</p>
           <p class="vb-intro">From these humble Milanese beginnings, he grew into one of the best-selling Italian artists of all time – more than 150 million records sold, a career as a singer, actor in 39 films, director, and TV host that spanned seven decades.</p>
         </blockquote>
 
@@ -2634,7 +2634,7 @@ export function sixNinePortraitPage() {
 
         <h2 class="vb-section">1. The Hippopotamus: a boy from Bushwick</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two: it looks easygoing and clumsy, stays in its territory, and becomes dangerous very quickly when that territory seems threatened. Daniel Hernandez was born on 8 May 1996 in the Brooklyn neighborhood of Bushwick. His mother comes from Atlixco in Mexico, his father from Puerto Rico. He grew up in a church community and, according to the available information, met his biological father only at around age nine; the father was addicted to drugs and was imprisoned for several years. In 2010 his stepfather was shot near the family home. Afterwards Hernandez is said to have fallen into a depression.</p>
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal counterpart of the self-preservation Two: it looks easygoing and clumsy, stays in its territory, and becomes dangerous very quickly when that territory seems threatened. Daniel Hernandez was born on 8 May 1996 in the Brooklyn neighborhood of Bushwick. His mother comes from Atlixco in Mexico, his father from Puerto Rico. He grew up in a church community and, according to the available information, met his biological father only at around age nine; the father was addicted to drugs and was imprisoned for several years. In 2010 his stepfather was shot near the family home. Afterwards Hernandez is said to have fallen into a depression.</p>
           <p class="vb-intro">He left school around the tenth grade, having earlier been expelled for misbehavior. He worked as a busboy at a restaurant and in a bodega. In 2012 he decided to rap after the label owner Peter &lsquo;Righteous P&rsquo; Rodgers approached him. The details come from press and Wikipedia sources that partly rest on court documents and his own statements.</p>
         </blockquote>
 

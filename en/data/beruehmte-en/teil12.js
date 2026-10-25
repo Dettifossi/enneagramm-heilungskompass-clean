@@ -17,7 +17,7 @@ export function alexanderDerGrossePortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever Who Wanted to Embrace the World</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; warm, generous, irresistibly driven to be needed and loved. Few historical figures display this pattern as unbrokenly as Alexander the Great. Contemporary sources consistently describe a man who knew his soldiers by name, personally visited the wounded, and in eleven years of unbroken campaigning was never far from the front line &ndash; a general who sought closeness where others would have used distance to secure their power.</p>
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the emblem of the social Two &ndash; warm, generous, irresistibly driven to be needed and loved. Few historical figures display this pattern as unbrokenly as Alexander the Great. Contemporary sources consistently describe a man who knew his soldiers by name, personally visited the wounded, and in eleven years of unbroken campaigning was never far from the front line &ndash; a general who sought closeness where others would have used distance to secure their power.</p>
           <p class="vb-intro">Born in 356 BC as the son of King Philip II of Macedon, the Macedonian king Alexander the Great was personally tutored by Aristotle (SP1w9) &ndash; an education that gave him intellectual depth alongside soldierly toughness. As a boy he tamed the supposedly unbreakable horse Bucephalus simply by turning it away from its own shadow and then approaching it calmly and openly &ndash; an early miniature of his entire leadership style: connection over coercion.</p>
         </blockquote>
 
@@ -84,7 +84,7 @@ export function arminRohdePortraitPage() {
 
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal that does not leave its territory because it is rooted there, not because it is trapped there. It knows every stone on the bank, every current, every neighbor in the same water &ndash; and it draws its strength from exactly this deep familiarity with its own origin, not from distance or unfamiliar ground.</p>
+          <p class="vb-intro">The <strong>Hippopotamus</strong> stands as the animal of the self-preservation Two &ndash; an animal that does not leave its territory because it is rooted there, not because it is trapped there. It knows every stone on the bank, every current, every neighbor in the same water &ndash; and it draws its strength from exactly this deep familiarity with its own origin, not from distance or unfamiliar ground.</p>
           <p class="vb-intro">Armin Rohde, born in 1955 in Herne in Germany's Ruhr region, has stayed true to this origin throughout his life and throughout his entire career. Even after decades as one of Germany's best-known actors, he still describes himself unchanged as a child of the Ruhrpott, speaks openly in his native dialect, and has never treated his origins as something to shed once fame arrived. The Hippopotamus stays in its water &ndash; and becomes unmistakable precisely because of it.</p>
         </blockquote>
 
@@ -205,7 +205,7 @@ export function changpengZhaoPortraitPage() {
 
         <h2 class="vb-section">1. The Raccoon</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal at its most skillful in the dark: unremarkable, adaptable, at home wherever it happens to be needed. Only on closer inspection does it become clear how much control lies behind that apparent modesty.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> is the emblem of the self-preservation Three &ndash; an animal at its most skillful in the dark: unremarkable, adaptable, at home wherever it happens to be needed. Only on closer inspection does it become clear how much control lies behind that apparent modesty.</p>
           <p class="vb-intro">The Canadian-Chinese entrepreneur Changpeng Zhao, usually known simply as "CZ," was born in 1977 in China's Jiangsu province and emigrated with his family to Canada as a teenager, growing up in Vancouver and studying computer science at McGill University. Before founding his own company, he worked in the technical background of financial systems &ndash; at Bloomberg Tradebook, at the trading-software firm Fusion Systems, and finally as Chief Technology Officer at OKCoin, at the time one of the largest crypto exchanges in the world.</p>
         </blockquote>
 
@@ -264,7 +264,7 @@ export function danteAlighieriPortraitPage() {
 
         <h2 class="vb-section">1. The Chihuahua Who Built a World Tribunal Out of Exile</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Chihuahua</strong> is the animal of the sexual Four: small in stature, immense in inner life, incapable of half-measures in either love or anger. Dante Alighieri was born in 1265 in Florence, a city that would later cast him out &ndash; and it was precisely out of that expulsion that he created one of the most powerful literary works in world history.</p>
+          <p class="vb-intro">The <strong>Chihuahua</strong> is the animal counterpart of the sexual Four: small in stature, immense in inner life, incapable of half-measures in either love or anger. Dante Alighieri was born in 1265 in Florence, a city that would later cast him out &ndash; and it was precisely out of that expulsion that he created one of the most powerful literary works in world history.</p>
           <p class="vb-intro">In 1302, amid the power struggles between the political factions of the White and Black Guelphs, Dante was banished from Florence on false charges of corruption and sentenced to death should he ever return. He would never set foot in his home city again. The Chihuahua, driven from its territory, did not turn its exile into resignation but into the raw material for a work that would secure him, posthumously, exactly the immortality the city denied him in life.</p>
         </blockquote>
 
@@ -684,7 +684,7 @@ export function hughWarwickPortraitPage() {
 
         <h2 class="vb-section">1. The hedgehog carrying on a lifelong love affair with the hedgehog</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>hedgehog</strong> is the animal of the Sexual Five &ndash; spiky on the outside, vulnerable at the core, and capable of a bonding intensity that concentrates not on many things but on one deeply explored subject. Few lives show this pattern as literally as that of Hugh Warwick, British ecologist, author, and spokesperson for the British Hedgehog Preservation Society, whom decades of devotion have earned the simple nickname "the hedgehog whisperer."</p>
+          <p class="vb-intro">The <strong>hedgehog</strong> is the emblem of the Sexual Five &ndash; spiky on the outside, vulnerable at the core, and capable of a bonding intensity that concentrates not on many things but on one deeply explored subject. Few lives show this pattern as literally as that of Hugh Warwick, British ecologist, author, and spokesperson for the British Hedgehog Preservation Society, whom decades of devotion have earned the simple nickname "the hedgehog whisperer."</p>
           <p class="vb-intro">The British ecologist Hugh Warwick has studied hedgehogs since the mid-1980s, spent months radio-tracking the animals across southwest England and Scotland, and has devoted practically his entire professional life to them for over three decades. One of his best-known books carries the telling title "A Prickly Affair" &ndash; a title that describes his relationship to the hedgehog for exactly what it is: an affair, not merely a field of study.</p>
         </blockquote>
 
@@ -1043,7 +1043,7 @@ export function loiPortraitPage() {
 
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal whose very name is a statement: steadfast, warm-hearted, unshakeable on its own ground. Leonie Greiner chose the stage name <em>Loi</em>, an alternate spelling of "lion" – derived from her childhood nickname "Leonie Lionheart." A name that asserted an inner strength early on, one that would only later be confirmed publicly.</p>
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the symbolic animal of the self-preservation Two &ndash; an animal whose very name is a statement: steadfast, warm-hearted, unshakeable on its own ground. Leonie Greiner chose the stage name <em>Loi</em>, an alternate spelling of "lion" – derived from her childhood nickname "Leonie Lionheart." A name that asserted an inner strength early on, one that would only later be confirmed publicly.</p>
           <p class="vb-intro">Born July 3, 2002, in Mannheim, Loi's musical path did not begin with a sudden breakthrough but with years of practicing guitar and piano – a solid, craft-based foundation before she was known to any wider audience at all.</p>
         </blockquote>
 
@@ -1309,7 +1309,7 @@ export function paulMccartneyPortraitPage() {
 
         <h2 class="vb-section">1. The Dove</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>dove</strong> is the animal of the self-preservation Four &ndash; unremarkable at first glance, but possessing a tenacity that endures long distances. It carries messages without pushing itself into the foreground, and returns where others would give up. Few song titles capture this image more precisely than Paul McCartney&#39;s own &bdquo;Let It Be&ldquo; &ndash; written in a night of doubt, as an answer to a dream of his late mother.</p>
+          <p class="vb-intro">The <strong>dove</strong> is the animal counterpart of the self-preservation Four &ndash; unremarkable at first glance, but possessing a tenacity that endures long distances. It carries messages without pushing itself into the foreground, and returns where others would give up. Few song titles capture this image more precisely than Paul McCartney&#39;s own &bdquo;Let It Be&ldquo; &ndash; written in a night of doubt, as an answer to a dream of his late mother.</p>
           <p class="vb-intro">Over sixty years of public work, more than 20,000 performances of his songs worldwide, and yet McCartney remains a figure whose deepest inner life is remarkably little known. The dove that sings what it feels &ndash; and almost never reveals what the singing costs.</p>
         </blockquote>
 
@@ -1585,7 +1585,7 @@ export function umbertEcoPortraitPage() {
 
         <h2 class="vb-section">1. The Orangutan</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Orangutan</strong> is the animal of the Self-Preservation Type 8 &ndash; and no image captures Umberto Eco more precisely. The Orangutan is the most solitary of the great apes: it needs no troop. It moves slowly, deliberately, with a dignity that knows no hurry. Its tool use is legendary. It is the only one among the apes that stores knowledge of food sources in a particular territory accumulated over decades &ndash; a walking archive.</p>
+          <p class="vb-intro">The <strong>Orangutan</strong> is the emblem of the Self-Preservation Type 8 &ndash; and no image captures Umberto Eco more precisely. The Orangutan is the most solitary of the great apes: it needs no troop. It moves slowly, deliberately, with a dignity that knows no hurry. Its tool use is legendary. It is the only one among the apes that stores knowledge of food sources in a particular territory accumulated over decades &ndash; a walking archive.</p>
           <p class="vb-intro">Umberto Eco owned over 30,000 books. Not as decoration but as instruments of thought. He called it his <em>antilibrary</em>: the books one has not yet read are more important than those one has &ndash; for they remind one of everything one does not yet know. The Orangutan sits enthroned in its tree, surrounded by what it has accumulated. And it smiles when others ask whether it has really read all of them.</p>
         </blockquote>
 
@@ -1868,7 +1868,7 @@ export function dieterLangePortraitPage() {
 
         <h2 class="vb-section">1. The Eagle</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eagle</strong> is the animal of the self-preservation One &ndash; an animal that impresses not through volume but through the precision of its gaze. It circles for a long time before committing, and when it acts, it does so out of an inner clarity earned over years.</p>
+          <p class="vb-intro">The <strong>Eagle</strong> is the emblem of the self-preservation One &ndash; an animal that impresses not through volume but through the precision of its gaze. It circles for a long time before committing, and when it acts, it does so out of an inner clarity earned over years.</p>
           <p class="vb-intro">Dieter Lange, born in 1951, embodies this eagle's gaze through an unusual career path: after studying psychology and business administration, including at Harvard, he spent several years living among indigenous peoples, in desert regions, and in East Asian monasteries &ndash; a self-examination that goes far beyond what most trainers in his field have ever undertaken.</p>
         </blockquote>
 
@@ -1932,7 +1932,7 @@ export function juergenKlinsmannPortraitPage() {
 
         <h2 class="vb-section">1. The Eagle</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>eagle</strong> is the animal of the self-preservation One – an animal that impresses not through volume, but through the precision of its gaze and the consistency of its action once its own standard has been met. Jürgen Klinsmann, born in 1964 in Göppingen as the son of a master baker, stood out as a young striker at VfB Stuttgart for a discipline still unusual in German football in the 1980s: targeted extra training, nutritional awareness, meticulous preparation down to every detail of his game.</p>
+          <p class="vb-intro">The <strong>eagle</strong> is the animal counterpart of the self-preservation One – an animal that impresses not through volume, but through the precision of its gaze and the consistency of its action once its own standard has been met. Jürgen Klinsmann, born in 1964 in Göppingen as the son of a master baker, stood out as a young striker at VfB Stuttgart for a discipline still unusual in German football in the 1980s: targeted extra training, nutritional awareness, meticulous preparation down to every detail of his game.</p>
           <p class="vb-intro">This early willingness to hold himself to higher standards than the usual training load demanded runs through his entire career – from player to coach, who decades later turned exactly this attitude into the foundation for a complete overhaul of the German national team.</p>
         </blockquote>
 
@@ -2059,7 +2059,7 @@ export function usainBoltPortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever Who Took the Stadium With Him</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the Social Two – warm, irresistibly driven to win over an entire audience. Usain Bolt, born in 1986 in rural Sherwood Content, Jamaica, played cricket and football as a child before his primary school teacher and cricket coach noticed his extraordinary speed and pushed him toward sprinting. Even as a teenager, Bolt stood out less for quiet discipline than for the sheer joy of running in front of people.</p>
+          <p class="vb-intro">The <strong>Golden Retriever</strong> stands as the animal of the Social Two – warm, irresistibly driven to win over an entire audience. Usain Bolt, born in 1986 in rural Sherwood Content, Jamaica, played cricket and football as a child before his primary school teacher and cricket coach noticed his extraordinary speed and pushed him toward sprinting. Even as a teenager, Bolt stood out less for quiet discipline than for the sheer joy of running in front of people.</p>
           <p class="vb-intro">That joy in the audience became his trademark: no other sprinter in history danced, joked, and posed as extensively before the start and after the finish as Bolt. The Golden Retriever doesn't just run fast for itself – it runs to carry an entire stadium along with it.</p>
         </blockquote>
 
@@ -2267,7 +2267,7 @@ export function antonZeilingerPortraitPage() {
 
         <h2 class="vb-section">1. The octopus reaching for entanglement with eight arms</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>octopus</strong> is the animal of the social Five – a creature that reaches with several arms at once, feeling, testing, connecting before it commits. In Anton Zeilinger's case, this image shows up directly in the subject of his research: entangled photons which, once linked, keep their states coordinated across any distance, no matter how far the arms are stretched apart. A research life devoted to exactly that connection – not the single particle, but what binds two particles across every distance.</p>
+          <p class="vb-intro">The <strong>octopus</strong> is the symbolic animal of the social Five – a creature that reaches with several arms at once, feeling, testing, connecting before it commits. In Anton Zeilinger's case, this image shows up directly in the subject of his research: entangled photons which, once linked, keep their states coordinated across any distance, no matter how far the arms are stretched apart. A research life devoted to exactly that connection – not the single particle, but what binds two particles across every distance.</p>
           <p class="vb-intro">Zeilinger was born in 1945 in Ried im Innkreis, studied physics and mathematics in Vienna, and earned his doctorate at the Atominstitut under Helmut Rauch. From 1999 to 2013 he was professor of experimental physics at the University of Vienna, from 2004 to 2013 director of the Institute for Quantum Optics and Quantum Information (IQOQI), and from 2013 to 2022 president of the Austrian Academy of Sciences. A path that expanded over decades from the single measurement to institutional responsibility for an entire scientific system.</p>
         </blockquote>
 
@@ -2335,7 +2335,7 @@ export function donMcleanPortraitPage() {
         <h2 class="vb-section">1. The Dove Who Wrapped Its Pain in Allegory</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Don McLean was born in 1945 in New Rochelle, New York. His father died when he was fifteen; severe asthma kept him out of school for long stretches, while his love of music was allowed to flourish early. In 1971 he released "American Pie," one of the most influential songs in American music history – a multilayered allegory for the loss of innocence of the early rock'n'roll generation, triggered by the plane crash that killed Buddy Holly, Ritchie Valens, and the "Big Bopper."</p>
-          <p class="vb-intro">The <strong>dove</strong> is the animal of the self-preservation Four – it doesn't put its longing on display, but wraps it in something that communicates quietly rather than shouting. That's exactly what McLean did in 1971 with "Vincent" as well: he wrote the song about <a href="javascript:void(0)" data-route="beruehmte-vincent-van-gogh">Vincent van Gogh</a> (also SP4w5) while he himself was in the middle of what he later called a "torturing" marital crisis – his own pain flowed, unspoken, into lines about another, misunderstood artist.</p>
+          <p class="vb-intro">The <strong>dove</strong> stands as the animal of the self-preservation Four – it doesn't put its longing on display, but wraps it in something that communicates quietly rather than shouting. That's exactly what McLean did in 1971 with "Vincent" as well: he wrote the song about <a href="javascript:void(0)" data-route="beruehmte-vincent-van-gogh">Vincent van Gogh</a> (also SP4w5) while he himself was in the middle of what he later called a "torturing" marital crisis – his own pain flowed, unspoken, into lines about another, misunderstood artist.</p>
           <p class="vb-intro">That McLean chose van Gogh of all people as his projection screen is hardly a coincidence: out of 27 possible subtypes, he landed on another SP4w5 – the same quiet, inward-turned way of handling pain, the same gap between outward functioning and inner despair that almost no one granted van Gogh while he was alive. More in the <a href="javascript:void(0)" data-route="beruehmte-vincent-van-gogh">portrait of Vincent van Gogh</a>.</p>
         </blockquote>
 
@@ -2403,7 +2403,7 @@ export function andreDuqumPortraitPage() {
 
         <h2 class="vb-section">1. The Hippopotamus as gatekeeper to its own stage</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two: territorially warm, with a fine sense for who gets let into its inner circle. André Duqum, born in 1997 in Michigan to a mother who had immigrated from the area near Jerusalem, began his career unglamorously on the camera and electrical crew of a documentary production before launching his own YouTube channel in 2020. Out of that channel grew the podcast <em>"Know Thyself,"</em> now with over 750,000 subscribers.</p>
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the emblem of the self-preservation Two: territorially warm, with a fine sense for who gets let into its inner circle. André Duqum, born in 1997 in Michigan to a mother who had immigrated from the area near Jerusalem, began his career unglamorously on the camera and electrical crew of a documentary production before launching his own YouTube channel in 2020. Out of that channel grew the podcast <em>"Know Thyself,"</em> now with over 750,000 subscribers.</p>
           <p class="vb-intro">What sets Duqum apart from a plain interview format is how he treats his guests: not as interchangeable segments, but as people to whom he – in his own words – "gives" a stage. He calls media "medicine for the soul" and describes his listeners as potential "lightworkers" he wants to accompany on their own path.</p>
         </blockquote>
 
@@ -2614,7 +2614,7 @@ export function harryHoudiniPortraitPage() {
 
         <h2 class="vb-section">1. The Cheetah: 57 seconds in the East River</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Cheetah</strong> is the animal of the social Three. It hunts by day, in open country and in front of onlookers, and its strength is the sprint that is decided in a few moments. Houdini built his life on such moments. In 1912 he was locked in a crate that was thrown into New York's East River, and he freed himself in 57 seconds, in front of a crowd that watched.</p>
+          <p class="vb-intro">The <strong>Cheetah</strong> is the emblem of the social Three. It hunts by day, in open country and in front of onlookers, and its strength is the sprint that is decided in a few moments. Houdini built his life on such moments. In 1912 he was locked in a crate that was thrown into New York's East River, and he freed himself in 57 seconds, in front of a crowd that watched.</p>
           <p class="vb-intro">He was born Erik Weisz on 24 March 1874 in Budapest, the child of a rabbi. In 1878 the family emigrated to the USA to escape antisemitism. After his father lost his position in 1882 the family fell into dire poverty in Milwaukee. Houdini worked as a child, at nine he appeared as a trapeze artist, and after his father's death in 1892 he went on tour with a magic act. He chose his stage name in homage to his role model, the French magician Jean-Eugène Robert-Houdin.</p>
         </blockquote>
 

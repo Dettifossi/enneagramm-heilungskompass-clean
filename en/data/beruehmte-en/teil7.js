@@ -85,7 +85,7 @@ export function ajeetKaurPortraitPage() {
 
         <h2 class="vb-section">1. The armadillo that withdrew into music</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the Social Four &ndash; a creature that does not hide its difference but wears it visibly on its skin, while its sensitive interior stays protected underneath. The American singer Ajeet Kaur, born Siobhan Moore, grew up in the forests and mountains of New Hampshire, in a household shaped equally by the Sikh tradition and the Roman Catholic faith. At age eight she was diagnosed with Hashimoto's thyroiditis, a chronic autoimmune disease of the thyroid &ndash; an early physical experience of being different that would accompany her for the rest of her life.</p>
+          <p class="vb-intro">The <strong>armadillo</strong> is the emblem of the Social Four &ndash; a creature that does not hide its difference but wears it visibly on its skin, while its sensitive interior stays protected underneath. The American singer Ajeet Kaur, born Siobhan Moore, grew up in the forests and mountains of New Hampshire, in a household shaped equally by the Sikh tradition and the Roman Catholic faith. At age eight she was diagnosed with Hashimoto's thyroiditis, a chronic autoimmune disease of the thyroid &ndash; an early physical experience of being different that would accompany her for the rest of her life.</p>
           <p class="vb-intro">She encountered Kundalini Yoga through her family even before birth. At eleven, at a women's camp in New Mexico led by Yogi Bhajan, she experienced how deeply music could uplift an entire room of people &ndash; a moment that convinced her there was nothing else she would rather do than offer a healing vibration through sound. At sixteen she began her Kundalini Yoga teacher training.</p>
         </blockquote>
 
@@ -540,7 +540,7 @@ export function friedrichMerzPortraitPage() {
 
         <h2 class="vb-section">1. The Goose</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Goose</strong> is the animal of the social One &ndash; and it is a creature that does not decorate but functions. No elegance for elegance&#39;s sake. No shying away from conflicts when the territory must be defended. The goose flies in formation, upholds order, and warns the group when something is wrong. Those who underestimate it are in for a surprise.</p>
+          <p class="vb-intro">The <strong>Goose</strong> is the emblem of the social One &ndash; and it is a creature that does not decorate but functions. No elegance for elegance&#39;s sake. No shying away from conflicts when the territory must be defended. The goose flies in formation, upholds order, and warns the group when something is wrong. Those who underestimate it are in for a surprise.</p>
           <p class="vb-intro">The German politician Friedrich Merz is a figure in German politics that polarizes &ndash; and not by accident. He says what he thinks. He names what he considers wrong. He is not afraid of uncomfortable positions. That is not a stylistic choice &ndash; that is structure. The goose does not back down when it is convinced it is doing the right thing.</p>
         </blockquote>
 
@@ -818,7 +818,7 @@ export function jjLiuPortraitPage() {
 
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal that does not impress through speed or volume, but through the sheer endurance with which it stays in place even when conditions turn uncomfortable. It does not withdraw once things get difficult. It stays, because staying is its strength.</p>
+          <p class="vb-intro">The <strong>Hippopotamus</strong> stands as the animal of the self-preservation Two &ndash; an animal that does not impress through speed or volume, but through the sheer endurance with which it stays in place even when conditions turn uncomfortable. It does not withdraw once things get difficult. It stays, because staying is its strength.</p>
           <p class="vb-intro">J. J. Liu demonstrated exactly this endurance in striking fashion at the 2007 WPT Bay 101 Shooting Star Championship: she played for hours through considerable physical pain, through to the end of what was then the longest televised final table in WPT history &ndash; finishing runner-up, at the time the best result any woman had ever achieved at a WPT Championship event. The Hippopotamus does not leave its water when things get hard. It stays.</p>
         </blockquote>
 
@@ -879,7 +879,7 @@ export function juliusCaesarPortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever Who Embraced an Empire</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; devoted, generous, irresistibly driven to be needed and loved. Few historical figures show this pattern as clearly as Julius Caesar. His contemporaries consistently describe a man who won people over by storm: through charm, through generosity, through the ability to make every single person &ndash; legionary, senator, or Roman street crowd &ndash; feel personally important to him.</p>
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal counterpart of the social Two &ndash; devoted, generous, irresistibly driven to be needed and loved. Few historical figures show this pattern as clearly as Julius Caesar. His contemporaries consistently describe a man who won people over by storm: through charm, through generosity, through the ability to make every single person &ndash; legionary, senator, or Roman street crowd &ndash; feel personally important to him.</p>
           <p class="vb-intro">Born in 100 BC into an old but impoverished patrician family, the Roman general Julius Caesar deliberately and dramatically went into debt in his early years to fund public games, cover allies' debts, and hand out favors. Where a frugal strategist would have built reserves, the social Two invested in relationship. The capital he built was not money &ndash; it was affection, loyalty, indebtedness. And that capital eventually paid out in legions and consulships.</p>
         </blockquote>
 
@@ -955,7 +955,7 @@ export function kollegahPortraitPage() {
 
         <h2 class="vb-section">1. The Wolf</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Wolf</strong> is the animal of the Sexual Type 6 &ndash; a predator that kills not out of malice but out of necessity. It lives in hierarchies, fights for its position, and bares its teeth not because it enjoys pain but because it knows: whoever does not assert themselves gets pushed aside. The Wolf has fear &ndash; and it transforms that fear into strength.</p>
+          <p class="vb-intro">The <strong>Wolf</strong> is the emblem of the Sexual Type 6 &ndash; a predator that kills not out of malice but out of necessity. It lives in hierarchies, fights for its position, and bares its teeth not because it enjoys pain but because it knows: whoever does not assert themselves gets pushed aside. The Wolf has fear &ndash; and it transforms that fear into strength.</p>
           <p class="vb-intro">The German rapper Kollegah &ndash; born Felix Antoine Blume in 1984 in Singen &ndash; is this Wolf. One of the commercially most successful German rappers of all time, known for an artistic alter ego that shows no weakness to the outside world: the Boss, the pimp-baron, the superior figure who whispers away every adversary. But the alter ego is armour. Beneath it lies the question that all Sixes know: <em>Am I truly safe? Am I truly strong enough?</em></p>
         </blockquote>
 
@@ -1081,7 +1081,7 @@ export function marcelProustPortraitPage() {
 
         <h2 class="vb-section">1. The Armadillo in the Cork-Lined Room</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four &ndash; it seeks society, salons, the social field of observation, and carries its sensitive inner life openly, even when it withdraws physically in order to write about what it has seen.</p>
+          <p class="vb-intro">The <strong>armadillo</strong> is the symbolic animal of the social Four &ndash; it seeks society, salons, the social field of observation, and carries its sensitive inner life openly, even when it withdraws physically in order to write about what it has seen.</p>
           <p class="vb-intro">Marcel Proust was born in 1871 in Auteuil near Paris, suffered from severe asthma and extraordinary physical sensitivity from early childhood, a condition that shaped his entire life. In his youth and as a young man, he was an eager habitué of Parisian upper-class salons &ndash; observing aristocracy and bourgeoisie with almost scientific precision, before withdrawing, increasingly ill, into his legendary cork-lined bedroom, where he spent nearly all of the last 13 years of his life writing his life's work.</p>
         </blockquote>
 
@@ -1156,7 +1156,7 @@ export function matthiasSchweighoeferPortraitPage() {
 
         <h2 class="vb-section">1. The Camel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Camel</strong> is the animal of the sexual Two &ndash; and it is a creature that carries. Not because it must. But because carrying is its way of making connection. The camel crosses deserts, puts its energy in service of the journey, and asks little in return. But it is not a beast of burden without a life of its own. The camel has dignity. It has warmth. And anyone who has ever encountered a camel knows: it looks at you &ndash; directly, curiously, without shyness.</p>
+          <p class="vb-intro">The <strong>Camel</strong> is the animal counterpart of the sexual Two &ndash; and it is a creature that carries. Not because it must. But because carrying is its way of making connection. The camel crosses deserts, puts its energy in service of the journey, and asks little in return. But it is not a beast of burden without a life of its own. The camel has dignity. It has warmth. And anyone who has ever encountered a camel knows: it looks at you &ndash; directly, curiously, without shyness.</p>
           <p class="vb-intro">Matthias Schweigh&ouml;fer carries. He carries projects, ensembles, audiences. As an actor he brings an immediate warmth to every role he plays &ndash; whether comic, dramatic, or vulnerable. As a director he takes his crew with him as though every set were a community he holds together. The camel does not simply pass through the desert. It makes sure everyone arrives.</p>
         </blockquote>
 
@@ -1222,7 +1222,7 @@ export function mosesPortraitPage() {
 
         <h2 class="vb-section">1. The Wolf</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>wolf</strong> is the animal of the sexual Six &ndash; an animal that does not avoid danger, but turns to face it the moment it senses a threat to its pack. No accidental animal for a figure who first does everything he can to escape a calling, and who then, once convinced, fearlessly confronts the most powerful ruler of his time. According to the biblical account in Exodus, Moses was born to enslaved Hebrews and raised in Pharaoh's household, fled into the wilderness of Midian after killing a man, and lived there for decades as a shepherd &ndash; withdrawn, unremarkable, far from any power.</p>
+          <p class="vb-intro">The <strong>wolf</strong> is the emblem of the sexual Six &ndash; an animal that does not avoid danger, but turns to face it the moment it senses a threat to its pack. No accidental animal for a figure who first does everything he can to escape a calling, and who then, once convinced, fearlessly confronts the most powerful ruler of his time. According to the biblical account in Exodus, Moses was born to enslaved Hebrews and raised in Pharaoh's household, fled into the wilderness of Midian after killing a man, and lived there for decades as a shepherd &ndash; withdrawn, unremarkable, far from any power.</p>
           <p class="vb-intro">Only at the burning bush, in the solitude of the desert, is he confronted with a task that exceeds everything he believes himself capable of: freeing his people from Egyptian slavery. Not a hero who volunteers, but a man who resists the calling with all his strength &ndash; and it is exactly there that the key to his type lies.</p>
         </blockquote>
 
@@ -1374,7 +1374,7 @@ export function rasputinPortraitPage() {
 
         <h2 class="vb-section">1. The Black Mamba</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Black Mamba</strong> is the animal of the sexual One &ndash; an animal that works not through volume, but through the sheer inevitability of its presence. Anyone who comes too close feels an intensity that is almost impossible to escape. This animal is no random choice: the mamba does not strike out of rage, but out of an inner compulsion toward purity &ndash; a force that knows no half measures.</p>
+          <p class="vb-intro">The <strong>Black Mamba</strong> stands as the animal of the sexual One &ndash; an animal that works not through volume, but through the sheer inevitability of its presence. Anyone who comes too close feels an intensity that is almost impossible to escape. This animal is no random choice: the mamba does not strike out of rage, but out of an inner compulsion toward purity &ndash; a force that knows no half measures.</p>
           <p class="vb-intro">Contemporaries of the Russian mystic Rasputin described his gaze as the first thing anyone noticed about him &ndash; piercing, impossible to ignore, unsettling to some, healing to others. Ladies of St. Petersburg's salons reported feeling completely seen under that gaze, stripped down to the core. This is the Black Mamba at work: not a charisma that flatters, but one that penetrates.</p>
         </blockquote>
 
@@ -1622,7 +1622,7 @@ export function trumanCapotePortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever Who Opened Every Door</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; devoted, warm-hearted, irresistibly driven to be needed and loved. Truman Capote, born in 1924 in New Orleans, grew up largely abandoned by his parents in the care of relatives in Alabama &ndash; an early experience of being unwanted that turned into a lifelong, almost unquenchable need to belong everywhere and be indispensable to everyone.</p>
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the symbolic animal of the social Two &ndash; devoted, warm-hearted, irresistibly driven to be needed and loved. Truman Capote, born in 1924 in New Orleans, grew up largely abandoned by his parents in the care of relatives in Alabama &ndash; an early experience of being unwanted that turned into a lifelong, almost unquenchable need to belong everywhere and be indispensable to everyone.</p>
           <p class="vb-intro">Even as a young man in New York, he charmed his way into the city's most exclusive circles with a mix of wit, charisma, and attentive care &ndash; publishers, society women, film stars. The Golden Retriever doesn't wag its way into a society's heart by accident; it studies exactly whom to win over and how, and Capote mastered that game like almost no one else.</p>
         </blockquote>
 
@@ -1690,7 +1690,7 @@ export function wilsonGonzalezOchsenknechtPortraitPage() {
 
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature that builds its territory firmly within its closest family bond and grows out into the world from there. Wilson Gonzalez Ochsenknecht carries this pattern in his very name: named after soul legend Wilson Pickett, with the tongue-in-cheek addition Gonzalez as a nod to the cartoon character Speedy Gonzales &ndash; a name that, from the start, tells of his parents' taste and humor.</p>
+          <p class="vb-intro">The <strong>Hippopotamus</strong> stands as the animal of the self-preservation Two &ndash; a creature that builds its territory firmly within its closest family bond and grows out into the world from there. Wilson Gonzalez Ochsenknecht carries this pattern in his very name: named after soul legend Wilson Pickett, with the tongue-in-cheek addition Gonzalez as a nod to the cartoon character Speedy Gonzales &ndash; a name that, from the start, tells of his parents' taste and humor.</p>
           <p class="vb-intro">The German actor Wilson Gonzalez Ochsenknecht was born on March 18, 1990, in Munich, the eldest son of Uwe and Natascha Ochsenknecht. Alongside his brother Jimi Blue, two years younger, and his later-born sister Cheyenne, he grew up in a family where acting and public visibility were part of everyday life from the start.</p>
         </blockquote>
 
@@ -1757,7 +1757,7 @@ export function takashiMurakamiPortraitPage() {
 
         <h2 class="vb-section">1. The Gorilla That Built an Entire World of Goods Around Itself</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>gorilla</strong> is the animal of the self-preservation Seven &ndash; an animal of enormous strength that lives in a group and whose reach extends over an entire territory. Takashi Murakami, born 1962 in Tokyo, earned a doctorate at the Tokyo University of the Arts in Nihonga, traditional Japanese painting &ndash; a strictly regulated, centuries-old discipline. But instead of remaining within that tradition, he turned to Japan's otaku and anime culture and, from it, founded the art movement "Superflat," which deliberately flattens the boundary between fine art, anime, and consumer goods.</p>
+          <p class="vb-intro">The <strong>gorilla</strong> stands as the animal of the self-preservation Seven &ndash; an animal of enormous strength that lives in a group and whose reach extends over an entire territory. Takashi Murakami, born 1962 in Tokyo, earned a doctorate at the Tokyo University of the Arts in Nihonga, traditional Japanese painting &ndash; a strictly regulated, centuries-old discipline. But instead of remaining within that tradition, he turned to Japan's otaku and anime culture and, from it, founded the art movement "Superflat," which deliberately flattens the boundary between fine art, anime, and consumer goods.</p>
           <p class="vb-intro">In 2001 he founded the company Kaikai Kiki Co., a veritable art-production studio modeled on Andy Warhol's "Factory," which today employs over a hundred people and manages, alongside Murakami's own art, merchandise, fashion collaborations, and the careers of young Japanese artists. The gorilla that does not leave its territory to chance, but systematically fills it with abundance.</p>
         </blockquote>
 
@@ -2221,7 +2221,7 @@ export function joshSafdiePortraitPage() {
 
         <h2 class="vb-section">1. The Beaver Who Maps Entire Worlds</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>beaver</strong> is the animal of the social Seven: restless, systematic, always busy creating something larger that everyone is meant to benefit from in the end. Josh Safdie, born in 1984 in New York, became known together with his younger brother Benny as one half of the "Safdie Brothers" &ndash; with films like ›Good Time‹ (2017) and ›Uncut Gems‹ (2019) that show New York as a feverish, almost unbearably dense nervous-system landscape. Where <a href="javascript:void(0)" data-route="beruehmte-benny-safdie">his brother Benny</a> (SO4w5) withdraws into quiet, precise detail work, Josh pushes outward: into new milieus, new communities, new obsessions he wants to fully penetrate before filming them.</p>
+          <p class="vb-intro">The <strong>beaver</strong> is the animal counterpart of the social Seven: restless, systematic, always busy creating something larger that everyone is meant to benefit from in the end. Josh Safdie, born in 1984 in New York, became known together with his younger brother Benny as one half of the "Safdie Brothers" &ndash; with films like ›Good Time‹ (2017) and ›Uncut Gems‹ (2019) that show New York as a feverish, almost unbearably dense nervous-system landscape. Where <a href="javascript:void(0)" data-route="beruehmte-benny-safdie">his brother Benny</a> (SO4w5) withdraws into quiet, precise detail work, Josh pushes outward: into new milieus, new communities, new obsessions he wants to fully penetrate before filming them.</p>
           <p class="vb-intro">Together with Benny, he spent more than a decade researching New York's Diamond District before making ›Uncut Gems‹ &ndash; not out of academic interest, but because his father had worked there himself, and Josh wanted to know that world from the inside, complete with its own rules, its own language, its own logic.</p>
         </blockquote>
 
@@ -2424,7 +2424,7 @@ export function raulAguayoKrauthausenPortraitPage() {
 
         <h2 class="vb-section">1. The Rabbit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>rabbit</strong> is the animal of the self-preservation Six – vigilant to the point of exhaustion, constantly checking whether the immediate surroundings are safe, and happiest in a familiar, reliably secured burrow. Raúl Aguayo-Krauthausen, born in Lima in 1980 and raised in Berlin, has known this vigilance firsthand since childhood: he lives with osteogenesis imperfecta (brittle bone disease) and has suffered more than a hundred bone fractures over the course of his life – any unsecured environment is, for him, literally a potential danger, not just an uneasy feeling.</p>
+          <p class="vb-intro">The <strong>rabbit</strong> stands as the animal of the self-preservation Six – vigilant to the point of exhaustion, constantly checking whether the immediate surroundings are safe, and happiest in a familiar, reliably secured burrow. Raúl Aguayo-Krauthausen, born in Lima in 1980 and raised in Berlin, has known this vigilance firsthand since childhood: he lives with osteogenesis imperfecta (brittle bone disease) and has suffered more than a hundred bone fractures over the course of his life – any unsecured environment is, for him, literally a potential danger, not just an uneasy feeling.</p>
           <p class="vb-intro">Out of this very concrete, physically enforced vigilance grew not paralysis but one of Germany's most effective disability-inclusion movements: in 2004 he co-founded the nonprofit Sozialhelden e.V. – a fixed, reliable circle of collaborators that remains the organizational home of his work to this day.</p>
         </blockquote>
 

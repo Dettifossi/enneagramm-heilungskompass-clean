@@ -81,7 +81,7 @@ export function ayoEdebiriPortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that puts its energy in service of others before stepping into the spotlight itself. Ayo Edebiri didn't begin her career on stage but in the classroom: at New York University she initially studied teaching before switching to dramatic writing &ndash; an early choice to teach and support others that later continued in a different form.</p>
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the symbolic animal of the social Two &ndash; an animal that puts its energy in service of others before stepping into the spotlight itself. Ayo Edebiri didn't begin her career on stage but in the classroom: at New York University she initially studied teaching before switching to dramatic writing &ndash; an early choice to teach and support others that later continued in a different form.</p>
           <p class="vb-intro">Ayo Edebiri was born on October 3, 1995, in Boston, the daughter of a mother from Barbados and a father from Nigeria, and grew up in a Pentecostal household in Dorchester. Eighth-grade drama class led her to comedy, and she joined her high school's improv troupe &ndash; an early, collective step into a career built from the start on collaboration rather than going it alone.</p>
         </blockquote>
 
@@ -296,7 +296,7 @@ export function davidLureyPortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that wants to distribute warmth not within a small circle, but across large communities. David Lurey, with more than thirty years of yoga practice and twenty-five years of teaching, combines music, movement, and communal experience into an offering explicitly oriented toward "opening consciousness and vitality" for as many people as possible.</p>
+          <p class="vb-intro">The <strong>Golden Retriever</strong> stands as the animal of the social Two &ndash; an animal that wants to distribute warmth not within a small circle, but across large communities. David Lurey, with more than thirty years of yoga practice and twenty-five years of teaching, combines music, movement, and communal experience into an offering explicitly oriented toward "opening consciousness and vitality" for as many people as possible.</p>
           <p class="vb-intro">As a mantra singer and songwriter, he has released two full-length albums and numerous singles, along with the songbooks <em>Global Bhakti PlayBook</em> and <em>Savasana Serenades Playbook</em> &ndash; music he himself describes as a blend of devotion, storytelling, and raw authenticity.</p>
         </blockquote>
 
@@ -422,7 +422,7 @@ export function frankRosellPortraitPage() {
 
         <h2 class="vb-section">1. The beaver who became the world authority on the beaver</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>beaver</strong> is the animal of the Social Seven &ndash; it does not build for itself, but creates structures and knowledge that reach far beyond its own person, and is never truly finished, constantly expanding its work. Few scientists embody this principle as fully as Prof. Dr. Frank Rosell: the Norwegian biologist has led the Norwegian Beaver Project since 1997 and is known worldwide as "the beaver pope" &ndash; the first point of contact for governments and conservation organizations on beaver reintroduction or management.</p>
+          <p class="vb-intro">The <strong>beaver</strong> is the emblem of the Social Seven &ndash; it does not build for itself, but creates structures and knowledge that reach far beyond its own person, and is never truly finished, constantly expanding its work. Few scientists embody this principle as fully as Prof. Dr. Frank Rosell: the Norwegian biologist has led the Norwegian Beaver Project since 1997 and is known worldwide as "the beaver pope" &ndash; the first point of contact for governments and conservation organizations on beaver reintroduction or management.</p>
           <p class="vb-intro">Born in 1969, Rosell has worked at the University of South-Eastern Norway since 1994 and has authored over 130 peer-reviewed publications, most of them on beavers. His standard work "Beavers: Ecology, Behaviour, Conservation, and Management," co-authored with Dr. Róisín Campbell-Palmer, is internationally regarded as the definitive reference on the subject.</p>
         </blockquote>
 
@@ -781,7 +781,7 @@ export function johnWaynePortraitPage() {
 
         <h2 class="vb-section">1. The crocodile that filled an entire screen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>crocodile</strong> is the animal of the Sexual Eight &ndash; massive, impossible to overlook, with a presence that dominates the entire space the moment it appears. Few actors embodied this principle as fully as John Wayne: 6'4" tall, well over 220 pounds at the peak of his career, he literally towered over every scene he appeared in. Whether talking, swearing, or fighting, everything he did happened at full force, never half-heartedly.</p>
+          <p class="vb-intro">The <strong>crocodile</strong> is the emblem of the Sexual Eight &ndash; massive, impossible to overlook, with a presence that dominates the entire space the moment it appears. Few actors embodied this principle as fully as John Wayne: 6'4" tall, well over 220 pounds at the peak of his career, he literally towered over every scene he appeared in. Whether talking, swearing, or fighting, everything he did happened at full force, never half-heartedly.</p>
           <p class="vb-intro">With over 170 films and his definitive breakthrough in 1939's "Stagecoach" under director John Ford, Wayne became the embodiment of the unyielding American Western and war hero &ndash; a symbol that reached far beyond cinema to become an icon of an entire country.</p>
         </blockquote>
 
@@ -853,7 +853,7 @@ export function kathrinBauerfeindPortraitPage() {
 
         <h2 class="vb-section">1. The Raccoon</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Raccoon</strong> is the animal of the self-preservation Three &ndash; and it is a creature one underestimates. No loud entrance, no glamour, no stage. The raccoon wears a natural mask, moves quietly through the night, notices what others overlook, and applies its dexterity in entirely practical ways: What do I need? How do I get there? The raccoon is not a performer &ndash; it is a survivor with nimble hands.</p>
+          <p class="vb-intro">The <strong>Raccoon</strong> is the emblem of the self-preservation Three &ndash; and it is a creature one underestimates. No loud entrance, no glamour, no stage. The raccoon wears a natural mask, moves quietly through the night, notices what others overlook, and applies its dexterity in entirely practical ways: What do I need? How do I get there? The raccoon is not a performer &ndash; it is a survivor with nimble hands.</p>
           <p class="vb-intro">The German host Kathrin Bauerfeind is a figure in the German media landscape that eludes this logic. She is not loud. She is not glamorous. And yet she is everywhere: talk shows, podcasts, books, television series, journalistic texts. Not through self-promotion, but through competence, reliability, and a stylistic distinctiveness that has built up over years. The raccoon does not rummage in the spotlight &ndash; it creates its own territory.</p>
         </blockquote>
 
@@ -920,7 +920,7 @@ export function laurenceFrankPortraitPage() {
 
         <h2 class="vb-section">1. The Lion Who Fought for the Lion</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>lion</strong> is the animal of the Social Eight &ndash; strength used not for oneself, but for the pride. Dr. Laurence Frank, affiliated with UC Berkeley and the University of Oxford, devoted his life to exactly this animal: over 35 years of fearless field research on lions and hyenas in Kenya, without ever pursuing a tenured post, because fieldwork in the bush mattered to him more than the academic career ladder.</p>
+          <p class="vb-intro">The <strong>lion</strong> stands as the animal of the Social Eight &ndash; strength used not for oneself, but for the pride. Dr. Laurence Frank, affiliated with UC Berkeley and the University of Oxford, devoted his life to exactly this animal: over 35 years of fearless field research on lions and hyenas in Kenya, without ever pursuing a tenured post, because fieldwork in the bush mattered to him more than the academic career ladder.</p>
           <p class="vb-intro">He became world-famous as founder of the Lion Guardians project: he recognized that the greatest threat to lions was not nature but conflict with Maasai settlers &ndash; and developed a concept that turned former lion killers into lion protectors. The lion who understood that his animal survives only if he himself mediates between the fronts.</p>
         </blockquote>
 
@@ -984,7 +984,7 @@ export function ludwigGoeranssonPortraitPage() {
 
         <h2 class="vb-section">1. The Dove</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>dove</strong> is the animal of the Self-Preservation Four – it does not put its deep emotional life on display, but processes it in quiet, often years-long persistence. Ludwig Göransson was born in 1984 in Linköping, Sweden, the son of a music teacher, and began early on playing drums and systematically studying music. Unlike many pop stars of his generation, he never stepped into the spotlight himself – his career unfolds almost entirely behind the scenes, as a composer and producer whose name remains unknown to most moviegoers, even though his music touches millions of people worldwide.</p>
+          <p class="vb-intro">The <strong>dove</strong> is the emblem of the Self-Preservation Four – it does not put its deep emotional life on display, but processes it in quiet, often years-long persistence. Ludwig Göransson was born in 1984 in Linköping, Sweden, the son of a music teacher, and began early on playing drums and systematically studying music. Unlike many pop stars of his generation, he never stepped into the spotlight himself – his career unfolds almost entirely behind the scenes, as a composer and producer whose name remains unknown to most moviegoers, even though his music touches millions of people worldwide.</p>
           <p class="vb-intro">Göransson moved to the United States in the late 2000s to study film scoring at the University of Southern California – there he met a fellow student named Donald Glover, who would later achieve world fame as Childish Gambino. That early encounter grew into one of the most defining creative partnerships of the past fifteen years, yet true to the Self-Preservation Four, Göransson always remained the man behind the scenes, never the man on stage.</p>
         </blockquote>
 
@@ -1129,7 +1129,7 @@ export function miguelDeUnamunoPortraitPage() {
 
         <h2 class="vb-section">1. The Dove</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>dove</strong> is the animal of the Self-Preservation Four – it does not put its deep emotional life on display, but processes it in quiet, often decades-long persistence. Miguel de Unamuno was born in 1864 in the Basque city of Bilbao, lost his father at the age of six, and grew up in a strictly Catholic, middle-class household that instilled in him early on a deep, never fully resolved struggle with faith, doubt, and his own mortality. This question – whether personal existence continues after death or not – would run through his entire intellectual life's work, not as an abstract philosophical problem, but as an agonizing, deeply personal wound.</p>
+          <p class="vb-intro">The <strong>dove</strong> is the symbolic animal of the Self-Preservation Four – it does not put its deep emotional life on display, but processes it in quiet, often decades-long persistence. Miguel de Unamuno was born in 1864 in the Basque city of Bilbao, lost his father at the age of six, and grew up in a strictly Catholic, middle-class household that instilled in him early on a deep, never fully resolved struggle with faith, doubt, and his own mortality. This question – whether personal existence continues after death or not – would run through his entire intellectual life's work, not as an abstract philosophical problem, but as an agonizing, deeply personal wound.</p>
           <p class="vb-intro">Unamuno studied philosophy and literature in Madrid, largely taught himself German, Danish, and other languages in order to read Kierkegaard, Hegel, and other thinkers in the original, and in 1891 became professor of Greek at the University of Salamanca – the city that would remain his intellectual home for the rest of his life.</p>
         </blockquote>
 
@@ -1614,7 +1614,7 @@ export function augustinusVonHippoPortraitPage() {
 
         <h2 class="vb-section">1. The Chihuahua Who Felt Nothing by Halves</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Chihuahua</strong> is the animal of the sexual Four &ndash; small in stature, but carrying an intensity wildly out of proportion to its size. It loves with total devotion or not at all, defends its territory loudly against every perceived rival, and knows no muted middle ground. What it lacks in size, it makes up in fire.</p>
+          <p class="vb-intro">The <strong>Chihuahua</strong> is the animal counterpart of the sexual Four &ndash; small in stature, but carrying an intensity wildly out of proportion to its size. It loves with total devotion or not at all, defends its territory loudly against every perceived rival, and knows no muted middle ground. What it lacks in size, it makes up in fire.</p>
           <p class="vb-intro">Augustine was born in 354 AD in Thagaste, Roman North Africa, son of a pagan father, Patricius, and a mother, Monica, later canonized a saint, who accompanied him with relentless concern his whole life. Even as a young rhetoric teacher in Carthage, he lived nothing by halves: in his <em>Confessions</em>, written around age 43 as a look back on his first 33 years, he describes himself as someone who &bdquo;came to Carthage, where a cauldron of shameful loves seethed all around me&ldquo; &ndash; not a detached observer, but someone who lived every passion, every relationship, every intellectual conviction with the full force of his being.</p>
         </blockquote>
 
@@ -2091,7 +2091,7 @@ export function susanLinkPortraitPage() {
 
         <h2 class="vb-section">1. The Raccoon Who Found Its Footing in Every Studio</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three: adaptable, capable, in constant, calm motion without ever drawing loud attention. Susan Link was born in 1976 in Pößneck, Thuringia; after the fall of the Berlin Wall she moved with her mother to Wuppertal, where she later studied German. In 1998 her professional career began at Radio Wuppertal – first as a trainee, then as a presenter.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal counterpart of the self-preservation Three: adaptable, capable, in constant, calm motion without ever drawing loud attention. Susan Link was born in 1976 in Pößneck, Thuringia; after the fall of the Berlin Wall she moved with her mother to Wuppertal, where she later studied German. In 1998 her professional career began at Radio Wuppertal – first as a trainee, then as a presenter.</p>
           <p class="vb-intro">From 2002 to 2011 she worked at Radio NRW as a presenter and editor before moving into television. The raccoon changes its territory as soon as a better opportunity arises – not out of restlessness, but out of the quiet certainty that it will find its footing anywhere.</p>
         </blockquote>
 
@@ -2159,7 +2159,7 @@ export function liseMeitnerPortraitPage() {
 
         <h2 class="vb-section">1. The octopus who slipped out of Berlin at the last possible moment</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>octopus</strong> is the animal of the social type 5 – highly intelligent, thinking in several directions at once, preferring to work in the background rather than stand in the spotlight. Lise Meitner was born in Vienna in 1878, at a time when women were initially barred from regular university study in Austria, yet earned her doctorate in physics at the University of Vienna in 1905 as only the second woman ever to do so. In 1907 she moved to Berlin, where she was at first allowed to work only as an unpaid guest in Emil Fischer's laboratory – women were officially barred from his institute, and she was assigned a former carpenter's workshop in the basement.</p>
+          <p class="vb-intro">The <strong>octopus</strong> is the emblem of the social type 5 – highly intelligent, thinking in several directions at once, preferring to work in the background rather than stand in the spotlight. Lise Meitner was born in Vienna in 1878, at a time when women were initially barred from regular university study in Austria, yet earned her doctorate in physics at the University of Vienna in 1905 as only the second woman ever to do so. In 1907 she moved to Berlin, where she was at first allowed to work only as an unpaid guest in Emil Fischer's laboratory – women were officially barred from his institute, and she was assigned a former carpenter's workshop in the basement.</p>
           <p class="vb-intro">In 1938, after the "Anschluss" annexed Austria to Nazi Germany, Meitner – considered Jewish under Nazi law – lost the protection of her Austrian citizenship overnight. With colleagues' help she fled across the Dutch border to Sweden that July, nearly penniless, on an expired passport, at the very last moment, after thirty years of work at the Kaiser Wilhelm Institute in Berlin. The octopus does not escape through strength, but through the ability to find the narrowest remaining opening at the decisive moment.</p>
         </blockquote>
 
@@ -2297,7 +2297,7 @@ export function barbaraBleischPortraitPage() {
         <h2 class="vb-section">1. The Raccoon Who Builds Trust Through Substance</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Barbara Bleisch was born in 1973 in Basel, the third child of Arnold Bleisch and Monique Bernoulli. She spent her first three years in Roma, Lesotho, where her father worked as a doctor for the organization Solidarmed &ndash; after returning, he opened a practice in Niedergösgen, in the Swiss canton of Aargau. From 1994 to 2001 she studied philosophy, German studies, and religious studies in Zurich, Basel, and Tübingen, and in 2007 earned her doctorate at the Ethics Center of the University of Zurich under Peter Schaber, with the thesis ›Duties at a Distance: World Poverty and Individual Responsibility‹.</p>
-          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; resourceful, adaptable, focused on competence rather than effect. This exact pattern already shows in the starting point of her academic career: instead of an abstract, attention-grabbing topic, Bleisch chose a dissertation on the very concrete question of what people in wealthy countries actually owe distant strangers &ndash; care and responsibility as philosophical craft, not mere assertion.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal counterpart of the self-preservation Three &ndash; resourceful, adaptable, focused on competence rather than effect. This exact pattern already shows in the starting point of her academic career: instead of an abstract, attention-grabbing topic, Bleisch chose a dissertation on the very concrete question of what people in wealthy countries actually owe distant strangers &ndash; care and responsibility as philosophical craft, not mere assertion.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Three: Trust Through Substance, Not Performance</h2>
@@ -2365,7 +2365,7 @@ export function madisonChockPortraitPage() {
 
         <h2 class="vb-section">1. The Hippopotamus Who Dresses Her Own Rivals</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>hippopotamus</strong> is the animal of the self-preservation Two: warm, proud, with a keen sense for who in its immediate circle needs care. Madison Chock was born in 1992 in Redondo Beach, California — of Chinese-Hawaiian descent on her father's side, European descent on her mother's side — and began skating at age five. In 2011 she found a new partnership with Evan Bates that carried her across four Winter Olympics to three world titles, six U.S. titles, and multiple Olympic medals.</p>
+          <p class="vb-intro">The <strong>hippopotamus</strong> is the animal counterpart of the self-preservation Two: warm, proud, with a keen sense for who in its immediate circle needs care. Madison Chock was born in 1992 in Redondo Beach, California — of Chinese-Hawaiian descent on her father's side, European descent on her mother's side — and began skating at age five. In 2011 she found a new partnership with Evan Bates that carried her across four Winter Olympics to three world titles, six U.S. titles, and multiple Olympic medals.</p>
           <p class="vb-intro">In 2023, alongside her active competitive career, Chock founded her own fashion label, Madison Chock Design — and has since dressed even her direct competitors in her award-winning costumes. "I just want to bring as much confidence as I can to those people that I designed for," she says of this dual role as athlete and outfitter of her own competition.</p>
         </blockquote>
 
@@ -2434,7 +2434,7 @@ export function rikuMiuraPortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever on the ice</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>golden retriever</strong> is the animal of the social Two – warm, oriented toward genuine connection, happy only once success can be shared. Riku Miura, born in Yokohama in 2001, began her career as a singles skater before deciding in 2019 to form a pairs team with the seven-years-older Ryuichi Kihara – a step initially seen as a footnote in Japan, since the country had traditionally shown almost no international success in this discipline.</p>
+          <p class="vb-intro">The <strong>golden retriever</strong> stands as the animal of the social Two – warm, oriented toward genuine connection, happy only once success can be shared. Riku Miura, born in Yokohama in 2001, began her career as a singles skater before deciding in 2019 to form a pairs team with the seven-years-older Ryuichi Kihara – a step initially seen as a footnote in Japan, since the country had traditionally shown almost no international success in this discipline.</p>
           <p class="vb-intro">Together with Kihara, Miura moved to train in Colorado Springs, USA, far from the familiar Japanese environment – a deliberate step to achieve the years-long physical and emotional attunement with a single partner that pairs skating requires. This willingness to make her entire career completely dependent on a shared bond, rather than remaining independent as a singles skater, is deeply golden-retriever-like.</p>
         </blockquote>
 
@@ -2494,7 +2494,7 @@ export function jessicaBielPortraitPage() {
 
         <h2 class="vb-section">1. The Beaver Who Tore Down Her Own Image to Be Taken Seriously</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>beaver</strong> is the animal of the social Seven: alert, restless, but never aimless – the energy doesn't scatter, it flows into a concrete, self-directed work. Jessica Biel, born in 1982 in Ely, Minnesota, became known as a teenager through the role of Mary Camden in the long-running family drama "7th Heaven" (1996–2006) – a wholesome, well-behaved image broadcast weekly into millions of American living rooms.</p>
+          <p class="vb-intro">The <strong>beaver</strong> is the symbolic animal of the social Seven: alert, restless, but never aimless – the energy doesn't scatter, it flows into a concrete, self-directed work. Jessica Biel, born in 1982 in Ely, Minnesota, became known as a teenager through the role of Mary Camden in the long-running family drama "7th Heaven" (1996–2006) – a wholesome, well-behaved image broadcast weekly into millions of American living rooms.</p>
           <p class="vb-intro">In 1999, she deliberately shattered that image: a revealing photoshoot for Gear magazine sparked a scandal that nearly cost her the role. She later explained she had sought this break on purpose, to avoid being permanently typecast as the good girl from the show. Not a slip, but a calculated break with the mold – a beaver freeing itself from a dam that had grown too confining.</p>
         </blockquote>
 

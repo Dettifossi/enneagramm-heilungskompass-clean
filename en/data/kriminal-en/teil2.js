@@ -1964,7 +1964,7 @@ export function tedBundyPortraitPage() {
 
         <h2 class="vb-section">1. The Goose</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>goose</strong> is the animal of the Social One — and no image fits Ted Bundy more accurately. Geese fly in V-formation: orderly, disciplined, social. They appear domesticated, suburban, harmless. But anyone who approaches their world quickly gets to know the other side: the goose is deeply territorial. It does not hesitate. It attacks decisively when it feels its order is being violated — and it does so without warning, without drama, with a precision that comes as a surprise.</p>
+          <p class="vb-intro">The <strong>goose</strong> is the emblem of the Social One — and no image fits Ted Bundy more accurately. Geese fly in V-formation: orderly, disciplined, social. They appear domesticated, suburban, harmless. But anyone who approaches their world quickly gets to know the other side: the goose is deeply territorial. It does not hesitate. It attacks decisively when it feels its order is being violated — and it does so without warning, without drama, with a precision that comes as a surprise.</p>
           <p class="vb-intro">Ted Bundy was a goose. On the outside: a student, volunteer, political activist, a man who helped others. On the inside: a person whose internal order had been destroyed by a rejection — and who took the right to collect that debt. Quiet, methodical, precise.</p>
         </blockquote>
 
@@ -2486,7 +2486,7 @@ export function dieterZlofPortraitPage() {
 
         <h2 class="vb-section">1. The Goose</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>goose</strong> is the animal of the Social One: orderly, disciplined, outwardly unremarkable and respectable — and, within its own territory, capable of striking with surprising precision the moment it feels justified. Dieter Zlof, a trained business manager and owner of a car repair shop in Munich-Pasing, fit this image exactly: a tradesman, a neighbor, someone who fixed cars and wrote invoices. Not a man anyone would have suspected of a 21-million-mark extortion.</p>
+          <p class="vb-intro">The <strong>goose</strong> stands as the animal of the Social One: orderly, disciplined, outwardly unremarkable and respectable — and, within its own territory, capable of striking with surprising precision the moment it feels justified. Dieter Zlof, a trained business manager and owner of a car repair shop in Munich-Pasing, fit this image exactly: a tradesman, a neighbor, someone who fixed cars and wrote invoices. Not a man anyone would have suspected of a 21-million-mark extortion.</p>
           <p class="vb-intro">Yet behind this facade worked a mind that, with the same meticulousness a goose defends its territory, engineered a plan down to the last technical detail — and that, once the plan unraveled, entrenched itself for fifteen years behind an unshakeable claim of innocence.</p>
         </blockquote>
 

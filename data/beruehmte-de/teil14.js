@@ -18,7 +18,7 @@ export function ingmarBergmanPortraitPage() {
         <h2 class="vb-section">1. Die Taube, die ihr eigenes Kindheitsdrama verfilmte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Ingmar Bergman wurde 1918 in Uppsala als Sohn eines strengen lutherischen Pfarrers geboren, der später Hofprediger der schwedischen Königsfamilie wurde. Der Vater bestrafte ihn mit Prügelstrafe und sperrte ihn zur Strafe in dunkle Schränke – Bergman beschrieb sich selbst später als Kind, das „in jeder Hinsicht eingesperrt" war, und stotterte über Jahre. Mit 17 schlug er seinen Vater und verließ das Elternhaus; mit den Eltern sprach er danach jahrzehntelang kaum noch. Seine Großmutter führte ihn heimlich, gegen den Willen des Vaters, ins Kino ein.</p>
-          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier – sanft, verletzlich, mit einer stillen Zähigkeit, die das eigene Leiden nicht zur Schau stellt, sondern in eine tragfähige Form verwandelt. Bergman tat genau das mit beispielloser Konsequenz: Sein Spätwerk ›Fanny und Alexander‹ (1982) verarbeitet seine eigene Kindheit direkt und explizit, und auch viele seiner mittleren Werke – Schuld, familiäre Entfremdung, die Suche nach einem schweigenden Gott – lassen sich unmittelbar auf sein eigenes Aufwachsen zurückführen.</p>
+          <p class="vb-intro">Die <strong>Taube</strong> ist die tierische Entsprechung der selbsterhaltenden Vier – sanft, verletzlich, mit einer stillen Zähigkeit, die das eigene Leiden nicht zur Schau stellt, sondern in eine tragfähige Form verwandelt. Bergman tat genau das mit beispielloser Konsequenz: Sein Spätwerk ›Fanny und Alexander‹ (1982) verarbeitet seine eigene Kindheit direkt und explizit, und auch viele seiner mittleren Werke – Schuld, familiäre Entfremdung, die Suche nach einem schweigenden Gott – lassen sich unmittelbar auf sein eigenes Aufwachsen zurückführen.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die selbsterhaltende Vier: Das eigene Leiden als filmisches Material</h2>
@@ -285,7 +285,7 @@ export function charlotteWellsPortraitPage() {
 
         <h2 class="vb-section">1. Die Taube</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier – sie trägt ihr tiefes Gefühlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrelanger Beharrlichkeit. Charlotte Wells wurde 1987 in Schottland geboren und verlor als Teenager ihren Vater – ein Verlust, den sie über Jahre hinweg nicht öffentlich verarbeitete, sondern still, in sich gekehrt, mit sich selbst austrug. Erst 2015, mit ihrem Kurzfilm „Tuesday", näherte sie sich diesem Verlust erstmals künstlerisch an – und noch einmal sieben Jahre später, 2022, mit ihrem gefeierten Spielfilmdebüt „Aftersun", das lose auf gemeinsamen Urlauben mit ihrem Vater basiert.</p>
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Sinnbild der selbsterhaltenden Vier – sie trägt ihr tiefes Gefühlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrelanger Beharrlichkeit. Charlotte Wells wurde 1987 in Schottland geboren und verlor als Teenager ihren Vater – ein Verlust, den sie über Jahre hinweg nicht öffentlich verarbeitete, sondern still, in sich gekehrt, mit sich selbst austrug. Erst 2015, mit ihrem Kurzfilm „Tuesday", näherte sie sich diesem Verlust erstmals künstlerisch an – und noch einmal sieben Jahre später, 2022, mit ihrem gefeierten Spielfilmdebüt „Aftersun", das lose auf gemeinsamen Urlauben mit ihrem Vater basiert.</p>
           <p class="vb-intro">Bevor sie sich der Regie zuwandte, studierte Wells zunächst Klassische Philologie am King's College London und schloss ein weiteres Studium an der University of Oxford ab – kein direkter Weg zum Film, sondern ein Umweg über akademische Disziplin und Struktur. Anschließend arbeitete sie mehrere Jahre in der Finanzbranche und leitete gemeinsam mit einer Freundin eine Agentur für Filmschaffende, bevor sie mit Anfang dreißig noch einmal von vorn begann.</p>
         </blockquote>
 
@@ -356,7 +356,7 @@ export function davidHumePortraitPage() {
 
         <h2 class="vb-section">1. Der Elefant, der an allem zweifelte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des selbsterhaltenden Typs 9 &ndash; geduldig, erdend, von einer Pr\u00e4senz, die nicht durch Lautst\u00e4rke entsteht, sondern durch Gewicht. Er l\u00e4sst sich nicht aus der Ruhe bringen, selbst wenn er die Grundfesten der Welt in Frage stellt. Er tr\u00e4gt seine Erkenntnisse gelassen, ohne sie jemandem aufzudr\u00e4ngen.</p>
+          <p class="vb-intro">Der <strong>Elefant</strong> ist das Sinnbild des selbsterhaltenden Typs 9 &ndash; geduldig, erdend, von einer Pr\u00e4senz, die nicht durch Lautst\u00e4rke entsteht, sondern durch Gewicht. Er l\u00e4sst sich nicht aus der Ruhe bringen, selbst wenn er die Grundfesten der Welt in Frage stellt. Er tr\u00e4gt seine Erkenntnisse gelassen, ohne sie jemandem aufzudr\u00e4ngen.</p>
           <p class="vb-intro">Der schottische Philosoph David Hume wurde 1711 in Edinburgh geboren, studierte kurz Jura, brach das Studium ab und widmete sich stattdessen der Philosophie &ndash; gegen den Wunsch seiner Familie. Zeitgenossen beschrieben ihn \u00fcbereinstimmend als heiter, umg\u00e4nglich, ohne jede Bitterkeit, obwohl er zeitlebens gegen erbitterten Widerstand der Kirche und akademischer Institutionen anschrieb. Man nannte ihn &bdquo;le bon David&ldquo; &ndash; den guten David &ndash; selbst in Kreisen, die seine Ideen f\u00fcr gef\u00e4hrlich hielten.</p>
         </blockquote>
 
@@ -430,7 +430,7 @@ export function douglasSmithPortraitPage() {
 
         <h2 class="vb-section">1. Der Wolf, der die Wölfe zurück nach Yellowstone brachte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier der sexuellen Sechs &ndash; er begegnet der Angst nicht durch Rückzug, sondern durch direkte Konfrontation, und findet seine tiefste Bedeutung im Schutz und Überleben des Rudels. Kaum ein Lebenswerk zeigt dieses Prinzip so unmittelbar wie das von Dr. Douglas W. Smith: 1994 von der US-Nationalparkverwaltung als Projektbiologe für die Wiederansiedlung der Wölfe in Yellowstone engagiert, leitete er ab 1997 über Jahrzehnte das gesamte Yellowstone-Wolfsprojekt &ndash; bis zu seiner Pensionierung 2022, nach 28 Dienstjahren im Park.</p>
+          <p class="vb-intro">Der <strong>Wolf</strong> gilt als das Tier der sexuellen Sechs &ndash; er begegnet der Angst nicht durch Rückzug, sondern durch direkte Konfrontation, und findet seine tiefste Bedeutung im Schutz und Überleben des Rudels. Kaum ein Lebenswerk zeigt dieses Prinzip so unmittelbar wie das von Dr. Douglas W. Smith: 1994 von der US-Nationalparkverwaltung als Projektbiologe für die Wiederansiedlung der Wölfe in Yellowstone engagiert, leitete er ab 1997 über Jahrzehnte das gesamte Yellowstone-Wolfsprojekt &ndash; bis zu seiner Pensionierung 2022, nach 28 Dienstjahren im Park.</p>
           <p class="vb-intro">Bereits vor Yellowstone hatte Smith von 1979 bis 1992 auf Isle Royale mit Wölfen gearbeitet &ndash; demselben legendären Langzeitforschungsgebiet, in dem auch Dr. L. David Mech (SX6w5), der "Vater der modernen Wolfsforschung" und selbst seit über sechzig Jahren führender Wolfsforscher, seine Karriere begann. Beide Männer verbrachten ihr Leben buchstäblich im rauen Freiland, um denselben komplexen sozialen Code des Wolfes zu entschlüsseln &ndash; eine Verbindung, die weit über bloße fachliche Kollegenschaft hinausgeht.</p>
         </blockquote>
 
@@ -564,7 +564,7 @@ export function georgeGershwinPortraitPage() {
 
         <h2 class="vb-section">1. Der Biber aus Brooklyn</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier der sozialen Sieben &ndash; ein Baumeister, der seine überschäumende Energie nicht für sich behält, sondern in etwas verwandelt, das der ganzen Umgebung zugutekommt. George Gershwin, 1898 als Sohn russisch-jüdischer Einwanderer in Brooklyn geboren, war weitgehend Autodidakt am Klavier, bevor er als Teenager in die „Tin Pan Alley" einstieg &ndash; das New Yorker Musikverlagsviertel, in dem er als „Song Plugger" fremde Lieder am Klavier vorspielte, um sie an Kunden zu verkaufen.</p>
+          <p class="vb-intro">Der <strong>Biber</strong> gilt als das Tier der sozialen Sieben &ndash; ein Baumeister, der seine überschäumende Energie nicht für sich behält, sondern in etwas verwandelt, das der ganzen Umgebung zugutekommt. George Gershwin, 1898 als Sohn russisch-jüdischer Einwanderer in Brooklyn geboren, war weitgehend Autodidakt am Klavier, bevor er als Teenager in die „Tin Pan Alley" einstieg &ndash; das New Yorker Musikverlagsviertel, in dem er als „Song Plugger" fremde Lieder am Klavier vorspielte, um sie an Kunden zu verkaufen.</p>
           <p class="vb-intro">Aus dieser Werkstattarbeit an fremden Melodien wurde rasch etwas Größeres: der Wunsch, eine ganz eigene, genuin amerikanische Musiksprache zu schaffen, die die Gräben zwischen U- und E-Musik einriss. Der Biber baut nicht für sich allein &ndash; er baut, damit ein ganzer Fluss sein Bett findet.</p>
         </blockquote>
 
@@ -631,7 +631,7 @@ export function hansZimmerPortraitPage() {
 
         <h2 class="vb-section">1. Der Gorilla</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier des selbsterhaltenden Typs 7 &ndash; und kein Bild beschreibt Hans Zimmer besser. Der Gorilla ist kein Solist. Er lebt im Verband, sch\u00fctzt seine Familie, teilt Nahrung, lehrt die J\u00fcngeren. Seine St\u00e4rke dient nicht der Selbstdarstellung, sondern der Gemeinschaft. Und wenn er sich bewegt &ndash; durch den Wald, durch den Raum &ndash; sp\u00fcrt man seine Schwerkraft, ohne dass er droht.</p>
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Wappentier des selbsterhaltenden Typs 7 &ndash; und kein Bild beschreibt Hans Zimmer besser. Der Gorilla ist kein Solist. Er lebt im Verband, sch\u00fctzt seine Familie, teilt Nahrung, lehrt die J\u00fcngeren. Seine St\u00e4rke dient nicht der Selbstdarstellung, sondern der Gemeinschaft. Und wenn er sich bewegt &ndash; durch den Wald, durch den Raum &ndash; sp\u00fcrt man seine Schwerkraft, ohne dass er droht.</p>
           <p class="vb-intro">Der deutsche Komponist Hans Zimmer hat in Santa Monica ein Studio aufgebaut, das man Remote Control Productions nennt &ndash; und das von innen eher einer Musikerfamilie \u00e4hnelt als einer Produktionsfirma. Zimmer hat dort Dutzende Komponisten ausgebildet, gef\u00f6rdert, begleitet: Junkie XL, Lorne Balfe, Harry Gregson-Williams, Rupert Gregson-Williams, Ramin Djawadi und viele andere. Der Gorilla baut kein Territorium. Er baut ein Rudel.</p>
         </blockquote>
 
@@ -762,7 +762,7 @@ export function jasminPaoliniPortraitPage() {
 
         <h2 class="vb-section">1. Der Gorilla</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier des selbsterhaltenden Typs 7 &ndash; und er \u00fcberrascht, weil man ihn beim ersten Hinsehen nicht mit Leichtigkeit verbindet. Der Gorilla ist m\u00e4chtig, ruhig und zutiefst familienorientiert. Er lebt im engen Verband, pflegt Bindungen, sch\u00fctzt sein Rudel. Er sucht keine Konfrontation &ndash; aber weicht ihr auch nicht aus, wenn es darauf ankommt. Seine St\u00e4rke ist keine Aggression. Sie ist Verl\u00e4sslichkeit.</p>
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist die tierische Entsprechung des selbsterhaltenden Typs 7 &ndash; und er \u00fcberrascht, weil man ihn beim ersten Hinsehen nicht mit Leichtigkeit verbindet. Der Gorilla ist m\u00e4chtig, ruhig und zutiefst familienorientiert. Er lebt im engen Verband, pflegt Bindungen, sch\u00fctzt sein Rudel. Er sucht keine Konfrontation &ndash; aber weicht ihr auch nicht aus, wenn es darauf ankommt. Seine St\u00e4rke ist keine Aggression. Sie ist Verl\u00e4sslichkeit.</p>
           <p class="vb-intro">Die italienische Tennisspielerin Jasmine Paolini ist dieser Gorilla. Auf dem Platz: explosiv, kampfstark, unerm\u00fcdlich. Abseits davon: warm, lachend, famili\u00e4r. Sie feiert Siege mit einer Offenheit, die ansteckt, und tr\u00e4gt Niederlagen mit einer W\u00fcrde, die beeindruckt. Der Gorilla tanzt nicht &ndash; aber wenn er l\u00e4chelt, leuchtet der ganze Wald.</p>
         </blockquote>
 
@@ -825,7 +825,7 @@ export function johnnyCashPortraitPage() {
 
         <h2 class="vb-section">1. Der Waschbär</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das aus kargen Verhältnissen mit findiger Cleverness etwas Funktionierendes baut, statt auf Kraft oder Auftreten zu setzen. J. R. Cash wurde 1932 in Kingsland, Arkansas, als Sohn armer Baumwollpächter geboren; mit drei Jahren zog die Familie in die staatliche Siedlungskolonie Dyess, wo er bis zu seinem fünfzehnten Lebensjahr täglich auf den Feldern arbeitete. Aus dieser Kargheit erwuchs kein Selbstmitleid, sondern ein früh geschultes Gespür dafür, was man mit den eigenen Händen tatsächlich zustande bringt.</p>
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist die tierische Entsprechung der selbsterhaltenden Drei – ein Tier, das aus kargen Verhältnissen mit findiger Cleverness etwas Funktionierendes baut, statt auf Kraft oder Auftreten zu setzen. J. R. Cash wurde 1932 in Kingsland, Arkansas, als Sohn armer Baumwollpächter geboren; mit drei Jahren zog die Familie in die staatliche Siedlungskolonie Dyess, wo er bis zu seinem fünfzehnten Lebensjahr täglich auf den Feldern arbeitete. Aus dieser Kargheit erwuchs kein Selbstmitleid, sondern ein früh geschultes Gespür dafür, was man mit den eigenen Händen tatsächlich zustande bringt.</p>
           <p class="vb-intro">1944 starb sein älterer Bruder Jack im Alter von vierzehn Jahren, eine Woche nach einem schweren Unfall an einer Kreissäge in der Schulwerkstatt. Jack war der erklärte Lieblingssohn des Vaters Ray Cash gewesen, und Ray ließ seinen überlebenden Sohn jahrzehntelang spüren, wer aus seiner Sicht hätte sterben sollen. Johnny trug diese Schuld sein Leben lang mit sich – und begann früh, sich etwas aufzubauen, das niemand ihm mehr streitig machen konnte.</p>
         </blockquote>
 
@@ -897,7 +897,7 @@ export function karolineHerfurthPortraitPage() {
 
         <h2 class="vb-section">1. Die Taube, die beobachtet</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier &ndash; und bei Karoline Herfurth zeigt sie eine besondere Qualit\xe4t: Diese Taube landet nicht gleich. Sie kreist zuerst. Sie beobachtet, nimmt wahr, tr\xe4gt innerlich, was sie gesehen hat &ndash; und landet dann genau dort, wo sie gebraucht wird. Hier zeigt sich die selbsterhaltende Vier mit F\xfcnferfl\xfcgel: ein Mensch, der das Innere vollst\xe4ndig durchlebt, bevor er nach au\xdfen tritt.</p>
+          <p class="vb-intro">Die <strong>Taube</strong> ist die tierische Entsprechung der selbsterhaltenden Vier &ndash; und bei Karoline Herfurth zeigt sie eine besondere Qualit\xe4t: Diese Taube landet nicht gleich. Sie kreist zuerst. Sie beobachtet, nimmt wahr, tr\xe4gt innerlich, was sie gesehen hat &ndash; und landet dann genau dort, wo sie gebraucht wird. Hier zeigt sich die selbsterhaltende Vier mit F\xfcnferfl\xfcgel: ein Mensch, der das Innere vollst\xe4ndig durchlebt, bevor er nach au\xdfen tritt.</p>
           <p class="vb-intro">Die deutsche Schauspielerin Karoline Herfurth ist eine der wenigen Pers\xf6nlichkeiten, die diese Verbindung verk\xf6rpern: gro\xdfe emotionale Pr\xe4senz auf der Leinwand, stilles Zur\xfcckhalten daneben. Keine Social-Media-Bespielung, kein dauerndes Erkl\xe4ren. Stattdessen: Filme, die f\xfcr sich sprechen. Eine Haltung, die mehr sagt als jedes Interview.</p>
         </blockquote>
 
@@ -960,7 +960,7 @@ export function laoziPortraitPage() {
 
         <h2 class="vb-section">1. Der Elefant</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier der selbsterhaltenden Neun &ndash; ruhig, schwer, kaum aus der Ruhe zu bringen, in seiner Tr\u00e4gheit doch von enormer Kraft. Er k\u00e4mpft nicht um Territorium, er verteidigt nicht seinen Status &ndash; er zieht weiter, wenn die Weide karg wird, und l\u00e4sst zur\u00fcck, was ihn nicht mehr tr\u00e4gt. Kaum eine Gestalt der Geistesgeschichte verk\u00f6rpert dieses Bild so vollst\u00e4ndig wie Laotse, der der \u00dcberlieferung nach am Ende seines Lebens einfach auf einem schwarzen B\u00fcffel gen Westen ritt und in der W\u00fcste verschwand.</p>
+          <p class="vb-intro">Der <strong>Elefant</strong> gilt als das Tier der selbsterhaltenden Neun &ndash; ruhig, schwer, kaum aus der Ruhe zu bringen, in seiner Tr\u00e4gheit doch von enormer Kraft. Er k\u00e4mpft nicht um Territorium, er verteidigt nicht seinen Status &ndash; er zieht weiter, wenn die Weide karg wird, und l\u00e4sst zur\u00fcck, was ihn nicht mehr tr\u00e4gt. Kaum eine Gestalt der Geistesgeschichte verk\u00f6rpert dieses Bild so vollst\u00e4ndig wie Laotse, der der \u00dcberlieferung nach am Ende seines Lebens einfach auf einem schwarzen B\u00fcffel gen Westen ritt und in der W\u00fcste verschwand.</p>
           <p class="vb-intro">\u00dcber die historische Existenz Laotses (auch Laozi, w\u00f6rtlich \u201ealter Meister") ist wenig gesichert &ndash; die \u00dcberlieferung datiert ihn ins 6. Jahrhundert v. Chr. und macht ihn zu einem \u00e4lteren Zeitgenossen des Konfuzius, dem er der Legende nach sogar begegnet sein soll. Ihm wird das <em>Daodejing</em> zugeschrieben, ein schmaler Text von gut 5000 chinesischen Schriftzeichen, der zur Grundlage des Daoismus wurde &ndash; einer der einflussreichsten Denkrichtungen Chinas, die bis heute Philosophie, Medizin und Lebenskunst pr\u00e4gt.</p>
         </blockquote>
 
@@ -1027,7 +1027,7 @@ export function lucyCookePortraitPage() {
 
         <h2 class="vb-section">1. Das Faultier, das zur Botschafterin des Faultiers wurde</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier der sexuellen Neun &ndash; kein träges, sondern ein Tier, das sich seiner Umgebung so vollständig verschmilzt, dass die Grenze zwischen ihm und seinem Lebensraum verschwimmt. Lucy Cooke ist genau diese Verschmelzung: Die britische Zoologin gilt heute als eine der weltweit bekanntesten Faultier-Botschafterinnen &ndash; Gründerin der Sloth Appreciation Society, Bestseller-Autorin, preisgekrönte TV-Produzentin, deren gesamtes öffentliches Wirken untrennbar mit diesem einen Tier verbunden ist.</p>
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Wappentier der sexuellen Neun &ndash; kein träges, sondern ein Tier, das sich seiner Umgebung so vollständig verschmilzt, dass die Grenze zwischen ihm und seinem Lebensraum verschwimmt. Lucy Cooke ist genau diese Verschmelzung: Die britische Zoologin gilt heute als eine der weltweit bekanntesten Faultier-Botschafterinnen &ndash; Gründerin der Sloth Appreciation Society, Bestseller-Autorin, preisgekrönte TV-Produzentin, deren gesamtes öffentliches Wirken untrennbar mit diesem einen Tier verbunden ist.</p>
           <p class="vb-intro">Ihr Werdegang ist zoologisch fundiert: Master in Zoologie am New College, Oxford, unter dem Evolutionsbiologen Richard Dawkins. Und doch verschrieb sie sich nicht der wissenschaftlichen Distanz, sondern einer fast liebevollen Hingabe an ein einziges, lange unterschätztes Tier &ndash; und wurde selbst zu einem Teil dessen, was sie erforscht.</p>
         </blockquote>
 
@@ -1095,7 +1095,7 @@ export function marieKondoPortraitPage() {
 
         <h2 class="vb-section">1. Der Adler</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins &ndash; und Marie Kondo verk\u00f6rpert ihn mit einer Reinheit, die selten ist. Der Adler hat einen scharfen Blick f\u00fcr das Wesentliche. Er sieht, was stimmt und was nicht stimmt, mit einer Pr\u00e4zision, die kein Argument braucht. Er kreist, er beobachtet, er unterscheidet. Und wenn er landet, landet er genau.</p>
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Wappentier der selbsterhaltenden Eins &ndash; und Marie Kondo verk\u00f6rpert ihn mit einer Reinheit, die selten ist. Der Adler hat einen scharfen Blick f\u00fcr das Wesentliche. Er sieht, was stimmt und was nicht stimmt, mit einer Pr\u00e4zision, die kein Argument braucht. Er kreist, er beobachtet, er unterscheidet. Und wenn er landet, landet er genau.</p>
           <p class="vb-intro">Die japanische Ordnungsberaterin Marie Kondo wurde 1984 in Tokio geboren und begann mit f\u00fcnf Jahren, Einrichtungszeitschriften zu lesen. Mit neun ordnete sie die B\u00fccherregale ihrer Klasse. Mit f\u00fcnfzehn entwickelte sie die ersten Grundz\u00fcge ihrer sp\u00e4teren Methode. Das ist keine Karriere, die geplant wurde &ndash; das ist ein Adler, der seinem inneren Kompass folgt, bevor er irgendeinem \u00e4u\u00dferen Erwartungsdruck begegnet ist.</p>
         </blockquote>
 
@@ -1165,7 +1165,7 @@ export function mickeyRourkePortraitPage() {
 
         <h2 class="vb-section">1. Das Flusspferd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das seine Verletzlichkeit unter einer massiven, oft einschüchternden Oberfläche verbirgt und echte Nähe nur im engsten, verlässlichsten Kreis zulässt. Kaum eine Karriere zeigt diese Doppelnatur so deutlich wie die von Mickey Rourke: ein Mann, dessen öffentliches Bild von Härte geprägt ist, während seine tiefste, treueste Bindung Jahrzehnte lang seinen Hunden galt.</p>
+          <p class="vb-intro">Das <strong>Flusspferd</strong> gilt als das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das seine Verletzlichkeit unter einer massiven, oft einschüchternden Oberfläche verbirgt und echte Nähe nur im engsten, verlässlichsten Kreis zulässt. Kaum eine Karriere zeigt diese Doppelnatur so deutlich wie die von Mickey Rourke: ein Mann, dessen öffentliches Bild von Härte geprägt ist, während seine tiefste, treueste Bindung Jahrzehnte lang seinen Hunden galt.</p>
           <p class="vb-intro">Philip Andre Rourke Jr. wurde am 16. September 1952 in Schenectady, New York, geboren und fand in einem schwierigen häuslichen Umfeld früh Zuflucht im Boxring – im selben Fitnessstudio in Miami, aus dem einst auch Muhammad Ali (SO2w1) hervorging. Der Ring wurde für ihn zu einem Ort, an dem Schmerz eine klare, kontrollierbare Form annahm, statt diffus und unberechenbar zu bleiben.</p>
         </blockquote>
 
@@ -1228,7 +1228,7 @@ export function nateDoggPortraitPage() {
 
         <h2 class="vb-section">1. Das Flusspferd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das seine Kraft aus einem festen, vertrauten Kreis schöpft, statt sie in die Ferne zu verstreuen. Nate Dogg begann sein musikalisches Leben nicht auf einer Bühne, sondern in der New Hope Baptist Church in Long Beach, wo bereits sein Vater Daniel Lee Hale als Pastor predigte – eine Stimme, die von Grund auf im engsten familiären und gemeinschaftlichen Umfeld geformt wurde.</p>
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist die tierische Entsprechung der selbsterhaltenden Zwei &ndash; ein Wesen, das seine Kraft aus einem festen, vertrauten Kreis schöpft, statt sie in die Ferne zu verstreuen. Nate Dogg begann sein musikalisches Leben nicht auf einer Bühne, sondern in der New Hope Baptist Church in Long Beach, wo bereits sein Vater Daniel Lee Hale als Pastor predigte – eine Stimme, die von Grund auf im engsten familiären und gemeinschaftlichen Umfeld geformt wurde.</p>
           <p class="vb-intro">Nathaniel Dwayne Hale wurde am 19. August 1969 in Clarksdale, Mississippi, geboren und zog mit vierzehn Jahren nach der Scheidung seiner Eltern nach Long Beach, Kalifornien. Nach dem Schulabbruch mit siebzehn diente er drei Jahre als Munitionsspezialist beim US Marine Corps in Japan, bevor er nach Long Beach zurückkehrte – ein Weg über Disziplin und Dienst, bevor die Musik zum eigentlichen Beruf wurde.</p>
         </blockquote>
 
@@ -1506,7 +1506,7 @@ export function thomasGottschalkPortraitPage() {
 
         <h2 class="vb-section">1. Der Schimpanse</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier des sexuellen Typs 7 &ndash; und kein Bild passt besser auf Thomas Gottschalk. Der Schimpanse ist das lebendigste, neugierigste, unberechenbarste der Menschenaffen. Er braucht Stimulation: Kontakt, Spiel, \u00dcberraschung, Verbindung. Er lernt durch Nachahmung, durch Interaktion, durch den direkten Kontakt mit dem anderen. In Gefangenschaft verk\u00fcmmert er &ndash; nicht weil er krank wird, sondern weil ihm fehlt, was er am meisten braucht: den Funken des Augenblicks.</p>
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist die tierische Entsprechung des sexuellen Typs 7 &ndash; und kein Bild passt besser auf Thomas Gottschalk. Der Schimpanse ist das lebendigste, neugierigste, unberechenbarste der Menschenaffen. Er braucht Stimulation: Kontakt, Spiel, \u00dcberraschung, Verbindung. Er lernt durch Nachahmung, durch Interaktion, durch den direkten Kontakt mit dem anderen. In Gefangenschaft verk\u00fcmmert er &ndash; nicht weil er krank wird, sondern weil ihm fehlt, was er am meisten braucht: den Funken des Augenblicks.</p>
           <p class="vb-intro">Der deutsche Moderator Thomas Gottschalk hat 23 Jahre lang vor einem Millionenpublikum moderiert &ndash; und dabei nie gewirkt, als w\u00fcrde er eine Rolle spielen. Er war immer er selbst: sprunghaft, charmant, direkt, manchmal \u00fcberraschend, manchmal unbequem, immer lebendig. Der Schimpanse ist nicht programmierbar. Er reagiert auf das, was gerade passiert. Und genau das macht ihn zum faszinierendsten Tier im Raum.</p>
         </blockquote>
 
@@ -1576,7 +1576,7 @@ export function usherPortraitPage() {
 
         <h2 class="vb-section">1. Der Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; ein Tier, das seine Wärme nicht für sich behält, sondern von klein auf danach strebt, ein ganzes Publikum zu erreichen. Usher Raymond IV stand bereits mit zehn Jahren in Talentshows auf der Bühne und sang bei <em>Star Search</em> den Boyz-II-Men-Song <em>End of the Road</em> &ndash; ein früher Beweis dafür, wie sehr sein Selbstverständnis von Anfang an an ein Publikum gebunden war.</p>
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Wappentier der sozialen Zwei &ndash; ein Tier, das seine Wärme nicht für sich behält, sondern von klein auf danach strebt, ein ganzes Publikum zu erreichen. Usher Raymond IV stand bereits mit zehn Jahren in Talentshows auf der Bühne und sang bei <em>Star Search</em> den Boyz-II-Men-Song <em>End of the Road</em> &ndash; ein früher Beweis dafür, wie sehr sein Selbstverständnis von Anfang an an ein Publikum gebunden war.</p>
           <p class="vb-intro">Usher wurde 1978 in Dallas, Texas, geboren und wuchs in Chattanooga und Atlanta auf. Der Auftritt bei <em>Star Search</em> brachte ihm einen Plattenvertrag ein, und mit gerade einmal 15 Jahren veröffentlichte er sein selbstbetiteltes Debütalbum &ndash; ein extrem früher Start in eine öffentliche Karriere, in der das Publikum von Beginn an der zentrale Bezugspunkt war.</p>
         </blockquote>
 
@@ -1641,7 +1641,7 @@ export function xanthippePortraitPage() {
 
         <h2 class="vb-section">1. Die Gans, aus der man einen Schimpfnamen machte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins – wachsam, prinzipientreu, unbestechlich in ihrem Sinn für Recht und Unrecht. Kein Name aus der Antike ist so vollständig zum Schimpfwort geworden wie der der Xanthippe: Im Deutschen bezeichnet "eine Xanthippe" auch heute noch eine streitsüchtige, herrschsüchtige Ehefrau. Über die historische Xanthippe selbst ist erstaunlich wenig gesichert – fast alles, was über sie überliefert ist, stammt aus der Feder von Männern, die über die Frau des berühmtesten Philosophen ihrer Zeit schrieben, nicht von ihr selbst.</p>
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Sinnbild der sozialen Eins – wachsam, prinzipientreu, unbestechlich in ihrem Sinn für Recht und Unrecht. Kein Name aus der Antike ist so vollständig zum Schimpfwort geworden wie der der Xanthippe: Im Deutschen bezeichnet "eine Xanthippe" auch heute noch eine streitsüchtige, herrschsüchtige Ehefrau. Über die historische Xanthippe selbst ist erstaunlich wenig gesichert – fast alles, was über sie überliefert ist, stammt aus der Feder von Männern, die über die Frau des berühmtesten Philosophen ihrer Zeit schrieben, nicht von ihr selbst.</p>
           <p class="vb-intro">Sie war Sokrates' Ehefrau, deutlich jünger als er, und gebar ihm der Überlieferung nach drei Söhne – Lamprokles, Sophroniskos und Menexenos. Die Ehe fiel in eine Zeit, in der Sokrates bereits seinen Ruf als Straßenphilosoph begründet hatte: ein Mann, der seine Tage mit unbezahlten Gesprächen auf dem Marktplatz verbrachte, während zuhause eine Familie versorgt werden musste. Genau in dieser Konstellation liegt der Kern dessen, was die Nachwelt als "Xanthippes Zorn" karikierte.</p>
         </blockquote>
 
@@ -1776,7 +1776,7 @@ export function kimJongUnPortraitPage() {
 
         <h2 class="vb-section">1. Der Gorilla, der sein Territorium mit Fülle absicherte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier des selbsterhaltenden Typs 7 &ndash; ein Tier von enormer Kraft, das im Verband lebt und dessen Pr\xe4senz einen Raum f\xfcllt, ohne dass es sich anstrengen m\xfcsste. Kim Jong Un, um 1984 als j\xfcngster Sohn des nordkoreanischen Machthabers Kim Jong Il geboren, verbrachte einen Teil seiner Jugend unter falschem Namen an einer Schweizer Schule in Bern &ndash; ein Aufenthalt, der ihn mit westlichem Konsum, NBA-Basketball und einer F\xfclle vertraut machte, die im streng abgeschotteten Nordkorea seiner Herkunft f\xfcr die allermeisten Menschen unerreichbar war.</p>
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist die tierische Entsprechung des selbsterhaltenden Typs 7 &ndash; ein Tier von enormer Kraft, das im Verband lebt und dessen Pr\xe4senz einen Raum f\xfcllt, ohne dass es sich anstrengen m\xfcsste. Kim Jong Un, um 1984 als j\xfcngster Sohn des nordkoreanischen Machthabers Kim Jong Il geboren, verbrachte einen Teil seiner Jugend unter falschem Namen an einer Schweizer Schule in Bern &ndash; ein Aufenthalt, der ihn mit westlichem Konsum, NBA-Basketball und einer F\xfclle vertraut machte, die im streng abgeschotteten Nordkorea seiner Herkunft f\xfcr die allermeisten Menschen unerreichbar war.</p>
           <p class="vb-intro">Dieses Portr\xe4t analysiert eine Pers\xf6nlichkeitsstruktur nach dem Enneagramm-Modell. Es erkl\xe4rt Verhaltensmuster, es rechtfertigt nichts. Die systematische Unterdr\xfcckung der nordkoreanischen Bev\xf6lkerung, die politischen Straflager (Kwanliso), au\xdfergerichtliche Hinrichtungen und das nordkoreanische Nuklearprogramm sind eigenst\xe4ndig zu bewertende Tatsachen, unabh\xe4ngig von jeder psychologischen Einordnung.</p>
         </blockquote>
 
@@ -1914,7 +1914,7 @@ export function alexanderGerstPortraitPage() {
 
         <h2 class="vb-section">1. Der Golden Retriever im All</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier des sozialen Typs 2 – zugewandt, warm, unmittelbar auf Verbindung aus, aber nicht mit einer einzelnen Person, sondern mit möglichst vielen zugleich. Alexander Gerst, deutscher Geophysiker und ESA-Astronaut, verbrachte insgesamt über 360 Tage im All, davon 2018 als erster Deutscher Kommandant der Internationalen Raumstation ISS.</p>
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Wappentier des sozialen Typs 2 – zugewandt, warm, unmittelbar auf Verbindung aus, aber nicht mit einer einzelnen Person, sondern mit möglichst vielen zugleich. Alexander Gerst, deutscher Geophysiker und ESA-Astronaut, verbrachte insgesamt über 360 Tage im All, davon 2018 als erster Deutscher Kommandant der Internationalen Raumstation ISS.</p>
           <p class="vb-intro">Bekannter als seine Fachkarriere wurde er jedoch für etwas anderes: Aus dem All heraus baute er über Social Media, Blogeinträge und Fotostrecken eine direkte, persönliche Verbindung zu einem Millionenpublikum auf – Raumfahrt nicht als abgeschottetes Expertenprojekt, sondern als geteiltes Erlebnis für alle, die zusehen wollten.</p>
         </blockquote>
 
@@ -1978,7 +1978,7 @@ export function jonHammPortraitPage() {
 
         <h2 class="vb-section">1. Der Löwe, der erst für andere stand, bevor er selbst gesehen wurde</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Löwe</strong> ist das Tier des sozialen Typs 8 – Kraft, die nicht zur Selbstbehauptung, sondern zum Schutz und Zusammenhalt einer Gemeinschaft eingesetzt wird. Jon Hamm, geboren 1971 in St. Louis, verlor seine Mutter mit zehn Jahren an Krebs und mit zwanzig seinen Vater – bevor er selbst zum gefeierten Schauspieler wurde, arbeitete er als Drama-Lehrer an seiner alten High School und unterrichtete dort unter anderem die spätere Schauspielerin Ellie Kemper.</p>
+          <p class="vb-intro">Der <strong>Löwe</strong> gilt als das Tier des sozialen Typs 8 – Kraft, die nicht zur Selbstbehauptung, sondern zum Schutz und Zusammenhalt einer Gemeinschaft eingesetzt wird. Jon Hamm, geboren 1971 in St. Louis, verlor seine Mutter mit zehn Jahren an Krebs und mit zwanzig seinen Vater – bevor er selbst zum gefeierten Schauspieler wurde, arbeitete er als Drama-Lehrer an seiner alten High School und unterrichtete dort unter anderem die spätere Schauspielerin Ellie Kemper.</p>
           <p class="vb-intro">Kemper beschrieb ihn Jahre später als „großzügigen, selbstlosen Menschen" – als sie in Los Angeles ihr eigenes Comedy-Solo-Programm aufführte, kam der inzwischen durch ›Mad Men‹ weltberühmte Hamm einfach vorbei, um sie zu unterstützen. Genau das zeigt die SO8-Grundhaltung: Kraft wird nicht gehortet, sondern denen zur Verfügung gestellt, die zur eigenen Gemeinschaft gehören.</p>
         </blockquote>
 
@@ -2108,7 +2108,7 @@ export function eltonJohnPortraitPage() {
 
         <h2 class="vb-section">1. Der Gorilla</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier der selbsterhaltenden Sieben: genussfreudig, territorial, immer bemüht, sich ein eigenes, geschütztes Revier aus Fülle und Sicherheit aufzubauen. Reginald Kenneth Dwight wurde 1947 in Pinner geboren, in ein Zuhause voller Spannung – sein Vater, ein Offizier der Royal Air Force, lehnte seine musikalischen Ambitionen ab und wünschte sich für ihn eine konventionelle Bankkarriere. Zu Hause gab es, so wird berichtet, heftige Streits, die den Jungen tief belasteten. Mit vierzehn ließen sich die Eltern scheiden.</p>
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Wappentier der selbsterhaltenden Sieben: genussfreudig, territorial, immer bemüht, sich ein eigenes, geschütztes Revier aus Fülle und Sicherheit aufzubauen. Reginald Kenneth Dwight wurde 1947 in Pinner geboren, in ein Zuhause voller Spannung – sein Vater, ein Offizier der Royal Air Force, lehnte seine musikalischen Ambitionen ab und wünschte sich für ihn eine konventionelle Bankkarriere. Zu Hause gab es, so wird berichtet, heftige Streits, die den Jungen tief belasteten. Mit vierzehn ließen sich die Eltern scheiden.</p>
           <p class="vb-intro">Seine Mutter und seine Großmutter zogen ihn großzügiger und freigeistiger auf – an ihrem Klavier lernte er als kleiner Junge, klassische Stücke nach Gehör nachzuspielen. Mit elf gewann er ein Stipendium an der Royal Academy of Music. Der Gorilla lernte früh, sich mit Talent ein erstes eigenes Revier zu schaffen – einen Ort abseits des beengten Elternhauses, an dem eigene Regeln galten.</p>
         </blockquote>
 
@@ -2175,7 +2175,7 @@ export function peterMaffayPortraitPage() {
 
         <h2 class="vb-section">1. Das Faultier hinter dem Rockstar</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier der sexuellen Neun – ein Tier, das nicht drängt, sondern vollkommen präsent in seinem eigenen Tempo lebt. Peter Maffay wurde 1949 in Kronstadt (Rumänien) als Angehöriger der deutschen Minderheit der Siebenbürger Sachsen geboren und wanderte 1963 mit seiner Familie nach Westdeutschland aus. Trotz über fünfzig Jahren als einer der erfolgreichsten deutschen Rockmusiker – mehr als 40 Millionen verkaufte Tonträger – blieb er in Interviews auffällig zurückhaltend und undramatisch, fast das Gegenteil des klassischen Rockstar-Overstatements.</p>
+          <p class="vb-intro">Das <strong>Faultier</strong> gilt als das Tier der sexuellen Neun – ein Tier, das nicht drängt, sondern vollkommen präsent in seinem eigenen Tempo lebt. Peter Maffay wurde 1949 in Kronstadt (Rumänien) als Angehöriger der deutschen Minderheit der Siebenbürger Sachsen geboren und wanderte 1963 mit seiner Familie nach Westdeutschland aus. Trotz über fünfzig Jahren als einer der erfolgreichsten deutschen Rockmusiker – mehr als 40 Millionen verkaufte Tonträger – blieb er in Interviews auffällig zurückhaltend und undramatisch, fast das Gegenteil des klassischen Rockstar-Overstatements.</p>
           <p class="vb-intro">Statt sich über viele Bühnenauftritte und mediale Selbstinszenierung zu definieren, zog sich Maffay immer wieder auf seine Finca auf Mallorca zurück – ein Rückzugsort, an dem er sein Privatleben weitgehend aus der Öffentlichkeit heraushielt. Das Faultier sucht nicht die Bühne um ihrer selbst willen, sondern die eine Sache, in der es ganz aufgehen kann.</p>
         </blockquote>
 
@@ -2245,7 +2245,7 @@ export function bruceSpringsteenPortraitPage() {
 
         <h2 class="vb-section">1. Das Faultier auf der Bühne</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier der sexuellen Neun &ndash; kein Tier des Drängens, sondern eines der vollständigen, kompromisslosen Hingabe an das eine, was gerade geschieht. Bruce Springsteen, geboren am 23. September 1949 in Freehold, New Jersey, als Sohn eines Busfahrers mit unbehandelten psychischen Problemen, fand in der Musik früh einen Ort, an dem er sich ganz verlieren konnte &ndash; eine Flucht, die über sechs Jahrzehnte zur Lebensaufgabe wurde.</p>
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Wappentier der sexuellen Neun &ndash; kein Tier des Drängens, sondern eines der vollständigen, kompromisslosen Hingabe an das eine, was gerade geschieht. Bruce Springsteen, geboren am 23. September 1949 in Freehold, New Jersey, als Sohn eines Busfahrers mit unbehandelten psychischen Problemen, fand in der Musik früh einen Ort, an dem er sich ganz verlieren konnte &ndash; eine Flucht, die über sechs Jahrzehnte zur Lebensaufgabe wurde.</p>
           <p class="vb-intro">Mit der E Street Band, gegründet 1972, entwickelte er einen Konzertstil, der bis heute als einer der intensivsten der Rockgeschichte gilt: Shows von regelmäßig drei bis vier Stunden Länge, bei denen Springsteen auf der Bühne restlos in der Musik und im Publikum aufzugehen scheint, statt sie nur zu performen. Alben wie ›Born to Run‹ (1975) und ›Born in the USA‹ (1984) machten ihn zu einer der zentralen Stimmen der amerikanischen Arbeiterklasse.</p>
         </blockquote>
 
@@ -2315,7 +2315,7 @@ export function heinzRuehmannPortraitPage() {
 
         <h2 class="vb-section">1. Der Adler in der Rolle des harmlosen Nachbarn</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Weißkopfseeadler</strong> ist das Tier der selbsterhaltenden Eins: ein wachsamer, in sich gekehrter Blick, der die eigene kleine Welt in Ordnung hält, ohne sich lautstark in Szene zu setzen. Heinz Rühmann, über nahezu siebzig Jahre einer der erfolgreichsten deutschen Filmschauspieler, baute seine gesamte Karriere auf genau diesem Prinzip auf: Er spielte fast durchgängig den ehrlichen, schüchternen, humorvollen Normalbürger, der sich mit den kleinen Widrigkeiten des Alltags herumschlägt – nie den Helden, nie den Mächtigen.</p>
+          <p class="vb-intro">Der <strong>Weißkopfseeadler</strong> ist die tierische Entsprechung der selbsterhaltenden Eins: ein wachsamer, in sich gekehrter Blick, der die eigene kleine Welt in Ordnung hält, ohne sich lautstark in Szene zu setzen. Heinz Rühmann, über nahezu siebzig Jahre einer der erfolgreichsten deutschen Filmschauspieler, baute seine gesamte Karriere auf genau diesem Prinzip auf: Er spielte fast durchgängig den ehrlichen, schüchternen, humorvollen Normalbürger, der sich mit den kleinen Widrigkeiten des Alltags herumschlägt – nie den Helden, nie den Mächtigen.</p>
           <p class="vb-intro">Zeitgenossen beschrieben ihn abseits der Kamera als auffällig schweigsamen, zurückhaltenden Mann – ein Kontrast zur komödiantischen Leinwandfigur, der genau die Selbsterhaltungs-Einser-Logik offenlegt: Öffentlichkeit wird über eine sorgfältig kontrollierte Rolle hergestellt, das eigentliche Selbst bleibt im Hintergrund geschützt.</p>
         </blockquote>
 
@@ -2380,7 +2380,7 @@ export function dmitriHvorostovskyPortraitPage() {
 
         <h2 class="vb-section">1. Der Gepard aus Sibirien</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei – schnell, auffällig, gebaut für den einen entscheidenden Moment, in dem alle Blicke auf ihn gerichtet sind. Dmitri Hvorostovsky, 1962 im sibirischen Krasnojarsk geboren, brauchte genau zwei internationale Wettbewerbe, um von der Provinz auf die Weltbühne zu springen: 1987 gewann er den ersten Preis der Glinka-Competition, 1989 dann den BBC Cardiff Singer of the World – und schlug dabei im Finale den walisischen Bassbariton Bryn Terfel, der zuvor als Favorit gehandelt worden war.</p>
+          <p class="vb-intro">Der <strong>Gepard</strong> ist die tierische Entsprechung der sozialen Drei – schnell, auffällig, gebaut für den einen entscheidenden Moment, in dem alle Blicke auf ihn gerichtet sind. Dmitri Hvorostovsky, 1962 im sibirischen Krasnojarsk geboren, brauchte genau zwei internationale Wettbewerbe, um von der Provinz auf die Weltbühne zu springen: 1987 gewann er den ersten Preis der Glinka-Competition, 1989 dann den BBC Cardiff Singer of the World – und schlug dabei im Finale den walisischen Bassbariton Bryn Terfel, der zuvor als Favorit gehandelt worden war.</p>
           <p class="vb-intro">Danach folgten binnen weniger Jahre Auftritte an praktisch jedem großen Opernhaus der Welt. Der Gepard wartet nicht lange auf seine Chance – er ergreift sie, sobald sie sich zeigt, und verwandelt einen einzigen gewonnenen Wettbewerb in eine jahrzehntelange internationale Karriere.</p>
         </blockquote>
 
@@ -2449,7 +2449,7 @@ export function michaelMinaPortraitPage() {
 
         <h2 class="vb-section">1. Der Waschbär</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – pragmatisch, anpassungsfähig, mit einem untrüglichen Gespür dafür, was tatsächlich funktioniert. Michael Mina wurde 1969 in Kairo geboren und wuchs im ländlichen Ellensburg, Washington, auf – als Kind ägyptischer Einwanderer in einer Kleinstadt, die mit Spitzenküche wenig zu tun hatte. Mit 16 Jahren führte er, als sein Arbeitgeber einen Herzinfarkt erlitt, für Wochen eigenständig ein Restaurant – eine frühe Konfrontation mit Verantwortung, lange bevor daraus ein Beruf wurde.</p>
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Wappentier der selbsterhaltenden Drei – pragmatisch, anpassungsfähig, mit einem untrüglichen Gespür dafür, was tatsächlich funktioniert. Michael Mina wurde 1969 in Kairo geboren und wuchs im ländlichen Ellensburg, Washington, auf – als Kind ägyptischer Einwanderer in einer Kleinstadt, die mit Spitzenküche wenig zu tun hatte. Mit 16 Jahren führte er, als sein Arbeitgeber einen Herzinfarkt erlitt, für Wochen eigenständig ein Restaurant – eine frühe Konfrontation mit Verantwortung, lange bevor daraus ein Beruf wurde.</p>
           <p class="vb-intro">Diese Mischung aus unauffälliger Herkunft und früh bewiesener praktischer Tüchtigkeit ist reine SE3-Handschrift: kein Senkrechtstart durch Talent-Show oder Familienname, sondern der geduldige Beweis, dass man anpacken kann, wenn es darauf ankommt.</p>
         </blockquote>
 
@@ -2725,7 +2725,7 @@ export function hallaTomasdottirPortraitPage() {
 
         <h2 class="vb-section">1. Der Büffel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Büffel</strong> ist das Tier des sozialen Typs 9 &ndash; kein Einzelgänger, sondern ein Herdentier, dessen Identität sich aus der Zugehörigkeit zu einer größeren Gemeinschaft speist, nicht aus individueller Profilierung. Der Büffel führt nicht durch Befehl oder Lautstärke, sondern durch ruhige, vertrauenerweckende Präsenz, der andere sich von selbst anschließen. Halla Tómasdóttir, am 11. Oktober 1968 in Reykjavík geboren und seit dem 1. August 2024 Präsidentin von Island, verkörpert dieses Bild in einem Land, dessen politische Kultur gerade in den letzten Jahren zunehmend gespalten war &ndash; sie trat nicht an, um eine Seite zu vertreten, sondern um das Land wieder zusammenzuführen.</p>
+          <p class="vb-intro">Der <strong>Büffel</strong> ist die tierische Entsprechung des sozialen Typs 9 &ndash; kein Einzelgänger, sondern ein Herdentier, dessen Identität sich aus der Zugehörigkeit zu einer größeren Gemeinschaft speist, nicht aus individueller Profilierung. Der Büffel führt nicht durch Befehl oder Lautstärke, sondern durch ruhige, vertrauenerweckende Präsenz, der andere sich von selbst anschließen. Halla Tómasdóttir, am 11. Oktober 1968 in Reykjavík geboren und seit dem 1. August 2024 Präsidentin von Island, verkörpert dieses Bild in einem Land, dessen politische Kultur gerade in den letzten Jahren zunehmend gespalten war &ndash; sie trat nicht an, um eine Seite zu vertreten, sondern um das Land wieder zusammenzuführen.</p>
           <p class="vb-intro">Sie ist erst die zweite Frau im isländischen Präsidentenamt nach Vigdís Finnbogadóttir (1980&ndash;1996) und gewann die Wahl 2024 nach einer ersten erfolglosen Kandidatur 2016, bei der sie Guðni Th. Jóhannesson unterlag. Zwischen beiden Kandidaturen liegt eine jahrzehntelange Laufbahn, die durchgängig auf Brückenbau statt auf Konfrontation setzte.</p>
         </blockquote>
 

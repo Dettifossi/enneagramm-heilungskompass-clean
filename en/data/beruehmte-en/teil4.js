@@ -359,7 +359,7 @@ export function clemensArvayPortraitPage() {
 
         <h2 class="vb-section">1. The Dove</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Dove</strong> is the animal of the self-preservation Type 4 &ndash; and it is an animal one easily overlooks. No sharpness, no dominance, no loud presence. The dove moves close to the ground, close to people, close to what grows and breathes. And yet for thousands of years it has carried the deepest messages: peace. Homecoming. The promise that life goes on.</p>
+          <p class="vb-intro">The <strong>Dove</strong> is the emblem of the self-preservation Type 4 &ndash; and it is an animal one easily overlooks. No sharpness, no dominance, no loud presence. The dove moves close to the ground, close to people, close to what grows and breathes. And yet for thousands of years it has carried the deepest messages: peace. Homecoming. The promise that life goes on.</p>
           <p class="vb-intro">Clemens G. Arvay was an Austrian biologist and author who showed a broad public what science and inner longing know in common: that the forest heals. His work &ndash; including <em>The Biophilia Effect</em> and <em>We Can Do Better</em> &ndash; is the work of a dove: no drama, no self-staging, but a message that carries and endures. In 2022 he took his own life. The dove that shows others the way had at times lost its own.</p>
         </blockquote>
 
@@ -422,7 +422,7 @@ export function dieterBohlenPortraitPage() {
 
         <h2 class="vb-section">1. The Peacock</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>peacock</strong> is the animal of the sexual Three &ndash; and it is the only animal that unfolds its most beautiful moment entirely for others. The peacock&apos;s fan is not a private pleasure. It is a performance. A display that says: <em>Look at me. I am the most beautiful thing you will see today.</em> The peacock knows exactly what it is &ndash; and does not hide it.</p>
+          <p class="vb-intro">The <strong>peacock</strong> is the animal counterpart of the sexual Three &ndash; and it is the only animal that unfolds its most beautiful moment entirely for others. The peacock&apos;s fan is not a private pleasure. It is a performance. A display that says: <em>Look at me. I am the most beautiful thing you will see today.</em> The peacock knows exactly what it is &ndash; and does not hide it.</p>
           <p class="vb-intro">Dieter Bohlen has engaged Germany for over four decades with an energy one can love or hate but not ignore. As one half of Modern Talking, he produced with Thomas Anders in the 1980s worldwide hits that are still played today. As a judge on <em>Deutschland sucht den Superstar</em> he shaped television for a decade. As the author of his biography <em>Nichts bleibt für immer</em> he sold millions of copies. The peacock spreads its fan &ndash; and the fan is large.</p>
         </blockquote>
 
@@ -706,7 +706,7 @@ export function heraklitPortraitPage() {
 
         <h2 class="vb-section">1. The Armadillo That Turned Its Back on the Crowd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four &ndash; it stays within reach of community, measures itself against it, and draws its own significance precisely from the contrast to it. Heraclitus was born around 535 BC in Ephesus, into a family with a claim to the city's hereditary kingship &ndash; a dignity that, according to tradition, he ceded to his younger brother in order to devote himself entirely to thought.</p>
+          <p class="vb-intro">The <strong>armadillo</strong> stands as the animal of the social Four &ndash; it stays within reach of community, measures itself against it, and draws its own significance precisely from the contrast to it. Heraclitus was born around 535 BC in Ephesus, into a family with a claim to the city's hereditary kingship &ndash; a dignity that, according to tradition, he ceded to his younger brother in order to devote himself entirely to thought.</p>
           <p class="vb-intro">This turning-away was no quiet retreat into private life. Heraclitus remained oriented toward Ephesus, criticizing his fellow citizens and their politics openly and sharply, while refusing active participation in a public life he considered superficial. Legend has it that he withdrew for a time into the mountains and lived on herbs &ndash; a life at the edge of the community he never fully left, because it remained the resonance chamber against which his thinking sharpened itself.</p>
         </blockquote>
 
@@ -781,7 +781,7 @@ export function isabellaBriggsPortraitPage() {
 
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal that does not assert its territory through volume, but through the sheer consistency with which it learns early where it belongs, and then steadily expands that place. Not an animal of the quick entrance, but one that enters the water at six years old and knows from then on where it belongs.</p>
+          <p class="vb-intro">The <strong>Hippopotamus</strong> stands as the animal of the self-preservation Two &ndash; an animal that does not assert its territory through volume, but through the sheer consistency with which it learns early where it belongs, and then steadily expands that place. Not an animal of the quick entrance, but one that enters the water at six years old and knows from then on where it belongs.</p>
           <p class="vb-intro">Isabella Briggs began acting lessons in early childhood and first appeared professionally on camera at age seven, initially for commercials and print ads. This early, continuous devotion to a single craft, year after year, without a fast breakthrough, is the basic movement of the self-preservation Two: settling where one can be needed and seen, and steadily growing from there.</p>
         </blockquote>
 
@@ -1071,7 +1071,7 @@ export function leonardBernsteinPortraitPage() {
 
         <h2 class="vb-section">1. The Chimpanzee at the Podium</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>chimpanzee</strong> is the animal of the sexual Seven &ndash; playful, socially highly intelligent, always on the lookout for the next intense moment that draws the group under its spell. Few conductors embodied this contagious enthusiasm as physically as Leonard Bernstein: he leapt at the podium, threw himself into the music, and swept the orchestra along in an ecstasy still palpable on recordings today.</p>
+          <p class="vb-intro">The <strong>chimpanzee</strong> is the animal counterpart of the sexual Seven &ndash; playful, socially highly intelligent, always on the lookout for the next intense moment that draws the group under its spell. Few conductors embodied this contagious enthusiasm as physically as Leonard Bernstein: he leapt at the podium, threw himself into the music, and swept the orchestra along in an ecstasy still palpable on recordings today.</p>
           <p class="vb-intro">His breakthrough came almost overnight, on November 14, 1943: when the ailing conductor Bruno Walter fell ill at short notice, the 25-year-old, until then unknown assistant conductor Bernstein stepped in for the New York Philharmonic &ndash; without rehearsal, broadcast live nationwide on radio. The performance became a sensation and made him famous overnight. The chimpanzee does not wait for the perfect opportunity &ndash; it seizes the moment the instant it appears.</p>
         </blockquote>
 
@@ -1139,7 +1139,7 @@ export function magnusCarlsenPortraitPage() {
 
         <h2 class="vb-section">1. The Eagle</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eagle</strong> is the animal of the self-preservation One &ndash; it hunts not with force but with patience and a gaze that catches every detail. It circles for a long time over the field before it strikes, and when it strikes, no second movement is needed.</p>
+          <p class="vb-intro">The <strong>Eagle</strong> is the emblem of the self-preservation One &ndash; it hunts not with force but with patience and a gaze that catches every detail. It circles for a long time over the field before it strikes, and when it strikes, no second movement is needed.</p>
           <p class="vb-intro">The Norwegian chess player Magnus Carlsen has been considered the best chess player in the world for over a decade &ndash; not through spectacular combinations, but through an almost inhuman ability to relentlessly convert minimal, barely visible advantages into winning positions. Opponents often describe games against him as a slow crushing: no single mistake decides the game, but the sum of countless subtle imprecisions that the Eagle registers mercilessly and exploits.</p>
         </blockquote>
 
@@ -1207,7 +1207,7 @@ export function martaManserPortraitPage() {
 
         <h2 class="vb-section">1. The meerkat who decoded the meerkat's early-warning system</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>meerkat</strong> is the animal of the Social Six &ndash; total interconnection, mutual protection, a constant eye on the community, and the obligatory sentinel that warns of danger before it reaches the group. Few researchers embody this principle as directly as Prof. Dr. Marta Manser: since the 1990s she has studied meerkats' social life in the Kalahari and now directs the Kalahari Research Centre &ndash; an institution itself built on decades of collective teamwork.</p>
+          <p class="vb-intro">The <strong>meerkat</strong> is the animal counterpart of the Social Six &ndash; total interconnection, mutual protection, a constant eye on the community, and the obligatory sentinel that warns of danger before it reaches the group. Few researchers embody this principle as directly as Prof. Dr. Marta Manser: since the 1990s she has studied meerkats' social life in the Kalahari and now directs the Kalahari Research Centre &ndash; an institution itself built on decades of collective teamwork.</p>
           <p class="vb-intro">She became world-famous for demonstrating that meerkats possess a highly complex alarm system: distinct calls for different predators &ndash; raptors, snakes, ground predators &ndash; that function almost like a primitive language. Telling, too, is the title of one of her best-known public lectures: "Teamwork in the Savanna" &ndash; she consistently frames her own research subject as a group achievement, not an individual discovery.</p>
         </blockquote>
 
@@ -2362,7 +2362,7 @@ export function floydMayweatherPortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever Who Called Himself "Money"</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>golden retriever</strong> is the animal of the social Two: warm, proud, oriented toward connection — an animal that doesn't just receive affection but actively organizes it. Floyd Mayweather Jr. was born in 1977 in Grand Rapids, Michigan, into a childhood shaped by poverty and family instability: his mother struggled with drug dependency, and his father and trainer, Floyd Mayweather Sr., spent five years in prison for drug trafficking. Raised between his mother and grandmother, it was his grandmother who actively supported his early passion for boxing.</p>
+          <p class="vb-intro">The <strong>golden retriever</strong> is the animal counterpart of the social Two: warm, proud, oriented toward connection — an animal that doesn't just receive affection but actively organizes it. Floyd Mayweather Jr. was born in 1977 in Grand Rapids, Michigan, into a childhood shaped by poverty and family instability: his mother struggled with drug dependency, and his father and trainer, Floyd Mayweather Sr., spent five years in prison for drug trafficking. Raised between his mother and grandmother, it was his grandmother who actively supported his early passion for boxing.</p>
           <p class="vb-intro">With 50 wins in 50 professional fights across five weight classes, he ended his career undefeated — one of the rarest records in the history of boxing. But the name under which he became world-famous wasn't "the undefeated one" — it was "Money Mayweather," a self-chosen brand aimed from the start at relationship with the audience, not just athletic achievement.</p>
         </blockquote>
 
@@ -2497,7 +2497,7 @@ export function ursulaLyonPortraitPage() {
 
         <h2 class="vb-section">1. The eagle that rose higher with the years</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>eagle</strong> is the animal of the self-preservation One: a creature that observes long and patiently, allocates its strength carefully and reaches its heights not through noise but through steadiness. Ursula Lyon, born in Cologne in 1928 as Ursula Hülsemann, grew up in the Bergisches Land, moved to Hamburg at the age of ten and spent the war years with her grandparents before taking her Abitur (school-leaving exam) in Osnabrück in 1947. Her wish to study medicine and become a pediatrician could not be realized; she became a nurse instead and later trained further in massage and therapeutic gymnastics – a path that stayed with the care of people all her life.</p>
+          <p class="vb-intro">The <strong>eagle</strong> is the animal counterpart of the self-preservation One: a creature that observes long and patiently, allocates its strength carefully and reaches its heights not through noise but through steadiness. Ursula Lyon, born in Cologne in 1928 as Ursula Hülsemann, grew up in the Bergisches Land, moved to Hamburg at the age of ten and spent the war years with her grandparents before taking her Abitur (school-leaving exam) in Osnabrück in 1947. Her wish to study medicine and become a pediatrician could not be realized; she became a nurse instead and later trained further in massage and therapeutic gymnastics – a path that stayed with the care of people all her life.</p>
           <p class="vb-intro">From 1952 to 1964 she lived in São Paulo, Brazil, where she married the Austrian-American jurist Jesse Lyon and had two daughters; it was there that she also came to know yoga. After returning to Germany she gave yoga classes, first in small private groups, later at adult education centers, and trained further in autogenic training. In the early 1980s she moved to Vienna with her husband, where she lives and teaches.</p>
         </blockquote>
 
