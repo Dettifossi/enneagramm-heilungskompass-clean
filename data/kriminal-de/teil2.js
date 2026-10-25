@@ -3706,7 +3706,7 @@ export function tedBundyPortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Eins: Moral als Lebensaufgabe</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> ist in der Enneagramm-Tradition der Subtyp, der die eigenen Wertma\xdfst\xe4be nach au\xdfen tr\xe4gt. Naranjo nannte diesen Subtyp <em>Rigidity</em> \u2013 Starrheit. Die SO1 hat eine klare innere Ordnung, wie die Welt zu sein hat, und lebt diese Ordnung sichtbar. Sie ist b\xfcrgerlich korrekt, engagiert, gesellschaftlich pr\xe4sent. Sie will nicht nur selbst richtig handeln \u2013 sie will, dass die Welt nach ihren Grunds\xe4tzen funktioniert.</p>
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> ist in der Enneagramm-Tradition der Subtyp, der die eigenen Wertma\xdfst\xe4be nach au\xdfen tr\xe4gt. Naranjo gab diesem Subtyp den Namen <em>Rigidity</em> \u2013 Starrheit. Die SO1 hat eine klare innere Ordnung, wie die Welt zu sein hat, und lebt diese Ordnung sichtbar. Sie ist b\xfcrgerlich korrekt, engagiert, gesellschaftlich pr\xe4sent. Sie will nicht nur selbst richtig handeln \u2013 sie will, dass die Welt nach ihren Grunds\xe4tzen funktioniert.</p>
           <p class="vb-intro">Ted Bundy war Jurastudent, Mitarbeiter einer Krisenhotline, Aktivist der Republikanischen Partei. Er las Kindern vor. Man traute ihm eine gl\u00e4nzende Karriere zu. Das war keine Verkleidung im Sinne der Drei, kein Image-Management. Das war sein aufrichtiges Selbstbild: <em>Ich bin ein guter Mensch. Ich bin richtig.</em> Die SO1 glaubt ihr eigenes Narrativ \u2013 darin liegt ihre besondere Gef\xe4hrlichkeit.</p>
         </blockquote>
 

@@ -707,7 +707,7 @@ export function franzLisztKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
         <strong>Liszt</strong> ist dem <strong>sexuellen Typ 7 mit Achterflügel</strong>
-        zugeordnet. Naranjo nannte diesen Subtyp <em>Suggestibilität</em>: die vollständige
+        zugeordnet. Dieser Subtyp trägt bei Naranjo den Namen <em>Suggestibilität</em>: die vollständige
         Hingabe an das, was begeistert, ohne Vorbehalt oder Bremse. Der Achterflügel bringt die
         Bereitschaft zum offenen Kampf statt zum Ausweichen hinzu. Genau diese Maßlosigkeit –
         die Leidenschaft der Sieben – bestimmte auch, wie Liszt mit seiner eigenen,
@@ -1091,7 +1091,7 @@ export function goldaMeirKrankheitsportraetPage() {
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
         <strong>Meir</strong> ist der <strong>selbsterhaltenden Acht mit Neunerflügel</strong>
         zugeordnet – demselben Subtyp wie <a href="javascript:void(0)" data-route="beruehmte-winston-churchill">Winston Churchill</a>
-        in diesem Kompass. Naranjo nannte diesen Subtyp <em>Satisfacción</em>: Sicherheit
+        in diesem Kompass. Naranjo gab diesem Subtyp den Namen <em>Satisfacción</em>: Sicherheit
         entsteht durch kompromisslose Verteidigung des eigenen Territoriums und die Weigerung,
         Schwäche zu zeigen. Der Neunerflügel bringt Ausdauer und die Fähigkeit hinzu, eine
         Position über Jahre zu halten, ohne sie vorschnell aufzugeben – bei Meir auch im
@@ -1796,7 +1796,7 @@ export function klausKinskiKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
         <strong>Kinski</strong> ist dem <strong>sexuellen Typ 1 mit Neunerflügel</strong>
-        zugeordnet, dem Kontratyp der Eins. Naranjo nannte diesen Subtyp <em>Inbrunst</em>:
+        zugeordnet, dem Kontratyp der Eins. Bei Naranjo heißt dieser Subtyp <em>Inbrunst</em>:
         eine ungefilterte, kompromisslose moralische Energie, die alle sozialen Filter
         durchbricht. Genau diese schrankenlose Intensität, verbunden mit der Beharrlichkeit
         des Neunerflügels, zieht sich als Muster durch seine gesamte, teils tragische

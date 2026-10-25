@@ -23,7 +23,7 @@ export function lewisHowesPortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Zwei: Bedeutung durch Nähe zu den Bedeutenden</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> sucht ihren Platz nicht in der einen exklusiven Beziehung, sondern in der Mitte eines großen Netzwerks – Naranjo nannte diesen Subtyp <em>Ambition</em>: Bedeutung wird dadurch gesichert, dass man sich unentbehrlich für viele macht, oft gerade durch die Nähe zu einflussreichen oder erfolgreichen Menschen. Howes' Lebenswerk ist im Kern genau das: 2013 startete er den Podcast <em>The School of Greatness</em>, der inzwischen über 500 Millionen Downloads verzeichnet – kein Werk der Selbstdarstellung, sondern über mehr als tausend Episoden hinweg ein systematischer Aufbau persönlicher Beziehungen zu Sportlern, Wissenschaftlern und Unternehmern, deren Vertrauen er gewinnt, bevor sie ihre eigentliche Geschichte erzählen.</p>
+          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> sucht ihren Platz nicht in der einen exklusiven Beziehung, sondern in der Mitte eines großen Netzwerks – Dieser Subtyp trägt bei Naranjo den Namen <em>Ambition</em>: Bedeutung wird dadurch gesichert, dass man sich unentbehrlich für viele macht, oft gerade durch die Nähe zu einflussreichen oder erfolgreichen Menschen. Howes' Lebenswerk ist im Kern genau das: 2013 startete er den Podcast <em>The School of Greatness</em>, der inzwischen über 500 Millionen Downloads verzeichnet – kein Werk der Selbstdarstellung, sondern über mehr als tausend Episoden hinweg ein systematischer Aufbau persönlicher Beziehungen zu Sportlern, Wissenschaftlern und Unternehmern, deren Vertrauen er gewinnt, bevor sie ihre eigentliche Geschichte erzählen.</p>
           <p class="vb-intro">2011 wurde er vom Weißen Haus unter Präsident Obama als einer der 100 vielversprechendsten Unternehmer unter 30 Jahren ausgezeichnet, 2018 mit dem Shorty Award als bester Podcast-Host. Beide Auszeichnungen würdigen letztlich dasselbe Kapital: nicht ein einzelnes Produkt oder eine einzelne Leistung, sondern ein über Jahre aufgebautes, enorm dichtes Netz an persönlichen Beziehungen, das sich zu Reichweite und Einfluss summiert – exakt das Muster, das dieser Kompass bereits bei Caesar, Napoleon oder Disraeli als ›persönliche Nähe als Führungsinstrument‹ beschreibt.</p>
         </blockquote>
 
@@ -41,7 +41,7 @@ export function lewisHowesPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten der sozialen Zwei</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Im Licht zeigt sich bei Howes die Fähigkeit, aus einem persönlichen Tiefpunkt heraus ein Netzwerk von historischer Reichweite aufzubauen – nicht durch Isolation und stille Kompetenz, sondern durch beharrliches, warmes Investieren in unzählige einzelne Beziehungen, die sich am Ende zu enormem kollektivem Einfluss summierten.</p>
+          <p class="vb-intro">Positiv zeigt sich bei Howes die Fähigkeit, aus einem persönlichen Tiefpunkt heraus ein Netzwerk von historischer Reichweite aufzubauen – nicht durch Isolation und stille Kompetenz, sondern durch beharrliches, warmes Investieren in unzählige einzelne Beziehungen, die sich am Ende zu enormem kollektivem Einfluss summierten.</p>
           <p class="vb-intro">Der Antrieb der Zwei ist der <strong>Stolz</strong> – die Überzeugung, selbst keine Bedürftigkeit zu haben, sondern nur für andere da zu sein, während die eigene Bedeutung genau daraus gespeist wird, gebraucht und bewundert zu werden. Dass Howes' eigene Verletzlichkeit – der Missbrauch in der Kindheit – erst öffentlich wurde, als sein Netzwerk und seine Reichweite bereits enorm waren, zeigt diesen Stolz in seiner typischen Form: Die eigene Bedürftigkeit darf erst sichtbar werden, wenn sie in eine Botschaft für andere übersetzt werden kann, die dem Ansehen nicht schadet, sondern es weiter trägt.</p>
         </blockquote>
 
@@ -151,7 +151,7 @@ export function barackObamaPortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Zwei: Hilfe als gesellschaftliche Kraft</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> ist in der Enneagramm-Tradition der Subtyp, der seine Energie der Zwei nicht in pers\u00f6nliche Beziehungen oder k\u00f6rperliche F\u00fcrsorge lenkt, sondern in gesellschaftliche Wirksamkeit. Die SO2 will nicht nur jemandem helfen &ndash; sie will Systeme ver\u00e4ndern, Strukturen gestalten, die Bedingungen verbessern, unter denen Menschen leben. Naranjo nannte diesen Subtyp <em>Ambition</em>: nicht Ehrgeiz um seiner selbst willen, sondern der Antrieb, durch Einfluss und Ansehen mehr f\u00fcr andere tun zu k\u00f6nnen.</p>
+          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> ist in der Enneagramm-Tradition der Subtyp, der seine Energie der Zwei nicht in pers\u00f6nliche Beziehungen oder k\u00f6rperliche F\u00fcrsorge lenkt, sondern in gesellschaftliche Wirksamkeit. Die SO2 will nicht nur jemandem helfen &ndash; sie will Systeme ver\u00e4ndern, Strukturen gestalten, die Bedingungen verbessern, unter denen Menschen leben. Naranjo gab diesem Subtyp den Namen <em>Ambition</em>: nicht Ehrgeiz um seiner selbst willen, sondern der Antrieb, durch Einfluss und Ansehen mehr f\u00fcr andere tun zu k\u00f6nnen.</p>
           <p class="vb-intro">Barack Obamas politischer Weg ist ohne diesen Blickwinkel nicht vollst\u00e4ndig zu verstehen. Als Community Organizer in Chicago arbeitete er mit den \u00e4rmsten Vierteln der Stadt &ndash; nicht aus der Distanz, sondern direkt, von Haus zu Haus. Der Weg ins Wei\u00dfe Haus war kein Aufstieg um des Aufstiegs willen. Er war &ndash; zumindest in seiner inneren Logik &ndash; die gr\u00f6\u00dftm\u00f6gliche Plattform f\u00fcr das, was er tun wollte: Menschen eine Stimme geben, die keine hatten.</p>
           <p class="vb-intro">Der Wahlkampf 2008 mit dem Slogan <em>Yes We Can</em> zeigte die SO2 in ihrer klarsten Ausprägung: keine Botschaft \u00fcber Obama, sondern eine Botschaft \u00fcber das, was wir gemeinsam m\u00f6glich machen k\u00f6nnen. Der Golden Retriever bellt nicht: <em>Schaut mich an.</em> Er l\u00e4uft voraus und schaut zur\u00fcck: <em>Kommt ihr mit?</em></p>
         </blockquote>
@@ -223,7 +223,7 @@ export function budSpencerPortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Acht: Solidarit\u00e4t</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> setzt ihre Kraft in den Dienst der Gemeinschaft &ndash; der Familie, der Freunde, der Schwachen. Naranjo nannte diesen Subtyp <em>Solidarit\u00e4t</em>: Die SO8 k\u00e4mpft nicht f\u00fcr sich selbst, sondern f\u00fcr andere. Sie ist der nat\u00fcrliche Besch\u00fctzer, die Schutzhand \u00fcber denen, die kleiner sind.</p>
+          <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> setzt ihre Kraft in den Dienst der Gemeinschaft &ndash; der Familie, der Freunde, der Schwachen. Dieser Subtyp trägt bei Naranjo den Namen <em>Solidarit\u00e4t</em>: Die SO8 k\u00e4mpft nicht f\u00fcr sich selbst, sondern f\u00fcr andere. Sie ist der nat\u00fcrliche Besch\u00fctzer, die Schutzhand \u00fcber denen, die kleiner sind.</p>
           <p class="vb-intro">Carlo Pedersoli &ndash; so sein b\u00fcrgerlicher Name &ndash; war Jurist, Olympia-Schwimmer, Unternehmer und Schauspieler. Aber was ihn am meisten definierte, war seine Rolle als Vater und Freund. Er heiratete 1960 Maria Amato, bekam vier Kinder, blieb ein Leben lang mit Terence Hill befreundet &ndash; 50 Jahre Filmpartnerschaft, 50 Jahre echte Freundschaft. Die SO8 w\u00e4hlt ihr Rudel und bleibt. F\u00fcr immer.</p>
         </blockquote>
 
@@ -242,7 +242,7 @@ export function budSpencerPortraitPage() {
         <h2 class="vb-section">5. Das Geschenk: Die Stille, die tr\u00e4gt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Bud Spencer hinterlassen hat, ist eine Qualit\u00e4t, die selten geworden ist: die Stille des Starken. Er hat bewiesen, dass man laut sein kann, ohne zu schreien &ndash; dass Gr\u00f6\u00dfe nicht aus lautstarkem Auftreten kommt, sondern aus dem, was man ist, wenn niemand zuschaut.</p>
-          <p class="vb-intro">Generationen von Kindern in Deutschland, \u00d6sterreich und der Schweiz sind mit ihm aufgewachsen &ndash; und was sie geliebt haben, war nicht der Schauspieler, sondern den Menschen dahinter: gro\u00df, warm, zuverl\u00e4ssig. Den L\u00f6wen, der immer da ist. Das ist das Geschenk der SO8w9: Die St\u00e4rke, die nicht dominieren will &ndash; sondern einfach tr\u00e4gt.</p>
+          <p class="vb-intro">Generationen von Kindern in Deutschland, \u00d6sterreich und der Schweiz sind mit ihm aufgewachsen &ndash; und was sie geliebt haben, war nicht der Schauspieler, sondern den Menschen dahinter: gro\u00df, warm, zuverl\u00e4ssig. Den L\u00f6wen, der immer da ist. Darin liegt das Geschenk der SO8w9: Die St\u00e4rke, die nicht dominieren will &ndash; sondern einfach tr\u00e4gt.</p>
         </blockquote>
 
       </div>
@@ -563,7 +563,7 @@ export function giacomoPucciniPortraitPage() {
 
         <h2 class="vb-section">2. Die sexuelle Acht: Besitz und Hingabe ohne Vorbehalt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Acht (SX8)</strong> nennt Naranjo <em>Besitz</em> – auf Englisch <em>Possession</em>: die vollständige Begegnung, die totale Verbindung, der Einfluss, der nicht verhandelbar ist. Was die SX8 liebt, liebt sie mit ihrer ganzen Person – und genau das ist der Kern von Puccinis Musik. Seine großen Frauenfiguren – Mimì, Tosca, Cio-Cio-San – lieben, leiden und sterben nicht gemäßigt, sondern total. Puccini komponierte Liebe und Tod nie als Andeutung, sondern immer als Vollzug.</p>
+          <p class="vb-intro">Naranjo gibt der <strong>sexuellen Acht (SX8)</strong> den Namen <em>Besitz</em> – auf Englisch <em>Possession</em>: die vollständige Begegnung, die totale Verbindung, der Einfluss, der nicht verhandelbar ist. Was die SX8 liebt, liebt sie mit ihrer ganzen Person – und genau das ist der Kern von Puccinis Musik. Seine großen Frauenfiguren – Mimì, Tosca, Cio-Cio-San – lieben, leiden und sterben nicht gemäßigt, sondern total. Puccini komponierte Liebe und Tod nie als Andeutung, sondern immer als Vollzug.</p>
           <p class="vb-intro">Dasselbe Muster prägte sein Privatleben. Seine Beziehung zu Elvira Gemignani begann als offener Skandal – sie war zu dieser Zeit noch verheiratet, und die Provinzstadt Lucca reagierte mit Empörung. Puccini kümmerte sich wenig darum. Als 1908 seine junge Hausangestellte Doria Manfredi von der eifersüchtigen Elvira zu Unrecht der Untreue mit ihm bezichtigt wurde und sich daraufhin das Leben nahm, erwies die Autopsie ihre Unschuld – eine Tragödie, die zeigt, wie sehr Besitzanspruch und Eifersucht in Puccinis unmittelbarem Umfeld zur zerstörerischen Kraft wurden.</p>
         </blockquote>
 
@@ -649,7 +649,7 @@ export function heatherThomasPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten der sexuellen Sechs</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Im Licht zeigt sich bei Thomas die Fähigkeit, aus einer anfangs rein äußerlich definierten Rolle heraus eine eigenständige, kritische Stimme zu entwickeln – vom Pin-up zur Drehbuchautorin und politischen Kommentatorin ist ein Weg, der Mut zur Neuerfindung verlangt, getragen vom beweglichen Siebenerflügel.</p>
+          <p class="vb-intro">Positiv zeigt sich bei Thomas die Fähigkeit, aus einer anfangs rein äußerlich definierten Rolle heraus eine eigenständige, kritische Stimme zu entwickeln – vom Pin-up zur Drehbuchautorin und politischen Kommentatorin ist ein Weg, der Mut zur Neuerfindung verlangt, getragen vom beweglichen Siebenerflügel.</p>
           <p class="vb-intro">Im Schatten steht die jahrelang verdeckte Essstörung und der spätere Bedarf an kosmetischer Korrektur – ein Muster, in dem die SX6 ihre Angst vor Unzulänglichkeit so lange durch äußere Perfektion zu kompensieren versucht, bis der Preis dafür zu hoch wird und offen ausgesprochen werden muss.</p>
         </blockquote>
 
@@ -829,7 +829,7 @@ export function jordanPetersonPortraitPage() {
 
         <h2 class="vb-section">2. Der soziale Typ 1: Vollkommenheit als Vorbild</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>soziale Typ 1 (SO1)</strong> tr\u00e4gt seine Leidenschaft des Zorns nicht als pers\u00f6nlichen Groll, sondern als gesellschaftliches Anliegen. Naranjo nannte diesen Subtyp <em>Unangepasstheit</em>: Die SO1 kann sich nicht damit abfinden, wie die Dinge sind &ndash; weil sie ein inneres Bild davon hat, wie sie sein sollten. Dieses Bild ist nicht verhandelbar. Es ist moralisch. Es ist ein Prinzip.</p>
+          <p class="vb-intro">Der <strong>soziale Typ 1 (SO1)</strong> tr\u00e4gt seine Leidenschaft des Zorns nicht als pers\u00f6nlichen Groll, sondern als gesellschaftliches Anliegen. Naranjo gab diesem Subtyp den Namen <em>Unangepasstheit</em>: Die SO1 kann sich nicht damit abfinden, wie die Dinge sind &ndash; weil sie ein inneres Bild davon hat, wie sie sein sollten. Dieses Bild ist nicht verhandelbar. Es ist moralisch. Es ist ein Prinzip.</p>
           <p class="vb-intro">Bei Peterson zeigt sich das in seiner zentralen Botschaft: <em>Bring Ordnung in dein Leben. \u00dcbernimm Verantwortung. R\u00e4um dein Zimmer auf.</em> Diese S\u00e4tze klingen einfach &ndash; aber hinter ihnen steckt eine tiefe \u00dcberzeugung: dass Chaos nicht nur unbequem ist, sondern gef\u00e4hrlich. Peterson hat dieses Chaos pers\u00f6nlich erlebt &ndash; in der schweren Erkrankung seiner Tochter, in seiner eigenen Abh\u00e4ngigkeit von Benzodiazepinen, in Jahren klinischer Arbeit mit Menschen am Rand. Der SO1 predigt nicht aus der Theorie. Er predigt aus der Erfahrung, was es bedeutet, wenn Ordnung fehlt.</p>
           <p class="vb-intro">Die Kritik an ihm greift genau diesen Punkt an: dass seine Ordnung zu eng ist, zu patriarchal, zu sehr auf westliche, konservative Werte verengt. Das ist die Schattenseite der SO1: wenn die Weigerung, sich dem Falschen anzupassen, zur Nichtakzeptanz des Anderen wird \u2013 wenn der Ma\u00dfstab, den man an sich selbst anlegt, zum Urteil \u00fcber alle anderen wird.</p>
         </blockquote>
@@ -1034,7 +1034,7 @@ export function ludwigWittgensteinPortraitPage() {
 
         <h2 class="vb-section">2. Die selbsterhaltende Eins: Askese als Selbstpr\u00fcfung</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> tr\u00e4gt ihren Perfektionsanspruch nicht nach au\u00dfen, sondern nach innen. Naranjo nannte diesen Subtyp <em>Worry</em> \u2013 Besorgnis: die st\u00e4ndige innere Pr\u00fcfung, ob man dem eigenen Ma\u00dfstab wirklich gerecht wird. Diese Besorgnis richtet sich nicht auf andere, sondern gnadenlos auf das eigene Denken, das eigene Verhalten, den eigenen Charakter.</p>
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> tr\u00e4gt ihren Perfektionsanspruch nicht nach au\u00dfen, sondern nach innen. Bei Naranjo heißt dieser Subtyp <em>Worry</em> \u2013 Besorgnis: die st\u00e4ndige innere Pr\u00fcfung, ob man dem eigenen Ma\u00dfstab wirklich gerecht wird. Diese Besorgnis richtet sich nicht auf andere, sondern gnadenlos auf das eigene Denken, das eigene Verhalten, den eigenen Charakter.</p>
           <p class="vb-intro">Wittgenstein lebte dieses Muster in einer Form, die selbst f\u00fcr eine SE1 au\u00dfergew\u00f6hnlich ist. 1913 erbte er ein Verm\u00f6gen, das ihn zu einem der reichsten jungen M\u00e4nner Europas machte. Nach dem Ersten Weltkrieg, in einer Phase tiefer pers\u00f6nlicher Krise, verschenkte er dieses gesamte Verm\u00f6gen an seine Geschwister \u2013 nicht aus Gro\u00dfz\u00fcgigkeit im gew\u00f6hnlichen Sinn, sondern aus der \u00dcberzeugung, dass Reichtum den eigenen Charakter korrumpiere. Sp\u00e4ter lebte er in m\u00f6glichst kargen Verh\u00e4ltnissen: ein Campingstuhl statt eines Sessels, ein Zimmer fast ohne M\u00f6bel. Die SE1 verzichtet nicht, um zu leiden. Sie verzichtet, weil jeder Komfort, den man sich nicht wirklich verdient hat, als moralischer Makel empfunden wird.</p>
         </blockquote>
 
@@ -1127,7 +1127,7 @@ export function marisaAbelaPortraitPage() {
 
         <h2 class="vb-section">6. Das Geschenk: Verbindung mit Substanz</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Marisa Abela in ihre Arbeit einbringt, ist eine seltene Kombination: die W\u00e4rme, die ein Ensemble zusammenh\u00e4lt, und die Disziplin, die eine Rolle tr\u00e4gt. Das ist das Geschenk der SO2w1 &ndash; ein Golden Retriever, der nicht nur gefallen will, sondern der wei\u00df, dass echte Verbindung nur entsteht, wenn man sich die M\u00fche macht, sie zu verdienen.</p>
+          <p class="vb-intro">Was Marisa Abela in ihre Arbeit einbringt, ist eine seltene Kombination: die W\u00e4rme, die ein Ensemble zusammenh\u00e4lt, und die Disziplin, die eine Rolle tr\u00e4gt. Darin liegt das Geschenk der SO2w1 &ndash; ein Golden Retriever, der nicht nur gefallen will, sondern der wei\u00df, dass echte Verbindung nur entsteht, wenn man sich die M\u00fche macht, sie zu verdienen.</p>
           <p class="vb-intro">In einer Branche, die oft auf Selbstinszenierung setzt, f\u00e4llt Abela durch das Gegenteil auf: durch die Bereitschaft, sich einem Ensemble, einer Figur, einem Anspruch unterzuordnen &ndash; und gerade dadurch zu wachsen. Der Golden Retriever l\u00e4uft nicht voraus, um bewundert zu werden. Er l\u00e4uft, weil er gebraucht wird &ndash; und das reicht ihm.</p>
         </blockquote>
 
@@ -1197,7 +1197,7 @@ export function milowPortraitPage() {
         <h2 class="vb-section">6. Das Geschenk: N\u00e4he ohne L\u00e4rm</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Milow der Musik gegeben hat, ist eine leise, aber best\u00e4ndige Gegenrede zur lauten Selbstinszenierung des Pop-Betriebs: N\u00e4he entsteht nicht durch Reichweite, sondern durch Ehrlichkeit. Ein Song muss nicht schreien, um geh\u00f6rt zu werden &ndash; er muss nur wahr sein.</p>
-          <p class="vb-intro">Das ist das Geschenk der SX2w1: ein Kamel, das nicht die schnellste, sondern die verl\u00e4sslichste Verbindung sucht. Es tr\u00e4gt seine Last mit Sorgfalt, Schritt f\u00fcr Schritt, und kommt genau dort an, wo es gebraucht wird &ndash; im direkten, ungesch\u00f6nten Kontakt zwischen zwei Menschen.</p>
+          <p class="vb-intro">Darin liegt das Geschenk der SX2w1: ein Kamel, das nicht die schnellste, sondern die verl\u00e4sslichste Verbindung sucht. Es tr\u00e4gt seine Last mit Sorgfalt, Schritt f\u00fcr Schritt, und kommt genau dort an, wo es gebraucht wird &ndash; im direkten, ungesch\u00f6nten Kontakt zwischen zwei Menschen.</p>
         </blockquote>
 
       </div>
@@ -1529,7 +1529,7 @@ export function timBendzkoPortraitPage() {
 
         <h2 class="vb-section">2. Die selbsterhaltende Vier: Der Schmerz, der nicht sichtbar ist</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> ist in der Enneagramm-Sprache der Kontratyp der Vier &ndash; das hei\u00dft: Sie zeigt nach au\u00dfen fast das Gegenteil dessen, was man von einer Vier erwartet. Keine Dramatik, kein demonstratives Leiden, keine Selbstinszenierung im gro\u00dfen Stil. Die SE4 erscheint oft heiter, geerdet, verl\u00e4sslich. Was sie innen tr\u00e4gt, bleibt verborgen. Naranjo nannte diesen Subtyp <em>Z\u00e4higkeit</em> (engl. <em>Tenacity</em>) &ndash; ein stilles, hartn\u00e4ckiges Durchhalten, eine H\u00e4rte gegen sich selbst: der Antrieb, weiterzumachen, auch wenn es weh tut, ohne dar\u00fcber zu klagen.</p>
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> ist in der Enneagramm-Sprache der Kontratyp der Vier &ndash; das hei\u00dft: Sie zeigt nach au\u00dfen fast das Gegenteil dessen, was man von einer Vier erwartet. Keine Dramatik, kein demonstratives Leiden, keine Selbstinszenierung im gro\u00dfen Stil. Die SE4 erscheint oft heiter, geerdet, verl\u00e4sslich. Was sie innen tr\u00e4gt, bleibt verborgen. Naranjo gab diesem Subtyp den Namen <em>Z\u00e4higkeit</em> (engl. <em>Tenacity</em>) &ndash; ein stilles, hartn\u00e4ckiges Durchhalten, eine H\u00e4rte gegen sich selbst: der Antrieb, weiterzumachen, auch wenn es weh tut, ohne dar\u00fcber zu klagen.</p>
           <p class="vb-intro">Tim Bendzko ist in Interviews selten lamentierend. Er wirkt bodenst\u00e4ndig, fast unauff\u00e4llig &ndash; kein Rockstar-Gehabe, kein Exzess, kein Drama. Und doch sind seine Texte von einer Empfindlichkeit, die nur jemand findet, der das Innere gut kennt. &bdquo;Am seidenen Faden&ldquo; handelt von dem Moment, in dem alles zu kippen droht &ndash; und von dem schmalen Weg zur\u00fcck. Das schreibt keine Sieben, die das Leben feiert. Das schreibt eine Vier, die wei\u00df, wie nah der Boden ist.</p>
           <p class="vb-intro">Der selbsterhaltende Instinkt richtet die Energie nach innen &ndash; auf das eigene Bestehen, auf Stabilit\u00e4t, auf das, was tr\u00e4gt. Das erkl\u00e4rt Bendzkos musikalische Handschrift: keine schnellen Trends, keine Anpassung ans Kommerziellste, kein Formatradio-Opportunismus. Eine Stimme, die bleibt.</p>
         </blockquote>
@@ -1736,7 +1736,7 @@ export function benjaminDisraeliPortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Zwei: Unentbehrlich für die Krone werden</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> richtet die Zuwendung der Zwei nicht auf einzelne Personen, sondern auf die Gemeinschaft als Ganzes. Naranjo nannte diesen Subtyp <em>Ambition</em> – den Drang, durch Wirkung im größeren Feld unentbehrlich zu werden. Bei Disraeli zeigte sich das in einer der bemerkenswertesten Beziehungen der britischen Geschichte: seiner Freundschaft zu Königin Victoria. Wo sein Rivale Gladstone die Königin in steifem Ton wie ein öffentliches Gremium ansprach, schrieb Disraeli ihr persönliche, warmherzige Briefe und besuchte sie, wo es der Etikette nach nicht üblich war.</p>
+          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> richtet die Zuwendung der Zwei nicht auf einzelne Personen, sondern auf die Gemeinschaft als Ganzes. Bei Naranjo heißt dieser Subtyp <em>Ambition</em> – den Drang, durch Wirkung im größeren Feld unentbehrlich zu werden. Bei Disraeli zeigte sich das in einer der bemerkenswertesten Beziehungen der britischen Geschichte: seiner Freundschaft zu Königin Victoria. Wo sein Rivale Gladstone die Königin in steifem Ton wie ein öffentliches Gremium ansprach, schrieb Disraeli ihr persönliche, warmherzige Briefe und besuchte sie, wo es der Etikette nach nicht üblich war.</p>
           <p class="vb-intro">Er ließ sie 1876 offiziell zur Kaiserin von Indien ausrufen – ein Titel, der ihr enorm schmeichelte – und sagte einmal sinngemäß über den Umgang mit Königen: „Jeder mag Schmeichelei, und bei der Königsfamilie sollte man sie mit der Kelle auftragen." Der Golden Retriever legte sich nicht nur zu Füßen der Krone, er machte sich zu ihrem unentbehrlichsten Vertrauten.</p>
         </blockquote>
 
@@ -2237,7 +2237,7 @@ export function dalaiLamaPortraitPage() {
         <h2 class="vb-section">6. Der Büffel, der sich selbst nie in den Mittelpunkt stellte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Heilungsweg der Neun führt von der Selbstvergessenheit <em>Ich zähle nicht, solange die Gemeinschaft harmonisch bleibt</em> zur Erkenntnis <em>Meine eigene Gegenwart hat Gewicht, gerade weil ich sie nicht einfordere.</em> Ein Kind-Oberhaupt, das zum Flüchtling wurde und zur weltweiten Stimme des Mitgefühls, ohne dabei je die eigene Bescheidenheit aufzugeben oder Macht über das eigene Maß hinaus zu behalten &ndash; das ist das bleibende Bild dieser sozialen Neun mit Einserflügel.</p>
-          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-steffi-graf">Steffi Graf</a> (SO9w1) &ndash; auch bei ihr gilt: „Sie macht kein Drama. Sie braucht kein Publikum, um zu wissen, dass sie da ist … Der Büffel beweist nichts. Er ist einfach da – und er gewinnt." Beim Dalai Lama zeigt sich dieselbe stille Selbstverständlichkeit auf einer globalen, geistlichen statt sportlichen Bühne. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-steffi-graf">Porträt zu Steffi Graf</a>.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-steffi-graf">Steffi Graf</a> (SO9w1) &ndash; auch bei ihr gilt: „Sie macht kein Drama. Sie braucht kein Publikum, um zu wissen, dass sie da ist … Der Büffel beweist nichts. Er ist einfach da – und er gewinnt." Beim Dalai Lama zeigt sich dieselbe stille Selbstverständlichkeit auf einer globalen, geistlichen statt sportlichen Bühne. Weiteres im <a href="javascript:void(0)" data-route="beruehmte-steffi-graf">Porträt zu Steffi Graf</a>.</p>
         </blockquote>
 
       </div>
@@ -2307,7 +2307,7 @@ export function indiraGandhiPortraitPage() {
         <h2 class="vb-section">6. Der Waschbär, der 1977 die Wahl verlor und 1980 zurückkehrte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die Heilung der Drei führt von der Überzeugung <em>Ich bin nur wert, was ich leiste und was funktioniert</em> zur Erkenntnis <em>Ich bin wertvoll, unabhängig von meiner Leistung.</em> Gandhis eigener Weg zeigt dabei eine typische Dreier-Anpassungsfähigkeit, die eine echte Acht in dieser Form kaum gezeigt hätte: Nach der Wahlniederlage 1977 zog sie sich nicht trotzig zurück, sondern organisierte über geschickte Image-Arbeit ihr politisches Comeback &ndash; 1980 wurde sie erneut Premierministerin. Kein sturer Kampf bis zum bitteren Ende, sondern eine erneute Anpassung an veränderte Umstände, um die eigene Wirksamkeit wiederherzustellen.</p>
-          <p class="vb-intro">Ein aufschlussreicher Vergleich innerhalb desselben Subtyps ist <a href="javascript:void(0)" data-route="beruehmte-rosa-parks">Rosa Parks</a> (SE3w4): Auch bei ihr zeigt sich dieselbe Kombination aus jahrzehntelanger, unauffälliger Kompetenzarbeit im Hintergrund und einem plötzlichen, historischen Wendepunkt, ohne dass je die Rolle der lauten Ikone gesucht worden wäre. Bei Gandhi vollzog sich dieselbe Grundstruktur auf der Bühne der Weltpolitik statt der Bürgerrechtsbewegung. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-rosa-parks">Porträt zu Rosa Parks</a>. 1984 wurde Indira Gandhi von zwei ihrer eigenen Sikh-Leibwächter erschossen &ndash; eine Vergeltung für die von ihr angeordnete Erstürmung des Goldenen Tempels in Amritsar wenige Monate zuvor. Bis zuletzt blieb sie im Amt, funktionsfähig, kontrolliert &ndash; der Waschbär, der sein Territorium bis zum letzten Tag nicht verließ.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich innerhalb desselben Subtyps ist <a href="javascript:void(0)" data-route="beruehmte-rosa-parks">Rosa Parks</a> (SE3w4): Auch bei ihr zeigt sich dieselbe Kombination aus jahrzehntelanger, unauffälliger Kompetenzarbeit im Hintergrund und einem plötzlichen, historischen Wendepunkt, ohne dass je die Rolle der lauten Ikone gesucht worden wäre. Bei Gandhi vollzog sich dieselbe Grundstruktur auf der Bühne der Weltpolitik statt der Bürgerrechtsbewegung. Weiteres im <a href="javascript:void(0)" data-route="beruehmte-rosa-parks">Porträt zu Rosa Parks</a>. 1984 wurde Indira Gandhi von zwei ihrer eigenen Sikh-Leibwächter erschossen &ndash; eine Vergeltung für die von ihr angeordnete Erstürmung des Goldenen Tempels in Amritsar wenige Monate zuvor. Bis zuletzt blieb sie im Amt, funktionsfähig, kontrolliert &ndash; der Waschbär, der sein Territorium bis zum letzten Tag nicht verließ.</p>
         </blockquote>
 
       </div>
@@ -2366,7 +2366,7 @@ export function georgeVithoulkasPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Im Licht zeigt sich bei Vithoulkas die SO3w4 als jemand, der öffentliche Anerkennung nicht auf Kosten fachlicher Tiefe suchte, sondern beides über Jahrzehnte konsequent miteinander verband – internationale Sichtbarkeit für ein Werk, das gleichzeitig hochgradig persönlich und individuell durchdrungen blieb.</p>
+          <p class="vb-intro">Als Stärke zeigt sich bei Vithoulkas die SO3w4 als jemand, der öffentliche Anerkennung nicht auf Kosten fachlicher Tiefe suchte, sondern beides über Jahrzehnte konsequent miteinander verband – internationale Sichtbarkeit für ein Werk, das gleichzeitig hochgradig persönlich und individuell durchdrungen blieb.</p>
           <p class="vb-intro">Der Schatten der Drei zeigt sich darin, dass ein derart stark auf die eigene Theorie und Person zentriertes Lebenswerk auch das Risiko birgt, Kritik oder alternative Sichtweisen innerhalb der eigenen Disziplin schwerer zuzulassen – ein Muster, das bei Begründern eines eigenen, umfassenden Theoriegebäudes nicht selten auftritt, wenn die eigene Deutungshoheit zum zentralen Teil des öffentlichen Bildes wird.</p>
         </blockquote>
 
@@ -2564,7 +2564,7 @@ export function carlXVIGustafPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten der Selbsterhaltungs-Eins</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Im Licht zeigt sich bei Carl Gustaf eine über fünfzig Jahre durchgehaltene, nie öffentlich infrage gestellte Pflichtauffassung – ein Amt, das er trotz persönlicher Schwächen (der verschwiegenen Legasthenie) und trotz öffentlicher Krisen (dem Skandal 2010) ohne Unterbrechung weiterführte, kombiniert mit einem fachlich fundierten, über Jahrzehnte beständigen Naturschutz-Engagement.</p>
+          <p class="vb-intro">Als Stärke zeigt sich bei Carl Gustaf eine über fünfzig Jahre durchgehaltene, nie öffentlich infrage gestellte Pflichtauffassung – ein Amt, das er trotz persönlicher Schwächen (der verschwiegenen Legasthenie) und trotz öffentlicher Krisen (dem Skandal 2010) ohne Unterbrechung weiterführte, kombiniert mit einem fachlich fundierten, über Jahrzehnte beständigen Naturschutz-Engagement.</p>
           <p class="vb-intro">Das Schicksalsmuster der Eins ist der <strong>Zorn</strong> – bei der SE1w9 fast vollständig nach innen gerichtet und durch den Neunerflügel zusätzlich gedämpft, bis er kaum noch sichtbar wird. Der Schatten zeigt sich darin, dass dieselbe Konfliktvermeidung, die ihn durch den Skandal 2010 trug, auch dazu führte, dass berechtigte Fragen – etwa zu seiner angeblichen Nähe zu zweifelhaften Kreisen – nie wirklich öffentlich geklärt wurden, weil er sie lieber aussaß, als sie offensiv zu beantworten.</p>
         </blockquote>
 
@@ -2712,7 +2712,7 @@ export function hansSiglPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der sozialen Neun mit Einserflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt in der Fähigkeit, Menschen zusammenzuhalten: im Ensemble, in der Serienfamilie, am Abend vor einem großen Publikum. Die Neun im sozialen Subtyp wirkt in ihrer Gruppe wie ein ruhiger Mittelpunkt, und der Einserflügel gibt dieser Ruhe Ordnung und einen klaren Maßstab.</p>
+          <p class="vb-intro">Die Stärke liegt in der Fähigkeit, Menschen zusammenzuhalten: im Ensemble, in der Serienfamilie, am Abend vor einem großen Publikum. Die Neun im sozialen Subtyp wirkt in ihrer Gruppe wie ein ruhiger Mittelpunkt, und der Einserflügel gibt dieser Ruhe Ordnung und einen klaren Maßstab.</p>
           <p class="vb-intro">Der Schatten der Neun liegt dort, wo das Vermitteln zur Gewohnheit wird, die die eigene Position verdeckt. Wer als Kind den Ausgleich zwischen den Eltern übernimmt, lernt, dass die eigenen Bedürfnisse zurückstehen. Das kann Jahre dauern, bis ein Punkt erreicht ist, an dem etwas durchbricht, und dann fällt die Entscheidung oft kompromisslos aus. Nach den Presseberichten zu ›Hotel Matze‹ brach Sigl mit etwa 30 Jahren den Kontakt zu seinen Eltern bewusst ab; beide Eltern sind inzwischen verstorben. Das passt zu diesem Muster, die Angaben stammen aber aus Boulevard- und Regionalmedien und sind weniger gesichert als der Rest.</p>
         </blockquote>
 
@@ -2786,7 +2786,7 @@ export function heleneSpillingOedegaardPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der sexuellen Sieben mit Sechserflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt in der Disziplin, die aus Begeisterung Leistung macht, und in der Wärme, mit der sie sich einsetzt. Der Spendenaufruf mit den Häkelanleitungen für die Kinderkrebsvereinigung ist ein Beispiel.</p>
+          <p class="vb-intro">Das Licht zeigt sich in der Disziplin, die aus Begeisterung Leistung macht, und in der Wärme, mit der sie sich einsetzt. Der Spendenaufruf mit den Häkelanleitungen für die Kinderkrebsvereinigung ist ein Beispiel.</p>
           <p class="vb-intro">Der Schatten ist der Preis der Aufmerksamkeit. Ein Interview vom Oktober 2026 kündigt im Vorspann an, sie spreche über Familienleben und Mutterrolle und über ›die schwierige Zeit‹; der Vorspann hält fest: Sie lebe ein Leben, von dem viele nur träumen könnten, ›aber der Weg dorthin hat seinen Preis gehabt‹. Über den Körper nach der Geburt sagt sie, die Ausgangslage sei eine ganz andere als 2023: ›Eine Schwangerschaft spaltet ja die Bauchmuskeln.‹ Und über den Presserummel: ›Damals war es nicht lustig, aber jetzt muss ich einfach darüber lachen.‹ Die Sieben verwandelt, auch hier, Belastung in Humor.</p>
         </blockquote>
 
@@ -2860,7 +2860,7 @@ export function christinaPlatePortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der sexuellen Drei mit Zweierflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt in der Verlässlichkeit, in der Wärme und in der Fähigkeit, vor einem großen Publikum zu bestehen, ohne die Zugewandtheit zu verlieren. Wer über Jahrzehnte in Serien Vertrauen aufbaut, schenkt den Zuschauern Sicherheit.</p>
+          <p class="vb-intro">Die Stärke liegt in der Verlässlichkeit, in der Wärme und in der Fähigkeit, vor einem großen Publikum zu bestehen, ohne die Zugewandtheit zu verlieren. Wer über Jahrzehnte in Serien Vertrauen aufbaut, schenkt den Zuschauern Sicherheit.</p>
           <p class="vb-intro">Der Schatten dieser Kombination ist die Gefahr, sich über das Bild zu definieren. Wo das Aussehen zur Währung wird, droht die Selbstüberforderung, bei Plate nach den vorliegenden Berichten in Form der Magersucht. Die Hinwendung zur Familie nach 2011 gibt der Wärme des Zweierflügels mehr Raum.</p>
         </blockquote>
 

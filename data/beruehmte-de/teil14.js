@@ -215,7 +215,7 @@ export function brigitteBardotPortraitPage() {
 
         <h2 class="vb-section">2. Die sexuelle Drei: Magnetismus als Lebensthema</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> macht pers\u00f6nliche Anziehungskraft zur Lebensaufgabe &ndash; nicht Erfolg vor der Masse wie die soziale Drei, sondern die unmittelbare, k\u00f6rperliche, direkte Resonanz mit dem Gegen\u00fcber. Claudio Naranjo nannte diesen Subtyp <em>Masculinity/Femininity</em>: die Verk\u00f6rperung von Attraktivit\u00e4t in ihrer reinsten, intimsten Form. Die SX3 fragt nicht <em>Bewundert man mich?</em>, sondern <em>Begehrt man mich?</em></p>
+          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> macht pers\u00f6nliche Anziehungskraft zur Lebensaufgabe &ndash; nicht Erfolg vor der Masse wie die soziale Drei, sondern die unmittelbare, k\u00f6rperliche, direkte Resonanz mit dem Gegen\u00fcber. Claudio Naranjo gab diesem Subtyp den Namen <em>Masculinity/Femininity</em>: die Verk\u00f6rperung von Attraktivit\u00e4t in ihrer reinsten, intimsten Form. Die SX3 fragt nicht <em>Bewundert man mich?</em>, sondern <em>Begehrt man mich?</em></p>
           <p class="vb-intro">Bardots gesamte Filmkarriere kreiste um genau diese Energie. Sie war nicht die klassisch geschliffene Schauspielerin ihrer Zeit &ndash; sie war eine Pr\u00e4senz, eine Naturgewalt vor der Kamera, deren Ausstrahlung wichtiger war als jede Technik. Regisseur Roger Vadim baute &bdquo;Und ewig lockt das Weib&ldquo; buchst\u00e4blich um sie herum, weil er verstand: Diese Frau muss nicht spielen, sie muss nur sein. Genau das ist die reinste Form der SX3-Wirkung.</p>
           <p class="vb-intro">Bardot wurde zum Sinnbild der sexuellen Befreiung der 1950er- und 60er-Jahre &ndash; nicht durch Provokation im politischen Sinn, sondern durch die schlichte Weigerung, ihre Sinnlichkeit zu verstecken. Die Presse pr\u00e4gte den Begriff \u201eSex-K\u00e4tzchen", doch das griff zu kurz: Was Bardot ausstrahlte, war keine Pose, sondern eine ungefilterte Selbstverst\u00e4ndlichkeit im eigenen K\u00f6rper.</p>
         </blockquote>
@@ -595,7 +595,7 @@ export function georgeGershwinPortraitPage() {
         <h2 class="vb-section">6. Das Vermächtnis: Ein Fluss, der weiterfließt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Gershwin starb 1937 im Alter von nur 38 Jahren an einem Hirntumor &ndash; ein plötzliches, für viele Zeitgenossen unfassbares Ende mitten im Schaffen. Die Umstände seiner letzten Lebensmonate, in denen erste Symptome lange fehlgedeutet wurden, werden im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-george-gershwin">Krankheitsporträt zu Gershwin</a> noch ausführlicher behandelt.</p>
-          <p class="vb-intro">Was bleibt, ist ein Werk, das die Grenze zwischen U- und E-Musik in den USA endgültig durchlässig machte. Das ist das Geschenk der SO7w6 in ihrer reinsten Form: Begeisterung, die sich nicht im eigenen Vergnügen erschöpft, sondern zu einem Bauwerk wird, das ein ganzes Land trägt. Der Biber, dessen Damm auch dann noch hält, wenn der Baumeister selbst längst nicht mehr da ist.</p>
+          <p class="vb-intro">Was bleibt, ist ein Werk, das die Grenze zwischen U- und E-Musik in den USA endgültig durchlässig machte. Darin liegt das Geschenk der SO7w6 in ihrer reinsten Form: Begeisterung, die sich nicht im eigenen Vergnügen erschöpft, sondern zu einem Bauwerk wird, das ein ganzes Land trägt. Der Biber, dessen Damm auch dann noch hält, wenn der Baumeister selbst längst nicht mehr da ist.</p>
         </blockquote>
 
       </div>
@@ -656,7 +656,7 @@ export function hansZimmerPortraitPage() {
         <h2 class="vb-section">5. Das Geschenk: Emotionen, die die Welt ber\u00fchren</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Hans Zimmer dem Kino gegeben hat &ndash; und durch das Kino der Welt &ndash; ist die Erfahrung, dass Musik ein Raum sein kann. Nicht Hintergrundtapete, nicht emotionale Markierung, sondern ein eigenst\u00e4ndiges Erleben: Man sitzt im Kino, h\u00f6rt den Score, und versteht pl\u00f6tzlich etwas \u00fcber die Szene, \u00fcber die Figur, \u00fcber sich selbst.</p>
-          <p class="vb-intro">Das ist das Geschenk der SE7w8: Freude, die nicht bei sich bleibt. Ein Gorilla, der nicht nur sein Rudel sch\u00fctzt, sondern es wachsen l\u00e4sst &ndash; und dessen Stimme, einmal geh\u00f6rt, nicht mehr aus dem Kopf geht. Hans Zimmer hat keine Noten studiert. Er hat gelernt, wie Klang Menschen ber\u00fchrt. Darin zeigt sich die selbsterhaltende Sieben mit Achterfl\u00fcgel. Das ist der Gorilla, der singt.</p>
+          <p class="vb-intro">Darin liegt das Geschenk der SE7w8: Freude, die nicht bei sich bleibt. Ein Gorilla, der nicht nur sein Rudel sch\u00fctzt, sondern es wachsen l\u00e4sst &ndash; und dessen Stimme, einmal geh\u00f6rt, nicht mehr aus dem Kopf geht. Hans Zimmer hat keine Noten studiert. Er hat gelernt, wie Klang Menschen ber\u00fchrt. Darin zeigt sich die selbsterhaltende Sieben mit Achterfl\u00fcgel. Das ist der Gorilla, der singt.</p>
         </blockquote>
 
       </div>
@@ -702,7 +702,7 @@ export function iceCubePortraitPage() {
 
         <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge, die in der Familie bleibt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Fürsorge richtet sich zuerst auf die eigene, konkrete Basis und den engsten Kreis, bevor sie sich nach außen wendet. Bei Ice Cube zeigt sich das in einer bemerkenswerten Beständigkeit: Seit seiner Heirat mit Kimberly Woodruff im April 1992 &ndash; über drei Jahrzehnte in einer Branche, die für kurzlebige Beziehungen bekannt ist &ndash; blieb seine Ehe stabil, gemeinsam haben sie fünf Kinder.</p>
+          <p class="vb-intro">Naranjo gibt der <strong>selbsterhaltenden Zwei (SE2)</strong> den Namen <em>Me First</em>: Fürsorge richtet sich zuerst auf die eigene, konkrete Basis und den engsten Kreis, bevor sie sich nach außen wendet. Bei Ice Cube zeigt sich das in einer bemerkenswerten Beständigkeit: Seit seiner Heirat mit Kimberly Woodruff im April 1992 &ndash; über drei Jahrzehnte in einer Branche, die für kurzlebige Beziehungen bekannt ist &ndash; blieb seine Ehe stabil, gemeinsam haben sie fünf Kinder.</p>
           <p class="vb-intro">Am deutlichsten wird dieses Prinzip 2015: Für die Verfilmung seiner eigenen Lebensgeschichte in <em>Straight Outta Compton</em> besetzte Ice Cube die Rolle seines jüngeren Ichs mit niemand anderem als seinem eigenen Sohn O'Shea Jackson Jr. &ndash; nach einem zweijährigen Vorsprechprozess, den dieser sich, wie Ice Cube selbst betonte, „redlich verdient" habe. Die eigene Geschichte wird nicht an Fremde delegiert, sondern buchstäblich innerhalb der Familie weitergegeben &ndash; ein Vertrauen, das nur im engsten Kreis überhaupt denkbar ist.</p>
         </blockquote>
 
@@ -1101,7 +1101,7 @@ export function marieKondoPortraitPage() {
 
         <h2 class="vb-section">2. Die selbsterhaltende Eins: Ordnung als inneres Bed\u00fcrfnis</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> ist der Subtyp, der seinen Perfektionsanspruch nicht nach au\u00dfen tr\u00e4gt, sondern nach innen &ndash; und vor allem: nach Hause. Naranjo nannte diesen Subtyp <em>Worry</em>: eine st\u00e4ndige, leise Unruhe, ob das eigene Umfeld wirklich stimmt, ob das eigene Leben dem inneren Standard entspricht. Diese Unruhe ist kein Mangel. Sie ist der Motor einer lebenslangen Verfeinerung.</p>
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> ist der Subtyp, der seinen Perfektionsanspruch nicht nach au\u00dfen tr\u00e4gt, sondern nach innen &ndash; und vor allem: nach Hause. Naranjo gab diesem Subtyp den Namen <em>Worry</em>: eine st\u00e4ndige, leise Unruhe, ob das eigene Umfeld wirklich stimmt, ob das eigene Leben dem inneren Standard entspricht. Diese Unruhe ist kein Mangel. Sie ist der Motor einer lebenslangen Verfeinerung.</p>
           <p class="vb-intro">Marie Kondos KonMari-Methode ist keine Ordnungshilfe, wie man sie aus Lifehacking-B\u00fcchern kennt. Sie ist ein inneres System. Die entscheidende Frage lautet nicht: &bdquo;Brauche ich das?&ldquo; oder &bdquo;Ist das praktisch?&ldquo; &ndash; sondern: <em>&bdquo;L\u00f6st es Freude aus?&ldquo;</em> Das ist der Ma\u00dfstab einer SE1: nicht N\u00fctzlichkeit, nicht Vernunft, sondern innere Resonanz. Was dem eigenen Standard entspricht, darf bleiben. Was nicht stimmt, geht.</p>
           <p class="vb-intro">Die Kategorien, die Reihenfolge, die Falttechnik: alles ist pr\u00e4zise, alles hat seinen Grund, alles ist erprobt. Keine Improvisation. Kein &bdquo;so ungef\u00e4hr&ldquo;. Die SE1 lebt in einem Universum, in dem Dinge entweder an ihrem richtigen Platz sind &ndash; oder nicht.</p>
         </blockquote>
@@ -1128,7 +1128,7 @@ export function marieKondoPortraitPage() {
         <h2 class="vb-section">6. Das Geschenk: Freude als Kompass</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Marie Kondo der Welt gegeben hat, geht weit \u00fcber Aufr\u00e4umtipps hinaus. Sie hat einer ganzen Generation Menschen beigebracht, dass Ordnung kein Selbstzweck ist &ndash; sondern eine Form von Selbstachtung. Und dass die entscheidende Frage im Leben nicht lautet: <em>Was soll ich behalten?</em> &ndash; sondern: <em>Was l\u00f6st Freude aus?</em></p>
-          <p class="vb-intro">Das ist das Geschenk der SE1w2: ein inneres System, das so klar ist, dass andere es lernen k\u00f6nnen &ndash; und eine W\u00e4rme, die gro\u00df genug ist, dass sie es weitergeben will. Der Adler hat einen Ma\u00dfstab. Der Zweierfl\u00fcgel macht daraus eine Einladung. Marie Kondo hat beides.</p>
+          <p class="vb-intro">Hier zeigt sich das Geschenk der SE1w2: ein inneres System, das so klar ist, dass andere es lernen k\u00f6nnen &ndash; und eine W\u00e4rme, die gro\u00df genug ist, dass sie es weitergeben will. Der Adler hat einen Ma\u00dfstab. Der Zweierfl\u00fcgel macht daraus eine Einladung. Marie Kondo hat beides.</p>
         </blockquote>
 
       </div>
@@ -1171,7 +1171,7 @@ export function mickeyRourkePortraitPage() {
 
         <h2 class="vb-section">2. Die selbsterhaltende Zwei: Wenn die Hunde alles waren</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Fürsorge richtet sich zuerst auf das eigene, konkrete Überleben und den engsten Kreis, bevor sie sich nach außen wendet. Bei Rourke zeigte sich das in den einsamsten Jahren seiner Karriere auf besonders eindringliche Weise: Als seine Schauspielkarriere in den 1990er-Jahren praktisch zusammengebrochen war, waren es seine Hunde, die ihm blieben.</p>
+          <p class="vb-intro">Naranjo gibt der <strong>selbsterhaltenden Zwei (SE2)</strong> den Namen <em>Me First</em>: Fürsorge richtet sich zuerst auf das eigene, konkrete Überleben und den engsten Kreis, bevor sie sich nach außen wendet. Bei Rourke zeigte sich das in den einsamsten Jahren seiner Karriere auf besonders eindringliche Weise: Als seine Schauspielkarriere in den 1990er-Jahren praktisch zusammengebrochen war, waren es seine Hunde, die ihm blieben.</p>
           <p class="vb-intro"><em>Die Hunde waren da, als niemand sonst da war</em>, sagte er später – <em>sie wurden alles für mich</em>. In seiner Golden-Globe-Dankesrede 2009 für <em>The Wrestler</em> dankte er ausdrücklich all seinen Hunden, den lebenden wie den verstorbenen: <em>Manchmal, wenn ein Mann allein ist, hat er nur seinen Hund, und sie bedeuteten mir die Welt.</em> Sein Chihuahua-Terrier-Mix Loki, den er einen <em>riesigen Xanax</em> nannte, starb wenige Tage vor der Oscar-Verleihung 2009 – ein Verlust, der zeigt, wie konkret und körperlich die Fürsorge der SE2 gebunden ist, nicht abstrakt an eine Idee, sondern an ein einzelnes, greifbares Wesen.</p>
         </blockquote>
 
@@ -1373,7 +1373,7 @@ export function robertSchumannPortraitPage() {
 
         <h2 class="vb-section">2. Die sexuelle Sieben: Begeisterung ohne Vorbehalt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> sucht nicht die vorsichtige Prüfung, sondern die vollständige Hingabe an das, was sie begeistert. Naranjo nannte diesen Subtyp <em>Suggestibility</em>: die Fähigkeit, sich selbst und andere restlos in einen Zustand der Begeisterung hineinzuziehen. Schumann lebte dieses Muster nicht nur in seiner Musik, sondern auch als Kritiker und Entdecker.</p>
+          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> sucht nicht die vorsichtige Prüfung, sondern die vollständige Hingabe an das, was sie begeistert. Dieser Subtyp trägt bei Naranjo den Namen <em>Suggestibility</em>: die Fähigkeit, sich selbst und andere restlos in einen Zustand der Begeisterung hineinzuziehen. Schumann lebte dieses Muster nicht nur in seiner Musik, sondern auch als Kritiker und Entdecker.</p>
           <p class="vb-intro">1853, drei Jahre vor seinem Tod, hörte er einen völlig unbekannten, 20-jährigen Pianisten namens Johannes Brahms vorspielen – und schrieb noch am selben Abend in sein Tagebuch, hier komme einer, "der berufen war, den höchsten Ausdruck der Zeit in idealer Weise auszusprechen". Wenige Tage später veröffentlichte er das Essay <em>Neue Bahnen</em>, in dem er den jungen Brahms ohne jede Zurückhaltung als kommenden Meister ausrief – ein Sprung ins Enthusiastische, den ein zögerlicherer Kritiker nie gewagt hätte. Genau das zeigt die SX7: keine abgewogene Einschätzung, sondern der volle, ansteckende Ausbruch der Begeisterung.</p>
         </blockquote>
 
@@ -1446,7 +1446,7 @@ export function soerenKierkegaardPortraitPage() {
 
         <h2 class="vb-section">2. Die selbsterhaltende Zwei: Die eigene Existenz als Pr\u00fcfstand</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> richtet die Energie der Zwei zuerst auf die eigene Existenzgrundlage \u2013 Naranjo nannte diesen Subtyp <em>Me First</em>, nicht im egoistischen, sondern im existenziellen Sinn: Bevor ich f\u00fcr andere sorgen kann, muss ich wissen, wie ich selbst \u00fcberlebe. Kierkegaards gesamtes philosophisches Projekt l\u00e4sst sich als genau diese Frage lesen, radikal zu Ende gedacht: Wie lebt ein einzelner Mensch wirklich, angesichts von Angst, Schuld und der Notwendigkeit, sich selbst zu w\u00e4hlen?</p>
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> richtet die Energie der Zwei zuerst auf die eigene Existenzgrundlage \u2013 Naranjo gab diesem Subtyp den Namen <em>Me First</em>, nicht im egoistischen, sondern im existenziellen Sinn: Bevor ich f\u00fcr andere sorgen kann, muss ich wissen, wie ich selbst \u00fcberlebe. Kierkegaards gesamtes philosophisches Projekt l\u00e4sst sich als genau diese Frage lesen, radikal zu Ende gedacht: Wie lebt ein einzelner Mensch wirklich, angesichts von Angst, Schuld und der Notwendigkeit, sich selbst zu w\u00e4hlen?</p>
           <p class="vb-intro">Sein Zentralbegriff, "der Einzelne" (dänisch: den Enkelte), stellt die eigene, unvertretbare Existenz radikal ins Zentrum \u2013 gegen die Anonymit\u00e4t der Masse, gegen das abstrakte System Hegels, das f\u00fcr Kierkegaard alles erkl\u00e4rte, au\u00dfer dem, was am wichtigsten war: wie ein konkreter Mensch sein eigenes Leben tats\u00e4chlich zu f\u00fchren hat. Seine akribischen, oft t\u00e4glich gef\u00fchrten Tageb\u00fccher \u2013 Zehntausende Seiten \u2013 sind das Protokoll einer SE2, die ihre eigene innere Realit\u00e4t so genau wie m\u00f6glich benennen musste, um darin \u00fcberhaupt bestehen zu k\u00f6nnen.</p>
           <p class="vb-intro">Man hat die SE2 auch als das "Kind im Erwachsenenkost\u00fcm" beschrieben \u2013 ein Bild, das auf Kierkegaard erstaunlich genau passt. Hinter dem strengen, oft d\u00fcster wirkenden Denker verbarg sich ein Mensch, der zeitlebens von der Angst und Verletzlichkeit seiner Kindheit gepr\u00e4gt blieb: Wer seine Tageb\u00fccher liest, begegnet immer wieder einem verletzten, nach Halt suchenden Ich unter der philosophischen R\u00fcstung \u2013 dem Kind, das gelernt hatte, in einem von Schuld und Angst durchdrungenen Elternhaus fr\u00fch erwachsen zu wirken, ohne es innerlich je ganz zu werden.</p>
         </blockquote>
@@ -1512,7 +1512,7 @@ export function thomasGottschalkPortraitPage() {
 
         <h2 class="vb-section">2. Die sexuelle Sieben: Enthusiasmus als Funken</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> ist der Subtyp der Sieben, bei dem die Energie nicht nach innen (SE7) oder in die Gesellschaft (SO7) geht, sondern direkt in den Kontakt: in die andere Person, in den Moment, in die Verbindung. Naranjo nannte diesen Subtyp <em>Suggestibility</em> &ndash; Begeisterungsf\u00e4higkeit, die sich \u00fcbertr\u00e4gt. Die SX7 steckt andere an. Nicht mit einer Botschaft, sondern mit ihrer blo\u00dfen Energie.</p>
+          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> ist der Subtyp der Sieben, bei dem die Energie nicht nach innen (SE7) oder in die Gesellschaft (SO7) geht, sondern direkt in den Kontakt: in die andere Person, in den Moment, in die Verbindung. Dieser Subtyp trägt bei Naranjo den Namen <em>Suggestibility</em> &ndash; Begeisterungsf\u00e4higkeit, die sich \u00fcbertr\u00e4gt. Die SX7 steckt andere an. Nicht mit einer Botschaft, sondern mit ihrer blo\u00dfen Energie.</p>
           <p class="vb-intro">Thomas Gottschalk war nie eine Marke. Er war eine Energie. Die Zuschauer schalteten <em>Wetten, dass..?</em> nicht wegen der Wetten ein. Sie schalteten ein, weil sie wissen wollten, was passiert, wenn Gottschalk auf der B\u00fchne ist &ndash; was er sagen w\u00fcrde, was ihn begeistern w\u00fcrde, womit er diesmal \u00fcberrascht. Hier zeigt sich die SX7: nicht das Format zieht an, sondern der Mensch. Nicht das Konzept, sondern der Funke.</p>
         </blockquote>
 
@@ -1531,7 +1531,7 @@ export function thomasGottschalkPortraitPage() {
         <h2 class="vb-section">5. Das Geschenk: die B\u00fchne als lebendiger Raum</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Thomas Gottschalk dem deutschen Fernsehen gegeben hat, ist schwer zu ersetzen: die Erfahrung, dass eine Sendung atmet. Dass nicht das Skript tr\u00e4gt, sondern der Mensch. Dass das Publikum nicht zuschaut, sondern miterlebt. 212 Ausgaben <em>Wetten, dass..?</em>, Jahrzehnte im Radio, Film, Buch &ndash; und immer derselbe Grundton: Hier ist jemand, dem das gerade wirklich Spa\u00df macht. Das Publikum sp\u00fcrt das. Und lacht mit.</p>
-          <p class="vb-intro">Das ist das Geschenk der SX7w6: Begeisterung, die sich \u00fcbertr\u00e4gt. Ein Schimpanse, der tanzt &ndash; und dabei jeden im Raum mitrei\u00dft, ohne auch nur einen einzigen davon zu fragen, ob er tanzen m\u00f6chte. Thomas Gottschalk hat nie geplant, ein Ph\u00e4nomen zu werden. Er hat einfach immer weitergemacht. Darin zeigt sich die sexuelle Sieben. Das ist der Schimpanse.</p>
+          <p class="vb-intro">Darin liegt das Geschenk der SX7w6: Begeisterung, die sich \u00fcbertr\u00e4gt. Ein Schimpanse, der tanzt &ndash; und dabei jeden im Raum mitrei\u00dft, ohne auch nur einen einzigen davon zu fragen, ob er tanzen m\u00f6chte. Thomas Gottschalk hat nie geplant, ein Ph\u00e4nomen zu werden. Er hat einfach immer weitergemacht. Darin zeigt sich die sexuelle Sieben. Das ist der Schimpanse.</p>
         </blockquote>
 
       </div>
@@ -1713,7 +1713,7 @@ export function giacomoCasanovaPortraitPage() {
 
         <h2 class="vb-section">2. Die sexuelle Zwei: Hingabe an den einen Menschen im Raum</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Zwei (SX2)</strong> richtet die Energie der Zwei nicht auf die große Gruppe, sondern auf den direkten, persönlichen Raum zwischen zwei Menschen. Naranjo nannte diesen Subtyp <em>Aggressivität/Verführung</em> – ein aktives, vorwärtsdrängendes Zugehen auf den anderen. Casanovas eigene Memoiren, über zwölf Bände, in denen er weit mehr als hundertzwanzig Liebschaften beschreibt, lesen sich weniger wie eine Sammlung von Eroberungen als wie eine endlose Reihe einzelner, intensiv geführter Beziehungen – jede mit eigenem Namen, eigener Geschichte, eigenem emotionalen Gewicht.</p>
+          <p class="vb-intro">Die <strong>sexuelle Zwei (SX2)</strong> richtet die Energie der Zwei nicht auf die große Gruppe, sondern auf den direkten, persönlichen Raum zwischen zwei Menschen. Dieser Subtyp trägt bei Naranjo den Namen <em>Aggressivität/Verführung</em> – ein aktives, vorwärtsdrängendes Zugehen auf den anderen. Casanovas eigene Memoiren, über zwölf Bände, in denen er weit mehr als hundertzwanzig Liebschaften beschreibt, lesen sich weniger wie eine Sammlung von Eroberungen als wie eine endlose Reihe einzelner, intensiv geführter Beziehungen – jede mit eigenem Namen, eigener Geschichte, eigenem emotionalen Gewicht.</p>
           <p class="vb-intro">Zeitgenössische wie spätere Biografen betonen dabei etwas, das gegen das populäre Klischee des kühlen Verführers spricht: Casanova beschreibt sich selbst wiederholt als jemanden, der sich in jeder Begegnung tatsächlich einließ, der zuhörte, der half – bei Mitgiften, bei Fluchtplänen, bei Karrieren –, der sich für die jeweilige Frau unentbehrlich machen wollte, nicht nur begehrenswert. Genau diese personenbezogene, situative Hingabe an das eine Gegenüber, das gerade vor ihm stand, ist der Kern der sexuellen Zwei.</p>
         </blockquote>
 
@@ -2276,7 +2276,7 @@ export function bruceSpringsteenPortraitPage() {
         <h2 class="vb-section">6. Zwei Faultiere mit demselben Gesicht</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Ein besonders aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-peter-maffay">Peter Maffay</a> (SX9w1): Beide Musiker, geboren im selben Jahr 1949, teilen nicht nur eine verblüffende äußere Ähnlichkeit &ndash; markante, kantige Gesichtszüge, dieselbe zurückhaltende Bühnenpräsenz trotz jahrzehntelangem Ruhm &ndash;, sondern vor allem dasselbe zugrunde liegende Lebensmuster: die vollständige, disziplinierte Verschmelzung mit einem einzigen Lebenswerk, das weit über die reine Musikkarriere hinausreicht. Maffay fand dieses Werk in Tabaluga und seiner Stiftung für traumatisierte Kinder, Springsteen in der E Street Band und seinem jahrzehntelangen Engagement für die amerikanische Arbeiterklasse.</p>
-          <p class="vb-intro">Beide blieben trotz Weltruhm auffällig privat, beide hielten ihre Bühnenpartner über Jahrzehnte, statt sie auszutauschen, und bei beiden brach die eigentliche innere Tiefe erst spät und dann umso direkter durch die sorgfältig gepflegte öffentliche Fassade. Das Faultier verschmilzt nicht leichtfertig &ndash; aber wenn es sich bindet, dann vollständig und auf Lebenszeit. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-peter-maffay">Porträt zu Peter Maffay</a>.</p>
+          <p class="vb-intro">Beide blieben trotz Weltruhm auffällig privat, beide hielten ihre Bühnenpartner über Jahrzehnte, statt sie auszutauschen, und bei beiden brach die eigentliche innere Tiefe erst spät und dann umso direkter durch die sorgfältig gepflegte öffentliche Fassade. Das Faultier verschmilzt nicht leichtfertig &ndash; aber wenn es sich bindet, dann vollständig und auf Lebenszeit. Weiteres im <a href="javascript:void(0)" data-route="beruehmte-peter-maffay">Porträt zu Peter Maffay</a>.</p>
           <p class="vb-intro">Eine Verschmelzung ganz anderer Art zeigt <a href="javascript:void(0)" data-route="beruehmte-stefan-homburg">Prof. Dr. Stefan Homburg</a> (SX9w1): Statt mit einer Band oder einem künstlerischen Werk verschmilzt er seit Jahrzehnten mit einer einzigen wirtschaftspolitischen Grundüberzeugung, von der er sich nie abbringen ließ. Dasselbe Muster der vollständigen Hingabe an die eine Sache, nur auf ein völlig anderes Lebensfeld gerichtet. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-stefan-homburg">Porträt zu Stefan Homburg</a>.</p>
         </blockquote>
 
@@ -2404,7 +2404,7 @@ export function dmitriHvorostovskyPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Im Licht zeigt sich bei Hvorostovsky die SO3w2 als jemand, der öffentlichen Erfolg mit echter Wärme gegenüber Publikum und Kollegen verband – eine Bühnenpräsenz, die Bewunderung erzeugte, ohne kalt oder distanziert zu wirken.</p>
+          <p class="vb-intro">Positiv zeigt sich bei Hvorostovsky die SO3w2 als jemand, der öffentlichen Erfolg mit echter Wärme gegenüber Publikum und Kollegen verband – eine Bühnenpräsenz, die Bewunderung erzeugte, ohne kalt oder distanziert zu wirken.</p>
           <p class="vb-intro">Der Schatten der Drei zeigt sich in der Konsequenz, mit der er auch angesichts der eigenen tödlichen Diagnose an der öffentlichen Bühne festhielt: Der Rückkehr an die Met im September 2015 folgten weitere Auftritte bis kurz vor seinem Tod: Nachdem er im Dezember 2016 wegen krankheitsbedingter Gleichgewichtsstörungen alle szenischen Opernauftritte hatte absagen müssen, trat er am 7. Mai 2017 bei der Gala zum 50-jährigen Bestehen des Met-Hauses am Lincoln Center unangekündigt auf die Bühne und sang die Arie ›Cortigiani, vil razza dannata‹ aus Verdis ›Rigoletto‹ – das 4.000-köpfige Publikum erhob sich zu einer minutenlangen Standing Ovation. Ein Muster, in dem sich schwer entscheiden lässt, wo die Liebe zur Kunst endet und wo die Notwendigkeit beginnt, das öffentliche Bild bis zuletzt aufrechtzuerhalten.</p>
         </blockquote>
 
@@ -2680,7 +2680,7 @@ export function lewisHamiltonPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten der sozialen Zwei mit Dreierflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt in der Verbindung aus Erfolg und Verantwortung: Hamilton nutzt eine der größten Bühnen des Sports für Anliegen, die weit über den Motorsport hinausgehen, und hält an ihnen fest, auch wenn das Teile seines Publikums verärgert.</p>
+          <p class="vb-intro">Die Stärke liegt in der Verbindung aus Erfolg und Verantwortung: Hamilton nutzt eine der größten Bühnen des Sports für Anliegen, die weit über den Motorsport hinausgehen, und hält an ihnen fest, auch wenn das Teile seines Publikums verärgert.</p>
           <p class="vb-intro">Der Schatten gehört zur selben Konstellation. Die soziale Zwei leidet besonders, wenn ihr Einsatz nicht anerkannt wird. Als Hamilton beim Saisonfinale 2021 in Abu Dhabi nach einer umstrittenen Entscheidung der Rennleitung in der letzten Runde den achten Titel verlor, schwieg er wochenlang in der Öffentlichkeit und in den sozialen Medien. Zugleich bleibt die Frage, wie weit das Bedürfnis nach Anerkennung die Auftritte formt: Die soziale Zwei neigt dazu, ihre Gaben dort zu zeigen, wo sie Resonanz bekommt, und kann Kritik als persönliche Zurückweisung erleben.</p>
         </blockquote>
 
@@ -2825,7 +2825,7 @@ export function michaelGregerPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Sechs mit Fünferflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt in der Offenheit der Quellen: Wer jeden Werktag ein Video mit Belegen veröffentlicht, lässt sich prüfen. Die Familiengeschichte gibt dem Ganzen Wärme: Seine Seite und sein Buch erzählen von einem Kind, das gesehen hat, wie eine Angst vor dem Verlust abgewendet werden kann.</p>
+          <p class="vb-intro">Die Stärke liegt in der Offenheit der Quellen: Wer jeden Werktag ein Video mit Belegen veröffentlicht, lässt sich prüfen. Die Familiengeschichte gibt dem Ganzen Wärme: Seine Seite und sein Buch erzählen von einem Kind, das gesehen hat, wie eine Angst vor dem Verlust abgewendet werden kann.</p>
           <p class="vb-intro">Der Schatten der Sechs ist, dass die Wachsamkeit die Gefahr größer zeichnet. Kritiker sagen das auch zu Greger: Die Ärztin Harriet Hall (›Science-Based Medicine‹) meint, er überschätze oft die Vorteile pflanzlicher Ernährung und die Schäden tierischer Produkte und lasse manchmal Gegenbelege weg. Der Chemiker Joseph Schwarcz (McGill University) sieht in seiner Arbeit eine vegane Agenda und eine Auswahl der Daten nach Passung. Morgan Pfiffner (›Red Pen Reviews‹, 2024) bewertete ›How Not to Diet‹ mit 50 Prozent für wissenschaftliche Genauigkeit und 75 Prozent für Gesundheitsförderlichkeit, und Jonathan Jarry (McGill, 2026) wirft ihm vor, synthetische Stoffe zu verteufeln und schwache Studien zu pflanzlichen Stoffen unkritisch aufzugreifen. Bei ihm verbinden sich Sorge, Quellen und Sendungsbewusstsein.</p>
         </blockquote>
 
@@ -2898,7 +2898,7 @@ export function atzeSchroederPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der sexuellen Sieben mit Sechserflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt in der Fähigkeit, Menschen zum Lachen zu bringen, und in der Bereitschaft, Ernstes anzusprechen, wenn der Rahmen stimmt. Die Mischung aus Derbheit und Verletzlichkeit macht die Figur glaubwürdig.</p>
+          <p class="vb-intro">Das Licht zeigt sich in der Fähigkeit, Menschen zum Lachen zu bringen, und in der Bereitschaft, Ernstes anzusprechen, wenn der Rahmen stimmt. Die Mischung aus Derbheit und Verletzlichkeit macht die Figur glaubwürdig.</p>
           <p class="vb-intro">Der Schatten dieser Kombination ist die Neigung, Gefühle hinter der Maske zu verstecken. Wer nur als Kunstfigur öffentlich auftritt, schützt sich, bleibt aber zugleich unerkannt. Dass er selbst den Satz sagte, er habe sich erst spät geöffnet, zeigt, wie viel Arbeit es ist, von der Show zum Menschen zu kommen.</p>
         </blockquote>
 

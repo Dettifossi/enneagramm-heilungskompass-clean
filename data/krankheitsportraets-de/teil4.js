@@ -205,7 +205,7 @@ export function alexanderDerGrosseKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
         <strong>Alexander</strong> ist dem <strong>sozialen Typ 2 mit Dreierflügel</strong>
-        zugeordnet. Naranjo nannte diesen Subtyp <em>Ehrgeiz</em>: grenzenlose Hingabe an eine
+        zugeordnet. Dieser Subtyp trägt bei Naranjo den Namen <em>Ehrgeiz</em>: grenzenlose Hingabe an eine
         große Sache, verbunden mit dem Bedürfnis, unentbehrlich zu sein. Der Dreierflügel bringt
         die Weigerung hinzu, sich von Schwäche – auch der eigenen körperlichen – je aufhalten zu
         lassen. Genau diese Weigerung lässt sich bis in seinen letzten, überstürzten
@@ -558,7 +558,7 @@ export function claudeDebussyKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
         <strong>Debussy</strong> ist der <strong>sexuellen Vier mit Fünferflügel</strong>
-        zugeordnet. Naranjo nannte diesen Subtyp <em>Rivalität</em>: die brennende Überzeugung,
+        zugeordnet. Dieser Subtyp trägt bei Naranjo den Namen <em>Rivalität</em>: die brennende Überzeugung,
         dass die bestehende Ordnung einem etwas Wesentliches vorenthält, verbunden mit dem
         Antrieb, dagegen anzutreten. Der Fünferflügel bringt die Fähigkeit hinzu, sich in Arbeit
         und Struktur zu vertiefen, bis keine Kraft mehr bleibt – ein Muster, das sich bis in
@@ -1100,7 +1100,7 @@ export function fridaKahloKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
         <strong>Kahlo</strong> ist dem <strong>selbsterhaltenden Typ 2 mit Dreierflügel</strong>
-        zugeordnet. Naranjo nannte diesen Subtyp <em>Me First</em>: Die SE2 muss sich selbst
+        zugeordnet. Naranjo gab diesem Subtyp den Namen <em>Me First</em>: Die SE2 muss sich selbst
         zuerst versorgen, um überhaupt für andere da sein zu können. Der Dreierflügel bringt
         den Willen hinzu, gesehen zu werden – das eigene Leiden nicht zu verstecken, sondern zu
         gestalten und zu zeigen. Genau dieses Muster durchzieht ihren gesamten
