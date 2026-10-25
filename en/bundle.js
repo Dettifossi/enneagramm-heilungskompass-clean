@@ -45768,12 +45768,11 @@ document.addEventListener("click", function(ev) {
   let lbl = "";
   try { const re = typeof registerEntriesEN !== "undefined" && registerEntriesEN.find(e => e.route === r); lbl = (re && re.term) || _favLabel(r) || ""; } catch (e) {}
   if (!lbl) lbl = (document.querySelector("h1") || {}).textContent || document.title;
-  const url = location.origin + location.pathname + "#" + r;
-  const msg = lbl + "\n\nFrom the Enneagram Healing Compass\n\nSign in once when you first open it, after that it opens directly.";
+  const msg = "Take a look in the Enneagram Healing Compass: an interesting article.\n\n\u2018" + lbl + "\u2019\n\nJust search for the title in the app.";
   if (navigator.share) {
-    navigator.share({ title: lbl, text: msg, url: url }).catch(function() {});
+    navigator.share({ text: msg }).catch(function() {});
   } else if (navigator.clipboard) {
-    navigator.clipboard.writeText(msg + "\n" + url).then(function() { b.title = "Link copied"; });
+    navigator.clipboard.writeText(msg).then(function() { b.title = "Text copied"; });
   }
 });
 
