@@ -3006,3 +3006,73 @@ export function joergPilawaPortraitPage() {
     </div>
   `);
 }
+
+export function rosalieThomassPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-rosalie-thomass-portrait.jpg" alt="Rosalie Thomass – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Rosalie Thomass</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexual Type 7 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">German actress and screenwriter, born 1987 in Munich &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chimpanzee: a child who tries everything</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Chimpanzee</strong> learns by joining in: it imitates, tries out and infects the group. Rosalie Thomass was born on 14 August 1987 in Munich and is a great-niece of the film composer Eugen Thomass. Even as a child she tried many things at once: she sang in the school choir, acted in school theatre and played in a rock band, learned modern dance, piano and flute, and as a child gained first stage experience in Munich theatres. In 2001 she joined the youth group of the Münchner Kammerspiele.</p>
+          <p class="vb-intro">She began her way in front of the camera in 2003 with the short film &lsquo;Emily will sterben&rsquo; (&lsquo;Emily Wants to Die&rsquo;), and in 2004 followed a lead role in &lsquo;Gefühlte Temperatur&rsquo; (&lsquo;Felt Temperature&rsquo;). The breakthrough came in 2005 with the Polizeiruf &lsquo;Er sollte tot&rsquo; (&lsquo;He Was Supposed to Be Dead&rsquo;), in which she played an unstable young woman who gets caught up in a murder case. This role shows what distinguished her early: she did not shy away from the difficult, unprotected characters.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Seven: devotion to what grips her</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the sexual Seven the subtype of <em>Suggestibility</em> (fascination): it throws itself into a cause, a person or a role with full enthusiasm. In Thomass this shows in the breadth of what she does. She acts, writes screenplays, and comes from music and dance. Her work includes Rosenmüller&rsquo;s trilogy &lsquo;Beste Zeit&rsquo;, &lsquo;Beste Gegend&rsquo; and &lsquo;Beste Chance&rsquo;, &lsquo;Taxi&rsquo; (2015) alongside Peter Dinklage, &lsquo;Eine unerhörte Frau&rsquo; (2016), &lsquo;Rufmord&rsquo; (2018) and &lsquo;Unterleuten&rsquo; (2020).</p>
+          <p class="vb-intro">That she also works behind the camera fits. She co-wrote &lsquo;Jagdsaison&rsquo; (2022) and wrote &lsquo;Lügen über meine Mutter&rsquo; (&lsquo;Lies About My Mother&rsquo;, 2026), in which she also plays the lead: the film tells of a woman who in the 1980s is told again and again that she is too fat for her husband. A fascination thus becomes a story of her own.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-wing: anger as strength and taking up space</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Seven directness, strength and the will to take up space. In an interview with the Apotheken Umschau the headline carries the sentence &lsquo;Ich weigere mich, mich über mein Äußeres zu definieren&rsquo; (&lsquo;I refuse to define myself by my appearance&rsquo;). There she speaks about anger as a constructive force and about how women who show anger are quickly labelled too loud or hysterical. To ZDF she said the image of women is outdated, that one reduces the woman to her body and the man to his status.</p>
+          <p class="vb-intro">She also shows attitude towards her profession: she criticized the depiction of violence against women in TV crime shows, for instance the image of the dead, naked woman on a riverbank. This can be connected with the Eight-wing, without deriving more from it than these statements show.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: characters at the edge of convention</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Thomass became known through roles that are not smooth: unstable, wilful, vulnerable or quick-witted women. For her work she received, among others, the Grimme Award (2007 and 2011), the Bavarian Film Award (2016), the German Television Award (2018, best TV film for &lsquo;Eine unerhörte Frau&rsquo;) and the German Actors&rsquo; Award (2018). From 2026 she investigates in the Franconia Tatort as Chief Inspector Emilia Rathgeber, succeeding Dagmar Manzel.</p>
+          <p class="vb-intro">She lives in Munich and has two children with the director Aron Lehmann. Beyond that little is known about her private life, and it is not the subject of this portrait.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. A parallel in the same subtype and wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The same mixture of devotion and force is shown by the actor <a href="#beruehmte-klaus-maria-brandauer">Klaus Maria Brandauer (SX7w8)</a>, who also throws himself completely into his characters. <a href="#beruehmte-christian-kohlund">Christian Kohlund (SX7w8)</a> and the singer <a href="#beruehmte-adriano-celentano">Adriano Celentano (SX7w8)</a> also belong to this subtype with Eight-wing. In Thomass one peculiarity is added: with her screenplay she tells a story from a female perspective that she also plays.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of this constellation is the liveliness, the joy of trying things out and the courage to address uncomfortable subjects. The shadow of the Seven lies in what it avoids: standing still, heaviness and the question of what lies beneath the play. The Eight-wing can let this restlessness tip into hardness. There are only a few documented self-statements about her inner life, and here it is better not to speculate.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The path of healing: from play to depth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The path of the Seven leads from the lure of the next thing to staying in the present. When an actress writes over years the story of a woman who wants to feel at home in her body, this can be read as a step towards depth: play not as escape but as a means to clarify something of one&rsquo;s own. This is an interpretation, not a finding.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"beruehmte-klaus-maria-brandauer", label:"Portrait: Klaus Maria Brandauer (SX7w8)"},
+        {route:"beruehmte-christian-kohlund", label:"Portrait: Christian Kohlund (SX7w8)"},
+        {route:"beruehmte-adriano-celentano", label:"Portrait: Adriano Celentano (SX7w8)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}

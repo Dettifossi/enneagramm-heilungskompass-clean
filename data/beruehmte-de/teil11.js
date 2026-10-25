@@ -2983,3 +2983,73 @@ export function joergPilawaPortraitPage() {
     </div>
   `);
 }
+
+export function rosalieThomassPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-rosalie-thomass-portrait.jpg" alt="Rosalie Thomass – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Rosalie Thomass</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexueller Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Deutsche Schauspielerin und Drehbuchautorin, geb. 1987 in München &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse: ein Kind, das alles ausprobiert</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> lernt durch Mitmachen: Er ahmt nach, probiert aus und steckt die Gruppe an. Rosalie Thomass wurde am 14. August 1987 in München geboren und ist eine Großnichte des Filmkomponisten Eugen Thomass. Schon als Kind probierte sie vieles gleichzeitig: Sie sang im Schulchor, spielte Schultheater und in einer Rockband, lernte modernen Tanz, Klavier und Flöte und sammelte als Kind erste Bühnenerfahrung an Münchner Theatern. 2001 kam sie in die Jugendgruppe der Münchner Kammerspiele.</p>
+          <p class="vb-intro">Den Weg vor die Kamera begann sie 2003 mit dem Kurzfilm ›Emily will sterben‹, 2004 folgte eine Hauptrolle in ›Gefühlte Temperatur‹. Der Durchbruch kam 2005 mit dem Polizeiruf ›Er sollte tot‹, in dem sie eine labile junge Frau spielte, die in einen Mordfall gerät. Diese Rolle zeigt, was sie früh auszeichnete: Sie scheute die schwierigen, ungeschützten Figuren nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Hingabe an das, was sie packt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte die sexuelle Sieben den Subtyp der <em>Suggestibility</em> (Suggestibilität, Faszination): Sie wirft sich in eine Sache, einen Menschen oder eine Rolle mit voller Begeisterung. Das zeigt sich bei Thomass in der Breite dessen, was sie tut. Sie spielt, sie schreibt Drehbücher, sie kommt aus der Musik und dem Tanz. Zu ihren Arbeiten zählen Rosenmüllers Trilogie ›Beste Zeit‹, ›Beste Gegend‹ und ›Beste Chance‹, ›Taxi‹ (2015) an der Seite von Peter Dinklage, ›Eine unerhörte Frau‹ (2016), ›Rufmord‹ (2018) und ›Unterleuten – Das zerrissene Dorf‹ (2020).</p>
+          <p class="vb-intro">Dass sie auch hinter der Kamera arbeitet, passt dazu. Sie schrieb am Drehbuch von ›Jagdsaison‹ (2022) mit und verfasste ›Lügen über meine Mutter‹ (2026), in dem sie auch die Hauptrolle spielt: Der Film erzählt von einer Frau, der in den 1980er Jahren immer wieder gesagt wird, sie sei für ihren Mann zu dick. Aus einer Faszination wird also eine eigene Geschichte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Wut als Kraft und Raum nehmen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der Sieben Direktheit, Kraft und den Willen, Raum einzunehmen. In einem Interview mit der Apotheken Umschau trägt sie den Satz ›Ich weigere mich, mich über mein Äußeres zu definieren‹ in der Überschrift. Sie spricht dort über Wut als konstruktive Kraft und darüber, wie Frauen, die Wut zeigen, schnell als zu laut oder hysterisch abgestempelt werden. Gegenüber dem ZDF sagte sie, das Frauenbild sei überholt, man reduziere die Frau auf ihren Körper und den Mann auf seinen Status.</p>
+          <p class="vb-intro">Auch gegenüber ihrem Beruf zeigt sie Haltung: Sie kritisierte die Darstellung von Gewalt gegen Frauen in Fernsehkrimis, etwa das Bild der toten, nackten Frau am Flussufer. Das lässt sich mit dem Achterflügel in Verbindung bringen, ohne dass sich daraus mehr ableiten ließe, als diese Äußerungen zeigen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Figuren am Rand der Konvention</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Thomass wurde mit Rollen bekannt, die nicht glatt sind: labile, eigenwillige, verletzliche oder schlagfertige Frauen. Für ihre Arbeit erhielt sie unter anderem den Grimme-Preis (2007 und 2011), den Bayerischen Filmpreis (2016), den Deutschen Fernsehpreis (2018, bester Fernsehfilm für ›Eine unerhörte Frau‹) und den Deutschen Schauspielerpreis (2018). Ab 2026 ermittelt sie im Franken-Tatort als Kriminalhauptkommissarin Emilia Rathgeber, als Nachfolgerin von Dagmar Manzel.</p>
+          <p class="vb-intro">Sie lebt in München und hat mit dem Regisseur Aron Lehmann zwei Kinder. Über ihr Privatleben ist darüber hinaus wenig bekannt, und es ist hier auch nicht Gegenstand des Porträts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp und Flügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dieselbe Mischung aus Hingabe und Wucht zeigt der Schauspieler <a href="#beruehmte-klaus-maria-brandauer">Klaus Maria Brandauer (SX7w8)</a>, der sich ebenfalls ganz in seine Figuren wirft. Auch <a href="#beruehmte-christian-kohlund">Christian Kohlund (SX7w8)</a> und der Sänger <a href="#beruehmte-adriano-celentano">Adriano Celentano (SX7w8)</a> gehören zu diesem Subtyp mit Achterflügel. Bei Thomass kommt eine Eigenheit hinzu: Sie erzählt mit ihrem Drehbuch eine Geschichte aus weiblicher Sicht, die sie zugleich spielt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht dieser Konstellation ist die Lebendigkeit, die Lust am Ausprobieren und der Mut, unbequeme Themen anzusprechen. Der Schatten der Sieben liegt in dem, was sie meidet: Stillstand, Schwere und die Frage, was unter dem Spiel liegt. Der Achterflügel kann diese Unruhe in Härte kippen lassen. Zu ihrem Innenleben gibt es nur wenige belegte Selbstaussagen, und hier ist es besser, nicht zu spekulieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Der Heilungsweg: vom Spiel zur Tiefe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Weg der Sieben führt vom Reiz des Nächsten zum Bleiben im Gegenwärtigen. Wenn eine Schauspielerin über Jahre die Geschichte einer Frau schreibt, die sich in ihrem Körper wohlfühlen will, lässt sich das als ein Schritt zur Tiefe lesen: das Spiel nicht als Flucht, sondern als Mittel, etwas Eigenes zu klären. Das ist eine Deutung, kein Befund.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"beruehmte-klaus-maria-brandauer", label:"Porträt: Klaus Maria Brandauer (SX7w8)"},
+        {route:"beruehmte-christian-kohlund", label:"Porträt: Christian Kohlund (SX7w8)"},
+        {route:"beruehmte-adriano-celentano", label:"Porträt: Adriano Celentano (SX7w8)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
