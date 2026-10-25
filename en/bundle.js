@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=379";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=380";
 import { psychogrammErklaerung } from "../data/psychogramme-erklaerung.js?v=2";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -40352,7 +40352,7 @@ function wahnideenNichtRealeVorstellungenPage() {
             <div style="font-size:0.9rem;line-height:1.65;display:grid;gap:0.45rem;">
               <div><span style="font-weight:700;color:var(--muted);">Repertory idea:</span> <em>of having been sold</em></div>
               <div><span style="font-weight:700;color:var(--muted);">In Kent:</span> &ldquo;sold, as if would be&rdquo;: exactly one remedy: Hyoscyamus niger.</div>
-              <div>The Two gives itself: attention, help, closeness. The idea of having been sold takes this devotion at its word and turns it around. Whoever has given everything feels given away in the end, used, made a commodity. Behind the image stands the fear of not being seen for one&rsquo;s giving but exploited.</div>
+              <div>The Two gives itself: attention, help, closeness. The idea of having been sold takes this devotion at its word and turns it around. Whoever has given everything feels given away in the end, used, made a commodity. Behind the image stands the fear of not being seen for one&rsquo;s giving but exploited. In the chapter &ldquo;Delirium&rdquo; Kent also lists &ldquo;wedding, prepares for&rdquo; (Hyoscyamus niger as the only remedy). Behind it stands the deep longing for connection and love that is so typical of the Two, the overdeveloped heart energy of this type.</div>
               <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">In life threads:</span> <a href="#beruehmte-jesus-christus">Jesus Christus</a>, <a href="#beruehmte-elvis-presley">Elvis Presley</a></div>
               <div style="font-size:0.78rem;color:var(--muted);">Remedy assigned in this Compass&rsquo;s Enneagram homeopathy: Hyoscyamus niger</div>
             </div>
