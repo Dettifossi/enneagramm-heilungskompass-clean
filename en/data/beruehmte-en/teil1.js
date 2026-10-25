@@ -2962,3 +2962,74 @@ export function maxSchmelingPortraitPage() {
     </div>
   `);
 }
+
+export function falcoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-falco-portrait.jpg" alt="Falco – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-falco-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Falco</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Social Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Austrian singer, 1957&ndash;1998 &ndash; Animal correspondence: Cheetah</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Cheetah: the Viennese who accelerated from a standing start</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>cheetah</strong> does not wait long, it goes from stillness into acceleration. Hans Hölzel was born on 19 February 1957 in Vienna, the only survivor of triplets, and according to a biography grew up as an only child in modest circumstances. He had piano lessons from the age of four and briefly attended the Vienna Conservatory.</p>
+          <p class="vb-intro">From 1974 he played bass in the band Umspannwerk and from 1978 in the Hallucination Company (sources also give 1977 as the start). He chose his stage name Falco after the German ski jumper Falko Weißpflog, whom he admired.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Three: the stage figure and the audience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the social Three, standing in the community drives action, and Claudio Naranjo called it prestige. In Falco it shows in the decision for a stage figure: on stage Hans Hölzel became &lsquo;Falco&rsquo;, the elegant Viennese in the suit with the self-assured manner. The name comes from an athlete, it is a commitment to achievement and impact.</p>
+          <p class="vb-intro">Success came quickly and in the greatest form: &lsquo;Der Kommissar&rsquo; (1981) brought him the breakthrough in the German-speaking world, &lsquo;Vienna Calling&rsquo;, &lsquo;Jeanny&rsquo; and &lsquo;Rock Me Amadeus&rsquo; followed. In March 1986 &lsquo;Rock Me Amadeus&rsquo; stood at the top of the US Billboard charts. To this day it is the only German-language song to reach that peak, and the album &lsquo;Falco 3&rsquo; reached number 3 on the US album charts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: charm and effect on the counterpart</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso and Russ Hudson call the Three with a Two-wing &lsquo;The Charmer&rsquo;. The <strong>Two-wing (w2)</strong> gives the Three the ability to win a counterpart over. In Falco the charm lies in the appearance: he played with the Viennese dialect, with the casual and the ironic, and thereby won listeners who did not understand a word of German.</p>
+          <p class="vb-intro">His lyrics and titles addressed a broad audience. &lsquo;Rock Me Amadeus&rsquo; linked pop with Mozart&rsquo;s name and was an offer that could be understood without prior knowledge.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: rhythmic speech-song in Viennese and international pop</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Falco&rsquo;s distinctiveness was musically concrete. He spoke and sang half rhythmically in German with a Viennese tinge, at a time when German-language pop played hardly any role internationally. The speech-song of &lsquo;Der Kommissar&rsquo; sounds like an early rap in German, and the international productions came from the Dutch brothers Bolland and combined funk and electronics with his Viennese German.</p>
+          <p class="vb-intro">In this way he brought a language into the international charts that otherwise did not appear there. That fits the cheetah image: his gift was real, and he made it usable as a brand through attitude and an unmistakable voice.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Pharrell Williams and Dmitri Hvorostovsky</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-pharrell-williams">Pharrell Williams (SO3w2)</a> shares with Falco the combination of charm, style and brand and the ability to reach a broad audience even with simple means. <a href="#beruehmte-dmitri-hvorostovsky">Dmitri Hvorostovsky (SO3w2)</a> shares with him the appearance as a singer with great presence.</p>
+          <p class="vb-intro">As an Austrian musician he also recalls <a href="#beruehmte-udo-juergens">Udo Jürgens (SE1w2)</a>, who as an entertainer followed an entirely different line built on songs and ideals. The music that &lsquo;Rock Me Amadeus&rsquo; refers to also belongs in this context: <a href="#beruehmte-wolfgang-amadeus-mozart">Wolfgang Amadeus Mozart (SE2w3)</a>.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social Three with Two-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is the courage for his own language and appearance: an Austrian who reaches the US top with Viennese German has achieved something that hardly anyone did before or after him. The stage figure he formed from himself is also proof of creative will.</p>
+          <p class="vb-intro">The shadow side of the Three is the close link between person and role. Whoever stands at the peak as &lsquo;Falco&rsquo; has to hold it, and the international peak of 1986 could not be repeated at that size. More about his inner life cannot be documented from the sources evaluated, so this portrait stays with the public.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: a legacy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Falco died on 6 February 1998, aged 40, in a traffic accident in the Dominican Republic when his car collided with a bus. He was buried in Vienna&rsquo;s Zentralfriedhof (Central Cemetery). The album &lsquo;Out of the Dark&rsquo; was released after his death. His songs are still played today.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
+        {route:"lebensmusterkompass/so3", label:"Life Pattern Compass: SO3 – Cheetah"},
+        {route:"beruehmte-pharrell-williams", label:"Portrait: Pharrell Williams (SO3w2)"},
+        {route:"beruehmte-dmitri-hvorostovsky", label:"Portrait: Dmitri Hvorostovsky (SO3w2)"},
+        {route:"beruehmte-udo-juergens", label:"Portrait: Udo Jürgens (SE1w2)"},
+            ])}
+    </div>
+  `);
+}

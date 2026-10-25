@@ -1343,6 +1343,7 @@ export function pharrellWilliamsPortraitPage() {
         {route:"subtype/so3", label:"SO3 \u2013 Der Gepard: Subtyp-Profil"},
         {route:"beruehmte-cristiano-ronaldo", label:"Portr\u00e4t: Cristiano Ronaldo (SO3w2)"},
         {route:"beruehmte-sahra-wagenknecht", label:"Portr\u00e4t: Sahra Wagenknecht (SO3w2)"},
+        {route:"beruehmte-falco", label:"Porträt: Falco (SO3w2)"},
       ])}
     </div>
   `);

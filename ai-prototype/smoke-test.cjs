@@ -191,6 +191,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-sven-platte", label: "Neues EN-Porträt: Sven Platte" },
   { hash: "#beruehmte-bruce-lee", label: "Neues Porträt: Bruce Lee" },
   { hash: "en/#beruehmte-bruce-lee", label: "Neues EN-Porträt: Bruce Lee" },
+  { hash: "#beruehmte-falco", label: "Neues Porträt: Falco" },
+  { hash: "en/#beruehmte-falco", label: "Neues EN-Porträt: Falco" },
   { hash: "#beruehmte-bradley-cooper", label: "Neues Porträt: Bradley Cooper" },
   { hash: "en/#beruehmte-bradley-cooper", label: "Neues EN-Porträt: Bradley Cooper" },
   { hash: "#beruehmte-richy-mueller", label: "Neues Porträt: Richy Müller" },

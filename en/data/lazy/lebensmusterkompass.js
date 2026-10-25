@@ -734,7 +734,7 @@ export const LEBENSMUSTERKOMPASS = {
   SO3: {
     tier: "Cheetah",
     kernthema: "Control over one's own image and the decisive public moment",
-    beispiele: ["Bruce Lee", "Sven Platte", "Johannes B. Kerner", "Franziska van Almsick", "Danielle Vasinova", "Christiane Hörbiger", "Karl Lagerfeld", "Cristiano Ronaldo", "Sahra Wagenknecht", "Pharrell Williams", "Dr. Christiaan Barnard", "Louis XIV", "Sean Connery", "Teresa of Ávila", "Bella Thorne", "Gottfried Wilhelm Leibniz", "Dr. Laurie Marker", "Pontius Pilate", "Klemens von Metternich", "Zoë Kravitz", "Sonoya Mizuno", "Will Yun Lee", "Virgil van Dijk", "William James", "Dmitri Hvorostovsky", "Pedro Alonso", "Leon Goretzka", "Prof. George Vithoulkas", "Catherine the Great", "Harry Houdini"],
+    beispiele: ["Falco", "Bruce Lee", "Sven Platte", "Johannes B. Kerner", "Franziska van Almsick", "Danielle Vasinova", "Christiane Hörbiger", "Karl Lagerfeld", "Cristiano Ronaldo", "Sahra Wagenknecht", "Pharrell Williams", "Dr. Christiaan Barnard", "Louis XIV", "Sean Connery", "Teresa of Ávila", "Bella Thorne", "Gottfried Wilhelm Leibniz", "Dr. Laurie Marker", "Pontius Pilate", "Klemens von Metternich", "Zoë Kravitz", "Sonoya Mizuno", "Will Yun Lee", "Virgil van Dijk", "William James", "Dmitri Hvorostovsky", "Pedro Alonso", "Leon Goretzka", "Prof. George Vithoulkas", "Catherine the Great", "Harry Houdini"],
     fingerabdruecke: [
       {
         titel: "The controlled gaze as an instrument of power",
@@ -754,7 +754,7 @@ export const LEBENSMUSTERKOMPASS = {
       {
         titel: "Transformation into a recognizable symbol – or a deliberate rejection of the safe territory for it",
         beschreibung: "At the end of the development often stands an instantly identifiable, iconic image. The path there often runs through a deliberate rejection of a safe but limiting option in favor of the open, visible field.",
-        beleg: "Lagerfeld: 'He had turned himself into a symbol ... global, timeless'; Leibniz turned down a secure professorship because 'the cheetah doesn't stay in the protected territory of a single lecture hall'; Sean Connery's radical crossing of distance from milkman to James Bond; Teresa of Ávila, for whom the regular convent routine was not enough: 'She didn't just want to be a nun – she wanted to renew the order, visibly, tangibly, undeniably.'; Bruce Lee, who shaped the child star and street fighter into a martial arts teaching and became the still instantly recognizable symbol of Hong Kong cinema"
+        beleg: "Lagerfeld: 'He had turned himself into a symbol ... global, timeless'; Leibniz turned down a secure professorship because 'the cheetah doesn't stay in the protected territory of a single lecture hall'; Sean Connery's radical crossing of distance from milkman to James Bond; Teresa of Ávila, for whom the regular convent routine was not enough: 'She didn't just want to be a nun – she wanted to renew the order, visibly, tangibly, undeniably.'; Bruce Lee, who shaped the child star and street fighter into a martial arts teaching and became the still instantly recognizable symbol of Hong Kong cinema; Falco, who formed the Viennese stage figure from Hans Hölzel and reached the US top with Viennese German"
       },
       {
         titel: "When the one bold leap and the controlled facade become a deadly staging (shadow form)",

@@ -2949,3 +2949,74 @@ export function johannLechnerPortraitPage() {
     </div>
   `);
 }
+
+export function falcoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-falco-portrait.jpg" alt="Falco – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-falco-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Falco</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Sozialer Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Österreichischer Sänger, 1957&ndash;1998 &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Gepard: der Wiener, der aus dem Stand beschleunigte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Gepard</strong> wartet nicht lange, er geht aus der Ruhe in die Beschleunigung. Hans Hölzel wurde am 19. Februar 1957 in Wien geboren, als einziger Überlebender von Drillingen, und wuchs nach einer Biografie als Einzelkind in bescheidenen Verhältnissen auf. Er bekam ab dem vierten Lebensjahr Klavierunterricht und besuchte kurz das Wiener Konservatorium.</p>
+          <p class="vb-intro">Ab 1974 spielte er Bass in der Band Umspannwerk und ab 1978 bei der Hallucination Company (die Quellen nennen auch 1977 als Beginn). Seinen Künstlernamen Falco wählte er nach dem deutschen Skispringer Falko Weißpflog, den er bewunderte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: die Kunstfigur und das Publikum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bei der sozialen Drei bestimmt das Ansehen in der Gemeinschaft das Handeln, und Claudio Naranjo nannte das Prestige. Bei Falco zeigt sich das in der Entscheidung für eine Kunstfigur: Hans Hölzel wurde auf der Bühne zu ›Falco‹, dem eleganten Wiener mit dem Anzug und dem selbstbewussten Auftreten. Der Name stammt von einem Sportler, er ist ein Bekenntnis zu Leistung und Wirkung.</p>
+          <p class="vb-intro">Der Erfolg kam schnell und in der größten Form: ›Der Kommissar‹ (1981) brachte ihm den Durchbruch im deutschsprachigen Raum, ›Vienna Calling‹, ›Jeanny‹ und ›Rock Me Amadeus‹ folgten. Im März 1986 stand ›Rock Me Amadeus‹ an der Spitze der US-Billboard-Charts. Es ist bis heute das einzige deutschsprachige Lied, das diese Spitze erreichte, und das Album ›Falco 3‹ kam auf Platz 3 der US-Albumcharts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Charme und Wirkung auf das Gegenüber</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso und Russ Hudson nennen die Drei mit Zweierflügel ›Den Charmeur‹. Der <strong>Zweierflügel (w2)</strong> bringt der Drei die Fähigkeit, ein Gegenüber für sich zu gewinnen. Bei Falco liegt das Charmante im Auftritt: Er spielte mit dem Wiener Dialekt, mit dem Lässigen und dem Ironischen und gewann dadurch auch Hörer, die kein Wort Deutsch verstanden.</p>
+          <p class="vb-intro">Seine Texte und Titel sprachen ein breites Publikum an. ›Rock Me Amadeus‹ verband Pop mit dem Namen Mozarts und war ein Angebot, das ohne Vorbildung verstanden werden konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Sprechgesang auf Wienerisch und internationaler Pop</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Falcos Eigenart war musikalisch konkret. Er sprach und sang halb rhythmisch auf Deutsch mit Wiener Färbung, zu einer Zeit, als deutschsprachiger Pop international kaum eine Rolle spielte. Der Sprechgesang von ›Der Kommissar‹ wirkt wie ein früher Rap auf Deutsch, die internationalen Produktionen kamen von den niederländischen Brüdern Bolland und verbanden Funk und Elektronik mit seinem Wiener Deutsch.</p>
+          <p class="vb-intro">Er brachte so eine Sprache in die internationalen Charts, die sonst dort nicht vorkam. Das passt zum Gepard-Bild: Seine Begabung war real, und er machte sie durch Haltung und eine unverwechselbare Stimme als Marke nutzbar.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Pharrell Williams und Dmitri Hvorostovsky</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-pharrell-williams">Pharrell Williams (SO3w2)</a> teilt mit Falco die Verbindung von Charme, Stil und Marke und die Fähigkeit, auch mit einfachen Mitteln ein breites Publikum zu erreichen. <a href="#beruehmte-dmitri-hvorostovsky">Dmitri Hvorostovsky (SO3w2)</a> verbindet mit ihm den Auftritt als Sänger mit großer Präsenz.</p>
+          <p class="vb-intro">Als österreichischen Musiker erinnert er außerdem an <a href="#beruehmte-udo-juergens">Udo Jürgens (SE1w2)</a>, der als Entertainer eine ganz andere, auf Lieder und Ideale gebaute Linie fuhr. Auch die Musik, an die ›Rock Me Amadeus‹ anknüpft, gehört in diesen Zusammenhang: <a href="#beruehmte-wolfgang-amadeus-mozart">Wolfgang Amadeus Mozart (SE2w3)</a>.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Drei mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist der Mut zur eigenen Sprache und zum Auftritt: Wer als Österreicher mit Wiener Deutsch die US-Spitze erreicht, hat etwas geschafft, was vor und nach ihm kaum jemand tat. Auch die Kunstfigur, die er aus sich formte, ist ein Beweis für Gestaltungswillen.</p>
+          <p class="vb-intro">Die Schattenseite der Drei ist die enge Verbindung von Person und Rolle. Wer als ›Falco‹ am Höhepunkt steht, muss ihn halten, und der internationale Spitzenwert von 1986 ließ sich in dieser Größe nicht wiederholen. Mehr über sein Inneres lässt sich aus den ausgewerteten Quellen nicht belegen, deshalb bleibt dieses Porträt beim Öffentlichen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Ein Vermächtnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Falco starb am 6. Februar 1998, mit 40 Jahren, bei einem Verkehrsunfall in der Dominikanischen Republik, als sein Wagen mit einem Bus zusammenstieß. Er wurde auf dem Wiener Zentralfriedhof beigesetzt. Das Album ›Out of the Dark‹ erschien nach seinem Tod. Seine Lieder werden bis heute gespielt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so3", label:"Lebensmusterkompass: SO3 – Gepard"},
+        {route:"beruehmte-pharrell-williams", label:"Porträt: Pharrell Williams (SO3w2)"},
+        {route:"beruehmte-dmitri-hvorostovsky", label:"Porträt: Dmitri Hvorostovsky (SO3w2)"},
+        {route:"beruehmte-udo-juergens", label:"Porträt: Udo Jürgens (SE1w2)"},
+            ])}
+    </div>
+  `);
+}

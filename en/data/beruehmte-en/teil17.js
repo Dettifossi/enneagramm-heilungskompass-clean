@@ -2338,6 +2338,7 @@ export function dmitriHvorostovskyPortraitPage() {
         {route:"krankheitsportraets-dmitri-hvorostovsky", label:"Illness Portrait: Dmitri Hvorostovsky (SO3w2) – glioblastoma"},
         {route:"beruehmte-anna-netrebko", label:"Portrait: Anna Netrebko (SP3w4)"},
         {route:"beruehmte-pedro-alonso", label:"Portrait: Pedro Alonso (SO3w4)"},
+        {route:"beruehmte-falco", label:"Portrait: Falco (SO3w2)"},
       ])}
     </div>
   `);

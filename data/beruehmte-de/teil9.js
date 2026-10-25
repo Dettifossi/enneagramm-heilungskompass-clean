@@ -1568,6 +1568,7 @@ export function udoJuergensPortraitPage() {
         {route:"beruehmte-marie-kondo", label:"Portr\xe4t: Marie Kondo (SE1w2)"},
         {route:"beruehmte-robert-oppenheimer", label:"Portr\xe4t: J. Robert Oppenheimer (SE1w2)"},
         {route:"beruehmte-ursula-lyon", label:"Porträt: Ursula Lyon (SE1w2)"},
+        {route:"beruehmte-falco", label:"Porträt: Falco (SO3w2)"},
       ])}
     </div>
   `);
