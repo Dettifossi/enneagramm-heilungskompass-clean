@@ -1,7 +1,7 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
 import { registerEntries, registerEntriesEN } from "./data/register.js?v=391";
-import { psychogrammErklaerung } from "./data/psychogramme-erklaerung.js?v=2";
+import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
 // Die Seitenfunktionen unten sind Platzhalter. Beim ersten Aufruf einer Route lädt der Browser
@@ -68696,4 +68696,4 @@ function _switchLangVoice(evt, url, audioFile) {
 window._switchLangVoice = _switchLangVoice;
 
 // Hilfsfunktionen für die nachgeladenen Porträt-Dateien (statt zirkulärem Import von dieser Datei)
-window.__kh = { animalResearcherMatchBlock, bookTip, pageHeader, relatedLinks, shell, tierAvatarLeft, tierAvatarTop };
+window.__kh = { psychogrammDaten, animalResearcherMatchBlock, bookTip, pageHeader, relatedLinks, shell, tierAvatarLeft, tierAvatarTop };

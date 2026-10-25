@@ -1,4 +1,4 @@
-const { shell, pageHeader, relatedLinks, bookTip } = window.__kh;
+const { shell, pageHeader, relatedLinks, bookTip, psychogrammDaten } = window.__kh;
 
 // Single-Rubriken von Veratrum album (Typ 8) aus »Homöopathische Arzneimittellehre der Single-Rubriken aus dem Geist-/Gemütsbereich«
 const RUBRIKEN = [
@@ -165,6 +165,22 @@ export function veratrumMindmapPage() {
         </div>
 
         <div class="mm-tree" style="display:grid;gap:0.7rem;">${zweige}</div>
+
+        ${(() => {
+          const pd = psychogrammDaten(8, "de");
+          if (!pd) return "";
+          const li = a => a.map(x => `<li>${x}</li>`).join("");
+          return `<div style="margin:1.6rem 0 0;padding:1.1rem 1.3rem;border:1px solid var(--line);border-radius:14px;">
+            <h2 style="font-size:1.1rem;margin:0 0 0.5rem;">Aus dem Psychogramm: was unter der Oberfläche liegt</h2>
+            <p style="font-size:0.9rem;line-height:1.6;margin:0 0 0.8rem;color:var(--muted);">Neben den Wahnideen der Rubriken gibt es Vorstellungen, die selten an die Oberfläche kommen. Das Psychogramm des Typs 8 zeigt das Selbstbild und darunter die Schattenanteile.</p>
+            <p style="font-size:0.95rem;margin:0 0 0.8rem;"><strong>Kernsatz:</strong> ${pd.kern}</p>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr));gap:1rem;">
+              <div><div style="font-weight:700;font-size:0.85rem;margin-bottom:0.3rem;">So möchte der Typ sich sehen</div><ul style="margin:0;padding-left:1.1rem;font-size:0.9rem;line-height:1.6;">${li(pd.selbst)}</ul></div>
+              <div><div style="font-weight:700;font-size:0.85rem;margin-bottom:0.3rem;color:${col};">Was darunter liegt (Schatten)</div><ul style="margin:0;padding-left:1.1rem;font-size:0.9rem;line-height:1.6;">${li(pd.schatten)}</ul></div>
+            </div>
+            <p style="margin:0.9rem 0 0;font-size:0.9rem;"><a href="#psychogramme/8">Zum vollständigen Psychogramm von Typ 8 →</a></p>
+          </div>`;
+        })()}
 
         <p class="vb-anmerkung" style="margin-top:1.4rem;font-style:italic;">Wichtig für das Verständnis: Die Seite gibt Rubriken wieder, die in der ›Homöopathischen Arzneimittellehre der Single-Rubriken aus dem Geist-/Gemütsbereich‹ des Autors stehen. Sie stellt keine Diagnose, gibt keine Therapieempfehlung und trifft keine Aussage zu Wirkung oder Heilung. Bei seelischen Krisen ersetzt sie keine ärztliche oder psychotherapeutische Hilfe.</p>
       </div>

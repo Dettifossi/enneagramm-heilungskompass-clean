@@ -12,7 +12,7 @@ import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
 import { registerEntries, registerEntriesEN } from "../data/register.js?v=388";
-import { psychogrammErklaerung } from "../data/psychogramme-erklaerung.js?v=2";
+import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 let TIERLEXIKON = null;
@@ -48453,4 +48453,4 @@ function _switchLangVoice(evt, url, audioFile) {
 }
 
 // Hilfsfunktionen für die nachgeladenen Porträt-Dateien (statt zirkulärem Import von dieser Datei)
-window.__kh = { animalResearcherMatchBlock, bookTip, pageHeader, relatedLinks, shell, tierAvatarLeft, tierAvatarTop };
+window.__kh = { psychogrammDaten, animalResearcherMatchBlock, bookTip, pageHeader, relatedLinks, shell, tierAvatarLeft, tierAvatarTop };

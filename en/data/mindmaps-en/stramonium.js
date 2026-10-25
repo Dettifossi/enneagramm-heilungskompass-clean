@@ -1,4 +1,4 @@
-const { shell, pageHeader, relatedLinks, bookTip } = window.__kh;
+const { shell, pageHeader, relatedLinks, bookTip, psychogrammDaten } = window.__kh;
 
 // Single rubrics of Stramonium (Type 5), from the author's »Homöopathische Arzneimittellehre der Single-Rubriken aus dem Geist-/Gemütsbereich«
 // [branch id, rubric, 1 = main delusion]
@@ -288,6 +288,22 @@ export function stramoniumMindmapPage() {
         </div>
 
         <div class="mm-tree" style="display:grid;gap:0.7rem;">${zweige}</div>
+
+        ${(() => {
+          const pd = psychogrammDaten(5, "en");
+          if (!pd) return "";
+          const li = a => a.map(x => `<li>${x}</li>`).join("");
+          return `<div style="margin:1.6rem 0 0;padding:1.1rem 1.3rem;border:1px solid var(--line);border-radius:14px;">
+            <h2 style="font-size:1.1rem;margin:0 0 0.5rem;">From the psychogram: what lies beneath the surface</h2>
+            <p style="font-size:0.9rem;line-height:1.6;margin:0 0 0.8rem;color:var(--muted);">Besides the delusions of the rubrics there are ideas that rarely come to the surface. The psychogram of Type 5 shows the self-image and, beneath it, the shadow parts.</p>
+            <p style="font-size:0.95rem;margin:0 0 0.8rem;"><strong>Core sentence:</strong> ${pd.kern}</p>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr));gap:1rem;">
+              <div><div style="font-weight:700;font-size:0.85rem;margin-bottom:0.3rem;">How the type wants to see itself</div><ul style="margin:0;padding-left:1.1rem;font-size:0.9rem;line-height:1.6;">${li(pd.selbst)}</ul></div>
+              <div><div style="font-weight:700;font-size:0.85rem;margin-bottom:0.3rem;color:${col};">What lies beneath (shadow)</div><ul style="margin:0;padding-left:1.1rem;font-size:0.9rem;line-height:1.6;">${li(pd.schatten)}</ul></div>
+            </div>
+            <p style="margin:0.9rem 0 0;font-size:0.9rem;"><a href="#psychogramme/5">To the full psychogram of Type 5 →</a></p>
+          </div>`;
+        })()}
 
         <p class="vb-anmerkung" style="margin-top:1.4rem;font-style:italic;">Important for understanding: The page reproduces rubrics from the author&rsquo;s German book &lsquo;Homöopathische Arzneimittellehre der Single-Rubriken aus dem Geist-/Gemütsbereich&rsquo; (homeopathic materia medica of the single rubrics of the mind). The English wording follows the usual repertory phrasing; the German edition is the reference. The page makes no diagnosis, gives no treatment recommendation and makes no statement about effect or healing. In emotional crises it does not replace medical or psychotherapeutic help.</p>
       </div>
