@@ -5488,10 +5488,10 @@ button.primary:active::after {
 }
 .share-page-btn {
   background: none; border: none; cursor: pointer; color: var(--muted);
-  padding: 0.2rem 0.4rem; margin-left: auto; display: inline-flex; align-items: center;
+  padding: 0.2rem 0.4rem; margin-left: 1.1rem; display: inline-flex; align-items: center;
 }
 .share-page-btn:hover { color: var(--ink); }
-.share-page-btn + .fav-heart-btn { margin-left: 0.1rem; }
+.page-back-btn + .share-page-btn { margin-left: auto; }
 .fav-heart-btn--active { color: var(--gold); }
 .fav-heart-btn:active { transform: scale(1.25); }
 
