@@ -22,6 +22,7 @@ export function mindmapsUebersichtPage() {
         <p class="eyebrow">Knowledge · Homeopathy</p>
         <h1 class="section-title">Mind maps of the single rubrics</h1>
         <p class="lead-small">A single rubric is a rubric in which only one homeopathic remedy is listed. For each of the nine Enneagram remedies of this Compass, a mind map shows all single rubrics of the mind section, ordered by theme and expandable. At the top stands the main delusion of the type.</p>
+        <figure style="margin:1.4rem 0;"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/mindmaps-single-rubriken.jpg" alt="Nine root and branch networks around the Enneagram, symbol of the mind maps" loading="lazy" style="width:100%;height:auto;border-radius:14px;display:block;" /></figure>
         <div style="display:grid;gap:0.8rem;margin:1.4rem 0;">${karten}</div>
         <p class="vb-anmerkung" style="font-style:italic;">Important for understanding: The pages reproduce rubrics from the author’s German book ‘Homöopathische Arzneimittellehre der Single-Rubriken aus dem Geist-/Gemütsbereich’. They make no diagnosis, give no treatment recommendation and make no statement about effect or healing.</p>
       </div>

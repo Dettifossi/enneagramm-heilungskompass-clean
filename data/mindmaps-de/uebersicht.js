@@ -22,6 +22,7 @@ export function mindmapsUebersichtPage() {
         <p class="eyebrow">Wissen · Homöopathie</p>
         <h1 class="section-title">Mindmaps der Single-Rubriken</h1>
         <p class="lead-small">Eine Single-Rubrik ist eine Rubrik, in der nur ein einziges homöopathisches Mittel steht. Zu jedem der neun Enneagramm-Heilmittel dieses Kompasses zeigt eine Mindmap alle Single-Rubriken des Geist-/Gemütsbereichs, nach Themen geordnet und aufklappbar. Oben steht jeweils die Hauptwahnidee des Typs.</p>
+        <figure style="margin:1.4rem 0;"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/mindmaps-single-rubriken.jpg" alt="Neun Wurzel- und Astgeflechte um das Enneagramm, Sinnbild der Mindmaps" loading="lazy" style="width:100%;height:auto;border-radius:14px;display:block;" /></figure>
         <div style="display:grid;gap:0.8rem;margin:1.4rem 0;">${karten}</div>
         <p class="vb-anmerkung" style="font-style:italic;">Wichtig für das Verständnis: Die Seiten geben Rubriken wieder, die in der ›Homöopathischen Arzneimittellehre der Single-Rubriken aus dem Geist-/Gemütsbereich‹ des Autors stehen. Sie stellen keine Diagnose, geben keine Therapieempfehlung und treffen keine Aussage zu Wirkung oder Heilung.</p>
       </div>
