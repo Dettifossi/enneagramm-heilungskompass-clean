@@ -2911,3 +2911,74 @@ export function maxSchmelingPortraitPage() {
     </div>
   `);
 }
+
+export function sarahPaulsonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sarah-paulson-portrait.jpg" alt="Sarah Paulson – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-sarah-paulson-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Sarah Paulson</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Sozialer Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Amerikanische Schauspielerin, geb. 1974 &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Gepard: das Kind aus Tampa, das Brooklyn zur Bühne machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Gepard</strong> wirkt aus der Ruhe heraus, und sein Auftritt entscheidet sich in wenigen Momenten. Sarah Paulson wurde am 17. Dezember 1974 in Tampa, Florida, geboren. Nach der Scheidung ihrer Eltern zog sie nach New York und besuchte in Brooklyn die P.S. 29, später in Manhattan die Fiorello H. LaGuardia High School und die American Academy of Dramatic Arts.</p>
+          <p class="vb-intro">Ihre Fernsehkarriere begann 1994 mit einer Folge von ›Law &amp; Order‹ und mehreren Fernsehfilmen. Die erste wiederkehrende Rolle hatte sie in ›American Gothic‹ (1995–1996), später folgte ›Jack &amp; Jill‹ (1999–2001), und mit ›Studio 60 on the Sunset Strip‹ (2006–2007) kam der Durchbruch, der ihr eine Golden-Globe-Nominierung einbrachte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Anerkennung unter Kolleginnen und Kollegen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bei der sozialen Drei bestimmt das Ansehen in der Gemeinschaft das Handeln, und Claudio Naranjo nannte das Prestige. Bei Paulson zeigt sich das in der Verbindung von Leistung und Zugehörigkeit zum Kreis der Besten ihres Fachs. Sie sagt, sie habe mit Ryan Murphy gleich zu Beginn zugesagt, ohne die Drehbücher zu lesen. Das ist Vertrauen in eine Gemeinschaft, in der sie sich bewähren will.</p>
+          <p class="vb-intro">Der Wunsch, sich zu beweisen, bleibt bei ihr spürbar: Sie spricht von einer ›terrible fear that I wasn't going to be able to do it well‹ (einer schrecklichen Angst, es nicht gut genug zu können) und sagt, die Nacht ihres Emmy-Gewinns sei eine der einsamsten ihres Lebens gewesen. Für ›The People v. O.J. Simpson: American Crime Story‹ (2016) gewann sie als Marcia Clark den Emmy und den Golden Globe, für ›Appropriate‹ am Broadway 2024 den Tony als beste Hauptdarstellerin in einem Theaterstück.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Wahrhaftigkeit statt Wirkung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso und Russ Hudson nennen die Drei mit Viererflügel ›Den Profi‹. Der <strong>Viererflügel (w4)</strong> gibt der Drei Tiefe und das Bedürfnis nach Echtheit. Bei Paulson zeigt er sich in ihrem Leitsatz ›I only think about what is truthful‹ (ich denke nur an das, was wahrhaftig ist) und in der Aussage ›I don't know how to fake it‹ (ich weiß nicht, wie man so tut als ob).</p>
+          <p class="vb-intro">Interviewer beschreiben sie als nachdenklicher, nervöser und leiser, als es ihre komischen Fernsehauftritte vermuten lassen. Sie sagt, sie bleibe an dem hängen, was sie als Fehler wahrnimmt (›I get very, very fixated on the mistakes‹), und: ›If I'm terrified, I feel compelled to do it‹ (wenn ich Angst habe, fühle ich mich gedrängt, es zu tun). Ihre Rollen sind oft gebrochene Außenseiterfiguren wie Ratched oder Linda Tripp.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Vorbereitung bis in die Stimme, Mut zu schwierigen Figuren</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Paulsons Leistung ist fachlich konkret. Für Linda Tripp in ›Impeachment: American Crime Story‹ bereitete sie sich etwa zwei Jahre vor: Sie hörte Podcasts, las Bücher, arbeitete mit einem Dialektcoach an Tripps Stimme und trainierte mit einer Bewegungsspezialistin. Sie nimmt Figuren, die das Publikum zunächst ablehnt, und macht sie nachvollziehbar, etwa die kühle Krankenschwester in ›Ratched‹ oder in ›American Horror Story‹ die zusammengewachsenen Zwillinge Bette und Dot.</p>
+          <p class="vb-intro">Das passt zum Bild der sozialen Drei mit Viererflügel: Talent allein genügt nicht, sie macht es durch Gründlichkeit und Wahrhaftigkeit nutzbar, und ihre Arbeit lebt von der Verwandlung statt vom Glanz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Sonoya Mizuno und Bella Thorne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-sonoya-mizuno">Sonoya Mizuno (SO3w4)</a> teilt mit Paulson die leise Intensität und den Wechsel zwischen Film und Serie. <a href="#beruehmte-bella-thorne">Bella Thorne (SO3w4)</a> verbindet mit ihr den Weg von der Kinderschauspielerin zur Künstlerin mit eigenem Anspruch.</p>
+          <p class="vb-intro">Der Unterschied: Paulson stützt ihr Ansehen weniger auf ihr Bild als auf die Arbeit an der Rolle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Drei mit Viererflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Verbindung aus Gründlichkeit und Mut: Wer sich zwei Jahre auf eine Rolle vorbereitet und Figuren übernimmt, die sich nicht anbiedern, gewinnt Vertrauen bei Publikum und Kritik. Auch die Aufrichtigkeit, mit der sie über ihre Angst spricht, gehört dazu.</p>
+          <p class="vb-intro">Die Schattenseite der Drei ist der innere Maßstab, der nie ganz ruht: Wer hängen bleibt an dem, was er für Fehler hält, spürt auch in der Stunde des Erfolgs die Leere, die sie als einsam beschreibt. Das lässt sich mit dem Viererflügel in Verbindung bringen, der den Blick nach innen lenkt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Bühne, Serie und Film</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Paulson ist (Stand 25. Oktober 2026) 51 Jahre alt und arbeitet weiter für Bühne, Fernsehen und Film. Sie ist mit der Schauspielerin Holland Taylor liiert; die Beziehung bestätigte sie 2016 in einem Interview.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so3", label:"Lebensmusterkompass: SO3 – Gepard"},
+        {route:"beruehmte-sonoya-mizuno", label:"Porträt: Sonoya Mizuno (SO3w4)"},
+        {route:"beruehmte-bella-thorne", label:"Porträt: Bella Thorne (SO3w4)"},
+        {route:"beruehmte-franziska-van-almsick", label:"Porträt: Franziska van Almsick (SO3w4)"},
+            ])}
+    </div>
+  `);
+}

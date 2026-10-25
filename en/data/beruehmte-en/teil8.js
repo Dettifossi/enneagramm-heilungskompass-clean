@@ -1966,6 +1966,7 @@ export function sonoyaMizunoPortraitPage() {
         {route:"beruehmte-bella-thorne", label:"Portrait: Bella Thorne (SO3w4)"},
         {route:"beruehmte-will-yun-lee", label:"Portrait: Will Yun Lee (SO3w2)"},
         {route:"beruehmte-danielle-vasinova", label:"Portrait: Danielle Vasinova (SO3w4)"},
+        {route:"beruehmte-sarah-paulson", label:"Portrait: Sarah Paulson (SO3w4)"},
       ])}
       </div>
     </div>

@@ -2945,3 +2945,74 @@ export function patrickStewartPortraitPage() {
     </div>
   `);
 }
+
+export function sarahPaulsonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sarah-paulson-portrait.jpg" alt="Sarah Paulson – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-sarah-paulson-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Sarah Paulson</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Social Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">American actress, b. 1974 &ndash; Animal correspondence: Cheetah</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Cheetah: the child from Tampa who made Brooklyn her stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>cheetah</strong> acts from stillness, and its appearance is decided in a few moments. Sarah Paulson was born on 17 December 1974 in Tampa, Florida. After her parents&rsquo; divorce she moved to New York and attended P.S. 29 in Brooklyn, later the Fiorello H. LaGuardia High School in Manhattan and the American Academy of Dramatic Arts.</p>
+          <p class="vb-intro">Her television career began in 1994 with an episode of &lsquo;Law &amp; Order&rsquo; and several TV movies. Her first recurring role was in &lsquo;American Gothic&rsquo; (1995&ndash;1996), followed by &lsquo;Jack &amp; Jill&rsquo; (1999&ndash;2001), and &lsquo;Studio 60 on the Sunset Strip&rsquo; (2006&ndash;2007) brought the breakthrough and a Golden Globe nomination.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Three: recognition among colleagues</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the social Three, standing in the community drives action, and Claudio Naranjo called it prestige. In Paulson it shows in the link between achievement and belonging to the circle of the best in her field. She says she signed on with Ryan Murphy right from the start without reading the scripts. That is trust in a community in which she wants to prove herself.</p>
+          <p class="vb-intro">The wish to prove herself remains noticeable: she speaks of &lsquo;a terrible fear that I wasn&rsquo;t going to be able to do it well&rsquo; and says the night of her Emmy win was one of the loneliest of her life. For &lsquo;The People v. O.J. Simpson: American Crime Story&rsquo; (2016) she won the Emmy and the Golden Globe as Marcia Clark, and for &lsquo;Appropriate&rsquo; on Broadway the 2024 Tony Award for best leading actress in a play.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: truthfulness instead of effect</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso and Russ Hudson call the Three with a Four-wing &lsquo;The Professional&rsquo;. The <strong>Four-wing (w4)</strong> gives the Three depth and the need for authenticity. In Paulson it shows in her guiding principle &lsquo;I only think about what is truthful&rsquo; and in the statement &lsquo;I don&rsquo;t know how to fake it&rsquo;.</p>
+          <p class="vb-intro">Interviewers describe her as more thoughtful, nervous and softly spoken than her comic television appearances suggest. She says she gets &lsquo;very, very fixated on the mistakes&rsquo; and, &lsquo;If I&rsquo;m terrified, I feel compelled to do it&rsquo;. Her roles are often broken outsider figures such as Ratched or Linda Tripp.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: preparation down to the voice, courage for difficult characters</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Paulson&rsquo;s achievement is concrete. For Linda Tripp in &lsquo;Impeachment: American Crime Story&rsquo; she prepared for about two years: she listened to podcasts, read books, worked with a dialect coach on Tripp&rsquo;s voice and trained with a movement specialist. She takes figures the audience first rejects and makes them comprehensible, such as the cold nurse in &lsquo;Ratched&rsquo; or, in &lsquo;American Horror Story&rsquo;, the conjoined twins Bette and Dot.</p>
+          <p class="vb-intro">This fits the image of the social Three with Four-wing: talent alone is not enough, she makes it usable through thoroughness and truthfulness, and her work lives on transformation rather than glamour.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Sonoya Mizuno and Bella Thorne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-sonoya-mizuno">Sonoya Mizuno (SO3w4)</a> shares with Paulson the quiet intensity and the movement between film and series. <a href="#beruehmte-bella-thorne">Bella Thorne (SO3w4)</a> shares with her the path from child actress to artist with a standard of her own.</p>
+          <p class="vb-intro">The difference: Paulson bases her standing less on her image than on work on the role.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social Three with Four-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is the combination of thoroughness and courage: whoever prepares two years for a role and takes on figures that do not ingratiate themselves wins trust among audience and critics. The candor with which she speaks about her fear belongs here too.</p>
+          <p class="vb-intro">The shadow side of the Three is the inner standard that never fully rests: whoever stays stuck on what he takes for mistakes feels, even in the hour of success, the emptiness she describes as lonely. That can be connected with the Four-wing, which turns the gaze inward.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: stage, series and film</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Paulson is (as of 25 October 2026) 51 years old and keeps working for stage, television and film. She is in a relationship with the actress Holland Taylor; she confirmed the relationship in a 2016 interview.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
+        {route:"lebensmusterkompass/so3", label:"Life Pattern Compass: SO3 – Cheetah"},
+        {route:"beruehmte-sonoya-mizuno", label:"Portrait: Sonoya Mizuno (SO3w4)"},
+        {route:"beruehmte-bella-thorne", label:"Portrait: Bella Thorne (SO3w4)"},
+        {route:"beruehmte-franziska-van-almsick", label:"Portrait: Franziska van Almsick (SO3w4)"},
+            ])}
+    </div>
+  `);
+}

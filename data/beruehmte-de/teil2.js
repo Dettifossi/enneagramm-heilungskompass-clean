@@ -3059,6 +3059,7 @@ export function franziskaVanAlmsickPortraitPage() {
         {route:"beruehmte-danielle-vasinova", label:"Porträt: Danielle Vasinova (SO3w4)"},
         {route:"beruehmte-christiane-hoerbiger", label:"Porträt: Christiane Hörbiger (SO3w2)"},
         {route:"beruehmte-sven-platte", label:"Porträt: Sven Platte (SO3w4)"},
+        {route:"beruehmte-sarah-paulson", label:"Porträt: Sarah Paulson (SO3w4)"},
       ])}
     </div>
   `);
