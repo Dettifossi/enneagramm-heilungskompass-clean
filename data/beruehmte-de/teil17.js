@@ -3048,7 +3048,7 @@ export function rominaPalmPortraitPage() {
         <h2 class="vb-section">1. Der Gepard: aus der Eifel auf den Laufsteg</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Ein <strong>Gepard</strong> wirkt aus der Ruhe heraus, und sein Auftritt entscheidet sich in wenigen Momenten. Romina Palm wurde am 2. Juni 1999 als Romina Scholl geboren und stammt ursprünglich aus Münstermaifeld in Rheinland-Pfalz. Später lebte sie in Köln. Nach der Hochzeit ihrer Eltern trug sie den Namen ihres Vaters.</p>
-          <p class="vb-intro">Schon vor ihrer Fernsehbekanntheit hatte sie nach Angaben mehrerer Porträts eine wachsende Community in den sozialen Medien. 2021 nahm sie an der 16. Staffel von ›Germany's Next Topmodel‹ mit Heidi Klum teil und erreichte den vierten Platz.</p>
+          <p class="vb-intro">Schon vor ihrer Fernsehbekanntheit hatte sie nach Angaben mehrerer Porträts eine wachsende Community in den sozialen Medien. 2021 nahm sie an der 16. Staffel von ›Germany's Next Topmodel‹ mit <a href="#beruehmte-heidi-klum">Heidi Klum (SX3w4)</a> teil und erreichte den vierten Platz.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Drei: Gemeinschaft, Sichtbarkeit und Ansehen</h2>

@@ -2981,7 +2981,7 @@ export function rominaPalmPortraitPage() {
         <h2 class="vb-section">1. The Cheetah: from the Eifel to the runway</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A <strong>cheetah</strong> acts from stillness, and its appearance is decided in a few moments. Romina Palm was born on 2 June 1999 as Romina Scholl and comes originally from Münstermaifeld in Rhineland-Palatinate. Later she lived in Cologne. After her parents&rsquo; wedding she took her father&rsquo;s name.</p>
-          <p class="vb-intro">According to several profiles she already had a growing community on social media before her television fame. In 2021 she took part in season 16 of &lsquo;Germany&rsquo;s Next Topmodel&rsquo; with Heidi Klum and reached fourth place.</p>
+          <p class="vb-intro">According to several profiles she already had a growing community on social media before her television fame. In 2021 she took part in season 16 of &lsquo;Germany&rsquo;s Next Topmodel&rsquo; with <a href="#beruehmte-heidi-klum">Heidi Klum (SX3w4)</a> and reached fourth place.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The social Three: community, visibility and standing</h2>
