@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=378";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=379";
 import { psychogrammErklaerung } from "./data/psychogramme-erklaerung.js?v=2";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -60725,7 +60725,7 @@ function nichtRealeVorstellungenPage() {
     { typ:6, vorstellung:"hinrichten wollen, Menschen würden sie/ihn", deutung:"Wer die Welt auf Gefahren absucht, kann die Bedrohung ins Äußerste steigern: Man will mich vernichten. Die Vorstellung kreist um Verfolgung, Misstrauen und die Angst vor dem Urteil der anderen.", mittel:"Opium", rubrik:"Kents Repertorium kennt keine gleichlautende Rubrik. Die verwandte Rubrik ›murdered, that he would be‹ führt viele Mittel, darunter Opium." },
     { typ:7, vorstellung:"gefangen genommen werden, würde", deutung:"Wer Freiheit und Vielfalt braucht, kann die Einengung als Gefangenschaft erleben: Ich werde festgesetzt, ich komme nicht mehr heraus. Die Vorstellung kreist um Verlust der Beweglichkeit und die Angst vor dem Schmerz, den die Freiheit fernhalten sollte.", mittel:"Belladonna", rubrik:"Kents Repertorium kennt keine gleichlautende Rubrik. Die verwandte Rubrik ›arrested, is about to be‹ führt acht Mittel, darunter Belladonna." },
     { typ:8, vorstellung:"Prinz, sei ein", deutung:"Wer natürliche, selbstbewusste Macht ausstrahlt, kann sich in eine Vormachtstellung hineinsteigern: Ich bin hier derjenige, der entscheidet, ich habe Macht über dich. Die Vorstellung kreist um die selbstverständliche Selbstbewusstheit des Achters und seine überschießende Präsenz und Stärke. Damit ist nicht die Überlegenheit des Typs 1 gemeint: Dort geht es um den Maßstab, hier um die Macht.", mittel:"Veratrum album", rubrik:"In Kents Repertorium steht in der Rubrik ›prince, is a‹ genau ein Mittel: Veratrum album." },
-    { typ:9, vorstellung:"Gnom, Wicht, sei ein", deutung:"Wer sich klein macht, um Frieden zu halten, kann sich als winzig und unbedeutend erleben: Ich bin ein Wicht, der nicht zählt. Die Vorstellung kreist um Unwichtigkeit und die Sehnsucht, nicht zur Last zu fallen.", mittel:"Cannabis indica", rubrik:"Kents Repertorium kennt keine gleichlautende Rubrik." },
+    { typ:9, vorstellung:"Gnom, Wicht, sei ein", deutung:"Wer sich klein macht, um Frieden zu halten, kann sich als winzig und unbedeutend erleben: Ich bin ein Wicht, der nicht zählt. Die Vorstellung kreist um Unwichtigkeit und die Sehnsucht, nicht zur Last zu fallen.", mittel:"Cannabis indica", rubrik:"Kents Repertorium kennt keine gleichlautende Rubrik. Nach Angabe des Autors geht die Vorstellung ›Gnom, Wicht‹ auf Edward C. Whitmont zurück (›Psyche and Substance‹ (›Psyche und Substanz‹): Essays on Homoeopathy in the Light of Jungian Psychology, 1980). Seit wann sie in Repertorien steht, ist nicht belegt." },
   ];
   return shell(`
     ${pageHeader("nicht-reale-vorstellungen")}
