@@ -3027,7 +3027,7 @@ export function larrySangerPortraitPage() {
         <h2 class="vb-section">6. Light and shadow of the self-preservation Five with Six-wing</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Bright is the persistence with which he has worked on the same question for two decades: how does reliable knowledge arise in an open community? His ideas helped shape Wikipedia, and the neutrality principle remains among its guidelines to this day.</p>
-          <p class="vb-intro">The shadow side of the Five is withdrawal into one&rsquo;s own domain after conflicts: disputes become new projects instead of bridges. In June 2026 the community of the English-language Wikipedia blocked him indefinitely. Among other things he was accused of canvassing (he had promoted a proposed &lsquo;WikiProject Intellectual Diversity&rsquo; on X). He himself calls the procedure unfair, others saw in it an attempt to influence debates. This portrait takes no position in this dispute.</p>
+          <p class="vb-intro">The shadow side of the Five is withdrawal into one&rsquo;s own domain after conflicts: disputes become new projects instead of bridges. In June 2026 the community of the English-language Wikipedia blocked him indefinitely. Among other things he was accused of canvassing, that is, deliberately mobilizing like-minded people outside Wikipedia for a discussion, which counts there as improper influence (he had promoted a proposed &lsquo;WikiProject Intellectual Diversity&rsquo; on X). He himself calls the procedure unfair, others saw in it an attempt to influence debates. This portrait takes no position in this dispute.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Where things stand: nine theses, family and faith</h2>
