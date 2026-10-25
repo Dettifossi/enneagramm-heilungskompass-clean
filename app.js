@@ -66352,12 +66352,11 @@ document.addEventListener("click", function(ev) {
   let lbl = "";
   try { lbl = _favLabel(r) || ""; } catch (e) {}
   if (!lbl) lbl = (document.querySelector("h1") || {}).textContent || document.title;
-  const url = location.origin + location.pathname + "#" + r;
-  const msg = lbl + "\n\nAus dem Enneagramm-Heilungskompass\n\nBeim ersten Öffnen einmal anmelden, danach geht es direkt.";
+  const msg = "Schau mal in den Enneagramm-Heilungskompass: ein interessanter Artikel.\n\n\u203a" + lbl + "\u2039\n\nEinfach in der App nach dem Titel suchen.";
   if (navigator.share) {
-    navigator.share({ title: lbl, text: msg, url: url }).catch(function() {});
+    navigator.share({ text: msg }).catch(function() {});
   } else if (navigator.clipboard) {
-    navigator.clipboard.writeText(msg + "\n" + url).then(function() { b.title = "Link kopiert"; });
+    navigator.clipboard.writeText(msg).then(function() { b.title = "Text kopiert"; });
   }
 });
 
