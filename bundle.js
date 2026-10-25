@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=371";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=372";
 import { psychogrammErklaerung } from "./data/psychogramme-erklaerung.js?v=2";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -17176,6 +17176,7 @@ const uiText = {
       { route: "laster-tugenden-affirmationen", label: "Laster \u00b7 Tugenden \u00b7 Affirmationen" },
       { route: "leidenschaft-und-wunde", label: "Leidenschaft und Wunde" },
       { route: "mangelgefuehle", label: "Mangelgef\xfchle" },
+      { route: "nicht-reale-vorstellungen", label: "Nicht reale Vorstellungen" },
         { route: "psychologische-verhaltensmuster-der-9-typen", label: "Psychologische Verhaltensmuster" },
         { route: "psychologisches-abwehrverhalten-der-9-typen", label: "Psychologisches Abwehrverhalten" },
       { route: "schatten-projektionen-miasmen", label: "Schatten, Projektionen & Miasmen" },
@@ -31657,6 +31658,7 @@ function enneagrammFilmeTypPage(n) {
 // NEU-Markierungen f\u00fcr Schaubilder: route \u2192 Datum des Eintrags (Badge l\u00e4uft nach 30 Tagen ab)
 // Beispiel: { "neues-schaubild": "2026-07-15" }
 const SCHAUBILDER_NEU = {
+  "nicht-reale-vorstellungen": "2026-10-25",
   "enneagramm-meets-jin-shin-jyutsu": "2026-09-01",
   "fluegelbeschreibungen": "2026-09-01",
   "wahre-freiheit": "2026-09-01",
@@ -31693,7 +31695,7 @@ function _neuAktiv(route) {
   return !!d && (new Date() - new Date(d)) < 30 * 864e5;
 }
 
-const HEILWISSEN_ROUTES = new Set(["wann-entsteht-der-typ", "kroetenschlucken", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["wann-entsteht-der-typ", "kroetenschlucken", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "nicht-reale-vorstellungen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -60713,6 +60715,73 @@ function gifteDesGeistesPage() {
   `);
 }
 
+function nichtRealeVorstellungenPage() {
+  const rows = [
+    { typ:1, vorstellung:"Überlegenheit, von", deutung:"Wer einen hohen inneren Maßstab anlegt, kann sich über die anderen erhoben fühlen: Ich weiß, wie es richtig geht. Hinter der Überlegenheit steht oft die Anstrengung, es richtig machen zu müssen, und der Zorn über das, was nicht stimmt.", mittel:"Platinum metallicum" },
+    { typ:2, vorstellung:"verkauft worden, sei", deutung:"Wer sich ganz für andere hingibt, kann das Gefühl entwickeln, am Ende benutzt oder weggegeben zu werden: Ich habe alles gegeben, und man hat mich verkauft. Die Vorstellung kreist um Hingabe und die Angst, dafür nicht gesehen zu werden.", mittel:"Hyoscyamus niger" },
+    { typ:3, vorstellung:"unsichtbaren Dingen, von", deutung:"Wer vor allem im Sichtbaren lebt, im Bild und im Erfolg, begegnet dem Unsichtbaren als dem Unbekannten: dem, was hinter dem Bild liegt und sich nicht vorzeigen lässt. Die Vorstellung kreist um das, was nicht greifbar ist, und um die Angst, innerlich leer zu sein.", mittel:"Tarantula hispanica" },
+    { typ:4, vorstellung:"Gelübde (= Versprechen!) brechen, würde ein", deutung:"Wer dem Verlorenen und dem Ideal treu bleibt, kann sich an ein inneres Versprechen gebunden fühlen und die Vorstellung haben, es zu brechen, wenn er sich dem Leben zuwendet. Treue zum Schmerz, zur Sehnsucht und zur eigenen Tragik gehört zu diesem Bild.", mittel:"Ignatia amara" },
+    { typ:5, vorstellung:"Wildnis zu sein, allein in der", deutung:"Wer sich zurückzieht, um sicher zu sein, kann sich zuletzt mutterseelenallein erleben: ganz auf sich gestellt, ohne Verbindung. Die Vorstellung kreist um Selbsterhaltung und Isolation. Nach Auskunft des Autors ist sie eine Single-Rubrik: Sie findet sich in der Repertoriumssprache nur bei diesem einen Mittel.", mittel:"Stramonium" },
+    { typ:6, vorstellung:"hinrichten wollen, Menschen würden sie/ihn", deutung:"Wer die Welt auf Gefahren absucht, kann die Bedrohung ins Äußerste steigern: Man will mich vernichten. Die Vorstellung kreist um Verfolgung, Misstrauen und die Angst vor dem Urteil der anderen.", mittel:"Opium" },
+    { typ:7, vorstellung:"gefangen genommen werden, würde", deutung:"Wer Freiheit und Vielfalt braucht, kann die Einengung als Gefangenschaft erleben: Ich werde festgesetzt, ich komme nicht mehr heraus. Die Vorstellung kreist um Verlust der Beweglichkeit und die Angst vor dem Schmerz, den die Freiheit fernhalten sollte.", mittel:"Belladonna" },
+    { typ:8, vorstellung:"Prinz, sei ein", deutung:"Wer Stärke und Gerechtigkeit verkörpert, kann sich in eine herrscherliche Rolle hineinsteigern: Ich bin der, dem Rang und Respekt zustehen. Die Vorstellung kreist um Macht, Würde und den Schutz des Eigenen.", mittel:"Veratrum album" },
+    { typ:9, vorstellung:"Gnom, Wicht, sei ein", deutung:"Wer sich klein macht, um Frieden zu halten, kann sich als winzig und unbedeutend erleben: Ich bin ein Wicht, der nicht zählt. Die Vorstellung kreist um Unwichtigkeit und die Sehnsucht, nicht zur Last zu fallen.", mittel:"Cannabis indica" },
+  ];
+  return shell(`
+    ${pageHeader("nicht-reale-vorstellungen")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Nicht reale Vorstellungen</p>
+      <h1>Die nicht realen Vorstellungen der 9 Enneagrammtypen</h1>
+      <p class="lead-small">Ein subjektives Empfinden, gleichgültig ob es der Wirklichkeit entspricht: Jeder Enneagrammtyp trägt eine Hauptvorstellung in sich, mit der er die Welt und sich selbst sieht. In der Sprache der homöopathischen Repertorien heißt so etwas ›Delusion‹. Das Schaubild zeigt die neun Hauptvorstellungen, entnommen aus ›Rathmer's Repertorium‹.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="./assets/schaubilder/nicht-reale-vorstellungen/nicht-reale-vorstellungen.jpg"
+             alt="Die nicht realen Hauptvorstellungen der 9 Enneagrammtypen aus Rathmer's Repertorium"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Was ist eine nicht reale Vorstellung?</h2>
+        <p class="vb-intro">Gemeint ist ein subjektives Empfinden eines Menschen, gleich ob es der Realität entspricht oder nicht: ein falscher Eindruck von etwas, eine falsche Überzeugung. Nicht reale Vorstellungen sind verzerrte Sichtweisen auf die Wirklichkeit und auf die eigenen Lebensumstände. Es geht um die subjektive Sichtweise des Menschen, unabhängig davon, wie die Lage objektiv ist.</p>
+        <p class="vb-intro">Die Fachsprache der homöopathischen Repertorien ist englischen Ursprungs. Das erste brauchbare Repertorium schuf James Tyler Kent (1849–1916): Sein ›Repertory of the Homœopathic Materia Medica‹ erschien 1897. Die deutschen Fassungen haben den Begriff ›Delusion‹ übernommen und meist mit ›Wahnidee‹ übersetzt. Das englische Wort ist aber weiter gefasst: Es umfasst Wahnvorstellung, Täuschung, Halluzination und die bloße Vorstellung. Deshalb spricht dieses Schaubild von nicht realen Vorstellungen.</p>
+        <p class="vb-intro">Das Enneagramm kennt dieselbe Einsicht: Wir sehen die Welt nicht, wie sie ist, sondern wie wir sind. Die Enneagramm-Fixierung ist wie ein Filter, durch den ein Mensch alles wahrnimmt. Die Hauptvorstellung eines Typs ist die Zuspitzung dieses Filters, so wie sie in der Arzneimittellehre beschrieben wird.</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:2rem 0 1rem;color:var(--ink);">Die neun Hauptvorstellungen im Überblick</h2>
+        <div style="display:grid;gap:1rem;">
+          ${rows.map(r => `
+            <div style="border-left:3px solid ${typeColor(r.typ)};padding:0.9rem 1.1rem;background:color-mix(in srgb, ${typeColor(r.typ)} 6%, transparent);border-radius:0 0.6rem 0.6rem 0;">
+              <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.3rem;flex-wrap:wrap;">
+                <span style="display:inline-flex;align-items:center;justify-content:center;width:1.8rem;height:1.8rem;border-radius:50%;background:${typeColor(r.typ)};color:#fff;font-weight:700;flex-shrink:0;font-size:0.9rem;">${r.typ}</span>
+                <strong style="color:${typeColor(r.typ)};">${TYPNAMEN[r.typ]}</strong>
+              </div>
+              <div style="font-size:0.88rem;line-height:1.6;display:grid;gap:0.4rem;">
+                <div><span style="font-weight:700;color:var(--muted);">Repertoriums-Vorstellung:</span> <em>${r.vorstellung}</em></div>
+                <div><span style="font-weight:700;color:var(--muted);">Deutung:</span> ${r.deutung}</div>
+                <div style="font-size:0.78rem;color:var(--muted);">Zugeordnetes Mittel in der Enneagramm-Homöopathie dieses Kompasses: ${r.mittel}</div>
+              </div>
+            </div>
+          `).join("")}
+        </div>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:2rem 0 1rem;color:var(--ink);">Wie sich das Bild in Lebensläufen zeigt</h2>
+        <p class="vb-intro">Am Typ 5 lässt sich das gut nachlesen: Das Bild der Wildnis begegnet einem in den Lebensfäden von <a href="#beruehmte-juliane-koepcke">Juliane Koepcke</a>, <a href="#beruehmte-jean-jacques-rousseau">Jean-Jacques Rousseau</a>, <a href="#beruehmte-hermann-hesse">Hermann Hesse</a>, <a href="#beruehmte-edward-snowden">Edward Snowden</a>, <a href="#beruehmte-hannah-arendt">Hannah Arendt</a>, <a href="#beruehmte-lise-meitner">Lise Meitner</a>, <a href="#beruehmte-blaise-pascal">Blaise Pascal</a> und <a href="#beruehmte-franz-kafka">Franz Kafka</a>. Nach der Beobachtung des Autors zeigt sich dieses Erleben am reinsten beim selbsterhaltenden Fünfer, bei dem es um die pure Selbsterhaltung geht.</p>
+
+        <p class="vb-anmerkung" style="margin-top:1rem;font-style:italic;">Wichtig für das Verständnis: Die Deutungen sind Angebote des Autors, das Schaubild stellt keine Diagnose und keine Therapieempfehlung dar und trifft keine Aussage zu Wirkung oder Heilung. Ein Mensch hat eine Fixierung und damit auch eine Hauptvorstellung, er ist nicht seine Vorstellung. Wer sich in einem Bild wiedererkennt, kann es als Hinweis auf den eigenen Filter lesen. Die Seite ersetzt keine ärztliche oder heilkundliche Beratung.</p>
+      </div>
+
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${relatedLinks([
+        {route:"enneagramm-homoeopathie", label:"Enneagramm & Homöopathie"},
+        {route:"homoeopathie", label:"Homöopathische Mittel"},
+        {route:"schatten-projektionen-miasmen", label:"Schatten, Projektionen & Miasmen"},
+        {route:"gifte-des-geistes", label:"Gifte des Geistes"},
+        {route:"bedrohungsszenarien", label:"Bedrohungsszenarien"},
+        {route:"kerneberzeugungen", label:"Kernüberzeugungen"},
+      ])}
+    </section>
+  `);
+}
+
 function schattenProjektionenMiasmenPage() {
   const rows = [
     { typ:9, energie:"Bauchenergie blockiert (verdrängt)", schatten:"Ich bin unwichtig, ich bin nicht liebenswert.", projektion:"Andere sind wichtiger und liebenswerter als ich.", miasma:"Psora", label:"Trägheit & Harmonie" },
@@ -66237,6 +66306,7 @@ const ROUTES = {
     "aufmerksamkeitsfokus": aufmerksamkeitsfokusPage,
     "empfindliche-punkte": empfindlichePunktePage,
     "schatten-projektionen-miasmen": schattenProjektionenMiasmenPage,
+    "nicht-reale-vorstellungen": nichtRealeVorstellungenPage,
     "befreiende-fragen": befreiendeFragenPage,
     "fuehrungsstile": fuehrungsstilePage,
     "gifte-des-geistes": gifteDesGeistesPage,

@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2634", date: "2026-10-25", text: "Neues Schaubild: Die nicht realen Vorstellungen der 9 Enneagrammtypen – von ›Überlegenheit‹ bis ›Gnom, Wicht, sei ein‹, dazu das Bild ›allein in der Wildnis‹ beim Typ 5.", text_en: "New chart: The unreal ideas of the 9 Enneagram types – from 'superiority' to 'being a gnome, a wight', including the image 'alone in a wilderness' for Type 5.", route: "nicht-reale-vorstellungen" },
     { version: "v2633", date: "2026-10-25", text: "Neues Porträt: Simone Menne (SE5w6) – Managerin, ehemalige Lufthansa-Finanzvorständin.", text_en: "New portrait: Simone Menne (SP5w6) – executive, former Lufthansa CFO.", route: "beruehmte-simone-menne" },
     { version: "v2632", date: "2026-10-25", text: "Neues Porträt: Juliane Koepcke (SE5w6) – Biologin und Überlebende des LANSA-Flugs 508.", text_en: "New portrait: Juliane Koepcke (SP5w6) – biologist and survivor of LANSA Flight 508.", route: "beruehmte-juliane-koepcke" },
     { version: "v2631", date: "2026-10-25", text: "Neues Porträt: Jimmy Wales (SO5w6) – Gründer von Wikipedia.", text_en: "New portrait: Jimmy Wales (SO5w6) – founder of Wikipedia.", route: "beruehmte-jimmy-wales" },

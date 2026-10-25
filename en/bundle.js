@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=369";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=370";
 import { psychogrammErklaerung } from "../data/psychogramme-erklaerung.js?v=2";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -5790,6 +5790,7 @@ function enneagrammFilmeTypPage(code) {
 // NEU-Markierungen für Charts: route → Datum des Eintrags (Badge läuft nach 30 Tagen ab)
 // Beispiel: { "neues-schaubild": "2026-07-15" }
 const SCHAUBILDER_NEU = {
+  "nicht-reale-vorstellungen": "2026-10-25",
   "architektur-raumgestaltung-der-9-typen": "2026-07-31",
   "enneagramm-emotionalitaet": "2026-08-08",
   "enneagramm-instinkt": "2026-08-08",
@@ -5822,7 +5823,7 @@ function _neuAktiv(route) {
   return !!d && (new Date() - new Date(d)) < 30 * 864e5;
 }
 
-const HEILWISSEN_ROUTES = new Set(["wann-entsteht-der-typ", "kroetenschlucken", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["wann-entsteht-der-typ", "kroetenschlucken", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "nicht-reale-vorstellungen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -6097,6 +6098,7 @@ text.nav = [
     { route: "ego-persoenlichkeit", label: "Ego Personality" },
     { route: "angst-essenz", label: "Fear → Essence" },
     { route: "mangelgefuehle", label: "Feelings of Deficiency" },
+    { route: "nicht-reale-vorstellungen", label: "Unreal Ideas" },
     { route: "formen-der-angst", label: "Forms of Fear" },
     { route: "frustrationen", label: "Frustrations" },
     { route: "gaslighting-enneagramm", label: "Gaslighting & Manipulation" },
@@ -40294,6 +40296,73 @@ function gifteDesGeistesPage() {
   `);
 }
 
+function nichtRealeVorstellungenPage() {
+  const rows = [
+    { typ:1, vorstellung:"of superiority", deutung:"Whoever applies a high inner standard can feel raised above the others: I know how it is done right. Behind the superiority there is often the strain of having to do it right and the anger about what is not right.", mittel:"Platinum metallicum" },
+    { typ:2, vorstellung:"of having been sold", deutung:"Whoever gives himself entirely for others can come to feel used or given away in the end: I gave everything, and I was sold. The idea circles around devotion and the fear of not being seen for it.", mittel:"Hyoscyamus niger" },
+    { typ:3, vorstellung:"of invisible things", deutung:"Whoever lives mainly in the visible, in image and success, meets the invisible as the unknown: what lies behind the image and cannot be shown. The idea circles around what cannot be grasped and the fear of being empty inside.", mittel:"Tarantula hispanica" },
+    { typ:4, vorstellung:"would break a vow (= promise!)", deutung:"Whoever stays faithful to what is lost and to the ideal can feel bound to an inner promise and have the idea of breaking it by turning toward life. Faithfulness to pain, longing and one's own tragedy belongs to this image.", mittel:"Ignatia amara" },
+    { typ:5, vorstellung:"alone in a wilderness", deutung:"Whoever withdraws to be safe can in the end feel utterly alone: entirely on his own, without connection. The idea circles around self-preservation and isolation. According to the author it is a single rubric: in the language of the repertory it is found with this one remedy only.", mittel:"Stramonium" },
+    { typ:6, vorstellung:"people would execute him/her", deutung:"Whoever scans the world for dangers can raise the threat to the extreme: they want to destroy me. The idea circles around persecution, distrust and the fear of the judgment of others.", mittel:"Opium" },
+    { typ:7, vorstellung:"would be taken prisoner", deutung:"Whoever needs freedom and variety can experience constraint as captivity: I am being pinned down, I will not get out. The idea circles around loss of mobility and the fear of the pain that freedom was meant to keep away.", mittel:"Belladonna" },
+    { typ:8, vorstellung:"being a prince", deutung:"Whoever embodies strength and justice can work himself into a ruler's role: I am the one to whom rank and respect are due. The idea circles around power, dignity and the protection of what is one's own.", mittel:"Veratrum album" },
+    { typ:9, vorstellung:"being a gnome, a wight", deutung:"Whoever makes himself small to keep the peace can experience himself as tiny and insignificant: I am a wight who does not count. The idea circles around unimportance and the longing not to be a burden.", mittel:"Cannabis indica" },
+  ];
+  return shell(`
+    ${pageHeader("nicht-reale-vorstellungen")}
+    <section class="narrow">
+      <p class="eyebrow">Charts &middot; Unreal Ideas</p>
+      <h1>The Unreal Ideas of the 9 Enneagram Types</h1>
+      <p class="lead-small">A subjective feeling, whether or not it corresponds to reality: every Enneagram type carries a main idea with which it sees the world and itself. In the language of homeopathic repertories such a thing is called a "delusion". The chart shows the nine main ideas, taken from "Rathmer's Repertorium". (The original chart is in German.)</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="../assets/schaubilder/nicht-reale-vorstellungen/nicht-reale-vorstellungen.jpg"
+             alt="The unreal main ideas of the 9 Enneagram types from Rathmer's Repertorium (German original)"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">What Is an Unreal Idea?</h2>
+        <p class="vb-intro">What is meant is a person's subjective feeling, whether or not it corresponds to reality: a false impression of something, a false conviction. Unreal ideas are distorted views of reality and of one's own circumstances. It is about the subjective view of the person, regardless of how the situation objectively is.</p>
+        <p class="vb-intro">The technical language of homeopathic repertories is English in origin. The first usable repertory was created by James Tyler Kent (1849–1916): his "Repertory of the Homœopathic Materia Medica" appeared in 1897. In English the word "delusion" is broader than the German "Wahnidee": it covers delusion, deception, hallucination and the mere idea. That is why this chart speaks of unreal ideas.</p>
+        <p class="vb-intro">The Enneagram knows the same insight: we do not see the world as it is, but as we are. The Enneagram fixation is like a filter through which a person perceives everything. The main idea of a type is the sharpening of this filter, as it is described in the materia medica.</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:2rem 0 1rem;color:var(--ink);">The Nine Main Ideas at a Glance</h2>
+        <div style="display:grid;gap:1rem;">
+          ${rows.map(r => `
+            <div style="border-left:3px solid ${typeColor(r.typ)};padding:0.9rem 1.1rem;background:color-mix(in srgb, ${typeColor(r.typ)} 6%, transparent);border-radius:0 0.6rem 0.6rem 0;">
+              <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.3rem;flex-wrap:wrap;">
+                <span style="display:inline-flex;align-items:center;justify-content:center;width:1.8rem;height:1.8rem;border-radius:50%;background:${typeColor(r.typ)};color:#fff;font-weight:700;flex-shrink:0;font-size:0.9rem;">${r.typ}</span>
+                <strong style="color:${typeColor(r.typ)};">${TYPNAMEN[r.typ]}</strong>
+              </div>
+              <div style="font-size:0.88rem;line-height:1.6;display:grid;gap:0.4rem;">
+                <div><span style="font-weight:700;color:var(--muted);">Repertory idea:</span> <em>${r.vorstellung}</em></div>
+                <div><span style="font-weight:700;color:var(--muted);">Interpretation:</span> ${r.deutung}</div>
+                <div style="font-size:0.78rem;color:var(--muted);">Remedy assigned in this Compass's Enneagram homeopathy: ${r.mittel}</div>
+              </div>
+            </div>
+          `).join("")}
+        </div>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:2rem 0 1rem;color:var(--ink);">How the Image Shows in Life Stories</h2>
+        <p class="vb-intro">Type 5 lets one read it well: the image of the wilderness meets one in the life threads of <a href="#beruehmte-juliane-koepcke">Juliane Koepcke</a>, <a href="#beruehmte-jean-jacques-rousseau">Jean-Jacques Rousseau</a>, <a href="#beruehmte-hermann-hesse">Hermann Hesse</a>, <a href="#beruehmte-edward-snowden">Edward Snowden</a>, <a href="#beruehmte-hannah-arendt">Hannah Arendt</a>, <a href="#beruehmte-lise-meitner">Lise Meitner</a>, <a href="#beruehmte-blaise-pascal">Blaise Pascal</a> and <a href="#beruehmte-franz-kafka">Franz Kafka</a>. According to the author's observation this experience shows most purely in the self-preservation Five, in whom it is about pure self-preservation.</p>
+
+        <p class="vb-anmerkung" style="margin-top:1rem;font-style:italic;">Important for understanding: the interpretations are offerings by the author; the chart is not a diagnosis or a therapy recommendation and makes no statement about effect or healing. A person has a fixation and with it a main idea, he is not his idea. Whoever recognizes himself in an image can read it as a hint about his own filter. The page does not replace medical or therapeutic advice.</p>
+      </div>
+
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${relatedLinks([
+        {route:"enneagramm-homoeopathie", label:"Enneagram & Homeopathy"},
+        {route:"homoeopathie", label:"Homeopathic Remedies"},
+        {route:"schatten-projektionen-miasmen", label:"Shadows, Projections & Miasms"},
+        {route:"gifte-des-geistes", label:"Poisons of the Mind"},
+        {route:"bedrohungsszenarien", label:"Threat Scenarios"},
+        {route:"kerneberzeugungen", label:"Core Beliefs"},
+      ])}
+    </section>
+  `);
+}
+
 function schattenProjektionenMiasmenPage() {
   const rows = [
     { typ:9, energie:"Body energy blocked (repressed)", schatten:"I am unimportant, I am not lovable.", projektion:"Others are more important and more lovable than me.", miasma:"Psora", label:"Sloth & Harmony" },
@@ -46012,6 +46081,7 @@ function subtypeSchaubilderPage() {
     "aufmerksamkeitsfokus": aufmerksamkeitsfokusPage,
     "empfindliche-punkte": empfindlichePunktePage,
     "schatten-projektionen-miasmen": schattenProjektionenMiasmenPage,
+    "nicht-reale-vorstellungen": nichtRealeVorstellungenPage,
     "befreiende-fragen": befreiendeFragenPage,
     "fuehrungsstile": fuehrungsstilePage,
     "gifte-des-geistes": gifteDesGeistesPage,

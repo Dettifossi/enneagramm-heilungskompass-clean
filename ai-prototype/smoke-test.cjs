@@ -207,6 +207,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-juliane-koepcke", label: "Neues EN-Porträt: Juliane Koepcke" },
   { hash: "#beruehmte-simone-menne", label: "Neues Porträt: Simone Menne" },
   { hash: "en/#beruehmte-simone-menne", label: "Neues EN-Porträt: Simone Menne" },
+  { hash: "#nicht-reale-vorstellungen", label: "Neues Schaubild: Nicht reale Vorstellungen" },
+  { hash: "en/#nicht-reale-vorstellungen", label: "Neues EN-Schaubild: Unreal Ideas" },
   { hash: "#beruehmte-bradley-cooper", label: "Neues Porträt: Bradley Cooper" },
   { hash: "en/#beruehmte-bradley-cooper", label: "Neues EN-Porträt: Bradley Cooper" },
   { hash: "#beruehmte-richy-mueller", label: "Neues Porträt: Richy Müller" },
