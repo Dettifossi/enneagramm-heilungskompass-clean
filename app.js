@@ -32091,7 +32091,7 @@ export function pageHeader(active) {
       const _on=_isFav(_fr);
       const _hb=_fl?('<button class="fav-heart-btn'+((_on)?' fav-heart-btn--active':'')+'" id="fav-heart-btn" data-route-fav="'+_fr+'" aria-label="Favorit" title="'+(_on?'Aus Favoriten entfernen':'Zu Favoriten hinzuf\xfcgen')+'">'+(_on?'\u2665':'\u2661')+'</button>'):"";
 const _sb='<button class="share-page-btn" id="share-page-btn" aria-label="Seite teilen" title="Seite teilen"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="13.5" x2="15.4" y2="17.5"/><line x1="15.4" y1="6.5" x2="8.6" y2="10.5"/></svg></button>';
-            return'<div class="page-back-bar"><button class="page-back-btn" id="js-back-btn">\u2190 Zur\xfcck</button>'+_sb+_hb+'</div>';
+            return'<div class="page-back-bar"><button class="page-back-btn" id="js-back-btn">\u2190 Zur\xfcck</button>'+_hb+_sb+'</div>';
     })()}
   `;
 }
@@ -66358,7 +66358,25 @@ document.addEventListener("click", function(ev) {
   let lbl = "";
   try { lbl = _favLabel(r) || ""; } catch (e) {}
   if (!lbl) lbl = (document.querySelector("h1") || {}).textContent || document.title;
-  const msg = "Schau mal in den Enneagramm-Heilungskompass: ein interessanter Artikel.\n\n\u203a" + lbl + "\u2039\n\nEinfach in der App nach dem Titel suchen.";
+  const _pfad = (function() {
+    try {
+      let rr = r;
+      const pf = [["beruehmte-", "beruehmte-persoenlichkeiten"], ["kriminalpsychologie-", "kriminalpsychologie"], ["krankheitsportraets-", "krankheitsportraets"], ["mindmap-", "mindmaps-single-rubriken"]];
+      for (const q of pf) { if (rr.startsWith(q[0]) && rr !== q[1]) { rr = q[1]; break; } }
+      for (const n of text.nav) {
+        if (n.route === rr && !n.dropdown) return n.label;
+        if (n.dropdown) {
+          let h = "";
+          for (const d of n.dropdown) {
+            if (d.heading) { h = d.heading; continue; }
+            if (d.route === rr) return n.label + " \u203a " + (h ? h + " \u203a " : "") + d.label;
+          }
+        }
+      }
+    } catch (e) {}
+    return "";
+  })();
+  const msg = "Schau mal in den Enneagramm-Heilungskompass: ein interessanter Artikel.\n\n\u203a" + lbl + "\u2039\n\n" + (_pfad ? "Zu finden in der App im Menü unter:\n" + _pfad : "Einfach in der App nach dem Titel suchen.");
   if (navigator.share) {
     if (_shareFile && navigator.canShare && navigator.canShare({ files: [_shareFile] })) {
       navigator.share({ files: [_shareFile], text: msg }).catch(function(e) { if (e && e.name !== "AbortError") navigator.share({ text: msg }).catch(function() {}); });
