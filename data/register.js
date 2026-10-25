@@ -50,6 +50,7 @@ export const registerEntries = [
   { term: "Portraits Wegbegleiter",          route: "portraits-wegbegleiter",        description: "Enneagramm-Portraits persönlicher Wegbegleiter und Lehrfiguren" },
   { term: "Praxistipps vom Heilpraktiker",   route: "praxistipps-heilpraktiker",     description: "Körperorientierte Praxistipps aus der Heilpraxis von Detlef Rathmer" },
   { term: "Nicht reale Vorstellungen: Wahnideen im Enneagramm und in der Homöopathie", route: "wahnideen-nicht-reale-vorstellungen", description: "Wissen: Delusions in Kents Repertorium, die neun Hauptvorstellungen der Typen und was Single-Rubriken bedeuten" },
+  { term: "Ignatia amara: Mindmap der Single-Rubriken", route: "mindmap-ignatia", description: "Wissen: alle Single-Rubriken von Ignatia amara (Typ 4) als aufklappbare Mindmap, Hauptwahnidee: Gelübde" },
   { term: "Nicht reale Vorstellungen", route: "nicht-reale-vorstellungen", description: "Schaubild: die neun Hauptvorstellungen (Delusions) der Enneagrammtypen aus Rathmer's Repertorium, z. B. Typ 5: allein in der Wildnis" },
   { term: "Faszienübungen für die Rumpfgesundheit", route: "praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit", description: "Schaubild: vier Faszienübungen gegen die Folgen des vielen Sitzens" },
   { term: "Fußreflexzonen-Aktivierung", route: "praxistipps-heilpraktiker/fussreflexzonen-aktivierung", description: "Schaubild: Igelball, Kork- und Holzroller zur Fußreflexzonen-Massage" },
