@@ -146,15 +146,11 @@ export function aiWeiweiKrankheitsportraetPage() {
         belegter historischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses
         Kompasses noch ausführlicher entfaltet.</p>
         <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der selbsterhaltenden Zwei zwangsläufig zu
-        Polizeigewalt und Hirnblutung führt – <strong>jeder Mensch kann jede Krankheit oder
+        Das Muster der selbsterhaltenden Zwei führt nicht zwangsläufig zu Polizeigewalt und Hirnblutung führt – <strong>jeder Mensch kann jede Krankheit oder
         Verletzung erleiden, unabhängig vom Subtyp.</strong> Was sich an Ai Weiweis Fall
         zeigen lässt, ist ein Muster im Umgang mit erlittener Gewalt, das bei einer
         ausgeprägten selbsterhaltenden Zwei mit Dreierflügel immer wieder auffällt – eine
-        von vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird
-        in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        von vielen möglichen Deutungen, kein Urteil. Im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses wird das Krankheitsbild nach und nach ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Ai Weiwei kennt sein eigenes Muster nicht – die selbsterhaltende Zwei mit
         Dreierflügel verwandelt reflexhaft eigenes Leid in sichtbare, öffentliche Handlung,
@@ -318,19 +314,13 @@ export function astridLindgrenKrankheitsportraetPage() {
         Für eine selbsterhaltende Eins mit Neunerflügel, deren gesamtes Werk auf präziser
         Beobachtung und disziplinierter Genauigkeit beruhte, liegt eine Deutung nahe:
         Ausgerechnet jenes Organ, das die Grundlage ihrer Arbeitsweise war, wurde zum Ort des
-        körperlichen Verlusts. Diese Deutung ist eine plausible Interpretation, kein belegter
-        klinischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses
-        noch ausführlicher entfaltet.</p>
+        körperlichen Verlusts. Das ist eine plausible Deutung, kein belegter klinischer Kausalzusammenhang. Ausführlicher steht sie im Psychosomatik-Register dieses Kompasses.</p>
         <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
         Das heißt nicht, dass das Muster der selbsterhaltenden Eins zwangsläufig zu
-        Makuladegeneration führt – <strong>jeder Mensch kann jede Erkrankung entwickeln,
-        unabhängig vom Subtyp.</strong> Was sich an Lindgrens Fall zeigen lässt, ist ein
+        Makuladegeneration: <strong>Jeder Mensch kann jede Erkrankung entwickeln, der Subtyp spielt dabei keine Rolle.</strong> Was sich an Lindgrens Fall zeigen lässt, ist ein
         Muster im Umgang mit einer altersbedingten körperlichen Einschränkung, das bei einer
         ausgeprägten selbsterhaltenden Eins mit Neunerflügel immer wieder auffällt – eine von
-        vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
-        diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild kommt nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses hinzu.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Lindgren kannte ihr eigenes Muster nicht als Enneagramm-Struktur – die
         selbsterhaltende Eins mit Neunerflügel hält reflexhaft an der eigenen Disziplin und
@@ -490,13 +480,9 @@ export function charlesMansonKrankheitsportraetPage() {
         vertrauen und wen man kontrollieren kann, liegt eine Deutung nahe: Ausgerechnet jenes
         Organsystem, das im Körper für Verdauung im Sinne von Verarbeitung und Loslassen
         steht, wurde zum Schauplatz einer Krankheit, die sich – anders als Manson selbst –
-        keiner Kontrolle unterordnen ließ. Diese Deutung ist eine plausible Interpretation,
-        kein belegter historischer Kausalzusammenhang, und wird im Psychosomatik-Register
-        dieses Kompasses noch ausführlicher entfaltet.</p>
+        keiner Kontrolle unterordnen ließ. Als Interpretation ist das plausibel, ein belegter historischer Kausalzusammenhang ist es nicht. Mehr dazu im Psychosomatik-Register dieses Kompasses.</p>
         <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Sechs zwangsläufig zu
-        Darmerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig
-        vom Subtyp.</strong> Was sich an Mansons Fall zeigen lässt, ist ein Muster im Umgang
+        Eine zwangsläufige Linie vom Muster der sexuellen Sechs zu Darmerkrankungen gibt es nicht. <strong>Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich an Mansons Fall erkennen lässt, ist ein Muster im Umgang
         mit der eigenen Sterblichkeit, das bei einer destruktiv ausgeprägten sexuellen Sechs
         mit Siebenerflügel auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das
         entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
@@ -693,18 +679,13 @@ export function dollyPartonKrankheitsportraetPage() {
         Für eine sexuelle Drei mit Viererflügel, deren beruflicher Kern die bewusst
         inszenierte, betont weibliche Präsenz ist, liegt eine Deutung nahe: Ausgerechnet jener
         Körperbereich, der ihre öffentliche Identität am unmittelbarsten trägt, wurde zum
-        Schauplatz einer jahrzehntelangen, meist verschwiegenen Belastung. Diese Deutung ist eine
-        plausible Interpretation, kein belegter medizinischer Kausalzusammenhang, und wird im
-        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        Schauplatz einer jahrzehntelangen, meist verschwiegenen Belastung. Eine Deutung, die sich begründen lässt, aber kein belegter medizinischer Kausalzusammenhang ist. Im Psychosomatik-Register dieses Kompasses wird sie weiter ausgeführt.</p>
         <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Drei zwangsläufig zu gynäkologischen
-        Erkrankungen oder Krebs führt – <strong>jeder Mensch kann jede Krankheit bekommen,
-        unabhängig vom Subtyp.</strong> Was sich an Partons Fall zeigen lässt, ist ein Muster im
+        Eine zwangsläufige Linie vom Muster der sexuellen Drei zu gynäkologischen
+        Erkrankungen oder Krebs gibt es nicht. <strong>Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich aus Partons Geschichte ablesen lässt, ist ein Muster im
         Umgang mit einer über Jahrzehnte verschwiegenen körperlichen Belastung, das bei einer
         ausgeprägten sexuellen Drei mit Viererflügel immer wieder auffällt – eine von vielen
-        möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass
-        nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        möglichen Deutungen, kein Urteil. Das Krankheitsbild selbst wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
         Nichts deutet darauf hin, dass Parton ihr eigenes Enneagramm-Muster je bewusst kannte –
         wie die meisten Menschen kannte sie das System vermutlich gar nicht. Die
@@ -882,17 +863,11 @@ export function francisBaconKrankheitsportraetPage() {
         nahe: Ausgerechnet eine banale, vermeidbare Erkältung – kein dramatisches Leiden,
         sondern eine Nachlässigkeit im Angesicht der eigenen Neugier – wurde zur tödlichen
         Konsequenz einer Lebenshaltung, die praktische Vorsicht der Entdeckerfreude
-        systematisch unterordnete. Diese Deutung wird im Psychosomatik-Register dieses
-        Kompasses noch ausführlicher entfaltet.</p>
+        systematisch unterordnete. Ausführlicher folgt das im Psychosomatik-Register dieses Kompasses.</p>
         <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der selbsterhaltenden Sieben zwangsläufig zu
-        derartigen Unfällen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
-        unabhängig vom Subtyp.</strong> Was sich an Bacons Fall zeigen lässt, ist ein Muster,
+        Das Muster der selbsterhaltenden Sieben führt nicht zwangsläufig zu derartigen Unfällen: <strong>Jeder Mensch kann jede Krankheit bekommen, der Subtyp spielt dabei keine Rolle.</strong> Was sich an Bacons Fall zeigen lässt, ist ein Muster,
         das bei ungebremster Neugier in der Praxis immer wieder auffällt – eine von vielen
-        möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
-        Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        möglichen Erklärungen, kein Urteil. Das Krankheitsbild selbst wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Bacon kannte sein eigenes Muster nicht – die selbsterhaltende Sieben mit Achterflügel verfolgt jede neue Idee bis zur letzten Konsequenz, ohne die eigene körperliche Verletzlichkeit mitzudenken, und genau das führte dazu, dass ausgerechnet ein spontanes Experiment in Winterkälte ihm den Tod brachte. Wer den eigenen Wissensdrang nicht als Muster erkennt, unterschätzt, wie leicht Neugier zur eigenen Gefährdung werden kann.</p>
       </div>
@@ -1067,12 +1042,9 @@ export function fredericChopinKrankheitsportraetPage() {
         begrenzten Kanal bündelt, liegt eine Deutung nahe: Ausgerechnet die Lunge – der Atem, der
         Grundlage jeder Lebensäußerung, auch der musikalischen – wurde zum Schauplatz eines
         Kampfes, den Chopin nie öffentlich austrug, sondern in seine Musik hinein verdichtete.
-        Diese Deutung wird im Psychosomatik-Register dieses Kompasses noch ausführlicher
-        entfaltet.</p>
+        Ausführlicher folgt das im Psychosomatik-Register dieses Kompasses.</p>
         <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Fünf zwangsläufig zu
-        Lungenerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
-        unabhängig vom Subtyp.</strong> Was sich an Chopins Fall zeigen lässt, ist ein Muster,
+        Das Muster der sexuellen Fünf führt nicht zwangsläufig zu Lungenerkrankungen: <strong>Jeder Mensch kann jede Krankheit bekommen, der Subtyp spielt dabei keine Rolle.</strong> Was sich aus Chopins Geschichte ablesen lässt, ist ein Muster,
         das bei der engen Verknüpfung von körperlicher Kraft und der einen tragenden Verbindung
         in der Praxis immer wieder auffällt – eine von vielen möglichen Erklärungen, kein
         Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
@@ -1232,18 +1204,14 @@ export function genesisPOrridgeKrankheitsportraetPage() {
         Für eine sexuelle Acht mit Neunerflügel, deren gesamtes Werk um körperliche
         Verschmelzung und Grenzauflösung kreiste, liegt eine Deutung nahe: Ausgerechnet eine
         Erkrankung des Blutes – jenes Stoffes, der im Körper alle Grenzen überwindet und
-        alles verbindet – wurde zum Ort des eigenen körperlichen Zusammenbruchs. Diese
-        Deutung ist eine plausible Interpretation, kein belegter klinischer Kausalzusammenhang,
-        und wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        alles verbindet – wurde zum Ort des eigenen körperlichen Zusammenbruchs. Als Interpretation ist das plausibel, ein belegter klinischer Kausalzusammenhang ist es nicht. Mehr dazu im Psychosomatik-Register dieses Kompasses.</p>
         <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
         Das heißt nicht, dass das Muster der sexuellen Acht zwangsläufig zu Leukämie führt –
         <strong>jeder Mensch kann jede Erkrankung entwickeln, unabhängig vom Subtyp.</strong>
-        Was sich an Genesis' Fall zeigen lässt, ist ein Muster im Umgang mit einer
+        Was sich an Genesis' Fall erkennen lässt, ist ein Muster im Umgang mit einer
         fortschreitenden Erkrankung, das bei einer ausgeprägten sexuellen Acht mit
         Neunerflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil.
-        Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        Das Krankheitsbild kommt nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses hinzu.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Genesis kannte das eigene Muster nicht als Enneagramm-Struktur – die sexuelle Acht
         mit Neunerflügel hält reflexhaft an der eigenen Kompromisslosigkeit fest, auch
@@ -1441,9 +1409,7 @@ export function hansChristianAndersenKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="psychosomatik/leberkrebs">Psychosomatik-Register
         zu Leberkrebs</a> dieses Kompasses ausführlicher entfaltet.</p>
         <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sozialen Vier mit Dreierflügel zwangsläufig zu
-        Lebererkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
-        Subtyp.</strong> Was sich an Andersens Fall zeigen lässt, ist ein Muster, das bei der
+        Das Muster der sozialen Vier mit Dreierflügel führt nicht zwangsläufig zu Lebererkrankungen: <strong>Jeder Mensch kann jede Krankheit bekommen, der Subtyp spielt dabei keine Rolle.</strong> Was sich an Andersens Fall erkennen lässt, ist ein Muster, das bei der
         Neigung, erzählbares Leiden ausführlich zu dokumentieren und unglamouröses Leiden zu
         übergehen, in der Praxis immer wieder auffällt – eine von vielen möglichen Erklärungen,
         kein Urteil.</p>
@@ -1633,14 +1599,11 @@ export function immanuelKantKrankheitsportraetPage() {
         Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
         ausführlicher entfaltet.</p>
         <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sozialen Sechs zwangsläufig zu Hypochondrie
-        oder Atembeschwerden führt – <strong>jeder Mensch kann jede Krankheit bekommen,
-        unabhängig vom Subtyp.</strong> Was sich an Kants Fall zeigen lässt, ist ein Muster
+        Eine zwangsläufige Linie vom Muster der sozialen Sechs zu Hypochondrie
+        oder Atembeschwerden gibt es nicht. <strong>Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich aus Kants Geschichte ablesen lässt, ist ein Muster
         im Umgang mit körperlicher Verletzlichkeit, das bei einer ausgeprägten sozialen
         Sechs mit Fünferflügel immer wieder auffällt – eine von vielen möglichen Deutungen,
-        kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach
-        im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        kein Urteil. Das Krankheitsbild kommt nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses hinzu.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Kant kannte sein eigenes Muster nicht – die soziale Sechs mit Fünferflügel sichert
         reflexhaft die eigene Sicherheit durch selbst entwickelte, streng befolgte Systeme,
@@ -1804,14 +1767,10 @@ export function johnGottiKrankheitsportraetPage() {
         der eigenen Präsenz und dem eigenen Auftritt beruhte, liegt eine Deutung nahe:
         Ausgerechnet jenes Organ, das ihm Befehle erteilen, Loyalität einfordern und sich in
         der Öffentlichkeit Gehör verschaffen ließ, wurde zum Schauplatz des Verfalls – und
-        nahm ihm buchstäblich die Stimme, mit der er sein Reich einst regiert hatte. Diese
-        Deutung ist eine plausible Interpretation, kein belegter historischer
-        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
-        ausführlicher entfaltet.</p>
+        nahm ihm buchstäblich die Stimme, mit der er sein Reich einst regiert hatte. Eine Deutung, die sich begründen lässt, aber kein belegter historischer Kausalzusammenhang ist. Im Psychosomatik-Register dieses Kompasses wird sie weiter ausgeführt.</p>
         <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sozialen Acht zwangsläufig zu Kehlkopfkrebs führt
-        – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong>
-        Was sich an Gottis Fall zeigen lässt, ist ein Muster im Umgang mit einer tödlichen
+        Daraus folgt nicht, dass das Muster der sozialen Acht zwangsläufig zu Kehlkopfkrebs führt. <strong>Jeder Mensch kann jede Krankheit bekommen, gleich welcher Subtyp.</strong>
+        Was sich an Gottis Fall erkennen lässt, ist ein Muster im Umgang mit einer tödlichen
         Diagnose, das bei einer ausgeprägten sozialen Acht mit Siebenerflügel immer wieder
         auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende
         Krankheitsbild wird in diesem Kompass nach und nach im
@@ -2153,18 +2112,14 @@ export function larryKingKrankheitsportraetPage() {
         aufzugeben. Diese Deutung wird im Psychosomatik-Register dieses Kompasses noch
         ausführlicher entfaltet.</p>
         <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der selbsterhaltenden Sieben mit Sechserflügel
-        zwangsläufig zu solchen Krankheitsketten führt – <strong>jeder Mensch kann jede
+        Eine zwangsläufige Linie vom Muster der selbsterhaltenden Sieben mit Sechserflügel zu solchen Krankheitsketten führt – <strong>jeder Mensch kann jede
         Krankheit bekommen, unabhängig vom Subtyp.</strong> Kings gesundheitliche Probleme
         sind zudem eng mit klassischen kardiovaskulären Risikofaktoren verbunden
         (jahrzehntelanges Rauchen bis in die 1980er-Jahre, jahrzehntelanger Workaholismus mit
         Nachtschichten), nicht rein psychosomatisch zu erklären. Was sich an seinem Fall
         zeigen lässt, ist ein Muster im Umgang mit wiederholter Krankheit, das bei einer
         ausgeprägten selbsterhaltenden Sieben mit Sechserflügel immer wieder auffällt – eine
-        von vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
-        diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        von vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild selbst wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         King kannte, wie die meisten Menschen, sein Enneagramm-Muster nicht bewusst. Ohne dieses Wissen fand seine Leidenschaft und Motivation keinerlei Widerstand, statt dass rechtzeitig die Notbremse gezogen wurde – ein Zug, der ihn beruflich groß machte, ihn zugleich aber immer wieder über die Grenze seiner Gesundheit trieb. Wer das eigene Muster erkennt, kann bewusst gegensteuern; wer es nicht kennt, wiederholt es, bis der Körper die Grenze setzt, die der Mensch selbst nicht zog.</p>
       </div>
@@ -2348,14 +2303,10 @@ export function marcelProustKrankheitsportraetPage() {
         Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
         ausführlicher entfaltet.</p>
         <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sozialen Vier zwangsläufig zu Asthma führt –
-        <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was
+        Das heißt nicht, dass das Muster der sozialen Vier zwangsläufig zu Asthma gibt es nicht. <strong>Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was
         sich an Prousts Fall zeigen lässt, ist ein Muster im Umgang mit einer chronischen
         Krankheit, das bei einer ausgeprägten sozialen Vier mit Fünferflügel immer wieder
-        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende
-        Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild kommt nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses hinzu.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
         Proust kannte sein eigenes Muster nicht – die soziale Vier mit Fünferflügel verwandelt
         Leiden reflexhaft in analytisch durchdrungene Kunst, statt sich zu schonen, und genau
@@ -2547,10 +2498,7 @@ export function michaelSchumacherKrankheitsportraetPage() {
         bekommen, unabhängig vom Subtyp.</strong> Was sich an Schumachers Fall zeigen lässt,
         ist ein Muster im Umgang mit einer plötzlichen, existenziellen Krise, das bei einer
         ausgeprägten selbsterhaltenden Eins mit Neunerflügel und ihrem engsten Umfeld immer
-        wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende
-        Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild selbst wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Nichts deutet darauf hin, dass Schumacher oder seine Familie sein Enneagramm-Muster je
         bewusst kannten. Dennoch lässt sich an seinem Fall ablesen, wie tief das SE1-typische
@@ -2730,10 +2678,7 @@ export function neilArmstrongKrankheitsportraetPage() {
         unabhängig vom Subtyp.</strong> Was sich an Armstrongs Fall zeigen lässt, ist ein
         Muster im Umgang mit einer verschwiegenen chronischen Erkrankung, das bei einer
         ausgeprägten selbsterhaltenden Sechs mit Fünferflügel immer wieder auffällt –
-        eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild
-        wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        eine von vielen möglichen Deutungen, kein Urteil. Im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses wird das Krankheitsbild nach und nach ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Armstrong kannte sein eigenes Muster nicht – die selbsterhaltende Sechs mit
         Fünferflügel sucht reflexhaft Sicherheit im Rückzug und im Verschweigen der
@@ -2927,7 +2872,7 @@ export function ottoVonBismarckKrankheitsportraetPage() {
         <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
         Das heißt nicht, dass das Muster der sexuellen Sechs zwangsläufig zu Durchblutungsstörungen
         oder Gangrän führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
-        Subtyp.</strong> Was sich an Bismarcks Fall zeigen lässt, ist ein Muster, das bei dem
+        Subtyp.</strong> Was sich an Bismarcks Fall erkennen lässt, ist ein Muster, das bei dem
         Bedürfnis, Schwäche – auch die eigene körperliche – nicht einzugestehen, in der Praxis
         immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
@@ -3104,13 +3049,10 @@ export function romySchneiderKrankheitsportraetPage() {
         Gefühl ungefiltert zuzulassen und zu zeigen, liegt eine Deutung nahe: Ausgerechnet jenes
         Organ, das im Enneagramm für das Herzzentrum und die emotionale Tiefe steht, wurde zum
         Schauplatz des endgültigen Zusammenbruchs, nachdem es über Jahrzehnte mehr Gefühl
-        getragen hatte, als ein Mensch verarbeiten kann. Diese Deutung ist eine plausible
-        Interpretation, kein belegter medizinischer Kausalzusammenhang, und wird im
-        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        getragen hatte, als ein Mensch verarbeiten kann. Das ist eine plausible Deutung, kein belegter medizinischer Kausalzusammenhang. Ausführlicher steht sie im Psychosomatik-Register dieses Kompasses.</p>
         <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sozialen Vier zwangsläufig zu Herzversagen oder
-        Suchterkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig
-        vom Subtyp.</strong> Was sich an Schneiders Fall zeigen lässt, ist ein Muster im Umgang
+        Eine zwangsläufige Linie vom Muster der sozialen Vier zu Herzversagen oder
+        Suchterkrankungen gibt es nicht. <strong>Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich aus Schneiders Geschichte ablesen lässt, ist ein Muster im Umgang
         mit unbewältigtem Verlust, das bei einer ausgeprägten sozialen Vier mit Dreierflügel
         immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das
         entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
@@ -3297,15 +3239,10 @@ export function spinozaKrankheitsportraetPage() {
         Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
         ausführlicher entfaltet.</p>
         <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der selbsterhaltenden Fünf zwangsläufig zu
-        Lungenerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
-        unabhängig vom Subtyp.</strong> Was sich an Spinozas Fall zeigen lässt, ist ein Muster
+        Daraus folgt nicht, dass das Muster der selbsterhaltenden Fünf zwangsläufig zu Lungenerkrankungen führt. <strong>Jeder Mensch kann jede Krankheit bekommen, gleich welcher Subtyp.</strong> Was sich an Spinozas Fall erkennen lässt, ist ein Muster
         im Umgang mit gesundheitlicher Gefährdung durch die eigene Arbeit, das bei einer
         ausgeprägten selbsterhaltenden Fünf mit Sechserflügel immer wieder auffällt – eine
-        von vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
-        diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        von vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild kommt nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses hinzu.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Spinoza kannte sein eigenes Muster nicht – die selbsterhaltende Fünf mit
         Sechserflügel sichert reflexhaft die eigene Unabhängigkeit und ungestörte Innenwelt,
@@ -3477,10 +3414,8 @@ export function voltaireKrankheitsportraetPage() {
         Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
         ausführlicher entfaltet.</p>
         <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Vier zwangsläufig zu chronischen
-        Verdauungs- oder Blasenleiden führt – <strong>jeder Mensch kann jede Krankheit
-        bekommen, unabhängig vom Subtyp.</strong> Was sich an Voltaires Fall zeigen lässt,
-        ist ein Muster im Umgang mit chronischem körperlichem Unbehagen, das bei einer
+        Eine zwangsläufige Linie vom Muster der sexuellen Vier zu chronischen
+        Verdauungs- oder Blasenleiden gibt es nicht. <strong>Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Voltaires Fall zeigt allenfalls ein Muster im Umgang mit chronischem körperlichem Unbehagen, das bei einer
         ausgeprägten sexuellen Vier mit Dreierflügel immer wieder auffällt – eine von
         vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
         diesem Kompass nach und nach im
@@ -3655,19 +3590,13 @@ export function woodyAllenKrankheitsportraetPage() {
         Kontrolle des eigenen, nächsten Umfelds beruht, liegt eine Deutung nahe: Der eigene
         Körper ist das unmittelbarste, am wenigsten kontrollierbare Territorium überhaupt –
         jedes noch so kleine Anzeichen einer Störung bedroht genau jene Sicherheit, auf die
-        sich der Selbsterhaltungsinstinkt am stärksten konzentriert. Diese Deutung ist eine
-        plausible Interpretation, kein belegter klinischer Kausalzusammenhang, und wird im
-        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        sich der Selbsterhaltungsinstinkt am stärksten konzentriert. Das ist eine plausible Deutung, kein belegter klinischer Kausalzusammenhang. Ausführlicher steht sie im Psychosomatik-Register dieses Kompasses.</p>
         <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der selbsterhaltenden Sechs zwangsläufig zu
-        ausgeprägter Hypochondrie führt – <strong>jeder Mensch kann jedes psychische oder
+        Eine zwangsläufige Linie vom Muster der selbsterhaltenden Sechs zu ausgeprägter Hypochondrie führt – <strong>jeder Mensch kann jedes psychische oder
         körperliche Muster entwickeln, unabhängig vom Subtyp.</strong> Was sich an Allens
         Fall zeigen lässt, ist ein Muster im Umgang mit Gesundheitsangst, das bei einer
         ausgeprägten selbsterhaltenden Sechs mit Siebenerflügel immer wieder auffällt – eine
-        von vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird
-        in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        von vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild kommt nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses hinzu.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Allen kennt sein eigenes Muster nicht als Enneagramm-Struktur – die
         selbsterhaltende Sechs mit Siebenerflügel übersetzt reflexhaft jede Bedrohung des
@@ -3831,18 +3760,13 @@ export function heinrichHeineKrankheitsportraetPage() {
         Sichtbarkeit und Wahrgenommenwerden beruhte, liegt eine Deutung nahe: Ausgerechnet
         jene Organe, die unmittelbar mit Wahrnehmen und Wahrgenommenwerden verbunden sind
         &ndash; die Augen, die sehen, und das Nervensystem, das die Verbindung zur Außenwelt
-        trägt &ndash; wurden zum Ort der Krankheit. Diese Deutung ist eine plausible
-        Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
-        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        trägt &ndash; wurden zum Ort der Krankheit. Eine Deutung, die sich begründen lässt, aber kein belegter historischer Kausalzusammenhang ist. Im Psychosomatik-Register dieses Kompasses wird sie weiter ausgeführt.</p>
         <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
         Das heißt nicht, dass das Muster der sozialen Vier zwangsläufig zu neurologischen
         Erkrankungen führt &ndash; <strong>jeder Mensch kann jede Krankheit bekommen,
         unabhängig vom Subtyp.</strong> Was sich an Heines Fall zeigen lässt, ist ein Muster
         im Umgang mit existenzieller Isolation, das bei einer ausgeprägten sozialen Vier mit
-        Dreierflügel auffällt &ndash; eine von vielen möglichen Deutungen, kein Urteil. Das
-        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        Dreierflügel auffällt &ndash; eine von vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild selbst wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses ausgearbeitet.</p>
         <p class="vb-intro"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Heine kannte sein eigenes Muster nicht &ndash; die soziale Vier mit Dreierflügel
         braucht ein Publikum, um die eigene Bedeutung zu bestätigen, und genau dieses
@@ -4026,18 +3950,13 @@ export function juergenDrewsKrankheitsportraetPage() {
         Wahrnehmung anderer zurücktritt, liegt eine Deutung nahe: Ausgerechnet ein
         Leiden, das die körperliche Wahrnehmung selbst betrifft – Taubheit statt
         Schmerz, ein Nachlassen des Spürens –, passt zu einem Menschen, der die eigenen
-        Signale ohnehin gewohnt ist zu überhören. Diese Deutung ist eine plausible
-        Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
-        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        Signale ohnehin gewohnt ist zu überhören. Als Interpretation ist das plausibel, ein belegter historischer Kausalzusammenhang ist es nicht. Mehr dazu im Psychosomatik-Register dieses Kompasses.</p>
         <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
         Das heißt nicht, dass das Muster der sexuellen Neun zwangsläufig zu
-        Nervenerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
-        unabhängig vom Subtyp.</strong> Was sich an Drews' Fall zeigen lässt, ist ein
+        Nervenerkrankungen gibt es nicht. <strong>Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich an Drews' Fall zeigen lässt, ist ein
         Muster, das beim ruhigen Weitermachen trotz körperlicher Warnsignale in der
         Praxis immer wieder auffällt – eine von vielen möglichen Erklärungen, kein
-        Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach
-        im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        Urteil. Das Krankheitsbild kommt nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses hinzu.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
         Drews kennt sein eigenes Enneagramm-Muster mit großer Wahrscheinlichkeit nicht – Genaues lässt sich darüber naturgemäß nicht wissen. Die sexuelle Neun mit
         Achterflügel verschmilzt fast reflexhaft mit Publikum und Werk und übergeht
@@ -4220,15 +4139,11 @@ export function avrilLavigneKrankheitsportraetPage() {
         medizinischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses
         noch ausführlicher entfaltet.</p>
         <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Sechs zwangsläufig zu Borreliose oder
-        vergleichbaren Erkrankungen führt – <strong>jeder Mensch kann jede Krankheit
-        entwickeln, unabhängig vom Subtyp.</strong> Was sich an Lavignes Fall zeigen lässt,
+        Eine zwangsläufige Linie vom Muster der sexuellen Sechs zu Borreliose oder
+        vergleichbaren Erkrankungen gibt es nicht. <strong>Jeder Mensch kann jede Krankheit entwickeln, unabhängig vom Subtyp.</strong> Was sich an Lavignes Fall zeigen lässt,
         ist ein Muster im Umgang mit einer existenziellen, zunächst unsichtbaren Bedrohung,
         das bei einer ausgeprägten sexuellen Sechs mit Siebenerflügel immer wieder auffällt –
-        eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild
-        wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        eine von vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild kommt nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses hinzu.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
         Lavigne kennt ihr eigenes Muster vermutlich nicht als Enneagramm-Struktur – die
         sexuelle Sechs mit Siebenerflügel hält reflexhaft an direkter Konfrontation und der
@@ -4413,10 +4328,7 @@ export function steveJobsKrankheitsportraetPage() {
         Verzögerung sei ein Fehler gewesen, zeigt, dass er selbst diesen Zusammenhang erkannte.
         Was sich an seinem Fall zeigen lässt, ist ein Muster im Umgang mit der eigenen
         Diagnose, das bei einer ausgeprägten sozialen Eins mit Zweierflügel immer wieder
-        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende
-        Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses wird das Krankheitsbild nach und nach ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Jobs kannte, wie die meisten Menschen, sein Enneagramm-Muster nicht bewusst. Ohne
         dieses Wissen lebte er seine Überzeugung, den richtigen Weg selbst erkennen und
@@ -4591,19 +4503,13 @@ export function davidHockneyKrankheitsportraetPage() {
         liegt eine Deutung nahe: Ausgerechnet jene Kanäle, die den unmittelbaren, sozialen
         Austausch tragen – Hören und Sprechen –, schwächten sich ab, während der eigentliche,
         introvertiert-visuelle Zugang zur Welt intakt blieb und sogar bis ins hohe Alter neue
-        Ausdrucksformen fand. Diese Deutung ist eine plausible Interpretation, kein belegter
-        historischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses
-        noch ausführlicher entfaltet.</p>
+        Ausdrucksformen fand. Eine Deutung, die sich begründen lässt, aber kein belegter historischer Kausalzusammenhang ist. Im Psychosomatik-Register dieses Kompasses wird sie weiter ausgeführt.</p>
         <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sozialen Fünf zwangsläufig zu Hörverlust oder
-        Schlaganfall führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
-        Subtyp.</strong> Was sich an Hockneys Fall zeigen lässt, ist ein Muster, das bei dem
+        Daraus folgt nicht, dass das Muster der sozialen Fünf zwangsläufig zu Hörverlust oder
+        Schlaganfall führt. <strong>Jeder Mensch kann jede Krankheit bekommen, gleich welcher Subtyp.</strong> Was sich aus Hockneys Geschichte ablesen lässt, ist ein Muster, das bei dem
         Bedürfnis, Sicherheit über die eigene visuelle Wahrnehmung statt über sozialen Austausch
         zu gewinnen, in der Praxis immer wieder auffällt – eine von vielen möglichen
-        Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach
-        und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        Erklärungen, kein Urteil. Das Krankheitsbild selbst wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
         Hockney kannte sein eigenes Enneagramm-Muster nicht – die soziale Fünf mit Viererflügel
         sucht Sicherheit lieber über die eigene, unverwechselbare Wahrnehmung als über direkten
@@ -4788,16 +4694,12 @@ export function guntherVonHagensKrankheitsportraetPage() {
         entglitt. Diese Deutung wird im Psychosomatik-Register dieses Kompasses noch
         ausführlicher entfaltet.</p>
         <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Eins mit Neunerflügel zwangsläufig zu
-        Parkinson führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
-        Subtyp.</strong> Von Hagens' Erkrankung ist eng mit einem neurodegenerativen Prozess
+        Daraus folgt nicht, dass das Muster der sexuellen Eins mit Neunerflügel zwangsläufig zu Parkinson führt. <strong>Jeder Mensch kann jede Krankheit bekommen, gleich welcher Subtyp.</strong> Von Hagens' Erkrankung ist eng mit einem neurodegenerativen Prozess
         verbunden, der medizinisch unabhängig von Persönlichkeitsmustern auftritt, nicht rein
         psychosomatisch zu erklären. Was sich an seinem Fall zeigen lässt, ist ein Muster im
         Umgang mit einer solchen Diagnose, das bei einer ausgeprägten sexuellen Eins mit
         Neunerflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil.
-        Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        Im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses wird das Krankheitsbild nach und nach ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Von Hagens kannte, wie die meisten Menschen seiner Zeit, sein Enneagramm-Muster nicht
         bewusst. Ohne dieses Wissen blieb ihm auch der Zugang zu einer bewussten Unterscheidung
@@ -4973,18 +4875,13 @@ export function metteMaritKrankheitsportraetPage() {
         Stabilität gerichtet ist, liegt eine Deutung nahe: Ausgerechnet die Lunge, das Organ, das
         die unmittelbarste, unwillkürlichste Form der Selbsterhaltung trägt, wurde zum Ort des
         fortschreitenden Kontrollverlusts – während gleichzeitig, dank des Dreierflügels, nach
-        außen möglichst lange sichtbare Funktionsfähigkeit demonstriert wurde. Diese Deutung ist
-        eine plausible Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
-        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        außen möglichst lange sichtbare Funktionsfähigkeit demonstriert wurde. Als Interpretation ist das plausibel, ein belegter historischer Kausalzusammenhang ist es nicht. Mehr dazu im Psychosomatik-Register dieses Kompasses.</p>
         <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
         Das heißt nicht, dass das Muster der selbsterhaltenden Vier zwangsläufig zu Lungenfibrose
         führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong>
         Was sich an Mette-Marits Fall zeigen lässt, ist ein Muster, das bei dem Bedürfnis, eine
         fortschreitende Schwäche hinter äußerer Funktionsfähigkeit zu verbergen, in der Praxis
-        immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das
-        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses wird das Krankheitsbild nach und nach ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
         Mette-Marit kennt ihr eigenes Enneagramm-Muster vermutlich nicht – die selbsterhaltende
         Vier mit Dreierflügel hält Leiden diszipliniert aus und zeigt nach außen so lange wie
