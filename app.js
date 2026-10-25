@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=380";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=381";
 import { psychogrammErklaerung } from "./data/psychogramme-erklaerung.js?v=2";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -17045,6 +17045,7 @@ const uiText = {
       { route: "bewusstseinsgrad-normalverteilung", label: "Bewusstseinsgrad & Gaußsche Normalverteilungskurve" },
       { route: "persoenlichkeitsmodelle-vergleich", label: "Enneagramm vs. andere Persönlichkeitsmodelle" },
       { route: "klassische-vs-enneagramm-homoeopathie", label: "Klassische Homöopathie und Enneagramm-Homöopathie im Vergleich" },
+      { route: "wahnideen-nicht-reale-vorstellungen", label: "Nicht reale Vorstellungen: Wahnideen im Enneagramm und in der Homöopathie" },
       { route: "tritypen", label: "Die 27 Tritypen des Enneagramms (für Fortgeschrittene)" },
       { heading: "Blicke und Tiere" },
       { route: "blickqualitaeten-atlas", label: "Blickqualitäten-Atlas (27 Subtypen)" },
@@ -31695,7 +31696,7 @@ function _neuAktiv(route) {
   return !!d && (new Date() - new Date(d)) < 30 * 864e5;
 }
 
-const HEILWISSEN_ROUTES = new Set(["wann-entsteht-der-typ", "kroetenschlucken", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "nicht-reale-vorstellungen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["wann-entsteht-der-typ", "kroetenschlucken", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "nicht-reale-vorstellungen", "wahnideen-nicht-reale-vorstellungen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -60715,6 +60716,188 @@ function gifteDesGeistesPage() {
   `);
 }
 
+function wahnideenNichtRealeVorstellungenPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wahnideen-nicht-reale-vorstellungen")}
+      <div class="page-content">
+        <button class="ghost-link" data-route="nicht-reale-vorstellungen" style="margin-bottom:1.2rem;">← Zum Schaubild »Nicht reale Vorstellungen«</button>
+        <p class="eyebrow">Wissen &middot; Theorie und Dynamik</p>
+        <h1 class="section-title">Nicht reale Vorstellungen: Wahnideen im Enneagramm und in der Homöopathie</h1>
+
+        <blockquote class="vb-blockquote" style="margin:1.2rem 0 1.8rem;">
+          <p class="vb-intro">Wir sehen die Welt nicht, wie sie ist, sondern wie wir sind. Jeder Enneagrammtyp schaut durch den Filter seiner Fixierung, und was er dabei sieht, ist oft eine verzerrte Sicht auf die Wirklichkeit und auf die eigenen Lebensumstände. In der Homöopathie hat diese Erfahrung einen Namen: In den Repertorien heißt sie ›Delusion‹.</p>
+          <p class="vb-intro">Dieser Artikel erklärt, was eine nicht reale Vorstellung ist, woher die Rubriken stammen, welche Hauptvorstellung zu jedem der neun Typen gehört und was sich in Kents Repertorium dazu nachlesen lässt. Das <a href="#nicht-reale-vorstellungen">Schaubild</a> zeigt die neun Vorstellungen im Überblick, hier folgt die ausführliche Fassung.</p>
+        </blockquote>
+
+        <div class="vb-section" style="max-width:100%;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .7rem;color:var(--ink);">Was ist eine nicht reale Vorstellung?</h2>
+          <p class="vb-intro">Gemeint ist ein subjektives Empfinden eines Menschen, gleich ob es der Wirklichkeit entspricht oder nicht: ein falscher Eindruck von etwas, eine falsche Überzeugung. Es geht nicht darum, ob die Lage objektiv so ist, sondern darum, wie der Mensch sie sieht. Eine Person kann sich überlegen fühlen, ohne es zu sein, oder verlassen, obwohl andere bei ihr sind.</p>
+          <p class="vb-intro">Das englische Wort ›Delusion‹ ist weiter gefasst als das deutsche ›Wahnidee‹, mit dem es meist übersetzt wird. Es umfasst Wahnvorstellung, Täuschung, Halluzination und die bloße Vorstellung. Deshalb verwendet dieser Kompass den Begriff ›nicht reale Vorstellung‹.</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .7rem;color:var(--ink);">Woher die Rubriken stammen: von Hahnemann über Kent bis heute</h2>
+          <p class="vb-intro">Samuel Hahnemann, der Begründer der Homöopathie, hielt den Gemütszustand eines Menschen für wegweisend und widmete den Gemütskrankheiten im ›Organon‹ eigene Abschnitte. Die Gemütssymptome, zu denen auch die Wahnideen gehören, wurden über Jahrzehnte gesammelt und geordnet.</p>
+          <p class="vb-intro">Das erste brauchbare Repertorium schuf James Tyler Kent (1849–1916): Sein ›Repertory of the Homœopathic Materia Medica‹ erschien 1897 und enthält im Kapitel ›Mind‹ den Abschnitt ›Delusions‹, aus dem die Fachsprache stammt. Die Repertoriumssprache ist deshalb englischen Ursprungs, die deutschen Fassungen haben sie übernommen. Spätere Ausgaben haben Rubriken ergänzt: Die Vorstellungen vom Gelübde und von der Wildnis fanden sich nicht in der Erstausgabe von 1897, wohl aber in der digitalen Kent-Ausgabe von Homéopathe International. Viele Homöopathen arbeiten bis heute mit Kent, weil seine Rubriken mit wenigen, präzisen Mitteln auskommen.</p>
+          <p class="vb-intro">Neuere Quellen sind dazugekommen. Nach Angabe des Autors geht die Rubrik ›Gnom, Wicht‹ auf Edward C. Whitmont zurück (›Psyche and Substance‹ (›Psyche und Substanz‹): Essays on Homoeopathy in the Light of Jungian Psychology); seit 1980 ist sie bekannt. ›Rathmer's Repertorium‹ stellt auf 1568 Seiten sämtliche Geist- und Gemütsrubriken ausführlich dar, und aus diesem Buch sind die neun Hauptvorstellungen des Schaubilds entnommen.</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .7rem;color:var(--ink);">Der Filter: Wie Wahnidee und Fixierung zusammengehören</h2>
+          <p class="vb-intro">Die Enneagramm-Fixierung wirkt wie ein Filter, durch den ein Mensch alles wahrnimmt. Die Hauptvorstellung eines Typs ist die Zuspitzung dieses Filters: das Bild, in dem sich die Grundleidenschaft verdichtet, wenn sie ungebremst ist. Man hat ein Muster, ohne es zu sein, genauso wie man einen Körper hat und Gedanken, ohne sie in der Essenz zu sein. Die Vorstellung gehört zum Muster, nicht zum Wesen eines Menschen.</p>
+        </div>
+
+        <h2 class="section-title" style="font-size:1.2rem;margin:2.2rem 0 1rem;">Die neun Hauptvorstellungen</h2>
+        <div>
+          <div style="border-left:3px solid ${typeColor(1)};padding:0.9rem 1.1rem;background:color-mix(in srgb, ${typeColor(1)} 6%, transparent);border-radius:0 0.6rem 0.6rem 0;margin-bottom:1rem;">
+            <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.4rem;flex-wrap:wrap;">
+              <span style="display:inline-flex;align-items:center;justify-content:center;width:1.8rem;height:1.8rem;border-radius:50%;background:${typeColor(1)};color:#fff;font-weight:700;flex-shrink:0;font-size:0.9rem;">1</span>
+              <strong style="color:${typeColor(1)};">${TYPNAMEN[1]}</strong>
+            </div>
+            <div style="font-size:0.9rem;line-height:1.65;display:grid;gap:0.45rem;">
+              <div><span style="font-weight:700;color:var(--muted);">Repertoriums-Vorstellung:</span> <em>Überlegenheit, von</em></div>
+              <div><span style="font-weight:700;color:var(--muted);">Bei Kent:</span> ›superiority‹: genau ein Mittel: Platinum metallicum.</div>
+              <div>Der Eins ist der innere Maßstab heilig: Es gibt ein Richtig, und er weiß, wie es aussieht. Wo dieser Maßstab zur Gewissheit wird, kann sich das Gefühl einschleichen, den anderen überlegen zu sein: Ich weiß es besser, ich bin im Recht. Kents Repertorium kennt dazu auch die Vorstellung ›humility and lowness of others, while he is great‹ (Demut und Niedrigkeit der anderen, während er selbst groß ist; Platinum metallicum und Staphisagria). Diese Überlegenheit ist die des Maßstabs, nicht die der Macht.</div>
+              <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">Im Lebensfaden:</span> <a href="#beruehmte-marcel-reich-ranicki">Marcel Reich-Ranicki</a>, <a href="#beruehmte-steve-jobs">Steve Jobs</a></div>
+              <div style="font-size:0.78rem;color:var(--muted);">Zugeordnetes Mittel in der Enneagramm-Homöopathie dieses Kompasses: Platinum metallicum</div>
+            </div>
+          </div>
+          <div style="border-left:3px solid ${typeColor(2)};padding:0.9rem 1.1rem;background:color-mix(in srgb, ${typeColor(2)} 6%, transparent);border-radius:0 0.6rem 0.6rem 0;margin-bottom:1rem;">
+            <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.4rem;flex-wrap:wrap;">
+              <span style="display:inline-flex;align-items:center;justify-content:center;width:1.8rem;height:1.8rem;border-radius:50%;background:${typeColor(2)};color:#fff;font-weight:700;flex-shrink:0;font-size:0.9rem;">2</span>
+              <strong style="color:${typeColor(2)};">${TYPNAMEN[2]}</strong>
+            </div>
+            <div style="font-size:0.9rem;line-height:1.65;display:grid;gap:0.45rem;">
+              <div><span style="font-weight:700;color:var(--muted);">Repertoriums-Vorstellung:</span> <em>verkauft worden, sei</em></div>
+              <div><span style="font-weight:700;color:var(--muted);">Bei Kent:</span> ›sold, as if would be‹: genau ein Mittel: Hyoscyamus niger.</div>
+              <div>Die Zwei gibt sich hin: Zuwendung, Hilfe, Nähe. Die Vorstellung, verkauft worden zu sein, nimmt diese Hingabe beim Wort und kehrt sie um. Wer alles gegeben hat, fühlt sich am Ende weggegeben, benutzt, zur Ware gemacht. Hinter dem Bild steht die Angst, für das eigene Geben nicht gesehen, sondern verwertet zu werden.</div>
+              <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">Im Lebensfaden:</span> <a href="#beruehmte-jesus-christus">Jesus Christus</a>, <a href="#beruehmte-elvis-presley">Elvis Presley</a></div>
+              <div style="font-size:0.78rem;color:var(--muted);">Zugeordnetes Mittel in der Enneagramm-Homöopathie dieses Kompasses: Hyoscyamus niger</div>
+            </div>
+          </div>
+          <div style="border-left:3px solid ${typeColor(3)};padding:0.9rem 1.1rem;background:color-mix(in srgb, ${typeColor(3)} 6%, transparent);border-radius:0 0.6rem 0.6rem 0;margin-bottom:1rem;">
+            <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.4rem;flex-wrap:wrap;">
+              <span style="display:inline-flex;align-items:center;justify-content:center;width:1.8rem;height:1.8rem;border-radius:50%;background:${typeColor(3)};color:#fff;font-weight:700;flex-shrink:0;font-size:0.9rem;">3</span>
+              <strong style="color:${typeColor(3)};">${TYPNAMEN[3]}</strong>
+            </div>
+            <div style="font-size:0.9rem;line-height:1.65;display:grid;gap:0.45rem;">
+              <div><span style="font-weight:700;color:var(--muted);">Repertoriums-Vorstellung:</span> <em>unsichtbaren Dingen, von</em></div>
+              <div><span style="font-weight:700;color:var(--muted);">Bei Kent:</span> ›unseen, thing‹: genau ein Mittel: Tarentula hispanica.</div>
+              <div>Die Drei lebt vom Sichtbaren: vom Bild, vom Ergebnis, vom Erfolg. Das Unsichtbare ist ihr Gegenpol und das, was sich nicht vorzeigen lässt, das Innere, das Leere hinter der Fassade. Kents Repertorium verzeichnet zum selben Mittel auch ›assaulted, is going to be‹ (angegriffen zu werden; Tarentula hispanica) und ›strangers seemed to be in the room‹ (Fremde seien im Zimmer; Tarentula hispanica und Thuja), Bilder einer Bedrohung aus dem, was man nicht sieht.</div>
+              <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">Im Lebensfaden:</span> <a href="#beruehmte-harry-houdini">Harry Houdini</a>, <a href="#beruehmte-william-shakespeare">William Shakespeare</a></div>
+              <div style="font-size:0.78rem;color:var(--muted);">Zugeordnetes Mittel in der Enneagramm-Homöopathie dieses Kompasses: Tarentula hispanica</div>
+            </div>
+          </div>
+          <div style="border-left:3px solid ${typeColor(4)};padding:0.9rem 1.1rem;background:color-mix(in srgb, ${typeColor(4)} 6%, transparent);border-radius:0 0.6rem 0.6rem 0;margin-bottom:1rem;">
+            <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.4rem;flex-wrap:wrap;">
+              <span style="display:inline-flex;align-items:center;justify-content:center;width:1.8rem;height:1.8rem;border-radius:50%;background:${typeColor(4)};color:#fff;font-weight:700;flex-shrink:0;font-size:0.9rem;">4</span>
+              <strong style="color:${typeColor(4)};">${TYPNAMEN[4]}</strong>
+            </div>
+            <div style="font-size:0.9rem;line-height:1.65;display:grid;gap:0.45rem;">
+              <div><span style="font-weight:700;color:var(--muted);">Repertoriums-Vorstellung:</span> <em>Gelübde (= Versprechen!) brechen, würde ein</em></div>
+              <div><span style="font-weight:700;color:var(--muted);">Bei Kent:</span> ›vow, that she is breaking her‹: genau ein Mittel: Ignatia amara.</div>
+              <div>Die Vier bleibt dem Verlorenen und dem Ideal treu, oft über Jahre. Ein inneres Versprechen, dem Schmerz, der Sehnsucht oder der eigenen Tragik nicht untreu zu werden, kann so schwer wiegen, dass jeder Schritt in die Freude als Treuebruch erscheint. Kents Repertorium kennt außerdem ›married, that he is‹ (verheiratet zu sein; Ignatia amara), ein weiteres Bild der Bindung.</div>
+              <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">Im Lebensfaden:</span> <a href="#beruehmte-leonard-cohen">Leonard Cohen</a>, <a href="#beruehmte-hippokrates-von-kos">Hippokrates von Kos</a></div>
+              <div style="font-size:0.78rem;color:var(--muted);">Zugeordnetes Mittel in der Enneagramm-Homöopathie dieses Kompasses: Ignatia amara</div>
+            </div>
+          </div>
+          <div style="border-left:3px solid ${typeColor(5)};padding:0.9rem 1.1rem;background:color-mix(in srgb, ${typeColor(5)} 6%, transparent);border-radius:0 0.6rem 0.6rem 0;margin-bottom:1rem;">
+            <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.4rem;flex-wrap:wrap;">
+              <span style="display:inline-flex;align-items:center;justify-content:center;width:1.8rem;height:1.8rem;border-radius:50%;background:${typeColor(5)};color:#fff;font-weight:700;flex-shrink:0;font-size:0.9rem;">5</span>
+              <strong style="color:${typeColor(5)};">${TYPNAMEN[5]}</strong>
+            </div>
+            <div style="font-size:0.9rem;line-height:1.65;display:grid;gap:0.45rem;">
+              <div><span style="font-weight:700;color:var(--muted);">Repertoriums-Vorstellung:</span> <em>Wildnis zu sein, allein in der</em></div>
+              <div><span style="font-weight:700;color:var(--muted);">Bei Kent:</span> ›alone, in a wilderness‹: genau ein Mittel: Stramonium.</div>
+              <div>Die Fünf zieht sich zurück, um sicher zu sein: Wissen, Distanz, ein geschützter eigener Bereich. Am Ende dieses Rückzugs steht das Bild des Alleinseins in der Wildnis: ganz auf sich gestellt, ohne Verbindung. Kent führt dazu auch ›alone, that she is always‹ (immer allein zu sein; Pulsatilla und Stramonium) und ›executioner, visions of an‹ (Visionen eines Henkers; Stramonium). Nach der Beobachtung des Autors zeigt sich das Bild der Wildnis am reinsten beim selbsterhaltenden Fünfer, bei dem es um die pure Selbsterhaltung geht.</div>
+              <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">Im Lebensfaden:</span> <a href="#beruehmte-juliane-koepcke">Juliane Koepcke</a>, <a href="#beruehmte-jean-jacques-rousseau">Jean-Jacques Rousseau</a>, <a href="#beruehmte-hermann-hesse">Hermann Hesse</a>, <a href="#beruehmte-edward-snowden">Edward Snowden</a>, <a href="#beruehmte-hannah-arendt">Hannah Arendt</a>, <a href="#beruehmte-lise-meitner">Lise Meitner</a>, <a href="#beruehmte-blaise-pascal">Blaise Pascal</a>, <a href="#beruehmte-franz-kafka">Franz Kafka</a></div>
+              <div style="font-size:0.78rem;color:var(--muted);">Zugeordnetes Mittel in der Enneagramm-Homöopathie dieses Kompasses: Stramonium</div>
+            </div>
+          </div>
+          <div style="border-left:3px solid ${typeColor(6)};padding:0.9rem 1.1rem;background:color-mix(in srgb, ${typeColor(6)} 6%, transparent);border-radius:0 0.6rem 0.6rem 0;margin-bottom:1rem;">
+            <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.4rem;flex-wrap:wrap;">
+              <span style="display:inline-flex;align-items:center;justify-content:center;width:1.8rem;height:1.8rem;border-radius:50%;background:${typeColor(6)};color:#fff;font-weight:700;flex-shrink:0;font-size:0.9rem;">6</span>
+              <strong style="color:${typeColor(6)};">${TYPNAMEN[6]}</strong>
+            </div>
+            <div style="font-size:0.9rem;line-height:1.65;display:grid;gap:0.45rem;">
+              <div><span style="font-weight:700;color:var(--muted);">Repertoriums-Vorstellung:</span> <em>hinrichten wollen, Menschen würden sie/ihn</em></div>
+              <div><span style="font-weight:700;color:var(--muted);">Bei Kent:</span> Kents Repertorium kennt keine gleichlautende Rubrik.</div>
+              <div>Die Sechs sucht die Welt nach Gefahren ab und kann die Bedrohung ins Äußerste steigern: Man will mich vernichten. Das Bild kreist um Verfolgung, Misstrauen und die Angst vor dem Urteil. Verwandt sind bei Kent ›murdered, that he would be‹ (ermordet zu werden, viele Mittel, darunter Opium) und ›fighting, that people are‹ (Menschen kämpften; Opium und Stramonium).</div>
+              <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">Im Lebensfaden:</span> <a href="#beruehmte-fjodor-dostojewski">Fjodor Dostojewski</a></div>
+              <div style="font-size:0.78rem;color:var(--muted);">Zugeordnetes Mittel in der Enneagramm-Homöopathie dieses Kompasses: Opium</div>
+            </div>
+          </div>
+          <div style="border-left:3px solid ${typeColor(7)};padding:0.9rem 1.1rem;background:color-mix(in srgb, ${typeColor(7)} 6%, transparent);border-radius:0 0.6rem 0.6rem 0;margin-bottom:1rem;">
+            <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.4rem;flex-wrap:wrap;">
+              <span style="display:inline-flex;align-items:center;justify-content:center;width:1.8rem;height:1.8rem;border-radius:50%;background:${typeColor(7)};color:#fff;font-weight:700;flex-shrink:0;font-size:0.9rem;">7</span>
+              <strong style="color:${typeColor(7)};">${TYPNAMEN[7]}</strong>
+            </div>
+            <div style="font-size:0.9rem;line-height:1.65;display:grid;gap:0.45rem;">
+              <div><span style="font-weight:700;color:var(--muted);">Repertoriums-Vorstellung:</span> <em>gefangen genommen werden, würde</em></div>
+              <div><span style="font-weight:700;color:var(--muted);">Bei Kent:</span> ›caught, as if he would be‹: genau ein Mittel: Belladonna.</div>
+              <div>Die Sieben braucht Freiheit, Vielfalt und Bewegung. Einengung erlebt sie als Gefangenschaft: Ich werde festgesetzt, ich komme nicht mehr heraus. Hinter dem Bild steht die Angst vor dem Schmerz, den die Freiheit fernhalten sollte. Die verwandte Rubrik ›arrested, is about to be‹ (verhaftet zu werden) führt bei Kent acht Mittel, darunter Belladonna.</div>
+              <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">Im Lebensfaden:</span> <a href="#beruehmte-jeanne-marie-guyon">Madame Guyon</a></div>
+              <div style="font-size:0.78rem;color:var(--muted);">Zugeordnetes Mittel in der Enneagramm-Homöopathie dieses Kompasses: Belladonna</div>
+            </div>
+          </div>
+          <div style="border-left:3px solid ${typeColor(8)};padding:0.9rem 1.1rem;background:color-mix(in srgb, ${typeColor(8)} 6%, transparent);border-radius:0 0.6rem 0.6rem 0;margin-bottom:1rem;">
+            <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.4rem;flex-wrap:wrap;">
+              <span style="display:inline-flex;align-items:center;justify-content:center;width:1.8rem;height:1.8rem;border-radius:50%;background:${typeColor(8)};color:#fff;font-weight:700;flex-shrink:0;font-size:0.9rem;">8</span>
+              <strong style="color:${typeColor(8)};">${TYPNAMEN[8]}</strong>
+            </div>
+            <div style="font-size:0.9rem;line-height:1.65;display:grid;gap:0.45rem;">
+              <div><span style="font-weight:700;color:var(--muted);">Repertoriums-Vorstellung:</span> <em>Prinz, sei ein</em></div>
+              <div><span style="font-weight:700;color:var(--muted);">Bei Kent:</span> ›prince, is a‹: genau ein Mittel: Veratrum album.</div>
+              <div>Die Acht strahlt natürliche, selbstbewusste Macht aus: Sie entscheidet, sie führt, sie schützt das Ihre. Wo diese Macht zur Vormachtstellung wird, steht das Bild des Prinzen: Ich bin hier derjenige, der entscheidet, ich habe Macht über dich. Es geht um die selbstverständliche Selbstbewusstheit des Achters und seine überschießende Präsenz und Stärke. Verwandt ist bei Kent ›distinguished‹ (vornehm; Stramonium und Veratrum album). Mit der Überlegenheit des Typs 1 ist das nicht gemeint: Dort geht es um den Maßstab, hier um die Macht.</div>
+              <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">Im Lebensfaden:</span> <a href="#beruehmte-gerhard-schroeder">Gerhard Schröder</a>, <a href="#beruehmte-helmut-kohl">Helmut Kohl</a>, <a href="#beruehmte-franz-josef-strauss">Franz Josef Strauß</a>, <a href="#beruehmte-john-wayne">John Wayne</a></div>
+              <div style="font-size:0.78rem;color:var(--muted);">Zugeordnetes Mittel in der Enneagramm-Homöopathie dieses Kompasses: Veratrum album</div>
+            </div>
+          </div>
+          <div style="border-left:3px solid ${typeColor(9)};padding:0.9rem 1.1rem;background:color-mix(in srgb, ${typeColor(9)} 6%, transparent);border-radius:0 0.6rem 0.6rem 0;margin-bottom:1rem;">
+            <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.4rem;flex-wrap:wrap;">
+              <span style="display:inline-flex;align-items:center;justify-content:center;width:1.8rem;height:1.8rem;border-radius:50%;background:${typeColor(9)};color:#fff;font-weight:700;flex-shrink:0;font-size:0.9rem;">9</span>
+              <strong style="color:${typeColor(9)};">${TYPNAMEN[9]}</strong>
+            </div>
+            <div style="font-size:0.9rem;line-height:1.65;display:grid;gap:0.45rem;">
+              <div><span style="font-weight:700;color:var(--muted);">Repertoriums-Vorstellung:</span> <em>Gnom, Wicht, sei ein</em></div>
+              <div><span style="font-weight:700;color:var(--muted);">Bei Kent:</span> Kents Repertorium kennt keine gleichlautende Rubrik.</div>
+              <div>Die Neun macht sich klein, um den Frieden zu halten, und kann sich zuletzt als winzig und unbedeutend erleben: ein Wicht, der nicht zählt. Das Bild kreist um Unwichtigkeit und um die Sehnsucht, niemandem zur Last zu fallen. Nach Angabe des Autors geht die Vorstellung auf Edward C. Whitmont zurück (›Psyche and Substance‹ (›Psyche und Substanz‹)). Seit 1980 ist diese Rubrik bekannt.</div>
+              <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">Im Lebensfaden:</span> <a href="#beruehmte-eleanor-roosevelt">Eleanor Roosevelt</a></div>
+              <div style="font-size:0.78rem;color:var(--muted);">Zugeordnetes Mittel in der Enneagramm-Homöopathie dieses Kompasses: Cannabis indica</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .7rem;color:var(--ink);">Was eine Single-Rubrik ist, und warum sie auffällt</h2>
+          <p class="vb-intro">Eine Single-Rubrik ist eine Rubrik, in der nur ein einziges Mittel steht. Das ist selten, denn die meisten Gemütsrubriken führen viele Mittel. Bei sieben der neun Typen findet sich in Kents Repertorium eine Rubrik mit genau einem Mittel, und dieses Mittel ist dasjenige, das die Enneagramm-Homöopathie dem Typ zuordnet: Platinum metallicum beim Typ 1, Hyoscyamus niger beim Typ 2, Tarentula hispanica beim Typ 3, Ignatia amara beim Typ 4, Stramonium beim Typ 5, Belladonna beim Typ 7 und Veratrum album beim Typ 8. Bei den Typen 6 und 9 gibt es bei Kent keine gleichlautende Rubrik.</p>
+          <p class="vb-intro">Das ist eine Beobachtung über zwei unabhängig entstandene Systeme, kein Beweis für eine Wirkung. Sie macht aber deutlich, wie genau die Bilder der Arzneimittellehre die typspezifischen Wahnideen beschreiben.</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .7rem;color:var(--ink);">Wie man die Hauptvorstellungen lesen kann</h2>
+          <p class="vb-intro">Wer sich fragt, welche Vorstellung den eigenen Blick färbt, kann die neun Bilder als Spiegel lesen, ohne sich damit gleichzusetzen. Hilfreich ist die Frage: Wo erlebe ich die Welt so, als wäre dieses Bild wahr? Das Bild zu erkennen, ist der erste Schritt, es nicht mehr für die Wirklichkeit zu halten.</p>
+          <p class="vb-anmerkung" style="margin-top:1rem;font-style:italic;">Wichtig für das Verständnis: Dieser Artikel ist Wissensvermittlung. Er stellt keine Diagnose, gibt keine Therapieempfehlung und trifft keine Aussage zu Wirkung oder Heilung. Die Zuordnung der Mittel zu den Typen gehört zur Enneagramm-Homöopathie dieses Kompasses. Er ersetzt keine ärztliche oder heilkundliche Beratung.</p>
+        </div>
+
+        <p class="vb-intro" style="margin-top:1.4rem;font-size:0.88rem;color:var(--muted);">Die Rubrikangaben beziehen sich auf James Tyler Kents ›Repertory of the Homœopathic Materia Medica‹ (digitale Ausgabe von Homéopathe International) und auf ›Rathmer's Repertorium‹.</p>
+      </div>
+      ${bookTip("rathmer-s-repertorium-gebundene-ausgabe", "Das weltweit umfangreichste homöopathische Gemütsrepertorium – 1568 Seiten, 20.000 Rubriken.", "Rathmer’s Repertorium")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("der-code-deiner-persoenlichkeit", "Wie der Enneagrammtyp entsteht – und was er über unsere tiefsten Prägungen verrät.", "Der Code deiner Persönlichkeit")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${relatedLinks([
+        {route:"nicht-reale-vorstellungen", label:"Schaubild: Nicht reale Vorstellungen"},
+        {route:"enneagramm-homoeopathie", label:"Enneagramm & Homöopathie"},
+        {route:"klassische-vs-enneagramm-homoeopathie", label:"Klassische Homöopathie und Enneagramm-Homöopathie im Vergleich"},
+        {route:"schatten-projektionen-miasmen", label:"Schatten, Projektionen & Miasmen"},
+        {route:"gifte-des-geistes", label:"Gifte des Geistes"},
+      ])}
+    </div>
+  `);
+}
+
 function nichtRealeVorstellungenPage() {
   const rows = [
     { typ:1, vorstellung:"Überlegenheit, von", deutung:"Wer einen hohen inneren Maßstab anlegt, kann sich über die anderen erhoben fühlen: Ich weiß, wie es richtig geht. Hinter der Überlegenheit steht oft die Anstrengung, es richtig machen zu müssen, und der Zorn über das, was nicht stimmt.", mittel:"Platinum metallicum", rubrik:"In Kents Repertorium steht in der Rubrik ›superiority‹ genau ein Mittel: Platinum metallicum." },
@@ -60723,7 +60906,7 @@ function nichtRealeVorstellungenPage() {
     { typ:4, vorstellung:"Gelübde (= Versprechen!) brechen, würde ein", deutung:"Wer dem Verlorenen und dem Ideal treu bleibt, kann sich an ein inneres Versprechen gebunden fühlen und die Vorstellung haben, es zu brechen, wenn er sich dem Leben zuwendet. Treue zum Schmerz, zur Sehnsucht und zur eigenen Tragik gehört zu diesem Bild.", mittel:"Ignatia amara", rubrik:"In Kents Repertorium steht in der Rubrik ›vow, that she is breaking her‹ genau ein Mittel: Ignatia amara." },
     { typ:5, vorstellung:"Wildnis zu sein, allein in der", deutung:"Wer sich zurückzieht, um sicher zu sein, kann sich zuletzt mutterseelenallein erleben: ganz auf sich gestellt, ohne Verbindung. Die Vorstellung kreist um Selbsterhaltung und Isolation.", mittel:"Stramonium", rubrik:"In Kents Repertorium steht in der Rubrik ›alone, in a wilderness‹ genau ein Mittel: Stramonium. Das ist eine Single-Rubrik." },
     { typ:6, vorstellung:"hinrichten wollen, Menschen würden sie/ihn", deutung:"Wer die Welt auf Gefahren absucht, kann die Bedrohung ins Äußerste steigern: Man will mich vernichten. Die Vorstellung kreist um Verfolgung, Misstrauen und die Angst vor dem Urteil der anderen.", mittel:"Opium", rubrik:"Kents Repertorium kennt keine gleichlautende Rubrik. Die verwandte Rubrik ›murdered, that he would be‹ führt viele Mittel, darunter Opium." },
-    { typ:7, vorstellung:"gefangen genommen werden, würde", deutung:"Wer Freiheit und Vielfalt braucht, kann die Einengung als Gefangenschaft erleben: Ich werde festgesetzt, ich komme nicht mehr heraus. Die Vorstellung kreist um Verlust der Beweglichkeit und die Angst vor dem Schmerz, den die Freiheit fernhalten sollte.", mittel:"Belladonna", rubrik:"Kents Repertorium kennt keine gleichlautende Rubrik. Die verwandte Rubrik ›arrested, is about to be‹ führt acht Mittel, darunter Belladonna." },
+    { typ:7, vorstellung:"gefangen genommen werden, würde", deutung:"Wer Freiheit und Vielfalt braucht, kann die Einengung als Gefangenschaft erleben: Ich werde festgesetzt, ich komme nicht mehr heraus. Die Vorstellung kreist um Verlust der Beweglichkeit und die Angst vor dem Schmerz, den die Freiheit fernhalten sollte.", mittel:"Belladonna", rubrik:"In Kents Repertorium lautet die entsprechende Rubrik ›caught, as if he would be‹ (gefasst, ergriffen zu werden) und enthält genau ein Mittel: Belladonna. Die verwandte Rubrik ›arrested, is about to be‹ führt acht Mittel." },
     { typ:8, vorstellung:"Prinz, sei ein", deutung:"Wer natürliche, selbstbewusste Macht ausstrahlt, kann sich in eine Vormachtstellung hineinsteigern: Ich bin hier derjenige, der entscheidet, ich habe Macht über dich. Die Vorstellung kreist um die selbstverständliche Selbstbewusstheit des Achters und seine überschießende Präsenz und Stärke. Damit ist nicht die Überlegenheit des Typs 1 gemeint: Dort geht es um den Maßstab, hier um die Macht.", mittel:"Veratrum album", rubrik:"In Kents Repertorium steht in der Rubrik ›prince, is a‹ genau ein Mittel: Veratrum album." },
     { typ:9, vorstellung:"Gnom, Wicht, sei ein", deutung:"Wer sich klein macht, um Frieden zu halten, kann sich als winzig und unbedeutend erleben: Ich bin ein Wicht, der nicht zählt. Die Vorstellung kreist um Unwichtigkeit und die Sehnsucht, nicht zur Last zu fallen.", mittel:"Cannabis indica", rubrik:"Kents Repertorium kennt keine gleichlautende Rubrik. Nach Angabe des Autors geht die Vorstellung ›Gnom, Wicht‹ auf Edward C. Whitmont zurück (›Psyche and Substance‹ (›Psyche und Substanz‹): Essays on Homoeopathy in the Light of Jungian Psychology). Seit 1980 ist diese Rubrik bekannt." },
   ];
@@ -60778,6 +60961,7 @@ function nichtRealeVorstellungenPage() {
       ${bookTip("der-code-deiner-persoenlichkeit", "Wie der Enneagrammtyp entsteht – und was er über unsere tiefsten Prägungen verrät.", "Der Code deiner Persönlichkeit")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${relatedLinks([
+        {route:"wahnideen-nicht-reale-vorstellungen", label:"Wissensartikel: Wahnideen im Enneagramm und in der Homöopathie"},
         {route:"enneagramm-homoeopathie", label:"Enneagramm & Homöopathie"},
         {route:"homoeopathie", label:"Homöopathische Mittel"},
         {route:"schatten-projektionen-miasmen", label:"Schatten, Projektionen & Miasmen"},
@@ -66314,6 +66498,7 @@ const ROUTES = {
     "empfindliche-punkte": empfindlichePunktePage,
     "schatten-projektionen-miasmen": schattenProjektionenMiasmenPage,
     "nicht-reale-vorstellungen": nichtRealeVorstellungenPage,
+    "wahnideen-nicht-reale-vorstellungen": wahnideenNichtRealeVorstellungenPage,
     "befreiende-fragen": befreiendeFragenPage,
     "fuehrungsstile": fuehrungsstilePage,
     "gifte-des-geistes": gifteDesGeistesPage,
