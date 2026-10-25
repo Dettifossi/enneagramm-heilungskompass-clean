@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=404";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=405";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -1239,8 +1239,8 @@ const se1 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollst\u00e4ndige SE1-Subtypprofil und die Dynamik innerhalb von Typ 1." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt-f\u00fcr-Schritt herausfinden, ob Typ 1 / SE1 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 1 (Kapitel Typ 1)." },
-    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typ 1." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 1 (Kapitel Typ 1)." },
+    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typs 1." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Amethyst und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 1 entsteht, sich anf\u00fchlt und \u00fcberwunden werden kann \u2013 typspezifische Warnsignale und Pr\u00e4vention." },
   ],
@@ -1308,8 +1308,8 @@ const se2 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollst\u00e4ndige SE2-Subtypprofil und die Dynamik innerhalb von Typ 2." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt-f\u00fcr-Schritt herausfinden, ob Typ 2 / SE2 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 2 (Kapitel Typ 2)." },
-    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typ 2." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 2 (Kapitel Typ 2)." },
+    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typs 2." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Rosenquarz und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 2 entsteht, sich anf\u00fchlt und \u00fcberwunden werden kann \u2013 typspezifische Warnsignale und Pr\u00e4vention." },
   ],
@@ -1378,8 +1378,8 @@ const se3 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollst\u00e4ndige SE3-Subtypprofil und die Dynamik innerhalb von Typ 3." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt f\u00fcr Schritt herausfinden, ob Typ 3 / SE3 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 3 (Kapitel Typ 3)." },
-    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typ 3." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 3 (Kapitel Typ 3)." },
+    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typs 3." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Tigerauge und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 3 entsteht, sich anf\u00fchlt und \u00fcberwunden werden kann \u2013 typspezifische Warnsignale und Pr\u00e4vention." },
   ],
@@ -1448,8 +1448,8 @@ const se4 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollst\u00e4ndige SE4-Subtypprofil und die Dynamik innerhalb von Typ 4." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt f\u00fcr Schritt herausfinden, ob Typ 4 / SE4 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 4 (Kapitel Typ 4)." },
-    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typ 4." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 4 (Kapitel Typ 4)." },
+    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typs 4." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Rhodonit und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 4 entsteht, sich anf\u00fchlt und \u00fcberwunden werden kann \u2013 typspezifische Warnsignale und Pr\u00e4vention." },
   ],
@@ -1515,8 +1515,8 @@ const se5 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollst\u00e4ndige SE5-Subtypprofil und die Dynamik innerhalb von Typ 5." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt f\u00fcr Schritt herausfinden, ob Typ 5 / SE5 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 5 (Kapitel Typ 5)." },
-    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typ 5." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 5 (Kapitel Typ 5)." },
+    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typs 5." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Amazonit und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 5 entsteht, sich anf\u00fchlt und \u00fcberwunden werden kann \u2013 typspezifische Warnsignale und Pr\u00e4vention." },
   ],
@@ -1582,8 +1582,8 @@ const se6 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollst\u00e4ndige SE6-Subtypprofil und die Dynamik innerhalb von Typ 6." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt f\u00fcr Schritt herausfinden, ob Typ 6 / SE6 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 6 (Kapitel Typ 6)." },
-    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typ 6." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 6 (Kapitel Typ 6)." },
+    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typs 6." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein H\u00e4matit und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 6 entsteht, sich anf\u00fchlt und \u00fcberwunden werden kann \u2013 typspezifische Warnsignale und Pr\u00e4vention." },
   ],
@@ -1649,8 +1649,8 @@ const se7 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollst\u00e4ndige SE7-Subtypprofil und die Dynamik innerhalb von Typ 7." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt f\u00fcr Schritt herausfinden, ob Typ 7 / SE7 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 7 (Kapitel Typ 7)." },
-    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typ 7." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 7 (Kapitel Typ 7)." },
+    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typs 7." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Rauchquarz und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 7 entsteht, sich anf\u00fchlt und \u00fcberwunden werden kann \u2013 typspezifische Warnsignale und Pr\u00e4vention." },
   ],
@@ -1716,8 +1716,8 @@ const se8 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollst\u00e4ndige SE8-Subtypprofil und die Dynamik innerhalb von Typ 8." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt f\u00fcr Schritt herausfinden, ob Typ 8 / SE8 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 8 (Kapitel Typ 8)." },
-    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typ 8." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 8 (Kapitel Typ 8)." },
+    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typs 8." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Fluorit und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 8 entsteht, sich anf\u00fchlt und \u00fcberwunden werden kann \u2013 typspezifische Warnsignale und Pr\u00e4vention." },
   ],
@@ -1783,8 +1783,8 @@ const se9 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollst\u00e4ndige SE9-Subtypprofil und die Dynamik innerhalb von Typ 9." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt f\u00fcr Schritt herausfinden, ob Typ 9 / SE9 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 9 (Kapitel Typ 9)." },
-    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typ 9." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 9 (Kapitel Typ 9)." },
+    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typs 9." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Karneol und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 9 entsteht, sich anf\u00fchlt und \u00fcberwunden werden kann \u2013 typspezifische Warnsignale und Pr\u00e4vention." },
   ],
@@ -1853,8 +1853,8 @@ const so1 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollst\u00e4ndige SO1-Subtypprofil und die Dynamik innerhalb von Typ 1." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt-f\u00fcr-Schritt herausfinden, ob Typ 1 / SO1 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 1 (Kapitel Typ 1)." },
-    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typ 1." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 1 (Kapitel Typ 1)." },
+    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typs 1." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Amethyst und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 1 entsteht, sich anf\u00fchlt und \u00fcberwunden werden kann \u2013 typspezifische Warnsignale und Pr\u00e4vention." },
   ],
@@ -1922,8 +1922,8 @@ const so2 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollst\u00e4ndige SO2-Subtypprofil und die Dynamik innerhalb von Typ 2." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt-f\u00fcr-Schritt herausfinden, ob Typ 2 / SO2 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 2 (Kapitel Typ 2)." },
-    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typ 2." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 2 (Kapitel Typ 2)." },
+    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typs 2." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Rosenquarz und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 2 entsteht, sich anf\u00fchlt und \u00fcberwunden werden kann \u2013 typspezifische Warnsignale und Pr\u00e4vention." },
   ],
@@ -1992,8 +1992,8 @@ const so3 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollst\u00e4ndige SO3-Subtypprofil und die Dynamik innerhalb von Typ 3." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt f\u00fcr Schritt herausfinden, ob Typ 3 / SO3 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 3 (Kapitel Typ 3)." },
-    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typ 3." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 3 (Kapitel Typ 3)." },
+    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typs 3." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Tigerauge und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 3 entsteht, sich anf\u00fchlt und \u00fcberwunden werden kann \u2013 typspezifische Warnsignale und Pr\u00e4vention." },
   ],
@@ -2062,8 +2062,8 @@ const so4 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollst\u00e4ndige SO4-Subtypprofil und die Dynamik innerhalb von Typ 4." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt f\u00fcr Schritt herausfinden, ob Typ 4 / SO4 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 4 (Kapitel Typ 4)." },
-    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typ 4." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 4 (Kapitel Typ 4)." },
+    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typs 4." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Rhodonit und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 4 entsteht, sich anf\u00fchlt und \u00fcberwunden werden kann \u2013 typspezifische Warnsignale und Pr\u00e4vention." },
   ],
@@ -2129,8 +2129,8 @@ const so5 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollst\u00e4ndige SO5-Subtypprofil und die Dynamik innerhalb von Typ 5." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt f\u00fcr Schritt herausfinden, ob Typ 5 / SO5 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 5 (Kapitel Typ 5)." },
-    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typ 5." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 5 (Kapitel Typ 5)." },
+    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typs 5." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Amazonit und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 5 entsteht, sich anf\u00fchlt und \u00fcberwunden werden kann \u2013 typspezifische Warnsignale und Pr\u00e4vention." },
   ],
@@ -2196,8 +2196,8 @@ const so6 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollst\u00e4ndige SO6-Subtypprofil und die Dynamik innerhalb von Typ 6." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt f\u00fcr Schritt herausfinden, ob Typ 6 / SO6 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 6 (Kapitel Typ 6)." },
-    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typ 6." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 6 (Kapitel Typ 6)." },
+    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typs 6." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein H\u00e4matit und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 6 entsteht, sich anf\u00fchlt und \u00fcberwunden werden kann \u2013 typspezifische Warnsignale und Pr\u00e4vention." },
   ],
@@ -2263,8 +2263,8 @@ const so7 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollst\u00e4ndige SO7-Subtypprofil und die Dynamik innerhalb von Typ 7." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt f\u00fcr Schritt herausfinden, ob Typ 7 / SO7 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 7 (Kapitel Typ 7)." },
-    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typ 7." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 7 (Kapitel Typ 7)." },
+    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typs 7." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Rauchquarz und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 7 entsteht, sich anf\u00fchlt und \u00fcberwunden werden kann \u2013 typspezifische Warnsignale und Pr\u00e4vention." },
   ],
@@ -2330,8 +2330,8 @@ const so8 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollst\u00e4ndige SO8-Subtypprofil und die Dynamik innerhalb von Typ 8." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt f\u00fcr Schritt herausfinden, ob Typ 8 / SO8 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 8 (Kapitel Typ 8)." },
-    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typ 8." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 8 (Kapitel Typ 8)." },
+    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typs 8." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Fluorit und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 8 entsteht, sich anf\u00fchlt und \u00fcberwunden werden kann \u2013 typspezifische Warnsignale und Pr\u00e4vention." },
   ],
@@ -2397,8 +2397,8 @@ const so9 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollst\u00e4ndige SO9-Subtypprofil und die Dynamik innerhalb von Typ 9." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt f\u00fcr Schritt herausfinden, ob Typ 9 / SO9 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 9 (Kapitel Typ 9)." },
-    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typ 9." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 9 (Kapitel Typ 9)." },
+    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typs 9." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Karneol und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 9 entsteht, sich anf\u00fchlt und \u00fcberwunden werden kann \u2013 typspezifische Warnsignale und Pr\u00e4vention." },
   ],
@@ -2467,8 +2467,8 @@ const sx1 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollst\u00e4ndige SX1-Subtypprofil und die Dynamik innerhalb von Typ 1." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt-f\u00fcr-Schritt herausfinden, ob Typ 1 / SX1 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 1 (Kapitel Typ 1)." },
-    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typ 1." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 1 (Kapitel Typ 1)." },
+    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typs 1." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Amethyst und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 1 entsteht, sich anf\u00fchlt und \u00fcberwunden werden kann \u2013 typspezifische Warnsignale und Pr\u00e4vention." },
   ],
@@ -2536,8 +2536,8 @@ const sx2 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollst\u00e4ndige SX2-Subtypprofil und die Dynamik innerhalb von Typ 2." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt-f\u00fcr-Schritt herausfinden, ob Typ 2 / SX2 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 2 (Kapitel Typ 2)." },
-    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typ 2." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 2 (Kapitel Typ 2)." },
+    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typs 2." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Rosenquarz und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 2 entsteht, sich anf\u00fchlt und \u00fcberwunden werden kann \u2013 typspezifische Warnsignale und Pr\u00e4vention." },
   ],
@@ -2606,8 +2606,8 @@ const sx3 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollst\u00e4ndige SX3-Subtypprofil und die Dynamik innerhalb von Typ 3." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt f\u00fcr Schritt herausfinden, ob Typ 3 / SX3 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 3 (Kapitel Typ 3)." },
-    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typ 3." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 3 (Kapitel Typ 3)." },
+    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typs 3." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Tigerauge und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 3 entsteht, sich anf\u00fchlt und \u00fcberwunden werden kann \u2013 typspezifische Warnsignale und Pr\u00e4vention." },
   ],
@@ -2676,8 +2676,8 @@ const sx4 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollst\u00e4ndige SX4-Subtypprofil und die Dynamik innerhalb von Typ 4." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt f\u00fcr Schritt herausfinden, ob Typ 4 / SX4 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 4 (Kapitel Typ 4)." },
-    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typ 4." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 4 (Kapitel Typ 4)." },
+    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typs 4." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Rhodonit und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 4 entsteht, sich anf\u00fchlt und \u00fcberwunden werden kann \u2013 typspezifische Warnsignale und Pr\u00e4vention." },
   ],
@@ -2743,8 +2743,8 @@ const sx5 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollst\u00e4ndige SX5-Subtypprofil und die Dynamik innerhalb von Typ 5." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt f\u00fcr Schritt herausfinden, ob Typ 5 / SX5 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 5 (Kapitel Typ 5)." },
-    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typ 5." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 5 (Kapitel Typ 5)." },
+    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typs 5." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Amazonit und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 5 entsteht, sich anf\u00fchlt und \u00fcberwunden werden kann \u2013 typspezifische Warnsignale und Pr\u00e4vention." },
   ],
@@ -2810,8 +2810,8 @@ const sx6 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollst\u00e4ndige SX6-Subtypprofil und die Dynamik innerhalb von Typ 6." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt f\u00fcr Schritt herausfinden, ob Typ 6 / SX6 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 6 (Kapitel Typ 6)." },
-    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typ 6." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 6 (Kapitel Typ 6)." },
+    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typs 6." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein H\u00e4matit und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 6 entsteht, sich anf\u00fchlt und \u00fcberwunden werden kann \u2013 typspezifische Warnsignale und Pr\u00e4vention." },
   ],
@@ -2877,8 +2877,8 @@ const sx7 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollst\u00e4ndige SX7-Subtypprofil und die Dynamik innerhalb von Typ 7." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt f\u00fcr Schritt herausfinden, ob Typ 7 / SX7 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 7 (Kapitel Typ 7)." },
-    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typ 7." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 7 (Kapitel Typ 7)." },
+    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typs 7." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Rauchquarz und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 7 entsteht, sich anf\u00fchlt und \u00fcberwunden werden kann \u2013 typspezifische Warnsignale und Pr\u00e4vention." },
   ],
@@ -2944,8 +2944,8 @@ const sx8 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollst\u00e4ndige SX8-Subtypprofil und die Dynamik innerhalb von Typ 8." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt f\u00fcr Schritt herausfinden, ob Typ 8 / SX8 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 8 (Kapitel Typ 8)." },
-    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typ 8." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 8 (Kapitel Typ 8)." },
+    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typs 8." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Fluorit und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 8 entsteht, sich anf\u00fchlt und \u00fcberwunden werden kann \u2013 typspezifische Warnsignale und Pr\u00e4vention." },
   ],
@@ -3011,8 +3011,8 @@ const sx9 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollst\u00e4ndige SX9-Subtypprofil und die Dynamik innerhalb von Typ 9." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt f\u00fcr Schritt herausfinden, ob Typ 9 / SX9 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 9 (Kapitel Typ 9)." },
-    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typ 9." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 9 (Kapitel Typ 9)." },
+    { werkId: "kindheitstraumata", hinweis: "Die fr\u00fche Pr\u00e4gung hinter dem Muster des Typs 9." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Karneol und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 9 entsteht, sich anf\u00fchlt und \u00fcberwunden werden kann \u2013 typspezifische Warnsignale und Pr\u00e4vention." },
   ],
@@ -19200,7 +19200,7 @@ Heilung beginnt, wenn jemand unsere Scham sieht \u2013 und trotzdem bleibt.`,
 
 Worauf man neidisch ist, zeigt, was man selbst will. Was man f\u00fcr sich ablehnt. Was man sich nicht erlaubt.
 
-Das Enneagramm kennt Neid als Leidenschaft des Typ 4. Doch in Wahrheit kennt ihn jeder. Und jeder kann von ihm lernen: Was begehre ich \u2013 das ich mir noch nicht zugestehe?`,
+Das Enneagramm kennt Neid als Leidenschaft des Typs 4. Doch in Wahrheit kennt ihn jeder. Und jeder kann von ihm lernen: Was begehre ich \u2013 das ich mir noch nicht zugestehe?`,
     impuls: `Auf wen bist du gerade neidisch \u2013 oder warst es k\u00fcrzlich? Was will dir dieser Neid \u00fcber deine eigenen unerf\u00fcllten W\u00fcnsche sagen?`,
   },
   {
@@ -25136,9 +25136,9 @@ const quizDataBundle = [
    a:["Allein zu sein","Sicherheit und verl\u00e4ssliche Unterst\u00fctzung zu haben","Erfolgreich zu sein","Einzigartig zu sein"],c:1},
   {id:223,d:"leicht",q:"Was ist der tiefste Wunsch von Typ 4?",
    a:["Bewundert zu werden","Sicher zu sein","Einzigartig und authentisch zu sein","Alles zu verstehen"],c:2},
-  {id:224,d:"leicht",q:"Welcher Typ w\u00e4chst, indem er die stille, friedvolle Qualit\u00e4t des Typ 9 integriert?",
+  {id:224,d:"leicht",q:"Welcher Typ w\u00e4chst, indem er die stille, friedvolle Qualit\u00e4t des Typs 9 integriert?",
    a:["Typ 3","Typ 6","Typ 1","Typ 7"],c:1},
-  {id:225,d:"leicht",q:"Welcher Typ w\u00e4chst, indem er die ehrliche, selbstkritische Qualit\u00e4t des Typ 1 integriert?",
+  {id:225,d:"leicht",q:"Welcher Typ w\u00e4chst, indem er die ehrliche, selbstkritische Qualit\u00e4t des Typs 1 integriert?",
    a:["Typ 4","Typ 7","Typ 9","Typ 3"],c:1},
   {id:226,d:"leicht",q:"Wie nennt man den Enneagrammtypen, der dominant, direkt und kraftvoll ist?",
    a:["Der Loyale","Der Macher","Der Herausforderer","Der Enthusiast"],c:2},
@@ -25779,11 +25779,11 @@ const quizDataBundle = [
   {id:618,d:"schwer",q:"Was ist der wesentliche Unterschied zwischen Typ 5 und Typ 6?",
    a:["Typ 5 zieht sich in Wissen zur\u00fcck, um unabh\u00e4ngig zu sein; Typ 6 sucht Wissen und Autorit\u00e4t zur Absicherung","Typ 6 ist analytischer","Beide sind identisch","Typ 5 ist \u00e4ngstlicher"],c:0},
   {id:619,d:"schwer",q:"Welche Verbindung besteht zwischen dem Pfeil 1\u21927 im Enneagramm?",
-   a:["Typ 1 w\u00e4chst, indem er die Spontaneit\u00e4t und Leichtigkeit des Typ 7 integriert","Typ 1 wird unter Stress wie Typ 7","Typ 7 ist der Fl\u00fcgeltyp von Typ 1","Es gibt keine Verbindung"],c:0},
+   a:["Typ 1 w\u00e4chst, indem er die Spontaneit\u00e4t und Leichtigkeit des Typs 7 integriert","Typ 1 wird unter Stress wie Typ 7","Typ 7 ist der Fl\u00fcgeltyp von Typ 1","Es gibt keine Verbindung"],c:0},
   {id:620,d:"schwer",q:"Welche Verbindung besteht zwischen dem Pfeil 4\u21922 im Enneagramm?",
-   a:["Typ 4 wird unter Stress wie Typ 2","Typ 4 w\u00e4chst, indem er die F\u00fcrsorge und W\u00e4rme des Typ 2 integriert","Typ 2 ist der Fl\u00fcgeltyp von Typ 4","Es gibt keine Verbindung"],c:1},
+   a:["Typ 4 wird unter Stress wie Typ 2","Typ 4 w\u00e4chst, indem er die F\u00fcrsorge und W\u00e4rme des Typs 2 integriert","Typ 2 ist der Fl\u00fcgeltyp von Typ 4","Es gibt keine Verbindung"],c:1},
   {id:621,d:"schwer",q:"Welche Verbindung besteht zwischen dem Pfeil 5\u21928 im Enneagramm?",
-   a:["Typ 5 wird unter Stress wie Typ 8","Typ 8 ist der Fl\u00fcgeltyp von Typ 5","Typ 5 w\u00e4chst, indem er die Durchsetzungskraft und Pr\u00e4senz des Typ 8 integriert","Es gibt keine Verbindung"],c:2},
+   a:["Typ 5 wird unter Stress wie Typ 8","Typ 8 ist der Fl\u00fcgeltyp von Typ 5","Typ 5 w\u00e4chst, indem er die Durchsetzungskraft und Pr\u00e4senz des Typs 8 integriert","Es gibt keine Verbindung"],c:2},
   {id:622,d:"schwer",q:"Was beschreibt das Konzept des 'Verlorenen Kindheitsgef\u00fchls' im Enneagramm?",
    a:["Die Leidenschaft in reiner Form","Das Grundgef\u00fchl von Sicherheit, Zugeh\u00f6rigkeit oder Wert, das in der Kindheit verloren ging und das jeder Typ unbewusst wiederherstellen will","Die Abwehr in fr\u00fcher Form","Den Stresspfeil"],c:1},
   {id:623,d:"schwer",q:"Was verlor Typ 2 laut Enneagramm in der Kindheit?",
@@ -42438,7 +42438,7 @@ function ber\u00fchmteKomponistenPage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.6rem;color:#5f5f5f;">Typ 1 SX &ndash; Johann Sebastian Bach (1685&ndash;1750)</h3>
-        <p class="vb-intro">Musik ist Ausdruck g\u00f6ttlicher, v\u00e4terlicher Liebe. Bachs kunstvoll durchkomponierte Fugen und Kantaten spiegeln die Sehnsucht des Typ 1 nach vollkommener, gottgewollter Ordnung wider \u2014 jede Stimme f\u00fcgt sich in ein gr\u00f6\u00dferes, gerechtes Ganzes.</p>
+        <p class="vb-intro">Musik ist Ausdruck g\u00f6ttlicher, v\u00e4terlicher Liebe. Bachs kunstvoll durchkomponierte Fugen und Kantaten spiegeln die Sehnsucht des Typs 1 nach vollkommener, gottgewollter Ordnung wider \u2014 jede Stimme f\u00fcgt sich in ein gr\u00f6\u00dferes, gerechtes Ganzes.</p>
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#7a2fa8;">Typ 2 SE &ndash; Wolfgang Amadeus Mozart (1756&ndash;1791)</h3>
         <p class="vb-intro">Musik ist Ausdruck menschlicher, m\u00fctterlich-unterst\u00fctzender Liebe. Mozarts Melodien wirken warm, zugewandt und unmittelbar ber\u00fchrend \u2014 Musik, die dem H\u00f6rer entgegenkommt und ihn umsorgt, statt ihn auf Distanz zu halten.</p>
@@ -42456,7 +42456,7 @@ function ber\u00fchmteKomponistenPage() {
         <p class="vb-intro">Musik ist Ausdruck \u00e4ngstlicher, freundschaftlich-treuer Liebe. Schuberts Lieder kreisen oft um Geborgenheit, Wanderschaft und die Suche nach einem sicheren Zuhause \u2014 die stille, treue Sehnsucht des phobischen Typ 6.</p>
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#8a5222;">Typ 6 SX (kontraphobisch) &ndash; Ludwig van Beethoven (1770&ndash;1827)</h3>
-        <p class="vb-intro">Musik ist Ausdruck angstabwehrender, heroischer Liebe. Beethoven begegnete seiner eigenen Angst \u2014 auch der Angst vor der Taubheit \u2014 mit trotziger, k\u00e4mpferischer Gr\u00f6\u00dfe. Seine Sinfonien sind Triumphe des Willens \u00fcber das Schicksal \u2014 die kontraphobische Spielart des Typ 6.</p>
+        <p class="vb-intro">Musik ist Ausdruck angstabwehrender, heroischer Liebe. Beethoven begegnete seiner eigenen Angst \u2014 auch der Angst vor der Taubheit \u2014 mit trotziger, k\u00e4mpferischer Gr\u00f6\u00dfe. Seine Sinfonien sind Triumphe des Willens \u00fcber das Schicksal \u2014 die kontraphobische Spielart des Typs 6.</p>
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#d4a800;">Typ 7 SX &ndash; Robert Schumann (1810&ndash;1856)</h3>
         <p class="vb-intro">Musik ist Ausdruck fr\u00f6hlicher, spielerisch-humorvoller Liebe. Schumanns Charakterst\u00fccke sind voller Fantasie, rascher Stimmungswechsel und verspielter Ideen \u2014 Musik, die sich nie lange bei einer einzigen Farbe aufh\u00e4lt.</p>
@@ -55228,7 +55228,7 @@ function wolfsartenDer9TypenPage() {
         <p class="vb-intro">Der eurasische Wolf zeigt innerhalb des Rudels starke soziale Bindungen, gro\u00dfe Loyalit\u00e4t, gute Zusammenarbeit und ein intensives Sicherheitsverhalten, sehr \u00e4hnlich dem Typ 6. Der Eurasische Wolf ist der Wolf Europas und Asiens \u2014 verbreitet, ausdauernd, sozial tief verwurzelt. Sein Rudel ist eine Gemeinschaft mit klaren Rollen und starker gegenseitiger Abh\u00e4ngigkeit: Die Sicherheit des Einzelnen h\u00e4ngt vom Zusammenhalt aller ab. Bedrohungen werden kollektiv registriert und kollektiv beantwortet. Der Eurasische Wolf ist wachsam, aber nie unbesonnen. Die Leidenschaft der Angst zeigt sich als Hyperaufmerksamkeit f\u00fcr alles, was die Sicherheit des Rudels bedrohen k\u00f6nnte.</p>
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Indischer Wolf: Neugier und Lebhaftigkeit</h3>
-        <p class="vb-intro">Der indische Wolf lebt meist in Rudeln und zeigt eine gro\u00dfe Neugier in verschiedensten Lebensr\u00e4umen \u2014 bekannt f\u00fcr die abenteuerliche und begeisterte Natur des Typ 7. Der Indische Wolf ist kleiner und leichter als seine europ\u00e4ischen Verwandten \u2014 und beweglicher. Er bewohnt offene Grassteppen und Halbw\u00fcsten Indiens und hat sich an ein Leben angepasst, das st\u00e4ndige Bewegung erfordert: weite Streifz\u00fcge, wechselnde Jagdgr\u00fcnde, neue Territorien. Er ist verspielter als andere Wolfsarten und zeigt selbst als Erwachsener h\u00e4ufig spielerisches Verhalten. Die Leidenschaft der V\u00f6llerei zeigt sich als unstillbarer Appetit auf neue R\u00e4ume und Erfahrungen.</p>
+        <p class="vb-intro">Der indische Wolf lebt meist in Rudeln und zeigt eine gro\u00dfe Neugier in verschiedensten Lebensr\u00e4umen \u2014 bekannt f\u00fcr die abenteuerliche und begeisterte Natur des Typs 7. Der Indische Wolf ist kleiner und leichter als seine europ\u00e4ischen Verwandten \u2014 und beweglicher. Er bewohnt offene Grassteppen und Halbw\u00fcsten Indiens und hat sich an ein Leben angepasst, das st\u00e4ndige Bewegung erfordert: weite Streifz\u00fcge, wechselnde Jagdgr\u00fcnde, neue Territorien. Er ist verspielter als andere Wolfsarten und zeigt selbst als Erwachsener h\u00e4ufig spielerisches Verhalten. Die Leidenschaft der V\u00f6llerei zeigt sich als unstillbarer Appetit auf neue R\u00e4ume und Erfahrungen.</p>
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Timberwolf: Dominanz und F\u00fchrungsst\u00e4rke</h3>
         <p class="vb-intro">Der Timberwolf ist der gr\u00f6\u00dfte wildlebende Wolf der Welt, lebt in stark strukturierten Rudeln, die aus einem Alpha-Paar und dessen Nachkommen bestehen \u2014 Eigenschaften, die der Durchsetzungsf\u00e4higkeit des Typs 8 entsprechen. Der Timberwolf der nordamerikanischen W\u00e4lder ist ein Wolf, der Landschaften pr\u00e4gt: Wo er lebt, reguliert er die Best\u00e4nde der Huftiere und damit die gesamte \u00d6kologie seines Lebensraums \u2014 der sogenannte trophische Kaskaden-Effekt. Er braucht kein Einverst\u00e4ndnis, er gestaltet. Im Rudel f\u00fchrt das Alpha-Paar mit einer Kombination aus St\u00e4rke und Erfahrung, die nicht hinterfragt wird. Die Leidenschaft der Gier zeigt sich als ungestillter Wille zur Kontrolle und zum Gestalten.</p>
@@ -55449,10 +55449,10 @@ function papageienartenDer9TypenPage() {
         <p class="vb-intro">Senegalpapageien \u2014 fr\u00fcher Mohrenkopfpapagei \u2014 sind sehr loyal und besitzen eine starke Bindung zu ihren Partnern oder Pflegern. Sie sind vorsichtig und zur\u00fcckhaltend gegen\u00fcber Fremden, was den verl\u00e4sslichen und loyalen Typ 6 unterstreicht. Der Senegalpapagei w\u00e4hlt seine Vertrauenspersonen mit gro\u00dfer Sorgfalt \u2014 und wenn er sich einmal entschieden hat, ist diese Bindung fast unzerbrechlich. Neuen Menschen oder Situationen begegnet er mit demonstrativer Skepsis: Er beobachtet zuerst, pr\u00fcft dann, und gibt sich erst viel sp\u00e4ter zu erkennen. Die Leidenschaft der Angst zeigt sich als permanente Wachheit \u2014 ein inneres Sicherheitssystem, das nie ganz abschaltet.</p>
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Halsbandsittich: Lebendigkeit und Abenteuerlust</h3>
-        <p class="vb-intro">Halsbandsittiche sind lebhaft und abenteuerlustig. Sie leben es, das Besondere, neue Erfahrungen zu machen und besitzen eine ansteckende Begeisterung f\u00fcr das Leben \u2014 typische Eigenschaften des Typ 7. Der Halsbandsittich ist einer der anpassungsf\u00e4higsten Papageien \u00fcberhaupt: Er lebt urspr\u00fcnglich in S\u00fcdasien und Afrika, hat aber inzwischen in \u00fcber 100 St\u00e4dten weltweit verwilderte Populationen aufgebaut \u2014 London, Amsterdam, K\u00f6ln, Tokio. Er findet \u00fcberall Nahrung, \u00fcberall Nistm\u00f6glichkeiten, \u00fcberall Gesellschaft. Jeder neue Ort ist eine Gelegenheit. Die Leidenschaft der V\u00f6llerei zeigt sich als unersch\u00f6pflicher Appetit auf das Neue.</p>
+        <p class="vb-intro">Halsbandsittiche sind lebhaft und abenteuerlustig. Sie leben es, das Besondere, neue Erfahrungen zu machen und besitzen eine ansteckende Begeisterung f\u00fcr das Leben \u2014 typische Eigenschaften des Typs 7. Der Halsbandsittich ist einer der anpassungsf\u00e4higsten Papageien \u00fcberhaupt: Er lebt urspr\u00fcnglich in S\u00fcdasien und Afrika, hat aber inzwischen in \u00fcber 100 St\u00e4dten weltweit verwilderte Populationen aufgebaut \u2014 London, Amsterdam, K\u00f6ln, Tokio. Er findet \u00fcberall Nahrung, \u00fcberall Nistm\u00f6glichkeiten, \u00fcberall Gesellschaft. Jeder neue Ort ist eine Gelegenheit. Die Leidenschaft der V\u00f6llerei zeigt sich als unersch\u00f6pflicher Appetit auf das Neue.</p>
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Molukkenkakadu: St\u00e4rke und Dominanz</h3>
-        <p class="vb-intro">Molukkenkakadus sind sehr selbstbewusst und dominant. Sie zeigen oft F\u00fchrungsqualit\u00e4ten und besitzen eine starke Pr\u00e4senz \u2014 typische Eigenschaften des Typ 8. Der Molukkenkakadu ist einer der gr\u00f6\u00dften Kakadus der Welt und einer der lautesten V\u00f6gel \u00fcberhaupt: Sein Ruf kann \u00fcber einen Kilometer weit geh\u00f6rt werden. Er setzt seine Haube in Momenten der Erregung oder Dominanz auf \u2014 ein visuelles Signal, das unmissverst\u00e4ndlich ist. Er akzeptiert keine Unterordnung, die er nicht selbst gew\u00e4hlt hat. Wenn er liebt, liebt er absolut; wenn er k\u00e4mpft, k\u00e4mpft er absolut. Die Leidenschaft der Gier zeigt sich als Hunger nach Einfluss und vollst\u00e4ndiger Kontrolle \u00fcber seine Umgebung.</p>
+        <p class="vb-intro">Molukkenkakadus sind sehr selbstbewusst und dominant. Sie zeigen oft F\u00fchrungsqualit\u00e4ten und besitzen eine starke Pr\u00e4senz \u2014 typische Eigenschaften des Typs 8. Der Molukkenkakadu ist einer der gr\u00f6\u00dften Kakadus der Welt und einer der lautesten V\u00f6gel \u00fcberhaupt: Sein Ruf kann \u00fcber einen Kilometer weit geh\u00f6rt werden. Er setzt seine Haube in Momenten der Erregung oder Dominanz auf \u2014 ein visuelles Signal, das unmissverst\u00e4ndlich ist. Er akzeptiert keine Unterordnung, die er nicht selbst gew\u00e4hlt hat. Wenn er liebt, liebt er absolut; wenn er k\u00e4mpft, k\u00e4mpft er absolut. Die Leidenschaft der Gier zeigt sich als Hunger nach Einfluss und vollst\u00e4ndiger Kontrolle \u00fcber seine Umgebung.</p>
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Nymphensittich: Sanftmut und Harmonie</h3>
         <p class="vb-intro">Nymphensittiche sind sanfte und friedliche Zeitgenossen. Sie streben nach Harmonie und vermeiden Konflikte \u2014 was gut zum friedliebenden, sanften Typ 9 passt. Der Nymphensittich ist der meistgehaltene Papagei der Welt \u2014 nicht wegen seiner Sch\u00f6nheit oder Intelligenz, sondern wegen seines Wesens: Er ist unkompliziert, angenehm, vertr\u00e4glich. Er singt leise vor sich hin, pflegt seinen Partner mit sanften Schnabelber\u00fchrungen und bleibt selbst in unruhigen Umgebungen auffallend gelassen. Er braucht keine Aufmerksamkeit \u2014 er ist einfach da. Die Leidenschaft der Tr\u00e4gheit zeigt sich als tiefer Wunsch, dass alles bleibt, wie es ist \u2014 ruhig, warm, zusammen.</p>

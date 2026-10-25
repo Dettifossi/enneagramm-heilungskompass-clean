@@ -3410,7 +3410,7 @@ export function nielsHoegelPortraitPage() {
         <strong>Niels H\xf6gel</strong> zeigt die negativen Auspr\xe4gungen der selbsterhaltenden Sieben.
         Sein Streben nach Aufregung, seine spielerisch-manipulative Art, mit dem Leben
         seiner Patienten empathielos zu spielen, und sein Bed\xfcrfnis nach Kontrolle
-        spiegeln die verzerrten Eigenschaften des Typ 7 in sehr unbewusstem Zustand
+        spiegeln die verzerrten Eigenschaften des Typs 7 in sehr unbewusstem Zustand
         wider. Er nutzte seine Position als Krankenpfleger, um Macht auszu\xfcben und
         seinem Leben Spannung zu verleihen, ohne dabei Empathie oder Mitgef\xfchl f\xfcr
         seine Opfer zu empfinden.

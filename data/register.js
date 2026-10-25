@@ -272,7 +272,7 @@ export const registerEntries = [
   { term: "Leidenschaft",            route: "gifte-des-geistes",        description: "Schaubild: die neun Hauptleidenschaften" },
   { term: "Limericks",               route: "limericks",                description: "Die 9 Enneagrammtypen als rhythmische F\xfcnfzeiler mit transformierender Pointe" },
   { term: "Haiku der 9 Typen",      route: "haiku-der-9-typen",        description: "Neun japanische Kurzgedichte — je ein Haiku h\xe4lt den Kern eines Enneagrammtyps fest." },
-  { term: "Humor der 9 Typen",      route: "humor-der-9-typen",        description: "Die Humor-Stile der 9 Enneagrammtypen — vom satirischen Typ-1-Witz bis zum selbstironischen Schmunzeln des Typ 9." },
+  { term: "Humor der 9 Typen",      route: "humor-der-9-typen",        description: "Die Humor-Stile der 9 Enneagrammtypen — vom satirischen Typ-1-Witz bis zum selbstironischen Schmunzeln des Typs 9." },
   { term: "Solfeggio-Frequenzen", route: "solfeggio-frequenzen", description: "Die 9 Solfeggio-Frequenzen und ihre heilenden Wirkungen auf K\xf6rper, Geist und Seele im Enneagramm-Kontext." },
   { term: "Zehn Anwendungen f\xfcr das Enneagramm", route: "zehn-anwendungen-fuer-das-enneagramm", description: "10 Lebensbereiche, in denen das Enneagramm wirkt — von pers\xf6nlichem Wachstum \xfcber F\xfchrung bis zu Elternschaft." },
   { term: "Lookalike-Typen",         route: "lookalike-typen",          description: "Schaubild: Flügel- und Fluchtpunkt-Lookalikes im Vergleich" },

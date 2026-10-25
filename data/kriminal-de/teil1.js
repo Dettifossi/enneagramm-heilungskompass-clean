@@ -2028,7 +2028,7 @@ export function joelRifkinPortraitPage() {
       <div class="vb-section" style="background:rgba(40,40,80,0.06);border-left:3px solid #282850;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
         <strong>Joel Rifkin</strong> wird dem <strong>Sexuellen Typ 5 mit Sechserfl\u00fcgel</strong> zugeordnet.
-        Die sexuelle F\u00fcnf ist die intensivste und paradoxeste Auspr\u00e4gung des Typ 5:
+        Die sexuelle F\u00fcnf ist die intensivste und paradoxeste Auspr\u00e4gung des Typs 5:
         Sie sucht tiefe, vollst\u00e4ndige Verbindung mit einem Menschen oder einem Thema \u2013
         und zieht sich gleichzeitig zur\u00fcck, wenn diese Verbindung zu nah zu werden droht.
         Der Sechserfl\u00fcgel verst\u00e4rkt Wachsamkeit, Misstrauen und Kontrollbed\u00fcrfnis:
@@ -2391,7 +2391,7 @@ export function johnMcAfeePortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Heilungsweg des Typ 8</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Heilungsweg des Typs 8</h3>
         <p class="vb-intro"><strong>a) Von der Kontrolle zur Hingabe:</strong>
         Der Weg zur Heilung f\u00fchrt bei der Acht \u00fcber Hingabe \u2013 die F\u00e4higkeit,
         loszulassen, zu vertrauen, verletzlich zu sein. <strong>McAfee</strong> kam
@@ -2772,7 +2772,7 @@ export function michaelFranzesePortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Heilungsweg des Typ 3</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Heilungsweg des Typs 3</h3>
         <p class="vb-intro"><strong>a) Vom Tun zum Sein:</strong>
         Der Heilungsweg der Drei f\xfchrt \xfcber die Frage: Wer bin ich, wenn ich
         nichts leiste? <strong>Franzeses</strong> Konversion im Gef\xe4ngnis war m\xf6glicherweise
@@ -3789,7 +3789,7 @@ export function sebastianGreenwoodPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Heilungsweg des Typ 2</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Heilungsweg des Typs 2</h3>
         <p class="vb-intro"><strong>a) Vom Geben zum Sein:</strong>
         Der Heilungsweg der Zwei beginnt mit der Frage: Was bin ich, wenn ich
         nichts gebe? F\xfcr <strong>Greenwood</strong> w\xe4re das die radikalste Konfrontation:

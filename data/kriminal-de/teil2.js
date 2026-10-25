@@ -1106,7 +1106,7 @@ export function davidBerkowitzPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Heilungsweg des Typ 4</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Heilungsweg des Typs 4</h3>
         <p class="vb-intro"><strong>a) Vom Mangel zur Pr\u00e4senz:</strong>
         Für die Vier f\u00fchrt der Heilungsweg \u00fcber die Entdeckung, dass das Leben
         im Jetzt vollst\u00e4ndig ist \u2013 auch ohne das, was fehlt. <strong>Berkowitz</strong>

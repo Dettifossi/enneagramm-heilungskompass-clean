@@ -57,8 +57,8 @@ export const sx9 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SX9-Subtypprofil und die Dynamik innerhalb von Typ 9." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 9 / SX9 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 9 (Kapitel Typ 9)." },
-    { werkId: "kindheitstraumata", hinweis: "Die frühe Prägung hinter dem Muster des Typ 9." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 9 (Kapitel Typ 9)." },
+    { werkId: "kindheitstraumata", hinweis: "Die frühe Prägung hinter dem Muster des Typs 9." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Karneol und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 9 entsteht, sich anfühlt und überwunden werden kann – typspezifische Warnsignale und Prävention." },
   ],

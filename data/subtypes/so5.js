@@ -57,8 +57,8 @@ export const so5 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SO5-Subtypprofil und die Dynamik innerhalb von Typ 5." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 5 / SO5 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 5 (Kapitel Typ 5)." },
-    { werkId: "kindheitstraumata", hinweis: "Die frühe Prägung hinter dem Muster des Typ 5." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 5 (Kapitel Typ 5)." },
+    { werkId: "kindheitstraumata", hinweis: "Die frühe Prägung hinter dem Muster des Typs 5." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Amazonit und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 5 entsteht, sich anfühlt und überwunden werden kann – typspezifische Warnsignale und Prävention." },
   ],

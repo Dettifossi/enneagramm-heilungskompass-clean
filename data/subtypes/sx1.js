@@ -60,8 +60,8 @@ export const sx1 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SX1-Subtypprofil und die Dynamik innerhalb von Typ 1." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt-für-Schritt herausfinden, ob Typ 1 / SX1 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 1 (Kapitel Typ 1)." },
-    { werkId: "kindheitstraumata", hinweis: "Die frühe Prägung hinter dem Muster des Typ 1." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 1 (Kapitel Typ 1)." },
+    { werkId: "kindheitstraumata", hinweis: "Die frühe Prägung hinter dem Muster des Typs 1." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Amethyst und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 1 entsteht, sich anfühlt und überwunden werden kann – typspezifische Warnsignale und Prävention." },
   ],

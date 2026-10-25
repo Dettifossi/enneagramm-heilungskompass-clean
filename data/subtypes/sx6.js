@@ -57,8 +57,8 @@ export const sx6 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SX6-Subtypprofil und die Dynamik innerhalb von Typ 6." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 6 / SX6 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 6 (Kapitel Typ 6)." },
-    { werkId: "kindheitstraumata", hinweis: "Die frühe Prägung hinter dem Muster des Typ 6." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 6 (Kapitel Typ 6)." },
+    { werkId: "kindheitstraumata", hinweis: "Die frühe Prägung hinter dem Muster des Typs 6." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Hämatit und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 6 entsteht, sich anfühlt und überwunden werden kann – typspezifische Warnsignale und Prävention." },
   ],
