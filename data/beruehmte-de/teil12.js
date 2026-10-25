@@ -3048,7 +3048,7 @@ export function robbieColtranePortraitPage() {
 
         <h2 class="vb-section">2. Die selbsterhaltende Neun: Genuss und Beständigkeit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Claudio Naranjo nannte die selbsterhaltende Neun den Subtyp des <em>Appetit</em> (Appetite): Sie sucht Ruhe und Sicherheit im Konkreten, in Essen, Gewohnheit, Bequemlichkeit und kleinen Freuden, und dämpft damit eine innere Leere. Im Lebensmusterkompass dieser App steht dafür die ruhige, gewichtige Präsenz.</p>
+          <p class="vb-intro">Claudio Naranjo nannte die selbsterhaltende Neun den Subtyp des <em>Appetits</em> (Appetite): Sie sucht Ruhe und Sicherheit im Konkreten, in Essen, Gewohnheit, Bequemlichkeit und kleinen Freuden, und dämpft damit eine innere Leere. Im Lebensmusterkompass dieser App steht dafür die ruhige, gewichtige Präsenz.</p>
           <p class="vb-intro">Bei Coltrane zeigt sich das in der Fülle, die er verkörperte, körperlich und im Wesen: in Rollen wie Falstaff in Kenneth Branaghs ›Henry V‹ (1989), dem Gelehrten und Polizeipsychologen Dr. Eddie ›Fitz‹ Fitzgerald in ›Cracker‹ (1993&ndash;1996, 2006), für den er drei BAFTA-Preise erhielt, und als Rubeus Hagrid in den ›Harry Potter‹-Filmen (2001&ndash;2011). Dazu passt seine Liebe zu Fahrzeugen: In Dokumentarfilmen wie ›Coltrane in a Cadillac‹ (1993), ›Coltrane&rsquo;s Planes and Automobiles‹ (1997) und ›B-Road Britain‹ (2007) bereiste er mit sichtbarem Vergnügen Straßen und Maschinen.</p>
         </blockquote>
 

@@ -3098,7 +3098,7 @@ export function happyAndersonPortraitPage() {
 
         <h2 class="vb-section">2. Die selbsterhaltende Neun: Beständigkeit statt Aufsehen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Claudio Naranjo beschrieb die selbsterhaltende Neun als Subtyp des <em>Appetit</em>: Sie sucht Sicherheit im Konkreten, in verlässlichen Gewohnheiten, Genuss und gleichmäßiger Arbeit. Bei Anderson passt dazu die Breite und Stetigkeit seiner Laufbahn: Er spielte im Fernsehen, im Kino, auf dem Broadway und lieh seine Stimme Videospielen, darunter ›Max Payne 3‹, ›Grand Theft Auto V‹ und ›Red Dead Redemption 2‹ (kleinere Rollen) und Davor Gorski in ›Saint Kotar: The Yellow Mask‹ (2020).</p>
+          <p class="vb-intro">Claudio Naranjo beschrieb die selbsterhaltende Neun als Subtyp des <em>Appetits</em>: Sie sucht Sicherheit im Konkreten, in verlässlichen Gewohnheiten, Genuss und gleichmäßiger Arbeit. Bei Anderson passt dazu die Breite und Stetigkeit seiner Laufbahn: Er spielte im Fernsehen, im Kino, auf dem Broadway und lieh seine Stimme Videospielen, darunter ›Max Payne 3‹, ›Grand Theft Auto V‹ und ›Red Dead Redemption 2‹ (kleinere Rollen) und Davor Gorski in ›Saint Kotar: The Yellow Mask‹ (2020).</p>
           <p class="vb-intro">Auf der Bühne arbeitete er unter anderem bei Shakespeare in the Park (2010, ›Der Kaufmann von Venedig‹ und ›Das Wintermärchen‹), in einer Broadway-Inszenierung von ›Der Kaufmann von Venedig‹ unter der Regie von Daniel J. Sullivan, am Old Globe Theatre (2012), am Public Theater (›The Twenty-Seventh Man‹, 2013) und bei der Shakespeare Theatre Company (›Wie es euch gefällt‹, 2014). Wer so viele Jahre am Theater verbringt, lernt, zuverlässig zu liefern.</p>
         </blockquote>
 
