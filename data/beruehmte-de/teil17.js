@@ -2807,7 +2807,7 @@ export function kevinKuehnertPortraitPage() {
         {route:"beruehmte-heiko-maas", label:"Porträt: Heiko Maas (SE6w7) – ebenfalls SPD, derselbe Subtyp und Flügel"},
         {route:"beruehmte-gerald-hoerhan", label:"Porträt: Gerald Hörhan (SE6w7)"},
         {route:"beruehmte-woody-allen", label:"Porträt: Woody Allen (SE6w7)"},
-        {route:"beruehmte-thomas-schmelzer", label:"Porträt: Thomas Schmelzer (SE6w7)"},
+        {route:"beruehmte-thomas-schmelzer", label:"Porträt: Thomas Schmelzer (SO5w6)"},
       ])}
     </div>
   `);

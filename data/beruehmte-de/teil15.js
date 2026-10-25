@@ -2739,45 +2739,44 @@ export function thomasSchmelzerPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-thomas-schmelzer-portrait.jpg" alt="Thomas Schmelzer – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-thomas-schmelzer-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Thomas Schmelzer</p>
-        <p class="krim-portrait-typ">SE6w7 &middot; Selbsterhaltender Typ 6 mit Siebenerflügel</p>
-        <p class="krim-portrait-subtitle">Deutscher Moderator, Regisseur und Gründer von MYSTICA.TV &ndash; &rsaquo;Die Stille in mir&lsaquo;, &rsaquo;Wiedergeburt&lsaquo; &ndash; Tierentsprechung: Kaninchen</p>
+        <p class="krim-portrait-typ">SO5w6 &middot; Sozialer Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Moderator, Regisseur und Gründer von MYSTICA.TV &ndash; &rsaquo;Die Stille in mir&lsaquo;, &rsaquo;Wiedergeburt&lsaquo; &ndash; Tierentsprechung: Oktopus</p>
       </div>
       <div class="page-content">
-
-        <h2 class="vb-section">1. Das Kaninchen: der Schauspieler, der lieber moderiert</h2>
+        <h2 class="vb-section">1. Der Oktopus: der Schauspieler, der lieber moderiert</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Kaninchen</strong> sitzt am Rand der Lichtung und beobachtet, wer kommt. Thomas Schmelzer begann als Schauspieler: Nach den Angaben auf seiner Seite spielte er 25 Rollen in Film und Fernsehen, eine andere Quelle nennt rund 350 Drehtage in 20 Filmen und Serien. 1994 begann seine Fernsehlaufbahn als Moderator mit einer 26-teiligen Serie für die ARD, später war er sechs Jahre Redakteur beim Magazin ›raum&amp;zeit‹, und 2004 drehte er eine große Dokumentation für arte in Japan. Die Angaben zu seiner Person stammen überwiegend aus seinen eigenen Seiten und aus Veranstalter-Porträts, Geburtsjahr und Herkunft nennen sie nicht.</p>
+          <p class="vb-intro">Ein <strong>Oktopus</strong> greift mit vielen Armen gleichzeitig nach Wissen und hält Verbindungen in alle Richtungen. Thomas Schmelzer begann als Schauspieler: Nach den Angaben auf seiner Seite spielte er 25 Rollen in Film und Fernsehen, eine andere Quelle nennt rund 350 Drehtage in 20 Filmen und Serien. 1994 begann seine Fernsehlaufbahn als Moderator mit einer 26-teiligen Serie für die ARD, später war er sechs Jahre Redakteur beim Magazin ›raum&amp;zeit‹, und 2004 drehte er eine große Dokumentation für arte in Japan. Die Angaben zu seiner Person stammen überwiegend aus seinen eigenen Seiten und aus Veranstalter-Porträts, Geburtsjahr und Herkunft nennen sie nicht.</p>
           <p class="vb-intro">Vom Schauspieler, der Rollen übernimmt, wurde er zum Moderator, der Gespräche führt. Er hat nach eigenen Angaben rund 60 bis 80 Kongresse moderiert und zwischen 900 und 1.300 Persönlichkeiten interviewt; die Zahlen schwanken je nach Quelle.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. Die selbsterhaltende Sechs: Halt im Gespräch und in der Gemeinschaft</h2>
+        <h2 class="vb-section">2. Der soziale Fünfer: Wissen, das der Gemeinschaft dient</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Sechs sucht verlässliche Orientierung, weil sie weiß, wie wacklig sie sein kann. Die <strong>selbsterhaltende Sechs (SE6)</strong> nannte Claudio Naranjo den Subtyp der ›Wärme‹: Sie findet Sicherheit in vertrauten Menschen, in einem Kreis, dem sie sich zugehörig fühlt, und in Menschen, auf die sie sich verlassen kann. Wer über Jahre Hunderte von Gästen empfängt, baut sich ein Netz von Gegenübern auf und eine Gemeinschaft, die auf seinem Portal zusammenkommt.</p>
-          <p class="vb-intro">Dazu passt die Lebensgeschichte, die er selbst erzählt: Nach der Überwindung einer Krebserkrankung, so seine Seite, wandte er sich spirituellen Themen zu. Eine Rezension nennt die Diagnose im Alter von 25 Jahren und zitiert seine Erfahrung im Krankenhaus: Er habe sich ›nicht länger in einem schweren Körper‹ empfunden, sondern in einem ›federleichten Sein ohne Anhaftung‹. Eine andere Autorin schreibt, die Diagnose habe ihn in Stille und tiefe Selbstprüfung geführt. Dass jemand, dessen Körper unsicher geworden ist, Halt in der Stille und im Gespräch mit anderen sucht, ist das Muster der Sechs.</p>
+          <p class="vb-intro">Claudio Naranjo nannte den sozialen Fünfer ›Totem‹: Wissen wird an Menschen und Orten festgemacht, die einer Gemeinschaft Orientierung geben. Schmelzer macht daraus ein Gastgeber-Prinzip. Wer über Jahre Hunderte von Gästen empfängt, stellt Wissensträger vor, ordnet ihre Sichtweisen und baut auf seinem Portal eine Gemeinschaft von Zuschauern auf, die gemeinsam lernen.</p>
+          <p class="vb-intro">Dazu passt die Lebensgeschichte, die er selbst erzählt: Nach der Überwindung einer Krebserkrankung, so seine Seite, wandte er sich spirituellen Themen zu. Eine Rezension nennt die Diagnose im Alter von 25 Jahren und zitiert seine Erfahrung im Krankenhaus: Er habe sich ›nicht länger in einem schweren Körper‹ empfunden, sondern in einem ›federleichten Sein ohne Anhaftung‹. Eine andere Autorin schreibt, die Diagnose habe ihn in Stille und tiefe Selbstprüfung geführt. Dass jemand, der das Leben so hinterfragt, sein Verständnis in der Gemeinschaft Gleichgesinnter sucht und teilt, ist das Muster des sozialen Fünfers.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. Der Siebenerflügel: die lebendige, leichte Seite</h2>
+        <h2 class="vb-section">3. Der Sechserflügel: Verlässlichkeit und Gemeinschaft</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der Sechs Tempo, Neugier und die Lust, vieles gleichzeitig zu tun. Eine Sechs mit schwächer ausgeprägtem Siebenerflügel hätte sich vielleicht auf ein Format beschränkt. Schmelzer bespielt viele: das Webportal MYSTICA.TV, Kongresse, Dokumentarfilme, Bücher, eine Kolumne im ›ENGELmagazin‹, Seminare und die Talkshow ›COSMOPOLY‹. Seine Seite beschreibt das Ziel seiner Arbeit als hilfreiches Wissen für ein bewusstes, friedvolles Leben, und er beschreibt die Gesprächsreihe als ›Herzensprojekt‹ mit ›Kultstatus‹.</p>
-          <p class="vb-intro">Auch die Gesprächsführung wirkt eher lebendig als bohrend: Die Interviews leben von der Offenheit und der Vielfalt der Gäste, nicht vom hartnäckigen Nachhaken. Das ist der Siebenerflügel, der Gespräche in Bewegung hält, während die Sechs darunter für Vertrauen und Verbindlichkeit sorgt. Über seine Arbeit sagt seine Seite: ›Meine Leidenschaft, meine Profession: Auf MYSTICA.TV und vielen Kongressen.‹</p>
+          <p class="vb-intro">Don Richard Riso und Russ Hudson nennen den Fünfer mit Sechserflügel ›Den Problemlöser‹. Der <strong>Sechserflügel (w6)</strong> bringt dem Fünfer Verlässlichkeit, Zugehörigkeit und den Sinn für einen festen Rahmen. Bei Schmelzer zeigt er sich im Rhythmus seiner Arbeit: Die Talk-Reihe läuft an festen Tagen, Kongresse und Seminare sind lange im Voraus angekündigt, und er beschreibt die Gesprächsreihe als ›Herzensprojekt‹ mit ›Kultstatus‹.</p>
+          <p class="vb-intro">Seine Seite beschreibt das Ziel seiner Arbeit als hilfreiches Wissen für ein bewusstes, friedvolles Leben. Über seine Arbeit sagt sie: ›Meine Leidenschaft, meine Profession: Auf MYSTICA.TV und vielen Kongressen.‹ Die Gespräche leben von der Offenheit und der Vielfalt der Gäste, und er stellt Verbindlichkeit her, indem er den Raum zuverlässig hält.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: ein Gesprächsportal und seine Filme</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Webportal MYSTICA.TV leitet und moderiert er nach eigenen Angaben seit 2008, und für Februar 2028 kündigt er einen Kongress ›20 Jahre MYSTICA‹ an. Die Talk-Reihe läuft an zwei Tagen in der Woche, der YouTube-Kanal hat je nach Quelle zwischen 125.000 und 150.000 Abonnenten. 2015 führte er Regie beim MYSTICA-Dokumentarfilm ›Die Übersinnlichen‹, im April 2018 folgte ›Wiedergeburt – Deine Seele ist unsterblich!‹, der den Publikumspreis des Cosmic Cine Filmfestivals in München erhielt. Im März 2016 erschien sein erstes Buch ›Die Stille in mir‹, ein zweites, ›Klarheit des Herzens‹, war für Herbst 2025 angekündigt. Im April 2024 startete er mit der Talkshow ›COSMOPOLY – Der Bewusstseinstalk‹.</p>
-          <p class="vb-intro">Er stellt Menschen und Sichtweisen vor und moderiert die Gespräche. Das ist die Sechs als Gastgeber: Sie schafft einen Raum, in dem andere sprechen können, und bleibt selbst Vermittler.</p>
+          <p class="vb-intro">Er stellt Menschen und Sichtweisen vor und moderiert die Gespräche. Das ist der Fünfer als Vermittler: Er sammelt und ordnet Wissen für andere und bleibt selbst im Hintergrund der Gäste.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Parallele im selben Subtyp: Allen, Kühnert und Hörhan</h2>
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Günther Jauch und C. G. Jung</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Unter den Porträts dieses Kompasses stehen mehrere SE6w7er, und der Vergleich zeigt, wie der Siebenerflügel die Sorge der Sechs in Bewegung bringt. <a href="#beruehmte-woody-allen">Woody Allen (SE6w7)</a> macht aus der Angst Pointen und bleibt im vertrauten Revier. <a href="#beruehmte-kevin-kuehnert">Kevin Kühnert (SE6w7)</a> geht frech und öffentlich nach vorn, solange die Gruppe ihn trägt. <a href="#beruehmte-gerald-hoerhan">Gerald Hörhan (SE6w7)</a> verkauft Vorsicht als Rebellion.</p>
-          <p class="vb-intro">Schmelzer teilt mit Allen die Lust am Wort und mit Kühnert und Hörhan den öffentlichen Auftritt. Der Unterschied: Er ist der Gastgeber, der anderen die Bühne gibt, nicht der Provokateur. Seine Sicherheit liegt im Kreis der Gäste und Zuschauer, nicht im eigenen Besitz wie bei Hörhan oder in der Partei wie bei Kühnert.</p>
+          <p class="vb-intro"><a href="#beruehmte-guenther-jauch">Günther Jauch (SO5w6)</a> teilt mit Schmelzer die Rolle des Fragenden, der Wissen und Gäste für ein großes Publikum zugänglich macht. <a href="#beruehmte-cg-jung">C. G. Jung (SO5w6)</a> verbindet mit ihm das Interesse an Seele, Sinn und innerer Erfahrung.</p>
+          <p class="vb-intro">Der Unterschied: Jauch moderiert breite Unterhaltung, Jung forschte und lehrte. Schmelzer verbindet beides, indem er das Gespräch über Sinnfragen für ein interessiertes Publikum zugänglich macht.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Sechs mit Siebenerflügel</h2>
+        <h2 class="vb-section">6. Licht und Schatten des sozialen Fünfers mit Sechserflügel</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht liegt in der Offenheit. Wer sich selbst als verletzlich erlebt hat, kann anderen Raum geben, und das Format der langen Gespräche gibt Gästen Zeit. Er plant weit voraus: Für 2026 bis 2028 sind Moderationen und Vorträge angekündigt, ein verlässlicher Rhythmus aus Kongressen, Seminaren und Sendungen.</p>
-          <p class="vb-intro">Der Schatten dieser Kombination ist die Leichtigkeit, die der Tiefe ausweicht: Der Siebenerflügel mag das Neue und das Nächste, die Sechs würde nachbohren, bis etwas verlässlich geklärt ist. Wo die Gespräche in Bewegung bleiben, bleibt die Frage nach dem Belastbaren oft offen.</p>
+          <p class="vb-intro">Der Schatten dieser Kombination liegt in der Beobachterrolle: Der soziale Fünfer sammelt und vermittelt gern, und wer die Gäste sprechen lässt, bleibt selbst oft unsichtbar. Wo die Gespräche in Bewegung bleiben, bleibt die Frage nach dem Belastbaren oft offen.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Stand: Moderationen bis 2028</h2>
@@ -2791,12 +2790,11 @@ export function thomasSchmelzerPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
-        {route:"lebensmusterkompass/se6", label:"Lebensmusterkompass: SE6 – Kaninchen"},
-        {route:"beruehmte-woody-allen", label:"Porträt: Woody Allen (SE6w7) – derselbe Subtyp und Flügel"},
-        {route:"beruehmte-kevin-kuehnert", label:"Porträt: Kevin Kühnert (SE6w7)"},
-        {route:"beruehmte-gerald-hoerhan", label:"Porträt: Gerald Hörhan (SE6w7)"},
-      ])}
+        {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so5", label:"Lebensmusterkompass: SO5 – Oktopus"},
+        {route:"beruehmte-guenther-jauch", label:"Porträt: Günther Jauch (SO5w6)"},
+        {route:"beruehmte-cg-jung", label:"Porträt: C. G. Jung (SO5w6)"},
+            ])}
     </div>
   `);
 }

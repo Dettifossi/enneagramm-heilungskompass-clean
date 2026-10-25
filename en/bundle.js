@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=365";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=366";
 import { psychogrammErklaerung } from "../data/psychogramme-erklaerung.js?v=2";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -2158,9 +2158,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Michael Greger \u2013 Self-Preservation Type 6",
     teaser:"SP6w5 \u00b7 b. 1972. American physician and author (\u2018How Not to Die\u2019, NutritionFacts.org). The Rabbit who turns the fear of loss into a system of prevention and documented knowledge.",
     land:"USA", tags:["Medizin","Literatur"], gender:"m"},
-{ route:"beruehmte-thomas-schmelzer", name:"Thomas Schmelzer", added:"2026-10-22", subtyp:"SE6w7",
-    heading:"Thomas Schmelzer \u2013 Self-Preservation Type 6",
-    teaser:"SP6w7 \u00b7 German presenter, director and founder of MYSTICA.TV (\u2018Die Stille in mir\u2019, \u2018Wiedergeburt\u2019). The Rabbit who seeks support in conversation and in a circle of reliable counterparts.",
+{ route:"beruehmte-thomas-schmelzer", name:"Thomas Schmelzer", added:"2026-10-22", subtyp:"SO5w6",
+    heading:"Thomas Schmelzer \u2013 Social Type 5",
+    teaser:"SO5w6 \u00b7 German presenter, director and founder of MYSTICA.TV (\u2018Die Stille in mir\u2019, \u2018Wiedergeburt\u2019). The Octopus who presents carriers of knowledge and gathers a community of viewers around him.",
     land:"Germany", tags:["Medien","Spiritualit\u00e4t"], gender:"m"},
 { route:"beruehmte-milan-peschel", name:"Milan Peschel", added:"2026-10-22", subtyp:"SE6w5",
     heading:"Milan Peschel \u2013 Self-Preservation Type 6",

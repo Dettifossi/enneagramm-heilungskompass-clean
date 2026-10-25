@@ -2643,48 +2643,47 @@ export function thomasSchmelzerPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-thomas-schmelzer-portrait.jpg" alt="Thomas Schmelzer – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-thomas-schmelzer-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Thomas Schmelzer</p>
-        <p class="krim-portrait-typ">SP6w7 &middot; Self-Preservation Type 6 with a Seven-wing</p>
-        <p class="krim-portrait-subtitle">German presenter, director and founder of MYSTICA.TV &ndash; &lsquo;Die Stille in mir&rsquo;, &lsquo;Wiedergeburt&rsquo; &ndash; Animal correspondence: Rabbit</p>
+        <p class="krim-portrait-typ">SO5w6 &middot; Social Type 5 with Six-wing</p>
+        <p class="krim-portrait-subtitle">German presenter, director and founder of MYSTICA.TV &ndash; &lsquo;Die Stille in mir&rsquo;, &lsquo;Wiedergeburt&rsquo; &ndash; Animal correspondence: Octopus</p>
       </div>
       <div class="page-content">
-
-        <h2 class="vb-section">1. The Rabbit: the actor who would rather moderate</h2>
+<h2 class="vb-section">1. The Octopus: the actor who would rather moderate</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>rabbit</strong> sits at the edge of the clearing and watches who comes. Thomas Schmelzer began as an actor: according to his site he played 25 roles in film and television, another source names about 350 shooting days in 20 films and series. In 1994 his television career began as a presenter with a 26-part series for ARD, later he was for six years an editor at the magazine &lsquo;raum&amp;zeit&rsquo;, and in 2004 he made a large documentary for arte in Japan. The information about him comes mostly from his own pages and from organisers&rsquo; profiles; they name neither his year of birth nor his origins.</p>
+          <p class="vb-intro">An <strong>octopus</strong> reaches for knowledge with many arms at once and keeps connections open in every direction. Thomas Schmelzer began as an actor: according to his site he played 25 roles in film and television, another source names about 350 shooting days in 20 films and series. In 1994 his television career began as a presenter with a 26-part series for ARD, later he was for six years an editor at the magazine &lsquo;raum&amp;zeit&rsquo;, and in 2004 he made a large documentary for arte in Japan. The information about him comes mostly from his own pages and from organisers&rsquo; profiles; they name neither his year of birth nor his origins.</p>
           <p class="vb-intro">From the actor who takes on roles he became a presenter who leads conversations. By his own account he has moderated about 60 to 80 congresses and interviewed between 900 and 1,300 personalities; the figures vary by source.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The self-preservation Six: support in conversation and community</h2>
+        <h2 class="vb-section">2. The social Five: knowledge that serves the community</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Six seeks reliable orientation because it knows how shaky it can be. Claudio Naranjo called the <strong>self-preservation Six (SP6)</strong> the subtype of &lsquo;warmth&rsquo;: it finds security in familiar people, in a circle to which it feels it belongs, and in people it can rely on. Whoever receives hundreds of guests over years builds a net of counterparts and a community that comes together on his portal.</p>
-          <p class="vb-intro">The life story he tells himself fits: after overcoming a cancer, according to his page, he turned to spiritual topics. A review names the diagnosis at the age of 25 and quotes his experience in hospital: he no longer felt himself &lsquo;in a heavy body&rsquo; but in a &lsquo;feather-light being without attachment&rsquo;. Another author writes that the diagnosis led him into stillness and deep self-examination. That someone whose body has become uncertain seeks support in stillness and in conversation with others is the pattern of the Six.</p>
+          <p class="vb-intro">Claudio Naranjo called the social Five &lsquo;totem&rsquo;: knowledge is attached to people and places that give a community orientation. Schmelzer turns this into a host principle. Whoever receives hundreds of guests over years presents carriers of knowledge, orders their viewpoints and builds on his portal a community of viewers who learn together.</p>
+          <p class="vb-intro">The life story he tells himself fits: after overcoming a cancer, according to his page, he turned to spiritual topics. A review names the diagnosis at the age of 25 and quotes his experience in hospital: he no longer felt himself &lsquo;in a heavy body&rsquo; but in a &lsquo;feather-light being without attachment&rsquo;. Another author writes that the diagnosis led him into stillness and deep self-examination. That someone who questions life in this way seeks and shares his understanding in the community of like-minded people is the pattern of the social Five.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Seven-wing: the lively, light side</h2>
+        <h2 class="vb-section">3. The Six-wing: reliability and community</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the Six speed, curiosity and the pleasure of doing many things at once. A Six with a weaker Seven-wing might have limited itself to one format. Schmelzer fills many: the web portal MYSTICA.TV, congresses, documentary films, books, a column in the &lsquo;ENGELmagazin&rsquo;, seminars and the talk show &lsquo;COSMOPOLY&rsquo;. His site describes the aim of his work as helpful knowledge for a conscious, peaceful life, and he describes the talk series as a &lsquo;project of the heart&rsquo; with &lsquo;cult status&rsquo;.</p>
-          <p class="vb-intro">The way he leads conversations also seems more lively than probing: the interviews live on the openness and variety of the guests, not on persistent follow-up. That is the Seven-wing that keeps conversations moving while the Six beneath provides trust and reliability. About his work his page says: &lsquo;My passion, my profession: on MYSTICA.TV and many congresses.&rsquo;</p>
+          <p class="vb-intro">Don Richard Riso and Russ Hudson call the Five with a Six-wing &lsquo;The Problem Solver&rsquo;. The <strong>Six-wing (w6)</strong> gives the Five reliability, belonging and a sense for a fixed frame. In Schmelzer it shows in the rhythm of his work: the talk series runs on fixed days, congresses and seminars are announced long in advance, and he describes the conversation series as a &lsquo;heart project&rsquo; with &lsquo;cult status&rsquo;.</p>
+          <p class="vb-intro">His site describes the aim of his work as helpful knowledge for a conscious, peaceful life. About his work it says: &lsquo;My passion, my profession: on MYSTICA.TV and at many congresses.&rsquo; The conversations live on the openness and variety of the guests, and he creates commitment by reliably holding the space.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The substance: a conversation portal and its films</h2>
+<h2 class="vb-section">4. The substance: a conversation portal and its films</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">By his own account he has led and moderated the web portal MYSTICA.TV since 2008, and for February 2028 he announces a congress &lsquo;20 Years of MYSTICA&rsquo;. The talk series runs on two days a week, the YouTube channel has, depending on the source, between 125,000 and 150,000 subscribers. In 2015 he directed the MYSTICA documentary &lsquo;Die Übersinnlichen&rsquo; (&lsquo;The Supersensory&rsquo;), in April 2018 followed &lsquo;Wiedergeburt – Deine Seele ist unsterblich!&rsquo; (&lsquo;Rebirth – Your Soul Is Immortal!&rsquo;), which received the audience award of the Cosmic Cine film festival in Munich. In March 2016 his first book &lsquo;Die Stille in mir&rsquo; (&lsquo;The Stillness in Me&rsquo;) appeared, a second, &lsquo;Klarheit des Herzens&rsquo; (&lsquo;Clarity of the Heart&rsquo;), was announced for autumn 2025. In April 2024 he started the talk show &lsquo;COSMOPOLY – Der Bewusstseinstalk&rsquo; (&lsquo;The Consciousness Talk&rsquo;).</p>
-          <p class="vb-intro">He presents people and viewpoints and moderates the conversations. That is the Six as host: it creates a space in which others can speak and itself remains the mediator.</p>
+          <p class="vb-intro">He presents people and viewpoints and moderates the conversations. That is the Five as mediator: he collects and orders knowledge for others and himself stays in the background of the guests.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Parallel in the same subtype: Allen, Kühnert and Hörhan</h2>
+        <h2 class="vb-section">5. Parallel in the same subtype: Günther Jauch and C. G. Jung</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Several SP6w7s stand among the portraits in this Compass, and the comparison shows how the Seven-wing sets the Six&rsquo;s worry in motion. <a href="#beruehmte-woody-allen">Woody Allen (SP6w7)</a> turns fear into punchlines and stays in the familiar territory. <a href="#beruehmte-kevin-kuehnert">Kevin Kühnert (SP6w7)</a> moves forward cheekily and publicly as long as the group carries him. <a href="#beruehmte-gerald-hoerhan">Gerald Hörhan (SP6w7)</a> sells caution as rebellion.</p>
-          <p class="vb-intro">Schmelzer shares with Allen the pleasure in the word and with Kühnert and Hörhan the public appearance. The difference: he is the host who gives others the stage, not the provocateur. His security lies in the circle of guests and viewers, not in his own property as with Hörhan or in the party as with Kühnert.</p>
+          <p class="vb-intro"><a href="#beruehmte-guenther-jauch">Günther Jauch (SO5w6)</a> shares with Schmelzer the role of the questioner who makes knowledge and guests accessible to a large audience. <a href="#beruehmte-cg-jung">C. G. Jung (SO5w6)</a> shares with him the interest in soul, meaning and inner experience.</p>
+          <p class="vb-intro">The difference: Jauch moderates broad entertainment, Jung researched and taught. Schmelzer combines both by making the conversation about questions of meaning accessible to an interested audience.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Light and shadow of the self-preservation Six with a Seven-wing</h2>
+        <h2 class="vb-section">6. Light and shadow of the social Five with Six-wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light lies in openness. Whoever has experienced vulnerability can give others space, and the format of the long conversations gives guests time. He plans far ahead: for 2026 to 2028 moderations and talks are announced, a reliable rhythm of congresses, seminars and broadcasts.</p>
-          <p class="vb-intro">The shadow of this combination is the lightness that evades depth: the Seven-wing likes the new and the next, the Six would probe until something is reliably settled. Where conversations stay in motion, the question of what is dependable often stays open.</p>
+          <p class="vb-intro">The light lies in openness. Whoever has experienced himself as vulnerable can give others space, and the format of long conversations gives guests time. He plans far ahead: moderations and talks are announced for 2026 to 2028, a reliable rhythm of congresses, seminars and broadcasts.</p>
+          <p class="vb-intro">The shadow of this combination lies in the observer role: the social Five likes to collect and mediate, and whoever lets the guests speak often remains invisible himself. Where the conversations keep moving, the question of what is reliable often stays open.</p>
         </blockquote>
 
-        <h2 class="vb-section">7. Status: moderations until 2028</h2>
+<h2 class="vb-section">7. Status: moderations until 2028</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">According to the available information (as of 22 October 2026) Thomas Schmelzer continues to moderate at MYSTICA.TV and at congresses. His site announces, among others, the &lsquo;Welt im Wandel Kongress&rsquo; in Würzburg (10 and 11 October 2026), the festival &lsquo;find your flow!&rsquo; in Basel (7 and 8 November 2026) and a seminar &lsquo;Erfolgreich auftreten&rsquo; (&lsquo;Appearing Successfully&rsquo;) at the MYSTICA Studio Munich (28 November 2026), for 2027 further congresses and in February 2028 &lsquo;20 Jahre MYSTICA – Der große Kongress&rsquo;.</p>
         </blockquote>
@@ -2695,12 +2694,11 @@ export function thomasSchmelzerPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
-        {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SP6 – Rabbit"},
-        {route:"beruehmte-woody-allen", label:"Portrait: Woody Allen (SP6w7) – same subtype and wing"},
-        {route:"beruehmte-kevin-kuehnert", label:"Portrait: Kevin Kühnert (SP6w7)"},
-        {route:"beruehmte-gerald-hoerhan", label:"Portrait: Gerald Hörhan (SP6w7)"},
-      ])}
+        {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
+        {route:"lebensmusterkompass/so5", label:"Life Pattern Compass: SO5 – Octopus"},
+        {route:"beruehmte-guenther-jauch", label:"Portrait: Günther Jauch (SO5w6)"},
+        {route:"beruehmte-cg-jung", label:"Portrait: C. G. Jung (SO5w6)"},
+            ])}
     </div>
   `);
 }
