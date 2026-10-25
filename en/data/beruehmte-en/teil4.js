@@ -261,6 +261,7 @@ export function billGatesPortraitPage() {
         {route:"beruehmte-claudio-naranjo", label:"Portrait: Dr. Claudio Naranjo (SO5w4)"},
         {route:"beruehmte-guenther-jauch", label:"Portrait: G\xfcnther Jauch (SO5w6)"},
         {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6)"},
+        {route:"beruehmte-jimmy-wales", label:"Portrait: Jimmy Wales (SO5w6)"},
       ])}
     </div>
   `);

@@ -2698,7 +2698,8 @@ export function thomasSchmelzerPortraitPage() {
         {route:"lebensmusterkompass/so5", label:"Life Pattern Compass: SO5 – Octopus"},
         {route:"beruehmte-guenther-jauch", label:"Portrait: Günther Jauch (SO5w6)"},
         {route:"beruehmte-cg-jung", label:"Portrait: C. G. Jung (SO5w6)"},
-            ])}
+        {route:"beruehmte-jimmy-wales", label:"Portrait: Jimmy Wales (SO5w6)"},
+      ])}
     </div>
   `);
 }
@@ -2925,6 +2926,78 @@ export function curtisYarvinPortraitPage() {
         {route:"beruehmte-richard-david-precht", label:"Portrait: Richard David Precht (SO1w9)"},
         {route:"beruehmte-peter-thiel", label:"Portrait: Peter Thiel (SX1w9)"},
       ])}
+    </div>
+  `);
+}
+
+export function jimmyWalesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jimmy-wales-portrait.jpg" alt="Jimmy Wales – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-jimmy-wales-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Jimmy Wales</p>
+        <p class="krim-portrait-typ">SO5w6 &middot; Social Type 5 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Founder of Wikipedia, b. 1966 &ndash; Animal correspondence: Octopus</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Octopus: a pupil from Huntsville who was finished early</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An <strong>octopus</strong> has no center like other animals: a large part of its thinking sits in the arms, and each one reaches out on its own. Jimmy Wales was born on 8 August 1966 in Huntsville, Alabama (one source gives 7 August). His father managed a grocery store, his mother and grandmother ran the &lsquo;House of Learning&rsquo;, a small private school that he and his siblings also attended. Later he went to Randolph School and graduated at 16.</p>
+          <p class="vb-intro">He studied finance at Auburn University, began a doctoral program at Alabama and Indiana University without completing it, and in the 1990s worked as an options trader in Chicago before turning to the internet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Five: an encyclopedia as a shared totem</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the social Five &lsquo;totem&rsquo;: a sign around which a group gathers and to which it ties its knowledge. In Wales it is the encyclopedia that people worldwide write together. He says he compares his role to that of a constitutional monarch with little real power: the community decides, he stands for it.</p>
+          <p class="vb-intro">What he learned from the failure of Nupedia is revealing. The seven-stage review process, he recounts, screamed &lsquo;We don&rsquo;t trust you&rsquo;, and he realized that people can be trusted and that this is the way to make progress. This trust in a community is the core of the social Five.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: trust as a rule, pragmatism as an attitude</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso and Russ Hudson call the Five with a Six-wing &lsquo;The Problem Solver&rsquo;. The <strong>Six-wing (w6)</strong> gives the Five a sense for rules, reliability and what holds in a group. In Wales it shows in his book &lsquo;The Seven Rules of Trust&rsquo; (October 2025), in which he applies the trust-based model of Wikipedia to the problem of declining public trust.</p>
+          <p class="vb-intro">Politically he describes himself as a libertarian, a centrist and a gradualist, that is, someone who proceeds step by step. That fits the Six-wing, which values reliability and avoids breaks.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: from an idea to a foundation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1996 Wales founded the web portal Bomis with two partners. It financed Nupedia, an encyclopedia that experts wrote and reviewed and that started in March 2000 with Larry Sanger as editor-in-chief. Wikipedia launched on 15 January 2001 as an open variant to which everyone could contribute. He says Nupedia failed because it was not fun, and open participation changed that.</p>
+          <p class="vb-intro">In 2003 he helped set up the Wikimedia Foundation and chaired it until 2006. Today he is Chair Emeritus and holds the community founder seat on the board. He also founded Wikia (now Fandom), a for-profit wiki hosting platform, in 2004, WikiTribune in 2017 and WT Social in 2019. On the question of who founded Wikipedia he says he is its sole founder and calls the dispute with Larry Sanger &lsquo;silly&rsquo;. Sanger is generally regarded as a co-founder.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Bill Gates and Günther Jauch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-bill-gates">Bill Gates (SO5w6)</a> shares with Wales the path from technical thinker to founder who now stands for large community tasks. <a href="#beruehmte-guenther-jauch">Günther Jauch (SO5w6)</a> shares with him the role of the mediator who makes knowledge accessible to a broad audience.</p>
+          <p class="vb-intro">In the same field stands Larry Sanger (<a href="#beruehmte-larry-sanger">SP5w6</a>), with whom he built Nupedia and Wikipedia: Sanger builds spaces of his own, Wales works through the community. In <a href="#beruehmte-thomas-schmelzer">Thomas Schmelzer (SO5w6)</a> too a host stands at the center who orders knowledge for a community.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social Five with Six-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is the courage to open knowledge and to trust the community. That a project without advertising and without a central office moves millions of people to write together is a rare achievement, and his book on trust carries the idea further.</p>
+          <p class="vb-intro">The shadow side of the Five is that the originator easily hides behind the project: whoever lets the community speak still has to explain himself in disputes, for instance about the founder role. Wales calls the dispute silly and keeps his distance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: London, foundation and book</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wales is (as of 25 October 2026) 60 years old, has lived in London since 2012 and has been a British citizen since 2019. He has been married to Kate Garvey since 2012. &lsquo;The Seven Rules of Trust&rsquo; was published in October 2025.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
+        {route:"lebensmusterkompass/so5", label:"Life Pattern Compass: SO5 – Octopus"},
+        {route:"beruehmte-bill-gates", label:"Portrait: Bill Gates (SO5w6)"},
+        {route:"beruehmte-guenther-jauch", label:"Portrait: Günther Jauch (SO5w6)"},
+        {route:"beruehmte-larry-sanger", label:"Portrait: Larry Sanger (SP5w6)"},
+        {route:"beruehmte-thomas-schmelzer", label:"Portrait: Thomas Schmelzer (SO5w6)"},
+            ])}
     </div>
   `);
 }

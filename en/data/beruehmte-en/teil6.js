@@ -3046,7 +3046,8 @@ export function larrySangerPortraitPage() {
         {route:"beruehmte-rene-descartes", label:"Portrait: René Descartes (SP5w6)"},
         {route:"beruehmte-harald-lesch", label:"Portrait: Harald Lesch (SP5w6)"},
         {route:"beruehmte-roger-akelius", label:"Portrait: Roger Akelius (SP5w6)"},
-            ])}
+        {route:"beruehmte-jimmy-wales", label:"Portrait: Jimmy Wales (SO5w6)"},
+      ])}
     </div>
   `);
 }

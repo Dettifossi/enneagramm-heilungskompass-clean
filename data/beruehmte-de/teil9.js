@@ -624,6 +624,7 @@ export function guentherJauchPortraitPage() {
         {route:"beruehmte-albert-einstein", label:"Porträt: Dr. Albert Einstein (SO5w4)"},
         {route:"beruehmte-anton-zeilinger", label:"Porträt: Anton Zeilinger (SO5w6)"},
         {route:"beruehmte-pythagoras", label:"Porträt: Pythagoras (SO5w6)"},
+        {route:"beruehmte-jimmy-wales", label:"Porträt: Jimmy Wales (SO5w6)"},
       ])}
     </div>
   `);

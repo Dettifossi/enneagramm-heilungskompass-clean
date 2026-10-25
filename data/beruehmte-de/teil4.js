@@ -261,6 +261,7 @@ export function billGatesPortraitPage() {
         {route:"beruehmte-claudio-naranjo", label:"Porträt: Dr. Claudio Naranjo (SO5w4)"},
         {route:"beruehmte-guenther-jauch", label:"Porträt: G\xfcnther Jauch (SO5w6)"},
         {route:"beruehmte-isaac-newton", label:"Porträt: Isaac Newton (SO5w6)"},
+        {route:"beruehmte-jimmy-wales", label:"Porträt: Jimmy Wales (SO5w6)"},
       ])}
     </div>
   `);
@@ -2978,6 +2979,78 @@ export function dominikKrausePortraitPage() {
         {route:"lebensmusterkompass/sx9", label:"Lebensmusterkompass: SX9 – Faultier"},
         {route:"beruehmte-richy-mueller", label:"Porträt: Richy Müller (SX9w1)"},
         {route:"beruehmte-viggo-mortensen", label:"Porträt: Viggo Mortensen (SX9w1)"},
+            ])}
+    </div>
+  `);
+}
+
+export function jimmyWalesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jimmy-wales-portrait.jpg" alt="Jimmy Wales – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-jimmy-wales-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Jimmy Wales</p>
+        <p class="krim-portrait-typ">SO5w6 &middot; Sozialer Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Gründer von Wikipedia, geb. 1966 &ndash; Tierentsprechung: Oktopus</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Oktopus: ein Schüler aus Huntsville, der früh fertig war</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Oktopus</strong> hat kein Zentrum wie andere Tiere: Ein großer Teil seines Denkens sitzt in den Armen, und jeder greift selbstständig zu. Jimmy Wales wurde am 8. August 1966 in Huntsville, Alabama, geboren (eine Quelle nennt den 7. August). Sein Vater leitete einen Lebensmittelladen, seine Mutter und seine Großmutter führten das ›House of Learning‹, eine kleine Privatschule, die auch er und seine Geschwister besuchten. Später ging er auf die Randolph School und machte dort mit 16 Jahren den Abschluss.</p>
+          <p class="vb-intro">Er studierte Finanzen an der Auburn University, begann ein Promotionsstudium in Alabama und an der Indiana University, ohne es abzuschließen, und arbeitete in den 1990er-Jahren als Optionshändler in Chicago, bevor er sich dem Internet zuwandte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der soziale Fünfer: eine Enzyklopädie als gemeinsames Totem</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sozialen Fünfer ›Totem‹: ein Zeichen, um das sich eine Gruppe versammelt und an dem sie ihr Wissen festmacht. Bei Wales ist es die Enzyklopädie, an der Menschen weltweit mitschreiben. Er sagt, er vergleiche seine Rolle mit der eines konstitutionellen Monarchen mit wenig echter Macht: Die Gemeinschaft entscheidet, er steht für sie.</p>
+          <p class="vb-intro">Aufschlussreich ist, was er aus dem Scheitern von Nupedia lernte. Der siebenstufige Prüfprozess habe, so erzählt er, ›We don't trust you‹ geschrien (wir trauen euch nicht), und er habe gemerkt, dass man Menschen vertrauen kann und dass das der Weg zum Fortschritt ist. Dieses Vertrauen in eine Gemeinschaft ist der Kern des sozialen Fünfers.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Vertrauen als Regel, Pragmatismus als Haltung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso und Russ Hudson nennen den Fünfer mit Sechserflügel ›Den Problemlöser‹. Der <strong>Sechserflügel (w6)</strong> verleiht dem Fünfer den Sinn für Regeln, Verlässlichkeit und das, was in einer Gruppe trägt. Bei Wales zeigt sich das in seinem Buch ›The Seven Rules of Trust‹ (Die sieben Regeln des Vertrauens, Oktober 2025), in dem er das vertrauensbasierte Modell von Wikipedia auf das Thema schwindenden öffentlichen Vertrauens überträgt.</p>
+          <p class="vb-intro">Politisch beschreibt er sich als Libertären, als Mittigen und als Gradualisten, also als jemanden, der Schritt für Schritt vorgeht. Das passt zum Sechserflügel, der Verlässlichkeit schätzt und Brüche scheut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: von der Idee zur Stiftung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1996 gründete Wales mit zwei Partnern das Webportal Bomis. Es finanzierte Nupedia, eine Enzyklopädie, die Fachleute schrieben und prüften und die im März 2000 mit Larry Sanger als Chefredakteur startete. Wikipedia ging am 15. Januar 2001 an den Start, als offene Variante, an der alle mitschreiben konnten. Er sagt, Nupedia sei gescheitert, weil es nicht Spaß gemacht habe, und das offene Mitmachen hat das geändert.</p>
+          <p class="vb-intro">2003 half er, die Wikimedia Foundation aufzubauen, und leitete sie als Vorsitzender bis 2006. Heute ist er Chair Emeritus und hat den Sitz des Community-Gründers im Vorstand. Daneben gründete er 2004 Wikia (heute Fandom), eine gewinnorientierte Plattform für Wikis, 2017 WikiTribune und 2019 WT Social. Zur Frage, wer Wikipedia gegründet hat, sagt er, er sei der alleinige Gründer, und nennt den Streit mit Larry Sanger ›silly‹ (albern). Sanger gilt allgemein als Mitgründer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Bill Gates und Günther Jauch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-bill-gates">Bill Gates (SO5w6)</a> teilt mit Wales den Weg vom Technikdenker zum Gründer, der heute für große Gemeinschaftsaufgaben steht. <a href="#beruehmte-guenther-jauch">Günther Jauch (SO5w6)</a> verbindet mit ihm die Rolle des Vermittlers, der Wissen für ein breites Publikum zugänglich macht.</p>
+          <p class="vb-intro">Im selben Feld steht Larry Sanger (<a href="#beruehmte-larry-sanger">SE5w6</a>), mit dem er Nupedia und Wikipedia aufbaute: Sanger baut sich eigene Räume, Wales arbeitet über die Gemeinschaft. Auch bei <a href="#beruehmte-thomas-schmelzer">Thomas Schmelzer (SO5w6)</a> steht ein Gastgeber im Mittelpunkt, der Wissen für eine Gemeinschaft ordnet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten des sozialen Fünfers mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist der Mut, Wissen zu öffnen und der Gemeinschaft zu vertrauen. Dass ein Projekt ohne Werbung und ohne Zentrale Millionen von Menschen zum Mitschreiben bewegt, ist eine seltene Leistung, und sein Buch über Vertrauen führt den Gedanken weiter.</p>
+          <p class="vb-intro">Die Schattenseite des Fünfers ist, dass sich der Verfasser leicht hinter dem Projekt versteckt: Wer die Gemeinschaft sprechen lässt, muss sich in Streitfällen, etwa um die Gründerrolle, doch erklären. Wales nennt den Streit albern und bleibt dabei auf Abstand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: London, Stiftung und Buch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wales ist (Stand 25. Oktober 2026) 60 Jahre alt, lebt seit 2012 in London und ist seit 2019 britischer Staatsbürger. Er ist seit 2012 mit Kate Garvey verheiratet. ›The Seven Rules of Trust‹ erschien im Oktober 2025.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so5", label:"Lebensmusterkompass: SO5 – Oktopus"},
+        {route:"beruehmte-bill-gates", label:"Porträt: Bill Gates (SO5w6)"},
+        {route:"beruehmte-guenther-jauch", label:"Porträt: Günther Jauch (SO5w6)"},
+        {route:"beruehmte-larry-sanger", label:"Porträt: Larry Sanger (SE5w6)"},
+        {route:"beruehmte-thomas-schmelzer", label:"Porträt: Thomas Schmelzer (SO5w6)"},
             ])}
     </div>
   `);

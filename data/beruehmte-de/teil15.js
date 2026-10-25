@@ -2794,7 +2794,8 @@ export function thomasSchmelzerPortraitPage() {
         {route:"lebensmusterkompass/so5", label:"Lebensmusterkompass: SO5 – Oktopus"},
         {route:"beruehmte-guenther-jauch", label:"Porträt: Günther Jauch (SO5w6)"},
         {route:"beruehmte-cg-jung", label:"Porträt: C. G. Jung (SO5w6)"},
-            ])}
+        {route:"beruehmte-jimmy-wales", label:"Porträt: Jimmy Wales (SO5w6)"},
+      ])}
     </div>
   `);
 }
