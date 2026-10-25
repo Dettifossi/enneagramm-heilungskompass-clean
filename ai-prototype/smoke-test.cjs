@@ -223,6 +223,8 @@ const ROUTES = [
   { hash: "en/#mindmap-cannabis", label: "EN Mindmap Cannabis indica" },
   { hash: "#claudio-naranjo-lehrer", label: "Neu: Claudio Naranjo Lehrer" },
   { hash: "en/#claudio-naranjo-lehrer", label: "Neu EN: Claudio Naranjo Lehrer" },
+  { hash: "#beruehmte-robbie-coltrane", label: "Neues Porträt: Robbie Coltrane" },
+  { hash: "en/#beruehmte-robbie-coltrane", label: "Neues EN-Porträt: Robbie Coltrane" },
   { hash: "#beruehmte-rosalie-thomass", label: "Neues Porträt: Rosalie Thomass" },
   { hash: "en/#beruehmte-rosalie-thomass", label: "Neues EN-Porträt: Rosalie Thomass" },
   { hash: "#beruehmte-klaus-maria-brandauer", label: "Neues Porträt: Klaus Maria Brandauer" },

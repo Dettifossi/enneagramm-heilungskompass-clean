@@ -2306,6 +2306,7 @@ export function charlesLaughtonPortraitPage() {
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
+        {route:"beruehmte-robbie-coltrane", label:"Porträt: Robbie Coltrane (SE9w8)"},
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
         {route:"beruehmte-margaret-rutherford", label:"Porträt: Margaret Rutherford (SE9w8)"},
@@ -3017,6 +3018,75 @@ export function johannesBKernerPortraitPage() {
         {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
         {route:"beruehmte-joerg-pilawa", label:"Porträt: Jörg Pilawa (SX7w6)"},
         {route:"beruehmte-romina-palm", label:"Porträt: Romina Palm (SO3w2)"},
+      ])}
+    </div>
+  `);
+}
+
+export function robbieColtranePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-robbie-coltrane-portrait.jpg" alt="Robbie Coltrane – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Robbie Coltrane</p>
+        <p class="krim-portrait-typ">SE9w8 &middot; Selbsterhaltender Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Schottischer Schauspieler und Komiker, 1950&ndash;2022 &ndash; Tierentsprechung: Elefant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Elefant: der große Mann mit dem leisen Humor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Elefant</strong> nimmt Raum ein, ohne zu drängen: Wo er steht, ordnet sich die Umgebung um ihn, und wenn er sich bewegt, hält ihn kaum etwas auf. Robbie Coltrane kam als Anthony Robin McMillan nach Wikipedia am 31. März 1950 in Rutherglen in Schottland zur Welt. Sein Vater war Hausarzt und Polizeiarzt, seine Mutter Lehrerin und Pianistin. Er besuchte das Internat Glenalmond College in Perthshire und studierte Malerei an der Glasgow School of Art. Seinen Künstlernamen wählte er zu Ehren des Jazzsaxophonisten John Coltrane.</p>
+          <p class="vb-intro">Er kam über Komödie und Theater zum Film, zu Programmen wie ›Alfresco‹ und ›The Comic Strip Presents…‹ und zur Serie ›Tutti Frutti‹ (1987). Der Weg war nicht der eines Mannes, der sich in den Vordergrund drängte: Er wuchs über die Jahre in seine Rollen hinein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Neun: Genuss und Beständigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte die selbsterhaltende Neun den Subtyp des <em>Appetit</em> (Appetite): Sie sucht Ruhe und Sicherheit im Konkreten, in Essen, Gewohnheit, Bequemlichkeit und kleinen Freuden, und dämpft damit eine innere Leere. Im Lebensmusterkompass dieser App steht dafür die ruhige, gewichtige Präsenz.</p>
+          <p class="vb-intro">Bei Coltrane zeigt sich das in der Fülle, die er verkörperte, körperlich und im Wesen: in Rollen wie Falstaff in Kenneth Branaghs ›Henry V‹ (1989), dem Gelehrten und Polizeipsychologen Dr. Eddie ›Fitz‹ Fitzgerald in ›Cracker‹ (1993&ndash;1996, 2006), für den er drei BAFTA-Preise erhielt, und als Rubeus Hagrid in den ›Harry Potter‹-Filmen (2001&ndash;2011). Dazu passt seine Liebe zu Fahrzeugen: In Dokumentarfilmen wie ›Coltrane in a Cadillac‹ (1993), ›Coltrane&rsquo;s Planes and Automobiles‹ (1997) und ›B-Road Britain‹ (2007) bereiste er mit sichtbarem Vergnügen Straßen und Maschinen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Stimmung, Kraft und die Schärfe unter der Gutmütigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der Neun Gewicht, Direktheit und die Fähigkeit, bei Bedarf zuzupacken. Hinter dem gutmütigen Äußeren steht eine Kraft, die in manchen Rollen aufblitzt: Fitz in ›Cracker‹ ist brillant und unbequem, ein Mann, der Menschen durchschaut und dabei selbst von eigenen Schwächen getrieben ist. Als Valentin Zukovsky spielte er in den Bond-Filmen ›GoldenEye‹ (1995) und ›Die Welt ist nicht genug‹ (1999) einen Gangster mit Witz und Wucht, und in ›Nuns on the Run‹ (1990) an der Seite von Eric Idle zeigte er die komische Seite derselben Energie.</p>
+          <p class="vb-intro">In ›National Treasure‹ (2016) spielte er einen alternden Komiker, der mit Vorwürfen konfrontiert wird. Dafür erhielt er eine BAFTA-Nominierung und einen RTS-Preis. Mit dem Achterflügel lässt sich in Verbindung bringen, dass seine Figuren häufig an der Grenze zwischen Wärme und Gefahr stehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk und die Ehrungen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Coltrane erhielt 2006 den Orden OBE und 2011 eine Auszeichnung der BAFTA Scotland für sein Lebenswerk im Film. Er heiratete 1999 Rhona Gemmell; das Paar trennte sich 2003 und ließ sich scheiden, blieb aber verbunden. Sie haben zwei Kinder. In seinen späteren Jahren litt er an Arthrose, saß ab 2019 im Rollstuhl und hatte Typ-2-Diabetes. Er starb am 14. Oktober 2022 im Forth Valley Royal Hospital in Larbert im Alter von 72 Jahren an Organversagen, das durch eine Blutvergiftung kompliziert wurde. Die BBC sendete am 26. Dezember 2022 die Würdigung ›Robbie Coltrane at the BBC‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp und Flügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dieselbe Verbindung aus gutmütiger Fülle und plötzlicher Schärfe zeigt der Schauspieler <a href="#beruehmte-charles-laughton">Charles Laughton (SE9w8)</a>, der ebenfalls Figuren von großer körperlicher Präsenz spielte. Auch <a href="#beruehmte-dietmar-baer">Dietmar Bär (SE9w8)</a> und <a href="#beruehmte-kevin-james">Kevin James (SE9w8)</a> gehören zu diesem Subtyp. Bei Coltrane kommt hinzu, dass er seine Wucht in ganz unterschiedliche Rollen übersetzte, vom Hagrid bis zu Fitz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht dieser Konstellation ist die Wärme, die Gelassenheit und der Humor, mit denen er auf der Leinwand und im Fernsehen Menschen für sich gewann. Der Schatten der Neun liegt darin, dass die eigene Stimme gedämpft wird, damit der Frieden bleibt. Der Achterflügel kann diese Zurückhaltung in Wucht kippen lassen. Zu seinem Innenleben sagen die Quellen wenig, und hier ist es besser, nicht zu spekulieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Der Heilungsweg: vom Dämpfen zur eigenen Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Weg der Neun führt vom Anpassen zum Dasein mit der eigenen Kraft: vom ›Ist doch egal‹ zum ›Das will ich‹. Dass Coltrane in seinen großen Rollen genau diese Kraft zeigte, in Fitz, in Hagrid, in Zukovsky, lässt sich als Hinweis lesen, wie viel unter der ruhigen Oberfläche lag, ohne dass sich daraus mehr behaupten ließe, als die Rollen zeigen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
+        {route:"beruehmte-charles-laughton", label:"Porträt: Charles Laughton (SE9w8)"},
+        {route:"beruehmte-dietmar-baer", label:"Porträt: Dietmar Bär (SE9w8)"},
+        {route:"beruehmte-kevin-james", label:"Porträt: Kevin James (SE9w8)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
       ])}
     </div>
   `);
