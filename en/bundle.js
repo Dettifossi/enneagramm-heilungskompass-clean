@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=360";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=361";
 import { psychogrammErklaerung } from "../data/psychogramme-erklaerung.js?v=2";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -3026,8 +3026,8 @@ const BERUEHMT_PORTRAITS = [
     heading:"Sadhguru – Self-Preservation Type 3",
     teaser:"SP3w2 · born 1957. Yogi, guru, bestselling author. Founder of the Isha Foundation. Nine million volunteers, 'Inner Engineering', Save Soil – the raccoon that plants the desert.",
     tags:["Sonstiges"], gender:"m"},
-{ route:"beruehmte-vincenzo-califano", name:"Vincenzo Califano", added:"2026-09-21", subtyp:"SE3w2",
-    heading:"Vincenzo Califano – Self-Preservation Type 3",
+{ route:"beruehmte-vincenzo-califano", name:"Vincenzo Califano", added:"2026-09-21", subtyp:"SO3w2",
+    heading:"Vincenzo Califano – Social Type 3",
     teaser:"SP3w2 · Spiritual teacher (Advaita/Direct Path), Zurich. Former entrepreneur who translated his own awakening experience into a structured teaching offer – 1:1 accompaniment, Inner Circle, weekly satsangs. The raccoon that builds even the teaching of the self's dissolution into a reliable system.",
     land:"Switzerland", tags:["Sonstiges"], gender:"m"},
 { route:"beruehmte-susan-link", name:"Susan Link", added:"2026-09-12", subtyp:"SE3w2",

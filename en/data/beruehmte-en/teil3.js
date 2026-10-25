@@ -1404,7 +1404,7 @@ export function sadhguruPortraitPage() {
         {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SP3w2)"},
         {route:"krankheitsportraets-sadhguru", label:"Illness Portrait: Sadhguru (SP3w2) – chronic subdural hematoma"},
         {route:"beruehmte-susan-link", label:"Portrait: Susan Link (SP3w2)"},
-        {route:"beruehmte-vincenzo-califano", label:"Portrait: Vincenzo Califano (SP3w2) – spiritual teacher, same combination at a smaller scale"},
+        {route:"beruehmte-vincenzo-califano", label:"Portrait: Vincenzo Califano (SO3w2) – spiritual teacher, same combination at a smaller scale"},
         {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SP3w4)"},
         {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SP3w2)"},
         {route:"beruehmte-kathrin-bauerfeind", label:"Portrait: Kathrin Bauerfeind (SP3w4)"},

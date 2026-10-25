@@ -2113,7 +2113,7 @@ export function susanLinkPortraitPage() {
         {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
         {route:"beruehmte-klara-von-assisi", label:"Porträt: Klara von Assisi (SE3w2)"},
         {route:"beruehmte-barbara-bleisch", label:"Porträt: Dr. Barbara Bleisch (SE3w2)"},
-        {route:"beruehmte-vincenzo-califano", label:"Porträt: Vincenzo Califano (SE3w2)"},
+        {route:"beruehmte-vincenzo-califano", label:"Porträt: Vincenzo Califano (SO3w2)"},
       ])}
     </div>
   `);

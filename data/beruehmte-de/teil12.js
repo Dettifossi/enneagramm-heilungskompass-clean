@@ -2327,26 +2327,26 @@ export function vincenzoCalifanoPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-vincenzo-califano-portrait.jpg" alt="Vincenzo Califano" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Vincenzo Califano</p>
-        <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel</p>
-        <p class="krim-portrait-subtitle">Spiritueller Lehrer (Advaita/Direkter Weg), geb. unbekannt, Zürich – Tierentsprechung: Waschbär</p>
+        <p class="krim-portrait-typ">SO3w2 · Sozialer Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Spiritueller Lehrer (Advaita/Direkter Weg), geb. unbekannt, Zürich – Tierentsprechung: Gepard</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. Der Waschbär, der aus einem Unternehmen eine Lehre baute</h2>
+        <h2 class="vb-section">1. Der Gepard, der aus einem Unternehmen eine Lehre baute</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Vincenzo Califano lebt und lehrt in Zürich. Nach eigener Schilderung machte er in jungen Jahren eine Erfahrung, „für die es keine Erklärung gab" – ein plötzlicher Bruch im gewohnten Erleben. Parallel dazu führte er über Jahre ein ganz normales Leben: Er arbeitete, übernahm Verantwortung, leitete ein Unternehmen. Erst nach Jahren intensiver Suche – Meditation, Studium verschiedener Methoden – kam der eigentliche Wendepunkt: kein Ereignis durch Anstrengung, sondern das plötzliche Wegfallen des Suchenden selbst.</p>
-          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – unscheinbar, anpassungsfähig, still geschickt. Genau das beschreibt Califanos Weg: Kein spektakulärer Auftritt als Erleuchteter, sondern jemand, der aus einer nüchternen unternehmerischen Biografie heraus eine strukturierte, funktionierende Lehrtätigkeit aufbaute – Satsangs in mehreren Städten, ein wöchentlicher YouTube-Kanal, ein eigenes Buch, feste Programme für Einzelbegleitung.</p>
+          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei – er liegt lange ruhig und entscheidet sich in einem Moment, der dann alles verändert. Das passt zu Califanos Weg: Auf Jahre der Suche folgte ein plötzlicher Wendepunkt, und aus der nüchternen unternehmerischen Biografie entstand eine Lehrtätigkeit, die in der Szene sichtbar wurde – Satsangs in mehreren Städten, ein wöchentlicher YouTube-Kanal, ein eigenes Buch, feste Programme für Einzelbegleitung.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. Die selbsterhaltende Drei: Struktur statt spirituelles Schauspiel</h2>
+        <h2 class="vb-section">2. Die soziale Drei: Ansehen in der Gemeinschaft der Suchenden</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> gilt als Kontratyp der Drei: Statt auf Bühnenwirkung zu setzen, richtet sie ihre Energie auf Kompetenz, Aufbau und funktionierende Strukturen. Bei Califano zeigt sich das darin, dass seine spirituelle Lehrtätigkeit nicht als loses, informelles Herumreisen organisiert ist, sondern als klar gegliedertes Angebot: eine „8 Wochen Begleitung 1:1", Einzelsitzungen, eine feste Mitgliedschaft („Inner Circle"), buchbare Tagesevents mit konkretem Datum und Countdown auf der eigenen Website.</p>
-          <p class="vb-intro">Das ist reine SE3-Logik, übertragen auf ein Feld, das sich traditionell eher gegen Struktur sträubt: Selbst die Lehre von der radikalen Auflösung des suchenden Selbst wird bei Califano in ein verlässliches, wiederholbares System übersetzt – Kompetenz und Verbindlichkeit als Fundament, nicht Charisma als Selbstzweck.</p>
+          <p class="vb-intro">Bei der <strong>sozialen Drei (SO3)</strong> bestimmt das Ansehen in der Gemeinschaft das Handeln, und Claudio Naranjo nannte das Prestige. Bei Califano zeigt sich das darin, dass er sich einen Platz in der deutschsprachigen Szene der nichtdualen Lehrer erarbeitet hat: Er hält regelmäßig Satsangs, ist in Verzeichnissen wie Jetzt-TV gelistet und tritt öffentlich auf. Sein Angebot ist klar gegliedert: eine „8 Wochen Begleitung 1:1", Einzelsitzungen, eine feste Mitgliedschaft („Inner Circle"), buchbare Tagesevents mit konkretem Datum und Countdown auf der eigenen Website.</p>
+          <p class="vb-intro">Das ist soziale Drei in einem Feld, das sich traditionell eher gegen Struktur sträubt: Selbst die Lehre von der radikalen Auflösung des suchenden Selbst wird bei Califano in ein verlässliches, wiederholbares System übersetzt, das in einer Gemeinschaft von Teilnehmenden gelebt wird – Kompetenz und Verbindlichkeit als Fundament, Sichtbarkeit in der Szene als Ergebnis.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Zweierflügel: Begleitung als eigentlicher Antrieb</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der selbsterhaltenden Drei den echten Impuls zur persönlichen Zuwendung. Califano beschreibt sein heutiges Wirken explizit in dieser Sprache: „Ich begleite Menschen, die an einem ähnlichen Punkt stehen… Ich öffne einen Raum." Das ist kein distanziertes Vortragen abstrakter Konzepte, sondern eine bewusst persönlich gehaltene Begleitung – verstärkt durch regelmäßige Live-Chats und Frage-Antwort-Formate, in denen er direkt auf einzelne Menschen und ihre konkreten Fragen eingeht.</p>
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der sozialen Drei den echten Impuls zur persönlichen Zuwendung. Califano beschreibt sein heutiges Wirken explizit in dieser Sprache: „Ich begleite Menschen, die an einem ähnlichen Punkt stehen… Ich öffne einen Raum." Das ist kein distanziertes Vortragen abstrakter Konzepte, sondern eine bewusst persönlich gehaltene Begleitung – verstärkt durch regelmäßige Live-Chats und Frage-Antwort-Formate, in denen er direkt auf einzelne Menschen und ihre konkreten Fragen eingeht.</p>
           <p class="vb-intro">Dieselbe Zugewandtheit erklärt, warum er in der deutschsprachigen Szene der nichtdualistischen Lehrer neben etablierten Namen wie Gangaji, Mooji oder Byron Katie geführt wird, obwohl sein Wirkungskreis deutlich kleiner ist: Nicht die Reichweite macht den Unterschied, sondern die spürbare, direkte Zuwendung zum Einzelnen in einem eigens dafür geöffneten Raum.</p>
         </blockquote>
 
@@ -2356,16 +2356,16 @@ export function vincenzoCalifanoPortraitPage() {
           <p class="vb-intro">In seinem Buch ›Vom einfachen Finden des Glücks – Über den Sinn des Lebens‹ übersetzt er seine eigene Erfahrung in eine zugängliche, alltagstaugliche Sprache – ohne die für viele Lehrer typische esoterische Fachterminologie. Genau diese Übersetzungsarbeit vom abstrakten Erwachens-Erlebnis in ein konkretes, buchbares Format ist die eigentliche fachliche Leistung: Verständlichkeit und Struktur als bewusste Entscheidung, nicht als Kompromiss.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei mit Zweierflügel</h2>
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Drei mit Zweierflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE3w2 zeigt sich darin, dass Califano komplexe, oft unzugänglich formulierte nichtduale Lehren in ein konkretes, verlässliches Angebot verwandelt, das Menschen tatsächlich erreichen und nutzen können – Struktur im Dienst echter Zuwendung, nicht als Selbstzweck.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Drei ist <strong>Eitelkeit / Täuschung</strong> – bei der SE3 subtiler als bei den anderen Dreier-Subtypen: Die Botschaft „Es gibt nichts zu finden, niemanden, der ankommen müsste" wird selbst zu einem vermarktbaren, kostenpflichtigen Produkt – Einzelsitzungen, eine Mitgliedschaft, ticketpflichtige Tagesevents. Diese Spannung zwischen radikaler Botschaft der Nicht-Notwendigkeit und einer klar strukturierten Geschäftstätigkeit rund um genau diese Botschaft ist kein Einzelfall in dieser Szene, verdient bei Califano aber besondere Aufmerksamkeit, weil sie so unverkennbar unternehmerisch organisiert ist.</p>
+          <p class="vb-intro">Das Licht der SO3w2 zeigt sich darin, dass Califano komplexe, oft unzugänglich formulierte nichtduale Lehren in ein konkretes, verlässliches Angebot verwandelt, das Menschen tatsächlich erreichen und nutzen können – Struktur im Dienst echter Zuwendung, nicht als Selbstzweck.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist <strong>Eitelkeit / Täuschung</strong> – bei der sozialen Drei zeigt es sich im Anspruch, in der Szene als Lehrer anerkannt zu sein: Die Botschaft „Es gibt nichts zu finden, niemanden, der ankommen müsste" wird selbst zu einem vermarktbaren, kostenpflichtigen Produkt – Einzelsitzungen, eine Mitgliedschaft, ticketpflichtige Tagesevents. Diese Spannung zwischen radikaler Botschaft der Nicht-Notwendigkeit und einer klar strukturierten Geschäftstätigkeit rund um genau diese Botschaft ist kein Einzelfall in dieser Szene, verdient bei Califano aber besondere Aufmerksamkeit, weil sie so unverkennbar unternehmerisch organisiert ist.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der Heilungsweg: Vom Aufbauen zum Sein</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Was habe ich geleistet?</em> zur Erkenntnis <em>Ich bin – jenseits aller Leistung.</em> Califano lehrt genau das als Kern seiner eigenen Botschaft: „Es geht nicht darum, ein besseres Leben zu erschaffen. Es geht darum, zu erkennen, was schon vollständig ist." Bemerkenswert ist, dass er selbst formuliert, die Identifikation mit der Suche sei das eigentliche Hindernis gewesen – eine sehr direkte, fast wörtliche Beschreibung dessen, was der Heilungsweg der Drei von der Leistungsfixierung wegführen soll.</p>
-          <p class="vb-intro">Ein aufschlussreicher Vergleich innerhalb desselben Subtyps ist <a href="javascript:void(0)" data-route="beruehmte-sadhguru">Sadhguru</a> (SE3w2): Auch bei ihm zeigt sich dieselbe Kombination aus unternehmerischem Aufbau einer spirituellen Institution und echter, persönlich gehaltener Zuwendung zu den Menschen, die ihm folgen – nur um ein Vielfaches größer skaliert. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-sadhguru">Porträt zu Sadhguru</a>.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-sadhguru">Sadhguru</a> (SE3w2), der denselben Zweierflügel in einem anderen Subtyp lebt: Bei ihm steht der Aufbau einer spirituellen Institution im Vordergrund, bei Califano das Ansehen in der Gemeinschaft der Suchenden. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-sadhguru">Porträt zu Sadhguru</a>. Im selben Subtyp zeigt <a href="javascript:void(0)" data-route="beruehmte-christiane-hoerbiger">Christiane Hörbiger (SO3w2)</a> die gleiche Zugewandtheit, die ein breites Publikum erreicht.</p>
         </blockquote>
 
       </div>
@@ -2374,10 +2374,11 @@ export function vincenzoCalifanoPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so3", label:"Lebensmusterkompass: SO3 – Gepard"},
+        {route:"beruehmte-christiane-hoerbiger", label:"Porträt: Christiane Hörbiger (SO3w2)"},
+        {route:"beruehmte-pharrell-williams", label:"Porträt: Pharrell Williams (SO3w2)"},
         {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
-        {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2)"},
-        {route:"beruehmte-susan-link", label:"Porträt: Susan Link (SE3w2)"},
       ])}
     </div>
   `);

@@ -2252,26 +2252,26 @@ export function vincenzoCalifanoPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-vincenzo-califano-portrait.jpg" alt="Vincenzo Califano" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Vincenzo Califano</p>
-        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with Two-wing</p>
-        <p class="krim-portrait-subtitle">Spiritual teacher (Advaita/Direct Path), b. unknown, Zurich &ndash; Animal correspondence: Raccoon</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Social Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Spiritual teacher (Advaita/Direct Path), b. unknown, Zurich &ndash; Animal correspondence: Cheetah</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Raccoon Who Built a Business Into a Teaching</h2>
+        <h2 class="vb-section">1. The Cheetah Who Built a Business Into a Teaching</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Vincenzo Califano lives and teaches in Zurich. By his own account, he had an experience in his youth "for which there was no explanation" – a sudden break in ordinary experience. In parallel, he lived a completely ordinary life for years: he worked, took on responsibility, ran a business. Only after years of intensive seeking – meditation, studying various methods – came the actual turning point: not an event brought about by effort, but the sudden falling away of the seeker itself.</p>
-          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three – unassuming, adaptable, quietly skillful. That's exactly what describes Califano's path: no spectacular appearance as an enlightened master, but someone who, out of a sober entrepreneurial biography, built a structured, functioning teaching practice – satsangs in several cities, a weekly YouTube channel, his own book, fixed programs for one-on-one guidance.</p>
+          <p class="vb-intro">The <strong>cheetah</strong> is the animal of the social Three – it lies quietly for a long time and decides in one moment that then changes everything. That fits Califano's path: years of seeking were followed by a sudden turning point, and out of the sober entrepreneurial biography grew a teaching practice that became visible in the scene – satsangs in several cities, a weekly YouTube channel, his own book, fixed programs for one-on-one guidance.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Self-Preservation Three: Structure Instead of Spiritual Theater</h2>
+        <h2 class="vb-section">2. The Social Three: Standing in the Community of Seekers</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> is considered the Three's countertype: instead of relying on stage presence, it directs its energy toward competence, construction, and functioning structures. In Califano this shows in the fact that his spiritual teaching isn't organized as loose, informal wandering, but as a clearly structured offering: an "8-week 1:1 accompaniment," individual sessions, a fixed membership ("Inner Circle"), bookable day events with a specific date and countdown on his own website.</p>
-          <p class="vb-intro">That's pure SP3 logic, applied to a field that traditionally resists structure: even the teaching of the radical dissolution of the seeking self gets translated by Califano into a reliable, repeatable system – competence and consistency as the foundation, not charisma as an end in itself.</p>
+          <p class="vb-intro">In the <strong>social Three (SO3)</strong> standing in the community drives action, and Claudio Naranjo called it prestige. In Califano this shows in the way he has earned a place in the German-speaking scene of nondual teachers: he regularly holds satsangs, is listed in directories such as Jetzt-TV and appears publicly. His offering is clearly structured: an "8-week 1:1 accompaniment," individual sessions, a fixed membership ("Inner Circle"), bookable day events with a specific date and countdown on his own website.</p>
+          <p class="vb-intro">That is the social Three in a field that traditionally resists structure: even the teaching of the radical dissolution of the seeking self gets translated by Califano into a reliable, repeatable system lived in a community of participants – competence and consistency as the foundation, visibility in the scene as the result.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two-Wing: Accompaniment as the Actual Drive</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the self-preservation Three its genuine impulse toward personal warmth. Califano describes his current work explicitly in this language: "I accompany people who are at a similar point… I open a space." This isn't detached lecturing on abstract concepts, but deliberately personal accompaniment – reinforced by regular live chats and Q&A formats in which he responds directly to individual people and their concrete questions.</p>
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the social Three its genuine impulse toward personal warmth. Califano describes his current work explicitly in this language: "I accompany people who are at a similar point… I open a space." This isn't detached lecturing on abstract concepts, but deliberately personal accompaniment – reinforced by regular live chats and Q&A formats in which he responds directly to individual people and their concrete questions.</p>
           <p class="vb-intro">This same warmth explains why he's listed in the German-speaking nondual-teacher scene alongside established names like Gangaji, Mooji, or Byron Katie, even though his reach is considerably smaller: it isn't scale that makes the difference, but the palpable, direct attention to the individual within a space deliberately opened for that purpose.</p>
         </blockquote>
 
@@ -2281,16 +2281,16 @@ export function vincenzoCalifanoPortraitPage() {
           <p class="vb-intro">In his book ›Vom einfachen Finden des Glücks – Über den Sinn des Lebens‹ (›On Simply Finding Happiness – On the Meaning of Life‹), he translates his own experience into accessible, everyday language – without the esoteric jargon typical of many teachers in the field. This translation work, from an abstract awakening experience into a concrete, bookable format, is the actual professional achievement: clarity and structure as a deliberate choice, not a compromise.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three with Two-Wing</h2>
+        <h2 class="vb-section">5. Light and Shadow of the Social Three with Two-Wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP3w2 shows in the fact that Califano turns complex, often inaccessibly worded nondual teachings into a concrete, reliable offering that people can actually reach and use – structure in service of genuine care, not as an end in itself.</p>
-          <p class="vb-intro">The Three's fatal flaw is <strong>vanity / deceit</strong> – subtler in the SP3 than in the other Three subtypes: the message "There is nothing to find, no one who needs to arrive" itself becomes a marketable, paid product – individual sessions, a membership, ticketed day events. This tension between a radical message of non-necessity and a clearly structured business built around exactly that message is not unique to Califano in this scene, but deserves particular attention here because it is so unmistakably entrepreneurially organized.</p>
+          <p class="vb-intro">The light of the SO3w2 shows in the fact that Califano turns complex, often inaccessibly worded nondual teachings into a concrete, reliable offering that people can actually reach and use – structure in service of genuine care, not as an end in itself.</p>
+          <p class="vb-intro">The Three's fatal flaw is <strong>vanity / deceit</strong> – in the social Three it shows in the claim to be recognized as a teacher in the scene: the message "There is nothing to find, no one who needs to arrive" itself becomes a marketable, paid product – individual sessions, a membership, ticketed day events. This tension between a radical message of non-necessity and a clearly structured business built around exactly that message is not unique to Califano in this scene, but deserves particular attention here because it is so unmistakably entrepreneurially organized.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Healing Path: From Building to Being</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Three's healing path leads from the question <em>What have I achieved?</em> to the insight <em>I am – beyond all achievement.</em> Califano teaches exactly this as the core of his own message: "It's not about creating a better life. It's about recognizing what is already complete." Notably, he himself states that identification with the seeking itself was the actual obstacle – a very direct, almost literal description of what the Three's healing path is meant to lead away from: fixation on achievement.</p>
-          <p class="vb-intro">A revealing comparison within the same subtype is <a href="javascript:void(0)" data-route="beruehmte-sadhguru">Sadhguru</a> (SP3w2): he too shows the same combination of entrepreneurial construction of a spiritual institution and genuine, personally held care for the people who follow him – just scaled many times larger. More in the <a href="javascript:void(0)" data-route="beruehmte-sadhguru">portrait of Sadhguru</a>.</p>
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-sadhguru">Sadhguru</a> (SP3w2), who lives the same Two-wing in a different subtype: in him the construction of a spiritual institution is in the foreground, in Califano the standing in the community of seekers. More in the <a href="javascript:void(0)" data-route="beruehmte-sadhguru">portrait of Sadhguru</a>. Within the same subtype, <a href="javascript:void(0)" data-route="beruehmte-christiane-hoerbiger">Christiane Hörbiger (SO3w2)</a> shows the same warmth that reaches a broad audience.</p>
         </blockquote>
 
       </div>
@@ -2299,10 +2299,11 @@ export function vincenzoCalifanoPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
+        {route:"lebensmusterkompass/so3", label:"Life Pattern Compass: SO3 – Cheetah"},
+        {route:"beruehmte-christiane-hoerbiger", label:"Portrait: Christiane Hörbiger (SO3w2)"},
+        {route:"beruehmte-pharrell-williams", label:"Portrait: Pharrell Williams (SO3w2)"},
         {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SP3w2)"},
-        {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SP3w2)"},
-        {route:"beruehmte-susan-link", label:"Portrait: Susan Link (SP3w2)"},
       ])}
     </div>
   `);

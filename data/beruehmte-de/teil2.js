@@ -1528,7 +1528,7 @@ export function josephHaydnPortraitPage() {
         {route:"krankheitsportraets-joseph-haydn", label:"Krankheitsporträt: Joseph Haydn (SE3w2)"},
         {route:"beruehmte-edita-gruberova", label:"Porträt: Edita Gruberová (SE3w2)"},
         {route:"beruehmte-michael-dell", label:"Porträt: Michael Dell (SE3w2)"},
-        {route:"beruehmte-vincenzo-califano", label:"Porträt: Vincenzo Califano (SE3w2)"},
+        {route:"beruehmte-vincenzo-califano", label:"Porträt: Vincenzo Califano (SO3w2)"},
       ])}
     </div>
   `);
