@@ -1110,6 +1110,13 @@ export function edwardSnowdenPortraitPage() {
           <p class="vb-intro">Was bleibt, ist die Frage, die sein Leben stellt: <em>Was bist du bereit zu riskieren, wenn du wei\u00dft, was du wei\u00dft?</em> Die SX5w6 gibt darauf keine einfache Antwort. Aber Snowden hat gezeigt, dass es eine Antwort gibt.</p>
         </blockquote>
 
+        <h2 class="vb-section">6. Ein Gedanke aus der Homöopathie: das Bild der Wildnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 5 das Mittel Stramonium (Stechapfel) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seinem Arzneimittelbild gehört die Vorstellung, mutterseelenallein in der Wildnis zu sein. In der Fachsprache der Homöopathie ist das eine Single-Rubrik: Diese Vorstellung findet sich nur bei diesem einen Mittel. Bei Snowden kehrt das Bild äußerlich wieder: Nach seiner Abreise aus den USA 2013 verbrachte er 39 Tage im Transitbereich des Moskauer Flughafens, bevor er Asyl in Russland erhielt, wo er seither lebt. Das Porträt nimmt keine Stellung zur politischen Bewertung seiner Handlung, es geht hier nur um das Bild des Menschen, der auf sich gestellt in fremdem Gelände steht.</p>
+          <p class="vb-intro">Nach der Beobachtung des Autors zeigt sich dieses Erleben am reinsten beim selbsterhaltenden Fünfer, bei dem es um die pure Selbsterhaltung geht; beim sexuellen Fünfer Snowden zeigt es sich in anderer Färbung, als Alleinstehen gegen eine Übermacht. Gemeint ist ein Vergleich von Bildern. Er enthält keine Aussage über den Gesundheitszustand eines Menschen, keine Empfehlung und keinen Ersatz für Beratung durch Ärzte oder Heilkundige.</p>
+        </blockquote>
+
+
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -1124,6 +1131,7 @@ export function edwardSnowdenPortraitPage() {
         {route:"beruehmte-bryan-johnson", label:"Porträt: Bryan Johnson (SX5w6)"},
         {route:"beruehmte-herbert-kickl", label:"Porträt: Herbert Kickl (SE6w5)"},
         {route:"beruehmte-mark-zuckerberg", label:"Porträt: Mark Zuckerberg (SX5w6)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagramm &amp; Homöopathie"},
       ])}
     </div>
   `);

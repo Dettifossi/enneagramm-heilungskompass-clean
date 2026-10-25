@@ -1114,6 +1114,13 @@ export function edwardSnowdenPortraitPage() {
           <p class="vb-intro">What remains is the question his life poses: <em>What are you willing to risk when you know what you know?</em> The SX5w6 gives no simple answer to that. But Snowden has shown that an answer exists.</p>
         </blockquote>
 
+        <h2 class="vb-section">6. A thought from homeopathy: the image of the wilderness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 5 is assigned the remedy Stramonium (thorn apple) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). Its remedy picture includes the idea of being utterly alone in the wilderness. In the technical language of homeopathy this is a single rubric: the idea is found with this one remedy only. In Snowden the image returns outwardly: after leaving the USA in 2013 he spent 39 days in the transit area of Moscow&rsquo;s airport before receiving asylum in Russia, where he has lived since. The portrait takes no position on the political assessment of his action, it is only about the image of a person standing on his own in foreign terrain.</p>
+          <p class="vb-intro">According to the author&rsquo;s observation this experience shows most purely in the self-preservation Five, in whom it is about pure self-preservation; in the sexual Five Snowden it shows in a different coloring, as standing alone against an overwhelming force. What is meant is a comparison of images. It contains no statement about anyone&rsquo;s state of health, no recommendation and no substitute for advice from doctors or practitioners.</p>
+        </blockquote>
+
+
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
@@ -1128,6 +1135,7 @@ export function edwardSnowdenPortraitPage() {
         {route:"beruehmte-bryan-johnson", label:"Portrait: Bryan Johnson (SX5w6)"},
         {route:"beruehmte-herbert-kickl", label:"Portrait: Herbert Kickl (SP6w5)"},
         {route:"beruehmte-mark-zuckerberg", label:"Portrait: Mark Zuckerberg (SX5w6)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagram &amp; Homeopathy"},
       ])}
     </div>
   `);

@@ -192,6 +192,13 @@ export function blaisePascalPortraitPage() {
           <p class="vb-intro">Einordnung ohne Determinismus: Auch bei Pascal gilt, dass niemand allein aufgrund seines Enneagramm-Subtyps chronisch krank wird &ndash; seine Leiden hatten eigene, unabhängige körperliche Ursachen. Bemerkenswert bleibt dennoch, wie konsequent sich sein Umgang mit Krankheit und Sterblichkeit in sein Denkmuster einfügte: Statt die eigene Hinfälligkeit zu verdrängen, machte er sie &ndash; ganz Fünf, ganz Igel &ndash; zum Ausgangspunkt einer der bekanntesten philosophischen Formeln der Geistesgeschichte. Pascal kannte sein eigenes Enneagramm-Muster natürlich nicht bewusst; seine Leidenschaft nach Sicherheit durch geprüftes Wissen fand keine Grenze, bis sie sich buchstäblich in seinen Körper eingrub &ndash; nicht aus Schuld, sondern weil ihm die Sprache fehlte, um das eigene Muster als Muster zu erkennen, statt es als Schicksal hinzunehmen. Seine Krankheitsgeschichte und die letzten Lebensjahre werden im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-blaise-pascal">Krankheitsporträt zu Pascal</a> noch ausführlicher gedeutet.</p>
         </blockquote>
 
+        <h2 class="vb-section">7. Ein Gedanke aus der Homöopathie: das Bild der Wildnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 5 das Mittel Stramonium (Stechapfel) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seinem Arzneimittelbild gehört die Vorstellung, mutterseelenallein in der Wildnis zu sein. In der Fachsprache der Homöopathie ist das eine Single-Rubrik: Diese Vorstellung findet sich nur bei diesem einen Mittel. Bei Pascal findet sich das Bild in einem Satz seiner ›Pensées‹: ›Das ewige Schweigen dieser unendlichen Räume erschreckt mich.‹ Das ist die Wildnis, in die ein Mensch fällt, wenn er die Weite des Universums bedenkt und sich darin allein findet.</p>
+          <p class="vb-intro">Nach der Beobachtung des Autors zeigt sich dieses Erleben am reinsten beim selbsterhaltenden Fünfer, bei dem es um die pure Selbsterhaltung geht; beim sexuellen Fünfer Pascal zeigt es sich in anderer Färbung, im Bild der unendlichen Räume. Gemeint ist ein Vergleich von Bildern. Er enthält keine Aussage über den Gesundheitszustand eines Menschen, keine Empfehlung und keinen Ersatz für Beratung durch Ärzte oder Heilkundige.</p>
+        </blockquote>
+
+
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -204,6 +211,7 @@ export function blaisePascalPortraitPage() {
         {route:"beruehmte-archimedes", label:"Porträt: Archimedes (SX5w4)"},
         {route:"beruehmte-jean-jacques-rousseau", label:"Porträt: Jean-Jacques Rousseau (SX5w4)"},
         {route:"beruehmte-roman-polanski", label:"Porträt: Roman Polanski (SX5w6)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagramm &amp; Homöopathie"},
       ])}
     </div>
   `);

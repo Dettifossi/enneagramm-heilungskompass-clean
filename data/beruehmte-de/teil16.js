@@ -731,6 +731,13 @@ export function jeanJacquesRousseauPortraitPage() {
           <p class="vb-intro">Einordnung ohne Determinismus: Rousseaus letzte Lebensjahre waren von zunehmender Paranoia, körperlichen Beschwerden und schließlich einem plötzlichen Tod 1778 geprägt, vermutlich durch eine Hirnblutung – Ursachen, die sich nicht monokausal auf seinen Subtyp zurückführen lassen. Bemerkenswert bleibt dennoch, wie eng seine wachsende Verfolgungsangst mit seinem Grundmuster radikaler Selbstoffenlegung und anschließender Verwundbarkeit verwoben war. Rousseau kannte sein eigenes Enneagramm-Muster naturgemäß nicht; seine Leidenschaft nach schonungsloser innerer Wahrheit bestimmte ihn unwidersprochen, ohne die Sprache, um zu erkennen, dass dieselbe Offenheit, die sein Werk unsterblich machte, ihn zugleich zunehmend isolierte – nicht aus Schuld, sondern aus Unwissenheit über das eigene Muster.</p>
         </blockquote>
 
+        <h2 class="vb-section">7. Ein Gedanke aus der Homöopathie: das Bild der Wildnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 5 das Mittel Stramonium (Stechapfel) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seinem Arzneimittelbild gehört die Vorstellung, mutterseelenallein in der Wildnis zu sein. In der Fachsprache der Homöopathie ist das eine Single-Rubrik: Diese Vorstellung findet sich nur bei diesem einen Mittel. Bei Rousseau begegnet das Bild im Lebensfaden: Nach der Verurteilung seines ›Émile‹ 1762 musste er aus Frankreich fliehen, suchte Zuflucht in der Schweiz und 1765 auf der Petersinsel im Bielersee, fühlte sich zunehmend verfolgt und missverstanden und schrieb am Ende seines Lebens die ›Träumereien eines einsamen Spaziergängers‹.</p>
+          <p class="vb-intro">Nach der Beobachtung des Autors zeigt sich dieses Erleben am reinsten beim selbsterhaltenden Fünfer, bei dem es um die pure Selbsterhaltung geht; beim sexuellen Fünfer Rousseau zeigt es sich in anderer Färbung, als Einsamkeit des Unverstandenen. Es ist eine Gegenüberstellung zweier ähnlicher Bilder, mehr nicht. Der Text sagt nichts über Gesundheit, empfiehlt nichts und ersetzt keine ärztliche oder heilkundliche Beratung.</p>
+        </blockquote>
+
+
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -743,6 +750,7 @@ export function jeanJacquesRousseauPortraitPage() {
         {route:"beruehmte-blaise-pascal", label:"Porträt: Blaise Pascal (SX5w6)"},
         {route:"beruehmte-archimedes", label:"Porträt: Archimedes (SX5w4)"},
         {route:"krankheitsportraets-jean-jacques-rousseau", label:"Krankheitsporträt: Jean-Jacques Rousseau (SX5w4)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagramm &amp; Homöopathie"},
       ])}
     </div>
   `);
@@ -2171,6 +2179,13 @@ export function liseMeitnerPortraitPage() {
           <p class="vb-intro">Lise Meitner starb am 27. Oktober 1968 in Cambridge, England, wenige Tage vor ihrem 90. Geburtstag. Auf ihrem von ihrem Neffen Otto Robert Frisch verfassten Grabstein steht: "Lise Meitner: A physicist who never lost her humanity." 1997 wurde das chemische Element 109 zu ihren Ehren "Meitnerium" benannt – eine der wenigen Ehrungen dieser Art für eine Frau. Der Oktopus, der 1938 mit einem abgelaufenen Pass über eine Grenze floh, hinterließ eine Entdeckung, deren volle Anerkennung ihr zu Lebzeiten verwehrt blieb – und die erst Jahrzehnte später an den Platz zurückfand, an dem sie immer schon hingehörte.</p>
         </blockquote>
 
+        <h2 class="vb-section">7. Ein Gedanke aus der Homöopathie: das Bild der Wildnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 5 das Mittel Stramonium (Stechapfel) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seinem Arzneimittelbild gehört die Vorstellung, mutterseelenallein in der Wildnis zu sein. In der Fachsprache der Homöopathie ist das eine Single-Rubrik: Diese Vorstellung findet sich nur bei diesem einen Mittel. Bei Meitner zeigt sich das Bild als Exil: 1938 floh sie als Jüdin aus Berlin nach Stockholm, arbeitete dort mit wenig Rückhalt und blieb auch bei der Vergabe des Nobelpreises für Chemie 1944 unberücksichtigt, der allein an Otto Hahn ging. Auf sich gestellt, außerhalb der Gemeinschaft, in der sie ihre Arbeit begonnen hatte.</p>
+          <p class="vb-intro">Nach der Beobachtung des Autors zeigt sich dieses Erleben am reinsten beim selbsterhaltenden Fünfer, bei dem es um die pure Selbsterhaltung geht; bei der sozialen Fünf Meitner zeigt es sich in anderer Färbung, als Ausgeschlossensein aus der eigenen Fachgemeinschaft. Damit ist nur gesagt, dass zwei Bilder einander gleichen. Gesundheitliche Aussagen oder Empfehlungen sind damit nicht verbunden, und eine ärztliche oder heilkundliche Beratung bleibt unersetzt.</p>
+        </blockquote>
+
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -2182,6 +2197,7 @@ export function liseMeitnerPortraitPage() {
         {route:"beruehmte-albert-einstein", label:"Porträt: Albert Einstein (SO5w4)"},
         {route:"beruehmte-hannah-arendt", label:"Porträt: Hannah Arendt (SO5w4)"},
         {route:"beruehmte-dmitri-schostakowitsch", label:"Porträt: Dmitri Schostakowitsch (SO5w4)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagramm &amp; Homöopathie"},
       ])}
     </div>
   `);

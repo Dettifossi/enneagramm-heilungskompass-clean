@@ -712,6 +712,13 @@ export function hermannHessePortraitPage() {
           <p class="vb-intro">What remained is a body of work that has accompanied millions of people who saw themselves as outsiders &ndash; and that shows that the owl's radical retreat can produce not only isolation, but also a language for what community alone cannot express: the individual's path to themselves.</p>
         </blockquote>
 
+        <h2 class="vb-section">7. A thought from homeopathy: the image of the wilderness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 5 is assigned the remedy Stramonium (thorn apple) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). Its remedy picture includes the idea of being utterly alone in the wilderness. In the technical language of homeopathy this is a single rubric: the idea is found with this one remedy only. In Hesse the image becomes a figure: &lsquo;Steppenwolf&rsquo; (1927) describes a person who feels like a wolf who has strayed into the world of humans and finds no home. Hesse&rsquo;s own path also led to the margin: in 1912 from Germany to Switzerland, in 1919 to Montagnola in Ticino.</p>
+          <p class="vb-intro">According to the author&rsquo;s observation this experience shows most purely in the self-preservation Five, in whom it is about pure self-preservation. This only says that two images resemble each other. No statements about health or recommendations are attached, and medical or therapeutic advice remains unreplaced.</p>
+        </blockquote>
+
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -723,6 +730,7 @@ export function hermannHessePortraitPage() {
         {route:"beruehmte-spinoza", label:"Portrait: Baruch de Spinoza (SP5w6)"},
         {route:"beruhmte-philosophen", label:"Chart: Famous Philosophers in the Enneagram"},
         {route:"krankheitsportraets-hermann-hesse", label:"Illness Portrait: Hermann Hesse (SP5w6) – migraine and depression"},
+        {route:"enneagramm-homoeopathie", label:"Enneagram &amp; Homeopathy"},
       ])}
     </div>
   `);

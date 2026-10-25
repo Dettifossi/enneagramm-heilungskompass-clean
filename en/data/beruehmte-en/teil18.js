@@ -514,6 +514,13 @@ export function franzKafkaPortraitPage() {
           <p class="vb-intro">It is one of the greatest ironies in literary history that a person whose deepest instinct was retreat and the destruction of his own work became the emblematic voice of an entire era. The Owl who wrote in the dark so as to be seen by no one ended up becoming the voice in which millions of readers recognized their own foreignness in the world.</p>
         </blockquote>
 
+        <h2 class="vb-section">7. A thought from homeopathy: the image of the wilderness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 5 is assigned the remedy Stramonium (thorn apple) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). Its remedy picture includes the idea of being utterly alone in the wilderness. In the technical language of homeopathy this is a single rubric: the idea is found with this one remedy only. In Kafka the image appears as narrative: in &lsquo;The Burrow&rsquo; (1923/24) an animal worries incessantly about the safety of its den, in &lsquo;The Castle&rsquo; (1922) the land surveyor K. comes to a village and is never admitted. Both figures stand alone before an order they cannot reach or cannot fully calm.</p>
+          <p class="vb-intro">According to the author&rsquo;s observation this experience shows most purely in the self-preservation Five, in whom it is about pure self-preservation. It is a juxtaposition of two similar images, nothing more. The text says nothing about health, recommends nothing and does not replace medical or therapeutic advice.</p>
+        </blockquote>
+
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -529,6 +536,7 @@ export function franzKafkaPortraitPage() {
         {route:"beruehmte-ingo-zimmermann", label:"Portrait: Prof. Dr. Ingo Zimmermann (SP5w4)"},
         {route:"beruehmte-sidney-lumet", label:"Portrait: Sidney Lumet (SE5w4)"},
         {route:"astrologie-franz-kafka", label:"Enneagram Meets Astrology: Franz Kafka (SP5w4)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagram &amp; Homeopathy"},
       ])}
     </div>
   `);

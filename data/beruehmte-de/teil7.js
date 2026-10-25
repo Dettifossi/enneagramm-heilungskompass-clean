@@ -777,6 +777,13 @@ export function hermannHessePortraitPage() {
           <p class="vb-intro">Was blieb, ist ein Werk, das Millionen Menschen begleitet hat, die sich selbst als Außenseiter empfanden &ndash; und das zeigt, dass aus dem radikalen Rückzug der Eule nicht nur Isolation, sondern auch eine Sprache für das entstehen kann, was Gemeinschaft allein nicht auszudrücken vermag: der Weg des Einzelnen zu sich selbst.</p>
         </blockquote>
 
+        <h2 class="vb-section">7. Ein Gedanke aus der Homöopathie: das Bild der Wildnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 5 das Mittel Stramonium (Stechapfel) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seinem Arzneimittelbild gehört die Vorstellung, mutterseelenallein in der Wildnis zu sein. In der Fachsprache der Homöopathie ist das eine Single-Rubrik: Diese Vorstellung findet sich nur bei diesem einen Mittel. Bei Hesse wird das Bild zur Gestalt: Der ›Steppenwolf‹ (1927) beschreibt einen Menschen, der sich wie ein Wolf fühlt, der sich in die Welt der Menschen verirrt hat und keine Heimat findet. Auch Hesses eigener Weg führte an den Rand: 1912 aus Deutschland in die Schweiz, 1919 nach Montagnola im Tessin.</p>
+          <p class="vb-intro">Nach der Beobachtung des Autors zeigt sich dieses Erleben am reinsten beim selbsterhaltenden Fünfer, bei dem es um die pure Selbsterhaltung geht. Damit ist nur gesagt, dass zwei Bilder einander gleichen. Gesundheitliche Aussagen oder Empfehlungen sind damit nicht verbunden, und eine ärztliche oder heilkundliche Beratung bleibt unersetzt.</p>
+        </blockquote>
+
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -788,6 +795,7 @@ export function hermannHessePortraitPage() {
         {route:"beruehmte-spinoza", label:"Porträt: Baruch de Spinoza (SE5w6)"},
         {route:"beruhmte-philosophen", label:"Schaubild: Berühmte Philosophen im Enneagramm"},
         {route:"krankheitsportraets-hermann-hesse", label:"Krankheitsporträt: Hermann Hesse (SE5w6) – Migräne und Depression"},
+        {route:"enneagramm-homoeopathie", label:"Enneagramm &amp; Homöopathie"},
       ])}
     </div>
   `);

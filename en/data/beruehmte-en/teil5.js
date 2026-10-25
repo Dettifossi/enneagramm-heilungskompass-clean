@@ -1766,6 +1766,13 @@ export function hannahArendtPortraitPage() {
           <p class="vb-intro">On December 4, 1975, Hannah Arendt died in New York of a heart attack &ndash; her second within nineteen months &ndash; shortly after serving guests coffee at her apartment following dinner. Albert Einstein, with whom she shares the social-Five pattern, ultimately died of cardiovascular failure too, a ruptured abdominal aortic aneurysm &ndash; a parallel that proves no causal link to the subtype, but stands out nonetheless. In her typewriter was a page bearing the heading "Judging" and two epigraphs &ndash; the third, planned part of her final work, "The Life of the Mind," remained forever unfinished. The octopus who, as a young woman, escaped an internment camp left behind a way of thinking that continues to this day without a banister &ndash; exactly where she had left it standing.</p>
         </blockquote>
 
+        <h2 class="vb-section">7. A thought from homeopathy: the image of the wilderness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 5 is assigned the remedy Stramonium (thorn apple) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). Its remedy picture includes the idea of being utterly alone in the wilderness. In the technical language of homeopathy this is a single rubric: the idea is found with this one remedy only. In Arendt the image carries less wilderness than abandonment: in 1933 she fled Germany, in 1940 she was interned in the Gurs camp and escaped, in 1941 she reached New York, and for many years she was stateless. &lsquo;Verlassenheit&rsquo; (abandonment), the experience of being forsaken by all people, she herself made a basic concept of her thinking.</p>
+          <p class="vb-intro">According to the author&rsquo;s observation this experience shows most purely in the self-preservation Five, in whom it is about pure self-preservation; in the social Five Arendt it shows in a different coloring, with a view to the community. It is a juxtaposition of two similar images, nothing more. The text says nothing about health, recommends nothing and does not replace medical or therapeutic advice.</p>
+        </blockquote>
+
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -1781,6 +1788,7 @@ export function hannahArendtPortraitPage() {
         {route:"krankheitsportraets-hannah-arendt", label:"Illness Portrait: Hannah Arendt (SO5w4) – smoking and heart attacks"},
         {route:"beruehmte-dmitri-schostakowitsch", label:"Portrait: Dmitri Shostakovich (SO5w4)"},
         {route:"beruehmte-grit-strassenberger", label:"Portrait: Grit Straßenberger (SO6w5)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagram &amp; Homeopathy"},
       ])}
     </div>
   `);

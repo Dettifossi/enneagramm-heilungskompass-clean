@@ -259,6 +259,13 @@ export function blaisePascalPortraitPage() {
           <p class="vb-intro">A note without determinism: as with Pascal, no one becomes chronically ill purely because of their Enneagram subtype &ndash; his ailments had their own, independent physical causes. What remains notable is how consistently his approach to illness and mortality fit his pattern of thought: instead of repressing his own frailty, he made it &ndash; utterly Five, utterly hedgehog &ndash; the starting point for one of the best-known philosophical formulas in intellectual history. Pascal naturally had no conscious knowledge of his own Enneagram pattern; his passion for security through tested knowledge met no resistance, until it was literally carved into his body &ndash; not out of guilt, but because he lacked the language to recognize his own pattern as a pattern, rather than accepting it as fate. His illness and final years are explored in much greater depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-blaise-pascal">Illness Portrait of Pascal</a>.</p>
         </blockquote>
 
+        <h2 class="vb-section">7. A thought from homeopathy: the image of the wilderness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 5 is assigned the remedy Stramonium (thorn apple) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). Its remedy picture includes the idea of being utterly alone in the wilderness. In the technical language of homeopathy this is a single rubric: the idea is found with this one remedy only. In Pascal the image is found in a sentence of his &lsquo;Pens&eacute;es&rsquo;: &lsquo;The eternal silence of these infinite spaces frightens me.&rsquo; That is the wilderness into which a person falls when he considers the vastness of the universe and finds himself alone in it.</p>
+          <p class="vb-intro">According to the author&rsquo;s observation this experience shows most purely in the self-preservation Five, in whom it is about pure self-preservation; in the sexual Five Pascal it shows in a different coloring, in the image of the infinite spaces. What is meant is a comparison of images. It contains no statement about anyone&rsquo;s state of health, no recommendation and no substitute for advice from doctors or practitioners.</p>
+        </blockquote>
+
+
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
@@ -271,6 +278,7 @@ export function blaisePascalPortraitPage() {
         {route:"beruehmte-archimedes", label:"Portrait: Archimedes (SX5w4)"},
         {route:"beruehmte-jean-jacques-rousseau", label:"Portrait: Jean-Jacques Rousseau (SX5w4)"},
         {route:"beruehmte-roman-polanski", label:"Portrait: Roman Polanski (SX5w6)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagram &amp; Homeopathy"},
       ])}
     </div>
   `);

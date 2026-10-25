@@ -731,6 +731,13 @@ export function jeanJacquesRousseauPortraitPage() {
           <p class="vb-intro">A note without determinism: Rousseau's final years were marked by growing paranoia, physical complaints, and finally a sudden death in 1778, likely from a cerebral hemorrhage &ndash; causes that cannot be traced monocausally to his subtype. What remains notable, however, is how closely his growing fear of persecution was interwoven with his core pattern of radical self-disclosure followed by vulnerability. Rousseau naturally had no conscious knowledge of his own Enneagram pattern; his passion for unsparing inner truth governed him unopposed, with no language to recognize that the very openness that made his work immortal also increasingly isolated him &ndash; not out of guilt, but out of ignorance of his own pattern.</p>
         </blockquote>
 
+        <h2 class="vb-section">7. A thought from homeopathy: the image of the wilderness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 5 is assigned the remedy Stramonium (thorn apple) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). Its remedy picture includes the idea of being utterly alone in the wilderness. In the technical language of homeopathy this is a single rubric: the idea is found with this one remedy only. In Rousseau the image meets one in his life thread: after the condemnation of his &lsquo;&Eacute;mile&rsquo; in 1762 he had to flee France, sought refuge in Switzerland and in 1765 on the &Icirc;le de Saint-Pierre in Lake Biel, felt increasingly persecuted and misunderstood and wrote at the end of his life the &lsquo;Reveries of the Solitary Walker&rsquo;.</p>
+          <p class="vb-intro">According to the author&rsquo;s observation this experience shows most purely in the self-preservation Five, in whom it is about pure self-preservation; in the sexual Five Rousseau it shows in a different coloring, as the loneliness of the misunderstood. It is a juxtaposition of two similar images, nothing more. The text says nothing about health, recommends nothing and does not replace medical or therapeutic advice.</p>
+        </blockquote>
+
+
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
@@ -743,6 +750,7 @@ export function jeanJacquesRousseauPortraitPage() {
         {route:"beruehmte-blaise-pascal", label:"Portrait: Blaise Pascal (SX5w6)"},
         {route:"beruehmte-archimedes", label:"Portrait: Archimedes (SX5w4)"},
         {route:"krankheitsportraets-jean-jacques-rousseau", label:"Illness Portrait: Jean-Jacques Rousseau (SX5w4)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagram &amp; Homeopathy"},
       ])}
     </div>
   `);
@@ -2169,6 +2177,13 @@ export function liseMeitnerPortraitPage() {
           <p class="vb-intro">Lise Meitner died on October 27, 1968, in Cambridge, England, just days before her 90th birthday. Her gravestone, composed by her nephew Otto Robert Frisch, reads: "Lise Meitner: A physicist who never lost her humanity." In 1997 chemical element 109 was named "Meitnerium" in her honor – one of very few such honors given to a woman. The octopus who fled across a border in 1938 on an expired passport left behind a discovery whose full recognition was denied her in her lifetime – and which only found its rightful place decades later.</p>
         </blockquote>
 
+        <h2 class="vb-section">7. A thought from homeopathy: the image of the wilderness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 5 is assigned the remedy Stramonium (thorn apple) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). Its remedy picture includes the idea of being utterly alone in the wilderness. In the technical language of homeopathy this is a single rubric: the idea is found with this one remedy only. In Meitner the image shows as exile: in 1938 she fled Berlin as a Jew to Stockholm, worked there with little support and was also left out when the 1944 Nobel Prize in Chemistry was awarded, which went to Otto Hahn alone. On her own, outside the community in which she had begun her work.</p>
+          <p class="vb-intro">According to the author&rsquo;s observation this experience shows most purely in the self-preservation Five, in whom it is about pure self-preservation; in the social Five Meitner it shows in a different coloring, as exclusion from her own scientific community. This only says that two images resemble each other. No statements about health or recommendations are attached, and medical or therapeutic advice remains unreplaced.</p>
+        </blockquote>
+
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
@@ -2180,6 +2195,7 @@ export function liseMeitnerPortraitPage() {
         {route:"beruehmte-albert-einstein", label:"Portrait: Albert Einstein (SO5w4)"},
         {route:"beruehmte-hannah-arendt", label:"Portrait: Hannah Arendt (SO5w4)"},
         {route:"beruehmte-dmitri-schostakowitsch", label:"Portrait: Dmitri Shostakovich (SO5w4)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagram &amp; Homeopathy"},
       ])}
     </div>
   `);

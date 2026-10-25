@@ -512,6 +512,13 @@ export function franzKafkaPortraitPage() {
           <p class="vb-intro">Es ist eine der größten Ironien der Literaturgeschichte, dass ausgerechnet ein Mensch, dessen tiefster Instinkt der Rückzug und die Vernichtung des eigenen Werks war, zum Sinnbild einer ganzen Epoche wurde. Die Eule, die im Dunkeln schrieb, um von niemandem gesehen zu werden, wurde am Ende zu der Stimme, in der Millionen Leser ihre eigene Fremdheit in der Welt wiedererkannten.</p>
         </blockquote>
 
+        <h2 class="vb-section">7. Ein Gedanke aus der Homöopathie: das Bild der Wildnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 5 das Mittel Stramonium (Stechapfel) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seinem Arzneimittelbild gehört die Vorstellung, mutterseelenallein in der Wildnis zu sein. In der Fachsprache der Homöopathie ist das eine Single-Rubrik: Diese Vorstellung findet sich nur bei diesem einen Mittel. Bei Kafka erscheint das Bild als Erzählung: In ›Der Bau‹ (1923/24) sorgt sich ein Tier unablässig um die Sicherheit seiner Höhle, in ›Das Schloss‹ (1922) kommt der Landvermesser K. in ein Dorf und wird nie zugelassen. Beide Figuren stehen allein vor einer Ordnung, die sie nicht erreichen oder nicht ganz beruhigen kann.</p>
+          <p class="vb-intro">Nach der Beobachtung des Autors zeigt sich dieses Erleben am reinsten beim selbsterhaltenden Fünfer, bei dem es um die pure Selbsterhaltung geht. Es ist eine Gegenüberstellung zweier ähnlicher Bilder, mehr nicht. Der Text sagt nichts über Gesundheit, empfiehlt nichts und ersetzt keine ärztliche oder heilkundliche Beratung.</p>
+        </blockquote>
+
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -527,6 +534,7 @@ export function franzKafkaPortraitPage() {
         {route:"beruehmte-ingo-zimmermann", label:"Porträt: Prof. Dr. Ingo Zimmermann (SE5w4)"},
         {route:"beruehmte-sidney-lumet", label:"Porträt: Sidney Lumet (SE5w4)"},
         {route:"astrologie-franz-kafka", label:"Enneagramm meets Astrologie: Franz Kafka (SE5w4)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagramm &amp; Homöopathie"},
       ])}
     </div>
   `);
@@ -3071,7 +3079,7 @@ export function julianeKoepckePortraitPage() {
 
         <h2 class="vb-section">8. Ein Gedanke aus der Homöopathie: das Bild der Wildnis</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses wird dem Typ 5 das Mittel Stramonium (Stechapfel) zugeordnet (mehr dazu unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seinem Arzneimittelbild gehört unter anderem das Gefühl, mutterseelenallein in der Wildnis zu sein, ganz auf sich gestellt. Dieses Bild begegnet einem in Koepckes Lebensfaden auf zwei Ebenen: äußerlich in den Tagen allein im Regenwald, innerlich in einem Leben, das danach im Dienst an diesem Wald stand. Man kann es als eine Art Lebensaufgabe lesen: Die Wildnis, die ihr erst als Ausgesetztsein begegnete, wurde zu dem Ort, dem sie ihr Berufsleben widmete.</p>
+          <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses wird dem Typ 5 das Mittel Stramonium (Stechapfel) zugeordnet (mehr dazu unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seinem Arzneimittelbild gehört unter anderem das Gefühl, mutterseelenallein in der Wildnis zu sein, ganz auf sich gestellt. In der Fachsprache der Homöopathie ist das eine Single-Rubrik: Diese Vorstellung findet sich nur bei diesem einen Mittel. Nach der Beobachtung des Autors zeigt sich dieses Erleben am reinsten beim selbsterhaltenden Fünfer, bei dem es um die pure Selbsterhaltung geht. Dieses Bild begegnet einem in Koepckes Lebensfaden auf zwei Ebenen: äußerlich in den Tagen allein im Regenwald, innerlich in einem Leben, das danach im Dienst an diesem Wald stand. Man kann es als eine Art Lebensaufgabe lesen: Die Wildnis, die ihr erst als Ausgesetztsein begegnete, wurde zu dem Ort, dem sie ihr Berufsleben widmete.</p>
           <p class="vb-intro">Es ist eine Gegenüberstellung zweier Bilder, die einander ähneln, mehr nicht. Das Porträt sagt nichts über ihre Gesundheit, empfiehlt nichts und ersetzt keine ärztliche oder heilkundliche Beratung.</p>
         </blockquote>
 

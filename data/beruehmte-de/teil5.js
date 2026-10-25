@@ -1827,6 +1827,13 @@ export function hannahArendtPortraitPage() {
           <p class="vb-intro">Am 4. Dezember 1975 starb Hannah Arendt in New York an einem Herzinfarkt &ndash; ihrem zweiten innerhalb von neunzehn Monaten &ndash; kurz nachdem sie G\u00e4sten in ihrer Wohnung nach dem Essen Kaffee serviert hatte. Auch Albert Einstein, mit dem sie das Muster der sozialen F\u00fcnf teilt, starb letztlich an einem Versagen des Herz-Kreislauf-Systems, einem gerissenen Bauchaortenaneurysma &ndash; eine Parallele, die keinen urs\u00e4chlichen Zusammenhang mit dem Subtyp belegt, aber auff\u00e4llt. In ihrer Schreibmaschine steckte ein Blatt mit der \u00dcberschrift "Judging" (Urteilen) und zwei Epigraphen &ndash; der dritte, geplante Teil ihres letzten Werks "Vom Leben des Geistes" blieb f\u00fcr immer unvollendet. Der Oktopus, der als junge Frau aus einem Internierungslager entkam, hinterlie\u00df ein Denken, das bis heute ohne Gel\u00e4nder weitergeht &ndash; genau dort, wo sie es hatte stehen lassen.</p>
         </blockquote>
 
+        <h2 class="vb-section">7. Ein Gedanke aus der Homöopathie: das Bild der Wildnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 5 das Mittel Stramonium (Stechapfel) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seinem Arzneimittelbild gehört die Vorstellung, mutterseelenallein in der Wildnis zu sein. In der Fachsprache der Homöopathie ist das eine Single-Rubrik: Diese Vorstellung findet sich nur bei diesem einen Mittel. Bei Arendt trägt das Bild weniger Wildnis als Verlassenheit: 1933 floh sie aus Deutschland, 1940 wurde sie im Lager Gurs interniert und entkam, 1941 erreichte sie New York, und über viele Jahre war sie staatenlos. ›Verlassenheit‹, die Erfahrung, von allen Menschen verlassen zu sein, hat sie selbst zu einem Grundbegriff ihres Denkens gemacht.</p>
+          <p class="vb-intro">Nach der Beobachtung des Autors zeigt sich dieses Erleben am reinsten beim selbsterhaltenden Fünfer, bei dem es um die pure Selbsterhaltung geht; bei der sozialen Fünf Arendt zeigt es sich in anderer Färbung, mit dem Blick auf die Gemeinschaft. Es ist eine Gegenüberstellung zweier ähnlicher Bilder, mehr nicht. Der Text sagt nichts über Gesundheit, empfiehlt nichts und ersetzt keine ärztliche oder heilkundliche Beratung.</p>
+        </blockquote>
+
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -1842,6 +1849,7 @@ export function hannahArendtPortraitPage() {
         {route:"krankheitsportraets-hannah-arendt", label:"Krankheitsportr\u00e4t: Hannah Arendt (SO5w4) \u2013 Rauchen und Herzinfarkte"},
         {route:"beruehmte-dmitri-schostakowitsch", label:"Porträt: Dmitri Schostakowitsch (SO5w4)"},
         {route:"beruehmte-grit-strassenberger", label:"Porträt: Grit Stra\u00dfenberger (SO6w5)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagramm &amp; Homöopathie"},
       ])}
     </div>
   `);
