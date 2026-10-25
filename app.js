@@ -63055,9 +63055,9 @@ function freischaltPage() {
 
         <!-- E-Mail-Login (neue Kunden) -->
         <div id="panelEmail">
-          <input id="fbEmail" type="email" placeholder="Ihre E-Mail-Adresse" autocomplete="email" spellcheck="false"
+          <input id="fbEmail" name="email" type="email" autocapitalize="none" placeholder="Ihre E-Mail-Adresse" autocomplete="email" spellcheck="false"
             style="width:100%;box-sizing:border-box;padding:0.7rem 1rem;border:1px solid #ddd;border-radius:8px;font-size:1rem;font-family:inherit;margin-bottom:0.5rem;" />
-          <input id="fbPass" type="password" placeholder="Ihr Passwort (aus der Best\u00e4tigungs-E-Mail)" autocomplete="current-password"
+          <input id="fbPass" name="password" type="password" placeholder="Ihr Passwort (aus der Best\u00e4tigungs-E-Mail)" autocomplete="current-password"
             style="width:100%;box-sizing:border-box;padding:0.7rem 1rem;border:1px solid #ddd;border-radius:8px;font-size:1rem;font-family:inherit;margin-bottom:0.75rem;" />
           <button id="fbLoginBtn" class="primary" style="width:100%;">Anmelden</button>
           <p id="fbMsg" class="freischalt-card__msg"></p>
@@ -66353,7 +66353,7 @@ document.addEventListener("click", function(ev) {
   try { lbl = _favLabel(r) || ""; } catch (e) {}
   if (!lbl) lbl = (document.querySelector("h1") || {}).textContent || document.title;
   const url = location.origin + location.pathname + "#" + r;
-  const msg = lbl + "\n\nAus dem Enneagramm-Heilungskompass";
+  const msg = lbl + "\n\nAus dem Enneagramm-Heilungskompass\n\nBeim ersten Öffnen einmal anmelden, danach geht es direkt.";
   if (navigator.share) {
     navigator.share({ title: lbl, text: msg, url: url }).catch(function() {});
   } else if (navigator.clipboard) {
