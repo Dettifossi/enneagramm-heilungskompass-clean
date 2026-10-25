@@ -3069,6 +3069,12 @@ export function julianeKoepckePortraitPage() {
           <p class="vb-intro">Koepcke ist (Stand 25. Oktober 2026) 72 Jahre alt und Leiterin der Forschungsstation Panguana. Sie ist verheiratet mit Erich Diller. Ihr Porträt hält sich an das, was sie selbst erzählt und was veröffentlicht ist. Die anderen Menschen des Fluges haben ihr Leben verloren, an sie soll hier ebenfalls erinnert werden.</p>
         </blockquote>
 
+        <h2 class="vb-section">8. Ein Gedanke aus der Homöopathie: das Bild der Wildnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses wird dem Typ 5 das Mittel Stramonium (Stechapfel) zugeordnet (mehr dazu unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seinem Arzneimittelbild gehört unter anderem das Gefühl, mutterseelenallein in der Wildnis zu sein, ganz auf sich gestellt. Dieses Bild begegnet einem in Koepckes Lebensfaden auf zwei Ebenen: äußerlich in den Tagen allein im Regenwald, innerlich in einem Leben, das danach im Dienst an diesem Wald stand. Man kann es als eine Art Lebensaufgabe lesen: Die Wildnis, die ihr erst als Ausgesetztsein begegnete, wurde zu dem Ort, dem sie ihr Berufsleben widmete.</p>
+          <p class="vb-intro">Es ist eine Gegenüberstellung zweier Bilder, die einander ähneln, mehr nicht. Das Porträt sagt nichts über ihre Gesundheit, empfiehlt nichts und ersetzt keine ärztliche oder heilkundliche Beratung.</p>
+        </blockquote>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -3081,6 +3087,7 @@ export function julianeKoepckePortraitPage() {
         {route:"beruehmte-charles-darwin", label:"Porträt: Charles Darwin (SE5w6)"},
         {route:"beruehmte-larry-sanger", label:"Porträt: Larry Sanger (SE5w6)"},
         {route:"beruehmte-simone-menne", label:"Porträt: Simone Menne (SE5w6)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagramm &amp; Homöopathie"},
       ])}
     </div>
   `);

@@ -3034,6 +3034,12 @@ export function julianeKoepckePortraitPage() {
           <p class="vb-intro">Koepcke is (as of 25 October 2026) 72 years old and director of the Panguana research station. She is married to Erich Diller. This portrait keeps to what she tells herself and what has been published. The other people on the flight lost their lives, and they are to be remembered here as well.</p>
         </blockquote>
 
+        <h2 class="vb-section">8. A thought from homeopathy: the image of the wilderness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 5 is assigned the remedy Stramonium (thorn apple) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). Its remedy picture includes, among other things, the feeling of being utterly alone in the wilderness, entirely on one&rsquo;s own. This image meets one in Koepcke&rsquo;s life thread on two levels: outwardly in the days alone in the rainforest, inwardly in a life that afterwards stood in the service of that forest. It can be read as a kind of life task: the wilderness that first met her as exposure became the place to which she devoted her working life.</p>
+          <p class="vb-intro">It is a juxtaposition of two images that resemble each other, nothing more. The portrait says nothing about her health, recommends nothing and does not replace medical or therapeutic advice.</p>
+        </blockquote>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -3046,6 +3052,7 @@ export function julianeKoepckePortraitPage() {
         {route:"beruehmte-charles-darwin", label:"Portrait: Charles Darwin (SP5w6)"},
         {route:"beruehmte-larry-sanger", label:"Portrait: Larry Sanger (SP5w6)"},
         {route:"beruehmte-simone-menne", label:"Portrait: Simone Menne (SP5w6)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagram &amp; Homeopathy"},
       ])}
     </div>
   `);
