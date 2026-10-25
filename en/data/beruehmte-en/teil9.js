@@ -2179,6 +2179,7 @@ export function haraldLeschPortraitPage() {
         {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
         {route:"beruehmte-carl-friedrich-gauss", label:"Portrait: Carl Friedrich Gauss (SP5w6)"},
         {route:"beruehmte-roger-akelius", label:"Portrait: Roger Akelius (SP5w6)"},
+        {route:"beruehmte-larry-sanger", label:"Portrait: Larry Sanger (SP5w6)"},
       ])}
     </div>
   `);

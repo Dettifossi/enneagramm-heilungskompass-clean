@@ -1432,6 +1432,7 @@ export function reneDescartesPortraitPage() {
         {route:"beruehmte-carl-tanzler", label:"Portrait: Carl Tanzler (SP5w6)"},
         {route:"beruehmte-marie-curie", label:"Portrait: Marie Curie (SP5w6)"},
         {route:"beruhmte-philosophen", label:"Chart: Famous Philosophers in the Enneagram"},
+        {route:"beruehmte-larry-sanger", label:"Portrait: Larry Sanger (SP5w6)"},
       ])}
     </div>
   `);

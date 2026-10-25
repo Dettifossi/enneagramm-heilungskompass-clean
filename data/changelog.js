@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2630", date: "2026-10-25", text: "Neues Porträt: Larry Sanger (SE5w6) – Philosoph und Mitgründer von Wikipedia.", text_en: "New portrait: Larry Sanger (SP5w6) – philosopher and co-founder of Wikipedia.", route: "beruehmte-larry-sanger" },
     { version: "v2629", date: "2026-10-25", text: "Neues Porträt: Roger Akelius (SE5w6) – Unternehmer und Philanthrop.", text_en: "New portrait: Roger Akelius (SP5w6) – entrepreneur and philanthropist.", route: "beruehmte-roger-akelius" },
     { version: "v2628", date: "2026-10-25", text: "Neues Porträt: Romina Palm (SO3w2) – Model und Content Creatorin.", text_en: "New portrait: Romina Palm (SO3w2) – model and content creator.", route: "beruehmte-romina-palm" },
     { version: "v2627", date: "2026-10-25", text: "Neues Porträt: Sarah Paulson (SO3w4) – Schauspielerin.", text_en: "New portrait: Sarah Paulson (SO3w4) – actress.", route: "beruehmte-sarah-paulson" },

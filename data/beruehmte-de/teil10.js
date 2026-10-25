@@ -1362,6 +1362,7 @@ export function reneDescartesPortraitPage() {
         {route:"beruehmte-augustinus-von-hippo", label:"Porträt: Augustinus von Hippo (SX4w5)"},
         {route:"beruehmte-carl-tanzler", label:"Porträt: Carl Tanzler (SE5w6)"},
         {route:"beruehmte-marie-curie", label:"Porträt: Marie Curie (SE5w6)"},
+        {route:"beruehmte-larry-sanger", label:"Porträt: Larry Sanger (SE5w6)"},
       ])}
     </div>
   `);

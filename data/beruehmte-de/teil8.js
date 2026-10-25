@@ -3034,7 +3034,8 @@ export function rogerAkeliusPortraitPage() {
         {route:"beruehmte-warren-buffett", label:"Porträt: Warren Buffett (SE5w6)"},
         {route:"beruehmte-harald-lesch", label:"Porträt: Harald Lesch (SE5w6)"},
         {route:"beruehmte-peter-lustig", label:"Porträt: Peter Lustig (SE5w6)"},
-            ])}
+        {route:"beruehmte-larry-sanger", label:"Porträt: Larry Sanger (SE5w6)"},
+      ])}
     </div>
   `);
 }

@@ -2979,3 +2979,74 @@ export function dominikKrausePortraitPage() {
     </div>
   `);
 }
+
+export function larrySangerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-larry-sanger-portrait.jpg" alt="Larry Sanger – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-larry-sanger-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Larry Sanger</p>
+        <p class="krim-portrait-typ">SP5w6 &middot; Self-Preservation Type 5 with Six-wing</p>
+        <p class="krim-portrait-subtitle">American philosopher and co-founder of Wikipedia, b. 1968 &ndash; Animal correspondence: Owl</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Owl: a philosopher who wanted to order knowledge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Owls are observers of the night shift: in the half-dark they see what others fly over. Lawrence Mark Sanger was born on 16 July 1968 in Bellevue, Washington, and grew up in Anchorage, Alaska. He studied philosophy at Reed College (bachelor&rsquo;s 1991) and at Ohio State University (master&rsquo;s 1995, doctorate 2000). His dissertation is titled &lsquo;Epistemic Circularity&rsquo;.</p>
+          <p class="vb-intro">The question of how knowledge can be justified and whom one may believe became his life theme. He turned it from a field of study into a blueprint for projects on the net.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Five: a domain of knowledge of his own</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the self-preservation Five the &lsquo;castle&rsquo;: one&rsquo;s own territory is secured, and what holds within it is decided by oneself. In Sanger that territory is knowledge. Where he can no longer take part in the rules of a project, he builds a new space: in 2006 he founded Citizendium as an alternative to Wikipedia, in 2019 the Knowledge Standards Foundation, which aims to develop a network of competing encyclopedias.</p>
+          <p class="vb-intro">This fits how he works: he calls his &lsquo;Nine Theses on Wikipedia&rsquo; (September 2025) the result of nine months of work. He prepares thoroughly before putting something before the public.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: principles, rules and reliability</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso and Russ Hudson call the Five with a Six-wing &lsquo;The Problem Solver&rsquo;. The <strong>Six-wing (w6)</strong> brings the Five thinking in rules, procedures and principles. In Sanger it shows in his work on the early Wikipedia guidelines, among them the neutrality principle, and in his theses: more transparency, no permanent bans without procedure, a return to neutrality on controversial topics.</p>
+          <p class="vb-intro">He looks for reliability in clear rules and argues for them, even against resistance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: Nupedia, Wikipedia and the question of experts</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2000 Sanger became editor-in-chief of the online encyclopedia Nupedia, in which experts wrote and reviewed articles. In January 2001 he proposed a wiki as an open preliminary stage, from which Wikipedia emerged on 15 January 2001. He coined the name and drafted early guidelines. In 2002 he left: according to the Wikipedia article he was dismissed in February, and in March he resigned his functions. Jimmy Wales disputes his co-founder status, but it is generally recognized.</p>
+          <p class="vb-intro">Since his departure he has criticized the project, among other things for a lack of respect for expertise and, since 2020, for what he sees as a political tilt. Further projects followed: Encyclopedia of Earth (Digital Universe), WatchKnowLearn, the reading program Reading Bear, Infobitt (2014 to 2015) and from 2017 Everipedia, where he was Chief Information Officer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: René Descartes and Harald Lesch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-rene-descartes">René Descartes (SE5w6)</a> shares with Sanger the question of what knowledge can be grounded on and the insistence on a methodical order. <a href="#beruehmte-harald-lesch">Harald Lesch (SE5w6)</a> shares with him the intention to pass on knowledge in an understandable and reliable way.</p>
+          <p class="vb-intro">The difference: Descartes and Lesch stay within the circle of explaining, Sanger also builds institutions and argues about their rules.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the self-preservation Five with Six-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is the persistence with which he has worked on the same question for two decades: how does reliable knowledge arise in an open community? His ideas helped shape Wikipedia, and the neutrality principle remains among its guidelines to this day.</p>
+          <p class="vb-intro">The shadow side of the Five is withdrawal into one&rsquo;s own domain after conflicts: disputes become new projects instead of bridges. In June 2026 the community of the English-language Wikipedia blocked him indefinitely. Among other things he was accused of canvassing (he had promoted a proposed &lsquo;WikiProject Intellectual Diversity&rsquo; on X). He himself calls the procedure unfair, others saw in it an attempt to influence debates. This portrait takes no position in this dispute.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: nine theses, family and faith</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sanger is (as of 25 October 2026) 58 years old, lives near Columbus, Ohio, is married and has two sons. After a phase as an agnostic he now describes himself as a Christian. He published his theses on reforming Wikipedia in September 2025; the block on the English-language Wikipedia has stood since June 2026.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
+        {route:"lebensmusterkompass/se5", label:"Life Pattern Compass: SP5 – Owl"},
+        {route:"beruehmte-rene-descartes", label:"Portrait: René Descartes (SP5w6)"},
+        {route:"beruehmte-harald-lesch", label:"Portrait: Harald Lesch (SP5w6)"},
+        {route:"beruehmte-roger-akelius", label:"Portrait: Roger Akelius (SP5w6)"},
+            ])}
+    </div>
+  `);
+}

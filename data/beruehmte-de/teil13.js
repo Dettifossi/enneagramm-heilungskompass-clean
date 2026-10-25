@@ -2961,3 +2961,74 @@ export function juliaKoschitzPortraitPage() {
     </div>
   `);
 }
+
+export function larrySangerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-larry-sanger-portrait.jpg" alt="Larry Sanger – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-larry-sanger-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Larry Sanger</p>
+        <p class="krim-portrait-typ">SE5w6 &middot; Selbsterhaltender Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Amerikanischer Philosoph und Mitgründer von Wikipedia, geb. 1968 &ndash; Tierentsprechung: Eule</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Die Eule: ein Philosoph, der Wissen ordnen wollte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eulen sind Beobachter der Nachtschicht: Sie sehen im Halbdunkel, was andere überfliegen. Lawrence Mark Sanger wurde am 16. Juli 1968 in Bellevue im US-Bundesstaat Washington geboren und wuchs in Anchorage, Alaska, auf. Er studierte Philosophie am Reed College (Bachelor 1991) und an der Ohio State University (Master 1995, Promotion 2000). Seine Dissertation trägt den Titel ›Epistemic Circularity‹ (Erkenntnistheoretische Zirkularität).</p>
+          <p class="vb-intro">Die Frage, wie sich Wissen begründen lässt und wem man es glauben darf, wurde zu seinem Lebensthema. Er machte sie vom Studienfach zum Bauplan für Projekte im Netz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der selbsterhaltende Fünfer: ein eigener Bezirk des Wissens</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den selbsterhaltenden Fünfer ›Burg‹: Das eigene Gebiet wird gesichert, und was darin gilt, bestimmt man selbst. Bei Sanger ist dieses Gebiet das Wissen. Wo er an den Regeln eines Projekts nicht mehr mitwirken kann, baut er einen neuen Raum: 2006 gründete er Citizendium als Alternative zu Wikipedia, 2019 die Knowledge Standards Foundation, die ein Netz konkurrierender Enzyklopädien entwickeln will.</p>
+          <p class="vb-intro">Dazu passt, wie er arbeitet: Seine ›Nine Theses on Wikipedia‹ (Neun Thesen zu Wikipedia, September 2025) nennt er das Ergebnis von neun Monaten Arbeit. Er bereitet gründlich vor, bevor er etwas öffentlich vorlegt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Prinzipien, Regeln und Verlässlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso und Russ Hudson nennen den Fünfer mit Sechserflügel ›Den Problemlöser‹. Der <strong>Sechserflügel (w6)</strong> bringt dem Fünfer das Denken in Regeln, Verfahren und Prinzipien. Bei Sanger zeigt sich das in seiner Arbeit an den frühen Wikipedia-Richtlinien, darunter dem Neutralitätsgrundsatz, und in seinen Thesen: mehr Transparenz, kein Dauerausschluss ohne Verfahren, eine Rückkehr zur Neutralität bei umstrittenen Themen.</p>
+          <p class="vb-intro">Er sucht Verlässlichkeit in klaren Regeln und tritt für sie ein, auch gegen Widerstand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Nupedia, Wikipedia und die Frage nach Experten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Jahr 2000 wurde Sanger Chefredakteur der Online-Enzyklopädie Nupedia, in der Fachleute Artikel schrieben und prüften. Im Januar 2001 schlug er ein Wiki als offene Vorstufe vor, aus dem am 15. Januar 2001 Wikipedia hervorging. Er prägte den Namen und entwarf frühe Leitlinien. 2002 schied er aus: Nach dem Wikipedia-Artikel wurde ihm im Februar gekündigt, und im März legte er seine Funktionen nieder. Jimmy Wales bestreitet seine Mitgründerschaft, sie ist aber allgemein anerkannt.</p>
+          <p class="vb-intro">Seit seinem Weggang kritisiert er das Projekt, unter anderem wegen mangelnden Respekts vor Expertise und, seit 2020, wegen einer aus seiner Sicht politischen Schlagseite. Dazu kamen weitere Projekte: Encyclopedia of Earth (Digital Universe), WatchKnowLearn, das Leseprogramm Reading Bear, Infobitt (2014 bis 2015) und ab 2017 Everipedia, wo er Chief Information Officer war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: René Descartes und Harald Lesch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-rene-descartes">René Descartes (SE5w6)</a> teilt mit Sanger die Frage, worauf sich Wissen gründen lässt, und das Bestehen auf einer methodischen Ordnung. <a href="#beruehmte-harald-lesch">Harald Lesch (SE5w6)</a> verbindet mit ihm die Absicht, Wissen verständlich und zuverlässig weiterzugeben.</p>
+          <p class="vb-intro">Der Unterschied: Descartes und Lesch bleiben im Kreis des Erklärens, Sanger baut dazu auch Institutionen und streitet um deren Regeln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten des selbsterhaltenden Fünfers mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Beharrlichkeit, mit der er über zwei Jahrzehnte an derselben Frage arbeitet: Wie entsteht verlässliches Wissen in einer offenen Gemeinschaft? Seine Ideen haben Wikipedia mitgeprägt, und der Neutralitätsgrundsatz gehört bis heute zu ihren Leitlinien.</p>
+          <p class="vb-intro">Die Schattenseite des Fünfers ist der Rückzug in den eigenen Bezirk nach Konflikten: Aus Streit werden neue Projekte statt Brücken. Im Juni 2026 sperrte ihn die Gemeinschaft der englischsprachigen Wikipedia unbefristet. Ihm wurde unter anderem Canvassing vorgeworfen (er hatte ein vorgeschlagenes ›WikiProject Intellectual Diversity‹ auf X beworben). Er selbst nennt das Verfahren unfair, andere sahen darin den Versuch, Debatten zu beeinflussen. Dieses Porträt nimmt keine Stellung in diesem Streit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Neun Thesen, Familie und Glaube</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sanger ist (Stand 25. Oktober 2026) 58 Jahre alt, lebt bei Columbus, Ohio, ist verheiratet und hat zwei Söhne. Nach einer Phase als Agnostiker bezeichnet er sich heute als Christ. Seine Thesen zur Reform von Wikipedia hat er im September 2025 veröffentlicht, die Sperre auf der englischsprachigen Wikipedia besteht seit Juni 2026.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se5", label:"Lebensmusterkompass: SE5 – Eule"},
+        {route:"beruehmte-rene-descartes", label:"Porträt: René Descartes (SE5w6)"},
+        {route:"beruehmte-harald-lesch", label:"Porträt: Harald Lesch (SE5w6)"},
+        {route:"beruehmte-roger-akelius", label:"Porträt: Roger Akelius (SE5w6)"},
+            ])}
+    </div>
+  `);
+}

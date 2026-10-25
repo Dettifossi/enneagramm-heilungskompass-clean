@@ -3000,7 +3000,8 @@ export function rogerAkeliusPortraitPage() {
         {route:"beruehmte-warren-buffett", label:"Portrait: Warren Buffett (SP5w6)"},
         {route:"beruehmte-harald-lesch", label:"Portrait: Harald Lesch (SP5w6)"},
         {route:"beruehmte-peter-lustig", label:"Portrait: Peter Lustig (SP5w6)"},
-            ])}
+        {route:"beruehmte-larry-sanger", label:"Portrait: Larry Sanger (SP5w6)"},
+      ])}
     </div>
   `);
 }
