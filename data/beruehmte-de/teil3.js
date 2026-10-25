@@ -663,6 +663,13 @@ export function helmutKohlPortraitPage() {
           <p class="vb-intro">Und doch bleibt: Kein deutscher Nachkriegskanzler hat die Landkarte Europas so nachhaltig verändert. Als &bdquo;Kanzler der Einheit&ldquo; steht Kohl für den seltenen Fall, in dem die Härte und Ausdauer der selbsterhaltenden Acht, gepaart mit der Geduld des Neunerflügels, ein historisches Zeitfenster nutzte, das sich nie wieder geöffnet hätte &ndash; der Orang-Utan, der jahrzehntelang unbeweglich auf seinem Ast saß, und der genau in dem Moment, in dem ganz Europa hinsah, sein ganzes Gewicht in die Waagschale warf.</p>
         </blockquote>
 
+        <h2 class="vb-section">7. Ein Gedanke aus der Homöopathie: das Bild des Prinzen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 8 das Mittel Veratrum album (Weißer Germer) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seiner Hauptvorstellung gehört in der Repertoriumssprache die Vorstellung, ein Prinz zu sein. Gemeint ist keine Überlegenheit im Sinn des Maßstabs wie beim Typ 1, sondern eine der Macht: Ich habe hier die Vormachtstellung, ich bin derjenige, der entscheidet. Bei Kohl zeigt sich das in der Dauer und im Stil seiner Macht: Er war von 1973 bis 1998 CDU-Vorsitzender und von 1982 bis 1998 Bundeskanzler, abgesichert durch ein über Jahrzehnte gepflegtes informelles Netzwerk.</p>
+          <p class="vb-intro">In Rubriken dieser Art stehen nach Angabe des Autors nur wenige Mittel. Damit ist nur gesagt, dass zwei Bilder einander gleichen. Gesundheitliche Aussagen oder Empfehlungen sind damit nicht verbunden, und eine ärztliche oder heilkundliche Beratung bleibt unersetzt.</p>
+        </blockquote>
+
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -678,6 +685,7 @@ export function helmutKohlPortraitPage() {
         {route:"beruehmte-galarrwuy-yunupingu", label:"Porträt: Galarrwuy Yunupingu (SE8w9)"},
         {route:"beruehmte-konrad-adenauer", label:"Porträt: Konrad Adenauer (SE1w9)"},
         {route:"beruehmte-ryke-geerd-hamer", label:"Porträt: Ryke Geerd Hamer (SE8w9)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagramm &amp; Homöopathie"},
       ])}
     </div>
   `);
@@ -2147,6 +2155,13 @@ export function steveJobsPortraitPage() {
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
+        <h2 class="vb-section">7. Ein Gedanke aus der Homöopathie: das Bild der Überlegenheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 1 das Mittel Platinum metallicum (Platin) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seiner Hauptvorstellung gehört in der Repertoriumssprache die Vorstellung von Überlegenheit. Bei Jobs zeigt sich das Bild im strengen Maßstab: Er wendete ihn auf jedes Detail seiner Produkte an und bewertete Menschen und Arbeit oft in Schwarz-Weiß. Die Überlegenheit des Typs 1 ist die des Wissens um das Richtige, nicht die der Macht über andere.</p>
+          <p class="vb-intro">In Rubriken dieser Art stehen nach Angabe des Autors nur wenige Mittel. Gemeint ist ein Vergleich von Bildern. Er enthält keine Aussage über den Gesundheitszustand eines Menschen, keine Empfehlung und keinen Ersatz für Beratung durch Ärzte oder Heilkundige.</p>
+        </blockquote>
+
+
       </div>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
@@ -2156,6 +2171,7 @@ export function steveJobsPortraitPage() {
         {route:"beruehmte-hillary-clinton", label:"Porträt: Hillary Clinton (SO1w2)"},
         {route:"beruehmte-nicole-kidman", label:"Porträt: Nicole Kidman (SO1w2)"},
         {route:"beruehmte-bradley-cooper", label:"Porträt: Bradley Cooper (SO1w2)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagramm &amp; Homöopathie"},
       ])}
     </div>
   `);

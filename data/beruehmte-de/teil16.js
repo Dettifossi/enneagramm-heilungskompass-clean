@@ -524,6 +524,13 @@ export function gerhardSchroederPortraitPage() {
           <p class="vb-intro">Das Krokodil zieht sich nicht ins Ufergeb\u00fcsch zur\u00fcck, wenn die Kraft nachl\u00e4sst &ndash; es bleibt sichtbar, k\u00e4mpft weiter um seinen Platz im Wasser, selbst wenn die anderen Tiere l\u00e4ngst Abstand halten.</p>
         </blockquote>
 
+        <h2 class="vb-section">7. Ein Gedanke aus der Homöopathie: das Bild des Prinzen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 8 das Mittel Veratrum album (Weißer Germer) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seiner Hauptvorstellung gehört in der Repertoriumssprache die Vorstellung, ein Prinz zu sein. Gemeint ist keine Überlegenheit im Sinn des Maßstabs wie beim Typ 1, sondern eine der Macht: Ich habe hier die Vormachtstellung, ich bin derjenige, der entscheidet. Bei Schröder zeigt sich das im ›Basta‹: Hatte er seine Entscheidung getroffen, beendete er innerparteiliche Debatten kurzerhand. Als junger Abgeordneter soll er nachts am Zaun des Bonner Kanzleramts gerüttelt und gerufen haben: ›Ich will da rein!‹</p>
+          <p class="vb-intro">In Rubriken dieser Art stehen nach Angabe des Autors nur wenige Mittel. Es ist eine Gegenüberstellung zweier ähnlicher Bilder, mehr nicht. Der Text sagt nichts über Gesundheit, empfiehlt nichts und ersetzt keine ärztliche oder heilkundliche Beratung.</p>
+        </blockquote>
+
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -535,6 +542,7 @@ export function gerhardSchroederPortraitPage() {
         {route:"beruehmte-donald-trump", label:"Portr\xe4t: Donald J. Trump (SX8w7)"},
         {route:"beruehmte-giacomo-puccini", label:"Porträt: Giacomo Puccini (SX8w7)"},
         {route:"beruehmte-john-wayne", label:"Porträt: John Wayne (SX8w7)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagramm &amp; Homöopathie"},
       ])}
     </div>
   `);
@@ -803,6 +811,13 @@ export function johnWaynePortraitPage() {
 
         <p class="vb-intro">Die 1964 öffentlich ausgetragene Lungenkrebs-Erkrankung sowie die tödliche Magenkrebs-Diagnose 1979 werden ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-john-wayne">Krankheitsporträt zu Wayne</a> gedeutet.</p>
 
+        <h2 class="vb-section">6. Ein Gedanke aus der Homöopathie: das Bild des Prinzen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 8 das Mittel Veratrum album (Weißer Germer) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seiner Hauptvorstellung gehört in der Repertoriumssprache die Vorstellung, ein Prinz zu sein. Gemeint ist keine Überlegenheit im Sinn des Maßstabs wie beim Typ 1, sondern eine der Macht: Ich habe hier die Vormachtstellung, ich bin derjenige, der entscheidet. Bei Wayne zeigt sich das in der Präsenz: 1,93 Meter groß und auf dem Höhepunkt seiner Karriere weit über 100 Kilogramm schwer, beherrschte er die Szene, sobald er sie betrat, und spielte Männer, die entscheiden und handeln.</p>
+          <p class="vb-intro">In Rubriken dieser Art stehen nach Angabe des Autors nur wenige Mittel. Es ist eine Gegenüberstellung zweier ähnlicher Bilder, mehr nicht. Der Text sagt nichts über Gesundheit, empfiehlt nichts und ersetzt keine ärztliche oder heilkundliche Beratung.</p>
+        </blockquote>
+
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -815,6 +830,7 @@ export function johnWaynePortraitPage() {
         {route:"beruehmte-gerhard-schroeder", label:"Porträt: Gerhard Schröder (SX8w7)"},
         {route:"beruehmte-pablo-picasso", label:"Porträt: Pablo Picasso (SX8w7)"},
         {route:"beruehmte-sean-penn", label:"Porträt: Sean Penn (SX8w7)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagramm &amp; Homöopathie"},
       ])}
     </div>
   `);

@@ -524,6 +524,13 @@ export function gerhardSchroederPortraitPage() {
           <p class="vb-intro">The crocodile does not retreat into the reeds when its strength fades &ndash; it stays visible, keeps fighting for its place in the water, even when the other animals have long since kept their distance.</p>
         </blockquote>
 
+        <h2 class="vb-section">7. A thought from homeopathy: the image of the prince</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 8 is assigned the remedy Veratrum album (White hellebore) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). In the language of the repertory its main idea includes the idea of being a prince. This is not superiority in the sense of the standard as in Type 1 but one of power: I hold the leading position here, I am the one who decides. In Schröder it shows in the &lsquo;Basta&rsquo; (&lsquo;That&rsquo;s that&rsquo;): once he had made his decision he ended debates within the party at once. As a young member of parliament he is said to have shaken the fence of the Bonn Chancellery at night and shouted: &lsquo;I want to get in there!&rsquo;</p>
+          <p class="vb-intro">In rubrics of this kind, according to the author, only a few remedies are listed. It is a juxtaposition of two similar images, nothing more. The text says nothing about health, recommends nothing and does not replace medical or therapeutic advice.</p>
+        </blockquote>
+
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
@@ -535,6 +542,7 @@ export function gerhardSchroederPortraitPage() {
         {route:"beruehmte-donald-trump", label:"Portrait: Donald J. Trump (SX8w7)"},
         {route:"beruehmte-giacomo-puccini", label:"Portrait: Giacomo Puccini (SX8w7)"},
         {route:"beruehmte-john-wayne", label:"Portrait: John Wayne (SX8w7)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagram &amp; Homeopathy"},
       ])}
     </div>
   `);
@@ -803,6 +811,13 @@ export function johnWaynePortraitPage() {
 
         <p class="vb-intro">The lung cancer he fought publicly in 1964, and the fatal stomach cancer diagnosis in 1979, are explored in full in the separate <a href="javascript:void(0)" data-route="krankheitsportraets-john-wayne">illness portrait on Wayne</a>.</p>
 
+        <h2 class="vb-section">6. A thought from homeopathy: the image of the prince</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 8 is assigned the remedy Veratrum album (White hellebore) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). In the language of the repertory its main idea includes the idea of being a prince. This is not superiority in the sense of the standard as in Type 1 but one of power: I hold the leading position here, I am the one who decides. In Wayne it shows in presence: 1.93 meters tall and, at the peak of his career, well over 100 kilograms, he dominated the scene as soon as he entered it and played men who decide and act.</p>
+          <p class="vb-intro">In rubrics of this kind, according to the author, only a few remedies are listed. It is a juxtaposition of two similar images, nothing more. The text says nothing about health, recommends nothing and does not replace medical or therapeutic advice.</p>
+        </blockquote>
+
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -815,6 +830,7 @@ export function johnWaynePortraitPage() {
         {route:"beruehmte-gerhard-schroeder", label:"Portrait: Gerhard Schröder (SX8w7)"},
         {route:"beruehmte-pablo-picasso", label:"Portrait: Pablo Picasso (SX8w7)"},
         {route:"beruehmte-sean-penn", label:"Portrait: Sean Penn (SX8w7)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagram &amp; Homeopathy"},
       ])}
     </div>
   `);

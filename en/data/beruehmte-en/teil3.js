@@ -663,6 +663,13 @@ export function helmutKohlPortraitPage() {
           <p class="vb-intro">And yet this remains: no postwar German chancellor reshaped the map of Europe so lastingly. As the "Chancellor of Unity," Kohl stands for the rare case in which the toughness and stamina of the self-preservation Eight, paired with the patience of the Nine-wing, seized a historical window that would never open again &ndash; the orangutan that sat motionless on its branch for decades, and that, at exactly the moment all of Europe was watching, put its full weight on the scale.</p>
         </blockquote>
 
+        <h2 class="vb-section">7. A thought from homeopathy: the image of the prince</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 8 is assigned the remedy Veratrum album (White hellebore) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). In the language of the repertory its main idea includes the idea of being a prince. This is not superiority in the sense of the standard as in Type 1 but one of power: I hold the leading position here, I am the one who decides. In Kohl it shows in the duration and style of his power: he was CDU chairman from 1973 to 1998 and Federal Chancellor from 1982 to 1998, secured by an informal network cultivated over decades.</p>
+          <p class="vb-intro">In rubrics of this kind, according to the author, only a few remedies are listed. This only says that two images resemble each other. No statements about health or recommendations are attached, and medical or therapeutic advice remains unreplaced.</p>
+        </blockquote>
+
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
@@ -678,6 +685,7 @@ export function helmutKohlPortraitPage() {
         {route:"beruehmte-galarrwuy-yunupingu", label:"Portrait: Galarrwuy Yunupingu (SP8w9)"},
         {route:"beruehmte-konrad-adenauer", label:"Portrait: Konrad Adenauer (SP1w9)"},
         {route:"beruehmte-ryke-geerd-hamer", label:"Portrait: Ryke Geerd Hamer (SP8w9)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagram &amp; Homeopathy"},
       ])}
     </div>
   `);
@@ -2149,6 +2157,13 @@ export function steveJobsPortraitPage() {
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
         </blockquote>
 
+        <h2 class="vb-section">7. A thought from homeopathy: the image of superiority</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 1 is assigned the remedy Platinum metallicum (Platinum) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). In the language of the repertory its main idea includes the idea of superiority. In Jobs the image shows in the strict standard: he applied it to every detail of his products and often judged people and work in black and white. The superiority of Type 1 is that of knowing what is right, not that of power over others.</p>
+          <p class="vb-intro">In rubrics of this kind, according to the author, only a few remedies are listed. What is meant is a comparison of images. It contains no statement about anyone&rsquo;s state of health, no recommendation and no substitute for advice from doctors or practitioners.</p>
+        </blockquote>
+
+
       </div>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
@@ -2158,6 +2173,7 @@ export function steveJobsPortraitPage() {
         {route:"beruehmte-hillary-clinton", label:"Portrait: Hillary Clinton (SO1w2)"},
         {route:"beruehmte-nicole-kidman", label:"Portrait: Nicole Kidman (SO1w2)"},
         {route:"beruehmte-bradley-cooper", label:"Portrait: Bradley Cooper (SO1w2)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagram &amp; Homeopathy"},
       ])}
     </div>
   `);
@@ -2480,12 +2496,20 @@ export function franzJosefStraussPortraitPage() {
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
         </blockquote>
 
+        <h2 class="vb-section">7. A thought from homeopathy: the image of the prince</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 8 is assigned the remedy Veratrum album (White hellebore) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). In the language of the repertory its main idea includes the idea of being a prince. This is not superiority in the sense of the standard as in Type 1 but one of power: I hold the leading position here, I am the one who decides. In Strauß it shows in his position in Bavaria: over decades he consolidated his power in the party, was CSU chairman from 1961 to 1988 and Minister-President of Bavaria from 1978 to 1988.</p>
+          <p class="vb-intro">In rubrics of this kind, according to the author, only a few remedies are listed. What is meant is a comparison of images. It contains no statement about anyone&rsquo;s state of health, no recommendation and no substitute for advice from doctors or practitioners.</p>
+        </blockquote>
+
+
       </div>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se8", label:"SP8 – The Orangutan: subtype profile"},
         {route:"lebensmusterkompass/se8", label:"Life Pattern Compass: SP8 – Orangutan"},
         {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SP8w9)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagram &amp; Homeopathy"},
       ])}
     </div>
   `);

@@ -1895,6 +1895,13 @@ export function marcelReichRanickiPortraitPage() {
           <p class="vb-intro">The shadow of the SO1 lies in the rigidity of its own standard: critics accused him of using his interpretive power to damage careers and narrow literary diversity in favor of his own taste. The fate pattern of the One, <strong>anger</strong>, showed in him not as an impulsive outburst, but as a calculated, publicly staged condemnation &ndash; the goose that knows exactly when and how loudly it must honk to be heard.</p>
         </blockquote>
 
+        <h2 class="vb-section">6. A thought from homeopathy: the image of superiority</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 1 is assigned the remedy Platinum metallicum (Platinum) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). In the language of the repertory its main idea includes the idea of superiority. In Reich-Ranicki the image meets one as a claim: as the &lsquo;Pope of Literature&rsquo; he claimed to set the standard for contemporary German-language literature, his judgments in the &lsquo;Literarisches Quartett&rsquo; and the &lsquo;Frankfurter Anthologie&rsquo; shaped generations of readers. Critics accused him of having damaged careers with his interpretive power.</p>
+          <p class="vb-intro">In rubrics of this kind, according to the author, only a few remedies are listed. This only says that two images resemble each other. No statements about health or recommendations are attached, and medical or therapeutic advice remains unreplaced.</p>
+        </blockquote>
+
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
@@ -1908,6 +1915,7 @@ export function marcelReichRanickiPortraitPage() {
         {route:"beruehmte-helmut-schmidt", label:"Portrait: Helmut Schmidt (SP1w9)"},
         {route:"beruehmte-alice-weidel", label:"Portrait: Alice Weidel (SO1w9)"},
         {route:"beruehmte-wolfgang-wodarg", label:"Portrait: Dr. Wolfgang Wodarg (SO1w9)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagram &amp; Homeopathy"},
       ])}
     </div>
   `);

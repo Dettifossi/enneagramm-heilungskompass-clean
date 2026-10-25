@@ -1976,6 +1976,13 @@ export function marcelReichRanickiPortraitPage() {
           <p class="vb-intro">Der Schatten der SO1 liegt in der Rigidität des eigenen Maßstabs: Kritiker warfen ihm vor, mit seiner Deutungsmacht auch Karrieren beschädigt und literarische Vielfalt zugunsten des eigenen Geschmacksurteils verengt zu haben. Das Schicksalsmuster der Eins, der <strong>Zorn</strong>, zeigte sich bei ihm nicht als impulsiver Ausbruch, sondern als kalkulierte, öffentlich zelebrierte Verurteilung &ndash; die Gans, die genau weiß, wann und wie laut sie schnattern muss, um gehört zu werden.</p>
         </blockquote>
 
+        <h2 class="vb-section">6. Ein Gedanke aus der Homöopathie: das Bild der Überlegenheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 1 das Mittel Platinum metallicum (Platin) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seiner Hauptvorstellung gehört in der Repertoriumssprache die Vorstellung von Überlegenheit. Bei Reich-Ranicki begegnet das Bild als Anspruch: Als ›Literaturpapst‹ beanspruchte er, den Maßstab für die deutschsprachige Gegenwartsliteratur zu setzen, seine Urteile im ›Literarischen Quartett‹ und die ›Frankfurter Anthologie‹ prägten Generationen von Lesern. Kritiker warfen ihm vor, mit seiner Deutungsmacht auch Karrieren beschädigt zu haben.</p>
+          <p class="vb-intro">In Rubriken dieser Art stehen nach Angabe des Autors nur wenige Mittel. Damit ist nur gesagt, dass zwei Bilder einander gleichen. Gesundheitliche Aussagen oder Empfehlungen sind damit nicht verbunden, und eine ärztliche oder heilkundliche Beratung bleibt unersetzt.</p>
+        </blockquote>
+
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -1989,6 +1996,7 @@ export function marcelReichRanickiPortraitPage() {
         {route:"beruehmte-helmut-schmidt", label:"Porträt: Helmut Schmidt (SO1w9)"},
         {route:"beruehmte-alice-weidel", label:"Porträt: Alice Weidel (SO1w9)"},
         {route:"beruehmte-wolfgang-wodarg", label:"Porträt: Dr. Wolfgang Wodarg (SO1w9)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagramm &amp; Homöopathie"},
       ])}
     </div>
   `);
