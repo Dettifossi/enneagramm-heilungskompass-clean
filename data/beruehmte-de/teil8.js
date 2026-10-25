@@ -2967,3 +2967,74 @@ export function mikeTysonPortraitPage() {
     </div>
   `);
 }
+
+export function rogerAkeliusPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-roger-akelius-portrait.jpg" alt="Roger Akelius – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-roger-akelius-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Roger Akelius</p>
+        <p class="krim-portrait-typ">SE5w6 &middot; Selbsterhaltender Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Schwedischer Unternehmer und Philanthrop, geb. 1945 &ndash; Tierentsprechung: Eule</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Die Eule: ein Dozent, der in Zahlen dachte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine <strong>Eule</strong> jagt im Dunkeln mit Geduld und Präzision, und sie wartet, bis sie sicher ist. Roger Akelius wurde am 16. April 1945 geboren und wuchs in Stora Mellby in Südwestschweden auf. Er studierte Ingenieurwesen und Mathematik an der Universität Lund und arbeitete danach bei IBM Svenska. 1968 wurde er nach einer Quelle der jüngste Dozent Schwedens, an der Technischen Hochschule Chalmers in Göteborg.</p>
+          <p class="vb-intro">Er schrieb Lehrbücher zum Programmieren, und sein Buch über schwedische Prämienanleihen von 1974 wurde ein Bestseller. Später betrieb er eine Firma für Steuersoftware, die er 1994 verkaufte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der selbsterhaltende Fünfer: Sicherheit durch Struktur</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den selbsterhaltenden Fünfer ›Burg‹: ein eigener Raum mit Grenzen, in dem das Wesentliche gesichert ist. Bei Akelius lässt sich das in der Art ablesen, wie er sein Leben und sein Vermögen ordnete. Er lebt seit 1980 im Ausland, gründete 1987 eine Versicherungsgesellschaft auf Zypern und baute ab 1994 ein Unternehmen auf, das Wohnungen als Wert hält und verwaltet.</p>
+          <p class="vb-intro">Am deutlichsten wird es in der Frage, was gehört mir und was reicht: Er hat nach einer Quelle 95 Prozent seines Vermögens in zwei gemeinnützige Stiftungen gegeben, die mit SOS-Kinderdörfern, UNICEF und Ärzte ohne Grenzen arbeiten. Der Besitz wurde zu einer Sache, die er geordnet aus der Hand gab.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Regeln, Systeme und Absicherung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso und Russ Hudson nennen den Fünfer mit Sechserflügel ›Den Problemlöser‹. Der <strong>Sechserflügel (w6)</strong> verleiht dem Fünfer Gründlichkeit und den Blick für Regeln, Risiken und Absicherung. Bei Akelius zeigt er sich in der nüchternen, argumentierenden Art, mit der er sein Geschäftsmodell verteidigt: Er stellt zwei Modelle gegenüber, ein gemeinschaftliches ohne Profit und ein marktwirtschaftliches ›Win-win-Modell‹, und vergleicht Modernisierung mit einem iPhone, das Kunden freiwillig kaufen.</p>
+          <p class="vb-intro">Auch im Aufbau seines Unternehmens zeigt sich das: Es gibt eine firmeneigene Business School, die Mitarbeitenden einen Masterabschluss anbietet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: vom Rechner zum Wohnungsbestand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Akelius verband mathematisches Denken mit Geschäftssinn. Aus Lehrbüchern, Anlagebüchern und einer Steuersoftware wurde 1994 die Akelius Residential Property AB. Bis 2017 war sie nach Wikipedia Schwedens zweitgrößter Immobilieneigentümer mit mehr als 50.000 Mietwohnungen in mehreren Ländern. Nach einer Quelle verkaufte das Unternehmen 2021 seine Bestände in Skandinavien und Deutschland, um sich auf andere Märkte zu konzentrieren.</p>
+          <p class="vb-intro">Sein Konzept war das Modernisieren und Neuvermieten: Renovierte Wohnungen hätten im Schnitt fünfmal so viel Nachfrage wie unrenovierte, sagte er 2020. Dagegen warf ihm 2020 eine UN-Sonderberichterstatterin vor, Mieterrechte zu verletzen, weil Renovierungen zu starken Mieterhöhungen genutzt würden. Akelius wies das als ›ridiculous‹ (lächerlich) zurück, sagte, Wohnungen seien nur leer renoviert worden, und kündigte an, stärker auf Verwaltung statt Renovierung zu setzen. Dieses Porträt nimmt keine Stellung zu den politischen Streitfragen der Wohnungspolitik.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Warren Buffett und Harald Lesch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-warren-buffett">Warren Buffett (SE5w6)</a> teilt mit Akelius das Denken in Zahlen und die Entscheidung, den größten Teil des Vermögens für gemeinnützige Zwecke einzusetzen. <a href="#beruehmte-harald-lesch">Harald Lesch (SE5w6)</a> verbindet mit ihm die Freude, Wissen zu ordnen und weiterzugeben.</p>
+          <p class="vb-intro">Der Unterschied: Buffett tritt öffentlich als Erklärer auf, Akelius äußerte sich vor allem, wenn sein Geschäftsmodell kritisiert wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten des selbsterhaltenden Fünfers mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Konsequenz, mit der er den größten Teil seines Vermögens in Stiftungen gab, und die Zusage über 76 Millionen US-Dollar für Bildung und Erholung von Kindern in Kriegs- und Konfliktgebieten (laut Pressemeldung). Auch der Weg vom Dozenten zum Unternehmer zeigt Ausdauer und analytische Stärke.</p>
+          <p class="vb-intro">Die Schattenseite des Fünfers ist die Distanz: Wer Wohnungen als Rechenaufgabe sieht, kann die Mieterinnen und Mieter dahinter aus dem Blick verlieren, was die UN-Kritik zum Thema machte. 2020 wurde den Stiftungen außerdem Steuervermeidung vorgeworfen, was er bestreitet. Wie viel davon berechtigt ist, ist hier nicht zu entscheiden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Stiftung, Familie und Rückzug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Akelius ist (Stand 25. Oktober 2026) 81 Jahre alt. Die Akelius-Stiftung hielt zuletzt 85 Prozent der Akelius Residential Property AB. Er hat drei Kinder und lebt seit 1980 im Ausland. Mehr über sein Privatleben gibt es in den ausgewerteten Quellen nicht belastbar, deshalb bleibt dieses Porträt beim Beruflichen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se5", label:"Lebensmusterkompass: SE5 – Eule"},
+        {route:"beruehmte-warren-buffett", label:"Porträt: Warren Buffett (SE5w6)"},
+        {route:"beruehmte-harald-lesch", label:"Porträt: Harald Lesch (SE5w6)"},
+        {route:"beruehmte-peter-lustig", label:"Porträt: Peter Lustig (SE5w6)"},
+            ])}
+    </div>
+  `);
+}

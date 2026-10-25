@@ -2933,3 +2933,74 @@ export function mikeTysonPortraitPage() {
     </div>
   `);
 }
+
+export function rogerAkeliusPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-roger-akelius-portrait.jpg" alt="Roger Akelius – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-roger-akelius-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Roger Akelius</p>
+        <p class="krim-portrait-typ">SP5w6 &middot; Self-Preservation Type 5 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Swedish entrepreneur and philanthropist, b. 1945 &ndash; Animal correspondence: Owl</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Owl: a lecturer who thought in numbers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An <strong>owl</strong> hunts in the dark with patience and precision, and it waits until it is sure. Roger Akelius was born on 16 April 1945 and grew up in Stora Mellby in southwestern Sweden. He studied engineering and mathematics at Lund University and afterwards worked at IBM Svenska. According to one source, in 1968 he became Sweden&rsquo;s youngest lecturer, at the Chalmers University of Technology in Gothenburg.</p>
+          <p class="vb-intro">He wrote programming textbooks, and his 1974 book on Swedish premium bonds became a bestseller. Later he ran a tax-software company, which he sold in 1994.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Five: safety through structure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the self-preservation Five the &lsquo;castle&rsquo;: a space of one&rsquo;s own with boundaries, in which the essentials are secured. In Akelius this can be read in the way he ordered his life and his fortune. He has lived abroad since 1980, founded an insurance company in Cyprus in 1987 and from 1994 built a company that holds and manages apartments as assets.</p>
+          <p class="vb-intro">It becomes clearest in the question of what is mine and what is enough: according to one source he has given 95 percent of his fortune to two charitable foundations that work with SOS Children&rsquo;s Villages, UNICEF and M&eacute;decins Sans Fronti&egrave;res. Possession became something he gave out of his hands in an orderly way.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: rules, systems and safeguards</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso and Russ Hudson call the Five with a Six-wing &lsquo;The Problem Solver&rsquo;. The <strong>Six-wing (w6)</strong> gives the Five thoroughness and an eye for rules, risks and safeguards. In Akelius it shows in the sober, argumentative way in which he defends his business model: he contrasts two models, a communal one without profit and a market-economy &lsquo;win-win model&rsquo;, and compares modernization with an iPhone that customers buy voluntarily.</p>
+          <p class="vb-intro">It also shows in how he built his company: there is an in-house business school that offers employees a master&rsquo;s degree.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: from the computer to the housing stock</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Akelius combined mathematical thinking with business sense. From textbooks, investment books and tax software came, in 1994, Akelius Residential Property AB. By 2017 it was, according to Wikipedia, Sweden&rsquo;s second-largest property owner with more than 50,000 rental apartments in several countries. According to one source the company sold its holdings in Scandinavia and Germany in 2021 to concentrate on other markets.</p>
+          <p class="vb-intro">His concept was modernizing and re-letting: renovated apartments had on average five times as much demand as unrenovated ones, he said in 2020. In contrast, in 2020 a UN special rapporteur accused him of violating tenants&rsquo; rights because renovations were used for sharp rent increases. Akelius rejected this as &lsquo;ridiculous&rsquo;, said apartments were only renovated while empty, and announced a stronger focus on management instead of renovation. This portrait takes no position on the political disputes of housing policy.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Warren Buffett and Harald Lesch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-warren-buffett">Warren Buffett (SE5w6)</a> shares with Akelius the thinking in numbers and the decision to use the largest part of the fortune for charitable purposes. <a href="#beruehmte-harald-lesch">Harald Lesch (SE5w6)</a> shares with him the pleasure of ordering knowledge and passing it on.</p>
+          <p class="vb-intro">The difference: Buffett appears publicly as an explainer, Akelius spoke out mainly when his business model was criticized.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the self-preservation Five with Six-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is the consistency with which he put the largest part of his fortune into foundations, and the pledge of 76 million US dollars for education and recovery of children in war and conflict zones (according to a press release). The path from lecturer to entrepreneur also shows endurance and analytical strength.</p>
+          <p class="vb-intro">The shadow side of the Five is distance: whoever sees apartments as a calculation can lose sight of the tenants behind them, which is what the UN criticism put on the table. In 2020 the foundations were also accused of tax avoidance, which he denies. How much of this is justified cannot be decided here.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: foundation, family and withdrawal</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Akelius is (as of 25 October 2026) 81 years old. The Akelius Foundation most recently held 85 percent of Akelius Residential Property AB. He has three children and has lived abroad since 1980. The sources evaluated contain no reliable further information on his private life, so this portrait stays with the professional.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
+        {route:"lebensmusterkompass/se5", label:"Life Pattern Compass: SP5 – Owl"},
+        {route:"beruehmte-warren-buffett", label:"Portrait: Warren Buffett (SP5w6)"},
+        {route:"beruehmte-harald-lesch", label:"Portrait: Harald Lesch (SP5w6)"},
+        {route:"beruehmte-peter-lustig", label:"Portrait: Peter Lustig (SP5w6)"},
+            ])}
+    </div>
+  `);
+}

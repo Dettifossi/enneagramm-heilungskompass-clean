@@ -1620,6 +1620,7 @@ export function warrenBuffettPortraitPage() {
         {route:"krankheitsportraets-warren-buffett", label:"Illness Portrait: Warren Buffett (SP5w6) – the 2012 prostate cancer diagnosis"},
         {route:"beruehmte-stanley-mandelstam", label:"Portrait: Stanley Mandelstam (SP5w6)"},
         {route:"bibel-nikodemus", label:"Bible Portrait: Nicodemus (SP5w6)"},
+        {route:"beruehmte-roger-akelius", label:"Portrait: Roger Akelius (SP5w6)"},
       ])}
     </div>
   `);

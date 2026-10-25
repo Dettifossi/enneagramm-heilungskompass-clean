@@ -1278,6 +1278,7 @@ export function peterLustigPortraitPage() {
         {route:"subtype/se5", label:"SE5 \u2013 Die Eule: Subtyp-Profil"},
         {route:"beruehmte-christian-raetsch", label:"Portr\u00e4t: Christian R\u00e4tsch (SE5w4)"},
         {route:"beruehmte-vera-birkenbihl", label:"Porträt: Vera Birkenbihl (SE5w6)"},
+        {route:"beruehmte-roger-akelius", label:"Porträt: Roger Akelius (SE5w6)"},
       ])}
     </div>
   `);

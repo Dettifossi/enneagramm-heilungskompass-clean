@@ -1278,6 +1278,7 @@ export function peterLustigPortraitPage() {
         {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
         {route:"beruehmte-christian-raetsch", label:"Portrait: Christian Rätsch (SP5w4)"},
         {route:"beruehmte-vera-birkenbihl", label:"Portrait: Vera Birkenbihl (SP5w6)"},
+        {route:"beruehmte-roger-akelius", label:"Portrait: Roger Akelius (SP5w6)"},
       ])}
     </div>
   `);

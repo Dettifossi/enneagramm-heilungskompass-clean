@@ -2111,6 +2111,7 @@ export function haraldLeschPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
         {route:"beruehmte-carl-friedrich-gauss", label:"Porträt: Carl Friedrich Gauß (SE5w6)"},
+        {route:"beruehmte-roger-akelius", label:"Porträt: Roger Akelius (SE5w6)"},
       ])}
     </div>
   `);
