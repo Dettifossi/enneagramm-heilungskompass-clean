@@ -1960,7 +1960,7 @@ export function leonardBernsteinKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
         <strong>Bernstein</strong> ist dem <strong>sexuellen Typ 7 mit Sechserflügel</strong>
-        zugeordnet. Dieser Subtyp trägt bei Naranjo den Namen <em>Suggestibilität</em>: die vollständige
+        zugeordnet. Diesen Subtyp nannte Naranjo <em>Suggestibilität</em>: die vollständige
         Verschmelzung mit einer Idee, einem Moment oder einer Begeisterung, mit einer Intensität,
         die keine halben Bindungen kennt. Der Sechserflügel bringt eine bindungsorientierte,
         fast missionarische Fürsorge hinzu. Genau diese Maßlosigkeit – die Leidenschaft der
@@ -2634,7 +2634,7 @@ export function peterFalkKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
         <strong>Falk</strong> ist dem <strong>sozialen Typ 9 mit Einserflügel</strong>
-        zugeordnet. Naranjo gab diesem Subtyp den Namen <em>Teilnahme</em>: die Fähigkeit, sich in
+        zugeordnet. In Naranjos Typologie heißt dieser Subtyp <em>Teilnahme</em>: die Fähigkeit, sich in
         jede Gruppe einzufügen und dort Frieden zu finden, ohne die eigene Identität zu
         verlieren. Der Einserflügel bringt einen stillen, unerschütterlichen inneren Kompass
         hinzu. Genau dieses Bedürfnis nach Harmonie und Zugehörigkeit geriet in seinen letzten

@@ -1417,7 +1417,7 @@ export function johannesBrahmsKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
         <strong>Brahms</strong> ist der <strong>selbsterhaltenden Neun mit Achterflügel</strong>
-        zugeordnet. Naranjo gab diesem Subtyp den Namen <em>Appetit</em>: Frieden im Vertrauten, in der
+        zugeordnet. Naranjos Name für diesen Subtyp lautet <em>Appetit</em>: Frieden im Vertrauten, in der
         immer gleichen Gewohnheit. Der Achterflügel gibt dieser Gelassenheit eine unerschütterliche
         Standfestigkeit. Genau dieses Muster – Beharren im Gewohnten, bis eine äußere
         Erschütterung es aufbricht – lässt sich bis in seinen Krankheitsverlauf

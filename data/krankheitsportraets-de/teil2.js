@@ -748,7 +748,7 @@ export function francisBaconKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
         <strong>Bacon</strong> ist der <strong>selbsterhaltenden Sieben mit Achterflügel</strong>
-        zugeordnet. Naranjo nannte diesen Subtyp die "versteckte Acht": eine Sieben, die ihre
+        zugeordnet. Naranjo bezeichnete diesen Subtyp als die "versteckte Acht": eine Sieben, die ihre
         Neugier und Genussfähigkeit mit der Durchsetzungskraft und Direktheit der Acht
         verbindet, ohne diese offen zur Schau zu stellen. Genau diese Kombination aus
         unstillbarem Forscherdrang und der Weigerung, vor körperlichen Grenzen

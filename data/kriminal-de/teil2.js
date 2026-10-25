@@ -1071,7 +1071,7 @@ export function davidBerkowitzPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Enneagramm-Analyse</h3>
         <p class="vb-intro"><strong>a) SE4: die unerschrockene Vier:</strong>
         Die selbsterhaltende Vier zeigt ihren Schmerz nicht \u2013 sie ertr\u00e4gt ihn.
-        Naranjo nannte diesen Subtyp \u201edauntless\u201c: furchtlos, ausdauernd, f\u00e4hig
+        Dieser Subtyp trägt bei Naranjo den Namen \u201edauntless\u201c: furchtlos, ausdauernd, f\u00e4hig
         zu gro\u00dfem Leiden ohne Klage. <strong>Berkowitz</strong> trug sein inneres Inferno
         jahrelang allein \u2013 nach au\u00dfen ruhig, innen zerst\u00f6rerisch.</p>
         <p class="vb-intro"><strong>b) Dreierfl\u00fcgel als Inszenierungsdrang:</strong>
@@ -3706,7 +3706,7 @@ export function tedBundyPortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Eins: Moral als Lebensaufgabe</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> ist in der Enneagramm-Tradition der Subtyp, der die eigenen Wertma\xdfst\xe4be nach au\xdfen tr\xe4gt. Naranjo gab diesem Subtyp den Namen <em>Rigidity</em> \u2013 Starrheit. Die SO1 hat eine klare innere Ordnung, wie die Welt zu sein hat, und lebt diese Ordnung sichtbar. Sie ist b\xfcrgerlich korrekt, engagiert, gesellschaftlich pr\xe4sent. Sie will nicht nur selbst richtig handeln \u2013 sie will, dass die Welt nach ihren Grunds\xe4tzen funktioniert.</p>
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> ist in der Enneagramm-Tradition der Subtyp, der die eigenen Wertma\xdfst\xe4be nach au\xdfen tr\xe4gt. Diesen Subtyp nannte Naranjo <em>Rigidity</em> \u2013 Starrheit. Die SO1 hat eine klare innere Ordnung, wie die Welt zu sein hat, und lebt diese Ordnung sichtbar. Sie ist b\xfcrgerlich korrekt, engagiert, gesellschaftlich pr\xe4sent. Sie will nicht nur selbst richtig handeln \u2013 sie will, dass die Welt nach ihren Grunds\xe4tzen funktioniert.</p>
           <p class="vb-intro">Ted Bundy war Jurastudent, Mitarbeiter einer Krisenhotline, Aktivist der Republikanischen Partei. Er las Kindern vor. Man traute ihm eine gl\u00e4nzende Karriere zu. Das war keine Verkleidung im Sinne der Drei, kein Image-Management. Das war sein aufrichtiges Selbstbild: <em>Ich bin ein guter Mensch. Ich bin richtig.</em> Die SO1 glaubt ihr eigenes Narrativ \u2013 darin liegt ihre besondere Gef\xe4hrlichkeit.</p>
         </blockquote>
 

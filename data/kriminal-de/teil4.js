@@ -1178,7 +1178,7 @@ export function charlesStarkweatherPortraitPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
         <strong>Charles Starkweather</strong> wird der <strong>Sexuellen Vier mit Dreierflügel</strong>
-        im Enneagramm zugeordnet. Naranjo nannte diesen Subtyp den des <em>Konkurrenzneids</em> –
+        im Enneagramm zugeordnet. Naranjo gab diesem Subtyp den Namen den des <em>Konkurrenzneids</em> –
         eine Intensität, die sich unmittelbar und aggressiv gegen die als überlegen empfundene
         Umwelt richtet, statt den eigenen Schmerz nach innen zu tragen. Der Dreierflügel zeigt
         sich bei Starkweather in der bewussten Selbstinszenierung als James-Dean-Rebell und in
@@ -1731,7 +1731,7 @@ export function elliotRodgerPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale Vier: Ausgeschlossenheit als Identit\xe4t</h3>
-        <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> ist unter den Vierer-Subtypen die am st\xe4rksten auf Zugeh\xf6rigkeit ausgerichtete &ndash; und gleichzeitig die, bei der Zugeh\xf6rigkeit am tiefsten scheitert. Dieser Subtyp trägt bei Naranjo den Namen <em>Scham</em>: Die soziale Vier empfindet sich als mangelhaft, als strukturell anders als die anderen, als jemanden, der nie ganz dazugeh\xf6ren wird. Im Unterschied zur selbsterhaltenden oder sexuellen Vier klagt sie nicht laut &ndash; sie leidet still und beobachtet mit brennenden Augen, wie die anderen das bekommen, was ihr fehlt.</p>
+        <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> ist unter den Vierer-Subtypen die am st\xe4rksten auf Zugeh\xf6rigkeit ausgerichtete &ndash; und gleichzeitig die, bei der Zugeh\xf6rigkeit am tiefsten scheitert. Nach Naranjo steht dieser Subtyp für <em>Scham</em>: Die soziale Vier empfindet sich als mangelhaft, als strukturell anders als die anderen, als jemanden, der nie ganz dazugeh\xf6ren wird. Im Unterschied zur selbsterhaltenden oder sexuellen Vier klagt sie nicht laut &ndash; sie leidet still und beobachtet mit brennenden Augen, wie die anderen das bekommen, was ihr fehlt.</p>
         <p class="vb-intro"><strong>Elliot Rodger</strong>, geboren am 24. Juli 1991 in London, aufgewachsen in Los Angeles, Sohn eines britischen Filmregisseurs und einer malaiischen Mutter, war von fr\xfch an ein Kind, das nicht ankam. Scheidung der Eltern mit sieben Jahren, h\xe4ufige Schulwechsel, Asperger-\xe4hnliche soziale Schwierigkeiten, die nie diagnostiziert wurden. Er beobachtete andere Jugendliche beim Dazugeh\xf6ren &ndash; beim Flirten, beim Ausgehen, beim m\xfchelosen Kontaktaufnehmen &ndash; und verstand nicht, warum er keinen Zugang fand.</p>
       </div>
 
