@@ -908,6 +908,7 @@ export function camilleFritschPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
+        {route:"beruehmte-joe-vitale", label:"Porträt: Dr. Joe Vitale (SE2w1)"},
           {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
           {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
           {route:"beruehmte-jj-liu", label:"Porträt: J. J. Liu (SE2w1)"},

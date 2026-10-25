@@ -3018,3 +3018,72 @@ export function falcoPortraitPage() {
     </div>
   `);
 }
+
+export function joeVitalePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-joe-vitale-portrait.jpg" alt="Dr. Joe Vitale – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Joe Vitale</p>
+        <p class="krim-portrait-typ">SE2w1 &middot; Selbsterhaltender Typ 2 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Autor, Marketingberater &amp; spiritueller Lehrer, geb. 1953 in Niles, Ohio &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd: der Schreiber aus Niles</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> wirkt träge und gutmütig und ist doch das Tier, das seinen Fluss fest im Griff hat: Es bleibt an seinem Ort, trägt viele auf dem Rücken und lässt sich nicht verdrängen. Joseph &rsaquo;Joe&lsaquo; Vitale wurde am 29. Dezember 1953 in Niles im US-Bundesstaat Ohio geboren, besuchte die Niles McKinley High School und studierte an der Kent State University. Er begann als Werbetexter in Houston, Texas, und lebt heute in Austin.</p>
+          <p class="vb-intro">Nach eigener Darstellung kennt er die Armut aus eigener Erfahrung: In seinen Büchern und Auftritten erzählt er von einer Zeit der Obdachlosigkeit, bevor er als Autor und Berater Erfolg hatte. Wikipedia nennt sein Engagement für &rsaquo;Operation Yes&lsaquo; (Your Economic Salvation), ein Programm, das Menschen beim Weg aus der Obdachlosigkeit helfen will. Sein Buch &rsaquo;Homeless to Billionaire&lsaquo; (2019; &rsaquo;Vom Obdachlosen zum Milliardär&lsaquo;) greift das Thema im Titel auf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Nützlichkeit als Sicherheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo, der Lehrer des Autors, beschrieb die selbsterhaltende Zwei als Subtyp des <em>Privilege</em> (Privileg): Sie erwirbt sich ihren Platz, indem sie anderen nützlich, ja unentbehrlich wird, und erhofft sich dafür Bevorzugung. Die Zwei gibt und sucht darin ihre Sicherheit. Die selbsterhaltende Zwei tut das leise und verlässlich, weniger als große Geste, mehr als Daueraufgabe.</p>
+          <p class="vb-intro">Vitales Berufsweg passt in dieses Bild: Er schrieb Werbetexte, also Texte, die für andere arbeiten, und zählt nach Wikipedia das Rote Kreuz, den Fernsehsender PBS und ein Kinderkrankenhaus in Houston zu seinen Kunden. Später wurde aus dem Texten das Lehren: Er vermittelt, wie man andere überzeugt, und rief ein Coaching-Programm namens &rsaquo;Miracles Coaching&lsaquo; ins Leben, das nach Wikipedia in der Fernsehsendung &rsaquo;Larry King Live&lsaquo; vorgestellt wurde. Wer für andere schreibt und anderen etwas beibringt, macht sich nützlich. Das lässt sich mit der Zwei in Verbindung bringen, ohne dass sich über sein Inneres mehr sagen ließe, als die öffentlichen Angaben zeigen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Methode statt Gefühl allein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der Zwei Ordnung, Maßstab und den Hang, Dinge richtigzustellen und zu verbessern. Statt bloßer Zuwendung entsteht ein System: Bei Vitale zeigt sich das in den Titeln, die eine Methode versprechen. &rsaquo;Hypnotic Writing&lsaquo; (1995) und &rsaquo;Hypnotic Marketing&lsaquo; (2002) beschreiben Technik, &rsaquo;The Miracle: Six Steps to Enlightenment&lsaquo; (2016; &rsaquo;Das Wunder: Sechs Schritte zur Erleuchtung&lsaquo;) zählt schon im Titel die Schritte auf.</p>
+          <p class="vb-intro">Auch die vier Sätze der hawaiianischen Methode &rsaquo;Ho&lsquo;oponopono&lsaquo;, die er in &rsaquo;Zero Limits&lsaquo; (2007) mit Dr. Ihaleakala Hew Len vorstellt, sind ein geordnetes Verfahren: &rsaquo;Es tut mir leid. Bitte verzeih mir. Danke. Ich liebe dich.&lsaquo; Dass ein Mensch die Verantwortung für sein Erleben übernimmt und sich innerlich in Ordnung bringt, ist ein Gedanke, der zur Eins passt. Über die Wirkung der Methode trifft dieses Porträt keine Aussage, es beschreibt nur, was das Buch darstellt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: vom Werbetexter zum Autor von über fünfzig Büchern</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sein erstes Buch, &rsaquo;Zen and the Art of Writing&lsaquo; (1984; &rsaquo;Zen und die Kunst des Schreibens&lsaquo;), erschien noch in den Anfängen seiner Laufbahn. Es folgten &rsaquo;Hypnotic Writing&lsaquo; (1995), &rsaquo;Hypnotic Marketing&lsaquo; (2002) und &rsaquo;There&rsquo;s a Customer Born Every Minute&lsaquo; (2006; &rsaquo;Jede Minute wird ein Kunde geboren&lsaquo;). Zum Bestseller wurde &rsaquo;The Attractor Factor&lsaquo; (2005; &rsaquo;Der Anziehungsfaktor&lsaquo;), und 2006 trat er im Film &rsaquo;The Secret&lsaquo; auf, der das Gesetz der Anziehung bekannt machte. Nach Angaben seines Verlags hat er über fünfzig Bücher zu Erfolg, Marketing und Spiritualität geschrieben und gilt als zertifizierter Hypnotherapeut. Sein Spitzname lautet &rsaquo;Mr. Fire&lsaquo;.</p>
+          <p class="vb-intro">Daneben veröffentlichte er mehr als fünfzehn Musik-CDs, sprach Hörprogramme für Nightingale-Conant und trat in rund achtzehn Filmen auf, darunter &rsaquo;The Opus&lsaquo; und &rsaquo;The Abundance Factor&lsaquo;. Die Substanz seines Wirkens liegt im Vermitteln: Er macht aus Techniken des Überzeugens und aus spirituellen Ideen eine lehrbare, in Schritten erzählbare Form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im selben Subtyp stehen der Wildbiologe <a href="#beruehmte-camille-fritsch">Dr. Camille Fritsch (SE2w1)</a>, der sein Fachwissen über Flusspferde in persönlichen Feldführungen weitergibt, und der Koch <a href="#beruehmte-sean-sherman">Sean Sherman (SE2w1)</a>, der mit dem Indigenous Food Lab indigene Küche wieder zugänglich macht. Das Muster, Erfahrung in eine Form zu bringen, die anderen nützt, verbindet die drei Biografien, bei aller Verschiedenheit der Felder.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht dieses Subtyps ist die Bereitschaft, das Gewonnene zu teilen und andere zu ermutigen. Bei Vitale zeigt sie sich im Engagement für Menschen ohne Wohnung und im Lehren. Der Schatten der Zwei liegt darin, dass das Geben mit der stillen Erwartung verbunden sein kann, dafür gebraucht und anerkannt zu werden. Das ist eine Deutung des Musters, keine Aussage über seine Beweggründe, die nur er selbst kennt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Der Heilungsweg: vom Gebrauchtwerden zur Selbstannahme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Weg der Zwei führt von der Unentbehrlichkeit zur Demut: vom Gedanken, sich Zuwendung verdienen zu müssen, zur Erfahrung, dass man bereits genug ist. Die Sätze der Ho&lsquo;oponopono-Methode, die Vitale verbreitet hat, lassen sich als Einladung zu dieser Haltung lesen: Verantwortung übernehmen, Dank sagen, Liebe aussprechen. Wie weit er diesen Weg selbst gegangen ist, lässt sich von außen nicht beurteilen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-camille-fritsch", label:"Porträt: Dr. Camille Fritsch (SE2w1)"},
+        {route:"beruehmte-sean-sherman", label:"Porträt: Sean Sherman (SE2w1)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}

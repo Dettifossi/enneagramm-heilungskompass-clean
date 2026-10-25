@@ -3095,6 +3095,7 @@ export function seanShermanPortraitPage() {
 
       </div>
       ${relatedLinks([
+        {route:"beruehmte-joe-vitale", label:"Porträt: Dr. Joe Vitale (SE2w1)"},
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
         {route:"lebensmusterkompass/se2", label:"Lebensmusterkompass: SE2 – Flusspferd"},

@@ -912,6 +912,7 @@ export function camilleFritschPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
+        {route:"beruehmte-joe-vitale", label:"Portrait: Dr. Joe Vitale (SP2w1)"},
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-jj-liu", label:"Portrait: J. J. Liu (SP2w1)"},
@@ -3047,6 +3048,75 @@ export function wimThoelkePortraitPage() {
         {route:"beruehmte-norah-jones", label:"Portrait: Norah Jones (SP3w4)"},
         {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SP3w2)"},
         {route:"krankheitsportraets-wim-thoelke", label:"Illness Portrait: Wim Thoelke – the heart disease behind the show"},
+      ])}
+    </div>
+  `);
+}
+
+export function joeVitalePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-joe-vitale-portrait.jpg" alt="Dr. Joe Vitale – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Joe Vitale</p>
+        <p class="krim-portrait-typ">SP2w1 &middot; Self-Preservation Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">Author, marketing consultant &amp; spiritual teacher, born 1953 in Niles, Ohio &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus: the writer from Niles</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> looks sluggish and good-natured and is yet the animal that holds its river firmly: it stays in its place, carries many on its back and cannot be displaced. Joseph &lsquo;Joe&rsquo; Vitale was born on 29 December 1953 in Niles, Ohio, attended Niles McKinley High School and studied at Kent State University. He began as a copywriter in Houston, Texas, and lives in Austin today.</p>
+          <p class="vb-intro">By his own account he knows poverty from experience: in his books and appearances he tells of a time of homelessness before he succeeded as an author and consultant. Wikipedia names his involvement with &lsquo;Operation Yes&rsquo; (Your Economic Salvation), a programme that wants to help people out of homelessness. His book &lsquo;Homeless to Billionaire&rsquo; (2019) takes up the theme in its title.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: usefulness as security</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo, the author&rsquo;s teacher, described the self-preservation Two as the subtype of <em>Privilege</em>: she earns her place by becoming useful, even indispensable, to others, and hopes for preferential treatment in return. The Two gives and seeks her security in that. The self-preservation Two does so quietly and reliably, less as a grand gesture, more as a daily task.</p>
+          <p class="vb-intro">Vitale&rsquo;s career fits this picture: he wrote advertising copy, that is texts that work for others, and according to Wikipedia counts the Red Cross, the broadcaster PBS and a children&rsquo;s hospital in Houston among his clients. Later writing turned into teaching: he conveys how to persuade others and founded a coaching programme called &lsquo;Miracles Coaching&rsquo;, which according to Wikipedia was presented on the television show &lsquo;Larry King Live&rsquo;. Whoever writes for others and teaches others makes himself useful. This can be connected with the Two, without saying more about his inner life than the public information shows.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-wing: method rather than feeling alone</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the Two order, standard and the tendency to set things right and improve them. Instead of mere attention a system arises: in Vitale this shows in titles that promise a method. &lsquo;Hypnotic Writing&rsquo; (1995) and &lsquo;Hypnotic Marketing&rsquo; (2002) describe technique, &lsquo;The Miracle: Six Steps to Enlightenment&rsquo; (2016) lists the steps in the title.</p>
+          <p class="vb-intro">The four sentences of the Hawaiian method &lsquo;Ho&lsquo;oponopono&rsquo;, which he presents with Dr. Ihaleakala Hew Len in &lsquo;Zero Limits&rsquo; (2007), are also an ordered procedure: &lsquo;I&rsquo;m sorry. Please forgive me. Thank you. I love you.&rsquo; That a person takes responsibility for his experience and puts himself inwardly in order is a thought that fits the One. This portrait makes no statement about the effect of the method; it only describes what the book presents.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: from copywriter to author of over fifty books</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">His first book, &lsquo;Zen and the Art of Writing&rsquo; (1984), appeared at the beginning of his career. There followed &lsquo;Hypnotic Writing&rsquo; (1995), &lsquo;Hypnotic Marketing&rsquo; (2002) and &lsquo;There&rsquo;s a Customer Born Every Minute&rsquo; (2006). &lsquo;The Attractor Factor&rsquo; (2005) became a bestseller, and in 2006 he appeared in the film &lsquo;The Secret&rsquo;, which made the law of attraction known. According to his publisher he has written over fifty books on success, marketing and spirituality and is a certified hypnotherapist. His nickname is &lsquo;Mr. Fire&rsquo;.</p>
+          <p class="vb-intro">Besides this he released more than fifteen music CDs, recorded audio programmes for Nightingale-Conant and appeared in about eighteen films, among them &lsquo;The Opus&rsquo; and &lsquo;The Abundance Factor&rsquo;. The substance of his work lies in conveying: he turns techniques of persuasion and spiritual ideas into a teachable form that can be told in steps.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. A parallel in the same subtype</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the same subtype stand the wildlife biologist <a href="#beruehmte-camille-fritsch">Dr. Camille Fritsch (SP2w1)</a>, who passes on his expertise on hippos in personal field tours, and the chef <a href="#beruehmte-sean-sherman">Sean Sherman (SP2w1)</a>, who with the Indigenous Food Lab makes Indigenous cuisine accessible again. The pattern of bringing experience into a form that benefits others connects the three biographies, despite the difference of fields.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the self-preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of this subtype is the readiness to share what has been gained and to encourage others. In Vitale it shows in his involvement for people without housing and in teaching. The shadow of the Two lies in the fact that giving can be linked with the quiet expectation of being needed and recognized for it. This is an interpretation of the pattern, not a statement about his motives, which only he himself knows.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The path of healing: from being needed to self-acceptance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The path of the Two leads from indispensability to humility: from the thought of having to earn attention to the experience that one is already enough. The sentences of the Ho&lsquo;oponopono method that Vitale has spread can be read as an invitation to this attitude: taking responsibility, saying thanks, speaking love. How far he has walked this path himself cannot be judged from outside.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-camille-fritsch", label:"Portrait: Dr. Camille Fritsch (SP2w1)"},
+        {route:"beruehmte-sean-sherman", label:"Portrait: Sean Sherman (SP2w1)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
       ])}
     </div>
   `);

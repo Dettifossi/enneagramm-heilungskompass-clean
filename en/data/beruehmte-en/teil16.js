@@ -3086,6 +3086,7 @@ export function seanShermanPortraitPage() {
 
       </div>
       ${relatedLinks([
+        {route:"beruehmte-joe-vitale", label:"Portrait: Dr. Joe Vitale (SP2w1)"},
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
         {route:"lebensmusterkompass/se2", label:"Life Pattern Compass: SP2 – Hippopotamus"},
