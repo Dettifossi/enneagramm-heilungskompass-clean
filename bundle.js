@@ -60748,6 +60748,8 @@ function wahnideenNichtRealeVorstellungenPage() {
           <p class="vb-intro">Dieser Artikel erklärt, was eine nicht reale Vorstellung ist, woher die Rubriken stammen, welche Hauptvorstellung zu jedem der neun Typen gehört und was sich in Kents Repertorium dazu nachlesen lässt. Das <a href="#nicht-reale-vorstellungen">Schaubild</a> zeigt die neun Vorstellungen im Überblick, hier folgt die ausführliche Fassung.</p>
         </blockquote>
 
+        <figure style="margin:1.4rem 0;"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/nicht-reale-vorstellungen-wissensartikel.jpg" alt="Neun Wurzel- und Astgeflechte mit Bildern der nicht realen Vorstellungen um den Kompassstern" loading="lazy" style="width:100%;height:auto;border-radius:14px;display:block;" /></figure>
+
         <div class="vb-section" style="max-width:100%;">
           <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .7rem;color:var(--ink);">Was ist eine nicht reale Vorstellung?</h2>
           <p class="vb-intro">Gemeint ist ein subjektives Empfinden eines Menschen, gleich ob es der Wirklichkeit entspricht oder nicht: ein falscher Eindruck von etwas, eine falsche Überzeugung. Es geht nicht darum, ob die Lage objektiv so ist, sondern darum, wie der Mensch sie sieht. Eine Person kann sich überlegen fühlen, ohne es zu sein, oder verlassen, obwohl andere bei ihr sind.</p>

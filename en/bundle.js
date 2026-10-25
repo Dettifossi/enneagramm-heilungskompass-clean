@@ -40329,6 +40329,8 @@ function wahnideenNichtRealeVorstellungenPage() {
           <p class="vb-intro">This article explains what an unreal idea is, where the rubrics come from, which main idea belongs to each of the nine types and what can be read about it in Kent&rsquo;s Repertory. The <a href="#nicht-reale-vorstellungen">chart</a> shows the nine ideas at a glance, the detailed version follows here.</p>
         </blockquote>
 
+        <figure style="margin:1.4rem 0;"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/nicht-reale-vorstellungen-wissensartikel.jpg" alt="Nine root and branch networks with images of the unreal ideas around the compass star" loading="lazy" style="width:100%;height:auto;border-radius:14px;display:block;" /></figure>
+
         <div class="vb-section" style="max-width:100%;">
           <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .7rem;color:var(--ink);">What Is an Unreal Idea?</h2>
           <p class="vb-intro">What is meant is a person&rsquo;s subjective feeling, whether or not it corresponds to reality: a false impression of something, a false conviction. It is not about whether the situation objectively is that way, but about how the person sees it. A person can feel superior without being so, or abandoned although others are with them.</p>
