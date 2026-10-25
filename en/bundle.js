@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=386";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=387";
 import { psychogrammErklaerung } from "../data/psychogramme-erklaerung.js?v=2";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -1169,6 +1169,15 @@ const ramanaMaharshiKrankheitsportraetPage = () => _lazyPage("./data/krankheitsp
 const florenceNightingaleKrankheitsportraetPage = () => _lazyPage("./data/krankheitsportraets-en/teil5.js", "florenceNightingaleKrankheitsportraetPage");
 const camilleClaudelKrankheitsportraetPage = () => _lazyPage("./data/krankheitsportraets-en/teil5.js", "camilleClaudelKrankheitsportraetPage");
 const edithPiafKrankheitsportraetPage = () => _lazyPage("./data/krankheitsportraets-en/teil5.js", "edithPiafKrankheitsportraetPage");
+const ignatiaMindmapPage = () => _lazyPage("./data/mindmaps-en/ignatia.js", "ignatiaMindmapPage");
+const hyoscyamusMindmapPage = () => _lazyPage("./data/mindmaps-en/hyoscyamus.js", "hyoscyamusMindmapPage");
+const tarentulaMindmapPage = () => _lazyPage("./data/mindmaps-en/tarentula.js", "tarentulaMindmapPage");
+const stramoniumMindmapPage = () => _lazyPage("./data/mindmaps-en/stramonium.js", "stramoniumMindmapPage");
+const opiumMindmapPage = () => _lazyPage("./data/mindmaps-en/opium.js", "opiumMindmapPage");
+const belladonnaMindmapPage = () => _lazyPage("./data/mindmaps-en/belladonna.js", "belladonnaMindmapPage");
+const veratrumMindmapPage = () => _lazyPage("./data/mindmaps-en/veratrum.js", "veratrumMindmapPage");
+const cannabisMindmapPage = () => _lazyPage("./data/mindmaps-en/cannabis.js", "cannabisMindmapPage");
+const mindmapsUebersichtPage = () => _lazyPage("./data/mindmaps-en/uebersicht.js", "mindmapsUebersichtPage");
 
 // ── Firebase Auth ────────────────────────────────────────────────────────────
 const FB_CONFIG = {
@@ -5823,7 +5832,7 @@ function _neuAktiv(route) {
   return !!d && (new Date() - new Date(d)) < 30 * 864e5;
 }
 
-const HEILWISSEN_ROUTES = new Set(["wann-entsteht-der-typ", "kroetenschlucken", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "nicht-reale-vorstellungen", "wahnideen-nicht-reale-vorstellungen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["wann-entsteht-der-typ", "kroetenschlucken", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "nicht-reale-vorstellungen", "wahnideen-nicht-reale-vorstellungen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9, "mindmaps-single-rubriken", "mindmap-ignatia", "mindmap-hyoscyamus", "mindmap-tarentula", "mindmap-stramonium", "mindmap-opium", "mindmap-belladonna", "mindmap-veratrum", "mindmap-cannabis"].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -5980,6 +5989,7 @@ text.nav = [
     { route: "bewusstseinsgrad-normalverteilung", label: "Levels of Consciousness & the Gaussian Normal Distribution" },
     { route: "persoenlichkeitsmodelle-vergleich", label: "Enneagram vs. Other Personality Models" },
     { route: "wahnideen-nicht-reale-vorstellungen", label: "Unreal Ideas: Delusions in the Enneagram and in Homeopathy" },
+    { route: "mindmaps-single-rubriken", label: "Mind maps of the single rubrics (Homeopathy)" },
     { route: "tritypen", label: "The 27 Tritypes of the Enneagram (for Advanced Learners)" },
     { heading: "Gaze & Animals" },
     { route: "blickqualitaeten-atlas", label: "Gaze Quality Atlas (27 Subtypes)" },
@@ -40354,6 +40364,7 @@ function wahnideenNichtRealeVorstellungenPage() {
               <div><span style="font-weight:700;color:var(--muted);">In Kent:</span> &ldquo;sold, as if would be&rdquo;: exactly one remedy: Hyoscyamus niger.</div>
               <div>The Two gives itself: attention, help, closeness. The idea of having been sold takes this devotion at its word and turns it around. Whoever has given everything feels given away in the end, used, made a commodity. Behind the image stands the fear of not being seen for one&rsquo;s giving but exploited. In the chapter &ldquo;Delirium&rdquo; Kent also lists &ldquo;wedding, prepares for&rdquo; (Hyoscyamus niger as the only remedy). Behind it stands the deep longing for connection and love that is so typical of the Two, the overdeveloped heart energy of this type. Added to this is &ldquo;wife is faithless&rdquo; (Hyoscyamus niger and Stramonium), the fear of losing the other&rsquo;s attention.</div>
               <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">In life threads:</span> <a href="#beruehmte-jesus-christus">Jesus Christus</a>, <a href="#beruehmte-elvis-presley">Elvis Presley</a></div>
+              <div style="font-size:0.85rem;">All single rubrics of Hyoscyamus niger are collected in a <a href="#mindmap-hyoscyamus">mind map</a>.</div>
               <div style="font-size:0.78rem;color:var(--muted);">Remedy assigned in this Compass&rsquo;s Enneagram homeopathy: Hyoscyamus niger</div>
             </div>
           </div>
@@ -40367,6 +40378,7 @@ function wahnideenNichtRealeVorstellungenPage() {
               <div><span style="font-weight:700;color:var(--muted);">In Kent:</span> &ldquo;unseen, thing&rdquo;: exactly one remedy: Tarentula hispanica.</div>
               <div>The Three lives from the visible: from the image, the result, success. The invisible is its counterpole, what cannot be shown, the inner, the emptiness behind the facade. Kent&rsquo;s Repertory also lists for the same remedy &ldquo;assaulted, is going to be&rdquo; (Tarentula hispanica) and &ldquo;strangers seemed to be in the room&rdquo; (Tarentula hispanica and Thuja), images of a threat from what one does not see.</div>
               <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">In life threads:</span> <a href="#beruehmte-harry-houdini">Harry Houdini</a>, <a href="#beruehmte-william-shakespeare">William Shakespeare</a></div>
+              <div style="font-size:0.85rem;">All single rubrics of Tarentula hispanica are collected in a <a href="#mindmap-tarentula">mind map</a>.</div>
               <div style="font-size:0.78rem;color:var(--muted);">Remedy assigned in this Compass&rsquo;s Enneagram homeopathy: Tarentula hispanica</div>
             </div>
           </div>
@@ -40380,6 +40392,7 @@ function wahnideenNichtRealeVorstellungenPage() {
               <div><span style="font-weight:700;color:var(--muted);">In Kent:</span> &ldquo;vow, that she is breaking her&rdquo;: exactly one remedy: Ignatia amara.</div>
               <div>The Four stays faithful to what is lost and to the ideal, often for years. An inner promise not to be unfaithful to pain, longing or one&rsquo;s own tragedy can weigh so heavily that every step into joy appears as a breach of faith. Kent&rsquo;s Repertory also knows &ldquo;married, that he is&rdquo; (Ignatia amara), another image of bonding. In the author&rsquo;s &ldquo;Homöopathische Arzneimittellehre der Single-Rubriken aus dem Geist-/Gemütsbereich&rdquo; (&ldquo;Homeopathic Materia Medica of the Single Rubrics of the Mind Sphere&rdquo;) Ignatia amara also stands alone in &ldquo;delusions – vow – she would break her vow&rdquo;, as well as in &ldquo;delusions – lost, she is – everything is lost&rdquo; and &ldquo;delusions – damned, he is – soul could not be saved, redeemed&rdquo;. These are the images of the Four: being marked by loss and being unable to shake off guilt. Closest to a feeling of shame among the single rubrics is &ldquo;sleepwalking – from injured sense of honor&rdquo;.</div>
               <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">In life threads:</span> <a href="#beruehmte-leonard-cohen">Leonard Cohen</a>, <a href="#beruehmte-hippokrates-von-kos">Hippokrates von Kos</a></div>
+              <div style="font-size:0.85rem;">All single rubrics of Ignatia amara are collected in a <a href="#mindmap-ignatia">mind map</a>.</div>
               <div style="font-size:0.78rem;color:var(--muted);">Remedy assigned in this Compass&rsquo;s Enneagram homeopathy: Ignatia amara</div>
             </div>
           </div>
@@ -40393,6 +40406,7 @@ function wahnideenNichtRealeVorstellungenPage() {
               <div><span style="font-weight:700;color:var(--muted);">In Kent:</span> &ldquo;alone, in a wilderness&rdquo;: exactly one remedy: Stramonium.</div>
               <div>The Five withdraws to be safe: knowledge, distance, a protected area of its own. At the end of this withdrawal stands the image of being alone in the wilderness: entirely on one&rsquo;s own, without connection. Kent also lists &ldquo;alone, that she is always&rdquo; (Pulsatilla and Stramonium) and &ldquo;executioner, visions of an&rdquo; (Stramonium). According to the author&rsquo;s observation the image of the wilderness shows most purely in the self-preservation Five, in whom it is about pure self-preservation.</div>
               <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">In life threads:</span> <a href="#beruehmte-juliane-koepcke">Juliane Koepcke</a>, <a href="#beruehmte-jean-jacques-rousseau">Jean-Jacques Rousseau</a>, <a href="#beruehmte-hermann-hesse">Hermann Hesse</a>, <a href="#beruehmte-edward-snowden">Edward Snowden</a>, <a href="#beruehmte-hannah-arendt">Hannah Arendt</a>, <a href="#beruehmte-lise-meitner">Lise Meitner</a>, <a href="#beruehmte-blaise-pascal">Blaise Pascal</a>, <a href="#beruehmte-franz-kafka">Franz Kafka</a></div>
+              <div style="font-size:0.85rem;">All single rubrics of Stramonium are collected in a <a href="#mindmap-stramonium">mind map</a>.</div>
               <div style="font-size:0.78rem;color:var(--muted);">Remedy assigned in this Compass&rsquo;s Enneagram homeopathy: Stramonium</div>
             </div>
           </div>
@@ -40406,6 +40420,7 @@ function wahnideenNichtRealeVorstellungenPage() {
               <div><span style="font-weight:700;color:var(--muted);">In Kent:</span> Kent&rsquo;s Repertory has no rubric of the same wording.</div>
               <div>The Six scans the world for dangers and can raise the threat to the extreme: they want to destroy me. The image circles around persecution, distrust and the fear of judgment. Related in Kent are &ldquo;murdered, that he would be&rdquo; (many remedies, among them Opium) and &ldquo;fighting, that people are&rdquo; (Opium and Stramonium).</div>
               <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">In life threads:</span> <a href="#beruehmte-fjodor-dostojewski">Fjodor Dostojewski</a></div>
+              <div style="font-size:0.85rem;">All single rubrics of Opium are collected in a <a href="#mindmap-opium">mind map</a>.</div>
               <div style="font-size:0.78rem;color:var(--muted);">Remedy assigned in this Compass&rsquo;s Enneagram homeopathy: Opium</div>
             </div>
           </div>
@@ -40419,6 +40434,7 @@ function wahnideenNichtRealeVorstellungenPage() {
               <div><span style="font-weight:700;color:var(--muted);">In Kent:</span> &ldquo;caught, as if he would be&rdquo;: exactly one remedy: Belladonna.</div>
               <div>The Seven needs freedom, variety and movement. It experiences constraint as captivity: I am being pinned down, I will not get out. Behind the image stands the fear of the pain that freedom was meant to keep away. The related rubric &ldquo;arrested, is about to be&rdquo; lists eight remedies in Kent, among them Belladonna. Alongside, Kent lists &ldquo;dreaming when awake, imagines himself&rdquo; (Belladonna only) and &ldquo;juggler, thinks himself a&rdquo; (Belladonna only), images of fantasy and play in which the Seven lives.</div>
               <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">In life threads:</span> <a href="#beruehmte-jeanne-marie-guyon">Madame Guyon</a></div>
+              <div style="font-size:0.85rem;">All single rubrics of Belladonna are collected in a <a href="#mindmap-belladonna">mind map</a>.</div>
               <div style="font-size:0.78rem;color:var(--muted);">Remedy assigned in this Compass&rsquo;s Enneagram homeopathy: Belladonna</div>
             </div>
           </div>
@@ -40432,6 +40448,7 @@ function wahnideenNichtRealeVorstellungenPage() {
               <div><span style="font-weight:700;color:var(--muted);">In Kent:</span> &ldquo;prince, is a&rdquo;: exactly one remedy: Veratrum album.</div>
               <div>The Eight radiates natural, self-confident power: it decides, it leads, it protects what is its own. Where this power becomes dominance, the image of the prince stands: I am the one who decides here, I have power over you. It is about the matter-of-course self-assurance of the Eight and its overflowing presence and strength. Related in Kent is &ldquo;distinguished&rdquo; (Stramonium and Veratrum album), plus &ldquo;rank, thinks himself a person of&rdquo; (Cuprum, Phosphorus and Veratrum album) and &ldquo;hunter, thinks he is a&rdquo; (Cannabis indica and Veratrum album). This does not refer to the superiority of Type 1: there it is about the standard, here about power.</div>
               <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">In life threads:</span> <a href="#beruehmte-gerhard-schroeder">Gerhard Schröder</a>, <a href="#beruehmte-helmut-kohl">Helmut Kohl</a>, <a href="#beruehmte-franz-josef-strauss">Franz Josef Strauß</a>, <a href="#beruehmte-john-wayne">John Wayne</a></div>
+              <div style="font-size:0.85rem;">All single rubrics of Veratrum album are collected in a <a href="#mindmap-veratrum">mind map</a>.</div>
               <div style="font-size:0.78rem;color:var(--muted);">Remedy assigned in this Compass&rsquo;s Enneagram homeopathy: Veratrum album</div>
             </div>
           </div>
@@ -40445,6 +40462,7 @@ function wahnideenNichtRealeVorstellungenPage() {
               <div><span style="font-weight:700;color:var(--muted);">In Kent:</span> Kent&rsquo;s Repertory has no rubric of the same wording.</div>
               <div>The Nine makes itself small to keep the peace and can in the end experience itself as tiny and insignificant: a wight who does not count. The image circles around unimportance and the longing not to be a burden to anyone. In Kent the remedy Cannabis indica is also listed with &ldquo;annihilation, about to sink into&rdquo; (Cannabis indica and Carbo hydrogenisatus) and &ldquo;weight, has no&rdquo; (Cannabis indica and Opium), images of dissolving and weightlessness. According to the author the idea &ldquo;gnome, wight&rdquo; goes back to Edward C. Whitmont (&ldquo;Psyche and Substance&rdquo;). This rubric has been known since 1980.</div>
               <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">In life threads:</span> <a href="#beruehmte-eleanor-roosevelt">Eleanor Roosevelt</a></div>
+              <div style="font-size:0.85rem;">All single rubrics of Cannabis indica are collected in a <a href="#mindmap-cannabis">mind map</a>.</div>
               <div style="font-size:0.78rem;color:var(--muted);">Remedy assigned in this Compass&rsquo;s Enneagram homeopathy: Cannabis indica</div>
             </div>
           </div>
@@ -46275,6 +46293,15 @@ function subtypeSchaubilderPage() {
     "schatten-projektionen-miasmen": schattenProjektionenMiasmenPage,
     "nicht-reale-vorstellungen": nichtRealeVorstellungenPage,
     "wahnideen-nicht-reale-vorstellungen": wahnideenNichtRealeVorstellungenPage,
+    "mindmap-ignatia": ignatiaMindmapPage,
+    "mindmap-hyoscyamus": hyoscyamusMindmapPage,
+    "mindmap-tarentula": tarentulaMindmapPage,
+    "mindmap-stramonium": stramoniumMindmapPage,
+    "mindmap-opium": opiumMindmapPage,
+    "mindmap-belladonna": belladonnaMindmapPage,
+    "mindmap-veratrum": veratrumMindmapPage,
+    "mindmap-cannabis": cannabisMindmapPage,
+    "mindmaps-single-rubriken": mindmapsUebersichtPage,
     "befreiende-fragen": befreiendeFragenPage,
     "fuehrungsstile": fuehrungsstilePage,
     "gifte-des-geistes": gifteDesGeistesPage,
