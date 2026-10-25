@@ -3609,6 +3609,13 @@ export function eleanorRooseveltPortraitPage() {
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
+        <h2 class="vb-section">7. A thought from homeopathy: the image of the wight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 9 is assigned the remedy Cannabis indica (Indian hemp) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). In the language of the repertory its main idea includes the idea of being a gnome or a wight. In Eleanor Roosevelt the image meets one in her childhood: she lost her mother and father early, grew up with her grandmother, and her mother called her &lsquo;Granny&rsquo; because of her serious nature. As a child she experienced herself as plain and small.</p>
+          <p class="vb-intro">In this rubric, according to the author&rsquo;s repertory, only a single remedy is listed, Cannabis indica. It is a juxtaposition of two similar images, nothing more. The text says nothing about health, recommends nothing and does not replace medical or therapeutic advice.</p>
+        </blockquote>
+
+
       </div>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
@@ -3618,6 +3625,7 @@ export function eleanorRooseveltPortraitPage() {
         {route:"beruehmte-dalai-lama", label:"Portrait: Dalai Lama XIV. (SO9w1) – same subtype"},
         {route:"krankheitsportraets-eleanor-roosevelt", label:"Illness Portrait: Eleanor Roosevelt (SO9w1)"},
         {route:"beruehmte-maria-treben", label:"Portrait: Maria Treben (SO9w1)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagram &amp; Homeopathy"},
       ])}
     </div>
   `);

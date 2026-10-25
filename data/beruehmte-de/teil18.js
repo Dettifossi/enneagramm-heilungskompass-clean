@@ -784,6 +784,13 @@ export function jeanneMarieGuyonPortraitPage() {
           <p class="vb-intro">Nach ihrer letzten Freilassung 1703 verbrachte Guyon ihre letzten Lebensjahre zur\u00fcckgezogen in Blois, weiterhin im brieflichen Austausch mit geistlichen Weggef\u00e4hrten in ganz Europa &ndash; nicht mehr verfolgt, aber auch nicht gebrochen. Der Biber, der sein Bauwerk gegen alle Widerst\u00e4nde vollendet hat: nicht durch Gegenangriff, sondern durch die stille, unersch\u00fctterliche Treue zu dem, woran er glaubte.</p>
         </blockquote>
 
+        <h2 class="vb-section">7. Ein Gedanke aus der Homöopathie: das Bild der Gefangennahme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 7 das Mittel Belladonna (Tollkirsche) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seiner Hauptvorstellung gehört in der Repertoriumssprache die Vorstellung, gefangen genommen zu werden. Bei Madame Guyon wurde das Bild Wirklichkeit: 1695 wurde sie in Vincennes inhaftiert, von 1698 bis 1703 hielt man sie in der Bastille fest, weil ihre Lehre als gefährlich galt. Eine Frau, die innere Freiheit suchte, verlor die äußere.</p>
+          <p class="vb-intro">In dieser Rubrik stehen nach dem Repertorium des Autors nur drei Mittel: Belladonna, Germanium metallicum und Stramonium. Gemeint ist ein Vergleich von Bildern. Er enthält keine Aussage über den Gesundheitszustand eines Menschen, keine Empfehlung und keinen Ersatz für Beratung durch Ärzte oder Heilkundige.</p>
+        </blockquote>
+
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -793,6 +800,7 @@ export function jeanneMarieGuyonPortraitPage() {
         {route:"subtype/so7", label:"SO7 \u2013 Der Biber: Subtyp-Profil"},
         {route:"beruehmte-elon-musk", label:"Portr\u00e4t: Elon Musk (SO7w6)"},
         {route:"beruehmte-johann-wolfgang-von-goethe", label:"Porträt: Johann Wolfgang von Goethe (SO7w6)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagramm &amp; Homöopathie"},
       ])}
     </div>
   `);

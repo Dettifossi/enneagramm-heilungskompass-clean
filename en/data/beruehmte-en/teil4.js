@@ -891,6 +891,13 @@ export function jesusChristusPortraitPage() {
           <p class="vb-intro">The resurrection closes this circle: mortality becomes, in the Christian narrative, immortality. For the social Two, this is the final and greatest consequence of its logic &ndash; the community it lived and died for receives the assurance that the connection endures beyond death. Not a private miracle, but, in the reading of the New Testament, a promise to everyone: the Golden Retriever whose final gesture is not its own exaltation, but the lasting pledge to leave no one behind.</p>
         </blockquote>
 
+        <h2 class="vb-section">10. A thought from homeopathy: the image of being sold</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 2 is assigned the remedy Hyoscyamus niger (Henbane) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). In the language of the repertory its main idea includes the idea of having been sold. In Jesus&rsquo;s life thread the image meets one in the tradition: according to the Gospels he was handed over by one of his disciples, Judas, for thirty pieces of silver, a person who gave himself entirely and was betrayed for it.</p>
+          <p class="vb-intro">In rubrics of this kind, according to the author, only a few remedies are listed. This only says that two images resemble each other. No statements about health or recommendations are attached, and medical or therapeutic advice remains unreplaced.</p>
+        </blockquote>
+
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
@@ -902,6 +909,7 @@ export function jesusChristusPortraitPage() {
         {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
         {route:"beruehmte-mutter-meera", label:"Portrait: Mother Meera (SO2w1)"},
         {route:"beruehmte-julius-caesar", label:"Portrait: Julius Caesar (SO2w3)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagram &amp; Homeopathy"},
       ])}
     </div>
   `);

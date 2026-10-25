@@ -660,6 +660,13 @@ export function hippokratesVonKosPortraitPage() {
           <p style="margin:0.5rem 0 0;font-size:0.85rem;color:var(--muted);">&ndash; Hippocrates of Kos</p>
         </div>
 
+        <h2 class="vb-section">7. A thought from homeopathy: the image of the vow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 4 is assigned the remedy Ignatia amara (St. Ignatius bean) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). In the language of the repertory its main idea includes the idea of breaking a vow (= promise!). In Hippocrates the image stands in the name: the &lsquo;Hippocratic Oath&rsquo;, the best-known medical vow, is attributed to him, although his authorship is not certain. Faithfulness to an obligation that goes beyond one&rsquo;s own advantage is the core of this text.</p>
+          <p class="vb-intro">In rubrics of this kind, according to the author, only a few remedies are listed. It is a juxtaposition of two similar images, nothing more. The text says nothing about health, recommends nothing and does not replace medical or therapeutic advice.</p>
+        </blockquote>
+
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -670,6 +677,7 @@ export function hippokratesVonKosPortraitPage() {
         {route:"beruehmte-heraklit", label:"Portrait: Heraclitus (SO4w5)"},
         {route:"beruehmte-marcel-proust", label:"Portrait: Marcel Proust (SO4w5)"},
         {route:"beruehmte-gustav-mahler", label:"Portrait: Gustav Mahler (SO4w5)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagram &amp; Homeopathy"},
       ])}
     </div>
   `);

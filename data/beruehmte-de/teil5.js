@@ -1075,6 +1075,13 @@ export function leonardCohenPortraitPage() {
           <p class="vb-intro">Das Gürteltier zieht sich in seinen Panzer zurück, wenn es verletzlich ist, und tritt hervor, wenn es gebraucht wird. Leonard Cohens Weg vom schüchternen, depressiven Jungen aus Montreal über sechs Jahre klösterlicher Stille bis zur triumphalen Welttournee im hohen Alter zeigt genau dieses Muster: ein Leben, das zwischen Rückzug und Bühne pendelte, und aus genau diesem Pendeln eine der eindringlichsten Stimmen des 20. Jahrhunderts machte.</p>
         </blockquote>
 
+        <h2 class="vb-section">6. Ein Gedanke aus der Homöopathie: das Bild vom Gelübde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 4 das Mittel Ignatia amara (Ignatiusbohne) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seiner Hauptvorstellung gehört in der Repertoriumssprache die Vorstellung, ein Gelübde (= Versprechen!) zu brechen. Bei Cohen begegnet das Bild als Weg: Mitte der 1990er-Jahre zog er sich in ein Zen-Zentrum auf dem Mount Baldy bei Los Angeles zurück, wurde 1996 als Mönch ordiniert und verließ das Kloster 1999 wieder. In seinen Texten kehren Treue, Schuld und gebrochene Versprechen immer wieder.</p>
+          <p class="vb-intro">In Rubriken dieser Art stehen nach Angabe des Autors nur wenige Mittel. Gemeint ist ein Vergleich von Bildern. Er enthält keine Aussage über den Gesundheitszustand eines Menschen, keine Empfehlung und keinen Ersatz für Beratung durch Ärzte oder Heilkundige.</p>
+        </blockquote>
+
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -1089,6 +1096,7 @@ export function leonardCohenPortraitPage() {
         {route:"bibel-thomas", label:"Bibel-Porträt: Thomas (SO4w5)"},
         {route:"krankheitsportraets-leonard-cohen", label:"Krankheitsporträt: Leonard Cohen (SO4w5)"},
         {route:"beruehmte-benny-safdie", label:"Porträt: Benny Safdie (SO4w5)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagramm &amp; Homöopathie"},
       ])}
     </div>
   `);
@@ -1909,6 +1917,13 @@ export function williamShakespearePortraitPage() {
           <p class="vb-intro">Sein archetypisches Tier, der Waschbär, trifft die Sache genau: Aus stiller, disziplinierter Arbeit heraus schuf er eines der einflussreichsten Werke der Weltliteratur &ndash; und seine Unauffälligkeit war so vollständig, dass die Nachwelt bis heute eher an einen anderen Autor glaubt als an die schlichte Tatsache, dass ein unscheinbarer Mann aus Stratford genau das leisten konnte.</p>
         </blockquote>
 
+        <h2 class="vb-section">7. Ein Gedanke aus der Homöopathie: das Bild des Unsichtbaren</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 3 das Mittel Tarantula hispanica (Spanische Tarantel) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seiner Hauptvorstellung gehört in der Repertoriumssprache die Vorstellung von unsichtbaren Dingen. Bei Shakespeare erscheint das Bild in seinen Stücken: der Geist von Hamlets Vater, die Hexen in ›Macbeth‹, der Geist Banquos, den nur Macbeth sieht. Der Dichter der Bühne, die vom Sichtbaren lebt, holt Unsichtbares auf die Szene.</p>
+          <p class="vb-intro">In Rubriken dieser Art stehen nach Angabe des Autors nur wenige Mittel. Damit ist nur gesagt, dass zwei Bilder einander gleichen. Gesundheitliche Aussagen oder Empfehlungen sind damit nicht verbunden, und eine ärztliche oder heilkundliche Beratung bleibt unersetzt.</p>
+        </blockquote>
+
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -1920,6 +1935,7 @@ export function williamShakespearePortraitPage() {
         {route:"beruehmte-sterling-north", label:"Porträt: Sterling North (SE3w4)"},
         {route:"beruehmte-tony-shalhoub", label:"Porträt: Tony Shalhoub (SE3w4)"},
         {route:"beruehmte-anna-anderson", label:"Porträt: Anna Anderson (SE3w4)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagramm &amp; Homöopathie"},
       ])}
     </div>
   `);

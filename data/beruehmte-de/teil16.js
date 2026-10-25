@@ -3618,6 +3618,13 @@ export function eleanorRooseveltPortraitPage() {
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
+        <h2 class="vb-section">7. Ein Gedanke aus der Homöopathie: das Bild vom Wicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 9 das Mittel Cannabis indica (Indischer Hanf) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seiner Hauptvorstellung gehört in der Repertoriumssprache die Vorstellung, ein Gnom oder Wicht zu sein. Bei Eleanor Roosevelt begegnet das Bild in der Kindheit: Sie verlor früh Mutter und Vater, wuchs bei der Großmutter auf, und ihre Mutter nannte sie wegen ihres ernsten Wesens ›Granny‹. Sie erlebte sich als Kind unscheinbar und klein.</p>
+          <p class="vb-intro">In dieser Rubrik steht nach dem Repertorium des Autors nur ein einziges Mittel, Cannabis indica. Es ist eine Gegenüberstellung zweier ähnlicher Bilder, mehr nicht. Der Text sagt nichts über Gesundheit, empfiehlt nichts und ersetzt keine ärztliche oder heilkundliche Beratung.</p>
+        </blockquote>
+
+
       </div>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
@@ -3627,6 +3634,7 @@ export function eleanorRooseveltPortraitPage() {
         {route:"beruehmte-dalai-lama", label:"Porträt: Dalai Lama XIV. (SO9w1) – derselbe Subtyp"},
         {route:"krankheitsportraets-eleanor-roosevelt", label:"Krankheitsporträt: Eleanor Roosevelt (SO9w1)"},
         {route:"beruehmte-maria-treben", label:"Porträt: Maria Treben (SO9w1)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagramm &amp; Homöopathie"},
       ])}
     </div>
   `);

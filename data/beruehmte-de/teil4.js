@@ -891,6 +891,13 @@ export function jesusChristusPortraitPage() {
           <p class="vb-intro">Die Auferstehung schlie\u00dft diesen Kreis: aus Sterblichkeit wird, in der christlichen Erz\u00e4hlung, Unsterblichkeit. F\u00fcr die soziale Zwei ist das die letzte und gr\u00f6\u00dfte Konsequenz ihrer Logik &ndash; die Gemeinschaft, f\u00fcr die sie lebte und starb, erh\u00e4lt die Zusicherung, dass die Verbindung \u00fcber den Tod hinaus bestehen bleibt. Kein privates Wunder, sondern, in der Lesart des Neuen Testaments, ein Versprechen an alle: Der Golden Retriever, dessen letzte Geste nicht die eigene Erh\u00f6hung ist, sondern die bleibende Zusage, niemanden zur\u00fcckzulassen.</p>
         </blockquote>
 
+        <h2 class="vb-section">10. Ein Gedanke aus der Homöopathie: das Bild vom Verkauftwerden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 2 das Mittel Hyoscyamus niger (Bilsenkraut) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seiner Hauptvorstellung gehört in der Repertoriumssprache die Vorstellung, verkauft worden zu sein. Im Lebensfaden von Jesus begegnet das Bild in der Überlieferung: Nach den Evangelien wurde er von einem seiner Jünger, Judas, für dreißig Silberlinge ausgeliefert, ein Mensch, der sich ganz hingab und dafür verraten wurde.</p>
+          <p class="vb-intro">In Rubriken dieser Art stehen nach Angabe des Autors nur wenige Mittel. Damit ist nur gesagt, dass zwei Bilder einander gleichen. Gesundheitliche Aussagen oder Empfehlungen sind damit nicht verbunden, und eine ärztliche oder heilkundliche Beratung bleibt unersetzt.</p>
+        </blockquote>
+
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -902,6 +909,7 @@ export function jesusChristusPortraitPage() {
         {route:"beruehmte-barack-obama", label:"Portr\u00e4t: Barack Obama (SO2w1)"},
         {route:"beruehmte-mutter-meera", label:"Portr\u00e4t: Mutter Meera (SO2w1)"},
         {route:"beruehmte-julius-caesar", label:"Porträt: Julius Caesar (SO2w3)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagramm &amp; Homöopathie"},
       ])}
     </div>
   `);

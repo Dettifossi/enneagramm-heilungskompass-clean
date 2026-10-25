@@ -463,6 +463,13 @@ export function fjodorDostojewskiPortraitPage() {
           <p class="vb-intro">He died in 1881 in St. Petersburg, celebrated as one of Russia&#39;s greatest writers, reconciled with the faith he had reclaimed for himself in Siberia. The rabbit who once stood before the firing squad had learned: security does not come from escaping fear &ndash; but from looking it so deeply in the face that it becomes a truth one can share with others.</p>
         </blockquote>
 
+        <h2 class="vb-section">7. A thought from homeopathy: the image of execution</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 6 is assigned the remedy Opium (Opium) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). In the language of the repertory its main idea includes the idea of that people want to execute her or him. In Dostoevsky the image became reality: on 22 December 1849 he was led with other members of the Petrashevsky Circle to Semyonovsky Square in St. Petersburg, stood before the firing squad, and only at the last moment was the execution called off. Four years of forced labor in Omsk followed.</p>
+          <p class="vb-intro">In rubrics of this kind, according to the author, only a few remedies are listed. This only says that two images resemble each other. No statements about health or recommendations are attached, and medical or therapeutic advice remains unreplaced.</p>
+        </blockquote>
+
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -481,6 +488,7 @@ export function fjodorDostojewskiPortraitPage() {
         {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SP6w5)"},
         {route:"beruehmte-mahatma-gandhi", label:"Portrait: Mahatma Gandhi (SP6w5)"},
         {route:"bibel-zachaeus", label:"Bible Portrait: Zacchaeus (SP6w5)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagram &amp; Homeopathy"},
       ])}
     </div>
   `);

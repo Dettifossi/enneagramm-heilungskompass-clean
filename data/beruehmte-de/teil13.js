@@ -463,6 +463,13 @@ export function fjodorDostojewskiPortraitPage() {
           <p class="vb-intro">Er starb 1881 in St. Petersburg, gefeiert als einer der gr\u00f6\u00dften Schriftsteller Russlands, vers\u00f6hnt mit dem Glauben, den er sich in Sibirien zur\u00fcckerobert hatte. Das Kaninchen, das einst vor dem Erschie\u00dfungskommando stand, hatte gelernt: Sicherheit entsteht nicht dadurch, dass man der Angst entkommt &ndash; sondern dadurch, dass man ihr so tief ins Gesicht sieht, dass sie zur Wahrheit wird, die man mit anderen teilen kann.</p>
         </blockquote>
 
+        <h2 class="vb-section">7. Ein Gedanke aus der Homöopathie: das Bild der Hinrichtung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 6 das Mittel Opium (Opium) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seiner Hauptvorstellung gehört in der Repertoriumssprache die Vorstellung, dass Menschen sie oder ihn hinrichten wollen. Bei Dostojewski wurde das Bild Wirklichkeit: Am 22. Dezember 1849 wurde er mit anderen Mitgliedern des Petraschewski-Kreises zum Semjonowski-Platz in St. Petersburg geführt, stand vor dem Erschießungskommando, und erst im letzten Augenblick wurde die Hinrichtung abgesagt. Es folgten vier Jahre Zwangsarbeit in Omsk.</p>
+          <p class="vb-intro">In Rubriken dieser Art stehen nach Angabe des Autors nur wenige Mittel. Damit ist nur gesagt, dass zwei Bilder einander gleichen. Gesundheitliche Aussagen oder Empfehlungen sind damit nicht verbunden, und eine ärztliche oder heilkundliche Beratung bleibt unersetzt.</p>
+        </blockquote>
+
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -481,6 +488,7 @@ export function fjodorDostojewskiPortraitPage() {
         {route:"beruehmte-franz-schubert", label:"Porträt: Franz Schubert (SE6w5)"},
         {route:"beruehmte-mahatma-gandhi", label:"Porträt: Mahatma Gandhi (SE6w5)"},
         {route:"bibel-zachaeus", label:"Bibel-Porträt: Zachäus (SE6w5)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagramm &amp; Homöopathie"},
       ])}
     </div>
   `);

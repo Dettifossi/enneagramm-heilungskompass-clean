@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=370";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=371";
 import { psychogrammErklaerung } from "../data/psychogramme-erklaerung.js?v=2";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -40304,9 +40304,9 @@ function nichtRealeVorstellungenPage() {
     { typ:4, vorstellung:"would break a vow (= promise!)", deutung:"Whoever stays faithful to what is lost and to the ideal can feel bound to an inner promise and have the idea of breaking it by turning toward life. Faithfulness to pain, longing and one's own tragedy belongs to this image.", mittel:"Ignatia amara" },
     { typ:5, vorstellung:"alone in a wilderness", deutung:"Whoever withdraws to be safe can in the end feel utterly alone: entirely on his own, without connection. The idea circles around self-preservation and isolation. According to the author it is a single rubric: in the language of the repertory it is found with this one remedy only.", mittel:"Stramonium" },
     { typ:6, vorstellung:"people would execute him/her", deutung:"Whoever scans the world for dangers can raise the threat to the extreme: they want to destroy me. The idea circles around persecution, distrust and the fear of the judgment of others.", mittel:"Opium" },
-    { typ:7, vorstellung:"would be taken prisoner", deutung:"Whoever needs freedom and variety can experience constraint as captivity: I am being pinned down, I will not get out. The idea circles around loss of mobility and the fear of the pain that freedom was meant to keep away.", mittel:"Belladonna" },
+    { typ:7, vorstellung:"would be taken prisoner", deutung:"Whoever needs freedom and variety can experience constraint as captivity: I am being pinned down, I will not get out. The idea circles around loss of mobility and the fear of the pain that freedom was meant to keep away.", mittel:"Belladonna", rubrik:"In this rubric, according to the author's repertory, only three remedies are listed: Belladonna, Germanium metallicum and Stramonium." },
     { typ:8, vorstellung:"being a prince", deutung:"Whoever embodies strength and justice can work himself into a ruler's role: I am the one to whom rank and respect are due. The idea circles around power, dignity and the protection of what is one's own.", mittel:"Veratrum album" },
-    { typ:9, vorstellung:"being a gnome, a wight", deutung:"Whoever makes himself small to keep the peace can experience himself as tiny and insignificant: I am a wight who does not count. The idea circles around unimportance and the longing not to be a burden.", mittel:"Cannabis indica" },
+    { typ:9, vorstellung:"being a gnome, a wight", deutung:"Whoever makes himself small to keep the peace can experience himself as tiny and insignificant: I am a wight who does not count. The idea circles around unimportance and the longing not to be a burden.", mittel:"Cannabis indica", rubrik:"In this rubric, according to the author's repertory, only a single remedy is listed: Cannabis indica." },
   ];
   return shell(`
     ${pageHeader("nicht-reale-vorstellungen")}
@@ -40338,6 +40338,7 @@ function nichtRealeVorstellungenPage() {
               <div style="font-size:0.88rem;line-height:1.6;display:grid;gap:0.4rem;">
                 <div><span style="font-weight:700;color:var(--muted);">Repertory idea:</span> <em>${r.vorstellung}</em></div>
                 <div><span style="font-weight:700;color:var(--muted);">Interpretation:</span> ${r.deutung}</div>
+                ${r.rubrik ? `<div><span style="font-weight:700;color:var(--muted);">Rubric:</span> ${r.rubrik}</div>` : ""}
                 <div style="font-size:0.78rem;color:var(--muted);">Remedy assigned in this Compass's Enneagram homeopathy: ${r.mittel}</div>
               </div>
             </div>
@@ -40345,11 +40346,16 @@ function nichtRealeVorstellungenPage() {
         </div>
 
         <h2 style="font-size:1.05rem;font-weight:700;margin:2rem 0 1rem;color:var(--ink);">How the Image Shows in Life Stories</h2>
-        <p class="vb-intro">Type 5 lets one read it well: the image of the wilderness meets one in the life threads of <a href="#beruehmte-juliane-koepcke">Juliane Koepcke</a>, <a href="#beruehmte-jean-jacques-rousseau">Jean-Jacques Rousseau</a>, <a href="#beruehmte-hermann-hesse">Hermann Hesse</a>, <a href="#beruehmte-edward-snowden">Edward Snowden</a>, <a href="#beruehmte-hannah-arendt">Hannah Arendt</a>, <a href="#beruehmte-lise-meitner">Lise Meitner</a>, <a href="#beruehmte-blaise-pascal">Blaise Pascal</a> and <a href="#beruehmte-franz-kafka">Franz Kafka</a>. According to the author's observation this experience shows most purely in the self-preservation Five, in whom it is about pure self-preservation.</p>
+        <p class="vb-intro">In the portraits of Famous Personalities one can read how the main idea of a type returns in a life thread, outwardly in events, inwardly in a life theme. According to the author's observation the image of the wilderness shows most purely in the self-preservation Five, in whom it is about pure self-preservation. So far sections exist for these portraits:</p>
+        <ul style="margin:0.6rem 0 0.6rem 1.1rem;line-height:1.8;"><li><strong>Type 2:</strong> <a href="#beruehmte-jesus-christus">Jesus Christus</a>, <a href="#beruehmte-elvis-presley">Elvis Presley</a></li><li><strong>Type 3:</strong> <a href="#beruehmte-harry-houdini">Harry Houdini</a>, <a href="#beruehmte-william-shakespeare">William Shakespeare</a></li><li><strong>Type 4:</strong> <a href="#beruehmte-leonard-cohen">Leonard Cohen</a>, <a href="#beruehmte-hippokrates-von-kos">Hippokrates von Kos</a></li><li><strong>Type 5:</strong> <a href="#beruehmte-juliane-koepcke">Juliane Koepcke</a>, <a href="#beruehmte-jean-jacques-rousseau">Jean-Jacques Rousseau</a>, <a href="#beruehmte-hermann-hesse">Hermann Hesse</a>, <a href="#beruehmte-edward-snowden">Edward Snowden</a>, <a href="#beruehmte-hannah-arendt">Hannah Arendt</a>, <a href="#beruehmte-lise-meitner">Lise Meitner</a>, <a href="#beruehmte-blaise-pascal">Blaise Pascal</a>, <a href="#beruehmte-franz-kafka">Franz Kafka</a></li><li><strong>Type 6:</strong> <a href="#beruehmte-fjodor-dostojewski">Fjodor Dostojewski</a></li><li><strong>Type 7:</strong> <a href="#beruehmte-jeanne-marie-guyon">Madame Guyon</a></li><li><strong>Type 9:</strong> <a href="#beruehmte-eleanor-roosevelt">Eleanor Roosevelt</a></li></ul>
+        <p class="vb-intro">Further portraits for Types 1 and 8 will follow.</p>
 
         <p class="vb-anmerkung" style="margin-top:1rem;font-style:italic;">Important for understanding: the interpretations are offerings by the author; the chart is not a diagnosis or a therapy recommendation and makes no statement about effect or healing. A person has a fixation and with it a main idea, he is not his idea. Whoever recognizes himself in an image can read it as a hint about his own filter. The page does not replace medical or therapeutic advice.</p>
       </div>
 
+      ${bookTip("rathmer-s-repertorium-gebundene-ausgabe", "The world's most comprehensive homeopathic mind repertory – 1568 pages, 20,000 rubrics.", "Rathmer’s Repertorium")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("der-code-deiner-persoenlichkeit", "How the Enneagram type develops &ndash; and what it reveals about our deepest imprints.", "Der Code deiner Persönlichkeit")}
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
       ${relatedLinks([
         {route:"enneagramm-homoeopathie", label:"Enneagram & Homeopathy"},

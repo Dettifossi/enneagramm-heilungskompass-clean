@@ -2667,6 +2667,13 @@ export function harryHoudiniPortraitPage() {
                 src="https://www.youtube.com/embed/E_HHFMSmHCQ?rel=0&playsinline=1"
                 allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy" title="Video: Houdini – bridge jump with handcuff escape (1907)"></iframe>
             </div>
+
+        <h2 class="vb-section">8. A thought from homeopathy: the image of the invisible</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 3 is assigned the remedy Tarantula hispanica (Spanish tarantula) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). In the language of the repertory its main idea includes the idea of invisible things. In Houdini the invisible becomes a life theme: after his mother&rsquo;s death in 1913 he sought contact with the dead, later exposed numerous alleged mediums as a critic of spiritualism and agreed with his wife Bess on a secret code with which he wanted to send a sign after his death. A person who lived from the visible sought the invisible.</p>
+          <p class="vb-intro">In rubrics of this kind, according to the author, only a few remedies are listed. It is a juxtaposition of two similar images, nothing more. The text says nothing about health, recommends nothing and does not replace medical or therapeutic advice.</p>
+        </blockquote>
+
           </div>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -2680,6 +2687,7 @@ export function harryHoudiniPortraitPage() {
         {route:"lebensmusterkompass/so3", label:"Life Pattern Compass: SO3 – Cheetah"},
         {route:"beruehmte-christiaan-barnard", label:"Portrait: Dr. Christiaan Barnard (SO3w2) – same subtype and wing"},
         {route:"beruehmte-ludwig-xiv", label:"Portrait: Louis XIV (SO3w2) – same subtype and wing"},
+        {route:"enneagramm-homoeopathie", label:"Enneagram &amp; Homeopathy"},
       ])}
     </div>
   `);

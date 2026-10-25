@@ -469,6 +469,13 @@ export function elvisPresleyPortraitPage() {
 
         <p class="vb-intro">The decade-long escalating drug dependency and his death in 1977 are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-elvis-presley">Illness Portrait of Elvis</a>.</p>
 
+        <h2 class="vb-section">7. A thought from homeopathy: the image of being sold</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 2 is assigned the remedy Hyoscyamus niger (Henbane) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). In the language of the repertory its main idea includes the idea of having been sold. In Presley the image returns literally: in 1955 his contract was sold by Sun Records to RCA for 35,000 dollars, and his later manager, Colonel Tom Parker, kept a large share of his earnings. A person who gave himself entirely on stage and was marketed by others in the process.</p>
+          <p class="vb-intro">In rubrics of this kind, according to the author, only a few remedies are listed. What is meant is a comparison of images. It contains no statement about anyone&rsquo;s state of health, no recommendation and no substitute for advice from doctors or practitioners.</p>
+        </blockquote>
+
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -483,6 +490,7 @@ export function elvisPresleyPortraitPage() {
         {route:"beruehmte-sammy-davis-jr", label:"Portrait: Sammy Davis Jr. (SX2w3)"},
         {route:"beruehmte-giacomo-casanova", label:"Portrait: Giacomo Casanova (SX2w3)"},
         {route:"beruehmte-mata-hari", label:"Portrait: Mata Hari (SX2w3)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagram &amp; Homeopathy"},
       ])}
     </div>
   `);

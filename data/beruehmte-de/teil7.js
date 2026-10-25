@@ -2618,6 +2618,13 @@ export function harryHoudiniPortraitPage() {
                 src="https://www.youtube.com/embed/E_HHFMSmHCQ?rel=0&playsinline=1"
                 allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy" title="Video: Houdini – Brückensprung mit Handschellen (1907)"></iframe>
             </div>
+
+        <h2 class="vb-section">8. Ein Gedanke aus der Homöopathie: das Bild des Unsichtbaren</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 3 das Mittel Tarantula hispanica (Spanische Tarantel) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seiner Hauptvorstellung gehört in der Repertoriumssprache die Vorstellung von unsichtbaren Dingen. Bei Houdini wird das Unsichtbare zum Lebensthema: Nach dem Tod seiner Mutter 1913 suchte er Kontakt zu Verstorbenen, enttarnte später als Kritiker des Spiritismus zahlreiche angebliche Medien und vereinbarte mit seiner Frau Bess einen geheimen Code, mit dem er nach seinem Tod ein Zeichen senden wollte. Ein Mensch, der vom Sichtbaren lebte, suchte das Unsichtbare.</p>
+          <p class="vb-intro">In Rubriken dieser Art stehen nach Angabe des Autors nur wenige Mittel. Es ist eine Gegenüberstellung zweier ähnlicher Bilder, mehr nicht. Der Text sagt nichts über Gesundheit, empfiehlt nichts und ersetzt keine ärztliche oder heilkundliche Beratung.</p>
+        </blockquote>
+
           </div>
           ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -2631,6 +2638,7 @@ export function harryHoudiniPortraitPage() {
         {route:"lebensmusterkompass/so3", label:"Lebensmusterkompass: SO3 – Gepard"},
         {route:"beruehmte-christiaan-barnard", label:"Porträt: Dr. Christiaan Barnard (SO3w2) – derselbe Subtyp und Flügel"},
         {route:"beruehmte-ludwig-xiv", label:"Porträt: Ludwig XIV. (SO3w2) – derselbe Subtyp und Flügel"},
+        {route:"enneagramm-homoeopathie", label:"Enneagramm &amp; Homöopathie"},
       ])}
     </div>
   `);

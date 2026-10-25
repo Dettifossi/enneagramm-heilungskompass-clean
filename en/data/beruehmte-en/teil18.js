@@ -786,6 +786,13 @@ export function jeanneMarieGuyonPortraitPage() {
           <p class="vb-intro">After her final release in 1703, Guyon spent her last years in seclusion in Blois, still corresponding with spiritual companions across Europe &ndash; no longer persecuted, but not broken either. The Beaver that completed its structure against every resistance: not through counterattack, but through quiet, unshakeable faithfulness to what it believed.</p>
         </blockquote>
 
+        <h2 class="vb-section">7. A thought from homeopathy: the image of capture</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 7 is assigned the remedy Belladonna (Deadly nightshade) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). In the language of the repertory its main idea includes the idea of being taken prisoner. In Madame Guyon the image became reality: in 1695 she was imprisoned at Vincennes, and from 1698 to 1703 she was held in the Bastille because her teaching was considered dangerous. A woman who sought inner freedom lost the outer one.</p>
+          <p class="vb-intro">In this rubric, according to the author&rsquo;s repertory, only three remedies are listed: Belladonna, Germanium metallicum and Stramonium. What is meant is a comparison of images. It contains no statement about anyone&rsquo;s state of health, no recommendation and no substitute for advice from doctors or practitioners.</p>
+        </blockquote>
+
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
@@ -795,6 +802,7 @@ export function jeanneMarieGuyonPortraitPage() {
         {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
         {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6)"},
         {route:"beruehmte-johann-wolfgang-von-goethe", label:"Portrait: Johann Wolfgang von Goethe (SO7w6)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagram &amp; Homeopathy"},
       ])}
     </div>
   `);

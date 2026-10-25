@@ -469,6 +469,13 @@ export function elvisPresleyPortraitPage() {
 
         <p class="vb-intro">Die über ein Jahrzehnt eskalierende Medikamentenabhängigkeit und sein Tod 1977 werden ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-elvis-presley">Krankheitsporträt zu Elvis</a> gedeutet.</p>
 
+        <h2 class="vb-section">7. Ein Gedanke aus der Homöopathie: das Bild vom Verkauftwerden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 2 das Mittel Hyoscyamus niger (Bilsenkraut) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seiner Hauptvorstellung gehört in der Repertoriumssprache die Vorstellung, verkauft worden zu sein. Bei Presley kehrt das Bild buchstäblich wieder: 1955 wurde sein Vertrag von Sun Records für 35.000 Dollar an RCA verkauft, und sein späterer Manager, Colonel Tom Parker, behielt einen großen Teil seiner Einnahmen. Ein Mensch, der sich auf der Bühne ganz verschenkte und dabei von anderen vermarktet wurde.</p>
+          <p class="vb-intro">In Rubriken dieser Art stehen nach Angabe des Autors nur wenige Mittel. Gemeint ist ein Vergleich von Bildern. Er enthält keine Aussage über den Gesundheitszustand eines Menschen, keine Empfehlung und keinen Ersatz für Beratung durch Ärzte oder Heilkundige.</p>
+        </blockquote>
+
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -483,6 +490,7 @@ export function elvisPresleyPortraitPage() {
         {route:"beruehmte-sammy-davis-jr", label:"Porträt: Sammy Davis Jr. (SX2w3)"},
         {route:"beruehmte-giacomo-casanova", label:"Porträt: Giacomo Casanova (SX2w3)"},
         {route:"beruehmte-mata-hari", label:"Porträt: Mata Hari (SX2w3)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagramm &amp; Homöopathie"},
       ])}
     </div>
   `);

@@ -1075,6 +1075,13 @@ export function leonardCohenPortraitPage() {
           <p class="vb-intro">The armadillo curls into its shell when vulnerable, and emerges when needed. Leonard Cohen's path from a shy, depressed boy in Montreal, through six years of monastic silence, to a triumphant world tour late in life shows exactly this pattern: a life that swung between retreat and stage, and turned that very swing into one of the most haunting voices of the 20th century.</p>
         </blockquote>
 
+        <h2 class="vb-section">6. A thought from homeopathy: the image of the vow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 4 is assigned the remedy Ignatia amara (St. Ignatius bean) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). In the language of the repertory its main idea includes the idea of breaking a vow (= promise!). In Cohen the image meets one as a path: in the mid-1990s he withdrew to a Zen center on Mount Baldy near Los Angeles, was ordained as a monk in 1996 and left the monastery again in 1999. In his lyrics faithfulness, guilt and broken promises recur again and again.</p>
+          <p class="vb-intro">In rubrics of this kind, according to the author, only a few remedies are listed. What is meant is a comparison of images. It contains no statement about anyone&rsquo;s state of health, no recommendation and no substitute for advice from doctors or practitioners.</p>
+        </blockquote>
+
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
@@ -1089,6 +1096,7 @@ export function leonardCohenPortraitPage() {
         {route:"bibel-thomas", label:"Bible Portrait: Thomas (SO4w5)"},
         {route:"krankheitsportraets-leonard-cohen", label:"Illness Portrait: Leonard Cohen (SO4w5)"},
         {route:"beruehmte-benny-safdie", label:"Portrait: Benny Safdie (SO4w5)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagram &amp; Homeopathy"},
       ])}
     </div>
   `);
@@ -1848,6 +1856,13 @@ export function williamShakespearePortraitPage() {
           <p class="vb-intro">His archetypal animal, the raccoon, captures him precisely: through quiet, disciplined work he created one of the most influential works in world literature &ndash; and his inconspicuousness was so complete that posterity still, to this day, more readily believes in a different author than in the simple fact that an unremarkable man from Stratford could achieve exactly that.</p>
         </blockquote>
 
+        <h2 class="vb-section">7. A thought from homeopathy: the image of the invisible</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 3 is assigned the remedy Tarantula hispanica (Spanish tarantula) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). In the language of the repertory its main idea includes the idea of invisible things. In Shakespeare the image appears in his plays: the ghost of Hamlet&rsquo;s father, the witches in &lsquo;Macbeth&rsquo;, Banquo&rsquo;s ghost, whom only Macbeth sees. The poet of the stage, which lives from the visible, brings the invisible onto the scene.</p>
+          <p class="vb-intro">In rubrics of this kind, according to the author, only a few remedies are listed. This only says that two images resemble each other. No statements about health or recommendations are attached, and medical or therapeutic advice remains unreplaced.</p>
+        </blockquote>
+
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -1859,6 +1874,7 @@ export function williamShakespearePortraitPage() {
         {route:"beruehmte-sterling-north", label:"Portrait: Sterling North (SP3w4)"},
         {route:"beruehmte-tony-shalhoub", label:"Portrait: Tony Shalhoub (SP3w4)"},
         {route:"beruehmte-anna-anderson", label:"Portrait: Anna Anderson (SP3w4)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagram &amp; Homeopathy"},
       ])}
     </div>
   `);
