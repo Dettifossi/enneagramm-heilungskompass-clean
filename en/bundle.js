@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=381";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=382";
 import { psychogrammErklaerung } from "../data/psychogramme-erklaerung.js?v=2";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -40339,7 +40339,7 @@ function wahnideenNichtRealeVorstellungenPage() {
             <div style="font-size:0.9rem;line-height:1.65;display:grid;gap:0.45rem;">
               <div><span style="font-weight:700;color:var(--muted);">Repertory idea:</span> <em>of superiority</em></div>
               <div><span style="font-weight:700;color:var(--muted);">In Kent:</span> &ldquo;superiority&rdquo;: exactly one remedy: Platinum metallicum.</div>
-              <div>For the One the inner standard is sacred: there is a right way, and the One knows what it looks like. Where this standard becomes certainty, a feeling of being superior to others can creep in: I know better, I am in the right. Kent&rsquo;s Repertory also knows the idea &ldquo;humility and lowness of others, while he is great&rdquo; (Platinum metallicum and Staphisagria). This superiority is that of the standard, not that of power.</div>
+              <div>For the One the inner standard is sacred: there is a right way, and the One knows what it looks like. Where this standard becomes certainty, a feeling of being superior to others can creep in: I know better, I am in the right. Kent&rsquo;s Repertory also knows the idea &ldquo;humility and lowness of others, while he is great&rdquo; (Platinum metallicum and Staphisagria). Added to this is &ldquo;appreciated, that she is not&rdquo; (Palladium and Platinum metallicum): whoever does the right thing feels not recognized for it. This superiority is that of the standard, not that of power.</div>
               <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">In life threads:</span> <a href="#beruehmte-marcel-reich-ranicki">Marcel Reich-Ranicki</a>, <a href="#beruehmte-steve-jobs">Steve Jobs</a></div>
               <div style="font-size:0.78rem;color:var(--muted);">Remedy assigned in this Compass&rsquo;s Enneagram homeopathy: Platinum metallicum</div>
             </div>
@@ -40352,7 +40352,7 @@ function wahnideenNichtRealeVorstellungenPage() {
             <div style="font-size:0.9rem;line-height:1.65;display:grid;gap:0.45rem;">
               <div><span style="font-weight:700;color:var(--muted);">Repertory idea:</span> <em>of having been sold</em></div>
               <div><span style="font-weight:700;color:var(--muted);">In Kent:</span> &ldquo;sold, as if would be&rdquo;: exactly one remedy: Hyoscyamus niger.</div>
-              <div>The Two gives itself: attention, help, closeness. The idea of having been sold takes this devotion at its word and turns it around. Whoever has given everything feels given away in the end, used, made a commodity. Behind the image stands the fear of not being seen for one&rsquo;s giving but exploited. In the chapter &ldquo;Delirium&rdquo; Kent also lists &ldquo;wedding, prepares for&rdquo; (Hyoscyamus niger as the only remedy). Behind it stands the deep longing for connection and love that is so typical of the Two, the overdeveloped heart energy of this type.</div>
+              <div>The Two gives itself: attention, help, closeness. The idea of having been sold takes this devotion at its word and turns it around. Whoever has given everything feels given away in the end, used, made a commodity. Behind the image stands the fear of not being seen for one&rsquo;s giving but exploited. In the chapter &ldquo;Delirium&rdquo; Kent also lists &ldquo;wedding, prepares for&rdquo; (Hyoscyamus niger as the only remedy). Behind it stands the deep longing for connection and love that is so typical of the Two, the overdeveloped heart energy of this type. Added to this is &ldquo;wife is faithless&rdquo; (Hyoscyamus niger and Stramonium), the fear of losing the other&rsquo;s attention.</div>
               <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">In life threads:</span> <a href="#beruehmte-jesus-christus">Jesus Christus</a>, <a href="#beruehmte-elvis-presley">Elvis Presley</a></div>
               <div style="font-size:0.78rem;color:var(--muted);">Remedy assigned in this Compass&rsquo;s Enneagram homeopathy: Hyoscyamus niger</div>
             </div>
@@ -40417,7 +40417,7 @@ function wahnideenNichtRealeVorstellungenPage() {
             <div style="font-size:0.9rem;line-height:1.65;display:grid;gap:0.45rem;">
               <div><span style="font-weight:700;color:var(--muted);">Repertory idea:</span> <em>would be taken prisoner</em></div>
               <div><span style="font-weight:700;color:var(--muted);">In Kent:</span> &ldquo;caught, as if he would be&rdquo;: exactly one remedy: Belladonna.</div>
-              <div>The Seven needs freedom, variety and movement. It experiences constraint as captivity: I am being pinned down, I will not get out. Behind the image stands the fear of the pain that freedom was meant to keep away. The related rubric &ldquo;arrested, is about to be&rdquo; lists eight remedies in Kent, among them Belladonna.</div>
+              <div>The Seven needs freedom, variety and movement. It experiences constraint as captivity: I am being pinned down, I will not get out. Behind the image stands the fear of the pain that freedom was meant to keep away. The related rubric &ldquo;arrested, is about to be&rdquo; lists eight remedies in Kent, among them Belladonna. Alongside, Kent lists &ldquo;dreaming when awake, imagines himself&rdquo; (Belladonna only) and &ldquo;juggler, thinks himself a&rdquo; (Belladonna only), images of fantasy and play in which the Seven lives.</div>
               <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">In life threads:</span> <a href="#beruehmte-jeanne-marie-guyon">Madame Guyon</a></div>
               <div style="font-size:0.78rem;color:var(--muted);">Remedy assigned in this Compass&rsquo;s Enneagram homeopathy: Belladonna</div>
             </div>
@@ -40430,7 +40430,7 @@ function wahnideenNichtRealeVorstellungenPage() {
             <div style="font-size:0.9rem;line-height:1.65;display:grid;gap:0.45rem;">
               <div><span style="font-weight:700;color:var(--muted);">Repertory idea:</span> <em>being a prince</em></div>
               <div><span style="font-weight:700;color:var(--muted);">In Kent:</span> &ldquo;prince, is a&rdquo;: exactly one remedy: Veratrum album.</div>
-              <div>The Eight radiates natural, self-confident power: it decides, it leads, it protects what is its own. Where this power becomes dominance, the image of the prince stands: I am the one who decides here, I have power over you. It is about the matter-of-course self-assurance of the Eight and its overflowing presence and strength. Related in Kent is &ldquo;distinguished&rdquo; (Stramonium and Veratrum album). This does not refer to the superiority of Type 1: there it is about the standard, here about power.</div>
+              <div>The Eight radiates natural, self-confident power: it decides, it leads, it protects what is its own. Where this power becomes dominance, the image of the prince stands: I am the one who decides here, I have power over you. It is about the matter-of-course self-assurance of the Eight and its overflowing presence and strength. Related in Kent is &ldquo;distinguished&rdquo; (Stramonium and Veratrum album), plus &ldquo;rank, thinks himself a person of&rdquo; (Cuprum, Phosphorus and Veratrum album) and &ldquo;hunter, thinks he is a&rdquo; (Cannabis indica and Veratrum album). This does not refer to the superiority of Type 1: there it is about the standard, here about power.</div>
               <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">In life threads:</span> <a href="#beruehmte-gerhard-schroeder">Gerhard Schröder</a>, <a href="#beruehmte-helmut-kohl">Helmut Kohl</a>, <a href="#beruehmte-franz-josef-strauss">Franz Josef Strauß</a>, <a href="#beruehmte-john-wayne">John Wayne</a></div>
               <div style="font-size:0.78rem;color:var(--muted);">Remedy assigned in this Compass&rsquo;s Enneagram homeopathy: Veratrum album</div>
             </div>
