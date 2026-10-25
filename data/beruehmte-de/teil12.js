@@ -2341,7 +2341,7 @@ export function vincenzoCalifanoPortraitPage() {
         <h2 class="vb-section">2. Die soziale Drei: Ansehen in der Gemeinschaft der Suchenden</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Bei der <strong>sozialen Drei (SO3)</strong> bestimmt das Ansehen in der Gemeinschaft das Handeln, und Claudio Naranjo nannte das Prestige. Bei Califano zeigt sich das darin, dass er sich einen Platz in der deutschsprachigen Szene der nichtdualen Lehrer erarbeitet hat: Er hält regelmäßig Satsangs, ist in Verzeichnissen wie Jetzt-TV gelistet und tritt öffentlich auf. Sein Angebot ist klar gegliedert: eine „8 Wochen Begleitung 1:1", Einzelsitzungen, eine feste Mitgliedschaft („Inner Circle"), buchbare Tagesevents mit konkretem Datum und Countdown auf der eigenen Website.</p>
-          <p class="vb-intro">Das ist soziale Drei in einem Feld, das sich traditionell eher gegen Struktur sträubt: Selbst die Lehre von der radikalen Auflösung des suchenden Selbst wird bei Califano in ein verlässliches, wiederholbares System übersetzt, das in einer Gemeinschaft von Teilnehmenden gelebt wird – Kompetenz und Verbindlichkeit als Fundament, Sichtbarkeit in der Szene als Ergebnis.</p>
+          <p class="vb-intro">Das ist die soziale Drei in einem Feld, das sich traditionell eher gegen Struktur sträubt: Selbst die Lehre von der radikalen Auflösung des suchenden Selbst wird bei Califano in ein verlässliches, wiederholbares System übersetzt, das in einer Gemeinschaft von Teilnehmenden gelebt wird – Kompetenz und Verbindlichkeit als Fundament, Sichtbarkeit in der Szene als Ergebnis.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Zweierflügel: Begleitung als eigentlicher Antrieb</h2>
