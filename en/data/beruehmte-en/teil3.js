@@ -666,7 +666,7 @@ export function helmutKohlPortraitPage() {
         <h2 class="vb-section">7. A thought from homeopathy: the image of the prince</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 8 is assigned the remedy Veratrum album (White hellebore) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). In the language of the repertory its main idea includes the idea of being a prince. This is not superiority in the sense of the standard as in Type 1 but one of power: I hold the leading position here, I am the one who decides. In Kohl it shows in the duration and style of his power: he was CDU chairman from 1973 to 1998 and Federal Chancellor from 1982 to 1998, secured by an informal network cultivated over decades.</p>
-          <p class="vb-intro">In rubrics of this kind, according to the author, only a few remedies are listed. This only says that two images resemble each other. No statements about health or recommendations are attached, and medical or therapeutic advice remains unreplaced.</p>
+          <p class="vb-intro">In Kent&rsquo;s Repertory exactly one remedy is listed in the rubric &ldquo;prince, is a&rdquo;: Veratrum album. This only says that two images resemble each other. No statements about health or recommendations are attached, and medical or therapeutic advice remains unreplaced.</p>
         </blockquote>
 
 
@@ -2499,7 +2499,7 @@ export function franzJosefStraussPortraitPage() {
         <h2 class="vb-section">7. A thought from homeopathy: the image of the prince</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 8 is assigned the remedy Veratrum album (White hellebore) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). In the language of the repertory its main idea includes the idea of being a prince. This is not superiority in the sense of the standard as in Type 1 but one of power: I hold the leading position here, I am the one who decides. In Strauß it shows in his position in Bavaria: over decades he consolidated his power in the party, was CSU chairman from 1961 to 1988 and Minister-President of Bavaria from 1978 to 1988.</p>
-          <p class="vb-intro">In rubrics of this kind, according to the author, only a few remedies are listed. What is meant is a comparison of images. It contains no statement about anyone&rsquo;s state of health, no recommendation and no substitute for advice from doctors or practitioners.</p>
+          <p class="vb-intro">In Kent&rsquo;s Repertory exactly one remedy is listed in the rubric &ldquo;prince, is a&rdquo;: Veratrum album. What is meant is a comparison of images. It contains no statement about anyone&rsquo;s state of health, no recommendation and no substitute for advice from doctors or practitioners.</p>
         </blockquote>
 
 

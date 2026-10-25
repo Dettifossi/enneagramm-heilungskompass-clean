@@ -894,7 +894,7 @@ export function jesusChristusPortraitPage() {
         <h2 class="vb-section">10. A thought from homeopathy: the image of being sold</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 2 is assigned the remedy Hyoscyamus niger (Henbane) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). In the language of the repertory its main idea includes the idea of having been sold. In Jesus&rsquo;s life thread the image meets one in the tradition: according to the Gospels he was handed over by one of his disciples, Judas, for thirty pieces of silver, a person who gave himself entirely and was betrayed for it.</p>
-          <p class="vb-intro">In rubrics of this kind, according to the author, only a few remedies are listed. This only says that two images resemble each other. No statements about health or recommendations are attached, and medical or therapeutic advice remains unreplaced.</p>
+          <p class="vb-intro">In Kent&rsquo;s Repertory exactly one remedy is listed in the rubric &ldquo;sold, as if would be&rdquo;: Hyoscyamus niger. This only says that two images resemble each other. No statements about health or recommendations are attached, and medical or therapeutic advice remains unreplaced.</p>
         </blockquote>
 
 

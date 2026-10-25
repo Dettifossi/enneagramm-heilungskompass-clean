@@ -663,7 +663,7 @@ export function hippokratesVonKosPortraitPage() {
         <h2 class="vb-section">7. A thought from homeopathy: the image of the vow</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 4 is assigned the remedy Ignatia amara (St. Ignatius bean) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). In the language of the repertory its main idea includes the idea of breaking a vow (= promise!). In Hippocrates the image stands in the name: the &lsquo;Hippocratic Oath&rsquo;, the best-known medical vow, is attributed to him, although his authorship is not certain. Faithfulness to an obligation that goes beyond one&rsquo;s own advantage is the core of this text.</p>
-          <p class="vb-intro">In rubrics of this kind, according to the author, only a few remedies are listed. It is a juxtaposition of two similar images, nothing more. The text says nothing about health, recommends nothing and does not replace medical or therapeutic advice.</p>
+          <p class="vb-intro">In Kent&rsquo;s Repertory exactly one remedy is listed in the rubric &ldquo;vow, that she is breaking her&rdquo;: Ignatia amara. It is a juxtaposition of two similar images, nothing more. The text says nothing about health, recommends nothing and does not replace medical or therapeutic advice.</p>
         </blockquote>
 
 

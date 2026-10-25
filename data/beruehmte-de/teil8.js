@@ -733,7 +733,7 @@ export function hippokratesVonKosPortraitPage() {
         <h2 class="vb-section">7. Ein Gedanke aus der Homöopathie: das Bild vom Gelübde</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 4 das Mittel Ignatia amara (Ignatiusbohne) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seiner Hauptvorstellung gehört in der Repertoriumssprache die Vorstellung, ein Gelübde (= Versprechen!) zu brechen. Bei Hippokrates steht das Bild im Namen: Der ›Eid des Hippokrates‹, das bekannteste ärztliche Gelöbnis, wird ihm zugeschrieben, seine Verfasserschaft ist allerdings nicht gesichert. Treue zu einer Verpflichtung, die über den eigenen Vorteil hinausgeht, ist der Kern dieses Textes.</p>
-          <p class="vb-intro">In Rubriken dieser Art stehen nach Angabe des Autors nur wenige Mittel. Es ist eine Gegenüberstellung zweier ähnlicher Bilder, mehr nicht. Der Text sagt nichts über Gesundheit, empfiehlt nichts und ersetzt keine ärztliche oder heilkundliche Beratung.</p>
+          <p class="vb-intro">In Kents Repertorium steht in der Rubrik ›vow, that she is breaking her‹ genau ein Mittel: Ignatia amara. Es ist eine Gegenüberstellung zweier ähnlicher Bilder, mehr nicht. Der Text sagt nichts über Gesundheit, empfiehlt nichts und ersetzt keine ärztliche oder heilkundliche Beratung.</p>
         </blockquote>
 
 

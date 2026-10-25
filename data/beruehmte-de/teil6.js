@@ -472,7 +472,7 @@ export function elvisPresleyPortraitPage() {
         <h2 class="vb-section">7. Ein Gedanke aus der Homöopathie: das Bild vom Verkauftwerden</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 2 das Mittel Hyoscyamus niger (Bilsenkraut) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seiner Hauptvorstellung gehört in der Repertoriumssprache die Vorstellung, verkauft worden zu sein. Bei Presley kehrt das Bild buchstäblich wieder: 1955 wurde sein Vertrag von Sun Records für 35.000 Dollar an RCA verkauft, und sein späterer Manager, Colonel Tom Parker, behielt einen großen Teil seiner Einnahmen. Ein Mensch, der sich auf der Bühne ganz verschenkte und dabei von anderen vermarktet wurde.</p>
-          <p class="vb-intro">In Rubriken dieser Art stehen nach Angabe des Autors nur wenige Mittel. Gemeint ist ein Vergleich von Bildern. Er enthält keine Aussage über den Gesundheitszustand eines Menschen, keine Empfehlung und keinen Ersatz für Beratung durch Ärzte oder Heilkundige.</p>
+          <p class="vb-intro">In Kents Repertorium steht in der Rubrik ›sold, as if would be‹ genau ein Mittel: Hyoscyamus niger. Gemeint ist ein Vergleich von Bildern. Er enthält keine Aussage über den Gesundheitszustand eines Menschen, keine Empfehlung und keinen Ersatz für Beratung durch Ärzte oder Heilkundige.</p>
         </blockquote>
 
 

@@ -666,7 +666,7 @@ export function helmutKohlPortraitPage() {
         <h2 class="vb-section">7. Ein Gedanke aus der Homöopathie: das Bild des Prinzen</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 8 das Mittel Veratrum album (Weißer Germer) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seiner Hauptvorstellung gehört in der Repertoriumssprache die Vorstellung, ein Prinz zu sein. Gemeint ist keine Überlegenheit im Sinn des Maßstabs wie beim Typ 1, sondern eine der Macht: Ich habe hier die Vormachtstellung, ich bin derjenige, der entscheidet. Bei Kohl zeigt sich das in der Dauer und im Stil seiner Macht: Er war von 1973 bis 1998 CDU-Vorsitzender und von 1982 bis 1998 Bundeskanzler, abgesichert durch ein über Jahrzehnte gepflegtes informelles Netzwerk.</p>
-          <p class="vb-intro">In Rubriken dieser Art stehen nach Angabe des Autors nur wenige Mittel. Damit ist nur gesagt, dass zwei Bilder einander gleichen. Gesundheitliche Aussagen oder Empfehlungen sind damit nicht verbunden, und eine ärztliche oder heilkundliche Beratung bleibt unersetzt.</p>
+          <p class="vb-intro">In Kents Repertorium steht in der Rubrik ›prince, is a‹ genau ein Mittel: Veratrum album. Damit ist nur gesagt, dass zwei Bilder einander gleichen. Gesundheitliche Aussagen oder Empfehlungen sind damit nicht verbunden, und eine ärztliche oder heilkundliche Beratung bleibt unersetzt.</p>
         </blockquote>
 
 

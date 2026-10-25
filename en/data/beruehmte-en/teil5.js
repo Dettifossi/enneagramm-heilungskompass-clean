@@ -1078,7 +1078,7 @@ export function leonardCohenPortraitPage() {
         <h2 class="vb-section">6. A thought from homeopathy: the image of the vow</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 4 is assigned the remedy Ignatia amara (St. Ignatius bean) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). In the language of the repertory its main idea includes the idea of breaking a vow (= promise!). In Cohen the image meets one as a path: in the mid-1990s he withdrew to a Zen center on Mount Baldy near Los Angeles, was ordained as a monk in 1996 and left the monastery again in 1999. In his lyrics faithfulness, guilt and broken promises recur again and again.</p>
-          <p class="vb-intro">In rubrics of this kind, according to the author, only a few remedies are listed. What is meant is a comparison of images. It contains no statement about anyone&rsquo;s state of health, no recommendation and no substitute for advice from doctors or practitioners.</p>
+          <p class="vb-intro">In Kent&rsquo;s Repertory exactly one remedy is listed in the rubric &ldquo;vow, that she is breaking her&rdquo;: Ignatia amara. What is meant is a comparison of images. It contains no statement about anyone&rsquo;s state of health, no recommendation and no substitute for advice from doctors or practitioners.</p>
         </blockquote>
 
 
@@ -1776,7 +1776,7 @@ export function hannahArendtPortraitPage() {
 
         <h2 class="vb-section">7. A thought from homeopathy: the image of the wilderness</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 5 is assigned the remedy Stramonium (thorn apple) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). Its remedy picture includes the idea of being utterly alone in the wilderness. In the technical language of homeopathy this is a single rubric: the idea is found with this one remedy only. In Arendt the image carries less wilderness than abandonment: in 1933 she fled Germany, in 1940 she was interned in the Gurs camp and escaped, in 1941 she reached New York, and for many years she was stateless. &lsquo;Verlassenheit&rsquo; (abandonment), the experience of being forsaken by all people, she herself made a basic concept of her thinking.</p>
+          <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 5 is assigned the remedy Stramonium (thorn apple) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). Its remedy picture includes the idea of being utterly alone in the wilderness. In the technical language of homeopathy this is a single rubric: the idea is found with this one remedy only. In Kent&rsquo;s Repertory it stands under &ldquo;alone &hellip; in a wilderness&rdquo; with Stramonium as the only remedy. In Arendt the image carries less wilderness than abandonment: in 1933 she fled Germany, in 1940 she was interned in the Gurs camp and escaped, in 1941 she reached New York, and for many years she was stateless. &lsquo;Verlassenheit&rsquo; (abandonment), the experience of being forsaken by all people, she herself made a basic concept of her thinking.</p>
           <p class="vb-intro">According to the author&rsquo;s observation this experience shows most purely in the self-preservation Five, in whom it is about pure self-preservation; in the social Five Arendt it shows in a different coloring, with a view to the community. It is a juxtaposition of two similar images, nothing more. The text says nothing about health, recommends nothing and does not replace medical or therapeutic advice.</p>
         </blockquote>
 
@@ -1859,7 +1859,7 @@ export function williamShakespearePortraitPage() {
         <h2 class="vb-section">7. A thought from homeopathy: the image of the invisible</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 3 is assigned the remedy Tarantula hispanica (Spanish tarantula) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). In the language of the repertory its main idea includes the idea of invisible things. In Shakespeare the image appears in his plays: the ghost of Hamlet&rsquo;s father, the witches in &lsquo;Macbeth&rsquo;, Banquo&rsquo;s ghost, whom only Macbeth sees. The poet of the stage, which lives from the visible, brings the invisible onto the scene.</p>
-          <p class="vb-intro">In rubrics of this kind, according to the author, only a few remedies are listed. This only says that two images resemble each other. No statements about health or recommendations are attached, and medical or therapeutic advice remains unreplaced.</p>
+          <p class="vb-intro">In Kent&rsquo;s Repertory exactly one remedy is listed in the rubric &ldquo;unseen, thing&rdquo;: Tarentula hispanica. This only says that two images resemble each other. No statements about health or recommendations are attached, and medical or therapeutic advice remains unreplaced.</p>
         </blockquote>
 
 

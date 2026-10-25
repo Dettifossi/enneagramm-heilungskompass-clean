@@ -894,7 +894,7 @@ export function jesusChristusPortraitPage() {
         <h2 class="vb-section">10. Ein Gedanke aus der Homöopathie: das Bild vom Verkauftwerden</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 2 das Mittel Hyoscyamus niger (Bilsenkraut) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seiner Hauptvorstellung gehört in der Repertoriumssprache die Vorstellung, verkauft worden zu sein. Im Lebensfaden von Jesus begegnet das Bild in der Überlieferung: Nach den Evangelien wurde er von einem seiner Jünger, Judas, für dreißig Silberlinge ausgeliefert, ein Mensch, der sich ganz hingab und dafür verraten wurde.</p>
-          <p class="vb-intro">In Rubriken dieser Art stehen nach Angabe des Autors nur wenige Mittel. Damit ist nur gesagt, dass zwei Bilder einander gleichen. Gesundheitliche Aussagen oder Empfehlungen sind damit nicht verbunden, und eine ärztliche oder heilkundliche Beratung bleibt unersetzt.</p>
+          <p class="vb-intro">In Kents Repertorium steht in der Rubrik ›sold, as if would be‹ genau ein Mittel: Hyoscyamus niger. Damit ist nur gesagt, dass zwei Bilder einander gleichen. Gesundheitliche Aussagen oder Empfehlungen sind damit nicht verbunden, und eine ärztliche oder heilkundliche Beratung bleibt unersetzt.</p>
         </blockquote>
 
 

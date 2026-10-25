@@ -466,7 +466,7 @@ export function fjodorDostojewskiPortraitPage() {
         <h2 class="vb-section">7. Ein Gedanke aus der Homöopathie: das Bild der Hinrichtung</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 6 das Mittel Opium (Opium) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seiner Hauptvorstellung gehört in der Repertoriumssprache die Vorstellung, dass Menschen sie oder ihn hinrichten wollen. Bei Dostojewski wurde das Bild Wirklichkeit: Am 22. Dezember 1849 wurde er mit anderen Mitgliedern des Petraschewski-Kreises zum Semjonowski-Platz in St. Petersburg geführt, stand vor dem Erschießungskommando, und erst im letzten Augenblick wurde die Hinrichtung abgesagt. Es folgten vier Jahre Zwangsarbeit in Omsk.</p>
-          <p class="vb-intro">In Rubriken dieser Art stehen nach Angabe des Autors nur wenige Mittel. Damit ist nur gesagt, dass zwei Bilder einander gleichen. Gesundheitliche Aussagen oder Empfehlungen sind damit nicht verbunden, und eine ärztliche oder heilkundliche Beratung bleibt unersetzt.</p>
+          <p class="vb-intro">Kents Repertorium kennt keine gleichlautende Rubrik, die verwandte Rubrik ›murdered, that he would be‹ führt viele Mittel, darunter Opium. Damit ist nur gesagt, dass zwei Bilder einander gleichen. Gesundheitliche Aussagen oder Empfehlungen sind damit nicht verbunden, und eine ärztliche oder heilkundliche Beratung bleibt unersetzt.</p>
         </blockquote>
 
 

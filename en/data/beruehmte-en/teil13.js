@@ -466,7 +466,7 @@ export function fjodorDostojewskiPortraitPage() {
         <h2 class="vb-section">7. A thought from homeopathy: the image of execution</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 6 is assigned the remedy Opium (Opium) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). In the language of the repertory its main idea includes the idea of that people want to execute her or him. In Dostoevsky the image became reality: on 22 December 1849 he was led with other members of the Petrashevsky Circle to Semyonovsky Square in St. Petersburg, stood before the firing squad, and only at the last moment was the execution called off. Four years of forced labor in Omsk followed.</p>
-          <p class="vb-intro">In rubrics of this kind, according to the author, only a few remedies are listed. This only says that two images resemble each other. No statements about health or recommendations are attached, and medical or therapeutic advice remains unreplaced.</p>
+          <p class="vb-intro">Kent&rsquo;s Repertory has no rubric of the same wording; the related rubric &ldquo;murdered, that he would be&rdquo; lists many remedies, among them Opium. This only says that two images resemble each other. No statements about health or recommendations are attached, and medical or therapeutic advice remains unreplaced.</p>
         </blockquote>
 
 

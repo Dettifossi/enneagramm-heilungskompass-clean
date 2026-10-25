@@ -472,7 +472,7 @@ export function elvisPresleyPortraitPage() {
         <h2 class="vb-section">7. A thought from homeopathy: the image of being sold</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 2 is assigned the remedy Hyoscyamus niger (Henbane) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). In the language of the repertory its main idea includes the idea of having been sold. In Presley the image returns literally: in 1955 his contract was sold by Sun Records to RCA for 35,000 dollars, and his later manager, Colonel Tom Parker, kept a large share of his earnings. A person who gave himself entirely on stage and was marketed by others in the process.</p>
-          <p class="vb-intro">In rubrics of this kind, according to the author, only a few remedies are listed. What is meant is a comparison of images. It contains no statement about anyone&rsquo;s state of health, no recommendation and no substitute for advice from doctors or practitioners.</p>
+          <p class="vb-intro">In Kent&rsquo;s Repertory exactly one remedy is listed in the rubric &ldquo;sold, as if would be&rdquo;: Hyoscyamus niger. What is meant is a comparison of images. It contains no statement about anyone&rsquo;s state of health, no recommendation and no substitute for advice from doctors or practitioners.</p>
         </blockquote>
 
 

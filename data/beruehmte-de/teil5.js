@@ -1078,7 +1078,7 @@ export function leonardCohenPortraitPage() {
         <h2 class="vb-section">6. Ein Gedanke aus der Homöopathie: das Bild vom Gelübde</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 4 das Mittel Ignatia amara (Ignatiusbohne) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seiner Hauptvorstellung gehört in der Repertoriumssprache die Vorstellung, ein Gelübde (= Versprechen!) zu brechen. Bei Cohen begegnet das Bild als Weg: Mitte der 1990er-Jahre zog er sich in ein Zen-Zentrum auf dem Mount Baldy bei Los Angeles zurück, wurde 1996 als Mönch ordiniert und verließ das Kloster 1999 wieder. In seinen Texten kehren Treue, Schuld und gebrochene Versprechen immer wieder.</p>
-          <p class="vb-intro">In Rubriken dieser Art stehen nach Angabe des Autors nur wenige Mittel. Gemeint ist ein Vergleich von Bildern. Er enthält keine Aussage über den Gesundheitszustand eines Menschen, keine Empfehlung und keinen Ersatz für Beratung durch Ärzte oder Heilkundige.</p>
+          <p class="vb-intro">In Kents Repertorium steht in der Rubrik ›vow, that she is breaking her‹ genau ein Mittel: Ignatia amara. Gemeint ist ein Vergleich von Bildern. Er enthält keine Aussage über den Gesundheitszustand eines Menschen, keine Empfehlung und keinen Ersatz für Beratung durch Ärzte oder Heilkundige.</p>
         </blockquote>
 
 
@@ -1837,7 +1837,7 @@ export function hannahArendtPortraitPage() {
 
         <h2 class="vb-section">7. Ein Gedanke aus der Homöopathie: das Bild der Wildnis</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 5 das Mittel Stramonium (Stechapfel) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seinem Arzneimittelbild gehört die Vorstellung, mutterseelenallein in der Wildnis zu sein. In der Fachsprache der Homöopathie ist das eine Single-Rubrik: Diese Vorstellung findet sich nur bei diesem einen Mittel. Bei Arendt trägt das Bild weniger Wildnis als Verlassenheit: 1933 floh sie aus Deutschland, 1940 wurde sie im Lager Gurs interniert und entkam, 1941 erreichte sie New York, und über viele Jahre war sie staatenlos. ›Verlassenheit‹, die Erfahrung, von allen Menschen verlassen zu sein, hat sie selbst zu einem Grundbegriff ihres Denkens gemacht.</p>
+          <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 5 das Mittel Stramonium (Stechapfel) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seinem Arzneimittelbild gehört die Vorstellung, mutterseelenallein in der Wildnis zu sein. In der Fachsprache der Homöopathie ist das eine Single-Rubrik: Diese Vorstellung findet sich nur bei diesem einen Mittel. In Kents Repertorium steht sie unter ›alone … in a wilderness‹ mit Stramonium als einzigem Mittel. Bei Arendt trägt das Bild weniger Wildnis als Verlassenheit: 1933 floh sie aus Deutschland, 1940 wurde sie im Lager Gurs interniert und entkam, 1941 erreichte sie New York, und über viele Jahre war sie staatenlos. ›Verlassenheit‹, die Erfahrung, von allen Menschen verlassen zu sein, hat sie selbst zu einem Grundbegriff ihres Denkens gemacht.</p>
           <p class="vb-intro">Nach der Beobachtung des Autors zeigt sich dieses Erleben am reinsten beim selbsterhaltenden Fünfer, bei dem es um die pure Selbsterhaltung geht; bei der sozialen Fünf Arendt zeigt es sich in anderer Färbung, mit dem Blick auf die Gemeinschaft. Es ist eine Gegenüberstellung zweier ähnlicher Bilder, mehr nicht. Der Text sagt nichts über Gesundheit, empfiehlt nichts und ersetzt keine ärztliche oder heilkundliche Beratung.</p>
         </blockquote>
 
@@ -1920,7 +1920,7 @@ export function williamShakespearePortraitPage() {
         <h2 class="vb-section">7. Ein Gedanke aus der Homöopathie: das Bild des Unsichtbaren</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 3 das Mittel Tarantula hispanica (Spanische Tarantel) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seiner Hauptvorstellung gehört in der Repertoriumssprache die Vorstellung von unsichtbaren Dingen. Bei Shakespeare erscheint das Bild in seinen Stücken: der Geist von Hamlets Vater, die Hexen in ›Macbeth‹, der Geist Banquos, den nur Macbeth sieht. Der Dichter der Bühne, die vom Sichtbaren lebt, holt Unsichtbares auf die Szene.</p>
-          <p class="vb-intro">In Rubriken dieser Art stehen nach Angabe des Autors nur wenige Mittel. Damit ist nur gesagt, dass zwei Bilder einander gleichen. Gesundheitliche Aussagen oder Empfehlungen sind damit nicht verbunden, und eine ärztliche oder heilkundliche Beratung bleibt unersetzt.</p>
+          <p class="vb-intro">In Kents Repertorium steht in der Rubrik ›unseen, thing‹ genau ein Mittel: Tarentula hispanica. Damit ist nur gesagt, dass zwei Bilder einander gleichen. Gesundheitliche Aussagen oder Empfehlungen sind damit nicht verbunden, und eine ärztliche oder heilkundliche Beratung bleibt unersetzt.</p>
         </blockquote>
 
 
