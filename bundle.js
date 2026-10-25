@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=384";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=385";
 import { psychogrammErklaerung } from "./data/psychogramme-erklaerung.js?v=2";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -60797,7 +60797,7 @@ function wahnideenNichtRealeVorstellungenPage() {
             <div style="font-size:0.9rem;line-height:1.65;display:grid;gap:0.45rem;">
               <div><span style="font-weight:700;color:var(--muted);">Repertoriums-Vorstellung:</span> <em>Gelübde (= Versprechen!) brechen, würde ein</em></div>
               <div><span style="font-weight:700;color:var(--muted);">Bei Kent:</span> ›vow, that she is breaking her‹: genau ein Mittel: Ignatia amara.</div>
-              <div>Die Vier bleibt dem Verlorenen und dem Ideal treu, oft über Jahre. Ein inneres Versprechen, dem Schmerz, der Sehnsucht oder der eigenen Tragik nicht untreu zu werden, kann so schwer wiegen, dass jeder Schritt in die Freude als Treuebruch erscheint. Kents Repertorium kennt außerdem ›married, that he is‹ (verheiratet zu sein; Ignatia amara), ein weiteres Bild der Bindung.</div>
+              <div>Die Vier bleibt dem Verlorenen und dem Ideal treu, oft über Jahre. Ein inneres Versprechen, dem Schmerz, der Sehnsucht oder der eigenen Tragik nicht untreu zu werden, kann so schwer wiegen, dass jeder Schritt in die Freude als Treuebruch erscheint. Kents Repertorium kennt außerdem ›married, that he is‹ (verheiratet zu sein; Ignatia amara), ein weiteres Bild der Bindung. In der ›Homöopathischen Arzneimittellehre der Single-Rubriken aus dem Geist-/Gemütsbereich‹ des Autors steht für Ignatia amara auch ›Wahnideen – Gelübde – brechen, sie würde ihr Gelübde‹ als Single-Rubrik, dazu ›Wahnideen – verloren, sie sei – alles ist verloren‹ und ›Wahnideen – verdammt, er sei – Seele könnte nicht gerettet, erlöst werden‹. Das sind die Bilder der Vier: vom Verlust gezeichnet zu sein und Schuld nicht loszuwerden. Dem Schamgefühl am nächsten kommt unter den Single-Rubriken ›Schlafwandeln – Ehrgefühl, durch verletztes‹.</div>
               <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">Im Lebensfaden:</span> <a href="#beruehmte-leonard-cohen">Leonard Cohen</a>, <a href="#beruehmte-hippokrates-von-kos">Hippokrates von Kos</a></div>
               <div style="font-size:0.78rem;color:var(--muted);">Zugeordnetes Mittel in der Enneagramm-Homöopathie dieses Kompasses: Ignatia amara</div>
             </div>
@@ -60881,9 +60881,10 @@ function wahnideenNichtRealeVorstellungenPage() {
           <p class="vb-anmerkung" style="margin-top:1rem;font-style:italic;">Wichtig für das Verständnis: Dieser Artikel ist Wissensvermittlung. Er stellt keine Diagnose, gibt keine Therapieempfehlung und trifft keine Aussage zu Wirkung oder Heilung. Die Zuordnung der Mittel zu den Typen gehört zur Enneagramm-Homöopathie dieses Kompasses. Er ersetzt keine ärztliche oder heilkundliche Beratung.</p>
         </div>
 
-        <p class="vb-intro" style="margin-top:1.4rem;font-size:0.88rem;color:var(--muted);">Die Rubrikangaben beziehen sich auf James Tyler Kents ›Repertory of the Homœopathic Materia Medica‹ (digitale Ausgabe von Homéopathe International) und auf ›Rathmer's Repertorium‹.</p>
+        <p class="vb-intro" style="margin-top:1.4rem;font-size:0.88rem;color:var(--muted);">Die Rubrikangaben beziehen sich auf James Tyler Kents ›Repertory of the Homœopathic Materia Medica‹ (digitale Ausgabe von Homéopathe International), auf ›Rathmer's Repertorium‹ und, wo es ausdrücklich steht, auf die ›Homöopathische Arzneimittellehre der Single-Rubriken aus dem Geist-/Gemütsbereich‹.</p>
       </div>
       ${bookTip("rathmer-s-repertorium-gebundene-ausgabe", "Das weltweit umfangreichste homöopathische Gemütsrepertorium – 1568 Seiten, 20.000 Rubriken.", "Rathmer’s Repertorium")}
+      ${bookTip("homoeopathische-arzneimittellehre-der-single-rubriken-aus-de", "Das geistige Wesen der wichtigsten 500 homöopathischen Arzneimittel – aus den Single-Rubriken des Geist-/Gemütsbereichs.", "Homöopathische Arzneimittellehre der Single-Rubriken")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("der-code-deiner-persoenlichkeit", "Wie der Enneagrammtyp entsteht – und was er über unsere tiefsten Prägungen verrät.", "Der Code deiner Persönlichkeit")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
