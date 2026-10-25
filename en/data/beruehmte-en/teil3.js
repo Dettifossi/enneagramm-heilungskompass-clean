@@ -1621,6 +1621,7 @@ export function warrenBuffettPortraitPage() {
         {route:"beruehmte-stanley-mandelstam", label:"Portrait: Stanley Mandelstam (SP5w6)"},
         {route:"bibel-nikodemus", label:"Bible Portrait: Nicodemus (SP5w6)"},
         {route:"beruehmte-roger-akelius", label:"Portrait: Roger Akelius (SP5w6)"},
+        {route:"beruehmte-simone-menne", label:"Portrait: Simone Menne (SP5w6)"},
       ])}
     </div>
   `);

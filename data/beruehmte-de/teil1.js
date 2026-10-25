@@ -3024,3 +3024,74 @@ export function christianeHoerbigerPortraitPage() {
     </div>
   `);
 }
+
+export function simoneMennePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-simone-menne-portrait.jpg" alt="Simone Menne – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-simone-menne-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Simone Menne</p>
+        <p class="krim-portrait-typ">SE5w6 &middot; Selbsterhaltender Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Deutsche Managerin, geb. 1960 &ndash; Tierentsprechung: Eule</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Die Eule: vom Steuerfach zur Konzernspitze</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eulen sehen im Halbdunkel mehr als andere und warten, bis der Moment stimmt. Simone Menne wurde am 7. Oktober 1960 in Kiel geboren und wuchs in der Nähe der Stadt auf. Nach dem Abitur machte sie eine Ausbildung zur Fachgehilfin in steuer- und wirtschaftsberatenden Berufen und studierte danach Betriebswirtschaft an der Universität Kiel.</p>
+          <p class="vb-intro">1987 begann sie in der Revision der ITT Corporation, 1989 wechselte sie zur Lufthansa. Ihr Weg führte durch Stationen im Rechnungswesen, in der Geschäftsführung der Lufthansa Revenue Services, in der kaufmännischen Verwaltung und im Personalbereich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der selbsterhaltende Fünfer: Zahlen als Sicherheitsnetz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjos Name für den selbsterhaltenden Fünfer lautet ›Burg‹, ein gesicherter Bereich, in dem das Wesentliche geordnet ist. Bei Menne liegt dieser Bereich im Finanzwesen: Wer die Zahlen eines Konzerns kennt, weiß, was trägt und was nicht. Ab 2004 leitete sie das Finanz- und Rechnungswesen der Lufthansa Technik, 2010 wurde sie Finanzchefin von British Midland, und 2012 Finanzvorständin der Lufthansa, damit nach dem Wikipedia-Artikel die erste Frau in dieser Rolle bei einem DAX-Konzern.</p>
+          <p class="vb-intro">Ihr Aufstieg lief über Jahre in kleinen Schritten durch Fachaufgaben, nicht über Auftritte. In einem Interview sagt sie, dass die Restrukturierungen, bei denen sie Risiken einging, ihre Bekanntheit erhöhten und dem Aufsichtsrat Anlass gaben, sie 2012 zur CFO zu ernennen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Sorgfalt, Verantwortung und Skepsis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im System von Don Richard Riso und Russ Hudson trägt die Fünf mit Sechserflügel den Namen ›Der Problemlöser‹. Der <strong>Sechserflügel (w6)</strong> bringt dem Fünfer Sorgfalt, Verantwortungsgefühl und einen prüfenden Blick auf Risiken. Bei Menne zeigt sich das in dem, was sie über Aufsichtsräte sagt: Ein Gremium, das Risiken scheut, mache es Vorständen schwerer, mutige Entscheidungen zu treffen, und sie wünscht sich mehr Vielfalt in Aufsichtsräten.</p>
+          <p class="vb-intro">Zur Verantwortung gehört auch, was sie über schwierige Zeiten sagt: Das Entlassen von Mitarbeitenden sei emotional belastend, und die Frage, ob man mit einem weiteren Berater mehr Sicherheit gewinne, beantwortet sie mit Zurückhaltung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Finanzen in einem Konzern im Umbau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Menne war 27 Jahre bei der Lufthansa, zuletzt als Finanzvorständin, und sie nennt die Transformationen dieser Jahre als schwierigste Aufgaben. Als Finanzchefin setzte sie sich öffentlich für Frauenquoten in Führungspositionen ein. Von 1. September 2016 an war sie in der Unternehmensleitung von Boehringer Ingelheim für die Finanzen zuständig, die Tätigkeit endete Ende 2017.</p>
+          <p class="vb-intro">Danach folgten Aufsichtsrats- und Beiratsmandate, unter anderem bei Henkel (seit 2020), Siemens Energy (seit 2024), DEKRA und im Beirat der Bundeswehr Consulting. Seit 2021 ist sie Präsidentin der American Chamber of Commerce in Germany. Nach dem Wikipedia-Artikel betreibt sie außerdem seit 2018 in Kiel eine Galerie mit Werken junger norddeutscher Künstler, eine Verbindung aus Zahlen und Kunst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Warren Buffett und Roger Akelius</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-warren-buffett">Warren Buffett (SE5w6)</a> teilt mit Menne den nüchternen Blick auf Zahlen und die Geduld, über Jahrzehnte aufzubauen. <a href="#beruehmte-roger-akelius">Roger Akelius (SE5w6)</a> verbindet mit ihr die Laufbahn aus dem Finanz- und Zahlenwesen, hier mit dem Weg in die Unternehmensführung.</p>
+          <p class="vb-intro">Der Unterschied: Buffett und Akelius sind Eigentümer, Menne ist Managerin und Aufsichtsrätin, die Verantwortung für fremdes Kapital und fremde Arbeitsplätze trägt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten des selbsterhaltenden Fünfers mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell sind Gründlichkeit und Ruhe in Krisen: Wer die Zahlen kennt, kann auch in schwierigen Phasen klar bleiben. Auch ihr Einsatz für mehr Frauen in Führungspositionen und für Vielfalt in Gremien gehört dazu.</p>
+          <p class="vb-intro">Ein Schatten des Fünfers kann die Distanz sein, mit der man Entscheidungen von Zahlen her trifft und die Menschen dahinter spät sieht. Menne nennt selbst, wie belastend Entlassungen für sie waren. Dass sie sich nach der Konzernlaufbahn der Kunst zuwendet, lässt sich auch als Ausgleich zur Welt der Zahlen lesen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Aufsichtsrätin und Galeristin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Menne ist (Stand 25. Oktober 2026) 66 Jahre alt, sitzt im Aufsichtsrat von Henkel und Siemens Energy und leitet die American Chamber of Commerce in Germany. Zum Privatleben nennen die ausgewerteten Quellen nichts Belastbares, deshalb bleibt dieses Porträt beim Beruflichen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se5", label:"Lebensmusterkompass: SE5 – Eule"},
+        {route:"beruehmte-warren-buffett", label:"Porträt: Warren Buffett (SE5w6)"},
+        {route:"beruehmte-roger-akelius", label:"Porträt: Roger Akelius (SE5w6)"},
+        {route:"beruehmte-juliane-koepcke", label:"Porträt: Juliane Koepcke (SE5w6)"},
+            ])}
+    </div>
+  `);
+}

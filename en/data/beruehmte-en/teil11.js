@@ -2987,3 +2987,74 @@ export function peterThielPortraitPage() {
     </div>
   `);
 }
+
+export function simoneMennePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-simone-menne-portrait.jpg" alt="Simone Menne – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-simone-menne-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Simone Menne</p>
+        <p class="krim-portrait-typ">SP5w6 &middot; Self-Preservation Type 5 with Six-wing</p>
+        <p class="krim-portrait-subtitle">German executive, b. 1960 &ndash; Animal correspondence: Owl</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Owl: from tax work to the top of a corporation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Owls see more in the half-dark than others and wait until the moment is right. Simone Menne was born on 7 October 1960 in Kiel and grew up near the city. After her Abitur she trained as a specialist assistant in tax and business consulting professions and then studied business administration at the University of Kiel.</p>
+          <p class="vb-intro">In 1987 she began in the internal audit of ITT Corporation, in 1989 she moved to Lufthansa. Her path led through positions in accounting, in the management of Lufthansa Revenue Services, in commercial administration and in human resources.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Five: numbers as a safety net</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo&rsquo;s name for the self-preservation Five is &lsquo;castle&rsquo;, a secured area in which the essentials are ordered. In Menne this area lies in finance: whoever knows a corporation&rsquo;s numbers knows what holds and what does not. From 2004 she headed finance and accounting at Lufthansa Technik, in 2010 she became CFO of British Midland, and in 2012 chief financial officer of Lufthansa, thereby, according to the Wikipedia article, the first woman in this role at a DAX corporation.</p>
+          <p class="vb-intro">Her rise ran over years in small steps through professional tasks, not through appearances. In an interview she says that the restructurings in which she took risks raised her profile and gave the supervisory board reason to appoint her CFO in 2012.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: care, responsibility and skepticism</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the system of Don Richard Riso and Russ Hudson the Five with a Six-wing is called &lsquo;The Problem Solver&rsquo;. The <strong>Six-wing (w6)</strong> brings the Five care, a sense of responsibility and an examining eye for risks. In Menne it shows in what she says about supervisory boards: a body that shies away from risk makes it harder for executives to take bold decisions, and she wishes for more diversity on supervisory boards.</p>
+          <p class="vb-intro">Responsibility also includes what she says about difficult times: dismissing employees is emotionally burdensome, and to the question whether one gains certainty with yet another consultant she answers with reserve.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: finance in a corporation undergoing change</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Menne spent 27 years at Lufthansa, last as chief financial officer, and she names the transformations of those years as the most difficult tasks. As CFO she publicly advocated women&rsquo;s quotas in leadership positions. From 1 September 2016 she was responsible for finance in the executive management of Boehringer Ingelheim; the position ended at the end of 2017.</p>
+          <p class="vb-intro">Supervisory and advisory board mandates followed, among others at Henkel (since 2020), Siemens Energy (since 2024), DEKRA and on the advisory board of Bundeswehr Consulting. Since 2021 she has been president of the American Chamber of Commerce in Germany. According to the Wikipedia article she has also run a gallery in Kiel since 2018 with works by young northern German artists, a link between numbers and art.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Warren Buffett and Roger Akelius</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-warren-buffett">Warren Buffett (SP5w6)</a> shares with Menne the sober view of numbers and the patience to build over decades. <a href="#beruehmte-roger-akelius">Roger Akelius (SP5w6)</a> shares with her a career from finance and numbers, here with the path into corporate leadership.</p>
+          <p class="vb-intro">The difference: Buffett and Akelius are owners, Menne is a manager and supervisory board member who carries responsibility for other people&rsquo;s capital and other people&rsquo;s jobs.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the self-preservation Five with Six-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright are thoroughness and calm in crises: whoever knows the numbers can stay clear even in difficult phases. Her commitment to more women in leadership positions and to diversity on boards belongs here too.</p>
+          <p class="vb-intro">A shadow of the Five can be the distance with which one makes decisions from the numbers and sees the people behind them late. Menne herself says how burdensome dismissals were for her. That after the corporate career she turns to art can also be read as a counterweight to the world of numbers.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: supervisory board member and gallery owner</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Menne is (as of 25 October 2026) 66 years old, sits on the supervisory boards of Henkel and Siemens Energy and heads the American Chamber of Commerce in Germany. The sources evaluated name nothing reliable about her private life, so this portrait stays with the professional.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
+        {route:"lebensmusterkompass/se5", label:"Life Pattern Compass: SP5 – Owl"},
+        {route:"beruehmte-warren-buffett", label:"Portrait: Warren Buffett (SP5w6)"},
+        {route:"beruehmte-roger-akelius", label:"Portrait: Roger Akelius (SP5w6)"},
+        {route:"beruehmte-juliane-koepcke", label:"Portrait: Juliane Koepcke (SP5w6)"},
+            ])}
+    </div>
+  `);
+}

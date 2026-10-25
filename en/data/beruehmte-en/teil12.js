@@ -3045,7 +3045,8 @@ export function julianeKoepckePortraitPage() {
         {route:"beruehmte-marie-curie", label:"Portrait: Marie Curie (SP5w6)"},
         {route:"beruehmte-charles-darwin", label:"Portrait: Charles Darwin (SP5w6)"},
         {route:"beruehmte-larry-sanger", label:"Portrait: Larry Sanger (SP5w6)"},
-            ])}
+        {route:"beruehmte-simone-menne", label:"Portrait: Simone Menne (SP5w6)"},
+      ])}
     </div>
   `);
 }

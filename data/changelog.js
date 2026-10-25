@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2633", date: "2026-10-25", text: "Neues Porträt: Simone Menne (SE5w6) – Managerin, ehemalige Lufthansa-Finanzvorständin.", text_en: "New portrait: Simone Menne (SP5w6) – executive, former Lufthansa CFO.", route: "beruehmte-simone-menne" },
     { version: "v2632", date: "2026-10-25", text: "Neues Porträt: Juliane Koepcke (SE5w6) – Biologin und Überlebende des LANSA-Flugs 508.", text_en: "New portrait: Juliane Koepcke (SP5w6) – biologist and survivor of LANSA Flight 508.", route: "beruehmte-juliane-koepcke" },
     { version: "v2631", date: "2026-10-25", text: "Neues Porträt: Jimmy Wales (SO5w6) – Gründer von Wikipedia.", text_en: "New portrait: Jimmy Wales (SO5w6) – founder of Wikipedia.", route: "beruehmte-jimmy-wales" },
     { version: "v2630", date: "2026-10-25", text: "Neues Porträt: Larry Sanger (SE5w6) – Philosoph und Mitgründer von Wikipedia.", text_en: "New portrait: Larry Sanger (SP5w6) – philosopher and co-founder of Wikipedia.", route: "beruehmte-larry-sanger" },

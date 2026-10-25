@@ -3035,6 +3035,7 @@ export function rogerAkeliusPortraitPage() {
         {route:"beruehmte-harald-lesch", label:"Porträt: Harald Lesch (SE5w6)"},
         {route:"beruehmte-peter-lustig", label:"Porträt: Peter Lustig (SE5w6)"},
         {route:"beruehmte-larry-sanger", label:"Porträt: Larry Sanger (SE5w6)"},
+        {route:"beruehmte-simone-menne", label:"Porträt: Simone Menne (SE5w6)"},
       ])}
     </div>
   `);

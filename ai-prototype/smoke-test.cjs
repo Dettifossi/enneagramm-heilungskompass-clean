@@ -205,6 +205,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-jimmy-wales", label: "Neues EN-Porträt: Jimmy Wales" },
   { hash: "#beruehmte-juliane-koepcke", label: "Neues Porträt: Juliane Koepcke" },
   { hash: "en/#beruehmte-juliane-koepcke", label: "Neues EN-Porträt: Juliane Koepcke" },
+  { hash: "#beruehmte-simone-menne", label: "Neues Porträt: Simone Menne" },
+  { hash: "en/#beruehmte-simone-menne", label: "Neues EN-Porträt: Simone Menne" },
   { hash: "#beruehmte-bradley-cooper", label: "Neues Porträt: Bradley Cooper" },
   { hash: "en/#beruehmte-bradley-cooper", label: "Neues EN-Porträt: Bradley Cooper" },
   { hash: "#beruehmte-richy-mueller", label: "Neues Porträt: Richy Müller" },
