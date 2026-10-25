@@ -357,6 +357,17 @@ export function davidLRathmerPortraitPage() {
 
         <p class="vb-intro" style="font-style:italic; opacity:0.75; margin-bottom:1.5rem;">David L. Rathmer ist keine Celebrity im \u00fcblichen Sinn &ndash; aber er ist der Mitentwickler dieses Kompass, Begr\u00fcnder der Rathmer-Profiling-Methode und Sohn des Autors. Ein Portr\u00e4t im eigenen Werk.</p>
 
+
+        <div style="margin:1.4rem 0 1.8rem;padding:1.1rem 1.2rem;border:1px solid var(--copper);border-radius:14px;background:color-mix(in srgb, var(--copper) 6%, var(--paper));">
+          <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Das Gespräch</p>
+          <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
+            <iframe width="100%" height="100%" style="border:none;display:block;" title="David Rathmer | Wie aus Profiling ein Business wurde"
+              src="https://www.youtube.com/embed/mFV2mnKuaqc?rel=0&playsinline=1"
+              allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <p style="font-size:0.88rem;line-height:1.6;margin:0.8rem 0 0.2rem;color:var(--ink);"><strong>David Rathmer | Wie aus Profiling ein Business wurde</strong><br><span style="color:var(--muted);">Digistore24 DE · Make your knowledge work, Folge 2</span></p>
+          <p style="font-size:0.88rem;line-height:1.6;margin:0.4rem 0 0;color:var(--ink);">In diesem rund halbstündigen Gespräch erzählt David L. Rathmer, wie er schon mit sieben oder acht Jahren zum Enneagramm kam, wie die Methode gemeinsam mit seinem Vater entstand und wie aus dem Profiling ein Geschäft wurde. Das Video entstand bei Digistore24 in München, mit dem er zusammenarbeitet.</p>
+        </div>
         <h2 class="vb-section">1. Der Waschb\u00e4r, der im Licht arbeitet</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Waschb\u00e4r</strong> ist das Sinnbild der selbsterhaltenden Drei &ndash; klug, anpassungsf\u00e4hig, mit geschickten Pfoten und einem wachen Blick f\u00fcr das, was sich lohnt. Wenn der Waschb\u00e4r bewusst lebt, nutzt er seine au\u00dfergew\u00f6hnliche Intelligenz nicht f\u00fcr die Nacht &ndash; sondern f\u00fcr das Licht. Er liest Situationen pr\u00e4zise, handelt effizient, und schafft aus dem, was da ist, etwas N\u00fctzliches. Er sieht, was andere \u00fcbersehen. Er \u00f6ffnet, was andere nicht \u00f6ffnen k\u00f6nnen.</p>

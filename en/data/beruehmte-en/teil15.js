@@ -355,6 +355,17 @@ export function davidLRathmerPortraitPage() {
 
         <p class="vb-intro" style="font-style:italic; opacity:0.75; margin-bottom:1.5rem;">David L. Rathmer is not a celebrity in the usual sense - but he is the co-developer of this compass, founder of the Rathmer profiling method and son of the author. A portrait in your own work.</p>
 
+
+        <div style="margin:1.4rem 0 1.8rem;padding:1.1rem 1.2rem;border:1px solid var(--copper);border-radius:14px;background:color-mix(in srgb, var(--copper) 6%, var(--paper));">
+          <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">The conversation</p>
+          <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
+            <iframe width="100%" height="100%" style="border:none;display:block;" title="David Rathmer | How Profiling Became a Business (in German)"
+              src="https://www.youtube.com/embed/mFV2mnKuaqc?rel=0&playsinline=1"
+              allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <p style="font-size:0.88rem;line-height:1.6;margin:0.8rem 0 0.2rem;color:var(--ink);"><strong>David Rathmer | How Profiling Became a Business (in German)</strong><br><span style="color:var(--muted);">Digistore24 DE · Make your knowledge work, episode 2</span></p>
+          <p style="font-size:0.88rem;line-height:1.6;margin:0.4rem 0 0;color:var(--ink);">In this roughly half-hour conversation David L. Rathmer tells how he came to the Enneagram at the age of seven or eight, how the method developed together with his father and how profiling became a business. The video was made in Munich by Digistore24, with whom he works. It is in German.</p>
+        </div>
         <h2 class="vb-section">1. The Raccoon Who Works in the Light</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The raccoon is the animal of the self-preservation Three smart, adaptable, with nimble paws and a sharp eye for what is worthwhile. When the raccoon lives consciously, he uses his extraordinary intelligence not for the night but for the light. He reads situations precisely, acts efficiently, and creates something useful out of what is available. He sees what others overlook. He opens what others cannot open.</p>
