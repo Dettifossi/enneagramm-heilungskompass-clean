@@ -3015,28 +3015,29 @@ export function svenPlattePortraitPage() {
         <p class="krim-portrait-subtitle">Founder and Group CEO of Digistore24 &ndash; Animal correspondence: Cheetah</p>
       </div>
       <div class="page-content">
-        <h2 class="vb-section">1. The Cheetah: a dentist who did not want to be a dentist</h2>
+        <h2 class="vb-section">1. The Cheetah: a dentist who found his own path</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">A <strong>cheetah</strong> acts from stillness and accelerates only when the chance arrives. By his own account Sven Platte grew up in Heidelberg in a middle-class family, and his mother pushed him toward dentistry. He studied dentistry in Marburg (state exam 2008, according to a career profile) and realized the profession was not his passion. He finished the degree and then turned to sales.</p>
-          <p class="vb-intro">His aim was to succeed with as little money and effort as possible. That led him to e-books: with two friends he wrote guides on niche topics. He says he could not find a platform that suited the German-speaking market and therefore built one himself.</p>
+          <p class="vb-intro">A <strong>cheetah</strong> acts from stillness and accelerates only when the chance arrives. By his own account Sven Platte grew up in Heidelberg in a middle-class family, and his mother advised him toward dentistry. He studied in Marburg and finished the degree (state exam 2008, according to a career profile). In the process he realized that a dental practice was not his path and turned to sales.</p>
+          <p class="vb-intro">Already during his studies he sold a guide digitally, among other things on flirting, and via the US platform Clickbank he was, by his own account, the largest seller in the German-speaking market (OMR, 2019). Because Clickbank did not properly serve the European market, directly after his studies he built, with two co-founders, a system of his own, which became Digistore24.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The social Three: standing in the community of online entrepreneurs</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In the social Three, standing in the community drives action, and Claudio Naranjo called it prestige. In Platte it shows not in the spotlight but in the role he chose: he builds the space in which others succeed. He says the platform is meant to help online entrepreneurs automate their business so that more time remains for growth and life.</p>
+          <p class="vb-intro">In the social Three, standing in the community drives action, and Claudio Naranjo called it prestige. In Platte it shows not in the spotlight but in the role he chose: he builds the space in which others succeed. He says the platform is meant to help online entrepreneurs automate their business so that more time remains for growth and life. As a reference he names that Tony Robbins sells his signature event through the platform.</p>
           <p class="vb-intro">Digistore24 calls itself Europe&rsquo;s largest sales and affiliate platform for digital products, with, by its own account, 2 million users in 180 countries and over 500 million euros in sales by vendors and affiliates in 2023. These figures come from the company itself and are not independently verified. Platte also hosts &lsquo;Svencast&rsquo;, a podcast that Digistore24 promotes on its website.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Four-wing: a path of his own and an inner life</h2>
+        <h2 class="vb-section">3. The Four-wing: a path of his own, personal growth and music</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Don Richard Riso and Russ Hudson call the Three with a Four-wing &lsquo;The Professional&rsquo;. The <strong>Four-wing (w4)</strong> gives the Three individuality and the need to go its own way. In Platte it shows in the decision against the usual path: he finishes the degree but does not practice, and instead builds a company he grows without investors.</p>
-          <p class="vb-intro">One podcast title links his work with electronic music and meditation. Presumably it is about how entrepreneurship and inner life meet in him. I have not evaluated the content of that conversation for this portrait.</p>
+          <p class="vb-intro">Don Richard Riso and Russ Hudson call the Three with a Four-wing &lsquo;The Professional&rsquo;. The <strong>Four-wing (w4)</strong> gives the Three individuality and the need to go its own way. In Platte it shows in the decision against the usual path: he finishes the degree but does not practice, and builds a company he grows without investors.</p>
+          <p class="vb-intro">He names &lsquo;quality, even more excellence&rsquo; as a central value and draws on Tony Robbins&rsquo; &lsquo;Six Human Needs&rsquo; for people&rsquo;s growth. One podcast episode also describes his path as personal development and links Digistore24 with electronic music and meditation. According to OMR (2019) he invested in a music studio in which, among others, the DJ Tiësto produces, and a 2019 podcast mentions a new production company for electronic music. Meditation appears in the sources evaluated only in the title.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The substance: a platform for the German-speaking market</h2>
+        <h2 class="vb-section">4. The substance: staying the course, focus and a platform for the German-speaking market</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">By his own words Platte built Digistore24 because there was no suitable platform for selling digital products in the German-speaking market. He invested about 40,000 euros in the first version, dropped writing e-books and found in Christian Neise a technical partner who became Chief Technology Officer. By his account it took two and a half years until the idea became a solution. When exactly the platform launched is given differently by the sources (2011, 2012 or 2013); at first it was for internal use.</p>
-          <p class="vb-intro">The offering includes an online shop, the main payment methods, accounting and tax automation and an affiliate network. The company is based in Hildesheim and grew without investors. In 2020, according to its head of marketing, just under 100 people worked there, few in relation to revenue, with a lot of responsibility for each individual.</p>
+          <p class="vb-intro">By his own account Platte invested about 40,000 euros in the first version of Digistore24. The hardest moment came when the first programming team delivered no result after months. He carried on and found in Christian Neise a technical partner who became Chief Technology Officer. It took two and a half years until the idea became a solution. Passion, he says, arises only through commitment, and as the most important success factor he names focus: stay with one thing and do not dance at several weddings. As a book he recommends &lsquo;The One Thing&rsquo; by Gary Keller. When exactly the platform launched is given differently by the sources (2011, 2012 or 2013); at first it served his own needs.</p>
+          <p class="vb-intro">The offering includes an online shop, the main payment methods, payment processing, accounting and tax automation and an affiliate network with tracking. The target group is self-employed people, small and mid-sized businesses, above all coaches and trainers, deliberately rather than &lsquo;everything for everyone&rsquo;. In 2019 Platte named 70 employees and external sales of 300 million euros including subsidiaries. By his statement 99 percent of the software developers come from Germany and Austria, and the company has worked remotely from the start, without investors and with a high degree of automation. The focus is on Europe, with the USA and Asia in view in the long term.</p>
+          <p class="vb-intro">Platte admits that the industry has a poor image in places, and he wishes for providers who make products that truly make people happy instead of putting almost everything into marketing.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Parallel in the same subtype: Karl Lagerfeld and Franziska van Almsick</h2>
@@ -3047,8 +3048,8 @@ export function svenPlattePortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow of the social Three with Four-wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Bright is the courage to leave a predetermined profession and carry a risk: whoever puts 40,000 euros into an idea that takes two and a half years and continues without investors shows endurance. The small, responsible team form belongs here too.</p>
-          <p class="vb-intro">The shadow side of the Three is that self-image and success are closely tied: whoever builds a large platform is measured by its numbers. Platte says his mother pushed him toward dentistry. That he first followed expectations and then broke away can be connected with the Three and its Four-wing.</p>
+          <p class="vb-intro">Bright is the long breath: whoever leaves a predetermined profession, puts money and months into an idea, carries on after a setback and bears the growth without investors to this day shows endurance and focus. The standard of quality, the team form with a lot of personal responsibility and the openness to inner life and music belong here too.</p>
+          <p class="vb-intro">The shadow side of the Three is that self-image and success are closely tied: whoever builds a large platform carries the expectation that everything will work, even in the months when nothing is visible yet. That he first followed his mother&rsquo;s advice and then went his own way can be connected with the Three and its Four-wing.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Where things stand: founder and Group CEO</h2>
