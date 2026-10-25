@@ -2988,3 +2988,72 @@ export function curtisYarvinPortraitPage() {
     </div>
   `);
 }
+
+export function martinaGedeckPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-martina-gedeck-portrait.jpg" alt="Martina Gedeck – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Martina Gedeck</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Deutsche Schauspielerin, geb. 1961 &ndash; &rsaquo;Bella Martha&lsaquo;, &rsaquo;Das Leben der Anderen&lsaquo;, &rsaquo;Die Wand&lsaquo; &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär: die Schauspielerin, die durch ihre Figuren spricht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> prüft jedes Ding mit den Händen, bevor er ihm traut, und wirkt dabei unscheinbarer, als er ist. Martina Gedeck wurde am 14. September 1961 in München geboren und wuchs als älteste von drei Schwestern in Landshut auf. 1971 zog die Familie nach West-Berlin. Sie beschreibt ihre Kindheit als vertrauensvoll und harmonisch, ihre Eltern hätten viel Wert auf Phantasie gelegt, im Haus gab es keinen Fernseher.</p>
+          <p class="vb-intro">Nach dem Abitur 1981 studierte sie zunächst kurz Germanistik und Geschichte an der Freien Universität Berlin, bevor sie von 1982 bis 1986 an der Hochschule der Künste Berlin zur Schauspielerin ausgebildet wurde. 1985 stand sie erstmals auf einer Bühne in Frankfurt, im selben Jahr drehte sie ihren ersten Film, ›Retouche‹. Der Weg war kein Sprung ins Rampenlicht, sondern eine Folge ordentlich bewältigter Schritte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Können, das für sich spricht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Drei sucht ihren Wert in der Leistung, die man sieht. Die <strong>selbsterhaltende Drei (SE3)</strong> ist im Lebensmusterkompass dieser App der Kontratyp: Sie zeigt wenig von dem Glanz, den man mit einer Drei verbindet, und baut ihre Sicherheit auf handfestem Können, Verlässlichkeit und Fleiß. Dazu passt, wie Gedeck über sich spricht: ›Ich spreche durch meine Figuren.‹ Persönliches hält sie klein und gut bewacht, ihre Arbeit lässt sie sprechen.</p>
+          <p class="vb-intro">Das Bild, das von ihr entsteht, ist das einer fokussierten, zielstrebigen Arbeiterin. Sie erhielt 2002 den Deutschen Filmpreis als beste Hauptdarstellerin, die Goldene Kamera 2003 und 2015, den Grimme-Preis 1998, den Bayerischen Verdienstorden 2007 und wurde 2023 Mitglied der Oscar-Akademie. Die Bayerische Staatsregierung nennt sie in der Begründung eines Ehrenpreises zurückhaltend, bescheiden und auf den Schutz ihres Privatlebens bedacht. Die Reihe der Auszeichnungen ist nicht aus einem einzigen großen Erfolg entstanden, sondern aus Jahrzehnten gleichmäßiger Arbeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Innerlichkeit, Würde und Verletzlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> verleiht der Drei einen Hang zur Tiefe. Wo ein Zweierflügel Zuwendung und Gefälligkeit mitbrächte, bringt der Viererflügel Rückzug, Innenleben und den Wunsch, nicht austauschbar zu sein. Ein Gespräch im ›film-dienst‹ von 2006 nennt sie eine Meisterin des Understatements und beschreibt eine Mischung aus Verletzlichkeit, Würde und Introvertiertheit. Eine Reportage der ›Rheinpfalz‹ überschreibt ein Porträt mit ›Die geheimnisvolle Wandelbare‹.</p>
+          <p class="vb-intro">Sie hat Literatur immer geliebt, und das schlägt sich in ihrer Arbeit nieder: Sie arbeitet auch als Hörbuch- und Hörspielsprecherin und erhielt 2022 den Deutschen Hörbuchpreis als beste Interpretin. Rollen, die auf Innenräume zielen, ziehen sich durch ihre Laufbahn: Frauen, die etwas verbergen, aushalten oder verlieren. Mit dem Viererflügel lässt sich das gut verbinden, ohne dass sich mehr daraus ableiten ließe, als die Rollen selbst zeigen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Figuren, die viel in wenigen Gesten tragen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bekannt wurde Gedeck zunächst in komödiantischen und leichten Rollen, etwa in ›Der bewegte Mann‹ (1994) und ›Das Leben ist eine Baustelle‹ (1997). Der Durchbruch zur Hauptrolle kam 2001 mit ›Bella Martha‹: Sie spielt eine Köchin, die ihr Leben durch Strenge und Kontrolle zusammenhält, bis ihre kleine Nichte und ein neuer Koch ihre Ordnung durcheinanderbringen. Für diese Rolle erhielt sie den Deutschen Filmpreis. In ›Das Leben der Anderen‹ (2006, Florian Henckel von Donnersmarck) spielte sie die Schauspielerin Christa-Maria Sieland, die zwischen der Staatssicherheit und ihrem Geliebten aufgerieben wird. Der Film erhielt den Oscar für den besten fremdsprachigen Film.</p>
+          <p class="vb-intro">Es folgten Ulrike Meinhof in ›Der Baader Meinhof Komplex‹ (2008), die Frau allein im Wald in ›Die Wand‹ (2012, nach dem Roman von Marlen Haushofer) und Edith Frank, die Mutter Anne Franks, in ›Das Tagebuch der Anne Frank‹ (2016). Kritiker loben ihre fein abgestuften Frauenfiguren, das Spiel mit wenigen Mitteln. Nicht alles gelang: Zu ›Geliebte Clara‹ gab es gemischte Besprechungen. Ihre Stärke liegt darin, dass die Figur viel trägt und sie selbst dabei im Hintergrund bleibt, genau die ›natürliche Maske‹, die man der selbsterhaltenden Drei zuschreibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Catherine Deneuve</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine auffällige Parallele zeigt die französische Schauspielerin <a href="#beruehmte-catherine-deneuve">Catherine Deneuve (SE3w4)</a>: Auch sie baut ihre Wirkung auf eine beherrschte Oberfläche, die ein Innenleben ahnen lässt, auf wenige Mittel und auf geschützte Privatheit. Beide haben Auszeichnungen aus jahrzehntelanger Arbeit, nicht aus einem einzelnen Coup, und beide überlassen das Gesicht der Figur. Ebenfalls zu diesem Subtyp gehört die Journalistin <a href="#beruehmte-caren-miosga">Caren Miosga (SE3w4)</a>, deren Porträt dasselbe Grundmuster in einem anderen Beruf zeigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten: die Kontrolle über das eigene Bild</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht dieser Konstellation ist die Genauigkeit, die der Figur dient, und die Fähigkeit, Würde zu zeigen, ohne zu behaupten. Der Schatten der Drei liegt in der Sorge, das eigene Bild zu verlieren. 2016 rief der Deutsche Journalisten-Verband zu einem Interviewboykott auf, weil Gedeck nach seiner Darstellung Einfluss auf Aufmachung und Überschriften der Artikel nahm. Wer so wenig von sich zeigt, achtet darauf, dass das Wenige stimmt. Das lässt sich als Schutz des eigenen Bildes deuten, ohne mehr zu behaupten, als berichtet wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Der Heilungsweg: von der Rolle zur eigenen Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Weg der Drei führt von der Täuschung zur Wahrhaftigkeit: vom Bild, das gelingen soll, zum Menschen darunter. Bei Gedeck zeigt sich eine eigene Spur darin, dass sie ihre Stimme auch ohne Kostüm einsetzt: Beim Vorlesen von Büchern spricht sie unmittelbar, ohne Figur, aber mit allem, was sie kann. Die Auszeichnung als beste Hörbuch-Interpretin 2022 kann als Anerkennung dieser leiseren Form der Präsenz gelesen werden, in der nicht das Bild, sondern der Text und die Stimme tragen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-catherine-deneuve", label:"Porträt: Catherine Deneuve (SE3w4)"},
+        {route:"beruehmte-caren-miosga", label:"Porträt: Caren Miosga (SE3w4)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}

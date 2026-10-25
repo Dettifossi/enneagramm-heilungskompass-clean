@@ -2923,3 +2923,72 @@ export function mathiasBernerPortraitPage() {
     </div>
   `);
 }
+
+export function martinaGedeckPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-martina-gedeck-portrait.jpg" alt="Martina Gedeck – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Martina Gedeck</p>
+        <p class="krim-portrait-typ">SP3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">German actress, born 1961 &ndash; &lsquo;Bella Martha&rsquo;, &lsquo;The Lives of Others&rsquo;, &lsquo;The Wall&rsquo; &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon: the actress who speaks through her characters</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Raccoon</strong> tests every thing with its hands before it trusts it, and seems less conspicuous than it is. Martina Gedeck was born on 14 September 1961 in Munich and grew up as the eldest of three sisters in Landshut. In 1971 the family moved to West Berlin. She describes her childhood as trusting and harmonious; her parents set great store by imagination, and there was no television in the house.</p>
+          <p class="vb-intro">After her Abitur in 1981 she first studied German literature and history briefly at the Free University of Berlin, before training as an actress at the Berlin University of the Arts from 1982 to 1986. In 1985 she first appeared on stage in Frankfurt, and in the same year she made her first film, &lsquo;Retouche&rsquo;. The path was no leap into the spotlight but a series of steps properly completed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: skill that speaks for itself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three looks for her worth in the achievement that can be seen. The <strong>self-preservation Three (SP3)</strong> is the countertype in this app&rsquo;s Life Pattern Compass: she shows little of the glamour one associates with a Three and builds her security on solid skill, reliability and diligence. How Gedeck speaks about herself fits: &lsquo;I speak through my characters.&rsquo; She keeps personal matters small and well guarded and lets her work speak.</p>
+          <p class="vb-intro">The picture that emerges is that of a focused, determined worker. In 2002 she received the German Film Award as best actress, the Goldene Kamera in 2003 and 2015, the Grimme Award in 1998, the Bavarian Order of Merit in 2007, and in 2023 she became a member of the Academy of Motion Picture Arts and Sciences. In the citation for an honorary award the Bavarian State Government calls her reserved, modest and concerned to protect her private life. The row of awards did not arise from a single great success but from decades of steady work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: inwardness, dignity and vulnerability</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the Three a leaning towards depth. Where a Two-wing would bring attention and obligingness, the Four-wing brings withdrawal, inner life and the wish not to be interchangeable. A 2006 conversation in &lsquo;film-dienst&rsquo; calls her a master of understatement and describes a mixture of vulnerability, dignity and introversion. A report in &lsquo;Rheinpfalz&rsquo; headlines a portrait &lsquo;The mysterious chameleon&rsquo;.</p>
+          <p class="vb-intro">She has always loved literature, and that shows in her work: she also works as an audiobook and radio-play narrator and in 2022 received the German Audiobook Award as best interpreter. Roles aimed at inner spaces run through her career: women who hide, endure or lose something. This can be connected with the Four-wing, without deriving more from it than the roles themselves show.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: characters who carry much in few gestures</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gedeck first became known in comic and light roles, for instance in &lsquo;Der bewegte Mann&rsquo; (1994) and &lsquo;Das Leben ist eine Baustelle&rsquo; (1997). The breakthrough to the lead came in 2001 with &lsquo;Bella Martha&rsquo;: she plays a cook who holds her life together through strictness and control until her little niece and a new cook upset her order. For this role she received the German Film Award. In &lsquo;Das Leben der Anderen&rsquo; (2006, Florian Henckel von Donnersmarck) she played the actress Christa-Maria Sieland, ground down between the state security service and her lover. The film won the Oscar for best foreign language film.</p>
+          <p class="vb-intro">There followed Ulrike Meinhof in &lsquo;Der Baader Meinhof Komplex&rsquo; (2008), the woman alone in the forest in &lsquo;Die Wand&rsquo; (2012, after Marlen Haushofer&rsquo;s novel) and Edith Frank, Anne Frank&rsquo;s mother, in &lsquo;Das Tagebuch der Anne Frank&rsquo; (2016). Critics praise her finely graded female characters and her play with few means. Not everything succeeded: &lsquo;Geliebte Clara&rsquo; received mixed reviews. Her strength lies in the character carrying much while she herself stays in the background, exactly the &lsquo;natural mask&rsquo; attributed to the self-preservation Three.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. A parallel in the same subtype: Catherine Deneuve</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A striking parallel is shown by the French actress <a href="#beruehmte-catherine-deneuve">Catherine Deneuve (SP3w4)</a>: she too builds her effect on a controlled surface that lets an inner life be sensed, on few means and on guarded privacy. Both have awards from decades of work, not from a single coup, and both leave the face to the character. The journalist <a href="#beruehmte-caren-miosga">Caren Miosga (SP3w4)</a> also belongs to this subtype; her portrait shows the same basic pattern in a different profession.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow: control over one&rsquo;s own image</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of this constellation is the exactness that serves the character and the ability to show dignity without asserting it. The shadow of the Three lies in the worry about losing one&rsquo;s own image. In 2016 the German Journalists&rsquo; Association called for an interview boycott because, according to its account, Gedeck influenced the layout and headlines of articles. Whoever shows so little of herself takes care that the little is right. This can be read as protection of one&rsquo;s own image, without asserting more than was reported.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The path of healing: from the role to one&rsquo;s own voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The path of the Three leads from deception to truthfulness: from the image that is to succeed to the person beneath it. In Gedeck a trace of her own shows in the fact that she also uses her voice without a costume: when reading books aloud she speaks directly, without a character but with everything she can do. The 2022 award as best audiobook interpreter can be read as recognition of this quieter form of presence, in which not the image but the text and the voice carry.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-catherine-deneuve", label:"Portrait: Catherine Deneuve (SP3w4)"},
+        {route:"beruehmte-caren-miosga", label:"Portrait: Caren Miosga (SP3w4)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}

@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=392";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=393";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -87,6 +87,7 @@ const natalieDormerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js"
 const ninaChubaPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "ninaChubaPortraitPage");
 const pierceBrosnanPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "pierceBrosnanPortraitPage");
 const jeanMaraisPortraitPage = () => _lazyPage("./data/beruehmte-de/teil14.js", "jeanMaraisPortraitPage");
+const martinaGedeckPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "martinaGedeckPortraitPage");
 const ruthBaderGinsburgPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "ruthBaderGinsburgPortraitPage");
 const stephenHawkingPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "stephenHawkingPortraitPage");
 const suzanLoriParksPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "suzanLoriParksPortraitPage");
@@ -27643,6 +27644,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Jean Marais \u2013 Selbsterhaltender Typ 1",
     teaser:"SE1w2 \u00b7 1913\u20131998. Franz\u00f6sischer Schauspieler, Bildhauer und T\u00f6pfer, Biest in Cocteaus \u203aLa Belle et la B\u00eate\u2039. Der Adler, der seine Stunts selbst machte und Cocteau die Treue hielt.",
     land:"Frankreich", tags:["Schauspiel","Kunst"], gender:"m"},
+  { route:"beruehmte-martina-gedeck", name:"Martina Gedeck", added:"2026-10-25", subtyp:"SE3w4",
+    heading:"Martina Gedeck \u2013 Selbsterhaltender Typ 3",
+    teaser:"SE3w4 \u00b7 geb. 1961. Deutsche Schauspielerin (\u203aBella Martha\u2039, \u203aDas Leben der Anderen\u2039, \u203aDie Wand\u2039). Der Waschbär, der durch seine Figuren spricht und sein Privatleben sch\u00fctzt.",
+    land:"Deutschland", tags:["Schauspiel"], gender:"f"},
   { route:"beruehmte-christoph-waltz", name:"Christoph Waltz", subtyp:"SE1w2",
     heading:"Christoph Waltz \u2013 Selbsterhaltender Typ 1",
     teaser:"SE1w2 \u00b7 \u201eDer Adler\u201c, geb. 1956. Zweifacher Oscar-Preistr\u00e4ger f\u00fcr Inglourious Basterds und Django Unchained. F\u00fcnfzig Jahre Handwerk, ein ganzes Leben lang innere Pr\u00e4zision \u2013 dann der Moment, auf den der Adler gewartet hatte. Tierentsprechung: Adler.",
@@ -66706,6 +66711,7 @@ const ROUTES = {
       "beruehmte-anthony-hopkins": anthonyHopkinsPortraitPage,
       "beruehmte-pierce-brosnan": pierceBrosnanPortraitPage,
       "beruehmte-jean-marais": jeanMaraisPortraitPage,
+      "beruehmte-martina-gedeck": martinaGedeckPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,
       "beruehmte-arnold-schwarzenegger": arnoldSchwarzeneggerPortraitPage, "beruehmte-sigourney-weaver": sigourneyWeaverPortraitPage, "beruehmte-jessica-biel": jessicaBielPortraitPage, "beruehmte-justin-timberlake": justinTimberlakePortraitPage, "beruehmte-nico-rosberg": nicoRosbergPortraitPage, "beruehmte-lewis-hamilton": lewisHamiltonPortraitPage, "beruehmte-niki-lauda": nikiLaudaPortraitPage, "beruehmte-johannes-gutenberg": johannesGutenbergPortraitPage, "beruehmte-konrad-zuse": konradZusePortraitPage, "beruehmte-javier-tebas": javierTebasPortraitPage, "beruehmte-philippe-sands": philippeSandsPortraitPage, "beruehmte-sean-sherman": seanShermanPortraitPage, "beruehmte-billie-lourd": billieLourdPortraitPage, "beruehmte-ruby-true": rubyTruePortraitPage, "beruehmte-caroline-wozniacki": carolineWozniackiPortraitPage, "beruehmte-kennerly-kitt": kennerlyKittPortraitPage, "beruehmte-camille-kitt": camilleKittPortraitPage, "beruehmte-werner-ablass": wernerAblassPortraitPage, "beruehmte-hubert-benoit": hubertBenoitPortraitPage, "beruehmte-eleanor-roosevelt": eleanorRooseveltPortraitPage, "beruehmte-bruno-groening": brunoGroeningPortraitPage, "beruehmte-joel-goldsmith": joelGoldsmithPortraitPage, "beruehmte-maria-treben": mariaTrebenPortraitPage, "beruehmte-susan-polgar": susanPolgarPortraitPage, "beruehmte-jens-riewa": jensRiewaPortraitPage, "beruehmte-marleen-lohse": marleenLohsePortraitPage, "beruehmte-andrea-sawatzki": andreaSawatzkiPortraitPage, "beruehmte-senta-berger": sentaBergerPortraitPage, "beruehmte-robert-greene": robertGreenePortraitPage, "beruehmte-sofia-polgar": sofiaPolgarPortraitPage, "beruehmte-dieter-thomas-heck": dieterThomasHeckPortraitPage, "beruehmte-ramana-maharshi": ramanaMaharshiPortraitPage, "beruehmte-luke-nichols": lukeNicholsPortraitPage, "beruehmte-matthias-reim": matthiasReimPortraitPage,
