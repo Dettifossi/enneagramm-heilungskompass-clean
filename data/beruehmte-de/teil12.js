@@ -621,7 +621,7 @@ export function heinrichHeinePortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Vier: Scham zwischen zwei Zugehörigkeiten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die soziale Vier trägt die Vierer-Grundüberzeugung &ndash; <em>mit mir stimmt etwas nicht, ich bin anders als die anderen</em> &ndash; direkt in die Gruppe hinein. Sie zieht sich nicht zurück, sondern vergleicht sich unablässig: Wer gehört dazu, wer nicht, und warum bin ausgerechnet ich derjenige, der nicht ganz hineinpasst? Naranjo beschreibt diesen Subtyp über das Element der <em>Scham</em> &ndash; ein Gefühl, das paradoxerweise nicht zum Rückzug führt, sondern zur ständigen Suche nach Bestätigung durch genau die Gruppe, von der man sich ausgeschlossen fühlt.</p>
+          <p class="vb-intro">Die soziale Vier trägt die Vierer-Grundüberzeugung &ndash; <em>mit mir stimmt etwas nicht, ich bin anders als die anderen</em> &ndash; direkt in die Gruppe hinein. Sie zieht sich nicht zurück, sondern vergleicht sich unablässig: Wer gehört dazu, wer nicht, und warum bin ausgerechnet ich derjenige, der nicht ganz hineinpasst? Naranjo (bei dem der Autor das Enneagramm gelernt hat) beschreibt diesen Subtyp über das Element der <em>Scham</em> &ndash; ein Gefühl, das paradoxerweise nicht zum Rückzug führt, sondern zur ständigen Suche nach Bestätigung durch genau die Gruppe, von der man sich ausgeschlossen fühlt.</p>
           <p class="vb-intro">Mit achtzehn Jahren verliebte sich Heine unglücklich in seine Cousine Amalie, die Tochter seines wohlhabenden Onkels Salomon Heine, und später, ebenso vergeblich, in deren jüngere Schwester Therese &ndash; eine doppelte Zurückweisung, die zum Thema vieler seiner frühen Gedichte wurde. Das Muster wiederholte sich: geduldet und finanziell unterstützt vom eigenen Onkel, aber nie wirklich als gleichwertig anerkannt; berühmt in ganz Europa, aber innerlich stets zwischen den Zugehörigkeiten stehend, ohne wirklich in einer anzukommen.</p>
         </blockquote>
 
@@ -1049,7 +1049,7 @@ export function loiPortraitPage() {
 
         <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge durch familiäre Nähe im Erfolg</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Sicherheit und Nähe entstehen zuerst im engsten, vertrautesten Kreis, bevor sie sich nach außen richten. 2017, mit gerade einmal 15 Jahren, trat Loi bei <em>The Voice Kids</em> an und erreichte das Finale – ein früher öffentlicher Auftritt, der sie aber nicht sofort in eine Solokarriere im Rampenlicht katapultierte, sondern der Beginn eines langsamen, kontinuierlichen Aufbaus war.</p>
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo (bei dem der Autor das Enneagramm gelernt hat) <em>Me First</em>: Sicherheit und Nähe entstehen zuerst im engsten, vertrautesten Kreis, bevor sie sich nach außen richten. 2017, mit gerade einmal 15 Jahren, trat Loi bei <em>The Voice Kids</em> an und erreichte das Finale – ein früher öffentlicher Auftritt, der sie aber nicht sofort in eine Solokarriere im Rampenlicht katapultierte, sondern der Beginn eines langsamen, kontinuierlichen Aufbaus war.</p>
           <p class="vb-intro">Diese Geduld, über Jahre am eigenen Handwerk zu arbeiten, statt den schnellen Durchbruch zu suchen, ist typisch für die SE2: Sicherheit wird zuerst innerhalb der eigenen musikalischen Basis aufgebaut, bevor sie nach außen in größere Erfolge übersetzt wird.</p>
         </blockquote>
 
@@ -2273,7 +2273,7 @@ export function charlesLaughtonPortraitPage() {
 
         <h2 class="vb-section">2. Die selbsterhaltende Neun: Appetit als Zuflucht</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Naranjo nannte die <strong>selbsterhaltende Neun (SE9)</strong> treffend <em>Appetit</em>: Sicherheit durch das Behagen sinnlicher, konkreter Genüsse, durch ein Sich-Einrichten im Angenehmen, das eine tiefer liegende innere Leere überdeckt. Laughton war ein leidenschaftlicher Feinschmecker und Koch, ein begeisterter Kunstsammler mit einer bemerkenswerten Sammlung moderner Gemälde, und jemand, der sich mit Vorliebe stundenlang in Lyrik und Shakespeare-Lesungen vertiefte &ndash; Genüsse, die er kultivierte, während er sein eigenes Verhältnis zu seinem Körper zeitlebens mied.</p>
+          <p class="vb-intro">Naranjo (Enneagramm-Lehrer des Autors) nannte die <strong>selbsterhaltende Neun (SE9)</strong> treffend <em>Appetit</em>: Sicherheit durch das Behagen sinnlicher, konkreter Genüsse, durch ein Sich-Einrichten im Angenehmen, das eine tiefer liegende innere Leere überdeckt. Laughton war ein leidenschaftlicher Feinschmecker und Koch, ein begeisterter Kunstsammler mit einer bemerkenswerten Sammlung moderner Gemälde, und jemand, der sich mit Vorliebe stundenlang in Lyrik und Shakespeare-Lesungen vertiefte &ndash; Genüsse, die er kultivierte, während er sein eigenes Verhältnis zu seinem Körper zeitlebens mied.</p>
           <p class="vb-intro">Seine Homosexualität, die er zeitlebens geheim hielt, weil sie in seiner Zeit sowohl gesellschaftlich geächtet als auch strafbar war, verstärkte diese Zuflucht ins Behagliche zusätzlich: Statt einer offenen Auseinandersetzung mit der eigenen Identität richtete er sich in einer sorgfältig gepflegten, äußerlich makellosen bürgerlichen Fassade ein.</p>
         </blockquote>
 
@@ -2746,7 +2746,7 @@ export function wietskeVanTongerenPortraitPage() {
 
         <h2 class="vb-section">2. Die sexuelle Sieben: verliebt in Stücke und Rollen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Sieben sucht den Rausch des Neuen. Die <strong>sexuelle Sieben (SX7)</strong> nannte Claudio Naranjo den Subtyp der ›Suggestibility‹: Sie lässt sich von einer Idee, einer Musik, einer Rolle so vollständig faszinieren, dass sie darin versinkt. Sie sucht nicht Überfluss und nicht Zugehörigkeit, sondern Intensität.</p>
+          <p class="vb-intro">Die Sieben sucht den Rausch des Neuen. Die <strong>sexuelle Sieben (SX7)</strong> nannte Claudio Naranjo (bei dem der Autor das Enneagramm gelernt hat) den Subtyp der ›Suggestibility‹: Sie lässt sich von einer Idee, einer Musik, einer Rolle so vollständig faszinieren, dass sie darin versinkt. Sie sucht nicht Überfluss und nicht Zugehörigkeit, sondern Intensität.</p>
           <p class="vb-intro">Bei van Tongeren zeigt sich das in den Worten, die sie für ihre Arbeit wählt. Auf die Frage nach ihrer Rolle als Maria in ›The Sound of Music‹ sagte sie: ›Ich liebe jede meiner Rollen.‹ Über ein neues Stück: ›Ich habe mich direkt in die Musik verliebt.‹ Und: ›Ich liebe es, wenn neue Stücke entstehen.‹ Zu ihrer Rolle der Adrian in der Uraufführung von ›Rocky‹ sagte sie, sie hätte ›nie im Leben gedacht‹, sie zu bekommen. Von ihrem Kollegen Drew Sarich sagt sie: ›Drew ist total locker, das überträgt sich auf mich.‹ Das ist die Ansteckung der Sieben. Auch in der Salzburger Maria durfte sie ›quirlig sein, wie ich auch privat ein bisschen bin‹.</p>
         </blockquote>
 
@@ -2894,7 +2894,7 @@ export function vitaliKlitschkoPortraitPage() {
 
         <h2 class="vb-section">2. Die selbsterhaltende Sieben: der Kreis der Familie</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Bei der <strong>selbsterhaltenden Sieben (SE7)</strong> wendet sich die Gier der Sieben nach immer mehr auf den eigenen Schutzraum: Claudio Naranjo sprach von der ›Familie‹, einem Appetit auf Sicherheit und Zugehörigkeit im engsten Kreis. Bei Klitschko ist dieser Kreis das Brüderpaar. Vitali und sein Bruder Wladimir dominierten gemeinsam das Schwergewicht in der Zeit, die als ›Klitschko-Ära‹ (2006 bis 2015) gilt, und sie traten nie gegeneinander an.</p>
+          <p class="vb-intro">Bei der <strong>selbsterhaltenden Sieben (SE7)</strong> wendet sich die Gier der Sieben nach immer mehr auf den eigenen Schutzraum: Claudio Naranjo (von dem der Autor das Enneagramm gelernt hat) sprach von der ›Familie‹, einem Appetit auf Sicherheit und Zugehörigkeit im engsten Kreis. Bei Klitschko ist dieser Kreis das Brüderpaar. Vitali und sein Bruder Wladimir dominierten gemeinsam das Schwergewicht in der Zeit, die als ›Klitschko-Ära‹ (2006 bis 2015) gilt, und sie traten nie gegeneinander an.</p>
           <p class="vb-intro">Seit 1996 war er mit Natalia Jehorowa verheiratet; sie haben drei Kinder und leben seit 2022 getrennt. Als Russland im Februar 2022 die Ukraine vollständig angriff, versprachen er und Wladimir, Kiew zu verteidigen, und sammelten im März in Deutschland 100 Millionen Euro.</p>
         </blockquote>
 

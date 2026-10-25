@@ -2881,7 +2881,7 @@ export function vitaliKlitschkoPortraitPage() {
 
         <h2 class="vb-section">2. The self-preservation Seven: the circle of the family</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In the <strong>self-preservation Seven (SP7)</strong> the Seven&rsquo;s craving for ever more turns to its own protected space: Claudio Naranjo spoke of the &lsquo;family&rsquo;, an appetite for security and belonging in the closest circle. In Klitschko this circle is the pair of brothers. Vitali and his brother Wladimir dominated the heavyweight division together in the period known as the &lsquo;Klitschko Era&rsquo; (2006 to 2015), and they never fought each other.</p>
+          <p class="vb-intro">In the <strong>self-preservation Seven (SP7)</strong> the Seven&rsquo;s craving for ever more turns to its own protected space: Claudio Naranjo (with whom the author learned the Enneagram) spoke of the &lsquo;family&rsquo;, an appetite for security and belonging in the closest circle. In Klitschko this circle is the pair of brothers. Vitali and his brother Wladimir dominated the heavyweight division together in the period known as the &lsquo;Klitschko Era&rsquo; (2006 to 2015), and they never fought each other.</p>
           <p class="vb-intro">He was married to Natalia Yehorova from 1996; they have three children and have lived separately since 2022. When Russia launched its full-scale invasion in February 2022, he and Wladimir pledged to defend Kyiv and raised &euro;100 million in Germany in March.</p>
         </blockquote>
 

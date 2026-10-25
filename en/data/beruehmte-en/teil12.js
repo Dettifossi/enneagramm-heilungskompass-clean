@@ -621,7 +621,7 @@ export function heinrichHeinePortraitPage() {
 
         <h2 class="vb-section">2. Social Four: Shame Between Two Belongings</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The social Four carries the Four's core conviction &ndash; <em>something is wrong with me, I am different from others</em> &ndash; directly into the group. She does not withdraw but constantly compares: who belongs, who doesn't, and why am I precisely the one who doesn't quite fit in? Naranjo describes this subtype through the element of <em>shame</em> &ndash; a feeling that paradoxically does not lead to withdrawal, but to a constant search for confirmation from exactly the group one feels excluded from.</p>
+          <p class="vb-intro">The social Four carries the Four's core conviction &ndash; <em>something is wrong with me, I am different from others</em> &ndash; directly into the group. She does not withdraw but constantly compares: who belongs, who doesn't, and why am I precisely the one who doesn't quite fit in? Naranjo (from whom the author learned the Enneagram) describes this subtype through the element of <em>shame</em> &ndash; a feeling that paradoxically does not lead to withdrawal, but to a constant search for confirmation from exactly the group one feels excluded from.</p>
           <p class="vb-intro">At eighteen, Heine fell unhappily in love with his cousin Amalie, daughter of his wealthy uncle Salomon Heine, and later, just as unsuccessfully, with her younger sister Therese &ndash; a double rejection that became the theme of many of his early poems. The pattern repeated itself: tolerated and financially supported by his own uncle, but never truly accepted as an equal; famous across Europe, yet inwardly always standing between belongings, never quite arriving in either.</p>
         </blockquote>
 
@@ -1049,7 +1049,7 @@ export function loiPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Two: Care Through Family Closeness Within Success</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SP2)</strong> <em>Me First</em>: security and closeness arise first within the closest, most familiar circle, before turning outward. In 2017, at just 15, Loi competed on <em>The Voice Kids</em> and reached the finale – an early public appearance that did not immediately catapult her into a solo spotlight career, but marked the beginning of a slow, continuous build.</p>
+          <p class="vb-intro">Naranjo (from whom the author learned the Enneagram) called the <strong>self-preservation Two (SP2)</strong> <em>Me First</em>: security and closeness arise first within the closest, most familiar circle, before turning outward. In 2017, at just 15, Loi competed on <em>The Voice Kids</em> and reached the finale – an early public appearance that did not immediately catapult her into a solo spotlight career, but marked the beginning of a slow, continuous build.</p>
           <p class="vb-intro">This patience to work on her own craft for years, rather than chase a quick breakthrough, is typical of the SP2: security is built first within one's own musical foundation before it is translated outward into greater success.</p>
         </blockquote>
 
@@ -2716,7 +2716,7 @@ export function wietskeVanTongerenPortraitPage() {
 
         <h2 class="vb-section">2. The sexual Seven: in love with plays and roles</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Seven seeks the intoxication of the new. Claudio Naranjo called the <strong>sexual Seven (SX7)</strong> the subtype of &lsquo;suggestibility&rsquo;: it lets itself be so completely fascinated by an idea, a piece of music, a role that it sinks into it. It seeks neither abundance nor belonging, but intensity.</p>
+          <p class="vb-intro">The Seven seeks the intoxication of the new. Claudio Naranjo (from whom the author learned the Enneagram) called the <strong>sexual Seven (SX7)</strong> the subtype of &lsquo;suggestibility&rsquo;: it lets itself be so completely fascinated by an idea, a piece of music, a role that it sinks into it. It seeks neither abundance nor belonging, but intensity.</p>
           <p class="vb-intro">In van Tongeren this shows in the words she chooses for her work. Asked about her role as Maria in &lsquo;The Sound of Music&rsquo; she said: &lsquo;I love every one of my roles.&rsquo; About a new piece: &lsquo;I fell in love with the music straight away.&rsquo; And: &lsquo;I love it when new pieces come into being.&rsquo; About her role as Adrian in the world premiere of &lsquo;Rocky&rsquo; she said she would &lsquo;never in my life have thought&rsquo; she would get it. About her colleague Drew Sarich she says: &lsquo;Drew is totally relaxed, and that rubs off on me.&rsquo; Here we see the Seven&rsquo;s infection. In the Salzburg Maria too she was allowed to be &lsquo;bubbly, as I am a little in private too&rsquo;.</p>
         </blockquote>
 

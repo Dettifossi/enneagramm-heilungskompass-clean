@@ -1198,7 +1198,7 @@ export function martinLutherPortraitPage() {
 
         <h2 class="vb-section">2. The Sexual One: Zeal as a Way of Life</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>sexual One (SX1)</strong> does not spread its demand for perfection thin across many fronts, but bundles it into a single, all-consuming fixation. Naranjo called this subtype <em>Zeal</em>: a passion that does not settle for order in small things, but is directed with missionary force at one cause, one person, one mission—uncompromising, with no room for negotiation.</p>
+          <p class="vb-intro">The <strong>sexual One (SX1)</strong> does not spread its demand for perfection thin across many fronts, but bundles it into a single, all-consuming fixation. Naranjo (the author's teacher) called this subtype <em>Zeal</em>: a passion that does not settle for order in small things, but is directed with missionary force at one cause, one person, one mission—uncompromising, with no room for negotiation.</p>
           <p class="vb-intro">On October 31, 1517, Luther, according to tradition, nailed his 95 Theses against the sale of indulgences to the door of Wittenberg's Castle Church—the opening act of a movement he drove forward for decades with tireless writing and preaching. When he had to go into hiding at the Wartburg in 1521, he translated the New Testament into German in just eleven weeks—a workload that speaks less of diligence than of an almost obsessive inner urgency. The sexual One knows no half measures: either the doctrine is pure, or it isn't, and then the fight must go on until clarity prevails.</p>
         </blockquote>
 

@@ -1414,7 +1414,7 @@ export function ruthBaderGinsburgPortraitPage() {
 
         <h2 class="vb-section">2. The Sexual Eight: Possession</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to Naranjo, the Sexual Eight (SX8) is the subtype he termed "Possession." The Sexual Eight does not merely wish to win. It seeks full engagement: total conviction, absolute connection, and an influence that is non-negotiable. What the SX8 loves, she loves with her entire being. What she deems wrong, she will not leave unchallenged.</p>
+          <p class="vb-intro">According to Naranjo (with whom the author learned the Enneagram), the Sexual Eight (SX8) is the subtype he termed "Possession." The Sexual Eight does not merely wish to win. It seeks full engagement: total conviction, absolute connection, and an influence that is non-negotiable. What the SX8 loves, she loves with her entire being. What she deems wrong, she will not leave unchallenged.</p>
           <p class="vb-intro">Ginsburg's life reads like an SX8 blueprint: she did not want to be just one of many judges—she sought to transform the law itself. As an attorney in the 1970s, she argued cases before the Supreme Court that systematically and methodically fought for legal gender equality. She selected her cases like a crocodile chooses its prey: thoughtfully, without haste—and with the knowledge that the strike would hold.</p>
         </blockquote>
 
@@ -1480,7 +1480,7 @@ export function stephenHawkingPortraitPage() {
 
         <h2 class="vb-section">2. The Social Five: Knowledge That Belongs to Humanity</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>social Five (SO5)</strong> finds security not in withdrawal, but in becoming indispensable to a larger community through knowledge. Naranjo described this subtype through the image of someone who treats their understanding as a kind of legacy &ndash; something that must be shared to reach its full value. Hawking's research on black holes, particularly Hawking radiation, named after him (1974, the theoretical prediction that black holes are not entirely black but slowly emit radiation and eventually evaporate), ranks among the most influential contributions to twentieth-century theoretical physics.</p>
+          <p class="vb-intro">The <strong>social Five (SO5)</strong> finds security not in withdrawal, but in becoming indispensable to a larger community through knowledge. Naranjo (with whom the author learned the Enneagram) described this subtype through the image of someone who treats their understanding as a kind of legacy &ndash; something that must be shared to reach its full value. Hawking's research on black holes, particularly Hawking radiation, named after him (1974, the theoretical prediction that black holes are not entirely black but slowly emit radiation and eventually evaporate), ranks among the most influential contributions to twentieth-century theoretical physics.</p>
           <p class="vb-intro">Yet Hawking never confined himself to the specialist world. In 1988 he published "A Brief History of Time" &ndash; a book meant to make the most complex cosmology accessible to a general audience, which sold over ten million copies in more than forty languages. The octopus reshapes its body to fit through any gap &ndash; Hawking kept reshaping the language of theoretical physics until it fit through the narrow opening of general understanding.</p>
         </blockquote>
 
@@ -2132,7 +2132,7 @@ export function natalieDormerPortraitPage() {
 
         <h2 class="vb-section">2. The Sexual Six: Confrontation Instead of Accommodation</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Sexual Six (SX6)</strong> meets uncertainty, according to Naranjo, not with accommodation but with direct, often confrontational displays of strength. Dormer is known for her blunt, direct manner in interviews – she rarely avoids controversial topics and holds her position even when it goes against the production consensus.</p>
+          <p class="vb-intro">The <strong>Sexual Six (SX6)</strong> meets uncertainty, according to Naranjo (the author's Enneagram teacher), not with accommodation but with direct, often confrontational displays of strength. Dormer is known for her blunt, direct manner in interviews – she rarely avoids controversial topics and holds her position even when it goes against the production consensus.</p>
           <p class="vb-intro">On "The Tudors," she publicly pushed to have a nude scene she considered unnecessarily exploitative removed from the script and insisted on more control over how her character was physically portrayed. This is not quiet negotiation, but the typical SX6 movement: threat is not silently accepted, but openly confronted.</p>
         </blockquote>
 

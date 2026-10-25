@@ -759,7 +759,7 @@ export function jacquelineMarsPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Eight: Satisfaction</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The self-preservation Eight (SP8) expresses the passion of the Eight—lust—through ownership, securing resources, and sensory abundance. Naranjo called this subtype Satisfacción: satisfaction as a life principle. The SP8 wants to have what it needs—and builds the structures that ensure it stays that way. Not tomorrow. Permanently.</p>
+          <p class="vb-intro">The self-preservation Eight (SP8) expresses the passion of the Eight—lust—through ownership, securing resources, and sensory abundance. Naranjo (the author's teacher) called this subtype Satisfacción: satisfaction as a life principle. The SP8 wants to have what it needs—and builds the structures that ensure it stays that way. Not tomorrow. Permanently.</p>
           <p class="vb-intro">Jacqueline Mars lived this principle with a consistency barely noticeable from the outside—because she fulfilled it so completely that drama was no longer necessary. The business runs. The territory is secured. The SP8 does not need cameras to maintain control; it needs structures that work. Mars, Incorporated has been family-owned for generations and was never publicly traded—that is not a whim, this shows an SP8 decision.</p>
         </blockquote>
 

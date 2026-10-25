@@ -850,7 +850,7 @@ export function julianAssangePortraitPage() {
 
         <h2 class="vb-section">2. The Social Nine: Dissolving Into a Larger Cause</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Social Nine (SO9)</strong> is what Naranjo called <em>Participation</em>: peace through belonging to a community or an idea larger than the self. The SO9 merges with a cause so completely that her own person recedes &ndash; not out of weakness, but because she finds her identity in that belonging.</p>
+          <p class="vb-intro">The <strong>Social Nine (SO9)</strong> is what Naranjo (with whom the author learned the Enneagram) called <em>Participation</em>: peace through belonging to a community or an idea larger than the self. The SO9 merges with a cause so completely that her own person recedes &ndash; not out of weakness, but because she finds her identity in that belonging.</p>
           <p class="vb-intro">Assange merged with the idea of radical transparency in a way that shaped the rest of his life. WikiLeaks was, for him, not a professional stepping stone but a community of the informed to which he devoted himself entirely &ndash; the release of the Afghan and Iraq war logs in 2010, the “Collateral Murder” video, hundreds of thousands of diplomatic cables. The SO9 knows no half-commitments: when she devotes herself to a cause, she does so completely.</p>
         </blockquote>
 
@@ -2118,7 +2118,7 @@ export function arnoldSchwarzeneggerPortraitPage() {
 
         <h2 class="vb-section">2. The self-preservation one: perfection as one's own, non-negotiable standard</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation one (SP1)</strong> does not direct its perfectionism outward, but works at its own preparation and integrity. Naranjo called this subtype <em>Worry</em>: the constant inner question of whether one is truly living up to one's own standard. Schwarzenegger's entire career follows this pattern with almost textbook consistency: a seven-time Mr. Olympia champion through the strictest training discipline, alongside a business degree earned by correspondence course and an early-built real estate portfolio – while other bodybuilders worked only on their bodies, he systematically controlled every area of his life.</p>
+          <p class="vb-intro">The <strong>self-preservation one (SP1)</strong> does not direct its perfectionism outward, but works at its own preparation and integrity. Naranjo (the author's teacher) called this subtype <em>Worry</em>: the constant inner question of whether one is truly living up to one's own standard. Schwarzenegger's entire career follows this pattern with almost textbook consistency: a seven-time Mr. Olympia champion through the strictest training discipline, alongside a business degree earned by correspondence course and an early-built real estate portfolio – while other bodybuilders worked only on their bodies, he systematically controlled every area of his life.</p>
           <p class="vb-intro">His best-known line, "There are no shortcuts," is not a marketing phrase but the essence of his inner standard: any shortcut would be a betrayal of his own integrity. He carried this same rigor unchanged into his acting career – a painstakingly trained English accent, years of targeted role preparation – and later into his political office as Governor of California (2003–2011).</p>
         </blockquote>
 

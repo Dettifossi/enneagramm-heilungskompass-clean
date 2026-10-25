@@ -2181,7 +2181,7 @@ export function peterMaffayPortraitPage() {
 
         <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung mit einem einzigen Lebenswerk</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> ist nach Naranjo die Variante der Trägheits-Leidenschaft, die sich in vollständiger Verschmelzung mit einem einzigen, alles überragenden Werk oder Gegenüber ausdrückt – das eigene Selbst tritt zurück, um vollständig darin aufzugehen. Bei Maffay ist dieses eine Werk der kleine Drache Tabaluga: 1983 als Konzeptalbum entstanden, entwickelte sich die Figur über vier Jahrzehnte zu Musical, Zeichentrickserie und schließlich zum Namensgeber seiner eigenen Stiftung.</p>
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> ist nach Naranjo (Lehrer des Autors) die Variante der Trägheits-Leidenschaft, die sich in vollständiger Verschmelzung mit einem einzigen, alles überragenden Werk oder Gegenüber ausdrückt – das eigene Selbst tritt zurück, um vollständig darin aufzugehen. Bei Maffay ist dieses eine Werk der kleine Drache Tabaluga: 1983 als Konzeptalbum entstanden, entwickelte sich die Figur über vier Jahrzehnte zu Musical, Zeichentrickserie und schließlich zum Namensgeber seiner eigenen Stiftung.</p>
           <p class="vb-intro">Anders als viele Musiker seiner Generation, die ihre kreative Energie auf wechselnde Projekte, Bands oder Genres verteilten, blieb Maffay über sein gesamtes späteres Berufsleben bei dieser einen Figur – nicht als Nebenprojekt neben der Musikkarriere, sondern zunehmend als deren eigentliches Zentrum. Genau das zeigt die SX9 in ihrer produktivsten Form: keine Verteilung auf viele Bindungen, sondern das vollständige Aufgehen in der einen.</p>
         </blockquote>
 
@@ -3019,7 +3019,7 @@ export function danielleVasinovaPortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Drei: Ansehen in einer großen Welt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die soziale Drei sucht das Ansehen in der Gemeinschaft und gewinnt es über Leistung, wie es Claudio Naranjo mit ›Prestige‹ benannte. Bei Vasinova lag das Gewicht lange auf dem Aussehen vor der Kamera, bis sie sich als Schauspielerin einen zweiten Boden schuf. Ihr Durchbruch kam mit zwei Rollen im Universum des Serienautors Taylor Sheridan: Ata Waipa in ›1923‹ und Kestrel Harris in ›The Madison‹, an der Seite von Michelle Pfeiffer und Kurt Russell. Sie ist die einzige Schauspielerin, die in beiden Serien auftritt.</p>
+          <p class="vb-intro">Die soziale Drei sucht das Ansehen in der Gemeinschaft und gewinnt es über Leistung, wie es Claudio Naranjo (Enneagramm-Lehrer des Autors) mit ›Prestige‹ benannte. Bei Vasinova lag das Gewicht lange auf dem Aussehen vor der Kamera, bis sie sich als Schauspielerin einen zweiten Boden schuf. Ihr Durchbruch kam mit zwei Rollen im Universum des Serienautors Taylor Sheridan: Ata Waipa in ›1923‹ und Kestrel Harris in ›The Madison‹, an der Seite von Michelle Pfeiffer und Kurt Russell. Sie ist die einzige Schauspielerin, die in beiden Serien auftritt.</p>
           <p class="vb-intro">Nach Berichten war sie kurz davor, die Schauspielerei aufzugeben, bevor die beiden Anrufe kamen. Das zeigt die andere Seite der Drei: Wer sein Ansehen aus Leistung zieht, spürt jede Durststrecke.</p>
         </blockquote>
 

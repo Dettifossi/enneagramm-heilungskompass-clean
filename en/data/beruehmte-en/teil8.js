@@ -706,7 +706,7 @@ export function jamaicaKincaidPortraitPage() {
 
         <h2 class="vb-section">2. The Social Eight: Solidarity</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The social Eight (SO8) puts its strength in the service of those without power. Naranjo called this subtype Solidarity: the SO8 identifies with the oppressed—not out of pity, but out of deep indignation at injustice itself. It steps in front of them. Without detours, without excuses.</p>
+          <p class="vb-intro">The social Eight (SO8) puts its strength in the service of those without power. Naranjo (from whom the author learned the Enneagram) called this subtype Solidarity: the SO8 identifies with the oppressed—not out of pity, but out of deep indignation at injustice itself. It steps in front of them. Without detours, without excuses.</p>
           <p class="vb-intro">Kincaid's essay A Small Place (1988) is the document of this energy. She addresses the white tourist visiting Antigua directly, explaining sentence by sentence what they fail to see, refuse to see, and are not allowed to see in order to enjoy their vacation. It is not an accusatory text—it is an unmasking one. The SO8 does not carry the loudest voice; it carries the clearest.</p>
         </blockquote>
 
@@ -2974,7 +2974,7 @@ export function danielleVasinovaPortraitPage() {
 
         <h2 class="vb-section">2. The social Three: standing in a big world</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The social Three seeks standing in the community and gains it through achievement, which Claudio Naranjo named &lsquo;prestige&rsquo;. For a long time Vasinova&rsquo;s weight lay on appearance in front of the camera, until she created a second footing as an actress. Her breakthrough came with two roles in the universe of series creator Taylor Sheridan: Ata Waipa in &lsquo;1923&rsquo; and Kestrel Harris in &lsquo;The Madison&rsquo;, alongside Michelle Pfeiffer and Kurt Russell. She is the only actress who appears in both series.</p>
+          <p class="vb-intro">The social Three seeks standing in the community and gains it through achievement, which Claudio Naranjo (the author's Enneagram teacher) named &lsquo;prestige&rsquo;. For a long time Vasinova&rsquo;s weight lay on appearance in front of the camera, until she created a second footing as an actress. Her breakthrough came with two roles in the universe of series creator Taylor Sheridan: Ata Waipa in &lsquo;1923&rsquo; and Kestrel Harris in &lsquo;The Madison&rsquo;, alongside Michelle Pfeiffer and Kurt Russell. She is the only actress who appears in both series.</p>
           <p class="vb-intro">According to reports she was close to giving up acting before the two calls came. This shows the other side of the Three: whoever draws standing from achievement feels every dry spell.</p>
         </blockquote>
 

@@ -787,7 +787,7 @@ export function jamaicaKincaidPortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Acht: Solidarit\xe4t</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> setzt ihre Kraft in den Dienst derer, die keine Macht haben. Naranjo nannte diesen Subtyp <em>Solidarit\xe4t</em>: Die SO8 identifiziert sich mit den Unterdr\xfcckten &ndash; nicht aus Mitleid, sondern aus einer tiefen Emp\u00f6rung \xfcber das Unrecht selbst. Sie stellt sich davor. Ohne Umweg, ohne Ausrede.</p>
+          <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> setzt ihre Kraft in den Dienst derer, die keine Macht haben. Naranjo (bei dem der Autor das Enneagramm gelernt hat) nannte diesen Subtyp <em>Solidarit\xe4t</em>: Die SO8 identifiziert sich mit den Unterdr\xfcckten &ndash; nicht aus Mitleid, sondern aus einer tiefen Emp\u00f6rung \xfcber das Unrecht selbst. Sie stellt sich davor. Ohne Umweg, ohne Ausrede.</p>
           <p class="vb-intro">Kincaids Essay <em>A Small Place</em> (1988) ist das Dokument dieser Energie. Sie wendet sich direkt an den wei\xdfen Touristen, der Antigua besucht, und erkl\xe4rt Satz f\xfcr Satz, was er nicht sieht, nicht sehen will und nicht sehen darf, um seinen Urlaub genie\xdfen zu k\xf6nnen. Es ist kein anklagender Text &ndash; es ist ein entlarvender. Die SO8 f\xfchrt nicht die lauteste Stimme, sie f\xfchrt die klarste.</p>
         </blockquote>
 

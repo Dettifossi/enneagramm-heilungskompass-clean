@@ -2183,7 +2183,7 @@ export function peterMaffayPortraitPage() {
 
         <h2 class="vb-section">2. The Sexual Nine: Merging With a Single Life's Work</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Sexual Nine (SX9)</strong> is, according to Naranjo, the variant of the passion of sloth that expresses itself through complete merging with a single, all-encompassing work or counterpart – the self steps back to fully dissolve into it. For Maffay, that one work is the little dragon Tabaluga: created in 1983 as a concept album, the figure grew over four decades into a musical, an animated series, and eventually the namesake of his own foundation.</p>
+          <p class="vb-intro">The <strong>Sexual Nine (SX9)</strong> is, according to Naranjo (the author's teacher), the variant of the passion of sloth that expresses itself through complete merging with a single, all-encompassing work or counterpart – the self steps back to fully dissolve into it. For Maffay, that one work is the little dragon Tabaluga: created in 1983 as a concept album, the figure grew over four decades into a musical, an animated series, and eventually the namesake of his own foundation.</p>
           <p class="vb-intro">Unlike many musicians of his generation who spread their creative energy across shifting projects, bands, or genres, Maffay stayed with this one figure throughout his later career – not as a side project alongside his music career, but increasingly as its actual center. Here you can see the SX9 at its most productive: not spread across many bonds, but fully merged into the one.</p>
         </blockquote>
 
