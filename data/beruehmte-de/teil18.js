@@ -3012,3 +3012,75 @@ export function karolinaLodygaPortraitPage() {
     </div>
   `);
 }
+
+export function julianeKoepckePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-juliane-koepcke-portrait.jpg" alt="Juliane Koepcke – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-juliane-koepcke-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Juliane Koepcke</p>
+        <p class="krim-portrait-typ">SE5w6 &middot; Selbsterhaltender Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Deutsch-peruanische Biologin, geb. 1954 &ndash; Tierentsprechung: Eule</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Die Eule: ein Kind des Regenwalds</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eulen hören, was sich im Dunkeln bewegt, und sie bleiben still, bis sie sicher sind. Juliane Margaret Beate Koepcke wurde am 10. Oktober 1954 in Lima, Peru, geboren, als einziges Kind der Zoologen Maria und Hans-Wilhelm Koepcke. Mit 14 Jahren zog sie mit ihren Eltern auf die Forschungsstation Panguana im Amazonas-Regenwald. Dort lernte sie nach den Berichten, im Wald zu leben und ihn zu lesen. Die Schulbehörden missbilligten das, und so legte sie ihre Abschlussprüfungen in Lima ab, am 23. Dezember 1971.</p>
+          <p class="vb-intro">Einen Tag später begann der Flug, der ihr Leben teilte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der selbsterhaltende Fünfer: Überleben durch Wissen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den selbsterhaltenden Fünfer ›Burg‹: ein eigener, gesicherter Bereich, in dem das Wesentliche sicher ist. Bei Koepcke ist das auch ein Ort, die Station Panguana, und eine Fähigkeit: kennen, was um einen herum lebt und wie es sich verhält.</p>
+          <p class="vb-intro">Am 24. Dezember 1971 stürzte die Maschine der LANSA (Flug 508) nach einem Blitzschlag über dem Regenwald ab. Sie fiel nach den Berichten etwa 3.000 Meter tief, noch auf ihrem Sitz angeschnallt, und überlebte mit einem gebrochenen Schlüsselbein, einer tiefen Armwunde, einer Augenverletzung, einem gerissenen Knieband und einer Gehirnerschütterung. Als mögliche Erklärungen nennt die Literatur den Fallschirmeffekt des Sitzes, Aufwinde eines Gewitters und dichtes Blattwerk am Aufprallort. Sie ist die einzige Überlebende, die lebend gefunden wurde; bis zu 14 weitere Passagiere überlebten den Absturz zunächst und starben, während sie auf Rettung warteten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Treue zum Auftrag der Eltern</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso und Russ Hudson nennen den Fünfer mit Sechserflügel ›Den Problemlöser‹. Der <strong>Sechserflügel (w6)</strong> bringt dem Fünfer Verlässlichkeit, Loyalität und den Sinn für eine Aufgabe, die über einen selbst hinausgeht. Bei Koepcke zeigt er sich in der Treue zur Arbeit ihrer Eltern: Nach dem Tod ihres Vaters übernahm sie im Jahr 2000 die Leitung von Panguana und führt die Station im Sinn der Familie fort.</p>
+          <p class="vb-intro">Dazu passt die Art, wie sie über das Erlebte spricht: sachlich, ohne Dramatik, mit dem Blick auf das, was sich aus den Ereignissen lernen und weitertragen lässt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: zehn Tage im Dschungel und ein Leben in der Forschung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach dem Absturz war sie nach den Berichten allein unterwegs, zunächst einem Bach folgend, bis zu einem Fluss. Sie litt unter Insektenstichen und Dasselfliegenlarven im verletzten Arm. Nach neun bis elf Tagen (die Quellen nennen unterschiedliche Zahlen) stieß sie auf ein Lager von Holzfällern, die sie mit dem Kanu zu einem bewohnten Ort brachten, von dem aus sie ausgeflogen wurde. Danach half sie Suchtrupps, die Absturzstelle zu finden. Ihre Mutter wurde am 12. Januar 1972 entdeckt.</p>
+          <p class="vb-intro">Sie zog in die Bundesrepublik, studierte Biologie in Kiel (Abschluss 1980) und promovierte an der Ludwig-Maximilians-Universität München. Ihre Dissertation über eine Fledermaus-Gemeinschaft im peruanischen Regenwald erschien 1987. 1989 heiratete sie den Entomologen Erich Diller, der sich auf parasitische Wespen spezialisiert hat. Neben der Leitung von Panguana arbeitete sie als Bibliothekarin an der Bayerischen Staatssammlung für Zoologie in München. Ihre Autobiografie ›Als ich vom Himmel fiel‹ erschien 2011 und erhielt im selben Jahr den Corine-Literaturpreis. 2019 verlieh ihr die peruanische Regierung den Verdienstorden als Grand Officer.</p>
+          <p class="vb-intro">Zum Absturz gibt es auch Filme: den stark fiktionalisierten italienischen Spielfilm ›I miracoli accadono ancora‹ (›Wunder geschehen noch‹, 1974) und Werner Herzogs Dokumentation ›Wings of Hope‹ (1998), in der sie selbst zu sehen ist. Herzog hätte auf demselben Flug sein sollen und sagte kurzfristig ab. Koepcke begleitete ihn später an die Absturzstelle und beschrieb das als eine Art Therapie.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Marie Curie und Charles Darwin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-marie-curie">Marie Curie (SE5w6)</a> teilt mit Koepcke die Ausdauer in der Forschung unter schwierigen Bedingungen und die Treue zu einer Aufgabe. <a href="#beruehmte-charles-darwin">Charles Darwin (SE5w6)</a> verbindet mit ihr das Beobachten der Natur im Feld und das geduldige Sammeln von Wissen.</p>
+          <p class="vb-intro">Der Unterschied: Curie und Darwin gingen ihre Wege aus Neugier. Bei Koepcke stand am Anfang ein Ereignis, das sie nicht gewählt hat, und aus dem Überleben wurde Dienst an der Forschung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten des selbsterhaltenden Fünfers mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Verbindung aus Wissen und Ruhe: Wer den Wald kennt, kann in ihm bestehen, und wer ihn erforscht, gibt etwas zurück. Dass sie nach dem Absturz zur Forscherin wurde und die Station ihrer Eltern weiterführt, zeigt eine Treue, die Halt gibt.</p>
+          <p class="vb-intro">Ein Schatten des Fünfers kann der Rückzug nach innen sein: Wer Erschütterndes erlebt hat, behält es oft für sich und ordnet es mit dem Verstand. Koepcke hat das Erlebte dennoch geteilt, in ihrem Buch und im Film, und sagt, die Rückkehr an die Absturzstelle habe ihr geholfen. Sie ordnet das Erlebte nicht als Wunder, sondern als Teil ihrer Lebensgeschichte ein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Panguana und Erinnerung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Koepcke ist (Stand 25. Oktober 2026) 72 Jahre alt und Leiterin der Forschungsstation Panguana. Sie ist verheiratet mit Erich Diller. Ihr Porträt hält sich an das, was sie selbst erzählt und was veröffentlicht ist. Die anderen Menschen des Fluges haben ihr Leben verloren, an sie soll hier ebenfalls erinnert werden.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se5", label:"Lebensmusterkompass: SE5 – Eule"},
+        {route:"beruehmte-marie-curie", label:"Porträt: Marie Curie (SE5w6)"},
+        {route:"beruehmte-charles-darwin", label:"Porträt: Charles Darwin (SE5w6)"},
+        {route:"beruehmte-larry-sanger", label:"Porträt: Larry Sanger (SE5w6)"},
+            ])}
+    </div>
+  `);
+}

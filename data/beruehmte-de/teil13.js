@@ -276,6 +276,7 @@ export function charlesDarwinPortraitPage() {
         {route:"krankheitsportraets-marie-curie", label:"Krankheitsportr\u00e4t: Marie Curie (SE5w6) \u2013 Parallele zu Darwins chronischer Erkrankung"},
         {route:"beruehmte-stanley-mandelstam", label:"Porträt: Stanley Mandelstam (SE5w6)"},
         {route:"beruehmte-duncan-haldane", label:"Porträt: Duncan Haldane (SE5w6)"},
+        {route:"beruehmte-juliane-koepcke", label:"Porträt: Juliane Koepcke (SE5w6)"},
       ])}
     </div>
   `);
@@ -1089,7 +1090,8 @@ export function marieCuriePortraitPage() {
         {route:"krankheitsportraets-marie-curie", label:"Krankheitsporträt: Marie Curie (SE5w6)"},
         {route:"krankheitsportraets-charles-darwin", label:"Charles Darwin (SE5w6) – Krankheitsporträt"},
         {route:"krankheitsportraets-warren-buffett", label:"Warren Buffett (SE5w6) – Krankheitsporträt"},
-        ])}
+        {route:"beruehmte-juliane-koepcke", label:"Porträt: Juliane Koepcke (SE5w6)"},
+      ])}
       </div>
     </div>
   `);
@@ -3029,6 +3031,7 @@ export function larrySangerPortraitPage() {
         {route:"beruehmte-harald-lesch", label:"Porträt: Harald Lesch (SE5w6)"},
         {route:"beruehmte-roger-akelius", label:"Porträt: Roger Akelius (SE5w6)"},
         {route:"beruehmte-jimmy-wales", label:"Porträt: Jimmy Wales (SO5w6)"},
+        {route:"beruehmte-juliane-koepcke", label:"Porträt: Juliane Koepcke (SE5w6)"},
       ])}
     </div>
   `);

@@ -3047,6 +3047,7 @@ export function larrySangerPortraitPage() {
         {route:"beruehmte-harald-lesch", label:"Portrait: Harald Lesch (SP5w6)"},
         {route:"beruehmte-roger-akelius", label:"Portrait: Roger Akelius (SP5w6)"},
         {route:"beruehmte-jimmy-wales", label:"Portrait: Jimmy Wales (SO5w6)"},
+        {route:"beruehmte-juliane-koepcke", label:"Portrait: Juliane Koepcke (SP5w6)"},
       ])}
     </div>
   `);

@@ -276,6 +276,7 @@ export function charlesDarwinPortraitPage() {
         {route:"krankheitsportraets-marie-curie", label:"Illness Portrait: Marie Curie (SP5w6) – parallel to Darwin's chronic illness"},
         {route:"beruehmte-stanley-mandelstam", label:"Portrait: Stanley Mandelstam (SP5w6)"},
         {route:"beruehmte-duncan-haldane", label:"Portrait: Duncan Haldane (SP5w6)"},
+        {route:"beruehmte-juliane-koepcke", label:"Portrait: Juliane Koepcke (SP5w6)"},
       ])}
     </div>
   `);
@@ -1087,7 +1088,8 @@ export function marieCuriePortraitPage() {
         {route:"krankheitsportraets-marie-curie", label:"Illness Portrait: Marie Curie (SP5w6)"},
         {route:"krankheitsportraets-charles-darwin", label:"Charles Darwin (SP5w6) – illness portrait"},
         {route:"krankheitsportraets-warren-buffett", label:"Warren Buffett (SP5w6) – illness portrait"},
-        ])}
+        {route:"beruehmte-juliane-koepcke", label:"Portrait: Juliane Koepcke (SP5w6)"},
+      ])}
       </div>
     </div>
   `);

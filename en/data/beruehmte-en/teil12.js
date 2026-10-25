@@ -2977,3 +2977,75 @@ export function karolinaLodygaPortraitPage() {
     </div>
   `);
 }
+
+export function julianeKoepckePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-juliane-koepcke-portrait.jpg" alt="Juliane Koepcke – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-juliane-koepcke-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Juliane Koepcke</p>
+        <p class="krim-portrait-typ">SP5w6 &middot; Self-Preservation Type 5 with Six-wing</p>
+        <p class="krim-portrait-subtitle">German-Peruvian biologist, b. 1954 &ndash; Animal correspondence: Owl</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Owl: a child of the rainforest</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Owls hear what moves in the dark, and they stay still until they are sure. Juliane Margaret Beate Koepcke was born on 10 October 1954 in Lima, Peru, the only child of the zoologists Maria and Hans-Wilhelm Koepcke. At 14 she moved with her parents to the Panguana research station in the Amazon rainforest. According to reports she learned there to live in the forest and to read it. The school authorities disapproved, so she took her final exams in Lima, on 23 December 1971.</p>
+          <p class="vb-intro">One day later began the flight that divided her life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Five: survival through knowledge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the self-preservation Five the &lsquo;castle&rsquo;: a secured space of one&rsquo;s own in which the essentials are safe. In Koepcke this is also a place, the Panguana station, and a skill: knowing what lives around you and how it behaves.</p>
+          <p class="vb-intro">On 24 December 1971 the LANSA aircraft (Flight 508) crashed over the rainforest after being struck by lightning. According to reports she fell about 3,000 meters, still strapped to her seat, and survived with a broken collarbone, a deep arm wound, an eye injury, a torn knee ligament and a concussion. As possible explanations the literature names the parachute effect of the seat, updrafts of a thunderstorm and dense foliage at the impact site. She is the only survivor found alive; up to 14 other passengers survived the crash at first and died while waiting for rescue.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: faithfulness to her parents&rsquo; mission</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso and Russ Hudson call the Five with a Six-wing &lsquo;The Problem Solver&rsquo;. The <strong>Six-wing (w6)</strong> gives the Five reliability, loyalty and a sense for a task that reaches beyond oneself. In Koepcke it shows in her faithfulness to her parents&rsquo; work: after her father&rsquo;s death she took over the direction of Panguana in 2000 and continues the station in the family&rsquo;s spirit.</p>
+          <p class="vb-intro">The way she speaks about what she experienced fits: matter-of-fact, without drama, with a view to what can be learned and carried on.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: ten days in the jungle and a life in research</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After the crash she was, according to reports, alone, first following a stream until a river. She suffered from insect bites and botfly larvae in the injured arm. After nine to eleven days (the sources give different numbers) she came upon a camp of loggers, who took her by canoe to an inhabited place from which she was flown out. Afterwards she helped search parties to find the crash site. Her mother was found on 12 January 1972.</p>
+          <p class="vb-intro">She moved to the Federal Republic, studied biology in Kiel (degree 1980) and received her doctorate at the Ludwig Maximilian University in Munich. Her dissertation on a bat community in the Peruvian rainforest was published in 1987. In 1989 she married the entomologist Erich Diller, who specializes in parasitic wasps. Alongside directing Panguana she worked as a librarian at the Bavarian State Collection of Zoology in Munich. Her autobiography &lsquo;Als ich vom Himmel fiel&rsquo; (&lsquo;When I Fell From the Sky&rsquo;) appeared in 2011 and won the Corine Literature Prize the same year. In 2019 the Peruvian government awarded her the Order of Merit as Grand Officer.</p>
+          <p class="vb-intro">There are also films about the crash: the heavily fictionalized Italian feature film &lsquo;I miracoli accadono ancora&rsquo; (&lsquo;Miracles Still Happen&rsquo;, 1974) and Werner Herzog&rsquo;s documentary &lsquo;Wings of Hope&rsquo; (1998), in which she appears herself. Herzog was supposed to be on the same flight and cancelled at short notice. Koepcke later accompanied him to the crash site and described it as a kind of therapy.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Marie Curie and Charles Darwin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-marie-curie">Marie Curie (SP5w6)</a> shares with Koepcke the endurance in research under difficult conditions and faithfulness to a task. <a href="#beruehmte-charles-darwin">Charles Darwin (SP5w6)</a> shares with her the observation of nature in the field and the patient collecting of knowledge.</p>
+          <p class="vb-intro">The difference: Curie and Darwin went their ways out of curiosity. For Koepcke there stood at the beginning an event she did not choose, and survival turned into service to research.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the self-preservation Five with Six-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is the combination of knowledge and calm: whoever knows the forest can survive in it, and whoever researches it gives something back. That after the crash she became a researcher and continues her parents&rsquo; station shows a faithfulness that gives support.</p>
+          <p class="vb-intro">A shadow of the Five can be withdrawal inward: whoever has experienced something shattering often keeps it to themselves and orders it with the mind. Koepcke has nevertheless shared what she experienced, in her book and in the film, and says that the return to the crash site helped her. She does not classify what happened as a miracle but as part of her life story.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: Panguana and remembrance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Koepcke is (as of 25 October 2026) 72 years old and director of the Panguana research station. She is married to Erich Diller. This portrait keeps to what she tells herself and what has been published. The other people on the flight lost their lives, and they are to be remembered here as well.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
+        {route:"lebensmusterkompass/se5", label:"Life Pattern Compass: SP5 – Owl"},
+        {route:"beruehmte-marie-curie", label:"Portrait: Marie Curie (SP5w6)"},
+        {route:"beruehmte-charles-darwin", label:"Portrait: Charles Darwin (SP5w6)"},
+        {route:"beruehmte-larry-sanger", label:"Portrait: Larry Sanger (SP5w6)"},
+            ])}
+    </div>
+  `);
+}

@@ -341,7 +341,7 @@ export const LEBENSMUSTERKOMPASS = {
   SE5: {
     tier: "Eule",
     kernthema: "Der Rückzug als bewusst gebaute Burg – stille Beobachtung statt Flucht",
-    beispiele: ["Larry Sanger", "Roger Akelius", "Sidney Lumet", "Dr. Christian Rätsch", "Xu Bing", "Franz Kafka", "Peter Lustig", "Warren Buffett", "Vera Birkenbihl", "Charles Darwin", "Marie Curie", "René Descartes", "Hermann Hesse", "Baruch de Spinoza", "Carl Tanzler", "Joachim Kroll", "Carl Friedrich Gauß", "Prof. Dr. Ingo Zimmermann", "Nikodemus", "Robert Crumb", "Harald Lesch", "Stanley Mandelstam", "Duncan Haldane"],
+    beispiele: ["Juliane Koepcke", "Larry Sanger", "Roger Akelius", "Sidney Lumet", "Dr. Christian Rätsch", "Xu Bing", "Franz Kafka", "Peter Lustig", "Warren Buffett", "Vera Birkenbihl", "Charles Darwin", "Marie Curie", "René Descartes", "Hermann Hesse", "Baruch de Spinoza", "Carl Tanzler", "Joachim Kroll", "Carl Friedrich Gauß", "Prof. Dr. Ingo Zimmermann", "Nikodemus", "Robert Crumb", "Harald Lesch", "Stanley Mandelstam", "Duncan Haldane"],
     fingerabdruecke: [
       {
         titel: "Der Rückzug als bewusst gebaute ›Burg‹ statt bloße Flucht",
@@ -356,7 +356,7 @@ export const LEBENSMUSTERKOMPASS = {
       {
         titel: "Verstoßung oder Krise wird zur Methode des Rückzugs, statt zum offenen Bruch zu führen",
         beschreibung: "Auf Ablehnung, Verbannung oder eine tiefe Lebenskrise folgt kein Widerstand und keine Konfrontation, sondern ein ruhiger, methodischer Rückzug in eine selbst gewählte, kontrollierte Existenz.",
-        beleg: "Spinoza, mit 23 Jahren aus seiner Gemeinde verbannt: ›Er reagierte nicht mit Widerstand oder Verhandlung – er zog sich zurück … und lebte den Rest seines Lebens außerhalb jeder Gemeinschaft, die ihn hätte binden können‹; Xu Bing, dessen Familie durch die Kulturrevolution zerstört wurde: ›Aus dieser Erfahrung wurde kein Bruch, sondern eine Methode‹; Hermann Hesse, dessen Krise nach dem Klosterausbruch ›eine lebenslange Bewegung nach innen‹ prägte; Marie Curie, die ihre Heimat verließ, weil Frauen dort nicht studieren durften."
+        beleg: "Spinoza, mit 23 Jahren aus seiner Gemeinde verbannt: ›Er reagierte nicht mit Widerstand oder Verhandlung – er zog sich zurück … und lebte den Rest seines Lebens außerhalb jeder Gemeinschaft, die ihn hätte binden können‹; Xu Bing, dessen Familie durch die Kulturrevolution zerstört wurde: ›Aus dieser Erfahrung wurde kein Bruch, sondern eine Methode‹; Hermann Hesse, dessen Krise nach dem Klosterausbruch ›eine lebenslange Bewegung nach innen‹ prägte; Marie Curie, die ihre Heimat verließ, weil Frauen dort nicht studieren durften.; Juliane Koepcke, die nach dem Absturz von 1971 nicht in die Öffentlichkeit, sondern in die Forschung zurückging und die Station ihrer Eltern im Regenwald weiterführt"
       },
       {
         titel: "Wenn sich die unsichtbare Intensität der Isolation zu etwas Unumkehrbarem verdichtet (Schattenform)",

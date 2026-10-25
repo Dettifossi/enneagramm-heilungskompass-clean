@@ -341,7 +341,7 @@ export const LEBENSMUSTERKOMPASS = {
   SE5: {
     tier: "Owl",
     kernthema: "Retreat as a deliberately built fortress – quiet observation instead of flight",
-    beispiele: ["Larry Sanger", "Roger Akelius", "Sidney Lumet", "Dr. Christian Rätsch", "Xu Bing", "Franz Kafka", "Peter Lustig", "Warren Buffett", "Vera Birkenbihl", "Charles Darwin", "Marie Curie", "René Descartes", "Hermann Hesse", "Baruch Spinoza", "Carl Tanzler", "Joachim Kroll", "Carl Friedrich Gauss", "Prof. Dr. Ingo Zimmermann", "Nicodemus", "Robert Crumb", "Harald Lesch", "Stanley Mandelstam", "Duncan Haldane"],
+    beispiele: ["Juliane Koepcke", "Larry Sanger", "Roger Akelius", "Sidney Lumet", "Dr. Christian Rätsch", "Xu Bing", "Franz Kafka", "Peter Lustig", "Warren Buffett", "Vera Birkenbihl", "Charles Darwin", "Marie Curie", "René Descartes", "Hermann Hesse", "Baruch Spinoza", "Carl Tanzler", "Joachim Kroll", "Carl Friedrich Gauss", "Prof. Dr. Ingo Zimmermann", "Nicodemus", "Robert Crumb", "Harald Lesch", "Stanley Mandelstam", "Duncan Haldane"],
     fingerabdruecke: [
       {
         titel: "Retreat as a deliberately built 'fortress' instead of mere flight",
@@ -356,7 +356,7 @@ export const LEBENSMUSTERKOMPASS = {
       {
         titel: "Rejection or crisis becomes a method of retreat, rather than leading to open rupture",
         beschreibung: "Rejection, banishment, or a deep life crisis is met not with resistance or confrontation, but with a calm, methodical retreat into a self-chosen, controlled existence.",
-        beleg: "Spinoza, banished from his community at 23: 'He did not react with resistance or negotiation – he withdrew ... and lived the rest of his life outside any community that could have bound him'; Xu Bing, whose family was destroyed by the Cultural Revolution: 'That experience did not become a rupture, but a method'; Hermann Hesse, whose crisis after fleeing the monastery seminary shaped 'a lifelong movement inward'; Marie Curie, who left her homeland because women were not allowed to study there."
+        beleg: "Spinoza, banished from his community at 23: 'He did not react with resistance or negotiation – he withdrew ... and lived the rest of his life outside any community that could have bound him'; Xu Bing, whose family was destroyed by the Cultural Revolution: 'That experience did not become a rupture, but a method'; Hermann Hesse, whose crisis after fleeing the monastery seminary shaped 'a lifelong movement inward'; Marie Curie, who left her homeland because women were not allowed to study there.; Juliane Koepcke, who after the 1971 crash returned not to the public but to research and continues her parents' station in the rainforest"
       },
       {
         titel: "When the invisible intensity of isolation condenses into something irreversible (shadow form)",
