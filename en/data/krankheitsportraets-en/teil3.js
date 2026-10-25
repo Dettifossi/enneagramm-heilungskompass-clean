@@ -481,9 +481,7 @@ export function christiaanBarnardKrankheitsportraetPage() {
         rheumatoid arthritis – <strong>anyone can develop any illness, regardless of
         subtype.</strong> What Barnard's case illustrates is a pattern in how a
         pronounced Social Three with a Two-wing tends to handle the loss of their own
-        ability to perform – one of many possible interpretations, not a verdict. The
-        corresponding illness picture is gradually being developed in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        ability to perform – one of many possible interpretations, not a verdict. This Compass's Psychosomatics Register describes the illness in a separate entry: <a href="javascript:void(0)" data-route="psychosomatik/rheumatoide_arthritis">Rheumatoid Arthritis</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
         Barnard did not know his own pattern – the Social Three with a Two-wing
         reflexively replaces a lost visible role with a new one instead of ever
@@ -790,9 +788,7 @@ export function fransDeWaalKrankheitsportraetPage() {
         <strong>anyone can suffer any illness, regardless of subtype.</strong> What de
         Waal's case illustrates is a pattern in how a pronounced Sexual Seven with a
         Six-wing tends to handle a serious, short-term diagnosis – one of many possible
-        interpretations, not a verdict. The corresponding illness picture is gradually
-        being developed in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        interpretations, not a verdict. This Compass's Psychosomatics Register describes the illness in a separate entry: <a href="javascript:void(0)" data-route="psychosomatik/magenkrebs">Stomach Cancer</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
         De Waal did not know his own pattern – the Sexual Seven with a Six-wing
         reflexively seeks full, unfiltered experience and continued work rather than
@@ -1674,9 +1670,7 @@ export function johnWayneKrankheitsportraetPage() {
         not to be explained in purely psychosomatic terms. What his case illustrates is a
         pattern in the public handling of one's own illness that keeps recurring in practice
         among people with a pronounced Sexual Eight with Seven-wing – one of many possible
-        interpretations, not a judgment. The corresponding illness pattern is gradually being
-        developed in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        interpretations, not a judgment. This Compass's Psychosomatics Register describes the illness in a separate entry: <a href="javascript:void(0)" data-route="psychosomatik/lungenkrebs">Lung Cancer</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
         Wayne did not know his own pattern – the Sexual Eight with Seven-wing meets threat with
         direct confrontation and unchecked pace, and that is exactly what let him continue his
@@ -2336,9 +2330,7 @@ export function morganFreemanKrankheitsportraetPage() {
         pain conditions – <strong>anyone can suffer any illness or injury, regardless of
         subtype.</strong> What Freeman's case illustrates is a pattern in how a
         pronounced Sexual Seven with a Six-wing tends to handle chronic pain – one of
-        many possible interpretations, not a verdict. The corresponding illness picture
-        is gradually being developed in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        many possible interpretations, not a verdict. This Compass's Psychosomatics Register describes the illness in a separate entry: <a href="javascript:void(0)" data-route="psychosomatik/fibromyalgie">Fibromyalgia</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
         Freeman does not know his own pattern as an Enneagram structure – the Sexual
         Seven with a Six-wing reflexively seeks full, unfiltered experience instead of
@@ -2518,9 +2510,7 @@ export function nikolaTeslaKrankheitsportraetPage() {
         obsessive-compulsive disorder – <strong>anyone can develop any illness, regardless of
         subtype.</strong> What Tesla's case shows is a pattern in how a pronounced Social
         Seven with Six-wing, under chronic stress, repeatedly deals with progressive
-        psychological isolation – one possible reading among many, not a verdict. The
-        corresponding illness profile is gradually being developed in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        psychological isolation – one possible reading among many, not a verdict. The illness has its own entry in this Compass's Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/zwangsstoerung_ocd">Obsessive-Compulsive Disorder (OCD)</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
         Tesla did not know his own pattern – Social Seven with Six-wing reflexively defends
         its own mission against any disruption experienced as threatening, rather than ever
@@ -3066,9 +3056,7 @@ export function stephenHawkingKrankheitsportraetPage() {
         disease – <strong>anyone can develop any illness, regardless of subtype.</strong>
         What Hawking's case illustrates is a pattern that recurs in practice around the
         need to compensate for loss of control by building new, reliable systems – one of
-        many possible explanations, not a verdict. The corresponding illness pattern will be
-        developed further, over time, in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        many possible explanations, not a verdict. This Compass's Psychosomatics Register describes the illness in a separate entry: <a href="javascript:void(0)" data-route="psychosomatik/als">Amyotrophic Lateral Sclerosis (ALS)</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as its own factor:</strong>
         Hawking did not know his own Enneagram pattern – the social Five with a Six-wing
         seeks security almost reflexively by building tested, reliable systems and by
@@ -3248,8 +3236,7 @@ export function warrenBuffettKrankheitsportraetPage() {
         regardless of subtype.</strong> What Buffett's case can show is a pattern in how someone
         handles a cancer diagnosis that recurs again and again in a strongly expressed
         Self-Preservation Five with a Six-wing – one of many possible readings, not a verdict.
-        The corresponding illness picture will gradually be developed further in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        The illness has its own entry in this Compass's Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/prostatakrebs">Prostate Cancer</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
         Like most people, Buffett was not consciously aware of his own Enneagram pattern for most
         of his life. Without that awareness, he nonetheless lived out the passion of the
@@ -4050,9 +4037,7 @@ export function epikurKrankheitsportraetPage() {
         This does not mean the pattern of the social Seven with a Six-wing inevitably leads to kidney stones –
         <strong>anyone can develop any illness, regardless of subtype.</strong> What Epicurus's case shows is a
         pattern in how pain and approaching death are handled that recurs in a pronounced social Seven with a
-        Six-wing – one of many possible interpretations, not a verdict. The corresponding illness pattern is
-        being developed gradually in this compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        Six-wing – one of many possible interpretations, not a verdict. The illness has its own entry in this Compass's Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/nierensteine">Kidney Stones</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
         Epicurus naturally had no Enneagram model. Without this knowledge he lived out his pattern – meaning-
         making and communal bonding even in his own suffering – consistently to his last breath, without
@@ -5258,8 +5243,7 @@ export function leonardCohenKrankheitsportraetPage() {
         vertebral fractures – <strong>anyone can develop any illness, regardless of subtype.</strong> What
         Cohen's case shows is a pattern in how lifelong psychological suffering and late physical decline are
         handled that recurs in a pronounced social Four with a Five-wing – one of many possible
-        interpretations, not a verdict. The corresponding illness pattern is being developed gradually in this
-        compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        interpretations, not a verdict. The illness has its own entry in this Compass's Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/depression">Depression</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
         Cohen, like most people of his time, had no Enneagram model. Without this knowledge he sought spiritual
         rather than structured medical paths for decades in handling his depression, which gave him profound

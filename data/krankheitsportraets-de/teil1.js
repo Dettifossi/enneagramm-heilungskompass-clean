@@ -142,10 +142,7 @@ export function adeleKrankheitsportraetPage() {
         <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
         Daraus folgt nicht, dass das Muster der selbsterhaltenden Vier zwangsläufig zu postnataler Depression führt. <strong>Jeder Mensch kann jede Erkrankung entwickeln, gleich welcher Subtyp.</strong> Adeles Fall zeigt allenfalls ein Muster im Umgang mit einer psychischen Krise, das bei einer ausgeprägten
         selbsterhaltenden Vier mit Dreierflügel immer wieder auffällt – eine von vielen
-        möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
-        Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        möglichen Deutungen, kein Urteil. Ausführlich beschrieben ist das Krankheitsbild im Psychosomatik-Register dieses Kompasses unter <a href="javascript:void(0)" data-route="psychosomatik/depression">Depression</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Adele kennt ihr eigenes Muster nicht als Enneagramm-Struktur – die selbsterhaltende
         Vier mit Dreierflügel hält reflexhaft daran fest, den eigenen Schmerz erst dann zu
@@ -855,7 +852,7 @@ export function fjodorDostojewskiKrankheitsportraetPage() {
         <p class="vb-intro"><strong>f) Einordnung ohne Determinismus:</strong>
         Das Muster der selbsterhaltenden Sechs führt nicht zwangsläufig zu Epilepsie: <strong>Jeder Mensch kann jede Krankheit bekommen, der Subtyp spielt dabei keine Rolle.</strong> Was sich an Dostojewskis Fall zeigen lässt, ist ein Muster, das bei
         unmittelbarer literarischer Verarbeitung existenzieller Angst in der Praxis immer
-        wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses wird das Krankheitsbild nach und nach ausgearbeitet.</p>
+        wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das Krankheitsbild steht im Psychosomatik-Register dieses Kompasses als eigener Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/epilepsie">Epilepsie</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>g) Die unbewusste Fixierung als eigener Faktor:</strong>
         Dostojewski kannte sein eigenes Muster nicht – doch die selbsterhaltende Sechs, die Sicherheit im vertrauten Rahmen sucht, fand ausgerechnet in den immer gleichen epileptischen Anfällen einen paradoxen Ankerpunkt, den er direkt in seine Romanfiguren übertrug, statt die Krankheit als reine Bedrohung zu erleben. Auch das ist eine Form unbewusster Musterintegration: nicht Kampf, sondern Verarbeitung im eigenen Werk.</p>
       </div>
@@ -2662,7 +2659,7 @@ export function nataschaKampuschKrankheitsportraetPage() {
         Subtyp.</strong> Was sich an Kampuschs Fall erkennen lässt, ist ein Muster im Umgang mit
         unverarbeitetem Trauma, das bei einer ausgeprägten selbsterhaltenden Zwei mit
         Einserflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil.
-        Das Krankheitsbild selbst wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses ausgearbeitet.</p>
+        Zum Krankheitsbild gibt es im Psychosomatik-Register dieses Kompasses einen eigenen Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/ptbs">Posttraumatische Belastungsstörung (PTBS)</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
         Nichts deutet darauf hin, dass Kampusch ihr eigenes Enneagramm-Muster je bewusst kannte.
         Über Jahre hielt sie an der Rolle der kontrollierten, funktionierenden Überlebenden
@@ -3357,7 +3354,7 @@ export function knutHamsunKrankheitsportraetPage() {
         psychosomatisch zu erklären. Was sich an seinem Fall zeigen lässt, ist ein Muster im
         Umgang mit dem eigenen Verfall, das bei einer ausgeprägten selbsterhaltenden Vier mit
         Fünferflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil.
-        Das Krankheitsbild selbst wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses ausgearbeitet.</p>
+        Zum Krankheitsbild gibt es im Psychosomatik-Register dieses Kompasses einen eigenen Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/arteriosklerose">Arteriosklerose</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Hamsun kannte, wie die meisten Menschen seiner Zeit, sein Enneagramm-Muster nicht
         bewusst. Ohne dieses Wissen blieb ihm auch der Zugang zu einer bewussten Unterscheidung
@@ -4060,7 +4057,7 @@ export function margaretRutherfordKrankheitsportraetPage() {
         Daraus folgt nicht, dass das Muster der selbsterhaltenden Neun zwangsläufig zu Depression
         oder Demenz führt. <strong>Jeder Mensch kann jede Krankheit bekommen, gleich welcher Subtyp.</strong> Was sich an Rutherfords Fall zeigen lässt, ist ein Muster, das bei
         tiefer, gewohnheitsbasierter Verdrängung in der Praxis immer wieder auffällt – eine von
-        vielen möglichen Erklärungen, kein Urteil. Das Krankheitsbild kommt nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses hinzu.</p>
+        vielen möglichen Erklärungen, kein Urteil. Ausführlich beschrieben ist das Krankheitsbild im Psychosomatik-Register dieses Kompasses unter <a href="javascript:void(0)" data-route="psychosomatik/depression">Depression</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Rutherford kannte ihr eigenes Enneagramm-Muster nicht. Ohne dieses Wissen fehlte ihr jeder
         Anlass, der eigenen Neuner-Trägheit bewusst entgegenzusteuern – stattdessen vertiefte sie

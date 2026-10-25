@@ -142,7 +142,7 @@ export function cgJungKrankheitsportraetPage() {
         Knochenbruch –, nicht rein psychosomatisch zu erklären. Was sich an seinem Fall zeigen
         lässt, ist ein Muster im Umgang mit einer existenziellen Krise, das bei einer
         ausgeprägten sozialen Fünf mit Sechserflügel immer wieder auffällt – eine von vielen
-        möglichen Deutungen, kein Urteil. Das Krankheitsbild selbst wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses ausgearbeitet.</p>
+        möglichen Deutungen, kein Urteil. Zum Krankheitsbild gibt es im Psychosomatik-Register dieses Kompasses einen eigenen Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/herzinfarkt">Herzinfarkt</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Jung kannte, anders als die meisten Menschen seiner Zeit, tatsächlich ein
         psychologisches Modell seines eigenen Verhaltens – doch das Enneagramm selbst war ihm
@@ -668,7 +668,7 @@ export function claudeDebussyKrankheitsportraetPage() {
         Eine zwangsläufige Linie vom Muster der sexuellen Vier zu Darmkrebs gibt es nicht. <strong>Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was
         sich an Debussys Fall zeigen lässt, ist ein Muster im Umgang mit der eigenen Krankheit,
         das bei einer ausgeprägten sexuellen Vier mit Fünferflügel immer wieder auffällt – eine
-        von vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild kommt nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses hinzu.</p>
+        von vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild steht im Psychosomatik-Register dieses Kompasses als eigener Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/darmkrebs">Darmkrebs</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
         Debussy kannte sein eigenes Muster nicht – die sexuelle Vier verwandelt Schmerz
         reflexhaft in Werk statt in Schonung, und genau das ließ ihn auch angesichts einer
@@ -1041,7 +1041,7 @@ export function franzKafkaKrankheitsportraetPage() {
         Das Muster der selbsterhaltenden Fünf führt nicht zwangsläufig zu Tuberkulose oder anderen Erkrankungen der Atemwege führt – <strong>jeder Mensch kann
         jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich an Kafkas Fall zeigen
         lässt, ist ein Muster, das bei radikalem Rückzug aus zwischenmenschlicher Nähe in der
-        Praxis immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das Krankheitsbild kommt nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses hinzu.</p>
+        Praxis immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das Krankheitsbild steht im Psychosomatik-Register dieses Kompasses als eigener Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/tuberkulose">Tuberkulose</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
         Kafka kannte sein eigenes Muster nicht – die selbsterhaltende Fünf mit Viererflügel zieht sich mit fortschreitender Bedrohung noch tiefer in die eigene innere Welt zurück, und genau das tat er, bis ihm am Ende nur noch handschriftliche Zettel blieben, um sich mitzuteilen. Wer das eigene Rückzugsmuster nicht kennt, merkt nicht, wie weit es sich zuspitzen kann, bevor keine Kommunikation mehr möglich ist.</p>
       </div>
@@ -2264,7 +2264,7 @@ export function leonardoDaVinciKrankheitsportraetPage() {
         vom Subtyp.</strong> Was sich an Leonardos Fall erkennen lässt, ist ein Muster im
         Umgang mit körperlicher Einschränkung im Alter, das bei einer ausgeprägten sozialen
         Fünf mit Viererflügel immer wieder auffällt – eine von vielen möglichen Deutungen,
-        kein Urteil. Im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses wird das Krankheitsbild nach und nach ausgearbeitet.</p>
+        kein Urteil. Zum Krankheitsbild gibt es im Psychosomatik-Register dieses Kompasses einen eigenen Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/schlaganfall">Schlaganfall</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Leonardo kannte sein eigenes Muster nicht – die soziale Fünf mit Viererflügel
         stellt reflexhaft ihr Wissen und Werk der Welt zur Verfügung, statt die eigene
@@ -4292,7 +4292,7 @@ export function alainDelonKrankheitsportraetPage() {
         entwickeln, unabhängig vom Subtyp.</strong> Was sich an Delons Fall zeigen lässt, ist
         ein Muster im Umgang mit fortschreitender, lebensbedrohlicher Krankheit, das bei einer
         ausgeprägten selbsterhaltenden Eins mit Zweierflügel immer wieder auffällt – eine von
-        vielen möglichen Deutungen, kein Urteil. Im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses wird das Krankheitsbild nach und nach ausgearbeitet.</p>
+        vielen möglichen Deutungen, kein Urteil. Ausführlich beschrieben ist das Krankheitsbild im Psychosomatik-Register dieses Kompasses unter <a href="javascript:void(0)" data-route="psychosomatik/schlaganfall">Schlaganfall</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
         Delon kannte sein eigenes Muster vermutlich nicht als Enneagramm-Struktur – die
         selbsterhaltende Eins mit Zweierflügel hält reflexhaft an Kontrolle über das eigene

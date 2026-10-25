@@ -1000,9 +1000,7 @@ export function friedrichNietzscheKrankheitsportraetPage() {
         <strong>every person can develop any illness, regardless of subtype.</strong> What
         Nietzsche's case can show is a pattern that stands out again and again in practice
         wherever total concentration of one's own strength on a single intellectual work is
-        present – one possible explanation among many, not a verdict. The corresponding
-        condition will be developed step by step in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        present – one possible explanation among many, not a verdict. This Compass's Psychosomatics Register describes the illness in a separate entry: <a href="javascript:void(0)" data-route="psychosomatik/migraene">Migraine</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>g) The Unconscious Fixation as a Further Factor:</strong>
         Nietzsche did not know his own pattern – the sexual Five concentrates all its strength into the one channel through which everything discharges, with no regard for its own reserves, and that is exactly what drove him to keep writing until total collapse. Someone who does not recognize their own concentration of strength does not notice when the last reserve has been spent.</p>
       </div>
@@ -1346,9 +1344,7 @@ export function hermannHesseKrankheitsportraetPage() {
         or depression – <strong>anyone can develop any illness, regardless of subtype.</strong>
         What Hesse's case shows is a pattern in how a pronounced Self-Preservation Five with
         Six-wing repeatedly deals with chronic psychological and physical suffering – one
-        possible reading among many, not a verdict. The corresponding illness profile is
-        gradually being developed in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        possible reading among many, not a verdict. This Compass's Psychosomatics Register describes the illness in a separate entry: <a href="javascript:void(0)" data-route="psychosomatik/migraene">Migraine</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
         Hesse did not know his own pattern – Self-Preservation Five with Six-wing reflexively
         secures its own controlled inner world rather than ever fully engaging with social
@@ -2563,8 +2559,7 @@ export function ojSimpsonKrankheitsportraetPage() {
         – <strong>anyone can develop any illness, regardless of subtype.</strong> What
         Simpson's case shows is a pattern in how a pronounced social Three with Four-wing
         repeatedly deals with a fatal diagnosis – one possible reading among many, not a
-        verdict. The corresponding illness profile is gradually being developed in this
-        Compass's <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        verdict. This Compass's Psychosomatics Register describes the illness in a separate entry: <a href="javascript:void(0)" data-route="psychosomatik/prostatakrebs">Prostate Cancer</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
         Simpson did not know his own pattern – the social Three with Four-wing meets every
         threat to its own image reflexively with secrecy and controlled self-presentation
@@ -2731,9 +2726,7 @@ export function robbieWilliamsKrankheitsportraetPage() {
         or addiction – <strong>anyone can develop any mental illness, regardless of
         subtype.</strong> What Williams's case illustrates is a pattern in how a
         pronounced Sexual One with a Two-wing tends to handle their own, never-satisfied
-        inner standard – one of many possible interpretations, not a verdict. The
-        corresponding illness picture is gradually being developed in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        inner standard – one of many possible interpretations, not a verdict. The illness has its own entry in this Compass's Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/depression">Depression</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
         Williams does not know his own pattern as an Enneagram structure – the Sexual
         One with a Two-wing reflexively applies an unrelenting standard to its own

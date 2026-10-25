@@ -475,9 +475,7 @@ export function charlesMansonKrankheitsportraetPage() {
         <strong>any person can develop any illness, regardless of subtype.</strong> What
         Manson's case illustrates is a pattern in how one destructively expressed Sexual Six
         with Seven-wing handled his own mortality – one of many possible interpretations, not
-        a judgment. The corresponding illness pattern is gradually being developed in this
-        Compass's <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics
-        register</a>.</p>
+        a judgment. The illness has its own entry in this Compass's Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/darmkrebs">Colorectal Cancer</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The Unconscious Fixation as a Further Factor:</strong>
         Manson did not know his own pattern – the Sexual Six as countertype reflexively
         overcompensates for fear through control and attack, rather than ever recognizing it in
@@ -1025,9 +1023,7 @@ export function fredericChopinKrankheitsportraetPage() {
         <strong>any person can develop any illness, regardless of subtype.</strong> What
         Chopin's case illustrates is a pattern that keeps recurring in practice among people
         whose physical strength is tightly bound to their one carrying relationship – one of
-        many possible interpretations, not a judgment. The corresponding illness pattern is
-        gradually being developed in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        many possible interpretations, not a judgment. This Compass's Psychosomatics Register describes the illness in a separate entry: <a href="javascript:void(0)" data-route="psychosomatik/tuberkulose">Tuberculosis</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
         Chopin did not know his own pattern – the sexual Five bundles strength and devotion into the one carrying bond, without ever realizing how closely his physical strength depended on that very bond. Someone who does not know their own pattern also does not see how tightly their own vitality is tied to a single attachment, until its loss takes them down with it.</p>
       </div>
@@ -1188,9 +1184,7 @@ export function genesisPOrridgeKrankheitsportraetPage() {
         <strong>any person can develop any illness, regardless of subtype.</strong> What can
         be shown in Genesis's case is a pattern in dealing with a progressive illness that
         keeps recurring in a pronounced sexual Eight with a Nine-Wing – one of many possible
-        readings, not a verdict. The corresponding illness pattern is being developed
-        gradually in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        readings, not a verdict. The illness has its own entry in this Compass's Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/leukaemie">Leukemia</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
         Genesis did not know their own pattern as an Enneagram structure – the sexual Eight
         with a Nine-Wing reflexively clings to its own uncompromising stance, even toward
@@ -4032,9 +4026,7 @@ export function avrilLavigneKrankheitsportraetPage() {
         subtype.</strong> What Lavigne's case shows is a pattern in how an existential,
         initially invisible threat is handled, one that recurs again and again in a
         pronounced sexual Six with a Seven-Wing – one of many possible readings, not a
-        verdict. The corresponding illness will be developed further, over time, in this
-        Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        verdict. The illness has its own entry in this Compass's Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/borreliose">Lyme Disease (from Tick Bites)</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as Its Own Factor:</strong>
         Lavigne likely does not know her own pattern as an Enneagram structure – the sexual
         Six with a Seven-Wing reflexively holds onto direct confrontation and turning
@@ -4212,9 +4204,7 @@ export function steveJobsKrankheitsportraetPage() {
         structure, and Jobs' own later recognition that the delay was a mistake shows that he
         himself saw this connection. What his case shows is a pattern in how a pronounced
         social one with a two-wing tends to handle their own diagnosis – one of many possible
-        interpretations, not a verdict. The corresponding illness pattern is being developed
-        gradually in this compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        interpretations, not a verdict. The illness has its own entry in this Compass's Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/bauchspeicheldruesenkrebs">Pancreatic Cancer</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
         Like most people, Jobs did not consciously know his own Enneagram pattern. Without
         that knowledge, he lived out his conviction that he had to recognize and determine the
@@ -4756,9 +4746,7 @@ export function metteMaritKrankheitsportraetPage() {
         pulmonary fibrosis – <strong>anyone can get any illness, regardless of subtype.</strong>
         What Mette-Marit's case can illustrate is a pattern that recurs in practice around the
         need to conceal progressive weakness behind outward functioning – one of many possible
-        explanations, not a verdict. The corresponding illness pattern will gradually be
-        developed further in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        explanations, not a verdict. The illness has its own entry in this Compass's Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/lungenfibrose">Pulmonary Fibrosis</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as a factor of its own:</strong>
         Mette-Marit most likely does not know her own Enneagram pattern – the self-preservation
         Four with Three-wing endures suffering with discipline and presents functioning capacity

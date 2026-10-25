@@ -137,9 +137,7 @@ export function adeleKrankheitsportraetPage() {
         postnatal depression – <strong>any person can develop any illness, regardless of
         subtype.</strong> What can be shown in Adele's case is a pattern in dealing with a
         psychological crisis that keeps recurring in a pronounced self-preservation Four with
-        a Three-Wing – one of many possible readings, not a verdict. The corresponding illness
-        pattern is being developed gradually in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        a Three-Wing – one of many possible readings, not a verdict. The illness has its own entry in this Compass's Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/depression">Depression</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
         Adele does not know her own pattern as an Enneagram structure – the self-preservation
         Four with a Three-Wing reflexively clings to showing its own pain only once it has
@@ -828,9 +826,7 @@ export function fjodorDostojewskiKrankheitsportraetPage() {
         <strong>every person can develop any illness, regardless of subtype.</strong> What
         Dostoevsky's case can show is a pattern that stands out again and again in practice
         wherever existential fear is immediately processed into literature – one possible
-        explanation among many, not a verdict. The corresponding condition will be developed
-        step by step in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        explanation among many, not a verdict. The illness has its own entry in this Compass's Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/epilepsie">Epilepsy</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>g) The Unconscious Fixation as a Further Factor:</strong>
         Dostoevsky did not know his own pattern – yet the self-preservation Six, who seeks safety in a familiar frame, found in the ever-recurring epileptic seizures a paradoxical anchor point that he transferred directly into his fictional characters, rather than experiencing the illness purely as threat. That, too, is a form of unconscious pattern integration: not struggle, but processing within one's own work.</p>
       </div>
@@ -3279,9 +3275,7 @@ export function knutHamsunKrankheitsportraetPage() {
         Hamsun's health decline is closely tied to purely physical, age-related vascular
         changes, not purely psychosomatic causes. What his case can show is a pattern in how a
         pronounced self-preservation Four with a five-wing deals with its own decline – one of
-        many possible readings, not a verdict. The corresponding illness pattern is being
-        developed further, case by case, in this compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        many possible readings, not a verdict. The illness has its own entry in this Compass's Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/arteriosklerose">Atherosclerosis</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
         Like most people of his time, Hamsun did not consciously know his Enneagram pattern.
         Without that knowledge, he also lacked access to a conscious distinction between organic
@@ -3977,9 +3971,7 @@ export function margaretRutherfordKrankheitsportraetPage() {
         depression or dementia – <strong>anyone can develop any illness, regardless of
         subtype.</strong> What Rutherford's case illustrates is a pattern that keeps recurring
         in practice alongside deep, habit-based denial – one of many possible explanations, not
-        a verdict. The corresponding illness pattern is gradually being developed in this
-        Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        a verdict. The illness has its own entry in this Compass's Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/depression">Depression</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
         Rutherford did not know her own Enneagram pattern. Without that awareness, she had no
         reason to consciously counter her own Nine's inertia – instead she immersed herself ever

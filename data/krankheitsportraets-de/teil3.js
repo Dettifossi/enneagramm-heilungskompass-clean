@@ -491,7 +491,7 @@ export function christiaanBarnardKrankheitsportraetPage() {
         Arthritis führt. <strong>Jeder Mensch kann jede Krankheit bekommen, gleich welcher Subtyp.</strong> Barnards Fall zeigt allenfalls ein Muster im
         Umgang mit dem Verlust der eigenen Leistungsfähigkeit, das bei einer ausgeprägten
         sozialen Drei mit Zweierflügel immer wieder auffällt – eine von vielen möglichen
-        Deutungen, kein Urteil. Das Krankheitsbild selbst wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses ausgearbeitet.</p>
+        Deutungen, kein Urteil. Ausführlich beschrieben ist das Krankheitsbild im Psychosomatik-Register dieses Kompasses unter <a href="javascript:void(0)" data-route="psychosomatik/rheumatoide_arthritis">Rheumatoide Arthritis</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Barnard kannte sein eigenes Muster nicht – die soziale Drei mit Zweierflügel
         ersetzt reflexhaft eine verlorene sichtbare Rolle durch eine neue, statt den
@@ -806,7 +806,7 @@ export function fransDeWaalKrankheitsportraetPage() {
         unabhängig vom Subtyp.</strong> Was sich an de Waals Fall zeigen lässt, ist ein
         Muster im Umgang mit einer schweren, kurzfristigen Diagnose, das bei einem
         ausgeprägten sexuellen Siebener mit Sechserflügel immer wieder auffällt – eine von
-        vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild kommt nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses hinzu.</p>
+        vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild steht im Psychosomatik-Register dieses Kompasses als eigener Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/magenkrebs">Magenkrebs</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         De Waal kannte sein eigenes Muster nicht – die sexuelle Sieben mit Sechserflügel
         sucht reflexhaft die volle, ungefilterte Erfahrung und Weiterarbeit, statt eine
@@ -1713,7 +1713,7 @@ export function johnWayneKrankheitsportraetPage() {
         (jahrzehntelanges starkes Rauchen), nicht rein psychosomatisch zu erklären. Was sich an
         seinem Fall zeigen lässt, ist ein Muster im öffentlichen Umgang mit eigener Krankheit,
         das bei einer ausgeprägten sexuellen Acht mit Siebenerflügel immer wieder auffällt –
-        eine von vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild kommt nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses hinzu.</p>
+        eine von vielen möglichen Deutungen, kein Urteil. Zum Krankheitsbild gibt es im Psychosomatik-Register dieses Kompasses einen eigenen Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/lungenkrebs">Lungenkrebs</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
         Wayne kannte sein eigenes Muster nicht – die sexuelle Acht mit Siebenerflügel begegnet
         Bedrohung mit direkter Konfrontation und ungebremstem Tempo, und genau das ließ ihn
@@ -2386,7 +2386,7 @@ export function morganFreemanKrankheitsportraetPage() {
         Verletzung erleiden, unabhängig vom Subtyp.</strong> Was sich an Freemans Fall
         zeigen lässt, ist ein Muster im Umgang mit chronischem Schmerz, das bei einer
         ausgeprägten sexuellen Sieben mit Sechserflügel immer wieder auffällt – eine von
-        vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild selbst wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses ausgearbeitet.</p>
+        vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild steht im Psychosomatik-Register dieses Kompasses als eigener Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/fibromyalgie">Fibromyalgie</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
         Freeman kennt sein eigenes Muster nicht als Enneagramm-Struktur – die sexuelle
         Sieben mit Sechserflügel sucht reflexhaft die volle, ungefilterte Erfahrung, statt
@@ -2571,7 +2571,7 @@ export function nikolaTeslaKrankheitsportraetPage() {
         unabhängig vom Subtyp.</strong> Was sich an Teslas Fall zeigen lässt, ist ein Muster
         im Umgang mit fortschreitender psychischer Isolation, das bei einer ausgeprägten
         sozialen Sieben mit Sechserflügel unter chronischem Stress immer wieder auffällt –
-        eine von vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild kommt nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses hinzu.</p>
+        eine von vielen möglichen Deutungen, kein Urteil. Ausführlich beschrieben ist das Krankheitsbild im Psychosomatik-Register dieses Kompasses unter <a href="javascript:void(0)" data-route="psychosomatik/zwangsstoerung_ocd">Zwangsstörung (OCD)</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Tesla kannte sein eigenes Muster nicht – die soziale Sieben mit Sechserflügel
         verteidigt reflexhaft die eigene Mission gegen jede als bedrohlich erlebte Störung,
@@ -3131,7 +3131,7 @@ export function stephenHawkingKrankheitsportraetPage() {
         Erkrankungen gibt es nicht. <strong>Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Hawkings Fall zeigt allenfalls ein Muster, das bei
         dem Bedürfnis, Kontrollverlust durch den Aufbau neuer, verlässlicher Systeme zu
         kompensieren, in der Praxis immer wieder auffällt – eine von vielen möglichen
-        Erklärungen, kein Urteil. Das Krankheitsbild selbst wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses ausgearbeitet.</p>
+        Erklärungen, kein Urteil. Das Krankheitsbild steht im Psychosomatik-Register dieses Kompasses als eigener Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/als">Amyotrophe Lateralsklerose (ALS)</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
         Hawking kannte sein eigenes Enneagramm-Muster nicht – die soziale Fünf mit
         Sechserflügel sucht Sicherheit fast reflexhaft im Aufbau geprüfter, verlässlicher
@@ -3322,10 +3322,7 @@ export function warrenBuffettKrankheitsportraetPage() {
         Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich an Buffetts Fall zeigen
         lässt, ist ein Muster im Umgang mit einer Krebsdiagnose, das bei einer ausgeprägten
         selbsterhaltenden Fünf mit Sechserflügel immer wieder auffällt – eine von vielen
-        möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
-        Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        möglichen Deutungen, kein Urteil. Das Krankheitsbild steht im Psychosomatik-Register dieses Kompasses als eigener Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/prostatakrebs">Prostatakrebs</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Buffett kannte, wie die meisten Menschen, sein eigenes Enneagramm-Muster über weite
         Strecken seines Lebens nicht bewusst. Ohne dieses Wissen lebte er dennoch jahrzehntelang
@@ -4154,8 +4151,7 @@ export function epikurKrankheitsportraetPage() {
         Daraus folgt nicht, dass das Muster der sozialen Sieben mit Sechserflügel zwangsläufig zu Nierensteinen führt. <strong>Jeder Mensch kann jede Krankheit bekommen, gleich welcher Subtyp.</strong> Was sich an Epikurs
         Fall zeigen lässt, ist ein Muster im Umgang mit Schmerz und nahendem Tod, das bei einer ausgeprägten
         sozialen Sieben mit Sechserflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein
-        Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
+        Urteil. Zum Krankheitsbild gibt es im Psychosomatik-Register dieses Kompasses einen eigenen Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/nierensteine">Nierensteine</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Epikur kannte naturgemäß kein Enneagramm-Modell. Ohne dieses Wissen lebte er sein Muster – Sinnstiftung
         und Gemeinschaftsbindung selbst im eigenen Leiden – bis zum letzten Atemzug konsequent aus, ohne es als
@@ -5384,7 +5380,7 @@ export function leonardCohenKrankheitsportraetPage() {
         Wirbelfrakturen führt. <strong>Jeder Mensch kann jede Krankheit bekommen, gleich welcher Subtyp.</strong>
         Cohens Fall zeigt allenfalls ein Muster im Umgang mit lebenslangem psychischem Leiden und
         spätem körperlichem Verfall, das bei einer ausgeprägten sozialen Vier mit Fünferflügel immer wieder
-        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild selbst wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses ausgearbeitet.</p>
+        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Zum Krankheitsbild gibt es im Psychosomatik-Register dieses Kompasses einen eigenen Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/depression">Depression</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Cohen kannte, wie die meisten Menschen seiner Zeit, kein Enneagramm-Modell. Ohne dieses Wissen suchte er
         über Jahrzehnte spirituelle statt strukturierter medizinischer Wege im Umgang mit seiner Depression,

@@ -280,7 +280,7 @@ export function byronKatieKrankheitsportraetPage() {
         entwickeln, unabhängig vom Subtyp.</strong> Was sich an Byron Katies Fall zeigen
         lässt, ist ein Muster im Umgang mit einer überwundenen psychischen Krise, das bei
         einer ausgeprägten sexuellen Sechs mit Siebenerflügel immer wieder auffällt – eine
-        von vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild kommt nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses hinzu.</p>
+        von vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild steht im Psychosomatik-Register dieses Kompasses als eigener Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/depression">Depression</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>c) Die unbewusste Fixierung als eigener Faktor:</strong>
         Byron Katie kennt ihr eigenes Muster nicht als Enneagramm-Struktur – die sexuelle
         Sechs mit Siebenerflügel begegnet reflexhaft der eigenen Angst frontal, statt ihr
@@ -462,7 +462,7 @@ export function davidBowieKrankheitsportraetPage() {
         Das heißt nicht, dass das Muster der sozialen Eins zwangsläufig zu Krebserkrankungen führt. <strong>Jeder Mensch kann jede Krankheit bekommen, gleich welcher Subtyp.</strong> Was sich an Bowies Fall zeigen lässt, ist ein Muster, das bei dem
         Bedürfnis, selbst die eigene Sterblichkeit noch als bewusst gestaltete Botschaft an ein
         Publikum zu formen, in der Praxis immer wieder auffällt – eine von vielen möglichen
-        Erklärungen, kein Urteil. Das Krankheitsbild selbst wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses ausgearbeitet.</p>
+        Erklärungen, kein Urteil. Zum Krankheitsbild gibt es im Psychosomatik-Register dieses Kompasses einen eigenen Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/leberkrebs">Leberkrebs</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
         Bowie kannte sein eigenes Muster nicht – die soziale Eins mit Zweierflügel will die eigene Wirkung bis zuletzt kontrollieren und gestalten, und genau das tat er, indem er die tödliche Diagnose zu seinem letzten, makellos komponierten Werk verarbeitete, statt sich öffentlich verletzlich zu zeigen. Wer das eigene Kontrollbedürfnis nicht als Muster erkennt, gestaltet noch den eigenen Tod, statt ihn einfach geschehen zu lassen.</p>
       </div>
@@ -1154,10 +1154,7 @@ export function gretaThunbergKrankheitsportraetPage() {
         <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
         Das Muster der selbsterhaltenden Zwei führt nicht zwangsläufig zu Depression und Essstörung: <strong>Jeder Mensch kann jede Erkrankung entwickeln, der Subtyp spielt dabei keine Rolle.</strong> Was sich aus Thunbergs Geschichte ablesen lässt, ist ein Muster im Umgang mit einer als existenziell erlebten Bedrohung, das bei einer
         ausgeprägten selbsterhaltenden Zwei mit Einserflügel immer wieder auffällt – eine von
-        vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
-        diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        vielen möglichen Deutungen, kein Urteil. Ausführlich beschrieben ist das Krankheitsbild im Psychosomatik-Register dieses Kompasses unter <a href="javascript:void(0)" data-route="psychosomatik/depression">Depression</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
         Thunberg kennt ihr eigenes Muster nicht als Enneagramm-Struktur – die selbsterhaltende
         Zwei mit Einserflügel erlebt Bedrohungen der eigenen Existenzgrundlage reflexhaft als
@@ -1542,7 +1539,7 @@ export function johannesBrahmsKrankheitsportraetPage() {
         Eine zwangsläufige Linie vom Muster der selbsterhaltenden Neun zu Lebererkrankungen gibt es nicht. <strong>Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich aus Brahms' Geschichte ablesen lässt, ist ein Muster
         im Umgang mit einer tödlichen Diagnose, das bei einer ausgeprägten selbsterhaltenden
         Neun mit Achterflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein
-        Urteil. Das Krankheitsbild selbst wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses ausgearbeitet.</p>
+        Urteil. Zum Krankheitsbild gibt es im Psychosomatik-Register dieses Kompasses einen eigenen Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/leberkrebs">Leberkrebs</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
         Brahms kannte sein eigenes Muster nicht – die selbsterhaltende Neun mit Achterflügel
         findet Sicherheit im Vertrauten und trägt Belastungen lange schweigend mit, statt sie
@@ -2766,7 +2763,7 @@ export function robertDeNiroKrankheitsportraetPage() {
         Prostatakrebs führt. <strong>Jeder Mensch kann jede Erkrankung entwickeln, gleich welcher Subtyp.</strong> Was sich an De Niros Fall zeigen lässt, ist ein
         Muster im Umgang mit einer erfolgreich behandelten Erkrankung, das bei einem
         ausgeprägten selbsterhaltenden Typ 1 mit Neunerflügel immer wieder auffällt – eine
-        von vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild kommt nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses hinzu.</p>
+        von vielen möglichen Deutungen, kein Urteil. Zum Krankheitsbild gibt es im Psychosomatik-Register dieses Kompasses einen eigenen Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/prostatakrebs">Prostatakrebs</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         De Niro kennt sein eigenes Muster nicht als Enneagramm-Struktur – der selbsterhaltende
         Typ 1 mit Neunerflügel hält reflexhaft an der eigenen, stillen Selbstständigkeit fest,
@@ -2953,10 +2950,7 @@ export function salvatoreRiinaKrankheitsportraetPage() {
         bekommen, unabhängig vom Subtyp.</strong> Was sich an Riinas Fall zeigen lässt, ist
         ein Muster im Umgang mit gesundheitlichem Verfall, das bei einer ausgeprägten
         selbsterhaltenden Acht mit Neunerflügel immer wieder auffällt – eine von vielen
-        möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
-        Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        möglichen Deutungen, kein Urteil. Das Krankheitsbild steht im Psychosomatik-Register dieses Kompasses als eigener Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/schlaganfall">Schlaganfall</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Riina kannte sein eigenes Muster nicht – die selbsterhaltende Acht mit Neunerflügel
         begegnet jeder Bedrohung des eigenen Territoriums reflexhaft mit Kontrolle und
@@ -3129,9 +3123,7 @@ export function umbertoEcoKrankheitsportraetPage() {
         Eine zwangsläufige Linie vom Muster der selbsterhaltenden Acht zu Bauchspeicheldrüsenkrebs gibt es nicht. <strong>Jeder Mensch kann jede Erkrankung entwickeln, unabhängig vom Subtyp.</strong> Was sich an Ecos Fall zeigen lässt, ist
         ein Muster im Umgang mit einer tödlichen Diagnose, das bei einem ausgeprägten
         selbsterhaltenden Typ 8 immer wieder auffällt – eine von vielen möglichen Deutungen,
-        kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        kein Urteil. Das Krankheitsbild steht im Psychosomatik-Register dieses Kompasses als eigener Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/bauchspeicheldruesenkrebs">Bauchspeicheldrüsenkrebs</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
         Eco kannte sein eigenes Muster nicht als Enneagramm-Struktur – der selbsterhaltende
         Typ 8 hält reflexhaft an der eigenen Souveränität über die persönliche Information
@@ -3315,7 +3307,7 @@ export function winstonChurchillKrankheitsportraetPage() {
         Schlaganfällen führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig
         vom Subtyp.</strong> Was sich an Churchills Fall erkennen lässt, ist ein Muster, das bei
         kompromissloser Verteidigung der eigenen Unangreifbarkeit in der Praxis immer wieder
-        auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das Krankheitsbild selbst wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses ausgearbeitet.</p>
+        auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Zum Krankheitsbild gibt es im Psychosomatik-Register dieses Kompasses einen eigenen Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/depression">Depression</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>g) Die unbewusste Fixierung als eigener Faktor:</strong>
         Churchill kannte sein eigenes Muster nicht – die selbsterhaltende Acht duldet keine Schwäche, schon gar nicht die eigene, und verbarg deshalb selbst einen schweren Schlaganfall vor der Öffentlichkeit, statt kürzerzutreten. Wer die eigene Unverwundbarkeits-Fixierung nicht kennt, verwechselt Verbergen mit Stärke, bis der Körper die Rechnung präsentiert.</p>
       </div>

@@ -1029,10 +1029,7 @@ export function friedrichNietzscheKrankheitsportraetPage() {
         Das Muster der sexuellen Fünf führt nicht zwangsläufig zu neurologischen
         Erkrankungen: <strong>Jeder Mensch kann jede Krankheit bekommen, der Subtyp spielt dabei keine Rolle.</strong> Was sich an Nietzsches Fall zeigen lässt, ist ein Muster, das bei
         totaler Konzentration der eigenen Kraft auf ein einziges geistiges Werk in der Praxis
-        immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das
-        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das Krankheitsbild steht im Psychosomatik-Register dieses Kompasses als eigener Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/migraene">Migräne</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>g) Die unbewusste Fixierung als eigener Faktor:</strong>
         Nietzsche kannte sein eigenes Muster nicht – die sexuelle Fünf bündelt ihre gesamte Kraft auf den einen Kanal, durch den sich alles entlädt, ohne Rücksicht auf die eigenen Reserven, und genau das trieb ihn dazu, bis zum völligen Zusammenbruch weiterzuschreiben. Wer die eigene Konzentration der Kräfte nicht als Muster erkennt, merkt nicht, wann die letzte Reserve aufgebraucht ist.</p>
       </div>
@@ -1390,7 +1387,7 @@ export function hermannHesseKrankheitsportraetPage() {
         oder Depression gibt es nicht. <strong>Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich an Hesses Fall zeigen lässt, ist ein Muster
         im Umgang mit chronischem psychischem und körperlichem Leiden, das bei einer
         ausgeprägten selbsterhaltenden Fünf mit Sechserflügel immer wieder auffällt – eine
-        von vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild selbst wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses ausgearbeitet.</p>
+        von vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild steht im Psychosomatik-Register dieses Kompasses als eigener Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/migraene">Migräne</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Hesse kannte sein eigenes Muster nicht – die selbsterhaltende Fünf mit Sechserflügel
         sichert reflexhaft die eigene, kontrollierte Innenwelt, statt sich je vollständig auf
@@ -2634,7 +2631,7 @@ export function ojSimpsonKrankheitsportraetPage() {
         – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong>
         Was sich an Simpsons Fall zeigen lässt, ist ein Muster im Umgang mit einer tödlichen
         Diagnose, das bei einer ausgeprägten sozialen Drei mit Viererflügel immer wieder
-        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses wird das Krankheitsbild nach und nach ausgearbeitet.</p>
+        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Zum Krankheitsbild gibt es im Psychosomatik-Register dieses Kompasses einen eigenen Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/prostatakrebs">Prostatakrebs</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Simpson kannte sein eigenes Muster nicht – die soziale Drei mit Viererflügel begegnet
         jeder Bedrohung des eigenen Bildes reflexhaft mit Geheimhaltung und kontrollierter
@@ -2806,10 +2803,7 @@ export function robbieWilliamsKrankheitsportraetPage() {
         entwickeln, unabhängig vom Subtyp.</strong> Was sich an Williams' Fall zeigen
         lässt, ist ein Muster im Umgang mit dem eigenen, nie erfüllten inneren Maßstab,
         das bei einem ausgeprägten sexuellen Einser mit Zweierflügel immer wieder
-        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende
-        Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild steht im Psychosomatik-Register dieses Kompasses als eigener Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/depression">Depression</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
         Williams kennt sein eigenes Muster nicht als Enneagramm-Struktur – die sexuelle
         Eins mit Zweierflügel legt reflexhaft einen unerbittlichen Maßstab an die eigene

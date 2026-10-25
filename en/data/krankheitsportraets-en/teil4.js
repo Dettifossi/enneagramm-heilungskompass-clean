@@ -139,10 +139,7 @@ export function cgJungKrankheitsportraetPage() {
         subtype.</strong> Jung's heart attack is closely tied to a classic, purely physical risk
         factor – immobilization after a bone fracture – not purely psychosomatic causes. What
         his case can show is a pattern in how a pronounced social Five with a six-wing deals
-        with an existential crisis – one of many possible readings, not a verdict. The
-        corresponding illness pattern is being developed further, case by case, in this
-        compass's <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics
-        register</a>.</p>
+        with an existential crisis – one of many possible readings, not a verdict. The illness has its own entry in this Compass's Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/herzinfarkt">Heart Attack</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
         Unlike most people of his time, Jung actually possessed a psychological model of his
         own behavior – but the Enneagram itself was unknown to him. Without that specific
@@ -656,9 +653,7 @@ export function claudeDebussyKrankheitsportraetPage() {
         <strong>any person can develop any illness, regardless of subtype.</strong> What
         Debussy's case illustrates is a pattern in the handling of one's own illness that keeps
         recurring in practice among people with a pronounced Sexual Four with Five-wing – one
-        of many possible interpretations, not a judgment. The corresponding illness pattern is
-        gradually being developed in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        of many possible interpretations, not a judgment. The illness has its own entry in this Compass's Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/darmkrebs">Colorectal Cancer</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
         Debussy did not know his own pattern – the Sexual Four reflexively transforms pain
         into work rather than rest, and that is exactly what kept him composing, conducting,
@@ -1016,9 +1011,7 @@ export function franzKafkaKrankheitsportraetPage() {
         tuberculosis or other respiratory illnesses – <strong>every person can develop any
         illness, regardless of subtype.</strong> What Kafka's case can show is a pattern that
         stands out again and again in practice wherever radical withdrawal from interpersonal
-        closeness is present – one possible explanation among many, not a verdict. The
-        corresponding condition will be developed step by step in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        closeness is present – one possible explanation among many, not a verdict. The illness has its own entry in this Compass's Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/tuberkulose">Tuberculosis</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
         Kafka did not know his own pattern – the self-preservation Five with Four-wing withdraws even deeper into its own inner world as threat progresses, and that is exactly what he did, until in the end only handwritten notes remained to communicate at all. Someone who does not know their own withdrawal pattern does not see how far it can escalate before communication becomes impossible.</p>
       </div>
@@ -2200,9 +2193,7 @@ export function leonardoDaVinciKrankheitsportraetPage() {
         <strong>anyone can develop any illness, regardless of subtype.</strong> What
         Leonardo's case illustrates is a pattern in how a pronounced Social Five with a
         Four-wing tends to handle physical limitation in old age – one of many possible
-        interpretations, not a verdict. The corresponding illness picture is gradually
-        being developed in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        interpretations, not a verdict. The illness has its own entry in this Compass's Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/schlaganfall">Stroke</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
         Leonardo did not know his own pattern – the Social Five with a Four-wing reflexively
         puts its knowledge and work at the world's disposal instead of ever recognizing its
@@ -4188,9 +4179,7 @@ export function alainDelonKrankheitsportraetPage() {
         or leukemia – <strong>any person can develop any illness, regardless of subtype.</strong>
         What Delon's case shows is a pattern in how a progressive, life-threatening illness is
         handled, one that recurs again and again in a pronounced self-preservation One with a
-        Two-Wing – one of many possible readings, not a verdict. The corresponding illness
-        will be developed further, over time, in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        Two-Wing – one of many possible readings, not a verdict. This Compass's Psychosomatics Register describes the illness in a separate entry: <a href="javascript:void(0)" data-route="psychosomatik/schlaganfall">Stroke</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as Its Own Factor:</strong>
         Delon likely did not know his own pattern as an Enneagram structure – the
         self-preservation One with a Two-Wing reflexively holds onto control over its own

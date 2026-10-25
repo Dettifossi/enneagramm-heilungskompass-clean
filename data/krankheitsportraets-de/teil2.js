@@ -484,10 +484,7 @@ export function charlesMansonKrankheitsportraetPage() {
         <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
         Eine zwangsläufige Linie vom Muster der sexuellen Sechs zu Darmerkrankungen gibt es nicht. <strong>Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich an Mansons Fall erkennen lässt, ist ein Muster im Umgang
         mit der eigenen Sterblichkeit, das bei einer destruktiv ausgeprägten sexuellen Sechs
-        mit Siebenerflügel auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das
-        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        mit Siebenerflügel auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild steht im Psychosomatik-Register dieses Kompasses als eigener Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/darmkrebs">Darmkrebs</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Manson kannte sein eigenes Muster nicht – die sexuelle Sechs als Kontratyp überspielt
         Angst reflexhaft durch Kontrolle und Angriff, statt sie je bei sich selbst zu erkennen,
@@ -685,7 +682,7 @@ export function dollyPartonKrankheitsportraetPage() {
         Erkrankungen oder Krebs gibt es nicht. <strong>Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich aus Partons Geschichte ablesen lässt, ist ein Muster im
         Umgang mit einer über Jahrzehnte verschwiegenen körperlichen Belastung, das bei einer
         ausgeprägten sexuellen Drei mit Viererflügel immer wieder auffällt – eine von vielen
-        möglichen Deutungen, kein Urteil. Das Krankheitsbild selbst wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses ausgearbeitet.</p>
+        möglichen Deutungen, kein Urteil. Ausführlich beschrieben ist das Krankheitsbild im Psychosomatik-Register dieses Kompasses unter <a href="javascript:void(0)" data-route="psychosomatik/endometriose">Endometriose</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
         Nichts deutet darauf hin, dass Parton ihr eigenes Enneagramm-Muster je bewusst kannte –
         wie die meisten Menschen kannte sie das System vermutlich gar nicht. Die
@@ -1047,9 +1044,7 @@ export function fredericChopinKrankheitsportraetPage() {
         Das Muster der sexuellen Fünf führt nicht zwangsläufig zu Lungenerkrankungen: <strong>Jeder Mensch kann jede Krankheit bekommen, der Subtyp spielt dabei keine Rolle.</strong> Was sich aus Chopins Geschichte ablesen lässt, ist ein Muster,
         das bei der engen Verknüpfung von körperlicher Kraft und der einen tragenden Verbindung
         in der Praxis immer wieder auffällt – eine von vielen möglichen Erklärungen, kein
-        Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        Urteil. Das Krankheitsbild steht im Psychosomatik-Register dieses Kompasses als eigener Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/tuberkulose">Tuberkulose</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
         Chopin kannte sein eigenes Muster nicht – die sexuelle Fünf bündelt Kraft und Hingabe auf die eine tragende Verbindung, ohne dass ihm bewusst war, wie sehr seine körperliche Kraft an genau dieser einen Verbindung hing. Wer das eigene Muster nicht kennt, sieht auch nicht, wie eng die eigene Vitalität an eine einzige Bindung geknüpft ist, bis der Verlust sie mit sich reißt.</p>
       </div>
@@ -1211,7 +1206,7 @@ export function genesisPOrridgeKrankheitsportraetPage() {
         Was sich an Genesis' Fall erkennen lässt, ist ein Muster im Umgang mit einer
         fortschreitenden Erkrankung, das bei einer ausgeprägten sexuellen Acht mit
         Neunerflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil.
-        Das Krankheitsbild kommt nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses hinzu.</p>
+        Das Krankheitsbild steht im Psychosomatik-Register dieses Kompasses als eigener Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/leukaemie">Leukämie</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Genesis kannte das eigene Muster nicht als Enneagramm-Struktur – die sexuelle Acht
         mit Neunerflügel hält reflexhaft an der eigenen Kompromisslosigkeit fest, auch
@@ -4143,7 +4138,7 @@ export function avrilLavigneKrankheitsportraetPage() {
         vergleichbaren Erkrankungen gibt es nicht. <strong>Jeder Mensch kann jede Krankheit entwickeln, unabhängig vom Subtyp.</strong> Was sich an Lavignes Fall zeigen lässt,
         ist ein Muster im Umgang mit einer existenziellen, zunächst unsichtbaren Bedrohung,
         das bei einer ausgeprägten sexuellen Sechs mit Siebenerflügel immer wieder auffällt –
-        eine von vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild kommt nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses hinzu.</p>
+        eine von vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild steht im Psychosomatik-Register dieses Kompasses als eigener Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/borreliose">Borreliose (durch Zeckenbisse)</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
         Lavigne kennt ihr eigenes Muster vermutlich nicht als Enneagramm-Struktur – die
         sexuelle Sechs mit Siebenerflügel hält reflexhaft an direkter Konfrontation und der
@@ -4328,7 +4323,7 @@ export function steveJobsKrankheitsportraetPage() {
         Verzögerung sei ein Fehler gewesen, zeigt, dass er selbst diesen Zusammenhang erkannte.
         Was sich an seinem Fall zeigen lässt, ist ein Muster im Umgang mit der eigenen
         Diagnose, das bei einer ausgeprägten sozialen Eins mit Zweierflügel immer wieder
-        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses wird das Krankheitsbild nach und nach ausgearbeitet.</p>
+        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Zum Krankheitsbild gibt es im Psychosomatik-Register dieses Kompasses einen eigenen Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/bauchspeicheldruesenkrebs">Bauchspeicheldrüsenkrebs</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Jobs kannte, wie die meisten Menschen, sein Enneagramm-Muster nicht bewusst. Ohne
         dieses Wissen lebte er seine Überzeugung, den richtigen Weg selbst erkennen und
@@ -4881,7 +4876,7 @@ export function metteMaritKrankheitsportraetPage() {
         führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong>
         Was sich an Mette-Marits Fall zeigen lässt, ist ein Muster, das bei dem Bedürfnis, eine
         fortschreitende Schwäche hinter äußerer Funktionsfähigkeit zu verbergen, in der Praxis
-        immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses wird das Krankheitsbild nach und nach ausgearbeitet.</p>
+        immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Ausführlich beschrieben ist das Krankheitsbild im Psychosomatik-Register dieses Kompasses unter <a href="javascript:void(0)" data-route="psychosomatik/lungenfibrose">Lungenfibrose</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
         Mette-Marit kennt ihr eigenes Enneagramm-Muster vermutlich nicht – die selbsterhaltende
         Vier mit Dreierflügel hält Leiden diszipliniert aus und zeigt nach außen so lange wie

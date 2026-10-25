@@ -269,9 +269,7 @@ export function byronKatieKrankheitsportraetPage() {
         or agoraphobia – <strong>anyone can develop any mental illness, regardless of
         subtype.</strong> What Byron Katie's case illustrates is a pattern in how a
         pronounced Sexual Six with a Seven-wing tends to handle an overcome psychological
-        crisis – one of many possible interpretations, not a verdict. The corresponding
-        illness picture is gradually being developed in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        crisis – one of many possible interpretations, not a verdict. The illness has its own entry in this Compass's Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/depression">Depression</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>c) The unconscious fixation as its own factor:</strong>
         Byron Katie does not know her own pattern as an Enneagram structure – the Sexual
         Six with a Seven-wing reflexively confronts its own fear head-on rather than
@@ -446,8 +444,7 @@ export function davidBowieKrankheitsportraetPage() {
         Bowie's case can show is a pattern that stands out again and again in practice
         wherever the need exists to shape even one's own mortality into a deliberately
         composed message for an audience – one possible explanation among many, not a verdict.
-        The corresponding condition will be developed step by step in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        The illness has its own entry in this Compass's Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/leberkrebs">Liver Cancer</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
         Bowie did not know his own pattern – the social One with Two-wing wants to control and shape its own impact right to the end, and that is exactly what he did, turning a fatal diagnosis into his final, flawlessly composed work rather than showing public vulnerability. Someone who does not recognize their own need for control shapes even their own death instead of simply letting it happen.</p>
       </div>
@@ -1121,8 +1118,7 @@ export function gretaThunbergKrankheitsportraetPage() {
         regardless of subtype.</strong> What can be shown in Thunberg's case is a pattern in
         dealing with a threat experienced as existential that keeps recurring in a pronounced
         self-preservation Two with a One-Wing – one of many possible readings, not a verdict.
-        The corresponding illness pattern is being developed gradually in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        This Compass's Psychosomatics Register describes the illness in a separate entry: <a href="javascript:void(0)" data-route="psychosomatik/depression">Depression</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
         Thunberg does not know her own pattern as an Enneagram structure – the
         self-preservation Two with a One-Wing reflexively experiences threats to its own
@@ -1500,9 +1496,7 @@ export function johannesBrahmsKrankheitsportraetPage() {
         disease – <strong>any person can develop any illness, regardless of subtype.</strong>
         What Brahms's case illustrates is a pattern in how a pronounced self-preservation Nine
         with Eight-wing handles a fatal diagnosis that keeps recurring in practice – one of
-        many possible interpretations, not a judgment. The corresponding illness pattern is
-        gradually being developed in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        many possible interpretations, not a judgment. The illness has its own entry in this Compass's Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/leberkrebs">Liver Cancer</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
         Brahms did not know his own pattern – the self-preservation Nine with Eight-wing finds
         security in the familiar and silently carries burdens rather than naming them or
@@ -2683,9 +2677,7 @@ export function robertDeNiroKrankheitsportraetPage() {
         prostate cancer – <strong>any person can develop any illness, regardless of
         subtype.</strong> What can be shown in De Niro's case is a pattern in dealing with a
         successfully treated illness that keeps recurring in a pronounced self-preservation
-        Type 1 with a Nine-Wing – one of many possible readings, not a verdict. The
-        corresponding illness pattern is being developed gradually in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        Type 1 with a Nine-Wing – one of many possible readings, not a verdict. The illness has its own entry in this Compass's Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/prostatakrebs">Prostate Cancer</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
         De Niro does not know his own pattern as an Enneagram structure – the
         self-preservation Type 1 with a Nine-Wing reflexively clings to its own quiet
@@ -2857,9 +2849,7 @@ export function salvatoreRiinaKrankheitsportraetPage() {
         failure or stroke – <strong>anyone can develop any illness, regardless of
         subtype.</strong> What Riina's case shows is a pattern in how a pronounced
         Self-Preservation Eight with Nine-wing repeatedly deals with physical decline – one
-        possible reading among many, not a verdict. The corresponding illness profile is
-        gradually being developed in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        possible reading among many, not a verdict. The illness has its own entry in this Compass's Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/schlaganfall">Stroke</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
         Riina did not know his own pattern – Self-Preservation Eight with Nine-wing meets
         every threat to its own territory reflexively with control and quiet hardness rather
@@ -3026,9 +3016,7 @@ export function umbertoEcoKrankheitsportraetPage() {
         pancreatic cancer – <strong>any person can develop any illness, regardless of
         subtype.</strong> What can be shown in Eco's case is a pattern in dealing with a fatal
         diagnosis that keeps recurring in a pronounced self-preservation Type 8 – one of many
-        possible readings, not a verdict. The corresponding illness pattern is being developed
-        gradually in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        possible readings, not a verdict. The illness has its own entry in this Compass's Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/bauchspeicheldruesenkrebs">Pancreatic Cancer</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
         Eco did not know his own pattern as an Enneagram structure – the self-preservation
         Type 8 reflexively clings to sovereignty over its own information instead of sharing
@@ -3205,9 +3193,7 @@ export function winstonChurchillKrankheitsportraetPage() {
         <strong>every person can develop any illness, regardless of subtype.</strong> What
         Churchill's case can show is a pattern that stands out again and again in practice
         wherever uncompromising defense of one's own invulnerability is present – one possible
-        explanation among many, not a verdict. The corresponding condition will be developed
-        step by step in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        explanation among many, not a verdict. This Compass's Psychosomatics Register describes the illness in a separate entry: <a href="javascript:void(0)" data-route="psychosomatik/depression">Depression</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>g) The Unconscious Fixation as a Further Factor:</strong>
         Churchill did not know his own pattern – the self-preservation Eight tolerates no weakness, least of all its own, and that is exactly why he concealed even a severe stroke from the public rather than easing off. Someone who does not know their own fixation on invulnerability mistakes concealment for strength, until the body presents the bill.</p>
       </div>
