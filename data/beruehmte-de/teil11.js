@@ -2645,7 +2645,7 @@ export function catherineDeneuvePortraitPage() {
         <h2 class="vb-section">3. Der Viererflügel: Distanz, Melancholie und das Rätsel</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der Drei eine Neigung zum Besonderen, zur Tiefe und zu einer gewissen Schwermut. Eine selbsterhaltende Drei mit ausgeprägtem Zweierflügel würde Sicherheit eher über Zuwendung herstellen; bei Deneuve geht es um das Unverwechselbare und Rätselhafte. Das zeigt sich in der Auswahl ihrer Rollen. Statt der bequemen Schönheit, die man von ihr hätte verlangen können, spielte sie in ›Repulsion‹ (1965, Roman Polanski) und ›Belle de jour‹ (›Schöne des Tages‹, 1967, Luis Buñuel) Frauen, bei denen die ruhige Oberfläche etwas Dunkles verdeckt, und in ›Tristana‹ (1970, Buñuel) eine Figur, die an ihrer Umwelt zerbricht. In ›Repulsion‹ spielt sie eine kalte, erotische Figur, die ihr den Beinamen ›ice maiden‹ (›Eisjungfrau‹) eintrug.</p>
-          <p class="vb-intro">Der frühe Tod ihrer Schwester Françoise Dorléac 1967, im selben Jahr wie ›Belle de jour‹, kann als Hintergrund für die Ernsthaftigkeit dieser Jahre gelesen werden, ohne dass sich daraus mehr behaupten ließe, als die Daten zeigen.</p>
+          <p class="vb-intro">Der frühe Tod ihrer Schwester Françoise Dorléac 1967, im selben Jahr wie ›Belle de jour‹, kann als Hintergrund für die Ernsthaftigkeit dieser Jahre gelesen werden, mehr als diese Gleichzeitigkeit der Daten steht dafür nicht fest.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: das Gesicht, das mehr verbirgt als zeigt</h2>
@@ -3014,7 +3014,7 @@ export function rosalieThomassPortraitPage() {
         <h2 class="vb-section">3. Der Achterflügel: Wut als Kraft und Raum nehmen</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der Sieben Direktheit, Kraft und den Willen, Raum einzunehmen. In einem Interview mit der Apotheken Umschau trägt sie den Satz ›Ich weigere mich, mich über mein Äußeres zu definieren‹ in der Überschrift. Sie spricht dort über Wut als konstruktive Kraft und darüber, wie Frauen, die Wut zeigen, schnell als zu laut oder hysterisch abgestempelt werden. Gegenüber dem ZDF sagte sie, das Frauenbild sei überholt, man reduziere die Frau auf ihren Körper und den Mann auf seinen Status.</p>
-          <p class="vb-intro">Zu ihrer Rolle als Tatort-Kommissarin sagte sie im Interview mit t-online (25. Oktober 2026): ›Ich möchte eine Frauenfigur erzählen, die ich als Zuschauerin selbst gerne sehen würde.‹ Auch gegenüber ihrem Beruf zeigt sie Haltung: Sie kritisierte die Darstellung von Gewalt gegen Frauen in Fernsehkrimis, etwa das Bild der toten, nackten Frau am Flussufer. Das lässt sich mit dem Achterflügel in Verbindung bringen, ohne dass sich daraus mehr ableiten ließe, als diese Äußerungen zeigen.</p>
+          <p class="vb-intro">Zu ihrer Rolle als Tatort-Kommissarin sagte sie im Interview mit t-online (25. Oktober 2026): ›Ich möchte eine Frauenfigur erzählen, die ich als Zuschauerin selbst gerne sehen würde.‹ Auch gegenüber ihrem Beruf zeigt sie Haltung: Sie kritisierte die Darstellung von Gewalt gegen Frauen in Fernsehkrimis, etwa das Bild der toten, nackten Frau am Flussufer. Zum Achterflügel passt das gut. Ein Beweis ist es nicht, es bleibt ein Hinweis aus diesen Äußerungen.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: Figuren am Rand der Konvention</h2>

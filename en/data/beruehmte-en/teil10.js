@@ -2875,7 +2875,7 @@ export function martinaGedeckPortraitPage() {
         <h2 class="vb-section">3. The Four-wing: inwardness, dignity and vulnerability</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the Three a leaning towards depth. Where a Two-wing would bring attention and obligingness, the Four-wing brings withdrawal, inner life and the wish not to be interchangeable. A 2006 conversation in &lsquo;film-dienst&rsquo; calls her a master of understatement and describes a mixture of vulnerability, dignity and introversion. A report in &lsquo;Rheinpfalz&rsquo; headlines a portrait &lsquo;The mysterious chameleon&rsquo;.</p>
-          <p class="vb-intro">She has always loved literature, and that shows in her work: she also works as an audiobook and radio-play narrator and in 2022 received the German Audiobook Award as best interpreter. Roles aimed at inner spaces run through her career: women who hide, endure or lose something. This can be connected with the Four-wing, without deriving more from it than the roles themselves show.</p>
+          <p class="vb-intro">She has always loved literature, and that shows in her work: she also works as an audiobook and radio-play narrator and in 2022 received the German Audiobook Award as best interpreter. Roles aimed at inner spaces run through her career: women who hide, endure or lose something. This fits the Four-wing, though the roles alone cannot settle the matter.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The substance: characters who carry much in few gestures</h2>
@@ -2891,7 +2891,7 @@ export function martinaGedeckPortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow: control over one&rsquo;s own image</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of this constellation is the exactness that serves the character and the ability to show dignity without asserting it. The shadow of the Three lies in the worry about losing one&rsquo;s own image. In 2016 the German Journalists&rsquo; Association called for an interview boycott because, according to its account, Gedeck influenced the layout and headlines of articles. Whoever shows so little of herself takes care that the little is right. This can be read as protection of one&rsquo;s own image, without asserting more than was reported.</p>
+          <p class="vb-intro">The light of this constellation is the exactness that serves the character and the ability to show dignity without asserting it. The shadow of the Three lies in the worry about losing one&rsquo;s own image. In 2016 the German Journalists&rsquo; Association called for an interview boycott because, according to its account, Gedeck influenced the layout and headlines of articles. Whoever shows so little of herself takes care that the little is right. One may see in it a protection of her own image, an interpretation that rests on the report and goes no further.</p>
         </blockquote>
 
         <h2 class="vb-section">7. The path of healing: from the role to one&rsquo;s own voice</h2>
@@ -2944,7 +2944,7 @@ export function klausMariaBrandauerPortraitPage() {
         <h2 class="vb-section">3. The Eight-wing: power, force and contradiction</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Seven strength, directness and a tendency to confrontation. Instead of merely seducing, it takes up space. In Brandauer this shows in his great roles: as Hendrik Höfgen in &lsquo;Mephisto&rsquo; (1981, István Szabó), the film version of Klaus Mann&rsquo;s novel about an actor who ingratiates himself with the regime, he played the fascination of power and adaptation. The film received the Oscar for best foreign language film. In &lsquo;Never Say Never Again&rsquo; (1983) he was the Bond villain Maximilian Largo, and in &lsquo;Out of Africa&rsquo; (1985) he played Bror Blixen, for which he received an Oscar nomination as best supporting actor and a Golden Globe.</p>
-          <p class="vb-intro">That he polarizes is part of his image. A critic of the FAZ wrote in 2006: &lsquo;Man mag ihn ganz, oder man mag ihn gar nicht&rsquo; (&lsquo;One either likes him completely or not at all&rsquo;). The force with which he appears can be connected with the Eight-wing, without deriving more from it than the roles and the criticism show.</p>
+          <p class="vb-intro">That he polarizes is part of his image. A critic of the FAZ wrote in 2006: &lsquo;Man mag ihn ganz, oder man mag ihn gar nicht&rsquo; (&lsquo;One either likes him completely or not at all&rsquo;). The force with which he appears is reminiscent of the Eight-wing, even if that is only an impression drawn from roles and criticism.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The work: from Szabó&rsquo;s trilogy to Coppola</h2>
@@ -2966,7 +2966,7 @@ export function klausMariaBrandauerPortraitPage() {
 
         <h2 class="vb-section">7. The path of healing: from play to calm</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The path of the Seven leads from the enjoyment of possibilities to contentment, from the next stimulus to the ability to remain in the present. That Brandauer teaches, campaigns for poetry and has for decades deepened the same art instead of changing it can be read as a sign of this maturing, without asserting more than the public information supports.</p>
+          <p class="vb-intro">The path of the Seven leads from the enjoyment of possibilities to contentment, from the next stimulus to the ability to remain in the present. That Brandauer teaches, campaigns for poetry and has for decades deepened the same art instead of changing it might be understood as a sign of this maturing, as far as the public record lets one tell.</p>
         </blockquote>
 
       </div>

@@ -3073,7 +3073,7 @@ export function robbieColtranePortraitPage() {
 
         <h2 class="vb-section">7. Der Heilungsweg: vom Dämpfen zur eigenen Stimme</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Weg der Neun führt vom Anpassen zum Dasein mit der eigenen Kraft: vom ›Ist doch egal‹ zum ›Das will ich‹. Dass Coltrane in seinen großen Rollen genau diese Kraft zeigte, in Fitz, in Hagrid, in Zukovsky, lässt sich als Hinweis lesen, wie viel unter der ruhigen Oberfläche lag, ohne dass sich daraus mehr behaupten ließe, als die Rollen zeigen.</p>
+          <p class="vb-intro">Der Weg der Neun führt vom Anpassen zum Dasein mit der eigenen Kraft: vom ›Ist doch egal‹ zum ›Das will ich‹. Dass Coltrane in seinen großen Rollen genau diese Kraft zeigte, in Fitz, in Hagrid, in Zukovsky, verrät, wie viel unter der ruhigen Oberfläche lag. Im Rest bleibt er eine Figur, die man nur aus der Ferne kennt.</p>
         </blockquote>
 
       </div>

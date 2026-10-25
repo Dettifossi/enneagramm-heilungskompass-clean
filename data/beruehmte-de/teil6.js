@@ -3035,7 +3035,7 @@ export function martinaGedeckPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten: die Kontrolle über das eigene Bild</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht dieser Konstellation ist die Genauigkeit, die der Figur dient, und die Fähigkeit, Würde zu zeigen, ohne zu behaupten. Der Schatten der Drei liegt in der Sorge, das eigene Bild zu verlieren. 2016 rief der Deutsche Journalisten-Verband zu einem Interviewboykott auf, weil Gedeck nach seiner Darstellung Einfluss auf Aufmachung und Überschriften der Artikel nahm. Wer so wenig von sich zeigt, achtet darauf, dass das Wenige stimmt. Das lässt sich als Schutz des eigenen Bildes deuten, ohne mehr zu behaupten, als berichtet wurde.</p>
+          <p class="vb-intro">Das Licht dieser Konstellation ist die Genauigkeit, die der Figur dient, und die Fähigkeit, Würde zu zeigen, ohne zu behaupten. Der Schatten der Drei liegt in der Sorge, das eigene Bild zu verlieren. 2016 rief der Deutsche Journalisten-Verband zu einem Interviewboykott auf, weil Gedeck nach seiner Darstellung Einfluss auf Aufmachung und Überschriften der Artikel nahm. Wer so wenig von sich zeigt, achtet darauf, dass das Wenige stimmt. Man kann darin einen Schutz des eigenen Bildes sehen, eine Deutung, die sich auf den Bericht stützt und nicht darüber hinausgeht.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Der Heilungsweg: von der Rolle zur eigenen Stimme</h2>

@@ -2648,7 +2648,7 @@ export function catherineDeneuvePortraitPage() {
         <h2 class="vb-section">3. The Four-wing: distance, melancholy and the riddle</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the Three a leaning toward the special, toward depth and a certain gravity. A self-preservation Three with a strong Two-wing would rather produce security through attention to others; in Deneuve it is about the unmistakable and the enigmatic. This shows in her choice of roles. Instead of the comfortable beauty that could have been demanded of her, she played in &lsquo;Repulsion&rsquo; (1965, Roman Polanski) and &lsquo;Belle de Jour&rsquo; (1967, Luis Buñuel) women in whom a calm surface covers something dark, and in &lsquo;Tristana&rsquo; (1970, Buñuel) a character who breaks on her surroundings. In &lsquo;Repulsion&rsquo; she plays a cold, erotic figure that earned her the nickname &lsquo;ice maiden&rsquo;.</p>
-          <p class="vb-intro">The early death of her sister Françoise Dorléac in 1967, the same year as &lsquo;Belle de Jour&rsquo;, can be read as a background to the seriousness of those years, without claiming more than the dates show.</p>
+          <p class="vb-intro">The early death of her sister Françoise Dorléac in 1967, the same year as &lsquo;Belle de Jour&rsquo;, can be read as a background to the seriousness of those years; beyond the coincidence of dates nothing is established.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The substance: the face that hides more than it shows</h2>
@@ -3031,7 +3031,7 @@ export function robbieColtranePortraitPage() {
 
         <h2 class="vb-section">7. The path of healing: from muting to one&rsquo;s own voice</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The path of the Nine leads from adapting to being there with one&rsquo;s own strength: from &lsquo;it doesn&rsquo;t matter&rsquo; to &lsquo;this is what I want&rsquo;. That Coltrane showed exactly this strength in his great roles, in Fitz, in Hagrid, in Zukovsky, can be read as an indication of how much lay beneath the calm surface, without asserting more than the roles show.</p>
+          <p class="vb-intro">The path of the Nine leads from adapting to being there with one&rsquo;s own strength: from &lsquo;it doesn&rsquo;t matter&rsquo; to &lsquo;this is what I want&rsquo;. That Coltrane showed exactly this strength in his great roles, in Fitz, in Hagrid, in Zukovsky, reveals how much lay beneath the calm surface. For the rest he remains a figure known only from a distance.</p>
         </blockquote>
 
       </div>

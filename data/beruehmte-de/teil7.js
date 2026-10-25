@@ -2892,7 +2892,7 @@ export function klausMariaBrandauerPortraitPage() {
         <h2 class="vb-section">3. Der Achterflügel: Macht, Wucht und Widerspruch</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der Sieben Kraft, Direktheit und den Hang zur Konfrontation. Statt nur zu verführen, nimmt sie Raum ein. Bei Brandauer zeigt sich das in seinen großen Rollen: Als Hendrik Höfgen in ›Mephisto‹ (1981, István Szabó), der Verfilmung von Klaus Manns Roman über einen Schauspieler, der sich dem Regime andient, spielte er die Faszination von Macht und Anpassung. Der Film erhielt den Oscar für den besten fremdsprachigen Film. In ›Never Say Never Again‹ (1983; ›Sag niemals nie‹) war er der Bond-Gegenspieler Maximilian Largo, und in ›Out of Africa‹ (1985) gab er Bror Blixen, wofür er eine Oscar-Nominierung als bester Nebendarsteller und einen Golden Globe erhielt.</p>
-          <p class="vb-intro">Dass er polarisiert, gehört zu seinem Bild. Ein Kritiker der FAZ schrieb 2006: ›Man mag ihn ganz, oder man mag ihn gar nicht.‹ Die Wucht, mit der er auftritt, lässt sich mit dem Achterflügel in Verbindung bringen, ohne dass sich daraus mehr ableiten ließe, als die Rollen und die Kritik zeigen.</p>
+          <p class="vb-intro">Dass er polarisiert, gehört zu seinem Bild. Ein Kritiker der FAZ schrieb 2006: ›Man mag ihn ganz, oder man mag ihn gar nicht.‹ Die Wucht, mit der er auftritt, erinnert an den Achterflügel, auch wenn das nur ein Eindruck aus Rollen und Kritik ist.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Das Werk: Von Szabós Trilogie bis Coppola</h2>
@@ -2914,7 +2914,7 @@ export function klausMariaBrandauerPortraitPage() {
 
         <h2 class="vb-section">7. Der Heilungsweg: vom Spiel zur Ruhe</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Weg der Sieben führt vom Genuss der Möglichkeiten zur Genügsamkeit, vom nächsten Reiz zur Fähigkeit, im Gegenwärtigen zu bleiben. Dass Brandauer lehrt, sich für die Dichtung einsetzt und seit Jahrzehnten dieselbe Kunst vertieft, statt sie zu wechseln, lässt sich als Zeichen dieser Reifung lesen, ohne mehr zu behaupten, als die öffentlichen Angaben tragen.</p>
+          <p class="vb-intro">Der Weg der Sieben führt vom Genuss der Möglichkeiten zur Genügsamkeit, vom nächsten Reiz zur Fähigkeit, im Gegenwärtigen zu bleiben. Dass Brandauer lehrt, sich für die Dichtung einsetzt und seit Jahrzehnten dieselbe Kunst vertieft, statt sie zu wechseln, könnte man als Zeichen dieser Reifung verstehen, soweit die öffentlichen Angaben das erkennen lassen.</p>
         </blockquote>
 
       </div>
