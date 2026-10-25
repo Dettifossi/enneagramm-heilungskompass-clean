@@ -1208,7 +1208,7 @@ let fbSignOut = null;
         setTier(await tierForUser(user, false));
         setLizenzName(user.displayName || user.email);
         if (typeof state !== "undefined" && state.route && state.route.startsWith("freischalt")) {
-          go("start");
+          go(_afterUnlockRoute());
         }
       } else if (hasPortraits()) {
         // Upgrade auf den Vollzugang: Token neu laden, damit der geänderte Claim ankommt
@@ -1287,6 +1287,12 @@ function setUserPhoto(d) { try { localStorage.setItem(PHOTO_KEY, d); } catch(e) 
 function delUserPhoto()  { localStorage.removeItem(PHOTO_KEY); }
 
 function getTier()        { return localStorage.getItem(TIER_KEY) || "demo"; }
+// Nach der Freischaltung zur zuletzt gesperrten (z. B. geteilten) Seite zurückkehren
+function _afterUnlockRoute() {
+  let r = "start";
+  try { r = localStorage.getItem("kompass:returnRoute") || "start"; localStorage.removeItem("kompass:returnRoute"); } catch (e) {}
+  return r;
+}
 function setTier(t)       { localStorage.setItem(TIER_KEY, t); }
 function getLizenzName()  { return localStorage.getItem(NAME_KEY) || ""; }
 function setLizenzName(n) { localStorage.setItem(NAME_KEY, n); }
@@ -18477,9 +18483,9 @@ function bindEvents() {
             </div>
             <button class="primary" style="width:100%;font-size:1rem;" id="unlockNext">Jetzt loslegen →</button>
           `;
-          document.querySelector("#unlockNext").addEventListener("click", () => go("start"));
+          document.querySelector("#unlockNext").addEventListener("click", () => go(_afterUnlockRoute()));
         } else {
-          go("start");
+          go(_afterUnlockRoute());
         }
       } else {
         msg.textContent = "Invalid code. Please check the confirmation email from Stripe.";
@@ -18533,9 +18539,9 @@ function bindEvents() {
             </div>
             <button class="primary" style="width:100%;font-size:1rem;" id="unlockNext">Get Started →</button>
           `;
-          document.querySelector("#unlockNext").addEventListener("click", () => go("start"));
+          document.querySelector("#unlockNext").addEventListener("click", () => go(_afterUnlockRoute()));
         } else {
-          go("start");
+          go(_afterUnlockRoute());
         }
       } catch (e) {
         const map = {
@@ -47551,6 +47557,7 @@ function subtypeSchaubilderPage() {
       return;
     }
     // Zugangsschutz
+    if (!hasHeilwissen() && base !== "freischalt" && base !== "start") { try { localStorage.setItem("kompass:returnRoute", state.route); } catch (e) {} }
     if (!hasHeilwissen() && !(hasPortraits() && portraitEditionRoutes().has(base)) && base !== "start" && base !== "admin" && base !== "leseprobe" && base !== "table-of-contents" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "gesichts-scan" && base !== "updates" && base !== "kaufen" && base !== "register" && base !== "wegweiser-premium") {
       app.innerHTML = freischaltPage();
       bindEvents();
