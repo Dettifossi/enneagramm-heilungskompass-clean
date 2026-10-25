@@ -2944,6 +2944,7 @@ export function johannLechnerPortraitPage() {
         {route:"beruehmte-christian-drosten", label:"Porträt: Prof. Dr. Christian Drosten (SO7w6)"},
         {route:"enneagramm-zahnpsychosomatik", label:"Enneagramm meets Zahnpsychosomatik"},
         {route:"beruehmte-mathias-berner", label:"Porträt: Mathias Berner (SO7w6)"},
+        {route:"beruehmte-sven-platte", label:"Porträt: Sven Platte (SO3w4)"},
       ])}
     </div>
   `);

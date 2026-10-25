@@ -2954,7 +2954,8 @@ export function franziskaVanAlmsickPortraitPage() {
         {route:"beruehmte-leon-goretzka", label:"Portrait: Leon Goretzka (SO3w4)"},
         {route:"beruehmte-danielle-vasinova", label:"Portrait: Danielle Vasinova (SO3w4)"},
         {route:"beruehmte-christiane-hoerbiger", label:"Portrait: Christiane Hörbiger (SO3w2)"},
-            ])}
+        {route:"beruehmte-sven-platte", label:"Portrait: Sven Platte (SO3w4)"},
+      ])}
     </div>
   `);
 }

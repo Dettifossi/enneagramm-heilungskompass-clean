@@ -2918,3 +2918,74 @@ export function wladimirKlitschkoPortraitPage() {
     </div>
   `);
 }
+
+export function svenPlattePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sven-platte-portrait.jpg" alt="Sven Platte – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-sven-platte-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Sven Platte</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Sozialer Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Gründer und Group CEO von Digistore24 &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Gepard: ein Zahnarzt, der kein Zahnarzt sein wollte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Gepard</strong> wirkt aus der Ruhe heraus und beschleunigt erst, wenn die Chance da ist. Sven Platte wuchs nach eigener Darstellung in Heidelberg in einer Mittelschichtsfamilie auf, und seine Mutter drängte ihn zur Zahnmedizin. Er studierte in Marburg Zahnmedizin (Staatsexamen 2008, laut einem Karriereprofil) und stellte fest, dass der Beruf nicht seine Leidenschaft war. Er schloss das Studium ab und wandte sich dann dem Verkaufen zu.</p>
+          <p class="vb-intro">Sein Ziel war, mit möglichst wenig Geld und Aufwand Erfolg zu haben. Das führte ihn zu E-Books: Mit zwei Freunden schrieb er Ratgeber zu Nischenthemen. Er sagt, er habe keine Plattform gefunden, die im deutschsprachigen Raum passte, und habe deshalb selbst eine gebaut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Ansehen in der Gemeinschaft der Online-Unternehmer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bei der sozialen Drei bestimmt das Ansehen in der Gemeinschaft das Handeln, und Claudio Naranjo nannte das Prestige. Bei Platte zeigt es sich nicht im Rampenlicht, sondern in der Rolle, die er sich gewählt hat: Er baut den Raum, in dem andere Erfolg haben. Er sagt, die Plattform solle Online-Unternehmern helfen, ihr Geschäft zu automatisieren, damit mehr Zeit für Wachstum und Leben bleibt.</p>
+          <p class="vb-intro">Digistore24 nennt sich Europas größte Verkaufs- und Affiliate-Plattform für digitale Produkte, mit nach eigenen Angaben 2 Millionen Nutzern in 180 Ländern und über 500 Millionen Euro Umsatz der Vendoren und Affiliates im Jahr 2023. Diese Zahlen stammen vom Unternehmen selbst und sind nicht unabhängig geprüft. Platte tritt außerdem als Gastgeber des ›Svencast‹ auf, eines Podcasts, den Digistore24 auf seiner Website bewirbt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: ein eigener Weg und Innenleben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso und Russ Hudson nennen die Drei mit Viererflügel ›Den Profi‹. Der <strong>Viererflügel (w4)</strong> gibt der Drei Eigenart und das Bedürfnis, den eigenen Weg zu gehen. Bei Platte zeigt er sich in der Entscheidung gegen den gewohnten Weg: Er beendet das Studium, praktiziert aber nicht, und baut stattdessen ein Unternehmen auf, das er ohne Investoren hochzieht.</p>
+          <p class="vb-intro">Ein Podcast-Titel verbindet seine Arbeit mit elektronischer Musik und Meditation. Zu hören ist dort wohl, wie sich Unternehmertum und Innenleben bei ihm treffen. Den Inhalt dieses Gesprächs habe ich für dieses Porträt nicht ausgewertet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: eine Plattform für den deutschsprachigen Raum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Platte baute Digistore24 nach eigenen Worten, weil es für den deutschsprachigen Raum keine passende Plattform zum Verkaufen digitaler Produkte gab. Er investierte rund 40.000 Euro in die erste Version, ließ das E-Book-Schreiben liegen und fand mit Christian Neise einen technischen Partner, der Chief Technology Officer wurde. Es dauerte nach seiner Aussage zweieinhalb Jahre, bis aus der Idee eine Lösung wurde. Wann genau die Plattform startete, nennen die Quellen unterschiedlich (2011, 2012 oder 2013), anfangs war sie für den internen Gebrauch.</p>
+          <p class="vb-intro">Das Angebot umfasst einen Onlineshop, die wichtigsten Zahlungsarten, eine Buchhaltungs- und Steuerautomatisierung und ein Affiliate-Netzwerk. Das Unternehmen sitzt in Hildesheim und wuchs ohne Investoren. 2020 arbeiteten dort nach Angaben des Marketingleiters knapp 100 Menschen, im Verhältnis zum Umsatz wenige, mit viel Verantwortung für den Einzelnen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Karl Lagerfeld und Franziska van Almsick</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-karl-lagerfeld">Karl Lagerfeld (SO3w4)</a> hat wie Platte eine Marke aufgebaut, die größer wurde als er selbst, und steuerte sein Bild bewusst. <a href="#beruehmte-franziska-van-almsick">Franziska van Almsick (SO3w4)</a> teilt mit ihm den hohen eigenen Anspruch und den Willen, sich in einem öffentlichen Raum zu behaupten.</p>
+          <p class="vb-intro">Der Unterschied: Lagerfeld stand im Licht seiner Marke, Platte arbeitet bewusst im Hintergrund. Als Zahnarzt auf einem anderen Weg erinnert er außerdem an <a href="#beruehmte-johann-lechner">Dr. Johann Lechner (SO7w6)</a>, der den Zahnarztberuf um den ganzheitlichen Blick erweiterte (siehe auch <a href="#enneagramm-zahnpsychosomatik">Enneagramm meets Zahnpsychosomatik</a>).</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Drei mit Viererflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist der Mut, einen vorgezeichneten Beruf zu verlassen und ein Risiko zu tragen: Wer 40.000 Euro in eine Idee steckt, die zweieinhalb Jahre braucht, und ohne Investoren weitermacht, zeigt Ausdauer. Auch die kleine, verantwortungsvolle Teamform gehört dazu.</p>
+          <p class="vb-intro">Die Schattenseite der Drei ist, dass Selbstbild und Erfolg eng zusammenhängen: Wer eine große Plattform baut, wird an ihren Zahlen gemessen. Platte sagt, seine Mutter habe ihn zur Zahnmedizin gedrängt. Dass er den Erwartungen zunächst folgte und sich dann löste, lässt sich mit der Drei und ihrem Viererflügel in Verbindung bringen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Gründer und Group CEO</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Platte ist (Stand 25. Oktober 2026) Gründer und Group CEO der Digistore24-Gruppe. Mitgründer sind Christian Neise (Gesellschafter) und Anthony Kossatz (CEO der Digistore24 GmbH). Zu seinem Privatleben gibt es in den ausgewerteten Quellen keine belastbaren Angaben, deshalb bleibt dieses Porträt beim Beruflichen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so3", label:"Lebensmusterkompass: SO3 – Gepard"},
+        {route:"beruehmte-karl-lagerfeld", label:"Porträt: Karl Lagerfeld (SO3w4)"},
+        {route:"beruehmte-franziska-van-almsick", label:"Porträt: Franziska van Almsick (SO3w4)"},
+        {route:"beruehmte-johann-lechner", label:"Porträt: Dr. Johann Lechner (SO7w6)"},
+            ])}
+    </div>
+  `);
+}

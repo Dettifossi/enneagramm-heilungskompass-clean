@@ -945,6 +945,7 @@ export function karlLagerfeldPortraitPage() {
         {route:"beruehmte-sean-connery", label:"Portrait: Sean Connery (SO3w4)"},
         {route:"beruehmte-sonoya-mizuno", label:"Portrait: Sonoya Mizuno (SO3w4)"},
         {route:"beruehmte-teresa-von-avila", label:"Portrait: Teresa of Ávila (SO3w4)"},
+        {route:"beruehmte-sven-platte", label:"Portrait: Sven Platte (SO3w4)"},
       ])}
     </div>
   `);

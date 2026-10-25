@@ -3000,3 +3000,74 @@ export function wladimirKlitschkoPortraitPage() {
     </div>
   `);
 }
+
+export function svenPlattePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sven-platte-portrait.jpg" alt="Sven Platte – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-sven-platte-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Sven Platte</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Social Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Founder and Group CEO of Digistore24 &ndash; Animal correspondence: Cheetah</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Cheetah: a dentist who did not want to be a dentist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>cheetah</strong> acts from stillness and accelerates only when the chance arrives. By his own account Sven Platte grew up in Heidelberg in a middle-class family, and his mother pushed him toward dentistry. He studied dentistry in Marburg (state exam 2008, according to a career profile) and realized the profession was not his passion. He finished the degree and then turned to sales.</p>
+          <p class="vb-intro">His aim was to succeed with as little money and effort as possible. That led him to e-books: with two friends he wrote guides on niche topics. He says he could not find a platform that suited the German-speaking market and therefore built one himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Three: standing in the community of online entrepreneurs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the social Three, standing in the community drives action, and Claudio Naranjo called it prestige. In Platte it shows not in the spotlight but in the role he chose: he builds the space in which others succeed. He says the platform is meant to help online entrepreneurs automate their business so that more time remains for growth and life.</p>
+          <p class="vb-intro">Digistore24 calls itself Europe&rsquo;s largest sales and affiliate platform for digital products, with, by its own account, 2 million users in 180 countries and over 500 million euros in sales by vendors and affiliates in 2023. These figures come from the company itself and are not independently verified. Platte also hosts &lsquo;Svencast&rsquo;, a podcast that Digistore24 promotes on its website.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: a path of his own and an inner life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso and Russ Hudson call the Three with a Four-wing &lsquo;The Professional&rsquo;. The <strong>Four-wing (w4)</strong> gives the Three individuality and the need to go its own way. In Platte it shows in the decision against the usual path: he finishes the degree but does not practice, and instead builds a company he grows without investors.</p>
+          <p class="vb-intro">One podcast title links his work with electronic music and meditation. Presumably it is about how entrepreneurship and inner life meet in him. I have not evaluated the content of that conversation for this portrait.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: a platform for the German-speaking market</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">By his own words Platte built Digistore24 because there was no suitable platform for selling digital products in the German-speaking market. He invested about 40,000 euros in the first version, dropped writing e-books and found in Christian Neise a technical partner who became Chief Technology Officer. By his account it took two and a half years until the idea became a solution. When exactly the platform launched is given differently by the sources (2011, 2012 or 2013); at first it was for internal use.</p>
+          <p class="vb-intro">The offering includes an online shop, the main payment methods, accounting and tax automation and an affiliate network. The company is based in Hildesheim and grew without investors. In 2020, according to its head of marketing, just under 100 people worked there, few in relation to revenue, with a lot of responsibility for each individual.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Karl Lagerfeld and Franziska van Almsick</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-karl-lagerfeld">Karl Lagerfeld (SO3w4)</a> built, like Platte, a brand that grew larger than himself and steered his image deliberately. <a href="#beruehmte-franziska-van-almsick">Franziska van Almsick (SO3w4)</a> shares with him the high personal standard and the will to hold her own in a public space.</p>
+          <p class="vb-intro">The difference: Lagerfeld stood in the light of his brand, Platte works deliberately in the background. As a dentist on a different path he also recalls <a href="#beruehmte-johann-lechner">Dr. Johann Lechner (SO7w6)</a>, who widened the dental profession with a holistic view (see also <a href="#enneagramm-zahnpsychosomatik">Enneagram Meets Dental Psychosomatics</a>).</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social Three with Four-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is the courage to leave a predetermined profession and carry a risk: whoever puts 40,000 euros into an idea that takes two and a half years and continues without investors shows endurance. The small, responsible team form belongs here too.</p>
+          <p class="vb-intro">The shadow side of the Three is that self-image and success are closely tied: whoever builds a large platform is measured by its numbers. Platte says his mother pushed him toward dentistry. That he first followed expectations and then broke away can be connected with the Three and its Four-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: founder and Group CEO</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Platte is (as of 25 October 2026) founder and Group CEO of the Digistore24 group. Co-founders are Christian Neise (shareholder) and Anthony Kossatz (CEO of Digistore24 GmbH). The sources evaluated contain no reliable information on his private life, so this portrait stays with the professional.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
+        {route:"lebensmusterkompass/so3", label:"Life Pattern Compass: SO3 – Cheetah"},
+        {route:"beruehmte-karl-lagerfeld", label:"Portrait: Karl Lagerfeld (SO3w4)"},
+        {route:"beruehmte-franziska-van-almsick", label:"Portrait: Franziska van Almsick (SO3w4)"},
+        {route:"beruehmte-johann-lechner", label:"Portrait: Dr. Johann Lechner (SO7w6)"},
+            ])}
+    </div>
+  `);
+}
