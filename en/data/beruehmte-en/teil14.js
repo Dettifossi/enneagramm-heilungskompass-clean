@@ -29,7 +29,7 @@ export function ingmarBergmanPortraitPage() {
 
         <h2 class="vb-section">3. The five-wing: withdrawal as a condition for the work</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>five-wing (w5)</strong> gives the self-preservation Four an added analytical distance – the ability not just to live through its own emotional material but to disciplinedly systematize it before it steps outward. In Bergman this shows in his retreat to the remote Baltic island of Fårö, where he worked in deliberately sought solitude, far from the public and the social machinery of the industry.</p>
+          <p class="vb-intro">The <strong>five-wing (w5)</strong> lends the self-preservation Four an added analytical distance – the ability not just to live through its own emotional material but to disciplinedly systematize it before it steps outward. In Bergman this shows in his retreat to the remote Baltic island of Fårö, where he worked in deliberately sought solitude, far from the public and the social machinery of the industry.</p>
           <p class="vb-intro">The same five-wing shows in his extreme control over his own production process and in a very small, decades-stable circle of close collaborators – cinematographer Sven Nykvist, actors Max von Sydow, Liv Ullmann, and Bibi Andersson – rather than a broad, shifting circle. Knowledge and trust were not generously distributed with him, but invested over years in a few carefully chosen relationships.</p>
         </blockquote>
 
@@ -95,13 +95,13 @@ export function aliciaKeysPortraitPage() {
 
         <h2 class="vb-section">3. The Three-Wing: From Child Prodigy to Multiple Grammy Winner</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the social Two the drive to turn talent into visible, measurable success. Keys' path from classically trained piano prodigy to internationally successful R&B and soul artist with multiple number-one albums puts this drive on full display: talent is not nurtured in private, but purposefully translated into a publicly visible, multiply awarded career.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> brings the social Two the drive to turn talent into visible, measurable success. Keys' path from classically trained piano prodigy to internationally successful R&B and soul artist with multiple number-one albums puts this drive on full display: talent is not nurtured in private, but purposefully translated into a publicly visible, multiply awarded career.</p>
           <p class="vb-intro">Alongside her music career, she built an acting career, continually expanding the stages on which she was visible. The Three-wing ensures that success doesn't happen by accident, but is actively pursued and built up &ndash; as a means of reaching more people and doing more for others.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SO2w3 lies in the ability not to manage early, exceptional success in pure self-focus, but to consistently pair it with engagement that reaches beyond one's own career. That Keys has traveled regularly to Africa and India for more than two decades to advocate for Keep a Child Alive shows a steadiness that goes beyond symbolic engagement.</p>
+          <p class="vb-intro">The strength of the SO2w3 lies in the ability not to manage early, exceptional success in pure self-focus, but to consistently pair it with engagement that reaches beyond one's own career. That Keys has traveled regularly to Africa and India for more than two decades to advocate for Keep a Child Alive shows a steadiness that goes beyond symbolic engagement.</p>
           <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable for the wellbeing of others. In the SO2w3, this can combine with a need to keep confirming one's own worth through new, visible achievements and public engagement &ndash; a combination that can lead to exceptional impact, without ever reaching a point where enough feels like enough.</p>
         </blockquote>
 
@@ -167,7 +167,7 @@ export function ashtonKutcherPortraitPage() {
         <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SO2w3 lies in the ability to turn a single, shattering TV segment into, over years, an effective, technology-driven organization against child trafficking that is actually used by police departments. This is care that doesn't settle for symbolism, but builds concrete tools.</p>
-          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable for the wellbeing of others, combined with the danger of placing personal loyalty to those close to oneself above other principles. In 2023, Kutcher resigned as board chair of Thorn after writing a character letter in support of his convicted former co-star Danny Masterson &ndash; an error in judgment, as he himself admitted, that threatened to overshadow his own work for the organization. This exact tension between personal loyalty and a larger mission is one of the hardest tests for the SO2w3.</p>
+          <p class="vb-intro">At the centre of the Two stands <strong>pride</strong> &ndash; the conviction of being indispensable for the wellbeing of others, combined with the danger of placing personal loyalty to those close to oneself above other principles. In 2023, Kutcher resigned as board chair of Thorn after writing a character letter in support of his convicted former co-star Danny Masterson &ndash; an error in judgment, as he himself admitted, that threatened to overshadow his own work for the organization. This exact tension between personal loyalty and a larger mission is one of the hardest tests for the SO2w3.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Work: From Sitcom to "Digital Defender" of Children</h2>
@@ -222,7 +222,7 @@ export function brigitteBardotPortraitPage() {
 
         <h2 class="vb-section">3. The Two-wing: Care Instead of Facade</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the sexual Three a dimension that goes beyond pure magnetism: the genuine need to care for others, to give care rather than only receive admiration. An SX3 with a weaker Two-wing could become absorbed in its own impact. The Two-wing opens the gaze outward &ndash; toward those who have no voice.</p>
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> lends the sexual Three a dimension that goes beyond pure magnetism: the genuine need to care for others, to give care rather than only receive admiration. An SX3 with a weaker Two-wing could become absorbed in its own impact. The Two-wing opens the gaze outward &ndash; toward those who have no voice.</p>
           <p class="vb-intro">In Bardot this shows most clearly in her relationship to animals, which began already during her film career and increasingly occupied her. Her affection was never abstract or representative &ndash; she personally cared for injured and abandoned animals on her estate in Saint-Tropez, tending to them herself, not merely symbolically. The SX3w2 does not give from a distance. It gives with its own hands.</p>
           <p class="vb-intro">This care often stood in contrast to her public image as an unapproachable seductress &ndash; a contradiction that marks many SX3w2s: radiant and desired on the outside, while inwardly carrying a deep need to stand up for something or someone who needs protection.</p>
         </blockquote>
@@ -368,7 +368,7 @@ export function davidHumePortraitPage() {
 
         <h2 class="vb-section">3. The Eight-wing: The Courage of Radical Doubt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the self-preservation Nine a strength that is barely visible from outside until its consequences become clear: the willingness to think a position through to its radical end, without flinching from the world&#39;s reaction. A pure SP9 might simply avoid conflict. The SP9w8 draws the consequence &ndash; calmly, but unwaveringly.</p>
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> grants the self-preservation Nine a strength that is barely visible from outside until its consequences become clear: the willingness to think a position through to its radical end, without flinching from the world&#39;s reaction. A pure SP9 might simply avoid conflict. The SP9w8 draws the consequence &ndash; calmly, but unwaveringly.</p>
           <p class="vb-intro">Hume held a consistent religious skepticism that cost him the coveted professorships at Edinburgh and Glasgow his entire life &ndash; church objections blocked both appointments. His work <em>Dialogues Concerning Natural Religion</em>, which systematically dismantles the classical proofs of God, he had published only after his death out of caution &ndash; not out of cowardice, but the Eight-wing&#39;s cool calculation: the fight isn&#39;t worth having until you can win it. You wait for the right moment.</p>
           <p class="vb-intro">This mixture of agreeableness and unshakeable conviction also showed in his 1766 friendship with the French philosopher Jean-Jacques Rousseau, whom Hume brought from France to England after Rousseau faced political persecution. Rousseau, increasingly paranoid, turned against Hume and publicly accused him of conspiracy. Hume did not respond with a counterattack, but with a measured, widely circulated written defense across Europe &ndash; the Nine stays calm, but the Eight-wing defends its reputation with all necessary force.</p>
         </blockquote>
@@ -381,13 +381,13 @@ export function davidHumePortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow: Freedom and Its Limits</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP9w8 is its ability to combine <strong>radical freedom of thought with inner peace</strong>. Hume loosened the bonds of dogmatic thinking of his age without himself becoming a dogmatist of doubt &ndash; he remained curious, warm, open to contradiction. Adam Smith, his close friend, described him after his death as a man who approached as near the ideal of a perfectly wise and virtuous person as the frailty of human nature would permit.</p>
+          <p class="vb-intro">The best of the SP9w8 is its ability to combine <strong>radical freedom of thought with inner peace</strong>. Hume loosened the bonds of dogmatic thinking of his age without himself becoming a dogmatist of doubt &ndash; he remained curious, warm, open to contradiction. Adam Smith, his close friend, described him after his death as a man who approached as near the ideal of a perfectly wise and virtuous person as the frailty of human nature would permit.</p>
           <p class="vb-intro">The shadow: Hume&#39;s writings also contain racist passages &ndash; including a widely cited footnote in which he disparaged the intellectual capacities of non-European peoples. This stance, inexcusable and at odds with his own skeptical standards, shows the flip side of the SP9w8: the comfort of appetite can also mean never truly questioning inherited prejudice, even while priding oneself on having questioned everything else.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Elephant Who Died as Calmly as He Had Lived</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Nine leads from self-forgetting to <strong>true inner action</strong> &ndash; not disappearing into comfort, but consciously participating in one&#39;s own life. Hume lived this path already: he never avoided the great questions, only refused arguing for its own sake.</p>
+          <p class="vb-intro">The way to healing for the Nine leads from self-forgetting to <strong>true inner action</strong> &ndash; not disappearing into comfort, but consciously participating in one&#39;s own life. Hume lived this path already: he never avoided the great questions, only refused arguing for its own sake.</p>
           <p class="vb-intro">As Hume lay dying in 1776, the writer James Boswell visited him, wanting to know whether, facing death, he still did not believe in an afterlife. Hume answered calmly and without any fear that there was no reason for concern &ndash; a composure that deeply unsettled Boswell, because it fit so poorly with the expected image of a &bdquo;godless&ldquo; dying man. The elephant from Edinburgh left the world the way he had crossed it: unmoved, curious, needing no illusion for comfort.</p>
 
           <p class="vb-intro">His chronic bowel disease, progressing over four years, and his remarkable composure while dying are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-david-hume">Illness Portrait of Hume</a>.</p>
@@ -450,7 +450,7 @@ export function douglasSmithPortraitPage() {
 
         <h2 class="vb-section">4. Light and shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX6w5 is its ability to <strong>take responsibility for an entire ecological system under considerable pressure and resistance</strong> &ndash; the Yellowstone wolf reintroduction is today regarded as one of the most successful conservation projects in history, and fundamentally changed how science and the public understand the concept of "trophic cascade": how a single predator can stabilize an entire ecosystem.</p>
+          <p class="vb-intro">The strength of the SX6w5 is its ability to <strong>take responsibility for an entire ecological system under considerable pressure and resistance</strong> &ndash; the Yellowstone wolf reintroduction is today regarded as one of the most successful conservation projects in history, and fundamentally changed how science and the public understand the concept of "trophic cascade": how a single predator can stabilize an entire ecosystem.</p>
           <p class="vb-intro">The shadow of the Sexual Six with a Five-wing shows in the enormous personal toll of such a conflict-laden life's work: standing for decades at the center of a politically charged dispute demands a resilience that leaves little room for other areas of life beyond this one, all-consuming task.</p>
         </blockquote>
 
@@ -519,13 +519,13 @@ export function francisBaconPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP7w8 is its ability to turn pure joy of discovery into a body of work that outlasts its own lifetime. Bacon's description of the "Idols of the Mind" &ndash; the systematic errors of thought that distort human understanding, from individual prejudice to blind trust in received authority &ndash; anticipates modern epistemology and cognitive psychology by centuries. Without Bacon's method, the whole of modern natural science would look different.</p>
-          <p class="vb-intro">The shadow lies in a bitter irony: the man who, like no other, warned against self-deception and distorted judgment ultimately fell victim to exactly the "idols" he himself had described &ndash; the temptation of power, the convenience of accepted gifts, the belief that he stood above his own rules. The core passion of the Seven is <strong>gluttony</strong> &ndash; in the SP7w8 it shows not only as a hunger for knowledge, but also as a hunger for office, influence and recognition that eventually outran his own integrity.</p>
+          <p class="vb-intro">What distinguishes the SP7w8 is its ability to turn pure joy of discovery into a body of work that outlasts its own lifetime. Bacon's description of the "Idols of the Mind" &ndash; the systematic errors of thought that distort human understanding, from individual prejudice to blind trust in received authority &ndash; anticipates modern epistemology and cognitive psychology by centuries. Without Bacon's method, the whole of modern natural science would look different.</p>
+          <p class="vb-intro">The darker side lies in a bitter irony: the man who, like no other, warned against self-deception and distorted judgment ultimately fell victim to exactly the "idols" he himself had described &ndash; the temptation of power, the convenience of accepted gifts, the belief that he stood above his own rules. The core passion of the Seven is <strong>gluttony</strong> &ndash; in the SP7w8 it shows not only as a hunger for knowledge, but also as a hunger for office, influence and recognition that eventually outran his own integrity.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Path of Healing: Knowledge That Endures</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Seven leads from the question <em>What do I reach for next?</em> to sobriety: the conscious renunciation of excess in favour of what truly endures. For the SP7w8 this means no longer placing one's own creative force in the service of accumulating power, but in the service of a cause greater than oneself.</p>
+          <p class="vb-intro">The Seven’s path to healing leads from the question <em>What do I reach for next?</em> to sobriety: the conscious renunciation of excess in favour of what truly endures. For the SP7w8 this means no longer placing one's own creative force in the service of accumulating power, but in the service of a cause greater than oneself.</p>
           <p class="vb-intro">That is exactly what Bacon did in the five years remaining after his fall. Freed from public office, he devoted himself almost entirely to writing and completed some of his most significant works. His death in April 1626 fits no other subtype so well as the SP7w8: on a carriage ride, the idea struck him that cold might delay decay &ndash; he stopped, bought a chicken, stuffed it with snow with his own hands, and caught a fatal chill in the process. The Gorilla that, to its last breath, reached for the next discovery &ndash; and made one more experiment while dying.</p>
         </blockquote>
 
@@ -590,7 +590,7 @@ export function georgeGershwinPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SO7w6 is an enthusiasm that genuinely transforms an entire art form. Gershwin opened concert halls to jazz, opera to Broadway, and one of New York's great stages to an all-Black cast &ndash; his work still resonates in film scores, musicals, and concert halls alike.</p>
+          <p class="vb-intro">The best of the SO7w6 is an enthusiasm that genuinely transforms an entire art form. Gershwin opened concert halls to jazz, opera to Broadway, and one of New York's great stages to an all-Black cast &ndash; his work still resonates in film scores, musicals, and concert halls alike.</p>
           <p class="vb-intro">The Seven's shadow is the flight from stillness and pain into ever-new projects. Contemporaries described Gershwin as restlessly productive, almost never at rest &ndash; constantly working on several compositions at once, constantly present at parties and in salons, always at the center of a sociable circle. This inability to pause, one can say in hindsight, also delayed his taking the first health warning signs seriously in his final months.</p>
         </blockquote>
 
@@ -716,7 +716,7 @@ export function iceCubePortraitPage() {
 
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP2w3 is the ability to build a stable, decades-lasting foundation out of a difficult environment &ndash; for oneself and one's family &ndash; and then translate that stability into visible, publicly effective projects without losing one's family roots. Ice Cube's marriage of over thirty years and his deliberate decision to entrust his own life story to his own son show this rare combination of loyalty and visibility.</p>
+          <p class="vb-intro">The strength of the SP2w3 is the ability to build a stable, decades-lasting foundation out of a difficult environment &ndash; for oneself and one's family &ndash; and then translate that stability into visible, publicly effective projects without losing one's family roots. Ice Cube's marriage of over thirty years and his deliberate decision to entrust his own life story to his own son show this rare combination of loyalty and visibility.</p>
           <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable through one's own care and one's own building. In the SP2w3, this pride can become a constant need to keep expanding and controlling one's own territory &ndash; from record label to film production to owning a sports league &ndash; rather than resting on what has already been achieved. His early, uncompromising break with N.W.A.'s management already shows how decisively the hippopotamus defends its territory the moment it feels taken advantage of.</p>
         </blockquote>
 
@@ -851,7 +851,7 @@ export function johnnyCashPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP3w4 lies in the ability to <strong>build a lasting, load-bearing structure out of genuine inner depth</strong>, rather than either hiding depth or displaying it fleetingly. Cash combined one of the most enduring careers in music history with songs still regarded as unflinchingly honest – a rare balance of structure and substance.</p>
+          <p class="vb-intro">The best of the SP3w4 lies in the ability to <strong>build a lasting, load-bearing structure out of genuine inner depth</strong>, rather than either hiding depth or displaying it fleetingly. Cash combined one of the most enduring careers in music history with songs still regarded as unflinchingly honest – a rare balance of structure and substance.</p>
           <p class="vb-intro">The Three's fatal flaw is <strong>vanity / deceit</strong> – in Cash this showed in the public facade of the controlled "Man in Black," maintained for years while he was secretly addicted to amphetamines and barbiturates throughout the 1960s, up to the point of physical collapse. Only in 1967/68, with help from June Carter (SP4w3) and her family, did he manage to get clean – a crisis that shows how much strength it costs the SP3 to maintain a functioning image while everything inside has long threatened to break apart.</p>
         </blockquote>
 
@@ -926,7 +926,7 @@ export function karolineHerfurthPortraitPage() {
 
         <h2 class="vb-section">5. The Dove That Finds Its Way Home</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Four leads from the question "What am I missing that was given to others?" to the realization "What I am is complete, and it is mine." For the SP4w5, this means experiencing withdrawal not as an escape, but as a silence in which one's own nature becomes clearer.</p>
+          <p class="vb-intro">Healing for the Four leads from the question "What am I missing that was given to others?" to the realization "What I am is complete, and it is mine." For the SP4w5, this means experiencing withdrawal not as an escape, but as a silence in which one's own nature becomes clearer.</p>
           <p class="vb-intro">Karoline Herfurth's artistic trajectory points precisely there. From the child who acted, to the teenager testing boundaries, to the young woman who shone in ensemble casts, to the director making her view of the world public—that is a journey from the role to her own voice. A voice that is quiet, but precise. The dove that no longer searches because it knows where it belongs.</p>
         </blockquote>
 
@@ -980,7 +980,7 @@ export function laoziPortraitPage() {
 
         <h2 class="vb-section">4. The One-Wing: Quiet Moral Clarity</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the Nine something a more muted One wing would not have: a clear, almost incorruptible inner orientation. Laozi criticized the artificial harshness, the bloated bureaucracy, and the moral over-regulation of his time &ndash; not through struggle or counter-reform, as an Eight or a strongly One-winged personality might have, but through a call to return to natural simplicity, referred to in the Tao Te Ching as <em>pu</em> (the "uncarved block").</p>
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> grants the Nine something a more muted One wing would not have: a clear, almost incorruptible inner orientation. Laozi criticized the artificial harshness, the bloated bureaucracy, and the moral over-regulation of his time &ndash; not through struggle or counter-reform, as an Eight or a strongly One-winged personality might have, but through a call to return to natural simplicity, referred to in the Tao Te Ching as <em>pu</em> (the "uncarved block").</p>
           <p class="vb-intro">"The more laws and regulations, the more thieves and robbers," the Tao Te Ching states &ndash; a critique of excessive regulation that simultaneously formulates a clear moral position. The One-wing gives the Nine a direction without driving it into active resistance: not a fighter against the system, but a quiet admonisher who trusts nature's own wisdom.</p>
         </blockquote>
 
@@ -992,7 +992,7 @@ export function laoziPortraitPage() {
 
         <h2 class="vb-section">6. Light and Shadow of the Self-Preservation Nine</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP9w1 is its ability to live peace not as escape, but as a mature, deliberate stance: not fighting the world, but acting in accordance with its natural course. This calm is not indifference &ndash; the Tao Te Ching is threaded through with a quiet but unyielding clarity about what makes a good life and a good order.</p>
+          <p class="vb-intro">The strength of the SP9w1 is its ability to live peace not as escape, but as a mature, deliberate stance: not fighting the world, but acting in accordance with its natural course. This calm is not indifference &ndash; the Tao Te Ching is threaded through with a quiet but unyielding clarity about what makes a good life and a good order.</p>
           <p class="vb-intro">The shadow of the Nine shows in the consequences of withdrawal: Laozi left behind no institution, no organized succession, no body of rules beyond his text &ndash; unlike Confucius, whose school continued to shape society actively for centuries. The Nine's risk of disengaging from commitment to the concrete, imperfect world is carried within Laozi's legacy too: a philosophy of timeless depth, but without the sustaining structure that secured its practical impact over time &ndash; had it not been for the gatekeeper at the pass.</p>
         </blockquote>
 
@@ -1179,7 +1179,7 @@ export function mickeyRourkePortraitPage() {
 
         <h2 class="vb-section">3. The Three-Wing: A Body, Rebuilt Twice</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to build, out of a secured foundation, visible, publicly effective success &ndash; and, if necessary, to rebuild one's own image from the ground up. In the 1980s, Rourke was one of the most sought-after screen stars of his generation with films like <em>9½ Weeks</em> and <em>Angel Heart</em>, before giving up acting in 1991 for a professional boxing career.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> lends the self-preservation Two the drive to build, out of a secured foundation, visible, publicly effective success &ndash; and, if necessary, to rebuild one's own image from the ground up. In the 1980s, Rourke was one of the most sought-after screen stars of his generation with films like <em>9½ Weeks</em> and <em>Angel Heart</em>, before giving up acting in 1991 for a professional boxing career.</p>
           <p class="vb-intro">Eight fights, no title shot, but severe facial injuries requiring numerous reconstructive surgeries &ndash; Rourke literally rebuilt his own face before showing it to the public again in 2008 as aging wrestler Randy "The Ram" Robinson in <em>The Wrestler</em>. The parallel between character and performer, both former fighters searching for one last great comeback, made the film one of the most striking self-portrayals in recent film history. The Three-wing translated decades of physically suffered destruction into one of Hollywood's most moving comebacks.</p>
         </blockquote>
 
@@ -1242,14 +1242,14 @@ export function nateDoggPortraitPage() {
 
         <h2 class="vb-section">3. The Three-Wing: "King of Hooks"</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to turn a loyal foundation into visible, recognizable success. Nate Dogg's sonorous, unmistakable baritone became, over more than a decade, a fixture on countless hip-hop hits &ndash; sixteen entries on the Billboard Hot 100, including "Ain't No Fun" with Snoop Dogg and "The Next Episode" with Dr. Dre (SO2w3), earned him the nickname "King of Hooks."</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> grants the self-preservation Two the drive to turn a loyal foundation into visible, recognizable success. Nate Dogg's sonorous, unmistakable baritone became, over more than a decade, a fixture on countless hip-hop hits &ndash; sixteen entries on the Billboard Hot 100, including "Ain't No Fun" with Snoop Dogg and "The Next Episode" with Dr. Dre (SO2w3), earned him the nickname "King of Hooks."</p>
           <p class="vb-intro">His three solo albums, meanwhile, never sold more than 500,000 copies each &ndash; a clear mismatch between the impact of his voice on other people's songs and the commercial success of his own work. The Three-wing nonetheless turned this supporting role into an unmistakable, publicly recognized brand: his contribution was small in song length, but enormous in recognizability.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP2w3 lies in the ability to put one's own contribution entirely in service of other people's work without losing one's own distinctiveness. Nate Dogg's voice helped define an entire era of G-funk, even though he himself rarely stood at the center of attention &ndash; a rare case of influence that isn't measured by one's own chart positions.</p>
-          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable through one's own care. In the SP2w3, this can combine with a tendency to place one's own visibility behind the success of others, even when one's own work remains commercially in the shadow as a result &ndash; a generosity that produced enormous cultural influence but rarely paid off in personal fame.</p>
+          <p class="vb-intro">The best of the SP2w3 lies in the ability to put one's own contribution entirely in service of other people's work without losing one's own distinctiveness. Nate Dogg's voice helped define an entire era of G-funk, even though he himself rarely stood at the center of attention &ndash; a rare case of influence that isn't measured by one's own chart positions.</p>
+          <p class="vb-intro">The core pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable through one's own care. In the SP2w3, this can combine with a tendency to place one's own visibility behind the success of others, even when one's own work remains commercially in the shadow as a result &ndash; a generosity that produced enormous cultural influence but rarely paid off in personal fame.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Work: A Voice That Made Other People's Songs Immortal</h2>
@@ -1596,8 +1596,8 @@ export function usherPortraitPage() {
 
         <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SO2w3 lies in the ability to openly show one's own mistakes and vulnerability and turn them into something that moves a broad audience instead of repelling it. <em>Confessions</em> could have failed as a mere confessional album &ndash; instead it became a commercial milestone because Usher turned shame into a story many people recognized themselves in.</p>
-          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of needing to be loved in order to be of value. In the SO2w3, this can combine with a need to keep proving affection anew through visible success, rather than accepting it as a given &ndash; a drive that sustains a career for decades but never fully settles.</p>
+          <p class="vb-intro">The best of the SO2w3 lies in the ability to openly show one's own mistakes and vulnerability and turn them into something that moves a broad audience instead of repelling it. <em>Confessions</em> could have failed as a mere confessional album &ndash; instead it became a commercial milestone because Usher turned shame into a story many people recognized themselves in.</p>
+          <p class="vb-intro">The passion of the Two is <strong>pride</strong> &ndash; the conviction of needing to be loved in order to be of value. In the SO2w3, this can combine with a need to keep proving affection anew through visible success, rather than accepting it as a given &ndash; a drive that sustains a career for decades but never fully settles.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Work: From Talent-Show Kid to Mentor of a New Generation</h2>
@@ -1733,7 +1733,7 @@ export function giacomoCasanovaPortraitPage() {
 
         <h2 class="vb-section">5. Light and shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX2w3 is the ability to <strong>build genuine, intense closeness with a great many different people and shape from it a life of extraordinary breadth</strong> &ndash; Casanova moved between every social stratum of his time, from beggars to monarchs, and left behind, in his memoirs, one of the most detailed eyewitness accounts of the eighteenth-century European world.</p>
+          <p class="vb-intro">What distinguishes the SX2w3 is the ability to <strong>build genuine, intense closeness with a great many different people and shape from it a life of extraordinary breadth</strong> &ndash; Casanova moved between every social stratum of his time, from beggars to monarchs, and left behind, in his memoirs, one of the most detailed eyewitness accounts of the eighteenth-century European world.</p>
           <p class="vb-intro">The Two's fatal flaw is <strong>pride</strong> &ndash; in the Sexual Two, closely bound up with the question of whether one is indispensable enough to the one person who matters in the moment. For Casanova, this showed in his tendency to measure his entire worth again and again by his most recent conquest, his most recent patron, his most recent admiration &ndash; almost never by anything lasting. This dependence on ever-new, immediate confirmation drove him restlessly across all of Europe, but also meant he never truly arrived anywhere.</p>
         </blockquote>
 
@@ -1868,7 +1868,7 @@ export function tomHanksPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SO9w1 is the ability to <strong>create trust and warmth through genuine, unvain attentiveness</strong> without sacrificing integrity or care — Hanks's reputation as "America's Dad" rests on decades of consistent behavior, not a single staged moment.</p>
+          <p class="vb-intro">What distinguishes the SO9w1 is the ability to <strong>create trust and warmth through genuine, unvain attentiveness</strong> without sacrificing integrity or care — Hanks's reputation as "America's Dad" rests on decades of consistent behavior, not a single staged moment.</p>
           <p class="vb-intro">The shadow of the SO9 shows itself where one's own neediness disappears entirely behind concern for others. His son Chet Hanks has spoken publicly about feeling "completely worthless" despite his famous father, and about struggling with his own addiction issues — a sign that the closeness an SO9 embodies outwardly does not automatically translate into the same emotional presence for their own children when attention is primarily directed outward, toward the larger community.</p>
         </blockquote>
 
@@ -2202,7 +2202,7 @@ export function peterMaffayPortraitPage() {
         <h2 class="vb-section">5. Light and Shadow of the Sexual Nine with a One-Wing</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SX9w1 shows in how Maffay turned his own childhood experience as a member of a minority caught between two countries into a lifelong, structured care for children who themselves stand between the front lines of neglect and trauma – an empathy that does not exhaust itself in words, but in an institution built to last for decades.</p>
-          <p class="vb-intro">The shadow lies in the flip side of that same reserve: his consistent media distance has repeatedly been read by journalists as guardedness or a need for control. But for the Sexual Nine, what counts is not public self-disclosure, but the quiet, undivided devotion to the one work that truly matters.</p>
+          <p class="vb-intro">The darker side lies in the flip side of that same reserve: his consistent media distance has repeatedly been read by journalists as guardedness or a need for control. But for the Sexual Nine, what counts is not public self-disclosure, but the quiet, undivided devotion to the one work that truly matters.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Legacy: A Dragon That Became a Life's Work</h2>
@@ -2403,7 +2403,7 @@ export function michaelMinaPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP3w2 is the ability to <strong>turn hard, unglamorous work over decades into reliable, warmly delivered quality</strong>. Mina himself describes his relationship to work plainly: "I work hard, and I play hard with my family" – performance as foundation, family as retreat, not another stage.</p>
+          <p class="vb-intro">What distinguishes the SP3w2 is the ability to <strong>turn hard, unglamorous work over decades into reliable, warmly delivered quality</strong>. Mina himself describes his relationship to work plainly: "I work hard, and I play hard with my family" – performance as foundation, family as retreat, not another stage.</p>
           <p class="vb-intro">The shadow of the self-preservation Three lies in the danger of defining one's own worth exclusively through demonstrable performance – running more than forty restaurants also means that a plateau or a single failure can quickly feel like personal failure. The flip side of a life organized almost entirely around work and results is the question of who one is when there's nothing to accomplish right now.</p>
         </blockquote>
 
@@ -2460,7 +2460,7 @@ export function dmitriShostakovichPortraitPage() {
 
         <h2 class="vb-section">3. The Four-Wing: The Private Truth in Code</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the social Five the need to express insight not in purely abstract terms but bound to one's own, often painful, personal truth. From his Violin Concerto (1947/48) through his final, Fifteenth Symphony (1971), Shostakovich wove a four-note monogram into his music: the DSCH motif, the note sequence D–E♭–C–B natural. In German note names these are D, Es, C, H; read as letters they spell D-S-C-H, the initials of Dmitri SCHostakowitsch in German transliteration. In the Eighth String Quartet (1960), the motif runs through literally every single movement.</p>
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> lends the social Five the need to express insight not in purely abstract terms but bound to one's own, often painful, personal truth. From his Violin Concerto (1947/48) through his final, Fifteenth Symphony (1971), Shostakovich wove a four-note monogram into his music: the DSCH motif, the note sequence D–E♭–C–B natural. In German note names these are D, Es, C, H; read as letters they spell D-S-C-H, the initials of Dmitri SCHostakowitsch in German transliteration. In the Eighth String Quartet (1960), the motif runs through literally every single movement.</p>
           <p class="vb-intro">A system that tolerated no open personal statement got one anyway – only encoded, audible only to those who knew the cipher. That is exactly the logic of the Four-wing: the deepest, most individual truth does not disappear, it merely shifts into a form that looks harmless on the surface.</p>
         </blockquote>
 
@@ -2807,7 +2807,7 @@ export function christianKohlundPortraitPage() {
 
         <h2 class="vb-section">3. The Eight-wing: presence and weight</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Seven strength, directness and assertiveness. A Seven with a weaker Eight-wing would be lighter, more playful; Kohlund lands in roles with weight: Professor Vollmers in &lsquo;Die Schwarzwaldklinik&rsquo; (&lsquo;The Black Forest Clinic&rsquo;, 1986 to 1989, 35 episodes), the hotelier Markus Winter in &lsquo;Das Traumhotel&rsquo; (&lsquo;The Dream Hotel&rsquo;, 2004 to 2014), the lawyer Thomas Borchert in the &lsquo;Zürich-Krimi&rsquo; (&lsquo;Zurich Crime&rsquo;). With the sonorous voice he is known for, he is cast as people who have authority and lead others.</p>
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> grants the Seven strength, directness and assertiveness. A Seven with a weaker Eight-wing would be lighter, more playful; Kohlund lands in roles with weight: Professor Vollmers in &lsquo;Die Schwarzwaldklinik&rsquo; (&lsquo;The Black Forest Clinic&rsquo;, 1986 to 1989, 35 episodes), the hotelier Markus Winter in &lsquo;Das Traumhotel&rsquo; (&lsquo;The Dream Hotel&rsquo;, 2004 to 2014), the lawyer Thomas Borchert in the &lsquo;Zürich-Krimi&rsquo; (&lsquo;Zurich Crime&rsquo;). With the sonorous voice he is known for, he is cast as people who have authority and lead others.</p>
           <p class="vb-intro">It fits that he directs: he staged and acted in the play &lsquo;Im Zweifel für den Angeklagten&rsquo; (&lsquo;The Benefit of the Doubt&rsquo;), which toured as far as the Victory Gardens Theater in Chicago.</p>
         </blockquote>
 

@@ -185,13 +185,13 @@ export function astridLindgrenPortraitPage() {
 
         <h2 class="vb-section">7. Light and Shadow of the Self-Preservation One</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP1w9 is a rare combination of incorruptible integrity and quiet, sustaining kindness. Lindgren fought for justice with the same discipline she applied to reviewing manuscripts &ndash; quietly, but with enormous impact. She never tried to appear greater than she was, and precisely because of that became one of the most influential moral voices of her country.</p>
-          <p class="vb-intro">The shadow shows in the harshness with which the SP1 holds to its own standards, and in the distance the Nine-wing favors. The early separation from her son Lasse remained a lifelong, barely processed pain that she almost never spoke about publicly &ndash; an example of how the SP1w9 carries even the deepest wounds silently within, rather than sharing them. The fate pattern of the One is <strong>anger</strong>, which in the SP1 usually turns inward &ndash; as a constant, self-imposed strictness that anything less than complete discipline does justice to no one, including oneself.</p>
+          <p class="vb-intro">The strength of the SP1w9 is a rare combination of incorruptible integrity and quiet, sustaining kindness. Lindgren fought for justice with the same discipline she applied to reviewing manuscripts &ndash; quietly, but with enormous impact. She never tried to appear greater than she was, and precisely because of that became one of the most influential moral voices of her country.</p>
+          <p class="vb-intro">The shadow shows in the harshness with which the SP1 holds to its own standards, and in the distance the Nine-wing favors. The early separation from her son Lasse remained a lifelong, barely processed pain that she almost never spoke about publicly &ndash; an example of how the SP1w9 carries even the deepest wounds silently within, rather than sharing them. At the centre of the One stands <strong>anger</strong>, which in the SP1 usually turns inward &ndash; as a constant, self-imposed strictness that anything less than complete discipline does justice to no one, including oneself.</p>
         </blockquote>
 
         <h2 class="vb-section">8. The Path of Healing: From the Judge to Kindness</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the One leads from anger to serenity &ndash; from the question <em>Did I do everything right?</em> to the recognition <em>I gave what I had, and something good grew from it.</em> In Lindgren this path shows in the development of her own work: from the untamed Pippi through the darker, death-facing tones of the Brothers Lionheart to the mature, reconciled wisdom of her public animal-welfare advocacy in old age.</p>
+          <p class="vb-intro">The One’s path to healing leads from anger to serenity &ndash; from the question <em>Did I do everything right?</em> to the recognition <em>I gave what I had, and something good grew from it.</em> In Lindgren this path shows in the development of her own work: from the untamed Pippi through the darker, death-facing tones of the Brothers Lionheart to the mature, reconciled wisdom of her public animal-welfare advocacy in old age.</p>
           <p class="vb-intro">Astrid Lindgren died in 2002 at the age of 94 in Stockholm, mourned by an entire nation &ndash; her funeral was broadcast live on Swedish television. She left behind no legacy of vanity, but a century's worth of children who learned through her books that one can be brave, independent, and kind, even when the adult world demands otherwise. The Eagle that never needed to be loud to carry far &ndash; and whose wingbeat still echoes today, generations later, in every child who hears of Pippi Longstocking for the first time.</p>
         </blockquote>
 
@@ -241,7 +241,7 @@ export function brunoMarsPortraitPage() {
 
         <h2 class="vb-section">3. The Three-Wing: Perfection as Stagecraft</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the social Two the drive to turn talent into a flawlessly staged, visible product. Mars is considered one of the most elaborate live performers of his generation: choreographed dance routines, meticulously recreated retro aesthetics, and an album like <em>24K Magic</em> (2016), which deliberately revived the sound and look of 1990s R&B.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> lends the social Two the drive to turn talent into a flawlessly staged, visible product. Mars is considered one of the most elaborate live performers of his generation: choreographed dance routines, meticulously recreated retro aesthetics, and an album like <em>24K Magic</em> (2016), which deliberately revived the sound and look of 1990s R&B.</p>
           <p class="vb-intro">With Anderson .Paak, he formed the duo Silk Sonic and released the joint album <em>An Evening with Silk Sonic</em> in 2021, featuring the hit <em>Leave the Door Open</em> &ndash; a project deliberately designed as a shared stage between two equal artists, rather than a vehicle for a single star. The Three-wing ensures that perfection never remains an end in itself, but always aims at maximum impact on the audience.</p>
         </blockquote>
 
@@ -302,7 +302,7 @@ export function cheyenneOchsenknechtPortraitPage() {
 
         <h2 class="vb-section">3. The Four-Wing: A Distinctive Note Within the Pragmatic</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the self-preservation Three a question that goes beyond mere competence: <em>What does my path mean &ndash; beyond what is expected of me?</em> Telling already is her choice of cattle breed: Chianina cattle are not interchangeable commodity stock, but a rare, very specific Italian breed &ndash; an aesthetic, individual choice even within a deliberately pragmatic field.</p>
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> grants the self-preservation Three a question that goes beyond mere competence: <em>What does my path mean &ndash; beyond what is expected of me?</em> Telling already is her choice of cattle breed: Chianina cattle are not interchangeable commodity stock, but a rare, very specific Italian breed &ndash; an aesthetic, individual choice even within a deliberately pragmatic field.</p>
           <p class="vb-intro">Her deliberate retreat from the glaring world of modeling into a very withdrawn, rural family life, now with two children, carries the same signature: not withdrawal out of exhaustion, but an active search for a life that feels inwardly true and singular, rather than merely functioning outwardly. In parallel, she is training to become a certified agricultural technician &ndash; formal, provable competence rather than a mere image of rural life.</p>
         </blockquote>
 
@@ -315,7 +315,7 @@ export function cheyenneOchsenknechtPortraitPage() {
         <h2 class="vb-section">5. Light and Shadow of Self-Preservation Three</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of SP3w4 is the ability to leave an already-achieved, publicly visible life behind without bitterness, and to build something entirely one's own and tangible instead &ndash; married at twenty-two, twice a mother by twenty-four, and co-operator of her own farm. This is not evasion, but a very concrete, very young form of independence.</p>
-          <p class="vb-intro">The fate pattern of the Three is <strong>self-deceit</strong> &ndash; the conviction that one's own image is identical to one's own worth. In SP3w4, this tends to show up in reverse compared to SO3 or SX3: the danger lies in letting the new, "authentic" rural-life image become just as much of a facade as the modeling image once was &ndash; a new form of self-staging under the guise of groundedness. The ongoing, publicly known estrangement between her father, Uwe Ochsenknecht, and Cheyenne also shows that even this deliberately chosen, quieter path does not automatically heal the Ochsenknecht family's underlying rifts.</p>
+          <p class="vb-intro">At the centre of the Three stands <strong>self-deceit</strong> &ndash; the conviction that one's own image is identical to one's own worth. In SP3w4, this tends to show up in reverse compared to SO3 or SX3: the danger lies in letting the new, "authentic" rural-life image become just as much of a facade as the modeling image once was &ndash; a new form of self-staging under the guise of groundedness. The ongoing, publicly known estrangement between her father, Uwe Ochsenknecht, and Cheyenne also shows that even this deliberately chosen, quieter path does not automatically heal the Ochsenknecht family's underlying rifts.</p>
         </blockquote>
 
       </div>
@@ -443,14 +443,14 @@ export function drDrePortraitPage() {
 
         <h2 class="vb-section">3. The Three-Wing: From Beat Architect to Billion-Dollar Entrepreneur</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the social Two the drive to turn musical instinct into a visible, measurable empire. In 1992, Dr. Dre co-founded Death Row Records with Suge Knight; in 1996, he left the label and built Aftermath Entertainment, an even more successful platform of his own &ndash; a pattern of constant entrepreneurial reinvention that went far beyond the role of producer alone.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> grants the social Two the drive to turn musical instinct into a visible, measurable empire. In 1992, Dr. Dre co-founded Death Row Records with Suge Knight; in 1996, he left the label and built Aftermath Entertainment, an even more successful platform of his own &ndash; a pattern of constant entrepreneurial reinvention that went far beyond the role of producer alone.</p>
           <p class="vb-intro">In 2006, he co-founded the headphone and speaker company Beats Electronics with Jimmy Iovine, which sold to Apple in 2014 for roughly three billion US dollars &ndash; one of the largest deals in music industry history. The Three-wing translates a musical ear into entrepreneurial success that reaches far beyond individual albums and reshapes entire industries.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SO2w3 lies in the rare ability to keep a feel, across decades, for which talent is just ready to be discovered &ndash; and then to consistently build that talent a stage larger than his own. Hardly any other producer in pop music history has decisively shaped so many different careers across so many decades.</p>
-          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to the success of others. In the SO2w3, this can combine with the risk of measuring one's own success primarily by the success of the artists one has championed, rather than claiming credit for it &ndash; a drive that makes entire careers possible while itself often staying in the background.</p>
+          <p class="vb-intro">The passion of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to the success of others. In the SO2w3, this can combine with the risk of measuring one's own success primarily by the success of the artists one has championed, rather than claiming credit for it &ndash; a drive that makes entire careers possible while itself often staying in the background.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Work: From Compton Producer to Architect of Modern Hip-Hop</h2>
@@ -505,7 +505,7 @@ export function frankaPotentePortraitPage() {
 
         <h2 class="vb-section">3. The One-Wing: Uncompromising Artistic Integrity</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the self-preservation Two an inner set of standards that holds independent of external validation &ndash; a clear sense of right and wrong that forces uncomfortable decisions when principle demands it. It turns care into a stance.</p>
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> brings the self-preservation Two an inner set of standards that holds independent of external validation &ndash; a clear sense of right and wrong that forces uncomfortable decisions when principle demands it. It turns care into a stance.</p>
           <p class="vb-intro">Potente has repeatedly spoken bluntly about sexism and unfair working conditions in the film industry &ndash; publicly, directly, without diplomatic softening. Her path beyond acting, as a writer, director, and musician under her own name, never reads as strategic image-building, but as the need to express different truths in whichever form fits them. The One-wing demands that the work be right &ndash; not that it pleases.</p>
         </blockquote>
 
@@ -518,7 +518,7 @@ export function frankaPotentePortraitPage() {
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Two</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SP2w1 is the ability to combine care and integrity &ndash; to commit to people and projects without betraying one's own principles in the process. Potente's refusal to fully submit to the Hollywood system, and her clear public stance on the industry's failings, show this mature form of SP2 energy.</p>
-          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable through one's own stance and care. The One-wing can turn this pride into moral strictness: the risk of making one's own integrity the standard for others, with little patience for the compromises that are often unavoidable in the film business. Potente's reputation as a demanding, sometimes difficult colleague can be read as exactly this other side of the same pattern.</p>
+          <p class="vb-intro">The passion of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable through one's own stance and care. The One-wing can turn this pride into moral strictness: the risk of making one's own integrity the standard for others, with little patience for the compromises that are often unavoidable in the film business. Potente's reputation as a demanding, sometimes difficult colleague can be read as exactly this other side of the same pattern.</p>
         </blockquote>
 
       </div>
@@ -567,7 +567,7 @@ export function georgWilhelmFriedrichHegelPortraitPage() {
 
         <h2 class="vb-section">3. The Six-Wing: Security Through State and Teaching Authority</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the social Five a deep need for security through institution and recognized authority. From 1818 Hegel taught at the University of Berlin, where he quickly rose to become the dominant philosophical authority in Prussia &ndash; his lectures drew hundreds of students, and his students formed a veritable school, "Hegelianism," which shaped German intellectual life for decades.</p>
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> lends the social Five a deep need for security through institution and recognized authority. From 1818 Hegel taught at the University of Berlin, where he quickly rose to become the dominant philosophical authority in Prussia &ndash; his lectures drew hundreds of students, and his students formed a veritable school, "Hegelianism," which shaped German intellectual life for decades.</p>
           <p class="vb-intro">In his "Philosophy of Right" (1820) he formulated the line still debated today: "What is rational is actual; and what is actual is rational" &ndash; a line that contemporaries and posterity alike have often read as a justification of the existing Prussian state order. Hegel thereby effectively became the unofficial state philosopher of Prussia. The Six-wing seeks security not in individual deviation but in alignment between one's own system and the existing, reliable order.</p>
         </blockquote>
 
@@ -637,14 +637,14 @@ export function haraldGloeocklerPortraitPage() {
 
         <h2 class="vb-section">3. The Three-Wing: The Brand as Armor</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two an instinct for image, impact, and recognizability. Glööckler's personal trademark &ndash; the golden crown, often paired with the "POMPÖÖS" lettering &ndash; is not incidental aesthetics, but a deliberately designed, consistently repeated emblem that runs through fashion, home accessories, and beauty products.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> lends the self-preservation Two an instinct for image, impact, and recognizability. Glööckler's personal trademark &ndash; the golden crown, often paired with the "POMPÖÖS" lettering &ndash; is not incidental aesthetics, but a deliberately designed, consistently repeated emblem that runs through fashion, home accessories, and beauty products.</p>
           <p class="vb-intro">His media presence follows the same pattern: as a reality TV star, he has appeared on shows including "Ich bin ein Star – Holt mich hier raus!" (the German "I'm a Celebrity") and "Promi Big Brother" &ndash; formats that offer maximum visibility on minimal script. The Three-wing turns the longing for security that stems from childhood into a publicly visible, consistently marketed image: not hiding, but showing plainly that one has made it.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP2w3 is the ability to build one's own, sustainable world out of a childhood without security &ndash; and not to keep that world to oneself, but to share it through concrete engagement for animals and disadvantaged children. Glööckler's decades-long partnership and his ongoing charitable work show that behind the glittering surface lies a very real, very reliable form of care.</p>
-          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable and secure through one's own care and one's own achievement. In the SP2w3, this pride can turn into permanent, publicly visible self-staging: the need to keep demonstrating the security one has fought for, again and again, ever more visibly, rather than being able to rely on it internally. Glööckler's own, very deliberate decision against having children &ndash; on the grounds that a child is "a full-time job" and incompatible with his career &ndash; can be read as an expression of exactly this priority: self-built, controllable security over a new, uncontrollable dependency.</p>
+          <p class="vb-intro">The strength of the SP2w3 is the ability to build one's own, sustainable world out of a childhood without security &ndash; and not to keep that world to oneself, but to share it through concrete engagement for animals and disadvantaged children. Glööckler's decades-long partnership and his ongoing charitable work show that behind the glittering surface lies a very real, very reliable form of care.</p>
+          <p class="vb-intro">The passion of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable and secure through one's own care and one's own achievement. In the SP2w3, this pride can turn into permanent, publicly visible self-staging: the need to keep demonstrating the security one has fought for, again and again, ever more visibly, rather than being able to rely on it internally. Glööckler's own, very deliberate decision against having children &ndash; on the grounds that a child is "a full-time job" and incompatible with his career &ndash; can be read as an expression of exactly this priority: self-built, controllable security over a new, uncontrollable dependency.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Work: Abundance as Counter-Design</h2>
@@ -775,7 +775,7 @@ export function javierParisiPortraitPage() {
 
         <h2 class="vb-section">3. The Five-wing: Perfection Through Study</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the social Four the capacity for concentrated, almost scientific depth. Where an SO4 with a more muted Five-wing mostly feels and compares, the Five-wing adds patient study: the willingness to penetrate a subject until one has fully mastered it.</p>
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> grants the social Four the capacity for concentrated, almost scientific depth. Where an SO4 with a more muted Five-wing mostly feels and compares, the Five-wing adds patient study: the willingness to penetrate a subject until one has fully mastered it.</p>
           <p class="vb-intro">In Parisi this shows in the sheer precision of his embodiment: not only the round glasses and the haircut, but the tone of voice, the stage movements, the Liverpudlian accent in his English, the exact chronology of Lennon&#39;s wardrobe across the various creative phases of the Beatles. This is no superficial imitation, but decades of meticulous research into a single biography. The Five-wing turns the SO4&#39;s admiration into craft.</p>
           <p class="vb-intro">This precision is what sets Parisi apart from ordinary tribute artists. His audiences repeatedly report the same moment: for seconds, the difference between original and embodiment disappears. This shows the Five-wing in its most complete form &ndash; knowledge so deeply internalized that it no longer feels like knowledge, but like being.</p>
         </blockquote>
@@ -795,7 +795,7 @@ export function javierParisiPortraitPage() {
 
         <h2 class="vb-section">6. The Healing Path: From Comparison to Own Expression</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Four leads from the question <em>Why am I less than the one I compare myself to?</em> to the insight <em>What I am is complete &ndash; and it is unique, even if I resemble another.</em> For the SO4w5 this means no longer treating years of studying a foreign role model as a substitute for one&#39;s own voice, but as a path through which that own voice is ultimately found.</p>
+          <p class="vb-intro">For the Four, the path of healing leads from the question <em>Why am I less than the one I compare myself to?</em> to the insight <em>What I am is complete &ndash; and it is unique, even if I resemble another.</em> For the SO4w5 this means no longer treating years of studying a foreign role model as a substitute for one&#39;s own voice, but as a path through which that own voice is ultimately found.</p>
           <p class="vb-intro">Parisi&#39;s career shows glimpses of exactly this movement: from pure imitator to independent interpreter, who carries Lennon&#39;s message forward with his own expressive power rather than merely copying it. The armadillo that has learned that kinship with another does not erase one&#39;s own uniqueness &ndash; but, rightly understood, can be a path to discovering it in the first place.</p>
         </blockquote>
 
@@ -855,7 +855,7 @@ export function johnnyDeppPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SO4w3 is the ability to turn <strong>deep feeling into powerful art</strong> &ndash; to create characters that, despite all their eccentricity, move audiences of millions because they carry genuine vulnerability within them. Depp's best roles thrive precisely on this willingness to fully surrender to a character, without regard for his own image.</p>
+          <p class="vb-intro">The strength of the SO4w3 is the ability to turn <strong>deep feeling into powerful art</strong> &ndash; to create characters that, despite all their eccentricity, move audiences of millions because they carry genuine vulnerability within them. Depp's best roles thrive precisely on this willingness to fully surrender to a character, without regard for his own image.</p>
           <p class="vb-intro">The shadow showed itself in publicly documented periods of excess &ndash; alcohol and substance abuse, financial turbulence despite enormous fees, broken relationships. The flip side of the SO4w3: when the stage becomes the only source of validation, the line between genuine self-expression and pure performance can blur &ndash; and the need for recognition is never fully satisfied, no matter how loud the applause.</p>
         </blockquote>
 
@@ -909,14 +909,14 @@ export function katharinaTempelPortraitPage() {
 
         <h2 class="vb-section">3. The One-Wing: Scientific Rigor Instead of Vague Self-Help</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two an inner axis of care and a need to pass on only what can actually be substantiated. In Tempel, this shows in the clear grounding of her work in empirical research: her dissertation, involving more than 1,500 study participants, is not a side note but the methodological foundation on which all her later Glücksdetektiv work rests.</p>
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> grants the social Two an inner axis of care and a need to pass on only what can actually be substantiated. In Tempel, this shows in the clear grounding of her work in empirical research: her dissertation, involving more than 1,500 study participants, is not a side note but the methodological foundation on which all her later Glücksdetektiv work rests.</p>
           <p class="vb-intro">This rigor sets her approach apart from the broad, often arbitrary self-help scene: instead of general motivational slogans, she offers evidence-based psychological interventions, combined with practical experience from online psychological counseling. The One-wing ensures that caring for a mass audience never comes at the expense of professional precision.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SO2w1 lies in the ability to turn an often painful personal experience into something that shows others a solid, scientifically grounded path. Tempel describes herself as having long been reserved and pessimistic &ndash; "at best neutral," as she puts it &ndash; before studying positive psychology fundamentally changed her own outlook. Out of that personal turning point came the drive to make the same possible for others.</p>
-          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable for the wellbeing of others. In the SO2w1, this can show as a constant demand to keep supplying a growing audience with well-founded, correct answers &ndash; a standard that can become exhausting over time if it doesn't also account for one's own limits.</p>
+          <p class="vb-intro">The best of the SO2w1 lies in the ability to turn an often painful personal experience into something that shows others a solid, scientifically grounded path. Tempel describes herself as having long been reserved and pessimistic &ndash; "at best neutral," as she puts it &ndash; before studying positive psychology fundamentally changed her own outlook. Out of that personal turning point came the drive to make the same possible for others.</p>
+          <p class="vb-intro">The core pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable for the wellbeing of others. In the SO2w1, this can show as a constant demand to keep supplying a growing audience with well-founded, correct answers &ndash; a standard that can become exhausting over time if it doesn't also account for one's own limits.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Work: From Personal Low Point to Scientifically Grounded Happiness Work</h2>
@@ -971,7 +971,7 @@ export function larryKingPortraitPage() {
 
         <h2 class="vb-section">3. The Six-Wing: Loyalty and Reliability</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Self-Preservation Seven a stable, loyal foundation. Where the pure SP7 tends toward scattering, the w6 wing anchors it in reliability &ndash; in a fixed ritual, a recurring appointment, a role one can count on.</p>
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> lends the Self-Preservation Seven a stable, loyal foundation. Where the pure SP7 tends toward scattering, the w6 wing anchors it in reliability &ndash; in a fixed ritual, a recurring appointment, a role one can count on.</p>
           <p class="vb-intro">King's career was exactly that: reliability across decades. <em>Larry King Live</em> ran from 1985 to 2010 on CNN, five nights a week, for 25 years &ndash; one of the longest-running shows with the same host in US television history. This constancy was by design, an expression of the Six-wing: the show as a safe place, at the same time every evening, no matter what happened in the world. Viewers and guests alike knew: King is there, reliable as a ritual.</p>
         </blockquote>
 
@@ -984,7 +984,7 @@ export function larryKingPortraitPage() {
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SP7w6 is its ability to generate real closeness without losing its own warmth, even after tens of thousands of conversations. King remained curious about people well into old age &ndash; a quality many talk show hosts lose after decades in the business.</p>
-          <p class="vb-intro">The shadow shows in a life full of financial and personal turbulence: in 1971 King was charged with embezzlement, temporarily lost his job, and although the charges were later dropped, financial ruin followed him for years. Privately he married eight times, divorced seven times &ndash; a pattern that reveals the flip side of the SP7: the longing for a safe nest, paired with a restlessness that keeps leaving it. In 1987 he suffered a severe heart attack that changed him lastingly &ndash; he subsequently founded the Larry King Cardiac Foundation to fund heart surgery for people who could not afford it. His own vulnerability turned into care for others.</p>
+          <p class="vb-intro">The darker side shows in a life full of financial and personal turbulence: in 1971 King was charged with embezzlement, temporarily lost his job, and although the charges were later dropped, financial ruin followed him for years. Privately he married eight times, divorced seven times &ndash; a pattern that reveals the flip side of the SP7: the longing for a safe nest, paired with a restlessness that keeps leaving it. In 1987 he suffered a severe heart attack that changed him lastingly &ndash; he subsequently founded the Larry King Cardiac Foundation to fund heart surgery for people who could not afford it. His own vulnerability turned into care for others.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Gorilla Who Listened</h2>
@@ -1054,7 +1054,7 @@ export function ludwigErhardPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP9w1 is his <strong>ability to create lasting structures out of principled patience</strong>. Erhard's Social Market Economy still shapes Germany's economic order today &ndash; a legacy that reaches far beyond his own term in office, precisely because it was built not on spectacular individual decisions but on a stable, internally coherent system.</p>
+          <p class="vb-intro">The best of the SP9w1 is his <strong>ability to create lasting structures out of principled patience</strong>. Erhard's Social Market Economy still shapes Germany's economic order today &ndash; a legacy that reaches far beyond his own term in office, precisely because it was built not on spectacular individual decisions but on a stable, internally coherent system.</p>
           <p class="vb-intro">The shadow shows in exactly the inertia inherent in the SP9: Erhard reacted hesitantly, almost passively, to the growing budget crises and rising domestic criticism during his chancellorship, until the governing coalition collapsed in 1966 and he was forced to resign. The elephant who patiently endures can, in the wrong situation, endure too long &ndash; until the decision is taken out of his hands rather than made by him.</p>
         </blockquote>
 
@@ -1112,7 +1112,7 @@ export function mariellaSuperinaPortraitPage() {
 
         <h2 class="vb-section">4. Light and shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SO4w5 is its ability to turn <strong>its own uniqueness into an irreplaceable role within society</strong> &ndash; Superina's decades of research and her international chairmanship have moved a whole, previously overlooked family of animals into the center of global species conservation. Without her, verifiably, the world's knowledge of armadillos would be poorer today.</p>
+          <p class="vb-intro">The best of the SO4w5 is its ability to turn <strong>its own uniqueness into an irreplaceable role within society</strong> &ndash; Superina's decades of research and her international chairmanship have moved a whole, previously overlooked family of animals into the center of global species conservation. Without her, verifiably, the world's knowledge of armadillos would be poorer today.</p>
           <p class="vb-intro">The shadow of the Social Four shows where one's own significance stays too tightly bound to a single, highly specialized niche &ndash; a field that remains exotic and hard to access for most people, however significant it is professionally. The flip side of the special role: the more unique one's own niche, the lonelier the path within it can become.</p>
         </blockquote>
 
@@ -1171,14 +1171,14 @@ export function mickyBeisenherzPortraitPage() {
 
         <h2 class="vb-section">3. The One-Wing: Conviction Instead of Mere Entertainment</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two an inner axis of principled conviction and a need to name things clearly rather than lose itself in mere agreeableness. This is exactly what sets <em>Apokalypse & Filterkaffee</em> apart from ordinary entertainment: the podcast explicitly presents itself as opinion journalism that takes a position instead of simply laying out events side by side.</p>
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> lends the social Two an inner axis of principled conviction and a need to name things clearly rather than lose itself in mere agreeableness. This is exactly what sets <em>Apokalypse & Filterkaffee</em> apart from ordinary entertainment: the podcast explicitly presents itself as opinion journalism that takes a position instead of simply laying out events side by side.</p>
           <p class="vb-intro">This stance runs through his entire body of work: as a joke writer for satirical shows like <em>extra3</em>, as a writer for <em>Late Night Berlin</em>, in his columns, which regularly offer pointed commentary on social and political issues. The One-wing ensures that behind the sharp language there is always a recognizable, consistent position &ndash; not opinion for the sake of provocation, but the claim of naming what is right clearly.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SO2w1 lies in the ability to freshly process complex, often unsettling world events for a broad audience every single day, without slipping into mere sensationalism. That Beisenherz has reliably hosted for years &ndash; from the WDR talk show <em>Kölner Treff</em>, whose succession from Bettina Böttinger he took over in 2023, to several parallel podcast formats &ndash; shows a reliability that goes beyond mere presence.</p>
-          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to the audience. In the SO2w1, this can show as a constant pressure to remain present, sharp, and opinionated every single day, regardless of how exhausting that can become over time. A format that turns itself into a daily institution carries exactly this claim within it: never to fail to appear, always to deliver clear orientation.</p>
+          <p class="vb-intro">The strength of the SO2w1 lies in the ability to freshly process complex, often unsettling world events for a broad audience every single day, without slipping into mere sensationalism. That Beisenherz has reliably hosted for years &ndash; from the WDR talk show <em>Kölner Treff</em>, whose succession from Bettina Böttinger he took over in 2023, to several parallel podcast formats &ndash; shows a reliability that goes beyond mere presence.</p>
+          <p class="vb-intro">The passion of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to the audience. In the SO2w1, this can show as a constant pressure to remain present, sharp, and opinionated every single day, regardless of how exhausting that can become over time. A format that turns itself into a daily institution carries exactly this claim within it: never to fail to appear, always to deliver clear orientation.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Work: From Local Radio to the Daily Voice of a Generation</h2>
@@ -1232,7 +1232,7 @@ export function neilArmstrongPortraitPage() {
 
         <h2 class="vb-section">3. The Five-Wing: Mastery Through Knowledge</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Self-Preservation Six a characteristic depth: a retreat into the technical, a hunger for mastery, the conviction that safety arises above all through precise knowledge and thorough preparation, not through social closeness alone. The SP6w5 opens itself to the world not through enthusiasm, but through competence \u2013 and precisely there lies the key to Armstrong's entire life.</p>
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> lends the Self-Preservation Six a characteristic depth: a retreat into the technical, a hunger for mastery, the conviction that safety arises above all through precise knowledge and thorough preparation, not through social closeness alone. The SP6w5 opens itself to the world not through enthusiasm, but through competence \u2013 and precisely there lies the key to Armstrong's entire life.</p>
           <p class="vb-intro">Armstrong flew for the first time at age six \u2013 with his father, in a Ford Trimotor, a three-engine passenger aircraft widely used in the US during the 1920s. From then on he wanted to be a pilot, and he approached that goal like a Five: systematically, technically, through knowledge rather than impulse. By sixteen he had his pilot's license before he even had a driver's license. He studied aerospace engineering, flew seventy-six combat missions in the Korean War, and became a test pilot who flew the X-15 to an altitude of over 60 kilometers \u2013 at the edge of space. He aptly described himself as a "white-socks, pocket-protector, nerdy engineer" \u2013 not an adventurer, but a technician who worked his way into ever riskier aircraft because he understood them down to the last detail. This shows the SP6w5: courage that arises from mastery, not from enthusiasm.</p>
           <p class="vb-intro">In 1966, on Gemini 8, he performed the first successful docking maneuver of two spacecraft in space \u2013 and saved the mission when the spacecraft went into an uncontrolled roll, by keeping a cool head and making the technically correct decision within seconds. Not a spontaneous instinct, but years of trained engineering knowledge that was ready to call on at the decisive moment. The Five-wing gives the rabbit no wanderlust \u2013 it gives it the depth with which it fully masters every new field.</p>
         </blockquote>
@@ -1304,7 +1304,7 @@ export function peterGabrielPortraitPage() {
 
         <h2 class="vb-section">3. The Three-wing: The Self-Made Stage Figure</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Self-Preservation Four a pronounced sense for impact, staging, and public performance – the inner world of images is not hidden but translated into a visible, often self-invented role. As Genesis's singer, Gabriel devised an entire gallery of self-designed costumes and masks for the band's concerts: "The Watcher of the Skies," "Britannia," "The Slipperman," the flower for "Supper's Ready" – each figure created specifically for a particular song's content, usually without consulting the rest of the band.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> grants the Self-Preservation Four a pronounced sense for impact, staging, and public performance – the inner world of images is not hidden but translated into a visible, often self-invented role. As Genesis's singer, Gabriel devised an entire gallery of self-designed costumes and masks for the band's concerts: "The Watcher of the Skies," "Britannia," "The Slipperman," the flower for "Supper's Ready" – each figure created specifically for a particular song's content, usually without consulting the rest of the band.</p>
           <p class="vb-intro">This practice of translating deeply private inner narratives into a self-made, unmistakable outer image continued into his solo career: the four untitled albums at the start of his solo years, the stop-motion "Sledgehammer" video that won nine MTV Video Music Awards in 1986, the multi-million-selling album "So" – in every case, Gabriel himself stood behind the visual concept. In this his pattern resembles that of the other SP4w3s in this compass: a deeply private imagery that does not stay hidden but is made publicly visible (compare the portrait of <a href="#beruehmte-honore-de-balzac">Honoré de Balzac (SP4w3)</a>, who likewise created his own public figure).</p>
         </blockquote>
 
@@ -1316,7 +1316,7 @@ export function peterGabrielPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP4w3 lies in its ability to <strong>translate a wholly personal inner imagery into a publicly effective form that also serves others</strong>. Gabriel used this gift far beyond his own music: in 1982 he founded the WOMAD festival for world music, with Real World Records a label that gave countless musicians outside the Western mainstream a platform, and in 1992 the human-rights organization Witness, which equipped activists worldwide with video technology to document human-rights abuses – for which he received the "Man of Peace" award from Nobel laureates in 2006.</p>
+          <p class="vb-intro">The strength of the SP4w3 lies in its ability to <strong>translate a wholly personal inner imagery into a publicly effective form that also serves others</strong>. Gabriel used this gift far beyond his own music: in 1982 he founded the WOMAD festival for world music, with Real World Records a label that gave countless musicians outside the Western mainstream a platform, and in 1992 the human-rights organization Witness, which equipped activists worldwide with video technology to document human-rights abuses – for which he received the "Man of Peace" award from Nobel laureates in 2006.</p>
           <p class="vb-intro">The shadow showed in Gabriel's notorious perfectionism: gaps of four, five, sometimes ten years often separated his solo albums, because individual tracks were repeatedly discarded and rebuilt until they fully matched his inner image – a thoroughness that produced artistically striking results but repeatedly worked against him commercially.</p>
         </blockquote>
 
@@ -1505,7 +1505,7 @@ export function thomasVonAquinPortraitPage() {
 
         <h2 class="vb-section">3. The Eight-Wing: The Ox That Would Not Yield</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the self-preservation Nine a strength barely visible beneath its calm surface until a line is crossed. When the young Thomas wanted to join the mendicant Dominican order against his noble family's fierce opposition, his own brothers had him kidnapped and held captive in the family castle for over a year to make him change his mind.</p>
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> lends the self-preservation Nine a strength barely visible beneath its calm surface until a line is crossed. When the young Thomas wanted to join the mendicant Dominican order against his noble family's fierce opposition, his own brothers had him kidnapped and held captive in the family castle for over a year to make him change his mind.</p>
           <p class="vb-intro">According to tradition, they even sent a prostitute to his chamber to tempt him into breaking his vow of chastity. Thomas is said to have driven her from the room with a burning log from the fireplace and then drawn a cross on the charred door of his chamber. For a year the family held him captive &ndash; for a year the dumb ox remained unmoved in his decision, until they finally let him go. Here we see the Eight-wing of the SP9: no loud rebellion, but a resistance that simply cannot be broken.</p>
         </blockquote>
 
@@ -1674,7 +1674,7 @@ export function xuBingPortraitPage() {
 
         <h2 class="vb-section">6. The Owl That Invented a Script for Everyone</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Five leads from the question "Have I understood enough to show myself?" to the realization "What is understood becomes more valuable when it reaches others." For the SP5w4, this means not abandoning the castle, but making its walls permeable – shaping the unique so that it no longer only mirrors one's own solitude, but becomes a bridge to others.</p>
+          <p class="vb-intro">The Five’s path to healing leads from the question "Have I understood enough to show myself?" to the realization "What is understood becomes more valuable when it reaches others." For the SP5w4, this means not abandoning the castle, but making its walls permeable – shaping the unique so that it no longer only mirrors one's own solitude, but becomes a bridge to others.</p>
           <p class="vb-intro">This is exactly the step Xu Bing took with A Book from the Ground: from a script that deliberately no one could read, to a script that literally everyone can read, regardless of language, education or origin. The Owl that first invented a language only for itself ended up inventing a language for the entire world.</p>
           <p class="vb-intro">Xu Bing today lives and works between Beijing and New York. His work hangs in the world's most important museums – from the Museum of Modern Art to the Victoria and Albert Museum. That is the Self-Preservation Five with a Four-wing. That is the Owl that turned silence into a new language.</p>
         </blockquote>
@@ -1725,7 +1725,7 @@ export function jeanPaulSartrePortraitPage() {
 
         <h2 class="vb-section">3. The Five-Wing: The Struggle as a Philosophical System</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the sexual Four the analytical sharpness not merely to live through its own burning struggle, but to translate it into a fully worked-out structure of thought. In 1943 Sartre published "Being and Nothingness," his major philosophical work &ndash; more than 700 pages that frame consciousness as radical freedom and as a constant struggle with its own nothingness, built on Kant (SO6w5), Hegel (SO5w6), Kierkegaard (SP2w1), Husserl, and Heidegger, yet condensed into a distinct system of his own.</p>
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> lends the sexual Four the analytical sharpness not merely to live through its own burning struggle, but to translate it into a fully worked-out structure of thought. In 1943 Sartre published "Being and Nothingness," his major philosophical work &ndash; more than 700 pages that frame consciousness as radical freedom and as a constant struggle with its own nothingness, built on Kant (SO6w5), Hegel (SO5w6), Kierkegaard (SP2w1), Husserl, and Heidegger, yet condensed into a distinct system of his own.</p>
           <p class="vb-intro">The Five-wing also showed in the capacity for withdrawal with which Sartre worked on his oeuvre for decades &ndash; often fueled by amphetamines to sustain the concentration needed for hours-long, solitary writing sessions. What a pure SX4 lives through as raw intensity, the Five-wing turned in Sartre into one of the most influential philosophical systems of the 20th century.</p>
         </blockquote>
 
@@ -1738,7 +1738,7 @@ export function jeanPaulSartrePortraitPage() {
         <h2 class="vb-section">5. Light and Shadow of the Sexual Four</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SX4w5 shows in Sartre's ability to build, out of radical personal freedom, an entire philosophy that shaped millions of people in the 20th century &ndash; the conviction that human beings are "condemned to be free" and must reinvent themselves in every moment. Politically too, he refused any comfortable allegiance, positioning himself throughout his life against colonialism and for society's marginalized.</p>
-          <p class="vb-intro">The fate pattern of the Four is <strong>envy</strong> &ndash; in the SX4 turned into a permanent rivalry against any authority, any convention that seems to deny her own uniqueness. In Sartre, the shadow showed in decades of excessive alcohol, nicotine, and amphetamine use that significantly damaged his health, as well as in a restlessness that never let him find inner peace &ndash; there was always another fight, another work, another position to be taken.</p>
+          <p class="vb-intro">The core pattern of the Four is <strong>envy</strong> &ndash; in the SX4 turned into a permanent rivalry against any authority, any convention that seems to deny her own uniqueness. In Sartre, the shadow showed in decades of excessive alcohol, nicotine, and amphetamine use that significantly damaged his health, as well as in a restlessness that never let him find inner peace &ndash; there was always another fight, another work, another position to be taken.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Chihuahua Whom 50,000 People Paid Their Last Respects</h2>
@@ -1801,7 +1801,7 @@ export function rosaParksPortraitPage() {
 
         <h2 class="vb-section">4. Light and shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP3w4 is its ability to <strong>act with quiet substance at the decisive moment, built on years of unnoticed preparation</strong> &ndash; the 381-day Montgomery Bus Boycott that her refusal triggered is considered one of the turning points of the American civil rights movement.</p>
+          <p class="vb-intro">The best of the SP3w4 is its ability to <strong>act with quiet substance at the decisive moment, built on years of unnoticed preparation</strong> &ndash; the 381-day Montgomery Bus Boycott that her refusal triggered is considered one of the turning points of the American civil rights movement.</p>
           <p class="vb-intro">The shadow of the self-preservation Three with a Four-wing shows in how much one's own achievement can vanish behind the public myth: Parks and her husband lost their jobs after the boycott, received death threats, and had to flee Montgomery for Detroit in 1957 &ndash; while the public narrative increasingly reduced her to the "tired woman on the bus," rather than seeing the decades-long activist behind her.</p>
         </blockquote>
 
@@ -2324,7 +2324,7 @@ export function oliverPocherPortraitPage() {
 
         <h2 class="vb-section">3. The Nine-wing: The Punchline Instead of the Loud Accusation</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the social One a noticeably unruffled, almost casual way of phrasing her criticism – not as a loud outburst of anger, but wrapped in punchlines, irony, and offhand remarks. This Nine-wing composure also showed in his private life: his 2022 separation from Amira Pocher was communicated publicly in a comparatively calm way, without an openly fought-out conflict.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> brings the social One a noticeably unruffled, almost casual way of phrasing her criticism – not as a loud outburst of anger, but wrapped in punchlines, irony, and offhand remarks. This Nine-wing composure also showed in his private life: his 2022 separation from Amira Pocher was communicated publicly in a comparatively calm way, without an openly fought-out conflict.</p>
           <p class="vb-intro">This combination of moral conviction (the One) and relaxed, humorous packaging (the Nine) explains why Pocher is perceived simultaneously as entertaining and as uncomfortably direct – the accusation lands, but is rarely delivered in a raised, finger-wagging tone.</p>
         </blockquote>
 
@@ -2459,7 +2459,7 @@ export function allieSherlockPortraitPage() {
 
         <h2 class="vb-section">3. The Six-wing: her father at the curbside</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Seven a fine sense of reliability: the freedom of the moment is not ventured alone but with someone trusted at one's back. In Sherlock that is her father, who is cameraman, manager and protector in one; reportedly he takes care that nobody comes too close to her, and as a shy child he deliberately encouraged her to handle small things independently until her confidence grew. Today, it is said, she rarely gets nervous – before the millions watching Ellen DeGeneres, however, she admitted to considerable jitters.</p>
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> grants the Seven a fine sense of reliability: the freedom of the moment is not ventured alone but with someone trusted at one's back. In Sherlock that is her father, who is cameraman, manager and protector in one; reportedly he takes care that nobody comes too close to her, and as a shy child he deliberately encouraged her to handle small things independently until her confidence grew. Today, it is said, she rarely gets nervous – before the millions watching Ellen DeGeneres, however, she admitted to considerable jitters.</p>
           <p class="vb-intro">The power of her voice at first recalls the Eight-wing (w8), with its assertiveness and radiance. The Enneagram knows no either-or logic here: people can live both wings, and someone who feels safe – as Sherlock does on stage, under the protection of a reliable bond – can deliberately activate the second wing. What speaks for the Six-wing as her basic wing is the pattern behind it: the risks – the street, the television studio, the record contract – were never lone ventures but happened within a close, reliable bond. It is precisely this security that gives access to the Eight's power: the voice shows strength and assertiveness, carried by the versatility of the Seven and by arrangements that are set anew, improvisationally, again and again. This combination comes across as authentic and convincing, and it gets under the skin of many listeners. This typing rests on publicly available sources and remains a reasoned assessment.</p>
         </blockquote>
 
@@ -2616,7 +2616,7 @@ export function ilkaBessinPortraitPage() {
         <h2 class="vb-section">6. Light and shadow of the self-preservation Seven with an Eight-wing</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SP7w8 shows in Bessin's ability to shape a painful personal experience – poverty, unemployment, body shaming – into a character that makes millions of people laugh while hitting a raw social nerve, without ever turning moralistic.</p>
-          <p class="vb-intro">The shadow lies in the risk that one's own physical reality becomes the sole stage material, until it becomes a burden in itself – exactly what Bessin named in 2016 when she temporarily retired the character. Where the Eight-wing grants unsparing directness, that same directness can turn inward when the audience only laughs at the body instead of with the punchline.</p>
+          <p class="vb-intro">The darker side lies in the risk that one's own physical reality becomes the sole stage material, until it becomes a burden in itself – exactly what Bessin named in 2016 when she temporarily retired the character. Where the Eight-wing grants unsparing directness, that same directness can turn inward when the audience only laughs at the body instead of with the punchline.</p>
         </blockquote>
 
         <h2 class="vb-section">7. The gorilla who struck back in pink</h2>
@@ -2669,7 +2669,7 @@ export function augusteRodinPortraitPage() {
 
         <h2 class="vb-section">3. The Eight-wing: refusal and hardness when the work is attacked</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Nine strength and the willingness to defend when something essential is threatened. In Rodin this shows above all when his work is attacked. When his ›The Age of Bronze‹ was accused in 1877 of having been cast from a living model, he objected fiercely, wrote to newspapers, had photographs made and demanded an inquiry, until a committee of sculptors cleared him.</p>
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> grants the Nine strength and the willingness to defend when something essential is threatened. In Rodin this shows above all when his work is attacked. When his ›The Age of Bronze‹ was accused in 1877 of having been cast from a living model, he objected fiercely, wrote to newspapers, had photographs made and demanded an inquiry, until a committee of sculptors cleared him.</p>
           <p class="vb-intro">When the town council of Calais demanded a more heroic design for ›The Burghers of Calais‹, Rodin was ready to end the project rather than give way. The town finally asked him to continue. When the writers' society rejected his ›Balzac‹ in 1898 and the press mocked it, he repaid the fee, put the figure in his garden and took no more public commissions. The Nine gives way until it is about her own. Then she becomes unyielding.</p>
         </blockquote>
 
@@ -2687,7 +2687,7 @@ export function augusteRodinPortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow of the sexual Nine with an Eight-wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX9w8 lies in Rodin in the persistence with which he carried a work over decades, and in the firmness with which he refused to adapt his understanding of form to the taste of his time. For the 1900 World's Fair a pavilion of his works was set up, which brought orders for busts from all over the world. His country estate in Meudon, which he and Rose acquired in 1897, received guests such as King Edward VII and <a href="javascript:void(0)" data-route="beruehmte-isadora-duncan">Isadora Duncan</a> (SX2w3). In 1908 he rented the Hôtel Biron in Paris, in 1914 he donated a selection of works to Britain, and he bequeathed his studio and reproduction rights to the French state. The Musée Rodin was founded in 1916 and opened in 1919 at the Hôtel Biron.</p>
+          <p class="vb-intro">The best of the SX9w8 lies in Rodin in the persistence with which he carried a work over decades, and in the firmness with which he refused to adapt his understanding of form to the taste of his time. For the 1900 World's Fair a pavilion of his works was set up, which brought orders for busts from all over the world. His country estate in Meudon, which he and Rose acquired in 1897, received guests such as King Edward VII and <a href="javascript:void(0)" data-route="beruehmte-isadora-duncan">Isadora Duncan</a> (SX2w3). In 1908 he rented the Hôtel Biron in Paris, in 1914 he donated a selection of works to Britain, and he bequeathed his studio and reproduction rights to the French state. The Musée Rodin was founded in 1916 and opened in 1919 at the Hôtel Biron.</p>
           <p class="vb-intro">The shadow lies where not deciding costs others. Rose stayed in the background for decades, Camille Claudel withdrew after the break in 1898 and was committed to an asylum in 1913, and Gwen John was kept at a distance. It is a pattern from Rodin's life, and there is no reason to transfer it to other people of this subtype. He died on 17 November 1917, aged 77, in Meudon. At his wish a cast of ›The Thinker‹ stands at his grave.</p>
         </blockquote>
 
@@ -3036,7 +3036,7 @@ export function rosalieThomassPortraitPage() {
 
         <h2 class="vb-section">3. The Eight-wing: anger as strength and taking up space</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Seven directness, strength and the will to take up space. In an interview with the Apotheken Umschau the headline carries the sentence &lsquo;Ich weigere mich, mich über mein Äußeres zu definieren&rsquo; (&lsquo;I refuse to define myself by my appearance&rsquo;). There she speaks about anger as a constructive force and about how women who show anger are quickly labelled too loud or hysterical. To ZDF she said the image of women is outdated, that one reduces the woman to her body and the man to his status.</p>
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> brings the Seven directness, strength and the will to take up space. In an interview with the Apotheken Umschau the headline carries the sentence &lsquo;Ich weigere mich, mich über mein Äußeres zu definieren&rsquo; (&lsquo;I refuse to define myself by my appearance&rsquo;). There she speaks about anger as a constructive force and about how women who show anger are quickly labelled too loud or hysterical. To ZDF she said the image of women is outdated, that one reduces the woman to her body and the man to his status.</p>
           <p class="vb-intro">On her role as a Tatort inspector she said in an interview with t-online (25 October 2026): &lsquo;Ich möchte eine Frauenfigur erzählen, die ich als Zuschauerin selbst gerne sehen würde&rsquo; (&lsquo;I want to tell a female character that I myself would like to see as a viewer&rsquo;). She also shows attitude towards her profession: she criticized the depiction of violence against women in TV crime shows, for instance the image of the dead, naked woman on a riverbank. That suits the Eight-wing well. It is no proof, only a hint from these statements.</p>
         </blockquote>
 

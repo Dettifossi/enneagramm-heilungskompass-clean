@@ -96,7 +96,7 @@ export function arminRohdePortraitPage() {
 
         <h2 class="vb-section">3. Der Dreierflügel: Vom Ruhrpott auf die große Leinwand</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Ehrgeiz, aus der eigenen, vertrauten Basis heraus etwas sichtbar Größeres aufzubauen. Wo eine SE2 mit schwächerem Dreierflügel sich mit dem vertrauten Kreis zufriedengeben könnte, treibt ein stark ausgeprägter Dreierflügel dazu, die eigene Geschichte einem größeren Publikum zugänglich zu machen &ndash; ohne sie dabei zu verraten.</p>
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> schenkt der selbsterhaltenden Zwei den Ehrgeiz, aus der eigenen, vertrauten Basis heraus etwas sichtbar Größeres aufzubauen. Wo eine SE2 mit schwächerem Dreierflügel sich mit dem vertrauten Kreis zufriedengeben könnte, treibt ein stark ausgeprägter Dreierflügel dazu, die eigene Geschichte einem größeren Publikum zugänglich zu machen &ndash; ohne sie dabei zu verraten.</p>
           <p class="vb-intro">Rohde begann seine Karriere am Theater, bevor ihm 1985 eine kleine Rolle in Wolfgang Petersens <em>Das Boot</em> erste internationale Sichtbarkeit verschaffte. Den endgültigen Durchbruch beim breiten Publikum brachte 1991 die Ruhrgebiets-Komödie <em>Manta, Manta</em>, in der er das Ruhrpott-Milieu, aus dem er selbst stammt, einem Millionenpublikum nahebrachte &ndash; nicht als Karikatur von außen, sondern als eine Welt, die er von innen kannte. Der Dreierflügel macht aus der eigenen Herkunft eine Bühne, ohne sie zu verleugnen.</p>
         </blockquote>
 
@@ -108,8 +108,8 @@ export function arminRohdePortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Zwei</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE2w3 ist die Fähigkeit, Erfolg und Bodenständigkeit zusammenzuhalten &ndash; berühmt zu werden, ohne sich selbst oder die eigene Herkunft dabei zu verlieren. Rohdes öffentliches Bild als volksnaher, verlässlicher Schauspieler, der auch nach Jahrzehnten im Geschäft ansprechbar und direkt geblieben ist, zeigt diese reife Form der SE2-Energie.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Verlässlichkeit und Vertrautheit unentbehrlich zu sein. Bei der SE2w3 kann sich das auch als Widerstand gegen Veränderung zeigen: Die Bindung an ein bestimmtes Image, eine bestimmte Herkunftsgeschichte, kann zur Falle werden, wenn sie keinen Raum mehr für neue Facetten lässt. Rohde selbst hat diesem Risiko durch die bewusste Erweiterung seines schauspielerischen Repertoires über die reine Ruhrpott-Rolle hinaus entgegengewirkt.</p>
+          <p class="vb-intro">Was die SE2w3 auszeichnet, ist die Fähigkeit, Erfolg und Bodenständigkeit zusammenzuhalten &ndash; berühmt zu werden, ohne sich selbst oder die eigene Herkunft dabei zu verlieren. Rohdes öffentliches Bild als volksnaher, verlässlicher Schauspieler, der auch nach Jahrzehnten im Geschäft ansprechbar und direkt geblieben ist, zeigt diese reife Form der SE2-Energie.</p>
+          <p class="vb-intro">Das Kernmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Verlässlichkeit und Vertrautheit unentbehrlich zu sein. Bei der SE2w3 kann sich das auch als Widerstand gegen Veränderung zeigen: Die Bindung an ein bestimmtes Image, eine bestimmte Herkunftsgeschichte, kann zur Falle werden, wenn sie keinen Raum mehr für neue Facetten lässt. Rohde selbst hat diesem Risiko durch die bewusste Erweiterung seines schauspielerischen Repertoires über die reine Ruhrpott-Rolle hinaus entgegengewirkt.</p>
         </blockquote>
 
       </div>
@@ -163,7 +163,7 @@ export function bracoPortraitPage() {
         <h2 class="vb-section">4. Licht und Schatten der sexuellen Zwei</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SX2 ist die F\u00e4higkeit zur echten Begegnung. Braco erzeugt in seinen Sitzungen etwas, das Menschen tiefgreifend ber\u00fchrt &ndash; unabh\u00e4ngig davon, wie man es erkl\u00e4rt. Ob man das als spirituelles Ph\u00e4nomen, als Wirkung meditativer Stille, als Projektion oder als Resonanz begreift: Das Erleben der Teilnehmer ist real. Und dieses Erleben hat seinen Ursprung in der SX2-Energie: dem bedingungslosen Angebot von Kontakt.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die tiefe \u00dcberzeugung, gebraucht zu werden, unverzichtbar zu sein. Bei der SX2w3 verbindet sich das mit dem Dreierfl\u00fcgel-Bed\u00fcrfnis nach Best\u00e4tigung und Erfolg: Der Blick, der heilt, ist auch ein Blick, der gesehen werden m\u00f6chte. Wo die Grenze zwischen Dienst und Bed\u00fcrfnis verl\u00e4uft, ist eine Frage, die jeder spirituelle Lehrer mit sich tr\u00e4gt &ndash; Braco eingeschlossen.</p>
+          <p class="vb-intro">Das Kernmuster der Zwei ist der <strong>Stolz</strong> &ndash; die tiefe \u00dcberzeugung, gebraucht zu werden, unverzichtbar zu sein. Bei der SX2w3 verbindet sich das mit dem Dreierfl\u00fcgel-Bed\u00fcrfnis nach Best\u00e4tigung und Erfolg: Der Blick, der heilt, ist auch ein Blick, der gesehen werden m\u00f6chte. Wo die Grenze zwischen Dienst und Bed\u00fcrfnis verl\u00e4uft, ist eine Frage, die jeder spirituelle Lehrer mit sich tr\u00e4gt &ndash; Braco eingeschlossen.</p>
           <p class="vb-intro">Die SX2 kann so sehr auf den anderen ausgerichtet sein, dass sie die eigene Mitte verliert. Das Kamel, das immer tr\u00e4gt, braucht selbst Wasser. Auch derjenige, dessen Blick anderen Halt gibt, braucht einen Ort der inneren Stille &ndash; jenseits der B\u00fchne.</p>
         </blockquote>
 
@@ -229,7 +229,7 @@ export function changpengZhaoPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE3w4 ist ihre Fähigkeit, aus reinem technischem Handwerk echte Einzigartigkeit zu schöpfen. Zhao baute eine Infrastruktur, die Millionen Menschen weltweit tatsächlich nutzten &ndash; nicht durch Hype, sondern weil das Produkt funktionierte, während zahlreiche Wettbewerber an Sicherheitslücken und Ausfällen scheiterten.</p>
+          <p class="vb-intro">Was die SE3w4 auszeichnet, ist ihre Fähigkeit, aus reinem technischem Handwerk echte Einzigartigkeit zu schöpfen. Zhao baute eine Infrastruktur, die Millionen Menschen weltweit tatsächlich nutzten &ndash; nicht durch Hype, sondern weil das Produkt funktionierte, während zahlreiche Wettbewerber an Sicherheitslücken und Ausfällen scheiterten.</p>
           <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> &ndash; bei der SE3w4 subtil als das Bedürfnis, als einzigartig und unangreifbar zu gelten, während die eigentliche Substanz nach außen kaum erklärt wird. Der Schatten des Viererflügels zeigte sich hier sehr konkret: Der bewusste Verzicht auf Anpassung an bestehende Regelwerke, der Binance groß gemacht hatte, wurde am Ende zur strafrechtlichen Konsequenz &ndash; ein Muster, das zeigt, wie schmal der Grat zwischen eigenständigem Weg und Regelbruch sein kann.</p>
         </blockquote>
 
@@ -289,7 +289,7 @@ export function danteAlighieriPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> – bei der SX4 als Rivalität, als das Gefühl, dass einem die eigene Stadt, die eigene Liebe, die eigene Anerkennung zu Unrecht vorenthalten wurde. Bei Dante speiste sich daraus sowohl die schöpferische Kraft des Werks als auch seine kompromisslose Härte gegenüber jedem, den er für sein Unglück verantwortlich hielt – bis hin zu Zeitgenossen, die er noch zu deren Lebzeiten in seiner Hölle verewigte.</p>
+          <p class="vb-intro">Der Antrieb der Vier ist der <strong>Neid</strong> – bei der SX4 als Rivalität, als das Gefühl, dass einem die eigene Stadt, die eigene Liebe, die eigene Anerkennung zu Unrecht vorenthalten wurde. Bei Dante speiste sich daraus sowohl die schöpferische Kraft des Werks als auch seine kompromisslose Härte gegenüber jedem, den er für sein Unglück verantwortlich hielt – bis hin zu Zeitgenossen, die er noch zu deren Lebzeiten in seiner Hölle verewigte.</p>
           <p class="vb-intro">Das Licht liegt in der Fähigkeit, aus persönlichem Leid ein Werk zu schaffen, das weit über die eigene Verletzung hinausreicht: Die "Göttliche Komödie" ist zugleich Rachefantasie, Liebeserklärung, theologische Summe und politisches Manifest – und dennoch, oder gerade deshalb, eines der einflussreichsten Werke der Weltliteratur. Der Schatten liegt in der Unversöhnlichkeit: Dante starb, ohne sich je mit Florenz auszusöhnen, und die Stadt bat erst Jahrhunderte später offiziell um Verzeihung für seine Verbannung.</p>
         </blockquote>
 
@@ -362,7 +362,7 @@ export function donataHopfenPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten: Wenn die Gruppe die W\xe4chterin abw\xe4hlt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO6w7 ist ihre <strong>F\xe4higkeit, Gemeinschaft in Bewegung zu bringen</strong>. Hopfen ist als Beraterin und Rednerin gefragt, weil sie Klarheit, Mut und strategischen Weitblick verbindet. Sie kann Systeme lesen, Chancen benennen und Menschen mitrei\xdfen. Hier wirkt die SO6w7 auf der Sonnenseite: Sie dient nicht nur &ndash; sie inspiriert.</p>
+          <p class="vb-intro">Die Stärke der SO6w7 ist ihre <strong>F\xe4higkeit, Gemeinschaft in Bewegung zu bringen</strong>. Hopfen ist als Beraterin und Rednerin gefragt, weil sie Klarheit, Mut und strategischen Weitblick verbindet. Sie kann Systeme lesen, Chancen benennen und Menschen mitrei\xdfen. Hier wirkt die SO6w7 auf der Sonnenseite: Sie dient nicht nur &ndash; sie inspiriert.</p>
           <p class="vb-intro">Der Schatten der SO6w7 liegt in der Geschwindigkeit. Wo Melanie Kreis (SO6w5) mit dem F\xfcnferfl\xfcgel bremst, gr\xfcndlich pr\xfcft und erst dann handelt, kann die SO6w7 zu fr\xfch loslaufen &ndash; bevor die Gruppe wirklich bereit ist mitzugehen. Der Siebenerfl\xfcgel erzeugt Tempo und Begeisterung, aber Begeisterung allein baut noch keine Br\xfccke zwischen einer Vision und den \xc4ngsten der Menschen, die dieser Vision folgen sollen. Die DFL-Episode zeigt dieses Muster pur: Der Aufbruch war real, die Notwendigkeit war real &ndash; aber die Gruppe war noch nicht dort, wo die Vision schon war.</p>
           <p class="vb-intro">F\xfcr die SO6 ist das die tiefste Wunde: Als Mitglied der Gemeinschaft ausgesto\u00dfen zu werden von genau jener Gemeinschaft, f\xfcr die man angetreten ist. Hopfen hat diese Erfahrung \xf6ffentlich gemacht. Und ist danach nicht verschwunden. Das ist der Unterschied zwischen dem SO6-Schatten und der SO6-Reife: Die reife Sechs wei\xdf, dass Zugeh\xf6rigkeit nicht an einer einzigen Gruppe h\xe4ngt.</p>
         </blockquote>
@@ -441,7 +441,7 @@ export function fionaApplePortraitPage() {
 
         <h2 class="vb-section">6. Der Heilungsweg: Von der Scham zur geteilten Wahrheit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Vier f\u00fchrt von der Frage <em>Was fehlt mir, dass ich nicht dazugeh\u00f6re?</em> zur Erkenntnis <em>Was ich f\u00fchle, ist vollst\u00e4ndig &ndash; und gerade das Ausgesprochene verbindet mich mit anderen.</em> F\u00fcr die SO4w5 bedeutet das, den R\u00fcckzug nicht als Endpunkt zu behandeln, sondern als notwendige Werkstatt, aus der heraus die eigene Wahrheit reift, bevor sie geteilt wird.</p>
+          <p class="vb-intro">Der Weg zur Heilung f\u00fchrt bei der Vier von der Frage <em>Was fehlt mir, dass ich nicht dazugeh\u00f6re?</em> zur Erkenntnis <em>Was ich f\u00fchle, ist vollst\u00e4ndig &ndash; und gerade das Ausgesprochene verbindet mich mit anderen.</em> F\u00fcr die SO4w5 bedeutet das, den R\u00fcckzug nicht als Endpunkt zu behandeln, sondern als notwendige Werkstatt, aus der heraus die eigene Wahrheit reift, bevor sie geteilt wird.</p>
           <p class="vb-intro">Apples Karriere zeigt genau diese Bewegung: von der scheuen Neunzehnj\u00e4hrigen, die 1997 auf der MTV-B\u00fchne fast \u00fcberw\u00e4ltigt wirkte, zur souver\u00e4nen K\u00fcnstlerin, die mit <em>Fetch the Bolt Cutters</em> ihre Scham in eine gemeinsame Sprache verwandelte. Das G\u00fcrteltier, das gelernt hat, dass der eigene Panzer nicht nur sch\u00fctzt, sondern, zur rechten Zeit ge\u00f6ffnet, auch andere einl\u00e4dt, ihren eigenen Panzer abzulegen.</p>
         </blockquote>
 
@@ -504,8 +504,8 @@ export function gangajiPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten der sexuellen Vier</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX4w3 ist die Fähigkeit, <strong>eine zutiefst persönliche Sehnsucht in eine öffentlich wirksame, strukturierte Lehrmission</strong> zu verwandeln – Gangajis Weg von der Mississippi-Lehrerin zur international bekannten Satsang-Lehrerin zeigt, wie viel Reichweite eine Intensität entfalten kann, die sich nicht länger in bürgerlichen Bahnen zurückhält.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> – bei der sexuellen Vier als Konkurrenzneid, das Bedürfnis, an Intensität und Wirklichkeit stets weiter zu gehen als andere. Kritiker der Neo-Advaita-Bewegung, zu der Gangaji gezählt wird, verweisen darauf, dass Papaji selbst später Zweifel an der Legitimation mehrerer seiner westlichen Schüler geäußert haben soll – ein Hinweis darauf, wie schwer sich gerade in dieser Bewegung Tiefe von bloßer Bühnenintensität unterscheiden lässt, wenn keine traditionelle Lehrlinie die eigene Autorität absichert.</p>
+          <p class="vb-intro">Das Beste an der SX4w3 ist die Fähigkeit, <strong>eine zutiefst persönliche Sehnsucht in eine öffentlich wirksame, strukturierte Lehrmission</strong> zu verwandeln – Gangajis Weg von der Mississippi-Lehrerin zur international bekannten Satsang-Lehrerin zeigt, wie viel Reichweite eine Intensität entfalten kann, die sich nicht länger in bürgerlichen Bahnen zurückhält.</p>
+          <p class="vb-intro">Die Leidenschaft der Vier ist der <strong>Neid</strong> – bei der sexuellen Vier als Konkurrenzneid, das Bedürfnis, an Intensität und Wirklichkeit stets weiter zu gehen als andere. Kritiker der Neo-Advaita-Bewegung, zu der Gangaji gezählt wird, verweisen darauf, dass Papaji selbst später Zweifel an der Legitimation mehrerer seiner westlichen Schüler geäußert haben soll – ein Hinweis darauf, wie schwer sich gerade in dieser Bewegung Tiefe von bloßer Bühnenintensität unterscheiden lässt, wenn keine traditionelle Lehrlinie die eigene Autorität absichert.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Das Vermächtnis: Der Chihuahua, der Sehnsucht zur Lehre machte</h2>
@@ -640,12 +640,12 @@ export function heinrichHeinePortraitPage() {
         <h2 class="vb-section">5. Licht und Schatten der sozialen Vier</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Im Licht verwandelte Heine seine eigene Erfahrung von Ausgrenzung und Sehnsucht in Lyrik, die bis heute zu den meistvertonten und meistübersetzten Gedichten der Weltliteratur zählt &ndash; universelle Sprache für ein zutiefst persönliches Gefühl des Nicht-dazu-Gehörens.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; bei Heine sichtbar in seiner lebenslangen Rivalität mit anderen Schriftstellern und in einer Verbitterung, die sich in scharfer, teils vernichtender Kritik an Zeitgenossen entlud. Diese Schärfe kostete ihn Freundschaften und machte ihn zeitlebens zu einer polarisierenden, oft angefeindeten Figur &ndash; die soziale Vier unter Druck: die Suche nach Zugehörigkeit kippt in eine Verbitterung darüber, dass die eigene Andersartigkeit nie vollständig anerkannt wird.</p>
+          <p class="vb-intro">Der Antrieb der Vier ist der <strong>Neid</strong> &ndash; bei Heine sichtbar in seiner lebenslangen Rivalität mit anderen Schriftstellern und in einer Verbitterung, die sich in scharfer, teils vernichtender Kritik an Zeitgenossen entlud. Diese Schärfe kostete ihn Freundschaften und machte ihn zeitlebens zu einer polarisierenden, oft angefeindeten Figur &ndash; die soziale Vier unter Druck: die Suche nach Zugehörigkeit kippt in eine Verbitterung darüber, dass die eigene Andersartigkeit nie vollständig anerkannt wird.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Das Gürteltier in der Matratzengruft</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Vier führt von der Frage <em>Werde ich endlich dazugehören, wenn die anderen sehen, wer ich wirklich bin?</em> zur Erkenntnis <em>Ich gehöre bereits dazu, unabhängig davon, ob die Gruppe es bestätigt.</em> Für die SO4w3 bedeutet das, die eigene Einzigartigkeit nicht länger als Beweis vor einem Publikum führen zu müssen.</p>
+          <p class="vb-intro">Der Entwicklungsweg der Vier führt von der Frage <em>Werde ich endlich dazugehören, wenn die anderen sehen, wer ich wirklich bin?</em> zur Erkenntnis <em>Ich gehöre bereits dazu, unabhängig davon, ob die Gruppe es bestätigt.</em> Für die SO4w3 bedeutet das, die eigene Einzigartigkeit nicht länger als Beweis vor einem Publikum führen zu müssen.</p>
           <p class="vb-intro">Ab 1848 war Heine durch eine fortschreitende, vermutlich syphilitische Lähmung ans Bett gefesselt &ndash; die letzten acht Jahre seines Lebens verbrachte er in dem, was er selbst seine "Matratzengruft" nannte, halb erblindet und von quälenden Schmerzen gezeichnet. Doch selbst dort verstummte der Dreierflügel nicht: Er empfing weiterhin Besucher, diktierte Gedichte und bewahrte seinen berühmten Witz bis zuletzt. Als seine Frau am Sterbebett für ihn betete, Gott möge ihm vergeben, soll er geantwortet haben: "Gott wird mir verzeihen &ndash; das ist sein Beruf." Heine starb am 17. Februar 1856 in Paris. Das Gürteltier, das zeitlebens zwischen zwei Welten stand, fand am Ende genau dort seine bleibendste Zugehörigkeit: in Versen, die noch heute in beiden Welten gesungen werden.</p>
         </blockquote>
 
@@ -702,7 +702,7 @@ export function hughWarwickPortraitPage() {
 
         <h2 class="vb-section">4. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX5w4 ist die Fähigkeit, <strong>eine private, fast obsessive Leidenschaft in eine öffentlich wirksame Schutzbewegung</strong> zu verwandeln &ndash; Warwicks Kampagne für gesetzlich verpflichtende "Igelautobahnen" in britischen Neubaugebieten sammelte eine Petition mit fast einer Million Unterschriften und internationale Aufmerksamkeit für ein Tier, das ohne solche Fürsprecher leicht übersehen wird.</p>
+          <p class="vb-intro">Die Stärke der SX5w4 ist die Fähigkeit, <strong>eine private, fast obsessive Leidenschaft in eine öffentlich wirksame Schutzbewegung</strong> zu verwandeln &ndash; Warwicks Kampagne für gesetzlich verpflichtende "Igelautobahnen" in britischen Neubaugebieten sammelte eine Petition mit fast einer Million Unterschriften und internationale Aufmerksamkeit für ein Tier, das ohne solche Fürsprecher leicht übersehen wird.</p>
           <p class="vb-intro">Der Schatten der sexuellen Fünf mit Viererflügel zeigt sich darin, wie eng die eigene Identität an ein einziges, sehr spezielles Thema gebunden werden kann &ndash; sein eigener Social-Media-Name "Hedgehog-Hugh" macht deutlich, wie vollständig der Igel seine öffentliche Person definiert. Eine derart exklusive Bindung trägt weit, aber sie lässt wenig Raum für ein Selbst jenseits dieser einen Leidenschaft.</p>
         </blockquote>
 
@@ -922,7 +922,7 @@ export function karlLagerfeldPortraitPage() {
 
         <h2 class="vb-section">6. Der Heilungsweg: wenn das Bild nicht mehr der Mensch ist</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Drei f\u00fchrt von der Identifikation mit dem Image zur Entdeckung des Selbst darunter. F\u00fcr Karl Lagerfeld war das ein lebenslanger Balanceakt &ndash; und es gibt Hinweise, dass er ihn zumindest ahnungsweise gegangen ist.</p>
+          <p class="vb-intro">Der Weg zur Heilung f\u00fchrt bei der Drei von der Identifikation mit dem Image zur Entdeckung des Selbst darunter. F\u00fcr Karl Lagerfeld war das ein lebenslanger Balanceakt &ndash; und es gibt Hinweise, dass er ihn zumindest ahnungsweise gegangen ist.</p>
           <p class="vb-intro">Er sprach selten \u00fcber Gef\u00fchle &ndash; aber wenn, dann mit einer Ehrlichkeit, die \u00fcberraschte. \u00dcber die Einsamkeit des Alterns. \u00dcber seine Bindung an Choupette, seine Katze, die er als sein liebstes Wesen bezeichnete und der er Teile seines Verm\u00f6gens hinterlie\u00df. Eine Katze braucht keine Leistung. Eine Katze liebt ohne Bedingung. Vielleicht war das der Ort, wo Karl Lagerfeld &ndash; der Mensch, nicht die Marke &ndash; sich kurz zeigen durfte.</p>
           <p class="vb-intro">Ein bewusster SO3w4er wei\u00df, dass sein Werk gr\u00f6\u00dfer ist als er &ndash; und dass er selbst gr\u00f6\u00dfer ist als sein Werk. Der Gepard, der inneh\u00e4lt und sein Spiegelbild betrachtet, ohne sofort weiterzusprinten &ndash; das ist die Energie, die hinter dem wei\u00dfen Pferdeschwanz und den dunklen Gl\u00e4sern immer gewartet hat.</p>
         </blockquote>
@@ -993,7 +993,7 @@ export function ladyDianaPortraitPage() {
         <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Vier</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SE4 ist ihre Empathie &ndash; die F\u00e4higkeit, den Schmerz anderer nicht nur zu verstehen, sondern wirklich zu f\u00fchlen. Diana hat an Krankenbetten gesessen, hat H\u00e4nde gehalten, hat geschaut und zugeh\u00f6rt, w\u00e4hrend andere wegsahen. Das ist kein Talent, das man lernt. Hier zeigt sich die SE4, die den eigenen Schmerz in Verbindung verwandelt: <em>Ich kenne das. Du bist nicht allein.</em></p>
-          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; nicht als Missgunst, sondern als das tiefe Gef\u00fchl, dass anderen etwas mitgegeben wurde, das einem selbst fehlt. Bei der SE4 \u00e4u\u00dfert sich das als das chronische Gef\u00fchl der Unvollst\u00e4ndigkeit: nie ganz richtig, nie ganz genug, immer etwas au\u00dfen vor. Diana hat dieses Gef\u00fchl während ihres ganzen Lebens beschrieben &ndash; das Gef\u00fchl, in einer Welt zu leben, die f\u00fcr andere gemacht war, nicht f\u00fcr sie.</p>
+          <p class="vb-intro">Die Leidenschaft der Vier ist der <strong>Neid</strong> &ndash; nicht als Missgunst, sondern als das tiefe Gef\u00fchl, dass anderen etwas mitgegeben wurde, das einem selbst fehlt. Bei der SE4 \u00e4u\u00dfert sich das als das chronische Gef\u00fchl der Unvollst\u00e4ndigkeit: nie ganz richtig, nie ganz genug, immer etwas au\u00dfen vor. Diana hat dieses Gef\u00fchl während ihres ganzen Lebens beschrieben &ndash; das Gef\u00fchl, in einer Welt zu leben, die f\u00fcr andere gemacht war, nicht f\u00fcr sie.</p>
           <p class="vb-intro">Der Dreierfl\u00fcgel bringt die Gefahr, den eigenen Wert an \u00e4u\u00dferer Wirksamkeit zu messen. Wenn der Applaus verstummt, wenn die Kameras wegschauen &ndash; wer ist die SE4w3 dann? Diese Frage hat Diana begleitet, gerade in den Jahren nach der Scheidung, als das Protokoll wegfiel und eine neue Identit\u00e4t gefunden werden musste.</p>
         </blockquote>
 
@@ -1055,14 +1055,14 @@ export function loiPortraitPage() {
 
         <h2 class="vb-section">3. Der Dreierflügel: Internationaler Erfolg mit „Gold"</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus dieser soliden Basis heraus sichtbaren, öffentlichkeitswirksamen Erfolg zu suchen. 2022 erreichte Lois Single <em>Gold</em> Goldstatus in Frankreich und Polen und erklomm in Polen Platz zwei der Charts – ein internationaler Erfolg, der weit über ihre deutsche Heimatbasis hinausreichte.</p>
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> schenkt der selbsterhaltenden Zwei den Antrieb, aus dieser soliden Basis heraus sichtbaren, öffentlichkeitswirksamen Erfolg zu suchen. 2022 erreichte Lois Single <em>Gold</em> Goldstatus in Frankreich und Polen und erklomm in Polen Platz zwei der Charts – ein internationaler Erfolg, der weit über ihre deutsche Heimatbasis hinausreichte.</p>
           <p class="vb-intro">Bezeichnend ist dabei der Songtitel selbst: <em>Gold</em> als sichtbares, messbares Erfolgssymbol, erreicht durch dieselbe junge Künstlerin, die Jahre zuvor noch geduldig an Gitarre und Klavier übte – der Dreierflügel übersetzt die frühe, private Basis in einen international messbaren Erfolg.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SE2w3 liegt in der Fähigkeit, aus einer frühen, geduldig aufgebauten musikalischen Basis heraus internationalen Erfolg zu erreichen, ohne die eigene Handschrift als Gitarre und Klavier spielende Songwriterin zu verlieren.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, für den eigenen Erfolg durch die eigene Leistung unentbehrlich zu sein. Bei der SE2w3 kann sich das mit dem Bedürfnis verbinden, den einmal erreichten Erfolg – wie den mit <em>Gold</em> – kontinuierlich zu bestätigen, statt sich auf dem einen Hit auszuruhen.</p>
+          <p class="vb-intro">Der Antrieb der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, für den eigenen Erfolg durch die eigene Leistung unentbehrlich zu sein. Bei der SE2w3 kann sich das mit dem Bedürfnis verbinden, den einmal erreichten Erfolg – wie den mit <em>Gold</em> – kontinuierlich zu bestätigen, statt sich auf dem einen Hit auszuruhen.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Das Werk: Von „Leonie Löwenherz" zu internationalen Charts</h2>
@@ -1127,7 +1127,7 @@ export function marieAntoinettePortraitPage() {
         <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Zwei</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SE2w3 liegt in der Fähigkeit, aus einer erzwungenen, fremdbestimmten Existenz einen eigenen, unverwechselbaren Stil zu formen &ndash; Marie Antoinettes Einfluss auf Mode, Innenarchitektur und höfische Ästhetik wirkt bis heute nach. Ihre Fürsorge für ihre Kinder und engsten Vertrauten war echt und tief, kein bloßes Blendwerk.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, für das eigene Umfeld unentbehrlich und über Kritik erhaben zu sein. Marie Antoinette unterschätzte über Jahre hinweg, wie sehr ihr aufwendiges Erscheinungsbild in einer Zeit wachsender Armut und Staatsverschuldung als Provokation wahrgenommen wurde. Der Dreierflügel, der ihr half, sich am Hof zu behaupten, isolierte sie zugleich von der Realität außerhalb der glänzenden Oberfläche, die sie sich geschaffen hatte.</p>
+          <p class="vb-intro">Der Antrieb der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, für das eigene Umfeld unentbehrlich und über Kritik erhaben zu sein. Marie Antoinette unterschätzte über Jahre hinweg, wie sehr ihr aufwendiges Erscheinungsbild in einer Zeit wachsender Armut und Staatsverschuldung als Provokation wahrgenommen wurde. Der Dreierflügel, der ihr half, sich am Hof zu behaupten, isolierte sie zugleich von der Realität außerhalb der glänzenden Oberfläche, die sie sich geschaffen hatte.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Das Flusspferd, das seinen Schutzfilm verlor</h2>
@@ -1193,7 +1193,7 @@ export function michaelSchumacherPortraitPage() {
         <h2 class="vb-section">5. Licht und Schatten der Selbsterhaltungs-Eins</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Im Licht zeigt sich bei Schumacher eine über Jahrzehnte durchgehaltene, nie nachlassende Pflichtauffassung: Er hat Ferrari aus einer langjährigen Erfolglosigkeit in eine Ära der Dominanz geführt und die Messlatte für Vorbereitung, Analyse und Teamarbeit in der Formel 1 dauerhaft angehoben.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Eins ist der <strong>Zorn</strong> – bei der SE1w9 meist gedämpft und nach innen gerichtet, aber keineswegs verschwunden, wenn das eigene Gerechtigkeitsempfinden verletzt wird. 1994 in Adelaide kollidierte Schumacher mit Damon Hill in einem bis heute umstrittenen Manöver; 1997 in Jerez steuerte er seinen Wagen absichtlich in Jacques Villeneuve und wurde dafür aus der Weltmeisterschaftswertung gestrichen. Beide Vorfälle folgten auf WM-Konstellationen, in denen Schumacher sich im Recht und im Rückstand zugleich sah – der seltene, aber umso heftigere Ausbruch des sonst so kontrollierten Einser-Zorns, wenn die eigene, als gerecht empfundene Position bedroht scheint.</p>
+          <p class="vb-intro">Der Antrieb der Eins ist der <strong>Zorn</strong> – bei der SE1w9 meist gedämpft und nach innen gerichtet, aber keineswegs verschwunden, wenn das eigene Gerechtigkeitsempfinden verletzt wird. 1994 in Adelaide kollidierte Schumacher mit Damon Hill in einem bis heute umstrittenen Manöver; 1997 in Jerez steuerte er seinen Wagen absichtlich in Jacques Villeneuve und wurde dafür aus der Weltmeisterschaftswertung gestrichen. Beide Vorfälle folgten auf WM-Konstellationen, in denen Schumacher sich im Recht und im Rückstand zugleich sah – der seltene, aber umso heftigere Ausbruch des sonst so kontrollierten Einser-Zorns, wenn die eigene, als gerecht empfundene Position bedroht scheint.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der Adler, der schweigt</h2>
@@ -1337,13 +1337,13 @@ export function paulMccartneyPortraitPage() {
         <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Vier</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SE4 ist ihre F\u00e4higkeit, aus tiefem pers\u00f6nlichem Erleben etwas zu schaffen, das tr\u00e4gt, ohne zu belasten. McCartneys Songs begleiten Hochzeiten, Beerdigungen, Abschiede und Neuanf\u00e4nge von Menschen, die seine private Geschichte nie kennen werden &ndash; genau, weil der Schmerz darin so verwandelt wurde, dass er zu jedem Schmerz passt.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; das tiefe Gef\u00fchl, dass anderen etwas mitgegeben wurde, das einem selbst fehlt. Bei McCartney zeigte sich dieses Muster lange im Schatten Lennons: In der \u00f6ffentlichen Wahrnehmung galt Lennon jahrzehntelang als der &bdquo;ernsthafte&ldquo;, &bdquo;authentische&ldquo; Beatle, McCartney oft als der leichtgewichtige Sentimentalist &ndash; eine Einsch\u00e4tzung, die McCartney selbst nie ganz gleichg\u00fcltig lie\u00df, wie sp\u00e4tere Interviews zeigten, in denen er beharrlich seinen eigenen Anteil am gemeinsamen Werk verteidigte.</p>
+          <p class="vb-intro">Das Kernmuster der Vier ist der <strong>Neid</strong> &ndash; das tiefe Gef\u00fchl, dass anderen etwas mitgegeben wurde, das einem selbst fehlt. Bei McCartney zeigte sich dieses Muster lange im Schatten Lennons: In der \u00f6ffentlichen Wahrnehmung galt Lennon jahrzehntelang als der &bdquo;ernsthafte&ldquo;, &bdquo;authentische&ldquo; Beatle, McCartney oft als der leichtgewichtige Sentimentalist &ndash; eine Einsch\u00e4tzung, die McCartney selbst nie ganz gleichg\u00fcltig lie\u00df, wie sp\u00e4tere Interviews zeigten, in denen er beharrlich seinen eigenen Anteil am gemeinsamen Werk verteidigte.</p>
           <p class="vb-intro">Der F\u00fcnferfl\u00fcgel bringt die Gefahr des R\u00fcckzugs bis zur Unnahbarkeit: McCartney gilt als notorisch schwer zu interviewen, wenn es um wirklich Pers\u00f6nliches geht &ndash; h\u00f6flich, kontrolliert, ausweichend. Seine zweite Ehe mit Heather Mills, \u00f6ffentlich und schmerzhaft gescheitert, brachte private Details in eine \u00d6ffentlichkeit, die er zeitlebens gemieden hatte &ndash; eine Erfahrung, die ihn danach noch vorsichtiger machte.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der Heilungsweg: Vom Verbergen zum Weitergeben</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Vier f\u00fchrt von der Frage <em>Warum fehlt mir, was andere haben?</em> zur Erkenntnis <em>Was ich bin, ist genug &ndash; und es ist einmalig.</em> F\u00fcr die SE4w5 bedeutet das, das eigene Innenleben nicht l\u00e4nger ausschlie\u00dflich durch die Distanz der Kunstform mitzuteilen, sondern auch direkter zug\u00e4nglich zu werden.</p>
+          <p class="vb-intro">Für die Vier f\u00fchrt der Heilungsweg von der Frage <em>Warum fehlt mir, was andere haben?</em> zur Erkenntnis <em>Was ich bin, ist genug &ndash; und es ist einmalig.</em> F\u00fcr die SE4w5 bedeutet das, das eigene Innenleben nicht l\u00e4nger ausschlie\u00dflich durch die Distanz der Kunstform mitzuteilen, sondern auch direkter zug\u00e4nglich zu werden.</p>
           <p class="vb-intro">In den letzten Jahrzehnten zeigt McCartney genau diese Bewegung: offenere Interviews \u00fcber Trauer, Alter und Verletzlichkeit, die Dokumentation &bdquo;McCartney 3,2,1&ldquo;, in der er erstmals ausf\u00fchrlich \u00fcber seinen kreativen Prozess und seine Beziehung zu Lennon spricht, seine dritte, sehr private und stabile Ehe mit Nancy Shevell. Die Taube, die gelernt hat, dass eine Botschaft nicht nur getragen, sondern manchmal auch einfach ausgesprochen werden darf.</p>
         </blockquote>
 
@@ -1481,13 +1481,13 @@ export function shakiraPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX7w8 ist ihre F\u00e4higkeit, kulturelle Grenzen m\u00fchelos zu \u00fcberschreiten und dabei ganz sie selbst zu bleiben &ndash; Shakira verbindet Genres, Sprachen und Kontinente, ohne ihre Wurzeln zu verleugnen. Ihre Musik ist ein Fest der Vielfalt, getragen von echter, k\u00f6rperlicher Freude.</p>
+          <p class="vb-intro">Die Stärke der SX7w8 ist ihre F\u00e4higkeit, kulturelle Grenzen m\u00fchelos zu \u00fcberschreiten und dabei ganz sie selbst zu bleiben &ndash; Shakira verbindet Genres, Sprachen und Kontinente, ohne ihre Wurzeln zu verleugnen. Ihre Musik ist ein Fest der Vielfalt, getragen von echter, k\u00f6rperlicher Freude.</p>
           <p class="vb-intro">Der Schatten zeigt sich in der \u00fcber elfj\u00e4hrigen Beziehung zu Gerard Piqu\u00e9, die 2022 \u00f6ffentlich und schmerzhaft zerbrach, nachdem Untreue bekannt wurde &ndash; ein Trennungsschmerz, den Shakira in \u201eMusic Sessions #53" und \u201eBzrp Music Sessions" mit einer Direktheit verarbeitete, die viele \u00fcberraschte. Die sexuelle Sieben mit Achterfl\u00fcgel kann Verletzung selten still ertragen; sie muss sie in Intensit\u00e4t verwandeln, oft \u00f6ffentlich, oft kompromisslos.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der Heilungsweg: Der Schmerz, der zum Tanz wird</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Sieben f\u00fchrt von der Zerstreuung zur N\u00fcchternheit &ndash; von der st\u00e4ndigen Flucht in die n\u00e4chste Intensit\u00e4t zur F\u00e4higkeit, auch im Schmerz pr\u00e4sent zu bleiben, ohne ihn zu bet\u00e4uben. F\u00fcr die SX7w8 bedeutet das, die eigene Durchsetzungskraft nicht nur zur Selbstverteidigung zu nutzen, sondern in echten kreativen Ausdruck zu verwandeln.</p>
+          <p class="vb-intro">Für die Sieben f\u00fchrt der Heilungsweg von der Zerstreuung zur N\u00fcchternheit &ndash; von der st\u00e4ndigen Flucht in die n\u00e4chste Intensit\u00e4t zur F\u00e4higkeit, auch im Schmerz pr\u00e4sent zu bleiben, ohne ihn zu bet\u00e4uben. F\u00fcr die SX7w8 bedeutet das, die eigene Durchsetzungskraft nicht nur zur Selbstverteidigung zu nutzen, sondern in echten kreativen Ausdruck zu verwandeln.</p>
           <p class="vb-intro">Nach der Trennung von Piqu\u00e9 verarbeitete Shakira ihren Schmerz nicht durch R\u00fcckzug, sondern durch eines der offensten Alben ihrer Karriere, \u201eLas Mujeres Ya No Lloran" (2024) &ndash; ein Titel, der \u00fcbersetzt bedeutet: \u201eFrauen weinen nicht mehr". Der Schimpanse, der sein ganzes Leben lang Intensit\u00e4t gesucht hat, findet hier den reifsten Ausdruck dieser Gabe: Er verwandelt das, was ihn zerbrechen k\u00f6nnte, direkt vor aller Augen in Rhythmus, in Bewegung, in Kraft, die andere mitrei\u00dft.</p>
         </blockquote>
 
@@ -1730,7 +1730,7 @@ export function markusLanzPortraitPage() {
 
         <h2 class="vb-section">3. Der Neunerflügel: Beharrlichkeit ohne Lautstärke</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der sozialen Eins eine gedämpfte, undramatische Note &ndash; die Überzeugung bleibt unerschütterlich, wird aber selten explosiv nach außen getragen. Lanz' Stil ist nie lautstark oder konfrontativ im klassischen Sinn: Er hebt selten die Stimme, wird nicht polemisch, sondern wiederholt ruhig und beharrlich dieselbe präzise Frage, bis eine tatsächliche Antwort erfolgt &ndash; eine Zähigkeit, die von Gästen oft als anstrengender empfunden wird als offene Konfrontation.</p>
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> verleiht der sozialen Eins eine gedämpfte, undramatische Note &ndash; die Überzeugung bleibt unerschütterlich, wird aber selten explosiv nach außen getragen. Lanz' Stil ist nie lautstark oder konfrontativ im klassischen Sinn: Er hebt selten die Stimme, wird nicht polemisch, sondern wiederholt ruhig und beharrlich dieselbe präzise Frage, bis eine tatsächliche Antwort erfolgt &ndash; eine Zähigkeit, die von Gästen oft als anstrengender empfunden wird als offene Konfrontation.</p>
           <p class="vb-intro">Diese undramatische Beharrlichkeit zeigt sich auch in seiner zusätzlichen Rolle als Co-Moderator des wöchentlichen Gesprächsformats "Lanz & Precht" mit dem Philosophen Richard David Precht (SO1w9) &ndash; ein ruhiges, formatübergreifendes Gesprächsangebot, das Komplexität nicht scheut, ohne auf Zuspitzung um ihrer selbst willen zu setzen.</p>
         </blockquote>
 
@@ -1820,7 +1820,7 @@ export function heleneFischerPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX3w2 zeigt sich bei Fischer in der Fähigkeit, überwältigende Bühnenwirkung mit echter Hingabe an ihr Publikum zu verbinden – die Show ist nicht bloß Blendwerk, sondern ein Geschenk an die Menschen, die sich einen Abend voller Nähe und Emotion wünschen.</p>
+          <p class="vb-intro">Was die SX3w2 auszeichnet, zeigt sich bei Fischer in der Fähigkeit, überwältigende Bühnenwirkung mit echter Hingabe an ihr Publikum zu verbinden – die Show ist nicht bloß Blendwerk, sondern ein Geschenk an die Menschen, die sich einen Abend voller Nähe und Emotion wünschen.</p>
           <p class="vb-intro">Der Schatten der Drei liegt in der Unfähigkeit, Kontrolle abzugeben, und in der Bereitschaft, die eigene körperliche Sicherheit dem Anspruch an die perfekte Darbietung unterzuordnen. Der Zweierflügel mildert diese Härte gegen sich selbst zwar durch emotionale Offenheit gegenüber Fans und Familie, verhindert aber nicht, dass sie sich selbst am härtesten von allen behandelt.</p>
         </blockquote>
 
@@ -1880,7 +1880,7 @@ export function dieterLangePortraitPage() {
 
         <h2 class="vb-section">3. Der Neunerflügel: Die integrierende Ruhe</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der selbsterhaltenden Eins die Fähigkeit, verschiedene Perspektiven ruhig zusammenzuführen, statt sie gegeneinander auszuspielen. Genau diese Gabe beschreiben Weggefährten bei Lange immer wieder: seine Stärke liege darin, östliche Weisheit mit westlicher Wissenschaft zu verbinden, statt eine gegen die andere auszuspielen &ndash; ein integrierendes, in sich ruhendes Denken statt eines konfrontativen.</p>
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> verleiht der selbsterhaltenden Eins die Fähigkeit, verschiedene Perspektiven ruhig zusammenzuführen, statt sie gegeneinander auszuspielen. Genau diese Gabe beschreiben Weggefährten bei Lange immer wieder: seine Stärke liege darin, östliche Weisheit mit westlicher Wissenschaft zu verbinden, statt eine gegen die andere auszuspielen &ndash; ein integrierendes, in sich ruhendes Denken statt eines konfrontativen.</p>
           <p class="vb-intro">Sein daraus entwickeltes Bewusstseinstrainings-Konzept, die TETA-Seminarreihe (Selbstführung, Lebensziele, Kommunikation und Führungskultur) sowie die „Nordstern Lebensschule", zeigt dieselbe neunertypische Fähigkeit zur Synthese: Persönlichkeitsentwicklung wird nicht als Bruch mit dem Bisherigen inszeniert, sondern als geordnete, in sich stimmige Weiterentwicklung.</p>
         </blockquote>
 
@@ -1957,7 +1957,7 @@ export function juergenKlinsmannPortraitPage() {
         <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Eins</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SE1w9 zeigt sich in Klinsmanns Fähigkeit, gegen etablierten Widerstand an einer selbst erprobten, höheren Professionalität festzuhalten, bis sich der Erfolg einstellte – eine Reform, die den deutschen Fußball strukturell über seine eigene Amtszeit hinaus prägte, obwohl er selbst die eingefahrene Kritik zunächst allein aushalten musste.</p>
-          <p class="vb-intro">Der Schatten zeigt sich in mehreren späteren Stationen, in denen derselbe hohe Eigenanspruch ohne die stabilisierende Wirkung eines vollständig überzeugten Umfelds zu Konflikten führte: die Entlassung bei Bayern München 2009 nach internen Spannungen, der abrupte Rücktritt bei Hertha BSC 2020 per Facebook-Post statt im direkten Gespräch, und die heftige öffentliche Kritik an seiner Amtszeit als südkoreanischer Nationaltrainer 2023/24, während der er weiterhin von Kalifornien aus pendelte, statt vor Ort zu leben. Der Adler, der aus der Distanz klar sieht, verliert mitunter den Kontakt zum Boden, auf dem andere täglich stehen.</p>
+          <p class="vb-intro">Als Schatten zeigt sich in mehreren späteren Stationen, in denen derselbe hohe Eigenanspruch ohne die stabilisierende Wirkung eines vollständig überzeugten Umfelds zu Konflikten führte: die Entlassung bei Bayern München 2009 nach internen Spannungen, der abrupte Rücktritt bei Hertha BSC 2020 per Facebook-Post statt im direkten Gespräch, und die heftige öffentliche Kritik an seiner Amtszeit als südkoreanischer Nationaltrainer 2023/24, während der er weiterhin von Kalifornien aus pendelte, statt vor Ort zu leben. Der Adler, der aus der Distanz klar sieht, verliert mitunter den Kontakt zum Boden, auf dem andere täglich stehen.</p>
         </blockquote>
 
       </div>
@@ -2017,7 +2017,7 @@ export function carloAncelottiPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten der sozialen Neun mit Achterflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO9w8 zeigt sich bei Ancelotti in seiner fast einzigartigen Fähigkeit, extrem unterschiedliche Star-Persönlichkeiten in einer Mannschaft zu bündeln, ohne sich selbst über sie zu erheben – Erfolg entsteht bei ihm aus Zugehörigkeit, nicht aus Dominanz.</p>
+          <p class="vb-intro">Das Beste an der SO9w8 zeigt sich bei Ancelotti in seiner fast einzigartigen Fähigkeit, extrem unterschiedliche Star-Persönlichkeiten in einer Mannschaft zu bündeln, ohne sich selbst über sie zu erheben – Erfolg entsteht bei ihm aus Zugehörigkeit, nicht aus Dominanz.</p>
           <p class="vb-intro">Der Schatten der Neun zeigt sich in der langen Verzögerung, mit der berechtigte Kritik überhaupt ausgesprochen wird – erst Jahre nach der Bayern-Entlassung fand er die deutlichen Worte dafür. Diese Zurückhaltung schützt kurzfristig die Harmonie, verhindert aber, dass echte Konflikte zeitnah benannt und bearbeitet werden.</p>
         </blockquote>
 
@@ -2071,14 +2071,14 @@ export function usainBoltPortraitPage() {
 
         <h2 class="vb-section">3. Der Dreierflügel: Der schnellste Mensch als globale Marke</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sozialen Zwei den Antrieb zur sichtbaren, messbaren Leistung. Bei Bolt äußerte sich das in einer beispiellosen Karriere aus Rekorden und Inszenierung zugleich: acht olympische Goldmedaillen (Peking 2008, London 2012, Rio 2016), Weltrekorde über 100 und 200 Meter, die bis heute Bestand haben, und ein globales Markenimage, das weit über den Sport hinausreichte – mit Puma als langjährigem Partner und der „To Di World"-Pose (auch „Lightning Bolt" genannt) als weltweit erkennbarem Erkennungszeichen.</p>
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> verleiht der sozialen Zwei den Antrieb zur sichtbaren, messbaren Leistung. Bei Bolt äußerte sich das in einer beispiellosen Karriere aus Rekorden und Inszenierung zugleich: acht olympische Goldmedaillen (Peking 2008, London 2012, Rio 2016), Weltrekorde über 100 und 200 Meter, die bis heute Bestand haben, und ein globales Markenimage, das weit über den Sport hinausreichte – mit Puma als langjährigem Partner und der „To Di World"-Pose (auch „Lightning Bolt" genannt) als weltweit erkennbarem Erkennungszeichen.</p>
           <p class="vb-intro">Selbst beim 100-Meter-Finale 2008 in Peking verlangsamte er sein Tempo Meter vor dem Ziel bereits, um zu feiern, statt den letzten Schritt noch auf reine Zeit zu optimieren – ein Verhalten, das Kritiker als Leichtsinn werteten, das aber genau die SO2w3-Logik zeigt: Der Moment der öffentlichen Bestätigung, das gemeinsame Feiern mit dem Publikum, wog in diesem Augenblick schwerer als der letzte Hundertstel einer noch schnelleren Zeit.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Licht und Schatten der sozialen Zwei</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO2w3 zeigt sich in Bolts Fähigkeit, sportliche Höchstleistung mit echter Lebensfreude zu verbinden – seine Ausstrahlung machte die Leichtathletik einem Millionenpublikum zugänglich, das sich sonst kaum für die Sportart interessiert hätte.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> – die Überzeugung, unentbehrlich für die eigene Nation und den gesamten Sport zu sein. Bei Bolt zeigte sich das in seinem jahrelangen, öffentlich verfolgten Bemühen, auch nach dem Karriereende als Fußballer, Musiker und Unternehmer relevant zu bleiben – Probetrainings bei Fußballclubs, ein eigenes Musiklabel, zahlreiche Geschäftsprojekte in Jamaika –, als reiche der sportliche Ruhm allein nicht aus, um das Bedürfnis nach fortwährender öffentlicher Bestätigung zu stillen.</p>
+          <p class="vb-intro">Die Stärke der SO2w3 zeigt sich in Bolts Fähigkeit, sportliche Höchstleistung mit echter Lebensfreude zu verbinden – seine Ausstrahlung machte die Leichtathletik einem Millionenpublikum zugänglich, das sich sonst kaum für die Sportart interessiert hätte.</p>
+          <p class="vb-intro">Das Kernmuster der Zwei ist der <strong>Stolz</strong> – die Überzeugung, unentbehrlich für die eigene Nation und den gesamten Sport zu sein. Bei Bolt zeigte sich das in seinem jahrelangen, öffentlich verfolgten Bemühen, auch nach dem Karriereende als Fußballer, Musiker und Unternehmer relevant zu bleiben – Probetrainings bei Fußballclubs, ein eigenes Musiklabel, zahlreiche Geschäftsprojekte in Jamaika –, als reiche der sportliche Ruhm allein nicht aus, um das Bedürfnis nach fortwährender öffentlicher Bestätigung zu stillen.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Der Schatten hinter dem strahlenden Bild</h2>
@@ -2347,7 +2347,7 @@ export function vincenzoCalifanoPortraitPage() {
 
         <h2 class="vb-section">3. Der Zweierflügel: Begleitung als eigentlicher Antrieb</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der sozialen Drei den echten Impuls zur persönlichen Zuwendung. Califano beschreibt sein heutiges Wirken explizit in dieser Sprache: „Ich begleite Menschen, die an einem ähnlichen Punkt stehen… Ich öffne einen Raum." Das ist kein distanziertes Vortragen abstrakter Konzepte, sondern eine bewusst persönlich gehaltene Begleitung – verstärkt durch regelmäßige Live-Chats und Frage-Antwort-Formate, in denen er direkt auf einzelne Menschen und ihre konkreten Fragen eingeht.</p>
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der sozialen Drei den echten Impuls zur persönlichen Zuwendung. Califano beschreibt sein heutiges Wirken explizit in dieser Sprache: „Ich begleite Menschen, die an einem ähnlichen Punkt stehen… Ich öffne einen Raum." Das ist kein distanziertes Vortragen abstrakter Konzepte, sondern eine bewusst persönlich gehaltene Begleitung – verstärkt durch regelmäßige Live-Chats und Frage-Antwort-Formate, in denen er direkt auf einzelne Menschen und ihre konkreten Fragen eingeht.</p>
           <p class="vb-intro">Dieselbe Zugewandtheit erklärt, warum er in der deutschsprachigen Szene der nichtdualistischen Lehrer neben etablierten Namen wie Gangaji, Mooji oder Byron Katie geführt wird, obwohl sein Wirkungskreis deutlich kleiner ist: Nicht die Reichweite macht den Unterschied, sondern die spürbare, direkte Zuwendung zum Einzelnen in einem eigens dafür geöffneten Raum.</p>
         </blockquote>
 
@@ -2359,13 +2359,13 @@ export function vincenzoCalifanoPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten der sozialen Drei mit Zweierflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO3w2 zeigt sich darin, dass Califano komplexe, oft unzugänglich formulierte nichtduale Lehren in ein konkretes, verlässliches Angebot verwandelt, das Menschen tatsächlich erreichen und nutzen können – Struktur im Dienst echter Zuwendung, nicht als Selbstzweck.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Drei ist <strong>Eitelkeit / Täuschung</strong> – bei der sozialen Drei zeigt es sich im Anspruch, in der Szene als Lehrer anerkannt zu sein: Die Botschaft „Es gibt nichts zu finden, niemanden, der ankommen müsste" wird selbst zu einem vermarktbaren, kostenpflichtigen Produkt – Einzelsitzungen, eine Mitgliedschaft, ticketpflichtige Tagesevents. Diese Spannung zwischen radikaler Botschaft der Nicht-Notwendigkeit und einer klar strukturierten Geschäftstätigkeit rund um genau diese Botschaft ist kein Einzelfall in dieser Szene, verdient bei Califano aber besondere Aufmerksamkeit, weil sie so unverkennbar unternehmerisch organisiert ist.</p>
+          <p class="vb-intro">Die Stärke der SO3w2 zeigt sich darin, dass Califano komplexe, oft unzugänglich formulierte nichtduale Lehren in ein konkretes, verlässliches Angebot verwandelt, das Menschen tatsächlich erreichen und nutzen können – Struktur im Dienst echter Zuwendung, nicht als Selbstzweck.</p>
+          <p class="vb-intro">Im Zentrum der Drei steht <strong>Eitelkeit / Täuschung</strong> – bei der sozialen Drei zeigt es sich im Anspruch, in der Szene als Lehrer anerkannt zu sein: Die Botschaft „Es gibt nichts zu finden, niemanden, der ankommen müsste" wird selbst zu einem vermarktbaren, kostenpflichtigen Produkt – Einzelsitzungen, eine Mitgliedschaft, ticketpflichtige Tagesevents. Diese Spannung zwischen radikaler Botschaft der Nicht-Notwendigkeit und einer klar strukturierten Geschäftstätigkeit rund um genau diese Botschaft ist kein Einzelfall in dieser Szene, verdient bei Califano aber besondere Aufmerksamkeit, weil sie so unverkennbar unternehmerisch organisiert ist.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der Heilungsweg: Vom Aufbauen zum Sein</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Was habe ich geleistet?</em> zur Erkenntnis <em>Ich bin – jenseits aller Leistung.</em> Califano lehrt genau das als Kern seiner eigenen Botschaft: „Es geht nicht darum, ein besseres Leben zu erschaffen. Es geht darum, zu erkennen, was schon vollständig ist." Bemerkenswert ist, dass er selbst formuliert, die Identifikation mit der Suche sei das eigentliche Hindernis gewesen – eine sehr direkte, fast wörtliche Beschreibung dessen, was der Heilungsweg der Drei von der Leistungsfixierung wegführen soll.</p>
+          <p class="vb-intro">Für die Drei führt der Heilungsweg von der Frage <em>Was habe ich geleistet?</em> zur Erkenntnis <em>Ich bin – jenseits aller Leistung.</em> Califano lehrt genau das als Kern seiner eigenen Botschaft: „Es geht nicht darum, ein besseres Leben zu erschaffen. Es geht darum, zu erkennen, was schon vollständig ist." Bemerkenswert ist, dass er selbst formuliert, die Identifikation mit der Suche sei das eigentliche Hindernis gewesen – eine sehr direkte, fast wörtliche Beschreibung dessen, was der Heilungsweg der Drei von der Leistungsfixierung wegführen soll.</p>
           <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-sadhguru">Sadhguru</a> (SE3w2), der denselben Zweierflügel in einem anderen Subtyp lebt: Bei ihm steht der Aufbau einer spirituellen Institution im Vordergrund, bei Califano das Ansehen in der Gemeinschaft der Suchenden. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-sadhguru">Porträt zu Sadhguru</a>. Im selben Subtyp zeigt <a href="javascript:void(0)" data-route="beruehmte-christiane-hoerbiger">Christiane Hörbiger (SO3w2)</a> die gleiche Zugewandtheit, die ein breites Publikum erreicht.</p>
         </blockquote>
 
@@ -2426,7 +2426,7 @@ export function madisonChockPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Zwei mit Dreierflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE2w3 zeigt sich darin, Fürsorge und Wettbewerb nicht als Gegensätze zu behandeln: Chock hilft ihrer eigenen Konkurrenz zu besserer Performance, statt einen Vorteil eifersüchtig zu hüten – eine seltene Haltung im Hochleistungssport.</p>
+          <p class="vb-intro">Was die SE2w3 auszeichnet, zeigt sich darin, Fürsorge und Wettbewerb nicht als Gegensätze zu behandeln: Chock hilft ihrer eigenen Konkurrenz zu besserer Performance, statt einen Vorteil eifersüchtig zu hüten – eine seltene Haltung im Hochleistungssport.</p>
           <p class="vb-intro">Die Leidenschaft der Zwei ist <strong>Stolz</strong> – bei der SE2w3 äußert er sich als Stolz auf die eigene, ganz konkrete Nützlichkeit für andere. Ein psychologischer Studienabschluss und ihr offenes Eintreten für psychische Gesundheit im Spitzensport zeigen, wie diese Nützlichkeit über das rein Sportliche hinausreicht: Chock versteht die eigene Fürsorge nicht als Selbstaufopferung, sondern als bewusst gepflegte Ressource, die Therapie und emotionale Widerstandsfähigkeit ausdrücklich einschließt – ein Gegengewicht zu jener Erschöpfung, die entsteht, wenn Fürsorge für andere die Sorge um sich selbst verdrängt.</p>
         </blockquote>
 
@@ -2495,8 +2495,8 @@ export function rikuMiuraPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten der sozialen Zwei</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO2w3 zeigt sich in Miuras Fähigkeit, eine ganze Sportart-Wahrnehmung in ihrem Heimatland zu verschieben: Durch ihren und Kiharas Erfolg gilt Paarlauf in Japan heute als ernstzunehmende, förderungswürdige Disziplin – ein kollektiver Effekt, der weit über die eigene sportliche Karriere hinausreicht.</p>
-          <p class="vb-intro">Der Schatten liegt in der radikalen Abhängigkeit, die diese Erfolgsform mit sich bringt: Anders als eine Einzelläuferin ist Miuras gesamte Karriere untrennbar an eine einzige Partnerschaft gebunden – verändert sich diese Bindung, verändert sich augenblicklich die gesamte sportliche Existenz. Die soziale Zwei investiert ihr Selbstverständnis so vollständig in eine tragende Beziehung, dass ihr Fundament ohne diese eine Verbindung fehlen würde.</p>
+          <p class="vb-intro">Die Stärke der SO2w3 zeigt sich in Miuras Fähigkeit, eine ganze Sportart-Wahrnehmung in ihrem Heimatland zu verschieben: Durch ihren und Kiharas Erfolg gilt Paarlauf in Japan heute als ernstzunehmende, förderungswürdige Disziplin – ein kollektiver Effekt, der weit über die eigene sportliche Karriere hinausreicht.</p>
+          <p class="vb-intro">Die Schattenseite liegt in der radikalen Abhängigkeit, die diese Erfolgsform mit sich bringt: Anders als eine Einzelläuferin ist Miuras gesamte Karriere untrennbar an eine einzige Partnerschaft gebunden – verändert sich diese Bindung, verändert sich augenblicklich die gesamte sportliche Existenz. Die soziale Zwei investiert ihr Selbstverständnis so vollständig in eine tragende Beziehung, dass ihr Fundament ohne diese eine Verbindung fehlen würde.</p>
         </blockquote>
 
       </div>
@@ -2543,7 +2543,7 @@ export function katharinaDieGrossePortraitPage() {
 
         <h2 class="vb-section">3. Der Zweierflügel: Macht durch anhaltende persönliche Nähe</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der sozialen Drei eine warme, beziehungsorientierte Note – Anerkennung wird nicht durch kühle Distanz gesichert, sondern durch persönliche Zuwendung und dauerhafte Bindung. Katharinas mehr als zwanzig dokumentierte Liebhaber waren weit mehr als romantische Episoden: Über Grigori Orlow etwa erhielt sie beim Putsch 1762 die entscheidende Anbindung ans Militär – eine strategische Allianz, verbunden mit echter, langjähriger persönlicher Nähe.</p>
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> schenkt der sozialen Drei eine warme, beziehungsorientierte Note – Anerkennung wird nicht durch kühle Distanz gesichert, sondern durch persönliche Zuwendung und dauerhafte Bindung. Katharinas mehr als zwanzig dokumentierte Liebhaber waren weit mehr als romantische Episoden: Über Grigori Orlow etwa erhielt sie beim Putsch 1762 die entscheidende Anbindung ans Militär – eine strategische Allianz, verbunden mit echter, langjähriger persönlicher Nähe.</p>
           <p class="vb-intro">Bezeichnend ist, wie sie mit ihren früheren Liebhabern umging: Keiner von ihnen wurde nach der Trennung verfolgt oder benachteiligt, die meisten erhielten großzügige Geschenke und blieben oft weiterhin einflussreich. Grigori Potjomkin etwa blieb bis zu seinem Tod 1791 engster politischer Vertrauter und de facto Mitregent, weit über das Ende ihrer romantischen Beziehung hinaus. Die SO3w2 sucht Bestätigung nicht in distanzierter Autorität, sondern im direkten, dauerhaften persönlichen Band zu jenen, die sie um sich versammelt.</p>
         </blockquote>
 
@@ -2679,7 +2679,7 @@ export function adaLovelacePortraitPage() {
 
         <h2 class="vb-section">3. Der Sechserflügel: Mentoren, Loyalität und die Mutter</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der Sieben Loyalität gegenüber Menschen, denen sie vertraut, und ein Bedürfnis nach Rückhalt. Ada suchte Mentoren: Somerville, De Morgan und vor allem Babbage. Gegenüber der Mutter blieb sie ein Leben lang in einem Spannungsverhältnis aus Auflehnung und Abhängigkeit. In den letzten Monaten ihrer Krebserkrankung kontrollierte die Mutter, wer sie besuchen durfte. Ada wurde unter ihrem Einfluss religiös, bereute nach den Berichten ihr früheres Verhalten und machte Lady Byron zur Testamentsvollstreckerin.</p>
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> schenkt der Sieben Loyalität gegenüber Menschen, denen sie vertraut, und ein Bedürfnis nach Rückhalt. Ada suchte Mentoren: Somerville, De Morgan und vor allem Babbage. Gegenüber der Mutter blieb sie ein Leben lang in einem Spannungsverhältnis aus Auflehnung und Abhängigkeit. In den letzten Monaten ihrer Krebserkrankung kontrollierte die Mutter, wer sie besuchen durfte. Ada wurde unter ihrem Einfluss religiös, bereute nach den Berichten ihr früheres Verhalten und machte Lady Byron zur Testamentsvollstreckerin.</p>
           <p class="vb-intro">Dass sie ihre Meinung durchsetzen konnte, zeigt der Streit mit Babbage 1843. Er wollte der Übersetzung ein anonymes Vorwort über die Regierungsförderung beifügen und verlangte, dass sie ihre Arbeit zurückzieht. Sie lehnte ab, das wäre ›dishonorable &amp; unjustifiable‹ (›unehrenhaft und nicht zu rechtfertigen‹). Am 14. August 1843 schickte sie einen langen Brief mit Bedingungen, auf dessen Kopie Babbage notierte, er habe sie am Morgen getroffen und alle Bedingungen abgelehnt. Eine Woche später schrieb sie ihrer Mutter, Babbage und sie seien wohl mehr Freunde als je zuvor.</p>
         </blockquote>
 
@@ -2698,7 +2698,7 @@ export function adaLovelacePortraitPage() {
         <h2 class="vb-section">6. Licht und Schatten der sozialen Sieben mit Sechserflügel</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SO7w6 liegt bei Ada in der Verbindung von Vorstellungskraft und Strenge: Sie baute ein Gedankengebäude, das über ihre Zeit hinausreichte, und stellte sich in den Dienst von Babbages Projekt. Ihre Notizen erschienen unter den Initialen ›AAL‹, sie wollte aber, dass sie ihr später zugeordnet werden konnten.</p>
-          <p class="vb-intro">Der Schatten liegt dort, wo das Bauen nie fertig wird und das Wagnis nicht mehr aufgefangen ist. Vieles blieb Plan, die Wetten hinterließen Schulden, und die Abhängigkeit von der Mutter blieb bis zum Ende. Ada Lovelace starb am 27. November 1852 im Alter von 36 Jahren in Marylebone in London an Gebärmutterhalskrebs, damals Gebärmutterkrebs genannt. Auf ihren Wunsch wurde sie neben ihrem Vater in Hucknall in Nottinghamshire beigesetzt.</p>
+          <p class="vb-intro">Die Schattenseite liegt dort, wo das Bauen nie fertig wird und das Wagnis nicht mehr aufgefangen ist. Vieles blieb Plan, die Wetten hinterließen Schulden, und die Abhängigkeit von der Mutter blieb bis zum Ende. Ada Lovelace starb am 27. November 1852 im Alter von 36 Jahren in Marylebone in London an Gebärmutterhalskrebs, damals Gebärmutterkrebs genannt. Auf ihren Wunsch wurde sie neben ihrem Vater in Hucknall in Nottinghamshire beigesetzt.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Verwandte Muster: Tesla, Verne und Musk</h2>

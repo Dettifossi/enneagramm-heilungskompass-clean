@@ -1361,7 +1361,7 @@ export function leslieVanHoutenPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The One-Wing: Duty and the Inner Order</h3>
-        <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the Social Nine something crucial: a deep longing to do everything <em>right</em> within the system in which they live. Not out of ambition, but out of a moral drive that operates quietly yet constantly.</p>
+        <p class="vb-intro">The <strong>One-wing (w1)</strong> lends the Social Nine something crucial: a deep longing to do everything <em>right</em> within the system in which they live. Not out of ambition, but out of a moral drive that operates quietly yet constantly.</p>
         <p class="vb-intro">When Leslie immersed herself in the Manson Family, she did not perceive Manson's worldview as chaotic, but as a <em>higher, correct order</em>. Once anchored in a system, she wanted to act correctly within it. Prison later became that exact same structure: Leslie became the most exemplary inmate — polite, hard-working, rule-abiding. Decades passed without a single major rule violation. The One-wing caused her to do the right thing in whichever system she lived — according to the rules of that system.</p>
       </div>
 

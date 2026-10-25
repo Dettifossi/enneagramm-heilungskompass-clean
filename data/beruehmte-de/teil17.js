@@ -246,7 +246,7 @@ export function buddhaPortraitPage() {
 
         <h2 class="vb-section">7. Licht und Schatten der sozialen F\u00fcnf</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO5w4 ist ihre F\u00e4higkeit, mit schonungsloser Klarheit die Ursache des Leidens zu erkennen &ndash; und diese Erkenntnis nicht als exklusives Geheimwissen zu horten, sondern zu einem geordneten System zu formen, das einer ganzen Gemeinschaft zug\u00e4nglich ist. Die drei Daseinsmerkmale &ndash; Unbest\u00e4ndigkeit (Anicca), Nicht-Selbst (Anatta) und Leidhaftigkeit (Dukkha) &ndash; sind keine abstrakte Kosmologie, sondern das Ergebnis einer F\u00fcnf, die die Wirklichkeit wie ein Diagnostiker seziert, bis nichts Ungepr\u00fcftes mehr \u00fcbrig bleibt, und die diese Analyse anschlie\u00dfend so ordnet, dass andere sie \u00fcbernehmen k\u00f6nnen. &bdquo;Glaubt nichts blind, pr\u00fcft es wie Gold im Feuer&ldquo; &ndash; eine klassische Haltung der F\u00fcnf, die Wissen nur dann anerkennt, wenn sie es selbst durchdrungen hat.</p>
+          <p class="vb-intro">Was die SO5w4 auszeichnet, ist ihre F\u00e4higkeit, mit schonungsloser Klarheit die Ursache des Leidens zu erkennen &ndash; und diese Erkenntnis nicht als exklusives Geheimwissen zu horten, sondern zu einem geordneten System zu formen, das einer ganzen Gemeinschaft zug\u00e4nglich ist. Die drei Daseinsmerkmale &ndash; Unbest\u00e4ndigkeit (Anicca), Nicht-Selbst (Anatta) und Leidhaftigkeit (Dukkha) &ndash; sind keine abstrakte Kosmologie, sondern das Ergebnis einer F\u00fcnf, die die Wirklichkeit wie ein Diagnostiker seziert, bis nichts Ungepr\u00fcftes mehr \u00fcbrig bleibt, und die diese Analyse anschlie\u00dfend so ordnet, dass andere sie \u00fcbernehmen k\u00f6nnen. &bdquo;Glaubt nichts blind, pr\u00fcft es wie Gold im Feuer&ldquo; &ndash; eine klassische Haltung der F\u00fcnf, die Wissen nur dann anerkennt, wenn sie es selbst durchdrungen hat.</p>
           <p class="vb-intro">Der Schatten zeigt sich in der permanenten Versuchung des R\u00fcckzugs: der Impuls, sich nach der Erleuchtung ganz aus der Welt zur\u00fcckzuziehen und die Erkenntnis f\u00fcr sich zu behalten, statt sie systematisch weiterzugeben. Nur der innere Ruf zum Mitgef\u00fchl &ndash; und, aus Sicht der Subtypenlehre, der Viererfl\u00fcgel mit seiner tiefen Betroffenheit \u00fcber das Leiden anderer &ndash; \u00fcberwindet diesen R\u00fcckzugsimpuls. Die soziale F\u00fcnf, die ihr Totem-Wissen \u00f6ffnet, ohne sich dabei an Einzelne zu verlieren.</p>
         </blockquote>
 
@@ -316,7 +316,7 @@ export function christianRaetschPortraitPage() {
 
         <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden F\u00fcnf</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE5w4 ist ihre F\u00e4higkeit zur vollst\u00e4ndigen Hingabe an ein Thema &ndash; ohne Ablenkung, ohne Kompromiss, ohne den Wunsch nach sozialer Best\u00e4tigung. Christian R\u00e4tsch hat ein Werk aufgebaut, das seinesgleichen sucht: \u00fcber 30 B\u00fccher, darunter Standardwerke, die in zahlreiche Sprachen \u00fcbersetzt wurden. Das ist keine Karriere. Das ist eine Berufung. Die Eule, die zeitlebens in die Dunkelheit schaut &ndash; und dabei Licht findet.</p>
+          <p class="vb-intro">Was die SE5w4 auszeichnet, ist ihre F\u00e4higkeit zur vollst\u00e4ndigen Hingabe an ein Thema &ndash; ohne Ablenkung, ohne Kompromiss, ohne den Wunsch nach sozialer Best\u00e4tigung. Christian R\u00e4tsch hat ein Werk aufgebaut, das seinesgleichen sucht: \u00fcber 30 B\u00fccher, darunter Standardwerke, die in zahlreiche Sprachen \u00fcbersetzt wurden. Das ist keine Karriere. Das ist eine Berufung. Die Eule, die zeitlebens in die Dunkelheit schaut &ndash; und dabei Licht findet.</p>
           <p class="vb-intro">Das Schicksalsmuster der F\u00fcnf ist der <strong>Geiz</strong> &ndash; nicht im materiellen Sinn, sondern als das Horten von Energie, Zeit und Wissen: <em>Ich habe nicht genug, um zu geben. Wenn ich gebe, verliere ich.</em> Bei der SE5 \u00e4u\u00dfert sich das als Tendenz zum R\u00fcckzug &ndash; hinter die B\u00fccher, hinter die Forschung, hinter die klaren Grenzen des eigenen Territoriums. Kontakt kostet Energie. Und Energie ist kostbar.</p>
           <p class="vb-intro">Der Viererfl\u00fcgel bringt die Gefahr der Isolierung durch Einzigartigkeit: Wenn das Thema so spezifisch wird, dass es kaum jemanden mehr gibt, der mitkommt, kann die SE5w4 in der eigenen Welt verschwinden &ndash; reich an Wissen, arm an Verbindung. Das ist kein Fehler. Aber es ist ein Preis.</p>
         </blockquote>
@@ -381,7 +381,7 @@ export function davidMechPortraitPage() {
 
         <h2 class="vb-section">4. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX6w5 ist die Fähigkeit, <strong>direkte, oft unbequeme Konfrontation mit der Realität in verlässliches, sich selbst korrigierendes Wissen</strong> zu verwandeln &ndash; Mechs Forschung veränderte grundlegend, wie Wissenschaft und Öffentlichkeit Wölfe verstehen, und sein International Wolf Center prägt bis heute Naturschutz und Umweltbildung weltweit.</p>
+          <p class="vb-intro">Die Stärke der SX6w5 ist die Fähigkeit, <strong>direkte, oft unbequeme Konfrontation mit der Realität in verlässliches, sich selbst korrigierendes Wissen</strong> zu verwandeln &ndash; Mechs Forschung veränderte grundlegend, wie Wissenschaft und Öffentlichkeit Wölfe verstehen, und sein International Wolf Center prägt bis heute Naturschutz und Umweltbildung weltweit.</p>
           <p class="vb-intro">Der Schatten der sexuellen Sechs mit Fünferflügel zeigt sich darin, wie sehr die eigene Identität an ein einziges, hartnäckig verfolgtes Thema gebunden werden kann &ndash; ein Leben, das über sechzig Jahre fast ausschließlich einem einzigen Tier gewidmet war, lässt wenig Raum für andere Rollen jenseits dieser einen, alles bestimmenden Forschungsfrage.</p>
         </blockquote>
 
@@ -508,7 +508,7 @@ export function fransDeWaalPortraitPage() {
 
         <h2 class="vb-section">3. Der Sechserflügel: Bündnisse und Loyalität als Forschungsgegenstand</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der Sieben ein feines Gespür für Sicherheit, Loyalität und die Dynamik von Bündnissen &ndash; genau jene Themen, die de Waal zeitlebens erforschte. Sein Frühwerk zeigte, dass Macht bei Schimpansen nicht aus roher Aggression entsteht, sondern aus Beziehungen, die von Großzügigkeit und Unparteilichkeit geprägt sind &ndash; ein zutiefst sechserhaftes Verständnis von Sicherheit durch Bündnispflege statt durch Dominanz.</p>
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> verleiht der Sieben ein feines Gespür für Sicherheit, Loyalität und die Dynamik von Bündnissen &ndash; genau jene Themen, die de Waal zeitlebens erforschte. Sein Frühwerk zeigte, dass Macht bei Schimpansen nicht aus roher Aggression entsteht, sondern aus Beziehungen, die von Großzügigkeit und Unparteilichkeit geprägt sind &ndash; ein zutiefst sechserhaftes Verständnis von Sicherheit durch Bündnispflege statt durch Dominanz.</p>
           <p class="vb-intro">Diese Kombination aus siebenhafter intellektueller Neugier und sechserhaftem Gespür für Loyalitätsstrukturen machte ihn zu einem Forscher, der Konventionen mit spielerischer Brillanz aufbrach: Er bewies, wie viel Mensch im Tier steckt und wie viel Tier im Menschen &ndash; nie als Provokation um ihrer selbst willen, sondern immer sorgfältig belegt und methodisch abgesichert.</p>
         </blockquote>
 
@@ -581,7 +581,7 @@ export function gertrudeElionPortraitPage() {
 
         <h2 class="vb-section">4. Licht und Schatten der sozialen F\u00fcnf</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO5w4 ist ihre F\u00e4higkeit, komplexes Wissen mit Hingabe und Ausdauer zu durchdringen und daraus etwas zu erschaffen, das der Welt n\u00fctzt. Gertrude Elion hat nicht popularisiert, nicht vereinfacht, nicht verkauft. Sie hat geforscht &ndash; pr\u00e4zise, geduldig, jahrzehntelang &ndash; und das Ergebnis hat das Leben unz\u00e4hliger Menschen verl\u00e4ngert und gerettet.</p>
+          <p class="vb-intro">Was die SO5w4 auszeichnet, ist ihre F\u00e4higkeit, komplexes Wissen mit Hingabe und Ausdauer zu durchdringen und daraus etwas zu erschaffen, das der Welt n\u00fctzt. Gertrude Elion hat nicht popularisiert, nicht vereinfacht, nicht verkauft. Sie hat geforscht &ndash; pr\u00e4zise, geduldig, jahrzehntelang &ndash; und das Ergebnis hat das Leben unz\u00e4hliger Menschen verl\u00e4ngert und gerettet.</p>
           <p class="vb-intro">Das Schicksalsmuster der F\u00fcnf ist der <strong>Geiz</strong> &ndash; das Zur\u00fcckhalten von Energie und Kontakt. Die SO5 \u00fcberwindet dieses Muster am st\u00e4rksten durch ihren Beitrag zur Gemeinschaft. Aber auch sie kennt die Versuchung des R\u00fcckzugs: hinter die Forschung, hinter das Labor, hinter das Thema. Elion blieb ihr ganzes Leben lang verh\u00e4ltnism\u00e4\u00dfig im Hintergrund &ndash; bis der Nobelpreis sie ins Licht dr\u00e4ngte, das sie nicht gesucht hatte.</p>
         </blockquote>
 
@@ -832,14 +832,14 @@ export function jonathanGroffPortraitPage() {
 
         <h2 class="vb-section">3. Der Einserflügel: Ernsthaftigkeit hinter jeder Rolle</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sozialen Zwei eine innere Achse aus Ernsthaftigkeit und dem Bedürfnis, jede öffentliche Präsenz mit echter Substanz zu unterlegen. Bereits 2006 wurde Groffs Debütrolle als Melchior Gabor in <em>Frühlings Erwachen</em> von Kritikern für ihre „Inbrunst und Nachdenklichkeit" gelobt – Attribute, die weit über bloße Bühnenpräsenz hinausgehen.</p>
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> verleiht der sozialen Zwei eine innere Achse aus Ernsthaftigkeit und dem Bedürfnis, jede öffentliche Präsenz mit echter Substanz zu unterlegen. Bereits 2006 wurde Groffs Debütrolle als Melchior Gabor in <em>Frühlings Erwachen</em> von Kritikern für ihre „Inbrunst und Nachdenklichkeit" gelobt – Attribute, die weit über bloße Bühnenpräsenz hinausgehen.</p>
           <p class="vb-intro">2024 gewann er den Tony Award als bester Hauptdarsteller in einem Musical für seine Rolle als Franklin Shepard in <em>Merrily We Roll Along</em> – nach Nominierungen für <em>Frühlings Erwachen</em>, <em>Hamilton</em> und <em>Just in Time</em>. Der Einserflügel zeigt sich in dieser Beharrlichkeit: über fast zwei Jahrzehnte hinweg an derselben hohen künstlerischen Messlatte festzuhalten, bis die Anerkennung folgt.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Licht und Schatten der sozialen Zwei</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SO2w1 liegt in der Fähigkeit, persönliches Risiko – ein öffentliches Coming-out mitten in einer aufstrebenden Karriere – in eine Quelle der Stärke für eine ganze Gemeinschaft zu verwandeln, statt es zu verbergen. Groffs Weg von der mennonitischen Kindheit in Pennsylvania zu einer der sichtbarsten queeren Stimmen des amerikanischen Theaters zeigt, wie sich persönliche Ehrlichkeit in gesellschaftliche Wirksamkeit übersetzen lässt.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, für das Wohl anderer unentbehrlich zu sein. Bei der SO2w1 kann sich das mit dem Anspruch verbinden, in jeder Rolle und jedem öffentlichen Engagement gleichermaßen ernsthaft und wirksam zu sein – ein Maßstab, der zu außergewöhnlicher Vielseitigkeit führt, aber auch selten Pause macht.</p>
+          <p class="vb-intro">Im Zentrum der Zwei steht der <strong>Stolz</strong> &ndash; die Überzeugung, für das Wohl anderer unentbehrlich zu sein. Bei der SO2w1 kann sich das mit dem Anspruch verbinden, in jeder Rolle und jedem öffentlichen Engagement gleichermaßen ernsthaft und wirksam zu sein – ein Maßstab, der zu außergewöhnlicher Vielseitigkeit führt, aber auch selten Pause macht.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Das Werk: Von der mennonitischen Kindheit zum Tony-Preisträger</h2>
@@ -903,7 +903,7 @@ export function katjaRiemannPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX6w7 ist ihr Mut, öffentlich Position zu beziehen, wo andere lieber schweigen, und dabei künstlerisch beweglich zu bleiben, statt sich auf ein einmal gefundenes Erfolgsrezept zu verlassen. Riemann hat sich über drei Jahrzehnte hinweg als eine der wandlungsfähigsten deutschen Schauspielerinnen etabliert – ausgezeichnet unter anderem mehrfach mit dem Bambi, dem Bayerischen Filmpreis und der Goldenen Kamera.</p>
+          <p class="vb-intro">Das Beste an der SX6w7 ist ihr Mut, öffentlich Position zu beziehen, wo andere lieber schweigen, und dabei künstlerisch beweglich zu bleiben, statt sich auf ein einmal gefundenes Erfolgsrezept zu verlassen. Riemann hat sich über drei Jahrzehnte hinweg als eine der wandlungsfähigsten deutschen Schauspielerinnen etabliert – ausgezeichnet unter anderem mehrfach mit dem Bambi, dem Bayerischen Filmpreis und der Goldenen Kamera.</p>
           <p class="vb-intro">Der Schatten der SX6 zeigt sich in der Kompromisslosigkeit, mit der sie ihre Positionen vertritt: Was als Mut zur klaren Haltung beginnt, kann in der öffentlichen Debatte auch als Konfrontationslust wahrgenommen werden, die wenig Raum für Zwischentöne lässt. Für die sexuelle Sechs ist das der Preis der eigenen Stärke – wer sich nie zurückzieht, eckt zwangsläufig auch dort an, wo ein Rückzug klüger gewesen wäre.</p>
         </blockquote>
 
@@ -959,7 +959,7 @@ export function laurenGardnerPortraitPage() {
 
         <h2 class="vb-section">4. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO4w5 ist die Fähigkeit, <strong>die eigene Einzigartigkeit in eine unersetzbare gesellschaftliche Rolle</strong> zu verwandeln &ndash; Gardners akademische Nischenkompetenz in Verkehrsmodellierung und Krankheitsausbreitung wurde, im entscheidenden Moment, zur Infrastruktur, auf die sich buchstäblich die ganze Welt verließ. 2022 erhielt sie dafür den Lasker~Bloomberg Public Service Award, den bedeutendsten US-amerikanischen Medizinpreis, den sie als &bdquo;zutiefst geehrt und bescheiden gemacht&ldquo; für eine Leistung annahm, die &bdquo;die harte Arbeit und Hingabe vieler anderer&ldquo; erfordert habe.</p>
+          <p class="vb-intro">Was die SO4w5 auszeichnet, ist die Fähigkeit, <strong>die eigene Einzigartigkeit in eine unersetzbare gesellschaftliche Rolle</strong> zu verwandeln &ndash; Gardners akademische Nischenkompetenz in Verkehrsmodellierung und Krankheitsausbreitung wurde, im entscheidenden Moment, zur Infrastruktur, auf die sich buchstäblich die ganze Welt verließ. 2022 erhielt sie dafür den Lasker~Bloomberg Public Service Award, den bedeutendsten US-amerikanischen Medizinpreis, den sie als &bdquo;zutiefst geehrt und bescheiden gemacht&ldquo; für eine Leistung annahm, die &bdquo;die harte Arbeit und Hingabe vieler anderer&ldquo; erfordert habe.</p>
           <p class="vb-intro">Der Schatten der sozialen Vier mit Fünferflügel zeigt sich darin, wie unvorbereitet eine zurückhaltende, auf Fachtiefe ausgelegte Forscherin auf beispiellose globale Aufmerksamkeit trifft: Aus einem Werkzeug für die eigene kleine Forschungsgemeinschaft wurde über Nacht ein Referenzpunkt für Milliarden Menschen &ndash; eine Last, die Gardner selbst zeitweise an der eigenen Entscheidung zweifeln ließ, obwohl das Dashboard sich längst als unverzichtbar erwiesen hatte.</p>
         </blockquote>
 
@@ -1015,7 +1015,7 @@ export function ludwigVanBeethovenPortraitPage() {
 
         <h2 class="vb-section">3. Der Fünferflügel: Rückzug in die Struktur</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sexuellen Sechs analytische Tiefe und die Fähigkeit, sich in kompositorische Strukturen zurückzuziehen, bis jede Möglichkeit durchdacht ist. Beethovens Skizzenbücher – Tausende Seiten mit endlosen Überarbeitungen einzelner Themen, oft über Jahre hinweg – zeigen einen Komponisten, der ein Motiv so lange bearbeitete, bis keine Schwachstelle mehr blieb.</p>
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verleiht der sexuellen Sechs analytische Tiefe und die Fähigkeit, sich in kompositorische Strukturen zurückzuziehen, bis jede Möglichkeit durchdacht ist. Beethovens Skizzenbücher – Tausende Seiten mit endlosen Überarbeitungen einzelner Themen, oft über Jahre hinweg – zeigen einen Komponisten, der ein Motiv so lange bearbeitete, bis keine Schwachstelle mehr blieb.</p>
           <p class="vb-intro">In seinen letzten Lebensjahren, zunehmend isoliert durch die vollständige Taubheit, vertiefte er sich in intensives Studium der Kontrapunktkunst Bachs und Händels und komponierte die späten Streichquartette – Werke von einer strukturellen Komplexität und introspektiven Tiefe, die selbst seine Zeitgenossen zunächst überforderten. Der Fünferflügel verwandelte die Wachsamkeit der Sechs in kompositorische Präzision: Wer jede Möglichkeit durchdacht hat, kann von keiner Kritik mehr überrascht werden.</p>
         </blockquote>
 
@@ -1105,7 +1105,7 @@ export function marioBarthPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX9w8 ist ihre <strong>F\u00e4higkeit, mit einer riesigen Menschenmenge zu verschmelzen, ohne sich dabei zu verstellen</strong>. Barth wirkt auf der B\u00fchne, als w\u00fcrde er mit jedem Einzelnen im Stadion pers\u00f6nlich reden &ndash; eine seltene Gabe, die aus echter Verbindung entsteht, nicht aus Technik.</p>
+          <p class="vb-intro">Die Stärke der SX9w8 ist ihre <strong>F\u00e4higkeit, mit einer riesigen Menschenmenge zu verschmelzen, ohne sich dabei zu verstellen</strong>. Barth wirkt auf der B\u00fchne, als w\u00fcrde er mit jedem Einzelnen im Stadion pers\u00f6nlich reden &ndash; eine seltene Gabe, die aus echter Verbindung entsteht, nicht aus Technik.</p>
           <p class="vb-intro">Der Schatten zeigt sich in der Kritik, die ihn seit Jahren begleitet: Sein Humor wurde vielfach als plump, klischeehaft und wiederholend bezeichnet, seine Themen als immer gleiche M\u00e4nner-Frauen-Gegen\u00fcberstellung ohne Weiterentwicklung. Die SX9w8, die sich so vollst\u00e4ndig mit dem verschmilzt, was funktioniert, tut sich schwer, davon abzuweichen &ndash; aus Angst, die Verbindung zum Publikum zu verlieren, die genau dieses vertraute Muster \u00fcberhaupt erst geschaffen hat.</p>
         </blockquote>
 
@@ -1173,8 +1173,8 @@ export function mileyCyrusPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX7w6 ist ihre F\u00e4higkeit, sich immer wieder neu zu erfinden, ohne sich selbst zu verlieren &ndash; jede Phase von Miley Cyrus wirkt im R\u00fcckblick wie eine ehrliche Station auf einem Weg, nicht wie eine Verleugnung der vorherigen. Diese Kontinuit\u00e4t trotz Wandel ist die Frucht des Sechserfl\u00fcgels: Der Kern bleibt derselbe, auch wenn die Oberfl\u00e4che sich radikal ver\u00e4ndert.</p>
-          <p class="vb-intro">Der Schatten zeigt sich in Phasen exzessiven Verhaltens, \u00f6ffentlich ausgetragener Beziehungskrisen &ndash; darunter die wechselvolle, mehrfach unterbrochene und schlie\u00dflich gescheiterte Beziehung zu Liam Hemsworth (SO1w2) &ndash; und einem Bed\u00fcrfnis nach Aufmerksamkeit, das zeitweise wichtiger schien als die eigene Stabilit\u00e4t. Die sexuelle Sieben kann in der Flucht vor Leere so viel Intensit\u00e4t suchen, dass die Suche selbst zur Falle wird.</p>
+          <p class="vb-intro">Was die SX7w6 auszeichnet, ist ihre F\u00e4higkeit, sich immer wieder neu zu erfinden, ohne sich selbst zu verlieren &ndash; jede Phase von Miley Cyrus wirkt im R\u00fcckblick wie eine ehrliche Station auf einem Weg, nicht wie eine Verleugnung der vorherigen. Diese Kontinuit\u00e4t trotz Wandel ist die Frucht des Sechserfl\u00fcgels: Der Kern bleibt derselbe, auch wenn die Oberfl\u00e4che sich radikal ver\u00e4ndert.</p>
+          <p class="vb-intro">Als Schatten zeigt sich in Phasen exzessiven Verhaltens, \u00f6ffentlich ausgetragener Beziehungskrisen &ndash; darunter die wechselvolle, mehrfach unterbrochene und schlie\u00dflich gescheiterte Beziehung zu Liam Hemsworth (SO1w2) &ndash; und einem Bed\u00fcrfnis nach Aufmerksamkeit, das zeitweise wichtiger schien als die eigene Stabilit\u00e4t. Die sexuelle Sieben kann in der Flucht vor Leere so viel Intensit\u00e4t suchen, dass die Suche selbst zur Falle wird.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der Heilungsweg: Flowers</h2>
@@ -1240,7 +1240,7 @@ export function nicolasCagePortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE4w3 ist die F\u00e4higkeit, <strong>tiefes, echtes Gef\u00fchl in wirkungsvolle Kunst</strong> zu verwandeln, ohne dabei die eigene W\u00fcrde zu verlieren &ndash; Cages beste Rollen, von &bdquo;Leaving Las Vegas&ldquo; bis &bdquo;Pig&ldquo; (2021), zeigen eine Verletzlichkeit, die trotz aller Exzentrik zutiefst ber\u00fchrt. Sein beharrlicher finanzieller Wiederaufstieg zeigt zudem die Z\u00e4higkeit, die der Taube innewohnt.</p>
+          <p class="vb-intro">Die Stärke der SE4w3 ist die F\u00e4higkeit, <strong>tiefes, echtes Gef\u00fchl in wirkungsvolle Kunst</strong> zu verwandeln, ohne dabei die eigene W\u00fcrde zu verlieren &ndash; Cages beste Rollen, von &bdquo;Leaving Las Vegas&ldquo; bis &bdquo;Pig&ldquo; (2021), zeigen eine Verletzlichkeit, die trotz aller Exzentrik zutiefst ber\u00fchrt. Sein beharrlicher finanzieller Wiederaufstieg zeigt zudem die Z\u00e4higkeit, die der Taube innewohnt.</p>
           <p class="vb-intro">Der Schatten zeigte sich in genau jener finanziellen Unbeherrschtheit, die ihn fast ruinierte, sowie in Phasen exzessiven Alkoholkonsums, \u00fcber die er sp\u00e4ter offen sprach. Die Kehrseite der selbsterhaltenden Vier: Weil das Leiden nicht offen kommuniziert wird, kann es sich in impulsivem, selbstsch\u00e4digendem Verhalten entladen &ndash; bis die Konsequenzen so gro\u00df werden, dass sie sich nicht mehr verbergen lassen.</p>
         </blockquote>
 
@@ -1375,7 +1375,7 @@ export function ronaldReaganPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten: Was die Neun nicht sieht</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO9w8 ist ihr <strong>gro\xdfes Integrationstalent</strong>: Reagan brachte Menschen zusammen, die nichts miteinander gemein hatten. Er hob die Stimmung einer Nation, die nach Vietnam, Watergate und der Iran-Geiselkrise ersch\u00f6pft und misstrauisch war. Das ist keine Kleinigkeit. Das ist eine der seltenen politischen Gaben.</p>
+          <p class="vb-intro">Das Beste an der SO9w8 ist ihr <strong>gro\xdfes Integrationstalent</strong>: Reagan brachte Menschen zusammen, die nichts miteinander gemein hatten. Er hob die Stimmung einer Nation, die nach Vietnam, Watergate und der Iran-Geiselkrise ersch\u00f6pft und misstrauisch war. Das ist keine Kleinigkeit. Das ist eine der seltenen politischen Gaben.</p>
           <p class="vb-intro">Der Schatten: Die Neun sieht nicht, was sie nicht sehen will. Die AIDS-Krise bricht in den fr\xfchen 1980er-Jahren \xfcber die USA herein &ndash; Reagan spricht das Wort &ldquo;AIDS&rdquo; \xf6ffentlich erst 1987 aus, sechs Jahre nach Beginn der Epidemie, als bereits \xfcber 40.000 Amerikaner gestorben sind. Die Iran-Contra-Aff\xe4re &ndash; illegale Waffengesch\xe4fte mit dem Iran zur Finanzierung nicaraguanischer Contra-Rebellen &ndash; lief in seinem Regierungsapparat, und Reagan bestand darauf, davon nichts gewusst zu haben. Ob das stimmt oder nicht: Es beschreibt die SO9 pr\xe4zise. Die Neun delegiert &ndash; und schaut manchmal weg.</p>
         </blockquote>
 
@@ -1446,7 +1446,7 @@ export function spinozaPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE5w6 ist die F\u00e4higkeit, <strong>radikale intellektuelle Unabh\u00e4ngigkeit mit einem tragf\u00e4higen, in sich stimmigen System</strong> zu verbinden. Spinoza dachte den freien Willen, das Verh\u00e4ltnis von Affekt und Vernunft und die Grenzen der Toleranz so konsequent zu Ende wie kaum ein Philosoph vor ihm &ndash; und legte damit einen der Grundsteine der modernen Aufkl\u00e4rung, lange bevor sie diesen Namen trug.</p>
+          <p class="vb-intro">Was die SE5w6 auszeichnet, ist die F\u00e4higkeit, <strong>radikale intellektuelle Unabh\u00e4ngigkeit mit einem tragf\u00e4higen, in sich stimmigen System</strong> zu verbinden. Spinoza dachte den freien Willen, das Verh\u00e4ltnis von Affekt und Vernunft und die Grenzen der Toleranz so konsequent zu Ende wie kaum ein Philosoph vor ihm &ndash; und legte damit einen der Grundsteine der modernen Aufkl\u00e4rung, lange bevor sie diesen Namen trug.</p>
           <p class="vb-intro">Der Schatten: Sein R\u00fcckzug aus jeder Gemeinschaft &ndash; j\u00fcdisch wie christlich &ndash; bedeutete auch ein Leben fast ganz ohne N\u00e4he, ohne eigene Familie, ohne festen Ort der Zugeh\u00f6rigkeit. Die Burg der SE5 sch\u00fctzt das Denken, aber sie kostet Verbindung. Spinoza selbst schien diesen Preis bewusst in Kauf genommen zu haben &ndash; ob er ihn auch bedauerte, ist aus seinen erhaltenen Briefen kaum herauszulesen. Genau diese Verschlossenheit macht ihn nach wie vor zu einer der r\u00e4tselhaftesten Gestalten der Philosophiegeschichte.</p>
         </blockquote>
 
@@ -1517,14 +1517,14 @@ export function tilSchweigerPortraitPage() {
 
         <h2 class="vb-section">4. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO4w3 ist ihre F\u00e4higkeit, tiefe Emotionen zu ersp\u00fcren und in Kunstformen zu gie\u00dfen, die andere ber\u00fchren, weil sie darin sich selbst wiederfinden. Schweigers Filme sind emotionsgeladen nicht als Kalk\u00fcl, sondern weil er als Herztyp (Typ 4 geh\u00f6rt zum Herzzentrum des Enneagramms) gar nicht anders kann: F\u00fchlen ist seine Muttersprache.</p>
+          <p class="vb-intro">Die Stärke der SO4w3 ist ihre F\u00e4higkeit, tiefe Emotionen zu ersp\u00fcren und in Kunstformen zu gie\u00dfen, die andere ber\u00fchren, weil sie darin sich selbst wiederfinden. Schweigers Filme sind emotionsgeladen nicht als Kalk\u00fcl, sondern weil er als Herztyp (Typ 4 geh\u00f6rt zum Herzzentrum des Enneagramms) gar nicht anders kann: F\u00fchlen ist seine Muttersprache.</p>
           <p class="vb-intro">Der Schatten: Das untergr\u00fcndige Gef\u00fchl von Unzufriedenheit, gemischt mit einer Aura von Traurigkeit und Melancholie, begleitet die soziale Vier permanent. Kein Erfolg, kein Applaus, keine Anerkennung von au\u00dfen kann dieses Grundgef\u00fchl dauerhaft aufl\u00f6sen &ndash; weil es aus der inneren \u00dcberzeugung stammt, irgendwie nicht wirklich zu gen\u00fcgen. Der Dreierfl\u00fcgel kann die Versuchung bringen, das Echte dem Erfolgreichen zu opfern. Wenn die Reaktion des Publikums wichtiger wird als die innere Wahrheit des Werks.</p>
           <p class="vb-intro">Schweiger ist bekannt f\u00fcr ein hohes Ma\u00df an Stolz und eine gewisse Empfindlichkeit gegen\u00fcber Kritik. Das ist kein Charakterdefizit &ndash; hier wirkt die SO4 in ihrem Schutzmodus: Wer im Inneren so viel f\u00fchlt, braucht eine stabile Au\u00dfenfassade, um nicht von jeder Welle des Urteils fortgetragen zu werden.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Der Heilungsweg: Anerkennung von innen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Vier f\u00fchrt von <em>Ich bin nicht genug</em> zu <em>Das, was ich bin, reicht.</em> F\u00fcr die SO4w3 bedeutet das, die Maske des Dreiers nicht als Schutz zu brauchen, sondern als freie Ausdrucksform zu nutzen: nicht spielen, weil man sich nicht zeigen darf &ndash; sondern spielen, weil man wirklich etwas zu sagen hat.</p>
+          <p class="vb-intro">Für die Vier f\u00fchrt der Heilungsweg von <em>Ich bin nicht genug</em> zu <em>Das, was ich bin, reicht.</em> F\u00fcr die SO4w3 bedeutet das, die Maske des Dreiers nicht als Schutz zu brauchen, sondern als freie Ausdrucksform zu nutzen: nicht spielen, weil man sich nicht zeigen darf &ndash; sondern spielen, weil man wirklich etwas zu sagen hat.</p>
           <p class="vb-intro">Das G\u00fcrteltier braucht seine Panzerung &ndash; aber es muss nicht permanent in ihr leben. Die reife SO4w3 lernt, das innere Gef\u00fchl des Mangels nicht als Beweis anzunehmen, sondern als altes Muster zu erkennen, das nichts \u00fcber den wahren Wert der eigenen Person aussagt. Til Schweiger hat in Jahrzehnten einer langen Karriere Werke geschaffen, die Menschen bewegt haben. Das ist keine Kleinigkeit. Das ist &ndash; im w\u00f6rtlichsten Sinne &ndash; genug.</p>
         </blockquote>
 
@@ -1667,7 +1667,7 @@ export function zoeSaldanaPortraitPage() {
         <h2 class="vb-section">5. Licht und Schatten der sozialen Zwei</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SO2w3 ist die Fähigkeit, Wärme und Wirksamkeit zu verbinden &ndash; sich für eine Gemeinschaft einzusetzen und dabei tatsächlich etwas zu bewirken, statt nur gute Absichten zu zeigen. Saldañas Engagement für BESE und ihre öffentliche Verbundenheit mit ihrer dominikanischen Herkunft zeigen diese reife Form der SO2-Energie.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Fürsorge und Leistung für die Gemeinschaft unentbehrlich zu sein. Bei der SO2w3 kann sich das als ständiger Druck zeigen, in jedem Ensemble, jeder Produktion sichtbar zu leisten, ohne sich selbst Pausen zuzugestehen. Der Wechsel zwischen mehreren gleichzeitig laufenden Milliarden-Franchises verlangt genau diese Art von unermüdlicher Verfügbarkeit.</p>
+          <p class="vb-intro">Im Zentrum der Zwei steht der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Fürsorge und Leistung für die Gemeinschaft unentbehrlich zu sein. Bei der SO2w3 kann sich das als ständiger Druck zeigen, in jedem Ensemble, jeder Produktion sichtbar zu leisten, ohne sich selbst Pausen zuzugestehen. Der Wechsel zwischen mehreren gleichzeitig laufenden Milliarden-Franchises verlangt genau diese Art von unermüdlicher Verfügbarkeit.</p>
         </blockquote>
 
       </div>
@@ -1714,14 +1714,14 @@ export function franciscoDeGoyaPortraitPage() {
 
         <h2 class="vb-section">3. Der Dreierflügel: Hofmaler der Krone, unbestechlicher Chronist ihrer Wahrheit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sexuellen Vier den Willen zur Sichtbarkeit und zur gesellschaftlichen Wirkung &ndash; das Bedürfnis, dass die eigene Wahrheit nicht im Verborgenen bleibt, sondern eine Bühne findet. 1786 wurde Goya Maler am Hof Karls III., 1799 unter Karl IV. schließlich Erster Hofmaler &ndash; eine der höchsten künstlerischen Positionen, die Spanien zu vergeben hatte.</p>
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> schenkt der sexuellen Vier den Willen zur Sichtbarkeit und zur gesellschaftlichen Wirkung &ndash; das Bedürfnis, dass die eigene Wahrheit nicht im Verborgenen bleibt, sondern eine Bühne findet. 1786 wurde Goya Maler am Hof Karls III., 1799 unter Karl IV. schließlich Erster Hofmaler &ndash; eine der höchsten künstlerischen Positionen, die Spanien zu vergeben hatte.</p>
           <p class="vb-intro">Doch anders als es diese Position nahelegt, schmeichelte er seinen Auftraggebern nicht: Sein berühmtestes Gruppenporträt "Die Familie Karls IV." (1800) zeigt die Königsfamilie mit einer fast schonungslosen Direktheit &ndash; verschwollene Gesichter, eitle Posen, keine Idealisierung. Bis heute streiten Kunsthistoriker, ob das eine subtile Kritik oder schlicht rücksichtslose Ehrlichkeit war. Der Dreierflügel wollte gesehen werden &ndash; aber er wollte nie lügen, um gesehen zu werden.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Licht und Schatten der sexuellen Vier</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX4w3 zeigt sich in Goyas Serie "Die Schrecken des Krieges" (Desastres de la Guerra), entstanden zwischen 1810 und 1820 während der napoleonischen Besatzung Spaniens: 82 Radierungen, die Massaker, Vergewaltigungen und Hungersnöte ohne jede Beschönigung zeigen &ndash; eines der frühesten und schonungslosesten Anti-Kriegs-Werke der Kunstgeschichte, das er zu Lebzeiten nie zu veröffentlichen wagte. Sein Gemälde "Der 3. Mai 1808" hält die Erschießung spanischer Aufständischer durch französische Soldaten fest &ndash; nicht als heroisches Historienbild, sondern als anklagender Schrei.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; bei der SX4 gewendet in eine ständige Rivalität gegen alles, was ihr Unrecht oder Halbheit vorspiegelt. Bei Goya zeigte sich das auch im Persönlichen: Er führte über Jahrzehnte erbitterte Rivalitäten mit anderen Künstlern und Auftraggebern und ließ sich selbst durch die eigene Taubheit nicht zur Zurückhaltung bewegen &ndash; im Gegenteil, seine Bilder wurden mit fortschreitender Isolation immer düsterer, direkter, kompromissloser.</p>
+          <p class="vb-intro">Die Stärke der SX4w3 zeigt sich in Goyas Serie "Die Schrecken des Krieges" (Desastres de la Guerra), entstanden zwischen 1810 und 1820 während der napoleonischen Besatzung Spaniens: 82 Radierungen, die Massaker, Vergewaltigungen und Hungersnöte ohne jede Beschönigung zeigen &ndash; eines der frühesten und schonungslosesten Anti-Kriegs-Werke der Kunstgeschichte, das er zu Lebzeiten nie zu veröffentlichen wagte. Sein Gemälde "Der 3. Mai 1808" hält die Erschießung spanischer Aufständischer durch französische Soldaten fest &ndash; nicht als heroisches Historienbild, sondern als anklagender Schrei.</p>
+          <p class="vb-intro">Der Antrieb der Vier ist der <strong>Neid</strong> &ndash; bei der SX4 gewendet in eine ständige Rivalität gegen alles, was ihr Unrecht oder Halbheit vorspiegelt. Bei Goya zeigte sich das auch im Persönlichen: Er führte über Jahrzehnte erbitterte Rivalitäten mit anderen Künstlern und Auftraggebern und ließ sich selbst durch die eigene Taubheit nicht zur Zurückhaltung bewegen &ndash; im Gegenteil, seine Bilder wurden mit fortschreitender Isolation immer düsterer, direkter, kompromissloser.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Das Vermächtnis: Der Chihuahua, der die Wände seines Hauses mit dem Schrecken bemalte</h2>
@@ -1783,7 +1783,7 @@ export function billyBobThorntonPortraitPage() {
 
         <h2 class="vb-section">4. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO7w6 ist die Fähigkeit, <strong>über Jahrzehnte hinweg in ganz unterschiedlichen Formen tätig zu bleiben, ohne sich zu verzetteln</strong> &ndash; Thornton bewegt sich mit derselben Ernsthaftigkeit zwischen Charakterdarsteller-Rollen, Regiearbeit, Drehbuch und Musik, stets getragen von derselben handwerklichen Sorgfalt, gleich in welchem Medium.</p>
+          <p class="vb-intro">Das Beste an der SO7w6 ist die Fähigkeit, <strong>über Jahrzehnte hinweg in ganz unterschiedlichen Formen tätig zu bleiben, ohne sich zu verzetteln</strong> &ndash; Thornton bewegt sich mit derselben Ernsthaftigkeit zwischen Charakterdarsteller-Rollen, Regiearbeit, Drehbuch und Musik, stets getragen von derselben handwerklichen Sorgfalt, gleich in welchem Medium.</p>
           <p class="vb-intro">Der Schatten der sozialen Sieben mit Sechserflügel zeigt sich darin, wie sehr die Suche nach kontrollierbarer Sicherheit ins Auffällige kippen kann: Seine öffentlich bekannten, sehr spezifischen Ängste und sechsmaligen Eheschließungen &ndash; darunter die mediale Vielbeachtung seiner Ehe mit Angelina Jolie (SO1w2), inklusive der als Anhänger getragenen Fläschchen mit dem Blut des jeweils anderen &ndash; lesen sich wie der Versuch, in einem rastlos vielseitigen Leben doch noch feste, unverrückbare Ankerpunkte zu finden.</p>
         </blockquote>
 
@@ -1858,7 +1858,7 @@ export function emmanuelMacronPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO1w9 ist die F\xe4higkeit, <strong>klare \xdcberzeugung mit geduldigem Zuh\xf6ren und echtem Interesse an jedem Einzelnen zu verbinden</strong> – Macrons F\xe4higkeit, mit Servicepersonal ebenso aufmerksam umzugehen wie mit Staatschefs, zeigt eine Form von Egalit\xe4t, die selten so konsequent gelebt wird.</p>
+          <p class="vb-intro">Die Stärke der SO1w9 ist die F\xe4higkeit, <strong>klare \xdcberzeugung mit geduldigem Zuh\xf6ren und echtem Interesse an jedem Einzelnen zu verbinden</strong> – Macrons F\xe4higkeit, mit Servicepersonal ebenso aufmerksam umzugehen wie mit Staatschefs, zeigt eine Form von Egalit\xe4t, die selten so konsequent gelebt wird.</p>
           <p class="vb-intro">Der Schatten zeigt sich dort, wo anhaltender Widerstand die d\xe4mpfende Wirkung des Neunerfl\xfcgels \xfcberfordert: Zustimmungswerte dauerhaft unter vierzig Prozent, der Vorwurf, Autorit\xe4t mit Autorit\xe4rem zu verwechseln, und eine famili\xe4r-freundschaftliche Isolation trotz \xf6ffentlicher N\xe4he zu vielen – die Kehrseite einer Eins, die ihre Überzeugung notfalls auch ohne Vermittlung durchsetzt.</p>
         </blockquote>
 
@@ -1927,7 +1927,7 @@ export function lorisAssadianPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE4w5 zeigt sich in Assadians Fähigkeit, echte emotionale Tiefe verlässlich und ohne jede Selbstinszenierung zu teilen – ein seltenes Gut in einer von viralen Videos geprägten Öffentlichkeit, die meist auf Show statt auf Substanz setzt.</p>
+          <p class="vb-intro">Was die SE4w5 auszeichnet, zeigt sich in Assadians Fähigkeit, echte emotionale Tiefe verlässlich und ohne jede Selbstinszenierung zu teilen – ein seltenes Gut in einer von viralen Videos geprägten Öffentlichkeit, die meist auf Show statt auf Substanz setzt.</p>
           <p class="vb-intro">Der Schatten der selbsterhaltenden Vier zeigt sich in der Gefahr, dass die eigene Zurückgezogenheit die Person hinter der Mission fast vollständig unsichtbar macht – ein Risiko, das bei anhaltender globaler Aufmerksamkeit zur Zerreißprobe werden kann, wenn Rückzug irgendwann nicht mehr möglich ist.</p>
         </blockquote>
 
@@ -2110,7 +2110,7 @@ export function aliceMillerPortraitPage() {
 
         <h2 class="vb-section">3. Der Fünferflügel: Theorie statt Bekenntnis</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sozialen Vier eine zurückgezogene, analytisch-theoriebildende Seite. Miller verarbeitete ihre eigene, zutiefst persönliche Geschichte nicht als Bekenntnis, sondern verwandelte sie in ein umfassendes psychologisches Modell: Ihr Buch ›Das Drama des begabten Kindes‹ (1979) beschreibt, wie ein Kind sein wahres Selbst opfert, um die Liebe der Eltern zu gewinnen, und stattdessen eine glänzende, aber falsche Fassade aufbaut – eine Theorie, die sich lesen lässt wie die verschlüsselte Übersetzung ihrer eigenen, nie offen erzählten Geschichte.</p>
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verleiht der sozialen Vier eine zurückgezogene, analytisch-theoriebildende Seite. Miller verarbeitete ihre eigene, zutiefst persönliche Geschichte nicht als Bekenntnis, sondern verwandelte sie in ein umfassendes psychologisches Modell: Ihr Buch ›Das Drama des begabten Kindes‹ (1979) beschreibt, wie ein Kind sein wahres Selbst opfert, um die Liebe der Eltern zu gewinnen, und stattdessen eine glänzende, aber falsche Fassade aufbaut – eine Theorie, die sich lesen lässt wie die verschlüsselte Übersetzung ihrer eigenen, nie offen erzählten Geschichte.</p>
           <p class="vb-intro">Auch privat blieb sie extrem verschlossen: In ihren Büchern schuf sie sich eine fiktionalisierte Erzählerfigur, um die eigene Biografie zu verschleiern. Ihr Holocaust-Überleben, die erzwungene Heirat, die wahren Umstände ihrer Flucht – all das kam erst nach ihrem Tod ans Licht. Ein Fünferflügel, der Nähe zur eigenen Wahrheit nur über den Umweg der Theorie zulässt, nie über das direkte, ungeschützte Bekenntnis.</p>
         </blockquote>
 
@@ -2122,8 +2122,8 @@ export function aliceMillerPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten der sozialen Vier</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO4w5 zeigt sich in der weltweiten Wirkung ihres Werks: ›Das Drama des begabten Kindes‹ wurde zum internationalen Bestseller und veränderte, wie eine ganze Generation von Therapeutinnen und Therapeuten über kindliche Bedürfnisse und elterliche Macht dachte. 2001 erhielt sie den Oskar-Pfister-Preis, 2009 den Internationalen Sigmund-Freud-Preis für Psychotherapie – Anerkennung, aber nach den eigenen, unangepassten Bedingungen einer Frau, die eine ganze Disziplin öffentlich infrage stellte.</p>
-          <p class="vb-intro">Der Schatten liegt in genau der Kluft zwischen öffentlicher Botschaft und privater Realität, die ihr Sohn nach ihrem Tod offenlegte. Aus Enneagramm-Perspektive lässt sich das als Extremform der SO4-Gefahr lesen: Die eigene, dramatische Wundengeschichte kann so viel Raum einnehmen, dass sie die konkrete, alltägliche Fürsorge für die Menschen verdrängt, die am nächsten stehen.</p>
+          <p class="vb-intro">Was die SO4w5 auszeichnet, zeigt sich in der weltweiten Wirkung ihres Werks: ›Das Drama des begabten Kindes‹ wurde zum internationalen Bestseller und veränderte, wie eine ganze Generation von Therapeutinnen und Therapeuten über kindliche Bedürfnisse und elterliche Macht dachte. 2001 erhielt sie den Oskar-Pfister-Preis, 2009 den Internationalen Sigmund-Freud-Preis für Psychotherapie – Anerkennung, aber nach den eigenen, unangepassten Bedingungen einer Frau, die eine ganze Disziplin öffentlich infrage stellte.</p>
+          <p class="vb-intro">Der dunkle Teil liegt in genau der Kluft zwischen öffentlicher Botschaft und privater Realität, die ihr Sohn nach ihrem Tod offenlegte. Aus Enneagramm-Perspektive lässt sich das als Extremform der SO4-Gefahr lesen: Die eigene, dramatische Wundengeschichte kann so viel Raum einnehmen, dass sie die konkrete, alltägliche Fürsorge für die Menschen verdrängt, die am nächsten stehen.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Das Vermächtnis: Eine Wahrheit, die erst nach dem Tod ganz sichtbar wurde</h2>
@@ -2196,7 +2196,7 @@ export function ringoStarrPortraitPage() {
 
         <h2 class="vb-section">6. Das Faultier, das lieber trug als glänzte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Neun führt von der Selbstvergessenheit <em>Ich zähle nicht, solange ich mich anpasse</em> zur Erkenntnis <em>Ich bin bereits da, mit eigenem Gewicht, auch wenn ich niemanden verdränge.</em> Vom tragenden, nie aufdringlichen Puls der Beatles bis zur jährlich wiederholten, schlichten Botschaft "Peace and Love" &ndash; das ist das bleibende Bild dieser sexuellen Neun mit Einserflügel: Wirkung durch Verschmelzung, nicht durch Vordrängen.</p>
+          <p class="vb-intro">Der Entwicklungsweg der Neun führt von der Selbstvergessenheit <em>Ich zähle nicht, solange ich mich anpasse</em> zur Erkenntnis <em>Ich bin bereits da, mit eigenem Gewicht, auch wenn ich niemanden verdränge.</em> Vom tragenden, nie aufdringlichen Puls der Beatles bis zur jährlich wiederholten, schlichten Botschaft "Peace and Love" &ndash; das ist das bleibende Bild dieser sexuellen Neun mit Einserflügel: Wirkung durch Verschmelzung, nicht durch Vordrängen.</p>
           <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-jon-bon-jovi">Jon Bon Jovi</a> (SX9w1) &ndash; auch bei ihm zeigt sich dieselbe Verschmelzungsfähigkeit sowohl in einer jahrzehntelangen Ehe als auch in der Treue zu derselben Band. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-jon-bon-jovi">Porträt zu Jon Bon Jovi</a>.</p>
         </blockquote>
 
@@ -2252,12 +2252,12 @@ export function kimEngPortraitPage() {
         <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Drei mit Zweierflügel</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SE3w2 zeigt sich bei Kim Eng darin, wie sie eine zutiefst persönliche Erfahrung &ndash; ihre eigene spirituelle Transformation nach 1998 &ndash; in eine lehrbare, körperlich fundierte Methode verwandelt hat, die unabhängig von ihrer Rolle als Tolles Partnerin Bestand hat. Ihr eigener Hinweis, PTM sei ›im tiefsten Sinne keine Form‹, sondern das Körperliche lediglich ›ein Fahrzeug, ein Portal zur Stille‹, zeigt eine Reife, die über bloße Selbstoptimierung hinausgeht.</p>
-          <p class="vb-intro">Der Schatten liegt in einer Gefahr, die selbsterhaltende Dreien mit starkem Zweierflügel häufig teilen: die eigene Identität so eng an die geleistete Arbeit und die Fürsorge für andere zu knüpfen, dass die eigene, von der Rolle unabhängige Person in der öffentlichen Wahrnehmung schwer zu fassen bleibt &ndash; in Kim Engs Fall verstärkt durch ihre öffentliche Position als ›Eckhart Tolles Partnerin‹, aus deren Schatten ihr eigenständiges Werk sich erst über Jahre herausschälen musste.</p>
+          <p class="vb-intro">Der dunkle Teil liegt in einer Gefahr, die selbsterhaltende Dreien mit starkem Zweierflügel häufig teilen: die eigene Identität so eng an die geleistete Arbeit und die Fürsorge für andere zu knüpfen, dass die eigene, von der Rolle unabhängige Person in der öffentlichen Wahrnehmung schwer zu fassen bleibt &ndash; in Kim Engs Fall verstärkt durch ihre öffentliche Position als ›Eckhart Tolles Partnerin‹, aus deren Schatten ihr eigenständiges Werk sich erst über Jahre herausschälen musste.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Der Waschbär neben dem Faultier</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Drei führt von der Überzeugung <em>Ich bin nur wert, was ich leiste</em> zur Erkenntnis <em>Ich bin wertvoll, unabhängig von meiner Leistung.</em> Kim Engs eigener Satz beschreibt genau diesen Weg von der reinen Machbarkeit zur Präsenz: ›Es geht nicht um die Form. Der Körper ist lediglich ein Fahrzeug, ein Portal zur Stille und zum Wesenskern.‹ Eine Drei, die gelernt hat, dass die eigentliche Handlung nicht im Erreichen liegt, sondern im bewussten Da-Sein während des Tuns.</p>
+          <p class="vb-intro">Der Weg zur Heilung führt bei der Drei von der Überzeugung <em>Ich bin nur wert, was ich leiste</em> zur Erkenntnis <em>Ich bin wertvoll, unabhängig von meiner Leistung.</em> Kim Engs eigener Satz beschreibt genau diesen Weg von der reinen Machbarkeit zur Präsenz: ›Es geht nicht um die Form. Der Körper ist lediglich ein Fahrzeug, ein Portal zur Stille und zum Wesenskern.‹ Eine Drei, die gelernt hat, dass die eigentliche Handlung nicht im Erreichen liegt, sondern im bewussten Da-Sein während des Tuns.</p>
           <p class="vb-intro">Ein aufschlussreicher Vergleich ist ihr Lebens- und Arbeitspartner <a href="javascript:void(0)" data-route="beruehmte-eckhart-tolle">Eckhart Tolle</a> (SX9w1): Während seine sexuelle Neun sich in vollständiger, fast mühelos wirkender Verschmelzung mit dem gegenwärtigen Moment ausdrückt, übersetzt Kim Engs selbsterhaltende Drei mit Zweierflügel dieselbe Präsenz-Lehre in eine konkrete, körperlich erlernbare Praxis, die andere selbst ausführen können. Zwei völlig unterschiedliche Enneagramm-Strukturen, die sich in derselben spirituellen Botschaft treffen &ndash; jede über den eigenen, typspezifischen Weg. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-eckhart-tolle">Porträt zu Eckhart Tolle</a>.</p>
         </blockquote>
 
@@ -2322,7 +2322,7 @@ export function pedroAlonsoPortraitPage() {
 
         <h2 class="vb-section">6. Der Heilungsweg</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Bin ich nur wertvoll, wenn ich glänze?</em> zur Erkenntnis <em>Ich bin wertvoll, auch jenseits der Bühne.</em> Dass Alonso den späten, gewaltigen Erfolg nicht nutzte, um sich auf einer einzigen erfolgreichen Rolle auszuruhen, sondern ihn als Ermöglichung für ›viele andere Leben‹ beschrieb – als Maler, Schriftsteller, Romanautor –, zeigt die reife Seite desselben Musters.</p>
+          <p class="vb-intro">Der Weg zur Heilung führt bei der Drei von der Frage <em>Bin ich nur wertvoll, wenn ich glänze?</em> zur Erkenntnis <em>Ich bin wertvoll, auch jenseits der Bühne.</em> Dass Alonso den späten, gewaltigen Erfolg nicht nutzte, um sich auf einer einzigen erfolgreichen Rolle auszuruhen, sondern ihn als Ermöglichung für ›viele andere Leben‹ beschrieb – als Maler, Schriftsteller, Romanautor –, zeigt die reife Seite desselben Musters.</p>
           <p class="vb-intro">Der Gepard, der fast fünf Jahrzehnte auf seinen einen entscheidenden Sprint wartete – und der, als er kam, nicht nur rannte, sondern ihn nutzte, um endlich all das zu zeigen, was während der langen Wartezeit in ihm gewachsen war.</p>
         </blockquote>
 
@@ -2382,8 +2382,8 @@ export function paulBocusePortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE3w4 ist die Fähigkeit, <strong>über ein halbes Jahrhundert an einem Ort Substanz aufzubauen</strong>, die weit über die eigene Lebenszeit hinausreicht – der ›Bocuse d'Or‹ und das Institut Paul Bocuse tragen seinen Namen und seinen Anspruch bis heute weiter, lange nach seinem Tod.</p>
-          <p class="vb-intro">Der Schatten liegt in genau der Kompartimentierung, die auch seine Stärke war: Drei parallele, streng getrennte Leben über Jahrzehnte zu führen, bedeutet auch, keiner der beteiligten Personen die volle, ungeteilte Wahrheit zuzumuten. Als sein Sohn Jérôme nach seinem Tod 2018 einen staatlichen Trauerakt (›hommage national‹) ablehnte, mit der Begründung, sein Vater habe zeitlebens einfach der bescheidene Koch aus Collonges bleiben wollen, statt zur Symbolfigur eines offiziellen Staatsakts zu werden, zeigt das dieselbe Zurückhaltung – öffentliche Bescheidenheit, hinter der ein deutlich komplexeres Innenleben verborgen blieb, als das glatte Bild des ›bodenständigen Patrons‹ vermuten ließ.</p>
+          <p class="vb-intro">Die Stärke der SE3w4 ist die Fähigkeit, <strong>über ein halbes Jahrhundert an einem Ort Substanz aufzubauen</strong>, die weit über die eigene Lebenszeit hinausreicht – der ›Bocuse d'Or‹ und das Institut Paul Bocuse tragen seinen Namen und seinen Anspruch bis heute weiter, lange nach seinem Tod.</p>
+          <p class="vb-intro">Der dunkle Teil liegt in genau der Kompartimentierung, die auch seine Stärke war: Drei parallele, streng getrennte Leben über Jahrzehnte zu führen, bedeutet auch, keiner der beteiligten Personen die volle, ungeteilte Wahrheit zuzumuten. Als sein Sohn Jérôme nach seinem Tod 2018 einen staatlichen Trauerakt (›hommage national‹) ablehnte, mit der Begründung, sein Vater habe zeitlebens einfach der bescheidene Koch aus Collonges bleiben wollen, statt zur Symbolfigur eines offiziellen Staatsakts zu werden, zeigt das dieselbe Zurückhaltung – öffentliche Bescheidenheit, hinter der ein deutlich komplexeres Innenleben verborgen blieb, als das glatte Bild des ›bodenständigen Patrons‹ vermuten ließ.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Das Vermächtnis: Der Waschbär, der seinen Stern nie verlor</h2>
@@ -2441,7 +2441,7 @@ export function fionaHarveyPortraitPage() {
 
         <h2 class="vb-section">3. Der Dreierflügel: Reichweite durch nachgewiesene Kompetenz</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Hunger nach Wirkung und sichtbarer Anerkennung für das eigene Können – nicht durch Selbstdarstellung, sondern durch nachweisbare fachliche Autorität. Harveys Interviewpartner lesen sich wie ein Who's who der internationalen Klimapolitik: UN-Generalsekretär António Guterres und sein Vorgänger Ban Ki-moon, der frühere britische Premierminister Tony Blair, der frühere sowjetische Staatschef Michail Gorbatschow sowie der Naturforscher Sir David Attenborough.</p>
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> schenkt der selbsterhaltenden Zwei den Hunger nach Wirkung und sichtbarer Anerkennung für das eigene Können – nicht durch Selbstdarstellung, sondern durch nachweisbare fachliche Autorität. Harveys Interviewpartner lesen sich wie ein Who's who der internationalen Klimapolitik: UN-Generalsekretär António Guterres und sein Vorgänger Ban Ki-moon, der frühere britische Premierminister Tony Blair, der frühere sowjetische Staatschef Michail Gorbatschow sowie der Naturforscher Sir David Attenborough.</p>
           <p class="vb-intro">Diese Reichweite wurde mehrfach offiziell honoriert: zweimal der Preis der Foreign Press Association für die Umweltgeschichte des Jahres (2005 und 2007), die Auszeichnung als Journalistin des Jahres bei den British Environment and Media Awards (2007), der globale Preis der Society of Environmental Journalists für herausragende Ressortberichterstattung zur COP26 (2022), ein Covering-Climate-Now-Preis (2024) sowie die Aufnahme in die BBC-Woman's-Hour-Liste der 30 einflussreichsten britischen Frauen für den Planeten (2020). Für den Dreierflügel zählt dabei weniger die Bühne selbst als der Beweis, dass die eigene Arbeit etwas bewirkt hat.</p>
         </blockquote>
 
@@ -2769,7 +2769,7 @@ export function kevinKuehnertPortraitPage() {
 
         <h2 class="vb-section">3. Der Siebenerflügel: die freche, öffentliche Seite</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der Sechs Tempo, Witz und die Lust, nach vorn zu gehen, statt in Deckung zu bleiben. Eine Sechs mit schwächer ausgeprägtem Siebenerflügel hätte sich vielleicht im Hintergrund der Parteiarbeit gehalten. Kühnert ging mit 28 an die Spitze der Jusos und startete 2018 die Kampagne #NoGroKo gegen eine neue Große Koalition, mit der die Jusos zum Parteieintritt aufriefen, um im Mitgliederentscheid dagegen zu stimmen. Der Generalsekretär der eigenen Partei, Lars Klingbeil, kritisierte das Vorgehen.</p>
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> schenkt der Sechs Tempo, Witz und die Lust, nach vorn zu gehen, statt in Deckung zu bleiben. Eine Sechs mit schwächer ausgeprägtem Siebenerflügel hätte sich vielleicht im Hintergrund der Parteiarbeit gehalten. Kühnert ging mit 28 an die Spitze der Jusos und startete 2018 die Kampagne #NoGroKo gegen eine neue Große Koalition, mit der die Jusos zum Parteieintritt aufriefen, um im Mitgliederentscheid dagegen zu stimmen. Der Generalsekretär der eigenen Partei, Lars Klingbeil, kritisierte das Vorgehen.</p>
           <p class="vb-intro">2019 sagte er der ›Zeit‹, er sei Sozialist und eine Überwindung des Kapitalismus brauche Kollektivierung, am Beispiel von BMW, außerdem solle niemand mehr Wohnraum besitzen, als er selbst bewohne. Union, FDP und AfD reagierten scharf, die SPD-Spitze distanzierte sich. Diese Lust an der Zuspitzung, am Auftritt bei Böhmermann und in Talkshows ist der Flügel; die Sechs darunter fragt, wie weit man gehen kann, ohne die Gruppe zu verlieren.</p>
         </blockquote>
 
@@ -2842,7 +2842,7 @@ export function volkerRosinPortraitPage() {
 
         <h2 class="vb-section">3. Der Sechserflügel: Kinder ernst nehmen, Gemeinschaft stiften</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der Sieben Loyalität und das Bedürfnis nach einem verlässlichen Gegenüber. Eine Sieben mit schwächer ausgeprägtem Sechserflügel hätte sich vielleicht in immer neue Projekte gestürzt; Rosin bleibt seit fast vierzig Jahren bei derselben Zielgruppe. Er studierte Sozialwesen an der Fachhochschule Kiel und schloss 1984 als Diplom-Sozialpädagoge ab. Sein Publikum nimmt er ernst: ›Kinder sind das ehrlichste Publikum der Welt, sie sind sehr spontan.‹ ›Kinder merken, dass ich ihr Freund bin.‹ ›Kinder haben es verdient, dass sie abwechslungsreiche Musik hören.‹</p>
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> schenkt der Sieben Loyalität und das Bedürfnis nach einem verlässlichen Gegenüber. Eine Sieben mit schwächer ausgeprägtem Sechserflügel hätte sich vielleicht in immer neue Projekte gestürzt; Rosin bleibt seit fast vierzig Jahren bei derselben Zielgruppe. Er studierte Sozialwesen an der Fachhochschule Kiel und schloss 1984 als Diplom-Sozialpädagoge ab. Sein Publikum nimmt er ernst: ›Kinder sind das ehrlichste Publikum der Welt, sie sind sehr spontan.‹ ›Kinder merken, dass ich ihr Freund bin.‹ ›Kinder haben es verdient, dass sie abwechslungsreiche Musik hören.‹</p>
           <p class="vb-intro">Die Gemeinschaft stiftet er über Mitmachen: ›Ich biete ihnen etwas an: Mitklatschen, mitsingen, mitspringen, mitschunkeln, mit Party machen.‹ Seit 2000 unterstützt er über das Projekt ›Ein kleines Herz‹ herzkranke Kinder, er war Mitgründer des Deutschen Kita-Musikpreises (2011), und eine Düsseldorfer Grundschule wurde 2010 in ›Volker Rosin Schule‹ umbenannt. Er beschreibt sich als bodenständig und familienorientiert.</p>
         </blockquote>
 

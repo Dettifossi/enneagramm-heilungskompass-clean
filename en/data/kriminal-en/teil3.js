@@ -454,7 +454,7 @@ export function charlesMansonPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. The Seven-Wing: Charisma, Vision, Immoderation</h3>
-        <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the Six something it would not possess on its own: a spirit of adventure, seductiveness, and enthusiasm. Where a Six with a weaker Seven wing controls and secures, a strongly developed Seven-wing turns the Six into a magnet. Manson sang, played guitar, wrote songs, and associated with musicians like Dennis Wilson of The Beach Boys. He genuinely believed he was going to become a rock star.</p>
+        <p class="vb-intro">The <strong>Seven-wing (w7)</strong> lends the Six something it would not possess on its own: a spirit of adventure, seductiveness, and enthusiasm. Where a Six with a weaker Seven wing controls and secures, a strongly developed Seven-wing turns the Six into a magnet. Manson sang, played guitar, wrote songs, and associated with musicians like Dennis Wilson of The Beach Boys. He genuinely believed he was going to become a rock star.</p>
         <p class="vb-intro">When this vision collapsed — his record deal with Terry Melcher failed to materialize — the Seven-wing flipped into something destructive. The <em>immoderation</em> of the Seven combined with the <em>fear</em> of the Six: rage, grandiosity, and paranoia merged into an ideological spiral. Manson developed his "Helter Skelter" narrative: an impending race war that his Family would survive and ultimately rule over. The murders were intended to trigger this war.</p>
       </div>
 

@@ -160,7 +160,7 @@ export function bastianPastewkaPortraitPage() {
 
         <h2 class="vb-section">3. The Two-wing: The Decades-Long Partnership with Anke Engelke</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the Self-Preservation Three a genuine impulse toward connection and collegial closeness. Pastewka and <a href="#beruehmte-anke-engelke">Anke Engelke (SX6w7)</a> met in 1996 on "Die Wochenshow" and have since worked together, across nearly thirty years, in numerous joint formats of German television – from the two-part comedy series "Fröhliche Weihnachten! – mit Wolfgang und Anneliese" to co-hosting "Unser schönes Deutschland" to the reunion show "Wiedersehen macht Freude." What began as professional collaboration has long since become a genuine, load-bearing friendship.</p>
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> brings the Self-Preservation Three a genuine impulse toward connection and collegial closeness. Pastewka and <a href="#beruehmte-anke-engelke">Anke Engelke (SX6w7)</a> met in 1996 on "Die Wochenshow" and have since worked together, across nearly thirty years, in numerous joint formats of German television – from the two-part comedy series "Fröhliche Weihnachten! – mit Wolfgang und Anneliese" to co-hosting "Unser schönes Deutschland" to the reunion show "Wiedersehen macht Freude." What began as professional collaboration has long since become a genuine, load-bearing friendship.</p>
           <p class="vb-intro">This constellation – a Self-Preservation Three alongside a Sexual Six with a Seven-wing – is not an exception but a pattern that shows up again and again across more than thirty years of practical experience with the Enneagram: SP3 and SX6 get along strikingly often, whether as a couple, among colleagues, or within communities. The reliable, craft-solid substance of the SP3 meets the alert, loyal, and warmly humorous energy of the SX6 – two energies that carry each other rather than grinding against one another.</p>
         </blockquote>
 
@@ -172,7 +172,7 @@ export function bastianPastewkaPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP3w2 lies in the ability to <strong>combine genuine craft mastery with genuine collegial warmth</strong>. Pastewka has established himself over decades as one of the most reliable comedians and voice actors in German television, without building his profile on scandal or self-promotion – his substance speaks for itself.</p>
+          <p class="vb-intro">The best of the SP3w2 lies in the ability to <strong>combine genuine craft mastery with genuine collegial warmth</strong>. Pastewka has established himself over decades as one of the most reliable comedians and voice actors in German television, without building his profile on scandal or self-promotion – his substance speaks for itself.</p>
           <p class="vb-intro">The shadow of the Self-Preservation Three shows in a high, sometimes unforgiving standard of perfection applied to himself and others: those who work with less care find little understanding from him. Yet it is precisely this standard, paired with the warm, connecting energy of the Two-wing, that has earned him both the industry's respect and genuine, long-standing friendships over the decades.</p>
         </blockquote>
 
@@ -248,7 +248,7 @@ export function byronKatiePortraitPage() {
 
         <h2 class="vb-section">6. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX6w7 is its uncompromising willingness to confront itself and others with what hurts the most &ndash; not out of harshness, but out of the conviction that freedom lies exactly there. Millions of people worldwide have attended Byron Katie's seminars, the <em>School for The Work</em>, or read her books, many with the feeling of having been truly heard for the first time.</p>
+          <p class="vb-intro">The strength of the SX6w7 is its uncompromising willingness to confront itself and others with what hurts the most &ndash; not out of harshness, but out of the conviction that freedom lies exactly there. Millions of people worldwide have attended Byron Katie's seminars, the <em>School for The Work</em>, or read her books, many with the feeling of having been truly heard for the first time.</p>
           <p class="vb-intro">The shadow shows itself in the criticism the method has faced for years: some accuse it of reducing complex psychological distress &ndash; trauma, abuse, clinical depression &ndash; too far down to the question of whether a thought is true, as if any suffering could be dissolved through self-inquiry alone. For the SX6, direct confrontation was her own salvation &ndash; but not every kind of pain can be resolved with the same method she used to overcome her own. The mature SX6w7 knows: courage in the face of truth does not always replace the need for time, companionship, and patience.</p>
         </blockquote>
 
@@ -305,7 +305,7 @@ export function christophWaltzPortraitPage() {
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation One</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SP1 is obvious: extraordinary craftsmanship, inner integrity, a precision that leaves others in awe. Whoever films with Christoph Waltz knows: he is prepared. He is focused. He wastes no energy.</p>
-          <p class="vb-intro">The shadow is subtler: the SP1 tends toward inner exhaustion through constant self-criticism. The fate pattern of the One is <strong>anger</strong> &ndash; and in the SP1 this anger turns against itself first. Never good enough. Never finished. Never truly certain whether it was right. Waltz has suggested in interviews that he can barely truly enjoy his work &ndash; he always sees first what could have been better.</p>
+          <p class="vb-intro">The shadow is subtler: the SP1 tends toward inner exhaustion through constant self-criticism. At the centre of the One stands <strong>anger</strong> &ndash; and in the SP1 this anger turns against itself first. Never good enough. Never finished. Never truly certain whether it was right. Waltz has suggested in interviews that he can barely truly enjoy his work &ndash; he always sees first what could have been better.</p>
           <p class="vb-intro">That he nevertheless won two Oscars and appeared remarkably composed in doing so is no sign of indifference. It is the sign of an SP1 who has learned to know his inner judge &ndash; and to no longer let it decide everything.</p>
         </blockquote>
 
@@ -383,8 +383,8 @@ export function dhapanbalYunupinguPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP8w9 is its ability to secure continuity without imposing itself. Carrying forward a cultural and family legacy of this weight without diluting it and without losing oneself in it demands exactly the mix of steadfastness and patience that defines the SP8w9.</p>
-          <p class="vb-intro">The shadow lies in the flip side of this groundedness: whoever holds their territory this persistently can be overlooked &ndash; precisely because they seek no stage. The SP8w9 risks disappearing into quietness where louder self-promotion might bring more international attention. This is not a deficiency but a deliberate priority: one's own territory over one's own visibility.</p>
+          <p class="vb-intro">The strength of the SP8w9 is its ability to secure continuity without imposing itself. Carrying forward a cultural and family legacy of this weight without diluting it and without losing oneself in it demands exactly the mix of steadfastness and patience that defines the SP8w9.</p>
+          <p class="vb-intro">The darker side lies in the flip side of this groundedness: whoever holds their territory this persistently can be overlooked &ndash; precisely because they seek no stage. The SP8w9 risks disappearing into quietness where louder self-promotion might bring more international attention. This is not a deficiency but a deliberate priority: one's own territory over one's own visibility.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Orangutan That Carries Its Territory</h2>
@@ -436,7 +436,7 @@ export function editaGruberovaPortraitPage() {
 
         <h2 class="vb-section">3. The Two-wing: Bonds with Mentors and Audience</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the Self-Preservation Three a genuine impulse toward connection – not toward the wider public, but toward the few people who truly shaped and carried her craft. In Vienna, Gruberová worked closely with voice teacher Ruthilde Boesch to perfect her voice and repertoire, and her decisive artistic breakthrough as Zerbinetta in "Ariadne auf Naxos" was inseparable from her encounter with conductor Karl Böhm, who championed her and gave her crucial artistic impulses.</p>
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> lends the Self-Preservation Three a genuine impulse toward connection – not toward the wider public, but toward the few people who truly shaped and carried her craft. In Vienna, Gruberová worked closely with voice teacher Ruthilde Boesch to perfect her voice and repertoire, and her decisive artistic breakthrough as Zerbinetta in "Ariadne auf Naxos" was inseparable from her encounter with conductor Karl Böhm, who championed her and gave her crucial artistic impulses.</p>
           <p class="vb-intro">This loyalty to the people and places that had helped shape her craft also showed in her bond with the Vienna State Opera itself: in 2015 the house celebrated her forty-five-year stage anniversary with its own gala concert – a reciprocal bond grown over decades between an artist and the house that had trusted her first, in 1971.</p>
         </blockquote>
 
@@ -448,7 +448,7 @@ export function editaGruberovaPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP3w2 lies in the ability to <strong>combine decades of consistent technical precision with genuine loyalty to mentors and audience</strong>. Gruberová still sang the most demanding coloratura roles at seventy-two – her final stage role was Queen Elisabeth in Donizetti's "Roberto Devereux" in 2019 at the Bavarian State Opera in Munich. For a voice type that reaches its limits considerably earlier for most singers, this career length is extraordinary – the direct result of decades of tireless technical maintenance rather than short-lived brilliance.</p>
+          <p class="vb-intro">The best of the SP3w2 lies in the ability to <strong>combine decades of consistent technical precision with genuine loyalty to mentors and audience</strong>. Gruberová still sang the most demanding coloratura roles at seventy-two – her final stage role was Queen Elisabeth in Donizetti's "Roberto Devereux" in 2019 at the Bavarian State Opera in Munich. For a voice type that reaches its limits considerably earlier for most singers, this career length is extraordinary – the direct result of decades of tireless technical maintenance rather than short-lived brilliance.</p>
           <p class="vb-intro">The shadow of the Self-Preservation Three shows in the unrelenting discipline such a career length demands: those who draw their security exclusively from demonstrable skill can rarely afford to let up. Gruberová's decades of consistent vocal maintenance was the expression of exactly this inner standard – a discipline that produced impressive results but also left little room for slack.</p>
         </blockquote>
 
@@ -503,7 +503,7 @@ export function franzLisztPortraitPage() {
 
         <h2 class="vb-section">3. The Eight-Wing: The Open Fight for New Music</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Sexual Seven something Sevens with a less developed Eight wing often lack: the willingness for open combat rather than avoiding conflict. From 1848, Liszt settled in Weimar as court Kapellmeister and became the leading figure of the "New German School" &ndash; a movement that set programmatic, literarily inspired music against the conservative Leipzig school oriented toward Beethoven and pure instrumental form. In doing so, he single-handedly invented the genre of the symphonic poem.</p>
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> lends the Sexual Seven something Sevens with a less developed Eight wing often lack: the willingness for open combat rather than avoiding conflict. From 1848, Liszt settled in Weimar as court Kapellmeister and became the leading figure of the "New German School" &ndash; a movement that set programmatic, literarily inspired music against the conservative Leipzig school oriented toward Beethoven and pure instrumental form. In doing so, he single-handedly invented the genre of the symphonic poem.</p>
           <p class="vb-intro">In 1860, Johannes Brahms (SP9w8), Clara Schumann, and the violinist Joseph Joachim signed a public manifesto against the "New German School" &ndash; an open attack that moved Liszt not to retreat but to sharpen his position further. A Seven with a weaker Eight wing would likely have avoided the conflict. Liszt sought it out: he publicly stood by his aesthetic convictions, even against the established musical world of Leipzig, and pushed through his vision with unshakeable persistence.</p>
         </blockquote>
 
@@ -594,8 +594,8 @@ export function giannaNanniniPortraitPage() {
 
         <h2 class="vb-section">7. Light and Shadow of the Self-Preservation One</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP1w9 lies in the ability to <strong>consistently live one's own principles without imposing them on others</strong> – Nannini has neither publicly attacked her family nor campaigned for social approval of her unconventional life choices. She has simply lived them, with the same discipline she brings to her music.</p>
-          <p class="vb-intro">The shadow shows in the reticence with which the SP1w9 handles even deep personal matters: about her relationship with her daughter's father, about the exact circumstances of her family history, Nannini has spoken publicly very little – private matters stay private, even amid public interest. The One's fatal flaw is <strong>anger</strong>, which in the SP1 is usually directed inward – as a constant, self-imposed demand to carry every decision through with full consequence, without justifying it.</p>
+          <p class="vb-intro">The strength of the SP1w9 lies in the ability to <strong>consistently live one's own principles without imposing them on others</strong> – Nannini has neither publicly attacked her family nor campaigned for social approval of her unconventional life choices. She has simply lived them, with the same discipline she brings to her music.</p>
+          <p class="vb-intro">The darker side shows in the reticence with which the SP1w9 handles even deep personal matters: about her relationship with her daughter's father, about the exact circumstances of her family history, Nannini has spoken publicly very little – private matters stay private, even amid public interest. The One's fatal flaw is <strong>anger</strong>, which in the SP1 is usually directed inward – as a constant, self-imposed demand to carry every decision through with full consequence, without justifying it.</p>
         </blockquote>
 
         <h2 class="vb-section">8. The Healing Path: From Quiet Discipline to Lived Freedom</h2>
@@ -655,7 +655,7 @@ export function heidiKlumPortraitPage() {
         <h2 class="vb-section">4. Light and Shadow of the Sexual Three</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SX3w4 is the ability to build a diverse, artistically ambitious life's work out of decades of carefully maintained public presence &ndash; from model to TV host to entrepreneur with her own fashion lines, jewelry, and fragrance collections. With an estimated net worth of around $160 million, Klum ranks among the most commercially successful people to emerge from the modeling business.</p>
-          <p class="vb-intro">The fate pattern of the Three is <strong>self-deceit</strong> &ndash; the conviction that one's own image is identical to one's own worth. In the SX3w4, this can become a constant need to reinvent oneself ever more impressively, rather than simply being present. Klum's consistently spotlit private life &ndash; from her marriage to Seal to her later relationship with Tom Kaulitz &ndash; shows how closely public stage and personal life are intertwined for the SX3.</p>
+          <p class="vb-intro">At the centre of the Three stands <strong>self-deceit</strong> &ndash; the conviction that one's own image is identical to one's own worth. In the SX3w4, this can become a constant need to reinvent oneself ever more impressively, rather than simply being present. Klum's consistently spotlit private life &ndash; from her marriage to Seal to her later relationship with Tom Kaulitz &ndash; shows how closely public stage and personal life are intertwined for the SX3.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Work: A Decades-Long Art of Transformation</h2>
@@ -725,13 +725,13 @@ export function indraNooyiPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP8w7 is its <strong>long-term foresight paired with assertiveness</strong>. Nooyi made unpopular strategic decisions &ndash; such as investing in healthier products while the market still rewarded sugar and fat &ndash; and held to them, even against analysts demanding short-term gains. This shows the SP8 in its most mature form: securing safety not for the next quarter, but for the next generation.</p>
-          <p class="vb-intro">The shadow shows in a toughness that employees and analysts sometimes described as unyielding, distant, or excessively controlling. When activist investors in 2012 demanded that PepsiCo spin off its snack business, Nooyi defended her territory with total resolve &ndash; and prevailed, though not without a public power struggle. The Self-Preservation Eight does not voluntarily surrender its territory, even when others raise good arguments for it.</p>
+          <p class="vb-intro">The best of the SP8w7 is its <strong>long-term foresight paired with assertiveness</strong>. Nooyi made unpopular strategic decisions &ndash; such as investing in healthier products while the market still rewarded sugar and fat &ndash; and held to them, even against analysts demanding short-term gains. This shows the SP8 in its most mature form: securing safety not for the next quarter, but for the next generation.</p>
+          <p class="vb-intro">The darker side shows in a toughness that employees and analysts sometimes described as unyielding, distant, or excessively controlling. When activist investors in 2012 demanded that PepsiCo spin off its snack business, Nooyi defended her territory with total resolve &ndash; and prevailed, though not without a public power struggle. The Self-Preservation Eight does not voluntarily surrender its territory, even when others raise good arguments for it.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Orangutan Who Remapped a World Corporation</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Eight leads from lust to innocence &ndash; from compulsive control over one's own territory to a strength that can also let go and trust. Nooyi stepped down in orderly fashion and by her own choice in 2018, handing leadership to a successor she had helped develop, and turned since then to mentoring, board roles (including Amazon and Philips), and her book <em>My Life in Full</em>, in which she wrote openly about the tension between career and motherhood.</p>
+          <p class="vb-intro">The Eight’s path to healing leads from lust to innocence &ndash; from compulsive control over one's own territory to a strength that can also let go and trust. Nooyi stepped down in orderly fashion and by her own choice in 2018, handing leadership to a successor she had helped develop, and turned since then to mentoring, board roles (including Amazon and Philips), and her book <em>My Life in Full</em>, in which she wrote openly about the tension between career and motherhood.</p>
           <p class="vb-intro">From a young immigrant with 500 dollars in her pocket to one of the most influential business leaders in the world: that is the orangutan that did not inherit its territory, but built it &ndash; branch by branch, decision by decision, until the tree could carry what it was meant to carry.</p>
         </blockquote>
 
@@ -783,7 +783,7 @@ export function jennaOrtegaPortraitPage() {
 
         <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SO2w3 lies in the ability to consistently use enormous public visibility for causes that reach beyond one's own career – Ortega's engagement for representation and mental health reaches, through her reach, an audience of millions that many smaller initiatives could never achieve.</p>
+          <p class="vb-intro">The best of the SO2w3 lies in the ability to consistently use enormous public visibility for causes that reach beyond one's own career – Ortega's engagement for representation and mental health reaches, through her reach, an audience of millions that many smaller initiatives could never achieve.</p>
           <p class="vb-intro">The Two's fatal flaw is <strong>pride</strong> – the conviction of needing to matter to others, combined with the difficulty of openly naming one's own needs. In Ortega, the shadow shows in a stark contrast: despite enormous public presence, she describes herself as "incredibly misunderstood" and describes the exhausting, often hidden compulsive rituals she wrestles with in private – a sign of how much strength it takes to remain constantly visible and available for others while one's own inner reality stays invisible.</p>
         </blockquote>
 
@@ -843,7 +843,7 @@ export function josephAounPortraitPage() {
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation One</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SP1w9 lies exactly in this combination: decades-proven, incorruptible integrity, joined with the ability to step back so far that even deeply divided camps come to trust him. Aoun did not take the highest office in the land because he sought it, but because his fractured countrymen could find no one who embodied less self-interest than he did.</p>
-          <p class="vb-intro">The fate pattern of the One is <strong>anger</strong>, which in the SP1 typically turns inward &ndash; as chronic worry over whether one's own dutifulness is enough. In the SP1w9, this can combine with a tendency toward restraint that brings stability in calm times, but in a state crisis with a collapsed economy, the unresolved question of Hezbollah's arms, and enormous reform pressure, can also read as too cautious, too quiet. The ability to hold steady under pressure without pushing himself into the foreground is at once Aoun's greatest strength and his greatest test in office.</p>
+          <p class="vb-intro">The core pattern of the One is <strong>anger</strong>, which in the SP1 typically turns inward &ndash; as chronic worry over whether one's own dutifulness is enough. In the SP1w9, this can combine with a tendency toward restraint that brings stability in calm times, but in a state crisis with a collapsed economy, the unresolved question of Hezbollah's arms, and enormous reform pressure, can also read as too cautious, too quiet. The ability to hold steady under pressure without pushing himself into the foreground is at once Aoun's greatest strength and his greatest test in office.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Eagle Without Noise &ndash; A Parallel to Queen Elizabeth II</h2>
@@ -904,14 +904,14 @@ export function kenFollettPortraitPage() {
 
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation One</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP1w9 is obvious: extraordinary reliability, historical thoroughness, a body of work of impressive coherence across decades. Readers know what they are getting with Follett &ndash; precisely researched, cleanly constructed, epic narratives that keep their promise.</p>
-          <p class="vb-intro">The shadow lies deeper than in the more reactive SP1w2. The fate pattern of the One is <strong>anger</strong> &ndash; in the SP1w9, this anger is further muted by the Nine-wing, almost numbed. Instead of open self-criticism, a diffuse inner self-effacement tends to emerge: a tendency to let one's own needs disappear behind the next deadline, the next research project. Work becomes a safe retreat &ndash; even at moments when rest would actually be called for.</p>
+          <p class="vb-intro">What distinguishes the SP1w9 is obvious: extraordinary reliability, historical thoroughness, a body of work of impressive coherence across decades. Readers know what they are getting with Follett &ndash; precisely researched, cleanly constructed, epic narratives that keep their promise.</p>
+          <p class="vb-intro">The darker side lies deeper than in the more reactive SP1w2. The fate pattern of the One is <strong>anger</strong> &ndash; in the SP1w9, this anger is further muted by the Nine-wing, almost numbed. Instead of open self-criticism, a diffuse inner self-effacement tends to emerge: a tendency to let one's own needs disappear behind the next deadline, the next research project. Work becomes a safe retreat &ndash; even at moments when rest would actually be called for.</p>
           <p class="vb-intro">This fusion of diligence and self-forgetfulness is the real challenge of the subtype: one can be extraordinarily productive for decades without ever truly asking what one actually needs &ndash; beyond the next page.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Path of Healing: From Quiet Exhaustion to True Rest</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the One leads from anger to serenity &ndash; for the SP1w9, more precisely: from forced, work-bound rest to genuine, freely chosen rest. The growing One learns that equanimity need not be a means of avoiding conflict, but may be a genuine inner stance, one that does not have to be earned through diligence.</p>
+          <p class="vb-intro">Healing for the One leads from anger to serenity &ndash; for the SP1w9, more precisely: from forced, work-bound rest to genuine, freely chosen rest. The growing One learns that equanimity need not be a means of avoiding conflict, but may be a genuine inner stance, one that does not have to be earned through diligence.</p>
           <p class="vb-intro">Ken Follett embodies this path in his own, unspectacular way: a lifetime spent on the same craft, with the same care, without the urge to constantly reinvent or outdo himself. The eagle does not need to prove that it can fly. It simply keeps circling &ndash; decade after decade, in its own, unshakeable rhythm.</p>
         </blockquote>
 
@@ -961,14 +961,14 @@ export function leboMPortraitPage() {
 
         <h2 class="vb-section">3. The Three-Wing: Visible Success on the Biggest Stage</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to shape visible, publicly effective success from a secure base. Lebo M did not stay in the background of a single film project – his Zulu vocals became the recognizable acoustic signature of one of the most successful film and stage franchises in history, with standalone concert appearances worldwide.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> lends the self-preservation Two the drive to shape visible, publicly effective success from a secure base. Lebo M did not stay in the background of a single film project – his Zulu vocals became the recognizable acoustic signature of one of the most successful film and stage franchises in history, with standalone concert appearances worldwide.</p>
           <p class="vb-intro">In 2019 he returned for the computer-animated remake and, in a performance with HAVASI in Budapest, became the first African performer to appear there – another visible, public stage that brought his musical origins to a new audience.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP2w3 lies in the ability to build, from a single, deeply personal musical gesture – the Zulu call at the start of <em>Circle of Life</em> – a decades-long, world-spanning body of work that has become familiar to millions without denying its roots.</p>
-          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to a work's success. In the SP2w3, this can combine with the need to remain visibly present in every new installment of the franchise – a constancy that secures continuity, but also ties one's identity closely to a single, if monumental, body of work.</p>
+          <p class="vb-intro">The strength of the SP2w3 lies in the ability to build, from a single, deeply personal musical gesture – the Zulu call at the start of <em>Circle of Life</em> – a decades-long, world-spanning body of work that has become familiar to millions without denying its roots.</p>
+          <p class="vb-intro">At the centre of the Two stands <strong>pride</strong> &ndash; the conviction of being indispensable to a work's success. In the SP2w3, this can combine with the need to remain visibly present in every new installment of the franchise – a constancy that secures continuity, but also ties one's identity closely to a single, if monumental, body of work.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Work: From Soweto to the Center of a World Success</h2>
@@ -1020,7 +1020,7 @@ export function ludwigXIVPortraitPage() {
 
         <h2 class="vb-section">3. The Two-Wing: Favor as an Instrument of Rule</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the social Three a warm, relationship-oriented note &ndash; recognition is secured not through distance and authority alone, but through personal closeness, favor, and targeted attention. The daily "lever" and "coucher," the public dressing and undressing of the king, were not mere ritual but a finely calibrated instrument of power: whoever was permitted to assist the king while dressing was somebody. Whoever was not, was nobody.</p>
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> lends the social Three a warm, relationship-oriented note &ndash; recognition is secured not through distance and authority alone, but through personal closeness, favor, and targeted attention. The daily "lever" and "coucher," the public dressing and undressing of the king, were not mere ritual but a finely calibrated instrument of power: whoever was permitted to assist the king while dressing was somebody. Whoever was not, was nobody.</p>
           <p class="vb-intro">Louis bound his courtiers not only through fear but through genuine attention: he supported artists such as Molière, Lully, and the garden architect Le Nôtre with generous pensions, maintained close, personal relationships over decades with his mistresses &ndash; among them Louise de La Vallière and Madame de Montespan &ndash; and after the death of his first wife secretly married his longtime confidante, Madame de Maintenon. SO3w2 seeks confirmation not in cool distance, but in the direct, personal bond with those it gathers around itself.</p>
         </blockquote>
 
@@ -1092,7 +1092,7 @@ export function bryanJohnsonPortraitPage() {
 
         <h2 class="vb-section">3. The six-wing: threat analysis as a life principle</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>six-wing (w6)</strong> gives the sexual Five a deep need for security and a systematic way of thinking in threat scenarios. In Johnson this can be read directly off "Project Blueprint": every organ is treated as a potential weak point, every biomarker as an early-warning system against a threat that affects all people – the decline of one's own body. Instead of vaguely hoping for a long life, the SX5w6 builds a tightly meshed control system that leaves nothing to chance.</p>
+          <p class="vb-intro">The <strong>six-wing (w6)</strong> lends the sexual Five a deep need for security and a systematic way of thinking in threat scenarios. In Johnson this can be read directly off "Project Blueprint": every organ is treated as a potential weak point, every biomarker as an early-warning system against a threat that affects all people – the decline of one's own body. Instead of vaguely hoping for a long life, the SX5w6 builds a tightly meshed control system that leaves nothing to chance.</p>
           <p class="vb-intro">The same systematic approach already shaped his earlier entrepreneurial career: with Kernel he founded a brain-computer-interface company, and with the OS Fund (the name nods to "Operating System" – a venture-capital fund that deliberately invests in what it sees as the future's technological "operating systems") a fund that deliberately invests in early-stage, high-risk science and technology projects – always with an eye on what could threaten or transform the future, and always with a small, tight circle of trusted people rather than broad public accountability.</p>
         </blockquote>
 
@@ -1172,7 +1172,7 @@ export function markZuckerbergPortraitPage() {
 
         <h2 class="vb-section">5. The Healing Path: Showing the Inner Self</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Five leads from <em>I do not have enough to give</em> to <em>What I am is sufficient &ndash; even without controlling the image.</em> For the SX5w6 this means gradually extending the trust it gives to its inner circle into its own visibility &ndash; not controlling everything, not anticipating every reaction, allowing itself to be seen without armor.</p>
+          <p class="vb-intro">For the Five, the path of healing leads from <em>I do not have enough to give</em> to <em>What I am is sufficient &ndash; even without controlling the image.</em> For the SX5w6 this means gradually extending the trust it gives to its inner circle into its own visibility &ndash; not controlling everything, not anticipating every reaction, allowing itself to be seen without armor.</p>
           <p class="vb-intro">In recent years, Zuckerberg has taken steps in this direction that are remarkable for an SX5w6: jiu-jitsu, MMA training, practicing martial arts publicly &ndash; being present in the body rather than behind screens. This is not merely a hobby. It is the hedgehog in motion &ndash; one that does not retract its spines, but is learning to be stable even without them. The journey is not complete. But it has begun.</p>
         </blockquote>
 
@@ -1220,7 +1220,7 @@ export function mohammedPortraitPage() {
 
         <h2 class="vb-section">3. The Nine-Wing: Patience Instead of Escalation</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the social Eight a strategic patience that an Eight with a weaker Nine wing rarely shows. This becomes clear in the Treaty of Hudaybiyyah (628 CE): Muhammad concluded a truce with the Meccans that, to many of his own followers, looked like a concession &ndash; he gave up the immediate pilgrimage to Mecca and accepted terms that seemed disadvantageous in the short term. In hindsight, this very concession proved to be a wise move: the truce created a framework in which Islam spread far more over the following two years than it could have through military confrontation.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> brings the social Eight a strategic patience that an Eight with a weaker Nine wing rarely shows. This becomes clear in the Treaty of Hudaybiyyah (628 CE): Muhammad concluded a truce with the Meccans that, to many of his own followers, looked like a concession &ndash; he gave up the immediate pilgrimage to Mecca and accepted terms that seemed disadvantageous in the short term. In hindsight, this very concession proved to be a wise move: the truce created a framework in which Islam spread far more over the following two years than it could have through military confrontation.</p>
           <p class="vb-intro">This ability to accept a short-term disadvantage for a longer-term, more stable peace is typical of the Nine-wing: it grounds the Eight's assertiveness, making it enduring rather than impulsive. After the ultimately bloodless conquest of Mecca in 630 CE, Muhammad declared a general amnesty for his former opponents &ndash; not revenge, but consolidation. This too is the signature of the SO8w9: victory used to establish peace, not to settle old scores. This renunciation of revenge is telling: in the Eight's ego lies the temptation to seek retaliation as proof of one's own strength. That the social Eight, as the counter-type of the Eight, consciously decides against this impulse and subordinates its own satisfaction to the community is itself an expression of the counter-type principle: it fights inwardly against the very Eight-principle that would otherwise dominate, rather than giving in to it.</p>
         </blockquote>
 
@@ -1296,13 +1296,13 @@ export function ninaChubaPortraitPage() {
         <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SO2 is its accessibility. Nina Chuba has built a closeness to her audience in a few years that many artists do not achieve in an entire career. That is not strategy. It is because the SO2 is genuinely interested &ndash; in people, in their stories, in what moves them.</p>
-          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the deep, often unconscious need to be needed, to be indispensable. In the SO2 this manifests as the danger of overlooking one&#39;s own exhaustion: always available, always open, always there for others &ndash; until the tank is empty. Nina Chuba has addressed this topic publicly herself. That is a sign of maturity &ndash; and simultaneously the task that lies before her: to learn to be valuable even when she is not giving.</p>
+          <p class="vb-intro">What drives the Two is <strong>pride</strong> &ndash; the deep, often unconscious need to be needed, to be indispensable. In the SO2 this manifests as the danger of overlooking one&#39;s own exhaustion: always available, always open, always there for others &ndash; until the tank is empty. Nina Chuba has addressed this topic publicly herself. That is a sign of maturity &ndash; and simultaneously the task that lies before her: to learn to be valuable even when she is not giving.</p>
           <p class="vb-intro">The Three-wing intensifies the pressure: the Three wants to win, shine, deliver. When SO2 and w3 together lead into exhaustion, an inner voice is missing that says: now is enough.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Healing Path: From Giving to Receiving</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Two leads from giving to receiving &ndash; from the question <em>What do others need from me?</em> to the question <em>What do I need?</em> The growing Two discovers: it is not only loveable when it gives. It is loveable because it is. Entirely without performance. Entirely without a song.</p>
+          <p class="vb-intro">The way to healing for the Two leads from giving to receiving &ndash; from the question <em>What do others need from me?</em> to the question <em>What do I need?</em> The growing Two discovers: it is not only loveable when it gives. It is loveable because it is. Entirely without performance. Entirely without a song.</p>
           <p class="vb-intro">For Nina Chuba, who at 22 has already achieved more than most in an entire artistic life, this path still lies ahead &ndash; and she is well on her way. Whoever can speak about limits and exhaustion at that age has grasped the most important thing: that the Golden Retriever deserves care for itself too. Not only for those it warms.</p>
         </blockquote>
 
@@ -1366,12 +1366,12 @@ export function pierceBrosnanPortraitPage() {
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation One</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SP1w2 is a rare combination of discipline and warmth: someone who holds high standards for themselves and, at the same time, channels that energy into standing up for others. Brosnan's decades-long commitment against ovarian cancer, carried by his own loss, shows exactly this mature form of the One.</p>
-          <p class="vb-intro">The shadow of the SP1 is an inner strictness that never quite feels satisfied with itself. The fate pattern of the One is <strong>anger</strong>, which in the SP1 usually turns inward &ndash; as a constant worry about not being sufficiently prepared. Brosnan himself has spoken openly about years of alcohol abuse in his younger years, from which he freed himself with the same discipline he later brought to his roles. The Eagle can judge itself most harshly &ndash; and needs just as much strength to forgive itself.</p>
+          <p class="vb-intro">The shadow of the SP1 is an inner strictness that never quite feels satisfied with itself. The passion of the One is <strong>anger</strong>, which in the SP1 usually turns inward &ndash; as a constant worry about not being sufficiently prepared. Brosnan himself has spoken openly about years of alcohol abuse in his younger years, from which he freed himself with the same discipline he later brought to his roles. The Eagle can judge itself most harshly &ndash; and needs just as much strength to forgive itself.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Path of Healing: From Demand to Devotion</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the One leads from anger to serenity &ndash; from the question <em>Did I do it right?</em> to the recognition <em>I gave what I had, and that was enough.</em> For the SP1w2, this path shows most clearly when its own discipline is no longer proof of self-worth, but becomes a tool for others.</p>
+          <p class="vb-intro">The way to healing for the One leads from anger to serenity &ndash; from the question <em>Did I do it right?</em> to the recognition <em>I gave what I had, and that was enough.</em> For the SP1w2, this path shows most clearly when its own discipline is no longer proof of self-worth, but becomes a tool for others.</p>
           <p class="vb-intro">Brosnan's transformation from personal loss into public commitment to cancer research and environmental protection reads as exactly this path: strictness toward oneself becomes care for the world. The Eagle that no longer defends only its own territory, but turns its gaze toward something greater than itself.</p>
         </blockquote>
 
@@ -1432,7 +1432,7 @@ export function ruthBaderGinsburgPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow: Relentlessness</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX8w9 lies in her absolute integrity. Ginsburg never let herself be bent by political expediency. Her stance on equality was no career strategy—it was a life's purpose for which she paid: as a law student denied professorships, as an attorney in an era when women were scarcely accepted into law firms, and as a Justice advised for decades to retire.</p>
+          <p class="vb-intro">The best of the SX8w9 lies in her absolute integrity. Ginsburg never let herself be bent by political expediency. Her stance on equality was no career strategy—it was a life's purpose for which she paid: as a law student denied professorships, as an attorney in an era when women were scarcely accepted into law firms, and as a Justice advised for decades to retire.</p>
           <p class="vb-intro">The shadow: the relentlessness of the SX8w9 can harden into stubbornness. Ginsburg held onto her office until the end—and died without enabling a successor under a president aligned with her views. Her seat fell to Amy Coney Barrett. The question of whether she stayed too long is not easily answered. But the SX8w9 rarely asks it—the position is her territory, and one does not surrender territory.</p>
         </blockquote>
 
@@ -1486,7 +1486,7 @@ export function stephenHawkingPortraitPage() {
 
         <h2 class="vb-section">3. The Six-Wing: Reliability as a Survival Strategy</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the social Five a systematic note oriented toward reliability &ndash; rather than relying on spontaneous flashes of insight, it builds tested, repeatable systems and trusts a small, loyal circle. As his paralysis progressed, this became existential for Hawking: for decades he surrounded himself with a carefully coordinated, very small team of caregivers, technical assistants, and doctoral students who maintained his computer-based communication system and accompanied him around the clock.</p>
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> lends the social Five a systematic note oriented toward reliability &ndash; rather than relying on spontaneous flashes of insight, it builds tested, repeatable systems and trusts a small, loyal circle. As his paralysis progressed, this became existential for Hawking: for decades he surrounded himself with a carefully coordinated, very small team of caregivers, technical assistants, and doctoral students who maintained his computer-based communication system and accompanied him around the clock.</p>
           <p class="vb-intro">His academic career shows the same Six-wing note: from 1979 to 2009 he held the Lucasian Chair of Mathematics at Cambridge &ndash; the very chair once held by Isaac Newton (SO5w6). Belonging to an institution tested reliable over centuries was more than a formality for Hawking: it was exactly the kind of security an SO5w6 instinctively seeks.</p>
         </blockquote>
 
@@ -1499,7 +1499,7 @@ export function stephenHawkingPortraitPage() {
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SO5w6 is the ability to prepare the most complex knowledge so that it becomes accessible to millions without losing its substance. More than any other physicist of his generation, Hawking helped make cosmology common knowledge &ndash; a public mission to share knowledge that reached far beyond academic circles.</p>
-          <p class="vb-intro">The shadow shows in a certain personal distance: both of Hawking's marriages ended in divorce, and colleagues repeatedly described him as someone who maintained a certain analytical distance even within his closest circle &ndash; the SO5-typical tendency to process existential and emotional questions through the detour of intellect rather than through direct emotional expression.</p>
+          <p class="vb-intro">The darker side shows in a certain personal distance: both of Hawking's marriages ended in divorce, and colleagues repeatedly described him as someone who maintained a certain analytical distance even within his closest circle &ndash; the SO5-typical tendency to process existential and emotional questions through the detour of intellect rather than through direct emotional expression.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Legacy: A Universe for Everyone</h2>
@@ -1618,7 +1618,7 @@ export function voltairePortraitPage() {
 
         <h2 class="vb-section">3. The Three-Wing: Fame as the Stage of the Enlightenment</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the sexual Four the ability to turn its interior outward and transform it into effect. Voltaire was one of the first writers in history to become financially independent through his pen alone &ndash; through shrewd investments, including a clever lottery scheme, he secured a fortune that freed him from princely patronage and allowed him to attack the powerful of his era without restraint.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> lends the sexual Four the ability to turn its interior outward and transform it into effect. Voltaire was one of the first writers in history to become financially independent through his pen alone &ndash; through shrewd investments, including a clever lottery scheme, he secured a fortune that freed him from princely patronage and allowed him to attack the powerful of his era without restraint.</p>
           <p class="vb-intro">At the same time, he cultivated the closest ties to the most influential courts of Europe: Frederick the Great of Prussia brought him to his court in Potsdam in 1750, where Voltaire was celebrated at first, before the friendship broke apart in bitter dispute. At the court of Versailles as much as at Sanssouci, he knew how to stage his voice so it would be heard. His work "Candide" (1759), a biting satire of Leibniz's philosophy of optimism, became a Europe-wide bestseller &ndash; the Three-wing knows: an idea that is not read changes nothing.</p>
         </blockquote>
 
@@ -1683,7 +1683,7 @@ export function isadoraDuncanPortraitPage() {
 
         <h2 class="vb-section">3. The Three-wing: turning a vision into a movement</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Sexual Two the drive to shape personal devotion into a visible, effective project. Duncan did not stop at her own stage presence: she founded dance schools in Germany, France, the United States, and eventually the Soviet Union to systematically pass on her method to a new generation &ndash; the famous "Isadorables," six students she trained herself, performed worldwide in her style &mdash; in 1920 Duncan even sought to formally adopt them and had them take her surname, though, despite later claims, no legally binding adoption ever took place.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> brings the Sexual Two the drive to shape personal devotion into a visible, effective project. Duncan did not stop at her own stage presence: she founded dance schools in Germany, France, the United States, and eventually the Soviet Union to systematically pass on her method to a new generation &ndash; the famous "Isadorables," six students she trained herself, performed worldwide in her style &mdash; in 1920 Duncan even sought to formally adopt them and had them take her surname, though, despite later claims, no legally binding adoption ever took place.</p>
           <p class="vb-intro">Her ambition was not for personal fame alone, but for establishing an entire art form: she wanted free expressive dance to endure as an independent, serious art, far beyond her own career. The Three-wing supplied the strategic foresight and self-staging; the Sexual Two underneath supplied the actual, personal devotion that gave that vision its life. She was also among the guests at the country estate of <a href="javascript:void(0)" data-route="beruehmte-auguste-rodin">Auguste Rodin</a> (SX9w8) in Meudon.</p>
         </blockquote>
 
@@ -1764,7 +1764,7 @@ export function suzanLoriParksPortraitPage() {
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Seven</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SP7w8 shows in a nearly inexhaustible creative discipline: in 2002, Parks became the first African American woman ever to win the Pulitzer Prize for Drama, for "Topdog/Underdog" &ndash; a milestone born of the same unrelenting work intensity that also carried the 365-day project.</p>
-          <p class="vb-intro">The shadow shows in the sheer impossibility of keeping such a broad, continuously produced body of work at the same peak level throughout &ndash; critics have repeatedly noted a certain unevenness between Parks's strongest and weaker works, a price the sheer volume of production carries with it. The Eight-wing Seven's uncompromising territorial defense shows here not in violence, but in an unconditional adherence to her own high working pace, even when not every single piece reaches the same brilliance as "Topdog/Underdog."</p>
+          <p class="vb-intro">The darker side shows in the sheer impossibility of keeping such a broad, continuously produced body of work at the same peak level throughout &ndash; critics have repeatedly noted a certain unevenness between Parks's strongest and weaker works, a price the sheer volume of production carries with it. The Eight-wing Seven's uncompromising territorial defense shows here not in violence, but in an unconditional adherence to her own high working pace, even when not every single piece reaches the same brilliance as "Topdog/Underdog."</p>
         </blockquote>
 
         <h2 class="vb-section">6. Legacy: The Gorilla That Rewrote Its Territory Every Day</h2>
@@ -1816,7 +1816,7 @@ export function miraMuratiPortraitPage() {
 
         <h2 class="vb-section">3. The Three-Wing: Competence as Currency</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Two a pronounced focus on visible achievement and efficiency — relationships are not only nurtured, but cemented through demonstrable competence and results. Murati's rise through several top-tier companies within a few years, always with growing responsibility, shows exactly this combination: belonging is earned through performance, not through personal closeness alone.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> brings the Two a pronounced focus on visible achievement and efficiency — relationships are not only nurtured, but cemented through demonstrable competence and results. Murati's rise through several top-tier companies within a few years, always with growing responsibility, shows exactly this combination: belonging is earned through performance, not through personal closeness alone.</p>
           <p class="vb-intro">After leaving OpenAI in September 2024, she founded her own company just five months later, in February 2025: Thinking Machines Lab. This rapid, purposeful translation of her own competence into a new leadership role — rather than a pause after an intense career phase — is a typical Three-wing signature: the value of the self is measured by what gets built next.</p>
         </blockquote>
 
@@ -1827,7 +1827,7 @@ export function miraMuratiPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SO2w3 is the ability to <strong>become the load-bearing pillar of a significant cause through consistently built competence</strong>, without needing to rely on self-promotion — Murati's role in shaping one of the most influential technologies of our time rests on exactly this quiet indispensability.</p>
+          <p class="vb-intro">The strength of the SO2w3 is the ability to <strong>become the load-bearing pillar of a significant cause through consistently built competence</strong>, without needing to rely on self-promotion — Murati's role in shaping one of the most influential technologies of our time rests on exactly this quiet indispensability.</p>
           <p class="vb-intro">The shadow of the SO2 shows itself where belonging and influence become so tightly bound to an institution that the self becomes hard to recognize apart from it — her extraordinary private reticence leaves open how much of Mira Murati is visible outside her professional roles, and how much is deliberately held back behind the cause.</p>
         </blockquote>
 
@@ -1946,7 +1946,7 @@ export function thomasMannPortraitPage() {
 
         <h2 class="vb-section">3. The Nine-Wing: Control Instead of Outburst</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the Social One an additional coolness and reserve &ndash; the judgment is not shouted, but delivered in a polished, distant form, which often makes it only more unassailable. Mann was no polemicist in the style of his brother Heinrich, with whom he feuded publicly for months during the First World War &ndash; his effect came from the sheer authority of his controlled, print-ready self-presentation.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> grants the Social One an additional coolness and reserve &ndash; the judgment is not shouted, but delivered in a polished, distant form, which often makes it only more unassailable. Mann was no polemicist in the style of his brother Heinrich, with whom he feuded publicly for months during the First World War &ndash; his effect came from the sheer authority of his controlled, print-ready self-presentation.</p>
           <p class="vb-intro">This control was no accident, but a program: Mann worked for decades according to an almost unshakeable daily ritual &ndash; fixed hours at the desk, fixed walks, fixed rest periods. The Nine-wing shows itself here as a retreat into a self-created, orderly routine that opposed the chaos of his inner life with a fixed form.</p>
         </blockquote>
 
@@ -2084,7 +2084,7 @@ export function guentherKrabbenhoeftPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow of the Social Seven</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SO7w6 is the ability to turn one's own enthusiasm into a gift for others. "The older I get, the more I dare to be young," Krabbenhöft says – a sentence that gives thousands of older people the courage not to let themselves be reduced to a socially assigned image of old age. The 2015 Street Fashion Pluck Award from the German Fashion and Textile Designers' Association honors exactly this effect: not mere extravagance, but an attitude that is contagious.</p>
+          <p class="vb-intro">What distinguishes the SO7w6 is the ability to turn one's own enthusiasm into a gift for others. "The older I get, the more I dare to be young," Krabbenhöft says – a sentence that gives thousands of older people the courage not to let themselves be reduced to a socially assigned image of old age. The 2015 Street Fashion Pluck Award from the German Fashion and Textile Designers' Association honors exactly this effect: not mere extravagance, but an attitude that is contagious.</p>
           <p class="vb-intro">The shadow of the social Seven lies in the risk of eventually being unable to distinguish one's own role from public expectation – when genuine enthusiasm turns into an obligation to be perpetually present. In Krabbenhöft, little of this is visible so far: in interviews he doesn't come across as someone playing a role, but as someone who spent a lifetime preparing for this moment without knowing it.</p>
         </blockquote>
 
@@ -2356,7 +2356,7 @@ export function joeDispenzaPortraitPage() {
         <h2 class="vb-section">5. Light and shadow of the Social Nine with One-wing</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SO9w1 shows in the fact that Dispenza has given many people a low-barrier, disciplined entry point into meditation, paired with genuine hope and a sense of community that carries real value, especially in an increasingly isolated society.</p>
-          <p class="vb-intro">The shadow shows in exactly the dynamic that recurs around high-visibility, single-method salvation narratives: someone who believes a single method can explain and resolve nearly all human suffering is living out their own fixation just as much as anyone else with a passion – often less consciously than their own self-presentation as an "enlightened thought leader" would suggest, only with a bigger stage and a bigger audience. Reviews from retreat attendees repeatedly describe near-cultish devotion, "toxic positivity," and at times significant financial cost for content that overlaps heavily with material already available online.</p>
+          <p class="vb-intro">The darker side shows in exactly the dynamic that recurs around high-visibility, single-method salvation narratives: someone who believes a single method can explain and resolve nearly all human suffering is living out their own fixation just as much as anyone else with a passion – often less consciously than their own self-presentation as an "enlightened thought leader" would suggest, only with a bigger stage and a bigger audience. Reviews from retreat attendees repeatedly describe near-cultish devotion, "toxic positivity," and at times significant financial cost for content that overlaps heavily with material already available online.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The legacy: a movement between real benefit and unexamined mystique</h2>
@@ -2489,7 +2489,7 @@ export function bruceSpringsteenPortraitPage() {
         <h2 class="vb-section">5. Light and Shadow of the Sexual Nine with a One-Wing</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SX9w1 shows in how Springsteen, out of a difficult childhood marked by mental illness and poverty, built a decades-long, disciplined artistic community that gave millions of people a voice for their own lives.</p>
-          <p class="vb-intro">The shadow lies in the flip side of that same capacity for merging: concealing his own depression for decades, until it could barely be carried any longer, shows how easily the SX9 can lose itself in its outward role while its own inner reality goes unnoticed &ndash; even by itself.</p>
+          <p class="vb-intro">The darker side lies in the flip side of that same capacity for merging: concealing his own depression for decades, until it could barely be carried any longer, shows how easily the SX9 can lose itself in its outward role while its own inner reality goes unnoticed &ndash; even by itself.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Two Sloths With the Same Face</h2>
@@ -2920,7 +2920,7 @@ export function maxSchmelingPortraitPage() {
 
         <h2 class="vb-section">3. The Nine-wing: a gentleman who exposed no one</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the One composure and a conciliatory manner. In Schmeling it shows in the friendship with his opponent Joe Louis, which began in 1954 and lasted until Louis&rsquo;s death in 1981. When Louis died, Schmeling helped pay for the funeral. He had also given him money in hard times. Someone who becomes a friend of one of the most famous opponents in boxing history after two fights bears no grudge.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> lends the One composure and a conciliatory manner. In Schmeling it shows in the friendship with his opponent Joe Louis, which began in 1954 and lasted until Louis&rsquo;s death in 1981. When Louis died, Schmeling helped pay for the funeral. He had also given him money in hard times. Someone who becomes a friend of one of the most famous opponents in boxing history after two fights bears no grudge.</p>
           <p class="vb-intro">The One sets the standard, and the Nine-wing takes the harshness out of it.</p>
         </blockquote>
 

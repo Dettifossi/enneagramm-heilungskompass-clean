@@ -29,7 +29,7 @@ export function lanaDelReyPortraitPage() {
 
         <h2 class="vb-section">3. The Four-wing: the beauty of doomed love</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the sexual Three a melancholic, tragedy-loving depth that a purely success-oriented SX3w2 lacks – the image being built is not flawlessly radiant but morbidly beautiful, threaded through with loss and self-destruction. Del Rey's songs circle almost consistently around obsessive, often doomed love – her own relationships, including with Italian photographer Francesco Carrozzini (publicly escalating to a loud argument at LAX airport) or a repeatedly described preference for significantly older partners, feed directly into this lyrical material.</p>
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> grants the sexual Three a melancholic, tragedy-loving depth that a purely success-oriented SX3w2 lacks – the image being built is not flawlessly radiant but morbidly beautiful, threaded through with loss and self-destruction. Del Rey's songs circle almost consistently around obsessive, often doomed love – her own relationships, including with Italian photographer Francesco Carrozzini (publicly escalating to a loud argument at LAX airport) or a repeatedly described preference for significantly older partners, feed directly into this lyrical material.</p>
           <p class="vb-intro">Her self-chosen nickname "gangster Nancy Sinatra" shows this wing coloring particularly clearly: critics noted that her actual demeanor came across as reserved and docile rather than tough – the "gangster" part was less real toughness than a deliberately chosen, dramatically charged narrative about herself. This is exactly the SX3w4 formula: the image is optimized not for perfection, but for a fascinating, tragic story.</p>
         </blockquote>
 
@@ -108,7 +108,7 @@ export function gordonRamsayPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow of the Sexual Three</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX3w4 is the ability to <strong>turn intensity and perfectionism into infectious energy</strong> – a 2025 Ironman comeback after a serious 2024 cycling accident, with an emotional finish line alongside his family, shows this combination of hardness and genuine emotional investment at its most positive.</p>
+          <p class="vb-intro">The strength of the SX3w4 is the ability to <strong>turn intensity and perfectionism into infectious energy</strong> – a 2025 Ironman comeback after a serious 2024 cycling accident, with an emotional finish line alongside his family, shows this combination of hardness and genuine emotional investment at its most positive.</p>
           <p class="vb-intro">The shadow shows in recurring conflicts: multiple restaurant closures, lawsuits from employees over labor violations, a ten-million-dollar dispute with a business partner, and an accusation from a "Kitchen Nightmares" restaurant owner that her portrayal was staged and exaggerated. These patterns – conflicts over control, contract interpretation, and a very harsh tone toward staff – are the flip side of the same intensity that delights on stage: what looks like a drive toward peak performance can quickly tip into uncompromising harshness toward others in everyday life.</p>
         </blockquote>
 
@@ -167,7 +167,7 @@ export function cocoChanelPortraitPage() {
 
         <h2 class="vb-section">3. The Four-wing: the loss she never got over</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the self-preservation Three a melancholic, dramatizing depth – her own success isn't managed soberly, but underlaid with a tragic, singular life narrative. When Boy Capel, the great love of her life, died in a car accident in 1919, Chanel had herself driven to the crash site immediately. Twenty-five years later she told her friend Paul Morand: "His death was a terrible blow to me. In losing Capel, I lost everything. What followed was not a life of happiness." No other loss in her life was ever discussed in a similarly central way – the grief remained unprocessed and central for decades.</p>
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> brings the self-preservation Three a melancholic, dramatizing depth – her own success isn't managed soberly, but underlaid with a tragic, singular life narrative. When Boy Capel, the great love of her life, died in a car accident in 1919, Chanel had herself driven to the crash site immediately. Twenty-five years later she told her friend Paul Morand: "His death was a terrible blow to me. In losing Capel, I lost everything. What followed was not a life of happiness." No other loss in her life was ever discussed in a similarly central way – the grief remained unprocessed and central for decades.</p>
           <p class="vb-intro">Her famously sharp tongue also fits this picture: of a rival she reportedly said he "doesn't dress women, he upholsters them" – distancing through demonstrative superiority rather than warmth. Of herself she once said: "I am an odious person." This mix of morbid self-staging, never-resolved loss, and cutting social distance is the characteristic signature of the SP3w4 – success as a shield surrounding a deep, never fully closed wound.</p>
         </blockquote>
 
@@ -297,7 +297,7 @@ export function owenWilsonPortraitPage() {
 
         <h2 class="vb-section">3. The One-wing: retreat after the crisis</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the sexual Nine a quiet but persistent fidelity to principle – in Wilson it showed early on in his refusal to name a friend. After his suicide attempt in August 2007, which coincided with the end of his relationship with Kate Hudson and a longer-standing struggle with drugs, his brother Andrew moved in with him and structured his days with fixed schedules – Wilson himself didn't create this order, but had it given to him from the outside.</p>
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> grants the sexual Nine a quiet but persistent fidelity to principle – in Wilson it showed early on in his refusal to name a friend. After his suicide attempt in August 2007, which coincided with the end of his relationship with Kate Hudson and a longer-standing struggle with drugs, his brother Andrew moved in with him and structured his days with fixed schedules – Wilson himself didn't create this order, but had it given to him from the outside.</p>
           <p class="vb-intro">Since then he has largely avoided interviews, isn't active on any social network, and consistently keeps his private life out of the public eye. In a 2021 Esquire interview he described a fear of death that has persisted since age eleven, and a basic stance of "riding the wave" – accepting life's ups and downs rather than actively fighting them. This exact passive stance, combined with a quiet, unchanging moral line, is the characteristic SX9w1 formula.</p>
         </blockquote>
 
@@ -493,7 +493,7 @@ export function motherTeresaPortraitPage() {
 
         <h2 class="vb-section">3. The One-wing: directness without compromise</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two an added moral firmness – care for others becomes a matter of right and wrong, paired with a fidelity to principle that rarely compromises. This showed most clearly at the 1994 National Prayer Breakfast in Washington: just feet away from President and First Lady Clinton, she called abortion bluntly "the greatest destroyer of peace" and "murder by the mother herself" – most of the room rose in a standing ovation while the Clintons remained visibly still. Afterward she even pressed Hillary Clinton directly to help fund an orphanage as a practical alternative to abortion.</p>
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> lends the social Two an added moral firmness – care for others becomes a matter of right and wrong, paired with a fidelity to principle that rarely compromises. This showed most clearly at the 1994 National Prayer Breakfast in Washington: just feet away from President and First Lady Clinton, she called abortion bluntly "the greatest destroyer of peace" and "murder by the mother herself" – most of the room rose in a standing ovation while the Clintons remained visibly still. Afterward she even pressed Hillary Clinton directly to help fund an orphanage as a practical alternative to abortion.</p>
           <p class="vb-intro">The same unbendingness showed in how she handled criticism: when a prosecutor asked her to return roughly $1.25 million in donations from Charles Keating, later convicted of investment fraud, she did not respond to the request – instead writing the sentencing judge a clemency appeal for Keating. Criticism of the medical care in her homes for the dying (see section 4) was likewise met not with public course-correction but with unchanged adherence to the order's existing rules – no washing machines, no government funding, barely any modern medical equipment.</p>
         </blockquote>
 
@@ -558,7 +558,7 @@ export function willieNelsonPortraitPage() {
 
         <h2 class="vb-section">3. The One-wing: gentle on the outside, unbending at the core</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the sexual Nine a quiet but persistent fidelity to principle – Nelson himself once named this exact contrast: "I'm not easy to live with... I've been used to doing things my own way for so long that I'm not interested in any suggestions." That's the characteristic SX9w1 formula: easygoing and agreeable on the outside, a position at the core that has barely shifted in decades.</p>
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> grants the sexual Nine a quiet but persistent fidelity to principle – Nelson himself once named this exact contrast: "I'm not easy to live with... I've been used to doing things my own way for so long that I'm not interested in any suggestions." That's the characteristic SX9w1 formula: easygoing and agreeable on the outside, a position at the core that has barely shifted in decades.</p>
           <p class="vb-intro">This shows most clearly in his cannabis use: publicly known since the early 1970s, arrested multiple times – including in Dallas in 1974, in the Bahamas with a subsequent ban from the country, and in Louisiana in 2006 together with his sister Bobbie on his tour bus – he held to the same position for over fifty years and served for years on the board of NORML, publicly advocating for legalization long before it was socially safe to do so. No loud provocation, but a quiet, unshakeable adherence to his own position.</p>
           <p class="vb-intro"><strong>A side note from Enneagram homeopathy:</strong> In this Compass, Cannabis indica (Indian hemp) is regarded as Type 9's homeopathic passion remedy – its remedy picture describes exactly that soft, conflict-free blurring of time and space in which the Nine seeks refuge from tension and friction. Seen from this angle – offered purely as the author's interpretation, not a medical claim – Nelson's decades of publicly known cannabis use could be read as an unconscious act of self-healing: reaching for the very substance that, in potentized form, is meant to lead a Nine out of the fog rather than deeper into it. In its raw, unpotentized form rather than homeopathically potentized, that regulating effect is naturally absent; that Nelson nonetheless reached such an advanced age could at most be read as a sign that this plant's vibration generally seems to agree with him – even if a potentized dose would likely have served him better than decades of raw consumption.</p>
         </blockquote>
@@ -703,13 +703,13 @@ export function abidaParveenPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP9w8 is her <strong>ability to unfold, through total surrender, a force that reaches far beyond her own person</strong>. Parveen is revered by millions not because she stages herself, but because she becomes a vessel for something larger than herself &ndash; the mystical Sufi longing for union with the divine.</p>
-          <p class="vb-intro">The shadow shows in an inertia that can slow her own artistic development: Parveen has essentially held to the same form for decades, without fundamentally changing or experimenting musically. The Self-Preservation Nine can, in her persistence, become so deeply anchored in a proven form that further development recedes behind it &ndash; a price that even a mastery which turns into habit can end up paying.</p>
+          <p class="vb-intro">The strength of the SP9w8 is her <strong>ability to unfold, through total surrender, a force that reaches far beyond her own person</strong>. Parveen is revered by millions not because she stages herself, but because she becomes a vessel for something larger than herself &ndash; the mystical Sufi longing for union with the divine.</p>
+          <p class="vb-intro">The darker side shows in an inertia that can slow her own artistic development: Parveen has essentially held to the same form for decades, without fundamentally changing or experimenting musically. The Self-Preservation Nine can, in her persistence, become so deeply anchored in a proven form that further development recedes behind it &ndash; a price that even a mastery which turns into habit can end up paying.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Elephant That Sinks Into Trance and Carries Everyone Along</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Nine leads from inertia to genuine, active presence &ndash; from self-forgetting in the everyday to a conscious dissolving into something larger than one's own self. In Abida Parveen, exactly this path has become an artistic principle: she does not forget herself on stage out of passivity, but out of a practised, decades-deepened spiritual surrender.</p>
+          <p class="vb-intro">Healing for the Nine leads from inertia to genuine, active presence &ndash; from self-forgetting in the everyday to a conscious dissolving into something larger than one's own self. In Abida Parveen, exactly this path has become an artistic principle: she does not forget herself on stage out of passivity, but out of a practised, decades-deepened spiritual surrender.</p>
           <p class="vb-intro">When Parveen sings, the boundary between performer and audience dissolves, as does the boundary between this world and what the Sufi poets spoke of. This shows the SP9w8 at its most mature: the elephant that seemingly sinks motionless into itself &ndash; and precisely through that sets everyone else into motion.</p>
         </blockquote>
 
@@ -834,7 +834,7 @@ export function beatriceChebetPortraitPage() {
 
         <h2 class="vb-section">4. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP6w7 is her ability to connect community and joy &ndash; the belonging of the Six with the forward drive of the Seven. Beatrice Chebet carries both: she runs for herself, but she also runs for her country, for her training group, for the women who will come after her. This double foundation gives her a stability that one can see on the track: she does not buckle. She accelerates.</p>
+          <p class="vb-intro">What distinguishes the SP6w7 is her ability to connect community and joy &ndash; the belonging of the Six with the forward drive of the Seven. Beatrice Chebet carries both: she runs for herself, but she also runs for her country, for her training group, for the women who will come after her. This double foundation gives her a stability that one can see on the track: she does not buckle. She accelerates.</p>
           <p class="vb-intro">The shadow pattern of the Six is <strong>Cowardice</strong> &ndash; not in the sense of weakness, but as the inner movement that hesitates, that doubts, that asks: <em>Am I really good enough? Is that enough?</em> Every long-distance runner knows this inner dialogue. The Seven-wing helps to drown it out &ndash; with pace, with joy, with the rhythm of footsteps.</p>
         </blockquote>
 
@@ -953,7 +953,7 @@ export function claudeDebussyPortraitPage() {
 
         <h2 class="vb-section">3. The Five-wing: The Sound Researcher</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the sexual Four the analytical lens, the hunger for understanding, the ability not just to feel one&#39;s own experience but to penetrate it down to its smallest components. In Debussy this showed as an almost scientific engagement with sound itself: whole-tone scales, parallel fifths, unresolved chords, tone colors he mixed like a chemist.</p>
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> grants the sexual Four the analytical lens, the hunger for understanding, the ability not just to feel one&#39;s own experience but to penetrate it down to its smallest components. In Debussy this showed as an almost scientific engagement with sound itself: whole-tone scales, parallel fifths, unresolved chords, tone colors he mixed like a chemist.</p>
           <p class="vb-intro">Decisive was the 1889 Paris World&#39;s Fair, where Debussy first heard a Javanese gamelan orchestra &ndash; music without Western harmony, built on layers of sound rather than resolution. He sat before it for hours, took notes, studied, let an utterly foreign tonal world rewrite him. Here we see the Five-wing at its purest: not merely being moved, but wanting to understand until the foreign logic can be translated into one&#39;s own language.</p>
           <p class="vb-intro">His piano cycle <em>Préludes</em>, the string quartet, and above all <em>Prélude à l&#39;après-midi d&#39;un faune</em> (1894) &ndash; which Debussy himself called the beginning of modern music &ndash; are the result of years of this research: music that floats instead of resolving, that suggests instead of asserting. The Five-wing turned the SX4&#39;s rivalry into a craft of unmatched precision.</p>
         </blockquote>
@@ -967,13 +967,13 @@ export function claudeDebussyPortraitPage() {
         <h2 class="vb-section">5. Light and Shadow: The Sound That Doesn't Lie</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The fate pattern of the Four is <strong>envy</strong> &ndash; in the SX4 expressed as rivalry, as the feeling that the established order withholds something essential from oneself. In Debussy this showed as a lifelong distance from the official music establishment, the conservatories, the salons &ndash; even after his success, he remained suspicious of recognition that came too easily.</p>
-          <p class="vb-intro">The light of the SX4w5 lies in its ability not to suppress its own restlessness but to transform it into something radically new &ndash; Debussy rethought European music from its foundations and thereby paved the way for Ravel, Stravinsky, and all of modernism. The shadow lies in the ruthlessness with which the SX4 can place its own intensity above others&#39; needs &ndash; visible in the failed relationships that lined his life, and in the people who paid a high price for them.</p>
+          <p class="vb-intro">The best of the SX4w5 lies in its ability not to suppress its own restlessness but to transform it into something radically new &ndash; Debussy rethought European music from its foundations and thereby paved the way for Ravel, Stravinsky, and all of modernism. The darker side lies in the ruthlessness with which the SX4 can place its own intensity above others&#39; needs &ndash; visible in the failed relationships that lined his life, and in the people who paid a high price for them.</p>
           <p class="vb-intro">The Five-wing brought its own downside as well: a retreat into his own sound world that often isolated Debussy, chronically dissatisfied with his own work and suspicious of any label &ndash; he rejected the term &bdquo;Impressionist&ldquo;, which critics pinned on him, for his entire life.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Chihuahua Who Trusted Sound</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Four leads from the question <em>Why am I not like the others?</em> to the insight <em>What I hear is true &ndash; and it is mine to show.</em> For the SX4w5 this means treating his rivalry against convention not as a flaw, but as a compass leading toward something that did not exist before.</p>
+          <p class="vb-intro">For the Four, the path of healing leads from the question <em>Why am I not like the others?</em> to the insight <em>What I hear is true &ndash; and it is mine to show.</em> For the SX4w5 this means treating his rivalry against convention not as a flaw, but as a compass leading toward something that did not exist before.</p>
           <p class="vb-intro">Debussy died in 1918 of cancer, as Paris was under German artillery fire &ndash; one of his last public appearances was a concert under wartime conditions, at which he refused to let the circumstances dictate his own music. The Chihuahua from Saint-Germain-en-Laye did not make music louder to be heard &ndash; he taught it to float, to shimmer, to suggest. This shows the sexual Four with a Five-wing. That is Claude Debussy.</p>
         </blockquote>
 
@@ -1104,14 +1104,14 @@ export function edwardSnowdenPortraitPage() {
 
         <h2 class="vb-section">4. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX5w6 is its ability to remain capable of action despite all knowledge &ndash; despite complete insight into what is really happening. Snowden had seen what mass surveillance means: every email, every phone call, every click &ndash; stored, analyzed, available. He could have remained silent. He could have retreated behind his knowledge. Instead he shared it &ndash; with the whole world, all at once, irreversibly.</p>
+          <p class="vb-intro">The strength of the SX5w6 is its ability to remain capable of action despite all knowledge &ndash; despite complete insight into what is really happening. Snowden had seen what mass surveillance means: every email, every phone call, every click &ndash; stored, analyzed, available. He could have remained silent. He could have retreated behind his knowledge. Instead he shared it &ndash; with the whole world, all at once, irreversibly.</p>
           <p class="vb-intro">The karmic pattern of the Five is <strong>avarice</strong> &ndash; the withholding, the hoarding, the not-giving. Snowden&apos;s act was the most radical possible overcoming of this pattern: he gave everything. And he knew he would not get it back. That is no small price for a Five.</p>
           <p class="vb-intro">The shadow: life in exile, far from everything familiar, in a country whose language he barely speaks &ndash; that is also a form of withdrawal. The hedgehog in its burrow. Whether the isolation is chosen or imposed cannot be answered from the outside.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Healing Path: Remaining Visible</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Five leads from <em>I do not have enough to give</em> to <em>What I know does not belong only to me.</em> Snowden has taken this step &ndash; with a radicality that has no equal. The hedgehog that opens itself is vulnerable. And Snowden is vulnerable: legally, politically, personally. He cannot go back. He cannot hide. He has made himself visible &ndash; permanently.</p>
+          <p class="vb-intro">The Five’s path to healing leads from <em>I do not have enough to give</em> to <em>What I know does not belong only to me.</em> Snowden has taken this step &ndash; with a radicality that has no equal. The hedgehog that opens itself is vulnerable. And Snowden is vulnerable: legally, politically, personally. He cannot go back. He cannot hide. He has made himself visible &ndash; permanently.</p>
           <p class="vb-intro">What remains is the question his life poses: <em>What are you willing to risk when you know what you know?</em> The SX5w6 gives no simple answer to that. But Snowden has shown that an answer exists.</p>
         </blockquote>
 
@@ -1380,7 +1380,7 @@ export function ingoZimmermannPortraitPage() {
 
         <h2 class="vb-section">4. Light and shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP5w4 is its ability to turn <strong>its own, often unconscious self-recognition into a method that genuinely helps other people</strong> &ndash; Zimmermann's students demonstrably show more concentration and presence when Hugo is in the room, and his therapeutic work with owls specifically reaches people for whom conventional closeness is hard to bear.</p>
+          <p class="vb-intro">What distinguishes the SP5w4 is its ability to turn <strong>its own, often unconscious self-recognition into a method that genuinely helps other people</strong> &ndash; Zimmermann's students demonstrably show more concentration and presence when Hugo is in the room, and his therapeutic work with owls specifically reaches people for whom conventional closeness is hard to bear.</p>
           <p class="vb-intro">The shadow of the Self-Preservation Five shows where controlled distance becomes the only access to real connection &ndash; where a person places their deepest trust in a single, carefully raised animal rather than in unfiltered closeness to other people. This is not a criticism, but the consistent flip side of the very same pattern that also makes him an unusually effective teacher and therapist.</p>
         </blockquote>
 
@@ -1455,7 +1455,7 @@ export function jenniferAnistonPortraitPage() {
 
         <h2 class="vb-section">6. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX6w7 is its <strong>reliable presence</strong>: a woman who has stood in the most public of professions for three decades without pretending to be someone else, and who placed loyalty to her pack above personal advantage. With her production company and roles such as in <em>The Morning Show</em>, which directly addresses #MeToo and abuse of power in the media, she has also established herself as a producer who seeks out serious material rather than avoiding it.</p>
+          <p class="vb-intro">The strength of the SX6w7 is its <strong>reliable presence</strong>: a woman who has stood in the most public of professions for three decades without pretending to be someone else, and who placed loyalty to her pack above personal advantage. With her production company and roles such as in <em>The Morning Show</em>, which directly addresses #MeToo and abuse of power in the media, she has also established herself as a producer who seeks out serious material rather than avoiding it.</p>
           <p class="vb-intro">The shadow of the SX6 shows in a permanent readiness to fight that can also turn inward: Aniston's publicly discussed, years-long commitment to strict fitness and diet routines also reads as an attempt to retain control over a body and an image that has been commented on by others for decades. The strength that looks composed on the outside demands a price on the inside that rarely becomes visible.</p>
         </blockquote>
 
@@ -1668,7 +1668,7 @@ export function lenaMeyerLandrutPortraitPage() {
 
         <h2 class="vb-section">6. The Path to Healing: When Attraction Transforms into Authenticity</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Three leads from the question "How do I come across?" to the realization "I am independent of how I come across." For the SX3, this means: no longer needing to seduce, but being allowed to be connected. Attraction turns into authenticity. Charisma turns into character.</p>
+          <p class="vb-intro">The way to healing for the Three leads from the question "How do I come across?" to the realization "I am independent of how I come across." For the SX3, this means: no longer needing to seduce, but being allowed to be connected. Attraction turns into authenticity. Charisma turns into character.</p>
           <p class="vb-intro">Lena Meyer-Landrut has taken steps along this path in public: taking breaks, setting boundaries, speaking about inner exhaustion at a time when that was still a risk in show business, not a trend. This shows the SX3w2 on her healing path: exchanging facade for depth, radiance for warmth, applause for genuine encounter.</p>
           <p class="vb-intro">The peacock that stops unfolding its fan because it thinks it has to—and discovers that it is loved just as it is. That is the most beautiful moment of this transformation.</p>
         </blockquote>
@@ -1720,7 +1720,7 @@ export function madameTussaudPortraitPage() {
 
         <h2 class="vb-section">3. The Four-Wing: The Chamber of Horrors</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the self-preservation Three a depth that exceeds pure craft &ndash; a sense for the dramatic, the abysmal, for what lies beneath the smooth surface. In Tussaud, this shows itself in the famous <em>Chamber of Horrors</em>, the separate cabinet where she gathered death masks of the executed and effigies of notorious criminals &ndash; a room that not only entertained, but confronted visitors with the abyss of human violence.</p>
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> grants the self-preservation Three a depth that exceeds pure craft &ndash; a sense for the dramatic, the abysmal, for what lies beneath the smooth surface. In Tussaud, this shows itself in the famous <em>Chamber of Horrors</em>, the separate cabinet where she gathered death masks of the executed and effigies of notorious criminals &ndash; a room that not only entertained, but confronted visitors with the abyss of human violence.</p>
           <p class="vb-intro">This fascination with extremity was no mere business calculation, even though it proved brilliantly effective as one. It expressed a gaze that never found the ordinary sufficient: Tussaud did not simply model likeness, she sought the moment in which a face reveals character, fate, abyss. Her late, carefully composed memoirs, in which she staged her own life between court lady and revolutionary survivor, show the same signature: the Four, who wants her own story told as unique, unrepeatable.</p>
         </blockquote>
 
@@ -1793,13 +1793,13 @@ export function marleneZukPortraitPage() {
 
         <h2 class="vb-section">4. Light and shadow of the sexual Three</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX3w4 is its ability not merely to generate attraction and impact, but to understand it &ndash; and to communicate that understanding clearly to a broad audience. Marlene Zuk is known for bringing complex biological behaviors into sharp, analytical focus without oversimplifying or romanticizing them. This is the mature form of the peacock: not just wanting to be beautiful, but understanding why beauty exists at all.</p>
+          <p class="vb-intro">The strength of the SX3w4 is its ability not merely to generate attraction and impact, but to understand it &ndash; and to communicate that understanding clearly to a broad audience. Marlene Zuk is known for bringing complex biological behaviors into sharp, analytical focus without oversimplifying or romanticizing them. This is the mature form of the peacock: not just wanting to be beautiful, but understanding why beauty exists at all.</p>
           <p class="vb-intro">The Three's passion is <strong>vanity / deceit</strong> &ndash; the deep need to be perceived as successful and admirable. In a researcher like Zuk, this pattern shows itself not destructively, but sublimated: it drives her to keep delivering new evidence, new facets, new books &ndash; as if her own scientific substance had to be proven anew each time. The Four-wing carries with it the risk that mere recognition is never enough &ndash; that behind every new insight lurks the next question of whether one has really dug deep enough.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The peacock that researched the tail instead of merely spreading it</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Three leads from the question <em>How am I seen?</em> to the realization <em>I am – even when no one is watching.</em> Marlene Zuk's life's work shows a particular, sublimated form of this path: she did not direct the question of beauty, attraction, and the pursuit of recognition at herself, but at nature &ndash; and in doing so found something that points beyond mere self-display: that true splendor only holds up when real substance stands behind it.</p>
+          <p class="vb-intro">The Three’s path to healing leads from the question <em>How am I seen?</em> to the realization <em>I am – even when no one is watching.</em> Marlene Zuk's life's work shows a particular, sublimated form of this path: she did not direct the question of beauty, attraction, and the pursuit of recognition at herself, but at nature &ndash; and in doing so found something that points beyond mere self-display: that true splendor only holds up when real substance stands behind it.</p>
           <p class="vb-intro">In this, Marlene Zuk represents a rare, particularly integrous expression of the sexual Three with a Four-wing: one who does not live out her own archetypal principle, but researches it &ndash; giving the world a gift that reaches far beyond her own person. The peacock that, at some point, no longer just spreads its tail, but can explain exactly why it does so in the first place.</p>
         </blockquote>
 
@@ -2115,7 +2115,7 @@ export function norahJonesPortraitPage() {
 
         <h2 class="vb-section">3. The Four-Wing: Many Masks, One Truth</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the Self-Preservation Three an artistic depth that goes beyond pure functionality: the need to express herself not only competently but also individually and emotionally honestly – under a different name if necessary, once her own has become too large and too laden with expectation. That is exactly what Jones did in 2008 with the side project El Madmo: under the stage name "Maddie," in garish glam makeup, a wig, and costume, she played guitar and sang in a small, theatrical trio – unrecognized, freed from the expectations the name "Norah Jones" had by then accumulated.</p>
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> brings the Self-Preservation Three an artistic depth that goes beyond pure functionality: the need to express herself not only competently but also individually and emotionally honestly – under a different name if necessary, once her own has become too large and too laden with expectation. That is exactly what Jones did in 2008 with the side project El Madmo: under the stage name "Maddie," in garish glam makeup, a wig, and costume, she played guitar and sang in a small, theatrical trio – unrecognized, freed from the expectations the name "Norah Jones" had by then accumulated.</p>
           <p class="vb-intro">This delight in transformation runs through her entire career: the alt-country band The Little Willies, the loose, feminist trio Puss n Boots, an Everly Brothers tribute with Billie Joe Armstrong – few other side-project portfolios show as clearly how the Four-wing helps the SP3 find her way back to her own artistic truth beneath ever-changing masks, rather than exhausting herself in a single, commercially proven formula.</p>
         </blockquote>
 
@@ -2128,13 +2128,13 @@ export function norahJonesPortraitPage() {
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SP3w4 is the ability to turn extraordinary early success not into a stage for self-promotion, but into the starting point for a long, artistically versatile career – nine Grammy Awards, more than 50 million albums sold, and a body of work that has consistently evolved rather than resting on its first great success.</p>
-          <p class="vb-intro">The fate pattern of the Three is <strong>vanity / deceit</strong> – subtler in the SP3 than in the other Three subtypes, but not absent: the need to appear unassailable through sheer restraint and modesty. Persistent withdrawal from the spotlight can itself become its own form of control over one's public image – "I don't talk about myself" is, in the end, also a deliberately chosen statement about oneself.</p>
+          <p class="vb-intro">At the centre of the Three stands <strong>vanity / deceit</strong> – subtler in the SP3 than in the other Three subtypes, but not absent: the need to appear unassailable through sheer restraint and modesty. Persistent withdrawal from the spotlight can itself become its own form of control over one's public image – "I don't talk about myself" is, in the end, also a deliberately chosen statement about oneself.</p>
           <p class="vb-intro">The Four-wing brings its own shadow pattern: the worry of stagnating within one's own musical identity – or being reduced to a single early success – without constant artistic reinvention, without the next side project, the next mask.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Healing Path: From Hiding to Deliberate Showing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Three leads from the question <em>What have I achieved?</em> to the insight <em>I am – regardless of what I can show for it.</em> For the SP3w4, this means no longer needing to secure her own worth through new disguises or the next genre experiment.</p>
+          <p class="vb-intro">For the Three, the path of healing leads from the question <em>What have I achieved?</em> to the insight <em>I am – regardless of what I can show for it.</em> For the SP3w4, this means no longer needing to secure her own worth through new disguises or the next genre experiment.</p>
           <p class="vb-intro">Jones's later, more introspective albums like <em>Pick Me Up Off the Floor</em> show a quiet but clear step in this direction: more direct emotional openness, less hiding behind genre shifts. The raccoon that, at some point, no longer needs to fill every niche or wear every mask to be sure of its worth – but can trust its own voice, even without a costume.</p>
         </blockquote>
 
@@ -2258,7 +2258,7 @@ export function ryanGoslingPortraitPage() {
 
         <h2 class="vb-section">3. The Three-Wing: From Child Star to Three-Time Oscar Nominee</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Sexual Two the drive to shape emotional depth into verifiable, visible success. After his child-star image with the Mickey Mouse Club, Gosling underwent a deliberately managed reinvention: "Half Nelson" (2006) brought his first Oscar nomination, "La La Land" (2016) his second, and his role as Ken in "Barbie" (2023) his third – a path built with intent over nearly two decades, from teen idol to serious character actor.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> brings the Sexual Two the drive to shape emotional depth into verifiable, visible success. After his child-star image with the Mickey Mouse Club, Gosling underwent a deliberately managed reinvention: "Half Nelson" (2006) brought his first Oscar nomination, "La La Land" (2016) his second, and his role as Ken in "Barbie" (2023) his third – a path built with intent over nearly two decades, from teen idol to serious character actor.</p>
           <p class="vb-intro">The Three-wing supplies the discipline and strategic choice of roles; the Sexual Two underneath supplies the emotional substance that turns pure career planning into genuinely recognized acting achievement.</p>
         </blockquote>
 
@@ -2270,7 +2270,7 @@ export function ryanGoslingPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow of the Sexual Two</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX2w3 is the ability to <strong>combine total emotional devotion with visible, recognized achievement</strong> – Gosling's path from bullying victim through child star to three-time Oscar-nominated actor shows how much impact vulnerability can have once it is invested in roles and relationships rather than hidden away.</p>
+          <p class="vb-intro">What distinguishes the SX2w3 is the ability to <strong>combine total emotional devotion with visible, recognized achievement</strong> – Gosling's path from bullying victim through child star to three-time Oscar-nominated actor shows how much impact vulnerability can have once it is invested in roles and relationships rather than hidden away.</p>
           <p class="vb-intro">The Two's fatal flaw is <strong>pride</strong> – in the Sexual Two, especially bound up with the question of whether one is indispensable enough to the one person who matters most. Gosling took up exactly this theme in his most acclaimed role to date: as Ken in "Barbie," he embodied a character whose entire identity is reduced to a single trait and who experiences constant rejection – the lyrics of "I'm Just Ken" move from self-doubt to the line "I'm just Ken, and I'm enough." A role that brings the Two's core question – am I enough even without my usefulness to others? – onto the stage, without this claiming to reveal anything about Gosling's own inner life.</p>
         </blockquote>
 
@@ -2486,7 +2486,7 @@ export function timMaelzerPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP3w2 is the ability to <strong>build trust out of genuine craft that a purely invented screen persona could never achieve</strong> – Mälzer's popularity does not rest on a fabricated character, but on decades of kitchen experience that remains visible even under television conditions.</p>
+          <p class="vb-intro">The best of the SP3w2 is the ability to <strong>build trust out of genuine craft that a purely invented screen persona could never achieve</strong> – Mälzer's popularity does not rest on a fabricated character, but on decades of kitchen experience that remains visible even under television conditions.</p>
           <p class="vb-intro">The Three's fatal flaw is <strong>vanity</strong> – subtler in the SP3 than in the louder Three subtypes, but still noticeable: the need to keep reconfirming one's own worth through demonstrable achievement. The sheer number of parallel projects – his own restaurant, several TV formats, cookbooks – can also be read as a constant proving that one's own competence still holds, rather than simply letting past success be enough.</p>
         </blockquote>
 
@@ -2557,7 +2557,7 @@ export function wallaceShawnPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow: The Smallest Man in the Room</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP7w6 is its capacity for joy without self-deception. Shawn can laugh while simultaneously knowing that laughter is not everything. He seeks pleasure, but does not escape into it. He is warm, present, curious—and holds serious convictions without forcing them onto others.</p>
+          <p class="vb-intro">The best of the SP7w6 is its capacity for joy without self-deception. Shawn can laugh while simultaneously knowing that laughter is not everything. He seeks pleasure, but does not escape into it. He is warm, present, curious—and holds serious convictions without forcing them onto others.</p>
           <p class="vb-intro">The shadow: The SP7 tends to overestimate itself—not in the sense of arrogance, but in the sense of the Vizzini Problem: One's own analysis holds true until it no longer does. And then it is too late. Shawn has admitted in interviews that for years he barely believed he was a real artist—that he considered himself a dilettante who merely got lucky. Here you can see the Six wing: the inner doubter whispering even in the finest hour.</p>
           <p class="vb-intro">And yet Shawn has left behind a body of work far more durable than most Hollywood careers. Vizzini fails because he thought the unthinkable was impossible. Shawn survives because he always considered the unthinkable possible—and pondered it thoroughly. That is what separates the thinker from the villain.</p>
         </blockquote>
@@ -2758,7 +2758,7 @@ export function avrilLavignePortraitPage() {
         <h2 class="vb-section">5. Light and Shadow of the Sexual Six with a Seven-Wing</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SX6w7 shows in how Lavigne, after divorcing Deryck Whibley (Sum 41), did not withdraw into isolation but maintained a close friendship and professional connection with him – for the SX6w7, security is sought not through retreat, but through deliberately holding onto reliable bonds, even after their official ending.</p>
-          <p class="vb-intro">The shadow lies in the flip side of that same readiness to confront: her publicly fought disputes with critics and the media have repeatedly brought her controversial coverage. For the Sexual Six, one's own position matters more than diplomatic restraint – even when that does not always earn undivided goodwill.</p>
+          <p class="vb-intro">The darker side lies in the flip side of that same readiness to confront: her publicly fought disputes with critics and the media have repeatedly brought her controversial coverage. For the Sexual Six, one's own position matters more than diplomatic restraint – even when that does not always earn undivided goodwill.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Legacy: Rebellion with a Wink</h2>
@@ -2893,12 +2893,12 @@ export function bennySafdiePortraitPage() {
         <h2 class="vb-section">5. Light and Shadow of the Social Four with a Five-Wing</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SO4w5 shows in how consistently Safdie translates his sense for overlooked depth into concrete decisions, rather than merely claiming it. For ›The Smashing Machine‹, he deliberately cast real MMA fighters in central roles instead of actors &ndash; his reasoning: "They aren't non-actors; they're just first-time actors." He could ask fighter Ryan Bader questions like: "I know you know what it feels like after you've worked so hard … now what?" &ndash; a question only someone who takes the athlete's own experience seriously, rather than merely imitating it, could ask. The same precision showed in his view of Dwayne Johnson himself: where others might see only the public persona and assume no interior life behind it, Safdie deliberately worked out his difficult upbringing and emotional complexity.</p>
-          <p class="vb-intro">The shadow lies in the flip side of that same obsession with detail: where the Five-wing places technical precision above all else, one's own emotional accessibility can disappear behind the work itself. The public learns almost nothing about him personally &ndash; no interview that goes into private matters, no self-promotion alongside the finished film. Almost only the work is visible; anyone who wants to understand who Benny Safdie is has to look between the lines of his films, not in his public appearances.</p>
+          <p class="vb-intro">The darker side lies in the flip side of that same obsession with detail: where the Five-wing places technical precision above all else, one's own emotional accessibility can disappear behind the work itself. The public learns almost nothing about him personally &ndash; no interview that goes into private matters, no self-promotion alongside the finished film. Almost only the work is visible; anyone who wants to understand who Benny Safdie is has to look between the lines of his films, not in his public appearances.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Legacy: Precision as a Form of Empathy</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Four leads from the shame <em>I am fundamentally different and flawed</em> to the insight <em>I am entirely normal, even in my distinctiveness.</em> Benny Safdie's work shows this path in a particular form: he doesn't make himself the center of his own otherness, but directs that same precise, compassionate attention toward others who likewise feel different and overlooked &ndash; and it is precisely there, after years in a shared shadow with his brother, that he finds his own, unmistakable voice.</p>
+          <p class="vb-intro">Healing for the Four leads from the shame <em>I am fundamentally different and flawed</em> to the insight <em>I am entirely normal, even in my distinctiveness.</em> Benny Safdie's work shows this path in a particular form: he doesn't make himself the center of his own otherness, but directs that same precise, compassionate attention toward others who likewise feel different and overlooked &ndash; and it is precisely there, after years in a shared shadow with his brother, that he finds his own, unmistakable voice.</p>
           <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-marcel-proust">Marcel Proust</a> (SO4w5) &ndash; in him, the same combination of withdrawn obsession with detail and the translation of the most precise observation into a work of great emotional depth shows up. More in the <a href="javascript:void(0)" data-route="beruehmte-marcel-proust">portrait of Marcel Proust</a>.</p>
         </blockquote>
 
@@ -3082,7 +3082,7 @@ export function joeVitalePortraitPage() {
 
         <h2 class="vb-section">3. The One-wing: method rather than feeling alone</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the Two order, standard and the tendency to set things right and improve them. Instead of mere attention a system arises: in Vitale this shows in titles that promise a method. &lsquo;Hypnotic Writing&rsquo; (1995) and &lsquo;Hypnotic Marketing&rsquo; (2002) describe technique, &lsquo;The Miracle: Six Steps to Enlightenment&rsquo; (2016) lists the steps in the title.</p>
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> grants the Two order, standard and the tendency to set things right and improve them. Instead of mere attention a system arises: in Vitale this shows in titles that promise a method. &lsquo;Hypnotic Writing&rsquo; (1995) and &lsquo;Hypnotic Marketing&rsquo; (2002) describe technique, &lsquo;The Miracle: Six Steps to Enlightenment&rsquo; (2016) lists the steps in the title.</p>
           <p class="vb-intro">The four sentences of the Hawaiian method &lsquo;Ho&lsquo;oponopono&rsquo;, which he presents with Dr. Ihaleakala Hew Len in &lsquo;Zero Limits&rsquo; (2007), are also an ordered procedure: &lsquo;I&rsquo;m sorry. Please forgive me. Thank you. I love you.&rsquo; That a person takes responsibility for his experience and puts himself inwardly in order is a thought that fits the One. This portrait makes no statement about the effect of the method; it only describes what the book presents. By way of context: according to a post by the Joe Vitale Academy itself, the story told in the book about Hew Len&rsquo;s work on a ward of the Hawaii State Hospital rests mainly on Hew Len&rsquo;s own account and has not been independently documented. Hew Len died on 15 January 2022.</p>
         </blockquote>
 

@@ -1234,7 +1234,7 @@ export function fridaKahloKrankheitsportraetPage() {
         Schmerzen, Operationen oder Korsette – kein plötzlicher Einbruch, sondern ein
         lebenslanger, sich stetig zuspitzender Ausnahmezustand.</p>
         <p class="vb-intro"><strong>b) Die Weigerung, sich zurückzuziehen:</strong>
-        Das Schicksalsmuster der Zwei ist der Stolz – die Überzeugung, sich selbst und anderen
+        Im Zentrum der Zwei steht der Stolz – die Überzeugung, sich selbst und anderen
         unentbehrlich zu sein, auch unter größter Belastung. Kahlo hielt öffentliche Auftritte
         aufrecht, selbst als ihr Körper längst an seine Grenzen gestoßen war.</p>
         <p class="vb-intro"><strong>c) Der eigene Körper als erstes und letztes Kunstwerk:</strong>

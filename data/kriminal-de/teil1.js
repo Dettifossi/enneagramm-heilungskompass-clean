@@ -2393,7 +2393,7 @@ export function johnMcAfeePortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Heilungsweg des Typ 8</h3>
         <p class="vb-intro"><strong>a) Von der Kontrolle zur Hingabe:</strong>
-        Der Heilungsweg der Acht f\u00fchrt \u00fcber Hingabe \u2013 die F\u00e4higkeit,
+        Der Weg zur Heilung f\u00fchrt bei der Acht \u00fcber Hingabe \u2013 die F\u00e4higkeit,
         loszulassen, zu vertrauen, verletzlich zu sein. <strong>McAfee</strong> kam
         diesem Weg n\u00e4her, als er es zugegeben h\u00e4tte: In seinen letzten
         Jahren zeigte er in Interviews eine seltene Offenheit \u00fcber

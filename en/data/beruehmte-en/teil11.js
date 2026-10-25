@@ -170,7 +170,7 @@ export function aristotelesPortraitPage() {
 
         <h2 class="vb-section">5. The Healing Path: From Strictness to Equanimity</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the One leads from anger at one's own and others' imperfection to equanimity – the trust that the world can find its right course even without constant correction. Aristotle himself described this state in his ethics as Eudaimonia, the flourishing, self-contained life that grows out of the practice of virtue over time – not out of a single perfect moment.</p>
+          <p class="vb-intro">Healing for the One leads from anger at one's own and others' imperfection to equanimity – the trust that the world can find its right course even without constant correction. Aristotle himself described this state in his ethics as Eudaimonia, the flourishing, self-contained life that grows out of the practice of virtue over time – not out of a single perfect moment.</p>
           <p class="vb-intro">His final year in voluntary exile, far from Athens, shows the most mature side of the SP1w9: no bitterness, no last fight for vindication, but the calm withdrawal of an eagle that knows its work speaks for itself.</p>
         </blockquote>
 
@@ -304,7 +304,7 @@ export function catStevensPortraitPage() {
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of SO4w3 shows in the ability to shape an existential crisis &ndash; the near-drowning, the crisis of meaning brought on by fame &ndash; into a sustainable, decades-long new identity that in turn offered orientation to others: millions of listeners through Cat Stevens, many believers and people in need through the work of Yusuf Islam.</p>
-          <p class="vb-intro">The shadow shows in the public controversies that accompanied his conversion &ndash; including ambiguous remarks in 1989 about the fatwa against Salman Rushdie, later qualified by him, that damaged his reputation for years. For SO4w3, the rule holds: whoever represents their own truth so publicly and uncompromisingly risks having every word scrutinized &ndash; and nuance lost in the public image.</p>
+          <p class="vb-intro">The darker side shows in the public controversies that accompanied his conversion &ndash; including ambiguous remarks in 1989 about the fatwa against Salman Rushdie, later qualified by him, that damaged his reputation for years. For SO4w3, the rule holds: whoever represents their own truth so publicly and uncompromisingly risks having every word scrutinized &ndash; and nuance lost in the public image.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Legacy: The Armadillo with Two Names</h2>
@@ -496,7 +496,7 @@ export function evaPeronPortraitPage() {
 
         <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SO2w3 is a form of care that genuinely reached millions: women's suffrage in Argentina, secured in 1947 substantially through her personal advocacy, concrete material help for people no government had ever bothered to notice before. That is no empty gesture &ndash; it is impact that changed real lives.</p>
+          <p class="vb-intro">What distinguishes the SO2w3 is a form of care that genuinely reached millions: women's suffrage in Argentina, secured in 1947 substantially through her personal advocacy, concrete material help for people no government had ever bothered to notice before. That is no empty gesture &ndash; it is impact that changed real lives.</p>
           <p class="vb-intro">The Two's fateful pattern is <strong>pride</strong> &ndash; the deep conviction of being indispensable, combined with difficulty admitting one's own neediness. In Eva Perón this showed up as a growing intolerance of criticism: opposition newspapers were shut down, political opponents pressured, the line between personal care and political control increasingly blurred. Someone who sees herself as the people's indispensable savior finds it hard to recognize dissent as legitimate &ndash; it quickly becomes betrayal of the very people she gives everything for.</p>
         </blockquote>
 
@@ -560,13 +560,13 @@ export function fritzWepperPortraitPage() {
 
         <h2 class="vb-section">3. The Nine-wing: The Supporting Role as a Life Principle</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the Self-Preservation One calm and equanimity rather than drivenness. The SP1w9 does not need to convince anyone of anything and rarely seeks the spotlight. What stands out in Wepper's career is that in both of his most defining roles he deliberately played second fiddle: Harry Klein was the assistant, not the investigating chief inspector; Mayor Wöller was a supporting figure alongside the nuns at the center of the series. No drive to claim the lead role, but a quiet willingness to fill a load-bearing yet never front-and-center function for decades.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> grants the Self-Preservation One calm and equanimity rather than drivenness. The SP1w9 does not need to convince anyone of anything and rarely seeks the spotlight. What stands out in Wepper's career is that in both of his most defining roles he deliberately played second fiddle: Harry Klein was the assistant, not the investigating chief inspector; Mayor Wöller was a supporting figure alongside the nuns at the center of the series. No drive to claim the lead role, but a quiet willingness to fill a load-bearing yet never front-and-center function for decades.</p>
           <p class="vb-intro">Away from the screen, too, Wepper rarely made headlines through controversy or scandal – a public reticence that matched his steady, unassuming on-screen presence. The Nine-wing carries peace inward, rather than seeking attention outward.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation One</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP1w9 is obvious: extraordinary reliability across decades, carrying two of Germany's longest-running television series without the quality ever slipping. Across generations, millions of viewers associated Wepper with the same feeling of familiarity and dependability.</p>
+          <p class="vb-intro">What distinguishes the SP1w9 is obvious: extraordinary reliability across decades, carrying two of Germany's longest-running television series without the quality ever slipping. Across generations, millions of viewers associated Wepper with the same feeling of familiarity and dependability.</p>
           <p class="vb-intro">The shadow lies more deeply hidden than in more reactive subtypes. The One's fatal flaw is <strong>anger</strong> – in the SP1w9 muffled, almost numbed, by the Nine-wing. The early loss of his father in the war, which he rarely spoke of publicly, and the death of his younger brother, actor Elmar Wepper, only a few months before his own death in 2024, point to a quiet grief rarely processed openly – typical of a subtype that lets its own needs disappear behind the next task rather than naming them directly.</p>
         </blockquote>
 
@@ -630,7 +630,7 @@ export function hannahEmdePortraitPage() {
 
         <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SO2w1 is its ability to translate care into reach: not just helping a single animal, but achieving an impact through education, research, and media presence that extends far beyond one's own practice. Hannah Emde's path from founding a small nonprofit to becoming a nationally known TV host shows how personal commitment can become a platform without losing its professional substance.</p>
+          <p class="vb-intro">What distinguishes the SO2w1 is its ability to translate care into reach: not just helping a single animal, but achieving an impact through education, research, and media presence that extends far beyond one's own practice. Hannah Emde's path from founding a small nonprofit to becoming a nationally known TV host shows how personal commitment can become a platform without losing its professional substance.</p>
           <p class="vb-intro">The fateful pattern of the Two is <strong>pride</strong> – the deep need to be needed and indispensable. In the SO2w1, this shows up as a high, often self-imposed standard: the feeling of having to constantly live up to the trust placed in her as the face of wildlife conservation on German television. Such a combination of public visibility and professional perfectionism can carry someone far – but it can also exhaust, if one's own worth stays too tightly bound to constantly proving oneself.</p>
         </blockquote>
 
@@ -690,7 +690,7 @@ export function hughGrantPortraitPage() {
 
         <h2 class="vb-section">3. The Three-Wing: The Calculated Reinvention</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Four the ability not only to feel its own image but to market it deliberately and reinvent it when needed. When Grant himself concluded he had gotten "too old and ugly and fat" to keep playing the romantic lead, he pulled off one of Hollywood's most remarkable image transformations: he became a character actor for dazzling villains and complex supporting roles &ndash; the vain children's author in "Paddington 2," the shifty lawyer in "The Gentlemen," politician Jeremy Thorpe in "A Very English Scandal," for which he received an Emmy nomination.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> lends the Four the ability not only to feel its own image but to market it deliberately and reinvent it when needed. When Grant himself concluded he had gotten "too old and ugly and fat" to keep playing the romantic lead, he pulled off one of Hollywood's most remarkable image transformations: he became a character actor for dazzling villains and complex supporting roles &ndash; the vain children's author in "Paddington 2," the shifty lawyer in "The Gentlemen," politician Jeremy Thorpe in "A Very English Scandal," for which he received an Emmy nomination.</p>
           <p class="vb-intro">This deliberate, strategic repositioning &ndash; away from the lovable stammerer, toward the darker character actor &ndash; is the purest expression of SO4w3: the Four feels the fading relevance of the old image, the Three-wing stages a new, successful performance from it instead of clinging to the old role.</p>
         </blockquote>
 
@@ -703,7 +703,7 @@ export function hughGrantPortraitPage() {
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of SO4w3 is the ability to <strong>turn deep insecurity into effective art</strong> &ndash; to shape a single, honestly felt weakness into a character that an audience of millions loves for decades. Grant's best roles live from exactly this risk: not avoiding his own embarrassment, but turning it into a comic and moving art form.</p>
-          <p class="vb-intro">The shadow shows itself in a chronic, publicly admitted self-deprecation: Grant repeatedly called himself the "dumb" one in his family and spoke of having "marginally less self-hatred" since he stopped being typecast as the romantic lead. The flip side of SO4w3: when one's own insecurity becomes the most reliable currency, genuine self-acceptance can vanish behind perfectly calculated self-irony &ndash; and some interviewers get, instead of the charm, only the prickly, dismissive side of that same façade.</p>
+          <p class="vb-intro">The darker side shows itself in a chronic, publicly admitted self-deprecation: Grant repeatedly called himself the "dumb" one in his family and spoke of having "marginally less self-hatred" since he stopped being typecast as the romantic lead. The flip side of SO4w3: when one's own insecurity becomes the most reliable currency, genuine self-acceptance can vanish behind perfectly calculated self-irony &ndash; and some interviewers get, instead of the charm, only the prickly, dismissive side of that same façade.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Armadillo That Made Its Insecurity a Signature</h2>
@@ -828,7 +828,7 @@ export function johannSebastianBachPortraitPage() {
 
         <h2 class="vb-section">3. The Nine-Wing: Persistence Behind the Fire</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the intensity of Sexual One a peculiar stamina &ndash; a quiet, almost unremarkable persistence that is not discouraged by resistance. In 1717, in Weimar, Bach demanded his dismissal from the service of Duke Wilhelm Ernst so persistently, wanting to take up a better position in Köthen, that the Duke simply had him imprisoned for a month. Bach did not relent &ndash; and upon his release, dishonorably discharged, took up the new position anyway.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> lends the intensity of Sexual One a peculiar stamina &ndash; a quiet, almost unremarkable persistence that is not discouraged by resistance. In 1717, in Weimar, Bach demanded his dismissal from the service of Duke Wilhelm Ernst so persistently, wanting to take up a better position in Köthen, that the Duke simply had him imprisoned for a month. Bach did not relent &ndash; and upon his release, dishonorably discharged, took up the new position anyway.</p>
           <p class="vb-intro">This persistence also carried him through 27 years as Thomaskantor in Leipzig, a post he never abandoned despite constant friction with the town council, filling it instead from within, week after week, with new music. The Nine-wing does not hold the One back &ndash; it anchors its fire in one place until the task has been fully mastered.</p>
         </blockquote>
 
@@ -899,14 +899,14 @@ export function kamalaHarrisPortraitPage() {
 
         <h2 class="vb-section">3. The Three-wing: Effectiveness as Proof</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the social Two something decisive: the drive toward visible achievement, measurable success, proof that one's own work is effective. An SO2 with a weaker Three-wing could lose itself in service to others. The Three-wing sets goals, demands results, wants to arrive rather than merely be on the way.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> grants the social Two something decisive: the drive toward visible achievement, measurable success, proof that one's own work is effective. An SO2 with a weaker Three-wing could lose itself in service to others. The Three-wing sets goals, demands results, wants to arrive rather than merely be on the way.</p>
           <p class="vb-intro">In Kamala Harris this shows in a series of historic firsts: first woman, first Black person, and first person of South Asian descent as Attorney General of California, as a US Senator from California in that combination, as Vice President of the United States. The Three-wing does not settle for second place, it asks: how much further can this go? Who else can benefit from it?</p>
           <p class="vb-intro">This wing also has its price. Critics accused Harris during her time as a prosecutor of relying too heavily on tough statistics, conviction rates, harshness on parole violations, issues she later reflected on critically herself. The Three-wing of the SO2 can mistake success for effectiveness, even in places where care would have called for more leniency.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SO2w3 is its ability to combine genuine engagement with strategic effectiveness. As a prosecutor, Kamala Harris built programs for the rehabilitation of young first-time offenders, championed consumer protection, and fought mortgage fraud, issues that rarely make headlines but help people directly. Here you can see the SO2 at its most constructive: impact that does not wait for applause.</p>
+          <p class="vb-intro">The strength of the SO2w3 is its ability to combine genuine engagement with strategic effectiveness. As a prosecutor, Kamala Harris built programs for the rehabilitation of young first-time offenders, championed consumer protection, and fought mortgage fraud, issues that rarely make headlines but help people directly. Here you can see the SO2 at its most constructive: impact that does not wait for applause.</p>
           <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong>, the deep need to be needed and indispensable. In the SO2w3 this shows as the pressure to fill every role perfectly, to meet every expectation, as vice president, as presidential candidate, as a symbolic figure for several social groups at once. This layered burden of representation is a real weight many SO2w3 personalities in public office carry, and one rarely spoken about openly.</p>
           <p class="vb-intro">Critics have accused Harris of adjusting her positions to the political climate. From the SO2 perspective this can also be read differently: the constant effort not to lose connection with as many different groups as possible, a strength that becomes a weakness when it costs clarity about what one stands for oneself.</p>
         </blockquote>
@@ -1044,14 +1044,14 @@ export function lisaAntoniPortraitPage() {
 
         <h2 class="vb-section">3. The Three-Wing: The Grand Stage as a Visible Peak</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to still seek the biggest, most publicly effective roles from a solid, broad base. For Antoni, that meant the role of Christine Daaé in <em>The Phantom of the Opera</em> at the Ronacher Theatre in Vienna – one of the best-known female leads in the international musical theatre repertoire, on one of her home city's biggest stages.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> grants the self-preservation Two the drive to still seek the biggest, most publicly effective roles from a solid, broad base. For Antoni, that meant the role of Christine Daaé in <em>The Phantom of the Opera</em> at the Ronacher Theatre in Vienna – one of the best-known female leads in the international musical theatre repertoire, on one of her home city's biggest stages.</p>
           <p class="vb-intro">This role brings both together: the reliable, craft-based foundation of a broad repertoire and the visible, publicly recognized success of one of the most coveted female musical theatre roles of all.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SP2w3 lies in the ability to reach the great, visible roles through steady, reliable work in a familiar environment – Antoni's path from her first major role in Vienna to Christine Daaé shows a career built step by step out of solid craft.</p>
-          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to a production's success through one's own reliable performance. In the SP2w3, this can combine with the wish to prove herself in as many different, publicly visible roles as possible – a strength that leads to a broad repertoire, but also raises the question of how much room remains for the one truly defining signature role.</p>
+          <p class="vb-intro">At the centre of the Two stands <strong>pride</strong> &ndash; the conviction of being indispensable to a production's success through one's own reliable performance. In the SP2w3, this can combine with the wish to prove herself in as many different, publicly visible roles as possible – a strength that leads to a broad repertoire, but also raises the question of how much room remains for the one truly defining signature role.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Work: From Mary Vetsera to Christine Daaé</h2>
@@ -1175,7 +1175,7 @@ export function michaelJacksonPortraitPage() {
 
         <h2 class="vb-section">3. The Three-Wing: The Perfection of the Stage</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the social Four something it would not have alone: stage presence, ambition, the ability to shape inner pain into flawless performance. The SO4w3 feels the shame &ndash; and performs anyway, with a precision that tolerates no error.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> brings the social Four something it would not have alone: stage presence, ambition, the ability to shape inner pain into flawless performance. The SO4w3 feels the shame &ndash; and performs anyway, with a precision that tolerates no error.</p>
           <p class="vb-intro">Michael Jackson's career is this combination in its purest form. <em>Thriller</em> (1982) became the best-selling album in history, with over 70 million copies sold. The moonwalk, first shown in 1983 at the Motown 25th Anniversary special, became an icon. Every routine, every music video, every stage performance was worked out to the smallest detail &ndash; rehearsals of ten or twelve hours were normal for him. The Three-wing supplies the discipline and ambition; the Four beneath it supplies the depth that turns pure perfection into genuine art.</p>
           <p class="vb-intro">But the stage was more than a profession for Jackson. It was the one place he felt safe. <em>When I'm on stage, that's the only place I'm truly happy</em>, he once said. For the SO4w3, applause is not vanity &ndash; it is the brief relief of a feeling that otherwise never fully disappears.</p>
         </blockquote>
@@ -1188,7 +1188,7 @@ export function michaelJacksonPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SO4w3 is its ability to turn the deepest personal pain into something that touches millions &ndash; and to transform it into a cause that reaches beyond the self. Jackson founded the <em>Heal the World Foundation</em>, and according to several estimates donated hundreds of millions of dollars to charitable causes over the course of his career, publicly advocating for children in need. For the SO4, this is no contradiction to its own neediness, but its most direct expression: giving what one missed the most.</p>
+          <p class="vb-intro">The strength of the SO4w3 is its ability to turn the deepest personal pain into something that touches millions &ndash; and to transform it into a cause that reaches beyond the self. Jackson founded the <em>Heal the World Foundation</em>, and according to several estimates donated hundreds of millions of dollars to charitable causes over the course of his career, publicly advocating for children in need. For the SO4, this is no contradiction to its own neediness, but its most direct expression: giving what one missed the most.</p>
           <p class="vb-intro">The shadow of his life cannot be set aside: in 1993, he was first accused of sexually abusing a child; the case was settled out of court without any finding of guilt. In 2005, Jackson stood trial on similar charges and was acquitted on all counts. After his death, two men raised renewed, serious allegations from their childhoods in the documentary <em>Leaving Neverland</em> (2019). The truth behind these conflicting accounts cannot be resolved within the scope of this portrait &ndash; it remains a matter of public dispute. What can be described from an Enneagram perspective is only the pattern: a man who, throughout his life, tried to reclaim his own lost childhood in the company of children &ndash; in a way that some found touching and others found deeply troubling.</p>
         </blockquote>
 
@@ -1351,7 +1351,7 @@ export function paulGauguinPortraitPage() {
 
         <h2 class="vb-section">8. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX8w7 is its uncompromising power of renewal: Gauguin broke with the Impressionist rendering of the visible world and opened painting's path to Symbolism and modernism – a rupture that directly influenced later artists such as Matisse and the Fauvists. His willingness to give up a secure bourgeois life entirely in order to follow his own artistic vision testifies to exactly the uncompromising quality that defines the Sexual Eight.</p>
+          <p class="vb-intro">The strength of the SX8w7 is its uncompromising power of renewal: Gauguin broke with the Impressionist rendering of the visible world and opened painting's path to Symbolism and modernism – a rupture that directly influenced later artists such as Matisse and the Fauvists. His willingness to give up a secure bourgeois life entirely in order to follow his own artistic vision testifies to exactly the uncompromising quality that defines the Sexual Eight.</p>
           <p class="vb-intro">The shadow is the same trait, without regard for those left behind: an abandoned family, underage partners in colonial dependency, a disease he knowingly passed on. The mature SX8w7 learns to replace possession with genuine connection. In Gauguin's case, as far as the sources show, that step was largely never taken.</p>
         </blockquote>
 
@@ -1424,12 +1424,12 @@ export function rihannaPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The existential trap of the Four is envy—not as malice, but as the profound sense that others possess a completeness one lacks. In the SX4, this envy takes on a sharper, more personal countenance: "You have what was withheld from me—and I will surpass you." This engine has driven Rihanna far. But it also carries a cost.</p>
           <p class="vb-intro">The years between "Anti" (2016) and her Super Bowl performance (2023) marked seven years of silence as a recording artist—seven years during which Rihanna gave birth to children, ran enterprises, and felt no compulsion to return to music until it was strictly on her own terms. When she stepped onto the stage at Super Bowl LVII—visibly pregnant after a seven-year hiatus, alone on a floating platform, surrounded by half a dozen giant screens and no guest stars—it was a statement requiring no words: "I need no permission. I appear when I am ready."</p>
-          <p class="vb-intro">The light of the SX4w3 resides in this capacity for complete self-determination—even at the price of being misunderstood. The shadow lies in the danger of turning the fire inward: when rivalry turns against oneself, when expectations overwhelm, when intensity loses its direction. Rihanna has known both. And thus far, she has returned every single time.</p>
+          <p class="vb-intro">The light of the SX4w3 resides in this capacity for complete self-determination—even at the price of being misunderstood. The darker side lies in the danger of turning the fire inward: when rivalry turns against oneself, when expectations overwhelm, when intensity loses its direction. Rihanna has known both. And thus far, she has returned every single time.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Chihuahua Who Belongs to Herself</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Four leads from the question "Why am I not like the others?" to the realization "What I am is unique—and it is mine." For the SX4w3, this means not abandoning rivalry, but purifying it: no longer fighting to prove oneself, but creating because one has something to say. This shift is quiet—yet it changes everything.</p>
+          <p class="vb-intro">For the Four, the path of healing leads from the question "Why am I not like the others?" to the realization "What I am is unique—and it is mine." For the SX4w3, this means not abandoning rivalry, but purifying it: no longer fighting to prove oneself, but creating because one has something to say. This shift is quiet—yet it changes everything.</p>
           <p class="vb-intro">This path can be discerned throughout Rihanna's biography. The early singer fought battles—with the industry, with the public, with the expectations imposed upon her. The later Rihanna stopped fighting and began creating. Fenty Beauty is no crusade against the beauty industry—it is a vision of what beauty could be. "Anti" is no protest against commercial radio—it is a proposal of what music can be when one stops asking for permission.</p>
           <p class="vb-intro">The Chihuahua from Bridgetown did not conquer the world through physical stature. It transformed it through intensity—by refusing to be smaller than it is, and by a readiness to reveal precisely what most would conceal. What remains is a voice, a face, and a stance that cannot be forgotten. That is the Sexual Four with a Three wing. That is Rihanna.</p>
         </blockquote>
@@ -1490,7 +1490,7 @@ export function serdarSomuncuPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP3w2 lies in the ability to <strong>combine thorough craft preparation with genuine commitment to others</strong> – Somuncu's decades of musical and acting training formed the foundation for a body of work that directly reached and demonstrably changed over half a million people across Europe.</p>
+          <p class="vb-intro">The strength of the SP3w2 lies in the ability to <strong>combine thorough craft preparation with genuine commitment to others</strong> – Somuncu's decades of musical and acting training formed the foundation for a body of work that directly reached and demonstrably changed over half a million people across Europe.</p>
           <p class="vb-intro">The Three's fatal flaw is <strong>vanity</strong> – subtler in the SP3 than in the louder Three subtypes, but present nonetheless: the need to keep confirming one's own worth through ever-new, verifiable impact. Somuncu's consistent commitment to a risky format sustained for decades shows how much strength it takes to hold on to one's own standard of substance even under external pressure.</p>
         </blockquote>
 
@@ -1544,7 +1544,7 @@ export function teresaVonAvilaPortraitPage() {
 
         <h2 class="vb-section">3. The Four-Wing: The Innermost Castle of the Soul</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the social Three a depth that exceeds pure institutional achievement &ndash; the need to be perceived as a unique, unmistakable inner world, not merely as a reformer. This depth shows itself precisely in Teresa's writings: <em>The Interior Castle</em> describes the soul as a crystalline palace with seven nested chambers, through which a person advances toward union with God &ndash; an image of poetic, almost literary symbolic power, far removed from dry dogmatics.</p>
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> grants the social Three a depth that exceeds pure institutional achievement &ndash; the need to be perceived as a unique, unmistakable inner world, not merely as a reformer. This depth shows itself precisely in Teresa's writings: <em>The Interior Castle</em> describes the soul as a crystalline palace with seven nested chambers, through which a person advances toward union with God &ndash; an image of poetic, almost literary symbolic power, far removed from dry dogmatics.</p>
           <p class="vb-intro">Her mystical experiences carried an intensity she herself could barely put into words &ndash; above all the so-called <em>transverberation</em>: the vision of an angel piercing her heart with a golden, fire-tipped spear, a pain so sweet that, as she wrote, she would have wished it to last forever. Two generations later, Gian Lorenzo Bernini immortalized this moment in his marble sculpture <em>The Ecstasy of Saint Teresa</em> &ndash; a work still celebrated today as one of the most significant sacred artworks in Europe, and still debated for its openly sensual depiction. The innermost, most personal experience of the Four-winged mystic became the most public artwork of her age.</p>
         </blockquote>
 
@@ -1687,7 +1687,7 @@ export function wolfgangAmadeusMozartPortraitPage() {
 
         <h2 class="vb-section">3. The Three-Wing: Proof on the Stage</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two a hunger for visible, measurable success &ndash; the stage, the applause, the proof of one's own indispensability. In 1781 Mozart publicly broke with the Archbishop of Salzburg to establish himself as a freelance artist in Vienna &ndash; a gamble only someone confident in their own market value would take.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> grants the self-preservation Two a hunger for visible, measurable success &ndash; the stage, the applause, the proof of one's own indispensability. In 1781 Mozart publicly broke with the Archbishop of Salzburg to establish himself as a freelance artist in Vienna &ndash; a gamble only someone confident in their own market value would take.</p>
           <p class="vb-intro">In Vienna he organized his own subscription concerts, composed piano concertos at a relentless pace to perform as soloist himself, and sought his whole life the most prestigious court appointment he could secure. The Three-wing of the SP2 asks not only "How do I secure survival?" but also "How do I prove I am the best?" &ndash; and Mozart proved it, work after work, often at dizzying speed. He is said to have written the overture to "Don Giovanni" the night before its premiere.</p>
         </blockquote>
 
@@ -1840,7 +1840,7 @@ export function helmutSchmidtPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SO1w9 is the ability to <strong>act calmly, consistently, and without self-dramatization in extreme crises</strong> — Schmidt's handling of the storm surge and the German Autumn is still regarded across party lines as a model of composed leadership under pressure, precisely because he never slipped into theatrics or self-display.</p>
+          <p class="vb-intro">What distinguishes the SO1w9 is the ability to <strong>act calmly, consistently, and without self-dramatization in extreme crises</strong> — Schmidt's handling of the storm surge and the German Autumn is still regarded across party lines as a model of composed leadership under pressure, precisely because he never slipped into theatrics or self-display.</p>
           <p class="vb-intro">The shadow showed itself in a certain inflexibility and a pronounced aversion to anything he considered starry-eyed or unrealistic — the visions remark, which he himself later regretted, shows how quickly the One's correctness can tip into reflexive, sometimes unfair harshness toward other ways of thinking. The 1979 NATO Double-Track Decision, which he pushed through decisively, deeply divided his own party and his country — in the unhealthy One, consistency and self-righteousness sit close together.</p>
         </blockquote>
 
@@ -2124,7 +2124,7 @@ export function brianFennellPortraitPage() {
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Four</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SP4w3 shows in how a deeply personal, even existential subject – his own adoption, the loss of his father – becomes a body of work reaching millions of people without losing its sincerity. In 2025 Fennell released "Nobody Lives Here," already his third studio album – continuous, disciplined creative output rather than a single outburst.</p>
-          <p class="vb-intro">The shadow lies in the risk of getting stuck in exactly this one subject: grief, loss, and origin run through nearly his entire body of work – a rich, honest well, but one that also shows how easily the SP4 can stay bound to its own pain, precisely because it keeps setting that pain to music again and again instead of ever finally leaving it behind.</p>
+          <p class="vb-intro">The darker side lies in the risk of getting stuck in exactly this one subject: grief, loss, and origin run through nearly his entire body of work – a rich, honest well, but one that also shows how easily the SP4 can stay bound to its own pain, precisely because it keeps setting that pain to music again and again instead of ever finally leaving it behind.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Legacy: The Quiet Dove That Was Heard Anyway</h2>
@@ -2304,7 +2304,7 @@ export function corneliaFunkePortraitPage() {
 
         <h2 class="vb-section">3. The Nine-wing: Six Years on One World, Without Losing Focus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the social One a quiet stamina that doesn't exhaust itself in loud ambition, but in patient, steady work sustained over long stretches of time. The Inkworld trilogy, on which Funke worked from 2001 to 2007, is the clearest example: six years on a single, richly detailed fantasy world, without letting the public expectations created by the worldwide success of "The Thief Lord" push her into a rushed sequel.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> lends the social One a quiet stamina that doesn't exhaust itself in loud ambition, but in patient, steady work sustained over long stretches of time. The Inkworld trilogy, on which Funke worked from 2001 to 2007, is the clearest example: six years on a single, richly detailed fantasy world, without letting the public expectations created by the worldwide success of "The Thief Lord" push her into a rushed sequel.</p>
           <p class="vb-intro">This Nine-wing composure also shows in how little Funke stages herself publicly – despite more than 60 published books, translations into over 50 languages, and a place among TIME magazine's 100 most influential people of 2005, her public presence stays comparatively restrained; the work speaks louder than the author herself.</p>
         </blockquote>
 
@@ -2383,7 +2383,7 @@ export function steffenHensslerPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow of the Social Seven</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SO7w6 is the ability to <strong>make enthusiasm experienceable for many</strong>, rather than keeping it exclusive – "Grill den Henssler" has run for over a decade, turning culinary skill into a weekly shared audience experience rather than sealed-off fine dining.</p>
+          <p class="vb-intro">What distinguishes the SO7w6 is the ability to <strong>make enthusiasm experienceable for many</strong>, rather than keeping it exclusive – "Grill den Henssler" has run for over a decade, turning culinary skill into a weekly shared audience experience rather than sealed-off fine dining.</p>
           <p class="vb-intro">The Seven's shadow lies in the danger of diluting substance through constant multiplication of projects and formats – the recently significantly shrunk restaurant portfolio shows that not every expansion holds up once speed and reach matter more than careful building. The w6 caution that led to a timely retreat here is at the same time protection against the more typical Seven pattern of spreading too thin.</p>
         </blockquote>
 
@@ -2649,7 +2649,7 @@ export function adaLovelacePortraitPage() {
 
         <h2 class="vb-section">3. The Six-wing: mentors, loyalty and the mother</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Seven loyalty to people she trusts and a need for backing. Ada sought mentors: Somerville, De Morgan and above all Babbage. Toward her mother she remained all her life in a tension of rebellion and dependence. In the last months of her cancer her mother controlled who could visit her. Under her influence Ada became religious, according to the accounts repented her earlier conduct and made Lady Byron her executor.</p>
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> lends the Seven loyalty to people she trusts and a need for backing. Ada sought mentors: Somerville, De Morgan and above all Babbage. Toward her mother she remained all her life in a tension of rebellion and dependence. In the last months of her cancer her mother controlled who could visit her. Under her influence Ada became religious, according to the accounts repented her earlier conduct and made Lady Byron her executor.</p>
           <p class="vb-intro">That she could hold her ground is shown by the quarrel with Babbage in 1843. He wanted to add an anonymous preface about government funding to the translation and demanded that she withdraw her work. She refused; to do so would be ›dishonorable &amp; unjustifiable‹. On 14 August 1843 she sent a long letter with conditions, on whose copy Babbage noted that he had seen her that morning and refused all the conditions. A week later she wrote to her mother that Babbage and she were perhaps more friends than ever.</p>
         </blockquote>
 
@@ -2667,8 +2667,8 @@ export function adaLovelacePortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow of the social Seven with a Six-wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SO7w6 lies in Ada in the combination of imagination and rigour: she built an intellectual edifice that reached beyond her time and put herself in the service of Babbage's project. Her notes appeared under the initials ›AAL‹, but she wanted them to be attributable to her later.</p>
-          <p class="vb-intro">The shadow lies where the building is never finished and the risk is no longer cushioned. Much remained plan, the bets left debts, and the dependence on her mother lasted to the end. Ada Lovelace died on 27 November 1852, aged 36, in Marylebone in London of cervical cancer, then called uterine cancer. At her request she was buried beside her father in Hucknall, Nottinghamshire.</p>
+          <p class="vb-intro">The best of the SO7w6 lies in Ada in the combination of imagination and rigour: she built an intellectual edifice that reached beyond her time and put herself in the service of Babbage's project. Her notes appeared under the initials ›AAL‹, but she wanted them to be attributable to her later.</p>
+          <p class="vb-intro">The darker side lies where the building is never finished and the risk is no longer cushioned. Much remained plan, the bets left debts, and the dependence on her mother lasted to the end. Ada Lovelace died on 27 November 1852, aged 36, in Marylebone in London of cervical cancer, then called uterine cancer. At her request she was buried beside her father in Hucknall, Nottinghamshire.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Related patterns: Tesla, Verne and Musk</h2>
@@ -2723,7 +2723,7 @@ export function johnTravoltaPortraitPage() {
 
         <h2 class="vb-section">3. The Eight-wing: the one who keeps going after the crash</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Seven toughness and the refusal to give up. A Seven with a weaker Eight-wing would evade or start anew after a crash; Travolta stays on. After &lsquo;Urban Cowboy&rsquo; (1980) came failures: &lsquo;Blow Out&rsquo; (1981) was critically praised and a box-office flop, &lsquo;Staying Alive&rsquo; (1983) was a financial success and panned by critics, for the role he trained intensively and lost 20 pounds, &lsquo;Two of a Kind&rsquo; (1983) and &lsquo;Perfect&rsquo; (1985) failed. He turned down leads in &lsquo;American Gigolo&rsquo;, &lsquo;An Officer and a Gentleman&rsquo; and &lsquo;Splash&rsquo;. With &lsquo;Look Who&rsquo;s Talking&rsquo; (1989) came the turn (297 million dollars at the box office), in 1994 &lsquo;Pulp Fiction&rsquo; under Quentin Tarantino, his second Oscar nomination, and afterwards &lsquo;Get Shorty&rsquo; (1995, Golden Globe), &lsquo;Broken Arrow&rsquo;, &lsquo;Face/Off&rsquo; and more.</p>
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> grants the Seven toughness and the refusal to give up. A Seven with a weaker Eight-wing would evade or start anew after a crash; Travolta stays on. After &lsquo;Urban Cowboy&rsquo; (1980) came failures: &lsquo;Blow Out&rsquo; (1981) was critically praised and a box-office flop, &lsquo;Staying Alive&rsquo; (1983) was a financial success and panned by critics, for the role he trained intensively and lost 20 pounds, &lsquo;Two of a Kind&rsquo; (1983) and &lsquo;Perfect&rsquo; (1985) failed. He turned down leads in &lsquo;American Gigolo&rsquo;, &lsquo;An Officer and a Gentleman&rsquo; and &lsquo;Splash&rsquo;. With &lsquo;Look Who&rsquo;s Talking&rsquo; (1989) came the turn (297 million dollars at the box office), in 1994 &lsquo;Pulp Fiction&rsquo; under Quentin Tarantino, his second Oscar nomination, and afterwards &lsquo;Get Shorty&rsquo; (1995, Golden Globe), &lsquo;Broken Arrow&rsquo;, &lsquo;Face/Off&rsquo; and more.</p>
           <p class="vb-intro">He also held on to one project for years: &lsquo;Battlefield Earth&rsquo; (2000), after the novel by L. Ron Hubbard, which he had championed for a long time. The film was poorly reviewed, flopped at the box office, and his performance earned him two Razzie Awards. Here you can see the Eight-wing: it stands by what it believes, even against all probability.</p>
         </blockquote>
 
@@ -2945,7 +2945,7 @@ export function peterThielPortraitPage() {
 
         <h2 class="vb-section">3. The Nine-wing: acting from a distance</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the One reserve and the tendency not to stand in the front row oneself. In Thiel it shows in that he financed the Gawker litigation for years in the background and only confirmed it in 2016. The decision to take New Zealand citizenship in 2011 also became public only in 2017 and caused controversy.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> lends the One reserve and the tendency not to stand in the front row oneself. In Thiel it shows in that he financed the Gawker litigation for years in the background and only confirmed it in 2016. The decision to take New Zealand citizenship in 2011 also became public only in 2017 and caused controversy.</p>
           <p class="vb-intro">The core type One has the strictness, the Nine-wing the calm distance from which he carries it out.</p>
         </blockquote>
 
