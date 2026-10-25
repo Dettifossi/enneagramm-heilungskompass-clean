@@ -2976,3 +2976,145 @@ export function franziskaVanAlmsickPortraitPage() {
     </div>
   `);
 }
+
+export function paulSimonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-paul-simon-portrait.jpg" alt="Paul Simon – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Paul Simon</p>
+        <p class="krim-portrait-typ">SP4w5 &middot; Self-Preservation Type 4 with Five-wing &middot; Countertype of the Four</p>
+        <p class="krim-portrait-subtitle">American singer-songwriter, born 1941 in Newark, New Jersey &ndash; Simon &amp; Garfunkel &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Dove: songs that carry quietly</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Dove</strong> does not call loudly. It returns, carries what it has to carry, and finds its way over long distances. Paul Simon was born on 13 October 1941 in Newark, New Jersey, to Hungarian-Jewish parents. In 1945 the family moved to Kew Gardens Hills in Queens. His father Louis was a professor and bass player who often came home late, his mother Belle an elementary-school teacher. At eleven he met Art Garfunkel, at twelve or thirteen he wrote his first song: his father wrote out the chords and words, and that sheet is today in the Library of Congress.</p>
+          <p class="vb-intro">The two boys first performed as Tom &amp; Jerry, under a name their label gave them. Donald Fagen described Simon&rsquo;s background as that of a New York Jewish family whose parents felt like outsiders, and Simon said that was &lsquo;not far from the truth&rsquo;. This feeling of not quite belonging, and of giving it form, runs through his work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Four: depth that does not display itself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo saw in the self-preservation Four a particularity among the Fours: it does not suffer publicly but carries quietly, with tough constancy (<em>Tenacity</em>). It is called the countertype of the Four. Outwardly it often shows little of what one expects of this type and can for that very reason seem relaxed or easy-going while the heaviness gathers in the work.</p>
+          <p class="vb-intro">In Simon this strikingly applies. He does not tell stories of self-pity but builds songs: &lsquo;The Sound of Silence&rsquo;, &lsquo;Mrs. Robinson&rsquo;, &lsquo;Bridge over Troubled Water&rsquo;. He himself said the music always comes before the words and that writing lyrics is &lsquo;like a puzzle&rsquo;. The sadness in his songs does not step into the foreground, it lies in the attitude. The Dove says it well: it carries what is there and comes back.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: the craftsman and observer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Four distance, powers of observation and the tendency to make a structure from feeling. Simon works this way too: for &lsquo;Graceland&rsquo; he improvised melodies and words and &lsquo;tried not to censor the words&rsquo;, and he treats rhythm, sound and syllable like a material. To this side also belongs his indignation when someone interfered with his work: when the producer Tom Wilson overdubbed &lsquo;The Sound of Silence&rsquo; without telling the duo, he was, in his own words, horrified.</p>
+          <p class="vb-intro">In later years the wing shows in a kind of scholarship: he read Peter Singer&rsquo;s writings and subsequently committed himself to effective altruism. With Little Kids Rock (2003) he supports music education for children, and with the Children&rsquo;s Health Fund children&rsquo;s health. The Four wants to be understood, the Five wants to comprehend, and in him both meet in one question: why does something sound the way it does?</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: from Queens to Johannesburg and back</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After the end of Simon &amp; Garfunkel in 1970 his solo career began with &lsquo;Paul Simon&rsquo; (1972), &lsquo;There Goes Rhymin&rsquo; Simon&rsquo; (1973) and &lsquo;Still Crazy After All These Years&rsquo; (1975). &lsquo;One-Trick Pony&rsquo; (1980) and &lsquo;Hearts and Bones&rsquo; (1983) followed. With &lsquo;Graceland&rsquo; (1986) he opened himself to African music and worked with South African musicians. The album brought him approval and criticism at once: he was accused of breaking the cultural boycott against apartheid South Africa, the ANC voted a ban, which was later lifted. He said he paid the Black musicians and shared royalties with them.</p>
+          <p class="vb-intro">There followed &lsquo;The Rhythm of the Saints&rsquo; (1990), the songs for the musical &lsquo;The Capeman&rsquo; (1997, on stage in 1998), &lsquo;You&rsquo;re the One&rsquo; (2000), &lsquo;Surprise&rsquo; (2006), &lsquo;So Beautiful or So What&rsquo; (2011), &lsquo;Stranger to Stranger&rsquo; (2016) and &lsquo;In the Blue Light&rsquo; (2018). In 2007 he received the first Gershwin Prize for Popular Song, in 2012 the Polar Music Prize. With Garfunkel he was inducted into the Rock and Roll Hall of Fame in 1990.</p>
+          <p class="vb-intro">In 2018 he announced the end of his touring, also because of the time away from his family and the death of his guitarist Vincent Nguini. In 2023 came &lsquo;Seven Psalms&rsquo;: a dream had led him to the album, he said, which he wrote during the pandemic on a ranch in Texas. In the same year he said he had lost most of the hearing in his left ear, and the film and theatre project &lsquo;In Restless Dreams&rsquo; honoured his work. He lives in Connecticut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. A parallel in the same subtype: Paul McCartney</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A parallel is shown by <a href="#beruehmte-paul-mccartney">Paul McCartney (SP4w5)</a>, also a musician whose melodies sound light while constancy and sadness lie within them. <a href="#beruehmte-don-mclean">Don McLean (SP4w5)</a> too wrote songs that carry across decades. And with <a href="#beruehmte-art-garfunkel">Art Garfunkel (SX9w1)</a> Simon formed the duo in which two very different beings complemented each other: the Four who gives form and the Nine who empathizes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The duo: two voices, two temperaments</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Simon and Garfunkel split in 1970, after which according to Simon they spoke only two or three times a year. That they nevertheless tried again and again to work together says something about the bond both brought from their youth. Whoever hears the voices in the songs hears how Simon writes and Garfunkel carries: the restrained, precisely placed line and the clear, floating height above it. Both attitudes need each other, even if life separated them.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The path of healing: from carrying to sharing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Four becomes calmer when she senses that her feeling is enough and need not be bigger. In Simon this can be read from the late phase: he withdraws from the stages, devotes himself to the family and to the religious questions of &lsquo;Seven Psalms&rsquo;, and the sadness becomes a kind of quiet attentiveness. Whether it is to be read this way only he can say. The portrait offers it as a possible reading.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-art-garfunkel", label:"Portrait: Art Garfunkel (SX9w1) – Simon & Garfunkel"},
+        {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SP4w5)"},
+        {route:"beruehmte-don-mclean", label:"Portrait: Don McLean (SP4w5)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}
+
+export function artGarfunkelPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-art-garfunkel-portrait.jpg" alt="Art Garfunkel – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Art Garfunkel</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">American singer, poet and actor, born 1941 in New York &ndash; Simon &amp; Garfunkel &ndash; Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Sloth: calm movement, thought far</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sloth</strong> moves slowly, but it gets far. It seems calm, yet it cannot be driven. Arthur Ira Garfunkel was born on 5 November 1941 in Forest Hills in Queens, the middle of three brothers. As a child he sang in the synagogue and at his bar mitzvah in 1954. A childhood lung infection led him to basketball, which he has loved ever since.</p>
+          <p class="vb-intro">In sixth grade he met Paul Simon in a school play. After that one went the way of writing, the other the way of singing, and from both came a duo that shaped the pop music of the 1960s.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Nine: dissolving into the other</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Claudio Naranjo the sexual Nine is the subtype of <em>Union</em>: it seeks not the group but a single counterpart, a person or a work, and dissolves into it until its own contour recedes. In Garfunkel the image is close. He sang the second voice, the bright, carrying line to Simon&rsquo;s songs, and thus remained half of a whole. In his own words about a difficult 2010 appearance: &lsquo;I was terrible, and crazy nervous. I leaned on Paul Simon and the affection of the crowd.&rsquo;</p>
+          <p class="vb-intro">The attachment to a counterpart shows in his relationships too. From 1974 until her death in 1979 he was with Laurie Bird, of whom he said: &lsquo;She was beautiful, in a lonesome, haunted way, and I adored her.&rsquo; Since 1988 he has been married to Kathryn &lsquo;Kim&rsquo; Cermak; they have two sons, among them the singer Art Garfunkel Jr., with whom he released the album &lsquo;Father and Son&rsquo; in 2024.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-wing: thoroughness and quiet discipline</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the Nine standard and care. At Columbia University Garfunkel studied first architecture, then art history (bachelor&rsquo;s 1965) and completed a master&rsquo;s in mathematics education at Teachers College (1967). He dropped out of doctoral coursework. He read textbooks aloud to his blind roommate Sanford Greenberg, and he is described as an avid reader and book lover who began reading seriously in 1959 at Columbia.</p>
+          <p class="vb-intro">Walking belongs to it too: from 1983 he walked in about 40 stages across the US to Oregon, walked across Japan in the early 1980s and in 1998 began a series of walks across Europe. This is not flight but an ordered, recurring movement. It suits the Nine with a One-wing that it looks for measure in the familiar: step by step, page by page.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: voice, prose and cinema</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With Simon he reached, as a duo, recordings such as &lsquo;The Sound of Silence&rsquo;, &lsquo;Mrs. Robinson&rsquo; and &lsquo;Bridge over Troubled Water&rsquo;. &lsquo;Mrs. Robinson&rsquo; (1969) and &lsquo;Bridge over Troubled Water&rsquo; (1971) were awarded the Grammy for Record of the Year. In 1990 both were inducted into the Rock and Roll Hall of Fame. After the split in 1970 the two, according to Simon, spoke only two or three times a year but later performed together again and again.</p>
+          <p class="vb-intro">As a solo artist Garfunkel released &lsquo;Angel Clare&rsquo; (1973) and &lsquo;Breakaway&rsquo; (1975) with &lsquo;I Only Have Eyes for You&rsquo;, a UK number one, and in 1979 &lsquo;Bright Eyes&rsquo;, also number one and the UK&rsquo;s best-selling single of the year. He acted in Mike Nichols&rsquo; &lsquo;Catch-22&rsquo; (1970) and &lsquo;Carnal Knowledge&rsquo; (1971), for which he received a Golden Globe nomination, later in &lsquo;Bad Timing&rsquo; (1980) and &lsquo;Boxing Helena&rsquo; (1993). He published the prose-poetry volume &lsquo;Still Water&rsquo; (1989) and in 2017 his memoir &lsquo;What Is It All but Luminous&rsquo;.</p>
+          <p class="vb-intro">In 2010 he damaged his vocal cords when he briefly choked on lobster, and had to cancel appearances. He stopped smoking to support recovery.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. A parallel in the same subtype and wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With the sexual Nine in the One-wing he stands beside <a href="#beruehmte-bruce-springsteen">Bruce Springsteen (SX9w1)</a>, <a href="#beruehmte-willie-nelson">Willie Nelson (SX9w1)</a> and <a href="#beruehmte-peter-maffay">Peter Maffay (SX9w1)</a>, three musicians who understand their art as part of a larger, connected path. On the other side of the duo stands <a href="#beruehmte-paul-simon">Paul Simon (SP4w5)</a>, the writer who shapes the work while Garfunkel carries it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The bright part of this constellation is the ability to carry a song and to give a counterpart room. The shadow of the Nine lies in evading conflict and in the blurring of one&rsquo;s own position. No documented statements from him on the reasons for the split of the duo are at hand, and the portrait supposes none.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The path of healing: from fusion to one&rsquo;s own voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The path of the Nine leads from dissolving into the other to a voice of one&rsquo;s own that can be heard. Garfunkel&rsquo;s prose, his poems, the memoir and the walks can be read as steps in this direction. That he carried on after the vocal damage of 2010 suits a person who lives constancy.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
+        {route:"beruehmte-paul-simon", label:"Portrait: Paul Simon (SP4w5) – Simon & Garfunkel"},
+        {route:"beruehmte-bruce-springsteen", label:"Portrait: Bruce Springsteen (SX9w1)"},
+        {route:"beruehmte-willie-nelson", label:"Portrait: Willie Nelson (SX9w1)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}

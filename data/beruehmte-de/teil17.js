@@ -3101,3 +3101,145 @@ export function rominaPalmPortraitPage() {
     </div>
   `);
 }
+
+export function paulSimonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-paul-simon-portrait.jpg" alt="Paul Simon – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Paul Simon</p>
+        <p class="krim-portrait-typ">SE4w5 &middot; Selbsterhaltender Typ 4 mit Fünferflügel &middot; Kontratyp der Vier</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Singer-Songwriter, geb. 1941 in Newark, New Jersey &ndash; Simon &amp; Garfunkel &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube: Lieder, die leise tragen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ruft nicht laut. Sie kehrt zurück, trägt, was sie tragen muss, und findet ihren Weg über weite Strecken. Paul Simon kam am 13. Oktober 1941 in Newark, New Jersey, als Sohn ungarisch-jüdischer Eltern zur Welt. 1945 zog die Familie nach Kew Gardens Hills in Queens. Sein Vater Louis war Professor und Bassist und kam oft spät heim, die Mutter Belle Grundschullehrerin. Mit elf lernte er Art Garfunkel kennen, mit zwölf oder dreizehn schrieb er sein erstes Lied: Der Vater notierte Akkorde und Text, und das Blatt liegt heute in der Library of Congress.</p>
+          <p class="vb-intro">Als Tom &amp; Jerry traten die beiden Jungen zuerst auf, unter einem Namen, den ihnen das Label gab. Donald Fagen beschrieb Simons Herkunft als die einer New Yorker jüdischen Familie, deren Eltern sich als Außenseiter fühlten, und Simon sagte, das sei »nicht weit von der Wahrheit«. Dieses Gefühl, nicht ganz dazuzugehören und dem doch Form zu geben, zieht sich durch sein Werk.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Tiefe, die sich nicht ausstellt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo sah in der selbsterhaltenden Vier eine Besonderheit unter den Vieren: Sie leidet nicht öffentlich, sondern trägt still, mit zäher Beständigkeit (<em>Tenacity</em>). Man nennt sie den Kontratyp der Vier. Nach außen zeigt sie oft wenig von dem, was man bei dieser Art erwartet, und kann gerade deshalb locker oder gelassen wirken, während sich das Schwere im Werk sammelt.</p>
+          <p class="vb-intro">Bei Simon trifft das auffallend zu. Er erzählt keine Selbstmitleidsgeschichten, sondern baut Lieder: ›The Sound of Silence‹, ›Mrs. Robinson‹, ›Bridge over Troubled Water‹. Er selbst sagte, die Musik komme immer vor den Worten, und das Schreiben der Texte sei »wie ein Puzzle«. Die Trauer in seinen Liedern geht nicht in den Vordergrund, sie steckt in der Haltung. Mit der Taube ist das gut gesagt: Sie trägt, was da ist, und kommt wieder.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: der Handwerker und Beobachter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der Vier Abstand, Beobachtungsgabe und den Hang, aus Gefühl ein Gefüge zu machen. Simon arbeitet auch so: Er improvisierte für ›Graceland‹ Melodien und Worte und »versuchte, die Wörter nicht zu zensieren«, und er behandelt Rhythmus, Klang und Silbe wie ein Material. Zu dieser Seite gehört auch seine Empörung, wenn jemand in sein Werk eingriff: Als der Produzent Tom Wilson ›The Sound of Silence‹ ohne Wissen des Duos mit Instrumenten überspielte, war er nach eigenen Worten entsetzt.</p>
+          <p class="vb-intro">In späteren Jahren zeigt sich der Flügel in einer Art Gelehrsamkeit: Er las die Schriften Peter Singers und setzte sich in der Folge für Effektiven Altruismus ein. Mit Little Kids Rock (2003) fördert er Musikunterricht für Kinder, und mit dem Children&rsquo;s Health Fund die Gesundheit von Kindern. Die Vier will verstanden werden, die Fünf will begreifen, und bei ihm treffen sich beide in einer Frage: Warum klingt etwas, wie es klingt?</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: von Queens bis Johannesburg und zurück</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach dem Ende von Simon &amp; Garfunkel 1970 begann seine Solokarriere mit ›Paul Simon‹ (1972), ›There Goes Rhymin&rsquo; Simon‹ (1973) und ›Still Crazy After All These Years‹ (1975). Es folgten ›One-Trick Pony‹ (1980) und ›Hearts and Bones‹ (1983). Mit ›Graceland‹ (1986) öffnete er sich afrikanischer Musik und arbeitete mit südafrikanischen Musikern zusammen. Das Album brachte ihm Zuspruch und zugleich Kritik: Man warf ihm vor, den Kulturboykott gegen das Apartheid-Südafrika zu brechen, der ANC sprach ein Verbot aus, das später aufgehoben wurde. Er sagte, er habe die schwarzen Musiker bezahlt und Tantiemen mit ihnen geteilt.</p>
+          <p class="vb-intro">Es folgten ›The Rhythm of the Saints‹ (1990), die Songs zum Musical ›The Capeman‹ (1997, auf der Bühne 1998), ›You&rsquo;re the One‹ (2000), ›Surprise‹ (2006), ›So Beautiful or So What‹ (2011), ›Stranger to Stranger‹ (2016) und ›In the Blue Light‹ (2018). 2007 erhielt er als Erster den Gershwin-Preis für populäre Musik, 2012 den Polar Music Prize. Mit Garfunkel wurde er 1990 in die Rock and Roll Hall of Fame aufgenommen.</p>
+          <p class="vb-intro">2018 kündigte er das Ende seiner Tourneen an, auch wegen der Zeit, die ihm für die Familie fehlte, und wegen des Todes seines Gitarristen Vincent Nguini. 2023 erschien ›Seven Psalms‹: Ein Traum habe ihn zu dem Album gebracht, sagte er, das er während der Pandemie auf einer Ranch in Texas schrieb. Im selben Jahr erzählte er, auf dem linken Ohr den größten Teil des Gehörs verloren zu haben, und das Film- und Theaterprojekt ›In Restless Dreams‹ würdigte sein Werk. Er lebt in Connecticut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Paul McCartney</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine Parallele zeigt <a href="#beruehmte-paul-mccartney">Paul McCartney (SE4w5)</a>, ebenfalls ein Musiker, dessen Melodien leicht klingen, während darin Beständigkeit und Trauer liegen. Auch <a href="#beruehmte-don-mclean">Don McLean (SE4w5)</a> schrieb Lieder, die über Jahrzehnte tragen. Und mit <a href="#beruehmte-art-garfunkel">Art Garfunkel (SX9w1)</a> bildete Simon das Duo, in dem sich zwei sehr verschiedene Wesen ergänzten: die Vier, die Form gibt, und die Neun, die sich einfühlt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Duo: zwei Stimmen, zwei Temperamente</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Simon und Garfunkel trennten sich 1970, danach sprachen sie nach Simons Angabe nur zwei- bis dreimal im Jahr miteinander. Dass sie es dennoch immer wieder gemeinsam versuchten, sagt etwas über die Verbindung, die beide aus der Jugend mitbrachten. Wer in den Liedern die Stimmen hört, hört, wie Simon schreibt und Garfunkel trägt: die zurückgenommene, genau gesetzte Linie und die klare, schwebende Höhe darüber. Beide Haltungen brauchen einander, auch wenn das Leben sie trennte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Der Heilungsweg: vom Tragen zum Teilen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Vier wird gelassener, wenn sie spürt, dass ihr Gefühl genügt und nicht größer sein muss. Bei Simon lässt sich das an der Spätphase ablesen: Er zieht sich von den Bühnen zurück, widmet sich der Familie und den religiösen Fragen der ›Seven Psalms‹, und die Trauer wird zu einer Art stiller Zugewandtheit. Ob das so zu lesen ist, kann nur er selbst sagen. Das Porträt bietet es als mögliche Lesart an.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-art-garfunkel", label:"Porträt: Art Garfunkel (SX9w1) – Simon & Garfunkel"},
+        {route:"beruehmte-paul-mccartney", label:"Porträt: Paul McCartney (SE4w5)"},
+        {route:"beruehmte-don-mclean", label:"Porträt: Don McLean (SE4w5)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
+
+export function artGarfunkelPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-art-garfunkel-portrait.jpg" alt="Art Garfunkel – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Art Garfunkel</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Sänger, Dichter und Schauspieler, geb. 1941 in New York &ndash; Simon &amp; Garfunkel &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier: ruhige Bewegung, weit gedacht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> bewegt sich langsam, aber es gelangt weit. Es wirkt gelassen, dabei lässt es sich nicht antreiben. Arthur Ira Garfunkel wurde am 5. November 1941 in Forest Hills in Queens geboren, als mittlerer von drei Brüdern. Er sang als Kind in der Synagoge und bei seiner Bar Mitzwa 1954. Eine Lungeninfektion in der Kindheit führte ihn zum Basketball, den er seitdem liebt.</p>
+          <p class="vb-intro">In der sechsten Klasse traf er in einem Schulstück Paul Simon. Danach ging der eine den Weg des Schreibens, der andere den des Singens, und aus beidem wurde ein Duo, das die Popmusik der 1960er Jahre prägte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Aufgehen im Gegenüber</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach Claudio Naranjo ist die sexuelle Neun der Subtyp der <em>Vereinigung</em>: Sie sucht nicht die Gruppe, sondern ein einzelnes Gegenüber, einen Menschen oder ein Werk, und geht darin auf, bis die eigene Kontur zurücktritt. Bei Garfunkel liegt das Bild nahe. Er sang die zweite Stimme, die helle, tragende Linie zu Simons Liedern, und blieb damit die Hälfte eines Ganzen. In seinen eigenen Worten über einen schwierigen Auftritt 2010 heißt es: »Ich war schrecklich und wahnsinnig nervös. Ich habe mich auf Paul Simon und die Zuneigung des Publikums gestützt.« (im Original: ›I leaned on Paul Simon and the affection of the crowd.‹)</p>
+          <p class="vb-intro">Auch in den Beziehungen zeigt sich die Bindung an ein Gegenüber. Von 1974 bis zu ihrem Tod 1979 war er mit Laurie Bird zusammen, über die er sagte: ›She was beautiful, in a lonesome, haunted way, and I adored her.‹ (»Sie war schön, auf eine einsame, gejagte Art, und ich vergötterte sie.«) Seit 1988 ist er mit Kathryn ›Kim‹ Cermak verheiratet, sie haben zwei Söhne, darunter den Sänger Art Garfunkel Jr., mit dem er 2024 das Album ›Father and Son‹ veröffentlichte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Gründlichkeit und stille Disziplin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> verleiht der Neun Maßstab und Sorgfalt. Garfunkel studierte an der Columbia University zuerst Architektur, dann Kunstgeschichte (Bachelor 1965) und schloss am Teachers College einen Master in mathematischer Didaktik ab (1967). Das Promotionsstudium brach er ab. Er las seinem blinden Zimmergenossen Sanford Greenberg Lehrbücher vor, und er gilt als leidenschaftlicher Leser und Bücherliebhaber, der seit seinem Studium 1959 ernsthaft liest.</p>
+          <p class="vb-intro">Auch das Wandern gehört dazu: Er lief ab 1983 in rund 40 Etappen quer durch die USA bis nach Oregon, wanderte Anfang der 1980er Jahre durch Japan und begann 1998 eine Reihe von Fußreisen durch Europa. Das ist keine Flucht, sondern eine geordnete, wiederkehrende Bewegung. Zur Neun mit Einserflügel passt, dass sie das Maß im Gewohnten sucht: Schritt für Schritt, Seite für Seite.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Stimme, Prosa und Kino</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit Simon erreichte er als Duo Aufnahmen wie ›The Sound of Silence‹, ›Mrs. Robinson‹ und ›Bridge over Troubled Water‹. ›Mrs. Robinson‹ (1969) und ›Bridge over Troubled Water‹ (1971) wurden mit dem Grammy für die Aufnahme des Jahres ausgezeichnet. 1990 nahm man beide in die Rock and Roll Hall of Fame auf. Nach der Trennung 1970 sprachen die beiden nach Simons Angaben nur zwei- bis dreimal im Jahr miteinander, traten aber später immer wieder gemeinsam auf.</p>
+          <p class="vb-intro">Solo veröffentlichte Garfunkel ›Angel Clare‹ (1973) und ›Breakaway‹ (1975) mit ›I Only Have Eyes for You‹, einer Nummer eins in Großbritannien, sowie 1979 ›Bright Eyes‹, ebenfalls Nummer eins und die meistverkaufte britische Single des Jahres. Er spielte in Mike Nichols&rsquo; ›Catch-22‹ (1970) und ›Carnal Knowledge‹ (1971), wofür er eine Golden-Globe-Nominierung erhielt, später in ›Bad Timing‹ (1980) und ›Boxing Helena‹ (1993). Er veröffentlichte den Prosagedichtband ›Still Water‹ (1989) und 2017 seine Erinnerungen ›What Is It All but Luminous‹.</p>
+          <p class="vb-intro">2010 schädigte er sich die Stimmbänder, als er sich kurz an Hummer verschluckte, und musste Auftritte absagen. Er hörte auf zu rauchen, um die Erholung zu unterstützen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp und Flügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit der sexuellen Neun im Einserflügel steht er neben <a href="#beruehmte-bruce-springsteen">Bruce Springsteen (SX9w1)</a>, <a href="#beruehmte-willie-nelson">Willie Nelson (SX9w1)</a> und <a href="#beruehmte-peter-maffay">Peter Maffay (SX9w1)</a>, drei Musikern, die ihre Kunst als Teil eines größeren, verbundenen Wegs verstehen. Auf der anderen Seite des Duos steht <a href="#beruehmte-paul-simon">Paul Simon (SE4w5)</a>, der Schreibende, der das Werk formt, während Garfunkel es trägt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Heller Teil dieser Konstellation ist die Fähigkeit, ein Lied zu tragen und einem Gegenüber Raum zu geben. Der Schatten der Neun liegt im Ausweichen vor Konflikten und im Verschwimmen der eigenen Position. Über die Gründe der Trennung vom Duo liegen mir keine belegten Aussagen von ihm vor, und das Porträt vermutet keine.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Der Heilungsweg: von der Verschmelzung zur eigenen Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Weg der Neun führt vom Aufgehen im anderen zu einer eigenen, hörbaren Stimme. Garfunkels Prosa, seine Gedichte, die Memoiren und die Wanderungen lassen sich als Schritte in diese Richtung lesen. Dass er nach dem Stimmschaden von 2010 weitermachte, passt zu einem Menschen, der Beständigkeit lebt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"beruehmte-paul-simon", label:"Porträt: Paul Simon (SE4w5) – Simon & Garfunkel"},
+        {route:"beruehmte-bruce-springsteen", label:"Porträt: Bruce Springsteen (SX9w1)"},
+        {route:"beruehmte-willie-nelson", label:"Porträt: Willie Nelson (SX9w1)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
