@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=380";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=381";
 import { psychogrammErklaerung } from "../data/psychogramme-erklaerung.js?v=2";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -40443,7 +40443,7 @@ function wahnideenNichtRealeVorstellungenPage() {
             <div style="font-size:0.9rem;line-height:1.65;display:grid;gap:0.45rem;">
               <div><span style="font-weight:700;color:var(--muted);">Repertory idea:</span> <em>being a gnome, a wight</em></div>
               <div><span style="font-weight:700;color:var(--muted);">In Kent:</span> Kent&rsquo;s Repertory has no rubric of the same wording.</div>
-              <div>The Nine makes itself small to keep the peace and can in the end experience itself as tiny and insignificant: a wight who does not count. The image circles around unimportance and the longing not to be a burden to anyone. According to the author the idea goes back to Edward C. Whitmont (&ldquo;Psyche and Substance&rdquo;). This rubric has been known since 1980.</div>
+              <div>The Nine makes itself small to keep the peace and can in the end experience itself as tiny and insignificant: a wight who does not count. The image circles around unimportance and the longing not to be a burden to anyone. In Kent the remedy Cannabis indica is also listed with &ldquo;annihilation, about to sink into&rdquo; (Cannabis indica and Carbo hydrogenisatus) and &ldquo;weight, has no&rdquo; (Cannabis indica and Opium), images of dissolving and weightlessness. According to the author the idea &ldquo;gnome, wight&rdquo; goes back to Edward C. Whitmont (&ldquo;Psyche and Substance&rdquo;). This rubric has been known since 1980.</div>
               <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">In life threads:</span> <a href="#beruehmte-eleanor-roosevelt">Eleanor Roosevelt</a></div>
               <div style="font-size:0.78rem;color:var(--muted);">Remedy assigned in this Compass&rsquo;s Enneagram homeopathy: Cannabis indica</div>
             </div>
