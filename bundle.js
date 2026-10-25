@@ -32084,7 +32084,8 @@ export function pageHeader(active) {
       const _fl=_favLabel(_fr);
       const _on=_isFav(_fr);
       const _hb=_fl?('<button class="fav-heart-btn'+((_on)?' fav-heart-btn--active':'')+'" id="fav-heart-btn" data-route-fav="'+_fr+'" aria-label="Favorit" title="'+(_on?'Aus Favoriten entfernen':'Zu Favoriten hinzuf\xfcgen')+'">'+(_on?'\u2665':'\u2661')+'</button>'):"";
-      return'<div class="page-back-bar"><button class="page-back-btn" id="js-back-btn">\u2190 Zur\xfcck</button>'+_hb+'</div>';
+const _sb='<button class="share-page-btn" id="share-page-btn" aria-label="Seite teilen" title="Seite teilen"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="13.5" x2="15.4" y2="17.5"/><line x1="15.4" y1="6.5" x2="8.6" y2="10.5"/></svg></button>';
+            return'<div class="page-back-bar"><button class="page-back-btn" id="js-back-btn">\u2190 Zur\xfcck</button>'+_sb+_hb+'</div>';
     })()}
   `;
 }
@@ -66336,6 +66337,24 @@ function _toggleFav(r, label) {
   if (i >= 0) a.splice(i, 1); else a.unshift({ route: r, label });
   _setFavs(a);
 }
+
+// Seite teilen (Web Share API, Fallback: Link kopieren)
+document.addEventListener("click", function(ev) {
+  const b = ev.target.closest && ev.target.closest("#share-page-btn");
+  if (!b) return;
+  const r = window._currentRoute || "";
+  let lbl = "";
+  try { lbl = _favLabel(r) || ""; } catch (e) {}
+  if (!lbl) lbl = (document.querySelector("h1") || {}).textContent || document.title;
+  const url = location.origin + location.pathname + "#" + r;
+  const msg = lbl + "\n\nAus dem Enneagramm-Heilungskompass";
+  if (navigator.share) {
+    navigator.share({ title: lbl, text: msg, url: url }).catch(function() {});
+  } else if (navigator.clipboard) {
+    navigator.clipboard.writeText(msg + "\n" + url).then(function() { b.title = "Link kopiert"; });
+  }
+});
+
 function _favLabel(r) {
   if (!r) return null;
   const k = KRIMINAL_PORTRAITS.find(p => p.route === r);

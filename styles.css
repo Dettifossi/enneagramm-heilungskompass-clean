@@ -5486,6 +5486,12 @@ button.primary:active::after {
   color: var(--muted); transition: color .15s, transform .15s;
   margin-left: auto;
 }
+.share-page-btn {
+  background: none; border: none; cursor: pointer; color: var(--muted);
+  padding: 0.2rem 0.4rem; margin-left: auto; display: inline-flex; align-items: center;
+}
+.share-page-btn:hover { color: var(--ink); }
+.share-page-btn + .fav-heart-btn { margin-left: 0.1rem; }
 .fav-heart-btn--active { color: var(--gold); }
 .fav-heart-btn:active { transform: scale(1.25); }
 
