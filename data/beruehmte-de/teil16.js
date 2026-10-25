@@ -3637,7 +3637,7 @@ export function eleanorRooseveltPortraitPage() {
         <h2 class="vb-section">7. Ein Gedanke aus der Homöopathie: das Bild vom Wicht</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 9 das Mittel Cannabis indica (Indischer Hanf) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seiner Hauptvorstellung gehört in der Repertoriumssprache die Vorstellung, ein Gnom oder Wicht zu sein. Bei Eleanor Roosevelt begegnet das Bild in der Kindheit: Sie verlor früh Mutter und Vater, wuchs bei der Großmutter auf, und ihre Mutter nannte sie wegen ihres ernsten Wesens ›Granny‹. Sie erlebte sich als Kind unscheinbar und klein.</p>
-          <p class="vb-intro">Kents Repertorium kennt keine gleichlautende Rubrik. Nach Angabe des Autors geht die Vorstellung ›Gnom, Wicht‹ auf Edward C. Whitmont zurück (›Psyche and Substance‹ (›Psyche und Substanz‹), 1980). Es ist eine Gegenüberstellung zweier ähnlicher Bilder, mehr nicht. Der Text sagt nichts über Gesundheit, empfiehlt nichts und ersetzt keine ärztliche oder heilkundliche Beratung.</p>
+          <p class="vb-intro">Kents Repertorium kennt keine gleichlautende Rubrik. Nach Angabe des Autors geht die Vorstellung ›Gnom, Wicht‹ auf Edward C. Whitmont zurück (›Psyche and Substance‹ (›Psyche und Substanz‹)). Seit 1980 ist diese Rubrik bekannt. Es ist eine Gegenüberstellung zweier ähnlicher Bilder, mehr nicht. Der Text sagt nichts über Gesundheit, empfiehlt nichts und ersetzt keine ärztliche oder heilkundliche Beratung.</p>
         </blockquote>
 
 
