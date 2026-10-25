@@ -213,6 +213,8 @@ const ROUTES = [
   { hash: "#mindmaps-single-rubriken", label: "Mindmaps Übersicht" },
   { hash: "en/#mindmaps-single-rubriken", label: "EN Mindmaps overview" },
   { hash: "#mindmap-ignatia", label: "Mindmap Ignatia amara" },
+  { hash: "#mindmap-platin", label: "Mindmap Platinum metallicum" },
+  { hash: "en/#mindmap-platin", label: "EN Mindmap Platinum metallicum" },
   { hash: "en/#mindmap-ignatia", label: "EN Mindmap Ignatia amara" },
   { hash: "en/#mindmap-hyoscyamus", label: "EN Mindmap Hyoscyamus niger" },
   { hash: "en/#mindmap-tarentula", label: "EN Mindmap Tarentula hispanica" },
