@@ -265,6 +265,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://kompass.verlagshausrathmer.com/mindmaps-single-rubriken/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://kompass.verlagshausrathmer.com/mindmap-ignatia/</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -19112,6 +19118,60 @@
   </url>
   <url>
     <loc>https://kompass.verlagshausrathmer.com/en/wahnideen-nicht-reale-vorstellungen/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kompass.verlagshausrathmer.com/en/mindmaps-single-rubriken/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kompass.verlagshausrathmer.com/en/mindmap-ignatia/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kompass.verlagshausrathmer.com/en/mindmap-hyoscyamus/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kompass.verlagshausrathmer.com/en/mindmap-tarentula/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kompass.verlagshausrathmer.com/en/mindmap-stramonium/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kompass.verlagshausrathmer.com/en/mindmap-opium/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kompass.verlagshausrathmer.com/en/mindmap-belladonna/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kompass.verlagshausrathmer.com/en/mindmap-veratrum/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kompass.verlagshausrathmer.com/en/mindmap-cannabis/</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
