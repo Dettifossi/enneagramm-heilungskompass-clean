@@ -42775,9 +42775,9 @@ function freischaltPage() {
 
         <!-- E-Mail-Login (neue Kunden) -->
         <div id="panelEmail">
-          <input id="fbEmail" type="email" placeholder="Your email address" autocomplete="email" spellcheck="false"
+          <input id="fbEmail" name="email" type="email" autocapitalize="none" placeholder="Your email address" autocomplete="email" spellcheck="false"
             style="width:100%;box-sizing:border-box;padding:0.7rem 1rem;border:1px solid #ddd;border-radius:8px;font-size:1rem;font-family:inherit;margin-bottom:0.5rem;" />
-          <input id="fbPass" type="password" placeholder="Your password (from the confirmation email)" autocomplete="current-password"
+          <input id="fbPass" name="password" type="password" placeholder="Your password (from the confirmation email)" autocomplete="current-password"
             style="width:100%;box-sizing:border-box;padding:0.7rem 1rem;border:1px solid #ddd;border-radius:8px;font-size:1rem;font-family:inherit;margin-bottom:0.75rem;" />
           <button id="fbLoginBtn" class="primary" style="width:100%;">Sign in</button>
           <p id="fbMsg" class="freischalt-card__msg"></p>
@@ -45769,7 +45769,7 @@ document.addEventListener("click", function(ev) {
   try { const re = typeof registerEntriesEN !== "undefined" && registerEntriesEN.find(e => e.route === r); lbl = (re && re.term) || _favLabel(r) || ""; } catch (e) {}
   if (!lbl) lbl = (document.querySelector("h1") || {}).textContent || document.title;
   const url = location.origin + location.pathname + "#" + r;
-  const msg = lbl + "\n\nFrom the Enneagram Healing Compass";
+  const msg = lbl + "\n\nFrom the Enneagram Healing Compass\n\nSign in once when you first open it, after that it opens directly.";
   if (navigator.share) {
     navigator.share({ title: lbl, text: msg, url: url }).catch(function() {});
   } else if (navigator.clipboard) {
