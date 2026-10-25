@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=401";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=402";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -17303,6 +17303,7 @@ const uiText = {
     { route: "stille", label: "\u23f1 Stille" },
     { route: "musik",  label: "\ud83c\udfb5 Entspannungs- und Heilungsmusik" },
     { route: "david-rathmer", label: "\u25b6 David L. Rathmer \u2013<br>Enneagramm-Profiling", dropdown: [
+      { route: "david-rathmer-gespraech",               label: "\u25b6 Das Gespr\u00e4ch: Wie aus Profiling ein Business wurde" },
       { route: "enneagramm-profiling",                 label: "Enneagramm-Profiling" },
       { route: "david-rathmer-fuehrung",               label: "F\u00fchrung & Unternehmen" },
       { route: "david-rathmer-fuehrung-mit-fundament", label: "F\u00fchrung mit Fundament" },
@@ -59706,6 +59707,31 @@ function antriebskraeftePage() {
   `);
 }
 
+function davidRathmerGespraechPage() {
+  return shell(`
+    ${pageHeader("david-rathmer-gespraech")}
+    <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
+      <p class="eyebrow">David L. Rathmer · Enneagramm-Profiling</p>
+      <h1 class="section-title">Das Gespräch: Wie aus Profiling ein Business wurde</h1>
+      <p class="psycho-intro">David L. Rathmer, Begründer des Enneagramm-Profilings, erzählt in einem halbstündigen Gespräch mit Digistore24 seinen Weg, von den ersten Berührungen mit dem Enneagramm als Kind bis zur eigenen Selbstständigkeit.</p>
+      <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;margin:1.2rem 0 0.6rem;">
+        <iframe width="100%" height="100%" style="border:none;display:block;" title="David Rathmer | Wie aus Profiling ein Business wurde | Make your knowledge work | EP 2" src="https://www.youtube.com/embed/mFV2mnKuaqc?rel=0&playsinline=1" allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      </div>
+      <p style="font-size:0.85rem;color:var(--muted);margin:0 0 1.6rem;">Digistore24 DE · Make your knowledge work, Folge 2 · rund 30 Minuten</p>
+      <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 0.6rem;color:var(--ink);">Worum es geht</h2>
+      <ul style="font-size:0.98rem;line-height:1.7;padding-left:1.2rem;margin:0 0 1rem;"><li style="margin:0.35rem 0;">Wie David schon mit sieben oder acht Jahren zum Enneagramm kam und wie ihn die Arbeit seines Vaters Detlef Rathmer prägte.</li><li style="margin:0.35rem 0;">Wie die Profiling-Methode gemeinsam mit seinem Vater entstand: Typisierung über Blick, Haltung und Rhythmus statt über Selbstauskunft.</li><li style="margin:0.35rem 0;">Warum das Enneagramm-Profiling, das nach den Grundsätzen des Enneagramms arbeitet, für ihn nicht nur im Beruf, sondern auch in der eigenen Lebensgestaltung ein zentraler Wert ist.</li><li style="margin:0.35rem 0;">Sein eigenständiger Weg in die Selbstständigkeit und in den Erfolg.</li><li style="margin:0.35rem 0;">Wie er mit seinem eigenen Typ anfangs immer wieder in Konflikt geriet und durch Selbsterkenntnis und stetige Reflexion innere Stärke, Ruhe und Ausgeglichenheit gewann.</li></ul>
+      <p style="font-size:0.88rem;color:var(--muted);margin:0 0 1.6rem;">Das Video entstand bei Digistore24 in München, mit dem David L. Rathmer zusammenarbeitet.</p>
+      ${bookTip("fuehrung-mit-fundament", "632 Seiten Tiefenpsychologie für Führungskräfte: die neun Führungstypen, ihre blinden Flecken und der Weg zu reifer, wirksamer Führung. Mitautor: David L. Rathmer.", "Führung mit Fundament")}
+      ${relatedLinks([
+        {route:"enneagramm-profiling", label:"Enneagramm-Profiling: die Methode"},
+        {route:"beruehmte-david-l-rathmer", label:"Porträt: David L. Rathmer"},
+        {route:"david-rathmer-fuehrung-mit-fundament", label:"Führung mit Fundament"},
+        {route:"beruehmte-sven-platte", label:"Porträt: Sven Platte (Gründer von Digistore24)"},
+      ])}
+    </div>
+  `);
+}
+
 function enneagrammProfilingPage() {
   return shell(`
     ${pageHeader("enneagramm-profiling")}
@@ -67811,6 +67837,7 @@ const ROUTES = {
     "grundformel": grundformelPage,
     "ego-fixierungen": egoFixierungenPage,
     "enneagramm-profiling": enneagrammProfilingPage,
+    "david-rathmer-gespraech": davidRathmerGespraechPage,
     "antriebskraefte": antriebskraeftePage,
     "dynamik-der-fluegelenergien": dynamikDerFluegelenergienPage,
     "hilfreiche-hinweise-9-typen": hilfreicheHinweise9TypenPage,

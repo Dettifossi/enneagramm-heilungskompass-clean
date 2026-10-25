@@ -176,6 +176,7 @@ export const registerEntries = [
   // E
   { term: "Edelsteine",              route: "edelsteine",               description: "Schaubild: Edelstein-Zuordnungen für alle Typen" },
   { term: "Ego-Fixierungen nach Oscar Ichazo", route: "ego-fixierungen", description: "Schaubild: Die 9 Fixierungen als Landkarte der Entfremdung vom Wesen – Ursprung des Enneagramms" },
+  { term: "David L. Rathmer: Das Gespräch – Wie aus Profiling ein Business wurde", route: "david-rathmer-gespraech", description: "Video: halbstündiges Gespräch von Digistore24 mit David L. Rathmer über Enneagramm-Profiling, seinen Weg und seine Selbsterkenntnis" },
   { term: "Enneagramm-Profiling",    route: "enneagramm-profiling",     description: "Typisierung \xfcber Blick, Haltung & Mimik – Grundlagen und Ausbildungshinweis" },
   { term: "Ego-Persönlichkeit",      route: "ego-persoenlichkeit",      description: "Schaubild: Strukturmuster des Ego-Anteils" },
   { term: "Eitelkeit",               route: "subtype/se3",              description: "Leidenschaft Typ 3 → SE3, SO3, SX3" },
@@ -2652,6 +2653,7 @@ export const registerEntriesEN = [
   { term: "Three-Finger Rule", route: "drei-finger-regel", description: "Diagram: normal type, reinforcement type, countertype as a hand gesture" },
   { term: "Gemstones", route: "edelsteine", description: "Diagram: gemstone assignments for all types" },
   { term: "Ego Fixations according to Oscar Ichazo", route: "ego-fixierungen", description: "Diagram: The 9 fixigations as a map of alienation from the essence – origin of the Enneagram" },
+  { term: "David L. Rathmer: The conversation – how profiling became a business", route: "david-rathmer-gespraech", description: "Video: half-hour Digistore24 conversation with David L. Rathmer on Enneagram profiling, his path and self-knowledge (in German)" },
   { term: "Enneagram Profiling", route: "enneagramm-profiling", description: "Typing via gaze, posture & facial expression – basics and training note" },
   { term: "Ego Personality", route: "ego-persoenlichkeit", description: "Diagram: structural patterns of the ego component" },
   { term: "Vanity", route: "subtype/se3", description: "Passion Typ 3 → SP3, SO3, SX3" },
