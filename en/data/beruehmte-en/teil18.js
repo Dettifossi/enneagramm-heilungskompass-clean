@@ -789,7 +789,7 @@ export function jeanneMarieGuyonPortraitPage() {
         <h2 class="vb-section">7. A thought from homeopathy: the image of capture</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 7 is assigned the remedy Belladonna (Deadly nightshade) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). In the language of the repertory its main idea includes the idea of being taken prisoner. In Madame Guyon the image became reality: in 1695 she was imprisoned at Vincennes, and from 1698 to 1703 she was held in the Bastille because her teaching was considered dangerous. A woman who sought inner freedom lost the outer one.</p>
-          <p class="vb-intro">Kent&rsquo;s Repertory has no rubric of the same wording; the related rubric &ldquo;arrested, is about to be&rdquo; lists eight remedies, among them Belladonna. What is meant is a comparison of images. It contains no statement about anyone&rsquo;s state of health, no recommendation and no substitute for advice from doctors or practitioners.</p>
+          <p class="vb-intro">In Kent&rsquo;s Repertory exactly one remedy is listed in the rubric &ldquo;caught, as if he would be&rdquo;: Belladonna. What is meant is a comparison of images. It contains no statement about anyone&rsquo;s state of health, no recommendation and no substitute for advice from doctors or practitioners.</p>
         </blockquote>
 
 

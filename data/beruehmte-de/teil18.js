@@ -787,7 +787,7 @@ export function jeanneMarieGuyonPortraitPage() {
         <h2 class="vb-section">7. Ein Gedanke aus der Homöopathie: das Bild der Gefangennahme</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 7 das Mittel Belladonna (Tollkirsche) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seiner Hauptvorstellung gehört in der Repertoriumssprache die Vorstellung, gefangen genommen zu werden. Bei Madame Guyon wurde das Bild Wirklichkeit: 1695 wurde sie in Vincennes inhaftiert, von 1698 bis 1703 hielt man sie in der Bastille fest, weil ihre Lehre als gefährlich galt. Eine Frau, die innere Freiheit suchte, verlor die äußere.</p>
-          <p class="vb-intro">Kents Repertorium kennt keine gleichlautende Rubrik, die verwandte Rubrik ›arrested, is about to be‹ führt acht Mittel, darunter Belladonna. Gemeint ist ein Vergleich von Bildern. Er enthält keine Aussage über den Gesundheitszustand eines Menschen, keine Empfehlung und keinen Ersatz für Beratung durch Ärzte oder Heilkundige.</p>
+          <p class="vb-intro">In Kents Repertorium steht in der Rubrik ›caught, as if he would be‹ (gefasst, ergriffen zu werden) genau ein Mittel: Belladonna. Gemeint ist ein Vergleich von Bildern. Er enthält keine Aussage über den Gesundheitszustand eines Menschen, keine Empfehlung und keinen Ersatz für Beratung durch Ärzte oder Heilkundige.</p>
         </blockquote>
 
 

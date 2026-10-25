@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=378";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=379";
 import { psychogrammErklaerung } from "../data/psychogramme-erklaerung.js?v=2";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -5823,7 +5823,7 @@ function _neuAktiv(route) {
   return !!d && (new Date() - new Date(d)) < 30 * 864e5;
 }
 
-const HEILWISSEN_ROUTES = new Set(["wann-entsteht-der-typ", "kroetenschlucken", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "nicht-reale-vorstellungen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["wann-entsteht-der-typ", "kroetenschlucken", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "nicht-reale-vorstellungen", "wahnideen-nicht-reale-vorstellungen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -5979,6 +5979,7 @@ text.nav = [
     { route: "enneagramm-rad", label: "Enneagram Wheel (interactive symbol)" },
     { route: "bewusstseinsgrad-normalverteilung", label: "Levels of Consciousness & the Gaussian Normal Distribution" },
     { route: "persoenlichkeitsmodelle-vergleich", label: "Enneagram vs. Other Personality Models" },
+    { route: "wahnideen-nicht-reale-vorstellungen", label: "Unreal Ideas: Delusions in the Enneagram and in Homeopathy" },
     { route: "tritypen", label: "The 27 Tritypes of the Enneagram (for Advanced Learners)" },
     { heading: "Gaze & Animals" },
     { route: "blickqualitaeten-atlas", label: "Gaze Quality Atlas (27 Subtypes)" },
@@ -40296,6 +40297,188 @@ function gifteDesGeistesPage() {
   `);
 }
 
+function wahnideenNichtRealeVorstellungenPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wahnideen-nicht-reale-vorstellungen")}
+      <div class="page-content">
+        <button class="ghost-link" data-route="nicht-reale-vorstellungen" style="margin-bottom:1.2rem;">← To the chart "Unreal Ideas"</button>
+        <p class="eyebrow">Knowledge &middot; Theory and Dynamics</p>
+        <h1 class="section-title">Unreal Ideas: Delusions in the Enneagram and in Homeopathy</h1>
+
+        <blockquote class="vb-blockquote" style="margin:1.2rem 0 1.8rem;">
+          <p class="vb-intro">We do not see the world as it is, but as we are. Every Enneagram type looks through the filter of its fixation, and what it sees is often a distorted view of reality and of its own circumstances. In homeopathy this experience has a name: in the repertories it is called "delusion".</p>
+          <p class="vb-intro">This article explains what an unreal idea is, where the rubrics come from, which main idea belongs to each of the nine types and what can be read about it in Kent&rsquo;s Repertory. The <a href="#nicht-reale-vorstellungen">chart</a> shows the nine ideas at a glance, the detailed version follows here.</p>
+        </blockquote>
+
+        <div class="vb-section" style="max-width:100%;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .7rem;color:var(--ink);">What Is an Unreal Idea?</h2>
+          <p class="vb-intro">What is meant is a person&rsquo;s subjective feeling, whether or not it corresponds to reality: a false impression of something, a false conviction. It is not about whether the situation objectively is that way, but about how the person sees it. A person can feel superior without being so, or abandoned although others are with them.</p>
+          <p class="vb-intro">The English word "delusion" is broader than the German "Wahnidee", with which it is usually translated. It covers delusion, deception, hallucination and the mere idea. That is why this Compass uses the term "unreal idea".</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .7rem;color:var(--ink);">Where the Rubrics Come From: From Hahnemann Through Kent to Today</h2>
+          <p class="vb-intro">Samuel Hahnemann, the founder of homeopathy, considered a person&rsquo;s state of mind a guide and devoted sections of the "Organon" to mental illnesses. The mental symptoms, which include the delusions, were collected and ordered over decades.</p>
+          <p class="vb-intro">The first usable repertory was created by James Tyler Kent (1849–1916): his "Repertory of the Homœopathic Materia Medica" appeared in 1897 and contains in the chapter "Mind" the section "Delusions", from which the technical language comes. The language of the repertory is therefore English in origin, the German versions adopted it. Later editions added rubrics: the ideas of the vow and of the wilderness were not in the first edition of 1897 but are in the digital Kent edition of Homéopathe International. Many homeopaths work with Kent to this day because his rubrics manage with few, precise remedies.</p>
+          <p class="vb-intro">Newer sources have been added. According to the author the rubric "gnome, wight" goes back to Edward C. Whitmont ("Psyche and Substance: Essays on Homoeopathy in the Light of Jungian Psychology"); it has been known since 1980. "Rathmer&rsquo;s Repertorium" presents all mind rubrics in detail on 1568 pages, and the nine main ideas of the chart are taken from this book.</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .7rem;color:var(--ink);">The Filter: How Delusion and Fixation Belong Together</h2>
+          <p class="vb-intro">The Enneagram fixation works like a filter through which a person perceives everything. The main idea of a type is the sharpening of this filter: the image in which the core passion condenses when it is unchecked. One has a pattern without being it, just as one has a body and thoughts without being them in essence. The idea belongs to the pattern, not to a person&rsquo;s being.</p>
+        </div>
+
+        <h2 class="section-title" style="font-size:1.2rem;margin:2.2rem 0 1rem;">The Nine Main Ideas</h2>
+        <div>
+          <div style="border-left:3px solid ${typeColor(1)};padding:0.9rem 1.1rem;background:color-mix(in srgb, ${typeColor(1)} 6%, transparent);border-radius:0 0.6rem 0.6rem 0;margin-bottom:1rem;">
+            <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.4rem;flex-wrap:wrap;">
+              <span style="display:inline-flex;align-items:center;justify-content:center;width:1.8rem;height:1.8rem;border-radius:50%;background:${typeColor(1)};color:#fff;font-weight:700;flex-shrink:0;font-size:0.9rem;">1</span>
+              <strong style="color:${typeColor(1)};">${TYPNAMEN[1]}</strong>
+            </div>
+            <div style="font-size:0.9rem;line-height:1.65;display:grid;gap:0.45rem;">
+              <div><span style="font-weight:700;color:var(--muted);">Repertory idea:</span> <em>of superiority</em></div>
+              <div><span style="font-weight:700;color:var(--muted);">In Kent:</span> &ldquo;superiority&rdquo;: exactly one remedy: Platinum metallicum.</div>
+              <div>For the One the inner standard is sacred: there is a right way, and the One knows what it looks like. Where this standard becomes certainty, a feeling of being superior to others can creep in: I know better, I am in the right. Kent&rsquo;s Repertory also knows the idea &ldquo;humility and lowness of others, while he is great&rdquo; (Platinum metallicum and Staphisagria). This superiority is that of the standard, not that of power.</div>
+              <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">In life threads:</span> <a href="#beruehmte-marcel-reich-ranicki">Marcel Reich-Ranicki</a>, <a href="#beruehmte-steve-jobs">Steve Jobs</a></div>
+              <div style="font-size:0.78rem;color:var(--muted);">Remedy assigned in this Compass&rsquo;s Enneagram homeopathy: Platinum metallicum</div>
+            </div>
+          </div>
+          <div style="border-left:3px solid ${typeColor(2)};padding:0.9rem 1.1rem;background:color-mix(in srgb, ${typeColor(2)} 6%, transparent);border-radius:0 0.6rem 0.6rem 0;margin-bottom:1rem;">
+            <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.4rem;flex-wrap:wrap;">
+              <span style="display:inline-flex;align-items:center;justify-content:center;width:1.8rem;height:1.8rem;border-radius:50%;background:${typeColor(2)};color:#fff;font-weight:700;flex-shrink:0;font-size:0.9rem;">2</span>
+              <strong style="color:${typeColor(2)};">${TYPNAMEN[2]}</strong>
+            </div>
+            <div style="font-size:0.9rem;line-height:1.65;display:grid;gap:0.45rem;">
+              <div><span style="font-weight:700;color:var(--muted);">Repertory idea:</span> <em>of having been sold</em></div>
+              <div><span style="font-weight:700;color:var(--muted);">In Kent:</span> &ldquo;sold, as if would be&rdquo;: exactly one remedy: Hyoscyamus niger.</div>
+              <div>The Two gives itself: attention, help, closeness. The idea of having been sold takes this devotion at its word and turns it around. Whoever has given everything feels given away in the end, used, made a commodity. Behind the image stands the fear of not being seen for one&rsquo;s giving but exploited.</div>
+              <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">In life threads:</span> <a href="#beruehmte-jesus-christus">Jesus Christus</a>, <a href="#beruehmte-elvis-presley">Elvis Presley</a></div>
+              <div style="font-size:0.78rem;color:var(--muted);">Remedy assigned in this Compass&rsquo;s Enneagram homeopathy: Hyoscyamus niger</div>
+            </div>
+          </div>
+          <div style="border-left:3px solid ${typeColor(3)};padding:0.9rem 1.1rem;background:color-mix(in srgb, ${typeColor(3)} 6%, transparent);border-radius:0 0.6rem 0.6rem 0;margin-bottom:1rem;">
+            <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.4rem;flex-wrap:wrap;">
+              <span style="display:inline-flex;align-items:center;justify-content:center;width:1.8rem;height:1.8rem;border-radius:50%;background:${typeColor(3)};color:#fff;font-weight:700;flex-shrink:0;font-size:0.9rem;">3</span>
+              <strong style="color:${typeColor(3)};">${TYPNAMEN[3]}</strong>
+            </div>
+            <div style="font-size:0.9rem;line-height:1.65;display:grid;gap:0.45rem;">
+              <div><span style="font-weight:700;color:var(--muted);">Repertory idea:</span> <em>of invisible things</em></div>
+              <div><span style="font-weight:700;color:var(--muted);">In Kent:</span> &ldquo;unseen, thing&rdquo;: exactly one remedy: Tarentula hispanica.</div>
+              <div>The Three lives from the visible: from the image, the result, success. The invisible is its counterpole, what cannot be shown, the inner, the emptiness behind the facade. Kent&rsquo;s Repertory also lists for the same remedy &ldquo;assaulted, is going to be&rdquo; (Tarentula hispanica) and &ldquo;strangers seemed to be in the room&rdquo; (Tarentula hispanica and Thuja), images of a threat from what one does not see.</div>
+              <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">In life threads:</span> <a href="#beruehmte-harry-houdini">Harry Houdini</a>, <a href="#beruehmte-william-shakespeare">William Shakespeare</a></div>
+              <div style="font-size:0.78rem;color:var(--muted);">Remedy assigned in this Compass&rsquo;s Enneagram homeopathy: Tarentula hispanica</div>
+            </div>
+          </div>
+          <div style="border-left:3px solid ${typeColor(4)};padding:0.9rem 1.1rem;background:color-mix(in srgb, ${typeColor(4)} 6%, transparent);border-radius:0 0.6rem 0.6rem 0;margin-bottom:1rem;">
+            <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.4rem;flex-wrap:wrap;">
+              <span style="display:inline-flex;align-items:center;justify-content:center;width:1.8rem;height:1.8rem;border-radius:50%;background:${typeColor(4)};color:#fff;font-weight:700;flex-shrink:0;font-size:0.9rem;">4</span>
+              <strong style="color:${typeColor(4)};">${TYPNAMEN[4]}</strong>
+            </div>
+            <div style="font-size:0.9rem;line-height:1.65;display:grid;gap:0.45rem;">
+              <div><span style="font-weight:700;color:var(--muted);">Repertory idea:</span> <em>would break a vow (= promise!)</em></div>
+              <div><span style="font-weight:700;color:var(--muted);">In Kent:</span> &ldquo;vow, that she is breaking her&rdquo;: exactly one remedy: Ignatia amara.</div>
+              <div>The Four stays faithful to what is lost and to the ideal, often for years. An inner promise not to be unfaithful to pain, longing or one&rsquo;s own tragedy can weigh so heavily that every step into joy appears as a breach of faith. Kent&rsquo;s Repertory also knows &ldquo;married, that he is&rdquo; (Ignatia amara), another image of bonding.</div>
+              <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">In life threads:</span> <a href="#beruehmte-leonard-cohen">Leonard Cohen</a>, <a href="#beruehmte-hippokrates-von-kos">Hippokrates von Kos</a></div>
+              <div style="font-size:0.78rem;color:var(--muted);">Remedy assigned in this Compass&rsquo;s Enneagram homeopathy: Ignatia amara</div>
+            </div>
+          </div>
+          <div style="border-left:3px solid ${typeColor(5)};padding:0.9rem 1.1rem;background:color-mix(in srgb, ${typeColor(5)} 6%, transparent);border-radius:0 0.6rem 0.6rem 0;margin-bottom:1rem;">
+            <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.4rem;flex-wrap:wrap;">
+              <span style="display:inline-flex;align-items:center;justify-content:center;width:1.8rem;height:1.8rem;border-radius:50%;background:${typeColor(5)};color:#fff;font-weight:700;flex-shrink:0;font-size:0.9rem;">5</span>
+              <strong style="color:${typeColor(5)};">${TYPNAMEN[5]}</strong>
+            </div>
+            <div style="font-size:0.9rem;line-height:1.65;display:grid;gap:0.45rem;">
+              <div><span style="font-weight:700;color:var(--muted);">Repertory idea:</span> <em>alone in a wilderness</em></div>
+              <div><span style="font-weight:700;color:var(--muted);">In Kent:</span> &ldquo;alone, in a wilderness&rdquo;: exactly one remedy: Stramonium.</div>
+              <div>The Five withdraws to be safe: knowledge, distance, a protected area of its own. At the end of this withdrawal stands the image of being alone in the wilderness: entirely on one&rsquo;s own, without connection. Kent also lists &ldquo;alone, that she is always&rdquo; (Pulsatilla and Stramonium) and &ldquo;executioner, visions of an&rdquo; (Stramonium). According to the author&rsquo;s observation the image of the wilderness shows most purely in the self-preservation Five, in whom it is about pure self-preservation.</div>
+              <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">In life threads:</span> <a href="#beruehmte-juliane-koepcke">Juliane Koepcke</a>, <a href="#beruehmte-jean-jacques-rousseau">Jean-Jacques Rousseau</a>, <a href="#beruehmte-hermann-hesse">Hermann Hesse</a>, <a href="#beruehmte-edward-snowden">Edward Snowden</a>, <a href="#beruehmte-hannah-arendt">Hannah Arendt</a>, <a href="#beruehmte-lise-meitner">Lise Meitner</a>, <a href="#beruehmte-blaise-pascal">Blaise Pascal</a>, <a href="#beruehmte-franz-kafka">Franz Kafka</a></div>
+              <div style="font-size:0.78rem;color:var(--muted);">Remedy assigned in this Compass&rsquo;s Enneagram homeopathy: Stramonium</div>
+            </div>
+          </div>
+          <div style="border-left:3px solid ${typeColor(6)};padding:0.9rem 1.1rem;background:color-mix(in srgb, ${typeColor(6)} 6%, transparent);border-radius:0 0.6rem 0.6rem 0;margin-bottom:1rem;">
+            <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.4rem;flex-wrap:wrap;">
+              <span style="display:inline-flex;align-items:center;justify-content:center;width:1.8rem;height:1.8rem;border-radius:50%;background:${typeColor(6)};color:#fff;font-weight:700;flex-shrink:0;font-size:0.9rem;">6</span>
+              <strong style="color:${typeColor(6)};">${TYPNAMEN[6]}</strong>
+            </div>
+            <div style="font-size:0.9rem;line-height:1.65;display:grid;gap:0.45rem;">
+              <div><span style="font-weight:700;color:var(--muted);">Repertory idea:</span> <em>people would execute him/her</em></div>
+              <div><span style="font-weight:700;color:var(--muted);">In Kent:</span> Kent&rsquo;s Repertory has no rubric of the same wording.</div>
+              <div>The Six scans the world for dangers and can raise the threat to the extreme: they want to destroy me. The image circles around persecution, distrust and the fear of judgment. Related in Kent are &ldquo;murdered, that he would be&rdquo; (many remedies, among them Opium) and &ldquo;fighting, that people are&rdquo; (Opium and Stramonium).</div>
+              <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">In life threads:</span> <a href="#beruehmte-fjodor-dostojewski">Fjodor Dostojewski</a></div>
+              <div style="font-size:0.78rem;color:var(--muted);">Remedy assigned in this Compass&rsquo;s Enneagram homeopathy: Opium</div>
+            </div>
+          </div>
+          <div style="border-left:3px solid ${typeColor(7)};padding:0.9rem 1.1rem;background:color-mix(in srgb, ${typeColor(7)} 6%, transparent);border-radius:0 0.6rem 0.6rem 0;margin-bottom:1rem;">
+            <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.4rem;flex-wrap:wrap;">
+              <span style="display:inline-flex;align-items:center;justify-content:center;width:1.8rem;height:1.8rem;border-radius:50%;background:${typeColor(7)};color:#fff;font-weight:700;flex-shrink:0;font-size:0.9rem;">7</span>
+              <strong style="color:${typeColor(7)};">${TYPNAMEN[7]}</strong>
+            </div>
+            <div style="font-size:0.9rem;line-height:1.65;display:grid;gap:0.45rem;">
+              <div><span style="font-weight:700;color:var(--muted);">Repertory idea:</span> <em>would be taken prisoner</em></div>
+              <div><span style="font-weight:700;color:var(--muted);">In Kent:</span> &ldquo;caught, as if he would be&rdquo;: exactly one remedy: Belladonna.</div>
+              <div>The Seven needs freedom, variety and movement. It experiences constraint as captivity: I am being pinned down, I will not get out. Behind the image stands the fear of the pain that freedom was meant to keep away. The related rubric &ldquo;arrested, is about to be&rdquo; lists eight remedies in Kent, among them Belladonna.</div>
+              <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">In life threads:</span> <a href="#beruehmte-jeanne-marie-guyon">Madame Guyon</a></div>
+              <div style="font-size:0.78rem;color:var(--muted);">Remedy assigned in this Compass&rsquo;s Enneagram homeopathy: Belladonna</div>
+            </div>
+          </div>
+          <div style="border-left:3px solid ${typeColor(8)};padding:0.9rem 1.1rem;background:color-mix(in srgb, ${typeColor(8)} 6%, transparent);border-radius:0 0.6rem 0.6rem 0;margin-bottom:1rem;">
+            <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.4rem;flex-wrap:wrap;">
+              <span style="display:inline-flex;align-items:center;justify-content:center;width:1.8rem;height:1.8rem;border-radius:50%;background:${typeColor(8)};color:#fff;font-weight:700;flex-shrink:0;font-size:0.9rem;">8</span>
+              <strong style="color:${typeColor(8)};">${TYPNAMEN[8]}</strong>
+            </div>
+            <div style="font-size:0.9rem;line-height:1.65;display:grid;gap:0.45rem;">
+              <div><span style="font-weight:700;color:var(--muted);">Repertory idea:</span> <em>being a prince</em></div>
+              <div><span style="font-weight:700;color:var(--muted);">In Kent:</span> &ldquo;prince, is a&rdquo;: exactly one remedy: Veratrum album.</div>
+              <div>The Eight radiates natural, self-confident power: it decides, it leads, it protects what is its own. Where this power becomes dominance, the image of the prince stands: I am the one who decides here, I have power over you. It is about the matter-of-course self-assurance of the Eight and its overflowing presence and strength. Related in Kent is &ldquo;distinguished&rdquo; (Stramonium and Veratrum album). This does not refer to the superiority of Type 1: there it is about the standard, here about power.</div>
+              <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">In life threads:</span> <a href="#beruehmte-gerhard-schroeder">Gerhard Schröder</a>, <a href="#beruehmte-helmut-kohl">Helmut Kohl</a>, <a href="#beruehmte-franz-josef-strauss">Franz Josef Strauß</a>, <a href="#beruehmte-john-wayne">John Wayne</a></div>
+              <div style="font-size:0.78rem;color:var(--muted);">Remedy assigned in this Compass&rsquo;s Enneagram homeopathy: Veratrum album</div>
+            </div>
+          </div>
+          <div style="border-left:3px solid ${typeColor(9)};padding:0.9rem 1.1rem;background:color-mix(in srgb, ${typeColor(9)} 6%, transparent);border-radius:0 0.6rem 0.6rem 0;margin-bottom:1rem;">
+            <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.4rem;flex-wrap:wrap;">
+              <span style="display:inline-flex;align-items:center;justify-content:center;width:1.8rem;height:1.8rem;border-radius:50%;background:${typeColor(9)};color:#fff;font-weight:700;flex-shrink:0;font-size:0.9rem;">9</span>
+              <strong style="color:${typeColor(9)};">${TYPNAMEN[9]}</strong>
+            </div>
+            <div style="font-size:0.9rem;line-height:1.65;display:grid;gap:0.45rem;">
+              <div><span style="font-weight:700;color:var(--muted);">Repertory idea:</span> <em>being a gnome, a wight</em></div>
+              <div><span style="font-weight:700;color:var(--muted);">In Kent:</span> Kent&rsquo;s Repertory has no rubric of the same wording.</div>
+              <div>The Nine makes itself small to keep the peace and can in the end experience itself as tiny and insignificant: a wight who does not count. The image circles around unimportance and the longing not to be a burden to anyone. According to the author the idea goes back to Edward C. Whitmont (&ldquo;Psyche and Substance&rdquo;). This rubric has been known since 1980.</div>
+              <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">In life threads:</span> <a href="#beruehmte-eleanor-roosevelt">Eleanor Roosevelt</a></div>
+              <div style="font-size:0.78rem;color:var(--muted);">Remedy assigned in this Compass&rsquo;s Enneagram homeopathy: Cannabis indica</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .7rem;color:var(--ink);">What a Single Rubric Is, and Why It Stands Out</h2>
+          <p class="vb-intro">A single rubric is a rubric in which only one remedy is listed. That is rare, since most mind rubrics list many remedies. For seven of the nine types Kent&rsquo;s Repertory contains a rubric with exactly one remedy, and this remedy is the one that Enneagram homeopathy assigns to the type: Platinum metallicum for Type 1, Hyoscyamus niger for Type 2, Tarentula hispanica for Type 3, Ignatia amara for Type 4, Stramonium for Type 5, Belladonna for Type 7 and Veratrum album for Type 8. For Types 6 and 9 Kent has no rubric of the same wording.</p>
+          <p class="vb-intro">This is an observation about two independently developed systems, not proof of an effect. But it makes clear how precisely the images of the materia medica describe the type-specific delusions.</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .7rem;color:var(--ink);">How to Read the Main Ideas</h2>
+          <p class="vb-intro">Whoever asks which idea colors their own view can read the nine images as a mirror without equating themselves with it. A helpful question: where do I experience the world as if this image were true? Recognizing the image is the first step toward no longer taking it for reality.</p>
+          <p class="vb-anmerkung" style="margin-top:1rem;font-style:italic;">Important for understanding: this article conveys knowledge. It makes no diagnosis, gives no therapy recommendation and makes no statement about effect or healing. The assignment of remedies to types belongs to the Enneagram homeopathy of this Compass. It does not replace medical or therapeutic advice.</p>
+        </div>
+
+        <p class="vb-intro" style="margin-top:1.4rem;font-size:0.88rem;color:var(--muted);">The rubric details refer to James Tyler Kent&rsquo;s "Repertory of the Homœopathic Materia Medica" (digital edition by Homéopathe International) and to "Rathmer&rsquo;s Repertorium".</p>
+      </div>
+      ${bookTip("rathmer-s-repertorium-gebundene-ausgabe", "The world's most comprehensive homeopathic mind repertory – 1568 pages, 20,000 rubrics.", "Rathmer’s Repertorium")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("der-code-deiner-persoenlichkeit", "How the Enneagram type develops &ndash; and what it reveals about our deepest imprints.", "Der Code deiner Persönlichkeit")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${relatedLinks([
+        {route:"nicht-reale-vorstellungen", label:"Chart: Unreal Ideas"},
+        {route:"enneagramm-homoeopathie", label:"Enneagram & Homeopathy"},
+        {route:"klassische-vs-enneagramm-homoeopathie", label:"Classical Homeopathy vs. Enneagram Homeopathy"},
+        {route:"schatten-projektionen-miasmen", label:"Shadows, Projections & Miasms"},
+        {route:"gifte-des-geistes", label:"Poisons of the Mind"},
+      ])}
+    </div>
+  `);
+}
+
 function nichtRealeVorstellungenPage() {
   const rows = [
     { typ:1, vorstellung:"of superiority", deutung:"Whoever applies a high inner standard can feel raised above the others: I know how it is done right. Behind the superiority there is often the strain of having to do it right and the anger about what is not right.", mittel:"Platinum metallicum", rubrik:"In Kent's Repertory exactly one remedy is listed in the rubric \"superiority\": Platinum metallicum." },
@@ -40304,7 +40487,7 @@ function nichtRealeVorstellungenPage() {
     { typ:4, vorstellung:"would break a vow (= promise!)", deutung:"Whoever stays faithful to what is lost and to the ideal can feel bound to an inner promise and have the idea of breaking it by turning toward life. Faithfulness to pain, longing and one's own tragedy belongs to this image.", mittel:"Ignatia amara", rubrik:"In Kent's Repertory exactly one remedy is listed in the rubric \"vow, that she is breaking her\": Ignatia amara." },
     { typ:5, vorstellung:"alone in a wilderness", deutung:"Whoever withdraws to be safe can in the end feel utterly alone: entirely on his own, without connection. The idea circles around self-preservation and isolation.", mittel:"Stramonium", rubrik:"In Kent's Repertory exactly one remedy is listed in the rubric \"alone, in a wilderness\": Stramonium. This is a single rubric." },
     { typ:6, vorstellung:"people would execute him/her", deutung:"Whoever scans the world for dangers can raise the threat to the extreme: they want to destroy me. The idea circles around persecution, distrust and the fear of the judgment of others.", mittel:"Opium", rubrik:"Kent's Repertory has no rubric of the same wording. The related rubric \"murdered, that he would be\" lists many remedies, among them Opium." },
-    { typ:7, vorstellung:"would be taken prisoner", deutung:"Whoever needs freedom and variety can experience constraint as captivity: I am being pinned down, I will not get out. The idea circles around loss of mobility and the fear of the pain that freedom was meant to keep away.", mittel:"Belladonna", rubrik:"Kent\'s Repertory has no rubric of the same wording. The related rubric \"arrested, is about to be\" lists eight remedies, among them Belladonna." },
+    { typ:7, vorstellung:"would be taken prisoner", deutung:"Whoever needs freedom and variety can experience constraint as captivity: I am being pinned down, I will not get out. The idea circles around loss of mobility and the fear of the pain that freedom was meant to keep away.", mittel:"Belladonna", rubrik:"In Kent\'s Repertory the corresponding rubric is \"caught, as if he would be\" and lists exactly one remedy: Belladonna. The related rubric \"arrested, is about to be\" lists eight remedies." },
     { typ:8, vorstellung:"being a prince", deutung:"Whoever radiates natural, self-confident power can work himself into a position of dominance: I am the one who decides here, I have power over you. The idea circles around the matter-of-course self-assurance of the Eight and its overflowing presence and strength. This does not refer to the superiority of Type 1: there it is about the standard, here about power.", mittel:"Veratrum album", rubrik:"In Kent's Repertory exactly one remedy is listed in the rubric \"prince, is a\": Veratrum album." },
     { typ:9, vorstellung:"being a gnome, a wight", deutung:"Whoever makes himself small to keep the peace can experience himself as tiny and insignificant: I am a wight who does not count. The idea circles around unimportance and the longing not to be a burden.", mittel:"Cannabis indica", rubrik:"Kent\'s Repertory has no rubric of the same wording. According to the author the idea \"gnome, wight\" goes back to Edward C. Whitmont (\"Psyche and Substance: Essays on Homoeopathy in the Light of Jungian Psychology\"). This rubric has been known since 1980." },
   ];
@@ -40359,6 +40542,7 @@ function nichtRealeVorstellungenPage() {
       ${bookTip("der-code-deiner-persoenlichkeit", "How the Enneagram type develops &ndash; and what it reveals about our deepest imprints.", "Der Code deiner Persönlichkeit")}
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
       ${relatedLinks([
+        {route:"wahnideen-nicht-reale-vorstellungen", label:"Article: Delusions in the Enneagram and in Homeopathy"},
         {route:"enneagramm-homoeopathie", label:"Enneagram & Homeopathy"},
         {route:"homoeopathie", label:"Homeopathic Remedies"},
         {route:"schatten-projektionen-miasmen", label:"Shadows, Projections & Miasms"},
@@ -46089,6 +46273,7 @@ function subtypeSchaubilderPage() {
     "empfindliche-punkte": empfindlichePunktePage,
     "schatten-projektionen-miasmen": schattenProjektionenMiasmenPage,
     "nicht-reale-vorstellungen": nichtRealeVorstellungenPage,
+    "wahnideen-nicht-reale-vorstellungen": wahnideenNichtRealeVorstellungenPage,
     "befreiende-fragen": befreiendeFragenPage,
     "fuehrungsstile": fuehrungsstilePage,
     "gifte-des-geistes": gifteDesGeistesPage,
