@@ -2931,7 +2931,7 @@ export function klausMariaBrandauerPortraitPage() {
 
         <h2 class="vb-section">1. The Chimpanzee: one who throws himself into every role</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Chimpanzee</strong> learns by joining in: it tries, imitates, throws itself into the scene and sweeps the others along. Klaus Maria Brandauer was born Klaus Georg Steng on 22 June 1943 in Bad Aussee in Styria, the son of a German customs officer and an Austrian woman whose maiden name he later chose as his stage name. He spent his first years with his grandparents in Altaussee, then lived with his parents near Basel, among other places, in Grenzach-Wyhlen, a place which by his own account had a decisive influence on his development as an actor. So he grew up between Austria and Germany on the Swiss border.</p>
+          <p class="vb-intro">The <strong>Chimpanzee</strong> learns by joining in: it tries, imitates, throws itself into the scene and sweeps the others along. Klaus Maria Brandauer was born Klaus Georg Steng on 22 June 1943 in Bad Aussee in Styria, the son of a German customs officer, Georg Steng, and the Austrian Maria Brandauer, whose maiden name and first name he later took up in his stage name. His father was a prisoner of war in the Second World War, and he met him only at the age of five. He spent his first years with his mother and grandparents in Altaussee, later he grew up in southern Baden, among other places in Grenzach near Basel, a place which by his own account had a decisive influence on his development as an actor, and also in Oberkirch and Kehl. He was brought up Catholic.</p>
           <p class="vb-intro">After his Abitur in 1962 he began studying at the Stuttgart University of Music and Performing Arts but dropped out after two semesters. In 1963 he first stood on the stage at the Landestheater Tübingen. It was no orderly path of training but a direct leap into playing.</p>
         </blockquote>
 
@@ -2960,6 +2960,7 @@ export function klausMariaBrandauerPortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow</h2>
         <blockquote class="vb-blockquote">
+          <p class="vb-intro">The picture also includes his private life, which he largely keeps out of the tabloid press. He married his youthful love Karin Müller, who as Karin Brandauer became a successful film and television director and screenwriter, in 1963; in the same year their son Christian was born when he was 20. Karin Brandauer died of cancer in 1992 at the age of 47. In July 2007 he married the Austrian theatre scholar Natalie Krenn, about 32 years his junior, in the Nikolaikirche in Berlin, with his son Christian as best man. In May 2014 their son Ferdinand was born, when Brandauer was 70. He lives between Altaussee, Vienna, Berlin and New York.</p>
           <p class="vb-intro">The light of this constellation is the great devotion to the role that grips an audience, and the ability to inspire others for it. The shadow of the Seven lies in what it avoids: standing still, the ordinary, the emptiness between roles. The Eight-wing can let this restlessness tip into hardness. The sources say little about his inner life, and here it is better not to speculate.</p>
         </blockquote>
 
