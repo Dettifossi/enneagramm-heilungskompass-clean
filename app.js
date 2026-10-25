@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=381";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=382";
 import { psychogrammErklaerung } from "./data/psychogramme-erklaerung.js?v=2";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -60771,7 +60771,7 @@ function wahnideenNichtRealeVorstellungenPage() {
             <div style="font-size:0.9rem;line-height:1.65;display:grid;gap:0.45rem;">
               <div><span style="font-weight:700;color:var(--muted);">Repertoriums-Vorstellung:</span> <em>verkauft worden, sei</em></div>
               <div><span style="font-weight:700;color:var(--muted);">Bei Kent:</span> ›sold, as if would be‹: genau ein Mittel: Hyoscyamus niger.</div>
-              <div>Die Zwei gibt sich hin: Zuwendung, Hilfe, Nähe. Die Vorstellung, verkauft worden zu sein, nimmt diese Hingabe beim Wort und kehrt sie um. Wer alles gegeben hat, fühlt sich am Ende weggegeben, benutzt, zur Ware gemacht. Hinter dem Bild steht die Angst, für das eigene Geben nicht gesehen, sondern verwertet zu werden.</div>
+              <div>Die Zwei gibt sich hin: Zuwendung, Hilfe, Nähe. Die Vorstellung, verkauft worden zu sein, nimmt diese Hingabe beim Wort und kehrt sie um. Wer alles gegeben hat, fühlt sich am Ende weggegeben, benutzt, zur Ware gemacht. Hinter dem Bild steht die Angst, für das eigene Geben nicht gesehen, sondern verwertet zu werden. Kent führt im Kapitel ›Delirium‹ außerdem ›wedding, prepares for‹ (bereitet sich auf eine Hochzeit vor; Hyoscyamus niger als einziges Mittel). Dahinter steht das tiefe Verlangen nach Verbindung und Liebe, das für die Zwei typisch ist, die überentwickelte Herzenergie dieses Typs.</div>
               <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">Im Lebensfaden:</span> <a href="#beruehmte-jesus-christus">Jesus Christus</a>, <a href="#beruehmte-elvis-presley">Elvis Presley</a></div>
               <div style="font-size:0.78rem;color:var(--muted);">Zugeordnetes Mittel in der Enneagramm-Homöopathie dieses Kompasses: Hyoscyamus niger</div>
             </div>
