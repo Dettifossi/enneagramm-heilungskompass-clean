@@ -3053,7 +3053,7 @@ export function rosalieThomassPortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of this constellation is the liveliness, the joy of trying things out and the courage to address uncomfortable subjects. The shadow of the Seven lies in what it avoids: standing still, heaviness and the question of what lies beneath the play. The Eight-wing can let this restlessness tip into hardness. There are only a few documented self-statements about her inner life, and here it is better not to speculate.</p>
+          <p class="vb-intro">What shines in this combination is the liveliness, the joy of trying things out and the courage to address uncomfortable subjects. The shadow of the Seven lies in what it avoids: standing still, heaviness and the question of what lies beneath the play. The Eight-wing can let this restlessness tip into hardness. How she herself deals with this restlessness can be read only in outline from the interviews at hand, and that is where this portrait stops.</p>
         </blockquote>
 
         <h2 class="vb-section">7. The path of healing: from play to depth</h2>

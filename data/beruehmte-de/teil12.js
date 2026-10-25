@@ -3068,7 +3068,7 @@ export function robbieColtranePortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht dieser Konstellation ist die Wärme, die Gelassenheit und der Humor, mit denen er auf der Leinwand und im Fernsehen Menschen für sich gewann. Der Schatten der Neun liegt darin, dass die eigene Stimme gedämpft wird, damit der Frieden bleibt. Der Achterflügel kann diese Zurückhaltung in Wucht kippen lassen. Zu seinem Innenleben sagen die Quellen wenig, und hier ist es besser, nicht zu spekulieren.</p>
+          <p class="vb-intro">Am meisten nehmen an ihm die Wärme, die Gelassenheit und der Humor ein, mit denen er auf der Leinwand und im Fernsehen Menschen erreichte. Der Schatten der Neun liegt darin, dass die eigene Stimme gedämpft wird, damit der Frieden bleibt. Der Achterflügel kann diese Zurückhaltung in Wucht kippen lassen. Wie viel von dieser Dämpfung bewusst geschah, lässt sich aus den Quellen nicht ablesen, und die Rollen sagen darüber mehr als jedes Zitat.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Der Heilungsweg: vom Dämpfen zur eigenen Stimme</h2>

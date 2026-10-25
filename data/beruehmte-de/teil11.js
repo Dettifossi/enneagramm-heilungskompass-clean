@@ -3030,7 +3030,7 @@ export function rosalieThomassPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht dieser Konstellation ist die Lebendigkeit, die Lust am Ausprobieren und der Mut, unbequeme Themen anzusprechen. Der Schatten der Sieben liegt in dem, was sie meidet: Stillstand, Schwere und die Frage, was unter dem Spiel liegt. Der Achterflügel kann diese Unruhe in Härte kippen lassen. Zu ihrem Innenleben gibt es nur wenige belegte Selbstaussagen, und hier ist es besser, nicht zu spekulieren.</p>
+          <p class="vb-intro">Leuchtend an dieser Verbindung sind die Lebendigkeit, die Lust am Ausprobieren und der Mut, unbequeme Themen anzusprechen. Der Schatten der Sieben liegt in dem, was sie meidet: Stillstand, Schwere und die Frage, was unter dem Spiel liegt. Der Achterflügel kann diese Unruhe in Härte kippen lassen. Wie sie selbst mit dieser Unruhe umgeht, lässt sich aus den vorliegenden Interviews nur in Ansätzen lesen, und dabei soll es hier bleiben.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Der Heilungsweg: vom Spiel zur Tiefe</h2>

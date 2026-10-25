@@ -3026,7 +3026,7 @@ export function robbieColtranePortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of this constellation is the warmth, the composure and the humour with which he won people over on screen and television. The shadow of the Nine lies in the fact that one&rsquo;s own voice is muted so that peace remains. The Eight-wing can let this restraint tip into force. The sources say little about his inner life, and here it is better not to speculate.</p>
+          <p class="vb-intro">What stands out in him are the warmth, the composure and the humour with which he reached people on screen and television. The shadow of the Nine lies in the fact that one&rsquo;s own voice is muted so that peace remains. The Eight-wing can let this restraint tip into force. How much of this muting was conscious cannot be read from the sources, and the roles say more about it than any quotation.</p>
         </blockquote>
 
         <h2 class="vb-section">7. The path of healing: from muting to one&rsquo;s own voice</h2>
