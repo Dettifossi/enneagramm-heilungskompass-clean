@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=388";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=389";
 import { psychogrammErklaerung } from "./data/psychogramme-erklaerung.js?v=2";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -561,6 +561,13 @@ const rogerAkeliusPortraitPage = () => _lazyPage("./data/beruehmte-de/teil8.js",
 const rominaPalmPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "rominaPalmPortraitPage");
 const sarahPaulsonPortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", "sarahPaulsonPortraitPage");
 const ignatiaMindmapPage = () => _lazyPage("./data/mindmaps-de/ignatia.js", "ignatiaMindmapPage");
+const hyoscyamusMindmapPage = () => _lazyPage("./data/mindmaps-de/hyoscyamus.js", "hyoscyamusMindmapPage");
+const tarentulaMindmapPage = () => _lazyPage("./data/mindmaps-de/tarentula.js", "tarentulaMindmapPage");
+const stramoniumMindmapPage = () => _lazyPage("./data/mindmaps-de/stramonium.js", "stramoniumMindmapPage");
+const opiumMindmapPage = () => _lazyPage("./data/mindmaps-de/opium.js", "opiumMindmapPage");
+const belladonnaMindmapPage = () => _lazyPage("./data/mindmaps-de/belladonna.js", "belladonnaMindmapPage");
+const veratrumMindmapPage = () => _lazyPage("./data/mindmaps-de/veratrum.js", "veratrumMindmapPage");
+const cannabisMindmapPage = () => _lazyPage("./data/mindmaps-de/cannabis.js", "cannabisMindmapPage");
 const falcoPortraitPage = () => _lazyPage("./data/beruehmte-de/teil15.js", "falcoPortraitPage");
 const bruceLeePortraitPage = () => _lazyPage("./data/beruehmte-de/teil9.js", "bruceLeePortraitPage");
 const svenPlattePortraitPage = () => _lazyPage("./data/beruehmte-de/teil3.js", "svenPlattePortraitPage");
@@ -31697,7 +31704,7 @@ function _neuAktiv(route) {
   return !!d && (new Date() - new Date(d)) < 30 * 864e5;
 }
 
-const HEILWISSEN_ROUTES = new Set(["wann-entsteht-der-typ", "kroetenschlucken", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "nicht-reale-vorstellungen", "wahnideen-nicht-reale-vorstellungen", "mindmap-ignatia", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["wann-entsteht-der-typ", "kroetenschlucken", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "nicht-reale-vorstellungen", "wahnideen-nicht-reale-vorstellungen", "mindmap-ignatia", "mindmap-hyoscyamus", "mindmap-tarentula", "mindmap-stramonium", "mindmap-opium", "mindmap-belladonna", "mindmap-veratrum", "mindmap-cannabis", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -60774,6 +60781,7 @@ function wahnideenNichtRealeVorstellungenPage() {
               <div><span style="font-weight:700;color:var(--muted);">Bei Kent:</span> ›sold, as if would be‹: genau ein Mittel: Hyoscyamus niger.</div>
               <div>Die Zwei gibt sich hin: Zuwendung, Hilfe, Nähe. Die Vorstellung, verkauft worden zu sein, nimmt diese Hingabe beim Wort und kehrt sie um. Wer alles gegeben hat, fühlt sich am Ende weggegeben, benutzt, zur Ware gemacht. Hinter dem Bild steht die Angst, für das eigene Geben nicht gesehen, sondern verwertet zu werden. Kent führt im Kapitel ›Delirium‹ außerdem ›wedding, prepares for‹ (bereitet sich auf eine Hochzeit vor; Hyoscyamus niger als einziges Mittel). Dahinter steht das tiefe Verlangen nach Verbindung und Liebe, das für die Zwei typisch ist, die überentwickelte Herzenergie dieses Typs. Hinzu kommt ›wife is faithless‹ (die Ehefrau sei untreu; Hyoscyamus niger und Stramonium), die Angst, die Zuwendung des anderen zu verlieren.</div>
               <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">Im Lebensfaden:</span> <a href="#beruehmte-jesus-christus">Jesus Christus</a>, <a href="#beruehmte-elvis-presley">Elvis Presley</a></div>
+              <div style="font-size:0.85rem;">Alle Single-Rubriken von Hyoscyamus niger stehen als <a href="#mindmap-hyoscyamus">Mindmap</a> zusammen.</div>
               <div style="font-size:0.78rem;color:var(--muted);">Zugeordnetes Mittel in der Enneagramm-Homöopathie dieses Kompasses: Hyoscyamus niger</div>
             </div>
           </div>
@@ -60787,6 +60795,7 @@ function wahnideenNichtRealeVorstellungenPage() {
               <div><span style="font-weight:700;color:var(--muted);">Bei Kent:</span> ›unseen, thing‹: genau ein Mittel: Tarentula hispanica.</div>
               <div>Die Drei lebt vom Sichtbaren: vom Bild, vom Ergebnis, vom Erfolg. Das Unsichtbare ist ihr Gegenpol und das, was sich nicht vorzeigen lässt, das Innere, das Leere hinter der Fassade. Kents Repertorium verzeichnet zum selben Mittel auch ›assaulted, is going to be‹ (angegriffen zu werden; Tarentula hispanica) und ›strangers seemed to be in the room‹ (Fremde seien im Zimmer; Tarentula hispanica und Thuja), Bilder einer Bedrohung aus dem, was man nicht sieht.</div>
               <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">Im Lebensfaden:</span> <a href="#beruehmte-harry-houdini">Harry Houdini</a>, <a href="#beruehmte-william-shakespeare">William Shakespeare</a></div>
+              <div style="font-size:0.85rem;">Alle Single-Rubriken von Tarentula hispanica stehen als <a href="#mindmap-tarentula">Mindmap</a> zusammen.</div>
               <div style="font-size:0.78rem;color:var(--muted);">Zugeordnetes Mittel in der Enneagramm-Homöopathie dieses Kompasses: Tarentula hispanica</div>
             </div>
           </div>
@@ -60813,6 +60822,7 @@ function wahnideenNichtRealeVorstellungenPage() {
               <div><span style="font-weight:700;color:var(--muted);">Bei Kent:</span> ›alone, in a wilderness‹: genau ein Mittel: Stramonium.</div>
               <div>Die Fünf zieht sich zurück, um sicher zu sein: Wissen, Distanz, ein geschützter eigener Bereich. Am Ende dieses Rückzugs steht das Bild des Alleinseins in der Wildnis: ganz auf sich gestellt, ohne Verbindung. Kent führt dazu auch ›alone, that she is always‹ (immer allein zu sein; Pulsatilla und Stramonium) und ›executioner, visions of an‹ (Visionen eines Henkers; Stramonium). Nach der Beobachtung des Autors zeigt sich das Bild der Wildnis am reinsten beim selbsterhaltenden Fünfer, bei dem es um die pure Selbsterhaltung geht.</div>
               <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">Im Lebensfaden:</span> <a href="#beruehmte-juliane-koepcke">Juliane Koepcke</a>, <a href="#beruehmte-jean-jacques-rousseau">Jean-Jacques Rousseau</a>, <a href="#beruehmte-hermann-hesse">Hermann Hesse</a>, <a href="#beruehmte-edward-snowden">Edward Snowden</a>, <a href="#beruehmte-hannah-arendt">Hannah Arendt</a>, <a href="#beruehmte-lise-meitner">Lise Meitner</a>, <a href="#beruehmte-blaise-pascal">Blaise Pascal</a>, <a href="#beruehmte-franz-kafka">Franz Kafka</a></div>
+              <div style="font-size:0.85rem;">Alle Single-Rubriken von Stramonium stehen als <a href="#mindmap-stramonium">Mindmap</a> zusammen.</div>
               <div style="font-size:0.78rem;color:var(--muted);">Zugeordnetes Mittel in der Enneagramm-Homöopathie dieses Kompasses: Stramonium</div>
             </div>
           </div>
@@ -60826,6 +60836,7 @@ function wahnideenNichtRealeVorstellungenPage() {
               <div><span style="font-weight:700;color:var(--muted);">Bei Kent:</span> Kents Repertorium kennt keine gleichlautende Rubrik.</div>
               <div>Die Sechs sucht die Welt nach Gefahren ab und kann die Bedrohung ins Äußerste steigern: Man will mich vernichten. Das Bild kreist um Verfolgung, Misstrauen und die Angst vor dem Urteil. Verwandt sind bei Kent ›murdered, that he would be‹ (ermordet zu werden, viele Mittel, darunter Opium) und ›fighting, that people are‹ (Menschen kämpften; Opium und Stramonium).</div>
               <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">Im Lebensfaden:</span> <a href="#beruehmte-fjodor-dostojewski">Fjodor Dostojewski</a></div>
+              <div style="font-size:0.85rem;">Alle Single-Rubriken von Opium stehen als <a href="#mindmap-opium">Mindmap</a> zusammen.</div>
               <div style="font-size:0.78rem;color:var(--muted);">Zugeordnetes Mittel in der Enneagramm-Homöopathie dieses Kompasses: Opium</div>
             </div>
           </div>
@@ -60839,6 +60850,7 @@ function wahnideenNichtRealeVorstellungenPage() {
               <div><span style="font-weight:700;color:var(--muted);">Bei Kent:</span> ›caught, as if he would be‹: genau ein Mittel: Belladonna.</div>
               <div>Die Sieben braucht Freiheit, Vielfalt und Bewegung. Einengung erlebt sie als Gefangenschaft: Ich werde festgesetzt, ich komme nicht mehr heraus. Hinter dem Bild steht die Angst vor dem Schmerz, den die Freiheit fernhalten sollte. Die verwandte Rubrik ›arrested, is about to be‹ (verhaftet zu werden) führt bei Kent acht Mittel, darunter Belladonna. Daneben stehen bei Kent ›dreaming when awake, imagines himself‹ (im Wachen zu träumen; nur Belladonna) und ›juggler, thinks himself a‹ (sich für einen Gaukler zu halten; nur Belladonna), Bilder der Fantasie und des Spiels, in denen die Sieben lebt.</div>
               <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">Im Lebensfaden:</span> <a href="#beruehmte-jeanne-marie-guyon">Madame Guyon</a></div>
+              <div style="font-size:0.85rem;">Alle Single-Rubriken von Belladonna stehen als <a href="#mindmap-belladonna">Mindmap</a> zusammen.</div>
               <div style="font-size:0.78rem;color:var(--muted);">Zugeordnetes Mittel in der Enneagramm-Homöopathie dieses Kompasses: Belladonna</div>
             </div>
           </div>
@@ -60852,6 +60864,7 @@ function wahnideenNichtRealeVorstellungenPage() {
               <div><span style="font-weight:700;color:var(--muted);">Bei Kent:</span> ›prince, is a‹: genau ein Mittel: Veratrum album.</div>
               <div>Die Acht strahlt natürliche, selbstbewusste Macht aus: Sie entscheidet, sie führt, sie schützt das Ihre. Wo diese Macht zur Vormachtstellung wird, steht das Bild des Prinzen: Ich bin hier derjenige, der entscheidet, ich habe Macht über dich. Es geht um die selbstverständliche Selbstbewusstheit des Achters und seine überschießende Präsenz und Stärke. Verwandt ist bei Kent ›distinguished‹ (vornehm; Stramonium und Veratrum album), dazu ›rank, thinks himself a person of‹ (sich für eine Person von Rang zu halten; Cuprum, Phosphorus und Veratrum album) und ›hunter, thinks he is a‹ (sich für einen Jäger zu halten; Cannabis indica und Veratrum album). Mit der Überlegenheit des Typs 1 ist das nicht gemeint: Dort geht es um den Maßstab, hier um die Macht.</div>
               <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">Im Lebensfaden:</span> <a href="#beruehmte-gerhard-schroeder">Gerhard Schröder</a>, <a href="#beruehmte-helmut-kohl">Helmut Kohl</a>, <a href="#beruehmte-franz-josef-strauss">Franz Josef Strauß</a>, <a href="#beruehmte-john-wayne">John Wayne</a></div>
+              <div style="font-size:0.85rem;">Alle Single-Rubriken von Veratrum album stehen als <a href="#mindmap-veratrum">Mindmap</a> zusammen.</div>
               <div style="font-size:0.78rem;color:var(--muted);">Zugeordnetes Mittel in der Enneagramm-Homöopathie dieses Kompasses: Veratrum album</div>
             </div>
           </div>
@@ -60865,6 +60878,7 @@ function wahnideenNichtRealeVorstellungenPage() {
               <div><span style="font-weight:700;color:var(--muted);">Bei Kent:</span> Kents Repertorium kennt keine gleichlautende Rubrik.</div>
               <div>Die Neun macht sich klein, um den Frieden zu halten, und kann sich zuletzt als winzig und unbedeutend erleben: ein Wicht, der nicht zählt. Das Bild kreist um Unwichtigkeit und um die Sehnsucht, niemandem zur Last zu fallen. Bei Kent finden sich zum Mittel Cannabis indica außerdem ›annihilation, about to sink into‹ (im Begriff, in der Vernichtung zu versinken; Cannabis indica und Carbo hydrogenisatus) und ›weight, has no‹ (kein Gewicht zu haben; Cannabis indica und Opium), Bilder des Sich-Auflösens und der Gewichtslosigkeit. Nach Angabe des Autors geht die Vorstellung ›Gnom, Wicht‹ auf Edward C. Whitmont zurück (›Psyche and Substance‹ (›Psyche und Substanz‹)). Seit 1980 ist diese Rubrik bekannt.</div>
               <div style="font-size:0.85rem;"><span style="font-weight:700;color:var(--muted);">Im Lebensfaden:</span> <a href="#beruehmte-eleanor-roosevelt">Eleanor Roosevelt</a></div>
+              <div style="font-size:0.85rem;">Alle Single-Rubriken von Cannabis indica stehen als <a href="#mindmap-cannabis">Mindmap</a> zusammen.</div>
               <div style="font-size:0.78rem;color:var(--muted);">Zugeordnetes Mittel in der Enneagramm-Homöopathie dieses Kompasses: Cannabis indica</div>
             </div>
           </div>
@@ -66502,6 +66516,13 @@ const ROUTES = {
     "nicht-reale-vorstellungen": nichtRealeVorstellungenPage,
     "wahnideen-nicht-reale-vorstellungen": wahnideenNichtRealeVorstellungenPage,
     "mindmap-ignatia": ignatiaMindmapPage,
+    "mindmap-hyoscyamus": hyoscyamusMindmapPage,
+    "mindmap-tarentula": tarentulaMindmapPage,
+    "mindmap-stramonium": stramoniumMindmapPage,
+    "mindmap-opium": opiumMindmapPage,
+    "mindmap-belladonna": belladonnaMindmapPage,
+    "mindmap-veratrum": veratrumMindmapPage,
+    "mindmap-cannabis": cannabisMindmapPage,
     "befreiende-fragen": befreiendeFragenPage,
     "fuehrungsstile": fuehrungsstilePage,
     "gifte-des-geistes": gifteDesGeistesPage,
