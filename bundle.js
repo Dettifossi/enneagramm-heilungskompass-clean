@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=374";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=375";
 import { psychogrammErklaerung } from "./data/psychogramme-erklaerung.js?v=2";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -60717,7 +60717,7 @@ function gifteDesGeistesPage() {
 
 function nichtRealeVorstellungenPage() {
   const rows = [
-    { typ:1, vorstellung:"Überlegenheit, von", deutung:"Wer einen hohen inneren Maßstab anlegt, kann sich über die anderen erhoben fühlen: Ich weiß, wie es richtig geht. Hinter der Überlegenheit steht oft die Anstrengung, es richtig machen zu müssen, und der Zorn über das, was nicht stimmt.", mittel:"Platinum metallicum" },
+    { typ:1, vorstellung:"Überlegenheit, von", deutung:"Wer einen hohen inneren Maßstab anlegt, kann sich über die anderen erhoben fühlen: Ich weiß, wie es richtig geht. Hinter der Überlegenheit steht oft die Anstrengung, es richtig machen zu müssen, und der Zorn über das, was nicht stimmt.", mittel:"Platinum metallicum", rubrik:"In Kents ursprünglichem Repertorium steht in dieser Rubrik genau ein Mittel: Platinum metallicum." },
     { typ:2, vorstellung:"verkauft worden, sei", deutung:"Wer sich ganz für andere hingibt, kann das Gefühl entwickeln, am Ende benutzt oder weggegeben zu werden: Ich habe alles gegeben, und man hat mich verkauft. Die Vorstellung kreist um Hingabe und die Angst, dafür nicht gesehen zu werden.", mittel:"Hyoscyamus niger" },
     { typ:3, vorstellung:"unsichtbaren Dingen, von", deutung:"Wer vor allem im Sichtbaren lebt, im Bild und im Erfolg, begegnet dem Unsichtbaren als dem Unbekannten: dem, was hinter dem Bild liegt und sich nicht vorzeigen lässt. Die Vorstellung kreist um das, was nicht greifbar ist, und um die Angst, innerlich leer zu sein.", mittel:"Tarantula hispanica" },
     { typ:4, vorstellung:"Gelübde (= Versprechen!) brechen, würde ein", deutung:"Wer dem Verlorenen und dem Ideal treu bleibt, kann sich an ein inneres Versprechen gebunden fühlen und die Vorstellung haben, es zu brechen, wenn er sich dem Leben zuwendet. Treue zum Schmerz, zur Sehnsucht und zur eigenen Tragik gehört zu diesem Bild.", mittel:"Ignatia amara" },

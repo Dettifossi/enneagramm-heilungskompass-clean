@@ -2160,7 +2160,7 @@ export function steveJobsPortraitPage() {
         <h2 class="vb-section">7. A thought from homeopathy: the image of superiority</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 1 is assigned the remedy Platinum metallicum (Platinum) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). In the language of the repertory its main idea includes the idea of superiority. In Jobs the image shows in the strict standard: he applied it to every detail of his products and often judged people and work in black and white. The superiority of Type 1 is that of knowing what is right, not that of power over others.</p>
-          <p class="vb-intro">In rubrics of this kind, according to the author, only a few remedies are listed. What is meant is a comparison of images. It contains no statement about anyone&rsquo;s state of health, no recommendation and no substitute for advice from doctors or practitioners.</p>
+          <p class="vb-intro">In Kent&rsquo;s original repertory exactly one remedy is listed in this rubric: Platinum metallicum. What is meant is a comparison of images. It contains no statement about anyone&rsquo;s state of health, no recommendation and no substitute for advice from doctors or practitioners.</p>
         </blockquote>
 
 

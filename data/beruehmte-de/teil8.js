@@ -1979,7 +1979,7 @@ export function marcelReichRanickiPortraitPage() {
         <h2 class="vb-section">6. Ein Gedanke aus der Homöopathie: das Bild der Überlegenheit</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 1 das Mittel Platinum metallicum (Platin) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seiner Hauptvorstellung gehört in der Repertoriumssprache die Vorstellung von Überlegenheit. Bei Reich-Ranicki begegnet das Bild als Anspruch: Als ›Literaturpapst‹ beanspruchte er, den Maßstab für die deutschsprachige Gegenwartsliteratur zu setzen, seine Urteile im ›Literarischen Quartett‹ und die ›Frankfurter Anthologie‹ prägten Generationen von Lesern. Kritiker warfen ihm vor, mit seiner Deutungsmacht auch Karrieren beschädigt zu haben.</p>
-          <p class="vb-intro">In Rubriken dieser Art stehen nach Angabe des Autors nur wenige Mittel. Damit ist nur gesagt, dass zwei Bilder einander gleichen. Gesundheitliche Aussagen oder Empfehlungen sind damit nicht verbunden, und eine ärztliche oder heilkundliche Beratung bleibt unersetzt.</p>
+          <p class="vb-intro">In Kents ursprünglichem Repertorium steht in dieser Rubrik genau ein Mittel: Platinum metallicum. Damit ist nur gesagt, dass zwei Bilder einander gleichen. Gesundheitliche Aussagen oder Empfehlungen sind damit nicht verbunden, und eine ärztliche oder heilkundliche Beratung bleibt unersetzt.</p>
         </blockquote>
 
 

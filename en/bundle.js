@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=372";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=373";
 import { psychogrammErklaerung } from "../data/psychogramme-erklaerung.js?v=2";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -40298,7 +40298,7 @@ function gifteDesGeistesPage() {
 
 function nichtRealeVorstellungenPage() {
   const rows = [
-    { typ:1, vorstellung:"of superiority", deutung:"Whoever applies a high inner standard can feel raised above the others: I know how it is done right. Behind the superiority there is often the strain of having to do it right and the anger about what is not right.", mittel:"Platinum metallicum" },
+    { typ:1, vorstellung:"of superiority", deutung:"Whoever applies a high inner standard can feel raised above the others: I know how it is done right. Behind the superiority there is often the strain of having to do it right and the anger about what is not right.", mittel:"Platinum metallicum", rubrik:"In Kent's original repertory exactly one remedy is listed in this rubric: Platinum metallicum." },
     { typ:2, vorstellung:"of having been sold", deutung:"Whoever gives himself entirely for others can come to feel used or given away in the end: I gave everything, and I was sold. The idea circles around devotion and the fear of not being seen for it.", mittel:"Hyoscyamus niger" },
     { typ:3, vorstellung:"of invisible things", deutung:"Whoever lives mainly in the visible, in image and success, meets the invisible as the unknown: what lies behind the image and cannot be shown. The idea circles around what cannot be grasped and the fear of being empty inside.", mittel:"Tarantula hispanica" },
     { typ:4, vorstellung:"would break a vow (= promise!)", deutung:"Whoever stays faithful to what is lost and to the ideal can feel bound to an inner promise and have the idea of breaking it by turning toward life. Faithfulness to pain, longing and one's own tragedy belongs to this image.", mittel:"Ignatia amara" },

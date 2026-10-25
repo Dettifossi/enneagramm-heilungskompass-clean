@@ -1898,7 +1898,7 @@ export function marcelReichRanickiPortraitPage() {
         <h2 class="vb-section">6. A thought from homeopathy: the image of superiority</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 1 is assigned the remedy Platinum metallicum (Platinum) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). In the language of the repertory its main idea includes the idea of superiority. In Reich-Ranicki the image meets one as a claim: as the &lsquo;Pope of Literature&rsquo; he claimed to set the standard for contemporary German-language literature, his judgments in the &lsquo;Literarisches Quartett&rsquo; and the &lsquo;Frankfurter Anthologie&rsquo; shaped generations of readers. Critics accused him of having damaged careers with his interpretive power.</p>
-          <p class="vb-intro">In rubrics of this kind, according to the author, only a few remedies are listed. This only says that two images resemble each other. No statements about health or recommendations are attached, and medical or therapeutic advice remains unreplaced.</p>
+          <p class="vb-intro">In Kent&rsquo;s original repertory exactly one remedy is listed in this rubric: Platinum metallicum. This only says that two images resemble each other. No statements about health or recommendations are attached, and medical or therapeutic advice remains unreplaced.</p>
         </blockquote>
 
 
