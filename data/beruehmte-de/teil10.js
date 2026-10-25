@@ -1433,6 +1433,7 @@ export function seanConneryPortraitPage() {
         {route:"beruehmte-gottfried-wilhelm-leibniz", label:"Porträt: Gottfried Wilhelm Leibniz (SO3w4)"},
         {route:"beruehmte-sonoya-mizuno", label:"Porträt: Sonoya Mizuno (SO3w4)"},
         {route:"beruehmte-teresa-von-avila", label:"Porträt: Teresa von \u00c1vila (SO3w4)"},
+        {route:"beruehmte-bruce-lee", label:"Porträt: Bruce Lee (SO3w4)"},
       ])}
     </div>
   `);

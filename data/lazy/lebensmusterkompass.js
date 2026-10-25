@@ -734,7 +734,7 @@ export const LEBENSMUSTERKOMPASS = {
   SO3: {
     tier: "Gepard",
     kernthema: "Kontrolle über das eigene Bild und den entscheidenden öffentlichen Moment",
-    beispiele: ["Sven Platte", "Johannes B. Kerner", "Franziska van Almsick", "Danielle Vasinova", "Christiane Hörbiger", "Karl Lagerfeld", "Cristiano Ronaldo", "Sahra Wagenknecht", "Pharrell Williams", "Dr. Christiaan Barnard", "Ludwig XIV.", "Sean Connery", "Teresa von Ávila", "Bella Thorne", "Gottfried Wilhelm Leibniz", "Dr. Laurie Marker", "Pedro Alonso López", "Andrew Cunanan", "Vincenzo Peruggia", "Wade Wilson", "Pontius Pilatus", "Klemens von Metternich", "Zoë Kravitz", "Sonoya Mizuno", "Will Yun Lee", "Virgil van Dijk", "William James", "Dmitri Hvorostovsky", "Pedro Alonso (Schauspieler)", "Leon Goretzka", "Prof. George Vithoulkas", "Katharina die Große", "Harry Houdini"],
+    beispiele: ["Bruce Lee", "Sven Platte", "Johannes B. Kerner", "Franziska van Almsick", "Danielle Vasinova", "Christiane Hörbiger", "Karl Lagerfeld", "Cristiano Ronaldo", "Sahra Wagenknecht", "Pharrell Williams", "Dr. Christiaan Barnard", "Ludwig XIV.", "Sean Connery", "Teresa von Ávila", "Bella Thorne", "Gottfried Wilhelm Leibniz", "Dr. Laurie Marker", "Pedro Alonso López", "Andrew Cunanan", "Vincenzo Peruggia", "Wade Wilson", "Pontius Pilatus", "Klemens von Metternich", "Zoë Kravitz", "Sonoya Mizuno", "Will Yun Lee", "Virgil van Dijk", "William James", "Dmitri Hvorostovsky", "Pedro Alonso (Schauspieler)", "Leon Goretzka", "Prof. George Vithoulkas", "Katharina die Große", "Harry Houdini"],
     fingerabdruecke: [
       {
         titel: "Der kontrollierte Blick als Machtinstrument",
@@ -754,7 +754,7 @@ export const LEBENSMUSTERKOMPASS = {
       {
         titel: "Verwandlung in ein wiedererkennbares Symbol – oder bewusste Ablehnung des sicheren Reviers dafür",
         beschreibung: "Am Ende der Entwicklung steht häufig ein sofort identifizierbares, ikonisches Erscheinungsbild. Der Weg dorthin führt oft über die bewusste Ablehnung einer sicheren, aber begrenzenden Option zugunsten der offenen, sichtbaren Fläche.",
-        beleg: "Lagerfeld: ›Er hatte sich in ein Symbol verwandelt … weltweit, zeitlos‹; Leibniz lehnte eine sichere Professur ab, weil ›der Gepard nicht im geschützten Revier eines einzelnen Hörsaals bleibt‹; Sean Connerys radikale Distanzüberwindung vom Milchmann zu James Bond; Teresa von Ávila, der der reguläre Klosteralltag nicht genügte: ›Sie wollte nicht einfach Nonne sein – sie wollte den Orden erneuern, sichtbar, spürbar, unwiderlegbar.‹"
+        beleg: "Lagerfeld: ›Er hatte sich in ein Symbol verwandelt … weltweit, zeitlos‹; Leibniz lehnte eine sichere Professur ab, weil ›der Gepard nicht im geschützten Revier eines einzelnen Hörsaals bleibt‹; Sean Connerys radikale Distanzüberwindung vom Milchmann zu James Bond; Teresa von Ávila, der der reguläre Klosteralltag nicht genügte: ›Sie wollte nicht einfach Nonne sein – sie wollte den Orden erneuern, sichtbar, spürbar, unwiderlegbar.‹; Bruce Lee, der aus dem Kinderstar und Straßenkämpfer eine Kampfkunst-Lehre formte und zum bis heute wiedererkennbaren Symbol des Hongkonger Kinos wurde"
       },
       {
         titel: "Wenn der eine gewagte Sprung und die kontrollierte Fassade zur tödlichen Inszenierung werden (Schattenform)",

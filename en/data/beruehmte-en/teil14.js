@@ -3068,7 +3068,8 @@ export function svenPlattePortraitPage() {
         {route:"beruehmte-karl-lagerfeld", label:"Portrait: Karl Lagerfeld (SO3w4)"},
         {route:"beruehmte-franziska-van-almsick", label:"Portrait: Franziska van Almsick (SO3w4)"},
         {route:"beruehmte-johann-lechner", label:"Portrait: Dr. Johann Lechner (SO7w6)"},
-            ])}
+        {route:"beruehmte-bruce-lee", label:"Portrait: Bruce Lee (SO3w4)"},
+      ])}
     </div>
   `);
 }

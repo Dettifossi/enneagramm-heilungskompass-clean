@@ -2981,3 +2981,74 @@ export function henryMaskePortraitPage() {
     </div>
   `);
 }
+
+export function bruceLeePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-bruce-lee-portrait.jpg" alt="Bruce Lee – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-bruce-lee-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Bruce Lee</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Social Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Actor and martial arts teacher, 1940&ndash;1973 &ndash; Animal correspondence: Cheetah</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Cheetah: the Hong Kong child who wanted to be faster</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>cheetah</strong> lives on speed and on the moment when everything comes together. Bruce Lee was born on 27 November 1940 in San Francisco as Lee Jun Fan. His father Lee Hoi Chuen was a well-known Cantonese opera star, his mother Grace Lee was of German-Chinese descent. The family returned to Hong Kong, and already at the age of six, in 1946, he stood in front of the camera in his first film role.</p>
+          <p class="vb-intro">As a teenager he sought out fights on the street. At 13 he began studying Wing Chun kung fu with Yip Man in order to defend himself. Boxing followed and, according to Britannica, the 1958 Hong Kong cha-cha championship, a sign of rhythm and body control. In 1959 he went to the USA.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Three: standing as the first lead of his kind</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the social Three, standing in the community drives action, and Claudio Naranjo called it prestige. In Lee it shows in the link between skill and visibility: in 1964 he appeared at the karate tournament in Long Beach, and this appearance led to the role of Kato in &lsquo;The Green Hornet&rsquo; (1966&ndash;1967). In Hollywood he afterwards stayed limited to supporting roles for a long time and went back to Hong Kong.</p>
+          <p class="vb-intro">There he became a star: &lsquo;The Big Boss&rsquo; (1971) became the most successful film in Hong Kong cinema history, &lsquo;Fist of Fury&rsquo; (1972) and &lsquo;Way of the Dragon&rsquo; (1972), which he also directed, broke further records. &lsquo;Enter the Dragon&rsquo; (1973) grossed, according to EBSCO, over 200 million US dollars worldwide.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: philosophy and personal expression</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso and Russ Hudson call the Three with a Four-wing &lsquo;The Professional&rsquo;. The <strong>Four-wing (w4)</strong> gives the Three individuality and depth. In Lee it shows in his study of philosophy at the University of Washington and in how he understood his art: not as a fixed style but as a way to express one&rsquo;s own person honestly.</p>
+          <p class="vb-intro">A saying often attributed to him sums it up: &lsquo;Absorb what is useful, discard what is useless, and add what is specifically your own.&rsquo;</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: Jeet Kune Do, speed and economy of movement</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lee&rsquo;s achievement was concrete. In 1964 he founded the Jun Fan Gung Fu Institute in Oakland with James Lee and developed from it Jeet Kune Do (&lsquo;the way of the intercepting fist&rsquo;), which combines elements of Wing Chun, boxing, fencing and taekwondo. His principle was economy: short, direct movements, intercepting the attack instead of playing it out, and consistent training of speed and body.</p>
+          <p class="vb-intro">This fits the cheetah image of the social Three: talent alone was not enough, he made his skill usable through a method of his own that he had thought through. The screen fighter who had stood in front of the camera as a child brought cinema a new body language and became a role model for many Asian Americans because he stood against racist stereotypes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Sean Connery and Leon Goretzka</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-sean-connery">Sean Connery (SO3w4)</a> shares with Lee the path from simple circumstances to cinema icon whose body and presence became a brand. <a href="#beruehmte-leon-goretzka">Leon Goretzka (SO3w4)</a> shares with him the body as a tool and the will to peak form.</p>
+          <p class="vb-intro">The difference: Lee linked this with a formulated teaching that reached beyond film.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social Three with Four-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is the combination of discipline and thought: whoever takes body and philosophy this seriously and forms a method from it creates something that lasts. Worldwide fame came within a few years, and he carried it lightly.</p>
+          <p class="vb-intro">The shadow side of the Three is the pressure that high visibility and a high standard create. Lee suffered a back injury in 1970, and in May 1973 he had a blackout followed by a medical check-up. On 20 July 1973 he died in Hong Kong at the age of 32; the official cause of death was given as cerebral edema. There are different accounts of the trigger, among them a reaction to a painkiller. More cannot be said with certainty here.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: legacy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lee has been dead since 1973 and remains a cultural icon and the face of Hong Kong cinema. In 1964 he married Linda Emery, whom he had met in his kung fu class, and left behind the children Brandon and Shannon. His last completed film was &lsquo;Enter the Dragon&rsquo;; &lsquo;The Game of Death&rsquo; was unfinished in his lifetime (released 1978).</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
+        {route:"lebensmusterkompass/so3", label:"Life Pattern Compass: SO3 – Cheetah"},
+        {route:"beruehmte-sean-connery", label:"Portrait: Sean Connery (SO3w4)"},
+        {route:"beruehmte-leon-goretzka", label:"Portrait: Leon Goretzka (SO3w4)"},
+        {route:"beruehmte-sven-platte", label:"Portrait: Sven Platte (SO3w4)"},
+            ])}
+    </div>
+  `);
+}

@@ -2869,3 +2869,74 @@ export function wolfgangNiedeckenPortraitPage() {
     </div>
   `);
 }
+
+export function bruceLeePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-bruce-lee-portrait.jpg" alt="Bruce Lee – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-bruce-lee-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Bruce Lee</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Sozialer Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler und Kampfkunst-Lehrer, 1940&ndash;1973 &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Gepard: das Kind aus Hongkong, das schneller sein wollte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Gepard</strong> lebt von Tempo und von dem Moment, in dem alles zusammenkommt. Bruce Lee wurde am 27. November 1940 in San Francisco als Lee Jun Fan geboren. Sein Vater Lee Hoi Chuen war ein bekannter kantonesischer Opernstar, seine Mutter Grace Lee deutsch-chinesischer Herkunft. Die Familie kehrte nach Hongkong zurück, und schon mit sechs Jahren, 1946, stand er in seiner ersten Filmrolle vor der Kamera.</p>
+          <p class="vb-intro">Als Jugendlicher suchte er auf der Straße Auseinandersetzungen. Mit 13 begann er bei Yip Man Wing-Chun-Kung-Fu zu lernen, um sich zu verteidigen. Dazu kamen Boxen und, nach Britannica, 1958 der Hongkonger Cha-Cha-Cha-Meistertitel, ein Hinweis auf Rhythmus und Körperbeherrschung. 1959 ging er in die USA.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: das Ansehen als erster Hauptdarsteller seiner Art</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bei der sozialen Drei bestimmt das Ansehen in der Gemeinschaft das Handeln, und Claudio Naranjo nannte das Prestige. Bei Lee zeigt es sich in der Verbindung von Können und Sichtbarkeit: 1964 trat er beim Karate-Turnier in Long Beach auf, und dieser Auftritt führte zur Rolle des Kato in ›The Green Hornet‹ (1966–1967). In Hollywood blieb er danach lange auf Nebenrollen beschränkt und ging nach Hongkong zurück.</p>
+          <p class="vb-intro">Dort wurde er zum Star: ›The Big Boss‹ (1971) wurde der erfolgreichste Film der Hongkonger Kinogeschichte, ›Fist of Fury‹ (1972) und ›Way of the Dragon‹ (1972), bei dem er Regie führte, brachen weitere Rekorde. ›Enter the Dragon‹ (1973) spielte nach EBSCO weltweit über 200 Millionen US-Dollar ein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Philosophie und eigener Ausdruck</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso und Russ Hudson nennen die Drei mit Viererflügel ›Den Profi‹. Der <strong>Viererflügel (w4)</strong> gibt der Drei Eigenart und Tiefe. Bei Lee zeigt er sich im Studium der Philosophie an der University of Washington und in der Art, wie er seine Kunst verstand: nicht als festen Stil, sondern als Weg, die eigene Person ehrlich auszudrücken.</p>
+          <p class="vb-intro">Der Satz, den er oft zugeschrieben bekam, fasst das zusammen: ›Absorb what is useful, discard what is useless, and add what is specifically your own‹ – nimm auf, was nützlich ist, lass fallen, was unnütz ist, und füge hinzu, was ganz dein Eigenes ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Jeet Kune Do, Tempo und Ökonomie der Bewegung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lees Leistung war fachlich konkret. Er gründete 1964 mit James Lee das Jun Fan Gung Fu Institute in Oakland und entwickelte daraus Jeet Kune Do (›Weg der abfangenden Faust‹), das Elemente aus Wing Chun, Boxen, Fechten und Taekwondo verbindet. Sein Prinzip war Ökonomie: kurze, direkte Bewegungen, den Angriff abfangen statt ihn auszuspielen, und konsequentes Training von Schnelligkeit und Körper.</p>
+          <p class="vb-intro">Das passt zum Gepard-Bild der sozialen Drei: Talent allein reichte nicht, er machte sein Können durch eine eigene, durchdachte Methode nutzbar. Der Filmkämpfer, der als Kind schon vor der Kamera gestanden hatte, brachte dem Kino eine neue Körpersprache und wurde für viele asiatische Amerikaner zum Vorbild, weil er rassistischen Klischees entgegentrat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Sean Connery und Leon Goretzka</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-sean-connery">Sean Connery (SO3w4)</a> teilt mit Lee den Weg aus einfachen Verhältnissen zur Kinoikone, deren Körper und Auftreten zur Marke wurden. <a href="#beruehmte-leon-goretzka">Leon Goretzka (SO3w4)</a> verbindet mit ihm den Körper als Werkzeug und den Willen zur Spitzenform.</p>
+          <p class="vb-intro">Der Unterschied: Lee verband das mit einer ausformulierten Lehre, die über den Film hinausreichte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Drei mit Viererflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Verbindung aus Disziplin und Denken: Wer Körper und Philosophie so ernst nimmt und daraus eine Methode formt, schafft etwas, das bleibt. Die Weltgeltung kam in wenigen Jahren, und er trug sie mit Leichtigkeit.</p>
+          <p class="vb-intro">Die Schattenseite der Drei ist der Druck, den hohe Sichtbarkeit und hoher Anspruch erzeugen. Lee erlitt 1970 eine Rückenverletzung, und im Mai 1973 hatte er einen Blackout mit anschließendem Gesundheitscheck. Am 20. Juli 1973 starb er mit 32 Jahren in Hongkong, als offizielle Todesursache wurde ein Hirnödem genannt. Über den Auslöser gibt es unterschiedliche Darstellungen, darunter eine Reaktion auf ein Schmerzmittel. Mehr lässt sich hier nicht sicher sagen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Vermächtnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lee ist seit 1973 tot und gilt bis heute als kulturelle Ikone und als Gesicht des Hongkonger Kinos. Er heiratete 1964 Linda Emery, die er in seinem Kung-Fu-Kurs kennengelernt hatte, und hinterließ die Kinder Brandon und Shannon. Sein letzter vollendeter Film war ›Enter the Dragon‹, ›The Game of Death‹ blieb zu seinen Lebzeiten unvollendet (erschienen 1978).</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so3", label:"Lebensmusterkompass: SO3 – Gepard"},
+        {route:"beruehmte-sean-connery", label:"Porträt: Sean Connery (SO3w4)"},
+        {route:"beruehmte-leon-goretzka", label:"Porträt: Leon Goretzka (SO3w4)"},
+        {route:"beruehmte-sven-platte", label:"Porträt: Sven Platte (SO3w4)"},
+            ])}
+    </div>
+  `);
+}
