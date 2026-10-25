@@ -2340,7 +2340,7 @@ export function vincenzoCalifanoPortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Drei: Ansehen in der Gemeinschaft der Suchenden</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Bei der <strong>sozialen Drei (SO3)</strong> bestimmt das Ansehen in der Gemeinschaft das Handeln, und Claudio Naranjo nannte das Prestige. Bei Califano zeigt sich das darin, dass er sich einen Platz in der deutschsprachigen Szene der nichtdualen Lehrer erarbeitet hat: Er hält regelmäßig Satsangs, ist in Verzeichnissen wie Jetzt-TV gelistet und tritt öffentlich auf. Sein Angebot ist klar gegliedert: eine „8 Wochen Begleitung 1:1", Einzelsitzungen, eine feste Mitgliedschaft („Inner Circle"), buchbare Tagesevents mit konkretem Datum und Countdown auf der eigenen Website.</p>
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> fragt, wer einen zur Gemeinschaft zählt, und Claudio Naranjo sprach hier vom Prestige. Califano antwortet darauf damit, dass er sich einen Platz in der deutschsprachigen Szene der nichtdualen Lehrer erarbeitet hat: Er hält regelmäßig Satsangs, ist in Verzeichnissen wie Jetzt-TV gelistet und tritt öffentlich auf. Sein Angebot ist klar gegliedert: eine „8 Wochen Begleitung 1:1", Einzelsitzungen, eine feste Mitgliedschaft („Inner Circle"), buchbare Tagesevents mit konkretem Datum und Countdown auf der eigenen Website.</p>
           <p class="vb-intro">Das ist die soziale Drei in einem Feld, das sich traditionell eher gegen Struktur sträubt: Selbst die Lehre von der radikalen Auflösung des suchenden Selbst wird bei Califano in ein verlässliches, wiederholbares System übersetzt, das in einer Gemeinschaft von Teilnehmenden gelebt wird – Kompetenz und Verbindlichkeit als Fundament, Sichtbarkeit in der Szene als Ergebnis.</p>
         </blockquote>
 
@@ -2971,7 +2971,7 @@ export function johannesBKernerPortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Drei: Ansehen als Gastgeber</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Bei der sozialen Drei bestimmt das Ansehen in der Gemeinschaft das Handeln, und Claudio Naranjo nannte das Prestige. Bei Kerner zeigt sich das in der Verbindung von Beliebtheit und Sorgfalt. Er sagt, wer im Fernsehen arbeite und behaupte, nicht eitel zu sein, lüge, und er bekenne sich dazu, aber nicht übertrieben (Lokalkompass-Interview).</p>
+          <p class="vb-intro">In der sozialen Drei steckt der Wunsch, in der Gemeinschaft angesehen zu sein, den Claudio Naranjo Prestige nannte. Bei Kerner verbinden sich Beliebtheit und Sorgfalt. Er sagt, wer im Fernsehen arbeite und behaupte, nicht eitel zu sein, lüge, und er bekenne sich dazu, aber nicht übertrieben (Lokalkompass-Interview).</p>
           <p class="vb-intro">In einem älteren Interview sagt er, er sei vom Ehrgeiz getrieben gewesen, keine Fehler zu machen. Seine einsamste berufliche Zeit war 2009, als er sich fragte, ob seine Fernsehkarriere vorbei sei. Den Wechsel zu Sat.1 in diesem Jahr nennt er den größten Fehler seiner Laufbahn. In einem neueren Gespräch sagt er zum Misserfolg nur: ›Das hat nicht funktioniert.‹ Ans Aufhören denke er trotzdem nicht.</p>
         </blockquote>
 

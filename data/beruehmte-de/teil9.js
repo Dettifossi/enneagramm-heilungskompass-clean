@@ -2894,7 +2894,7 @@ export function bruceLeePortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Drei: das Ansehen als erster Hauptdarsteller seiner Art</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Bei der sozialen Drei bestimmt das Ansehen in der Gemeinschaft das Handeln, und Claudio Naranjo nannte das Prestige. Bei Lee zeigt es sich in der Verbindung von Können und Sichtbarkeit: 1964 trat er beim Karate-Turnier in Long Beach auf, und dieser Auftritt führte zur Rolle des Kato in ›The Green Hornet‹ (1966–1967). In Hollywood blieb er danach lange auf Nebenrollen beschränkt und ging nach Hongkong zurück.</p>
+          <p class="vb-intro">Die soziale Drei richtet ihr Tun auf die Gemeinschaft aus, Claudio Naranjo nannte das Prestige. Bei Lee greifen Können und Sichtbarkeit ineinander: 1964 trat er beim Karate-Turnier in Long Beach auf, und dieser Auftritt führte zur Rolle des Kato in ›The Green Hornet‹ (1966–1967). In Hollywood blieb er danach lange auf Nebenrollen beschränkt und ging nach Hongkong zurück.</p>
           <p class="vb-intro">Dort wurde er zum Star: ›The Big Boss‹ (1971) wurde der erfolgreichste Film der Hongkonger Kinogeschichte, ›Fist of Fury‹ (1972) und ›Way of the Dragon‹ (1972), bei dem er Regie führte, brachen weitere Rekorde. ›Enter the Dragon‹ (1973) spielte nach EBSCO weltweit über 200 Millionen US-Dollar ein.</p>
         </blockquote>
 

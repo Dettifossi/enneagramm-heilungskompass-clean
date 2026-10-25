@@ -2939,7 +2939,7 @@ export function johannesBKernerPortraitPage() {
 
         <h2 class="vb-section">2. The social Three: standing as a host</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In the social Three standing in the community drives action, which Claudio Naranjo called prestige. In Kerner this shows in the combination of popularity and care. He says that whoever works in television and claims not to be vain is lying, and that he admits to it, but not excessively (Lokalkompass interview).</p>
+          <p class="vb-intro">The social Three carries the wish to be respected in the community, which Claudio Naranjo called prestige. In Kerner, popularity and care come together. He says that whoever works in television and claims not to be vain is lying, and that he admits to it, but not excessively (Lokalkompass interview).</p>
           <p class="vb-intro">In an older interview he says he had been driven by the ambition not to make mistakes. His loneliest professional time was 2009, when he asked himself whether his television career was over. He calls the move to Sat.1 that year the biggest mistake of his career. In a more recent conversation he says of the failure only: &lsquo;Das hat nicht funktioniert&rsquo; (that did not work). He still does not think of quitting.</p>
         </blockquote>
 

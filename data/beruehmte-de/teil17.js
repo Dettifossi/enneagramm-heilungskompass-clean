@@ -3053,7 +3053,7 @@ export function rominaPalmPortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Drei: Gemeinschaft, Sichtbarkeit und Ansehen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Bei der sozialen Drei bestimmt das Ansehen in der Gemeinschaft das Handeln, und Claudio Naranjo nannte das Prestige. Bei Palm zeigt sich das in einem Beruf, der von der Anerkennung eines großen Publikums lebt. Sie blieb in den Folgen 1 bis 16 im Rennen und schied im Finale nach einem Duell mit Dascha Carriero aus. Seitdem arbeitet sie als Model und Influencerin, nach Fremdangaben mit mehr als einer Million Instagram-Followern.</p>
+          <p class="vb-intro">Die soziale Drei will in der Gemeinschaft etwas gelten (bei Claudio Naranjo: Prestige). Palm hat einen Beruf gewählt, der von der Anerkennung eines großen Publikums lebt. Sie blieb in den Folgen 1 bis 16 im Rennen und schied im Finale nach einem Duell mit Dascha Carriero aus. Seitdem arbeitet sie als Model und Influencerin, nach Fremdangaben mit mehr als einer Million Instagram-Followern.</p>
           <p class="vb-intro">Sie sagt selbst, dass sich seit der Show vieles verändert hat: ›Mein Kopf hat sich seit GNTM so krass verändert.‹ Sie sei selbstbewusster, fokussierter und selbstständiger geworden, spüre aber auch mehr Stress und mehr Druck: ›Ich habe mehr Stress, ich habe mehr Druck.‹ Sie nennt Veränderungen im Positiven und im Negativen und beschreibt mehr Verantwortung und Pflichten, deren Ausmaß ihr vorher nicht klar war.</p>
         </blockquote>
 

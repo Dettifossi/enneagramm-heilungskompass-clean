@@ -2934,7 +2934,7 @@ export function sarahPaulsonPortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Drei: Anerkennung unter Kolleginnen und Kollegen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Bei der sozialen Drei bestimmt das Ansehen in der Gemeinschaft das Handeln, und Claudio Naranjo nannte das Prestige. Bei Paulson zeigt sich das in der Verbindung von Leistung und Zugehörigkeit zum Kreis der Besten ihres Fachs. Sie sagt, sie habe mit Ryan Murphy gleich zu Beginn zugesagt, ohne die Drehbücher zu lesen. Das ist Vertrauen in eine Gemeinschaft, in der sie sich bewähren will.</p>
+          <p class="vb-intro">Wer sich zur sozialen Drei hingezogen fühlt, sucht Geltung unter Gleichgestellten, bei Claudio Naranjo das Prestige. Paulson will zu den Besten ihres Fachs gehören und sich in diesem Kreis bewähren. Sie sagt, sie habe mit Ryan Murphy gleich zu Beginn zugesagt, ohne die Drehbücher zu lesen. Das ist Vertrauen in eine Gemeinschaft, in der sie sich bewähren will.</p>
           <p class="vb-intro">Der Wunsch, sich zu beweisen, bleibt bei ihr spürbar: Sie spricht von einer ›terrible fear that I wasn't going to be able to do it well‹ (einer schrecklichen Angst, es nicht gut genug zu können) und sagt, die Nacht ihres Emmy-Gewinns sei eine der einsamsten ihres Lebens gewesen. Für ›The People v. O.J. Simpson: American Crime Story‹ (2016) gewann sie als Marcia Clark den Emmy und den Golden Globe, für ›Appropriate‹ am Broadway 2024 den Tony als beste Hauptdarstellerin in einem Theaterstück.</p>
         </blockquote>
 

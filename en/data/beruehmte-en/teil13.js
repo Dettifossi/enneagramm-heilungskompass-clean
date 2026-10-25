@@ -2986,7 +2986,7 @@ export function rominaPalmPortraitPage() {
 
         <h2 class="vb-section">2. The social Three: community, visibility and standing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In the social Three, standing in the community drives action, and Claudio Naranjo called it prestige. In Palm it shows in a profession that lives on the recognition of a large audience. She stayed in the race in episodes 1 to 16 and left in the finale after a duel with Dascha Carriero. Since then she has worked as a model and influencer, according to third-party figures with more than one million Instagram followers.</p>
+          <p class="vb-intro">The social Three wants to count in the community (Claudio Naranjo: prestige). Palm chose a profession that lives on the recognition of a large audience. She stayed in the race in episodes 1 to 16 and left in the finale after a duel with Dascha Carriero. Since then she has worked as a model and influencer, according to third-party figures with more than one million Instagram followers.</p>
           <p class="vb-intro">She says herself that much has changed since the show: &lsquo;My head has changed so crazily since GNTM.&rsquo; She says she became more confident, more focused and more independent, but also feels more stress and more pressure: &lsquo;I have more stress, I have more pressure.&rsquo; She names changes for the better and for the worse and describes more responsibility and duties whose extent was not clear to her before.</p>
         </blockquote>
 

@@ -3023,7 +3023,7 @@ export function svenPlattePortraitPage() {
 
         <h2 class="vb-section">2. The social Three: standing in the community of online entrepreneurs</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In the social Three, standing in the community drives action, and Claudio Naranjo called it prestige. In Platte it shows not in the spotlight but in the role he chose: he builds the space in which others succeed. He says the platform is meant to help online entrepreneurs automate their business so that more time remains for growth and life. As a reference he names that Tony Robbins sells his signature event through the platform.</p>
+          <p class="vb-intro">Prestige, as Claudio Naranjo described it for the social Three, does not have to be loud. Platte finds it not in the spotlight but in the role he chose: he builds the space in which others succeed. He says the platform is meant to help online entrepreneurs automate their business so that more time remains for growth and life. As a reference he names that Tony Robbins sells his signature event through the platform.</p>
           <p class="vb-intro">Digistore24 calls itself Europe&rsquo;s largest sales and affiliate platform for digital products, with, by its own account, 2 million users in 180 countries and over 500 million euros in sales by vendors and affiliates in 2023. These figures come from the company itself and are not independently verified. Platte also hosts &lsquo;Svencast&rsquo;, a podcast that Digistore24 promotes on its website.</p>
         </blockquote>
 

@@ -2972,7 +2972,7 @@ export function falcoPortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Drei: die Kunstfigur und das Publikum</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Bei der sozialen Drei bestimmt das Ansehen in der Gemeinschaft das Handeln, und Claudio Naranjo nannte das Prestige. Bei Falco zeigt sich das in der Entscheidung für eine Kunstfigur: Hans Hölzel wurde auf der Bühne zu ›Falco‹, dem eleganten Wiener mit dem Anzug und dem selbstbewussten Auftreten. Der Name stammt von einem Sportler, er ist ein Bekenntnis zu Leistung und Wirkung.</p>
+          <p class="vb-intro">Für die soziale Drei zählt der Ruf in der Gemeinschaft, bei Claudio Naranjo das Prestige. Falco hat dafür eine Kunstfigur geschaffen: Hans Hölzel wurde auf der Bühne zu ›Falco‹, dem eleganten Wiener mit dem Anzug und dem selbstbewussten Auftreten. Der Name stammt von einem Sportler, er ist ein Bekenntnis zu Leistung und Wirkung.</p>
           <p class="vb-intro">Der Erfolg kam schnell und in der größten Form: ›Der Kommissar‹ (1981) brachte ihm den Durchbruch im deutschsprachigen Raum, ›Vienna Calling‹, ›Jeanny‹ und ›Rock Me Amadeus‹ folgten. Im März 1986 stand ›Rock Me Amadeus‹ an der Spitze der US-Billboard-Charts. Es ist bis heute das einzige deutschsprachige Lied, das diese Spitze erreichte, und das Album ›Falco 3‹ kam auf Platz 3 der US-Albumcharts.</p>
         </blockquote>
 

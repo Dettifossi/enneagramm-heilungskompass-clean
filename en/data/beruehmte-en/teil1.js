@@ -2985,7 +2985,7 @@ export function falcoPortraitPage() {
 
         <h2 class="vb-section">2. The social Three: the stage figure and the audience</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In the social Three, standing in the community drives action, and Claudio Naranjo called it prestige. In Falco it shows in the decision for a stage figure: on stage Hans Hölzel became &lsquo;Falco&rsquo;, the elegant Viennese in the suit with the self-assured manner. The name comes from an athlete, it is a commitment to achievement and impact.</p>
+          <p class="vb-intro">For the social Three, reputation in the community counts, in Claudio Naranjo&rsquo;s words prestige. Falco created a stage figure for it: on stage Hans Hölzel became &lsquo;Falco&rsquo;, the elegant Viennese in the suit with the self-assured manner. The name comes from an athlete, it is a commitment to achievement and impact.</p>
           <p class="vb-intro">Success came quickly and in the greatest form: &lsquo;Der Kommissar&rsquo; (1981) brought him the breakthrough in the German-speaking world, &lsquo;Vienna Calling&rsquo;, &lsquo;Jeanny&rsquo; and &lsquo;Rock Me Amadeus&rsquo; followed. In March 1986 &lsquo;Rock Me Amadeus&rsquo; stood at the top of the US Billboard charts. To this day it is the only German-language song to reach that peak, and the album &lsquo;Falco 3&rsquo; reached number 3 on the US album charts.</p>
         </blockquote>
 

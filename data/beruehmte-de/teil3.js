@@ -2942,7 +2942,7 @@ export function svenPlattePortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Drei: Ansehen in der Gemeinschaft der Online-Unternehmer</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Bei der sozialen Drei bestimmt das Ansehen in der Gemeinschaft das Handeln, und Claudio Naranjo nannte das Prestige. Bei Platte zeigt es sich nicht im Rampenlicht, sondern in der Rolle, die er sich gewählt hat: Er baut den Raum, in dem andere Erfolg haben. Er sagt, die Plattform solle Online-Unternehmern helfen, ihr Geschäft zu automatisieren, damit mehr Zeit für Wachstum und Leben bleibt. Als Referenz nennt er, dass Tony Robbins sein Signature Event über die Plattform verkauft.</p>
+          <p class="vb-intro">Prestige, wie es Claudio Naranjo für die soziale Drei beschrieb, muss nicht laut sein. Platte findet es nicht im Rampenlicht, sondern in der Rolle, die er sich gewählt hat: Er baut den Raum, in dem andere Erfolg haben. Er sagt, die Plattform solle Online-Unternehmern helfen, ihr Geschäft zu automatisieren, damit mehr Zeit für Wachstum und Leben bleibt. Als Referenz nennt er, dass Tony Robbins sein Signature Event über die Plattform verkauft.</p>
           <p class="vb-intro">Digistore24 nennt sich Europas größte Verkaufs- und Affiliate-Plattform für digitale Produkte, mit nach eigenen Angaben 2 Millionen Nutzern in 180 Ländern und über 500 Millionen Euro Umsatz der Vendoren und Affiliates im Jahr 2023. Diese Zahlen stammen vom Unternehmen selbst und sind nicht unabhängig geprüft. Platte tritt außerdem als Gastgeber des ›Svencast‹ auf, eines Podcasts, den Digistore24 auf seiner Website bewirbt.</p>
         </blockquote>
 

@@ -2968,7 +2968,7 @@ export function sarahPaulsonPortraitPage() {
 
         <h2 class="vb-section">2. The social Three: recognition among colleagues</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In the social Three, standing in the community drives action, and Claudio Naranjo called it prestige. In Paulson it shows in the link between achievement and belonging to the circle of the best in her field. She says she signed on with Ryan Murphy right from the start without reading the scripts. That is trust in a community in which she wants to prove herself.</p>
+          <p class="vb-intro">Anyone drawn to the social Three looks for standing among peers, what Claudio Naranjo called prestige. Paulson wants to belong to the best in her field and to prove herself in that circle. She says she signed on with Ryan Murphy right from the start without reading the scripts. That is trust in a community in which she wants to prove herself.</p>
           <p class="vb-intro">The wish to prove herself remains noticeable: she speaks of &lsquo;a terrible fear that I wasn&rsquo;t going to be able to do it well&rsquo; and says the night of her Emmy win was one of the loneliest of her life. For &lsquo;The People v. O.J. Simpson: American Crime Story&rsquo; (2016) she won the Emmy and the Golden Globe as Marcia Clark, and for &lsquo;Appropriate&rsquo; on Broadway the 2024 Tony Award for best leading actress in a play.</p>
         </blockquote>
 

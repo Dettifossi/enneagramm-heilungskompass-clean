@@ -2266,7 +2266,7 @@ export function vincenzoCalifanoPortraitPage() {
 
         <h2 class="vb-section">2. The Social Three: Standing in the Community of Seekers</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In the <strong>social Three (SO3)</strong> standing in the community drives action, and Claudio Naranjo called it prestige. In Califano this shows in the way he has earned a place in the German-speaking scene of nondual teachers: he regularly holds satsangs, is listed in directories such as Jetzt-TV and appears publicly. His offering is clearly structured: an "8-week 1:1 accompaniment," individual sessions, a fixed membership ("Inner Circle"), bookable day events with a specific date and countdown on his own website.</p>
+          <p class="vb-intro">The <strong>social Three (SO3)</strong> asks who counts one as part of the community, and Claudio Naranjo spoke of prestige here. Califano answers by having earned a place in the German-speaking scene of nondual teachers: he regularly holds satsangs, is listed in directories such as Jetzt-TV and appears publicly. His offering is clearly structured: an "8-week 1:1 accompaniment," individual sessions, a fixed membership ("Inner Circle"), bookable day events with a specific date and countdown on his own website.</p>
           <p class="vb-intro">That is the social Three in a field that traditionally resists structure: even the teaching of the radical dissolution of the seeking self gets translated by Califano into a reliable, repeatable system lived in a community of participants – competence and consistency as the foundation, visibility in the scene as the result.</p>
         </blockquote>
 
