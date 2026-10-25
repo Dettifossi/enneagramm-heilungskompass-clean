@@ -2158,7 +2158,7 @@ export function steveJobsPortraitPage() {
         <h2 class="vb-section">7. Ein Gedanke aus der Homöopathie: das Bild der Überlegenheit</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 1 das Mittel Platinum metallicum (Platin) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seiner Hauptvorstellung gehört in der Repertoriumssprache die Vorstellung von Überlegenheit. Bei Jobs zeigt sich das Bild im strengen Maßstab: Er wendete ihn auf jedes Detail seiner Produkte an und bewertete Menschen und Arbeit oft in Schwarz-Weiß. Die Überlegenheit des Typs 1 ist die des Wissens um das Richtige, nicht die der Macht über andere.</p>
-          <p class="vb-intro">In Kents ursprünglichem Repertorium steht in dieser Rubrik genau ein Mittel: Platinum metallicum. Gemeint ist ein Vergleich von Bildern. Er enthält keine Aussage über den Gesundheitszustand eines Menschen, keine Empfehlung und keinen Ersatz für Beratung durch Ärzte oder Heilkundige.</p>
+          <p class="vb-intro">In Kents Repertorium steht in der Rubrik ›superiority‹ genau ein Mittel: Platinum metallicum. Gemeint ist ein Vergleich von Bildern. Er enthält keine Aussage über den Gesundheitszustand eines Menschen, keine Empfehlung und keinen Ersatz für Beratung durch Ärzte oder Heilkundige.</p>
         </blockquote>
 
 
