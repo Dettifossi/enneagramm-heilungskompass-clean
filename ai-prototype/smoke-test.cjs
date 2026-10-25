@@ -223,6 +223,8 @@ const ROUTES = [
   { hash: "en/#mindmap-belladonna", label: "EN Mindmap Belladonna" },
   { hash: "en/#mindmap-veratrum", label: "EN Mindmap Veratrum album" },
   { hash: "en/#mindmap-cannabis", label: "EN Mindmap Cannabis indica" },
+  { hash: "#beruehmte-jean-marais", label: "Neues Porträt: Jean Marais" },
+  { hash: "en/#beruehmte-jean-marais", label: "Neues EN-Porträt: Jean Marais" },
   { hash: "#mindmap-hyoscyamus", label: "Mindmap Hyoscyamus niger" },
   { hash: "#mindmap-tarentula", label: "Mindmap Tarentula hispanica" },
   { hash: "#mindmap-stramonium", label: "Mindmap Stramonium" },

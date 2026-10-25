@@ -3068,3 +3068,70 @@ export function danielleVasinovaPortraitPage() {
     </div>
   `);
 }
+
+export function jeanMaraisPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jean-marais-portrait.jpg" alt="Jean Marais – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jean Marais</p>
+        <p class="krim-portrait-typ">SE1w2 &middot; Selbsterhaltender Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, Bildhauer &amp; Töpfer, 1913&ndash;1998 &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Beim <strong>Adler</strong> denkt man an die Höhe, und tatsächlich ist er das Tier, das sich seinen Platz auf der Felskante selbst erarbeitet: Er prüft den Wind, wägt den Absprung und verlässt sich auf nichts, was er nicht selbst kontrolliert hat. Das passt zur selbsterhaltenden Eins, die ihre Sicherheit in der eigenen Verlässlichkeit sucht.</p>
+          <p class="vb-intro">Jean Marais wurde 1913 in Cherbourg geboren und starb 1998 in Cannes. Er wurde in Frankreich zum Inbegriff des Leinwandhelden, und das Besondere daran: Die Höhe, auf der seine Figuren sich bewegten, war oft echt. Die meisten Stunts seiner Mantel-und-Degen-Filme machte er selbst. 1957 trat er ohne Sicherung am Ende einer achtzehn Meter hohen Stange auf. Beim Dreh von ›Le Capitan‹ (1960; ›Der Capitan‹) kletterte er die Mauern eines Schlosses hoch und verletzte sich bei einer Fechtszene am Auge. Ein Mann, der seiner Figur nichts schuldig bleiben wollte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Prüfen, bevor man sich verlässt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Beschreibung Claudio Naranjos trägt die selbsterhaltende Eins den Namen <em>Worry</em> (Besorgnis): ein leises, dauerhaftes Abwägen, ob man der eigenen Vorgabe genügt. Der Maßstab liegt dabei nicht draußen, sondern im eigenen Handwerk. Bei Marais lässt sich das an der Art ablesen, wie er mit dem Körper arbeitete: Schon sein Start war kein Selbstläufer. Das Pariser Konservatorium lehnte ihn ab, er arbeitete als Fotografenlehrling und spielte Statisten- und Kleinstrollen, bis 1937 Jean Cocteau auf ihn aufmerksam wurde.</p>
+          <p class="vb-intro">Auffällig ist der Rahmen, in dem das geschah. Marais wuchs in einer Familie ohne verlässliche Ordnung auf: Der Vater, ein Tierarzt, lebte kaum im Haus, die Mutter war nach den Quellen Kleptomanin und zeitweise inhaftiert. Mit der Eins lässt sich das so verbinden, dass ein Kind, das früh erlebt, wie brüchig Regeln sein können, besonders genau darauf achtet, selbst verlässlich zu sein. Das ist eine Deutung, die die Quellenlage nicht beweist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Die Treue zu Cocteau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Zweierflügel gibt der Eins ein zweites Gesicht: Neben dem prüfenden Blick steht der Wunsch, jemandem zu dienen und zu nützen. Bei Marais ist das die Beziehung zu <strong>Jean Cocteau</strong>, dem Dichter, Zeichner und Regisseur, den er 1937 kennenlernte. Die beiden waren von 1937 bis 1947 ein Paar und blieben danach lebenslang Freunde. Cocteau schrieb Rollen und Stücke für ihn, etwa die Hauptrolle in ›Les Parents terribles‹ (1938; ›Die schrecklichen Eltern‹). Marais selbst sprach nach einer Überlieferung von zwei Geburten: der von 1913 und der Begegnung mit Cocteau 1937.</p>
+          <p class="vb-intro">Nach Cocteaus Tod 1963 schrieb Marais die Erinnerungen ›L'Inconcevable Jean Cocteau‹ (›Der unfassbare Jean Cocteau‹). Und er verzichtete auf sein Erbe aus Cocteaus Nachlass zugunsten von Cocteaus letztem Lebensgefährten Édouard Dermit. Das Geben ohne Gegenrechnung ist die Zwei in ihm: Die Strenge der Eins richtet sich hier nicht auf den anderen, sondern auf die Pflicht, ihm treu zu sein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Der Prinz, das Biest und der Fechter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Marais einzigartig machte, war die Verbindung aus Körper und Mythos. In Cocteaus ›La Belle et la Bête‹ (1946; ›Die Schöne und das Biest‹) spielte er gleich drei Rollen: den Verehrer Avenant, das Biest und den verwandelten Prinzen. Die Maske des Biests brauchte etwa drei Stunden Anlegezeit, und er ernährte sich während der Dreharbeiten überwiegend von Brei und Kompott, weil er mit ihr kaum essen konnte. Unter der Maske bewegte er sich mit einer Würde, die die Figur erst zum Märchenwesen machte. Es folgten ›Orphée‹ (1950; ›Orpheus‹) in Cocteaus Regie, später der größte Kinoerfolg seiner Laufbahn, ›Le Comte de Monte-Cristo‹ (1954; ›Der Graf von Monte Christo‹), und der Fechtfilm ›Le Bossu‹ (1959; ›Der Bucklige‹) mit André Hunebelle und Bourvil.</p>
+          <p class="vb-intro">In der ›Fantômas‹-Trilogie (1964&ndash;1967) spielte er zwei Figuren in einem Film, den Reporter Fandor und den Verbrecher Fantômas. Kritiker waren nicht immer freundlich: Britannica verweist auf seine dünne Stimme und begrenzte Ausdrucksbreite. Sein Ruf beruhte auf anderem, auf Haltung, Beweglichkeit und der Selbstverständlichkeit, mit der er körperliche Wagnisse selbst übernahm. Auf der Bühne war er bis ins hohe Alter zu sehen, und 1941 führte er bei Racines ›Britannicus‹ selbst Regie und gestaltete die Ausstattung.</p>
+          <p class="vb-intro">Neben dem Film arbeitete Marais als Maler, Bildhauer und Töpfer. In Vallauris an der Côte d'Azur widmete er sich der Keramik (die Quellen nennen unterschiedliche Zeitpunkte, zwischen den 1960er und 1980er Jahren). Seine Statue ›Le Passe-muraille‹ (nach Marcel Aymés Erzählung, deutsch ›Der Mann, der durch die Wand ging‹) steht in Montmartre. Er wurde in Vallauris begraben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Gerechtigkeit mit der Faust, Schweigen im Privaten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine Szene zeigt die Eins in ihm unverstellt. Im Juni 1941, im besetzten Paris, stieß Marais auf Alain Laubreaux, den Kritiker der kollaborationistischen Zeitung ›Je suis partout‹ (›Ich bin überall‹), der Cocteaus Stück ›La Machine à écrire‹ (›Die Schreibmaschine‹) verrissen hatte. Nach der Überlieferung folgte Marais ihm aus dem Restaurant auf die Straße, nahm ihm den Stock ab und schlug ihn. Die Quellen nennen leicht abweichende Daten und Einzelheiten. Laubreaux wurde 1947 in Abwesenheit zum Tode verurteilt; François Truffaut griff die Szene später in ›Le Dernier Métro‹ (›Die letzte Metro‹) auf. Zorn, der sich gegen Unrecht richtet, ist das Schicksalsmuster der Eins, hier einmal nicht nach innen gelenkt.</p>
+          <p class="vb-intro">Die Haltung zeigt sich auch im Krieg: 1939 beobachtete er als Soldat vom Kirchturm in Roye aus deutsche Flugzeuge. Nach der Befreiung von Paris meldete er sich im September 1944 zu den Freien Französischen Streitkräften, kämpfte im Elsass und erhielt das Croix de Guerre (›Kriegskreuz‹). Zum Privaten gehört eine Stelle, an der das Bild und die Wirklichkeit auseinanderliefen: 1942 hatte er eine kurze Affäre, aus der sein Sohn Serge Ayala hervorging; Marais erkannte ihn 1963 offiziell an, nannte ihn in seiner Autobiografie aber einen Adoptivsohn. Mit der Eins lässt sich das so in Verbindung bringen, dass es schwerfällt, etwas zu zeigen, was nicht in das gewünschte Bild passt, nicht aus Berechnung, sondern aus Sorge um Anstand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Vom Anspruch zur Gelassenheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Weg der Eins geht vom inneren Richter zur Gelassenheit: von der Frage, ob man genügt, zur Erlaubnis, gut genug zu sein. Bei Marais lässt sich dieser Weg an dem ablesen, was später kam. Die Arbeit in Ton und Stein neben der Leinwand lässt sich als Tätigkeit lesen, die nicht auf Beifall angewiesen ist, und der Verzicht auf Cocteaus Erbe zeigt den Zweierflügel in einer Form, die nichts mehr beweisen muss.</p>
+          <p class="vb-intro">Er erhielt 1993 einen Ehren-César und 1996 eine Auszeichnung der Ehrenlegion. Dass er bis ins hohe Alter Theater spielte, passt zu einem Menschen, für den Disziplin keine Last, sondern Heimat war.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
+        {route:"beruehmte-pierce-brosnan", label:"Porträt: Pierce Brosnan (SE1w2)"},
+        {route:"beruehmte-alain-delon", label:"Porträt: Alain Delon (SE1w2)"},
+        {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
+      ])}
+    </div>
+  `);
+}

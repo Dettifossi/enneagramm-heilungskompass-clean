@@ -2989,3 +2989,70 @@ export function johannesBKernerPortraitPage() {
     </div>
   `);
 }
+
+export function jeanMaraisPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jean-marais-portrait.jpg" alt="Jean Marais – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jean Marais</p>
+        <p class="krim-portrait-typ">SP1w2 &middot; Self-Preservation Type 1 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Actor, sculptor &amp; potter, 1913&ndash;1998 &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eagle</strong> makes one think of height, and it is indeed the animal that earns its place on the rock ledge: it tests the wind, weighs the jump and relies on nothing it has not checked itself. That suits the self-preservation One, who looks for safety in his own reliability.</p>
+          <p class="vb-intro">Jean Marais was born in Cherbourg in 1913 and died in Cannes in 1998. In France he became the very image of the screen hero, and the remarkable thing is that the height at which his characters moved was often real. He performed most of the stunts in his swashbuckling films himself. In 1957 he performed without a harness at the top of an eighteen-metre pole. While shooting &lsquo;Le Capitan&rsquo; (1960) he climbed the walls of a castle and injured his eye in a fencing scene. A man who did not want to owe his character anything.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation One: Checking Before Relying</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In Claudio Naranjo&rsquo;s description the self-preservation One bears the name <em>Worry</em>: a quiet, constant weighing of whether one meets one&rsquo;s own standard. The standard lies not outside but in one&rsquo;s own craft. In Marais this can be read in the way he worked with his body: even his start was no walkover. The Paris Conservatoire turned him down, he worked as a photographer&rsquo;s apprentice and played extras and bit parts until Jean Cocteau noticed him in 1937.</p>
+          <p class="vb-intro">The setting in which this happened is striking. Marais grew up in a family without reliable order: his father, a veterinarian, was hardly present, and according to the sources his mother was a kleptomaniac who was imprisoned for periods. With the One this can be connected in the sense that a child who experiences early how fragile rules can be pays particular attention to being reliable himself. This is an interpretation that the sources do not prove.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Loyalty to Cocteau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Two-wing gives the One a second face: next to the examining gaze stands the wish to serve and to be of use. In Marais this is the relationship with <strong>Jean Cocteau</strong>, the poet, draughtsman and director whom he met in 1937. The two were a couple from 1937 to 1947 and remained lifelong friends afterwards. Cocteau wrote roles and plays for him, for instance the lead in &lsquo;Les Parents terribles&rsquo; (1938; &lsquo;The Terrible Parents&rsquo;). According to one account Marais himself spoke of two births: the one of 1913 and the meeting with Cocteau in 1937.</p>
+          <p class="vb-intro">After Cocteau&rsquo;s death in 1963 Marais wrote the memoir &lsquo;L&rsquo;Inconcevable Jean Cocteau&rsquo; (&lsquo;The Inconceivable Jean Cocteau&rsquo;). And he renounced his inheritance from Cocteau&rsquo;s estate in favour of Cocteau&rsquo;s last partner, Édouard Dermit. Giving without counting is the Two in him: the strictness of the One is here directed not at the other, but at the duty to remain loyal to him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: The Prince, the Beast and the Fencer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What made Marais unique was the union of body and myth. In Cocteau&rsquo;s &lsquo;La Belle et la Bête&rsquo; (1946; &lsquo;Beauty and the Beast&rsquo;) he played three roles at once: the suitor Avenant, the Beast and the transformed prince. The Beast&rsquo;s mask took about three hours to apply, and during the shoot he lived mostly on mash and compote because he could barely eat with it. Under the mask he moved with a dignity that made the figure a fairy-tale being in the first place. There followed &lsquo;Orphée&rsquo; (1950; &lsquo;Orpheus&rsquo;) under Cocteau&rsquo;s direction, later the greatest box-office success of his career, &lsquo;Le Comte de Monte-Cristo&rsquo; (1954; &lsquo;The Count of Monte Cristo&rsquo;), and the swashbuckler &lsquo;Le Bossu&rsquo; (1959; &lsquo;The Hunchback&rsquo;) with André Hunebelle and Bourvil.</p>
+          <p class="vb-intro">In the &lsquo;Fantômas&rsquo; trilogy (1964&ndash;1967) he played two characters in one film, the reporter Fandor and the criminal Fantômas. Critics were not always kind: Britannica points to his thin voice and limited range. His reputation rested on something else, on bearing, agility and the matter-of-factness with which he took on physical risks himself. On the stage he could be seen into old age, and in 1941 he directed Racine&rsquo;s &lsquo;Britannicus&rsquo; himself and designed the staging.</p>
+          <p class="vb-intro">Besides film, Marais worked as a painter, sculptor and potter. In Vallauris on the Côte d&rsquo;Azur he devoted himself to ceramics (the sources give different dates, between the 1960s and the 1980s). His statue &lsquo;Le Passe-muraille&rsquo; (after Marcel Aymé&rsquo;s story, &lsquo;The Man Who Walked Through Walls&rsquo;) stands in Montmartre. He was buried in Vallauris.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Justice with the Fist, Silence in Private</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">One scene shows the One in him unveiled. In June 1941, in occupied Paris, Marais ran into Alain Laubreaux, critic of the collaborationist newspaper &lsquo;Je suis partout&rsquo; (&lsquo;I Am Everywhere&rsquo;), who had panned Cocteau&rsquo;s play &lsquo;La Machine à écrire&rsquo; (&lsquo;The Typewriter&rsquo;). According to the account, Marais followed him from the restaurant into the street, took his cane and beat him. The sources give slightly differing dates and details. Laubreaux was sentenced to death in absentia in 1947; François Truffaut later took up the scene in &lsquo;Le Dernier Métro&rsquo; (&lsquo;The Last Metro&rsquo;). Anger directed at injustice is the fate pattern of the One, here for once not turned inward.</p>
+          <p class="vb-intro">The attitude also shows in the war: in 1939 as a soldier he watched for German aircraft from the church tower in Roye. After the liberation of Paris he joined the Free French Forces in September 1944, fought in Alsace and received the Croix de Guerre. A place where image and reality diverged belongs to the private side: in 1942 he had a brief affair from which his son Serge Ayala came; Marais formally recognised him in 1963 but called him an adopted son in his autobiography. With the One this can be connected in the sense that it is hard to show something that does not fit the desired image, not out of calculation but out of concern for propriety.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. From Demand to Equanimity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The path of the One leads from the inner judge to equanimity: from the question of whether one suffices to the permission to be good enough. In Marais this path can be read in what came later. The work in clay and stone beside the screen can be read as an activity that does not depend on applause, and the renunciation of Cocteau&rsquo;s inheritance shows the Two-wing in a form that no longer has anything to prove.</p>
+          <p class="vb-intro">In 1993 he received an honorary César and in 1996 a distinction of the Legion of Honour. That he acted on the stage into old age fits a person for whom discipline was not a burden but a home.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
+        {route:"beruehmte-pierce-brosnan", label:"Portrait: Pierce Brosnan (SP1w2)"},
+        {route:"beruehmte-alain-delon", label:"Portrait: Alain Delon (SP1w2)"},
+        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
+      ])}
+    </div>
+  `);
+}
