@@ -45760,7 +45760,13 @@ function _toggleFav(r, label) {
   _setFavs(a);
 }
 
-// Seite teilen (Web Share API, Fallback: Link kopieren)
+// Seite teilen (Web Share API, Fallback: Text kopieren). Das Emblem wird vorab geladen, damit das Teilen sofort nach dem Tipp startet.
+let _shareFile = null;
+setTimeout(function() {
+  fetch("/share-image.png").then(function(r) { return r.blob(); }).then(function(bl) {
+    _shareFile = new File([bl], "enneagramm-heilungskompass.png", { type: "image/png" });
+  }).catch(function() {});
+}, 2500);
 document.addEventListener("click", function(ev) {
   const b = ev.target.closest && ev.target.closest("#share-page-btn");
   if (!b) return;
@@ -45770,7 +45776,11 @@ document.addEventListener("click", function(ev) {
   if (!lbl) lbl = (document.querySelector("h1") || {}).textContent || document.title;
   const msg = "Take a look in the Enneagram Healing Compass: an interesting article.\n\n\u2018" + lbl + "\u2019\n\nJust search for the title in the app.";
   if (navigator.share) {
-    navigator.share({ text: msg }).catch(function() {});
+    if (_shareFile && navigator.canShare && navigator.canShare({ files: [_shareFile] })) {
+      navigator.share({ files: [_shareFile], text: msg }).catch(function(e) { if (e && e.name !== "AbortError") navigator.share({ text: msg }).catch(function() {}); });
+    } else {
+      navigator.share({ text: msg }).catch(function() {});
+    }
   } else if (navigator.clipboard) {
     navigator.clipboard.writeText(msg).then(function() { b.title = "Text copied"; });
   }
