@@ -2756,6 +2756,7 @@ export function johnTravoltaPortraitPage() {
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
+        {route:"beruehmte-klaus-maria-brandauer", label:"Portrait: Klaus Maria Brandauer (SX7w8)"},
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
         {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},

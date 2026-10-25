@@ -2913,3 +2913,73 @@ export function martinaGedeckPortraitPage() {
     </div>
   `);
 }
+
+export function klausMariaBrandauerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-klaus-maria-brandauer-portrait.jpg" alt="Klaus Maria Brandauer – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Klaus Maria Brandauer</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexual Type 7 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">Austrian actor and director, born 1943 in Bad Aussee &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chimpanzee: one who throws himself into every role</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Chimpanzee</strong> learns by joining in: it tries, imitates, throws itself into the scene and sweeps the others along. Klaus Maria Brandauer was born Klaus Georg Steng on 22 June 1943 in Bad Aussee in Styria, the son of a German customs officer and an Austrian woman whose maiden name he later chose as his stage name. He spent his first years with his grandparents in Altaussee, then lived with his parents near Basel, among other places, in Grenzach-Wyhlen, a place which by his own account had a decisive influence on his development as an actor. So he grew up between Austria and Germany on the Swiss border.</p>
+          <p class="vb-intro">After his Abitur in 1962 he began studying at the Stuttgart University of Music and Performing Arts but dropped out after two semesters. In 1963 he first stood on the stage at the Landestheater Tübingen. It was no orderly path of training but a direct leap into playing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Seven: an intensity that devours</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the sexual Seven the subtype of <em>Suggestibility</em>: it falls completely for a person, an idea or a role and then affects others with this devotion. In this app&rsquo;s Life Pattern Compass the corresponding pattern is the complete fusion with a moment.</p>
+          <p class="vb-intro">In Brandauer this shows in the way he plays characters. He is one of the actors who do not stand beside the role but disappear into it and drive it to the extreme. In 1972 he became an ensemble member at the Vienna Burgtheater and in the 1970s one of the most popular German-language stage actors, above all in Shakespeare productions under Otto Schenk. In 1973 he made his directing debut with &lsquo;As You Like It&rsquo;. Later came &lsquo;Hamlet&rsquo; at the Burgtheater (1985) and &lsquo;Jedermann&rsquo; at the Salzburg Festival (1983&ndash;1989), as well as &lsquo;Wallenstein&rsquo; under Peter Stein (2007) and his direction of &lsquo;The Threepenny Opera&rsquo; in Berlin (2006).</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-wing: power, force and contradiction</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Seven strength, directness and a tendency to confrontation. Instead of merely seducing, it takes up space. In Brandauer this shows in his great roles: as Hendrik Höfgen in &lsquo;Mephisto&rsquo; (1981, István Szabó), the film version of Klaus Mann&rsquo;s novel about an actor who ingratiates himself with the regime, he played the fascination of power and adaptation. The film received the Oscar for best foreign language film. In &lsquo;Never Say Never Again&rsquo; (1983) he was the Bond villain Maximilian Largo, and in &lsquo;Out of Africa&rsquo; (1985) he played Bror Blixen, for which he received an Oscar nomination as best supporting actor and a Golden Globe.</p>
+          <p class="vb-intro">That he polarizes is part of his image. A critic of the FAZ wrote in 2006: &lsquo;Man mag ihn ganz, oder man mag ihn gar nicht&rsquo; (&lsquo;One either likes him completely or not at all&rsquo;). The force with which he appears can be connected with the Eight-wing, without deriving more from it than the roles and the criticism show.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: from Szabó&rsquo;s trilogy to Coppola</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With István Szabó Brandauer made, besides &lsquo;Mephisto&rsquo;, also &lsquo;Colonel Redl&rsquo; and &lsquo;Hanussen&rsquo;, films about people who lose themselves between adaptation, deception and power. Later he worked in &lsquo;The Russia House&rsquo; (1990) and in &lsquo;Tetro&rsquo; (2009, Francis Ford Coppola) and met Szabó once more for &lsquo;Abschlussbericht&rsquo; (2020). In 2014 he received the German Actors&rsquo; Award for &lsquo;Die Auslöschung&rsquo; (&lsquo;Erasure&rsquo;), earlier among others a Bambi, a Romy and a Nestroy for his life&rsquo;s work.</p>
+          <p class="vb-intro">Besides stage and screen he narrated radio plays and directed. In 2003 he was among the founders of the German Film Academy, and he teaches at the Max Reinhardt Seminar in Vienna. He chairs the association &lsquo;Poesie im Ausseerland&rsquo;. This shows a side of the Seven that is often overlooked: whoever throws himself so completely into things also wants to pass them on.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. A parallel in the same subtype and wing: Christian Kohlund</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The sexual Seven with Eight-wing is also shown by the actor <a href="#beruehmte-christian-kohlund">Christian Kohlund (SX7w8)</a>. The singer and actor <a href="#beruehmte-adriano-celentano">Adriano Celentano (SX7w8)</a> stands for the same contagious force on a different stage. In all three the delight in the appearance can be connected with the pattern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of this constellation is the great devotion to the role that grips an audience, and the ability to inspire others for it. The shadow of the Seven lies in what it avoids: standing still, the ordinary, the emptiness between roles. The Eight-wing can let this restlessness tip into hardness. The sources say little about his inner life, and here it is better not to speculate.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The path of healing: from play to calm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The path of the Seven leads from the enjoyment of possibilities to contentment, from the next stimulus to the ability to remain in the present. That Brandauer teaches, campaigns for poetry and has for decades deepened the same art instead of changing it can be read as a sign of this maturing, without asserting more than the public information supports.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"beruehmte-christian-kohlund", label:"Portrait: Christian Kohlund (SX7w8)"},
+        {route:"beruehmte-adriano-celentano", label:"Portrait: Adriano Celentano (SX7w8)"},
+        {route:"beruehmte-john-travolta", label:"Portrait: John Travolta (SX7w8)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}

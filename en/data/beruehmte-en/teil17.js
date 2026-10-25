@@ -2400,6 +2400,7 @@ export function adrianoCelentanoPortraitPage() {
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
+        {route:"beruehmte-klaus-maria-brandauer", label:"Portrait: Klaus Maria Brandauer (SX7w8)"},
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: subtype profile"},
         {route:"beruehmte-franz-liszt", label:"Portrait: Franz Liszt (SX7w8)"},

@@ -2860,3 +2860,73 @@ export function thylaneBlondeauPortraitPage() {
     </div>
   `);
 }
+
+export function klausMariaBrandauerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-klaus-maria-brandauer-portrait.jpg" alt="Klaus Maria Brandauer – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Klaus Maria Brandauer</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexueller Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Österreichischer Schauspieler und Regisseur, geb. 1943 in Bad Aussee &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse: einer, der sich in jede Rolle wirft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> lernt, indem er mitmacht: Er probiert, ahmt nach, wirft sich in die Szene und reißt die anderen mit. Klaus Maria Brandauer wurde am 22. Juni 1943 als Klaus Georg Steng in Bad Aussee in der Steiermark geboren, als Sohn eines deutschen Zollbeamten und einer Österreicherin, deren Mädchennamen er später als Künstlernamen wählte. Die ersten Jahre verbrachte er bei den Großeltern in Altaussee, danach lebte er mit den Eltern unter anderem nahe Basel, in Grenzach-Wyhlen, einem Ort, der nach seinen Angaben maßgeblichen Einfluss auf seine Entwicklung als Schauspieler hatte. Er wuchs also zwischen Österreich und Deutschland an der Schweizer Grenze auf.</p>
+          <p class="vb-intro">Nach dem Abitur 1962 begann er ein Studium an der Stuttgarter Hochschule für Musik und Darstellende Kunst, brach es aber nach zwei Semestern ab. 1963 stand er am Landestheater Tübingen erstmals auf der Bühne. Ein geordneter Ausbildungsweg war das nicht, sondern der direkte Sprung ins Spiel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Intensität, die verschlingt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte die sexuelle Sieben den Subtyp der <em>Suggestibility</em> (Suggestibilität): Sie verfällt einem Menschen, einer Idee oder einer Rolle ganz und wirkt dann mit dieser Hingabe auf andere. Im Lebensmusterkompass dieser App steht dafür die Vollständige Verschmelzung mit einem Moment.</p>
+          <p class="vb-intro">Bei Brandauer zeigt sich das in der Art, wie er Figuren spielt. Er gehört zu den Schauspielern, die nicht neben der Rolle stehen, sondern in ihr verschwinden und sie dabei ins Äußerste treiben. 1972 wurde er Ensemblemitglied am Wiener Burgtheater und in den 1970er Jahren zu einem der populärsten deutschsprachigen Bühnenschauspieler, vor allem in Shakespeare-Inszenierungen unter Otto Schenk. 1973 gab er sein Regiedebüt mit ›Wie es euch gefällt‹. Später folgten ›Hamlet‹ am Burgtheater (1985) und der ›Jedermann‹ bei den Salzburger Festspielen (1983&ndash;1989), dazu ›Wallenstein‹ unter Peter Stein (2007) und seine Regie der ›Dreigroschenoper‹ in Berlin (2006).</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Macht, Wucht und Widerspruch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der Sieben Kraft, Direktheit und den Hang zur Konfrontation. Statt nur zu verführen, nimmt sie Raum ein. Bei Brandauer zeigt sich das in seinen großen Rollen: Als Hendrik Höfgen in ›Mephisto‹ (1981, István Szabó), der Verfilmung von Klaus Manns Roman über einen Schauspieler, der sich dem Regime andient, spielte er die Faszination von Macht und Anpassung. Der Film erhielt den Oscar für den besten fremdsprachigen Film. In ›Never Say Never Again‹ (1983; ›Sag niemals nie‹) war er der Bond-Gegenspieler Maximilian Largo, und in ›Out of Africa‹ (1985) gab er Bror Blixen, wofür er eine Oscar-Nominierung als bester Nebendarsteller und einen Golden Globe erhielt.</p>
+          <p class="vb-intro">Dass er polarisiert, gehört zu seinem Bild. Ein Kritiker der FAZ schrieb 2006: ›Man mag ihn ganz, oder man mag ihn gar nicht.‹ Die Wucht, mit der er auftritt, lässt sich mit dem Achterflügel in Verbindung bringen, ohne dass sich daraus mehr ableiten ließe, als die Rollen und die Kritik zeigen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Von Szabós Trilogie bis Coppola</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit István Szabó drehte Brandauer neben ›Mephisto‹ auch ›Oberst Redl‹ und ›Hanussen‹, Filme über Menschen, die sich zwischen Anpassung, Täuschung und Macht verlieren. Später arbeitete er in ›The Russia House‹ (1990; ›Das Russland-Haus‹) und in ›Tetro‹ (2009, Francis Ford Coppola) und kam mit ›Abschlussbericht‹ (2020) noch einmal mit Szabó zusammen. 2014 erhielt er den Deutschen Schauspielerpreis für ›Die Auslöschung‹, zuvor unter anderem einen Bambi, einen Romy und einen Nestroy für sein Lebenswerk.</p>
+          <p class="vb-intro">Neben der Bühne und der Leinwand sprach er Hörspiele und führte Regie. 2003 gehörte er zu den Gründern der Deutschen Filmakademie, und er lehrt am Max Reinhardt Seminar in Wien. Er steht dem Verein ›Poesie im Ausseerland‹ vor. Das zeigt eine Seite der Sieben, die oft übersehen wird: Wer sich so vollständig in Dinge wirft, will sie auch weitergeben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp und Flügel: Christian Kohlund</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die sexuelle Sieben mit Achterflügel zeigt auch der Schauspieler <a href="#beruehmte-christian-kohlund">Christian Kohlund (SX7w8)</a>, ebenfalls ein Schauspieler. Der Sänger und Schauspieler <a href="#beruehmte-adriano-celentano">Adriano Celentano (SX7w8)</a> steht für dieselbe ansteckende Wucht auf einer anderen Bühne. Bei allen dreien lässt sich die Lust am Auftritt mit dem Muster in Verbindung bringen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht dieser Konstellation ist die große Hingabe an die Rolle, die ein Publikum erfasst, und die Fähigkeit, andere dafür zu begeistern. Der Schatten der Sieben liegt in dem, was sie meidet: das Stillhalten, das Gewöhnliche, die Leere zwischen den Rollen. Der Achterflügel kann diese Unruhe in Härte kippen lassen. Über sein Inneres sagen die Quellen wenig, und hier ist es besser, nicht zu spekulieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Der Heilungsweg: vom Spiel zur Ruhe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Weg der Sieben führt vom Genuss der Möglichkeiten zur Genügsamkeit, vom nächsten Reiz zur Fähigkeit, im Gegenwärtigen zu bleiben. Dass Brandauer lehrt, sich für die Dichtung einsetzt und seit Jahrzehnten dieselbe Kunst vertieft, statt sie zu wechseln, lässt sich als Zeichen dieser Reifung lesen, ohne mehr zu behaupten, als die öffentlichen Angaben tragen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"beruehmte-christian-kohlund", label:"Porträt: Christian Kohlund (SX7w8)"},
+        {route:"beruehmte-adriano-celentano", label:"Porträt: Adriano Celentano (SX7w8)"},
+        {route:"beruehmte-john-travolta", label:"Porträt: John Travolta (SX7w8)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
