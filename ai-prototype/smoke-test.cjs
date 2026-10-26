@@ -225,6 +225,8 @@ const ROUTES = [
   { hash: "en/#claudio-naranjo-lehrer", label: "Neu EN: Claudio Naranjo Lehrer" },
   { hash: "#david-rathmer-gespraech", label: "David Rathmer Gespräch" },
   { hash: "en/#david-rathmer-gespraech", label: "EN David Rathmer conversation" },
+  { hash: "#beruehmte-john-neumeier", label: "Neues Porträt: John Neumeier" },
+  { hash: "en/#beruehmte-john-neumeier", label: "Neues EN-Porträt: John Neumeier" },
   { hash: "#beruehmte-paul-simon", label: "Neues Porträt: Paul Simon" },
   { hash: "en/#beruehmte-paul-simon", label: "Neues EN-Porträt: Paul Simon" },
   { hash: "#beruehmte-art-garfunkel", label: "Neues Porträt: Art Garfunkel" },

@@ -3076,3 +3076,74 @@ export function svenPlattePortraitPage() {
     </div>
   `);
 }
+
+export function johnNeumeierPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-john-neumeier-portrait.jpg" alt="John Neumeier – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">John Neumeier</p>
+        <p class="krim-portrait-typ">SP4w5 &middot; Self-Preservation Type 4 with Five-wing &middot; Countertype of the Four</p>
+        <p class="krim-portrait-subtitle">Choreographer and ballet director, born 1939 in Milwaukee &ndash; Hamburg Ballet 1973&ndash;2024 &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Dove: a child who wanted to become only one thing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Dove</strong> is an animal of return: it finds its way home over great distances and carries what it carries without noise. John Neumeier was born on 24 February 1939 in Milwaukee, Wisconsin. Of his path he said: &lsquo;As long as I can remember, I wanted to become a dancer.&rsquo; According to reports his mother took him to the cinema early, and a musical film awoke in the small boy the wish to imitate the dances. His parents at first did not understand the wish. According to the German Wikipedia a Nijinsky biography from the public library awoke his interest in ballet, and his first ballet lessons were with Sheila Reilly in Milwaukee.</p>
+          <p class="vb-intro">He studied English literature and theatre studies at Marquette University (bachelor&rsquo;s 1961), took lessons in Chicago and then went to Copenhagen and the Royal Ballet School in London, among others to Vera Volkova. Remarkable is the thoroughness: the way to dance led through books, language and craft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Four: quiet carrying, not display</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In Naranjo this subtype is called <em>Tenacity</em>: the self-preservation Four carries her deep feeling without displaying it and stays tough and loyal. It is called the countertype of the Four because it shows little outwardly of what one expects of a Four (drama, self-staging). It often seems serious, controlled and disciplined, and the depth gathers in the work.</p>
+          <p class="vb-intro">In Neumeier this fits on two levels. First in his manner: he gives very rare interviews because, according to a portrait in &lsquo;Der Hamburger&rsquo;, it is not about his person, and he once called himself a &lsquo;controlled romantic&rsquo;. Second in endurance: from 1973 to 2024 he led the Hamburg Ballet, more than fifty years in one place, with the same standard and the same themes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: scholar and collector of dance history</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> lends the Four distance, a love of study and the tendency to gather and order knowledge. Neumeier&rsquo;s ballets are often based on literature: Shakespeare (&lsquo;Romeo and Juliet&rsquo;, &lsquo;A Midsummer Night&rsquo;s Dream&rsquo;), Dumas (&lsquo;The Lady of the Camellias&rsquo;, 1978), Tennessee Williams (&lsquo;A Streetcar Named Desire&rsquo;, 1983), Chekhov (&lsquo;The Seagull&rsquo;, 2002) and Ferenc Molnár (&lsquo;Liliom&rsquo;, 2011). Then there is music: Mahler&rsquo;s &lsquo;Third Symphony&rsquo; (1975), the &lsquo;St Matthew Passion&rsquo; (1981) and later many further scores.</p>
+          <p class="vb-intro">According to the German Wikipedia the John Neumeier Foundation (2006) secures his dance collection and life&rsquo;s work for Hamburg. That he preserves studies, books and keepsakes belongs to the nature of this wing. With the Five-wing the reserve with which he speaks about himself can also be connected.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: Nijinsky, Mahler and the depth of feeling</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What made Neumeier special was the union of narrative ballet and psychological exactness. He created more than 170 works, many of them full-length, and returned again and again to two figures: the dancer Vaslav Nijinsky, who had once awakened his interest in dance (&lsquo;Nijinsky&rsquo;, 2000), and the composer Gustav Mahler. Both stand for what the Four knows: artists at the edge of their own strength, longing, loss, art as expression of the unsayable.</p>
+          <p class="vb-intro">His principle reads: &lsquo;A choreographer works with the most important and most precious material there is: the human being.&rsquo; And about his creativity he said: &lsquo;I think it is because I actually do it out of love.&rsquo; It fits that he understands every piece with every new cast as new, because other people carry it differently.</p>
+          <p class="vb-intro">In 1978 he founded the school of the Hamburg Ballet, and according to Wikipedia he has been since 2011 also general director and artistic supervisor of the German National Youth Ballet. His farewell in 2024 with the ballet &lsquo;Epilog&rsquo; at the Hamburg Ballet Days followed the sentence: &lsquo;One has to let go at some point.&rsquo; The direction passed to Demis Volpi.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Paul Simon and Paul McCartney</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A similarly quietly carried depth is shown by <a href="#beruehmte-paul-simon">Paul Simon (SP4w5)</a>, whose songs do not display sadness but give it form. <a href="#beruehmte-paul-mccartney">Paul McCartney (SP4w5)</a> and <a href="#beruehmte-don-mclean">Don McLean (SP4w5)</a> also belong to this subtype with Five-wing. Neumeier shares with them the constancy over decades and the working out of an inner seriousness.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Private life and honours</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Neumeier holds American and German citizenship. According to Wikipedia he married the cardiac surgeon Hermann Reichenspurner in 2018 after 14 years together; the two live in Hamburg. His honours include the German Dance Prize (1988 and 2008), the Herbert von Karajan Music Prize and honorary citizenship of Hamburg (2007), the Grand Cross of Merit (2011), the Kyoto Prize (2015), the Life Achievement Award of the Prix de Lausanne (2017), the Pour le Mérite (2023) and the Order of the Rising Sun (2024).</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Shadow and path of healing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The shadow of the self-preservation Four lies in the tendency to take everything inward and to say only in the work what moves her. Neumeier himself reveals little about this, and that is where this portrait leaves it. The path of the Four leads from longing for what is missing to gratitude for what is there. When he says he &lsquo;always has the feeling of standing at the beginning&rsquo;, this can be read as a hint of how he has kept his wonder.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-paul-simon", label:"Portrait: Paul Simon (SP4w5)"},
+        {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SP4w5)"},
+        {route:"beruehmte-don-mclean", label:"Portrait: Don McLean (SP4w5)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}
