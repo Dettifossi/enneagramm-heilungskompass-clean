@@ -4911,3 +4911,126 @@ export function metteMaritKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function wolfgangNiedeckenKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-wolfgang-niedecken-portrait.jpg" alt="Wolfgang Niedecken" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wolfgang Niedecken</p>
+        <p class="krim-portrait-typ">SO1w2 · Sozialer Typ 1 mit Zweierflügel · geb. 1951</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gans</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so1.jpg" alt="Tierentsprechung: Gans" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO1")};left:${tierAvatarLeft("SO1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Wolfgang Niedecken</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-wolfgang-niedecken">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort nur kurz vorkommt: der
+        Schlaganfall vom 2. November 2011 und der Weg zurück auf die Bühne. Es stützt sich auf
+        seine eigenen Schilderungen in Interviews und in seinem Buch ›Zugabe‹; eine ärztliche
+        Dokumentation liegt nicht vor.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Niedecken</strong> ist der <strong>sozialen Eins mit Zweierflügel</strong>
+        zugeordnet. Die SO1 misst sich und die Gemeinschaft an einem hohen Maßstab; Claudio Naranjo
+        nannte den Subtyp die Unangepasstheit. Der Zweierflügel bringt Wärme und die Bereitschaft
+        hinzu, anderen konkret zu helfen. Genau diese Verbindung aus Verantwortung und
+        Zuwendung prägt auch Niedeckens Umgang mit dem Schlaganfall.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Mittags, mit einem Buch in der Hand:</strong>
+        Am 2. November 2011 las Niedecken zu Hause den Roman ›Licht im August‹ von William Faulkner, als er nach seinem Bericht merkte, dass er nichts mehr verstand und verschwommen sah. Seine Frau Tina rief den Notarzt.</p>
+        <p class="vb-intro"><strong>b) Ein Auslöser, wie er ihn selbst schilderte:</strong>
+        Dem ›Spiegel‹ sagte er knapp vier Wochen später, durch Husten habe sich ein Blutgerinnsel gebildet, das in Richtung Gehirn gewandert sei. Er wurde ins Krankenhaus gebracht und nach seinen Angaben mehrere Stunden lang operiert.</p>
+        <p class="vb-intro"><strong>c) Ein Jahr, das sich überfüllt hatte:</strong>
+        Niedecken räumte im selben Gespräch ein, sich 2011 übernommen zu haben: sein 60. Geburtstag, ein neues BAP-Album, seine erste Autobiografie ›Für ’ne Moment‹ (›Für einen Moment‹), Lesungen und Konzerte lagen im selben Zeitraum.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Massive Sprachstörungen:</strong>
+        Nach der Operation hatte Niedecken nach dem Bericht massive Sprachstörungen; in einem späteren Interview beschrieb er, dass er zunächst weder sprechen noch Gitarre spielen konnte. Für einen Sänger und Texter betrifft das den Kern der eigenen Arbeit.</p>
+        <p class="vb-intro"><strong>b) Die Gitarre am Krankenbett:</strong>
+        Tina brachte ihm schon früh eine Gitarre ans Bett. Das Plektrum fiel ihm immer wieder aus der Hand, doch er war nach seiner Aussage sicher, wieder der Alte zu werden.</p>
+        <p class="vb-intro"><strong>c) Der Schreck beim Anblick der Apparate:</strong>
+        Zu den Geräten und Kabeln um sich herum dachte er nach dem Bericht nur: ›Du leeven Jott‹ (kölsch: ›Du lieber Gott‹).</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Dankbarkeit als erste Reaktion:</strong>
+        Nach der Operation war er nach eigenen Worten zuerst nur glücklich, noch zu leben (›Ich war erst mal nur glücklich, dass ich noch lebte‹).</p>
+        <p class="vb-intro"><strong>b) Tod und Liebe zugleich:</strong>
+        In seinem Buch beschreibt er, dass er am Bett seine Frau und die Töchter sah und wusste, ›dass es beides gab, den Tod und die Liebe‹ (so zitiert die Berichterstattung zum Buch).</p>
+        <p class="vb-intro"><strong>c) Offenheit statt Schweigen:</strong>
+        Etwa einen Monat nach dem Schlaganfall gab er ein einziges ausführliches Gespräch, später sprach er in Talkshows über sein ›Glück im Unglück‹. Er schrieb, er habe nicht vorgehabt, zu verschweigen, was ihm zugestoßen war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Eine Tour, die verschoben wurde:</strong>
+        Die für November 2011 geplanten BAP-Konzerte fielen aus und wurden auf das Frühjahr 2012 verlegt; das erste Konzert der nachgeholten Tour fand am 3. Mai 2012 statt.</p>
+        <p class="vb-intro"><strong>b) Ein Leben in ein Davor und ein Danach geteilt:</strong>
+        Nach der Verlagsmeldung zu seinem Buch teilte der Schlaganfall sein Leben ›in ein Davor und ein Danach‹.</p>
+        <p class="vb-intro"><strong>c) Zugabe als Lebensgefühl:</strong>
+        Im September 2013 erschien seine zweite Autobiografie ›Zugabe – Die Geschichte einer Rückkehr‹, zwei Tage vor dem Solo-Album ›Zosamme alt‹ (›Zusammen alt‹). Der Titel beschreibt, wie er jedes Konzert seither erlebt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Kein Zusammenbruch der Haltung:</strong>
+        Auch nach dem Schlaganfall blieb Niedecken öffentlich positioniert, mit Konzerten, Büchern und Engagement. Das Muster, sich für eine Sache und für andere in die Pflicht zu nehmen, setzte sich fort, nur mit mehr Bewusstsein für die Grenze.</p>
+        <p class="vb-intro"><strong>b) Mehr Geduld:</strong>
+        Nach seinem eigenen Bericht hat ihn der Schlaganfall geduldiger gemacht; er nennt ihn eine ›Gelbe Karte‹, also eine Warnung, noch kein Platzverweis.</p>
+        <p class="vb-intro"><strong>c) Ein genauerer Blick:</strong>
+        Nach der Verlagsankündigung zum Buch geht es darin um Aufrappeln, Durchhaltewillen, erhaltene Hilfe, Dankbarkeit und einen genaueren Blick auf die Welt.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Jahr der vielen Verpflichtungen:</strong>
+        Die soziale Eins misst sich an einem hohen Maßstab für die Gemeinschaft, und der Zweierflügel macht es schwer, Nein zu sagen. Dass Niedecken 2011 Geburtstag, Album, Autobiografie, Lesungen und Konzerte zugleich trug, lässt sich mit diesem Muster in Verbindung bringen: Wer anderen etwas schuldet, nimmt sich selbst zurück.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im selben Subtyp:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-niki-lauda">Niki Lauda</a> (SO1w2) saß nach dem Unfall von 1976 nach sechs Wochen wieder im Cockpit, obwohl sein Körper noch nicht erholt war. Beide zeigen, wie die soziale Eins nach einer Beinahe-Katastrophe zuerst in die Aufgabe zurückkehrt. Der Unterschied: Niedecken beschreibt den Schlaganfall im Nachhinein als Warnung und hat sein Tempo nach eigener Aussage angepasst. Mehr dazu im <a href="javascript:void(0)" data-route="krankheitsportraets-niki-lauda">Krankheitsporträt zu Niki Lauda</a>.</p>
+        <p class="vb-intro"><strong>c) Die Lähmung der Sprache, das Werkzeug der Haltung:</strong>
+        Für einen Mann, der seit 1976 im Kölner Dialekt singt und sich öffentlich positioniert, traf der Schlaganfall mit der Sprache das Werkzeug seiner Haltung. Dass er am Krankenbett nach der Gitarre verlangte, passt zu einer Eins, die Aufgaben nicht abgibt.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet ein Schlaganfall?</strong>
+        Für eine soziale Eins, die ständig innere Spannung unter Kontrolle hält und sich selbst streng misst, liegt eine Deutung nahe: Ein Ereignis, das plötzlich und ohne Vorwarnung alle Selbstkontrolle außer Kraft setzt, trifft genau die Stelle, an der sonst alles gesteuert wird. Das ist eine mögliche Deutung, kein belegter Kausalzusammenhang; als Auslöser nennt Niedecken selbst ein Blutgerinnsel. Ausführlicher steht sie im <a href="javascript:void(0)" data-route="psychosomatik/schlaganfall">Psychosomatik-Register zum Schlaganfall</a>.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass die soziale Eins mit Zweierflügel zwangsläufig einen Schlaganfall bekommt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Niedeckens Fall zeigt ein Muster, das bei Menschen auffällt, die sich über lange Zeit für andere verausgaben, und ist eine von mehreren möglichen Erklärungen, kein Urteil.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Die meisten Menschen kennen ihr Enneagramm-Muster nicht, und auch von Niedecken ist nicht überliefert, dass er es als Landkarte nutzte. Das Verantwortungsgefühl der sozialen Eins, verbunden mit der Schwierigkeit, Nein zu sagen, lässt sich mit der Überlastung von 2011 in Verbindung bringen, die er im Rückblick selbst benennt. Wer das eigene Muster nicht kennt, erkennt die Warnzeichen oft erst, wenn der Körper sie laut macht.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        In <strong>Niedeckens</strong> Geschichte zeigt sich die soziale Eins mit Zweierflügel in
+        einer seltenen, hellen Form: ein Körper, der nach einem Jahr voller Verpflichtungen
+        die Notbremse zog, ein Mann, der danach nicht verstummte, sondern mit dem Buch
+        ›Zugabe‹ erzählte, was ihm zugestoßen war, und eine Haltung, die sich verändert hat,
+        ohne sich aufzugeben. Die Gans, die nach der ›Gelben Karte‹ ihre Wachsamkeit
+        behielt und ihr Tempo anpasste.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-wolfgang-niedecken", label:"Porträt: Wolfgang Niedecken (SO1w2) – Lebenswerk"},
+        {route:"krankheitsportraets-niki-lauda", label:"Krankheitsporträt: Niki Lauda (SO1w2) – gleicher Subtyp"},
+        {route:"psychosomatik/schlaganfall", label:"Psychosomatik: Schlaganfall"},
+        {route:"subtype/so1", label:"Subtyp-Profil SO1"},
+      ])}
+    </div>
+  `);
+}

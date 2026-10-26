@@ -5129,6 +5129,7 @@ export function nikiLaudaKrankheitsportraetPage() {
         {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
         {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"krankheitsportraets-wolfgang-niedecken", label:"Krankheitsporträt: Wolfgang Niedecken (SO1w2) – gleicher Subtyp"},
       ])}
     </div>
   `);

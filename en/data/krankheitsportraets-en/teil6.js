@@ -5003,6 +5003,7 @@ export function nikiLaudaKrankheitsportraetPage() {
         {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
         {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"krankheitsportraets-wolfgang-niedecken", label:"Illness Portrait: Wolfgang Niedecken (SP1w2) – same subtype"},
       ])}
     </div>
   `);

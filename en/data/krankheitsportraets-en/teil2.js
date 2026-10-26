@@ -4779,3 +4779,124 @@ export function metteMaritKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function wolfgangNiedeckenKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-wolfgang-niedecken-portrait.jpg" alt="Wolfgang Niedecken" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wolfgang Niedecken</p>
+        <p class="krim-portrait-typ">SP1w2 · Social Type 1 with Two-wing · b. 1951</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal match: Goose</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so1.jpg" alt="Animal match: Goose" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO1")};left:${tierAvatarLeft("SO1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Wolfgang Niedecken</strong> is already featured as a
+        <a href="javascript:void(0)" data-route="beruehmte-wolfgang-niedecken">portrait under Famous Personalities</a>
+        in this Compass, covering his life's work and type structure in general. This portrait
+        is devoted to a chapter mentioned there only briefly: the stroke of 2 November 2011
+        and the way back to the stage. It relies on his own accounts in interviews and in his
+        book ‘Zugabe’ (‘Encore’); no medical documentation is available.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Niedecken</strong> is assigned to the <strong>social Type 1 with a
+        Two-wing</strong>. The SO1 measures itself and the community against a high standard;
+        Claudio Naranjo called the subtype non-adaptability. The Two-wing adds warmth and the
+        readiness to help others concretely. This very combination of responsibility and
+        care also shapes how Niedecken dealt with the stroke.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) At midday, with a book in his hand:</strong>
+        On 2 November 2011 Niedecken was reading William Faulkner's novel ‘Light in August’ at home when, by his account, he noticed that he no longer understood anything and saw blurrily. His wife Tina called the emergency doctor.</p>
+        <p class="vb-intro"><strong>b) A trigger, as he described it himself:</strong>
+        He told ‘Der Spiegel’ almost four weeks later that coughing had caused a blood clot that traveled toward his brain. He was taken to hospital and, according to him, operated on for several hours.</p>
+        <p class="vb-intro"><strong>c) A year that had become overfilled:</strong>
+        In the same conversation Niedecken admitted he had overextended himself in 2011: his 60th birthday, a new BAP album, his first autobiography ‘Für ’ne Moment’ (‘For a Moment’), readings and concerts all fell in the same period.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Massive speech disturbances:</strong>
+        After the operation Niedecken had massive speech disturbances according to the report; in a later interview he described that at first he could neither speak nor play guitar. For a singer and lyricist that touches the core of his work.</p>
+        <p class="vb-intro"><strong>b) The guitar at the bedside:</strong>
+        Tina brought him a guitar early on. The pick kept falling out of his hand, but by his account he was sure he would be his old self again.</p>
+        <p class="vb-intro"><strong>c) The shock at the sight of the machines:</strong>
+        At the equipment and cables around him he thought, according to the report, only: ‘Du leeven Jott’ (Cologne dialect: ‘Dear God’).</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Qualities</h3>
+        <p class="vb-intro"><strong>a) Gratitude as the first reaction:</strong>
+        After the operation he was, in his own words, at first simply happy to be alive (‘I was just happy to still be alive’).</p>
+        <p class="vb-intro"><strong>b) Death and love at once:</strong>
+        In his book he describes seeing his wife and daughters at the bed and knowing ‘that both existed, death and love’ (as quoted in coverage of the book).</p>
+        <p class="vb-intro"><strong>c) Openness instead of silence:</strong>
+        About a month after the stroke he gave one extended interview; later he spoke on talk shows about his ‘luck in misfortune’. He wrote that he had no intention of concealing what had happened to him.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A tour that was postponed:</strong>
+        The BAP concerts planned for November 2011 were cancelled and moved to spring 2012; the first concert of the rescheduled tour took place on 3 May 2012.</p>
+        <p class="vb-intro"><strong>b) A life divided into a before and an after:</strong>
+        According to the publisher's announcement of his book, the stroke divided his life ‘into a before and an after’.</p>
+        <p class="vb-intro"><strong>c) Encore as a way of feeling:</strong>
+        In September 2013 his second autobiography ‘Zugabe – Die Geschichte einer Rückkehr’ (‘Encore – The Story of a Return’) appeared, two days before the solo album ‘Zosamme alt’ (‘Growing Old Together’). The title describes how he has experienced every concert since.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) No collapse of his stance:</strong>
+        Even after the stroke Niedecken remained publicly positioned, with concerts, books and commitment. The pattern of taking oneself into duty for a cause and for others continued, only with more awareness of the limit.</p>
+        <p class="vb-intro"><strong>b) More patience:</strong>
+        By his own account the stroke made him more patient; he calls it a ‘yellow card’, that is, a warning, not yet a sending-off.</p>
+        <p class="vb-intro"><strong>c) A closer look:</strong>
+        According to the publisher's announcement, the book is about picking oneself up, perseverance, help received, gratitude and a closer look at the world.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) A year of many obligations:</strong>
+        The social One measures itself against a high standard for the community, and the Two-wing makes it hard to say no. That Niedecken carried a birthday, album, autobiography, readings and concerts at the same time in 2011 can be linked to this pattern: whoever owes something to others holds oneself back.</p>
+        <p class="vb-intro"><strong>b) A parallel in the same subtype:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-niki-lauda">Niki Lauda</a> (SO1w2) was back in the cockpit six weeks after the 1976 accident, although his body had not yet recovered. Both show how the social One returns to the task first after a near-catastrophe. The difference: Niedecken describes the stroke in retrospect as a warning and, by his own account, adjusted his pace. More in the <a href="javascript:void(0)" data-route="krankheitsportraets-niki-lauda">illness portrait of Niki Lauda</a>.</p>
+        <p class="vb-intro"><strong>c) The paralysis of speech, the tool of stance:</strong>
+        For a man who has sung in Cologne dialect since 1976 and positions himself publicly, the stroke struck the tool of his stance: language. That he asked for the guitar at the sickbed fits a One that does not hand tasks over.</p>
+        <p class="vb-intro"><strong>d) Why a stroke, of all things?</strong>
+        For a social One who constantly keeps inner tension under control and measures itself strictly, one interpretation suggests itself: an event that suddenly and without warning overrides all self-control hits exactly the place where everything is otherwise steered. This is one possible interpretation, not a proven causal connection; as the trigger Niedecken himself names a blood clot. It is set out in more detail in the <a href="javascript:void(0)" data-route="psychosomatik/schlaganfall">Psychosomatics Register on stroke</a>.</p>
+        <p class="vb-intro"><strong>e) Classification without determinism:</strong>
+        This does not mean that the social One with a Two-wing inevitably has a stroke – <strong>anyone can get any illness, regardless of subtype.</strong> Niedecken's case shows a pattern noticeable in people who spend themselves for others over a long time, and is one of several possible explanations, not a verdict.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as a factor of its own:</strong>
+        Most people do not know their Enneagram pattern, and it is not recorded that Niedecken used it as a map of himself. The social One's sense of responsibility, combined with the difficulty of saying no, can be linked to the overload of 2011 that he himself names in retrospect. Whoever does not know their own pattern often recognizes the warning signs only when the body makes them loud.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Niedecken's</strong> story shows the social One with a Two-wing in a rare, bright
+        form: a body that pulled the emergency brake after a year full of obligations, a man who
+        afterwards did not fall silent but told in the book ‘Zugabe’ what had happened to him,
+        and a stance that has changed without giving itself up. The goose that kept its
+        watchfulness after the ‘yellow card’ and adjusted its pace.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-wolfgang-niedecken", label:"Portrait: Wolfgang Niedecken (SP1w2) – life's work"},
+        {route:"krankheitsportraets-niki-lauda", label:"Illness Portrait: Niki Lauda (SP1w2) – same subtype"},
+        {route:"psychosomatik/schlaganfall", label:"Psychosomatics: Stroke"},
+        {route:"subtype/so1", label:"Subtype Profile SP1"},
+      ])}
+    </div>
+  `);
+}

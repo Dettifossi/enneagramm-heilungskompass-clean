@@ -2886,6 +2886,7 @@ export function wolfgangNiedeckenPortraitPage() {
         {route:"beruehmte-juergen-klopp", label:"Porträt: Jürgen Klopp (SO1w2)"},
         {route:"beruehmte-brian-wilson", label:"Porträt: Brian Wilson (SO1w2)"},
         {route:"beruehmte-bradley-cooper", label:"Porträt: Bradley Cooper (SO1w2)"},
+        {route:"krankheitsportraets-wolfgang-niedecken", label:"Krankheitsporträt: Wolfgang Niedecken (SO1w2) – Schlaganfall"},
             ])}
     </div>
   `);
