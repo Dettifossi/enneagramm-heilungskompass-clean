@@ -3046,6 +3046,7 @@ export function robbieColtranePortraitPage() {
         {route:"beruehmte-dietmar-baer", label:"Portrait: Dietmar Bär (SP9w8)"},
         {route:"beruehmte-kevin-james", label:"Portrait: Kevin James (SP9w8)"},
         {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+        {route:"krankheitsportraets-robbie-coltrane", label:"Illness Portrait: Robbie Coltrane (SP9w8) – osteoarthritis and diabetes"},
       ])}
     </div>
   `);

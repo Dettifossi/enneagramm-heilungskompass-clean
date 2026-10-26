@@ -4476,6 +4476,7 @@ export function charlesLaughtonKrankheitsportraetPage() {
         {route:"krankheitsportraets-david-hume", label:"Krankheitsporträt: David Hume (SE9w8) – gleicher Subtyp"},
         {route:"krankheitsportraets-hans-dietrich-genscher", label:"Krankheitsporträt: Hans-Dietrich Genscher (SE9w8) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"krankheitsportraets-robbie-coltrane", label:"Krankheitsporträt: Robbie Coltrane (SE9w8) – gleicher Subtyp"},
       ])}
     </div>
   `);

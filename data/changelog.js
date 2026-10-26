@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2669", date: "2026-10-26", text: "Neues Krankheitsporträt: Robbie Coltrane (SE9w8) – Arthrose, Diabetes und ein stiller Verlauf.", text_en: "New illness portrait: Robbie Coltrane (SE9w8) – osteoarthritis, diabetes and a quiet course.", route: "krankheitsportraets-robbie-coltrane" },
     { version: "v2668", date: "2026-10-26", text: "Neues Krankheitsporträt: Wolfgang Niedecken (SO1w2) – Schlaganfall 2011 und der Weg zurück auf die Bühne.", text_en: "New illness portrait: Wolfgang Niedecken (SO1w2) – the 2011 stroke and the way back to the stage.", route: "krankheitsportraets-wolfgang-niedecken" },
     { version: "v2667", date: "2026-10-26", text: "Neu: David Daniels – Die drei Energie-Aufmerksamkeits-Gesetze. Ein Wissensartikel zu Aufmerksamkeit, Energie und Selbstbeobachtung nach dem Enneagrammlehrer Dr. David Daniels, mit den Originalseiten zum Aufklappen.", text_en: "New: David Daniels – The Three Energy–Attention Laws. A knowledge article on attention, energy and self-observation according to the Enneagram teacher Dr. David Daniels, with the original pages to unfold.", route: "david-daniels-gesetze" },
     { version: "v2666", date: "2026-10-26", text: "Neues Porträt: Karin Thaler (SX2w3) – Schauspielerin aus den Rosenheim-Cops.", text_en: "New portrait: Karin Thaler (SX2w3) – actress from the Rosenheim Cops.", route: "beruehmte-karin-thaler" },

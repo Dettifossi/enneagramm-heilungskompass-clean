@@ -4893,3 +4893,124 @@ export function paulBocuseKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function robbieColtraneKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-robbie-coltrane-portrait.jpg" alt="Robbie Coltrane" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Robbie Coltrane</p>
+        <p class="krim-portrait-typ">SP9w8 · Self-Preservation Type 9 with Eight-wing · 1950–2022</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal match: Elephant</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Animal match: Elephant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE9")};left:${tierAvatarLeft("SE9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Robbie Coltrane</strong> is already featured as a
+        <a href="javascript:void(0)" data-route="beruehmte-robbie-coltrane">portrait under Famous Personalities</a>
+        in this Compass, covering his life's work and type structure in general. This portrait
+        is devoted to a chapter mentioned there only briefly: the slow course of his joint and
+        metabolic illnesses and his death on 14 October 2022. It relies on press reports and his
+        own interview statements; no medical documentation is available.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Coltrane</strong> is assigned to the <strong>self-preservation Nine with an
+        Eight-wing</strong>. Claudio Naranjo called the subtype Appetite: calm and safety in the
+        concrete, in food, habit and comfort. The Eight-wing adds weight and directness. This very
+        combination of fullness and composure also shapes how Coltrane dealt with his illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A knee that had hurt for a long time:</strong>
+        In the years before his death Coltrane spoke openly about joint pain. In 2016 he said, according to a ‘Daily Star’ report, that he was in ‘constant pain all day’ and at times had to use walking aids and a wheelchair because the cartilage in a knee was lost.</p>
+        <p class="vb-intro"><strong>b) An examination with a clear finding:</strong>
+        After an exploratory operation on the joint the doctors found, in his words, ‘no cartilage left’ in one of his knees. He spoke of bone on bone. These statements come from a 2020 interview as relayed by the press.</p>
+        <p class="vb-intro"><strong>c) A profession that demands movement:</strong>
+        By his own account the pain accompanied him already during the filming of ‘National Treasure’ (2016) and ‘Great Expectations’ (television series). He kept working.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Osteoarthritis as the main complaint:</strong>
+        According to Wikipedia he suffered from osteoarthritis and used a wheelchair from 2019. Where an illness increases gradually, there is rarely a single day it begins.</p>
+        <p class="vb-intro"><strong>b) Further diagnoses:</strong>
+        Type 2 diabetes was added. The death certificate later also lists obesity and heart block (a disturbance in the electrical conduction of the heart).</p>
+        <p class="vb-intro"><strong>c) Help from America:</strong>
+        By his 2020 statement, a joint operation in the US brought him some relief. The sources name no further procedures.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Qualities</h3>
+        <p class="vb-intro"><strong>a) No complaining in the spotlight:</strong>
+        In public, even in his late years, Coltrane remained the man with the dry humor. The pain came up mainly in interviews, not in his roles.</p>
+        <p class="vb-intro"><strong>b) The role of Hagrid to the end:</strong>
+        The children's friend Rubeus Hagrid, whom he played in the ‘Harry Potter’ films from 2001 to 2011, remained his best-known face. After his death J. K. Rowling called him, according to press reports, ‘one of a kind’.</p>
+        <p class="vb-intro"><strong>c) A body that went along until it could not:</strong>
+        He stood in front of the camera into old age. How much the illness restricted him in daily life is known only from a few statements.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) About two years ill:</strong>
+        According to the reports he was in poor health for roughly the last two years before his death.</p>
+        <p class="vb-intro"><strong>b) Death on 14 October 2022:</strong>
+        Robbie Coltrane died at Forth Valley Royal Hospital in Larbert at the age of 72. According to the death certificate, as relayed by the ‘Mirror’, the causes listed were multiple organ failure, sepsis, a lower respiratory tract infection, type 2 diabetes, heart block and obesity.</p>
+        <p class="vb-intro"><strong>c) A farewell with many voices:</strong>
+        Stephen Fry, his colleague from ‘Alfresco’, wrote: ‘Farewell, old fellow. You’ll be so dreadfully missed.’ His agent called him a ‘unique talent’. The family thanked the hospital staff.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Calm on the outside:</strong>
+        Someone who, as a Nine, comes to terms with pain over years appears calm from outside. That may explain why his illness was hardly a public topic.</p>
+        <p class="vb-intro"><strong>b) Humor as protection:</strong>
+        His comedy, from ‘The Comic Strip’ to ‘Cracker’, can be read as a way of carrying heaviness lightly; that remains a reading.</p>
+        <p class="vb-intro"><strong>c) Little fuss:</strong>
+        He apparently did not go on the offensive to gain sympathy but said what was necessary and kept working.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) A life of fullness and comfort:</strong>
+        The self-preservation Nine seeks calm in the concrete, in food, habit and small pleasures (Naranjo: Appetite). Coltrane embodied fullness, physically and in character, and that was part of his charm. The body carries such fullness for decades until the joints can no longer bear the load.</p>
+        <p class="vb-intro"><strong>b) A parallel in the same subtype:</strong>
+        <a href=\"javascript:void(0)\" data-route=\"krankheitsportraets-charles-laughton\">Charles Laughton</a> (SP9w8), likewise an actor of great physical presence, noticed his serious illness late through a seemingly harmless occasion. Both show the SP9 pattern of not making complaints a topic for a long time. More in the <a href=\"javascript:void(0)\" data-route=\"krankheitsportraets-charles-laughton\">illness portrait of Charles Laughton</a>.</p>
+        <p class="vb-intro"><strong>c) Carrying on instead of seeking help:</strong>
+        That Coltrane stood in front of the camera despite constant pain fits a Nine who puts their own need aside so as not to disturb the operation and the mood.</p>
+        <p class="vb-intro"><strong>d) Why joints and metabolism, of all things?</strong>
+        For a self-preservation Nine who seeks pleasure and constancy and feels their own limits less, one interpretation suggests itself: the load the body carries grows quietly, and the warning comes in the form of joint wear and sugar metabolism. This is one possible interpretation, not a proven connection; osteoarthritis and diabetes have many causes, including predisposition and chance. They are set out in more detail in the <a href=\"javascript:void(0)\" data-route=\"psychosomatik/arthrose\">Psychosomatics Register on osteoarthritis</a> and in the <a href=\"javascript:void(0)\" data-route=\"psychosomatik/diabetes_typ_2\">register on type 2 diabetes</a>.</p>
+        <p class="vb-intro"><strong>e) Classification without determinism:</strong>
+        This does not mean that the self-preservation Nine with an Eight-wing inevitably gets osteoarthritis or diabetes – <strong>anyone can get any illness, regardless of subtype.</strong> Coltrane's case shows a pattern noticeable in people with great physical composure, and is one of several possible explanations, not a verdict.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as a factor of its own:</strong>
+        Most people do not know their Enneagram pattern, and it is not recorded that Coltrane knew his. The self-preservation Nine's tendency to play down their own complaints and carry on in daily life can be linked to his course. Whoever does not know their own pattern often takes warning signs seriously only when they can no longer be ignored.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Coltrane's</strong> story shows the self-preservation Nine with an Eight-wing in its
+        calmest form: a suffering that increased over years without becoming a public topic, a
+        man who kept working despite pain, and a farewell that surprised the public although he
+        had been ill for two years. The elephant that carried its load until the load no longer
+        carried it.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-robbie-coltrane", label:"Portrait: Robbie Coltrane (SP9w8) – life's work"},
+        {route:"krankheitsportraets-charles-laughton", label:"Illness Portrait: Charles Laughton (SP9w8) – same subtype"},
+        {route:"psychosomatik/arthrose", label:"Psychosomatics: Osteoarthritis"},
+        {route:"psychosomatik/diabetes_typ_2", label:"Psychosomatics: Type 2 Diabetes"},
+        {route:"subtype/se9", label:"Subtype Profile SP9"},
+      ])}
+    </div>
+  `);
+}

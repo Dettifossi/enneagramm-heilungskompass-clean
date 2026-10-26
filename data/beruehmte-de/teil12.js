@@ -3091,6 +3091,7 @@ export function robbieColtranePortraitPage() {
         {route:"beruehmte-dietmar-baer", label:"Porträt: Dietmar Bär (SE9w8)"},
         {route:"beruehmte-kevin-james", label:"Porträt: Kevin James (SE9w8)"},
         {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+        {route:"krankheitsportraets-robbie-coltrane", label:"Krankheitsporträt: Robbie Coltrane (SE9w8) – Arthrose und Diabetes"},
       ])}
     </div>
   `);
