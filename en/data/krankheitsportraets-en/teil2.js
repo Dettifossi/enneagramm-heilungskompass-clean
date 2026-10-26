@@ -4900,3 +4900,123 @@ export function wolfgangNiedeckenKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function bruceLeeKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-bruce-lee-portrait.jpg" alt="Bruce Lee" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bruce Lee</p>
+        <p class="krim-portrait-typ">SO3w4 · Social Type 3 with Four-wing · 1940–1973</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal match: Cheetah</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so3.jpg" alt="Animal match: Cheetah" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO3")};left:${tierAvatarLeft("SO3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Bruce Lee</strong> is already featured as a
+        <a href="javascript:void(0)" data-route="beruehmte-bruce-lee">portrait under Famous Personalities</a>
+        in this Compass, covering his life's work and type structure in general. This portrait
+        is devoted to a chapter mentioned there only briefly: the collapse of 10 May 1973 and
+        his death on 20 July 1973. The exact cause is scientifically disputed to this day; the
+        portrait sets the official finding and the later hypotheses side by side without
+        committing to one.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Lee</strong> is assigned to the <strong>social Type 3 with a Four-wing</strong>.
+        The SO3 directs its ability at the community; Claudio Naranjo called the subtype Prestige.
+        The Four-wing adds individuality and depth. This very combination of performance demand,
+        visibility and inner search also shapes how Lee dealt with his body's warning signs.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A back injury in 1970:</strong>
+        As early as 1970 Lee suffered, according to the Famous Personalities portrait, a back injury that caused him pain. It shows how hard he worked with his own body: he understood it as a tool and trained at the limit.</p>
+        <p class="vb-intro"><strong>b) The collapse on 10 May 1973:</strong>
+        Lee collapsed during the dubbing session for ‘Enter the Dragon’ at the Golden Harvest studio in Hong Kong. According to English Wikipedia he had epileptic seizures and headaches, a high fever and at times was not breathing. At Baptist Hospital the doctors diagnosed cerebral edema (fluid accumulation and swelling in the brain), which they reduced with mannitol, a dehydrating drug.</p>
+        <p class="vb-intro"><strong>c) A finding in the US:</strong>
+        A subsequent examination in the United States found, according to this account, a convulsive disorder.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) A swift return to work:</strong>
+        About ten weeks lay between the collapse and his death. In that time Lee kept planning projects, including the film ‘Game of Death’.</p>
+        <p class="vb-intro"><strong>b) A day like any other:</strong>
+        On 20 July 1973, according to testimony at the Coroner's Court, he discussed the screenplay of ‘Game of Death’ with producer Raymond Chow at midday, drove at about 5 p.m. to his colleague Betty Ting and continued working on the script there.</p>
+        <p class="vb-intro"><strong>c) Headache and sleep:</strong>
+        At about 7 p.m. Lee took a painkiller that Ting gave him because of a headache and lay down to sleep. Chow left about an hour later for a dinner with the actor George Lazenby, which Lee was to join later.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Qualities</h3>
+        <p class="vb-intro"><strong>a) Impossible to wake:</strong>
+        When Lee did not appear at dinner, Chow returned at about 9:45 p.m. and could not wake him. A private doctor summoned at 10 spent ten minutes trying to revive him and then sent him by ambulance to Queen Elizabeth Hospital.</p>
+        <p class="vb-intro"><strong>b) Death on arrival:</strong>
+        Lee was declared dead there at the age of 32, six days before the cinema release of ‘Enter the Dragon’ on 26 July 1973.</p>
+        <p class="vb-intro"><strong>c) Burial:</strong>
+        He was buried in Seattle on 25 July 1973; his pallbearers included Steve McQueen, James Coburn and his student Dan Inosanto.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) The official finding:</strong>
+        The British pathologist Donald Teare, who had overseen over a thousand autopsies, concluded ‘death by misadventure’, caused by cerebral edema due to a reaction to components of the medication Equagesic, which contains aspirin and the sedative meprobamate. Lee's brain had swollen from 1,400 to 1,575 grams, about 12.5 percent. The Coroner's Court confirmed this finding unanimously.</p>
+        <p class="vb-intro"><strong>b) A drug he had taken often:</strong>
+        According to the sources, Lee had taken Equagesic before.</p>
+        <p class="vb-intro"><strong>c) Speculation from the surroundings:</strong>
+        Because Lee died so early and suddenly, many rumors arose, from involvement with the triads to a curse. They are not proven. The pathologist Teare also ruled out cannabis, found in the stomach, as a trigger of the collapse or the death.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Later explanations:</strong>
+        In a 2018 biography the author Matthew Polly, after consulting physicians, suggested that the cerebral edema arose from over-exertion and heat stroke; according to this account Lee had had his underarm sweat glands removed in late 1972 because he thought underarm sweat unphotogenic on film. As a result his body may have overheated in hot training.</p>
+        <p class="vb-intro"><strong>b) Hyponatremia as a hypothesis:</strong>
+        In December 2022 a team in the ‘Clinical Kidney Journal’ concluded that the fatal cerebral edema was brought on by hyponatremia (too little sodium in the blood). As risk factors the authors named, among others, excessive water intake, too little salt intake, alcohol and the use of several drugs.</p>
+        <p class="vb-intro"><strong>c) A sudden epilepsy death?</strong>
+        In July 2025 the Hong Kong program ‘Ctrl+F The Truth’ concluded, on expert opinion, that Lee died of sudden unexpected death in epilepsy and that an aspirin allergy as the cause was unlikely. The cause thus remains disputed to this day.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) A body as tool and showpiece:</strong>
+        The social Three directs its ability at impact and prestige (Naranjo), and in Lee the body itself was the instrument. According to the Famous Personalities portrait he trained speed and body consistently and took an early interest in nutrition and supplements. A body so demanded reaches limits more easily that no one heeds.</p>
+        <p class="vb-intro"><strong>b) A parallel in the same subtype:</strong>
+        <a href=\"javascript:void(0)\" data-route=\"krankheitsportraets-karl-lagerfeld\">Karl Lagerfeld</a> (SO3w4) kept a cancer diagnosis secret, even from his closest confidants, for almost four years and worked until shortly before his death. Both show how the social Three protects the image of capability. In Lee, however, there are no indications of secrecy, but of carrying on after an acute warning. More in the <a href=\"javascript:void(0)\" data-route=\"krankheitsportraets-karl-lagerfeld\">illness portrait of Karl Lagerfeld</a>.</p>
+        <p class="vb-intro"><strong>c) Carrying on after the warning:</strong>
+        After the collapse in May 1973 Lee, according to the accounts, worked on without any noticeable pause, which fits a Three for whom standing still means losing worth.</p>
+        <p class="vb-intro"><strong>d) Why the brain and fluid balance, of all things?</strong>
+        For a social Three with a Four-wing who constantly calls up peak performance and allows hardly any recovery, one interpretation suggests itself: the body reports first with headache and seizure before collapsing under overload. This is one possible interpretation, not a proven connection; the actual cause of death is scientifically disputed (drug reaction, heat stroke, hyponatremia or epilepsy are discussed). Related material is set out in the <a href=\"javascript:void(0)\" data-route=\"psychosomatik/epilepsie\">Psychosomatics Register on epilepsy</a>.</p>
+        <p class="vb-intro"><strong>e) Classification without determinism:</strong>
+        This does not mean that the social Three with a Four-wing inevitably gets cerebral edema or a seizure – <strong>anyone can get any illness, regardless of subtype.</strong> Lee's case shows a pattern noticeable in people with an extreme demand for performance, and is one of several possible explanations, not a verdict.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as a factor of its own:</strong>
+        Most people do not know their Enneagram pattern, and it is not recorded that Lee knew the Enneagram. The social Three's drive to perform constantly and be seen can be linked to his pace and the lack of recovery after the collapse. Whoever does not know their own pattern often fails to recognize the moment when the pace becomes too high.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Lee's</strong> story shows the social Three with a Four-wing in its fastest
+        form: a body trained to the limit, a warning in May that did not slow him down, and a
+        death whose cause still raises questions today. The cheetah that stops in full stride
+        without anyone knowing for certain why.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-bruce-lee", label:"Portrait: Bruce Lee (SO3w4) – life's work"},
+        {route:"krankheitsportraets-karl-lagerfeld", label:"Illness Portrait: Karl Lagerfeld (SO3w4) – same subtype"},
+        {route:"psychosomatik/epilepsie", label:"Psychosomatics: Epilepsy"},
+        {route:"subtype/so3", label:"Subtype Profile SO3"},
+      ])}
+    </div>
+  `);
+}

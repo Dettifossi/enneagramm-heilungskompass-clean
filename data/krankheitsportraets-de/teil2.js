@@ -5034,3 +5034,124 @@ export function wolfgangNiedeckenKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function bruceLeeKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-bruce-lee-portrait.jpg" alt="Bruce Lee" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bruce Lee</p>
+        <p class="krim-portrait-typ">SO3w4 · Sozialer Typ 3 mit Viererflügel · 1940–1973</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gepard</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so3.jpg" alt="Tierentsprechung: Gepard" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO3")};left:${tierAvatarLeft("SO3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Bruce Lee</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-bruce-lee">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort nur kurz vorkommt: dem
+        Kollaps vom 10. Mai 1973 und seinem Tod am 20. Juli 1973. Die genaue Ursache ist bis heute
+        wissenschaftlich umstritten; das Porträt stellt die offizielle Feststellung und die späteren
+        Hypothesen nebeneinander, ohne sich auf eine festzulegen.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Lee</strong> ist der <strong>sozialen Drei mit Viererflügel</strong>
+        zugeordnet. Die SO3 richtet ihr Können auf die Gemeinschaft aus; Claudio Naranjo nannte den
+        Subtyp das Prestige. Der Viererflügel bringt Eigenart und Tiefe hinzu. Genau diese
+        Verbindung aus Leistungsanspruch, Sichtbarkeit und innerer Suche prägt auch Lees Umgang mit
+        den Warnzeichen seines Körpers.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Eine Rückenverletzung 1970:</strong>
+        Schon 1970 erlitt Lee nach dem Berühmte-Porträt eine Rückenverletzung, die ihm Schmerzen bereitete. Das zeigt, wie hart er mit dem eigenen Körper arbeitete: Er verstand ihn als Werkzeug und trainierte an der Grenze.</p>
+        <p class="vb-intro"><strong>b) Der Kollaps am 10. Mai 1973:</strong>
+        Lee brach während der Nachsynchronisation von ›Enter the Dragon‹ im Golden-Harvest-Studio in Hongkong zusammen. Nach der Darstellung der englischen Wikipedia hatte er epileptische Anfälle und Kopfschmerzen, hohes Fieber und atmete zeitweise nicht. Im Baptist-Krankenhaus diagnostizierten die Ärzte ein Hirnödem (Flüssigkeitsansammlung und Schwellung im Gehirn), das sie mit Mannitol, einem entwässernden Medikament, zurückdrängten.</p>
+        <p class="vb-intro"><strong>c) Ein Befund in den USA:</strong>
+        Eine anschließende Untersuchung in den Vereinigten Staaten ergab nach dieser Darstellung eine Krampfneigung (convulsive disorder).</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Rasche Rückkehr an die Arbeit:</strong>
+        Zwischen dem Kollaps und dem Tod lagen etwa zehn Wochen. In dieser Zeit plante Lee weiter Projekte, darunter den Film ›Game of Death‹.</p>
+        <p class="vb-intro"><strong>b) Ein Tag wie jeder andere:</strong>
+        Am 20. Juli 1973 besprach er nach den Aussagen vor dem Coroner's Court mittags mit dem Produzenten Raymond Chow das Drehbuch zu ›Game of Death‹, fuhr gegen 17 Uhr zur Kollegin Betty Ting und arbeitete dort am Skript weiter.</p>
+        <p class="vb-intro"><strong>c) Kopfschmerz und Schlaf:</strong>
+        Gegen 19 Uhr nahm Lee wegen Kopfschmerzen ein Schmerzmittel, das Ting ihm gab, und legte sich schlafen. Chow ging etwa eine Stunde später zu einem Abendessen mit dem Schauspieler George Lazenby, zu dem Lee später nachkommen sollte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Nicht mehr aufweckbar:</strong>
+        Als Lee nicht zum Essen erschien, kam Chow gegen 21:45 Uhr zurück und konnte ihn nicht wecken. Ein Privatarzt, den man um 22 Uhr rief, versuchte zehn Minuten lang, ihn wiederzubeleben, und schickte ihn dann mit dem Krankenwagen ins Queen Elizabeth Hospital.</p>
+        <p class="vb-intro"><strong>b) Tod bei Eintreffen:</strong>
+        Lee wurde dort für tot erklärt, im Alter von 32 Jahren, sechs Tage vor dem Kinostart von ›Enter the Dragon‹ am 26. Juli 1973.</p>
+        <p class="vb-intro"><strong>c) Beerdigung:</strong>
+        Er wurde am 25. Juli 1973 in Seattle beigesetzt; unter den Sargträgern waren Steve McQueen, James Coburn und sein Schüler Dan Inosanto.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Die offizielle Feststellung:</strong>
+        Der britische Pathologe Donald Teare, der über tausend Obduktionen geleitet hatte, kam zu dem Ergebnis ›death by misadventure‹ (Tod durch Unglücksfall), verursacht durch ein Hirnödem infolge einer Reaktion auf Bestandteile des Medikaments Equagesic, das Aspirin und das Beruhigungsmittel Meprobamat enthält. Lees Gehirn war von 1.400 auf 1.575 Gramm angeschwollen, etwa 12,5 Prozent. Das Coroner's Court bestätigte einstimmig diesen Befund.</p>
+        <p class="vb-intro"><strong>b) Ein Mittel, das er schon oft genommen hatte:</strong>
+        Lee hatte Equagesic nach den Quellen schon früher genommen.</p>
+        <p class="vb-intro"><strong>c) Spekulationen aus dem Umfeld:</strong>
+        Weil Lee so früh und plötzlich starb, entstanden viele Gerüchte, von Verwicklungen mit den Triaden bis zu einem Fluch. Sie sind nicht belegt. Auch Cannabis, das man im Magen fand, schloss der Pathologe Teare als Auslöser des Kollapses oder des Todes aus.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Spätere Erklärungsversuche:</strong>
+        In einer Biografie von 2018 vermutete der Autor Matthew Polly nach Rücksprache mit Medizinern, das Hirnödem sei durch Überanstrengung und einen Hitzschlag entstanden; Lee hatte sich Ende 1972 nach dieser Darstellung die Schweißdrüsen unter den Achseln entfernen lassen, weil er Achselschweiß auf Film für unvorteilhaft hielt. Dadurch könnte sein Körper bei heißem Training überhitzt sein.</p>
+        <p class="vb-intro"><strong>b) Hyponatriämie als Hypothese:</strong>
+        Im Dezember 2022 kam ein Team im ›Clinical Kidney Journal‹ zu dem Schluss, das tödliche Hirnödem sei durch eine Hyponatriämie (zu wenig Natrium im Blut) ausgelöst worden. Als Risikofaktoren nannten die Autoren unter anderem übermäßige Wasseraufnahme, zu wenig Salzzufuhr, Alkohol und die Einnahme mehrerer Medikamente.</p>
+        <p class="vb-intro"><strong>c) Ein plötzlicher Epilepsie-Tod?</strong>
+        Im Juli 2025 kam die Hongkonger Sendung ›Ctrl+F The Truth‹ nach Fachmeinungen zu dem Schluss, Lee sei an einem plötzlichen unerwarteten Tod bei Epilepsie gestorben, die Aspirin-Allergie als Ursache sei unwahrscheinlich. Die Ursache bleibt also bis heute umstritten.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Körper als Werkzeug und Aushängeschild:</strong>
+        Die soziale Drei richtet ihr Können auf Wirkung und Prestige aus (Naranjo), und bei Lee war der Körper selbst das Instrument. Er trainierte nach dem Berühmte-Porträt konsequent Schnelligkeit und Körper und interessierte sich früh für Ernährung und Nahrungsergänzung. Ein Körper, der so gefordert wird, gerät leichter an Grenzen, die niemand beachtet.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im selben Subtyp:</strong>
+        <a href=\"javascript:void(0)\" data-route=\"krankheitsportraets-karl-lagerfeld\">Karl Lagerfeld</a> (SO3w4) hielt eine Krebsdiagnose fast vier Jahre lang selbst vor engsten Vertrauten geheim und arbeitete bis kurz vor seinem Tod. Beide zeigen, wie die soziale Drei das Bild der Leistungsfähigkeit schützt. Bei Lee gibt es allerdings keine Hinweise auf Geheimhaltung, sondern auf Weitermachen nach einer akuten Warnung. Mehr dazu im <a href=\"javascript:void(0)\" data-route=\"krankheitsportraets-karl-lagerfeld\">Krankheitsporträt zu Karl Lagerfeld</a>.</p>
+        <p class="vb-intro"><strong>c) Weitermachen nach der Warnung:</strong>
+        Nach dem Kollaps im Mai 1973 arbeitete Lee nach den Darstellungen ohne erkennbare Pause weiter, was zu einer Drei passt, für die Stillstand bedeutet, an Wert zu verlieren.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet das Gehirn und der Wasserhaushalt?</strong>
+        Für eine soziale Drei mit Viererflügel, die ständig Höchstleistung abruft und sich dabei kaum Erholung erlaubt, liegt eine Deutung nahe: Der Körper meldet sich zuerst mit Kopfschmerz und Krampfanfall, bevor er überlastet zusammenbricht. Das ist eine mögliche Deutung, kein belegter Zusammenhang; die tatsächliche Todesursache ist wissenschaftlich umstritten (Medikamentenreaktion, Hitzschlag, Hyponatriämie oder Epilepsie werden diskutiert). Ausführlicher steht Verwandtes im <a href=\"javascript:void(0)\" data-route=\"psychosomatik/epilepsie\">Psychosomatik-Register zur Epilepsie</a>.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass die soziale Drei mit Viererflügel zwangsläufig ein Hirnödem oder einen Krampfanfall bekommt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Lees Fall zeigt ein Muster, das bei Menschen mit extremem Leistungsanspruch auffällt, und ist eine von mehreren möglichen Erklärungen, kein Urteil.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Die meisten Menschen kennen ihr Enneagramm-Muster nicht, und von Lee ist nicht überliefert, dass er das Enneagramm kannte. Der Antrieb der sozialen Drei, ständig zu leisten und gesehen zu werden, lässt sich mit seinem Tempo und dem Verzicht auf Erholung nach dem Kollaps in Verbindung bringen. Wer das eigene Muster nicht kennt, erkennt den Moment oft nicht, in dem das Tempo zu hoch wird.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        In <strong>Lees</strong> Geschichte zeigt sich die soziale Drei mit Viererflügel in ihrer
+        schnellsten Form: ein Körper, der bis an die Grenze trainiert wurde, eine Warnung im Mai,
+        die ihn nicht bremste, und ein Tod, dessen Ursache bis heute Fragen aufwirft. Der Gepard, der
+        im vollen Lauf aufhört, ohne dass jemand sicher weiß, warum.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-bruce-lee", label:"Porträt: Bruce Lee (SO3w4) – Lebenswerk"},
+        {route:"krankheitsportraets-karl-lagerfeld", label:"Krankheitsporträt: Karl Lagerfeld (SO3w4) – gleicher Subtyp"},
+        {route:"psychosomatik/epilepsie", label:"Psychosomatik: Epilepsie"},
+        {route:"subtype/so3", label:"Subtyp-Profil SO3"},
+      ])}
+    </div>
+  `);
+}

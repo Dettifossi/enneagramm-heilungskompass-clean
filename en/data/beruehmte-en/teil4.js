@@ -3057,6 +3057,7 @@ export function bruceLeePortraitPage() {
         {route:"beruehmte-sean-connery", label:"Portrait: Sean Connery (SO3w4)"},
         {route:"beruehmte-leon-goretzka", label:"Portrait: Leon Goretzka (SO3w4)"},
         {route:"beruehmte-sven-platte", label:"Portrait: Sven Platte (SO3w4)"},
+        {route:"krankheitsportraets-bruce-lee", label:"Illness Portrait: Bruce Lee (SO3w4) – cerebral edema and death 1973"},
             ])}
     </div>
   `);
