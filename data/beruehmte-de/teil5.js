@@ -2993,7 +2993,7 @@ export function marthaGrahamPortraitPage() {
 
         <h2 class="vb-section">3. Der Dreierflügel: die Wirkung, die Bühne, der Ruhm</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> verleiht der Vier Tatkraft und das Gespür für Wirkung. Graham gründete 1926 in New York ihr eigenes Ensemble und gab ihren ersten eigenen Abend. Daraus wurde die Martha Graham Dance Company, nach Wikipedia die älteste Tanzkompanie der USA (2026 feierte sie ihr hundertjähriges Bestehen). Sie schuf 181 Werke und entwarf selbst für 135 davon die Kostüme. Darin zeigt sich der Dreier: Sie wollte nicht nur den Tanz erneuern, sondern das ganze Bild auf der Bühne gestalten.</p>
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> verleiht der Vier Tatkraft und das Gespür für Wirkung. Graham gründete 1926 in New York ihr eigenes Ensemble und gab ihren ersten eigenen Abend. Daraus wurde die Martha Graham Dance Company, nach Wikipedia die älteste Tanzkompanie der USA (2026 feierte sie ihr hundertjähriges Bestehen). Sie schuf 181 Werke und entwarf selbst für 135 davon die Kostüme. Darin zeigt sich der Dreierflügel: Sie wollte nicht nur den Tanz erneuern, sondern das ganze Bild auf der Bühne gestalten.</p>
           <p class="vb-intro">Auch öffentlich nahm sie Platz ein: Ende der 1930er Jahre trat sie als erste Tänzerin im Weißen Haus auf (die Quellen nennen 1937 und 1938), 1976 erhielt sie die Presidential Medal of Freedom und 1979 den Kennedy-Center-Preis. Sie sagte nein, wenn es um ihre Überzeugung ging: Zu den Olympischen Spielen 1936 in Berlin ging sie nicht, und ihr Stück ›Chronicle‹ (1936) war ein Tanz gegen den Krieg.</p>
         </blockquote>
 
