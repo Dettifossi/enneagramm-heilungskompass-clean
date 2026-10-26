@@ -1421,48 +1421,52 @@ export function reinhardMeyPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-reinhard-mey-portrait.jpg" alt="Reinhard Mey" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-reinhard-mey-v2-portrait.jpg" alt="Reinhard Mey" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Reinhard Mey</p>
-        <p class="krim-portrait-typ">SO4w3 &middot; Sozialer Typ 4 mit Dreierflügel</p>
-        <p class="krim-portrait-subtitle">Deutscher Liedermacher, geb. 1942 in Berlin &ndash; Tierentsprechung: Gürteltier</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Sozialer Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Liedermacher, geb. 1942 in Berlin &ndash; Tierentsprechung: Büffel</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. Das Gürteltier mit der Gitarre</h2>
+        <h2 class="vb-section">1. Der Büffel mit der Gitarre</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier: ein harter Panzer nach außen, darunter ein außergewöhnlich empfindsames Inneres. Reinhard Mey passt zu diesem Bild: Er ist seit über fünf Jahrzehnten einer der erfolgreichsten deutschen Liedermacher und hält sein Privatleben dennoch hinter einem dichten Panzer, während in seinen Liedern das Empfindsame offen liegt.</p>
-          <p class="vb-intro">Reinhard Mey wurde am 21. Dezember 1942 in Berlin geboren und besuchte das Französische Gymnasium. In den 1960er-Jahren sang er zunächst Chansons, trat in Frankreich als Frédérik Mey auf und kam erst von dort zurück zu deutschen Texten. Anfang der 1970er-Jahre setzte sich der Erfolg durch, mit Liedern wie &sbquo;Mein Achtel Lorbeerblatt&lsquo; (1972) und &sbquo;Über den Wolken&lsquo; (1974), das in einer ZDF-Wahl auf Platz vier der besten Lieder des Jahrhunderts kam. Er schrieb mehr als 500 Lieder und gilt als Alleingänger unter den deutschen Liedermachern.</p>
+          <p class="vb-intro">Der <strong>Büffel</strong> zieht mit der Herde und bleibt dabei ruhig, auch wenn der Boden bebt. Reinhard Mey ist seit über fünf Jahrzehnten einer der erfolgreichsten deutschen Liedermacher und hält sein Privatleben zugleich weitgehend aus der Öffentlichkeit heraus, während seine Lieder das Gemeinsame erzählen.</p>
+          <p class="vb-intro">Er wurde am 21. Dezember 1942 in Berlin geboren und besuchte das Französische Gymnasium. In den 1960er-Jahren sang er zunächst Chansons, trat in Frankreich als Frédérik Mey auf und kam erst von dort zurück zu deutschen Texten. Anfang der 1970er-Jahre setzte sich der Erfolg durch, mit Liedern wie ›Mein Achtel Lorbeerblatt‹ (1972) und ›Über den Wolken‹ (1974), das in einer ZDF-Wahl auf Platz vier der besten Lieder des Jahrhunderts kam. Er schrieb mehr als 500 Lieder.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. Die soziale Vier: Anderssein innerhalb der Gemeinschaft</h2>
+        <h2 class="vb-section">2. Die soziale Neun: Teilhabe über das gemeinsame Lied</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> trägt nach Naranjo die Scham: das Gefühl, nicht ganz dazuzugehören, und zugleich den Wunsch, von der Gemeinschaft doch gesehen zu werden. Bei Mey zeigt sich das in seiner Stellung im Musikgeschäft: Er passte nie in die Schlagerwelt, bediente nicht den Zeitgeschmack und blieb mit Gitarre, langen Textzeilen und leiser Ironie ein Einzelgänger, der trotzdem ein großes Publikum erreichte, über Generationen hinweg.</p>
-          <p class="vb-intro">Auch sein Protestlied &sbquo;Nein, meine Söhne geb&lsquo; ich nicht&lsquo; (1986) ist keine Parole für die Menge, sondern ein sehr persönliches Bekenntnis: Der Schutz der eigenen Kinder vor Krieg und staatlichem Zugriff. Das Anderssein richtet sich gegen Obrigkeit und Behörde, etwa im &sbquo;Antrag auf Erteilung eines Antragsformulars&lsquo;, und bleibt dabei der Gemeinschaft zugewandt.</p>
+          <p class="vb-intro">In Naranjos Sprache heißt der Subtyp der sozialen Neun ›Teilhabe‹ (Participation): Die Neun findet ihren Platz, indem sie an einer gemeinsamen Sache teilnimmt, und das Gemeinsame wird ihr zur Heimat. Bei Mey lässt sich das mit der Art verbinden, wie seine Lieder funktionieren. ›Gute Nacht, Freunde‹ ist ein Abschiedslied für einen Abend, den ein ganzes Publikum teilt, und ›Über den Wolken‹ gehört mit seinen Zeilen über Freiheit vielen. Seine Lieder erreichten über Generationen hinweg dasselbe Publikum, ohne es zu bedienen.</p>
+          <p class="vb-intro">Dazu passt, dass er in der Schlagerwelt nie ganz zu Hause war und mit Gitarre, langen Textzeilen und leiser Ironie sein eigener Weg blieb. Auch sein Protestlied ›Nein, meine Söhne geb' ich nicht‹ (1986) ist keine Parole für die Menge, sondern ein persönliches Bekenntnis: der Schutz der eigenen Kinder vor Krieg und staatlichem Zugriff. Die Zeichnung zeigt ein freundliches, waches Gesicht mit ruhigem Blick, das eher zuhört, als zu fordern.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. Der Dreierflügel: Handwerk, Vorbereitung und Erfolg</h2>
+        <h2 class="vb-section">3. Der Einserflügel: Maßstab, Handwerk und Ordnung</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel</strong> bringt Leistung und Wirkung ins Spiel, und das zeigt sich bei Mey als Handwerk. Er erscheint rund fünf Stunden vor einem großen Auftritt in der Halle, macht einen gründlichen Soundcheck und spielt danach allein das gesamte Konzertprogramm einmal durch. Er spricht von einem Lampenfieber, das nie nachgelassen habe: &sbquo;Es ist jeden Abend da. Es ist der Motor, der mich antreibt … der Wettkampf mit mir selbst, der freie Fall, der Triumph über die Angst.&lsquo;</p>
-          <p class="vb-intro">Der Erfolg ist die sichtbare Seite des Dreierflügels: Etwa alle zwei bis drei Jahre geht er auf eine ausgedehnte Tournee, von jeder erscheint ein Live-Album, und 1973 erwarb er sogar die Privatpilotenlizenz, drei Jahre später die Instrumentenflugberechtigung. Das Fliegen, das ihn zu &sbquo;Über den Wolken&lsquo; trug, ist Leistung und Freiheit zugleich.</p>
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der Neun einen inneren Maßstab: Es soll stimmen. Bei Mey zeigt sich das als Handwerk. Er erscheint rund fünf Stunden vor einem großen Auftritt in der Halle, macht einen gründlichen Soundcheck und spielt danach allein das gesamte Konzertprogramm einmal durch. Er spricht von einem Lampenfieber, das nie nachgelassen habe: ›Es ist jeden Abend da. Es ist der Motor, der mich antreibt … der Wettkampf mit mir selbst, der freie Fall, der Triumph über die Angst.‹</p>
+          <p class="vb-intro">Auch in den Liedern gegen die Obrigkeit steckt der Einser: Im ›Antrag auf Erteilung eines Antragsformulars‹ nimmt er mit leiser Ironie die Absurdität der Bürokratie auseinander. 1973 erwarb er die Privatpilotenlizenz, drei Jahre später die Instrumentenflugberechtigung; das Fliegen, das ihn zu ›Über den Wolken‹ trug, verlangt Genauigkeit und Disziplin. Etwa alle zwei bis drei Jahre geht er auf eine ausgedehnte Tournee, von jeder erscheint ein Live-Album.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Der Verlust des Sohnes: Der Panzer und das Empfindsame darunter</h2>
+        <h2 class="vb-section">4. Der Verlust des Sohnes: das Persönliche bleibt geschützt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">2009 erlitt Meys Sohn Maximilian eine schwere Lungenentzündung, die ihn ins Koma versetzte; er starb 2014 im Alter von 32 Jahren, ohne das Bewusstsein wiedererlangt zu haben. Mey machte den Verlust nie zum öffentlichen Dauerthema, verarbeitete ihn aber in dem Lied &sbquo;Du bist ein Riese, Max!&lsquo;, auch mit dem Gedanken, wie Eltern ihre Kinder durch Erziehung oft klein statt groß werden lassen. Das ist das Gürteltier: das zutiefst Persönliche bleibt geschützt, aber in der Kunst darf es sichtbar werden.</p>
-          <p class="vb-intro">Sein erklärtes erzieherisches Prinzip, den Söhnen viel Freiraum zu lassen und sie &sbquo;sein zu lassen&lsquo;, passt zu einer Vier, die das eigene Anderssein schätzt und es anderen zugesteht.</p>
+          <p class="vb-intro">2009 erlitt Meys Sohn Maximilian eine schwere Lungenentzündung, die ihn ins Koma versetzte; er starb 2014 im Alter von 32 Jahren, ohne das Bewusstsein wiedererlangt zu haben. Mey machte den Verlust nie zum öffentlichen Dauerthema, verarbeitete ihn aber in dem Lied ›Du bist ein Riese, Max!‹, auch mit dem Gedanken, wie Eltern ihre Kinder durch Erziehung oft klein statt groß werden lassen. So bleibt das zutiefst Persönliche geschützt, und in der Kunst darf es sichtbar werden.</p>
+          <p class="vb-intro">Sein erklärtes erzieherisches Prinzip, den Söhnen viel Freiraum zu lassen und sie ›sein zu lassen‹, passt zu einer Neun, die anderen ihren Raum gönnt und selbst nicht bestimmen will.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Licht und Schatten der sozialen Vier mit Dreierflügel</h2>
+        <h2 class="vb-section">5. Was trägt und was drückt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht zeigt sich in der Verbindung von Tiefe und Reichweite: &sbquo;Gute Nacht, Freunde&lsquo;, &sbquo;Über den Wolken&lsquo; und viele weitere wurden fester Bestandteil des deutschsprachigen Liedguts, weil in ihnen echtes Gefühl und sorgfältiges Handwerk zusammenkommen.</p>
-          <p class="vb-intro">Die Schattenseite liegt in der Anspannung hinter dem Gelingen: Auch nach Tausenden Konzerten bleibt das Lampenfieber unverändert stark, und der Anspruch, vor sich selbst zu bestehen, muss vor jedem Auftritt neu eingelöst werden. Der Wunsch, gesehen zu werden, und der Schutz des Privaten stehen dabei nebeneinander.</p>
+          <p class="vb-intro">Getragen wird er von der Verbindung aus Tiefe und Reichweite: ›Gute Nacht, Freunde‹, ›Über den Wolken‹ und viele weitere wurden fester Bestandteil des deutschsprachigen Liedguts, weil in ihnen echtes Gefühl und sorgfältiges Handwerk zusammenkommen. Zur Neun gehört, dass der eigene Wille hinter dem Gemeinsamen zurücktritt; der Einserflügel hält dagegen, dass es gut gemacht sein muss.</p>
+          <p class="vb-intro">Der Druck liegt in der Anspannung hinter dem Gelingen: Auch nach Tausenden Konzerten bleibt das Lampenfieber so stark wie am Anfang, und der Anspruch, vor sich selbst zu bestehen, muss vor jedem Auftritt neu eingelöst werden.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Drei soziale Vierer, die ihr Anderssein in Erfolg verwandelten</h2>
+        <h2 class="vb-section">6. Parallelen im selben Subtyp: Dieter Thomas Heck, Jörg Kachelmann und Eleanor Roosevelt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Ein aufschlussreicher Vergleich innerhalb desselben Subtyps ist <a href="javascript:void(0)" data-route="beruehmte-cat-stevens">Cat Stevens / Yusuf Islam</a> (SO4w3): Auch er ist ein Liedermacher mit sanfter, sehr persönlicher Stimme, der großen Erfolg hatte und sich dennoch zeitlebens als Außenseiter und Suchender zeigte. Bei beiden verbindet der Dreierflügel die Empfindsamkeit mit der Fähigkeit, ein großes Publikum zu erreichen.</p>
-          <p class="vb-intro">Auch <a href="javascript:void(0)" data-route="beruehmte-hugh-grant">Hugh Grant</a> (SO4w3) zeigt, wie die soziale Vier mit Dreierflügel Erfolg und Distanz zum eigenen Ruhm verbindet: Der Panzer bleibt, auch wenn die Bühne groß ist.</p>
+          <p class="vb-intro"><a href="#beruehmte-dieter-thomas-heck">Dieter Thomas Heck (SO9w1)</a> hielt als Moderator über Jahrzehnte ein Publikum zusammen, so wie Mey es als Sänger tat, allerdings lauter und im Rampenlicht. <a href="#beruehmte-joerg-kachelmann">Jörg Kachelmann (SO9w1)</a> macht ein gemeinsames Thema, das Wetter, für alle verständlich und streitet für Genauigkeit; bei Mey liegt die Genauigkeit im Handwerk. <a href="#beruehmte-eleanor-roosevelt">Eleanor Roosevelt (SO9w1)</a> zeigt dieselbe Konstellation aus Gemeinsinn und innerem Maßstab im politischen Raum.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Der Weg: vom Ausgleichen zum Dasein mit der eigenen Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die soziale Neun mit Einserflügel gleicht aus und prüft sich dabei streng. Heilsam wäre für diesen Subtyp, dass die eigene Stimme auch dann zählt, wenn das Gemeinsame nicht gleich zustimmt, und dass Genauigkeit nicht allein getragen werden muss. Dass Mey sein Lampenfieber ausdrücklich als ›Motor‹ beschreibt und seine Lieder das Empfindsame offen lassen, zeigt, wie er beides verbindet.</p>
         </blockquote>
 
       </div>
@@ -1471,9 +1475,11 @@ export function reinhardMeyPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
-        {route:"beruehmte-cat-stevens", label:"Porträt: Cat Stevens / Yusuf Islam (SO4w3) – derselbe Subtyp"},
-        {route:"beruehmte-hugh-grant", label:"Porträt: Hugh Grant (SO4w3)"},
+        {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
+        {route:"beruehmte-dieter-thomas-heck", label:"Porträt: Dieter Thomas Heck (SO9w1)"},
+        {route:"beruehmte-joerg-kachelmann", label:"Porträt: Jörg Kachelmann (SO9w1)"},
+        {route:"beruehmte-eleanor-roosevelt", label:"Porträt: Eleanor Roosevelt (SO9w1)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
       ])}
     </div>
   `);

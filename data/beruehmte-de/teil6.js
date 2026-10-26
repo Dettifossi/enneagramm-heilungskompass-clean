@@ -3124,6 +3124,7 @@ export function joergKachelmannPortraitPage() {
         {route:"beruehmte-dieter-thomas-heck", label:"Porträt: Dieter Thomas Heck (SO9w1)"},
         {route:"beruehmte-hans-sigl", label:"Porträt: Hans Sigl (SO9w1)"},
         {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+        {route:"beruehmte-reinhard-mey", label:"Porträt: Reinhard Mey (SO9w1)"},
       ])}
     </div>
   `);

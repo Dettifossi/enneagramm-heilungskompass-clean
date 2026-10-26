@@ -1340,59 +1340,65 @@ export function reinhardMeyPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-reinhard-mey-portrait.jpg" alt="Reinhard Mey" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-reinhard-mey-v2-portrait.jpg" alt="Reinhard Mey" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Reinhard Mey</p>
-        <p class="krim-portrait-typ">SO4w3 &middot; Social Type 4 with Three-Wing</p>
-        <p class="krim-portrait-subtitle">German singer-songwriter, b. 1942 in Berlin &ndash; Animal correspondence: Armadillo</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Social Type 9 with a One wing</p>
+        <p class="krim-portrait-subtitle">German singer-songwriter, b. 1942 in Berlin &ndash; animal counterpart: buffalo</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Armadillo with a Guitar</h2>
+        <h2 class="vb-section">1. The buffalo with the guitar</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four: a hard shell on the outside, an exceptionally sensitive interior underneath. Reinhard Mey fits this image: for over five decades one of the most successful German singer-songwriters, he nevertheless keeps his private life behind a dense shell while the sensitive side lies open in his songs.</p>
-          <p class="vb-intro">Reinhard Mey was born on 21 December 1942 in Berlin and attended the French Gymnasium. In the 1960s he first sang chansons, appeared in France as Frédérik Mey and only from there returned to German lyrics. The breakthrough came in the early 1970s, with songs like "Mein Achtel Lorbeerblatt" ("My Eighth of a Laurel Leaf," 1972) and "Über den Wolken" ("Above the Clouds," 1974), which a ZDF poll ranked fourth among the best songs of the century. He wrote more than 500 songs and is regarded as a lone figure among German singer-songwriters.</p>
+          <p class="vb-intro">The <strong>buffalo</strong> moves with the herd and stays calm even when the ground shakes. Reinhard Mey has been one of the most successful German singer-songwriters for over five decades and at the same time keeps his private life largely out of the public eye, while his songs tell of what is shared.</p>
+          <p class="vb-intro">He was born on 21 December 1942 in Berlin and attended the Französisches Gymnasium (French Grammar School). In the 1960s he first sang chansons, appeared in France as Frédérik Mey and only from there came back to German lyrics. In the early 1970s success set in, with songs such as ‘Mein Achtel Lorbeerblatt’ (‘My Eighth of a Bay Leaf’, 1972) and ‘Über den Wolken’ (‘Above the Clouds’, 1974), which came fourth in a ZDF poll of the best songs of the century. He wrote more than 500 songs.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Social Four: Being Different Within the Community</h2>
+        <h2 class="vb-section">2. The social Nine: participation through the shared song</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to Naranjo, the <strong>social Four (SO4)</strong> carries <em>Shame</em>: the feeling of not quite belonging, together with the wish to be seen by the community after all. In Mey this shows in his role as a loner in the business: he never fitted the Schlager world, never served the taste of the day and remained, with guitar, long lines of text and quiet irony, a solitary figure who still reached a large audience across generations.</p>
-          <p class="vb-intro">Even his protest song "Nein, meine Söhne geb' ich nicht" ("No, I Won't Give Up My Sons," 1986) is not a slogan for the crowd but a very personal statement: protecting his own children from war and the state's grasp. His otherness is aimed at authority and bureaucracy, as in the "Antrag auf Erteilung eines Antragsformulars" ("Application for Issuing an Application Form"), and stays turned toward the community.</p>
+          <p class="vb-intro">In Naranjo's language the subtype of the social Nine is called ‘Participation’: the Nine finds a place by taking part in a shared cause, and what is shared becomes home. In Mey this can be linked to the way his songs work. ‘Gute Nacht, Freunde’ (‘Good Night, Friends’) is a farewell song for an evening that a whole audience shares, and ‘Über den Wolken’, with its lines about freedom, belongs to many. His songs reached the same audience across generations without pandering to it.</p>
+          <p class="vb-intro">It fits that he was never quite at home in the world of Schlager and stayed on his own path with guitar, long lines of text and quiet irony. His protest song ‘Nein, meine Söhne geb' ich nicht’ (‘No, I Won't Give My Sons’, 1986), too, is not a slogan for the crowd but a personal confession: protecting one's own children from war and state claims. The drawing shows a friendly, alert face with a calm gaze that listens more than it demands.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Three-Wing: Craft, Preparation and Success</h2>
+        <h2 class="vb-section">3. The One wing: standard, craft and order</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing</strong> brings achievement and impact into play, and in Mey it shows as craft. He arrives about five hours before a big performance, does a thorough soundcheck and then plays the entire concert programme through once, alone. He speaks of stage fright that has never eased: "It's there every evening. It's the engine that drives me … the contest with myself, the free fall, the triumph over fear."</p>
-          <p class="vb-intro">Success is the visible side of the Three-wing: roughly every two to three years he goes on an extended tour, a live album appears from each, and in 1973 he even acquired a private pilot's licence, three years later the instrument rating. Flying, which carried him to "Über den Wolken," is achievement and freedom at once.</p>
+          <p class="vb-intro">The <strong>One wing (w1)</strong> gives the Nine an inner standard: it should be right. In Mey this shows as craft. He arrives in the hall about five hours before a big performance, does a thorough sound check and afterwards plays the entire concert program alone once. He speaks of stage fright that has never subsided: ‘Es ist jeden Abend da. Es ist der Motor, der mich antreibt … der Wettkampf mit mir selbst, der freie Fall, der Triumph über die Angst.’ – ‘It is there every evening. It is the engine that drives me … the competition with myself, the free fall, the triumph over fear.’</p>
+          <p class="vb-intro">The One is also in the songs against authority: in the ‘Antrag auf Erteilung eines Antragsformulars’ (‘Application for the Issue of an Application Form’) he takes apart the absurdity of bureaucracy with quiet irony. In 1973 he earned his private pilot's license, three years later the instrument rating; flying, which carried him to ‘Über den Wolken’, demands precision and discipline. About every two to three years he goes on an extended tour, and a live album appears from each.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The Loss of a Son: The Shell and the Sensitivity Beneath</h2>
+        <h2 class="vb-section">4. The loss of his son: the personal stays protected</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In 2009, Mey's son Maximilian suffered severe pneumonia that left him in a coma; he died in 2014 at age 32, never having regained consciousness. Mey never made the loss a recurring public topic but processed it in the song "Du bist ein Riese, Max!" ("You Are a Giant, Max!"), including the thought of how parents often make their children small rather than great through upbringing. This is the armadillo: the deeply personal stays protected, yet in art it may become visible.</p>
-          <p class="vb-intro">His stated parenting principle of leaving his sons plenty of freedom and "letting them be" suits a Four who values his own otherness and grants it to others.</p>
+          <p class="vb-intro">In 2009 Mey's son Maximilian suffered a severe pneumonia that put him into a coma; he died in 2014 at the age of 32 without having regained consciousness. Mey never made the loss a permanent public topic but processed it in the song ‘Du bist ein Riese, Max!’ (‘You Are a Giant, Max!’), also with the thought of how parents often let their children become small rather than big through upbringing. In this way the deeply personal stays protected, and in art it may become visible.</p>
+          <p class="vb-intro">His stated principle of upbringing, to give his sons a lot of freedom and ‘let them be’, fits a Nine who grants others their space and does not want to decide for them.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and Shadow of the Social Four with a Three-Wing</h2>
+        <h2 class="vb-section">5. What carries and what weighs</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light shows in the union of depth and reach: "Gute Nacht, Freunde" ("Good Night, Friends"), "Über den Wolken" and many more became fixtures of the German-language song repertoire because real feeling and careful craft meet in them.</p>
-          <p class="vb-intro">The shadow lies in the tension behind the success: even after thousands of concerts the stage fright remains as strong as ever, and the demand to measure up in his own eyes must be met anew before every performance. The wish to be seen and the protection of the private stand side by side.</p>
+          <p class="vb-intro">He is carried by the combination of depth and reach: ‘Gute Nacht, Freunde’, ‘Über den Wolken’ and many others became a firm part of German-language song because real feeling and careful craft come together in them. It belongs to the Nine that one's own will steps back behind what is shared; the One wing counters that it must be well done.</p>
+          <p class="vb-intro">The weight lies in the tension behind success: even after thousands of concerts the stage fright remains as strong as at the beginning, and the demand to measure up before oneself must be met anew before every performance.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Three Social Fours Who Turned Their Otherness into Success</h2>
+        <h2 class="vb-section">6. Parallels in the same subtype: Dieter Thomas Heck, Jörg Kachelmann and Eleanor Roosevelt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">A revealing comparison within the same subtype is <a href="javascript:void(0)" data-route="beruehmte-cat-stevens">Cat Stevens / Yusuf Islam</a> (SO4w3): he too is a singer-songwriter with a gentle, very personal voice who had great success yet showed himself all his life as an outsider and seeker. In both, the Three-wing joins sensitivity with the ability to reach a large audience.</p>
-          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-hugh-grant">Hugh Grant</a> (SO4w3) also shows how the social Four with a Three-wing combines success with distance from his own fame: the shell stays, even when the stage is big.</p>
+          <p class="vb-intro"><a href="#beruehmte-dieter-thomas-heck">Dieter Thomas Heck (SO9w1)</a> held an audience together for decades as a presenter, as Mey did as a singer, though more loudly and in the spotlight. <a href="#beruehmte-joerg-kachelmann">Jörg Kachelmann (SO9w1)</a> makes a shared subject, the weather, understandable to all and fights for accuracy; in Mey the accuracy lies in the craft. <a href="#beruehmte-eleanor-roosevelt">Eleanor Roosevelt (SO9w1)</a> shows the same constellation of community spirit and inner standard in the political sphere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The path: from balancing to being with one's own voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The social Nine with a One wing balances and examines itself strictly in doing so. What would heal this subtype is that one's own voice counts even when what is shared does not agree at once, and that precision need not be carried alone. That Mey explicitly describes his stage fright as an ‘engine’ and his songs leave what is tender open shows how he combines both.</p>
         </blockquote>
 
       </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
-        {route:"beruehmte-cat-stevens", label:"Portrait: Cat Stevens / Yusuf Islam (SO4w3) – same subtype"},
-        {route:"beruehmte-hugh-grant", label:"Portrait: Hugh Grant (SO4w3)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so9", label:"SO9 – The Buffalo: subtype profile"},
+        {route:"beruehmte-dieter-thomas-heck", label:"Portrait: Dieter Thomas Heck (SO9w1)"},
+        {route:"beruehmte-joerg-kachelmann", label:"Portrait: Jörg Kachelmann (SO9w1)"},
+        {route:"beruehmte-eleanor-roosevelt", label:"Portrait: Eleanor Roosevelt (SO9w1)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
       ])}
     </div>
   `);

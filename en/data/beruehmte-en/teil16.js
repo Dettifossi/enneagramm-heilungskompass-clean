@@ -3643,6 +3643,7 @@ export function eleanorRooseveltPortraitPage() {
         {route:"krankheitsportraets-eleanor-roosevelt", label:"Illness Portrait: Eleanor Roosevelt (SO9w1)"},
         {route:"beruehmte-maria-treben", label:"Portrait: Maria Treben (SO9w1)"},
         {route:"enneagramm-homoeopathie", label:"Enneagram &amp; Homeopathy"},
+        {route:"beruehmte-reinhard-mey", label:"Portrait: Reinhard Mey (SO9w1)"},
       ])}
     </div>
   `);
@@ -4383,6 +4384,7 @@ export function dieterThomasHeckPortraitPage() {
         {route:"beruehmte-tom-hanks", label:"Portrait: Tom Hanks (SO9w1) – same subtype, reliability as a trademark"},
         {route:"beruehmte-hans-sigl", label:"Portrait: Hans Sigl (SO9w1)"},
         {route:"beruehmte-joerg-kachelmann", label:"Portrait: Jörg Kachelmann (SO9w1)"},
+        {route:"beruehmte-reinhard-mey", label:"Portrait: Reinhard Mey (SO9w1)"},
       ])}
     </div>
   `);

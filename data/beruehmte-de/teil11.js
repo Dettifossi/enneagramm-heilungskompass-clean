@@ -324,7 +324,6 @@ export function catStevensPortraitPage() {
         {route:"beruehmte-til-schweiger", label:"Porträt: Til Schweiger (SO4w3)"},
         {route:"beruehmte-romy-schneider", label:"Porträt: Romy Schneider (SO4w3)"},
         {route:"beruehmte-alan-watts", label:"Porträt: Alan Watts (SO4w3) – ebenfalls eine radikale spirituelle Neuerfindung"},
-        {route:"beruehmte-reinhard-mey", label:"Porträt: Reinhard Mey (SO4w3)"},
       ])}
     </div>
   `);
@@ -721,7 +720,6 @@ export function hughGrantPortraitPage() {
         {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
         {route:"beruehmte-johnny-depp", label:"Portr\xe4t: Johnny Depp (SO4w3)"},
         {route:"beruehmte-til-schweiger", label:"Portr\xe4t: Til Schweiger (SO4w3)"},
-        {route:"beruehmte-reinhard-mey", label:"Porträt: Reinhard Mey (SO4w3)"},
       ])}
     </div>
   `);
