@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2667", date: "2026-10-26", text: "Neu: David Daniels – Die drei Energie-Aufmerksamkeits-Gesetze. Ein Wissensartikel zu Aufmerksamkeit, Energie und Selbstbeobachtung nach dem Enneagrammlehrer Dr. David Daniels, mit den Originalseiten zum Aufklappen.", text_en: "New: David Daniels – The Three Energy–Attention Laws. A knowledge article on attention, energy and self-observation according to the Enneagram teacher Dr. David Daniels, with the original pages to unfold.", route: "david-daniels-gesetze" },
     { version: "v2666", date: "2026-10-26", text: "Neues Porträt: Karin Thaler (SX2w3) – Schauspielerin aus den Rosenheim-Cops.", text_en: "New portrait: Karin Thaler (SX2w3) – actress from the Rosenheim Cops.", route: "beruehmte-karin-thaler" },
     { version: "v2665", date: "2026-10-26", text: "Neues Porträt: Albert Brooks (SO6w7) – Komiker, Regisseur und Schauspieler.", text_en: "New portrait: Albert Brooks (SO6w7) – comedian, director and actor.", route: "beruehmte-albert-brooks" },
     { version: "v2664", date: "2026-10-26", text: "Neues Porträt: Emily Blunt (SX6w5) – britisch-amerikanische Schauspielerin.", text_en: "New portrait: Emily Blunt (SX6w5) – British-American actress.", route: "beruehmte-emily-blunt" },

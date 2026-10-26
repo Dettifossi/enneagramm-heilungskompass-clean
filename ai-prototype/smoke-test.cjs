@@ -221,6 +221,8 @@ const ROUTES = [
   { hash: "en/#mindmap-belladonna", label: "EN Mindmap Belladonna" },
   { hash: "en/#mindmap-veratrum", label: "EN Mindmap Veratrum album" },
   { hash: "en/#mindmap-cannabis", label: "EN Mindmap Cannabis indica" },
+  { hash: "#david-daniels-gesetze", label: "Neu: David Daniels Gesetze" },
+  { hash: "en/#david-daniels-gesetze", label: "Neu EN: David Daniels Gesetze" },
   { hash: "#claudio-naranjo-lehrer", label: "Neu: Claudio Naranjo Lehrer" },
   { hash: "en/#claudio-naranjo-lehrer", label: "Neu EN: Claudio Naranjo Lehrer" },
   { hash: "#david-rathmer-gespraech", label: "David Rathmer Gespräch" },
