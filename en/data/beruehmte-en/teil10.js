@@ -2987,3 +2987,73 @@ export function klausMariaBrandauerPortraitPage() {
     </div>
   `);
 }
+
+export function joergKachelmannPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-joerg-kachelmann-portrait.jpg" alt="Jörg Kachelmann – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jörg Kachelmann</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Social Type 9 with a One wing</p>
+        <p class="krim-portrait-subtitle">Swiss meteorologist and broadcaster, b. 1958 &ndash; animal counterpart: buffalo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The buffalo: the man who explains the weather</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>buffalo</strong> lives in the herd and knows the weather better than anyone in it: it senses the change long before the clouds come. Jörg Kachelmann was born on 15 July 1958 in Lörrach. His father was a railway official from Franconia, his mother came from East Prussia. He grew up in Schaffhausen, Switzerland, and received Swiss citizenship at 20.</p>
+          <p class="vb-intro">At the University of Zurich he studied geography, mathematics and physics with meteorology as a minor and left in 1983 shortly before the exams. He began as a trainee at ‘SonntagsBlick’ and worked for Radio Munot, Swiss television and the ‘Schweizer Illustrierte’, where he became deputy editor-in-chief in 1988.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Nine: participation through a shared subject</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the social Nine the striving for connection is directed at the community; Claudio Naranjo called the subtype Participation. The Nine finds a place by taking part in a shared cause. In Kachelmann this can be linked to the subject that concerns everyone: the weather. It needs no invitation, it belongs to all, and whoever makes it understandable belongs.</p>
+          <p class="vb-intro">From 1994 he presented the weather on ARD (‘Das Wetter im Ersten’), hosted talk shows such as ‘Riverboat’ and his own show on MDR, and from 2019 to 2022 he was again co-host of ‘Riverboat’. The face in the drawing looks turned toward the viewer and calm, with a quiet smile that suits the role of the explainer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One wing: precision, criticism and the demand that it be right</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One wing (w1)</strong> gives the Nine an inner standard: it should be right. In Kachelmann this shows in the dispute over accuracy. In 2002 he criticized the warnings of the German Weather Service, and in 2006 there was a court dispute with the agency. Together with the journalist Christoph Drösser he wrote the ‘Lexikon der Wetterirrtümer’ (‘Dictionary of Weather Misconceptions’, 2006), which corrects widespread weather myths. He also opposes chemtrail theories and criticizes cloud seeding for hail prevention.</p>
+          <p class="vb-intro">In debates on climate change and wildfires he takes positions that climate scientists contradict. This belongs to the picture of a man who demands accuracy and likes to keep the last word himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: building a weather house of his own</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1990 he founded the weather company Meteomedia AG, which he sold to MeteoGroup in 2013; he left in early 2013 and worked as a freelance adviser. Since 2005 he has run the weather company WeatherOK, Inc. in Oklahoma. After 2011 he returned with regional radio and television contributions, weather content for YouTube and a weather platform of his own. In this he combines what marks the social Nine with what the One demands: something everyone uses, and that is correct.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Jens Riewa, Dieter Thomas Heck and Hans Sigl</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-jens-riewa">Jens Riewa (SO9w1)</a> is likewise a television face who explains the news to the community, and <a href="#beruehmte-dieter-thomas-heck">Dieter Thomas Heck (SO9w1)</a> held an audience together for decades as a presenter. <a href="#beruehmte-hans-sigl">Hans Sigl (SO9w1)</a> shows the same constellation as an actor. In Kachelmann the dispute over accuracy is added, which the One wing colors more strongly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The proceedings of 2010 and 2011 (as of 26 October 2026)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In March 2010 Kachelmann was arrested on a rape allegation and charged in May 2010. The Regional Court of Mannheim acquitted him on 31 May 2011. The prosecution and the joint plaintiff withdrew their appeals, and the acquittal became final in October 2011. This portrait does not assess the allegation but notes that the proceedings ended with the acquittal.</p>
+          <p class="vb-intro">Further proceedings followed: in 2016 he won a costs case against his former partner, and he received damages from Axel Springer, which a court reduced on appeal. In 2019 the European Court of Human Rights also issued a ruling on a photo published by the newspaper ‘Bild’. With his wife Miriam he wrote the book ‘Recht und Gerechtigkeit. Ein Märchen aus der Provinz’ (‘Law and Justice. A Fairy Tale from the Provinces’, 2012). He married her in 2011, and they live in Switzerland.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. What remains: an explainer who gets involved</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The social Nine with a One wing balances tensions in the shared and has a strict inner judge while doing so. What would heal this subtype is to keep one's own voice even when not everyone agrees at once, and not to carry the demand for rightness alone. That Kachelmann stayed public after 2011 and appeared again within the community of the television audience can be read in this sense.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so9", label:"SO9 – The Buffalo: subtype profile"},
+        {route:"beruehmte-jens-riewa", label:"Portrait: Jens Riewa (SO9w1)"},
+        {route:"beruehmte-dieter-thomas-heck", label:"Portrait: Dieter Thomas Heck (SO9w1)"},
+        {route:"beruehmte-hans-sigl", label:"Portrait: Hans Sigl (SO9w1)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}

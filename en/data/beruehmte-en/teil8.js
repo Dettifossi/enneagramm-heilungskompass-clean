@@ -2730,6 +2730,7 @@ export function hansSiglPortraitPage() {
         {route:"beruehmte-peter-falk", label:"Portrait: Peter Falk (SO9w1) – actor, same subtype and wing"},
         {route:"beruehmte-dany-boon", label:"Portrait: Dany Boon (SO9w1)"},
         {route:"beruehmte-tom-hanks", label:"Portrait: Tom Hanks (SO9w1)"},
+        {route:"beruehmte-joerg-kachelmann", label:"Portrait: Jörg Kachelmann (SO9w1)"},
       ])}
     </div>
   `);

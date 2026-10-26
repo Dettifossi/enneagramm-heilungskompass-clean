@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2673", date: "2026-10-26", text: "Neues Porträt: Jörg Kachelmann (SO9w1) – Meteorologe und Moderator.", text_en: "New portrait: Jörg Kachelmann (SO9w1) – meteorologist and broadcaster.", route: "beruehmte-joerg-kachelmann" },
     { version: "v2672", date: "2026-10-26", text: "Neues Porträt: James Dean (SX4w3) – Schauspieler, Ikone einer Generation.", text_en: "New portrait: James Dean (SX4w3) – actor, icon of a generation.", route: "beruehmte-james-dean" },
     { version: "v2671", date: "2026-10-26", text: "Neues Porträt: Steve McQueen (SX6w7) – Schauspieler und Rennfahrer.", text_en: "New portrait: Steve McQueen (SX6w7) – actor and racing driver.", route: "beruehmte-steve-mcqueen" },
     { version: "v2670", date: "2026-10-26", text: "Neues Krankheitsporträt: Bruce Lee (SO3w4) – der Kollaps im Mai 1973 und ein Tod, dessen Ursache bis heute umstritten ist.", text_en: "New illness portrait: Bruce Lee (SO3w4) – the collapse in May 1973 and a death whose cause is still disputed.", route: "krankheitsportraets-bruce-lee" },

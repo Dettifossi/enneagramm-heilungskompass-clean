@@ -3058,3 +3058,73 @@ export function martinaGedeckPortraitPage() {
     </div>
   `);
 }
+
+export function joergKachelmannPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-joerg-kachelmann-portrait.jpg" alt="Jörg Kachelmann – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jörg Kachelmann</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Sozialer Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Schweizer Meteorologe und Moderator, geb. 1958 &ndash; Tierentsprechung: Büffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Büffel: der Mann, der das Wetter erklärt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Büffel</strong> lebt in der Herde und kennt das Wetter besser als jeder andere in ihr: Er spürt den Wechsel, lange bevor die Wolken kommen. Jörg Kachelmann kam am 15. Juli 1958 in Lörrach zur Welt. Sein Vater war Bahnbeamter aus Franken, seine Mutter stammte aus Ostpreußen. Er wuchs in Schaffhausen in der Schweiz auf und erhielt mit 20 Jahren die Schweizer Staatsbürgerschaft.</p>
+          <p class="vb-intro">An der Universität Zürich studierte er Geografie, Mathematik und Physik mit Meteorologie als Nebenfach und verließ sie 1983 kurz vor den Prüfungen. Er begann als Volontär beim ›SonntagsBlick‹, arbeitete für Radio Munot, das Schweizer Fernsehen und die ›Schweizer Illustrierte‹, wo er 1988 stellvertretender Chefredakteur wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Teilhabe durch ein gemeinsames Thema</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bei der sozialen Neun richtet sich das Streben nach Verbundenheit auf die Gemeinschaft; Claudio Naranjo nannte den Subtyp die Teilhabe. Die Neun findet ihren Platz, indem sie mit anderen an einer gemeinsamen Sache teilnimmt. Bei Kachelmann lässt sich das mit dem Thema verbinden, das jeden betrifft: dem Wetter. Es braucht keine Einladung, es gehört allen, und wer es verständlich macht, gehört dazu.</p>
+          <p class="vb-intro">Seit 1994 präsentierte er das Wetter in der ARD (›Das Wetter im Ersten‹), moderierte Talkshows wie ›Riverboat‹ und eine eigene Sendung beim MDR, und von 2019 bis 2022 war er wieder Co-Moderator bei ›Riverboat‹. Das Gesicht auf der Zeichnung wirkt zugewandt und gelassen, mit einem leisen Lächeln, das zur Rolle des Erklärers passt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Genauigkeit, Kritik und der Anspruch, dass es stimmt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der Neun einen inneren Maßstab: Es soll richtig sein. Bei Kachelmann zeigt sich das im Streit um Genauigkeit. Er kritisierte 2002 die Warnungen des Deutschen Wetterdienstes, und 2006 gab es eine gerichtliche Auseinandersetzung mit der Behörde. Zusammen mit dem Journalisten Christoph Drösser schrieb er das ›Lexikon der Wetterirrtümer‹ (2006), das verbreitete Wettermythen zurechtrückt. Er wendet sich auch gegen Chemtrail-Theorien und kritisiert das Wolkenimpfen zur Hagelverhütung.</p>
+          <p class="vb-intro">In Debatten über Klimawandel und Waldbrände vertritt er Positionen, denen Klimaforscher widersprechen. Das gehört zum Bild eines Mannes, der Genauigkeit einfordert und dabei selbst gern das letzte Wort behalten will.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: ein eigenes Wetterhaus gebaut</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1990 gründete er die Wetterfirma Meteomedia AG, die er 2013 an MeteoGroup verkaufte; Anfang 2013 schied er dort aus und arbeitete freiberuflich als Berater. Seit 2005 führt er in Oklahoma die Wetterfirma WeatherOK, Inc. Nach 2011 kehrte er mit regionalen Radio- und Fernsehbeiträgen, Wetterinhalten für YouTube und einer eigenen Wetterplattform zurück. Er verbindet damit das, was die soziale Neun auszeichnet, mit dem, was der Einser verlangt: etwas, das alle nutzen, und das korrekt ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Jens Riewa, Dieter Thomas Heck und Hans Sigl</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-jens-riewa">Jens Riewa (SO9w1)</a> ist ebenfalls ein Fernsehgesicht, das der Gemeinschaft Nachrichten erklärt, und <a href="#beruehmte-dieter-thomas-heck">Dieter Thomas Heck (SO9w1)</a> hielt als Moderator über Jahrzehnte ein Publikum zusammen. <a href="#beruehmte-hans-sigl">Hans Sigl (SO9w1)</a> zeigt dieselbe Konstellation als Schauspieler. Bei Kachelmann kommt der Streit um die Genauigkeit hinzu, den der Einserflügel stärker färbt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Verfahren von 2010 und 2011 (Stand 26. Oktober 2026)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im März 2010 wurde Kachelmann wegen eines Vergewaltigungsvorwurfs festgenommen und im Mai 2010 angeklagt. Das Landgericht Mannheim sprach ihn am 31. Mai 2011 frei. Staatsanwaltschaft und Nebenklägerin zogen ihre Rechtsmittel zurück, der Freispruch wurde im Oktober 2011 rechtskräftig. Dieses Porträt wertet den Vorwurf nicht, sondern hält fest, dass das Verfahren mit dem Freispruch endete.</p>
+          <p class="vb-intro">Danach folgten weitere Verfahren: 2016 gewann er einen Kostenprozess gegen seine frühere Partnerin, und von Axel Springer erhielt er Schadensersatz, den ein Gericht in der Berufung verringerte. 2019 erging zudem ein Urteil des Europäischen Gerichtshofs für Menschenrechte zu einem von der ›Bild‹-Zeitung veröffentlichten Foto. Mit seiner Frau Miriam schrieb er das Buch ›Recht und Gerechtigkeit. Ein Märchen aus der Provinz‹ (2012). Er heiratete sie 2011, sie leben in der Schweiz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Was bleibt: ein Erklärer, der sich einmischt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die soziale Neun mit Einserflügel gleicht Spannungen im Gemeinsamen aus und hat dabei einen strengen inneren Richter. Heilsam wäre für diesen Subtyp, die eigene Stimme auch dann zu behalten, wenn nicht gleich alle zustimmen, und den Anspruch auf Richtigkeit nicht allein zu tragen. Dass Kachelmann nach 2011 öffentlich blieb und wieder in der Gemeinschaft des Fernsehpublikums auftrat, lässt sich in diesem Sinn lesen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
+        {route:"beruehmte-jens-riewa", label:"Porträt: Jens Riewa (SO9w1)"},
+        {route:"beruehmte-dieter-thomas-heck", label:"Porträt: Dieter Thomas Heck (SO9w1)"},
+        {route:"beruehmte-hans-sigl", label:"Porträt: Hans Sigl (SO9w1)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
