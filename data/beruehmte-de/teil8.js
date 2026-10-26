@@ -1456,7 +1456,7 @@ export function reinhardMeyPortraitPage() {
         <h2 class="vb-section">5. Was trägt und was drückt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Getragen wird er von der Verbindung aus Tiefe und Reichweite: ›Gute Nacht, Freunde‹, ›Über den Wolken‹ und viele weitere wurden fester Bestandteil des deutschsprachigen Liedguts, weil in ihnen echtes Gefühl und sorgfältiges Handwerk zusammenkommen. Zur Neun gehört, dass der eigene Wille hinter dem Gemeinsamen zurücktritt; der Einserflügel hält dagegen, dass es gut gemacht sein muss.</p>
-          <p class="vb-intro">Der Druck liegt in der Anspannung hinter dem Gelingen: Auch nach Tausenden Konzerten bleibt das Lampenfieber so stark wie am Anfang, und der Anspruch, vor sich selbst zu bestehen, muss vor jedem Auftritt neu eingelöst werden.</p>
+          <p class="vb-intro">Der Druck liegt in der Anspannung hinter dem Gelingen: Auch nach Tausenden Konzerten bleibt das Lampenfieber so stark wie am Anfang, und der Anspruch, vor sich selbst zu bestehen, muss vor jedem Auftritt neu eingelöst werden. Enneagrammatisch lässt sich das mit dem Stresspunkt der Neun in Verbindung bringen, der Sechs: Unter Druck zeigt die Neun Züge dieses Typs, etwa Sorge, Zweifel und die Angst, nicht zu genügen. Das Lampenfieber, das Mey vor jedem Auftritt beschreibt, passt zu diesem Muster, auch wenn er auf der Bühne nach außen weiter souverän wirkt.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Parallelen im selben Subtyp: Dieter Thomas Heck, Jörg Kachelmann und Eleanor Roosevelt</h2>

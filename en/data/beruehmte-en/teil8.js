@@ -1375,7 +1375,7 @@ export function reinhardMeyPortraitPage() {
         <h2 class="vb-section">5. What carries and what weighs</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">He is carried by the combination of depth and reach: ‘Gute Nacht, Freunde’, ‘Über den Wolken’ and many others became a firm part of German-language song because real feeling and careful craft come together in them. It belongs to the Nine that one's own will steps back behind what is shared; the One wing counters that it must be well done.</p>
-          <p class="vb-intro">The weight lies in the tension behind success: even after thousands of concerts the stage fright remains as strong as at the beginning, and the demand to measure up before oneself must be met anew before every performance.</p>
+          <p class="vb-intro">The weight lies in the tension behind success: even after thousands of concerts the stage fright remains as strong as at the beginning, and the demand to measure up before oneself must be met anew before every performance. In Enneagram terms this can be linked to the Nine's stress point, the Six: under pressure the Nine shows traits of that type, such as worry, doubt and the fear of not being enough. The stage fright that Mey describes before every performance fits this pattern, even though on stage he continues to appear sovereign on the outside.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Parallels in the same subtype: Dieter Thomas Heck, Jörg Kachelmann and Eleanor Roosevelt</h2>
