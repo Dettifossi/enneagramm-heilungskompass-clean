@@ -62866,7 +62866,7 @@ function psychogrammePage() {
           <button type="button" data-psycho-mode="classic" aria-pressed="false" onclick="window._psychoMode(this,'classic')" style="border:1px solid var(--copper,#a5652f);border-radius:999px;padding:.35rem 1rem;font:inherit;font-size:.9rem;cursor:pointer;">Klassisch</button>
         </div>
         <div class="psycho-img-wrap">
-          <img src="${R2_CDN}assets/schaubilder/psychogramme/typ-${t.typ}-comic.jpg?v=4" alt="Psychogramm Typ ${t.typ} (Lerncomic)" class="psycho-img psycho-comic" style="display:none;" onload="window._psychoComicReady(this)" onerror="this.remove()" />
+          <img src="${R2_CDN}assets/schaubilder/psychogramme/typ-${t.typ}-comic.jpg?v=5" alt="Psychogramm Typ ${t.typ} (Lerncomic)" class="psycho-img psycho-comic" style="display:none;" onload="window._psychoComicReady(this)" onerror="this.remove()" />
           <img src="${R2_CDN}assets/schaubilder/psychogramme/typ-${t.typ}.jpg" alt="Psychogramm Typ ${t.typ}" class="psycho-img psycho-classic" />
         </div>
         ${psychogrammErklaerung(t.typ, "de")}
