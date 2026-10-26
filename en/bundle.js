@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=415";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=416";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -107,6 +107,7 @@ const robbieColtranePortraitPage = () => _lazyPage("./data/beruehmte-en/teil5.js
 const happyAndersonPortraitPage = () => _lazyPage("./data/beruehmte-en/teil8.js", "happyAndersonPortraitPage");
 const paulSimonPortraitPage = () => _lazyPage("./data/beruehmte-en/teil9.js", "paulSimonPortraitPage");
 const artGarfunkelPortraitPage = () => _lazyPage("./data/beruehmte-en/teil9.js", "artGarfunkelPortraitPage");
+const jamesDeanPortraitPage = () => _lazyPage("./data/beruehmte-en/teil3.js", "jamesDeanPortraitPage");
 const steveMcQueenPortraitPage = () => _lazyPage("./data/beruehmte-en/teil11.js", "steveMcQueenPortraitPage");
 const karinThalerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil6.js", "karinThalerPortraitPage");
 const albertBrooksPortraitPage = () => _lazyPage("./data/beruehmte-en/teil18.js", "albertBrooksPortraitPage");
@@ -1956,6 +1957,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Self-Preservation Type 4",
     teaser:"SP4w5 \u00b7 born 1939 in Milwaukee. Choreographer and ballet director, Hamburg Ballet 1973\u20132024 (\u2018Nijinsky\u2019, \u2018The Lady of the Camellias\u2019). The Dove who puts her depth quietly into works.",
     land:"USA/Germany", tags:["Tanz"], gender:"m"},
+{ route:"beruehmte-james-dean", name:"James Dean", added:"2026-10-26", subtyp:"SX4w3",
+    heading:"James Dean \u2013 Sexual Type 4",
+    teaser:"SX4w3 \u00b7 1931\u20131955. American actor (\u2018East of Eden\u2019, \u2018Rebel Without a Cause\u2019, \u2018Giant\u2019). The Chihuahua who turned longing and vulnerability into the image of a generation and died at 24.",
+    land:"USA", tags:["Schauspiel","Film"], gender:"m"},
 { route:"beruehmte-steve-mcqueen", name:"Steve McQueen", added:"2026-10-26", subtyp:"SX6w7",
     heading:"Steve McQueen \u2013 Sexual Type 6",
     teaser:"SX6w7 \u00b7 1930\u20131980. American actor and racing driver (\u2018Bullitt\u2019, \u2018The Great Escape\u2019). The Wolf who as an abandoned child made strength his shield and became the \u2018King of Cool\u2019.",
@@ -46753,6 +46758,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-albert-brooks": albertBrooksPortraitPage,
       "beruehmte-karin-thaler": karinThalerPortraitPage,
       "beruehmte-steve-mcqueen": steveMcQueenPortraitPage,
+      "beruehmte-james-dean": jamesDeanPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,

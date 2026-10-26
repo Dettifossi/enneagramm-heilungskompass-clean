@@ -3127,6 +3127,7 @@ export function steveMcQueenPortraitPage() {
         {route:"beruehmte-eva-mendes", label:"Portrait: Eva Mendes (SX6w7)"},
         {route:"beruehmte-bruce-lee", label:"Portrait: Bruce Lee (SO3w4)"},
         {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+        {route:"beruehmte-james-dean", label:"Portrait: James Dean (SX4w3) – the other rebel icon"},
       ])}
     </div>
   `);

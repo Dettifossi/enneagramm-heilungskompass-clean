@@ -3027,3 +3027,74 @@ export function jimmyWalesPortraitPage() {
     </div>
   `);
 }
+
+export function jamesDeanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-james-dean-portrait.jpg" alt="James Dean – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">James Dean</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexual Type 4 with a Three wing</p>
+        <p class="krim-portrait-subtitle">American actor, 1931&ndash;1955 &ndash; ‘East of Eden’, ‘Rebel Without a Cause’, ‘Giant’ &ndash; animal counterpart: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chihuahua: a boy who lost his only confidante</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Chihuahua</strong> is small and has an enormous temperament, and it defends its place as if it were a wolf. James Byron Dean was born on 8 February 1931 in Marion, Indiana. His mother Mildred, who according to a biography was the only one who truly understood him, died of uterine cancer in 1938 when he was nine. His father Winton could not raise his son alone and sent him to Aunt Ortense and Uncle Marcus Winslow on the farm in Fairmount, where he grew up in a Quaker household.</p>
+          <p class="vb-intro">At school he was, according to the accounts, unremarkable but popular: he played baseball and basketball, studied drama and competed in public speaking. In the Methodist pastor James DeWeerd he had a mentor who, according to Wikipedia, is said to have shaped his interest in bullfighting, car racing and philosophy. In 1949 he moved to his father in California, enrolled at Santa Monica College and then at UCLA, and dropped out in 1951 to become an actor.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Four: competitive envy and the longing for what is missing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo saw in the sexual Four the subtype of competitive envy: the longing for what one did not get is not carried quietly but played out in comparison with others. In Dean this can be linked to a remark he made, according to Wikipedia, to a journalist: ‘I've made a study of Marlon Brando. And I've made a study of poor Jimmy Dean.’ He compared himself openly with the other great young actor of his time.</p>
+          <p class="vb-intro">How he dealt with criticism fits this: when Lee Strasberg sharply criticized his performance at the Actors Studio after Dean's only solo presentation, he stormed out. He kept attending classes afterwards but never again submitted work for critique. Whoever shows themselves so vulnerably prefers, after a blow, to protect themselves from the next.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three wing: impact, pace and the consciously built image</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three wing (w3)</strong> gives the Four drive and an eye for their own effect. Dean knew what his figure triggered: ‘We're sullen, we're broodin', we're something of a menace […] I know you can't be sexy if you smile. You can't be a rebel if you grin.’ That is a sober analysis of one's own impact. In the drawing the gaze seeks the viewer; the cigarette in the corner of the mouth belongs to the pose.</p>
+          <p class="vb-intro">The path was purposeful: in 1950 came his television debut in a Pepsi commercial, then the role of the apostle John in the Easter special ‘Hill Number One’, which according to one figure some 42 million people watched. Small film parts followed, admission to the Actors Studio, television plays and, in 1954, the stage in André Gide's ‘The Immoralist’, which prompted the call from director Elia Kazan. His relationship with Pier Angeli was seen by his friend William Bast largely as a publicity creation, and Warner marketed him as an eligible bachelor.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the actor who did not hide vulnerability</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dean played in only three major films and shaped a decade with them. In ‘East of Eden’ (1955) he played Cal Trask, the unloved son in Steinbeck's family story. Kazan describes how Dean improvised, for instance in the embrace of his father. In ‘Rebel Without a Cause’ (1955) he was the uprooted teenager Jim Stark, in ‘Giant’ (1956) the ranch hand turned oil tycoon Jett Rink.</p>
+          <p class="vb-intro">What was special was the tone: François Truffaut described Dean's effect as a rebellion against psychologically smoothed acting, and David Thomson called his acting sensitive and vulnerable (‘sensitivity and vulnerability’). For ‘East of Eden’ he was the first actor ever nominated posthumously for the Oscar for best actor, and for ‘Giant’ a second time, the only actor with two posthumous nominations. In 1960 he received a star on the Hollywood Walk of Fame. The American Film Institute ranked him in 1999 at number 18 among the greatest male stars of Golden Age Hollywood.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-charlie-chaplin">Charlie Chaplin (SX4w3)</a> likewise made himself, out of a childhood without support, an artist who drew everything to himself, yet while Chaplin controlled his work down to the last detail, Dean showed himself raw and unprotected. <a href="#beruehmte-prince-rogers-nelson">Prince (SX4w3)</a> shares subtype and wing with him and the self-staging that brings vulnerability and drive for impact together. As the second great rebel icon of the time stands <a href="#beruehmte-steve-mcqueen">Steve McQueen (SX6w7)</a>, in a different subtype but with a similar effect.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The last day: pace that waited for no warning</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dean loved racing. In 1955 he drove a Porsche Speedster and won the novice class at the Palm Springs Road Races; director George Stevens forbade him to drive during the filming of ‘Giant’. Then he traded the car for a new, more powerful Porsche 550 Spyder, which he nicknamed ‘Little Bastard’, and entered the Salinas race for 2 October.</p>
+          <p class="vb-intro">On 30 September 1955 he drove there with the Porsche mechanic Rolf Wütherich. At 3:30 p.m. he was ticketed for speeding; at about 5:45 p.m. he collided near Cholame, California, with the Ford of a student who was turning left. Wütherich was thrown from the car, Dean remained trapped and died at 24 of his injuries, including a broken neck. ‘Rebel Without a Cause’ reached cinemas only after his death. He once said: ‘My whole life has been spent in a dramatic display of expression.’</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. What remains: the longing that became an image</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dean stayed 24 years old, and that is exactly what has held his image in place: the boy who lost something and never quite got it back. For the sexual Four with a Three wing it would be healing to experience being seen even without a stage, and that longing does not have to be displayed to be real. That in his films he made exactly this longing visible explains why generations of young people recognized themselves in him.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx4", label:"SX4 – The Chihuahua: subtype profile"},
+        {route:"beruehmte-charlie-chaplin", label:"Portrait: Charlie Chaplin (SX4w3)"},
+        {route:"beruehmte-prince-rogers-nelson", label:"Portrait: Prince (SX4w3)"},
+        {route:"beruehmte-steve-mcqueen", label:"Portrait: Steve McQueen (SX6w7)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}

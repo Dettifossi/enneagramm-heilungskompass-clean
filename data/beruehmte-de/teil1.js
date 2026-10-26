@@ -3100,3 +3100,74 @@ export function simoneMennePortraitPage() {
     </div>
   `);
 }
+
+export function jamesDeanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-james-dean-portrait.jpg" alt="James Dean – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">James Dean</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexueller Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Schauspieler, 1931&ndash;1955 &ndash; ›East of Eden‹, ›Rebel Without a Cause‹, ›Giant‹ &ndash; Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua: ein Junge, dem die einzige Vertraute fehlte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist klein und hat ein gewaltiges Temperament, und er verteidigt seinen Platz, als wäre er ein Wolf. James Byron Dean kam am 8. Februar 1931 in Marion in Indiana zur Welt. Seine Mutter Mildred, die nach einer Biografie die einzige war, die ihn wirklich verstand, starb 1938 an Gebärmutterkrebs, als er neun war. Der Vater Winton konnte den Sohn nicht allein großziehen und schickte ihn zu Tante Ortense und Onkel Marcus Winslow auf die Farm in Fairmount, wo er in einer Quäkerfamilie aufwuchs.</p>
+          <p class="vb-intro">In der Schule war er nach den Angaben unauffällig, aber beliebt: Er spielte Baseball und Basketball, studierte Drama und trat bei Redewettbewerben an. Mit dem methodistischen Pastor James DeWeerd hatte er einen Mentor, der nach der Wikipedia-Seite sein Interesse an Stierkampf, Autorennen und Philosophie geprägt haben soll. 1949 zog er zum Vater nach Kalifornien, schrieb sich am Santa Monica College und dann an der UCLA ein und brach 1951 das Studium ab, um Schauspieler zu werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: der Konkurrenzneid und die Sehnsucht nach dem, was fehlt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo sah in der sexuellen Vier den Subtyp des Konkurrenzneids: Die Sehnsucht nach dem, was man nicht bekommen hat, wird nicht still getragen, sondern im Vergleich mit anderen ausgetragen. Bei Dean lässt sich das mit einem Satz verbinden, den er nach der Wikipedia-Seite zu einem Journalisten sagte: ›I've made a study of Marlon Brando. And I've made a study of poor Jimmy Dean.‹ – ›Ich habe Marlon Brando studiert, und ich habe den armen Jimmy Dean studiert.‹ Er verglich sich offen mit dem anderen großen jungen Schauspieler seiner Zeit.</p>
+          <p class="vb-intro">Dazu passt, wie er mit Kritik umging: Als Lee Strasberg im Actors Studio nach Deans einziger Soloarbeit seinen Auftritt scharf kritisierte, stürmte er hinaus. Er besuchte danach weiter den Unterricht, legte aber nie wieder Arbeiten zur Kritik vor. Wer sich so verletzlich zeigt, schützt sich nach einem Hieb lieber vor dem nächsten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Wirkung, Tempo und das bewusst gebaute Bild</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der Vier Tatkraft und den Blick für die eigene Wirkung. Dean wusste, was seine Figur auslöste: ›We're sullen, we're broodin', we're something of a menace […] I know you can't be sexy if you smile. You can't be a rebel if you grin.‹ – ›Wir sind mürrisch, wir brüten, wir sind eine Art Bedrohung […] Man kann nicht sexy sein, wenn man lächelt. Man kann kein Rebell sein, wenn man grinst.‹ Das ist eine nüchterne Analyse der eigenen Wirkung. Auf der Zeichnung sucht der Blick den Betrachter, die Zigarette im Mundwinkel gehört zur Pose.</p>
+          <p class="vb-intro">Der Weg war zielstrebig: 1950 kam sein Fernsehdebüt in einem Pepsi-Spot, dann die Rolle des Apostels Johannes im Osterfilm ›Hill Number One‹, den nach einer Angabe rund 42 Millionen Menschen sahen. Es folgten kleine Filmrollen, Aufnahme in das Actors Studio, Fernsehspiele, 1954 die Bühne mit André Gides ›The Immoralist‹ (›Der Immoralist‹), die den Anruf des Regisseurs Elia Kazan auslöste. Seine Beziehung zu Pier Angeli sah sein Freund William Bast großenteils als Publicity-Schöpfung, und Warner vermarktete ihn als begehrten Junggesellen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: der Schauspieler, der Verletzlichkeit nicht versteckte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dean spielte in nur drei großen Filmen und prägte damit ein Jahrzehnt. In ›East of Eden‹ (1955, ›Jenseits von Eden‹) spielte er Cal Trask, den ungeliebten Sohn in Steinbecks Familiengeschichte. Kazan beschreibt, wie Dean improvisierte, etwa bei der Umarmung des Vaters. In ›Rebel Without a Cause‹ (1955, ›…denn sie wissen nicht, was sie tun‹) war er der entwurzelte Teenager Jim Stark, in ›Giant‹ (1956) der Farmarbeiter und spätere Ölmagnat Jett Rink.</p>
+          <p class="vb-intro">Das Besondere war der Ton: François Truffaut beschrieb Deans Wirkung als Rebellion gegen die psychologisch geglättete Schauspielkunst, David Thomson nannte sein Spiel feinfühlig und verletzlich (›sensitivity and vulnerability‹). Für ›East of Eden‹ war er als erster Schauspieler überhaupt posthum für den Oscar als bester Hauptdarsteller nominiert, für ›Giant‹ ein zweites Mal, als einziger Schauspieler mit zwei posthumen Nominierungen. 1960 erhielt er einen Stern auf dem Hollywood Walk of Fame. Das American Film Institute reihte ihn 1999 auf Platz 18 der größten männlichen Filmstars des goldenen Hollywood.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-charlie-chaplin">Charlie Chaplin (SX4w3)</a> machte sich ebenfalls aus einer Kindheit ohne Halt zum Künstler, der alles an sich zog, doch während Chaplin sein Werk bis ins Letzte kontrollierte, zeigte sich Dean roh und ungeschützt. <a href="#beruehmte-prince-rogers-nelson">Prince (SX4w3)</a> teilt mit ihm Subtyp und Flügel und die Selbstinszenierung, die Verletzlichkeit und Drang nach Wirkung zusammenbringt. Als zweite große Rebellen-Ikone der Zeit steht <a href="#beruehmte-steve-mcqueen">Steve McQueen (SX6w7)</a> neben ihm, in einem anderen Subtyp, aber mit ähnlicher Wirkung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der letzte Tag: Tempo, das keine Warnung abwartete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dean liebte das Rennen. 1955 fuhr er einen Porsche Speedster und gewann bei den Palm Springs Road Races die Novizenklasse; Regisseur George Stevens untersagte ihm während der Dreharbeiten zu ›Giant‹ das Fahren. Dann tauschte er den Wagen gegen einen neuen, stärkeren Porsche 550 Spyder, den er ›Little Bastard‹ nannte, und meldete sich zum Rennen in Salinas für den 2. Oktober an.</p>
+          <p class="vb-intro">Am 30. September 1955 fuhr er mit dem Porsche-Mechaniker Rolf Wütherich dorthin. Um 15:30 Uhr bekam er einen Strafzettel wegen zu schnellen Fahrens, gegen 17:45 Uhr stieß er bei Cholame in Kalifornien mit dem Ford eines Studenten zusammen, der nach links abbog. Wütherich wurde aus dem Wagen geschleudert, Dean blieb eingeklemmt und starb mit 24 Jahren an den Verletzungen, darunter ein gebrochenes Genick. ›Rebel Without a Cause‹ kam erst nach seinem Tod ins Kino. Er sagte einmal: ›My whole life has been spent in a dramatic display of expression.‹ – ›Mein ganzes Leben bestand aus einer dramatischen Zurschaustellung von Ausdruck.‹</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Was bleibt: die Sehnsucht, die zum Bild wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dean blieb 24 Jahre alt, und gerade das hat sein Bild festgehalten: der Junge, der etwas verloren hat und es nie ganz bekam. Für die sexuelle Vier mit Dreierflügel wäre es heilsam, zu erleben, dass sie auch ohne Bühne gesehen wird und dass die Sehnsucht nicht vorgeführt werden muss, um echt zu sein. Dass er in seinen Filmen genau diese Sehnsucht sichtbar machte, erklärt, warum sich Generationen von Jugendlichen in ihm wiedererkannten.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"beruehmte-charlie-chaplin", label:"Porträt: Charlie Chaplin (SX4w3)"},
+        {route:"beruehmte-prince-rogers-nelson", label:"Porträt: Prince (SX4w3)"},
+        {route:"beruehmte-steve-mcqueen", label:"Porträt: Steve McQueen (SX6w7)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}

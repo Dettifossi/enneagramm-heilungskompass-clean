@@ -2540,6 +2540,7 @@ export function princeRogersNelsonPortraitPage() {
         {route:"krankheitsportraets-prince", label:"Krankheitsporträt: Prince (SX4w3)"},
         {route:"beruehmte-charlie-chaplin", label:"Porträt: Charlie Chaplin (SX4w3)"},
         {route:"beruehmte-freddie-mercury", label:"Porträt: Freddie Mercury (SX4w3)"},
+        {route:"beruehmte-james-dean", label:"Porträt: James Dean (SX4w3)"},
       ])}
     </div>
   `);

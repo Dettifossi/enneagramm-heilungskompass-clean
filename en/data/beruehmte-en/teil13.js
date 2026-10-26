@@ -2604,6 +2604,7 @@ export function charlieChaplinPortraitPage() {
         {route:"beruehmte-prince-rogers-nelson", label:"Portrait: Prince Rogers Nelson (SX4w3) – same subtype and wing, stage and control"},
         {route:"beruehmte-voltaire", label:"Portrait: Voltaire (SX4w3) – same subtype, satire against the powerful"},
         {route:"krankheitsportraets-freddie-mercury", label:"Illness portrait: Freddie Mercury (SX4w3)"},
+        {route:"beruehmte-james-dean", label:"Portrait: James Dean (SX4w3)"},
       ])}
     </div>
   `);
