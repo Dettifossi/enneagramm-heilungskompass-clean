@@ -39206,7 +39206,49 @@ function showElementModal(elementName) {
   document.body.appendChild(overlay);
 }
 
+// Namen im Fließtext nicht trennen: die deutsche Silbentrennung (hyphens:auto) zerlegt lange Nachnamen.
+// Alle Namensbestandteile ab 7 Buchstaben aus den Porträt-Listen werden nach dem Rendern markiert.
+let _nohyRegex = null;
+function _nohyBuild() {
+  const toks = new Set();
+  [KRIMINAL_PORTRAITS, KRANKHEITS_PORTRAITS, BERUEHMT_PORTRAITS].forEach(arr => (arr || []).forEach(p => {
+    String(p.name || "").split(/[\s\u2011\-]+/).forEach(w => {
+      const t = w.replace(/[^A-Za-z\u00c0-\u024f]/g, "");
+      if (t.length >= 7 && /^[A-Z\u00c0-\u00de]/.test(t)) toks.add(t);
+    });
+  }));
+  const parts = [...toks].sort((x, y) => y.length - x.length).map(t => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+  _nohyRegex = parts.length ? new RegExp("(?<![A-Za-z\\u00c0-\\u024f])(" + parts.join("|") + ")(s?)(?![A-Za-z\\u00c0-\\u024f])", "g") : false;
+}
+function _protectNames(root) {
+  if (document.documentElement.lang !== "de") return;
+  if (_nohyRegex === null) _nohyBuild();
+  if (!_nohyRegex) return;
+  const sel = ".vb-intro, .lead-small, .psycho-intro, .vb-anmerkung, .typentest-intro, .vb-typ__text";
+  (root || document).querySelectorAll(sel).forEach(el => {
+    if (el.dataset.nohy) return;
+    el.dataset.nohy = "1";
+    const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null);
+    const nodes = [];
+    while (walker.nextNode()) { const n = walker.currentNode; if (!n.parentElement.closest("a,button,.nohy,script,style")) nodes.push(n); }
+    nodes.forEach(n => {
+      _nohyRegex.lastIndex = 0;
+      if (!_nohyRegex.test(n.nodeValue)) return;
+      _nohyRegex.lastIndex = 0;
+      const frag = document.createDocumentFragment(); let last = 0; const txt = n.nodeValue; let m;
+      while ((m = _nohyRegex.exec(txt))) {
+        if (m.index > last) frag.appendChild(document.createTextNode(txt.slice(last, m.index)));
+        const sp = document.createElement("span"); sp.className = "nohy"; sp.textContent = m[0]; frag.appendChild(sp);
+        last = m.index + m[0].length;
+      }
+      if (last < txt.length) frag.appendChild(document.createTextNode(txt.slice(last)));
+      n.parentNode.replaceChild(frag, n);
+    });
+  });
+}
+
 function bindEvents() {
+  try { _protectNames(document.querySelector("#app")); } catch (e) {}
 
   // Notizen \u2013 gespeicherten Wert wiederherstellen
   document.querySelectorAll('[data-note-key]').forEach(function(el) {
