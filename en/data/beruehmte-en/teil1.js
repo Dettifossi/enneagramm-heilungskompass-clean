@@ -3037,3 +3037,74 @@ export function falcoPortraitPage() {
     </div>
   `);
 }
+
+export function marthaGrahamPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-martha-graham-portrait.jpg" alt="Martha Graham – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Martha Graham</p>
+        <p class="krim-portrait-typ">SO4w3 &middot; Social Type 4 with a Three wing</p>
+        <p class="krim-portrait-subtitle">Dancer and choreographer, 1894&ndash;1991 &ndash; mother of modern dance &ndash; animal counterpart: armadillo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The armadillo: armor around a tender interior</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>armadillo</strong> wears its armor on its body and rolls up when danger comes, yet underneath lies soft, vulnerable skin. Martha Graham was born on 11 May 1894 in Allegheny City, today part of Pittsburgh. Her father is described as a physician for mental illness, and the family later moved to California. In 1911 she saw a dance performance for the first time, a show by Ruth St. Denis, and found her path in it. From 1916 she trained at the Denishawn school in Los Angeles and joined the company of the same name.</p>
+          <p class="vb-intro">What stands out is how determined she was to go her own way. She later said: ‘Everything I did was influenced by Denishawn.’ Yet she broke away from that school and built a language that had little left in common with ballet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Four: pain before an audience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo, the author's teacher, called the social Four's subtype <em>Shame</em>: it feels inadequate or different and yet seeks out the group precisely to make its uniqueness visible. It does not suffer in hiding but carries its otherness into public view. The Life Pattern Compass in this app describes this as a hard shell outside and a very sensitive inner life beneath.</p>
+          <p class="vb-intro">In Graham this trait can be seen in the work itself. She did not put the beautiful and light side of ballet on stage but grief, guilt, rage and death. In ‘Lamentation’ (1930) the dancer is wrapped in a stretched tube of fabric from which pain shows only as tension of the body. In ‘Night Journey’ (1947) she tells the story of Oedipus from the perspective of Jocasta. Here tragic otherness is lived out in front of an audience.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three wing: effect, stage, fame</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three wing (w3)</strong> gives the Four drive and a sense for impact. In 1926 Graham founded her own ensemble in New York and gave her first evening of her own work. From it grew the Martha Graham Dance Company, according to Wikipedia the oldest dance company in the United States (it marked its hundredth anniversary in 2026). She created 181 works and designed the costumes for 135 of them herself. This is where the Three shows: she wanted not only to renew dance but to shape the whole picture on stage.</p>
+          <p class="vb-intro">She also took up space publicly: in the late 1930s she became the first dancer to perform at the White House (sources give 1937 and 1938), in 1976 she received the Presidential Medal of Freedom and in 1979 the Kennedy Center Honors. She said no when it came to her convictions: she declined to take part in the 1936 Olympic Games in Berlin, and her piece ‘Chronicle’ (1936) was a dance against war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: the technique of breath</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What truly made Graham unique is the Graham technique. It rests on ‘contraction and release’, a principle derived from breathing that works from the pelvis and torso. The body is not stretched upward as in ballet but contracts and opens, like a breath or a sob. This gave dance a means of showing feeling as movement of the interior.</p>
+          <p class="vb-intro">Her major works include ‘American Document’ (1938), ‘Appalachian Spring’ (1944, music by Aaron Copland, set by Isamu Noguchi) and ‘Night Journey’ (1947). Her students included Merce Cunningham, Paul Taylor and Twyla Tharp. What emerged was not just a body of work but a school from which modern dance developed. She was called the ‘Picasso of dance’.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype and among choreographers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the same subtype with the same wing stands <a href="#beruehmte-michael-jackson">Michael Jackson (SO4w3)</a>, also an artist who carried pain and otherness onto the big stage. <a href="#beruehmte-gustav-mahler">Gustav Mahler (SO4w5)</a> shows the same subtype with a Five wing. As a choreographer she shares with <a href="#beruehmte-john-neumeier">John Neumeier (SP4w5)</a> both the profession and the Four: both tell of inner need and longing through dance, she with the armor of shame and the force of the stage, he more quietly and in a carrying way. And with <a href="#beruehmte-isadora-duncan">Isadora Duncan (SX2w3)</a> Graham shares the will to free dance from the constraints of classical ballet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Marriage, crisis and return</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Erick Hawkins was the first male dancer of her company. She was married to him from 1948 to 1954. After the end of her stage career, which sources date to 1968, 1969 or 1970, she fell into a deep crisis with depression and heavy drinking until her health collapsed. In 1972 she stopped drinking, returned to the studio and created about ten more pieces. She died on 1 April 1991 in New York at the age of 96. Her autobiography appeared in 1991 (‘Blood Memory’).</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Shadow and path of healing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The shadow of the social Four is that worth hangs entirely on expression: when the stage falls away, emptiness threatens. This showed in Graham after she stopped dancing. The Four's path leads from the feeling of being different and lacking to the experience that one's own being is enough. That she came back after the crisis and created something new once more can be read as such a path.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: subtype profile"},
+        {route:"beruehmte-john-neumeier", label:"Portrait: John Neumeier (SP4w5) – choreographer"},
+        {route:"beruehmte-michael-jackson", label:"Portrait: Michael Jackson (SO4w3)"},
+        {route:"beruehmte-gustav-mahler", label:"Portrait: Gustav Mahler (SO4w5)"},
+        {route:"beruehmte-isadora-duncan", label:"Portrait: Isadora Duncan (SX2w3)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}

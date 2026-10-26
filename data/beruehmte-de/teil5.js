@@ -2963,3 +2963,74 @@ export function peterThielPortraitPage() {
     </div>
   `);
 }
+
+export function marthaGrahamPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-martha-graham-portrait.jpg" alt="Martha Graham – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Martha Graham</p>
+        <p class="krim-portrait-typ">SO4w3 &middot; Sozialer Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Tänzerin und Choreografin, 1894&ndash;1991 &ndash; Mutter des modernen Tanzes &ndash; Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier: ein Panzer um ein empfindliches Innere</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> trägt seine Rüstung am Körper und rollt sich bei Gefahr ein, und doch ist darunter eine weiche, verletzliche Haut. Martha Graham wurde am 11. Mai 1894 in Allegheny City geboren, heute ein Stadtteil von Pittsburgh. Ihr Vater war nach den Angaben Arzt für psychische Leiden, die Familie zog später nach Kalifornien. 1911 sah sie zum ersten Mal eine Tanzvorstellung, einen Auftritt von Ruth St. Denis, und fand darin ihren Weg. Ab 1916 lernte sie an der Denishawn-Schule in Los Angeles und gehörte der gleichnamigen Kompanie an.</p>
+          <p class="vb-intro">Auffällig ist, wie entschlossen sie ihren eigenen Weg ging. Sie sagte später: »Alles, was ich tat, war von Denishawn beeinflusst« (im Original: ›Everything I did was influenced by Denishawn‹). Doch sie löste sich von dieser Schule und baute eine Sprache, die mit dem Ballett kaum noch etwas gemein hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Schmerz vor Publikum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo, Lehrer des Autors, nannte den Subtyp der sozialen Vier <em>Scham</em>: Sie empfindet sich als unzulänglich oder anders und sucht doch gerade die Gruppe, um ihre Einzigartigkeit sichtbar zu machen. Sie leidet nicht im Verborgenen, sondern trägt die Anderheit in die Öffentlichkeit. Im Lebensmusterkompass dieser App steht dafür das Bild des harten Panzers nach außen und eines empfindsamen Inneren darunter.</p>
+          <p class="vb-intro">Bei Graham ist dieser Zug im Werk selbst zu sehen. Sie stellte nicht das Schöne und Leichte des Balletts auf die Bühne, sondern Trauer, Schuld, Wut und Tod. In ›Lamentation‹ (1930) steckt die Tänzerin in einem gedehnten Stoffschlauch, aus dem heraus sich Schmerz nur als Spannung des Körpers zeigt. In ›Night Journey‹ (1947) erzählt sie die Geschichte des Ödipus aus der Sicht der Iokaste. Hier wird die tragische Andersartigkeit vor Publikum gelebt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: die Wirkung, die Bühne, der Ruhm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> verleiht der Vier Tatkraft und das Gespür für Wirkung. Graham gründete 1926 in New York ihr eigenes Ensemble und gab ihren ersten eigenen Abend. Daraus wurde die Martha Graham Dance Company, nach Wikipedia die älteste Tanzkompanie der USA (2026 feierte sie ihr hundertjähriges Bestehen). Sie schuf 181 Werke und entwarf selbst für 135 davon die Kostüme. Darin zeigt sich der Dreier: Sie wollte nicht nur den Tanz erneuern, sondern das ganze Bild auf der Bühne gestalten.</p>
+          <p class="vb-intro">Auch öffentlich nahm sie Platz ein: Ende der 1930er Jahre trat sie als erste Tänzerin im Weißen Haus auf (die Quellen nennen 1937 und 1938), 1976 erhielt sie die Presidential Medal of Freedom und 1979 den Kennedy-Center-Preis. Sie sagte nein, wenn es um ihre Überzeugung ging: Zu den Olympischen Spielen 1936 in Berlin ging sie nicht, und ihr Stück ›Chronicle‹ (1936) war ein Tanz gegen den Krieg.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: die Technik der Atmung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Graham wirklich einzigartig machte, ist die Graham-Technik. Sie beruht auf »Contraction and Release« (Zusammenziehen und Loslassen), einem Prinzip, das sich aus der Atmung ableitet und aus Becken und Rumpf heraus wirkt. Der Körper wird nicht wie im Ballett nach oben gestreckt, sondern zieht sich zusammen und öffnet sich, wie ein Atemzug oder ein Schluchzen. Damit gab sie dem Tanz ein Mittel, Gefühl als Bewegung des Inneren zu zeigen.</p>
+          <p class="vb-intro">Zu ihren großen Werken zählen ›American Document‹ (1938), ›Appalachian Spring‹ (1944, Musik von Aaron Copland, Bühne von Isamu Noguchi) und ›Night Journey‹ (1947). Zu ihren Schülern gehörten Merce Cunningham, Paul Taylor und Twyla Tharp. So entstand nicht nur ein Werk, sondern eine Schule, aus der sich der moderne Tanz entwickelte. Man nannte sie den ›Picasso des Tanzes‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp und unter den Choreografen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im selben Subtyp mit demselben Flügel steht <a href="#beruehmte-michael-jackson">Michael Jackson (SO4w3)</a>, ebenfalls ein Künstler, der Schmerz und Andersheit in die große Bühne trug. <a href="#beruehmte-gustav-mahler">Gustav Mahler (SO4w5)</a> zeigt denselben Subtyp mit Fünferflügel. Als Choreograf verbindet sie mit <a href="#beruehmte-john-neumeier">John Neumeier (SE4w5)</a> der Beruf und der Subtyp der Vier: Beide erzählen im Tanz von innerer Not und Sehnsucht, sie mit dem Panzer der Scham und der Wucht der Bühne, er stiller und tragender. Und mit <a href="#beruehmte-isadora-duncan">Isadora Duncan (SX2w3)</a> teilt Graham den Willen, den Tanz von den Fesseln des klassischen Balletts zu befreien.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Ehe, Krise und Wiederkehr</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Erick Hawkins war der erste männliche Tänzer ihrer Kompanie. Mit ihm war sie von 1948 bis 1954 verheiratet. Nach dem Ende ihrer Bühnenkarriere, das die Quellen auf 1968, 1969 oder 1970 datieren, fiel sie in eine tiefe Krise mit Depression und starkem Alkoholkonsum, bis ihre Gesundheit zusammenbrach. 1972 hörte sie mit dem Trinken auf, kehrte ins Studio zurück und schuf noch rund zehn weitere Stücke. Sie starb am 1. April 1991 in New York mit 96 Jahren. Ihre Autobiografie erschien 1991 (›Blood Memory‹, ›Blutgedächtnis‹), die deutsche Ausgabe trägt den Titel ›Der Tanz, mein Leben‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Schatten und Heilungsweg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Schatten der sozialen Vier liegt darin, dass der Wert ganz am Ausdruck hängt: Wenn die Bühne wegfällt, droht die Leere. Das zeigt sich bei Graham nach dem Abschied vom Tanzen. Der Weg der Vier führt vom Gefühl, anders und mangelhaft zu sein, zur Erfahrung, dass das eigene Wesen genügt. Dass sie nach der Krise zurückkehrte und noch einmal Neues schuf, lässt sich als solcher Weg lesen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-john-neumeier", label:"Porträt: John Neumeier (SE4w5) – Choreograf"},
+        {route:"beruehmte-michael-jackson", label:"Porträt: Michael Jackson (SO4w3)"},
+        {route:"beruehmte-gustav-mahler", label:"Porträt: Gustav Mahler (SO4w5)"},
+        {route:"beruehmte-isadora-duncan", label:"Porträt: Isadora Duncan (SX2w3)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}

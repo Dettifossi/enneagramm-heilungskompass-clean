@@ -3051,6 +3051,7 @@ export function johnNeumeierPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
         {route:"beruehmte-paul-simon", label:"Porträt: Paul Simon (SE4w5)"},
+        {route:"beruehmte-martha-graham", label:"Porträt: Martha Graham (SO4w3) – Choreografin"},
         {route:"beruehmte-gustav-mahler", label:"Porträt: Gustav Mahler (SO4w5)"},
         {route:"beruehmte-paul-mccartney", label:"Porträt: Paul McCartney (SE4w5)"},
         {route:"beruehmte-don-mclean", label:"Porträt: Don McLean (SE4w5)"},
