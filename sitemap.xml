@@ -2461,6 +2461,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://kompass.verlagshausrathmer.com/krankheitsportraets-wolfgang-niedecken/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://kompass.verlagshausrathmer.com/krankheitsportraets-niki-lauda/</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -16454,6 +16460,12 @@
   </url>
   <url>
     <loc>https://kompass.verlagshausrathmer.com/en/krankheitsportraets-david-bowie/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kompass.verlagshausrathmer.com/en/krankheitsportraets-wolfgang-niedecken/</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
