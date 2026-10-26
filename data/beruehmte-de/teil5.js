@@ -2988,7 +2988,7 @@ export function marthaGrahamPortraitPage() {
         <h2 class="vb-section">2. Die soziale Vier: Schmerz vor Publikum</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Dr. Claudio Naranjo, Lehrer des Autors, nannte den Subtyp der sozialen Vier <em>Scham</em>: Sie empfindet sich als unzulänglich oder anders und sucht doch gerade die Gruppe, um ihre Einzigartigkeit sichtbar zu machen. Sie leidet nicht im Verborgenen, sondern trägt die Anderheit in die Öffentlichkeit. Im Lebensmusterkompass dieser App steht dafür das Bild des harten Panzers nach außen und eines empfindsamen Inneren darunter.</p>
-          <p class="vb-intro">Bei Graham ist dieser Zug im Werk selbst zu sehen. Sie stellte nicht das Schöne und Leichte des Balletts auf die Bühne, sondern Trauer, Schuld, Wut und Tod. In ›Lamentation‹ (1930) steckt die Tänzerin in einem gedehnten Stoffschlauch, aus dem heraus sich Schmerz nur als Spannung des Körpers zeigt. In ›Night Journey‹ (1947) erzählt sie die Geschichte des Ödipus aus der Sicht der Iokaste. Hier wird die tragische Andersartigkeit vor Publikum gelebt.</p>
+          <p class="vb-intro">Bei Graham ist dieser Zug im Werk selbst zu sehen. Sie stellte nicht das Schöne und Leichte des Balletts auf die Bühne, sondern Trauer, Schuld, Wut und Tod. In ›Lamentation‹ (1930) steckt die Tänzerin in einem gedehnten Stoffschlauch, aus dem heraus sich Schmerz nur als Spannung des Körpers zeigt. In ›Night Journey‹ (1947) erzählt sie die Geschichte des Ödipus aus der Sicht der Jokaste. Hier wird die tragische Andersartigkeit vor Publikum gelebt.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Dreierflügel: die Wirkung, die Bühne, der Ruhm</h2>
