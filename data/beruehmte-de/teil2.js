@@ -589,6 +589,7 @@ export function willieNelsonPortraitPage() {
         {route:"beruehmte-ed-sheeran", label:"Porträt: Ed Sheeran (SX9w1)"},
         {route:"beruehmte-owen-wilson", label:"Porträt: Owen Wilson (SX9w1)"},
         {route:"beruehmte-viggo-mortensen", label:"Porträt: Viggo Mortensen (SX9w1)"},
+        {route:"beruehmte-gary-cooper", label:"Porträt: Gary Cooper (SX9w1)"},
       ])}
     </div>
   `);
@@ -3140,6 +3141,79 @@ export function happyAndersonPortraitPage() {
         {route:"beruehmte-robbie-coltrane", label:"Porträt: Robbie Coltrane (SE9w8)"},
         {route:"beruehmte-charles-laughton", label:"Porträt: Charles Laughton (SE9w8)"},
         {route:"beruehmte-dietmar-baer", label:"Porträt: Dietmar Bär (SE9w8)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
+
+export function garyCooperPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-gary-cooper-portrait.jpg" alt="Gary Cooper – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gary Cooper</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Schauspieler, 1901&ndash;1961 &ndash; ›High Noon‹, ›Sergeant York‹ &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier: lange Stille und dann die sichere Bewegung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> hängt lange reglos im Baum und bewegt sich dann mit erstaunlicher Sicherheit. Gary Cooper kam am 7. Mai 1901 als Frank James Cooper in Helena in Montana zur Welt. Sein Vater Charles war Anwalt, Rancher und später Richter am Obersten Gerichtshof von Montana, seine Mutter Alice stammte wie er aus England. Die Sommer verbrachte die Familie auf der Seven-Bar-Nine-Ranch, wo er reiten, jagen und angeln lernte.</p>
+          <p class="vb-intro">1909 schickte ihn seine Mutter mit seinem Bruder auf die Dunstable Grammar School in England. Er fügte sich der englischen Schuldisziplin, gewöhnte sich aber nie an die steifen Eton-Kragen. Mit 15 verletzte er sich bei einem Autounfall die Hüfte; die Reittherapie auf der Ranch hinterließ den steifen, leicht schiefen Gang und den leicht angewinkelten Reitstil, die später zu seinem Markenzeichen wurden. Er verließ 1918 die Highschool und arbeitete als Cowboy, besuchte bis 1924 das Grinnell College, ohne einen Abschluss zu machen, und ging im November 1924 nach Los Angeles. Dort arbeitete er als Statist und Stuntreiter; der Rodeo-Reiter Jay ›Slim‹ Talbot, mit dem er sich anfreundete, war über dreißig Jahre sein Double.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Vereinigung mit dem Einen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach Claudio Naranjo ist die sexuelle Neun der Subtyp der Vereinigung: Sie sucht nicht die Gruppe, sondern ein einzelnes Gegenüber, einen Menschen oder ein Werk, und geht darin auf. Bei Cooper lässt sich das mit seinen engen Bindungen verbinden. Er hatte vor seiner Ehe eine Reihe von Beziehungen zu Schauspielerinnen, angefangen 1927 mit Clara Bow, die ihm auch beruflich half. Als ihn der plötzliche Ruhm einsam und niedergeschlagen machte, ging er 1931 für ein Jahr nach Italien und lebte bei Gräfin Dorothy di Frasso, die ihm Kunst, gutes Essen und Weine zeigte und ihn auf eine zehnwöchige Safari am Mount Kenya mitnahm.</p>
+          <p class="vb-intro">Auch die Freundschaften waren eng und wenige: Mit Ernest Hemingway verband ihn jahrelang die Jagd und das Skifahren in Sun Valley. 1933 heiratete er Veronica ›Rocky‹ Balfe, und seine Freunde berichten, die Ehe habe ihm gutgetan. Das Foto zeigt einen ruhigen, offenen Blick mit leicht gehobenen Brauen und einem geschlossenen Mund, der kaum merklich lächelt: ein Gesicht, das zuhört.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die Selbstvergessenheit als Schauspielerbegabung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Neun vergisst sich selbst: Sie nimmt die Wünsche und Stimmungen der Umgebung auf, bis die eigene Kontur zurücktritt. Bei der sexuellen Neun, dem ›verstärkenden‹ Subtyp der Neun, ist dieses innere Vergessen besonders ausgeprägt. Das erklärt, warum gerade diese Neunen gute Schauspieler sein können: Sie lassen sich ganz in eine Rolle hineinfallen und verschmelzen mit ihr. Bei Cooper lässt sich das als Deutung mit dem verbinden, was die Wikipedia über seine Wirkung schreibt: Seine Fähigkeit, die eigene Persönlichkeit auf die Figuren zu übertragen, trug zu seinem natürlichen und echten Auftreten bei. Er spielte nicht eine Rolle, er ging in ihr auf.</p>
+          <p class="vb-intro">Dazu passt sein eigener Satz zur Natürlichkeit: ›you find out what people expect of your type of character and then you give them what they want.‹ – ›Man findet heraus, was die Leute von dieser Art Figur erwarten, und gibt ihnen dann, was sie wollen.‹ Nach einem Biografen hat er das Bild des schüchternen Westernhelden mit ›The Virginian‹ (1929) weitgehend selbst geprägt. Nach außen blieb er dabei, wie die New York Times 1941 über seinen ›John Doe‹ in ›Meet John Doe‹ schrieb, ›shy, bewildered, nonaggressive, but a veritable tiger when aroused‹ – schüchtern, verwirrt, unaggressiv, aber ein wahrer Tiger, wenn man ihn reizt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Einserflügel: Anstand, Maßstab und das gute Gewissen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der Neun einen inneren Maßstab: Man tut, was richtig ist. Bei Cooper zeigt sich das als Anstand. Hemingway sagte einmal: ›If you made up a character like Coop, nobody would believe it. He's just too good to be true.‹ – ›Wenn man sich eine Figur wie Coop ausdächte, würde einem das niemand glauben. Er ist einfach zu gut, um wahr zu sein.‹ Er hielt in seiner Garderobe eine Abschrift von Rudyard Kiplings Gedicht ›If—‹ (›Wenn‹) bereit, und die Wikipedia nennt ihn bescheiden und ohne Anspruch auf Sonderbehandlung. Die Rolle des Rhett Butler in ›Gone with the Wind‹ lehnte er ab, weil er sich nicht als so schneidig sah (›I didn't see myself as quite that dashing‹).</p>
+          <p class="vb-intro">Dazu passt, dass er kaum Streit hatte. Sein Freund Joel McCrea sagte: ›Coop never fought, he never got mad, he never told anybody off that I know of; everybody [who] worked with him liked him.‹ – ›Coop hat nie gestritten, wurde nie wütend, hat nach meiner Kenntnis nie jemanden zurechtgewiesen; jeder, der mit ihm arbeitete, mochte ihn.‹ Und doch erzählt man von einem Moment am Set von ›Morocco‹ (1930): Als der Regisseur Josef von Sternberg ihn anbrüllte und auf Deutsch weiter Anweisungen gab, hob der 1,91 Meter große Schauspieler den kleineren Mann am Kragen hoch und sagte, wer in diesem Land arbeiten wolle, solle die hier übliche Sprache sprechen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Substanz: weniger zeigen, mehr sein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Cooper war als Schauspieler berühmt für den zurückhaltenden, natürlichen Ton. Er sagte selbst: ›If others have more interesting things to say than I have, I keep quiet.‹ – ›Wenn andere Interessanteres zu sagen haben als ich, schweige ich.‹ Mit ›The Virginian‹, seinem ersten Tonfilm, wurde er zum Star; seine Stimme galt als tief, klar und angenehm gedehnt. Zu seinen Filmen gehören ›Morocco‹ (1930), ›A Farewell to Arms‹ (1932, nach Hemingway), ›Mr. Deeds Goes to Town‹ (1936), ›Sergeant York‹ (1941), ›For Whom the Bell Tolls‹ (1943) und ›High Noon‹ (1952).</p>
+          <p class="vb-intro">Für ›Sergeant York‹ und ›High Noon‹ gewann er den Oscar als bester Hauptdarsteller. Als er den ersten Preis von seinem Freund James Stewart entgegennahm, sagte er: ›It was Sergeant Alvin York who won this award. Shucks, I've been in the business 16 years and sometimes dreamed I might get one of these. Funny when I was dreaming I always made a better speech.‹ – ›Es war Sergeant Alvin York, der diesen Preis gewann. Verflixt, ich bin seit 16 Jahren im Geschäft und habe manchmal davon geträumt. Komisch, in meinen Träumen habe ich immer die bessere Rede gehalten.‹ Insgesamt spielte er in 84 Filmen die Hauptrolle; das American Film Institute reiht ihn auf Platz 11 der 50 größten Leinwandlegenden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallelen im selben Subtyp und unter Druck</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-viggo-mortensen">Viggo Mortensen (SX9w1)</a> teilt mit Cooper die stille Präsenz und die Liebe zur Weite und zu einem Leben jenseits des Rampenlichts. <a href="#beruehmte-willie-nelson">Willie Nelson (SX9w1)</a> zeigt dieselbe Konstellation als Musiker, und <a href="#beruehmte-art-garfunkel">Art Garfunkel (SX9w1)</a> hat die Verschmelzung mit der eigenen Stimme zum Lebensthema gemacht. Bei Cooper kommt die Härte des Westernhelden hinzu, die sich als Tat zeigt, wenn der Anstand verletzt wird.</p>
+          <p class="vb-intro">Der Stresspunkt der Neun ist die Sechs. Bei Cooper lässt sich damit verbinden, dass er unter Druck Beschwerden körperlich zeigte: Während der Dreharbeiten zu ›High Noon‹ litt er unter Magengeschwüren. 1931 war er von zu vielen Filmen erschöpft, einsam und niedergeschlagen und floh aus Hollywood. Um 1951 trennte er sich von seiner Frau, nachdem seine Beziehung zu der Schauspielerin Patricia Neal bekannt geworden war; die formelle Versöhnung folgte im Februar 1954. 1943 besuchte er auf einer 37.000 Kilometer langen Tournee die Truppen im Südwestpazifik.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Ende: stille Annahme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach der Reise nach Rom 1953, die den Anfang der Versöhnung mit seiner Frau markierte, begann er, über seine Sterblichkeit nachzudenken, und ließ sich am 9. April 1959 katholisch taufen. 1960 wurde Prostatakrebs diagnostiziert, der in den Darm gestreut hatte. Am 27. Februar 1961 erfuhr er, dass er sterben würde, und sagte seiner Familie: ›We'll pray for a miracle; but if not, and that's God's will, that's all right, too.‹ – ›Wir beten um ein Wunder; wenn nicht, und das ist Gottes Wille, ist das auch in Ordnung.‹ Am 17. April sah er im Fernsehen, wie James Stewart für ihn den Ehrenoscar für sein Lebenswerk entgegennahm. Er starb am 13. Mai 1961 in Los Angeles im Alter von 60 Jahren.</p>
+          <p class="vb-intro">Für die sexuelle Neun mit Einserflügel liegt der Weg darin, die eigene Stimme auch dann zu behalten, wenn andere mehr zu sagen haben, und die Bindung an das Eine nicht auf Kosten des eigenen Maßes zu leben. Dass Cooper am Ende nicht kämpfte, sondern annahm, was kam, passt zu der ruhigen Haltung, mit der er sein Leben lebte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"beruehmte-viggo-mortensen", label:"Porträt: Viggo Mortensen (SX9w1)"},
+        {route:"beruehmte-willie-nelson", label:"Porträt: Willie Nelson (SX9w1)"},
+        {route:"beruehmte-art-garfunkel", label:"Porträt: Art Garfunkel (SX9w1)"},
         {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
       ])}
     </div>

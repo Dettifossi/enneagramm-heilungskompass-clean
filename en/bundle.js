@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=419";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=420";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -107,6 +107,7 @@ const robbieColtranePortraitPage = () => _lazyPage("./data/beruehmte-en/teil5.js
 const happyAndersonPortraitPage = () => _lazyPage("./data/beruehmte-en/teil8.js", "happyAndersonPortraitPage");
 const paulSimonPortraitPage = () => _lazyPage("./data/beruehmte-en/teil9.js", "paulSimonPortraitPage");
 const artGarfunkelPortraitPage = () => _lazyPage("./data/beruehmte-en/teil9.js", "artGarfunkelPortraitPage");
+const garyCooperPortraitPage = () => _lazyPage("./data/beruehmte-en/teil12.js", "garyCooperPortraitPage");
 const joergKachelmannPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "joergKachelmannPortraitPage");
 const jamesDeanPortraitPage = () => _lazyPage("./data/beruehmte-en/teil3.js", "jamesDeanPortraitPage");
 const steveMcQueenPortraitPage = () => _lazyPage("./data/beruehmte-en/teil11.js", "steveMcQueenPortraitPage");
@@ -1958,6 +1959,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Self-Preservation Type 4",
     teaser:"SP4w5 \u00b7 born 1939 in Milwaukee. Choreographer and ballet director, Hamburg Ballet 1973\u20132024 (\u2018Nijinsky\u2019, \u2018The Lady of the Camellias\u2019). The Dove who puts her depth quietly into works.",
     land:"USA/Germany", tags:["Tanz"], gender:"m"},
+{ route:"beruehmte-gary-cooper", name:"Gary Cooper", added:"2026-10-26", subtyp:"SX9w1",
+    heading:"Gary Cooper \u2013 Sexual Type 9",
+    teaser:"SX9w1 \u00b7 1901\u20131961. American actor (\u2018High Noon\u2019, \u2018Sergeant York\u2019). The Sloth who let himself fall into his roles and became a legend as the calm, decent Western hero.",
+    land:"USA", tags:["Schauspiel","Film"], gender:"m"},
 { route:"beruehmte-joerg-kachelmann", name:"Jörg Kachelmann", added:"2026-10-26", subtyp:"SO9w1",
     heading:"Jörg Kachelmann \u2013 Social Type 9",
     teaser:"SO9w1 \u00b7 b. 1958. Swiss meteorologist and broadcaster (\u2018Das Wetter im Ersten\u2019, \u2018Riverboat\u2019). The Buffalo who explains the weather for everyone and likes to argue about accuracy.",
@@ -46943,6 +46948,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-steve-mcqueen": steveMcQueenPortraitPage,
       "beruehmte-james-dean": jamesDeanPortraitPage,
       "beruehmte-joerg-kachelmann": joergKachelmannPortraitPage,
+      "beruehmte-gary-cooper": garyCooperPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,

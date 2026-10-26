@@ -3240,6 +3240,7 @@ export function artGarfunkelPortraitPage() {
         {route:"beruehmte-bruce-springsteen", label:"Porträt: Bruce Springsteen (SX9w1)"},
         {route:"beruehmte-willie-nelson", label:"Porträt: Willie Nelson (SX9w1)"},
         {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+        {route:"beruehmte-gary-cooper", label:"Porträt: Gary Cooper (SX9w1)"},
       ])}
     </div>
   `);

@@ -2910,6 +2910,7 @@ export function viggoMortensenPortraitPage() {
         {route:"beruehmte-mads-mikkelsen", label:"Portrait: Mads Mikkelsen (SX9w1)"},
         {route:"beruehmte-willie-nelson", label:"Portrait: Willie Nelson (SX9w1)"},
         {route:"beruehmte-dominik-krause", label:"Portrait: Dominik Krause (SX9w1)"},
+        {route:"beruehmte-gary-cooper", label:"Portrait: Gary Cooper (SX9w1)"},
       ])}
     </div>
   `);

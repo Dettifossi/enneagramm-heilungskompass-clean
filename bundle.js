@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=422";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=423";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -95,6 +95,7 @@ const robbieColtranePortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.j
 const happyAndersonPortraitPage = () => _lazyPage("./data/beruehmte-de/teil2.js", "happyAndersonPortraitPage");
 const paulSimonPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "paulSimonPortraitPage");
 const artGarfunkelPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "artGarfunkelPortraitPage");
+const garyCooperPortraitPage = () => _lazyPage("./data/beruehmte-de/teil2.js", "garyCooperPortraitPage");
 const joergKachelmannPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "joergKachelmannPortraitPage");
 const jamesDeanPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "jamesDeanPortraitPage");
 const steveMcQueenPortraitPage = () => _lazyPage("./data/beruehmte-de/teil3.js", "steveMcQueenPortraitPage");
@@ -27706,6 +27707,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 geb. 1939 in Milwaukee. Choreograf und Ballettdirektor, Hamburg Ballett 1973\u20132024 (\u203aNijinsky\u2039, \u203aDie Kameliendame\u2039). Die Taube, die ihre Tiefe still in Werke fasst.",
     land:"USA/Deutschland", tags:["Tanz"], gender:"m"},
+  { route:"beruehmte-gary-cooper", name:"Gary Cooper", added:"2026-10-26", subtyp:"SX9w1",
+    heading:"Gary Cooper \u2013 Sexueller Typ 9",
+    teaser:"SX9w1 \u00b7 1901\u20131961. US-amerikanischer Schauspieler (\u203aHigh Noon\u2039, \u203aSergeant York\u2039). Das Faultier, das sich in seine Rollen fallen ließ und als ruhiger, anständiger Westernheld zur Legende wurde.",
+    land:"USA", tags:["Schauspiel","Film"], gender:"m"},
   { route:"beruehmte-joerg-kachelmann", name:"Jörg Kachelmann", added:"2026-10-26", subtyp:"SO9w1",
     heading:"Jörg Kachelmann \u2013 Sozialer Typ 9",
     teaser:"SO9w1 \u00b7 geb. 1958. Schweizer Meteorologe und Moderator (\u203aDas Wetter im Ersten\u2039, \u203aRiverboat\u2039). Der Büffel, der das Wetter für alle erklärt und bei der Genauigkeit gern streitet.",
@@ -67214,6 +67219,7 @@ const ROUTES = {
       "beruehmte-steve-mcqueen": steveMcQueenPortraitPage,
       "beruehmte-james-dean": jamesDeanPortraitPage,
       "beruehmte-joerg-kachelmann": joergKachelmannPortraitPage,
+      "beruehmte-gary-cooper": garyCooperPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,

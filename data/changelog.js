@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2675", date: "2026-10-26", text: "Neues Porträt: Gary Cooper (SX9w1) – Schauspieler und Westernlegende.", text_en: "New portrait: Gary Cooper (SX9w1) – actor and Western legend.", route: "beruehmte-gary-cooper" },
     { version: "v2674", date: "2026-10-26", text: "Neu: Die Tugenden im Enneagramm. Ein Wissensartikel mit den neun Tugenden als Kacheln, dem Weg des Innehaltens und neun Beispielen für den Alltag.", text_en: "New: The Virtues in the Enneagram. A knowledge article with the nine virtues as tiles, the way of pausing and nine everyday examples.", route: "tugenden-enneagramm" },
     { version: "v2673", date: "2026-10-26", text: "Neues Porträt: Jörg Kachelmann (SO9w1) – Meteorologe und Moderator.", text_en: "New portrait: Jörg Kachelmann (SO9w1) – meteorologist and broadcaster.", route: "beruehmte-joerg-kachelmann" },
     { version: "v2672", date: "2026-10-26", text: "Neues Porträt: James Dean (SX4w3) – Schauspieler, Ikone einer Generation.", text_en: "New portrait: James Dean (SX4w3) – actor, icon of a generation.", route: "beruehmte-james-dean" },
