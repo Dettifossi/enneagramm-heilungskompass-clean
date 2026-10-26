@@ -677,6 +677,7 @@ export function gustavMahlerPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       <p class="vb-intro">The heart valve infection diagnosed in 1907 and its immediate imprint on his late work – from Das Lied von der Erde to the Ninth Symphony – are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-gustav-mahler">Illness Portrait of Mahler</a>.</p>
       ${relatedLinks([
+        {route:"beruehmte-john-neumeier", label:"Portrait: John Neumeier (SP4w5) – choreographed Mahler&rsquo;s music"},
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
         {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},

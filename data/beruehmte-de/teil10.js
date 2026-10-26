@@ -607,6 +607,7 @@ export function gustavMahlerPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       <p class="vb-intro">Die 1907 diagnostizierte Herzklappenentz\u00fcndung und ihr unmittelbarer Niederschlag im Sp\u00e4twerk \u2013 von \u201eDas Lied von der Erde\u201c bis zur Neunten Sinfonie \u2013 werden ausf\u00fchrlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-gustav-mahler">Krankheitsportr\u00e4t zu Mahler</a> gedeutet.</p>
       ${relatedLinks([
+        {route:"beruehmte-john-neumeier", label:"Porträt: John Neumeier (SE4w5) – choreografierte Mahlers Musik"},
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so4", label:"SO4 \u2013 Das G\u00fcrteltier: Subtyp-Profil"},
         {route:"beruehmte-john-lennon", label:"Portr\xe4t: John Lennon (SO4w5)"},
@@ -3021,14 +3022,15 @@ export function johnNeumeierPortraitPage() {
 
         <h2 class="vb-section">4. Das Werk: Nijinsky, Mahler und die Tiefe des Gefühls</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Neumeier besonders machte, war die Verbindung aus erzählendem Ballett und seelischer Genauigkeit. Er schuf mehr als 170 Werke, viele davon abendfüllend, und kehrte immer wieder zu zwei Gestalten zurück: dem Tänzer Vaslav Nijinsky, der sein Interesse am Tanz einst geweckt hatte (›Nijinsky‹, 2000), und dem Komponisten Gustav Mahler. Beide stehen für das, was die Vier kennt: Künstler am Rand der eigenen Kraft, Sehnsucht, Verlust, Kunst als Ausdruck des Unsagbaren.</p>
-          <p class="vb-intro">Sein Grundsatz lautet: »Ein Choreograf arbeitet mit dem wichtigsten und kostbarsten Material, das es gibt: dem Menschen.« Und über seine Schöpferkraft sagte er: »Ich denke, es liegt daran, dass ich es eigentlich aus Liebe mache.« Dazu passt, dass er jedes Stück mit jeder neuen Besetzung als neu begreift, weil andere Menschen es anders tragen.</p>
+          <p class="vb-intro">Was Neumeier besonders machte, war die Verbindung aus erzählendem Ballett und seelischer Genauigkeit. Er schuf mehr als 170 Werke, viele davon abendfüllend, und kehrte immer wieder zu zwei Gestalten zurück: dem Tänzer Vaslav Nijinsky, der sein Interesse am Tanz einst geweckt hatte (›Nijinsky‹, 2000), und dem Komponisten <a href="#beruehmte-gustav-mahler">Gustav Mahler (SO4w5)</a>. Beide stehen für das, was die Vier kennt: Künstler am Rand der eigenen Kraft, Sehnsucht, Verlust, Kunst als Ausdruck des Unsagbaren.</p>
+          <p class="vb-intro">Sein Grundsatz lautet: »Ein Choreograf arbeitet mit dem wichtigsten und kostbarsten Material, das es gibt: dem Menschen.« Und über seine Schöpferkraft sagte er: »Ich denke, es liegt daran, dass ich es eigentlich aus Liebe mache.« Dazu passt, dass er jedes Stück mit jeder neuen Besetzung als neu und individuell begreift, weil andere Menschen es anders tragen.</p>
           <p class="vb-intro">1978 gründete er die Ballettschule des Hamburg Balletts, nach Wikipedia ist er seit 2011 auch Generaldirektor und künstlerischer Leiter des Bundesjugendballetts. Sein Abschied 2024 mit dem Ballett ›Epilog‹ bei den Hamburger Ballett-Tagen folgte dem Satz: »Man muss irgendwann loslassen.« Die Leitung übernahm Demis Volpi.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Parallelen im selben Subtyp: Paul Simon und Paul McCartney</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Ähnlich still getragene Tiefe zeigt <a href="#beruehmte-paul-simon">Paul Simon (SE4w5)</a>, dessen Lieder die Trauer nicht ausstellen, sondern in Form bringen. Auch <a href="#beruehmte-paul-mccartney">Paul McCartney (SE4w5)</a> und <a href="#beruehmte-don-mclean">Don McLean (SE4w5)</a> gehören zu diesem Subtyp mit Fünferflügel. Neumeier teilt mit ihnen die Beständigkeit über Jahrzehnte und das Arbeiten aus einem inneren Ernst heraus.</p>
+          <p class="vb-intro">Auffällig ist seine lebenslange Hinwendung zu <a href="#beruehmte-gustav-mahler">Gustav Mahler (SO4w5)</a>, der ebenfalls eine Vier mit Fünferflügel war, nur in der sozialen Variante. Dass Neumeier Mahlers Sinfonien und Lieder immer wieder choreografierte, lässt sich damit in Verbindung bringen, dass er in dessen Musik eine verwandte Grundstimmung hört, vermutlich ohne sich dessen bewusst zu sein.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Privates und Ehrungen</h2>
@@ -3049,6 +3051,7 @@ export function johnNeumeierPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
         {route:"beruehmte-paul-simon", label:"Porträt: Paul Simon (SE4w5)"},
+        {route:"beruehmte-gustav-mahler", label:"Porträt: Gustav Mahler (SO4w5)"},
         {route:"beruehmte-paul-mccartney", label:"Porträt: Paul McCartney (SE4w5)"},
         {route:"beruehmte-don-mclean", label:"Porträt: Don McLean (SE4w5)"},
         {route:"lebensmusterkompass", label:"Lebensmusterkompass"},

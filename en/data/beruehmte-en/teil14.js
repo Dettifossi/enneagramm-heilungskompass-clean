@@ -3112,14 +3112,15 @@ export function johnNeumeierPortraitPage() {
 
         <h2 class="vb-section">4. The work: Nijinsky, Mahler and the depth of feeling</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">What made Neumeier special was the union of narrative ballet and psychological exactness. He created more than 170 works, many of them full-length, and returned again and again to two figures: the dancer Vaslav Nijinsky, who had once awakened his interest in dance (&lsquo;Nijinsky&rsquo;, 2000), and the composer Gustav Mahler. Both stand for what the Four knows: artists at the edge of their own strength, longing, loss, art as expression of the unsayable.</p>
-          <p class="vb-intro">His principle reads: &lsquo;A choreographer works with the most important and most precious material there is: the human being.&rsquo; And about his creativity he said: &lsquo;I think it is because I actually do it out of love.&rsquo; It fits that he understands every piece with every new cast as new, because other people carry it differently.</p>
+          <p class="vb-intro">What made Neumeier special was the union of narrative ballet and psychological exactness. He created more than 170 works, many of them full-length, and returned again and again to two figures: the dancer Vaslav Nijinsky, who had once awakened his interest in dance (&lsquo;Nijinsky&rsquo;, 2000), and the composer <a href="#beruehmte-gustav-mahler">Gustav Mahler (SO4w5)</a>. Both stand for what the Four knows: artists at the edge of their own strength, longing, loss, art as expression of the unsayable.</p>
+          <p class="vb-intro">His principle reads: &lsquo;A choreographer works with the most important and most precious material there is: the human being.&rsquo; And about his creativity he said: &lsquo;I think it is because I actually do it out of love.&rsquo; It fits that he understands every piece with every new cast as new and individual, because other people carry it differently.</p>
           <p class="vb-intro">In 1978 he founded the school of the Hamburg Ballet, and according to Wikipedia he has been since 2011 also general director and artistic supervisor of the German National Youth Ballet. His farewell in 2024 with the ballet &lsquo;Epilog&rsquo; at the Hamburg Ballet Days followed the sentence: &lsquo;One has to let go at some point.&rsquo; The direction passed to Demis Volpi.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Parallels in the same subtype: Paul Simon and Paul McCartney</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A similarly quietly carried depth is shown by <a href="#beruehmte-paul-simon">Paul Simon (SP4w5)</a>, whose songs do not display sadness but give it form. <a href="#beruehmte-paul-mccartney">Paul McCartney (SP4w5)</a> and <a href="#beruehmte-don-mclean">Don McLean (SP4w5)</a> also belong to this subtype with Five-wing. Neumeier shares with them the constancy over decades and the working out of an inner seriousness.</p>
+          <p class="vb-intro">Striking is his lifelong turn to <a href="#beruehmte-gustav-mahler">Gustav Mahler (SO4w5)</a>, who was also a Four with a Five-wing, only in the social variant. That Neumeier choreographed Mahler&rsquo;s symphonies and songs again and again can be connected with the idea that he hears in his music a kindred basic mood, probably without being aware of it.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Private life and honours</h2>
@@ -3140,6 +3141,7 @@ export function johnNeumeierPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
         {route:"beruehmte-paul-simon", label:"Portrait: Paul Simon (SP4w5)"},
+        {route:"beruehmte-gustav-mahler", label:"Portrait: Gustav Mahler (SO4w5)"},
         {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SP4w5)"},
         {route:"beruehmte-don-mclean", label:"Portrait: Don McLean (SP4w5)"},
         {route:"lebensmusterkompass", label:"Life Pattern Compass"},
