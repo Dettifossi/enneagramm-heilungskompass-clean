@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=418";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=419";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -5935,7 +5935,7 @@ function _neuAktiv(route) {
   return !!d && (new Date() - new Date(d)) < 30 * 864e5;
 }
 
-const HEILWISSEN_ROUTES = new Set(["wann-entsteht-der-typ", "kroetenschlucken", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "nicht-reale-vorstellungen", "wahnideen-nicht-reale-vorstellungen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9, "mindmaps-single-rubriken", "mindmap-platin", "mindmap-ignatia", "mindmap-hyoscyamus", "mindmap-tarentula", "mindmap-stramonium", "mindmap-opium", "mindmap-belladonna", "mindmap-veratrum", "mindmap-cannabis", "claudio-naranjo-lehrer", "david-daniels-gesetze"].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["wann-entsteht-der-typ", "kroetenschlucken", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "nicht-reale-vorstellungen", "wahnideen-nicht-reale-vorstellungen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9, "mindmaps-single-rubriken", "mindmap-platin", "mindmap-ignatia", "mindmap-hyoscyamus", "mindmap-tarentula", "mindmap-stramonium", "mindmap-opium", "mindmap-belladonna", "mindmap-veratrum", "mindmap-cannabis", "claudio-naranjo-lehrer", "david-daniels-gesetze", "tugenden-enneagramm"].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -6077,6 +6077,7 @@ text.nav = [
     { route: "knowledge", label: "Knowledge Base" },
     { route: "claudio-naranjo-lehrer", label: "Claudio Naranjo: Teacher and Pioneer of the Subtypes" },
     { route: "david-daniels-gesetze", label: "David Daniels: The Three Energy–Attention Laws" },
+    { route: "tugenden-enneagramm", label: "The Virtues in the Enneagram" },
     { route: "beruehmte-persoenlichkeiten", label: "Famous Personalities" },
     { route: "kriminalpsychologie", label: "Fascinating Criminal Cases (Criminal Psychology)" },
     { route: "krankheitsportraets", label: "Illness Portraits" },
@@ -40589,6 +40590,173 @@ function davidDanielsGesetzePage() {
   `);
 }
 
+function tugendenEnneagrammPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("tugenden-enneagramm")}
+      <div class="page-content tug-page">
+        <p class="eyebrow">Knowledge · Practice and Attitude</p>
+        <h1 class="section-title">The Virtues in the Enneagram</h1>
+        <p class="lead-small">In the Enneagram a virtue is not a moral task but what arises when the passion of a type is transformed through awareness. Here are the nine virtues, the way to them and nine examples of the moment of pausing.</p>
+        <figure class="tug-hero"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/tugenden-enneagramm.jpg" alt="A winding path through nine garden scenes: doves and lanterns, a vineyard, a lemon tree, a still pond, a lotus in two hands, a crystal between mirrors, a waterfall, a library under stars and a castle gate behind sunflowers" loading="lazy" /><figcaption>The way of the virtues: nine places, one shared path.</figcaption></figure>
+        <div class="tug-intro"><h2>What is a virtue in the Enneagram?</h2><ul><li>It is <strong>not</strong> the moral counterpart of the passion but a <strong>quality of being</strong> that arises by itself through inner work and awareness.</li><li>It is the <strong>transformed energy</strong> of the respective passion or fixation.</li><li>The descriptions of <strong>Claudio Naranjo</strong>, the author's Enneagram teacher, give the passions vivid images and so make the way to virtue clearer.</li></ul></div>
+        <h2 class="vb-section tug-h2">Nine passions, nine virtues</h2>
+        <div class="tug-grid">
+          <article class="tug-card" style="--tc:#607468;">
+            <div class="tug-card__top"><span class="tug-card__num">1</span><span class="tug-card__role">The Reformer</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion" title="Naranjo: Anger">Anger, resentment</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">Serenity · Composure</span></div>
+            <p class="tug-card__text">Being at peace with oneself even when irritation and the drive for perfection are present, without constantly fighting them.</p>
+          </article>
+          <article class="tug-card" style="--tc:#c47f6b;">
+            <div class="tug-card__top"><span class="tug-card__num">2</span><span class="tug-card__role">The Helper</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion" title="Naranjo: Pride">Pride, arrogance</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">Humility</span></div>
+            <p class="tug-card__text">Giving love without noticing it and without being compared: a wise letting go of the need to be loved oneself.</p>
+          </article>
+          <article class="tug-card" style="--tc:#c9a84c;">
+            <div class="tug-card__top"><span class="tug-card__num">3</span><span class="tug-card__role">The Achiever</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion" title="Naranjo: Vanity">Vanity, self-deception</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">Truthfulness · Authenticity</span></div>
+            <p class="tug-card__text">Taking off the mask and living who one is, beyond image, gestures of success and attributions.</p>
+          </article>
+          <article class="tug-card" style="--tc:#7a5c8a;">
+            <div class="tug-card__top"><span class="tug-card__num">4</span><span class="tug-card__role">The Individualist</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion" title="Naranjo: Envy">Envy, begrudging</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">Equanimity</span></div>
+            <p class="tug-card__text">Being able to feel deeply without being flooded. This is not indifference but freedom from the tyranny of moods and from the illusion that something essential is missing in me.</p>
+          </article>
+          <article class="tug-card" style="--tc:#4a7f91;">
+            <div class="tug-card__top"><span class="tug-card__num">5</span><span class="tug-card__role">The Observer</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion" title="Naranjo: Avarice">Avarice, greed</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">Non-attachment · Detachment</span></div>
+            <p class="tug-card__text">Observing with inner spaciousness without dwelling in thoughts: being in knowing without losing oneself in the world of concepts.</p>
+          </article>
+          <article class="tug-card" style="--tc:#8a6a3f;">
+            <div class="tug-card__top"><span class="tug-card__num">6</span><span class="tug-card__role">The Loyalist</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion" title="Naranjo: Fear">Fear, doubt, mistrust</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">Courage</span></div>
+            <p class="tug-card__text">Courage is not the absence of fear but the ability to take the next step despite fear, trusting oneself and life.</p>
+          </article>
+          <article class="tug-card" style="--tc:#d98c3a;">
+            <div class="tug-card__top"><span class="tug-card__num">7</span><span class="tug-card__role">The Enthusiast</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion" title="Naranjo: Gluttony">Gluttony, excess</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">Sobriety · Temperance</span></div>
+            <p class="tug-card__text">Experiencing the moment calmly without fleeing. In this way life can be enjoyed without being lost in it.</p>
+          </article>
+          <article class="tug-card" style="--tc:#a5433a;">
+            <div class="tug-card__top"><span class="tug-card__num">8</span><span class="tug-card__role">The Challenger</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion" title="Naranjo: Lust">Lust, greed, control</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">Innocence · Purity of heart</span></div>
+            <p class="tug-card__text">Being powerful without dominating others: a strong heart that stays rooted in compassion.</p>
+          </article>
+          <article class="tug-card" style="--tc:#6b8f5a;">
+            <div class="tug-card__top"><span class="tug-card__num">9</span><span class="tug-card__role">The Peacemaker</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion" title="Naranjo: Sloth">Sloth, self-forgetting</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">Right action · Drive</span></div>
+            <p class="tug-card__text">Acting consciously from inner presence: rising up, without pause, in encounter, without losing one's own center.</p>
+          </article>
+        </div>
+        <h2 class="vb-section tug-h2">The way: not through doing but through being</h2>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">You cannot get rid of a fixation through effort. It loosens when one sees it and for once does not follow it. That is exactly where the difficulty lies.</p>
+        <ol class="tug-steps">
+          <li class="tug-step"><span class="tug-step__num">1</span><div><h3>You are not your fixation</h3><p>Personality is a survival pattern, not your essence. It reacts automatically, like an autopilot. “That's just how I am” is mostly only the sound of compensation strategies learned early.</p></div></li>
+          <li class="tug-step"><span class="tug-step__num">2</span><div><h3>Recognize the autopilot and pause</h3><p>As soon as you see what is reacting in you, for instance the wounded child, the driver, the know-it-all or the escape type, and you do not react automatically but pause, you have already done the decisive thing.</p></div></li>
+          <li class="tug-step"><span class="tug-step__num">3</span><div><h3>Stillness is the end of resistance</h3><p>You do not have to do anything, only stop doing: not analyzing, not judging, not searching, not avoiding. Like a stirred-up body of water that simply comes to rest. In the stillness you see the bottom of your inner waters; before that you saw only mud and reflections, your ego, your drama, your fixation cinema.</p></div></li>
+          <li class="tug-step"><span class="tug-step__num">4</span><div><h3>Transcendence does not mean “I am better now”</h3><p>But: “I recognize the pattern and do not follow it this time.” It is quiet. You see the mechanism of your passion and do not have to act now.</p></div></li>
+          <li class="tug-step"><span class="tug-step__num">5</span><div><h3>What is hard about it</h3><p>Not the technique, which is radically simple: be still, look, do not react. What is hard is that our world is a constant trigger. It lives on your not pausing: that you click, buy, compare, react, get outraged and defend yourself at once. The way therefore needs courage for emptiness, courage for slowness, courage to be alone with yourself.</p></div></li>
+          <li class="tug-step"><span class="tug-step__num">6</span><div><h3>What happens when you really do it</h3><p>You see your patterns instead of confusing yourself with them. You stop justifying yourself. You feel pain, but without drama. You are free to choose instead of functioning automatically; here your real “free will” begins. Then virtue begins to work, not as a concept but as a natural quality: equanimity, humility, authenticity, courage arise by themselves when the storm settles.</p></div></li>
+        </ol>
+        <blockquote class="tug-quote"><p>Between stimulus and response there is a space in which freedom becomes possible.</p><footer>A sentence often attributed to Viktor Frankl; the exact source is unclear.</footer></blockquote>
+        <h2 class="vb-section tug-h2">Pausing in everyday life: nine examples</h2>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">The focus is on the moment of pausing in which a type recognizes its fixation, does not react automatically and thereby opens the way into virtue. Tap a type to open the example.</p>
+        <div class="tug-ex-grid">
+          <details class="tug-ex" style="--tc:#607468;">
+            <summary><span class="tug-card__num">1</span><span class="tug-ex__title">The Reformer<small>Virtue: Serenity · Composure</small></span></summary>
+            <div class="tug-ex__body">
+              <p class="tug-ex__fix"><strong>Fixation:</strong> Perfectionism, self-righteousness, suppressed anger</p>
+              <p><strong>Example:</strong> A colleague does something “wrong”, for instance files it incorrectly. You are already about to start: “Honestly, that's not how it's done …”</p>
+              <p class="tug-ex__hold"><strong>Pausing:</strong> <em>Breathe. Feel how it boils inside you. And say inwardly: “It's okay. I don't have to correct everything. I can simply let it be.”</em></p>
+              <p><strong>Effect:</strong> Suddenly there is peace. You stop imposing your inner rulebook on the world.</p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#c47f6b;">
+            <summary><span class="tug-card__num">2</span><span class="tug-ex__title">The Helper<small>Virtue: Humility</small></span></summary>
+            <div class="tug-ex__body">
+              <p class="tug-ex__fix"><strong>Fixation:</strong> Neediness, helper syndrome, pride</p>
+              <p><strong>Example:</strong> You helped someone and secretly expect thanks. It does not come. You feel disappointment and a slight hurt.</p>
+              <p class="tug-ex__hold"><strong>Pausing:</strong> <em>Observe: “I didn't just want to help. I wanted to be seen and personally recognized.”</em></p>
+              <p><strong>Effect:</strong> You accept your neediness without condemning yourself for it. You help or you don't, but free of hidden expectations.</p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#c9a84c;">
+            <summary><span class="tug-card__num">3</span><span class="tug-ex__title">The Achiever<small>Virtue: Truthfulness · Authenticity</small></span></summary>
+            <div class="tug-ex__body">
+              <p class="tug-ex__fix"><strong>Fixation:</strong> Image, success, adaptation</p>
+              <p><strong>Example:</strong> In a group you talk about a professional success and notice you are exaggerating a little. You act cooler than you are.</p>
+              <p class="tug-ex__hold"><strong>Pausing:</strong> <em>“Wait … why am I actually telling it this way? Do I really have to shine?”</em></p>
+              <p><strong>Effect:</strong> You are ready to show yourself as you are, weaknesses included. It feels more real, and closer.</p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#7a5c8a;">
+            <summary><span class="tug-card__num">4</span><span class="tug-ex__title">The Individualist<small>Virtue: Equanimity</small></span></summary>
+            <div class="tug-ex__body">
+              <p class="tug-ex__fix"><strong>Fixation:</strong> Envy, sense of lack, self-staging</p>
+              <p><strong>Example:</strong> You scroll through Instagram, see a colleague on a reading tour and think: “Great. She gets everything. And me? Left behind again.”</p>
+              <p class="tug-ex__hold"><strong>Pausing:</strong> <em>“Ah … there is that feeling again that something is missing. It is only a feeling, not the truth.”</em></p>
+              <p><strong>Effect:</strong> You feel the pull in the heart but do not go into it; you stay conscious. And you notice: you are complete. Now.</p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#4a7f91;">
+            <summary><span class="tug-card__num">5</span><span class="tug-ex__title">The Observer<small>Virtue: Non-attachment · Detachment</small></span></summary>
+            <div class="tug-ex__body">
+              <p class="tug-ex__fix"><strong>Fixation:</strong> Withdrawal, stinginess with energy, isolation</p>
+              <p><strong>Example:</strong> A friend calls and wants to talk. You have no nerves for it. Your first impulse: don't pick up, you “need your peace”.</p>
+              <p class="tug-ex__hold"><strong>Pausing:</strong> <em>“Wait, what am I avoiding right now? Closeness? Loss of energy? Or is it simply fear of being overwhelmed?”</em></p>
+              <p><strong>Effect:</strong> You notice the inner defense. Perhaps you call back, perhaps not, but you decide freely and not out of reflex.</p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#8a6a3f;">
+            <summary><span class="tug-card__num">6</span><span class="tug-ex__title">The Loyalist<small>Virtue: Courage</small></span></summary>
+            <div class="tug-ex__body">
+              <p class="tug-ex__fix"><strong>Fixation:</strong> Fear, doubt, control</p>
+              <p><strong>Example:</strong> You are supposed to make a decision, such as changing jobs. You have thought it through many times, but you don't dare.</p>
+              <p class="tug-ex__hold"><strong>Pausing:</strong> <em>“I am waiting for security. But it will not come. I can go anyway.”</em></p>
+              <p><strong>Effect:</strong> Courage is there, quiet but there. You feel the fear and go on anyway. No security, but clarity.</p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#d98c3a;">
+            <summary><span class="tug-card__num">7</span><span class="tug-ex__title">The Enthusiast<small>Virtue: Sobriety · Temperance</small></span></summary>
+            <div class="tug-ex__body">
+              <p class="tug-ex__fix"><strong>Fixation:</strong> Distraction, planning, avoidance of pain</p>
+              <p><strong>Example:</strong> You received an unpleasant message. Your impulse: plan something nice, distract, Netflix, chat, book a trip.</p>
+              <p class="tug-ex__hold"><strong>Pausing:</strong> <em>“Wait. I am fleeing right now. What if I simply stay still and feel what is there?”</em></p>
+              <p><strong>Effect:</strong> You stay. It hurts, and it passes. No escape route, but inner space arises.</p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#a5433a;">
+            <summary><span class="tug-card__num">8</span><span class="tug-ex__title">The Challenger<small>Virtue: Innocence · Purity of heart</small></span></summary>
+            <div class="tug-ex__body">
+              <p class="tug-ex__fix"><strong>Fixation:</strong> Control, hardness, dominance</p>
+              <p><strong>Example:</strong> In a discussion someone contradicts you. You immediately want to push back and sharpen the tone.</p>
+              <p class="tug-ex__hold"><strong>Pausing:</strong> <em>“I feel attacked. But perhaps I can simply listen for once.”</em></p>
+              <p><strong>Effect:</strong> You stay strong but soft. You don't have to fight, you can connect. You lose nothing, you gain closeness.</p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#6b8f5a;">
+            <summary><span class="tug-card__num">9</span><span class="tug-ex__title">The Peacemaker<small>Virtue: Right action · Drive</small></span></summary>
+            <div class="tug-ex__body">
+              <p class="tug-ex__fix"><strong>Fixation:</strong> Self-forgetting, sloth, avoidance of conflict</p>
+              <p><strong>Example:</strong> You notice you have again been absorbed in the internet for hours. Your tasks pile up. You think: “Oh, later …”</p>
+              <p class="tug-ex__hold"><strong>Pausing:</strong> <em>“I am avoiding again. I am numbing myself. But now I am here. I can decide now.”</em></p>
+              <p><strong>Effect:</strong> You get up, just like that, without drama, and set off. Small step, big effect.</p>
+            </div>
+          </details>
+        </div>
+        <div class="tug-fazit"><h2>Conclusion</h2><p>You do not have to become anything. You only have to stop constantly being someone. In stillness the recognizing happens by itself, and with the recognizing begins the change, the true blossoming into who you really are, beyond your psychological defense mechanisms and learned beliefs. This is not a technique. It is the radically simple, radically uncomfortable path to freedom.</p><p>Transcendence, that is, awareness toward life, begins with the first conscious pause. You do not have to do anything special, only interrupt what is automatic. Then you see, and conscious seeing alone is already change. It always happens only in the present, in the here and now, the one space that is real. Everything else is thoughts, feelings and distorted perceptions as reflections of our fixation that feel deceptively real.</p></div>
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"claudio-naranjo-lehrer", label:"Claudio Naranjo: Teacher and Pioneer of the Subtypes"},
+        {route:"david-daniels-gesetze", label:"David Daniels: The Three Energy–Attention Laws"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}
+
 function wahnideenNichtRealeVorstellungenPage() {
   return shell(`
     <div class="page-container">
@@ -46635,6 +46803,7 @@ function subtypeSchaubilderPage() {
     "mindmaps-single-rubriken": mindmapsUebersichtPage,
     "claudio-naranjo-lehrer": claudioNaranjoLehrerPage,
     "david-daniels-gesetze": davidDanielsGesetzePage,
+    "tugenden-enneagramm": tugendenEnneagrammPage,
     "befreiende-fragen": befreiendeFragenPage,
     "fuehrungsstile": fuehrungsstilePage,
     "gifte-des-geistes": gifteDesGeistesPage,

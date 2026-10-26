@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=421";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=422";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -17061,6 +17061,7 @@ const uiText = {
       { route: "knowledge", label: "Wissensbasis" },
       { route: "claudio-naranjo-lehrer", label: "Claudio Naranjo: Lehrer und Wegbereiter der Subtypen" },
       { route: "david-daniels-gesetze", label: "David Daniels: Die drei Energie-Aufmerksamkeits-Gesetze" },
+      { route: "tugenden-enneagramm", label: "Die Tugenden im Enneagramm" },
       { route: "beruehmte-persoenlichkeiten", label: "Berühmte Persönlichkeiten" },
       { route: "kriminalpsychologie", label: "Spannende Kriminalfälle (Kriminalpsychologie)" },
       { route: "krankheitsportraets", label: "Krankheitsporträts" },
@@ -31812,7 +31813,7 @@ function _neuAktiv(route) {
   return !!d && (new Date() - new Date(d)) < 30 * 864e5;
 }
 
-const HEILWISSEN_ROUTES = new Set(["wann-entsteht-der-typ", "kroetenschlucken", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "nicht-reale-vorstellungen", "wahnideen-nicht-reale-vorstellungen", "mindmaps-single-rubriken", "mindmap-platin", "mindmap-ignatia", "mindmap-hyoscyamus", "mindmap-tarentula", "mindmap-stramonium", "mindmap-opium", "mindmap-belladonna", "mindmap-veratrum", "mindmap-cannabis", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9, "claudio-naranjo-lehrer", "david-daniels-gesetze"].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["wann-entsteht-der-typ", "kroetenschlucken", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "nicht-reale-vorstellungen", "wahnideen-nicht-reale-vorstellungen", "mindmaps-single-rubriken", "mindmap-platin", "mindmap-ignatia", "mindmap-hyoscyamus", "mindmap-tarentula", "mindmap-stramonium", "mindmap-opium", "mindmap-belladonna", "mindmap-veratrum", "mindmap-cannabis", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9, "claudio-naranjo-lehrer", "david-daniels-gesetze", "tugenden-enneagramm"].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -61050,6 +61051,173 @@ function davidDanielsGesetzePage() {
   `);
 }
 
+function tugendenEnneagrammPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("tugenden-enneagramm")}
+      <div class="page-content tug-page">
+        <p class="eyebrow">Wissen · Praxis und Haltung</p>
+        <h1 class="section-title">Die Tugenden im Enneagramm</h1>
+        <p class="lead-small">Eine Tugend ist im Enneagramm kein moralischer Auftrag, sondern das, was entsteht, wenn die Leidenschaft eines Typs durch Bewusstheit verwandelt wird. Hier stehen die neun Tugenden, der Weg dorthin und neun Beispiele für den Moment des Innehaltens.</p>
+        <figure class="tug-hero"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/tugenden-enneagramm.jpg" alt="Ein gewundener Weg durch neun Gartenbilder: Tauben und Lampions, Weinberg, Zitronenbaum, ein stiller Teich, ein Lotus in zwei Händen, ein Kristall zwischen Spiegeln, ein Wasserfall, eine Bibliothek unter Sternen und ein Burgtor hinter Sonnenblumen" loading="lazy" /><figcaption>Der Weg der Tugenden: Neun Orte, ein gemeinsamer Pfad.</figcaption></figure>
+        <div class="tug-intro"><h2>Was ist eine Tugend im Enneagramm?</h2><ul><li>Sie ist <strong>nicht</strong> das moralische Gegenstück zur Leidenschaft, sondern eine <strong>Qualität des Seins</strong>, die durch innere Arbeit und Bewusstheit von selbst entsteht.</li><li>Sie ist die <strong>verwandelte Kraft</strong> der jeweiligen Leidenschaft (Passion) oder Fixierung.</li><li>Die Beschreibungen von <strong>Claudio Naranjo</strong>, dem Enneagramm-Lehrer des Autors, geben den Leidenschaften lebendige Bilder und machen so den Weg zur Tugend klarer.</li></ul></div>
+        <h2 class="vb-section tug-h2">Neun Leidenschaften, neun Tugenden</h2>
+        <div class="tug-grid">
+          <article class="tug-card" style="--tc:#607468;">
+            <div class="tug-card__top"><span class="tug-card__num">1</span><span class="tug-card__role">Der Reformer</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion" title="Naranjo: Anger">Zorn, Groll</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">Gelassenheit · Souveränität</span></div>
+            <p class="tug-card__text">In Frieden mit sich selbst sein, auch wenn Ärger und der Drang nach Perfektion da sind, und nicht ständig dagegen ankämpfen.</p>
+          </article>
+          <article class="tug-card" style="--tc:#c47f6b;">
+            <div class="tug-card__top"><span class="tug-card__num">2</span><span class="tug-card__role">Der Helfer</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion" title="Naranjo: Pride">Stolz, Hochmut</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">Demut</span></div>
+            <p class="tug-card__text">Liebe geben, ohne es zu merken und ohne verglichen zu werden: ein weises Loslassen des Bedürfnisses, selbst geliebt zu werden.</p>
+          </article>
+          <article class="tug-card" style="--tc:#c9a84c;">
+            <div class="tug-card__top"><span class="tug-card__num">3</span><span class="tug-card__role">Der Macher</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion" title="Naranjo: Vanity">Eitelkeit, Selbsttäuschung</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">Wahrhaftigkeit · Authentizität</span></div>
+            <p class="tug-card__text">Die Maske ablegen und leben, wer man ist, jenseits von Image, Erfolgsgesten und Zuschreibungen.</p>
+          </article>
+          <article class="tug-card" style="--tc:#7a5c8a;">
+            <div class="tug-card__top"><span class="tug-card__num">4</span><span class="tug-card__role">Der Individualist</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion" title="Naranjo: Envy">Neid, Missgunst</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">Gleichmut</span></div>
+            <p class="tug-card__text">Tief fühlen können, ohne überflutet zu werden. Das ist keine Gleichgültigkeit, sondern Freiheit von der Tyrannei der Stimmungen und von der Illusion, dass mir etwas Wesentliches fehlt.</p>
+          </article>
+          <article class="tug-card" style="--tc:#4a7f91;">
+            <div class="tug-card__top"><span class="tug-card__num">5</span><span class="tug-card__role">Der Beobachter</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion" title="Naranjo: Avarice">Geiz, Habgier</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">Nicht-Anhaftung · Gelassenheit</span></div>
+            <p class="tug-card__text">Mit innerer Weite beobachten, ohne in Gedanken zu verharren: im Wissen sein, ohne sich in der Welt der Konzepte zu verlieren.</p>
+          </article>
+          <article class="tug-card" style="--tc:#8a6a3f;">
+            <div class="tug-card__top"><span class="tug-card__num">6</span><span class="tug-card__role">Der Loyale</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion" title="Naranjo: Fear">Angst, Zweifel, Misstrauen</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">Mut</span></div>
+            <p class="tug-card__text">Mut ist nicht das Fehlen von Angst, sondern die Fähigkeit, trotz Angst den nächsten Schritt zu tun, im Vertrauen auf sich selbst und das Leben.</p>
+          </article>
+          <article class="tug-card" style="--tc:#d98c3a;">
+            <div class="tug-card__top"><span class="tug-card__num">7</span><span class="tug-card__role">Der Enthusiast</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion" title="Naranjo: Gluttony">Völlerei, Maßlosigkeit</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">Enthaltsamkeit · Nüchternheit</span></div>
+            <p class="tug-card__text">Den Augenblick ruhig erleben, ohne zu fliehen. So lässt sich das Leben genießen, ohne darin unterzugehen.</p>
+          </article>
+          <article class="tug-card" style="--tc:#a5433a;">
+            <div class="tug-card__top"><span class="tug-card__num">8</span><span class="tug-card__role">Der Herausforderer</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion" title="Naranjo: Lust">Wollust, Gier, Kontrolle</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">Unschuld · Reinheit des Herzens</span></div>
+            <p class="tug-card__text">Kraftvoll sein, ohne andere zu dominieren: ein starkes Herz, das im Mitgefühl verwurzelt bleibt.</p>
+          </article>
+          <article class="tug-card" style="--tc:#6b8f5a;">
+            <div class="tug-card__top"><span class="tug-card__num">9</span><span class="tug-card__role">Der Vermittler</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion" title="Naranjo: Sloth">Trägheit, Selbstvergessenheit</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">Tatkraft · Aktion</span></div>
+            <p class="tug-card__text">Bewusst handeln aus innerer Präsenz: sich erheben, ohne Pause, in der Begegnung, ohne die eigene Mitte zu verlieren.</p>
+          </article>
+        </div>
+        <h2 class="vb-section tug-h2">Der Weg: nicht durch Tun, sondern durch Sein</h2>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">Man kann seine Fixierung nicht durch Anstrengung loswerden. Sie löst sich, wenn man sie sieht und ihr einmal nicht folgt. Genau darin liegt die Schwierigkeit.</p>
+        <ol class="tug-steps">
+          <li class="tug-step"><span class="tug-step__num">1</span><div><h3>Du bist nicht deine Fixierung</h3><p>Die Persönlichkeit ist ein Überlebensmuster, nicht dein Wesen. Sie reagiert automatisch wie ein Autopilot. „Ich bin halt so“ ist meist nur der Klang früh gelernter Kompensationsstrategien.</p></div></li>
+          <li class="tug-step"><span class="tug-step__num">2</span><div><h3>Den Autopiloten erkennen und innehalten</h3><p>Sobald du siehst, was in dir reagiert, etwa das verletzte Kind, der Antreiber, der Rechthaber oder der Fluchttyp, und nicht automatisch darauf reagierst, sondern innehältst, hast du schon das Entscheidende getan.</p></div></li>
+          <li class="tug-step"><span class="tug-step__num">3</span><div><h3>Stille ist das Ende des Widerstands</h3><p>Du musst nichts tun, nur aufhören zu tun: nicht analysieren, nicht bewerten, nicht suchen, nicht vermeiden. Wie ein aufgewühltes Gewässer, das einfach zur Ruhe kommt. In der Stille siehst du den Grund deines inneren Gewässers; davor sahst du nur Schlamm und Spiegelungen, dein Ego, dein Drama, dein Fixierungs-Kino.</p></div></li>
+          <li class="tug-step"><span class="tug-step__num">4</span><div><h3>Transzendenz heißt nicht „Ich bin jetzt besser“</h3><p>Sondern: „Ich erkenne das Muster und folge ihm diesmal nicht.“ Es ist still. Du siehst den Mechanismus deiner Leidenschaft und musst jetzt nicht handeln.</p></div></li>
+          <li class="tug-step"><span class="tug-step__num">5</span><div><h3>Was daran schwer ist</h3><p>Nicht die Technik, sie ist radikal einfach: Sei still, schau hin, reagiere nicht. Schwer ist, dass unsere Welt ein Dauer-Trigger ist. Sie lebt davon, dass du nicht innehältst: dass du sofort klickst, kaufst, vergleichst, reagierst, dich empörst, dich verteidigst. Der Weg braucht deshalb Mut zur Leere, Mut zur Langsamkeit, Mut, allein mit dir zu sein.</p></div></li>
+          <li class="tug-step"><span class="tug-step__num">6</span><div><h3>Was passiert, wenn du es wirklich tust</h3><p>Du siehst deine Muster, statt dich mit ihnen zu verwechseln. Du hörst auf, dich zu rechtfertigen. Du fühlst Schmerz, aber ohne Drama. Du bist frei zu wählen, statt automatisch zu funktionieren, hier beginnt dein wahrer „freier Wille“. Dann beginnt die Tugend zu wirken, nicht als Konzept, sondern als natürliche Qualität: Gleichmut, Demut, Authentizität, Mut entstehen von selbst, wenn der Sturm sich legt.</p></div></li>
+        </ol>
+        <blockquote class="tug-quote"><p>Zwischen Reiz und Reaktion liegt der Raum, in dem Freiheit möglich wird.</p><footer>Ein Satz, der oft Viktor Frankl zugeschrieben wird; die genaue Quelle ist unklar.</footer></blockquote>
+        <h2 class="vb-section tug-h2">Innehalten im Alltag: neun Beispiele</h2>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">Der Fokus liegt auf dem Moment des Innehaltens, in dem ein Typ seine Fixierung erkennt, nicht automatisch reagiert und sich damit den Weg in die Tugend öffnet. Auf einen Typ tippen, um das Beispiel zu öffnen.</p>
+        <div class="tug-ex-grid">
+          <details class="tug-ex" style="--tc:#607468;">
+            <summary><span class="tug-card__num">1</span><span class="tug-ex__title">Der Reformer<small>Tugend: Gelassenheit · Souveränität</small></span></summary>
+            <div class="tug-ex__body">
+              <p class="tug-ex__fix"><strong>Fixierung:</strong> Perfektionismus, Rechthaberei, unterdrückte Wut</p>
+              <p><strong>Beispiel:</strong> Ein Kollege macht etwas „falsch“, zum Beispiel falsch abgeheftet. Du willst schon ansetzen: „Also ehrlich, das geht so nicht …“</p>
+              <p class="tug-ex__hold"><strong>Innehalten:</strong> <em>Atmen. Spüren, wie es in dir kocht. Und innerlich sagen: „Es ist okay. Ich muss nicht alles korrigieren. Ich kann es einfach mal lassen.“</em></p>
+              <p><strong>Wirkung:</strong> Plötzlich ist Frieden. Du hörst auf, der Welt dein inneres Regelbuch überzustülpen.</p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#c47f6b;">
+            <summary><span class="tug-card__num">2</span><span class="tug-ex__title">Der Helfer<small>Tugend: Demut</small></span></summary>
+            <div class="tug-ex__body">
+              <p class="tug-ex__fix"><strong>Fixierung:</strong> Bedürftigkeit, Helfersyndrom, Stolz</p>
+              <p><strong>Beispiel:</strong> Du hast jemandem geholfen und erwartest insgeheim Dank. Er kommt nicht. Du spürst Enttäuschung und eine leichte Kränkung.</p>
+              <p class="tug-ex__hold"><strong>Innehalten:</strong> <em>Beobachten: „Ich wollte gar nicht einfach nur helfen. Ich wollte gesehen und persönlich anerkannt werden.“</em></p>
+              <p><strong>Wirkung:</strong> Du nimmst deine Bedürftigkeit an, ohne dich dafür zu verurteilen. Du hilfst oder nicht, aber frei von verdeckten Erwartungen.</p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#c9a84c;">
+            <summary><span class="tug-card__num">3</span><span class="tug-ex__title">Der Macher<small>Tugend: Wahrhaftigkeit · Authentizität</small></span></summary>
+            <div class="tug-ex__body">
+              <p class="tug-ex__fix"><strong>Fixierung:</strong> Image, Erfolg, Anpassung</p>
+              <p><strong>Beispiel:</strong> Du erzählst in einer Runde von einem beruflichen Erfolg und merkst, dass du ein bisschen übertreibst. Du tust cooler, als du bist.</p>
+              <p class="tug-ex__hold"><strong>Innehalten:</strong> <em>„Warte … warum erzähle ich das eigentlich so? Muss ich wirklich glänzen?“</em></p>
+              <p><strong>Wirkung:</strong> Du bist bereit, dich so zu zeigen, wie du bist, auch mit Schwächen. Es fühlt sich echter an, und näher.</p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#7a5c8a;">
+            <summary><span class="tug-card__num">4</span><span class="tug-ex__title">Der Individualist<small>Tugend: Gleichmut</small></span></summary>
+            <div class="tug-ex__body">
+              <p class="tug-ex__fix"><strong>Fixierung:</strong> Neid, Mangelgefühl, Selbstinszenierung</p>
+              <p><strong>Beispiel:</strong> Du scrollst durch Instagram, siehst eine Kollegin auf Lesereise und denkst: „Toll. Die kriegt alles. Und ich? Bleibe wieder zurück.“</p>
+              <p class="tug-ex__hold"><strong>Innehalten:</strong> <em>„Ah … da ist wieder das Gefühl, dass mir etwas fehlt. Es ist nur ein Gefühl, nicht die Wahrheit.“</em></p>
+              <p><strong>Wirkung:</strong> Du spürst das Ziehen im Herzen, gehst aber nicht hinein, sondern bleibst bewusst. Und merkst: Du bist vollständig. Jetzt.</p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#4a7f91;">
+            <summary><span class="tug-card__num">5</span><span class="tug-ex__title">Der Beobachter<small>Tugend: Nicht-Anhaftung · Gelassenheit</small></span></summary>
+            <div class="tug-ex__body">
+              <p class="tug-ex__fix"><strong>Fixierung:</strong> Rückzug, Geiz an Energie, Isolation</p>
+              <p><strong>Beispiel:</strong> Ein Freund ruft an und will reden. Du hast keinen Nerv. Dein erster Impuls: nicht rangehen, du „brauchst deine Ruhe“.</p>
+              <p class="tug-ex__hold"><strong>Innehalten:</strong> <em>„Moment, was vermeide ich gerade? Nähe? Energieverlust? Oder ist es einfach Angst vor Überforderung?“</em></p>
+              <p><strong>Wirkung:</strong> Du nimmst die innere Abwehr wahr. Vielleicht rufst du zurück, vielleicht nicht, aber du entscheidest frei und nicht aus Reflex.</p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#8a6a3f;">
+            <summary><span class="tug-card__num">6</span><span class="tug-ex__title">Der Loyale<small>Tugend: Mut</small></span></summary>
+            <div class="tug-ex__body">
+              <p class="tug-ex__fix"><strong>Fixierung:</strong> Angst, Zweifel, Kontrolle</p>
+              <p><strong>Beispiel:</strong> Du sollst eine Entscheidung treffen, etwa einen Jobwechsel. Du hast alles x-mal durchdacht, aber du traust dich nicht.</p>
+              <p class="tug-ex__hold"><strong>Innehalten:</strong> <em>„Ich warte auf Sicherheit. Aber die wird nicht kommen. Ich kann trotzdem gehen.“</em></p>
+              <p><strong>Wirkung:</strong> Der Mut ist da, still, aber da. Du spürst die Angst und gehst trotzdem weiter. Keine Sicherheit, aber Klarheit.</p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#d98c3a;">
+            <summary><span class="tug-card__num">7</span><span class="tug-ex__title">Der Enthusiast<small>Tugend: Enthaltsamkeit · Nüchternheit</small></span></summary>
+            <div class="tug-ex__body">
+              <p class="tug-ex__fix"><strong>Fixierung:</strong> Ablenkung, Planen, Vermeidung von Schmerz</p>
+              <p><strong>Beispiel:</strong> Du hast eine unangenehme Nachricht bekommen. Dein Impuls: etwas Schönes planen, ablenken, Netflix, Chat, einen Trip buchen.</p>
+              <p class="tug-ex__hold"><strong>Innehalten:</strong> <em>„Warte. Ich flüchte gerade. Was, wenn ich einfach still bleibe und fühle, was da ist?“</em></p>
+              <p><strong>Wirkung:</strong> Du bleibst da. Es tut weh, und es vergeht. Kein Fluchtweg, aber innerer Raum entsteht.</p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#a5433a;">
+            <summary><span class="tug-card__num">8</span><span class="tug-ex__title">Der Herausforderer<small>Tugend: Unschuld · Reinheit des Herzens</small></span></summary>
+            <div class="tug-ex__body">
+              <p class="tug-ex__fix"><strong>Fixierung:</strong> Kontrolle, Härte, Dominanz</p>
+              <p><strong>Beispiel:</strong> In einer Diskussion widerspricht dir jemand. Du willst sofort dagegenhalten und den Ton anziehen.</p>
+              <p class="tug-ex__hold"><strong>Innehalten:</strong> <em>„Ich fühle mich angegriffen. Aber vielleicht kann ich einfach mal zuhören.“</em></p>
+              <p><strong>Wirkung:</strong> Du bleibst stark, aber weich. Du musst nicht kämpfen, du kannst verbinden. Du verlierst nichts, du gewinnst Nähe.</p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#6b8f5a;">
+            <summary><span class="tug-card__num">9</span><span class="tug-ex__title">Der Vermittler<small>Tugend: Tatkraft · Aktion</small></span></summary>
+            <div class="tug-ex__body">
+              <p class="tug-ex__fix"><strong>Fixierung:</strong> Selbstvergessenheit, Trägheit, Vermeidung von Konflikt</p>
+              <p><strong>Beispiel:</strong> Du merkst, dass du schon wieder stundenlang im Internet versunken bist. Deine Aufgaben türmen sich. Du denkst: „Ach, später …“</p>
+              <p class="tug-ex__hold"><strong>Innehalten:</strong> <em>„Ich vermeide wieder. Ich betäube mich. Aber jetzt bin ich da. Ich kann jetzt entscheiden.“</em></p>
+              <p><strong>Wirkung:</strong> Du stehst auf, einfach so, ohne Drama, und gehst los. Kleiner Schritt, große Wirkung.</p>
+            </div>
+          </details>
+        </div>
+        <div class="tug-fazit"><h2>Fazit</h2><p>Du musst nichts werden. Du musst nur aufhören, ständig jemand zu sein. In der Stille geschieht das Erkennen von selbst, und mit dem Erkennen beginnt der Wandel, das wahre Erblühen zu dem, der du wirklich bist, jenseits deiner psychologischen Abwehrmechanismen und erlernten Glaubenssätze. Das ist keine Technik. Das ist der radikal einfache, radikal unbequeme Weg zur Freiheit.</p><p>Transzendenz, das heißt Bewusstheit dem Leben gegenüber, beginnt mit dem ersten bewussten Innehalten. Du musst nichts Besonderes tun, nur das Automatische unterbrechen. Dann siehst du, und das bewusste Sehen allein ist schon Veränderung. Sie geschieht immer nur in der Gegenwart, im Hier und Jetzt, dem einen Raum, der wirklich ist. Alles andere sind Gedanken, Gefühle und verzerrte Wahrnehmungen als Spiegelungen unserer Fixierung, die sich täuschend echt anfühlen.</p></div>
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"claudio-naranjo-lehrer", label:"Claudio Naranjo: Lehrer und Wegbereiter der Subtypen"},
+        {route:"david-daniels-gesetze", label:"David Daniels: Die drei Energie-Aufmerksamkeits-Gesetze"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
+
 function wahnideenNichtRealeVorstellungenPage() {
   return shell(`
     <div class="page-container">
@@ -66901,6 +67069,7 @@ const ROUTES = {
     "mindmaps-single-rubriken": mindmapsUebersichtPage,
     "claudio-naranjo-lehrer": claudioNaranjoLehrerPage,
     "david-daniels-gesetze": davidDanielsGesetzePage,
+    "tugenden-enneagramm": tugendenEnneagrammPage,
     "befreiende-fragen": befreiendeFragenPage,
     "fuehrungsstile": fuehrungsstilePage,
     "gifte-des-geistes": gifteDesGeistesPage,

@@ -227,6 +227,8 @@ const ROUTES = [
   { hash: "en/#mindmap-belladonna", label: "EN Mindmap Belladonna" },
   { hash: "en/#mindmap-veratrum", label: "EN Mindmap Veratrum album" },
   { hash: "en/#mindmap-cannabis", label: "EN Mindmap Cannabis indica" },
+  { hash: "#tugenden-enneagramm", label: "Neu: Tugenden im Enneagramm" },
+  { hash: "en/#tugenden-enneagramm", label: "Neu EN: Tugenden im Enneagramm" },
   { hash: "#david-daniels-gesetze", label: "Neu: David Daniels Gesetze" },
   { hash: "en/#david-daniels-gesetze", label: "Neu EN: David Daniels Gesetze" },
   { hash: "#claudio-naranjo-lehrer", label: "Neu: Claudio Naranjo Lehrer" },
