@@ -5127,7 +5127,7 @@ export function princeKrankheitsportraetPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-prince-rogers-nelson-portrait.jpg" alt="Prince" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-prince-rogers-nelson-portrait.jpg'" />
         </div>
-        <p class="krim-portrait-name">Prince</p>
+        <p class="krim-portrait-name">Prince Rogers Nelson</p>
         <p class="krim-portrait-typ">SX4w3 · Sexual Type 4 with Three-wing · 1958–2016</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Chihuahua</span>
