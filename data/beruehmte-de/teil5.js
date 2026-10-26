@@ -2987,7 +2987,7 @@ export function marthaGrahamPortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Vier: Schmerz vor Publikum</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Dr. Claudio Naranjo, Lehrer des Autors, nannte den Subtyp der sozialen Vier <em>Scham</em>: Sie empfindet sich als unzulänglich oder anders und sucht doch gerade die Gruppe, um ihre Einzigartigkeit sichtbar zu machen. Sie leidet nicht im Verborgenen, sondern trägt die Anderheit in die Öffentlichkeit. Im Lebensmusterkompass dieser App steht dafür das Bild des harten Panzers nach außen und eines empfindsamen Inneren darunter.</p>
+          <p class="vb-intro">Dr. Claudio Naranjo, Lehrer des Autors, nannte den Subtyp der sozialen Vier <em>Scham</em>: Sie empfindet sich als unzulänglich oder anders und sucht doch gerade die Gruppe, um ihre Einzigartigkeit sichtbar zu machen. Sie leidet nicht im Verborgenen, sondern trägt die Andersartigkeit in die Öffentlichkeit. Im Lebensmusterkompass dieser App steht dafür das Bild des harten Panzers nach außen und eines empfindsamen Inneren darunter.</p>
           <p class="vb-intro">Bei Graham ist dieser Zug im Werk selbst zu sehen. Sie stellte nicht das Schöne und Leichte des Balletts auf die Bühne, sondern Trauer, Schuld, Wut und Tod. In ›Lamentation‹ (1930) steckt die Tänzerin in einem gedehnten Stoffschlauch, aus dem heraus sich Schmerz nur als Spannung des Körpers zeigt. In ›Night Journey‹ (1947) erzählt sie die Geschichte des Ödipus aus der Sicht der Jokaste. Hier wird die tragische Andersartigkeit vor Publikum gelebt.</p>
         </blockquote>
 
@@ -3005,7 +3005,7 @@ export function marthaGrahamPortraitPage() {
 
         <h2 class="vb-section">5. Parallelen im selben Subtyp und unter den Choreografen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Im selben Subtyp mit demselben Flügel steht <a href="#beruehmte-michael-jackson">Michael Jackson (SO4w3)</a>, ebenfalls ein Künstler, der Schmerz und Andersheit in die große Bühne trug. <a href="#beruehmte-gustav-mahler">Gustav Mahler (SO4w5)</a> zeigt denselben Subtyp mit Fünferflügel. Als Choreograf verbindet sie mit <a href="#beruehmte-john-neumeier">John Neumeier (SE4w5)</a> der Beruf und der Subtyp der Vier: Beide erzählen im Tanz von innerer Not und Sehnsucht, sie mit dem Panzer der Scham und der Wucht der Bühne, er stiller und tragender. Und mit <a href="#beruehmte-isadora-duncan">Isadora Duncan (SX2w3)</a> teilt Graham den Willen, den Tanz von den Fesseln des klassischen Balletts zu befreien.</p>
+          <p class="vb-intro">Im selben Subtyp mit demselben Flügel steht <a href="#beruehmte-michael-jackson">Michael Jackson (SO4w3)</a>, ebenfalls ein Künstler, der Schmerz und Andersartigkeit auf die große Bühne trug. <a href="#beruehmte-gustav-mahler">Gustav Mahler (SO4w5)</a> zeigt denselben Subtyp mit Fünferflügel. Als Choreograf verbindet sie mit <a href="#beruehmte-john-neumeier">John Neumeier (SE4w5)</a> der Beruf und der Subtyp der Vier: Beide erzählen im Tanz von innerer Not und Sehnsucht, sie mit dem Panzer der Scham und der Wucht der Bühne, er stiller und tragender. Und mit <a href="#beruehmte-isadora-duncan">Isadora Duncan (SX2w3)</a> teilt Graham den Willen, den Tanz von den Fesseln des klassischen Balletts zu befreien.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Ehe, Krise und Wiederkehr</h2>
