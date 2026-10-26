@@ -3033,3 +3033,71 @@ export function sarahPaulsonPortraitPage() {
     </div>
   `);
 }
+
+export function albertBrooksPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-albert-brooks-portrait.jpg" alt="Albert Brooks – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Albert Brooks</p>
+        <p class="krim-portrait-typ">SO6w7 &middot; Social Type 6 with a Seven wing</p>
+        <p class="krim-portrait-subtitle">American comedian, director and actor, b. 1947 &ndash; animal counterpart: meerkat</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The meerkat: one who keeps watch over the situation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>meerkat</strong> stands upright on two legs and scans in every direction so the group can feed safely. Albert Brooks was born Albert Lawrence Einstein on 22 July 1947 in Beverly Hills into a Jewish show business family. His mother was the actress Thelma Leeds, his father the radio comedian Harry Einstein, who performed as ‘Parkyakarkus’. He was the youngest of three sons; his brothers include the comedian Bob Einstein.</p>
+          <p class="vb-intro">At Beverly Hills High School he knew Richard Dreyfuss and Rob Reiner. He then went to the Carnegie Institute of Technology in Pittsburgh, where Michael McKean and David L. Lander were among his classmates, but he left after one year to pursue comedy. By 19 he called himself Albert Brooks and joked that ‘the real Albert Einstein changed his name to sound more intelligent’.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Six: fear as a group matter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Six (SO6)</strong> seeks safety in the group, in rules and duty; Claudio Naranjo called this subtype ‘Duty’. In Albert Brooks this can be linked to his stage persona: according to Wikipedia he played the egotistical, nervous, self-aware showbiz insider, a man who constantly feels watched and makes his own insecurity the subject. In the late 1960s and early 1970s he appeared regularly on television shows, including Johnny Carson's ‘The Tonight Show’, and worked on early material for the comedy group The Credibility Gap with McKean, Lander and Harry Shearer.</p>
+          <p class="vb-intro">That he co-wrote most of his films with the same collaborator, Monica Johnson, fits a subtype that has its base in reliable working relationships. His comedy lives from putting the group's anxiety on display instead of hiding it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven wing: wit as an answer to worry</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven wing (w7)</strong> gives the Six lightness, inventiveness and humor. In Brooks it can be recognized in how he turns his own worry into punchlines. When he was not nominated for an Oscar for his role in ‘Drive’ (2011), he wrote on Twitter: ‘You don't like me. You really don't like me.’ The line alludes to a famous acceptance speech and turns the wish to be liked into a joke.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: director, actor, voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1975 he directed six short films for the first season of ‘Saturday Night Live’. As a director he made ‘Real Life’ (1979), a satire of the documentary series ‘An American Family’ often seen as a precursor of reality television, ‘Modern Romance’ (1981), ‘Lost in America’ (1985), usually considered his best work, ‘Defending Your Life’ (1991) with Meryl Streep, ‘Mother’ (1996) with Debbie Reynolds, ‘The Muse’ (1999) and ‘Looking for Comedy in the Muslim World’ (2005). For the screenplays of ‘Lost in America’ and ‘Mother’ he received National Society of Film Critics awards.</p>
+          <p class="vb-intro">As an actor he began in 1976 with Martin Scorsese in ‘Taxi Driver’, where he was allowed to improvise much of his dialogue. For ‘Broadcast News’ (1987), as an insecure, decent television reporter, he was nominated for the Oscar for best supporting actor. In ‘Drive’ (2011) he played the gangster Bernie Rose, which brought him numerous critics' awards, and he voiced Marlin in ‘Finding Nemo’ (2003) and ‘Finding Dory’ (2016). On ‘The Simpsons’ (credited as ‘A. Brooks’) he is known as a guest voice, including as Hank Scorpio. In 2011 his novel ‘2030: The Real Story of What Happens to America’ appeared. In 2023 the documentary ‘Albert Brooks: Defending My Life’ (directed by Rob Reiner) was released.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype and among comedians: Jonah Hill and Woody Allen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-jonah-hill">Jonah Hill (SO6w7)</a> shares subtype and wing with Brooks and the comedy that arises from the insecurity of the group person. <a href="#beruehmte-woody-allen">Woody Allen (SP6w7)</a> is the obvious comparison among neurotic comedians: for him too the anxiety is the raw material of the punchline, except that he withdraws into self-absorption while Brooks draws the group, the audience and the industry in.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Private life (as of 26 October 2026)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Since 1997 Brooks has been married to the artist Kimberly Shlain, daughter of the surgeon and author Leonard Shlain. They have two children, Jacob and Claire, and live in Santa Monica.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. What remains: fear that can be shared</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Brooks has turned the mistrust and worry of the group creature into an art form, and the audience recognizes itself in it. What would heal the social Six with a Seven wing is the experience that belonging does not depend on constant self-examination. His film ‘Defending Your Life’, whose plot, as is well known, revolves around the question of whether one has overcome fear in one's life, can be read as his own theme.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so6", label:"SO6 – The Meerkat: subtype profile"},
+        {route:"beruehmte-jonah-hill", label:"Portrait: Jonah Hill (SO6w7)"},
+        {route:"beruehmte-woody-allen", label:"Portrait: Woody Allen (SP6w7)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}

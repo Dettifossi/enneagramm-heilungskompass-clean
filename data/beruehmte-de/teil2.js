@@ -2726,6 +2726,7 @@ export function jonahHillPortraitPage() {
         {route:"beruehmte-donata-hopfen", label:"Porträt: Donata Hopfen (SO6w7)"},
         {route:"beruehmte-herbert-groenemeyer", label:"Porträt: Herbert Grönemeyer (SO6w7)"},
         {route:"beruehmte-james-corden", label:"Porträt: James Corden (SO6w7)"},
+        {route:"beruehmte-albert-brooks", label:"Porträt: Albert Brooks (SO6w7)"},
       ])}
     </div>
   `);

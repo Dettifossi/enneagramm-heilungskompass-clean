@@ -223,7 +223,7 @@ export const LEBENSMUSTERKOMPASS = {
   SO6: {
     tier: "Meerkat",
     kernthema: "Standing guard for the group, not for oneself – security through belonging and duty",
-    beispiele: ["Heinz Rudolf Kunze", "Melanie Kreis", "Immanuel Kant", "Dr. Sigmund Freud", "Andy Reid", "Donata Hopfen", "Herbert Grönemeyer", "James Corden", "Adolf Eichmann", "Prof. Dr. Marta Manser", "Prof. Tim Clutton-Brock", "Philip", "Prof. Dr. Grit Straßenberger", "Anne Applebaum", "Herfried Münkler", "Andreas Gruber", "Dr. Ulrich Selz"],
+    beispiele: ["Albert Brooks", "Heinz Rudolf Kunze", "Melanie Kreis", "Immanuel Kant", "Dr. Sigmund Freud", "Andy Reid", "Donata Hopfen", "Herbert Grönemeyer", "James Corden", "Adolf Eichmann", "Prof. Dr. Marta Manser", "Prof. Tim Clutton-Brock", "Philip", "Prof. Dr. Grit Straßenberger", "Anne Applebaum", "Herfried Münkler", "Andreas Gruber", "Dr. Ulrich Selz"],
     fingerabdruecke: [
       {
         titel: "Standing guard for the group, not for oneself",
@@ -238,7 +238,7 @@ export const LEBENSMUSTERKOMPASS = {
       {
         titel: "The w7 variant: not waiting, but running ahead of the group",
         beschreibung: "Instead of methodically scanning the horizon, this expression actively brings movement into the system – mobilizes the group before a threat is even visible, or actively gathers people together.",
-        beleg: "Donata Hopfen: 'Others take off running, mobilize the group, bring movement into the territory before the threat is even visible ... The meerkat of the SO6w7 doesn't run away – it runs ahead'; James Corden, who in 'Carpool Karaoke' literally gathers people into his own car: 'Get in, sing along, be part of it.'; Herbert Grönemeyer, who did not fall silent after losing his wife and brother within days of each other, but created 'Mensch,' the best-selling German studio album of all time – the greatest sign of community and life growing out of the deepest loss."
+        beleg: "Donata Hopfen: 'Others take off running, mobilize the group, bring movement into the territory before the threat is even visible ... The meerkat of the SO6w7 doesn't run away – it runs ahead'; James Corden, who in 'Carpool Karaoke' literally gathers people into his own car: 'Get in, sing along, be part of it.'; Herbert Grönemeyer, who did not fall silent after losing his wife and brother within days of each other, but created 'Mensch,' the best-selling German studio album of all time – the greatest sign of community and life growing out of the deepest loss.; Albert Brooks, who in a stage persona of insecurity and self-observation turned his own worry into the punchline (‘You don't like me. You really don't like me.’)"
       },
       {
         titel: "When embeddedness in a system completely replaces one's own conscience (shadow form)",

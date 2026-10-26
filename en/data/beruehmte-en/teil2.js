@@ -2713,6 +2713,7 @@ export function jonahHillPortraitPage() {
         {route:"beruehmte-donata-hopfen", label:"Portrait: Donata Hopfen (SO6w7)"},
         {route:"beruehmte-herbert-groenemeyer", label:"Portrait: Herbert Grönemeyer (SO6w7)"},
         {route:"beruehmte-james-corden", label:"Portrait: James Corden (SO6w7)"},
+        {route:"beruehmte-albert-brooks", label:"Portrait: Albert Brooks (SO6w7)"},
       ])}
     </div>
   `);

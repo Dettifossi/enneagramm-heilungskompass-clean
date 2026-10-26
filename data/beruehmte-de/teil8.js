@@ -3057,3 +3057,71 @@ export function rogerAkeliusPortraitPage() {
     </div>
   `);
 }
+
+export function albertBrooksPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-albert-brooks-portrait.jpg" alt="Albert Brooks – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Albert Brooks</p>
+        <p class="krim-portrait-typ">SO6w7 &middot; Sozialer Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Komiker, Regisseur und Schauspieler, geb. 1947 &ndash; Tierentsprechung: Erdmännchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Erdmännchen: einer, der die Lage im Blick behält</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Erdmännchen</strong> steht aufrecht auf zwei Beinen und späht in alle Richtungen, damit die Gruppe sicher fressen kann. Albert Brooks kam am 22. Juli 1947 als Albert Lawrence Einstein in Beverly Hills zur Welt, in eine jüdische Familie des Showgeschäfts. Seine Mutter war die Schauspielerin Thelma Leeds, sein Vater der Radiokomiker Harry Einstein, der als ›Parkyakarkus‹ auftrat. Er war der jüngste von drei Söhnen; zu seinen Brüdern gehört der Komiker Bob Einstein.</p>
+          <p class="vb-intro">An der Beverly Hills High School kannte er Richard Dreyfuss und Rob Reiner. Danach ging er ans Carnegie Institute of Technology in Pittsburgh, wo Michael McKean und David L. Lander zu seinen Kommilitonen zählten, brach aber nach einem Jahr ab, um Komiker zu werden. Mit 19 nannte er sich Albert Brooks und scherzte: ›the real Albert Einstein changed his name to sound more intelligent‹ – der echte Albert Einstein habe seinen Namen geändert, um klüger zu klingen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sechs: Angst als Gruppenthema</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sechs (SO6)</strong> sucht Sicherheit in der Gruppe, in Regeln und Pflicht; Claudio Naranjo nannte diesen Subtyp ›Pflicht‹. Bei Albert Brooks lässt sich das mit seiner Bühnenfigur in Verbindung bringen: Er spielte nach der Wikipedia-Seite den egozentrischen, nervösen, selbstbewussten Insider des Showgeschäfts, einen Mann, der sich ständig beobachtet fühlt und seine Unsicherheit selbst zum Thema macht. Er trat in den späten 1960er und frühen 1970er Jahren regelmäßig in Fernsehshows auf, auch in Johnny Carsons ›The Tonight Show‹, und arbeitete für die Kabarettgruppe The Credibility Gap mit McKean, Lander und Harry Shearer.</p>
+          <p class="vb-intro">Dass er die meisten seiner Filme gemeinsam mit derselben Autorin schrieb, mit Monica Johnson, passt zu einem Subtyp, der in verlässlichen Arbeitsbeziehungen seine Basis hat. Seine Komik lebt davon, die Angst der Gruppe vorzuführen, statt sie zu verstecken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Witz als Antwort auf die Sorge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der Sechs Leichtigkeit, Einfallsreichtum und Humor. Bei Brooks kann man ihn darin erkennen, wie er die eigene Sorge in Pointen verwandelt. Als er für seine Rolle in ›Drive‹ (2011) nicht für den Oscar nominiert wurde, schrieb er auf Twitter: ›You don't like me. You really don't like me.‹ – ›Ihr mögt mich nicht. Ihr mögt mich wirklich nicht.‹ Der Satz spielt auf eine berühmte Dankesrede an und macht aus dem Wunsch, gemocht zu werden, einen Scherz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Regisseur, Schauspieler, Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1975 drehte er sechs Kurzfilme für die erste Staffel von ›Saturday Night Live‹. Als Regisseur schuf er ›Real Life‹ (1979), eine Satire auf die Dokuserie ›An American Family‹ und oft als Vorläufer des Reality-Fernsehens gesehen, ›Modern Romance‹ (1981), ›Lost in America‹ (1985), meist als sein bestes Werk gerühmt, ›Defending Your Life‹ (1991) mit Meryl Streep, ›Mother‹ (1996) mit Debbie Reynolds, ›The Muse‹ (1999) und ›Looking for Comedy in the Muslim World‹ (2005). Für die Drehbücher zu ›Lost in America‹ und ›Mother‹ erhielt er Preise der National Society of Film Critics.</p>
+          <p class="vb-intro">Als Schauspieler begann er 1976 mit Martin Scorsese in ›Taxi Driver‹, wo er viel improvisieren durfte. Für ›Broadcast News‹ (1987), als unsicherer, anständiger Fernsehreporter, wurde er für den Oscar als bester Nebendarsteller nominiert. In ›Drive‹ (2011) spielte er den Gangster Bernie Rose, was ihm zahlreiche Kritikerpreise einbrachte, und er sprach Marlin in ›Finding Nemo‹ (2003) und ›Finding Dory‹ (2016). In der Serie ›The Simpsons‹ (unter dem Namen ›A. Brooks‹) ist er als Gaststimme bekannt, unter anderem als Hank Scorpio. 2011 erschien sein Roman ›2030: The Real Story of What Happens to America‹. 2023 kam die Dokumentation ›Albert Brooks: Defending My Life‹ (Regie: Rob Reiner) heraus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp und unter Komikern: Jonah Hill und Woody Allen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-jonah-hill">Jonah Hill (SO6w7)</a> teilt mit Brooks Subtyp und Flügel und die Komik, die aus der Unsicherheit des Gruppenmenschen entsteht. <a href="#beruehmte-woody-allen">Woody Allen (SE6w7)</a> ist der naheliegende Vergleich unter den neurotischen Komikern: Auch bei ihm ist die Angst das Material der Pointe, nur zieht er sich in die Selbstbezogenheit zurück, während Brooks die Gruppe, das Publikum und die Branche mit hineinzieht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Privates (Stand 26. Oktober 2026)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Seit 1997 ist Brooks mit der Künstlerin Kimberly Shlain verheiratet, der Tochter des Chirurgen und Autors Leonard Shlain. Sie haben zwei Kinder, Jacob und Claire, und leben in Santa Monica.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Was bleibt: Angst, die man teilen kann</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Brooks hat aus dem Misstrauen und der Sorge des Gruppenwesens eine Kunstform gemacht, und das Publikum erkennt sich darin wieder. Heilsam wäre für die soziale Sechs mit Siebenerflügel die Erfahrung, dass Zugehörigkeit nicht von der ständigen Selbstprüfung abhängt. Sein Film ›Defending Your Life‹ (›Verteidige dein Leben‹) kreist, wie die Handlung bekannt ist, um die Frage, ob man die Angst in seinem Leben überwunden hat, und lässt sich als sein eigenes Thema lesen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so6", label:"SO6 – Das Erdmännchen: Subtyp-Profil"},
+        {route:"beruehmte-jonah-hill", label:"Porträt: Jonah Hill (SO6w7)"},
+        {route:"beruehmte-woody-allen", label:"Porträt: Woody Allen (SE6w7)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}

@@ -1662,6 +1662,7 @@ export function woodyAllenPortraitPage() {
         {route:"beruehmte-gerald-hoerhan", label:"Porträt: Gerald H\u00f6rhan (SE6w7)"},
         {route:"beruehmte-kevin-kuehnert", label:"Porträt: Kevin K\u00fchnert (SE6w7)"},
         {route:"beruehmte-thomas-schmelzer", label:"Porträt: Thomas Schmelzer (SO5w6)"},
+        {route:"beruehmte-albert-brooks", label:"Porträt: Albert Brooks (SO6w7)"},
       ])}
     </div>
   `);

@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2665", date: "2026-10-26", text: "Neues Porträt: Albert Brooks (SO6w7) – Komiker, Regisseur und Schauspieler.", text_en: "New portrait: Albert Brooks (SO6w7) – comedian, director and actor.", route: "beruehmte-albert-brooks" },
     { version: "v2664", date: "2026-10-26", text: "Neues Porträt: Emily Blunt (SX6w5) – britisch-amerikanische Schauspielerin.", text_en: "New portrait: Emily Blunt (SX6w5) – British-American actress.", route: "beruehmte-emily-blunt" },
     { version: "v2663", date: "2026-10-26", text: "Neues Porträt: RJ Mitte (SX2w3) – Schauspieler aus ›Breaking Bad‹ und Botschafter für Inklusion.", text_en: "New portrait: RJ Mitte (SX2w3) – actor from ‘Breaking Bad’ and advocate for inclusion.", route: "beruehmte-rj-mitte" },
     { version: "v2662", date: "2026-10-26", text: "Neues Porträt: Sulli (SE3w2) – südkoreanische Sängerin und Schauspielerin.", text_en: "New portrait: Sulli (SP3w2) – South Korean singer and actress.", route: "beruehmte-sulli" },
