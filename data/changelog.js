@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2671", date: "2026-10-26", text: "Neues Porträt: Steve McQueen (SX6w7) – Schauspieler und Rennfahrer.", text_en: "New portrait: Steve McQueen (SX6w7) – actor and racing driver.", route: "beruehmte-steve-mcqueen" },
     { version: "v2670", date: "2026-10-26", text: "Neues Krankheitsporträt: Bruce Lee (SO3w4) – der Kollaps im Mai 1973 und ein Tod, dessen Ursache bis heute umstritten ist.", text_en: "New illness portrait: Bruce Lee (SO3w4) – the collapse in May 1973 and a death whose cause is still disputed.", route: "krankheitsportraets-bruce-lee" },
     { version: "v2669", date: "2026-10-26", text: "Neues Krankheitsporträt: Robbie Coltrane (SE9w8) – Arthrose, Diabetes und ein stiller Verlauf.", text_en: "New illness portrait: Robbie Coltrane (SE9w8) – osteoarthritis, diabetes and a quiet course.", route: "krankheitsportraets-robbie-coltrane" },
     { version: "v2668", date: "2026-10-26", text: "Neues Krankheitsporträt: Wolfgang Niedecken (SO1w2) – Schlaganfall 2011 und der Weg zurück auf die Bühne.", text_en: "New illness portrait: Wolfgang Niedecken (SO1w2) – the 2011 stroke and the way back to the stage.", route: "krankheitsportraets-wolfgang-niedecken" },

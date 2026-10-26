@@ -196,7 +196,7 @@ export const LEBENSMUSTERKOMPASS = {
   SX6: {
     tier: "Wolf",
     kernthema: "Angst wird nicht vermieden, sondern frontal angegriffen – Stärke als Kontra-Angst (Naranjo: Kontratyp der Sechs)",
-    beispiele: ["Emily Blunt", "Karolina Lodyga", "Dagi Bee", "Dr. med. Sheila de Liz", "Wladimir Putin", "Platon", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson", "Dr. L. David Mech", "Dr. Douglas W. Smith", "Friedrich Schiller", "Uwe Ochsenknecht", "Otto von Bismarck", "Petrus", "Skylar Grey", "Eva Mendes", "Heather Thomas", "Olena Zelenska", "Bobby Fischer", "Louise Hay", "Natalie Dormer", "Avril Lavigne", "Alec Baldwin", "Clara Lösel", "Bella Hadid", "Oliver Kahn", "Veronica Ferres", "Ruby True"],
+    beispiele: ["Steve McQueen", "Emily Blunt", "Karolina Lodyga", "Dagi Bee", "Dr. med. Sheila de Liz", "Wladimir Putin", "Platon", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson", "Dr. L. David Mech", "Dr. Douglas W. Smith", "Friedrich Schiller", "Uwe Ochsenknecht", "Otto von Bismarck", "Petrus", "Skylar Grey", "Eva Mendes", "Heather Thomas", "Olena Zelenska", "Bobby Fischer", "Louise Hay", "Natalie Dormer", "Avril Lavigne", "Alec Baldwin", "Clara Lösel", "Bella Hadid", "Oliver Kahn", "Veronica Ferres", "Ruby True"],
     fingerabdruecke: [
       {
         titel: "Angst wird nicht vermieden, sondern frontal angegriffen",
@@ -211,7 +211,7 @@ export const LEBENSMUSTERKOMPASS = {
       {
         titel: "Kraft aus dem Rudel statt aus Einzelgängertum",
         beschreibung: "Die eigene Stärke entsteht nicht in Isolation, sondern in Verbindung mit einer Gruppe, einem Ensemble oder einer Gemeinschaft, für die man sich exponiert und in der man sich immer wieder beweist.",
-        beleg: "Anke Engelke: ›Ihre Stärke kommt nicht aus Isolation, sondern aus Verbindung‹; Jennifer Aniston: ›Die Fähigkeit, sich immer wieder ins Rudel zu stellen … und dort standzuhalten, wenn es unbequem wird‹; Alice Schwarzer: ›Der Wolf lebt im Rudel, kämpft für das Rudel – und zeigt die Zähne, wenn das Rudel bedroht wird.‹; Ruby True, die Zuhörer in Live-Klangbädern auf Twitch und in einer Unterstützergemeinschaft bei Patreon zu einer Gemeinschaft um sich versammelt und ihnen mit ruhigem Klang einen Weg aus Anspannung und Angst anbietet"
+        beleg: "Anke Engelke: ›Ihre Stärke kommt nicht aus Isolation, sondern aus Verbindung‹; Jennifer Aniston: ›Die Fähigkeit, sich immer wieder ins Rudel zu stellen … und dort standzuhalten, wenn es unbequem wird‹; Alice Schwarzer: ›Der Wolf lebt im Rudel, kämpft für das Rudel – und zeigt die Zähne, wenn das Rudel bedroht wird.‹; Ruby True, die Zuhörer in Live-Klangbädern auf Twitch und in einer Unterstützergemeinschaft bei Patreon zu einer Gemeinschaft um sich versammelt und ihnen mit ruhigem Klang einen Weg aus Anspannung und Angst anbietet; Steve McQueen, der nach einer Kindheit ohne Schutz Härte zum Schild machte, nach einer Todeslisten-Meldung ständig eine Waffe trug und im Freundeskreis (Bud Ekins) und im Rennsport Halt fand"
       },
       {
         titel: "Wenn die Angst-Kontra-Angst-Dynamik zu fanatischer Ideologie oder Gewalt kippt (Schattenform)",

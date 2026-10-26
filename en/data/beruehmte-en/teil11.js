@@ -3059,3 +3059,75 @@ export function simoneMennePortraitPage() {
     </div>
   `);
 }
+
+export function steveMcQueenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-steve-mcqueen-portrait.jpg" alt="Steve McQueen – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Steve McQueen</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with a Seven wing &middot; Countertype of the Six</p>
+        <p class="krim-portrait-subtitle">American actor and racing driver, 1930&ndash;1980 &ndash; animal counterpart: wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The wolf: a child who could trust no one early on</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>wolf</strong> grows up in a pack that does not protect him and learns to keep watch himself. Steve McQueen was born on 24 March 1930 in Beech Grove, Indiana. His father, a stunt pilot, left the family when he was about six months old. In 1933 his mother left him with his grandparents; later he lived on the farm of his great-uncle Claude. At eight or nine his mother took him to Indianapolis, his stepfather beat him, and at nine he was living on the streets. Dyslexia and partial deafness made school hard for him.</p>
+          <p class="vb-intro">As a teenager he joined a gang in Los Angeles, was caught stealing hubcaps and, after a confrontation, threatened to kill his stepfather. A court sent him as ‘incorrigible’ to the Boys Republic in Chino Hills, a reform school. There he gradually became a role model and was elected to the boys' council. Later he said: ‘When a kid doesn't have any love when he's small, he begins to wonder if he's good enough.’</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Six: strength as a shield</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Claudio Naranjo the sexual Six is the countertype of the Six: the fear shows not as hesitation but as counter-movement, as toughness, courage and the readiness to go toward what is dangerous. In McQueen this can be linked to his path into the Marines, where he served from 1947. According to the accounts he was demoted several times and spent 41 days in the brig, but is said to have later rescued five comrades from a tank that broke through Arctic ice.</p>
+          <p class="vb-intro">That watchfulness lay beneath the toughness is shown by an episode from 1969: after the Tate murders, in which his friends Sharon Tate and Jay Sebring died, media reported that police had found a hit list with his name on it. According to his first wife he then carried a handgun at all times in public, even at Sebring's funeral. As an interpretation this can be linked to the pattern of not showing fear but arming it. The gaze in the drawing, too, is alert and probing, the mouth firmly closed: a face that waits first before letting anyone close.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven wing: speed, thrill and being on the move</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Riso and Hudson call the Six with a Seven wing ‘The Buddy’. The <strong>Seven wing (w7)</strong> brings a taste for speed, adventure and thrill. In McQueen this shows in the motorcycles and cars: he owned about 100 motorcycles and a large car collection and flew several vintage aircraft. In 1970, with Peter Revson in a Porsche 908, he won the three-liter class at the 12 Hours of Sebring and missed the overall win by 21.1 seconds. In off-road races such as the Baja 1000 he rode under the name ‘Harvey Mushman’.</p>
+          <p class="vb-intro">The thrill also included substances: according to the photographer William Claxton he smoked marijuana almost daily, the biographer Marc Eliot speaks of a lot of cocaine in the early 1970s, and in 1972 he was arrested for drunk driving in Anchorage. In addition there was a daily two-hour training program with weights and at times running.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the man who said less and showed more</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">McQueen became known as the bounty hunter Josh Randall in the Western series ‘Wanted: Dead or Alive’ (94 episodes, 1958 to 1961). ‘The Magnificent Seven’ (1960), ‘The Great Escape’ (1963), ‘The Sand Pebbles’ (1966, his only Oscar nomination) and ‘Bullitt’ (1968) with its famous car chase followed. His manner became his label: the ‘King of Cool’, an antihero who spoke little and showed much.</p>
+          <p class="vb-intro">Part of his self-image was that he did not inflate his own share: when Johnny Carson congratulated him on the motorcycle jump in ‘The Great Escape’, he said: ‘It wasn't me. That was Bud Ekins.’ The stunt rider was a close friend. In ‘The Towering Inferno’ (1974) he wanted the role of the fire chief but asked for more dialogue to match Paul Newman, and received one million dollars plus a share of the gross. With his company Solar Productions he financed the documentary ‘On Any Sunday’ (1971). For the racing film ‘Le Mans’ (1971) he wanted to drive in the 24-hour race himself but chose the film, because the backers would otherwise have withdrawn their support.</p>
+          <p class="vb-intro">In 1974 he vanished from public view and toured the country with a motor home and vintage Indian motorcycles. Only in 1978 did he return, with ‘An Enemy of the People’, as a bearded doctor in an Ibsen play, cast against his image. His last films were ‘Tom Horn’ and ‘The Hunter’ (both 1980).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype and in his circle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-nick-nolte">Nick Nolte (SX6w5)</a> shows a similarly rough, unprotected toughness as an actor, and for him too the strength comes from dealing with fear. <a href="#beruehmte-eva-mendes">Eva Mendes (SX6w7)</a> belongs to the same subtype and wing and shows how broadly this constellation can express itself. With <a href="#beruehmte-bruce-lee">Bruce Lee (SO3w4)</a> he shared a friendship: at the funeral in 1973 McQueen was one of the pallbearers.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Where strength carries and where it protects</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After his biggest box-office success he preferred in 1974 to withdraw rather than keep showing himself. He stayed connected to the reform school for decades: he visited the boys and gave them things he had demanded from studios (razors, jeans). His marriages to Neile Adams (1956 to 1972), Ali MacGraw (1973 to 1978) and Barbara Minty (January 1980) can be read as a sign that closeness was hard for him to hold. His close friend Pat Johnson called MacGraw the one true love of his life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The end and the question of trust</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In December 1979 doctors diagnosed mesothelioma, a cancer linked to asbestos. After US doctors told him they could do nothing more, McQueen sought help in Mexico from William Donald Kelley, who was widely regarded as a quack, and in October 1980 traveled under the name Samuel Sheppard to Ciudad Juárez for an operation. He died there on 7 November 1980, aged 50, of a heart attack. In his last years he turned to faith; shortly before his death the evangelist Billy Graham visited him.</p>
+          <p class="vb-intro">For the sexual Six the path of healing lies in trust: no longer having to prove that one is afraid of nothing, but allowing someone to be there who stays. That the mistrustful rebel in the end looked for faith and for someone he could trust can be read in this sense.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: subtype profile"},
+        {route:"beruehmte-nick-nolte", label:"Portrait: Nick Nolte (SX6w5)"},
+        {route:"beruehmte-eva-mendes", label:"Portrait: Eva Mendes (SX6w7)"},
+        {route:"beruehmte-bruce-lee", label:"Portrait: Bruce Lee (SO3w4)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}

@@ -196,7 +196,7 @@ export const LEBENSMUSTERKOMPASS = {
   SX6: {
     tier: "Wolf",
     kernthema: "Fear is not avoided but confronted head-on – strength as counter-fear (Naranjo: countertype of the Six)",
-    beispiele: ["Emily Blunt", "Karolina Lodyga", "Dagi Bee", "Dr. med. Sheila de Liz", "Vladimir Putin", "Plato", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson", "Dr. L. David Mech", "Dr. Douglas W. Smith", "Friedrich Schiller", "Uwe Ochsenknecht", "Otto von Bismarck", "Peter", "Skylar Grey", "Eva Mendes", "Heather Thomas", "Olena Zelenska", "Bobby Fischer", "Louise Hay", "Natalie Dormer", "Avril Lavigne", "Alec Baldwin", "Clara Lösel", "Bella Hadid", "Oliver Kahn", "Veronica Ferres", "Ruby True"],
+    beispiele: ["Steve McQueen", "Emily Blunt", "Karolina Lodyga", "Dagi Bee", "Dr. med. Sheila de Liz", "Vladimir Putin", "Plato", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson", "Dr. L. David Mech", "Dr. Douglas W. Smith", "Friedrich Schiller", "Uwe Ochsenknecht", "Otto von Bismarck", "Peter", "Skylar Grey", "Eva Mendes", "Heather Thomas", "Olena Zelenska", "Bobby Fischer", "Louise Hay", "Natalie Dormer", "Avril Lavigne", "Alec Baldwin", "Clara Lösel", "Bella Hadid", "Oliver Kahn", "Veronica Ferres", "Ruby True"],
     fingerabdruecke: [
       {
         titel: "Fear is not avoided, but confronted head-on",
@@ -211,7 +211,7 @@ export const LEBENSMUSTERKOMPASS = {
       {
         titel: "Strength from the pack instead of going it alone",
         beschreibung: "One's own strength arises not in isolation, but in connection with a group, an ensemble, or a community for which one exposes oneself and proves oneself again and again.",
-        beleg: "Anke Engelke: 'Her strength comes not from isolation, but from connection'; Jennifer Aniston: 'The ability to keep putting herself into the pack ... and hold her ground there when it gets uncomfortable'; Alice Schwarzer: 'The wolf lives in the pack, fights for the pack – and bares its teeth when the pack is threatened.'; Ruby True, who gathers listeners into a community around her through live sound baths on Twitch and a supporter community on Patreon, offering them a way out of tension and anxiety through calm sound"
+        beleg: "Anke Engelke: 'Her strength comes not from isolation, but from connection'; Jennifer Aniston: 'The ability to keep putting herself into the pack ... and hold her ground there when it gets uncomfortable'; Alice Schwarzer: 'The wolf lives in the pack, fights for the pack – and bares its teeth when the pack is threatened.'; Ruby True, who gathers listeners into a community around her through live sound baths on Twitch and a supporter community on Patreon, offering them a way out of tension and anxiety through calm sound; Steve McQueen, who after a childhood without protection made toughness his shield, carried a handgun at all times after a hit-list report and found support in a circle of friends (Bud Ekins) and in racing"
       },
       {
         titel: "When the fear-counter-fear dynamic tips into fanatical ideology or violence (shadow form)",

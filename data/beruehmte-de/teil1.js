@@ -2659,6 +2659,7 @@ export function nickNoltePortraitPage() {
         {route:"beruehmte-natalie-dormer", label:"Porträt: Natalie Dormer (SX6w5) – derselbe Subtyp und Flügel"},
         {route:"beruehmte-bobby-fischer", label:"Porträt: Bobby Fischer (SX6w5) – derselbe Subtyp und Flügel, ein anderes Feld"},
         {route:"beruehmte-emily-blunt", label:"Porträt: Emily Blunt (SX6w5)"},
+        {route:"beruehmte-steve-mcqueen", label:"Porträt: Steve McQueen (SX6w7)"},
       ])}
     </div>
   `);

@@ -548,6 +548,7 @@ export function evaMendesPortraitPage() {
         {route:"beruehmte-olena-zelenska", label:"Portrait: Olena Zelenska (SX6w7)"},
         {route:"beruehmte-louise-hay", label:"Portrait: Louise Hay (SX6w7) – also the same subtype"},
         {route:"beruehmte-julie-benz", label:"Portrait: Julie Benz (SX6w7)"},
+        {route:"beruehmte-steve-mcqueen", label:"Portrait: Steve McQueen (SX6w7)"},
       ])}
     </div>
   `);

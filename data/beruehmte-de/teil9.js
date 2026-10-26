@@ -2959,6 +2959,7 @@ export function bruceLeePortraitPage() {
         {route:"beruehmte-leon-goretzka", label:"Porträt: Leon Goretzka (SO3w4)"},
         {route:"beruehmte-sven-platte", label:"Porträt: Sven Platte (SO3w4)"},
         {route:"krankheitsportraets-bruce-lee", label:"Krankheitsporträt: Bruce Lee (SO3w4) – Hirnödem und Tod 1973"},
+        {route:"beruehmte-steve-mcqueen", label:"Porträt: Steve McQueen (SX6w7) – Freund und Sargträger"},
             ])}
     </div>
   `);
