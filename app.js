@@ -27692,7 +27692,7 @@ const BERUEHMT_PORTRAITS = [
     land:"USA/Deutschland", tags:["Tanz"], gender:"m"},
   { route:"beruehmte-martha-graham", name:"Martha Graham", added:"2026-10-26", subtyp:"SO4w3",
     heading:"Martha Graham \u2013 Sozialer Typ 4",
-    teaser:"SO4w3 \u00b7 1894\u20131991. Tänzerin und Choreografin, Mutter des modernen Tanzes (\u203aLamentation\u2039, \u203aAppalachian Spring\u2039). Das Gürteltier, das Schmerz und Andersheit auf die große Bühne trägt.",
+    teaser:"SO4w3 \u00b7 1894\u20131991. Tänzerin und Choreografin, Mutter des modernen Tanzes (\u203aLamentation\u2039, \u203aAppalachian Spring\u2039). Das Gürteltier, das Schmerz und Andersartigkeit auf die große Bühne trägt.",
     land:"USA", tags:["Tanz"], gender:"f"},
   { route:"beruehmte-christoph-waltz", name:"Christoph Waltz", subtyp:"SE1w2",
     heading:"Christoph Waltz \u2013 Selbsterhaltender Typ 1",
