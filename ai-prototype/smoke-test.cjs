@@ -227,6 +227,8 @@ const ROUTES = [
   { hash: "en/#david-rathmer-gespraech", label: "EN David Rathmer conversation" },
   { hash: "#beruehmte-john-neumeier", label: "Neues Porträt: John Neumeier" },
   { hash: "en/#beruehmte-john-neumeier", label: "Neues EN-Porträt: John Neumeier" },
+  { hash: "#beruehmte-emily-blunt", label: "Neues Porträt: Emily Blunt" },
+  { hash: "en/#beruehmte-emily-blunt", label: "Neues EN-Porträt: Emily Blunt" },
   { hash: "#beruehmte-rj-mitte", label: "Neues Porträt: RJ Mitte" },
   { hash: "en/#beruehmte-rj-mitte", label: "Neues EN-Porträt: RJ Mitte" },
   { hash: "#beruehmte-sulli", label: "Neues Porträt: Sulli" },

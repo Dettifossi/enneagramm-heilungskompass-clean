@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=406";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=407";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -107,6 +107,7 @@ const robbieColtranePortraitPage = () => _lazyPage("./data/beruehmte-en/teil5.js
 const happyAndersonPortraitPage = () => _lazyPage("./data/beruehmte-en/teil8.js", "happyAndersonPortraitPage");
 const paulSimonPortraitPage = () => _lazyPage("./data/beruehmte-en/teil9.js", "paulSimonPortraitPage");
 const artGarfunkelPortraitPage = () => _lazyPage("./data/beruehmte-en/teil9.js", "artGarfunkelPortraitPage");
+const emilyBluntPortraitPage = () => _lazyPage("./data/beruehmte-en/teil7.js", "emilyBluntPortraitPage");
 const rjMittePortraitPage = () => _lazyPage("./data/beruehmte-en/teil13.js", "rjMittePortraitPage");
 const sulliPortraitPage = () => _lazyPage("./data/beruehmte-en/teil4.js", "sulliPortraitPage");
 const johnNeumeierPortraitPage = () => _lazyPage("./data/beruehmte-en/teil14.js", "johnNeumeierPortraitPage");
@@ -1946,6 +1947,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Self-Preservation Type 4",
     teaser:"SP4w5 \u00b7 born 1939 in Milwaukee. Choreographer and ballet director, Hamburg Ballet 1973\u20132024 (\u2018Nijinsky\u2019, \u2018The Lady of the Camellias\u2019). The Dove who puts her depth quietly into works.",
     land:"USA/Germany", tags:["Tanz"], gender:"m"},
+{ route:"beruehmte-emily-blunt", name:"Emily Blunt", added:"2026-10-26", subtyp:"SX6w5",
+    heading:"Emily Blunt \u2013 Sexual Type 6",
+    teaser:"SX6w5 \u00b7 born 1983 in London. British-American actress (\u2018The Devil Wears Prada\u2019, \u2018A Quiet Place\u2019, \u2018Oppenheimer\u2019). The Wolf who as a stammering child took the road onto the stage.",
+    land:"UK/USA", tags:["Schauspiel","Film"], gender:"f"},
 { route:"beruehmte-rj-mitte", name:"RJ Mitte", added:"2026-10-26", subtyp:"SX2w3",
     heading:"RJ Mitte \u2013 Sexual Type 2",
     teaser:"SX2w3 \u00b7 1992\u20132026. American actor (Walter White Jr. in \u2018Breaking Bad\u2019), advocate for inclusion. The Camel who took on responsibility early and made disability visible without self-pity.",
@@ -46647,6 +46652,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-john-neumeier": johnNeumeierPortraitPage,
       "beruehmte-sulli": sulliPortraitPage,
       "beruehmte-rj-mitte": rjMittePortraitPage,
+      "beruehmte-emily-blunt": emilyBluntPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,

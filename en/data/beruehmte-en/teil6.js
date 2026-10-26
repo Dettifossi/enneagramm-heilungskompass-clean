@@ -2624,6 +2624,7 @@ export function nickNoltePortraitPage() {
         {route:"subtype/sx6", label:"SX6 – The Wolf: subtype profile"},
         {route:"beruehmte-natalie-dormer", label:"Portrait: Natalie Dormer (SX6w5) – same subtype and wing"},
         {route:"beruehmte-bobby-fischer", label:"Portrait: Bobby Fischer (SX6w5) – same subtype and wing, another field"},
+        {route:"beruehmte-emily-blunt", label:"Portrait: Emily Blunt (SX6w5)"},
       ])}
     </div>
   `);

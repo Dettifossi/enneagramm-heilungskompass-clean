@@ -2109,6 +2109,7 @@ export function natalieDormerPortraitPage() {
         {route:"beruehmte-avril-lavigne", label:"Porträt: Avril Lavigne (SX6w7)"},
         {route:"beruehmte-nick-nolte", label:"Porträt: Nick Nolte (SX6w5)"},
         {route:"beruehmte-veronica-ferres", label:"Porträt: Veronica Ferres (SX6w5)"},
+        {route:"beruehmte-emily-blunt", label:"Porträt: Emily Blunt (SX6w5)"},
       ])}
     </div>
   `);
@@ -2657,6 +2658,7 @@ export function nickNoltePortraitPage() {
         {route:"lebensmusterkompass/sx6", label:"Lebensmusterkompass: SX6 – Wolf"},
         {route:"beruehmte-natalie-dormer", label:"Porträt: Natalie Dormer (SX6w5) – derselbe Subtyp und Flügel"},
         {route:"beruehmte-bobby-fischer", label:"Porträt: Bobby Fischer (SX6w5) – derselbe Subtyp und Flügel, ein anderes Feld"},
+        {route:"beruehmte-emily-blunt", label:"Porträt: Emily Blunt (SX6w5)"},
       ])}
     </div>
   `);

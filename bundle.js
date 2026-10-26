@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=409";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=410";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -95,6 +95,7 @@ const robbieColtranePortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.j
 const happyAndersonPortraitPage = () => _lazyPage("./data/beruehmte-de/teil2.js", "happyAndersonPortraitPage");
 const paulSimonPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "paulSimonPortraitPage");
 const artGarfunkelPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "artGarfunkelPortraitPage");
+const emilyBluntPortraitPage = () => _lazyPage("./data/beruehmte-de/teil13.js", "emilyBluntPortraitPage");
 const rjMittePortraitPage = () => _lazyPage("./data/beruehmte-de/teil9.js", "rjMittePortraitPage");
 const sulliPortraitPage = () => _lazyPage("./data/beruehmte-de/teil7.js", "sulliPortraitPage");
 const johnNeumeierPortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", "johnNeumeierPortraitPage");
@@ -27692,6 +27693,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 geb. 1939 in Milwaukee. Choreograf und Ballettdirektor, Hamburg Ballett 1973\u20132024 (\u203aNijinsky\u2039, \u203aDie Kameliendame\u2039). Die Taube, die ihre Tiefe still in Werke fasst.",
     land:"USA/Deutschland", tags:["Tanz"], gender:"m"},
+  { route:"beruehmte-emily-blunt", name:"Emily Blunt", added:"2026-10-26", subtyp:"SX6w5",
+    heading:"Emily Blunt \u2013 Sexueller Typ 6",
+    teaser:"SX6w5 \u00b7 geb. 1983 in London. Britisch-amerikanische Schauspielerin (\u203aThe Devil Wears Prada\u2039, \u203aA Quiet Place\u2039, \u203aOppenheimer\u2039). Der Wolf, der als stotterndes Kind den Weg auf die Bühne nahm.",
+    land:"Großbritannien/USA", tags:["Schauspiel","Film"], gender:"f"},
   { route:"beruehmte-rj-mitte", name:"RJ Mitte", added:"2026-10-26", subtyp:"SX2w3",
     heading:"RJ Mitte \u2013 Sexueller Typ 2",
     teaser:"SX2w3 \u00b7 1992\u20132026. US-amerikanischer Schauspieler (Walter White Jr. in \u203aBreaking Bad\u2039), Botschafter für Inklusion. Das Kamel, das früh Verantwortung trug und Behinderung ohne Selbstmitleid sichtbar machte.",
@@ -66918,6 +66923,7 @@ const ROUTES = {
       "beruehmte-john-neumeier": johnNeumeierPortraitPage,
       "beruehmte-sulli": sulliPortraitPage,
       "beruehmte-rj-mitte": rjMittePortraitPage,
+      "beruehmte-emily-blunt": emilyBluntPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,

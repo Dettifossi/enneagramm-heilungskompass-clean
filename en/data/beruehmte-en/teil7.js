@@ -3016,3 +3016,72 @@ export function rogerAkeliusPortraitPage() {
     </div>
   `);
 }
+
+export function emilyBluntPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-emily-blunt-portrait.jpg" alt="Emily Blunt – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Emily Blunt</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexual Type 6 with a Five wing &middot; Countertype of the Six</p>
+        <p class="krim-portrait-subtitle">British-American actress, b. 1983 in London &ndash; animal counterpart: wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The wolf: a child who could not speak</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>wolf</strong> walks toward what others avoid, with lowered head and watchful eyes. Emily Olivia Laura Blunt was born on 23 February 1983 in London, the second of four children; her father Oliver Blunt was a barrister, her mother Joanna Mackie an English teacher and former actress. Between the ages of seven and fourteen her stammer was at its worst. She described it as ‘like an imposter living in your body’.</p>
+          <p class="vb-intro">A teacher encouraged her to take part in school plays. There she found that she spoke fluently when she spoke in a different voice. By her own account the stammer has largely receded in adulthood but sometimes returns under stress.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Six: heading for the fear instead of around it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo saw the sexual Six as the countertype of the Six: the fear is there, but it shows as a counter-movement, as moving toward what threatens. In Emily Blunt this can be linked to her choice of profession. A child who had the most difficulty speaking became an actress, someone whose work consists of speaking before an audience.</p>
+          <p class="vb-intro">At 18 she made her debut in 2001 in London's West End in ‘The Royal Family’ directed by Peter Hall and was named best newcomer by the ‘Evening Standard’. Before that an agent had discovered her after she appeared in a school play at the Edinburgh Festival. The fear remained the starting point, but it no longer determined the way.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five wing: reserve and precision</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five wing (w5)</strong> gives the Six observation, reserve and the need to understand a matter thoroughly before acting. In Blunt this can be recognized in her choice of roles: she mostly played no glamour figures but Queen Victoria in ‘The Young Victoria’ (2009), a soldier in ‘Edge of Tomorrow’ (2014), an FBI agent in ‘Sicario’ (2015) and a mother leading her family through a world without noise in ‘A Quiet Place’ (2018). In all four, precision and controlled strength come first. For ‘Oppenheimer’ (2023) she reportedly accepted a pay cut to be in Christopher Nolan's film.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: from ‘My Summer of Love’ to ‘Oppenheimer’</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Her film debut was ‘My Summer of Love’ (2004), which won her the Evening Standard British Film Award for most promising newcomer. In 2006 came the breakthrough: for ‘Gideon's Daughter’ she received a Golden Globe for best supporting actress in a television film, and in ‘The Devil Wears Prada’ she played the assistant Emily Charlton; the film grossed $326 million and brought her a Golden Globe nomination and a BAFTA nomination. In 2009 she received a Golden Globe nomination for best actress for ‘The Young Victoria’ and the BAFTA Britannia Award as British Artist of the Year.</p>
+          <p class="vb-intro">‘The Adjustment Bureau’ and ‘Salmon Fishing in the Yemen’ (both 2011), ‘Looper’ (2012), ‘Into the Woods’ (2014), ‘The Girl on the Train’ (2016) and ‘Mary Poppins Returns’ (2018) followed. For ‘A Quiet Place’, directed by her husband John Krasinski, she won the Actor Award for best supporting actress. For ‘Oppenheimer’ (2023), in which she plays Katherine Oppenheimer, she received her first Oscar nomination for best supporting actress; the film grossed more than $950 million. On 30 April 2026 she received a star on the Hollywood Walk of Fame, and ‘The Devil Wears Prada 2’ opened on 1 May 2026.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Natalie Dormer and Nick Nolte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-natalie-dormer">Natalie Dormer (SX6w5)</a> is likewise a British actress who plays strong, controlled female characters and shows the same constellation of watchfulness and outward hardness. <a href="#beruehmte-nick-nolte">Nick Nolte (SX6w5)</a> carries it more roughly and unprotected, yet for him too the strength arises from dealing with fear, not from its absence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Private life and advocacy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From November 2008 she was together with the actor and director John Krasinski; they got engaged in August 2009 and married in July 2010 in Como. They have two daughters (born 2014 and 2016). In 2015 she became a US citizen and is a dual British-American citizen.</p>
+          <p class="vb-intro">Since 2006 she has worked with the American Institute for Stuttering, sits on its board and hosts an annual gala whose proceeds fund speech therapy scholarships. She also supports the Malala Fund for girls' education and Family Reach for families affected by cancer. The stammer that she once experienced as an imposter in her own body has thus become a cause she publicly stands for.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. What remains: courage as an answer to fear</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The sexual Six turns fear into forward movement, and that can achieve a great deal as long as strength does not become the duty never to be unsure. What would heal this subtype is the experience that moments are allowed in which the voice falters again without the whole picture collapsing. That Blunt speaks about the stammer and helps others with it shows a way out: the fear is no longer fought but shared.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: subtype profile"},
+        {route:"beruehmte-natalie-dormer", label:"Portrait: Natalie Dormer (SX6w5)"},
+        {route:"beruehmte-nick-nolte", label:"Portrait: Nick Nolte (SX6w5)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}

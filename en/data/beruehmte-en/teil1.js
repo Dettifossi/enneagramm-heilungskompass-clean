@@ -2173,6 +2173,7 @@ export function natalieDormerPortraitPage() {
         {route:"beruehmte-avril-lavigne", label:"Portrait: Avril Lavigne (SX6w7)"},
         {route:"beruehmte-nick-nolte", label:"Portrait: Nick Nolte (SX6w5)"},
         {route:"beruehmte-veronica-ferres", label:"Portrait: Veronica Ferres (SX6w5)"},
+        {route:"beruehmte-emily-blunt", label:"Portrait: Emily Blunt (SX6w5)"},
       ])}
     </div>
   `);
