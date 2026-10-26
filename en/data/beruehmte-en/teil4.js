@@ -2911,6 +2911,7 @@ export function viggoMortensenPortraitPage() {
         {route:"beruehmte-willie-nelson", label:"Portrait: Willie Nelson (SX9w1)"},
         {route:"beruehmte-dominik-krause", label:"Portrait: Dominik Krause (SX9w1)"},
         {route:"beruehmte-gary-cooper", label:"Portrait: Gary Cooper (SX9w1)"},
+        {route:"beruehmte-james-stewart", label:"Portrait: James Stewart (SX9w1)"},
       ])}
     </div>
   `);

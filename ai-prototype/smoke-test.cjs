@@ -227,6 +227,8 @@ const ROUTES = [
   { hash: "en/#mindmap-belladonna", label: "EN Mindmap Belladonna" },
   { hash: "en/#mindmap-veratrum", label: "EN Mindmap Veratrum album" },
   { hash: "en/#mindmap-cannabis", label: "EN Mindmap Cannabis indica" },
+  { hash: "#beruehmte-james-stewart", label: "Neues Porträt: James Stewart" },
+  { hash: "en/#beruehmte-james-stewart", label: "Neues EN-Porträt: James Stewart" },
   { hash: "#beruehmte-gary-cooper", label: "Neues Porträt: Gary Cooper" },
   { hash: "en/#beruehmte-gary-cooper", label: "Neues EN-Porträt: Gary Cooper" },
   { hash: "#tugenden-enneagramm", label: "Neu: Tugenden im Enneagramm" },

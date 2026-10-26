@@ -3137,3 +3137,75 @@ export function jeanMaraisPortraitPage() {
     </div>
   `);
 }
+
+export function jamesStewartPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-james-stewart-v2-portrait.jpg" alt="James Stewart – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">James Stewart</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Schauspieler und Pilot, 1908&ndash;1997 &ndash; ›Mr. Smith Goes to Washington‹, ›It's a Wonderful Life‹ &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier: ein stilles Kind in der Werkstatt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> bewegt sich langsam und sieht dabei mehr, als man ihm zutraut. James Maitland Stewart kam am 20. Mai 1908 in Indiana in Pennsylvania zur Welt, als ältestes Kind und einziger Sohn von Elizabeth und Alexander Stewart. Der Vater führte die Eisenwarenhandlung der Familie und hoffte, dass der Sohn sie übernehmen würde. Er war ein tief religiöser Presbyterianer und prägte den Glauben des Sohnes, der lange ein eifriger Kirchgänger blieb. Die Mutter spielte Klavier, und Stewart lernte Akkordeon, das später zu seinem Begleiter bei Dreharbeiten wurde.</p>
+          <p class="vb-intro">Er war ein schüchternes Kind, das nach der Schule im Keller an Modellflugzeugen, technischen Zeichnungen und Chemie arbeitete, mit dem Traum von der Fliegerei. In der Schule war er durchschnittlich bis schwach, nach den Lehrern nicht aus Mangel an Verstand, sondern weil er kreativ war und zum Träumen neigte. An der Princeton University begann er zu spielen, ging nach dem Abschluss zur Bühne und debütierte 1932 am Broadway.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: die eine Verbindung und die Kunst, in der Rolle zu verschwinden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die sexuelle Neun ist nach Claudio Naranjo der Subtyp der Vereinigung: Sie sucht nicht die Gruppe, sondern das einzelne Gegenüber, den Menschen oder das Werk, und geht darin auf. Bei Stewart lässt sich das an seinen Bindungen erkennen. Seine Freundschaft mit Henry Fonda dauerte 50 Jahre; sie begann in New York, als Fonda ihn als dritten Mitbewohner einlud, um die Miete zu teilen. Die Kinder beider erzählen, dass ihre Väter am liebsten still beieinander saßen. 1949 heiratete er Gloria Hatrick McLean; die Ehe dauerte bis zu ihrem Tod 1994, das Paar lebte seit 1951 im selben Haus in Beverly Hills.</p>
+          <p class="vb-intro">Dass die Neun sich selbst vergisst, macht sie zur begabten Schauspielerin, und bei der sexuellen Neun, dem verstärkenden Subtyp, ist das besonders stark. Bei Stewart lässt sich das als Deutung mit seinem zögernden, gedehnten Ton verbinden, der ihn zum Sinnbild des einfachen, anständigen Mannes machte: Er spielte nicht den Jedermann, er war in dessen Rolle so ganz zu Hause, dass die Grenze verschwand. Zugleich blieb er privat verschlossen. Der Regisseur John Ford sagte: ›You don't get to know Jimmy Stewart; Jimmy Stewart gets to know you.‹ – ›Man lernt Jimmy Stewart nicht kennen; Jimmy Stewart lernt einen kennen.‹ Das Foto zeigt einen ruhigen, friedlichen Blick: Der Kopf ist leicht gedreht, die Augen sind hell und offen, die Stirn glatt, der Mund weich mit einem kaum merklichen schiefen Lächeln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Anstand, Pflicht und ein innerer Maßstab</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der Neun einen inneren Maßstab. Bei Stewart zeigt er sich als Pflichtgefühl. Mit seinen Pilotenfähigkeiten suchte er im Zweiten Weltkrieg den Kampfeinsatz, obwohl er zunächst wegen zu geringen Gewichts abgelehnt wurde. Er trat im Februar 1941 in das Heer ein; mit fast 33 Jahren war er für die reguläre Pilotenausbildung zu alt und erhielt seine Offizierskommission am 1. Januar 1942 als Hochschulabsolvent und Berufspilot. Er flog B-24-Bomber, wurde stellvertretender Kommandeur eines Bombergeschwaders und stieg in vier Jahren vom Gefreiten zum Oberst auf. Ausgezeichnet wurde er mit dem Distinguished Flying Cross, dem französischen Croix de Guerre mit Palme und der Air Medal mit drei Eichenlaubbüscheln.</p>
+          <p class="vb-intro">Er sprach kaum über den Krieg und äußerte sich nur einmal in der Fernsehdokumentation ›The World at War‹ (1974) zum verlustreichen Einsatz gegen Schweinfurt von 1943. In der Luftwaffenreserve blieb er insgesamt 27 Jahre und wurde 1959 Brigadegeneral, der ranghöchste Schauspieler der amerikanischen Militärgeschichte. 1966 flog er als Beobachter in einer B-52 über Vietnam. Zum Einserflügel gehört auch das Moralische auf der Leinwand: In Frank Capras ›Mr. Smith Goes to Washington‹ (1939) spielt er einen anständigen Senator, der gegen Korruption antritt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: der Jedermann, der Angst und Zweifel zeigen konnte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Stewart trat in 80 Filmen auf und war bekannt für sein gedehntes Sprechen und seine Jedermann-Wirkung. Der Durchbruch kam mit Capras ›You Can't Take It with You‹ (1938), den Oscar als bester Hauptdarsteller gewann er für ›The Philadelphia Story‹ (1940). Nach dem Krieg überlegte er, in den Laden der Familie zurückzukehren; Frank Capra gab ihm mit ›It's a Wonderful Life‹ (1946) nach seinen Worten einen neuen Anfang. Auch bei diesem Film zweifelte er an seinen Fähigkeiten und dachte an einen Rückzug vom Film.</p>
+          <p class="vb-intro">In vier Filmen von Alfred Hitchcock (›Rope‹, ›Rear Window‹, ›The Man Who Knew Too Much‹, ›Vertigo‹) und in ›Anatomy of a Murder‹ (1959) und ›The Man Who Shot Liberty Valance‹ (1962) zeigte er, wie viel Unsicherheit und Verwundbarkeit unter dem Anstand liegen konnte. 1999 reihte ihn das American Film Institute auf Platz drei der größten amerikanischen Schauspieler. Er erhielt unter anderem 1980 den AFI Life Achievement Award, 1983 die Kennedy Center Honors und 1985 den Ehrenoscar, den Cary Grant ihm überreichte, und die Presidential Medal of Freedom.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Gary Cooper, Viggo Mortensen und Art Garfunkel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-gary-cooper">Gary Cooper (SX9w1)</a> war sein enger Freund. Als Cooper 1961 zu krank war, nahm Stewart für ihn den Ehrenoscar entgegen, und 19 Jahre zuvor hatte er ihm den ersten Oscar überreicht. Beide teilen das ruhige Sprechen, den Anstand und die Fähigkeit, in einer Rolle aufzugehen; Cooper war der Wortkargere, Stewart der Zögerlichere und Verwundbarere. <a href="#beruehmte-viggo-mortensen">Viggo Mortensen (SX9w1)</a> und <a href="#beruehmte-art-garfunkel">Art Garfunkel (SX9w1)</a> zeigen dieselbe Konstellation in anderen Berufen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Verlust und Stille: das Persönliche bleibt geschützt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Stewart adoptierte Glorias zwei Söhne Ronald und Michael, und mit ihr bekam er 1951 die Zwillingstöchter Judy und Kelly. Ronald fiel am 8. Juni 1969 im Alter von 24 Jahren als Leutnant der Marineinfanterie in Vietnam. Über seine Gefühle sprach Stewart auch hier kaum; nach seinem Biografen Scott Eyman mied er in Interviews die emotionale Nähe, für die er auf der Leinwand bekannt war. Als Henry Fonda 1982 starb, sagte er nach den Berichten: ›I've just lost my best friend.‹ – ›Ich habe gerade meinen besten Freund verloren.‹</p>
+          <p class="vb-intro">Dass er in Johnny Carsons Talkshow Gedichte vortrug, die er zu verschiedenen Zeiten seines Lebens geschrieben hatte, und sie 1989 als ›Jimmy Stewart and His Poems‹ erschienen, zeigt, wo das Empfindsame bei ihm einen Ort fand: im Kleinen und Leisen. Unter Druck lässt sich der Stresspunkt der Neun, die Sechs, mit seinen Selbstzweifeln bei ›It's a Wonderful Life‹ verbinden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Ende und was bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Später ließ sein Gehör nach, und er verhaspelte sich wiederholt im Text. 1991 lieh er dem Sheriff Wylie Burp in dem Zeichentrickfilm ›An American Tail: Fievel Goes West‹ seine Stimme. Er starb am 2. Juli 1997 im Alter von 89 Jahren.</p>
+          <p class="vb-intro">Für die sexuelle Neun mit Einserflügel liegt der Weg darin, dass die eigene Stimme neben der Verbindung zum Einen zählt und dass Zweifel kein Zeichen mangelnden Anstands sind. Dass Stewart seine Verwundbarkeit in so vielen Figuren spielte, zeigt, wie viel davon bei ihm Raum hatte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"beruehmte-gary-cooper", label:"Porträt: Gary Cooper (SX9w1) – enger Freund"},
+        {route:"beruehmte-viggo-mortensen", label:"Porträt: Viggo Mortensen (SX9w1)"},
+        {route:"beruehmte-art-garfunkel", label:"Porträt: Art Garfunkel (SX9w1)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}

@@ -3138,6 +3138,7 @@ export function garyCooperPortraitPage() {
         {route:"beruehmte-willie-nelson", label:"Portrait: Willie Nelson (SX9w1)"},
         {route:"beruehmte-art-garfunkel", label:"Portrait: Art Garfunkel (SX9w1)"},
         {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+        {route:"beruehmte-james-stewart", label:"Portrait: James Stewart (SX9w1) – close friend"},
       ])}
     </div>
   `);

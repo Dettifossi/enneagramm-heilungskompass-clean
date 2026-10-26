@@ -3052,3 +3052,75 @@ export function robbieColtranePortraitPage() {
     </div>
   `);
 }
+
+export function jamesStewartPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-james-stewart-v2-portrait.jpg" alt="James Stewart – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">James Stewart</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with a One wing</p>
+        <p class="krim-portrait-subtitle">American actor and pilot, 1908&ndash;1997 &ndash; ‘Mr. Smith Goes to Washington’, ‘It's a Wonderful Life’ &ndash; animal counterpart: sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The sloth: a quiet child in the workshop</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sloth</strong> moves slowly and sees more than one gives it credit for. James Maitland Stewart was born on 20 May 1908 in Indiana, Pennsylvania, the eldest child and only son of Elizabeth and Alexander Stewart. His father ran the family hardware store and hoped his son would take it over. He was a deeply religious Presbyterian and shaped his son's faith; Stewart remained a devout churchgoer for much of his life. His mother played the piano, and Stewart learned the accordion, which later became a companion on film sets.</p>
+          <p class="vb-intro">He was a shy child who after school worked in the basement on model airplanes, mechanical drawings and chemistry, with a dream of aviation. At school he was average to weak, according to his teachers not for lack of intelligence but because he was creative and prone to daydreaming. At Princeton University he began acting, went to the stage after graduating and made his Broadway debut in 1932.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Nine: the one connection and the art of vanishing into the role</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Claudio Naranjo the sexual Nine is the subtype of Union: it seeks not the group but the single counterpart, the person or the work, and dissolves into it. In Stewart this can be seen in his bonds. His friendship with Henry Fonda lasted 50 years; it began in New York when Fonda invited him as a third roommate to share the rent. Both men's children recount that their fathers liked best to sit quietly together. In 1949 he married Gloria Hatrick McLean; the marriage lasted until her death in 1994, and since 1951 the couple lived in the same house in Beverly Hills.</p>
+          <p class="vb-intro">That the Nine forgets itself makes it a gifted actor, and in the sexual Nine, the intensifying subtype, this is especially strong. In Stewart this can be linked, as an interpretation, to his hesitant, drawling tone that made him the symbol of the simple, decent man: he did not play the everyman, he was so completely at home in the role that the line disappeared. At the same time he remained private and closed. The director John Ford said: ‘You don't get to know Jimmy Stewart; Jimmy Stewart gets to know you.’ The photo shows a calm, peaceful gaze: the head slightly turned, the eyes light and open, the forehead smooth, the mouth soft with a barely perceptible crooked smile.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One wing: decency, duty and an inner standard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One wing (w1)</strong> gives the Nine an inner standard. In Stewart it shows as a sense of duty. With his pilot's skills he sought combat duty in World War II although he was at first rejected for low weight. He enlisted in February 1941; at almost 33 he was too old for regular pilot training and received his commission on 1 January 1942 as a college graduate and licensed commercial pilot. He flew B-24 bombers, became deputy commander of a bombardment wing and rose in four years from private to colonel. He received the Distinguished Flying Cross, the French Croix de Guerre with palm and the Air Medal with three oak leaf clusters.</p>
+          <p class="vb-intro">He rarely spoke about the war and commented only once, in the television documentary ‘The World at War’ (1974), on the costly 1943 mission against Schweinfurt. He remained in the Air Force Reserve for 27 years in all and became a brigadier general in 1959, the highest-ranking actor in American military history. In 1966 he flew as an observer in a B-52 over Vietnam. The moral element on screen also belongs to the One wing: in Frank Capra's ‘Mr. Smith Goes to Washington’ (1939) he plays a decent senator who stands up against corruption.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the everyman who could show fear and doubt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Stewart appeared in 80 films and was known for his drawl and his everyman effect. The breakthrough came with Capra's ‘You Can't Take It with You’ (1938); he won the Oscar for best actor for ‘The Philadelphia Story’ (1940). After the war he considered returning to the family store; Frank Capra, in his words, gave him a new beginning with ‘It's a Wonderful Life’ (1946). Even during that film he doubted his abilities and thought of retiring from film.</p>
+          <p class="vb-intro">In four films by Alfred Hitchcock (‘Rope’, ‘Rear Window’, ‘The Man Who Knew Too Much’, ‘Vertigo’) and in ‘Anatomy of a Murder’ (1959) and ‘The Man Who Shot Liberty Valance’ (1962) he showed how much insecurity and vulnerability could lie beneath the decency. In 1999 the American Film Institute ranked him number three among the greatest American male actors. Among other honors he received the AFI Life Achievement Award in 1980, the Kennedy Center Honors in 1983 and in 1985 the honorary Oscar presented to him by Cary Grant, and the Presidential Medal of Freedom.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Gary Cooper, Viggo Mortensen and Art Garfunkel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-gary-cooper">Gary Cooper (SX9w1)</a> was his close friend. When Cooper was too ill in 1961, Stewart accepted the honorary Oscar for him, and 19 years earlier he had presented him with his first Oscar. Both share the quiet way of speaking, the decency and the ability to dissolve into a role; Cooper was the more taciturn, Stewart the more hesitant and vulnerable. <a href="#beruehmte-viggo-mortensen">Viggo Mortensen (SX9w1)</a> and <a href="#beruehmte-art-garfunkel">Art Garfunkel (SX9w1)</a> show the same constellation in other professions.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Loss and stillness: the personal stays protected</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Stewart adopted Gloria's two sons Ronald and Michael, and with her he had twin daughters, Judy and Kelly, in 1951. Ronald fell on 8 June 1969, aged 24, as a lieutenant in the Marine Corps in Vietnam. Here, too, Stewart spoke little about his feelings; according to his biographer Scott Eyman he avoided in interviews the emotional connection he was known for on screen. When Henry Fonda died in 1982, he reportedly said: ‘I've just lost my best friend.’</p>
+          <p class="vb-intro">That on Johnny Carson's talk show he recited poems he had written at different times in his life, and that they were published in 1989 as ‘Jimmy Stewart and His Poems’, shows where tenderness found a place in him: in the small and the quiet. Under pressure the Nine's stress point, the Six, can be linked with his self-doubt during ‘It's a Wonderful Life’.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The end and what remains</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Later his hearing declined, and he repeatedly stumbled over his lines. In 1991 he lent his voice to Sheriff Wylie Burp in the animated film ‘An American Tail: Fievel Goes West’. He died on 2 July 1997 at the age of 89.</p>
+          <p class="vb-intro">For the sexual Nine with a One wing the path lies in one's own voice counting alongside the bond to the one, and in doubt not being a sign of lacking decency. That Stewart played his vulnerability in so many characters shows how much room it had in him.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: subtype profile"},
+        {route:"beruehmte-gary-cooper", label:"Portrait: Gary Cooper (SX9w1) – close friend"},
+        {route:"beruehmte-viggo-mortensen", label:"Portrait: Viggo Mortensen (SX9w1)"},
+        {route:"beruehmte-art-garfunkel", label:"Portrait: Art Garfunkel (SX9w1)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}
