@@ -61207,8 +61207,16 @@ function tugendenEnneagrammPage() {
         </div>
         <div class="tug-fazit"><h2>Fazit</h2><p>Du musst nichts werden. Du musst nur aufhören, ständig jemand zu sein. In der Stille geschieht das Erkennen von selbst, und mit dem Erkennen beginnt der Wandel, das wahre Erblühen zu dem, der du wirklich bist, jenseits deiner psychologischen Abwehrmechanismen und erlernten Glaubenssätze. Das ist keine Technik. Das ist der radikal einfache, radikal unbequeme Weg zur Freiheit.</p><p>Transzendenz, das heißt Bewusstheit dem Leben gegenüber, beginnt mit dem ersten bewussten Innehalten. Du musst nichts Besonderes tun, nur das Automatische unterbrechen. Dann siehst du, und das bewusste Sehen allein ist schon Veränderung. Sie geschieht immer nur in der Gegenwart, im Hier und Jetzt, dem einen Raum, der wirklich ist. Alles andere sind Gedanken, Gefühle und verzerrte Wahrnehmungen als Spiegelungen unserer Fixierung, die sich täuschend echt anfühlen.</p></div>
       </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("leidenschaft-und-heilung", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
+      ${bookTip("hinter-der-leidenschaft", "Die neun Wunden des Enneagramms – tiefgreifende Analyse der Urwunde hinter jeder Leidenschaft, mit konkreten Heilungswegen für alle 9 Typen.", "Hinter der Leidenschaft")}
+      ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben praxisnahe Wege, die helfen, sich selbst näherzukommen – ohne Umwege, ohne Schönrederei, direkt und klar.", "7 Wege zu Dir selbst")}
+      ${bookTip("nichts-und-alles", "Stilles Buch \u00fcber das Schauen nach innen &ndash; Bewusstsein, Raum und innere Freiheit.", "Nichts und Alles")}
+      ${bookTip("der-raum-hinter-allem", "Der Raum, der bleibt, wenn Identifikation nachl\u00e4sst \u2013 ein meditatives Werk \u00fcber Bewusstsein und Freiheit.", "Der Raum hinter allem")}
+      ${bookTip("sei-still-und-wisse-ich-bin-gott", "Ein spirituelles Buch über die tiefste Stille in uns und die Erfahrung von Transzendenz jenseits aller Konzepte.", "Sei still und wisse – ich bin Gott!")}
+      ${bookTip("heilung-als-erinnerung", "Heilung als Erinnerung an das, was wir im Grunde sind \u2013 jenseits von Symptom und Diagnose.", "Heilung als Erinnerung")}
+      ${bookTip("meta-intelligenz", "Meta-Intelligenz – die Intelligenz, die alle anderen Intelligenzen verbündet und das volle Potenzial des Bewusstseins erschließt.", "Meta-Intelligenz")}
       ${relatedLinks([
         {route:"claudio-naranjo-lehrer", label:"Claudio Naranjo: Lehrer und Wegbereiter der Subtypen"},
         {route:"david-daniels-gesetze", label:"David Daniels: Die drei Energie-Aufmerksamkeits-Gesetze"},
