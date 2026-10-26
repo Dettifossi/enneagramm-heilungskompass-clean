@@ -2961,3 +2961,74 @@ export function bruceLeePortraitPage() {
     </div>
   `);
 }
+
+export function rjMittePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-rj-mitte-portrait.jpg" alt="RJ Mitte – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">RJ Mitte</p>
+        <p class="krim-portrait-typ">SX2w3 &middot; Sexueller Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Schauspieler (Walter White Jr. in ›Breaking Bad‹), 1992&ndash;2026 &ndash; Tierentsprechung: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kamel: gebaut für die lange Strecke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong> ist kein Tier des kurzen Sprints, es trägt über lange Wege und bleibt dabei ruhig. RJ Mitte wurde als Roy Frank Mitte III am 21. August 1992 in Jackson, Mississippi, geboren, nach einem Notkaiserschnitt, bei dem er nicht atmete; es blieb ein dauerhafter Hirnschaden. Wenige Wochen später wurde er adoptiert, mit drei Jahren wurde eine Zerebralparese (Cerebral Palsy) diagnostiziert. Als Kind lagen seine Beine sechs Monate in Gips, er ging mit Beinschienen und an Krücken.</p>
+          <p class="vb-intro">Er wuchs überwiegend bei seiner Mutter auf, abwechselnd in Lafayette (Louisiana) und Austin (Texas); seine erste Sprache war Spanisch, weil die Mutter eine nur spanischsprachige Babysitterin eingestellt hatte. Nach einem Autounfall, bei dem seine Mutter gelähmt wurde, übernahm er mit 13 Jahren die finanzielle Verantwortung für die Familie. In der Schule wurde er nach den Angaben gemobbt, einmal wurde ihm die Hand gebrochen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Zwei: Zugehen auf den anderen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo benannte die sexuelle Zwei mit ›Aggressivität/Verführung‹, gemeint als aktives Zugehen auf den anderen, das die Distanz verkleinert. Bei RJ Mitte lässt sich das mit der Unmittelbarkeit in Verbindung bringen, mit der er als Jugendlicher in die Öffentlichkeit trat: 2006 zog er mit seiner Familie nach Los Angeles, begann mit Statistenrollen, unter anderem in ›Hannah Montana‹, und nahm Schauspielunterricht. Wer so früh Verantwortung trägt, lernt, sich auf Menschen einzustellen und sie für sich zu gewinnen.</p>
+          <p class="vb-intro">Die Rolle, die ihn bekannt machte, war Walter White Jr. in ›Breaking Bad‹ (2008 bis 2013), ein Junge mit Zerebralparese. Serienschöpfer Vince Gilligan hatte die Figur nach einem Freund mit derselben Erkrankung angelegt. Die Zuschauer begegneten dort einem Teenager, der seine Behinderung ohne Selbstmitleid trug, und Mitte selbst war darin nicht als Fremder besetzt, sondern brachte die eigene Erfahrung mit. Die Kritik von Variety nannte seine Leistung nach der Wikipedia-Seite ›a breakthrough for disability representation‹ (einen Durchbruch für die Darstellung von Behinderung).</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Sichtbarkeit, Leistung, Auftrag</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der Zwei Tatkraft und den Sinn für Wirkung. Bei Mitte lässt sich das an der Art sehen, wie er seine Bekanntheit nutzte: 2013 erhielt er den Harold Russell Award der Schauspielergewerkschaft SAG-AFTRA für seine Rolle, er war Sprecher für Darsteller mit Behinderung, ab 2014 Botschafter von Shriners Children's, 2015 von United Cerebral Palsy und Präsident der Mitte Foundation, die sein Großvater und seine Großmutter gegründet hatten und die Inklusion fördert.</p>
+          <p class="vb-intro">Dass ihm die Wirkung wichtig war und zugleich zur Last wurde, zeigt sein Satz über die Rolle: Sie habe ›really high standards‹ gesetzt, ›that I can never meet‹ (ungefähr: so hohe Maßstäbe, dass er sie nie erfüllen könne). Ein Zweier mit Dreierflügel will den Erwartungen an ihn gerecht werden, auch wenn sie unerreichbar hoch liegen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: mehr als eine Rolle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Neben ›Breaking Bad‹ war Mitte in ›Switched at Birth‹ (2014) zu sehen, in den Filmen ›Who's Driving Doug‹ (2016), ›Time Share‹ (2018), ›Standing Up for Sunny‹ (2019), ›The Oak Room‹ (2020), ›Triumph‹ (2021, als ausführender Produzent), ›The Unseen‹ (2023) und ›Westhampton‹ (2025) sowie in der Serie ›The Guardians of Justice‹ (2022). 2014 war er das Gesicht einer Gap-Kampagne, 2015 lief er bei einer Show von Vivienne Westwood und zierte das Cover von ›Neurology Now‹, und 2016 moderierte er für Channel 4 die Paralympics in Rio.</p>
+          <p class="vb-intro">Für 2026 sind ›Talking to Strangers‹ und ›One Eye Open‹ gelistet, die er kurz vor seinem Tod noch beworben haben soll.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Sammy Davis Jr. und Ryan Gosling</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-sammy-davis-jr">Sammy Davis Jr. (SX2w3)</a> stand als Entertainer vor Hindernissen, die ihm seine Zeit auferlegte, und gewann das Publikum durch Wärme und volle Präsenz. Auch Mitte machte aus einer Hürde eine Bühne für andere. <a href="#beruehmte-ryan-gosling">Ryan Gosling (SX2w3)</a> zeigt dieselbe Konstellation in der Intimität der Kamera: Der Blick gilt dem Gegenüber, nicht der Pose.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Ende (Stand 26. Oktober 2026)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">RJ Mitte starb am 12. Oktober 2026 im Alter von 34 Jahren in Brownsville, Texas. Sein Vertreter bestätigte nach den Berichten von Variety und The Hollywood Reporter einen Suizid. Die Trauerfeier fand am 16. Oktober in Brownsville statt, eine Gedenkfeier folgte am 25. Oktober in Albuquerque. Aus der Besetzung von ›Breaking Bad‹ kamen viele Nachrufe; Bryan Cranston schrieb nach der Wikipedia-Seite, Mitte habe die Herausforderung der Zerebralparese ›never – ever – allowed‹ (nie, wirklich nie) zu einer Entschuldigung werden lassen.</p>
+          <p class="vb-intro">Warum er starb, wissen nur die, die ihm nahe standen; ein Suizid hat nie einen einzigen Grund, und Außenstehende können ihn nicht sicher erklären. Dieses Porträt versucht deshalb nicht, den Tod zu deuten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Was bleibt: das Tragen und das Getragenwerden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die sexuelle Zwei gibt viel und fragt selten, was sie selbst braucht. Wer schon als Kind für andere sorgt, kann lernen, dass Geben ein Wert ist, und später kaum noch bemerken, wann das eigene Maß erreicht ist. Heilsam wäre für diesen Subtyp, Hilfe nicht als Schwäche zu erleben, sondern als Teil einer Beziehung, in der auch das Kamel getragen wird.</p>
+          <p class="vb-intro"><strong>Hinweis:</strong> Wer selbst in einer seelischen Krise steckt oder an Suizid denkt, findet in Deutschland rund um die Uhr und kostenlos Hilfe bei der Telefonseelsorge (0800 111 0 111, 0800 111 0 222 oder 116 123).</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
+        {route:"beruehmte-sammy-davis-jr", label:"Porträt: Sammy Davis Jr. (SX2w3)"},
+        {route:"beruehmte-ryan-gosling", label:"Porträt: Ryan Gosling (SX2w3)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}

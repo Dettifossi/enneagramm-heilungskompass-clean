@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2663", date: "2026-10-26", text: "Neues Porträt: RJ Mitte (SX2w3) – Schauspieler aus ›Breaking Bad‹ und Botschafter für Inklusion.", text_en: "New portrait: RJ Mitte (SX2w3) – actor from ‘Breaking Bad’ and advocate for inclusion.", route: "beruehmte-rj-mitte" },
     { version: "v2662", date: "2026-10-26", text: "Neues Porträt: Sulli (SE3w2) – südkoreanische Sängerin und Schauspielerin.", text_en: "New portrait: Sulli (SP3w2) – South Korean singer and actress.", route: "beruehmte-sulli" },
     { version: "v2661", date: "2026-10-26", text: "Neues Porträt: Martha Graham (SO4w3) – Tänzerin und Choreografin, Mutter des modernen Tanzes.", text_en: "New portrait: Martha Graham (SO4w3) – dancer and choreographer, mother of modern dance.", route: "beruehmte-martha-graham" },
     { version: "v2660", date: "2026-10-26", text: "Neues Porträt: John Neumeier (SE4w5) – Choreograf und langjähriger Direktor des Hamburg Balletts.", text_en: "New portrait: John Neumeier (SP4w5) – choreographer and long-time director of the Hamburg Ballet.", route: "beruehmte-john-neumeier" },

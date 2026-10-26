@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=408";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=409";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -95,6 +95,7 @@ const robbieColtranePortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.j
 const happyAndersonPortraitPage = () => _lazyPage("./data/beruehmte-de/teil2.js", "happyAndersonPortraitPage");
 const paulSimonPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "paulSimonPortraitPage");
 const artGarfunkelPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "artGarfunkelPortraitPage");
+const rjMittePortraitPage = () => _lazyPage("./data/beruehmte-de/teil9.js", "rjMittePortraitPage");
 const sulliPortraitPage = () => _lazyPage("./data/beruehmte-de/teil7.js", "sulliPortraitPage");
 const johnNeumeierPortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", "johnNeumeierPortraitPage");
 const marthaGrahamPortraitPage = () => _lazyPage("./data/beruehmte-de/teil5.js", "marthaGrahamPortraitPage");
@@ -27691,6 +27692,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 geb. 1939 in Milwaukee. Choreograf und Ballettdirektor, Hamburg Ballett 1973\u20132024 (\u203aNijinsky\u2039, \u203aDie Kameliendame\u2039). Die Taube, die ihre Tiefe still in Werke fasst.",
     land:"USA/Deutschland", tags:["Tanz"], gender:"m"},
+  { route:"beruehmte-rj-mitte", name:"RJ Mitte", added:"2026-10-26", subtyp:"SX2w3",
+    heading:"RJ Mitte \u2013 Sexueller Typ 2",
+    teaser:"SX2w3 \u00b7 1992\u20132026. US-amerikanischer Schauspieler (Walter White Jr. in \u203aBreaking Bad\u2039), Botschafter für Inklusion. Das Kamel, das früh Verantwortung trug und Behinderung ohne Selbstmitleid sichtbar machte.",
+    land:"USA", tags:["Schauspiel","Film"], gender:"m"},
   { route:"beruehmte-sulli", name:"Sulli", added:"2026-10-26", subtyp:"SE3w2",
     heading:"Sulli \u2013 Selbsterhaltender Typ 3",
     teaser:"SE3w2 \u00b7 1994\u20132019. Südkoreanische Sängerin und Schauspielerin (f(x), \u203aReal\u2039, \u203aGoblin\u2039). Der Waschbär, der das erwartete Idol-Bild aufs Spiel setzte und Anderssein sichtbar machen wollte.",
@@ -66912,6 +66917,7 @@ const ROUTES = {
       "beruehmte-art-garfunkel": artGarfunkelPortraitPage,
       "beruehmte-john-neumeier": johnNeumeierPortraitPage,
       "beruehmte-sulli": sulliPortraitPage,
+      "beruehmte-rj-mitte": rjMittePortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,

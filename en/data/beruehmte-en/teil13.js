@@ -3045,3 +3045,74 @@ export function rominaPalmPortraitPage() {
     </div>
   `);
 }
+
+export function rjMittePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-rj-mitte-portrait.jpg" alt="RJ Mitte – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">RJ Mitte</p>
+        <p class="krim-portrait-typ">SX2w3 &middot; Sexual Type 2 with a Three wing</p>
+        <p class="krim-portrait-subtitle">American actor (Walter White Jr. in ‘Breaking Bad’), 1992&ndash;2026 &ndash; animal counterpart: camel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The camel: built for the long stretch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>camel</strong> is no animal of the short sprint; it carries over long distances and stays calm doing so. RJ Mitte was born Roy Frank Mitte III on 21 August 1992 in Jackson, Mississippi, after an emergency C-section in which he was not breathing; permanent brain damage remained. A few weeks later he was adopted, and at three he was diagnosed with cerebral palsy. As a child his legs were in casts for six months and he used leg braces and crutches.</p>
+          <p class="vb-intro">He grew up mainly with his mother, alternating between Lafayette, Louisiana, and Austin, Texas; his first language was Spanish because his mother had hired a Spanish-only babysitter. After a car accident left his mother paralyzed, he took on financial responsibility for the family at 13. At school he was bullied according to the accounts, and on one occasion his hand was broken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Two: moving toward the other</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo named the sexual Two ‘Aggressiveness/Seduction’, meaning an active moving toward the other that closes the distance. In Mitte this can be linked to the directness with which he stepped into public life as a teenager: in 2006 he moved to Los Angeles with his family, began with extra roles, including on ‘Hannah Montana’, and took acting lessons. Someone who carries responsibility that early learns to attune to people and win them over.</p>
+          <p class="vb-intro">The role that made him known was Walter White Jr. in ‘Breaking Bad’ (2008 to 2013), a boy with cerebral palsy. Series creator Vince Gilligan had based the character on a friend with the same condition. Viewers met a teenager who carried his disability without self-pity, and Mitte was not cast there as an outsider but brought his own experience. Variety called his performance, according to Wikipedia, ‘a breakthrough for disability representation’.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three wing: visibility, achievement, mission</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three wing (w3)</strong> gives the Two drive and a sense for impact. In Mitte this can be seen in the way he used his fame: in 2013 he received the Screen Actors Guild's Harold Russell Award for the role, he was a spokesman for actors with disabilities, from 2014 an ambassador for Shriners Children's, in 2015 for United Cerebral Palsy and president of the Mitte Foundation, founded by his grandparents and promoting inclusion.</p>
+          <p class="vb-intro">That the impact mattered to him and at the same time became a burden shows in his remark about the role: it had set ‘really high standards that I can never meet’. A Two with a Three wing wants to live up to expectations even when they lie unreachably high.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: more than one role</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Besides ‘Breaking Bad’, Mitte appeared in ‘Switched at Birth’ (2014), in the films ‘Who's Driving Doug’ (2016), ‘Time Share’ (2018), ‘Standing Up for Sunny’ (2019), ‘The Oak Room’ (2020), ‘Triumph’ (2021, as executive producer), ‘The Unseen’ (2023) and ‘Westhampton’ (2025), and in the series ‘The Guardians of Justice’ (2022). In 2014 he was the face of a Gap campaign, in 2015 he walked in a Vivienne Westwood show and appeared on the cover of ‘Neurology Now’, and in 2016 he presented the Rio Paralympics for Channel 4.</p>
+          <p class="vb-intro">‘Talking to Strangers’ and ‘One Eye Open’ are listed for 2026; he is said to have been promoting them shortly before his death.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Sammy Davis Jr. and Ryan Gosling</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-sammy-davis-jr">Sammy Davis Jr. (SX2w3)</a> faced obstacles his time imposed on him as an entertainer and won the audience through warmth and full presence. Mitte, too, turned a hurdle into a stage for others. <a href="#beruehmte-ryan-gosling">Ryan Gosling (SX2w3)</a> shows the same constellation in the intimacy of the camera: the gaze is for the person opposite, not for the pose.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The end (as of 26 October 2026)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">RJ Mitte died on 12 October 2026 at the age of 34 in Brownsville, Texas. His representative confirmed a suicide, according to reports by Variety and The Hollywood Reporter. The funeral was held on 16 October in Brownsville, and a celebration of life followed on 25 October in Albuquerque. Many tributes came from the ‘Breaking Bad’ cast; Bryan Cranston wrote, according to Wikipedia, that Mitte ‘never – ever – allowed’ the challenge of cerebral palsy to be an excuse for anything.</p>
+          <p class="vb-intro">Why he died is known only to those close to him; a suicide never has a single reason, and outsiders cannot explain it with certainty. This portrait therefore does not attempt to interpret his death.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. What remains: carrying and being carried</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The sexual Two gives a great deal and rarely asks what she or he needs. Someone who cares for others as a child can learn that giving is a value, and later barely notice when their own limit is reached. What would heal this subtype is to experience help not as weakness but as part of a relationship in which the camel, too, is carried.</p>
+          <p class="vb-intro"><strong>Note:</strong> If you are in an emotional crisis or thinking about suicide, help is available around the clock and free of charge. In the US call or text 988; elsewhere see findahelpline.com.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx2", label:"SX2 – The Camel: subtype profile"},
+        {route:"beruehmte-sammy-davis-jr", label:"Portrait: Sammy Davis Jr. (SX2w3)"},
+        {route:"beruehmte-ryan-gosling", label:"Portrait: Ryan Gosling (SX2w3)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}

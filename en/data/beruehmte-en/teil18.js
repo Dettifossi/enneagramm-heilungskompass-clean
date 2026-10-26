@@ -1711,6 +1711,7 @@ export function sammyDavisJrPortraitPage() {
         {route:"beruehmte-isadora-duncan", label:"Portrait: Isadora Duncan (SX2w3)"},
         {route:"beruehmte-pamela-reif", label:"Portrait: Pamela Reif (SX2w3)"},
         {route:"beruehmte-braco", label:"Portrait: Braco (SX2w3)"},
+        {route:"beruehmte-rj-mitte", label:"Portrait: RJ Mitte (SX2w3)"},
       ])}
     </div>
   `);

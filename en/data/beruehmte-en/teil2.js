@@ -2292,6 +2292,7 @@ export function ryanGoslingPortraitPage() {
         {route:"beruehmte-eva-mendes", label:"Portrait: Eva Mendes (SX6w7) – wife"},
         {route:"beruehmte-mata-hari", label:"Portrait: Mata Hari (SX2w3)"},
         {route:"beruehmte-giacomo-casanova", label:"Portrait: Giacomo Casanova (SX2w3)"},
+        {route:"beruehmte-rj-mitte", label:"Portrait: RJ Mitte (SX2w3)"},
       ])}
     </div>
   `);
