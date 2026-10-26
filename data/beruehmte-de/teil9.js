@@ -1,4 +1,4 @@
-import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
+const { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } = window.__kh;
 
 export function albertEinsteinPortraitPage() {
   return shell(`
@@ -21,7 +21,7 @@ export function albertEinsteinPortraitPage() {
 
         <h2 class="vb-section">1. Der Oktopus, der im Stillen die Formeln des Universums entschl\u00fcsselte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier der sozialen F\u00fcnf &ndash; das intelligenteste wirbellose Tier der Erde, das in Systemen denkt, still im Verborgenen agiert und mit erstaunlicher Pr\u00e4zision auf Zusammenh\u00e4nge reagiert, die andere gar nicht wahrnehmen. Kein Zufallstier f\u00fcr einen Mann, der die grundlegendsten Gesetze des Universums entschl\u00fcsselte &ndash; nicht im Labor, nicht im lauten akademischen Getriebe, sondern zun\u00e4chst weitgehend allein, in stiller Konzentration.</p>
+          <p class="vb-intro">Der <strong>Oktopus</strong> gilt als das Tier der sozialen F\u00fcnf &ndash; das intelligenteste wirbellose Tier der Erde, das in Systemen denkt, still im Verborgenen agiert und mit erstaunlicher Pr\u00e4zision auf Zusammenh\u00e4nge reagiert, die andere gar nicht wahrnehmen. Kein Zufallstier f\u00fcr einen Mann, der die grundlegendsten Gesetze des Universums entschl\u00fcsselte &ndash; nicht im Labor, nicht im lauten akademischen Getriebe, sondern zun\u00e4chst weitgehend allein, in stiller Konzentration.</p>
           <p class="vb-intro">Der deutsch-amerikanische Physiker Albert Einstein wurde am 14. M\u00e4rz 1879 in Ulm geboren. In der Schule galt er keineswegs als \u00dcberflieger &ndash; sein Lehrer soll ihm vorausgesagt haben, aus ihm werde &bdquo;nie etwas Rechtes&ldquo;. Nach dem Studium fand er zun\u00e4chst keine akademische Anstellung und arbeitete ab 1902 als technischer Experte dritter Klasse am Schweizer Patentamt in Bern &ndash; eine Position, die ihm gerade genug Zeit und Ruhe lie\u00df, um sich abends und an Wochenenden seinen eigenen physikalischen Gedanken zu widmen.</p>
         </blockquote>
 
@@ -45,8 +45,8 @@ export function albertEinsteinPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO5w4 ist die F\u00e4higkeit, komplexeste, universelle Zusammenh\u00e4nge in Bilder zu fassen, die auch Laien ber\u00fchren &ndash; kaum ein Wissenschaftler ist nach wie vor so sehr Symbol f\u00fcr &bdquo;Genie&ldquo; schlechthin wie Einstein. Sein Wissen blieb nie abstrakt: Es floss in \u00f6ffentliche Verantwortung, in politisches Engagement, in eine Haltung, die Erkenntnis stets an ihre gesellschaftlichen Folgen zur\u00fcckband.</p>
-          <p class="vb-intro">Der Schatten zeigt sich im Privaten: Seine erste Ehe mit der Physikerin Mileva Mari\u0107, die ihn in den Jahren vor 1905 mit eigenem physikalischen Sachverstand begleitete, endete 1919 in Scheidung; sein j\u00fcngerer Sohn Eduard erkrankte an Schizophrenie und verbrachte einen Gro\u00dfteil seines Lebens in psychiatrischer Behandlung, kaum besucht vom ber\u00fchmten Vater. Die soziale F\u00fcnf, die sich ganz der gro\u00dfen, universellen Aufgabe verschreibt, kann genau daran im Nahbereich der eigenen Familie scheitern &ndash; N\u00e4he und Verf\u00fcgbarkeit fielen Einstein sp\u00fcrbar schwerer als das Verstehen kosmischer Gesetze.</p>
+          <p class="vb-intro">Die Stärke der SO5w4 ist die F\u00e4higkeit, komplexeste, universelle Zusammenh\u00e4nge in Bilder zu fassen, die auch Laien ber\u00fchren &ndash; kaum ein Wissenschaftler ist nach wie vor so sehr Symbol f\u00fcr &bdquo;Genie&ldquo; schlechthin wie Einstein. Sein Wissen blieb nie abstrakt: Es floss in \u00f6ffentliche Verantwortung, in politisches Engagement, in eine Haltung, die Erkenntnis stets an ihre gesellschaftlichen Folgen zur\u00fcckband.</p>
+          <p class="vb-intro">Als Schatten zeigt sich im Privaten: Seine erste Ehe mit der Physikerin Mileva Mari\u0107, die ihn in den Jahren vor 1905 mit eigenem physikalischen Sachverstand begleitete, endete 1919 in Scheidung; sein j\u00fcngerer Sohn Eduard erkrankte an Schizophrenie und verbrachte einen Gro\u00dfteil seines Lebens in psychiatrischer Behandlung, kaum besucht vom ber\u00fchmten Vater. Die soziale F\u00fcnf, die sich ganz der gro\u00dfen, universellen Aufgabe verschreibt, kann genau daran im Nahbereich der eigenen Familie scheitern &ndash; N\u00e4he und Verf\u00fcgbarkeit fielen Einstein sp\u00fcrbar schwerer als das Verstehen kosmischer Gesetze.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Verm\u00e4chtnis</h2>
@@ -69,6 +69,11 @@ export function albertEinsteinPortraitPage() {
         {route:"beruehmte-hannah-arendt", label:"Portr\u00e4t: Hannah Arendt (SO5w4) \u2013 auffallend \u00e4hnliche Blickqualit\u00e4t und Gesichtsz\u00fcge trotz unterschiedlichen Geschlechts"},
         {route:"beruehmte-lise-meitner", label:"Portr\u00e4t: Lise Meitner (SO5w4) \u2013 Physikerin, Flucht aus Nazi-Deutschland"},
         {route:"beruehmte-buddha", label:"Portr\u00e4t: Siddhartha Gautama (Buddha) (SO5w4)"},
+        {route:"beruehmte-david-hockney", label:"Porträt: David Hockney (SO5w4)"},
+        {route:"beruehmte-dmitri-schostakowitsch", label:"Porträt: Dmitri Schostakowitsch (SO5w4)"},
+        {route:"beruehmte-leonardo-da-vinci", label:"Porträt: Leonardo da Vinci (SO5w4)"},
+        {route:"beruehmte-milarepa", label:"Porträt: Milarepa (SO5w4)"},
+        {route:"beruehmte-spinoza", label:"Porträt: Baruch de Spinoza (SE5w6)"},
       ])}
     </div>
   `);
@@ -109,13 +114,13 @@ export function annikaVonMutiusPortraitPage() {
 
         <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Drei</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE3w4 ist ihre Fähigkeit, aus reinem Handwerk echte Einzigartigkeit zu schöpfen. Von Mutius baute mit Empion ein Produkt, dessen Kern &ndash; die algorithmische Passung von Werten statt bloßer Qualifikation &ndash; tatsächlich funktionieren musste, bevor es überhaupt vermarktbar wurde. Ihre Auszeichnungen, darunter Forbes &bdquo;30 Under 30 Europe&ldquo; und das Handelsblatt-Ranking &bdquo;Menschen des Jahres&ldquo;, folgten der Substanz, nicht umgekehrt.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> &ndash; bei der SE3w4 subtil als das Bedürfnis, als einzigartig und unverwechselbar zu gelten, während man zugleich vermeidet, sich selbst als Person in den Vordergrund zu stellen. Der Viererflügel bringt seinen eigenen Schatten mit: die ständige Notwendigkeit, sich von jeder vorgezeichneten Erwartung &ndash; ob Familienunternehmen oder reine Start-up-Logik &ndash; abzugrenzen und einen völlig eigenen Maßstab zu setzen, was auf Dauer isolierend wirken kann.</p>
+          <p class="vb-intro">Die Stärke der SE3w4 ist ihre Fähigkeit, aus reinem Handwerk echte Einzigartigkeit zu schöpfen. Von Mutius baute mit Empion ein Produkt, dessen Kern &ndash; die algorithmische Passung von Werten statt bloßer Qualifikation &ndash; tatsächlich funktionieren musste, bevor es überhaupt vermarktbar wurde. Ihre Auszeichnungen, darunter Forbes &bdquo;30 Under 30 Europe&ldquo; und das Handelsblatt-Ranking &bdquo;Menschen des Jahres&ldquo;, folgten der Substanz, nicht umgekehrt.</p>
+          <p class="vb-intro">Die Leidenschaft der Drei ist die <strong>Eitelkeit / Täuschung</strong> &ndash; bei der SE3w4 subtil als das Bedürfnis, als einzigartig und unverwechselbar zu gelten, während man zugleich vermeidet, sich selbst als Person in den Vordergrund zu stellen. Der Viererflügel bringt seinen eigenen Schatten mit: die ständige Notwendigkeit, sich von jeder vorgezeichneten Erwartung &ndash; ob Familienunternehmen oder reine Start-up-Logik &ndash; abzugrenzen und einen völlig eigenen Maßstab zu setzen, was auf Dauer isolierend wirken kann.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Der Heilungsweg: Vom Beweisen zum Weitergeben</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Was habe ich geleistet?</em> zur Erkenntnis <em>Ich bin &ndash; jenseits aller Leistung.</em> Für die SE3w4 zeigt sich das darin, dass der eigene Wert nicht mehr am nächsten Finanzierungsmeilenstein hängt, sondern an der Wahrhaftigkeit des eigenen Weges.</p>
+          <p class="vb-intro">Die Heilung der Drei führt von der Frage <em>Was habe ich geleistet?</em> zur Erkenntnis <em>Ich bin &ndash; jenseits aller Leistung.</em> Für die SE3w4 zeigt sich das darin, dass der eigene Wert nicht mehr am nächsten Finanzierungsmeilenstein hängt, sondern an der Wahrhaftigkeit des eigenen Weges.</p>
           <p class="vb-intro">Von Mutius' eigene Beobachtung, dass persönlicher Erfolg beim Wachsen eines Unternehmens an Bedeutung verliert, liest sich wie ein früher Schritt genau auf diesem Weg &ndash; ein Waschbär, der sein Handwerk nicht mehr als Beweis der eigenen Ausnahmestellung braucht, sondern als etwas, das über die eigene Person hinausweist: ein Unternehmen, das anderen Menschen zu einem passenderen Arbeitsplatz verhilft, statt nur die eigene Gründerinnen-Geschichte zu erzählen.</p>
         </blockquote>
 
@@ -129,6 +134,8 @@ export function annikaVonMutiusPortraitPage() {
         {route:"beruehmte-judit-polgar", label:"Porträt: Judit Polgár (SE3w4)"},
         {route:"beruehmte-tony-shalhoub", label:"Porträt: Tony Shalhoub (SE3w4)"},
         {route:"beruehmte-cheyenne-ochsenknecht", label:"Porträt: Cheyenne Ochsenknecht (SE3w4)"},
+        {route:"beruehmte-bryn-kenney", label:"Porträt: Bryn Kenney (SE3w4)"},
+        {route:"beruehmte-changpeng-zhao", label:"Porträt: Changpeng Zhao (SE3w4)"},
       ])}
     </div>
   `);
@@ -151,20 +158,20 @@ export function blaisePascalPortraitPage() {
 
         <h2 class="vb-section">1. Der Igel, der sich einmal ganz öffnete</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier der sexuellen Fünf: scheu, zurückhaltend, mit eingezogenen Stacheln der Welt gegenüber &ndash; und doch fähig zu einer Intensität, die alle anderen Fünfer-Subtypen übertrifft, sobald er sich einem einzigen Wesen oder einer einzigen Idee wirklich öffnet. Anders als die selbsterhaltende Fünf, die sich in ihrem Rückzugsraum verschanzt, oder die soziale Fünf, die ihr Wissen der Öffentlichkeit zur Verfügung stellt, sucht der Igel die radikale, fast unerträgliche Nähe zu dem Einen, dem er vertraut.</p>
+          <p class="vb-intro">Der <strong>Igel</strong> ist die tierische Entsprechung der sexuellen Fünf: scheu, zurückhaltend, mit eingezogenen Stacheln der Welt gegenüber &ndash; und doch fähig zu einer Intensität, die alle anderen Fünfer-Subtypen übertrifft, sobald er sich einem einzigen Wesen oder einer einzigen Idee wirklich öffnet. Anders als die selbsterhaltende Fünf, die sich in ihrem Rückzugsraum verschanzt, oder die soziale Fünf, die ihr Wissen der Öffentlichkeit zur Verfügung stellt, sucht der Igel die radikale, fast unerträgliche Nähe zu dem Einen, dem er vertraut.</p>
           <p class="vb-intro">Blaise Pascal, geboren 1623 in Clermont-Ferrand, war genau dieser Igel: ein kränkliches, hochbegabtes Kind, das sich schon früh dem gewöhnlichen Umgang mit Gleichaltrigen entzog, weil sein Vater ihm jede körperliche Anstrengung untersagte &ndash; und das seine ganze Energie stattdessen in eine einzige, alles verzehrende Konzentration lenkte. Mit elf Jahren schrieb er eine eigene Abhandlung über Schallwellen, mit sechzehn einen Aufsatz über Kegelschnitte, der selbst Descartes verblüffte. Was von außen wie Genialität aussah, war aus der Nähe betrachtet ein Junge, der sich in eine einzige Sache so tief vergrub, dass die übrige Welt verblasste.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Fünf: Vertrauen statt Vermeidung</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Wo die selbsterhaltende Fünf ihre knappen Ressourcen hortet und die soziale Fünf ihr Wissen zur Schau stellt, kehrt die sexuelle Fünf die typische Fünfer-Bewegung um: Statt sich vor der Welt zu schützen, sucht sie das eine Gegenüber, dem sie sich ganz zumuten kann. Naranjo nennt dieses Gegenprinzip <em>Vertrauen</em> &ndash; die paradoxe Fähigkeit eines ansonsten distanzierten Typs, sich in einer einzigen Beziehung oder Idee radikal zu exponieren, während er allen anderen gegenüber verschlossen bleibt.</p>
+          <p class="vb-intro">Wo die selbsterhaltende Fünf ihre knappen Ressourcen hortet und die soziale Fünf ihr Wissen zur Schau stellt, kehrt die sexuelle Fünf die typische Fünfer-Bewegung um: Statt sich vor der Welt zu schützen, sucht sie das eine Gegenüber, dem sie sich ganz zumuten kann. Naranjo (Lehrer des Autors) nennt dieses Gegenprinzip <em>Vertrauen</em> &ndash; die paradoxe Fähigkeit eines ansonsten distanzierten Typs, sich in einer einzigen Beziehung oder Idee radikal zu exponieren, während er allen anderen gegenüber verschlossen bleibt.</p>
           <p class="vb-intro">Bei Pascal zeigte sich das doppelt: einmal wissenschaftlich, in seiner fast besessenen Hingabe an einzelne Probleme &ndash; den Druck von Flüssigkeiten, die Wahrscheinlichkeitsrechnung, die erste mechanische Rechenmaschine der Welt, die er mit neunzehn Jahren baute, um seinem Vater die mühsame Steuerberechnung zu erleichtern. Und einmal religiös, in der berühmten „Nacht des Feuers" vom 23. November 1654: einem plötzlichen, überwältigenden mystischen Erlebnis, das er auf einem Zettel festhielt, den er zeitlebens in sein Wams eingenäht trug &ndash; gefunden erst nach seinem Tod. „Feuer. Gott Abrahams, Gott Isaaks, Gott Jakobs, nicht der Philosophen und Gelehrten. Gewissheit, Gewissheit, Gefühl, Freude, Friede." Kein kühles Argument, sondern die totale, kompromisslose Hingabe des Igels, der sich einmal ganz öffnet &ndash; und danach nie mehr derselbe ist.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Sechserflügel: Die Suche nach dem tragfähigen Fundament</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Sechserflügel bringt der Fünf ein Element, das die reine Fünf allein nicht hätte: das Bedürfnis nach einem verlässlichen, geprüften Fundament, gegen das sich jeder Gedanke absichern lässt. Wo eine Fünf mit stärkerem Viererflügel introspektiv-melancholisch bleibt, sucht die Fünf mit Sechserflügel die Systematik, die Wachsamkeit gegenüber dem eigenen Zweifel, die geordnete Struktur, in der sich Erkenntnis absichern lässt, bevor sie ausgesprochen wird.</p>
-          <p class="vb-intro">Genau diese Handschrift trägt Pascals berühmteste Wette: das <em>Pari pascalien</em>, die Pascalsche Wette. Sie ist kein religiöses Bekenntnis, sondern eine kühle, geradezu buchhalterische Risikoabwägung &ndash; man solle an Gott glauben, weil der mögliche Gewinn (ewige Glückseligkeit) den möglichen Verlust (ein endliches Leben in Demut) bei Weitem übersteige, selbst wenn die Existenz Gottes ungewiss bleibe. Das ist der Sechserflügel bei der Arbeit: Selbst die tiefste existenzielle Frage wird in ein Sicherheitskalkül übersetzt, in dem der Zweifel nicht verdrängt, sondern strukturell eingepreist wird. Auch seine posthum veröffentlichten <em>Pensées</em> lesen sich so &ndash; als eine Sammlung einzelner, in sich abgesicherter Denkfragmente, die den Zweifel nicht überwinden, sondern ihm eine Struktur geben.</p>
+          <p class="vb-intro">Genau diese Handschrift trägt Pascals berühmteste Wette: das <em>Pari pascalien</em>, die Pascalsche Wette. Sie ist kein religiöses Bekenntnis, sondern eine kühle, geradezu buchhalterische Risikoabwägung &ndash; man solle an Gott glauben, weil der mögliche Gewinn (ewige Glückseligkeit) den möglichen Verlust (ein endliches Leben in Demut) bei Weitem übersteige, selbst wenn die Existenz Gottes ungewiss bleibe. Hier zeigt sich der Sechserflügel bei der Arbeit: Selbst die tiefste existenzielle Frage wird in ein Sicherheitskalkül übersetzt, in dem der Zweifel nicht verdrängt, sondern strukturell eingepreist wird. Auch seine posthum veröffentlichten <em>Pensées</em> lesen sich so &ndash; als eine Sammlung einzelner, in sich abgesicherter Denkfragmente, die den Zweifel nicht überwinden, sondern ihm eine Struktur geben.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Der denkende Schilfhalm</h2>
@@ -181,9 +188,16 @@ export function blaisePascalPortraitPage() {
 
         <h2 class="vb-section">6. Der Heilungsweg: Vom Schilfrohr zur tragenden Wurzel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Fünf führt von der Frage <em>Habe ich genug verstanden, um sicher zu sein?</em> zur Erkenntnis <em>Verstehen entsteht nicht durch Rückzug, sondern durch Hingabe an das, was ich nicht vollständig kontrollieren kann.</em> Für die SX5w6 bedeutet das, das eine gefundene Fundament nicht zur Festung gegen jeden weiteren Zweifel zu machen, sondern es als das zu nehmen, was es für den jungen Pascal einmal war: ein Ausgangspunkt für offenes Denken, nicht sein Endpunkt.</p>
+          <p class="vb-intro">Der Weg zur Heilung führt bei der Fünf von der Frage <em>Habe ich genug verstanden, um sicher zu sein?</em> zur Erkenntnis <em>Verstehen entsteht nicht durch Rückzug, sondern durch Hingabe an das, was ich nicht vollständig kontrollieren kann.</em> Für die SX5w6 bedeutet das, das eine gefundene Fundament nicht zur Festung gegen jeden weiteren Zweifel zu machen, sondern es als das zu nehmen, was es für den jungen Pascal einmal war: ein Ausgangspunkt für offenes Denken, nicht sein Endpunkt.</p>
           <p class="vb-intro">Einordnung ohne Determinismus: Auch bei Pascal gilt, dass niemand allein aufgrund seines Enneagramm-Subtyps chronisch krank wird &ndash; seine Leiden hatten eigene, unabhängige körperliche Ursachen. Bemerkenswert bleibt dennoch, wie konsequent sich sein Umgang mit Krankheit und Sterblichkeit in sein Denkmuster einfügte: Statt die eigene Hinfälligkeit zu verdrängen, machte er sie &ndash; ganz Fünf, ganz Igel &ndash; zum Ausgangspunkt einer der bekanntesten philosophischen Formeln der Geistesgeschichte. Pascal kannte sein eigenes Enneagramm-Muster natürlich nicht bewusst; seine Leidenschaft nach Sicherheit durch geprüftes Wissen fand keine Grenze, bis sie sich buchstäblich in seinen Körper eingrub &ndash; nicht aus Schuld, sondern weil ihm die Sprache fehlte, um das eigene Muster als Muster zu erkennen, statt es als Schicksal hinzunehmen. Seine Krankheitsgeschichte und die letzten Lebensjahre werden im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-blaise-pascal">Krankheitsporträt zu Pascal</a> noch ausführlicher gedeutet.</p>
         </blockquote>
+
+        <h2 class="vb-section">7. Ein Gedanke aus der Homöopathie: das Bild der Wildnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 5 das Mittel Stramonium (Stechapfel) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seinem Arzneimittelbild gehört die Vorstellung, mutterseelenallein in der Wildnis zu sein. In Kents Repertorium steht diese Vorstellung unter ›alone … in a wilderness‹ nur bei einem Mittel, Stramonium. In der Fachsprache der Homöopathie ist das eine Single-Rubrik. Bei Pascal findet sich das Bild in einem Satz seiner ›Pensées‹: ›Das ewige Schweigen dieser unendlichen Räume erschreckt mich.‹ Das ist die Wildnis, in die ein Mensch fällt, wenn er die Weite des Universums bedenkt und sich darin allein findet.</p>
+          <p class="vb-intro">Nach der Beobachtung des Autors zeigt sich dieses Erleben am reinsten beim selbsterhaltenden Fünfer, bei dem es um die pure Selbsterhaltung geht; beim sexuellen Fünfer Pascal zeigt es sich in anderer Färbung, im Bild der unendlichen Räume. Gemeint ist ein Vergleich von Bildern. Er enthält keine Aussage über den Gesundheitszustand eines Menschen, keine Empfehlung und keinen Ersatz für Beratung durch Ärzte oder Heilkundige.</p>
+        </blockquote>
+
 
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
@@ -194,6 +208,10 @@ export function blaisePascalPortraitPage() {
         {route:"krankheitsportraets-blaise-pascal", label:"Krankheitsporträt: Blaise Pascal (SX5w6)"},
         {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
         {route:"beruehmte-xu-bing", label:"Porträt: Xu Bing (SE5w4)"},
+        {route:"beruehmte-archimedes", label:"Porträt: Archimedes (SX5w4)"},
+        {route:"beruehmte-jean-jacques-rousseau", label:"Porträt: Jean-Jacques Rousseau (SX5w4)"},
+        {route:"beruehmte-roman-polanski", label:"Porträt: Roman Polanski (SX5w6)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagramm &amp; Homöopathie"},
       ])}
     </div>
   `);
@@ -257,6 +275,8 @@ export function carolinePetersPortraitPage() {
         {route:"beruehmte-ina-mueller", label:"Portr\u00e4t: Ina M\u00fcller (SX7w8)"},
         {route:"beruehmte-jasmin-paolini", label:"Portr\u00e4t: Jasmin Paolini (SE7w6)"},
         {route:"beruehmte-ida-pfeiffer", label:"Portr\u00e4t: Ida Pfeiffer (SX7w6) \u2013 ebenfalls derselbe Subtyp"},
+        {route:"beruehmte-wietske-van-tongeren", label:"Porträt: Wietske van Tongeren (SX7w6)"},
+        {route:"beruehmte-isabell-gerschke", label:"Porträt: Isabell Gerschke (SX7w6)"},
         ])}
       </div>
     </div>
@@ -280,7 +300,7 @@ export function cynthiaMossPortraitPage() {
 
         <h2 class="vb-section">1. Der Elefant, der ein Leben lang bei den Elefanten blieb</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier der selbsterhaltenden Neun &ndash; majestätisch, tief geerdet, friedlich, getragen von Weisheit, Gedächtnis und unerschütterlicher Loyalität, beständig im Hintergrund wirkend statt sich in den Vordergrund zu drängen. Dr. Cynthia Moss verkörpert dieses Prinzip so vollständig, dass es kaum ein treffenderes Bild in diesem Kompass gibt: Die amerikanische Verhaltensbiologin gilt als unbestrittene Grande Dame der Elefantenforschung.</p>
+          <p class="vb-intro">Der <strong>Elefant</strong> ist die tierische Entsprechung der selbsterhaltenden Neun &ndash; majestätisch, tief geerdet, friedlich, getragen von Weisheit, Gedächtnis und unerschütterlicher Loyalität, beständig im Hintergrund wirkend statt sich in den Vordergrund zu drängen. Dr. Cynthia Moss verkörpert dieses Prinzip so vollständig, dass es kaum ein treffenderes Bild in diesem Kompass gibt: Die amerikanische Verhaltensbiologin gilt als unbestrittene Grande Dame der Elefantenforschung.</p>
           <p class="vb-intro">1972 gründete sie gemeinsam mit Harvey Croze das Amboseli Elephant Research Project in Kenia &ndash; und leitet es bis heute, über fünfzig Jahre später. Sie hat einzelne Elefantenfamilien und ihre Matriarchinnen über mehr als fünf Jahrzehnte lückenlos begleitet: dieselben Tiere, dieselbe Region, derselbe stille, unerschütterliche Fokus, Jahrzehnt um Jahrzehnt. Das ist keine Karriere unter mehreren. Das ist ein einziges, ungeteiltes Lebenswerk.</p>
         </blockquote>
 
@@ -298,7 +318,7 @@ export function cynthiaMossPortraitPage() {
 
         <h2 class="vb-section">4. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE9w1 ist die Fähigkeit, <strong>ein ganzes Leben ungeteilt einem einzigen, beständigen Thema zu widmen</strong> &ndash; Moss' Forschung veränderte grundlegend, wie die Welt über das Innenleben von Elefanten denkt, und ihr Amboseli-Projekt ist heute die längste ununterbrochene Studie an frei lebenden Elefanten überhaupt.</p>
+          <p class="vb-intro">Was die SE9w1 auszeichnet, ist die Fähigkeit, <strong>ein ganzes Leben ungeteilt einem einzigen, beständigen Thema zu widmen</strong> &ndash; Moss' Forschung veränderte grundlegend, wie die Welt über das Innenleben von Elefanten denkt, und ihr Amboseli-Projekt ist heute die längste ununterbrochene Studie an frei lebenden Elefanten überhaupt.</p>
           <p class="vb-intro">Der Schatten zeigt sich in der Kehrseite dieser Beständigkeit: ein Leben, das sich fast vollständig um ein einziges Thema, einen einzigen Ort, dieselben wenigen vertrauten Wesen organisiert. Wo andere Karrierewege, Themen oder Regionen wechseln, um sich weiterzuentwickeln, bleibt die SE9w1 dort, wo Vertrauen bereits gewachsen ist &ndash; eine Stärke, die zugleich eine bewusste Absage an alles Neue, Unvertraute ist.</p>
         </blockquote>
 
@@ -344,8 +364,8 @@ export function dirkRossmannPortraitPage() {
 
         <h2 class="vb-section">1. Der Oktopus mit dem Fahrrad</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier des sozialen Typs 5 \u2013 ein Tier ohne festes Zentrum, das mit mehreren Armen gleichzeitig operiert, sich seinem Umfeld anpasst und dabei nie ganz zu fassen ist. Dirk Ro\u00dfmann wurde am 7. September 1946 in Hannover geboren, als Sohn eines Drogisten in zweiter Generation, der starb, als Dirk zw\u00f6lf Jahre alt war. Noch im selben Jahr zeigte sich das Muster zum ersten Mal ganz konkret: Der Zw\u00f6lfj\u00e4hrige nahm donnerstags bei den Nachbarn Bestellungen f\u00fcr Drogeriewaren aus dem Laden seiner Mutter, die diesen nun allein weiterf\u00fchrte, entgegen und lieferte sie freitags mit dem Fahrrad aus \u2013 zehn Prozent g\u00fcnstiger, als sie im Laden gekostet h\u00e4tten. Ein kleines System, selbst gebaut, das mehrere hundert Mark im Monat einbrachte, lange bevor daraus ein Unternehmen wurde. Mit f\u00fcnfundzwanzig, 1972, er\u00f6ffnete er in Hannover den ersten deutschen Selbstbedienungs-Drogeriemarkt auf 120 Quadratmetern \u2013 neben einem Bestattungsunternehmen gelegen, was er selbst sp\u00e4ter mit trockenem Humor kommentierte.</p>
-          <p class="vb-intro">Das Prinzip Selbstbedienung war in der deutschen Drogeriebranche 1972 eine Neuerfindung des Systems, nicht blo\u00df eine Filialer\u00f6ffnung. Genau das ist die soziale F\u00fcnf im Licht: Sie beobachtet ein bestehendes System lange und genau, erkennt seine Schwachstelle \u2013 hier die bediente Theke, an der jeder Kunde einzeln bedient werden musste \u2013 und baut daraus ein neues, effizienteres System, das sie dann mit vielen Armen gleichzeitig in die Fl\u00e4che tr\u00e4gt. Aus einem Laden wurden \u00fcber die folgenden Jahrzehnte mehrere tausend M\u00e4rkte in mehreren europ\u00e4ischen L\u00e4ndern.</p>
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist die tierische Entsprechung des sozialen Typs 5 \u2013 ein Tier ohne festes Zentrum, das mit mehreren Armen gleichzeitig operiert, sich seinem Umfeld anpasst und dabei nie ganz zu fassen ist. Dirk Ro\u00dfmann wurde am 7. September 1946 in Hannover geboren, als Sohn eines Drogisten in zweiter Generation, der starb, als Dirk zw\u00f6lf Jahre alt war. Noch im selben Jahr zeigte sich das Muster zum ersten Mal ganz konkret: Der Zw\u00f6lfj\u00e4hrige nahm donnerstags bei den Nachbarn Bestellungen f\u00fcr Drogeriewaren aus dem Laden seiner Mutter, die diesen nun allein weiterf\u00fchrte, entgegen und lieferte sie freitags mit dem Fahrrad aus \u2013 zehn Prozent g\u00fcnstiger, als sie im Laden gekostet h\u00e4tten. Ein kleines System, selbst gebaut, das mehrere hundert Mark im Monat einbrachte, lange bevor daraus ein Unternehmen wurde. Mit f\u00fcnfundzwanzig, 1972, er\u00f6ffnete er in Hannover den ersten deutschen Selbstbedienungs-Drogeriemarkt auf 120 Quadratmetern \u2013 neben einem Bestattungsunternehmen gelegen, was er selbst sp\u00e4ter mit trockenem Humor kommentierte.</p>
+          <p class="vb-intro">Das Prinzip Selbstbedienung war in der deutschen Drogeriebranche 1972 eine Neuerfindung des Systems, nicht blo\u00df eine Filialer\u00f6ffnung. Genau das zeigt die soziale F\u00fcnf im Licht: Sie beobachtet ein bestehendes System lange und genau, erkennt seine Schwachstelle \u2013 hier die bediente Theke, an der jeder Kunde einzeln bedient werden musste \u2013 und baut daraus ein neues, effizienteres System, das sie dann mit vielen Armen gleichzeitig in die Fl\u00e4che tr\u00e4gt. Aus einem Laden wurden \u00fcber die folgenden Jahrzehnte mehrere tausend M\u00e4rkte in mehreren europ\u00e4ischen L\u00e4ndern.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Das Totem: Wissen, das die Gemeinschaft tr\u00e4gt</h2>
@@ -381,7 +401,7 @@ export function dirkRossmannPortraitPage() {
         <h2 class="vb-section">7. Der Oktopus, der weiterschreibt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Dirk Ro\u00dfmann ist heute weit \u00fcber achtzig und noch immer \u00f6ffentlich pr\u00e4sent \u2013 als pr\u00e4gende Figur im Hintergrund des Unternehmens, als Stifter, als Autor. Sein Weg von der kleinen Drogerie neben dem Bestattungsunternehmen bis zur europ\u00e4ischen Handelskette liest sich wie eine klassische SO5-Biografie: langsamer Aufbau von Wissen und System, das doppelte Beinaheversagen 1996, das den Sechserfl\u00fcgel sichtbar machte, und schlie\u00dflich die sp\u00e4te literarische Wende, in der er \u2013 ohne es zu ahnen \u2013 sein eigenes Tiertotem gleich dreifach zu Papier brachte.</p>
-          <p class="vb-intro">Das ist die soziale F\u00fcnf mit Sechserfl\u00fcgel in ihrer reifsten Form: ein System bauen, das andere tr\u00e4gt. Daran festhalten, wenn es wankt. Und am Ende, ohne es geplant zu haben, selbst zum Bild dessen werden, was man immer war.</p>
+          <p class="vb-intro">Hier wirkt die soziale F\u00fcnf mit Sechserfl\u00fcgel in ihrer reifsten Form: ein System bauen, das andere tr\u00e4gt. Daran festhalten, wenn es wankt. Und am Ende, ohne es geplant zu haben, selbst zum Bild dessen werden, was man immer war.</p>
         </blockquote>
 
       </div>
@@ -394,6 +414,7 @@ export function dirkRossmannPortraitPage() {
         {route:"beruehmte-guenther-jauch", label:"Portr\u00e4t: G\u00fcnther Jauch (SO5w6)"},
         {route:"beruehmte-eckhard-freise", label:"Portr\u00e4t: Eckhard Freise (SO5w6)"},
         {route:"beruehmte-isaac-newton", label:"Portr\u00e4t: Isaac Newton (SO5w6)"},
+        {route:"beruehmte-anton-zeilinger", label:"Porträt: Anton Zeilinger (SO5w6)"},
       ])}
     </div>
   `);
@@ -428,7 +449,7 @@ export function epikurPortraitPage() {
 
         <h2 class="vb-section">3. Der Sechserflügel: Verlässliche Regeln für ein gutes Leben</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der sozialen Sieben ein Bedürfnis nach verlässlichen Kriterien und stabilen Strukturen, an denen sich Vertrauen festmachen lässt. Epikur entwickelte mit seiner „Kanonik" ein regelrechtes Prüfsystem für Erkenntnis – klare Kriterien, anhand derer sich wahre von falscher Wahrnehmung unterscheiden ließ, damit seine Schüler nicht im Ungewissen tappen mussten. Auch seine Ethik war kein loses Ideensammelsurium, sondern ein durchdachtes Regelwerk: eine Hierarchie der Bedürfnisse, feste Prinzipien, an denen man sich orientieren konnte.</p>
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> verleiht der sozialen Sieben ein Bedürfnis nach verlässlichen Kriterien und stabilen Strukturen, an denen sich Vertrauen festmachen lässt. Epikur entwickelte mit seiner „Kanonik" ein regelrechtes Prüfsystem für Erkenntnis – klare Kriterien, anhand derer sich wahre von falscher Wahrnehmung unterscheiden ließ, damit seine Schüler nicht im Ungewissen tappen mussten. Auch seine Ethik war kein loses Ideensammelsurium, sondern ein durchdachtes Regelwerk: eine Hierarchie der Bedürfnisse, feste Prinzipien, an denen man sich orientieren konnte.</p>
           <p class="vb-intro">Diese Sechser-Note zeigte sich auch im Aufbau des Gartens selbst: eine Gemeinschaft mit klaren, verlässlichen Regeln des Zusammenlebens, in der neue Mitglieder wussten, woran sie waren. Nicht wilde, ungebremste Marktbeschickerei durch neue Ideen, sondern ein stabiles System, dem man vertrauen konnte, gerade weil es keine Überraschungen barg.</p>
         </blockquote>
 
@@ -440,8 +461,8 @@ export function epikurPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO7w6 ist die Fähigkeit, <strong>eine tragfähige, verlässliche Gemeinschaft aufzubauen, die dem einzelnen echten Halt gibt</strong> – der Garten überdauerte Epikurs eigenen Tod um Jahrhunderte und wurde zu einer der einflussreichsten philosophischen Schulen der Antike. Seine radikale Offenheit gegenüber Frauen und Sklaven war für seine Zeit ein stiller, aber wirkungsvoller Bruch mit gesellschaftlichen Konventionen.</p>
-          <p class="vb-intro">Der Schatten zeigt sich in der Kehrseite dieses Gemeinschaftsprojekts: Wer sein gesamtes Selbstverständnis an eine selbst gegründete Institution bindet, riskiert, die eigene Person hinter dem System verschwinden zu lassen. Über Epikurs privates Innenleben abseits seiner Rolle als Lehrer und Systemgründer ist erstaunlich wenig überliefert – als wäre der Mensch hinter dem Garten selbst zur Nebensache geworden.</p>
+          <p class="vb-intro">Die Stärke der SO7w6 ist die Fähigkeit, <strong>eine tragfähige, verlässliche Gemeinschaft aufzubauen, die dem einzelnen echten Halt gibt</strong> – der Garten überdauerte Epikurs eigenen Tod um Jahrhunderte und wurde zu einer der einflussreichsten philosophischen Schulen der Antike. Seine radikale Offenheit gegenüber Frauen und Sklaven war für seine Zeit ein stiller, aber wirkungsvoller Bruch mit gesellschaftlichen Konventionen.</p>
+          <p class="vb-intro">Die Schattenseite zeigt sich in der Kehrseite dieses Gemeinschaftsprojekts: Wer sein gesamtes Selbstverständnis an eine selbst gegründete Institution bindet, riskiert, die eigene Person hinter dem System verschwinden zu lassen. Über Epikurs privates Innenleben abseits seiner Rolle als Lehrer und Systemgründer ist erstaunlich wenig überliefert – als wäre der Mensch hinter dem Garten selbst zur Nebensache geworden.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der Biber, dessen Garten ihn überlebte</h2>
@@ -486,7 +507,7 @@ export function friedrichSchillerPortraitPage() {
 
         <h2 class="vb-section">1. Der Wolf, der der Zensur die Zähne zeigte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 – ein Rudeltier, das Bedrohung nicht meidet, sondern ihr direkt entgegentritt. Kaum ein Dichter der deutschen Literaturgeschichte verkörpert dieses Muster so unverkennbar wie Friedrich Schiller, dessen frühes Werk ein einziger, offener Angriff auf die Tyrannei seiner Zeit war – geschrieben unter den Augen genau jener Autorität, gegen die es sich richtete.</p>
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Wappentier des sexuellen Typs 6 – ein Rudeltier, das Bedrohung nicht meidet, sondern ihr direkt entgegentritt. Kaum ein Dichter der deutschen Literaturgeschichte verkörpert dieses Muster so unverkennbar wie Friedrich Schiller, dessen frühes Werk ein einziger, offener Angriff auf die Tyrannei seiner Zeit war – geschrieben unter den Augen genau jener Autorität, gegen die es sich richtete.</p>
           <p class="vb-intro">Geboren 1759 in Marbach am Neckar als Sohn eines Militärarztes, wurde der junge Schiller mit vierzehn Jahren gegen seinen und den Willen seiner Eltern in die Karlsschule des württembergischen Herzogs Karl Eugen gezwungen – eine militärisch strenge Kadettenanstalt, in der er, statt Theologie, gegen seine Neigung Medizin studieren musste. Aus dieser jahrelangen erzwungenen Unterordnung unter eine willkürliche Autorität entstand ein Grundmuster, das sein gesamtes Werk durchzieht: die Weigerung, sich einer Macht zu beugen, die er als ungerecht empfand.</p>
         </blockquote>
 
@@ -499,14 +520,14 @@ export function friedrichSchillerPortraitPage() {
 
         <h2 class="vb-section">3. Der Fünferflügel: Rückzug in Theorie, Geschichte und System</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sexuellen Sechs analytische Tiefe und die Fähigkeit, sich in ein durchdachtes Gedankengebäude zurückzuziehen, bis jede Position argumentativ abgesichert ist. Nach den stürmischen Jugenddramen wandte sich Schiller zunehmend der Geschichtsschreibung und der Philosophie zu: 1789 wurde er, ohne akademischen Doktortitel, auf Empfehlung Goethes zum Professor für Geschichte in Jena berufen.</p>
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> schenkt der sexuellen Sechs analytische Tiefe und die Fähigkeit, sich in ein durchdachtes Gedankengebäude zurückzuziehen, bis jede Position argumentativ abgesichert ist. Nach den stürmischen Jugenddramen wandte sich Schiller zunehmend der Geschichtsschreibung und der Philosophie zu: 1789 wurde er, ohne akademischen Doktortitel, auf Empfehlung Goethes zum Professor für Geschichte in Jena berufen.</p>
           <p class="vb-intro">In seinen "Briefen über die ästhetische Erziehung des Menschen" entwickelte er, ausgehend von Kant (SO6w5, ebenfalls in diesem Kompass porträtiert), ein systematisches philosophisches Konzept, wie der Mensch durch Kunst und Schönheit zu innerer Freiheit finden könne – eine hochkomplexe, jahrelang durchdachte Theorie, kein spontaner Gefühlsausbruch. Der Fünferflügel verwandelte den jungen Wutdramatiker in einen der präzisesten Denker seiner Zeit, ohne dass die Wachsamkeit und Kampfbereitschaft der Sechs je verschwand – sie verlagerte sich nur vom offenen Konflikt in die argumentative Verteidigung einer Idee.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Dem eigenen Körper die Stirn geboten: Die letzten vierzehn Jahre</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">1791 erlitt Schiller eine schwere, vermutlich mit Tuberkulose zusammenhängende Krankheitskrise mit hohem Fieber und Krämpfen, die ihn beinahe das Leben kostete und von der er sich nie vollständig erholte. Statt sich zurückzuziehen, arbeitete er die verbleibenden vierzehn Lebensjahre unter dem ständigen Druck einer fortschreitenden Erkrankung – und schrieb in genau dieser Zeit sein bedeutendstes Alterswerk: die "Wallenstein"-Trilogie, "Maria Stuart", "Die Jungfrau von Orleans" und "Wilhelm Tell".</p>
-          <p class="vb-intro">Freunde berichteten, Schiller habe nachts oft nur mit Hilfe von starkem Kaffee und Champagner weiterarbeiten können, wenn der Körper längst hätte aufgeben wollen. Das ist die SX6w5 in ihrer kompromisslosesten Form: nicht dem eigenen Verfall auszuweichen, sondern ihm mit derselben Härte zu begegnen, mit der Schiller einst dem Herzog Karl Eugen begegnet war.</p>
+          <p class="vb-intro">Freunde berichteten, Schiller habe nachts oft nur mit Hilfe von starkem Kaffee und Champagner weiterarbeiten können, wenn der Körper längst hätte aufgeben wollen. Hier zeigt sich die SX6w5 in ihrer kompromisslosesten Form: nicht dem eigenen Verfall auszuweichen, sondern ihm mit derselben Härte zu begegnen, mit der Schiller einst dem Herzog Karl Eugen begegnet war.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Goethe: Zwei Bautypen im gemeinsamen Gespräch</h2>
@@ -534,6 +555,7 @@ export function friedrichSchillerPortraitPage() {
         {route:"beruehmte-johann-wolfgang-von-goethe", label:"Porträt: Johann Wolfgang von Goethe (SO7w6) – enger Freund und Briefpartner"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5) – vertonte Schillers ›Ode an die Freude‹"},
         {route:"beruehmte-skylar-grey", label:"Porträt: Skylar Grey (SX6w5)"},
+        {route:"beruehmte-otto-von-bismarck", label:"Porträt: Otto von Bismarck (SX6w5)"},
       ])}
     </div>
   `);
@@ -576,7 +598,7 @@ export function guentherJauchPortraitPage() {
 
         <h2 class="vb-section">4. Das Werk: Zwischen Million\xe4rsfrage und Montag</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><em>stern TV</em>, das er 1990 \xfcbernahm und zwei Jahrzehnte lang moderierte, war anderes Terrain: Reportagen, Enth\xfcllungen, gesellschaftskritische Beitr\xe4ge. Jauch f\xfchrte die Sendung mit derselben K\xfchle, mit der er sp\xe4ter Million\xe4re befragte &ndash; ohne Emotion, mit pr\xe4zisen Fragen, ohne dem Gegen\xfcber zu nahe zu treten. Das ist die SO5: N\xe4he durch Distanz, Verbindung durch Professionalit\xe4t.</p>
+          <p class="vb-intro"><em>stern TV</em>, das er 1990 \xfcbernahm und zwei Jahrzehnte lang moderierte, war anderes Terrain: Reportagen, Enth\xfcllungen, gesellschaftskritische Beitr\xe4ge. Jauch f\xfchrte die Sendung mit derselben K\xfchle, mit der er sp\xe4ter Million\xe4re befragte &ndash; ohne Emotion, mit pr\xe4zisen Fragen, ohne dem Gegen\xfcber zu nahe zu treten. Darin zeigt sich die SO5: N\xe4he durch Distanz, Verbindung durch Professionalit\xe4t.</p>
           <p class="vb-intro">Den ARD-Sonntagabendtalk &ndash; <em>G\xfcnther Jauch</em>, 2011 bis 2015 &ndash; gab er nach vier Jahren auf. Er erkl\xe4rte, das Format habe sich ersch\xf6pft. Viele fragten, ob er sich gemeint hatte. Die soziale F\xfcnf verliert den Sinn f\xfcr ein System, wenn sie sp\xfcrt, dass es nicht mehr tr\xe4gt. Dann l\xe4sst sie los &ndash; ruhig, ohne Drama, ohne \xd6ffentlichkeit.</p>
           <p class="vb-intro">Daneben f\xfchrte er \xfcber seine Produktionsfirma i&amp;u TV, sp\xe4ter an RTL verkauft, eine Vielzahl von Formaten in die Sendelandschaft ein. Der Oktopus greift mit mehreren Armen zugleich &ndash; und l\xe4sst sich nicht auf einen reduzieren.</p>
         </blockquote>
@@ -585,14 +607,14 @@ export function guentherJauchPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Jauch ist nicht auf Social Media. Er gibt selten Interviews \xfcber sich selbst &ndash; nur \xfcber seine Sendungen. Er lebt in einer Villa am Heiligen See in Potsdam, deren Grundst\xfcck hinter Mauern liegt. Er hat vier T\xf6chter, deren Namen er jahrelang nicht in der \xd6ffentlichkeit nannte. Das ist keine Privatheit aus Angst. Das ist die <strong>Burg der SO5</strong> in ihrer sozialen Form: Ich bin unter euch, ich gebe euch Wissen, ich moderiere eure Gesellschaft &ndash; aber mich selbst gebe ich nicht.</p>
           <p class="vb-intro">Der Schatten der F\xfcnf ist der <strong>Geiz</strong> &ndash; nicht nur mit Geld, sondern mit sich selbst. Mit dem, was man \xfcber sich preisgeben w\xfcrde. Jauch ist ein Mann, der Jahrzehnte lang Kandidaten in existenzielle Druck-Situationen gebracht hat, ihre Reaktionen studiert, ihre Schwei\u00dfausbr\u00fcche kommentiert &ndash; und dabei selbst vollkommen undurchdringlich blieb. Der Oktopus, der beobachtet und ver\xe4ndert, w\xe4hrend er selbst unsichtbar bleibt.</p>
-          <p class="vb-intro">Im Licht hingegen: Ein Moderator, der nie einen Kandidaten vorgef\u00fchrt hat. Der nie \xfcber jemanden gelacht hat. Der mit einer Freundlichkeit moderiert, die nicht gespielt wirkt. Das ist die SO5 im besten Sinne: Wissen teilen, ohne zu dominieren. Begleiten, ohne zu \xfcberw\u00e4ltigen.</p>
+          <p class="vb-intro">Im Licht hingegen: Ein Moderator, der nie einen Kandidaten vorgef\u00fchrt hat. Der nie \xfcber jemanden gelacht hat. Der mit einer Freundlichkeit moderiert, die nicht gespielt wirkt. Hier wirkt die SO5 im besten Sinne: Wissen teilen, ohne zu dominieren. Begleiten, ohne zu \xfcberw\u00e4ltigen.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der Oktopus, der nicht kleiner wird</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">G\xfcnther Jauch ist 2024 achtundsechzig Jahre alt &ndash; und moderiert noch immer <em>Wer wird Million\xe4r?</em>. Das Fernsehen hat sich um ihn herum mehrfach neu erfunden. Formate kamen und gingen. Moderatoren wurden entdeckt, verheizt und ersetzt. Jauch blieb.</p>
           <p class="vb-intro">Das ist das Bild, das bleibt: Ein Mann, der nicht laut ist, der nicht treibt, der nicht dr\xe4ngt. Der einfach da ist. Der seinen Platz h\xe4lt, sein Wissen gibt, seine Fragen stellt &ndash; und nach der Sendung nach Potsdam f\xe4hrt. Hinter die Mauern. In die Stille. Zum Oktopus in seiner Tiefe.</p>
-          <p class="vb-intro">Das ist die soziale F\xfcnf: Pr\xe4senz ohne \xdcbergabe. Sichtbarkeit ohne Offenbarung. Und die stille Gewissheit, dass man mehr wei\u00df, als man zeigt &ndash; und dass das vollkommen ausreicht.</p>
+          <p class="vb-intro">Hier zeigt sich die soziale F\xfcnf: Pr\xe4senz ohne \xdcbergabe. Sichtbarkeit ohne Offenbarung. Und die stille Gewissheit, dass man mehr wei\u00df, als man zeigt &ndash; und dass das vollkommen ausreicht.</p>
         </blockquote>
 
       </div>
@@ -607,6 +629,10 @@ export function guentherJauchPortraitPage() {
         {route:"beruehmte-eckhard-freise", label:"Portr\xe4t: Eckhard Freise (SO5w6) \u2013 erster Million\xe4r bei Wer wird Million\xe4r?"},
         {route:"beruehmte-simone-de-beauvoir", label:"Portr\xe4t: Simone de Beauvoir (SO5w6)"},
         {route:"beruehmte-bernhard-hoecker", label:"Portr\xe4t: Bernhard Hoëcker (SO5w6) \u2013 dieselbe Totem-Funktion in schlagfertigerem Ton"},
+        {route:"beruehmte-albert-einstein", label:"Porträt: Dr. Albert Einstein (SO5w4)"},
+        {route:"beruehmte-anton-zeilinger", label:"Porträt: Anton Zeilinger (SO5w6)"},
+        {route:"beruehmte-pythagoras", label:"Porträt: Pythagoras (SO5w6)"},
+        {route:"beruehmte-jimmy-wales", label:"Porträt: Jimmy Wales (SO5w6)"},
       ])}
     </div>
   `);
@@ -635,14 +661,14 @@ export function honoreDeBalzacPortraitPage() {
 
         <h2 class="vb-section">2. Die selbsterhaltende Vier: Zähigkeit als Überlebensform</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> ist der Kontratyp der Vier: Sie zieht das eigene Leiden nicht in dramatische Selbstdarstellung, sondern hält es aus – allein, in stiller Härte gegen sich selbst. Naranjo nannte diesen Subtyp <em>Zähigkeit</em> (im Original: <em>tenacity</em>) – kein lautes Aufbegehren gegen das Schicksal, sondern ein zähes Weitermachen, das dem eigenen Schmerz keine Bühne gibt. Bei kaum einem Schriftsteller zeigt sich diese Zähigkeit so konkret wie bei Balzac: Um seine drückenden Schulden abzutragen – Folge gescheiterter Geschäftsversuche, etwa einer Druckerei und eines Verlags, sowie eines aufwendigen Lebensstils weit über seine Verhältnisse – schrieb er über Jahrzehnte hinweg nächtelang, oft 15 bis 18 Stunden am Stück.</p>
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> ist der Kontratyp der Vier: Sie zieht das eigene Leiden nicht in dramatische Selbstdarstellung, sondern hält es aus – allein, in stiller Härte gegen sich selbst. Diesen Subtyp nannte Naranjo <em>Zähigkeit</em> (im Original: <em>tenacity</em>) – kein lautes Aufbegehren gegen das Schicksal, sondern ein zähes Weitermachen, das dem eigenen Schmerz keine Bühne gibt. Bei kaum einem Schriftsteller zeigt sich diese Zähigkeit so konkret wie bei Balzac: Um seine drückenden Schulden abzutragen – Folge gescheiterter Geschäftsversuche, etwa einer Druckerei und eines Verlags, sowie eines aufwendigen Lebensstils weit über seine Verhältnisse – schrieb er über Jahrzehnte hinweg nächtelang, oft 15 bis 18 Stunden am Stück.</p>
           <p class="vb-intro">Sein Tagesrhythmus war berüchtigt: ein kurzes Abendessen, ein Nickerlchen bis Mitternacht, dann ununterbrochenes Schreiben bis weit in den Vormittag hinein, angetrieben von gewaltigen Mengen starken schwarzen Kaffees – Dutzende Tassen, die er über die Jahre wortwörtlich seiner Gesundheit abrang. Das war kein Luxusmotiv, kein Streben nach müheloser Anerkennung, sondern reine Überlebensenergie: Die SE4 kämpft ihren Schmerz allein aus, bevor sie ihn zeigt, und bei Balzac hieß dieser Kampf, Schulden mit Sätzen abzutragen, einen nach dem anderen, Nacht für Nacht.</p>
           <p class="vb-intro">Der selbsterhaltende Instinkt richtet die Vier auf die eigene Stabilität – bei Balzac paradox gebrochen: Er lebte in ständiger finanzieller Instabilität, doch die Disziplin, mit der er dagegen anschrieb, war von unerschütterlicher Konsequenz. Kritiker seiner Zeit wie spätere Biografen sind sich einig, dass gerade der Druck der Schulden den ungeheuren Umfang seines Werks mit hervorbrachte – die Zähigkeit der SE4, die aus der Not eine lebenslange Schreibpraxis machte.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Dreierflügel: Das erfundene „de"</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Vier ein ausgeprägtes Statusbewusstsein – den Wunsch, die eigene innere Welt nicht nur zu bewahren, sondern sichtbar in gesellschaftlichen Rang zu übersetzen. Bei Balzac zeigt sich das denkbar deutlich: Er stammte aus bürgerlichen Verhältnissen, doch schon als junger Mann begann er, seinen Familiennamen Balssa zu Balzac zu verändern und sich schließlich ein Adelsprädikat anzueignen, das ihm nicht zustand – aus Honoré Balzac wurde Honoré de Balzac, ohne jede genealogische Grundlage. Zeitgenossen und spätere Biografen beschreiben ihn geradezu als besessen vom Gedanken an gesellschaftlichen Aufstieg und aristokratischen Glanz.</p>
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> verleiht der selbsterhaltenden Vier ein ausgeprägtes Statusbewusstsein – den Wunsch, die eigene innere Welt nicht nur zu bewahren, sondern sichtbar in gesellschaftlichen Rang zu übersetzen. Bei Balzac zeigt sich das denkbar deutlich: Er stammte aus bürgerlichen Verhältnissen, doch schon als junger Mann begann er, seinen Familiennamen Balssa zu Balzac zu verändern und sich schließlich ein Adelsprädikat anzueignen, das ihm nicht zustand – aus Honoré Balzac wurde Honoré de Balzac, ohne jede genealogische Grundlage. Zeitgenossen und spätere Biografen beschreiben ihn geradezu als besessen vom Gedanken an gesellschaftlichen Aufstieg und aristokratischen Glanz.</p>
           <p class="vb-intro">Diese Besessenheit blieb nicht beim Namen: Balzac kleidete sich, wenn seine Mittel es zuließen, extravagant, sammelte Antiquitäten weit über seine finanziellen Möglichkeiten hinaus und pflegte einen Lebensstil, der eher zu einem Adligen als zu einem verschuldeten Schriftsteller passte – genau jene Ausgaben, die seine Schulden immer weiter anwachsen ließen und ihn zugleich zwangen, noch mehr zu schreiben. Der Dreierflügel verwandelt die introvertierte Tiefe der SE4 nicht in Rückzug, sondern in Ambition: Balzac wollte nicht nur innerlich einzigartig sein, er wollte, dass diese Einzigartigkeit gesehen, anerkannt, in gesellschaftlichem Rang bestätigt wurde – und schrieb dafür ein Gesamtwerk, das genau diese Welt aus Aufstieg, Geld und gesellschaftlichem Ehrgeiz in allen Facetten seziert, von <em>Le Père Goriot</em> bis <em>Eugénie Grandet</em>.</p>
         </blockquote>
 
@@ -682,6 +708,9 @@ export function honoreDeBalzacPortraitPage() {
         {route:"beruehmte-lady-diana", label:"Porträt: Lady Diana (SE4w3)"},
         {route:"beruehmte-cecily-brown", label:"Porträt: Cecily Brown (SE4w3)"},
         {route:"krankheitsportraets-honore-de-balzac", label:"Krankheitsporträt: Honoré de Balzac (SE4w3) – Herzinsuffizienz"},
+        {route:"beruehmte-june-carter-cash", label:"Porträt: June Carter Cash (SE4w3)"},
+        {route:"beruehmte-peter-gabriel", label:"Porträt: Peter Gabriel (SE4w3)"},
+        {route:"beruehmte-t-e-lawrence", label:"Porträt: T. E. Lawrence (SE4w3)"},
       ])}
     </div>
   `);
@@ -731,7 +760,7 @@ export function jamesCordenPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten der sozialen Sechs</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO6w7 ist ihre <strong>F\u00e4higkeit, Verbindung zu stiften, wo vorher keine war</strong>. Corden hat ein Format erfunden, das Weltstars und Millionenpublikum in einem gemeinsamen, unpr\u00e4tenti\u00f6sen Moment zusammenbringt &ndash; ohne die \u00fcbliche Distanz zwischen Star und Zuschauer. Kollegen und G\u00e4ste beschreiben ihn immer wieder als warmherzig, pr\u00e4sent, jemanden, der andere zum Strahlen bringt, statt sich selbst in den Mittelpunkt zu stellen.</p>
+          <p class="vb-intro">Was die SO6w7 auszeichnet, ist ihre <strong>F\u00e4higkeit, Verbindung zu stiften, wo vorher keine war</strong>. Corden hat ein Format erfunden, das Weltstars und Millionenpublikum in einem gemeinsamen, unpr\u00e4tenti\u00f6sen Moment zusammenbringt &ndash; ohne die \u00fcbliche Distanz zwischen Star und Zuschauer. Kollegen und G\u00e4ste beschreiben ihn immer wieder als warmherzig, pr\u00e4sent, jemanden, der andere zum Strahlen bringt, statt sich selbst in den Mittelpunkt zu stellen.</p>
           <p class="vb-intro">Der Schatten der SO6w7 liegt im Gegenteil dieser W\u00e4rme: In den Bem\u00fchungen, es allen recht zu machen und st\u00e4ndig sichtbar Gemeinschaft zu stiften, kann die Fassade der Freundlichkeit br\u00fcchig werden, wenn der Druck steigt. Corden geriet mehrfach in die Kritik &ndash; etwa wegen Berichten \u00fcber unh\u00f6fliches Verhalten gegen\u00fcber Restaurantpersonal 2022, die er \u00f6ffentlich korrigierte und sich daf\u00fcr entschuldigte. F\u00fcr die SO6 ist das eine typische Bruchstelle: Die Sorge um die Gruppe nach au\u00dfen kann in Momenten der eigenen Ersch\u00f6pfung nach innen kippen &ndash; und genau dort zeigt sich, wie ernst es mit der eigenen F\u00fcrsorge tats\u00e4chlich ist.</p>
           <p class="vb-intro">Das ist die Spannung der SO6w7: Der Wunsch, alle mitzunehmen, kann in \u00dcberforderung kippen &ndash; und die eigene Ersch\u00f6pfung wird dann sichtbar genau dort, wo die Fassade der st\u00e4ndigen Verbindlichkeit am d\u00fcnnsten ist.</p>
         </blockquote>
@@ -792,7 +821,7 @@ export function joeNavarroPortraitPage() {
         <h2 class="vb-section">4. Licht und Schatten der sozialen Zwei</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SO2w1 liegt in der Fähigkeit, eine aus persönlicher Not entstandene Fähigkeit systematisch aufzuarbeiten und einem breiten Publikum zugänglich zu machen, statt sie als privaten Vorteil zu behalten. Navarros Weg vom sprachlich isolierten Flüchtlingskind zum weltweit anerkannten Experten für nonverbale Kommunikation zeigt, wie sich eine ursprüngliche Verwundbarkeit in eine universell nützliche Gabe verwandeln lässt.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch das eigene Wissen für andere unentbehrlich zu sein. Bei der SO2w1 kann sich das mit einem hohen Anspruch an die eigene Autorität verbinden, der aus jahrzehntelanger, hart erarbeiteter Expertise gespeist wird und wenig Raum für Beliebigkeit lässt.</p>
+          <p class="vb-intro">Im Zentrum der Zwei steht der <strong>Stolz</strong> &ndash; die Überzeugung, durch das eigene Wissen für andere unentbehrlich zu sein. Bei der SO2w1 kann sich das mit einem hohen Anspruch an die eigene Autorität verbinden, der aus jahrzehntelanger, hart erarbeiteter Expertise gespeist wird und wenig Raum für Beliebigkeit lässt.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Das Werk: Vom sprachlosen Kind zum weltweit gefragten Verhaltensexperten</h2>
@@ -810,6 +839,7 @@ export function joeNavarroPortraitPage() {
         {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
         {route:"beruehmte-david-lurey", label:"Portrait: David Lurey (SO2w1)"},
         {route:"beruehmte-anastasia-barner", label:"Portrait: Anastasia Barner (SO2w1)"},
+        {route:"beruehmte-jonathan-groff", label:"Porträt: Jonathan Groff (SO2w1)"},
       ])}
     </div>
   `);
@@ -832,7 +862,7 @@ export function junkoTabeiPortraitPage() {
 
         <h2 class="vb-section">1. Der Gorilla</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier der selbsterhaltenden Sieben &ndash; kr\xe4ftig, bodenst\xe4ndig, in sich ruhend, mit einer Ausdauer, die nicht auf spektakul\xe4re Gesten angewiesen ist. Junko Tabei, 1939 in Japan geboren, wurde 1975 als erste Frau bekannt, die den Gipfel des Mount Everest erreichte &ndash; und 1992 als erste Frau, die die &bdquo;Seven Summits&ldquo;, die h\xf6chsten Berge aller sieben Kontinente, bestieg.</p>
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist die tierische Entsprechung der selbsterhaltenden Sieben &ndash; kr\xe4ftig, bodenst\xe4ndig, in sich ruhend, mit einer Ausdauer, die nicht auf spektakul\xe4re Gesten angewiesen ist. Junko Tabei, 1939 in Japan geboren, wurde 1975 als erste Frau bekannt, die den Gipfel des Mount Everest erreichte &ndash; und 1992 als erste Frau, die die &bdquo;Seven Summits&ldquo;, die h\xf6chsten Berge aller sieben Kontinente, bestieg.</p>
           <p class="vb-intro">Ihr Everest-Aufstieg begann mit einer Beinahe-Katastrophe: Eine Lawine verschüttete ihr Lager auf 6.300 Metern, Tabei wurde bewusstlos ausgegraben &ndash; und erreichte wenige Tage sp\xe4ter dennoch den Gipfel. Sie starb 2016 an Krebs, nachdem sie bis kurz vor ihrem Tod weiter Berge bestiegen hatte.</p>
         </blockquote>
 
@@ -852,7 +882,7 @@ export function junkoTabeiPortraitPage() {
         <h2 class="vb-section">4. Nach dem Everest: Der stille zweite Teil</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Anders als man es von einer &bdquo;Rekordjägerin&ldquo; erwarten w\xfcrde, geriet Tabei nach ihrem Weltruhm nicht in st\xe4ndige Selbstinszenierung. Sie bestieg weiterhin systematisch die h\xf6chsten Berge aller Kontinente, ohne dabei den medialen Trubel zu suchen, und widmete sich zunehmend dem Umweltschutz &ndash; insbesondere der Vermüllung der Bergpfade am Everest, die durch den wachsenden Tourismus entstand.</p>
-          <p class="vb-intro">Sie studierte im hohen Alter noch Umweltwissenschaften und setzte sich f\xfcr den Schutz der Bergwelt ein, die ihr so viel gegeben hatte. Das ist die SE7w6 in ihrer reifsten Form: Die anf\xe4ngliche pers\xf6nliche Ausdauer wandelt sich in Verantwortung f\xfcr die Sache, die gr\xf6\xdfer ist als die eigene Leistung.</p>
+          <p class="vb-intro">Sie studierte im hohen Alter noch Umweltwissenschaften und setzte sich f\xfcr den Schutz der Bergwelt ein, die ihr so viel gegeben hatte. Darin zeigt sich die SE7w6 in ihrer reifsten Form: Die anf\xe4ngliche pers\xf6nliche Ausdauer wandelt sich in Verantwortung f\xfcr die Sache, die gr\xf6\xdfer ist als die eigene Leistung.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Bergsteigen bis zum Schluss</h2>
@@ -875,6 +905,7 @@ export function junkoTabeiPortraitPage() {
         {route:"beruehmte-larry-king", label:"Portr\xe4t: Larry King (SE7w6)"},
         {route:"krankheitsportraets-junko-tabei", label:"Krankheitsporträt: Junko Tabei (SE7w6) – Krebs und weitere Gipfel"},
         {route:"beruehmte-elton-john", label:"Porträt: Elton John (SE7w6)"},
+        {route:"beruehmte-dian-fossey", label:"Porträt: Dian Fossey (SE7w8)"},
         ])}
       </div>
     </div>
@@ -898,7 +929,7 @@ export function konradAdenauerPortraitPage() {
 
         <h2 class="vb-section">1. Der Adler \u00fcber den Tr\u00fcmmern</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins &ndash; er baut sein Nest hoch \u00fcber dem Boden, fernab von Chaos und Zufall, und \u00fcberblickt von dort sein Revier mit unbestechlicher Klarheit. Er handelt selten aus dem Impuls heraus; sein Flug ist berechnet, seine Beute sorgf\u00e4ltig anvisiert, sein Territorium mit \u00e4u\u00dferster Sorgfalt verteidigt.</p>
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Sinnbild der selbsterhaltenden Eins &ndash; er baut sein Nest hoch \u00fcber dem Boden, fernab von Chaos und Zufall, und \u00fcberblickt von dort sein Revier mit unbestechlicher Klarheit. Er handelt selten aus dem Impuls heraus; sein Flug ist berechnet, seine Beute sorgf\u00e4ltig anvisiert, sein Territorium mit \u00e4u\u00dferster Sorgfalt verteidigt.</p>
           <p class="vb-intro">Der deutsche Politiker Konrad Adenauer wurde 1876 in K\u00f6ln geboren, studierte Jura, wurde 1917 K\u00f6lner Oberb\u00fcrgermeister &ndash; ein Amt, das er mit disziplinierter Arbeitsmoral und gro\u00dfem st\u00e4dtebaulichem Weitblick ausf\u00fcllte, unter anderem mit der Anlage des K\u00f6lner Gr\u00fcng\u00fcrtels. 1933 wurde er von den Nationalsozialisten aus dem Amt gedr\u00e4ngt, mehrfach verhaftet, musste zeitweise untertauchen. Nach dem Krieg, im Alter von bereits 73 Jahren, begann seine eigentliche historische Rolle: 1949 wurde er erster Bundeskanzler der neu gegr\u00fcndeten Bundesrepublik Deutschland &ndash; und blieb es 14 Jahre lang, bis 1963.</p>
         </blockquote>
 
@@ -922,7 +953,7 @@ export function konradAdenauerPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE1w9 ist die F\u00e4higkeit, <strong>Prinzipientreue mit Geduld</strong> zu verbinden &ndash; eine Ordnung, die nicht erzwungen, sondern \u00fcber Jahre hinweg beharrlich und verl\u00e4sslich aufgebaut wird. Adenauers Verm\u00e4chtnis &ndash; eine stabile, im Westen verankerte Demokratie &ndash; verdankt sich genau dieser Mischung aus unbeirrbarer Prinzipientreue und der Bereitschaft, geduldig auf den richtigen Moment zu warten.</p>
+          <p class="vb-intro">Das Beste an der SE1w9 ist die F\u00e4higkeit, <strong>Prinzipientreue mit Geduld</strong> zu verbinden &ndash; eine Ordnung, die nicht erzwungen, sondern \u00fcber Jahre hinweg beharrlich und verl\u00e4sslich aufgebaut wird. Adenauers Verm\u00e4chtnis &ndash; eine stabile, im Westen verankerte Demokratie &ndash; verdankt sich genau dieser Mischung aus unbeirrbarer Prinzipientreue und der Bereitschaft, geduldig auf den richtigen Moment zu warten.</p>
           <p class="vb-intro">Der Schatten zeigte sich in seiner mitunter autorit\u00e4ren Amtsf\u00fchrung &ndash; Kritiker sprachen von einer &bdquo;Kanzlerdemokratie&ldquo;, in der Adenauer Entscheidungen zunehmend an Kabinett und Parlament vorbei traf. Auch sein Umgang mit der eigenen Nachfolge war von dieser Kontrollneigung gepr\u00e4gt: Er blieb deutlich l\u00e4nger im Amt, als es die eigene Partei f\u00fcr klug hielt, und tat sich schwer, Macht abzugeben. Die Kehrseite der selbsterhaltenden Eins mit Neunerfl\u00fcgel: Die Sorge um Stabilit\u00e4t kann in eine Unf\u00e4higkeit umschlagen, den eigenen R\u00fcckzug rechtzeitig und geordnet zu vollziehen.</p>
         </blockquote>
 
@@ -944,6 +975,7 @@ export function konradAdenauerPortraitPage() {
         {route:"subtype/se1", label:"SE1 \u2013 Der Adler: Subtyp-Profil"},
         {route:"beruehmte-queen-elizabeth-ii", label:"Portr\xe4t: Queen Elizabeth II. (SE1w9)"},
         {route:"beruehmte-helmut-kohl", label:"Portr\xe4t: Helmut Kohl (SE8w9) \u2013 Bundeskanzler"},
+        {route:"beruehmte-aristoteles", label:"Porträt: Aristoteles (SE1w9)"},
       ])}
     </div>
   `);
@@ -966,14 +998,14 @@ export function lindaLeinweberPortraitPage() {
 
         <h2 class="vb-section">1. Der Chihuahua, der hinschauen gelernt hat</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Chihuahua</strong> ist das Tier der sexuellen Vier: klein von Gestalt, gro\xdf im Innenleben, und mit einer Intensit\xe4t ausgestattet, die nichts Halbes kennt. Der Chihuahua liebt tief, f\xfchlt sch\xe4rfer als die meisten um ihn herum und l\xe4sst sich nicht einsch\xfcchtern &ndash; aber er ist auch empfindlich, verletzlich und auf Verbindung angewiesen wie kaum ein anderes Tier. Was er aufgebaut hat, sch\xfctzt er. Was er gef\xfchlt hat, vergisst er nicht. Und was er einmal verstanden hat, gibt er weiter.</p>
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist die tierische Entsprechung der sexuellen Vier: klein von Gestalt, gro\xdf im Innenleben, und mit einer Intensit\xe4t ausgestattet, die nichts Halbes kennt. Der Chihuahua liebt tief, f\xfchlt sch\xe4rfer als die meisten um ihn herum und l\xe4sst sich nicht einsch\xfcchtern &ndash; aber er ist auch empfindlich, verletzlich und auf Verbindung angewiesen wie kaum ein anderes Tier. Was er aufgebaut hat, sch\xfctzt er. Was er gef\xfchlt hat, vergisst er nicht. Und was er einmal verstanden hat, gibt er weiter.</p>
           <p class="vb-intro">Die deutsche Linda-Marlen Leinweber ist Psychologin, Autorin, Coach und Gr\xfcnderin der Online-Plattform Poise &ndash; und eine der prononciertesten deutschen Stimmen im Bereich mentale Gesundheit und Pr\xe4vention. Ihr Weg dorthin f\xfchrte nicht durch die Theorie, sondern durch das eigene Erleben: durch Jahre, in denen sie selbst sprachlos gegen\xfcber dem stand, was ihr K\xf6rper und ihre Psyche ihr mitteilten. Diese Biografie ist keine Randnotiz. Sie ist das Fundament.</p>
           <p class="vb-intro">Was Linda Leinweber von vielen anderen Psychologinnen und Coaches unterscheidet, ist diese Verbindung: Sie spricht nicht von au\xdfen \xfcber Schmerz. Sie spricht aus einem Inneren, das diesen Schmerz kennt &ndash; und das gelernt hat, ihn zu lesen. Das ist SX4w5: Tiefe, die sich nicht sch\xe4mt. Erkenntnis, die sich nicht versteckt.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Vier: Rivalit\xe4t gegen die Verharmlosung</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> ist in der Enneagramm-Tradition der Subtyp, der den Schmerz der Vier nicht nach innen tr\xe4gt, sondern nach au\xdfen wendet &ndash; als Intensit\xe4t, als Verlangen, als Feuer. Naranjo nannte diesen Subtyp <em>Rivalit\xe4t</em>: die brennende \xdcberzeugung, dass anderen etwas gegeben wurde, was einem selbst vorenthalten wurde &ndash; und der Antrieb, dagegen anzutreten, \xfcbertreffen zu wollen, sich zu beweisen. Bei der SX4 bleibt dieser Antrieb nicht abstrakt. Er richtet sich auf etwas Konkretes &ndash; auf einen Menschen, auf ein System, auf eine Ungerechtigkeit.</p>
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> ist in der Enneagramm-Tradition der Subtyp, der den Schmerz der Vier nicht nach innen tr\xe4gt, sondern nach au\xdfen wendet &ndash; als Intensit\xe4t, als Verlangen, als Feuer. Dieser Subtyp trägt bei Naranjo den Namen <em>Rivalit\xe4t</em>: die brennende \xdcberzeugung, dass anderen etwas gegeben wurde, was einem selbst vorenthalten wurde &ndash; und der Antrieb, dagegen anzutreten, \xfcbertreffen zu wollen, sich zu beweisen. Bei der SX4 bleibt dieser Antrieb nicht abstrakt. Er richtet sich auf etwas Konkretes &ndash; auf einen Menschen, auf ein System, auf eine Ungerechtigkeit.</p>
           <p class="vb-intro">Bei Linda Leinweber hat sich diese Energie einen klaren Gegner gesucht: die Verharmlosung psychischer Not. Die Vorstellung, dass Angst und Panik \xfcberwindbar seien, wenn man sich nur mehr zusammenrei\xdft. Die Idee, dass Burnout eine Frage der Disziplin sei und nicht des Systems. Dass Pr\xe4vention Luxus sei und nicht Vernunft. Gegen diese Haltung &ndash; die sie nicht zuletzt an sich selbst erlebt hat, in den Jahren mit Panikattacken und Ersch\u00f6pfung &ndash; richtet sie ihre Arbeit wie ein Gegengewicht.</p>
           <p class="vb-intro">Die eigene Krise war der Wendepunkt. Linda Leinweber war bereits als Model t\xe4tig, hatte Psychologie in K\xf6ln und Berlin studiert, als sie am eigenen Leib erlebte, was es bedeutet, wenn das Nervensystem kollabiert: Panikattacken, Druck, das Gef\xfchl, in einem Hamsterrad zu sitzen, das sie selbst aufgebaut hatte. Diese Erfahrung hat sie nicht begraben. Sie hat sie zur Grundlage ihrer gesamten beruflichen Ausrichtung gemacht. Das ist SX4: Der Schmerz wird nicht verwaltet. Er wird zum Kompass.</p>
         </blockquote>
@@ -982,7 +1014,7 @@ export function lindaLeinweberPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>F\xfcnferfl\xfcgel (w5)</strong> bringt der sexuellen Vier etwas Entscheidendes: den analytischen Blick, den Hunger nach Verst\xe4ndnis, die F\xe4higkeit, das eigene Erleben nicht nur zu f\xfchlen, sondern zu durchdringen. Die SX4 allein k\xf6nnte in der Intensit\xe4t des eigenen Empfindens stecken bleiben &ndash; der F\xfcnferfl\xfcgel zieht sie in die Beobachtung, in die Theorie, in das Handwerk. Er sagt: <em>F\xfchlen reicht nicht &ndash; man muss auch verstehen.</em></p>
           <p class="vb-intro">Linda Leinwebers Ausbildungsweg tr\xe4gt diese Handschrift: Psychologiestudium, systemische Organisationsberatung, zertifiziertes Coaching, Hypnosetherapie. Das ist keine Sammlung von Zertifikaten &ndash; das ist ein F\xfcnferfl\xfcgel, der von einem Werkzeug zum n\xe4chsten wandert, weil keines allein ausreicht. Die Hypnosetherapie f\xe4llt dabei besonders auf: Sie setzt dort an, wo klassische Gespr\xe4chstherapie an ihre Grenzen st\xf6\xdft &ndash; im tiefen Unterbewusstsein, im K\xf6rperged\xe4chtnis, in den Mustern, die sich nicht durch Einsicht allein aufl\xf6sen lassen. Wer diesen Weg geht, denkt in Tiefen.</p>
-          <p class="vb-intro">Der F\xfcnferfl\xfcgel zeigt sich auch in Leinwebers Publikationsarbeit. Ihr Buch <em>Frei und trotzdem verbunden</em> &ndash; ein Titel, der selbst schon ein Paradox denkt &ndash; widmet sich Beziehungsdynamiken, Bindungsmustern und Konfliktl\xf6sungen. Das ist kein Ratgeberbuch im klassischen Sinne: kein &bdquo;10 Schritte zur besseren Beziehung&ldquo;, sondern ein Versuch zu verstehen, warum Menschen in immer denselben Mustern stecken &ndash; und was es braucht, um herauszufinden. Das ist die SX4w5 in ihrem besten Element: Tiefe, die anderen n\xfctzt.</p>
+          <p class="vb-intro">Der F\xfcnferfl\xfcgel zeigt sich auch in Leinwebers Publikationsarbeit. Ihr Buch <em>Frei und trotzdem verbunden</em> &ndash; ein Titel, der selbst schon ein Paradox denkt &ndash; widmet sich Beziehungsdynamiken, Bindungsmustern und Konfliktl\xf6sungen. Das ist kein Ratgeberbuch im klassischen Sinne: kein &bdquo;10 Schritte zur besseren Beziehung&ldquo;, sondern ein Versuch zu verstehen, warum Menschen in immer denselben Mustern stecken &ndash; und was es braucht, um herauszufinden. Hier wirkt die SX4w5 in ihrem besten Element: Tiefe, die anderen n\xfctzt.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Poise und die Vision der Pr\xe4vention</h2>
@@ -1003,7 +1035,7 @@ export function lindaLeinweberPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Heilungsweg der Vier f\xfchrt von der Frage <em>Warum bin ich nicht wie die anderen?</em> zur Erkenntnis <em>Das, was ich bin, ist einmalig &ndash; und es ist meins.</em> F\xfcr die SX4w5 bedeutet das, die eigene Intensit\xe4t nicht zu temperieren, sondern zu richten &ndash; nicht gegen sich selbst, nicht gegen die Welt, sondern auf das, was m\xf6glich ist.</p>
           <p class="vb-intro">Linda Leinweber hat diesen Weg in ihrer Biografie beschritten. Vom eigenen Erleben der Panikattacken zur fundierten Ausbildung, von der Ausbildung zur Plattform, von der Plattform zur \xf6ffentlichen Stimme f\xfcr mentale Gesundheit. Das ist kein Selbstoptimierungsprojekt. Das ist eine Vier, die gelernt hat, ihr Inneres nicht zu verstecken, sondern zu tragen &ndash; und die dieses Tragen in ein Handwerk verwandelt hat, das anderen n\xfctzt.</p>
-          <p class="vb-intro">Der Chihuahua aus Altm\xfcnster am Traunsee hat keine Angst vor gro\xdfen Gef\xfchlen. Er hat gelernt, sie zu lesen. Das ist die sexuelle Vier mit F\xfcnferfl\xfcgel. Das ist Linda Leinweber.</p>
+          <p class="vb-intro">Der Chihuahua aus Altm\xfcnster am Traunsee hat keine Angst vor gro\xdfen Gef\xfchlen. Er hat gelernt, sie zu lesen. Hier zeigt sich die sexuelle Vier mit F\xfcnferfl\xfcgel. Das ist Linda Leinweber.</p>
         </blockquote>
 
       </div>
@@ -1043,7 +1075,7 @@ export function mariacarlaBosconoPortraitPage() {
 
         <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge durch eine einzige, tiefe kreative Bindung</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Nähe entsteht zuerst in einer einzigen, sehr engen Verbindung, bevor sie sich nach außen ausweitet. Ab 2005 begann Boscono eine Zusammenarbeit mit Designer und bestem Freund Riccardo Tisci, die dabei half, die ästhetische Identität von Givenchy mitzuprägen, bis Tisci das Haus 2017 verließ.</p>
+          <p class="vb-intro">Bei Naranjo heißt die <strong>selbsterhaltende Zwei (SE2)</strong> <em>Me First</em>: Nähe entsteht zuerst in einer einzigen, sehr engen Verbindung, bevor sie sich nach außen ausweitet. Ab 2005 begann Boscono eine Zusammenarbeit mit Designer und bestem Freund Riccardo Tisci, die dabei half, die ästhetische Identität von Givenchy mitzuprägen, bis Tisci das Haus 2017 verließ.</p>
           <p class="vb-intro">Diese Partnerschaft ging weit über eine gewöhnliche Muse-Designer-Beziehung hinaus – Boscono wurde über mehr als ein Jahrzehnt zur festen, verlässlichen kreativen Bezugsperson für Tisci, sowohl bei Givenchy als auch später bei Burberry. Fürsorge, ausgedrückt durch jahrelange, treue kreative Präsenz an der Seite eines einzigen engen Vertrauten.</p>
         </blockquote>
 
@@ -1056,7 +1088,7 @@ export function mariacarlaBosconoPortraitPage() {
         <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SE2w3 liegt in der Fähigkeit, eine einzige, tiefe kreative Partnerschaft – mit Riccardo Tisci – über mehr als ein Jahrzehnt zu tragen und gleichzeitig zu einer der international sichtbarsten Musen der Modewelt zu werden, ohne diese enge Bindung dafür aufzugeben.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, für den kreativen Erfolg eines anderen unentbehrlich zu sein. Bei der SE2w3 kann sich das mit einer Identität verbinden, die eng an eine einzige zentrale Beziehung gebunden bleibt – eine Stärke, solange diese Beziehung Bestand hat, aber auch eine Verwundbarkeit, sollte sie einmal enden, wie sich 2017 mit Tiscis Weggang von Givenchy zeigte.</p>
+          <p class="vb-intro">Der Antrieb der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, für den kreativen Erfolg eines anderen unentbehrlich zu sein. Bei der SE2w3 kann sich das mit einer Identität verbinden, die eng an eine einzige zentrale Beziehung gebunden bleibt – eine Stärke, solange diese Beziehung Bestand hat, aber auch eine Verwundbarkeit, sollte sie einmal enden, wie sich 2017 mit Tiscis Weggang von Givenchy zeigte.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Das Werk: Von Festivalbar 1995 zur Muse zweier Modehäuser</h2>
@@ -1096,7 +1128,7 @@ export function melanieKreisPortraitPage() {
 
         <h2 class="vb-section">1. Das Erdm\xe4nnchen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Erdm\xe4nnchen</strong> lebt in Gruppen, die ohne Zusammenhalt nicht \xfcberleben k\xf6nnen. Es ist wachsam, kooperativ und kennt seine Aufgabe im Kollektiv. Immer h\xe4lt eines Wache, w\xe4hrend die anderen fressen, graben, spielen. Das Erdm\xe4nnchen selbst braucht kein Rampenlicht &ndash; es braucht die Gruppe. Und die Gruppe braucht es. Das ist die soziale Sechs: Sicherheit entsteht durch Zugeh\xf6rigkeit, durch verl\xe4ssliches Dienen, durch das Wissen, dass man seinen Platz erf\xfcllt.</p>
+          <p class="vb-intro">Das <strong>Erdm\xe4nnchen</strong> lebt in Gruppen, die ohne Zusammenhalt nicht \xfcberleben k\xf6nnen. Es ist wachsam, kooperativ und kennt seine Aufgabe im Kollektiv. Immer h\xe4lt eines Wache, w\xe4hrend die anderen fressen, graben, spielen. Das Erdm\xe4nnchen selbst braucht kein Rampenlicht &ndash; es braucht die Gruppe. Und die Gruppe braucht es. Darin zeigt sich die soziale Sechs: Sicherheit entsteht durch Zugeh\xf6rigkeit, durch verl\xe4ssliches Dienen, durch das Wissen, dass man seinen Platz erf\xfcllt.</p>
           <p class="vb-intro">Die deutsche Managerin Melanie Kreis ist CFO der DHL Group &ndash; einem der gr\xf6\xdften Logistikkonzerne der Welt. Sie verantwortet die Finanzen eines DAX-Unternehmens mit Ums\xe4tzen in Milliardenh\u00f6he und Mitarbeitern in \xfcber 220 L\xe4ndern. Und doch: Wenn Journalisten sie beschreiben, f\xe4llt selten das Wort Ego. Sie wird beschrieben als zuverl\xe4ssig, pr\xe4zise, analytisch &ndash; und als jemand, der f\xfcr den Konzern arbeitet, nicht f\xfcr den eigenen Auftritt. Das ist das Erdm\xe4nnchen: Es h\xe4lt Wache. Nicht f\xfcr sich. F\xfcr die Gruppe.</p>
         </blockquote>
 
@@ -1104,14 +1136,14 @@ export function melanieKreisPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 6 die <strong>Pflicht</strong> &ndash; weil Sicherheit f\xfcr diesen Subtyp daraus entsteht, einen Beitrag zu leisten, dem Kollektiv zu dienen, gebraucht zu werden. Die <strong>soziale Sechs (SO6)</strong> folgt Strukturen nicht blind &ndash; sie versteht sie als Rahmen, der Verl\xe4sslichkeit schafft. Regeln, Systeme, Verantwortlichkeiten: Dinge, auf die man sich beziehen kann. Die SO6 sucht nicht die B\xfchne. Sie sucht die Aufgabe.</p>
           <p class="vb-intro">Kreis hat ihre Karriere nicht als Sprung nach oben geplant, sondern als Reihe von Verantwortlichkeiten, die sie \xfcbernommen hat. 1997 begann sie bei McKinsey &amp; Company &ndash; einem Ort, der analytische Sorgfalt und strukturiertes Denken verlangt. 2004 wechselte sie zur Deutschen Post AG, wo sie in der Konzernentwicklung arbeitete und ma\xdfgeblich an der Integration der \xfcbernommenen Exel-Gruppe beteiligt war. 2014 \xfcbernahm sie Personalverantwortung im Vorstand, 2016 wurde sie Finanzvorst\xe4ndin. Kein Schritt davon war ein PR-Move. Jeder Schritt war eine Erweiterung der Verantwortung.</p>
-          <p class="vb-intro">Dass sie als eine der wenigen Frauen an der Spitze eines DAX-40-Konzerns steht, sagt sie selbst selten laut. Es ist einfach so &ndash; ein Nebenprodukt der Arbeit, nicht ihr Ziel. Das ist die SO6: Wer seinen Platz wirklich ausf\xfcllt, muss nicht dar\xfcber reden.</p>
+          <p class="vb-intro">Dass sie als eine der wenigen Frauen an der Spitze eines DAX-40-Konzerns steht, sagt sie selbst selten laut. Es ist einfach so &ndash; ein Nebenprodukt der Arbeit, nicht ihr Ziel. Hier wirkt die SO6: Wer seinen Platz wirklich ausf\xfcllt, muss nicht dar\xfcber reden.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der F\xfcnferfl\xfcgel: Analyse als Fundament</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>F\xfcnferfl\xfcgel (w5)</strong> bringt der sozialen Sechs etwas Entscheidendes: analytische Tiefe, Pr\xe4zision und das Vertrauen in Wissen als Grundlage jeder Entscheidung. Wo eine SO6 mit schw\xe4cherem F\xfcnferfl\xfcgel Sicherheit durch Zugeh\xf6rigkeit sucht, f\xfcgt ein stark ausgepr\xe4gter F\xfcnferfl\xfcgel eine weitere Schicht hinzu &ndash; die \xdcberzeugung, dass man nur dann verl\xe4sslich f\xfcr andere sein kann, wenn man die Dinge wirklich versteht. Die SO6w5 pr\xfcft, bevor sie vertraut. Und sie vertraut, wenn die Analyse stimmt.</p>
           <p class="vb-intro">Kreis hat Physik studiert &ndash; zuerst an der Westf\xe4lischen Wilhelms-Universit\xe4t M\xfcnster, dann mit einem Master of Science an der State University of New York at Stony Brook. Physik ist das Fach der Pr\xe4zision: keine Annahme ohne Beweis, kein Modell ohne Verifikation. Anschlie\xdfend erg\xe4nzte sie ihren Horizont durch einen MBA am INSEAD in Frankreich. Zwei Welten: das exakte Denken der Naturwissenschaften und das strategische Denken der Wirtschaft. Diese Kombination hat System &ndash; sie ist die SO6w5 in Ausbildung: Erst verstehen. Dann handeln. Dann verl\xe4sslich sein.</p>
-          <p class="vb-intro">In Gesch\xe4ftsberichten, Analystenkonferenzen und Investorengespr\xe4chen ist Kreis bekannt f\xfcr eine Sprache, die klar und n\xfcchtern bleibt. Keine \xdcbertreibungen, keine leeren Versprechen. Das ist der F\xfcnferfl\xfcgel als Kommunikationsprinzip: Sag, was du wei\u00dft. Und sag es pr\xe4zise.</p>
+          <p class="vb-intro">In Gesch\xe4ftsberichten, Analystenkonferenzen und Investorengespr\xe4chen ist Kreis bekannt f\xfcr eine Sprache, die klar und n\xfcchtern bleibt. Keine \xdcbertreibungen, keine leeren Versprechen. Hier zeigt sich der F\xfcnferfl\xfcgel als Kommunikationsprinzip: Sag, was du wei\u00dft. Und sag es pr\xe4zise.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Das Werk: Von der Physik zum DAX-Konzern</h2>
@@ -1122,7 +1154,7 @@ export function melanieKreisPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten: Die W\xe4chterin im Vorstand</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO6w5 ist ihre <strong>Integrit\xe4t</strong>. Kreis hat in einem Umfeld re\xfcssiert, das Frauen in F\xfchrungspositionen nach wie vor strukturell erschwert &ndash; nicht durch laute Selbstdarstellung, sondern durch beharrliche Kompetenz. Sie ist Vorbild, ohne es anzustreben. Pr\xe4sent, ohne aufzufallen. Wirksam, ohne zu poltern. Das ist die SO6: Stabilit\xe4t als Botschaft, Verl\xe4sslichkeit als F\xfchrungsprinzip.</p>
+          <p class="vb-intro">Das Licht der SO6w5 ist ihre <strong>Integrit\xe4t</strong>. Kreis hat in einem Umfeld re\xfcssiert, das Frauen in F\xfchrungspositionen nach wie vor strukturell erschwert &ndash; nicht durch laute Selbstdarstellung, sondern durch beharrliche Kompetenz. Sie ist Vorbild, ohne es anzustreben. Pr\xe4sent, ohne aufzufallen. Wirksam, ohne zu poltern. Darin zeigt sich die SO6: Stabilit\xe4t als Botschaft, Verl\xe4sslichkeit als F\xfchrungsprinzip.</p>
           <p class="vb-intro">Der Schatten der SO6w5 liegt in der Gefahr, sich zu sehr an bestehende Strukturen zu binden &ndash; und Ver\xe4nderung als Bedrohung zu erleben, statt als Gestaltungsraum. Ein globaler Logistikkonzern bewegt sich in einer Welt rasanter Transformation: Digitalisierung, Automatisierung, geopolitische Unsicherheiten, der Wandel ganzer Lieferketten. Die SO6 kann in solchen Momenten zu sehr auf das Bew\xe4hrte setzen. Und der F\xfcnferfl\xfcgel kann dazu neigen, sich in Analyse zu verlieren, statt zu entscheiden. Die Spannung zwischen Gr\xfcndlichkeit und Geschwindigkeit ist das innere Terrain der SO6w5 in der F\xfchrungsrolle.</p>
           <p class="vb-intro">Wer Melanie Kreis \xf6ffentlich beobachtet, sieht keine solchen Z\xf6germomente. Was man sieht, ist eine Frau, die wei\xdf, was sie tut. Und die wei\xdf, warum.</p>
         </blockquote>
@@ -1130,7 +1162,7 @@ export function melanieKreisPortraitPage() {
         <h2 class="vb-section">6. Das Erdm\xe4nnchen, das Wache h\xe4lt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Melanie Kreis ist kein Name, der in Talkshows auftaucht. Sie gibt selten Interviews, die \xfcber das Fachliche hinausgehen. Sie schreibt keine Bestseller \xfcber F\xfchrung und Resilienz. Sie h\xe4lt Wache &ndash; f\xfcr einen der gr\xf6\xdften Logistikkonzerne der Welt, der t\xe4glich Millionen von Paketen und Briefen bewegt und dabei auf pr\xe4zise Finanzkontrolle angewiesen ist wie auf Luft.</p>
-          <p class="vb-intro">Das ist die SO6w5: kein Mensch der gro\xdfen Geste, aber einer der gro\xdfen Verl\xe4sslichkeit. Eine, die das System versteht &ndash; und deshalb darin gestalten kann. Eine, die analysiert, bevor sie entscheidet. Eine, die Verantwortung tr\xe4gt, ohne davon zu sprechen. Das Erdm\xe4nnchen h\xe4lt Wache. Leise. Pr\xe4zise. Unbedingt.</p>
+          <p class="vb-intro">Hier wirkt die SO6w5: kein Mensch der gro\xdfen Geste, aber einer der gro\xdfen Verl\xe4sslichkeit. Eine, die das System versteht &ndash; und deshalb darin gestalten kann. Eine, die analysiert, bevor sie entscheidet. Eine, die Verantwortung tr\xe4gt, ohne davon zu sprechen. Das Erdm\xe4nnchen h\xe4lt Wache. Leise. Pr\xe4zise. Unbedingt.</p>
         </blockquote>
 
       </div>
@@ -1141,6 +1173,7 @@ export function melanieKreisPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
         {route:"subtype/so6", label:"SO6 \u2013 Das Erdm\xe4nnchen: Subtyp-Profil"},
         {route:"beruehmte-sigmund-freud", label:"Portr\xe4t: Sigmund Freud (SO6w5)"},
+        {route:"beruehmte-donata-hopfen", label:"Porträt: Donata Hopfen (SO6w7)"},
       ])}
     </div>
   `);
@@ -1169,8 +1202,8 @@ export function muhammadAliPortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Zwei: Der eigene Ruhm im Dienst einer ganzen Gemeinschaft</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> lenkt ihre Fürsorge nicht auf einzelne Beziehungen, sondern auf gesellschaftliche Wirksamkeit. Naranjo nannte diesen Subtyp <em>Ambition</em>: den Antrieb, durch Einfluss und öffentliche Präsenz für ein ganzes Kollektiv zu sorgen. Alis berühmter Ausspruch <em>Warum sollten sie mich bitten, eine Uniform anzuziehen und zehntausend Meilen von zu Hause entfernt Bomben auf braune Menschen in Vietnam zu werfen, während sogenannte Neger in Louisville wie Hunde behandelt und ihnen einfachste Menschenrechte verweigert werden?</em> macht diesen Antrieb explizit: Sein Widerstand galt nicht der eigenen Sicherheit, sondern der Ungerechtigkeit gegenüber einer ganzen Bevölkerungsgruppe.</p>
-          <p class="vb-intro">1974 kämpfte Ali beim legendären <em>Rumble in the Jungle</em> in Kinshasa, Zaire, gegen George Foreman um den Weltmeistertitel zurück &ndash; ein Ereignis, das weit über den Sport hinausging und als Feier schwarzen Selbstbewusstseins und schwarzer Größe verstanden wurde. Ali nutzte seine Bühne, wo immer er konnte, um eine ganze Gemeinschaft sichtbar zu machen, nicht nur sich selbst.</p>
+          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> lenkt ihre Fürsorge nicht auf einzelne Beziehungen, sondern auf gesellschaftliche Wirksamkeit. Nach Naranjo steht dieser Subtyp für <em>Ambition</em>: den Antrieb, durch Einfluss und öffentliche Präsenz für ein ganzes Kollektiv zu sorgen. Alis berühmter Ausspruch <em>Warum sollten sie mich bitten, eine Uniform anzuziehen und zehntausend Meilen von zu Hause entfernt Bomben auf braune Menschen in Vietnam zu werfen, während sogenannte Neger in Louisville wie Hunde behandelt und ihnen einfachste Menschenrechte verweigert werden?</em> macht diesen Antrieb explizit: Sein Widerstand galt nicht der eigenen Sicherheit, sondern der Ungerechtigkeit gegenüber einer ganzen Bevölkerungsgruppe.</p>
+          <p class="vb-intro">1974 kämpfte Ali beim legendären <em>Rumble in the Jungle</em> in Kinshasa, Zaire, gegen George Foreman, um den Weltmeistertitel zurückzugewinnen &ndash; ein Ereignis, das weit über den Sport hinausging und als Feier schwarzen Selbstbewusstseins und schwarzer Größe verstanden wurde. Ali nutzte seine Bühne, wo immer er konnte, um eine ganze Gemeinschaft sichtbar zu machen, nicht nur sich selbst.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Einserflügel: Prinzipientreue trotz höchstem persönlichen Preis</h2>
@@ -1202,7 +1235,14 @@ export function muhammadAliPortraitPage() {
         {route:"beruehmte-bob-marley", label:"Portrait: Bob Marley (SO2w1)"},
         {route:"beruehmte-alexander-gerst", label:"Portrait: Alexander Gerst (SO2w1)"},
         {route:"krankheitsportraets-muhammad-ali", label:"Krankheitsporträt: Muhammad Ali (SO2w1)"},
+        {route:"beruehmte-don-king", label:"Porträt: Don King (SE7w8)"},
         {route:"bibel-jesus", label:"Bibel-Porträt: Jesus (SO2w1)"},
+        {route:"beruehmte-vitali-klitschko", label:"Boxer-Porträt: Vitali Klitschko (SE7w8)"},
+        {route:"beruehmte-floyd-mayweather", label:"Boxer-Porträt: Floyd Mayweather Jr. (SO2w3)"},
+        {route:"beruehmte-wladimir-klitschko", label:"Boxer-Porträt: Wladimir Klitschko (SE1w9)"},
+        {route:"beruehmte-henry-maske", label:"Boxer-Porträt: Henry Maske (SE1w9)"},
+        {route:"beruehmte-mike-tyson", label:"Boxer-Porträt: Mike Tyson (SE7w8)"},
+        {route:"beruehmte-max-schmeling", label:"Boxer-Porträt: Max Schmeling (SE1w9)"},
       ])}
     </div>
   `);
@@ -1239,7 +1279,7 @@ export function pamelaReifPortraitPage() {
         <h2 class="vb-section">3. Der Dreierfl\u00fcgel: Perfektion als Liebesbeweis</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Dreierfl\u00fcgel (w3)</strong> bringt der leidenschaftlichen Verbindungsenergie der SX2 eine zweite Dimension: Leistung, Bild, Qualit\u00e4t. Die Drei will nicht nur verbinden &ndash; sie will <em>gl\u00e4nzen</em>. Sie will, dass das, was sie gibt, auch so gut ist, dass es gesehen wird. Bei Pamela Reif zeigt sich das in der au\u00dfergew\u00f6hnlichen Qualit\u00e4t ihrer Inhalte: pr\u00e4zise produziert, \u00e4sthetisch stimmig, handwerklich durchdacht. Jedes Video, jede Kollaboration, jede Seite der App tr\u00e4gt die Handschrift eines Menschen, der Exzellenz nicht als Selbstdarstellung, sondern als Respekt dem Publikum gegen\u00fcber versteht.</p>
-          <p class="vb-intro">Der Dreierfl\u00fcgel ist auch der Grund, warum Pamela Reif nicht nur bei einer Sache bleibt. Die Drei diversifiziert, expandiert, entwickelt &ndash; immer mit dem Ziel, den Kreis derer zu erweitern, die sie erreichen kann. App, Buch, Marke, Kooperation: Das ist kein Eitelkeitsprojekt, das ist die SX2w3 bei der Arbeit &ndash; je gr\u00f6\u00dfer die Reichweite, desto mehr Menschen kann die Verbindungssehnsucht erf\u00fcllen.</p>
+          <p class="vb-intro">Der Dreierfl\u00fcgel ist auch der Grund, warum Pamela Reif nicht nur bei einer Sache bleibt. Die Drei diversifiziert, expandiert, entwickelt &ndash; immer mit dem Ziel, den Kreis derer zu erweitern, die sie erreichen kann. App, Buch, Marke, Kooperation: Das ist kein Eitelkeitsprojekt, hier zeigt sich die SX2w3 bei der Arbeit &ndash; je gr\u00f6\u00dfer die Reichweite, desto mehr Menschen kann die Verbindungssehnsucht erf\u00fcllen.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Gesamtwirkung: Stille Kraft, die bewegt</h2>
@@ -1257,7 +1297,7 @@ export function pamelaReifPortraitPage() {
         <h2 class="vb-section">6. Das Geschenk: Fitnessinhalte als Beziehungsangebot</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Pamela Reif der Welt gibt, ist mehr als Fitness. Sie hat einer Generation gezeigt, dass der eigene K\u00f6rper kein Feind ist, den man bezwingen muss, sondern ein Zuhause, das man einladen kann &ndash; mit W\u00fcrde, mit Ausdauer, mit Freude. <em>You Deserve This</em> ist nicht nur ein Buchtitel: Es ist die Botschaft der SX2w3 an alle, die das Gef\u00fchl kennen, f\u00fcr F\u00fcrsorge erst etwas leisten zu m\u00fcssen.</p>
-          <p class="vb-intro">Das Kamel kennt die W\u00fcste. Es wei\u00df, wie man tr\u00e4gt. Und es wei\u00df, dass auch die l\u00e4ngste Reise einen Moment hat, in dem man ankommt &ndash; und einfach dankbar ist, nicht allein gewesen zu sein. Das ist Pamela Reif. Das ist die SX2w3 auf ihrer h\u00f6chsten Ausdrucksstufe.</p>
+          <p class="vb-intro">Das Kamel kennt die W\u00fcste. Es wei\u00df, wie man tr\u00e4gt. Und es wei\u00df, dass auch die l\u00e4ngste Reise einen Moment hat, in dem man ankommt &ndash; und einfach dankbar ist, nicht allein gewesen zu sein. Das ist Pamela Reif. Darin zeigt sich die SX2w3 auf ihrer h\u00f6chsten Ausdrucksstufe.</p>
         </blockquote>
 
       </div>
@@ -1270,6 +1310,8 @@ export function pamelaReifPortraitPage() {
         {route:"beruehmte-monika-gruber", label:"Portr\u00e4t: Monika Gruber (SX2w1)"},
         {route:"beruehmte-matthias-schweighoefer", label:"Portr\u00e4t: Matthias Schweigh\u00f6fer (SX2w1)"},
         {route:"beruehmte-anastasiia-metelkina", label:"Portr\u00e4t: Anastasiia Metelkina (SX2w3)"},
+        {route:"beruehmte-elvis-presley", label:"Porträt: Elvis Presley (SX2w3)"},
+        {route:"beruehmte-sammy-davis-jr", label:"Porträt: Sammy Davis Jr. (SX2w3)"},
       ])}
     </div>
   `);
@@ -1316,7 +1358,7 @@ export function reinholdWuerthPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Eins</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Im Licht zeigt sich bei Würth eine seltene Kombination aus unternehmerischer Konsequenz und stiller Genügsamkeit – ein Milliardär, der sein Vermögen überwiegend in Substanz investierte, nicht in Repräsentation, und der frühzeitig eine Nachfolgeregelung traf, die sein Lebenswerk vor Zerfall nach seinem Tod schützen soll.</p>
+          <p class="vb-intro">Positiv zeigt sich bei Würth eine seltene Kombination aus unternehmerischer Konsequenz und stiller Genügsamkeit – ein Milliardär, der sein Vermögen überwiegend in Substanz investierte, nicht in Repräsentation, und der frühzeitig eine Nachfolgeregelung traf, die sein Lebenswerk vor Zerfall nach seinem Tod schützen soll.</p>
           <p class="vb-intro">Im Schatten zeigt sich die Kehrseite, die für die selbsterhaltende Eins typisch ist: ein hoher, oft unausgesprochener Erwartungsdruck an die eigene Umgebung und das eigene Unternehmen, verbunden mit einer Neigung, Kontrolle nicht abzugeben, selbst wenn formale Übergaben – wie die frühe Einbringung in die Familienstiftung – bereits erfolgt sind. Der Neunerflügel kann dabei auch bedeuten, notwendige Konflikte zu lange zu vermeiden, aus Sorge, die mühsam aufgebaute Ordnung zu gefährden.</p>
         </blockquote>
 
@@ -1358,13 +1400,13 @@ export function scarlettJohanssonPortraitPage() {
 
         <h2 class="vb-section">1. Der Wolf</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; ein Tier von enormer Pr\u00e4senz, das genau sp\u00fcrt, wann es N\u00e4he zulassen kann und wann es sein Territorium verteidigen muss. Der Wolf zeigt selten Schw\u00e4che nach au\u00dfen. Er tr\u00e4gt seine Wachsamkeit in der Haltung, im Blick, in der Art, wie er einen Raum betritt &ndash; nicht laut, aber un\u00fcbersehbar.</p>
+          <p class="vb-intro">Der <strong>Wolf</strong> ist die tierische Entsprechung des sexuellen Typs 6 &ndash; ein Tier von enormer Pr\u00e4senz, das genau sp\u00fcrt, wann es N\u00e4he zulassen kann und wann es sein Territorium verteidigen muss. Der Wolf zeigt selten Schw\u00e4che nach au\u00dfen. Er tr\u00e4gt seine Wachsamkeit in der Haltung, im Blick, in der Art, wie er einen Raum betritt &ndash; nicht laut, aber un\u00fcbersehbar.</p>
           <p class="vb-intro">Die US-amerikanische Schauspielerin Scarlett Johansson, geboren 1984 in New York City, ist dieser Wolf. Seit ihrem Deb\u00fct als Kind in <em>The Horse Whisperer</em> und ihrem Durchbruch mit <em>Lost in Translation</em> (2003) hat sie sich als eine der intensivsten Pr\u00e4senzen des Weltkinos etabliert &ndash; eine Schauspielerin, die selten viel sagen muss, um einen Raum zu f\u00fcllen. Diese Intensit\u00e4t kommt nicht von ungef\u00e4hr. Sie ist die Signatur des Wolfes: eine Kraft, die sp\u00fcrbar ist, bevor ein Wort f\u00e4llt.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Sechs: St\u00e4rke als Schutzschild</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs &ndash; der Subtyp, in dem die Leidenschaft der Angst und des Zweifels am wenigsten sichtbar ist, weil sie in ihr Gegenteil verkehrt wird. Statt sich zur\u00fcckzuziehen, tritt die SX6 nach vorn. <em>Wenn ich stark genug wirke, kann mir niemand zu nahe kommen.</em> Naranjo nannte diesen Subtyp <em>St\u00e4rke</em>: Die SX6 begegnet der eigenen Verletzlichkeit, indem sie eine Fassade von Unangreifbarkeit errichtet.</p>
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs &ndash; der Subtyp, in dem die Leidenschaft der Angst und des Zweifels am wenigsten sichtbar ist, weil sie in ihr Gegenteil verkehrt wird. Statt sich zur\u00fcckzuziehen, tritt die SX6 nach vorn. <em>Wenn ich stark genug wirke, kann mir niemand zu nahe kommen.</em> Diesen Subtyp nannte Naranjo <em>St\u00e4rke</em>: Die SX6 begegnet der eigenen Verletzlichkeit, indem sie eine Fassade von Unangreifbarkeit errichtet.</p>
           <p class="vb-intro">Bei Johansson zeigt sich das in einer Karriere voller Rollen, die genau diese Spannung verk\u00f6rpern: die k\u00fchle, t\u00f6dlich pr\u00e4zise Black Widow im Marvel Cinematic Universe, die selbstbewusste Femme fatale in <em>Match Point</em>, die kontrollierte KI-Stimme in <em>Her</em>, deren emotionale Tiefe sich nur in Nuancen zeigt. Immer wieder Figuren, die St\u00e4rke performen, w\u00e4hrend darunter etwas Verletzliches, Suchendes liegt &ndash; genau das Muster der SX6, das Innere hinter einer R\u00fcstung aus Pr\u00e4senz zu verbergen.</p>
           <p class="vb-intro">Auch privat hat Johansson ihr Rudel klein und gesch\u00fctzt gehalten. Trotz jahrzehntelanger globaler Bekanntheit hat sie ihr Privatleben &ndash; drei Ehen, ihre Tochter und ihren Sohn &ndash; konsequent aus dem Blitzlicht ferngehalten, soweit das f\u00fcr einen der bekanntesten Filmstars der Welt m\u00f6glich ist. Der Wolf gibt nur preis, was er selbst entscheidet preiszugeben.</p>
         </blockquote>
@@ -1384,12 +1426,12 @@ export function scarlettJohanssonPortraitPage() {
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SX6w7 ist ihre F\u00e4higkeit, unter Druck Pr\u00e4senz zu zeigen &ndash; die Bereitschaft, sich physisch und emotional in eine Rolle zu werfen, ohne sich zu schonen. Johanssons Trainingsintensit\u00e4t f\u00fcr actionlastige Rollen, ihre Bereitschaft, in <em>Marriage Story</em> eine schmerzhafte Scheidung mit schonungsloser Offenheit darzustellen, ihr Eintreten f\u00fcr gerechte Bezahlung von Schauspielerinnen in Hollywood: All das zeugt von der Bereitschaft, sich der Bedrohung zu stellen, statt ihr auszuweichen.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Sechs ist die <strong>Angst</strong> &ndash; und bei der SX6w7 zeigt sich die Schattenseite oft als Kontrollbed\u00fcrfnis \u00fcber das eigene Bild, das in juristischen Auseinandersetzungen m\u00fcndete: Ihr \u00f6ffentlicher Streit mit Disney 2021 um die Streaming-Auswertung von <em>Black Widow</em> war eine der seltenen Gelegenheiten, bei denen der sonst so sorgf\u00e4ltig gesch\u00fctzte Wolf \u00f6ffentlich die Z\u00e4hne zeigte &ndash; ein Kampf um Anerkennung und Kontrolle, ausgetragen mit derselben Direktheit, die sie sonst nur ihren Rollen vorbeh\u00e4lt.</p>
+          <p class="vb-intro">Im Zentrum der Sechs steht die <strong>Angst</strong> &ndash; und bei der SX6w7 zeigt sich die Schattenseite oft als Kontrollbed\u00fcrfnis \u00fcber das eigene Bild, das in juristischen Auseinandersetzungen m\u00fcndete: Ihr \u00f6ffentlicher Streit mit Disney 2021 um die Streaming-Auswertung von <em>Black Widow</em> war eine der seltenen Gelegenheiten, bei denen der sonst so sorgf\u00e4ltig gesch\u00fctzte Wolf \u00f6ffentlich die Z\u00e4hne zeigte &ndash; ein Kampf um Anerkennung und Kontrolle, ausgetragen mit derselben Direktheit, die sie sonst nur ihren Rollen vorbeh\u00e4lt.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der Heilungsweg: St\u00e4rke, die nicht mehr sch\u00fctzen muss</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Sechs f\u00fchrt von der Frage <em>Wie sch\u00fctze ich mich vor der n\u00e4chsten Bedrohung?</em> zur Erkenntnis <em>Ich bin bereits sicher genug, um mich zu zeigen.</em> F\u00fcr die SX6w7 bedeutet das, die R\u00fcstung der st\u00e4ndigen Bewegung und Selbstinszenierung abzulegen &ndash; und Verletzlichkeit nicht nur zu spielen, sondern zuzulassen.</p>
+          <p class="vb-intro">Für die Sechs f\u00fchrt der Heilungsweg von der Frage <em>Wie sch\u00fctze ich mich vor der n\u00e4chsten Bedrohung?</em> zur Erkenntnis <em>Ich bin bereits sicher genug, um mich zu zeigen.</em> F\u00fcr die SX6w7 bedeutet das, die R\u00fcstung der st\u00e4ndigen Bewegung und Selbstinszenierung abzulegen &ndash; und Verletzlichkeit nicht nur zu spielen, sondern zuzulassen.</p>
           <p class="vb-intro">Rollen wie die in <em>Marriage Story</em>, in der Johansson eine Frau spielt, die sich selbst neu erfinden muss, deuten genau diese Richtung an: nicht die n\u00e4chste Rolle als Flucht, sondern als ehrlicher Ausdruck. Der Wolf, der nicht mehr k\u00e4mpfen muss, um sicher zu sein &ndash; sondern der wei\u00df, dass seine St\u00e4rke l\u00e4ngst bewiesen ist.</p>
         </blockquote>
 
@@ -1401,6 +1443,8 @@ export function scarlettJohanssonPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-anke-engelke", label:"Portr\u00e4t: Anke Engelke (SX6w7)"},
+        {route:"beruehmte-julie-benz", label:"Porträt: Julie Benz (SX6w7)"},
+        {route:"beruehmte-olena-zelenska", label:"Porträt: Olena Zelenska (SX6w7)"},
       ])}
     </div>
   `);
@@ -1423,7 +1467,7 @@ export function taylorSwiftPortraitPage() {
 
         <h2 class="vb-section">1. Der Igel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier des sexuellen Typs 5 &ndash; ein kleines, nachtaktives Wesen, das sich bei Gefahr blitzschnell zusammenrollt und ein Geflecht aus Stacheln zeigt. Wer ihn kennt, wei\u00df: Darunter ist etwas au\u00dferordentlich Weiches. Aber man muss Vertrauen aufgebaut haben, um es zu ber\u00fchren. Der Igel erkundet die Welt neugierig und intensiv &ndash; wenn er sich sicher f\u00fchlt. Andernfalls: Kugel. Stacheln. Warten.</p>
+          <p class="vb-intro">Der <strong>Igel</strong> ist die tierische Entsprechung des sexuellen Typs 5 &ndash; ein kleines, nachtaktives Wesen, das sich bei Gefahr blitzschnell zusammenrollt und ein Geflecht aus Stacheln zeigt. Wer ihn kennt, wei\u00df: Darunter ist etwas au\u00dferordentlich Weiches. Aber man muss Vertrauen aufgebaut haben, um es zu ber\u00fchren. Der Igel erkundet die Welt neugierig und intensiv &ndash; wenn er sich sicher f\u00fchlt. Andernfalls: Kugel. Stacheln. Warten.</p>
           <p class="vb-intro">Die US-amerikanische Sängerin Taylor Swift ist dieser Igel. Eine der meistgeh\u00f6rten K\u00fcnstlerinnen der Welt, mit einem Werk, das aus pers\u00f6nlichsten Erfahrungen destilliert ist &ndash; und zugleich eine Frau, die au\u00dferordentlich kontrolliert damit umgeht, was sie wirklich von sich preisgibt. Die Musik ist das Innere. Alles andere ist die Oberfl\u00e4che. Und die Stacheln sind aus Worten gemacht.</p>
         </blockquote>
 
@@ -1431,19 +1475,19 @@ export function taylorSwiftPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>sexuelle F\u00fcnf (SX5)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der F\u00fcnf: Hier zeigt sich die Leidenschaft des Geizes am wenigsten offensichtlich &ndash; weil die sexuelle Energie die F\u00fcnf aus ihrer Isolation herauszieht und nach tiefer, intensiver Verbindung suchen l\u00e4sst. Naranjo nannte diesen Subtyp <em>Vertrauen</em>: Die SX5 sucht die eine Verbindung, die alles tr\u00e4gt &ndash; den Partner, den Freund, das Publikum &ndash; dem sie sich wirklich \u00f6ffnen kann. Aber diese \u00d6ffnung gilt nur f\u00fcr wenige. F\u00fcr den Rest: Stacheln.</p>
           <p class="vb-intro">Bei Taylor Swift zeigt sich das in der Art, wie sie N\u00e4he organisiert. \u00d6ffentlich ist sie \u00fcberall &ndash; in den Charts, auf B\u00fchnen, in den Schlagzeilen. Aber was sie wirklich denkt, f\u00fchlt, glaubt: das steht in den Songs. Nicht in Interviews. Nicht in Social Media. In den Texten, in den Vault Tracks, in den Easter Eggs, die nur diejenigen entschl\u00fcsseln k\u00f6nnen, die wirklich zuh\u00f6ren. Das ist SX5: Ich gebe alles preis &ndash; aber nur f\u00fcr die, die die Sprache sprechen.</p>
-          <p class="vb-intro">Das Horten der F\u00fcnf zeigt sich bei Swift in einem anderen Bereich: dem Horten von Kontrolle. Als ihr fr\u00fcheres Label ihre ersten sechs Alben an den Manager Scooter Braun verkaufte, ohne sie zu fragen, reagierte sie nicht mit Resignation. Sie nahm ihre Alben neu auf &ndash; eines nach dem anderen, unter dem Zusatz <em>Taylor's Version</em> &ndash; und rief ihre Fans dazu auf, nur noch diese Versionen zu streamen. Das ist die SX5 im Kampf um ihr ureigenes Werk: <em>Das hier geh\u00f6rt mir. Ich hole es zur\u00fcck.</em></p>
+          <p class="vb-intro">Das Horten der F\u00fcnf zeigt sich bei Swift in einem anderen Bereich: dem Horten von Kontrolle. Als ihr fr\u00fcheres Label ihre ersten sechs Alben an den Manager Scooter Braun verkaufte, ohne sie zu fragen, reagierte sie nicht mit Resignation. Sie nahm ihre Alben neu auf &ndash; eines nach dem anderen, unter dem Zusatz <em>Taylor's Version</em> &ndash; und rief ihre Fans dazu auf, nur noch diese Versionen zu streamen. Hier wirkt die SX5 im Kampf um ihr ureigenes Werk: <em>Das hier geh\u00f6rt mir. Ich hole es zur\u00fcck.</em></p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Viererfl\u00fcgel: Die Poetin der eigenen Welt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Viererfl\u00fcgel (w4)</strong> bringt der sexuellen F\u00fcnf eine charakteristische Tiefe: das Bed\u00fcrfnis, das Einzigartige zu benennen, das Unsagbare in Sprache zu fassen, die eigene Erfahrung als etwas zu behandeln, das Bedeutung verdient. Die SX5w4 lebt nicht nur &ndash; sie beobachtet, wie sie lebt, und verwandelt das Beobachtete in Kunst.</p>
-          <p class="vb-intro">Taylor Swifts Songwriting ist das reinste Beispiel daf\u00fcr. Sie schreibt nicht \u00fcber abstrakte Gef\u00fchle &ndash; sie schreibt \u00fcber bestimmte Momente, bestimmte Menschen, bestimmte Dezemberabende. Sie dokumentiert obsessiv: Tageb\u00fccher, geheime Notizen, versteckte Hinweise in Albumartworks. Das ist der Viererfl\u00fcgel: <em>Ich muss festhalten, was war. Weil es sonst verloren geht. Weil es bedeutsam ist, auch wenn es niemand sieht.</em></p>
-          <p class="vb-intro">Der Viererfl\u00fcgel erkl\u00e4rt auch Swifts F\u00e4higkeit zur k\u00fcnstlerischen Neuerfindung. Von Country zu Pop zu Indie-Folk zu Electropop &ndash; jedes Album ist eine neue Identit\u00e4t, ein neuer Blick auf sich selbst. Das ist keine Marketingstrategie. Das ist die SX5w4: immer auf der Suche nach dem Bild, das noch genauer trifft, was innen ist.</p>
+          <p class="vb-intro">Taylor Swifts Songwriting ist das reinste Beispiel daf\u00fcr. Sie schreibt nicht \u00fcber abstrakte Gef\u00fchle &ndash; sie schreibt \u00fcber bestimmte Momente, bestimmte Menschen, bestimmte Dezemberabende. Sie dokumentiert obsessiv: Tageb\u00fccher, geheime Notizen, versteckte Hinweise in Albumartworks. Hier zeigt sich der Viererfl\u00fcgel: <em>Ich muss festhalten, was war. Weil es sonst verloren geht. Weil es bedeutsam ist, auch wenn es niemand sieht.</em></p>
+          <p class="vb-intro">Der Viererfl\u00fcgel erkl\u00e4rt auch Swifts F\u00e4higkeit zur k\u00fcnstlerischen Neuerfindung. Von Country zu Pop zu Indie-Folk zu Electropop &ndash; jedes Album ist eine neue Identit\u00e4t, ein neuer Blick auf sich selbst. Das ist keine Marketingstrategie. Darin zeigt sich die SX5w4: immer auf der Suche nach dem Bild, das noch genauer trifft, was innen ist.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX5w4 ist ihre F\u00e4higkeit, das Innen in Au\u00dfen zu verwandeln &ndash; pers\u00f6nliche Erfahrungen in Kunst, die Millionen ber\u00fchrt. Taylor Swifts Songs haben eine Pr\u00e4zision, die nur aus echter Beobachtung kommt: der richtige Schuh auf dem falschen Boden, das falsche L\u00e4cheln zum richtigen Zeitpunkt. Das ist das Geschenk der Igelin: Sie sieht, wo andere wegsehen.</p>
+          <p class="vb-intro">Die Stärke der SX5w4 ist ihre F\u00e4higkeit, das Innen in Au\u00dfen zu verwandeln &ndash; pers\u00f6nliche Erfahrungen in Kunst, die Millionen ber\u00fchrt. Taylor Swifts Songs haben eine Pr\u00e4zision, die nur aus echter Beobachtung kommt: der richtige Schuh auf dem falschen Boden, das falsche L\u00e4cheln zum richtigen Zeitpunkt. Darin liegt das Geschenk der Igelin: Sie sieht, wo andere wegsehen.</p>
           <p class="vb-intro">Das Schicksalsmuster der F\u00fcnf ist der <strong>Geiz</strong> &ndash; und bei der SX5 zeigt er sich als Kontrollsucht \u00fcber das eigene Bild. Swifts Verh\u00e4ltnis zur \u00d6ffentlichkeit ist ambivalent: Sie inszeniert sich mit enormem Aufwand, aber immer auf eigenen Bedingungen. Narrative, die nicht passen, werden in Songs verarbeitet &ndash; und damit endg\u00fcltig definiert. <em>Ich entscheide, wie diese Geschichte erz\u00e4hlt wird.</em></p>
           <p class="vb-intro">Der Viererfl\u00fcgel bringt die Gefahr der Selbstbezogenheit: wenn die eigene Erfahrung so sehr zum Zentrum wird, dass andere haupts\u00e4chlich als Material vorkommen. Songs \u00fcber Ex-Partner, die sie nicht gefragt hat &ndash; das ist ein Grenzbereich, den Swift selbst immer wieder ber\u00fchrt.</p>
         </blockquote>
@@ -1451,7 +1495,7 @@ export function taylorSwiftPortraitPage() {
         <h2 class="vb-section">5. Der Heilungsweg: Vom Horten zum Vertrauen</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Heilungsweg der F\u00fcnf f\u00fchrt von der Frage <em>Habe ich genug?</em> zur Erkenntnis <em>Ich bin genug &ndash; auch ohne Kontrolle \u00fcber alles.</em> F\u00fcr die SX5w4 bedeutet das, das Vertrauen, das sie in ihren engsten Kreis legt, langsam auch in die Welt zu verl\u00e4ngern: nicht jede Geschichte selbst zu erz\u00e4hlen, nicht jeden Angriff in einen Song zu gie\u00dfen, nicht jede Deutungshoheit zu behalten.</p>
-          <p class="vb-intro">Der Igel, der sich zusammenrollt, sch\u00fctzt sich &ndash; aber er erkundet die Welt nicht. Taylor Swift hat in ihrem Werk immer wieder Momente der echten \u00d6ffnung gefunden: <em>folklore</em> und <em>evermore</em>, geschrieben im Lockdown, ohne Publikum, ohne Inszenierung &ndash; nur Worte und Gitarre. Das ist die SX5w4 auf ihrem Heilungsweg: Wenn die Stacheln fallen, kommt das Weichste raus. Und das ist das St\u00e4rkste.</p>
+          <p class="vb-intro">Der Igel, der sich zusammenrollt, sch\u00fctzt sich &ndash; aber er erkundet die Welt nicht. Taylor Swift hat in ihrem Werk immer wieder Momente der echten \u00d6ffnung gefunden: <em>folklore</em> und <em>evermore</em>, geschrieben im Lockdown, ohne Publikum, ohne Inszenierung &ndash; nur Worte und Gitarre. Hier wirkt die SX5w4 auf ihrem Heilungsweg: Wenn die Stacheln fallen, kommt das Weichste raus. Und das ist das St\u00e4rkste.</p>
         </blockquote>
 
       </div>
@@ -1463,6 +1507,9 @@ export function taylorSwiftPortraitPage() {
         {route:"subtype/sx5", label:"SX5 \u2013 Der Igel: Subtyp-Profil"},
         {route:"beruehmte-christian-raetsch", label:"Portr\u00e4t: Christian R\u00e4tsch (SE5w4)"},
         {route:"beruehmte-tilda-swinton", label:"Porträt: Tilda Swinton (SX5w4)"},
+        {route:"beruehmte-edward-snowden", label:"Porträt: Edward Snowden (SX5w6)"},
+        {route:"beruehmte-frederic-chopin", label:"Porträt: Fr\xe9d\xe9ric Chopin (SX5w4)"},
+        {route:"beruehmte-jean-jacques-rousseau", label:"Porträt: Jean-Jacques Rousseau (SX5w4)"},
       ])}
     </div>
   `);
@@ -1485,7 +1532,7 @@ export function udoJuergensPortraitPage() {
 
         <h2 class="vb-section">1. Der Adler mit dem l\u00e4ngsten Atem des Schlagers</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins &ndash; er baut sein Werk mit \u00e4u\u00dferster Sorgfalt, diszipliniert und beharrlich, hoch \u00fcber dem schnelllebigen Trubel, und \u00fcberblickt sein Handwerk mit unbestechlicher Genauigkeit. Kaum ein K\u00fcnstler verk\u00f6rpert diese lebenslange, disziplinierte Beharrlichkeit so sehr wie Udo J\u00fcrgens.</p>
+          <p class="vb-intro">Der <strong>Adler</strong> gilt als das Tier der selbsterhaltenden Eins &ndash; er baut sein Werk mit \u00e4u\u00dferster Sorgfalt, diszipliniert und beharrlich, hoch \u00fcber dem schnelllebigen Trubel, und \u00fcberblickt sein Handwerk mit unbestechlicher Genauigkeit. Kaum ein K\u00fcnstler verk\u00f6rpert diese lebenslange, disziplinierte Beharrlichkeit so sehr wie Udo J\u00fcrgens.</p>
           <p class="vb-intro">Der österreichische Sänger Udo J\u00fcrgen Bockelmann wurde 1934 in Klagenfurt geboren, begann bereits als Kind Klavier und Trompete zu spielen und komponierte mit 14 Jahren seinen ersten Schlager. Trotz jahrelanger R\u00fcckschl\u00e4ge &ndash; er nahm \u00fcber zehn Jahre lang an Talentwettbewerben und Auswahlverfahren teil, bevor sich sein Durchbruch einstellte &ndash; hielt er unbeirrt an seiner musikalischen Disziplin fest: t\u00e4gliches Klavier\u00fcben, akribisches Feilen an Melodien und Texten, ein nahezu handwerklicher Anspruch an die eigene Kunst.</p>
         </blockquote>
 
@@ -1529,6 +1576,8 @@ export function udoJuergensPortraitPage() {
         {route:"beruehmte-dan-brown", label:"Portr\xe4t: Dan Brown (SE1w2)"},
         {route:"beruehmte-marie-kondo", label:"Portr\xe4t: Marie Kondo (SE1w2)"},
         {route:"beruehmte-robert-oppenheimer", label:"Portr\xe4t: J. Robert Oppenheimer (SE1w2)"},
+        {route:"beruehmte-ursula-lyon", label:"Porträt: Ursula Lyon (SE1w2)"},
+        {route:"beruehmte-falco", label:"Porträt: Falco (SO3w2)"},
       ])}
     </div>
   `);
@@ -1551,13 +1600,13 @@ export function winstonChurchillPortraitPage() {
 
         <h2 class="vb-section">1. Der Orang-Utan</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Orang-Utan</strong> ist das Tier des selbsterhaltenden Typs 8 &ndash; massiv, geduldig, kaum aus der Ruhe zu bringen. Er braucht kein Publikum, um seine Kraft zu beweisen; er sitzt einfach da, wo er sitzt, und wer ihn verdr\u00e4ngen will, muss ihn erst einmal bewegen. Sein K\u00f6rper ist gebaut, um zu bleiben &ndash; nicht um zu fliehen.</p>
+          <p class="vb-intro">Der <strong>Orang-Utan</strong> ist das Wappentier des selbsterhaltenden Typs 8 &ndash; massiv, geduldig, kaum aus der Ruhe zu bringen. Er braucht kein Publikum, um seine Kraft zu beweisen; er sitzt einfach da, wo er sitzt, und wer ihn verdr\u00e4ngen will, muss ihn erst einmal bewegen. Sein K\u00f6rper ist gebaut, um zu bleiben &ndash; nicht um zu fliehen.</p>
           <p class="vb-intro">Der britische Staatsmann Winston Churchill, 1874 auf Schloss Blenheim geboren, war genau dieser Orang-Utan: k\u00f6rperlich massig, in der \u00d6ffentlichkeit oft untersch\u00e4tzt, politisch mehrfach f\u00fcr gescheitert erkl\u00e4rt &ndash; und doch immer wieder da, wenn es darauf ankam. Als Gro\u00dfbritannien 1940 vor der Invasion durch Nazi-Deutschland stand, war es dieser Mann, kein anderer, der auf dem Ast blieb, w\u00e4hrend der Sturm tobte.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die selbsterhaltende Acht: Das Recht auf Widerstand</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Acht (SE8)</strong> dr\u00fcckt die Leidenschaft der Acht &ndash; die <em>Wollust</em>, den Hunger nach uneingeschr\u00e4nkter Intensit\u00e4t &ndash; durch Selbstbehauptung und die unbedingte Sicherung des eigenen \u00dcberlebens aus. Naranjo nannte diesen Subtyp <em>Satisfacci\u00f3n</em>. Die SE8 verteidigt, was ihr geh\u00f6rt, mit einer Sturheit, die keine Verhandlung kennt, sobald die Existenz selbst bedroht ist.</p>
+          <p class="vb-intro">Die <strong>selbsterhaltende Acht (SE8)</strong> dr\u00fcckt die Leidenschaft der Acht &ndash; die <em>Wollust</em>, den Hunger nach uneingeschr\u00e4nkter Intensit\u00e4t &ndash; durch Selbstbehauptung und die unbedingte Sicherung des eigenen \u00dcberlebens aus. Bei Naranjo heißt dieser Subtyp <em>Satisfacci\u00f3n</em>. Die SE8 verteidigt, was ihr geh\u00f6rt, mit einer Sturheit, die keine Verhandlung kennt, sobald die Existenz selbst bedroht ist.</p>
           <p class="vb-intro">Churchills ber\u00fchmteste Rede, gehalten am 4. Juni 1940 vor dem Unterhaus, ist der reinste Ausdruck einer SE8: \u201eWe shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender." (deutsche \u00dcbersetzung: \u201eWir werden an den Str\u00e4nden k\u00e4mpfen, wir werden auf den Landepl\u00e4tzen k\u00e4mpfen, wir werden in den Feldern und in den Stra\u00dfen k\u00e4mpfen, wir werden in den H\u00fcgeln k\u00e4mpfen; wir werden niemals kapitulieren.") Kein Kompromissangebot, keine Verhandlungsbereitschaft mit Hitler, die viele im Kabinett damals noch f\u00fcr vern\u00fcnftig hielten. Nur das nackte Recht, weiterzuexistieren &ndash; und die Weigerung, es aufzugeben.</p>
         </blockquote>
 
@@ -1575,8 +1624,8 @@ export function winstonChurchillPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE8w9 ist ihre <strong>unersch\u00fctterliche Standhaftigkeit</strong> in existenziellen Krisen. Churchills Reden waren keine rhetorischen Kunstst\u00fccke &ndash; sie waren Ausdruck einer Kraft, die real war und die ein ganzes Volk sp\u00fcrte. Er verlangte nichts von den Briten, was er nicht selbst vorlebte: durchhalten, weitermachen, niemals aufgeben.</p>
-          <p class="vb-intro">Der Schatten zeigt sich in einer R\u00fccksichtslosigkeit, die im Zweifel \u00fcber Menschenleben hinwegging: Die Entscheidungen w\u00e4hrend der Bengalischen Hungersnot 1943, bei der Millionen Menschen starben, w\u00e4hrend Getreide f\u00fcr das Milit\u00e4r und Gro\u00dfbritannien reserviert blieb, werfen bis in die Gegenwart einen dunklen Schatten auf sein Erbe. Die selbsterhaltende Acht verteidigt kompromisslos das eigene Territorium &ndash; und kann dabei blind werden f\u00fcr das Leid derer, die au\u00dferhalb dieses Territoriums liegen.</p>
+          <p class="vb-intro">Die Stärke der SE8w9 ist ihre <strong>unersch\u00fctterliche Standhaftigkeit</strong> in existenziellen Krisen. Churchills Reden waren keine rhetorischen Kunstst\u00fccke &ndash; sie waren Ausdruck einer Kraft, die real war und die ein ganzes Volk sp\u00fcrte. Er verlangte nichts von den Briten, was er nicht selbst vorlebte: durchhalten, weitermachen, niemals aufgeben.</p>
+          <p class="vb-intro">Die Schattenseite zeigt sich in einer R\u00fccksichtslosigkeit, die im Zweifel \u00fcber Menschenleben hinwegging: Die Entscheidungen w\u00e4hrend der Bengalischen Hungersnot 1943, bei der Millionen Menschen starben, w\u00e4hrend Getreide f\u00fcr das Milit\u00e4r und Gro\u00dfbritannien reserviert blieb, werfen bis in die Gegenwart einen dunklen Schatten auf sein Erbe. Die selbsterhaltende Acht verteidigt kompromisslos das eigene Territorium &ndash; und kann dabei blind werden f\u00fcr das Leid derer, die au\u00dferhalb dieses Territoriums liegen.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Eine Gegenmeinung: Claudio Naranjo und der selbsterhaltende Neuner</h2>
@@ -1588,7 +1637,7 @@ export function winstonChurchillPortraitPage() {
 
         <h2 class="vb-section">7. Der Orang-Utan, der den Ast nicht loslie\u00df</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Acht f\u00fchrt von der Wollust zur Unschuld &ndash; von der zwanghaften Behauptung der eigenen St\u00e4rke zu einer Kraft, die auch verletzlich sein darf. Churchill selbst nannte seine wiederkehrenden Depressionen \u201ethe black dog", den schwarzen Hund, der ihn sein ganzes Leben lang begleitete &ndash; ein seltenes Eingest\u00e4ndnis von Schw\u00e4che bei einem Mann, der \u00f6ffentlich nie eine zeigte.</p>
+          <p class="vb-intro">Für die Acht f\u00fchrt der Heilungsweg von der Wollust zur Unschuld &ndash; von der zwanghaften Behauptung der eigenen St\u00e4rke zu einer Kraft, die auch verletzlich sein darf. Churchill selbst nannte seine wiederkehrenden Depressionen \u201ethe black dog", den schwarzen Hund, der ihn sein ganzes Leben lang begleitete &ndash; ein seltenes Eingest\u00e4ndnis von Schw\u00e4che bei einem Mann, der \u00f6ffentlich nie eine zeigte.</p>
           <p class="vb-intro">1953 erhielt er den Literaturnobelpreis f\u00fcr sein historisches und biografisches Gesamtwerk, darunter seine sechsb\u00e4ndige Geschichte des Zweiten Weltkriegs. Er starb 1965 im Alter von 90 Jahren, gefolgt von einem der l\u00e4ngsten Staatsbegr\u00e4bnisse der britischen Geschichte. Der Orang-Utan, der in der dunkelsten Stunde seines Landes auf dem Ast blieb, w\u00e4hrend andere fielen &ndash; und der auch heute noch als Symbol daf\u00fcr steht, dass ein einzelner Mensch, der sich weigert nachzugeben, den Lauf der Geschichte ver\u00e4ndern kann.</p>
         </blockquote>
 
@@ -1604,6 +1653,8 @@ export function winstonChurchillPortraitPage() {
         {route:"beruehmte-helmut-kohl", label:"Portr\u00e4t: Helmut Kohl (SE8w9) \u2013 ebenfalls Staatsmann, derselbe Subtyp"},
         {route:"krankheitsportraets-winston-churchill", label:"Krankheitsportr\u00e4t: Winston Churchill (SE8w9)"},
         {route:"krankheitsportraets-golda-meir", label:"Krankheitsporträt: Golda Meir (SE8w9)"},
+        {route:"beruehmte-coco-chanel", label:"Porträt: Coco Chanel (SE3w4)"},
+        {route:"beruehmte-ryke-geerd-hamer", label:"Porträt: Ryke Geerd Hamer (SE8w9)"},
         {route:"bibel-der-hauptmann-unter-dem-kreuz", label:"Bibel-Porträt: Der Hauptmann unter dem Kreuz (SE8w9)"},
       ])}
     </div>
@@ -1627,7 +1678,7 @@ export function huangYongPingPortraitPage() {
 
         <h2 class="vb-section">1. Das Kaninchen, das dem Zufall die Kontrolle \xfcberlie\xdf</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier des selbsterhaltenden Typs 6 &ndash; wachsam, anpassungsf\xe4hig, auf der Suche nach einem verl\xe4sslichen Grund, dem es vertrauen kann, wenn die Welt selbst keine Sicherheit bietet. Huang Yong Ping, 1954 in Xiamen (Amoy) an der s\xfcdchinesischen K\xfcste geboren, studierte an der Zhejiang Academy of Fine Arts in Hangzhou, bevor er 1986 in seiner Heimatstadt die Gruppe \xbbXiamen Dada\xab mitbegr\xfcndete &ndash; eine der radikalsten Str\xf6mungen der chinesischen Avantgarde, die nach einer Ausstellung ihre eigenen Werke \xf6ffentlich verbrannte.</p>
+          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Sinnbild des selbsterhaltenden Typs 6 &ndash; wachsam, anpassungsf\xe4hig, auf der Suche nach einem verl\xe4sslichen Grund, dem es vertrauen kann, wenn die Welt selbst keine Sicherheit bietet. Huang Yong Ping, 1954 in Xiamen (Amoy) an der s\xfcdchinesischen K\xfcste geboren, studierte an der Zhejiang Academy of Fine Arts in Hangzhou, bevor er 1986 in seiner Heimatstadt die Gruppe \xbbXiamen Dada\xab mitbegr\xfcndete &ndash; eine der radikalsten Str\xf6mungen der chinesischen Avantgarde, die nach einer Ausstellung ihre eigenen Werke \xf6ffentlich verbrannte.</p>
           <p class="vb-intro">Doch anders als der westliche Dadaismus, der auf Zerst\xf6rung und Provokation um ihrer selbst willen zielte, suchte Huang in diesem radikalen Akt etwas, das ihm selbst Sicherheit gab: ein System, das gr\xf6\xdfer war als die eigene, unsichere Autorenschaft. Das Kaninchen, das nicht auf die eigene St\xe4rke vertraut, sondern auf etwas Verl\xe4ssliches au\xdferhalb seiner selbst.</p>
         </blockquote>
 
@@ -1651,8 +1702,8 @@ export function huangYongPingPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Sechs</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE6w5 zeigt sich in Huangs F\xe4higkeit, aus einem zutiefst pers\xf6nlichen Bed\xfcrfnis nach Verl\xe4sslichkeit ein Werk von universeller Kraft zu schaffen: Installationen wie \xbbTh\xe9\xe2tre du Monde\xab &ndash; ein schildkr\xf6tenf\xf6rmiger K\xe4fig voller Insekten und Reptilien, die sich gegenseitig fressen &ndash; \xfcbersetzen die eigene Suche nach einem tragf\xe4higen System in ein Bild der gesamten Weltordnung.</p>
-          <p class="vb-intro">Der Schatten zeigt sich in der Kontroverse, die genau dieses Werk 2017 im Guggenheim Museum ausl\xf6ste: Nach massiven Protesten von Tierschutzorganisationen und Morddrohungen gegen das Museumspersonal wurde die Arbeit aus der Ausstellung entfernt. Das Schicksalsmuster der Sechs, der <strong>Zweifel</strong>, zeigt sich hier gespiegelt: Ein System, dem der K\xfcnstler bedingungslos vertraute &ndash; das kontrollierte Zufallsprinzip als \xfcbergeordnete Ordnung &ndash; geriet in Konflikt mit einer \xf6ffentlichen Autorit\xe4t, die dieses Vertrauen nicht teilte.</p>
+          <p class="vb-intro">Das Beste an der SE6w5 zeigt sich in Huangs F\xe4higkeit, aus einem zutiefst pers\xf6nlichen Bed\xfcrfnis nach Verl\xe4sslichkeit ein Werk von universeller Kraft zu schaffen: Installationen wie \xbbTh\xe9\xe2tre du Monde\xab &ndash; ein schildkr\xf6tenf\xf6rmiger K\xe4fig voller Insekten und Reptilien, die sich gegenseitig fressen &ndash; \xfcbersetzen die eigene Suche nach einem tragf\xe4higen System in ein Bild der gesamten Weltordnung.</p>
+          <p class="vb-intro">Als Schatten zeigt sich in der Kontroverse, die genau dieses Werk 2017 im Guggenheim Museum ausl\xf6ste: Nach massiven Protesten von Tierschutzorganisationen und Morddrohungen gegen das Museumspersonal wurde die Arbeit aus der Ausstellung entfernt. Das Schicksalsmuster der Sechs, der <strong>Zweifel</strong>, zeigt sich hier gespiegelt: Ein System, dem der K\xfcnstler bedingungslos vertraute &ndash; das kontrollierte Zufallsprinzip als \xfcbergeordnete Ordnung &ndash; geriet in Konflikt mit einer \xf6ffentlichen Autorit\xe4t, die dieses Vertrauen nicht teilte.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Verm\xe4chtnis: Das Kaninchen, das bis zuletzt an der Ordnung baute</h2>
@@ -1693,14 +1744,14 @@ export function edvardMunchPortraitPage() {
 
         <h2 class="vb-section">1. Das G\xfcrteltier, das seine Wunden ausstellte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>G\xfcrteltier</strong> ist das Tier der sozialen Vier – es zieht sich nicht aus der Welt zur\xfcck, sondern tr\xe4gt sein empfindsames Inneres bewusst in die \xd6ffentlichkeit, selbst wenn es sich dabei einen harten Panzer zulegt. Edvard Munch, 1863 in L\xf8ten geboren, verlor mit f\xfcnf Jahren seine Mutter und mit vierzehn seine \xe4ltere Schwester Sophie – beide an Tuberkulose. Sein Vater, ein streng religi\xf6ser Milit\xe4rarzt, deutete das Ungl\xfcck als g\xf6ttliche Strafe und verfiel danach in schwere Depressionen. Der junge Munch gab sich selbst die Schuld an den Krankheiten.</p>
+          <p class="vb-intro">Das <strong>G\xfcrteltier</strong> gilt als das Tier der sozialen Vier – es zieht sich nicht aus der Welt zur\xfcck, sondern tr\xe4gt sein empfindsames Inneres bewusst in die \xd6ffentlichkeit, selbst wenn es sich dabei einen harten Panzer zulegt. Edvard Munch, 1863 in L\xf8ten geboren, verlor mit f\xfcnf Jahren seine Mutter und mit vierzehn seine \xe4ltere Schwester Sophie – beide an Tuberkulose. Sein Vater, ein streng religi\xf6ser Milit\xe4rarzt, deutete das Ungl\xfcck als g\xf6ttliche Strafe und verfiel danach in schwere Depressionen. Der junge Munch gab sich selbst die Schuld an den Krankheiten.</p>
           <p class="vb-intro">Statt dieses Leid zu verbergen, machte er es zeitlebens zum erkl\xe4rten Gegenstand seiner \xf6ffentlichen Kunst. Er nannte sich selbst den „Anatom der Seele“ – eine Rolle, die er nicht im Verborgenen, sondern auf der \xf6ffentlichen B\xfchne der europ\xe4ischen Kunstszene ausf\xfcllte.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Vier: Das eigene Leid als \xf6ffentliches Bekenntnis</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> stellt ihre Andersartigkeit nicht heimlich zur Schau, sondern macht sie zum Gegenstand einer bewussten Auseinandersetzung mit der Gemeinschaft, der sie zugleich zugewandt bleibt. Munchs Lebenswerk, der „Lebensfries“ – eine \xfcber Jahrzehnte gewachsene Bilderfolge zu Liebe, Angst, Eifersucht und Tod – war explizit als \xf6ffentliches Gesamtbekenntnis konzipiert, nicht als private Verarbeitung. „Der Schrei“, „Das kranke Kind“, „Eifersucht“ – all das waren keine verborgenen Skizzen, sondern Ausstellungsst\xfccke, mit denen er sein Publikum bewusst konfrontierte.</p>
-          <p class="vb-intro">Am 5. November 1892 er\xf6ffnete der Verein Berliner K\xfcnstler Munch eine Einzelausstellung – und schloss sie nach wenigen Tagen wieder, weil das Publikum die Bilder als grotesk und skandal\xf6s empfand. Der „Fall Munch“ wurde zum Stadtgespr\xe4ch, Munch selbst amtierte den Skandal mit sichtlichem Vergn\xfcgen und blieb, mit Unterbrechungen, bis 1908 in Berlin – mitten im Zentrum genau jener Kunstszene, die ihn zugleich abgelehnt hatte. Genau das ist die soziale Vier: nicht die Distanz zur Gemeinschaft, sondern die bewusste Reibung an ihr, bei fortbestehender Zugeh\xf6rigkeit.</p>
+          <p class="vb-intro">Am 5. November 1892 er\xf6ffnete der Verein Berliner K\xfcnstler Munch eine Einzelausstellung – und schloss sie nach wenigen Tagen wieder, weil das Publikum die Bilder als grotesk und skandal\xf6s empfand. Der „Fall Munch“ wurde zum Stadtgespr\xe4ch, Munch selbst amtierte den Skandal mit sichtlichem Vergn\xfcgen und blieb, mit Unterbrechungen, bis 1908 in Berlin – mitten im Zentrum genau jener Kunstszene, die ihn zugleich abgelehnt hatte. Genau das zeigt die soziale Vier: nicht die Distanz zur Gemeinschaft, sondern die bewusste Reibung an ihr, bei fortbestehender Zugeh\xf6rigkeit.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der F\xfcnferfl\xfcgel: Die eigene Angst als Gegenstand der Analyse</h2>
@@ -1717,7 +1768,7 @@ export function edvardMunchPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO4w5 ist die F\xe4higkeit, <strong>pers\xf6nliches Leid in ein universelles, \xf6ffentlich wirksames Bildvokabular zu \xfcbersetzen</strong> – „Der Schrei“ gilt bis heute als eines der bekanntesten Sinnbilder existenzieller Angst weltweit, weil Munch etwas zutiefst Pers\xf6nliches in eine Form goss, in der sich Millionen Menschen wiedererkennen konnten.</p>
+          <p class="vb-intro">Was die SO4w5 auszeichnet, ist die F\xe4higkeit, <strong>pers\xf6nliches Leid in ein universelles, \xf6ffentlich wirksames Bildvokabular zu \xfcbersetzen</strong> – „Der Schrei“ gilt bis heute als eines der bekanntesten Sinnbilder existenzieller Angst weltweit, weil Munch etwas zutiefst Pers\xf6nliches in eine Form goss, in der sich Millionen Menschen wiedererkennen konnten.</p>
           <p class="vb-intro">Der Schatten zeigte sich in der famili\xe4ren Vorbelastung, der er sich nie ganz entziehen konnte: Sowohl Gro\xdfvater als auch Vater litten unter Melancholie, seine Schwester Laura verbrachte gro\xdfe Teile ihres Lebens wegen einer Psychose in psychiatrischen Kliniken. Munchs eigene Todesangst, sein Hang zu Alkohol und der Zusammenbruch von 1908 zeigen die Kehrseite der sozialen Vier mit F\xfcnferfl\xfcgel: Die Distanz, die die k\xfcnstlerische Analyse des eigenen Leids erm\xf6glicht, kann irgendwann selbst zur Erschöpfung werden.</p>
         </blockquote>
 
@@ -1762,7 +1813,7 @@ export function irisBerbenPortraitPage() {
 
         <h2 class="vb-section">1. Der Pfau, der sich nie auf ein Federkleid beschränkte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier des sexuellen Typs 3 – ein Tier, dessen Erfolg untrennbar mit persönlicher Anziehungskraft und Wirkung verbunden ist. Iris Berben, 1950 in Detmold als Tochter eines Gastronomen-Ehepaars geboren, verbrachte eine unruhige Kindheit zwischen Hamburg, Essen und mehreren Internaten, bevor sie mit siebzehn ihre Schauspielkarriere in einem Experimentalfilm begann.</p>
+          <p class="vb-intro">Der <strong>Pfau</strong> ist das Wappentier des sexuellen Typs 3 – ein Tier, dessen Erfolg untrennbar mit persönlicher Anziehungskraft und Wirkung verbunden ist. Iris Berben, 1950 in Detmold als Tochter eines Gastronomen-Ehepaars geboren, verbrachte eine unruhige Kindheit zwischen Hamburg, Essen und mehreren Internaten, bevor sie mit siebzehn ihre Schauspielkarriere in einem Experimentalfilm begann.</p>
           <p class="vb-intro">Seit über fünfzig Jahren ist sie eine feste Größe des deutschen Film- und Fernsehgeschäfts – von komödiantischen Anfängen über die charakterstarke Kriminalreihe „Rosa Roth" (1994–2013) bis zur „Grande Dame des deutschen Films". Kein Pfau bleibt in einem einzigen Federkleid: Berben hat sich über Jahrzehnte immer wieder neu erfunden, ohne je die Grundfarbe ihrer öffentlichen Wirkung zu verlieren.</p>
         </blockquote>
 
@@ -1786,7 +1837,7 @@ export function irisBerbenPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX3w2 zeigt sich bei Berben darin, dass sie ihre öffentliche Wirkung konsequent mit echtem gesellschaftlichem Engagement verband, statt sie ausschließlich zur eigenen Bestätigung zu nutzen – der Leo-Baeck-Preis steht dafür ebenso wie ihr jahrzehntelanges Eintreten gegen Antisemitismus.</p>
+          <p class="vb-intro">Was die SX3w2 auszeichnet, zeigt sich bei Berben darin, dass sie ihre öffentliche Wirkung konsequent mit echtem gesellschaftlichem Engagement verband, statt sie ausschließlich zur eigenen Bestätigung zu nutzen – der Leo-Baeck-Preis steht dafür ebenso wie ihr jahrzehntelanges Eintreten gegen Antisemitismus.</p>
           <p class="vb-intro">Der Schatten der Drei liegt in der Gefahr, den eigenen Wert vollständig an die von außen wahrgenommene Wirkung zu knüpfen – eine Falle, der Berben durch ihre bewusste Neudefinition von Erotik und Anziehungskraft im Alter aktiv entgegenwirkte, statt sich dagegen zu wehren oder sie zu verleugnen.</p>
         </blockquote>
 
@@ -1804,6 +1855,7 @@ export function irisBerbenPortraitPage() {
         {route:"beruehmte-brigitte-bardot", label:"Porträt: Brigitte Bardot (SX3w2) – ebenfalls Schauspielerin"},
         {route:"beruehmte-brigitte-macron", label:"Porträt: Brigitte Macron (SX3w2)"},
         {route:"beruehmte-linda-evans", label:"Porträt: Linda Evans (SX3w2)"},
+        {route:"beruehmte-christina-plate", label:"Porträt: Christina Plate (SX3w2)"},
         ])}
       </div>
     </div>
@@ -1827,13 +1879,13 @@ export function reinholdMessnerPortraitPage() {
 
         <h2 class="vb-section">1. Der Weißkopfseeadler</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Weißkopfseeadler</strong> ist das Tier der selbsterhaltenden Eins &ndash; ein Tier, das nicht durch Kraftdemonstration beeindruckt, sondern durch die Präzision, mit der es Höhen erreicht, in denen die meisten anderen nicht überleben. Reinhold Messner, geboren 1944 in Südtirol, begann bereits mit fünf Jahren zu klettern und unternahm seither weit über hundert Expeditionen in Gebirge und Wüsten.</p>
+          <p class="vb-intro">Der <strong>Weißkopfseeadler</strong> ist das Sinnbild der selbsterhaltenden Eins &ndash; ein Tier, das nicht durch Kraftdemonstration beeindruckt, sondern durch die Präzision, mit der es Höhen erreicht, in denen die meisten anderen nicht überleben. Reinhold Messner, geboren 1944 in Südtirol, begann bereits mit fünf Jahren zu klettern und unternahm seither weit über hundert Expeditionen in Gebirge und Wüsten.</p>
           <p class="vb-intro">Als erster Mensch bestieg er alle 14 Achttausender der Erde, den Mount Everest 1978 gemeinsam mit Peter Habeler als Erster ohne Flaschensauerstoff und 1980 sogar im Alleingang. Keine dieser Leistungen entstand aus Draufgängertum &ndash; jede war das Ergebnis jahrelanger, akribischer Vorbereitung, bei der ein einziger Fehler den Tod bedeutet hätte.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die selbsterhaltende Eins: Perfektion als Überlebensstrategie</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihren Perfektionsanspruch nach innen: auf die eigene Vorbereitung, die eigene Disziplin, die eigene Fehlerlosigkeit. Naranjo nannte diesen Subtyp <em>Worry</em> &ndash; eine ständige, produktive Sorge, ob man dem eigenen Anspruch wirklich genügt. Bei einem Extrembergsteiger in Todeszonen jenseits von 8.000 Metern ist diese Eigenschaft keine Charakterschwäche, sondern buchstäblich lebensrettend.</p>
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihren Perfektionsanspruch nach innen: auf die eigene Vorbereitung, die eigene Disziplin, die eigene Fehlerlosigkeit. Naranjo bezeichnete diesen Subtyp als <em>Worry</em> &ndash; eine ständige, produktive Sorge, ob man dem eigenen Anspruch wirklich genügt. Bei einem Extrembergsteiger in Todeszonen jenseits von 8.000 Metern ist diese Eigenschaft keine Charakterschwäche, sondern buchstäblich lebensrettend.</p>
           <p class="vb-intro">Diese Ernsthaftigkeit wurde 1970 auf tragische Weise geprüft: Bei der gemeinsamen Erstbesteigung der Rupalwand des Nanga Parbat mit seinem Bruder Günther starb dieser beim Abstieg über die Diamirwand. Reinhold verlor durch schwere Erfrierungen sieben Zehen. Statt sich zurückzuziehen, verarbeitete er die Tragödie über Jahrzehnte in akribischer Aufarbeitung, unter anderem in seinem Buch „Der nackte Berg" (2002) &ndash; erst 2005 wurden Günthers sterbliche Überreste gefunden, was seine eigene, oft angezweifelte Darstellung der Ereignisse endlich bestätigte.</p>
         </blockquote>
 
@@ -1851,8 +1903,8 @@ export function reinholdMessnerPortraitPage() {
 
         <h2 class="vb-section">5. Licht der selbsterhaltenden Eins mit Neunerflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE1w9 zeigt sich bei Messner in der Verbindung von äußerster körperlicher Disziplin mit einer inneren Gelassenheit, die auch unter Extrembelastung nicht kippte. Seine Leistungen entstanden nicht aus Geltungssucht, sondern aus dem unbestechlichen eigenen Anspruch, eine Sache wirklich richtig zu machen &ndash; bis an die physiologische Grenze dessen, was ein Mensch ohne zusätzlichen Sauerstoff in großer Höhe leisten kann.</p>
-          <p class="vb-intro">Der Schatten liegt in der Härte, mit der die Eins Fehler bewertet &ndash; auch die eigenen: Jahrzehntelang musste sich Messner öffentlichen Zweifeln an seiner Darstellung von Günthers Tod stellen, bevor der Fund der sterblichen Überreste 2005 ihn bestätigte. Der Weißkopfseeadler, der lieber die eigene Genauigkeit gegen anhaltenden Zweifel verteidigte, als sich der bequemeren, aber ungenauen Version zu fügen.</p>
+          <p class="vb-intro">Was die SE1w9 auszeichnet, zeigt sich bei Messner in der Verbindung von äußerster körperlicher Disziplin mit einer inneren Gelassenheit, die auch unter Extrembelastung nicht kippte. Seine Leistungen entstanden nicht aus Geltungssucht, sondern aus dem unbestechlichen eigenen Anspruch, eine Sache wirklich richtig zu machen &ndash; bis an die physiologische Grenze dessen, was ein Mensch ohne zusätzlichen Sauerstoff in großer Höhe leisten kann.</p>
+          <p class="vb-intro">Der dunkle Teil liegt in der Härte, mit der die Eins Fehler bewertet &ndash; auch die eigenen: Jahrzehntelang musste sich Messner öffentlichen Zweifeln an seiner Darstellung von Günthers Tod stellen, bevor der Fund der sterblichen Überreste 2005 ihn bestätigte. Der Weißkopfseeadler, der lieber die eigene Genauigkeit gegen anhaltenden Zweifel verteidigte, als sich der bequemeren, aber ungenauen Version zu fügen.</p>
         </blockquote>
 
       </div>
@@ -1869,6 +1921,7 @@ export function reinholdMessnerPortraitPage() {
         {route:"beruehmte-henning-baum", label:"Porträt: Henning Baum (SE1w9)"},
         {route:"beruehmte-viktor-frankl", label:"Porträt: Viktor Frankl (SE1w9)"},
         {route:"beruehmte-juergen-klinsmann", label:"Porträt: Jürgen Klinsmann (SE1w9)"},
+        {route:"beruehmte-harald-v", label:"Porträt: K\u00f6nig Harald V. (SE1w9)"},
       ])}
     </div>
   `);
@@ -1933,7 +1986,10 @@ export function zoeKravitzPortraitPage() {
         {route:"beruehmte-lenny-kravitz", label:"Porträt: Lenny Kravitz (SX3w2) – ihr Vater"},
         {route:"beruehmte-cristiano-ronaldo", label:"Porträt: Cristiano Ronaldo (SO3w2)"},
         {route:"beruehmte-sahra-wagenknecht", label:"Porträt: Sahra Wagenknecht (SO3w2)"},
-        ])}
+        {route:"beruehmte-christiaan-barnard", label:"Porträt: Dr. Christiaan Barnard (SO3w2)"},
+        {route:"beruehmte-christiane-hoerbiger", label:"Porträt: Christiane Hörbiger (SO3w2)"},
+        {route:"beruehmte-romina-palm", label:"Porträt: Romina Palm (SO3w2)"},
+      ])}
       </div>
     </div>
   `);
@@ -1956,7 +2012,7 @@ export function louiseHayPortraitPage() {
 
         <h2 class="vb-section">1. Der Wolf, der der Angst den Krieg erklärte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 – ein Tier, das Bedrohung nicht meidet, sondern ihr direkt ins Auge sieht. Louise Hay, 1926 als Helen Vera Lunney in Armut in Los Angeles geboren, erlebte als Fünfjährige sexuellen Missbrauch durch einen Nachbarn und wuchs mit einem gewalttätigen Stiefvater auf. Mit fünfzehn brach sie die Schule ab, mit sechzehn brachte sie ein Kind zur Welt, das zur Adoption freigegeben wurde. Wenig später verließ sie ihr Zuhause – eine Kindheit, in der Angst nicht die Ausnahme, sondern der Normalzustand war.</p>
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Wappentier des sexuellen Typs 6 – ein Tier, das Bedrohung nicht meidet, sondern ihr direkt ins Auge sieht. Louise Hay, 1926 als Helen Vera Lunney in Armut in Los Angeles geboren, erlebte als Fünfjährige sexuellen Missbrauch durch einen Nachbarn und wuchs mit einem gewalttätigen Stiefvater auf. Mit fünfzehn brach sie die Schule ab, mit sechzehn brachte sie ein Kind zur Welt, das zur Adoption freigegeben wurde. Wenig später verließ sie ihr Zuhause – eine Kindheit, in der Angst nicht die Ausnahme, sondern der Normalzustand war.</p>
           <p class="vb-intro">Statt sich von dieser Angst dauerhaft lähmen zu lassen, baute Hay ihr gesamtes späteres Leben auf der Überzeugung auf, dass genau diese Angst besiegbar sei – nicht durch Vermeidung, sondern durch direkte, wiederholte Konfrontation mit ihr. Der Wolf verkriecht sich nicht; er lernt, der Bedrohung mit erhobenem Kopf zu begegnen.</p>
         </blockquote>
 
@@ -1980,7 +2036,7 @@ export function louiseHayPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten der sexuellen Sechs mit Siebenerflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX6w7 zeigt sich in dem echten Trost, den Hay hunderten sterbenden Männern in einer Zeit spendete, in der Kirchen, Familien und selbst Teile des Gesundheitssystems sich von ihnen abwandten – eine konkrete, gelebte Form von Mut gegen kollektive Angst.</p>
+          <p class="vb-intro">Was die SX6w7 auszeichnet, zeigt sich in dem echten Trost, den Hay hunderten sterbenden Männern in einer Zeit spendete, in der Kirchen, Familien und selbst Teile des Gesundheitssystems sich von ihnen abwandten – eine konkrete, gelebte Form von Mut gegen kollektive Angst.</p>
           <p class="vb-intro"><strong>Wichtiger Hinweis:</strong> Hays Kernthese, wonach körperliche Krankheiten grundsätzlich auf mangelnde Selbstliebe oder ungelöste emotionale Muster zurückzuführen seien, ist wissenschaftlich nicht belegt und in der Fachwelt umstritten – sie birgt das Risiko, Erkrankten die Schuld an der eigenen Krankheit zuzuschreiben und von notwendiger medizinischer Behandlung abzuhalten. Diese Schattenseite zeigt, wie aus dem Sechser-Bedürfnis, die Angst durch ein geschlossenes Erklärungssystem zu bezwingen, eine Vereinfachung werden kann, die komplexe medizinische Realität ausblendet.</p>
         </blockquote>
 
@@ -2022,7 +2078,7 @@ export function haraldLeschPortraitPage() {
 
         <h2 class="vb-section">1. Die Eule, die sich weigerte, Wissenschaft zu vereinfachen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Eule</strong> ist das Tier der selbsterhaltenden Fünf: Sie hortet ihr Wissen, bis es wirklich tragfähig ist, und zeigt sich erst dann, wenn nichts mehr fehlt. Harald Lesch, geboren 1960 in Gießen, studierte Physik, Mathematik und Philosophie und ist seit 1995 Professor für theoretische Astrophysik an der Ludwig-Maximilians-Universität München – zusätzlich hält er einen Lehrstuhl für Naturphilosophie an der Hochschule für Philosophie München, einer von Jesuiten getragenen Einrichtung.</p>
+          <p class="vb-intro">Die <strong>Eule</strong> ist das Sinnbild der selbsterhaltenden Fünf: Sie hortet ihr Wissen, bis es wirklich tragfähig ist, und zeigt sich erst dann, wenn nichts mehr fehlt. Harald Lesch, geboren 1960 in Gießen, studierte Physik, Mathematik und Philosophie und ist seit 1995 Professor für theoretische Astrophysik an der Ludwig-Maximilians-Universität München – zusätzlich hält er einen Lehrstuhl für Naturphilosophie an der Hochschule für Philosophie München, einer von Jesuiten getragenen Einrichtung.</p>
           <p class="vb-intro">Von 1998 bis 2015 moderierte er über 200 Folgen von ›alpha-Centauri‹, in denen er komplexe physikalische Fragen in aller Ausführlichkeit erklärte, statt sie auf Schlagzeilenformat zu kürzen. Die Eule zeigt sich erst, wenn die Erklärung vollständig ist – nicht früher.</p>
         </blockquote>
 
@@ -2053,7 +2109,7 @@ export function haraldLeschPortraitPage() {
         <h2 class="vb-section">6. Das Vermächtnis: Tiefe statt Verkürzung</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Harald Lesch bleibt einer der einflussreichsten Wissenschaftskommunikatoren des deutschsprachigen Raums – nicht, weil er sich dem Tempo und der Verkürzung des Fernsehformats anpasste, sondern weil er beharrlich auf Tiefe bestand. Mit ›alpha-Centauri‹, ›Leschs Kosmos‹ und zahllosen Beiträgen für ›Terra X‹ erreichte er Millionen Menschen mit einer Gründlichkeit, die im Fernsehen selten geworden ist.</p>
-          <p class="vb-intro">Das ist die selbsterhaltende Fünf mit Sechserflügel in ihrer reinsten Form: eine Eule, die ihr Wissen nicht leichtfertig preisgibt, sondern nur dann, wenn es vollständig durchdacht ist – und die genau dann laut wird, wenn dieses mühsam gesicherte Wissen selbst infrage gestellt wird.</p>
+          <p class="vb-intro">Darin zeigt sich die selbsterhaltende Fünf mit Sechserflügel in ihrer reinsten Form: eine Eule, die ihr Wissen nicht leichtfertig preisgibt, sondern nur dann, wenn es vollständig durchdacht ist – und die genau dann laut wird, wenn dieses mühsam gesicherte Wissen selbst infrage gestellt wird.</p>
         </blockquote>
 
       </div>
@@ -2064,6 +2120,8 @@ export function haraldLeschPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
         {route:"beruehmte-carl-friedrich-gauss", label:"Porträt: Carl Friedrich Gauß (SE5w6)"},
+        {route:"beruehmte-roger-akelius", label:"Porträt: Roger Akelius (SE5w6)"},
+        {route:"beruehmte-larry-sanger", label:"Porträt: Larry Sanger (SE5w6)"},
       ])}
     </div>
   `);
@@ -2111,7 +2169,7 @@ export function herfriedMuenklerPortraitPage() {
         <h2 class="vb-section">5. Licht und Schatten der sozialen Sechs mit Siebenerflügel</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SO6w7 zeigt sich in Münklers Fähigkeit, komplexe historische und sicherheitspolitische Zusammenhänge so zugänglich zu formulieren, dass sie weit über die Fachwelt hinaus gehört werden – ein Wächter, der die Gemeinschaft tatsächlich erreicht.</p>
-          <p class="vb-intro">Der Schatten liegt in der Gefahr, dass die eigene Deutungsfreude zur ständigen öffentlichen Positionierung wird, die gelegentlich mehr Widerspruch erzeugt, als sie befriedet – wie sich in der "Münkler-Watch"-Kontroverse zeigte. Wo eine SO6w5 zu lange im Stillen prüft, kann die SO6w7 riskieren, mit zu vielen gleichzeitigen Wortmeldungen an Tiefenschärfe zu verlieren.</p>
+          <p class="vb-intro">Die Schattenseite liegt in der Gefahr, dass die eigene Deutungsfreude zur ständigen öffentlichen Positionierung wird, die gelegentlich mehr Widerspruch erzeugt, als sie befriedet – wie sich in der "Münkler-Watch"-Kontroverse zeigte. Wo eine SO6w5 zu lange im Stillen prüft, kann die SO6w7 riskieren, mit zu vielen gleichzeitigen Wortmeldungen an Tiefenschärfe zu verlieren.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Das Erdmännchen, das seine Schülerin auf den Stein stellte</h2>
@@ -2131,6 +2189,8 @@ export function herfriedMuenklerPortraitPage() {
         {route:"beruehmte-anne-applebaum", label:"Porträt: Anne Applebaum (SO6w7)"},
         {route:"beruehmte-donata-hopfen", label:"Porträt: Donata Hopfen (SO6w7)"},
         {route:"beruehmte-wolfram-eilenberger", label:"Porträt: Wolfram Eilenberger (SO6w7) – dieselbe Wache, andere Gefahr"},
+        {route:"beruehmte-anne-will", label:"Porträt: Anne Will (SE1w2)"},
+        {route:"beruehmte-heinz-rudolf-kunze", label:"Porträt: Heinz Rudolf Kunze (SO6w7)"},
       ])}
     </div>
   `);
@@ -2153,7 +2213,7 @@ export function antonZeilingerPortraitPage() {
 
         <h2 class="vb-section">1. Der Oktopus, der mit acht Armen nach der Verschränkung tastete</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier der sozialen Fünf – ein Wesen, das mit mehreren Armen gleichzeitig tastet, prüft und verbindet, bevor es zupackt. Bei Anton Zeilinger zeigt sich dieses Bild direkt im Gegenstand seiner Forschung: Verschränkte Photonen, die – einmal miteinander verbunden – ihren Zustand über beliebige Entfernungen aufeinander abgestimmt halten, ganz gleich, wie weit die Arme auseinandergezogen werden. Ein Forscherleben, das genau dieser Verbindung nachgeht: nicht dem einzelnen Teilchen, sondern dem, was zwei Teilchen über jede Distanz hinweg miteinander verknüpft.</p>
+          <p class="vb-intro">Der <strong>Oktopus</strong> gilt als das Tier der sozialen Fünf – ein Wesen, das mit mehreren Armen gleichzeitig tastet, prüft und verbindet, bevor es zupackt. Bei Anton Zeilinger zeigt sich dieses Bild direkt im Gegenstand seiner Forschung: Verschränkte Photonen, die – einmal miteinander verbunden – ihren Zustand über beliebige Entfernungen aufeinander abgestimmt halten, ganz gleich, wie weit die Arme auseinandergezogen werden. Ein Forscherleben, das genau dieser Verbindung nachgeht: nicht dem einzelnen Teilchen, sondern dem, was zwei Teilchen über jede Distanz hinweg miteinander verknüpft.</p>
           <p class="vb-intro">Zeilinger wurde 1945 in Ried im Innkreis geboren, studierte Physik und Mathematik in Wien und promovierte am Atominstitut bei Helmut Rauch. Von 1999 bis 2013 war er Professor für Experimentalphysik an der Universität Wien, von 2004 bis 2013 Direktor des Instituts für Quantenoptik und Quanteninformation (IQOQI) und von 2013 bis 2022 Präsident der Österreichischen Akademie der Wissenschaften. Ein Weg, der sich über Jahrzehnte von der einzelnen Messung zur institutionellen Verantwortung für ein ganzes Wissenschaftssystem ausdehnte.</p>
         </blockquote>
 
@@ -2184,7 +2244,7 @@ export function antonZeilingerPortraitPage() {
 
         <h2 class="vb-section">6. Der Heilungsweg: Vom Horten zum Teilen aus Fülle</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Fünf führt von der Frage <em>Reicht mein Wissen, meine Energie, meine Zeit überhaupt?</em> zur Erkenntnis <em>Ich habe genug, um zu geben, ohne mich zu verlieren.</em> Zeilingers Weg von der einzelnen Messung im Labor zur Verantwortung für eine ganze Akademie liest sich wie eine gelungene Annäherung an diese Erkenntnis: Wissen, das nicht mehr geschützt werden muss, sondern in Institutionen, Teams und öffentliche Vorträge fließen darf.</p>
+          <p class="vb-intro">Für die Fünf führt der Heilungsweg von der Frage <em>Reicht mein Wissen, meine Energie, meine Zeit überhaupt?</em> zur Erkenntnis <em>Ich habe genug, um zu geben, ohne mich zu verlieren.</em> Zeilingers Weg von der einzelnen Messung im Labor zur Verantwortung für eine ganze Akademie liest sich wie eine gelungene Annäherung an diese Erkenntnis: Wissen, das nicht mehr geschützt werden muss, sondern in Institutionen, Teams und öffentliche Vorträge fließen darf.</p>
           <p class="vb-intro">Dass er sein Engagement für die Grundlagenforschung auch nach dem Karrierehöhepunkt Nobelpreis unvermindert fortsetzte, zeigt eine Fünf, die gelernt hat, aus Fülle zu geben statt aus Mangel zu horten – der Oktopus, dessen Arme sich nicht mehr zurückziehen müssen, sobald sie einmal ausgestreckt sind.</p>
         </blockquote>
 
@@ -2220,7 +2280,7 @@ export function mariaCallasPortraitPage() {
 
         <h2 class="vb-section">1. Der Waschbär, der sich eine Stimme neu erarbeitete</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das aus wenig geschickten Händen ein funktionierendes System baut, still und beharrlich, ohne auf günstige Startbedingungen zu warten. Maria Callas wurde 1923 in New York als Kind griechischer Einwanderer geboren, wuchs unter einer fordernden Mutter auf, die früh erkannte, dass die Stimme der Tochter etwas Besonderes war – und ab da keinen Zweifel daran ließ, dass daraus etwas werden musste. Mit dreizehn zog die Familie nach Athen, wo Callas am Konservatorium bei Elvira de Hidalgo eine Ausbildung begann, die zur Grundlage ihres gesamten späteren Könnens wurde.</p>
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Sinnbild der selbsterhaltenden Drei – ein Tier, das aus wenig geschickten Händen ein funktionierendes System baut, still und beharrlich, ohne auf günstige Startbedingungen zu warten. Maria Callas wurde 1923 in New York als Kind griechischer Einwanderer geboren, wuchs unter einer fordernden Mutter auf, die früh erkannte, dass die Stimme der Tochter etwas Besonderes war – und ab da keinen Zweifel daran ließ, dass daraus etwas werden musste. Mit dreizehn zog die Familie nach Athen, wo Callas am Konservatorium bei Elvira de Hidalgo eine Ausbildung begann, die zur Grundlage ihres gesamten späteren Könnens wurde.</p>
           <p class="vb-intro">Wie Enrico Caruso (SE3w2, siehe <a href="javascript:void(0)" data-route="beruehmte-enrico-caruso">Porträt</a>) – ebenfalls ein selbsterhaltender Dreier mit Zweierflügel – war auch bei Callas keine Rede von müheloser Begabung: Was später wie natürliche Größe wirkte, war das Ergebnis jahrelanger, oft schmerzhafter technischer Arbeit an einer Stimme, die erst durch Disziplin zu dem wurde, was die Musikwelt revolutionierte.</p>
         </blockquote>
 
@@ -2284,7 +2344,7 @@ export function henryShukmanPortraitPage() {
 
         <h2 class="vb-section">1. Der Biber, der erst suchte, bevor er baute</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier der sozialen Sieben: wach, in ständiger Bewegung – jedoch nie ziellos, sondern immer auf ein Bauwerk hin, das größer ist als er selbst. Henry Shukman wurde 1962 in Oxford als Sohn zweier Universitätsprofessoren geboren, wuchs jedoch mit chronischem Ekzem, Angst und Depression auf, die ihn bereits in der Kindheit begleiteten. Mit neunzehn Jahren erlebte er ein spontanes spirituelles Erwachen – ein Ereignis, das er selbst über Jahrzehnte hinweg erst allmählich zu verstehen und zu integrieren lernte.</p>
+          <p class="vb-intro">Der <strong>Biber</strong> gilt als das Tier der sozialen Sieben: wach, in ständiger Bewegung – jedoch nie ziellos, sondern immer auf ein Bauwerk hin, das größer ist als er selbst. Henry Shukman wurde 1962 in Oxford als Sohn zweier Universitätsprofessoren geboren, wuchs jedoch mit chronischem Ekzem, Angst und Depression auf, die ihn bereits in der Kindheit begleiteten. Mit neunzehn Jahren erlebte er ein spontanes spirituelles Erwachen – ein Ereignis, das er selbst über Jahrzehnte hinweg erst allmählich zu verstehen und zu integrieren lernte.</p>
           <p class="vb-intro">Bevor er zum Zen-Lehrer wurde, arbeitete Shukman als Posaunist, als Fischtrawler-Matrose und als Reiseschriftsteller – drei völlig unterschiedliche Lebenswege, die er nacheinander mit vollem Einsatz verfolgte. Sein erstes Buch, ›Sons of the Moon‹ (1989), beschrieb eine Reise durch die entlegensten Regionen Boliviens; es folgten ›Travels with my Trombone‹ über ein Jahr als Calypso- und Salsa-Musiker in der Karibik und Kolumbien sowie ›Savage Pilgrims‹, eine Spurensuche nach D. H. Lawrence in New Mexico – demselben Bundesstaat, in dem Shukman Jahrzehnte später sein geistiges Zuhause finden sollte.</p>
         </blockquote>
 
@@ -2308,14 +2368,14 @@ export function henryShukmanPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten der sozialen Sieben mit Sechserflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO7w6 zeigt sich darin, eine frühe, überwältigende Erfahrung nicht impulsiv zu vermarkten, sondern sie über Jahrzehnte in eine belastbare, für viele Menschen zugängliche Lehre zu übersetzen – von der Einzelerfahrung zur skalierbaren App mit globaler Reichweite.</p>
+          <p class="vb-intro">Was die SO7w6 auszeichnet, zeigt sich darin, eine frühe, überwältigende Erfahrung nicht impulsiv zu vermarkten, sondern sie über Jahrzehnte in eine belastbare, für viele Menschen zugängliche Lehre zu übersetzen – von der Einzelerfahrung zur skalierbaren App mit globaler Reichweite.</p>
           <p class="vb-intro">Die Leidenschaft der Sieben ist <strong>Maßlosigkeit</strong> – bei der sozialen Sieben äußert sie sich als rastloses Sammeln neuer Rollen und Ausdrucksformen. Shukmans Weg vom Posaunisten über den Fischtrawler-Matrosen und Reiseschriftsteller bis zum Zen-Lehrer ließe sich auch als eine Flucht vor der eigenen, kindlich erworbenen Angst und Depression lesen – ein rastloses Ausprobieren neuer Identitäten, bis eine davon tief genug trug, um die zugrunde liegende Not tatsächlich zu heilen, statt sie nur zu überdecken.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Das Vermächtnis: Von der Flucht zur Lehre</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Henry Shukman verwandelte eine Kindheit voller körperlicher und seelischer Not sowie ein frühes, überwältigendes spirituelles Erlebnis über Jahrzehnte in eine strukturierte, überprüfbare Lehre – zugänglich sowohl im traditionellen Retreat-Format als auch über eine moderne App für ein digitales Millionenpublikum.</p>
-          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-franz-von-assisi">Franz von Assisi</a> (SO7w6) – auch bei ihm verwandelte sich eine frühe existenzielle Krise über Jahre in eine dauerhafte, weithin wirksame spirituelle Institution. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-franz-von-assisi">Porträt zu Franz von Assisi</a>.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-franz-von-assisi">Franz von Assisi</a> (SO7w6) – auch bei ihm verwandelte sich eine frühe existenzielle Krise über Jahre in eine dauerhafte, weithin wirksame spirituelle Institution. Ausführlicher steht das im <a href="javascript:void(0)" data-route="beruehmte-franz-von-assisi">Porträt zu Franz von Assisi</a>.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
@@ -2351,7 +2411,7 @@ export function madsMikkelsenPortraitPage() {
 
         <h2 class="vb-section">1. Das Faultier</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 – ein Tier, das sich mit dem einen Ast, auf dem es sitzt, vollständig verbindet, statt ständig nach einem besseren zu suchen. Mads Mikkelsen, geboren 1965 im Kopenhagener Arbeiterviertel Østerbro als Sohn eines Bankangestellten und einer Apothekenangestellten, verbrachte fast ein Jahrzehnt nicht als Schauspieler, sondern als Turner und Tänzer, bevor er überhaupt vor eine Kamera trat. Diese Jahre disziplinierter körperlicher Ausbildung prägen bis heute jede seiner Rollen.</p>
+          <p class="vb-intro">Das <strong>Faultier</strong> gilt als das Tier des sexuellen Typs 9 – ein Tier, das sich mit dem einen Ast, auf dem es sitzt, vollständig verbindet, statt ständig nach einem besseren zu suchen. Mads Mikkelsen, geboren 1965 im Kopenhagener Arbeiterviertel Østerbro als Sohn eines Bankangestellten und einer Apothekenangestellten, verbrachte fast ein Jahrzehnt nicht als Schauspieler, sondern als Turner und Tänzer, bevor er überhaupt vor eine Kamera trat. Diese Jahre disziplinierter körperlicher Ausbildung prägen bis heute jede seiner Rollen.</p>
           <p class="vb-intro">Erst über die Tanzausbildung an der dänischen Nationalen Schule für darstellende Kunst fand er zur Schauspielerei – kein früher, lauter Ruf nach der Bühne, sondern ein allmähliches Hineinwachsen in ein Medium, in dem sich seine körperliche Disziplin auf neue Weise ausdrücken konnte. Genau dieser ruhige, unspektakuläre Übergang ist typisch für das Faultier: Es wechselt den Ast nicht aus Ehrgeiz, sondern weil sich eine neue, stimmigere Verbindung ergibt.</p>
         </blockquote>
 
@@ -2386,9 +2446,11 @@ export function madsMikkelsenPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"beruehmte-viggo-mortensen", label:"Porträt: Viggo Mortensen (SX9w1)"},
         {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
         {route:"beruehmte-kris-marshall", label:"Porträt: Kris Marshall (SX9w1)"},
         {route:"beruehmte-sophie-marceau", label:"Portrait: Sophie Marceau (SX9w1)"},
+        {route:"beruehmte-richy-mueller", label:"Porträt: Richy M\u00fcller (SX9w1)"},
       ])}
     </div>
   `);
@@ -2411,13 +2473,13 @@ export function franzJosefStraussPortraitPage() {
 
         <h2 class="vb-section">1. Der Orang-Utan</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Orang-Utan</strong> ist das Tier des selbsterhaltenden Typs 8 – der solitärste der Menschenaffen, der kein Rudel braucht, um seine Stellung zu behaupten. Er beherrscht sein eigenes Revier mit stiller, unübersehbarer Macht, duldet keine ernsthafte Konkurrenz darin und verteidigt seinen Besitzstand mit einer Entschlossenheit, die keiner Rechtfertigung bedarf. Zugleich ist er ein geduldiger Stratege: Er handelt nicht aus dem Affekt, sondern wählt den Moment, in dem sein Zugriff am wirkungsvollsten ist.</p>
+          <p class="vb-intro">Der <strong>Orang-Utan</strong> gilt als das Tier des selbsterhaltenden Typs 8 – der solitärste der Menschenaffen, der kein Rudel braucht, um seine Stellung zu behaupten. Er beherrscht sein eigenes Revier mit stiller, unübersehbarer Macht, duldet keine ernsthafte Konkurrenz darin und verteidigt seinen Besitzstand mit einer Entschlossenheit, die keiner Rechtfertigung bedarf. Zugleich ist er ein geduldiger Stratege: Er handelt nicht aus dem Affekt, sondern wählt den Moment, in dem sein Zugriff am wirkungsvollsten ist.</p>
           <p class="vb-intro">Franz Josef Strauß, 1915 als Sohn eines Metzgermeisters in München geboren, baute sich aus bürgerlich-bescheidenen Verhältnissen über drei Jahrzehnte zum mächtigsten Mann Bayerns auf: Bundesverteidigungsminister, Bundesfinanzminister, von 1978 bis zu seinem Tod 1988 bayerischer Ministerpräsident und CSU-Parteivorsitzender über fast drei Jahrzehnte. Der Orang-Utan, der sein Revier – den Freistaat Bayern – so vollständig durchdrang, dass seine Herrschaft dort bis heute sprichwörtlich ist.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die selbsterhaltende Acht: Macht als Existenzfrage</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Acht (SE8)</strong> drückt die Leidenschaft der Acht – die <em>Wollust</em>, verstanden als Hunger nach Intensität und uneingeschränkter Selbstbestimmung – unmittelbar über Besitz, Territorium und Ressourcensicherung aus. Naranjo nannte diesen Subtyp <em>Satisfacción</em>: Das eigene Überleben, der eigene Einfluss, die eigene Unabhängigkeit müssen gesichert sein, bevor an irgendetwas anderes gedacht wird. Es geht nicht um Prahlerei, sondern um das tiefe Wissen: Nur wer selbst fest steht, kann nicht verdrängt werden.</p>
+          <p class="vb-intro">Die <strong>selbsterhaltende Acht (SE8)</strong> drückt die Leidenschaft der Acht – die <em>Wollust</em>, verstanden als Hunger nach Intensität und uneingeschränkter Selbstbestimmung – unmittelbar über Besitz, Territorium und Ressourcensicherung aus. Nach Naranjo steht dieser Subtyp für <em>Satisfacción</em>: Das eigene Überleben, der eigene Einfluss, die eigene Unabhängigkeit müssen gesichert sein, bevor an irgendetwas anderes gedacht wird. Es geht nicht um Prahlerei, sondern um das tiefe Wissen: Nur wer selbst fest steht, kann nicht verdrängt werden.</p>
           <p class="vb-intro">Strauß' politischer Stil war genau das: direkt, konfrontativ, nie um ein deftiges Wort verlegen. Seine jährlichen Reden beim Politischen Aschermittwoch der CSU in Passau wurden zum Fixpunkt der bundesdeutschen Streitkultur – Attacken auf politische Gegner, in einer Bildsprache, die keinen Interpretationsspielraum ließ. Die Spiegel-Affäre 1962, als er als Verteidigungsminister die Verhaftung mehrerer Spiegel-Journalisten wegen eines Artikels über die Bundeswehr veranlasste, kostete ihn das Amt – zeigte aber genau jene SE8-Haltung, das eigene Terrain notfalls auch gegen die Pressefreiheit zu verteidigen, ungeachtet der politischen Kosten.</p>
         </blockquote>
 
@@ -2436,7 +2498,7 @@ export function franzJosefStraussPortraitPage() {
         <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Acht mit Neunerflügel</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SE8w9 zeigt sich in Strauß' Fähigkeit, Durchsetzungskraft mit strategischer Weitsicht zu verbinden: Er baute nicht nur Macht auf, sondern nutzte sie, um konkrete industriepolitische Grundlagen zu schaffen, die Bayern bis heute tragen.</p>
-          <p class="vb-intro">Der Schatten liegt in der Kehrseite derselben Durchsetzungskraft: Die Spiegel-Affäre blieb nicht die einzige Episode, in der Strauß demokratische Institutionen und die Pressefreiheit als Hindernisse behandelte, die notfalls mit Macht beiseitegeschoben werden durften, statt als Grenzen, die auch für den Mächtigsten gelten. Seine polarisierende Rhetorik, die politische Gegner oft persönlich und unversöhnlich angriff, vertiefte Gräben in der bundesdeutschen Gesellschaft, die teils bis heute nachwirken.</p>
+          <p class="vb-intro">Der dunkle Teil liegt in der Kehrseite derselben Durchsetzungskraft: Die Spiegel-Affäre blieb nicht die einzige Episode, in der Strauß demokratische Institutionen und die Pressefreiheit als Hindernisse behandelte, die notfalls mit Macht beiseitegeschoben werden durften, statt als Grenzen, die auch für den Mächtigsten gelten. Seine polarisierende Rhetorik, die politische Gegner oft persönlich und unversöhnlich angriff, vertiefte Gräben in der bundesdeutschen Gesellschaft, die teils bis heute nachwirken.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Zwei Orang-Utans, zwei Revierformen: Strauß und Golda Meir</h2>
@@ -2448,12 +2510,20 @@ export function franzJosefStraussPortraitPage() {
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
+        <h2 class="vb-section">7. Ein Gedanke aus der Homöopathie: das Bild des Prinzen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Enneagramm-Homöopathie dieses Kompasses ist dem Typ 8 das Mittel Veratrum album (Weißer Germer) zugeordnet (mehr unter <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a>). Zu seiner Hauptvorstellung gehört in der Repertoriumssprache die Vorstellung, ein Prinz zu sein. Gemeint ist keine Überlegenheit im Sinn des Maßstabs wie beim Typ 1, sondern eine der Macht: Ich habe hier die Vormachtstellung, ich bin derjenige, der entscheidet. Bei Strauß zeigt sich das in seiner Stellung in Bayern: Über Jahrzehnte festigte er seine Macht in der Partei, war von 1961 bis 1988 CSU-Vorsitzender und von 1978 bis 1988 bayerischer Ministerpräsident.</p>
+          <p class="vb-intro">In Kents Repertorium steht in der Rubrik ›prince, is a‹ genau ein Mittel: Veratrum album. Gemeint ist ein Vergleich von Bildern. Er enthält keine Aussage über den Gesundheitszustand eines Menschen, keine Empfehlung und keinen Ersatz für Beratung durch Ärzte oder Heilkundige.</p>
+        </blockquote>
+
+
       </div>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se8", label:"SE8 – Der Orang-Utan: Subtyp-Profil"},
         {route:"lebensmusterkompass/se8", label:"Lebensmusterkompass: SE8 – Orang-Utan"},
         {route:"beruehmte-golda-meir", label:"Porträt: Golda Meir (SE8w9)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagramm &amp; Homöopathie"},
       ])}
     </div>
   `);
@@ -2483,13 +2553,13 @@ export function naviPillayPortraitPage() {
         <h2 class="vb-section">2. Die soziale Eins: Gerechtigkeit als institutionelles Prinzip</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> richtet ihren Perfektionismus nicht auf die eigene private Integrität (wie die SE1) oder eine persönliche Mission (wie die SX1), sondern auf die Korrektur und den verlässlichen Aufbau kollektiver Strukturen: Gesetze, Gerichte, internationale Institutionen. Pillays gesamte Laufbahn ist eine einzige Kette solcher institutioneller Korrekturarbeit: Als Verteidigerin politischer Gefangener erstritt sie 1973 ein wegweisendes Urteil, das politischen Häftlingen auf Robben Island – darunter Nelson Mandela – erstmals einklagbare Rechte zusicherte.</p>
-          <p class="vb-intro">1995 wurde sie als erste nicht-weiße Frau Richterin am Obersten Gerichtshof Südafrikas, im selben Jahr auch an das UN-Ruanda-Tribunal (ICTR) berufen, dessen Präsidentschaft sie von 1999 bis 2003 innehatte. Im Verfahren gegen Jean-Paul Akayesu erwirkte ihre Kammer ein historisches Grundsatzurteil: Erstmals wurde systematische sexuelle Gewalt völkerrechtlich als Mittel des Völkermords anerkannt – nicht als Begleiterscheinung, sondern als eigenständiger Tatbestand. Das ist die soziale Eins in Reinform: eine Lücke im bestehenden Recht wird nicht beklagt, sondern durch präzise juristische Arbeit geschlossen, für alle zukünftigen Fälle verbindlich.</p>
+          <p class="vb-intro">1995 wurde sie als erste nicht-weiße Frau Richterin am Obersten Gerichtshof Südafrikas, im selben Jahr auch an das UN-Ruanda-Tribunal (ICTR) berufen, dessen Präsidentschaft sie von 1999 bis 2003 innehatte. Im Verfahren gegen Jean-Paul Akayesu erwirkte ihre Kammer ein historisches Grundsatzurteil: Erstmals wurde systematische sexuelle Gewalt völkerrechtlich als Mittel des Völkermords anerkannt – nicht als Begleiterscheinung, sondern als eigenständiger Tatbestand. Hier wirkt die soziale Eins in Reinform: eine Lücke im bestehenden Recht wird nicht beklagt, sondern durch präzise juristische Arbeit geschlossen, für alle zukünftigen Fälle verbindlich.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Neunerflügel: Sachliche Autorität statt Anklage</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Neunerflügel</strong> nimmt der Eins die persönliche, anklagende Schärfe und ersetzt sie durch eine ruhige, fast unerschütterliche Sachlichkeit. Pillay tritt öffentlich nie als zornige Anklägerin auf, sondern als juristisch präzise, zurückhaltend formulierende Autorität – selbst in den politisch explosivsten Momenten ihrer Karriere. Als sie 2021 die unabhängige UN-Untersuchungskommission zu Israel und den palästinensischen Gebieten übernahm und diese 2025 zu dem Schluss kam, dass Israel in Gaza Völkermord begehe, tat sie das in trockenem Berichtston, gestützt auf Dokumentation und Rechtsgrundsätze – nicht in der Sprache des Aktivismus.</p>
-          <p class="vb-intro">Dieselbe gelassene Note zeigte sich bei der Verleihung des Friedensnobelpreises 2026: Auf den stehenden Applaus des Publikums reagierte sie mit einem trockenen Scherz über den enttäuschten Mitbewerber Donald Trump – „Wenn Sie noch etwas mehr klatschen, teile ich den Preis vielleicht mit ihm" –, ohne die eigene Leistung larmoyant zu feiern oder den politischen Gegner frontal anzugreifen. Genau das ist der Neunerflügel: Haltung bewahren, auch wenn die Lage zum lauten Triumph einlädt.</p>
+          <p class="vb-intro">Dieselbe gelassene Note zeigte sich bei der Verleihung des Friedensnobelpreises 2026: Auf den stehenden Applaus des Publikums reagierte sie mit einem trockenen Scherz über den enttäuschten Mitbewerber Donald Trump – „Wenn Sie noch etwas mehr klatschen, teile ich den Preis vielleicht mit ihm" –, ohne die eigene Leistung larmoyant zu feiern oder den politischen Gegner frontal anzugreifen. Genau das zeigt der Neunerflügel: Haltung bewahren, auch wenn die Lage zum lauten Triumph einlädt.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: Vom Robben-Island-Urteil zum Nobelpreis</h2>
@@ -2501,7 +2571,7 @@ export function naviPillayPortraitPage() {
         <h2 class="vb-section">5. Licht und Schatten der sozialen Eins</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Im Licht zeigt sich bei Pillay eine über mehr als fünfzig Jahre durchgehaltene, nie unterbrochene Linie institutioneller Reformarbeit – von der Verteidigung einzelner politischer Gefangener bis zur Mitgestaltung des modernen Völkerstrafrechts. Ihre Fähigkeit, komplexe Sachverhalte in verbindliche Rechtsprechung zu übersetzen, veränderte internationales Recht dauerhaft.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Eins ist der <strong>Zorn</strong> – bei der SO1w9 kanalisiert in unermüdliche institutionelle Korrekturarbeit, selten in offener persönlicher Schärfe sichtbar. Der Schatten zeigt sich dort, wo diese institutionelle Autorität selbst politisch umstritten wird: Ihr Bericht zu Gaza 2025 brachte ihr scharfe Vorwürfe der Einseitigkeit seitens Israels und seiner Verbündeten ein, die ihr vorwarfen, mit dem Völkermord-Vorwurf selbst eine politische Position einzunehmen, statt neutral zu bleiben – ein Konflikt, der zeigt, wie schwer sich selbst die sachlichste SO1-Autorität der Politisierung entziehen kann, sobald ihr Urteil mächtige Interessen trifft.</p>
+          <p class="vb-intro">Die Leidenschaft der Eins ist der <strong>Zorn</strong> – bei der SO1w9 kanalisiert in unermüdliche institutionelle Korrekturarbeit, selten in offener persönlicher Schärfe sichtbar. Als Schatten zeigt sich dort, wo diese institutionelle Autorität selbst politisch umstritten wird: Ihr Bericht zu Gaza 2025 brachte ihr scharfe Vorwürfe der Einseitigkeit seitens Israels und seiner Verbündeten ein, die ihr vorwarfen, mit dem Völkermord-Vorwurf selbst eine politische Position einzunehmen, statt neutral zu bleiben – ein Konflikt, der zeigt, wie schwer sich selbst die sachlichste SO1-Autorität der Politisierung entziehen kann, sobald ihr Urteil mächtige Interessen trifft.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der Heilungsweg: Von der institutionellen Strenge zur gelassenen Gewissheit</h2>
@@ -2522,6 +2592,372 @@ export function naviPillayPortraitPage() {
         {route:"beruehmte-hillary-clinton", label:"Porträt: Hillary Clinton (SO1w2) – anderer Flügel"},
         {route:"beruehmte-rosa-luxemburg", label:"Porträt: Rosa Luxemburg (SO1w9) – ebenfalls kompromisslose theoretisch-juristische Präzisionsarbeit gegen mehrfache gesellschaftliche Marginalisierung"},
       ])}
+    </div>
+  `);
+}
+
+export function augusteRodinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-auguste-rodin-portrait.jpg" alt="Auguste Rodin – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-auguste-rodin-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Auguste Rodin</p>
+        <p class="krim-portrait-typ">SX9w8 &middot; Sexueller Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Bildhauer, 1840&ndash;1917 &ndash; Schöpfer von ›Der Denker‹ und ›Die Bürger von Calais‹ &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier: ein Autodidakt, der sich dem Lehm verschrieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier der sexuellen Neun. Es ist kein Sinnbild für Trägheit, sondern für ein Wesen, das so lange an einem Ort bleibt und so langsam arbeitet, dass es mit seiner Umgebung eins wird. Auguste Rodin wurde am 12. November 1840 als Sohn eines Polizeischreibers in eine Pariser Arbeiterfamilie geboren. Er war weitgehend Autodidakt und zeichnete schon mit zehn Jahren. Von 14 bis 17 besuchte er die Petite École, wo der Lehrer Horace Lecoq de Boisbaudran die Schüler anhielt, aus dem Gedächtnis zu zeichnen. Die École des Beaux-Arts, die Pariser Kunsthochschule, lehnte ihn 1857 ab, und zwei weitere Bewerbungen scheiterten ebenfalls.</p>
+          <p class="vb-intro">Er ging deshalb den langen Weg. Rund zwei Jahrzehnte arbeitete er als Kunsthandwerker und Ornamentbildner, zuletzt als Chefgehilfe bei Albert-Ernest Carrier-Belleuse, und er lebte bis etwa zu seinem dreißigsten Lebensjahr in knappen Verhältnissen. Danach verbrachte er sechs Jahre außerhalb Frankreichs, vor allem in Belgien. Bekannt wurde er erst mit Mitte dreißig.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung mit dem Werk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den Subtyp der sexuellen Neun den der Vereinigung. Gemeint ist die Neigung, im Gegenüber oder in einer Sache aufzugehen, bis die Grenze zum eigenen Ich verschwimmt. Bei Rodin lässt sich das mit seiner Art zu arbeiten in Verbindung bringen. Er studierte seine Modelle von allen Seiten, stieg auf eine Leiter, um sie von oben zu sehen, und betrachtete die Tonmodelle bei Kerzenlicht. Er bevorzugte Modelle, die sich natürlich bewegten, statt akademische Posen einzunehmen. Das lässt sich als Hingabe an den Gegenstand lesen, nicht als Darstellung von außen.</p>
+          <p class="vb-intro">Eine biografische Zäsur gehört dazu, wie sie bei diesem Subtyp häufig vorkommt. 1862 starb seine Schwester Maria in einem Kloster. Rodin machte sich Vorwürfe, weil er sie mit einem untreuen Verehrer bekannt gemacht hatte. Im selben Jahr trat er für kurze Zeit als Laienbruder in einen katholischen Orden ein und verließ ihn wieder. Nach den Berichten ermunterte ihn der Gründer des Ordens, zur Bildhauerei zurückzukehren. Aus dem Bruch wurde die Hingabe, die ihn für den Rest seines Lebens trug.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Weigerung und Härte, wenn das Werk angegriffen wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> schenkt der Neun Kraft und die Bereitschaft, sich zu wehren, wenn etwas Wesentliches bedroht ist. Bei Rodin zeigt sich das vor allem bei Angriffen auf sein Werk. Als 1877 sein ›L'Âge d'airain‹ (›Das eherne Zeitalter‹) den Vorwurf traf, es sei am lebenden Modell abgegossen, widersprach er heftig, schrieb an Zeitungen, ließ Fotografien anfertigen und verlangte eine Untersuchung, bis eine Kommission von Bildhauern ihn entlastete.</p>
+          <p class="vb-intro">Als der Gemeinderat von Calais bei ›Les Bourgeois de Calais‹ (›Die Bürger von Calais‹) einen heroischeren Entwurf verlangte, war Rodin bereit, das Projekt abzubrechen, statt nachzugeben. Die Stadt bat ihn schließlich fortzufahren. Als die Schriftstellervereinigung sein ›Balzac‹ 1898 ablehnte und die Presse es verspottete, zahlte er das Honorar zurück, stellte die Figur in seinen Garten und nahm keine öffentlichen Aufträge mehr an. Die Neun gibt nach, bis es um das Eigene geht. Dann wird sie unnachgiebig.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: der Körper in Bewegung und das Fragment als Werk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Rodin löste die Bildhauerei von der glatten, idealisierten Form seiner Zeit. Nach einer Italienreise 1875 sagte er später, Michelangelo habe ihn von der akademischen Bildhauerei befreit. Seine Figuren haben bewegte, bewusst nicht geglättete Oberflächen, auf denen das Licht arbeitet, und sie zeigen Menschen in inneren Konflikten statt in heroischer Pose. Bei den ›Bürgern von Calais‹ (1884 bis 1889), einem Auftrag nach den Chroniken von Jean Froissart über den Hundertjährigen Krieg, zeigte er sechs Männer, die ihr Leben anboten, um die Stadt zu retten, in widerstreitenden Gefühlen statt als geschlossene Heldengruppe.</p>
+          <p class="vb-intro">1880 erhielt er den Auftrag für ein Portal eines geplanten Museums für dekorative Künste in Paris, das nie gebaut wurde. An ›La Porte de l'Enfer‹ (›Das Höllentor‹) arbeitete er die nächsten vier Jahrzehnte, und es blieb unvollendet. Es wuchs auf 186 Figuren an, und aus ihm lösten sich Werke wie ›Le Penseur‹ (›Der Denker‹), ursprünglich ›Der Dichter‹ nach Dante, und ›Le Baiser‹ (›Der Kuss‹), die er später als eigene Arbeiten zeigte. Er behandelte Gipsabgüsse als Rohmaterial und setzte sie neu zusammen, und er betrachtete Fragmente als eigenständige Kunstwerke. ›L'Homme qui marche‹ (›Der schreitende Mann‹) besteht aus einem beschädigten Torso und den Beinen einer kleineren Figur. Geschickte Gehilfen vergrößerten seine Tonmodelle und übertrugen sie in Gips, Bronze und Marmor. Zwischen 1877 und 1917 entstanden mindestens 56 Porträts, und der Kunsthistoriker Kenneth Clark nannte den ›Balzac‹ später vielleicht die größte Skulptur des 19. Jahrhunderts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Rose, Camille und das Nicht-Entscheiden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Beziehungen sind das aufschlussreichste Feld. Rose Beuret lebte seit 1864 mit ihm, 1866 wurde ihr Sohn Auguste-Eugène geboren, um den sich Rodin über lange Zeit kaum kümmerte. Rose blieb im Hintergrund, und er heiratete sie erst am 29. Januar 1917, wenige Wochen vor ihrem Tod am 14. Februar. 1883 begegnete ihm die 18-jährige <a href="javascript:void(0)" data-route="beruehmte-camille-claudel">Camille Claudel</a> (SX4w5), er war 42. Sie wurde Schülerin, Mitarbeiterin und Geliebte und blieb es bis 1898. Biografen berichten, er habe ihr Treue zugesichert, doch er blieb bei Rose. Ob und wie verbindlich diese Zusage war, ist umstritten.</p>
+          <p class="vb-intro">Ab 1904 war Gwen John zunächst sein Modell und danach seine Geliebte. Sie schrieb ihm in rund zehn Jahren Tausende Briefe, und als die Beziehung endete, hielt er sie über Pförtner und Sekretäre auf Abstand. Ab 1908 hatte er eine Beziehung zur Herzogin von Choiseul. Das Muster ist über Jahrzehnte dasselbe: Er trennte sich von niemandem und entschied nichts. Das passt zur Neun, die Konflikte meidet, indem sie die Dinge in der Schwebe lässt. Auch die Verbindung zu Camille Claudel lässt sich so verstehen: Eine sexuelle Vier wie sie sucht Ausschließlichkeit und volle Hingabe. Rodin legte sich ihr gegenüber nie eindeutig fest, weder für sie noch gegen sie, und konnte ihr deshalb nicht geben, was sie suchte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sexuellen Neun mit Achterflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w8 liegt bei Rodin in der Ausdauer, mit der er ein Werk über Jahrzehnte trug, und in der Standfestigkeit, mit der er sich weigerte, sein Verständnis von Form dem Geschmack seiner Zeit anzupassen. Zur Weltausstellung 1900 wurde ein eigener Pavillon mit seinen Werken eingerichtet, der Bestellungen für Büsten aus aller Welt brachte. Sein Landsitz in Meudon, den er und Rose 1897 erwarben, empfing Gäste wie König Edward VII. und <a href="javascript:void(0)" data-route="beruehmte-isadora-duncan">Isadora Duncan</a> (SX2w3). 1908 mietete er das Hôtel Biron in Paris, 1914 schenkte er Großbritannien eine Auswahl von Werken, und sein Atelier und die Vervielfältigungsrechte vermachte er dem französischen Staat. Das Musée Rodin wurde 1916 gegründet und 1919 im Hôtel Biron eröffnet.</p>
+          <p class="vb-intro">Der dunkle Teil liegt dort, wo das Nicht-Entscheiden andere kostet. Rose blieb jahrzehntelang im Hintergrund, Camille Claudel zog sich nach der Trennung 1898 zurück und wurde 1913 in eine Anstalt eingewiesen, Gwen John wurde auf Abstand gehalten. Es ist ein Muster aus Rodins Lebensweg, und es gibt keinen Anlass, es auf andere Menschen dieses Subtyps zu übertragen. Er starb am 17. November 1917 im Alter von 77 Jahren in Meudon. Auf seinen Wunsch steht eine Fassung des ›Denkers‹ an seinem Grab.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Verwandte Muster: Dakota Johnson und Heike Makatsch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dieselbe Verbindung aus Verschmelzung und Standfestigkeit zeigt sich bei <a href="javascript:void(0)" data-route="beruehmte-dakota-johnson">Dakota Johnson</a> (SX9w8) und <a href="javascript:void(0)" data-route="beruehmte-heike-makatsch">Heike Makatsch</a> (SX9w8), bei denen nach außen Ruhe herrscht und die bei Grenzüberschreitungen deutlich werden. Rodin ist das Beispiel eines Künstlers, dessen Laufbahn für sich genommen auch zur Vier passen würde. Das Grundmuster aus Vermeidung von Entscheidungen im Privaten, Hingabe an das Werk und Härte bei Angriffen spricht in diesem Kompass für die sexuelle Neun, und in seiner Verbindung mit <a href="javascript:void(0)" data-route="beruehmte-camille-claudel">Camille Claudel</a> (SX4w5) zeigt sich, wie verschieden zwei Menschen gestrickt sein können, die ein Handwerk teilen.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx9", label:"Lebensmusterkompass: SX9 – Faultier"},
+        {route:"beruehmte-camille-claudel", label:"Porträt: Camille Claudel (SX4w5) – Schülerin, Geliebte und Rivalin"},
+        {route:"beruehmte-isadora-duncan", label:"Porträt: Isadora Duncan (SX2w3) – Gast in Meudon"},
+        {route:"beruehmte-dakota-johnson", label:"Porträt: Dakota Johnson (SX9w8) – derselbe Subtyp und Flügel"},
+        {route:"beruehmte-heike-makatsch", label:"Porträt: Heike Makatsch (SX9w8) – derselbe Subtyp und Flügel"},
+        {route:"krankheitsportraets-camille-claudel", label:"Camille Claudel (SX4w5) – Krankheitsporträt"},
+      ])}
+    </div>
+  `);
+}
+
+export function johnTravoltaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-john-travolta-portrait.jpg" alt="John Travolta – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-john-travolta-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">John Travolta</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexueller Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Amerikanischer Schauspieler, Tänzer und Pilot, geb. 1954 &ndash; &rsaquo;Saturday Night Fever&lsaquo;, &rsaquo;Grease&lsaquo;, &rsaquo;Pulp Fiction&lsaquo; &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse: das Nesthäkchen einer Theaterfamilie aus New Jersey</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> hält nie lange still: Wo etwas schwingt, steigt er ein und zieht die anderen mit. John Travolta wurde am 18. Februar 1954 in Englewood, New Jersey, als jüngstes von sechs Kindern geboren. Sein Vater Salvatore ›Sam‹ Travolta, italienischer Herkunft, war semiprofessioneller Footballspieler und später Reifenhändler, seine Mutter Helen, irischer Herkunft, Schauspielerin und Sängerin, die später an einer Highschool Theater und Englisch unterrichtete. Die Geschwister Joey, Ellen, Ann, Margaret und Sam wurden alle Schauspieler, inspiriert von der Liebe der Mutter zum Theater. Er wuchs katholisch auf, in einem Haus, das er als irisch geprägt beschreibt.</p>
+          <p class="vb-intro">Mit 17 verließ er 1971 die Dwight Morrow High School, ging nach New York und stieg in die Tournee des Musicals ›Grease‹ ein, als Doody. Es folgten der Broadway (›Over Here!‹), kleine Fernsehrollen wie in ›Emergency!‹ (1972), 1976 der Raufbold Billy Nolan in Brian De Palmas ›Carrie‹ und von 1975 bis 1979 Vinnie Barbarino in der ABC-Serie ›Welcome Back, Kotter‹. Im Juli 1976 erreichte sein Lied ›Let Her In‹ Platz 10 der Billboard Hot 100.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Faszination, die ansteckt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Sieben will Fülle und Bewegung statt Mangel und Stillstand. Die <strong>sexuelle Sieben (SX7)</strong> nannte Claudio Naranjo den Subtyp der ›Suggestibility‹: Sie lässt sich von einem Erleben so vollständig mitreißen, dass sich alle Anwesenden anstecken lassen. Sie wirkt nicht durch Kontrolle, sondern durch Präsenz.</p>
+          <p class="vb-intro">Bei Travolta wird das 1977 sichtbar. ›Saturday Night Fever‹ brachte ihm mit 24 Jahren eine Oscar-Nominierung als bester Hauptdarsteller ein, damals einer der jüngsten Nominierten in dieser Kategorie. 1978 folgte ›Grease‹ als Danny Zuko, dessen Soundtrack auf Platz 1 der Billboard 200 stand. Der Tanz auf der beleuchteten Fläche und das Lied auf der Bühne sind keine Planung, sondern Ansteckung: Der Zuschauer will mittanzen. Auch seine privaten Faszinationen sind nicht zerstreut, sondern gebündelt. Er trat 1975 mit 21 Jahren nach der Lektüre von ›Dianetics‹ der Scientology-Kirche bei. Er ist Privatpilot, besitzt nach der Wikipedia-Angabe vier Flugzeuge und flog eine ehemalige Qantas-Boeing 707, die er ›Jett Clipper Ella‹ nannte; 2007 wurde er in die ›Living Legends of Aviation‹ aufgenommen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: der Durchhalter nach dem Absturz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> schenkt der Sieben Härte und die Weigerung aufzugeben. Eine Sieben mit schwächer ausgeprägtem Achterflügel würde nach einem Absturz ausweichen oder neu anfangen; Travolta bleibt dran. Nach ›Urban Cowboy‹ (1980) folgten Misserfolge: ›Blow Out‹ (1981) war kritisch gelobt und ein Kassenflop, ›Staying Alive‹ (1983) war finanziell ein Erfolg und wurde von der Kritik verrissen, für die Rolle trainierte er intensiv und nahm 20 Pfund ab, ›Two of a Kind‹ (1983) und ›Perfect‹ (1985) fielen durch. Er lehnte Hauptrollen in ›American Gigolo‹, ›An Officer and a Gentleman‹ und ›Splash‹ ab. Mit ›Look Who&rsquo;s Talking‹ (1989) kam die Wende (297 Millionen Dollar Einspiel), 1994 ›Pulp Fiction‹ unter Quentin Tarantino, seine zweite Oscar-Nominierung, und danach ›Get Shorty‹ (1995, Golden Globe), ›Broken Arrow‹, ›Face/Off‹ und weitere.</p>
+          <p class="vb-intro">Auch an einem Projekt hielt er jahrelang fest: ›Battlefield Earth‹ (2000), nach dem Roman von L. Ron Hubbard, den er lange gefördert hatte. Der Film wurde schlecht besprochen, floppte an den Kassen, und seine Darstellung brachte ihm zwei Goldene Himbeeren ein. Darin zeigt sich der Achterflügel: Er steht zu dem, woran er glaubt, auch gegen alle Wahrscheinlichkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Tanz, Charme und Wandlungsfähigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Travolta verkörpert den Tanz im Kino wie kaum ein Zweiter: Der Stil der weißen Anzüge in ›Saturday Night Fever‹ und die Choreografien von ›Grease‹ gehören zum Bildgedächtnis des 20. Jahrhunderts. Er blieb dabei beweglich. 2007 spielte er in ›Hairspray‹ Edna Turnblad, seine erste Musical-Rolle seit ›Grease‹, 2016 in ›The People v. O. J. Simpson: American Crime Story‹ den Anwalt Robert Shapiro, wofür er für einen Emmy nominiert wurde. Die Lockerheit, mit der er auch Pannen nimmt, zeigt sich 2014 bei der Oscar-Verleihung, als er den Namen von Idina Menzel falsch aussprach, sich entschuldigte und der Ausrutscher zum Internet-Meme wurde. Menzel nannte den Fehler ›eines der besten Dinge, die mir passiert sind‹.</p>
+          <p class="vb-intro">Als Regisseur debütierte er mit ›Propeller One-Way Night Coach‹, einem Film nach seinem eigenen Buch von 1997. Er wurde 2026 bei den Filmfestspielen in Cannes gezeigt, wo er eine Goldene Ehrenpalme erhielt, und erschien am 29. Mai 2026 bei Apple TV.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Celentano, Shakira und Becker</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unter den Porträts dieses Kompasses stehen mehrere SX7w8er, und der Vergleich zeigt, wie die Ansteckung mit Härte verbunden wird. <a href="#beruehmte-adriano-celentano">Adriano Celentano (SX7w8)</a> bringt mit eckig-elastischem Tanz den Rock&rsquo;n&rsquo;Roll nach Italien und ist seit über sechzig Jahren mit derselben Frau verheiratet, der SX7-Fokus auf eine Verbindung. <a href="#beruehmte-shakira">Shakira (SX7w8)</a> verwandelt Tanz in gemeinsamen Rausch und behält die Kontrolle über ihr Werk. <a href="#beruehmte-boris-becker">Boris Becker (SX7w8)</a> zog ein Jahrzehnt lang Menschen mit seiner Intensität mit und stürzte tief.</p>
+          <p class="vb-intro">Travolta liegt dicht bei Celentano: Tanz und Bewegung als Körpersprache und eine große Bindung, die über Jahrzehnte hielt (die Ehe mit Kelly Preston von 1991 bis zu ihrem Tod 2020). Mit Shakira teilt er den Sog der Bühne, mit Becker die Erfahrung von Aufstieg, Absturz und Wiederkehr. Anders als Becker blieb sein Absturz beruflich: Die Rückkehr kam mit ›Pulp Fiction‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sexuellen Sieben mit Achterflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht zeigt sich in der Wärme und der Freude am Tanz und an der Musik. Nach dem Tod seiner Frau sagte er nach Berichten über ein Interview mit ›Esquire España‹ im April 2021, seine Priorität sei, mit seinen Kindern Ella und Ben Freude zu finden, besonders beim Hören von Musik und beim Tanzen. 2020 kündigte er an, sich von der Arbeit zurückzuziehen, um für seine Kinder da zu sein.</p>
+          <p class="vb-intro">Der Schatten der Sieben ist der Schmerz, dem sie ausweichen möchte, und das Leben hat Travolta zweimal damit konfrontiert. Am 2. Januar 2009 starb sein Sohn Jett mit 16 Jahren während einer Weihnachtsreise auf den Bahamas; die Sterbeurkunde nannte einen Krampfanfall. 2014 nannte Travolta das ›das Schlimmste, was mir je passiert ist‹. Er gründete die Jett Travolta Foundation für Kinder mit besonderen Bedürfnissen. Am 12. Juli 2020 starb seine Frau Kelly Preston mit 57 Jahren zu Hause in Clearwater, Florida, zwei Jahre nach ihrer Brustkrebsdiagnose. Er hat gesagt, seine Familie und Scientology hätten ihm geholfen, und dass er nicht gewusst habe, ob er es schaffen werde. Der Achterflügel zeigt sich im Standhalten: Er baute aus dem Verlust eine Stiftung.</p>
+          <p class="vb-intro">Auch schwierige Vorwürfe musste er abwehren: 2012 reichten zwei Masseure Klagen ein, die später zurückgenommen bzw. abgewiesen wurden; sein Anwalt nannte die Anschuldigungen ›völlig erfunden‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Regisseur und Ehrenpalme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 22. Oktober 2026) ist John Travolta 72 Jahre alt. Zuletzt stand nach der Wikipedia-Angabe sein Regiedebüt ›Propeller One-Way Night Coach‹ im Mittelpunkt, das 2026 in Cannes gezeigt und mit einer Goldenen Ehrenpalme ausgezeichnet wurde. Zu seinen Auszeichnungen zählen zwei Oscar-Nominierungen, ein Golden Globe für ›Get Shorty‹ (bei sechs Nominierungen), zwei Emmy-Nominierungen und 2014 ein IIFA-Preis für herausragende Verdienste im internationalen Kino.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-klaus-maria-brandauer", label:"Porträt: Klaus Maria Brandauer (SX7w8)"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx7", label:"Lebensmusterkompass: SX7 – Schimpanse"},
+        {route:"beruehmte-adriano-celentano", label:"Porträt: Adriano Celentano (SX7w8) – derselbe Subtyp und Flügel"},
+        {route:"beruehmte-shakira", label:"Porträt: Shakira (SX7w8)"},
+        {route:"beruehmte-boris-becker", label:"Porträt: Boris Becker (SX7w8)"},
+        {route:"beruehmte-christian-kohlund", label:"Porträt: Christian Kohlund (SX7w8)"},
+        {route:"beruehmte-knossi", label:"Porträt: Knossi (Jens Knossalla) (SX7w8)"},
+        {route:"beruehmte-patrick-stewart", label:"Porträt: Sir Patrick Stewart (SX7w8)"},
+      ])}
+    </div>
+  `);
+}
+
+
+export function rolfZuckowskiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-rolf-zuckowski-portrait.jpg" alt="Rolf Zuckowski – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-rolf-zuckowski-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Rolf Zuckowski</p>
+        <p class="krim-portrait-typ">SE4w3 &middot; Selbsterhaltender Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Liedermacher und Kinderlieder-Autor, geb. 1947 &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube: der leise Wegbegleiter aus Hamburg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist ein leises Tier, das Heimat sucht, Verlässlichkeit zeigt und über Generationen mitten unter den Menschen lebt. Rolf Zuckowski wurde am 12. Mai 1947 in Hamburg geboren, als Sohn eines Seemanns und einer Friseurin, mit drei Geschwistern. 1961 bekam er von seinem Vater eine Gitarre und spielte als Sänger und Gitarrist in der Schulband The Beathovens, die sich 1967 auflöste. Er lebt bis heute in Hamburg-Blankenese.</p>
+          <p class="vb-intro">Nach dem Abitur studierte er ab 1967 Betriebswirtschaft und schloss 1972 mit dem Diplom ab. Danach arbeitete er im Musikverlag Hans Sikorski und als Produzent, Texter und Dirigent für die Schweizer Band Peter, Sue & Marc. Der spätere Kinderlieder-Autor lernte das Geschäft von der Pike auf, bevor er selbst Lieder machte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Beharrlichkeit statt Drama</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Vier trägt ein tiefes Gefühlsleben in sich, und Claudio Naranjo beschrieb die <strong>selbsterhaltende Vier (SE4)</strong> als den Subtyp der Beharrlichkeit: Das Gefühl wird nicht ausgestellt, sondern still, zäh und mit langem Atem getragen. Bei Zuckowski zeigt sich das in der Beständigkeit seiner Arbeit. Seit 1977 (›Rolfs Vogelhochzeit‹) und 1979 (›Rolfs Schulweg-Hitparade‹) schreibt er für Kinder. 2012 kündigte er seinen Rückzug aus dem Showgeschäft an, und doch kamen 2018 das Musical ›Die Weihnachtsbäckerei‹, von 2020 bis 2023 die Videos aus seinem ›Dachstübchen‹, 2022 die Autobiografie ›Ein bisschen Mut, ein bisschen Glück‹ und 2023 das Album ›Reiten ist mehr‹.</p>
+          <p class="vb-intro">Auch sein soziales Engagement trägt diese stille Zähigkeit: Seit 2010 ist er Pate des Kinderhospizes Bethel, seit 2017 ehrenamtlicher Botschafter der Von Bodelschwinghschen Stiftungen Bethel. Wer sich dem Leiden von Kindern aussetzt, muss tragen können, ohne zu klagen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Wirkung und Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> bringt der Vier Ehrgeiz, Zielstrebigkeit und das Gespür dafür, wie etwas wirkt. Bei Zuckowski ist der Flügel deutlich erkennbar: Er ist Diplom-Betriebswirt, hat in der Verlagsbranche gearbeitet und versteht Musik als Produkt, das ankommen muss. Mit mehr als 20 Millionen verkauften Tonträgern gehört er laut Wikipedia zu den erfolgreichsten deutschen Künstlern. 1982 stand er mit ›… und ganz doll mich‹ auf Platz 1 der ZDF-Hitparade, 1984 trug ihn das Guinness-Buch der Rekorde für das ›längste Lied der Welt‹ ein, dessen Zeilen Kinder selbst getextet hatten.</p>
+          <p class="vb-intro">Die Dreier-Seite zeigt sich auch im Auftritt: Das Lied ›In der Weihnachtsbäckerei‹ wurde 1987 in der Show ›Wetten, dass..?‹ vorgestellt und wurde zum Dauerbrenner, den bis heute viele Familien kennen. Der Kerntyp Vier gibt dem Ganzen den Ton, der Dreierflügel sorgt dafür, dass er gehört wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Lieder, in denen Kinder ernst genommen werden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Seine Lieder machen Kinder zu Beteiligten: 1984 stammten die Zeilen des Rekordlieds von Kindern selbst, und seine Weihnachts- und Jahreszeitenlieder werden bis heute in Familien weitergegeben. 1983 entwickelte er das Konzept für das Album ›Tabaluga‹ von <a href="#beruehmte-peter-maffay">Peter Maffay (SX9w1)</a>, 1996 begann die Buchreihe ›Bunte Liedergeschichten‹ im Gerstenberg Verlag.</p>
+          <p class="vb-intro">2011 gründete er mit Detlev Jöcker und <a href="#beruehmte-volker-rosin">Volker Rosin (SX7w6)</a> den Deutschen Kita-Musikpreis. Die Auszeichnungen reichen vom ECHO Pop (1994) und dem Deutschen Musikpreis (2000) über das Verdienstkreuz am Bande (2005) und den ECHO für sein Lebenswerk (2008) bis zur Ernennung zum Ehrenkommissar der Polizei Hamburg (2025). Sein Werk wird von Generationen gesungen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Tim Bendzko und Adele</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Auch unter den SE4w3ern dieses Kompasses stehen Musiker, die ihr Fühlen in Lieder verwandeln. <a href="#beruehmte-tim-bendzko">Tim Bendzko (SE4w3)</a> ist wie Zuckowski ein deutschsprachiger Musiker, dessen Lieder viele Menschen im Alltag erreichen. <a href="#beruehmte-adele">Adele (SE4w3)</a> formt ihren Schmerz zu Liedern, die Millionen berühren, mit der gleichen stillen Disziplin.</p>
+          <p class="vb-intro">Der Unterschied: Bendzko und Adele schreiben für Erwachsene, Zuckowski für Kinder und Familien. Die Gemeinsamkeit: Das Gefühl wird nicht herausgeschrien, sondern in eine Form gebracht, die trägt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Vier mit Dreierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Verlässlichkeit, im langen Atem und in der Wärme, die in den Liedern steckt. Wer über Jahrzehnte für Kinder schreibt und sich in einem Kinderhospiz engagiert, trägt Gefühle, ohne sie auszustellen.</p>
+          <p class="vb-intro">Der Schatten dieser Kombination ist die Gefahr, sich hinter der Form zu verbergen: Die Vier zeigt ihr Gefühl nur im Lied, die Drei achtet darauf, dass es gut ankommt. Wo beides zusammenkommt, bleibt manches Unfertige, Eigene und Schwere im Hintergrund.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: ›Rolf Zuckowskis Liederwelt‹</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 23. Oktober 2026) ist Rolf Zuckowski 79 Jahre alt und weiter künstlerisch aktiv. 2025 sang er mit <a href="#beruehmte-helene-fischer">Helene Fischer (SX3w2)</a> das Duett ›Bald ist Weihnachten‹, im September 2026 erschien bei Ravensburger das Tiptoi-Liederbuch ›Rolf Zuckowskis Liederwelt‹.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se4", label:"Lebensmusterkompass: SE4 – Taube"},
+        {route:"beruehmte-tim-bendzko", label:"Porträt: Tim Bendzko (SE4w3)"},
+        {route:"beruehmte-adele", label:"Porträt: Adele (SE4w3)"},
+        {route:"beruehmte-volker-rosin", label:"Porträt: Volker Rosin (SX7w6)"},
+      ])}
+    </div>
+  `);
+}
+
+export function wolfgangNiedeckenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-wolfgang-niedecken-portrait.jpg" alt="Wolfgang Niedecken – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-wolfgang-niedecken-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Wolfgang Niedecken</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Sozialer Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Rockmusiker, Texter und Maler, geb. 1951 &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Die Gans: der Kölner aus der Südstadt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine <strong>Gans</strong> schlägt Alarm, wenn Fremde den Hof betreten, und sie lässt sich davon nicht abbringen. Wolfgang Niedecken wurde am 30. März 1951 in Köln geboren. Sein Vater führte einen kleinen Lebensmittelladen in der Südstadt; Niedecken beschreibt ihn als ehemaliges NSDAP-Mitglied. Von 1962 bis 1970 besuchte er das katholische Konvikt St. Albert in Rheinbach und berichtete später öffentlich von körperlichen und sexuellen Übergriffen eines Priesters dort.</p>
+          <p class="vb-intro">Ab 1970 studierte er freie Malerei an den Kölner Werkschulen und schloss 1974 ab, mit einem Studienaufenthalt in New York. Schon als Schüler spielte er in Bands, ab 1966 bei The Convikts, später bei The Troop und Goin’ Sad.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Haltung für die Gemeinschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bei der <strong>sozialen Eins (SO1)</strong> richtet sich das Streben nach Richtigkeit auf die Gemeinschaft. Claudio Naranjo nannte sie den Subtyp der Unangepasstheit: Die Eins misst sich und die Gemeinschaft an einem hohen Maßstab, fühlt sich nicht ganz zugehörig und setzt sich gerade deshalb für das Gemeinwohl ein. Bei Niedecken zeigt sich das darin, dass er seit 1976 im Kölner Dialekt singt und sich dabei immer wieder öffentlich positioniert.</p>
+          <p class="vb-intro">1992 gehörte er zu den prägenden Gesichtern des Antirassismus-Konzerts ›Arsch huh, Zäng ussenander‹ (›Arsch hoch, Zähne auseinander‹) in Köln. Er sagt von sich, er sei stur und wolle dem rechten Pöbel nicht das Feld überlassen. Mit 67 sagte er außerdem, er sei kein wütender junger Mann mehr, rege sich aber immer noch auf, stehe dabei aber nicht mehr sofort auf dem Tisch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Zuwendung und Hilfe für andere</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit dem <strong>Zweierflügel (w2)</strong> kommen Wärme, Zuwendung und die Bereitschaft hinzu, konkret zu helfen. Bei Niedecken zeigt er sich im Engagement für Menschen in Not: Seit 2004 ist er Sonderbotschafter von ›Gemeinsam für Afrika‹. Mit World Vision und Manfred Hell gründete er das Projekt Rebound für ehemalige Kindersoldaten in Uganda. Es wurde im September 2025 wegen der Sicherheitslage im Osten des Kongo eingestellt. Im Dezember 2025 wurde er offizieller Botschafter der Welthungerhilfe und unterstützt das Projekt ›Au secours‹ (›Zu Hilfe‹) für Frauen und Mädchen im Osten der Demokratischen Republik Kongo. 2014 sang er bei der deutschen Fassung von ›Do They Know It’s Christmas?‹ (Band Aid 30) mit.</p>
+          <p class="vb-intro">Die Eins hält an ihrem Maßstab fest, und der Zweierflügel verhindert, dass daraus ein kalter Anspruch wird: Er bleibt Anteilnahme.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Dialekt-Rock mit Haltung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Niedecken gründete BAP 1976, der Name wurde im Juli 1977 erstmals auf der Bühne geführt. Er ist bis heute Sänger, Haupttexter und das einzige verbliebene Gründungsmitglied. Der Durchbruch kam mit der Platte ›Wolfgang Niedeckens BAP rockt andere kölsche Leeder‹ (›… rockt andere kölsche Lieder‹, 1979), der große Erfolg mit ›Für usszeschnigge!‹ (›Zum Ausschneiden!‹, 1981) und dem Lied ›Verdamp lang her‹ (›Verdammt lange her‹). Die Besonderheit liegt in der Verbindung von Rock und Mundart: Niedecken erzählt in Kölsch von Köln, vom Alltag, von Politik und von sich selbst, und fand damit weit über Köln hinaus Gehör. Bob Dylan war sein großes Vorbild, was ihm den Beinamen ›Südstadt-Dylan‹ eintrug; 2021 erschien sein Buch über Dylan, 2022 das Soloalbum ›Dylanreise‹.</p>
+          <p class="vb-intro">Dazu kommt die Malerei, die seit den frühen 1970er Jahren zu seiner Arbeit gehört: Er gestaltete die meisten BAP-Plattenhüllen und zeigte Ausstellungen wie ›Pissjääl & Kackbrung‹ (›Pissgelb & Kackbraun‹, 1994) und die Retrospektive ›Spuren‹ (2004) in Bonn. Als Solist veröffentlichte er sechs Studioalben, darunter ›Schlagzeilen‹ (1987), ›Leopardefell‹ (›Leopardenfell‹, 1995), ›Zosamme alt‹ (›Zusammen alt‹, 2013) und ›Reinrassije Stroossekööter‹ (›Reinrassige Straßenköter‹, 2017). Für sein Werk erhielt er unter anderem das Bundesverdienstkreuz (1998, 1. Klasse 2013), den ECHO für sein Lebenswerk (2012) und den Internationalen Beethovenpreis (2017).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Jürgen Klopp und Brian Wilson</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-juergen-klopp">Jürgen Klopp (SO1w2)</a> ist wie Niedecken ein Mensch, der eine Gemeinschaft anführt, der sie mit Haltung und Wärme zusammenhält und dessen Haltung auch außerhalb seines Fachs gehört wird. Beide verbinden einen hohen Anspruch an die Sache mit offener Zuneigung zu ihrem Publikum.</p>
+          <p class="vb-intro"><a href="#beruehmte-brian-wilson">Brian Wilson (SO1w2)</a> verbindet mit ihm das Musikmachen aus einem inneren Maßstab heraus: Wilson suchte den perfekten Klang, Niedecken die passende Sprache für Köln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Eins mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Verlässlich ist vor allem seine Haltung: Wer über Jahrzehnte für dieselben Werte eintritt, gibt anderen Orientierung. Dass er Engagement nicht nur singt, sondern in Projekte übersetzt, zeigt den Zweierflügel.</p>
+          <p class="vb-intro">Schwerer wiegt die Strenge gegen sich selbst und andere. Die Eins hält ihren Ärger zurück, bis er sich Luft macht. Niedecken sagt selbst, er stehe nicht mehr sofort auf dem Tisch, und der Schlaganfall im November 2011 war für ihn nach eigenen Worten eine Gelbe Karte, also eine Warnung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Zugabe nach dem Schlaganfall</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am 2. November 2011 erlitt Niedecken einen Schlaganfall; die BAP-Tour wurde auf Mai 2012 verschoben. Er konnte danach zunächst weder sprechen noch Gitarre spielen. Seine Frau Tina half ihm zurück ins Leben, und für ihn ist jedes Konzert seither eine Zugabe, wie er in seinem Buch ›Zugabe‹ (2013) schrieb. Er ist (Stand 24. Oktober 2026) 75 Jahre alt, in zweiter Ehe seit 1994 mit Tina verheiratet und hat vier Kinder. 2026 erhielt er die Georg-Elser-Auszeichnung. Er bezeichnet sich als ›Agnostiker mit Gottvertrauen‹.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
+        {route:"beruehmte-juergen-klopp", label:"Porträt: Jürgen Klopp (SO1w2)"},
+        {route:"beruehmte-brian-wilson", label:"Porträt: Brian Wilson (SO1w2)"},
+        {route:"beruehmte-bradley-cooper", label:"Porträt: Bradley Cooper (SO1w2)"},
+            ])}
+    </div>
+  `);
+}
+
+export function bruceLeePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-bruce-lee-portrait.jpg" alt="Bruce Lee – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-bruce-lee-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Bruce Lee</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Sozialer Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler und Kampfkunst-Lehrer, 1940&ndash;1973 &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Gepard: das Kind aus Hongkong, das schneller sein wollte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Gepard</strong> lebt von Tempo und von dem Moment, in dem alles zusammenkommt. Bruce Lee wurde am 27. November 1940 in San Francisco als Lee Jun Fan geboren. Sein Vater Lee Hoi Chuen war ein bekannter kantonesischer Opernstar, seine Mutter Grace Lee deutsch-chinesischer Herkunft. Die Familie kehrte nach Hongkong zurück, und schon mit sechs Jahren, 1946, stand er in seiner ersten Filmrolle vor der Kamera.</p>
+          <p class="vb-intro">Als Jugendlicher suchte er auf der Straße Auseinandersetzungen. Mit 13 begann er bei Yip Man Wing-Chun-Kung-Fu zu lernen, um sich zu verteidigen. Dazu kamen Boxen und, nach Britannica, 1958 der Hongkonger Cha-Cha-Cha-Meistertitel, ein Hinweis auf Rhythmus und Körperbeherrschung. 1959 ging er in die USA.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: das Ansehen als erster Hauptdarsteller seiner Art</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die soziale Drei richtet ihr Tun auf die Gemeinschaft aus, Claudio Naranjo nannte das Prestige. Bei Lee greifen Können und Sichtbarkeit ineinander: 1964 trat er beim Karate-Turnier in Long Beach auf, und dieser Auftritt führte zur Rolle des Kato in ›The Green Hornet‹ (1966–1967). In Hollywood blieb er danach lange auf Nebenrollen beschränkt und ging nach Hongkong zurück.</p>
+          <p class="vb-intro">Dort wurde er zum Star: ›The Big Boss‹ (1971) wurde der erfolgreichste Film der Hongkonger Kinogeschichte, ›Fist of Fury‹ (1972) und ›Way of the Dragon‹ (1972), bei dem er Regie führte, brachen weitere Rekorde. ›Enter the Dragon‹ (1973) spielte nach EBSCO weltweit über 200 Millionen US-Dollar ein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Philosophie und eigener Ausdruck</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso und Russ Hudson nennen die Drei mit Viererflügel ›Den Profi‹. Der <strong>Viererflügel (w4)</strong> verleiht der Drei Eigenart und Tiefe. Bei Lee zeigt er sich im Studium der Philosophie an der University of Washington und in der Art, wie er seine Kunst verstand: nicht als festen Stil, sondern als Weg, die eigene Person ehrlich auszudrücken.</p>
+          <p class="vb-intro">Der Satz, den er oft zugeschrieben bekam, fasst das zusammen: ›Absorb what is useful, discard what is useless, and add what is specifically your own‹ – nimm auf, was nützlich ist, lass fallen, was unnütz ist, und füge hinzu, was ganz dein Eigenes ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Jeet Kune Do, Tempo und Ökonomie der Bewegung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lees Leistung war fachlich konkret. Er gründete 1964 mit James Lee das Jun Fan Gung Fu Institute in Oakland und entwickelte daraus Jeet Kune Do (›Weg der abfangenden Faust‹), das Elemente aus Wing Chun, Boxen, Fechten und Taekwondo verbindet. Sein Prinzip war Ökonomie: kurze, direkte Bewegungen, den Angriff abfangen statt ihn auszuspielen, und konsequentes Training von Schnelligkeit und Körper.</p>
+          <p class="vb-intro">Das passt zum Gepard-Bild der sozialen Drei: Talent allein reichte nicht, er machte sein Können durch eine eigene, durchdachte Methode nutzbar. Der Filmkämpfer, der als Kind schon vor der Kamera gestanden hatte, brachte dem Kino eine neue Körpersprache und wurde für viele asiatische Amerikaner zum Vorbild, weil er rassistischen Klischees entgegentrat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Sean Connery und Leon Goretzka</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-sean-connery">Sean Connery (SO3w4)</a> teilt mit Lee den Weg aus einfachen Verhältnissen zur Kinoikone, deren Körper und Auftreten zur Marke wurden. <a href="#beruehmte-leon-goretzka">Leon Goretzka (SO3w4)</a> verbindet mit ihm den Körper als Werkzeug und den Willen zur Spitzenform.</p>
+          <p class="vb-intro">Der Unterschied: Lee verband das mit einer ausformulierten Lehre, die über den Film hinausreichte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Drei mit Viererflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Verbindung aus Disziplin und Denken: Wer Körper und Philosophie so ernst nimmt und daraus eine Methode formt, schafft etwas, das bleibt. Die Weltgeltung kam in wenigen Jahren, und er trug sie mit Leichtigkeit.</p>
+          <p class="vb-intro">Die Schattenseite der Drei ist der Druck, den hohe Sichtbarkeit und hoher Anspruch erzeugen. Lee erlitt 1970 eine Rückenverletzung, und im Mai 1973 hatte er einen Blackout mit anschließendem Gesundheitscheck. Am 20. Juli 1973 starb er mit 32 Jahren in Hongkong, als offizielle Todesursache wurde ein Hirnödem genannt. Über den Auslöser gibt es unterschiedliche Darstellungen, darunter eine Reaktion auf ein Schmerzmittel. Mehr lässt sich hier nicht sicher sagen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Vermächtnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lee ist seit 1973 tot und gilt bis heute als kulturelle Ikone und als Gesicht des Hongkonger Kinos. Er heiratete 1964 Linda Emery, die er in seinem Kung-Fu-Kurs kennengelernt hatte, und hinterließ die Kinder Brandon und Shannon. Sein letzter vollendeter Film war ›Enter the Dragon‹, ›The Game of Death‹ blieb zu seinen Lebzeiten unvollendet (erschienen 1978).</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so3", label:"Lebensmusterkompass: SO3 – Gepard"},
+        {route:"beruehmte-sean-connery", label:"Porträt: Sean Connery (SO3w4)"},
+        {route:"beruehmte-leon-goretzka", label:"Porträt: Leon Goretzka (SO3w4)"},
+        {route:"beruehmte-sven-platte", label:"Porträt: Sven Platte (SO3w4)"},
+            ])}
     </div>
   `);
 }

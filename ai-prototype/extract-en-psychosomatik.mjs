@@ -67,7 +67,13 @@ function buildChunks(KRANKHEITEN, KATEGORIEN) {
 
 const enBundle = fs.readFileSync(path.join(rootDir, "en", "bundle.js"), "utf-8");
 const kategorienText = extractObjectLiteral(enBundle, "PSYCHOSOMATIK_KATEGORIEN");
-const krankheitenText = extractObjectLiteral(enBundle, "PSYCHOSOMATIK_KRANKHEITEN");
+// Seit 20.10.2026 liegt der große Datenblock in en/data/lazy/psychosomatik.js (Lazy Loading);
+// Fallback auf en/bundle.js für ältere Stände.
+const lazyPath = path.join(rootDir, "en", "data", "lazy", "psychosomatik.js");
+const krankheitenText = extractObjectLiteral(
+  fs.existsSync(lazyPath) ? fs.readFileSync(lazyPath, "utf-8") : enBundle,
+  "PSYCHOSOMATIK_KRANKHEITEN"
+);
 
 if (!krankheitenText) {
   console.warn("PSYCHOSOMATIK_KRANKHEITEN nicht in en/bundle.js gefunden – überspringe.");

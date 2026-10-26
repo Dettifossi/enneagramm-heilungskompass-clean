@@ -1,4 +1,4 @@
-import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
+const { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } = window.__kh;
 
 export function ameliaDyerPortraitPage() {
   return shell(`
@@ -96,7 +96,7 @@ export function ameliaDyerPortraitPage() {
         possible for nearly three decades.</p>
         <p class="vb-intro"><strong>d) Danger without visibility:</strong>
         Dyer was not loud, not overtly threatening. She was the woman next door to whom one
-        entrusted a newborn. This is the SX8w9 in its most dangerous form: the Eight one does
+        entrusted a newborn. Here we see the SX8w9 in its most dangerous form: the Eight one does
         not recognize as an Eight until the child is already in her care.</p>
       </div>
 
@@ -234,7 +234,7 @@ Alex Murdaugh is assigned to the Sexual Type One with a Two-wing in the Enneagra
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
         <p class="vb-intro"><strong>a) Warm and Engaging:</strong>
-Anyone who met Alex Murdaugh described him as open, warmhearted, and attentive—a man who listened, knew your name, and remembered details. This is the Two-wing of the One: relationship-building as a natural talent and a means of bonding. The gaze of the SX1w2 signals genuine interest—and that is not entirely a lie: the SX instinct is indeed oriented toward intense connection. The intensity is real, as is the desire for control behind it.</p>
+Anyone who met Alex Murdaugh described him as open, warmhearted, and attentive—a man who listened, knew your name, and remembered details. This shows the Two-wing of the One: relationship-building as a natural talent and a means of bonding. The gaze of the SX1w2 signals genuine interest—and that is not entirely a lie: the SX instinct is indeed oriented toward intense connection. The intensity is real, as is the desire for control behind it.</p>
         <p class="vb-intro"><strong>b) Sovereign and Effortlessly Powerful:</strong>
 In Hampton County, the Murdaugh name was an institution. Alex carried this authority not as an assumed posture of dignity, but as a matter-of-course reality. The gaze of a man who knows that in any room, he is the one to whom things fall—cases, loyalties, favors. The One with a dynastic heritage: order and hierarchy as a birthright.</p>
         <p class="vb-intro"><strong>c) No Warning Signals in Relational Proximity:</strong>
@@ -244,7 +244,7 @@ Even people who knew Murdaugh closely noticed no warning signs. The SX1w2 is par
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
         <p class="vb-intro"><strong>a) The Benefactor as Debtor:</strong>
-Murdaugh was known for generosity: he helped employees with loans, covered costs, and was present during times of crisis. This open-handedness is the Two-pattern in its most ambivalent form: giving as a relational strategy, a means to cultivate loyalty and dependence—and a self-image maintained despite simultaneous fraud.</p>
+Murdaugh was known for generosity: he helped employees with loans, covered costs, and was present during times of crisis. This open-handedness shows the Two-pattern in its most ambivalent form: giving as a relational strategy, a means to cultivate loyalty and dependence—and a self-image maintained despite simultaneous fraud.</p>
         <p class="vb-intro"><strong>b) Dynastic Self-Image:</strong>
 Alex Murdaugh experienced himself not merely as a lawyer, but as the bearer of a tradition. The SX1 pattern, combined with a family narrative of this magnitude, generates a conviction that goes beyond personal ambition: the family *is* the order, and preserving it justifies extraordinary means. Fraud was not a breach of his self-image—it was an attempt to maintain it.</p>
         <p class="vb-intro"><strong>c) Control Through a Relational Network:</strong>
@@ -284,7 +284,7 @@ Multiple witnesses reported that Murdaugh appeared restless in the months leadin
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Correspondence: The Black Mamba</h3>
         <p class="vb-intro"><strong>a) Elegance as the First Impression:</strong>
-The Black Mamba is one of the most beautiful snakes in the world—slender elegance, fluid movement, a presence that fascinates before it intimidates. Alex Murdaugh immediately made a similar impression: winning, charming, sovereign. Anyone meeting him experienced attraction first—not danger. That is the SX1w2 pattern in its pure form: the intensity is seductive before it becomes controlling.</p>
+The Black Mamba is one of the most beautiful snakes in the world—slender elegance, fluid movement, a presence that fascinates before it intimidates. Alex Murdaugh immediately made a similar impression: winning, charming, sovereign. Anyone meeting him experienced attraction first—not danger. Here you can see the SX1w2 pattern in its pure form: the intensity is seductive before it becomes controlling.</p>
         <p class="vb-intro"><strong>b) Lightning-Fast at the Decisive Moment:</strong>
 The Black Mamba is considered one of the fastest snakes in the world. When it strikes, it happens without discernible warning—the moment between stillness and striking is barely perceptible. Murdaugh acted on the night of the crime at the Moselle estate with the same abruptness: his wife and son, who trusted him and were close to him, never saw the shift coming. The Mamba does not kill out of anger, but out of a threat response.</p>
         <p class="vb-intro"><strong>c) The Venom Works Invisibly and Systemically:</strong>
@@ -330,6 +330,12 @@ In his 2023 trial, Murdaugh denied the murders to the end. Prosecutors and the c
         {route:"kriminalpsychologie-dennis-rader", label:"Criminal Psychology: Dennis Rader (SP1w9)"},
         {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy (SO1w9)"},
         {route:"kriminalpsychologie-otto-muehl", label:"Criminal Psychology: Otto Mühl (SX1w2)"},
+        {route:"kriminalpsychologie-bryan-kohberger", label:"Bryan Kohberger (SX1w2) – criminal psychology"},
+        {route:"kriminalpsychologie-chris-watts", label:"Chris Watts (SO7w6) – criminal psychology"},
+        {route:"kriminalpsychologie-fritz-haarmann", label:"Fritz Haarmann (SX1w9) – criminal psychology"},
+        {route:"kriminalpsychologie-gary-ridgway", label:"Gary Ridgway (SX1w2) – criminal psychology"},
+        {route:"kriminalpsychologie-josef-fritzl", label:"Josef Fritzl (SX1w9) – criminal psychology"},
+        {route:"kriminalpsychologie-wade-wilson", label:"Wade Wilson (SO3w4) – criminal psychology"},
       ])}
     </div>
   `);
@@ -402,7 +408,7 @@ Chikatilo radiated no visible energy—on the contrary. He seemed energetically 
         <p class="vb-intro"><strong>b) No Outlet in Daily Life:</strong>
 Type One needs channels for its anger—work, control, perfectionism as a sublimated form. For Chikatilo, all civilian outlets failed: professional humiliations, sexual failure, social invisibility. The pent-up pressure found its sole release in his crimes.</p>
         <p class="vb-intro"><strong>c) Intensity Behind Silence:</strong>
-During interrogation following his arrest, investigators described an intensity that suddenly became visible—as if a floodgate had opened. This is the pattern of SP1w9: long silence, followed by an unexpected eruption of accumulated energy.</p>
+During interrogation following his arrest, investigators described an intensity that suddenly became visible—as if a floodgate had opened. Here we see the pattern of SP1w9: long silence, followed by an unexpected eruption of accumulated energy.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -452,6 +458,10 @@ The growth point of Type One is Type Seven—lightness, creativity, the ability 
       ${relatedLinks([
         {route:"kriminalpsychologie-arno-funke", label:"Criminal Psychology: Arno Funke"},
         {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy"},
+        {route:"kriminalpsychologie-dennis-rader", label:"Dennis Rader (SP1w9) – criminal psychology"},
+        {route:"kriminalpsychologie-michail-popkow", label:"Michail Popkow (SP1w9) – criminal psychology"},
+        {route:"kriminalpsychologie-pedro-alonso-lopez", label:"Pedro Alonso López (SO3w2) – criminal psychology"},
+        {route:"kriminalpsychologie-peter-sutcliffe", label:"Peter Sutcliffe (SP2w1) – criminal psychology"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
@@ -552,6 +562,9 @@ export function arminMeiwesPortraitPage() {
         {route:"kriminalpsychologie-anders-breivik", label:"Criminal Psychology: Anders Breivik (SX6w5)"},
         {route:"kriminalpsychologie-jeffrey-dahmer", label:"Criminal Psychology: Jeffrey Dahmer (SX5w4)"},
         {route:"kriminalpsychologie-joel-rifkin", label:"Criminal Psychology: Joel Rifkin (SX5w6)"},
+        {route:"kriminalpsychologie-charles-manson", label:"Charles Manson (SX6w7) – criminal psychology"},
+        {route:"kriminalpsychologie-leslie-van-houten", label:"Leslie Van Houten (SO9w1) – criminal psychology"},
+        {route:"kriminalpsychologie-ted-bundy", label:"Ted Bundy (SO1w9) – criminal psychology"},
       ])}
     </div>
   `);
@@ -573,20 +586,20 @@ export function bonnieParkerPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. The Chihuahua</h3>
-        <p class="vb-intro">The <strong>chihuahua</strong> is the animal of the sexual Four – small, but carrying an intensity wildly out of proportion to its size. It does not seek attention in general, but total, exclusive closeness to a single person – and is willing to take any risk for it. Bonnie Parker, born in Texas in 1910, a gifted student with a strong interest in poetry and literature, embodied exactly this quality: small, energetic, unshakeably devoted to one man, all the way to their shared death.</p>
+        <p class="vb-intro">The <strong>chihuahua</strong> is the animal counterpart of the sexual Four – small, but carrying an intensity wildly out of proportion to its size. It does not seek attention in general, but total, exclusive closeness to a single person – and is willing to take any risk for it. Bonnie Parker, born in Texas in 1910, a gifted student with a strong interest in poetry and literature, embodied exactly this quality: small, energetic, unshakeably devoted to one man, all the way to their shared death.</p>
         <p class="vb-intro">In 1930, at nineteen, she met Clyde Barrow. What followed was a 21-month crime spree across the American Midwest, allegedly responsible for at least 13 killings, numerous robberies and kidnappings – until both were shot dead in a police ambush in Louisiana on May 23, 1934. Bonnie was 23 years old.</p>
       </div>
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The sexual Four: Tragic love as a work of art</h3>
         <p class="vb-intro">Naranjo called the <strong>sexual Four (SX4)</strong> the subtype of <em>Competition/Envy</em> – an intensity focused entirely on one extraordinary relationship, often carried by a dark premonition of one's own downfall that does not diminish the love, but completes it. Throughout the flight, Bonnie wrote poems chronicling her relationship with Clyde – among them "The Story of Suicide Sal" and "The Trail's End", which almost prophetically anticipated her own violent death.</p>
-        <p class="vb-intro">This is the SX4 in its purest form: the relationship is not simply lived, but simultaneously shaped as a narrative – a love that understands itself as tragic, unique, and unrepeatable, and that draws its intensity precisely from that tragedy. Bonnie knew the likely ending and kept writing toward it anyway – or precisely because of it.</p>
+        <p class="vb-intro">This shows the SX4 in its purest form: the relationship is not simply lived, but simultaneously shaped as a narrative – a love that understands itself as tragic, unique, and unrepeatable, and that draws its intensity precisely from that tragedy. Bonnie knew the likely ending and kept writing toward it anyway – or precisely because of it.</p>
       </div>
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Three wing: The deliberate performance</h3>
         <p class="vb-intro">An SX4 with a more muted Three wing would likely have processed her feelings privately, without any drive to display them to an audience. In Bonnie's case, a pronounced awareness of her own public image emerged instead: she deliberately sent her poems to newspapers. The now-iconic photographs of her posing with a cigar and a pistol were consciously staged – calculated images that substantially fed the legend of "Bonnie and Clyde".</p>
-        <p class="vb-intro">This is the Three wing on the Four: her own tragedy did not stay private experience, but was deliberately carried outward, shaped, published. Bonnie did not just want to feel what she felt – she wanted the world to see it, and the story that emerged from it to stay exactly as she herself had told it.</p>
+        <p class="vb-intro">Here you can see the Three wing on the Four: her own tragedy did not stay private experience, but was deliberately carried outward, shaped, published. Bonnie did not just want to feel what she felt – she wanted the world to see it, and the story that emerged from it to stay exactly as she herself had told it.</p>
       </div>
 
       <div class="vb-section">
@@ -619,7 +632,7 @@ export function bonnieParkerPortraitPage() {
           <span style="display:block;"><strong>Known for:</strong> Half of the outlaw couple "Bonnie and Clyde", 21-month crime spree across the American Midwest (1932–1934), author of self-mythologizing poems, killed in a police ambush</span>
         </p>
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The sexual Four compared: how envy becomes the tragic, dramatized uniqueness of a relationship – and why the Three wing turns quiet suffering into public legend.", "The Hidden Dynamics of the 27 Subtypes")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE4, SO4, SX4 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP4, SO4, SX4 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Envy as the core motive of the Four: how the Four's protective system forms – and how it dissolves through healing.", "Who You Really Are (Volume 1)")}
 
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -632,6 +645,8 @@ export function bonnieParkerPortraitPage() {
           {route:"kriminalpsychologie-clyde-barrow", label:"Criminal Psychology: Clyde Barrow (SX7w8) – her partner"},
           {route:"kriminalpsychologie-adolf-hitler", label:"Criminal Psychology: Adolf Hitler (SX4w3)"},
           {route:"kriminalpsychologie-charles-starkweather", label:"Criminal Psychology: Charles Starkweather (SX4w3)"},
+          {route:"beruehmte-prince-rogers-nelson", label:"Portrait: Prince Rogers Nelson (SX4w3)"},
+          {route:"kriminalpsychologie-elizabeth-bathory", label:"Elizabeth B\u00e1thory (SX4w3) – criminal psychology"},
         ])}
       </div>
     </div>
@@ -794,7 +809,7 @@ export function charlesStarkweatherPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The sexual Four compared: how competitive envy can express itself in closeness as well as in destruction.", "The Hidden Dynamics of the 27 Subtypes")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE4, SO4, SX4 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP4, SO4, SX4 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Type 4 portrayed in depth – envy, identity, and the healing path through genuine equal worth.", "Who You Really Are – Volume 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -1023,6 +1038,15 @@ Rader's downfall was not a chance discovery—it was self-induced. He explicitly
       ${relatedLinks([
         {route:"kriminalpsychologie-andrei-tschikatilo", label:"Criminal Psychology: Andrei Chikatilo"},
         {route:"kriminalpsychologie-arno-funke", label:"Criminal Psychology: Arno Funke"},
+        {route:"kriminalpsychologie-alex-murdaugh", label:"Alex Murdaugh (SX1w2) – criminal psychology"},
+        {route:"kriminalpsychologie-beate-zschaepe", label:"Beate Zsch\u00e4pe (SP1w9) – criminal psychology"},
+        {route:"kriminalpsychologie-fritz-haarmann", label:"Fritz Haarmann (SX1w9) – criminal psychology"},
+        {route:"kriminalpsychologie-gary-ridgway", label:"Gary Ridgway (SX1w2) – criminal psychology"},
+        {route:"kriminalpsychologie-josef-fritzl", label:"Josef Fritzl (SX1w9) – criminal psychology"},
+        {route:"kriminalpsychologie-michail-popkow", label:"Michail Popkow (SP1w9) – criminal psychology"},
+        {route:"kriminalpsychologie-peter-sutcliffe", label:"Peter Sutcliffe (SP2w1) – criminal psychology"},
+        {route:"kriminalpsychologie-rex-heuermann", label:"Rex Heuermann (SP8w9) – criminal psychology"},
+        {route:"kriminalpsychologie-ted-bundy", label:"Ted Bundy (SO1w9) – criminal psychology"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
@@ -1170,7 +1194,7 @@ export function gennadiMikhasevichPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Stress at Four: The Inner Fire Behind Order</h3>
         <p class="vb-intro">
-        Under stress, the One moves toward Four — inner turmoil, the agonizing feeling of internal defect, the conviction of being fundamentally different from everyone else. In interrogations, Mikhasevich described a tension he could not name: an inner chaos that dissolved only in the moments of the crime. That is the Four energy of the disintegrated One: no loud outburst, no outward drama — but a burning, accumulating inner life that calmed down for a short time in the controlled precision of the crime. The Black Mamba does not strike out of chaos. It strikes to end chaos.</p>
+        Under stress, the One moves toward Four — inner turmoil, the agonizing feeling of internal defect, the conviction of being fundamentally different from everyone else. In interrogations, Mikhasevich described a tension he could not name: an inner chaos that dissolved only in the moments of the crime. Here we see the Four energy of the disintegrated One: no loud outburst, no outward drama — but a burning, accumulating inner life that calmed down for a short time in the controlled precision of the crime. The Black Mamba does not strike out of chaos. It strikes to end chaos.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -1304,7 +1328,17 @@ export function harveyWeinsteinPortraitPage() {
 
       ${relatedLinks([
         {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy"},
-        {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar (SE3w4)"},
+        {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar (SP3w4)"},
+        {route:"kriminalpsychologie-anna-delvey", label:"Anna Delvey (SP2w3) – criminal psychology"},
+        {route:"kriminalpsychologie-buster-murdaugh", label:"Buster Murdaugh (SP2w3) – criminal psychology"},
+        {route:"kriminalpsychologie-jack-unterweger", label:"Jack Unterweger (SO2w1) – criminal psychology"},
+        {route:"kriminalpsychologie-jeffrey-epstein", label:"Jeffrey Epstein (SX8w9) – criminal psychology"},
+        {route:"kriminalpsychologie-jim-jones", label:"Jim Jones (SO2w3) – criminal psychology"},
+        {route:"kriminalpsychologie-john-wayne-gacy", label:"John Wayne Gacy (SP2w3) – criminal psychology"},
+        {route:"kriminalpsychologie-jonathan-meijer", label:"Jonathan Meijer (SP2w1) – criminal psychology"},
+        {route:"kriminalpsychologie-pamela-smart", label:"Pamela Smart (SX2w3) – criminal psychology"},
+        {route:"kriminalpsychologie-peter-sutcliffe", label:"Peter Sutcliffe (SP2w1) – criminal psychology"},
+        {route:"kriminalpsychologie-tommy-lynn-sells", label:"Tommy Lynn Sells (SP2w1) – criminal psychology"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
@@ -1321,25 +1355,25 @@ export function jeanneWeberPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/jeanne-weber-portrait.jpg" alt="Jeanne Weber – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jeanne Weber</p>
-        <p class="krim-portrait-typ">SE2w1 &middot; Self-Preservation Type 2 with One-wing</p>
+        <p class="krim-portrait-typ">SP2w1 &middot; Self-Preservation Type 2 with One-wing</p>
         <p class="krim-portrait-sub">"The Ogress of the Goutte d'Or" &middot; Animal Correspondence: Hippopotamus</p>
       </div>
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. The Hippopotamus</h3>
-        <p class="vb-intro">The <strong>hippopotamus</strong> is the animal of the self-preservation Two – an animal that appears gentle and slow-moving on the surface, while hiding an entirely different reality beneath the water. Jeanne Weber, born in 1874 in a fishing village in western France, worked in Paris households from the age of fourteen before marrying in 1893. Between 1905 and 1908 she allegedly killed at least eight children – including her own and those of her extended family – by strangulation, each time in moments when she was briefly alone with the child.</p>
+        <p class="vb-intro">The <strong>hippopotamus</strong> is the emblem of the self-preservation Two – an animal that appears gentle and slow-moving on the surface, while hiding an entirely different reality beneath the water. Jeanne Weber, born in 1874 in a fishing village in western France, worked in Paris households from the age of fourteen before marrying in 1893. Between 1905 and 1908 she allegedly killed at least eight children – including her own and those of her extended family – by strangulation, each time in moments when she was briefly alone with the child.</p>
         <p class="vb-intro">To the outside world she was a caregiver: mother, aunt, minder, the woman who looked after the children while the rest of the family worked. It was exactly in this role, in the closest, most trusted circle, that the acts took place – invisible to everyone who saw her as a caring figure.</p>
       </div>
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The self-preservation Two: Privilege through indispensability</h3>
-        <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SE2)</strong> the subtype of <em>Privilege</em>: a deeply rooted sense of securing a special place in a loved one's life through being indispensable – and deriving a quiet entitlement from it. Weber repeatedly took on the care of children of her own accord, even after suspicion against her had already grown – she even moved on under a false name to take up a caretaking role with a child unrelated to her.</p>
-        <p class="vb-intro">This inability to let go of the caretaker role, even in the face of mounting suspicion, is the SE2 in its most destructive form: closeness to the child, the position of indispensable caregiver, becomes the compulsive center of her own self-understanding – and the occasion for violence that repeats itself within exactly this intimate frame.</p>
+        <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SP2)</strong> the subtype of <em>Privilege</em>: a deeply rooted sense of securing a special place in a loved one's life through being indispensable – and deriving a quiet entitlement from it. Weber repeatedly took on the care of children of her own accord, even after suspicion against her had already grown – she even moved on under a false name to take up a caretaking role with a child unrelated to her.</p>
+        <p class="vb-intro">This inability to let go of the caretaker role, even in the face of mounting suspicion, shows the SP2 in its most destructive form: closeness to the child, the position of indispensable caregiver, becomes the compulsive center of her own self-understanding – and the occasion for violence that repeats itself within exactly this intimate frame.</p>
       </div>
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The One wing: The inner compulsion</h3>
-        <p class="vb-intro">An SE2 with a more muted One wing might have stopped after the first act, or at least grown more careful. In Weber's case, a rigid, almost compulsive repetition emerged instead: the same constellation – a child briefly alone with her – repeated itself over years in different places, with different children, despite mounting investigations and public attention.</p>
+        <p class="vb-intro">An SP2 with a more muted One wing might have stopped after the first act, or at least grown more careful. In Weber's case, a rigid, almost compulsive repetition emerged instead: the same constellation – a child briefly alone with her – repeated itself over years in different places, with different children, despite mounting investigations and public attention.</p>
         <p class="vb-intro">This inability to deviate from an established pattern, even as the risk of discovery became obvious, is the One wing at its darkest: not calculated deliberation, but an inner compulsion stronger than any caution. Unlike a Three-wing pattern built on display or status, there was no public stage here – Weber sought no attention, no social advancement. Each time, she simply and persistently denied everything.</p>
       </div>
 
@@ -1357,8 +1391,8 @@ export function jeanneWeberPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. What the Enneagram reveals</h3>
-        <p class="vb-intro"><strong>a) Caregiving as cover:</strong> Unlike the SE2w3, who seeks status and public image, Weber operated exclusively within the private, familial sphere. The caregiver role was not a facade for prestige, but the only place where the acts could occur at all.</p>
-        <p class="vb-intro"><strong>b) The One wing as compulsive repetition:</strong> An SE2 with a more muted One wing might have stopped after the first discovery. Weber's strongly developed One wing showed itself as a rigid inner necessity to repeat the same pattern again and again – despite mounting risk.</p>
+        <p class="vb-intro"><strong>a) Caregiving as cover:</strong> Unlike the SP2w3, who seeks status and public image, Weber operated exclusively within the private, familial sphere. The caregiver role was not a facade for prestige, but the only place where the acts could occur at all.</p>
+        <p class="vb-intro"><strong>b) The One wing as compulsive repetition:</strong> An SP2 with a more muted One wing might have stopped after the first discovery. Weber's strongly developed One wing showed itself as a rigid inner necessity to repeat the same pattern again and again – despite mounting risk.</p>
         <p class="vb-intro"><strong>c) No public motive:</strong> Unlike Peter Sutcliffe, whose acts were accompanied by a kind of moral crusade, there is no evidence in Weber's case of a similar public justification narrative. Her pattern stayed purely private, hidden, without any self-display.</p>
       </div>
 
@@ -1366,14 +1400,14 @@ export function jeanneWeberPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Classification</h3>
         <p class="vb-intro" style="margin-bottom:1.2rem;">
           <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Jeanne Weber</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SE2w1 – Self-Preservation Two with One-wing</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SP2w1 – Self-Preservation Two with One-wing</span>
           <span style="display:block;margin-bottom:0.3rem;"><strong>Passion:</strong> Pride (as privilege of indispensability within the closest family circle)</span>
           <span style="display:block;margin-bottom:0.3rem;"><strong>Animal Correspondence:</strong> Hippopotamus</span>
           <span style="display:block;margin-bottom:0.3rem;"><strong>Life dates:</strong> October 7, 1874 – July 5, 1918</span>
           <span style="display:block;"><strong>Known for:</strong> Strangling several children from her own and extended family (1905–1908), acquitted in 1906, convicted and declared legally insane in 1908, committed to the Mareville asylum until her death in 1918</span>
         </p>
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The self-preservation Two compared: how the privilege of indispensability becomes a compulsive trap of repetition – and why the One wing pays no heed to the risk of discovery.", "The Hidden Dynamics of the 27 Subtypes")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Pride as the core motive of the Two: how the Two's protective system forms – and how it dissolves through healing.", "Who You Really Are (Volume 1)")}
 
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -1383,9 +1417,11 @@ export function jeanneWeberPortraitPage() {
       </div>
 
         ${relatedLinks([
-          {route:"kriminalpsychologie-peter-sutcliffe", label:"Criminal Psychology: Peter Sutcliffe (SE2w1)"},
-          {route:"kriminalpsychologie-ulrike-meinhof", label:"Criminal Psychology: Ulrike Meinhof (SE2w1)"},
-          {route:"kriminalpsychologie-henri-landru", label:"Criminal Psychology: Henri Désiré Landru (SE3w4)"},
+          {route:"kriminalpsychologie-peter-sutcliffe", label:"Criminal Psychology: Peter Sutcliffe (SP2w1)"},
+          {route:"kriminalpsychologie-ulrike-meinhof", label:"Criminal Psychology: Ulrike Meinhof (SP2w1)"},
+          {route:"kriminalpsychologie-henri-landru", label:"Criminal Psychology: Henri Désiré Landru (SP3w4)"},
+          {route:"kriminalpsychologie-gesche-gottfried", label:"Gesche Gottfried (SO1w2) – criminal psychology"},
+          {route:"kriminalpsychologie-juana-barraza", label:"Juana Barraza (SP2w3) – criminal psychology"},
         ])}
       </div>
     </div>
@@ -1467,7 +1503,7 @@ export function joachimKrollPortraitPage() {
         <p class="vb-intro"><strong>a) Naranjo's SP5 – "Avarice":</strong> Claudio Naranjo described the self-preservation Five as the subtype most focused on securing its own survival through reduction — wanting less means being less dependent on others. In Kroll's case, this logic took a pathological turn: he wanted so little that in the end he no longer even perceived the humanity of others.</p>
         <p class="vb-intro"><strong>b) Lack of Mentalization Ability:</strong> Forensic evaluators confirmed that Kroll had a significantly impaired capacity for mentalization — that is, imagining that other human beings have an inner world, feelings, and perspectives. This is not a specific Enneagram trait, but it explains why the SP5 mechanism of withdrawal assumed such an extreme form in him: whoever recognizes no inner world in another person has no boundary left that prevents them from instrumentalizing that person.</p>
         <p class="vb-intro"><strong>c) The Six-wing as a Security System:</strong> The Six brings a chronic baseline anxiety to the SP5, which manifests as hypervigilant security thinking. In Kroll's case, this showed up as total social isolation: no relationship, no trust, no opening up. The paradox: precisely this absolute isolation created the space in which the crimes became possible. The Six-wing did not protect him — it locked him in.</p>
-        <p class="vb-intro"><strong>d) Confession as Objective Reporting:</strong> Kroll's confessions were remarkably precise and cooperative from an investigator's perspective — he recalled dates, locations, and details without discernible emotional reaction. This factual distance is the Five-principle in its most extreme form: information is delivered without any connection to the experienced situation. For Kroll, telling his story seemed not to be an admission of guilt — merely an answer to questions asked.</p>
+        <p class="vb-intro"><strong>d) Confession as Objective Reporting:</strong> Kroll's confessions were remarkably precise and cooperative from an investigator's perspective — he recalled dates, locations, and details without discernible emotional reaction. This factual distance shows the Five-principle in its most extreme form: information is delivered without any connection to the experienced situation. For Kroll, telling his story seemed not to be an admission of guilt — merely an answer to questions asked.</p>
         <p class="vb-intro"><strong>e) The Growth Path of the Five – the Eight:</strong> The growth point of the Five is the Eight — agency, presence, the risk of genuine encounter. For Kroll, this path remained completely blocked. He knew no agency in a social sense, no ability to make genuine contact with others. The counterpoint of the Five, the Seven, brings enthusiasm and connection to the outer world — this impulse was also completely lacking. Kroll lived permanently in the deepest layer of the Five: withdrawal, reduction, dissolution.</p>
         <p class="vb-intro"><strong>f) Significance for Understanding the SP5:</strong> Kroll's case is instructive not because it is typical — but because it shows where the SP5 mechanism can lead when all human correctives are missing: relationship, empathy, development. The healthy SP5 is a person of great inner strength, frugality, and depth. What Kroll lacked was not the type — but everything that turns a type into a human being.</p>
       </div>
@@ -1487,6 +1523,8 @@ export function joachimKrollPortraitPage() {
         {route:"kriminalpsychologie-fritz-honka", label:"Criminal Psychology: Fritz Honka (SP5w6) – same subtype"},
         {route:"kriminalpsychologie-jeffrey-dahmer", label:"Criminal Psychology: Jeffrey Dahmer"},
         {route:"kriminalpsychologie-anders-breivik", label:"Criminal Psychology: Anders Breivik"},
+        {route:"kriminalpsychologie-harold-shipman", label:"Dr. Harold Shipman (SO5w6) – criminal psychology"},
+        {route:"kriminalpsychologie-rudolf-pleil", label:"Rudolf Pleil (SP2w3) – criminal psychology"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
@@ -1522,7 +1560,7 @@ export function johnListPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Five-Wing: Withdrawal, Analysis, Silence</h3>
         <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Self-Preservation Six an additional dimension: introversion, detachment, and an inclination to observe rather than speak. The SP6w5 is not only fearful — he is also secretive. He does not share his inner life. He analyzes, broods, and circles around his problems alone. He does not seek help because he does not trust others.</p>
-        <p class="vb-intro">In John List, this Five-wing shows itself in its purest, most destructive form: he lost his job in October 1971 — and told no one. Not his wife. Not his mother. Not his children. He left the house every morning as if going to work, spent hours in a train station or waiting somewhere, and returned home in the evening. For weeks. That is the Five-wing: not talking, not showing, carrying it all alone — until the burden can no longer be borne.</p>
+        <p class="vb-intro">In John List, this Five-wing shows itself in its purest, most destructive form: he lost his job in October 1971 — and told no one. Not his wife. Not his mother. Not his children. He left the house every morning as if going to work, spent hours in a train station or waiting somewhere, and returned home in the evening. For weeks. This shows the Five-wing: not talking, not showing, carrying it all alone — until the burden can no longer be borne.</p>
       </div>
 
       <div class="vb-section">
@@ -1543,7 +1581,7 @@ export function johnListPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. The Disappearance: 17 Years as Robert Clark</h3>
         <p class="vb-intro">The bodies were only discovered <strong>four weeks later</strong> — when a neighbor's boy entered the house. The radio was still playing. John List was long gone.</p>
         <p class="vb-intro">He assumed a new identity: <strong>Robert Peter Clark</strong>. He moved to Denver, Colorado, worked as an accountant, remarried in 1985 — a woman named Delores Miller — and moved with her to Richmond, Virginia. He continued to regularly attend the Lutheran church. He was the reliable, quiet, friendly accountant next door. No one suspected a thing.</p>
-        <p class="vb-intro">This is the SP6w5 in its most horrifying manifestation: the ability to construct a new identity, live it consistently, and display no outward signs of inner turmoil. The fear was gone — because the threat had been eliminated. He had reset the system.</p>
+        <p class="vb-intro">Here you can see the SP6w5 in its most horrifying manifestation: the ability to construct a new identity, live it consistently, and display no outward signs of inner turmoil. The fear was gone — because the threat had been eliminated. He had reset the system.</p>
       </div>
 
       <div class="vb-section">
@@ -1619,22 +1657,22 @@ export function josefFritzlPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
-        <p class="vb-intro"><strong>a) Inconspicuous and Bourgeois:</strong> Fritzl's gaze was the gaze of an average man: no charisma, no conspicuousness, nothing that drew the eye. Neighbors and acquaintances remembered a normal, slightly grumpy older man. This is the Nine-wing of the One: it recedes into the background, it seeks no attention, it is socially invisible. This invisibility was his most effective protection.</p>
-        <p class="vb-intro"><strong>b) Authoritarian Within the Family:</strong> Toward his family — especially toward his children — Fritzl was a different person: domineering, aloof, taking his authority as natural and indisputable for granted. This is the One as the household power: the master of the house whose word is law. Anyone within his sphere of influence knew a man who did not negotiate obedience, but demanded it.</p>
+        <p class="vb-intro"><strong>a) Inconspicuous and Bourgeois:</strong> Fritzl's gaze was the gaze of an average man: no charisma, no conspicuousness, nothing that drew the eye. Neighbors and acquaintances remembered a normal, slightly grumpy older man. Here we see the Nine-wing of the One: it recedes into the background, it seeks no attention, it is socially invisible. This invisibility was his most effective protection.</p>
+        <p class="vb-intro"><strong>b) Authoritarian Within the Family:</strong> Toward his family — especially toward his children — Fritzl was a different person: domineering, aloof, taking his authority as natural and indisputable for granted. This shows the One as the household power: the master of the house whose word is law. Anyone within his sphere of influence knew a man who did not negotiate obedience, but demanded it.</p>
         <p class="vb-intro"><strong>c) No Sign to the Outside:</strong> For 24 years, Fritzl gave no cause for suspicion. No conspicuous behavior, no noticeable inner turmoil, no deviation from ordinary daily life. The Nine-wing creates this quality: it separates the inner from the outer without a visible seam — dissociation not as a symptom, but as a lifestyle.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
         <p class="vb-intro"><strong>a) The Cellar as a Controlled World:</strong> Fritzl built the cellar himself — over years, with growing meticulousness. Soundproofing, hidden doors, an ingenious locking system. The cellar was not a place of emotion; it was a work of planning. This is One-energy in its most craftsmanship-like form: the One builds systems that work. The fact that this system served enslavement changed nothing about the care of its construction.</p>
-        <p class="vb-intro"><strong>b) Moral Self-Justification:</strong> Fritzl stated in interrogations that he had wanted to protect Elisabeth from the outside world and her allegedly bad influence. This framing is the One-pattern in its darkest manifestation: anger at the uncontrollable finds a moral principle that legitimizes it. The jailer who experiences himself as a protector is the One in total disintegration.</p>
+        <p class="vb-intro"><strong>b) Moral Self-Justification:</strong> Fritzl stated in interrogations that he had wanted to protect Elisabeth from the outside world and her allegedly bad influence. This framing shows the One-pattern in its darkest manifestation: anger at the uncontrollable finds a moral principle that legitimizes it. The jailer who experiences himself as a protector is the One in total disintegration.</p>
         <p class="vb-intro"><strong>c) A Double Life as a Structural Foundation:</strong> Upstairs the bourgeois family, downstairs the cellar system — Fritzl maintained both worlds in parallel for decades. He went on vacation, managed his properties, had normal conversations with neighbors. The double life was not a state of permanent inner tension — it was a well-oiled system that apparently represented no unbearable contradiction for him. The Nine-wing makes this possible: it numbs inner friction.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Qualities</h3>
         <p class="vb-intro"><strong>a) Total Control as a Driving Force:</strong> The SX1 instinct is oriented toward intense one-on-one relationships — toward closeness, attachment, possession. In Fritzl's case, this instinct flipped into absolute control: no escape, no other voice, no outside world for the victim. The logic of the SX1 in its pathological extreme form: what I possess does not slip away from me.</p>
-        <p class="vb-intro"><strong>b) Planning Instead of Impulse:</strong> Fritzl did not act out of an uncontrollable impulse. The cellar construction began years before the imprisonment; it was not a spontaneous crime, but a system prepared over years. This is the One: it plans, it secures, it builds structures. Even the most severe acts are thought through before they are executed.</p>
+        <p class="vb-intro"><strong>b) Planning Instead of Impulse:</strong> Fritzl did not act out of an uncontrollable impulse. The cellar construction began years before the imprisonment; it was not a spontaneous crime, but a system prepared over years. Here you can see the One: it plans, it secures, it builds structures. Even the most severe acts are thought through before they are executed.</p>
         <p class="vb-intro"><strong>c) No Pity as an Inner Strength:</strong> Over 24 years, Fritzl showed no discernible empathy toward the suffering of his daughter and her cellar-born children. This is not coldness in the sense of an absence of feelings — it is the One consistently placing its own principle above the reality of the other. The Nine-wing additionally dampens the capacity for resonance: what does not fit into its inner picture is tuned out.</p>
       </div>
 
@@ -1647,7 +1685,7 @@ export function josefFritzlPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
-        <p class="vb-intro"><strong>a) Leaden Calm:</strong> The energetic effect of Fritzl on his surroundings was heaviness, not threat. A leaden normalness that left no room for questions. This is the Nine-wing in its most oppressive quality: not loud, not aggressive — but crushingly heavy, like a blanket taking away the air.</p>
+        <p class="vb-intro"><strong>a) Leaden Calm:</strong> The energetic effect of Fritzl on his surroundings was heaviness, not threat. A leaden normalness that left no room for questions. Here we see the Nine-wing in its most oppressive quality: not loud, not aggressive — but crushingly heavy, like a blanket taking away the air.</p>
         <p class="vb-intro"><strong>b) No Outer Shaking:</strong> Even during the years when the situation in the cellar escalated — sick children, cramped conditions, growing complexity of the double life — Fritzl showed no visible change on the outside. The Nine-wing regulates internally through dissociation: what must not be shown is severed and exists in its own, enclosed realm of consciousness.</p>
         <p class="vb-intro"><strong>c) Energy of Persistence:</strong> 24 years require persistence — not passion, not excess, but the patient maintenance of a system day after day. This kind of energy is the hallmark of the self-preservation and sexual One: it does not give up. The Nine slows down and calms; the One holds out. In combination, an endurance emerges that knows no emotional shaking.</p>
       </div>
@@ -1691,6 +1729,7 @@ export function josefFritzlPortraitPage() {
         {route:"kriminalpsychologie-alex-murdaugh", label:"Criminal Psychology: Alex Murdaugh (SX1w2)"},
         {route:"kriminalpsychologie-dennis-rader", label:"Criminal Psychology: Dennis Rader (SP1w9)"},
         {route:"kriminalpsychologie-michail-popkow", label:"Criminal Psychology: Michail Popkow (SP1w9)"},
+        {route:"kriminalpsychologie-fritz-haarmann", label:"Fritz Haarmann (SX1w9) – criminal psychology"},
       ])}
     </div>
   `);
@@ -1712,14 +1751,14 @@ export function maryAnnCottonPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. The Black Mamba</h3>
-        <p class="vb-intro">The <strong>black mamba</strong> is the animal of the sexual One – precise, fast, uncompromising, and lethal not out of brutality but out of an inner law that tolerates no contradiction. Mary Ann Cotton, born in County Durham in 1832, worked as a nurse and dressmaker before marrying her first husband in 1852. Over two decades, she likely killed as many as 21 people – four husbands, several of her own and step-children, a mother and lovers – with arsenic, quietly stirred into tea.</p>
+        <p class="vb-intro">The <strong>black mamba</strong> is the animal counterpart of the sexual One – precise, fast, uncompromising, and lethal not out of brutality but out of an inner law that tolerates no contradiction. Mary Ann Cotton, born in County Durham in 1832, worked as a nurse and dressmaker before marrying her first husband in 1852. Over two decades, she likely killed as many as 21 people – four husbands, several of her own and step-children, a mother and lovers – with arsenic, quietly stirred into tea.</p>
         <p class="vb-intro">In 1873 she was convicted and hanged for poisoning her seven-year-old stepson, Charles Edward Cotton. She was suspected in far more deaths, but convicted of only this one – enough to make her Britain's first documented serial killer.</p>
       </div>
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The sexual One: Control in the closest circle</h3>
         <p class="vb-intro">Naranjo called the <strong>sexual One (SX1)</strong> the subtype of <em>Jealousy</em> or <em>Zeal</em>: an intensity directed not at the world in general but at the one, closest relationship – with an unrelenting demand that this relationship stay pure, perfect, and unchallenged. Where the social One wants to reform a collective, the SX1 focuses on the intimate sphere: the partner, the family, the home.</p>
-        <p class="vb-intro">Cotton's entire pattern of action unfolded exactly within this intimate sphere. Her victims were not strangers, but the people standing in the way of a new relationship, a new husband, or a financially unburdened future. Children from earlier marriages, sick or inconvenient husbands, a mother who had become a burden – each death literally cleared the path for the next relationship. This is the SX1 in its most destructive form: an unrelenting inner standard for what and who belongs in one's own, ideally imagined relationship – and what must be ruthlessly removed when it doesn't fit.</p>
+        <p class="vb-intro">Cotton's entire pattern of action unfolded exactly within this intimate sphere. Her victims were not strangers, but the people standing in the way of a new relationship, a new husband, or a financially unburdened future. Children from earlier marriages, sick or inconvenient husbands, a mother who had become a burden – each death literally cleared the path for the next relationship. This shows the SX1 in its most destructive form: an unrelenting inner standard for what and who belongs in one's own, ideally imagined relationship – and what must be ruthlessly removed when it doesn't fit.</p>
       </div>
 
       <div class="vb-section">
@@ -1742,7 +1781,7 @@ export function maryAnnCottonPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. What the Enneagram reveals</h3>
-        <p class="vb-intro"><strong>a) The intimate sphere as the stage:</strong> Unlike offenders who attack strangers, Cotton's control was directed exclusively at her closest circle – partners, children, family. This is the SX1 in its purest, most dangerous orientation: the most intimate relationship becomes the field on which her own demand for purity and rightness is ruthlessly enforced.</p>
+        <p class="vb-intro"><strong>a) The intimate sphere as the stage:</strong> Unlike offenders who attack strangers, Cotton's control was directed exclusively at her closest circle – partners, children, family. Here you can see the SX1 in its purest, most dangerous orientation: the most intimate relationship becomes the field on which her own demand for purity and rightness is ruthlessly enforced.</p>
         <p class="vb-intro"><strong>b) The Two wing as a charm instrument:</strong> An SX1 with a more muted Two wing might have come across as cooler, more distant – and would have been noticed sooner. In Cotton's case, the strongly developed Two wing ensured she was perceived as caring, likeable, and trustworthy, even as she killed systematically.</p>
         <p class="vb-intro"><strong>c) Repetition as an organizing principle:</strong> The nearly identical sequence of marriage, deaths, and fresh starts across two decades shows how, for the SX1, an established pattern can solidify into an unquestioned inner rule – especially when no outside authority intervenes early enough.</p>
       </div>
@@ -1758,7 +1797,7 @@ export function maryAnnCottonPortraitPage() {
           <span style="display:block;"><strong>Known for:</strong> Poisoning several husbands, children, and relatives with arsenic; convicted of one murder, suspected in up to 21 deaths</span>
         </p>
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The sexual One compared: how zeal becomes unrelenting control of the closest relationship – and why the Two wing supplies the facade.", "The Hidden Dynamics of the 27 Subtypes")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Anger as the core motive of the One: how the One's protective system forms – and how it dissolves through healing.", "Who You Really Are (Volume 1)")}
 
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -1771,6 +1810,7 @@ export function maryAnnCottonPortraitPage() {
           {route:"kriminalpsychologie-gary-ridgway", label:"Criminal Psychology: Gary Ridgway (SX1w2) – Green River Killer"},
           {route:"kriminalpsychologie-paul-bernardo", label:"Criminal Psychology: Paul Bernardo (SX1w2)"},
           {route:"beruehmte-anna-anderson", label:"Portrait: Anna Anderson (SP3w4)"},
+          {route:"kriminalpsychologie-henri-landru", label:"Henri Désiré Landru (SP3w4) – criminal psychology"},
         ])}
       </div>
     </div>
@@ -1850,7 +1890,7 @@ export function nielsHoegelPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Complementary Deep Insights</h3>
         <p class="vb-intro"><strong>a) Naranjo's SP7 – "Family / Conviviality":</strong> Claudio Naranjo called the Self-Preservation Seven "Family": seeking security through warm belonging, through the feeling of being indispensable and loved in their immediate environment. The hospital was Högel's family — and he was the beloved, competent savior. His murders were a perverse attempt to remain permanently irreplaceable in this family: no nurse saves a life as impressively as the one who brought about the crisis in the first place.</p>
-        <p class="vb-intro"><strong>b) Reframing – The Seven's Most Dangerous Gift:</strong> Sevens are masters at reframing reality. Högel cognitively reframed his murders as rescue operations: he wasn't killing patients; he was creating opportunities for heroic moments. This is the Seven mechanism in its most perverse form — the ability to interpret any personal action in a way that keeps it internally tolerable. Without this reframing, the series of crimes could not have continued for over five years.</p>
+        <p class="vb-intro"><strong>b) Reframing – The Seven's Most Dangerous Gift:</strong> Sevens are masters at reframing reality. Högel cognitively reframed his murders as rescue operations: he wasn't killing patients; he was creating opportunities for heroic moments. Here we see the Seven mechanism in its most perverse form — the ability to interpret any personal action in a way that keeps it internally tolerable. Without this reframing, the series of crimes could not have continued for over five years.</p>
         <p class="vb-intro"><strong>c) The Eight-Wing – Power Beneath the Friendly Surface:</strong> The Eight-wing gives the Seven a drive for power that is invisible to the outside world. Högel appeared gentle, caring, and helpful — underneath lay the Eight's need for total control. This "hidden Eight" is the most dangerous aspect of the SP7w8: the Eight's force is present, but disguised. No one warns themselves against a friendly nurse.</p>
         <p class="vb-intro"><strong>d) The Seven Flees from Pain and Insignificance:</strong> The fundamental Seven mechanism is the avoidance of pain, deprivation, and insignificance. For Högel, the unbearable thought was being just another anonymous nurse among many. The moment a colleague shouted "Högel saved him!" — that was his drug moment. It was not sadism that drove him, but the fear of vanishing into the ordinary.</p>
         <p class="vb-intro"><strong>e) Addiction Dynamics and Escalation:</strong> Sevens are prone to addictive structures — the next hit has to be bigger than the last. Högel's escalation over five years follows a classic addiction dynamic: the adrenaline rush of saving a life became a drug that was needed with increasing frequency. 85 dead are the final stage of an addiction, not the result of a master plan.</p>
@@ -1872,6 +1912,12 @@ export function nielsHoegelPortraitPage() {
         {route:"kriminalpsychologie-anders-breivik", label:"Criminal Psychology: Anders Breivik"},
         {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy"},
         {route:"kriminalpsychologie-arwed-imiela", label:"Criminal Psychology: Arwed Imiela (SP7w8)"},
+        {route:"kriminalpsychologie-aileen-wuornos", label:"Aileen Wuornos (SX7w8) – criminal psychology"},
+        {route:"kriminalpsychologie-arno-funke", label:"Arno Funke (\u201eDagobert\u201c) (SP1w9) – criminal psychology"},
+        {route:"kriminalpsychologie-chris-watts", label:"Chris Watts (SO7w6) – criminal psychology"},
+        {route:"kriminalpsychologie-dorothea-puente", label:"Dorothea Puente (SP1w2) – criminal psychology"},
+        {route:"kriminalpsychologie-harold-shipman", label:"Dr. Harold Shipman (SO5w6) – criminal psychology"},
+        {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Wolfgang Beltracchi (SX9w1) – criminal psychology"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
@@ -1978,7 +2024,16 @@ export function pabloEscobarPortraitPage() {
 
       ${relatedLinks([
         {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy"},
-        {route:"kriminalpsychologie-tom-keating", label:"Criminal Psychology: Tom Keating (SE3w4) – Comparison Portrait"},
+        {route:"kriminalpsychologie-tom-keating", label:"Criminal Psychology: Tom Keating (SP3w4) – Comparison Portrait"},
+        {route:"beruehmte-wolodymyr-selenskyj", label:"Portrait: Wolodymyr Selenskyj (SP3w2)"},
+        {route:"kriminalpsychologie-adolf-hitler", label:"Adolf Hitler (SX4w3) – criminal psychology"},
+        {route:"kriminalpsychologie-harvey-weinstein", label:"Harvey Weinstein (SP2w1) – criminal psychology"},
+        {route:"kriminalpsychologie-john-mcafee", label:"John McAfee (SX8w9) – criminal psychology"},
+        {route:"kriminalpsychologie-luka-magnotta", label:"Luka Magnotta (SX3w4) – criminal psychology"},
+        {route:"kriminalpsychologie-michael-franzese", label:"Michael Franzese (SP3w2) – criminal psychology"},
+        {route:"kriminalpsychologie-ruja-ignatova", label:"Ruja Ignatova (SP3w4) – criminal psychology"},
+        {route:"kriminalpsychologie-samuel-bankman-fried", label:"Samuel Bankman-Fried (SP3w4) – criminal psychology"},
+        {route:"kriminalpsychologie-wade-wilson", label:"Wade Wilson (SO3w4) – criminal psychology"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
         {route:"psychogramme", label:"Psychogramme"},
       ])}
@@ -2090,6 +2145,8 @@ export function pDiddyPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-aileen-wuornos", label:"Criminal Psychology: Aileen Wuornos (SX7w8)"},
         {route:"kriminalpsychologie-griselda-blanco", label:"Criminal Psychology: Griselda Blanco (SP8w9)"},
+        {route:"kriminalpsychologie-chris-watts", label:"Chris Watts (SO7w6) – criminal psychology"},
+        {route:"kriminalpsychologie-ronnie-biggs", label:"Ronnie Biggs (SX7w8) – criminal psychology"},
         {route:"portrait-typ-7", label:"Type Portrait: The Type 7 at a Glance"},
       ])}
     </div>
@@ -2118,7 +2175,7 @@ export function ronnieBiggsPortraitPage() {
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong>
         <strong>Ronnie Biggs</strong> is assigned to the <strong>Sexual Type 7
         with Eight Wing (SX7w8)</strong>. The sexual Seven does not seek quiet
-        belonging (SO7) or a secured nest (SE7), but complete fusion with
+        belonging (SO7) or a secured nest (SP7), but complete fusion with
         the most intense, most exciting life available – Naranjo aptly
         described this subtype as marked by <em>Suggestibility</em>: the
         sexual Seven lets itself be enchanted, swept along, drawn into a
@@ -2176,7 +2233,7 @@ export function ronnieBiggsPortraitPage() {
         Biggs was never the mastermind of a plan, but the one who let
         himself be swept along by the intensity of someone else's plan.
         This matches sexual-Seven logic: not building one's own system (SO7),
-        not securing one's own nest (SE7), but surrendering to a pull of
+        not securing one's own nest (SP7), but surrendering to a pull of
         excitement, risk, and possibility greater than oneself.</p>
         <p class="vb-intro"><strong>b) The legend as a survival strategy:</strong>
         In Rio, Biggs turned his crime into a brand. He sold his own story
@@ -2261,7 +2318,7 @@ export function ronnieBiggsPortraitPage() {
         <p class="vb-intro"><strong>b) The legend as a work in its own right:</strong>
         Biggs' real "deed" after 1965 was less the train robbery itself
         than the ongoing continuation of his own legend – interviews,
-        merchandise, music, public appearances. This is the sexual Seven
+        merchandise, music, public appearances. This shows the sexual Seven
         in its rawest form: life itself becomes a stage on which intensity
         must constantly be regenerated.</p>
         <p class="vb-intro"><strong>c) Distinction from other SX7w8 cases:</strong>
@@ -2298,6 +2355,8 @@ export function ronnieBiggsPortraitPage() {
         {route:"kriminalpsychologie-aileen-wuornos", label:"Criminal Psychology: Aileen Wuornos (SX7w8)"},
         {route:"kriminalpsychologie-boris-becker", label:"Criminal Psychology: Boris Becker (SX7w8)"},
         {route:"kriminalpsychologie-p-diddy", label:"Criminal Psychology: Sean 'P. Diddy' Combs (SX7w8)"},
+        {route:"kriminalpsychologie-clyde-barrow", label:"Clyde Barrow (SX7w8) – criminal psychology"},
+        {route:"kriminalpsychologie-victor-lustig", label:"Victor Lustig (SX7w8) – criminal psychology"},
       ])}
     </div>
   `);
@@ -2375,7 +2434,7 @@ export function samuelBankmanFriedPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Supplementary Deep Insights</h3>
         <p class="vb-intro"><strong>a) SP3 – The Countertype:</strong> The Self-Preservation Three is the countertype — the Type One-ish subtype of the Three that looks least like a Three. The SP3 does not want to be admired; they want to deliver, function, win. Bankman-Fried's entire presentation — the crumpled shorts, the uncombed hair, the deliberately unfinished look — was the staging of efficiency as a value: <em>I don't pretend to look good, I do things that matter.</em> That is SP3 as a self-image.</p>
         <p class="vb-intro"><strong>b) The Four-Wing and the Altruistic Narrative:</strong> The Four-wing of the Three brings the need for depth, for meaning, for a story that goes beyond mere success. Bankman-Fried found this narrative in Effective Altruism: earning as much as possible in order to donate as much as possible. This narrative was not entirely dishonest — but it was also the perfect shield against any critical questioning of his methods.</p>
-        <p class="vb-intro"><strong>c) Disintegration into Nine:</strong> The stress point of the Three is Nine: withdrawal, numbing, inaction. Bankman-Fried showed during the trial and in interviews a peculiar composure that unsettled observers — no dramatic remorse, no breakdown, an almost passive acceptance. This is the Three in disintegration: when success is no longer possible, it shuts down.</p>
+        <p class="vb-intro"><strong>c) Disintegration into Nine:</strong> The stress point of the Three is Nine: withdrawal, numbing, inaction. Bankman-Fried showed during the trial and in interviews a peculiar composure that unsettled observers — no dramatic remorse, no breakdown, an almost passive acceptance. Here you can see the Three in disintegration: when success is no longer possible, it shuts down.</p>
         <p class="vb-intro"><strong>d) Comparison with Ruja Ignatova (SP3w4):</strong> Both are Self-Preservation Threes with a Four-wing, both active in the crypto space, both with a narrative wrapper around their misdeeds: Ignatova as the "Cryptoqueen," Bankman-Fried as the altruist. The crucial difference lies in the response to the collapse: Ignatova disappeared — consistent flight, radical withdrawal. Bankman-Fried stayed, gave interviews, explained himself — to the last, remaining within the Three pattern of self-management through self-presentation.</p>
         <p class="vb-intro"><strong>e) Effective Altruism as a Three Strategy:</strong> The EA (Effective Altruism) movement offers a rational, measurable ethics — exactly what appeals to the Three: not an unstructured morality, but efficiency as the standard. Bankman-Fried used this framing not only as outward legitimation, but possibly also as an internal calming system: the end justifies the means — provided the end is large enough and calculated precisely enough.</p>
         <p class="vb-intro"><strong>f) The Verdict and the Three:</strong> 25 years in prison means the end of the stage — of the market, the startup, the conferences, the interviews. For a Three, the fading of external resonance is a punishment deeper than the deprivation of liberty itself. What Bankman-Fried is after this, who he is without an audience and without a record of achievement, is the real question — the question from which the Three flees their entire life.</p>
@@ -2396,6 +2455,7 @@ export function samuelBankmanFriedPortraitPage() {
         {route:"kriminalpsychologie-ruja-ignatova", label:"Criminal Psychology: Ruja Ignatova (SP3w4)"},
         {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar (SP3)"},
         {route:"kriminalpsychologie-wade-wilson", label:"Criminal Psychology: Wade Wilson (SO3w4)"},
+        {route:"kriminalpsychologie-bernie-madoff", label:"Bernie Madoff (SP3w4) – criminal psychology"},
       ])}
     </div>
   `);
@@ -2588,7 +2648,7 @@ export function tomKeatingPortraitPage() {
       </div>
 
       ${relatedLinks([
-        {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar (SE3w4) – Comparison Portrait"},
+        {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar (SP3w4) – Comparison Portrait"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
         {route:"psychogramme", label:"Psychogramme"},
       ])}
@@ -2747,7 +2807,7 @@ export function bryanKohbergerPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Sexual One: Rejection as a Violation of Purity</h3>
         <p class="vb-intro"><strong>a) The inner logic:</strong>
         Several sources, including a forensic psychiatrist, describe Kohberger as driven by anger and resentment
-        toward women who rejected him or from whom he expected rejection. This is the SX1 at its most destructive:
+        toward women who rejected him or from whom he expected rejection. Here we see the SX1 at its most destructive:
         the most intimate relationship is supposed to be pure, controlled, complete – every rejection is
         experienced not as disappointment but as a violation of a felt-to-be-absolute order that demands a response.</p>
         <p class="vb-intro"><strong>b) Help as superiority:</strong>
@@ -2844,8 +2904,8 @@ export function bryanKohbergerPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Sexual One in comparison: how anger expresses itself differently in SE1, SO1, and SX1 – and why rejection becomes dangerous in disintegration.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 character profiles compared.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Sexual One in comparison: how anger expresses itself differently in SP1, SO1, and SX1 – and why rejection becomes dangerous in disintegration.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 character profiles compared.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Type 1 portrayed in depth – anger, perfectionism, and the healing path through genuine serenity.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -2925,8 +2985,8 @@ export function frankHanebuthPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Born:</strong> 21 September 1964, Garbsen-Osterwald</span>
           <span style="display:block;"><strong>Legal milestones:</strong> 2001 conviction for causing serious bodily harm (Hamburg), three years in prison; 2013–2015 pretrial detention in Spain, followed by acquittal</span>
         </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The social Eight compared: how power and control express themselves differently in SE8, SO8, and SX8 – and why the SO8 needs an authority carried by a group.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE8, SO8, SX8 – 27 character profiles compared.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The social Eight compared: how power and control express themselves differently in SP8, SO8, and SX8 – and why the SO8 needs an authority carried by a group.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP8, SO8, SX8 – 27 character profiles compared.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Lust as the core motive of the Eight: how control and intensity become a central life theme.", "Wer du wirklich bist (Band 1)")}
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
@@ -2939,6 +2999,91 @@ export function frankHanebuthPortraitPage() {
           {route:"kriminalpsychologie", label:"All Criminal Psychology Portraits"},
           {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
         ])}
+    </div>
+  `);
+}
+
+export function rodneyAlcalaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Rodney Alcala – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/kriminalpsychologie-rodney-alcala-portrait.jpg" alt="Rodney Alcala – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Rodney Alcala</p>
+        <p class="krim-portrait-typ">SO3w4 · Social Type 3 with a Four-wing</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Rodney Alcala</strong>, born 23 August 1943 in San Antonio, Texas, presented himself in 1970s California and New York as a photographer and appeared in 1978 on the TV show ›The Dating Game‹. He was convicted of seven murders of women and a girl: five in California (verdict 2010) and two in New York (guilty pleas in 2012). His case is that of a man whose public image as a charming, creative artist and whose crimes lie far apart. He died in custody on 24 July 2021, aged 77. The number of his victims is not known.
+      </p>
+      <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Rodney Alcala</strong> can be linked to the <strong>social Type 3 with a Four-wing</strong> in the Enneagram. The social Three seeks security in the regard of the group and cultivates an image that lands well. The Four-wing adds a claim to being special and an artistic self-image. This criminal portrait describes the background, the crimes, the proceedings and what can be proven. It does not claim that a subtype inclines to violence, and it does not explain the crimes. A military psychiatrist diagnosed an antisocial personality disorder in 1964. The Enneagram describes here only the surface Alcala showed to the outside and the way he used it.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: the Cheetah</h3>
+        <p class="vb-intro">The <strong>Cheetah</strong> of the social Three hunts in open country and by day, a sprinter who is seen. With Alcala this can be linked to the way he moved in the light: he appeared under aliases such as ›John Berger‹ as a fashion photographer, approached women and girls with the offer to photograph them, and in 1978 put himself up as a bachelor on a television show in front of millions. The animal correspondence is an image for the pattern, not a judgement of the person and not an explanation of the crimes.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Background: origins, army, art studies</h3>
+        <p class="vb-intro"><strong>a) Origins:</strong> Alcala was born Rodrigo Jacques Alcala Buquor, the third of four children of a Mexican American family. In 1951 his father moved the family to Mexico, and in 1954 he left them. His mother moved the children to a suburb of Los Angeles; Alcala was eleven.</p>
+        <p class="vb-intro"><strong>b) Army:</strong> In 1961, aged 17, he joined the US Army and served as a clerk. He was disciplined several times for assaulting young women. In 1964, after a nervous breakdown, he went absent without leave from Fort Bragg and hitchhiked to his mother in California. A military psychiatrist diagnosed an antisocial personality disorder, and he was discharged on medical grounds. Figures around an IQ of 135 circulate for his intelligence; there is no reliable proof.</p>
+        <p class="vb-intro"><strong>c) Studies:</strong> Alcala completed an arts degree at UCLA. The often repeated claim that he studied film under Roman Polanski is not substantiated; Polanski was never his teacher. This myth, too, belongs to the image he spread of himself.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The crimes: 1968 to 1979</h3>
+        <p class="vb-intro"><strong>a) Tali Shapiro, 1968:</strong> On 25 September 1968 Alcala lured eight-year-old Tali Shapiro into his apartment in Hollywood, raped and beat her. She survived after 32 days in a coma. Alcala fled, but a witness had called the police. Because the family moved to Mexico and the child could not testify, he was convicted only of child molestation. He was paroled in 1974. Another attempted assault on a 13-year-old girl in Huntington Beach followed in 1974, and in June 1977 he was out on parole again.</p>
+        <p class="vb-intro"><strong>b) New York:</strong> On 12 June 1971 23-year-old Cornelia Crilley was strangled in her Manhattan apartment. The case remained unsolved until 2011. On 15 July 1977 23-year-old Ellen Jane Hover disappeared in Manhattan; her remains were found by the Hudson in 1978. In December 2012 Alcala pleaded guilty in both cases, and in January 2013 he received 25 years to life in each.</p>
+        <p class="vb-intro"><strong>c) California, 1977 to 1979:</strong> On 9 November 1977 18-year-old Jill Barcomb was found dead in Los Angeles, on 16 December 1977 27-year-old Georgia Wixted in her apartment in Malibu, and on 24 June 1978 Charlotte Lamb, in her early thirties, in the laundry room of a building in El Segundo. On 13 June 1979 21-year-old Jill Parenteau died in her apartment in Burbank. On 14 February 1979 15-year-old Monique Hoyt had survived an assault near Joshua Tree and escaped to a gas station. Her later testimony led to a separate conviction.</p>
+        <p class="vb-intro"><strong>d) Robin Samsoe, 1979:</strong> On 20 June 1979 twelve-year-old Robin Samsoe went with a friend to Sunset Beach in Huntington Beach. A man spoke to the girls and offered to photograph them for a ›photo class‹. On her way to ballet class Robin disappeared. Her remains were found on 2 July 1979.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. ›The Dating Game‹, 1978</h3>
+        <p class="vb-intro">In September 1978, between the murders of Wixted and Lamb on one side and Parenteau and Samsoe on the other, Alcala appeared as a contestant on the TV show ›The Dating Game‹ and won the date. According to reports the contestant later declined to go out with him because he seemed creepy to her. The broadcast illustrates the tension in this case: a man who appeared in a studio as an entertaining, worldly photographer had at that time already been convicted of an assault on a child. The show later played a role in the investigation: detectives recognised him in a rerun.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Arrest and proceedings</h3>
+        <p class="vb-intro"><strong>a) Arrest:</strong> After a composite sketch, a parole officer told Huntington Beach police on 26 June 1979 that it resembled his parolee Alcala. Two teenagers recognised him in photographs. On 24 July 1979 he was arrested at his mother's house in Monterey Park, and more than 1,200 photographs were found in his room. In a storage unit in Seattle investigators found more than 2,000 further images and earrings; one pair was identified as Robin Samsoe's.</p>
+        <p class="vb-intro"><strong>b) The three proceedings in the Samsoe case:</strong> In 1980 Alcala was convicted and sentenced to death; the ruling was overturned in 1984 because jurors had heard about his earlier sex offences. In 1986 came another conviction and death sentence; in 2001 a federal court overturned this too, over the handling of a witness's testimony. An appeals court upheld that in 2003.</p>
+        <p class="vb-intro"><strong>c) 2010:</strong> In the third trial in Orange County Alcala represented himself. Charged were the murders of Samsoe, Barcomb, Wixted, Lamb and Parenteau. DNA evidence linked him to four of the crimes, and in the Wixted case a handprint as well. On 25 February 2010 the jury found him guilty on five counts of murder, and on 9 March 2010 it recommended the death penalty, which was imposed. It was never carried out.</p>
+        <p class="vb-intro"><strong>d) End:</strong> Alcala died on 24 July 2021, aged 77, in a hospital in California's Central Valley. According to the prison authorities the cause was natural, and he was still on death row at the time.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Proven and not proven</h3>
+        <p class="vb-intro"><strong>Proven (conviction or guilty plea):</strong> The assault on Tali Shapiro, the murders of Cornelia Crilley, Ellen Hover, Jill Barcomb, Georgia Wixted, Charlotte Lamb, Jill Parenteau and Robin Samsoe, and the assault on Monique Hoyt. <strong>Not proven:</strong> The number of further victims. In 2010 around 120 photographs from Alcala's archive were released so that those affected or relatives could come forward. There are further suspected cases in which there was never a conviction, among them the case of Christine Thornton, in which charges were brought in 2016 but never tried. For these cases: no conviction, no certainty.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Interpretation</h3>
+        <p class="vb-intro">The pattern of the social Three can be recognised in the way Alcala shaped his appearance: the photographer with aliases who approached women and girls with the offer to photograph them, and who courted the favour of the audience on a television show. The Four-wing fits the artistic self-image and the claim to a special eye, which he staged with the camera. Photography served him as access to people.</p>
+        <p class="vb-intro">Here the explanatory power of the subtype ends. A social Three wants to be seen and liked, and the vast majority of such people do not handle this violently. What Alcala did is explained neither by the Enneagram nor by a subtype; it can only be described with severe personality disorders and an offender biography that cannot be illuminated within this frame. The case shows above all how a likeable outward impression can coexist with grave crimes, and why it says nothing about a person by itself.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        The Enneagram explains; it does not justify. Women and a child died, and families grieve to this day. The typing serves to understand a pattern, replaces neither an expert opinion nor a verdict and is not a diagnosis. It rests on publicly documented sources.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-oj-simpson", label:"O.J. Simpson (SO3w4) – same subtype and wing, the public image"},
+        {route:"kriminalpsychologie-andrew-cunanan", label:"Andrew Cunanan (SO3w4) – same subtype, closeness to prestige"},
+        {route:"kriminalmusterkompass/so3", label:"Criminal Pattern Compass: SO3 – Cheetah"},
+        {route:"kriminalpsychologie", label:"Criminal psychology – all portraits"},
+      ])}
     </div>
   `);
 }

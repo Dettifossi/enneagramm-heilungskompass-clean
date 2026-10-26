@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Wochenpaket – Werkzeug</title>
+<meta name="robots" content="noindex, nofollow" />
+<link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+<style>
+  :root { --ivory:#f7f1e6; --paper:#fffaf0; --copper:#a5603d; --ink:#28241f; --muted:#72665a; --line:rgba(40,36,31,.14); --sage:#56654a; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:Georgia,serif; background:var(--ivory); color:var(--ink); }
+  header { position:sticky; top:0; z-index:5; background:color-mix(in srgb,var(--paper) 88%,transparent); -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px); border-bottom:1px solid var(--line); padding:.8rem 1rem; }
+  h1 { margin:0 0 .6rem; font-size:1.1rem; color:var(--copper); }
+  .bar { display:flex; gap:.5rem; flex-wrap:wrap; align-items:center; }
+  select,button { font:inherit; font-size:16px; padding:.5rem .7rem; border:1px solid var(--line); border-radius:8px; background:#fff; }
+  button { cursor:pointer; border:1.5px solid var(--copper); color:var(--copper); background:transparent; font-size:.9rem; }
+  button.p { background:var(--copper); color:#fff; }
+  button:active { transform:scale(.97); }
+  .info { font-size:.85rem; color:var(--muted); margin:.5rem 0 0; }
+  main { max-width:1100px; margin:0 auto; padding:1rem; display:grid; gap:1rem; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); }
+  .c { background:var(--paper); border:1px solid var(--line); border-radius:12px; overflow:hidden; display:flex; flex-direction:column; }
+  .c .tag { padding:.6rem .8rem 0; font-size:.8rem; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+  .c .tag b { color:var(--copper); }
+  .c img { width:100%; aspect-ratio:1; display:block; background:#eee; object-fit:cover; margin-top:.5rem; }
+  .row { display:flex; flex-wrap:wrap; gap:.4rem; padding:.7rem .8rem .8rem; }
+  .toast { position:fixed; left:50%; bottom:1.2rem; transform:translateX(-50%); background:var(--ink); color:#fff; padding:.6rem 1rem; border-radius:10px; font-size:.9rem; opacity:0; transition:opacity .25s; pointer-events:none; z-index:10; }
+  .toast.on { opacity:1; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Wochenpaket – sieben Beiträge auf einen Blick</h1>
+  <div class="bar">
+    <select id="wk"><option value="0">Diese Woche</option><option value="1">Nächste Woche</option><option value="2">In zwei Wochen</option></select>
+    <select id="ch">
+      <option value="fb">Kanal: Facebook</option><option value="wa">Kanal: WhatsApp</option><option value="xing">Kanal: Xing</option><option value="ig">Kanal: Instagram</option><option value="tt">Kanal: TikTok</option><option value="x">Kanal: X</option>
+    </select>
+    <button class="p" id="alle">Alle sieben Texte kopieren</button>
+  </div>
+  <p class="info" id="n"></p>
+</header>
+<main id="g"></main>
+<div class="toast" id="to"></div>
+<script src="data/zitate.js"></script>
+<script>
+(function () {
+  var R = "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/";
+  var TAGE = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"];
+  var ART = ["spruch", "tipp", "buch", "spruch", "tipp", "buch", "spruch"];
+  var NAME = { spruch: "Spruch", tipp: "Gesundheitstipp der Praxis", buch: "Buch des Verlagshauses" };
+  var Z = (window._zitateData || []).map(function (z, i) { z.n = ("00" + (i + 1)).slice(-3); return z; });
+  var TIPPS = [], BUECHER = [];
+  var g = document.getElementById("g"), wk = document.getElementById("wk"), ch = document.getElementById("ch"), nEl = document.getElementById("n");
+  function toast(m) { var t = document.getElementById("to"); t.textContent = m; t.classList.add("on"); setTimeout(function () { t.classList.remove("on"); }, 1800); }
+  function isoWeek(d) { var x = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate())); var day = x.getUTCDay() || 7; x.setUTCDate(x.getUTCDate() + 4 - day); var y0 = new Date(Date.UTC(x.getUTCFullYear(), 0, 1)); return { w: Math.ceil(((x - y0) / 86400000 + 1) / 7), y: x.getUTCFullYear() }; }
+  function pick(list, week, k) { return list[(((week * 3 + k) * 137) % list.length + list.length) % list.length]; }
+  function plan() {
+    var d = new Date(); d.setDate(d.getDate() + 7 * parseInt(wk.value, 10));
+    var iw = isoWeek(d), week = (iw.y - 2026) * 53 + iw.w, cnt = { spruch: 0, tipp: 0, buch: 0 };
+    return { iw: iw, items: ART.map(function (a, i) {
+      var k = cnt[a]++, it;
+      if (a === "spruch") it = pick(Z, week, k); else if (a === "tipp") it = pick(TIPPS, week, k); else it = pick(BUECHER, week, k);
+      return { art: a, tag: TAGE[i], it: it };
+    }) };
+  }
+  function link(p) {
+    var q = ch.value, i = p.it;
+    if (p.art === "spruch") return "https://kompass.verlagshausrathmer.com/spruch/" + i.n + ".html?q=" + q;
+    if (p.art === "tipp") return "https://www.psychologische-homoeopathie.de/tipp/" + i.n + ".html?q=" + q;
+    return "https://www.verlagshausrathmer.com/buch/" + i.slug + ".html?utm_source=karte&utm_medium=" + q + "&utm_campaign=" + i.n;
+  }
+  function img(p, fmt) { var f = p.art === "spruch" ? "sprueche" : p.art === "tipp" ? "praxis-tipps" : "verlag-karten"; return R + f + "/" + p.it.n + "-" + fmt + ".jpg"; }
+  function text(p) {
+    var i = p.it, bio = (ch.value === "ig" || ch.value === "tt"), t;
+    if (p.art === "spruch") {
+      t = "„" + i.q + "“ – " + i.a + "\n\nWelcher Typ steckt in diesem Satz? " + (bio ? "Mehr dazu über den Link in der Bio." : "→ " + link(p)) + "\n\n#Enneagramm #Selbsterkenntnis" + (bio ? " #Persönlichkeit #Psychologie" : "");
+    } else if (p.art === "tipp") {
+      t = i.titel + "\n\n" + i.text;
+      if (i.zutaten) t += "\n\nZutaten: " + i.zutaten.join(", ") + ".";
+      if (i.zubereitung) t += "\n\nZubereitung: " + i.zubereitung;
+      t += "\n\n" + (bio ? "Mehr dazu über den Link in der Bio." : "Mehr dazu: " + link(p));
+      t += "\n\nAllgemeine Information zur Lebensführung, ersetzt keine ärztliche oder heilpraktische Behandlung.\n\n#Gesundheitstipp #Naturheilkunde #Hausmittel #Billerbeck";
+    } else {
+      t = i.titel + (i.sub ? " – " + i.sub : "") + "\n\n" + i.kurz + "\n\n" + (bio ? "Mehr dazu über den Link in der Bio." : "Jetzt ansehen: " + link(p)) + "\n\n#Enneagramm #Buchtipp #Selbsterkenntnis #VerlagshausRathmer";
+    }
+    return t;
+  }
+  var cur = null;
+  function render() {
+    if (!Z.length || !TIPPS.length || !BUECHER.length) { nEl.textContent = "Lade Daten …"; return; }
+    cur = plan();
+    nEl.textContent = "Kalenderwoche " + cur.iw.w + ". Die Auswahl ist pro Woche festgelegt und wiederholt sich lange nicht. „Text kopieren“ passt zum gewählten Kanal.";
+    g.innerHTML = cur.items.map(function (p, k) {
+      var titel = p.art === "spruch" ? p.it.q.slice(0, 60) : p.it.titel;
+      return '<div class="c" data-k="' + k + '"><div class="tag"><b>' + p.tag + '</b> · ' + NAME[p.art] + '</div><img loading="lazy" alt="" src="' + img(p, "quadrat") + '"><div class="row">' +
+        '<button class="p" data-a="copy">Text + Link kopieren</button><button data-a="q">Quadrat speichern</button><button data-a="st">Story speichern</button></div></div>';
+    }).join("");
+  }
+  function save(url, name) {
+    fetch(url).then(function (r) { return r.blob(); }).then(function (b) {
+      var a = document.createElement("a"); a.href = URL.createObjectURL(b); a.download = name; a.click(); setTimeout(function () { URL.revokeObjectURL(a.href); }, 4000);
+    }).catch(function () { window.open(url, "_blank"); toast("Bild öffnet sich, dort lang drücken bzw. rechtsklicken zum Speichern"); });
+  }
+  function copy(t, msg) { (navigator.clipboard ? navigator.clipboard.writeText(t) : Promise.reject()).then(function () { toast(msg); }, function () { prompt("Bitte kopieren:", t); }); }
+  g.addEventListener("click", function (e) {
+    var b = e.target.closest("button"); if (!b) return;
+    var p = cur.items[parseInt(b.closest(".c").dataset.k, 10)], a = b.dataset.a;
+    if (a === "copy") copy(text(p), "Text und Link kopiert");
+    if (a === "q") save(img(p, "quadrat"), p.tag.toLowerCase() + "-quadrat.jpg");
+    if (a === "st") save(img(p, "story"), p.tag.toLowerCase() + "-story.jpg");
+  });
+  document.getElementById("alle").addEventListener("click", function () {
+    copy(cur.items.map(function (p) { return "=== " + p.tag + " · " + NAME[p.art] + " ===\n" + text(p); }).join("\n\n\n"), "Alle sieben Texte kopiert");
+  });
+  wk.addEventListener("change", render); ch.addEventListener("change", render);
+  Promise.all([
+    fetch("https://www.psychologische-homoeopathie.de/tipp/tipps.json").then(function (r) { return r.json(); }).then(function (d) { TIPPS = d; }),
+    fetch("https://www.verlagshausrathmer.com/karten/karten.json").then(function (r) { return r.json(); }).then(function (d) { BUECHER = d; })
+  ]).then(render).catch(function () { nEl.textContent = "Daten konnten nicht geladen werden. Bitte Seite neu laden."; });
+  render();
+})();
+</script>
+</body>
+</html>

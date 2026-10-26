@@ -1,4 +1,4 @@
-import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
+const { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } = window.__kh;
 
 export function adolfEichmannPortraitPage() {
   return shell(`
@@ -22,7 +22,7 @@ export function adolfEichmannPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Social Six: Security Through Obedience</h3>
         <p class="vb-intro">The <strong>Social Six (SO6)</strong> seeks security not through their own strength, but through belonging to an authority structure. The passion of Type Six is <em>Fear</em> — the SO6 copes with this fear by embedding themselves within an institution, an ideology, or a hierarchy. As long as they serve the system and the system provides them cover, the fear is quieted.</p>
-        <p class="vb-intro"><strong>Otto Adolf Eichmann</strong>, born on March 19, 1906, in Solingen, was a thoroughly average man. As a young man, he was unsuccessful in his career, lacking special talent or pronounced ambition. Joining the NSDAP and the SS in 1932 was not an ideological act for him — it was an act of <em>integration</em>. He found a structure that provided him support, belonging, and duties. He rose through the ranks because he was reliable, obedient, and carried out tasks neatly. That is the SO6 career: achieved not through brilliance, but through conformity.</p>
+        <p class="vb-intro"><strong>Otto Adolf Eichmann</strong>, born on March 19, 1906, in Solingen, was a thoroughly average man. As a young man, he was unsuccessful in his career, lacking special talent or pronounced ambition. Joining the NSDAP and the SS in 1932 was not an ideological act for him — it was an act of <em>integration</em>. He found a structure that provided him support, belonging, and duties. He rose through the ranks because he was reliable, obedient, and carried out tasks neatly. Here we see the SO6 career: achieved not through brilliance, but through conformity.</p>
       </div>
 
       <div class="vb-section">
@@ -81,6 +81,10 @@ export function adolfEichmannPortraitPage() {
           {route:"kriminalpsychologie-anders-breivik", label:"Criminal Psychology: Anders Breivik (SX6w5)"},
           {route:"kriminalpsychologie-charles-manson", label:"Criminal Psychology: Charles Manson (SX6w7)"},
           {route:"kriminalpsychologie-harold-shipman", label:"Criminal Psychology: Harold Shipman (SO5w6)"},
+          {route:"kriminalpsychologie-andreas-baader", label:"Andreas Baader (SP7w8) – criminal psychology"},
+          {route:"kriminalpsychologie-john-list", label:"John List (SP6w5) – criminal psychology"},
+          {route:"kriminalpsychologie-ted-kaczynski", label:"Dr. Ted Kaczynski (SO5w4) – criminal psychology"},
+          {route:"kriminalpsychologie-ulrike-meinhof", label:"Ulrike Meinhof (SP2w1) – criminal psychology"},
         ])}
       </div>
     </div>
@@ -169,7 +173,7 @@ Three years and two months in prison without parole—the court saw no mitigatin
         <p class="vb-intro"><strong>a) No Malice – But a Lack of Wakefulness:</strong>
 Schuhbeck is not a criminal in the sense of a person who actively wants to harm others. The Nine does not direct its damage outward like an Eight—it inflicts damage quietly and without guilt because a fundamental inner wakefulness is missing. This is the core of Nine psychology: not malice, but sleeping in a moral sense. One who sleeps feels no pain—and yet sometimes causes harm anyway.</p>
         <p class="vb-intro"><strong>b) The Double Life as Mere Routine:</strong>
-The most astounding aspect of the Schuhbeck case is its normality. He kept cooking, kept laughing, kept appearing on TV, kept opening new shops. The fraud was no crisis—it was routine. This is the SP9 capability: inhabiting two levels simultaneously without them touching internally. Enjoyment in the foreground, wrongdoing in the background—and no psychological signal bringing the two together.</p>
+The most astounding aspect of the Schuhbeck case is its normality. He kept cooking, kept laughing, kept appearing on TV, kept opening new shops. The fraud was no crisis—it was routine. This shows the SP9 capability: inhabiting two levels simultaneously without them touching internally. Enjoyment in the foreground, wrongdoing in the background—and no psychological signal bringing the two together.</p>
         <p class="vb-intro"><strong>c) No Comparison to Other White-Collar Criminals:</strong>
 An SP3w4 like Bernie Madoff needed conscious staging, ultimate greed, and the biggest game. An SX8 like Jeffrey Epstein needed power, control, and the thrill of the forbidden. Schuhbeck needed none of that. He only needed comfort. That makes the SP9 white-collar criminal particularly difficult to grasp—and particularly puzzling to outsiders. Where is the greed? Where is the calculation? There is none. Just appetite. Just habit. Just sleep.</p>
       </div>
@@ -199,7 +203,10 @@ An SP3w4 like Bernie Madoff needed conscious staging, ultimate greed, and the bi
       ${relatedLinks([
         {route:"kriminalpsychologie-nick-leeson", label:"Criminal Psychology: Nick Leeson (SO9w8) \u2013 Rogue Trader, Barings Bank"},
         {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Criminal Psychology: Wolfgang Beltracchi (SX9w1) – Art Forger"},
-        {route:"kriminalpsychologie-leslie-van-houten", label:"Criminal Psychology: Leslie Van Houten (SO9w1) \u2013 Manson Family"}
+        {route:"kriminalpsychologie-leslie-van-houten", label:"Criminal Psychology: Leslie Van Houten (SO9w1) \u2013 Manson Family"},
+        {route:"beruehmte-baerbel-bas", label:"Portrait: Bärbel Bas (SP9w1)"},
+        {route:"kriminalpsychologie-ed-gein", label:"Ed Gein (SX9w1) – criminal psychology"},
+        {route:"kriminalpsychologie-john-hinckley-jr", label:"John Hinckley Jr. (SP9w8) – criminal psychology"},
       ])}
       <div style="margin-top:1.5rem;max-width:100%;">
         <button class="ghost-link" data-route="kriminalpsychologie">\u2190 Zur\xfcck zur Criminal Psychology-\xdcbersicht</button>
@@ -224,7 +231,7 @@ export function andrewCunananPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. The Cheetah</h3>
-        <p class="vb-intro">The <strong>cheetah</strong> is the animal of the Social Three — and it fits Andrew Cunanan with an almost eerie precision. The cheetah is the fastest land animal in the world, but not a creature of endurance: it is built for the perfect moment of attack, for speed and accuracy, not for the long haul. It thrives on its external elegance, its adaptability to the terrain, its ability to maneuver into the exact position from which it can strike most effectively. When the hunt fails, there is no Plan B — the cheetah breaks off and retreats to safety. Andrew Cunanan had no Plan B. When his world collapsed, he kept hunting — until he had nothing left except the biggest headline he could possibly imagine.</p>
+        <p class="vb-intro">The <strong>cheetah</strong> is the emblem of the Social Three — and it fits Andrew Cunanan with an almost eerie precision. The cheetah is the fastest land animal in the world, but not a creature of endurance: it is built for the perfect moment of attack, for speed and accuracy, not for the long haul. It thrives on its external elegance, its adaptability to the terrain, its ability to maneuver into the exact position from which it can strike most effectively. When the hunt fails, there is no Plan B — the cheetah breaks off and retreats to safety. Andrew Cunanan had no Plan B. When his world collapsed, he kept hunting — until he had nothing left except the biggest headline he could possibly imagine.</p>
       </div>
 
       <div class="vb-section">
@@ -298,6 +305,10 @@ export function andrewCunananPortraitPage() {
           {route:"kriminalpsychologie-wade-wilson", label:"Criminal Psychology: Wade Wilson (SO3w4)"},
           {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy (SO1w9)"},
           {route:"kriminalpsychologie-anna-delvey", label:"Criminal Psychology: Anna Delvey (SP2w3)"},
+          {route:"kriminalpsychologie-oj-simpson", label:"O.J. Simpson (SO3w4) – criminal psychology"},
+          {route:"kriminalpsychologie-rodney-alcala", label:"Rodney Alcala (SO3w4) – criminal psychology"},
+          {route:"kriminalpsychologie-vincenzo-peruggia", label:"Vincenzo Peruggia (SO3w4) – criminal psychology"},
+          {route:"kriminalpsychologie-werner-gladow", label:"Werner Gladow (SO3w4) – criminal psychology"},
         ])}
       </div>
     </div>
@@ -327,7 +338,7 @@ export function arnoFunkePortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
         <p class="vb-intro"><strong>a) Probing and Attentive:</strong> Funke's gaze was that of a person who notices and evaluates details. Type One perceives the world with an analytical eye — what is correct, what is incorrect, where does the flaw lie? This quality is palpable in his meticulous preparation for every action.</p>
         <p class="vb-intro"><strong>b) Calm and Watchful:</strong> The Nine-wing imparts a patience and calm to the gaze that appears unusual for a Type One. Funke did not rush — he waited, observed, planned. This watchful, almost meditative gaze is the hallmark of the Nine-wing.</p>
-        <p class="vb-intro"><strong>c) Devoid of Aggression:</strong> Unlike many criminals, Funke never appeared threatening. His gaze signaled concentration rather than dominance. This is the SP1w9 in its civil expression: intensity without dangerousness.</p>
+        <p class="vb-intro"><strong>c) Devoid of Aggression:</strong> Unlike many criminals, Funke never appeared threatening. His gaze signaled concentration rather than dominance. Here you can see the SP1w9 in its civil expression: intensity without dangerousness.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -396,6 +407,8 @@ export function arnoFunkePortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-niels-hoegel", label:"Criminal Psychology: Niels Högel (SP7w8)"},
         {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Criminal Psychology: Wolfgang Beltracchi"},
+        {route:"kriminalpsychologie-andrei-tschikatilo", label:"Andrei Tschikatilo (SP1w9) – criminal psychology"},
+        {route:"kriminalpsychologie-dennis-rader", label:"Dennis Rader (SP1w9) – criminal psychology"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
@@ -495,6 +508,9 @@ export function busterMurdaughPortraitPage() {
         {route:"kriminalpsychologie-anna-delvey", label:"Criminal Psychology: Anna Delvey"},
         {route:"kriminalpsychologie-harvey-weinstein", label:"Criminal Psychology: Harvey Weinstein"},
         {route:"kriminalpsychologie-jonathan-meijer", label:"Criminal Psychology: Jonathan Meijer"},
+        {route:"kriminalpsychologie-alex-murdaugh", label:"Alex Murdaugh (SX1w2) – criminal psychology"},
+        {route:"kriminalpsychologie-john-wayne-gacy", label:"John Wayne Gacy (SP2w3) – criminal psychology"},
+        {route:"kriminalpsychologie-sebastian-greenwood", label:"Sebastian Greenwood (SP2w3) – criminal psychology"},
       ])}
     </div>
   `);
@@ -529,7 +545,7 @@ export function clydeBarrowPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Eight wing: When flight turns into confrontation</h3>
         <p class="vb-intro">An SX7 with a more muted Eight wing would likely have responded to imminent danger with pure flight – evading, disappearing, leaving the situation. In Clyde's case, a hardness emerged instead that went beyond mere escape: when flight reached its limit, he shot without hesitation. "Die rather than go back to prison" was, for him, not a figure of speech but a lived inner necessity.</p>
-        <p class="vb-intro">This is the Eight wing on the Seven: flight remains the basic movement, but once no way out remains, lightness turns into uncompromising confrontation. Not control as a goal in itself, as with a pure Eight, but control as a last resort to defend the freedom the Seven prizes above all else.</p>
+        <p class="vb-intro">Here we see the Eight wing on the Seven: flight remains the basic movement, but once no way out remains, lightness turns into uncompromising confrontation. Not control as a goal in itself, as with a pure Eight, but control as a last resort to defend the freedom the Seven prizes above all else.</p>
       </div>
 
       <div class="vb-section">
@@ -546,7 +562,7 @@ export function clydeBarrowPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. What the Enneagram reveals</h3>
-        <p class="vb-intro"><strong>a) Fleeing confinement, not craving violence:</strong> Clyde's starting point was not a lust for control, but a panicked fear of being caged. This is the SX7's core passion: avoiding pain through movement, speed, and ever-new options.</p>
+        <p class="vb-intro"><strong>a) Fleeing confinement, not craving violence:</strong> Clyde's starting point was not a lust for control, but a panicked fear of being caged. This shows the SX7's core passion: avoiding pain through movement, speed, and ever-new options.</p>
         <p class="vb-intro"><strong>b) The Eight wing as a last line of defense:</strong> An SX7 with a more muted Eight wing would likely have surrendered when arrest loomed. Clyde's strongly developed Eight wing turned flight into a readiness for lethal confrontation once no way out remained.</p>
         <p class="vb-intro"><strong>c) The one bond amid the restlessness:</strong> His unconditional loyalty to Bonnie, despite mounting risk, shows how the sexual Seven can focus her otherwise wide array of possibilities onto a single, non-negotiable relationship.</p>
       </div>
@@ -562,7 +578,7 @@ export function clydeBarrowPortraitPage() {
           <span style="display:block;"><strong>Known for:</strong> Half of the outlaw couple "Bonnie and Clyde", 21-month crime spree across the American Midwest (1932–1934), at least 13 killings, killed in a police ambush</span>
         </p>
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The sexual Seven compared: how fleeing confinement becomes a restless way of life – and why the Eight wing turns lightness into lethal confrontation.", "The Hidden Dynamics of the 27 Subtypes")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE7, SO7, SX7 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP7, SO7, SX7 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Gluttony as the core motive of the Seven: how the Seven's protective system forms – and how it dissolves through healing.", "Who You Really Are (Volume 1)")}
 
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -671,6 +687,9 @@ export function dianeDownsPortraitPage() {
         {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy (SO1w9)"},
         {route:"kriminalpsychologie-luka-magnotta", label:"Criminal Psychology: Luka Magnotta (SX3w4)"},
         {route:"kriminalpsychologie-richard-ramirez", label:"Criminal Psychology: Richard Ramírez (SX3w4)"},
+        {route:"kriminalpsychologie-aileen-wuornos", label:"Aileen Wuornos (SX7w8) – criminal psychology"},
+        {route:"kriminalpsychologie-lindsay-clancy", label:"Lindsay Clancy (SO3w4) – criminal psychology"},
+        {route:"kriminalpsychologie-pamela-smart", label:"Pamela Smart (SX2w3) – criminal psychology"},
       ])}
     </div>
   `);
@@ -705,7 +724,7 @@ export function frankAbagnalePortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Facial & Gaze Expression Quality</h3>
-        <p class="vb-intro"><strong>a) Charming, Quick-Tongued, Instantly Likeable:</strong> Abagnale never came across as a showman triggering suspicion, but as someone you warmed to immediately — engaging, talkative, carrying an optimistic ease that never let skepticism take hold. This is the social Seven in its rawest form: charm as a passport into any system.</p>
+        <p class="vb-intro"><strong>a) Charming, Quick-Tongued, Instantly Likeable:</strong> Abagnale never came across as a showman triggering suspicion, but as someone you warmed to immediately — engaging, talkative, carrying an optimistic ease that never let skepticism take hold. Here you can see the social Seven in its rawest form: charm as a passport into any system.</p>
         <p class="vb-intro"><strong>b) Always Another Option Up His Sleeve:</strong> Contemporaries described him as quick-thinking and never at a loss for an excuse or an exit. Whenever an identity grew too tight or too risky, the next one was already prepared. This ability never to feel cornered mentally is a core trait of the Seven — in the social variant paired with the conviction that the next step should also serve the larger whole, not just personal pleasure.</p>
         <p class="vb-intro"><strong>c) The Six-Wing: Testing Authority, Seeking Safety:</strong> Unlike a Seven with a weaker Six wing, who tends to simply drift, Abagnale carefully studied the systems he infiltrated for their rules, weak points, and trust mechanisms — a typical Six-like vigilance. And that very vigilance eventually led him exactly where he never wanted to go and yet needed most: into a system he could genuinely trust.</p>
       </div>
@@ -724,7 +743,7 @@ export function frankAbagnalePortraitPage() {
         <p class="vb-intro"><strong>c) Lawyer in Louisiana — Passing the Bar on the Third Try:</strong> Abagnale forged a Harvard transcript and passed the state bar exam on his third attempt. No panic, no giving up — just the Seven's optimistic persistence, which treats every setback as merely a temporary hurdle on the way to the next open door. He worked for nearly a year as an Assistant Attorney General until a real Harvard graduate joined the firm.</p>
         <p class="vb-intro"><strong>d) Check Fraud on an Industrial Scale:</strong> Abagnale inflicted the greatest financial damage through forged checks. He printed checks using authentic routing numbers and cashed them worldwide using his pilot ID — at hotels, banks, and currency exchanges. A system, expanded into ever more countries and channels — beaver business on a grand scale.</p>
         <p class="vb-intro"><strong>e) Arrest, Escape, Rearrest:</strong> In 1969 an Air France flight attendant recognized him in Montpellier. He was incarcerated in France, Sweden, and the United States. He escaped from a Swedish prison by posing as a US prison inspector. In the US, he convinced a guard that he was working undercover for the Department of Justice. Even behind bars, his mindset remained: which role opens the next door here?</p>
-        <p class="vb-intro"><strong>f) From Offender to FBI Consultant:</strong> Following a prison term, Abagnale struck a deal with the FBI: he assisted in capturing check counterfeiters and became a sought-after expert on document fraud. This is the SO7w6 resolution in its clearest expression: the endless search for the next system finally settling into a belonging he could genuinely trust — legitimate, needed, finally arrived.</p>
+        <p class="vb-intro"><strong>f) From Offender to FBI Consultant:</strong> Following a prison term, Abagnale struck a deal with the FBI: he assisted in capturing check counterfeiters and became a sought-after expert on document fraud. Here we see the SO7w6 resolution in its clearest expression: the endless search for the next system finally settling into a belonging he could genuinely trust — legitimate, needed, finally arrived.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -744,6 +763,13 @@ export function frankAbagnalePortraitPage() {
         The beaver keeps building until the ecosystem around it is complete. But does it also build something that carries itself? That is the question Abagnale's life poses — one he only half-answered, late, with the FBI at his side.</p>
       </div>
 
+      ${relatedLinks([
+        {route:"beruehmte-anna-anderson", label:"Portrait: Anna Anderson (SP3w4)"},
+        {route:"beruehmte-josh-safdie", label:"Portrait: Josh Safdie (SO7w6)"},
+        {route:"kriminalpsychologie-bernie-madoff", label:"Bernie Madoff (SP3w4) – criminal psychology"},
+        {route:"kriminalpsychologie-victor-lustig", label:"Victor Lustig (SX7w8) – criminal psychology"},
+        {route:"kriminalpsychologie", label:"Criminal psychology – all portraits"},
+      ])}
     </div>
   `);
 }
@@ -844,6 +870,8 @@ export function grisdaBlancoPortraitPage() {
           {route:"kriminalpsychologie-salvatore-riina", label:"Criminal Psychology: Salvatore Riina (SP8w9)"},
           {route:"kriminalpsychologie-john-gotti", label:"Criminal Psychology: John Gotti (SO8w7)"},
           {route:"kriminalpsychologie-jeffrey-epstein", label:"Criminal Psychology: Jeffrey Epstein (SX8w9)"},
+          {route:"kriminalpsychologie-p-diddy", label:"Sean 'P. Diddy' Combs (SX7w8) – criminal psychology"},
+          {route:"kriminalpsychologie-rex-heuermann", label:"Rex Heuermann (SP8w9) – criminal psychology"},
         ])}
       </div>
     </div>
@@ -880,7 +908,7 @@ export function heinrichPommerenkePortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
-        <p class="vb-intro"><strong>a) The Divine Mandate to Punish:</strong> Pommerenke's central psychological document is his own explanation: a film scene depicting women dancing around the Golden Calf filled him with the conviction that he had to punish sinful women. This is the SO1 in its most extreme religious distortion: the social One experiences itself as a guardian of social order — in Pommerenke's case, this concept of order was elevated into the religious and turned into a delusion that eliminated all contradiction.</p>
+        <p class="vb-intro"><strong>a) The Divine Mandate to Punish:</strong> Pommerenke's central psychological document is his own explanation: a film scene depicting women dancing around the Golden Calf filled him with the conviction that he had to punish sinful women. This shows the SO1 in its most extreme religious distortion: the social One experiences itself as a guardian of social order — in Pommerenke's case, this concept of order was elevated into the religious and turned into a delusion that eliminated all contradiction.</p>
         <p class="vb-intro"><strong>b) Precision and Planning:</strong> The number 71,317 — the number of women that he, by his own admission, intended to kill, rape, or impregnate — is not a product of chance. It is the result of inner accounting, a compulsive order within chaos. The One is the type that needs rules, lists, and systems — even for the most unfathomable things. Pommerenke's planned figure shows that his delusion was not a chaotic release of impulse, but possessed a thoroughly structured inner logic.</p>
         <p class="vb-intro"><strong>c) Nine-Wing: Freezing Instead of Exploding:</strong> Where a 1w2 would surge emotionally, the 1w9 freezes. Pommerenke's Nine-wing enabled a complete dissociation from his own actions: the act was experienced not as part of the self, but as a quasi-external execution of a mandate. The conscience — which normally shouts loudly in the One — was silenced through this detachment. No inner alarm. Only execution.</p>
       </div>
@@ -901,7 +929,7 @@ export function heinrichPommerenkePortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
-        <p class="vb-intro"><strong>a) Frozen and Compressed:</strong> The energetic quality of the 1w9 is like a deeply chilled system under pressure: no visible movements on the surface, but enormous, rigid tension underneath. Pommerenke appeared to those he spoke with neither intimidating nor warm — he appeared gone. As if he were not quite present. That is the Nine-wing energy of the One: not fire, but permafrost.</p>
+        <p class="vb-intro"><strong>a) Frozen and Compressed:</strong> The energetic quality of the 1w9 is like a deeply chilled system under pressure: no visible movements on the surface, but enormous, rigid tension underneath. Pommerenke appeared to those he spoke with neither intimidating nor warm — he appeared gone. As if he were not quite present. Here you can see the Nine-wing energy of the One: not fire, but permafrost.</p>
         <p class="vb-intro"><strong>b) Moral Pressure Without Words:</strong> The One constantly broadcasts a silent signal: standards are lived by here. Anyone who is with a One feels this pressure — even if not a word is spoken. With Pommerenke, this pressure was encoded into his relationship with the entire world: he evaluated everything, always, automatically. No person in his environment was simply present — everyone was a moral case.</p>
         <p class="vb-intro"><strong>c) Nine-Wing: Dissociation as Energy Protection:</strong> The Nine-wing of the One creates a specific defense mechanism energy: the numbing of one's own inner life so as not to have to feel the inner rigidity. For Pommerenke, this meant: he could do what he did without his own experience acting as a boundary. The dissociation was not a weakness — it was his system.</p>
       </div>
@@ -945,6 +973,9 @@ export function heinrichPommerenkePortraitPage() {
         {route:"kriminalpsychologie-rudolf-pleil", label:"Criminal Psychology: Rudolf Pleil"},
         {route:"kriminalpsychologie-anders-breivik", label:"Criminal Psychology: Anders Breivik"},
         {route:"kriminalpsychologie-gesche-gottfried", label:"Criminal Psychology: Gesche Gottfried (SO1w2)"},
+        {route:"kriminalpsychologie-dieter-zlof", label:"Dieter Zlof (SO1w9) – criminal psychology"},
+        {route:"kriminalpsychologie-paul-ogorzow", label:"Paul Ogorzow (SP1w9) – criminal psychology"},
+        {route:"kriminalpsychologie-ted-bundy", label:"Ted Bundy (SO1w9) – criminal psychology"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
@@ -1072,6 +1103,15 @@ In prison, Dahmer was baptized in 1994 and, according to the prison chaplain, sh
       ${relatedLinks([
         {route:"kriminalpsychologie-adolf-hitler", label:"Criminal Psychology: Adolf Hitler"},
         {route:"kriminalpsychologie-luka-magnotta", label:"Criminal Psychology: Luka Magnotta"},
+        {route:"kriminalpsychologie-anders-breivik", label:"Anders Breivik (SX6w5) – criminal psychology"},
+        {route:"kriminalpsychologie-armin-meiwes", label:"Armin Meiwes (SX6w5) – criminal psychology"},
+        {route:"kriminalpsychologie-david-berkowitz", label:"David Berkowitz (SP4w3) – criminal psychology"},
+        {route:"kriminalpsychologie-dennis-nilsen", label:"Dennis Nilsen (SP1w2) – criminal psychology"},
+        {route:"kriminalpsychologie-harold-shipman", label:"Dr. Harold Shipman (SO5w6) – criminal psychology"},
+        {route:"kriminalpsychologie-joachim-kroll", label:"Joachim Kroll (SP5w6) – criminal psychology"},
+        {route:"kriminalpsychologie-joel-rifkin", label:"Joel Rifkin (SX5w6) – criminal psychology"},
+        {route:"kriminalpsychologie-salvatore-riina", label:"Salvatore Riina (SP8w9) – criminal psychology"},
+        {route:"kriminalpsychologie-ted-kaczynski", label:"Dr. Ted Kaczynski (SO5w4) – criminal psychology"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
@@ -1164,7 +1204,8 @@ In 1994, Rifkin was found guilty on nine counts of first-degree murder. His sent
       ${relatedLinks([
         {route:"kriminalpsychologie-jeffrey-dahmer", label:"Criminal Psychology: Jeffrey Dahmer (SX5w4) – Milwaukee Cannibal"},
         {route:"kriminalpsychologie-harold-shipman", label:"Criminal Psychology: Harold Shipman (SO5w6)"},
-        {route:"kriminalpsychologie-anders-breivik", label:"Criminal Psychology: Anders Breivik (SX6w5)"}
+        {route:"kriminalpsychologie-anders-breivik", label:"Criminal Psychology: Anders Breivik (SX6w5)"},
+        {route:"kriminalpsychologie-armin-meiwes", label:"Armin Meiwes (SX6w5) – criminal psychology"},
       ])}
     </div>
   `);
@@ -1219,7 +1260,7 @@ export function johnMcAfeePortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Typical Behavioral Patterns</h3>
         <p class="vb-intro"><strong>a) Confrontation as a Means of Communication:</strong> McAfee communicated through provocation. His tweets, interviews, and public appearances were rarely objective — they were attacks. The Sexual Eight speaks the language of confrontation because it considers it the most honest language.
         </p>
-        <p class="vb-intro"><strong>b) Disobedience as Identity:</strong> McAfee paid no taxes for over a decade — not because he had no money, but because he considered taxes to be theft. Rules he deemed unjust, he ignored. That is the Eight in its clearest expression: moral self-will beyond social conventions.</p>
+        <p class="vb-intro"><strong>b) Disobedience as Identity:</strong> McAfee paid no taxes for over a decade — not because he had no money, but because he considered taxes to be theft. Rules he deemed unjust, he ignored. Here we see the Eight in its clearest expression: moral self-will beyond social conventions.</p>
         <p class="vb-intro"><strong>c) Elusiveness and Movement:</strong> McAfee was rarely in one place for long. Guatemala, Belize, Russia, Spain: he lived in permanent motion, partly out of necessity, partly out of nature. The Sexual Eight seeks intensity — and for it, intensity arises in change, not in stillness.</p>
       </div>
 
@@ -1267,6 +1308,7 @@ export function johnMcAfeePortraitPage() {
         {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar"},
         {route:"kriminalpsychologie-amelia-dyer", label:"Criminal Psychology: Amelia Dyer (SX8w9) – same subtype"},
         {route:"kriminalpsychologie-peter-moore", label:"Criminal Psychology: Peter Moore (SX8w7) – different wing"},
+        {route:"kriminalpsychologie-john-gotti", label:"John Gotti (SO8w7) – criminal psychology"},
       ])}
     </div>
   `);
@@ -1309,7 +1351,7 @@ export function karlaHomolkaPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Crimes: What Karla Homolka Did</h3>
-        <p class="vb-intro"><strong>a) Tammy Homolka – Her Own Sister:</strong> In December 1990, Karla secretly administered Halothane — an anesthetic stolen from the veterinary clinic where she worked — to her 15-year-old sister, Tammy. While Tammy was unconscious, Bernardo raped her while Karla recorded the assault and secured the scene. Tammy aspirated her own vomit and died. The death was initially ruled an accident, and Karla attended the funeral as a grieving sister. This is the SP3 in collapse: her sister became an obstacle to maintaining the image of her relationship with Bernardo. He demanded her; Karla delivered her.</p>
+        <p class="vb-intro"><strong>a) Tammy Homolka – Her Own Sister:</strong> In December 1990, Karla secretly administered Halothane — an anesthetic stolen from the veterinary clinic where she worked — to her 15-year-old sister, Tammy. While Tammy was unconscious, Bernardo raped her while Karla recorded the assault and secured the scene. Tammy aspirated her own vomit and died. The death was initially ruled an accident, and Karla attended the funeral as a grieving sister. This shows the SP3 in collapse: her sister became an obstacle to maintaining the image of her relationship with Bernardo. He demanded her; Karla delivered her.</p>
         <p class="vb-intro"><strong>b) Leslie Mahaffy and Kristen French:</strong> In June 1991, Bernardo and Homolka abducted 14-year-old Leslie Mahaffy. They brought her to their home, held her captive for days, raped her, killed her, and dismembered her body — encasing the remains in concrete blocks that were later recovered from Lake Gibson. In April 1992, they abducted 15-year-old Kristen French, holding her captive for days before murdering her. Homolka was actively present during these crimes — not as a coerced bystander, but as an active participant. Video recordings made by Bernardo conclusively documented her involvement.</p>
         <p class="vb-intro"><strong>c) The Plea Bargain:</strong> Before the videotapes were discovered by investigators, Homolka's defense attorney negotiated a plea deal with prosecutors: twelve years for manslaughter in exchange for her complete testimony against Bernardo. When the tapes subsequently surfaced, revealing the full extent of her active participation, the deal was already legally binding. The press termed it the "Deal with the Devil." Karla Homolka was released in 2005 — younger than many of her victims would have been had they lived. Today, she resides in Quebec under a new name, remarried, with children of her own. This is the raccoon: it slips away, adapts, and survives.</p>
       </div>
@@ -1349,6 +1391,8 @@ export function karlaHomolkaPortraitPage() {
         {route:"kriminalpsychologie-paul-bernardo", label:"Criminal Psychology: Paul Bernardo (SX1w2) – Partner"},
         {route:"kriminalpsychologie-ruja-ignatova", label:"Criminal Psychology: Ruja Ignatova (SP3w4)"},
         {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy (SO1w9)"},
+        {route:"kriminalpsychologie-aileen-wuornos", label:"Aileen Wuornos (SX7w8) – criminal psychology"},
+        {route:"kriminalpsychologie-belle-gunness", label:"Belle Gunness (SP3w4) – criminal psychology"},
       ])}
     </div>
   `);
@@ -1382,14 +1426,14 @@ export function michaelFranzesePortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Outward Signs</h3>
         <p class="vb-intro">a) Charming and Down-to-Earth: Franzese never came across as cold or threatening — despite being one of the most powerful criminals of his era. The Two-wing infuses the Three with warmth and approachability. People in his presence felt comfortable, not intimidated.</p>
         <p class="vb-intro">b) Composed and Adaptable to Circumstances: Franzese switched effortlessly between street vernacular and the language of corporate business. He spoke with bankers like a financier, and with soldiers like a boss. The SP3 is a master of role adaptation: showing whichever face currently delivers success.</p>
-        <p class="vb-intro">c) Winning Self-Confidence: Anyone meeting Franzese — then or now — describes him as someone who fills a room without forcing himself forward. That is the SP3w2 profile: radiating success without boasting about it. Success should speak for itself.</p>
+        <p class="vb-intro">c) Winning Self-Confidence: Anyone meeting Franzese — then or now — describes him as someone who fills a room without forcing himself forward. Here you can see the SP3w2 profile: radiating success without boasting about it. Success should speak for itself.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Focus of Attention</h3>
         <p class="vb-intro">a) What Works Here? The Self-Preservation Three directs its gaze first toward efficiency: Which path reaches the objective fastest? Franzese's gas tax scam was a masterclass in operational logic — utilizing legal frameworks to disguise illegal aims. The SP3 gaze is pragmatic, not ideological.</p>
         <p class="vb-intro">b) How Do I Secure What Has Been Achieved? Security is the core theme of the self-preservation instinct. Franzese built structures to insulate himself: attorneys, shell companies, aliases. He didn't just want to get rich — he wanted to be untouchable.</p>
-        <p class="vb-intro">c) How Do I Maintain the Loyalty of Those Around Me? The Two-wing channels a portion of attention toward relationships. Franzese was known for his generosity — paying well and treating his crew fairly. That is the SP3w2 combination: high performance plus connection.</p>
+        <p class="vb-intro">c) How Do I Maintain the Loyalty of Those Around Me? The Two-wing channels a portion of attention toward relationships. Franzese was known for his generosity — paying well and treating his crew fairly. Here we see the SP3w2 combination: high performance plus connection.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -1402,7 +1446,7 @@ export function michaelFranzesePortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Typical Behavioral Patterns</h3>
         <p class="vb-intro">a) Achievement as Language: Franzese communicated through results. In the mob: money, power, loyalty. Today: books, keynotes, media reach. The channel shifts, but the pattern remains. The SP3 exists through what it produces — being without doing is foreign to them.</p>
-        <p class="vb-intro">b) Strategic Generosity: Franzese was known for rewarding his people. That is the Two-wing: giving as a bonding mechanism. Unlike a core Two, however, the SP3w2 does not give out of raw emotional need — they give because it fosters loyalty that keeps the system stable.</p>
+        <p class="vb-intro">b) Strategic Generosity: Franzese was known for rewarding his people. This shows the Two-wing: giving as a bonding mechanism. Unlike a core Two, however, the SP3w2 does not give out of raw emotional need — they give because it fosters loyalty that keeps the system stable.</p>
         <p class="vb-intro">c) Calculated Risk Over Impulse: Franzese rarely acted on impulse. His gas tax scheme remained airtight for years because he operated methodically. The SP3 is no reckless gambler — they calculate, hedge, and plan escape routes. This distinguishes them from more impulsive types like Type Eight.</p>
       </div>
 
@@ -1553,6 +1597,10 @@ export function ojSimpsonPortraitPage() {
           {route:"kriminalpsychologie-wade-wilson", label:"Criminal Psychology: Wade Wilson (SO3w4)"},
           {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy (SO1w9)"},
           {route:"krankheitsportraets-oj-simpson", label:"Illness Portrait: O.J. Simpson (SP3w4) – prostate cancer"},
+          {route:"kriminalpsychologie-lindsay-clancy", label:"Lindsay Clancy (SO3w4) – criminal psychology"},
+          {route:"kriminalpsychologie-rodney-alcala", label:"Rodney Alcala (SO3w4) – criminal psychology"},
+          {route:"kriminalpsychologie-vincenzo-peruggia", label:"Vincenzo Peruggia (SO3w4) – criminal psychology"},
+          {route:"kriminalpsychologie-werner-gladow", label:"Werner Gladow (SO3w4) – criminal psychology"},
         ])}
       </div>
     </div>
@@ -1657,6 +1705,7 @@ export function pamelaSmartPortraitPage() {
           {route:"kriminalpsychologie-diane-downs", label:"Criminal Psychology: Diane Downs (SX3w4)"},
           {route:"kriminalpsychologie-harvey-weinstein", label:"Criminal Psychology: Harvey Weinstein (SP2w1)"},
           {route:"kriminalpsychologie-jim-jones", label:"Criminal Psychology: Jim Jones (SO2w3)"},
+          {route:"kriminalpsychologie-belle-gunness", label:"Belle Gunness (SP3w4) – criminal psychology"},
         ])}
       </div>
     </div>
@@ -1748,6 +1797,7 @@ export function pedroAlonsoLopezPortraitPage() {
         {route:"kriminalpsychologie-wade-wilson", label:"Criminal Psychology: Wade Wilson (SO3w4)"},
         {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy (SO1w9)"},
         {route:"kriminalpsychologie-andrei-tschikatilo", label:"Criminal Psychology: Andrei Chikatilo (SX4w3)"},
+        {route:"kriminalpsychologie-richard-ramirez", label:"Richard Ramírez (SX3w4) – criminal psychology"},
       ])}
     </div>
   `);
@@ -2103,7 +2153,7 @@ Pleil's murders had a distinctly physical quality:
 strangling, beating, brutal physical violence –
 not a detached, planned killing,
 but an overpowering through physical strength and force.
-This is the Two in the Eight:
+Here you can see the Two in the Eight:
 if I cannot bind through love,
 I force submission through strength.
 In Pleil's case, the Eight energy was not merely a release of stress –
@@ -2133,6 +2183,8 @@ but everything that turns a type into a human being.</p>
       ${relatedLinks([
         {route:"kriminalpsychologie-joachim-kroll", label:"Criminal Psychology: Joachim Kroll"},
         {route:"kriminalpsychologie-anders-breivik", label:"Criminal Psychology: Anders Breivik"},
+        {route:"kriminalpsychologie-heinrich-pommerenke", label:"Heinrich Pommerenke (SO1w9) – criminal psychology"},
+        {route:"kriminalpsychologie-jim-jones", label:"Jim Jones (SO2w3) – criminal psychology"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
@@ -2165,7 +2217,7 @@ export function sebastianGreenwoodPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Outward Signs</h3>
         <p class="vb-intro">a) Warming and Inviting: Greenwood was known for instantly making people feel welcome. Anyone who spoke with him felt seen — often for the first time in a long while. That is the Self-Preservation Two: affection as a tool, warmth as an entry ticket.</p>
         <p class="vb-intro">b) Self-Confident to Radiant: The Three-wing gives Type Two a commanding public presence. Greenwood did not come across as a pushy salesperson, but as a visionary. His self-confidence was infectious — it transferred to his listeners and transformed skepticism into enthusiasm.</p>
-        <p class="vb-intro">c) Controlled When Facing Criticism: Greenwood did not react to doubts defensively, but by reframing. He turned critical questions into invitations for further explanation. That is the SP2w3 pattern: redirection instead of confrontation, charm instead of defense.</p>
+        <p class="vb-intro">c) Controlled When Facing Criticism: Greenwood did not react to doubts defensively, but by reframing. He turned critical questions into invitations for further explanation. Here we see the SP2w3 pattern: redirection instead of confrontation, charm instead of defense.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -2231,6 +2283,7 @@ export function sebastianGreenwoodPortraitPage() {
         {route:"kriminalpsychologie-ruja-ignatova", label:"Criminal Psychology: Ruja Ignatova"},
         {route:"kriminalpsychologie-anna-delvey", label:"Criminal Psychology: Anna Delvey"},
         {route:"kriminalpsychologie-buster-murdaugh", label:"Criminal Psychology: Buster Murdaugh"},
+        {route:"kriminalpsychologie-michael-franzese", label:"Michael Franzese (SP3w2) – criminal psychology"},
       ])}
     </div>
   `);
@@ -2321,7 +2374,8 @@ export function tommyLynnSellsPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-peter-sutcliffe", label:"Criminal Psychology: Peter Sutcliffe (SP2w1) – Yorkshire Ripper"},
         {route:"kriminalpsychologie-harvey-weinstein", label:"Criminal Psychology: Harvey Weinstein (SP2w1)"},
-        {route:"kriminalpsychologie-dorothea-puente", label:"Criminal Psychology: Dorothea Puente (SP1w2) – Death House Landlady"}
+        {route:"kriminalpsychologie-dorothea-puente", label:"Criminal Psychology: Dorothea Puente (SP1w2) – Death House Landlady"},
+        {route:"kriminalpsychologie-angel-resendez", label:"Ángel Reséndez (SP2w1) – criminal psychology"},
       ])}
     </div>
   `);
@@ -2357,7 +2411,7 @@ export function wadeWilsonPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
-        <p class="vb-intro"><strong>a) The Courtroom as a Stage:</strong> Wilson's behavior during the trial was unusual in its consistency: he laughed, pulled faces, seemed to seek the attention of the media and the public. This is the SO3 pattern: the Social Three needs an audience, a stage, resonance. The fact that the context was a murder trial changed nothing about this basic structure — the stage instinct overrode the situation.</p>
+        <p class="vb-intro"><strong>a) The Courtroom as a Stage:</strong> Wilson's behavior during the trial was unusual in its consistency: he laughed, pulled faces, seemed to seek the attention of the media and the public. This shows the SO3 pattern: the Social Three needs an audience, a stage, resonance. The fact that the context was a murder trial changed nothing about this basic structure — the stage instinct overrode the situation.</p>
         <p class="vb-intro"><strong>b) Uniqueness as the Core of Identity:</strong> The Four-wing of the Three carries a deep longing for distinctiveness: not just to be good, but to be different, deeper, more intense, beyond the category of the ordinary. Wilson actually seemed to experience himself in the trial as something special — not as a criminal in a moral sense, but as someone who, through his actions, has stepped out from the crowd.</p>
         <p class="vb-intro"><strong>c) Coldness as Performance:</strong> The emotional distance that Wilson displayed toward his victims was not a psychopathic void — it was the expression of a Three that has learned to manage emotions in the service of the performance. The Three strictly separates inner life from external appearance. For the SO3w4, this separation becomes a weapon: he who controls what he shows determines how he is perceived.</p>
       </div>
@@ -2373,13 +2427,13 @@ export function wadeWilsonPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
         <p class="vb-intro"><strong>a) Fascination Instead of Repulsion:</strong> Many observers of the trial reported that Wilson's behavior held them spellbound despite everything — not out of sympathy, but out of sheer incomprehension. That is the effect of the SO3w4 on an audience: he is not easily categorized, not easy to look away from, not easy to forget. The Three is a performer; the Four-wing ensures that the performance is not slick, but disturbingly striking.</p>
         <p class="vb-intro"><strong>b) Media Presence as Triumph:</strong> Wilson gained international notoriety through the trial. For the SO3, fame is currency — regardless of its moral quality. The verdict brought him more attention than any other action of his life up to that point. In the twisted logic of the disintegrated SO3, this could feel like a success.</p>
-        <p class="vb-intro"><strong>c) Death Sentence as the Final Performance:</strong> The pronouncement of the death penalty did not seem to shake Wilson. That is the SO3w4 pattern in its most extreme manifestation: even one's own end becomes part of the narrative about oneself — as the ultimate confirmation that one was something extraordinary.</p>
+        <p class="vb-intro"><strong>c) Death Sentence as the Final Performance:</strong> The pronouncement of the death penalty did not seem to shake Wilson. Here you can see the SO3w4 pattern in its most extreme manifestation: even one's own end becomes part of the narrative about oneself — as the ultimate confirmation that one was something extraordinary.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
         <p class="vb-intro"><strong>a) Electrifying Presence:</strong> Wilson's energy in the courtroom was consistently described by journalists and spectators as disturbingly alive. Not aggressive, not intimidated — but alert, quick to react, seemingly amused. The SO3w4 carries an electrifying quality that draws attention without actively begging for it.</p>
-        <p class="vb-intro"><strong>b) No Visible Exhaustion:</strong> A murder trial lasts for weeks. Most defendants appear increasingly exhausted and worn down over time. Wilson, on the contrary, seemed to thrive — as if the attention were feeding him energy. That is the Three regulating its energy household through external impression: resonance is fuel; the stage is rest.</p>
+        <p class="vb-intro"><strong>b) No Visible Exhaustion:</strong> A murder trial lasts for weeks. Most defendants appear increasingly exhausted and worn down over time. Wilson, on the contrary, seemed to thrive — as if the attention were feeding him energy. Here we see the Three regulating its energy household through external impression: resonance is fuel; the stage is rest.</p>
         <p class="vb-intro"><strong>c) The Void Behind the Performance:</strong> Anyone who looked closely noticed a strange hollowness behind the stage presence — not emptiness in the sense of lack of feeling, but the absence of an inner core that exists independently of the audience. This is the deepest pattern of the Three: it often does not know itself who it is when no one is watching.</p>
       </div>
 
@@ -2433,6 +2487,11 @@ export function wadeWilsonPortraitPage() {
         {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar (SP3)"},
         {route:"kriminalpsychologie-alex-murdaugh", label:"Criminal Psychology: Alex Murdaugh (SX1w2)"},
         {route:"kriminalpsychologie-werner-gladow", label:"Criminal Psychology: Werner Gladow (SO3w4) – same subtype, courtroom as stage"},
+        {route:"kriminalpsychologie-andrew-cunanan", label:"Andrew Cunanan (SO3w4) – criminal psychology"},
+        {route:"kriminalpsychologie-oj-simpson", label:"O.J. Simpson (SO3w4) – criminal psychology"},
+        {route:"kriminalpsychologie-pedro-alonso-lopez", label:"Pedro Alonso López (SO3w2) – criminal psychology"},
+        {route:"kriminalpsychologie-samuel-bankman-fried", label:"Samuel Bankman-Fried (SP3w4) – criminal psychology"},
+        {route:"kriminalpsychologie-vincenzo-peruggia", label:"Vincenzo Peruggia (SO3w4) – criminal psychology"},
       ])}
     </div>
   `);
@@ -2539,8 +2598,8 @@ export function gescheGottfriedPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Social One in comparison: how anger expresses itself differently in SE1, SO1, and SX1 – and why a public caregiving role can become the most dangerous camouflage.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 character profiles compared.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Social One in comparison: how anger expresses itself differently in SP1, SO1, and SX1 – and why a public caregiving role can become the most dangerous camouflage.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 character profiles compared.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Type 1 portrayed in depth – anger, perfectionism, and the healing path through genuine serenity.", "Wer du wirklich bist – Band 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -2551,8 +2610,8 @@ export function gescheGottfriedPortraitPage() {
 
       ${relatedLinks([
         {route:"kriminalpsychologie-heinrich-pommerenke", label:"Criminal Psychology: Heinrich Pommerenke (SO1w9)"},
-        {route:"kriminalpsychologie-dorothea-puente", label:"Criminal Psychology: Dorothea Puente (SE1w9) – also care as camouflage"},
-        {route:"kriminalpsychologie-jeanne-weber", label:"Criminal Psychology: Jeanne Weber (SE2w1) – also caregiving role as a tool"},
+        {route:"kriminalpsychologie-dorothea-puente", label:"Criminal Psychology: Dorothea Puente (SP1w9) – also care as camouflage"},
+        {route:"kriminalpsychologie-jeanne-weber", label:"Criminal Psychology: Jeanne Weber (SP2w1) – also caregiving role as a tool"},
       ])}
     </div>
   `);
@@ -2712,6 +2771,8 @@ export function peterMoorePortraitPage() {
         {route:"kriminalpsychologie-jeffrey-epstein", label:"Criminal Psychology: Jeffrey Epstein (SX8w9) – different wing"},
         {route:"kriminalpsychologie-john-mcafee", label:"Criminal Psychology: John McAfee (SX8w9)"},
         {route:"kriminalpsychologie-fritz-haarmann", label:"Criminal Psychology: Fritz Haarmann (SX1w9) – considered alternative typing"},
+        {route:"beruehmte-gert-postel", label:"Portrait: Gert Postel (SX8w9)"},
+        {route:"kriminalpsychologie-gert-postel", label:"Gert Postel (SX8w9) – criminal psychology"},
       ])}
     </div>
   `);
@@ -2876,7 +2937,7 @@ export function jamesDustyRhodesPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The sexual One compared: how anger disguises itself as countertype warmth.", "The Hidden Dynamics of the 27 Subtypes")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP1, SO1, SX1 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Type 1 portrayed in depth – anger, control, and the healing path through genuine serenity.", "Who You Really Are – Volume 1")}
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
@@ -2903,7 +2964,7 @@ export function rexHeuermannPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/kriminalpsychologie-rex-heuermann-portrait.jpg" alt="Rex Heuermann – portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Rex Heuermann</p>
-        <p class="krim-portrait-typ">SE8w9 · Self-Preservation Type 8 with a Nine-wing</p>
+        <p class="krim-portrait-typ">SP8w9 · Self-Preservation Type 8 with a Nine-wing</p>
       </div>
       <p class="psycho-intro">
         <strong>Rex Heuermann</strong>, born 13 September 1963 in Massapequa Park, New York, worked as an architect in Manhattan and lived with his family on Long Island. He was arrested on 13 July 2023 and on 8 April 2026 pleaded guilty in Suffolk County Court to the murders of seven women. He also admitted an eighth killing for which he was not charged. The victims disappeared between 1993 and 2010, and their bodies were found at Gilgo Beach and other sites, which is why the case is known as the ›Gilgo Beach murders‹. On 17 June 2026 he was sentenced to life in prison without the possibility of parole.
@@ -2915,7 +2976,7 @@ export function rexHeuermannPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: the Orangutan</h3>
-        <p class="vb-intro">The <strong>orangutan</strong> of the self-preservation Eight lives withdrawn in a territory of its own and meets others only on its own terms. It is the most solitary of the great apes, a planner with a very good memory. In Heuermann's case this can be linked to the picture of a man who lived for decades in a fixed environment and, by his own admission, at the same time kept a hidden second territory for many years. In <a href="javascript:void(0)" data-route="kriminalpsychologie-griselda-blanco">Griselda Blanco</a> and <a href="javascript:void(0)" data-route="kriminalpsychologie-salvatore-riina">Salvatore Riina</a>, who share the same subtype and wing (both SE8w9), the same basic force appeared as open power over an organisation. Here it appears in concealment.</p>
+        <p class="vb-intro">The <strong>orangutan</strong> of the self-preservation Eight lives withdrawn in a territory of its own and meets others only on its own terms. It is the most solitary of the great apes, a planner with a very good memory. In Heuermann's case this can be linked to the picture of a man who lived for decades in a fixed environment and, by his own admission, at the same time kept a hidden second territory for many years. In <a href="javascript:void(0)" data-route="kriminalpsychologie-griselda-blanco">Griselda Blanco</a> and <a href="javascript:void(0)" data-route="kriminalpsychologie-salvatore-riina">Salvatore Riina</a>, who share the same subtype and wing (both SP8w9), the same basic force appeared as open power over an organisation. Here it appears in concealment.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -2949,7 +3010,7 @@ export function rexHeuermannPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Classification</h3>
-        <p class="vb-intro">The pattern of the self-preservation Eight that can be recognised in this case is that of control over life and death that got by without public power. Unlike <a href="javascript:void(0)" data-route="kriminalpsychologie-griselda-blanco">Griselda Blanco</a> (SE8w9) and <a href="javascript:void(0)" data-route="kriminalpsychologie-salvatore-riina">Salvatore Riina</a> (SE8w9), who showed their power openly, it remained concealed in Heuermann: he lived as an architect and family man, used burner phones and kept the two areas apart for years. The Nine-wing can be linked to this calm manner and the ability to compartmentalise what is unpleasant.</p>
+        <p class="vb-intro">The pattern of the self-preservation Eight that can be recognised in this case is that of control over life and death that got by without public power. Unlike <a href="javascript:void(0)" data-route="kriminalpsychologie-griselda-blanco">Griselda Blanco</a> (SP8w9) and <a href="javascript:void(0)" data-route="kriminalpsychologie-salvatore-riina">Salvatore Riina</a> (SP8w9), who showed their power openly, it remained concealed in Heuermann: he lived as an architect and family man, used burner phones and kept the two areas apart for years. The Nine-wing can be linked to this calm manner and the ability to compartmentalise what is unpleasant.</p>
         <p class="vb-intro">That he hardly spoke in court fits this type's reticence. The Enneagram cannot explain why he killed, and it replaces neither expert opinions nor the answers he owes the FBI.</p>
       </div>
 
@@ -2965,11 +3026,11 @@ export function rexHeuermannPortraitPage() {
       </div>
 
       ${relatedLinks([
-        {route:"kriminalpsychologie-griselda-blanco", label:"Griselda Blanco (SE8w9) – same subtype and wing, power in public"},
-        {route:"kriminalpsychologie-salvatore-riina", label:"Salvatore Riina (SE8w9) – same subtype and wing"},
-        {route:"kriminalpsychologie-dennis-rader", label:"Dennis Rader (SE1w9) – a double life behind a bourgeois facade"},
+        {route:"kriminalpsychologie-griselda-blanco", label:"Griselda Blanco (SP8w9) – same subtype and wing, power in public"},
+        {route:"kriminalpsychologie-salvatore-riina", label:"Salvatore Riina (SP8w9) – same subtype and wing"},
+        {route:"kriminalpsychologie-dennis-rader", label:"Dennis Rader (SP1w9) – a double life behind a bourgeois facade"},
         {route:"kriminalpsychologie-gary-ridgway", label:"Gary Ridgway (SX1w2) – a serial offender with a similar choice of victims"},
-        {route:"kriminalmusterkompass/se8", label:"Criminal Pattern Compass: SE8 – Orangutan"},
+        {route:"kriminalmusterkompass/se8", label:"Criminal Pattern Compass: SP8 – Orangutan"},
         {route:"kriminalpsychologie", label:"Criminal psychology – all portraits"},
       ])}
     </div>

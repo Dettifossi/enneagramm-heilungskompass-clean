@@ -1,4 +1,4 @@
-import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft } from "../../bundle.js";
+const { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft } = window.__kh;
 
 export function angelinaJolieKrankheitsportraetPage() {
   return shell(`
@@ -131,18 +131,13 @@ export function angelinaJolieKrankheitsportraetPage() {
         Fürsorge für fremde Kinder und den Schutz von Verwundbaren kreist, liegt eine Deutung
         nahe: Ausgerechnet jene Organe, die im Volksmund für Mutterschaft und weibliche
         Fürsorge stehen, wurden zum Gegenstand einer präventiven, öffentlich gemachten
-        Entscheidung. Diese Deutung ist eine plausible Interpretation, kein belegter
-        klinischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses
-        noch ausführlicher entfaltet.</p>
+        Entscheidung. Als Interpretation ist das plausibel, ein belegter klinischer Kausalzusammenhang ist es nicht. Mehr dazu im Psychosomatik-Register dieses Kompasses.</p>
         <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sozialen Eins zwangsläufig zu genetisch
-        bedingten Krebsrisiken führt – <strong>jeder Mensch kann jede Erkrankung entwickeln,
-        unabhängig vom Subtyp.</strong> Was sich an Jolies Fall zeigen lässt, ist ein Muster
+        Eine zwangsläufige Linie vom Muster der sozialen Eins zu genetisch
+        bedingten Krebsrisiken gibt es nicht. <strong>Jeder Mensch kann jede Erkrankung entwickeln, unabhängig vom Subtyp.</strong> Was sich an Jolies Fall zeigen lässt, ist ein Muster
         im Umgang mit einem gesundheitlichen Risiko, das bei einer ausgeprägten sozialen Eins
         mit Zweierflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein
-        Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        Urteil. Das Krankheitsbild kommt nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses hinzu.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
         Jolie kennt ihr eigenes Muster nicht als Enneagramm-Struktur – die soziale Eins mit
         Zweierflügel kann reflexhaft nicht nicht-handeln, wenn eine Gefahr erkannt ist, und
@@ -312,9 +307,7 @@ export function bobMarleyKrankheitsportraetPage() {
         unabhängig vom Subtyp.</strong> Was sich an Marleys Fall zeigen lässt, ist ein Muster
         im Umgang mit einer lebensbedrohlichen Diagnose, das bei einem ausgeprägten sozialen
         Typ 2 mit Einserflügel immer wieder auffällt – eine von vielen möglichen Deutungen,
-        kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        kein Urteil. Im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses wird das Krankheitsbild nach und nach ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Marley kannte sein eigenes Muster nicht als Enneagramm-Struktur – der soziale Typ 2
         mit Einserflügel hält reflexhaft an der eigenen moralischen Gewissheit fest, statt
@@ -338,6 +331,7 @@ export function bobMarleyKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-bob-marley", label:"Porträt: Bob Marley (SO2w1)"},
         {route:"krankheitsportraets-muhammad-ali", label:"Krankheitsporträt: Muhammad Ali (SO2w1) – gleicher Subtyp"},
+        {route:"krankheitsportraets-florence-nightingale", label:"Florence Nightingale (SO2w1) – Krankheitsporträt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so2", label:"Subtyp-Profil SO2"},
       ])}
@@ -486,8 +480,7 @@ export function claudioNaranjoKrankheitsportraetPage() {
         fortschreitenden Verlust von Sprache und Bewegung eine Zuspitzung des eigenen
         Lebensmusters lesen: Der Körper, der jahrzehntelang das Vehikel der Lehre war, wurde
         selbst zum letzten Prüfstein dafür, wie weit sich Wissen noch weitergeben lässt, wenn
-        die Mittel dafür zunehmend fehlen. Diese Deutung wird im Psychosomatik-Register
-        dieses Kompasses noch ausführlicher entfaltet.</p>
+        die Mittel dafür zunehmend fehlen. Das wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
         <p class="vb-intro"><strong>d) Einordnung ohne Determinismus – und mit besonderer Vorsicht:</strong>
         Das heißt nicht, dass das Muster der sozialen Fünf mit Viererflügel zwangsläufig zu
         Parkinson führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
@@ -496,9 +489,7 @@ export function claudioNaranjoKrankheitsportraetPage() {
         bestätigte Diagnosehistorie, keine offiziellen medizinischen Angaben, nur Berichte
         von Teilnehmenden seines letzten Vortrags. Dieses Porträt beruht entsprechend auf
         weniger gesicherten Quellen als die anderen und sollte mit dieser Einschränkung
-        gelesen werden. Das entsprechende Krankheitsbild wird in diesem Kompass nach und
-        nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        gelesen werden. Das Krankheitsbild selbst wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Naranjo kannte sein eigenes Muster besser als die meisten Menschen – und doch lebte er die soziale Fünf mit ihrem Bedürfnis, Wissen bis zuletzt weiterzugeben, bis in seinen letzten öffentlichen Vortrag hinein aus, statt sich angesichts fortschreitender Parkinson-Symptome zurückzuziehen. Selbst bewusstes Wissen um das eigene Muster schützt nicht automatisch davor, es bis zur körperlichen Grenze zu leben.</p>
       </div>
@@ -646,19 +637,14 @@ export function elonMuskKrankheitsportraetPage() {
         Sichtbarkeit und der Fähigkeit beruht, große Menschenmengen zu begeistern, liegt eine
         Deutung nahe: Ausgerechnet jene kognitive Eigenart, die das Lesen sozialer Signale
         erschwert, betrifft einen Mann, dessen berufliches Leben untrennbar mit öffentlicher
-        Kommunikation verbunden ist. Diese Deutung ist eine plausible Interpretation, kein
-        belegter klinischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses
-        Kompasses noch ausführlicher entfaltet.</p>
+        Kommunikation verbunden ist. Das ist eine plausible Deutung, kein belegter klinischer Kausalzusammenhang. Ausführlicher steht sie im Psychosomatik-Register dieses Kompasses.</p>
         <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sozialen Sieben zwangsläufig mit dem
+        Daraus folgt nicht, dass das Muster der sozialen Sieben zwangsläufig mit dem
         Asperger-Syndrom verbunden ist – <strong>jeder Mensch kann jede Form
         neurologischer Andersartigkeit entwickeln, unabhängig vom Subtyp.</strong> Was sich
         an Musks Fall zeigen lässt, ist ein Muster im Umgang mit einer spät benannten
         neurologischen Diagnose, das bei einem ausgeprägten sozialen Typ 7 mit Sechserflügel
-        immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das
-        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild selbst wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
         Musk kennt sein eigenes Muster nicht als Enneagramm-Struktur – der soziale Typ 7 mit
         Sechserflügel hält reflexhaft an der Überzeugung fest, dass die größtmögliche
@@ -721,7 +707,7 @@ export function franzLisztKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
         <strong>Liszt</strong> ist dem <strong>sexuellen Typ 7 mit Achterflügel</strong>
-        zugeordnet. Naranjo nannte diesen Subtyp <em>Suggestibilität</em>: die vollständige
+        zugeordnet. Naranjo gab diesem Subtyp den Namen <em>Suggestibilität</em>: die vollständige
         Hingabe an das, was begeistert, ohne Vorbehalt oder Bremse. Der Achterflügel bringt die
         Bereitschaft zum offenen Kampf statt zum Ausweichen hinzu. Genau diese Maßlosigkeit –
         die Leidenschaft der Sieben – bestimmte auch, wie Liszt mit seiner eigenen,
@@ -849,8 +835,7 @@ export function franzLisztKrankheitsportraetPage() {
         dieses Kompasses noch ausführlicher entfaltet.</p>
         <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
         Das heißt nicht, dass das Muster der sexuellen Sieben zwangsläufig zu Herz- oder
-        Lungenerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
-        unabhängig vom Subtyp.</strong> Was sich an Liszts Fall zeigen lässt, ist ein Muster im
+        Lungenerkrankungen führt. <strong>Jeder Mensch kann jede Krankheit bekommen, gleich welcher Subtyp.</strong> Liszts Fall zeigt allenfalls ein Muster im
         Umgang mit fortschreitender Krankheit, das bei einer ausgeprägten sexuellen Sieben mit
         Achterflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil.
         Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
@@ -881,6 +866,7 @@ export function franzLisztKrankheitsportraetPage() {
         {route:"beruehmte-franz-liszt", label:"Porträt: Franz Liszt (SX7w8) – Lebenswerk"},
         {route:"krankheitsportraets-robert-schumann", label:"Krankheitsporträt: Robert Schumann (SX7w8) – dieselbe Unfähigkeit, kürzerzutreten"},
         {route:"krankheitsportraets-leonard-bernstein", label:"Krankheitsporträt: Leonard Bernstein (SX7w6) – letztes Konzert gegen ärztlichen Rat"},
+        {route:"krankheitsportraets-johannes-heesters", label:"Johannes Heesters (SX7w6) – Krankheitsporträt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx7", label:"Subtyp-Profil SX7"},
       ])}
@@ -1038,17 +1024,12 @@ export function friedrichNietzscheKrankheitsportraetPage() {
         Organ die radikalstmögliche Bedrohung: nicht nur des Körpers, sondern der einzigen
         Verbindung, die ihm zur Welt noch blieb. Dass ausgerechnet der Verstand selbst
         versagte, bei einem Philosophen, dessen ganzes Werk der Schärfe des Denkens gewidmet
-        war, liest sich als bitterste denkbare Zuspitzung seines Lebensmusters. Diese Deutung
-        wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        war, liest sich als bitterste denkbare Zuspitzung seines Lebensmusters. Ausführlicher folgt das im Psychosomatik-Register dieses Kompasses.</p>
         <p class="vb-intro"><strong>f) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Fünf zwangsläufig zu neurologischen
-        Erkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig
-        vom Subtyp.</strong> Was sich an Nietzsches Fall zeigen lässt, ist ein Muster, das bei
+        Das Muster der sexuellen Fünf führt nicht zwangsläufig zu neurologischen
+        Erkrankungen: <strong>Jeder Mensch kann jede Krankheit bekommen, der Subtyp spielt dabei keine Rolle.</strong> Was sich an Nietzsches Fall zeigen lässt, ist ein Muster, das bei
         totaler Konzentration der eigenen Kraft auf ein einziges geistiges Werk in der Praxis
-        immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das
-        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das Krankheitsbild steht im Psychosomatik-Register dieses Kompasses als eigener Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/migraene">Migräne</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>g) Die unbewusste Fixierung als eigener Faktor:</strong>
         Nietzsche kannte sein eigenes Muster nicht – die sexuelle Fünf bündelt ihre gesamte Kraft auf den einen Kanal, durch den sich alles entlädt, ohne Rücksicht auf die eigenen Reserven, und genau das trieb ihn dazu, bis zum völligen Zusammenbruch weiterzuschreiben. Wer die eigene Konzentration der Kräfte nicht als Muster erkennt, merkt nicht, wann die letzte Reserve aufgebraucht ist.</p>
       </div>
@@ -1110,7 +1091,7 @@ export function goldaMeirKrankheitsportraetPage() {
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
         <strong>Meir</strong> ist der <strong>selbsterhaltenden Acht mit Neunerflügel</strong>
         zugeordnet – demselben Subtyp wie <a href="javascript:void(0)" data-route="beruehmte-winston-churchill">Winston Churchill</a>
-        in diesem Kompass. Naranjo nannte diesen Subtyp <em>Satisfacción</em>: Sicherheit
+        in diesem Kompass. Naranjo gab diesem Subtyp den Namen <em>Satisfacción</em>: Sicherheit
         entsteht durch kompromisslose Verteidigung des eigenen Territoriums und die Weigerung,
         Schwäche zu zeigen. Der Neunerflügel bringt Ausdauer und die Fähigkeit hinzu, eine
         Position über Jahre zu halten, ohne sie vorschnell aufzugeben – bei Meir auch im
@@ -1223,12 +1204,10 @@ export function goldaMeirKrankheitsportraetPage() {
         <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
         Das heißt nicht, dass das Muster der selbsterhaltenden Acht zwangsläufig zu
         Lymphdrüsenkrebs führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig
-        vom Subtyp.</strong> Was sich an Meirs Fall zeigen lässt, ist ein Muster im Umgang mit
+        vom Subtyp.</strong> Meirs Fall zeigt allenfalls ein Muster im Umgang mit
         der eigenen Krankheit, das bei einer ausgeprägten selbsterhaltenden Acht mit
         Neunerflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil.
-        Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        Im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses wird das Krankheitsbild nach und nach ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
         Meir kannte ihr eigenes Muster nicht – die selbsterhaltende Acht duldet keine Schwäche,
         schon gar nicht die eigene, und verbarg deshalb eine schwere Krebserkrankung über
@@ -1402,19 +1381,13 @@ export function hermannHesseKrankheitsportraetPage() {
         nahe: Ausgerechnet jene Organe, die ihm die stille Beobachtung der Welt und die
         eigene innere Welt ermöglichten, wurden zum Schauplatz wiederkehrenden Leidens – als
         würde die intensive, nach innen gerichtete Beobachtung sich irgendwann gegen das
-        eigene Sehen und Denken selbst richten. Diese Deutung ist eine plausible
-        Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
-        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        eigene Sehen und Denken selbst richten. Eine Deutung, die sich begründen lässt, aber kein belegter historischer Kausalzusammenhang ist. Im Psychosomatik-Register dieses Kompasses wird sie weiter ausgeführt.</p>
         <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der selbsterhaltenden Fünf zwangsläufig zu Migräne
-        oder Depression führt – <strong>jeder Mensch kann jede Krankheit bekommen,
-        unabhängig vom Subtyp.</strong> Was sich an Hesses Fall zeigen lässt, ist ein Muster
+        Eine zwangsläufige Linie vom Muster der selbsterhaltenden Fünf zu Migräne
+        oder Depression gibt es nicht. <strong>Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich an Hesses Fall zeigen lässt, ist ein Muster
         im Umgang mit chronischem psychischem und körperlichem Leiden, das bei einer
         ausgeprägten selbsterhaltenden Fünf mit Sechserflügel immer wieder auffällt – eine
-        von vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
-        diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        von vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild steht im Psychosomatik-Register dieses Kompasses als eigener Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/migraene">Migräne</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Hesse kannte sein eigenes Muster nicht – die selbsterhaltende Fünf mit Sechserflügel
         sichert reflexhaft die eigene, kontrollierte Innenwelt, statt sich je vollständig auf
@@ -1574,19 +1547,14 @@ export function jamieLeeCurtisKrankheitsportraetPage() {
         Präsenz und Intensität beruht, liegt eine Deutung nahe: Opiate erzeugen genau jene
         Dämpfung und Distanz zur eigenen Wachheit, die dem SX1-Muster diametral
         entgegensteht – eine Substanz, die das eigene Feuer betäubt, statt es zu nähren.
-        Diese Deutung ist eine plausible Interpretation, kein belegter klinischer
-        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
-        ausführlicher entfaltet.</p>
+        Eine Deutung, die sich begründen lässt, aber kein belegter klinischer Kausalzusammenhang ist. Im Psychosomatik-Register dieses Kompasses wird sie weiter ausgeführt.</p>
         <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
         Das heißt nicht, dass das Muster der sexuellen Eins zwangsläufig zu
         Opioidabhängigkeit führt – <strong>jeder Mensch kann jede Erkrankung entwickeln,
         unabhängig vom Subtyp.</strong> Was sich an Curtis' Fall zeigen lässt, ist ein
         Muster im Umgang mit einer überwundenen Suchterkrankung, das bei einer ausgeprägten
         sexuellen Eins mit Zweierflügel immer wieder auffällt – eine von vielen möglichen
-        Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach
-        und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        Deutungen, kein Urteil. Im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses wird das Krankheitsbild nach und nach ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Curtis kennt ihr eigenes Muster nicht als Enneagramm-Struktur – die sexuelle Eins mit
         Zweierflügel hält reflexhaft an einem Anspruch absoluter Echtheit fest, was das
@@ -1758,19 +1726,15 @@ export function julesVerneKrankheitsportraetPage() {
         Reise und dem Erschließen neuer Welten beruhte, liegt eine Deutung nahe: Ausgerechnet
         jenes Körperteil, das ihn einst über Kontinente und auf hohe See getragen hatte,
         wurde zum Ort der dauerhaften Einschränkung – ein Symbol für die erzwungene
-        Bodenhaftung eines Mannes, der zeitlebens in die Ferne gebaut hatte. Diese Deutung
-        ist eine plausible Interpretation, kein belegter historischer Kausalzusammenhang,
-        und wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        Bodenhaftung eines Mannes, der zeitlebens in die Ferne gebaut hatte. Eine Deutung, die sich begründen lässt, aber kein belegter historischer Kausalzusammenhang ist. Im Psychosomatik-Register dieses Kompasses wird sie weiter ausgeführt.</p>
         <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sozialen Sieben zwangsläufig zu einer
+        Das Muster der sozialen Sieben führt nicht zwangsläufig zu einer
         Schussverletzung durch ein Familienmitglied führt – <strong>jeder Mensch kann
         jede Krankheit oder Verletzung erleiden, unabhängig vom Subtyp.</strong> Was sich
         an Vernes Fall zeigen lässt, ist ein Muster im Umgang mit einer dauerhaften
         körperlichen Einschränkung, das bei einer ausgeprägten sozialen Sieben mit
         Sechserflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein
-        Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        Urteil. Das Krankheitsbild kommt nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses hinzu.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Verne kannte sein eigenes Muster nicht – die soziale Sieben mit Sechserflügel
         verbirgt reflexhaft eigenes Leid hinter Loyalität, Pflichterfüllung und
@@ -1937,9 +1901,7 @@ export function klausKinskiKrankheitsportraetPage() {
         Durchsetzung der eigenen moralischen und künstlerischen Standards beruhte, liegt eine
         Deutung nahe: Ausgerechnet der völlige Kontrollverlust – Suizidversuch, Zerstörung,
         körperliche Gewalt – bricht dort durch, wo die innere Anspannung keinen sozial
-        akzeptierten Ausweg mehr findet. Diese Deutung ist eine plausible Interpretation, kein
-        belegter medizinischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses
-        Kompasses noch ausführlicher entfaltet.</p>
+        akzeptierten Ausweg mehr findet. Eine Deutung, die sich begründen lässt, aber kein belegter medizinischer Kausalzusammenhang ist. Im Psychosomatik-Register dieses Kompasses wird sie weiter ausgeführt.</p>
         <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
         Das heißt nicht, dass das Muster der sexuellen Eins zwangsläufig zu psychiatrischen
         Krisen oder Gewaltverhalten führt – <strong>jeder Mensch kann jede psychische
@@ -1947,9 +1909,7 @@ export function klausKinskiKrankheitsportraetPage() {
         lässt, ist ein Muster im Umgang mit ungefilterter moralischer Intensität, das bei einer
         ausgeprägten sexuellen Eins immer wieder auffällt – eine von vielen möglichen
         Deutungen, kein Urteil und keine Entschuldigung für sein Verhalten gegenüber anderen.
-        Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        Im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses wird das Krankheitsbild nach und nach ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
         Nichts deutet darauf hin, dass Kinski sein eigenes Enneagramm-Muster je bewusst kannte
         – das System war zu seinen Lebzeiten kaum verbreitet. Die Inbrunst und der
@@ -2132,18 +2092,13 @@ export function ludwigVanBeethovenKrankheitsportraetPage() {
         Organe – das Gehör, über das er seine Kunst wahrnahm, und die Leber, die den fortgesetzten
         Raubbau an seinem Körper über Jahrzehnte trug – wurden Schauplatz eines doppelten,
         unsichtbaren Kampfes, den er nie durch Rückzug, sondern immer nur durch Weiterarbeiten zu
-        gewinnen versuchte. Diese Deutung wird im Psychosomatik-Register dieses Kompasses noch
-        ausführlicher entfaltet.</p>
+        gewinnen versuchte. Das wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
         <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
         Das heißt nicht, dass das Muster der sexuellen Sechs zwangsläufig zu Leber- oder
-        Gehörerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig
-        vom Subtyp.</strong> Was sich an Beethovens Fall zeigen lässt, ist ein Muster, das bei
+        Gehörerkrankungen: <strong>Jeder Mensch kann jede Krankheit bekommen, der Subtyp spielt dabei keine Rolle.</strong> Was sich an Beethovens Fall zeigen lässt, ist ein Muster, das bei
         dem Bedürfnis, Bedrohung – auch die eigene Sterblichkeit – nicht durch Rückzug, sondern
         durch fortgesetzte Konfrontation zu bewältigen, in der Praxis immer wieder auffällt –
-        eine von vielen möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird
-        in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        eine von vielen möglichen Erklärungen, kein Urteil. Das Krankheitsbild kommt nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses hinzu.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
         Beethoven kannte sein eigenes Muster nicht – die sexuelle Sechs begegnet jeder Bedrohung mit Konfrontation statt mit Rückzug, und genau das trieb ihn dazu, sowohl der Taubheit als auch dem eigenen körperlichen Verfall mit fortgesetzter, kompromissloser Arbeit zu begegnen, statt sich zu schonen. Wer das eigene Konfrontationsmuster nicht kennt, verwechselt Durchhalten mit der einzig möglichen Antwort auf Bedrohung.</p>
       </div>
@@ -2166,6 +2121,9 @@ export function ludwigVanBeethovenKrankheitsportraetPage() {
         {route:"krankheitsportraets-friedrich-schiller", label:"Krankheitsporträt: Friedrich Schiller (SX6w5) – derselbe Subtyp, dieselbe Konfrontationshaltung"},
         {route:"krankheitsportraets-franz-schubert", label:"Krankheitsporträt: Franz Schubert (SE6w5) – Gegenmodell: Rückzug statt Konfrontation"},
         {route:"krankheitsportraets-karl-lagerfeld", label:"Krankheitsporträt: Karl Lagerfeld (SO3w4) – Gegenmodell: Verbergen statt Konfrontation"},
+        {route:"krankheitsportraets-frederic-chopin", label:"Frédéric Chopin (SX5w4) – Krankheitsporträt"},
+        {route:"krankheitsportraets-julius-caesar", label:"Julius Caesar (SO2w3) – Krankheitsporträt"},
+        {route:"krankheitsportraets-michael-jackson", label:"Michael Jackson (SO4w3) – Krankheitsporträt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx6", label:"Subtyp-Profil SX6"},
       ])}
@@ -2313,19 +2271,13 @@ export function marilynMonroeKrankheitsportraetPage() {
         eine Deutung nahe: Ausgerechnet jener Körperbereich, der am unmittelbarsten mit dem
         vermarkteten Bild der Fruchtbarkeit und Verführung verknüpft war, wurde zum Ort
         chronischen, geheim gehaltenen Leidens. Der Schmerz, der am wenigsten zum Image
-        passte, war genau der, den sie am längsten verbarg. Diese Deutung ist eine
-        plausible Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
-        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        passte, war genau der, den sie am längsten verbarg. Das ist eine plausible Deutung, kein belegter historischer Kausalzusammenhang. Ausführlicher steht sie im Psychosomatik-Register dieses Kompasses.</p>
         <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Drei zwangsläufig zu Endometriose
-        oder Medikamentenabhängigkeit führt – <strong>jeder Mensch kann jede Krankheit
-        bekommen, unabhängig vom Subtyp.</strong> Was sich an Monroes Fall zeigen lässt, ist
+        Eine zwangsläufige Linie vom Muster der sexuellen Drei zu Endometriose
+        oder Medikamentenabhängigkeit gibt es nicht. <strong>Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich an Monroes Fall zeigen lässt, ist
         ein Muster, das bei dem Bedürfnis, Schmerz und Verletzlichkeit hinter einem
         makellosen öffentlichen Bild zu verbergen, in der Praxis immer wieder auffällt –
-        eine von vielen möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild
-        wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        eine von vielen möglichen Erklärungen, kein Urteil. Das Krankheitsbild selbst wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
         Monroe kannte ihr eigenes Muster nicht – die sexuelle Drei mit Viererflügel hält das makellose Bild um jeden Preis aufrecht, auch gegenüber sich selbst, und genau das ließ sie eine schmerzhafte Erkrankung jahrelang hinter genau diesem Bild verbergen, statt sich Hilfe zu holen, die die Fassade hätte gefährden können. Wer das eigene Bedürfnis nach einem makellosen Bild nicht als Muster erkennt, opfert diesem Bild am Ende die eigene Gesundheit.</p>
       </div>
@@ -2502,19 +2454,14 @@ export function muhammadAliKrankheitsportraetPage() {
         ausgerechnet dieser beiden Fähigkeiten eine Zuspitzung des eigenen Lebensmusters
         lesen: Die Ambition musste sich neue Ausdrucksformen suchen, als Sprache und
         Bewegung nicht mehr wie gewohnt zur Verfügung standen – und fand sie in Symbolen
-        wie der zitternden Hand an der olympischen Fackel. Diese Deutung wird im
-        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        wie der zitternden Hand an der olympischen Fackel. Ausführlicher folgt das im Psychosomatik-Register dieses Kompasses.</p>
         <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sozialen Zwei zwangsläufig zu Parkinson führt
-        – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong>
+        Das Muster der sozialen Zwei führt nicht zwangsläufig zu Parkinson: <strong>Jeder Mensch kann jede Krankheit bekommen, der Subtyp spielt dabei keine Rolle.</strong>
         Zudem gilt Alis Parkinson-Syndrom medizinisch als möglicherweise wesentlich durch
         wiederholte Kopftreffer im Boxsport mitverursacht, nicht als rein
         psychosomatisches Geschehen. Was sich an seinem Fall zeigen lässt, ist ein Muster
         im Umgang mit der Krankheit, das bei einer ausgeprägten sozialen Zwei immer wieder
-        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende
-        Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses wird das Krankheitsbild nach und nach ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Ali kannte sein eigenes Muster nicht – die soziale Zwei mit Einerflügel sucht Bedeutung durch öffentlichen Einsatz für andere, und genau dieser Drang hielt ihn im Ring, obwohl wiederholte Kopftreffer längst ihren Tribut forderten. Wer den eigenen Drang, für andere sichtbar einzustehen, nicht als Muster erkennt, überhört die Warnsignale des eigenen Körpers, bis sie unübersehbar werden.</p>
       </div>
@@ -2535,6 +2482,8 @@ export function muhammadAliKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-muhammad-ali", label:"Porträt: Muhammad Ali (SO2w1) – Lebenswerk"},
         {route:"krankheitsportraets-bob-marley", label:"Krankheitsporträt: Bob Marley (SO2w1) – gleicher Subtyp"},
+        {route:"krankheitsportraets-julius-caesar", label:"Julius Caesar (SO2w3) – Krankheitsporträt"},
+        {route:"krankheitsportraets-florence-nightingale", label:"Florence Nightingale (SO2w1) – Krankheitsporträt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so2", label:"Subtyp-Profil SO2"},
       ])}
@@ -2682,10 +2631,7 @@ export function ojSimpsonKrankheitsportraetPage() {
         – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong>
         Was sich an Simpsons Fall zeigen lässt, ist ein Muster im Umgang mit einer tödlichen
         Diagnose, das bei einer ausgeprägten sozialen Drei mit Viererflügel immer wieder
-        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende
-        Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Zum Krankheitsbild gibt es im Psychosomatik-Register dieses Kompasses einen eigenen Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/prostatakrebs">Prostatakrebs</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Simpson kannte sein eigenes Muster nicht – die soziale Drei mit Viererflügel begegnet
         jeder Bedrohung des eigenen Bildes reflexhaft mit Geheimhaltung und kontrollierter
@@ -2850,19 +2796,14 @@ export function robbieWilliamsKrankheitsportraetPage() {
         Nähe zum Publikum herstellte und zugleich seinen eigenen, unerbittlichen
         Maßstab performte, wurde durch Alkohol und Drogen betäubt – ein Versuch, den
         inneren Kritiker zum Schweigen zu bringen, der am lautesten gerade dann sprach,
-        wenn die Bühne am hellsten leuchtete. Diese Deutung ist eine plausible
-        Interpretation, kein belegter klinischer Kausalzusammenhang, und wird im
-        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        wenn die Bühne am hellsten leuchtete. Das ist eine plausible Deutung, kein belegter klinischer Kausalzusammenhang. Ausführlicher steht sie im Psychosomatik-Register dieses Kompasses.</p>
         <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Eins zwangsläufig zu Depression
+        Eine zwangsläufige Linie vom Muster der sexuellen Eins zu Depression
         oder Sucht führt – <strong>jeder Mensch kann jede psychische Erkrankung
         entwickeln, unabhängig vom Subtyp.</strong> Was sich an Williams' Fall zeigen
         lässt, ist ein Muster im Umgang mit dem eigenen, nie erfüllten inneren Maßstab,
         das bei einem ausgeprägten sexuellen Einser mit Zweierflügel immer wieder
-        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende
-        Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild steht im Psychosomatik-Register dieses Kompasses als eigener Eintrag: <a href="javascript:void(0)" data-route="psychosomatik/depression">Depression</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
         Williams kennt sein eigenes Muster nicht als Enneagramm-Struktur – die sexuelle
         Eins mit Zweierflügel legt reflexhaft einen unerbittlichen Maßstab an die eigene
@@ -3018,18 +2959,13 @@ export function sadhguruKrankheitsportraetPage() {
         Autorität auf innerer Klarheit und bewusster Körperbeherrschung beruhte, liegt eine
         Deutung nahe: Ausgerechnet jenes Organ, mit dem er Millionen Menschen "inneres
         Engineering" lehrte, wurde zum Ort einer über Wochen unbemerkt fortschreitenden
-        Blutung. Diese Deutung ist eine plausible Interpretation, kein belegter klinischer
-        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
-        ausführlicher entfaltet.</p>
+        Blutung. Als Interpretation ist das plausibel, ein belegter klinischer Kausalzusammenhang ist es nicht. Mehr dazu im Psychosomatik-Register dieses Kompasses.</p>
         <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
         Das heißt nicht, dass das Muster der selbsterhaltenden Drei zwangsläufig zu
-        Hirnblutungen führt – <strong>jeder Mensch kann jede Erkrankung entwickeln,
-        unabhängig vom Subtyp.</strong> Was sich an Sadhgurus Fall zeigen lässt, ist ein
+        Hirnblutungen gibt es nicht. <strong>Jeder Mensch kann jede Erkrankung entwickeln, unabhängig vom Subtyp.</strong> Was sich an Sadhgurus Fall zeigen lässt, ist ein
         Muster im Umgang mit körperlichen Warnsignalen, das bei einem ausgeprägten
         selbsterhaltenden Typ 3 immer wieder auffällt – eine von vielen möglichen Deutungen,
-        kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        kein Urteil. Das Krankheitsbild selbst wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
         Sadhguru kennt sein eigenes Muster nicht als Enneagramm-Struktur – der
         selbsterhaltende Typ 3 hält reflexhaft am eigenen Funktionieren fest, statt
@@ -3054,6 +2990,7 @@ export function sadhguruKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
         {route:"krankheitsportraets-joseph-haydn", label:"Krankheitsporträt: Joseph Haydn (SE3w2)"},
+        {route:"krankheitsportraets-enrico-caruso", label:"Enrico Caruso (SE3w2) – Krankheitsporträt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se3", label:"Subtyp-Profil SE3"},
       ])}
@@ -3204,8 +3141,7 @@ export function teresaVonAvilaKrankheitsportraetPage() {
         vollständige körperliche Ohnmacht, dann eine der einflussreichsten spirituellen
         Autorinnen der Geschichte – eine Zuspitzung des eigenen Lebensmusters lesen: Der
         Körper musste erst vollständig verstummen, damit die introspektive Stimme laut
-        genug werden konnte, um später ein öffentliches Lebenswerk zu tragen. Diese Deutung
-        wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        genug werden konnte, um später ein öffentliches Lebenswerk zu tragen. Ausführlicher folgt das im Psychosomatik-Register dieses Kompasses.</p>
         <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
         Das heißt nicht, dass das Muster der sozialen Drei mit Viererflügel zwangsläufig zu
         solchen Krankheitsverläufen führt – <strong>jeder Mensch kann jede Krankheit
@@ -3214,9 +3150,7 @@ export function teresaVonAvilaKrankheitsportraetPage() {
         Epilepsie und psychogene Deutungen stehen nebeneinander). Was sich an ihrem Fall
         zeigen lässt, ist ein Muster, das bei einer ausgeprägten sozialen Drei mit
         Viererflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil.
-        Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        Das Krankheitsbild kommt nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses hinzu.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Teresa kannte ihr eigenes Muster nicht – doch gerade der erzwungene körperliche Stillstand nach der schweren Erkrankung von 1539 zwang die sonst auf Leistung und sichtbaren Erfolg ausgerichtete soziale Drei zu jener inneren Sammlung, aus der ihr mentales Gebet erwuchs. Nicht jede Krise bestätigt das Muster nur negativ – manchmal zwingt der Körper zu genau der Umkehr, die das bewusste Wissen um das eigene Muster freiwillig hätte einleiten können.</p>
       </div>
@@ -3385,17 +3319,12 @@ export function wilmaMankillerKrankheitsportraetPage() {
         einer Gemeinschaft verbunden ist, lässt sich in der wiederholten körperlichen
         Erschöpfung eine Zuspitzung des eigenen Lebensmusters lesen: Der Körper, der immer
         wieder für andere eingesetzt wurde, geriet selbst immer wieder unter Beschuss – und
-        wurde jedes Mal aufs Neue verteidigt, nicht aufgegeben. Diese Deutung wird im
-        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        wurde jedes Mal aufs Neue verteidigt, nicht aufgegeben. Das wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
         <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sozialen Neun mit Achterflügel zwangsläufig zu
-        solchen Krankheitsketten führt – <strong>jeder Mensch kann jede Krankheit bekommen,
-        unabhängig vom Subtyp.</strong> Was sich an Mankillers Fall zeigen lässt, ist ein
+        Eine zwangsläufige Linie vom Muster der sozialen Neun mit Achterflügel zu solchen Krankheitsketten gibt es nicht. <strong>Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich an Mankillers Fall zeigen lässt, ist ein
         Muster im Umgang mit wiederholter schwerer Krankheit, das bei einer ausgeprägten
         sozialen Neun mit Achterflügel immer wieder auffällt – eine von vielen möglichen
-        Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass
-        nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        Deutungen, kein Urteil. Das Krankheitsbild kommt nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses hinzu.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Mankiller kannte ihr eigenes Muster nicht – die soziale Neun mit Achterflügel ordnet die eigene Bedürftigkeit der Sache der Gemeinschaft unter, und genau das ließ sie zwei Nierentransplantationen und mehrere Krebsdiagnosen überstehen, ohne ihr Amt aufzugeben. Wer das eigene Verschmelzen mit einer größeren Sache nicht als Muster erkennt, übersieht auch das eigene Recht, sich einmal zurückzuziehen.</p>
       </div>
@@ -3415,6 +3344,7 @@ export function wilmaMankillerKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-wilma-mankiller", label:"Porträt: Wilma Mankiller (SO9w8) – Lebenswerk"},
         {route:"krankheitsportraets-willy-brandt", label:"Krankheitsporträt: Willy Brandt (SO9w8) – gleicher Subtyp"},
+        {route:"krankheitsportraets-eleanor-roosevelt", label:"Eleanor Roosevelt (SO9w1) – Krankheitsporträt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so9", label:"Subtyp-Profil SO9"},
       ])}
@@ -3557,13 +3487,11 @@ export function sammyDavisJrKrankheitsportraetPage() {
         Ausdruck war, liegt eine Deutung nahe: Ausgerechnet jenes Organ, mit dem Davis sechs
         Jahrzehnte lang Verbindung zu seinem Publikum herstellte, versagte am Ende – als
         hätte ein Leben, das ganz auf das Geben durch Stimme und Ausdruck ausgerichtet war,
-        keine Kapazität mehr übrig gehabt, das eigene Leiden auszusprechen. Diese Deutung ist
-        eine plausible Interpretation, kein belegter historischer Kausalzusammenhang, und
-        wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        keine Kapazität mehr übrig gehabt, das eigene Leiden auszusprechen. Das ist eine plausible Deutung, kein belegter historischer Kausalzusammenhang. Ausführlicher steht sie im Psychosomatik-Register dieses Kompasses.</p>
         <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
         Das heißt nicht, dass das Muster der sexuellen Zwei zwangsläufig zu Krebserkrankungen
         im Rachen- oder Mundraum führt – <strong>jeder Mensch kann jede Krankheit bekommen,
-        unabhängig vom Subtyp.</strong> Was sich an Davis' Fall zeigen lässt, ist ein Muster,
+        unabhängig vom Subtyp.</strong> Was sich aus Davis' Geschichte ablesen lässt, ist ein Muster,
         das bei der kompromisslosen Priorisierung des Auftritts über die eigenen
         körperlichen Warnsignale hinweg in der Praxis immer wieder auffällt – eine von vielen
         möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
@@ -3768,15 +3696,11 @@ export function giacomoCasanovaKrankheitsportraetPage() {
         medizinischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses
         Kompasses noch ausführlicher entfaltet.</p>
         <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Zwei zwangsläufig zu
-        Geschlechtskrankheiten oder Harnwegsleiden führt – <strong>jeder Mensch kann
+        Daraus folgt nicht, dass das Muster der sexuellen Zwei zwangsläufig zu Geschlechtskrankheiten oder Harnwegsleiden führt – <strong>jeder Mensch kann
         jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich an
         Casanovas Fall zeigen lässt, ist ein Muster, das bei einer besonders intensiv
         gelebten sexuellen Zwei in der Praxis immer wieder auffällt – eine von vielen
-        möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
-        diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        möglichen Deutungen, kein Urteil. Im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses wird das Krankheitsbild nach und nach ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
         Casanova kannte sein eigenes Enneagramm-Muster nicht – die sexuelle Zwei mit
         Dreierflügel hält reflexhaft an der intensiven Hingabe an einzelne Menschen
@@ -3956,13 +3880,10 @@ export function edvardMunchKrankheitsportraetPage() {
         noch ausführlicher entfaltet.</p>
         <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
         Das heißt nicht, dass das Muster der sozialen Vier zwangsläufig zu Nerven- oder
-        Augenerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
-        unabhängig vom Subtyp.</strong> Was sich an Munchs Fall zeigen lässt, ist ein Muster
+        Augenerkrankungen führt. <strong>Jeder Mensch kann jede Krankheit bekommen, gleich welcher Subtyp.</strong> Was sich aus Munchs Geschichte ablesen lässt, ist ein Muster
         im Umgang mit wiederholter gesundheitlicher Bedrohung, das bei einer ausgeprägten
         sozialen Vier mit Fünferflügel auffällt – eine von vielen möglichen Deutungen, kein
-        Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        Urteil. Das Krankheitsbild kommt nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses hinzu.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
         Munch kannte sein eigenes Enneagramm-Muster nicht – die soziale Vier mit
         Fünferflügel verarbeitet existenzielle Bedrohung durch analytische Beobachtung und
@@ -3991,6 +3912,7 @@ export function edvardMunchKrankheitsportraetPage() {
         {route:"krankheitsportraets-heinrich-heine", label:"Krankheitsporträt: Heinrich Heine (SO4w3) – dieselbe Bewältigungsstrategie, anderer Flügel"},
         {route:"krankheitsportraets-marcel-proust", label:"Krankheitsporträt: Marcel Proust (SO4w5) – lebenslanges Asthma"},
         {route:"krankheitsportraets-fiona-apple", label:"Krankheitsporträt: Fiona Apple (SO4w5) – gleicher Subtyp"},
+        {route:"krankheitsportraets-william-james-sidis", label:"William James Sidis (SO4w5) – Krankheitsporträt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so4", label:"Subtyp-Profil SO4"},
       ])}
@@ -4157,15 +4079,11 @@ export function philCollinsKrankheitsportraetPage() {
         belegter klinischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses
         Kompasses noch ausführlicher entfaltet.</p>
         <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der selbsterhaltenden Eins zwangsläufig zu
-        Nervenschädigungen oder Wirbelsäulenverletzungen führt – <strong>jeder Mensch kann
+        Daraus folgt nicht, dass das Muster der selbsterhaltenden Eins zwangsläufig zu Nervenschädigungen oder Wirbelsäulenverletzungen führt – <strong>jeder Mensch kann
         jede Erkrankung entwickeln, unabhängig vom Subtyp.</strong> Was sich an Collins' Fall
         zeigen lässt, ist ein Muster im Umgang mit einer schwerwiegenden körperlichen
         Einschränkung, das bei einer ausgeprägten selbsterhaltenden Eins mit Neunerflügel
-        immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das
-        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das Krankheitsbild kommt nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses hinzu.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
         Collins kennt sein eigenes Muster vermutlich nicht als Enneagramm-Struktur – die
         selbsterhaltende Eins mit Neunerflügel hält reflexhaft an der eigenen Disziplin und
@@ -4344,14 +4262,12 @@ export function connieChiuKrankheitsportraetPage() {
         Für eine selbsterhaltende Vier, deren erste Karriere auf visueller Präsenz vor der
         Kamera beruhte, liegt eine Deutung nahe: Ausgerechnet jene Organe, die für diesen
         Beruf zentral sind – die Augen für die Sehkraft, die Haut als sichtbarste Fläche des
-        Körpers –, waren von der angeborenen Besonderheit betroffen. Diese Deutung ist eine
-        plausible Interpretation, kein belegter klinischer Kausalzusammenhang, und wird im
-        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        Körpers –, waren von der angeborenen Besonderheit betroffen. Als Interpretation ist das plausibel, ein belegter klinischer Kausalzusammenhang ist es nicht. Mehr dazu im Psychosomatik-Register dieses Kompasses.</p>
         <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
         Das heißt nicht, dass das Muster der selbsterhaltenden Vier zwangsläufig mit
         Albinismus oder vergleichbaren angeborenen Besonderheiten zusammenhängt –
         <strong>jeder Mensch kann mit jeder angeborenen Eigenschaft geboren werden,
-        unabhängig vom Subtyp.</strong> Was sich an Chius Fall zeigen lässt, ist ein Muster im
+        unabhängig vom Subtyp.</strong> Was sich aus Chius Geschichte ablesen lässt, ist ein Muster im
         Umgang mit einer angeborenen, sichtbaren körperlichen Besonderheit, das bei einer
         ausgeprägten selbsterhaltenden Vier mit Fünferflügel immer wieder auffällt – eine von
         vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
@@ -4531,13 +4447,9 @@ export function charlesLaughtonKrankheitsportraetPage() {
         der sein Leben lang lieber im Vertrauten blieb, als genauer hinzusehen. Diese Deutung wird im
         Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
         <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der selbsterhaltenden Neun zwangsläufig zu Krebs führt –
-        <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich an
+        Das heißt nicht, dass das Muster der selbsterhaltenden Neun zwangsläufig zu Krebs führt. <strong>Jeder Mensch kann jede Krankheit bekommen, gleich welcher Subtyp.</strong> Was sich an
         Laughtons Fall zeigen lässt, ist ein Muster, das bei tiefer, gewohnheitsbasierter Verdrängung in
-        der Praxis immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das
-        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        der Praxis immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das Krankheitsbild kommt nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses hinzu.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Laughton kannte sein eigenes Enneagramm-Muster nicht, und so blieb seine Neuner-Trägheit
         völlig ungebremst wirksam: Statt frühzeitig eine ernsthafte ärztliche Abklärung seiner
@@ -4705,14 +4617,9 @@ export function dmitriHvorostovskyKrankheitsportraetPage() {
         mit dem Publikum geknüpft ist, liegt eine Deutung nahe: Ein Tumor, der
         ausgerechnet Gleichgewicht und motorische Kontrolle beeinträchtigt, trifft
         die Fähigkeit, sich souverän und makellos auf der Bühne zu bewegen – also
-        exakt jenes Instrument, über das die Drei ihr Bild steuert. Diese Deutung
-        ist eine plausible Interpretation, kein belegter historischer
-        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses
-        noch ausführlicher entfaltet.</p>
+        exakt jenes Instrument, über das die Drei ihr Bild steuert. Als Interpretation ist das plausibel, ein belegter historischer Kausalzusammenhang ist es nicht. Mehr dazu im Psychosomatik-Register dieses Kompasses.</p>
         <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sozialen Drei zwangsläufig zu
-        Hirntumoren führt – <strong>jeder Mensch kann jede Krankheit bekommen,
-        unabhängig vom Subtyp.</strong> Glioblastome entstehen unabhängig von
+        Eine zwangsläufige Linie vom Muster der sozialen Drei zu Hirntumoren gibt es nicht. <strong>Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Glioblastome entstehen unabhängig von
         Persönlichkeitsmustern; die hier beschriebene Deutung betrifft
         ausschließlich den Umgang mit der Erkrankung, nicht ihre Ursache. Das
         entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
@@ -4920,9 +4827,7 @@ export function dmitriSchostakowitschKrankheitsportraetPage() {
         oder Lungenkrebs führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
         Subtyp.</strong> Was Schostakowitschs Fall zeigt, ist ein wiederkehrendes Muster: Sicherheit
         durch Funktion, Beruhigung durch Rückzug und Betäubung – eine von vielen möglichen
-        Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
+        Erklärungen, kein Urteil. Im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> dieses Kompasses wird das Krankheitsbild nach und nach ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
         Schostakowitsch kannte sein Enneagramm-Muster nicht. Seine Lebensstrategie – Rückzug in
         Funktion und Code, Beruhigung durch Rauch und Wodka – wirkte deshalb ungebremst. Die
@@ -4975,6 +4880,347 @@ export function dmitriSchostakowitschKrankheitsportraetPage() {
         {route:"krankheitsportraets-albert-einstein", label:"Krankheitsporträt: Dr. Albert Einstein (SO5w4) – Arbeit bis zuletzt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so5", label:"Subtyp-Profil SO5"},
+      ])}
+    </div>
+  `);
+}
+
+export function florenceNightingaleKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-florence-nightingale-portrait.jpg" alt="Florence Nightingale" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-florence-nightingale-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Florence Nightingale</p>
+        <p class="krim-portrait-typ">SO2w1 · Sozialer Typ 2 mit Einserflügel · 1820–1910</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Golden Retriever</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so2.jpg" alt="Tierentsprechung: Golden Retriever" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO2")};left:${tierAvatarLeft("SO2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Florence Nightingale</strong>, Begründerin der modernen Krankenpflege und Statistikerin, starb am 13. August 1910 im Alter von 90 Jahren in ihrem Haus in London. Mehr als die Hälfte ihres Lebens, nach dem Fieber, das sie im Mai 1855 im Krimkrieg beinahe das Leben kostete, war sie krank, zeitweise bettlägerig und kaum noch außer Haus. Aus ihrem Zimmer heraus plante sie Krankenhäuser, schrieb Gutachten und führte Reformen, die das Gesundheitswesen bis heute prägen. Woran sie litt, ist bis heute umstritten.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Florence Nightingale</strong> wird der <strong>sozialen Zwei mit Einserflügel</strong> zugeordnet, wie im Porträt zu <a href="javascript:void(0)" data-route="beruehmte-florence-nightingale">Florence Nightingale</a> beschrieben: Fürsorge, die zu Struktur wird, und ein Anspruch an Genauigkeit und Pflicht. Bei chronischer, lang anhaltender Belastung bewegen sich Zweier entlang ihrer Stresslinie zur Acht, mit mehr Härte, Kontrolle und Durchsetzung, ohne dass sich der Kerntyp ändert. <strong>Hinweis zur Quellenlage:</strong> Die Diagnosen stammen aus der Rückschau, aus Briefen, aus der Biografie von Edward Cook (1913) und aus Fachaufsätzen des 20. und 21. Jahrhunderts, die einander widersprechen. Wo die Quellen auseinandergehen, nennt das Porträt beide Lesarten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Das Fieber von Mai 1855:</strong>
+        Im Winter 1854/55 arbeitete Nightingale im Lazarett von Scutari bis zu zwanzig Stunden am Tag, in dieser Zeit starben dort nach Angaben eines Fachaufsatzes allein im Januar und Februar etwa dreitausend Patienten. Im Mai 1855, kurz nach ihrer Ankunft auf der Krim, erkrankte sie an einem schweren Fieber, das sie beinahe das Leben kostete. Die Oberschwester Eliza Roberts pflegte sie durch diese Krise. Zeitgenossen sprachen vom ›Krimfieber‹, die heutige Forschung hält es in der Regel für Brucellose, eine bakterielle Infektion, die damals nicht benannt und nicht behandelbar war.</p>
+        <p class="vb-intro"><strong>b) Die Folgen in den Jahren danach:</strong>
+        Nach der Rückkehr 1856 blieb die Genesung aus. Einem Aufsatz im ›British Medical Journal‹ (BMJ, einer britischen Fachzeitschrift für Medizin) von 1995 zufolge, der ihre Krankengeschichte auswertet, kamen Schlaflosigkeit, Appetitverlust, Übelkeit beim Anblick von Essen, Blutarmut, Nervosität und Niedergeschlagenheit hinzu. Ein Fachbeitrag beschreibt sie als gealtert und verhärtet aus dem Krieg zurückgekehrt.</p>
+        <p class="vb-intro"><strong>c) Der erste schwere Anfall 1857:</strong>
+        Nach derselben Zusammenfassung folgte im August 1857 der erste schwere Anfall mit Herzrasen und Herzklopfen. Sie war überzeugt, bald zu sterben, und machte ihr Testament. Die Ärzte fanden keine organische Ursache und stellten die Diagnose ›Neurose‹, in der Sprache der Zeit Neurasthenie, eine Nervenschwäche.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Weihnachten 1861:</strong>
+        Am 2. August 1861 starb ihr Freund und Verbündeter Sidney Herbert, der Kriegsminister, mit dem sie die Reform der Armeemedizin vorangetrieben hatte. Um Weihnachten wurde sie so krank, dass man ihr Ende fürchtete. Zwei Ärzte, Dr. Williams und Dr. Sutherland, betreuten sie täglich. An eine Freundin schrieb sie: ›Man sagt mir, die ganze Aufregung habe eine Rückenmarksstauung verursacht, die geradewegs zur Lähmung führt.‹ Cook merkt in seiner Biografie an, der Fall sei ›keineswegs so ernst gewesen, wie sie ihn geschildert hatte‹.</p>
+        <p class="vb-intro"><strong>b) Das Gehen fällt weg:</strong>
+        Sie konnte nach den vorliegenden Angaben nicht mehr gehen und wurde nach einer Zeittafel in den folgenden Jahren von Raum zu Raum getragen. Wie lange sie tatsächlich bettlägerig war, geben die Quellen unterschiedlich an: von etwa sechs Jahren ab 1861 bis zu zwei Jahrzehnten, in denen sie das Bett oder die Couch kaum verließ.</p>
+        <p class="vb-intro"><strong>c) Der Wunsch zu sterben:</strong>
+        Im März 1862 schrieb sie ihrer Mutter von ihren ›letzten drei Monaten äußerster Schwäche‹ und fügte hinzu: ›Manchmal wundere ich mich, dass ich so ungeduldig auf den Tod bin.‹ Zugleich richtete sie sich, wie Cook festhält, zum ersten Mal in ihrem Leben ein eigenes Haus ein, ›ein modisches Haus für eine alte Jungfer‹, wie sie es nannte, ›einen neuen, unabhängigen Weg in meinem zerbrochenen Alter‹. Sie war 41.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Rückenschmerz und Atemnot:</strong>
+        Nach der erwähnten BMJ-Zusammenfassung litt sie von 1863 bis 1866 an schweren Rückenschmerzen, möglicherweise einer Entzündung der Wirbelsäule (Spondylitis), außerdem an Schmerzen im rechten Ellbogen und an Atemnot durch Brustschmerzen oder Krämpfe. Nach 1870 ließen die körperlichen Beschwerden nach, es blieben starke Kopfschmerzen, Schlaflosigkeit und eine Niedergeschlagenheit mit Gefühlen der Wertlosigkeit.</p>
+        <p class="vb-intro"><strong>b) Das Leben im Zimmer:</strong>
+        Nach Cooks Biografie konnte Nightingale Besucher nur in ihrem eigenen Zimmer empfangen, und alles Schreiben geschah im Bett. Für wichtige männliche Besucher stand sie auf und kleidete sich an, was sie sehr anstrengte. Eine Zeittafel beschreibt, dass sie Besucher nur nach Verabredung und einzeln sah. Auch der Kirchgang entfiel: In einem Brief von 1870 nannte sie es eine ihrer größten Prüfungen, nicht zur Kirche gehen zu können, und an Benjamin Jowett schrieb sie 1866: ›I must be Robinson Crusoe come to life again as a female‹ (›Ich muss ein wiederauferstandener Robinson Crusoe sein, nur als Frau‹).</p>
+        <p class="vb-intro"><strong>c) Die Zeitung bleibt zu:</strong>
+        Sie schrieb: ›Ich habe das morbide Gefühl nie überwinden können, die Namen meiner beiden Verlorenen in der Zeitung zu sehen, sodass ich keine Zeitung lese.‹ Gemeint waren Herbert und der Dichter Arthur Hugh Clough, der 1861 starb. Ein Buch über Clough nicht lesen zu können, nannte sie 1865 ›eine morbide Eigenheit langer Krankheit‹.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Das Werk aus dem Bett:</strong>
+        Die Jahre im Zimmer sind zugleich die produktivsten ihres Lebens. Seit 1860 bestand die von ihr geprägte Pflegeschule am St Thomas&rsquo; Hospital, aus dem Zimmer heraus plante sie Krankenhäuser, begründete mit Statistik Reformen und kümmerte sich um Hygiene und Lebensbedingungen der Armen. Ihre Ideen verbreiteten sich in Großbritannien und im Ausland. Dass sie dabei ein Alltagsdetail aus dem Zimmer ordern ließ, zeigt eine Randnotiz: Sie kaufte Flanell per Versand, eine damals neue Vertriebsform, und der Händler warb mit ihrem Namen.</p>
+        <p class="vb-intro"><strong>b) Die Besserung:</strong>
+        Nach 1870 konnte sie nach einem Bericht wieder gehen, die Wirbelsäulenschmerzen verschwanden. Die Niedergeschlagenheit hielt nach der BMJ-Zusammenfassung bis um 1880 an, danach hob sie sich.</p>
+        <p class="vb-intro"><strong>c) Der Rückzug als Lebensform:</strong>
+        Gesund im Sinne der Zeitgenossen wurde sie nie wieder. Die New York Times, die ihren Tod am 15. August 1910 meldete, schrieb, sie sei ›lange Zeit eine Invalidin gewesen und habe ihr Zimmer selten verlassen‹.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Das Alter:</strong>
+        In ihrem letzten Lebensjahrzehnt schrieb sie wenig, wegen Erblindung und nachlassender geistiger Fähigkeiten, behielt aber ihr Interesse am Zeitgeschehen. Sie starb am 13. August 1910 friedlich im Schlaf in ihrem Haus in der South Street in Mayfair. Eine Woche vorher sei sie ernstlich krank gewesen, habe sich dann aber erholt und am Freitag heiter gewirkt, meldete die Presse.</p>
+        <p class="vb-intro"><strong>b) Drei Lesarten der Krankheit:</strong>
+        Der Streit um ihre Krankheit ist selbst ein Teil ihrer Geschichte. Der Mediziner D. A. B. Young schlug 1995 im BMJ vor, sie habe sich im Krimkrieg mit Brucella melitensis infiziert, und ihre langjährige Rekonvaleszenz lasse sich so erklären, die Diagnose Neurasthenie sei bei Brucellose häufig falsch gestellt worden. Barbara Dossey vertrat 1998 dieselbe Linie und rechnete mit einer 32 Jahre dauernden Krankheit von 1855 bis 1887. Ein zweiter Zugang ist psychiatrisch: Kathy Wisner, Psychiaterin, hält eine bipolare Störung für wahrscheinlich, weil schon in der Jugend Stimmen und schwere depressive Phasen bekannt seien und weil Phasen außerordentlicher Produktivität dazu passten. Brucellose allein erkläre ihre Stimmungsschwankungen und ihre Schaffenskraft nicht. Der Mediziner Philip Mackowiak verbindet beides und rechnet mit vier ineinandergreifenden Störungen: bipolare Persönlichkeitsstörung, Krimfieber (Brucellose), posttraumatische Belastungsstörung und am Ende eine senile Demenz. Die dritte Lesart stammt von Zeitgenossen und späteren Biografen: Der Historiker F. B. Smith hielt ihre Invalidität für hysterisch und ihre Abschottung für manipulativ. Ein Autor auf der Victorian Web widerspricht: Smith habe die organische Seite nicht bedacht und nicht gewusst, wie verbreitet die Brucellose war, und die Enge, die viktorianischen Frauen auferlegt war, gehöre ebenfalls zum Bild.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Die Zwei, die sich selbst zuletzt versorgt:</strong>
+        Die Leidenschaft der Zwei ist der Stolz: Sie gibt, damit sie gebraucht wird, und kann sich selbst kaum etwas gönnen. Claudio Naranjo beschrieb die soziale Zwei als Typ der ›Ambition‹, die nicht einzelnen Menschen dient, sondern einer Sache, in der sie unentbehrlich wird. Bei Nightingale war die Sache die Armeemedizin, und sie diente ihr mit zwanzig Stunden am Tag, ohne sich zu schonen. Dass das Fieber sie in Scutari auf dem Höhepunkt der Arbeit erwischte, lässt sich mit diesem Muster in Verbindung bringen: Wer sich selbst als Letzte versorgt, bemerkt Warnzeichen spät. Sie blieb nach dem Fieber nach den Angaben noch 21 Monate bei der Armee.</p>
+        <p class="vb-intro"><strong>b) Der Einserflügel: Pflicht auch im Bett:</strong>
+        Der Einserflügel gibt der Zwei Strenge und den Anspruch, das Richtige zu tun. Bei Nightingale ist das sichtbar in der Art, wie sie ihr Zimmer organisierte: Besucher nach Verabredung, einzeln, alle Arbeit schriftlich im Bett. Aus der Krankheit wurde eine Arbeitsform. Die Autoren eines Beitrags des Institute of Mental Health vermuten, dass gerade Arbeit und Ziel sie vor der Überwältigung durch die Einschränkung geschützt haben. Ihre eigene Rückschau legt nahe, dass sie zugleich unter der Enge litt: Der Robinson-Crusoe-Brief an Jowett handelt davon.</p>
+        <p class="vb-intro"><strong>c) Gegenbilder im selben Subtyp:</strong>
+        Unter den Krankheitsporträts stehen mit <a href="javascript:void(0)" data-route="krankheitsportraets-bob-marley">Bob Marley</a> (SO2w1) und <a href="javascript:void(0)" data-route="krankheitsportraets-muhammad-ali">Muhammad Ali</a> (SO2w1) zwei weitere SO2w1er. Beide verzichteten auf etwas für ihre Sache: Marley lehnte aus religiösen Gründen eine Amputation ab, und Ali boxte weiter, obwohl sein Parkinson-Syndrom mutmaßlich auch auf wiederholte Kopftreffer zurückgeht. Nightingale ließ sich behandeln, zwei Ärzte kamen täglich, und verzichtete stattdessen auf die Gesellschaft. Das Muster, die Sache vor den Körper zu stellen, ist dasselbe, der Preis ist ein anderer: bei Marley der Körper, bei Ali das Gehirn, bei Nightingale die Welt außerhalb des Zimmers.</p>
+        <p class="vb-intro"><strong>d) Die Verschiebung zur Stresslinie:</strong>
+        Bei anhaltendem Stress bewegt sich die Zwei zur Acht: weniger Wärme, mehr Härte und Kontrolle. Biografen beschreiben Nightingale als zeitweise schwierig, fordernd und kompromisslos im Umgang mit Mitarbeitenden, die ihre Vorgaben nicht exakt einhielten. Das lässt sich mit dem Achter-Zug in Verbindung bringen, ohne dass sich ihr Kerntyp geändert hätte. Auch Nähe steuerte sie auf diese Weise: Wer sie sprechen wollte, kam nach ihren Bedingungen.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Zwei zu Brucellose oder Depression führt: <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Der Erreger traf Nightingale nach der Hypothese von Young im Krimkrieg, nicht weil sie eine Zwei war. Was sich an ihrem Fall zeigen lässt, ist die Art, wie sie mit der Krankheit umging, eine von vielen möglichen Betrachtungen, kein Urteil. Das entsprechende Krankheitsbild wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Nightingale kannte das Enneagramm nicht. Ihre Leidenschaft, unentbehrlich zu sein, lebte sie deshalb unbewusst und ungebremst aus: zwanzig Stunden am Tag, kaum Schlaf, die Pflege der Kranken vor ihrer eigenen. Als der Körper in Scutari die Notbremse zog, wurde daraus nicht eine Pause, sondern der Rückzug in ein Zimmer, aus dem heraus sie dasselbe Muster mit anderen Mitteln fortsetzte. Dass sie Jahre später selbst von einer ›morbiden Eigenheit langer Krankheit‹ sprach, zeigt, dass sie Teile davon ahnte. Zu wissen, dass ihr Stolz sie so sehr an die Sache band, hätte ihr womöglich erlaubt, rechtzeitig loszulassen, nicht aus Schuld, sondern aus Unwissenheit über das eigene Muster.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Wer Florence Nightingale in ihrem Zimmer sieht, sieht eine soziale Zwei mit Einserflügel, die ihre Fürsorge nicht aufgegeben hat, sondern in ein anderes Format brachte: Briefe, Gutachten, Statistik, ein Haus, das sie für Besucher nach Verabredung öffnete. Der Golden Retriever, der treu bei seiner Sache bleibt, tat das über Jahrzehnte, mit einem Körper, der dabei nicht mehr mitmachte. Ob das Fieber, die Seele oder beides dahinterstand, bleibt in der Forschung offen. Als Muster ist das Ergebnis klar: Die Sache kam zuerst, der Körper bezahlte, und die Welt wurde klein, damit das Werk groß werden konnte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-florence-nightingale", label:"Porträt: Florence Nightingale (SO2w1)"},
+        {route:"krankheitsportraets-bob-marley", label:"Krankheitsporträt: Bob Marley (SO2w1) – verzichtete auf eine Behandlung für seine Sache"},
+        {route:"krankheitsportraets-muhammad-ali", label:"Krankheitsporträt: Muhammad Ali (SO2w1) – boxte weiter trotz Warnzeichen"},
+        {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so2", label:"Lebensmusterkompass: SO2 – Golden Retriever"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+      ])}
+    </div>
+  `);
+}
+
+export function camilleClaudelKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-camille-claudel-portrait.jpg" alt="Camille Claudel" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-camille-claudel-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Camille Claudel</p>
+        <p class="krim-portrait-typ">SX4w5 · Sexueller Typ 4 mit Fünferflügel · 1864–1943</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Chihuahua</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx4.jpg" alt="Tierentsprechung: Chihuahua" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX4")};left:${tierAvatarLeft("SX4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Camille Claudel</strong>, französische Bildhauerin und Schülerin, Mitarbeiterin und Rivalin Auguste Rodins, starb am 19. Oktober 1943 mit 78 Jahren in der Anstalt Montdevergues bei Avignon. Dreißig Jahre davon, seit März 1913, verbrachte sie in Anstalten. Ihr Fall verbindet zwei Fragen, die dieses Porträt bewusst getrennt hält: Was an psychischer Erkrankung sich in den Quellen zeigt, und wie es dazu kam, dass sie dreißig Jahre eingewiesen blieb, obwohl Ärzte in den 1920er-Jahren die Rückkehr in die Familie für möglich hielten.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Camille Claudel</strong> wird der <strong>sexuellen Vier mit Fünferflügel</strong> zugeordnet, wie im Porträt zu <a href="javascript:void(0)" data-route="beruehmte-camille-claudel">Camille Claudel</a> beschrieben. Die Vier trägt das Gefühl, dass ihr etwas Wesentliches fehlt, und ihre Leidenschaft ist der Neid auf alle, die es zu besitzen scheinen. Bei der sexuellen Vier, von Naranjo als Subtyp der Rivalität beschrieben, richtet sich dieses Gefühl nicht still nach innen, sondern auf einen einzelnen Menschen: Sie will ihn erreichen, übertreffen und fürchtet, ihn zu verlieren. Bei Claudel war das Rodin. Der Fünferflügel gibt Strenge, Rückzug und einen Hang, den eigenen Raum zu verteidigen, bis kaum jemand mehr hineinkommt. Bei chronischer, lang anhaltender Belastung bewegen sich Vierer entlang ihrer Stresslinie zur Zwei, mit mehr Bittstellung, Abhängigkeit von Zuwendung und dem Versuch, Menschen für sich einzunehmen, ohne dass sich der Kerntyp ändert. <strong>Hinweis zur Quellenlage:</strong> Die erhaltenen Akten spiegeln die Sicht der Ärzte und der Familie, viele ihrer Briefe gingen nie hinaus, und einzelne Daten sind in den Quellen widersprüchlich (Einweisung 10. oder 13. März 1913, Verlegung nach Montdevergues im September 1914 oder im Februar 1915). Eine Diagnose aus der Ferne wird hier nicht gestellt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Der Rückzug ab etwa 1905:</strong>
+        Nach dem Bruch mit Rodin um 1898 stellte Claudel kaum noch aus und lebte zurückgezogen im Atelier am Quai de Bourbon auf der Île Saint-Louis. Nach den Darstellungen, die sich auf Zeitzeugen stützen, zeigte sie ab etwa 1905 Zwangsgedanken und paranoide Vorstellungen. Sie sah in Rodin die Ursache ihres Misserfolgs, und ihre Arbeit bestand zunehmend aus Variationen älterer Werke.</p>
+        <p class="vb-intro"><strong>b) Das Atelier als Festung:</strong>
+        In seinem Tagebuch von 1909 beschreibt ihr Bruder Paul Claudel die Unordnung in ihrem Atelier und nennt sie ›folle‹ (›verrückt‹). Ab etwa 1911 wird ihr Zustand nach dem Museum in Nogent-sur-Seine ›wirklich besorgniserregend‹. Sie barrikadiert sich, lebt in Armut, und ist überzeugt, ›la bande à Rodin‹ (›Rodins Bande‹) verfolge sie.</p>
+        <p class="vb-intro"><strong>c) Das Zerstörungswerk:</strong>
+        Um 1912 zerschlug sie Gipsmodelle und verbrannte Material. An ihre Cousine Henriette Thierry schrieb sie, sie nehme ihren Hammer und zerschmettere ein Männchen: ›je prends mon marteau et j&rsquo;écrabouille un bonhomme‹. Ihre große Gruppe nannte sie in einem Brief ›ein wahres Menschenopfer‹. Eine Überschwemmung der Seine hatte ihr Atelier 1910 überflutet, dazu kamen nach den Quellen Armut und Mangelernährung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Der Tod des Vaters und das Zeugnis:</strong>
+        Anfang März 1913 starb der Vater Louis-Prosper Claudel, der sie bis dahin gestützt hatte. Sie erfuhr es nicht rechtzeitig und fehlte bei der Beerdigung. Nach den meisten Darstellungen bat Paul einen Arzt, Dr. Michaux, um ein Zeugnis. Es datiert vom 7. März und stellt eine wahnhafte Psychose fest. Als Kern ihrer Beschwerden nennt es ihre Angst: ›elle a toujours la terreur de la bande à Rodin‹ (›sie hat immer noch Todesangst vor Rodins Bande‹).</p>
+        <p class="vb-intro"><strong>b) Die Einweisung am 10. März 1913:</strong>
+        Auf Betreiben der Familie wurde sie in die Anstalt Ville-Évrard bei Paris gebracht, nach den Darstellungen von zwei Männern der Anstalt abgeholt. Das Verfahren hieß ›placement volontaire‹ (›freiwillige Unterbringung‹) und lief nach dem französischen Gesetz von 1838 auf Antrag der Mutter. Unterschrieben war es nach den Darstellungen von einem Arzt und der Familie, die Betroffene selbst hatte nicht zugestimmt, weshalb der Begriff ›freiwillig‹ umstritten ist. Der Anstaltsarzt Dr. Truelle zeichnete in ihrer Akte einen systematischen Verfolgungswahn auf. Er notierte auch ihre Aussage, das Komplott gegen sie reiche ›3000 Jahre zurück oder bis vor die Sintflut‹.</p>
+        <p class="vb-intro"><strong>c) Abgeschnitten von der Außenwelt:</strong>
+        Die Familie bat darum, Besuche und Post zu beschränken. Als ihr Cousin Charles Thierry sie im März 1913 besuchen wollte, hielt ihn Dr. Truelle mit dem Hinweis ab, die Familie habe jeden Kontakt untersagt. Sein Brief an sie blieb in der Akte und wurde ihr nie ausgehändigt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Montdevergues:</strong>
+        Wegen des Kriegs wurde sie im September 1914 in die Anstalt Montdevergues in Montfavet bei Avignon verlegt, so die Angaben des Psychiaters Michel Deveaux und des Museums. Die französische Wikipedia nennt den 12. Februar 1915 und einen Zwischenaufenthalt in Enghien. Der Aufnahmebefund spricht nach den Darstellungen von einem systematischen Verfolgungswahn, der vor allem auf falschen Deutungen und Einbildung beruhe.</p>
+        <p class="vb-intro"><strong>b) Der Alltag in der Anstalt:</strong>
+        Zunächst lebte sie in einem Pensionat für zahlungskräftige Patienten, nach den Angaben des Krankenhauses Montfavet später in einem großen Schlafsaal, als die Familie nicht mehr zahlte. Sie lehnte das Anstaltsessen aus Angst vor Vergiftung ab und kochte sich auf dem Ofen im Saal eigene Kartoffeln und hartgekochte Eier. Sie saß lange Stunden auf einer Parkbank und wartete auf Besuch. Sie bildhauerte dort nicht mehr.</p>
+        <p class="vb-intro"><strong>c) Die Briefe:</strong>
+        Am 25. Februar 1917 schrieb sie an einen früheren Arzt und Nachbarn, sie werde seit fast sechs Jahren in Anstalten festgehalten, und bat darum, den Anwalt M. Adam zu sprechen und in die Salpêtrière oder nach Sainte-Anne verlegt zu werden. Über die Isolation schrieb sie: ›aucune de mes lettres ne part, aucune visite ne pénètre‹ (›kein Brief von mir geht hinaus, kein Besuch dringt herein‹), und: ›Maman et ma sœur ont donné l&rsquo;ordre de me séquestrer de la façon la plus complète‹ (›Mama und meine Schwester haben angeordnet, mich auf die vollständigste Weise abzusondern‹). Viele Briefe verließen die Anstalt nicht. Manche gelangten über Bestechung und Mittelsleute hinaus.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Die ärztliche Empfehlung von 1920:</strong>
+        1919 schien sich ihr Zustand zu bessern. Am 1. Juni 1920 riet der Anstaltsarzt Dr. Brunet der Mutter in einem Brief, die Rückkehr der Tochter in die Familie zu versuchen. Nach seinen Worten litt sie vor allem an Einsamkeit (›souffre de solitude‹). Die Mutter lehnte ab, mit den Worten ›jamais, jamais !‹ (›nie, nie!‹). Nach einer Darstellung hielten mehrere Anstaltsärzte ihren Zustand für vereinbar mit einer Entlassung, die Familie folgte dem nie.</p>
+        <p class="vb-intro"><strong>b) Wer kam, und wer nicht:</strong>
+        Die Mutter besuchte sie nie und starb 1929, die Schwester nach den meisten Darstellungen ebenfalls nie. Paul, als Diplomat meist im Ausland, kam nach den Angaben des Museums etwa ein Dutzend Mal in dreißig Jahren, andere Quellen zählen sieben Besuche. Im Mai 1924 und im Dezember 1929 besuchte sie die englische Bildhauerin Jessie Lipscomb, eine Freundin aus Pariser Zeiten, und hielt sie nicht für geisteskrank, sondern für in einem ›Tod bei lebendigem Leib‹ gefangen. Ihr letzter Besucher war Paul am 21. September 1943.</p>
+        <p class="vb-intro"><strong>c) Die Würdigung nach dem Tod:</strong>
+        1951 zeigte das Musée Rodin eine Retrospektive, mit einem Vorwort von Paul Claudel. Seit den 1980er-Jahren wächst die Anerkennung, 2008 wurde in Montfavet ein Kenotaph enthüllt, 2017 eröffnete das Museum in Nogent-sur-Seine.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Hunger in den Kriegsjahren:</strong>
+        Während der deutschen Besatzung starben in französischen Anstalten viele Patienten an Unterernährung. Der Direktor ihrer Anstalt schrieb nach der Darstellung, seine Patienten verhungerten ›buchstäblich‹. In einem Brief vom August 1942 wird ihr schwindender Gesundheitszustand mit Ödemen durch Mangelernährung in Verbindung gebracht.</p>
+        <p class="vb-intro"><strong>b) Der Tod am 19. Oktober 1943:</strong>
+        Sie starb gegen zwei Uhr nachts, nach der französischen Wikipedia an einem Schlaganfall, nach der Einschätzung des Krankenhauses Montfavet mit größter Wahrscheinlichkeit an den Folgen der Mangelernährung. Paul hatte im September von der Erkrankung erfahren und das besetzte Frankreich durchquert, war beim Tod und bei der Beerdigung aber nicht anwesend.</p>
+        <p class="vb-intro"><strong>c) Das Grab:</strong>
+        Sie wurde zunächst in einem provisorischen Grab auf dem Friedhof von Montfavet beigesetzt und etwa zehn Jahre später in ein Massengrab umgebettet, später in ein Ossuarium, weil kein Angehöriger die Grabstätte beanspruchte.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Kränkung nach innen, Rückzug nach außen:</strong>
+        Die sexuelle Vier mit Fünferflügel erlebt die Rivalität mit einem einzelnen Menschen mit voller Intensität. Rodin war ihr Lehrer, Geliebter und Maßstab zugleich, und je mehr die Verbindung zerbrach, desto mehr zog sich Claudel zurück, bis in ein verbarrikadiertes Atelier. Dass sie ihre eigenen Modelle zerschlug und das Zerschmettern auf eine Figur bezog (›un bonhomme‹), lässt sich mit der Heftigkeit der sexuellen Vier in Verbindung bringen, die sich hier nicht gegen Rodin, sondern gegen das eigene Werk richtet, das mit ihm verbunden war.</p>
+        <p class="vb-intro"><strong>b) Krankheit und Einweisung als zwei getrennte Fragen:</strong>
+        Dass Claudel an einer psychischen Erkrankung litt, belegen die Quellen auf mehreren Seiten. Zeitgenössische Ärzte wie Michaux und Truelle diagnostizierten einen Verfolgungswahn. Spätere psychiatrische Fachartikel diskutieren eine paranoide Psychose, Dementia praecox oder Schizophrenie nach Bleuler. Die Kuratorin Cécile Bertran sagt, die Lage sei ›nicht leicht zu beurteilen‹, weil moderne Experten nach Durchsicht der Akten zu dem Schluss kamen, dass sie tatsächlich krank war. Ob dreißig Jahre Anstalt nötig waren, ist eine andere Frage. Die Anstaltsärzte selbst hielten in den 1920er-Jahren ihre Entlassung für vertretbar, die Familie lehnte ab. Kritiker, unter ihnen die Biografin Odile Ayral-Clause, sehen in der Sequestrierung vor allem den Versuch, die Angelegenheit geheim zu halten und einen Skandal zu vermeiden, weil Claudel weder gewalttätig noch suizidal gewesen sei. Paul und die Familie verwiesen darauf, dass sie schwer verwahrlost und nicht mehr in der Lage war, allein zu leben. Beide Sichtweisen stehen nebeneinander, und das Porträt entscheidet sie nicht.</p>
+        <p class="vb-intro"><strong>c) Die Verschiebung zur Stresslinie:</strong>
+        In den Briefen aus der Anstalt zeigt sich, was bei der Vier unter lang anhaltendem Druck auf der Stresslinie zur Zwei zu erwarten wäre: Bitten, Appelle an Menschen, die helfen könnten, die Bemühung, Ärzte, Anwälte und Verwandte für sich zu gewinnen. Die Briefe an Dr. Michaux und an ihren Cousin Charles Thierry sind genau solche Hilferufe. Zugleich blieb der Kern erhalten: die Rivalität mit Rodin, die Überzeugung, ihm gegenüber unterlegen und von ihm verfolgt zu sein. Der Kerntyp änderte sich nicht, nur das Verhalten war zeitweise stärker auf andere ausgerichtet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Vier zu einer Psychose führt: <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Ob und wie Claudels Erkrankung mit ihrer Biografie zusammenhängt, lässt sich aus der Ferne nicht entscheiden. Was sich zeigen lässt, ist die Art, wie sich Kränkung, Rückzug und die Folgen der Isolation miteinander verschränkten, eine von vielen möglichen Betrachtungen, kein Urteil. Das entsprechende Krankheitsbild wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Camille Claudel kannte das Enneagramm nicht. Die sexuelle Vier mit Fünferflügel lebt Kränkung und Rückzug unbewusst aus, und sie wählt dabei nicht, ob Rodin zum Gegenstand ihrer Rivalität wird. Hätte sie von dem Mechanismus gewusst, der Neid und Rückzug in einem Kreislauf hält, wäre es vielleicht denkbar gewesen, früher Hilfe anzunehmen, bevor das Atelier zur Festung wurde. Stattdessen verlief die Kette so, wie sie das Porträt der Künstlerin beschreibt: Aus Kränkung wurde Rückzug, aus Rückzug immer weniger Menschen, die hätten helfen können, und am Ende war es die Familie, die über ihr Leben entschied.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Parallele im selben Subtyp: Debussy und Sartre</h3>
+        <p class="vb-intro">Unter den Krankheitsporträts dieses Kompasses stehen mit <a href="javascript:void(0)" data-route="krankheitsportraets-claude-debussy">Claude Debussy (SX4w5)</a> und <a href="javascript:void(0)" data-route="krankheitsportraets-jean-paul-sartre">Jean-Paul Sartre (SX4w5)</a> zwei SX4er, die den Fall Claudel von der anderen Seite beleuchten. Debussy hielt seinen Darmkrebs nahezu geheim, arbeitete trotz der Schmerzen weiter und komponierte seine letzten Kammermusikwerke in Phasen zunehmender Erschöpfung. Sartre sprach offen über seinen extremen Amphetamin-Missbrauch und änderte sein Verhalten trotzdem nicht. Bei beiden folgt die Vier ihrem inneren Maßstab bis zur Grenze der Belastbarkeit, und der Fünferflügel hält sie bei der Arbeit.</p>
+        <p class="vb-intro">Bei Claudel kippt derselbe Fünferflügel in den Abbruch: Das Werk wird nicht vertieft, sondern zerstört, der Rückzug nicht in Konzentration, sondern in Verbarrikadierung. Noch auffälliger ist der Gegensatz zu Debussy beim Schweigen. Wo Debussy sein Leiden selbst verschwieg, wurde Claudel zum Schweigen gebracht: Ihre Briefe gingen nicht hinaus, ihre Besucher wurden abgewiesen. Dass bei den drei verwandten Fällen so verschiedene Wege herauskamen, zeigt, dass der Subtyp ein Muster beschreibt und keinen Verlauf.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">8. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Camille Claudels</strong> sexuelle Vier mit Fünferflügel zeigt sich in diesem Krankheitsporträt als Rivalität, die in Rückzug übergeht. Der Chihuahua, der auftritt, als gehöre ihm der Raum, verteidigte ihn bis zum Äußersten, zerschlug das eigene Werk und blieb am Ende allein in einem Schlafsaal. Wie viel davon Krankheit war und wie viel Verwahrung durch die Familie, bleibt in den Quellen offen. Sicher ist die Begabung, die ihre besten Arbeiten neben denen ihres Lehrers bestehen lässt.</p>
+      </div>
+
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-camille-claudel", label:"Porträt: Camille Claudel (SX4w5)"},
+        {route:"krankheitsportraets-claude-debussy", label:"Krankheitsporträt: Claude Debussy (SX4w5) – derselbe Subtyp, das Leiden verschwiegen"},
+        {route:"krankheitsportraets-jean-paul-sartre", label:"Krankheitsporträt: Jean-Paul Sartre (SX4w5)"},
+        {route:"beruehmte-auguste-rodin", label:"Porträt: Auguste Rodin (SX9w8)"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx4", label:"Lebensmusterkompass: SX4 – Chihuahua"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+      ])}
+    </div>
+  `);
+}
+
+export function edithPiafKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-edith-piaf-portrait.jpg" alt="Édith Piaf" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-edith-piaf-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Édith Piaf</p>
+        <p class="krim-portrait-typ">SE4w3 · Selbsterhaltender Typ 4 mit Dreierflügel · 1915–1963</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Taube</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Tierentsprechung: Taube" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Édith Piaf</strong>, die Chansonsängerin aus Paris, starb am 10. Oktober 1963 im Alter von 47 Jahren in ihrer Villa in Plascassier bei Grasse. Ihr Körper trug seit den späten 1940er-Jahren eine rheumatische Polyarthritis, eine Abhängigkeit von Morphin und Alkohol, mehrere Unfälle, Operationen und zuletzt ein Leberleiden. Auf der Bühne stand sie trotzdem bis kurz vor dem Ende, und die Frage, was ihr Körper und was ihr Wille an diesem Leben trugen, ist der Kern dieses Porträts.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Édith Piaf</strong> wird der <strong>selbsterhaltenden Vier mit Dreierflügel</strong> zugeordnet, wie im Porträt zu <a href="javascript:void(0)" data-route="beruehmte-edith-piaf">Édith Piaf</a> beschrieben: ein Schmerz, der nicht beklagt, sondern in eine disziplinierte Form gebracht wird, getragen von der Fähigkeit, das Innere in Wirkung zu verwandeln. Bei chronischer, lang anhaltender Belastung bewegen sich Vierer entlang ihrer Stresslinie zur Zwei, mit mehr Hinwendung zu anderen, mehr Gebrauchtwerden und weniger Rückzug in sich selbst, ohne dass sich der Kerntyp ändert. <strong>Hinweis zur Quellenlage:</strong> Vieles aus Piafs letzten Jahren stammt aus Erinnerungen ihres Umfelds. Simone Berteaut, eine wichtige Zeugin, gab sich in ihren Memoiren von 1969 fälschlich als Halbschwester Piafs aus. Medizinische Details und Daten werden daher dort genannt, wo mehrere Quellen übereinstimmen, und Abweichungen werden benannt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Die Augen im Kindesalter:</strong>
+        Nach Berichten ihrer Biografen verlor das Mädchen zwischen etwa drei und acht Jahren das Augenlicht. Ein Arzt soll eine doppelseitige Hornhautentzündung (Keratitis) festgestellt haben, wahrscheinlich eine Folge mangelnder Pflege und Hygiene, die nie behandelt wurde. Ihre Großmutter nahm sie 1921 nach Lisieux zum Grab der heiligen Thérèse. Nach einer Version legte man Erde vom Grab auf die Augen, nach etwa acht Tagen konnte sie wieder sehen. Piaf selbst sprach von einer Wunderheilung. Das bleibt eine Überlieferung, andere Versionen erzählen den Weg anders.</p>
+        <p class="vb-intro"><strong>b) Die Gelenke:</strong>
+        Die Polyarthritis soll sich nach einer Quelle schon in den frühen Jahren der Karriere gezeigt haben. Belegt ist, dass sie sich nach dem Tod ihres Geliebten, des Boxers Marcel Cerdan, der im Oktober 1949 bei einem Flugzeugabsturz starb, verschlimmerte. Piaf litt danach unter akuter Polyarthritis und nahm hohe Dosen Morphin.</p>
+        <p class="vb-intro"><strong>c) Der Alkohol:</strong>
+        Um 1949/50 wird ihr Zustand als ›délabré par l’alcool et la drogue‹ beschrieben, ›zerrüttet durch Alkohol und Drogen‹. Sie lehnte deshalb Filmrollen ab. Mit dem Alkohol, der ihr schon nach Cerdans Tod Trost war, kam sie in den folgenden Jahren nicht mehr zurecht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Der Unfall im Juli 1951:</strong>
+        Bei einem Autounfall im Juli 1951, bei dem Charles Aznavour, damals ihr Assistent, mit im Wagen saß, brach sich Piaf einen Arm und zwei Rippen. Ihr Arzt verschrieb Morphin gegen die Gelenkschmerzen, und aus der Schmerztherapie wurde eine Abhängigkeit. Die Quellen setzen den Beginn der Morphinabhängigkeit unterschiedlich an, nach Cerdans Tod 1949 oder nach diesem Unfall.</p>
+        <p class="vb-intro"><strong>b) Die Entzugsversuche:</strong>
+        Nach ihrer Heirat mit dem Sänger Jacques Pills 1952 brachte er sie dreimal in eine Entzugsklinik. Die erste Kur wird auf 1953 datiert. 1955 kam sie nach mehreren Kuren von der Morphinsucht los. Ihre rheumatoide Polyarthritis behandelte man in dieser Zeit mit hohen Dosen Cortison, danach flüchtete sie wieder in den Alkohol. Die Ehe mit Pills endete 1957.</p>
+        <p class="vb-intro"><strong>c) Der Unfall im September 1958:</strong>
+        Am 6. September 1958 verunglückte Piaf mit dem jungen Georges Moustaki auf der Nationalstraße 10 bei Coignières. Der Unfall verschlechterte nach den Quellen ihren Gesundheitszustand und ihre Abhängigkeit weiter. Zwei weitere schwere Unfälle werden ohne genaue Daten erwähnt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Der Zusammenbruch von 1959:</strong>
+        Im Februar 1959 brach sie nach einer belgischen Quelle während der New Yorker Tournee auf der Bühne zusammen und hustete hinter den Kulissen Blut. Es folgten Geschwüre und Blutungen im Magen-Darm-Trakt und mehrere Operationen. Welche Operation genau wann stattfand, geben die Quellen verschieden an: Ein Magengeschwür wird genannt, eine Bauchspeicheldrüsenoperation im September 1959 ebenfalls.</p>
+        <p class="vb-intro"><strong>b) Dreux, 13. Dezember 1959:</strong>
+        Nach einer Tournee, die die Presse später ›tournée suicide‹ nannte, ›Selbstmordtournee‹, brach Piaf in Dreux in der Pause zusammen, nach dem Bericht eines Lokaljournalisten ›in Ätherdämpfen auf einen Stuhl gesunken‹. Sie bestand darauf zu singen: ›Ils ont payé pour m’entendre, si je ne chante pas à Dreux, je mourrai‹ – ›Sie haben bezahlt, um mich zu hören, wenn ich in Dreux nicht singe, sterbe ich.‹ Ein Arzt gab ihr eine Spritze, sie sang etwa vierzig Minuten, bis nach Mitternacht, und danach auf eigenen Wunsch noch ›La foule‹ (›Die Menge‹). Hinter dem Vorhang rief sie: ›Chanter, je n’ai plus que cela au monde‹ – ›Singen, das ist alles, was ich noch auf der Welt habe.‹ Danach folgten eine Schlafkur und eine Erholungszeit.</p>
+        <p class="vb-intro"><strong>c) Olympia 1960/61:</strong>
+        Im Pariser Olympia konnte sie nach den Berichten nur noch nach einer Morphinspritze singen. Die Polyarthritis war stark behindernd. Das Lied ›Non, je ne regrette rien‹ (›Nein, ich bereue nichts‹) entstand in diesen Monaten und wurde in dieser Zeit zu ihrem endgültigen Comeback.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Der Körper als Instrument:</strong>
+        Auf der Bühne stand sie meist regungslos in einem schlichten schwarzen Kleid, ohne Tanz und ohne Geste. Die Dramatik lag in der Stimme. Je kleiner die Bewegung, desto mehr musste die Stimme tragen. Bei einer Frau mit stark behindernder Polyarthritis konnte diese Reduktion zugleich Stilmittel und Entlastung sein.</p>
+        <p class="vb-intro"><strong>b) Die späte Ehe:</strong>
+        Am 9. Oktober 1962 heiratete sie den etwa zwanzig Jahre jüngeren Théo Sarapo (geboren als Theophanis Lamboukas). Er blieb bis zu ihrem Tod an ihrer Seite.</p>
+        <p class="vb-intro"><strong>c) Die letzte Arbeit:</strong>
+        Anfang 1963 nahm sie ›L’Homme de Berlin‹ (›Der Mann aus Berlin‹) auf, ihre letzte Aufnahme. Danach ließen die Kräfte nach.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Das Koma im Frühjahr 1963:</strong>
+        Nach der Aufnahme fiel Piaf nach den Berichten in ein Koma, das auf ihr Leberleiden zurückgeführt wird. In ihrer Villa in Plascassier wurde sie von Théo Sarapo und ihrer Freundin Simone Berteaut gepflegt, und über die folgenden Monate kam sie immer wieder kurz zu sich. Der Pflegebericht stützt sich auf Berteaut, deren Verlässlichkeit eingeschränkt ist.</p>
+        <p class="vb-intro"><strong>b) Die Todesursache, uneinheitlich überliefert:</strong>
+        Als Ursache gilt meist Leberversagen mit innerer Blutung, nach einer Quelle durch eine geplatzte Aussackung einer Ader (Aneurysma). Daneben wird Leberkrebs genannt, den ihr Umfeld vermutete, und teilweise Leberzirrhose. Eine Obduktion scheint nicht stattgefunden zu haben, deshalb steht keine der Angaben sicher fest.</p>
+        <p class="vb-intro"><strong>c) Der Tod und die Inszenierung danach:</strong>
+        Piaf starb am 10. Oktober 1963 gegen 13.10 Uhr in Plascassier. Ihr Körper wurde nach Paris gebracht, und die offizielle Todesmeldung vom 11. Oktober nannte Paris als Sterbeort, mit einem rückdatierten Zeugnis, damit ihre Fans glaubten, sie sei in der Hauptstadt gestorben. Als letzte Worte werden überliefert: ›Every damn thing you do in this life, you have to pay for‹ – ›Für alles, was du in diesem Leben tust, musst du bezahlen.‹ Die Katholische Kirche verweigerte ihr zunächst eine Messe, weil sie nach einer Scheidung erneut geheiratet hatte, erst 2013 wurde ein Requiem gehalten.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Der Körper als Opfer der Zähigkeit:</strong>
+        Claudio Naranjo nannte die selbsterhaltende Vier ›Zähigkeit‹: eine Härte, die sich gegen sich selbst richtet und sich nicht beklagt. Die Leidenschaft der Vier ist der Neid, das Gefühl, dass anderen etwas mitgegeben wurde, was einem selbst fehlt. Dahinter steht bei der selbsterhaltenden Vier häufig eine tiefe, frühe Erfahrung von Mangel, und bei Piaf gehören das Elend der Kindheit, die Jahre im Bordell der Großmutter und die lange Blindheit dazu. Das lässt sich mit der Art in Verbindung bringen, wie sie mit ihrem Körper umging: Sie behandelte ihn als etwas, das zu funktionieren hat, solange noch etwas zu singen ist. Der Satz aus Dreux, ›Singen, das ist alles, was ich noch auf der Welt habe‹, sagt, dass die Bühne zugleich Lebensinhalt und Schutz war. Wer so denkt, schont sich nicht.</p>
+        <p class="vb-intro"><strong>b) Der Dreierflügel:</strong>
+        Der Dreierflügel gibt der Vier den Blick auf Wirkung und die Disziplin, sich dem Publikum zu stellen. In Dreux ist das gut zu sehen: Piaf singt, weil man bezahlt hat, und weil ihr Erscheinen eine Zusage ist. Eine Vier mit schwächer ausgeprägtem Dreierflügel hätte sich vielleicht zurückgezogen. Der Flügel macht den Auftritt zur Pflicht, und aus der Pflicht entsteht der Kraftakt, den der Lokaljournalist von Dreux ›an der Grenze der menschlichen Belastbarkeit‹ nannte.</p>
+        <p class="vb-intro"><strong>c) Die Verschiebung zur Stresslinie:</strong>
+        Auf der Stresslinie zur Zwei zeigen Vierer mehr Hinwendung, mehr Gebrauchtwerden und weniger Rückzug. Dazu passt, dass Piaf in ihren letzten Jahren vermehrt von Menschen umgeben war, die sie umsorgten, und dass sie noch 1962 mit Théo Sarapo einen jungen Mann heiratete, der sie bis zuletzt pflegte. Der Kerntyp bleibt die Vier, die Hinwendung ist eine Verschiebung, kein Typwechsel, und dass die Quellen diese Spur nur andeuten, gehört zum Bild.</p>
+        <p class="vb-intro"><strong>d) Parallele im selben Subtyp:</strong>
+        Unter den Krankheitsporträts dieses Kompasses stehen mehrere SE4w3er. <a href="javascript:void(0)" data-route="krankheitsportraets-honore-de-balzac">Honoré de Balzac</a> (SE4w3) zeigt dasselbe Muster am nächsten: jahrzehntelanger Raubbau am eigenen Körper für das Werk, eine tödliche Komplikation und der Tod wenige Monate nach der Hochzeit. Bei Piaf liegt zwischen der Heirat 1962 und dem Tod gut ein Jahr. Bei beiden ist der Körper der Preis für die Form. <a href="javascript:void(0)" data-route="krankheitsportraets-lady-diana">Lady Diana</a> (SE4w3) und <a href="javascript:void(0)" data-route="krankheitsportraets-adele">Adele</a> (SE4w3) verbargen ihr Leiden jahrelang, bei Piaf dagegen war der Verfall sichtbar, und sie trug ihn auf die Bühne. <a href="javascript:void(0)" data-route="krankheitsportraets-mette-marit">Mette-Marit</a> (SE4w3) führte ihre öffentlichen Pflichten trotz einer ernsten Lungenerkrankung fort. Bei allen steht die Zähigkeit der selbsterhaltenden Vier vor der Schonung.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Vier zu Polyarthritis, Abhängigkeit oder einem Leberleiden führt: <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Eine rheumatische Erkrankung, mehrere schwere Unfälle und eine Schmerztherapie, die in Abhängigkeit mündete, sind Schicksale, die vielen Menschen ohne dieses Muster passieren. Was sich an Piafs Fall zeigen lässt, ist die Art, wie sie damit lebte, eine von vielen möglichen Betrachtungen, kein Urteil. Das entsprechende Krankheitsbild wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Piaf kannte ihr Enneagramm-Muster nicht, und sie hätte die Zähigkeit, die sie trug, vermutlich als schlichte Pflicht gegenüber ihrem Publikum beschrieben. Die selbsterhaltende Vier lebt ihre Härte gegen sich selbst unbewusst und ungebremst aus: In Dreux singt sie gegen den Rat ihres Umfelds noch ein Lied nach dem Vorhang, und die Schlafkur danach ist keine Umkehr, sondern eine Pause bis zum nächsten Auftritt. Das ist keine Schuld, sondern fehlendes Wissen darüber, dass dieses Muster den Körper zum Preis macht. Es erklärt, warum sich ein Leben wie ihres bis zur gesundheitlichen Zuspitzung auslebt, statt rechtzeitig die Notbremse zu ziehen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Édith Piafs</strong> Weg zeigt in diesem Krankheitsporträt eine selbsterhaltende Vier mit Dreierflügel, die ihren Schmerz nicht beklagt, sondern singt. Die Taube, die jede Wetterlage durchfliegt, trug über Jahre Gelenke, die schmerzten, eine Sucht, die in der Schmerztherapie begann, und einen Körper, der mehrfach zusammenbrach. Sie sang weiter, weil Singen das Einzige war, was blieb. Wie viel von diesem Weg Entscheidung war und wie viel Folge von Krankheit, Unfällen und der Medizin ihrer Zeit, lässt sich aus den widersprüchlichen Quellen nicht trennen.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-edith-piaf", label:"Porträt: Édith Piaf (SE4w3)"},
+        {route:"krankheitsportraets-honore-de-balzac", label:"Krankheitsporträt: Honoré de Balzac (SE4w3) – Raubbau am Körper für das Werk"},
+        {route:"krankheitsportraets-lady-diana", label:"Krankheitsporträt: Lady Diana (SE4w3) – ein Leiden, das verborgen blieb"},
+        {route:"krankheitsportraets-adele", label:"Krankheitsporträt: Adele (SE4w3)"},
+        {route:"krankheitsportraets-mette-marit", label:"Krankheitsporträt: Mette-Marit (SE4w3)"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se4", label:"Lebensmusterkompass: SE4 – Taube"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
       ])}
     </div>
   `);

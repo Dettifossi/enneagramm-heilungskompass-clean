@@ -10,7 +10,9 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, "..");
-const src = fs.readFileSync(path.join(rootDir, "en", "bundle.js"), "utf-8");
+// Seit 20.10.2026 liegt LAENDER_REGIONEN in en/data/lazy/laender.js (Lazy Loading); Fallback auf en/bundle.js.
+const lazyPath = path.join(rootDir, "en", "data", "lazy", "laender.js");
+const src = fs.readFileSync(fs.existsSync(lazyPath) ? lazyPath : path.join(rootDir, "en", "bundle.js"), "utf-8");
 
 const startMarker = "const LAENDER_REGIONEN = ";
 const startIdx = src.indexOf(startMarker);

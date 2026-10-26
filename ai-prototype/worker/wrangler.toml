@@ -49,6 +49,12 @@ id = "1fc1fdf4ff8841b693c830f5c143a7de"
 binding = "REVIEWS"
 id = "66e4f67e14ce4eec9c14284c185c7ca8"
 
+# Erfolglose Suchbegriffe (anonym, ohne IP/Kennung, Ablauf nach 90 Tagen).
+# Key "m:<de|en>:<normalisierter Begriff>" -> {n, first, last}. Auswertung nur mit Admin-Code.
+[[kv_namespaces]]
+binding = "SEARCH_MISSES"
+id = "5130b403c33e4c0386440c9154a5d5dd"
+
 # Secrets (gesetzt per npx wrangler secret put <NAME>, nie im Repo):
 #   STRIPE_SECRET_KEY, STRIPE_WEBHOOK_SECRET, RESEND_API_KEY
 # Fehlt eines davon, liefern /auth/*, /stripe/webhook und /billing/portal
@@ -88,4 +94,11 @@ name = "ADMIN_LIMITER"
 namespace_id = "1004"
   [ratelimits.simple]
   limit = 10
+  period = 60
+
+[[ratelimits]]
+name = "SEARCH_LIMITER"
+namespace_id = "1005"
+  [ratelimits.simple]
+  limit = 20
   period = 60

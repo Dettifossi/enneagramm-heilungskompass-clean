@@ -8,7 +8,9 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, "..");
-const appJs = fs.readFileSync(path.join(rootDir, "app.js"), "utf-8");
+// Seit 20.10.2026 liegt LAENDER_REGIONEN in data/lazy/laender.js (Lazy Loading); Fallback auf app.js.
+const lazyPath = path.join(rootDir, "data", "lazy", "laender.js");
+const appJs = fs.readFileSync(fs.existsSync(lazyPath) ? lazyPath : path.join(rootDir, "app.js"), "utf-8");
 
 const startMarker = "const LAENDER_REGIONEN = [";
 const startIdx = appJs.indexOf(startMarker);

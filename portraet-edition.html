@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Porträt-Edition für 39 € – Enneagramm-App mit über 1.100 Porträts</title>
+<meta name="description" content="Die Porträt-Edition des Enneagramm-Heilungskompass ist eine interaktive App, kein Buch: über 1.100 Porträts, drei Muster-Kompasse und ein Memory-Spiel. Einmalig 39 €, lebenslanger Zugang, später auf den Vollzugang erweiterbar." />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://kompass.verlagshausrathmer.com/portraet-edition.html" />
+<link rel="alternate" hreflang="de" href="https://kompass.verlagshausrathmer.com/portraet-edition.html" />
+<link rel="alternate" hreflang="en" href="https://kompass.verlagshausrathmer.com/en/portrait-edition.html" />
+<link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+<style>
+  :root {
+    --ivory: #f7f1e6;
+    --paper: #fffaf0;
+    --sand: #d2c0a1;
+    --copper: #a5603d;
+    --bronze: #7d593d;
+    --ink: #28241f;
+    --muted: #72665a;
+    --sage: #607468;
+    --deep: #243948;
+    --sky: #d9e7e7;
+    --moss: #30483d;
+    --shell: #eef3ec;
+    --line: rgba(40, 36, 31, 0.14);
+    --shadow: 0 24px 70px rgba(65, 46, 28, 0.16);
+    --shadow-soft: 0 18px 42px rgba(65, 46, 28, 0.1);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: Georgia, 'EB Garamond', serif;
+    background: var(--ivory);
+    color: var(--ink);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+  h1, h2, h3 { font-family: 'EB Garamond', Georgia, serif; font-weight: 600; margin: 0; }
+  p { margin: 0; }
+  .wrap { max-width: 780px; margin: 0 auto; padding: 0 1.4rem; }
+  a { color: inherit; }
+
+  /* HERO */
+  .hero {
+    position: relative;
+    padding: 5rem 0 4rem;
+    text-align: center;
+    background:
+      radial-gradient(circle at 50% 0%, rgba(165,96,61,0.10), transparent 60%),
+      var(--ivory);
+    overflow: hidden;
+  }
+  .hero::before {
+    content: "";
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(var(--line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--line) 1px, transparent 1px);
+    background-size: 42px 42px;
+    opacity: 0.35;
+    mask-image: radial-gradient(ellipse at 50% 20%, black 10%, transparent 70%);
+  }
+  .hero-inner { position: relative; z-index: 1; }
+  .compass-spin {
+    width: 110px; height: 110px; margin: 0 auto 1.6rem;
+    animation: spin 40s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .eyebrow {
+    font-size: 0.72rem; letter-spacing: .16em; text-transform: uppercase;
+    color: var(--copper); font-family: Georgia, serif; font-weight: 700;
+    margin-bottom: .9rem;
+  }
+  .hero h1 {
+    font-size: clamp(2.1rem, 5vw, 3.1rem);
+    line-height: 1.15;
+    margin-bottom: 1.1rem;
+  }
+  .hero h1 em { font-style: italic; color: var(--copper); }
+  .hero-sub {
+    font-size: 1.15rem;
+    color: var(--muted);
+    max-width: 560px;
+    margin: 0 auto 2.2rem;
+  }
+  .cta-row { display: flex; gap: .8rem; justify-content: center; flex-wrap: wrap; }
+  .btn {
+    display: inline-block;
+    padding: .95rem 1.9rem;
+    border-radius: 999px;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: Georgia, serif;
+    font-size: 1rem;
+    transition: transform .15s ease, box-shadow .15s ease;
+  }
+  .btn:hover { transform: translateY(-2px); }
+  .btn-primary { background: var(--deep); color: var(--paper); box-shadow: var(--shadow-soft); }
+  .btn-ghost { background: var(--paper); color: var(--ink); border: 1px solid var(--line); }
+
+  /* SECTIONS */
+  section { padding: 4.4rem 0; }
+  .section-alt { background: var(--paper); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .kicker {
+    font-size: .72rem; letter-spacing: .16em; text-transform: uppercase;
+    color: var(--copper); font-weight: 700; margin-bottom: .7rem; text-align: center;
+  }
+  .section-title {
+    font-size: clamp(1.6rem, 3.4vw, 2.2rem);
+    text-align: center;
+    max-width: 620px;
+    margin: 0 auto 1rem;
+    line-height: 1.25;
+  }
+  .section-lead {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 2.6rem;
+    color: var(--muted);
+    font-size: 1.05rem;
+  }
+
+  /* REVEAL ANIMATION */
+  .reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s ease; }
+  .reveal.is-visible { opacity: 1; transform: translateY(0); }
+
+  /* USP BLOCK */
+  .usp-block {
+    background: var(--deep);
+    color: var(--shell);
+    border-radius: 22px;
+    padding: 2.6rem 2rem;
+    max-width: 720px;
+    margin: 0 auto;
+    box-shadow: var(--shadow);
+    text-align: center;
+  }
+  .video-section { background: var(--deep); padding: 3.4rem 0; }
+  .video-frame {
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    border: 1px solid rgba(255,255,255,0.1);
+  }
+  .video-frame video { display: block; width: 100%; height: auto; background: #000; }
+  .video-caption { text-align: center; color: #d6ddd9; font-size: 0.95rem; margin-top: 1rem; }
+  .video-frame-embed {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    background: #000;
+  }
+  .video-frame-embed iframe {
+    position: absolute; inset: 0; width: 100%; height: 100%; border: 0;
+  }
+  .usp-block .kicker { color: #e0b48f; }
+  .usp-block h2 { color: #fff; font-size: clamp(1.4rem, 3vw, 1.9rem); margin-bottom: 1rem; }
+  .usp-block p { color: #d6ddd9; font-size: 1.05rem; max-width: 560px; margin: 0 auto; }
+  .usp-block p + p { margin-top: .9rem; }
+  .usp-block strong { color: #fff; }
+
+  /* FEATURE GRID */
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.2rem;
+  }
+  .feature-card {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 1.6rem 1.4rem;
+    box-shadow: var(--shadow-soft);
+  }
+  .feature-card .ico { font-size: 1.8rem; margin-bottom: .6rem; display: block; }
+  .feature-card h3 { font-size: 1.08rem; margin-bottom: .5rem; }
+  .feature-card p { color: var(--muted); font-size: .95rem; }
+
+  /* TIER GRID */
+  .tier-grid {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: .5rem;
+    max-width: 620px;
+    margin: 0 auto;
+  }
+  .tier-grid img {
+    width: 100%; aspect-ratio: 1; object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid var(--paper);
+    box-shadow: 0 4px 10px rgba(40,36,31,0.15);
+    transition: transform .2s ease;
+  }
+  .tier-grid img:hover { transform: scale(1.12); }
+  @media (max-width: 560px) {
+    .tier-grid { grid-template-columns: repeat(6, 1fr); }
+  }
+
+  /* PRAXIS TOOLS */
+  .tool-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.1rem;
+  }
+  .tool-card {
+    background: linear-gradient(160deg, var(--paper), var(--shell));
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 1.7rem 1.4rem;
+    text-align: center;
+  }
+  .tool-card .emoji { font-size: 2.1rem; display: block; margin-bottom: .7rem; }
+  .tool-card h3 { font-size: 1.05rem; margin-bottom: .5rem; color: var(--bronze); }
+  .tool-card p { font-size: .92rem; color: var(--muted); }
+  .praised {
+    display: inline-block;
+    margin-top: .8rem;
+    font-size: .72rem;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--sage);
+    font-weight: 700;
+  }
+
+  /* PORTRAIT STRIP */
+  .portrait-strip {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    padding: .5rem .2rem 1.2rem;
+    scroll-snap-type: x mandatory;
+  }
+  .portrait-strip::-webkit-scrollbar { height: 6px; }
+  .portrait-strip::-webkit-scrollbar-thumb { background: var(--sand); border-radius: 4px; }
+  .portrait-item {
+    flex: 0 0 auto;
+    width: 140px;
+    scroll-snap-align: start;
+    text-align: center;
+  }
+  .portrait-item img {
+    width: 140px; height: 140px; object-fit: cover;
+    border-radius: 14px;
+    border: 3px solid var(--paper);
+    box-shadow: var(--shadow-soft);
+    margin-bottom: .5rem;
+  }
+  .portrait-item .name { font-size: .88rem; font-weight: 700; }
+  .portrait-item .code { font-size: .74rem; color: var(--copper); }
+
+  /* TESTIMONIALS */
+  .testi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.2rem;
+  }
+  .testi-card {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 1.5rem 1.4rem;
+    box-shadow: var(--shadow-soft);
+  }
+  .stars { color: var(--copper); font-size: .9rem; margin-bottom: .6rem; letter-spacing: .1em; }
+  .testi-card p { font-size: .93rem; color: var(--ink); }
+  .testi-name { margin-top: .9rem; font-size: .82rem; color: var(--muted); font-style: italic; }
+
+  /* FINAL CTA */
+  .final-cta {
+    text-align: center;
+    background: radial-gradient(circle at 50% 0%, rgba(165,96,61,0.14), transparent 65%), var(--ivory);
+  }
+  .final-cta h2 { font-size: clamp(1.7rem, 4vw, 2.4rem); margin-bottom: 1rem; }
+  .final-cta p { color: var(--muted); max-width: 520px; margin: 0 auto 2rem; font-size: 1.05rem; }
+  .format-strip { display:flex; flex-wrap:wrap; gap:.6rem; justify-content:center; margin-top:1.3rem; }
+  .format-strip span { background:var(--paper); border:1px solid var(--line); border-radius:999px; padding:.45rem .9rem; font-size:.92rem; color:var(--ink); box-shadow:0 6px 16px rgba(65,46,28,.06); }
+  .price-tag { font-size: .95rem; color: var(--muted); margin-top: 1rem; }
+  .price-tag strong { color: var(--copper); font-size: 1.1rem; }
+
+  footer {
+    text-align: center;
+    padding: 2.4rem 0 3rem;
+    color: var(--muted);
+    font-size: .85rem;
+  }
+  footer a { color: var(--copper); text-decoration: none; }
+
+  .back-to-app {
+    position: fixed;
+    top: 0.9rem;
+    left: 0.9rem;
+    z-index: 100;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: var(--paper);
+    color: var(--ink);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 0.5rem 1rem;
+    font-family: Georgia, 'EB Garamond', serif;
+    font-size: 0.85rem;
+    text-decoration: none;
+    box-shadow: var(--shadow-soft);
+  }
+  .back-to-app:hover { background: var(--shell); }
+
+  .price-box { max-width: 460px; margin: 2rem auto 0; background: var(--paper); border: 1px solid var(--copper); border-radius: 16px; padding: 2rem 1.6rem; text-align: center; box-shadow: var(--shadow-soft); }
+  .price-box .amount { font-family: Georgia, serif; font-weight: 700; font-size: 3rem; color: var(--copper); line-height: 1; }
+  .price-box .sub { color: var(--muted); font-size: .9rem; margin: .4rem 0 1.2rem; }
+  .price-box ul { list-style: none; padding: 0; margin: 0 0 1.4rem; text-align: left; font-size: .95rem; line-height: 1.9; }
+  .price-box li::before { content: "\2713"; color: var(--copper); font-weight: 700; margin-right: .6rem; }
+  .faq { max-width: 640px; margin: 2rem auto 0; }
+  .faq details { border-bottom: 1px solid var(--line); padding: 1rem 0; }
+  .faq summary { cursor: pointer; font-weight: 700; font-size: 1rem; }
+  .faq p { color: var(--muted); font-size: .95rem; margin-top: .6rem; }
+
+  .probe { display:grid; grid-template-columns:200px 1fr; gap:1.6rem; background:var(--paper); border:1px solid var(--line); border-radius:18px; padding:1.6rem; box-shadow:var(--shadow-soft); max-width:860px; margin:2rem auto 0; position:relative; overflow:hidden; }
+  .probe img { width:200px; height:200px; object-fit:cover; border-radius:14px; }
+  .probe-meta { font-size:.78rem; letter-spacing:.1em; text-transform:uppercase; color:var(--copper); font-weight:700; }
+  .probe h3 { font-size:1.7rem; margin:.2rem 0 .1rem; }
+  .probe-sub { color:var(--muted); font-size:.95rem; margin:0 0 .9rem; }
+  .probe h4 { font-family:'EB Garamond',Georgia,serif; font-size:1.2rem; margin:.4rem 0 .4rem; color:var(--moss); }
+  .probe-text { max-height:4.6rem; overflow:hidden; position:relative; }
+  .probe-text p { margin:0 0 .8rem; }
+  .probe-text::after { content:""; position:absolute; left:0; right:0; bottom:0; height:4.5rem; background:linear-gradient(transparent, var(--paper)); }
+  .probe-tier { float:right; width:132px; margin:.2rem 0 .6rem 1.1rem; text-align:center; }
+  .probe-tier img { width:132px; height:132px; border-radius:50%; object-fit:cover; display:block; }
+  .probe-tier figcaption { font-size:.78rem; color:var(--muted); margin-top:.3rem; line-height:1.3; }
+  @media (max-width:640px) { .probe-tier { float:none; margin:.4rem auto .8rem; } }
+  .probe-more { max-width:860px; margin:1.2rem auto 0; color:var(--muted); font-size:.95rem; }
+  .probe-more li { margin:.15rem 0; }
+  @media (max-width:640px) { .probe { grid-template-columns:1fr; } .probe img { width:100%; height:auto; aspect-ratio:1/1; } }
+</style>
+</head>
+<body>
+
+  <a href="#" id="backToAppBtn" class="back-to-app">← Zurück zum Kompass</a>
+  <script>
+    document.getElementById('backToAppBtn').addEventListener('click', function (e) {
+      e.preventDefault();
+      if (window.history.length > 1) { window.history.back(); }
+      else { window.location.href = 'https://kompass.verlagshausrathmer.com/#dashboard'; }
+    });
+  </script>
+
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <img class="compass-spin" src="./favicon.svg" alt="Enneagramm-Kompass" />
+      <div class="eyebrow">Der günstige Einstieg ins Enneagramm-App-Universum · 39 € einmalig</div>
+      <h1 class="reveal is-visible">Das Enneagramm an <em>echten Menschen</em> verstehen – für 39 €</h1>
+      <p class="hero-sub reveal is-visible">Die Porträt-Edition ist eine interaktive App, kein Buch und kein E-Book. Sie zeigt dir an über 1.100 Lebensgeschichten, wie sich die 27 Subtypen im Alltag, in der Kunst und im Extremfall zeigen. Du öffnest sie im Browser auf Handy, Tablet oder Computer, stöberst, vergleichst und spielst. Ohne Abo, einmal bezahlt, für immer dabei.</p>
+      <div class="cta-row reveal is-visible">
+        <a class="btn btn-primary" href="https://buy.stripe.com/8x2aEX8oM8WufFUeDF4gg3O" target="_blank" rel="noopener">Porträt-Edition für 39 € starten →</a>
+        <a class="btn btn-ghost" href="#inhalt">Was enthalten ist</a>
+      </div>
+      <div class="format-strip reveal is-visible"><span>📱 Eine App, kein Buch</span><span>🌐 Läuft im Browser, nichts zu installieren</span><span>🃏 Interaktiv: Muster-Kompasse und Memory-Spiel</span></div>
+      <div class="price-tag reveal is-visible">Einmalig 39 € · jederzeit auf den Vollzugang erweiterbar, du zahlst nur die Differenz</div>
+    </div>
+  </section>
+
+  <section class="section-alt" id="inhalt">
+    <div class="wrap">
+      <div class="kicker reveal">Das bekommst du</div>
+      <h2 class="section-title reveal">Ein Kompass aus Lebensgeschichten</h2>
+      <p class="section-lead reveal">Theorie bleibt abstrakt, bis man sie an einem Menschen sieht. Deshalb lernst du das Enneagramm hier über Porträts: Jede Person ist bis auf den Subtyp gedeutet, mit Belegen aus ihrer Biografie.</p>
+      <div class="feature-grid reveal">
+        <div class="feature-card"><span class="ico">🎭</span><h3>Berühmte Persönlichkeiten</h3><p>Menschen aus Wissenschaft, Kunst, Musik, Sport und Geschichte, jeweils als Enneagramm-Spiegel gedeutet.</p></div>
+        <div class="feature-card"><span class="ico">🕵️</span><h3>Kriminalpsychologie</h3><p>Fallanalysen, die zeigen, wie ein Muster in seiner ungesunden Ausprägung aussehen kann, ohne etwas zu entschuldigen.</p></div>
+        <div class="feature-card"><span class="ico">🩺</span><h3>Krankheitsporträts</h3><p>Wie Lebensmuster und Krankheitsverläufe zusammenhängen können, ohne Vorhersage und ohne Schuldzuweisung.</p></div>
+        <div class="feature-card"><span class="ico">🔮</span><h3>Astrologie- und Bibel-Porträts</h3><p>Bekannte Persönlichkeiten im astrologischen Spiegel und biblische Gestalten als Typen gelesen.</p></div>
+        <div class="feature-card"><span class="ico">🧭</span><h3>Drei Muster-Kompasse</h3><p>Lebensmuster, Krankheitsmuster und Kriminalmuster je Subtyp: Was sich über viele Porträts hinweg zeigt.</p></div>
+        <div class="feature-card"><span class="ico">🃏</span><h3>Memory-Spiel</h3><p>Gesichter und Blickqualitäten spielerisch lernen und das eigene Auge für Typen schulen.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portraits">
+    <div class="wrap">
+      <div class="kicker reveal">Ein Blick hinein</div>
+      <h2 class="section-title reveal">Porträts, die im Gedächtnis bleiben</h2>
+      <p class="section-lead reveal">Jedes Porträt nennt den Subtyp und begründet ihn. Dazu kommen laufend neue Personen, ohne Aufpreis.</p>
+      <div class="portrait-strip reveal"><div class="portrait-item"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-james-corden-portrait.jpg" alt="James Corden" loading="lazy" /><div class="name">James Corden</div><div class="code">SO6w7</div></div><div class="portrait-item"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jodie-foster-portrait.jpg" alt="Jodie Foster" loading="lazy" /><div class="name">Jodie Foster</div><div class="code">SX5w6</div></div><div class="portrait-item"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-tilda-swinton-portrait.jpg" alt="Tilda Swinton" loading="lazy" /><div class="name">Tilda Swinton</div><div class="code">SX5w4</div></div><div class="portrait-item"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-woody-allen-portrait.jpg" alt="Woody Allen" loading="lazy" /><div class="name">Woody Allen</div><div class="code">SE6w7</div></div><div class="portrait-item"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-malaika-mihambo-portrait.jpg" alt="Malaika Mihambo" loading="lazy" /><div class="name">Malaika Mihambo</div><div class="code">SE6w5</div></div><div class="portrait-item"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-andy-reid-portrait.jpg" alt="Andy Reid" loading="lazy" /><div class="name">Andy Reid</div><div class="code">SO6w5</div></div></div>
+    </div>
+  </section>
+
+
+  <section class="section-alt" id="probe">
+    <div class="wrap">
+      <div class="kicker reveal">Zum Probelesen</div>
+      <h2 class="section-title reveal">So liest sich ein Porträt</h2>
+      <p class="section-lead reveal">Als Beispiel Muhammad Ali. Jedes Porträt ist gleich aufgebaut: das Tier des Subtyps, die Begründung des Typs, der Flügel, Licht und Schatten, dazu Belege aus der Biografie. Hier der Anfang.</p>
+      <article class="probe reveal">
+        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-muhammad-ali-portrait.jpg" alt="Muhammad Ali – Porträt" loading="lazy" />
+        <div>
+          <div class="probe-meta">SO2w1 · Sozialer Typ 2 mit Einserflügel</div>
+          <h3>Muhammad Ali</h3>
+          <p class="probe-sub">US-amerikanischer Boxweltmeister und Bürgerrechtler, 1942–2016 · Tierentsprechung: Golden Retriever</p>
+          <h4>1. Der Golden Retriever</h4>
+          <figure class="probe-tier"><img src="./assets/so2-tier.jpg" alt="Golden Retriever, Tierentsprechung der sozialen Zwei" loading="lazy" /><figcaption>Tierentsprechung: Golden Retriever</figcaption></figure>
+          <p>Der Golden Retriever ist das Tier der sozialen Zwei, ein Tier, dessen Auftreten Räume größer macht und das seine Kraft für alle um sich herum einsetzt, nicht nur für sich selbst. Kaum jemand hat diese Doppelnatur so sichtbar gemacht wie Muhammad Ali: der lauteste, selbstbewussteste Sportler seiner Zeit und zugleich einer, der seine öffentliche Bühne konsequent für die Sache der schwarzen Bevölkerung Amerikas einsetzte.</p>
+          <p>Cassius Marcellus Clay Jr. wurde am 17. Januar 1942 in Louisville, Kentucky, geboren, in einer Zeit und an einem Ort, in der Rassentrennung Alltag war. 1964 gewann er als 22-Jähriger den Weltmeistertitel im Schwergewicht, trat der Nation of Islam bei und nahm den Namen Muhammad Ali an, ein Bruch mit dem, was von einem jungen schwarzen Boxer erwartet wurde.</p>
+          <h4>2. Die soziale Zwei: Der eigene Ruhm im Dienst einer ganzen Gemeinschaft</h4>
+          <p>Die soziale Zwei (SO2) lenkt ihre Fürsorge nicht auf einzelne Beziehungen, sondern auf gesellschaftliche Wirksamkeit. Naranjo nannte diesen Subtyp Ambition: den Antrieb, durch Einfluss und öffentliche Präsenz für ein ganzes Kollektiv zu sorgen. Alis berühmter Ausspruch zu seiner Kriegsdienstverweigerung […] macht diesen Antrieb explizit: Sein Widerstand galt nicht der eigenen Sicherheit, sondern der Ungerechtigkeit gegenüber einer ganzen Bevölkerungsgruppe.</p>
+          <p>1974 kämpfte Ali beim legendären Rumble in the Jungle in Kinshasa, Zaire, gegen George Foreman, um den Weltmeistertitel zurückzugewinnen, ein Ereignis, das weit über den Sport hinausging und als Feier schwarzen Selbstbewusstseins und schwarzer Größe verstanden wurde. Ali nutzte seine Bühne, wo immer er konnte, um eine ganze Gemeinschaft sichtbar zu machen, nicht nur sich selbst.</p>
+          <h4>3. Der Einserflügel: Prinzipientreue trotz höchstem persönlichen Preis</h4>
+          <p>Der Einserflügel (w1) gibt der sozialen Zwei eine innere Achse aus moralischer Überzeugung, die auch dann nicht wankt, wenn sie alles kostet. 1967 verweigerte Ali als amtierender Weltmeister öffentlich den Militärdienst im Vietnamkrieg, eine Entscheidung, die ihm den Titel, seinen Pass und die Boxlizenz kostete, ihn in die prozessuale Unsicherheit einer Verurteilung stürzte und ihn mitten in seinen sportlich stärksten Jahren aus dem Ring verbannte.</p>
+          <div class="probe-text"><p>Über vier Jahre lang, bis das Oberste Gericht der USA seine Verurteilung 1971 aufhob, blieb Ali seiner Haltung treu, obwohl ihm die Rückkehr längst hätte einfacher gemacht werden können. Der Einserflügel zeigt sich hier in seiner reinsten Form: Prinzip vor Vorteil, auch wenn der Preis die eigene Karriere in ihrer produktivsten Phase war.</p></div>
+        </div>
+      </article>
+      <div class="probe-more reveal">
+        <strong>Es geht weiter mit:</strong>
+        <ul>
+          <li>4. Licht und Schatten der sozialen Zwei</li>
+          <li>5. Das Werk: Vom lautesten Boxer der Welt zum weltweiten Botschafter der Würde</li>
+        </ul>
+      </div>
+      <div class="cta-row reveal" style="justify-content:center;margin-top:1.4rem;">
+        <a class="btn btn-primary" href="https://buy.stripe.com/8x2aEX8oM8WufFUeDF4gg3O" target="_blank" rel="noopener">Weiterlesen: Porträt-Edition für 39 € →</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="aufstocken">
+    <div class="wrap">
+      <div class="kicker reveal">Jederzeit mehr</div>
+      <h2 class="section-title reveal">Später aufstocken: nur die Differenz zahlen</h2>
+      <p class="section-lead reveal">Du musst dich heute nicht für alles entscheiden. Starte mit der Porträt-Edition und erweitere sie später direkt in der App auf den Vollzugang. Du zahlst dann nur den Unterschied, nicht den vollen Preis noch einmal.</p>
+      <div class="feature-grid reveal">
+        <div class="feature-card"><span class="ico">1️⃣</span><h3>Heute: Porträt-Edition für 39 €</h3><p>Über 1.100 Porträts, die drei Muster-Kompasse und das Memory-Spiel, sofort nutzbar.</p></div>
+        <div class="feature-card"><span class="ico">2️⃣</span><h3>Später: in der App erweitern</h3><p>Unter „Auf den Vollzugang erweitern“ geht es in der App weiter. Alles, was du hast, bleibt dir erhalten.</p></div>
+        <div class="feature-card"><span class="ico">3️⃣</span><h3>Du zahlst nur 40 €</h3><p>Der Vollzugang kostet 79 €, deine 39 € werden angerechnet. Zusammen zahlst du also genau 79 €, nie mehr.</p></div>
+      </div>
+      <p class="reveal" style="text-align:center;margin-top:1.6rem;"><a class="btn btn-ghost" href="vorstellung.html#zwei-wege">Was der Vollzugang zusätzlich bietet</a></p>
+    </div>
+  </section>
+
+  <section class="section-alt" id="testimonials">
+    <div class="wrap">
+      <div class="kicker reveal">Stimmen aus der Community</div>
+      <h2 class="section-title reveal">Was Nutzer:innen sagen</h2>
+      <div class="testi-grid reveal">
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>„Faszinierend, packend und psychologisch tiefgründig! Das absolute Highlight dieser App sind für mich die Kriminalfälle! Es ist unglaublich spannend zu sehen, wie die Persönlichkeitsstrukturen der Täter aufgeschlüsselt werden. Man lernt durch das Enneagramm endlich wirklich nachzuvollziehen, warum ein Täter so handelt, wie er handelt. Die tiefen Motivationen und Ängste so hautnah an Beispielen zu verstehen, ist absolut faszinierend. Die perfekte Mischung aus psychologischem Tiefgang und echtem True-Crime-Nervenkitzel. Absolute Empfehlung!“</p>
+          <div class="testi-name">— Markus B.</div>
+        </div>
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>„Besonders spannend finde ich den Bereich Kriminalpsychologie. Anhand realer Kriminalfälle sieht man noch einmal sehr deutlich, wie sich die verschiedenen Typen in extremen und ungesunden Ausprägungen zeigen können. Ich würde mich künftig noch über weitere Kriminalfälle und mehr bekannte Persönlichkeiten als Beispiele freuen. Insgesamt ist das Ganze aber bereits sehr umfangreich, durchdacht und nahezu perfekt umgesetzt. Von mir gibt es deshalb klare fünf Sterne.“</p>
+          <div class="testi-name">— Thorsten S.</div>
+        </div>
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>„Ich nutze diese App nun seit vier Wochen und bin schlichtweg begeistert. Was hier an tiefgreifenden Erkenntnissen, Zusammenhängen und psychologischen sowie evolutionären Hintergründen zusammengetragen wurde, habe ich in dieser Form noch in keinem Buch und auf keiner anderen Plattform gelesen. Es ist schlicht erstaunlich, wie schlüssig und greifbar hier alles miteinander verlinkt ist.“</p>
+          <div class="testi-name">— Peter K.</div>
+        </div>
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>„Unglaubliches Insiderwissen! Wahnsinn, was man hier für sein Geld geboten bekommt. Diese App ist eine Fülle von Impulsen, die man sonst nirgends lesen kann. Man merkt sofort, wie tief das Thema geht – das ist eine echte eigene Wissenschaft. Ich bin einfach nur sprachlos!“</p>
+          <div class="testi-name">— Carsten W.</div>
+        </div>
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>„Ich nutze die App jetzt seit dem ersten Tag und bin schockiert, wie viel Wissen hier komprimiert wurde. Es fühlt sich an wie eine riesige Enneagramm-Bibliothek direkt in meiner Hosentasche.“</p>
+          <div class="testi-name">— Maria S.</div>
+        </div>
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>„Die Enneagramm-Kompass App ist genau das, worauf die Community gewartet hat. Die Navigation ist super intuitiv und die Inhalte gehen richtig in die Tiefe, ohne einen zu erschlagen. Ich habe direkt in der ersten Nacht Stunden darin verbracht …“</p>
+          <div class="testi-name">— Sabine K.</div>
+        </div>
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>„Ein tolles Kompendium zum Thema Enneagramm jetzt als App. Einfach eine grandiose Idee! Und gefühlt kommen täglich neue Übersichten und Erkenntnisse hinzu. Vielen Dank für die ausführlichen Erläuterungen zur Selbsterkenntnis.“</p>
+          <div class="testi-name">— Marc K.</div>
+        </div>
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>„Tolle App, bin wirklich begeistert. Ich beschäftige mich seit mehreren Jahren mit dem Enneagramm, aber einen solchen Wissenszuwachs in so kurzer Zeit hätte nicht erwartet. Großes Lob an die Entwickler👏“</p>
+          <div class="testi-name">— Carina T.</div>
+        </div>
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>„Die App ist einfach nur klasse! Was ich damit seit wenigen Tagen gelernt habe, ist der absolute Wahnsinn, würde ich immer wieder kaufen, mittlerweile ist sie ein treuer Begleiter durch meinen Alltag, danke!!“</p>
+          <div class="testi-name">— Michael W.</div>
+        </div>
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>„Ich bin auch begeistert von der App ♥️ So schnell einen typgerechten Zugang zu bekommen … einfach toll.“</p>
+          <div class="testi-name">— Birgit H.</div>
+        </div>
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>„Danke für die enorme Vielfalt und die liebevolle Gestaltung dieser App🙏“</p>
+          <div class="testi-name">— Sara</div>
+        </div>
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>„Einfach nur klasse! Herzlichen Dank für die tolle App, unvergleichlich!!“</p>
+          <div class="testi-name">— Wilfried M.</div>
+        </div>
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>„Was für eine Fülle! Sensationell.“</p>
+          <div class="testi-name">— Roland</div>
+        </div>
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>„Super App👏Danke🙏“</p>
+          <div class="testi-name">— Gustav A.</div>
+        </div>
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>„Sehr gut, herzlichen Dank👍“</p>
+          <div class="testi-name">— Franz K.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="preis">
+    <div class="wrap">
+      <div class="kicker reveal">Der Preis</div>
+      <h2 class="section-title reveal">39 € statt Abo</h2>
+      <div class="price-box reveal">
+        <div class="amount">39 €</div>
+        <p class="sub">einmalig · lebenslanger Zugang</p>
+        <ul>
+          <li>Über 1.100 Porträts in fünf Rubriken</li>
+          <li>Die drei Muster-Kompasse</li>
+          <li>Das Enneagramm-Memory</li>
+          <li>Alle künftigen Porträts inklusive</li>
+          <li>Jederzeit aufstockbar: nur 40 € Differenz zum Vollzugang</li>
+          <li>Kein Abo, keine Folgekosten</li>
+        </ul>
+        <a class="btn btn-primary" href="https://buy.stripe.com/8x2aEX8oM8WufFUeDF4gg3O" target="_blank" rel="noopener">Porträt-Edition für 39 € starten →</a>
+      </div>
+      <p class="reveal" style="text-align:center;color:var(--muted);font-size:.9rem;margin-top:1.5rem;">Später mehr? Du kannst in der App jederzeit auf den Vollzugang erweitern und zahlst nur die Differenz von 40 €.</p>
+    </div>
+  </section>
+
+  <section class="section-alt" id="faq">
+    <div class="wrap">
+      <div class="kicker reveal">Gut zu wissen</div>
+      <h2 class="section-title reveal">Häufige Fragen</h2>
+      <div class="faq reveal">
+        <details open><summary>Ist das ein Buch oder ein E-Book?</summary><p>Nein. Die Porträt-Edition ist eine interaktive App. Du öffnest sie im Browser deines Handys, Tablets oder Computers und klickst dich durch Porträts, Muster-Kompasse und das Memory-Spiel. Es genügt ein Browser, es ist nichts zu installieren.</p></details>
+        <details><summary>Ist das ein Abo?</summary><p>Nein. Du zahlst einmal 39 € und hast lebenslangen Zugang, auch zu den künftigen Porträts.</p></details>
+        <details><summary>Was ist der Unterschied zum Vollzugang?</summary><p>Der Vollzugang (79 €) ergänzt die Porträt-Edition um die 27 Subtyp-Profile, die subtypgenauen Heilmittel, die Typentests, Hunderte Schaubilder und die Praxistipps.</p></details>
+        <details><summary>Kann ich später auf den Vollzugang erweitern?</summary><p>Ja, jederzeit und direkt in der App. Du zahlst nur die Differenz von 40 €, denn deine 39 € werden angerechnet. Es gibt keinen Aufschlag und keine Frist.</p></details>
+        <details><summary>Brauche ich Vorkenntnisse?</summary><p>Nein. Die Porträts sind ein Einstieg, an Menschen, die du kennst, lernst du die Typen ohne Fachbuch.</p></details>
+        <details><summary>Wird in den Kriminalporträts etwas entschuldigt?</summary><p>Nein. Das Enneagramm beschreibt ein Muster und erklärt, es rechtfertigt nichts. Die Porträts stützen sich auf dokumentierte Quellen und sagen nicht, dass ein Subtyp zu Gewalt neigt.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="final-cta">
+    <div class="wrap">
+      <h2 class="reveal">Mit einer Lebensgeschichte anfangen</h2>
+      <p class="reveal">39 € einmalig, kein Abo, lebenslanger Zugang. Die Porträts warten.</p>
+      <div class="cta-row reveal">
+        <a class="btn btn-primary" href="https://buy.stripe.com/8x2aEX8oM8WufFUeDF4gg3O" target="_blank" rel="noopener">Porträt-Edition für 39 € starten →</a>
+        <a class="btn btn-ghost" href="vorstellung.html#zwei-wege">Was der Vollzugang zusätzlich bietet</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      Enneagramm-Heilungskompass · nach dem Modell von David L. &amp; Detlef Rathmer<br />
+      <a href="https://kompass.verlagshausrathmer.com" target="_blank" rel="noopener">kompass.verlagshausrathmer.com</a>
+    </div>
+  </footer>
+
+<script>
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if (e.isIntersecting) { e.target.classList.add("is-visible"); io.unobserve(e.target); }
+    });
+  }, { threshold: 0.15 });
+  document.querySelectorAll(".reveal").forEach(function(el){ io.observe(el); });
+</script>
+
+</body>
+</html>

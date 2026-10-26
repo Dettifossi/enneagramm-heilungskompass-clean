@@ -1,4 +1,4 @@
-import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft } from "../../bundle.js";
+const { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft } = window.__kh;
 
 export function adeleKrankheitsportraetPage() {
   return shell(`
@@ -10,11 +10,11 @@ export function adeleKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-adele-portrait.jpg" alt="Adele" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Adele</p>
-        <p class="krim-portrait-typ">SE4w3 · Self-Preservation Type 4 with Three-Wing · b. 1988</p>
+        <p class="krim-portrait-typ">SP4w3 · Self-Preservation Type 4 with Three-Wing · b. 1988</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Dove</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Animal correspondence: Dove" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Animal correspondence: Dove" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP4")};left:${tierAvatarLeft("SP4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -28,7 +28,7 @@ export function adeleKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
         <strong>Adele</strong> is assigned to the <strong>self-preservation Type 4 with
-        Three-Wing</strong>. The SE4 carries its pain quietly, fighting it out alone before
+        Three-Wing</strong>. The SP4 carries its pain quietly, fighting it out alone before
         showing it; the Three-Wing adds the discipline to keep functioning flawlessly
         outwardly regardless. Exactly this combination – inner collapse alongside a
         flawlessly functioning public facade – shaped the years-long hidden course of her
@@ -99,8 +99,8 @@ export function adeleKrankheitsportraetPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
         <p class="vb-intro"><strong>a) A quiet fight rather than a public complaint:</strong>
-        The SE4's characteristic tenacity showed exemplarily: Adele fought the postnatal
-        depression alone for years rather than making it public – the SE4 logic of not
+        The SP4's characteristic tenacity showed exemplarily: Adele fought the postnatal
+        depression alone for years rather than making it public – the SP4 logic of not
         complaining, but speaking only once the pain has been processed and given a form.</p>
         <p class="vb-intro"><strong>b) The Three-Wing and the flawless facade:</strong>
         The same discipline that turns her concerts and albums into commercial world
@@ -109,7 +109,7 @@ export function adeleKrankheitsportraetPage() {
         <p class="vb-intro"><strong>c) Processing through form, not confession:</strong>
         Adele's path out of the crisis did not run through a spontaneous public confession,
         but through transforming what she had lived through into a finished artistic work –
-        the typical SE4w3 movement from a quiet inner life to an effective outer form.</p>
+        the typical SP4w3 movement from a quiet inner life to an effective outer form.</p>
       </div>
 
       <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
@@ -121,9 +121,9 @@ export function adeleKrankheitsportraetPage() {
         <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
         A parallel appears with
         <a href="javascript:void(0)" data-route="krankheitsportraets-lady-diana">Lady Diana
-        (SE4w3)</a>: Diana too concealed her illness – in her case, bulimia – for years
+        (SP4w3)</a>: Diana too concealed her illness – in her case, bulimia – for years
         behind a flawlessly functioning public facade, before addressing it herself years
-        later. Both SE4w3s show the same pattern: the inner battle stays hidden until it can
+        later. Both SP4w3s show the same pattern: the inner battle stays hidden until it can
         be given a controlled, self-chosen form.</p>
         <p class="vb-intro"><strong>c) Why after childbirth, of all moments, the moment of greatest expected closeness?</strong>
         For a self-preservation Four with a Three-Wing whose entire work revolves around
@@ -137,9 +137,7 @@ export function adeleKrankheitsportraetPage() {
         postnatal depression – <strong>any person can develop any illness, regardless of
         subtype.</strong> What can be shown in Adele's case is a pattern in dealing with a
         psychological crisis that keeps recurring in a pronounced self-preservation Four with
-        a Three-Wing – one of many possible readings, not a verdict. The corresponding illness
-        pattern is being developed gradually in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        a Three-Wing – one of many possible readings, not a verdict. The illness has its own entry in this Compass's Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/depression">Depression</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
         Adele does not know her own pattern as an Enneagram structure – the self-preservation
         Four with a Three-Wing reflexively clings to showing its own pain only once it has
@@ -161,10 +159,11 @@ export function adeleKrankheitsportraetPage() {
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"beruehmte-adele", label:"Portrait: Adele (SE4w3)"},
-        {route:"krankheitsportraets-lady-diana", label:"Illness Portrait: Lady Diana (SE4w3) – same subtype"},
+        {route:"beruehmte-adele", label:"Portrait: Adele (SP4w3)"},
+        {route:"krankheitsportraets-lady-diana", label:"Illness Portrait: Lady Diana (SP4w3) – same subtype"},
+        {route:"krankheitsportraets-edith-piaf", label:"Édith Piaf (SP4w3) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
-        {route:"subtype/se4", label:"Subtype Profile SE4"},
+        {route:"subtype/se4", label:"Subtype Profile SP4"},
       ])}
     </div>
   `);
@@ -335,11 +334,11 @@ export function charlesDarwinKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-charles-darwin-portrait.jpg" alt="Charles Darwin" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Charles Darwin</p>
-        <p class="krim-portrait-typ">SE5w6 · Self-Preservation Type 5 with Six-wing · 1809–1882</p>
+        <p class="krim-portrait-typ">SP5w6 · Self-Preservation Type 5 with Six-wing · 1809–1882</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Owl</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se5.jpg" alt="Animal correspondence: Owl" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE5")};left:${tierAvatarLeft("SE5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se5.jpg" alt="Animal correspondence: Owl" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP5")};left:${tierAvatarLeft("SP5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -387,7 +386,7 @@ export function charlesDarwinKrankheitsportraetPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
         <p class="vb-intro"><strong>a) A life on a strict rhythm:</strong>
         Fixed working hours, a daily walk through the garden, the <em>Sandwalk</em>, hardly
-        any spontaneous interruptions – the SE5's Castle lives on predictability as a source
+        any spontaneous interruptions – the SP5's Castle lives on predictability as a source
         of energy.</p>
         <p class="vb-intro"><strong>b) Knowledge as the only reliable safety:</strong>
         Darwin spent eight years alone on a monographic study of barnacles before venturing
@@ -409,7 +408,7 @@ export function charlesDarwinKrankheitsportraetPage() {
         that nearly let Alfred Russel Wallace beat him to a nearly identical theory.</p>
         <p class="vb-intro"><strong>c) Persuasion through mass rather than volume:</strong>
         Not a single flash of insight but a nearly irrefutable mountain of observations was
-        Darwin's actual argument – the SE5w6 at its most productive.</p>
+        Darwin's actual argument – the SP5w6 at its most productive.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -451,17 +450,17 @@ export function charlesDarwinKrankheitsportraetPage() {
         <p class="vb-intro"><strong>b) The water cure as a ritual of control:</strong>
         Darwin repeatedly underwent elaborate hydrotherapy treatments at specialized
         clinics – strictly scheduled applications of cold water, wraps, and baths on a fixed
-        regimen. This is the Six-wing within the illness itself: even the treatment had to be
+        regimen. Here we see the Six-wing within the illness itself: even the treatment had to be
         comprehensibly structured and controllable.</p>
         <p class="vb-intro"><strong>c) Withdrawal as a double necessity:</strong>
-        The illness gave Darwin an additional, unassailable reason for the retreat the SE5's
+        The illness gave Darwin an additional, unassailable reason for the retreat the SP5's
         Castle demanded anyway – whether as cause or consequence of the withdrawn life is
         hardly separable in hindsight. Both reinforced each other over decades.</p>
         <p class="vb-intro"><strong>d) A parallel within the same subtype:</strong>
         <a href="javascript:void(0)" data-route="beruehmte-marie-curie">Marie Curie</a>
-        (SE5w6) likewise consistently subordinated her own body to the work, until a chronic
+        (SP5w6) likewise consistently subordinated her own body to the work, until a chronic
         illness – radiological in her case, never clearly resolved in Darwin's – became a
-        fixed part of life. Both cases show the same SE5 pattern: the body is declared
+        fixed part of life. Both cases show the same SP5 pattern: the body is declared
         secondary as long as the actual work in the refuge continues.</p>
         <p class="vb-intro"><strong>e) Why the stomach, of all places?</strong>
         The digestive tract is the body's actual boundary to the outside world: it decides
@@ -498,11 +497,11 @@ export function charlesDarwinKrankheitsportraetPage() {
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"beruehmte-charles-darwin", label:"Portrait: Charles Darwin (SE5w6) – life's work"},
-        {route:"beruehmte-marie-curie", label:"Portrait: Marie Curie (SE5w6)"},
-        {route:"krankheitsportraets-marie-curie", label:"Illness Portrait: Marie Curie (SE5w6)"},
+        {route:"beruehmte-charles-darwin", label:"Portrait: Charles Darwin (SP5w6) – life's work"},
+        {route:"beruehmte-marie-curie", label:"Portrait: Marie Curie (SP5w6)"},
+        {route:"krankheitsportraets-marie-curie", label:"Illness Portrait: Marie Curie (SP5w6)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
-        {route:"subtype/se5", label:"Subtype Profile SE5"},
+        {route:"subtype/se5", label:"Subtype Profile SP5"},
       ])}
     </div>
   `);
@@ -518,11 +517,11 @@ export function davidHumeKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-david-hume-portrait.jpg" alt="David Hume" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">David Hume</p>
-        <p class="krim-portrait-typ">SE9w8 · Self-Preservation Type 9 with Eight-wing · 1711–1776</p>
+        <p class="krim-portrait-typ">SP9w8 · Self-Preservation Type 9 with Eight-wing · 1711–1776</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Elephant</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Animal correspondence: Elephant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE9")};left:${tierAvatarLeft("SE9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Animal correspondence: Elephant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP9")};left:${tierAvatarLeft("SP9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -664,12 +663,14 @@ export function davidHumeKrankheitsportraetPage() {
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"beruehmte-david-hume", label:"Portrait: David Hume (SE9w8) – life's work"},
-        {route:"krankheitsportraets-johannes-brahms", label:"Illness Portrait: Johannes Brahms (SE9w8) – the same elephant-like calm"},
-        {route:"krankheitsportraets-hans-dietrich-genscher", label:"Illness Portrait: Hans-Dietrich Genscher (SE9w8) – same subtype"},
-        {route:"beruehmte-james-levine", label:"Portrait: James Levine (SE9w1)"},
+        {route:"beruehmte-david-hume", label:"Portrait: David Hume (SP9w8) – life's work"},
+        {route:"krankheitsportraets-johannes-brahms", label:"Illness Portrait: Johannes Brahms (SP9w8) – the same elephant-like calm"},
+        {route:"krankheitsportraets-hans-dietrich-genscher", label:"Illness Portrait: Hans-Dietrich Genscher (SP9w8) – same subtype"},
+        {route:"beruehmte-james-levine", label:"Portrait: James Levine (SP9w1)"},
+        {route:"krankheitsportraets-charles-laughton", label:"Charles Laughton (SP9w8) – illness portrait"},
+        {route:"krankheitsportraets-margaret-rutherford", label:"Margaret Rutherford (SP9w8) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
-        {route:"subtype/se9", label:"Subtype Profile SE9"},
+        {route:"subtype/se9", label:"Subtype Profile SP9"},
       ])}
     </div>
   `);
@@ -685,11 +686,11 @@ export function fjodorDostojewskiKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-fjodor-dostojewski-portrait.jpg" alt="Fjodor Dostoevsky – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Fjodor Dostoevsky</p>
-        <p class="krim-portrait-typ">SE6w5 · Self-Preservation Type 6 with Five-wing · 1821–1881</p>
+        <p class="krim-portrait-typ">SP6w5 · Self-Preservation Type 6 with Five-wing · 1821–1881</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Rabbit</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se6.jpg" alt="Animal correspondence: Rabbit" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE6")};left:${tierAvatarLeft("SE6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se6.jpg" alt="Animal correspondence: Rabbit" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP6")};left:${tierAvatarLeft("SP6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -736,7 +737,7 @@ export function fjodorDostojewskiKrankheitsportraetPage() {
         his entire body of work.</p>
         <p class="vb-intro"><strong>b) Worsening under existential pressure:</strong>
         Seizures increased during periods of extreme strain – during forced labor in Siberia,
-        during the years of gambling addiction, during financial hardship. The SE6 responds to
+        during the years of gambling addiction, during financial hardship. The SP6 responds to
         threat with heightened vigilance, which here translated directly into the body.</p>
         <p class="vb-intro"><strong>c) Literary processing as a constant:</strong>
         The illness appears in some form in nearly every major Dostoevsky novel – not as a
@@ -784,7 +785,7 @@ export function fjodorDostojewskiKrankheitsportraetPage() {
         literature – both flowed directly into each other, without distance.</p>
         <p class="vb-intro"><strong>c) The aura as brief, deceptive safety:</strong>
         The short feeling of absolute certainty before the seizure may itself have given
-        Dostoevsky a measure for those moments of complete inner peace the SE6 spends her
+        Dostoevsky a measure for those moments of complete inner peace the SP6 spends her
         whole life seeking – even if bought at a steep physical price.</p>
       </div>
 
@@ -803,10 +804,10 @@ export function fjodorDostojewskiKrankheitsportraetPage() {
         whose seizures are modeled word for word on Dostoevsky's own experiences.</p>
         <p class="vb-intro"><strong>d) A parallel within the same subtype:</strong>
         <a href="javascript:void(0)" data-route="beruehmte-franz-schubert">Franz Schubert</a>
-        (SE6w5) likewise processed his fatal illness not in secret but within a circle of
+        (SP6w5) likewise processed his fatal illness not in secret but within a circle of
         trust – for Schubert, the friends of the Schubertiades, to whom he sang <em>Winterreise</em>
         and asked how it made them feel; for Dostoevsky, the readers of his novels, to whom he
-        communicated his illness through his characters. Both cases show the same SE6w5
+        communicated his illness through his characters. Both cases show the same SP6w5
         pattern: fear and suffering are not endured in isolation but shared in community –
         whether real or literary – and thereby made bearable.</p>
         <p class="vb-intro"><strong>e) Why this illness, of all things?</strong>
@@ -825,9 +826,7 @@ export function fjodorDostojewskiKrankheitsportraetPage() {
         <strong>every person can develop any illness, regardless of subtype.</strong> What
         Dostoevsky's case can show is a pattern that stands out again and again in practice
         wherever existential fear is immediately processed into literature – one possible
-        explanation among many, not a verdict. The corresponding condition will be developed
-        step by step in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        explanation among many, not a verdict. The illness has its own entry in this Compass's Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/epilepsie">Epilepsy</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>g) The Unconscious Fixation as a Further Factor:</strong>
         Dostoevsky did not know his own pattern – yet the self-preservation Six, who seeks safety in a familiar frame, found in the ever-recurring epileptic seizures a paradoxical anchor point that he transferred directly into his fictional characters, rather than experiencing the illness purely as threat. That, too, is a form of unconscious pattern integration: not struggle, but processing within one's own work.</p>
       </div>
@@ -847,10 +846,10 @@ export function fjodorDostojewskiKrankheitsportraetPage() {
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fjodor Dostoevsky (SE6w5) – life's work"},
-        {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SE6w5)"},
+        {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fjodor Dostoevsky (SP6w5) – life's work"},
+        {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SP6w5)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
-        {route:"subtype/se6", label:"Subtype Profile SE6"},
+        {route:"subtype/se6", label:"Subtype Profile SP6"},
       ])}
     </div>
   `);
@@ -1019,6 +1018,9 @@ export function freddieMercuryKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-freddie-mercury", label:"Portrait: Freddie Mercury (SX4w3) – life's work"},
         {route:"krankheitsportraets-billie-eilish", label:"Illness Portrait: Billie Eilish (SX4w3) – same subtype"},
+        {route:"beruehmte-charlie-chaplin", label:"Portrait: Charlie Chaplin (SX4w3)"},
+        {route:"beruehmte-prince-rogers-nelson", label:"Portrait: Prince Rogers Nelson (SX4w3)"},
+        {route:"krankheitsportraets-prince", label:"Prince (SX4w3) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx4", label:"Subtype Profile SX4"},
       ])}
@@ -1872,7 +1874,7 @@ export function juliusCaesarKrankheitsportraetPage() {
         mission, no public acknowledgment of his own limits, immediate return to full control.</p>
         <p class="vb-intro"><strong>c) Confrontation through concealment rather than retreat:</strong>
         Unlike Ludwig van Beethoven (SX6w5), who openly fought his illness, or Franz Schubert
-        (SE6w5), who withdrew, Caesar – much like his later SO2w3 counterpart Napoleon
+        (SP6w5), who withdrew, Caesar – much like his later SO2w3 counterpart Napoleon
         Bonaparte – chose a third path: concealing his own illness so completely that it
         simply did not exist within his public image.</p>
         <p class="vb-intro"><strong>d) Why a breakdown of control, of all things?</strong>
@@ -1934,11 +1936,11 @@ export function ladyDianaKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-lady-diana-portrait.jpg" alt="Lady Diana" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Lady Diana</p>
-        <p class="krim-portrait-typ">SE4w3 · Self-Preservation Type 4 with Three-wing · 1961–1997</p>
+        <p class="krim-portrait-typ">SP4w3 · Self-Preservation Type 4 with Three-wing · 1961–1997</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Dove</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Animal correspondence: Dove" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Animal correspondence: Dove" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP4")};left:${tierAvatarLeft("SP4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -1953,7 +1955,7 @@ export function ladyDianaKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
         <strong>Diana</strong> is classified as the <strong>Self-Preservation Four with
-        Three-wing</strong>. Unlike other Four subtypes, SE4 does not carry its suffering
+        Three-wing</strong>. Unlike other Four subtypes, SP4 does not carry its suffering
         outward but endures it silently while showing strength on the outside. The Three-wing
         gives her the ability to turn her own experience into public effectiveness – exactly
         this tension between hidden suffering and a flawless public facade also shapes
@@ -2027,7 +2029,7 @@ export function ladyDianaKrankheitsportraetPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
         <p class="vb-intro"><strong>a) Tenacious beneath the surface:</strong>
-        The very SE4-typical tenacity with which Diana carried the suffering alone for years
+        The very SP4-typical tenacity with which Diana carried the suffering alone for years
         also made it harder to recognize for a circle that preferred to look away.</p>
         <p class="vb-intro"><strong>b) Intensified by Camilla:</strong>
         Diana described herself that both the bulimia and the self-harm intensified whenever
@@ -2082,11 +2084,14 @@ export function ladyDianaKrankheitsportraetPage() {
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SE4w3) – life's work"},
-        {route:"krankheitsportraets-adele", label:"Illness Portrait: Adele (SE4w3) – same subtype"},
-        {route:"krankheitsportraets-honore-de-balzac", label:"Illness Portrait: Honoré de Balzac (SE4w3) – same subtype"},
+        {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SP4w3) – life's work"},
+        {route:"krankheitsportraets-adele", label:"Illness Portrait: Adele (SP4w3) – same subtype"},
+        {route:"krankheitsportraets-honore-de-balzac", label:"Illness Portrait: Honoré de Balzac (SP4w3) – same subtype"},
+        {route:"krankheitsportraets-mette-marit", label:"Mette-Marit (SP4w3) – illness portrait"},
+        {route:"krankheitsportraets-t-e-lawrence", label:"T. E. Lawrence (SP4w3) – illness portrait"},
+        {route:"krankheitsportraets-edith-piaf", label:"Édith Piaf (SP4w3) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
-        {route:"subtype/se4", label:"Subtype Profile SE4"},
+        {route:"subtype/se4", label:"Subtype Profile SP4"},
       ])}
     </div>
   `);
@@ -2251,6 +2256,8 @@ export function ludwigXIVKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-ludwig-xiv", label:"Portrait: Louis XIV (SP3w2) – the Sun King"},
         {route:"krankheitsportraets-dmitri-hvorostovsky", label:"Illness Portrait: Dmitri Hvorostovsky (SO3w2) – same subtype"},
+        {route:"krankheitsportraets-christiaan-barnard", label:"Christiaan Barnard (SO3w2) – illness portrait"},
+        {route:"krankheitsportraets-oj-simpson", label:"O.J. Simpson (SO3w4) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so3", label:"Subtype Profile SP3"},
       ])}
@@ -2389,7 +2396,7 @@ export function michaelJacksonKrankheitsportraetPage() {
         out of pain treatment, insomnia, and ever-stronger remedies.</p>
         <p class="vb-intro"><strong>c) Concealment instead of confrontation as a recurring pattern:</strong>
         Unlike Ludwig van Beethoven (SX6w5) or Friedrich Schiller (SX6w5), who met their
-        illness with open confrontation, or Franz Schubert (SE6w5), who increasingly
+        illness with open confrontation, or Franz Schubert (SP6w5), who increasingly
         withdrew, Jackson – much like his SO3w4 counterpart Karl Lagerfeld – hid his
         dependence behind a flawless public facade until his body permitted no further
         concealment.</p>
@@ -2430,6 +2437,7 @@ export function michaelJacksonKrankheitsportraetPage() {
         {route:"krankheitsportraets-hans-christian-andersen", label:"Illness Portrait: Hans Christian Andersen (SO4w3) – same concealment strategy"},
         {route:"krankheitsportraets-karl-lagerfeld", label:"Illness Portrait: Karl Lagerfeld (SO3w4) – same concealment strategy"},
         {route:"krankheitsportraets-ludwig-van-beethoven", label:"Illness Portrait: Ludwig van Beethoven (SX6w5) – counter-model: open confrontation"},
+        {route:"krankheitsportraets-prince", label:"Prince (SX4w3) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so4", label:"Subtype Profile SO4"},
       ])}
@@ -2451,7 +2459,7 @@ export function nataschaKampuschKrankheitsportraetPage() {
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Hippopotamus</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Animal correspondence: Hippopotamus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE2")};left:${tierAvatarLeft("SE2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Animal correspondence: Hippopotamus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP2")};left:${tierAvatarLeft("SP2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -2632,7 +2640,7 @@ export function oshoKrankheitsportraetPage() {
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Raccoon</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Animal correspondence: Raccoon" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE3")};left:${tierAvatarLeft("SE3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Animal correspondence: Raccoon" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP3")};left:${tierAvatarLeft("SP3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -2781,6 +2789,7 @@ export function oshoKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-osho", label:"Portrait: Osho (SP3w4) – life's work"},
         {route:"krankheitsportraets-bernie-madoff", label:"Illness Portrait: Bernie Madoff (SP3w4) – the same discretion over his own body"},
+        {route:"krankheitsportraets-wim-thoelke", label:"Wim Thoelke (SP3w4) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se3", label:"Subtype Profile SP3"},
       ])}
@@ -2882,7 +2891,7 @@ export function robertSchumannKrankheitsportraetPage() {
         doctors forbade from visiting for a long time, fearing a reunion could further worsen
         his condition.</p>
         <p class="vb-intro"><strong>b) The young Brahms as the only constant:</strong>
-        While Clara was kept away, the 20-year-old Johannes Brahms (SE9w8), whom Schumann had hailed as
+        While Clara was kept away, the 20-year-old Johannes Brahms (SP9w8), whom Schumann had hailed as
         a coming master only months earlier, visited him regularly in Endenich and became the
         family's closest support during this time.</p>
         <p class="vb-intro"><strong>c) A reunion only shortly before death:</strong>
@@ -2951,9 +2960,10 @@ export function robertSchumannKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-robert-schumann", label:"Portrait: Robert Schumann (SX7w8) – life's work"},
-        {route:"beruehmte-johannes-brahms", label:"Portrait: Johannes Brahms (SE9w8) – discovered by Schumann, visited him regularly in Endenich"},
+        {route:"beruehmte-johannes-brahms", label:"Portrait: Johannes Brahms (SP9w8) – discovered by Schumann, visited him regularly in Endenich"},
         {route:"beruehmte-franz-liszt", label:"Portrait: Franz Liszt (SX7w8)"},
         {route:"krankheitsportraets-franz-liszt", label:"Illness Portrait: Franz Liszt (SX7w8) – the same inability to slow down"},
+        {route:"krankheitsportraets-johannes-brahms", label:"Johannes Brahms (SP9w8) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx7", label:"Subtype Profile SX7"},
       ])}
@@ -3116,6 +3126,7 @@ export function seanConneryKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-sean-connery", label:"Portrait: Sean Connery (SO3w4)"},
         {route:"krankheitsportraets-karl-lagerfeld", label:"Illness Portrait: Karl Lagerfeld (SO3w4) – same subtype"},
+        {route:"krankheitsportraets-william-james", label:"William James (SO3w4) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so3", label:"Subtype Profile SO3"},
       ])}
@@ -3137,7 +3148,7 @@ export function knutHamsunKrankheitsportraetPage() {
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Dove</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Animal correspondence: Dove" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Animal correspondence: Dove" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP4")};left:${tierAvatarLeft("SP4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -3264,9 +3275,7 @@ export function knutHamsunKrankheitsportraetPage() {
         Hamsun's health decline is closely tied to purely physical, age-related vascular
         changes, not purely psychosomatic causes. What his case can show is a pattern in how a
         pronounced self-preservation Four with a five-wing deals with its own decline – one of
-        many possible readings, not a verdict. The corresponding illness pattern is being
-        developed further, case by case, in this compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        many possible readings, not a verdict. The illness has its own entry in this Compass's Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/arteriosklerose">Atherosclerosis</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
         Like most people of his time, Hamsun did not consciously know his Enneagram pattern.
         Without that knowledge, he also lacked access to a conscious distinction between organic
@@ -3293,7 +3302,7 @@ export function knutHamsunKrankheitsportraetPage() {
         {route:"beruehmte-knut-hamsun", label:"Portrait: Knut Hamsun (SP4w5) – body of work"},
         {route:"krankheitsportraets-vincent-van-gogh", label:"Illness portrait: Vincent van Gogh (SP4w5) – same subtype, processing crisis through his own art form"},
         {route:"psychosomatik", label:"Psychosomatics register"},
-        {route:"subtype/se4", label:"Subtype profile SE4"},
+        {route:"subtype/se4", label:"Subtype profile SP4"},
       ])}
     </div>
   `);
@@ -3313,7 +3322,7 @@ export function vincentVanGoghKrankheitsportraetPage() {
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Dove</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Animal correspondence: Dove" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Animal correspondence: Dove" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP4")};left:${tierAvatarLeft("SP4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -3481,10 +3490,10 @@ export function vincentVanGoghKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5) – life's work"},
-        {route:"krankheitsportraets-virginia-woolf", label:"Illness Portrait: Virginia Woolf (SE4w5) – same subtype"},
+        {route:"krankheitsportraets-virginia-woolf", label:"Illness Portrait: Virginia Woolf (SP4w5) – same subtype"},
         {route:"krankheitsportraets-knut-hamsun", label:"Illness portrait: Knut Hamsun (SP4w5) – same subtype, processing crisis through his own art form"},
         {route:"psychosomatik/epilepsie", label:"Psychosomatics Register: Epilepsy"},
-        {route:"subtype/se4", label:"Subtype Profile SE4"},
+        {route:"subtype/se4", label:"Subtype Profile SP4"},
       ])}
     </div>
   `);
@@ -3500,11 +3509,11 @@ export function wolfgangAmadeusMozartKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-wolfgang-amadeus-mozart-portrait.jpg" alt="Wolfgang Amadeus Mozart" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Wolfgang Amadeus Mozart</p>
-        <p class="krim-portrait-typ">SE2w3 · Self-Preservation Type 2 with Three-wing · 1756–1791</p>
+        <p class="krim-portrait-typ">SP2w3 · Self-Preservation Type 2 with Three-wing · 1756–1791</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Hippopotamus</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Animal correspondence: Hippopotamus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE2")};left:${tierAvatarLeft("SE2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Animal correspondence: Hippopotamus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP2")};left:${tierAvatarLeft("SP2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -3519,7 +3528,7 @@ export function wolfgangAmadeusMozartKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
         <strong>Mozart</strong> is classified as the <strong>Self-Preservation Two with
-        Three-wing</strong>. Naranjo described the SE2 as <em>Me First</em> – the subtype who
+        Three-wing</strong>. Naranjo described the SP2 as <em>Me First</em> – the subtype who
         secures her own survival and that of those closest to her before turning further
         outward. The Three-wing adds a further, unconditional drive: proving one's own
         indispensability through visible achievement – a pattern that can be traced right
@@ -3538,7 +3547,7 @@ export function wolfgangAmadeusMozartKrankheitsportraetPage() {
         his entire life.</p>
         <p class="vb-intro"><strong>c) Family kept firmly in view, even in his own decline:</strong>
         Even in his final weeks, Mozart looked after Constanze and their children, students
-        and colleagues – the care of the SE2 did not pause even as his own body was already
+        and colleagues – the care of the SP2 did not pause even as his own body was already
         sending warning signs.</p>
       </div>
 
@@ -3567,7 +3576,7 @@ export function wolfgangAmadeusMozartKrankheitsportraetPage() {
         unassisted.</p>
         <p class="vb-intro"><strong>b) Working on the Requiem until shortly before death:</strong>
         Even from his sickbed, Mozart explained details of the orchestration to his student
-        Franz Xaver Süssmayr – the Three-wing of the SE2 would not let go of the unfinished
+        Franz Xaver Süssmayr – the Three-wing of the SP2 would not let go of the unfinished
         musical work, even in the face of his own dying.</p>
         <p class="vb-intro"><strong>c) Death on December 5, 1791:</strong>
         About fifteen days after the first symptoms, Mozart died at the age of 35. His burial
@@ -3595,12 +3604,12 @@ export function wolfgangAmadeusMozartKrankheitsportraetPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
         <p class="vb-intro"><strong>a) Peak output despite mounting exhaustion:</strong>
         That Mozart drove three major works forward at once in the very year his body was
-        already visibly weakened shows the endurance of the SE2w3 at its most restless.</p>
+        already visibly weakened shows the endurance of the SP2w3 at its most restless.</p>
         <p class="vb-intro"><strong>b) A work finished without him:</strong>
         The Requiem remained unfinished at Mozart's death and was completed by Süssmayr –
         even in death, his final work remained subject to someone else's completion.</p>
         <p class="vb-intro"><strong>c) The hippopotamus that defended its territory to the point of total exhaustion:</strong>
-        The energy of the SE2w3 remained directed to the very end at the same drive that had
+        The energy of the SP2w3 remained directed to the very end at the same drive that had
         shaped Mozart's entire life: to leave no commission unfulfilled, no proof of his own
         worth unmade, even as his own body had long since reached its limits.</p>
       </div>
@@ -3654,10 +3663,11 @@ export function wolfgangAmadeusMozartKrankheitsportraetPage() {
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SE2w3) – life's work"},
-        {route:"krankheitsportraets-frida-kahlo", label:"Illness Portrait: Frida Kahlo (SE2w3) – the same refusal to step back"},
+        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SP2w3) – life's work"},
+        {route:"krankheitsportraets-frida-kahlo", label:"Illness Portrait: Frida Kahlo (SP2w3) – the same refusal to step back"},
+        {route:"krankheitsportraets-nusrat-fateh-ali-khan", label:"Nusrat Fateh Ali Khan (SP2w3) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
-        {route:"subtype/se2", label:"Subtype Profile SE2"},
+        {route:"subtype/se2", label:"Subtype Profile SP2"},
       ])}
     </div>
   `);
@@ -3819,6 +3829,8 @@ export function hannahArendtKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-hannah-arendt", label:"Portrait: Hannah Arendt (SO5w4) – life's work"},
         {route:"krankheitsportraets-albert-einstein", label:"Illness Portrait: Albert Einstein (SO5w4) – the same pattern: warning acknowledged, not followed"},
+        {route:"krankheitsportraets-david-hockney", label:"David Hockney (SO5w4) – illness portrait"},
+        {route:"krankheitsportraets-dmitri-schostakowitsch", label:"Dmitri Shostakovich (SO5w4) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so5", label:"Subtype Profile SO5"},
       ])}
@@ -3840,7 +3852,7 @@ export function margaretRutherfordKrankheitsportraetPage() {
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Elephant</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Animal correspondence: Elephant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE9")};left:${tierAvatarLeft("SE9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Animal correspondence: Elephant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP9")};left:${tierAvatarLeft("SP9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -3959,9 +3971,7 @@ export function margaretRutherfordKrankheitsportraetPage() {
         depression or dementia – <strong>anyone can develop any illness, regardless of
         subtype.</strong> What Rutherford's case illustrates is a pattern that keeps recurring
         in practice alongside deep, habit-based denial – one of many possible explanations, not
-        a verdict. The corresponding illness pattern is gradually being developed in this
-        Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        a verdict. The illness has its own entry in this Compass's Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/depression">Depression</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
         Rutherford did not know her own Enneagram pattern. Without that awareness, she had no
         reason to consciously counter her own Nine's inertia – instead she immersed herself ever
@@ -3983,13 +3993,13 @@ export function margaretRutherfordKrankheitsportraetPage() {
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"beruehmte-margaret-rutherford", label:"Portrait: Margaret Rutherford (SE9w8) – life's work"},
-        {route:"krankheitsportraets-david-hume", label:"Illness Portrait: David Hume (SE9w8) – same subtype"},
-        {route:"krankheitsportraets-johannes-brahms", label:"Illness Portrait: Johannes Brahms (SE9w8) – same subtype"},
-        {route:"krankheitsportraets-hans-dietrich-genscher", label:"Illness Portrait: Hans-Dietrich Genscher (SE9w8) – same subtype"},
+        {route:"beruehmte-margaret-rutherford", label:"Portrait: Margaret Rutherford (SP9w8) – life's work"},
+        {route:"krankheitsportraets-david-hume", label:"Illness Portrait: David Hume (SP9w8) – same subtype"},
+        {route:"krankheitsportraets-johannes-brahms", label:"Illness Portrait: Johannes Brahms (SP9w8) – same subtype"},
+        {route:"krankheitsportraets-hans-dietrich-genscher", label:"Illness Portrait: Hans-Dietrich Genscher (SP9w8) – same subtype"},
         {route:"krankheitsportraets-charles-laughton", label:"Illness Portrait: Charles Laughton (SP9w8) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
-        {route:"subtype/se9", label:"Subtype Profile SE9"},
+        {route:"subtype/se9", label:"Subtype Profile SP9"},
       ])}
     </div>
   `);
@@ -4005,11 +4015,11 @@ export function galarrwuyYunupinguKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-galarrwuy-yunupingu-portrait.jpg" alt="Galarrwuy Yunupingu" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Galarrwuy Yunupingu</p>
-        <p class="krim-portrait-typ">SE8w9 · Self-Preservation Type 8 with a Nine Wing · 1948–2023</p>
+        <p class="krim-portrait-typ">SP8w9 · Self-Preservation Type 8 with a Nine Wing · 1948–2023</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Orangutan</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se8.jpg" alt="Animal correspondence: Orangutan" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE8")};left:${tierAvatarLeft("SE8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se8.jpg" alt="Animal correspondence: Orangutan" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP8")};left:${tierAvatarLeft("SP8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -4121,10 +4131,10 @@ export function galarrwuyYunupinguKrankheitsportraetPage() {
         defend the territory persisted to the end.</p>
         <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
         <a href="javascript:void(0)" data-route="krankheitsportraets-helmut-kohl">Helmut Kohl</a>
-        (also SE8w9) held on to control over his immediate circle after his severe fall in 2008
+        (also SP8w9) held on to control over his immediate circle after his severe fall in 2008
         despite near-total physical decline, even if from the background; Yunupingu went a step
         further and remained actively engaged in his political role even after transplant and leg
-        amputation, rather than withdrawing. Both cases show the same SE8w9 pattern: the Eight with
+        amputation, rather than withdrawing. Both cases show the same SP8w9 pattern: the Eight with
         a Nine-wing does not lightly give up responsibility for its own territory, even in the face
         of severe physical limitation. More on this in the
         <a href="javascript:void(0)" data-route="krankheitsportraets-helmut-kohl">illness portrait of Helmut Kohl</a>.</p>
@@ -4166,10 +4176,10 @@ export function galarrwuyYunupinguKrankheitsportraetPage() {
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"beruehmte-galarrwuy-yunupingu", label:"Portrait: Galarrwuy Yunupingu (SE8w9) – land rights leader"},
-        {route:"krankheitsportraets-helmut-kohl", label:"Illness Portrait: Helmut Kohl (SE8w9) – the same pattern, control despite physical decline"},
+        {route:"beruehmte-galarrwuy-yunupingu", label:"Portrait: Galarrwuy Yunupingu (SP8w9) – land rights leader"},
+        {route:"krankheitsportraets-helmut-kohl", label:"Illness Portrait: Helmut Kohl (SP8w9) – the same pattern, control despite physical decline"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
-        {route:"subtype/se8", label:"Subtype Profile SE8"},
+        {route:"subtype/se8", label:"Subtype Profile SP8"},
       ])}
     </div>
   `);
@@ -4185,11 +4195,11 @@ export function virginiaWoolfKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-virginia-woolf-portrait.jpg" alt="Virginia Woolf" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Virginia Woolf</p>
-        <p class="krim-portrait-typ">SE4w5 · Self-Preservation Type 4 with Five-Wing · 1882–1941</p>
+        <p class="krim-portrait-typ">SP4w5 · Self-Preservation Type 4 with Five-Wing · 1882–1941</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Dove</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Animal correspondence: Dove" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Animal correspondence: Dove" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP4")};left:${tierAvatarLeft("SP4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -4204,7 +4214,7 @@ export function virginiaWoolfKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
         <strong>Woolf</strong> is assigned to the <strong>self-preservation Type 4 with
-        Five-Wing</strong>. The SE4 endures its suffering stoically, without putting it on
+        Five-Wing</strong>. The SP4 endures its suffering stoically, without putting it on
         public display; the Five-Wing gives it the ability to analytically penetrate its own
         pain and translate it into a well-thought-out system. Exactly this combination –
         silently enduring the illness, working with clockwork discipline between crises, and
@@ -4272,7 +4282,7 @@ export function virginiaWoolfKrankheitsportraetPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
         <p class="vb-intro"><strong>a) Quiet endurance instead of public complaint:</strong>
-        The SE4's characteristic stance – enduring one's own suffering stoically without
+        The SP4's characteristic stance – enduring one's own suffering stoically without
         putting it on public display – showed in Woolf in that she processed her illness
         almost exclusively in diaries and private letters, not in direct public disclosures.</p>
         <p class="vb-intro"><strong>b) The Five-Wing and the systematizing of her own suffering:</strong>
@@ -4281,7 +4291,7 @@ export function virginiaWoolfKrankheitsportraetPage() {
         scientifically observant self-description in diaries rather than spontaneous
         emotional discharge.</p>
         <p class="vb-intro"><strong>c) Deliberate form to the very last act:</strong>
-        Even her suicide bore the hallmark of the SE4w5: not an impulsive outburst, but a
+        Even her suicide bore the hallmark of the SP4w5: not an impulsive outburst, but a
         deliberately chosen decision prepared in clear prose.</p>
       </div>
 
@@ -4294,8 +4304,8 @@ export function virginiaWoolfKrankheitsportraetPage() {
         <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
         A parallel shows in
         <a href="javascript:void(0)" data-route="krankheitsportraets-vincent-van-gogh">Vincent
-        van Gogh (SE4w5)</a>: in his case too, recurring severe psychological crises shaped his
-        late work, and his life also ended through a self-inflicted injury. Both SE4w5s show
+        van Gogh (SP4w5)</a>: in his case too, recurring severe psychological crises shaped his
+        late work, and his life also ended through a self-inflicted injury. Both SP4w5s show
         the same pattern: between crises, great suffering gives rise to an extraordinarily
         deliberate artistic system, until in the end the illness overwhelms the
         self-imposed discipline.</p>
@@ -4304,11 +4314,11 @@ export function virginiaWoolfKrankheitsportraetPage() {
         for his well-being: she wrote that she could not go on burdening his life, that
         without her he could work, and that she owed all the happiness of her life to him.
         Someone living under chronic psychological strain for years increasingly moves along
-        their stress line toward their stress point – for the Four, that is the Two. This
+        their stress line toward their stress point – for the Four, this shows the Two. This
         outward-, rather than inward-, directed care in her final, most existential hour
         recalls the self-sacrifice of the stress point, not the otherwise strongly
         inward-directed introspection of the core type – with the core type unchanged at
-        SE4w5.</p>
+        SP4w5.</p>
         <p class="vb-intro"><strong>d) Why her own mind, of all things?</strong>
         For a self-preservation Four whose entire body of work rested on precise control over
         her own perception and language, one interpretation suggests itself: of all things,
@@ -4348,11 +4358,11 @@ export function virginiaWoolfKrankheitsportraetPage() {
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"beruehmte-virginia-woolf", label:"Portrait: Virginia Woolf (SE4w5) – life's work"},
-        {route:"krankheitsportraets-vincent-van-gogh", label:"Illness Portrait: Vincent van Gogh (SE4w5) – same subtype"},
-        {route:"krankheitsportraets-connie-chiu", label:"Illness Portrait: Connie Chiu (SE4w5) – same subtype"},
+        {route:"beruehmte-virginia-woolf", label:"Portrait: Virginia Woolf (SP4w5) – life's work"},
+        {route:"krankheitsportraets-vincent-van-gogh", label:"Illness Portrait: Vincent van Gogh (SP4w5) – same subtype"},
+        {route:"krankheitsportraets-connie-chiu", label:"Illness Portrait: Connie Chiu (SP4w5) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
-        {route:"subtype/se4", label:"Subtype Profile SE4"},
+        {route:"subtype/se4", label:"Subtype Profile SP4"},
       ])}
     </div>
   `);
@@ -4372,7 +4382,7 @@ export function arnoldSchwarzeneggerKrankheitsportraetPage() {
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Eagle</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Animal correspondence: Eagle" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Animal correspondence: Eagle" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP1")};left:${tierAvatarLeft("SP1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -4726,11 +4736,11 @@ export function paulBocuseKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-paul-bocuse-portrait.jpg" alt="Paul Bocuse" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-paul-bocuse-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Paul Bocuse</p>
-        <p class="krim-portrait-typ">SE3w4 · Self-Preservation Type 3 with Four-wing · 1926–2018</p>
+        <p class="krim-portrait-typ">SP3w4 · Self-Preservation Type 3 with Four-wing · 1926–2018</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal match: Raccoon</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Animal match: Raccoon" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE3")};left:${tierAvatarLeft("SE3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Animal match: Raccoon" loading="lazy" style="position:absolute;top:${tierAvatarTop("SP3")};left:${tierAvatarLeft("SP3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -4744,7 +4754,7 @@ export function paulBocuseKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
         <strong>Bocuse</strong> is assigned to the <strong>self-preservation Type 3 with a
-        Four-wing</strong>. The SE3 secures its value through concrete, demonstrable
+        Four-wing</strong>. The SP3 secures its value through concrete, demonstrable
         achievement and tireless effort rather than public self-presentation – the raccoon that
         works its way through, skillfully and persistently, whatever obstacles lie in its path.
         The Four-wing adds an introspective, authenticity-oriented note. This exact need to
@@ -4812,7 +4822,7 @@ export function paulBocuseKrankheitsportraetPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
         <p class="vb-intro"><strong>a) Presence as proof of capability:</strong>
-        For the SE3w4, visible, reliable presence counts as its own form of achievement –
+        For the SP3w4, visible, reliable presence counts as its own form of achievement –
         Bocuse held firmly to exactly that, even as physical reality had long since become
         something else.</p>
         <p class="vb-intro"><strong>b) No staging, but also no withdrawal:</strong>
@@ -4832,9 +4842,9 @@ export function paulBocuseKrankheitsportraetPage() {
         patron – an identity that progressive physical limitation could not dissolve.</p>
         <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
         A revealing comparison is <a href="javascript:void(0)" data-route="krankheitsportraets-wim-thoelke">Wim Thoelke</a>
-        (SE3w4), who kept almost seamlessly working on his television show after a triple
+        (SP3w4), who kept almost seamlessly working on his television show after a triple
         bypass operation in 1991, right up until shortly before his death. Both show the same
-        SE3w4 pattern: the public role is not given up as long as any form of presence remains
+        SP3w4 pattern: the public role is not given up as long as any form of presence remains
         physically possible at all. More in the
         <a href="javascript:void(0)" data-route="krankheitsportraets-wim-thoelke">illness portrait of Wim Thoelke</a>.</p>
         <p class="vb-intro"><strong>c) No retreat into sick leave, no late retirement:</strong>
@@ -4875,10 +4885,10 @@ export function paulBocuseKrankheitsportraetPage() {
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"beruehmte-paul-bocuse", label:"Portrait: Paul Bocuse (SE3w4) – life's work"},
-        {route:"krankheitsportraets-wim-thoelke", label:"Illness Portrait: Wim Thoelke (SE3w4) – same subtype"},
+        {route:"beruehmte-paul-bocuse", label:"Portrait: Paul Bocuse (SP3w4) – life's work"},
+        {route:"krankheitsportraets-wim-thoelke", label:"Illness Portrait: Wim Thoelke (SP3w4) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
-        {route:"subtype/se3", label:"Subtype Profile SE3"},
+        {route:"subtype/se3", label:"Subtype Profile SP3"},
       ])}
     </div>
   `);

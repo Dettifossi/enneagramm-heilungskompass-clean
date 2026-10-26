@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Kompass Admin – Erfolglose Suchbegriffe</title>
+<style>
+  body { font-family: Georgia, serif; background: #faf8f4; margin: 0; padding: 2rem 1rem; color: #333; }
+  .box { max-width: 720px; margin: 0 auto; }
+  h1 { color: #8a6a1a; font-size: 1.3rem; margin: 0 0 1.5rem; }
+  #login-bereich { background: #fff; border: 2px solid #c9a84c; border-radius: 12px; padding: 2rem; }
+  input { width: 100%; box-sizing: border-box; padding: .7rem 1rem; border: 1px solid #ddd; border-radius: 6px; font-size: 1rem; margin-bottom: 1rem; font-family: inherit; }
+  button { background: #8a6a1a; color: #fff; border: none; padding: .7rem 1.4rem; border-radius: 8px; font-size: .95rem; cursor: pointer; font-family: inherit; }
+  button:hover { background: #6b520f; }
+  .werkzeuge { display: flex; gap: .6rem; flex-wrap: wrap; align-items: center; margin-bottom: 1rem; }
+  .werkzeuge select { padding: .55rem .8rem; border: 1px solid #ddd; border-radius: 6px; font-family: inherit; font-size: .95rem; }
+  table { width: 100%; border-collapse: collapse; background: #fff; border: 1px solid #e0d5b0; border-radius: 10px; overflow: hidden; }
+  th, td { text-align: left; padding: .55rem .8rem; border-bottom: 1px solid #f0e8cf; font-size: .92rem; }
+  th { background: #f6efd9; color: #6b520f; font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; }
+  td.n { font-weight: bold; width: 4rem; }
+  .leer { color: #888; font-style: italic; text-align: center; padding: 2rem 0; }
+  .hinweis { color: #777; font-size: .82rem; margin: 0 0 1rem; line-height: 1.5; }
+  .fehler { background: #fff3f3; border: 1px solid #e57373; color: #c62828; border-radius: 6px; padding: .6rem 1rem; font-size: .9rem; margin-bottom: 1rem; display: none; }
+</style>
+</head>
+<body>
+<div class="box">
+  <h1>🔍 Kompass Admin – Erfolglose Suchbegriffe</h1>
+
+  <div id="login-bereich">
+    <p style="margin:0 0 1rem;color:#666;font-size:.9rem;">Admin-Code eingeben:</p>
+    <input id="code-input" type="password" placeholder="Code…" autofocus>
+    <button onclick="einloggen()">Einloggen</button>
+    <div class="fehler" id="login-fehler" style="margin-top:1rem;"></div>
+  </div>
+
+  <div id="admin-bereich" style="display:none;">
+    <p class="hinweis">Begriffe, zu denen die Suche in der App nichts gefunden hat. Anonym gezählt, ohne IP und ohne Kennung, Einträge verfallen nach 90 Tagen. Die häufigsten Begriffe oben sind Kandidaten für neue Synonyme oder Register-Einträge.</p>
+    <div class="werkzeuge">
+      <select id="sprache" onchange="zeigen()">
+        <option value="">Alle Sprachen</option>
+        <option value="de">Deutsch</option>
+        <option value="en">Englisch</option>
+      </select>
+      <button onclick="laden()">Neu laden</button>
+      <button onclick="alsCsv()">Als CSV-Datei herunterladen</button>
+    </div>
+    <div class="fehler" id="fehler"></div>
+    <div id="liste"><div class="leer">Wird geladen…</div></div>
+  </div>
+</div>
+
+<script>
+const API = 'https://kompass-assistent.9rathmer.workers.dev/search-miss/list';
+let ADMIN_CODE = '';
+let DATEN = [];
+
+function esc(s) { return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
+function fehler(id, text) {
+  const el = document.getElementById(id);
+  el.textContent = text || '';
+  el.style.display = text ? 'block' : 'none';
+}
+
+async function einloggen() {
+  ADMIN_CODE = document.getElementById('code-input').value.trim();
+  fehler('login-fehler', '');
+  const ok = await laden(true);
+  if (ok) {
+    try { localStorage.setItem('kompass-admin-code', ADMIN_CODE); } catch (e) {}
+    document.getElementById('login-bereich').style.display = 'none';
+    document.getElementById('admin-bereich').style.display = 'block';
+  }
+}
+
+async function laden(erstesMal) {
+  try {
+    const r = await fetch(API, { headers: { 'X-Admin-Code': ADMIN_CODE } });
+    if (r.status === 401) { fehler(erstesMal ? 'login-fehler' : 'fehler', 'Falscher Code.'); return false; }
+    if (r.status === 429) { fehler(erstesMal ? 'login-fehler' : 'fehler', 'Zu viele Versuche, bitte kurz warten.'); return false; }
+    if (!r.ok) { fehler(erstesMal ? 'login-fehler' : 'fehler', 'Fehler beim Laden (' + r.status + ').'); return false; }
+    DATEN = (await r.json()).misses || [];
+    fehler('fehler', '');
+    zeigen();
+    return true;
+  } catch (e) {
+    fehler(erstesMal ? 'login-fehler' : 'fehler', 'Keine Verbindung.');
+    return false;
+  }
+}
+
+function gefiltert() {
+  const s = document.getElementById('sprache').value;
+  return DATEN.filter(d => !s || d.lang === s);
+}
+
+function zeigen() {
+  const d = gefiltert();
+  const box = document.getElementById('liste');
+  if (!d.length) { box.innerHTML = '<div class="leer">Noch keine erfolglosen Suchbegriffe.</div>'; return; }
+  box.innerHTML = '<table><thead><tr><th>Anzahl</th><th>Begriff</th><th>Sprache</th><th>Zuletzt</th></tr></thead><tbody>' +
+    d.map(x => '<tr><td class="n">' + x.n + '</td><td>' + esc(x.term) + '</td><td>' + esc(x.lang) + '</td><td>' + esc((x.last || '').slice(0, 10)) + '</td></tr>').join('') +
+    '</tbody></table>';
+}
+
+function alsCsv() {
+  const d = gefiltert();
+  const zeilen = ['Anzahl;Begriff;Sprache;Zuerst;Zuletzt'].concat(d.map(x =>
+    [x.n, '"' + String(x.term).replace(/"/g, '""') + '"', x.lang, (x.first || '').slice(0, 10), (x.last || '').slice(0, 10)].join(';')));
+  const blob = new Blob(['﻿' + zeilen.join('\n')], { type: 'text/csv;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'erfolglose-suchbegriffe-' + new Date().toISOString().slice(0, 10) + '.csv';
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+document.getElementById('code-input').addEventListener('keydown', e => { if (e.key === 'Enter') einloggen(); });
+(function () {
+  let gespeichert = '';
+  try { gespeichert = localStorage.getItem('kompass-admin-code') || ''; } catch (e) {}
+  if (gespeichert) { ADMIN_CODE = gespeichert; document.getElementById('code-input').value = gespeichert; einloggen(); }
+})();
+</script>
+</body>
+</html>

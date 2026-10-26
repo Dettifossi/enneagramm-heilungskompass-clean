@@ -60,8 +60,8 @@ export const sx3 = {
   vertiefung: [
     { werkId: "dynamik-27-subtypen", hinweis: "Das vollständige SX3-Subtypprofil und die Dynamik innerhalb von Typ 3." },
     { werkId: "code-der-persoenlichkeit", hinweis: "Schritt für Schritt herausfinden, ob Typ 3 / SX3 zu dir passt." },
-    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typ 3 (Kapitel Typ 3)." },
-    { werkId: "kindheitstraumata", hinweis: "Die frühe Prägung hinter dem Muster des Typ 3." },
+    { werkId: "hinter-der-leidenschaft", hinweis: "Die Wunde hinter der Leidenschaft des Typs 3 (Kapitel Typ 3)." },
+    { werkId: "kindheitstraumata", hinweis: "Die frühe Prägung hinter dem Muster des Typs 3." },
     { werkId: "heilsteine-prinzipien", hinweis: "Hintergrund zum Edelstein Tigerauge und den Enneagrammprinzipien." },
     { werkId: "wenn-die-stille-brennt", hinweis: "Wie Burnout bei Typ 3 entsteht, sich anfühlt und überwunden werden kann – typspezifische Warnsignale und Prävention." },
   ],

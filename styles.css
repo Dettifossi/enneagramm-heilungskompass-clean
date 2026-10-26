@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap');
 
 :root {
   --ivory: #f7f1e6;
@@ -4616,6 +4615,8 @@ button.primary:active::after {
   display: none;
   position: fixed;
   min-width: 160px;
+  width: max-content;
+  max-width: calc(100vw - 16px);
   max-height: 70vh;
   overflow-y: auto;
   background: var(--ivory);
@@ -5461,6 +5462,22 @@ button.primary:active::after {
 .suche-result-sub { font-size: 0.78rem; color: var(--muted); }
 .suche-hl { background: #f5d76e55; color: var(--ink); font-weight: 700; border-radius: 2px; }
 .suche-more { font-size: 0.8rem; color: var(--muted); margin: 0.3rem 0 0; text-align: center; }
+.suche-result--extra { display: none; }
+.suche-group.is-open .suche-result--extra { display: flex; }
+.suche-more-btn {
+  display: block; margin: 0.3rem auto 0; padding: 0.45rem 1.1rem;
+  background: transparent; color: var(--copper); border: 1px solid var(--line);
+  border-radius: 20px; font: inherit; font-size: 0.82rem; cursor: pointer;
+}
+.suche-more-btn:hover { border-color: var(--gold); }
+.suche-vorschlaege { display: none; margin: -0.3rem 0 1.1rem; background: var(--paper, #fffaf0); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.suche-vorschlaege.is-open { display: block; }
+.suche-sugg { display: block; width: 100%; text-align: left; background: transparent; border: 0; border-bottom: 1px solid var(--line); padding: 0.6rem 1rem; font: inherit; font-size: 0.92rem; color: var(--ink); cursor: pointer; }
+.suche-sugg:last-child { border-bottom: 0; }
+.suche-sugg:hover, .suche-sugg.is-active { background: var(--cream, #f3ebd9); }
+.suche-ask { margin: 0.8rem 0 1.2rem; padding: 0.9rem 1rem; border: 1px solid var(--line); border-left: 4px solid var(--copper); border-radius: 10px; background: var(--paper, #fffaf0); }
+.suche-ask p { margin: 0 0 0.6rem; font-size: 0.9rem; color: var(--muted); }
+.suche-ask-btn { padding: 0.45rem 1.1rem; background: var(--deep, #243948); color: #fff; border: 0; border-radius: 20px; font: inherit; font-size: 0.85rem; cursor: pointer; }
 
 /* ── Favoriten ──────────────────────────────────────────────────────────── */
 .fav-heart-btn {
@@ -5469,6 +5486,12 @@ button.primary:active::after {
   color: var(--muted); transition: color .15s, transform .15s;
   margin-left: auto;
 }
+.share-page-btn {
+  background: none; border: none; cursor: pointer; color: var(--muted);
+  padding: 0.2rem 0.4rem; margin-left: 1.1rem; display: inline-flex; align-items: center;
+}
+.share-page-btn:hover { color: var(--ink); }
+.page-back-btn + .share-page-btn { margin-left: auto; }
 .fav-heart-btn--active { color: var(--gold); }
 .fav-heart-btn:active { transform: scale(1.25); }
 
@@ -5634,7 +5657,7 @@ button.primary:active::after {
    Hover-Regeln stehen weiter oben hinter (hover: hover) and (pointer: fine),
    Druck-Rückmeldung auf Touch läuft über die gespiegelten :active-Regeln. */
 html { -webkit-tap-highlight-color: transparent; }
-html, body { overscroll-behavior: none; }
+@media (pointer: fine) { html, body { overscroll-behavior: none; } }
 button, a, [role="button"], [data-route], summary, label, select, input { touch-action: manipulation; }
 @media (pointer: coarse) {
   input:not([type="checkbox"]):not([type="radio"]):not([type="range"]), textarea, select { font-size: 16px !important; }
@@ -5654,3 +5677,104 @@ button, a, [role="button"], [data-route], summary, label, select, input { touch-
 
 /* Klickbare Flächen (Karten) per Tastatur: sichtbarer Fokus (siehe a11y.js) */
 [role="button"][data-route]:focus-visible { outline: 2px solid var(--gold, #c9a84c); outline-offset: 2px; }
+
+/* ── Bedienung (20.10.2026): Tastaturfokus überall, Federkurven ───────────────── */
+:root {
+  --spring: cubic-bezier(0.34, 1.4, 0.64, 1);
+  --spring-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+a:focus-visible, button:focus-visible, summary:focus-visible, select:focus-visible,
+[tabindex]:focus-visible, .nav-dropdown__item:focus-visible {
+  outline: 2px solid var(--gold, #c9a84c);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+input:focus-visible, textarea:focus-visible {
+  outline: 2px solid var(--gold, #c9a84c);
+  outline-offset: 1px;
+}
+.suche-input:focus-visible { outline: none; }
+.suche-sugg:focus-visible { outline-offset: -2px; }
+
+/* Menüs und Wegweiser-Fenster federn beim Öffnen auf und starten im Zustand 'angeklickt' */
+@keyframes springPopIn {
+  from { opacity: 0; transform: translateY(-6px) scale(0.96); }
+  to   { opacity: 1; transform: none; }
+}
+@keyframes springPanelIn {
+  from { opacity: 0; transform: translateY(14px) scale(0.97); transform-origin: bottom right; }
+  to   { opacity: 1; transform: none; transform-origin: bottom right; }
+}
+.nav-dropdown-wrap.is-open .nav-dropdown__menu { animation: springPopIn 0.28s var(--spring) both; }
+#wegweiser-panel { animation: springPanelIn 0.34s var(--spring) both; }
+.suche-vorschlaege.is-open { animation: springPopIn 0.22s var(--spring-soft) both; }
+button, [role="button"] { transition-timing-function: var(--spring-soft); }
+
+/* ── Seitenwechsel (View Transitions): kurzes Ausblenden, sanftes Einschweben ── */
+@media (prefers-reduced-motion: no-preference) {
+  ::view-transition-old(root) { animation: 0.12s ease both vtOut; }
+  ::view-transition-new(root) { animation: 0.28s var(--spring-soft) both vtIn; }
+}
+@keyframes vtOut { to { opacity: 0; } }
+@keyframes vtIn { from { opacity: 0; transform: translateY(10px); } }
+
+/* ── Typografie: ruhiger Zeilenfall, weniger Einzelwörter am Zeilenende ─────── */
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; font-kerning: normal; }
+h1, h2, h3, .vb-section, .section-title { text-wrap: balance; }
+p, li, .vb-intro { text-wrap: pretty; }
+/* Silbentrennung nur in langen Fließtexten; Untertitel, Teaser, Karten, Listen und Namen bleiben ungetrennt */
+:lang(de) .vb-intro, :lang(de) .psycho-intro, :lang(de) .lead-small, :lang(de) .vb-anmerkung, :lang(de) .typentest-intro, :lang(de) .vb-typ__text { hyphens: auto; hyphenate-limit-chars: 7 3 3; }
+.krim-portrait-name, .krim-portrait-typ, .krim-portrait-subtitle, .krim-portrait-sub { hyphens: manual; -webkit-hyphens: manual; text-wrap: balance; }
+
+/* ── Touch: größere Treffer­flächen für kleine Bedienelemente (Layout bleibt gleich) ─ */
+@media (pointer: coarse) {
+  .kf-btn, .related-link-btn, .tagesimpuls-card__close, .page-back-btn, .fav-heart-btn,
+  .voice-mute-btn, .suche-fav-nav-btn, .register-jump, .legal-footer__link,
+  .start-path__btn, .ghost-link, .chip-nav-btn { position: relative; }
+  .related-link-btn::after, .page-back-btn::after, .suche-fav-nav-btn::after,
+  .voice-mute-btn::after, .start-path__btn::after, .chip-nav-btn::after,
+  .tagesimpuls-card__close::after, .fav-heart-btn::after, .register-jump::after,
+  .legal-footer__link::after, .ghost-link::after, .kf-btn::after,
+  .lang-switcher::after { content: ""; position: absolute; inset: -9px -6px; }
+  .tagesimpuls-card__close::after, .fav-heart-btn::after, .register-jump::after { inset: -12px -10px; }
+  .legal-footer__link::after, .ghost-link::after { inset: -14px -8px; }
+  .kf-btn::after { inset: -6px -3px; }
+}
+
+/* Materialeffekte (20.10.2026): Milchglas für schwebende Flächen, nur wo der Browser es kann.
+   Ohne backdrop-filter bleibt der volle Elfenbein-Hintergrund stehen. */
+@supports (backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px)) {
+  .nav-dropdown__menu {
+    background: color-mix(in srgb, var(--ivory) 82%, transparent);
+    -webkit-backdrop-filter: saturate(1.6) blur(18px);
+    backdrop-filter: saturate(1.6) blur(18px);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.06), 0 10px 30px rgba(0,0,0,0.14);
+  }
+  .nav-dropdown__search-wrap {
+    background: color-mix(in srgb, var(--ivory) 70%, transparent);
+  }
+  .register-jumpbar, .tv-filterbar { background: color-mix(in srgb, var(--ivory) 78%, transparent); -webkit-backdrop-filter: saturate(1.6) blur(14px); backdrop-filter: saturate(1.6) blur(14px); }
+}
+
+/* Namen in Neuigkeiten und im Update-Verzeichnis nie per Silbentrennung zerlegen (z. B. »Hei-ko Maas«) */
+#neuigkeiten-banner li, #neuigkeiten-banner li *,
+.typentest-card ul li, .typentest-card ul li * { hyphens: manual; -webkit-hyphens: manual; }
+
+/* Barrierefreiheit (24.10.2026): Sprunglink und Screenreader-Hinweise */
+.skip-link {
+  position: absolute; left: 0.75rem; top: -4rem; z-index: 9999;
+  padding: 0.6rem 1rem; border-radius: 8px;
+  background: var(--ink); color: var(--paper); font-size: 0.95rem; text-decoration: none;
+}
+.skip-link:focus { top: 0.75rem; outline: 2px solid var(--copper); outline-offset: 2px; }
+.sr-only {
+  position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+/* Mindmap der Single-Rubriken (aufklappbare Äste) */
+.mm-branch { border-radius: 0 0.6rem 0.6rem 0; background: var(--paper); }
+.mm-branch summary::-webkit-details-marker { display: none; }
+.mm-branch summary::after { content: "+"; float: right; font-weight: 700; color: var(--muted); }
+.mm-branch[open] summary::after { content: "\2013"; }
+.mm-chev { color: var(--muted); margin: 0 0.15rem; }

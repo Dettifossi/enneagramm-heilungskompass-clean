@@ -1,4 +1,4 @@
-import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
+const { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } = window.__kh;
 
 export function alexanderDerGrossePortraitPage() {
   return shell(`
@@ -17,8 +17,8 @@ export function alexanderDerGrossePortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever Who Wanted to Embrace the World</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; warm, generous, irresistibly driven to be needed and loved. Few historical figures display this pattern as unbrokenly as Alexander the Great. Contemporary sources consistently describe a man who knew his soldiers by name, personally visited the wounded, and in eleven years of unbroken campaigning was never far from the front line &ndash; a general who sought closeness where others would have used distance to secure their power.</p>
-          <p class="vb-intro">Born in 356 BC as the son of King Philip II of Macedon, the Macedonian king Alexander the Great was personally tutored by Aristotle (SE1w9) &ndash; an education that gave him intellectual depth alongside soldierly toughness. As a boy he tamed the supposedly unbreakable horse Bucephalus simply by turning it away from its own shadow and then approaching it calmly and openly &ndash; an early miniature of his entire leadership style: connection over coercion.</p>
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the emblem of the social Two &ndash; warm, generous, irresistibly driven to be needed and loved. Few historical figures display this pattern as unbrokenly as Alexander the Great. Contemporary sources consistently describe a man who knew his soldiers by name, personally visited the wounded, and in eleven years of unbroken campaigning was never far from the front line &ndash; a general who sought closeness where others would have used distance to secure their power.</p>
+          <p class="vb-intro">Born in 356 BC as the son of King Philip II of Macedon, the Macedonian king Alexander the Great was personally tutored by Aristotle (SP1w9) &ndash; an education that gave him intellectual depth alongside soldierly toughness. As a boy he tamed the supposedly unbreakable horse Bucephalus simply by turning it away from its own shadow and then approaching it calmly and openly &ndash; an early miniature of his entire leadership style: connection over coercion.</p>
         </blockquote>
 
         <h2 class="vb-section">2. SO2: Ambition as a Form of Love</h2>
@@ -58,7 +58,7 @@ export function alexanderDerGrossePortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so2", label:"SO2 \u2013 The Golden Retriever: Subtype Profile"},
-        {route:"beruehmte-aristoteles", label:"Portrait: Aristotle (SE1w9)"},
+        {route:"beruehmte-aristoteles", label:"Portrait: Aristotle (SP1w9)"},
         {route:"beruehmte-julius-caesar", label:"Portrait: Julius Caesar (SO2w3)"},
         {route:"beruehmte-napoleon-bonaparte", label:"Portrait: Napoleon Bonaparte (SO2w3)"},
         {route:"krankheitsportraets-alexander-der-grosse", label:"Illness Portrait: Alexander the Great – mysterious death in Babylon"},
@@ -84,7 +84,7 @@ export function arminRohdePortraitPage() {
 
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal that does not leave its territory because it is rooted there, not because it is trapped there. It knows every stone on the bank, every current, every neighbor in the same water &ndash; and it draws its strength from exactly this deep familiarity with its own origin, not from distance or unfamiliar ground.</p>
+          <p class="vb-intro">The <strong>Hippopotamus</strong> stands as the animal of the self-preservation Two &ndash; an animal that does not leave its territory because it is rooted there, not because it is trapped there. It knows every stone on the bank, every current, every neighbor in the same water &ndash; and it draws its strength from exactly this deep familiarity with its own origin, not from distance or unfamiliar ground.</p>
           <p class="vb-intro">Armin Rohde, born in 1955 in Herne in Germany's Ruhr region, has stayed true to this origin throughout his life and throughout his entire career. Even after decades as one of Germany's best-known actors, he still describes himself unchanged as a child of the Ruhrpott, speaks openly in his native dialect, and has never treated his origins as something to shed once fame arrived. The Hippopotamus stays in its water &ndash; and becomes unmistakable precisely because of it.</p>
         </blockquote>
 
@@ -96,7 +96,7 @@ export function arminRohdePortraitPage() {
 
         <h2 class="vb-section">3. The Three-Wing: From the Ruhr Region to the Big Screen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the ambition to build something visibly larger out of its own familiar foundation. Where the pure SP2 might be content with its familiar circle, the Three-wing drives it to make its own story accessible to a wider audience &ndash; without betraying it in the process.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> lends the self-preservation Two the ambition to build something visibly larger out of its own familiar foundation. Where the pure SP2 might be content with its familiar circle, the Three-wing drives it to make its own story accessible to a wider audience &ndash; without betraying it in the process.</p>
           <p class="vb-intro">Rohde began his career in theater before a small role in Wolfgang Petersen's <em>Das Boot</em> (1985) brought him his first international visibility. His definitive breakthrough with the broader public came in 1991 with the Ruhr-region comedy <em>Manta, Manta</em>, in which he brought the Ruhrpott milieu he himself came from to a mass audience &ndash; not as an outsider's caricature, but as a world he knew from the inside. The Three-wing turns one's own origin into a stage, without denying it.</p>
         </blockquote>
 
@@ -150,7 +150,7 @@ export function bracoPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>sexual Two (SX2)</strong> is, in the Enneagram tradition, the subtype that directs the energy of the Two immediately into the space between two people. Naranjo called this subtype <em>Aggressivity</em> &ndash; not in the negative sense, but as the active, forward-driving approach toward the other. The SX2 does not wait for connection to arise. It establishes it &ndash; through presence, through attention, through the intensity of contact.</p>
           <p class="vb-intro">In Braco this energy is reduced to its most essential. No word, no gesture, no teaching &ndash; only the gaze. It is as though the SX2 has cleared away all outer forms of connection and laid bare the innermost: the direct encounter of two consciousnesses. The gaze is the clearest expression of contact. And the sexual Two has recognized it as its medium.</p>
-          <p class="vb-intro">Braco began his work after the death of his teacher Ivica Prokic in 1995. He continued the legacy &ndash; but in his own, radically simplified way. No words, no interpretations. Only presence. That is not a method. That is the SX2 that has understood that connection needs no explanation.</p>
+          <p class="vb-intro">Braco began his work after the death of his teacher Ivica Prokic in 1995. He continued the legacy &ndash; but in his own, radically simplified way. No words, no interpretations. Only presence. That is not a method. Here we see the SX2 that has understood that connection needs no explanation.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Three-wing: Radiance as Gift</h2>
@@ -169,7 +169,7 @@ export function bracoPortraitPage() {
 
         <h2 class="vb-section">5. The Healing Path: From Giving to Being</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Two leads from the question <em>Am I needed?</em> to the insight <em>I am.</em> For the SX2 this means: understanding that the gaze one gives to others may also be directed inward. The camel that carries through deserts finds its oasis not in others&#39; confirmation &ndash; but in the stillness it discovers within itself.</p>
+          <p class="vb-intro">The Two’s path to healing leads from the question <em>Am I needed?</em> to the insight <em>I am.</em> For the SX2 this means: understanding that the gaze one gives to others may also be directed inward. The camel that carries through deserts finds its oasis not in others&#39; confirmation &ndash; but in the stillness it discovers within itself.</p>
           <p class="vb-intro">Braco has chosen a practice that &ndash; paradoxically &ndash; embodies exactly that: silence, stillness, explaining nothing. Perhaps the Gazer is therefore himself on the healing path. The gaze he gives is most authentic when it does not arise from the need to be needed &ndash; but from the quiet fullness of one who is no longer searching.</p>
         </blockquote>
 
@@ -181,6 +181,8 @@ export function bracoPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
         {route:"beruehmte-matthias-schweighoefer", label:"Portrait: Matthias Schweighöfer (SX2w1)"},
+        {route:"beruehmte-elvis-presley", label:"Portrait: Elvis Presley (SX2w3)"},
+        {route:"beruehmte-sammy-davis-jr", label:"Portrait: Sammy Davis Jr. (SX2w3)"},
       ])}
     </div>
   `);
@@ -196,20 +198,20 @@ export function changpengZhaoPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-changpeng-zhao-portrait.jpg" alt="Changpeng Zhao – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Changpeng Zhao</p>
-        <p class="krim-portrait-typ">SE3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
+        <p class="krim-portrait-typ">SP3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
         <p class="krim-portrait-subtitle">Canadian-Chinese entrepreneur, founder of Binance &ndash; Animal correspondence: Raccoon</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. The Raccoon</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal at its most skillful in the dark: unremarkable, adaptable, at home wherever it happens to be needed. Only on closer inspection does it become clear how much control lies behind that apparent modesty.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> is the emblem of the self-preservation Three &ndash; an animal at its most skillful in the dark: unremarkable, adaptable, at home wherever it happens to be needed. Only on closer inspection does it become clear how much control lies behind that apparent modesty.</p>
           <p class="vb-intro">The Canadian-Chinese entrepreneur Changpeng Zhao, usually known simply as "CZ," was born in 1977 in China's Jiangsu province and emigrated with his family to Canada as a teenager, growing up in Vancouver and studying computer science at McGill University. Before founding his own company, he worked in the technical background of financial systems &ndash; at Bloomberg Tradebook, at the trading-software firm Fusion Systems, and finally as Chief Technology Officer at OKCoin, at the time one of the largest crypto exchanges in the world.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Self-Preservation Three: Infrastructure Over Performance</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation Three (SE3)</strong> is the counter-type of the Three &ndash; the subtype that does not display achievement outwardly but directs it inward: toward security, competence, craft mastery. SE3 does not ask <em>How am I seen?</em> but <em>What can I actually do?</em></p>
+          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> is the counter-type of the Three &ndash; the subtype that does not display achievement outwardly but directs it inward: toward security, competence, craft mastery. SP3 does not ask <em>How am I seen?</em> but <em>What can I actually do?</em></p>
           <p class="vb-intro">In 2013, Zhao became interested in Bitcoin and sold his apartment in Shanghai to devote himself fully to it. In 2017, he founded Binance &ndash; within a few years, the platform became the largest cryptocurrency exchange in the world, offering spot trading, futures markets, staking services, and its own BNB ecosystem. The rise came not through spectacular public appearances but through technical infrastructure that reliably worked, while numerous competing exchanges failed at scaling and stability.</p>
         </blockquote>
 
@@ -227,8 +229,8 @@ export function changpengZhaoPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of SE3w4 is its ability to draw genuine uniqueness from pure technical craft. Zhao built infrastructure that millions of people around the world actually used &ndash; not through hype, but because the product worked, while numerous competitors failed due to security breaches and outages.</p>
-          <p class="vb-intro">The passion of the Three is <strong>vanity / deceit</strong> &ndash; in SE3w4, subtly present as the need to be seen as unique and untouchable, while the actual substance is rarely explained to the outside world. The shadow of the Four-wing showed itself here very concretely: the deliberate refusal to conform to existing rulebooks, which had made Binance great, ultimately became a criminal consequence &ndash; a pattern that shows how narrow the line between an independent path and breaking the rules can be.</p>
+          <p class="vb-intro">The light of SP3w4 is its ability to draw genuine uniqueness from pure technical craft. Zhao built infrastructure that millions of people around the world actually used &ndash; not through hype, but because the product worked, while numerous competitors failed due to security breaches and outages.</p>
+          <p class="vb-intro">The passion of the Three is <strong>vanity / deceit</strong> &ndash; in SP3w4, subtly present as the need to be seen as unique and untouchable, while the actual substance is rarely explained to the outside world. The shadow of the Four-wing showed itself here very concretely: the deliberate refusal to conform to existing rulebooks, which had made Binance great, ultimately became a criminal consequence &ndash; a pattern that shows how narrow the line between an independent path and breaking the rules can be.</p>
         </blockquote>
 
       </div>
@@ -237,9 +239,9 @@ export function changpengZhaoPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
-        {route:"beruehmte-annika-von-mutius", label:"Portrait: Dr. Annika von Mutius (SE3w4)"},
-        {route:"beruehmte-judit-polgar", label:"Portrait: Judit Polgár (SE3w4)"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-annika-von-mutius", label:"Portrait: Dr. Annika von Mutius (SP3w4)"},
+        {route:"beruehmte-judit-polgar", label:"Portrait: Judit Polgár (SP3w4)"},
       ])}
     </div>
   `);
@@ -262,7 +264,7 @@ export function danteAlighieriPortraitPage() {
 
         <h2 class="vb-section">1. The Chihuahua Who Built a World Tribunal Out of Exile</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Chihuahua</strong> is the animal of the sexual Four: small in stature, immense in inner life, incapable of half-measures in either love or anger. Dante Alighieri was born in 1265 in Florence, a city that would later cast him out &ndash; and it was precisely out of that expulsion that he created one of the most powerful literary works in world history.</p>
+          <p class="vb-intro">The <strong>Chihuahua</strong> is the animal counterpart of the sexual Four: small in stature, immense in inner life, incapable of half-measures in either love or anger. Dante Alighieri was born in 1265 in Florence, a city that would later cast him out &ndash; and it was precisely out of that expulsion that he created one of the most powerful literary works in world history.</p>
           <p class="vb-intro">In 1302, amid the power struggles between the political factions of the White and Black Guelphs, Dante was banished from Florence on false charges of corruption and sentenced to death should he ever return. He would never set foot in his home city again. The Chihuahua, driven from its territory, did not turn its exile into resignation but into the raw material for a work that would secure him, posthumously, exactly the immortality the city denied him in life.</p>
         </blockquote>
 
@@ -274,7 +276,7 @@ export function danteAlighieriPortraitPage() {
 
         <h2 class="vb-section">3. The Five-Wing: The Architecture of the Afterlife</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the sexual Four the analytical hunger not merely to express its own feeling but to translate it into a fully worked-out system. The "Divine Comedy" is exactly that: a structure of mathematical precision &ndash; nine circles of Hell, seven terraces of Purgatory, nine spheres of Heaven, exactly one hundred cantos, written in terza rima whose rhyme scheme itself forms an unbroken, continuous chain.</p>
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> grants the sexual Four the analytical hunger not merely to express its own feeling but to translate it into a fully worked-out system. The "Divine Comedy" is exactly that: a structure of mathematical precision &ndash; nine circles of Hell, seven terraces of Purgatory, nine spheres of Heaven, exactly one hundred cantos, written in terza rima whose rhyme scheme itself forms an unbroken, continuous chain.</p>
           <p class="vb-intro">Within it, Dante processed the entire learning of his age &ndash; Aristotelian philosophy, Thomistic theology, medieval astronomy, Roman poetry, especially Virgil, whom he made his own guide through Hell and Purgatory. The Five-wing turned the SX4's burning rivalry into a work of encyclopedic precision &ndash; every punishment, every reward, every sphere follows an inner logic that Dante had worked out down to the last detail before writing a single word.</p>
           <p class="vb-intro">It is striking how seamlessly Dante's nine circles of Hell still map onto the nine passions of the Enneagram today &ndash; even though he naturally had no knowledge of the psychological model as it is taught now. He drew on the same foundation of archetypal vices that Christian scholasticism and ancient philosophy had worked out over centuries &ndash; and thereby demonstrated an intuitive grasp of the human psyche that, centuries later, deeply occupied Claudio Naranjo and other Enneagram teachers as well. A detailed correspondence can be found in the chart "The 9 Circles of Hell According to Dante's Inferno."</p>
         </blockquote>
@@ -287,7 +289,7 @@ export function danteAlighieriPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The fate pattern of the Four is <strong>envy</strong> &ndash; in the SX4 expressed as rivalry, as the feeling that one's own city, one's own love, one's own recognition has been unjustly withheld. In Dante, this fed both the creative power of the work and his uncompromising harshness toward anyone he held responsible for his misfortune &ndash; down to contemporaries he immortalized in his Hell while they were still alive.</p>
+          <p class="vb-intro">The core pattern of the Four is <strong>envy</strong> &ndash; in the SX4 expressed as rivalry, as the feeling that one's own city, one's own love, one's own recognition has been unjustly withheld. In Dante, this fed both the creative power of the work and his uncompromising harshness toward anyone he held responsible for his misfortune &ndash; down to contemporaries he immortalized in his Hell while they were still alive.</p>
           <p class="vb-intro">The light lies in the ability to turn personal suffering into a work that reaches far beyond one's own injury: the "Divine Comedy" is at once a revenge fantasy, a declaration of love, a theological summa, and a political manifesto &ndash; and, precisely because of this, one of the most influential works in world literature. The shadow lies in the irreconcilability: Dante died without ever making peace with Florence, and the city only formally apologized for his banishment centuries later.</p>
         </blockquote>
 
@@ -308,7 +310,7 @@ export function danteAlighieriPortraitPage() {
         {route:"beruehmte-augustinus-von-hippo", label:"Portrait: Augustine of Hippopotamus (SX4w5)"},
         {route:"beruehmte-jean-paul-sartre", label:"Portrait: Jean-Paul Sartre (SX4w5)"},
         {route:"beruehmte-voltaire", label:"Portrait: Voltaire (SX4w3)"},
-        {route:"beruehmte-thomas-von-aquin", label:"Portrait: Thomas Aquinas (SE9w8) – whose theology shaped the Divine Comedy's architecture"},
+        {route:"beruehmte-thomas-von-aquin", label:"Portrait: Thomas Aquinas (SP9w8) – whose theology shaped the Divine Comedy's architecture"},
         {route:"hoellenkreise-dante", label:"Chart: The 9 Circles of Hell According to Dante's Inferno"},
         {route:"bibel-judas-thaddaeus", label:"Bible Portrait: Jude Thaddaeus (SX4w5)"},
       ])}
@@ -333,7 +335,7 @@ export function donataHopfenPortraitPage() {
 
         <h2 class="vb-section">1. The Meerkat</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The meerkat keeps watch for the group. It is vigilant, cooperative, and deeply oriented toward security through belonging. But not every meerkat keeps watch in the same way. Some climb quietly onto the highest rock and methodically scan the horizon that is the Five wing, the meerkat of analysis. Others run off, mobilize the group, bring movement to the territory before the threat is even visible that is the Seven wing. Donata Hopfen belongs to the second kind.</p>
+          <p class="vb-intro">The meerkat keeps watch for the group. It is vigilant, cooperative, and deeply oriented toward security through belonging. But not every meerkat keeps watch in the same way. Some climb quietly onto the highest rock and methodically scan the horizon this shows the Five wing, the meerkat of analysis. Others run off, mobilize the group, bring movement to the territory before the threat is even visible here you can see the Seven wing. Donata Hopfen belongs to the second kind.</p>
           <p class="vb-intro">She is a management consultant, digital strategist, former CEO of Bild and the Deutsche Fußball Liga (German Football League). A woman who stepped into large, sluggish systems wanting to get them moving. Not out of self-interest, but from the deeply rooted SO6 drive: I am here for the group. I handle what needs to be done. I clear the way. The meerkat of the SO6w7 does not run away it runs ahead.</p>
         </blockquote>
 
@@ -347,7 +349,7 @@ export function donataHopfenPortraitPage() {
         <h2 class="vb-section">3. The Seven Wing: Speed as Home</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Seven wing (w7) brings something to the social Six that an SO6 with a weaker Seven wing would not develop on its own: enthusiasm, willingness to take risks, and the conviction that setting out is better than staying put. Where the SO6 naturally leans toward caution and hedging, the Seven wing opens the door to vastness. The result is a person who seeks belonging and creates it through charisma and the energy of departure rather than through quietness.</p>
-          <p class="vb-intro">Hopfen is considered a thought leader in digital transformation. She speaks publicly, gets involved, takes positions. Her style is not that of Melanie Kreis, who convinces in the background through quality Hopfen is visible, articulate, present. That is the SO6w7 as a leadership type: Security is not gained by retreating into depth, but through outward connection, through moving people, through the feeling that the group stays in motion.</p>
+          <p class="vb-intro">Hopfen is considered a thought leader in digital transformation. She speaks publicly, gets involved, takes positions. Her style is not that of Melanie Kreis, who convinces in the background through quality Hopfen is visible, articulate, present. Here we see the SO6w7 as a leadership type: Security is not gained by retreating into depth, but through outward connection, through moving people, through the feeling that the group stays in motion.</p>
           <p class="vb-intro">Where the Five wing directs energy inward analysis, understanding, knowledge as a foundation the Seven wing directs it outward: networking, ideas, the next step. The meerkat of the SO6w7 does not keep watch alone. It organizes the whole group to look out together.</p>
         </blockquote>
 
@@ -360,7 +362,7 @@ export function donataHopfenPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow: When the Group Votes Out the Guardian</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SO6w7 is its ability to set a community in motion. Hopfen is in demand as a consultant and speaker because she combines clarity, courage, and strategic vision. She can read systems, name opportunities, and carry people along. That is the SO6w7 on the bright side: It does not just serve it inspires.</p>
+          <p class="vb-intro">The light of the SO6w7 is its ability to set a community in motion. Hopfen is in demand as a consultant and speaker because she combines clarity, courage, and strategic vision. She can read systems, name opportunities, and carry people along. This shows the SO6w7 on the bright side: It does not just serve it inspires.</p>
           <p class="vb-intro">The shadow of the SO6w7 lies in speed. Where Melanie Kreis (SO6w5) brakes with the Five wing, thoroughly checks, and only then acts, the SO6w7 can run off too early before the group is truly ready to come along. The Seven wing generates momentum and enthusiasm, but enthusiasm alone does not build a bridge between a vision and the fears of the people expected to follow that vision. The DFL episode shows this pattern in its purest form: The departure was real, the necessity was real but the group was not yet where the vision already was.</p>
           <p class="vb-intro">For the SO6, this is the deepest wound: Being cast out from the community by the exact same community one stepped up for. Hopfen made this experience public. And did not disappear afterward. That is the difference between the SO6 shadow and SO6 maturity: The mature Six knows that belonging does not hinge on a single group.</p>
         </blockquote>
@@ -380,6 +382,8 @@ export function donataHopfenPortraitPage() {
         {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
         {route:"beruehmte-melanie-kreis", label:"Portrait: Melanie Kreis (SO6w5)"},
         {route:"beruehmte-jonah-hill", label:"Portrait: Jonah Hill (SO6w7)"},
+        {route:"beruehmte-anne-applebaum", label:"Portrait: Anne Applebaum (SO6w7)"},
+        {route:"beruehmte-herfried-muenkler", label:"Portrait: Herfried Münkler (SO6w7)"},
       ])}
     </div>
   `);
@@ -451,6 +455,9 @@ export function fionaApplePortraitPage() {
         {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
         {route:"beruehmte-javier-parisi", label:"Portrait: Javier Parisi (SO4w5)"},
         {route:"krankheitsportraets-fiona-apple", label:"Illness Portrait: Fiona Apple (SO4w5)"},
+        {route:"beruehmte-edgar-allan-poe", label:"Portrait: Edgar Allan Poe (SO4w5)"},
+        {route:"beruehmte-lana-del-rey", label:"Portrait: Lana Del Rey (SX3w4)"},
+        {route:"beruehmte-leonard-cohen", label:"Portrait: Leonard Cohen (SO4w5)"},
       ])}
     </div>
   `);
@@ -497,7 +504,7 @@ export function gangajiPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow of the Sexual Four</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX4w3 is the ability to <strong>turn a deeply personal longing into a publicly effective, structured teaching mission</strong> – Gangaji's path from Mississippi teacher to internationally known satsang teacher shows how much reach an intensity can gain once it no longer holds itself back within conventional bounds.</p>
+          <p class="vb-intro">What distinguishes the SX4w3 is the ability to <strong>turn a deeply personal longing into a publicly effective, structured teaching mission</strong> – Gangaji's path from Mississippi teacher to internationally known satsang teacher shows how much reach an intensity can gain once it no longer holds itself back within conventional bounds.</p>
           <p class="vb-intro">The Four's fatal flaw is <strong>envy</strong> – in the Sexual Four as rivalistic envy, the need to always go further in intensity and realness than others. Critics of the neo-Advaita movement, to which Gangaji is counted, point out that Papaji himself is said to have later expressed doubts about the legitimacy of several of his Western students – a reminder of how hard it is, within this movement especially, to distinguish depth from mere stage intensity when no traditional teaching lineage secures one's own authority.</p>
         </blockquote>
 
@@ -544,7 +551,7 @@ export function hansChristianAndersenPortraitPage() {
 
         <h2 class="vb-section">2. Social Four: Shame That Seeks Society</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Social Four carries Four's core conviction &ndash; <em>something is wrong with me, I am different from others</em> &ndash; directly into the group. It doesn't withdraw like SE4 and doesn't dramatize like SX4, but compares itself constantly: who belongs, who doesn't, and why am I the one who doesn't quite fit? Naranjo aptly describes this subtype through the element of <em>shame</em> &ndash; a sense of shame that, paradoxically, doesn't lead to withdrawal but to a constant search for validation from exactly the group one feels excluded from.</p>
+          <p class="vb-intro">Social Four carries Four's core conviction &ndash; <em>something is wrong with me, I am different from others</em> &ndash; directly into the group. It doesn't withdraw like SP4 and doesn't dramatize like SX4, but compares itself constantly: who belongs, who doesn't, and why am I the one who doesn't quite fit? Naranjo aptly describes this subtype through the element of <em>shame</em> &ndash; a sense of shame that, paradoxically, doesn't lead to withdrawal but to a constant search for validation from exactly the group one feels excluded from.</p>
           <p class="vb-intro">Andersen's entire life was shaped by this movement. At fourteen, without training or money, he traveled alone to Copenhagen to become an actor, singer, or dancer at the Royal Theatre &ndash; he was rejected at all three attempts, but stayed because benefactors, out of pity and interest in his unusual talent, supported him. This position &ndash; supported, but never quite accepted as an equal; famous, but inwardly always the shoemaker's son among nobility &ndash; remained his basic tension for life. He became the most-traveled poet of his time, mingling with kings and princes across half of Europe &ndash; while feeling almost continuously unsure whether he truly belonged.</p>
         </blockquote>
 
@@ -614,13 +621,13 @@ export function heinrichHeinePortraitPage() {
 
         <h2 class="vb-section">2. Social Four: Shame Between Two Belongings</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The social Four carries the Four's core conviction &ndash; <em>something is wrong with me, I am different from others</em> &ndash; directly into the group. She does not withdraw but constantly compares: who belongs, who doesn't, and why am I precisely the one who doesn't quite fit in? Naranjo describes this subtype through the element of <em>shame</em> &ndash; a feeling that paradoxically does not lead to withdrawal, but to a constant search for confirmation from exactly the group one feels excluded from.</p>
+          <p class="vb-intro">The social Four carries the Four's core conviction &ndash; <em>something is wrong with me, I am different from others</em> &ndash; directly into the group. She does not withdraw but constantly compares: who belongs, who doesn't, and why am I precisely the one who doesn't quite fit in? Naranjo (from whom the author learned the Enneagram) describes this subtype through the element of <em>shame</em> &ndash; a feeling that paradoxically does not lead to withdrawal, but to a constant search for confirmation from exactly the group one feels excluded from.</p>
           <p class="vb-intro">At eighteen, Heine fell unhappily in love with his cousin Amalie, daughter of his wealthy uncle Salomon Heine, and later, just as unsuccessfully, with her younger sister Therese &ndash; a double rejection that became the theme of many of his early poems. The pattern repeated itself: tolerated and financially supported by his own uncle, but never truly accepted as an equal; famous across Europe, yet inwardly always standing between belongings, never quite arriving in either.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Three-Wing: Bans That Became Fame</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Three-wing turns the Four's introspective sadness into an active drive toward visibility. In 1827, "Book of Songs" established his international reputation &ndash; many of the poems were set to music by composers like Schubert (SE6w5), Schumann (SX7w8), and Mendelssohn and thereby spread far beyond the literary circle they were originally intended for.</p>
+          <p class="vb-intro">The Three-wing turns the Four's introspective sadness into an active drive toward visibility. In 1827, "Book of Songs" established his international reputation &ndash; many of the poems were set to music by composers like Schubert (SP6w5), Schumann (SX7w8), and Mendelssohn and thereby spread far beyond the literary circle they were originally intended for.</p>
           <p class="vb-intro">When German authorities banned his radical political writings, Heine did not withdraw but used the ban itself as a stage &ndash; the censorship, as contemporaries noted, only added to his growing fame. In Paris, where he spent the last 25 years of his life in exile, he deliberately enjoyed the status of a literary celebrity and became a public symbol of liberal, cosmopolitan values for the international press. The Three-wing knew: visibility is the proof that one's own difference is actually worth something.</p>
         </blockquote>
 
@@ -638,7 +645,7 @@ export function heinrichHeinePortraitPage() {
 
         <h2 class="vb-section">6. The Armadillo in the Mattress Grave</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Four leads from the question <em>Will I finally belong, if the others see who I really am?</em> to the insight <em>I already belong, regardless of whether the group confirms it.</em> For the SO4w3, this means no longer having to prove one's own uniqueness before an audience.</p>
+          <p class="vb-intro">For the Four, the path of healing leads from the question <em>Will I finally belong, if the others see who I really am?</em> to the insight <em>I already belong, regardless of whether the group confirms it.</em> For the SO4w3, this means no longer having to prove one's own uniqueness before an audience.</p>
           <p class="vb-intro">From 1848 on, Heine was confined to bed by a progressive, likely syphilitic paralysis &ndash; he spent the last eight years of his life in what he himself called his "mattress grave," half blind and marked by agonizing pain. Yet even there, the Three-wing did not fall silent: he continued to receive visitors, dictated poems, and kept his famous wit until the end. When his wife prayed at his deathbed that God might forgive him, he is said to have replied: "God will forgive me &ndash; that's his job." Heine died on February 17, 1856, in Paris. The armadillo who stood between two worlds his whole life found, in the end, its most lasting belonging exactly there: in verses still sung in both worlds today.</p>
         </blockquote>
 
@@ -677,7 +684,7 @@ export function hughWarwickPortraitPage() {
 
         <h2 class="vb-section">1. The hedgehog carrying on a lifelong love affair with the hedgehog</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>hedgehog</strong> is the animal of the Sexual Five &ndash; spiky on the outside, vulnerable at the core, and capable of a bonding intensity that concentrates not on many things but on one deeply explored subject. Few lives show this pattern as literally as that of Hugh Warwick, British ecologist, author, and spokesperson for the British Hedgehog Preservation Society, whom decades of devotion have earned the simple nickname "the hedgehog whisperer."</p>
+          <p class="vb-intro">The <strong>hedgehog</strong> is the emblem of the Sexual Five &ndash; spiky on the outside, vulnerable at the core, and capable of a bonding intensity that concentrates not on many things but on one deeply explored subject. Few lives show this pattern as literally as that of Hugh Warwick, British ecologist, author, and spokesperson for the British Hedgehog Preservation Society, whom decades of devotion have earned the simple nickname "the hedgehog whisperer."</p>
           <p class="vb-intro">The British ecologist Hugh Warwick has studied hedgehogs since the mid-1980s, spent months radio-tracking the animals across southwest England and Scotland, and has devoted practically his entire professional life to them for over three decades. One of his best-known books carries the telling title "A Prickly Affair" &ndash; a title that describes his relationship to the hedgehog for exactly what it is: an affair, not merely a field of study.</p>
         </blockquote>
 
@@ -689,13 +696,13 @@ export function hughWarwickPortraitPage() {
 
         <h2 class="vb-section">3. The Four-wing: spines as protection, longing as engine</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the Five a romantic, often melancholic depth &ndash; pure analytical distance is complemented by an emotional, almost poetic note that turns the subject matter into a personal story. Warwick's books accordingly read not like dry non-fiction, but like personal narratives of a search &ndash; for his own connection to an animal the world mostly overlooks.</p>
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> lends the Five a romantic, often melancholic depth &ndash; pure analytical distance is complemented by an emotional, almost poetic note that turns the subject matter into a personal story. Warwick's books accordingly read not like dry non-fiction, but like personal narratives of a search &ndash; for his own connection to an animal the world mostly overlooks.</p>
           <p class="vb-intro">Like the hedgehog itself, Warwick protects his own vulnerability with a kind of coat of spines: humor and pointed, often wittily barbed writing, behind which lies the deepest emotional resonance with this one particular animal. In a figurative sense, he carries on an almost exclusive, passionate two-person relationship with the hedgehog as a species &ndash; not a detached professional connection, but something he himself calls a love affair.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX5w4 is its ability to turn <strong>a private, almost obsessive passion into a publicly effective protection movement</strong> &ndash; Warwick's campaign for legally mandated "hedgehog highways" in British new-build developments gathered a petition with nearly a million signatures and international attention for an animal that is easily overlooked without such advocates.</p>
+          <p class="vb-intro">What distinguishes the SX5w4 is its ability to turn <strong>a private, almost obsessive passion into a publicly effective protection movement</strong> &ndash; Warwick's campaign for legally mandated "hedgehog highways" in British new-build developments gathered a petition with nearly a million signatures and international attention for an animal that is easily overlooked without such advocates.</p>
           <p class="vb-intro">The shadow of the Sexual Five with a Four-wing shows in how tightly one's own identity can become bound to a single, highly specific subject &ndash; his own social media handle "Hedgehog Hugh" makes clear how completely the hedgehog defines his public persona. Such an exclusive bond carries far, but leaves little room for a self beyond this one passion.</p>
         </blockquote>
 
@@ -717,6 +724,7 @@ export function hughWarwickPortraitPage() {
         {route:"lebensmusterkompass/sx5", label:"Life Pattern Compass: SX5 – Hedgehog"},
         {route:"beruehmte-greta-garbo", label:"Portrait: Greta Garbo (SX5w4)"},
         {route:"beruehmte-frederic-chopin", label:"Portrait: Frédéric Chopin (SX5w4)"},
+        {route:"beruehmte-alan-turing", label:"Portrait: Alan Turing (SX5w4)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-hugh-warwick")}
     </div>
@@ -759,7 +767,7 @@ export function janeGoodallPortraitPage() {
         <h2 class="vb-section">4. "I went as a scientist. I left as an activist."</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In 1986, Goodall attended a conference on habitat destruction and brutal poaching of chimpanzees – a turning point she later summed up herself: "I went to that conference as a scientist. I left as an activist." From then on she crisscrossed the globe up to 300 days a year, speaking before parliaments, universities, and conferences – always in her characteristically quiet, never confrontational manner. Her own creed: "If you want someone to change, you've got to reach the heart first."</p>
-          <p class="vb-intro">In 1991 she founded "Roots & Shoots", a global youth movement spanning more than 100 countries, carried by a clear moral principle: "Every day you live, you make some kind of impact." This is the One wing at its most mature – not loud preaching, but a calm, unshakeable conviction that drives action.</p>
+          <p class="vb-intro">In 1991 she founded "Roots & Shoots", a global youth movement spanning more than 100 countries, carried by a clear moral principle: "Every day you live, you make some kind of impact." Here you can see the One wing at its most mature – not loud preaching, but a calm, unshakeable conviction that drives action.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Empathy and objectivity: No contradiction</h2>
@@ -780,7 +788,12 @@ export function janeGoodallPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-craig-foster", label:"Portrait: Craig Foster (SX9w1)"},
           {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
-          {route:"beruehmte-dian-fossey", label:"Portrait: Dian Fossey (SE7w8)"},
+          {route:"beruehmte-dian-fossey", label:"Portrait: Dian Fossey (SP7w8)"},
+          {route:"beruehmte-ana-salceda", label:"Portrait: Ana Salceda (SX9w1)"},
+          {route:"beruehmte-bruce-springsteen", label:"Portrait: Bruce Springsteen (SX9w1)"},
+          {route:"beruehmte-kris-marshall", label:"Portrait: Kris Marshall (SX9w1)"},
+          {route:"beruehmte-peter-maffay", label:"Portrait: Peter Maffay (SX9w1)"},
+          {route:"beruehmte-stefan-homburg", label:"Portrait: Stefan Homburg (SX9w1)"},
         ])}
       </div>
     </div>
@@ -812,6 +825,7 @@ export function johannWolfgangVonGoethePortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Naranjo called <strong>Social Seven (SO7)</strong> <em>Sacrifice</em>: it directs the Seven's insatiable appetite not toward its own enjoyment, but sacrifices it for a larger idea &ndash; and finds its deepest fulfillment precisely there. Goethe lived this to a degree that astonished his contemporaries: in 1775, at just 26, at the height of his literary fame from "The Sorrows of Young Werther," he accepted the invitation of the young Duke Carl August to Weimar &ndash; and committed himself for nearly fifty years to administrative work that often stood diametrically opposed to his true artistic nature.</p>
           <p class="vb-intro">He took on responsibility for the mining commission, the road-building commission, the war commission, and eventually the finances of the small duchy &ndash; tasks that had little to do with poetry, but served a larger system to which he had dedicated himself. The Beaver does not build to shine, but because it believes the community it belongs to needs its building.</p>
+          <p class="vb-intro">Renunciation shows most clearly in the late work, in Marienbad: in the summer of 1823 the 73-year-old Goethe fell in love with the 17-year-old Ulrike von Levetzow. The Duke of Weimar, Carl August, even asked for her hand on his behalf, but nothing came of the union. Goethe left in September and wrote the &lsquo;Marienbad Elegy&rsquo; on the journey home, which he later included in the &lsquo;Trilogy of Passion&rsquo;. Instead of living out the pain, he gave it form: renunciation as an attitude and as a theme that also runs through his &lsquo;Wanderjahre&rsquo; (&lsquo;Years of Travel&rsquo;). Here we see the social Seven in miniature: it gives up the personal for the sake of a larger context, here the work, and turns the renunciation into form.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Six-Wing: Loyalty, System, and Flight as the Exception</h2>
@@ -849,6 +863,7 @@ export function johannWolfgangVonGoethePortraitPage() {
         {route:"beruehmte-jules-verne", label:"Portrait: Jules Verne (SO7w6)"},
         {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6)"},
         {route:"beruehmte-jeanne-marie-guyon", label:"Portrait: Jeanne-Marie Bouvier de la Motte Guyon (SO7w6)"},
+        {route:"krankheitsportraets-friedrich-schiller", label:"Friedrich Schiller (SX6w5) – illness portrait"},
       ])}
     </div>
   `);
@@ -881,7 +896,7 @@ export function karlLagerfeldPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The social subtype of the Three, commonly called the prestige/reinforcement type, does not live for success—he is success. Karl Lagerfeld embodied this type in the cultural history of the 20th century like almost no one else. His work at Chanel—taken over in 1983, when the house was considered outdated, and led until his death in 2019—is one of the most extraordinary transformation stories in the fashion world.</p>
           <p class="vb-intro">The SO3 reinvents. He knows that image is not a static construct, but a living project. Lagerfeld reinvented himself multiple times: as a Hamburg boy who conquered Paris; as Kaiser Karl in the eighties; as a person who lost over forty kilograms in 2001 because he wanted to wear jeans designed by a young designer. This last point is exemplary: he did not shape his body because he wanted to live healthier—he shaped it because the image demanded it.</p>
-          <p class="vb-intro">That is the social Three in its most radical consequence: the self is subordinated to success until no difference remains.</p>
+          <p class="vb-intro">This shows the social Three in its most radical consequence: the self is subordinated to success until no difference remains.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Four Wing: Aesthetics as a Worldview, Uniqueness as a Duty</h2>
@@ -907,7 +922,7 @@ export function karlLagerfeldPortraitPage() {
 
         <h2 class="vb-section">6. The Path to Healing: When the Image Is No Longer the Person</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Three leads from identification with the image to discovering the self beneath it. For Karl Lagerfeld, this was a lifelong balancing act—and there are indications that he walked it at least inklingly.</p>
+          <p class="vb-intro">For the Three, the path of healing leads from identification with the image to discovering the self beneath it. For Karl Lagerfeld, this was a lifelong balancing act—and there are indications that he walked it at least inklingly.</p>
           <p class="vb-intro">He rarely spoke about feelings—but when he did, it was with a surprising honesty. About the loneliness of aging. About his bond with Choupette, his cat, whom he described as his favorite creature and to whom he left parts of his fortune. A cat requires no performance. A cat loves unconditionally. Perhaps that was the place where Karl Lagerfeld the human, not the brand, was briefly allowed to show himself.</p>
           <p class="vb-intro">A conscious SO3w4 knows that his work is greater than he is—and that he himself is greater than his work. The cheetah pausing to look at its reflection without immediately sprinting on—that is the energy that was always waiting behind the white ponytail and the dark lenses.</p>
         </blockquote>
@@ -924,9 +939,13 @@ export function karlLagerfeldPortraitPage() {
         {route:"krankheitsportraets-karl-lagerfeld", label:"Illness Portrait: Karl Lagerfeld (SO3w4)"},
         {route:"beruehmte-sahra-wagenknecht", label:"Portrait: Sahra Wagenknecht (SO3w2)"},
         {route:"beruehmte-cristiano-ronaldo", label:"Portrait: Cristiano Ronaldo (SO3w2)"},
-        {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SE3w4)"},
+        {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SP3w4)"},
         {route:"bibel-pontius-pilatus", label:"Bible Portrait: Pontius Pilate (SO3w4)"},
-        {route:"beruehmte-william-james", label:"Portrait: William James (SO3w4)"}
+        {route:"beruehmte-william-james", label:"Portrait: William James (SO3w4)"},
+        {route:"beruehmte-sean-connery", label:"Portrait: Sean Connery (SO3w4)"},
+        {route:"beruehmte-sonoya-mizuno", label:"Portrait: Sonoya Mizuno (SO3w4)"},
+        {route:"beruehmte-teresa-von-avila", label:"Portrait: Teresa of Ávila (SO3w4)"},
+        {route:"beruehmte-sven-platte", label:"Portrait: Sven Platte (SO3w4)"},
       ])}
     </div>
   `);
@@ -973,7 +992,7 @@ export function ladyDianaPortraitPage() {
 
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Four</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP4 is its empathy &ndash; the ability not merely to understand the pain of others but to truly feel it. Diana sat at bedsides, held hands, looked and listened while others looked away. That is not a talent one learns. That is the SP4 transforming its own pain into connection: <em>I know this. You are not alone.</em></p>
+          <p class="vb-intro">The light of the SP4 is its empathy &ndash; the ability not merely to understand the pain of others but to truly feel it. Diana sat at bedsides, held hands, looked and listened while others looked away. That is not a talent one learns. Here you can see the SP4 transforming its own pain into connection: <em>I know this. You are not alone.</em></p>
           <p class="vb-intro">The karmic pattern of the Four is <strong>envy</strong> &ndash; not as ill will, but as the deep feeling that others were given something that was withheld from oneself. In the SP4 this expresses as the chronic feeling of incompleteness: never quite right, never quite enough, always somewhat excluded. Diana described this feeling throughout her life &ndash; the feeling of living in a world made for others, not for her.</p>
           <p class="vb-intro">The Three-wing brings the danger of measuring one&apos;s own worth by external effectiveness. When the applause falls silent, when the cameras look away &ndash; who is the SP4w3 then? This question accompanied Diana, especially in the years after the divorce, when the protocol fell away and a new identity had to be found.</p>
         </blockquote>
@@ -991,8 +1010,17 @@ export function ladyDianaPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
-        {route:"krankheitsportraets-lady-diana", label:"Illness Portrait: Lady Diana (SE4w3)"},
+        {route:"krankheitsportraets-lady-diana", label:"Illness Portrait: Lady Diana (SP4w3)"},
         {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SP2w1)"},
+        {route:"beruehmte-adele", label:"Portrait: Adele (SP4w3)"},
+        {route:"beruehmte-clemens-arvay", label:"Portrait: Clemens G. Arvay (SP4w5)"},
+        {route:"beruehmte-honore-de-balzac", label:"Portrait: Honoré de Balzac (SP4w3)"},
+        {route:"beruehmte-june-carter-cash", label:"Portrait: June Carter Cash (SP4w3)"},
+        {route:"beruehmte-mette-marit", label:"Portrait: Mette-Marit (SP4w3)"},
+        {route:"beruehmte-nicolas-cage", label:"Portrait: Nicolas Cage (SP4w3)"},
+        {route:"beruehmte-peter-gabriel", label:"Portrait: Peter Gabriel (SP4w3)"},
+        {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
+        {route:"beruehmte-tim-bendzko", label:"Portrait: Tim Bendzko (SP4w3)"},
       ])}
     </div>
   `);
@@ -1008,33 +1036,33 @@ export function loiPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-loi-portrait.jpg" alt="Loi (Leonie Greiner) – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Loi (Leonie Greiner)</p>
-        <p class="krim-portrait-typ">SE2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
         <p class="krim-portrait-subtitle">German singer &amp; songwriter, born 2002 in Mannheim &ndash; Animal correspondence: Hippopotamus</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal whose very name is a statement: steadfast, warm-hearted, unshakeable on its own ground. Leonie Greiner chose the stage name <em>Loi</em>, an alternate spelling of "lion" – derived from her childhood nickname "Leonie Lionheart." A name that asserted an inner strength early on, one that would only later be confirmed publicly.</p>
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the symbolic animal of the self-preservation Two &ndash; an animal whose very name is a statement: steadfast, warm-hearted, unshakeable on its own ground. Leonie Greiner chose the stage name <em>Loi</em>, an alternate spelling of "lion" – derived from her childhood nickname "Leonie Lionheart." A name that asserted an inner strength early on, one that would only later be confirmed publicly.</p>
           <p class="vb-intro">Born July 3, 2002, in Mannheim, Loi's musical path did not begin with a sudden breakthrough but with years of practicing guitar and piano – a solid, craft-based foundation before she was known to any wider audience at all.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Two: Care Through Family Closeness Within Success</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SE2)</strong> <em>Me First</em>: security and closeness arise first within the closest, most familiar circle, before turning outward. In 2017, at just 15, Loi competed on <em>The Voice Kids</em> and reached the finale – an early public appearance that did not immediately catapult her into a solo spotlight career, but marked the beginning of a slow, continuous build.</p>
-          <p class="vb-intro">This patience to work on her own craft for years, rather than chase a quick breakthrough, is typical of the SE2: security is built first within one's own musical foundation before it is translated outward into greater success.</p>
+          <p class="vb-intro">Naranjo (from whom the author learned the Enneagram) called the <strong>self-preservation Two (SP2)</strong> <em>Me First</em>: security and closeness arise first within the closest, most familiar circle, before turning outward. In 2017, at just 15, Loi competed on <em>The Voice Kids</em> and reached the finale – an early public appearance that did not immediately catapult her into a solo spotlight career, but marked the beginning of a slow, continuous build.</p>
+          <p class="vb-intro">This patience to work on her own craft for years, rather than chase a quick breakthrough, is typical of the SP2: security is built first within one's own musical foundation before it is translated outward into greater success.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Three-Wing: International Success with "Gold"</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to seek visible, publicly effective success from this solid base. In 2022, Loi's single <em>Gold</em> reached gold certification status in France and Poland and climbed to number two on the charts in Poland – an international success reaching far beyond her German home base.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> brings the self-preservation Two the drive to seek visible, publicly effective success from this solid base. In 2022, Loi's single <em>Gold</em> reached gold certification status in France and Poland and climbed to number two on the charts in Poland – an international success reaching far beyond her German home base.</p>
           <p class="vb-intro">The song's title itself is telling: <em>Gold</em> as a visible, measurable symbol of success, achieved by the same young artist who years earlier was still patiently practicing guitar and piano – the Three-wing translates the early, private foundation into internationally measurable success.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE2w3 lies in the ability to reach international success from an early, patiently built musical foundation, without losing her own signature as a guitar- and piano-playing songwriter.</p>
-          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to her own success through her own performance. In the SE2w3, this can combine with the need to continuously reaffirm once-achieved success – like that with <em>Gold</em> – rather than resting on a single hit.</p>
+          <p class="vb-intro">The light of the SP2w3 lies in the ability to reach international success from an early, patiently built musical foundation, without losing her own signature as a guitar- and piano-playing songwriter.</p>
+          <p class="vb-intro">At the centre of the Two stands <strong>pride</strong> &ndash; the conviction of being indispensable to her own success through her own performance. In the SP2w3, this can combine with the need to continuously reaffirm once-achieved success – like that with <em>Gold</em> – rather than resting on a single hit.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Work: From "Leonie Lionheart" to International Charts</h2>
@@ -1049,9 +1077,9 @@ export function loiPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
-        {route:"beruehmte-nate-dogg", label:"Portrait: Nate Dogg (SE2w3)"},
-        {route:"beruehmte-tutty-tran", label:"Portrait: Tutty Tran (SE2w3)"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-nate-dogg", label:"Portrait: Nate Dogg (SP2w3)"},
+        {route:"beruehmte-tutty-tran", label:"Portrait: Tutty Tran (SP2w3)"},
       ])}
     </div>
   `);
@@ -1086,7 +1114,7 @@ export function marieAntoinettePortraitPage() {
 
         <h2 class="vb-section">3. The Three-Wing: Fashion as a Universal Language</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two an additional drive: the will to be seen, to consciously shape one's own appearance and use it as a means of expression. Marie Antoinette worked closely with the milliner Rose Bertin, who became known as the "Minister of Fashion," and with her towering "pouf" hairstyles &ndash; decorated with feathers, ship models, or garden scenes &ndash; shaped European fashion taste for her entire era.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> brings the self-preservation Two an additional drive: the will to be seen, to consciously shape one's own appearance and use it as a means of expression. Marie Antoinette worked closely with the milliner Rose Bertin, who became known as the "Minister of Fashion," and with her towering "pouf" hairstyles &ndash; decorated with feathers, ship models, or garden scenes &ndash; shaped European fashion taste for her entire era.</p>
           <p class="vb-intro">At the Hameau de la Reine, a mock peasant village built especially for her in the Versailles park, she and her court staged simple rural life &ndash; dressed as shepherdesses and milkmaids, amid real cows and immaculately clean thatched cottages. This was no ascetic retreat but pure image direction: the longing for simplicity itself turned back into an elaborately choreographed performance. She also loved theater, performed herself in amateur plays at court, and enjoyed balls and masquerades as a stage on which to be seen.</p>
         </blockquote>
 
@@ -1099,7 +1127,7 @@ export function marieAntoinettePortraitPage() {
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Two</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of SP2w3 lies in the ability to shape a distinctive, unmistakable style out of a forced, externally determined existence &ndash; Marie Antoinette's influence on fashion, interior design, and courtly aesthetics still resonates today. Her care for her children and closest confidantes was genuine and deep, not mere show.</p>
-          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to one's circle and above criticism. For years, Marie Antoinette underestimated how much her elaborate appearance was perceived as a provocation in a time of growing poverty and state debt. The Three-wing that helped her assert herself at court also isolated her from the reality beyond the glossy surface she had built for herself.</p>
+          <p class="vb-intro">The core pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to one's circle and above criticism. For years, Marie Antoinette underestimated how much her elaborate appearance was perceived as a provocation in a time of growing poverty and state debt. The Three-wing that helped her assert herself at court also isolated her from the reality beyond the glossy surface she had built for herself.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Hippopotamus That Lost Its Protective Film</h2>
@@ -1117,6 +1145,7 @@ export function marieAntoinettePortraitPage() {
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-frida-kahlo", label:"Portrait: Frida Kahlo (SP2w3)"},
         {route:"beruehmte-yayoi-kusama", label:"Portrait: Yayoi Kusama (SP2w3)"},
+        {route:"beruehmte-natascha-kampusch", label:"Portrait: Natascha Kampusch (SP2w1)"},
       ])}
     </div>
   `);
@@ -1132,7 +1161,7 @@ export function michaelSchumacherPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michael-schumacher-portrait.jpg" alt="Michael Schumacher – portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Michael Schumacher</p>
-        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with Nine-Wing</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-Wing</p>
         <p class="krim-portrait-subtitle">Formula 1 driver, seven-time world champion, born 1969 in Hürth &ndash; Animal correspondence: Bald Eagle</p>
       </div>
       <div class="page-content">
@@ -1145,7 +1174,7 @@ export function michaelSchumacherPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation One: perfection as a private standard</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Self-Preservation One (SE1)</strong> directs its perfectionism not at correcting others but inward, at its own preparation and integrity. Schumacher was known for a physical and mental preparation unmatched in the Formula 1 of his era: he trained like an elite athlete – endurance, reflexes, neck muscles – knew every corner of every track to a level of detail that astonished his engineers, and questioned, analyzed, refined until the preparation left no gaps. This was never a display of skill for its own sake, but a quiet, never publicly showcased demand on himself to leave nothing undone.</p>
+          <p class="vb-intro">The <strong>Self-Preservation One (SP1)</strong> directs its perfectionism not at correcting others but inward, at its own preparation and integrity. Schumacher was known for a physical and mental preparation unmatched in the Formula 1 of his era: he trained like an elite athlete – endurance, reflexes, neck muscles – knew every corner of every track to a level of detail that astonished his engineers, and questioned, analyzed, refined until the preparation left no gaps. This was never a display of skill for its own sake, but a quiet, never publicly showcased demand on himself to leave nothing undone.</p>
           <p class="vb-intro">His famous "qualifying feel" – the ability to extract everything from himself and the car in a single flying lap – was the result of years of meticulous fine-tuning of his own technique, not a spontaneous flash of genius. The same discipline showed in his loyalty to the Ferrari team: the years 2000 to 2004, in which he won five titles in a row, were no solo project but the result of years of patient collective effort alongside Jean Todt, Ross Brawn, and Rory Byrne – fulfilling a duty to a team he had committed himself to, not self-promotion.</p>
         </blockquote>
 
@@ -1164,7 +1193,7 @@ export function michaelSchumacherPortraitPage() {
         <h2 class="vb-section">5. Light and shadow of the Self-Preservation One</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In the light, Schumacher shows a sense of duty sustained without fail for decades: he led Ferrari out of long-standing failure into an era of dominance and permanently raised the bar for preparation, analysis, and teamwork in Formula 1.</p>
-          <p class="vb-intro">The besetting sin of the One is <strong>anger</strong> – in the SE1w9 usually muted and directed inward, yet by no means absent when the One's own sense of justice is violated. In 1994 at Adelaide, Schumacher collided with Damon Hill in a maneuver still disputed today; in 1997 at Jerez he deliberately steered his car into Jacques Villeneuve and was struck from the championship standings for it. Both incidents followed championship situations in which Schumacher saw himself as both in the right and at a disadvantage – the rare but all the more forceful eruption of the otherwise so controlled anger of the One, when his own, self-perceived-as-just position feels threatened.</p>
+          <p class="vb-intro">The besetting sin of the One is <strong>anger</strong> – in the SP1w9 usually muted and directed inward, yet by no means absent when the One's own sense of justice is violated. In 1994 at Adelaide, Schumacher collided with Damon Hill in a maneuver still disputed today; in 1997 at Jerez he deliberately steered his car into Jacques Villeneuve and was struck from the championship standings for it. Both incidents followed championship situations in which Schumacher saw himself as both in the right and at a disadvantage – the rare but all the more forceful eruption of the otherwise so controlled anger of the One, when his own, self-perceived-as-just position feels threatened.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The eagle that falls silent</h2>
@@ -1180,14 +1209,20 @@ export function michaelSchumacherPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se1", label:"SE1 – The Bald Eagle: subtype profile"},
-        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SE1 – Bald Eagle"},
-        {route:"krankheitsportraets-michael-schumacher", label:"Illness Portrait: Michael Schumacher (SE1w9)"},
-        {route:"beruehmte-carl-xvi-gustaf", label:"Portrait: Carl XVI Gustaf (SE1w9)"},
-        {route:"beruehmte-johannes-gutenberg", label:"Portrait: Johannes Gutenberg (SE1w9)"},
-        {route:"beruehmte-konrad-zuse", label:"Portrait: Konrad Zuse (SE1w9)"},
-        {route:"beruehmte-johannes-paul-ii", label:"Portrait: John Paul II (SE1w9)"},
+        {route:"subtype/se1", label:"SP1 – The Bald Eagle: subtype profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SP1 – Bald Eagle"},
+        {route:"krankheitsportraets-michael-schumacher", label:"Illness Portrait: Michael Schumacher (SP1w9)"},
+        {route:"beruehmte-carl-xvi-gustaf", label:"Portrait: Carl XVI Gustaf (SP1w9)"},
+        {route:"beruehmte-johannes-gutenberg", label:"Portrait: Johannes Gutenberg (SP1w9)"},
+        {route:"beruehmte-konrad-zuse", label:"Portrait: Konrad Zuse (SP1w9)"},
+        {route:"beruehmte-johannes-paul-ii", label:"Portrait: John Paul II (SP1w9)"},
         {route:"beruehmte-nico-rosberg", label:"Portrait: Nico Rosberg (SO1w2) – his Mercedes team-mate"},
+        {route:"beruehmte-alec-baldwin", label:"Portrait: Alec Baldwin (SX6w7)"},
+        {route:"beruehmte-eva-mendes", label:"Portrait: Eva Mendes (SX6w7)"},
+        {route:"beruehmte-heather-thomas", label:"Portrait: Heather Thomas (SX6w7)"},
+        {route:"beruehmte-lewis-hamilton", label:"Portrait: Lewis Hamilton (SO2w3)"},
+        {route:"beruehmte-oliver-kahn", label:"Portrait: Oliver Kahn (SX6w7)"},
+        {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7)"},
       ])}
     </div>
   `);
@@ -1216,31 +1251,31 @@ export function nataschaKampuschPortraitPage() {
 
         <h2 class="vb-section">2. The self-preservation Two: Survival through relationship</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to Naranjo, the self-preservation Two (SE2) is the subtype he called "Seductive Child" – an early-developed ability to secure the goodwill of important attachment figures by making oneself indispensable, pleasant, or useful. In Kampusch's case, this strategy became a literal survival technique: she later reported that she comforted her kidnapper, Wolfgang Přiklopil, during his depressive episodes, reassured him, kept him stable – not out of affection, but because her own survival was directly tied to his stability.</p>
-          <p class="vb-intro">This adaptive performance was often publicly labeled "Stockholm syndrome" – a term Kampusch herself rejects as disrespectful. From an Enneagram perspective, it is more precise to say: under extreme threat, the SE2 secures her survival by regulating the emotional state of the more powerful person – a highly functional, if deeply painful, adaptation to a situation with no other available course of action.</p>
+          <p class="vb-intro">According to Naranjo, the self-preservation Two (SP2) is the subtype he called "Seductive Child" – an early-developed ability to secure the goodwill of important attachment figures by making oneself indispensable, pleasant, or useful. In Kampusch's case, this strategy became a literal survival technique: she later reported that she comforted her kidnapper, Wolfgang Přiklopil, during his depressive episodes, reassured him, kept him stable – not out of affection, but because her own survival was directly tied to his stability.</p>
+          <p class="vb-intro">This adaptive performance was often publicly labeled "Stockholm syndrome" – a term Kampusch herself rejects as disrespectful. From an Enneagram perspective, it is more precise to say: under extreme threat, the SP2 secures her survival by regulating the emotional state of the more powerful person – a highly functional, if deeply painful, adaptation to a situation with no other available course of action.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The One wing: Structure as a lifeline</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">An SE2 with a more muted One wing might have focused entirely on the relationship with her captor. In Kampusch's case, something else came through as well: discipline, order, an inner standard for herself that did not disappear even under impossible conditions. During her captivity she taught herself reading, writing, and general knowledge, listened to the radio, kept up with world events, and maintained a self-imposed daily structure.</p>
-          <p class="vb-intro">That is the One wing: the need to maintain a degree of order and self-discipline even in a state of emergency – not imposed from outside, but as an inner anchor of her own. Where the Two's relational adaptation kept her physically alive, the One wing kept her mind and identity intact.</p>
+          <p class="vb-intro">An SP2 with a more muted One wing might have focused entirely on the relationship with her captor. In Kampusch's case, something else came through as well: discipline, order, an inner standard for herself that did not disappear even under impossible conditions. During her captivity she taught herself reading, writing, and general knowledge, listened to the radio, kept up with world events, and maintained a self-imposed daily structure.</p>
+          <p class="vb-intro">Here we see the One wing: the need to maintain a degree of order and self-discipline even in a state of emergency – not imposed from outside, but as an inner anchor of her own. Where the Two's relational adaptation kept her physically alive, the One wing kept her mind and identity intact.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The escape and the house</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">On August 23, 2006, Kampusch managed to escape; her kidnapper took his own life the same day. In the years that followed, she made a decision that drew massive public criticism: she bought the house where she had been held captive for eight years and lives there at times. To many observers this seemed incomprehensible, almost further proof of an unresolved bond to her captor.</p>
-          <p class="vb-intro">From the SE2w1 perspective, the step makes sense: it was not about longing for the perpetrator, but about control over her own protective space. Kampusch herself explained the purchase as an attempt to prevent the house from becoming a site of morbid curiosity or "horror tourism". The self-preservation Two with a One wing actively manages the conditions of her own safety – and does not let anyone else dictate what healing has to look like.</p>
+          <p class="vb-intro">From the SP2w1 perspective, the step makes sense: it was not about longing for the perpetrator, but about control over her own protective space. Kampusch herself explained the purchase as an attempt to prevent the house from becoming a site of morbid curiosity or "horror tourism". The self-preservation Two with a One wing actively manages the conditions of her own safety – and does not let anyone else dictate what healing has to look like.</p>
         </blockquote>
 
         <h2 class="vb-section">5. 3,096 Days: Her own story as a tool</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In 2010 Kampusch published her autobiography "3,096 Days", adapted into a film in 2013; a second book, "10 Years of Freedom", followed in 2016. Instead of withdrawing from public view, she took control over the interpretation of her own story herself – as an author, later also as a talk show host and activist advocating for victims of violent crime.</p>
-          <p class="vb-intro">This is the SE2w1 after the crisis: the Two still seeks connection – but now with a broader audience, no longer with a single powerful person. The One wing ensures that this public role does not stay arbitrary, but follows a clear, self-imposed standard: accuracy about what happened, no minimizing, no overdramatizing.</p>
+          <p class="vb-intro">This shows the SP2w1 after the crisis: the Two still seeks connection – but now with a broader audience, no longer with a single powerful person. The One wing ensures that this public role does not stay arbitrary, but follows a clear, self-imposed standard: accuracy about what happened, no minimizing, no overdramatizing.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Hippopotamus that surfaced</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Natascha Kampusch still refuses to define herself exclusively as a victim – a stance that unsettles some, but that fits the SE2w1 exactly: even in the role of survivor, control over her own narrative, over her own image, remains a central concern. She refuses to be fully placed into a category others have created for her.</p>
+          <p class="vb-intro">Natascha Kampusch still refuses to define herself exclusively as a victim – a stance that unsettles some, but that fits the SP2w1 exactly: even in the role of survivor, control over her own narrative, over her own image, remains a central concern. She refuses to be fully placed into a category others have created for her.</p>
           <p class="vb-intro">The hippopotamus spends most of its life below the water's surface, unseen, protected – and then, when it needs to, surfaces with surprising force. Kampusch's path from captive to public voice for survivors is exactly this movement: out of hiding, controlled, on her own terms, in her own time.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
@@ -1274,7 +1309,7 @@ export function paulMccartneyPortraitPage() {
 
         <h2 class="vb-section">1. The Dove</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>dove</strong> is the animal of the self-preservation Four &ndash; unremarkable at first glance, but possessing a tenacity that endures long distances. It carries messages without pushing itself into the foreground, and returns where others would give up. Few song titles capture this image more precisely than Paul McCartney&#39;s own &bdquo;Let It Be&ldquo; &ndash; written in a night of doubt, as an answer to a dream of his late mother.</p>
+          <p class="vb-intro">The <strong>dove</strong> is the animal counterpart of the self-preservation Four &ndash; unremarkable at first glance, but possessing a tenacity that endures long distances. It carries messages without pushing itself into the foreground, and returns where others would give up. Few song titles capture this image more precisely than Paul McCartney&#39;s own &bdquo;Let It Be&ldquo; &ndash; written in a night of doubt, as an answer to a dream of his late mother.</p>
           <p class="vb-intro">Over sixty years of public work, more than 20,000 performances of his songs worldwide, and yet McCartney remains a figure whose deepest inner life is remarkably little known. The dove that sings what it feels &ndash; and almost never reveals what the singing costs.</p>
         </blockquote>
 
@@ -1289,7 +1324,7 @@ export function paulMccartneyPortraitPage() {
         <h2 class="vb-section">3. The Five-wing: The Craftsman Behind the Melody</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the self-preservation Four an analytical depth that goes beyond pure feeling: the need to understand how something works before using it. The SP4w5 does not only process emotion &ndash; it studies it, and turns what it has understood into precise craft.</p>
-          <p class="vb-intro">McCartney never learned to read music in the classical sense, but developed an extraordinary, self-taught understanding of harmony, bass lines, and song structure &ndash; an autodidactic study that continued across decades. As the Beatles&#39; bassist he revolutionized the role of the bass in pop music, moving it from pure rhythmic accompaniment to an independent melodic voice. That is the Five-wing at work: not the intuitive acting-out of feeling, but the patient building of a system through which feeling can be carried precisely.</p>
+          <p class="vb-intro">McCartney never learned to read music in the classical sense, but developed an extraordinary, self-taught understanding of harmony, bass lines, and song structure &ndash; an autodidactic study that continued across decades. As the Beatles&#39; bassist he revolutionized the role of the bass in pop music, moving it from pure rhythmic accompaniment to an independent melodic voice. Here you can see the Five-wing at work: not the intuitive acting-out of feeling, but the patient building of a system through which feeling can be carried precisely.</p>
           <p class="vb-intro">His notorious seclusion in the studio &ndash; endless nights alone at the piano, refining a single chord progression until it is right &ndash; carries the same signature. The Five-wing withdraws to understand, before stepping forward again to show.</p>
         </blockquote>
 
@@ -1302,13 +1337,13 @@ export function paulMccartneyPortraitPage() {
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Four</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SP4 is its ability to create, out of deep personal experience, something that carries without burdening. McCartney&#39;s songs accompany weddings, funerals, farewells, and new beginnings of people who will never know his private story &ndash; precisely because the pain within them has been transformed enough to fit any pain.</p>
-          <p class="vb-intro">The fate pattern of the Four is <strong>envy</strong> &ndash; the deep feeling that others were given something one lacks oneself. In McCartney this pattern showed itself for a long time in Lennon&#39;s shadow: for decades the public perception cast Lennon as the &bdquo;serious,&ldquo; &bdquo;authentic&ldquo; Beatle, McCartney often as the lightweight sentimentalist &ndash; a judgment that never quite left McCartney indifferent, as later interviews showed, in which he persistently defended his own share of their shared work.</p>
+          <p class="vb-intro">At the centre of the Four stands <strong>envy</strong> &ndash; the deep feeling that others were given something one lacks oneself. In McCartney this pattern showed itself for a long time in Lennon&#39;s shadow: for decades the public perception cast Lennon as the &bdquo;serious,&ldquo; &bdquo;authentic&ldquo; Beatle, McCartney often as the lightweight sentimentalist &ndash; a judgment that never quite left McCartney indifferent, as later interviews showed, in which he persistently defended his own share of their shared work.</p>
           <p class="vb-intro">The Five-wing brings the risk of withdrawal to the point of unapproachability: McCartney is known as notoriously difficult to interview when it comes to what is truly personal &ndash; polite, controlled, evasive. His second marriage to Heather Mills, which failed publicly and painfully, brought private details into a public sphere he had avoided his whole life &ndash; an experience that made him even more cautious afterward.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Healing Path: From Concealing to Sharing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Four leads from the question <em>Why do I lack what others have?</em> to the insight <em>What I am is enough &ndash; and it is unique.</em> For the SP4w5 this means no longer communicating one&#39;s inner life exclusively through the distance of art, but becoming more directly accessible as well.</p>
+          <p class="vb-intro">Healing for the Four leads from the question <em>Why do I lack what others have?</em> to the insight <em>What I am is enough &ndash; and it is unique.</em> For the SP4w5 this means no longer communicating one&#39;s inner life exclusively through the distance of art, but becoming more directly accessible as well.</p>
           <p class="vb-intro">In recent decades McCartney has shown exactly this movement: more open interviews about grief, age, and vulnerability, the documentary &bdquo;McCartney 3,2,1,&ldquo; in which he speaks at length for the first time about his creative process and his relationship with Lennon, his third, very private and stable marriage to Nancy Shevell. The dove that has learned that a message does not only need to be carried &ndash; sometimes it may simply be spoken aloud.</p>
         </blockquote>
 
@@ -1317,14 +1352,19 @@ export function paulMccartneyPortraitPage() {
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
+        {route:"beruehmte-paul-simon", label:"Portrait: Paul Simon (SP4w5)"},
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
         {route:"beruehmte-don-mclean", label:"Portrait: Don McLean (SP4w5)"},
         {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
         {route:"beruehmte-karoline-herfurth", label:"Portrait: Karoline Herfurth (SP4w5)"},
         {route:"beruehmte-clemens-arvay", label:"Portrait: Clemens G. Arvay (SP4w5)"},
-        {route:"bibel-andreas", label:"Bible Portrait: Andrew (SE4w5)"},
+        {route:"bibel-andreas", label:"Bible Portrait: Andrew (SP4w5)"},
         {route:"beruehmte-brian-wilson", label:"Portrait: Brian Wilson (SO1w2) – on 'God Only Knows'"},
+        {route:"beruehmte-javier-parisi", label:"Portrait: Javier Parisi (SO4w5)"},
+        {route:"beruehmte-knut-hamsun", label:"Portrait: Knut Hamsun (SP4w5)"},
+        {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
+        {route:"beruehmte-sam-altman", label:"Portrait: Sam Altman (SP4w5)"},
       ])}
     </div>
   `);
@@ -1394,6 +1434,8 @@ export function robbieWilliamsPortraitPage() {
         {route:"beruehmte-leonardo-dicaprio", label:"Portrait: Leonardo DiCaprio (SX1w2)"},
         {route:"beruehmte-eminem", label:"Portrait: Eminem (SX1w2)"},
         {route:"krankheitsportraets-robbie-williams", label:"Illness Portrait: Robbie Williams (SX1w2) – depression and addiction"},
+        {route:"beruehmte-matthias-reim", label:"Portrait: Matthias Reim (SX1w2)"},
+        {route:"beruehmte-thea-litschka-koen", label:"Portrait: Thea Litschka-Koen (SX1w2)"},
       ])}
     </div>
   `);
@@ -1428,7 +1470,7 @@ export function shakiraPortraitPage() {
 
         <h2 class="vb-section">3. The Eight-Wing: Control Over Her Own Work</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Sexual Seven something Sevens with a less developed Eight wing often lack: the will to not leave one's own intensity to chance, but to shape and defend it deliberately. Where a more muted Eight wing might simply drift, the SX7w8 seizes control &ndash; over her own career, her image, her art.</p>
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> grants the Sexual Seven something Sevens with a less developed Eight wing often lack: the will to not leave one's own intensity to chance, but to shape and defend it deliberately. Where a more muted Eight wing might simply drift, the SX7w8 seizes control &ndash; over her own career, her image, her art.</p>
           <p class="vb-intro">Shakira has written and composed most of her songs herself since her teenage years, when her first albums flopped commercially &ndash; and she refused to give up or let the record label impose a foreign image on her. She later produced her own albums, fought publicly and successfully against Spanish tax authorities in a years-long legal battle over alleged tax evasion, and established herself as one of the most powerful producers in the male-dominated Latin American music industry. The Eight-wing shows here not as hardness for its own sake, but as determined self-determination: no one else would ever again decide over her work.</p>
         </blockquote>
 
@@ -1440,8 +1482,8 @@ export function shakiraPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX7w8 is her ability to effortlessly cross cultural boundaries while remaining entirely herself &ndash; Shakira blends genres, languages and continents without denying her roots. Her music is a celebration of diversity, carried by genuine, physical joy.</p>
-          <p class="vb-intro">The shadow shows in her eleven-year relationship with Gerard Piqué, which broke apart publicly and painfully in 2022 after infidelity came to light &ndash; a heartbreak Shakira processed in “Music Sessions #53” and other collaborations with a directness that surprised many. The Sexual Seven with an Eight-wing can rarely endure hurt quietly; it must be transformed into intensity, often publicly, often uncompromisingly.</p>
+          <p class="vb-intro">The best of the SX7w8 is her ability to effortlessly cross cultural boundaries while remaining entirely herself &ndash; Shakira blends genres, languages and continents without denying her roots. Her music is a celebration of diversity, carried by genuine, physical joy.</p>
+          <p class="vb-intro">The darker side shows in her eleven-year relationship with Gerard Piqué, which broke apart publicly and painfully in 2022 after infidelity came to light &ndash; a heartbreak Shakira processed in “Music Sessions #53” and other collaborations with a directness that surprised many. The Sexual Seven with an Eight-wing can rarely endure hurt quietly; it must be transformed into intensity, often publicly, often uncompromisingly.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Path of Healing: The Pain That Becomes a Dance</h2>
@@ -1458,6 +1500,7 @@ export function shakiraPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
         {route:"beruehmte-boris-becker", label:"Portrait: Boris Becker (SX7w8)"},
+        {route:"beruehmte-john-travolta", label:"Portrait: John Travolta (SX7w8)"},
       ])}
     </div>
   `);
@@ -1517,6 +1560,8 @@ export function theaLitschkaKoenPortraitPage() {
           {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
           {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
           {route:"beruehmte-robbie-williams", label:"Portrait: Robbie Williams (SX1w2)"},
+          {route:"beruehmte-bill-haast", label:"Portrait: Bill Haast (SX1w9)"},
+          {route:"beruehmte-romulus-whitaker", label:"Portrait: Romulus Whitaker (SX1w2)"},
         ])}
         ${animalResearcherMatchBlock("beruehmte-thea-litschka-koen")}
       </div>
@@ -1541,7 +1586,7 @@ export function umbertEcoPortraitPage() {
 
         <h2 class="vb-section">1. The Orangutan</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Orangutan</strong> is the animal of the Self-Preservation Type 8 &ndash; and no image captures Umberto Eco more precisely. The Orangutan is the most solitary of the great apes: it needs no troop. It moves slowly, deliberately, with a dignity that knows no hurry. Its tool use is legendary. It is the only one among the apes that stores knowledge of food sources in a particular territory accumulated over decades &ndash; a walking archive.</p>
+          <p class="vb-intro">The <strong>Orangutan</strong> is the emblem of the Self-Preservation Type 8 &ndash; and no image captures Umberto Eco more precisely. The Orangutan is the most solitary of the great apes: it needs no troop. It moves slowly, deliberately, with a dignity that knows no hurry. Its tool use is legendary. It is the only one among the apes that stores knowledge of food sources in a particular territory accumulated over decades &ndash; a walking archive.</p>
           <p class="vb-intro">Umberto Eco owned over 30,000 books. Not as decoration but as instruments of thought. He called it his <em>antilibrary</em>: the books one has not yet read are more important than those one has &ndash; for they remind one of everything one does not yet know. The Orangutan sits enthroned in its tree, surrounded by what it has accumulated. And it smiles when others ask whether it has really read all of them.</p>
         </blockquote>
 
@@ -1554,7 +1599,7 @@ export function umbertEcoPortraitPage() {
         <h2 class="vb-section">3. The Seven-Wing: Wit as a Weapon</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Seven-wing</strong> lends the Self-Preservation Eight something an Eight with a weaker Seven wing sometimes lacks: lightness. Such an Eight can become heavy, demanding, uncompromising. A strongly developed Seven-wing opens a window &ndash; it brings playfulness, irony, the willingness to use one's own knowledge not as a club but as an invitation.</p>
-          <p class="vb-intro">Eco was a brilliant humorist. His <em>The Name of the Rose</em> is a crime novel that is simultaneously a treatise on medieval semiotics &ndash; and yet captivated 50 million readers worldwide. His columns for <em>L'Espresso</em> were witty, sharp, never self-satisfied. He could write about popular culture as he wrote about Aristotle &ndash; with the same curiosity, the same pleasure. That is the Seven-wing: insight as enjoyment, not as duty.</p>
+          <p class="vb-intro">Eco was a brilliant humorist. His <em>The Name of the Rose</em> is a crime novel that is simultaneously a treatise on medieval semiotics &ndash; and yet captivated 50 million readers worldwide. His columns for <em>L'Espresso</em> were witty, sharp, never self-satisfied. He could write about popular culture as he wrote about Aristotle &ndash; with the same curiosity, the same pleasure. Here we see the Seven-wing: insight as enjoyment, not as duty.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Passion: Lust as Creative Force</h2>
@@ -1578,7 +1623,9 @@ export function umbertEcoPortraitPage() {
         {route:"subtype/se8", label:"SP8 – The Orangutan: Subtype Profile"},
         {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SP7w8)"},
         {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SP8w9)"},
-        {route:"krankheitsportraets-umberto-eco", label:"Illness Portrait: Umberto Eco (SE8w7) – pancreatic cancer"},
+        {route:"krankheitsportraets-umberto-eco", label:"Illness Portrait: Umberto Eco (SP8w7) – pancreatic cancer"},
+        {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SP8w9)"},
+        {route:"beruehmte-jacqueline-mars", label:"Portrait: Jacqueline Mars (SP8w7)"},
       ])}
     </div>
   `);
@@ -1594,7 +1641,7 @@ export function wolodymyrSelenskyjPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-wolodymyr-selenskyj-portrait.jpg" alt="Wolodymyr Selenskyj" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Wolodymyr Selenskyj</p>
-        <p class="krim-portrait-typ">SE3w2 &middot; Self-Preservation Type 3 with Two-Wing &middot; Contratype of the three</p>
+        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with Two-Wing &middot; Contratype of the three</p>
         <p class="krim-portrait-subtitle">Comedian, actor, president, b. 1978 – Animal equivalent: Raccoon</p>
       </div>
       <div class="page-content">
@@ -1626,7 +1673,7 @@ export function wolodymyrSelenskyjPortraitPage() {
 
         <h2 class="vb-section">5. Energetic Impact: The Raccoon on the World Stage</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Zelenskyy's energetic impact is remarkably precise: He is warm, but not overwhelming. Resolute, but not aggressive. Vulnerable enough to evoke pity—strong enough to command admiration. This is not happenstance. This is the SP3w2 in full mastery: a person who intuitively knows which energy to radiate to achieve the desired outcome.</p>
+          <p class="vb-intro">Zelenskyy's energetic impact is remarkably precise: He is warm, but not overwhelming. Resolute, but not aggressive. Vulnerable enough to evoke pity—strong enough to command admiration. This is not happenstance. This shows the SP3w2 in full mastery: a person who intuitively knows which energy to radiate to achieve the desired outcome.</p>
           <p class="vb-intro">The raccoon is not a malicious animal. It does not seek destruction—it seeks sustenance, safety, survival. And it is extraordinarily successful at it. The problem is not its intelligence—the problem is what it leaves behind: a raided storehouse, an exhausted country, a Western alliance wondering where the billions went. The raccoon has long since found the next roof.</p>
         </blockquote>
 
@@ -1642,11 +1689,14 @@ export function wolodymyrSelenskyjPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
-        {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SE3w2)"},
-        {route:"kriminalpsychologie-pablo-escobar", label:"Criminal case: Pablo Escobar (SE3w4)"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SP3w2)"},
+        {route:"kriminalpsychologie-pablo-escobar", label:"Criminal case: Pablo Escobar (SP3w4)"},
         {route:"beruehmte-olena-zelenska", label:"Portrait: Olena Zelenska (SX6w7) – his wife"},
-        {route:"beruehmte-susan-link", label:"Portrait: Susan Link (SE3w2)"},
+        {route:"beruehmte-susan-link", label:"Portrait: Susan Link (SP3w2)"},
+        {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SP3w4)"},
+        {route:"beruehmte-penelope-cruz", label:"Portrait: Penélope Cruz (SP3w2)"},
+        {route:"beruehmte-sahra-wagenknecht", label:"Portrait: Sahra Wagenknecht (SO3w2)"},
       ])}
     </div>
   `);
@@ -1681,13 +1731,13 @@ export function markusLanzPortraitPage() {
 
         <h2 class="vb-section">3. The Nine-wing: persistence without volume</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the social One a subdued, undramatic note &ndash; the conviction remains unshakeable, but is rarely carried outward explosively. Lanz's style is never loud or confrontational in the classic sense: he rarely raises his voice, never turns polemical, but calmly and persistently repeats the same precise question until an actual answer follows &ndash; a tenacity that guests often find more exhausting than open confrontation.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> lends the social One a subdued, undramatic note &ndash; the conviction remains unshakeable, but is rarely carried outward explosively. Lanz's style is never loud or confrontational in the classic sense: he rarely raises his voice, never turns polemical, but calmly and persistently repeats the same precise question until an actual answer follows &ndash; a tenacity that guests often find more exhausting than open confrontation.</p>
           <p class="vb-intro">This undramatic persistence also shows in his additional role as co-host of the weekly conversation format "Lanz & Precht" with philosopher Richard David Precht (SO1w9) &ndash; a calm, cross-format conversational offering that does not shy away from complexity without pursuing provocation for its own sake.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SO1w9 is its ability to <strong>hold public officials accountable in a way grounded in verifiable facts rather than emotionalization</strong> &ndash; Lanz's meticulous preparation has repeatedly forced politicians to correct their own prior statements on air, once confronted with the documented contradictions.</p>
+          <p class="vb-intro">What distinguishes the SO1w9 is its ability to <strong>hold public officials accountable in a way grounded in verifiable facts rather than emotionalization</strong> &ndash; Lanz's meticulous preparation has repeatedly forced politicians to correct their own prior statements on air, once confronted with the documented contradictions.</p>
           <p class="vb-intro">The shadow of the social One with a Nine-wing shows in how easily incorruptible adherence to principle can be perceived as arrogant or condescending: Lanz has repeatedly been accused of using his own preparation as a demonstration of moral superiority over his guests rather than as a pure tool for establishing truth &ndash; an accusation he has repeatedly rejected without fundamentally changing his style.</p>
         </blockquote>
 
@@ -1718,9 +1768,12 @@ export function markusLanzPortraitPage() {
         {route:"beruehmte-kurt-georg-kiesinger", label:"Portrait: Kurt Georg Kiesinger (SO1w9)"},
         {route:"beruehmte-giorgia-meloni", label:"Portrait: Giorgia Meloni (SO1w9)"},
         {route:"beruehmte-emmanuel-macron", label:"Portrait: Emmanuel Macron (SO1w9)"},
-        {route:"beruehmte-karl-lauterbach", label:"Portrait: Karl Lauterbach (SE6w5)"},
+        {route:"beruehmte-karl-lauterbach", label:"Portrait: Karl Lauterbach (SP6w5)"},
         {route:"beruehmte-peter-sage", label:"Portrait: Peter Sage (SO1w9)"},
         {route:"beruehmte-gert-scobel", label:"Portrait: Gert Scobel (SO1w9)"},
+        {route:"beruehmte-olaf-schubert", label:"Portrait: Olaf Schubert (SO1w9)"},
+        {route:"beruehmte-oliver-pocher", label:"Portrait: Oliver Pocher (SO1w9)"},
+        {route:"beruehmte-volker-gerhardt", label:"Portrait: Prof. Dr. Volker Gerhardt (SO1w9)"},
       ])}
     </div>
   `);
@@ -1785,6 +1838,14 @@ export function heleneFischerPortraitPage() {
           {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
           {route:"beruehmte-lena-meyer-landrut", label:"Portrait: Lena Meyer-Landrut (SX3w2) – also a singer, same subtype"},
           {route:"beruehmte-brad-pitt", label:"Portrait: Brad Pitt (SX3w2)"},
+          {route:"beruehmte-bianca-censori", label:"Portrait: Bianca Censori (SX3w2)"},
+          {route:"beruehmte-edita-gruberova", label:"Portrait: Edita Gruberová (SP3w2)"},
+          {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SP3w2)"},
+          {route:"beruehmte-lenny-kravitz", label:"Portrait: Lenny Kravitz (SX3w2)"},
+          {route:"beruehmte-naomi-campbell", label:"Portrait: Naomi Campbell (SX3w2)"},
+          {route:"beruehmte-wolfgang-joop", label:"Portrait: Wolfgang Joop (SX3w2)"},
+          {route:"beruehmte-christina-plate", label:"Portrait: Christina Plate (SX3w2)"},
+          {route:"beruehmte-vicky-leandros", label:"Portrait: Vicky Leandros (SX3w2)"},
         ])}
       </div>
     </div>
@@ -1808,7 +1869,7 @@ export function dieterLangePortraitPage() {
 
         <h2 class="vb-section">1. The Eagle</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eagle</strong> is the animal of the self-preservation One &ndash; an animal that impresses not through volume but through the precision of its gaze. It circles for a long time before committing, and when it acts, it does so out of an inner clarity earned over years.</p>
+          <p class="vb-intro">The <strong>Eagle</strong> is the emblem of the self-preservation One &ndash; an animal that impresses not through volume but through the precision of its gaze. It circles for a long time before committing, and when it acts, it does so out of an inner clarity earned over years.</p>
           <p class="vb-intro">Dieter Lange, born in 1951, embodies this eagle's gaze through an unusual career path: after studying psychology and business administration, including at Harvard, he spent several years living among indigenous peoples, in desert regions, and in East Asian monasteries &ndash; a self-examination that goes far beyond what most trainers in his field have ever undertaken.</p>
         </blockquote>
 
@@ -1820,7 +1881,7 @@ export function dieterLangePortraitPage() {
 
         <h2 class="vb-section">3. The Nine-Wing: Integrating Calm</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the self-preservation One the ability to calmly bring different perspectives together instead of playing them off against each other. Colleagues repeatedly describe exactly this gift in Lange: his strength lies in combining Eastern wisdom with Western science rather than pitting one against the other &ndash; an integrating, settled kind of thinking rather than a confrontational one.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> lends the self-preservation One the ability to calmly bring different perspectives together instead of playing them off against each other. Colleagues repeatedly describe exactly this gift in Lange: his strength lies in combining Eastern wisdom with Western science rather than pitting one against the other &ndash; an integrating, settled kind of thinking rather than a confrontational one.</p>
           <p class="vb-intro">The consciousness-training concept he developed from this, the TETA seminar series (self-leadership, life goals, communication and leadership culture) as well as the "North Star Life School," shows the same Nine-typical capacity for synthesis: personal development is not staged as a break with what came before, but as an ordered, internally coherent continuation.</p>
         </blockquote>
 
@@ -1865,14 +1926,14 @@ export function juergenKlinsmannPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-juergen-klinsmann-portrait.jpg" alt="Jürgen Klinsmann" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jürgen Klinsmann</p>
-        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with a Nine Wing</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with a Nine Wing</p>
         <p class="krim-portrait-subtitle">b. 1964 – World Cup winner 1990, European champion 1996, German national coach 2004–2006 – Animal correspondence: Eagle</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. The Eagle</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>eagle</strong> is the animal of the self-preservation One – an animal that impresses not through volume, but through the precision of its gaze and the consistency of its action once its own standard has been met. Jürgen Klinsmann, born in 1964 in Göppingen as the son of a master baker, stood out as a young striker at VfB Stuttgart for a discipline still unusual in German football in the 1980s: targeted extra training, nutritional awareness, meticulous preparation down to every detail of his game.</p>
+          <p class="vb-intro">The <strong>eagle</strong> is the animal counterpart of the self-preservation One – an animal that impresses not through volume, but through the precision of its gaze and the consistency of its action once its own standard has been met. Jürgen Klinsmann, born in 1964 in Göppingen as the son of a master baker, stood out as a young striker at VfB Stuttgart for a discipline still unusual in German football in the 1980s: targeted extra training, nutritional awareness, meticulous preparation down to every detail of his game.</p>
           <p class="vb-intro">This early willingness to hold himself to higher standards than the usual training load demanded runs through his entire career – from player to coach, who decades later turned exactly this attitude into the foundation for a complete overhaul of the German national team.</p>
         </blockquote>
 
@@ -1884,19 +1945,19 @@ export function juergenKlinsmannPortraitPage() {
 
         <h2 class="vb-section">3. The self-preservation One: one's own standard as foundation</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation One (SE1)</strong> directs its perfectionism not primarily at correcting the environment, but first inward: at its own preparation, its own training, its own integrity. Naranjo called this subtype <em>Worry</em> – the constant, productive concern with truly meeting one's own standard. In Klinsmann this showed even as a player, in a nutritional and training discipline unusual for his generation, self-imposed long before sports science became standard in German football.</p>
+          <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> directs its perfectionism not primarily at correcting the environment, but first inward: at its own preparation, its own training, its own integrity. Naranjo called this subtype <em>Worry</em> – the constant, productive concern with truly meeting one's own standard. In Klinsmann this showed even as a player, in a nutritional and training discipline unusual for his generation, self-imposed long before sports science became standard in German football.</p>
           <p class="vb-intro">As a coach he carried exactly this standard over onto an entire system: he never demanded more of his players than he had demanded of himself as an active player – consistent professionalization as a lived, not merely preached, conviction.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Nine wing: composure under massive public pressure</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Nine wing (w9)</strong> gives the self-preservation One the ability to calmly bring different systems together and hold its own line under pressure without tipping into confrontation. That showed exactly in 2004/2005, when large parts of the German press and federation mocked Klinsmann's reforms as naive and overly Americanized, while he himself reacted neither defensively nor aggressively, but calmly stuck to his concept until the results confirmed it.</p>
-          <p class="vb-intro">The same integrating composure shows in his life model: Klinsmann has lived in California since his playing career, combining American sports science with German football tradition rather than pitting one against the other – a pattern strikingly similar to fellow SE1w9 coach Dieter Lange, who brought together Eastern and Western knowledge systems in the same integrating way.</p>
+          <p class="vb-intro">The same integrating composure shows in his life model: Klinsmann has lived in California since his playing career, combining American sports science with German football tradition rather than pitting one against the other – a pattern strikingly similar to fellow SP1w9 coach Dieter Lange, who brought together Eastern and Western knowledge systems in the same integrating way.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and shadow of the self-preservation One</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE1w9 shows in Klinsmann's ability to hold onto a self-tested, higher professionalism against established resistance until success followed – a reform that shaped German football structurally well beyond his own tenure, even though he himself initially had to withstand the entrenched criticism alone.</p>
+          <p class="vb-intro">The light of the SP1w9 shows in Klinsmann's ability to hold onto a self-tested, higher professionalism against established resistance until success followed – a reform that shaped German football structurally well beyond his own tenure, even though he himself initially had to withstand the entrenched criticism alone.</p>
           <p class="vb-intro">The shadow shows in several later stations, where the same high personal standard, without the stabilizing effect of a fully convinced environment, led to conflict: his dismissal at Bayern Munich in 2009 after internal tensions, his abrupt resignation from Hertha BSC in 2020 via a Facebook post rather than a direct conversation, and the fierce public criticism of his tenure as South Korea's national coach in 2023/24, during which he kept commuting from California instead of living on site. The eagle that sees clearly from a distance sometimes loses touch with the ground others stand on every day.</p>
         </blockquote>
 
@@ -1975,6 +2036,7 @@ export function carloAncelottiPortraitPage() {
           {route:"beruehmte-ronald-reagan", label:"Portrait: Ronald Reagan (SO9w8)"},
           {route:"beruehmte-willy-brandt", label:"Portrait: Willy Brandt (SO9w8) – also delayed, then clear directness"},
           {route:"beruehmte-sergio-bambaren", label:"Portrait: Sergio Bambarén (SO9w8)"},
+          {route:"beruehmte-juergen-von-der-lippe", label:"Portrait: Jürgen von der Lippe (SO9w8)"},
         ])}
       </div>
     </div>
@@ -1998,7 +2060,7 @@ export function usainBoltPortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever Who Took the Stadium With Him</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the Social Two – warm, irresistibly driven to win over an entire audience. Usain Bolt, born in 1986 in rural Sherwood Content, Jamaica, played cricket and football as a child before his primary school teacher and cricket coach noticed his extraordinary speed and pushed him toward sprinting. Even as a teenager, Bolt stood out less for quiet discipline than for the sheer joy of running in front of people.</p>
+          <p class="vb-intro">The <strong>Golden Retriever</strong> stands as the animal of the Social Two – warm, irresistibly driven to win over an entire audience. Usain Bolt, born in 1986 in rural Sherwood Content, Jamaica, played cricket and football as a child before his primary school teacher and cricket coach noticed his extraordinary speed and pushed him toward sprinting. Even as a teenager, Bolt stood out less for quiet discipline than for the sheer joy of running in front of people.</p>
           <p class="vb-intro">That joy in the audience became his trademark: no other sprinter in history danced, joked, and posed as extensively before the start and after the finish as Bolt. The Golden Retriever doesn't just run fast for itself – it runs to carry an entire stadium along with it.</p>
         </blockquote>
 
@@ -2041,6 +2103,9 @@ export function usainBoltPortraitPage() {
         {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
         {route:"beruehmte-will-smith", label:"Portrait: Will Smith (SO2w3)"},
         {route:"beruehmte-riku-miura", label:"Portrait: Riku Miura (SO2w3)"},
+        {route:"beruehmte-floyd-mayweather", label:"Portrait: Floyd Mayweather Jr. (SO2w3)"},
+        {route:"beruehmte-lewis-hamilton", label:"Portrait: Lewis Hamilton (SO2w3)"},
+        {route:"beruehmte-nina-dobrev", label:"Portrait: Nina Dobrev (SO2w3)"},
       ])}
     </div>
   `);
@@ -2107,6 +2172,7 @@ export function davidGarrettPortraitPage() {
         {route:"beruehmte-chester-bennington", label:"Portrait: Chester Bennington (SX4w3)"},
         {route:"beruehmte-freddie-mercury", label:"Portrait: Freddie Mercury (SX4w3)"},
         {route:"beruehmte-voltaire", label:"Portrait: Voltaire (SX4w3)"},
+        {route:"beruehmte-palina-rojinski", label:"Portrait: Palina Rojinski (SX4w3)"},
       ])}
     </div>
   `);
@@ -2137,7 +2203,7 @@ export function williamJamesPortraitPage() {
         <h2 class="vb-section">2. The Social Three: Founding a Discipline, Winning an Audience</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The social subtype of the Three, commonly described as the <strong>reinforcement type</strong>, seeks significance not in quiet, private achievement but in visible impact within the social and public sphere. William James translated this drive into an entire scientific discipline: in 1875 he set up one of the first psychology laboratories in the United States at Harvard University, positioning himself as a founding figure of American psychology at a time when the field barely existed academically.</p>
-          <p class="vb-intro">His major work <em>The Principles of Psychology</em> (1890) became not only the academic standard text but was also widely read outside the field – a book that didn't merely describe a new discipline but publicly established it. James never wrote only for a specialist audience: lecture series such as <em>Talks to Teachers on Psychology</em> (1899) were deliberately aimed at a broad, non-academic public. This is the social Three at its clearest: success is measured not by inner conviction alone but by reach and recognition in the social field.</p>
+          <p class="vb-intro">His major work <em>The Principles of Psychology</em> (1890) became not only the academic standard text but was also widely read outside the field – a book that didn't merely describe a new discipline but publicly established it. James never wrote only for a specialist audience: lecture series such as <em>Talks to Teachers on Psychology</em> (1899) were deliberately aimed at a broad, non-academic public. Here you can see the social Three at its clearest: success is measured not by inner conviction alone but by reach and recognition in the social field.</p>
           <p class="vb-intro">It is also telling that James achieved a second major public impact alongside psychology: together with Charles Sanders Peirce, he is considered a co-founder of <strong>pragmatism</strong>, the genuinely American philosophy that measures truth by its practical consequences. Co-founding two disciplines and being recognized as a leading voice in both – that is the double ambition of the social Three, who does not settle for a single field of success.</p>
         </blockquote>
 
@@ -2202,13 +2268,13 @@ export function antonZeilingerPortraitPage() {
 
         <h2 class="vb-section">1. The octopus reaching for entanglement with eight arms</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>octopus</strong> is the animal of the social Five – a creature that reaches with several arms at once, feeling, testing, connecting before it commits. In Anton Zeilinger's case, this image shows up directly in the subject of his research: entangled photons which, once linked, keep their states coordinated across any distance, no matter how far the arms are stretched apart. A research life devoted to exactly that connection – not the single particle, but what binds two particles across every distance.</p>
+          <p class="vb-intro">The <strong>octopus</strong> is the symbolic animal of the social Five – a creature that reaches with several arms at once, feeling, testing, connecting before it commits. In Anton Zeilinger's case, this image shows up directly in the subject of his research: entangled photons which, once linked, keep their states coordinated across any distance, no matter how far the arms are stretched apart. A research life devoted to exactly that connection – not the single particle, but what binds two particles across every distance.</p>
           <p class="vb-intro">Zeilinger was born in 1945 in Ried im Innkreis, studied physics and mathematics in Vienna, and earned his doctorate at the Atominstitut under Helmut Rauch. From 1999 to 2013 he was professor of experimental physics at the University of Vienna, from 2004 to 2013 director of the Institute for Quantum Optics and Quantum Information (IQOQI), and from 2013 to 2022 president of the Austrian Academy of Sciences. A path that expanded over decades from the single measurement to institutional responsibility for an entire scientific system.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Totem: knowledge that carried an entire academy</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Claudio Naranjo called the social Type 5 the <strong>Totem</strong> – the link between knowledge and belonging, knowledge and standing. The SO5 does not withhold its knowledge like the introverted SE5, but carries it into the community, becoming an authority through that act. Zeilinger lived this pattern in two directions at once: as a tireless advocate for basic-research funding for years, carrying knowledge beyond his own field into politics and the public; and as president of the Academy of Sciences, taking on responsibility for the entire system that carries and passes on that knowledge.</p>
+          <p class="vb-intro">Claudio Naranjo called the social Type 5 the <strong>Totem</strong> – the link between knowledge and belonging, knowledge and standing. The SO5 does not withhold its knowledge like the introverted SP5, but carries it into the community, becoming an authority through that act. Zeilinger lived this pattern in two directions at once: as a tireless advocate for basic-research funding for years, carrying knowledge beyond his own field into politics and the public; and as president of the Academy of Sciences, taking on responsibility for the entire system that carries and passes on that knowledge.</p>
           <p class="vb-intro">The Totem pattern also shows in his role as a science communicator: in his lectures, Zeilinger visibly works to make complex quantum physics understandable to a lay audience instead of keeping it within the specialist circle. Knowledge made available to the whole of society, not just to his own guild – the Totem in its open, sharing form.</p>
         </blockquote>
 
@@ -2270,7 +2336,7 @@ export function donMcleanPortraitPage() {
         <h2 class="vb-section">1. The Dove Who Wrapped Its Pain in Allegory</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Don McLean was born in 1945 in New Rochelle, New York. His father died when he was fifteen; severe asthma kept him out of school for long stretches, while his love of music was allowed to flourish early. In 1971 he released "American Pie," one of the most influential songs in American music history – a multilayered allegory for the loss of innocence of the early rock'n'roll generation, triggered by the plane crash that killed Buddy Holly, Ritchie Valens, and the "Big Bopper."</p>
-          <p class="vb-intro">The <strong>dove</strong> is the animal of the self-preservation Four – it doesn't put its longing on display, but wraps it in something that communicates quietly rather than shouting. That's exactly what McLean did in 1971 with "Vincent" as well: he wrote the song about <a href="javascript:void(0)" data-route="beruehmte-vincent-van-gogh">Vincent van Gogh</a> (also SP4w5) while he himself was in the middle of what he later called a "torturing" marital crisis – his own pain flowed, unspoken, into lines about another, misunderstood artist.</p>
+          <p class="vb-intro">The <strong>dove</strong> stands as the animal of the self-preservation Four – it doesn't put its longing on display, but wraps it in something that communicates quietly rather than shouting. That's exactly what McLean did in 1971 with "Vincent" as well: he wrote the song about <a href="javascript:void(0)" data-route="beruehmte-vincent-van-gogh">Vincent van Gogh</a> (also SP4w5) while he himself was in the middle of what he later called a "torturing" marital crisis – his own pain flowed, unspoken, into lines about another, misunderstood artist.</p>
           <p class="vb-intro">That McLean chose van Gogh of all people as his projection screen is hardly a coincidence: out of 27 possible subtypes, he landed on another SP4w5 – the same quiet, inward-turned way of handling pain, the same gap between outward functioning and inner despair that almost no one granted van Gogh while he was alive. More in the <a href="javascript:void(0)" data-route="beruehmte-vincent-van-gogh">portrait of Vincent van Gogh</a>.</p>
         </blockquote>
 
@@ -2309,12 +2375,14 @@ export function donMcleanPortraitPage() {
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
+        {route:"beruehmte-paul-simon", label:"Portrait: Paul Simon (SP4w5)"},
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
         {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5) – the model for \"Vincent,\" same subtype"},
         {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SP4w5)"},
         {route:"beruehmte-sam-altman", label:"Portrait: Sam Altman (SP4w5)"},
         {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
+        {route:"beruehmte-knut-hamsun", label:"Portrait: Knut Hamsun (SP4w5)"},
       ])}
     </div>
   `);
@@ -2337,7 +2405,7 @@ export function andreDuqumPortraitPage() {
 
         <h2 class="vb-section">1. The Hippopotamus as gatekeeper to its own stage</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two: territorially warm, with a fine sense for who gets let into its inner circle. André Duqum, born in 1997 in Michigan to a mother who had immigrated from the area near Jerusalem, began his career unglamorously on the camera and electrical crew of a documentary production before launching his own YouTube channel in 2020. Out of that channel grew the podcast <em>"Know Thyself,"</em> now with over 750,000 subscribers.</p>
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the emblem of the self-preservation Two: territorially warm, with a fine sense for who gets let into its inner circle. André Duqum, born in 1997 in Michigan to a mother who had immigrated from the area near Jerusalem, began his career unglamorously on the camera and electrical crew of a documentary production before launching his own YouTube channel in 2020. Out of that channel grew the podcast <em>"Know Thyself,"</em> now with over 750,000 subscribers.</p>
           <p class="vb-intro">What sets Duqum apart from a plain interview format is how he treats his guests: not as interchangeable segments, but as people to whom he – in his own words – "gives" a stage. He calls media "medicine for the soul" and describes his listeners as potential "lightworkers" he wants to accompany on their own path.</p>
         </blockquote>
 
@@ -2451,6 +2519,8 @@ export function aliceWeidelPortraitPage() {
         {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
         {route:"beruehmte-friedrich-merz", label:"Portrait: Friedrich Merz (SO1w9) – same subtype, political opponent"},
         {route:"beruehmte-marcel-reich-ranicki", label:"Portrait: Marcel Reich-Ranicki (SO1w9)"},
+        {route:"beruehmte-navi-pillay", label:"Portrait: Navi Pillay (SO1w9)"},
+        {route:"beruehmte-vicky-leandros", label:"Portrait: Vicky Leandros (SX3w2)"},
       ])}
     </div>
   `);
@@ -2504,7 +2574,7 @@ export function wolframEilenbergerPortraitPage() {
         <h2 class="vb-section">6. Light and shadow of the social Six with a Seven-wing</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SO6w7 shows in Eilenberger's ability to tell highly complex intellectual history in a way that reaches a mass audience without flattening into mere entertainment – a rare balance of scholarly integrity and journalistic instinct.</p>
-          <p class="vb-intro">The shadow lies in the risk that the breadth of thinkers and topics covered comes at the expense of depth – a risk that matches exactly the criticism some specialist reviewers raise, that his books offer little substantively new. Where a Six with a stronger Five-wing lingers too long in quiet depth, the SO6w7 risks losing sharpness of focus across too many parallel narrative threads – a price that reach demands.</p>
+          <p class="vb-intro">The darker side lies in the risk that the breadth of thinkers and topics covered comes at the expense of depth – a risk that matches exactly the criticism some specialist reviewers raise, that his books offer little substantively new. Where a Six with a stronger Five-wing lingers too long in quiet depth, the SO6w7 risks losing sharpness of focus across too many parallel narrative threads – a price that reach demands.</p>
         </blockquote>
 
         <h2 class="vb-section">7. The meerkat that carried philosophy out of the seminar room</h2>
@@ -2523,6 +2593,476 @@ export function wolframEilenbergerPortraitPage() {
         {route:"lebensmusterkompass/so6", label:"Life Pattern Compass: SO6 – Meerkat"},
         {route:"beruehmte-herfried-muenkler", label:"Portrait: Herfried Münkler (SO6w7) – same watch, different object"},
         {route:"beruehmte-anne-applebaum", label:"Portrait: Anne Applebaum (SO6w7)"},
+        {route:"beruehmte-heinz-rudolf-kunze", label:"Portrait: Heinz Rudolf Kunze (SE6w7)"},
+      ])}
+    </div>
+  `);
+}
+
+export function harryHoudiniPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-harry-houdini-portrait.jpg" alt="Harry Houdini – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-harry-houdini-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Harry Houdini</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Social Type 3 with a Two-wing</p>
+        <p class="krim-portrait-subtitle">Escape artist, 1874&ndash;1926 &ndash; The ›Handcuff King‹ &ndash; Animal correspondence: Cheetah</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Cheetah: 57 seconds in the East River</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Cheetah</strong> is the emblem of the social Three. It hunts by day, in open country and in front of onlookers, and its strength is the sprint that is decided in a few moments. Houdini built his life on such moments. In 1912 he was locked in a crate that was thrown into New York's East River, and he freed himself in 57 seconds, in front of a crowd that watched.</p>
+          <p class="vb-intro">He was born Erik Weisz on 24 March 1874 in Budapest, the child of a rabbi. In 1878 the family emigrated to the USA to escape antisemitism. After his father lost his position in 1882 the family fell into dire poverty in Milwaukee. Houdini worked as a child, at nine he appeared as a trapeze artist, and after his father's death in 1892 he went on tour with a magic act. He chose his stage name in homage to his role model, the French magician Jean-Eugène Robert-Houdin.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Three: recognition as fuel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Three (SO3)</strong> asks not only whether she has achieved something but whether the community sees it. For a long time Houdini had nothing that was seen. From 1891 he performed in dime museums and variety shows, billed himself for a time as the ›King of Cards‹, and was regarded by professionals as competent but not especially skilled at sleight of hand. In 1899 he was defeated by a pair of handcuffs in a Chicago museum. His manager Martin Beck advised him to concentrate on escapes.</p>
+          <p class="vb-intro">From this came the ›Handcuff King‹, who challenged local police to lock him up, often after he had been stripped and searched. In 1900 he performed in Europe, impressed Scotland Yard and won a six-month engagement at London's Alhambra. He claimed all his life to have been born in Appleton, Wisconsin, although he was born in Budapest, and on posters he called himself the ›King of Handcuffs‹. After the quarrel with Beck he built himself a European tour of his own because he lacked acceptance across the Atlantic, and he stayed about five years. The press called him a ›real-life superman‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: mother, Bess and the warmth on stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> grants the social Three closeness and the readiness to win people over. Houdini was closely attached to his mother Cecelia and called himself ›a Mothers-boy‹. When he learned in Sweden in 1913 that his mother had died, he is said to have fainted and wept uncontrollably. The house in Manhattan that he acquired in 1905 was the family's base, especially for her.</p>
+          <p class="vb-intro">In 1894 he met Wilhelmina ›Bess‹ Rahner, who stood with him on stage in every performance. His brother Theodore, called Hardeen, was his closest partner in the act. Houdini was regarded as generous to family and friends, and reporters described him with a ›pleasant smile and easy confidence‹. The audience got a likeable man who radiated connection while putting himself in mortal danger.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: escape as craft and spectacle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Houdini was more than a publicist for himself. He was short and stocky, trained swimming, boxing and running as a young man, and could gain slack in restraints by expanding his shoulders and chest and holding his arms away from his body. He shielded the mechanics of his acts with a small screen, a kind of ghost house, and still wrote books for other magicians such as ›Handcuff Secrets‹ (1909). He knew how to open locks, and he knew how to turn it into an event.</p>
+          <p class="vb-intro">When imitators copied his handcuff act he retired it in January 1908 and moved on to the milk can. He first performed the ›Chinese Water Torture Cell‹, in which he was locked upside down in a water tank, on 21 September 1912 in Berlin and played it until his death. At New York's Hippodrome he made an elephant vanish. In 1909 he bought a biplane and flew successfully for the first time on 26 November 1909 in Hamburg, and in March 1910 he made some of the first powered flights in Australia. From 1906 he filmed escapes and acted in five feature films, including ›The Master Mystery‹ (1919). His film company and a film laboratory lost money, and in 1923 he withdrew from the film business.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The opponents: crusades and lawsuits</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Houdini was combative. He went to law against imitators, and in 1901 he sued a policeman and a newspaper in Cologne for slander and opened, in the courtroom and without tools, a lock the officer had made himself. In his book ›The Unmasking of Robert-Houdin‹ (1908) he attacked his former idol, which according to one source did more to tarnish Houdini's reputation than the target's. From the 1920s he devoted himself to exposing mediums who preyed on the bereaved, sat on a ›Scientific American‹ committee that offered a cash prize for proof of supernatural powers that nobody ever received, and attended séances in disguise with a reporter and a police officer. He published the pamphlet against the medium Mina Crandon, known as ›Margery‹, at his own expense. His friendship with the writer Arthur Conan Doyle, a spiritualist, broke over this.</p>
+          <p class="vb-intro">A connection with his mother's death in 1913 can be suspected, but it is an interpretation and not proof of a single motive. What is certain is the result: the man who performed the impossible on stage wanted to prove publicly what was real and what was not. He and Bess had agreed that whichever of them died first would try to make contact from beyond. After his death she held a séance every year for ten years without receiving a sign, until she said in 1943 that ten years were enough.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social Three with a Two-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The best of the SO3w2 lies in Houdini in the persistence with which he made a lifework out of a failure, that of 1899, and in the community spirit with which he became president of the Society of American Magicians in 1917, united the local clubs, often at his own expense, into a national body and remained in office until his death. He built up one of the largest collections on the history of magic and bequeathed part of his papers to the Library of Congress.</p>
+          <p class="vb-intro">The darker side lies where the image becomes more important than the truth. The challenge of the London ›Daily Mirror‹ in 1904, in front of about 4,000 onlookers, was according to many biographers largely staged, and his former manager Beck is said to have said that Houdini was beaten there and asked Bess for help. In his mid-forties he was, according to one biography, physically worn out. On 22 October 1926 he was punched repeatedly in the abdomen in Montreal, by one account at his own invitation as a test of strength; on 24 October he performed in Detroit with a fever of 40 degrees Celsius; on 25 October his appendix was removed, and on 31 October he died, aged 52, of peritonitis. Biographers disagree on whether the punches were the cause or whether the appendicitis had already been there. The insurer paid double indemnity.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Related patterns: Barnard and Louis XIV</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The combination of public risk-taking and charm appears in <a href="javascript:void(0)" data-route="beruehmte-christiaan-barnard">Dr. Christiaan Barnard</a> (SO3w2), who turned his first heart transplant in 1967 into a world stage, and in <a href="javascript:void(0)" data-route="beruehmte-ludwig-xiv">Louis XIV</a> (SO3w2), who built up his court as a stage for his own greatness. With Houdini the stage is the profession itself. His need for security as a child of an impoverished family is visible, but the drive to stand the test before the community overlays it.</p>
+          <p class="vb-intro">To illustrate this, here are two short silent-film clips showing how Houdini performed: an escape from a straitjacket and a bridge jump with handcuffs from 1907. They make the principle of the social Three visible, because the achievement takes place in front of an audience, in the middle of the street, and only counts as accomplished once others have seen it.</p>
+          <div style="max-width:100%;margin-top:1.2rem;margin-bottom:1.2rem;">
+            <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Video: Harry Houdini – straitjacket escape</p>
+            <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
+              <iframe width="100%" height="100%" style="border:none;display:block;"
+                src="https://www.youtube.com/embed/3r8qr-p9z5g?rel=0&playsinline=1"
+                allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy" title="Video: Harry Houdini – straitjacket escape"></iframe>
+            </div>
+          </div>
+          <div style="max-width:100%;margin-top:1.2rem;margin-bottom:1.2rem;">
+            <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Video: Houdini – bridge jump with handcuff escape (1907)</p>
+            <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
+              <iframe width="100%" height="100%" style="border:none;display:block;"
+                src="https://www.youtube.com/embed/E_HHFMSmHCQ?rel=0&playsinline=1"
+                allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy" title="Video: Houdini – bridge jump with handcuff escape (1907)"></iframe>
+            </div>
+
+        <h2 class="vb-section">8. A thought from homeopathy: the image of the invisible</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 3 is assigned the remedy Tarantula hispanica (Spanish tarantula) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). In the language of the repertory its main idea includes the idea of invisible things. In Houdini the invisible becomes a life theme: after his mother&rsquo;s death in 1913 he sought contact with the dead, later exposed numerous alleged mediums as a critic of spiritualism and agreed with his wife Bess on a secret code with which he wanted to send a sign after his death. A person who lived from the visible sought the invisible.</p>
+          <p class="vb-intro">In Kent&rsquo;s Repertory exactly one remedy is listed in the rubric &ldquo;unseen, thing&rdquo;: Tarentula hispanica. It is a juxtaposition of two similar images, nothing more. The text says nothing about health, recommends nothing and does not replace medical or therapeutic advice.</p>
+        </blockquote>
+
+          </div>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so3", label:"SO3 – The Cheetah: subtype profile"},
+        {route:"lebensmusterkompass/so3", label:"Life Pattern Compass: SO3 – Cheetah"},
+        {route:"beruehmte-christiaan-barnard", label:"Portrait: Dr. Christiaan Barnard (SO3w2) – same subtype and wing"},
+        {route:"beruehmte-ludwig-xiv", label:"Portrait: Louis XIV (SO3w2) – same subtype and wing"},
+        {route:"enneagramm-homoeopathie", label:"Enneagram &amp; Homeopathy"},
+      ])}
+    </div>
+  `);
+}
+
+export function wietskeVanTongerenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-wietske-van-tongeren-portrait.jpg" alt="Wietske van Tongeren – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-wietske-van-tongeren-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Wietske van Tongeren</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 with a Six-wing</p>
+        <p class="krim-portrait-subtitle">Dutch musical performer, b. 1980 &ndash; &lsquo;Elisabeth&rsquo;, &lsquo;Rebecca&rsquo;, &lsquo;Rocky&rsquo; &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chimpanzee: the village child from the Netherlands who first wanted to study law</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>chimpanzee</strong> attaches itself with enthusiasm to everything that sounds and moves and jumps in with its whole body. Wietske van Tongeren was born on 26 December 1980 in Zwolle in the Netherlands and grew up in a small village where artistic careers were unusual. She sang from childhood. Actually she wanted to study law. Then she saw the musical &lsquo;Miss Saigon&rsquo; in the Netherlands, it moved her, and her father advised her to look into training.</p>
+          <p class="vb-intro">She studied acting, singing and dance at the conservatory in Tilburg (now Fontys), changed schools after a year to be better trained and graduated in 2004. Already during her training she played Mrs. Lovett in &lsquo;Sweeney Todd&rsquo;. In spring 2004 she auditioned in Vienna for &lsquo;Elisabeth&rsquo; and got the understudy of the title role. She wanted to stay one year. She stayed: &lsquo;Austria gripped me and never let go.&rsquo;</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Seven: in love with plays and roles</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Seven seeks the intoxication of the new. Claudio Naranjo (from whom the author learned the Enneagram) called the <strong>sexual Seven (SX7)</strong> the subtype of &lsquo;suggestibility&rsquo;: it lets itself be so completely fascinated by an idea, a piece of music, a role that it sinks into it. It seeks neither abundance nor belonging, but intensity.</p>
+          <p class="vb-intro">In van Tongeren this shows in the words she chooses for her work. Asked about her role as Maria in &lsquo;The Sound of Music&rsquo; she said: &lsquo;I love every one of my roles.&rsquo; About a new piece: &lsquo;I fell in love with the music straight away.&rsquo; And: &lsquo;I love it when new pieces come into being.&rsquo; About her role as Adrian in the world premiere of &lsquo;Rocky&rsquo; she said she would &lsquo;never in my life have thought&rsquo; she would get it. About her colleague Drew Sarich she says: &lsquo;Drew is totally relaxed, and that rubs off on me.&rsquo; Here we see the Seven&rsquo;s infection. In the Salzburg Maria too she was allowed to be &lsquo;bubbly, as I am a little in private too&rsquo;.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: ensemble, preparation and the fear of the premiere</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> lends the Seven loyalty, warmth and a sense of what holds. Where a Seven with a weaker Six-wing jumps from one fascination to the next, the Six-wing asks: do I belong, have I prepared? In van Tongeren these are attitudes: she wants to &lsquo;master the score&rsquo; (a standard from her conservatory days), learns her lines early and approaches the era of her character. She does not look at how others played the role: &lsquo;That would only make me insecure.&rsquo; As a newcomer in an ensemble she said: &lsquo;I am falling into this swimming pool now and trying to swim again – with a new team.&rsquo; And: &lsquo;Personally it is more important to me to get to know the people of the production.&rsquo; A Dutch phrase of hers, roughly: &lsquo;Have all noses pointing in one direction.&rsquo;</p>
+          <p class="vb-intro">The Six&rsquo;s worry belongs to it: &lsquo;Premieres are terrible&rsquo;, she says, and before performances she needs &lsquo;my own space&rsquo;. She does not let stage fright in: &lsquo;It destroys your own authenticity if you allow it.&rsquo; At the Salzburg premiere, in the presence of members of the real Trapp family, she was &lsquo;excited, but positively excited&rsquo;.</p>
+          <p class="vb-intro">The wing shows in private life too. She moved from Perchtoldsdorf and Vienna to Gablitz, bought a house during her pregnancy from a conductor who was moving to Spain, and says: &lsquo;We are not going to leave here voluntarily any more.&rsquo; Her husband Martin Pasching is also a musical performer; they met on &lsquo;Elisabeth&rsquo;. They have two children.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: roles that fill the room</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From 2004 followed the title role in &lsquo;Elisabeth&rsquo; in Stuttgart, 2006 to 2008 in Vienna the lead &lsquo;Ich&rsquo; (&lsquo;I&rsquo;) in &lsquo;Rebecca&rsquo; (the nameless second wife), from 2009 Stephanie in &lsquo;Rudolf – Affaire Mayerling&rsquo; at the Raimund Theater, in 2011 Betty Schaefer in &lsquo;Sunset Boulevard&rsquo; in Bad Hersfeld and in 2011/12 Maria von Trapp in Salzburg. From November 2012 to August 2015 she played in Hamburg Adrian in the world premiere of &lsquo;Rocky – Das Musical&rsquo;. Later she sang Grizabella in &lsquo;Cats&rsquo; at Vienna&rsquo;s Ronacher, in 2022 Mary Tudor in the world premiere of &lsquo;Lady Bess&rsquo; (Kunze/Levay) at the Theater St. Gallen, in 2024 Donna in &lsquo;Mamma Mia!&rsquo; in Tecklenburg and in 2025 Beverley in the German-language premiere of &lsquo;Come From Away&rsquo; in Regensburg.</p>
+          <p class="vb-intro">Striking is how many of these are world or first performances: &lsquo;Rebecca&rsquo;, &lsquo;Rudolf&rsquo;, &lsquo;Rocky&rsquo;, &lsquo;Lady Bess&rsquo;, &lsquo;Come From Away&rsquo;. Whoever loves new pieces is interested in the moment in which a character lives for the first time.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Peters, Bernstein and Gottschalk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Several SX7w6s stand among the portraits in this Compass, and the comparison shows how the Six-wing binds the pleasure in transformation. <a href="#beruehmte-caroline-peters">Caroline Peters (SX7w6)</a> lets herself be drawn into roles and is at the same time a permanent ensemble member at the Burgtheater. <a href="#beruehmte-leonard-bernstein">Leonard Bernstein (SX7w6)</a> joined concert hall and musical and stayed loyal to his institutions and pupils. <a href="#beruehmte-thomas-gottschalk">Thomas Gottschalk (SX7w6)</a> carries the stage into every situation.</p>
+          <p class="vb-intro">Van Tongeren is close to Peters: transformation and ensemble belong together. With Bernstein she shares the love of the musical, with Gottschalk the bubbliness. Unlike Peters, she does not bind herself to a single house but to the group with which she is currently building a piece.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Seven with a Six-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the honest, positive force she describes in Maria: &lsquo;The role is honest and open like a child – and it is very positive.&rsquo; Add the collegiality: about her partnership with Uwe Kröger it is said that they trust each other, &lsquo;which is certainly very important for a love story on stage&rsquo;.</p>
+          <p class="vb-intro">The shadow is compatibility with family. About &lsquo;Cats&rsquo; she said in 2020: &lsquo;With Cats the challenge at the moment is simply that I now have two children.&rsquo; And with humour about her children: &lsquo;Learn something sensible, do this only as a hobby.&rsquo; The Six&rsquo;s wish for security collides with a profession that hardly knows security.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: still on stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 22 October 2026) Wietske van Tongeren lives with her family in Gablitz near Vienna and is still on stage. In 2025 she played Beverley in &lsquo;Come From Away&rsquo; in Regensburg; for summer 2026 the role of Cloe in &lsquo;The Band&rsquo; at the Musicalsommer Amstetten was announced. She turns 46 on 26 December 2026.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
+        {route:"beruehmte-caroline-peters", label:"Portrait: Caroline Peters (SX7w6) – actress, same subtype and wing"},
+        {route:"beruehmte-leonard-bernstein", label:"Portrait: Leonard Bernstein (SX7w6)"},
+        {route:"beruehmte-thomas-gottschalk", label:"Portrait: Thomas Gottschalk (SX7w6)"},
+        {route:"beruehmte-helene-spilling-odegaard", label:"Portrait: Helene Spilling \u00d8degaard (SX7w6)"},
+        {route:"beruehmte-isabell-gerschke", label:"Portrait: Isabell Gerschke (SX7w6)"},
+        {route:"beruehmte-johannes-heesters", label:"Portrait: Johannes Heesters (SX7w6)"},
+      ])}
+    </div>
+  `);
+}
+
+
+export function christinaPlatePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-christina-plate-portrait.jpg" alt="Christina Plate – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-christina-plate-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Christina Plate</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexual Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">German actress, b. 1965 &ndash; Familie Dr. Kleist &ndash; Animal correspondence: Peacock</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Peacock: the face that came early to the stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>peacock</strong> shows itself, and it knows it is being looked at. Christina Plate was born on 21 April 1965 in West Berlin. At the age of six she stood in front of the camera for children&rsquo;s clothing and appeared in commercials with her mother; at eleven she made her debut in the ZDF series &lsquo;Kinder, Kinder&rsquo; (&lsquo;Kids, Kids&rsquo;). In 1982 she played alongside Thomas Ohrner in &lsquo;Manni, der Libero&rsquo; and also worked as a voice actress.</p>
+          <p class="vb-intro">After that she took a second path: she trained as a gymnastics teacher and passed the state examination in 1985. The breakthrough came in 1987 with the series &lsquo;Praxis Bülowbogen&rsquo;, in which she appeared in 18 episodes until 1994. In 1988 she received the Nachwuchs-Bambi (young talent award).</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Three: radiance as a profession</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three lives on impact, and Claudio Naranjo described the <strong>sexual Three (SX3)</strong> as the subtype of femininity or masculinity: the image one gives off, radiance and shining for others are at the centre. In Christina Plate this began with the child model and continued as the face of German TV series that brought her a loyal audience over decades. In 2004 she posed for &lsquo;Playboy&rsquo;, and the July issue carried her picture on the cover.</p>
+          <p class="vb-intro">The biography also includes the shadow side of the image: in 1989 she collapsed on a film set and was treated for anorexia, as was reported later. Someone who learned early that their own appearance is the job can turn the body into a task.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: warmth and care</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> brings the Three warmth, helpfulness and the wish to be needed. In Plate it is clearly visible in her choice of roles: her series characters come from the world of the doctor&rsquo;s practice, family and police work, roles in which one cares for others. From 2004 to 2011 she was the female lead of the ARD series &lsquo;Familie Dr. Kleist&rsquo; (&lsquo;The Kleist Family Doctor&rsquo;, 52 episodes), and in 2015 and 2016 she played Chief Inspector Nina Jacobs in &lsquo;SOKO Köln&rsquo; (24 episodes).</p>
+          <p class="vb-intro">In January 2011 she announced that she would scale back her acting career and left the series. Closeness to her family has taken priority since. The core type Three stands for success, the Two-wing for the person who is there for others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: reliability in front of the camera</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Plate has appeared in more than 70 film and television productions, among them &lsquo;Derrick&rsquo;, &lsquo;Der Alte&rsquo; (&lsquo;The Old Man&rsquo;), &lsquo;Das Traumschiff&rsquo; (&lsquo;The Dream Ship&rsquo;) and several &lsquo;Tatort&rsquo; episodes (1991, 1992, 1996). What carries her as an actress is less the great drama than the ability to stay credible in series roles: playing a character for years with constant warmth and presence is itself a craft achievement.</p>
+          <p class="vb-intro">With the Nachwuchs-Bambi in 1988 began a career that does not rest on a single success but on duration. At the same time the early start shows how young the discipline was that this working life demanded: someone who stands in front of the camera at six learns to hold still, to smile and to deliver long before others choose a profession.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Helene Fischer and Iris Berben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Among the SX3w2s in this Compass are also women in whom radiance and professionalism come together. <a href="#beruehmte-helene-fischer">Helene Fischer (SX3w2)</a> combines shine and perfection on the big stage. <a href="#beruehmte-iris-berben">Iris Berben (SX3w2)</a> is, like Plate, an actress whose presence and bearing carry a lifetime.</p>
+          <p class="vb-intro">The difference: Fischer works on the concert stage, Berben and Plate in front of the camera, and Plate deliberately stepped back in 2011. What they share: the face that many people associate with trust.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Three with a Two-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in reliability, warmth and the ability to hold one&rsquo;s own in front of a large audience without losing warmth towards others. Someone who builds trust in series over decades gives the audience a sense of security.</p>
+          <p class="vb-intro">The shadow of this combination is the danger of defining oneself through the image. Where appearance becomes currency, overstrain threatens, in Plate&rsquo;s case, according to the reports, in the form of anorexia. The turn to family after 2011 gives the warmth of the Two-wing more room.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: less spotlight, more family</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 23 October 2026) Christina Plate is 61 years old, lives with her family in Hamburg and appears in front of the camera less often. In January 2023 she was a guest on the quiz show &lsquo;Wer weiß denn sowas?&rsquo; (&lsquo;Who Knows Such a Thing?&rsquo;).</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
+        {route:"lebensmusterkompass/sx3", label:"Life Pattern Compass: SX3 – Peacock"},
+        {route:"beruehmte-helene-fischer", label:"Portrait: Helene Fischer (SX3w2)"},
+        {route:"beruehmte-iris-berben", label:"Portrait: Iris Berben (SX3w2)"},
+        {route:"beruehmte-kai-pflaume", label:"Portrait: Kai Pflaume (SX3w2)"},
+        {route:"beruehmte-katharina-koenig", label:"Portrait: Katharina K\u00f6nig (SX3w2)"},
+      ])}
+    </div>
+  `);
+}
+
+export function sheilaDeLizPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sheila-de-liz-portrait.jpg" alt="Dr. med. Sheila de Liz – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-sheila-de-liz-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Dr. med. Sheila de Liz</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">German gynecologist and bestselling author, b. 1969 &ndash; Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Wolf: from New Jersey to Wiesbaden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>wolf</strong> faces what seems threatening and runs in a pack. Sheila Christiane de Liz was born in 1969 in New Jersey and moved to Germany at 15. She studied medicine in Mainz and is a gynecologist. In her own words she was neither the best in school nor in medical school.</p>
+          <p class="vb-intro">Since 2006 she has run her own practice for gynecology and obstetrics in Wiesbaden. According to her agency biography she is probably the best-known gynecologist in Germany; she is a mother of two.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Six: facing fear head-on</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Six carries doubt and vigilance within; the <strong>sexual Six (SX6)</strong> is, according to Claudio Naranjo, its countertype and answers fear not with leaning on others but with strength. In de Liz this shows in how she deals with shame. Women&rsquo;s bodies, menstruation, menopause and desire are a delicate subject for many. She speaks about them openly: in books, on YouTube, on Instagram and TikTok, in a column in the youth magazine &lsquo;Mädchen&rsquo; (&lsquo;Girls&rsquo;).</p>
+          <p class="vb-intro">She sums up her basic attitude like this: &lsquo;Schweigen ist das Schlimmste, was man machen kann&rsquo; (silence is the worst thing you can do). She traces the silence around the female body to a tradition of shame and sexualization. In her own words she sees herself more as a crusader than as an influencer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-wing: humor and lightness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> brings liveliness, humor and the desire to convey things with lightness. In de Liz it shows in the titles and the tone: &lsquo;Unverschämt: Alles über den fabelhaften weiblichen Körper&rsquo; (&lsquo;Shameless: Everything About the Fabulous Female Body&rsquo;, 2019), &lsquo;Woman On Fire: Alles über die fabelhaften Wechseljahre&rsquo; (subtitle: Everything About the Fabulous Menopause, 2020), &lsquo;Girl on Fire&rsquo; (2022). Together with the urologist Volker Wittkamp she explains questions about body and sexuality on TikTok under the name &lsquo;Doktorsex&rsquo;.</p>
+          <p class="vb-intro">The Six goes through the fear, and the Seven-wing turns it into an invitation with wit, so that teenagers and people in menopause feel addressed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: education as a craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">De Liz combines medical expertise with language that needs no technical terms. She criticizes gaps in training: teachers receive only minimal training for sex education, and medical students do not learn the anatomy of the clitoris. From practice she knows the questions patients do not dare to ask, and answers them in book form. According to the publisher &lsquo;Unverschämt&rsquo; spent three months in the top ten of the Spiegel bestseller list, &lsquo;Woman On Fire&rsquo; according to her agency spent years in the top five. Next came &lsquo;Endometriose – Alles, was du wirklich wissen musst&rsquo; (&lsquo;Endometriosis – Everything You Really Need to Know&rsquo;, 2024) and &lsquo;Light My Fire&rsquo; (2026, Rowohlt).</p>
+          <p class="vb-intro">Add to that a way of working she names openly: she does everything at about 80 percent, lets the housework slide while writing books and relies on a network of helpers. She explicitly does not name perfectionism as her goal.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Dagi Bee and Anke Engelke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-dagi-bee">Dagi Bee (SX6w7)</a> shares with de Liz the directness toward a young audience and the courage to say private and delicate things. Both use social media as a stage, Dagi Bee for everyday life and relationship, de Liz for body and health.</p>
+          <p class="vb-intro"><a href="#beruehmte-anke-engelke">Anke Engelke (SX6w7)</a> shares with her the lightness with which delicate subjects are tackled, and the absorption in a community: Engelke in the ensemble, de Liz in the network of colleagues and readers.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Six with Seven-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Among her strengths is the courage to name a taboo and in the ability to make it understandable. Someone who tells women over 40 that desire and menopause may be thought of together takes a burden off them.</p>
+          <p class="vb-intro">The price of this combination is the risk of hiding one&rsquo;s own vigilance behind constant effort: someone who fights on many fronts has to take care not to forget recovery. And an open tone invites headwind, which according to the available sources she does not use as a reason to retreat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: practice, books and online consultation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sheila de Liz keeps working, according to the available information (as of 24 October 2026), in her practice in Wiesbaden and offers an online hormone consultation. She keeps writing books and appears in media and social networks. This portrait limits itself to her public work; it gives no medical recommendations.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"lebensmusterkompass/sx6", label:"Life Pattern Compass: SX6 – Wolf"},
+        {route:"beruehmte-dagi-bee", label:"Portrait: Dagi Bee (SX6w7)"},
+        {route:"beruehmte-anke-engelke", label:"Portrait: Anke Engelke (SX6w7)"},
+        {route:"beruehmte-louise-hay", label:"Portrait: Louise Hay (SX6w7)"},
+        {route:"beruehmte-karolina-lodyga", label:"Portrait: Karolina Lodyga (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
+
+export function karolinaLodygaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-karolina-lodyga-portrait.jpg" alt="Karolina Lodyga – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-karolina-lodyga-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Karolina Lodyga</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">German-Polish actress, b. 1984 &ndash; Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Wolf: from Gdynia to Berlin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>wolf</strong> runs in a pack and faces what threatens it. Karolina Lodyga was born on 13 April 1984 in Gdynia in Poland. Polish is her mother tongue and she speaks fluent German. From 2001 to 2003 she attended the Berliner Schule für Bühnenkunst, from 2003 to 2007 the Transform Schauspielschule Berlin.</p>
+          <p class="vb-intro">From 2004 she appeared at the Teatr Studio am Salzufer in Berlin, a German-Polish studio stage, in plays by Różewicz, Witkiewicz and Horváth. In 2007 she played Alice in &lsquo;Alice in Wonderland&rsquo; at the Schlosstheater Celle, in 2008 Brooke in &lsquo;Der nackte Wahnsinn&rsquo; (&lsquo;Noises Off&rsquo;) at the Komödie Dresden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Six: strength as the answer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Six carries doubt within, and the <strong>sexual Six (SX6)</strong> answers this, according to Claudio Naranjo, not with leaning on others but with strength. In Lodyga this can be read from her choice of roles, not from statements of her own: she often plays women who assert themselves, such as the police inspector Zofia Kowalska in &lsquo;Der Masuren-Krimi&rsquo; (since 2021) and Danuta Masik in the series &lsquo;Die Eifelpraxis&rsquo; (2016 to 2019). This is an interpretation based on the roles, not on self-statements.</p>
+          <p class="vb-intro">Her path also shows toughness: from a Berlin studio stage over the years came a television career with roles from telenovela through drama to crime.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-wing: sociability and curiosity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso and Russ Hudson call the Six with a Seven-wing &lsquo;The Buddy&rsquo; and the Six with a Five-wing &lsquo;The Defender&rsquo;. The <strong>Seven-wing (w7)</strong> brings sociability, humor and curiosity. In an interview with Quotenmeter (19 August 2021) she says that new professional challenges and meeting new colleagues energize her, and that she spends her best days with family and friends. In the evening she unwinds with dinner and wine with colleagues or with documentaries at home with her husband.</p>
+          <p class="vb-intro">The Six holds on to what is reliable, and the Seven-wing turns this into mobility and community.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: from telenovela face to the discovery of the film</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">She became known in 2008 as Katja Polauke in the telenovela &lsquo;Anna und die Liebe&rsquo; (2008 to 2010 and 2011, 361 episodes in the first phase). She also played a supporting role in 2008 and 2009 in Dominik Graf&rsquo;s &lsquo;Im Angesicht des Verbrechens&rsquo; (&lsquo;In the Face of Crime&rsquo;) and, by her own account, would like to work with Graf again. In 2014 she received much praise as Wanda in the ARD television film &lsquo;… und dann kam Wanda&rsquo;; reviews called her the &lsquo;discovery of the film&rsquo;.</p>
+          <p class="vb-intro">In 2022 followed the role of Miriam Merizadi in the ZDF series &lsquo;Der Überfall&rsquo; (&lsquo;The Heist&rsquo;) as well as appearances in &lsquo;4 Blocks&rsquo;, &lsquo;Der Bergdoktor&rsquo; (2023), &lsquo;Der Alte&rsquo; (2024) and Tatort episodes (2025).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Katja Riemann and Anke Engelke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-katja-riemann">Katja Riemann (SX6w7)</a> and <a href="#beruehmte-anke-engelke">Anke Engelke (SX6w7)</a> share with Lodyga type and wing: a combination of directness and sociability. Riemann and Engelke have been in the business for decades, Lodyga is at the beginning of a longer stretch.</p>
+          <p class="vb-intro">The difference lies in the biography: Lodyga came from Poland and worked her way to a place in German television.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Six with Seven-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Strong is the reliability: someone who carries roles from telenovela to television film for years becomes a face one can count on. Bright too is the sociability that she, by her own account, draws from working together.</p>
+          <p class="vb-intro">The shadow side of the Six with a Seven-wing can be constant activity: someone who keeps taking on new roles has little time to feel one&rsquo;s own worry. No statements of her own on this exist; this sentence is an interpretation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: Franconia, family and new roles</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lodyga is 42 years old (as of 24 October 2026), married and lives in Franconia. She lived in Berlin for almost 20 years. Most recently she was seen in &lsquo;Der Masuren-Krimi&rsquo;, in the Tatort and in &lsquo;Wilsberg&rsquo; (2026). She speaks little about her private life, and this portrait respects that.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"lebensmusterkompass/sx6", label:"Life Pattern Compass: SX6 – Wolf"},
+        {route:"beruehmte-katja-riemann", label:"Portrait: Katja Riemann (SX6w7)"},
+        {route:"beruehmte-anke-engelke", label:"Portrait: Anke Engelke (SX6w7)"},
+        {route:"beruehmte-sheila-de-liz", label:"Portrait: Dr. med. Sheila de Liz (SX6w7)"},
+            ])}
+    </div>
+  `);
+}
+
+export function julianeKoepckePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-juliane-koepcke-portrait.jpg" alt="Juliane Koepcke – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-juliane-koepcke-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Juliane Koepcke</p>
+        <p class="krim-portrait-typ">SP5w6 &middot; Self-Preservation Type 5 with Six-wing</p>
+        <p class="krim-portrait-subtitle">German-Peruvian biologist, b. 1954 &ndash; Animal correspondence: Owl</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Owl: a child of the rainforest</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Owls hear what moves in the dark, and they stay still until they are sure. Juliane Margaret Beate Koepcke was born on 10 October 1954 in Lima, Peru, the only child of the zoologists Maria and Hans-Wilhelm Koepcke. At 14 she moved with her parents to the Panguana research station in the Amazon rainforest. According to reports she learned there to live in the forest and to read it. The school authorities disapproved, so she took her final exams in Lima, on 23 December 1971.</p>
+          <p class="vb-intro">One day later began the flight that divided her life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Five: survival through knowledge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the self-preservation Five the &lsquo;castle&rsquo;: a secured space of one&rsquo;s own in which the essentials are safe. In Koepcke this is also a place, the Panguana station, and a skill: knowing what lives around you and how it behaves.</p>
+          <p class="vb-intro">On 24 December 1971 the LANSA aircraft (Flight 508) crashed over the rainforest after being struck by lightning. According to reports she fell about 3,000 meters, still strapped to her seat, and survived with a broken collarbone, a deep arm wound, an eye injury, a torn knee ligament and a concussion. As possible explanations the literature names the parachute effect of the seat, updrafts of a thunderstorm and dense foliage at the impact site. She is the only survivor found alive; up to 14 other passengers survived the crash at first and died while waiting for rescue.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: faithfulness to her parents&rsquo; mission</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso and Russ Hudson call the Five with a Six-wing &lsquo;The Problem Solver&rsquo;. The <strong>Six-wing (w6)</strong> gives the Five reliability, loyalty and a sense for a task that reaches beyond oneself. In Koepcke it shows in her faithfulness to her parents&rsquo; work: after her father&rsquo;s death she took over the direction of Panguana in 2000 and continues the station in the family&rsquo;s spirit.</p>
+          <p class="vb-intro">The way she speaks about what she experienced fits: matter-of-fact, without drama, with a view to what can be learned and carried on.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: ten days in the jungle and a life in research</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After the crash she was, according to reports, alone, first following a stream until a river. She suffered from insect bites and botfly larvae in the injured arm. After nine to eleven days (the sources give different numbers) she came upon a camp of loggers, who took her by canoe to an inhabited place from which she was flown out. Afterwards she helped search parties to find the crash site. Her mother was found on 12 January 1972.</p>
+          <p class="vb-intro">She moved to the Federal Republic, studied biology in Kiel (degree 1980) and received her doctorate at the Ludwig Maximilian University in Munich. Her dissertation on a bat community in the Peruvian rainforest was published in 1987. In 1989 she married the entomologist Erich Diller, who specializes in parasitic wasps. Alongside directing Panguana she worked as a librarian at the Bavarian State Collection of Zoology in Munich. Her autobiography &lsquo;Als ich vom Himmel fiel&rsquo; (&lsquo;When I Fell From the Sky&rsquo;) appeared in 2011 and won the Corine Literature Prize the same year. In 2019 the Peruvian government awarded her the Order of Merit as Grand Officer.</p>
+          <p class="vb-intro">There are also films about the crash: the heavily fictionalized Italian feature film &lsquo;I miracoli accadono ancora&rsquo; (&lsquo;Miracles Still Happen&rsquo;, 1974) and Werner Herzog&rsquo;s documentary &lsquo;Wings of Hope&rsquo; (1998), in which she appears herself. Herzog was supposed to be on the same flight and cancelled at short notice. Koepcke later accompanied him to the crash site and described it as a kind of therapy.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Marie Curie and Charles Darwin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-marie-curie">Marie Curie (SP5w6)</a> shares with Koepcke the endurance in research under difficult conditions and faithfulness to a task. <a href="#beruehmte-charles-darwin">Charles Darwin (SP5w6)</a> shares with her the observation of nature in the field and the patient collecting of knowledge.</p>
+          <p class="vb-intro">The difference: Curie and Darwin went their ways out of curiosity. For Koepcke there stood at the beginning an event she did not choose, and survival turned into service to research.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the self-preservation Five with Six-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is the combination of knowledge and calm: whoever knows the forest can survive in it, and whoever researches it gives something back. That after the crash she became a researcher and continues her parents&rsquo; station shows a faithfulness that gives support.</p>
+          <p class="vb-intro">A shadow of the Five can be withdrawal inward: whoever has experienced something shattering often keeps it to themselves and orders it with the mind. Koepcke has nevertheless shared what she experienced, in her book and in the film, and says that the return to the crash site helped her. She does not classify what happened as a miracle but as part of her life story.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: Panguana and remembrance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Koepcke is (as of 25 October 2026) 72 years old and director of the Panguana research station. She is married to Erich Diller. This portrait keeps to what she tells herself and what has been published. The other people on the flight lost their lives, and they are to be remembered here as well.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. A thought from homeopathy: the image of the wilderness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the Enneagram homeopathy of this Compass the Type 5 is assigned the remedy Stramonium (thorn apple) (more under <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a>). Its remedy picture includes, among other things, the feeling of being utterly alone in the wilderness, entirely on one&rsquo;s own. In Kent&rsquo;s Repertory this idea stands under &ldquo;alone &hellip; in a wilderness&rdquo; with one remedy only, Stramonium. In the technical language of homeopathy this is a single rubric. According to the author&rsquo;s observation this experience shows most purely in the self-preservation Five, in whom it is about pure self-preservation. This image meets one in Koepcke&rsquo;s life thread on two levels: outwardly in the days alone in the rainforest, inwardly in a life that afterwards stood in the service of that forest. It can be read as a kind of life task: the wilderness that first met her as exposure became the place to which she devoted her working life.</p>
+          <p class="vb-intro">It is a juxtaposition of two images that resemble each other, nothing more. The portrait says nothing about her health, recommends nothing and does not replace medical or therapeutic advice.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
+        {route:"lebensmusterkompass/se5", label:"Life Pattern Compass: SP5 – Owl"},
+        {route:"beruehmte-marie-curie", label:"Portrait: Marie Curie (SP5w6)"},
+        {route:"beruehmte-charles-darwin", label:"Portrait: Charles Darwin (SP5w6)"},
+        {route:"beruehmte-larry-sanger", label:"Portrait: Larry Sanger (SP5w6)"},
+        {route:"beruehmte-simone-menne", label:"Portrait: Simone Menne (SP5w6)"},
+        {route:"enneagramm-homoeopathie", label:"Enneagram &amp; Homeopathy"},
       ])}
     </div>
   `);

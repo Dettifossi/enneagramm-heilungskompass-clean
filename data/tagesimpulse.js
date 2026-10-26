@@ -741,7 +741,7 @@ Heilung beginnt, wenn jemand unsere Scham sieht – und trotzdem bleibt.`,
 
 Worauf man neidisch ist, zeigt, was man selbst will. Was man für sich ablehnt. Was man sich nicht erlaubt.
 
-Das Enneagramm kennt Neid als Leidenschaft des Typ 4. Doch in Wahrheit kennt ihn jeder. Und jeder kann von ihm lernen: Was begehre ich – das ich mir noch nicht zugestehe?`,
+Das Enneagramm kennt Neid als Leidenschaft des Typs 4. Doch in Wahrheit kennt ihn jeder. Und jeder kann von ihm lernen: Was begehre ich – das ich mir noch nicht zugestehe?`,
     impuls: `Auf wen bist du gerade neidisch – oder warst es kürzlich? Was will dir dieser Neid über deine eigenen unerfüllten Wünsche sagen?`,
   },
   {

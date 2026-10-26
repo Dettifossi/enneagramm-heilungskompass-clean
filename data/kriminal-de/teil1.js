@@ -1,4 +1,4 @@
-import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
+const { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } = window.__kh;
 
 export function adolfEichmannPortraitPage() {
   return shell(`
@@ -22,7 +22,7 @@ export function adolfEichmannPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale Sechs: Sicherheit durch Gehorsam</h3>
         <p class="vb-intro">Die <strong>soziale Sechs (SO6)</strong> sucht Sicherheit nicht durch eigene St\xe4rke, sondern durch Zugeh\xf6rigkeit zu einer Autorit\xe4tsstruktur. Die Leidenschaft der Sechs ist <em>Angst</em> &ndash; die SO6 bew\xe4ltigt diese Angst, indem sie sich in eine Institution, eine Ideologie oder eine Hierarchie einbettet. Solange sie dem System dient und das System ihr Deckung gibt, ist die Angst still.</p>
-        <p class="vb-intro"><strong>Otto Adolf Eichmann</strong>, geboren am 19. M\xe4rz 1906 in Solingen, war ein durch und durch durchschnittlicher Mensch. Als junger Mann gl\u00fccklos im Beruf, ohne besondere Begabung, ohne ausgep\xe4gten Ehrgeiz. Der Beitritt zur NSDAP und zur SS 1932 war f\xfcr ihn kein ideologischer Akt &ndash; es war ein Akt der <em>Einbindung</em>. Er fand eine Struktur, die ihm Halt, Zugeh\xf6rigkeit und Aufgaben gab. Er stieg auf, weil er zuverl\xe4ssig war, gehorsam war, Aufgaben sauber erledigte. Das ist die SO6-Karriere: nicht durch Brillanz, sondern durch Konformit\xe4t.</p>
+        <p class="vb-intro"><strong>Otto Adolf Eichmann</strong>, geboren am 19. M\xe4rz 1906 in Solingen, war ein durch und durch durchschnittlicher Mensch. Als junger Mann gl\u00fccklos im Beruf, ohne besondere Begabung, ohne ausgep\xe4gten Ehrgeiz. Der Beitritt zur NSDAP und zur SS 1932 war f\xfcr ihn kein ideologischer Akt &ndash; es war ein Akt der <em>Einbindung</em>. Er fand eine Struktur, die ihm Halt, Zugeh\xf6rigkeit und Aufgaben gab. Er stieg auf, weil er zuverl\xe4ssig war, gehorsam war, Aufgaben sauber erledigte. Hier zeigt sich die SO6-Karriere: nicht durch Brillanz, sondern durch Konformit\xe4t.</p>
       </div>
 
       <div class="vb-section">
@@ -81,6 +81,10 @@ export function adolfEichmannPortraitPage() {
           {route:"kriminalpsychologie-anders-breivik", label:"Kriminalpsychologie: Anders Breivik (SX6w5)"},
           {route:"kriminalpsychologie-charles-manson", label:"Kriminalpsychologie: Charles Manson (SX6w7)"},
           {route:"kriminalpsychologie-harold-shipman", label:"Kriminalpsychologie: Harold Shipman (SO5w6)"},
+          {route:"kriminalpsychologie-andreas-baader", label:"Andreas Baader (SE7w8) – Kriminalpsychologie"},
+          {route:"kriminalpsychologie-john-list", label:"John List (SE6w5) – Kriminalpsychologie"},
+          {route:"kriminalpsychologie-ted-kaczynski", label:"Dr. Ted Kaczynski (SO5w4) – Kriminalpsychologie"},
+          {route:"kriminalpsychologie-ulrike-meinhof", label:"Ulrike Meinhof (SE2w1) – Kriminalpsychologie"},
         ])}
       </div>
     </div>
@@ -139,7 +143,7 @@ export function alfonsSchuhbeckPortraitPage() {
         <p class="vb-intro"><strong>a) Der Aufbau des Systems:</strong>
         Die Manipulationen begannen nach Erkenntnissen der Staatsanwaltschaft sp\xe4testens ab 2009 und erstreckten sich \xfcber mehrere Jahre. Schuhbeck oder Mitarbeiter unter seiner Verantwortung nutzten eine sogenannte \u201eZapper\u201c-Software, die es erm\xf6glichte, Kasseneintr\xe4ge nachtr\xe4glich zu l\xf6schen oder zu ver\xe4ndern. Bareinnahmen in seinen M\xfcnchner Restaurants wurden systematisch nicht vollst\xe4ndig verbucht. Das Finanzamt erhielt gek\xfcrzte Zahlen, die Differenz verschwand unversteuert.</p>
         <p class="vb-intro"><strong>b) Die Methode:</strong>
-        Kein Raubzug, kein \xfcberw\xe4ltigender Betrug \u2013 sondern die stille, konsequente Verschiebung kleiner Betr\xe4ge \xfcber lange Zeit. Genau das ist die SE9-Methode: kein Drama, keine Konfrontation, kein Aufschrei. Die Neun gelangt zu ihren Zielen durch Beharrlichkeit, nicht durch Gewalt. Der Gesamtschaden: rund <strong>2,3 Millionen Euro</strong> nicht abgef\xfchrte Steuern. Aufgeflogen durch eine Betriebspr\xfcfung \u2013 nicht durch ein dramatisches Zusammenbrechen, sondern durch die n\xfcchterne Arbeit der Beh\xf6rden.</p>
+        Kein Raubzug, kein \xfcberw\xe4ltigender Betrug \u2013 sondern die stille, konsequente Verschiebung kleiner Betr\xe4ge \xfcber lange Zeit. Genau das zeigt die SE9-Methode: kein Drama, keine Konfrontation, kein Aufschrei. Die Neun gelangt zu ihren Zielen durch Beharrlichkeit, nicht durch Gewalt. Der Gesamtschaden: rund <strong>2,3 Millionen Euro</strong> nicht abgef\xfchrte Steuern. Aufgeflogen durch eine Betriebspr\xfcfung \u2013 nicht durch ein dramatisches Zusammenbrechen, sondern durch die n\xfcchterne Arbeit der Beh\xf6rden.</p>
         <p class="vb-intro"><strong>c) Der Prozess:</strong>
         Das Verfahren vor dem Landgericht M\xfcnchen begann 2022. Schuhbeck trat zun\xe4chst mit gewohnter Fassung auf \u2013 auch das SE9-typisch: keine Panik, kein \xdcberschwang. Im Prozessverlauf r\xe4umte er Fehler ein, versuchte jedoch, die volle Verantwortung zu relativieren. Am <strong>4. Oktober 2022</strong> f\xe4llte das Gericht das Urteil: schuldig in 18 F\xe4llen der Steuerhinterziehung.</p>
         <p class="vb-intro"><strong>d) Das Urteil und der Gang ins Gef\xe4ngnis:</strong>
@@ -199,7 +203,10 @@ export function alfonsSchuhbeckPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-nick-leeson", label:"Kriminalpsychologie: Nick Leeson (SO9w8) \u2013 Rogue Trader, Barings Bank"},
         {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Kriminalpsychologie: Wolfgang Beltracchi (SX9w1) \u2013 Kunstf\xe4lscher"},
-        {route:"kriminalpsychologie-leslie-van-houten", label:"Kriminalpsychologie: Leslie Van Houten (SO9w1) \u2013 Manson Family"}
+        {route:"kriminalpsychologie-leslie-van-houten", label:"Kriminalpsychologie: Leslie Van Houten (SO9w1) \u2013 Manson Family"},
+        {route:"beruehmte-baerbel-bas", label:"Porträt: B\u00e4rbel Bas (SE9w1)"},
+        {route:"kriminalpsychologie-ed-gein", label:"Ed Gein (SX9w1) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-john-hinckley-jr", label:"John Hinckley Jr. (SE9w8) – Kriminalpsychologie"},
       ])}
       <div style="margin-top:1.5rem;max-width:100%;">
         <button class="ghost-link" data-route="kriminalpsychologie">\u2190 Zur\xfcck zur Kriminalpsychologie-\xdcbersicht</button>
@@ -298,6 +305,10 @@ export function andrewCunananPortraitPage() {
           {route:"kriminalpsychologie-wade-wilson", label:"Kriminalpsychologie: Wade Wilson (SO3w4)"},
           {route:"kriminalpsychologie-ted-bundy", label:"Kriminalpsychologie: Ted Bundy (SO1w9)"},
           {route:"kriminalpsychologie-anna-delvey", label:"Kriminalpsychologie: Anna Delvey (SE2w3)"},
+          {route:"kriminalpsychologie-oj-simpson", label:"O.J. Simpson (SO3w4) – Kriminalpsychologie"},
+          {route:"kriminalpsychologie-rodney-alcala", label:"Rodney Alcala (SO3w4) – Kriminalpsychologie"},
+          {route:"kriminalpsychologie-vincenzo-peruggia", label:"Vincenzo Peruggia (SO3w4) – Kriminalpsychologie"},
+          {route:"kriminalpsychologie-werner-gladow", label:"Werner Gladow (SO3w4) – Kriminalpsychologie"},
         ])}
       </div>
     </div>
@@ -355,7 +366,7 @@ export function arnoFunkePortraitPage() {
         Neunerfl\xfcgels.</p>
         <p class="vb-intro"><strong>c) Ohne Aggression:</strong>
         Anders als viele Kriminelle wirkte Funke nie bedrohlich. Sein Blick
-        signalisierte keine Dominanz, sondern Konzentration. Das ist die SE1w9
+        signalisierte keine Dominanz, sondern Konzentration. Hier wirkt die SE1w9
         in ihrer zivilen Auspr\xe4gung: Intensit\xe4t ohne Gef\xe4hrlichkeit.</p>
       </div>
 
@@ -384,7 +395,7 @@ export function arnoFunkePortraitPage() {
         <p class="vb-intro"><strong>a) Methodisches Vorgehen:</strong>
         Nicht Spontaneit\xe4t, sondern Methode pr\xe4gte Funkes Handeln. Jede
         Geldabholung war ein Projekt \u2013 mit Vorlauf, Testl\xe4ufen, Alternativpl\xe4nen.
-        Das ist die Eins, die Fehler antizipiert und ausschlie\xdft, bevor sie entstehen.</p>
+        Hier zeigt sich die Eins, die Fehler antizipiert und ausschlie\xdft, bevor sie entstehen.</p>
         <p class="vb-intro"><strong>b) Innerer Groll gegen das System:</strong>
         Der Zorn der Eins ist selten laut \u2013 er ist ein stiller, anhaltender Groll.
         Funkes Erpressung eines Gro\xdfkonzerns l\xe4sst sich als Ausdruck dieses Grolls
@@ -411,7 +422,7 @@ export function arnoFunkePortraitPage() {
         <p class="vb-intro"><strong>c) Sympathisch trotz Kriminalit\xe4t:</strong>
         Die \xd6ffentlichkeit jubelte Funke zu \u2013 ein Zeichen daf\xfcr, dass seine
         Grundhaltung (gewaltlos, klar begr\xfcndet, niemanden verletzend) intuitiv
-        als \"fair\" wahrgenommen wurde. Das ist die Eins in ihrer besten
+        als \"fair\" wahrgenommen wurde. Darin zeigt sich die Eins in ihrer besten
         Auspr\xe4gung: ein tief verankerter Sinn f\xfcr das, was vertretbar ist.</p>
       </div>
 
@@ -522,6 +533,8 @@ export function arnoFunkePortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-niels-hoegel", label:"Kriminalpsychologie: Niels H\xf6gel"},
         {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Kriminalpsychologie: Wolfgang Beltracchi"},
+        {route:"kriminalpsychologie-andrei-tschikatilo", label:"Andrei Tschikatilo (SE1w9) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-dennis-rader", label:"Dennis Rader (SE1w9) – Kriminalpsychologie"},
         {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
       ])}
     </div>
@@ -790,6 +803,9 @@ export function busterMurdaughPortraitPage() {
         {route:"kriminalpsychologie-anna-delvey", label:"Kriminalpsychologie: Anna Delvey"},
         {route:"kriminalpsychologie-harvey-weinstein", label:"Kriminalpsychologie: Harvey Weinstein"},
         {route:"kriminalpsychologie-jonathan-meijer", label:"Kriminalpsychologie: Jonathan Meijer"},
+        {route:"kriminalpsychologie-alex-murdaugh", label:"Alex Murdaugh (SX1w2) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-john-wayne-gacy", label:"John Wayne Gacy (SE2w3) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-sebastian-greenwood", label:"Sebastian Greenwood (SE2w3) – Kriminalpsychologie"},
       ])}
     </div>
   `);
@@ -824,7 +840,7 @@ export function clydeBarrowPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Achterfl\xfcgel: Wenn die Flucht zur Konfrontation wird</h3>
         <p class="vb-intro">Eine SX7 mit schw\xe4cher ausgepr\xe4gtem Achterfl\xfcgel h\xe4tte auf drohende Gefahr vermutlich mit reiner Flucht reagiert &ndash; ausweichen, verschwinden, die Situation verlassen. Bei Clyde trat stattdessen eine H\xe4rte hervor, die \xfcber blo\xdfes Entkommen hinausging: Wenn die Flucht an ihre Grenze stie\xdf, schoss er, ohne zu z\xf6gern. &bdquo;Lieber sterben als zur\xfcck ins Gef\xe4ngnis&ldquo; war f\xfcr ihn keine Floskel, sondern eine gelebte innere Notwendigkeit.</p>
-        <p class="vb-intro">Das ist der Achterfl\xfcgel bei der Sieben: Die Flucht bleibt die Grundbewegung, aber wenn kein Ausweg mehr bleibt, verwandelt sich die Leichtigkeit in kompromisslose Konfrontation. Nicht Kontrolle als Ziel wie bei der reinen Acht, sondern Kontrolle als letztes Mittel, um die Freiheit zu verteidigen, die die Sieben \xfcber alles stellt.</p>
+        <p class="vb-intro">Hier wirkt der Achterfl\xfcgel bei der Sieben: Die Flucht bleibt die Grundbewegung, aber wenn kein Ausweg mehr bleibt, verwandelt sich die Leichtigkeit in kompromisslose Konfrontation. Nicht Kontrolle als Ziel wie bei der reinen Acht, sondern Kontrolle als letztes Mittel, um die Freiheit zu verteidigen, die die Sieben \xfcber alles stellt.</p>
       </div>
 
       <div class="vb-section">
@@ -841,7 +857,7 @@ export function clydeBarrowPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro"><strong>a) Flucht vor der Enge, nicht Lust an der Gewalt:</strong> Clydes Ausgangspunkt war nicht Kontrollsucht, sondern panische Angst vor dem Eingesperrtsein. Das ist die SX7-Grundleidenschaft: Schmerz durch Bewegung, Geschwindigkeit und immer neue Optionen vermeiden.</p>
+        <p class="vb-intro"><strong>a) Flucht vor der Enge, nicht Lust an der Gewalt:</strong> Clydes Ausgangspunkt war nicht Kontrollsucht, sondern panische Angst vor dem Eingesperrtsein. Hier zeigt sich die SX7-Grundleidenschaft: Schmerz durch Bewegung, Geschwindigkeit und immer neue Optionen vermeiden.</p>
         <p class="vb-intro"><strong>b) Der Achterfl\xfcgel als letzte Verteidigungslinie:</strong> Eine SX7 mit schw\xe4cher ausgepr\xe4gtem Achterfl\xfcgel h\xe4tte sich bei drohender Festnahme vermutlich ergeben. Clydes stark ausgepr\xe4gter Achterfl\xfcgel machte aus der Flucht eine Bereitschaft zur t\xf6dlichen Konfrontation, sobald kein Ausweg mehr blieb.</p>
         <p class="vb-intro"><strong>c) Die eine Bindung inmitten der Rastlosigkeit:</strong> Die bedingungslose Treue zu Bonnie, trotz wachsendem Risiko, zeigt, wie die sexuelle Sieben ihre sonstige Vielfalt an M\xf6glichkeiten auf eine einzige, unaufgebbare Beziehung fokussieren kann.</p>
       </div>
@@ -1046,6 +1062,9 @@ export function dianeDownsPortraitPage() {
         {route:"kriminalpsychologie-ted-bundy", label:"Kriminalpsychologie: Ted Bundy (SO1w9)"},
         {route:"kriminalpsychologie-luka-magnotta", label:"Kriminalpsychologie: Luka Magnotta (SX3w4)"},
         {route:"kriminalpsychologie-richard-ramirez", label:"Kriminalpsychologie: Richard Ram\u00edrez (SX3w4)"},
+        {route:"kriminalpsychologie-aileen-wuornos", label:"Aileen Wuornos (SX7w8) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-lindsay-clancy", label:"Lindsay Clancy (SO3w4) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-pamela-smart", label:"Pamela Smart (SX2w3) – Kriminalpsychologie"},
       ])}
     </div>
   `);
@@ -1103,7 +1122,7 @@ export function frankAbagnalePortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Biber</h3>
-        <p class="vb-intro">Der <strong>Biber</strong> ist das Tier der sozialen Sieben \u2013 ein
+        <p class="vb-intro">Der <strong>Biber</strong> gilt als das Tier der sozialen Sieben \u2013 ein
         Baumeister, kein Einzelg\u00e4nger. Er verschwendet keine Energie im Alleingang,
         sondern errichtet Strukturen, die einem gr\u00f6\u00dferen Zweck dienen: den Damm,
         das Revier, das Netzwerk aus Kan\u00e4len, die das ganze \u00d6kosystem ver\u00e4ndern.
@@ -1122,7 +1141,7 @@ export function frankAbagnalePortraitPage() {
         Abagnale trat nicht als Blender auf, der Misstrauen weckt, sondern als
         jemand, den man sofort ins Herz schlie\u00dft \u2013 zugewandt, gespr\u00e4chig,
         mit einer optimistischen Leichtigkeit, die Skepsis gar nicht erst aufkommen lie\u00df.
-        Das ist die soziale Sieben in Reinform: Charme als Eintrittskarte in jedes System.</p>
+        Darin zeigt sich die soziale Sieben in Reinform: Charme als Eintrittskarte in jedes System.</p>
         <p class="vb-intro"><strong>b) Immer eine Option in der Hinterhand:</strong>
         Zeitgenossen beschrieben ihn als schnell denkend und nie um eine Ausrede
         oder einen Ausweg verlegen. Wurde eine Identit\u00e4t zu eng oder zu riskant,
@@ -1215,7 +1234,7 @@ export function frankAbagnalePortraitPage() {
         Nach einer Haftstrafe schloss Abagnale einen Deal mit dem FBI:
         Er half bei der \u00dcberf\u00fchrung von Scheckf\u00e4lschern
         und wurde zum gesuchten Experten f\u00fcr Dokumentenbetrug.
-        Das ist die SO7w6-Aufl\u00f6sung pur:
+        Hier wirkt die SO7w6-Aufl\u00f6sung pur:
         Aus der endlosen Suche nach dem n\u00e4chsten System wird endlich eine
         Zugeh\u00f6rigkeit, der er wirklich vertrauen kann \u2013 legitim, gebraucht,
         endlich angekommen.</p>
@@ -1248,7 +1267,7 @@ export function frankAbagnalePortraitPage() {
       <div class="vb-section" style="background:rgba(232,146,42,0.07);border-left:3px solid #e8922a;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">Zusammenfassung</h3>
         <p style="margin:0 0 0.6rem;font-size:0.95rem;color:var(--ink);">
-        Frank Abagnale Jr. ist der SO7w6 in seiner pathologischen Reinform:
+        Frank Abagnale Jr. zeigt der SO7w6 in seiner pathologischen Reinform:
         ein Mensch, der Identit\u00e4t nicht als Selbstausdruck versteht,
         sondern als Eintrittskarte in immer neue Systeme, in denen er sich
         n\u00fctzlich, willkommen und lebendig f\u00fchlen konnte.
@@ -1268,6 +1287,13 @@ export function frankAbagnalePortraitPage() {
         und die er erst sp\u00e4t, mit dem FBI an seiner Seite, halbwegs beantwortet hat.</p>
       </div>
 
+      ${relatedLinks([
+        {route:"beruehmte-anna-anderson", label:"Porträt: Anna Anderson (SE3w4)"},
+        {route:"beruehmte-josh-safdie", label:"Porträt: Josh Safdie (SO7w6)"},
+        {route:"kriminalpsychologie-bernie-madoff", label:"Bernie Madoff (SE3w4) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-victor-lustig", label:"Victor Lustig (SX7w8) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie", label:"Kriminalpsychologie – alle Porträts"},
+      ])}
     </div>
   `);
 }
@@ -1288,13 +1314,13 @@ export function grisdaBlancoPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Orang-Utan</h3>
-        <p class="vb-intro">Der <strong>Orang-Utan</strong> ist das Tier der selbsterhaltenden Acht &ndash; und kein Bild trifft Griselda Blanco genauer. Der Orang-Utan ist das einsamste der gro\xdfen Menschenaffen. Er lebt nicht im Rudel, er braucht keine Herde. Er beansprucht ein Revier &ndash; still, methodisch, unnachgiebig &ndash; und verteidigt es mit einer Kraft, die man ihm von au\xdfen nicht ansieht. Er ist kein Angeber. Er zeigt sich nicht, wenn es nicht n\xf6tig ist. Aber wer in sein Territorium eindringt, lernt schnell, mit wem er es zu tun hat.</p>
+        <p class="vb-intro">Der <strong>Orang-Utan</strong> ist das Sinnbild der selbsterhaltenden Acht &ndash; und kein Bild trifft Griselda Blanco genauer. Der Orang-Utan ist das einsamste der gro\xdfen Menschenaffen. Er lebt nicht im Rudel, er braucht keine Herde. Er beansprucht ein Revier &ndash; still, methodisch, unnachgiebig &ndash; und verteidigt es mit einer Kraft, die man ihm von au\xdfen nicht ansieht. Er ist kein Angeber. Er zeigt sich nicht, wenn es nicht n\xf6tig ist. Aber wer in sein Territorium eindringt, lernt schnell, mit wem er es zu tun hat.</p>
         <p class="vb-intro">Griselda Blanco war ein Orang-Utan. Sie regierte das Kokaingesch\xe4ft in Miami nicht durch Charisma oder politischen Einfluss, sondern durch stille, kompromisslose Kontrolle. Sie gab keine Interviews. Sie trat nicht ins Rampenlicht. Sie lebte unter falschen Namen, wechselte Identit\xe4ten, operierte aus dem Verborgenen. Und wer ihr in die Quere kam, verschwand.</p>
       </div>
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die selbsterhaltende Acht: Macht als \xdcberlebensgarantie</h3>
-        <p class="vb-intro">Der <strong>selbsterhaltende Typ 8 (SE8)</strong> unterscheidet sich grundlegend von der sozialen oder sexuellen Acht. Claudio Naranjo nannte diesen Subtyp &bdquo;Satisfactory Survival&ldquo; &ndash; \xdcberleben durch pers\xf6nliche Machtakkumulation. Die selbsterhaltende Acht baut kein soziales K\xf6nigreich wie die soziale Acht, sie verschmilzt nicht mit einer Person wie die sexuelle Acht. Sie sichert sich selbst ab. Ihr Territorium ist materiell, konkret, pers\xf6nlich.</p>
+        <p class="vb-intro">Der <strong>selbsterhaltende Typ 8 (SE8)</strong> unterscheidet sich grundlegend von der sozialen oder sexuellen Acht. Claudio Naranjo bezeichnete diesen Subtyp als &bdquo;Satisfactory Survival&ldquo; &ndash; \xdcberleben durch pers\xf6nliche Machtakkumulation. Die selbsterhaltende Acht baut kein soziales K\xf6nigreich wie die soziale Acht, sie verschmilzt nicht mit einer Person wie die sexuelle Acht. Sie sichert sich selbst ab. Ihr Territorium ist materiell, konkret, pers\xf6nlich.</p>
         <p class="vb-intro">Die Leidenschaft der Acht ist <em>Wollust</em> &ndash; nicht im engen sexuellen Sinne, sondern als \xfcberw\u00e4ltigende Lebensintensit\xe4t. Bei der selbsterhaltenden Acht richtet sich diese Intensit\xe4t auf Ressourcen, Kontrolle und pers\xf6nliche Unantastbarkeit. Griselda Blanco kam aus dem \xe4rmsten Milieu Kolumbiens. Armut hatte sie als Kind fast vernichtet. Die Acht in ihr zog daraus eine Konsequenz, die so einfach wie gnadenlos war: <em>Niemals wieder.</em></p>
       </div>
 
@@ -1334,7 +1360,7 @@ export function grisdaBlancoPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Was das Enneagramm sichtbar macht</h3>
         <p class="vb-intro"><strong>a) \xdcberleben als tiefstes Motiv:</strong> Griselda Blanco begann nicht als Verbrecherin aus Gier oder Ideologie. Sie begann als jemand, der in einer Welt aufwuchs, in der Schw\xe4che den Tod bedeutete. Die selbsterhaltende Acht zieht aus einer solchen Kindheit eine strukturelle Konsequenz: Macht ist Sicherheit. Ressourcen sind Sicherheit. Wer nichts hat, ist schutzlos. Dieses Muster lie\u00df sich sp\xe4ter nicht mehr abschalten &ndash; auch dann nicht, als die materielle Not l\xe4ngst \xfcberwunden war.</p>
         <p class="vb-intro"><strong>b) Der Neunerfl\xfcgel als strategischer Vorteil:</strong> Was Griselda Blanco von vielen m\xe4nnlichen Kartellfiguren unterschied, war ihre F\xe4higkeit, unsichtbar zu bleiben. Die SE8w7 sucht die Konfrontation, genie\u00dft Macht sichtbar. Die SE8w9 verwaltet Macht still. Griselda Blanco blieb jahrzehntelang im Verborgenen, w\xe4hrend die M\xe4nner um sie herum starben. Der Neunerfl\xfcgel rettete ihr mehrfach das Leben.</p>
-        <p class="vb-intro"><strong>c) Mutterschaft und Machtlogik:</strong> Sie k\xe4mpfte um ihre S\xf6hne mit derselben Kompromisslosigkeit, mit der sie ihr Gesch\xe4ft f\xfchrte. Als ihr dritter Mann ihren j\xfcngsten Sohn Michael entf\xfchrte, lie\xdf sie ihn t\xf6ten. Das ist keine Pathologie der Lieblosigkeit &ndash; das ist die selbsterhaltende Acht, die alles, was ihr geh\xf6rt, mit absoluter Konsequenz sch\xfctzt. Ihr Revier umfasste auch ihre Kinder.</p>
+        <p class="vb-intro"><strong>c) Mutterschaft und Machtlogik:</strong> Sie k\xe4mpfte um ihre S\xf6hne mit derselben Kompromisslosigkeit, mit der sie ihr Gesch\xe4ft f\xfchrte. Als ihr dritter Mann ihren j\xfcngsten Sohn Michael entf\xfchrte, lie\xdf sie ihn t\xf6ten. Das ist keine Pathologie der Lieblosigkeit &ndash; hier zeigt sich die selbsterhaltende Acht, die alles, was ihr geh\xf6rt, mit absoluter Konsequenz sch\xfctzt. Ihr Revier umfasste auch ihre Kinder.</p>
         <p class="vb-intro"><strong>d) Die eigene Methode als Ende:</strong> Dass sie durch einen Moto Sicario get\xf6tet wurde &ndash; exakt die Methode, die sie selbst entwickelt und verfeinert hatte &ndash; ist mehr als tragische Ironie. Es zeigt, was die selbsterhaltende Acht in der Pathologie \xfcbersieht: Die Welt, die man durch Gewalt kontrolliert, bleibt eine Welt voller Gewalt. Es gibt kein sicheres Ende in einem System, das man selbst auf Angst gebaut hat.</p>
       </div>
 
@@ -1368,6 +1394,8 @@ export function grisdaBlancoPortraitPage() {
           {route:"kriminalpsychologie-salvatore-riina", label:"Kriminalpsychologie: Salvatore Riina (SE8w9)"},
           {route:"kriminalpsychologie-john-gotti", label:"Kriminalpsychologie: John Gotti (SO8w7)"},
           {route:"kriminalpsychologie-jeffrey-epstein", label:"Kriminalpsychologie: Jeffrey Epstein (SX8w9)"},
+          {route:"kriminalpsychologie-p-diddy", label:"Sean 'P. Diddy' Combs (SX7w8) – Kriminalpsychologie"},
+          {route:"kriminalpsychologie-rex-heuermann", label:"Rex Heuermann (SE8w9) – Kriminalpsychologie"},
         ])}
       </div>
     </div>
@@ -1473,7 +1501,7 @@ export function heinrichPommerenkePortraitPage() {
         die Szene tanzender Frauen um das Goldene Kalb,
         habe ihn mit der \u00dcberzeugung erf\u00fcllt,
         s\u00fcndhafte Frauen bestrafen zu m\u00fcssen.
-        Das ist der SO1 in seiner extremsten religi\u00f6sen Verzerrung:
+        Darin zeigt sich der SO1 in seiner extremsten religi\u00f6sen Verzerrung:
         Die soziale Eins erlebt sich als H\u00fcterin der gesellschaftlichen Ordnung \u2013
         bei Pommerenke wurde diese Ordnungsvorstellung ins Religi\u00f6se gehoben
         und zur Wahnidee, die jeden Widerspruch eliminierte.</p>
@@ -1573,7 +1601,7 @@ export function heinrichPommerenkePortraitPage() {
         <strong>Pommerenke</strong> wirkte auf Gespr\u00e4chspartner
         weder einsch\u00fcchternd noch warm \u2013
         er wirkte weg. Als sei er nicht ganz anwesend.
-        Das ist die Neunerfl\u00fcgel-Energie der Eins:
+        Hier wirkt die Neunerfl\u00fcgel-Energie der Eins:
         nicht Feuer, sondern Permafrost.</p>
         <p class="vb-intro"><strong>b) Moralischer Druck ohne Wort:</strong>
         Die Eins sendet st\u00e4ndig ein stilles Signal aus:
@@ -1732,6 +1760,9 @@ export function heinrichPommerenkePortraitPage() {
         {route:"kriminalpsychologie-rudolf-pleil", label:"Kriminalpsychologie: Rudolf Pleil"},
         {route:"kriminalpsychologie-anders-breivik", label:"Kriminalpsychologie: Anders Breivik"},
         {route:"kriminalpsychologie-gesche-gottfried", label:"Kriminalpsychologie: Gesche Gottfried (SO1w2)"},
+        {route:"kriminalpsychologie-dieter-zlof", label:"Dieter Zlof (SO1w9) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-paul-ogorzow", label:"Paul Ogorzow (SE1w9) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-ted-bundy", label:"Ted Bundy (SO1w9) – Kriminalpsychologie"},
         {route:"blickqualitaet", label:"Blickqualit\u00e4t der 9 Typen"},
       ])}
     </div>
@@ -1946,6 +1977,15 @@ export function jeffreyDahmerPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-adolf-hitler", label:"Kriminalpsychologie: Adolf Hitler"},
         {route:"kriminalpsychologie-luka-magnotta", label:"Kriminalpsychologie: Luka Magnotta"},
+        {route:"kriminalpsychologie-anders-breivik", label:"Anders Breivik (SX6w5) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-armin-meiwes", label:"Armin Meiwes (SX6w5) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-david-berkowitz", label:"David Berkowitz (SE4w3) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-dennis-nilsen", label:"Dennis Nilsen (SE1w2) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-harold-shipman", label:"Dr. Harold Shipman (SO5w6) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-joachim-kroll", label:"Joachim Kroll (SE5w6) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-joel-rifkin", label:"Joel Rifkin (SX5w6) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-salvatore-riina", label:"Salvatore Riina (SE8w9) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-ted-kaczynski", label:"Dr. Ted Kaczynski (SO5w4) – Kriminalpsychologie"},
         {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
       ])}
     </div>
@@ -1988,7 +2028,7 @@ export function joelRifkinPortraitPage() {
       <div class="vb-section" style="background:rgba(40,40,80,0.06);border-left:3px solid #282850;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
         <strong>Joel Rifkin</strong> wird dem <strong>Sexuellen Typ 5 mit Sechserfl\u00fcgel</strong> zugeordnet.
-        Die sexuelle F\u00fcnf ist die intensivste und paradoxeste Auspr\u00e4gung des Typ 5:
+        Die sexuelle F\u00fcnf ist die intensivste und paradoxeste Auspr\u00e4gung des Typs 5:
         Sie sucht tiefe, vollst\u00e4ndige Verbindung mit einem Menschen oder einem Thema \u2013
         und zieht sich gleichzeitig zur\u00fcck, wenn diese Verbindung zu nah zu werden droht.
         Der Sechserfl\u00fcgel verst\u00e4rkt Wachsamkeit, Misstrauen und Kontrollbed\u00fcrfnis:
@@ -2162,7 +2202,8 @@ export function joelRifkinPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-jeffrey-dahmer", label:"Kriminalpsychologie: Jeffrey Dahmer (SX5w4) \u2013 Milwaukee-Kannibale"},
         {route:"kriminalpsychologie-harold-shipman", label:"Kriminalpsychologie: Harold Shipman (SO5w6)"},
-        {route:"kriminalpsychologie-anders-breivik", label:"Kriminalpsychologie: Anders Breivik (SX6w5)"}
+        {route:"kriminalpsychologie-anders-breivik", label:"Kriminalpsychologie: Anders Breivik (SX6w5)"},
+        {route:"kriminalpsychologie-armin-meiwes", label:"Armin Meiwes (SX6w5) – Kriminalpsychologie"},
       ])}
     </div>
   `);
@@ -2279,7 +2320,7 @@ export function johnMcAfeePortraitPage() {
         <strong>McAfee</strong> zahlte \u00fcber ein Jahrzehnt keine Steuern \u2013 nicht
         weil er kein Geld hatte, sondern weil er Steuern f\u00fcr Diebstahl
         hielt. Regeln, die er f\u00fcr ungerecht befand, ignorierte er.
-        Das ist die Acht in ihrer klarsten Ausprägung: moralischer Eigensinn
+        Hier zeigt sich die Acht in ihrer klarsten Ausprägung: moralischer Eigensinn
         jenseits gesellschaftlicher Konventionen.</p>
         <p class="vb-intro"><strong>c) Fl\u00fcchtigkeit und Bewegung:</strong>
         <strong>McAfee</strong> war selten lange an einem Ort. Guatemala, Belize,
@@ -2350,9 +2391,9 @@ export function johnMcAfeePortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Heilungsweg des Typ 8</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Heilungsweg des Typs 8</h3>
         <p class="vb-intro"><strong>a) Von der Kontrolle zur Hingabe:</strong>
-        Der Heilungsweg der Acht f\u00fchrt \u00fcber Hingabe \u2013 die F\u00e4higkeit,
+        Der Weg zur Heilung f\u00fchrt bei der Acht \u00fcber Hingabe \u2013 die F\u00e4higkeit,
         loszulassen, zu vertrauen, verletzlich zu sein. <strong>McAfee</strong> kam
         diesem Weg n\u00e4her, als er es zugegeben h\u00e4tte: In seinen letzten
         Jahren zeigte er in Interviews eine seltene Offenheit \u00fcber
@@ -2387,6 +2428,7 @@ export function johnMcAfeePortraitPage() {
         {route:"kriminalpsychologie-pablo-escobar", label:"Kriminalpsychologie: Pablo Escobar"},
         {route:"kriminalpsychologie-amelia-dyer", label:"Kriminalpsychologie: Amelia Dyer (SX8w9) – gleicher Subtyp"},
         {route:"kriminalpsychologie-peter-moore", label:"Kriminalpsychologie: Peter Moore (SX8w7) – anderer Flügel"},
+        {route:"kriminalpsychologie-john-gotti", label:"John Gotti (SO8w7) – Kriminalpsychologie"},
       ])}
     </div>
   `);
@@ -2472,7 +2514,7 @@ export function karlaHomolkaPortraitPage() {
         in der sie gelernt hatte, keinen eigenen Willen mehr zu haben.
         Sie tat, was er wollte \u2013 weil das Selbstbild des perfekten Paares wichtiger war
         als die Entscheidung zwischen Richtig und Falsch.
-        Das ist der Neuner-Stresspunkt in seiner dunkelsten Form:
+        Darin zeigt sich der Neuner-Stresspunkt in seiner dunkelsten Form:
         Selbst-Ausl\u00f6schung als Form der Selbsterhaltung.</p>
       </div>
 
@@ -2485,7 +2527,7 @@ export function karlaHomolkaPortraitPage() {
         gefilmt von Karla, die die Szene absicherte.
         Tammy aspiriierte ihren eigenen Mageninhalt und starb.
         Der Tod wurde als Unfall eingestuft. Karla nahm an der Beerdigung teil.
-        Das ist die SE3 im Zusammenbruch: Die Schwester war ein Hindernis
+        Hier wirkt die SE3 im Zusammenbruch: Die Schwester war ein Hindernis
         f\u00fcr das Bild der perfekten Beziehung geworden. Bernardo wollte sie.
         Karla lieferte sie.</p>
         <p class="vb-intro"><strong>b) Leslie Mahaffy und Kristen French:</strong>
@@ -2513,7 +2555,7 @@ export function karlaHomolkaPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Was das Enneagramm sichtbar macht</h3>
         <p class="vb-intro">
-        Karla Homolka ist kein Monster im klassischen Sinn. Sie ist die selbsterhaltende Drei
+        Karla Homolka ist kein Monster im klassischen Sinn. Sie zeigt die selbsterhaltende Drei
         in ihrer absoluten Desintegration: ein Mensch, der das \u00dcberleben des eigenen Selbstbildes
         \u00fcber alles stellte \u2013 \u00fcber die Schwester, \u00fcber die Opfer, \u00fcber das eigene Gewissen.
         Die SE3 kann nicht zulassen, dass ihr Bild von sich selbst zerbricht.
@@ -2554,6 +2596,8 @@ export function karlaHomolkaPortraitPage() {
         {route:"kriminalpsychologie-paul-bernardo", label:"Kriminalpsychologie: Paul Bernardo (SX1w2) \u2013 Partner"},
         {route:"kriminalpsychologie-ruja-ignatova", label:"Kriminalpsychologie: Ruja Ignatova (SE3w4)"},
         {route:"kriminalpsychologie-ted-bundy", label:"Kriminalpsychologie: Ted Bundy (SO1w9)"},
+        {route:"kriminalpsychologie-aileen-wuornos", label:"Aileen Wuornos (SX7w8) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-belle-gunness", label:"Belle Gunness (SE3w4) – Kriminalpsychologie"},
       ])}
     </div>
   `);
@@ -2609,7 +2653,7 @@ export function michaelFranzesePortraitPage() {
         Sie zeigt immer das Gesicht, das gerade erfolgreich ist.</p>
         <p class="vb-intro"><strong>c) Gewinnendes Selbstbewusstsein:</strong>
         Wer <strong>Franzese</strong> begegnet \u2013 damals wie heute \u2013 beschreibt ihn als jemanden,
-        der Raum f\xfcllt ohne zu dr\xe4ngen. Das ist der SE3w2-Typ: er strahlt Erfolg aus,
+        der Raum f\xfcllt ohne zu dr\xe4ngen. Hier zeigt sich der SE3w2-Typ: er strahlt Erfolg aus,
         ohne damit zu prahlen. Der Erfolg soll f\xfcr sich sprechen.</p>
       </div>
 
@@ -2627,7 +2671,7 @@ export function michaelFranzesePortraitPage() {
         <p class="vb-intro"><strong>c) Wie halte ich die Loyalit\xe4t meiner Umgebung?</strong>
         Der Zweierfl\xfcgel lenkt einen Teil der Aufmerksamkeit auf Beziehungen.
         <strong>Franzese</strong> war f\xfcr seine Gro\xdfz\xfcgigkeit bekannt \u2013 er bezahlte gut,
-        behandelte seine Leute fair. Das ist die SE3w2-Kombination: Leistung plus
+        behandelte seine Leute fair. Darin zeigt sich die SE3w2-Kombination: Leistung plus
         Verbindlichkeit.</p>
       </div>
 
@@ -2728,7 +2772,7 @@ export function michaelFranzesePortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Heilungsweg des Typ 3</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Heilungsweg des Typs 3</h3>
         <p class="vb-intro"><strong>a) Vom Tun zum Sein:</strong>
         Der Heilungsweg der Drei f\xfchrt \xfcber die Frage: Wer bin ich, wenn ich
         nichts leiste? <strong>Franzeses</strong> Konversion im Gef\xe4ngnis war m\xf6glicherweise
@@ -2781,12 +2825,12 @@ export function ojSimpsonPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Gepard</h3>
-        <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei &ndash; und er tr\xe4gt O.J. Simpsons Geschichte in jeder Faser. Der Gepard ist das schnellste Landtier der Welt: vollk\xf6rperlicher Einsatz, absolute Pr\xe4senz, der gro\xdfe Moment &ndash; und dann die Ersch\u00f6pfung, das Abseits, der Zusammenbruch. Was der Gepard nicht ist: ein Ausdauertier. Er brilliert, solange er im Rampenlicht steht. In der Stille wird er unsichtbar. O.J. Simpson hat während seines ganzen Lebens gebrillt. Als das Rampenlicht erlosch, konnte er nicht einfach gehen.</p>
+        <p class="vb-intro">Der <strong>Gepard</strong> ist die tierische Entsprechung der sozialen Drei &ndash; und er tr\xe4gt O.J. Simpsons Geschichte in jeder Faser. Der Gepard ist das schnellste Landtier der Welt: vollk\xf6rperlicher Einsatz, absolute Pr\xe4senz, der gro\xdfe Moment &ndash; und dann die Ersch\u00f6pfung, das Abseits, der Zusammenbruch. Was der Gepard nicht ist: ein Ausdauertier. Er brilliert, solange er im Rampenlicht steht. In der Stille wird er unsichtbar. O.J. Simpson hat während seines ganzen Lebens gebrillt. Als das Rampenlicht erlosch, konnte er nicht einfach gehen.</p>
       </div>
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Der soziale Drei: Das Selbst als \xf6ffentliches Gut</h3>
-        <p class="vb-intro">Der <strong>soziale Typ 3 (SO3)</strong> baut seine Identit\xe4t nicht um das, was er innerlich f\xfchlt, sondern um das, was andere in ihm sehen. Er ist Pr\xe4sentierender, Repr\xe4sentant, lebender Beweis f\xfcr Erfolg. Claudio Naranjo nannte diesen Subtyp den &bdquo;Prestigetr\xe4ger&ldquo;: jemanden, der nicht nur erfolgreich sein will, sondern in den Kreisen gesehen werden will, in denen Erfolg z\xe4hlt.</p>
+        <p class="vb-intro">Der <strong>soziale Typ 3 (SO3)</strong> baut seine Identit\xe4t nicht um das, was er innerlich f\xfchlt, sondern um das, was andere in ihm sehen. Er ist Pr\xe4sentierender, Repr\xe4sentant, lebender Beweis f\xfcr Erfolg. Claudio Diesen Subtyp nannte Naranjo den &bdquo;Prestigetr\xe4ger&ldquo;: jemanden, der nicht nur erfolgreich sein will, sondern in den Kreisen gesehen werden will, in denen Erfolg z\xe4hlt.</p>
         <p class="vb-intro">Orenthal James Simpson, geboren am 9. Juli 1947 in San Francisco, wurde als Kind armer Verh\xe4ltnisse in den Projekth\xe4usern von Potrero Hill gro\xdf &ndash; und arbeitete sich durch sportliche Exzellenz in eine Welt hinein, die f\xfcr ihn nicht vorgesehen war. Heisman Trophy 1968, NFL-Star bei den Buffalo Bills, 2003 Rushing Yards in der Saison 1973 (ein Rekord, der Jahrzehnte Bestand hatte), NFL Hall of Fame 1985. Dann: Werbeikone f\xfcr Hertz, Schauspieler in den Naked-Gun-Filmen, Stammgast in den wei\xdfen Country Clubs Miamis und Brentwoods.</p>
         <p class="vb-intro">Simpson war einer der ersten schwarzen Promis, der &ndash; nach eigenem Bekunden &ndash; &bdquo;die Rassenfrage \xfcberwunden&ldquo; hatte. Er wurde in wei\xdfen Elitekreisen aufgenommen, umworben, gefeiert. Er sah das als Auszeichnung. Das war es auch &ndash; und es war zugleich sein gr\xf6\xdfter Selbstbetrug. Sein Selbstbild war nicht intern verankert, sondern vollst\xe4ndig an das Spiegelbild delegiert, das ihm die Welt zur\xfcckwarf.</p>
       </div>
@@ -2865,6 +2909,10 @@ export function ojSimpsonPortraitPage() {
           {route:"kriminalpsychologie-wade-wilson", label:"Kriminalpsychologie: Wade Wilson (SO3w4)"},
           {route:"kriminalpsychologie-ted-bundy", label:"Kriminalpsychologie: Ted Bundy (SO1w9)"},
           {route:"krankheitsportraets-oj-simpson", label:"Krankheitsporträt: O.J. Simpson (SO3w4) – Prostatakrebs"},
+          {route:"kriminalpsychologie-lindsay-clancy", label:"Lindsay Clancy (SO3w4) – Kriminalpsychologie"},
+          {route:"kriminalpsychologie-rodney-alcala", label:"Rodney Alcala (SO3w4) – Kriminalpsychologie"},
+          {route:"kriminalpsychologie-vincenzo-peruggia", label:"Vincenzo Peruggia (SO3w4) – Kriminalpsychologie"},
+          {route:"kriminalpsychologie-werner-gladow", label:"Werner Gladow (SO3w4) – Kriminalpsychologie"},
         ])}
       </div>
     </div>
@@ -2887,7 +2935,7 @@ export function pamelaSmartPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Das Kamel</h3>
-        <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei &ndash; und es ist ein unerwartetes, aber treffendes Bild. Das Kamel gibt alles: es tr\xe4gt Lasten \xfcber die gr\xf6\xdfte Hitze, stellt sich in den Dienst, verzichtet auf eigene Bed\xfcrfnisse, speichert Ressourcen f\xfcr den Weg. Aber das Kamel ist kein zahmes Tier. Wer es untersch\u00e4tzt, wer glaubt, es dauerhaft ausnutzen zu k\xf6nnen, erlebt eine andere Seite: das Kamel bei\u00dft, spuckt, bricht aus. Es hat Geduld &ndash; aber keine grenzenlose Unterwerfung.</p>
+        <p class="vb-intro">Das <strong>Kamel</strong> ist das Wappentier der sexuellen Zwei &ndash; und es ist ein unerwartetes, aber treffendes Bild. Das Kamel gibt alles: es tr\xe4gt Lasten \xfcber die gr\xf6\xdfte Hitze, stellt sich in den Dienst, verzichtet auf eigene Bed\xfcrfnisse, speichert Ressourcen f\xfcr den Weg. Aber das Kamel ist kein zahmes Tier. Wer es untersch\u00e4tzt, wer glaubt, es dauerhaft ausnutzen zu k\xf6nnen, erlebt eine andere Seite: das Kamel bei\u00dft, spuckt, bricht aus. Es hat Geduld &ndash; aber keine grenzenlose Unterwerfung.</p>
         <p class="vb-intro">Pamela Smart gab viel: ihre Zeit, ihre Aufmerksamkeit, ihre Sexualit\xe4t, ihre Zuneigung. Sie gab einem 15-j\xe4hrigen Jungen das Gef\u00fchl, das Wichtigste auf der Welt zu sein. Und dann, als sie bekam, was sie brauchte, war ihre Gabe zugleich das giftigste Mittel, das sie einsetzen konnte.</p>
       </div>
 
@@ -2969,6 +3017,7 @@ export function pamelaSmartPortraitPage() {
           {route:"kriminalpsychologie-diane-downs", label:"Kriminalpsychologie: Diane Downs (SX3w4)"},
           {route:"kriminalpsychologie-harvey-weinstein", label:"Kriminalpsychologie: Harvey Weinstein (SE2w1)"},
           {route:"kriminalpsychologie-jim-jones", label:"Kriminalpsychologie: Jim Jones (SO2w3)"},
+          {route:"kriminalpsychologie-belle-gunness", label:"Belle Gunness (SE3w4) – Kriminalpsychologie"},
         ])}
       </div>
     </div>
@@ -3183,6 +3232,7 @@ export function pedroAlonsoLopezPortraitPage() {
         {route:"kriminalpsychologie-wade-wilson", label:"Kriminalpsychologie: Wade Wilson (SO3w4)"},
         {route:"kriminalpsychologie-ted-bundy", label:"Kriminalpsychologie: Ted Bundy (SO1w9)"},
         {route:"kriminalpsychologie-andrei-tschikatilo", label:"Kriminalpsychologie: Andrei Tschikatilo (SX4w3)"},
+        {route:"kriminalpsychologie-richard-ramirez", label:"Richard Ram\u00edrez (SX3w4) – Kriminalpsychologie"},
       ])}
     </div>
   `);
@@ -3540,7 +3590,7 @@ export function rudolfPleilPortraitPage() {
         Erw\u00fcrgen, Schlagen, brutale k\u00f6rperliche Gewalt \u2013
         keine distanzierte, geplante T\u00f6tung,
         sondern ein \u00dcberrollen durch K\u00f6rperkraft und Wucht.
-        Das ist die Zwei in der Acht:
+        Hier wirkt die Zwei in der Acht:
         Wenn ich nicht durch Liebe binden kann,
         erzwinge ich die Unterwerfung durch St\u00e4rke.
         In Pleils Fall war die Achter-Energie nicht nur der Stressabfluss \u2013
@@ -3570,6 +3620,8 @@ export function rudolfPleilPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-joachim-kroll", label:"Kriminalpsychologie: Joachim Kroll"},
         {route:"kriminalpsychologie-anders-breivik", label:"Kriminalpsychologie: Anders Breivik"},
+        {route:"kriminalpsychologie-heinrich-pommerenke", label:"Heinrich Pommerenke (SO1w9) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-jim-jones", label:"Jim Jones (SO2w3) – Kriminalpsychologie"},
         {route:"blickqualitaet", label:"Blickqualit\u00e4t der 9 Typen"},
       ])}
     </div>
@@ -3615,7 +3667,7 @@ export function sebastianGreenwoodPortraitPage() {
         <p class="vb-intro"><strong>a) W\xe4rmend und einladend:</strong>
         <strong>Greenwood</strong> war bekannt daf\xfcr, Menschen sofort das Gef\xfchl zu geben,
         willkommen zu sein. Wer mit ihm sprach, f\xfchlte sich gesehen \u2013 oft das erste
-        Mal in langer Zeit. Das ist die selbsterhaltende Zwei: Zuwendung als Werkzeug,
+        Mal in langer Zeit. Hier zeigt sich die selbsterhaltende Zwei: Zuwendung als Werkzeug,
         Warmherzigkeit als Eintrittskarte.</p>
         <p class="vb-intro"><strong>b) Selbstsicher bis strahlend:</strong>
         Der Dreierfl\xfcgel gibt der Zwei eine souver\xe4ne Au\xdfenpr\xe4senz. <strong>Greenwood</strong>
@@ -3625,7 +3677,7 @@ export function sebastianGreenwoodPortraitPage() {
         <p class="vb-intro"><strong>c) Kontrolliert bei Kritik:</strong>
         <strong>Greenwood</strong> reagierte auf Zweifel nicht defensiv, sondern rerahmend.
         Er verwandelte kritische Fragen in Einladungen zur weiteren Erkl\xe4rung.
-        Das ist das SE2w3-Muster: statt Konfrontation Umlenkung, statt Verteidigung Charme.</p>
+        Darin zeigt sich das SE2w3-Muster: statt Konfrontation Umlenkung, statt Verteidigung Charme.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -3737,7 +3789,7 @@ export function sebastianGreenwoodPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Heilungsweg des Typ 2</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Heilungsweg des Typs 2</h3>
         <p class="vb-intro"><strong>a) Vom Geben zum Sein:</strong>
         Der Heilungsweg der Zwei beginnt mit der Frage: Was bin ich, wenn ich
         nichts gebe? F\xfcr <strong>Greenwood</strong> w\xe4re das die radikalste Konfrontation:
@@ -3767,6 +3819,7 @@ export function sebastianGreenwoodPortraitPage() {
         {route:"kriminalpsychologie-ruja-ignatova", label:"Kriminalpsychologie: Ruja Ignatova"},
         {route:"kriminalpsychologie-anna-delvey", label:"Kriminalpsychologie: Anna Delvey"},
         {route:"kriminalpsychologie-buster-murdaugh", label:"Kriminalpsychologie: Buster Murdaugh"},
+        {route:"kriminalpsychologie-michael-franzese", label:"Michael Franzese (SE3w2) – Kriminalpsychologie"},
       ])}
     </div>
   `);
@@ -3961,7 +4014,8 @@ export function tommyLynnSellsPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-peter-sutcliffe", label:"Kriminalpsychologie: Peter Sutcliffe (SE2w1) \u2013 Yorkshire Ripper"},
         {route:"kriminalpsychologie-harvey-weinstein", label:"Kriminalpsychologie: Harvey Weinstein (SE2w1)"},
-        {route:"kriminalpsychologie-dorothea-puente", label:"Kriminalpsychologie: Dorothea Puente (SE1w2) \u2013 Die Vermieterin des Todes"}
+        {route:"kriminalpsychologie-dorothea-puente", label:"Kriminalpsychologie: Dorothea Puente (SE1w2) \u2013 Die Vermieterin des Todes"},
+        {route:"kriminalpsychologie-angel-resendez", label:"\u00c1ngel Res\u00e9ndez (SE2w1) – Kriminalpsychologie"},
       ])}
     </div>
   `);
@@ -4055,7 +4109,7 @@ export function wadeWilsonPortraitPage() {
         war in seiner Konsequenz ungew\u00f6hnlich:
         Er lachte, machte Grimassen, schien die Aufmerksamkeit
         der Medien und des Publikums zu suchen.
-        Das ist das SO3-Muster: Die soziale Drei braucht
+        Hier wirkt das SO3-Muster: Die soziale Drei braucht
         ein Publikum, eine B\u00fchne, Resonanz.
         Dass der Kontext ein Mordprozess war,
         \u00e4nderte an dieser Grundstruktur offenbar nichts \u2013
@@ -4138,7 +4192,7 @@ export function wadeWilsonPortraitPage() {
         <p class="vb-intro"><strong>c) Todesurteil als letzter Auftritt:</strong>
         Die Verk\u00fcndung des Todesurteils
         schien <strong>Wilson</strong> nicht zu ersch\u00fcttern.
-        Das ist das SO3w4-Muster in seiner extremsten Auspr\u00e4gung:
+        Hier zeigt sich das SO3w4-Muster in seiner extremsten Auspr\u00e4gung:
         Selbst das eigene Ende wird zum Inhalt
         des Narrativs \u00fcber sich selbst \u2013
         als letzte Best\u00e4tigung, dass man
@@ -4162,7 +4216,7 @@ export function wadeWilsonPortraitPage() {
         zunehmend ersch\u00f6pft und abgenutzt.
         <strong>Wilson</strong> schien im Gegenteil zu wachsen \u2013
         als w\u00fcrde die Aufmerksamkeit ihm Energie geben.
-        Das ist die Drei, die ihren Energiehaushalt
+        Darin zeigt sich die Drei, die ihren Energiehaushalt
         \u00fcber Au\u00dfenwirkung reguliert:
         Resonanz ist Nahrung; B\u00fchne ist Erholung.</p>
         <p class="vb-intro"><strong>c) Leerstelle hinter dem Auftritt:</strong>
@@ -4320,6 +4374,11 @@ export function wadeWilsonPortraitPage() {
         {route:"kriminalpsychologie-pablo-escobar", label:"Kriminalpsychologie: Pablo Escobar (SE3)"},
         {route:"kriminalpsychologie-alex-murdaugh", label:"Kriminalpsychologie: Alex Murdaugh (SX1w2)"},
         {route:"kriminalpsychologie-werner-gladow", label:"Kriminalpsychologie: Werner Gladow (SO3w4) – derselbe Subtyp, Gerichtssaal als Bühne"},
+        {route:"kriminalpsychologie-andrew-cunanan", label:"Andrew Cunanan (SO3w4) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-oj-simpson", label:"O.J. Simpson (SO3w4) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-pedro-alonso-lopez", label:"Pedro Alonso L\u00f3pez (SO3w2) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-samuel-bankman-fried", label:"Samuel Bankman-Fried (SE3w4) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-vincenzo-peruggia", label:"Vincenzo Peruggia (SO3w4) – Kriminalpsychologie"},
       ])}
     </div>
   `);
@@ -4375,7 +4434,7 @@ export function bryanKohbergerPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die sexuelle Eins: Zurückweisung als Reinheitsverletzung</h3>
         <p class="vb-intro"><strong>a) Die innere Logik:</strong>
         Mehrere Quellen, darunter eine forensische Psychiaterin, beschreiben Kohberger als von Wut und Groll gegen
-        Frauen getrieben, die ihn zurückwiesen oder von denen er eine Zurückweisung erwartete. Das ist die SX1 in
+        Frauen getrieben, die ihn zurückwiesen oder von denen er eine Zurückweisung erwartete. Hier wirkt die SX1 in
         ihrer destruktivsten Form: Die intimste Beziehung soll rein, kontrolliert, vollständig sein – jede Zurückweisung
         wird nicht als Enttäuschung, sondern als Verletzung einer als absolut empfundenen Ordnung erlebt, die eine
         Antwort verlangt.</p>
@@ -4429,7 +4488,7 @@ export function bryanKohbergerPortraitPage() {
         Eine gerichtlich vorgelegte psychologische Begutachtung attestierte Kohberger "extrem rigides Denken",
         ein Verharren auf einzelnen Themen sowie kaum Einsicht in eigenes Verhalten und eigene Gefühle – seine
         eigene Familie bestätigte "starres Denken und Verhalten" sowie Schwierigkeiten, mit Veränderungen der
-        Routine umzugehen. Das ist der Vierer-Stresspunkt der Eins in seiner unfruchtbarsten Form: kein Weg zur
+        Routine umzugehen. Hier zeigt sich der Vierer-Stresspunkt der Eins in seiner unfruchtbarsten Form: kein Weg zur
         echten Selbstprüfung, sondern ein geschlossener, sich selbst bestätigender Gedankenkreis, aus dem heraus
         die eigene Wut nie infrage gestellt, sondern zunehmend gerechtfertigt wurde.
         </p>
@@ -4658,6 +4717,8 @@ export function peterMoorePortraitPage() {
         {route:"kriminalpsychologie-jeffrey-epstein", label:"Kriminalpsychologie: Jeffrey Epstein (SX8w9) – anderer Flügel"},
         {route:"kriminalpsychologie-john-mcafee", label:"Kriminalpsychologie: John McAfee (SX8w9)"},
         {route:"kriminalpsychologie-fritz-haarmann", label:"Kriminalpsychologie: Fritz Haarmann (SX1w9) – geprüfte Alternativtypisierung"},
+        {route:"beruehmte-gert-postel", label:"Porträt: Gert Postel (SX8w9)"},
+        {route:"kriminalpsychologie-gert-postel", label:"Gert Postel (SX8w9) – Kriminalpsychologie"},
       ])}
     </div>
   `);
@@ -4843,6 +4904,91 @@ export function jamesDustyRhodesPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-fritz-haarmann", label:"Kriminalpsychologie: Fritz Haarmann (SX1w9) – gleicher Subtyp"},
         {route:"kriminalpsychologie-gary-ridgway", label:"Kriminalpsychologie: Gary Ridgway (SX1w2) – anderer Flügel"},
+      ])}
+    </div>
+  `);
+}
+
+export function rodneyAlcalaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Rodney Alcala – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/kriminalpsychologie-rodney-alcala-portrait.jpg" alt="Rodney Alcala – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Rodney Alcala</p>
+        <p class="krim-portrait-typ">SO3w4 · Sozialer Typ 3 mit Vierer-Flügel</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Rodney Alcala</strong>, geboren am 23. August 1943 in San Antonio, Texas, trat in den 1970er-Jahren in Kalifornien und New York als Fotograf auf und nahm 1978 an der Fernsehshow ›The Dating Game‹ (›Das Rendezvous-Spiel‹) teil. Er wurde wegen sieben Morden an Frauen und einem Mädchen verurteilt: fünf davon in Kalifornien (Urteil 2010) und zwei in New York (Schuldeingeständnis 2012). Sein Fall ist der eines Mannes, dessen öffentliches Auftreten als charmanter, kreativer Künstler und dessen Taten weit auseinanderliegen. Er starb am 24. Juli 2021 im Alter von 77 Jahren in Haft. Die Zahl seiner Opfer ist nicht bekannt.
+      </p>
+      <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Rodney Alcala</strong> lässt sich dem <strong>sozialen Typ 3 mit Vierer-Flügel</strong> im Enneagramm zuordnen. Die soziale Drei sucht Sicherheit im Ansehen der Gruppe und pflegt ein Bild, das ankommt. Der Vierer-Flügel fügt den Anspruch auf Besonderheit und ein künstlerisches Selbstbild hinzu. Dieses Kriminalporträt beschreibt die Vorgeschichte, die Taten, die Verfahren und die Belegbarkeit. Es behauptet nicht, dass ein Subtyp zu Gewalt neige, und es erklärt die Taten nicht. Ein Militärpsychiater diagnostizierte 1964 eine antisoziale Persönlichkeitsstörung. Das Enneagramm beschreibt hier nur die Oberfläche, die Alcala nach außen zeigte, und die Art, wie er sie einsetzte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Der Gepard</h3>
+        <p class="vb-intro">Der <strong>Gepard</strong> der sozialen Drei jagt auf offenem Gelände und am Tag, ein Sprinter, der gesehen wird. Bei Alcala lässt sich das mit seiner Art in Verbindung bringen, sich selbst im Licht zu bewegen: Er trat unter Decknamen wie ›John Berger‹ als Modefotograf auf, sprach Frauen und Mädchen mit dem Angebot an, sie zu fotografieren, und stellte sich 1978 in einer Fernsehshow vor Millionen Zuschauern als Junggeselle zur Wahl. Die Tierentsprechung ist ein Bild für das Muster, kein Urteil über die Person und keine Erklärung der Taten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die Vorgeschichte: Herkunft, Armee, Kunststudium</h3>
+        <p class="vb-intro"><strong>a) Herkunft:</strong> Alcala kam als Rodrigo Jacques Alcala Buquor zur Welt, als drittes von vier Kindern einer mexikanisch-amerikanischen Familie. 1951 zog der Vater mit der Familie nach Mexiko, 1954 verließ er sie. Die Mutter zog mit den Kindern in einen Vorort von Los Angeles, Alcala war elf Jahre alt.</p>
+        <p class="vb-intro"><strong>b) Armee:</strong> 1961 trat er mit 17 Jahren in die US-Armee ein und diente als Schreiber. Er fiel mehrfach durch Übergriffe auf junge Frauen disziplinarisch auf. 1964 verließ er nach einem Nervenzusammenbruch unerlaubt seine Einheit in Fort Bragg und trampte zu seiner Mutter nach Kalifornien. Ein Militärpsychiater diagnostizierte eine antisoziale Persönlichkeitsstörung, er wurde aus medizinischen Gründen entlassen. Für seine Intelligenz kursieren Werte um einen IQ von 135, dafür gibt es keinen verlässlichen Beleg.</p>
+        <p class="vb-intro"><strong>c) Studium:</strong> Alcala schloss ein Kunststudium an der UCLA ab. Die häufig wiederholte Behauptung, er habe bei Roman Polanski Film studiert, ist nicht belegt; Polanski war nie sein Lehrer. Auch dieser Mythos gehört zum Bild, das er von sich verbreitete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Die Taten: 1968 bis 1979</h3>
+        <p class="vb-intro"><strong>a) Tali Shapiro, 1968:</strong> Am 25. September 1968 lockte Alcala die achtjährige Tali Shapiro in seine Wohnung in Hollywood, vergewaltigte und schlug sie. Sie überlebte nach 32 Tagen im Koma. Alcala floh, ein Zeuge hatte aber die Polizei gerufen. Weil die Familie nach Mexiko zog und das Kind nicht aussagen durfte, wurde er nur wegen Kindesmissbrauchs verurteilt. Er kam 1974 auf Bewährung frei. Ein weiterer Übergriffsversuch auf ein 13-jähriges Mädchen 1974 in Huntington Beach folgte, im Juni 1977 war er erneut auf Bewährung in Freiheit.</p>
+        <p class="vb-intro"><strong>b) New York:</strong> Am 12. Juni 1971 wurde die 23-jährige Cornelia Crilley in ihrer Wohnung in Manhattan erdrosselt. Der Fall blieb bis 2011 ungeklärt. Am 15. Juli 1977 verschwand die 23-jährige Ellen Jane Hover in Manhattan, ihre Überreste fanden sich 1978 am Hudson. Im Dezember 2012 bekannte sich Alcala in beiden Fällen schuldig, im Januar 2013 erhielt er 25 Jahre bis lebenslang je Fall.</p>
+        <p class="vb-intro"><strong>c) Kalifornien, 1977 bis 1979:</strong> Am 9. November 1977 wurde die 18-jährige Jill Barcomb in Los Angeles tot gefunden, am 16. Dezember 1977 die 27-jährige Georgia Wixted in ihrer Wohnung in Malibu, am 24. Juni 1978 Charlotte Lamb, Anfang dreißig, im Wäscheraum eines Hauses in El Segundo. Am 13. Juni 1979 starb die 21-jährige Jill Parenteau in ihrer Wohnung in Burbank. Am 14. Februar 1979 hatte die 15-jährige Monique Hoyt einen Übergriff in der Nähe von Joshua Tree überlebt und war zu einer Tankstelle entkommen. Ihre spätere Aussage führte zu einer eigenen Verurteilung.</p>
+        <p class="vb-intro"><strong>d) Robin Samsoe, 1979:</strong> Am 20. Juni 1979 fuhr die zwölfjährige Robin Samsoe mit einer Freundin zum Strand von Sunset Beach in Huntington Beach. Ein Mann sprach die Mädchen an und bot an, sie für einen ›Fotokurs‹ zu fotografieren. Auf dem Weg zum Ballettunterricht verschwand Robin. Ihre Überreste wurden am 2. Juli 1979 gefunden.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. ›The Dating Game‹, 1978</h3>
+        <p class="vb-intro">Im September 1978, zwischen den Morden an Wixted und Lamb auf der einen und Parenteau und Samsoe auf der anderen Seite, trat Alcala in der Fernsehshow ›The Dating Game‹ als Kandidat auf und gewann das Rendezvous. Nach Berichten lehnte die Teilnehmerin das Treffen später ab, weil er ihr unheimlich vorkam. Die Ausstrahlung ist ein Beleg für die Spannung in diesem Fall: Ein Mann, der in einem Studio als unterhaltsamer, welterfahrener Fotograf auftrat, war zu diesem Zeitpunkt bereits wegen eines Übergriffs auf ein Kind verurteilt gewesen. Die Sendung spielte später bei der Ermittlung eine Rolle: Detektive erkannten ihn in einer Wiederholung wieder.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Festnahme und Verfahren</h3>
+        <p class="vb-intro"><strong>a) Festnahme:</strong> Nach einer Phantomzeichnung meldete sich am 26. Juni 1979 ein Bewährungshelfer bei der Polizei in Huntington Beach, dass sie seinem Probanden Alcala ähnle. Zwei Jugendliche erkannten ihn auf Fotos wieder. Am 24. Juli 1979 wurde er im Haus seiner Mutter in Monterey Park festgenommen, in seinem Zimmer fanden sich mehr als 1200 Fotografien. In einem Lagerraum in Seattle stießen die Ermittler auf mehr als 2000 weitere Aufnahmen und auf Ohrringe; ein Paar wurde als das von Robin Samsoe identifiziert.</p>
+        <p class="vb-intro"><strong>b) Die drei Verfahren im Fall Samsoe:</strong> 1980 wurde Alcala zum Tode verurteilt, das Urteil wurde 1984 aufgehoben, weil die Geschworenen von seinen früheren Sexualdelikten erfahren hatten. 1986 folgten erneute Verurteilung und Todesurteil, 2001 hob ein Bundesgericht auch dieses Urteil auf, nach einem Fehler beim Umgang mit der Aussage einer Zeugin. 2003 bestätigte die Berufungsinstanz das.</p>
+        <p class="vb-intro"><strong>c) 2010:</strong> Im dritten Prozess in Orange County vertrat sich Alcala selbst. Angeklagt waren die Morde an Samsoe, Barcomb, Wixted, Lamb und Parenteau. DNA-Spuren verbanden ihn mit vier der Taten, im Fall Wixted zusätzlich ein Handabdruck. Am 25. Februar 2010 sprachen die Geschworenen ihn in fünf Mordanklagen schuldig, am 9. März 2010 empfahlen sie die Todesstrafe, die bestätigt wurde. Sie wurde nie vollstreckt.</p>
+        <p class="vb-intro"><strong>d) Ende:</strong> Alcala starb am 24. Juli 2021 im Alter von 77 Jahren in einem Krankenhaus im kalifornischen Central Valley. Nach Angaben der Gefängnisbehörde war die Ursache natürlich, er war zu dem Zeitpunkt noch in der Todeszelle.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Belegt und nicht belegt</h3>
+        <p class="vb-intro"><strong>Belegt (Verurteilung oder Schuldeingeständnis):</strong> Der Übergriff auf Tali Shapiro, die Morde an Cornelia Crilley, Ellen Hover, Jill Barcomb, Georgia Wixted, Charlotte Lamb, Jill Parenteau und Robin Samsoe sowie der Übergriff auf Monique Hoyt. <strong>Nicht belegt:</strong> Die Zahl der weiteren Opfer. Aus Alcalas Fotoarchiv wurden 2010 rund 120 Aufnahmen veröffentlicht, damit Betroffene oder Angehörige sich melden. Es gibt weitere Verdachtsfälle, in denen es nie zu einer Verurteilung kam, darunter der Fall Christine Thornton, in dem 2016 Anklage erhoben wurde, der aber nicht verhandelt wurde. Für diese Fälle gilt: keine Verurteilung, keine Gewissheit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Einordnung</h3>
+        <p class="vb-intro">Das Muster der sozialen Drei lässt sich in der Art erkennen, wie Alcala sein Auftreten gestaltete: der Fotograf mit Decknamen, der Frauen und Mädchen mit dem Angebot ansprach, sie aufzunehmen, und der in einer Fernsehshow um die Gunst des Publikums warb. Der Vierer-Flügel passt zu dem künstlerischen Selbstbild und zu dem Anspruch, einen besonderen Blick zu haben, den er mit der Kamera inszenierte. Die Fotografie diente ihm dabei als Zugang zu Menschen.</p>
+        <p class="vb-intro">Hier endet die Aussagekraft des Subtyps. Eine soziale Drei will gesehen und gemocht werden, und die weit überwiegende Zahl solcher Menschen geht damit nicht gewalttätig um. Was Alcala tat, erklärt weder das Enneagramm noch ein Subtyp, es lässt sich nur mit schweren Persönlichkeitsstörungen und einer Täterbiografie beschreiben, die in diesem Rahmen nicht ausgeleuchtet werden kann. Der Fall zeigt vor allem, wie eine sympathische Außenwirkung mit schweren Taten zusammengehen kann, und warum sie für sich genommen nichts über einen Menschen sagt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Drei im Vergleich: Wie sich Leistung und Image bei SE3, SO3 und SX3 unterschiedlich ausdrücken.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausführlich porträtiert – Leistung, Image und der Weg zur Echtheit.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        Das Enneagramm erklärt, es rechtfertigt nicht. Frauen und ein Kind sind gestorben, Familien trauern bis heute. Die Typisierung dient dem Verständnis eines Musters, ersetzt weder ein Gutachten noch ein Urteil und stellt keine Diagnose dar. Sie beruht auf öffentlich dokumentierten Quellen.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-oj-simpson", label:"O.J. Simpson (SO3w4) – derselbe Subtyp und Flügel, das öffentliche Bild"},
+        {route:"kriminalpsychologie-andrew-cunanan", label:"Andrew Cunanan (SO3w4) – derselbe Subtyp, Nähe zu Prestige"},
+        {route:"kriminalmusterkompass/so3", label:"Kriminalmusterkompass: SO3 – Gepard"},
+        {route:"kriminalpsychologie", label:"Kriminalpsychologie – alle Porträts"},
       ])}
     </div>
   `);

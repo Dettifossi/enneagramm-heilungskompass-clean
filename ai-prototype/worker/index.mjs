@@ -15,7 +15,8 @@ Antworte auf Deutsch, freundlich und klar. Nenne am Ende in Klammern die verwend
 const SYSTEM_INSTRUCTION_EN = `You are "The Guide", the knowledge assistant of the Enneagram Healing Compass by Detlef Rathmer.
 Answer questions EXCLUSIVELY based on the provided source texts.
 If the answer is not contained in the sources, say so honestly instead of speculating or inventing information.
-Answer in English, friendly and clear. At the end, cite the subtype codes used as sources in parentheses.`;
+Answer in English, friendly and clear. At the end, cite the subtype codes used as sources in parentheses.
+In English the self-preservation instinct is written SP (for example SP5), never SE: if a source text says SE1 to SE9, write SP1 to SP9 in your answer.`;
 
 const EMBED_MODEL = "gemini-embedding-001";
 const EMBED_DIMENSIONS = 768;
@@ -49,6 +50,8 @@ async function embedQuery(question, apiKey) {
 // Fehler (Vectorize/Embedding nicht erreichbar) sauber auf reine
 // Keyword-Suche zurück, statt die Anfrage scheitern zu lassen.
 async function hybridRetrieve(question, { knowledge, knowledgeByCode, vectorizeIndex, apiKey }) {
+  // Englische Nutzer schreiben SP (self-preservation); die Wissensbasis führt intern SE.
+  question = String(question || "").replace(/\bSP([1-9])/gi, "SE$1");
   const keywordHits = retrieveRelevantChunks(question, knowledge, 5);
 
   if (!vectorizeIndex) return keywordHits;
@@ -412,6 +415,57 @@ async function adminGate(request, env) {
   // Gleiche Begrenzung für alle Admin-Aufrufe, damit der Code nicht durchprobiert werden kann.
   if (await isRateLimited(env, "ADMIN_LIMITER", clientIp(request))) return tooManyRequests(request);
   return null;
+}
+
+// ── Erfolglose Suchbegriffe (anonym) ──────────────────────────────────────────
+// Gespeichert wird nur der normalisierte Suchbegriff mit Zähler. Keine IP, keine Kennung.
+// Eingaben mit E-Mail-Adresse, Link oder langen Zahlen werden verworfen. Ablauf nach 90 Tagen.
+const SEARCH_MISS_TTL = 60 * 60 * 24 * 90;
+
+function normalizeMissTerm(q) {
+  if (typeof q !== "string") return null;
+  const t = q.toLowerCase().replace(/\s+/g, " ").trim();
+  if (t.length < 3 || t.length > 40) return null;
+  if (/[@:\/]|www\.|https?|\d{4,}/.test(t)) return null;
+  if (t.split(" ").length > 4) return null;
+  return t;
+}
+
+async function handleSearchMiss(request, env) {
+  if (!env.SEARCH_MISSES) return jsonResponse(request, { ok: true });
+  if (await isRateLimited(env, "SEARCH_LIMITER", clientIp(request))) return tooManyRequests(request);
+  const body = (await readJson(request)) || {};
+  const term = normalizeMissTerm(body.q);
+  const lang = body.lang === "en" ? "en" : "de";
+  if (!term) return jsonResponse(request, { ok: true });
+  const key = "m:" + lang + ":" + term;
+  const now = new Date().toISOString();
+  let rec = null;
+  try { rec = JSON.parse((await env.SEARCH_MISSES.get(key)) || "null"); } catch { rec = null; }
+  rec = rec && typeof rec.n === "number" ? { n: rec.n + 1, first: rec.first, last: now } : { n: 1, first: now, last: now };
+  await env.SEARCH_MISSES.put(key, JSON.stringify(rec), { expirationTtl: SEARCH_MISS_TTL });
+  return jsonResponse(request, { ok: true });
+}
+
+async function handleSearchMissList(request, env) {
+  const blocked = await adminGate(request, env);
+  if (blocked) return blocked;
+  if (!requireAdmin(request, env)) return jsonResponse(request, { error: "Nicht autorisiert." }, 401);
+  const out = [];
+  let cursor;
+  do {
+    const page = await env.SEARCH_MISSES.list({ prefix: "m:", cursor, limit: 1000 });
+    for (const k of page.keys) {
+      const rec = JSON.parse((await env.SEARCH_MISSES.get(k.name)) || "null");
+      if (rec) {
+        const parts = k.name.split(":");
+        out.push({ lang: parts[1], term: parts.slice(2).join(":"), n: rec.n, first: rec.first, last: rec.last });
+      }
+    }
+    cursor = page.list_complete ? undefined : page.cursor;
+  } while (cursor && out.length < 3000);
+  out.sort((a, b) => b.n - a.n || (b.last > a.last ? 1 : -1));
+  return jsonResponse(request, { misses: out });
 }
 
 async function handleReviewsGetFreigegeben(request, env) {
@@ -894,6 +948,12 @@ export default {
       }
       if (url.pathname === "/billing/portal" && request.method === "GET") {
         return await handleBillingPortal(request, env);
+      }
+      if (url.pathname === "/search-miss" && request.method === "POST") {
+        return await handleSearchMiss(request, env);
+      }
+      if (url.pathname === "/search-miss/list" && request.method === "GET") {
+        return await handleSearchMissList(request, env);
       }
       if (url.pathname === "/reviews/freigegeben" && request.method === "GET") {
         return await handleReviewsGetFreigegeben(request, env);

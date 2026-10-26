@@ -607,6 +607,11 @@ const list = (arr, and) => arr.length <= 1 ? (arr[0] || "") : arr.slice(0, -1).j
 const quote = (s, lang) => (lang === "en" ? "\u201c" + s + "\u201d" : "\u201e" + s + "\u201c");
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;");
 
+export function psychogrammDaten(typ, lang) {
+  const e = DATA[typ] && DATA[typ][lang === "en" ? "en" : "de"];
+  return e ? { kern: e.kern, selbst: e.selbst, schatten: e.schatten } : null;
+}
+
 export function psychogrammErklaerung(typ, lang) {
   const e = DATA[typ] && DATA[typ][lang === "en" ? "en" : "de"];
   if (!e) return "";

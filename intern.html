@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Lücken-Radar (intern)</title>
+<style>
+  :root { --copper:#b0693a; --paper:#fbf8f3; --ink:#2b2622; --muted:#7a6f66; --line:#e4dccf; }
+  @media (prefers-color-scheme: dark) { :root { --paper:#1d1a17; --ink:#efe8de; --muted:#a89d92; --line:#3a342e; } }
+  body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.5 system-ui,-apple-system,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:1.2rem 16px 3rem; }
+  h1 { font-size:1.6rem; margin:.2rem 0 .4rem; }
+  h2 { font-size:1.05rem; margin:1.8rem 0 .5rem; }
+  p { margin:.4rem 0; font-size:.9rem; color:var(--muted); }
+  p strong { color:var(--ink); }
+  table { border-collapse:collapse; width:100%; font-size:.8rem; }
+  th { color:var(--muted); font-weight:600; padding:.3rem .3rem; }
+  td { padding:.28rem .3rem; text-align:center; font-variant-numeric:tabular-nums; }
+  td:first-child, td:nth-child(2) { text-align:left; white-space:nowrap; }
+  td:first-child { font-weight:700; }
+  .wrap { overflow-x:auto; }
+  .ziel { display:flex; flex-wrap:wrap; gap:.8rem 1.2rem; align-items:center; font-size:.85rem; margin:.6rem 0 .8rem; }
+  .ziel input { width:4rem; padding:.25rem .4rem; font:inherit; border:1px solid var(--line); border-radius:6px; background:var(--paper); color:var(--ink); }
+  .empf { list-style:none; margin:.4rem 0; padding:0; font-size:.88rem; }
+  .empf li { padding:.35rem 0; border-bottom:1px solid var(--line); color:var(--muted); }
+  .empf strong { color:var(--ink); }
+  .eyebrow { text-transform:uppercase; letter-spacing:.08em; font-size:.72rem; color:var(--copper); }
+</style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">Intern</p>
+  <h1>Lücken-Radar</h1>
+  <p>Wo noch Porträts fehlen. Die Zahlen werden beim Öffnen live aus dem Kompass gezählt. Diese Seite ist nicht verlinkt und nicht für Suchmaschinen gedacht.</p>
+  <div id="out"><p>Lade …</p></div>
+</main>
+<script>
+const TIER = {SE1:"Adler",SO1:"Gans",SX1:"Schwarze Mamba",SE2:"Flusspferd",SO2:"Golden Retriever",SX2:"Kamel",SE3:"Waschbär",SO3:"Gepard",SX3:"Pfau",SE4:"Taube",SO4:"Gürteltier",SX4:"Chihuahua",SE5:"Eule",SO5:"Oktopus",SX5:"Igel",SE6:"Kaninchen",SO6:"Erdmännchen",SX6:"Wolf",SE7:"Gorilla",SO7:"Biber",SX7:"Schimpanse",SE8:"Orang-Utan",SO8:"Löwe",SX8:"Krokodil",SE9:"Elefant",SO9:"Büffel",SX9:"Faultier"};
+const ARRAYS = [["Berühmte","const BERUEHMT_PORTRAITS = ["],["Krankheit","const KRANKHEITS_PORTRAITS = ["],["Kriminal","const KRIMINAL_PORTRAITS = ["]];
+const codes = []; for (let n = 1; n <= 9; n++) ["SE","SO","SX"].forEach(i => codes.push(i + n));
+(async () => {
+  const out = document.getElementById("out");
+  try {
+    const src = await (await fetch("bundle.js", { cache: "no-cache" })).text();
+    const zahl = {}, frau = {}, mf = {}; codes.forEach(c => { zahl[c] = [0,0,0]; frau[c] = [0,0]; mf[c] = [0,0]; });
+    ARRAYS.forEach(([, marker], r) => {
+      const i = src.indexOf(marker); const j = src.indexOf("\n];", i);
+      src.slice(i, j).split(/\n\s*\{ route:/).slice(1).forEach(item => {
+        const m = /subtyp:\s*"(S[EOX][1-9])/.exec(item); if (!m || !zahl[m[1]]) return;
+        zahl[m[1]][r]++;
+        const g = /gender:\s*"(\w)"/.exec(item);
+        if (g) { frau[m[1]][1]++; if (g[1] === "f" || g[1] === "w") { frau[m[1]][0]++; mf[m[1]][1]++; } else mf[m[1]][0]++; }
+      });
+    });
+    const summe = c => zahl[c][0] + zahl[c][1] + zahl[c][2];
+    const max = Math.max(...codes.map(summe));
+    const maxR = [0,1,2].map(r => Math.max(...codes.map(c => zahl[c][r])));
+    const cell = (v, m) => `<td style="background:color-mix(in srgb, var(--copper) ${Math.round(5 + 70 * v / m)}%, var(--paper))">${v}</td>`;
+    const rows = codes.map(c => `<tr><td>${c}</td><td style="color:var(--muted)">${TIER[c]}</td>${cell(zahl[c][0],maxR[0])}${cell(zahl[c][1],maxR[1])}${cell(zahl[c][2],maxR[2])}${cell(summe(c),max)}<td>${mf[c][0]}</td><td>${mf[c][1]}</td><td>${frau[c][1] ? Math.round(100*frau[c][0]/frau[c][1]) + " %" : "–"}</td></tr>`).join("");
+    const wenig = codes.slice().sort((a,b) => summe(a)-summe(b)).slice(0,8).map(c => `${c} (${TIER[c]}, ${summe(c)})`).join(" · ");
+    const wenigF = codes.filter(c => frau[c][1] >= 10).sort((a,b) => frau[a][0]/frau[a][1] - frau[b][0]/frau[b][1]).slice(0,8).map(c => `${c} (${Math.round(100*frau[c][0]/frau[c][1])} %)`).join(" · ");
+    const ohneK = codes.filter(c => zahl[c][1] === 0).join(", ") || "keine";
+    const ohneC = codes.filter(c => zahl[c][2] === 0).join(", ") || "keine";
+    const empf = () => {
+      const zn = +document.getElementById("ziel-n").value || 40, zf = (+document.getElementById("ziel-f").value || 0) / 100;
+      const list = codes.map(c => {
+        const f = mf[c][1], m = mf[c][0], total = f + m;
+        const zielF = Math.ceil(zn * zf), zielM = zn - zielF;
+        const needF = Math.max(0, zielF - f), needM = Math.max(0, zielM - m);
+        return { c, f, m, needF, needM, need: needF + needM };
+      }).filter(x => x.need > 0).sort((a, b) => b.need - a.need);
+      document.getElementById("empf").innerHTML = list.length ? list.slice(0, 14).map(x => `<li><strong>${x.c}</strong> (${TIER[x.c]}): ${x.needF ? "<strong>+" + x.needF + " Frauen</strong>" : ""}${x.needF && x.needM ? ", " : ""}${x.needM ? "+" + x.needM + " Männer" : ""} <span>(jetzt ${x.m} M / ${x.f} F)</span></li>`).join("") : "<li>Alle Subtypen erreichen das Ziel.</li>";
+    };
+    const rubLis = () => {
+      const ziele = [+document.getElementById("z-b").value || 0, +document.getElementById("z-k").value || 0, +document.getElementById("z-c").value || 0];
+      const namen = ["Berühmte", "Krankheitsporträts", "Kriminalporträts"];
+      document.getElementById("rub").innerHTML = namen.map((n, r) => {
+        const l = codes.map(c => ({ c, have: zahl[c][r], need: ziele[r] - zahl[c][r] })).filter(x => x.need > 0).sort((a, b) => b.need - a.need);
+        return `<p><strong>${n}</strong> (Ziel ${ziele[r]} je Subtyp): ` + (l.length ? l.slice(0, 12).map(x => `${x.c} (${TIER[x.c]}) <strong>+${x.need}</strong> <span>(jetzt ${x.have})</span>`).join(" · ") + (l.length > 12 ? ` · … und ${l.length - 12} weitere` : "") : "alle Subtypen erreichen das Ziel") + `</p>`;
+      }).join("");
+    };
+    const gesamt = codes.reduce((s, c) => s + summe(c), 0);
+    out.innerHTML = `
+      <p><strong>${gesamt}</strong> Porträts mit Subtyp (Berühmte, Krankheit, Kriminal).</p>
+      <h2>Was fehlt noch? (Empfehlung)</h2>
+      <div class="ziel"><label>Ziel je Subtyp (Porträts gesamt) <input id="ziel-n" type="number" min="1" value="40"></label><label>Ziel Frauenanteil (%) <input id="ziel-f" type="number" min="0" max="100" value="40"></label></div>
+      <ul class="empf" id="empf"></ul>
+      <p>Die Liste zeigt je Subtyp, wie viele Frauen- und Männerporträts noch fehlen, um das Ziel zu erreichen, sortiert nach dem größten Bedarf. Die Ziele lassen sich oben ändern.</p>
+      <h2>Was fehlt je Rubrik?</h2>
+      <div class="ziel"><label>Ziel Berühmte <input id="z-b" type="number" min="0" value="30"></label><label>Ziel Krankheit <input id="z-k" type="number" min="0" value="7"></label><label>Ziel Kriminal <input id="z-c" type="number" min="0" value="4"></label></div>
+      <div id="rub"></div>
+      <p>Je Rubrik die Subtypen, die unter dem Ziel liegen, sortiert nach dem größten Fehlbestand. Die Ziele lassen sich ändern.</p>
+      <h2>Nächste Kandidaten</h2>
+      <p><strong>Wenigste Porträts insgesamt:</strong> ${wenig}</p>
+      <p><strong>Geringster Frauenanteil</strong> (ab 10 Porträts): ${wenigF}</p>
+      <p><strong>Ohne Krankheitsporträt:</strong> ${ohneK}</p>
+      <p><strong>Ohne Kriminalporträt:</strong> ${ohneC}</p>
+      <h2>Alle 27 Subtypen</h2>
+      <div class="wrap"><table><thead><tr><th style="text-align:left">Subtyp</th><th style="text-align:left">Tier</th><th>Berühmte</th><th>Krankheit</th><th>Kriminal</th><th>Gesamt</th><th>Männer</th><th>Frauen</th><th>Frauen %</th></tr></thead><tbody>${rows}</tbody></table></div>
+      <p>Je dunkler die Zelle, desto mehr Porträts (jede Spalte mit eigener Skala). Männer, Frauen und Frauenanteil über alle drei Rubriken.</p>`;
+    rubLis(); ["z-b", "z-k", "z-c"].forEach(i => document.getElementById(i).addEventListener("input", rubLis));
+    empf(); document.getElementById("ziel-n").addEventListener("input", empf); document.getElementById("ziel-f").addEventListener("input", empf);
+  } catch (e) { out.innerHTML = "<p>Konnte die Daten nicht laden: " + e.message + "</p>"; }
+})();
+</script>
+</body>
+</html>

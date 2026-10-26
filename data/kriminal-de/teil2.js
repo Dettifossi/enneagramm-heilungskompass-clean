@@ -1,4 +1,4 @@
-import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
+const { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } = window.__kh;
 
 export function adolfHitlerPortraitPage() {
   return shell(`
@@ -218,6 +218,13 @@ export function adolfHitlerPortraitPage() {
         {route:"kriminalpsychologie-ted-bundy", label:"Kriminalpsychologie: Ted Bundy"},
         {route:"kriminalpsychologie-pablo-escobar", label:"Kriminalpsychologie: Pablo Escobar"},
         {route:"kriminalpsychologie-charles-starkweather", label:"Kriminalpsychologie: Charles Starkweather (SX4w3) – gleicher Subtyp"},
+        {route:"beruehmte-charlie-chaplin", label:"Porträt: Charlie Chaplin (SX4w3)"},
+        {route:"kriminalpsychologie-anders-breivik", label:"Anders Breivik (SX6w5) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-bonnie-parker", label:"Bonnie Parker (SX4w3) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-david-berkowitz", label:"David Berkowitz (SE4w3) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-elliot-rodger", label:"Elliot Rodger (SO4w5) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-jeffrey-dahmer", label:"Jeffrey Dahmer (SX5w4) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-luka-magnotta", label:"Luka Magnotta (SX3w4) – Kriminalpsychologie"},
         {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
       ])}
     </div>
@@ -428,6 +435,19 @@ export function andersBreivikPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-jeffrey-dahmer", label:"Kriminalpsychologie: Jeffrey Dahmer"},
         {route:"kriminalpsychologie-adolf-hitler", label:"Kriminalpsychologie: Adolf Hitler"},
+        {route:"kriminalpsychologie-adolf-eichmann", label:"Adolf Eichmann (SO6w5) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-armin-meiwes", label:"Armin Meiwes (SX6w5) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-charles-manson", label:"Charles Manson (SX6w7) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-david-berkowitz", label:"David Berkowitz (SE4w3) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-heinrich-pommerenke", label:"Heinrich Pommerenke (SO1w9) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-joachim-kroll", label:"Joachim Kroll (SE5w6) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-joel-rifkin", label:"Joel Rifkin (SX5w6) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-john-list", label:"John List (SE6w5) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-niels-hoegel", label:"Niels H\xf6gel (SE7w8) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-osama-bin-laden", label:"Osama bin Laden (SO2w1) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-paul-ogorzow", label:"Paul Ogorzow (SE1w9) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-rudolf-pleil", label:"Rudolf Pleil (SE2w3) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-salvatore-riina", label:"Salvatore Riina (SE8w9) – Kriminalpsychologie"},
         {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
       ])}
     </div>
@@ -648,7 +668,7 @@ export function belleGunnessPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Waschb\xe4r</h3>
-        <p class="vb-intro">Der <strong>Waschb\xe4r</strong> ist das Tier der selbsterhaltenden Drei &ndash; und kein Tier passt besser zu Belle Gunness. Der Waschb\xe4r ist kein Raubtier im klassischen Sinne: Er greift nicht frontal an, er jagt nicht laut. Er ist geduldig, geschickt, anpassungsf\xe4hig. Er taucht auf, wo Ressourcen sind, sucht nach dem, was er gebrauchen kann, und verschwindet wieder. Vor allem: Er ist t\xe4uschend harmlos. Sein Gesicht &ndash; die Maske, die dunklen Augen hinter dem hellen Fell &ndash; lassen nicht erkennen, was er gerade tut.</p>
+        <p class="vb-intro">Der <strong>Waschb\xe4r</strong> gilt als das Tier der selbsterhaltenden Drei &ndash; und kein Tier passt besser zu Belle Gunness. Der Waschb\xe4r ist kein Raubtier im klassischen Sinne: Er greift nicht frontal an, er jagt nicht laut. Er ist geduldig, geschickt, anpassungsf\xe4hig. Er taucht auf, wo Ressourcen sind, sucht nach dem, was er gebrauchen kann, und verschwindet wieder. Vor allem: Er ist t\xe4uschend harmlos. Sein Gesicht &ndash; die Maske, die dunklen Augen hinter dem hellen Fell &ndash; lassen nicht erkennen, was er gerade tut.</p>
         <p class="vb-intro">Belle Gunness war so eine Figur: eine Farmbesitzerin, eine Witwe, eine Mutter. Sie bat um Hilfe. Sie schrieb liebevolle Briefe. Sie empfing M\xe4nner mit Kaffee und Hausmannskost. Und sie begrub sie in ihrem Schweinestall.</p>
       </div>
 
@@ -729,6 +749,8 @@ export function belleGunnessPortraitPage() {
           {route:"kriminalpsychologie-karla-homolka", label:"Kriminalpsychologie: Karla Homolka (SE3w4)"},
           {route:"kriminalpsychologie-ruja-ignatova", label:"Kriminalpsychologie: Ruja Ignatova (SE3w4)"},
           {route:"kriminalpsychologie-pamela-smart", label:"Kriminalpsychologie: Pamela Smart (SX2w3)"},
+          {route:"kriminalpsychologie-henri-landru", label:"Henri Désiré Landru (SE3w4) – Kriminalpsychologie"},
+          {route:"kriminalpsychologie-john-list", label:"John List (SE6w5) – Kriminalpsychologie"},
         ])}
       </div>
     </div>
@@ -953,7 +975,7 @@ export function davidBerkowitzPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\u00e4t</h3>
         <p class="vb-intro"><strong>a) Unscheinbar und zur\u00fcckgezogen:</strong>
         <strong>Berkowitz</strong> fiel in seiner Umgebung nicht auf. Nachbarn beschrieben
-        ihn als ruhig, unauff\u00e4llig, fast unsichtbar. Das ist die selbsterhaltende
+        ihn als ruhig, unauff\u00e4llig, fast unsichtbar. Hier zeigt sich die selbsterhaltende
         Vier: Sie tr\u00e4gt ihr inneres Leben nach innen, nicht nach au\u00dfen. Was
         brennt, bleibt verborgen.</p>
         <p class="vb-intro"><strong>b) Suchend und sehnend:</strong>
@@ -1020,7 +1042,7 @@ export function davidBerkowitzPortraitPage() {
         eigene dunkle Liturgie.</p>
         <p class="vb-intro"><strong>c) Schreiben als Selbstausdruck:</strong>
         <strong>Berkowitz</strong> hinterlie\u00df Briefe an die Polizei und die Presse \u2013
-        literarisch, theatralisch, selbstmitleidig. Das ist der SE4w3:
+        literarisch, theatralisch, selbstmitleidig. Darin zeigt sich der SE4w3:
         die innere Welt muss nach au\u00dfen, sie muss eine Form finden.
         Der Dreierfl\u00fcgel drang auf Sichtbarkeit.</p>
       </div>
@@ -1049,7 +1071,7 @@ export function davidBerkowitzPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Enneagramm-Analyse</h3>
         <p class="vb-intro"><strong>a) SE4: die unerschrockene Vier:</strong>
         Die selbsterhaltende Vier zeigt ihren Schmerz nicht \u2013 sie ertr\u00e4gt ihn.
-        Naranjo nannte diesen Subtyp \u201edauntless\u201c: furchtlos, ausdauernd, f\u00e4hig
+        Dieser Subtyp trägt bei Naranjo den Namen \u201edauntless\u201c: furchtlos, ausdauernd, f\u00e4hig
         zu gro\u00dfem Leiden ohne Klage. <strong>Berkowitz</strong> trug sein inneres Inferno
         jahrelang allein \u2013 nach au\u00dfen ruhig, innen zerst\u00f6rerisch.</p>
         <p class="vb-intro"><strong>b) Dreierfl\u00fcgel als Inszenierungsdrang:</strong>
@@ -1084,9 +1106,9 @@ export function davidBerkowitzPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Heilungsweg des Typ 4</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Heilungsweg des Typs 4</h3>
         <p class="vb-intro"><strong>a) Vom Mangel zur Pr\u00e4senz:</strong>
-        Der Heilungsweg der Vier f\u00fchrt \u00fcber die Entdeckung, dass das Leben
+        Für die Vier f\u00fchrt der Heilungsweg \u00fcber die Entdeckung, dass das Leben
         im Jetzt vollst\u00e4ndig ist \u2013 auch ohne das, was fehlt. <strong>Berkowitz</strong>
         beschreibt seine Konversion als genau diesen Moment: zum ersten Mal
         das Gef\u00fchl, angenommen zu sein, ohne etwas leisten zu m\u00fcssen.</p>
@@ -1116,6 +1138,7 @@ export function davidBerkowitzPortraitPage() {
         {route:"kriminalpsychologie-adolf-hitler", label:"Kriminalpsychologie: Adolf Hitler"},
         {route:"kriminalpsychologie-jeffrey-dahmer", label:"Kriminalpsychologie: Jeffrey Dahmer"},
         {route:"kriminalpsychologie-anders-breivik", label:"Kriminalpsychologie: Anders Breivik"},
+        {route:"kriminalpsychologie-elliot-rodger", label:"Elliot Rodger (SO4w5) – Kriminalpsychologie"},
       ])}
     </div>
   `);
@@ -1332,6 +1355,8 @@ export function dorotheaPuentePortraitPage() {
         {route:"kriminalpsychologie-dennis-nilsen", label:"Kriminalpsychologie: Dennis Nilsen (SE1w2) \u2013 ebenfalls Adler"},
         {route:"kriminalpsychologie-harold-shipman", label:"Kriminalpsychologie: Harold Shipman (SO5w6) \u2013 Arzt als T\u00e4ter"},
         {route:"kriminalpsychologie-niels-hoegel", label:"Kriminalpsychologie: Niels H\u00f6gel (SE7w8) \u2013 Pfleger als T\u00e4ter"},
+        {route:"kriminalpsychologie-gesche-gottfried", label:"Gesche Gottfried (SO1w2) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-tommy-lynn-sells", label:"Tommy Lynn Sells (SE2w1) – Kriminalpsychologie"},
       ])}
     </div>
   `);
@@ -1403,7 +1428,7 @@ export function fritzHaarmannPortraitPage() {
         Er bot Essen an, eine Unterkunft,
         eine vertraute Hand in der Orientierungslosigkeit
         der Nachkriegszeit.
-        Das ist der Neunerfl\u00fcgel der SX1:
+        Hier wirkt der Neunerfl\u00fcgel der SX1:
         Nach au\u00dfen w\u00e4rmt er, zieht er an,
         gibt er Halt. Die Bedrohung bleibt
         vollst\u00e4ndig verborgen.</p>
@@ -1476,7 +1501,7 @@ export function fritzHaarmannPortraitPage() {
         Es ist kein Abstandsverbrechen:
         Es setzt physische N\u00e4he, k\u00f6rperlichen Kontakt,
         Intimit\u00e4t im Wortsinne voraus.
-        Das ist das SX1-Muster an seiner dunkelsten Grenze:
+        Hier zeigt sich das SX1-Muster an seiner dunkelsten Grenze:
         Der Impuls zur vollst\u00e4ndigen Vereinnahmung
         des Anderen, zur l\u00fcckenlosen Kontrolle
         \u00fcber Leben und Tod, vollzieht sich
@@ -1526,7 +1551,7 @@ export function fritzHaarmannPortraitPage() {
         Der Werwolf ist ein Wesen,
         das tags\u00fcber ein normaler Mensch ist
         und nachts etwas v\u00f6llig anderes.
-        Das ist das Neunerfl\u00fcgel-Muster
+        Darin zeigt sich das Neunerfl\u00fcgel-Muster
         in seiner bildlichsten Verdichtung:
         zwei vollst\u00e4ndig getrennte Existenzen
         in einem K\u00f6rper, ohne sichtbare Naht.</p>
@@ -1605,7 +1630,7 @@ export function fritzHaarmannPortraitPage() {
         n\u00e4chste Form der Gewalt:
         kein Abstand, kein Werkzeug,
         nur K\u00f6rper und K\u00f6rper.
-        Das ist die SX1-Energie in ihrer
+        Hier wirkt die SX1-Energie in ihrer
         radikalsten Verk\u00f6rperung.</p>
         <p class="vb-intro"><strong>c) Schnell, pr\u00e4zise, ohne Reue:</strong>
         Die Schwarze Mamba schl\u00e4gt nicht z\u00f6gernd zu.
@@ -1737,6 +1762,10 @@ export function fritzHaarmannPortraitPage() {
         {route:"kriminalpsychologie-bryan-kohberger", label:"Kriminalpsychologie: Bryan Kohberger (SX1w2) – derselbe Subtyp, anderer Flügel"},
         {route:"kriminalpsychologie-peter-moore", label:"Kriminalpsychologie: Peter Moore (SX8w7) – geprüfte Alternativtypisierung"},
         {route:"kriminalpsychologie-james-dusty-rhodes", label:"Kriminalpsychologie: James ›Dusty‹ Rhodes (SX1w9) – derselbe Subtyp"},
+        {route:"kriminalpsychologie-dennis-nilsen", label:"Dennis Nilsen (SE1w2) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-gary-ridgway", label:"Gary Ridgway (SX1w2) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-gennadi-mikhasevich", label:"Gennadi Mikhasevich (SX1w2) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-paul-bernardo", label:"Paul Bernardo (SX1w2) – Kriminalpsychologie"},
       ])}
     </div>
   `);
@@ -1837,7 +1866,7 @@ export function henriLandruPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Waschb\xe4r</h3>
-        <p class="vb-intro">Der <strong>Waschb\xe4r</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das nicht auf offener Fl\xe4che jagt, sondern im Verborgenen, mit geschickten H\xe4nden, ohne \xfcberfl\xfcssige Bewegung, ohne Publikum. Henri D\xe9sir\xe9 Landru, 1869 in Paris geboren, verk\xf6rperte genau diese Qualit\xe4t: Ein unscheinbarer, kleiner, kahlk\xf6pfiger Mann mit gepflegtem schwarzem Bart, der w\xe4hrend des Ersten Weltkriegs \xfcber Kontaktanzeigen wohlhabende Witwen in sein Landhaus in Gambais lockte, sie ermordete, ihre Verm\xf6gen einzog und ihre \xdcberreste im eigenen K\xfcchenofen verbrannte.</p>
+        <p class="vb-intro">Der <strong>Waschb\xe4r</strong> ist das Wappentier der selbsterhaltenden Drei &ndash; ein Tier, das nicht auf offener Fl\xe4che jagt, sondern im Verborgenen, mit geschickten H\xe4nden, ohne \xfcberfl\xfcssige Bewegung, ohne Publikum. Henri D\xe9sir\xe9 Landru, 1869 in Paris geboren, verk\xf6rperte genau diese Qualit\xe4t: Ein unscheinbarer, kleiner, kahlk\xf6pfiger Mann mit gepflegtem schwarzem Bart, der w\xe4hrend des Ersten Weltkriegs \xfcber Kontaktanzeigen wohlhabende Witwen in sein Landhaus in Gambais lockte, sie ermordete, ihre Verm\xf6gen einzog und ihre \xdcberreste im eigenen K\xfcchenofen verbrannte.</p>
         <p class="vb-intro">Zwischen 1914 und 1919 t\xf6tete er mindestens zehn Frauen und den Sohn einer seiner Opfer. Keine \xf6ffentliche Inszenierung, kein Spektakel &ndash; nur die stille, systematische Arbeit eines Mannes, der genau wusste, was er brauchte, und der bereit war, alles Notwendige zu tun, um es sich zu beschaffen.</p>
       </div>
 
@@ -1850,13 +1879,13 @@ export function henriLandruPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Viererfl\xfcgel: Die morbide Ironie</h3>
         <p class="vb-intro">Eine SE3 mit schw\xe4cher ausgepr\xe4gtem Viererfl\xfcgel h\xe4tte ihre Taten vermutlich m\xf6glichst emotionslos und farblos durchgezogen. Bei Landru trat stattdessen ein d\xfcsterer, fast k\xfcnstlerischer Humor hervor, der ihn bis zum Schluss begleitete. Vor Gericht, 1921, blieb er zynisch und geistreich zugleich: Auf die Anklage antwortete er h\xf6hnisch mit der Forderung &bdquo;Zeigen Sie mir die Leichen!&ldquo; &ndash; wohl wissend, dass von seinen Opfern nur Asche \xfcbrig war. Sein einziges indirektes Gest\xe4ndnis war eine selbst angefertigte Zeichnung seines K\xfcchenofens.</p>
-        <p class="vb-intro">Diese morbide, selbstbewusste Ironie ist der Viererfl\xfcgel in seiner dunkelsten Auspr\xe4gung: eine Tragik, die zur bewussten Pose wird, ein Gef\xfchl der eigenen Einzigartigkeit, das selbst im Angesicht der Guillotine nicht verschwindet. Das Gerichtssaal-Publikum war fasziniert von diesem kleinen, kahlen Mann, der mit seinem langen schwarzen Bart und seiner unheimlichen Ruhe wie eine Figur aus einer d\xfcsteren M\xe4rchenerz\xe4hlung wirkte.</p>
+        <p class="vb-intro">Diese morbide, selbstbewusste Ironie zeigt der Viererfl\xfcgel in seiner dunkelsten Auspr\xe4gung: eine Tragik, die zur bewussten Pose wird, ein Gef\xfchl der eigenen Einzigartigkeit, das selbst im Angesicht der Guillotine nicht verschwindet. Das Gerichtssaal-Publikum war fasziniert von diesem kleinen, kahlen Mann, der mit seinem langen schwarzen Bart und seiner unheimlichen Ruhe wie eine Figur aus einer d\xfcsteren M\xe4rchenerz\xe4hlung wirkte.</p>
       </div>
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Kontaktanzeigen als System</h3>
         <p class="vb-intro">Landru nutzte falsche Identit\xe4ten und die &bdquo;Herzensangelegenheiten&ldquo;-Rubriken Pariser Zeitungen, um gezielt einsame, meist verwitwete oder alleinstehende Frauen mit eigenem Verm\xf6gen anzusprechen &ndash; ein System, das er \xfcber Jahre systematisch verfeinerte. Der Krieg lieferte ihm dabei den perfekten Rahmen: W\xe4hrend Millionen M\xe4nner an der Front starben, blieben zahllose Frauen allein zur\xfcck, verwundbar und offen f\xfcr die Aussicht auf eine neue, sichere Verbindung.</p>
-        <p class="vb-intro">Das ist die SE3 in ihrer kalkuliertesten Form: Landru identifizierte eine strukturelle L\xfccke &ndash; einen Markt aus verwundbaren, verm\xf6genden Frauen &ndash; und baute ein wiederholbares Verfahren, das er \xfcber f\xfcnf Jahre routiniert anwendete, mit derselben systematischen Sorgfalt, mit der er auch seine Ausgaben notierte.</p>
+        <p class="vb-intro">Hier zeigt sich die SE3 in ihrer kalkuliertesten Form: Landru identifizierte eine strukturelle L\xfccke &ndash; einen Markt aus verwundbaren, verm\xf6genden Frauen &ndash; und baute ein wiederholbares Verfahren, das er \xfcber f\xfcnf Jahre routiniert anwendete, mit derselben systematischen Sorgfalt, mit der er auch seine Ausgaben notierte.</p>
       </div>
 
       <div class="vb-section">
@@ -1867,7 +1896,7 @@ export function henriLandruPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro"><strong>a) Buchf\xfchrung statt B\xfchne:</strong> Anders als die soziale Drei, die \xf6ffentliches Prestige sucht, agierte Landru maximal privat &ndash; im eigenen Haus, im eigenen Ofen, in einem eigenen Notizbuch. Das ist die SE3 in ihrer reinsten Form: Sicherheit wird im Verborgenen aufgebaut, nicht auf einer Bühne.</p>
+        <p class="vb-intro"><strong>a) Buchf\xfchrung statt B\xfchne:</strong> Anders als die soziale Drei, die \xf6ffentliches Prestige sucht, agierte Landru maximal privat &ndash; im eigenen Haus, im eigenen Ofen, in einem eigenen Notizbuch. Darin zeigt sich die SE3 in ihrer reinsten Form: Sicherheit wird im Verborgenen aufgebaut, nicht auf einer Bühne.</p>
         <p class="vb-intro"><strong>b) Der Viererfl\xfcgel als d\xfcstere Signatur:</strong> Eine SE3 mit schw\xe4cher ausgepr\xe4gtem Viererfl\xfcgel h\xe4tte sich vermutlich unauff\xe4lliger, farbloser verhalten. Landrus zynischer Witz vor Gericht, sein Gef\xfchl f\xfcr die eigene morbide Einzigartigkeit, zeigen einen stark ausgepr\xe4gten Viererfl\xfcgel, der selbst dem eigenen Untergang eine unverwechselbare Note verlieh.</p>
         <p class="vb-intro"><strong>c) Ein System statt eines Einzelfalls:</strong> Wie bei Belle Gunness, einer weiteren SE3w4 mit fast identischem Muster, zeigt sich bei Landru dieselbe Struktur: Heiratsanzeigen als Werkzeug, ein wiederholbares Verfahren, kein Einzelimpuls, sondern eine methodische, \xfcber Jahre verfeinerte Routine.</p>
       </div>
@@ -1896,6 +1925,7 @@ export function henriLandruPortraitPage() {
           {route:"kriminalpsychologie-belle-gunness", label:"Kriminalpsychologie: Belle Gunness (SE3w4) – Die Schwarze Witwe von La Porte"},
           {route:"kriminalpsychologie-bernie-madoff", label:"Kriminalpsychologie: Bernie Madoff (SE3w4)"},
           {route:"kriminalpsychologie-mary-ann-cotton", label:"Kriminalpsychologie: Mary Ann Cotton (SX1w2)"},
+          {route:"kriminalpsychologie-jeanne-weber", label:"Jeanne Weber (SE2w1) – Kriminalpsychologie"},
         ])}
       </div>
     </div>
@@ -2020,7 +2050,7 @@ export function jeffreyEpsteinPortraitPage() {
         <p class="vb-intro"><strong>c) Fassadenloser Kern:</strong>
         Wer hinter die Fassade sah, erkannte eine kalte,
         besitzorientierte Struktur ohne Empathie f\xfcr die Opfer.
-        Das ist die Acht ohne Heilung: Kraft ohne Mitgef\xfchl,
+        Hier wirkt die Acht ohne Heilung: Kraft ohne Mitgef\xfchl,
         Intensit\xe4t ohne R\xfccksicht.</p>
       </div>
 
@@ -2152,6 +2182,10 @@ export function jeffreyEpsteinPortraitPage() {
         {route:"kriminalpsychologie-harvey-weinstein", label:"Kriminalpsychologie: Harvey Weinstein"},
         {route:"kriminalpsychologie-amelia-dyer", label:"Kriminalpsychologie: Amelia Dyer (SX8w9) – gleicher Subtyp"},
         {route:"kriminalpsychologie-peter-moore", label:"Kriminalpsychologie: Peter Moore (SX8w7) – anderer Flügel"},
+        {route:"kriminalpsychologie-griselda-blanco", label:"Griselda Blanco (SE8w9) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-john-gotti", label:"John Gotti (SO8w7) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-john-mcafee", label:"John McAfee (SX8w9) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-jonathan-meijer", label:"Jonathan Meijer (SE2w1) – Kriminalpsychologie"},
         {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
       ])}
     </div>
@@ -2174,7 +2208,7 @@ export function johnGottiPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der L\xf6we</h3>
-        <p class="vb-intro">Der <strong>L\xf6we</strong> ist das Tier der sozialen Acht &ndash; und kein Bild trifft John Gotti besser. Der L\xf6we ist kein Einzelk\xe4mpfer. Er lebt im Rudel, er herrscht \xfcber ein Revier, er sch\xfctzt die Seinen und duldet keinen Rivalen. Er bek\xe4mpft nicht aus Sadismus, sondern aus Herrschaftslogik: Wer hier lebt, lebt unter meinem Schutz &ndash; und nach meinen Regeln. Der L\xf6we zeigt sich. Er versteckt sich nicht. Er tr\xe4gt seine Macht im K\xf6rper, im Gang, im Blick. Er braucht keine Erkl\xe4rung.</p>
+        <p class="vb-intro">Der <strong>L\xf6we</strong> gilt als das Tier der sozialen Acht &ndash; und kein Bild trifft John Gotti besser. Der L\xf6we ist kein Einzelk\xe4mpfer. Er lebt im Rudel, er herrscht \xfcber ein Revier, er sch\xfctzt die Seinen und duldet keinen Rivalen. Er bek\xe4mpft nicht aus Sadismus, sondern aus Herrschaftslogik: Wer hier lebt, lebt unter meinem Schutz &ndash; und nach meinen Regeln. Der L\xf6we zeigt sich. Er versteckt sich nicht. Er tr\xe4gt seine Macht im K\xf6rper, im Gang, im Blick. Er braucht keine Erkl\xe4rung.</p>
         <p class="vb-intro">John Gotti war ein L\xf6we. Er regierte den Gambino-Clan, das m\xe4chtigste Verbrechersyndikat der Vereinigten Staaten, nicht aus dem Verborgenen, sondern im Rampenlicht. Er trug Brioni-Anz\xfcge f\xfcr Tausende von Dollar. Er winkte Kameras zu. Er liebte es, dass sein Viertel ihn kannte. Er gab Truthh\xe4hne an Nachbarn zu Weihnachten. Er war ihr K\xf6nig &ndash; und er wusste es.</p>
       </div>
 
@@ -2194,7 +2228,7 @@ export function johnGottiPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Biografie: vom Stra\xdfenjungen zum Paten</h3>
         <p class="vb-intro">John Joseph Gotti Jr. wurde am 27. Oktober 1940 in der South Bronx, New York, als zehntes von dreizehn Kindern einer \xe4rmlichen s\xfcditalienischen Einwandererfamilie geboren. Sein Vater arbeitete auf dem Bau, die Familie zog mehrfach um und landete schlie\xdflich in East New York, Brooklyn &ndash; einem Viertel, in dem die Gambino-Familie pr\xe4sent war und Jugendliche fr\xfch ihren Einfluss sp\xfcrten.</p>
         <p class="vb-intro">Mit zw\xf6lf Jahren geh\xf6rte Gotti zu einer Stra\xdfengang. Mit sechzehn brach er die Schule ab. Er stahl, \xfcberfiel Lagerhallen, besorgte sich Respekt auf die einzige Art, die in seinem Milieu z\xe4hlte: durch K\xf6rper und Mut. Dabei war er kein rauer Schreier &ndash; er war charmant, gutaussehend, anf\xfchrend. Die anderen folgten ihm, weil er ausstrahlte, was sie sich w\xfcnschten: keine Angst zu haben.</p>
-        <p class="vb-intro">Er heiratete 1962 Victoria DiGiorgio. Sie blieben bis zu seinem Tod zusammen. In Howard Beach, Queens, wo er sp\xe4ter lebte, war er ein gesch\u00e4tzter Nachbar: Er organisierte das allj\u00e4hrliche Feuerwerk, verteilte Truthh\u00e4hne zu Thanksgiving, kannte jeden beim Namen. Das Viertel liebte ihn. Das ist die soziale Acht: Sie besch\u00fctzt ihr Rudel &ndash; und das Rudel erwidert es mit Loyalit\u00e4t.</p>
+        <p class="vb-intro">Er heiratete 1962 Victoria DiGiorgio. Sie blieben bis zu seinem Tod zusammen. In Howard Beach, Queens, wo er sp\xe4ter lebte, war er ein gesch\u00e4tzter Nachbar: Er organisierte das allj\u00e4hrliche Feuerwerk, verteilte Truthh\u00e4hne zu Thanksgiving, kannte jeden beim Namen. Das Viertel liebte ihn. Hier zeigt sich die soziale Acht: Sie besch\u00fctzt ihr Rudel &ndash; und das Rudel erwidert es mit Loyalit\u00e4t.</p>
       </div>
 
       <div class="vb-section">
@@ -2263,6 +2297,7 @@ export function johnGottiPortraitPage() {
           {route:"kriminalpsychologie-jeffrey-epstein", label:"Kriminalpsychologie: Jeffrey Epstein (SX8w9)"},
           {route:"kriminalpsychologie-john-mcafee", label:"Kriminalpsychologie: John McAfee (SX8w9)"},
           {route:"krankheitsportraets-john-gotti", label:"Krankheitsporträt: John Gotti (SO8w7) – Kehlkopfkrebs in Isolationshaft"},
+          {route:"kriminalpsychologie-griselda-blanco", label:"Griselda Blanco (SE8w9) – Kriminalpsychologie"},
         ])}
       </div>
     </div>
@@ -2316,7 +2351,7 @@ export function johnWayneGacyPortraitPage() {
         <p class="vb-intro"><strong>a) Warm und einnehmend:</strong>
         Zeitgenossen beschrieben Gacy als gesellig, charmant und zuvorkommend.
         Er nahm sich Zeit f\xfcr Menschen, kannte Namen, fragte nach Familien.
-        Das ist die Zwei auf ihrer gesellschaftlichen B\xfchne:
+        Darin zeigt sich die Zwei auf ihrer gesellschaftlichen B\xfchne:
         aufrichtige W\xe4rme als erlernte, perfektionierte Praxis.</p>
         <p class="vb-intro"><strong>b) Ordnungsliebend und selbstzufrieden:</strong>
         <strong>Gacy</strong> pr\xe4sentierte sich als erfolgreichen, geordneten Mann \u2013
@@ -2371,7 +2406,7 @@ export function johnWayneGacyPortraitPage() {
         <strong>Gacy</strong> sah sich als bedeutenden Menschen, dem Unrecht geschah.
         Sein letzter Satz vor der Hinrichtung (1994)
         war eine Klage, kein Gest\xe4ndnis.
-        Das ist das Zweier-Privileg in seiner extremsten Form:
+        Hier wirkt das Zweier-Privileg in seiner extremsten Form:
         das Gef\xfchl, durch das eigene Geben unantastbar zu sein \u2013
         selbst angesichts von 33 Morden.</p>
       </div>
@@ -2405,7 +2440,7 @@ export function johnWayneGacyPortraitPage() {
         <p class="vb-intro"><strong>a) Einladend und kontrolliert:</strong>
         Gacys Energie war einladend \u2013 er zog Menschen an,
         schuf Atmosph\xe4re, erzeugte das Gef\xfchl von Zugeh\xf6rigkeit.
-        Das ist die Zwei im Dreierfl\xfcgel als soziale Maschine:
+        Hier zeigt sich die Zwei im Dreierfl\xfcgel als soziale Maschine:
         pr\xe4zise kalibriert auf die W\xfcnsche der Umgebung.</p>
         <p class="vb-intro"><strong>b) Ohne echte Gegenleistung:</strong>
         Hinter der W\xe4rme stand kein echtes Interesse am Anderen \u2013
@@ -2466,7 +2501,7 @@ export function johnWayneGacyPortraitPage() {
         Bei Gacy war dieser Anspruch absolut:
         Er glaubte, durch seinen gesellschaftlichen Einsatz
         ein Recht auf Straflosigkeit erworben zu haben.
-        Das ist der Zwei-Stolz in seiner m\xf6rderischen Konsequenz.</p>
+        Darin zeigt sich der Zwei-Stolz in seiner m\xf6rderischen Konsequenz.</p>
         <p class="vb-intro"><strong>b) Der Dreierfl\xfcgel als Tarnung:</strong>
         Kein anderer Fl\xfcgel h\xe4tte diese Tarnung so perfekt erm\xf6glicht.
         Der Dreierfl\xfcgel gibt der Zwei die F\xe4higkeit,
@@ -2515,6 +2550,8 @@ export function johnWayneGacyPortraitPage() {
         {route:"kriminalpsychologie-anna-delvey", label:"Kriminalpsychologie: Anna Delvey"},
         {route:"kriminalpsychologie-buster-murdaugh", label:"Kriminalpsychologie: Buster Murdaugh"},
         {route:"kriminalpsychologie-juana-barraza", label:"Kriminalpsychologie: Juana Barraza (SE2w3) – gleicher Subtyp, Kostüm-Identität als Tarnung"},
+        {route:"kriminalpsychologie-cedric-maake", label:"Cedric Maake (SO2w3) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-jim-jones", label:"Jim Jones (SO2w3) – Kriminalpsychologie"},
       ])}
     </div>
   `);
@@ -2595,6 +2632,8 @@ export function leslieVanHoutenPortraitPage() {
           {route:"kriminalpsychologie-charles-manson", label:"Kriminalpsychologie: Charles Manson (SX6w7)"},
           {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Kriminalpsychologie: Wolfgang Beltracchi (SX9w1)"},
           {route:"kriminalpsychologie-armin-meiwes", label:"Kriminalpsychologie: Armin Meiwes (SX6w5)"},
+          {route:"kriminalpsychologie-alfons-schuhbeck", label:"Alfons Schuhbeck (SE9w1) – Kriminalpsychologie"},
+          {route:"kriminalpsychologie-nick-leeson", label:"Nick Leeson (SO9w8) – Kriminalpsychologie"},
         ])}
       </div>
     </div>
@@ -2727,7 +2766,7 @@ export function michailPopkowPortraitPage() {
         Zugeh\u00f6rigkeit zur Ordnung, zur Staatsmacht, zur Seite
         des Gesetzes. In der postsowjetischen Gesellschaft Sibiriens
         war der Milizion\u00e4r eine Respektsperson. Die Eins in Uniform
-        ist die Eins in ihrer sozial akzeptiertesten Form.</p>
+        zeigt die Eins in ihrer sozial akzeptiertesten Form.</p>
         <p class="vb-intro"><strong>b) Pflichtbewusster Kollege:</strong>
         In seiner Dienststelle galt <strong>Popkow</strong> als ordentlich und
         pflichtbewusst. Keine auff\u00e4lligen Ausbr\u00fcche, keine
@@ -2764,7 +2803,7 @@ export function michailPopkowPortraitPage() {
         <p class="vb-intro"><strong>c) Kein Reue-Impuls, keine Integration:</strong>
         <strong>Popkow</strong> zeigte in Verh\u00f6ren keine echte Reue.
         Er erkl\u00e4rte seine Taten als konsequente Umsetzung
-        eines inneren Prinzips. Das ist die Eins in der
+        eines inneren Prinzips. Hier wirkt die Eins in der
         tiefsten Stufe der Desintegration: Der Zorn hat
         sich vollst\u00e4ndig mit einer \u00dcberzeugung verb\u00fcndet
         und ist damit aus dem Bereich der moralischen
@@ -2861,7 +2900,7 @@ export function michailPopkowPortraitPage() {
         einer stabilen \u00dcberzeugung. Je gefestigter die moralische
         Rahmung, desto l\u00e4nger h\u00e4lt das Verhalten an.
         Bei <strong>Popkow</strong> blieb die ideologische Grundlage
-        konstant \u2013 und damit auch die Taten. Das ist die Eins
+        konstant \u2013 und damit auch die Taten. Hier zeigt sich die Eins
         in ihrer beharrlichsten Auspr\u00e4gung: Solange das
         Prinzip gilt, gilt auch die Konsequenz.</p>
         <p class="vb-intro"><strong>f) Kein Wachstumsweg \u2013 totale Desintegration:</strong>
@@ -2891,6 +2930,8 @@ export function michailPopkowPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-andrei-tschikatilo", label:"Kriminalpsychologie: Andrei Tschikatilo"},
         {route:"kriminalpsychologie-dennis-rader", label:"Kriminalpsychologie: Dennis Rader"},
+        {route:"kriminalpsychologie-dennis-nilsen", label:"Dennis Nilsen (SE1w2) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-josef-fritzl", label:"Josef Fritzl (SX1w9) – Kriminalpsychologie"},
         {route:"blickqualitaet", label:"Blickqualit\u00e4t der 9 Typen"},
       ])}
     </div>
@@ -2984,7 +3025,8 @@ export function osamaBinLadenPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-jack-unterweger", label:"Kriminalpsychologie: Jack Unterweger (SO2w1) \u2013 Der Dichter und der Tod"},
         {route:"kriminalpsychologie-jim-jones", label:"Kriminalpsychologie: Jim Jones (SO2w3) \u2013 Massenmord in Jonestown"},
-        {route:"kriminalpsychologie-anders-breivik", label:"Kriminalpsychologie: Anders Breivik (SX6w5) \u2013 Vergleich: Terror aus Angst vs. Terror aus Stolz"}
+        {route:"kriminalpsychologie-anders-breivik", label:"Kriminalpsychologie: Anders Breivik (SX6w5) \u2013 Vergleich: Terror aus Angst vs. Terror aus Stolz"},
+        {route:"kriminalpsychologie-angel-resendez", label:"\u00c1ngel Res\u00e9ndez (SE2w1) – Kriminalpsychologie"},
       ])}
       <div style="margin-top:1.5rem;max-width:100%;">
         <button class="ghost-link" data-route="kriminalpsychologie">\u2190 Zur\xfcck zur Kriminalpsychologie-\xdcbersicht</button>
@@ -3165,6 +3207,9 @@ export function paulBernardoPortraitPage() {
         {route:"kriminalpsychologie-gary-ridgway", label:"Kriminalpsychologie: Gary Ridgway (SX1w2)"},
         {route:"kriminalpsychologie-fritz-haarmann", label:"Kriminalpsychologie: Fritz Haarmann (SX1w9)"},
         {route:"kriminalpsychologie-otto-muehl", label:"Kriminalpsychologie: Otto M\u00fchl (SX1w2)"},
+        {route:"kriminalpsychologie-bryan-kohberger", label:"Bryan Kohberger (SX1w2) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-gennadi-mikhasevich", label:"Gennadi Mikhasevich (SX1w2) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-mary-ann-cotton", label:"Mary Ann Cotton (SX1w2) – Kriminalpsychologie"},
       ])}
     </div>
   `);
@@ -3391,6 +3436,10 @@ export function peterSutcliffePortraitPage() {
         {route:"kriminalpsychologie-harvey-weinstein", label:"Kriminalpsychologie: Harvey Weinstein (SE2w1) \u2013 ebenfalls Flusspferd"},
         {route:"kriminalpsychologie-andrei-tschikatilo", label:"Kriminalpsychologie: Andrei Tschikatilo (SE1w9) \u2013 \u00e4hnliche T\u00e4terstruktur"},
         {route:"kriminalpsychologie-dennis-rader", label:"Kriminalpsychologie: Dennis Rader (SE1w9) \u2013 moralische Selbstrechtfertigung"},
+        {route:"kriminalpsychologie-angel-resendez", label:"\u00c1ngel Res\u00e9ndez (SE2w1) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-jeanne-weber", label:"Jeanne Weber (SE2w1) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-juana-barraza", label:"Juana Barraza (SE2w3) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-tommy-lynn-sells", label:"Tommy Lynn Sells (SE2w1) – Kriminalpsychologie"},
       ])}
     </div>
   `);
@@ -3486,7 +3535,7 @@ export function rujaIgnatovaPortraitPage() {
         <p class="vb-intro"><strong>b) Anpassungsf\xe4higkeit als \xdcberlebensstrategie:</strong>
         Als der Druck gr\xf6\xdfer wurde, verschwand Ignatova \u2013 ein radikaler
         Identit\xe4tswechsel. Diese F\xe4higkeit, das eigene Bild vollst\xe4ndig
-        zu wechseln, ist die Drei in ihrer extremsten Auspr\xe4gung:
+        zu wechseln, zeigt die Drei in ihrer extremsten Auspr\xe4gung:
         kein fester Kern, sondern reine Anpassung.</p>
         <p class="vb-intro"><strong>c) Materielle Sicherung als tiefstes Motiv:</strong>
         Hinter der Vision\xe4rin stand eine SE3-Grundmotivation: Akkumulation
@@ -3526,7 +3575,7 @@ export function rujaIgnatovaPortraitPage() {
         <p class="vb-intro"><strong>c) K\xfchl dahinter:</strong>
         Wer n\xe4her heranr\xfcckte, sp\xfcrte die K\xe4lte hinter der Ausstrahlung.
         Ignatova pflegte keine echten Beziehungen \u2013 sie pflegte Anh\xe4ngerschaften.
-        Das ist die Drei ohne Heilung: Kontakt als Funktion, nicht als Verbindung.</p>
+        Darin zeigt sich die Drei ohne Heilung: Kontakt als Funktion, nicht als Verbindung.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -3621,6 +3670,13 @@ export function rujaIgnatovaPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-pablo-escobar", label:"Kriminalpsychologie: Pablo Escobar"},
         {route:"kriminalpsychologie-luka-magnotta", label:"Kriminalpsychologie: Luka Magnotta"},
+        {route:"kriminalpsychologie-anna-delvey", label:"Anna Delvey (SE2w3) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-belle-gunness", label:"Belle Gunness (SE3w4) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-bernie-madoff", label:"Bernie Madoff (SE3w4) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-karla-homolka", label:"Karla Homolka (SE3w4) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-michael-franzese", label:"Michael Franzese (SE3w2) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-samuel-bankman-fried", label:"Samuel Bankman-Fried (SE3w4) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-sebastian-greenwood", label:"Sebastian Greenwood (SE2w3) – Kriminalpsychologie"},
         {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
       ])}
     </div>
@@ -3650,7 +3706,7 @@ export function tedBundyPortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Eins: Moral als Lebensaufgabe</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> ist in der Enneagramm-Tradition der Subtyp, der die eigenen Wertma\xdfst\xe4be nach au\xdfen tr\xe4gt. Naranjo nannte diesen Subtyp <em>Rigidity</em> \u2013 Starrheit. Die SO1 hat eine klare innere Ordnung, wie die Welt zu sein hat, und lebt diese Ordnung sichtbar. Sie ist b\xfcrgerlich korrekt, engagiert, gesellschaftlich pr\xe4sent. Sie will nicht nur selbst richtig handeln \u2013 sie will, dass die Welt nach ihren Grunds\xe4tzen funktioniert.</p>
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> ist in der Enneagramm-Tradition der Subtyp, der die eigenen Wertma\xdfst\xe4be nach au\xdfen tr\xe4gt. Diesen Subtyp nannte Naranjo <em>Rigidity</em> \u2013 Starrheit. Die SO1 hat eine klare innere Ordnung, wie die Welt zu sein hat, und lebt diese Ordnung sichtbar. Sie ist b\xfcrgerlich korrekt, engagiert, gesellschaftlich pr\xe4sent. Sie will nicht nur selbst richtig handeln \u2013 sie will, dass die Welt nach ihren Grunds\xe4tzen funktioniert.</p>
           <p class="vb-intro">Ted Bundy war Jurastudent, Mitarbeiter einer Krisenhotline, Aktivist der Republikanischen Partei. Er las Kindern vor. Man traute ihm eine gl\u00e4nzende Karriere zu. Das war keine Verkleidung im Sinne der Drei, kein Image-Management. Das war sein aufrichtiges Selbstbild: <em>Ich bin ein guter Mensch. Ich bin richtig.</em> Die SO1 glaubt ihr eigenes Narrativ \u2013 darin liegt ihre besondere Gef\xe4hrlichkeit.</p>
         </blockquote>
 
@@ -3728,6 +3784,18 @@ export function tedBundyPortraitPage() {
           {route:"kriminalpsychologie-dieter-zlof", label:"Kriminalpsychologie: Dieter Zlof (SO1w9) – dieselbe Selbstgerechtigkeit, andere Bahn"},
           {route:"kriminalpsychologie-dennis-rader", label:"Kriminalpsychologie: Dennis Rader (SE1w9)"},
           {route:"kriminalpsychologie-armin-meiwes", label:"Kriminalpsychologie: Armin Meiwes (SX6w5)"},
+          {route:"kriminalpsychologie-adolf-hitler", label:"Adolf Hitler (SX4w3) – Kriminalpsychologie"},
+          {route:"kriminalpsychologie-alex-murdaugh", label:"Alex Murdaugh (SX1w2) – Kriminalpsychologie"},
+          {route:"kriminalpsychologie-andrei-tschikatilo", label:"Andrei Tschikatilo (SE1w9) – Kriminalpsychologie"},
+          {route:"kriminalpsychologie-andrew-cunanan", label:"Andrew Cunanan (SO3w4) – Kriminalpsychologie"},
+          {route:"kriminalpsychologie-diane-downs", label:"Diane Downs (SX3w4) – Kriminalpsychologie"},
+          {route:"kriminalpsychologie-harvey-weinstein", label:"Harvey Weinstein (SE2w1) – Kriminalpsychologie"},
+          {route:"kriminalpsychologie-karla-homolka", label:"Karla Homolka (SE3w4) – Kriminalpsychologie"},
+          {route:"kriminalpsychologie-niels-hoegel", label:"Niels H\xf6gel (SE7w8) – Kriminalpsychologie"},
+          {route:"kriminalpsychologie-oj-simpson", label:"O.J. Simpson (SO3w4) – Kriminalpsychologie"},
+          {route:"kriminalpsychologie-pablo-escobar", label:"Pablo Escobar (SE3w4) – Kriminalpsychologie"},
+          {route:"kriminalpsychologie-pedro-alonso-lopez", label:"Pedro Alonso L\u00f3pez (SO3w2) – Kriminalpsychologie"},
+          {route:"kriminalpsychologie-richard-ramirez", label:"Richard Ram\u00edrez (SX3w4) – Kriminalpsychologie"},
         ])}
       </div>
     </div>
@@ -3781,7 +3849,7 @@ export function ulrikeMeinhofPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
         <p class="vb-intro"><strong>a) F\xfcrsorge, die sich selbst nicht mehr erkennt:</strong> Die gesunde SE2w1 setzt sich f\xfcr andere ein, ohne sich selbst und die eigenen N\xe4chsten zu verlieren. Bei Meinhof kippte dieses Muster: Die Sorge um abstrakte, weit entfernte Opfer verdr\xe4ngte zunehmend die Sorge um die eigenen Kinder &ndash; ein Muster, das Naranjo als \xdcberschie\xdfen der Zwei ins Ideologische beschreibt.</p>
         <p class="vb-intro"><strong>b) Der Einserfl\xfcgel als Radikalisierungsmotor:</strong> Was als journalistische Gerechtigkeitssuche begann, wurde durch die moralische Unbeirrbarkeit des Einserfl\xfcgels zunehmend kompromissloser. Die selbstkritische Bremse, die eine gesunde Eins normalerweise hat, wurde bei Meinhof mit der Zeit immer schw\xe4cher.</p>
-        <p class="vb-intro"><strong>c) Von der F\xfcrsorgerin zur Symbolfigur:</strong> Innerhalb der RAF war Meinhof nicht die Kopf des bewaffneten Kampfes, sondern dessen intellektuelle Legitimation &ndash; sie lieferte die Sprache, die Texte, die moralische Begr\xfcndung. Das ist die SE2w1 in ihrer radikalsten Form: sich selbst unentbehrlich machen, indem man der Sache gibt, was sie am dringendsten braucht.</p>
+        <p class="vb-intro"><strong>c) Von der F\xfcrsorgerin zur Symbolfigur:</strong> Innerhalb der RAF war Meinhof nicht die Kopf des bewaffneten Kampfes, sondern dessen intellektuelle Legitimation &ndash; sie lieferte die Sprache, die Texte, die moralische Begr\xfcndung. Hier wirkt die SE2w1 in ihrer radikalsten Form: sich selbst unentbehrlich machen, indem man der Sache gibt, was sie am dringendsten braucht.</p>
       </div>
 
       <div class="vb-section">
@@ -3809,6 +3877,8 @@ export function ulrikeMeinhofPortraitPage() {
           {route:"kriminalpsychologie-gudrun-ensslin", label:"Kriminalpsychologie: Gudrun Ensslin (SX7w8) – RAF-Mitgr\u00fcnderin"},
           {route:"kriminalpsychologie-charles-manson", label:"Kriminalpsychologie: Charles Manson (SX6w7)"},
           {route:"kriminalpsychologie-adolf-eichmann", label:"Kriminalpsychologie: Adolf Eichmann (SO6w5)"},
+          {route:"beruehmte-natascha-kampusch", label:"Porträt: Natascha Kampusch (SE2w1)"},
+          {route:"kriminalpsychologie-jeanne-weber", label:"Jeanne Weber (SE2w1) – Kriminalpsychologie"},
         ])}
       </div>
     </div>
@@ -4030,6 +4100,12 @@ export function wolfgangBeltracchiPortraitPage() {
         {route:"kriminalpsychologie-ed-gein", label:"Kriminalpsychologie: Ed Gein (SX9w1) – dieselbe Verschmelzungsdynamik, extrem entgleist"},
         {route:"kriminalpsychologie-niels-hoegel", label:"Kriminalpsychologie: Niels H\xf6gel"},
         {route:"kriminalpsychologie-luka-magnotta", label:"Kriminalpsychologie: Luka Magnotta"},
+        {route:"beruehmte-helge-schneider", label:"Porträt: Helge Schneider (SX9w1)"},
+        {route:"kriminalpsychologie-alfons-schuhbeck", label:"Alfons Schuhbeck (SE9w1) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-arno-funke", label:"Arno Funke (\u201eDagobert\u201c) (SE1w9) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-bernard-eugene-giles", label:"Bernard Eugene Giles (SX9w1) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-leslie-van-houten", label:"Leslie Van Houten (SO9w1) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-nick-leeson", label:"Nick Leeson (SO9w8) – Kriminalpsychologie"},
         {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
       ])}
     </div>
@@ -4220,6 +4296,7 @@ export function wernerGladowPortraitPage() {
         {route:"kriminalpsychologie-wade-wilson", label:"Kriminalpsychologie: Wade Wilson (SO3w4) – der Gerichtssaal als Bühne, ähnliches Muster"},
         {route:"kriminalpsychologie-andrew-cunanan", label:"Kriminalpsychologie: Andrew Cunanan (SO3w4) – Prestige als Lebensinhalt"},
         {route:"kriminalpsychologie-oj-simpson", label:"Kriminalpsychologie: O.J. Simpson (SO3w4)"},
+        {route:"kriminalpsychologie-dieter-zlof", label:"Dieter Zlof (SO1w9) – Kriminalpsychologie"},
         {route:"kriminalmusterkompass/so3", label:"Kriminalmusterkompass: SO3 – Gepard"},
       ])}
     </div>

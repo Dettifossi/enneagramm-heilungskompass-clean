@@ -1,4 +1,4 @@
-import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
+const { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } = window.__kh;
 
 export function aileenWuornosPortraitPage() {
   return shell(`
@@ -192,6 +192,9 @@ export function aileenWuornosPortraitPage() {
         {route:"kriminalpsychologie-niels-hoegel", label:"Kriminalpsychologie: Niels H\u00f6gel (SE7w8)"},
         {route:"kriminalpsychologie-diane-downs", label:"Kriminalpsychologie: Diane Downs (SX3w4) \u2013 Mutter als T\u00e4terin"},
         {route:"kriminalpsychologie-karla-homolka", label:"Kriminalpsychologie: Karla Homolka (SE3w4) \u2013 Frau als T\u00e4terin"},
+        {route:"kriminalpsychologie-chris-watts", label:"Chris Watts (SO7w6) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-p-diddy", label:"Sean 'P. Diddy' Combs (SX7w8) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-ronnie-biggs", label:"Ronnie Biggs (SX7w8) – Kriminalpsychologie"},
       ])}
     </div>
   `);
@@ -273,6 +276,8 @@ export function andreasBaaderPortraitPage() {
           {route:"kriminalpsychologie-charles-manson", label:"Kriminalpsychologie: Charles Manson (SX6w7)"},
           {route:"kriminalpsychologie-adolf-eichmann", label:"Kriminalpsychologie: Adolf Eichmann (SO6w5)"},
           {route:"kriminalpsychologie-arwed-imiela", label:"Kriminalpsychologie: Arwed Imiela (SE7w8)"},
+          {route:"beruehmte-dian-fossey", label:"Porträt: Dian Fossey (SE7w8)"},
+          {route:"beruehmte-oliver-hardy", label:"Porträt: Oliver Hardy (SE7w8)"},
         ])}
       </div>
     </div>
@@ -328,7 +333,7 @@ export function annaDelveyPortraitPage() {
         <p class="vb-intro"><strong>a) Charismatisch und pr\xe4senz-stark:</strong>
         <strong>Delvey</strong> wirkte auf Menschen, die ihr begegneten,
         sofort wie jemand, der geh\xf6rt. Selbstsicher, stilbewusst,
-        weltgew\xe4ndt. Das ist die Zwei mit Dreierfl\xfcgel:
+        weltgew\xe4ndt. Hier zeigt sich die Zwei mit Dreierfl\xfcgel:
         Sie wei\xdf, wie sie wirkt \u2013 und nutzt diese Wirkung.</p>
         <p class="vb-intro"><strong>b) Einnehmend ohne Offenbarung:</strong>
         <strong>Delvey</strong> gab viel vor \u2013 und wenig preis. Menschen, die sie kannten,
@@ -338,7 +343,7 @@ export function annaDelveyPortraitPage() {
         <p class="vb-intro"><strong>c) K\xfchl bei Konfrontation:</strong>
         Wenn Delvey mit Inkonsistenzen konfrontiert wurde,
         reagierte sie nicht nerv\u00f6s, sondern k\xfchl und \xfcberlegen.
-        Das ist der Dreierfl\xfcgel: er gibt der Zwei die F\xe4higkeit,
+        Darin zeigt sich der Dreierfl\xfcgel: er gibt der Zwei die F\xe4higkeit,
         auch unter Druck das Image aufrechtzuerhalten.</p>
       </div>
 
@@ -415,7 +420,7 @@ export function annaDelveyPortraitPage() {
         Delveys Energie war einladend, glamour\xf6s, vielversprechend.
         Menschen wollten in ihrer N\xe4he sein, weil sie das Gef\xfchl
         vermittelte, dass etwas Besonderes passiert.
-        Das ist die Zwei mit Dreierfl\xfcgel auf einer B\xfchne:
+        Hier wirkt die Zwei mit Dreierfl\xfcgel auf einer B\xfchne:
         zugleich W\xe4rme und Spektakel.</p>
         <p class="vb-intro"><strong>b) Kontrollierte Emotionalit\xe4t:</strong>
         Anders als der Einserfl\xfcgel, der moralisch aufgeladen wirkt,
@@ -518,6 +523,10 @@ export function annaDelveyPortraitPage() {
         {route:"kriminalpsychologie-harvey-weinstein", label:"Kriminalpsychologie: Harvey Weinstein"},
         {route:"kriminalpsychologie-jonathan-meijer", label:"Kriminalpsychologie: Jonathan Meijer"},
         {route:"kriminalpsychologie-ruja-ignatova", label:"Kriminalpsychologie: Ruja Ignatova"},
+        {route:"kriminalpsychologie-andrew-cunanan", label:"Andrew Cunanan (SO3w4) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-buster-murdaugh", label:"Buster Murdaugh (SE2w3) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-john-wayne-gacy", label:"John Wayne Gacy (SE2w3) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-sebastian-greenwood", label:"Sebastian Greenwood (SE2w3) – Kriminalpsychologie"},
       ])}
     </div>
   `);
@@ -589,7 +598,7 @@ export function bernieMadoffPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Der Viererfl\xfcgel: Tiefe im Dienst der T\xe4uschung</h3>
         <p class="vb-intro">Ohne Viererfl\xfcgel w\xe4re Madoff vielleicht ein gieriger Betr\xfcger unter vielen. Der Viererfl\xfcgel machte ihn zu etwas Eigenartigem: einem Betr\xfcger mit Stil, mit Geschmack, mit einer fast k\xfcnstlerischen Sorgfalt in der Konstruktion seiner Welt. Die Vier sucht nach Bedeutung und Tiefe \u2013 beim SE3w4er richtet sich diese Energie auf die Einzigartigkeit des eigenen Projekts.</p>
-        <p class="vb-intro">In sp\xe4teren Gespr\xe4chen zeigte Madoff eine beinahe narzisstische Faszination mit der eigenen Tat: wie pr\xe4zise das System lief, wie lange es hielt, wie viele kluge Menschen er \xfcberzeugte. Das ist der Viererfl\xfcgel: selbst in der Katastrophe noch ein Gesp\xfcr daf\xfcr, dass das, was man getan hat, <em>besonders</em> war.</p>
+        <p class="vb-intro">In sp\xe4teren Gespr\xe4chen zeigte Madoff eine beinahe narzisstische Faszination mit der eigenen Tat: wie pr\xe4zise das System lief, wie lange es hielt, wie viele kluge Menschen er \xfcberzeugte. Hier zeigt sich der Viererfl\xfcgel: selbst in der Katastrophe noch ein Gesp\xfcr daf\xfcr, dass das, was man getan hat, <em>besonders</em> war.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -601,7 +610,7 @@ export function bernieMadoffPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Psychologisches Profil</h3>
         <p class="vb-intro"><strong>a) Kein Monstrum \u2013 ein Mechanismus:</strong>
-        Madoff war kein sadistischer T\xe4ter, der das Leiden seiner Opfer genoss. Er verdr\xe4ngte es. In Interviews klang er gelegentlich ehrlich \xfcberrascht von der Intensit\xe4t des Schmerzes, den er verursacht hatte. Das ist die Dreier-Psychologie: Der Schaden am anderen dringt nicht durch die Inszenierung. Was z\xe4hlt, ist die eigene B\xfchne \u2013 nicht die Konsequenzen dahinter.</p>
+        Madoff war kein sadistischer T\xe4ter, der das Leiden seiner Opfer genoss. Er verdr\xe4ngte es. In Interviews klang er gelegentlich ehrlich \xfcberrascht von der Intensit\xe4t des Schmerzes, den er verursacht hatte. Darin zeigt sich die Dreier-Psychologie: Der Schaden am anderen dringt nicht durch die Inszenierung. Was z\xe4hlt, ist die eigene B\xfchne \u2013 nicht die Konsequenzen dahinter.</p>
         <p class="vb-intro"><strong>b) Die S\xf6hne als tragischer Spiegel:</strong>
         Dass Madoffs eigene S\xf6hne ihn anzeigten, ist das tiefste Symbol des Falls. Die SE3 baut ihr Nest \u2013 Familie, Firma, Ansehen \u2013 und zerst\xf6rt es durch denselben Mechanismus, der es aufgebaut hat. Die S\xf6hne glaubten an den Vater. Als die Wahrheit herauskam, war der Vater pl\xf6tzlich weg \u2013 was blieb, war nicht mehr tragf\xe4hig. Mark Madoff nahm sich das Leben am zweiten Jahrestag der Verhaftung seines Vaters.</p>
         <p class="vb-intro"><strong>c) Kein Vergleich mit anderen Betr\xfcgern:</strong>
@@ -634,7 +643,9 @@ export function bernieMadoffPortraitPage() {
         {route:"kriminalpsychologie-samuel-bankman-fried", label:"Kriminalpsychologie: Samuel Bankman-Fried (SE3w4) \u2013 FTX-Betrug"},
         {route:"kriminalpsychologie-ruja-ignatova", label:"Kriminalpsychologie: Ruja Ignatova (SE3w4) \u2013 Die Cryptoqueen"},
         {route:"kriminalpsychologie-frank-abagnale-jr", label:"Kriminalpsychologie: Frank Abagnale Jr. (SO7w6) \u2013 Der Hochstapler"},
-        {route:"krankheitsportraets-bernie-madoff", label:"Krankheitsportr\u00e4t: Bernie Madoff (SE3w4) \u2013 Nierenerkrankung im Gef\u00e4ngnis"}
+        {route:"krankheitsportraets-bernie-madoff", label:"Krankheitsportr\u00e4t: Bernie Madoff (SE3w4) \u2013 Nierenerkrankung im Gef\u00e4ngnis"},
+        {route:"kriminalpsychologie-gert-postel", label:"Gert Postel (SX8w9) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-henri-landru", label:"Henri Désiré Landru (SE3w4) – Kriminalpsychologie"},
       ])}
       <div style="margin-top:1.5rem;max-width:100%;">
         <button class="ghost-link" data-route="kriminalpsychologie">\u2190 Zur\xfcck zur Kriminalpsychologie-\xdcbersicht</button>
@@ -732,6 +743,10 @@ export function charlesMansonPortraitPage() {
           {route:"kriminalpsychologie-armin-meiwes", label:"Kriminalpsychologie: Armin Meiwes (SX6w5)"},
           {route:"kriminalpsychologie-leslie-van-houten", label:"Kriminalpsychologie: Leslie Van Houten (SO9w1)"},
           {route:"krankheitsportraets-charles-manson", label:"Krankheitsporträt: Charles Manson (SX6w7) – Darmkrebs im Gefängnis"},
+          {route:"kriminalpsychologie-adolf-eichmann", label:"Adolf Eichmann (SO6w5) – Kriminalpsychologie"},
+          {route:"kriminalpsychologie-andreas-baader", label:"Andreas Baader (SE7w8) – Kriminalpsychologie"},
+          {route:"kriminalpsychologie-gudrun-ensslin", label:"Gudrun Ensslin (SX7w8) – Kriminalpsychologie"},
+          {route:"kriminalpsychologie-ulrike-meinhof", label:"Ulrike Meinhof (SE2w1) – Kriminalpsychologie"},
         ])}
       </div>
     </div>
@@ -933,6 +948,8 @@ export function dennisNilsenPortraitPage() {
         {route:"kriminalpsychologie-michail-popkow", label:"Kriminalpsychologie: Michail Popkow (SE1w9)"},
         {route:"kriminalpsychologie-jeffrey-dahmer", label:"Kriminalpsychologie: Jeffrey Dahmer (SX5w4) \u2013 \u00e4hnliches Tatmuster"},
         {route:"kriminalpsychologie-fritz-haarmann", label:"Kriminalpsychologie: Fritz Haarmann (SX1w9)"},
+        {route:"kriminalpsychologie-dorothea-puente", label:"Dorothea Puente (SE1w2) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-fritz-honka", label:"Fritz Honka (SE5w6) – Kriminalpsychologie"},
       ])}
     </div>
   `);
@@ -1150,6 +1167,7 @@ export function edGeinPortraitPage() {
         {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Kriminalpsychologie: Wolfgang Beltracchi (SX9w1) – Kunstfälscher"},
         {route:"kriminalpsychologie-alfons-schuhbeck", label:"Kriminalpsychologie: Alfons Schuhbeck (SE9w1)"},
         {route:"kriminalpsychologie-bernard-eugene-giles", label:"Kriminalpsychologie: Bernard Eugene Giles (SX9w1) – gleicher Subtyp"},
+        {route:"kriminalpsychologie-john-hinckley-jr", label:"John Hinckley Jr. (SE9w8) – Kriminalpsychologie"},
         {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
       ])}
       <div style="margin-top:1.5rem;max-width:100%;">
@@ -1411,14 +1429,14 @@ export function garyRidgwayPortraitPage() {
         Er war freundlich, entspannt, nicht bedrohlich wirkend.
         Er konnte sich in die Erwartungen seiner Opfer einf\u00fcgen:
         ein Mann, der zahlt, der h\u00f6flich ist, der kein Risiko zu sein scheint.
-        Frauen stiegen freiwillig in sein Auto. Das ist der Zweierfl\u00fcgel in seiner dunkelsten Funktion:
+        Frauen stiegen freiwillig in sein Auto. Hier wirkt der Zweierfl\u00fcgel in seiner dunkelsten Funktion:
         Hilfsbereitschaft und W\u00e4rme als Tarnung f\u00fcr das, was darunter liegt.</p>
         <p class="vb-intro"><strong>c) Die Fassade des Normalen:</strong>
         Ridgway besuchte regelm\u00e4\u00dfig den Gottesdienst, las die Bibel,
         sprach mit Kollegen \u00fcber den Glauben. Er heiratete dreimal.
         Sein dritter Ehe dauerte fast drei\u00dfig Jahre \u2013 die gesamte Zeit seiner aktivsten Mordserie.
         Sein Sohn wusste nichts. Seine Frau wusste nichts.
-        Das ist das SX1-Muster: Nach innen totale Kontrolle \u00fcber eine intime Sph\u00e4re \u2013
+        Hier zeigt sich das SX1-Muster: Nach innen totale Kontrolle \u00fcber eine intime Sph\u00e4re \u2013
         nach au\u00dfen totale Anpassung an die Erwartungen der Gemeinschaft.</p>
       </div>
 
@@ -1449,7 +1467,7 @@ export function garyRidgwayPortraitPage() {
         Er brachte dort manchmal Zigarettenstummel und Gegenst\u00e4nde anderer M\u00e4nner aus,
         um die Ermittlungen zu verwirren. Er kannte die Ermittlungsmethoden
         aus Medienberichten und passte sein Verhalten gezielt an.
-        Das ist die SX1-Intelligenz in ihrer dunkelsten Form:
+        Darin zeigt sich die SX1-Intelligenz in ihrer dunkelsten Form:
         Ordnung, Planung, Systemdenken \u2013 im Dienst der Vernichtung.</p>
         <p class="vb-intro"><strong>d) Fast zwanzig Jahre unentdeckt:</strong>
         Ridgway war bereits 1983, 1984 und 1987 von der Polizei befragt worden \u2013
@@ -1471,7 +1489,7 @@ export function garyRidgwayPortraitPage() {
         einem Impuls, der st\u00e4rker war als sein Wille, st\u00e4rker als sein Glaube, st\u00e4rker als seine Vernunft.
         Er betete. Er las die Bibel. Er versuchte, ein guter Mann zu sein.
         Und er t\u00f6tete weiter.
-        Das ist der Vierer-Stresspunkt der Eins in seiner dunkelsten Form:
+        Hier wirkt der Vierer-Stresspunkt der Eins in seiner dunkelsten Form:
         Das Wissen, dass man b\u00f6se ist, ohne es stoppen zu k\u00f6nnen \u2013
         und die Entscheidung, es nach au\u00dfen hin trotzdem perfekt zu verbergen.
         </p>
@@ -1498,7 +1516,7 @@ export function garyRidgwayPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
         <p class="vb-intro">
         Gary Ridgway ist kein R\u00e4tsel f\u00fcr das Enneagramm.
-        Er ist die sexuelle Eins in ihrer absolutesten Dekonstruktion:
+        Er zeigt die sexuelle Eins in ihrer absolutesten Dekonstruktion:
         ein Mensch, der Reinheit wollte und sich von dem anzog, was er als unrein empfand.
         Der Zweierfl\u00fcgel gab ihm die soziale Kompetenz, die er brauchte, um jahrzehntelang
         als normaler B\u00fcrger zu leben. Der Vierer-Stresspunkt lieferte den inneren Aufruhr,
@@ -1540,6 +1558,11 @@ export function garyRidgwayPortraitPage() {
         {route:"kriminalpsychologie-fritz-haarmann", label:"Kriminalpsychologie: Fritz Haarmann (SX1w9)"},
         {route:"kriminalpsychologie-dennis-rader", label:"Kriminalpsychologie: Dennis Rader (SE1w9)"},
         {route:"kriminalpsychologie-james-dusty-rhodes", label:"Kriminalpsychologie: James ›Dusty‹ Rhodes (SX1w9) – anderer Flügel"},
+        {route:"kriminalpsychologie-bryan-kohberger", label:"Bryan Kohberger (SX1w2) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-gennadi-mikhasevich", label:"Gennadi Mikhasevich (SX1w2) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-mary-ann-cotton", label:"Mary Ann Cotton (SX1w2) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-paul-bernardo", label:"Paul Bernardo (SX1w2) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-rex-heuermann", label:"Rex Heuermann (SE8w9) – Kriminalpsychologie"},
       ])}
     </div>
   `);
@@ -1726,6 +1749,10 @@ export function haroldShipmanPortraitPage() {
         {route:"kriminalpsychologie-joachim-kroll", label:"Kriminalpsychologie: Joachim Kroll (SE5w6)"},
         {route:"kriminalpsychologie-jeffrey-dahmer", label:"Kriminalpsychologie: Jeffrey Dahmer (SX5w4)"},
         {route:"kriminalpsychologie-niels-hoegel", label:"Kriminalpsychologie: Niels H\u00f6gel (SE2w1) \u2013 Krankenpfleger, Serienm\u00f6rder"},
+        {route:"kriminalpsychologie-adolf-eichmann", label:"Adolf Eichmann (SO6w5) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-dorothea-puente", label:"Dorothea Puente (SE1w2) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-joel-rifkin", label:"Joel Rifkin (SX5w6) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-ted-kaczynski", label:"Dr. Ted Kaczynski (SO5w4) – Kriminalpsychologie"},
       ])}
     </div>
   `);
@@ -1933,7 +1960,9 @@ export function jackUnterweegerPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-jim-jones", label:"Kriminalpsychologie: Jim Jones (SO2w3) \u2013 Sektenf\u00fchrer"},
         {route:"kriminalpsychologie-osama-bin-laden", label:"Kriminalpsychologie: Osama bin Laden (SO2w1) \u2013 al-Qaida"},
-        {route:"kriminalpsychologie-harvey-weinstein", label:"Kriminalpsychologie: Harvey Weinstein (SE2w1)"}
+        {route:"kriminalpsychologie-harvey-weinstein", label:"Kriminalpsychologie: Harvey Weinstein (SE2w1)"},
+        {route:"kriminalpsychologie-angel-resendez", label:"\u00c1ngel Res\u00e9ndez (SE2w1) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-cedric-maake", label:"Cedric Maake (SO2w3) – Kriminalpsychologie"},
       ])}
     </div>
   `);
@@ -2133,6 +2162,10 @@ export function jimJonesPortraitPage() {
         {route:"kriminalpsychologie-john-wayne-gacy", label:"Kriminalpsychologie: John Wayne Gacy (SE2w3)"},
         {route:"kriminalpsychologie-rudolf-pleil", label:"Kriminalpsychologie: Rudolf Pleil (SE2w3)"},
         {route:"kriminalpsychologie-harvey-weinstein", label:"Kriminalpsychologie: Harvey Weinstein (SE2w1)"},
+        {route:"kriminalpsychologie-cedric-maake", label:"Cedric Maake (SO2w3) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-jack-unterweger", label:"Jack Unterweger (SO2w1) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-osama-bin-laden", label:"Osama bin Laden (SO2w1) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-pamela-smart", label:"Pamela Smart (SX2w3) – Kriminalpsychologie"},
       ])}
     </div>
   `);
@@ -2456,7 +2489,7 @@ export function jonathanMeijerPortraitPage() {
         <p class="vb-intro"><strong>b) Uneinsichtig trotz Konsequenzen:</strong>
         Selbst nach mehreren Gerichtsurteilen, nach internationaler
         Berichterstattung und nach dem Schmerz vieler Betroffener
-        zeigte Meijer wenig echte Einsicht. Das ist die Zwei
+        zeigte Meijer wenig echte Einsicht. Hier zeigt sich die Zwei
         im Stolz: Kritik wird als Missverst\xe4ndnis erlebt,
         nicht als berechtigter Einwand.</p>
         <p class="vb-intro"><strong>c) Gro\xdfes Vergehen, kleines Bewusstsein:</strong>
@@ -2594,6 +2627,8 @@ export function jonathanMeijerPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-harvey-weinstein", label:"Kriminalpsychologie: Harvey Weinstein"},
         {route:"kriminalpsychologie-jeffrey-epstein", label:"Kriminalpsychologie: Jeffrey Epstein"},
+        {route:"kriminalpsychologie-anna-delvey", label:"Anna Delvey (SE2w3) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-buster-murdaugh", label:"Buster Murdaugh (SE2w3) – Kriminalpsychologie"},
         {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
       ])}
     </div>
@@ -2810,6 +2845,13 @@ export function lukaMagnottaPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-pablo-escobar", label:"Kriminalpsychologie: Pablo Escobar"},
         {route:"kriminalpsychologie-adolf-hitler", label:"Kriminalpsychologie: Adolf Hitler"},
+        {route:"kriminalpsychologie-diane-downs", label:"Diane Downs (SX3w4) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-jeffrey-dahmer", label:"Jeffrey Dahmer (SX5w4) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-richard-ramirez", label:"Richard Ram\u00edrez (SX3w4) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-ruja-ignatova", label:"Ruja Ignatova (SE3w4) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-susan-wright", label:"Susan Wright (SX3w2) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-wade-wilson", label:"Wade Wilson (SO3w4) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Wolfgang Beltracchi (SX9w1) – Kriminalpsychologie"},
         {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
       ])}
     </div>
@@ -2832,7 +2874,7 @@ export function nickLeesonPortraitPage() {
 
         <h2 class="vb-section">1. Der B\xfcffel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>B\xfcffel</strong> ist das Tier der sozialen Neun &ndash; und kein Bild trifft Nick Leeson genauer. Der B\xfcffel ist ein Herdentier. Er braucht die Gruppe, er lebt f\xfcr die Gruppe, er definiert sich \xfcber die Zugeh\xf6rigkeit zur Herde. Er ist geduldig, ausdauernd, anpassungsf\xe4hig. Er zieht nicht die Aufmerksamkeit auf sich. Er l\xe4sst sich einspannen &ndash; und tr\xe4gt die Last, ohne zu klagen. Aber wenn er gedr\xe4ngt wird, wenn kein Ausweg bleibt, dann st\xfcrmt er. Nicht aus Bosheit. Aus reiner, akkumulierter Energie.</p>
+          <p class="vb-intro">Der <strong>B\xfcffel</strong> ist die tierische Entsprechung der sozialen Neun &ndash; und kein Bild trifft Nick Leeson genauer. Der B\xfcffel ist ein Herdentier. Er braucht die Gruppe, er lebt f\xfcr die Gruppe, er definiert sich \xfcber die Zugeh\xf6rigkeit zur Herde. Er ist geduldig, ausdauernd, anpassungsf\xe4hig. Er zieht nicht die Aufmerksamkeit auf sich. Er l\xe4sst sich einspannen &ndash; und tr\xe4gt die Last, ohne zu klagen. Aber wenn er gedr\xe4ngt wird, wenn kein Ausweg bleibt, dann st\xfcrmt er. Nicht aus Bosheit. Aus reiner, akkumulierter Energie.</p>
           <p class="vb-intro">Nick Leeson war ein B\xfcffel. Er wollte nichts weiter, als dazugeh\xf6ren: zur Bank, zum Team, zur Institution Barings. Er trug die Last der verborgenen Verluste schweigend &ndash; Jahre lang. Er stampfte nicht warnend auf. Er brach erst dann zusammen, als die Last physisch untragbar geworden war. Und er riss die \xe4lteste Merchant Bank Englands mit sich.</p>
         </blockquote>
 
@@ -2858,7 +2900,7 @@ export function nickLeesonPortraitPage() {
         <h2 class="vb-section">5. Das Konto 88888: Das Versteck der Tr\xe4gheit</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">1992 er\xf6ffnet Leeson in Singapur ein internes Fehlerkonto &ndash; die Nummer 88888, in der chinesischen Kultur eine Gl\xfccksahl. Urspr\xfcnglich gedacht f\xfcr kleinere administrative Fehler. Bald wird es zum Versteck f\xfcr seine eigenen Handelsverluste. Leeson \xfcberweist Verluste auf dieses Konto und zeigt der Londoner Zentrale nur die Gewinne. Er lebte in zwei Welten: der offiziellen Welt, in der er ein Stern war, und der verborgenen Welt des Kontos, das wuchs und wuchs.</p>
-          <p class="vb-intro">Das ist die SO9-Mechanik auf der institutionellen Ebene: <em>das Bild aufrechterhalten, das die Gemeinschaft braucht</em>. Die Bank brauchte Gewinne. Er lieferte Gewinne. Was hinter der Fassade lag, durfte die Gemeinschaft nicht sehen &ndash; denn dann w\xe4re er nicht mehr einer von ihnen. Das Konto 88888 war nicht der Plan eines Betr\xfcgers. Es war das Versteck eines Mannes, der um jeden Preis dazugeh\xf6ren wollte.</p>
+          <p class="vb-intro">Darin zeigt sich die SO9-Mechanik auf der institutionellen Ebene: <em>das Bild aufrechterhalten, das die Gemeinschaft braucht</em>. Die Bank brauchte Gewinne. Er lieferte Gewinne. Was hinter der Fassade lag, durfte die Gemeinschaft nicht sehen &ndash; denn dann w\xe4re er nicht mehr einer von ihnen. Das Konto 88888 war nicht der Plan eines Betr\xfcgers. Es war das Versteck eines Mannes, der um jeden Preis dazugeh\xf6ren wollte.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Das Erdbeben als Wendepunkt</h2>
@@ -2914,6 +2956,7 @@ export function nickLeesonPortraitPage() {
         ${relatedLinks([
           {route:"kriminalpsychologie-leslie-van-houten", label:"Kriminalpsychologie: Leslie Van Houten (SO9w1)"},
           {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Kriminalpsychologie: Wolfgang Beltracchi (SX9w1)"},
+          {route:"kriminalpsychologie-alfons-schuhbeck", label:"Alfons Schuhbeck (SE9w1) – Kriminalpsychologie"},
           {route:"subtypen-schaubilder", label:"Schaubild: Die 27 Subtypen im \xdcberblick"},
         ])}
       </div>
@@ -2989,7 +3032,7 @@ export function ottoMuehlPortraitPage() {
         Zeitzeugen beschreiben Mühls Blick als intensiv, prüfend,
         kaum auszuhalten – einen Blick, der sofort bewertete,
         ob man „echt" war oder noch in „bürgerlicher Verklemmung"
-        gefangen. Das ist die SX1-Intensität: kein distanziertes
+        gefangen. Hier wirkt die SX1-Intensität: kein distanziertes
         Prüfen wie bei anderen Einser-Subtypen, sondern ein
         unmittelbares, fast körperliches Einfordern von Wahrhaftigkeit –
         nach seinen eigenen Maßstäben.</p>
@@ -3013,7 +3056,7 @@ export function ottoMuehlPortraitPage() {
         <p class="vb-intro"><strong>a) Der Reformer als Selbstermächtigung:</strong>
         Mühl positionierte sich als Befreier von bürgerlicher
         Sexualmoral und Verklemmtheit – eine Mission, die er
-        mit missionarischem Eifer verfolgte. Das ist die Eins
+        mit missionarischem Eifer verfolgte. Hier zeigt sich die Eins
         in ihrer sozial-ideologischen Form: Die eigene Überzeugung
         wird zur universellen Wahrheit erhoben, deren Durchsetzung
         jedes Mittel rechtfertigt.</p>
@@ -3353,7 +3396,7 @@ export function paulOgorzowPortraitPage() {
         zu schauen, und sein Name fiel,
         brach das System sofort zusammen:
         Er gestand noch in derselben Nacht.
-        Das ist die SE1 ohne ihre Schutzstruktur \u2013
+        Darin zeigt sich die SE1 ohne ihre Schutzstruktur \u2013
         sie h\u00e4lt nicht stand.</p>
       </div>
 
@@ -3555,6 +3598,7 @@ export function paulOgorzowPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-heinrich-pommerenke", label:"Kriminalpsychologie: Heinrich Pommerenke"},
         {route:"kriminalpsychologie-anders-breivik", label:"Kriminalpsychologie: Anders Breivik"},
+        {route:"kriminalpsychologie-beate-zschaepe", label:"Beate Zsch\u00e4pe (SE1w9) – Kriminalpsychologie"},
         {route:"blickqualitaet", label:"Blickqualit\u00e4t der 9 Typen"},
       ])}
     </div>
@@ -3755,6 +3799,8 @@ export function richardRamirezPortraitPage() {
         {route:"kriminalpsychologie-luka-magnotta", label:"Kriminalpsychologie: Luka Magnotta (SX3w4)"},
         {route:"kriminalpsychologie-pedro-alonso-lopez", label:"Kriminalpsychologie: Pedro Alonso L\u00f3pez (SO3w2)"},
         {route:"krankheitsportraets-richard-ramirez", label:"Krankheitsportr\u00e4t: Richard Ram\u00edrez (SX3w4) \u2013 B-Zell-Lymphom"},
+        {route:"kriminalpsychologie-diane-downs", label:"Diane Downs (SX3w4) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-susan-wright", label:"Susan Wright (SX3w2) – Kriminalpsychologie"},
       ])}
     </div>
   `);
@@ -3806,7 +3852,7 @@ export function salvatoreRiinaPortraitPage() {
         Zeitzeugen beschrieben Riinas Blick als still und durchdringend \u2013
         kein Rasen, keine Hektik, aber eine Intensit\xe4t, die den Gegen\xfcber
         einsch\xfcchterte, ohne dass Riina die Stimme h\xe4tte heben m\xfcssen.
-        Das ist der Achter-Blick mit Neunerfl\xfcgel: ruhig nach au\xdfen,
+        Hier wirkt der Achter-Blick mit Neunerfl\xfcgel: ruhig nach au\xdfen,
         aber mit einer Tiefe, die signalisiert: Hier ist jemand, der alles sieht.</p>
         <p class="vb-intro"><strong>b) Abwartend und kalkulierend:</strong>
         <strong>Riina</strong> beobachtete mehr als er sprach. Der Neunerfl\xfcgel verst\xe4rkt
@@ -3834,7 +3880,7 @@ export function salvatoreRiinaPortraitPage() {
         echte Vertraute und den Rest.</p>
         <p class="vb-intro"><strong>c) Kompromisslose Eskalation bei Bedrohung:</strong>
         Als Riina die rivalisierende Mafia-F\xfchrung als Bedrohung einstufte,
-        eskalierte er ohne Z\xf6gern in die totale Vernichtung. Das ist die SE8
+        eskalierte er ohne Z\xf6gern in die totale Vernichtung. Hier zeigt sich die SE8
         unter existenziellem Druck: kein Verhandeln, kein halbes Ma\xdf \u2013
         sondern die vollst\xe4ndige Ausl\xf6schung der Bedrohungsquelle.</p>
       </div>
@@ -3852,7 +3898,7 @@ export function salvatoreRiinaPortraitPage() {
         Der Neunerfl\xfcgel gab Riina eine Geduld, die bei einer Acht
         ungew\xf6hnlich ist. Er wartete Jahrzehnte auf den richtigen Moment,
         lebte 23 Jahre im Verborgenen ohne Ungeduld oder \xdcberheblichkeit.
-        Das ist die SE8w9 in ihrer strategischen Auspr\xe4gung: die F\xe4higkeit,
+        Darin zeigt sich die SE8w9 in ihrer strategischen Auspr\xe4gung: die F\xe4higkeit,
         den eigenen Angriffstrieb so lange zu z\xfcgeln, bis der Zeitpunkt stimmt.</p>
         <p class="vb-intro"><strong>c) Einsch\xfccherung als Kommunikation:</strong>
         <strong>Riina</strong> musste selten laut werden. Seine Reputation war sein Werkzeug \u2013
@@ -3992,6 +4038,11 @@ export function salvatoreRiinaPortraitPage() {
         {route:"kriminalpsychologie-anders-breivik", label:"Kriminalpsychologie: Anders Breivik"},
         {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
         {route:"krankheitsportraets-salvatore-riina", label:"Krankheitsporträt: Salvatore Riina (SE8w9) – gesundheitlicher Verfall in Haft"},
+        {route:"kriminalpsychologie-griselda-blanco", label:"Griselda Blanco (SE8w9) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-jeffrey-epstein", label:"Jeffrey Epstein (SX8w9) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-john-gotti", label:"John Gotti (SO8w7) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-john-mcafee", label:"John McAfee (SX8w9) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-rex-heuermann", label:"Rex Heuermann (SE8w9) – Kriminalpsychologie"},
       ])}
     </div>
   `);
@@ -4018,7 +4069,7 @@ export function tedKaczynskiPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale F\xfcnf: Wissen als Weltgericht</h3>
-        <p class="vb-intro">Die <strong>soziale F\xfcnf (SO5)</strong> ist paradox: Sie ist der gesellschaftsbezogenste aller F\xfcnf-Subtypen &ndash; und gleichzeitig h\xe4ufig der sch\xe4rfste Kritiker der Gesellschaft. Die SO5 sucht nicht Zugeh\xf6rigkeit um ihrer selbst willen, sondern eine intellektuelle Grundlage, von der aus die Welt beurteilt und verstanden werden kann. Naranjo nannte diesen Subtyp <em>Totem</em>: die F\xfcnf als Tr\xe4gerin einer Idee, die \xfcber das Individuum hinausweist.</p>
+        <p class="vb-intro">Die <strong>soziale F\xfcnf (SO5)</strong> ist paradox: Sie ist der gesellschaftsbezogenste aller F\xfcnf-Subtypen &ndash; und gleichzeitig h\xe4ufig der sch\xe4rfste Kritiker der Gesellschaft. Die SO5 sucht nicht Zugeh\xf6rigkeit um ihrer selbst willen, sondern eine intellektuelle Grundlage, von der aus die Welt beurteilt und verstanden werden kann. In Naranjos Typologie heißt dieser Subtyp <em>Totem</em>: die F\xfcnf als Tr\xe4gerin einer Idee, die \xfcber das Individuum hinausweist.</p>
         <p class="vb-intro"><strong>Theodore John Kaczynski</strong>, geboren am 22. Mai 1942 in Chicago, war ein Wunderkind. Mit 16 Jahren Abitur, mit 20 Harvard-Abschluss, mit 25 Doktorat in Mathematik an der University of Michigan, mit 26 Assistenzprofessor an der UC Berkeley &ndash; einer der j\xfcngsten in der Geschichte der Universit\xe4t. Dann k\xfcndigte er. Ohne Erkl\xe4rung, ohne Plan. Er verschwand in eine selbst gebaute Holzh\xfctte in der Wildnis von Montana, ohne Strom und Wasser, und begann &ndash; zu denken.</p>
       </div>
 
@@ -4045,7 +4096,7 @@ export function tedKaczynskiPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Das Manifest: <em>Industrial Society and Its Future</em></h3>
         <p class="vb-intro">1995 sandte Kaczynski sein 35.000 W\u00f6rter langes Manifest an die <em>New York Times</em> und die <em>Washington Post</em> mit der Drohung, andernfalls weitere Anschl\xe4ge zu ver\u00fcben. Das FBI riet zur Ver\xf6ffentlichung. Das Manifest erschien im September 1995.</p>
         <p class="vb-intro">Es ist ein bemerkenswertes Dokument. Kaczynski argumentiert klar und konsequent: Die Industriegesellschaft zerst\xf6rt die psychologische Autonomie des Menschen, indem sie nat\xfcrliche Bed\xfcrfnisse nach Macht, Herausforderung und Sinn durch surrogat-Aktivit\xe4ten ersetzt. Der Einzelne wird abh\xe4ngig von einem System, das er nicht kontrolliert und nicht versteht. Der einzige Ausweg sei ein radikaler Zusammenbruch der technologischen Zivilisation.</p>
-        <p class="vb-intro">Philosophen, Soziologen und Technik-Kritiker haben seither einzelne Analysen des Manifests als intellektuell bemerkenswert bezeichnet &ndash; abgel\xf6st von seiner kriminellen Handlung betrachtet. Das ist das SO5w4-Paradox: ein Denker, dessen Ideen partiell diskutierbar w\xe4ren &ndash; und dessen Mittel inakzeptabel sind.</p>
+        <p class="vb-intro">Philosophen, Soziologen und Technik-Kritiker haben seither einzelne Analysen des Manifests als intellektuell bemerkenswert bezeichnet &ndash; abgel\xf6st von seiner kriminellen Handlung betrachtet. Hier wirkt das SO5w4-Paradox: ein Denker, dessen Ideen partiell diskutierbar w\xe4ren &ndash; und dessen Mittel inakzeptabel sind.</p>
       </div>
 
       <div class="vb-section">
@@ -4092,6 +4143,7 @@ export function tedKaczynskiPortraitPage() {
           {route:"kriminalpsychologie-harold-shipman", label:"Kriminalpsychologie: Harold Shipman (SO5w6)"},
           {route:"kriminalpsychologie-jeffrey-dahmer", label:"Kriminalpsychologie: Jeffrey Dahmer (SX5w4)"},
           {route:"kriminalpsychologie-adolf-eichmann", label:"Kriminalpsychologie: Adolf Eichmann (SO6w5)"},
+          {route:"kriminalpsychologie-elliot-rodger", label:"Elliot Rodger (SO4w5) – Kriminalpsychologie"},
         ])}
       </div>
     </div>
@@ -4114,7 +4166,7 @@ export function victorLustigPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Schimpanse</h3>
-        <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier der sexuellen Sieben &ndash; hochintelligent, sozial wendig, mit einer F\xe4higkeit, sich in jede Gruppe, jede Situation, jede Beziehung sofort einzupassen und sie f\xfcr sich zu nutzen. Victor Lustig, geboren um 1890 in B\xf6hmen, war genau dieses Tier in Menschenform: Er sprach f\xfcnf Sprachen flie\xdfend, f\xfchrte \xfcber vierzig verschiedene Aliasnamen und Identit\xe4ten, und schaffte es, sich in jede Umgebung &ndash; vom Passagierschiff-Salon bis zum Chicagoer Gangstermilieu &ndash; als vollkommen glaubw\xfcrdig zu inszenieren.</p>
+        <p class="vb-intro">Der <strong>Schimpanse</strong> gilt als das Tier der sexuellen Sieben &ndash; hochintelligent, sozial wendig, mit einer F\xe4higkeit, sich in jede Gruppe, jede Situation, jede Beziehung sofort einzupassen und sie f\xfcr sich zu nutzen. Victor Lustig, geboren um 1890 in B\xf6hmen, war genau dieses Tier in Menschenform: Er sprach f\xfcnf Sprachen flie\xdfend, f\xfchrte \xfcber vierzig verschiedene Aliasnamen und Identit\xe4ten, und schaffte es, sich in jede Umgebung &ndash; vom Passagierschiff-Salon bis zum Chicagoer Gangstermilieu &ndash; als vollkommen glaubw\xfcrdig zu inszenieren.</p>
         <p class="vb-intro">1925 las er in einer Pariser Zeitung eine Randnotiz: Die Instandhaltung des Eiffelturms sei so teuer geworden, dass ein Abriss g\xfcnstiger sein k\xf6nnte. Aus diesem einzigen Satz konstruierte Lustig einen der k\xfchnsten Betrugsf\xe4lle der Geschichte &ndash; und verkaufte den Turm nicht nur einmal, sondern zweimal an ahnungslose Schrotth\xe4ndler.</p>
       </div>
 
@@ -4133,7 +4185,7 @@ export function victorLustigPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Die &bdquo;Geldkiste&ldquo;: Gier als Angriffsfl\xe4che</h3>
         <p class="vb-intro">Eines von Lustigs bekanntesten Betrugsinstrumenten war die sogenannte &bdquo;Rumänische Geldkiste&ldquo; &ndash; ein Kasten, der angeblich Geldscheine kopieren konnte. Lustig f\xfchrte K\xe4ufern vor, wie die Maschine \xfcber mehrere Stunden echte Geldscheine &bdquo;druckte&ldquo; (tats\xe4chlich hatte er zuvor Scheine im Ger\xe4t versteckt) und verkaufte die Kiste anschlie\xdfend f\xfcr hohe Summen &ndash; wohl wissend, dass die K\xe4ufer, sobald die Kiste nur noch Blankopapier produzierte, aus Scham nie zur Polizei gehen w\xfcrden.</p>
-        <p class="vb-intro">Das ist die SX7w8-Logik in ihrer kalkuliertesten Form: Lustig baute seine Betr\xfcgereien systematisch so, dass die Gier oder Korruptheit seiner Opfer selbst zum Schutzschild wurde. Die Suggestion \xfcberzeugte nicht durch Vertrauen allein, sondern durch das gezielte Ausnutzen der Schwachstellen des Gegen\xfcbers.</p>
+        <p class="vb-intro">Hier zeigt sich die SX7w8-Logik in ihrer kalkuliertesten Form: Lustig baute seine Betr\xfcgereien systematisch so, dass die Gier oder Korruptheit seiner Opfer selbst zum Schutzschild wurde. Die Suggestion \xfcberzeugte nicht durch Vertrauen allein, sondern durch das gezielte Ausnutzen der Schwachstellen des Gegen\xfcbers.</p>
       </div>
 
       <div class="vb-section">
@@ -4144,7 +4196,7 @@ export function victorLustigPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro"><strong>a) Suggestibilit\xe4t als Berufswerkzeug:</strong> Lustigs gesamte Karriere beruhte auf der F\xe4higkeit, sich selbst und andere in einem einzigen \xfcberzeugenden Moment vollst\xe4ndig zu verwandeln. Das ist die SX7 in ihrer reinsten Form: keine langfristige Systemplanung, sondern die geniale Improvisation im entscheidenden Augenblick.</p>
+        <p class="vb-intro"><strong>a) Suggestibilit\xe4t als Berufswerkzeug:</strong> Lustigs gesamte Karriere beruhte auf der F\xe4higkeit, sich selbst und andere in einem einzigen \xfcberzeugenden Moment vollst\xe4ndig zu verwandeln. Darin zeigt sich die SX7 in ihrer reinsten Form: keine langfristige Systemplanung, sondern die geniale Improvisation im entscheidenden Augenblick.</p>
         <p class="vb-intro"><strong>b) Der Achterfl\xfcgel als Wiederholungszwang unter Risiko:</strong> Eine SX7 mit schw\xe4cher ausgepr\xe4gtem Achterfl\xfcgel h\xe4tte sich nach dem ersten Eiffelturm-Verkauf zur\xfcckgezogen. Der stark ausgepr\xe4gte Achterfl\xfcgel bei Lustig verlangte danach, das Risiko zu wiederholen, zu steigern, zu beweisen, dass die Kontrolle vollst\xe4ndig bei ihm lag.</p>
         <p class="vb-intro"><strong>c) Identit\xe4t als flie\xdfendes Material:</strong> \xdcber vierzig Aliasnamen zeigen, wie sehr die SX7 die eigene Identit\xe4t nicht als feste Gr\xf6\xdfe, sondern als Werkzeug begreift &ndash; formbar, austauschbar, immer dem jeweiligen Moment angepasst.</p>
       </div>
@@ -4306,7 +4358,7 @@ export function fritzHonkaPortraitPage() {
         nicht wie viele andere Täter fern seines eigenen Lebensraums,
         sondern verbarg sie innerhalb der eigenen vier Wände – hinter einer
         selbst errichteten Zwischenwand, im Dachboden über seiner Wohnung.
-        Das ist die SE5-Logik in ihrer düstersten Form: Der eigene Rückzugsraum
+        Hier wirkt die SE5-Logik in ihrer düstersten Form: Der eigene Rückzugsraum
         ist so vollständig unter Kontrolle, dass selbst das Unaussprechliche
         dort sicherer erscheint als draußen – eine Parallele zu Kroll, der
         Leichenteile im eigenen Kühlschrank aufbewahrte, statt sie zu entsorgen.</p>
