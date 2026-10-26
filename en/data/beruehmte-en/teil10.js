@@ -3023,7 +3023,7 @@ export function joergKachelmannPortraitPage() {
 
         <h2 class="vb-section">4. The substance: building a weather house of his own</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In 1990 he founded the weather company Meteomedia AG, which he sold to MeteoGroup in 2013; he left in early 2013 and worked as a freelance adviser. Since 2005 he has run the weather company WeatherOK, Inc. in Oklahoma. After 2011 he returned with regional radio and television contributions, weather content for YouTube and a weather platform of his own. In this he combines what marks the social Nine with what the One demands: something everyone uses, and that is correct.</p>
+          <p class="vb-intro">In 1990 he founded the weather company Meteomedia AG, which he sold to MeteoGroup in 2013; he left in early 2013 and worked as a freelance adviser. Since 2005 he has run the weather company WeatherOK, Inc. in Oklahoma. After 2011 he returned with regional radio and television contributions, weather content for YouTube and a weather platform of his own. In this he combines what marks the social Nine with what the One wing demands: something everyone uses, and that is correct.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Parallels in the same subtype: Jens Riewa, Dieter Thomas Heck and Hans Sigl</h2>

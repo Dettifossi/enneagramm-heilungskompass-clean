@@ -3094,7 +3094,7 @@ export function joergKachelmannPortraitPage() {
 
         <h2 class="vb-section">4. Die Substanz: ein eigenes Wetterhaus gebaut</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">1990 gründete er die Wetterfirma Meteomedia AG, die er 2013 an MeteoGroup verkaufte; Anfang 2013 schied er dort aus und arbeitete freiberuflich als Berater. Seit 2005 führt er in Oklahoma die Wetterfirma WeatherOK, Inc. Nach 2011 kehrte er mit regionalen Radio- und Fernsehbeiträgen, Wetterinhalten für YouTube und einer eigenen Wetterplattform zurück. Er verbindet damit das, was die soziale Neun auszeichnet, mit dem, was der Einser verlangt: etwas, das alle nutzen, und das korrekt ist.</p>
+          <p class="vb-intro">1990 gründete er die Wetterfirma Meteomedia AG, die er 2013 an MeteoGroup verkaufte; Anfang 2013 schied er dort aus und arbeitete freiberuflich als Berater. Seit 2005 führt er in Oklahoma die Wetterfirma WeatherOK, Inc. Nach 2011 kehrte er mit regionalen Radio- und Fernsehbeiträgen, Wetterinhalten für YouTube und einer eigenen Wetterplattform zurück. Er verbindet damit das, was die soziale Neun auszeichnet, mit dem, was der Einserflügel verlangt: etwas, das alle nutzen, und das korrekt ist.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Parallelen im selben Subtyp: Jens Riewa, Dieter Thomas Heck und Hans Sigl</h2>
