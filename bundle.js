@@ -61217,6 +61217,7 @@ function tugendenEnneagrammPage() {
       ${bookTip("sei-still-und-wisse-ich-bin-gott", "Ein spirituelles Buch über die tiefste Stille in uns und die Erfahrung von Transzendenz jenseits aller Konzepte.", "Sei still und wisse – ich bin Gott!")}
       ${bookTip("heilung-als-erinnerung", "Heilung als Erinnerung an das, was wir im Grunde sind \u2013 jenseits von Symptom und Diagnose.", "Heilung als Erinnerung")}
       ${bookTip("meta-intelligenz", "Meta-Intelligenz – die Intelligenz, die alle anderen Intelligenzen verbündet und das volle Potenzial des Bewusstseins erschließt.", "Meta-Intelligenz")}
+      ${bookTip("meta-intelligenz-das-hoerbuch", "Meta-Intelligenz als H\u00f6rbuch \u2013 ideal f\u00fcr unterwegs oder zum meditativen Zuh\u00f6ren.", "Meta-Intelligenz (H\u00f6rbuch)")}
       ${relatedLinks([
         {route:"claudio-naranjo-lehrer", label:"Claudio Naranjo: Lehrer und Wegbereiter der Subtypen"},
         {route:"david-daniels-gesetze", label:"David Daniels: Die drei Energie-Aufmerksamkeits-Gesetze"},

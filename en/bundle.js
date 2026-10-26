@@ -40756,6 +40756,7 @@ function tugendenEnneagrammPage() {
       ${bookTip("sei-still-und-wisse-ich-bin-gott", "A spiritual book on the deepest stillness within us and the experience of transcendence beyond all concepts.", "Sei still und wisse – ich bin Gott!")}
       ${bookTip("heilung-als-erinnerung", "Healing as remembrance of what we fundamentally are – beyond symptom and diagnosis.", "Heilung als Erinnerung")}
       ${bookTip("meta-intelligenz", "Meta-Intelligence – the intelligence that unites all other intelligences and unlocks the full potential of consciousness.", "Meta-Intelligence")}
+      ${bookTip("meta-intelligenz-das-hoerbuch", "Meta-Intelligence as an audiobook – ideal for on the go or for meditative listening.", "Meta-Intelligenz (Hörbuch)")}
       ${relatedLinks([
         {route:"claudio-naranjo-lehrer", label:"Claudio Naranjo: Teacher and Pioneer of the Subtypes"},
         {route:"david-daniels-gesetze", label:"David Daniels: The Three Energy–Attention Laws"},
