@@ -3061,3 +3061,75 @@ export function bruceLeePortraitPage() {
     </div>
   `);
 }
+
+export function sulliPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sulli-portrait.jpg" alt="Sulli – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sulli</p>
+        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with a Two wing &middot; Countertype of the Three</p>
+        <p class="krim-portrait-subtitle">South Korean singer and actress (Choi Jin-ri), 1994&ndash;2019 &ndash; animal counterpart: raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The raccoon: a girl who moved to Seoul alone</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> feels everything out with its own paws and relies on what it has understood itself. Sulli was born Choi Jin-ri on 29 March 1994 in Busan. In 2004, in fourth grade, she moved to Seoul on her own to attend the MTM Academy, a theatre school. She received her stage name at SM Entertainment; she herself later explained it as ‘pear blossoms in the snow’.</p>
+          <p class="vb-intro">At eleven she made her debut in 2005 in the SBS drama ‘Ballad of Seodong’ as the young Princess Seonhwa of Silla. Roles followed in ‘Drama City’, the film ‘Vacation’ (2006) and ‘Punch Lady’ (2007), her first substantial role. Someone who stands on her own feet that early learns to secure herself long before anyone else does it for her.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Three: security, but not through gloss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Enneagram teacher Claudio Naranjo called this subtype ‘Security’ and singled it out as the countertype of the Three: the Three's energy remains, but it seeks less the polished outer effect than what holds. In Sulli this can be linked to her public handling of the idol image, which is carefully cultivated in South Korea. She showed herself unmade-up on social media, reportedly went without a bra on purpose and said she wanted to make ‘people's prejudices disappear’ (‘I wanted people's prejudices to disappear’, according to English Wikipedia).</p>
+          <p class="vb-intro">One would expect a Three to optimize the image; Sulli put it at risk. Behind this one can detect the urge to feel safe by no longer playing what others want to see. That remains a reading: the sources call her ‘unconventional’ and say nothing about a subtype.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two wing: warmth, fans, attention to others</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two wing (w2)</strong> makes the Three relationship-oriented and receptive to how others see her. In Sulli one can recognize the side for which the audience's response was not a matter of indifference: according to Wikipedia she stepped away from show business in 2014 because she was exhausted by malicious comments and rumors, including false pregnancy rumors. The same warmth shows in the way she responded to abuse in 2019 as host of the JTBC2 show ‘The Night of Hate Comments’: so cheerfully that she was called ‘the nuclear bomb of hate comments’.</p>
+          <p class="vb-intro">From the show comes her sentence: ‘I wish people would look at me and think, ‘Well, someone like that exists!’ Accept the difference.’</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: child actress, f(x), a voice of her own</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">On 5 September 2009 Sulli debuted with the group f(x) and the single ‘La Cha Ta’. The group had four Korean number-one singles and was the first K-pop act to perform at SXSW. As an actress she won the New Star Award at the 2012 SBS Drama Awards for ‘To the Beautiful You’; for the role she cut 60 centimeters of her hair. ‘The Pirates’ and ‘Fashion King’ followed (both 2014).</p>
+          <p class="vb-intro">After the break she officially left f(x) in August 2015 and turned to acting and advertising. In 2017 she played in the neo-noir thriller ‘Real’ opposite Kim Soo-hyun; that year she was the most Googled person in South Korea. In June 2019 her first single album ‘Goblin’ appeared, whose tracks she co-wrote and co-produced according to Wikipedia. She was cast as the lead in the second season of the Netflix series ‘Persona’ when she died.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Hong Chau and Maria Callas</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With <a href="#beruehmte-hong-chau">Hong Chau (SP3w2)</a> Sulli shares an Asian background and an early start in working life, but Chau works in the ensemble and in the background while Sulli stood in the glare of the spotlight. <a href="#beruehmte-maria-callas">Maria Callas (SP3w2)</a> shows how the same constellation can be worn down in a public life in which performance, image and private life are constantly negotiated.</p>
+          <p class="vb-intro">That both women stood in the spotlight even though the subtype actually seeks inconspicuous substance is itself part of the pattern: the raccoon is not always allowed into the role that suits it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The end and what followed</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sulli died in mid-October 2019 (sources give 13 or 14 October) in Seongnam at the age of 25. The police treated it as a suicide and found no signs of foul play. By her own account she had lived with panic disorder and social anxiety since childhood (October 2018), and according to Wikipedia she was suffering from severe depression before her death. Several media linked her death to the cyberbullying she faced; the causes of a suicide are always complex, and a single trigger cannot be named with certainty.</p>
+          <p class="vb-intro">A broad debate on hate comments followed in South Korea: there were petitions for tougher penalties and a real-name system (the discussion around a proposal called the ‘Sulli Act’), and the internet company Kakao switched off comments under entertainment news for a year. In 2023 the documentary ‘Dear Jinri’ was released as part of ‘Persona: Sulli’ on Netflix.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. What remains: being different may be visible</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The self-preservation Three with a Two wing carries a great deal as long as the other side looks back kindly. Someone who, like Sulli, is public and at the same time refuses to fulfill the expected image often pays a high price. What would heal this subtype is the experience that support does not first arise through stance but already lies in mere existence. Her sentence ‘Accept the difference’ remains a quiet task for everyone who watches.</p>
+          <p class="vb-intro"><strong>Note:</strong> If you are in an emotional crisis or thinking about suicide, help is available around the clock and free of charge. In the US call or text 988; elsewhere see findahelpline.com.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: subtype profile"},
+        {route:"beruehmte-hong-chau", label:"Portrait: Hong Chau (SP3w2)"},
+        {route:"beruehmte-maria-callas", label:"Portrait: Maria Callas (SP3w2)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}

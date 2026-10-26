@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=404";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=405";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -107,6 +107,7 @@ const robbieColtranePortraitPage = () => _lazyPage("./data/beruehmte-en/teil5.js
 const happyAndersonPortraitPage = () => _lazyPage("./data/beruehmte-en/teil8.js", "happyAndersonPortraitPage");
 const paulSimonPortraitPage = () => _lazyPage("./data/beruehmte-en/teil9.js", "paulSimonPortraitPage");
 const artGarfunkelPortraitPage = () => _lazyPage("./data/beruehmte-en/teil9.js", "artGarfunkelPortraitPage");
+const sulliPortraitPage = () => _lazyPage("./data/beruehmte-en/teil4.js", "sulliPortraitPage");
 const johnNeumeierPortraitPage = () => _lazyPage("./data/beruehmte-en/teil14.js", "johnNeumeierPortraitPage");
 const marthaGrahamPortraitPage = () => _lazyPage("./data/beruehmte-en/teil1.js", "marthaGrahamPortraitPage");
 const ruthBaderGinsburgPortraitPage = () => _lazyPage("./data/beruehmte-en/teil1.js", "ruthBaderGinsburgPortraitPage");
@@ -1944,6 +1945,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Self-Preservation Type 4",
     teaser:"SP4w5 \u00b7 born 1939 in Milwaukee. Choreographer and ballet director, Hamburg Ballet 1973\u20132024 (\u2018Nijinsky\u2019, \u2018The Lady of the Camellias\u2019). The Dove who puts her depth quietly into works.",
     land:"USA/Germany", tags:["Tanz"], gender:"m"},
+{ route:"beruehmte-sulli", name:"Sulli", added:"2026-10-26", subtyp:"SE3w2",
+    heading:"Sulli \u2013 Self-Preservation Type 3",
+    teaser:"SP3w2 \u00b7 1994\u20132019. South Korean singer and actress (f(x), \u2018Real\u2019, \u2018Goblin\u2019). The Raccoon who put the expected idol image at risk and wanted otherness to be visible.",
+    land:"South Korea", tags:["Musik","Schauspiel"], gender:"f"},
 { route:"beruehmte-martha-graham", name:"Martha Graham", added:"2026-10-26", subtyp:"SO4w3",
     heading:"Martha Graham \u2013 Social Type 4",
     teaser:"SO4w3 \u00b7 1894\u20131991. Dancer and choreographer, mother of modern dance (\u2018Lamentation\u2019, \u2018Appalachian Spring\u2019). The Armadillo who carries pain and otherness onto the big stage.",
@@ -46635,6 +46640,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-paul-simon": paulSimonPortraitPage,
       "beruehmte-art-garfunkel": artGarfunkelPortraitPage,
       "beruehmte-john-neumeier": johnNeumeierPortraitPage,
+      "beruehmte-sulli": sulliPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,

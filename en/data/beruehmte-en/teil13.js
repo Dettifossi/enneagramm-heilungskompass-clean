@@ -2898,6 +2898,7 @@ export function hongChauPortraitPage() {
         {route:"beruehmte-susan-polgar", label:"Portrait: Susan Polgár (SP3w2)"},
         {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SP3w2)"},
         {route:"beruehmte-andre-agassi", label:"Portrait: André Agassi (SP3w2)"},
+        {route:"beruehmte-sulli", label:"Portrait: Sulli (SP3w2)"},
       ])}
     </div>
   `);

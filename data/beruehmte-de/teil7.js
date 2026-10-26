@@ -2934,3 +2934,75 @@ export function klausMariaBrandauerPortraitPage() {
     </div>
   `);
 }
+
+export function sulliPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sulli-portrait.jpg" alt="Sulli – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sulli</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierflügel &middot; Kontratyp der Drei</p>
+        <p class="krim-portrait-subtitle">Südkoreanische Sängerin und Schauspielerin (Choi Jin-ri), 1994&ndash;2019 &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär: ein Mädchen, das allein nach Seoul zog</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> tastet alles mit den eigenen Pfoten ab und verlässt sich auf das, was er selbst begriffen hat. Sulli wurde als Choi Jin-ri am 29. März 1994 in Busan geboren. 2004, in der vierten Klasse, zog sie allein nach Seoul, um dort die Schauspielschule MTM Academy zu besuchen. Ihren Künstlernamen bekam sie bei SM Entertainment; sie selbst deutete ihn später als »Birnenblüten im Schnee«.</p>
+          <p class="vb-intro">Mit elf Jahren debütierte sie 2005 in der SBS-Serie ›Ballad of Seodong‹ als junge Prinzessin Seonhwa von Silla. Es folgten Rollen in ›Drama City‹, im Film ›Vacation‹ (2006) und in ›Punch Lady‹ (2007), ihrer ersten größeren Rolle. Wer so früh auf eigenen Füßen steht, lernt, sich selbst abzusichern, lange bevor andere es für einen tun.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Sicherheit, aber nicht durch Glanz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Enneagramm-Lehrer Claudio Naranjo sprach bei diesem Subtyp von ›Sicherheit‹ und stellte ihn als Kontratyp der Drei heraus: Die Energie der Drei bleibt, aber sie sucht weniger die polierte Außenwirkung als das, was trägt. Bei Sulli lässt sich das mit ihrem öffentlichen Umgang mit dem Idol-Bild in Verbindung bringen, das in Südkorea sorgfältig gepflegt wird. Sie zeigte sich ungeschminkt in sozialen Medien, trug nach den Berichten bewusst keinen BH und sagte, sie wolle damit ›Vorurteile verschwinden lassen‹ (›I wanted people's prejudices to disappear‹, nach der englischen Wikipedia).</p>
+          <p class="vb-intro">Man würde von einer Drei erwarten, das Bild zu optimieren; Sulli setzte es aufs Spiel. Dahinter lässt sich der Zug erkennen, sich sicher zu fühlen, indem man nicht mehr spielt, was andere sehen wollen. Das bleibt eine Lesart: Die Quellen nennen sie ›unkonventionell‹, von einem Subtyp sprechen sie nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Wärme, Fans, Zuwendung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> macht die Drei beziehungsorientiert und empfänglich dafür, wie andere sie sehen. Bei Sulli kann man darin die Seite erkennen, der die Reaktion des Publikums nicht gleichgültig war: Sie meldete sich nach der Wikipedia-Seite 2014 aus dem Showgeschäft ab, weil sie von böswilligen Kommentaren und Gerüchten erschöpft war, darunter falsche Schwangerschaftsgerüchte. Dieselbe Wärme zeigt sich in der Haltung, mit der sie 2019 als Moderatorin der JTBC2-Sendung ›The Night of Hate Comments‹ (›Die Nacht der Hasskommentare‹) auf Beschimpfungen reagierte: so heiter, dass man sie ›die Atombombe der Hasskommentare‹ nannte.</p>
+          <p class="vb-intro">Aus der Sendung stammt ihr Satz: ›I wish people would look at me and think, ›Well, someone like that exists!‹ Accept the difference.‹ – »Ich wünschte, die Leute sähen mich an und dächten: ›Na, so jemand gibt es also!‹ Akzeptiert den Unterschied.«</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Kinderschauspielerin, f(x), eigene Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am 5. September 2009 debütierte Sulli mit der Gruppe f(x) und der Single ›La Cha Ta‹. Die Gruppe hatte vier koreanische Nummer-eins-Singles und war die erste K-Pop-Gruppe, die beim SXSW-Festival auftrat. Als Schauspielerin gewann sie 2012 für ›To the Beautiful You‹ den New Star Award der SBS Drama Awards; für die Rolle schnitt sie sich 60 Zentimeter Haar ab. Es folgten ›The Pirates‹ und ›Fashion King‹ (beide 2014).</p>
+          <p class="vb-intro">Nach der Pause trat sie im August 2015 offiziell aus f(x) aus und wandte sich der Schauspielerei und Werbung zu. 2017 spielte sie im Neo-Noir-Thriller ›Real‹ an der Seite von Kim Soo-hyun; in diesem Jahr war sie die in Südkorea am häufigsten gegoogelte Person. Im Juni 2019 erschien ihre erste Single-EP ›Goblin‹, deren Stücke sie nach Wikipedia mitgeschrieben und mitproduziert hat. Für die zweite Staffel der Netflix-Serie ›Persona‹ war sie als Hauptrolle besetzt, als sie starb.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Hong Chau und Maria Callas</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit <a href="#beruehmte-hong-chau">Hong Chau (SE3w2)</a> teilt Sulli die Herkunft aus einem asiatischen Umfeld und den frühen Weg ins Berufsleben, doch Chau arbeitet im Ensemble und im Hintergrund, Sulli stand im grellen Licht. <a href="#beruehmte-maria-callas">Maria Callas (SE3w2)</a> zeigt, wie dieselbe Konstellation sich in einem öffentlichen Leben aufreiben kann, in dem Leistung, Image und Privates ständig verhandelt werden.</p>
+          <p class="vb-intro">Dass beide Frauen im Rampenlicht standen, obwohl der Subtyp eigentlich die unauffällige Substanz sucht, ist selbst ein Teil des Musters: Der Waschbär wird nicht immer in die Rolle gelassen, die zu ihm passt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Ende und was danach geschah</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sulli starb Mitte Oktober 2019 (die Quellen nennen den 13. oder 14. Oktober) in Seongnam im Alter von 25 Jahren. Die Polizei ging von einem Suizid aus und fand keine Hinweise auf Fremdeinwirkung. Sie hatte nach eigenen Angaben seit ihrer Kindheit mit einer Panikstörung und sozialen Ängsten gelebt (Oktober 2018) und litt laut Wikipedia vor ihrem Tod unter einer schweren Depression. Mehrere Medien verknüpften ihren Tod mit dem Cybermobbing, dem sie ausgesetzt war; Ursachen eines Suizids sind immer vielschichtig, und ein einzelner Auslöser lässt sich nicht sicher benennen.</p>
+          <p class="vb-intro">In Südkorea folgte eine breite Debatte über Hasskommentare: Es gab Petitionen für härtere Strafen und eine Klarnamenpflicht (die Diskussion um einen ›Sulli-Gesetz‹ genannten Entwurf), und der Internetkonzern Kakao schaltete die Kommentare unter Unterhaltungsnachrichten für ein Jahr ab. 2023 erschien die Dokumentation ›Dear Jinri‹ (›Liebe Jinri‹) als Teil von ›Persona: Sulli‹ bei Netflix.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Was bleibt: Anderssein darf sichtbar sein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die selbsterhaltende Drei mit Zweierflügel trägt viel, solange das Gegenüber freundlich zurückschaut. Wer wie Sulli zugleich öffentlich ist und sich weigert, das erwartete Bild zu erfüllen, zahlt dafür oft einen hohen Preis. Heilsam wäre für diesen Subtyp die Erfahrung, dass Halt nicht erst durch Haltung entsteht, sondern schon im bloßen Dasein liegt. Ihr Satz ›Accept the difference‹ (›Akzeptiert den Unterschied‹) bleibt ein stiller Auftrag an alle, die zuschauen.</p>
+          <p class="vb-intro"><strong>Hinweis:</strong> Wer selbst in einer seelischen Krise steckt oder an Suizid denkt, findet in Deutschland rund um die Uhr und kostenlos Hilfe bei der Telefonseelsorge (0800 111 0 111, 0800 111 0 222 oder 116 123).</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-hong-chau", label:"Porträt: Hong Chau (SE3w2)"},
+        {route:"beruehmte-maria-callas", label:"Porträt: Maria Callas (SE3w2)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
