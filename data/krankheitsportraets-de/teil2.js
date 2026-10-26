@@ -5116,8 +5116,8 @@ export function bruceLeeKrankheitsportraetPage() {
         In einer Biografie von 2018 vermutete der Autor Matthew Polly nach Rücksprache mit Medizinern, das Hirnödem sei durch Überanstrengung und einen Hitzschlag entstanden; Lee hatte sich Ende 1972 nach dieser Darstellung die Schweißdrüsen unter den Achseln entfernen lassen, weil er Achselschweiß auf Film für unvorteilhaft hielt. Dadurch könnte sein Körper bei heißem Training überhitzt sein.</p>
         <p class="vb-intro"><strong>b) Hyponatriämie als Hypothese:</strong>
         Im Dezember 2022 kam ein Team im ›Clinical Kidney Journal‹ zu dem Schluss, das tödliche Hirnödem sei durch eine Hyponatriämie (zu wenig Natrium im Blut) ausgelöst worden. Als Risikofaktoren nannten die Autoren unter anderem übermäßige Wasseraufnahme, zu wenig Salzzufuhr, Alkohol und die Einnahme mehrerer Medikamente.</p>
-        <p class="vb-intro"><strong>c) Ein plötzlicher Epilepsie-Tod?</strong>
-        Im Juli 2025 kam die Hongkonger Sendung ›Ctrl+F The Truth‹ nach Fachmeinungen zu dem Schluss, Lee sei an einem plötzlichen unerwarteten Tod bei Epilepsie gestorben, die Aspirin-Allergie als Ursache sei unwahrscheinlich. Die Ursache bleibt also bis heute umstritten.</p>
+        <p class="vb-intro"><strong>c) Ein plötzlicher Tod durch einen epileptischen Anfall?</strong>
+        Im Juli 2025 kam die Hongkonger Sendung ›Ctrl+F The Truth‹ nach Fachmeinungen zu dem Schluss, Lee sei an einem plötzlichen, unerwarteten Tod durch einen epileptischen Anfall gestorben, die Aspirin-Allergie als Ursache sei unwahrscheinlich. Die Ursache bleibt also bis heute umstritten.</p>
       </div>
 
       <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
