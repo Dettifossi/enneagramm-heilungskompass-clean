@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=419";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=420";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -95,6 +95,7 @@ const robbieColtranePortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.j
 const happyAndersonPortraitPage = () => _lazyPage("./data/beruehmte-de/teil2.js", "happyAndersonPortraitPage");
 const paulSimonPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "paulSimonPortraitPage");
 const artGarfunkelPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "artGarfunkelPortraitPage");
+const joergKachelmannPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "joergKachelmannPortraitPage");
 const jamesDeanPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "jamesDeanPortraitPage");
 const steveMcQueenPortraitPage = () => _lazyPage("./data/beruehmte-de/teil3.js", "steveMcQueenPortraitPage");
 const karinThalerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil4.js", "karinThalerPortraitPage");
@@ -27704,6 +27705,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 geb. 1939 in Milwaukee. Choreograf und Ballettdirektor, Hamburg Ballett 1973\u20132024 (\u203aNijinsky\u2039, \u203aDie Kameliendame\u2039). Die Taube, die ihre Tiefe still in Werke fasst.",
     land:"USA/Deutschland", tags:["Tanz"], gender:"m"},
+  { route:"beruehmte-joerg-kachelmann", name:"Jörg Kachelmann", added:"2026-10-26", subtyp:"SO9w1",
+    heading:"Jörg Kachelmann \u2013 Sozialer Typ 9",
+    teaser:"SO9w1 \u00b7 geb. 1958. Schweizer Meteorologe und Moderator (\u203aDas Wetter im Ersten\u2039, \u203aRiverboat\u2039). Der Büffel, der das Wetter für alle erklärt und bei der Genauigkeit gern streitet.",
+    land:"Schweiz/Deutschland", tags:["Medien"], gender:"m"},
   { route:"beruehmte-james-dean", name:"James Dean", added:"2026-10-26", subtyp:"SX4w3",
     heading:"James Dean \u2013 Sexueller Typ 4",
     teaser:"SX4w3 \u00b7 1931\u20131955. US-amerikanischer Schauspieler (\u203aEast of Eden\u2039, \u203aRebel Without a Cause\u2039, \u203aGiant\u2039). Der Chihuahua, der Sehnsucht und Verletzlichkeit zum Bild einer Generation machte und mit 24 starb.",
@@ -67030,6 +67035,7 @@ const ROUTES = {
       "beruehmte-karin-thaler": karinThalerPortraitPage,
       "beruehmte-steve-mcqueen": steveMcQueenPortraitPage,
       "beruehmte-james-dean": jamesDeanPortraitPage,
+      "beruehmte-joerg-kachelmann": joergKachelmannPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,
