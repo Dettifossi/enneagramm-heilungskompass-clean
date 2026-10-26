@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=418";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=419";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -95,6 +95,7 @@ const robbieColtranePortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.j
 const happyAndersonPortraitPage = () => _lazyPage("./data/beruehmte-de/teil2.js", "happyAndersonPortraitPage");
 const paulSimonPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "paulSimonPortraitPage");
 const artGarfunkelPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "artGarfunkelPortraitPage");
+const jamesDeanPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "jamesDeanPortraitPage");
 const steveMcQueenPortraitPage = () => _lazyPage("./data/beruehmte-de/teil3.js", "steveMcQueenPortraitPage");
 const karinThalerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil4.js", "karinThalerPortraitPage");
 const albertBrooksPortraitPage = () => _lazyPage("./data/beruehmte-de/teil8.js", "albertBrooksPortraitPage");
@@ -27703,6 +27704,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 geb. 1939 in Milwaukee. Choreograf und Ballettdirektor, Hamburg Ballett 1973\u20132024 (\u203aNijinsky\u2039, \u203aDie Kameliendame\u2039). Die Taube, die ihre Tiefe still in Werke fasst.",
     land:"USA/Deutschland", tags:["Tanz"], gender:"m"},
+  { route:"beruehmte-james-dean", name:"James Dean", added:"2026-10-26", subtyp:"SX4w3",
+    heading:"James Dean \u2013 Sexueller Typ 4",
+    teaser:"SX4w3 \u00b7 1931\u20131955. US-amerikanischer Schauspieler (\u203aEast of Eden\u2039, \u203aRebel Without a Cause\u2039, \u203aGiant\u2039). Der Chihuahua, der Sehnsucht und Verletzlichkeit zum Bild einer Generation machte und mit 24 starb.",
+    land:"USA", tags:["Schauspiel","Film"], gender:"m"},
   { route:"beruehmte-steve-mcqueen", name:"Steve McQueen", added:"2026-10-26", subtyp:"SX6w7",
     heading:"Steve McQueen \u2013 Sexueller Typ 6",
     teaser:"SX6w7 \u00b7 1930\u20131980. US-amerikanischer Schauspieler und Rennfahrer (\u203aBullitt\u2039, \u203aThe Great Escape\u2039). Der Wolf, der als verlassenes Kind Stärke zum Schutzschild machte und der ›King of Cool‹ wurde.",
@@ -67024,6 +67029,7 @@ const ROUTES = {
       "beruehmte-albert-brooks": albertBrooksPortraitPage,
       "beruehmte-karin-thaler": karinThalerPortraitPage,
       "beruehmte-steve-mcqueen": steveMcQueenPortraitPage,
+      "beruehmte-james-dean": jamesDeanPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,
