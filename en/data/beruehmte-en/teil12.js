@@ -3077,7 +3077,7 @@ export function garyCooperPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-gary-cooper-portrait.jpg" alt="Gary Cooper – portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-gary-cooper-v2-portrait.jpg" alt="Gary Cooper – portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Gary Cooper</p>
         <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with a One wing</p>
