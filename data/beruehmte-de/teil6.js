@@ -491,6 +491,7 @@ export function elvisPresleyPortraitPage() {
         {route:"beruehmte-giacomo-casanova", label:"Porträt: Giacomo Casanova (SX2w3)"},
         {route:"beruehmte-mata-hari", label:"Porträt: Mata Hari (SX2w3)"},
         {route:"enneagramm-homoeopathie", label:"Enneagramm &amp; Homöopathie"},
+        {route:"beruehmte-karin-thaler", label:"Porträt: Karin Thaler (SX2w3)"},
       ])}
     </div>
   `);

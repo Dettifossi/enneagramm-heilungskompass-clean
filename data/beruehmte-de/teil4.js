@@ -3066,3 +3066,70 @@ export function jimmyWalesPortraitPage() {
     </div>
   `);
 }
+
+export function karinThalerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-karin-thaler-portrait.jpg" alt="Karin Thaler – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Karin Thaler</p>
+        <p class="krim-portrait-typ">SX2w3 &middot; Sexueller Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Deutsche Schauspielerin, geb. 1965 in Deggendorf &ndash; Tierentsprechung: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kamel: tragen, ohne zu klagen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong> trägt seine Last über weite Strecken, ohne viel Aufhebens davon zu machen. Karin Thaler wurde am 12. Juni 1965 in Deggendorf in Niederbayern geboren. Ihr Fernsehdebüt hatte sie 1986 mit ›Gundas Vater‹, dafür erhielt sie nach der Wikipedia-Seite den Goldenen Gong; seit 1987 arbeitet sie am Theater. Ihr erster Kinofilm, ›Das schreckliche Mädchen‹ (1990), wurde für den Oscar nominiert.</p>
+          <p class="vb-intro">Einem großen Publikum wurde sie als Marie Hofer in der ZDF-Serie ›Die Rosenheim-Cops‹ bekannt, in der sie seit den frühen Staffeln mitspielt. Von 2011 bis 2017 war sie in ›Hubert und Staller‹ (und dessen Ableger) zu sehen, dazu in ›Unser Charly‹ als Inka Lenz sowie in ›Der Landarzt‹, ›Ein Bayer auf Rügen‹ und ›Der Bergdoktor‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Zwei: die eine Beziehung, die alles bestimmt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo benannte die sexuelle Zwei mit ›Aggressivität/Verführung‹, gemeint als aktives Zugehen auf den anderen, was die Distanz verkleinert. Bei dieser Zwei zählt nicht die Gruppe, sondern ein einzelner Mensch, für den man alles gibt. Bei Karin Thaler lässt sich das mit der Beziehung zu ihrer Mutter in Verbindung bringen, über die sie 2026 ein Buch schrieb: ›Stark, weil ich stark sein musste – Die Doppelrolle meines Lebens‹ (Knaur, erschienen am 1. April 2026).</p>
+          <p class="vb-intro">Nach den Angaben des Verlags ging es darin um die geliebte, spielsüchtige Mutter, deren Leben mehr und mehr aus den Fugen geriet, während Thalers Karriere wuchs. Thaler habe die Nähe zu ihr verloren und unter dem Doppelleben zwischen Filmset und Familiensorgen gelitten. Nach Berichten half sie auch, Schulden der Mutter zu begleichen. Mit diesem Buch sprach sie erstmals öffentlich über diese Beziehung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Leistung und Haltung nach außen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der Zwei Tatkraft und den Willen, nach außen zu funktionieren. Bei Thaler kann man ihn in dem sehen, was sie selbst ›Doppelrolle‹ nennt, vor der Kamera die verlässliche Marie Hofer, im Privaten die Tochter mit der Last. Laut Wochenspiegel (26. August 2026) sagte sie: ›Ich spielte vor und hinter der Kamera.‹ Die Anforderungen beider Seiten hielt sie lange zugleich aus. Über ein Jahrzehnt litt sie nach dem Bericht an schweren Herzrhythmusstörungen, die der Artikel auf den enormen Druck zurückführt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Verlässlichkeit als Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dass jemand über Jahrzehnte in einer Serie wie den ›Rosenheim-Cops‹ eine feste Figur bleibt, ist ein eigenes Können: Marie Hofer muss Woche für Woche stimmig bleiben, ohne langweilig zu werden. Thaler verkörpert damit eine Verlässlichkeit, die Zuschauer anspricht. Die Rolle der Gerichtsmedizinerin in ›Hubert und Staller‹ zeigt eine zweite Seite ihres Könnens.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: RJ Mitte und Elvis Presley</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-rj-mitte">RJ Mitte (SX2w3)</a> übernahm früh die Verantwortung für seine Familie, auch bei ihm trug das Kamel mehr, als einem Kind zusteht. <a href="#beruehmte-elvis-presley">Elvis Presley (SX2w3)</a> wiederum beschrieb die Liebe seiner Mutter Gladys als seinen sichersten Boden; bei Thaler ist die Mutterbeziehung ebenfalls der Kern, nur dass sie schwierig und belastet war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Verarbeiten: Schreiben und Vergeben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach dem Tod ihrer Mutter 2022 fand Thaler deren 129-seitige Lebensbeschreibung, die sie tief berührte; ihr Buch entstand in elf Monaten mit einer Ghostwriterin. Ihre Widerstandskraft führt sie nach dem Bericht auf innere Stärke und auf Menschen an ihrer Seite zurück, vor allem ihren Mann, den Musiker Milos Malesevic, und ihre beste Freundin. Über Stärke sagt sie: ›Es war eine Belastung, stark sein zu müssen. Aber ich bin daran gewachsen.‹ Und: ›Vergeben ist der Schlüssel zum Glück.‹</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Was bleibt: Stärke, die auch getragen werden darf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Kamel gibt lange, bevor es nach Wasser fragt. Für die sexuelle Zwei heißt Heilung, dass die eigene Last auch geteilt werden darf, und dass Liebe nicht daran hängt, alles zu tragen. Dass Thaler ihre Geschichte erzählt und sich heute als angekommen beschreibt, zeigt diesen Schritt; sie sagt, sie sei ›gut zu mir und meinem inneren Kind‹.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
+        {route:"beruehmte-rj-mitte", label:"Porträt: RJ Mitte (SX2w3)"},
+        {route:"beruehmte-elvis-presley", label:"Porträt: Elvis Presley (SX2w3)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}

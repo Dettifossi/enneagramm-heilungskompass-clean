@@ -491,6 +491,7 @@ export function elvisPresleyPortraitPage() {
         {route:"beruehmte-giacomo-casanova", label:"Portrait: Giacomo Casanova (SX2w3)"},
         {route:"beruehmte-mata-hari", label:"Portrait: Mata Hari (SX2w3)"},
         {route:"enneagramm-homoeopathie", label:"Enneagram &amp; Homeopathy"},
+        {route:"beruehmte-karin-thaler", label:"Portrait: Karin Thaler (SX2w3)"},
       ])}
     </div>
   `);
@@ -3057,6 +3058,73 @@ export function larrySangerPortraitPage() {
         {route:"beruehmte-roger-akelius", label:"Portrait: Roger Akelius (SP5w6)"},
         {route:"beruehmte-jimmy-wales", label:"Portrait: Jimmy Wales (SO5w6)"},
         {route:"beruehmte-juliane-koepcke", label:"Portrait: Juliane Koepcke (SP5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+export function karinThalerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-karin-thaler-portrait.jpg" alt="Karin Thaler – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Karin Thaler</p>
+        <p class="krim-portrait-typ">SX2w3 &middot; Sexual Type 2 with a Three wing</p>
+        <p class="krim-portrait-subtitle">German actress, b. 1965 in Deggendorf &ndash; animal counterpart: camel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The camel: carrying without complaint</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>camel</strong> carries its load over long distances without making much of it. Karin Thaler was born on 12 June 1965 in Deggendorf in Lower Bavaria. Her television debut was in 1986 with ‘Gundas Vater’ (‘Gunda's Father’), for which, according to Wikipedia, she received the Goldener Gong; she has worked in the theater since 1987. Her first cinema film, ‘Das schreckliche Mädchen’ (‘The Nasty Girl’, 1990), was nominated for an Oscar.</p>
+          <p class="vb-intro">A large audience knows her as Marie Hofer in the ZDF series ‘Die Rosenheim-Cops’ (‘The Rosenheim Cops’), in which she has appeared since the early seasons. From 2011 to 2017 she was seen in ‘Hubert und Staller’ (and its spin-off), as well as in ‘Unser Charly’ as Inka Lenz and in ‘Der Landarzt’, ‘Ein Bayer auf Rügen’ and ‘Der Bergdoktor’.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Two: the one relationship that determines everything</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo named the sexual Two ‘Aggressiveness/Seduction’, meaning an active moving toward the other that closes the distance. For this Two it is not the group that counts but a single person for whom one gives everything. In Karin Thaler this can be linked to her relationship with her mother, about which she wrote a book in 2026: ‘Stark, weil ich stark sein musste – Die Doppelrolle meines Lebens’ (‘Strong because I had to be strong – The double role of my life’, Knaur, published on 1 April 2026).</p>
+          <p class="vb-intro">According to the publisher, it is about her beloved mother, who had a gambling addiction and whose life increasingly fell apart while Thaler's career grew. Thaler lost closeness to her and suffered from the double life between film set and family worries. According to reports she also helped settle her mother's debts. With this book she spoke publicly about this relationship for the first time.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three wing: achievement and composure outward</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three wing (w3)</strong> gives the Two drive and the will to function outwardly. In Thaler it can be seen in what she herself calls the ‘double role’: in front of the camera the reliable Marie Hofer, in private the daughter with the burden. According to the Wochenspiegel (26 August 2026) she said: ‘I acted in front of and behind the camera.’ For a long time she withstood the demands of both sides at once. For more than a decade, according to the report, she suffered from severe heart rhythm disturbances, which the article attributes to the enormous pressure.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: reliability as a craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">That someone remains a fixed character in a series like ‘Die Rosenheim-Cops’ over decades is a skill of its own: Marie Hofer must stay consistent week after week without becoming dull. In this Thaler embodies a reliability that appeals to viewers. The role of the forensic pathologist in ‘Hubert und Staller’ shows a second side of her work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: RJ Mitte and Elvis Presley</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-rj-mitte">RJ Mitte (SX2w3)</a> took on responsibility for his family early; in him too the camel carried more than is due a child. <a href="#beruehmte-elvis-presley">Elvis Presley (SX2w3)</a> described his mother Gladys's love as his safest ground; in Thaler the mother relationship is likewise the core, except that it was difficult and burdened.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Processing: writing and forgiving</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After her mother's death in 2022 Thaler found her 129-page account of her life, which moved her deeply; her book came about in eleven months with a ghostwriter. She attributes her resilience, according to the report, to inner strength and to people at her side, above all her husband, the musician Milos Malesevic, and her best friend. About strength she says: ‘It was a burden to have to be strong. But I grew from it.’ And: ‘Forgiving is the key to happiness.’</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. What remains: strength that may also be carried</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The camel gives for a long time before it asks for water. For the sexual Two, healing means that one's own load may also be shared and that love does not depend on carrying everything. That Thaler tells her story and describes herself today as having arrived shows this step; she says she is ‘good to myself and my inner child’.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx2", label:"SX2 – The Camel: subtype profile"},
+        {route:"beruehmte-rj-mitte", label:"Portrait: RJ Mitte (SX2w3)"},
+        {route:"beruehmte-elvis-presley", label:"Portrait: Elvis Presley (SX2w3)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
       ])}
     </div>
   `);

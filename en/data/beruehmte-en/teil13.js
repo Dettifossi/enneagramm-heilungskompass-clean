@@ -3113,6 +3113,7 @@ export function rjMittePortraitPage() {
         {route:"beruehmte-sammy-davis-jr", label:"Portrait: Sammy Davis Jr. (SX2w3)"},
         {route:"beruehmte-ryan-gosling", label:"Portrait: Ryan Gosling (SX2w3)"},
         {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+        {route:"beruehmte-karin-thaler", label:"Portrait: Karin Thaler (SX2w3)"},
       ])}
     </div>
   `);

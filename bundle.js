@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=412";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=413";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -95,6 +95,7 @@ const robbieColtranePortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.j
 const happyAndersonPortraitPage = () => _lazyPage("./data/beruehmte-de/teil2.js", "happyAndersonPortraitPage");
 const paulSimonPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "paulSimonPortraitPage");
 const artGarfunkelPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "artGarfunkelPortraitPage");
+const karinThalerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil4.js", "karinThalerPortraitPage");
 const albertBrooksPortraitPage = () => _lazyPage("./data/beruehmte-de/teil8.js", "albertBrooksPortraitPage");
 const emilyBluntPortraitPage = () => _lazyPage("./data/beruehmte-de/teil13.js", "emilyBluntPortraitPage");
 const rjMittePortraitPage = () => _lazyPage("./data/beruehmte-de/teil9.js", "rjMittePortraitPage");
@@ -27694,6 +27695,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 geb. 1939 in Milwaukee. Choreograf und Ballettdirektor, Hamburg Ballett 1973\u20132024 (\u203aNijinsky\u2039, \u203aDie Kameliendame\u2039). Die Taube, die ihre Tiefe still in Werke fasst.",
     land:"USA/Deutschland", tags:["Tanz"], gender:"m"},
+  { route:"beruehmte-karin-thaler", name:"Karin Thaler", added:"2026-10-26", subtyp:"SX2w3",
+    heading:"Karin Thaler \u2013 Sexueller Typ 2",
+    teaser:"SX2w3 \u00b7 geb. 1965 in Deggendorf. Deutsche Schauspielerin (Marie Hofer in \u203aDie Rosenheim-Cops\u2039, \u203aHubert und Staller\u2039). Das Kamel, das als Tochter und als Schauspielerin eine Doppelrolle trug.",
+    land:"Deutschland", tags:["Schauspiel"], gender:"f"},
   { route:"beruehmte-albert-brooks", name:"Albert Brooks", added:"2026-10-26", subtyp:"SO6w7",
     heading:"Albert Brooks \u2013 Sozialer Typ 6",
     teaser:"SO6w7 \u00b7 geb. 1947 in Beverly Hills. US-amerikanischer Komiker, Regisseur und Schauspieler (\u203aLost in America\u2039, \u203aBroadcast News\u2039, \u203aDrive\u2039). Das Erdmännchen, das die Angst der Gruppe zur Pointe macht.",
@@ -66930,6 +66935,7 @@ const ROUTES = {
       "beruehmte-rj-mitte": rjMittePortraitPage,
       "beruehmte-emily-blunt": emilyBluntPortraitPage,
       "beruehmte-albert-brooks": albertBrooksPortraitPage,
+      "beruehmte-karin-thaler": karinThalerPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,
