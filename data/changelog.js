@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2659", date: "2026-10-26", text: "Hinweis: Eine persönliche Typberatung bei Detlef oder David Rathmer ist jederzeit möglich – Ausgangspunkt dafür ist oft der Gesichts-Scan.", text_en: "A note: a personal type consultation with Detlef or David Rathmer is possible at any time – the Face Scan is often a good starting point for it.", route: "gesichts-scan" },
     { version: "v2658", date: "2026-10-26", text: "Neues Porträt: Art Garfunkel (SX9w1) – Sänger, Dichter und Schauspieler, die helle Stimme von Simon & Garfunkel.", text_en: "New portrait: Art Garfunkel (SX9w1) – singer, poet and actor, the bright voice of Simon & Garfunkel.", route: "beruehmte-art-garfunkel" },
     { version: "v2657", date: "2026-10-26", text: "Neues Porträt: Paul Simon (SE4w5) – Singer-Songwriter von Simon & Garfunkel, ›Graceland‹ und ›Seven Psalms‹.", text_en: "New portrait: Paul Simon (SP4w5) – singer-songwriter of Simon & Garfunkel, ‘Graceland’ and ‘Seven Psalms’.", route: "beruehmte-paul-simon" },
     { version: "v2656", date: "2026-10-26", text: "Neues Porträt: Happy Anderson (SE9w8) – US-amerikanischer Schauspieler, bekannt aus ›Mindhunter‹ und ›The Knick‹.", text_en: "New portrait: Happy Anderson (SP9w8) – American actor, known from ‘Mindhunter’ and ‘The Knick’.", route: "beruehmte-happy-anderson" },
