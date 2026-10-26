@@ -5073,7 +5073,7 @@ export function bruceLeeKrankheitsportraetPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
         <p class="vb-intro"><strong>a) Eine Rückenverletzung 1970:</strong>
-        Schon 1970 erlitt Lee nach dem Berühmte-Porträt eine Rückenverletzung, die ihm Schmerzen bereitete. Das zeigt, wie hart er mit dem eigenen Körper arbeitete: Er verstand ihn als Werkzeug und trainierte an der Grenze.</p>
+        Schon 1970 erlitt Lee eine Rückenverletzung, wie sein Porträt unter Berühmte Persönlichkeiten festhält; sie bereitete ihm Schmerzen. Das zeigt, wie hart er mit dem eigenen Körper arbeitete: Er verstand ihn als Werkzeug und trainierte an der Grenze.</p>
         <p class="vb-intro"><strong>b) Der Kollaps am 10. Mai 1973:</strong>
         Lee brach während der Nachsynchronisation von ›Enter the Dragon‹ im Golden-Harvest-Studio in Hongkong zusammen. Nach der Darstellung der englischen Wikipedia hatte er epileptische Anfälle und Kopfschmerzen, hohes Fieber und atmete zeitweise nicht. Im Baptist-Krankenhaus diagnostizierten die Ärzte ein Hirnödem (Flüssigkeitsansammlung und Schwellung im Gehirn), das sie mit Mannitol, einem entwässernden Medikament, zurückdrängten.</p>
         <p class="vb-intro"><strong>c) Ein Befund in den USA:</strong>
@@ -5123,7 +5123,7 @@ export function bruceLeeKrankheitsportraetPage() {
       <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
         <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
         <p class="vb-intro"><strong>a) Ein Körper als Werkzeug und Aushängeschild:</strong>
-        Die soziale Drei richtet ihr Können auf Wirkung und Prestige aus (Naranjo), und bei Lee war der Körper selbst das Instrument. Er trainierte nach dem Berühmte-Porträt konsequent Schnelligkeit und Körper und interessierte sich früh für Ernährung und Nahrungsergänzung. Ein Körper, der so gefordert wird, gerät leichter an Grenzen, die niemand beachtet.</p>
+        Die soziale Drei richtet ihr Können auf Wirkung und Prestige aus (Naranjo), und bei Lee war der Körper selbst das Instrument. Er trainierte, wie sein Porträt unter Berühmte Persönlichkeiten beschreibt, konsequent Schnelligkeit und Körper und interessierte sich früh für Ernährung und Nahrungsergänzung. Ein Körper, der so gefordert wird, gerät leichter an Grenzen, die niemand beachtet.</p>
         <p class="vb-intro"><strong>b) Eine Parallele im selben Subtyp:</strong>
         <a href=\"javascript:void(0)\" data-route=\"krankheitsportraets-karl-lagerfeld\">Karl Lagerfeld</a> (SO3w4) hielt eine Krebsdiagnose fast vier Jahre lang selbst vor engsten Vertrauten geheim und arbeitete bis kurz vor seinem Tod. Beide zeigen, wie die soziale Drei das Bild der Leistungsfähigkeit schützt. Bei Lee gibt es allerdings keine Hinweise auf Geheimhaltung, sondern auf Weitermachen nach einer akuten Warnung. Mehr dazu im <a href=\"javascript:void(0)\" data-route=\"krankheitsportraets-karl-lagerfeld\">Krankheitsporträt zu Karl Lagerfeld</a>.</p>
         <p class="vb-intro"><strong>c) Weitermachen nach der Warnung:</strong>
