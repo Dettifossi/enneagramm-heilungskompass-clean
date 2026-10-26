@@ -1461,7 +1461,7 @@ export function reinhardMeyPortraitPage() {
 
         <h2 class="vb-section">6. Parallelen im selben Subtyp: Dieter Thomas Heck, Jörg Kachelmann und Eleanor Roosevelt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="#beruehmte-dieter-thomas-heck">Dieter Thomas Heck (SO9w1)</a> hielt als Moderator über Jahrzehnte ein Publikum zusammen, so wie Mey es als Sänger tat, allerdings lauter und im Rampenlicht. <a href="#beruehmte-joerg-kachelmann">Jörg Kachelmann (SO9w1)</a> macht ein gemeinsames Thema, das Wetter, für alle verständlich und streitet für Genauigkeit; bei Mey liegt die Genauigkeit im Handwerk. <a href="#beruehmte-eleanor-roosevelt">Eleanor Roosevelt (SO9w1)</a> zeigt dieselbe Konstellation aus Gemeinsinn und innerem Maßstab im politischen Raum.</p>
+          <p class="vb-intro"><a href="#beruehmte-dieter-thomas-heck">Dieter Thomas Heck (SO9w1)</a> hielt als Moderator über Jahrzehnte ein Publikum zusammen, so wie Mey es als Sänger tat, allerdings lauter und im Rampenlicht. <a href="#beruehmte-joerg-kachelmann">Jörg Kachelmann (SO9w1)</a> macht ein gemeinsames Thema, das Wetter, für alle verständlich und streitet für Genauigkeit; bei Mey liegt die Genauigkeit im Handwerk, und dem Wetter hat er mit ›Weil ich ein Meteorologe bin‹ (1975) sogar ein ganzes Lied gewidmet. <a href="#beruehmte-eleanor-roosevelt">Eleanor Roosevelt (SO9w1)</a> zeigt dieselbe Konstellation aus Gemeinsinn und innerem Maßstab im politischen Raum.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Der Weg: vom Ausgleichen zum Dasein mit der eigenen Stimme</h2>

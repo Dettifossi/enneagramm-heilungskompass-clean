@@ -1380,7 +1380,7 @@ export function reinhardMeyPortraitPage() {
 
         <h2 class="vb-section">6. Parallels in the same subtype: Dieter Thomas Heck, Jörg Kachelmann and Eleanor Roosevelt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="#beruehmte-dieter-thomas-heck">Dieter Thomas Heck (SO9w1)</a> held an audience together for decades as a presenter, as Mey did as a singer, though more loudly and in the spotlight. <a href="#beruehmte-joerg-kachelmann">Jörg Kachelmann (SO9w1)</a> makes a shared subject, the weather, understandable to all and fights for accuracy; in Mey the accuracy lies in the craft. <a href="#beruehmte-eleanor-roosevelt">Eleanor Roosevelt (SO9w1)</a> shows the same constellation of community spirit and inner standard in the political sphere.</p>
+          <p class="vb-intro"><a href="#beruehmte-dieter-thomas-heck">Dieter Thomas Heck (SO9w1)</a> held an audience together for decades as a presenter, as Mey did as a singer, though more loudly and in the spotlight. <a href="#beruehmte-joerg-kachelmann">Jörg Kachelmann (SO9w1)</a> makes a shared subject, the weather, understandable to all and fights for accuracy; in Mey the accuracy lies in the craft, and he even dedicated a whole song to the weather with ‘Weil ich ein Meteorologe bin’ (‘Because I Am a Meteorologist’, 1975). <a href="#beruehmte-eleanor-roosevelt">Eleanor Roosevelt (SO9w1)</a> shows the same constellation of community spirit and inner standard in the political sphere.</p>
         </blockquote>
 
         <h2 class="vb-section">7. The path: from balancing to being with one's own voice</h2>
