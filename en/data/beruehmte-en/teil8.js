@@ -1357,7 +1357,7 @@ export function reinhardMeyPortraitPage() {
         <h2 class="vb-section">2. The social Nine: participation through the shared song</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In Naranjo's language the subtype of the social Nine is called ‘Participation’: the Nine finds a place by taking part in a shared cause, and what is shared becomes home. In Mey this can be linked to the way his songs work. ‘Gute Nacht, Freunde’ (‘Good Night, Friends’) is a farewell song for an evening that a whole audience shares, and ‘Über den Wolken’, with its lines about freedom, belongs to many. His songs reached the same audience across generations without pandering to it.</p>
-          <p class="vb-intro">It fits that he was never quite at home in the world of Schlager and stayed on his own path with guitar, long lines of text and quiet irony. His protest song ‘Nein, meine Söhne geb' ich nicht’ (‘No, I Won't Give My Sons’, 1986), too, is not a slogan for the crowd but a personal confession: protecting one's own children from war and state claims. The drawing shows a friendly, alert face with a calm gaze that listens more than it demands.</p>
+          <p class="vb-intro">It fits that he was never quite at home in the world of Schlager and went his own way with guitar, long lines of text and quiet irony. His protest song ‘Nein, meine Söhne geb' ich nicht’ (‘No, I Won't Give My Sons’, 1986), too, is not a slogan for the crowd but a personal confession: protecting one's own children from war and state claims. The drawing shows a friendly, alert face with a calm gaze that listens more than it demands.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The One wing: standard, craft and order</h2>
