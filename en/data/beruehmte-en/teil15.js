@@ -3118,7 +3118,7 @@ export function annieLennoxPortraitPage() {
 
         <h2 class="vb-section">3. The Two wing: care as a task</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two wing (w2)</strong> gives the One attentiveness. In Lennox it shows in her putting her fame at the service of others. She founded the SING Campaign, which supports women and children affected by HIV and AIDS, and in 2008 the women's organisation The Circle. In 2010 she became UNESCO Goodwill Ambassador for AIDS. She also supports Amnesty International, Greenpeace and LGBT rights; in 2011 she was appointed OBE for her charity campaigns and her championing of humanitarian causes. In October 2023 she signed an open letter calling for a ceasefire in Gaza.</p>
+          <p class="vb-intro">The <strong>Two wing (w2)</strong> gives the One attentiveness. In Lennox it shows in her putting her fame at the service of others. She founded the SING Campaign, which supports women and children affected by HIV and AIDS, and in 2008 the women's organisation The Circle. In 2010 she became UNESCO Goodwill Ambassador for AIDS. She also supports Amnesty International, Greenpeace and LGBT rights; in 2011 she was appointed OBE (Officer of the Order of the British Empire, a British honour) for her charity campaigns and her championing of humanitarian causes. In October 2023 she signed an open letter calling for a ceasefire in Gaza.</p>
           <p class="vb-intro">From 2017 to 2024 she was Chancellor of Glasgow Caledonian University; a building there bears her name. In 2025 she spoke out against the cuts to UK foreign aid.</p>
         </blockquote>
 
