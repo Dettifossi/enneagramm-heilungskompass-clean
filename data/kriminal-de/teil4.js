@@ -498,7 +498,7 @@ export function alexMurdaughPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SX1 \u2013 \u201eEifersucht / Zeal":</strong>
+        <p class="vb-intro"><strong>a) Naranjos SX1 \u2013 \u201eEifersucht / Zeal (Eifer)":</strong>
         Claudio Naranjo nannte den Sexuellen Typ 1
         den Kontratyp der Eins \u2013 den Subtyp,
         der am wenigsten nach einer Eins aussieht.
