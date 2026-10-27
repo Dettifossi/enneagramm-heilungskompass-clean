@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=432";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=433";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -105,6 +105,7 @@ const steveMcQueenPortraitPage = () => _lazyPage("./data/beruehmte-de/teil3.js",
 const karinThalerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil4.js", "karinThalerPortraitPage");
 const arzneimittelbilderPage = () => _lazyPage("./data/wissen-de/arzneimittelbilder.js", "arzneimittelbilderPage");
 const spirituellesEnneagrammPage = () => _lazyPage("./data/wissen-de/spirituelles-enneagramm.js", "spirituellesEnneagrammPage");
+const endeDerSuchePage = () => _lazyPage("./data/praxistipps-de/ende-der-suche.js", "endeDerSuchePage");
 const albertBrooksPortraitPage = () => _lazyPage("./data/beruehmte-de/teil8.js", "albertBrooksPortraitPage");
 const emilyBluntPortraitPage = () => _lazyPage("./data/beruehmte-de/teil13.js", "emilyBluntPortraitPage");
 const rjMittePortraitPage = () => _lazyPage("./data/beruehmte-de/teil9.js", "rjMittePortraitPage");
@@ -34428,6 +34429,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"das-ewige-ich-bin", titel:"Das ewige \u201eIch bin\u201c: Der Enneagramm-Heilungskompass jenseits der Fixierung", teaser:"Wie Judentum, Christentum, Hinduismus, Buddhismus, Islam und Taoismus denselben stillen Seinsgrund beschreiben \u2013 und was das f\u00fcr die Enneagramm-Arbeit bedeutet.", img:"./assets/schaubilder/das-ewige-ich-bin/das-ewige-ich-bin.jpg", kategorie:"geist" },
     { slug:"chakra-kern-uebung", titel:"Der Chakra-Kern Ihres Enneagrammtyps", teaser:"Die neun Enneagrammtypen, neun K\u00f6rperzentren und die passenden hom\u00f6opathischen Konstitutionsmittel \u2013 und eine kurze \u00dcbung, um die eigene Zone bewusst zu sp\u00fcren.", img:"./assets/schaubilder/chakra-kern-uebung/chakra-kern-uebung.jpg", kategorie:"geist" },
     { slug:"dein-wille-geschehe", titel:"›Dein Wille geschehe‹: Hingabe statt Ego-Wille", teaser:"Was Christentum, Taoismus, Zen und Sufismus über den Eigenwillen sagen – und wie sich das ›Mein Wille geschehe‹ bei allen 27 Enneagramm-Subtypen zeigt, mit der Hingabe als Gegenstück.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/dein-wille-geschehe/dein-wille-geschehe.jpg", kategorie:"geist" },
+    { slug:"ende-der-suche", titel:"Wenn die Suche still wird: Das Ende der Suche und die 13 Illusionen des spirituellen Suchers", teaser:"Warum nichts hinzugefügt werden muss, um vollständig zu sein – 13 Illusionen vom Subjekt bis zum Leiden, jeweils mit Übungen zur Selbstbeobachtung.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/ende-der-suche/ende-der-suche.jpg", kategorie:"geist" },
   ];
   const TIPP_KATEGORIEN = [
     { id:"koerper", label:"K\u00f6rper & Bewegung", icon:"\ud83e\udded" },
@@ -34492,6 +34494,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "dein-wille-geschehe") {
     return deinWilleGeschehePage();
+  }
+  if (param === "ende-der-suche") {
+    return endeDerSuchePage();
   }
 
   return shell(`
