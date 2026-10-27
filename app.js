@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=428";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=429";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -96,6 +96,7 @@ const happyAndersonPortraitPage = () => _lazyPage("./data/beruehmte-de/teil2.js"
 const paulSimonPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "paulSimonPortraitPage");
 const artGarfunkelPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "artGarfunkelPortraitPage");
 const jamesStewartPortraitPage = () => _lazyPage("./data/beruehmte-de/teil14.js", "jamesStewartPortraitPage");
+const marieleMillowitschPortraitPage = () => _lazyPage("./data/beruehmte-de/teil11.js", "marieleMillowitschPortraitPage");
 const garyCooperPortraitPage = () => _lazyPage("./data/beruehmte-de/teil2.js", "garyCooperPortraitPage");
 const joergKachelmannPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "joergKachelmannPortraitPage");
 const jamesDeanPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "jamesDeanPortraitPage");
@@ -27711,6 +27712,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 geb. 1939 in Milwaukee. Choreograf und Ballettdirektor, Hamburg Ballett 1973\u20132024 (\u203aNijinsky\u2039, \u203aDie Kameliendame\u2039). Die Taube, die ihre Tiefe still in Werke fasst.",
     land:"USA/Deutschland", tags:["Tanz"], gender:"m"},
+  { route:"beruehmte-mariele-millowitsch", name:"Mariele Millowitsch", added:"2026-10-27", subtyp:"SX9w1",
+    heading:"Mariele Millowitsch \u2013 Sexueller Typ 9",
+    teaser:"SX9w1 \u00b7 geb. 1955 in K\u00f6ln. Schauspielerin und Tier\u00e4rztin (\u203aNikola\u2039, \u203agirl friends\u2039, \u203aMarie Brand\u2039). Das Faultier, das sich an wenige, lang laufende Rollen und Hunde bindet und die Ruhe aus dem lauten Haus des Volksschauspielers mitnahm.",
+    land:"Deutschland", tags:["Schauspiel","Film"], gender:"f"},
   { route:"beruehmte-james-stewart", name:"James Stewart", added:"2026-10-26", subtyp:"SX9w1",
     heading:"James Stewart \u2013 Sexueller Typ 9",
     teaser:"SX9w1 \u00b7 1908\u20131997. US-amerikanischer Schauspieler und Pilot (\u203aMr. Smith Goes to Washington\u2039, \u203aIt\u2019s a Wonderful Life\u2039). Das Faultier, das sich in den anständigen Jedermann verwandelte und seine Verwundbarkeit im Leisen zeigte.",
@@ -67423,6 +67428,7 @@ const ROUTES = {
       "beruehmte-james-dean": jamesDeanPortraitPage,
       "beruehmte-gary-cooper": garyCooperPortraitPage,
       "beruehmte-james-stewart": jamesStewartPortraitPage,
+      "beruehmte-mariele-millowitsch": marieleMillowitschPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,
