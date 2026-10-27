@@ -243,8 +243,6 @@ const ROUTES = [
   { hash: "en/#david-rathmer-gespraech", label: "EN David Rathmer conversation" },
   { hash: "#beruehmte-john-neumeier", label: "Neues Porträt: John Neumeier" },
   { hash: "en/#beruehmte-john-neumeier", label: "Neues EN-Porträt: John Neumeier" },
-  { hash: "#beruehmte-joerg-kachelmann", label: "Neues Porträt: Jörg Kachelmann" },
-  { hash: "en/#beruehmte-joerg-kachelmann", label: "Neues EN-Porträt: Jörg Kachelmann" },
   { hash: "#beruehmte-james-dean", label: "Neues Porträt: James Dean" },
   { hash: "en/#beruehmte-james-dean", label: "Neues EN-Porträt: James Dean" },
   { hash: "#beruehmte-steve-mcqueen", label: "Neues Porträt: Steve McQueen" },

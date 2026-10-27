@@ -3980,7 +3980,6 @@ export function jensRiewaPortraitPage() {
         {route:"beruehmte-anne-will", label:"Portrait: Anne Will (SP1w2) – presenter, different subtype"},
         {route:"beruehmte-dieter-thomas-heck", label:"Portrait: Dieter Thomas Heck (SO9w1)"},
         {route:"beruehmte-hans-sigl", label:"Portrait: Hans Sigl (SO9w1)"},
-        {route:"beruehmte-joerg-kachelmann", label:"Portrait: Jörg Kachelmann (SO9w1)"},
       ])}
     </div>
   `);
@@ -4382,7 +4381,6 @@ export function dieterThomasHeckPortraitPage() {
         {route:"beruehmte-jens-riewa", label:"Portrait: Jens Riewa (SO9w1) – same subtype, also hosted a Schlagerparade"},
         {route:"beruehmte-tom-hanks", label:"Portrait: Tom Hanks (SO9w1) – same subtype, reliability as a trademark"},
         {route:"beruehmte-hans-sigl", label:"Portrait: Hans Sigl (SO9w1)"},
-        {route:"beruehmte-joerg-kachelmann", label:"Portrait: Jörg Kachelmann (SO9w1)"},
       ])}
     </div>
   `);

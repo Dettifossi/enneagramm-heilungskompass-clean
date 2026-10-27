@@ -3991,7 +3991,6 @@ export function jensRiewaPortraitPage() {
         {route:"beruehmte-anne-will", label:"Porträt: Anne Will (SE1w2) – Moderatorin, anderer Subtyp"},
         {route:"beruehmte-dieter-thomas-heck", label:"Porträt: Dieter Thomas Heck (SO9w1)"},
         {route:"beruehmte-hans-sigl", label:"Porträt: Hans Sigl (SO9w1)"},
-        {route:"beruehmte-joerg-kachelmann", label:"Porträt: Jörg Kachelmann (SO9w1)"},
       ])}
     </div>
   `);
@@ -4393,7 +4392,6 @@ export function dieterThomasHeckPortraitPage() {
         {route:"beruehmte-jens-riewa", label:"Porträt: Jens Riewa (SO9w1) – derselbe Subtyp, moderierte ebenfalls eine Schlagerparade"},
         {route:"beruehmte-tom-hanks", label:"Porträt: Tom Hanks (SO9w1) – derselbe Subtyp, Verlässlichkeit als Markenzeichen"},
         {route:"beruehmte-hans-sigl", label:"Porträt: Hans Sigl (SO9w1)"},
-        {route:"beruehmte-joerg-kachelmann", label:"Porträt: Jörg Kachelmann (SO9w1)"},
       ])}
     </div>
   `);

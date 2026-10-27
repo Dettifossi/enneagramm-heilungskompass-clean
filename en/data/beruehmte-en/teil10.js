@@ -2988,6 +2988,7 @@ export function klausMariaBrandauerPortraitPage() {
   `);
 }
 
+// ZURÜCKGESTELLT (27.10.2026): Porträt unveröffentlicht – nicht in Route-Map, Array, Register, Changelog. Wiederherstellung: siehe Memory project_kachelmann_zurueckgestellt.
 export function joergKachelmannPortraitPage() {
   return shell(`
     <div class="page-container">

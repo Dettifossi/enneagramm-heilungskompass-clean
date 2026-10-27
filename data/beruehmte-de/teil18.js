@@ -2735,7 +2735,6 @@ export function hansSiglPortraitPage() {
         {route:"beruehmte-peter-falk", label:"Porträt: Peter Falk (SO9w1) – Schauspieler, derselbe Subtyp und Flügel"},
         {route:"beruehmte-dany-boon", label:"Porträt: Dany Boon (SO9w1)"},
         {route:"beruehmte-tom-hanks", label:"Porträt: Tom Hanks (SO9w1)"},
-        {route:"beruehmte-joerg-kachelmann", label:"Porträt: Jörg Kachelmann (SO9w1)"},
       ])}
     </div>
   `);

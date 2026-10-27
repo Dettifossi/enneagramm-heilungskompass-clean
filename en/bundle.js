@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=423";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=424";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -1968,10 +1968,6 @@ const BERUEHMT_PORTRAITS = [
     heading:"Gary Cooper \u2013 Sexual Type 9",
     teaser:"SX9w1 \u00b7 1901\u20131961. American actor (\u2018High Noon\u2019, \u2018Sergeant York\u2019). The Sloth who let himself fall into his roles and became a legend as the calm, decent Western hero.",
     land:"USA", tags:["Schauspiel","Film"], gender:"m"},
-{ route:"beruehmte-joerg-kachelmann", name:"Jörg Kachelmann", added:"2026-10-26", subtyp:"SO9w1",
-    heading:"Jörg Kachelmann \u2013 Social Type 9",
-    teaser:"SO9w1 \u00b7 b. 1958. Swiss meteorologist and broadcaster (\u2018Das Wetter im Ersten\u2019, \u2018Riverboat\u2019). The Buffalo who explains the weather for everyone and likes to argue about accuracy.",
-    land:"Switzerland/Germany", tags:["Medien"], gender:"m"},
 { route:"beruehmte-james-dean", name:"James Dean", added:"2026-10-26", subtyp:"SX4w3",
     heading:"James Dean \u2013 Sexual Type 4",
     teaser:"SX4w3 \u00b7 1931\u20131955. American actor (\u2018East of Eden\u2019, \u2018Rebel Without a Cause\u2019, \u2018Giant\u2019). The Chihuahua who turned longing and vulnerability into the image of a generation and died at 24.",
@@ -47151,7 +47147,6 @@ function subtypeSchaubilderPage() {
       "beruehmte-karin-thaler": karinThalerPortraitPage,
       "beruehmte-steve-mcqueen": steveMcQueenPortraitPage,
       "beruehmte-james-dean": jamesDeanPortraitPage,
-      "beruehmte-joerg-kachelmann": joergKachelmannPortraitPage,
       "beruehmte-gary-cooper": garyCooperPortraitPage,
       "beruehmte-james-stewart": jamesStewartPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
