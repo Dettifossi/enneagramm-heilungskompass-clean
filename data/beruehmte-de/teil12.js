@@ -3096,3 +3096,73 @@ export function robbieColtranePortraitPage() {
     </div>
   `);
 }
+
+export function georgPreussePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-georg-preusse-portrait.jpg" alt="Georg Preuße – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Georg Preuße (›Mary‹)</p>
+        <p class="krim-portrait-typ">SX2w3 &middot; Sexueller Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Deutsch-schweizerischer Schauspieler und Travestiekünstler, geb. 1950 in Ankum &ndash; Bühnenfigur ›Mary‹, ›Mary &amp; Gordy‹ &ndash; Tierentsprechung: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kamel: ein Junge, der früh lernte, sich zu verstecken und doch weiterzugehen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong> trägt schwere Last durch karges Land und braucht dafür wenig. Georg Wilhelm Johannes Preuße kam am 24. August 1950 in Ankum im Osnabrücker Land zur Welt und wurde zunächst Rundfunk- und Fernsehtechniker, ein solides Handwerk. Neben dem Beruf trat er schon jung in Clubs als Travestiekünstler auf und schuf dort die Figur ›Mary Morgan‹.</p>
+          <p class="vb-intro">Der Weg dorthin war nicht leicht. Nach einem Bericht der Schweizer Zeitung Blick lehnten seine Eltern seine Homosexualität ab; der Vater habe ihn für krank gehalten und zum Psychiater geschickt, und als er ankündigte, in Frauenkleidern aufzutreten, warfen sie ihn aus dem Haus. Im Rückblick sieht er in diesem Rauswurf den Beginn seiner Bühnenlaufbahn. Seine Autobiografie ›Mary – Mein Leben in ihrem Schatten‹ erzählt unter anderem von dieser schwierigen Kindheit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Zwei: eine Figur, die dem ganzen Saal zulächelt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo nannte die sexuelle Zwei ›Aggressivität/Verführung‹: ein aktives Zugehen auf den anderen, das Nähe schaffen soll. Bei Preuße lässt sich das mit der Figur ›Mary‹ in Verbindung bringen, einer glamourösen, warmherzigen und sehr zugewandten Bühnenpersönlichkeit, die Säle füllte. Das Publikum wurde nicht nur unterhalten, sondern persönlich angesprochen. Dass ein Mensch, der zu Hause abgelehnt wurde, auf der Bühne viel Zuneigung bekam, lässt sich mit dem Bedürfnis der Zwei in Verbindung bringen, geliebt zu werden.</p>
+          <p class="vb-intro">Die eine tragende Bindung im Privaten ist sein Mann Jack Amsler, der Schweizer, der auch sein Manager war und mit dem er nach dem Blick-Bericht seit fast fünfzig Jahren zusammen ist; das Paar ließ sich im Juli 2002 trauen und lebt in Ringwil im Kanton Zürich. Das Foto zeigt einen älteren Mann mit zurückgekämmtem, grau meliertem Haar, hoher, quer gefurchter Stirn, hochgezogenen Brauen und warmen Augen mit Lachfalten. Das breite Lächeln zeigt die oberen Zähne und wirkt offen und zugewandt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Verwandlung, Handwerk und Bühnenfleiß</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der Zwei Tatkraft, Außenwirkung und den Willen, sich in etwas zu verwandeln, das trägt. Bei Preuße steht dafür die Figur ›Mary‹ selbst: ein sorgfältig gebautes Bild mit Kostümen, Frisuren und Auftritten. Rund 800 Show-Kostüme lagern nach seinen Angaben im Keller. Zum Dreier gehört auch, dass er nicht bei der Revue stehen blieb, sondern ins Schauspiel wechselte, ein Wagnis für jemanden, der als Mary bekannt war.</p>
+          <p class="vb-intro">Auszeichnungen belegen die Außenwirkung: 1999 der Berliner Bär (B.Z.-Kulturpreis), dreimal der Goldene Vorhang als beliebtester Berliner Schauspieler, 2004 der Peter-Frankenfeld-Preis. Er warb zeitweise für Konfitüre und hatte eigene Shows im deutschen Fernsehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: von der Travestiebühne ins Sprechtheater</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Anfang der 1980er-Jahre trat er im Duo mit Reiner Kohler als ›Mary &amp; Gordy‹ auf. Die beiden machten sechs Fernsehshows (1981–1986), tourten weit und erhielten 1987 die Goldene Kamera der Hörzu. Als Kohler seine Laufbahn 1987 aus gesundheitlichen Gründen beendete, machte Preuße als ›Mary‹ allein weiter, mit Tourneen und eigenen Fernsehshows; er füllte große Hallen wie das Hallenstadion Zürich.</p>
+          <p class="vb-intro">Dann folgte der Schritt, der sein Können sichtbar macht: Er spielte Theater. Im Musical ›Cabaret‹ (1993–1994) war er der Conferencier, davor in ›Narrenkäfig‹ (1991–1993), später in Brechts ›Die Dreigroschenoper‹ (2005–2006), in Borcherts ›Draußen vor der Tür‹ (2002) und in Hochhuths ›Der Stellvertreter‹ (2018); in Hofmannsthals ›Jedermann‹ stand er von 2000 bis 2014. Dazu kamen Fernsehrollen, etwa in ›Derrick‹ (1997) und ›SOKO München‹ (2018). Sein Können liegt darin, sich nicht auf die Maske beschränken zu lassen, sondern auch ohne sie ein Publikum zu tragen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Sammy Davis Jr. und Elvis Presley</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-sammy-davis-jr">Sammy Davis Jr. (SX2w3)</a> gab sich dem Publikum mit seiner ganzen Vielseitigkeit hin und begann ebenfalls im Ensemble, im Trio mit Vater und Partner; bei Preuße war es das Duo ›Mary &amp; Gordy‹. Beide sind Entertainer, die ihre Wärme in Bühnenpräsenz verwandeln. <a href="#beruehmte-elvis-presley">Elvis Presley (SX2w3)</a> ist ein weiteres Beispiel für eine Bühnenpersönlichkeit, deren Wärme dem ganzen Saal gilt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Verborgene und das Gezeigte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach dem Blick-Bericht gehört ›Mary‹ heute der Vergangenheit an. Dass er der Figur ein eigenes Buch widmete, in dem sie als ›Schatten‹ vorkommt, lässt sich so lesen, dass er Maske und Mensch selbst auseinanderhält. Für die Zwei liegt darin ein wichtiger Schritt: Zuneigung gilt nicht nur der Rolle, sondern auch dem Menschen dahinter.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand und Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am 20. März 2022 feierte Preuße sein 40-jähriges Bühnenjubiläum als ›Mary‹ mit der Benefizsingle ›Noch singe ich‹. Er ist Botschafter der Initiative ›Superhelden fliegen vor‹, die junge, unheilbar kranke Menschen unterstützt. Er besitzt den Schweizer Pass; das Paar reist gern mit dem Wohnmobil, Jack plant die Routen. Er möchte 93 Jahre alt werden und hat mit seinem Mann Testament und Patientenverfügung verfasst: ›Ich möchte niemandem zur Last fallen.‹ (Stand 27. Oktober 2026).</p>
+          <p class="vb-intro">Für die sexuelle Zwei mit Dreierflügel liegt der Weg darin, dass Zuwendung auch angenommen werden darf, ohne dass erst etwas geleistet sein muss. Der Wunsch, niemandem zur Last zu fallen, lässt sich mit dem Muster der Zwei in Verbindung bringen; sein Wunsch, ›einmal leicht und mit einem guten Gewissen gehen‹ zu können, lässt sich mit dem Bild des Kamels verbinden, das lange getragen hat.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
+        {route:"beruehmte-sammy-davis-jr", label:"Porträt: Sammy Davis Jr. (SX2w3)"},
+        {route:"beruehmte-elvis-presley", label:"Porträt: Elvis Presley (SX2w3)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
