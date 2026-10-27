@@ -231,6 +231,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-james-stewart", label: "Neues EN-Porträt: James Stewart" },
   { hash: "#beruehmte-gary-cooper", label: "Neues Porträt: Gary Cooper" },
   { hash: "en/#beruehmte-gary-cooper", label: "Neues EN-Porträt: Gary Cooper" },
+  { hash: "#kindheitspraegungen-enneagramm", label: "Neu: Kindheitsprägungen" },
+  { hash: "en/#kindheitspraegungen-enneagramm", label: "Neu EN: Kindheitsprägungen" },
   { hash: "#tugenden-enneagramm", label: "Neu: Tugenden im Enneagramm" },
   { hash: "en/#tugenden-enneagramm", label: "Neu EN: Tugenden im Enneagramm" },
   { hash: "#david-daniels-gesetze", label: "Neu: David Daniels Gesetze" },

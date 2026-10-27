@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=421";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=422";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -5945,7 +5945,7 @@ function _neuAktiv(route) {
   return !!d && (new Date() - new Date(d)) < 30 * 864e5;
 }
 
-const HEILWISSEN_ROUTES = new Set(["wann-entsteht-der-typ", "kroetenschlucken", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "nicht-reale-vorstellungen", "wahnideen-nicht-reale-vorstellungen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9, "mindmaps-single-rubriken", "mindmap-platin", "mindmap-ignatia", "mindmap-hyoscyamus", "mindmap-tarentula", "mindmap-stramonium", "mindmap-opium", "mindmap-belladonna", "mindmap-veratrum", "mindmap-cannabis", "claudio-naranjo-lehrer", "david-daniels-gesetze", "tugenden-enneagramm"].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["wann-entsteht-der-typ", "kroetenschlucken", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "nicht-reale-vorstellungen", "wahnideen-nicht-reale-vorstellungen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9, "mindmaps-single-rubriken", "mindmap-platin", "mindmap-ignatia", "mindmap-hyoscyamus", "mindmap-tarentula", "mindmap-stramonium", "mindmap-opium", "mindmap-belladonna", "mindmap-veratrum", "mindmap-cannabis", "claudio-naranjo-lehrer", "david-daniels-gesetze", "tugenden-enneagramm", "kindheitspraegungen-enneagramm"].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -6088,6 +6088,7 @@ text.nav = [
     { route: "claudio-naranjo-lehrer", label: "Claudio Naranjo: Teacher and Pioneer of the Subtypes" },
     { route: "david-daniels-gesetze", label: "David Daniels: The Three Energy–Attention Laws" },
     { route: "tugenden-enneagramm", label: "The Virtues in the Enneagram" },
+    { route: "kindheitspraegungen-enneagramm", label: "Childhood Imprints and Autobiographical Key Themes" },
     { route: "beruehmte-persoenlichkeiten", label: "Famous Personalities" },
     { route: "kriminalpsychologie", label: "Fascinating Criminal Cases (Criminal Psychology)" },
     { route: "krankheitsportraets", label: "Illness Portraits" },
@@ -40776,6 +40777,191 @@ function tugendenEnneagrammPage() {
   `);
 }
 
+function kindheitspraegungenPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("kindheitspraegungen-enneagramm")}
+      <div class="page-content tug-page">
+        <p class="eyebrow">Knowledge · Childhood and Imprinting</p>
+        <h1 class="section-title">Autobiographical Key Themes and Childhood Imprints</h1>
+        <p class="lead-small">Temperament comes into the world with us; imprinting is added to it. Here is what research says about innate dispositions, and how an early wound turns an open child into an Enneagram type.</p>
+        <figure class="tug-hero"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/kindheitspraegungen-deckblatt.jpg" alt="Chapter 6: Autobiographical Key Themes and Childhood Imprints" loading="lazy" /></figure>
+        <h2 class="vb-section tug-h2">Innate temperament: the study by Thomas, Chess and Birch</h2>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">Alexander Thomas (1914–2003), Stella Chess (1914–2007) and Herbert G. Birch (1918–1973) described in 1970, in a 14-year study of 141 children from 85 families, the innate temperament of infants, toddlers and children. They identified nine central temperaments as innate personality styles. The striking thing: these are directly related to the nine personality styles of the Enneagram. The researchers were professors of child psychiatry and pediatrics at New York University School of Medicine (Thomas, Chess) and at Albert Einstein College of Medicine in New York (Birch) and had no knowledge of the Enneagram.</p>
+        <figure class="tug-hero"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/kindheitspraegungen-uebersicht.jpg" alt="The childhood temperaments according to Thomas/Chess and the nine Enneagram types (overview)." loading="lazy" /><figcaption>The childhood temperaments according to Thomas/Chess and the nine Enneagram types (overview).</figcaption></figure>
+        <h2 class="vb-section tug-h2">Nine temperaments, nine types</h2>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">In the overview each type is assigned to a temperament and linked to a form of energy: exuberant and outward, blocked and suppressed, or transformed and turned toward the self, each in gut, heart or head.</p>
+        <div class="tug-grid">
+          <article class="tug-card" style="--tc:#607468;">
+            <div class="tug-card__top"><span class="tug-card__num">1</span><span class="tug-card__role">Rhythmicity · regularity</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion">Anger</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">seeks perfection and completeness</span></div>
+            <p class="tug-card__text">Wish for regularity, evenness, order, structure, rhythm, orientation and repetition; fear of change that is too fast.</p>
+            <p class="kp-energy">Gut energy, transformed and turned toward the self</p>
+          </article>
+          <article class="tug-card" style="--tc:#c47f6b;">
+            <div class="tug-card__top"><span class="tug-card__num">2</span><span class="tug-card__role">Approval · withdrawal</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion">Pride</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">seeks love and being loved</span></div>
+            <p class="tug-card__text">Phases of open, warm response to the new alternate with phases of negative response and withdrawal.</p>
+            <p class="kp-energy">Heart energy, exuberant, active and directed outward</p>
+          </article>
+          <article class="tug-card" style="--tc:#c9a84c;">
+            <div class="tug-card__top"><span class="tug-card__num">3</span><span class="tug-card__role">High activity level</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion">Vanity</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">seeks success and achievement</span></div>
+            <p class="tug-card__text">High motor activity: the child cannot sit still and shows markedly more activity than any other child in the study.</p>
+            <p class="kp-energy">Heart energy, blocked and suppressed</p>
+          </article>
+          <article class="tug-card" style="--tc:#7a5c8a;">
+            <div class="tug-card__top"><span class="tug-card__num">4</span><span class="tug-card__role">Labile quality of mood</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion">Envy</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">seeks individuality and uniqueness</span></div>
+            <p class="tug-card__text">A high degree of emotional behavior: the toddler expresses the most varied emotions, and mood changes quickly and capriciously.</p>
+            <p class="kp-energy">Heart energy, transformed and turned toward the self</p>
+          </article>
+          <article class="tug-card" style="--tc:#4a7f91;">
+            <div class="tug-card__top"><span class="tug-card__num">5</span><span class="tug-card__role">Low threshold of responsiveness</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion">Avarice</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">seeks knowledge and wisdom</span></div>
+            <p class="tug-card__text">It does not take much to stimulate the child, as if it had very thin skin: too sensitive for this world, with quick emotional withdrawal.</p>
+            <p class="kp-energy">Head energy, exuberant, active and directed outward</p>
+          </article>
+          <article class="tug-card" style="--tc:#8a6a3f;">
+            <div class="tug-card__top"><span class="tug-card__num">6</span><span class="tug-card__role">Attention span persistence</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion">Fear</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">seeks safety and trust</span></div>
+            <p class="tug-card__text">A high ability to sustain concentration and to look out for what might happen: watchfulness and discipline of mind.</p>
+            <p class="kp-energy">Head energy, blocked and suppressed</p>
+          </article>
+          <article class="tug-card" style="--tc:#d98c3a;">
+            <div class="tug-card__top"><span class="tug-card__num">7</span><span class="tug-card__role">Distractibility</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion">Gluttony</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">seeks joy of life, lightness and happiness</span></div>
+            <p class="tug-card__text">Response to outer influences: the direction of attention and behavior changes constantly, quickly and suddenly.</p>
+            <p class="kp-energy">Head energy, transformed and turned toward the self</p>
+          </article>
+          <article class="tug-card" style="--tc:#a5433a;">
+            <div class="tug-card__top"><span class="tug-card__num">8</span><span class="tug-card__role">Intensity of response</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion">Lust · greed</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">seeks power and control</span></div>
+            <p class="tug-card__text">A high energy level in response to stimuli, regardless of their quality and direction.</p>
+            <p class="kp-energy">Gut energy, exuberant, active and directed outward</p>
+          </article>
+          <article class="tug-card" style="--tc:#6b8f5a;">
+            <div class="tug-card__top"><span class="tug-card__num">9</span><span class="tug-card__role">Adaptability</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion">Sloth</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">seeks harmony and peace</span></div>
+            <p class="tug-card__text">The ease of adapting to the stimuli of the environment, right up to merging in an osmotic personality process.</p>
+            <p class="kp-energy">Gut energy, blocked and suppressed</p>
+          </article>
+        </div>
+        <h2 class="vb-section tug-h2">How the child became a type</h2>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">The author's nine stories follow a common pattern. They are archetypal narratives, not diagnoses: the experience of an individual person is always more multilayered.</p>
+        <ol class="kp-steps"><li><strong>The open child</strong><span>comes into the world with a basic disposition and an openness</span></li><li><strong>The wound</strong><span>an experience in which a need goes unanswered</span></li><li><strong>The strategy</strong><span>the child finds a way to cope</span></li><li><strong>The price</strong><span>the strategy turns into an autopilot and costs something real</span></li></ol>
+        <div class="tug-ex-grid">
+          <details class="tug-ex" style="--tc:#607468;">
+            <summary><span class="tug-card__num">1</span><span class="tug-ex__title">Type 1<small>Anger</small></span></summary>
+            <div class="tug-ex__body">
+              <p><strong>The child:</strong> Spontaneous and light; it experienced the completeness of life and wanted to appreciate it.</p>
+              <p><strong>The wound:</strong> Early on the feeling of being criticized and judged, and the pressure to conform.</p>
+              <p><strong>The strategy:</strong> Getting ahead of the judgment: monitoring and improving oneself, internalizing others' standards, always being good and doing the right thing.</p>
+              <p><strong>What was lost:</strong> Contact with instincts, feelings, creativity and spontaneity. The anger is hidden and comes out only as stamping or sarcasm; he ‘falls asleep into his own goodness’.</p>
+              <p class="tug-ex__hold"><strong>The image at the end:</strong> <em>a polite, proper, rule-following zombie</em></p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#c47f6b;">
+            <summary><span class="tug-card__num">2</span><span class="tug-ex__title">Type 2<small>Pride</small></span></summary>
+            <div class="tug-ex__body">
+              <p><strong>The child:</strong> Happy and full of love, sensitive, with a great need for affection.</p>
+              <p><strong>The wound:</strong> Needs went unmet: no one fed it when it was hungry, and no one comforted it when it was hurt.</p>
+              <p><strong>The strategy:</strong> Showing love in order to receive love: attuning to others' feelings, giving, pleasing and asking nothing for oneself, out of fear of a no.</p>
+              <p><strong>What was lost:</strong> His own needs and feelings. He begins to steer unnoticed, cannot say no and can no longer accept what is offered to him as love.</p>
+              <p class="tug-ex__hold"><strong>The image at the end:</strong> <em>a friendly, generous, helpful zombie</em></p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#c9a84c;">
+            <summary><span class="tug-card__num">3</span><span class="tug-ex__title">Type 3<small>Vanity</small></span></summary>
+            <div class="tug-ex__body">
+              <p><strong>The child:</strong> Soft, emotional and open-hearted, with a pure, genuine heart.</p>
+              <p><strong>The wound:</strong> It was praised for its achievements, not for its being; when it was sad or hurt, no one noticed. It felt lonely.</p>
+              <p><strong>The strategy:</strong> Sensing what others value and becoming exactly that: a chameleon that uses success as a substitute for love and must never stop.</p>
+              <p><strong>What was lost:</strong> The sense of who he really is, and his real feelings. In the end he lies exhausted in bed for two weeks and then returns all the same to the full appointment calendar.</p>
+              <p class="tug-ex__hold"><strong>The image at the end:</strong> <em>a successful, attractive, impressive zombie</em></p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#7a5c8a;">
+            <summary><span class="tug-card__num">4</span><span class="tug-ex__title">Type 4<small>Envy</small></span></summary>
+            <div class="tug-ex__body">
+              <p><strong>The child:</strong> Felt connected and valued by its parents.</p>
+              <p><strong>The wound:</strong> A sibling was born, and he was no longer the center. He read it as his own fault.</p>
+              <p><strong>The strategy:</strong> Winning the connection back by showing uniqueness or suffering: he draws, sings sad songs, tells of his pain. Sadness becomes a familiar friend.</p>
+              <p><strong>What was lost:</strong> The sense of deserving love. He cannot accept it and pushes people away so that they cannot leave him.</p>
+              <p class="tug-ex__hold"><strong>The image at the end:</strong> <em>an authentic, compassionate, emotional zombie</em></p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#4a7f91;">
+            <summary><span class="tug-card__num">5</span><span class="tug-ex__title">Type 5<small>Avarice</small></span></summary>
+            <div class="tug-ex__body">
+              <p><strong>The child:</strong> Came to connect deeply with everything.</p>
+              <p><strong>The wound:</strong> The caregivers intruded when it wanted to be alone and were missing when it needed closeness.</p>
+              <p><strong>The strategy:</strong> Withdrawing and experiencing being alone as safety; thinking, learning and researching become home. He becomes self-sufficient, collects knowledge and avoids the spotlight.</p>
+              <p><strong>What was lost:</strong> The ability for closeness and awareness of his need for connection. A dream shows him his love for people, but the next day he carries on as usual, alone.</p>
+              <p class="tug-ex__hold"><strong>The image at the end:</strong> <em>a private, withdrawn, quiet zombie</em></p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#8a6a3f;">
+            <summary><span class="tug-card__num">6</span><span class="tug-ex__title">Type 6<small>Fear</small></span></summary>
+            <div class="tug-ex__body">
+              <p><strong>The child:</strong> Courageous, lively and free; it did what it wanted without much thought.</p>
+              <p><strong>The wound:</strong> Frightening experiences (a mother who did not pick it up; a film), plus pressure to perform at school and growing self-doubt.</p>
+              <p><strong>The strategy:</strong> Anticipating the worst possibilities in thought, a first-aid kit, studying harder and watching people closely to see whether they have something up their sleeve.</p>
+              <p><strong>What was lost:</strong> Lightness and trust. He is paralyzed by fears and doubts, and planning for the worst case becomes the main occupation.</p>
+              <p class="tug-ex__hold"><strong>The image at the end:</strong> <em>a cautious, diligent, safety-conscious zombie</em></p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#d98c3a;">
+            <summary><span class="tug-card__num">7</span><span class="tug-ex__title">Type 7<small>Gluttony</small></span></summary>
+            <div class="tug-ex__body">
+              <p><strong>The child:</strong> Curious, wondering, with true joy in discovery and deep concentration.</p>
+              <p><strong>The wound:</strong> A bee sting; the father got angry (‘disappear’), the mother had ‘no time’. The pain was too much.</p>
+              <p><strong>The strategy:</strong> Withdrawing into the imagination and directing attention to what is pleasant. When the best friend moves away, he is already thinking of new friends.</p>
+              <p><strong>What was lost:</strong> True joy, which also knows sorrow and depth. His happiness stays superficial because he avoids pain.</p>
+              <p class="tug-ex__hold"><strong>The image at the end:</strong> <em>a very happy, high-spirited zombie</em></p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#a5433a;">
+            <summary><span class="tug-card__num">8</span><span class="tug-ex__title">Type 8<small>Lust · greed</small></span></summary>
+            <div class="tug-ex__body">
+              <p><strong>The child:</strong> Sensitive, sweet and innocent, with plenty of energy and hunger to learn.</p>
+              <p><strong>The wound:</strong> It needed protection and no one was there; older children hurt it. It learned: I must look after myself.</p>
+              <p><strong>The strategy:</strong> Becoming big and strong quickly, spreading fear through sheer presence, using anger as energy, protecting the weak and needing no one.</p>
+              <p><strong>What was lost:</strong> Sensitivity and innocence, because they remind him how small and weak he once was. Beneath the mask of strength remains a quiet loneliness.</p>
+              <p class="tug-ex__hold"><strong>The image at the end:</strong> <em>an energetic, unstoppable, unapproachable zombie</em></p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#6b8f5a;">
+            <summary><span class="tug-card__num">9</span><span class="tug-ex__title">Type 9<small>Sloth</small></span></summary>
+            <div class="tug-ex__body">
+              <p><strong>The child:</strong> Felt connected with everything and everyone, in peace and love.</p>
+              <p><strong>The wound:</strong> It woke up alone and separate; its protest went unheard, the others were louder and more important.</p>
+              <p><strong>The strategy:</strong> Adapting and going along, attending to others' wishes, avoiding conflict and staying inwardly calm and outwardly comfortable.</p>
+              <p><strong>What was lost:</strong> His own opinion, his own wishes and his own voice. He walks through life as if asleep, and the anger stays unconscious.</p>
+              <p class="tug-ex__hold"><strong>The image at the end:</strong> <em>a peaceful, carefree, comfort-loving zombie</em></p>
+            </div>
+          </details>
+        </div>
+        <div class="tug-fazit"><p>At the end of each story stands the same image: the child has become a ‘zombie’, someone who functions automatically, even very well in his own way, but no longer lives from his own center. This is not a verdict but a description of the autopilot.</p><p class="kp-note">Anyone who wants to work with their own imprints does so best with therapeutic support. The stories describe patterns, not individual experience.</p></div>
+      </div>
+      ${bookTip("der-code-deiner-persoenlichkeit", "How the Enneagram type arises – and what it reveals about our deepest imprints.", "Der Code deiner Persönlichkeit")}
+      ${bookTip("hinter-der-leidenschaft", "The nine wounds of the Enneagram – an in-depth analysis of the primal wound behind each passion, with concrete paths of healing for all 9 types.", "Hinter der Leidenschaft")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("heilung-als-erinnerung", "Healing not as repair but as remembering what we actually are – a profound look at health and wholeness.", "Heilung als Erinnerung")}
+      ${bookTip("du-bist-nicht-dein-zweifel", "Recognizing and letting go of core beliefs – a guide to inner freedom for all 9 types.", "Du bist nicht dein Zweifel")}
+      ${relatedLinks([
+        {route:"kindheit", label:"The Childhood Traumas of the 9 Types"},
+        {route:"kindliche-temperamente", label:"Diagram: Childhood Temperaments"},
+        {route:"kindheitsperspektiven", label:"Diagram: Childhood Perspectives"},
+        {route:"wunden", label:"Wounds & Protective Strategies"},
+        {route:"wann-entsteht-der-typ", label:"When Does the Type Arise?"},
+        {route:"tugenden-enneagramm", label:"The Virtues in the Enneagram"},
+      ])}
+    </div>
+  `);
+}
+
 function wahnideenNichtRealeVorstellungenPage() {
   return shell(`
     <div class="page-container">
@@ -46823,6 +47009,7 @@ function subtypeSchaubilderPage() {
     "claudio-naranjo-lehrer": claudioNaranjoLehrerPage,
     "david-daniels-gesetze": davidDanielsGesetzePage,
     "tugenden-enneagramm": tugendenEnneagrammPage,
+    "kindheitspraegungen-enneagramm": kindheitspraegungenPage,
     "befreiende-fragen": befreiendeFragenPage,
     "fuehrungsstile": fuehrungsstilePage,
     "gifte-des-geistes": gifteDesGeistesPage,

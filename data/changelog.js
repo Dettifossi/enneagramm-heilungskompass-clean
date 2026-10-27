@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2677", date: "2026-10-27", text: "Neu: Kindheitsprägungen und autobiografische Schlüsselthemen. Ein Wissensartikel mit den neun kindlichen Temperamenten nach Thomas und Chess und den neun Geschichten, wie aus dem offenen Kind ein Typ wurde, als aufklappbare Kacheln.", text_en: "New: Childhood imprints and autobiographical key themes. A knowledge article with the nine childhood temperaments after Thomas and Chess and the nine stories of how the open child became a type, as expandable tiles.", route: "kindheitspraegungen-enneagramm" },
     { version: "v2676", date: "2026-10-26", text: "Neues Porträt: James Stewart (SX9w1) – Schauspieler und Pilot.", text_en: "New portrait: James Stewart (SX9w1) – actor and pilot.", route: "beruehmte-james-stewart" },
     { version: "v2675", date: "2026-10-26", text: "Neues Porträt: Gary Cooper (SX9w1) – Schauspieler und Westernlegende.", text_en: "New portrait: Gary Cooper (SX9w1) – actor and Western legend.", route: "beruehmte-gary-cooper" },
     { version: "v2674", date: "2026-10-26", text: "Neu: Die Tugenden im Enneagramm. Ein Wissensartikel mit den neun Tugenden als Kacheln, dem Weg des Innehaltens und neun Beispielen für den Alltag.", text_en: "New: The Virtues in the Enneagram. A knowledge article with the nine virtues as tiles, the way of pausing and nine everyday examples.", route: "tugenden-enneagramm" },

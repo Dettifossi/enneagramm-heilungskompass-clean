@@ -5827,3 +5827,9 @@ p, li, .vb-intro { text-wrap: pretty; }
 .tug-hero { margin: 1.2rem 0 0.4rem; }
 .tug-hero img { display: block; width: 100%; height: auto; border-radius: 16px; box-shadow: var(--shadow-soft); }
 .tug-hero figcaption { margin-top: 0.5rem; font-size: 0.85rem; color: var(--muted); text-align: center; }
+.kp-energy { margin: 0; font-size: 0.8rem; font-style: italic; color: var(--muted); }
+.kp-steps { list-style: none; padding: 0; margin: 1rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 0.7rem; counter-reset: kp; }
+.kp-steps li { counter-increment: kp; background: var(--paper); border: 1px solid var(--line); border-top: 4px solid var(--copper); border-radius: 12px; padding: 0.8rem 0.9rem; display: flex; flex-direction: column; gap: 0.3rem; }
+.kp-steps li::before { content: counter(kp); font-weight: 700; color: var(--copper); font-size: 1.1rem; }
+.kp-steps span { font-size: 0.9rem; line-height: 1.5; color: var(--muted); }
+.kp-note { font-size: 0.88rem; color: var(--muted); }
