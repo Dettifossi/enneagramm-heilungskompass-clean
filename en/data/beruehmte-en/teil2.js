@@ -3133,9 +3133,9 @@ export function georgPreussePortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-georg-preusse-portrait.jpg" alt="Georg Preuße – portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-georg-preusse-portrait.jpg" alt="Georg Preusse – portrait" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Georg Preuße (‘Mary’)</p>
+        <p class="krim-portrait-name">Georg Preusse (‘Mary’)</p>
         <p class="krim-portrait-typ">SX2w3 &middot; Sexual Type 2 with a Three wing</p>
         <p class="krim-portrait-subtitle">German-Swiss actor and drag performer, b. 1950 in Ankum &ndash; stage figure ‘Mary’, ‘Mary &amp; Gordy’ &ndash; animal counterpart: camel</p>
       </div>
@@ -3143,31 +3143,31 @@ export function georgPreussePortraitPage() {
 
         <h2 class="vb-section">1. The camel: a boy who learned early to hide and still keep walking</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>camel</strong> carries heavy loads through barren land and needs little for it. Georg Wilhelm Johannes Preuße was born on 24 August 1950 in Ankum in the Osnabrück region and first became a radio and television technician, a solid trade. Alongside his job he began performing in clubs as a drag artist at a young age and created the figure ‘Mary Morgan’ there.</p>
+          <p class="vb-intro">The <strong>camel</strong> carries heavy loads through barren land and needs little for it. Georg Wilhelm Johannes Preuße (nowadays usually spelled Preusse) was born on 24 August 1950 in Ankum in the Osnabrück region and first became a radio and television technician, a solid trade. Alongside his job he began performing in clubs as a drag artist at a young age and created the figure ‘Mary Morgan’ there.</p>
           <p class="vb-intro">The road there was not easy. According to a report in the Swiss newspaper Blick, his parents rejected his homosexuality; his father thought him ill and sent him to a psychiatrist, and when he announced he would perform in women's clothes, they threw him out of the house. Looking back, he sees this expulsion as the start of his stage career. His autobiography ‘Mary – Mein Leben in ihrem Schatten’ (‘Mary – My Life in Her Shadow’) tells, among other things, of this difficult childhood.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The sexual Two: a figure smiling at the whole hall</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Dr. Claudio Naranjo called the sexual Two ‘aggression/seduction’: an active approach to the other that is meant to create closeness. In Preuße this can be linked to the figure ‘Mary’, a glamorous, warm and very attentive stage personality who filled halls. The audience was not only entertained but addressed personally. That a person who was rejected at home received so much affection on stage can be linked to the Two's need to be loved.</p>
-          <p class="vb-intro">The one supporting bond in private life is his husband Jack Amsler, the Swiss man who was also his manager and with whom, according to Blick, he has been together for almost fifty years; the couple married in July 2002 and live in Ringwil in the canton of Zurich. The photo shows an older man with swept-back, grey-streaked hair, a high forehead furrowed across, raised eyebrows and warm eyes with laugh lines. The broad smile shows the upper teeth and looks open and welcoming.</p>
+          <p class="vb-intro">Dr. Claudio Naranjo called the sexual Two ‘aggression/seduction’: an active approach to the other that is meant to create closeness. In Preusse this can be linked to the figure ‘Mary’, a glamorous, warm and very attentive stage personality who filled halls. The audience was not only entertained but addressed personally. That a person who was rejected at home received so much affection on stage can be linked to the Two's need to be loved.</p>
+          <p class="vb-intro">An earlier relationship ended in violence, according to the Blick report: his partner at the time, Gerd, seven years older, injured him so badly that his lower jaw was shattered. Anyone who turns completely towards another person carries this risk; the contrast with the long, reliable bond with Jack Amsler is clear. The one supporting bond in private life today is his husband Jack Amsler, the Swiss man who was also his manager and with whom, according to Blick, he has been together for almost fifty years; the couple married in July 2002 and live in Ringwil in the canton of Zurich. The photo shows an older man with swept-back, grey-streaked hair, a high forehead furrowed across, raised eyebrows and warm eyes with laugh lines. The broad smile shows the upper teeth and looks open and welcoming.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Three wing: transformation, craft and stage diligence</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three wing (w3)</strong> gives the Two drive, outward impact and the will to transform into something that carries. In Preuße the figure ‘Mary’ itself stands for this: a carefully built image with costumes, hairstyles and appearances. By his own account around 800 show costumes are stored in his cellar. It also belongs to the Three that he did not stay with revue but moved into acting, a risk for someone known as Mary.</p>
+          <p class="vb-intro">The <strong>Three wing (w3)</strong> gives the Two drive, outward impact and the will to transform into something that carries. In Preusse the figure ‘Mary’ itself stands for this: a carefully built image with costumes, hairstyles and appearances. By his own account around 800 show costumes are stored in his cellar. It also belongs to the Three that he did not stay with revue but moved into acting, a risk for someone known as Mary.</p>
           <p class="vb-intro">Awards document the outward impact: in 1999 the Berliner Bär (B.Z. culture prize), three times the Goldener Vorhang (Golden Curtain) as Berlin's most popular actor, in 2004 the Peter Frankenfeld Prize. At times he advertised jam and had his own shows on German television.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The substance: from the drag stage to spoken theatre</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In the early 1980s he performed as a duo with Reiner Kohler as ‘Mary &amp; Gordy’. The two made six television shows (1981–1986), toured widely and in 1987 received the Goldene Kamera of the magazine Hörzu. When Kohler ended his career in 1987 for health reasons, Preuße carried on alone as ‘Mary’, with tours and his own television shows; he filled large halls such as the Hallenstadion in Zurich.</p>
+          <p class="vb-intro">In the early 1980s he performed as a duo with Reiner Kohler as ‘Mary &amp; Gordy’. The two made six television shows (1981–1986), toured widely and in 1987 received the Goldene Kamera of the magazine Hörzu. When Kohler ended his career in 1987 for health reasons, Preusse carried on alone as ‘Mary’, with tours and his own television shows; he filled large halls such as the Hallenstadion in Zurich.</p>
           <p class="vb-intro">Then came the step that makes his ability visible: he played theatre. In the musical ‘Cabaret’ (1993–1994) he was the Master of Ceremonies, before that in ‘Narrenkäfig’ (‘Fools' Cage’, 1991–1993), later in Brecht's ‘Die Dreigroschenoper’ (‘The Threepenny Opera’, 2005–2006), in Borchert's ‘Draußen vor der Tür’ (‘The Man Outside’, 2002) and in Hochhuth's ‘Der Stellvertreter’ (‘The Deputy’, 2018); in Hofmannsthal's ‘Jedermann’ (‘Everyman’) he appeared from 2000 to 2014. Television roles followed, such as in ‘Derrick’ (1997) and ‘SOKO München’ (2018). His ability lies in not letting himself be limited to the mask but carrying an audience without it.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Parallels in the same subtype: Sammy Davis Jr. and Elvis Presley</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="#beruehmte-sammy-davis-jr">Sammy Davis Jr. (SX2w3)</a> gave himself to the audience with all his versatility and also began in an ensemble, in a trio with his father and a partner; for Preuße it was the duo ‘Mary &amp; Gordy’. Both are entertainers who turn their warmth into stage presence. <a href="#beruehmte-elvis-presley">Elvis Presley (SX2w3)</a> is another example of a stage personality whose warmth is directed at the whole hall.</p>
+          <p class="vb-intro"><a href="#beruehmte-sammy-davis-jr">Sammy Davis Jr. (SX2w3)</a> gave himself to the audience with all his versatility and also began in an ensemble, in a trio with his father and a partner; for Preusse it was the duo ‘Mary &amp; Gordy’. Both are entertainers who turn their warmth into stage presence. <a href="#beruehmte-elvis-presley">Elvis Presley (SX2w3)</a> is another example of a stage personality whose warmth is directed at the whole hall.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The hidden and the shown</h2>
@@ -3177,7 +3177,7 @@ export function georgPreussePortraitPage() {
 
         <h2 class="vb-section">7. Where he stands and how to place it</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">On 20 March 2022 Preuße celebrated his 40th stage anniversary as ‘Mary’ with the charity single ‘Noch singe ich’ (‘I'm Still Singing’). He is an ambassador of the initiative ‘Superhelden fliegen vor’ (‘Superheroes Fly Ahead’), which supports young terminally ill people. He holds a Swiss passport; the couple like to travel by motorhome, with Jack planning the routes. He wants to live to 93 and has drawn up a will and a living will with his husband: ‘Ich möchte niemandem zur Last fallen’ (‘I don't want to be a burden to anyone’). (As of 27 October 2026).</p>
+          <p class="vb-intro">On 20 March 2022 Preusse celebrated his 40th stage anniversary as ‘Mary’ with the charity single ‘Noch singe ich’ (‘I'm Still Singing’). He is an ambassador of the initiative ‘Superhelden fliegen vor’ (‘Superheroes Fly Ahead’), which supports young terminally ill people. He holds a Swiss passport; the couple like to travel by motorhome, with Jack planning the routes. He wants to live to 93 and has drawn up a will and a living will with his husband: ‘Ich möchte niemandem zur Last fallen’ (‘I don't want to be a burden to anyone’). (As of 27 October 2026).</p>
           <p class="vb-intro">For the sexual Two with a Three wing the path lies in allowing affection to be received without something having to be achieved first. The wish not to be a burden to anyone can be linked to the pattern of the Two; his wish to be able to go ‘once lightly and with a clear conscience’ can be connected to the image of the camel that carried for a long time.</p>
         </blockquote>
 

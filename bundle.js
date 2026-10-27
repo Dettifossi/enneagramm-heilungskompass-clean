@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=430";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=431";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -27713,8 +27713,8 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 geb. 1939 in Milwaukee. Choreograf und Ballettdirektor, Hamburg Ballett 1973\u20132024 (\u203aNijinsky\u2039, \u203aDie Kameliendame\u2039). Die Taube, die ihre Tiefe still in Werke fasst.",
     land:"USA/Deutschland", tags:["Tanz"], gender:"m"},
-  { route:"beruehmte-georg-preusse", name:"Georg Preu\u00dfe (Mary)", added:"2026-10-27", subtyp:"SX2w3",
-    heading:"Georg Preu\u00dfe (\u203aMary\u2039) \u2013 Sexueller Typ 2",
+  { route:"beruehmte-georg-preusse", name:"Georg Preusse (Mary)", added:"2026-10-27", subtyp:"SX2w3",
+    heading:"Georg Preusse (\u203aMary\u2039) \u2013 Sexueller Typ 2",
     teaser:"SX2w3 \u00b7 geb. 1950 in Ankum. Schauspieler und Travestiek\u00fcnstler (\u203aMary & Gordy\u2039, \u203aMary\u2039). Das Kamel, das als abgelehnter Sohn auf der B\u00fchne Zuneigung f\u00fcr einen ganzen Saal erzeugte und sp\u00e4ter ins Sprechtheater wechselte.",
     land:"Deutschland/Schweiz", tags:["Schauspiel","Film"], gender:"m"},
   { route:"beruehmte-mariele-millowitsch", name:"Mariele Millowitsch", added:"2026-10-27", subtyp:"SX9w1",

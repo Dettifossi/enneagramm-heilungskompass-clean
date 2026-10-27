@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=427";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=428";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -1963,8 +1963,8 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Self-Preservation Type 4",
     teaser:"SP4w5 \u00b7 born 1939 in Milwaukee. Choreographer and ballet director, Hamburg Ballet 1973\u20132024 (\u2018Nijinsky\u2019, \u2018The Lady of the Camellias\u2019). The Dove who puts her depth quietly into works.",
     land:"USA/Germany", tags:["Tanz"], gender:"m"},
-{ route:"beruehmte-georg-preusse", name:"Georg Preu\u00dfe (Mary)", added:"2026-10-27", subtyp:"SX2w3",
-    heading:"Georg Preu\u00dfe (\u2018Mary\u2019) \u2013 Sexual Type 2",
+{ route:"beruehmte-georg-preusse", name:"Georg Preusse (Mary)", added:"2026-10-27", subtyp:"SX2w3",
+    heading:"Georg Preusse (\u2018Mary\u2019) \u2013 Sexual Type 2",
     teaser:"SX2w3 \u00b7 b. 1950 in Ankum. Actor and drag performer (\u2018Mary & Gordy\u2019, \u2018Mary\u2019). The Camel that, as a rejected son, created affection for a whole hall on stage and later moved into spoken theatre.",
     land:"Deutschland/Schweiz", tags:["Schauspiel","Film"], gender:"m"},
 { route:"beruehmte-mariele-millowitsch", name:"Mariele Millowitsch", added:"2026-10-27", subtyp:"SX9w1",
