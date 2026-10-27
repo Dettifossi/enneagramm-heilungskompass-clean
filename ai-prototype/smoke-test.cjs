@@ -133,6 +133,8 @@ const ROUTES = [
   { hash: "en/#warum-nur-9-heilmittel", label: "Neu EN: Why only 9 remedies" },
   { hash: "#yogi-tee-kompass", label: "Neu: Yogi-Tee-Kompass" },
   { hash: "en/#yogi-tee-kompass", label: "Neu EN: Yogi Tea Compass" },
+  { hash: "#praxistipps-heilpraktiker/ende-der-suche", label: "Neuer Praxistipp: Wenn die Suche still wird" },
+  { hash: "en/#praxistipps-heilpraktiker/ende-der-suche", label: "Neuer EN-Praxistipp: When the Search Falls Silent" },
   { hash: "#praxistipps-heilpraktiker/dein-wille-geschehe", label: "Neuer Praxistipp: Dein Wille geschehe" },
   { hash: "en/#praxistipps-heilpraktiker/dein-wille-geschehe", label: "Neuer EN-Praxistipp: Thy Will Be Done" },
   { hash: "#krankheitsportraets-rudi-carrell", label: "Neues Krankheitsporträt: Rudi Carrell" },

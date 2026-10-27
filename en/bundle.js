@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=429";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=430";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -117,6 +117,7 @@ const steveMcQueenPortraitPage = () => _lazyPage("./data/beruehmte-en/teil11.js"
 const karinThalerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil6.js", "karinThalerPortraitPage");
 const arzneimittelbilderPage = () => _lazyPage("./data/wissen-en/arzneimittelbilder.js", "arzneimittelbilderPage");
 const spirituellesEnneagrammPage = () => _lazyPage("./data/wissen-en/spirituelles-enneagramm.js", "spirituellesEnneagrammPage");
+const endeDerSuchePage = () => _lazyPage("./data/praxistipps-en/ende-der-suche.js", "endeDerSuchePage");
 const albertBrooksPortraitPage = () => _lazyPage("./data/beruehmte-en/teil18.js", "albertBrooksPortraitPage");
 const emilyBluntPortraitPage = () => _lazyPage("./data/beruehmte-en/teil7.js", "emilyBluntPortraitPage");
 const rjMittePortraitPage = () => _lazyPage("./data/beruehmte-en/teil13.js", "rjMittePortraitPage");
@@ -9595,6 +9596,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"das-ewige-ich-bin", titel:"The Eternal ›I Am‹: The Enneagram Healing Compass Beyond Fixation", teaser:"How Judaism, Christianity, Hinduism, Buddhism, Islam, and Taoism describe the same silent ground of being – and what that means for Enneagram work.", img:"../assets/schaubilder/das-ewige-ich-bin/das-ewige-ich-bin-en.jpg", kategorie:"geist" },
     { slug:"chakra-kern-uebung", titel:"The Chakra Core of Your Enneagram Type", teaser:"The nine Enneagram types, nine body centers and the matching homeopathic constitutional remedies – and a short exercise to sense your own zone deliberately.", img:"../assets/schaubilder/chakra-kern-uebung/chakra-kern-uebung.jpg", kategorie:"geist" },
     { slug:"dein-wille-geschehe", titel:"‘Thy Will Be Done’: Surrender Instead of Ego-Will", teaser:"What Christianity, Taoism, Zen and Sufism say about self-will – and how ‘My will be done’ shows in all 27 Enneagram subtypes, with surrender as its counterpart.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/dein-wille-geschehe/dein-wille-geschehe.jpg", kategorie:"geist" },
+    { slug:"ende-der-suche", titel:"When the Search Falls Silent: The End of the Search and the 13 Illusions of the Spiritual Seeker", teaser:"Why nothing needs to be added to be complete – 13 illusions from the subject to suffering, each with exercises for self-observation.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/ende-der-suche/ende-der-suche.jpg", kategorie:"geist" },
   ];
   const TIPP_KATEGORIEN = [
     { id:"koerper", label:"Body & Movement", icon:"🧭" },
@@ -9653,6 +9655,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "dein-wille-geschehe") {
     return deinWilleGeschehePage();
+  }
+  if (param === "ende-der-suche") {
+    return endeDerSuchePage();
   }
   if (param === "das-ewige-ich-bin") {
     return dasEwigeIchBinPage();
