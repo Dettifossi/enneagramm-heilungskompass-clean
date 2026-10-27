@@ -227,6 +227,8 @@ const ROUTES = [
   { hash: "en/#mindmap-belladonna", label: "EN Mindmap Belladonna" },
   { hash: "en/#mindmap-veratrum", label: "EN Mindmap Veratrum album" },
   { hash: "en/#mindmap-cannabis", label: "EN Mindmap Cannabis indica" },
+  { hash: "#spirituelles-enneagramm", label: "Neu: Das spirituelle Enneagramm" },
+  { hash: "en/#spirituelles-enneagramm", label: "Neu EN: Das spirituelle Enneagramm" },
   { hash: "#beruehmte-georg-preusse", label: "Neues Porträt: Georg Preuße" },
   { hash: "en/#beruehmte-georg-preusse", label: "Neues EN-Porträt: Georg Preuße" },
   { hash: "#beruehmte-mariele-millowitsch", label: "Neues Porträt: Mariele Millowitsch" },

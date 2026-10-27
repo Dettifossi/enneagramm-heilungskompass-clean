@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=431";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=432";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -104,6 +104,7 @@ const jamesDeanPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "j
 const steveMcQueenPortraitPage = () => _lazyPage("./data/beruehmte-de/teil3.js", "steveMcQueenPortraitPage");
 const karinThalerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil4.js", "karinThalerPortraitPage");
 const arzneimittelbilderPage = () => _lazyPage("./data/wissen-de/arzneimittelbilder.js", "arzneimittelbilderPage");
+const spirituellesEnneagrammPage = () => _lazyPage("./data/wissen-de/spirituelles-enneagramm.js", "spirituellesEnneagrammPage");
 const albertBrooksPortraitPage = () => _lazyPage("./data/beruehmte-de/teil8.js", "albertBrooksPortraitPage");
 const emilyBluntPortraitPage = () => _lazyPage("./data/beruehmte-de/teil13.js", "emilyBluntPortraitPage");
 const rjMittePortraitPage = () => _lazyPage("./data/beruehmte-de/teil9.js", "rjMittePortraitPage");
@@ -17067,6 +17068,7 @@ const uiText = {
       { route: "claudio-naranjo-lehrer", label: "Claudio Naranjo: Lehrer und Wegbereiter der Subtypen" },
       { route: "david-daniels-gesetze", label: "David Daniels: Die drei Energie-Aufmerksamkeits-Gesetze" },
       { route: "tugenden-enneagramm", label: "Die Tugenden im Enneagramm" },
+      { route: "spirituelles-enneagramm", label: "Das spirituelle Enneagramm: Psychologie, Spiritualität oder beides?" },
       { route: "kindheitspraegungen-enneagramm", label: "Kindheitsprägungen und autobiografische Schlüsselthemen" },
       { route: "beruehmte-persoenlichkeiten", label: "Berühmte Persönlichkeiten" },
       { route: "kriminalpsychologie", label: "Spannende Kriminalfälle (Kriminalpsychologie)" },
@@ -67296,6 +67298,7 @@ const ROUTES = {
     "claudio-naranjo-lehrer": claudioNaranjoLehrerPage,
     "david-daniels-gesetze": davidDanielsGesetzePage,
     "tugenden-enneagramm": tugendenEnneagrammPage,
+    "spirituelles-enneagramm": spirituellesEnneagrammPage,
     "kindheitspraegungen-enneagramm": kindheitspraegungenPage,
     "befreiende-fragen": befreiendeFragenPage,
     "fuehrungsstile": fuehrungsstilePage,

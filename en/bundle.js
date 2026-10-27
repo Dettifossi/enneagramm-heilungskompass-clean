@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=428";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=429";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -116,6 +116,7 @@ const jamesDeanPortraitPage = () => _lazyPage("./data/beruehmte-en/teil3.js", "j
 const steveMcQueenPortraitPage = () => _lazyPage("./data/beruehmte-en/teil11.js", "steveMcQueenPortraitPage");
 const karinThalerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil6.js", "karinThalerPortraitPage");
 const arzneimittelbilderPage = () => _lazyPage("./data/wissen-en/arzneimittelbilder.js", "arzneimittelbilderPage");
+const spirituellesEnneagrammPage = () => _lazyPage("./data/wissen-en/spirituelles-enneagramm.js", "spirituellesEnneagrammPage");
 const albertBrooksPortraitPage = () => _lazyPage("./data/beruehmte-en/teil18.js", "albertBrooksPortraitPage");
 const emilyBluntPortraitPage = () => _lazyPage("./data/beruehmte-en/teil7.js", "emilyBluntPortraitPage");
 const rjMittePortraitPage = () => _lazyPage("./data/beruehmte-en/teil13.js", "rjMittePortraitPage");
@@ -6095,6 +6096,7 @@ text.nav = [
     { route: "claudio-naranjo-lehrer", label: "Claudio Naranjo: Teacher and Pioneer of the Subtypes" },
     { route: "david-daniels-gesetze", label: "David Daniels: The Three Energy–Attention Laws" },
     { route: "tugenden-enneagramm", label: "The Virtues in the Enneagram" },
+    { route: "spirituelles-enneagramm", label: "The Spiritual Enneagram: Psychology, Spirituality or Both?" },
     { route: "kindheitspraegungen-enneagramm", label: "Childhood Imprints and Autobiographical Key Themes" },
     { route: "beruehmte-persoenlichkeiten", label: "Famous Personalities" },
     { route: "kriminalpsychologie", label: "Fascinating Criminal Cases (Criminal Psychology)" },
@@ -47030,6 +47032,7 @@ function subtypeSchaubilderPage() {
     "claudio-naranjo-lehrer": claudioNaranjoLehrerPage,
     "david-daniels-gesetze": davidDanielsGesetzePage,
     "tugenden-enneagramm": tugendenEnneagrammPage,
+    "spirituelles-enneagramm": spirituellesEnneagrammPage,
     "kindheitspraegungen-enneagramm": kindheitspraegungenPage,
     "befreiende-fragen": befreiendeFragenPage,
     "fuehrungsstile": fuehrungsstilePage,
