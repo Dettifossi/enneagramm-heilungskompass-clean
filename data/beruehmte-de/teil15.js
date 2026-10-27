@@ -3100,3 +3100,73 @@ export function joeVitalePortraitPage() {
     </div>
   `);
 }
+
+export function annieLennoxPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-annie-lennox-portrait.jpg" alt="Annie Lennox – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Annie Lennox</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexueller Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schottische Sängerin, Songwriterin und Aktivistin, geb. 1954 &ndash; Eurythmics, ›Sweet Dreams (Are Made of This)‹, ›Diva‹ &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba: das Mädchen aus Torry</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> bewegt sich selten ohne Grund, und wenn sie es tut, dann mit ganzer Kraft. Annie Lennox wurde am 25. Dezember 1954 im Stadtteil Torry in Aberdeen in Schottland geboren. Ihre Eltern waren Dorothy Farquharson (1930–2003) und Thomas Allison Lennox (1925–1986); beide starben an Krebs. Sie besuchte die Aberdeen High School for Girls und lernte Flöte und Klavier.</p>
+          <p class="vb-intro">Ab 1971 studierte sie an der Royal Academy of Music in London, beendete das Studium aber nicht. 1976 spielte sie Flöte bei der Band Dragon's Playground, von 1977 bis 1980 war sie Leadsängerin der Tourists, und dort begann die Zusammenarbeit mit Dave Stewart.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Eifer für das eine Gegenüber und die eine Sache</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo nannte die sexuelle Eins <em>Zeal</em> (Eifer), den Kontratyp der Eins: Die Strenge richtet sich nicht auf die ganze Welt, sondern mit großer Intensität auf einzelne Menschen und Anliegen. Bei Lennox lässt sich das mit der Partnerschaft mit Dave Stewart verbinden, aus der in den 1980er-Jahren die Eurythmics wurden, und später mit ihren Kampagnen, die jeweils einer klar umrissenen Gruppe gelten, etwa Frauen und Kindern, die von HIV und Aids betroffen sind.</p>
+          <p class="vb-intro">Das Foto zeigt sehr kurzes Haar mit einer seitlich gelegten Strähne, ein breites, offenes Lächeln mit vielen sichtbaren Zähnen, weit geöffnete, leicht nach oben gerichtete Augen, Stirnfalten und tiefe Lachfalten. Große Kreolen hängen an den Ohren. Der Ausdruck ist lebhaft und zugleich gesammelt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Fürsorge als Aufgabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der Eins Zuwendung. Bei Lennox zeigt er sich darin, dass sie ihre Bekanntheit in den Dienst anderer stellt. Sie gründete die SING Campaign, die sich um Frauen und Kinder kümmert, die von HIV und Aids betroffen sind, und 2008 die Frauenorganisation The Circle. 2010 wurde sie UNESCO-Sonderbotschafterin für Aids. Sie unterstützt außerdem Amnesty International, Greenpeace und LGBT-Rechte; 2011 wurde sie für ihre Wohltätigkeitskampagnen und ihren Einsatz für humanitäre Anliegen zum OBE ernannt. Im Oktober 2023 unterzeichnete sie einen offenen Brief, der einen Waffenstillstand in Gaza forderte.</p>
+          <p class="vb-intro">Von 2017 bis 2024 war sie Kanzlerin der Glasgow Caledonian University; ein Gebäude dort trägt ihren Namen. 2025 sprach sie sich gegen die Kürzung der britischen Auslandshilfe aus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: eine dunkle Stimme und ein unverwechselbares Bild</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kritiker beschreiben ihre Stimme als Alt (contralto), eine tiefe Frauenstimme, die im Pop selten ist. Mit den Eurythmics hatte sie in den 1980er-Jahren Hits wie ›Sweet Dreams (Are Made of This)‹ (1983), ›There Must Be an Angel (Playing with My Heart)‹ und ›Here Comes the Rain Again‹. Ihr androgynes Erscheinungsbild gehörte zu ihrem Auftritt jener Jahre und wurde zu einem Markenzeichen.</p>
+          <p class="vb-intro">1992 erschien ihr Solodebüt ›Diva‹, das in Großbritannien Platz 1 erreichte; 1995 folgte ›Medusa‹, ein Album mit Coverversionen. 2004 gewann sie den Oscar für den besten Filmsong für ›Into the West‹. Sie hat acht Brit Awards gewonnen, darunter einen Rekord von sechs als beste britische Künstlerin, außerdem vier Grammys. 2020 wurde sie in die Songwriters Hall of Fame aufgenommen, 2022 mit Dave Stewart in die Rock and Roll Hall of Fame.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Robbie Williams und Udo Lindenberg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-robbie-williams">Robbie Williams (SX1w2)</a> ist ebenfalls Sänger mit Zweierflügel und zeigt wie Lennox, dass sich Musik und offene Haltung verbinden lassen. <a href="#beruehmte-udo-lindenberg">Udo Lindenberg (SX1w9)</a> nutzt seine Bühne ebenfalls für eine klare Haltung, mit ruhigerem Neunerflügel statt der Zugewandtheit des Zweierflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Verluste und Verletzlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lennox war dreimal verheiratet: mit Radha Raman (1984–1985), Uri Fruchtmann (1988–2000) und seit 2012 mit Mitch Besser. Sie hat zwei Töchter, Lola und Tali; ihr Sohn Daniel kam 1988 tot zur Welt. Mit 70 Jahren wurde bei ihr nach Angaben der genutzten Quelle ADHS diagnostiziert. Die Eltern verlor sie 1986 und 2003.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand und Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2024 trat Lennox beim Gershwin-Preis-Tribut an Elton John und Bernie Taupin auf. 2025 spielte sie in der Royal Albert Hall das Konzert ›Sisters: Annie Lennox and Friends‹, ihren ersten Live-Auftritt seit sechs Jahren (Stand 28. Oktober 2026).</p>
+          <p class="vb-intro">Für die sexuelle Eins mit Zweierflügel liegt der Weg darin, dass der Eifer nicht jede Not der Welt tragen muss und Zuwendung auch ohne Kampagne möglich ist. Bei Lennox lässt sich das mit dem Wechsel zwischen Bühne und stillem Klavierprogramm verbinden, etwa in der EP ›Lepidoptera‹ mit Klavierliedern (2019).</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-robbie-williams", label:"Porträt: Robbie Williams (SX1w2)"},
+        {route:"beruehmte-udo-lindenberg", label:"Porträt: Udo Lindenberg (SX1w9)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}

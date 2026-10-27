@@ -3088,3 +3088,73 @@ export function rosalieThomassPortraitPage() {
     </div>
   `);
 }
+
+export function annieLennoxPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-annie-lennox-portrait.jpg" alt="Annie Lennox – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Annie Lennox</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexual Type 1 with a Two wing</p>
+        <p class="krim-portrait-subtitle">Scottish singer, songwriter and activist, b. 1954 &ndash; Eurythmics, ‘Sweet Dreams (Are Made of This)’, ‘Diva’ &ndash; animal counterpart: black mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The black mamba: the girl from Torry</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>black mamba</strong> rarely moves without reason, and when it does, it moves with its whole strength. Annie Lennox was born on 25 December 1954 in the Torry district of Aberdeen in Scotland. Her parents were Dorothy Farquharson (1930–2003) and Thomas Allison Lennox (1925–1986); both died of cancer. She attended Aberdeen High School for Girls and learned flute and piano.</p>
+          <p class="vb-intro">From 1971 she studied at the Royal Academy of Music in London but did not finish the course. In 1976 she played flute with the band Dragon's Playground, from 1977 to 1980 she was lead singer of the Tourists, and there her collaboration with Dave Stewart began.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual One: zeal for the one counterpart and the one cause</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo called the sexual One <em>zeal</em>, the countertype of the One: the strictness is directed not at the whole world but with great intensity at individual people and concerns. In Lennox this can be linked to the partnership with Dave Stewart, from which the Eurythmics emerged in the 1980s, and later to her campaigns, each devoted to a clearly defined group, such as women and children affected by HIV and AIDS.</p>
+          <p class="vb-intro">The photo shows very short hair with a side-swept strand, a broad, open smile with many teeth showing, wide eyes directed slightly upward, forehead lines and deep laugh lines. Large hoop earrings hang from the ears. The expression is lively and collected at the same time.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two wing: care as a task</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two wing (w2)</strong> gives the One attentiveness. In Lennox it shows in her putting her fame at the service of others. She founded the SING Campaign, which supports women and children affected by HIV and AIDS, and in 2008 the women's organisation The Circle. In 2010 she became UNESCO Goodwill Ambassador for AIDS. She also supports Amnesty International, Greenpeace and LGBT rights; in 2011 she was appointed OBE for her charity campaigns and her championing of humanitarian causes. In October 2023 she signed an open letter calling for a ceasefire in Gaza.</p>
+          <p class="vb-intro">From 2017 to 2024 she was Chancellor of Glasgow Caledonian University; a building there bears her name. In 2025 she spoke out against the cuts to UK foreign aid.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: a dark voice and an unmistakable image</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Critics describe her voice as a contralto, a low female voice that is rare in pop. With the Eurythmics she had hits in the 1980s such as ‘Sweet Dreams (Are Made of This)’ (1983), ‘There Must Be an Angel (Playing with My Heart)’ and ‘Here Comes the Rain Again’. Her androgynous appearance was part of her act in those years and became a trademark.</p>
+          <p class="vb-intro">Her solo debut ‘Diva’ appeared in 1992 and reached No. 1 in Britain; in 1995 followed ‘Medusa’, an album of cover versions. In 2004 she won the Academy Award for Best Original Song for ‘Into the West’. She has won eight Brit Awards, including a record six as best British female artist, and four Grammys. In 2020 she was inducted into the Songwriters Hall of Fame, and in 2022, with Dave Stewart, into the Rock and Roll Hall of Fame.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Robbie Williams and Udo Lindenberg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-robbie-williams">Robbie Williams (SX1w2)</a> is likewise a singer with a Two wing and shows, like Lennox, that music and an open stance can go together. <a href="#beruehmte-udo-lindenberg">Udo Lindenberg (SX1w9)</a> likewise uses his stage for a clear stance, with a calmer Nine wing instead of the attentiveness of the Two wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Losses and vulnerability</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lennox has been married three times: to Radha Raman (1984–1985), Uri Fruchtmann (1988–2000) and, since 2012, Mitch Besser. She has two daughters, Lola and Tali; her son Daniel was stillborn in 1988. At 70 she was diagnosed with ADHD, according to the source used. She lost her parents in 1986 and 2003.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where she stands and how to place it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2024 Lennox performed at the Gershwin Prize tribute to Elton John and Bernie Taupin. In 2025 she played the concert ‘Sisters: Annie Lennox and Friends’ at the Royal Albert Hall, her first live show in six years (as of 28 October 2026).</p>
+          <p class="vb-intro">For the sexual One with a Two wing the path lies in letting the zeal not have to carry every need of the world, and in attention being possible without a campaign. In Lennox this can be linked to the alternation between the stage and quiet piano songs, for example in the EP ‘Lepidoptera’ (2019).</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx1", label:"SX1 – The black mamba: subtype profile"},
+        {route:"beruehmte-robbie-williams", label:"Portrait: Robbie Williams (SX1w2)"},
+        {route:"beruehmte-udo-lindenberg", label:"Portrait: Udo Lindenberg (SX1w9)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}

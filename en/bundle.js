@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=433";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=434";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -112,6 +112,7 @@ const marieleMillowitschPortraitPage = () => _lazyPage("./data/beruehmte-en/teil
 const georgPreussePortraitPage = () => _lazyPage("./data/beruehmte-en/teil2.js", "georgPreussePortraitPage");
 const jamesBluntPortraitPage = () => _lazyPage("./data/beruehmte-en/teil17.js", "jamesBluntPortraitPage");
 const gertrudHoehlerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil1.js", "gertrudHoehlerPortraitPage");
+const annieLennoxPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "annieLennoxPortraitPage");
 const garyCooperPortraitPage = () => _lazyPage("./data/beruehmte-en/teil12.js", "garyCooperPortraitPage");
 const joergKachelmannPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "joergKachelmannPortraitPage");
 const jamesDeanPortraitPage = () => _lazyPage("./data/beruehmte-en/teil3.js", "jamesDeanPortraitPage");
@@ -1967,6 +1968,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Self-Preservation Type 4",
     teaser:"SP4w5 \u00b7 born 1939 in Milwaukee. Choreographer and ballet director, Hamburg Ballet 1973\u20132024 (\u2018Nijinsky\u2019, \u2018The Lady of the Camellias\u2019). The Dove who puts her depth quietly into works.",
     land:"USA/Germany", tags:["Tanz"], gender:"m"},
+{ route:"beruehmte-annie-lennox", name:"Annie Lennox", added:"2026-10-28", subtyp:"SX1w2",
+    heading:"Annie Lennox \u2013 Sexual Type 1",
+    teaser:"SX1w2 \u00b7 b. 1954 in Aberdeen. Scottish singer, songwriter and activist (Eurythmics, \u2018Sweet Dreams\u2019). The Black Mamba that puts its dark voice and its fame at the service of clearly defined causes.",
+    land:"Gro\u00dfbritannien", tags:["Musik"], gender:"f"},
 { route:"beruehmte-james-blunt", name:"James Blunt", added:"2026-10-27", subtyp:"SO1w2",
     heading:"James Blunt \u2013 Social Type 1",
     teaser:"SO1w2 \u00b7 b. 1974. British singer-songwriter and former army officer (\u2018You\u2019re Beautiful\u2019). The Goose that would have refused an order and carried its stance with self-irony and warmth.",
@@ -47186,6 +47191,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-mariele-millowitsch": marieleMillowitschPortraitPage,
       "beruehmte-georg-preusse": georgPreussePortraitPage,
       "beruehmte-james-blunt": jamesBluntPortraitPage,
+      "beruehmte-annie-lennox": annieLennoxPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,
