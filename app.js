@@ -28408,7 +28408,7 @@ const BERUEHMT_PORTRAITS = [
     land:"Deutschland", tags:["Schauspiel","Kino"], gender:"m"},
   { route:"beruehmte-michel-foucault", name:"Michel Foucault", added:"2026-09-21", subtyp:"SX1w9",
     heading:"Michel Foucault \u2013 Sexueller Typ 1",
-    teaser:"SX1w9 \u00b7 1926\u20131984. Franz\u00f6sischer Philosoph, Kontratyp der Eins. Sezierte in \u203a\u00dcberwachen und Strafen\u2039 und \u203aSexualit\u00e4t und Wahrheit\u2039, wie Macht nicht nur unterdr\u00fcckt, sondern Wirklichkeit erst erzeugt. Zeal statt k\u00fchler Prinzipientreue, ausgelebt \u00fcber Jahrzehnte akribischer Institutionenkritik.",
+    teaser:"SX1w9 \u00b7 1926\u20131984. Franz\u00f6sischer Philosoph, Kontratyp der Eins. Sezierte in \u203a\u00dcberwachen und Strafen\u2039 und \u203aSexualit\u00e4t und Wahrheit\u2039, wie Macht nicht nur unterdr\u00fcckt, sondern Wirklichkeit erst erzeugt. Eifer statt k\u00fchler Prinzipientreue, ausgelebt \u00fcber Jahrzehnte akribischer Institutionenkritik.",
     land:"Frankreich", tags:["Philosophie"], gender:"m"},
   { route:"beruehmte-gunther-von-hagens", name:"Gunther von Hagens", added:"2026-09-21", subtyp:"SX1w9",
     heading:"Gunther von Hagens – Sexueller Typ 1",
