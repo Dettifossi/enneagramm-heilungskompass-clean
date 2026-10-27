@@ -231,6 +231,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-james-stewart", label: "Neues EN-Porträt: James Stewart" },
   { hash: "#beruehmte-gary-cooper", label: "Neues Porträt: Gary Cooper" },
   { hash: "en/#beruehmte-gary-cooper", label: "Neues EN-Porträt: Gary Cooper" },
+  { hash: "#arzneimittelbilder-9-typen", label: "Neu: Arzneimittelbilder 9 Typen" },
+  { hash: "en/#arzneimittelbilder-9-typen", label: "Neu EN: Arzneimittelbilder 9 Typen" },
   { hash: "#kindheitspraegungen-enneagramm", label: "Neu: Kindheitsprägungen" },
   { hash: "en/#kindheitspraegungen-enneagramm", label: "Neu EN: Kindheitsprägungen" },
   { hash: "#tugenden-enneagramm", label: "Neu: Tugenden im Enneagramm" },
