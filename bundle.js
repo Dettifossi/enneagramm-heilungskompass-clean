@@ -61433,6 +61433,13 @@ function kindheitspraegungenPage() {
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("heilung-als-erinnerung", "Heilung nicht als Reparatur, sondern als Erinnerung an das, was wir eigentlich sind – ein tiefgründiger Blick auf Gesundheit und Ganzheit.", "Heilung als Erinnerung")}
       ${bookTip("du-bist-nicht-dein-zweifel", "Kernüberzeugungen erkennen und loslassen – ein Wegweiser zu innerer Freiheit für alle 9 Typen.", "Du bist nicht dein Zweifel")}
+      ${bookTip("leidenschaft-und-heilung", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
+      ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben praxisnahe Wege, die helfen, sich selbst näherzukommen – ohne Umwege, ohne Schönrederei, direkt und klar.", "7 Wege zu Dir selbst")}
+      ${bookTip("nichts-und-alles", "Stilles Buch über das Schauen nach innen &ndash; Bewusstsein, Raum und innere Freiheit.", "Nichts und Alles")}
+      ${bookTip("der-raum-hinter-allem", "Der Raum, der bleibt, wenn Identifikation nachlässt – ein meditatives Werk über Bewusstsein und Freiheit.", "Der Raum hinter allem")}
+      ${bookTip("sei-still-und-wisse-ich-bin-gott", "Ein spirituelles Buch über die tiefste Stille in uns und die Erfahrung von Transzendenz jenseits aller Konzepte.", "Sei still und wisse – ich bin Gott!")}
+      ${bookTip("meta-intelligenz", "Meta-Intelligenz – die Intelligenz, die alle anderen Intelligenzen verbündet und das volle Potenzial des Bewusstseins erschließt.", "Meta-Intelligenz")}
+      ${bookTip("meta-intelligenz-das-hoerbuch", "Meta-Intelligenz als Hörbuch – ideal für unterwegs oder zum meditativen Zuhören.", "Meta-Intelligenz (Hörbuch)")}
       ${relatedLinks([
         {route:"kindheit", label:"Die Kindheitstraumata der 9 Typen"},
         {route:"kindliche-temperamente", label:"Schaubild: Kindliche Temperamente"},

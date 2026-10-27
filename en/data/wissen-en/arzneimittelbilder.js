@@ -1,4 +1,4 @@
-const { shell, pageHeader, relatedLinks } = window.__kh;
+const { shell, pageHeader, relatedLinks, bookTip } = window.__kh;
 
 const AB_TYPEN = [
   {
@@ -355,6 +355,16 @@ export function arzneimittelbilderPage() {
         <div class="ab-nav" id="ab-top" role="navigation" aria-label="Choose a type">${nav}</div>
         ${sektionen}
         <div class="ab-note"><strong>Note:</strong> The descriptions are remedy pictures from the homeopathic literature, interpreted within the Enneagram. They are not diagnoses and do not replace medical examination or treatment. Physical complaints always belong with a doctor or a licensed practitioner.</div>
+        ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("leidenschaft-und-heilung", "The 9 passions behind these avoided emotions &ndash; with paths of healing from homeopathic practice.", "Leidenschaft und Heilung")}
+        ${bookTip("hinter-der-leidenschaft", "Behind passion, the deeper wounds – the path to transformation of the Enneagram type.", "Hinter der Leidenschaft – die neun Wunden")}
+        ${bookTip("heilung-als-erinnerung", "Healing as remembrance of what we fundamentally are – beyond symptom and diagnosis.", "Heilung als Erinnerung")}
+        ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Seven practical steps toward getting closer to yourself – no detours, no sugarcoating, direct and clear.", "7 Wege zu Dir selbst")}
+        ${bookTip("nichts-und-alles", "A quiet book on looking inward &ndash; awareness, space, and inner freedom.", "Nichts und Alles")}
+        ${bookTip("der-raum-hinter-allem", "The space that remains when identification recedes – a meditative work on consciousness and freedom.", "Der Raum hinter allem")}
+        ${bookTip("sei-still-und-wisse-ich-bin-gott", "A spiritual book on the deepest stillness within us and the experience of transcendence beyond all concepts.", "Sei still und wisse – ich bin Gott!")}
+        ${bookTip("meta-intelligenz", "Meta-Intelligence – the intelligence that unites all other intelligences and unlocks the full potential of consciousness.", "Meta-Intelligence")}
+        ${bookTip("meta-intelligenz-das-hoerbuch", "Meta-Intelligence as an audiobook – ideal for on the go or for meditative listening.", "Meta-Intelligenz (Hörbuch)")}
         ${relatedLinks([
           {route:"enneagramm-homoeopathie", label:"Enneagram meets Homeopathy"},
           {route:"mindmaps-single-rubriken", label:"Mind maps of the single rubrics (homeopathy)"},

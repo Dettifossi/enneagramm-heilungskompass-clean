@@ -94,7 +94,15 @@ export function spirituellesEnneagrammPage() {
         ${sektionen}
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("heilung-als-erinnerung", "Heilung nicht als Reparatur, sondern als Erinnerung an das, was wir eigentlich sind.", "Heilung als Erinnerung")}
+      ${bookTip("leidenschaft-und-heilung", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
+      ${bookTip("hinter-der-leidenschaft", "Die neun Wunden des Enneagramms – tiefgreifende Analyse der Urwunde hinter jeder Leidenschaft, mit konkreten Heilungswegen für alle 9 Typen.", "Hinter der Leidenschaft")}
+      ${bookTip("heilung-als-erinnerung", "Heilung als Erinnerung an das, was wir im Grunde sind – jenseits von Symptom und Diagnose.", "Heilung als Erinnerung")}
+      ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben praxisnahe Wege, die helfen, sich selbst näherzukommen – ohne Umwege, ohne Schönrederei, direkt und klar.", "7 Wege zu Dir selbst")}
+      ${bookTip("nichts-und-alles", "Stilles Buch über das Schauen nach innen &ndash; Bewusstsein, Raum und innere Freiheit.", "Nichts und Alles")}
+      ${bookTip("der-raum-hinter-allem", "Der Raum, der bleibt, wenn Identifikation nachlässt – ein meditatives Werk über Bewusstsein und Freiheit.", "Der Raum hinter allem")}
+      ${bookTip("sei-still-und-wisse-ich-bin-gott", "Ein spirituelles Buch über die tiefste Stille in uns und die Erfahrung von Transzendenz jenseits aller Konzepte.", "Sei still und wisse – ich bin Gott!")}
+      ${bookTip("meta-intelligenz", "Meta-Intelligenz – die Intelligenz, die alle anderen Intelligenzen verbündet und das volle Potenzial des Bewusstseins erschließt.", "Meta-Intelligenz")}
+      ${bookTip("meta-intelligenz-das-hoerbuch", "Meta-Intelligenz als Hörbuch – ideal für unterwegs oder zum meditativen Zuhören.", "Meta-Intelligenz (Hörbuch)")}
       ${relatedLinks([
         {route:"tugenden-enneagramm", label:"Die Tugenden im Enneagramm"},
         {route:"laster-tugenden-affirmationen", label:"Schaubild: Laster · Tugenden · Affirmationen"},
