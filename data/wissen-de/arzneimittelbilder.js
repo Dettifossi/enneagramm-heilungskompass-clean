@@ -75,7 +75,7 @@ const AB_TYPEN = [
     psyche: [
       `Der Typ-3-Patient ist von einer tief verwurzelten Leidenschaft der <strong>Eitelkeit</strong> geprägt, die sich durch eine exzentrische, manipulative und übermäßig theatralische Persönlichkeit äußert. Die Eitelkeit ist eng verbunden mit einem starken Bedürfnis, bewundert und beachtet zu werden. Dieses Bedürfnis treibt zu unermüdlicher Energie im Streben nach Aufmerksamkeit, sei es durch provokantes Verhalten, dramatische Selbstdarstellung oder das Streben nach Perfektion im äußeren Erscheinungsbild. Sie sind Meister darin, Menschen durch Charme oder Täuschung für sich einzunehmen, und gehen dabei oft über eigene Grenzen hinaus.`,
       `Typ-3-Patienten besitzen eine hohe <strong>emotionale Labilität</strong>, kombiniert mit ausgeprägter <strong>Impulsivität</strong>. Sie sind selten in der Lage, Ruhe oder Stille zu ertragen, ihre Bewegungen und ihr Geist sind ständig in Aktion. Das spiegelt eine innere Unruhe wider, die oft zu impulsiven Entscheidungen, unstetem Lebensstil und einer Neigung zu Übertreibungen führt. Die Emotionen schwanken schnell zwischen überbordender Freude, plötzlichem Zorn und tiefer Verzweiflung.`,
-      `Auf der dunklen Seite zeigt sich bei Typ-3-Patienten eine <strong>neidische und rachsüchtige Haltung</strong>, besonders wenn sie das Gefühl haben, übergangen oder nicht gewürdigt zu werden. Manipulation und Drama eskalieren, wenn sie sich bedroht fühlen oder ihre Ziele nicht erreichen. Gleichzeitig verleihen Energie und Leidenschaft eine gewisse magnetische Ausstrahlung, die sie trotz ihrer schwierigen Persönlichkeit oft in den Mittelpunkt rückt.`
+      `Auf der dunklen Seite zeigt sich bei Typ-3-Patienten eine <strong>gekränkte und rachsüchtige Haltung</strong>, besonders wenn sie das Gefühl haben, übergangen oder nicht gewürdigt zu werden. Manipulation und Drama eskalieren, wenn sie sich bedroht fühlen oder ihre Ziele nicht erreichen. Gleichzeitig verleihen Energie und Leidenschaft eine gewisse magnetische Ausstrahlung, die sie trotz ihrer schwierigen Persönlichkeit oft in den Mittelpunkt rückt.`
     ],
     psych: [
       ["Impulsivität", "Unkontrollierte, spontane Handlungen ohne Rücksicht auf Konsequenzen."],
@@ -83,7 +83,7 @@ const AB_TYPEN = [
       ["Manische Zustände", "Übermäßige Energie, übersteigerter Optimismus und schnelle Gedanken."],
       ["Theatralik", "Dramatisierung von Situationen, um Aufmerksamkeit zu erhalten."],
       ["Manipulative Tendenzen", "Einsatz von Charme, Täuschung oder Schuldgefühlen, um Ziele zu erreichen."],
-      ["Neid und Missgunst", "Starkes Bedürfnis, im Vergleich zu anderen überlegen zu erscheinen."],
+      ["Konkurrenzdenken", "Starkes Bedürfnis, im Vergleich zu anderen überlegen zu erscheinen und Rivalen auszustechen."],
       ["Rachsucht", "Ausgeprägter Drang, wahrgenommenes Unrecht zu vergelten."],
       ["Ruhelosigkeit", "Unfähigkeit, Stille oder Untätigkeit zu ertragen."],
       ["Hysterische Anfälle", "Emotionale Ausbrüche, oft mit theatralischen Zügen."],

@@ -75,7 +75,7 @@ const AB_TYPEN = [
     psyche: [
       `The Type 3 patient is marked by a deeply rooted passion of <strong>vanity</strong>, which shows in an eccentric, manipulative and overly theatrical personality. Vanity is closely tied to a strong need to be admired and noticed. This need drives tireless energy in the pursuit of attention, whether through provocative behavior, dramatic self-presentation or the pursuit of perfection in outward appearance. They are masters at winning people over with charm or deception, and often go beyond their own limits.`,
       `Type 3 patients have high <strong>emotional lability</strong> combined with pronounced <strong>impulsivity</strong>. They are rarely able to bear rest or silence; their movements and their mind are constantly in action. This reflects an inner restlessness that often leads to impulsive decisions, an unsteady lifestyle and a tendency to exaggerate. Emotions swing quickly between overflowing joy, sudden anger and deep despair.`,
-      `On the dark side, Type 3 patients show an <strong>envious and vengeful attitude</strong>, especially when they feel overlooked or unappreciated. Manipulation and drama escalate when they feel threatened or fail to reach their goals. At the same time their energy and passion give them a certain magnetic presence that often puts them at the center despite their difficult personality.`
+      `On the dark side, Type 3 patients show a <strong>wounded and vengeful attitude</strong>, especially when they feel overlooked or unappreciated. Manipulation and drama escalate when they feel threatened or fail to reach their goals. At the same time their energy and passion give them a certain magnetic presence that often puts them at the center despite their difficult personality.`
     ],
     psych: [
       ["Impulsivity", "Uncontrolled, spontaneous actions without regard for consequences."],
@@ -83,7 +83,7 @@ const AB_TYPEN = [
       ["Manic states", "Excessive energy, exaggerated optimism and racing thoughts."],
       ["Theatricality", "Dramatizing situations to get attention."],
       ["Manipulative tendencies", "Use of charm, deception or guilt to reach goals."],
-      ["Envy and resentment", "Strong need to appear superior in comparison with others."],
+      ["Competitiveness", "Strong need to appear superior in comparison with others and to outdo rivals."],
       ["Vindictiveness", "Pronounced urge to retaliate for perceived injustice."],
       ["Restlessness", "Inability to bear stillness or inactivity."],
       ["Hysterical episodes", "Emotional outbursts, often with theatrical features."],
