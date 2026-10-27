@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=429";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=430";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -97,6 +97,7 @@ const paulSimonPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "
 const artGarfunkelPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "artGarfunkelPortraitPage");
 const jamesStewartPortraitPage = () => _lazyPage("./data/beruehmte-de/teil14.js", "jamesStewartPortraitPage");
 const marieleMillowitschPortraitPage = () => _lazyPage("./data/beruehmte-de/teil11.js", "marieleMillowitschPortraitPage");
+const georgPreussePortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "georgPreussePortraitPage");
 const garyCooperPortraitPage = () => _lazyPage("./data/beruehmte-de/teil2.js", "garyCooperPortraitPage");
 const joergKachelmannPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "joergKachelmannPortraitPage");
 const jamesDeanPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "jamesDeanPortraitPage");
@@ -27712,6 +27713,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 geb. 1939 in Milwaukee. Choreograf und Ballettdirektor, Hamburg Ballett 1973\u20132024 (\u203aNijinsky\u2039, \u203aDie Kameliendame\u2039). Die Taube, die ihre Tiefe still in Werke fasst.",
     land:"USA/Deutschland", tags:["Tanz"], gender:"m"},
+  { route:"beruehmte-georg-preusse", name:"Georg Preu\u00dfe (Mary)", added:"2026-10-27", subtyp:"SX2w3",
+    heading:"Georg Preu\u00dfe (\u203aMary\u2039) \u2013 Sexueller Typ 2",
+    teaser:"SX2w3 \u00b7 geb. 1950 in Ankum. Schauspieler und Travestiek\u00fcnstler (\u203aMary & Gordy\u2039, \u203aMary\u2039). Das Kamel, das als abgelehnter Sohn auf der B\u00fchne Zuneigung f\u00fcr einen ganzen Saal erzeugte und sp\u00e4ter ins Sprechtheater wechselte.",
+    land:"Deutschland/Schweiz", tags:["Schauspiel","Film"], gender:"m"},
   { route:"beruehmte-mariele-millowitsch", name:"Mariele Millowitsch", added:"2026-10-27", subtyp:"SX9w1",
     heading:"Mariele Millowitsch \u2013 Sexueller Typ 9",
     teaser:"SX9w1 \u00b7 geb. 1955 in K\u00f6ln. Schauspielerin und Tier\u00e4rztin (\u203aNikola\u2039, \u203agirl friends\u2039, \u203aMarie Brand\u2039). Das Faultier, das sich an wenige, lang laufende Rollen und Hunde bindet und die Ruhe aus dem lauten Haus des Volksschauspielers mitnahm.",
@@ -67429,6 +67434,7 @@ const ROUTES = {
       "beruehmte-gary-cooper": garyCooperPortraitPage,
       "beruehmte-james-stewart": jamesStewartPortraitPage,
       "beruehmte-mariele-millowitsch": marieleMillowitschPortraitPage,
+      "beruehmte-georg-preusse": georgPreussePortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,
