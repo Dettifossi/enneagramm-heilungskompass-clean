@@ -615,7 +615,7 @@ export const sx1 = {
       mediaGroups: type1MediaGroups("SX1", {
         deId: "s1AQHS_gOHg",
         enCode: "SX1",
-        enId: "NWj3sLpqm1s",
+        enId: "oA6r5OSxR6c",
         biblicalId: "mSDVJQpCVF8",
         affirmationsId: "qDI91oL9TGg",
       }),
