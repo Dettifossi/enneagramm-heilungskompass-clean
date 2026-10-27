@@ -3057,3 +3057,74 @@ export function jeanMaraisPortraitPage() {
     </div>
   `);
 }
+
+export function jamesBluntPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-james-blunt-portrait.jpg" alt="James Blunt – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">James Blunt</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Social Type 1 with a Two wing</p>
+        <p class="krim-portrait-subtitle">British singer-songwriter and former army officer, b. 1974 &ndash; ‘You're Beautiful’, ‘Back to Bedlam’ &ndash; animal counterpart: goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The goose: the officer's son who started afresh everywhere</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>goose</strong> walks upright at the front and keeps the formation together, even when the wind comes from ahead. James Hillier Blount, as Blunt is still legally named, was born on 22 February 1974 in the military hospital at Tidworth Camp, the eldest of three children with two sisters. His father Charles Blount was a former cavalry officer and helicopter pilot who became a colonel in the Army Air Corps; his mother Jane ran a ski chalet company in Méribel, France. The family traces its military tradition back to Danish ancestors who came to England in the 10th century.</p>
+          <p class="vb-intro">He grew up mainly in St Mary Bourne in Hampshire, but his father's postings took the family to Middle Wallop, Netheravon, York, Nicosia in Cyprus and Soest in Germany. He attended Elstree School and Harrow School, took A-levels there in physics, chemistry and economics and gained a private pilot's licence at 16. At the University of Bristol he began with civil engineering and graduated in sociology in 1996; a British Army bursary committed him to at least four years of service.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social One: an order he would not have carried out</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo described the social One as the subtype of non-adaptability: the One measures the community and themselves against a high standard, does not feel fully part of it and stands up for what is right precisely for that reason. In Blunt this can be linked to an episode from his service. He trained at Sandhurst, was commissioned into the Life Guards and rose to captain. In 1999 he volunteered for a squadron of the Blues and Royals deployed with NATO to Kosovo.</p>
+          <p class="vb-intro">On 12 June 1999, after Russian troops had taken Pristina airport, US commander Wesley Clark reportedly ordered it to be taken by force. According to reports the British General Mike Jackson refused and said he would not start the Third World War for him. Blunt himself says he would have refused such an order had Jackson not stopped it. In Kosovo he wrote the song ‘No Bravery’; later he supported Doctors Without Borders, whom he met there, and made the documentary ‘Return to Kosovo’. The photo shows thick, dark, wavy hair with one strand standing up, the right hand behind the ear, an alert, direct gaze under slightly raised brows and a narrow, crooked smile with light stubble.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two wing: warmth, self-irony and help</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two wing (w2)</strong> gives the One attentiveness. In Blunt it shows in his readiness to help after his service: he was a patron of Help for Heroes, a charity for wounded British soldiers, and gave benefit concerts for it. He contributed to the charity single ‘Everybody Hurts’ for the 2010 Haiti appeal and performed at Live Earth in 2007. His self-irony, with which he entertains over two million people on Twitter, can be understood as a Two trait: whoever laughs at themselves takes the shyness out of others.</p>
+          <p class="vb-intro">His friendships speak of this too. Carrie Fisher was godmother to his elder son, <a href="#beruehmte-ed-sheeran">Ed Sheeran (SX9w1)</a> is his godfather. In September 2014 he married Sofia Wellesley, a granddaughter of the 8th Duke of Wellington; the couple have two sons. He wrote the song ‘The Girl That Never Was’ about the loss of a child through miscarriage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: songs from the barracks and a world hit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Blunt wrote songs while still serving. After a tip, Elton John's manager Todd Interland reportedly pulled over and called him when he heard ‘Goodbye My Lover’ on a demo. Record companies initially saw his posh speaking voice as a barrier in class-divided British society. Linda Perry signed him to her label Custard Records after a performance at SXSW in 2003. Critics compared him to Damien Rice and David Gray; the journalist Liz Hoggard wrote that it was impossible to resist Blunt's ‘troubadour yearning’.</p>
+          <p class="vb-intro">His debut album ‘Back to Bedlam’ (2004), produced by Tom Rothrock, reached No. 1 in Britain and No. 2 in the US and was the best-selling British album of the 2000s. ‘You're Beautiful’ reached No. 1 in 13 countries and in 2006 was the first British number-one hit on the US Billboard Hot 100 in nearly a decade. In 2006 he won two Brit Awards and two Ivor Novello Awards; he was nominated for the Grammy five times and received an honorary doctorate from the University of Bristol in 2016. Then came ‘All the Lost Souls’ (2007), ‘Some Kind of Trouble’ (2010), ‘Moon Landing’ (2013), ‘The Afterlove’ (2017), ‘Once Upon a Mind’ (2019) and ‘Who We Used to Be’ (2023). He collected his tweets in the 2020 book ‘How to Be a Complete and Utter Blunt’; in 2023 came ‘Loosely Based on a Made-Up Story: A Non-Memoir’.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Wolfgang Niedecken and Justin Timberlake</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-wolfgang-niedecken">Wolfgang Niedecken (SO1w2)</a> takes a public stand as a musician where something does not seem right to him, just as Blunt would not have carried out an order. Both combine a firm stance with warmth. <a href="#beruehmte-justin-timberlake">Justin Timberlake (SO1w2)</a> is likewise a singer and songwriter with a Two wing; in Blunt, self-irony and the officer background are added.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. At home: Ibiza, Verbier and a ski lift</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Blunt lives mainly in Ibiza and owns a chalet in Verbier, Switzerland, where a ski lift is named after him. The song ‘1973’ was inspired by nights at Pacha in Ibiza. In 2012 he co-opened the restaurant La Vache in Verbier with the motorcycle racer Carl Fogarty and the rugby player Lawrence Dallaglio. In the same year he was a victim of the News International phone-hacking affair and filed a civil claim.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where he stands and how to place it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2025 Blunt toured for the 20th anniversary of ‘Back to Bedlam’. His eighth studio album ‘Airplane Mode’ is due on 6 November 2026 from Atlantic Records; the tour of the same name begins in 2027, with concerts in Germany, Austria and Switzerland among others. In autumn 2026 he appears in the second series of the BBC programme ‘The Celebrity Traitors’ (as of 27 October 2026).</p>
+          <p class="vb-intro">For the social One with a Two wing the path lies in letting the high standard not become a uniform and in belonging without rank. In Blunt this can be linked to the move from the barracks to the stage, where he could show how much sensitivity lay behind the upright bearing.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so1", label:"SO1 – The goose: subtype profile"},
+        {route:"beruehmte-wolfgang-niedecken", label:"Portrait: Wolfgang Niedecken (SO1w2)"},
+        {route:"beruehmte-justin-timberlake", label:"Portrait: Justin Timberlake (SO1w2)"},
+        {route:"beruehmte-ed-sheeran", label:"Portrait: Ed Sheeran (SX9w1)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}

@@ -3034,3 +3034,74 @@ export function marthaGrahamPortraitPage() {
     </div>
   `);
 }
+
+export function jamesBluntPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-james-blunt-portrait.jpg" alt="James Blunt – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">James Blunt</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Sozialer Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Britischer Singer-Songwriter und ehemaliger Offizier, geb. 1974 &ndash; ›You're Beautiful‹, ›Back to Bedlam‹ &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans: der Offizierssohn, der überall neu anfing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> geht aufrecht voran und hält die Formation zusammen, auch wenn der Wind von vorn kommt. James Hillier Blount, wie Blunt rechtlich noch heißt, kam am 22. Februar 1974 im Militärkrankenhaus des Tidworth Camp zur Welt, als ältestes von drei Kindern mit zwei Schwestern. Sein Vater Charles Blount war früher Kavallerieoffizier und Hubschrauberpilot und wurde Oberst im Army Air Corps; die Mutter Jane leitete eine Firma für Skichalets im französischen Méribel. Die Familie führt ihre Militärtradition auf dänische Vorfahren zurück, die im 10. Jahrhundert nach England kamen.</p>
+          <p class="vb-intro">Aufgewachsen ist er überwiegend in St Mary Bourne in Hampshire, doch die Versetzungen des Vaters führten die Familie nach Middle Wallop, Netheravon, York, ins zyprische Nikosia und nach Soest in Deutschland. Er besuchte die Elstree School und die Harrow School, machte dort Abitur in Physik, Chemie und Wirtschaft und erwarb mit 16 einen Privatpilotenschein. An der Universität Bristol begann er mit Bauingenieurwesen und schloss 1996 in Soziologie ab; ein Stipendium der britischen Armee verpflichtete ihn zu mindestens vier Dienstjahren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: ein Befehl, den er nicht ausgeführt hätte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo beschrieb die soziale Eins als den Subtyp der Unangepasstheit: Die Eins misst die Gemeinschaft und sich selbst an einem hohen Maßstab, fühlt sich nicht ganz zugehörig und steht gerade deshalb für das Richtige ein. Bei Blunt lässt sich das mit einer Episode aus seinem Dienst verbinden. Er trat in Sandhurst ein, wurde in die Life Guards übernommen und stieg zum Hauptmann auf. 1999 meldete er sich freiwillig zu einer Schwadron der Blues and Royals, die mit der NATO in den Kosovo verlegt wurde.</p>
+          <p class="vb-intro">Am 12. Juni 1999, nachdem russische Truppen den Flughafen Pristina besetzt hatten, soll der US-Befehlshaber Wesley Clark angeordnet haben, ihn mit Gewalt zu nehmen. Der britische General Mike Jackson weigerte sich nach den Berichten und sagte, man werde nicht für ihn den Dritten Weltkrieg anfangen. Blunt selbst sagt, er hätte einen solchen Befehl verweigert, wenn Jackson ihn nicht gestoppt hätte. Im Kosovo schrieb er das Lied ›No Bravery‹; später unterstützte er Ärzte ohne Grenzen, die er dort kennengelernt hatte, und drehte die Dokumentation ›Return to Kosovo‹. Das Foto zeigt dichtes, dunkles, welliges Haar mit einer aufstehenden Strähne, die rechte Hand hinter dem Ohr, einen wachen, direkten Blick unter leicht angehobenen Brauen und ein schmales, schiefes Lächeln mit leichtem Bartschatten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Wärme, Selbstironie und Hilfe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der Eins Zuwendung. Bei Blunt zeigt er sich in der Hilfsbereitschaft nach dem Dienst: Er war Schirmherr von Help for Heroes, einer Wohltätigkeitsorganisation für verwundete britische Soldaten, und gab Benefizkonzerte für sie. Er wirkte am Wohltätigkeitssong ›Everybody Hurts‹ für die Haiti-Hilfe 2010 mit und trat 2007 bei Live Earth auf. Seine Selbstironie, mit der er auf Twitter über zwei Millionen Menschen unterhält, lässt sich als Zweierzug verstehen: Wer über sich selbst lacht, nimmt anderen die Scheu.</p>
+          <p class="vb-intro">Auch die Freundschaften sprechen davon. Carrie Fisher war Patin seines älteren Sohnes, <a href="#beruehmte-ed-sheeran">Ed Sheeran (SX9w1)</a> ist dessen Pate. Im September 2014 heiratete er Sofia Wellesley, eine Enkelin des 8. Duke of Wellington; das Paar hat zwei Söhne. Über den Verlust eines Kindes durch eine Fehlgeburt schrieb er das Lied ›The Girl That Never Was‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Lieder aus der Kaserne und ein Welthit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Blunt schrieb schon im Dienst Lieder. Nach einem Hinweis soll Elton Johns Manager Todd Interland den Wagen angehalten und ihn angerufen haben, als er auf einem Demo ›Goodbye My Lover‹ hörte. Plattenfirmen hielten seine vornehme Sprechstimme in der klassengeteilten britischen Gesellschaft zunächst für ein Hindernis. Linda Perry nahm ihn nach einem Auftritt beim SXSW 2003 bei ihrem Label Custard Records unter Vertrag. Die Kritik verglich ihn mit Damien Rice und David Gray; die Journalistin Liz Hoggard schrieb, es sei unmöglich, sich Blunts ›troubadour yearning‹ (›Sehnsucht eines Troubadours‹) zu entziehen.</p>
+          <p class="vb-intro">Sein Debütalbum ›Back to Bedlam‹ (2004), produziert von Tom Rothrock, erreichte Platz 1 in Großbritannien und Platz 2 in den USA und war das meistverkaufte britische Album der 2000er-Jahre. ›You're Beautiful‹ erreichte in 13 Ländern Platz 1 und war 2006 der erste britische Nummer-eins-Hit in den US-Billboard-Charts seit fast einem Jahrzehnt. 2006 gewann er zwei Brit Awards und zwei Ivor Novello Awards; er wurde fünfmal für den Grammy nominiert und erhielt 2016 die Ehrendoktorwürde der Universität Bristol. Danach folgten ›All the Lost Souls‹ (2007), ›Some Kind of Trouble‹ (2010), ›Moon Landing‹ (2013), ›The Afterlove‹ (2017), ›Once Upon a Mind‹ (2019) und ›Who We Used to Be‹ (2023). Seine Tweets sammelte er 2020 im Buch ›How to Be a Complete and Utter Blunt‹; 2023 erschien ›Loosely Based on a Made-Up Story: A Non-Memoir‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Wolfgang Niedecken und Justin Timberlake</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-wolfgang-niedecken">Wolfgang Niedecken (SO1w2)</a> bezieht als Musiker öffentlich Position, wo ihm etwas nicht richtig erscheint, so wie Blunt einen Befehl nicht ausgeführt hätte. Beide verbinden eine feste Haltung mit Wärme. <a href="#beruehmte-justin-timberlake">Justin Timberlake (SO1w2)</a> ist ebenfalls Sänger und Songwriter mit Zweierflügel; bei Blunt kommen Selbstironie und der Offiziershintergrund hinzu.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zuhause: Ibiza, Verbier und ein Skilift</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Blunt lebt überwiegend auf Ibiza und besitzt ein Chalet in Verbier in der Schweiz, wo ein Skilift nach ihm benannt ist. Das Lied ›1973‹ ist von Nächten im Pacha auf Ibiza inspiriert. 2012 eröffnete er mit dem Motorradrennfahrer Carl Fogarty und dem Rugbyspieler Lawrence Dallaglio das Restaurant La Vache in Verbier. Im selben Jahr war er Opfer des Abhörskandals bei News International und reichte Zivilklage ein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand und Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2025 war Blunt mit der Tour zum 20. Jubiläum von ›Back to Bedlam‹ unterwegs. Sein achtes Studioalbum ›Airplane Mode‹ erscheint am 6. November 2026 bei Atlantic Records; die gleichnamige Tour beginnt 2027, unter anderem mit Konzerten in Deutschland, Österreich und der Schweiz. Im Herbst 2026 ist er in der zweiten Staffel der BBC-Sendung ›The Celebrity Traitors‹ zu sehen (Stand 27. Oktober 2026).</p>
+          <p class="vb-intro">Für die soziale Eins mit Zweierflügel liegt der Weg darin, dass der hohe Maßstab nicht zur Uniform werden muss und Zugehörigkeit auch ohne Rang möglich ist. Bei Blunt lässt sich das mit dem Wechsel von der Kaserne auf die Bühne verbinden, wo er zeigen konnte, wie viel Empfindsamkeit hinter der straffen Haltung lag.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"beruehmte-wolfgang-niedecken", label:"Porträt: Wolfgang Niedecken (SO1w2)"},
+        {route:"beruehmte-justin-timberlake", label:"Porträt: Justin Timberlake (SO1w2)"},
+        {route:"beruehmte-ed-sheeran", label:"Porträt: Ed Sheeran (SX9w1)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}

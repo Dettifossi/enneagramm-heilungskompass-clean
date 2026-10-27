@@ -231,6 +231,8 @@ const ROUTES = [
   { hash: "en/#mindmap-cannabis", label: "EN Mindmap Cannabis indica" },
   { hash: "#spirituelles-enneagramm", label: "Neu: Das spirituelle Enneagramm" },
   { hash: "en/#spirituelles-enneagramm", label: "Neu EN: Das spirituelle Enneagramm" },
+  { hash: "#beruehmte-james-blunt", label: "Neues Porträt: James Blunt" },
+  { hash: "en/#beruehmte-james-blunt", label: "Neues EN-Porträt: James Blunt" },
   { hash: "#beruehmte-georg-preusse", label: "Neues Porträt: Georg Preuße" },
   { hash: "en/#beruehmte-georg-preusse", label: "Neues EN-Porträt: Georg Preuße" },
   { hash: "#beruehmte-mariele-millowitsch", label: "Neues Porträt: Mariele Millowitsch" },
