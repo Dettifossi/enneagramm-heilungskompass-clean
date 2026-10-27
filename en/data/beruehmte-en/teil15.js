@@ -3141,7 +3141,7 @@ export function annieLennoxPortraitPage() {
         <h2 class="vb-section">7. Where she stands and how to place it</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In 2024 Lennox performed at the Gershwin Prize tribute to Elton John and Bernie Taupin. In 2025 she played the concert ‘Sisters: Annie Lennox and Friends’ at the Royal Albert Hall, her first live show in six years (as of 28 October 2026).</p>
-          <p class="vb-intro">For the sexual One with a Two wing the path lies in letting the zeal not have to carry every need of the world, and in attention being possible without a campaign. In Lennox this can be linked to the alternation between the stage and quiet piano songs, for example in the EP ‘Lepidoptera’ (2019).</p>
+          <p class="vb-intro">For the sexual One with a Two wing the path lies in letting the zeal not have to carry every need of the world, and in attention being possible without a campaign. In Lennox this can be linked to the alternation between the stage and quiet piano songs, for example in the EP (extended play, a short album) ‘Lepidoptera’ (2019).</p>
         </blockquote>
 
       </div>

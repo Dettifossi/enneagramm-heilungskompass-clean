@@ -3153,7 +3153,7 @@ export function annieLennoxPortraitPage() {
         <h2 class="vb-section">7. Stand und Einordnung</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">2024 trat Lennox beim Gershwin-Preis-Tribut an Elton John und Bernie Taupin auf. 2025 spielte sie in der Royal Albert Hall das Konzert ›Sisters: Annie Lennox and Friends‹, ihren ersten Live-Auftritt seit sechs Jahren (Stand 28. Oktober 2026).</p>
-          <p class="vb-intro">Für die sexuelle Eins mit Zweierflügel liegt der Weg darin, dass der Eifer nicht jede Not der Welt tragen muss und Zuwendung auch ohne Kampagne möglich ist. Bei Lennox lässt sich das mit dem Wechsel zwischen Bühne und stillem Klavierprogramm verbinden, etwa in der EP ›Lepidoptera‹ mit Klavierliedern (2019).</p>
+          <p class="vb-intro">Für die sexuelle Eins mit Zweierflügel liegt der Weg darin, dass der Eifer nicht jede Not der Welt tragen muss und Zuwendung auch ohne Kampagne möglich ist. Bei Lennox lässt sich das mit dem Wechsel zwischen Bühne und stillem Klavierprogramm verbinden, etwa in der EP (Extended Play, einem Kurzalbum) ›Lepidoptera‹ mit Klavierliedern (2019).</p>
         </blockquote>
 
       </div>
