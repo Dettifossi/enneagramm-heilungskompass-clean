@@ -3093,3 +3093,74 @@ export function happyAndersonPortraitPage() {
     </div>
   `);
 }
+
+export function marieleMillowitschPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-mariele-millowitsch-portrait.jpg" alt="Mariele Millowitsch – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mariele Millowitsch</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with a One wing</p>
+        <p class="krim-portrait-subtitle">German actress and veterinarian, b. 1955 &ndash; ‘Nikola’, ‘girl friends – Freundschaft mit Herz’, ‘Marie Brand’ &ndash; animal counterpart: sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The sloth: the youngest in the house of a folk actor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sloth</strong> hangs quietly in the branches and notices what goes on around it. Marie-Luise Millowitsch, known as Mariele, was born on 23 November 1955 in Cologne, the fourth and youngest child of the folk actor Willy Millowitsch and his wife Gerda. The family theatre on Aachener Straße was part of everyday life; even as a child she stood on its stage, according to reports for the first time in 1962 in the farce ‘Drei kölsche Jungs’ (‘Three Cologne Boys’).</p>
+          <p class="vb-intro">She herself does not describe her childhood as simply sunny: ‘Everything revolved around the father,’ who was moody, and there were also moments of fear. As a child she could not bear shouting, and she still cannot. At the same time she remembers a father who did not push when school reports were bad but comforted with ‘Wird scho’ (‘It'll be fine’), and a mother who subordinated herself to him. That she learned early to read the mood in the house and to avoid tension can be linked to the pattern of the Nine.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Nine: the one bond and the art of keeping harmony</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo described the sexual Nine as the subtype of union: the energy goes not to the group but to the single counterpart, the work or the role in which the person is completely absorbed. In Millowitsch this can be linked to her loyalty to a few things: the role she carries for years, and the dogs she calls her second great love; her mixed-breed Luigi was allowed on the set of ‘Marie Brand’. Since her student days in Munich she lived with a wire-haired dachshund. What carries her is not a wide network but her siblings and a circle of long-standing friends.</p>
+          <p class="vb-intro">It belongs to the Nine to put calm above conflict. The aversion to loud quarrelling that she took from childhood fits this. Asked about children of her own, she said in an interview: ‘The door is closed, so it's closed.’ She seems not bitter but serene; since 2021 she has said she is single and very content with it. The photo shows a broad, open smile with visible teeth, deep laugh lines around the eyes, a soft, warm gaze and tousled hair with a side strand across the forehead. The head is slightly tilted, as if she were listening.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One wing: thoroughness, duty and a standard for what is right</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One wing (w1)</strong> gives the Nine thoroughness and a sense of what has to be done. Instead of the drama school her parents had in mind after school, Millowitsch studied veterinary medicine at Ludwig Maximilian University in Munich, reportedly at a distance from the family's theatre milieu. In 1983, shortly before finishing her studies, she accepted an offer to perform at the Düsseldorf Kom(m)ödchen cabaret; at the end of the 1980s she completed her studies and in 1991 received her doctorate in veterinary medicine. The dissertation dealt with percutaneous partial discectomy, a procedure for slipped discs in dogs, which mainly affect dachshunds. She never practised as a veterinarian.</p>
+          <p class="vb-intro">Duty also shows outside the stage. She is a member of Doctors Without Borders, supports a health centre in Jattaba in the Gambia and became patron of the patients' days of the breast centre in Cologne-Holweide. As a delegate of the SPD she was a member of the Federal Convention in 2017. Her roles carry the One-wing trait too: Commissioner Marie Brand looks for the truth behind her cases, and the probation officer Klara Sonntag stands between law and humanity.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the woman next door who can be funny and credible at once</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Millowitsch became known through television. From 1995 to 2004 she played Marie Malek in the ZDF series ‘girl friends – Freundschaft mit Herz’ (‘girl friends – Friendship with Heart’; 69 episodes, alongside Walter Sittler), and from 1996 to 2005 the title role in the RTL comedy series ‘Nikola’ (110 episodes). For ‘girl friends’ she received the Goldener Löwe (Golden Lion) in 1996; for ‘Nikola’ the Adolf Grimme Award in 1998, the Bavarian TV Award in 2002 and in 2003 the Deutscher Fernsehpreis as best sitcom actress; in 2000 she won the Goldene Kamera for both series. Added to this are her place on the panel of Harald Schmidt's game show ‘Pssst …’ (1990–1995), the thriller role in ‘Die Stimmen’ (‘The Voices’, 2003) and ‘Die Familienanwältin’ (‘The Family Lawyer’, 2005–2006).</p>
+          <p class="vb-intro">Since 2008 she has played the Cologne detective Marie Brand in the ZDF crime series, which the FAZ praised as ‘gut geschrieben, gut gespielt und gut gemacht’ (well written, well acted and well made); since 2021 she has played the title role in the ARD series about the probation officer Klara Sonntag. The range between sitcom, family lawyer and crime drama, carried by a naturalness that rests on the family's Cologne stage craft, is her professional substance. It is notable that after the detour through her studies she does not pursue many projects side by side but binds herself to a few long-running roles. She also reads aloud: from Annie Ernaux's ‘The Years’ (2017), in a staged reading with Walter Sittler titled ‘Alte Liebe’ (‘Old Love’), and she narrated the audiobook ‘Am Ende des Schweigens’ (‘At the End of Silence’) by Charlotte Link (gold award).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Richy Müller, Kris Marshall and Helge Schneider</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-richy-mueller">Richy Müller (SX9w1)</a> has embodied the same Tatort character since 2008, just as Millowitsch has played Marie Brand since 2008: a role that grows over the years instead of being swapped. <a href="#beruehmte-kris-marshall">Kris Marshall (SX9w1)</a> stayed with the same character in ‘My Family’ for eleven years. <a href="#beruehmte-helge-schneider">Helge Schneider (SX9w1)</a>, also born in 1955, shows the same ease in comedy: the audience sees him as relaxed, while decades of discipline stand behind it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Family and private life: protection instead of headlines</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Her brother Peter ran the Millowitsch Theatre from 1998 to 2018; after her studies she herself found her own place in front of it and beside it. Her last publicly known relationship ended amicably in 2009, and the two then lived in separate flats in the same house. As an aunt and godmother she sees herself in a good role: ‘There have to be aunts and godmothers too.’ She speaks sparingly and kindly about private matters.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where she stands and how to place it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mariele Millowitsch lives in Cologne and is still active; most recently she was seen in the cinema film ‘Von uns wird es keiner sein’ (‘None of Us Will Be It’, 2024) and in ‘Weihnachten im Olymp’ (‘Christmas on Olympus’, 2025) (as of 27 October 2026).</p>
+          <p class="vb-intro">For the sexual Nine with a One wing the path lies in letting one's own voice count beside the bond, and in seeing that calm is not a duty that has to replace the quarrel. In Millowitsch the serenity one believes of her on screen can be linked to this path: out of the father's loud world came a quiet voice of her own.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx9", label:"SX9 – The sloth: subtype profile"},
+        {route:"beruehmte-richy-mueller", label:"Portrait: Richy Müller (SX9w1)"},
+        {route:"beruehmte-kris-marshall", label:"Portrait: Kris Marshall (SX9w1)"},
+        {route:"beruehmte-helge-schneider", label:"Portrait: Helge Schneider (SX9w1)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}

@@ -3053,3 +3053,74 @@ export function rosalieThomassPortraitPage() {
     </div>
   `);
 }
+
+export function marieleMillowitschPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-mariele-millowitsch-portrait.jpg" alt="Mariele Millowitsch – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mariele Millowitsch</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Deutsche Schauspielerin und Tierärztin, geb. 1955 &ndash; ›Nikola‹, ›girl friends – Freundschaft mit Herz‹, ›Marie Brand‹ &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier: die Jüngste im Haus des Volksschauspielers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> hängt ruhig im Geäst und nimmt wahr, was um es herum geschieht. Marie-Luise Millowitsch, genannt Mariele, kam am 23. November 1955 in Köln als viertes und jüngstes Kind des Volksschauspielers Willy Millowitsch und seiner Frau Gerda zur Welt. Das Familientheater an der Aachener Straße gehörte zum Alltag; schon als Kind stand sie dort auf der Bühne, nach den Berichten zum ersten Mal 1962 im Schwank ›Drei kölsche Jungs‹ (›Drei Kölner Jungs‹).</p>
+          <p class="vb-intro">Die Kindheit beschreibt sie selbst nicht als nur sonnig: ›Alles drehte sich um den Vater‹, der launisch gewesen sei, und es habe auch Angstmomente gegeben. Das Herumbrüllen konnte sie als Kind nicht ertragen, und sie kann es bis heute nicht. Zugleich erinnert sie sich an einen Vater, der bei schlechten Zeugnissen nicht drängte, sondern mit ›Wird scho‹ tröstete, und an eine Mutter, die sich ihm unterordnete. Dass sie früh lernte, die Stimmung im Haus zu lesen und Spannung zu meiden, lässt sich mit dem Muster der Neun in Verbindung bringen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: die eine Bindung und die Kunst, Harmonie zu halten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo beschrieb die sexuelle Neun als den Subtyp der Vereinigung: Die Energie gilt nicht der Gruppe, sondern dem einzelnen Gegenüber, dem Werk oder der Rolle, in der die Person ganz aufgeht. Bei Millowitsch lässt sich das mit ihrer Treue zu wenigen Dingen in Verbindung bringen. Dazu gehören die Rolle, die sie über Jahre trägt, und die Hunde, die sie als ihre zweite große Liebe bezeichnet; ihr Mischling Luigi durfte mit an das Set von ›Marie Brand‹. Seit ihrer Münchner Studienzeit lebte sie mit einem Rauhaardackel. Ein weitgespanntes Netz ist es nicht, was sie trägt, sondern die Geschwister und ein Kreis langjähriger Freunde.</p>
+          <p class="vb-intro">Zur Neun gehört, dass sie Ruhe über Konflikt stellt. Die Abneigung gegen lautes Streiten, die sie aus der Kindheit mitnahm, passt dazu. Auf die Frage nach eigenen Kindern sagte sie in einem Interview: ›Die Tür ist zu, dann ist sie halt zu.‹ Sie wirkt damit nicht verbittert, sondern gelassen; seit 2021 sagt sie, sie sei Single und damit sehr zufrieden. Das Foto zeigt ein breites, offenes Lächeln mit sichtbaren Zähnen, tiefe Lachfalten um die Augen, einen weichen, warmen Blick und zerzaustes Haar mit einer seitlichen Strähne in der Stirn. Der Kopf ist leicht geneigt, als höre sie gerade zu.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Gründlichkeit, Pflicht und ein Maßstab für das Richtige</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der Neun Gründlichkeit und ein Gefühl für das, was getan werden muss. Statt der Schauspielschule, die die Eltern nach dem Abitur vorgesehen hatten, studierte Millowitsch an der Ludwig-Maximilians-Universität München Veterinärmedizin, nach den Berichten auf Distanz zum Theatermilieu der Familie. 1983 nahm sie kurz vor dem Studienende ein Angebot an, am Düsseldorfer Kom(m)ödchen zu spielen; Ende der 1980er-Jahre führte sie das Studium zu Ende und wurde 1991 zur Dr. med. vet. promoviert. Die Dissertation behandelte die perkutane partielle Diskektomie, ein Verfahren bei Bandscheibenvorfällen von Hunden, die vor allem Dackel betreffen. Als Tierärztin praktiziert hat sie nie.</p>
+          <p class="vb-intro">Die Pflicht zeigt sich auch außerhalb der Bühne. Sie ist Mitglied bei Ärzte ohne Grenzen, unterstützt ein Gesundheitszentrum in Jattaba in Gambia und übernahm die Schirmherrschaft über die Patientinnentage des Brustzentrums Holweide in Köln. Als Delegierte der SPD war sie 2017 Mitglied der Bundesversammlung. Auch ihre Rollen tragen den Zug des Einserflügels: Die Kommissarin Marie Brand sucht die Wahrheit hinter Fällen, die Bewährungshelferin Klara Sonntag steht zwischen Recht und Menschlichkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: die Frau von nebenan, die komisch und glaubwürdig zugleich sein kann</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bekannt wurde Millowitsch im Fernsehen. Von 1995 bis 2004 spielte sie Marie Malek in der ZDF-Serie ›girl friends – Freundschaft mit Herz‹ (69 Folgen, neben Walter Sittler), von 1996 bis 2005 die Titelrolle der RTL-Comedyserie ›Nikola‹ (110 Folgen). Für ›girl friends‹ erhielt sie 1996 den Goldenen Löwen, für ›Nikola‹ 1998 den Adolf-Grimme-Preis, 2002 den Bayerischen Fernsehpreis und 2003 den Deutschen Fernsehpreis als beste Schauspielerin in einer Sitcom; 2000 bekam sie die Goldene Kamera für beide Serien. Dazu kommen die Ratemitgliedschaft in Harald Schmidts Spielshow ›Pssst …‹ (1990–1995), die Thrillerrolle in ›Die Stimmen‹ (2003) und ›Die Familienanwältin‹ (2005–2006).</p>
+          <p class="vb-intro">Seit 2008 ermittelt sie als Kölner Kommissarin Marie Brand in der ZDF-Krimireihe, die die FAZ als ›gut geschrieben, gut gespielt und gut gemacht‹ lobte; seit 2021 spielt sie die Titelrolle in der ARD-Reihe um die Bewährungshelferin Klara Sonntag. Die Bandbreite zwischen Sitcom, Familienanwältin und Krimi, getragen von einer Natürlichkeit, die auf dem Kölner Bühnenhandwerk der Familie ruht, ist ihre fachliche Substanz. Bemerkenswert ist, dass sie nach dem Umweg über das Studium nicht viele Projekte nebeneinander verfolgt, sondern sich an wenige, lang laufende Rollen bindet. Daneben liest sie: aus Annie Ernaux' ›Die Jahre‹ (2017), szenisch mit Walter Sittler in ›Alte Liebe‹, und sie sprach das Hörbuch ›Am Ende des Schweigens‹ von Charlotte Link (Gold-Auszeichnung).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Richy Müller, Kris Marshall und Helge Schneider</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-richy-mueller">Richy Müller (SX9w1)</a> verkörpert seit 2008 dieselbe Tatort-Figur, genau wie Millowitsch seit 2008 Marie Brand: eine Rolle, die über Jahre wächst, statt gewechselt zu werden. <a href="#beruehmte-kris-marshall">Kris Marshall (SX9w1)</a> blieb elf Jahre lang derselben Figur in ›My Family‹ treu. <a href="#beruehmte-helge-schneider">Helge Schneider (SX9w1)</a>, ebenfalls Jahrgang 1955, zeigt dieselbe Gelassenheit in der Komik: Das Publikum nimmt ihn als entspannt wahr, während dahinter jahrzehntelange Disziplin steht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Familie und Privates: Schutz statt Schlagzeile</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ihr Bruder Peter leitete das Millowitsch-Theater von 1998 bis 2018; sie selbst fand nach dem Studium ihren eigenen Platz davor und daneben. Ihre letzte öffentlich bekannte Beziehung endete 2009 einvernehmlich, beide wohnten danach in getrennten Wohnungen im selben Haus. Als Tante und Patentante sieht sie sich in einer guten Rolle: ›Es muss auch Tanten und Patentanten geben.‹ Über Privates spricht sie sparsam und freundlich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand und Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mariele Millowitsch lebt in Köln und ist weiter aktiv; zuletzt war sie im Kinofilm ›Von uns wird es keiner sein‹ (2024) und in ›Weihnachten im Olymp‹ (2025) zu sehen (Stand 27. Oktober 2026).</p>
+          <p class="vb-intro">Für die sexuelle Neun mit Einserflügel liegt der Weg darin, dass die eigene Stimme neben der Bindung zählt und dass Ruhe keine Pflicht ist, die den Streit ersetzen muss. Bei Millowitsch lässt sich die Gelassenheit, die man ihr auf dem Bildschirm abnimmt, mit diesem Weg verbinden: Aus der lauten Welt des Vaters wurde ein eigener, ruhiger Ton.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"beruehmte-richy-mueller", label:"Porträt: Richy Müller (SX9w1)"},
+        {route:"beruehmte-kris-marshall", label:"Porträt: Kris Marshall (SX9w1)"},
+        {route:"beruehmte-helge-schneider", label:"Porträt: Helge Schneider (SX9w1)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}

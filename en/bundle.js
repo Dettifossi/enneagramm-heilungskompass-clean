@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=425";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=426";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -108,6 +108,7 @@ const happyAndersonPortraitPage = () => _lazyPage("./data/beruehmte-en/teil8.js"
 const paulSimonPortraitPage = () => _lazyPage("./data/beruehmte-en/teil9.js", "paulSimonPortraitPage");
 const artGarfunkelPortraitPage = () => _lazyPage("./data/beruehmte-en/teil9.js", "artGarfunkelPortraitPage");
 const jamesStewartPortraitPage = () => _lazyPage("./data/beruehmte-en/teil5.js", "jamesStewartPortraitPage");
+const marieleMillowitschPortraitPage = () => _lazyPage("./data/beruehmte-en/teil8.js", "marieleMillowitschPortraitPage");
 const garyCooperPortraitPage = () => _lazyPage("./data/beruehmte-en/teil12.js", "garyCooperPortraitPage");
 const joergKachelmannPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "joergKachelmannPortraitPage");
 const jamesDeanPortraitPage = () => _lazyPage("./data/beruehmte-en/teil3.js", "jamesDeanPortraitPage");
@@ -1961,6 +1962,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Self-Preservation Type 4",
     teaser:"SP4w5 \u00b7 born 1939 in Milwaukee. Choreographer and ballet director, Hamburg Ballet 1973\u20132024 (\u2018Nijinsky\u2019, \u2018The Lady of the Camellias\u2019). The Dove who puts her depth quietly into works.",
     land:"USA/Germany", tags:["Tanz"], gender:"m"},
+{ route:"beruehmte-mariele-millowitsch", name:"Mariele Millowitsch", added:"2026-10-27", subtyp:"SX9w1",
+    heading:"Mariele Millowitsch \u2013 Sexual Type 9",
+    teaser:"SX9w1 \u00b7 b. 1955 in Cologne. Actress and veterinarian (\u2018Nikola\u2019, \u2018girl friends\u2019, \u2018Marie Brand\u2019). The Sloth that binds itself to a few long-running roles and to dogs, and carried calm out of the folk actor\u2019s loud house.",
+    land:"Deutschland", tags:["Schauspiel","Film"], gender:"f"},
 { route:"beruehmte-james-stewart", name:"James Stewart", added:"2026-10-26", subtyp:"SX9w1",
     heading:"James Stewart \u2013 Sexual Type 9",
     teaser:"SX9w1 \u00b7 1908\u20131997. American actor and pilot (\u2018Mr. Smith Goes to Washington\u2019, \u2018It\u2019s a Wonderful Life\u2019). The Sloth who turned into the decent everyman and showed his vulnerability in the quiet.",
@@ -47152,6 +47157,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-james-dean": jamesDeanPortraitPage,
       "beruehmte-gary-cooper": garyCooperPortraitPage,
       "beruehmte-james-stewart": jamesStewartPortraitPage,
+      "beruehmte-mariele-millowitsch": marieleMillowitschPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,
