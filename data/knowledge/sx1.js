@@ -394,7 +394,7 @@ export const sx1 = {
             },
             {
               label: "Mentale & emotionale Haltung",
-              text: "Typ 1 zeigt mentalen Perfektionismus und emotionalen Groll, wenn innere Spannung zu stark wird. Bei der SX1 verwandelt sich dieser Groll in innere Intensität und persönlichen Zeal, gerichtet auf nahe Beziehungen. Sie lernt, Konfrontation in Selbstkontakt zu verwandeln.",
+              text: "Typ 1 zeigt mentalen Perfektionismus und emotionalen Groll, wenn innere Spannung zu stark wird. Bei der SX1 verwandelt sich dieser Groll in innere Intensität und persönlichen Eifer, gerichtet auf nahe Beziehungen. Sie lernt, Konfrontation in Selbstkontakt zu verwandeln.",
             },
             {
               label: "Flügel",
@@ -601,7 +601,7 @@ export const sx1 = {
         ],
       },
       woundBehindPassion: {
-        passion: "Groll – bei der SX1 verwandelt er sich in innere Intensität und persönlichen Zeal. Der Groll richtet sich vor allem auf nahe Beziehungen: auf mangelnde Tiefe, Unstimmigkeiten oder fehlende Integrität im direkten Kontakt.",
+        passion: "Groll – bei der SX1 verwandelt er sich in innere Intensität und persönlichen Eifer. Der Groll richtet sich vor allem auf nahe Beziehungen: auf mangelnde Tiefe, Unstimmigkeiten oder fehlende Integrität im direkten Kontakt.",
         belief: "„Das Richtige ist nicht verhandelbar – weder bei mir noch bei denen, die mir nah sind.“ Darunter: „Wenn jemand nicht bereit ist, sich zu verändern, ist diese Verbindung wertlos.“",
         wound: "Die Wunde der Unvollkommenheit: das tiefe Gefühl, dass weder die eigene innere Welt noch enge Beziehungen jemals ganz der ersehnten Reinheit und Vollkommenheit entsprechen können.",
         compensation: "Intensität steigern, konfrontieren, korrigieren und transformieren – vor allem im persönlichen Kontakt. Die Energie richtet sich auf das Verbessern von Menschen und Beziehungen, oft mit starkem inneren Druck.",

@@ -9932,7 +9932,7 @@ const sx1 = {
         ],
       },
       woundBehindPassion: {
-        passion: "Groll \u2013 bei der SX1 verwandelt er sich in innere Intensit\u00e4t und pers\u00f6nlichen Zeal. Der Groll richtet sich vor allem auf nahe Beziehungen: auf mangelnde Tiefe, Unstimmigkeiten oder fehlende Integrit\u00e4t im direkten Kontakt.",
+        passion: "Groll \u2013 bei der SX1 verwandelt er sich in innere Intensit\u00e4t und pers\u00f6nlichen Eifer. Der Groll richtet sich vor allem auf nahe Beziehungen: auf mangelnde Tiefe, Unstimmigkeiten oder fehlende Integrit\u00e4t im direkten Kontakt.",
         belief: "\u201eDas Richtige ist nicht verhandelbar \u2013 weder bei mir noch bei denen, die mir nah sind.\u201c Darunter: \u201eWenn jemand nicht bereit ist, sich zu ver\u00e4ndern, ist diese Verbindung wertlos.\u201c",
         wound: "Die Wunde der Unvollkommenheit: das tiefe Gef\u00fchl, dass weder die eigene innere Welt noch enge Beziehungen jemals ganz der ersehnten Reinheit und Vollkommenheit entsprechen k\u00f6nnen.",
         compensation: "Intensit\u00e4t steigern, konfrontieren, korrigieren und transformieren \u2013 vor allem im pers\u00f6nlichen Kontakt. Die Energie richtet sich auf das Verbessern von Menschen und Beziehungen, oft mit starkem inneren Druck.",
