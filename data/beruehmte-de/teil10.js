@@ -3064,3 +3064,74 @@ export function johnNeumeierPortraitPage() {
     </div>
   `);
 }
+
+export function lindaHamiltonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-linda-hamilton-portrait.jpg" alt="Linda Hamilton – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Linda Hamilton</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexueller Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanische Schauspielerin, geb. 1956 &ndash; Sarah Connor in ›The Terminator‹ &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba: das Mädchen, das früh den Vater verlor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> zieht sich gern in die Stille zurück und ist gerade dort am wachsten. Linda Hamilton wurde am 26. September 1956 in Salisbury in Maryland geboren. Ihr Vater (1928–1962) starb, als sie fünf war; ihre Mutter (1931–2019) heiratete später einen Polizeichef. Sie hatte eine eineiige Zwillingsschwester, Leslie Hamilton Freas (1956–2020), die in einigen Szenen von ›Terminator 2‹ für sie einsprang.</p>
+          <p class="vb-intro">Sie besuchte die Wicomico High School und zwei Jahre das Washington College in Chestertown in Maryland. Danach studierte sie Schauspiel in New York und nahm dort an Workshops von Lee Strasberg teil. Ihr Filmdebüt gab sie 1979 in ›Night-Flowers‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Besessenheit für die eine Rolle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo nannte die sexuelle Eins <em>Zeal</em> (Eifer), den Kontratyp der Eins: Die Strenge richtet sich nicht auf Regeln der Gemeinschaft, sondern mit großer Intensität auf eine einzelne Aufgabe oder ein Gegenüber. Bei Hamilton lässt sich das mit Sarah Connor verbinden, die sie 1984, 1991 und 2019 spielte. Für ›Terminator 2‹ (1991) trainierte sie hart, um die Verwandlung der Figur in den sieben Jahren seit dem ersten Film zu zeigen. Sie sagte über ihren Trainer, sie habe ihn die meiste Zeit gehasst; er habe sie angeschrien und ihr Tennisbälle zugeworfen, während sie mit verbundenen Augen Waffen abfeuerte. Sie weinte kurz im Bad und kehrte dann an die Arbeit zurück.</p>
+          <p class="vb-intro">Regisseur James Cameron sagte, seine verstörtere Version der Figur sei von Hamilton angeregt worden, die ihm gesagt habe: ›I want to be crazy.‹ (›Ich will verrückt sein.‹) 1995 sagte sie, Connor sei ihr geblieben, eine bleibende Präsenz in ihrem Kopf. Das Foto zeigt lange, glatte, in der Mitte gescheitelte Haare, eine hohe Stirn mit Querfalten und feine Fältchen um die Augen. Die Augen sind aufmerksam und leicht zusammengezogen, der Mund bildet ein schiefes Lächeln mit sichtbaren Zähnen. Tiefe Linien ziehen von der Nase zu den Mundwinkeln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Rückzug, Ruhe und Schlichtheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der Eins Ruhe und Rückzug. Bei Hamilton lässt sich das in ihrer Art verbinden, ihr Privatleben zu schützen. Vor ›Terminator: Dark Fate‹ (2019) sagte sie, sie schätze ihr Privatleben und wolle nicht, dass die Nachbarn sie anders behandelten. 2019 sagte sie außerdem: ›I love my alone time like no one you've ever met.‹ (›Ich liebe meine Zeit allein wie sonst niemand, dem du je begegnet bist.‹) Sie gilt als Befürworterin natürlichen Alterns.</p>
+          <p class="vb-intro">Auch ihre Karriereentscheidungen wirken eher zurückgenommen als betriebsam: Sie bat darum, während der dritten Staffel von ›Beauty and the Beast‹ aus der Serie geschrieben zu werden, als sie schwanger wurde. In einem Interview von 2025 sagte sie, sie habe wegen eines langjährigen Hüftproblems erwogen, sich zurückzuziehen, bevor sie bei ›Stranger Things‹ zusagte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: die Frau, die die Härte glaubhaft machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In ›The Terminator‹ (1984) spielt sie Sarah Connor, eine Kellnerin, deren Leben sich schlagartig verändert. Der Film entstand mit bescheidenen Erwartungen und wurde ein Überraschungserfolg. Die Kritik lobte 1984 ihre ›tremendous resiliency‹ (›enorme Widerstandskraft‹, The Hollywood Reporter) und ihr fesselndes Spiel. In ›Terminator 2: Judgment Day‹ (1991) zeigte sie eine gehärtete Connor; Derek Malcolm vom Guardian hob ihre ›formidable sweaty intensity‹ (›gewaltige, schweißnasse Intensität‹) hervor.</p>
+          <p class="vb-intro">Von 1987 bis 1990 spielte sie Catherine Chandler in der Serie ›Beauty and the Beast‹, 2010 bis 2012 Mary Elizabeth Bartowski in ›Chuck‹, ab 2021 General McCallister in ›Resident Alien‹. 2019 kehrte sie in ›Terminator: Dark Fate‹ als Sarah Connor zurück; in der fünften und letzten Staffel von ›Stranger Things‹, die im November 2025 anlief, spielt sie Dr. Kay. Im September 2026 wurde sie für die Sportkomödie ›Hot Curlers‹ angekündigt. Sie erhielt zwei Saturn Awards, zwei MTV Movie Awards, einen Satellite Award und einen Romy und wurde für drei Golden Globes und einen Emmy nominiert. 1997 sagte sie, man biete ihr meist Polizistinnen, Offizierinnen und lesbische Figuren an; Regisseur Roger Donaldson habe ihr gesagt, sie habe nie eine normale Rolle gespielt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Marie-Agnes Strack-Zimmermann und Jamie Lee Curtis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-marie-agnes-strack-zimmermann">Marie-Agnes Strack-Zimmermann (SX1w9)</a> teilt mit Hamilton den Neunerflügel: die Schärfe geht mit Beharrlichkeit statt mit Auftrittslust einher. <a href="#beruehmte-jamie-lee-curtis">Jamie Lee Curtis (SX1w2)</a> ist ebenfalls Schauspielerin, hier mit Zweierflügel, bei dem mehr Zuwendung ins Spiel kommt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Verletzlichkeit: Verlust, Sucht und eine Diagnose</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hamilton sprach 2005 in ›Larry King Live‹ offen über ihre bipolare Störung und sagte später, sie habe Therapie und Medikamente erhalten. Sie sagte, die Erkrankung habe zum Scheitern ihrer beiden Ehen beigetragen. Sie hat außerdem von frühen Kämpfen mit Drogen, Alkohol, Kokain und Essanfällen gesprochen. Diese Angaben stammen von ihr selbst; sie sind kein Urteil über ihren Typ.</p>
+          <p class="vb-intro">Sie war von 1982 bis 1989 mit dem Schauspieler Bruce Abbott verheiratet, ihr gemeinsamer Sohn Dalton wurde 1989 geboren. Mit dem Regisseur James Cameron war sie ab 1991 zusammen; die gemeinsame Tochter wurde 1993 geboren, sie heirateten 1997 und ließen sich 1999 scheiden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand und Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit ›Stranger Things‹ (November 2025) war Hamilton zuletzt in einer großen Serie zu sehen; im September 2026 wurde ›Hot Curlers‹ angekündigt (Stand 28. Oktober 2026).</p>
+          <p class="vb-intro">Für die sexuelle Eins mit Neunerflügel liegt der Weg darin, dass Stärke nicht Panzer sein muss und Rückzug nicht Flucht. Bei Hamilton lässt sich das mit dem Satz verbinden, sie liebe ihre Zeit allein: Die Härte der Rolle und die Stille des Privatlebens gehören bei ihr zusammen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Porträt: Marie-Agnes Strack-Zimmermann (SX1w9)"},
+        {route:"beruehmte-jamie-lee-curtis", label:"Porträt: Jamie Lee Curtis (SX1w2)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}

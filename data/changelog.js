@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2686", date: "2026-10-28", text: "Neues Porträt: Linda Hamilton (SX1w9) – Schauspielerin (Terminator).", text_en: "New portrait: Linda Hamilton (SX1w9) – actress (The Terminator).", route: "beruehmte-linda-hamilton" },
     { version: "v2685", date: "2026-10-28", text: "Neues Porträt: Annie Lennox (SX1w2) – Sängerin, Songwriterin und Aktivistin.", text_en: "New portrait: Annie Lennox (SX1w2) – singer, songwriter and activist.", route: "beruehmte-annie-lennox" },
     { version: "v2683", date: "2026-10-27", text: "Neues Porträt: James Blunt (SO1w2) – Singer-Songwriter und ehemaliger Offizier.", text_en: "New portrait: James Blunt (SO1w2) – singer-songwriter and former army officer.", route: "beruehmte-james-blunt" },
     { version: "v2682", date: "2026-10-27", text: "Neuer Praxistipp vom Heilpraktiker: ›Wenn die Suche still wird‹ – das Ende der Suche und die 13 Illusionen des spirituellen Suchers, von Ich und Zeit bis zum Leiden, mit Übungen zur Selbstbeobachtung.", text_en: "New practical tip from the naturopath: ‘When the Search Falls Silent’ – the end of the search and the 13 illusions of the spiritual seeker, from self and time to suffering, with exercises for self-observation.", route: "praxistipps-heilpraktiker/ende-der-suche" },

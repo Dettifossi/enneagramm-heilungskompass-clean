@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=437";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=438";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -101,6 +101,7 @@ const georgPreussePortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js"
 const jamesBluntPortraitPage = () => _lazyPage("./data/beruehmte-de/teil5.js", "jamesBluntPortraitPage");
 const gertrudHoehlerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil18.js", "gertrudHoehlerPortraitPage");
 const annieLennoxPortraitPage = () => _lazyPage("./data/beruehmte-de/teil15.js", "annieLennoxPortraitPage");
+const lindaHamiltonPortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", "lindaHamiltonPortraitPage");
 const garyCooperPortraitPage = () => _lazyPage("./data/beruehmte-de/teil2.js", "garyCooperPortraitPage");
 const joergKachelmannPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "joergKachelmannPortraitPage");
 const jamesDeanPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "jamesDeanPortraitPage");
@@ -27719,6 +27720,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 geb. 1939 in Milwaukee. Choreograf und Ballettdirektor, Hamburg Ballett 1973\u20132024 (\u203aNijinsky\u2039, \u203aDie Kameliendame\u2039). Die Taube, die ihre Tiefe still in Werke fasst.",
     land:"USA/Deutschland", tags:["Tanz"], gender:"m"},
+  { route:"beruehmte-linda-hamilton", name:"Linda Hamilton", added:"2026-10-28", subtyp:"SX1w9",
+    heading:"Linda Hamilton \u2013 Sexueller Typ 1",
+    teaser:"SX1w9 \u00b7 geb. 1956 in Salisbury, Maryland. US-Schauspielerin (Sarah Connor in \u203aThe Terminator\u2039). Die Schwarze Mamba, die ihre H\u00e4rte in der Rolle trug und im Privaten die Stille suchte.",
+    land:"USA", tags:["Schauspiel","Film"], gender:"f"},
   { route:"beruehmte-annie-lennox", name:"Annie Lennox", added:"2026-10-28", subtyp:"SX1w2",
     heading:"Annie Lennox \u2013 Sexueller Typ 1",
     teaser:"SX1w2 \u00b7 geb. 1954 in Aberdeen. Schottische S\u00e4ngerin, Songwriterin und Aktivistin (Eurythmics, \u203aSweet Dreams\u2039). Die Schwarze Mamba, die ihre dunkle Stimme und ihre Bekanntheit in den Dienst klar umrissener Anliegen stellt.",
@@ -67463,6 +67468,7 @@ const ROUTES = {
       "beruehmte-georg-preusse": georgPreussePortraitPage,
       "beruehmte-james-blunt": jamesBluntPortraitPage,
       "beruehmte-annie-lennox": annieLennoxPortraitPage,
+      "beruehmte-linda-hamilton": lindaHamiltonPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,
