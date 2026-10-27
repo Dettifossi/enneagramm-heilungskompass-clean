@@ -336,7 +336,7 @@ export function arzneimittelbilderPage() {
         <ol class="ab-list">${t.koerper.map(x => `<li><strong>${x[0]}:</strong> ${x[1]}<em>Darstellung: ${x[2]}</em></li>`).join("")}</ol>
       </details>
       <p class="ab-fazit">${t.fazit}</p>
-      <p class="ab-links"><a href="javascript:void(0)" data-route="${t.mindmap}">Mindmap der Single-Rubriken: ${t.mittel} →</a></p>
+      <p class="ab-links"><a href="javascript:void(0)" data-route="${t.mindmap}">Mindmap der Single-Rubriken: ${t.mittel} →</a><a class="ab-top" href="javascript:void(0)" onclick="document.getElementById('ab-top').scrollIntoView({behavior:'smooth'})">↑ Nach oben zur Typ-Auswahl</a></p>
     </section>`).join("");
   return shell(`
     <div class="page-container">
@@ -352,7 +352,7 @@ export function arzneimittelbilderPage() {
         <h2 class="vb-section tug-h2">Der Heilungsweg: Essenz, Leidenschaft und Instinkt</h2>
         <p class="ab-p">Jeder Typ trägt eine Essenz in sich, die in der Tradition als ›Heilige Idee‹ beschrieben wird. Schon im frühen Kindesalter geht der Kontakt zu dieser Essenz scheinbar verloren, und das wachsende Ego sucht das Glück außen. Aus der Suche nach Liebe entsteht für jeden Typ eine eigene Ego-Motivation, und die neun Leidenschaften halten diese Suche am Laufen. Die drei Instinktvarianten (Selbsterhaltung, sozial, Beziehung) geben den Leidenschaften die nötige Energie. Das Enneagramm-Heilmittel wird in diesem Bild als Mittel verstanden, das auf Instinkte und Leidenschaften ausgleichend ausgerichtet ist.</p>
         <div class="ab-table-wrap"><table class="ab-table"><thead><tr><th></th><th>Heilige Idee (Essenz)</th><th>Ego-Motivation</th><th>Leidenschaft</th></tr></thead><tbody>${essenz}</tbody></table></div>
-        <div class="ab-nav" role="navigation" aria-label="Typ wählen">${nav}</div>
+        <div class="ab-nav" id="ab-top" role="navigation" aria-label="Typ wählen">${nav}</div>
         ${sektionen}
         <div class="ab-note"><strong>Hinweis:</strong> Die Beschreibungen sind Mittelbilder der homöopathischen Literatur, gedeutet im Rahmen des Enneagramms. Sie sind keine Diagnosen und ersetzen weder ärztliche Abklärung noch Behandlung. Körperliche Beschwerden gehören in jedem Fall zu einer Ärztin oder einem Arzt beziehungsweise zu einer Heilpraktikerin oder einem Heilpraktiker.</div>
         ${relatedLinks([

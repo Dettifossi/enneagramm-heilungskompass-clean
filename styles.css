@@ -5857,3 +5857,5 @@ p, li, .vb-intro { text-wrap: pretty; }
 .ab-table { border-collapse:collapse; width:100%; font-size:.88rem; }
 .ab-table th, .ab-table td { border:1px solid var(--line); padding:.4rem .6rem; text-align:left; vertical-align:top; }
 .ab-table thead th { background:rgba(127,127,127,.1); }
+.ab-links { display:flex; flex-wrap:wrap; gap:.4rem 1.2rem; justify-content:space-between; }
+.ab-top { font-weight:600; }

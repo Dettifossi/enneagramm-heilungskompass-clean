@@ -336,7 +336,7 @@ export function arzneimittelbilderPage() {
         <ol class="ab-list">${t.koerper.map(x => `<li><strong>${x[0]}:</strong> ${x[1]}<em>Presentation: ${x[2]}</em></li>`).join("")}</ol>
       </details>
       <p class="ab-fazit">${t.fazit}</p>
-      <p class="ab-links"><a href="javascript:void(0)" data-route="${t.mindmap}">Mind map of the single rubrics: ${t.mittel} →</a></p>
+      <p class="ab-links"><a href="javascript:void(0)" data-route="${t.mindmap}">Mind map of the single rubrics: ${t.mittel} →</a><a class="ab-top" href="javascript:void(0)" onclick="document.getElementById('ab-top').scrollIntoView({behavior:'smooth'})">↑ Back to type selection</a></p>
     </section>`).join("");
   return shell(`
     <div class="page-container">
@@ -352,7 +352,7 @@ export function arzneimittelbilderPage() {
         <h2 class="vb-section tug-h2">The path of healing: essence, passion and instinct</h2>
         <p class="ab-p">Every type carries an essence that tradition describes as a ›Holy Idea‹. Already in early childhood contact with this essence seems to be lost, and the growing ego seeks happiness outside. From the search for love each type develops its own ego motivation, and the nine passions keep this search going. The three instinctual variants (self-preservation, social, one-to-one) give the passions the energy they need. In this picture the Enneagram remedy is understood as something aimed at balancing instincts and passions.</p>
         <div class="ab-table-wrap"><table class="ab-table"><thead><tr><th></th><th>Holy Idea (essence)</th><th>Ego motivation</th><th>Passion</th></tr></thead><tbody>${essenz}</tbody></table></div>
-        <div class="ab-nav" role="navigation" aria-label="Choose a type">${nav}</div>
+        <div class="ab-nav" id="ab-top" role="navigation" aria-label="Choose a type">${nav}</div>
         ${sektionen}
         <div class="ab-note"><strong>Note:</strong> The descriptions are remedy pictures from the homeopathic literature, interpreted within the Enneagram. They are not diagnoses and do not replace medical examination or treatment. Physical complaints always belong with a doctor or a licensed practitioner.</div>
         ${relatedLinks([
