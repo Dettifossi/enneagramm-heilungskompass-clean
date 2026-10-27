@@ -3109,3 +3109,72 @@ export function marthaGrahamPortraitPage() {
     </div>
   `);
 }
+
+export function gertrudHoehlerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-gertrud-hoehler-portrait.jpg" alt="Gertrud Höhler – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Gertrud Höhler</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexual Type 1 with a Two wing</p>
+        <p class="krim-portrait-subtitle">Literary scholar, author and consultant, b. 1941 &ndash; ‘Die Patin’ (‘The Godmother’), ‘Baden-Badener Disput’ &ndash; animal counterpart: black mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The black mamba: the pastor's daughter from Wuppertal</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>black mamba</strong> is long, slim and alert and chooses its target precisely before it moves. Gertrud Höhler was born on 10 January 1941 in Wuppertal, the second of four children of the Protestant pastor Heinrich Höhler and his wife Helene, née Horn. Her maternal grandfather was the theologian Fritz Horn; her brother became the architect Ernst Höhler. After her school-leaving exam at the Helmholtz-Gymnasium in Wuppertal she studied literature and art history in Bonn, Berlin, Zurich and Mannheim from 1960 to 1966.</p>
+          <p class="vb-intro">As early as 1964 she received the Eduard von der Heydt Culture Prize as a poetry encouragement award. In 1967 she took her doctorate in Mannheim with a thesis on the Bible quotation in a novel by Wilhelm Raabe. In the 1960s she was close to the left-wing subcultural milieu and was friends with the writers Jörg Fauser and Bernward Vesper, among others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual One: zeal for the counterpart</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo called the sexual One <em>zeal</em>, the countertype of the One: the strictness is directed not at the whole world but with great intensity at individual people and tasks. In Höhler this can be linked to her way of reaching individuals: she worked as an adviser to decision-makers in business and politics and addressed a broad public in books and on television. From 1987 to 1989 she advised Alfred Herrhausen, the spokesman of the board of Deutsche Bank. By her own account she later also advised politicians. Publisher profiles name Helmut Kohl as a client, whereas the political scientist Gerd Langguth doubted that she advised Kohl.</p>
+          <p class="vb-intro">The photo shows long, straight, grey hair, a high forehead with a vertical furrow between the brows, large, alert eyes and a broad smile with visible teeth. Small stud earrings sit under the hair. The expression is open, the gaze remains collected.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two wing: conversation, attention and impact</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two wing (w2)</strong> gives the One attentiveness and sociability. In Höhler it shows in conversation as a profession: from 1988 to 2000 she hosted the talk show ‘Baden-Badener Disput’ (58 episodes), gave talks and appeared as a guest on many programmes. The titles of her books alone point to themes such as trust, greed and meaning in how people interact: ‘Warum Vertrauen siegt’ (‘Why Trust Wins’, 2003), ‘Jenseits der Gier’ (‘Beyond Greed’, 2005), ‘Die Sinn-Macher’ (‘The Meaning-Makers’).</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: from Raabe to management</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Höhler is a literary scholar. In 1972 she became an academic councillor in the founding senate of the University of Paderborn, and from 1976 to 1993 she taught there as professor of German studies and general literary studies. What is distinctive about her path is the transition from textual scholarship to business and political consulting: whoever can read texts can also interpret language, images and narratives in companies and politics. Her books include ‘Wölfin unter Wölfen’ (‘She-Wolf among Wolves’) and ‘Götzendämmerung’ (‘Twilight of the Idols’, 2010).</p>
+          <p class="vb-intro">She became widely known through ‘Die Patin. Wie Angela Merkel Deutschland umbaut’ (‘The Godmother. How Angela Merkel Is Remodelling Germany’, 2012), a book in which she sharply criticises the chancellor's government action. It was followed by ‘Demokratie im Sinkflug’ (‘Democracy in Descent’, 2017), ‘Angela Merkel – Das Requiem’ (‘Angela Merkel – The Requiem’, 2020) and ‘Die Corona-Bilanz’ (‘The Corona Balance Sheet’, 2020). Her awards range from the Konrad Adenauer Prize of the Deutschland-Stiftung and the ‘Orden wider den tierischen Ernst’ (‘Order Against Deadly Seriousness’, both 1988) through the Federal Cross of Merit 1st Class (1999) to the German Fairness Prize (2002).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Martin Luther and Marie-Agnes Strack-Zimmermann</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-martin-luther">Martin Luther (SX1w2)</a> shares with Höhler the link between word and stance: both began in the world of the church or the parsonage and later used language to reach the public and the powerful. <a href="#beruehmte-marie-agnes-strack-zimmermann">Marie-Agnes Strack-Zimmermann (SX1w9)</a> shows, as a politician, the sharp, persistent side of the sexual One in German politics, with a calmer Nine wing instead of the attentiveness of the Two wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Friction and headwind</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Her public role also brought criticism. In 1992 an American Express advertising campaign with her portrait caused a stir; a satirical article about it led to a legal dispute. In 1993 she resigned her professorship in Paderborn and spoke of mobbing, while professors and students had accused her of neglecting her teaching duties. In 2007, as a member of the university council, she came under criticism for renting a house in Zwickau to an NPD state parliament member; she later admitted that she had known the background. This account reports positions and does not judge them.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where she stands and how to place it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Höhler is unmarried and has a son who works as a consultant. The most recent publications named in the sources used date from 2020; they give no information on her current situation (as of 28 October 2026).</p>
+          <p class="vb-intro">For the sexual One with a Two wing the path lies in letting the zeal not have to convince every counterpart, and in attention being possible without an intention to have an effect.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx1", label:"SX1 – The black mamba: subtype profile"},
+        {route:"beruehmte-martin-luther", label:"Portrait: Martin Luther (SX1w2)"},
+        {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Portrait: Marie-Agnes Strack-Zimmermann (SX1w9)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}

@@ -3109,3 +3109,72 @@ export function julianeKoepckePortraitPage() {
     </div>
   `);
 }
+
+export function gertrudHoehlerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-gertrud-hoehler-portrait.jpg" alt="Gertrud Höhler – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Gertrud Höhler</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexueller Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Literaturwissenschaftlerin, Publizistin und Beraterin, geb. 1941 &ndash; ›Die Patin‹, ›Baden-Badener Disput‹ &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba: die Pfarrerstochter aus Wuppertal</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist lang, schlank und wach und wählt ihr Ziel genau, bevor sie sich bewegt. Gertrud Höhler wurde am 10. Januar 1941 in Wuppertal geboren, als zweites von vier Kindern des evangelischen Pfarrers Heinrich Höhler und seiner Frau Helene, geborene Horn. Ihr Großvater mütterlicherseits war der Theologe Fritz Horn; ihr Bruder wurde der Architekt Ernst Höhler. Nach dem Abitur am Helmholtz-Gymnasium in Wuppertal studierte sie von 1960 bis 1966 Literaturwissenschaft und Kunstgeschichte in Bonn, Berlin, Zürich und Mannheim.</p>
+          <p class="vb-intro">Schon 1964 erhielt sie den Eduard-von-der-Heydt-Kulturpreis als Lyrik-Förderpreis. 1967 wurde sie in Mannheim mit einer Arbeit über das Bibelzitat in einem Roman Wilhelm Raabes promoviert. In den 1960er-Jahren stand sie dem links-subkulturellen Milieu nahe und war unter anderem mit den Schriftstellern Jörg Fauser und Bernward Vesper befreundet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Eifer für das Gegenüber</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo nannte die sexuelle Eins <em>Zeal</em> (Eifer), den Kontratyp der Eins: Die Strenge richtet sich nicht auf die ganze Welt, sondern mit großer Intensität auf einzelne Menschen und Aufgaben. Bei Höhler lässt sich das mit ihrer Art verbinden, Einzelne zu erreichen: Sie wirkte als Beraterin von Entscheidern in Wirtschaft und Politik und wandte sich in Büchern und im Fernsehen an ein breites Publikum. 1987 bis 1989 beriet sie Alfred Herrhausen, den Sprecher des Vorstands der Deutschen Bank. Nach eigenen Angaben beriet sie später auch Politiker. Verlagsprofile nennen Helmut Kohl als Klienten, der Politikwissenschaftler Gerd Langguth zweifelte eine Beratung Kohls dagegen an.</p>
+          <p class="vb-intro">Das Foto zeigt lange, glatte, graue Haare, eine hohe Stirn mit einer senkrechten Furche zwischen den Brauen, große, wache Augen und ein breites Lächeln mit sichtbaren Zähnen. Kleine Ohrstecker sitzen unter dem Haar. Die Mimik ist offen, der Blick bleibt gesammelt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Gespräch, Zuwendung und Wirkung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der Eins Zuwendung und Kontaktfreude. Bei Höhler zeigt er sich im Gespräch als Beruf: Von 1988 bis 2000 moderierte sie die Talkshow ›Baden-Badener Disput‹ (58 Folgen), sie hielt Vorträge und war als Gast in vielen Sendungen zu sehen. Schon die Titel ihrer Bücher deuten auf Themen wie Vertrauen, Gier und Sinn im Zusammenspiel von Menschen hin: ›Warum Vertrauen siegt‹ (2003), ›Jenseits der Gier‹ (2005), ›Die Sinn-Macher‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: von Raabe zum Management</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Höhler ist Literaturwissenschaftlerin. 1972 wurde sie Akademische Rätin im Gründungssenat der Universität Paderborn, von 1976 bis 1993 lehrte sie dort als Professorin für Germanistik und Allgemeine Literaturwissenschaft. Das Besondere an ihrem Weg ist der Übergang von der Textkunde zur Wirtschafts- und Politikberatung: Wer Texte lesen kann, kann auch Sprache, Bilder und Erzählungen in Unternehmen und Politik deuten. Zu ihren Büchern zählen ›Wölfin unter Wölfen‹ und ›Götzendämmerung‹ (2010).</p>
+          <p class="vb-intro">Bekannt wurde sie breit durch ›Die Patin. Wie Angela Merkel Deutschland umbaut‹ (2012), ein Buch, in dem sie das Regierungshandeln der Kanzlerin hart kritisiert. Es folgten ›Demokratie im Sinkflug‹ (2017), ›Angela Merkel – Das Requiem‹ (2020) und ›Die Corona-Bilanz‹ (2020). Ihre Auszeichnungen reichen vom Konrad-Adenauer-Preis der Deutschland-Stiftung und dem ›Orden wider den tierischen Ernst‹ (beide 1988) über das Bundesverdienstkreuz 1. Klasse (1999) bis zum Deutschen Fairnesspreis (2002).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Martin Luther und Marie-Agnes Strack-Zimmermann</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-martin-luther">Martin Luther (SX1w2)</a> teilt mit Höhler die Verbindung von Wort und Haltung: Beide begannen im Raum der Kirche beziehungsweise des Pfarrhauses und wirkten später mit Sprache auf Öffentlichkeit und Mächtige. <a href="#beruehmte-marie-agnes-strack-zimmermann">Marie-Agnes Strack-Zimmermann (SX1w9)</a> zeigt als Politikerin die scharfe, beharrliche Seite der sexuellen Eins im deutschen Politikbetrieb, mit ruhigerem Neunerflügel statt der Zugewandtheit des Zweierflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Reibung und Gegenwind</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ihre öffentliche Rolle brachte auch Kritik. 1992 sorgte eine Werbekampagne von American Express mit ihrem Porträt für Aufsehen; ein Spottartikel darüber führte zu einem Rechtsstreit. 1993 legte sie die Professur in Paderborn nieder und sprach von Mobbing, während Professoren und Studierende ihr eine Vernachlässigung der Lehrpflicht vorgeworfen hatten. 2007 geriet sie als Mitglied des Hochschulrats in die Kritik, weil sie ein Haus in Zwickau an einen NPD-Landtagsabgeordneten vermietet hatte; sie räumte später ein, den Hintergrund gekannt zu haben. Die Darstellung hier gibt Positionen wieder und bewertet sie nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand und Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Höhler ist ledig und hat einen Sohn, der als Berater arbeitet. Die jüngsten Veröffentlichungen, die die genutzten Quellen nennen, stammen von 2020; zum aktuellen Stand gibt es dort keine Angaben (Stand 28. Oktober 2026).</p>
+          <p class="vb-intro">Für die sexuelle Eins mit Zweierflügel liegt der Weg darin, dass der Eifer nicht jedes Gegenüber überzeugen muss und Zuwendung auch ohne Wirkungsabsicht möglich ist.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-martin-luther", label:"Porträt: Martin Luther (SX1w2)"},
+        {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Porträt: Marie-Agnes Strack-Zimmermann (SX1w9)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}

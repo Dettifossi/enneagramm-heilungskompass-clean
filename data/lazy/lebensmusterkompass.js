@@ -594,7 +594,7 @@ export const LEBENSMUSTERKOMPASS = {
   SX1: {
     tier: "Schwarze Mamba",
     kernthema: "Kompromisslose Intensität im engsten Kreis statt Reformanspruch an die ganze Welt",
-    beispiele: ["Peter Thiel", "Klaus Kinski", "Marie-Agnes Strack-Zimmermann", "Grigori Rasputin", "Robbie Williams", "Jamie Lee Curtis", "Udo Lindenberg", "Johann Sebastian Bach", "Leonardo DiCaprio", "Thea Litschka-Koen", "Bill Haast", "Romulus Whitaker", "Mary Ann Cotton", "Otto Mühl", "Alex Murdaugh", "Gary Ridgway", "Paul Bernardo", "Gennadi Mikhasevich", "Fritz Haarmann", "Josef Fritzl", "Martin Luther", "Eminem", "Johannes der Täufer", "Faye Dunaway", "Michel Foucault", "Gunther von Hagens", "Joseph Beuys", "Werner Ablass", "Robert Greene", "Matthias Reim"],
+    beispiele: ["Gertrud Höhler", "Peter Thiel", "Klaus Kinski", "Marie-Agnes Strack-Zimmermann", "Grigori Rasputin", "Robbie Williams", "Jamie Lee Curtis", "Udo Lindenberg", "Johann Sebastian Bach", "Leonardo DiCaprio", "Thea Litschka-Koen", "Bill Haast", "Romulus Whitaker", "Mary Ann Cotton", "Otto Mühl", "Alex Murdaugh", "Gary Ridgway", "Paul Bernardo", "Gennadi Mikhasevich", "Fritz Haarmann", "Josef Fritzl", "Martin Luther", "Eminem", "Johannes der Täufer", "Faye Dunaway", "Michel Foucault", "Gunther von Hagens", "Joseph Beuys", "Werner Ablass", "Robert Greene", "Matthias Reim"],
     fingerabdruecke: [
       {
         titel: "Durchdringende, unausweichliche Präsenz statt schmeichelndes Charisma",
