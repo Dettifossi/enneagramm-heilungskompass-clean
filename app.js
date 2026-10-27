@@ -44213,18 +44213,30 @@ let _memoryState = null;
 let _memoryLastLevel = 1;
 const _memoryImgCache = {};
 
-function _memoryImgFor(route) {
+async function _memoryImgFor(route) {
   if (_memoryImgCache[route] !== undefined) return _memoryImgCache[route];
   let src = null;
-  try {
-    const fn = ROUTES[route];
-    if (fn) {
-      const html = fn();
-      const m = html.match(/<img\s+src="([^"]+)"[^>]*class="krim-portrait-img"/);
-      if (m) src = m[1];
-    }
-  } catch (e) {}
-  _memoryImgCache[route] = src;
+  let pending = false;
+  // Porträtseiten werden lazy geladen: beim ersten Aufruf kommt nur der
+  // Platzhalter. Dann auf das Laden warten und erneut lesen, statt "kein Bild"
+  // zu cachen. _currentRoute wird kurz geleert, damit kein Re-Render ausgelöst wird.
+  for (let attempt = 0; attempt < 2; attempt++) {
+    pending = false;
+    const savedRoute = window._currentRoute;
+    try {
+      const fn = ROUTES[route];
+      if (fn) {
+        window._currentRoute = null;
+        const html = fn();
+        const m = html.match(/<img\s+src="([^"]+)"[^>]*class="krim-portrait-img"/);
+        if (m) { src = m[1]; break; }
+        if (html.indexOf("suche-hint") !== -1) pending = true;
+      }
+    } catch (e) {} finally { window._currentRoute = savedRoute; }
+    if (!pending) break;
+    await Promise.all([..._lazyMods.values()].map(r => r.p).filter(Boolean));
+  }
+  if (src || !pending) _memoryImgCache[route] = src;
   return src;
 }
 
@@ -44278,7 +44290,7 @@ function _memoryShuffle(arr) {
 async function _memoryFindValidPortrait(candidates, usedRoutes) {
   for (const p of candidates) {
     if (usedRoutes.has(p.route)) continue;
-    const img = _memoryImgFor(p.route);
+    const img = await _memoryImgFor(p.route);
     if (!img) continue;
     const ok = await _memoryValidateImg(img);
     if (ok) return { route: p.route, subtyp: p.subtyp, name: p.name, img };
