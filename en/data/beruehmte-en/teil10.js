@@ -3026,9 +3026,9 @@ export function joergKachelmannPortraitPage() {
           <p class="vb-intro">In 1990 he founded the weather company Meteomedia AG, which he sold to MeteoGroup in 2013; he left in early 2013 and worked as a freelance adviser. Since 2005 he has run the weather company WeatherOK, Inc. in Oklahoma. After 2011 he returned with regional radio and television contributions, weather content for YouTube and a weather platform of his own. In this he combines what marks the social Nine with what the One wing demands: something everyone uses, and that is correct.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Parallels in the same subtype: Reinhard Mey, Jens Riewa, Dieter Thomas Heck and Hans Sigl</h2>
+        <h2 class="vb-section">5. Parallels in the same subtype: Jens Riewa, Dieter Thomas Heck and Hans Sigl</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="#beruehmte-reinhard-mey">Reinhard Mey (SO9w1)</a> shares an image with Kachelmann: the clouds. His song ‘Über den Wolken’ (‘Above the Clouds’, 1974) makes them a symbol of freedom, and he earned his private pilot's license in 1973 and the instrument rating three years later; flying and weather knowledge belong together. Mey even dedicated a whole song to the field: ‘Weil ich ein Meteorologe bin’ (‘Because I Am a Meteorologist’, 1975, on the album ‘Ikarus’), in which he plays with the technical language of meteorologists. Where Kachelmann explains the weather, Mey sings the sky above it. <a href="#beruehmte-jens-riewa">Jens Riewa (SO9w1)</a> is likewise a television face who explains the news to the community, and <a href="#beruehmte-dieter-thomas-heck">Dieter Thomas Heck (SO9w1)</a> held an audience together for decades as a presenter. <a href="#beruehmte-hans-sigl">Hans Sigl (SO9w1)</a> shows the same constellation as an actor. In Kachelmann the dispute over accuracy is added, which the One wing colors more strongly.</p>
+          <p class="vb-intro"><a href="#beruehmte-jens-riewa">Jens Riewa (SO9w1)</a> is, like Kachelmann, a television face who explains the news to the community, and <a href="#beruehmte-dieter-thomas-heck">Dieter Thomas Heck (SO9w1)</a> held an audience together for decades as a presenter. <a href="#beruehmte-hans-sigl">Hans Sigl (SO9w1)</a> shows the same constellation as an actor. In Kachelmann the dispute over accuracy is added, which the One wing colors more strongly.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The proceedings of 2010 and 2011 (as of 26 October 2026)</h2>
@@ -3053,7 +3053,6 @@ export function joergKachelmannPortraitPage() {
         {route:"beruehmte-dieter-thomas-heck", label:"Portrait: Dieter Thomas Heck (SO9w1)"},
         {route:"beruehmte-hans-sigl", label:"Portrait: Hans Sigl (SO9w1)"},
         {route:"lebensmusterkompass", label:"Life Pattern Compass"},
-        {route:"beruehmte-reinhard-mey", label:"Portrait: Reinhard Mey (SO9w1)"},
       ])}
     </div>
   `);

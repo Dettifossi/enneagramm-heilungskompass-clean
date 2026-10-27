@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=422";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=423";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -3747,9 +3747,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Gustav Mahler – Social Type 4",
     teaser:"SO4w5 · 1860–1911. Austrian composer and conductor, director of the Vienna Court Opera. Symphonies, Kindertotenlieder, Das Lied von der Erde. The armadillo that translated existential loss into monumental, all-encompassing soundscapes.",
     land:"Austria", tags:["Music"], gender:"m"},
-{ route:"beruehmte-reinhard-mey", name:"Reinhard Mey", added:"2026-08-25", subtyp:"SO9w1",
-    heading:"Reinhard Mey – Social Type 9",
-    teaser:"SO9w1 · born 1942. German singer-songwriter, on stage for over five decades. His songs (‘Gute Nacht, Freunde’, ‘Über den Wolken’) connect several generations; meticulous preparation and never-fading stage fright, a guarded private life, gently ironic songs against bureaucracy and war. The buffalo with a One wing: participation in what is shared and a strict inner standard.",
+{ route:"beruehmte-reinhard-mey", name:"Reinhard Mey", added:"2026-08-25", subtyp:"SO4w5",
+    heading:"Reinhard Mey – Social Type 4",
+    teaser:"SO4w5 · born 1942. German singer-songwriter, on stage for over five decades. An outsider in the music business who reached several generations, meticulous preparation and never-fading stage fright, an extremely guarded private life, text-heavy, gently ironic songs against bureaucracy and war. The armadillo with a Five-wing: hard shell, sensitivity beneath it and precise preparation.",
     land:"Germany", tags:["Music"], gender:"m"},
 { route:"beruehmte-marcel-proust", name:"Marcel Proust", added:"2026-08-09", subtyp:"SO4w5",
     heading:"Marcel Proust – Social Type 4",

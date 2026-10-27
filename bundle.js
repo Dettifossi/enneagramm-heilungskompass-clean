@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=425";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=426";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -29548,9 +29548,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Gustav Mahler \u2013 Sozialer Typ 4",
     teaser:"SO4w5 \u00b7 1860\u20131911. \u00d6sterreichischer Komponist und Dirigent, Direktor der Wiener Hofoper. Sinfonien, Kindertotenlieder, Das Lied von der Erde. Das G\u00fcrteltier, das existenzielles Leid in monumentale, alles umfassende Klangwelten \u00fcbersetzte.",
     land:"Österreich", tags:["Musik"], gender:"m"},
-  { route:"beruehmte-reinhard-mey", name:"Reinhard Mey", added:"2026-08-25", subtyp:"SO9w1",
-    heading:"Reinhard Mey – Sozialer Typ 9",
-    teaser:"SO9w1 · geb. 1942. Deutscher Liedermacher, seit über fünf Jahrzehnten auf der Bühne. Seine Lieder (›Gute Nacht, Freunde‹, ›Über den Wolken‹) verbinden mehrere Generationen; penible Vorbereitung und nie nachlassendes Lampenfieber, ein geschütztes Privatleben, ironisch-sanfte Lieder gegen Bürokratie und Krieg. Der Büffel mit Einserflügel: Teilhabe am Gemeinsamen und ein strenger innerer Maßstab.",
+  { route:"beruehmte-reinhard-mey", name:"Reinhard Mey", added:"2026-08-25", subtyp:"SO4w5",
+    heading:"Reinhard Mey – Sozialer Typ 4",
+    teaser:"SO4w5 · geb. 1942. Deutscher Liedermacher, seit über fünf Jahrzehnten auf der Bühne. Außenseiter im Musikgeschäft, der mehrere Generationen erreichte, penible Vorbereitung und nie nachlassendes Lampenfieber, extrem geschütztes Privatleben, textlastige, ironisch-sanfte Lieder gegen Bürokratie und Krieg. Das Gürteltier mit Fünferflügel: harter Panzer, Empfindsamkeit darunter und genaue Vorbereitung.",
     land:"Deutschland", tags:["Musik"], gender:"m"},
   { route:"beruehmte-marcel-proust", name:"Marcel Proust", added:"2026-08-09", subtyp:"SO4w5",
     heading:"Marcel Proust \u2013 Sozialer Typ 4",

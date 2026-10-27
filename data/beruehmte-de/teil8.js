@@ -1424,49 +1424,45 @@ export function reinhardMeyPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-reinhard-mey-v2-portrait.jpg" alt="Reinhard Mey" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Reinhard Mey</p>
-        <p class="krim-portrait-typ">SO9w1 &middot; Sozialer Typ 9 mit Einserflügel</p>
-        <p class="krim-portrait-subtitle">Deutscher Liedermacher, geb. 1942 in Berlin &ndash; Tierentsprechung: Büffel</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Sozialer Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Liedermacher, geb. 1942 in Berlin &ndash; Tierentsprechung: Gürteltier</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. Der Büffel mit der Gitarre</h2>
+        <h2 class="vb-section">1. Das Gürteltier mit der Gitarre</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Büffel</strong> zieht mit der Herde und bleibt dabei ruhig, auch wenn der Boden bebt. Reinhard Mey ist seit über fünf Jahrzehnten einer der erfolgreichsten deutschen Liedermacher und hält sein Privatleben zugleich weitgehend aus der Öffentlichkeit heraus, während seine Lieder das Gemeinsame erzählen.</p>
-          <p class="vb-intro">Er wurde am 21. Dezember 1942 in Berlin geboren und besuchte das Französische Gymnasium. In den 1960er-Jahren sang er zunächst Chansons, trat in Frankreich als Frédérik Mey auf und kam erst von dort zurück zu deutschen Texten. Anfang der 1970er-Jahre setzte sich der Erfolg durch, mit Liedern wie ›Mein Achtel Lorbeerblatt‹ (1972) und ›Über den Wolken‹ (1974), das in einer ZDF-Wahl auf Platz vier der besten Lieder des Jahrhunderts kam. Er schrieb mehr als 500 Lieder.</p>
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier: ein harter Panzer nach außen, darunter ein außergewöhnlich empfindsames Inneres. Reinhard Mey passt zu diesem Bild: Er ist seit über fünf Jahrzehnten einer der erfolgreichsten deutschen Liedermacher und hält sein Privatleben dennoch hinter einem dichten Panzer, während in seinen Liedern das Empfindsame offen liegt.</p>
+          <p class="vb-intro">Reinhard Mey wurde am 21. Dezember 1942 in Berlin geboren und besuchte das Französische Gymnasium. In den 1960er-Jahren sang er zunächst Chansons, trat in Frankreich als Frédérik Mey auf und kam erst von dort zurück zu deutschen Texten. Anfang der 1970er-Jahre setzte sich der Erfolg durch, mit Liedern wie &sbquo;Mein Achtel Lorbeerblatt&lsquo; (1972) und &sbquo;Über den Wolken&lsquo; (1974), das in einer ZDF-Wahl auf Platz vier der besten Lieder des Jahrhunderts kam. Er schrieb mehr als 500 Lieder und gilt als Alleingänger unter den deutschen Liedermachern.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. Die soziale Neun: Teilhabe über das gemeinsame Lied</h2>
+        <h2 class="vb-section">2. Die soziale Vier: Anderssein innerhalb der Gemeinschaft</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In Naranjos Sprache heißt der Subtyp der sozialen Neun ›Teilhabe‹ (Participation): Die Neun findet ihren Platz, indem sie an einer gemeinsamen Sache teilnimmt, und das Gemeinsame wird ihr zur Heimat. Bei Mey lässt sich das mit der Art verbinden, wie seine Lieder funktionieren. ›Gute Nacht, Freunde‹ ist ein Abschiedslied für einen Abend, den ein ganzes Publikum teilt, und ›Über den Wolken‹ gehört mit seinen Zeilen über Freiheit vielen. Seine Lieder erreichten über Generationen hinweg dasselbe Publikum, ohne es zu bedienen.</p>
-          <p class="vb-intro">Dazu passt, dass er in der Schlagerwelt nie ganz zu Hause war und mit Gitarre, langen Textzeilen und leiser Ironie seinen eigenen Weg ging. Auch sein Protestlied ›Nein, meine Söhne geb' ich nicht‹ (1986) ist keine Parole für die Menge, sondern ein persönliches Bekenntnis: der Schutz der eigenen Kinder vor Krieg und staatlichem Zugriff. Die Zeichnung zeigt ein freundliches, waches Gesicht mit ruhigem Blick, das eher zuhört, als zu fordern.</p>
+          <p class="vb-intro">Dr. Claudio Naranjo beschrieb die <strong>soziale Vier (SO4)</strong> mit dem Stichwort Scham: das Gefühl, nicht ganz dazuzugehören, bei gleichzeitigem Wunsch, von der Gemeinschaft doch gesehen zu werden. Bei Mey zeigt sich das in seiner Stellung im Musikgeschäft: Er passte nie in die Schlagerwelt, bediente nicht den Zeitgeschmack und blieb mit Gitarre, langen Textzeilen und leiser Ironie ein Einzelgänger, der trotzdem ein großes Publikum erreichte, über Generationen hinweg.</p>
+          <p class="vb-intro">Auch sein Protestlied &sbquo;Nein, meine Söhne geb&lsquo; ich nicht&lsquo; (1986) ist keine Parole für die Menge, sondern ein sehr persönliches Bekenntnis: Der Schutz der eigenen Kinder vor Krieg und staatlichem Zugriff. Das Anderssein richtet sich gegen Obrigkeit und Behörde, etwa im &sbquo;Antrag auf Erteilung eines Antragsformulars&lsquo;, und bleibt dabei der Gemeinschaft zugewandt.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. Der Einserflügel: Maßstab, Handwerk und Ordnung</h2>
+        <h2 class="vb-section">3. Der Fünferflügel: Abstand, Genauigkeit und Vorbereitung</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der Neun einen inneren Maßstab: Es soll stimmen. Bei Mey zeigt sich das als Handwerk. Er erscheint rund fünf Stunden vor einem großen Auftritt in der Halle, macht einen gründlichen Soundcheck und spielt danach allein das gesamte Konzertprogramm einmal durch. Er spricht von einem Lampenfieber, das nie nachgelassen habe: ›Es ist jeden Abend da. Es ist der Motor, der mich antreibt … der Wettkampf mit mir selbst, der freie Fall, der Triumph über die Angst.‹</p>
-          <p class="vb-intro">Auch in den Liedern gegen die Obrigkeit steckt der Einserflügel: Im ›Antrag auf Erteilung eines Antragsformulars‹ nimmt er mit leiser Ironie die Absurdität der Bürokratie auseinander. 1973 erwarb er die Privatpilotenlizenz, drei Jahre später die Instrumentenflugberechtigung; das Fliegen, das ihn zu ›Über den Wolken‹ trug, verlangt Genauigkeit und Disziplin. Etwa alle zwei bis drei Jahre geht er auf eine ausgedehnte Tournee, von jeder erscheint ein Live-Album.</p>
+          <p class="vb-intro">Der <strong>Fünferflügel</strong> gibt der Vier Abstand und den Hang, eine Sache erst zu durchdringen und zu beherrschen, bevor sie nach außen geht. Bei Mey lässt sich damit seine Arbeitsweise in Verbindung bringen: Er erscheint rund fünf Stunden vor einem großen Auftritt in der Halle, macht einen gründlichen Soundcheck und spielt danach allein das gesamte Konzertprogramm einmal durch. Vor das Publikum tritt er erst, wenn alles geprüft ist.</p>
+          <p class="vb-intro">Dazu passt die Genauigkeit seiner Texte, die oft lange Zeilen haben und mit Sprache spielen. Auch das Fliegen, das ihn zu &sbquo;Über den Wolken&lsquo; trug, ist bei ihm keine bloße Schwärmerei: 1973 erwarb er die Privatpilotenlizenz, drei Jahre später die Instrumentenflugberechtigung, also die Fähigkeit, nach Instrumenten und Regeln zu navigieren. Das Lampenfieber bleibt trotzdem: &sbquo;Es ist jeden Abend da. Es ist der Motor, der mich antreibt … der Wettkampf mit mir selbst, der freie Fall, der Triumph über die Angst.&lsquo;</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Der Verlust des Sohnes: das Persönliche bleibt geschützt</h2>
+        <h2 class="vb-section">4. Der Verlust des Sohnes: Was hinter dem Panzer bleibt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">2009 erlitt Meys Sohn Maximilian eine schwere Lungenentzündung, die ihn ins Koma versetzte; er starb 2014 im Alter von 32 Jahren, ohne das Bewusstsein wiedererlangt zu haben. Mey machte den Verlust nie zum öffentlichen Dauerthema, verarbeitete ihn aber in dem Lied ›Du bist ein Riese, Max!‹, auch mit dem Gedanken, wie Eltern ihre Kinder durch Erziehung oft klein statt groß werden lassen. So bleibt das zutiefst Persönliche geschützt, und in der Kunst darf es sichtbar werden.</p>
-          <p class="vb-intro">Sein erklärtes erzieherisches Prinzip, den Söhnen viel Freiraum zu lassen und sie ›sein zu lassen‹, passt zu einer Neun, die anderen ihren Raum gönnt und selbst nicht bestimmen will.</p>
+          <p class="vb-intro">2009 erlitt Meys Sohn Maximilian eine schwere Lungenentzündung, die ihn ins Koma versetzte; er starb 2014 im Alter von 32 Jahren, ohne das Bewusstsein wiedererlangt zu haben. Mey machte den Verlust nie zum öffentlichen Dauerthema, verarbeitete ihn aber in dem Lied &sbquo;Du bist ein Riese, Max!&lsquo;, auch mit dem Gedanken, wie Eltern ihre Kinder durch Erziehung oft klein statt groß werden lassen. Das zutiefst Persönliche blieb geschützt, in der Kunst durfte es sichtbar werden.</p>
+          <p class="vb-intro">Sein erklärtes erzieherisches Prinzip, den Söhnen viel Freiraum zu lassen und sie &sbquo;sein zu lassen&lsquo;, passt zu einer Vier, die das eigene Anderssein schätzt und es anderen zugesteht.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Was trägt und was drückt</h2>
+        <h2 class="vb-section">5. Nähe und Rückzug</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Getragen wird er von der Verbindung aus Tiefe und Reichweite: ›Gute Nacht, Freunde‹, ›Über den Wolken‹ und viele weitere wurden fester Bestandteil des deutschsprachigen Liedguts, weil in ihnen echtes Gefühl und sorgfältiges Handwerk zusammenkommen. Zur Neun gehört, dass der eigene Wille hinter dem Gemeinsamen zurücktritt; der Einserflügel hält dagegen, dass es gut gemacht sein muss.</p>
-          <p class="vb-intro">Der Druck liegt in der Anspannung hinter dem Gelingen: Auch nach Tausenden Konzerten bleibt das Lampenfieber so stark wie am Anfang, und der Anspruch, vor sich selbst zu bestehen, muss vor jedem Auftritt neu eingelöst werden. Enneagrammatisch lässt sich das mit dem Stresspunkt der Neun in Verbindung bringen, der Sechs: Unter Druck zeigt die Neun Züge dieses Typs, etwa Sorge, Zweifel und die Angst, nicht zu genügen. Das Lampenfieber, das Mey vor jedem Auftritt beschreibt, passt zu diesem Muster, auch wenn er auf der Bühne nach außen weiter souverän wirkt.</p>
+          <p class="vb-intro">Hell ist bei Mey die Verbindung von Tiefe und Reichweite: &sbquo;Gute Nacht, Freunde&lsquo;, &sbquo;Über den Wolken&lsquo; und viele weitere wurden fester Bestandteil des deutschsprachigen Liedguts, weil in ihnen echtes Gefühl und sorgfältige Arbeit zusammenkommen.</p>
+          <p class="vb-intro">Die Anspannung dahinter ist der andere Teil: Auch nach Tausenden Konzerten bleibt das Lampenfieber unverändert stark, und der Anspruch, vor sich selbst zu bestehen, muss vor jedem Auftritt neu eingelöst werden. Der Wunsch, gesehen zu werden, und der Schutz des Privaten stehen dabei nebeneinander, wie es bei einer sozialen Vier mit Fünferflügel zu erwarten ist.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Parallelen im selben Subtyp: Dieter Thomas Heck, Jörg Kachelmann und Eleanor Roosevelt</h2>
+        <h2 class="vb-section">6. Liedermacher im selben Subtyp</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="#beruehmte-dieter-thomas-heck">Dieter Thomas Heck (SO9w1)</a> hielt als Moderator über Jahrzehnte ein Publikum zusammen, so wie Mey es als Sänger tat, allerdings lauter und im Rampenlicht. <a href="#beruehmte-joerg-kachelmann">Jörg Kachelmann (SO9w1)</a> macht ein gemeinsames Thema, das Wetter, für alle verständlich und streitet für Genauigkeit; bei Mey liegt die Genauigkeit im Handwerk, und dem Wetter hat er mit ›Weil ich ein Meteorologe bin‹ (1975) sogar ein ganzes Lied gewidmet. <a href="#beruehmte-eleanor-roosevelt">Eleanor Roosevelt (SO9w1)</a> zeigt dieselbe Konstellation aus Gemeinsinn und innerem Maßstab im politischen Raum.</p>
-        </blockquote>
-
-        <h2 class="vb-section">7. Der Weg: vom Ausgleichen zum Dasein mit der eigenen Stimme</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die soziale Neun mit Einserflügel gleicht aus und prüft sich dabei streng. Heilsam wäre für diesen Subtyp, dass die eigene Stimme auch dann zählt, wenn das Gemeinsame nicht gleich zustimmt, und dass Genauigkeit nicht allein getragen werden muss. Dass Mey sein Lampenfieber ausdrücklich als ›Motor‹ beschreibt und seine Lieder das Empfindsame offen lassen, zeigt, wie er beides verbindet.</p>
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-leonard-cohen">Leonard Cohen</a> (SO4w5) teilt mit Mey den Fünferflügel: Auch bei ihm steht der Text im Mittelpunkt, und auch er hielt Abstand zum Betrieb, obwohl seine Lieder Millionen erreichten.</p>
+          <p class="vb-intro">Einen aufschlussreichen Gegenpol bildet <a href="javascript:void(0)" data-route="beruehmte-cat-stevens">Cat Stevens / Yusuf Islam</a> (SO4w3): ebenfalls ein Liedermacher mit sanfter, sehr persönlicher Stimme, bei dem aber der Dreierflügel stärker auf Wirkung und Suche nach Erfolg zielt, während Mey bei Vorbereitung und Genauigkeit bleibt.</p>
         </blockquote>
 
       </div>
@@ -1475,11 +1471,9 @@ export function reinhardMeyPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
-        {route:"beruehmte-dieter-thomas-heck", label:"Porträt: Dieter Thomas Heck (SO9w1)"},
-        {route:"beruehmte-joerg-kachelmann", label:"Porträt: Jörg Kachelmann (SO9w1)"},
-        {route:"beruehmte-eleanor-roosevelt", label:"Porträt: Eleanor Roosevelt (SO9w1)"},
-        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-leonard-cohen", label:"Porträt: Leonard Cohen (SO4w5) – derselbe Subtyp"},
+        {route:"beruehmte-cat-stevens", label:"Porträt: Cat Stevens / Yusuf Islam (SO4w3)"},
       ])}
     </div>
   `);

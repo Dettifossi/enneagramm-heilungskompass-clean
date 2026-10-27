@@ -3654,7 +3654,6 @@ export function eleanorRooseveltPortraitPage() {
         {route:"krankheitsportraets-eleanor-roosevelt", label:"Krankheitsporträt: Eleanor Roosevelt (SO9w1)"},
         {route:"beruehmte-maria-treben", label:"Porträt: Maria Treben (SO9w1)"},
         {route:"enneagramm-homoeopathie", label:"Enneagramm &amp; Homöopathie"},
-        {route:"beruehmte-reinhard-mey", label:"Porträt: Reinhard Mey (SO9w1)"},
       ])}
     </div>
   `);
@@ -4395,7 +4394,6 @@ export function dieterThomasHeckPortraitPage() {
         {route:"beruehmte-tom-hanks", label:"Porträt: Tom Hanks (SO9w1) – derselbe Subtyp, Verlässlichkeit als Markenzeichen"},
         {route:"beruehmte-hans-sigl", label:"Porträt: Hans Sigl (SO9w1)"},
         {route:"beruehmte-joerg-kachelmann", label:"Porträt: Jörg Kachelmann (SO9w1)"},
-        {route:"beruehmte-reinhard-mey", label:"Porträt: Reinhard Mey (SO9w1)"},
       ])}
     </div>
   `);
