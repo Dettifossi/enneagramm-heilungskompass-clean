@@ -9950,7 +9950,7 @@ const sx1 = {
       mediaGroups: type1MediaGroups("SX1", {
         deId: "s1AQHS_gOHg",
         enCode: "SX1",
-        enId: "NWj3sLpqm1s",
+        enId: "oA6r5OSxR6c",
         biblicalId: "mSDVJQpCVF8",
         affirmationsId: "qDI91oL9TGg",
       }),
@@ -38108,7 +38108,7 @@ function dynamikDerTypenPage() {
 const SUBTYPE_SONGS = {
   SE1: { de: "XHB8xTxJtHY", en: "NWj3sLpqm1s" },
   SO1: { de: "eOJAkd-QohU", en: "DkkZS4FkZbA" },
-  SX1: { de: "s1AQHS_gOHg", en: "NWj3sLpqm1s" },
+  SX1: { de: "s1AQHS_gOHg", en: "oA6r5OSxR6c" },
   SE2: { de: "Gxgr9xOtKaQ", en: "OT19G0XQsak" },
   SO2: { de: "tLMBN_8wH9g", en: "SaMqeT32TmQ" },
   SX2: { de: "JCoUFccskX0", en: "aTFl_G-AE3E" },
