@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=432";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=433";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -1967,10 +1967,6 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Self-Preservation Type 4",
     teaser:"SP4w5 \u00b7 born 1939 in Milwaukee. Choreographer and ballet director, Hamburg Ballet 1973\u20132024 (\u2018Nijinsky\u2019, \u2018The Lady of the Camellias\u2019). The Dove who puts her depth quietly into works.",
     land:"USA/Germany", tags:["Tanz"], gender:"m"},
-{ route:"beruehmte-gertrud-hoehler", name:"Prof. Gertrud H\u00f6hler", added:"2026-10-28", subtyp:"SX1w2",
-    heading:"Gertrud H\u00f6hler \u2013 Sexual Type 1",
-    teaser:"SX1w2 \u00b7 b. 1941 in Wuppertal. Literary scholar, author and consultant (\u2018Die Patin\u2019, \u2018Baden-Badener Disput\u2019). The Black Mamba that carried its zeal into conversation and advice.",
-    land:"Deutschland", tags:["Literatur","Politik"], gender:"f"},
 { route:"beruehmte-james-blunt", name:"James Blunt", added:"2026-10-27", subtyp:"SO1w2",
     heading:"James Blunt \u2013 Social Type 1",
     teaser:"SO1w2 \u00b7 b. 1974. British singer-songwriter and former army officer (\u2018You\u2019re Beautiful\u2019). The Goose that would have refused an order and carried its stance with self-irony and warmth.",
@@ -47190,7 +47186,6 @@ function subtypeSchaubilderPage() {
       "beruehmte-mariele-millowitsch": marieleMillowitschPortraitPage,
       "beruehmte-georg-preusse": georgPreussePortraitPage,
       "beruehmte-james-blunt": jamesBluntPortraitPage,
-      "beruehmte-gertrud-hoehler": gertrudHoehlerPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,

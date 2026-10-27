@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=435";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=436";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -27718,10 +27718,6 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 geb. 1939 in Milwaukee. Choreograf und Ballettdirektor, Hamburg Ballett 1973\u20132024 (\u203aNijinsky\u2039, \u203aDie Kameliendame\u2039). Die Taube, die ihre Tiefe still in Werke fasst.",
     land:"USA/Deutschland", tags:["Tanz"], gender:"m"},
-  { route:"beruehmte-gertrud-hoehler", name:"Prof. Gertrud H\u00f6hler", added:"2026-10-28", subtyp:"SX1w2",
-    heading:"Gertrud H\u00f6hler \u2013 Sexueller Typ 1",
-    teaser:"SX1w2 \u00b7 geb. 1941 in Wuppertal. Literaturwissenschaftlerin, Publizistin und Beraterin (\u203aDie Patin\u2039, \u203aBaden-Badener Disput\u2039). Die Schwarze Mamba, die ihren Eifer in Gespr\u00e4ch und Beratung trug.",
-    land:"Deutschland", tags:["Literatur","Politik"], gender:"f"},
   { route:"beruehmte-james-blunt", name:"James Blunt", added:"2026-10-27", subtyp:"SO1w2",
     heading:"James Blunt \u2013 Sozialer Typ 1",
     teaser:"SO1w2 \u00b7 geb. 1974. Britischer Singer-Songwriter und ehemaliger Offizier (\u203aYou\u2019re Beautiful\u2039). Die Gans, die einen Befehl verweigert h\u00e4tte und ihre Haltung mit Selbstironie und W\u00e4rme trug.",
@@ -67461,7 +67457,6 @@ const ROUTES = {
       "beruehmte-mariele-millowitsch": marieleMillowitschPortraitPage,
       "beruehmte-georg-preusse": georgPreussePortraitPage,
       "beruehmte-james-blunt": jamesBluntPortraitPage,
-      "beruehmte-gertrud-hoehler": gertrudHoehlerPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,

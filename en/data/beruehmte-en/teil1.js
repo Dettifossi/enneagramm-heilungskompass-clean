@@ -3110,6 +3110,7 @@ export function marthaGrahamPortraitPage() {
   `);
 }
 
+// ZURÜCKGESTELLT (28.10.2026): Porträt unveröffentlicht – nicht in Route-Map, Array, Register, Changelog. Typisierung SX1w2 offen. Wiederherstellung: siehe Memory project_hoehler_zurueckgestellt.
 export function gertrudHoehlerPortraitPage() {
   return shell(`
     <div class="page-container">
