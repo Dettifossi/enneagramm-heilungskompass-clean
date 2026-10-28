@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=450";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=451";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -110,6 +110,7 @@ const rajanSankaranPortraitPage = () => _lazyPage("./data/beruehmte-de/teil8.js"
 const johnBrownPortraitPage = () => _lazyPage("./data/beruehmte-de/teil3.js", "johnBrownPortraitPage");
 const heinoPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "heinoPortraitPage");
 const michaelDouglasPortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "michaelDouglasPortraitPage");
+const ninaRugePortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "ninaRugePortraitPage");
 const victorHugoPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "victorHugoPortraitPage");
 const garyCooperPortraitPage = () => _lazyPage("./data/beruehmte-de/teil2.js", "garyCooperPortraitPage");
 const joergKachelmannPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "joergKachelmannPortraitPage");
@@ -27729,6 +27730,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 geb. 1939 in Milwaukee. Choreograf und Ballettdirektor, Hamburg Ballett 1973\u20132024 (\u203aNijinsky\u2039, \u203aDie Kameliendame\u2039). Die Taube, die ihre Tiefe still in Werke fasst.",
     land:"USA/Deutschland", tags:["Tanz"], gender:"m"},
+  { route:"beruehmte-nina-ruge", name:"Nina Ruge", added:"2026-10-28", subtyp:"SX6w7",
+    heading:"Nina Ruge – Sexueller Typ 6",
+    teaser:"SX6w7 · geb. 1956 in München. Deutsche Fernsehmoderatorin und Autorin (›heute-journal‹, ›Leute heute‹, ›Alles wird gut‹), UNICEF-Botschafterin. Der Wolf, der die sichere Studienratslaufbahn gegen die Welt der Medien tauschte.",
+    land:"Deutschland", tags:["Medien"], gender:"f"},
   { route:"beruehmte-michael-douglas", name:"Michael Douglas", added:"2026-10-28", subtyp:"SO1w9",
     heading:"Michael Douglas – Sozialer Typ 1",
     teaser:"SO1w9 · geb. 1944 in New Brunswick. Amerikanischer Schauspieler und Produzent (›Wall Street‹, ›Einer flog über das Kuckucksnest‹), UN-Friedensbotschafter seit 1998. Die Gans, die Geschichten über Institutionen und Gewissen auf die Leinwand brachte.",
@@ -67524,6 +67529,7 @@ const ROUTES = {
       "beruehmte-john-brown": johnBrownPortraitPage,
       "beruehmte-heino": heinoPortraitPage,
       "beruehmte-michael-douglas": michaelDouglasPortraitPage,
+      "beruehmte-nina-ruge": ninaRugePortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,

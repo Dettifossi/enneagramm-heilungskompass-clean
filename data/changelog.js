@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2696", date: "2026-10-28", text: "Neues Porträt: Nina Ruge (SX6w7) – Fernsehmoderatorin und Autorin.", text_en: "New portrait: Nina Ruge (SX6w7) – television presenter and author.", route: "beruehmte-nina-ruge" },
     { version: "v2695", date: "2026-10-28", text: "Neues Porträt: Michael Douglas (SO1w9) – Schauspieler und Produzent.", text_en: "New portrait: Michael Douglas (SO1w9) – actor and producer.", route: "beruehmte-michael-douglas" },
     { version: "v2694", date: "2026-10-28", text: "Neues Porträt: Heino (SX3w2) – Sänger.", text_en: "New portrait: Heino (SX3w2) – singer.", route: "beruehmte-heino" },
     { version: "v2693", date: "2026-10-28", text: "Neues Porträt: John Brown (SX1w9) – amerikanischer Abolitionist.", text_en: "New portrait: John Brown (SX1w9) – American abolitionist.", route: "beruehmte-john-brown" },

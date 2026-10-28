@@ -3246,3 +3246,73 @@ export function artGarfunkelPortraitPage() {
     </div>
   `);
 }
+
+export function ninaRugePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-nina-ruge-portrait.jpg" alt="Nina Ruge – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Nina Ruge</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Deutsche Fernsehmoderatorin und Autorin, geb. 1956 &ndash; ›Alles wird gut‹ &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf: die Studienrätin, die in die Welt hinausging</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> jagt im Rudel und geht auf das zu, was andere meiden. Nina Ruge wurde am 24. August 1956 in München geboren. Sie stammt aus einer deutsch-jüdischen Familie; ihr Vorfahr Gabriel Riesser war Abgeordneter in der Paulskirche. Ihr Vater Jürgen Ruge war Professor für Maschinenbau an der Technischen Universität Braunschweig. Er wurde in der Zeit des Nationalsozialismus als ›Halbjude‹ (so der Begriff der Nationalsozialisten) verfolgt und konnte aus einem Lager in Frankreich entkommen. Nach ihrer Geburt kam sie wegen der Krebsbehandlung ihrer Mutter in ein Säuglingsheim.</p>
+          <p class="vb-intro">Sie machte 1974 Abitur an der Ina-Seidel-Schule in Braunschweig und studierte Germanistik und Biologie für das Lehramt, 1979 schloss sie ab. Von 1980 bis 1987 war sie Referendarin und dann Studienrätin am Gymnasium Kreuzheide in Wolfsburg und arbeitete nebenbei frei für den NDR-Hörfunk in Braunschweig.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der sexuelle Sechser: Mut als Antwort auf die Angst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der sexuelle Sechser ist bei <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> der Kontratyp der Sechs: Er begegnet der Angst nicht mit Vorsicht, sondern geht ihr kraftvoll entgegen. Bei Ruge lässt sich das mit ihrem Seitenwechsel von 1987 verbinden: Sie gab die sichere Laufbahn als Studienrätin auf, ging nach Berlin und arbeitete beim Film als Garderobiere, Scriptgirl und Regieassistentin, dann als Redakteurin beim SFB und ab 1988 beim RIAS-TV. Am 9. Oktober 1989 moderierte sie erstmals das ›heute-journal‹ im ZDF.</p>
+          <p class="vb-intro">Die Zeichnung zeigt langes, glattes Haar, das sich in der Mitte teilt und nach vorn fällt, eine hohe Stirn mit feinen Querfalten, lebhafte Augen mit langen Wimpern und Lachfältchen an den Außenwinkeln und ein breites, offenes Lächeln mit sichtbaren Zähnen. Tiefe Furchen laufen von der Nase zu den Mundwinkeln, die Nasolabialfalten (lateinisch nasus, Nase, und labium, Lippe). Der Blick geht direkt in die Kamera, zugewandt und offensiv freundlich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Zuversicht als Beruf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der Sechs Leichtigkeit, Optimismus und viele Interessen. Riso und Hudson nennen die Sechs mit Siebenerflügel ›den Kameraden‹. Bei Ruge zeigt sich das in der Zuversicht, die ihr Markenzeichen wurde: Ihr Buch ›Alles wird gut‹ erschien 2002, es folgten ›Alles wird gut im Job‹ und ›Alles wird gut in der Liebe‹ (beide 2005), und im Sommer 2007 startete im ZDF die Talkshow ›Nina Ruge: Alles wird gut‹. Daneben reicht ihr Themenspektrum von Gesundheit und Selbstheilung über Stille (›Stille – Balsam für Herz und Seele‹, 2010) bis zum Kochen und zum Film (›Wer liebt, dem wachsen Flügel‹, 1999; ›Sophie kocht‹, 2015).</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Vermittlerin zwischen Wissenschaft und Publikum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ruge war von 1989 bis 1994 Co-Moderatorin des ›heute-journals‹, von Oktober 1994 bis 1997 die erste Moderatorin von ›heute nacht‹ und von 1997 bis zum 3. Februar 2007 Moderatorin von ›Leute heute‹. Danach moderierte sie ›Unter vier Augen‹ (BR, 2007 bis 2016), ›Forum Manager‹ (phoenix, 2010 bis 2014) und das ›Wissenschaftsforum Petersberg‹ (phoenix, bis 2009). Sie hat über 20 Bücher verfasst oder herausgegeben; zuletzt erschienen zu Longevity und Verjüngung, gemeinsam mit Dominik Duscher, ›Altern wird heilbar‹ (2020) und ›Verjüngung ist möglich‹ (2021), dann ›Das Verjüngungs-Kochbuch‹ (2022), ›Der Verjüngungs-Plan‹ (2023) und 2025 ›Verjüngung – Der Ernährungsplan‹ und ›Ab morgen jünger!‹.</p>
+          <p class="vb-intro">Sie ist seit 1994 UNICEF-Repräsentantin und seit 2012 UNICEF-Deutschland-Botschafterin, seit 2010 Patin des Kinderhospizes Bethel und Botschafterin des Jane-Goodall-Instituts Deutschland. Zu ihren Auszeichnungen gehören der Felix Burda Award (2008), die Bayerische Staatsmedaille für soziale Verdienste (2009) und das Bundesverdienstkreuz am Bande (2013).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Louise Hay, Anke Engelke und Byron Katie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-louise-hay">Louise Hay (SX6w7)</a> teilt mit Ruge das Thema Selbstheilung und die Zuversicht als Botschaft. <a href="#beruehmte-anke-engelke">Anke Engelke (SX6w7)</a> ist wie Ruge eine bekannte Fernsehfrau mit offener, direkter Art. <a href="#beruehmte-byron-katie">Byron Katie (SX6w7)</a> lässt sich mit Ruge im Interesse an innerer Klärung verbinden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Privates</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ruges erste Ehe wurde nach vier Jahren geschieden, von 1995 bis 1998 war sie mit dem Fernsehproduzenten Stefan Voss verheiratet. Seit 1998 ist sie mit Wolfgang Reitzle liiert, seit 2001 sind sie verheiratet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand und Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zuletzt erschien 2026 ihr Buch ›Alles wird gut, aber nicht von alleine!‹ (Stand 28. Oktober 2026).</p>
+          <p class="vb-intro">Für den sexuellen Sechser mit Siebenerflügel liegt ein Entwicklungsweg darin, dass Zuversicht nicht erst gegen die Angst erkämpft werden muss. Bei Ruge lässt sich das am Titel von 2026 ablesen: Der Zusatz ›aber nicht von alleine‹ nimmt die Zuversicht in die eigene Verantwortung, ohne sie zurückzunehmen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-louise-hay", label:"Porträt: Louise Hay (SX6w7)"},
+        {route:"beruehmte-anke-engelke", label:"Porträt: Anke Engelke (SX6w7)"},
+        {route:"beruehmte-byron-katie", label:"Porträt: Byron Katie (SX6w7)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
