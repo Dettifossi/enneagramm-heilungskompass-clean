@@ -1083,7 +1083,7 @@ Gelegentlich lohnt es sich zu fragen: Was davon brauche ich wirklich? Was kann i
 Vergebung sagt: Ich trage diesen Schmerz nicht mehr als Last mit mir. Ich lasse die Bitterkeit los – nicht für dich. Für mich.
 
 Das ist der härteste Weg. Und der befreiendste. Nicht weil der andere es verdient. Sondern weil du es verdienst.`,
-    impuls: `Gibt es jemanden, dem du noch nicht vergeben hast – und dessen Last du mit dir trägst? Was würde ein erster Schritt zur Vergebung aussehen?`,
+    impuls: `Gibt es jemanden, dem du noch nicht vergeben hast – und dessen Last du mit dir trägst? Wie würde ein erster Schritt zur Vergebung aussehen?`,
   },
   {
     titel: "Wenn man sich selbst vergeben muss",
@@ -3004,7 +3004,7 @@ Entfremdung ist kein Schicksal. Sie ist ein Zeichen – und eine Einladung.`,
 Das Enneagramm zeigt: Verschiedene Typen haben verschiedene Bedürfnisse, verschiedene Kommunikationsstile, verschiedene Ängste. Kein Wunder, dass es reibt.
 
 Die Frage ist nicht: Streiten wir? Die Frage ist: Wie streiten wir?`,
-    impuls: `Wie streitest du in engen Beziehungen? Was ist dein Muster – Angriff, Rückzug, Vermeidung? Und was würde ein konstruktiverer Weg aussehen?`,
+    impuls: `Wie streitest du in engen Beziehungen? Was ist dein Muster – Angriff, Rückzug, Vermeidung? Und wie würde ein konstruktiverer Weg aussehen?`,
   },
 
   // ── NATUR III ─────────────────────────────────────────────────────────

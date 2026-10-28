@@ -19574,7 +19574,7 @@ Gelegentlich lohnt es sich zu fragen: Was davon brauche ich wirklich? Was kann i
 Vergebung sagt: Ich trage diesen Schmerz nicht mehr als Last mit mir. Ich lasse die Bitterkeit los \u2013 nicht f\u00fcr dich. F\u00fcr mich.
 
 Das ist der h\u00e4rteste Weg. Und der befreiendste. Nicht weil der andere es verdient. Sondern weil du es verdienst.`,
-    impuls: `Gibt es jemanden, dem du noch nicht vergeben hast \u2013 und dessen Last du mit dir tr\u00e4gst? Was w\u00fcrde ein erster Schritt zur Vergebung aussehen?`,
+    impuls: `Gibt es jemanden, dem du noch nicht vergeben hast \u2013 und dessen Last du mit dir tr\u00e4gst? Wie w\u00fcrde ein erster Schritt zur Vergebung aussehen?`,
   },
   {
     titel: "Wenn man sich selbst vergeben muss",
@@ -21495,7 +21495,7 @@ Entfremdung ist kein Schicksal. Sie ist ein Zeichen \u2013 und eine Einladung.`,
 Das Enneagramm zeigt: Verschiedene Typen haben verschiedene Bed\u00fcrfnisse, verschiedene Kommunikationsstile, verschiedene \u00c4ngste. Kein Wunder, dass es reibt.
 
 Die Frage ist nicht: Streiten wir? Die Frage ist: Wie streiten wir?`,
-    impuls: `Wie streitest du in engen Beziehungen? Was ist dein Muster \u2013 Angriff, R\u00fcckzug, Vermeidung? Und was w\u00fcrde ein konstruktiverer Weg aussehen?`,
+    impuls: `Wie streitest du in engen Beziehungen? Was ist dein Muster \u2013 Angriff, R\u00fcckzug, Vermeidung? Und wie w\u00fcrde ein konstruktiverer Weg aussehen?`,
   },
 
   // \u2500\u2500 NATUR III \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
