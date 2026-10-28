@@ -11516,7 +11516,8 @@ function libraryPage() {
 
 // Text-volume estimate (section 2 below) – recalculate TEXTUMFANG_STAND and update the date
 // once several hundred more portraits have been added.
-const TEXTUMFANG_STAND = { datum: "Oct 24, 2026", woerterMio: "2.1", normseiten: "7,980", buecher: "27" };
+// Method 28 Oct 2026: state of 24 Oct (2.1 million) plus the counted growth of running-text words (<p> texts) in the DE portrait files since then (about 54,000); 1 standard page is about 263 words, 1 book = 300 standard pages.
+const TEXTUMFANG_STAND = { datum: "Oct 28, 2026", woerterMio: "2.15", normseiten: "8,190", buecher: "27" };
 // PRAXISTIPPS_ANZAHL is counted from the register (every practice tip has an entry
 // praxistipps-heilpraktiker/<slug>) – no manual counting needed any more.
 const PRAXISTIPPS_ANZAHL = registerEntriesEN.filter(e => String(e.route).startsWith("praxistipps-heilpraktiker/")).length;
