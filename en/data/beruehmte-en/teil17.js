@@ -3139,7 +3139,7 @@ export function aynRandPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ayn-rand-portrait.jpg" alt="Ayn Rand – portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Ayn Rand</p>
-        <p class="krim-portrait-typ">SX1w2 &middot; Sexual Type 1 with a Two wing</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexual Type 1 with a Nine wing</p>
         <p class="krim-portrait-subtitle">Russian-American novelist and philosopher, 1905&ndash;1982 &ndash; ‘The Fountainhead’, ‘Atlas Shrugged’ &ndash; animal counterpart: black mamba</p>
       </div>
       <div class="page-content">
@@ -3156,10 +3156,10 @@ export function aynRandPortraitPage() {
           <p class="vb-intro">The drawing shows dark, glossy hair combed back from the forehead and to the side, a high forehead with fine horizontal lines and strong brows, and large, dark, alert eyes with creases and bags that look straight and probingly. The nose is strong, the mouth closed with a narrow, slightly crooked, knowing smile, and furrows run from the nose to the corners of the mouth, the nasolabial folds (from Latin nasus, nose, and labium, lip). She wears a dark jacket over a white collar.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Two wing: attention within a circle of closeness</h2>
+        <h2 class="vb-section">3. The Nine wing: persistence and a fixed anchor</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two wing (w2)</strong> gives the One attentiveness and the wish to be needed. In Rand it shows in her not leaving her philosophy in the work alone but passing it on in personal closeness: Alan Greenspan was a close friend and contributed to her books, with the psychologist Nathaniel Branden she wrote essays (‘The Virtue of Selfishness’, 1964) and was bound by a relationship that according to reports began in 1954. The Nathaniel Branden Institute was closed after the rupture of 1968, when Rand learned that Branden had concealed another relationship.</p>
-          <p class="vb-intro">Then there is the marriage: she married the actor Frank O'Connor on 15 April 1929, and the marriage lasted until his death on 7 November 1979. Her philosophy too stayed essentially the same over decades: Objectivism, which she developed from the 1940s in her novels and later in essays, became the centre of a circle that gathered around her; critics later compared the behaviour of some followers to that of a cult.</p>
+          <p class="vb-intro">The <strong>Nine wing (w9)</strong> gives the One persistence and a calm centre. In Rand it shows in duration: she married the actor Frank O'Connor on 15 April 1929, and the marriage lasted until his death on 7 November 1979. Her philosophy too stayed the same over decades: Objectivism, which she developed from the 1940s in her novels and later in essays, remained essentially the same until her death.</p>
+          <p class="vb-intro">Her relationship with the psychologist Nathaniel Branden, which according to reports began in 1954, strained the marriage and ended in a rupture in 1968, when Rand learned that Branden had concealed another relationship; the Nathaniel Branden Institute was closed afterwards.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The substance: from novel to philosophy</h2>
@@ -3168,9 +3168,9 @@ export function aynRandPortraitPage() {
           <p class="vb-intro">Objectivism holds that reality exists independently of consciousness and can be known through reason. Reason is regarded as the chief virtue and human life as the highest value. ‘Rational egoism’ demands productive self-interest while respecting others' rights to life, liberty and property; the state should protect only these rights. Rand advocated unrestrained capitalism, rejected religion and mysticism and supported the right to abortion. She admired <a href="#beruehmte-aristoteles">Aristotle (SP1w9)</a> and rejected Kant; in an interview with Mike Wallace in 1959 she said her only philosophical debt was to Aristotle.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Parallels in the same subtype: Martin Luther, Michèle Lamy and Peter Thiel</h2>
+        <h2 class="vb-section">5. Parallels in the same subtype: Peter Thiel and Robert Greene</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="#beruehmte-martin-luther">Martin Luther (SX1w2)</a> shares subtype and wing with Rand: a following gathered around both that clung to their conviction. <a href="#beruehmte-michele-lamy">Michèle Lamy (SX1w2)</a> has, like Rand, a circle around her in which closeness and conviction belong together. <a href="#beruehmte-peter-thiel">Peter Thiel (SX1w9)</a> shares the subtype with the other wing; according to Wikipedia Rand's ideas have influenced US libertarianism and circles of the Tea Party movement.</p>
+          <p class="vb-intro"><a href="#beruehmte-peter-thiel">Peter Thiel (SX1w9)</a> shares subtype and wing with Rand. According to Wikipedia her ideas have influenced US libertarianism and circles of the Tea Party movement. <a href="#beruehmte-robert-greene">Robert Greene (SX1w9)</a> shares the subtype and the link between sharp observation and a body of teaching of his own.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Friction and headwind</h2>
@@ -3181,7 +3181,7 @@ export function aynRandPortraitPage() {
         <h2 class="vb-section">7. Death and how to place it</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Ayn Rand died on 6 March 1982 in New York of a heart attack. Alan Greenspan, who later became chairman of the US Federal Reserve, was a close friend and contributed to her books. The Ayn Rand Institute is politically active and has annual donations of more than six million dollars.</p>
-          <p class="vb-intro">For the sexual One with a Two wing, one path of development lies in attention not being tied to agreement. In Rand this can be linked to the rupture of 1968: where closeness is bound to agreement with the teaching, contradiction becomes the loss of the relationship.</p>
+          <p class="vb-intro">For the sexual One with a Nine wing, one path of development lies in the conviction also carrying a counterpart who does not follow it. In Rand this can be linked to the rupture of 1968: where zeal forms a closed system, every contradiction becomes a question of belonging.</p>
         </blockquote>
 
       </div>
@@ -3191,9 +3191,8 @@ export function aynRandPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx1", label:"SX1 – The black mamba: subtype profile"},
-        {route:"beruehmte-martin-luther", label:"Portrait: Martin Luther (SX1w2)"},
-        {route:"beruehmte-michele-lamy", label:"Portrait: Michèle Lamy (SX1w2)"},
         {route:"beruehmte-peter-thiel", label:"Portrait: Peter Thiel (SX1w9)"},
+        {route:"beruehmte-robert-greene", label:"Portrait: Robert Greene (SX1w9)"},
         {route:"beruehmte-gary-cooper", label:"Portrait: Gary Cooper (SX9w1)"},
         {route:"beruehmte-aristoteles", label:"Portrait: Aristotle (SP1w9)"},
         {route:"lebensmusterkompass", label:"Life Pattern Compass"},
