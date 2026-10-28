@@ -594,7 +594,7 @@ export const LEBENSMUSTERKOMPASS = {
   SX1: {
     tier: "Schwarze Mamba",
     kernthema: "Kompromisslose Intensität im engsten Kreis statt Reformanspruch an die ganze Welt",
-    beispiele: ["Linda Hamilton", "Annie Lennox", "Peter Thiel", "Klaus Kinski", "Marie-Agnes Strack-Zimmermann", "Grigori Rasputin", "Robbie Williams", "Jamie Lee Curtis", "Udo Lindenberg", "Johann Sebastian Bach", "Leonardo DiCaprio", "Thea Litschka-Koen", "Bill Haast", "Romulus Whitaker", "Mary Ann Cotton", "Otto Mühl", "Alex Murdaugh", "Gary Ridgway", "Paul Bernardo", "Gennadi Mikhasevich", "Fritz Haarmann", "Josef Fritzl", "Martin Luther", "Eminem", "Johannes der Täufer", "Faye Dunaway", "Michel Foucault", "Gunther von Hagens", "Joseph Beuys", "Werner Ablass", "Robert Greene", "Matthias Reim"],
+    beispiele: ["Maria Schaumayer", "Linda Hamilton", "Annie Lennox", "Peter Thiel", "Klaus Kinski", "Marie-Agnes Strack-Zimmermann", "Grigori Rasputin", "Robbie Williams", "Jamie Lee Curtis", "Udo Lindenberg", "Johann Sebastian Bach", "Leonardo DiCaprio", "Thea Litschka-Koen", "Bill Haast", "Romulus Whitaker", "Mary Ann Cotton", "Otto Mühl", "Alex Murdaugh", "Gary Ridgway", "Paul Bernardo", "Gennadi Mikhasevich", "Fritz Haarmann", "Josef Fritzl", "Martin Luther", "Eminem", "Johannes der Täufer", "Faye Dunaway", "Michel Foucault", "Gunther von Hagens", "Joseph Beuys", "Werner Ablass", "Robert Greene", "Matthias Reim"],
     fingerabdruecke: [
       {
         titel: "Durchdringende, unausweichliche Präsenz statt schmeichelndes Charisma",
@@ -604,7 +604,7 @@ export const LEBENSMUSTERKOMPASS = {
       {
         titel: "Unscheinbare, zurückgezogene Fassade, die bei verletzter Integrität abrupt in kompromisslose Härte umschlägt",
         beschreibung: "Nach außen wirkt die Erscheinung oft zurückhaltend, pflichtbewusst, fast unauffällig. Doch sobald die eigene Integrität, Überzeugung oder Reinheit infrage gestellt wird, folgt eine sofortige, präzise, unnachgiebige Reaktion – ohne Übergangsstufen.",
-        beleg: "Udo Lindenberg: ›Sie wirkt von außen fast unscheinbar, bis sie sich bedroht fühlt. Dann schlägt sie mit einer Präzision und Geschwindigkeit zu, der nichts entkommt‹; Johann Sebastian Bach, ›ein ganzes Leben lang der stille, pflichtbewusste Kirchenmusiker nach außen – und ein Mann, der keine Sekunde zögerte, wenn seine musikalischen Überzeugungen infrage gestellt wurden‹, der als Kind heimlich bei Mondlicht verbotene Notenblätter kopierte, ›koste es, was es wolle, selbst die eigenen Augen‹."
+        beleg: "Udo Lindenberg: ›Sie wirkt von außen fast unscheinbar, bis sie sich bedroht fühlt. Dann schlägt sie mit einer Präzision und Geschwindigkeit zu, der nichts entkommt‹; Johann Sebastian Bach, ›ein ganzes Leben lang der stille, pflichtbewusste Kirchenmusiker nach außen – und ein Mann, der keine Sekunde zögerte, wenn seine musikalischen Überzeugungen infrage gestellt wurden‹, der als Kind heimlich bei Mondlicht verbotene Notenblätter kopierte, ›koste es, was es wolle, selbst die eigenen Augen‹; Maria Schaumayer, die nach Nachrufen mit Charme und Fachkompetenz auftrat und ihre Härte zeigte, wenn die Sache sie verlangte – etwa in den Verhandlungen über die Entschädigung der NS-Zwangsarbeiter."
       },
       {
         titel: "Radikale Ehrlichkeit, die sich nicht verstellen lässt – auch gegen das eigene Image",

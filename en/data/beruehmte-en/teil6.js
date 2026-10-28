@@ -3130,3 +3130,73 @@ export function karinThalerPortraitPage() {
     </div>
   `);
 }
+
+export function mariaSchaumayerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-maria-schaumayer-portrait.jpg" alt="Maria Schaumayer – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Maria Schaumayer</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexual Type 1 with a Nine wing</p>
+        <p class="krim-portrait-subtitle">Austrian economist, banker and politician, 1931&ndash;2013 &ndash; the world's first female central bank president &ndash; animal counterpart: black mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The black mamba: the daughter whose father would not join the party</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>black mamba</strong> keeps its target in view and does not let go of it, without making any noise. Maria Schaumayer was born on 7 October 1931 in Graz. Her mother was a school principal; her father directed a viticulture school near Leibnitz and was forced into early retirement in 1939 because he refused to join the NSDAP (the Nazi Party).</p>
+          <p class="vb-intro">In 1949 she passed her school-leaving exam with distinction, studied in Vienna and Innsbruck and took her doctorate in economics in 1954.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual One: zeal for the task that is not finished</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo called the sexual One <em>zeal</em>, the countertype of the One: the strictness is directed not at the rules of the community as a whole but with great intensity at a single task. In Schaumayer this can be linked to her two great assignments: running the Austrian National Bank and compensating Nazi-era forced labourers. That her father refused to join the party can be understood as an early example of how an inner standard was held in her family even against pressure.</p>
+          <p class="vb-intro">The photo shows short, wavy, dark-grey hair in set waves, strong brows, horizontal lines on the forehead and bags under the eyes. The gaze goes calmly and slightly sideways past the camera, the mouth is slightly open and hints at a smile. A microphone reaches into the picture on the left; she is evidently speaking at an event or a hearing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine wing: persistence instead of performance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine wing (w9)</strong> gives the One calm and staying power. In Schaumayer this can be linked to her negotiating style: obituaries describe great professional competence, political instinct and charm combined with toughness when the matter demanded it. She earned respect across party lines. A memorial programme on the radio channel Ö1 (ORF) was titled ‘Versöhnung braucht Beharrlichkeit’ (‘Reconciliation Needs Persistence’).</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the first woman at the head of a central bank</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Schaumayer worked at the Creditanstalt bank and became an authorised signatory there in 1961. From 1965 to 1973 she was a Vienna city councillor, then until 1982 a member of the Vienna state parliament (for the ÖVP, the Austrian People's Party). In 1974 she joined the board of Kommunalkredit, and from 1982 to 1989 she was finance director of ÖMV (Österreichische Mineralölverwaltung, today OMV, an oil and gas company). From 1990 to 1995 she was president of the Oesterreichische Nationalbank and thus, according to the sources, the first woman in such a role worldwide; in 1995 she declined to stand again.</p>
+          <p class="vb-intro">Her term coincided with Austria's accession to the European Union. Nine days after accession the country could also join the exchange rate mechanism with its currency, regarded as a forerunner of the euro; she saw this as a success she had been able to contribute to.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Marie-Agnes Strack-Zimmermann and Linda Hamilton</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-marie-agnes-strack-zimmermann">Marie-Agnes Strack-Zimmermann (SX1w9)</a> is likewise a politician with a Nine wing: sharp on substance and persistent, not out for performance. <a href="#beruehmte-linda-hamilton">Linda Hamilton (SX1w9)</a> shows the same mixture of hardness in the task and calm in private.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Icebreaker and reparation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1991 Schaumayer founded a foundation to promote women's careers and encouraged women throughout her life. She rejected statutory quotas. She said in essence that she had always seen herself as an icebreaker clearing the way for successors.</p>
+          <p class="vb-intro">From 2000 she was the government commissioner for compensating victims of Nazi-era forced labour. She helped in negotiations with several European states and the USA, facing the chief negotiator Stuart Eizenstat. The resulting fund benefited about 132,000 former forced labourers.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Honours, death and remembrance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Schaumayer became an honorary citizen of Vienna in 1996, in 2006 the first woman to be an honorary member of the Austrian Academy of Sciences, and in 2007 received the Great Leopold Kunschak Prize. She died on 23 January 2013 in Vienna and was buried in February 2013 at the Döbling cemetery. In 2014 a square in Vienna was named after her; since 2016 it has been called Maria-Schaumayer-Platz.</p>
+          <p class="vb-intro">For the sexual One with a Nine wing the path lies in persistence being able to carry even without hardness. In Schaumayer this can be linked to the relationship of expertise and charm that contemporaries described in her negotiating.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx1", label:"SX1 – The black mamba: subtype profile"},
+        {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Portrait: Marie-Agnes Strack-Zimmermann (SX1w9)"},
+        {route:"beruehmte-linda-hamilton", label:"Portrait: Linda Hamilton (SX1w9)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}

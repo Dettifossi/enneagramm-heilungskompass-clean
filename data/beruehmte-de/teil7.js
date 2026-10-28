@@ -3006,3 +3006,73 @@ export function sulliPortraitPage() {
     </div>
   `);
 }
+
+export function mariaSchaumayerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-maria-schaumayer-portrait.jpg" alt="Maria Schaumayer – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Maria Schaumayer</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexueller Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Österreichische Ökonomin, Bankerin und Politikerin, 1931&ndash;2013 &ndash; erste Nationalbankpräsidentin der Welt &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba: die Tochter, deren Vater nicht in die Partei eintrat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> behält ihr Ziel im Blick und lässt es nicht mehr los, ohne dabei Lärm zu machen. Maria Schaumayer wurde am 7. Oktober 1931 in Graz geboren. Ihre Mutter war Schulleiterin; ihr Vater leitete eine Weinbauschule bei Leibnitz und wurde 1939 in den vorzeitigen Ruhestand gezwungen, weil er sich weigerte, der NSDAP (der Partei der Nationalsozialisten) beizutreten.</p>
+          <p class="vb-intro">1949 legte sie die Matura mit Auszeichnung ab, studierte in Wien und Innsbruck und wurde 1954 zur Doktorin der Wirtschaftswissenschaften promoviert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Eifer für die Aufgabe, die nicht abgeschlossen ist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo nannte die sexuelle Eins <em>Zeal</em> (Eifer), den Kontratyp der Eins: Die Strenge richtet sich nicht auf die Regeln der Gemeinschaft im Ganzen, sondern mit großer Intensität auf eine einzelne Aufgabe. Bei Schaumayer lässt sich das mit ihren zwei großen Aufträgen verbinden: der Leitung der Oesterreichischen Nationalbank und der Entschädigung der NS-Zwangsarbeiter. Dass ihr Vater sich weigerte, in die Partei einzutreten, lässt sich als frühes Beispiel dafür verstehen, wie in ihrer Familie ein innerer Maßstab auch gegen Druck gehalten wurde.</p>
+          <p class="vb-intro">Das Foto zeigt kurzes, gewelltes, dunkelgraues Haar in gelegten Wellen, kräftige Brauen, Querfalten auf der Stirn und Tränensäcke unter den Augen. Der Blick geht ruhig und leicht seitlich an der Kamera vorbei, der Mund ist leicht geöffnet und deutet ein Lächeln an. Links im Bild ragt ein Mikrofon herein; sie spricht offenbar bei einer Veranstaltung oder Anhörung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Beharrlichkeit statt Auftritt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der Eins Ruhe und Ausdauer. Bei Schaumayer lässt sich das mit ihrem Verhandlungsstil verbinden: Nachrufe beschreiben hohe Fachkompetenz, politischen Spürsinn und Charme, verbunden mit Härte, wenn die Sache sie verlangte. Sie erntete Respekt über Parteigrenzen hinweg. Eine Gedenksendung des Radiosenders Ö1 (ORF) trug den Titel ›Versöhnung braucht Beharrlichkeit‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: die erste Frau an der Spitze einer Nationalbank</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Schaumayer arbeitete bei der Creditanstalt und wurde dort 1961 Prokuristin. Von 1965 bis 1973 war sie Wiener Gemeinderätin, danach bis 1982 im Wiener Landtag (für die ÖVP, die Österreichische Volkspartei). 1974 kam sie in den Vorstand der Kommunalkredit, von 1982 bis 1989 war sie Finanzvorstand der ÖMV (Österreichische Mineralölverwaltung, heute OMV, ein Öl- und Gaskonzern). Von 1990 bis 1995 war sie Präsidentin der Oesterreichischen Nationalbank und damit nach dem Stand der Quellen weltweit die erste Frau in dieser Funktion; 1995 verzichtete sie auf eine weitere Kandidatur.</p>
+          <p class="vb-intro">Ihr Amt fiel in die Zeit, in der Österreich der Europäischen Union beitrat. Neun Tage nach dem Beitritt konnte das Land mit seiner Währung auch dem Wechselkursmechanismus beitreten, der als Vorstufe des Euro galt; das sah sie als Erfolg, an dem sie mitwirken konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Marie-Agnes Strack-Zimmermann und Linda Hamilton</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-marie-agnes-strack-zimmermann">Marie-Agnes Strack-Zimmermann (SX1w9)</a> ist ebenfalls Politikerin mit Neunerflügel: scharf in der Sache und beharrlich, nicht auf Auftritt aus. <a href="#beruehmte-linda-hamilton">Linda Hamilton (SX1w9)</a> zeigt dieselbe Mischung aus Härte in der Aufgabe und Ruhe im Privaten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Eisbrecherin und Wiedergutmachung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1991 gründete Schaumayer eine Stiftung zur Förderung von Frauenkarrieren und ermutigte Frauen ihr Leben lang. Gesetzliche Quoten lehnte sie ab. Sie sagte sinngemäß, sie habe sich immer als Eisbrecherin verstanden, die den Weg für Nachfolgerinnen freimacht.</p>
+          <p class="vb-intro">Ab 2000 war sie Regierungsbeauftragte für die Entschädigung der Opfer der NS-Zwangsarbeit. Sie half bei Verhandlungen mit mehreren europäischen Staaten und den USA; dem Verhandlungsführer Stuart Eizenstat stand sie dabei gegenüber. Der daraus entstandene Fonds kam rund 132.000 ehemaligen Zwangsarbeitern zugute.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Ehrungen, Tod und Erinnerung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Schaumayer wurde 1996 Ehrenbürgerin von Wien, 2006 als erste Frau Ehrenmitglied der Österreichischen Akademie der Wissenschaften und erhielt 2007 den Großen Leopold-Kunschak-Preis. Sie starb am 23. Jänner 2013 in Wien und wurde im Februar 2013 auf dem Döblinger Friedhof beigesetzt. 2014 wurde ein Platz in Wien nach ihr benannt, seit 2016 heißt er Maria-Schaumayer-Platz.</p>
+          <p class="vb-intro">Für die sexuelle Eins mit Neunerflügel liegt der Weg darin, dass Beharrlichkeit auch ohne Härte tragen kann. Bei Schaumayer lässt sich das mit dem Verhältnis von Fachlichkeit und Charme verbinden, das Zeitgenossen an ihrer Verhandlungsführung beschrieben.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Porträt: Marie-Agnes Strack-Zimmermann (SX1w9)"},
+        {route:"beruehmte-linda-hamilton", label:"Porträt: Linda Hamilton (SX1w9)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
