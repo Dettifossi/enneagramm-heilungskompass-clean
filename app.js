@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=443";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=444";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -106,6 +106,7 @@ const mariaSchaumayerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil7.j
 const micheleLamyPortraitPage = () => _lazyPage("./data/beruehmte-de/teil4.js", "micheleLamyPortraitPage");
 const yvesSaintLaurentPortraitPage = () => _lazyPage("./data/beruehmte-de/teil13.js", "yvesSaintLaurentPortraitPage");
 const christineLagardePortraitPage = () => _lazyPage("./data/beruehmte-de/teil9.js", "christineLagardePortraitPage");
+const rajanSankaranPortraitPage = () => _lazyPage("./data/beruehmte-de/teil8.js", "rajanSankaranPortraitPage");
 const garyCooperPortraitPage = () => _lazyPage("./data/beruehmte-de/teil2.js", "garyCooperPortraitPage");
 const joergKachelmannPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "joergKachelmannPortraitPage");
 const jamesDeanPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "jamesDeanPortraitPage");
@@ -27724,6 +27725,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 geb. 1939 in Milwaukee. Choreograf und Ballettdirektor, Hamburg Ballett 1973\u20132024 (\u203aNijinsky\u2039, \u203aDie Kameliendame\u2039). Die Taube, die ihre Tiefe still in Werke fasst.",
     land:"USA/Deutschland", tags:["Tanz"], gender:"m"},
+  { route:"beruehmte-rajan-sankaran", name:"Dr. Rajan Sankaran", added:"2026-10-28", subtyp:"SO5w6",
+    heading:"Rajan Sankaran – Sozialer Typ 5",
+    teaser:"SO5w6 · geb. 1960 in Mumbai. Indischer Homöopath, Begründer der Sensationsmethode (sieben Ebenen, Reiche, Miasmen). Der Oktopus mit der Landkarte für die Fallaufnahme.",
+    land:"Indien", tags:["Homöopathie"], gender:"m"},
   { route:"beruehmte-gertrud-hoehler", name:"Prof. Gertrud Höhler", added:"2026-10-28", subtyp:"SX1w2",
     heading:"Gertrud Höhler – Sexueller Typ 1",
     teaser:"SX1w2 · geb. 1941 in Wuppertal. Literaturwissenschaftlerin, Publizistin und Beraterin (›Die Patin‹, ›Baden-Badener Disput‹). Die Schwarze Mamba, die ihren Eifer in Gespräch und Beratung trug.",
@@ -67499,6 +67504,7 @@ const ROUTES = {
       "beruehmte-yves-saint-laurent": yvesSaintLaurentPortraitPage,
       "beruehmte-christine-lagarde": christineLagardePortraitPage,
       "beruehmte-gertrud-hoehler": gertrudHoehlerPortraitPage,
+      "beruehmte-rajan-sankaran": rajanSankaranPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,
