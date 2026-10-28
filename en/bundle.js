@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=446";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=447";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -121,6 +121,7 @@ const christineLagardePortraitPage = () => _lazyPage("./data/beruehmte-en/teil18
 const rajanSankaranPortraitPage = () => _lazyPage("./data/beruehmte-en/teil7.js", "rajanSankaranPortraitPage");
 const johnBrownPortraitPage = () => _lazyPage("./data/beruehmte-en/teil11.js", "johnBrownPortraitPage");
 const heinoPortraitPage = () => _lazyPage("./data/beruehmte-en/teil3.js", "heinoPortraitPage");
+const michaelDouglasPortraitPage = () => _lazyPage("./data/beruehmte-en/teil2.js", "michaelDouglasPortraitPage");
 const victorHugoPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "victorHugoPortraitPage");
 const garyCooperPortraitPage = () => _lazyPage("./data/beruehmte-en/teil12.js", "garyCooperPortraitPage");
 const joergKachelmannPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "joergKachelmannPortraitPage");
@@ -1977,6 +1978,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Self-Preservation Type 4",
     teaser:"SP4w5 \u00b7 born 1939 in Milwaukee. Choreographer and ballet director, Hamburg Ballet 1973\u20132024 (\u2018Nijinsky\u2019, \u2018The Lady of the Camellias\u2019). The Dove who puts her depth quietly into works.",
     land:"USA/Germany", tags:["Tanz"], gender:"m"},
+{ route:"beruehmte-michael-douglas", name:"Michael Douglas", added:"2026-10-28", subtyp:"SO1w9",
+    heading:"Michael Douglas – Social Type 1",
+    teaser:"SO1w9 · b. 1944 in New Brunswick. American actor and producer (‘Wall Street’, ‘One Flew Over the Cuckoo's Nest’), UN Messenger of Peace since 1998. The goose that put stories about institutions and conscience on the screen.",
+    land:"USA", tags:["Schauspiel","Film"], gender:"m"},
 { route:"beruehmte-heino", name:"Heino", added:"2026-10-28", subtyp:"SX3w2",
     heading:"Heino – Sexual Type 3",
     teaser:"SX3w2 · b. 1938 in Düsseldorf. German singer (‘Blau blüht der Enzian’), over 55 million records, a stage persona with sunglasses. The peacock who invites his audience to sing along and is still on tour at 87.",
@@ -47247,6 +47252,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-rajan-sankaran": rajanSankaranPortraitPage,
       "beruehmte-john-brown": johnBrownPortraitPage,
       "beruehmte-heino": heinoPortraitPage,
+      "beruehmte-michael-douglas": michaelDouglasPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,

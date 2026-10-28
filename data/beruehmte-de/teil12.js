@@ -3166,3 +3166,72 @@ export function georgPreussePortraitPage() {
     </div>
   `);
 }
+
+export function michaelDouglasPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michael-douglas-portrait.jpg" alt="Michael Douglas – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michael Douglas</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Amerikanischer Schauspieler und Produzent, geb. 1944 &ndash; ›Wall Street‹ &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans: der Sohn im Schatten des Vaters</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> hält Wache für die Gruppe und schlägt Alarm, wenn etwas nicht stimmt. Michael Douglas wurde am 25. September 1944 in New Brunswick, New Jersey, geboren, als Sohn des Schauspielers Kirk Douglas und seiner ersten Frau Diana Dill; die Eltern trennten sich 1951. Sein jüngerer Bruder Joel wurde Produzent. Er besuchte die Eaglebrook School in Deerfield (Massachusetts) und studierte an der University of California in Santa Barbara.</p>
+          <p class="vb-intro">Mitte der 1960er-Jahre ging er nach New York und lernte am Neighborhood Playhouse und am American Place Theater. Sein Filmdebüt war ›Hail, Hero!‹ (1969), das ihm eine Nominierung für den Golden Globe einbrachte. Von 1972 bis 1977 spielte er neben Karl Malden die Hauptrolle Steve Heller in der Fernsehserie ›Die Straßen von San Francisco‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Verantwortung für das Kollektiv</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die soziale Eins trägt bei <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> den Namen <em>Non-Adaptability</em> (Unangepasstheit): ein Maßstab, der für die Gemeinschaft gilt und sich nicht anpasst, wenn sie ihm nicht folgt. Bei Douglas lässt sich das mit seiner Arbeit als Produzent verbinden. 1975 produzierte er ›Einer flog über das Kuckucksnest‹, der 1976 den Oscar als bester Film gewann, 1979 ›Das China-Syndrom‹, einen Film über die Sicherheit von Atomkraftwerken, später ›Auf der Jagd nach dem grünen Diamanten‹ (1984) und ›The Jewel of the Nile‹ (Das Juwel vom Nil, 1985). Er stellte Geschichten über Institutionen und Verantwortung auf die Leinwand und arbeitete dabei im Ensemble.</p>
+          <p class="vb-intro">Die Zeichnung zeigt volles, wellig nach hinten gestrichenes Haar mit einzelnen Strähnen, eine hohe Stirn mit Querfalten und einer tiefen senkrechten Furche zwischen den kräftigen Brauen, große Augen mit schweren Lidern und Tränensäcken und eine kräftige Nase. Der Mund ist geschlossen, mit einem leisen, leicht schiefen Anflug eines Lächelns, und tiefe Furchen laufen von der Nase zu den Mundwinkeln, die Nasolabialfalten (lateinisch nasus, Nase, und labium, Lippe). Er trägt ein dunkles Jackett über einem weißen Kragen. Der Blick ist ernst, aufmerksam und gerade nach vorn gerichtet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Gelassenheit und ruhige Beharrlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der Eins Gelassenheit nach außen und Beharrlichkeit. Bei Douglas lässt sich das mit dem Umgang mit seiner Krebserkrankung verbinden: Er machte sie 2010 öffentlich, ließ sich mit Bestrahlung und Chemotherapie behandeln und sagte 2011, der Tumor sei verschwunden. Seit Juli 1998 setzt er sich als UN-Friedensbotschafter für Abrüstung ein, unter anderem für die Nichtverbreitung von Atomwaffen und gegen den illegalen Handel mit Kleinwaffen; nach einem Bericht des Global Magazins geht sein Engagement auf das Wettrüsten des Kalten Krieges in seiner Kindheit zurück.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Gordon Gekko und eine Karriere in Wellen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Für die Rolle des Börsenhändlers Gordon Gekko in ›Wall Street‹ (1987) erhielt er den Oscar als bester Hauptdarsteller. Es folgten ›Basic Instinct‹ (1992), ›Falling Down‹ (1993) und im Jahr 2000 ›Traffic‹ und ›Wonder Boys‹. 2013 spielte er in ›Behind the Candelabra‹ (Hinter dem Kandelaber) den Pianisten Liberace und gewann einen Emmy und einen Golden Globe, ab 2015 den Physiker Hank Pym in ›Ant-Man‹, und für die Netflix-Serie ›The Kominsky Method‹ erhielt er Anfang 2019 einen Golden Globe.</p>
+          <p class="vb-intro">2004 bekam er den Cecil B. DeMille Award, 2009 den Life Achievement Award des American Film Institute und 2023 die Ehren-Palme d'Or in Cannes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Navi Pillay und Helmut Schmidt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-navi-pillay">Navi Pillay (SO1w9)</a> teilt mit Douglas die Arbeit im Rahmen der Vereinten Nationen: Sie war UN-Hochkommissarin für Menschenrechte, er ist seit 1998 Friedensbotschafter. <a href="#beruehmte-helmut-schmidt">Helmut Schmidt (SO1w9)</a> steht wie Douglas für eine ruhige, kultivierte Pflichterfüllung, die sich in den Dienst des Gemeinwesens stellt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Familie und Erbe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Von 1977 bis 2000 war Douglas mit Diandra Luker verheiratet, mit der er einen Sohn, Cameron (geb. 1978), hat. Seit dem 18. November 2000 ist er mit der Schauspielerin Catherine Zeta-Jones verheiratet, mit der er zwei Kinder hat, einen Sohn und eine Tochter. Sein Vater Kirk Douglas starb am 5. Februar 2020 im Alter von 103 Jahren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand und Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Juli 2025 sagte Douglas, er habe seit 2022 bewusst keine Rollen mehr angenommen; für Herbst 2026 war die Veröffentlichung seiner Memoiren angekündigt, zusammen mit Michael Fleming (Stand 28. Oktober 2026).</p>
+          <p class="vb-intro">Für die soziale Eins mit Neunerflügel liegt ein Entwicklungsweg darin, die Verantwortung für die Gruppe auch dort zu tragen, wo man nicht mehr im Rampenlicht steht. Bei Douglas lässt sich das mit dem Wechsel von der Rolle zum Rückblick verbinden: Wer für Geschichten über Institutionen und Gewissen stand, schreibt nun die eigene Geschichte auf.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"beruehmte-navi-pillay", label:"Porträt: Navi Pillay (SO1w9)"},
+        {route:"beruehmte-helmut-schmidt", label:"Porträt: Helmut Schmidt (SO1w9)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
