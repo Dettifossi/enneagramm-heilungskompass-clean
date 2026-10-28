@@ -3101,3 +3101,77 @@ export function albertBrooksPortraitPage() {
     </div>
   `);
 }
+
+export function christineLagardePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-christine-lagarde-portrait.jpg" alt="Christine Lagarde – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Christine Lagarde</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexual Type 1 with a Two wing</p>
+        <p class="krim-portrait-subtitle">French lawyer, politician and central banker, b. 1956 &ndash; first woman to lead the IMF and the ECB &ndash; animal counterpart: black mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The black mamba: from Le Havre to the top of the central bank</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>black mamba</strong> is the fastest venomous snake in Africa, rarely attacks, and strikes precisely when it does. Christine Lagarde was born Christine Lallouette in Paris on 1 January 1956 and grew up in Le Havre. She is the eldest of four children; her father Robert Lallouette, a lecturer in literature at the University of Rouen, died in 1973, and her mother Nicole taught Latin.</p>
+          <p class="vb-intro">After the baccalauréat at the Lycée Claude Monet she spent a year in 1974 on an AFS scholarship at the Holton-Arms School in Bethesda, Maryland, and worked in the office of Senator William Cohen. She studied law in Aix-en-Provence and Nanterre (a master's in English, labour law) but did not pass the entrance exam of the elite school ENA. She was a member of the French national synchronised swimming team and won a bronze medal at the French championships.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual One: zeal for the cause, tamed by form</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo coined the term <em>zeal</em> for the sexual One, the countertype of the One: the strictness is directed less at rules for everyone than at the cause and the people someone commits to with intensity. In Lagarde this can be linked to the emphasis with which she held positions. Her phrase ‘Lehman Sisters’ (2010) asked how the financial crisis might have gone with more women in leadership. In 2012, as head of the IMF, she said she thought more of the schoolchildren in a village in Niger than of the people in Athens, and urged the Greeks to pay their taxes. According to reports she traces her discipline to synchronised swimming.</p>
+          <p class="vb-intro">The drawing shows short hair with a long side fringe falling onto the forehead, a forehead with horizontal lines and large, alert eyes with slightly raised brows. The gaze goes a little upward and to the side, as if she were listening and weighing things up. The smile is narrow and closed, framed by deep furrows between nose and corners of the mouth, the nasolabial folds (from Latin nasus, nose, and labium, lip). A small pearl stud sits on the ear. In press photos the same expression appears: a probing sideways glance with the mouth closed and, when she speaks, a precise pointing gesture with thumb and index finger.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two wing: the advocate who wins people over</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two wing (w2)</strong> gives the One attentiveness. Riso and Hudson call the One with a Two wing ‘the Advocate’, a fitting word for a lawyer. In 1981 Lagarde joined the Paris office of the law firm Baker McKenzie; there, according to the firm’s account, she pushed a ‘client first’ approach. In 1999 she became the first woman to chair the firm’s executive committee, and from 2004 she led its global strategy committee in Chicago.</p>
+          <p class="vb-intro">At the IMF she made the role of women in the economy a priority; in 2013 it published the study ‘Women, Work, and the Economy’. According to a Foreign Policy profile she avoids jargon and speaks almost flawless English, and in official photos she smiles and turns toward the camera. The strictness of the One comes with charm and with the ability to win people over for a project.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: lawyer, crisis leader, central banker</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lagarde is not an economist but a lawyer and negotiator. From 2005 to 2007 she was trade minister, briefly agriculture minister in 2007, and from June 2007 to June 2011 minister for the economy, finance and industry. In 2009 the Financial Times named her the best finance minister in the eurozone. On 5 July 2011 she succeeded Dominique Strauss-Kahn as Managing Director of the International Monetary Fund, the first woman in that office; in 2016 she was confirmed for a second term as the only candidate and stayed until September 2019.</p>
+          <p class="vb-intro">On 1 November 2019 she became President of the European Central Bank, the first woman and the first lawyer in the role, succeeding Mario Draghi. Critics pointed out that she had never led a national central bank. In March 2020, early in the pandemic, she said the ECB was not there to close spreads; she then launched the pandemic emergency purchase programme PEPP, initially 750 billion euros and later raised to 1,850 billion euros, and said there were no limits to the commitment to the euro. From July 2022 the ECB raised the deposit rate from minus 0.5 per cent to 4 per cent by September 2023. In 2019 Forbes ranked her second on its list of the most powerful women in the world, behind <a href="#beruehmte-angela-merkel">Angela Merkel (SP9w8)</a>.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same type: Maria Schaumayer, Michèle Lamy and Emmanuel Macron</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-maria-schaumayer">Maria Schaumayer (SX1w9)</a> was the first woman to head a central bank; as with Lagarde, professional firmness combines with a winning manner. <a href="#beruehmte-michele-lamy">Michèle Lamy (SX1w2)</a> is also French with a legal education and gave up the profession, while Lagarde made it her route to the top. <a href="#beruehmte-emmanuel-macron">Emmanuel Macron (SO1w9)</a> shows the counterpole as a social One: his standard applies to order for everyone, while in Lagarde it burns for the individual cause without getting loud.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The standard applied to herself: the Tapie affair</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As economy minister in 2008 Lagarde agreed to arbitration in the dispute with the businessman Bernard Tapie, which concerned around 403 million euros in connection with the sale of Adidas shares to the bank Crédit Lyonnais. She said she wanted to prevent another lawsuit. In 2011 the Court of Justice of the Republic opened an investigation for abuse of office. In December 2016 it found her guilty of negligence in handling public funds and imposed no penalty, although the defence and the prosecution had called for an acquittal. She remained IMF Managing Director.</p>
+          <p class="vb-intro">This case can be linked to the One because a person with a high standard is measured against her own fallibility. How she dealt with it inwardly is not publicly documented.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where she stands and how to place it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lagarde has been President of the ECB since 1 November 2019; her regular term runs until October 2027 (as of 28 October 2026). In February 2026 the Financial Times reported that she was considering leaving early so that <a href="#beruehmte-emmanuel-macron">Emmanuel Macron (SO1w9)</a> and <a href="#beruehmte-friedrich-merz">Friedrich Merz (SO1w9)</a> could help shape the succession. In September 2026 she told the newspaper La Croix that she did not rule out stepping down a few months before the end of her term but had announced nothing concrete, and that she would still be there in 2027. She ruled out running in the presidential election.</p>
+          <p class="vb-intro">For the sexual One with a Two wing, one path of development lies in zeal finding support not only in perfect form but also in carrying mistakes such as the one in the Tapie case as part of responsibility, without hardening one’s own stance. In Lagarde this can be seen in how she adjusted course in March 2020 and stayed in office.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx1", label:"SX1 – The black mamba: subtype profile"},
+        {route:"beruehmte-maria-schaumayer", label:"Portrait: Maria Schaumayer (SX1w9)"},
+        {route:"beruehmte-michele-lamy", label:"Portrait: Michèle Lamy (SX1w2)"},
+        {route:"beruehmte-emmanuel-macron", label:"Portrait: Emmanuel Macron (SO1w9)"},
+        {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SP9w8)"},
+        {route:"beruehmte-friedrich-merz", label:"Portrait: Friedrich Merz (SO1w9)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}

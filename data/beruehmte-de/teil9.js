@@ -3036,3 +3036,77 @@ export function rjMittePortraitPage() {
     </div>
   `);
 }
+
+export function christineLagardePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-christine-lagarde-portrait.jpg" alt="Christine Lagarde – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Christine Lagarde</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexueller Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Französische Juristin, Politikerin und Notenbankerin, geb. 1956 &ndash; erste Frau an der Spitze von IWF und EZB &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba: von Le Havre an die Spitze der Notenbank</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist die schnellste Giftschlange Afrikas, greift selten an und trifft dann genau. Christine Lagarde wurde am 1. Januar 1956 als Christine Lallouette in Paris geboren und wuchs in Le Havre auf. Sie ist die älteste von vier Kindern; ihr Vater Robert Lallouette, Literaturdozent an der Universität Rouen, starb 1973, ihre Mutter Nicole unterrichtete Latein.</p>
+          <p class="vb-intro">Nach dem Abitur am Lycée Claude Monet verbrachte sie 1974 mit einem AFS-Stipendium ein Jahr an der Holton-Arms School in Bethesda (Maryland) und arbeitete im Büro des Senators William Cohen. Sie studierte Recht in Aix-en-Provence und Nanterre (Master in Englisch, Arbeitsrecht), bestand die Aufnahmeprüfung der Elitehochschule ENA aber nicht. Sie gehörte der französischen Nationalmannschaft im Synchronschwimmen an und gewann eine Bronzemedaille bei den französischen Meisterschaften.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Eifer für die Sache, gebändigt durch Form</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Auf Dr. Claudio Naranjo geht die Bezeichnung <em>Zeal</em> (Eifer) für die sexuelle Eins zurück, den Kontratyp der Eins: Die Strenge gilt weniger den Regeln für alle als der Sache und den Menschen, für die sich jemand mit Intensität einsetzt. Bei Lagarde lässt sich das mit dem Nachdruck verbinden, mit dem sie Positionen vertrat. Ihr Satz ›Lehman Sisters‹ (2010) stellte die Frage, wie die Finanzkrise mit mehr Frauen in Führung verlaufen wäre. 2012 sagte sie als IWF-Chefin, sie denke mehr an die Schulkinder in einem Dorf im Niger als an die Menschen in Athen, und forderte die Griechen auf, ihre Steuern zu zahlen. Ihre Disziplin führt sie nach Berichten auf das Synchronschwimmen zurück.</p>
+          <p class="vb-intro">Die Zeichnung zeigt kurzes Haar mit einer langen Seitenfranse, die in die Stirn fällt, eine Stirn mit Querfalten und große, wache Augen mit leicht angehobenen Brauen. Der Blick geht ein wenig nach oben und zur Seite, als höre sie zu und wäge ab. Das Lächeln ist schmal und geschlossen, von tiefen Furchen zwischen Nase und Mundwinkeln eingerahmt, den Nasolabialfalten (lateinisch nasus, Nase, und labium, Lippe). Am Ohr sitzt ein kleiner Perlenstecker. Auf Pressefotos zeigt sich derselbe Ausdruck: ein prüfender Seitenblick bei geschlossenem Mund und beim Sprechen eine präzise Zeigegeste mit Daumen und Zeigefinger.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: die Anwältin, die gewinnt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der Eins Zuwendung. Riso und Hudson nennen die Eins mit Zweierflügel ›den Anwalt‹, bei einer Juristin ein passendes Wort. 1981 trat Lagarde in das Pariser Büro der Kanzlei Baker McKenzie ein; dort setzte sie nach der Darstellung der Kanzlei auf einen ›Client first‹-Ansatz (der Kunde zuerst). 1999 wurde sie als erste Frau Präsidentin der Geschäftsführung, ab 2004 leitete sie das Strategiekomitee in Chicago.</p>
+          <p class="vb-intro">Beim IWF machte sie die Rolle der Frauen in der Wirtschaft zu einem Schwerpunkt; 2013 erschien dort die Studie ›Women, Work, and the Economy‹ (Frauen, Arbeit und Wirtschaft). Nach einem Porträt der Zeitschrift Foreign Policy meidet sie Fachjargon und spricht fast fehlerfrei Englisch, und auf offiziellen Fotos lächelt sie und wendet sich der Kamera zu. Die Strenge der Eins kommt bei ihr mit Charme und mit der Fähigkeit, Menschen für ein Vorhaben zu gewinnen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Juristin, Krisenführerin, Notenbankerin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lagarde ist keine Ökonomin, sondern Juristin und Verhandlerin. Von 2005 bis 2007 war sie Handelsministerin, 2007 kurz Landwirtschaftsministerin und von Juni 2007 bis Juni 2011 Ministerin für Wirtschaft, Finanzen und Industrie. 2009 wählte die Financial Times sie zur besten Finanzministerin der Eurozone. Am 5. Juli 2011 folgte sie Dominique Strauss-Kahn als Geschäftsführende Direktorin des Internationalen Währungsfonds und war die erste Frau in diesem Amt; 2016 wurde sie als einzige Kandidatin für eine zweite Amtszeit bestätigt und blieb bis September 2019.</p>
+          <p class="vb-intro">Am 1. November 2019 wurde sie Präsidentin der Europäischen Zentralbank, als erste Frau und als erste Juristin in diesem Amt, Nachfolgerin von Mario Draghi. Kritiker bemängelten, dass sie zuvor keine nationale Notenbank geleitet hatte. In die Pandemie fiel im März 2020 ein Satz, die EZB sei nicht da, um Zinsabstände zu schließen; danach legte sie das Pandemie-Notkaufprogramm PEPP auf, zunächst 750 Milliarden Euro, später auf 1.850 Milliarden Euro erhöht, und sagte, es gebe keine Grenzen für das Bekenntnis zum Euro. Ab Juli 2022 hob die EZB den Einlagenzins von minus 0,5 Prozent bis September 2023 auf 4 Prozent an. 2019 führte Forbes sie auf Platz zwei der mächtigsten Frauen der Welt, hinter <a href="#beruehmte-angela-merkel">Angela Merkel (SE9w8)</a>.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Typ: Maria Schaumayer, Michèle Lamy und Emmanuel Macron</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-maria-schaumayer">Maria Schaumayer (SX1w9)</a> war die erste Frau an der Spitze einer Notenbank; wie bei Lagarde verbindet sich fachliche Härte mit einem gewinnenden Auftreten. <a href="#beruehmte-michele-lamy">Michèle Lamy (SX1w2)</a> ist ebenfalls Französin mit juristischer Ausbildung und gab den Beruf auf, während Lagarde ihn zum Weg an die Spitze machte. <a href="#beruehmte-emmanuel-macron">Emmanuel Macron (SO1w9)</a> zeigt als soziale Eins den Gegenpol: Sein Maßstab gilt der Ordnung für alle, bei Lagarde brennt er für die einzelne Sache, ohne dass es laut wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Maßstab gegen sich selbst: die Affäre Tapie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als Wirtschaftsministerin ließ sich Lagarde 2008 im Streit mit dem Unternehmer Bernard Tapie auf ein Schiedsverfahren ein; es ging um rund 403 Millionen Euro im Zusammenhang mit dem Verkauf von Adidas-Anteilen an die Bank Crédit Lyonnais. Sie sagte, sie habe damit einen weiteren Rechtsstreit verhindern wollen. 2011 leitete der Gerichtshof der Republik ein Ermittlungsverfahren wegen Amtsmissbrauchs ein. Im Dezember 2016 sprach er sie des fahrlässigen Umgangs mit öffentlichen Geldern schuldig und verhängte keine Strafe, obwohl Verteidigung und Staatsanwaltschaft einen Freispruch gefordert hatten. Sie blieb IWF-Direktorin.</p>
+          <p class="vb-intro">Dieser Fall lässt sich mit der Eins verbinden, weil ein Mensch mit hohem Maßstab an der eigenen Fehlbarkeit gemessen wird. Wie sie damit innerlich umging, ist öffentlich nicht belegt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand und Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lagarde ist seit 1. November 2019 Präsidentin der EZB; ihre reguläre Amtszeit läuft bis Oktober 2027 (Stand 28. Oktober 2026). Im Februar 2026 berichtete die Financial Times, sie erwäge einen früheren Abgang, damit <a href="#beruehmte-emmanuel-macron">Emmanuel Macron (SO1w9)</a> und <a href="#beruehmte-friedrich-merz">Friedrich Merz (SO1w9)</a> die Nachfolge mitbestimmen können. Im September 2026 sagte sie der Zeitung La Croix, sie schließe einen Rücktritt einige Monate vor Ablauf nicht aus, habe aber nichts Konkretes angekündigt, und 2027 werde sie noch da sein. Eine Kandidatur bei der Präsidentschaftswahl schloss sie aus.</p>
+          <p class="vb-intro">Für die sexuelle Eins mit Zweierflügel liegt ein Entwicklungsweg darin, dass der Eifer nicht nur in der perfekten Form Halt findet, sondern auch Fehler wie den im Fall Tapie als Teil der Verantwortung tragen kann, ohne die eigene Haltung zu verhärten. Bei Lagarde lässt sich das an der Art sehen, wie sie im März 2020 nachsteuerte und im Amt blieb.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-maria-schaumayer", label:"Porträt: Maria Schaumayer (SX1w9)"},
+        {route:"beruehmte-michele-lamy", label:"Porträt: Michèle Lamy (SX1w2)"},
+        {route:"beruehmte-emmanuel-macron", label:"Porträt: Emmanuel Macron (SO1w9)"},
+        {route:"beruehmte-angela-merkel", label:"Porträt: Angela Merkel (SE9w8)"},
+        {route:"beruehmte-friedrich-merz", label:"Porträt: Friedrich Merz (SO1w9)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
