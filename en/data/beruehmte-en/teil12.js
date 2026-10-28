@@ -3143,3 +3143,75 @@ export function garyCooperPortraitPage() {
     </div>
   `);
 }
+
+export function clintEastwoodPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-clint-eastwood-portrait.jpg" alt="Clint Eastwood – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Clint Eastwood</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexual Type 1 with a Nine wing</p>
+        <p class="krim-portrait-subtitle">American actor and director, b. 1930 &ndash; Dirty Harry, Unforgiven &ndash; animal counterpart: black mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The black mamba: the quiet boy from California</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>black mamba</strong> wastes no movement: it waits, watches and acts only when it pays to. Clinton Eastwood Jr. was born on 31 May 1930 in San Francisco. His father Clinton Sr. (1906–1970) was an accountant who kept the family afloat through the Depression years with changing jobs, among them gas station attendant; the family moved several times and settled in Oakland and neighbouring Piedmont. His mother Margaret Ruth Runner (1909–2006) and his younger sister Jeanne (b. 1934) formed the inner circle. In his youth he was considered shy and reserved.</p>
+          <p class="vb-intro">He graduated from Oakland Technical High School in 1949. During the Korean War he was drafted into the Army and served at Fort Ord in California, among other things as a swimming instructor; he was discharged in February 1953. In 1954 he signed a contract with Universal at 100 dollars a week, which the studio ended in October 1955.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual One: zeal for the craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a>'s system the sexual One is called <em>Zeal</em> and counts as the countertype of the One: the seriousness serves not the rules of the community but a single cause to which one devotes oneself with full intensity. In Eastwood this can be connected with his relationship to work. Colleagues describe his sets as quiet and tight: according to these accounts he calls neither ‘Action’ nor ‘Cut’ but says quietly ‘Go ahead’, and he often shoots with very few takes. On ‘Breezy’ (1973) he came in one million dollars under budget and three days ahead of schedule, according to English Wikipedia. When Matt Damon asked for another take on ‘Invictus’, Eastwood is reported to have asked whether he wanted to waste everyone's time.</p>
+          <p class="vb-intro">The drawing shows thick, swept-back hair with a few loose strands, a high forehead with deep horizontal lines, steeply drawn-together brows with a vertical crease between them, narrow, slightly squinting eyes under heavy lids that look straight at the viewer, a strong nose and a thin, firmly closed mouth above a broad chin. He wears a dark jacket with a white shirt and tie. The gaze is stern and unyielding, without a smile.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine wing: the quiet voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine wing (w9)</strong> softens the One on the outside. In Eastwood this can be connected with his few words and the unexcited way he exercises authority: no shouting, no speech to the crew. Laura Linney explained the absence of calls with the experience from his Westerns: where horses are in the frame, loud calls startle them, so it stays quiet. A second place of retreat is jazz. Eastwood plays the piano, made ‘Bird’ (1988), a portrait of the saxophonist Charlie Parker (for which he received a Golden Globe for directing), and has occasionally written film music himself since the 1980s, for ‘Mystic River’, ‘Million Dollar Baby’ and ‘J. Edgar’, among others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the man with no name, the director and the reckoning with the Western</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From 1959 to 1965 Eastwood played the cowboy Rowdy Yates in the TV series ‘Rawhide’ (217 episodes). The breakthrough came with Sergio Leone's ‘A Fistful of Dollars’ (1964), for which he was paid 15,000 dollars, and the Dollar trilogy: a figure who hardly speaks and works through gaze, posture and the narrowed eye. With the trilogy's earnings he founded Malpaso Productions in 1967, which produced nearly all his American films. ‘Dirty Harry’ (1971) took 22 million dollars in the US and Canada alone; in 1972 and 1973 Eastwood topped the list of the most successful box-office stars. The film was also criticised as glorifying vigilante justice.</p>
+          <p class="vb-intro">He made his directing debut in 1971 with ‘Play Misty for Me’. The turning point is ‘Unforgiven’ (1992): a Western that takes the Western apart, because it shows violence with its consequences and the legend does not match what happened. The film won the Oscars for best picture and best director, as did ‘Million Dollar Baby’ in 2005; at 74 Eastwood was then the oldest winner of the directing Oscar. He has four Oscars in all. ‘Mystic River’ (2003), ‘Letters from Iwo Jima’ (2006), ‘Gran Torino’ (2008), ‘American Sniper’ (2014), ‘The Mule’ (2018), ‘Cry Macho’ (2021) and ‘Juror #2’ (2024), his 41st film as director, followed. In many late films he plays old men whose toughness reaches its limits.</p>
+          <p class="vb-intro"><a href="#beruehmte-morgan-freeman">Morgan Freeman (SX7w6)</a> stood in front of his camera for ‘Unforgiven’ and ‘Million Dollar Baby’ and played Nelson Mandela under his direction in ‘Invictus’ (2009).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Linda Hamilton and Klaus Kinski</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-linda-hamilton">Linda Hamilton (SX1w9)</a> stands, like Eastwood, at the centre of a figure that stands for toughness: Sarah Connor for her, Harry Callahan and the man with no name for him. For both, the pattern also includes calm away from that. <a href="#beruehmte-klaus-kinski">Klaus Kinski (SX1w9)</a> lived the same zeal as open eruption, which also hit his colleagues. Eastwood puts it into the form of the work: few takes, quiet instructions, a team that knows what to do.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Marriages, children and the office in Carmel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1953 Eastwood married Margaret ‘Maggie’ Johnson; the marriage was dissolved in 1984. From 1975 to 1989 he lived with the actress Sondra Locke, from 1990 to 1995 with Frances Fisher (daughter Francesca, b. 1993). In 1996 he married Dina Ruiz; the marriage ended in divorce in 2014. From 2014 Christina Sandera was his partner until her death in 2024. He has at least eight children by several women, some of whom were not publicly known for a long time.</p>
+          <p class="vb-intro">From 1986 to 1988 he was mayor of Carmel-by-the-Sea, elected with 72 percent of the vote. Politically he describes himself as libertarian. Observers stress the trust he places in his crew; in his private life the partnerships changed several times.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand, and the pattern</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As of October 2026 Eastwood is 96 and considered retired; his last film as director is ‘Juror #2’, which he brought to cinemas at 94. He has four Oscars, the Irving G. Thalberg Memorial Award (1995), the AFI Life Achievement Award, the Golden Lion for Lifetime Achievement and an honorary Palme d'Or.</p>
+          <p class="vb-intro">For the sexual One with a Nine wing, one path of development lies in letting the strictness toward work leave room for closeness. In Eastwood this can be connected with the late films in which he questions the toughness of his earlier figures himself, in ‘Unforgiven’ and ‘Gran Torino’, for instance. That a man with this pattern still directs a film at 94 can be linked with the persistence of the Nine wing.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx1", label:"SX1 – The black mamba: subtype profile"},
+        {route:"beruehmte-linda-hamilton", label:"Portrait: Linda Hamilton (SX1w9)"},
+        {route:"beruehmte-klaus-kinski", label:"Portrait: Klaus Kinski (SX1w9)"},
+        {route:"beruehmte-morgan-freeman", label:"Portrait: Morgan Freeman (SX7w6)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}

@@ -3124,3 +3124,75 @@ export function marieleMillowitschPortraitPage() {
     </div>
   `);
 }
+
+export function clintEastwoodPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-clint-eastwood-portrait.jpg" alt="Clint Eastwood – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Clint Eastwood</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexueller Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Amerikanischer Schauspieler und Regisseur, geb. 1930 &ndash; Dirty Harry, Unforgiven &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba: der schweigsame Junge aus Kalifornien</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> verschwendet keine Bewegung: Sie wartet, beobachtet und handelt erst, wenn es sich lohnt. Clinton Eastwood Jr. wurde am 31. Mai 1930 in San Francisco geboren. Sein Vater Clinton Sr. (1906–1970) war Buchhalter und hielt sich in den Jahren der Wirtschaftskrise mit wechselnden Stellungen über Wasser, unter anderem als Tankwart; die Familie zog mehrfach um und ließ sich in Oakland und im benachbarten Piedmont nieder. Seine Mutter Margaret Ruth Runner (1909–2006) und die jüngere Schwester Jeanne (geb. 1934) bildeten den engsten Kreis. In der Jugend galt er als schüchtern und zurückhaltend.</p>
+          <p class="vb-intro">Er schloss 1949 die Oakland Technical High School ab. Im Koreakrieg wurde er zur Armee eingezogen und war in Fort Ord in Kalifornien unter anderem als Schwimmlehrer eingesetzt; im Februar 1953 wurde er entlassen. 1954 unterschrieb er bei Universal einen Vertrag über 100 Dollar pro Woche, den das Studio im Oktober 1955 wieder beendete.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Eifer für das Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bei <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> trägt die sexuelle Eins den Namen <em>Zeal</em> (Eifer) und gilt als Kontratyp der Eins: Der Ernst dient nicht der Regel der Gemeinschaft, sondern einer einzelnen Sache, der man sich mit ganzer Intensität widmet. Bei Eastwood lässt sich das mit seinem Verhältnis zur Arbeit verbinden. Mitarbeiter beschreiben seine Sets als ruhig und straff: Er ruft nach diesen Berichten weder ›Action‹ noch ›Cut‹, sondern sagt leise ›Go ahead‹ (›Los geht's‹), und er dreht häufig mit sehr wenigen Takes. Bei ›Breezy‹ (1973) lag er nach der Darstellung der englischen Wikipedia eine Million Dollar unter dem Budget und drei Tage vor dem Zeitplan. Als Matt Damon bei den Dreharbeiten zu ›Invictus‹ um eine weitere Einstellung bat, soll Eastwood gefragt haben, ob er die Zeit aller verschwenden wolle; so wird es berichtet.</p>
+          <p class="vb-intro">Die Zeichnung zeigt dichtes, nach hinten gestrichenes Haar mit einzelnen losen Strähnen, eine hohe Stirn mit tiefen Querfalten, steil zusammengezogene Brauen mit einer senkrechten Falte dazwischen, enge, leicht zusammengekniffene Augen unter schweren Lidern, die frontal in die Betrachtung gehen, eine kräftige Nase und einen schmalen, fest geschlossenen Mund über einem breiten Kinn. Er trägt ein dunkles Jackett mit weißem Hemd und Krawatte. Der Blick ist streng und unnachgiebig, ohne Lächeln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: die leise Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> dämpft die Eins nach außen. Bei Eastwood lässt sich das mit der Wortkargheit verbinden und mit der unaufgeregten Art, Autorität auszuüben: kein Anschreien, kein Auftritt vor dem Team. Laura Linney erklärte das Fehlen der Rufe mit der Erfahrung aus den Western: Wo Pferde im Bild sind, schrecken laute Rufe sie auf, also bleibt es still. Ein zweiter Rückzugsort ist der Jazz. Eastwood spielt Klavier, drehte 1988 mit ›Bird‹ ein Porträt des Saxofonisten Charlie Parker (dafür erhielt er einen Golden Globe für die Regie) und schreibt seit den 1980er-Jahren gelegentlich selbst Filmmusik, etwa für ›Mystic River‹, ›Million Dollar Baby‹ und ›J. Edgar‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: der Mann ohne Namen, der Regisseur und die Abrechnung mit dem Western</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Von 1959 bis 1965 spielte Eastwood in der Fernsehserie ›Rawhide‹ (217 Folgen) den Cowboy Rowdy Yates. Der Durchbruch kam mit Sergio Leones ›A Fistful of Dollars‹ (1964), für den er 15.000 Dollar erhielt, und der Dollar-Trilogie: eine Figur, die kaum spricht und durch Blick, Haltung und das zusammengekniffene Auge wirkt. Mit dem Geld der Trilogie gründete er 1967 seine Firma Malpaso Productions, die fast alle seine amerikanischen Filme produzierte. ›Dirty Harry‹ (1971) spielte allein in den USA und Kanada 22 Millionen Dollar ein; 1972 und 1973 führte Eastwood die Liste der erfolgreichsten Kinostars an. Der Film wurde zugleich als Verherrlichung der Selbstjustiz kritisiert.</p>
+          <p class="vb-intro">Sein Regiedebüt gab er 1971 mit ›Play Misty for Me‹. Den Wendepunkt bildet ›Unforgiven‹ (1992): ein Western, der den Western auseinandernimmt, weil er Gewalt mit ihren Folgen zeigt und die Legende nicht mit dem deckt, was geschah. Der Film erhielt die Oscars für den besten Film und die beste Regie, ebenso 2005 ›Million Dollar Baby‹; mit 74 Jahren war Eastwood damals der älteste Gewinner des Regie-Oscars. Insgesamt hat er vier Oscars. Es folgten ›Mystic River‹ (2003), ›Letters from Iwo Jima‹ (2006), ›Gran Torino‹ (2008), ›American Sniper‹ (2014), ›The Mule‹ (2018), ›Cry Macho‹ (2021) und ›Juror #2‹ (2024), seine 41. Regiearbeit. In vielen späten Filmen spielt er alte Männer, deren Härte an ihre Grenzen stößt.</p>
+          <p class="vb-intro"><a href="#beruehmte-morgan-freeman">Morgan Freeman (SX7w6)</a> stand für ›Unforgiven‹ und ›Million Dollar Baby‹ vor seiner Kamera und spielte in ›Invictus‹ (2009) unter seiner Regie Nelson Mandela.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Linda Hamilton und Klaus Kinski</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-linda-hamilton">Linda Hamilton (SX1w9)</a> steht wie Eastwood im Zentrum einer Figur, die für Härte steht: Sarah Connor bei ihr, Harry Callahan und der Mann ohne Namen bei ihm. Bei beiden gehört zum Muster auch die Ruhe abseits davon. <a href="#beruehmte-klaus-kinski">Klaus Kinski (SX1w9)</a> lebte denselben Eifer als offene Eruption, die auch seine Mitarbeiter traf. Eastwood legt ihn in die Form der Arbeit: wenige Takes, leise Anweisungen, ein Team, das weiß, was zu tun ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Ehen, Kinder und das Amt in Carmel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1953 heiratete Eastwood Margaret ›Maggie‹ Johnson; die Ehe wurde 1984 geschieden. Von 1975 bis 1989 lebte er mit der Schauspielerin Sondra Locke zusammen, von 1990 bis 1995 mit Frances Fisher (Tochter Francesca, geb. 1993). 1996 heiratete er Dina Ruiz; die Ehe wurde 2014 geschieden. Ab 2014 war Christina Sandera seine Partnerin, bis zu ihrem Tod 2024. Insgesamt hat er mindestens acht Kinder von mehreren Frauen, von denen einige lange nicht öffentlich bekannt waren.</p>
+          <p class="vb-intro">Von 1986 bis 1988 war er Bürgermeister von Carmel-by-the-Sea, gewählt mit 72 Prozent der Stimmen. Politisch bezeichnet er sich als libertär. Beobachter betonen das Vertrauen, das er seiner Crew entgegenbringt; im Privatleben wechselten die Partnerschaften mehrfach.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand und Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Stand Oktober 2026 ist Eastwood 96 Jahre alt und gilt als im Ruhestand; seine letzte Regiearbeit ist ›Juror #2‹, die er mit 94 Jahren ins Kino brachte. Er hat vier Oscars, den Irving G. Thalberg Memorial Award (1995), den AFI Life Achievement Award, den Goldenen Löwen für das Lebenswerk und die Ehrenpalme von Cannes.</p>
+          <p class="vb-intro">Für die sexuelle Eins mit Neunerflügel liegt ein Entwicklungsweg darin, dass die Strenge gegen die Arbeit auch Raum für Nähe lässt. Bei Eastwood lässt sich das mit den späten Filmen verbinden, in denen er die Härte seiner früheren Figuren selbst befragt, in ›Unforgiven‹ und ›Gran Torino‹ etwa. Dass ein Mann mit diesem Muster mit 94 noch einen Film dreht, lässt sich mit der Beharrlichkeit des Neunerflügels in Verbindung bringen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-linda-hamilton", label:"Porträt: Linda Hamilton (SX1w9)"},
+        {route:"beruehmte-klaus-kinski", label:"Porträt: Klaus Kinski (SX1w9)"},
+        {route:"beruehmte-morgan-freeman", label:"Porträt: Morgan Freeman (SX7w6)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}

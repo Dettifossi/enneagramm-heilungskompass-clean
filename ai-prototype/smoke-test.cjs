@@ -233,6 +233,8 @@ const ROUTES = [
   { hash: "en/#spirituelles-enneagramm", label: "Neu EN: Das spirituelle Enneagramm" },
   { hash: "#beruehmte-ayn-rand", label: "Neues Porträt: Ayn Rand" },
   { hash: "en/#beruehmte-ayn-rand", label: "Neues EN-Porträt: Ayn Rand" },
+  { hash: "#beruehmte-clint-eastwood", label: "Neues Porträt: Clint Eastwood" },
+  { hash: "en/#beruehmte-clint-eastwood", label: "Neues EN-Porträt: Clint Eastwood" },
   { hash: "#beruehmte-nina-ruge", label: "Neues Porträt: Nina Ruge" },
   { hash: "en/#beruehmte-nina-ruge", label: "Neues EN-Porträt: Nina Ruge" },
   { hash: "#beruehmte-michael-douglas", label: "Neues Porträt: Michael Douglas" },
