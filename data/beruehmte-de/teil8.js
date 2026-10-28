@@ -3150,7 +3150,7 @@ export function rajanSankaranPortraitPage() {
         <h2 class="vb-section">2. Der soziale Fünfer: eine Landkarte als gemeinsames Wahrzeichen</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Wort ›Totem‹, mit dem <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> den sozialen Fünfer beschrieb, meint ein gemeinsames Wahrzeichen, das das Wissen einer Gruppe bündelt. Bei Sankaran lässt sich das mit seinem Schema verbinden: Schüler in vielen Ländern arbeiten mit denselben Ebenen, Reichen und Miasmen und verständigen sich darüber wie über eine gemeinsame Sprache.</p>
-          <p class="vb-intro">Die Zeichnung zeigt dichtes, gewelltes, nach hinten gestrichenes Haar mit grauen Strähnen, eine hohe Stirn mit feinen Querfalten, eine rechteckige Brille mit dunklem Rand und wache, freundliche Augen mit Fältchen an den Außenwinkeln. Der Mund ist geschlossen und lächelt leicht, die Wangen sind rund, tiefe Furchen laufen von der Nase zu den Mundwinkeln, die Nasolabialfalten (lateinisch nasus, Nase, und labium, Lippe). Am Rand ist ein heller Hemdkragen zu sehen. Der Blick geht gerade nach vorn, aufmerksam und ruhig.</p>
+          <p class="vb-intro">Die Zeichnung zeigt dichtes, gewelltes, nach hinten gestrichenes Haar mit grauen Strähnen, eine hohe Stirn mit feinen Querfalten, eine rechteckige Brille mit dunklem Rand und wache, freundliche Augen mit Fältchen an den Außenwinkeln. Der Mund ist geschlossen und lächelt leicht, die Wangen sind rund. Am Rand ist ein heller Hemdkragen zu sehen. Der Blick geht gerade nach vorn, aufmerksam und ruhig.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Sechserflügel: Treue zur Überlieferung, Vorsicht bei der Auslegung</h2>

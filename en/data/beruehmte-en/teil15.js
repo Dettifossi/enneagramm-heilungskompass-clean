@@ -3183,7 +3183,7 @@ export function ninaRugePortraitPage() {
         <h2 class="vb-section">2. The sexual Six: courage as the answer to fear</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> the sexual Six is the countertype of the Six: it meets fear not with caution but goes toward it with strength. In Ruge this can be linked to her change of sides in 1987: she gave up the secure career as a teacher, went to Berlin and worked in film as a wardrobe assistant, script girl and assistant director, then as an editor at SFB and from 1988 at RIAS-TV. On 9 October 1989 she presented the ZDF ‘heute-journal’ for the first time.</p>
-          <p class="vb-intro">The drawing shows long, straight hair parted in the middle and falling forward, a high forehead with fine horizontal lines, lively eyes with long lashes and laugh lines at the outer corners, and a broad, open smile with visible teeth. Deep furrows run from the nose to the corners of the mouth, the nasolabial folds (from Latin nasus, nose, and labium, lip). The gaze goes straight into the camera, attentive and openly friendly.</p>
+          <p class="vb-intro">The drawing shows long, straight hair parted in the middle and falling forward, a high forehead with fine horizontal lines, lively eyes with long lashes and laugh lines at the outer corners, and a broad, open smile with visible teeth. The gaze goes straight into the camera, attentive and openly friendly.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Seven wing: confidence as a profession</h2>

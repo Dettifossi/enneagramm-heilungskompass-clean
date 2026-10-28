@@ -3158,7 +3158,7 @@ export function micheleLamyPortraitPage() {
         <h2 class="vb-section">2. Die sexuelle Eins: Eifer für die Menschen, die sie versammelt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Dr. Claudio Naranjo nannte die sexuelle Eins <em>Zeal</em> (Eifer), den Kontratyp der Eins: Die Strenge richtet sich nicht auf die Regeln der Gemeinschaft, sondern mit großer Intensität auf einzelne Menschen und Vorhaben. Bei Lamy lässt sich das mit ihrem Lebensstil verbinden, den sie ohne Abstriche vertritt: Sie trägt dunkle Kleidung, Goldzähne, beringte und tätowierte Finger, die sie in schwarze Farbe taucht, und sie spricht sich gegen Schönheitsoperationen aus. Nach eigener Aussage frühstückt sie schwarzen Tee und Zigaretten.</p>
-          <p class="vb-intro">Das Foto zeigt langes, dunkles, strähniges Haar, eine hohe Stirn mit Querfalten und große, weit geöffnete Augen unter kräftigen Brauen. Tiefe Furchen ziehen sich von der Nase zu den Mundwinkeln, die Nasolabialfalten (lateinisch nasus, Nase, und labium, Lippe). Der Mund ist leicht geöffnet, und mehrere Ohrringe hängen an den Ohren. Der Blick geht frontal in die Kamera.</p>
+          <p class="vb-intro">Das Foto zeigt langes, dunkles, strähniges Haar, eine hohe Stirn mit Querfalten und große, weit geöffnete Augen unter kräftigen Brauen. Der Mund ist leicht geöffnet, und mehrere Ohrringe hängen an den Ohren. Der Blick geht frontal in die Kamera.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Zweierflügel: die Gastgeberin und die Weggefährtin</h2>

@@ -3271,7 +3271,7 @@ export function ninaRugePortraitPage() {
         <h2 class="vb-section">2. Der sexuelle Sechser: Mut als Antwort auf die Angst</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der sexuelle Sechser ist bei <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> der Kontratyp der Sechs: Er begegnet der Angst nicht mit Vorsicht, sondern geht ihr kraftvoll entgegen. Bei Ruge lässt sich das mit ihrem Seitenwechsel von 1987 verbinden: Sie gab die sichere Laufbahn als Studienrätin auf, ging nach Berlin und arbeitete beim Film als Garderobiere, Scriptgirl und Regieassistentin, dann als Redakteurin beim SFB und ab 1988 beim RIAS-TV. Am 9. Oktober 1989 moderierte sie erstmals das ›heute-journal‹ im ZDF.</p>
-          <p class="vb-intro">Die Zeichnung zeigt langes, glattes Haar, das sich in der Mitte teilt und nach vorn fällt, eine hohe Stirn mit feinen Querfalten, lebhafte Augen mit langen Wimpern und Lachfältchen an den Außenwinkeln und ein breites, offenes Lächeln mit sichtbaren Zähnen. Tiefe Furchen laufen von der Nase zu den Mundwinkeln, die Nasolabialfalten (lateinisch nasus, Nase, und labium, Lippe). Der Blick geht direkt in die Kamera, zugewandt und offensiv freundlich.</p>
+          <p class="vb-intro">Die Zeichnung zeigt langes, glattes Haar, das sich in der Mitte teilt und nach vorn fällt, eine hohe Stirn mit feinen Querfalten, lebhafte Augen mit langen Wimpern und Lachfältchen an den Außenwinkeln und ein breites, offenes Lächeln mit sichtbaren Zähnen. Der Blick geht direkt in die Kamera, zugewandt und offensiv freundlich.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Siebenerflügel: Zuversicht als Beruf</h2>

@@ -3110,7 +3110,7 @@ export function rajanSankaranPortraitPage() {
         <h2 class="vb-section">2. The social Five: a map as a shared emblem</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The word ‘totem’, with which <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> described the social Five, means a shared emblem that bundles the knowledge of a group. In Sankaran this can be linked to his schema: students in many countries work with the same levels, kingdoms and miasms and understand each other through them as through a common language.</p>
-          <p class="vb-intro">The drawing shows dense, wavy hair brushed back with grey strands, a high forehead with fine horizontal lines, rectangular dark-rimmed glasses and alert, friendly eyes with creases at the outer corners. The mouth is closed and smiles slightly, the cheeks are round, and deep furrows run from the nose to the corners of the mouth, the nasolabial folds (from Latin nasus, nose, and labium, lip). A light shirt collar is visible at the edge. The gaze goes straight ahead, attentive and calm.</p>
+          <p class="vb-intro">The drawing shows dense, wavy hair brushed back with grey strands, a high forehead with fine horizontal lines, rectangular dark-rimmed glasses and alert, friendly eyes with creases at the outer corners. The mouth is closed and smiles slightly, the cheeks are round. A light shirt collar is visible at the edge. The gaze goes straight ahead, attentive and calm.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Six wing: loyalty to tradition, caution in interpretation</h2>

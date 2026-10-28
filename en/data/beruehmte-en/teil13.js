@@ -3144,7 +3144,7 @@ export function micheleLamyPortraitPage() {
         <h2 class="vb-section">2. The sexual One: zeal for the people she gathers</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Dr. Claudio Naranjo called the sexual One <em>zeal</em>, the countertype of the One: the strictness is directed not at the rules of the community but with great intensity at individual people and projects. In Lamy this can be linked to the lifestyle she lives without compromise: she wears dark clothing, gold teeth, ringed and tattooed fingers that she dips in black paint, and she speaks out against cosmetic surgery. By her own account she has black tea and cigarettes for breakfast.</p>
-          <p class="vb-intro">The photo shows long, dark, stringy hair, a high forehead with horizontal lines and large, wide-open eyes under strong brows. Deep furrows run from the nose to the corners of the mouth, the nasolabial folds (from Latin nasus, nose, and labium, lip). The mouth is slightly open, and several earrings hang from the ears. The gaze goes straight into the camera.</p>
+          <p class="vb-intro">The photo shows long, dark, stringy hair, a high forehead with horizontal lines and large, wide-open eyes under strong brows. The mouth is slightly open, and several earrings hang from the ears. The gaze goes straight into the camera.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two wing: the host and the companion</h2>
