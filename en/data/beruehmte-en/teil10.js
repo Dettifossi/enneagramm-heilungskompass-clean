@@ -3059,6 +3059,7 @@ export function joergKachelmannPortraitPage() {
   `);
 }
 
+// ZURÜCKGESTELLT (28.10.2026): Porträt unveröffentlicht – nicht in Route-Map, Array, Register, Changelog, Kompass. Typisierung SE1w9 offen (evtl. SX1w9). Wiederherstellung: siehe Memory project_victor_hugo_zurueckgestellt
 export function victorHugoPortraitPage() {
   return shell(`
     <div class="page-container">

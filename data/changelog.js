@@ -2,7 +2,6 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
-    { version: "v2694", date: "2026-10-28", text: "Neues Porträt: Victor Hugo (SE1w9) – Dichter, Romancier und Politiker.", text_en: "New portrait: Victor Hugo (SP1w9) – poet, novelist and politician.", route: "beruehmte-victor-hugo" },
     { version: "v2693", date: "2026-10-28", text: "Neues Porträt: John Brown (SX1w9) – amerikanischer Abolitionist.", text_en: "New portrait: John Brown (SX1w9) – American abolitionist.", route: "beruehmte-john-brown" },
     { version: "v2692", date: "2026-10-28", text: "Neues Porträt: Dr. Rajan Sankaran (SO5w6) – indischer Homöopath.", text_en: "New portrait: Dr. Rajan Sankaran (SO5w6) – Indian homeopath.", route: "beruehmte-rajan-sankaran" },
     { version: "v2691", date: "2026-10-28", text: "Neues Porträt: Prof. Gertrud Höhler (SX1w2) – Literaturwissenschaftlerin, Publizistin und Beraterin.", text_en: "New portrait: Prof. Gertrud Höhler (SX1w2) – literary scholar, author and consultant.", route: "beruehmte-gertrud-hoehler" },

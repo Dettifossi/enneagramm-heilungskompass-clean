@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=444";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=445";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -1976,10 +1976,6 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Self-Preservation Type 4",
     teaser:"SP4w5 \u00b7 born 1939 in Milwaukee. Choreographer and ballet director, Hamburg Ballet 1973\u20132024 (\u2018Nijinsky\u2019, \u2018The Lady of the Camellias\u2019). The Dove who puts her depth quietly into works.",
     land:"USA/Germany", tags:["Tanz"], gender:"m"},
-{ route:"beruehmte-victor-hugo", name:"Victor Hugo", added:"2026-10-28", subtyp:"SE1w9",
-    heading:"Victor Hugo – Self-Preservation Type 1",
-    teaser:"SP1w9 · 1802–1885. French poet, novelist and politician (‘Les Misérables’, ‘Notre-Dame de Paris’), 19 years in exile. The eagle whose worry turned to the death penalty, poverty and injustice.",
-    land:"Frankreich", tags:["Literatur","Politik"], gender:"m"},
 { route:"beruehmte-john-brown", name:"John Brown", added:"2026-10-28", subtyp:"SX1w9",
     heading:"John Brown – Sexual Type 1",
     teaser:"SX1w9 · 1800–1859. American abolitionist, leader of the raid on Harpers Ferry, hanged in 1859. The Black Mamba whose zeal became armed action; judged to this day as hero and as terrorist.",
@@ -47245,7 +47241,6 @@ function subtypeSchaubilderPage() {
       "beruehmte-gertrud-hoehler": gertrudHoehlerPortraitPage,
       "beruehmte-rajan-sankaran": rajanSankaranPortraitPage,
       "beruehmte-john-brown": johnBrownPortraitPage,
-      "beruehmte-victor-hugo": victorHugoPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,
