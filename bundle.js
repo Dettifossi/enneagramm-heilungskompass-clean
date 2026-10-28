@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=440";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=441";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -104,6 +104,7 @@ const annieLennoxPortraitPage = () => _lazyPage("./data/beruehmte-de/teil15.js",
 const lindaHamiltonPortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", "lindaHamiltonPortraitPage");
 const mariaSchaumayerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil7.js", "mariaSchaumayerPortraitPage");
 const micheleLamyPortraitPage = () => _lazyPage("./data/beruehmte-de/teil4.js", "micheleLamyPortraitPage");
+const yvesSaintLaurentPortraitPage = () => _lazyPage("./data/beruehmte-de/teil13.js", "yvesSaintLaurentPortraitPage");
 const garyCooperPortraitPage = () => _lazyPage("./data/beruehmte-de/teil2.js", "garyCooperPortraitPage");
 const joergKachelmannPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "joergKachelmannPortraitPage");
 const jamesDeanPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "jamesDeanPortraitPage");
@@ -27722,6 +27723,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 geb. 1939 in Milwaukee. Choreograf und Ballettdirektor, Hamburg Ballett 1973\u20132024 (\u203aNijinsky\u2039, \u203aDie Kameliendame\u2039). Die Taube, die ihre Tiefe still in Werke fasst.",
     land:"USA/Deutschland", tags:["Tanz"], gender:"m"},
+  { route:"beruehmte-yves-saint-laurent", name:"Yves Saint Laurent", added:"2026-10-28", subtyp:"SX1w2",
+    heading:"Yves Saint Laurent \u2013 Sexueller Typ 1",
+    teaser:"SX1w2 \u00b7 1936\u20132008. Franz\u00f6sischer Modesch\u00f6pfer (\u203aLe Smoking\u2039, Mondrian-Kleid, Rive Gauche). Die Schwarze Mamba, die ihre Strenge ganz in ein Handwerk legte und Frauen neu kleidete.",
+    land:"Frankreich", tags:["Mode"], gender:"m"},
   { route:"beruehmte-michele-lamy", name:"Mich\u00e8le Lamy", added:"2026-10-28", subtyp:"SX1w2",
     heading:"Mich\u00e8le Lamy \u2013 Sexueller Typ 1",
     teaser:"SX1w2 \u00b7 geb. 1944 im Jura. Franz\u00f6sisch-amerikanische K\u00fcnstlerin, Gastgeberin und Modemacherin (Lamyland, Owenscorp). Die Schwarze Mamba, die ihren Lebensstil ohne Abstriche tr\u00e4gt und Menschen um sich versammelt.",
@@ -67482,6 +67487,7 @@ const ROUTES = {
       "beruehmte-linda-hamilton": lindaHamiltonPortraitPage,
       "beruehmte-maria-schaumayer": mariaSchaumayerPortraitPage,
       "beruehmte-michele-lamy": micheleLamyPortraitPage,
+      "beruehmte-yves-saint-laurent": yvesSaintLaurentPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,

@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=437";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=438";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -116,6 +116,7 @@ const annieLennoxPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js",
 const lindaHamiltonPortraitPage = () => _lazyPage("./data/beruehmte-en/teil14.js", "lindaHamiltonPortraitPage");
 const mariaSchaumayerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil6.js", "mariaSchaumayerPortraitPage");
 const micheleLamyPortraitPage = () => _lazyPage("./data/beruehmte-en/teil13.js", "micheleLamyPortraitPage");
+const yvesSaintLaurentPortraitPage = () => _lazyPage("./data/beruehmte-en/teil4.js", "yvesSaintLaurentPortraitPage");
 const garyCooperPortraitPage = () => _lazyPage("./data/beruehmte-en/teil12.js", "garyCooperPortraitPage");
 const joergKachelmannPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "joergKachelmannPortraitPage");
 const jamesDeanPortraitPage = () => _lazyPage("./data/beruehmte-en/teil3.js", "jamesDeanPortraitPage");
@@ -1971,6 +1972,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Self-Preservation Type 4",
     teaser:"SP4w5 \u00b7 born 1939 in Milwaukee. Choreographer and ballet director, Hamburg Ballet 1973\u20132024 (\u2018Nijinsky\u2019, \u2018The Lady of the Camellias\u2019). The Dove who puts her depth quietly into works.",
     land:"USA/Germany", tags:["Tanz"], gender:"m"},
+{ route:"beruehmte-yves-saint-laurent", name:"Yves Saint Laurent", added:"2026-10-28", subtyp:"SX1w2",
+    heading:"Yves Saint Laurent \u2013 Sexual Type 1",
+    teaser:"SX1w2 \u00b7 1936\u20132008. French fashion designer (\u2018Le Smoking\u2019, Mondrian dress, Rive Gauche). The Black Mamba that put its strictness entirely into one craft and dressed women anew.",
+    land:"Frankreich", tags:["Mode"], gender:"m"},
 { route:"beruehmte-michele-lamy", name:"Mich\u00e8le Lamy", added:"2026-10-28", subtyp:"SX1w2",
     heading:"Mich\u00e8le Lamy \u2013 Sexual Type 1",
     teaser:"SX1w2 \u00b7 b. 1944 in the Jura. French-American artist, host and fashion designer (Lamyland, Owenscorp). The Black Mamba that lives its lifestyle without compromise and gathers people around it.",
@@ -47211,6 +47216,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-linda-hamilton": lindaHamiltonPortraitPage,
       "beruehmte-maria-schaumayer": mariaSchaumayerPortraitPage,
       "beruehmte-michele-lamy": micheleLamyPortraitPage,
+      "beruehmte-yves-saint-laurent": yvesSaintLaurentPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,

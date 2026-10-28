@@ -3114,3 +3114,73 @@ export function emilyBluntPortraitPage() {
     </div>
   `);
 }
+
+export function yvesSaintLaurentPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-yves-saint-laurent-portrait.jpg" alt="Yves Saint Laurent – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Yves Saint Laurent</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexueller Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Französischer Modeschöpfer, 1936&ndash;2008 &ndash; ›Le Smoking‹, Mondrian-Kleid, Rive Gauche &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba: der Junge mit dem Miniaturtheater</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> wirkt in sich ruhend und ist dabei auf das Feinste gerichtet. Yves Saint Laurent wurde am 1. August 1936 in Oran in Algerien als ältestes von drei Kindern französischer Eltern geboren. In einer strengen katholischen Schule wurde er gemobbt, weil er als unmännlich galt. Er baute Miniaturtheater, entwarf Kostüme und schrieb mit 13 Jahren Bücher ab und illustrierte sie; 1949 und 1950 verfasste er zwei Kinderbücher.</p>
+          <p class="vb-intro">1953 gewann er bei einem Wettbewerb junger Designer in Paris den dritten Preis, 1954 den ersten. 1955 schloss er als Jahrgangsbester die Fachschule der Pariser Couture ab. Michel de Brunhoff stellte ihn Christian Dior vor, der ihn auf der Stelle einstellte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Strenge für das eine Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo nannte die sexuelle Eins <em>Zeal</em> (Eifer), den Kontratyp der Eins: Die Strenge richtet sich nicht auf die Regeln der Gemeinschaft, sondern mit großer Intensität auf eine einzelne Aufgabe. Bei Saint Laurent lässt sich das mit der Mode verbinden, der er sich ganz widmete. 1957 starb Dior, und der damals 21-Jährige wurde Chefdesigner des Hauses. 1958 zeigte er die Linie ›Trapeze‹, 1960 eine umstrittene ›Beat Look‹-Kollektion, seine letzte für Dior.</p>
+          <p class="vb-intro">Im August 1960 erlitt er während seines Militärdiensts im Algerienkrieg einen Zusammenbruch und wurde in eine Klinik eingewiesen, wo er mit Elektroschocks behandelt wurde. Er führte seine späteren psychischen Probleme und Abhängigkeiten selbst auf diese Zeit zurück. Er verklagte Dior wegen Vertragsbruchs und gewann. Das Foto zeigt eine dicke, schwarze, eckige Brille, kräftiges, nach oben gestrichenes welliges Haar und eine Stirn mit Querfalten. Der Blick geht ernst und etwas seitlich an der Kamera vorbei, der Mund ist fest geschlossen. Tiefe Furchen ziehen sich von der Nase zu den Mundwinkeln, die Nasolabialfalten (lateinisch nasus, Nase, und labium, Lippe).</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Kleidung für andere und eine Partnerschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der Eins Zuwendung. Bei Saint Laurent zeigt er sich in der Frage, wie Kleidung anderen dient. 1966 stellte er ›Le Smoking‹ vor, einen Smoking für Frauen, und eröffnete die erste Rive-Gauche-Boutique mit Prêt-à-porter (Konfektionsmode von der Stange); 1968 folgte der erste Rive-Gauche-Laden in den USA auf der Madison Avenue, 1969 seine erste Herren-Konfektionskollektion. Das Haus gründete er 1961 mit seinem Partner Pierre Bergé. Die Liebesbeziehung endete 1976, die Geschäftspartnerschaft blieb.</p>
+          <p class="vb-intro">1966 reiste er zum ersten Mal nach Marrakesch und sagte später: ›Everything was black before Marrakech.‹ (›Vor Marrakesch war alles schwarz.‹) Er hielt einen Chihuahua namens Hazel und nacheinander mehrere Französische Bulldoggen namens Moujik.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: der Schnitt, der Frauen anders zeigte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1962 zeigte er seine erste Kollektion in der Rue Spontini; 1965 folgte die Mondrian-Kollektion, 1966 ›Le Smoking‹. Seine Frühjahrskollektion 1971 mit Anleihen bei den 1940er-Jahren war hoch umstritten, und er drohte kurz, die Haute Couture (die handgefertigte Maßmode) zu beenden. 1976 folgte die Kollektion ›Russian Peasant‹, 1978 der ›Broadway Suit‹, dem die Verbreitung gepolsterter Schultern zugeschrieben wird. In den 1980er-Jahren konzentrierte er sich auf die Couture. 1987, nach dem Börsencrash vom Schwarzen Montag, übergab er die Konfektion an Assistenten; 1993 wurde das Unternehmen an Sanofi verkauft, und 2002 hörte er auf.</p>
+          <p class="vb-intro">Er erhielt 1982 den CFDA International Fashion Award und 1983 als erster lebender Modeschöpfer eine Einzelausstellung im Metropolitan Museum of Art. 1985 folgte der ›Oscar de la mode‹ (›Oscar der Mode‹), 1999 der CFDA-Preis für das Lebenswerk. 2001 wurde er Kommandeur, 2007 Großoffizier der Ehrenlegion. 2004 gründete er mit Bergé eine Stiftung in Paris, 2017 eröffneten Museen in Paris und Marrakesch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Michèle Lamy und Annie Lennox</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-michele-lamy">Michèle Lamy (SX1w2)</a> arbeitet ebenfalls in der Mode und lebt, wie Saint Laurent, einen sehr eigenen Stil mit Konsequenz. <a href="#beruehmte-annie-lennox">Annie Lennox (SX1w2)</a> zeigt, wie ein unverwechselbares Bild und eine klare Haltung zusammengehören können.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Verletzlichkeit: die Last hinter dem Glanz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ab Mitte der 1970er-Jahre nahmen Alkohol und Drogen zu; bei manchen Schauen brauchte er die Stütze von Models, um über den Laufsteg zu gehen. 1973 und 1974 hatte er eine kurze Affäre mit Jacques de Bascher, die Bergé beendete. Orte gaben ihm Halt: Er erwarb ab 1974 mehrere Häuser in Marokko, darunter 1980 den Majorelle-Garten, und kaufte 1983 das Château Gabriel bei Deauville. Diese Angaben sind historisch belegt und kein Urteil über seinen Typ.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Ende und was bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Saint Laurent starb am 1. Juni 2008 im Alter von 71 Jahren in seinem Haus in Paris an einem Hirntumor. Wenige Tage zuvor waren er und Bergé eine eingetragene Partnerschaft (PACS) eingegangen. Seine Asche wurde im Majorelle-Garten in Marrakesch verstreut.</p>
+          <p class="vb-intro">Für die sexuelle Eins mit Zweierflügel liegt der Weg darin, dass Strenge gegenüber dem eigenen Werk nicht mit Strenge gegen sich selbst verwechselt werden muss und Zuwendung auch ohne Leistung möglich ist. Bei Saint Laurent lässt sich das mit den Orten verbinden, an denen er Ruhe fand, wie Marrakesch.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-michele-lamy", label:"Porträt: Michèle Lamy (SX1w2)"},
+        {route:"beruehmte-annie-lennox", label:"Porträt: Annie Lennox (SX1w2)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}

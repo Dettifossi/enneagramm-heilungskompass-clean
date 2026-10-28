@@ -3137,3 +3137,73 @@ export function sulliPortraitPage() {
     </div>
   `);
 }
+
+export function yvesSaintLaurentPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-yves-saint-laurent-portrait.jpg" alt="Yves Saint Laurent – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Yves Saint Laurent</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexual Type 1 with a Two wing</p>
+        <p class="krim-portrait-subtitle">French fashion designer, 1936&ndash;2008 &ndash; ‘Le Smoking’, Mondrian dress, Rive Gauche &ndash; animal counterpart: black mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The black mamba: the boy with the miniature theatre</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>black mamba</strong> seems to rest within itself and is directed at the finest detail. Yves Saint Laurent was born on 1 August 1936 in Oran, Algeria, the eldest of three children of French parents. At a strict Catholic school he was bullied because he was seen as unmasculine. He built miniature theatres, designed costumes and at 13 copied out and illustrated books; in 1949 and 1950 he wrote two children's books.</p>
+          <p class="vb-intro">In 1953 he won third prize in a young designers' competition in Paris, and first prize in 1954. In 1955 he graduated top of his class from the school of the Parisian couture guild. Michel de Brunhoff introduced him to Christian Dior, who hired him on the spot.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual One: strictness for the one craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo called the sexual One <em>zeal</em>, the countertype of the One: the strictness is directed not at the rules of the community but with great intensity at a single task. In Saint Laurent this can be linked to fashion, to which he devoted himself completely. In 1957 Dior died, and the then 21-year-old became head designer of the house. In 1958 he showed the ‘Trapeze’ line, in 1960 a controversial ‘Beat Look’ collection, his last for Dior.</p>
+          <p class="vb-intro">In August 1960, during his military service in the Algerian War, he suffered a breakdown and was admitted to a clinic, where he was treated with electroshock. He himself traced his later mental health problems and addictions to this period. He sued Dior for breach of contract and won. The photo shows thick, black, angular glasses, strong, swept-up wavy hair and a forehead with horizontal lines. The gaze goes seriously and slightly sideways past the camera, the mouth is firmly closed. Deep furrows run from the nose to the corners of the mouth, the nasolabial folds (from Latin nasus, nose, and labium, lip).</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two wing: clothes for others and a partnership</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two wing (w2)</strong> gives the One attentiveness. In Saint Laurent it shows in the question of how clothing serves others. In 1966 he presented ‘Le Smoking’, a tuxedo for women, and opened the first Rive Gauche boutique with prêt-à-porter (ready-to-wear); in 1968 followed the first Rive Gauche shop in the US on Madison Avenue, in 1969 his first men's ready-to-wear collection. He founded the house in 1961 with his partner Pierre Bergé. The romantic relationship ended in 1976, the business partnership remained.</p>
+          <p class="vb-intro">In 1966 he travelled to Marrakech for the first time and later said: ‘Everything was black before Marrakech.’ He kept a chihuahua named Hazel and a succession of French bulldogs named Moujik.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the cut that showed women differently</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1962 he showed his first collection on Rue Spontini; in 1965 followed the Mondrian collection, in 1966 ‘Le Smoking’. His spring collection of 1971, with references to the 1940s, was highly controversial, and he briefly threatened to end haute couture (handmade made-to-measure fashion). In 1976 followed the ‘Russian Peasant’ collection, in 1978 the ‘Broadway Suit’, credited with popularising padded shoulders. In the 1980s he concentrated on couture. In 1987, after the Black Monday stock market crash, he handed ready-to-wear to assistants; in 1993 the company was sold to Sanofi, and in 2002 he stopped.</p>
+          <p class="vb-intro">He received the CFDA International Fashion Award in 1982 and in 1983 became the first living fashion designer to have a solo exhibition at the Metropolitan Museum of Art. In 1985 followed the ‘Oscar de la mode’ (‘Fashion Oscar’), in 1999 the CFDA Lifetime Achievement Award. In 2001 he became Commander and in 2007 Grand Officer of the Legion of Honour. In 2004 he founded a foundation in Paris with Bergé, and in 2017 museums opened in Paris and Marrakech.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Michèle Lamy and Annie Lennox</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-michele-lamy">Michèle Lamy (SX1w2)</a> likewise works in fashion and, like Saint Laurent, lives a very personal style with consistency. <a href="#beruehmte-annie-lennox">Annie Lennox (SX1w2)</a> shows how an unmistakable image and a clear stance can belong together.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Vulnerability: the burden behind the glamour</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From the mid-1970s alcohol and drug use increased; at some shows he needed the support of models to walk the runway. In 1973 and 1974 he had a brief affair with Jacques de Bascher, which Bergé ended. Places gave him support: from 1974 he acquired several houses in Morocco, including the Majorelle Garden in 1980, and in 1983 he bought the Château Gabriel near Deauville. These details are historically documented and are not a judgement on his type.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The end and what remains</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Saint Laurent died on 1 June 2008 at the age of 71 in his home in Paris of brain cancer. A few days earlier he and Bergé had entered a civil partnership (PACS). His ashes were scattered in the Majorelle Garden in Marrakech.</p>
+          <p class="vb-intro">For the sexual One with a Two wing the path lies in not confusing strictness towards one's own work with strictness towards oneself, and in attention being possible without achievement. In Saint Laurent this can be linked to the places where he found peace, such as Marrakech.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx1", label:"SX1 – The black mamba: subtype profile"},
+        {route:"beruehmte-michele-lamy", label:"Portrait: Michèle Lamy (SX1w2)"},
+        {route:"beruehmte-annie-lennox", label:"Portrait: Annie Lennox (SX1w2)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}
