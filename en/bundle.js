@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=439";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=440";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -1973,6 +1973,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Self-Preservation Type 4",
     teaser:"SP4w5 \u00b7 born 1939 in Milwaukee. Choreographer and ballet director, Hamburg Ballet 1973\u20132024 (\u2018Nijinsky\u2019, \u2018The Lady of the Camellias\u2019). The Dove who puts her depth quietly into works.",
     land:"USA/Germany", tags:["Tanz"], gender:"m"},
+{ route:"beruehmte-gertrud-hoehler", name:"Prof. Gertrud Höhler", added:"2026-10-28", subtyp:"SX1w2",
+    heading:"Gertrud Höhler – Sexual Type 1",
+    teaser:"SX1w2 · b. 1941 in Wuppertal. Literary scholar, author and consultant (‘Die Patin’, ‘Baden-Badener Disput’). The Black Mamba that carried its zeal into conversation and advice.",
+    land:"Deutschland", tags:["Literatur","Politik"], gender:"f"},
 { route:"beruehmte-christine-lagarde", name:"Christine Lagarde", added:"2026-10-28", subtyp:"SX1w2",
     heading:"Christine Lagarde \u2013 Sexual Type 1",
     teaser:"SX1w2 \u00b7 b. 1956 in Paris. Lawyer, politician and central banker, the first woman to lead the IMF and the ECB. The Black Mamba whose zeal lies in negotiation and form.",
@@ -47223,6 +47227,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-michele-lamy": micheleLamyPortraitPage,
       "beruehmte-yves-saint-laurent": yvesSaintLaurentPortraitPage,
       "beruehmte-christine-lagarde": christineLagardePortraitPage,
+      "beruehmte-gertrud-hoehler": gertrudHoehlerPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,

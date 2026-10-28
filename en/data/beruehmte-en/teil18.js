@@ -3141,9 +3141,9 @@ export function christineLagardePortraitPage() {
           <p class="vb-intro">On 1 November 2019 she became President of the European Central Bank, the first woman and the first lawyer in the role, succeeding Mario Draghi. Critics pointed out that she had never led a national central bank. In March 2020, early in the pandemic, she said the ECB was not there to close spreads; she then launched the pandemic emergency purchase programme PEPP, initially 750 billion euros and later raised to 1,850 billion euros, and said there were no limits to the commitment to the euro. From July 2022 the ECB raised the deposit rate from minus 0.5 per cent to 4 per cent by September 2023. In 2019 Forbes ranked her second on its list of the most powerful women in the world, behind <a href="#beruehmte-angela-merkel">Angela Merkel (SP9w8)</a>.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Parallels in the same type: Maria Schaumayer, Michèle Lamy and Emmanuel Macron</h2>
+        <h2 class="vb-section">5. Parallels in the same type: Maria Schaumayer, Michèle Lamy, Gertrud Höhler and Emmanuel Macron</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="#beruehmte-maria-schaumayer">Maria Schaumayer (SX1w9)</a> was the first woman to head a central bank; as with Lagarde, professional firmness combines with a winning manner. <a href="#beruehmte-michele-lamy">Michèle Lamy (SX1w2)</a> is also French with a legal education and gave up the profession, while Lagarde made it her route to the top. <a href="#beruehmte-emmanuel-macron">Emmanuel Macron (SO1w9)</a> shows the counterpole as a social One: his standard applies to order for everyone, while in Lagarde it burns for the individual cause without getting loud.</p>
+          <p class="vb-intro"><a href="#beruehmte-maria-schaumayer">Maria Schaumayer (SX1w9)</a> was the first woman to head a central bank; as with Lagarde, professional firmness combines with a winning manner. <a href="#beruehmte-michele-lamy">Michèle Lamy (SX1w2)</a> is also French with a legal education and gave up the profession, while Lagarde made it her route to the top. <a href="#beruehmte-gertrud-hoehler">Prof. Gertrud Höhler (SX1w2)</a> shares the Two wing and likewise worked between business and politics, as adviser and author rather than office-holder. <a href="#beruehmte-emmanuel-macron">Emmanuel Macron (SO1w9)</a> shows the counterpole as a social One: his standard applies to order for everyone, while in Lagarde it burns for the individual cause without getting loud.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The standard applied to herself: the Tapie affair</h2>
@@ -3167,6 +3167,7 @@ export function christineLagardePortraitPage() {
         {route:"subtype/sx1", label:"SX1 – The black mamba: subtype profile"},
         {route:"beruehmte-maria-schaumayer", label:"Portrait: Maria Schaumayer (SX1w9)"},
         {route:"beruehmte-michele-lamy", label:"Portrait: Michèle Lamy (SX1w2)"},
+        {route:"beruehmte-gertrud-hoehler", label:"Portrait: Prof. Gertrud Höhler (SX1w2)"},
         {route:"beruehmte-emmanuel-macron", label:"Portrait: Emmanuel Macron (SO1w9)"},
         {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SP9w8)"},
         {route:"beruehmte-friedrich-merz", label:"Portrait: Friedrich Merz (SO1w9)"},

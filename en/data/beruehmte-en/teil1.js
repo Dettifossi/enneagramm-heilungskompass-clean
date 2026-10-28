@@ -3110,7 +3110,6 @@ export function marthaGrahamPortraitPage() {
   `);
 }
 
-// ZURÜCKGESTELLT (28.10.2026): Porträt unveröffentlicht – nicht in Route-Map, Array, Register, Changelog. Typisierung SX1w2 offen. Wiederherstellung: siehe Memory project_hoehler_zurueckgestellt.
 export function gertrudHoehlerPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -3134,8 +3133,8 @@ export function gertrudHoehlerPortraitPage() {
 
         <h2 class="vb-section">2. The sexual One: zeal for the counterpart</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Dr. Claudio Naranjo called the sexual One <em>zeal</em>, the countertype of the One: the strictness is directed not at the whole world but with great intensity at individual people and tasks. In Höhler this can be linked to her way of reaching individuals: she worked as an adviser to decision-makers in business and politics and addressed a broad public in books and on television. From 1987 to 1989 she advised Alfred Herrhausen, the spokesman of the board of Deutsche Bank. By her own account she later also advised politicians. Publisher profiles name Helmut Kohl as a client, whereas the political scientist Gerd Langguth doubted that she advised Kohl.</p>
-          <p class="vb-intro">The photo shows long, straight, grey hair, a high forehead with a vertical furrow between the brows, large, alert eyes and a broad smile with visible teeth. Small stud earrings sit under the hair. The expression is open, the gaze remains collected.</p>
+          <p class="vb-intro">Dr. Claudio Naranjo called the sexual One <em>zeal</em>, the countertype of the One: the strictness is directed not at the whole world but with great intensity at individual people and tasks. In Höhler this can be linked to her way of reaching individuals: she worked as an adviser to decision-makers in business and politics and addressed a broad public in books and on television. From 1987 to 1989 she advised Alfred Herrhausen, the spokesman of the board of Deutsche Bank. By her own account she later also advised politicians. Publisher profiles name <a href="#beruehmte-helmut-kohl">Helmut Kohl (SP8w9)</a> as a client, whereas the political scientist Gerd Langguth doubted that she advised Kohl.</p>
+          <p class="vb-intro">The drawing shows long, loose, wavy hair, a high forehead with horizontal lines and a vertical furrow between the strong, dark brows (the glabellar fold, from Latin glabella, the hairless spot between the eyebrows), alert eyes with creases and bags beneath them, and a half-open mouth with a crooked smile and visible teeth. Deep furrows run from the nose to the corners of the mouth, the nasolabial folds (from Latin nasus, nose, and labium, lip). The gaze is alert and a little tired at the same time, and the smile is turned toward the viewer.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two wing: conversation, attention and impact</h2>
@@ -3146,12 +3145,12 @@ export function gertrudHoehlerPortraitPage() {
         <h2 class="vb-section">4. The substance: from Raabe to management</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Höhler is a literary scholar. In 1972 she became an academic councillor in the founding senate of the University of Paderborn, and from 1976 to 1993 she taught there as professor of German studies and general literary studies. What is distinctive about her path is the transition from textual scholarship to business and political consulting: whoever can read texts can also interpret language, images and narratives in companies and politics. Her books include ‘Wölfin unter Wölfen’ (‘She-Wolf among Wolves’) and ‘Götzendämmerung’ (‘Twilight of the Idols’, 2010).</p>
-          <p class="vb-intro">She became widely known through ‘Die Patin. Wie Angela Merkel Deutschland umbaut’ (‘The Godmother. How Angela Merkel Is Remodelling Germany’, 2012), a book in which she sharply criticises the chancellor's government action. It was followed by ‘Demokratie im Sinkflug’ (‘Democracy in Descent’, 2017), ‘Angela Merkel – Das Requiem’ (‘Angela Merkel – The Requiem’, 2020) and ‘Die Corona-Bilanz’ (‘The Corona Balance Sheet’, 2020). Her awards range from the Konrad Adenauer Prize of the Deutschland-Stiftung and the ‘Orden wider den tierischen Ernst’ (‘Order Against Deadly Seriousness’, both 1988) through the Federal Cross of Merit 1st Class (1999) to the German Fairness Prize (2002).</p>
+          <p class="vb-intro">She became widely known through ‘Die Patin. Wie Angela Merkel Deutschland umbaut’ (‘The Godmother. How Angela Merkel Is Remodelling Germany’, 2012), a book in which she sharply criticises the government action of Chancellor <a href="#beruehmte-angela-merkel">Angela Merkel (SP9w8)</a>. It was followed by ‘Demokratie im Sinkflug’ (‘Democracy in Descent’, 2017), ‘Angela Merkel – Das Requiem’ (‘Angela Merkel – The Requiem’, 2020) and ‘Die Corona-Bilanz’ (‘The Corona Balance Sheet’, 2020). Her awards range from the Konrad Adenauer Prize of the Deutschland-Stiftung and the ‘Orden wider den tierischen Ernst’ (‘Order Against Deadly Seriousness’, both 1988) through the Federal Cross of Merit 1st Class (1999) to the German Fairness Prize (2002).</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Parallels in the same subtype: Martin Luther and Marie-Agnes Strack-Zimmermann</h2>
+        <h2 class="vb-section">5. Parallels in the same subtype: Martin Luther, Marie-Agnes Strack-Zimmermann and Christine Lagarde</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="#beruehmte-martin-luther">Martin Luther (SX1w2)</a> shares with Höhler the link between word and stance: both began in the world of the church or the parsonage and later used language to reach the public and the powerful. <a href="#beruehmte-marie-agnes-strack-zimmermann">Marie-Agnes Strack-Zimmermann (SX1w9)</a> shows, as a politician, the sharp, persistent side of the sexual One in German politics, with a calmer Nine wing instead of the attentiveness of the Two wing.</p>
+          <p class="vb-intro"><a href="#beruehmte-martin-luther">Martin Luther (SX1w2)</a> shares with Höhler the link between word and stance: both began in the world of the church or the parsonage and later used language to reach the public and the powerful. <a href="#beruehmte-marie-agnes-strack-zimmermann">Marie-Agnes Strack-Zimmermann (SX1w9)</a> shows, as a politician, the sharp, persistent side of the sexual One in German politics, with a calmer Nine wing instead of the attentiveness of the Two wing. <a href="#beruehmte-christine-lagarde">Christine Lagarde (SX1w2)</a> shares the Two wing and the path between business and politics: both promote their positions through conversation and public appearance, Höhler as author and host, Lagarde as negotiator at the head of institutions.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Friction and headwind</h2>
@@ -3174,6 +3173,7 @@ export function gertrudHoehlerPortraitPage() {
         {route:"subtype/sx1", label:"SX1 – The black mamba: subtype profile"},
         {route:"beruehmte-martin-luther", label:"Portrait: Martin Luther (SX1w2)"},
         {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Portrait: Marie-Agnes Strack-Zimmermann (SX1w9)"},
+        {route:"beruehmte-christine-lagarde", label:"Portrait: Christine Lagarde (SX1w2)"},
         {route:"lebensmusterkompass", label:"Life Pattern Compass"},
       ])}
     </div>

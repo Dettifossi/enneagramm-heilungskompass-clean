@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2691", date: "2026-10-28", text: "Neues Porträt: Prof. Gertrud Höhler (SX1w2) – Literaturwissenschaftlerin, Publizistin und Beraterin.", text_en: "New portrait: Prof. Gertrud Höhler (SX1w2) – literary scholar, author and consultant.", route: "beruehmte-gertrud-hoehler" },
     { version: "v2690", date: "2026-10-28", text: "Neues Porträt: Christine Lagarde (SX1w2) – Juristin, Politikerin und Notenbankerin.", text_en: "New portrait: Christine Lagarde (SX1w2) – lawyer, politician and central banker.", route: "beruehmte-christine-lagarde" },
     { version: "v2689", date: "2026-10-28", text: "Neues Porträt: Yves Saint Laurent (SX1w2) – Modeschöpfer.", text_en: "New portrait: Yves Saint Laurent (SX1w2) – fashion designer.", route: "beruehmte-yves-saint-laurent" },
     { version: "v2688", date: "2026-10-28", text: "Neues Porträt: Michèle Lamy (SX1w2) – Künstlerin, Gastgeberin und Modemacherin.", text_en: "New portrait: Michèle Lamy (SX1w2) – artist, host and fashion designer.", route: "beruehmte-michele-lamy" },

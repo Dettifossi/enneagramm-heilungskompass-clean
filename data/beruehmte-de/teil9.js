@@ -3076,9 +3076,9 @@ export function christineLagardePortraitPage() {
           <p class="vb-intro">Am 1. November 2019 wurde sie Präsidentin der Europäischen Zentralbank, als erste Frau und als erste Juristin in diesem Amt, Nachfolgerin von Mario Draghi. Kritiker bemängelten, dass sie zuvor keine nationale Notenbank geleitet hatte. In die Pandemie fiel im März 2020 ein Satz, die EZB sei nicht da, um Zinsabstände zu schließen; danach legte sie das Pandemie-Notkaufprogramm PEPP auf, zunächst 750 Milliarden Euro, später auf 1.850 Milliarden Euro erhöht, und sagte, es gebe keine Grenzen für das Bekenntnis zum Euro. Ab Juli 2022 hob die EZB den Einlagenzins von minus 0,5 Prozent bis September 2023 auf 4 Prozent an. 2019 führte Forbes sie auf Platz zwei der mächtigsten Frauen der Welt, hinter <a href="#beruehmte-angela-merkel">Angela Merkel (SE9w8)</a>.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Parallelen im selben Typ: Maria Schaumayer, Michèle Lamy und Emmanuel Macron</h2>
+        <h2 class="vb-section">5. Parallelen im selben Typ: Maria Schaumayer, Michèle Lamy, Gertrud Höhler und Emmanuel Macron</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="#beruehmte-maria-schaumayer">Maria Schaumayer (SX1w9)</a> war die erste Frau an der Spitze einer Notenbank; wie bei Lagarde verbindet sich fachliche Härte mit einem gewinnenden Auftreten. <a href="#beruehmte-michele-lamy">Michèle Lamy (SX1w2)</a> ist ebenfalls Französin mit juristischer Ausbildung und gab den Beruf auf, während Lagarde ihn zum Weg an die Spitze machte. <a href="#beruehmte-emmanuel-macron">Emmanuel Macron (SO1w9)</a> zeigt als soziale Eins den Gegenpol: Sein Maßstab gilt der Ordnung für alle, bei Lagarde brennt er für die einzelne Sache, ohne dass es laut wird.</p>
+          <p class="vb-intro"><a href="#beruehmte-maria-schaumayer">Maria Schaumayer (SX1w9)</a> war die erste Frau an der Spitze einer Notenbank; wie bei Lagarde verbindet sich fachliche Härte mit einem gewinnenden Auftreten. <a href="#beruehmte-michele-lamy">Michèle Lamy (SX1w2)</a> ist ebenfalls Französin mit juristischer Ausbildung und gab den Beruf auf, während Lagarde ihn zum Weg an die Spitze machte. <a href="#beruehmte-gertrud-hoehler">Prof. Gertrud Höhler (SX1w2)</a> teilt den Zweierflügel und wirkte ebenfalls zwischen Wirtschaft und Politik, als Beraterin und Autorin statt als Amtsträgerin. <a href="#beruehmte-emmanuel-macron">Emmanuel Macron (SO1w9)</a> zeigt als soziale Eins den Gegenpol: Sein Maßstab gilt der Ordnung für alle, bei Lagarde brennt er für die einzelne Sache, ohne dass es laut wird.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der Maßstab gegen sich selbst: die Affäre Tapie</h2>
@@ -3102,6 +3102,7 @@ export function christineLagardePortraitPage() {
         {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
         {route:"beruehmte-maria-schaumayer", label:"Porträt: Maria Schaumayer (SX1w9)"},
         {route:"beruehmte-michele-lamy", label:"Porträt: Michèle Lamy (SX1w2)"},
+        {route:"beruehmte-gertrud-hoehler", label:"Porträt: Prof. Gertrud Höhler (SX1w2)"},
         {route:"beruehmte-emmanuel-macron", label:"Porträt: Emmanuel Macron (SO1w9)"},
         {route:"beruehmte-angela-merkel", label:"Porträt: Angela Merkel (SE9w8)"},
         {route:"beruehmte-friedrich-merz", label:"Porträt: Friedrich Merz (SO1w9)"},

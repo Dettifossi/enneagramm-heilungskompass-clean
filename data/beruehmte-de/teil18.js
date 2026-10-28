@@ -3110,7 +3110,6 @@ export function julianeKoepckePortraitPage() {
   `);
 }
 
-// ZURÜCKGESTELLT (28.10.2026): Porträt unveröffentlicht – nicht in Route-Map, Array, Register, Changelog. Typisierung SX1w2 offen. Wiederherstellung: siehe Memory project_hoehler_zurueckgestellt.
 export function gertrudHoehlerPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -3134,8 +3133,8 @@ export function gertrudHoehlerPortraitPage() {
 
         <h2 class="vb-section">2. Die sexuelle Eins: Eifer für das Gegenüber</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Dr. Claudio Naranjo nannte die sexuelle Eins <em>Zeal</em> (Eifer), den Kontratyp der Eins: Die Strenge richtet sich nicht auf die ganze Welt, sondern mit großer Intensität auf einzelne Menschen und Aufgaben. Bei Höhler lässt sich das mit ihrer Art verbinden, Einzelne zu erreichen: Sie wirkte als Beraterin von Entscheidern in Wirtschaft und Politik und wandte sich in Büchern und im Fernsehen an ein breites Publikum. 1987 bis 1989 beriet sie Alfred Herrhausen, den Sprecher des Vorstands der Deutschen Bank. Nach eigenen Angaben beriet sie später auch Politiker. Verlagsprofile nennen Helmut Kohl als Klienten, der Politikwissenschaftler Gerd Langguth zweifelte eine Beratung Kohls dagegen an.</p>
-          <p class="vb-intro">Das Foto zeigt lange, glatte, graue Haare, eine hohe Stirn mit einer senkrechten Furche zwischen den Brauen, große, wache Augen und ein breites Lächeln mit sichtbaren Zähnen. Kleine Ohrstecker sitzen unter dem Haar. Die Mimik ist offen, der Blick bleibt gesammelt.</p>
+          <p class="vb-intro">Dr. Claudio Naranjo nannte die sexuelle Eins <em>Zeal</em> (Eifer), den Kontratyp der Eins: Die Strenge richtet sich nicht auf die ganze Welt, sondern mit großer Intensität auf einzelne Menschen und Aufgaben. Bei Höhler lässt sich das mit ihrer Art verbinden, Einzelne zu erreichen: Sie wirkte als Beraterin von Entscheidern in Wirtschaft und Politik und wandte sich in Büchern und im Fernsehen an ein breites Publikum. 1987 bis 1989 beriet sie Alfred Herrhausen, den Sprecher des Vorstands der Deutschen Bank. Nach eigenen Angaben beriet sie später auch Politiker. Verlagsprofile nennen <a href="#beruehmte-helmut-kohl">Helmut Kohl (SE8w9)</a> als Klienten, der Politikwissenschaftler Gerd Langguth zweifelte eine Beratung Kohls dagegen an.</p>
+          <p class="vb-intro">Die Zeichnung zeigt lange, offen fallende, gewellte Haare, eine hohe Stirn mit Querfalten und einer senkrechten Furche zwischen den kräftigen, dunklen Brauen (Glabellafalte, nach lateinisch glabella, der unbehaarten Stelle zwischen den Augenbrauen), wache Augen mit Fältchen und Tränensäcken darunter und einen halb geöffneten Mund mit einem schiefen Lächeln und sichtbaren Zähnen. Tiefe Furchen laufen von der Nase zu den Mundwinkeln, die Nasolabialfalten (lateinisch nasus, Nase, und labium, Lippe). Der Blick wirkt wach und zugleich ein wenig müde, das Lächeln ist dem Betrachter zugewandt.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Zweierflügel: Gespräch, Zuwendung und Wirkung</h2>
@@ -3146,12 +3145,12 @@ export function gertrudHoehlerPortraitPage() {
         <h2 class="vb-section">4. Die Substanz: von Raabe zum Management</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Höhler ist Literaturwissenschaftlerin. 1972 wurde sie Akademische Rätin im Gründungssenat der Universität Paderborn, von 1976 bis 1993 lehrte sie dort als Professorin für Germanistik und Allgemeine Literaturwissenschaft. Das Besondere an ihrem Weg ist der Übergang von der Textkunde zur Wirtschafts- und Politikberatung: Wer Texte lesen kann, kann auch Sprache, Bilder und Erzählungen in Unternehmen und Politik deuten. Zu ihren Büchern zählen ›Wölfin unter Wölfen‹ und ›Götzendämmerung‹ (2010).</p>
-          <p class="vb-intro">Bekannt wurde sie breit durch ›Die Patin. Wie Angela Merkel Deutschland umbaut‹ (2012), ein Buch, in dem sie das Regierungshandeln der Kanzlerin hart kritisiert. Es folgten ›Demokratie im Sinkflug‹ (2017), ›Angela Merkel – Das Requiem‹ (2020) und ›Die Corona-Bilanz‹ (2020). Ihre Auszeichnungen reichen vom Konrad-Adenauer-Preis der Deutschland-Stiftung und dem ›Orden wider den tierischen Ernst‹ (beide 1988) über das Bundesverdienstkreuz 1. Klasse (1999) bis zum Deutschen Fairnesspreis (2002).</p>
+          <p class="vb-intro">Bekannt wurde sie breit durch ›Die Patin. Wie Angela Merkel Deutschland umbaut‹ (2012), ein Buch, in dem sie das Regierungshandeln der Kanzlerin <a href="#beruehmte-angela-merkel">Angela Merkel (SE9w8)</a> hart kritisiert. Es folgten ›Demokratie im Sinkflug‹ (2017), ›Angela Merkel – Das Requiem‹ (2020) und ›Die Corona-Bilanz‹ (2020). Ihre Auszeichnungen reichen vom Konrad-Adenauer-Preis der Deutschland-Stiftung und dem ›Orden wider den tierischen Ernst‹ (beide 1988) über das Bundesverdienstkreuz 1. Klasse (1999) bis zum Deutschen Fairnesspreis (2002).</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Parallelen im selben Subtyp: Martin Luther und Marie-Agnes Strack-Zimmermann</h2>
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Martin Luther, Marie-Agnes Strack-Zimmermann und Christine Lagarde</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="#beruehmte-martin-luther">Martin Luther (SX1w2)</a> teilt mit Höhler die Verbindung von Wort und Haltung: Beide begannen im Raum der Kirche beziehungsweise des Pfarrhauses und wirkten später mit Sprache auf Öffentlichkeit und Mächtige. <a href="#beruehmte-marie-agnes-strack-zimmermann">Marie-Agnes Strack-Zimmermann (SX1w9)</a> zeigt als Politikerin die scharfe, beharrliche Seite der sexuellen Eins im deutschen Politikbetrieb, mit ruhigerem Neunerflügel statt der Zugewandtheit des Zweierflügels.</p>
+          <p class="vb-intro"><a href="#beruehmte-martin-luther">Martin Luther (SX1w2)</a> teilt mit Höhler die Verbindung von Wort und Haltung: Beide begannen im Raum der Kirche beziehungsweise des Pfarrhauses und wirkten später mit Sprache auf Öffentlichkeit und Mächtige. <a href="#beruehmte-marie-agnes-strack-zimmermann">Marie-Agnes Strack-Zimmermann (SX1w9)</a> zeigt als Politikerin die scharfe, beharrliche Seite der sexuellen Eins im deutschen Politikbetrieb, mit ruhigerem Neunerflügel statt der Zugewandtheit des Zweierflügels. <a href="#beruehmte-christine-lagarde">Christine Lagarde (SX1w2)</a> teilt den Zweierflügel und den Weg zwischen Wirtschaft und Politik: Beide werben mit Gespräch und Auftritt für ihre Positionen, Höhler als Autorin und Moderatorin, Lagarde als Verhandlerin an der Spitze von Institutionen.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Reibung und Gegenwind</h2>
@@ -3174,6 +3173,7 @@ export function gertrudHoehlerPortraitPage() {
         {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
         {route:"beruehmte-martin-luther", label:"Porträt: Martin Luther (SX1w2)"},
         {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Porträt: Marie-Agnes Strack-Zimmermann (SX1w9)"},
+        {route:"beruehmte-christine-lagarde", label:"Porträt: Christine Lagarde (SX1w2)"},
         {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
       ])}
     </div>
