@@ -231,6 +231,8 @@ const ROUTES = [
   { hash: "en/#mindmap-cannabis", label: "EN Mindmap Cannabis indica" },
   { hash: "#spirituelles-enneagramm", label: "Neu: Das spirituelle Enneagramm" },
   { hash: "en/#spirituelles-enneagramm", label: "Neu EN: Das spirituelle Enneagramm" },
+  { hash: "#beruehmte-michele-lamy", label: "Neues Porträt: Michèle Lamy" },
+  { hash: "en/#beruehmte-michele-lamy", label: "Neues EN-Porträt: Michèle Lamy" },
   { hash: "#beruehmte-maria-schaumayer", label: "Neues Porträt: Maria Schaumayer" },
   { hash: "en/#beruehmte-maria-schaumayer", label: "Neues EN-Porträt: Maria Schaumayer" },
   { hash: "#beruehmte-linda-hamilton", label: "Neues Porträt: Linda Hamilton" },

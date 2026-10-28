@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=436";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=437";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -115,6 +115,7 @@ const gertrudHoehlerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil1.js
 const annieLennoxPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "annieLennoxPortraitPage");
 const lindaHamiltonPortraitPage = () => _lazyPage("./data/beruehmte-en/teil14.js", "lindaHamiltonPortraitPage");
 const mariaSchaumayerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil6.js", "mariaSchaumayerPortraitPage");
+const micheleLamyPortraitPage = () => _lazyPage("./data/beruehmte-en/teil13.js", "micheleLamyPortraitPage");
 const garyCooperPortraitPage = () => _lazyPage("./data/beruehmte-en/teil12.js", "garyCooperPortraitPage");
 const joergKachelmannPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "joergKachelmannPortraitPage");
 const jamesDeanPortraitPage = () => _lazyPage("./data/beruehmte-en/teil3.js", "jamesDeanPortraitPage");
@@ -1970,6 +1971,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Self-Preservation Type 4",
     teaser:"SP4w5 \u00b7 born 1939 in Milwaukee. Choreographer and ballet director, Hamburg Ballet 1973\u20132024 (\u2018Nijinsky\u2019, \u2018The Lady of the Camellias\u2019). The Dove who puts her depth quietly into works.",
     land:"USA/Germany", tags:["Tanz"], gender:"m"},
+{ route:"beruehmte-michele-lamy", name:"Mich\u00e8le Lamy", added:"2026-10-28", subtyp:"SX1w2",
+    heading:"Mich\u00e8le Lamy \u2013 Sexual Type 1",
+    teaser:"SX1w2 \u00b7 b. 1944 in the Jura. French-American artist, host and fashion designer (Lamyland, Owenscorp). The Black Mamba that lives its lifestyle without compromise and gathers people around it.",
+    land:"Frankreich/USA", tags:["Kunst","Mode"], gender:"f"},
 { route:"beruehmte-maria-schaumayer", name:"Maria Schaumayer", added:"2026-10-28", subtyp:"SX1w9",
     heading:"Maria Schaumayer \u2013 Sexual Type 1",
     teaser:"SX1w9 \u00b7 1931\u20132013. Austrian economist, banker and politician, the world\u2019s first female central bank president. The Black Mamba that saw its tasks through with persistence and charm.",
@@ -47204,6 +47209,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-annie-lennox": annieLennoxPortraitPage,
       "beruehmte-linda-hamilton": lindaHamiltonPortraitPage,
       "beruehmte-maria-schaumayer": mariaSchaumayerPortraitPage,
+      "beruehmte-michele-lamy": micheleLamyPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,

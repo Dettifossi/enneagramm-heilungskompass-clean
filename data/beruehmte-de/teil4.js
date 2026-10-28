@@ -3133,3 +3133,73 @@ export function karinThalerPortraitPage() {
     </div>
   `);
 }
+
+export function micheleLamyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michele-lamy-portrait.jpg" alt="Michèle Lamy – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michèle Lamy</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexueller Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Französisch-amerikanische Künstlerin, Gastgeberin und Modemacherin, geb. 1944 &ndash; Lamyland, Owenscorp &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba: vom Jura in die Nächte von Los Angeles</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist dunkel, schlank und bewegt sich geräuschlos durch Räume, die andere meiden. Michèle Lamy wurde am 20. April 1944 im Jura in Frankreich geboren. Ihr Großvater fertigte Accessoires für den Couturier Paul Poiret, ihre Familie besitzt ein Brillenunternehmen. Als Jugendliche trat sie nach der Quelle auf Jahrmärkten als Stripperin auf.</p>
+          <p class="vb-intro">Sie studierte Jura und arbeitete in den 1960er- und 1970er-Jahren als Strafverteidigerin, während sie beim Philosophen Gilles Deleuze studierte. Sie gab den Beruf auf, weil sie sich mehr für die Angeklagten interessierte als für die Anwälte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Eifer für die Menschen, die sie versammelt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo nannte die sexuelle Eins <em>Zeal</em> (Eifer), den Kontratyp der Eins: Die Strenge richtet sich nicht auf die Regeln der Gemeinschaft, sondern mit großer Intensität auf einzelne Menschen und Vorhaben. Bei Lamy lässt sich das mit ihrem Lebensstil verbinden, den sie ohne Abstriche vertritt: Sie trägt dunkle Kleidung, Goldzähne, beringte und tätowierte Finger, die sie in schwarze Farbe taucht, und sie spricht sich gegen Schönheitsoperationen aus. Nach eigener Aussage frühstückt sie schwarzen Tee und Zigaretten.</p>
+          <p class="vb-intro">Das Foto zeigt langes, dunkles, strähniges Haar, eine hohe Stirn mit Querfalten und große, weit geöffnete Augen unter kräftigen Brauen. Tiefe Furchen ziehen sich von der Nase zu den Mundwinkeln, die Nasolabialfalten (lateinisch nasus, Nase, und labium, Lippe). Der Mund ist leicht geöffnet, und mehrere Ohrringe hängen an den Ohren. Der Blick geht frontal in die Kamera.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: die Gastgeberin und die Weggefährtin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der Eins Zuwendung. Bei Lamy zeigt er sich in ihrer Rolle als Gastgeberin und Begleiterin. Mit ihrem ersten Mann, dem Experimentalfilmer Richard Newton, führte sie die Nachtclubs Café des Artistes und Les Deux Cafés; im Les Deux verkehrten Madonna, Joni Mitchell und Sharon Stone. 1990 stellte sie Rick Owens als Schnittmacher ein; er wurde ihr Geschäftspartner, dann ihr Lebensgefährte und Ehemann. Owens sagt, sie sei eher seine ›mate‹ (Kumpanin) als seine Muse.</p>
+          <p class="vb-intro">2013 eröffnete sie das Café des Artistes in Venice (Kalifornien) neu, 2018 das Boxstudio Lamyland im Londoner Kaufhaus Selfridges. Ihre Tochter, die Künstlerin Scarlett Rouge, sagt über sie: ›She didn't let anything get her down or stop her from moving on with life.‹ (›Sie ließ sich von nichts unterkriegen oder davon abhalten, mit dem Leben weiterzumachen.‹)</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Mode, Möbel, Performance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1979 zog Lamy nach New York, fertigte Plastikschmuck und lebte im Hotel Chelsea. In Los Angeles baute sie eine Modelinie und ein Geschäft im Beverly Center auf und gründete 1984 das eigene Label Lamy. 2001 zog sie mit Owens nach Paris, 2004 gründeten sie Owenscorp, 2006 heirateten sie. Sie produziert die Möbel, die den Namen Owens tragen, und entwirft mit Loree Rodkin Schmuck.</p>
+          <p class="vb-intro">Als Künstlerin wurde sie auf der Biennale von Venedig sichtbar: 2015 verwandelte sie einen Containerfrachter in einen schwimmenden Saloon, 2019 zeigte sie die Boxinstallation ›What Are We Fighting For?‹. Mit der Choreografin Cecilia Bengolea zeigte sie ›Before We Die‹ bei Performa 19; mit Katya Bankowsky drehte sie 2020 die Kurzfilmreihe ›Battle Royale‹. Sie trat in Videos von FKA twigs und Black Asteroid auf und gründete mit dem Künstler Nico Vascellari und ihrer Tochter die Band Lavascar. Sie sammelt Werke von Barry X Ball, Arthur Jafa und Joel-Peter Witkin.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Annie Lennox und Linda Hamilton</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-annie-lennox">Annie Lennox (SX1w2)</a> hat wie Lamy ein Erscheinungsbild, das zu ihrem Auftritt gehört, und stellt es in den Dienst von Anliegen. <a href="#beruehmte-linda-hamilton">Linda Hamilton (SX1w9)</a> gilt wie Lamy als Befürworterin natürlichen Alterns.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Leben ohne Rückzug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lamy ist mit über 80 Jahren weiter in Projekten aktiv. 2026 war sie Gastjurorin in einer Folge von ›RuPaul's Drag Race UK‹, Staffel 8. Sie raucht und sagt, sie frühstücke schwarzen Tee und Zigaretten. Dieser Lebensstil ist ihre Entscheidung; er wird hier beschrieben, nicht empfohlen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand und Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lamy zog 2001 mit Rick Owens nach Paris; die Quelle nennt für 2026 einen Auftritt als Gastjurorin, zu weiteren Projekten gibt sie nichts an (Stand 28. Oktober 2026).</p>
+          <p class="vb-intro">Für die sexuelle Eins mit Zweierflügel liegt der Weg darin, dass die Konsequenz im eigenen Bild nicht gegen andere gerichtet sein muss und Zuwendung auch ohne Inszenierung möglich ist. Bei Lamy lässt sich das mit dem Wort ›mate‹ verbinden, mit dem Owens die Beziehung beschreibt: Gleichrangigkeit statt Verehrung.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-annie-lennox", label:"Porträt: Annie Lennox (SX1w2)"},
+        {route:"beruehmte-linda-hamilton", label:"Porträt: Linda Hamilton (SX1w9)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}

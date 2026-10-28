@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2688", date: "2026-10-28", text: "Neues Porträt: Michèle Lamy (SX1w2) – Künstlerin, Gastgeberin und Modemacherin.", text_en: "New portrait: Michèle Lamy (SX1w2) – artist, host and fashion designer.", route: "beruehmte-michele-lamy" },
     { version: "v2687", date: "2026-10-28", text: "Neues Porträt: Maria Schaumayer (SX1w9) – Ökonomin und erste Nationalbankpräsidentin der Welt.", text_en: "New portrait: Maria Schaumayer (SX1w9) – economist and the world's first female central bank president.", route: "beruehmte-maria-schaumayer" },
     { version: "v2686", date: "2026-10-28", text: "Neues Porträt: Linda Hamilton (SX1w9) – Schauspielerin (Terminator).", text_en: "New portrait: Linda Hamilton (SX1w9) – actress (The Terminator).", route: "beruehmte-linda-hamilton" },
     { version: "v2685", date: "2026-10-28", text: "Neues Porträt: Annie Lennox (SX1w2) – Sängerin, Songwriterin und Aktivistin.", text_en: "New portrait: Annie Lennox (SX1w2) – singer, songwriter and activist.", route: "beruehmte-annie-lennox" },

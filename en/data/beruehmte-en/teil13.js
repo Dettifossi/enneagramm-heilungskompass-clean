@@ -3119,3 +3119,73 @@ export function rjMittePortraitPage() {
     </div>
   `);
 }
+
+export function micheleLamyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michele-lamy-portrait.jpg" alt="Michèle Lamy – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michèle Lamy</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexual Type 1 with a Two wing</p>
+        <p class="krim-portrait-subtitle">French-American artist, host and fashion designer, b. 1944 &ndash; Lamyland, Owenscorp &ndash; animal counterpart: black mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The black mamba: from the Jura to the nights of Los Angeles</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>black mamba</strong> is dark, slim and moves noiselessly through rooms that others avoid. Michèle Lamy was born on 20 April 1944 in the Jura in France. Her grandfather made accessories for the couturier Paul Poiret; her family owns an eyewear company. As a teenager she performed as a stripper at fairs, according to the source.</p>
+          <p class="vb-intro">She studied law and worked as a criminal defence lawyer in the 1960s and 1970s while studying with the philosopher Gilles Deleuze. She gave up the profession because she was more interested in the defendants than in the lawyers.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual One: zeal for the people she gathers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo called the sexual One <em>zeal</em>, the countertype of the One: the strictness is directed not at the rules of the community but with great intensity at individual people and projects. In Lamy this can be linked to the lifestyle she lives without compromise: she wears dark clothing, gold teeth, ringed and tattooed fingers that she dips in black paint, and she speaks out against cosmetic surgery. By her own account she has black tea and cigarettes for breakfast.</p>
+          <p class="vb-intro">The photo shows long, dark, stringy hair, a high forehead with horizontal lines and large, wide-open eyes under strong brows. Deep furrows run from the nose to the corners of the mouth, the nasolabial folds (from Latin nasus, nose, and labium, lip). The mouth is slightly open, and several earrings hang from the ears. The gaze goes straight into the camera.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two wing: the host and the companion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two wing (w2)</strong> gives the One attentiveness. In Lamy it shows in her role as host and companion. With her first husband, the experimental filmmaker Richard Newton, she ran the nightclubs Café des Artistes and Les Deux Cafés; Madonna, Joni Mitchell and Sharon Stone frequented Les Deux. In 1990 she hired Rick Owens as a pattern cutter; he became her business partner, then her companion and husband. Owens says she is more his ‘mate’ than his muse.</p>
+          <p class="vb-intro">In 2013 she reopened Café des Artistes in Venice, California, and in 2018 the boxing gym Lamyland in the London department store Selfridges. Her daughter, the artist Scarlett Rouge, says of her: ‘She didn't let anything get her down or stop her from moving on with life.’</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: fashion, furniture, performance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1979 Lamy moved to New York, made plastic jewellery and lived at the Hotel Chelsea. In Los Angeles she built up a fashion line and a shop in the Beverly Center and in 1984 founded her own label, Lamy. In 2001 she moved to Paris with Owens, in 2004 they founded Owenscorp, and in 2006 they married. She produces the furniture bearing the Owens name and designs jewellery with Loree Rodkin.</p>
+          <p class="vb-intro">As an artist she became visible at the Venice Biennale: in 2015 she turned a container ship into a floating saloon, and in 2019 she showed the boxing installation ‘What Are We Fighting For?’. With the choreographer Cecilia Bengolea she presented ‘Before We Die’ at Performa 19; with Katya Bankowsky she made the short-film series ‘Battle Royale’ in 2020. She appeared in videos by FKA twigs and Black Asteroid and formed the band Lavascar with the artist Nico Vascellari and her daughter. She collects works by Barry X Ball, Arthur Jafa and Joel-Peter Witkin.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Annie Lennox and Linda Hamilton</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-annie-lennox">Annie Lennox (SX1w2)</a>, like Lamy, has an appearance that belongs to her performance and puts it at the service of causes. <a href="#beruehmte-linda-hamilton">Linda Hamilton (SX1w9)</a>, like Lamy, is described as an advocate of natural ageing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Living without retreat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">At over 80 Lamy remains active in projects. In 2026 she was a guest judge on an episode of ‘RuPaul's Drag Race UK’, series 8. She smokes and says she has black tea and cigarettes for breakfast. This lifestyle is her own choice; it is described here, not recommended.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where she stands and how to place it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lamy moved to Paris with Rick Owens in 2001; the source names an appearance as a guest judge in 2026 and gives nothing on further projects (as of 28 October 2026).</p>
+          <p class="vb-intro">For the sexual One with a Two wing the path lies in letting consistency in one's own image not be directed against others, and in attention being possible without staging. In Lamy this can be linked to the word ‘mate’ with which Owens describes the relationship: equality instead of veneration.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx1", label:"SX1 – The black mamba: subtype profile"},
+        {route:"beruehmte-annie-lennox", label:"Portrait: Annie Lennox (SX1w2)"},
+        {route:"beruehmte-linda-hamilton", label:"Portrait: Linda Hamilton (SX1w9)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}
