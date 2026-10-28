@@ -3125,3 +3125,73 @@ export function albertBrooksPortraitPage() {
     </div>
   `);
 }
+
+export function rajanSankaranPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-rajan-sankaran-portrait.jpg" alt="Rajan Sankaran – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Rajan Sankaran</p>
+        <p class="krim-portrait-typ">SO5w6 &middot; Sozialer Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Indischer Homöopath, geb. 1960 &ndash; Begründer der Sensationsmethode &ndash; Tierentsprechung: Oktopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Oktopus: der Sohn eines Homöopathen aus Mumbai</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Oktopus</strong> erkundet sein Revier mit acht Armen, jeder Arm prüft für sich, und das Tier merkt sich, was es gefunden hat. Rajan Sankaran wurde am 24. Mai 1960 in Mumbai (damals Bombay) geboren, als Sohn des Homöopathen Dr. P. Sankaran. 1981 schloss er sein Studium am Bombay Homoeopathic Medical College mit Auszeichnung ab; seit diesem Jahr praktiziert er in Mumbai. Später gab er die Schriften seines Vaters in zwei Bänden heraus.</p>
+          <p class="vb-intro">Heute leitet er in Mumbai die Akademie ›The Other Song – The International Academy of Advanced Homeopathy‹ (Das andere Lied, Internationale Akademie für fortgeschrittene Homöopathie). Er ist stellvertretender Vorsitzender des International Council for Classical Homoeopathy und Herausgeber der asiatischen Ausgabe der Zeitschrift ›Homoeopathic Links‹. Seine Seminare und Vorlesungen hält er weltweit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der soziale Fünfer: eine Landkarte als gemeinsames Wahrzeichen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Wort ›Totem‹, mit dem <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> den sozialen Fünfer beschrieb, meint ein gemeinsames Wahrzeichen, das das Wissen einer Gruppe bündelt. Bei Sankaran lässt sich das mit seinem Schema verbinden: Schüler in vielen Ländern arbeiten mit denselben Ebenen, Reichen und Miasmen und verständigen sich darüber wie über eine gemeinsame Sprache.</p>
+          <p class="vb-intro">Die Zeichnung zeigt dichtes, gewelltes, nach hinten gestrichenes Haar mit grauen Strähnen, eine hohe Stirn mit feinen Querfalten, eine rechteckige Brille mit dunklem Rand und wache, freundliche Augen mit Fältchen an den Außenwinkeln. Der Mund ist geschlossen und lächelt leicht, die Wangen sind rund, tiefe Furchen laufen von der Nase zu den Mundwinkeln, die Nasolabialfalten (lateinisch nasus, Nase, und labium, Lippe). Am Rand ist ein heller Hemdkragen zu sehen. Der Blick geht gerade nach vorn, aufmerksam und ruhig.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Treue zur Überlieferung, Vorsicht bei der Auslegung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt dem Fünfer den Sinn für Verlässlichkeit und für das, was eine Gruppe trägt. Bei Sankaran zeigt er sich im Bezug auf Überlieferung: Er gab die Schriften seines Vaters heraus. Seine Methode versteht sich nach seiner eigenen Darstellung als Ergänzung zu Repertorium und Materia Medica, nicht als Ersatz, und sie bleibt unizistisch, das heißt, es wird jeweils ein Mittel gegeben. Außerdem hält er fest, dass man in der Fallaufnahme nur so tief gehen soll, wie der Patient es zulässt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Ebenen, Reiche und Miasmen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Sankaran auszeichnet, ist eine Ordnung für den Weg von der Erzählung des Patienten zum Mittel. Sie entstand in mehreren Schritten. In ›The Spirit of Homoeopathy‹ (Das geistige Prinzip der Homöopathie, 1991) beschreibt er Krankheit als falsche Wahrnehmung der Wirklichkeit, als ›Delusion‹ (Wahnvorstellung im homöopathischen Sinn). In ›The Substance of Homoeopathy‹ (Die Substanz der Homöopathie, 1994) ordnet er Mittel nach Pflanze, Tier und Mineral und fasst die Miasmen neu. Die deutsche Ausgabe der ›Substanz‹ erschien 1996, ›Die Seele der Heilmittel‹ im Jahr 2000, ›Das System der Homöopathie‹ 2003.</p>
+          <p class="vb-intro">In ›The Sensation in Homoeopathy‹ (Die Empfindung in der Homöopathie, 2004) führt er die sieben Erfahrungsebenen ein: Name, Fakt, Emotion, Delusion, Sensation, Energie und eine siebte Ebene, die er unbenannt lässt. Mit der ›Vital Sensation‹ (der zentralen Empfindung, die Geist und Körper gemeinsam durchzieht) beschreibt er den Kern eines Falls. Mit ›An Insight into Plants‹ (Einblicke ins Pflanzenreich) ordnet er botanischen Familien eine Sensation zu. Die Kette lautet: Sensation, Reich, Unterreich oder Familie, Quelle. Die Miasmen fasst er als zehn Zustände nach Tempo und Tiefe, von akut bis syphilitisch. 2012 und 2013 folgen ›The Synergy in Homoeopathy‹ (Das Zusammenwirken in der Homöopathie) und ›From Similia to Synergy‹ (Von Similia zur Synergie), Darstellungen, die die Methode als Ergänzung zur klassischen Fallaufnahme einordnen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen: Prof. George Vithoulkas, Dr. Samuel Hahnemann und Dr. Claudio Naranjo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-george-vithoulkas">Prof. George Vithoulkas (SO3w4)</a> hat wie Sankaran ein Stufensystem entworfen, die ›Levels of Health‹ (Gesundheitsstufen), und baute dafür eine eigene Akademie auf; bei ihm überwiegt das Streben nach öffentlicher Anerkennung, bei Sankaran der Ausbau der Ordnung. <a href="#beruehmte-samuel-hahnemann">Dr. Samuel Hahnemann (SO1w9)</a> legte die Grundregeln der Fallaufnahme fest, auf die Sankaran sich bezieht und die er ergänzt. <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> kartografierte die 27 Subtypen, Sankaran kartografiert Reiche und Familien; beide gaben ihren Schülern eine Landkarte in die Hand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Reichweite durch Lehre und Werkzeuge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sankarans Wirkung geht über seine Praxis hinaus. Er entwickelte ein IT-Programm zur Fallanalyse und eine Struktur für die Materia Medica, schrieb ›Sankaran's Schema‹ und mehrere Bücher für die Praxis, darunter ›Homeopathy for Today's World‹ (Homöopathie für die Welt von heute), das die Methode für ein breites Publikum erklärt. Seine Seminare und Lehrgänge waren international gut besucht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand und Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sankaran lebt und lehrt in Mumbai; die genutzten Quellen nennen als Einrichtung die Akademie ›The Other Song‹, zu Terminen oder neuen Büchern im Jahr 2026 geben sie nichts an (Stand 28. Oktober 2026).</p>
+          <p class="vb-intro">Für den sozialen Fünfer mit Sechserflügel liegt ein Weg darin, Wissen nicht nur als gemeinsame Sprache weiterzugeben, sondern auch in der Begegnung selbst zu sein. Bei Sankaran lässt sich das mit seiner Regel verbinden, nur so tief zu gehen, wie das Gegenüber es zulässt: ein Maß, das dem Wissen die Nähe zum Menschen zur Seite stellt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
+        {route:"beruehmte-george-vithoulkas", label:"Porträt: Prof. George Vithoulkas (SO3w4)"},
+        {route:"beruehmte-samuel-hahnemann", label:"Porträt: Dr. Samuel Hahnemann (SO1w9)"},
+        {route:"beruehmte-claudio-naranjo", label:"Porträt: Dr. Claudio Naranjo (SO5w4)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}

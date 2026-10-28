@@ -3085,3 +3085,73 @@ export function emilyBluntPortraitPage() {
     </div>
   `);
 }
+
+export function rajanSankaranPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-rajan-sankaran-portrait.jpg" alt="Rajan Sankaran – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Rajan Sankaran</p>
+        <p class="krim-portrait-typ">SO5w6 &middot; Social Type 5 with a Six wing</p>
+        <p class="krim-portrait-subtitle">Indian homeopath, b. 1960 &ndash; founder of the Sensation Method &ndash; animal counterpart: octopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The octopus: the homeopath's son from Mumbai</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An <strong>octopus</strong> explores its territory with eight arms, each arm testing on its own, and the animal remembers what it has found. Rajan Sankaran was born on 24 May 1960 in Mumbai (then Bombay), the son of the homeopath Dr. P. Sankaran. In 1981 he graduated with distinction from the Bombay Homoeopathic Medical College, and he has practised in Mumbai since that year. Later he edited his father's writings in two volumes.</p>
+          <p class="vb-intro">Today he heads the academy ‘The Other Song – The International Academy of Advanced Homeopathy’ in Mumbai. He is deputy chairman of the International Council for Classical Homoeopathy and editor of the Asian edition of the journal ‘Homoeopathic Links’. He gives his seminars and lectures around the world.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Five: a map as a shared emblem</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The word ‘totem’, with which <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> described the social Five, means a shared emblem that bundles the knowledge of a group. In Sankaran this can be linked to his schema: students in many countries work with the same levels, kingdoms and miasms and understand each other through them as through a common language.</p>
+          <p class="vb-intro">The drawing shows dense, wavy hair brushed back with grey strands, a high forehead with fine horizontal lines, rectangular dark-rimmed glasses and alert, friendly eyes with creases at the outer corners. The mouth is closed and smiles slightly, the cheeks are round, and deep furrows run from the nose to the corners of the mouth, the nasolabial folds (from Latin nasus, nose, and labium, lip). A light shirt collar is visible at the edge. The gaze goes straight ahead, attentive and calm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six wing: loyalty to tradition, caution in interpretation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six wing (w6)</strong> gives the Five a sense of reliability and of what holds a group together. In Sankaran it shows in his relationship to tradition: he edited his father's writings. By his own account his method is a complement to repertory and materia medica, not a replacement, and it remains unicist, meaning that one remedy is given at a time. He also holds that in case-taking one should go only as deep as the patient allows.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: levels, kingdoms and miasms</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What distinguishes Sankaran is an order for the path from the patient's story to the remedy. It developed in several steps. In ‘The Spirit of Homoeopathy’ (1991) he describes illness as a false perception of reality, as ‘delusion’ (in the homeopathic sense). In ‘The Substance of Homoeopathy’ (1994) he sorts remedies by plant, animal and mineral and recasts the miasms. The German edition of ‘The Substance’ appeared in 1996, ‘The Soul of Remedies’ in 2000 and ‘The System of Homoeopathy’ in 2003.</p>
+          <p class="vb-intro">In ‘The Sensation in Homoeopathy’ (2004) he introduces the seven levels of experience: name, fact, emotion, delusion, sensation, energy and a seventh level that he leaves unnamed. With the ‘vital sensation’ (the central sensation that runs through mind and body together) he describes the core of a case. With ‘An Insight into Plants’ he assigns a sensation to botanical families. The chain runs: sensation, kingdom, subkingdom or family, source. He grasps the miasms as ten states by tempo and depth, from acute to syphilitic. In 2012 and 2013 ‘The Synergy in Homoeopathy’ and ‘From Similia to Synergy’ follow, presentations that place the method as a complement to classical case-taking.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels: Prof. George Vithoulkas, Dr. Samuel Hahnemann and Dr. Claudio Naranjo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-george-vithoulkas">Prof. George Vithoulkas (SO3w4)</a>, like Sankaran, designed a system of levels, the ‘Levels of Health’, and built his own academy for it; in his portrait the pursuit of public recognition predominates, in Sankaran the expansion of the order. <a href="#beruehmte-samuel-hahnemann">Dr. Samuel Hahnemann (SO1w9)</a> laid down the basic rules of case-taking to which Sankaran refers and which he supplements. <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> mapped the 27 subtypes, Sankaran maps kingdoms and families; both put a map in their students' hands.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Reach through teaching and tools</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sankaran's influence extends beyond his practice. He developed an IT programme for case analysis and a structure for the materia medica, wrote ‘Sankaran's Schema’ and several books for practice, including ‘Homeopathy for Today's World’, which explains the method for a general audience. His seminars and courses were well attended internationally.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where he stands and how to place it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sankaran lives and teaches in Mumbai; the sources used name the academy ‘The Other Song’ as his institution and give nothing on dates or new books in 2026 (as of 28 October 2026).</p>
+          <p class="vb-intro">For the social Five with a Six wing, one path lies in passing on knowledge not only as a shared language but also in being present in the encounter itself. In Sankaran this can be linked to his rule of going only as deep as the other person allows: a measure that sets closeness to the person alongside knowledge.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so5", label:"SO5 – The octopus: subtype profile"},
+        {route:"beruehmte-george-vithoulkas", label:"Portrait: Prof. George Vithoulkas (SO3w4)"},
+        {route:"beruehmte-samuel-hahnemann", label:"Portrait: Dr. Samuel Hahnemann (SO1w9)"},
+        {route:"beruehmte-claudio-naranjo", label:"Portrait: Dr. Claudio Naranjo (SO5w4)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}

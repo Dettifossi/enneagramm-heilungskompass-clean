@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=440";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=441";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -118,6 +118,7 @@ const mariaSchaumayerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil6.j
 const micheleLamyPortraitPage = () => _lazyPage("./data/beruehmte-en/teil13.js", "micheleLamyPortraitPage");
 const yvesSaintLaurentPortraitPage = () => _lazyPage("./data/beruehmte-en/teil4.js", "yvesSaintLaurentPortraitPage");
 const christineLagardePortraitPage = () => _lazyPage("./data/beruehmte-en/teil18.js", "christineLagardePortraitPage");
+const rajanSankaranPortraitPage = () => _lazyPage("./data/beruehmte-en/teil7.js", "rajanSankaranPortraitPage");
 const garyCooperPortraitPage = () => _lazyPage("./data/beruehmte-en/teil12.js", "garyCooperPortraitPage");
 const joergKachelmannPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "joergKachelmannPortraitPage");
 const jamesDeanPortraitPage = () => _lazyPage("./data/beruehmte-en/teil3.js", "jamesDeanPortraitPage");
@@ -1973,6 +1974,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Self-Preservation Type 4",
     teaser:"SP4w5 \u00b7 born 1939 in Milwaukee. Choreographer and ballet director, Hamburg Ballet 1973\u20132024 (\u2018Nijinsky\u2019, \u2018The Lady of the Camellias\u2019). The Dove who puts her depth quietly into works.",
     land:"USA/Germany", tags:["Tanz"], gender:"m"},
+{ route:"beruehmte-rajan-sankaran", name:"Dr. Rajan Sankaran", added:"2026-10-28", subtyp:"SO5w6",
+    heading:"Rajan Sankaran – Social Type 5",
+    teaser:"SO5w6 · b. 1960 in Mumbai. Indian homeopath, founder of the Sensation Method (seven levels, kingdoms, miasms). The octopus with the map for case-taking.",
+    land:"Indien", tags:["Homöopathie"], gender:"m"},
 { route:"beruehmte-gertrud-hoehler", name:"Prof. Gertrud Höhler", added:"2026-10-28", subtyp:"SX1w2",
     heading:"Gertrud Höhler – Sexual Type 1",
     teaser:"SX1w2 · b. 1941 in Wuppertal. Literary scholar, author and consultant (‘Die Patin’, ‘Baden-Badener Disput’). The Black Mamba that carried its zeal into conversation and advice.",
@@ -47228,6 +47233,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-yves-saint-laurent": yvesSaintLaurentPortraitPage,
       "beruehmte-christine-lagarde": christineLagardePortraitPage,
       "beruehmte-gertrud-hoehler": gertrudHoehlerPortraitPage,
+      "beruehmte-rajan-sankaran": rajanSankaranPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,
