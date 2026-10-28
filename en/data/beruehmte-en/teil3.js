@@ -3098,3 +3098,75 @@ export function jamesDeanPortraitPage() {
     </div>
   `);
 }
+
+export function heinoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-heino-portrait.jpg" alt="Heino – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Heino</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexual Type 3 with a Two wing</p>
+        <p class="krim-portrait-subtitle">German singer (folk songs and schlager), b. 1938 &ndash; ‘Blau blüht der Enzian’ &ndash; animal counterpart: peacock</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The peacock: the baker's apprentice from Düsseldorf-Oberbilk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>peacock</strong> does not spread its tail for itself alone but when someone is watching. Heino was born on 13 December 1938 in Düsseldorf-Oberbilk as Heinz Georg Kramm. His father, the dentist Heinrich Fritz Kramm, fell in the war on 2 August 1941; his mother Franziska raised him and his sister. The family lived until 1945 in Pomerania, where it had been evacuated, and returned to Düsseldorf after the war.</p>
+          <p class="vb-intro">His mother bought him an accordion but insisted on vocational training: from August 1952 he trained as a baker and confectioner, and in June 1955 he passed his journeyman's exam. In 1961 he sang in the trio ‘OK Singers’ with only moderate success. In 1965 the producer Ralf Bendix discovered him in Quakenbrück and looked after him for about twenty years; the B-side of his first single, ‘Jenseits des Tales’ (Beyond the Valley), sold over 100,000 copies.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Three: a performance made for the person opposite</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> grasps the sexual Three as ‘charisma’: the particular way of winning admiration through personal radiance. In Enneagram teaching it is also described pictorially as the star who directs the whole effect at the person opposite. In Heino this can be linked to the stage persona he has maintained for decades: he makes no secret of his toupee, and he has worn dark sunglasses since the 1970s, according to reports because of protruding eyes caused by Graves' disease (Morbus Basedow). He wears them even on his identity card (Bad Münstereifel, 2009).</p>
+          <p class="vb-intro">The drawing shows dense, light, tousled hair, a high forehead with horizontal lines and dark, angular glasses with tinted lenses, behind which large, alert eyes with creases and bags can be seen. The mouth is open in a broad smile, the teeth are visible, and deep furrows run from the nose to the corners of the mouth, the nasolabial folds (from Latin nasus, nose, and labium, lip). He wears a white shirt collar and a dark jacket. The gaze goes straight ahead and seems attentive to the viewer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two wing: attention to the audience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two wing (w2)</strong> gives the Three attentiveness and joy in relationship. In Heino it shows in a polite, attentive manner with which he approaches people and his audience. He was a guest on the ZDF Hitparade more than 40 times and from 1977 to 1979 had the ZDF series ‘Sing mit Heino’ (Sing Along with Heino, 14 episodes), which invited the audience to sing along. By his own account he has felt tied to the Catholic Church since childhood and lights a candle in a church first in every new city. In January 2026 Pope Leo XIV received him in a private audience; Heino spoke of a ‘highlight of his life’.</p>
+          <p class="vb-intro">He met his third wife, the singer and actress Hannelore Kramm, in 1973 at the Miss Austria contest in Kitzbühel, where both sat on the jury. They married in April 1979. Hannelore Kramm died on 8 November 2023 in Kitzbühel; according to press reports Heino returned to the stage soon afterwards.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: voice, repertoire and the transformation of 2013</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Heino sang German folk songs in schlager style with a deep, dark-coloured voice, along with classical pieces such as ‘Ave Maria’ and ‘Ave verum’ and later the church-song album ‘Frieden auf Ewigkeit’ (Peace for Eternity, November 2024). In the mid-1970s ‘Blau blüht der Enzian’ (Blue Blooms the Gentian; also the title of a 1973 film) and ‘Die schwarze Barbara’ (Black Barbara) were at the centre. According to Wikipedia he sold over 55 million records. Among other honours he received the ‘Goldene Europa’ (Golden Europe) six times (1972 to 1989) and the ‘Krone der Volksmusik’ (Crown of Folk Music) in 2000 and 2006.</p>
+          <p class="vb-intro">On 1 February 2013 his cover album ‘Mit freundlichen Grüßen’ (Yours Sincerely) appeared with twelve versions of pop, hip-hop and rock songs; it reached number 1 in the German charts. On 1 August 2013 he appeared with Rammstein at Wacken Open Air (‘Sonne’, Sun), and in 2014 came ‘Schwarz blüht der Enzian’ (Black Blooms the Gentian) with metal reinterpretations (number 11). Rap versions of ‘Enzian’ and ‘Schwarzbraun ist die Haselnuss’ (Dark Brown Is the Hazelnut) had already existed in 1989. In 2015 he received the Karl Valentin Order, and in 2019 he became an honorary citizen of Bad Münstereifel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Helene Fischer, Vicky Leandros and Dieter Bohlen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-helene-fischer">Helene Fischer (SX3w2)</a> shares subtype and wing with Heino: both direct the effect at the one moment with the audience, in her case as an acrobatic show, in his as a stage persona with a sing-along character. <a href="#beruehmte-vicky-leandros">Vicky Leandros (SX3w2)</a> is also a schlager singer with a Two wing. <a href="#beruehmte-dieter-bohlen">Dieter Bohlen (SX3w4)</a> has the same subtype with a Four wing; in him the pose is in the foreground, in Heino politeness.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Friction and controversies</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Heino has been criticised repeatedly; the main points are listed here with dates and, where known, outcomes. In 1983 and 1986 he performed in South Africa despite the UN embargo and cultural boycott. In 1978, at the request of Baden-Württemberg's minister-president Hans Filbinger, he recorded all three verses of the German anthem for teaching purposes; after criticism in the programme ‘Kennzeichen D’, he said he had secured himself beforehand with lawyers and politicians. In November 2011 he returned his Bambi in protest at the award given to the rapper Bushido.</p>
+          <p class="vb-intro">In April 2014 the musician Jan Delay called him a ‘Nazi’ in an interview; Heino filed a complaint, the dispute ended out of court, and according to Zeit Online Delay undertook to pay 20,000 euros in damages. In March 2018 Heino gave the North Rhine-Westphalian minister for home affairs Ina Scharrenbach a record of songs, some of whose titles were also in the SS songbook; he said the songs were not to blame if they had been instrumentalised. In 2026 he took legal action against AfD election advertising using his name and said he did not want to be hitched to the wagon of any political force. The account here reports positions and does not evaluate them.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where he stands and how to place it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">At 87 Heino remains active: the tour ‘Made in Germany’ comprises about 100 appearances in 2025 and 2026, a continuation is planned for 2027, and there are performances at the Bierkönig on Mallorca (as of 28 October 2026).</p>
+          <p class="vb-intro">For the sexual Three with a Two wing, one path of development lies in the effect not hanging on the role alone but carrying even where there is no stage. In Heino this can be linked to the farewell to Hannelore Kramm: the loss touches the person behind the figure, and the return to the stage shows both, the devotion to the audience and the question of what carries this devotion.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx3", label:"SX3 – The peacock: subtype profile"},
+        {route:"beruehmte-helene-fischer", label:"Portrait: Helene Fischer (SX3w2)"},
+        {route:"beruehmte-vicky-leandros", label:"Portrait: Vicky Leandros (SX3w2)"},
+        {route:"beruehmte-dieter-bohlen", label:"Portrait: Dieter Bohlen (SX3w4)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}

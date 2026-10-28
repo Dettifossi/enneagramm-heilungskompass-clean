@@ -3129,3 +3129,75 @@ export function joergKachelmannPortraitPage() {
     </div>
   `);
 }
+
+export function heinoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-heino-portrait.jpg" alt="Heino – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Heino</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexueller Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Sänger (Volkslieder und Schlager), geb. 1938 &ndash; ›Blau blüht der Enzian‹ &ndash; Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Pfau: der Bäckerlehrling aus Düsseldorf-Oberbilk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> schlägt sein Rad nicht für sich allein, sondern dann, wenn jemand zusieht. Heino wurde am 13. Dezember 1938 in Düsseldorf-Oberbilk als Heinz Georg Kramm geboren. Sein Vater, der Zahnarzt Heinrich Fritz Kramm, fiel am 2. August 1941 im Krieg; seine Mutter Franziska zog ihn und seine Schwester auf. Die Familie lebte bis 1945 in Pommern, wohin sie evakuiert worden war, und kehrte nach Kriegsende nach Düsseldorf zurück.</p>
+          <p class="vb-intro">Die Mutter kaufte ihm ein Akkordeon, bestand aber auf einer Berufsausbildung: Ab August 1952 machte er eine Lehre als Bäcker und Konditor, im Juni 1955 legte er die Gesellenprüfung ab. 1961 sang er im Trio ›OK Singers‹ mit nur mäßigem Erfolg. 1965 entdeckte ihn in Quakenbrück der Produzent Ralf Bendix, der ihn rund zwanzig Jahre lang betreute; die B-Seite seiner ersten Single, ›Jenseits des Tales‹, verkaufte sich über 100.000-mal.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: eine Darbietung, die für das Gegenüber gemacht ist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> fasst die sexuelle Drei als ›Charisma‹: die besondere Art, durch persönliche Ausstrahlung Bewunderung zu wecken. In der Enneagramm-Lehre wird sie bildhaft auch als der Star beschrieben, der seine Wirkung ganz auf das Gegenüber richtet. Bei Heino lässt sich das mit der Kunstfigur verbinden, die er über Jahrzehnte aufrechterhalten hat: Aus dem Toupet macht er kein Geheimnis, und die dunkle Sonnenbrille trägt er seit den 1970er-Jahren, nach Berichten wegen hervortretender Augen durch Morbus Basedow. Selbst auf dem Personalausweis (Bad Münstereifel, 2009) trägt er sie.</p>
+          <p class="vb-intro">Die Zeichnung zeigt dichtes, helles, zerzaust gelegtes Haar, eine hohe Stirn mit Querfalten und eine dunkle, eckige Brille mit getönten Gläsern, hinter denen große, wache Augen mit Fältchen und Tränensäcken zu sehen sind. Der Mund ist zu einem breiten Lächeln geöffnet, die Zähne sind sichtbar, tiefe Furchen laufen von der Nase zu den Mundwinkeln, die Nasolabialfalten (lateinisch nasus, Nase, und labium, Lippe). Er trägt einen weißen Hemdkragen und ein dunkles Sakko. Der Blick geht gerade nach vorn und wirkt zugewandt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Zuwendung an das Publikum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der Drei Zuwendung und Beziehungsfreude. Bei Heino zeigt sich das in einer höflichen, zugewandten Art, mit der er auf Menschen und sein Publikum zugeht. Er war über 40-mal in der ZDF-Hitparade zu Gast und hatte von 1977 bis 1979 die ZDF-Serie ›Sing mit Heino‹ (14 Folgen), die das Publikum zum Mitsingen einlud. Nach eigener Darstellung fühlt er sich der katholischen Kirche seit der Kindheit verbunden und zündet in jeder neuen Stadt zuerst in einer Kirche eine Kerze an. Im Januar 2026 empfing ihn Papst Leo XIV. zu einer Privataudienz; Heino sprach von einer ›Sternstunde seines Lebens‹.</p>
+          <p class="vb-intro">Seine dritte Frau, die Sängerin und Schauspielerin Hannelore Kramm, lernte er 1973 bei der Wahl zur Miss Austria in Kitzbühel kennen, wo beide in der Jury saßen. Sie heirateten im April 1979. Hannelore Kramm starb am 8. November 2023 in Kitzbühel; nach Presseberichten kehrte Heino bald danach auf die Bühne zurück.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Stimme, Repertoire und die Verwandlung von 2013</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Heino sang deutsche Volkslieder im Schlagerstil mit einer tiefen, dunkel gefärbten Stimme, dazu klassische Stücke wie ›Ave Maria‹ und ›Ave verum‹ und später das Kirchenlieder-Album ›Frieden auf Ewigkeit‹ (November 2024). Mitte der 1970er-Jahre standen ›Blau blüht der Enzian‹ (auch Titel eines Films von 1973) und ›Die schwarze Barbara‹ im Mittelpunkt. Nach Wikipedia verkaufte er über 55 Millionen Tonträger. Er erhielt unter anderem sechsmal die ›Goldene Europa‹ (1972 bis 1989) und 2000 sowie 2006 die ›Krone der Volksmusik‹.</p>
+          <p class="vb-intro">Am 1. Februar 2013 erschien sein Coveralbum ›Mit freundlichen Grüßen‹ mit zwölf Fassungen von Pop-, Hip-Hop- und Rocksongs; es erreichte Platz 1 der deutschen Charts. Am 1. August 2013 trat er beim Wacken Open Air mit Rammstein auf (›Sonne‹), 2014 folgte ›Schwarz blüht der Enzian‹ mit Metal-Neuinterpretationen (Platz 11). Rap-Fassungen von ›Enzian‹ und ›Schwarzbraun ist die Haselnuss‹ hatte es schon 1989 gegeben. 2015 erhielt er den Karl-Valentin-Orden, 2019 wurde er Ehrenbürger von Bad Münstereifel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Helene Fischer, Vicky Leandros und Dieter Bohlen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-helene-fischer">Helene Fischer (SX3w2)</a> teilt mit Heino Subtyp und Flügel: Beide richten die Wirkung auf den einen Moment mit dem Publikum, bei ihr als akrobatische Show, bei ihm als Kunstfigur mit Mitsing-Charakter. <a href="#beruehmte-vicky-leandros">Vicky Leandros (SX3w2)</a> ist ebenfalls Schlagersängerin mit Zweierflügel. <a href="#beruehmte-dieter-bohlen">Dieter Bohlen (SX3w4)</a> hat denselben Subtyp mit Viererflügel; bei ihm steht die Pose im Vordergrund, bei Heino die Höflichkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Reibung und Kontroversen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Heino ist wiederholt kritisiert worden; die wichtigsten Punkte stehen hier mit Datum und, soweit bekannt, mit Ausgang. 1983 und 1986 trat er trotz UN-Embargo und Kulturboykott in Südafrika auf. 1978 nahm er auf Bitte des baden-württembergischen Ministerpräsidenten Hans Filbinger alle drei Strophen des Deutschlandlieds für Unterrichtszwecke auf; nach Kritik in der Sendung ›Kennzeichen D‹ sagte er, er habe sich vorher bei Anwälten und Politikern abgesichert. Im November 2011 gab er seinen Bambi aus Protest gegen die Auszeichnung des Rappers Bushido zurück.</p>
+          <p class="vb-intro">Im April 2014 bezeichnete ihn der Musiker Jan Delay in einem Interview als ›Nazi‹; Heino erstattete Anzeige, der Streit endete außergerichtlich, nach Zeit Online verpflichtete sich Delay zu 20.000 Euro Schadensersatz. Im März 2018 schenkte Heino der nordrhein-westfälischen Heimatministerin Ina Scharrenbach eine Liederplatte, deren Titel teils auch im SS-Liederbuch standen; er sagte, die Lieder könnten nichts dafür, wenn sie instrumentalisiert worden seien. 2026 ging er juristisch gegen Wahlwerbung der AfD mit seinem Namen vor und sagte, er wolle sich von keiner politischen Kraft vor den Wagen spannen lassen. Die Darstellung gibt Positionen wieder und bewertet sie nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand und Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Heino ist mit 87 Jahren weiter aktiv: Die Tournee ›Made in Germany‹ umfasst rund 100 Auftritte in 2025 und 2026, eine Fortsetzung ist für 2027 geplant, dazu kommen Auftritte im Bierkönig auf Mallorca (Stand 28. Oktober 2026).</p>
+          <p class="vb-intro">Für die sexuelle Drei mit Zweierflügel liegt ein Entwicklungsweg darin, dass die Wirkung nicht allein an der Rolle hängt, sondern auch dort trägt, wo keine Bühne ist. Bei Heino lässt sich das mit dem Abschied von Hannelore Kramm verbinden: Der Verlust trifft den Menschen hinter der Figur, und die Rückkehr auf die Bühne zeigt beides, die Hingabe an das Publikum und die Frage, was diese Hingabe trägt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+        {route:"beruehmte-helene-fischer", label:"Porträt: Helene Fischer (SX3w2)"},
+        {route:"beruehmte-vicky-leandros", label:"Porträt: Vicky Leandros (SX3w2)"},
+        {route:"beruehmte-dieter-bohlen", label:"Porträt: Dieter Bohlen (SX3w4)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}

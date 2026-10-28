@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=445";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=446";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -120,6 +120,7 @@ const yvesSaintLaurentPortraitPage = () => _lazyPage("./data/beruehmte-en/teil4.
 const christineLagardePortraitPage = () => _lazyPage("./data/beruehmte-en/teil18.js", "christineLagardePortraitPage");
 const rajanSankaranPortraitPage = () => _lazyPage("./data/beruehmte-en/teil7.js", "rajanSankaranPortraitPage");
 const johnBrownPortraitPage = () => _lazyPage("./data/beruehmte-en/teil11.js", "johnBrownPortraitPage");
+const heinoPortraitPage = () => _lazyPage("./data/beruehmte-en/teil3.js", "heinoPortraitPage");
 const victorHugoPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "victorHugoPortraitPage");
 const garyCooperPortraitPage = () => _lazyPage("./data/beruehmte-en/teil12.js", "garyCooperPortraitPage");
 const joergKachelmannPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "joergKachelmannPortraitPage");
@@ -1976,6 +1977,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Self-Preservation Type 4",
     teaser:"SP4w5 \u00b7 born 1939 in Milwaukee. Choreographer and ballet director, Hamburg Ballet 1973\u20132024 (\u2018Nijinsky\u2019, \u2018The Lady of the Camellias\u2019). The Dove who puts her depth quietly into works.",
     land:"USA/Germany", tags:["Tanz"], gender:"m"},
+{ route:"beruehmte-heino", name:"Heino", added:"2026-10-28", subtyp:"SX3w2",
+    heading:"Heino – Sexual Type 3",
+    teaser:"SX3w2 · b. 1938 in Düsseldorf. German singer (‘Blau blüht der Enzian’), over 55 million records, a stage persona with sunglasses. The peacock who invites his audience to sing along and is still on tour at 87.",
+    land:"Deutschland", tags:["Musik"], gender:"m"},
 { route:"beruehmte-john-brown", name:"John Brown", added:"2026-10-28", subtyp:"SX1w9",
     heading:"John Brown – Sexual Type 1",
     teaser:"SX1w9 · 1800–1859. American abolitionist, leader of the raid on Harpers Ferry, hanged in 1859. The Black Mamba whose zeal became armed action; judged to this day as hero and as terrorist.",
@@ -47241,6 +47246,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-gertrud-hoehler": gertrudHoehlerPortraitPage,
       "beruehmte-rajan-sankaran": rajanSankaranPortraitPage,
       "beruehmte-john-brown": johnBrownPortraitPage,
+      "beruehmte-heino": heinoPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,
