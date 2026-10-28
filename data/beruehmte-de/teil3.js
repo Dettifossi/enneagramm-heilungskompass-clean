@@ -3084,3 +3084,74 @@ export function steveMcQueenPortraitPage() {
     </div>
   `);
 }
+
+export function johnBrownPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-john-brown-portrait.jpg" alt="John Brown – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">John Brown</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexueller Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Amerikanischer Abolitionist, 1800&ndash;1859 &ndash; Überfall auf Harpers Ferry &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba: der Gerber, Landvermesser und Schafzüchter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> bleibt unauffällig, bis sie sich entschlossen hat, und dann ist die Entscheidung unwiderruflich. John Brown wurde am 9. Mai 1800 in Torrington, Connecticut, geboren, als viertes Kind. Sein Vater Owen Brown (1771–1856) war Gerber und wohlhabender Bürger von Hudson, Ohio, wo Brown aufwuchs. Seine Mutter Ruth Mills starb im Dezember 1808, als er acht Jahre alt war. Er war evangelikaler Christ und stark vom puritanischen Glauben seiner Kindheit geprägt.</p>
+          <p class="vb-intro">Er arbeitete als Gerber, brachte sich das Landvermessen selbst bei, war Postmeister in Randolph Township (Pennsylvania) und wurde Wollexperte und Schafzüchter. 1820 heiratete er Dianthe Lusk († 1832), mit der er sieben Kinder hatte, 1833 Mary Ann Day, mit der er 13 weitere Kinder hatte; mehrere starben früh. Am 28. September 1842 meldete er Bankrott an.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Eifer, der zur Tat wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Seit 1834 kämpfte Brown gegen die Sklaverei; in den 1850er-Jahren kam er zu dem Schluss, dass sie nur durch einen gewaltsamen Aufstand der Versklavten beendet werden könne. <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> nannte die sexuelle Eins <em>Zeal</em> (Eifer), den Kontratyp der Eins: eine Strenge, die sich mit großer Intensität auf eine einzelne Sache richtet. Bei Brown lässt sich das mit der Konsequenz verbinden, mit der er dieser Sache vieles unterordnete; seine geschäftlichen Unternehmungen scheiterten nach der Darstellung der Quelle auch deshalb, weil er sie dem Kampf gegen die Sklaverei nachordnete.</p>
+          <p class="vb-intro">Das Foto zeigt kurzes, dunkles, borstig aufgerichtetes Haar, eine hohe, gefurchte Stirn mit Querfalten, tief liegende helle Augen, die frontal in die Kamera gehen, eine kräftige Nase und einen schmalen, fest geschlossenen Mund. Das Gesicht ist glatt rasiert und hager, mit tiefen Furchen zwischen Nase und Mundwinkeln, den Nasolabialfalten (lateinisch nasus, Nase, und labium, Lippe). Er trägt einen dunklen Rock mit weißem Kragen. Der Blick ist ruhig und fest, ohne Lächeln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: ruhige Fassade, unbeirrbare Beharrlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der Eins Gelassenheit nach außen und Beharrlichkeit. Riso und Hudson nennen die Eins mit Neunerflügel ›den Idealisten‹. Bei Brown zeigt sich das in seiner Haltung nach der Gefangennahme: Er lehnte Fluchtangebote ab und verstand sich als Märtyrer, dessen Beispiel den Kampf gegen die Sklaverei voranbringen würde. Nach der Urteilsverkündung sagte er vor Gericht, wenn es nötig sei, dass er sein Leben für die Ziele der Gerechtigkeit hingebe und sein Blut mit dem Blut von Millionen in diesem Sklavenland vermische, dann gelte ›let it be done‹ (›so soll es geschehen‹).</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: vom Gewissen zur Organisation und zur Gewalt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach dem Fugitive Slave Act von 1850, der die Rückführung geflohener Versklavter vorschrieb, gründete Brown die ›League of Gileadites‹. 1855 zog er mit mehreren Söhnen und einem Schwiegersohn nach Kansas und wurde rasch zu einem Anführer der Abolitionisten. In der Nacht vom 24. auf den 25. Mai 1856 tötete er mit sieben Männern, darunter vier seiner Söhne, bei Pottawatomie fünf Siedler, die die Sklaverei befürworteten; sie wurden aus ihren Häusern geholt und mit Schwertern erschlagen. Haftbefehle wurden nicht vollstreckt. Danach führte er einen kleinen bewaffneten Trupp in den Gefechten von Black Jack (2. Juni 1856) und Osawatomie (30. August 1856).</p>
+          <p class="vb-intro">Am 10. Mai 1858 berief er in Chatham (Ontario) eine Versammlung ein, die aus 34 Schwarzen und 12 Weißen bestand; sie nahm seine ›Provisional Constitution‹ (vorläufige Verfassung) an und wählte ihn zum Oberbefehlshaber. Mit dem Abolitionisten Frederick Douglass besprach er seine Pläne mehrfach, zuletzt im März 1859 in Detroit. Douglass hielt den Plan für einen Selbstmord und lehnte die Teilnahme ab.</p>
+          <p class="vb-intro">Vom 16. bis 18. Oktober 1859 griff Brown mit etwa 20 Männern das Waffenarsenal der US-Armee in Harpers Ferry an. Er wollte einen Aufstand der Versklavten auslösen und sie bewaffnen; nach der Darstellung der Quelle schloss sich keiner freiwillig an. Eine Kompanie US-Marines unter Oberstleutnant Robert E. Lee stürmte in der Nacht das Arsenal. Siebzehn Menschen starben, darunter zehn von Browns Männern (zwei seiner Söhne), vier Anwohner, zwei Versklavte, die sich Brown angeschlossen hatten, und ein Marine. Brown wurde verwundet gefangen genommen, wegen Mordes, Anstiftung zum Sklavenaufstand und Hochverrats verurteilt und am 2. Dezember 1859 in Charles Town (Virginia) gehängt. An diesem Tag schrieb er: ›I, John Brown, am now quite certain that the crimes of this guilty land will never be purged away but with blood‹ (›Ich, John Brown, bin jetzt ganz sicher, dass die Verbrechen dieses schuldigen Landes nur mit Blut getilgt werden‹).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Johannes der Täufer und Martin Luther</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#bibel-johannes-der-taeufer">Johannes der Täufer (SX1w9)</a> stand wie Brown mit unbeirrbarer Überzeugung gegen die Mächtigen seiner Zeit und bezahlte dafür mit dem Leben. <a href="#beruehmte-martin-luther">Martin Luther (SX1w2)</a> verband wie Brown Gewissen und religiöse Überzeugung mit dem Widerstand gegen die Obrigkeit; bei Luther blieb es beim Wort, bei Brown wurde daraus bewaffnete Tat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Held, Märtyrer, Mörder: eine widersprüchliche Nachwirkung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Brown wurde schon zu Lebzeiten gegensätzlich beurteilt. Henry David Thoreau verteidigte ihn in einer Rede und in Essays. Frederick Douglass lehnte die Teilnahme am Überfall ab. Herman Melville nannte ihn einen ›meteor of war‹ (Meteor des Krieges), Nathaniel Hawthorne sagte, nie sei ein Mann mit mehr Recht gehängt worden. Victor Hugo versuchte vom Exil auf Guernsey aus, eine Begnadigung zu erreichen, und warnte in einem offenen Brief vor einem Bürgerkrieg. Im Norden galt Brown als Held und Märtyrer, die meisten Weißen im Süden sahen in ihm einen Verbrecher und Mörder.</p>
+          <p class="vb-intro">Die Geschichtsschreibung ist bis heute uneins: Manche beschreiben ihn als heldenhaften Märtyrer und Visionär, andere als Wahnsinnigen oder Terroristen. Das Lied ›John Brown's Body‹ wurde zum beliebten Marschlied der Unionstruppen; seine Melodie trägt auch die ›Battle Hymn of the Republic‹. Die Darstellung hier gibt die Positionen wieder und bewertet sie nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Überfall brachte die Frage der Sklaverei in das Zentrum der nationalen Aufmerksamkeit, vertiefte den Gegensatz zwischen Nord und Süd und gilt als eines der Ereignisse, die zum Bürgerkrieg führten. Brown starb im Alter von 59 Jahren.</p>
+          <p class="vb-intro">Für die sexuelle Eins mit Neunerflügel liegt ein Entwicklungsweg darin, dass die Gewissheit, im Recht zu sein, den Blick auf die Folgen für andere nicht verdrängt. Bei Brown trugen sie auch seine Söhne; zwei von ihnen starben in Harpers Ferry. Das lässt sich mit dem Muster verbinden, ohne es zu bewerten: Wo der Eifer allein die Richtung bestimmt, bleibt wenig Raum für das, was er kostet.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"bibel-johannes-der-taeufer", label:"Porträt: Johannes der Täufer (SX1w9)"},
+        {route:"beruehmte-martin-luther", label:"Porträt: Martin Luther (SX1w2)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}

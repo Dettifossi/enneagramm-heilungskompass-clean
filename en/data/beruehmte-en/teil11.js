@@ -3132,3 +3132,74 @@ export function steveMcQueenPortraitPage() {
     </div>
   `);
 }
+
+export function johnBrownPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-john-brown-portrait.jpg" alt="John Brown – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">John Brown</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexual Type 1 with a Nine wing</p>
+        <p class="krim-portrait-subtitle">American abolitionist, 1800&ndash;1859 &ndash; the raid on Harpers Ferry &ndash; animal counterpart: black mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The black mamba: the tanner, surveyor and sheep farmer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>black mamba</strong> stays inconspicuous until it has made up its mind, and then the decision is irrevocable. John Brown was born on 9 May 1800 in Torrington, Connecticut, the fourth child. His father Owen Brown (1771–1856) was a tanner and a prosperous citizen of Hudson, Ohio, where Brown grew up. His mother Ruth Mills died in December 1808, when he was eight. He was an evangelical Christian, strongly shaped by the Puritan faith of his childhood.</p>
+          <p class="vb-intro">He worked as a tanner, taught himself surveying, was postmaster in Randolph Township (Pennsylvania) and became a wool expert and sheep farmer. In 1820 he married Dianthe Lusk (d. 1832), with whom he had seven children, and in 1833 Mary Ann Day, with whom he had 13 more; several died young. On 28 September 1842 he declared bankruptcy.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual One: zeal that became action</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From 1834 Brown fought slavery; in the 1850s he concluded that it could only be ended by a violent uprising of the enslaved. <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> called the sexual One <em>zeal</em>, the countertype of the One: a strictness directed with great intensity at a single cause. In Brown this can be linked to the consistency with which he subordinated much to that cause; according to the source his business ventures failed in part because he put them second to the fight against slavery.</p>
+          <p class="vb-intro">The photo shows short, dark, bristly hair standing upright, a high, furrowed forehead with horizontal lines, deep-set light eyes looking straight into the camera, a strong nose and a narrow, firmly closed mouth. The face is clean-shaven and gaunt, with deep furrows between nose and corners of the mouth, the nasolabial folds (from Latin nasus, nose, and labium, lip). He wears a dark coat with a white collar. The gaze is calm and firm, without a smile.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine wing: a calm facade, unshakeable persistence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine wing (w9)</strong> gives the One composure on the outside and persistence. Riso and Hudson call the One with a Nine wing ‘the Idealist’. In Brown it shows in his stance after his capture: he refused offers of escape and saw himself as a martyr whose example would advance the fight against slavery. After the sentence was pronounced he told the court that if it was necessary to forfeit his life for the ends of justice and to mingle his blood with the blood of millions in this slave country, he said, ‘let it be done’.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: from conscience to organisation and violence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After the Fugitive Slave Act of 1850, which required the return of escaped enslaved people, Brown founded the ‘League of Gileadites’. In 1855 he moved to Kansas with several sons and a son-in-law and quickly became a leader among abolitionists. On the night of 24–25 May 1856 he and seven men, four of them his sons, killed five pro-slavery settlers at Pottawatomie; they were taken from their homes and killed with swords. Arrest warrants were not enforced. He then led a small armed band in the clashes at Black Jack (2 June 1856) and Osawatomie (30 August 1856).</p>
+          <p class="vb-intro">On 10 May 1858 he convened a meeting in Chatham, Ontario, made up of 34 Black and 12 white participants; it adopted his ‘Provisional Constitution’ and elected him commander-in-chief. He discussed his plans with the abolitionist Frederick Douglass several times, most recently in Detroit in March 1859. Douglass thought the plan suicidal and declined to take part.</p>
+          <p class="vb-intro">From 16 to 18 October 1859 Brown attacked the US Army arsenal at Harpers Ferry with about 20 men. He wanted to trigger an uprising of the enslaved and arm them; according to the source, none joined voluntarily. A company of US Marines under Lieutenant Colonel Robert E. Lee stormed the arsenal during the night. Seventeen people died, among them ten of Brown's men (two of his sons), four local residents, two enslaved men who had joined Brown, and one Marine. Brown was captured wounded, convicted of murder, incitement to slave rebellion and treason, and hanged on 2 December 1859 in Charles Town, Virginia. That day he wrote: ‘I, John Brown, am now quite certain that the crimes of this guilty land will never be purged away but with blood.’</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: John the Baptist and Martin Luther</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#bibel-johannes-der-taeufer">John the Baptist (SX1w9)</a>, like Brown, stood with unshakeable conviction against the powerful of his time and paid for it with his life. <a href="#beruehmte-martin-luther">Martin Luther (SX1w2)</a>, like Brown, joined conscience and religious conviction to resistance against authority; with Luther it stayed with the word, with Brown it turned into armed action.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Hero, martyr, murderer: a contradictory legacy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Brown was judged in opposite ways even in his lifetime. Henry David Thoreau defended him in a speech and in essays. Frederick Douglass declined to take part in the raid. Herman Melville called him a ‘meteor of war’, and Nathaniel Hawthorne said no man was ever hanged with more justice. Victor Hugo tried from exile on Guernsey to obtain a pardon and warned of civil war in an open letter. In the North Brown was regarded as a hero and martyr; most white Southerners saw him as a criminal and murderer.</p>
+          <p class="vb-intro">Historians remain divided to this day: some describe him as a heroic martyr and visionary, others as a madman or terrorist. The song ‘John Brown's Body’ became a favourite marching song of Union troops; its melody also carries the ‘Battle Hymn of the Republic’. The account here reports the positions and does not evaluate them.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. How to place it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The raid brought the question of slavery to the centre of national attention, deepened the divide between North and South and is regarded as one of the events that led to the Civil War. Brown died at the age of 59.</p>
+          <p class="vb-intro">For the sexual One with a Nine wing, one path of development lies in the certainty of being right not displacing the view of the consequences for others. In Brown they were also borne by his sons; two of them died at Harpers Ferry. This can be linked to the pattern without evaluating it: where zeal alone sets the direction, little room is left for what it costs.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx1", label:"SX1 – The black mamba: subtype profile"},
+        {route:"bibel-johannes-der-taeufer", label:"Portrait: John the Baptist (SX1w9)"},
+        {route:"beruehmte-martin-luther", label:"Portrait: Martin Luther (SX1w2)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}
