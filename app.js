@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=452";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=453";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -27731,9 +27731,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 geb. 1939 in Milwaukee. Choreograf und Ballettdirektor, Hamburg Ballett 1973\u20132024 (\u203aNijinsky\u2039, \u203aDie Kameliendame\u2039). Die Taube, die ihre Tiefe still in Werke fasst.",
     land:"USA/Deutschland", tags:["Tanz"], gender:"m"},
-  { route:"beruehmte-ayn-rand", name:"Ayn Rand", added:"2026-10-28", subtyp:"SX1w9",
+  { route:"beruehmte-ayn-rand", name:"Ayn Rand", added:"2026-10-28", subtyp:"SX1w2",
     heading:"Ayn Rand – Sexueller Typ 1",
-    teaser:"SX1w9 · 1905–1982. Russisch-amerikanische Schriftstellerin und Philosophin (›Der ewige Quell‹, ›Atlas Shrugged‹), Begründerin des Objektivismus. Die Schwarze Mamba, die ihr Leben um eine einzige Überzeugung baute.",
+    teaser:"SX1w2 · 1905–1982. Russisch-amerikanische Schriftstellerin und Philosophin (›Der ewige Quell‹, ›Atlas Shrugged‹), Begründerin des Objektivismus. Die Schwarze Mamba, die ihr Leben um eine einzige Überzeugung baute.",
     land:"Russland/USA", tags:["Literatur","Wissenschaft"], gender:"f"},
   { route:"beruehmte-nina-ruge", name:"Nina Ruge", added:"2026-10-28", subtyp:"SX6w7",
     heading:"Nina Ruge – Sexueller Typ 6",
