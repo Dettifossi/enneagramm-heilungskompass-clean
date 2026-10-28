@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=453";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=454";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -112,6 +112,7 @@ const heinoPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "heino
 const michaelDouglasPortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "michaelDouglasPortraitPage");
 const ninaRugePortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "ninaRugePortraitPage");
 const aynRandPortraitPage = () => _lazyPage("./data/beruehmte-de/teil15.js", "aynRandPortraitPage");
+const clintEastwoodPortraitPage = () => _lazyPage("./data/beruehmte-de/teil11.js", "clintEastwoodPortraitPage");
 const victorHugoPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "victorHugoPortraitPage");
 const garyCooperPortraitPage = () => _lazyPage("./data/beruehmte-de/teil2.js", "garyCooperPortraitPage");
 const joergKachelmannPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "joergKachelmannPortraitPage");
@@ -27735,6 +27736,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ayn Rand – Sexueller Typ 1",
     teaser:"SX1w9 · 1905–1982. Russisch-amerikanische Schriftstellerin und Philosophin (›Der ewige Quell‹, ›Atlas Shrugged‹), Begründerin des Objektivismus. Die Schwarze Mamba, die ihr Leben um eine einzige Überzeugung baute.",
     land:"Russland/USA", tags:["Literatur","Wissenschaft"], gender:"f"},
+  { route:"beruehmte-clint-eastwood", name:"Clint Eastwood", added:"2026-10-29", subtyp:"SX1w9",
+    heading:"Clint Eastwood – Sexueller Typ 1",
+    teaser:"SX1w9 · geb. 1930. Amerikanischer Schauspieler und Regisseur (›Dirty Harry‹, ›Unforgiven‹, ›Million Dollar Baby‹). Die Schwarze Mamba, die leise ›Go ahead‹ sagt und mit wenigen Takes dreht.",
+    land:"USA", tags:["Film","Regie"], gender:"m"},
   { route:"beruehmte-nina-ruge", name:"Nina Ruge", added:"2026-10-28", subtyp:"SX6w7",
     heading:"Nina Ruge – Sexueller Typ 6",
     teaser:"SX6w7 · geb. 1956 in München. Deutsche Fernsehmoderatorin und Autorin (›heute-journal‹, ›Leute heute‹, ›Alles wird gut‹), UNICEF-Botschafterin. Der Wolf, der die sichere Studienratslaufbahn gegen die Welt der Medien tauschte.",
@@ -67536,6 +67541,7 @@ const ROUTES = {
       "beruehmte-michael-douglas": michaelDouglasPortraitPage,
       "beruehmte-nina-ruge": ninaRugePortraitPage,
       "beruehmte-ayn-rand": aynRandPortraitPage,
+      "beruehmte-clint-eastwood": clintEastwoodPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,
