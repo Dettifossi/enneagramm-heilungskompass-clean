@@ -3171,7 +3171,7 @@ export function rajanSankaranPortraitPage() {
 
         <h2 class="vb-section">6. Reichweite durch Lehre und Werkzeuge</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Sankarans Wirkung geht über seine Praxis hinaus. Er entwickelte ein IT-Programm zur Fallanalyse und eine Struktur für die Materia Medica, schrieb ›Sankaran's Schema‹ und mehrere Bücher für die Praxis, darunter ›Homeopathy for Today's World‹ (Homöopathie für die Welt von heute), das die Methode für ein breites Publikum erklärt. Seine Seminare und Lehrgänge waren international gut besucht.</p>
+          <p class="vb-intro">Sankarans Wirkung geht über seine Praxis hinaus. Er entwickelte ein IT-Programm zur Fallanalyse und eine Struktur für die Materia Medica, schrieb ›Sankaran's Schema‹ und mehrere Bücher für die Praxis, darunter ›Homeopathy for Today's World‹ (Homöopathie für die Welt von heute), das die Methode für ein breites Publikum erklärt. Seine Seminare und Lehrgänge sind international gut besucht.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Stand und Einordnung</h2>

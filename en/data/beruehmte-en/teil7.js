@@ -3131,7 +3131,7 @@ export function rajanSankaranPortraitPage() {
 
         <h2 class="vb-section">6. Reach through teaching and tools</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Sankaran's influence extends beyond his practice. He developed an IT programme for case analysis and a structure for the materia medica, wrote ‘Sankaran's Schema’ and several books for practice, including ‘Homeopathy for Today's World’, which explains the method for a general audience. His seminars and courses were well attended internationally.</p>
+          <p class="vb-intro">Sankaran's influence extends beyond his practice. He developed an IT programme for case analysis and a structure for the materia medica, wrote ‘Sankaran's Schema’ and several books for practice, including ‘Homeopathy for Today's World’, which explains the method for a general audience. His seminars and courses are well attended internationally.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Where he stands and how to place it</h2>
