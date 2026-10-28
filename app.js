@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=444";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=445";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -28876,9 +28876,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leon Goretzka – Sozialer Typ 3",
     teaser:"SO3w4 · geb. 1995 in Bochum. Fußballprofi, FC Bayern München, ›We Kick Corona‹-Mitgründer. Formte nach dem EM-Ausgleich gegen Ungarn 2021 ein Herz für den ungarischen Fanblock – Höchstleistung und persönliches Statement in einer Geste.",
     land:"Deutschland", tags:["Sport","Fußball"], gender:"m" },
-  { route:"beruehmte-george-vithoulkas", name:"Prof. George Vithoulkas", added:"2026-09-20", subtyp:"SO3w4",
-    heading:"Prof. George Vithoulkas – Sozialer Typ 3",
-    teaser:"SO3w4 · geb. 1932 in Athen. Homöopath, Right-Livelihood-Preisträger 1996 (›alternativer Nobelpreis‹), Begründer der ›Levels of Health‹-Theorie. Verband homöopathische Praxis mit einer eigenen, über 57 Jahre entwickelten Bewusstseinsphilosophie.",
+  { route:"beruehmte-george-vithoulkas", name:"Prof. George Vithoulkas", added:"2026-09-20", subtyp:"SO5w4",
+    heading:"Prof. George Vithoulkas – Sozialer Typ 5",
+    teaser:"SO5w4 · geb. 1932 in Athen. Homöopath, Right-Livelihood-Preisträger 1996 (›alternativer Nobelpreis‹), Begründer der ›Levels of Health‹-Theorie. Verband homöopathische Praxis mit einer eigenen, über 57 Jahre entwickelten Bewusstseinsphilosophie.",
     land:"Griechenland", tags:["Homöopathie"], gender:"m" },
   { route:"beruehmte-pedro-alonso", name:"Pedro Alonso", added:"2026-09-20", subtyp:"SO3w4",
     heading:"Pedro Alonso – Sozialer Typ 3",
