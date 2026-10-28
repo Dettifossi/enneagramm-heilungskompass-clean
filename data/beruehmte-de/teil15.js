@@ -3181,7 +3181,7 @@ export function aynRandPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ayn-rand-portrait.jpg" alt="Ayn Rand – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Ayn Rand</p>
-        <p class="krim-portrait-typ">SX1w9 &middot; Sexueller Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexueller Typ 1 mit Zweierflügel</p>
         <p class="krim-portrait-subtitle">Russisch-amerikanische Schriftstellerin und Philosophin, 1905&ndash;1982 &ndash; ›Der ewige Quell‹, ›Atlas Shrugged‹ &ndash; Tierentsprechung: Schwarze Mamba</p>
       </div>
       <div class="page-content">
@@ -3198,10 +3198,10 @@ export function aynRandPortraitPage() {
           <p class="vb-intro">Die Zeichnung zeigt dunkles, glänzendes Haar, das aus der Stirn nach hinten und zur Seite gekämmt ist, eine hohe Stirn mit feinen Querfalten und kräftigen Brauen und große, dunkle, wache Augen mit Fältchen und Tränensäcken, die gerade und prüfend schauen. Die Nase ist kräftig, der Mund geschlossen mit einem schmalen, leicht schiefen, wissenden Lächeln, und Furchen laufen von der Nase zu den Mundwinkeln, die Nasolabialfalten (lateinisch nasus, Nase, und labium, Lippe). Sie trägt ein dunkles Jackett über einem weißen Kragen.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. Der Neunerflügel: Beharrlichkeit und ein fester Anker</h2>
+        <h2 class="vb-section">3. Der Zweierflügel: Zuwendung im Kreis der Nähe</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der Eins Beharrlichkeit und eine ruhige Mitte. Bei Rand zeigt sich das in der Dauer: Sie heiratete am 15. April 1929 den Schauspieler Frank O'Connor, die Ehe dauerte bis zu seinem Tod am 7. November 1979. Auch ihre Philosophie blieb über Jahrzehnte dieselbe: Der Objektivismus, den sie ab den 1940er-Jahren in ihren Romanen und später in Essays entfaltete, blieb im Kern bis zu ihrem Tod derselbe.</p>
-          <p class="vb-intro">Ihre Beziehung zu dem Psychologen Nathaniel Branden, die nach Berichten 1954 begann, belastete die Ehe und endete 1968 im Bruch, als Rand erfuhr, dass Branden eine weitere Beziehung verschwiegen hatte; das Nathaniel Branden Institute wurde danach geschlossen.</p>
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der Eins Zuwendung und den Wunsch, gebraucht zu werden. Bei Rand zeigt er sich darin, dass sie ihre Philosophie nicht allein im Werk ließ, sondern in persönlicher Nähe weitergab: Alan Greenspan war ein enger Freund und trug zu ihren Büchern bei, mit dem Psychologen Nathaniel Branden schrieb sie Essays (›The Virtue of Selfishness‹, 1964) und verband eine Beziehung, die nach Berichten 1954 begann. Das Nathaniel Branden Institute wurde nach dem Bruch von 1968 geschlossen, als Rand erfuhr, dass Branden eine weitere Beziehung verschwiegen hatte.</p>
+          <p class="vb-intro">Dazu kommt die Ehe: Sie heiratete am 15. April 1929 den Schauspieler Frank O'Connor, die Ehe dauerte bis zu seinem Tod am 7. November 1979. Auch ihre Philosophie blieb über Jahrzehnte im Kern dieselbe: Der Objektivismus, den sie ab den 1940er-Jahren in ihren Romanen und später in Essays entfaltete, wurde zum Mittelpunkt eines Kreises, der sich um sie sammelte; Kritiker verglichen das Verhalten mancher Anhänger später mit dem einer Sekte.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: vom Roman zur Philosophie</h2>
@@ -3210,9 +3210,9 @@ export function aynRandPortraitPage() {
           <p class="vb-intro">Der Objektivismus nimmt an, dass die Wirklichkeit unabhängig vom Bewusstsein besteht und durch Vernunft erkennbar ist. Die Vernunft gilt als höchste Tugend, das menschliche Leben als höchster Wert. Der ›rationale Egoismus‹ verlangt produktives Eigeninteresse unter Achtung der Rechte anderer auf Leben, Freiheit und Eigentum; der Staat soll nur diese Rechte schützen. Rand trat für einen ungezügelten Kapitalismus ein, lehnte Religion und Mystik ab und befürwortete das Recht auf Abtreibung. Sie bewunderte <a href="#beruehmte-aristoteles">Aristoteles (SE1w9)</a> und lehnte Kant ab; in einem Interview mit Mike Wallace 1959 sagte sie, ihre einzige philosophische Schuld gelte Aristoteles.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Parallelen im selben Subtyp: Peter Thiel und Robert Greene</h2>
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Martin Luther, Michèle Lamy und Peter Thiel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="#beruehmte-peter-thiel">Peter Thiel (SX1w9)</a> teilt mit Rand Subtyp und Flügel. Ihre Ideen haben nach der Wikipedia den US-Libertarismus und Kreise der Tea-Party-Bewegung beeinflusst. <a href="#beruehmte-robert-greene">Robert Greene (SX1w9)</a> teilt den Subtyp und die Verbindung von scharfer Beobachtung mit einem eigenen Lehrgebäude.</p>
+          <p class="vb-intro"><a href="#beruehmte-martin-luther">Martin Luther (SX1w2)</a> teilt mit Rand Subtyp und Flügel: Um beide sammelte sich eine Anhängerschaft, die an ihrer Überzeugung hing. <a href="#beruehmte-michele-lamy">Michèle Lamy (SX1w2)</a> hat wie Rand einen Kreis um sich, in dem Nähe und Überzeugung zusammengehören. <a href="#beruehmte-peter-thiel">Peter Thiel (SX1w9)</a> teilt den Subtyp mit dem anderen Flügel; Rands Ideen haben nach der Wikipedia den US-Libertarismus und Kreise der Tea-Party-Bewegung beeinflusst.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Reibung und Gegenwind</h2>
@@ -3223,7 +3223,7 @@ export function aynRandPortraitPage() {
         <h2 class="vb-section">7. Tod und Einordnung</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Ayn Rand starb am 6. März 1982 in New York an einem Herzinfarkt. Alan Greenspan, der später Präsident der amerikanischen Notenbank wurde, war ein enger Freund und trug zu ihren Büchern bei. Das Ayn Rand Institute ist politisch aktiv und hat jährliche Spenden von über sechs Millionen Dollar.</p>
-          <p class="vb-intro">Für die sexuelle Eins mit Neunerflügel liegt ein Entwicklungsweg darin, dass die Überzeugung auch ein Gegenüber trägt, das ihr nicht folgt. Bei Rand lässt sich das mit dem Bruch von 1968 verbinden: Wo der Eifer ein geschlossenes System bildet, wird jeder Widerspruch zur Frage der Zugehörigkeit.</p>
+          <p class="vb-intro">Für die sexuelle Eins mit Zweierflügel liegt ein Entwicklungsweg darin, dass Zuwendung nicht an Zustimmung gebunden ist. Bei Rand lässt sich das mit dem Bruch von 1968 verbinden: Wo die Nähe an die Übereinstimmung mit der Lehre geknüpft ist, wird Widerspruch zum Verlust der Beziehung.</p>
         </blockquote>
 
       </div>
@@ -3233,8 +3233,9 @@ export function aynRandPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-martin-luther", label:"Porträt: Martin Luther (SX1w2)"},
+        {route:"beruehmte-michele-lamy", label:"Porträt: Michèle Lamy (SX1w2)"},
         {route:"beruehmte-peter-thiel", label:"Porträt: Peter Thiel (SX1w9)"},
-        {route:"beruehmte-robert-greene", label:"Porträt: Robert Greene (SX1w9)"},
         {route:"beruehmte-gary-cooper", label:"Porträt: Gary Cooper (SX9w1)"},
         {route:"beruehmte-aristoteles", label:"Porträt: Aristoteles (SE1w9)"},
         {route:"lebensmusterkompass", label:"Lebensmusterkompass"},

@@ -2,7 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
-    { version: "v2697", date: "2026-10-28", text: "Neues Porträt: Ayn Rand (SX1w9) – Schriftstellerin und Philosophin.", text_en: "New portrait: Ayn Rand (SX1w9) – novelist and philosopher.", route: "beruehmte-ayn-rand" },
+    { version: "v2697", date: "2026-10-28", text: "Neues Porträt: Ayn Rand (SX1w2) – Schriftstellerin und Philosophin.", text_en: "New portrait: Ayn Rand (SX1w2) – novelist and philosopher.", route: "beruehmte-ayn-rand" },
     { version: "v2696", date: "2026-10-28", text: "Neues Porträt: Nina Ruge (SX6w7) – Fernsehmoderatorin und Autorin.", text_en: "New portrait: Nina Ruge (SX6w7) – television presenter and author.", route: "beruehmte-nina-ruge" },
     { version: "v2695", date: "2026-10-28", text: "Neues Porträt: Michael Douglas (SO1w9) – Schauspieler und Produzent.", text_en: "New portrait: Michael Douglas (SO1w9) – actor and producer.", route: "beruehmte-michael-douglas" },
     { version: "v2694", date: "2026-10-28", text: "Neues Porträt: Heino (SX3w2) – Sänger.", text_en: "New portrait: Heino (SX3w2) – singer.", route: "beruehmte-heino" },
