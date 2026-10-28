@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=441";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=442";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -105,6 +105,7 @@ const lindaHamiltonPortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js
 const mariaSchaumayerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil7.js", "mariaSchaumayerPortraitPage");
 const micheleLamyPortraitPage = () => _lazyPage("./data/beruehmte-de/teil4.js", "micheleLamyPortraitPage");
 const yvesSaintLaurentPortraitPage = () => _lazyPage("./data/beruehmte-de/teil13.js", "yvesSaintLaurentPortraitPage");
+const christineLagardePortraitPage = () => _lazyPage("./data/beruehmte-de/teil9.js", "christineLagardePortraitPage");
 const garyCooperPortraitPage = () => _lazyPage("./data/beruehmte-de/teil2.js", "garyCooperPortraitPage");
 const joergKachelmannPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "joergKachelmannPortraitPage");
 const jamesDeanPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "jamesDeanPortraitPage");
@@ -27723,6 +27724,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 geb. 1939 in Milwaukee. Choreograf und Ballettdirektor, Hamburg Ballett 1973\u20132024 (\u203aNijinsky\u2039, \u203aDie Kameliendame\u2039). Die Taube, die ihre Tiefe still in Werke fasst.",
     land:"USA/Deutschland", tags:["Tanz"], gender:"m"},
+  { route:"beruehmte-christine-lagarde", name:"Christine Lagarde", added:"2026-10-28", subtyp:"SX1w2",
+    heading:"Christine Lagarde \u2013 Sexueller Typ 1",
+    teaser:"SX1w2 \u00b7 geb. 1956 in Paris. Juristin, Politikerin und Notenbankerin, erste Frau an der Spitze von IWF und EZB. Die Schwarze Mamba, deren Eifer in Verhandlung und Form liegt.",
+    land:"Frankreich", tags:["Politik","Wirtschaft"], gender:"f"},
   { route:"beruehmte-yves-saint-laurent", name:"Yves Saint Laurent", added:"2026-10-28", subtyp:"SX1w2",
     heading:"Yves Saint Laurent \u2013 Sexueller Typ 1",
     teaser:"SX1w2 \u00b7 1936\u20132008. Franz\u00f6sischer Modesch\u00f6pfer (\u203aLe Smoking\u2039, Mondrian-Kleid, Rive Gauche). Die Schwarze Mamba, die ihre Strenge ganz in ein Handwerk legte und Frauen neu kleidete.",
@@ -67488,6 +67493,7 @@ const ROUTES = {
       "beruehmte-maria-schaumayer": mariaSchaumayerPortraitPage,
       "beruehmte-michele-lamy": micheleLamyPortraitPage,
       "beruehmte-yves-saint-laurent": yvesSaintLaurentPortraitPage,
+      "beruehmte-christine-lagarde": christineLagardePortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,
