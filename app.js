@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=447";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=448";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -27727,10 +27727,6 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 geb. 1939 in Milwaukee. Choreograf und Ballettdirektor, Hamburg Ballett 1973\u20132024 (\u203aNijinsky\u2039, \u203aDie Kameliendame\u2039). Die Taube, die ihre Tiefe still in Werke fasst.",
     land:"USA/Deutschland", tags:["Tanz"], gender:"m"},
-  { route:"beruehmte-victor-hugo", name:"Victor Hugo", added:"2026-10-28", subtyp:"SE1w9",
-    heading:"Victor Hugo – Selbsterhaltender Typ 1",
-    teaser:"SE1w9 · 1802–1885. Französischer Dichter, Romancier und Politiker (›Les Misérables‹, ›Notre-Dame de Paris‹), 19 Jahre im Exil. Der Adler, dessen Besorgnis sich auf Todesstrafe, Armut und Unrecht richtete.",
-    land:"Frankreich", tags:["Literatur","Politik"], gender:"m"},
   { route:"beruehmte-john-brown", name:"John Brown", added:"2026-10-28", subtyp:"SX1w9",
     heading:"John Brown – Sexueller Typ 1",
     teaser:"SX1w9 · 1800–1859. Amerikanischer Abolitionist, Anführer des Überfalls auf Harpers Ferry, 1859 gehängt. Die Schwarze Mamba, deren Eifer zur bewaffneten Tat wurde; bis heute als Held und als Terrorist beurteilt.",
@@ -67516,7 +67512,6 @@ const ROUTES = {
       "beruehmte-gertrud-hoehler": gertrudHoehlerPortraitPage,
       "beruehmte-rajan-sankaran": rajanSankaranPortraitPage,
       "beruehmte-john-brown": johnBrownPortraitPage,
-      "beruehmte-victor-hugo": victorHugoPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,
