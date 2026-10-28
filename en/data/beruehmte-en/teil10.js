@@ -3058,3 +3058,75 @@ export function joergKachelmannPortraitPage() {
     </div>
   `);
 }
+
+export function victorHugoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-victor-hugo-portrait.jpg" alt="Victor Hugo – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Victor Hugo</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with a Nine wing</p>
+        <p class="krim-portrait-subtitle">French poet, novelist and politician, 1802&ndash;1885 &ndash; ‘Les Misérables’ &ndash; animal counterpart: eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The eagle: the general's son who became a poet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>eagle</strong> keeps watch from a height it has chosen for itself and never lets its territory out of sight. Victor Hugo was born on 26 February 1802 in Besançon, the youngest of three sons. His father Joseph Léopold Sigisbert Hugo became a general under <a href="#beruehmte-napoleon-bonaparte">Napoleon Bonaparte (SO2w3)</a>; his mother Sophie Trébuchet came from Brittany. The parents grew estranged and the childhood stayed unsettled: Hugo lived mostly in Paris, for a time with his father in Naples (1808) and in Madrid (1811/12).</p>
+          <p class="vb-intro">From 1812 he lived with his mother in Paris, later in a boarding school, and attended the Lycée Louis-le-Grand. He probably began writing at about ten; at 16 he began studying law. In 1822 his first volume of poems appeared, ‘Odes et poésies diverses’ (Odes and Various Poems), and in the same year he married his childhood friend Adèle Foucher. A child died shortly after birth in 1823; Léopoldine (1824), Charles (1826), François-Victor (1828) and Adèle (1830) followed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation One: worry turned outward</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> the self-preservation One is called <em>worry</em>: the inner constant question whether one is doing justice to what is right. In Hugo this worry turns outward. ‘Le dernier jour d'un condamné’ (The Last Day of a Condemned Man, 1829) is a plea against the death penalty; ‘Les Misérables’ (1862) turns the gaze on the poor and the rightless. He was active in the animal protection society, spoke out against vivisection and campaigned together with <a href="#beruehmte-honore-de-balzac">Honoré de Balzac (SP4w3)</a> for copyright.</p>
+          <p class="vb-intro">The photo shows dense white hair brushed upward, a high forehead with deep horizontal lines and two vertical furrows between the heavy brows, deep-set, serious eyes with heavy lids, a strong nose and a full white moustache and beard that almost hides the mouth. The gaze is probing, the brows slightly drawn together, and there is no smile. He wears a dark coat with a white shirt collar.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine wing: the steadfastness of the patriarch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine wing (w9)</strong> gives the One persistence and a calm centre that is hardly there of itself with a weakly developed Nine wing. After Louis-Napoléon's coup of 2 December 1851 Hugo went into exile, first to Jersey (1852–1855), then to Guernsey, where he stayed until 1870 and lived at Hauteville House. In ‘Les Châtiments’ (The Punishments, 1853), the volume of poems against the new emperor, he wrote: ‘Et s'il n'en reste qu'un, je serai celui-là’ (‘And if only one is left, I will be that one’). He returned to Paris on 5 September 1870 after the fall of the empire.</p>
+          <p class="vb-intro">This trait also shows in private life: in 1833 he met the actress Juliette Drouet, and the relationship lasted until her death in 1883. He tolerated for a long time the affair of his wife Adèle with the critic Sainte-Beuve.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: manifesto, novel, poem and drawing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hugo was poet, dramatist and novelist in one. The preface to his play ‘Cromwell’ (1827) became the manifesto of Romanticism; the premiere of ‘Hernani’ on 25 February 1830 set off the ‘Battle of Hernani’ between Classicists and Romantics. ‘Notre-Dame de Paris’ (The Hunchback of Notre-Dame, 1831) is set in the year 1482 and drew attention to the decaying cathedral. In exile he wrote ‘Les Contemplations’ (The Contemplations, 1856), ‘La Légende des siècles’ (The Legend of the Ages, 1859) and ‘Les Misérables’ (1862); later came ‘Les Travailleurs de la mer’ (Toilers of the Sea, 1866), ‘L'Homme qui rit’ (The Man Who Laughs, 1869) and ‘Quatre-vingt-treize’ (Ninety-Three, 1874).</p>
+          <p class="vb-intro">Politically he was made a peer by Louis-Philippe in 1845, turned to republicanism in 1846, was elected a deputy in 1848 and to the Senate in 1876. He left about 3,500 drawings, mostly from the exile years.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype and on the theme of justice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-john-brown">John Brown (SX1w9)</a> shares the Nine wing; for him Hugo tried from exile in December 1859 to obtain a pardon and warned of civil war in an open letter. <a href="#beruehmte-queen-elizabeth-ii">Queen Elizabeth II (SP1w9)</a> shares subtype and wing; in her duty shows itself in silence, in Hugo in the public word.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Loss and grief</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Léopoldine, the eldest daughter, drowned in 1843 with her husband in a boating accident near Villequier; she was 19. Of the children only Adèle outlived Hugo. The poems about Léopoldine's death appear in ‘Les Contemplations’ (1856). This worry, turning into grief and tenderness, belongs to the same pattern as his public commitment.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Death and how to place it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After a stroke in 1878 his creative power declined. Hugo died on 22 May 1885 in Paris. The state funeral on 1 June 1885 took him to the Panthéon, where he was laid to rest in a tomb of honour in the crypt.</p>
+          <p class="vb-intro">For the self-preservation One with a Nine wing, one path of development lies in translating the constant worry not only into accusation and duty but also into comfort and closeness. In Hugo this can be read in the poems for his dead daughter: the same vigilance that saw the injustice of the world was also directed at the pain in his own house.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se1", label:"SP1 – The eagle: subtype profile"},
+        {route:"beruehmte-john-brown", label:"Portrait: John Brown (SX1w9)"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SP1w9)"},
+        {route:"beruehmte-honore-de-balzac", label:"Portrait: Honoré de Balzac (SP4w3)"},
+        {route:"beruehmte-napoleon-bonaparte", label:"Portrait: Napoleon Bonaparte (SO2w3)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}
