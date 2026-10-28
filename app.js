@@ -32464,7 +32464,7 @@ function inhalts\u00fcbersichtPage() {
             Alles in einer einzigen App
           </p>
           <p style="font-size:0.86rem;color:var(--muted);margin:0 0 1.1rem;line-height:1.55;">
-            Einmalig kaufen &middot; Lebenslanger Zugang &middot; W\xe4chst st\xe4ndig weiter
+            Einmalig kaufen &middot; Mindestens 5 Jahre Zugang garantiert &middot; W\xe4chst st\xe4ndig weiter
           </p>
           <button data-route="freischalt"
             style="background:var(--gold-dark);color:var(--copper);border:3px solid #8a5a1a;
@@ -32780,7 +32780,7 @@ function onboardingOverlay() {
             <div style="min-width:2rem;height:2rem;border-radius:50%;background:var(--gold,#c4a456);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.9rem;color:#1a1208;flex-shrink:0;">3</div>
             <div>
               <strong style="color:var(--ink);font-size:0.95rem;">Vollzugang freischalten</strong>
-              <p style="margin:0.2rem 0 0;font-size:0.84rem;color:var(--muted);line-height:1.5;">F\u00fcr alle 27 Subtyp-Profile \u00b7 Heilmittel &amp; Naturheilkunde \u00b7 Hunderte Schaubilder \u00b7 Portr\u00e4ts ber\u00fchmter Pers\u00f6nlichkeiten \u00b7 Enneagramm-Profiling \u00b7 Musik &amp; Klang \u00b7 Praxisanwendungen \u00b7 regelm\u00e4\u00dfige Erweiterung \u00b7 lebenslanger Zugang.</p>
+              <p style="margin:0.2rem 0 0;font-size:0.84rem;color:var(--muted);line-height:1.5;">F\u00fcr alle 27 Subtyp-Profile \u00b7 Heilmittel &amp; Naturheilkunde \u00b7 Hunderte Schaubilder \u00b7 Portr\u00e4ts ber\u00fchmter Pers\u00f6nlichkeiten \u00b7 Enneagramm-Profiling \u00b7 Musik &amp; Klang \u00b7 Praxisanwendungen \u00b7 regelm\u00e4\u00dfige Erweiterung \u00b7 mindestens 5 Jahre Zugang garantiert.</p>
             </div>
           </div>
         </div>
@@ -36139,7 +36139,7 @@ function kaufenPage() {
         </ul>
         <h3>F\u00fcr wen ist das gedacht?</h3>
         <p>F\u00fcr alle, die ihren Enneagrammtyp bereits kennen und tiefer gehen wollen. F\u00fcr Therapeuten, Berater und Coaches. F\u00fcr Menschen, die sich selbst verstehen wollen \u2014 nicht oberfl\u00e4chlich, sondern wirklich.</p>
-        <h3>Einmaliger Kauf \u2014 lebenslanger Zugang:</h3>
+        <h3>Einmaliger Kauf \u2014 mindestens 5 Jahre Zugang garantiert:</h3>
         <p>\u20ac 79 \u2014 einmalig, kein Abo. Alle zuk\u00fcnftigen Updates sind inklusive.</p>
  <p>Es gibt zwei Wege: den <strong>Vollzugang</strong> (€ 79) oder, als günstigen Einstieg, die <strong>Porträt-Edition</strong> (€ 39, weiter unten). Ein Wechsel ist jederzeit möglich, die 39 € werden angerechnet.</p>
       </div>
@@ -36178,7 +36178,7 @@ function kaufenPage() {
  <li>✓ Über ${(Math.floor((BERUEHMT_PORTRAITS.length + KRANKHEITS_PORTRAITS.length + KRIMINAL_PORTRAITS.length + ASTROLOGIE_PORTRAITS.length + BIBEL_PORTRAITS.length) / 100) * 100).toLocaleString("de-DE")} Porträts: berühmte Persönlichkeiten, Kriminalfälle, Krankheitsporträts, Astrologie und Bibel</li>
  <li>✓ Lebens-, Krankheits- und Kriminalmusterkompass</li>
  <li>✓ Enneagramm-Memory</li>
- <li>✓ Lebenslanger Zugang, neue Porträts inklusive</li>
+ <li>✓ Mindestens 5 Jahre Zugang garantiert, neue Porträts inklusive</li>
  <li>✓ Jederzeit auf den Vollzugang erweiterbar, die 39 € werden angerechnet</li>
  </ul>
  <p style="font-size:.88rem;color:var(--muted);line-height:1.5;margin:0 0 1.2rem;">Nicht enthalten: die 27 Subtyp-Profile, die Heilmittel, die Typentests sowie die Schaubilder und Tools. Diese gibt es im Vollzugang.</p>
@@ -36203,7 +36203,7 @@ function wegweiserPremiumPage() {
       <p class="eyebrow">Wegweiser Premium</p>
       <h1 style="font-size:2rem;margin-bottom:.5rem;">Mehr als 40 Bücher, direkt im Gespräch</h1>
       <p class="lead-small" style="margin-bottom:.8rem;">Der Wegweiser ist der KI-Assistent im Enneagramm-Heilungskompass. Normalerweise durchsucht er nur die App-Inhalte – mit Premium bezieht er zusätzlich das gesamte veröffentlichte Werk von Detlef Rathmer mit ein.</p>
-      <p style="font-size:.85rem;color:var(--muted,#886);background:var(--cream,#f9f6f0);border-radius:10px;padding:.7rem 1rem;margin-bottom:2rem;">ℹ️ Das hier ist ein optionales Zusatz-Abo für die Bücher-Erweiterung des Wegweisers – dein einmaliger App-Kauf (79&nbsp;€) bleibt davon unberührt und lebenslang gültig, mit oder ohne Premium.</p>
+      <p style="font-size:.85rem;color:var(--muted,#886);background:var(--cream,#f9f6f0);border-radius:10px;padding:.7rem 1rem;margin-bottom:2rem;">ℹ️ Das hier ist ein optionales Zusatz-Abo für die Bücher-Erweiterung des Wegweisers – dein einmaliger App-Kauf (79&nbsp;€) bleibt davon unberührt und gültig, mit mindestens 5 Jahren garantiertem Zugang, mit oder ohne Premium.</p>
     </section>
     <section class="narrow" style="padding:0 1rem 1.5rem;">
       <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:1.5rem;margin-bottom:1.5rem;font-size:.97rem;line-height:1.7;">
@@ -63795,7 +63795,7 @@ function freischaltPage() {
           <li><strong style="color:var(--ink);">Hunderte Schaubilder</strong> \u2013 Enneagramm, Spiritualit\u00e4t, Philosophie, Musik & mehr</li>
           <li><strong style="color:var(--ink);">Alle 3 Typen-Tests</strong> \u2013 Diagnose-, Struktur- & Motivationstest mit pers\u00f6nlicher Auswertung</li>
           <li><strong style="color:var(--ink);">Interaktive Lernspiele</strong> \u2013 Enneagramm-Memory, Flashcards, Kompatibilit\u00e4ts-Check & Wachstumstagebuch</li>
-          <li><strong style="color:var(--ink);">Einmalig kaufen</strong> \u2013 lebenslanger Zugang, w\u00e4chst st\u00e4ndig weiter</li>
+          <li><strong style="color:var(--ink);">Einmalig kaufen</strong> \u2013 mindestens 5 Jahre Zugang garantiert, w\u00e4chst st\u00e4ndig weiter</li>
         </ul>
 
         <div class="freischalt-card__angebote" style="justify-content:center;">
