@@ -231,6 +231,8 @@ const ROUTES = [
   { hash: "en/#mindmap-cannabis", label: "EN Mindmap Cannabis indica" },
   { hash: "#spirituelles-enneagramm", label: "Neu: Das spirituelle Enneagramm" },
   { hash: "en/#spirituelles-enneagramm", label: "Neu EN: Das spirituelle Enneagramm" },
+  { hash: "#beruehmte-ayn-rand", label: "Neues Porträt: Ayn Rand" },
+  { hash: "en/#beruehmte-ayn-rand", label: "Neues EN-Porträt: Ayn Rand" },
   { hash: "#beruehmte-nina-ruge", label: "Neues Porträt: Nina Ruge" },
   { hash: "en/#beruehmte-nina-ruge", label: "Neues EN-Porträt: Nina Ruge" },
   { hash: "#beruehmte-michael-douglas", label: "Neues Porträt: Michael Douglas" },

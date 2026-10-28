@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=451";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=452";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -111,6 +111,7 @@ const johnBrownPortraitPage = () => _lazyPage("./data/beruehmte-de/teil3.js", "j
 const heinoPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "heinoPortraitPage");
 const michaelDouglasPortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "michaelDouglasPortraitPage");
 const ninaRugePortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "ninaRugePortraitPage");
+const aynRandPortraitPage = () => _lazyPage("./data/beruehmte-de/teil15.js", "aynRandPortraitPage");
 const victorHugoPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "victorHugoPortraitPage");
 const garyCooperPortraitPage = () => _lazyPage("./data/beruehmte-de/teil2.js", "garyCooperPortraitPage");
 const joergKachelmannPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "joergKachelmannPortraitPage");
@@ -27730,6 +27731,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Neumeier \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 geb. 1939 in Milwaukee. Choreograf und Ballettdirektor, Hamburg Ballett 1973\u20132024 (\u203aNijinsky\u2039, \u203aDie Kameliendame\u2039). Die Taube, die ihre Tiefe still in Werke fasst.",
     land:"USA/Deutschland", tags:["Tanz"], gender:"m"},
+  { route:"beruehmte-ayn-rand", name:"Ayn Rand", added:"2026-10-28", subtyp:"SX1w9",
+    heading:"Ayn Rand – Sexueller Typ 1",
+    teaser:"SX1w9 · 1905–1982. Russisch-amerikanische Schriftstellerin und Philosophin (›Der ewige Quell‹, ›Atlas Shrugged‹), Begründerin des Objektivismus. Die Schwarze Mamba, die ihr Leben um eine einzige Überzeugung baute.",
+    land:"Russland/USA", tags:["Literatur","Wissenschaft"], gender:"f"},
   { route:"beruehmte-nina-ruge", name:"Nina Ruge", added:"2026-10-28", subtyp:"SX6w7",
     heading:"Nina Ruge – Sexueller Typ 6",
     teaser:"SX6w7 · geb. 1956 in München. Deutsche Fernsehmoderatorin und Autorin (›heute-journal‹, ›Leute heute‹, ›Alles wird gut‹), UNICEF-Botschafterin. Der Wolf, der die sichere Studienratslaufbahn gegen die Welt der Medien tauschte.",
@@ -67530,6 +67535,7 @@ const ROUTES = {
       "beruehmte-heino": heinoPortraitPage,
       "beruehmte-michael-douglas": michaelDouglasPortraitPage,
       "beruehmte-nina-ruge": ninaRugePortraitPage,
+      "beruehmte-ayn-rand": aynRandPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,

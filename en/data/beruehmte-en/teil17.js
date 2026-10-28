@@ -3128,3 +3128,75 @@ export function jamesBluntPortraitPage() {
     </div>
   `);
 }
+
+export function aynRandPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ayn-rand-portrait.jpg" alt="Ayn Rand – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ayn Rand</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexual Type 1 with a Nine wing</p>
+        <p class="krim-portrait-subtitle">Russian-American novelist and philosopher, 1905&ndash;1982 &ndash; ‘The Fountainhead’, ‘Atlas Shrugged’ &ndash; animal counterpart: black mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The black mamba: the girl from Saint Petersburg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>black mamba</strong> stays still until it has chosen its target and then does not let go. Ayn Rand was born on 20 January (Julian), by our calendar 2 February 1905, in Saint Petersburg as Alisa Zinovyevna Rosenbaum. Her parents were Russian Jews, her father a pharmacist from Brest-Litovsk, her mother from Saint Petersburg. At nine she decided to become a writer. After the revolutions of 1917 the family's property was confiscated and the family became impoverished.</p>
+          <p class="vb-intro">In 1921 she finished school in Crimea and studied philosophy and history at Petrograd State University, and from 1924 screenwriting at a state film institute.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual One: zeal for a conviction</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> called the sexual One <em>zeal</em>, the countertype of the One: a strictness directed with great intensity at a single cause. In Rand this can be linked to the determination with which she built her life around one conviction. On 17 January 1926 she left Petrograd on a visa for a short visit to relatives in the USA and never returned. She arrived in Manhattan on 19 February 1926, stayed with relatives in Chicago and then moved to Hollywood, where she worked as an extra in Cecil B. DeMille's ‘The King of Kings’ (1927) and later wrote for him. At RKO Pictures she worked in the wardrobe department; she sold her first screenplay, ‘Red Pawn’, to Universal in 1932, and her play ‘Woman on Trial’ premiered in 1934. In 1931 she became a US citizen.</p>
+          <p class="vb-intro">The drawing shows dark, glossy hair combed back from the forehead and to the side, a high forehead with fine horizontal lines and strong brows, and large, dark, alert eyes with creases and bags that look straight and probingly. The nose is strong, the mouth closed with a narrow, slightly crooked, knowing smile, and furrows run from the nose to the corners of the mouth, the nasolabial folds (from Latin nasus, nose, and labium, lip). She wears a dark jacket over a white collar.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine wing: persistence and a fixed anchor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine wing (w9)</strong> gives the One persistence and a calm centre. In Rand it shows in duration: she married the actor Frank O'Connor on 15 April 1929, and the marriage lasted until his death on 7 November 1979. Her philosophy too stayed the same over decades: Objectivism, which she developed from the 1940s in her novels and later in essays, remained essentially the same until her death.</p>
+          <p class="vb-intro">Her relationship with the psychologist Nathaniel Branden, which according to reports began in 1954, strained the marriage and ended in a rupture in 1968, when Rand learned that Branden had concealed another relationship; the Nathaniel Branden Institute was closed afterwards.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: from novel to philosophy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Rand wrote her philosophy first as fiction. ‘We the Living’ (1936) draws on her Russian youth and criticises collectivism and the Soviet Union. ‘Anthem’ (1938) is a novella. ‘The Fountainhead’ (1943) tells of the individualist architect Howard Roark, became a bestseller and was filmed in 1949 with <a href="#beruehmte-gary-cooper">Gary Cooper (SX9w1)</a>. Her main work ‘Atlas Shrugged’ (1957) asks about the role of philosophical principles in society. The essays ‘For the New Intellectual’ (1961) and ‘The Virtue of Selfishness’ (1964, with Nathaniel Branden) followed.</p>
+          <p class="vb-intro">Objectivism holds that reality exists independently of consciousness and can be known through reason. Reason is regarded as the chief virtue and human life as the highest value. ‘Rational egoism’ demands productive self-interest while respecting others' rights to life, liberty and property; the state should protect only these rights. Rand advocated unrestrained capitalism, rejected religion and mysticism and supported the right to abortion. She admired <a href="#beruehmte-aristoteles">Aristotle (SP1w9)</a> and rejected Kant; in an interview with Mike Wallace in 1959 she said her only philosophical debt was to Aristotle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Peter Thiel and Robert Greene</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-peter-thiel">Peter Thiel (SX1w9)</a> shares subtype and wing with Rand. According to Wikipedia her ideas have influenced US libertarianism and circles of the Tea Party movement. <a href="#beruehmte-robert-greene">Robert Greene (SX1w9)</a> shares the subtype and the link between sharp observation and a body of teaching of his own.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Friction and headwind</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Professional philosophers mostly ignore or criticise her work; Michael Huemer, Robert H. Bass and Robert Nozick have named weaknesses in her arguments. Critics compared the behaviour of some followers to that of a cult. Rand was a long-time smoker and had lung cancer surgery in 1974; in 1976 she was enrolled in Social Security and Medicare under the name ‘Ann O'Connor’ through the social worker of her lawyer, although she rejected state benefits. The account reports positions and does not evaluate them.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Death and how to place it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ayn Rand died on 6 March 1982 in New York of a heart attack. Alan Greenspan, who later became chairman of the US Federal Reserve, was a close friend and contributed to her books. The Ayn Rand Institute is politically active and has annual donations of more than six million dollars.</p>
+          <p class="vb-intro">For the sexual One with a Nine wing, one path of development lies in the conviction also carrying a counterpart who does not follow it. In Rand this can be linked to the rupture of 1968: where zeal forms a closed system, every contradiction becomes a question of belonging.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx1", label:"SX1 – The black mamba: subtype profile"},
+        {route:"beruehmte-peter-thiel", label:"Portrait: Peter Thiel (SX1w9)"},
+        {route:"beruehmte-robert-greene", label:"Portrait: Robert Greene (SX1w9)"},
+        {route:"beruehmte-gary-cooper", label:"Portrait: Gary Cooper (SX9w1)"},
+        {route:"beruehmte-aristoteles", label:"Portrait: Aristotle (SP1w9)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}
