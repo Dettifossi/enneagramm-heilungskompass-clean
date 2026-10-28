@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=441";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=442";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -3005,9 +3005,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leon Goretzka – Social Type 3",
     teaser:"SO3w4 · b. 1995 in Bochum. Professional footballer, FC Bayern Munich, co-founder of \"We Kick Corona.\" Formed a heart for the Hungarian fan section after his Euro 2020 equalizer – peak performance and a personal statement in one gesture.",
     land:"Germany", tags:["Sport","Soccer"], gender:"m"},
-{ route:"beruehmte-george-vithoulkas", name:"Prof. George Vithoulkas", added:"2026-09-20", subtyp:"SO3w4",
-    heading:"Prof. George Vithoulkas – Social Type 3",
-    teaser:"SO3w4 · b. 1932 in Athens. Homeopath, 1996 Right Livelihood Award laureate (\"alternative Nobel Prize\"), founder of the \"Levels of Health\" theory. Linked homeopathic practice to his own consciousness philosophy, developed over 57 years.",
+{ route:"beruehmte-george-vithoulkas", name:"Prof. George Vithoulkas", added:"2026-09-20", subtyp:"SO5w4",
+    heading:"Prof. George Vithoulkas – Social Type 5",
+    teaser:"SO5w4 · b. 1932 in Athens. Homeopath, 1996 Right Livelihood Award laureate (\"alternative Nobel Prize\"), founder of the \"Levels of Health\" theory. Linked homeopathic practice to his own consciousness philosophy, developed over 57 years.",
     land:"Greece", tags:["Homeopathy"], gender:"m"},
 { route:"beruehmte-pedro-alonso", name:"Pedro Alonso", added:"2026-09-20", subtyp:"SO3w4",
     heading:"Pedro Alonso – Social Type 3",

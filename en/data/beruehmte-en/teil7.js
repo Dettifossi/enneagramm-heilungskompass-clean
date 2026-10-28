@@ -1520,7 +1520,7 @@ export function samuelHahnemannPortraitPage() {
         {route:"enneagramm-homoeopathie", label:"Enneagram meets Homeopathy – 9 case studies"},
         {route:"beruehmte-adam-smith", label:"Portrait: Adam Smith (SO1w9)"},
         {route:"beruehmte-friedrich-merz", label:"Portrait: Friedrich Merz (SO1w9)"},
-        {route:"beruehmte-george-vithoulkas", label:"Portrait: Prof. George Vithoulkas (SO3w4) – major 20th-century homeopath"},
+        {route:"beruehmte-george-vithoulkas", label:"Portrait: Prof. George Vithoulkas (SO5w4) – major 20th-century homeopath"},
         {route:"beruehmte-bruno-groening", label:"Portrait: Bruno Gröning (SO1w2)"},
         {route:"beruehmte-roald-amundsen", label:"Portrait: Roald Amundsen (SO1w9)"},
       ])}
@@ -3126,7 +3126,7 @@ export function rajanSankaranPortraitPage() {
 
         <h2 class="vb-section">5. Parallels: Prof. George Vithoulkas, Dr. Samuel Hahnemann and Dr. Claudio Naranjo</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="#beruehmte-george-vithoulkas">Prof. George Vithoulkas (SO3w4)</a>, like Sankaran, designed a system of levels, the ‘Levels of Health’, and built his own academy for it; in his portrait the pursuit of public recognition predominates, in Sankaran the expansion of the order. <a href="#beruehmte-samuel-hahnemann">Dr. Samuel Hahnemann (SO1w9)</a> laid down the basic rules of case-taking to which Sankaran refers and which he supplements. <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> mapped the 27 subtypes, Sankaran maps kingdoms and families; both put a map in their students' hands.</p>
+          <p class="vb-intro"><a href="#beruehmte-george-vithoulkas">Prof. George Vithoulkas (SO5w4)</a>, like Sankaran, designed a system of levels, the ‘Levels of Health’, and built his own academy for it; both put their field in order, in Vithoulkas the Four wing carries personal depth, in Sankaran the Six wing carries loyalty to tradition. <a href="#beruehmte-samuel-hahnemann">Dr. Samuel Hahnemann (SO1w9)</a> laid down the basic rules of case-taking to which Sankaran refers and which he supplements. <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> mapped the 27 subtypes, Sankaran maps kingdoms and families; both put a map in their students' hands.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Reach through teaching and tools</h2>
@@ -3147,7 +3147,7 @@ export function rajanSankaranPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so5", label:"SO5 – The octopus: subtype profile"},
-        {route:"beruehmte-george-vithoulkas", label:"Portrait: Prof. George Vithoulkas (SO3w4)"},
+        {route:"beruehmte-george-vithoulkas", label:"Portrait: Prof. George Vithoulkas (SO5w4)"},
         {route:"beruehmte-samuel-hahnemann", label:"Portrait: Dr. Samuel Hahnemann (SO1w9)"},
         {route:"beruehmte-claudio-naranjo", label:"Portrait: Dr. Claudio Naranjo (SO5w4)"},
         {route:"lebensmusterkompass", label:"Life Pattern Compass"},

@@ -2337,46 +2337,51 @@ export function georgeVithoulkasPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-george-vithoulkas-portrait.jpg" alt="Prof. George Vithoulkas – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Prof. George Vithoulkas</p>
-        <p class="krim-portrait-typ">SO3w4 · Social Type 3 with Four-wing</p>
-        <p class="krim-portrait-subtitle">Greek homeopath, b. 1932 – Animal correspondence: Cheetah</p>
+        <p class="krim-portrait-typ">SO5w4 &middot; Social Type 5 with a Four wing</p>
+        <p class="krim-portrait-subtitle">Greek homeopath, b. 1932 &ndash; animal counterpart: octopus</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Cheetah Who Re-founded an Entire Discipline</h2>
+        <h2 class="vb-section">1. The octopus: the teacher who withdrew to an island</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Cheetah</strong> is the emblem of the social Three – fast, striking, built for the one decisive moment that carries an entire career. George Vithoulkas, born 1932 in Athens, studied homeopathy in South Africa and received his diploma from the Indian Institute of Homeopathy in 1966. Back in Greece, he began teaching a small group of doctors classical homeopathy – the therapeutic success of these first doctors quickly attracted further attention. In recognition of his life's work, the Greek University of the Aegean appointed him Honorary Professor in 2011, and he also holds several honorary doctorates, including from the medical academies of Kyiv and Moscow – since then he has consistently been referred to as Professor Vithoulkas.</p>
-          <p class="vb-intro">In 1970, this grew into the Athenian School of Homeopathic Medicine, and in 1994 he founded the International Academy for Classical Homeopathy on the Greek island of Alonissos for the postgraduate training of physicians, homeopathic practitioners, and other interested professionals from around the world – with a clear emphasis on physicians, since there are far more medical doctors than dedicated homeopathic practitioners worldwide (that specific profession, in the German sense of "Heilpraktiker," is largely a German peculiarity). Numerous American homeopaths traveled specifically to the remote island to learn what became known as the "Vithoulkas method" directly from him. The cheetah used the one moment when his knowledge proved effective to build an international institution out of it.</p>
+          <p class="vb-intro">An <strong>octopus</strong> withdraws into a den and orders its territory from there. George Vithoulkas, born in 1932 in Athens, studied homeopathy in South Africa and received his diploma from the Indian Institute of Homeopathy in 1966. Back in Greece, he began teaching a small group of doctors classical homeopathy – the therapeutic success of these first doctors quickly attracted further attention. In recognition of his life's work, the Greek University of the Aegean appointed him Honorary Professor in 2011, and he also holds several honorary doctorates, including from the medical academies of Kyiv and Moscow – since then he has consistently been referred to as Professor Vithoulkas.</p>
+          <p class="vb-intro">In 1970 this grew into the Athenian School of Homeopathic Medicine, and in 1994 he founded the International Academy for Classical Homeopathy on the Greek island of Alonissos for the postgraduate training of physicians, homeopathic practitioners and other interested professionals from around the world – with a clear emphasis on physicians, since there are far more medical doctors than dedicated homeopathic practitioners worldwide (that profession, in the German sense of ‘Heilpraktiker’, is largely a German peculiarity). Numerous American homeopaths travelled specifically to the remote island to learn what became known as the ‘Vithoulkas method’ directly from him.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Social Three: Worldwide Recognition for a Marginal Discipline</h2>
+        <h2 class="vb-section">2. The social Five: a body of theory as a shared emblem</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>social Three (SO3)</strong> looks for success not in a protected niche, but in the broadest, most publicly visible recognition possible – even when her own field is socially contested. In 1996, Vithoulkas was honored in Stockholm with the Right Livelihood Award, often called the "alternative Nobel Prize," for his outstanding contribution to the revival of homeopathic knowledge and to the education of homeopaths at the highest level.</p>
-          <p class="vb-intro">His books were translated into twenty languages and significantly shaped the worldwide practice of homeopathy – not as a regional footnote, but as an internationally recognized life's work, deliberately built for global visibility.</p>
+          <p class="vb-intro">‘Totem’ is how <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> described the aim of the social Five: a sign that binds the knowers of a group. In Vithoulkas this can be linked to his body of theory: the ‘Levels of Health’ and the ‘Vithoulkas method’ became a reference point by which homeopaths in many countries oriented their approach. In 1996 he was honoured in Stockholm with the Right Livelihood Award, often called the ‘alternative Nobel Prize’, for his contribution to the revival of homeopathic knowledge and to the education of homeopaths at the highest level.</p>
+          <p class="vb-intro">His books were translated into twenty languages and are regarded by many practitioners as reference works to orient themselves by.</p>
+          <p class="vb-intro">The drawing shows full, brushed-back, slightly tousled grey hair with high temples, a high forehead with horizontal lines, calm brows and deep-set, somewhat heavy lids with bags beneath. The gaze is gentle, direct and a little turned inward. The nose is broad, the mouth closed with a slightly crooked, mild smile, and deep furrows run from the nose to the corners of the mouth, the nasolabial folds (from Latin nasus, nose, and labium, lip). He wears a dark jacket over a white collar.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Four-wing: Consciousness Development Instead of Pure Symptom Doctrine</h2>
+        <h2 class="vb-section">3. The Four wing: consciousness development instead of pure symptom doctrine</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Four-wing (w4)</strong> brings the social Three a depth that goes beyond professional competence. Vithoulkas explicitly linked humanity's spiritual evolution to its state of health, holding that without this connection, physicians could not achieve truly radical, lasting cure – a vision in which consciousness and body are inseparably bound together.</p>
-          <p class="vb-intro">His conversations with the philosopher Jiddu Krishnamurti and his own theory of "Levels of Health" – a twelve-stage system for classifying a patient's state of health, developed over 57 years – show the same Four-wing depth: a highly individual, decades-refined intellectual construction that reaches far beyond craft-level symptom doctrine. That he deliberately located his academy on a remote island rather than bringing it to a major city for mass-market reach fits this search for depth over sheer scale.</p>
+          <p class="vb-intro">The <strong>Four wing (w4)</strong> gives the Five a personal depth that goes beyond professional knowledge. Vithoulkas explicitly linked humanity's spiritual evolution to its state of health, holding that without this connection physicians could not achieve truly radical, lasting cure – a vision in which consciousness and body are inseparably bound together.</p>
+          <p class="vb-intro">His conversations with the philosopher Jiddu Krishnamurti and his own theory of ‘Levels of Health’ – a twelve-stage system for classifying a patient's state of health, developed over 57 years – show the same Four-wing depth: a highly individual, decades-refined intellectual construction that reaches far beyond craft-level symptom doctrine. That he deliberately located his academy on a remote island rather than bringing it to a major city for mass-market reach fits this search for depth and the Five's retreat to a place from which it can put things in order.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The Actual Achievement: A Systematic Body of Theory</h2>
+        <h2 class="vb-section">4. The actual achievement: a systematic body of theory</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">What actually distinguishes Vithoulkas is the systematization of a field that had previously been strongly experience-based and inconsistent: his main work "The Science of Homeopathy" (1977) and the later, fully developed theory of "Levels of Health" provide written, traceable criteria for classifying a patient's state of health and assessing the prognosis of homeopathic treatment – an attempt to give a field rules and predictability that had barely been systematically described before.</p>
+          <p class="vb-intro">What actually distinguishes Vithoulkas is the systematisation of a field that had previously been strongly experience-based and inconsistent: his main work ‘The Science of Homeopathy’ (1977) and the later, fully developed theory of ‘Levels of Health’ provide written, traceable criteria for classifying a patient's state of health and assessing the prognosis of homeopathic treatment – an attempt to give a field rules and predictability that had barely been systematically described before.</p>
           <p class="vb-intro">This substance explains why his books are regarded worldwide as reference works: not merely a personal philosophy, but a set of tools other practitioners can use to work with and classify their own cases.</p>
-          <p class="vb-intro">His approach also found practical expression in RadarOpus, the world's leading homeopathic software system: a dedicated add-on module, the "Vithoulkas Expert System," was built specifically to digitally reproduce his characteristic thought process for symptom analysis and remedy selection – a sign of how deeply his approach has entered the everyday practice of homeopaths worldwide. The same software also carries, as its own separate add-on module, "Rathmer's Repertorium" – with well over 20,000 mind/emotion rubrics the most comprehensive reference work on psychological homeopathy, written by this compass's own author, Detlef Rathmer.</p>
+          <p class="vb-intro">His approach also found practical expression in RadarOpus, the world's leading homeopathic software system: a dedicated add-on module, the ‘Vithoulkas Expert System’, was built specifically to digitally reproduce his characteristic thought process for symptom analysis and remedy selection – a sign of how deeply his approach has entered the everyday practice of homeopaths worldwide. The same software also carries, as its own separate add-on module, ‘Rathmer's Repertorium’ – with well over 20,000 mind/emotion rubrics the most comprehensive reference work on psychological homeopathy, written by this compass's own author, Detlef Rathmer.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and Shadow</h2>
+        <h2 class="vb-section">5. Parallels in the same subtype: Dr. Rajan Sankaran and Dr. Claudio Naranjo</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In the light, Vithoulkas's SO3w4 shows someone who did not seek public recognition at the expense of professional depth, but consistently combined the two for decades – international visibility for a body of work that remained highly personal and individually shaped at the same time.</p>
-          <p class="vb-intro">The shadow of the Three shows in the fact that a life's work so strongly centered on one's own theory and person also carries the risk of making it harder to admit criticism or alternative views within one's own discipline – a pattern not uncommon among founders of their own comprehensive theoretical framework, when their own interpretive authority becomes a central part of the public image.</p>
+          <p class="vb-intro"><a href="#beruehmte-rajan-sankaran">Dr. Rajan Sankaran (SO5w6)</a>, like Vithoulkas, cast case-taking into a system of levels, his seven levels of experience, and trained students in many countries in it; in him the Six wing carries loyalty to tradition, in Vithoulkas the Four wing carries personal depth. <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> shares the Four wing with him: both combined professional knowledge with a teaching about inner growth.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The Healing Path</h2>
+        <h2 class="vb-section">6. Light and shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Three's healing path leads from the question <em>Am I only valuable through what I achieve and how it is perceived?</em> to the realization <em>I am valuable, even beyond public recognition.</em> That Vithoulkas explicitly linked his teaching to "laws of spiritual growth," rather than cultivating pure professional authority, points to a mature side of the same pattern: success becomes a means toward a deeper question that reaches beyond himself.</p>
-          <p class="vb-intro">The cheetah who used its speed not only to shine itself, but to put an entire discipline on a new, systematic foundation – and who never stopped asking about the depth behind the pure symptomatology.</p>
+          <p class="vb-intro">In the light, Vithoulkas's SO5w4 shows someone who did not keep his knowledge to himself but poured it into a system others can use – depth and passing-on were consistently combined for decades, with a body of work that remained highly personal at the same time.</p>
+          <p class="vb-intro">The shadow of the Five shows in the fact that a life's work so strongly centred on one's own theory and person also carries the risk of making it harder to admit criticism or alternative views within one's own discipline – a pattern not uncommon among founders of their own comprehensive theoretical framework, when their own interpretive authority becomes a central part of the public image.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The healing path</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The social Five's path of development leads from the question <em>Do I belong because I know and put things in order?</em> to the realisation <em>I belong, even without displaying my knowledge.</em> That Vithoulkas explicitly linked his teaching to ‘laws of spiritual growth’, rather than cultivating pure professional authority, points to a mature side of the same pattern: knowledge becomes a means toward a deeper question that reaches beyond himself.</p>
         </blockquote>
 
       </div>
@@ -2385,9 +2390,9 @@ export function georgeVithoulkasPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/so3", label:"SO3 – The Cheetah: subtype profile"},
-        {route:"beruehmte-pedro-alonso", label:"Portrait: Pedro Alonso (SO3w4)"},
-        {route:"beruehmte-leon-goretzka", label:"Portrait: Leon Goretzka (SO3w4)"},
+        {route:"subtype/so5", label:"SO5 – The octopus: subtype profile"},
+        {route:"beruehmte-rajan-sankaran", label:"Portrait: Dr. Rajan Sankaran (SO5w6)"},
+        {route:"beruehmte-claudio-naranjo", label:"Portrait: Dr. Claudio Naranjo (SO5w4)"},
         {route:"beruehmte-samuel-hahnemann", label:"Portrait: Dr. Samuel Hahnemann (SO1w9) – founder of homeopathy"},
       ])}
     </div>

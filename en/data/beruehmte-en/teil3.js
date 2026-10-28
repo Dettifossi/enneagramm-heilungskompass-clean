@@ -2301,7 +2301,7 @@ export function pedroAlonsoPortraitPage() {
         {route:"subtype/so3", label:"SO3 – The Cheetah: subtype profile"},
         {route:"beruehmte-dmitri-hvorostovsky", label:"Portrait: Dmitri Hvorostovsky (SO3w2)"},
         {route:"beruehmte-leon-goretzka", label:"Portrait: Leon Goretzka (SO3w4)"},
-        {route:"beruehmte-george-vithoulkas", label:"Portrait: Prof. George Vithoulkas (SO3w4)"},
+        {route:"beruehmte-george-vithoulkas", label:"Portrait: Prof. George Vithoulkas (SO5w4)"},
       ])}
     </div>
   `);

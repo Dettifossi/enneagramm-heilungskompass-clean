@@ -2299,7 +2299,7 @@ export function leonGoretzkaPortraitPage() {
         {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
         {route:"beruehmte-pedro-alonso", label:"Porträt: Pedro Alonso (SO3w4)"},
         {route:"beruehmte-virgil-van-dijk", label:"Porträt: Virgil van Dijk (SO3w2)"},
-        {route:"beruehmte-george-vithoulkas", label:"Porträt: Prof. George Vithoulkas (SO3w4)"},
+        {route:"beruehmte-george-vithoulkas", label:"Porträt: Prof. George Vithoulkas (SO5w4)"},
         {route:"beruehmte-franziska-van-almsick", label:"Porträt: Franziska van Almsick (SO3w4)"},
         {route:"beruehmte-bruce-lee", label:"Porträt: Bruce Lee (SO3w4)"},
       ])}

@@ -3166,7 +3166,7 @@ export function rajanSankaranPortraitPage() {
 
         <h2 class="vb-section">5. Parallelen: Prof. George Vithoulkas, Dr. Samuel Hahnemann und Dr. Claudio Naranjo</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="#beruehmte-george-vithoulkas">Prof. George Vithoulkas (SO3w4)</a> hat wie Sankaran ein Stufensystem entworfen, die ›Levels of Health‹ (Gesundheitsstufen), und baute dafür eine eigene Akademie auf; bei ihm überwiegt das Streben nach öffentlicher Anerkennung, bei Sankaran der Ausbau der Ordnung. <a href="#beruehmte-samuel-hahnemann">Dr. Samuel Hahnemann (SO1w9)</a> legte die Grundregeln der Fallaufnahme fest, auf die Sankaran sich bezieht und die er ergänzt. <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> kartografierte die 27 Subtypen, Sankaran kartografiert Reiche und Familien; beide gaben ihren Schülern eine Landkarte in die Hand.</p>
+          <p class="vb-intro"><a href="#beruehmte-george-vithoulkas">Prof. George Vithoulkas (SO5w4)</a> hat wie Sankaran ein Stufensystem entworfen, die ›Levels of Health‹ (Gesundheitsstufen), und baute dafür eine eigene Akademie auf; beide ordneten ihr Fach, bei Vithoulkas trägt der Viererflügel die persönliche Tiefe, bei Sankaran der Sechserflügel die Treue zur Überlieferung. <a href="#beruehmte-samuel-hahnemann">Dr. Samuel Hahnemann (SO1w9)</a> legte die Grundregeln der Fallaufnahme fest, auf die Sankaran sich bezieht und die er ergänzt. <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> kartografierte die 27 Subtypen, Sankaran kartografiert Reiche und Familien; beide gaben ihren Schülern eine Landkarte in die Hand.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Reichweite durch Lehre und Werkzeuge</h2>
@@ -3187,7 +3187,7 @@ export function rajanSankaranPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
-        {route:"beruehmte-george-vithoulkas", label:"Porträt: Prof. George Vithoulkas (SO3w4)"},
+        {route:"beruehmte-george-vithoulkas", label:"Porträt: Prof. George Vithoulkas (SO5w4)"},
         {route:"beruehmte-samuel-hahnemann", label:"Porträt: Dr. Samuel Hahnemann (SO1w9)"},
         {route:"beruehmte-claudio-naranjo", label:"Porträt: Dr. Claudio Naranjo (SO5w4)"},
         {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
