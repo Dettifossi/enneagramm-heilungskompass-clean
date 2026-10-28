@@ -11343,7 +11343,7 @@ function kaufenPage() {
  <li>✓ Over ${(Math.floor((BERUEHMT_PORTRAITS.length + KRANKHEITS_PORTRAITS.length + KRIMINAL_PORTRAITS.length + ASTROLOGIE_PORTRAITS.length + BIBEL_PORTRAITS.length) / 100) * 100).toLocaleString("en-US")} portraits: famous personalities, criminal cases, illness, astrology and Bible portraits</li>
  <li>✓ Life, illness and crime pattern compasses</li>
  <li>✓ Enneagram Memory</li>
- <li>✓ Access guaranteed for at least 5 years, new portraits included</li>
+ <li>✓ Access guaranteed for at least 5 years, new portraits in that time included</li>
  <li>✓ Upgrade to full access at any time, your $ 44 is credited</li>
  </ul>
  <p style="font-size:.88rem;color:var(--muted);line-height:1.5;margin:0 0 1.2rem;">Not included: the 27 subtype profiles, the remedies, the type tests, and the charts and tools. These come with full access.</p>

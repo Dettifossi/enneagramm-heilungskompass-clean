@@ -36178,7 +36178,7 @@ function kaufenPage() {
  <li>✓ Über ${(Math.floor((BERUEHMT_PORTRAITS.length + KRANKHEITS_PORTRAITS.length + KRIMINAL_PORTRAITS.length + ASTROLOGIE_PORTRAITS.length + BIBEL_PORTRAITS.length) / 100) * 100).toLocaleString("de-DE")} Porträts: berühmte Persönlichkeiten, Kriminalfälle, Krankheitsporträts, Astrologie und Bibel</li>
  <li>✓ Lebens-, Krankheits- und Kriminalmusterkompass</li>
  <li>✓ Enneagramm-Memory</li>
- <li>✓ Mindestens 5 Jahre Zugang garantiert, neue Porträts inklusive</li>
+ <li>✓ Mindestens 5 Jahre Zugang garantiert, neue Porträts in dieser Zeit inklusive</li>
  <li>✓ Jederzeit auf den Vollzugang erweiterbar, die 39 € werden angerechnet</li>
  </ul>
  <p style="font-size:.88rem;color:var(--muted);line-height:1.5;margin:0 0 1.2rem;">Nicht enthalten: die 27 Subtyp-Profile, die Heilmittel, die Typentests sowie die Schaubilder und Tools. Diese gibt es im Vollzugang.</p>
