@@ -20098,7 +20098,7 @@ function kerneberzeugungPage() {
       <p class="lead-small">Every Enneagram type carries an often unconscious core belief about themselves and the world &ndash; it arose in childhood and has governed thinking, feeling, and acting ever since. This overview shows the core belief of each of the 9 types in connection with the triad structure.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="../assets/schaubilder/kerneberzeugungen/kerneberzeugungen.jpg"
-             alt="Die tiefsten Kernüberzeugungen der 9 Enneagrammtypen"
+             alt="The deepest core beliefs of the 9 Enneagram types"
              class="psycho-img" />
       </div>
 
@@ -20405,11 +20405,11 @@ function schutzdefizitePage() {
     ${pageHeader("schutzdefizite")}
     <section class="narrow">
       <p class="eyebrow">Charts &middot; Triads</p>
-      <h1>Schutz-Defizite der Triaden</h1>
+      <h1>Protection Deficits of the Triads</h1>
       <p class="lead-small">The gut, heart, and head triads each carry a characteristic protection deficit: the gut triad fears restriction, the heart triad loss of love, the head triad loss of trust. These unconscious deficits shape the behavior of all three types within a triad.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="../assets/schaubilder/schutzdefizite/schutzdefizite.jpg"
-             alt="Die Schutz-Defizite der Bauch-, Herz- und Kopftriade"
+             alt="The protection deficits of the gut, heart and head triads"
              class="psycho-img" />
       </div>
       <div style="margin:2.5rem 0 0;">
@@ -20441,7 +20441,7 @@ function lasterTugendenAffirmationenPage() {
     ${pageHeader("laster-tugenden-affirmationen")}
     <section class="narrow">
       <p class="eyebrow">Charts &middot; Vices &middot; Virtues &middot; Affirmations</p>
-      <h1>Laster, Tugenden & Affirmationen der 9 Enneagrammtypen</h1>
+      <h1>Vices, Virtues &amp; Affirmations of the 9 Enneagram Types</h1>
       <p class="lead-small">Every Enneagram type has a characteristic vice (the concentrated passion) and a virtue as its healing counterpart. The affirmations speak directly to the deepest need of each type.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="../assets/schaubilder/laster-tugenden-affirmationen/laster-tugenden-affirmationen.jpg"
@@ -20491,7 +20491,7 @@ function spirituelleUebungenPage() {
       <p class="lead-small">Every Enneagram type has their own spiritual longing &mdash; and thus also their own spiritual practice. This overview shows which inner movement carries each type on their path to self-knowledge.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="../assets/schaubilder/spirituelle-uebungen/spirituelle-uebungen.jpg"
-             alt="Spezielle spirituelle Übungen für die 9 Enneagrammtypen"
+             alt="Special spiritual exercises for the 9 Enneagram types"
              class="psycho-img" />
       </div>
 
@@ -21428,7 +21428,7 @@ function homoeopathieSongsPage() {
 
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="${CDN}schaubilder/enneagramm-homoeopathie-songs.png"
-             alt="Enneagramm-Homöopathie-Songs"
+             alt="Enneagram homeopathy songs"
              class="psycho-img" />
       </div>
 
@@ -21690,11 +21690,11 @@ function weihnachtsgeschenkePage() {
     ${pageHeader("weihnachtsgeschenke")}
     <section class="narrow">
       <p class="eyebrow">Charts &middot; Christmas</p>
-      <h1>Die 9 Geschenke der Enneagrammtypen an die Welt</h1>
+      <h1>The 9 Gifts of the Enneagram Types to the World</h1>
       <p class="lead-small">Each of the 9 Enneagram types brings a unique gift &mdash; a special contribution they naturally carry into the world. This festive overview shows what each type has to give to the world.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="../assets/schaubilder/weihnachtsgeschenke/weihnachtsgeschenke.jpg"
-             alt="Die 9 Enneagrammtypen und ihre Geschenke an die Welt"
+             alt="The 9 Enneagram types and their gifts to the world"
              class="psycho-img" />
       </div>
 
@@ -21718,7 +21718,7 @@ function weihnachtsgeschenkePage() {
         <p class="lead-small" style="margin-bottom:1.2rem;">At Christmas, the mask may finally fall. This heartfelt wish is addressed to each of the 9 types &mdash; with an invitation to let go of oneself a little.</p>
         <div class="psycho-img-wrap">
           <img src="../assets/schaubilder/weihnachtsgeschenke/weihnachtswuensche.jpg"
-               alt="Weihnachtswünsche an alle 9 Enneagrammtypen"
+               alt="Christmas wishes to all 9 Enneagram types"
                class="psycho-img" />
         </div>
         <div class="vb-section" style="max-width:100%;margin-top:1.2rem;">
@@ -22091,7 +22091,7 @@ function egoPersoenlichkeitPage() {
       <p class="lead-small">The 9 Enneagram types fundamentally possess a specific ego personality structure that implicitly contains a fundamental mistrust toward reality. Due to the failure of the holding environment, the child already lacks basic trust &ndash; which leads to a disconnection from Being and to the activation of the ego, within which the person learns to feel &bdquo;safe.&ldquo; The Enneagram points out the different variations of how the ego of the individual types develops to cope with the shocks, fractures, and disruptions of the holding environment.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="../assets/schaubilder/ego-persoenlichkeit/ego-persoenlichkeit.jpg"
-             alt="Die Entwicklung der Ego-Persönlichkeit der 9 Enneagrammtypen"
+             alt="The development of the ego personality of the 9 Enneagram types"
              class="psycho-img" />
       </div>
       <div style="margin:2.5rem 0 0;">
@@ -22217,11 +22217,11 @@ function dreiZentrenPage() {
     ${pageHeader("drei-zentren")}
     <section class="narrow">
       <p class="eyebrow">Charts &middot; Three Centers</p>
-      <h1>Die drei Intelligenzzentren der 9 Enneagrammtypen</h1>
+      <h1>The Three Intelligence Centers of the 9 Enneagram Types</h1>
       <p class="lead-small">Head, heart, and gut &mdash; each Enneagram type uses these three intelligence centers in their own way. This overview shows how their usage differs at worst and at best.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="../assets/schaubilder/drei-zentren/drei-zentren.jpg"
-             alt="Die drei Intelligenzzentren der 9 Enneagrammtypen"
+             alt="The Three Intelligence Centers of the 9 Enneagram Types"
              class="psycho-img" />
       </div>
 
@@ -22705,7 +22705,7 @@ function fuehrungsstilePage() {
       <p class="lead-small">Every Enneagram type leads in their own unique way &mdash; shaped by their passion, strengths, and blind spot. This overview shows the typical leadership styles of the 9 types from their own perspective.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="../assets/schaubilder/fuehrungsstile/fuehrungsstile.jpg"
-             alt="Die Führungsstile der 9 Enneagrammtypen"
+             alt="The leadership styles of the 9 Enneagram types"
              class="psycho-img" />
       </div>
 
@@ -22722,7 +22722,7 @@ function fuehrungsstilePage() {
           <div><span style="font-weight:700;color:#cc6e00;">Type 9 &ndash; The Peaceful One:</span> Leadership through consensus, agreement, unity.<br><span style="color:var(--muted);font-size:.85rem;">Strength under pressure: actively takes a position instead of avoiding conflict through withdrawal.</span></div>
         </div>
         <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">"From humility grows responsible leadership." (Laozi, presumably 6th century BC)</p>
-        <p class="vb-intro" style="margin-top:1.2rem;">How each type really reacts under responsibility, conflict, and time pressure &ndash; and how that becomes mature, effective leadership &ndash; is explored by David L. Rathmer in the section <a href="javascript:void(0)" data-route="david-rathmer-fuehrung-mit-fundament">Führung mit Fundament</a>.</p>
+        <p class="vb-intro" style="margin-top:1.2rem;">How each type really reacts under responsibility, conflict, and time pressure &ndash; and how that becomes mature, effective leadership &ndash; is explored by David L. Rathmer in the section <a href="javascript:void(0)" data-route="david-rathmer-fuehrung-mit-fundament">Führung mit Fundament (Leadership with a Foundation)</a>.</p>
       </div>
       ${bookTip("fuehrung-mit-fundament", "632 pages of depth psychology for leaders: the nine leadership types, their blind spots, and the path to mature, effective leadership.", "Führung mit Fundament")}
       ${bookTip("meta-intelligenz", "Meta-Intelligence: How the Enneagram strengthens leaders in their deepest effectiveness.", "Meta-Intelligenz")}
@@ -23218,7 +23218,7 @@ function tierentsprechungenPage() {
       <p class="psycho-intro">Characteristic animals are assigned to each of the 27 subtypes, whose nature, behavior, and survival strategies mirror the respective subtype. The image shows the visual overview; the table below systematically lists all correspondences by type and instinct (SP &middot; SO &middot; SX).</p>
       <img
         src="../assets/tierentsprechungen-kreis.jpg"
-        alt="Tierentsprechungen Enneagramm-Kreis"
+        alt="Animal equivalents on the Enneagram circle"
         style="width:100%;border-radius:12px;margin-bottom:1.8rem;display:block;"
       />
       <h2 style="font-size:1rem;font-weight:700;margin-bottom:.9rem;color:var(--ink);">All 27 Subtypes at a Glance</h2>
@@ -23235,7 +23235,7 @@ function tierentsprechungenPage() {
       </div>
       <img
         src="../assets/tierentsprechungen-portraits.png"
-        alt="Tierportr\xe4ts aller 27 Enneagramm-Subtypes"
+        alt="Animal portraits of all 27 Enneagram subtypes"
         style="width:100%;border-radius:12px;margin-bottom:1.8rem;display:block;"
       />
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(195px,1fr));gap:.75rem;margin-bottom:2rem;">
@@ -34886,7 +34886,7 @@ function hochsensibilitaetDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Hochsensibilität der 9 Typen", "Charts · Archetypen")}
       <p class="psycho-intro">These traits are frequently pronounced in a strong form in highly sensitive people, as the universal primal principles manifest themselves within a person in an excessively one-sidedly intense way. These qualities can be both a blessing and a curse in individual cases.</p>
-      <img src="../assets/hochsensibilitaet-der-9-typen.jpg" alt="Hochsensibilität der 9 Enneagrammtypen – Schaubild"
+      <img src="../assets/hochsensibilitaet-der-9-typen.jpg" alt="High sensitivity of the 9 Enneagram types – chart"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -37603,7 +37603,7 @@ function schaubilderAlsSpiegelPage() {
       <p class="psycho-intro">How we react to a presentation often reveals more about us than the presentation itself. No one absorbs charts neutrally &ndash; everyone reads and interprets them through their own structure.</p>
       <img
         src="../assets/schaubilder-als-spiegel.jpg"
-        alt="Charts als Spiegel der inneren Struktur"
+        alt="Charts as mirrors of the inner structure"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
 
@@ -37631,7 +37631,7 @@ function schaubilderAlsSpiegelPage() {
         <h2 style="font-family:'EB Garamond',serif;font-size:1.4rem;color:var(--anthracite);margin:0 0 0.75rem;">Not a Judgment &ndash; A Mirror</h2>
         <img
           src="../assets/enneagramm-als-spiegel.jpg"
-          alt="Das Enneagramm ist ein Spiegel, kein Urteil. Wer mit Typen etikettiert, verletzt die Freiheit des Anderen."
+          alt="The Enneagram is a mirror, not a verdict. Whoever labels others with types violates their freedom."
           style="width:100%;border-radius:8px;margin:0.75rem 0 1.25rem;"
         />
         <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1rem 0;">The Enneagram is an instrument for self-knowledge &ndash; not a classification system for others. This distinction sounds self-evident but is frequently blurred in everyday life. Anyone who assigns a type to someone based on a first impression, who dismisses reactions from friends or colleagues as &bdquo;typical Seven&ldquo; or &bdquo;that's just the Eight in him,&ldquo; is using the Enneagram as a judgment &ndash; and is thus doing exactly what it is supposed to prevent.</p>
@@ -37770,7 +37770,7 @@ function interessanteErkenntnissePage() {
       <p class="psycho-intro">What many people believe they know about the nine Enneagram types &ndash; and what is really behind it. Nine observations from decades of therapeutic and diagnostic practice.</p>
       <img
         src="../assets/interessante-erkenntnisse.jpg"
-        alt="Neun interessante Erkenntnisse zu den Enneagrammtypen"
+        alt="Nine interesting insights about the Enneagram types"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
 
@@ -37827,7 +37827,7 @@ function bedeutungSubtypesPage() {
       <p class="psycho-intro">Anyone who seriously engages with the Enneagram cannot bypass the 27 subtypes. It is a fundamental misconception to believe that one can initially &bdquo;just start with the nine types&ldquo; and add the subtypes later &ndash; because without them, the picture remains too crude for serious typing.</p>
       <img
         src="../assets/bedeutung-27-subtypen.jpg"
-        alt="Die Bedeutung der 27 Subtypes im Enneagramm"
+        alt="The meaning of the 27 subtypes in the Enneagram"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
 
@@ -37884,7 +37884,7 @@ function identifikationPage() {
 
         <p class="vb-intro">This sentence contains a paradox that is not immediately obvious at first. When someone asks: »How do you break free from your pattern?«, the obvious answer is often: »By working on yourself.« But the Enneagram shows something different – and deeper: The pattern does not become quieter through effort, but through changing distance.</p>
 
-        <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:1.6rem 0 .5rem;">Was Identifikation bedeutet</h2>
+        <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:1.6rem 0 .5rem;">What Identification Means</h2>
         <p class="vb-intro">Identification means: I mistake the pattern for myself. I do not experience my passion as something happening within me – but as who I am. The Type Two person does not say: »I notice that I tend to help unasked.« They experience helping as their core, as their worth, as their identity. The Type Eight person does not experience their power as a pattern manifesting – but as who they are.</p>
         <p class="vb-intro">As long as I identify with the pattern, there is no observer for it. And without an observer, there is no freedom.</p>
 
@@ -38223,7 +38223,7 @@ function sucheNachLiebePage() {
 
       <img
         src="../assets/suche-nach-liebe.jpg"
-        alt="Die Search nach der wahren Liebe – alle 9 Enneagrammtypen"
+        alt="The search for true love – all 9 Enneagram types"
         style="width:100%;border-radius:8px;margin:1.75rem 0 2rem;"
       />
 
@@ -39090,7 +39090,7 @@ function rumiZitatePage() {
 
       <img
         src="../assets/rumi-zitate.jpg"
-        alt="Rumi-Zitate für die 9 Enneagrammtypen"
+        alt="Rumi quotes for the 9 Enneagram types"
         style="width:100%;border-radius:8px;margin:1.75rem 0 2rem;"
       />
 
@@ -39206,11 +39206,11 @@ function verantwortungPage() {
     ${pageHeader("verantwortung")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts &middot; Profiling &middot; Self-Knowledge</p>
-      <h1 class="section-title">Verantwortung im Enneagramm</h1>
+      <h1 class="section-title">Responsibility in the Enneagram</h1>
       <p class="psycho-intro">Knowing your own type is the beginning. Truly seeing it &ndash; without defending it &ndash; that is the actual step.</p>
       <img
         src="../assets/verantwortung.jpg"
-        alt="Verantwortung im Enneagramm"
+        alt="Responsibility in the Enneagram"
         style="width:100%;border-radius:8px;margin:1.5rem 0;"
       />
 
@@ -39261,39 +39261,39 @@ function hunderassenPage() {
       <div class="vb-section" style="max-width:100%;">
         <p class="vb-intro">Dogs show us what we rarely see so directly in ourselves: the unmasked core movement of a character. No dog makes excuses, none plays a role. What it is, it shows &ndash; in posture, gaze, and behavior. Exactly why dog breeds are so well-suited as living mirrors of the nine Enneagram principles.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Typ 1 &ndash; Der Perfektionist &middot; <em>Terrier</em></h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Type 1 &ndash; The Perfectionist &middot; <em>Terrier</em></h2>
         <p style="font-size:0.82rem;color:var(--copper);margin:0 0 0.5rem;font-weight:600;">Alert &middot; Correct &middot; Responsive</p>
         <p class="vb-intro">The terrier was bred to accomplish one thing perfectly &ndash; and it does not let go until it is done. Once set on a trail, distraction is unthinkable. Its upright, tense posture signals: Here is someone who is always ready to do the right thing &ndash; and who knows precisely what that is. It scarcely tolerates mistakes, neither in itself nor in others.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Typ 2 &ndash; Der Helfer &middot; <em>Bernhardiner</em></h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Type 2 &ndash; The Helper &middot; <em>Bernhardiner</em></h2>
         <p style="font-size:0.82rem;color:var(--copper);margin:0 0 0.5rem;font-weight:600;">Caring &middot; Approachable &middot; Protective</p>
         <p class="vb-intro">The St. Bernard was bred over centuries to rescue people in distress &ndash; a helper through and through. Its massive body size stands in astonishing contrast to its gentle, almost tender aura. It gives everything without asking whether it was called. Proximity to humans is not a duty for it, but a calling &ndash; and its entire being radiates that.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Typ 3 &ndash; Der Macher &middot; <em>Labrador</em></h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Type 3 &ndash; The Achiever &middot; <em>Labrador</em></h2>
         <p style="font-size:0.82rem;color:var(--copper);margin:0 0 0.5rem;font-weight:600;">Active &middot; Capable &middot; Friendly</p>
         <p class="vb-intro">The Labrador is one of the most highly trained working dogs in the world &ndash; guide dog, rescue dog, therapy dog. It is always geared toward success, eager to learn, and adaptable, while radiating a lightness that almost feels like joy. This mix of performance and charm makes it the perfect image of the Three: It delivers &ndash; and looks effortlessly good doing it.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Typ 4 &ndash; Der Romantiker &middot; <em>Basset Hound</em></h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Type 4 &ndash; The Romantic &middot; <em>Basset Hound</em></h2>
         <p style="font-size:0.82rem;color:var(--copper);margin:0 0 0.5rem;font-weight:600;">Sensitive &middot; Deep &middot; Melancholic</p>
         <p class="vb-intro">The Basset Hound carries its melancholy on its face &ndash; drooping ears, heavy gaze, calm dignity. It is a dog that feels deeply and does not hide it. Not a dog that gets excited quickly, but one that is loyally and deeply connected to what it loves. Its slowness is not sluggishness, but the gesture of a creature that takes things seriously &ndash; perhaps a bit too seriously.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Typ 5 &ndash; Der Denker &middot; <em>Chow Chow</em></h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Type 5 &ndash; The Thinker &middot; <em>Chow Chow</em></h2>
         <p style="font-size:0.82rem;color:var(--copper);margin:0 0 0.5rem;font-weight:600;">Withdrawn &middot; Independent &middot; Observant</p>
         <p class="vb-intro">The Chow Chow is among the oldest and most independent dog breeds in the world. It seeks no validation, no constant contact &ndash; it observes, thinks, and decides for itself when it shows itself. Its distanced nature is often misunderstood as coldness, but is an expression of deep interiority. It does not easily give away parts of itself &ndash; and precisely that makes it enigmatic and fascinating at once.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Typ 6 &ndash; Der Pflichtbewusste &middot; <em>Schäferhund</em></h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Type 6 &ndash; The Dutiful One &middot; <em>German Shepherd</em></h2>
         <p style="font-size:0.82rem;color:var(--copper);margin:0 0 0.5rem;font-weight:600;">Loyal &middot; Vigilant &middot; Security-Oriented</p>
         <p class="vb-intro">The German Shepherd is the born guardian &ndash; loyal, vigilant, and profoundly geared toward security. It needs clear structures and trustworthy leadership; without them, it grows restless and suspicious. Its probing gazes are no sign of aggression, but of unremitting attention: It wants to ensure everything is in order. And when it is, there is no more faithful companion.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Typ 7 &ndash; Der Spaßmacher &middot; <em>Mops</em></h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Type 7 &ndash; The Fun-Maker &middot; <em>Mops</em></h2>
         <p style="font-size:0.82rem;color:var(--copper);margin:0 0 0.5rem;font-weight:600;">Playful &middot; Vibrant &middot; Pleasure-Oriented</p>
         <p class="vb-intro">The Pug is an epicurean. It loves life, needs little, but wants to experience everything &ndash; preferably with an audience. Its expressive, almost human face and effervescent temperament make it a born entertainer. Boredom is the worst thing imaginable to it &ndash; and it makes sure it never arises in the first place. What is missing is simply invented.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Typ 8 &ndash; Der Beschützer &middot; <em>Rottweiler</em></h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Type 8 &ndash; The Protector &middot; <em>Rottweiler</em></h2>
         <p style="font-size:0.82rem;color:var(--copper);margin:0 0 0.5rem;font-weight:600;">Powerful &middot; Assertive &middot; Dominant</p>
         <p class="vb-intro">The Rottweiler is power, clarity, and presence combined. It is not an aggressive dog &ndash; it is a self-confident dog. It marks its space, protects its pack, and shows everyone immediately who is in charge. Its quiet strength is the opposite of impulsivity: It is conscious might. Whoever truly knows it knows that beneath the hardness lies an extraordinary protector.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Typ 9 &ndash; Der Friedliebende &middot; <em>Beagle</em></h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Type 9 &ndash; The Peace-Lover &middot; <em>Beagle</em></h2>
         <p style="font-size:0.82rem;color:var(--copper);margin:0 0 0.5rem;font-weight:600;">Relaxed &middot; Friendly &middot; Connecting</p>
         <p class="vb-intro">The Beagle is a dog for everyone &ndash; accessible, friendly, conflict-avoidant. It seeks harmony within the pack and possesses the extraordinary ability to connect different groups. Its open, soft nature makes it universally popular &ndash; and universally underestimated. For the Beagle also has a strong will; it just never shows it as confrontation, but as silent persistence.</p>
 
@@ -39728,6 +39728,40 @@ function egoFixierungenPage() {
 
         ${bookTip("hinter-der-leidenschaft", "From Ego Fixation to Essence: the nine wounds and their remedies according to the Rathmer Enneagram.", "Hinter der Leidenschaft &ndash; Die neun Wunden des Enneagramms")}
         ${bookTip("heilung-als-erinnerung", "Healing as a Return to Essence &ndash; the spiritual dimension of the Enneagram in practice.", "Heilung als Erinnerung")}
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">The Chart in Text: The 9 Ego Fixations at a Glance</h2>
+        <p class="vb-intro">According to Ichazo, every human being is shaped by a fundamental ego fixation. These fixations are not personality traits but distortions of consciousness that separate us from our true essence and presence.</p>
+        <p class="vb-intro"><strong>The basic assumption according to Ichazo</strong></p>
+        <ul class="sp-list">
+          <li>Every type is a strategy of the ego to secure survival.</li>
+          <li>These strategies arise from a lack of Being (loss of essence).</li>
+          <li>The goal is not to become a better type, but to see through the fixation and return to presence (essence).</li>
+        </ul>
+        <p class="vb-intro"><strong>The 3 centers of the intelligence apparatus</strong></p>
+        <ul class="sp-list">
+          <li>Head center &ndash; thinking: Types 5, 6, 7. Distortion: fear.</li>
+          <li>Heart center &ndash; feeling: Types 2, 3, 4. Distortion: identification.</li>
+          <li>Gut center &ndash; instinct: Types 8, 9, 1. Distortion: anger / inertia.</li>
+        </ul>
+        <p class="vb-intro"><strong>The theory of prototypes</strong><br>The 9 ego fixations are prototypes (archetypal patterns) that the ego uses to assert itself. They are universal, timeless and present in every human being as a possibility. Through becoming aware, a person can transcend the fixation and return to their essence (true Being).</p>
+        <p class="vb-intro"><strong>The nine fixations</strong></p>
+        <ul class="sp-list" style="list-style:none;padding-left:0;">
+          <li style="margin-bottom:.8rem;"><strong>9 &ndash; Inertia (Forgetting)</strong><br>Fixation: I forget my essence.<br>Basic mechanism: Avoidance &middot; Basic emotion: Inertia<br>Distortion: Identification with uniformity<br>Illusion: &lsquo;I must not disturb anyone and want nothing.&rsquo;<br>Liberation: Presence and inner alertness</li>
+          <li style="margin-bottom:.8rem;"><strong>8 &ndash; Justice (Lust)</strong><br>Fixation: I must be strong.<br>Basic mechanism: Confrontation &middot; Basic emotion: Lust (dominance)<br>Distortion: Control and power<br>Illusion: &lsquo;If I rule, I am safe.&rsquo;<br>Liberation: Gentleness and receptivity</li>
+          <li style="margin-bottom:.8rem;"><strong>7 &ndash; Idealism (Planning)</strong><br>Fixation: I must be happy.<br>Basic mechanism: Avoidance &middot; Basic emotion: Greed / dissatisfaction<br>Distortion: Distraction<br>Illusion: &lsquo;If I plan everything, I avoid pain.&rsquo;<br>Liberation: Presence and simplicity</li>
+          <li style="margin-bottom:.8rem;"><strong>6 &ndash; Security (Cowardice)</strong><br>Fixation: I need security.<br>Basic mechanism: Fear &middot; Basic emotion: Fear<br>Distortion: Doubt and projection<br>Illusion: &lsquo;If I am safe, I am protected.&rsquo;<br>Liberation: Trust and inner support</li>
+          <li style="margin-bottom:.8rem;"><strong>5 &ndash; Avarice (Avaritia)</strong><br>Fixation: I withdraw.<br>Basic mechanism: Withdrawal &middot; Basic emotion: Avarice (energy)<br>Distortion: Isolation<br>Illusion: &lsquo;If I need nothing, I am safe.&rsquo;<br>Liberation: Participation and generosity</li>
+          <li style="margin-bottom:.8rem;"><strong>4 &ndash; Authenticity (Envy)</strong><br>Fixation: I must be special.<br>Basic mechanism: Identification &middot; Basic emotion: Envy<br>Distortion: Awareness of lack<br>Illusion: &lsquo;If I am unique, I will be accepted.&rsquo;<br>Liberation: Wholeness and fullness</li>
+          <li style="margin-bottom:.8rem;"><strong>3 &ndash; Efficiency (Vanity)</strong><br>Fixation: I must be successful.<br>Basic mechanism: Adaptation &middot; Basic emotion: Vanity / shame<br>Distortion: Identification with performance<br>Illusion: &lsquo;If I perform, I am worthy.&rsquo;<br>Liberation: Genuineness and inner worth</li>
+          <li style="margin-bottom:.8rem;"><strong>2 &ndash; Help (Pride)</strong><br>Fixation: I must be needed.<br>Basic mechanism: Dependency &middot; Basic emotion: Pride<br>Distortion: I give in order to receive<br>Illusion: &lsquo;If I help, I am lovable.&rsquo;<br>Liberation: Unconditional love</li>
+          <li style="margin-bottom:.8rem;"><strong>1 &ndash; Perfection (Resentment)</strong><br>Fixation: I must be right.<br>Basic mechanism: Control &middot; Basic emotion: Anger (suppressed)<br>Distortion: Moral superiority<br>Illusion: &lsquo;If I am perfect, I am good and safe.&rsquo;<br>Liberation: Acceptance and compassion</li>
+        </ul>
+        <p class="vb-intro"><strong>The goal according to Ichazo:</strong> return to essence beyond the fixation. Presence instead of identification. Being instead of strategy.</p>
+        <p class="vb-intro"><strong>Essence (true Being):</strong> Essence is our original state: unity, wisdom, love, peace and clarity. It is not something we must achieve, but something to be recognized and allowed again.</p>
+        <p class="vb-intro"><strong>The fixation:</strong> Through early identifications and emotional injuries, a fixation arises. The ego builds a strategy to avoid pain and to protect itself. This strategy becomes habit and separates us from our essence.</p>
+        <p class="vb-intro"><strong>The path:</strong> becoming aware of the fixation &middot; recognizing the illusion &middot; letting go of identification &middot; returning to presence &middot; integrating all parts.</p>
+        <p class="vb-intro"><strong>The 3 forces (according to Ichazo):</strong> every person has three fundamental forces: will (rising upward), love (connecting from the center) and intelligence (descending downward). Their balance leads to essence.</p>
+      </div>
         ${relatedLinks([
           {route:"grundformel", label:"Basic Formula of the Rathmer Enneagram"},
           {route:"wunden", label:"Wounds & Protective Strategies"},
@@ -39821,7 +39855,7 @@ function dieNeuenEnneagrammTypenPage() {
       <p class="vb-anmerkung" style="font-style:italic;color:var(--muted);font-size:0.9rem;margin:-1rem 0 1.8rem;">A note on the title: the nine types themselves are ancient, not new. "The New Enneagram Types" refers to the new, deeper perspective this chart offers. The core belief as a mediating level was already known within the Enneagram; what's new is primarily the underlying <strong>wound</strong> itself: it is the result of Detlef Rathmer's own therapeutic research over the past ten years, presented in full in his book "Hinter der Leidenschaft" ("Behind the Passion"). The wound adds a previously undescribed, deeper dimension to the classic picture of the nine passions.</p>
       <div class="vb-section" style="max-width:100%;">
         <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">Three levels instead of two</h2>
-        <p class="vb-intro">The chart <a href="javascript:void(0)" data-route="leidenschaft-und-wunde">Leidenschaft und Wunde</a> (Passion and Wound) sets the visible passion against the deep-lying wound. This chart goes one step further and inserts a third, mediating level in between: the <strong>core belief</strong> – the sentence with which the mind justifies the passion in everyday life, before it ever becomes visible which wound actually lies behind it.</p>
+        <p class="vb-intro">The chart <a href="javascript:void(0)" data-route="leidenschaft-und-wunde">Passion and Wound</a> sets the visible passion against the deep-lying wound. This chart goes one step further and inserts a third, mediating level in between: the <strong>core belief</strong> – the sentence with which the mind justifies the passion in everyday life, before it ever becomes visible which wound actually lies behind it.</p>
         <p class="vb-intro">This creates a chain that reads the same way for each of the nine types: the <strong>passion</strong> is what becomes visible from the outside – a recurring behavioral pattern. "Underneath" lies the <strong>core belief</strong>, which makes this behavior feel logical and necessary to the type itself. "Deeper still" lies the actual <strong>wound</strong> – the earliest, mostly unconscious basic assumption about oneself and the world from which everything else first arises.</p>
 
         <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Why the order matters</h2>
@@ -39901,7 +39935,7 @@ function leidenschaftUndWundePage() {
         <p class="vb-intro">In the Enneagram, we distinguish between two levels that together form the picture of a type: the passion and the wound. Both belong together inextricably – and yet they are fundamentally different. The passion is what we can see from the outside: a behavioral pattern, a primary emotional tint, a recurring reaction. The wound, on the other hand, is what underlies this passion – a deep inner conviction, usually arising from an early experience, that has sunk into the unconscious.</p>
         <p class="vb-intro">Whoever sees only the passion sees the symptom. Whoever understands the wound understands the person.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Die Leidenschaft: sichtbare Ebene</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">The Passion: The Visible Level</h2>
         <p class="vb-intro">Passion is not a positive concept in the Enneagram. It denotes that central soul energy that repeatedly pulls a type's thinking, feeling, and acting in a certain direction – often without the person noticing it themselves. The resentment of the One, the pride of the Two, the vanity of the Three – these are not character flaws, but deeply engraved orientation reactions. They once arose as an answer to a difficult inner reality. Today, they operate largely automatically.</p>
         <p class="vb-intro">The diagram shows for each of the nine types how this passion manifests concretely – in a sentence that captures the inner experience succinctly: The world is not as it should be. Or: I want to experience everything and miss out on nothing. Or: I want life fully, strongly, and without restriction. These are sentences that many people immediately recognize in their type – sometimes startled, sometimes relieved.</p>
 
@@ -39909,12 +39943,26 @@ function leidenschaftUndWundePage() {
         <p class="vb-intro">Behind every passion lies a wound – a core assumption about oneself and the world that has engraved itself so deeply that it is no longer perceived as a conviction, but as reality. The Two does not merely believe they must not have needs – they experience it that way. The Three does not experience it as an opinion, but as a fact, that their being is not enough. The Six does not experience trust as something that might be possible – but as something they once lost and that will not return.</p>
         <p class="vb-intro">These wounds are not rationally accessible. They cannot simply be thought away or positive-thought away. They require a different kind of work: compassion, attention, time – and the Enneagram as a guidebook that shows where to look in the first place.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Vom Symptom zur Wurzel</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">From Symptom to Root</h2>
         <p class="vb-intro">The real power of this diagram lies in the juxtaposition. Whoever reads their own sentence in the passion column and then sees the corresponding wound sentence beside it often experiences a quiet inner moment. Not because something new is said – but because something familiar, which one has felt for a long time but never seen so clearly, is suddenly put into words.</p>
         <p class="vb-intro">Healing in the Enneagram begins right there: not with the attempt to suppress the passion, but with the loving understanding of the wound behind it. For whoever understands the root no longer has to fight against the branch.</p>
 
         <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Passion is the language of the wound. Whoever understands it stops judging &ndash; and begins to heal. &ndash; Detlef Rathmer</blockquote>
 
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">The Chart in Text: Passion and Wound of the 9 Types</h2>
+        <ul class="sp-list" style="list-style:none;padding-left:0;">
+          <li style="margin-bottom:.7rem;"><strong>Type 1 &ndash; Reformer / Perfectionist</strong><br>Passion (visible level): <strong>Resentment / Anger</strong> &ndash; &lsquo;The world is not the way it should be.&rsquo;<br>Wound (deep inner conviction): The world is not in order. I have to correct it, otherwise everything goes wrong.</li>
+          <li style="margin-bottom:.7rem;"><strong>Type 2 &ndash; Helper / Giver</strong><br>Passion (visible level): <strong>Pride</strong> &ndash; &lsquo;I am important because I am needed.&rsquo;<br>Wound (deep inner conviction): I must not have needs, otherwise I lose love and significance.</li>
+          <li style="margin-bottom:.7rem;"><strong>Type 3 &ndash; Achiever / Performer</strong><br>Passion (visible level): <strong>Vanity / Self-deception</strong> &ndash; &lsquo;I am only valuable if I am successful.&rsquo;<br>Wound (deep inner conviction): My being is not enough. I am only lovable if I achieve something.</li>
+          <li style="margin-bottom:.7rem;"><strong>Type 4 &ndash; Individualist / Romantic</strong><br>Passion (visible level): <strong>Envy</strong> &ndash; &lsquo;Something essential is missing in me.&rsquo;<br>Wound (deep inner conviction): I am separated from love and connectedness. I feel lost.</li>
+          <li style="margin-bottom:.7rem;"><strong>Type 5 &ndash; Observer / Thinker</strong><br>Passion (visible level): <strong>Avarice</strong> &ndash; &lsquo;I do not have enough resources.&rsquo;<br>Wound (deep inner conviction): I do not have enough, inwardly and outwardly, for the demands of life.</li>
+          <li style="margin-bottom:.7rem;"><strong>Type 6 &ndash; Loyalist / Skeptic</strong><br>Passion (visible level): <strong>Fear</strong> &ndash; &lsquo;I need security outside of myself.&rsquo;<br>Wound (deep inner conviction): I have lost trust. The world is not reliable.</li>
+          <li style="margin-bottom:.7rem;"><strong>Type 7 &ndash; Enthusiast / Optimist</strong><br>Passion (visible level): <strong>Gluttony / Intemperance</strong> &ndash; &lsquo;I want to experience everything and miss nothing.&rsquo;<br>Wound (deep inner conviction): I did not get enough. I run away from pain.</li>
+          <li style="margin-bottom:.7rem;"><strong>Type 8 &ndash; Doer / Boss</strong><br>Passion (visible level): <strong>Lust / Intensity</strong> &ndash; &lsquo;I want life whole, strong and without limits.&rsquo;<br>Wound (deep inner conviction): I must never be powerless again. Only strength protects me.</li>
+          <li style="margin-bottom:.7rem;"><strong>Type 9 &ndash; Peacemaker / Mediator</strong><br>Passion (visible level): <strong>Sloth / Self-forgetting</strong> &ndash; &lsquo;I adapt and forget myself.&rsquo;<br>Wound (deep inner conviction): My will and my space are not allowed to exist fully.</li>
+        </ul>
+      </div>
         ${bookTip("hinter-der-leidenschaft", "The nine wounds of the Enneagram – where they originate, how they shape life, and which remedies correspond to them.", "Hinter der Leidenschaft &ndash; Die neun Wunden des Enneagramms")}
         ${bookTip("leidenschaft-und-heilung", "Passions, virtues, and paths of healing of all 27 Subtypes – directly from therapeutic practice.", "Leidenschaft und Heilung")}
         ${relatedLinks([
@@ -40641,7 +40689,7 @@ function gifteDesGeistesPage() {
       <p class="lead-small">The Tibetan Buddhist tradition knows three &bdquo;poisons of the mind&ldquo; (greed, hatred, ignorance) that must come to rest so that inner peace can arise. The Enneagram assigns the 9 passions to these three core movements.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="../assets/schaubilder/gifte-des-geistes/gifte-des-geistes.jpg"
-             alt="Die 3 Gifte des Geistes und die 9 Enneagramm-Leidenschaften"
+             alt="The 3 poisons of the mind and the 9 Enneagram passions"
              class="psycho-img" />
       </div>
       <div style="margin-top:2rem; display:flex; flex-direction:column; gap:1rem;">
@@ -40665,6 +40713,25 @@ function gifteDesGeistesPage() {
         </div>
       </div>
       ${bookTip("leidenschaft-und-heilung", "The 9 Passions and Their Buddhist Roots &ndash; with paths of healing from homeopathic practice.", "Leidenschaft und Heilung")}
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">The Chart in Text: The Nine Passions and Their Energies</h2>
+        <p class="vb-intro">The three &lsquo;poisons of the mind&rsquo; are three movements of the mind that must come to rest so that the 9 passions do not arise in the first place &ndash; what one could then call inner peace. Peace arises when mindfulness allows a &lsquo;fourth movement&rsquo; to appear that is no movement at all, but a non-movement in the mind, a mental stillness.</p>
+        <ul class="sp-list">
+          <li><strong>Type 9 &ndash; Sloth / Self-forgetfulness:</strong> Blocked gut energy leads to ignorance toward self-assertion.</li>
+          <li><strong>Type 1 &ndash; Anger / Resentment:</strong> Transformed gut energy leads to hatred toward lack of structure.</li>
+          <li><strong>Type 2 &ndash; Pride / Self-complacency:</strong> Excess heart energy leads to craving for love.</li>
+          <li><strong>Type 3 &ndash; Vanity / Deception:</strong> Blocked heart energy leads to ignorance toward feelings.</li>
+          <li><strong>Type 4 &ndash; Envy / Ill will:</strong> Transformed heart energy leads to hatred toward uniformity.</li>
+          <li><strong>Type 5 &ndash; Avarice / Acquisitiveness:</strong> Excess head energy leads to craving for time.</li>
+          <li><strong>Type 6 &ndash; Fear, anxiety / Doubt:</strong> Blocked head energy leads to ignorance of what is new.</li>
+          <li><strong>Type 7 &ndash; Gluttony / Intemperance:</strong> Transformed head energy leads to hatred toward monotony.</li>
+          <li><strong>Type 8 &ndash; Lust / Greed:</strong> Excess gut energy leads to craving for action.</li>
+        </ul>
+        <p class="vb-intro">The three poisons are the underlying emotional movements of the triangles: <strong>anger, rage, resentment</strong> (gut), <strong>sadness, grief over a loss, emotional pain</strong> (heart) and <strong>fear, dread, insecurity</strong> (head).</p>
+        <p class="vb-intro">All three mental movements are movements away from myself. When the three mental movements come to rest, I rest in myself.</p>
+        <p class="vb-intro">Our entire human being is steered, more or less unconsciously, by these three &lsquo;poisons of the mind&rsquo;. Tibetan medicine assigns them as the basis of the physiological body humors: wind (greed), bile (hatred) and phlegm (delusion). Their harmonious balance is responsible for health or illness.</p>
+        <p class="vb-intro">The three Buddhist &lsquo;poisons of the mind&rsquo; (greed, hatred, delusion) are also called &lsquo;mental defilements&rsquo; or &lsquo;roots of the unhealed&rsquo;, which points to the fundamental purifiability, or original otherness, of the mind. Their counterparts are freedom from greed, freedom from hatred and freedom from delusion.</p>
+      </div>
       ${relatedLinks([
         {route:"neun-logismoi", label:"9 Logismoi according to Evagrius"},
         {route:"leidenschaft-und-wunde", label:"Passion & Wound"},
@@ -41425,7 +41492,7 @@ function nichtRealeVorstellungenPage() {
 
         <h2 style="font-size:1.05rem;font-weight:700;margin:2rem 0 1rem;color:var(--ink);">How the Image Shows in Life Stories</h2>
         <p class="vb-intro">In the portraits of Famous Personalities one can read how the main idea of a type returns in a life thread, outwardly in events, inwardly in a life theme. According to the author's observation the image of the wilderness shows most purely in the self-preservation Five, in whom it is about pure self-preservation. Sections exist for these portraits:</p>
-        <ul style="margin:0.6rem 0 0.6rem 1.1rem;line-height:1.8;"><li><strong>Type 1:</strong> <a href="#beruehmte-marcel-reich-ranicki">Marcel Reich-Ranicki</a>, <a href="#beruehmte-steve-jobs">Steve Jobs</a></li><li><strong>Type 2:</strong> <a href="#beruehmte-jesus-christus">Jesus Christus</a>, <a href="#beruehmte-elvis-presley">Elvis Presley</a></li><li><strong>Type 3:</strong> <a href="#beruehmte-harry-houdini">Harry Houdini</a>, <a href="#beruehmte-william-shakespeare">William Shakespeare</a></li><li><strong>Type 4:</strong> <a href="#beruehmte-leonard-cohen">Leonard Cohen</a>, <a href="#beruehmte-hippokrates-von-kos">Hippokrates von Kos</a></li><li><strong>Type 5:</strong> <a href="#beruehmte-juliane-koepcke">Juliane Koepcke</a>, <a href="#beruehmte-jean-jacques-rousseau">Jean-Jacques Rousseau</a>, <a href="#beruehmte-hermann-hesse">Hermann Hesse</a>, <a href="#beruehmte-edward-snowden">Edward Snowden</a>, <a href="#beruehmte-hannah-arendt">Hannah Arendt</a>, <a href="#beruehmte-lise-meitner">Lise Meitner</a>, <a href="#beruehmte-blaise-pascal">Blaise Pascal</a>, <a href="#beruehmte-franz-kafka">Franz Kafka</a></li><li><strong>Type 6:</strong> <a href="#beruehmte-fjodor-dostojewski">Fjodor Dostojewski</a></li><li><strong>Type 7:</strong> <a href="#beruehmte-jeanne-marie-guyon">Madame Guyon</a></li><li><strong>Type 8:</strong> <a href="#beruehmte-gerhard-schroeder">Gerhard Schröder</a>, <a href="#beruehmte-helmut-kohl">Helmut Kohl</a>, <a href="#beruehmte-franz-josef-strauss">Franz Josef Strau&szlig;</a>, <a href="#beruehmte-john-wayne">John Wayne</a></li><li><strong>Type 9:</strong> <a href="#beruehmte-eleanor-roosevelt">Eleanor Roosevelt</a></li></ul>
+        <ul style="margin:0.6rem 0 0.6rem 1.1rem;line-height:1.8;"><li><strong>Type 1:</strong> <a href="#beruehmte-marcel-reich-ranicki">Marcel Reich-Ranicki</a>, <a href="#beruehmte-steve-jobs">Steve Jobs</a></li><li><strong>Type 2:</strong> <a href="#beruehmte-jesus-christus">Jesus Christus</a>, <a href="#beruehmte-elvis-presley">Elvis Presley</a></li><li><strong>Type 3:</strong> <a href="#beruehmte-harry-houdini">Harry Houdini</a>, <a href="#beruehmte-william-shakespeare">William Shakespeare</a></li><li><strong>Type 4:</strong> <a href="#beruehmte-leonard-cohen">Leonard Cohen</a>, <a href="#beruehmte-hippokrates-von-kos">Hippocrates of Kos</a></li><li><strong>Type 5:</strong> <a href="#beruehmte-juliane-koepcke">Juliane Koepcke</a>, <a href="#beruehmte-jean-jacques-rousseau">Jean-Jacques Rousseau</a>, <a href="#beruehmte-hermann-hesse">Hermann Hesse</a>, <a href="#beruehmte-edward-snowden">Edward Snowden</a>, <a href="#beruehmte-hannah-arendt">Hannah Arendt</a>, <a href="#beruehmte-lise-meitner">Lise Meitner</a>, <a href="#beruehmte-blaise-pascal">Blaise Pascal</a>, <a href="#beruehmte-franz-kafka">Franz Kafka</a></li><li><strong>Type 6:</strong> <a href="#beruehmte-fjodor-dostojewski">Fjodor Dostojewski</a></li><li><strong>Type 7:</strong> <a href="#beruehmte-jeanne-marie-guyon">Madame Guyon</a></li><li><strong>Type 8:</strong> <a href="#beruehmte-gerhard-schroeder">Gerhard Schröder</a>, <a href="#beruehmte-helmut-kohl">Helmut Kohl</a>, <a href="#beruehmte-franz-josef-strauss">Franz Josef Strau&szlig;</a>, <a href="#beruehmte-john-wayne">John Wayne</a></li><li><strong>Type 9:</strong> <a href="#beruehmte-eleanor-roosevelt">Eleanor Roosevelt</a></li></ul>
 
         <p class="vb-intro">The rubric details refer to James Tyler Kent's "Repertory of the Homœopathic Materia Medica" (digital edition by Homéopathe International; individual rubrics such as "vow" and "wilderness" appear only in later editions, not in the first edition of 1897).</p>
 
@@ -41686,11 +41753,11 @@ function aufmerksamkeitsfokusPage() {
     ${pageHeader("aufmerksamkeitsfokus")}
     <section class="narrow">
       <p class="eyebrow">Charts &middot; Focus of Attention</p>
-      <h1>Aufmerksamkeitsfokus & Blindheit der 9 Enneagrammtypen</h1>
+      <h1>Focus of Attention &amp; Blind Spots of the 9 Enneagram Types</h1>
       <p class="lead-small">Every Enneagram type unconsciously directs their focus of attention toward certain aspects of life &mdash; while fading out others. This overview shows what each type pays special attention to and what consequently remains in their blind spot.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="../assets/schaubilder/aufmerksamkeitsfokus/aufmerksamkeitsfokus.jpg"
-             alt="Aufmerksamkeitsfokus und Blindheit der 9 Enneagrammtypen"
+             alt="Focus of attention and blind spots of the 9 Enneagram types"
              class="psycho-img" />
       </div>
 
