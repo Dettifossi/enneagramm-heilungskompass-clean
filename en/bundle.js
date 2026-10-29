@@ -59,6 +59,7 @@ function _needData(key) {
 const _VS = {
   "rp": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-rote-pille-en.mp4", name: "Red-Pill-Blue-Avatar.mp4", title: "Red Pill, Blue Avatar", text: "Red Pill, Blue Avatar: What The Matrix, Avatar, Inception and The Game reveal about the Enneagram. More in the Enneagram Healing Compass: https://kompass.verlagshausrathmer.com/en/", yt: "https://youtu.be/vWy6UM4rb9Q" },
   "mm": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-montagmorgen-en.mp4", name: "Monday-Morning-Thoughts.mp4", title: "Monday Morning Thoughts of the 9 Types", text: "Monday Morning Thoughts of the 9 Enneagram Types: Which voice was yours? More in the Enneagram Healing Compass: https://kompass.verlagshausrathmer.com/en/", yt: "https://youtu.be/-5GPY2cVdgM" },
+  "wh": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-weihnachten-en.mp4", name: "Christmas-The-mask-may-fall.mp4", title: "Christmas: The mask may fall", text: "Christmas: The mask may fall. Nine types, nine wishes. Which mask will you set aside? More in the Enneagram Healing Compass: https://kompass.verlagshausrathmer.com/en/", yt: "" },
 };
 const _vsState = {};
 async function _vsClick(btn) {
@@ -21734,6 +21735,16 @@ function weihnachtsgeschenkePage() {
           </div>
         </div>
       </div>
+  <div style="margin:2rem 0 0;text-align:center;">
+    <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .3rem;color:var(--ink);">The mask may fall &ndash; as a short film</h2>
+    <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">About 45 seconds, with sound: nine Christmas wishes, nine gifts. The button below sends a version with a link to the compass to friends and acquaintances, even if they do not have the app yet.</p>
+    <video controls playsinline preload="none" poster="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/weihnachten-en-poster.jpg" aria-label="Short film of the Christmas wishes to all 9 types" style="display:block;width:100%;max-width:340px;margin:0 auto;border-radius:14px;background:#111;box-shadow:0 4px 18px rgba(0,0,0,.18);">
+      <source src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/weihnachten-en.mp4" type="video/mp4">
+    </video>
+    <div style="margin:.9rem 0 0;"><button type="button" data-share-video="wh" style="font:inherit;font-weight:700;font-size:.95rem;padding:.65rem 1.3rem;border:2px solid var(--copper);border-radius:999px;background:var(--paper);color:var(--copper);cursor:pointer;">&#8599; Share video</button></div>
+    <p style="font-size:.8rem;color:var(--muted);margin:.7rem 0 0;">Music: &lsaquo;Christmas&rsaquo; by Detlef Rathmer</p>
+  </div>
+
       ${bookTip("die-sprache-unserer-beziehungen", "Every type has a unique gift for relationships &ndash; discover the language of intimacy.", "Die Sprache unserer Beziehungen")}
       ${relatedLinks([
         {route:"geschenkideen", label:"Gift Ideas for the 9 Types"},

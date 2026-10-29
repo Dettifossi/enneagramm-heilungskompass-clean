@@ -149,6 +149,12 @@ Menüpunkte (Wissen, Praxis, Schaubilder …) erhalten seit 04.10.2026 automatis
 
 Der Blickqualitäten-Atlas (`blickqualitaetenAtlasPage()` in `bundle.js`/`en/bundle.js`) zieht seine Porträtkacheln live aus `BERUEHMT_PORTRAITS`/`KRANKHEITS_PORTRAITS`/`KRIMINAL_PORTRAITS`; das Bild kommt aus `BQA_IMG_MAP` (Route → Bildname, URL `…/assets/portraits/<Bildname>-portrait.jpg`). Fehlt der Eintrag, bleibt die Kachel eine leere, farbige Fläche. Für Routen mit Präfix `beruehmte-` gibt es seit 04.10.2026 einen automatischen Fallback (Route = Bildname). **Bei Krankheits- und Kriminalporträts ohne Berühmte-Persönlichkeiten-Porträt derselben Person** sowie bei abweichenden Bildnamen den Eintrag in `BQA_IMG_MAP` **in beiden Bundles** ergänzen (bei Krankheitsporträts zu einer Person, die schon unter Berühmten steht: auf deren Bildnamen zeigen, z. B. `"krankheitsportraets-x": "beruehmte-x"`). Das Porträtbild selbst muss unter diesem Namen auf R2 liegen. Neue Porträtbilder gehören **nur auf R2**, nicht ins Repo (Speicherplatz: `.git` liegt bei ~0,7 GB, jedes Bild kostet dauerhaft ~1,5 MB; GitHub Pages erlaubt max. 1 GB veröffentlichte Seite). Ausnahme nur auf ausdrückliche Anweisung. Der Atlas hat einen lokalen Fallback (`/assets/portraits/…`) für Bilder, die im Repo liegen, aber das ist ein Notbehelf.
 
+## Kurzfilme (Videos zu Artikeln und Schaubildern)
+
+Seit 29.10.2026 gibt es Kurzfilme (45–60 s, mit Song des Nutzers, DE+EN) unter ausgewählten Artikeln: Praxistipp »Rote Pille, blauer Avatar«, Schaubild »Montagmorgen-Gedanken«, Schaubild »Weihnachtswünsche«. **Die ganze Vorgehensweise steht im Skill `.claude/skills/neues-video/SKILL.md`** (Themenwahl, Song, Takt-Synchronisation, Rendern per Chrome+ffmpeg, Fassungen, R2-Upload, Videoblock + Teilen-Knopf in der App, Homepage-Abschnitt, Lehren). Vorlagen und Skripte liegen in `.claude/skills/neues-video/vorlagen/`.
+
+Kurzregeln: Videodateien **nur auf R2** (`kompass-assets/assets/videos/`), nie ins Repo; DE und EN immer zusammen; nur eigene Grafik, keine Filmausschnitte; der Nutzer lädt selbst bei YouTube hoch und schickt die Links (Eintrag in `_VS.yt`); in der App die Fassung **ohne** Werbeblock, zum Teilen die Fassung **mit** Link; Dateien für den Nutzer mit `open -R` im Finder zeigen; insgesamt nur etwa 10 Themen.
+
 ## graphify
 
 This project has a knowledge graph at graphify-out/ with god nodes, community structure, and cross-file relationships.
