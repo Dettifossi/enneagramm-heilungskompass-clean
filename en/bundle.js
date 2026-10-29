@@ -38299,6 +38299,51 @@ function sucheNachLiebePage() {
         <p class="qs-q">Which line touches you?</p>
       </div>
 
+      <div class="qs-wrap qs-sub">
+        <style>
+          .qs-sub details{margin:0 0 .7rem;}
+          .qs-sub summary{cursor:pointer;list-style:none;font-weight:700;font-size:.95rem;letter-spacing:.06em;text-transform:uppercase;background:#2a2320;color:#f6e7c8;border-radius:30px;padding:.55rem 1.1rem;text-align:center;}
+          .qs-sub summary::-webkit-details-marker{display:none}
+          .qs-sub details[open] summary{margin-bottom:.7rem;}
+        </style>
+        <h2>Essence for the subtypes</h2>
+        <p class="qs-intro">The instinct also colors what takes the place of love. The same reversal, ordered by instinct. The terms are approximations drawn from the subtype texts, not fixed labels.</p>
+        <details><summary>Self-preservation (SP)</summary>
+          <div class="qs-row" style="--c:#5f5f5f"><span class="qs-num">1</span><div class="qs-txt"><div class="qs-cap">SP1 &middot; Perfectionist</div><div class="qs-l1">Discipline instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of discipline</div></div></div>
+          <div class="qs-row" style="--c:#7a2fa8"><span class="qs-num">2</span><div class="qs-txt"><div class="qs-cap">SP2 &middot; Helper</div><div class="qs-l1">Care instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of care</div></div></div>
+          <div class="qs-row" style="--c:#1fa688"><span class="qs-num">3</span><div class="qs-txt"><div class="qs-cap">SP3 &middot; Dynamic One</div><div class="qs-l1">Efficiency instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of efficiency</div></div></div>
+          <div class="qs-row" style="--c:#3cbf1f"><span class="qs-num">4</span><div class="qs-txt"><div class="qs-cap">SP4 &middot; Individualist</div><div class="qs-l1">Perseverance instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of perseverance</div></div></div>
+          <div class="qs-row" style="--c:#124fcc"><span class="qs-num">5</span><div class="qs-txt"><div class="qs-cap">SP5 &middot; Thinker</div><div class="qs-l1">Withdrawal instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of withdrawal</div></div></div>
+          <div class="qs-row" style="--c:#8a5222"><span class="qs-num">6</span><div class="qs-txt"><div class="qs-cap">SP6 &middot; Loyal Skeptic</div><div class="qs-l1">Allies instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of allies</div></div></div>
+          <div class="qs-row" style="--c:#d4a800"><span class="qs-num">7</span><div class="qs-txt"><div class="qs-cap">SP7 &middot; Optimist</div><div class="qs-l1">Pleasure instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of pleasure</div></div></div>
+          <div class="qs-row" style="--c:#a00802"><span class="qs-num">8</span><div class="qs-txt"><div class="qs-cap">SP8 &middot; Challenger</div><div class="qs-l1">Autonomy instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of autonomy</div></div></div>
+          <div class="qs-row" style="--c:#cc6e00"><span class="qs-num">9</span><div class="qs-txt"><div class="qs-cap">SP9 &middot; Peaceful One</div><div class="qs-l1">Comfort instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of comfort</div></div></div>
+        </details>
+        <details><summary>Social (SO)</summary>
+          <div class="qs-row" style="--c:#5f5f5f"><span class="qs-num">1</span><div class="qs-txt"><div class="qs-cap">SO1 &middot; Perfectionist</div><div class="qs-l1">Principles instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of principles</div></div></div>
+          <div class="qs-row" style="--c:#7a2fa8"><span class="qs-num">2</span><div class="qs-txt"><div class="qs-cap">SO2 &middot; Helper</div><div class="qs-l1">Engagement instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of engagement</div></div></div>
+          <div class="qs-row" style="--c:#1fa688"><span class="qs-num">3</span><div class="qs-txt"><div class="qs-cap">SO3 &middot; Dynamic One</div><div class="qs-l1">Recognition instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of recognition</div></div></div>
+          <div class="qs-row" style="--c:#3cbf1f"><span class="qs-num">4</span><div class="qs-txt"><div class="qs-cap">SO4 &middot; Individualist</div><div class="qs-l1">Being special instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of being special</div></div></div>
+          <div class="qs-row" style="--c:#124fcc"><span class="qs-num">5</span><div class="qs-txt"><div class="qs-cap">SO5 &middot; Thinker</div><div class="qs-l1">Understanding instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of understanding</div></div></div>
+          <div class="qs-row" style="--c:#8a5222"><span class="qs-num">6</span><div class="qs-txt"><div class="qs-cap">SO6 &middot; Loyal Skeptic</div><div class="qs-l1">Duty instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of duty</div></div></div>
+          <div class="qs-row" style="--c:#d4a800"><span class="qs-num">7</span><div class="qs-txt"><div class="qs-cap">SO7 &middot; Optimist</div><div class="qs-l1">Ideals instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of ideals</div></div></div>
+          <div class="qs-row" style="--c:#a00802"><span class="qs-num">8</span><div class="qs-txt"><div class="qs-cap">SO8 &middot; Challenger</div><div class="qs-l1">Responsibility instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of responsibility</div></div></div>
+          <div class="qs-row" style="--c:#cc6e00"><span class="qs-num">9</span><div class="qs-txt"><div class="qs-cap">SO9 &middot; Peaceful One</div><div class="qs-l1">Belonging instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of belonging</div></div></div>
+        </details>
+        <details><summary>Sexual (SX)</summary>
+          <div class="qs-row" style="--c:#5f5f5f"><span class="qs-num">1</span><div class="qs-txt"><div class="qs-cap">SX1 &middot; Perfectionist</div><div class="qs-l1">Perfection instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of perfection</div></div></div>
+          <div class="qs-row" style="--c:#7a2fa8"><span class="qs-num">2</span><div class="qs-txt"><div class="qs-cap">SX2 &middot; Helper</div><div class="qs-l1">Seduction instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of seduction</div></div></div>
+          <div class="qs-row" style="--c:#1fa688"><span class="qs-num">3</span><div class="qs-txt"><div class="qs-cap">SX3 &middot; Dynamic One</div><div class="qs-l1">Charisma instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of charisma</div></div></div>
+          <div class="qs-row" style="--c:#3cbf1f"><span class="qs-num">4</span><div class="qs-txt"><div class="qs-cap">SX4 &middot; Individualist</div><div class="qs-l1">Passion instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of passion</div></div></div>
+          <div class="qs-row" style="--c:#124fcc"><span class="qs-num">5</span><div class="qs-txt"><div class="qs-cap">SX5 &middot; Thinker</div><div class="qs-l1">Idealization instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of idealization</div></div></div>
+          <div class="qs-row" style="--c:#8a5222"><span class="qs-num">6</span><div class="qs-txt"><div class="qs-cap">SX6 &middot; Loyal Skeptic</div><div class="qs-l1">Courage instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of courage</div></div></div>
+          <div class="qs-row" style="--c:#d4a800"><span class="qs-num">7</span><div class="qs-txt"><div class="qs-cap">SX7 &middot; Optimist</div><div class="qs-l1">Enthusiasm instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of enthusiasm</div></div></div>
+          <div class="qs-row" style="--c:#a00802"><span class="qs-num">8</span><div class="qs-txt"><div class="qs-cap">SX8 &middot; Challenger</div><div class="qs-l1">Rebellion instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of rebellion</div></div></div>
+          <div class="qs-row" style="--c:#cc6e00"><span class="qs-num">9</span><div class="qs-txt"><div class="qs-cap">SX9 &middot; Peaceful One</div><div class="qs-l1">Merging instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of merging</div></div></div>
+        </details>
+        <p class="qs-q">Which line touches you?</p>
+      </div>
+
       <div style="margin:2rem 0 0;text-align:center;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .3rem;color:var(--ink);">The search for love as a short film</h2>
         <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">About 65 seconds, with sound: nine types, nine substitutes and the love behind them. The button below sends a version with a link to the compass to friends and acquaintances, even if they do not have the app yet.</p>
