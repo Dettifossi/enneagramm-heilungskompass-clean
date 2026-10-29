@@ -3164,3 +3164,72 @@ export function marieleMillowitschPortraitPage() {
     </div>
   `);
 }
+
+export function methodManPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-method-man-portrait.jpg" alt="Method Man – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-method-man-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Method Man</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">American rapper and actor (Clifford Smith), b. 1971 &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Hippopotamus: the boy who commuted between two homes</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>hippopotamus</strong> looks sluggish and friendly until someone touches its territory; then it shows how much strength is in the massive body. Clifford Smith Jr. was born on 2 March 1971 in Hempstead on Long Island (sources also give other dates). He grew up between his father&rsquo;s house on Long Island and his mother&rsquo;s on Staten Island; mostly his mother raised him and his two sisters in the Park Hill housing projects on Staten Island. He played lacrosse and attended New Dorp High School.</p>
+          <p class="vb-intro">On Staten Island he got to know the later RZA, GZA and Ol&rsquo; Dirty Bastard, with whom he was already rapping as a teenager. He borrowed his stage name from a 1979 martial-arts film, &lsquo;The Fearless Young Boxer&rsquo;, released in the US as &lsquo;Method Man&rsquo;. He also went by Johnny Blaze, Tical and Iron Lung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: the clan as innermost circle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo gave the Self-Preservation Two the keyword &lsquo;Me First&rsquo; (often rendered &lsquo;privilege&rsquo;): care goes first to the innermost circle, and the feeling of being indispensable there secures one&rsquo;s own ground. For Method Man that circle is the Wu-Tang Clan, a family association already in its name. On the debut album &lsquo;Enter the Wu-Tang (36 Chambers)&rsquo; (1993) he and GZA were the only members with a solo track of their own, &lsquo;Method Man&rsquo;, which made him the face of the group without his leaving it. His solo album &lsquo;Tical&rsquo; (1994) entered the Billboard 200 at number 4.</p>
+          <p class="vb-intro">Privately too he binds himself closely: in 2001 he married Tamika Smith, and the couple has three children. The pattern of the Self-Preservation Two shows here as rootedness in one&rsquo;s own territory, not as flight from it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-wing: the host who is a guest everywhere</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso and Russ Hudson call the Two with a Three-wing &lsquo;The Host&rsquo;. The <strong>Three-wing (w3)</strong> gives the care shine and impact. Method Man combined the warmth of the clan with appearances far beyond rap: for the duet &lsquo;I&rsquo;ll Be There for You/You&rsquo;re All I Need to Get By&rsquo; with Mary J. Blige he received a Grammy in 1996, with Redman he formed a duo of his own (&lsquo;Blackout!&rsquo;, 1999, platinum) and made the film &lsquo;How High&rsquo; (2001), later the Fox series &lsquo;Method &amp; Red&rsquo;. Added to that came roles in &lsquo;Oz&rsquo; (as Tug Daniels), in &lsquo;The Wire&rsquo; (as Cheese), &lsquo;The Deuce&rsquo; and &lsquo;Power Book II: Ghost&rsquo;, films such as &lsquo;Belly&rsquo; (1998), &lsquo;Garden State&rsquo; (2004), &lsquo;Keanu&rsquo; (2016) and &lsquo;Bad Shabbos&rsquo; (2024), hosting &lsquo;Drop the Mic&rsquo; and in 2025 an appearance in season 13 of &lsquo;The Masked Singer&rsquo; as &lsquo;Stud Muffin&rsquo;.</p>
+          <p class="vb-intro">The host likes to share the stage: almost every one of these stations is a collaboration.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the raspy voice and the hook that sticks</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What sets Method Man apart among the nine Wu-Tang voices is a voice often described as raspy and husky, with a way of setting refrains that lodge in the memory at once. Where other members of the clan rely on dense, interlocking lyrics, he works through charisma and recognizability: his verses and hooks carry guest features and duets (like the one with Blige) as well as the group tracks. That explains why he of all the clan became the rapper who built the bridge to the broad public, to pop duets, film and television.</p>
+          <p class="vb-intro">Remarkable is the staying power: he has been in the business since the early Nineties, has released solo albums up to &lsquo;The Meth Lab&rsquo; (2015) and announced another, &lsquo;Crystal Meth&rsquo;, as his final studio album, without so far naming a date.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Carlos Santana</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-carlos-santana">Carlos Santana (SP2w3)</a> is the obvious parallel: a musician who came from a close family and musical circle, regained relevance through collaborations with younger artists and never disowned his roots. Both show the Three-wing as the desire to make their own community visible to the outside.</p>
+          <p class="vb-intro">The difference: Santana carries his craft as a tradition passed on personally, Method Man his charisma as part of a collective.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the Self-Preservation Two with Three-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright are the loyalty to his roots, the ability to fit into many contexts and the warmth with which he moves between rap, film and television without losing the bond with the clan.</p>
+          <p class="vb-intro">The shadow side lies where the circle comes first. Someone who secures his own ground can lose sight of the rules outside the circle: in 2010 Method Man pleaded guilty to tax evasion and, according to Wikipedia, paid a $106,000 fine. This portrait records that as fact without interpreting it further. The Three-wing can also tempt one to take on ever new roles because they secure attention; whether that applies to him cannot be said from outside.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: the Hall of Fame</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Method Man is (as of 29 October 2026) 55 years old. The Wu-Tang Clan is among the 2026 inductees of the Rock and Roll Hall of Fame; the ceremony will be taped on 14 November 2026 at the Peacock Theater in Los Angeles and shown in December on ABC and Disney+. After the announcement Method Man wrote on X: &lsquo;We made it. THANK YOU!!!!&rsquo; The word &lsquo;we&rsquo; in that sentence fits his pattern.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"lebensmusterkompass/se2", label:"Life Pattern Compass: SP2 – Hippopotamus"},
+        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
+      ])}
+    </div>
+  `);
+}

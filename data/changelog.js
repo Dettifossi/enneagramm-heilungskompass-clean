@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2713", date: "2026-10-29", text: "Neues Porträt: Method Man (SE2w3) – Rapper des Wu-Tang Clan und Schauspieler, neu in der Rock and Roll Hall of Fame.", text_en: "New portrait: Method Man (SP2w3) – rapper of the Wu-Tang Clan and actor, newly in the Rock and Roll Hall of Fame.", route: "beruehmte-method-man" },
     { version: "v2712", date: "2026-10-29", text: "Neues Porträt: John Cusack (SO7w6) – Schauspieler (Say Anything..., High Fidelity), jetzt mit der Graphic Novel Momo.", text_en: "New portrait: John Cusack (SO7w6) – actor (Say Anything..., High Fidelity), now with the graphic novel Momo.", route: "beruehmte-john-cusack" },
     { version: "v2711", date: "2026-10-29", text: "Neues Porträt: Mireille Mathieu (SE3w2) – Chansonsängerin, der Spatz von Avignon, derzeit auf Abschiedstournee.", text_en: "New portrait: Mireille Mathieu (SP3w2) – chanson singer, the Sparrow of Avignon, currently on her farewell tour.", route: "beruehmte-mireille-mathieu" },
     { version: "v2710", date: "2026-10-29", text: "Neues Porträt: Elke Sommer (SX7w6) – Schauspielerin, Sängerin und Malerin, Hollywood-Star der Sechzigerjahre.", text_en: "New portrait: Elke Sommer (SX7w6) – actress, singer and painter, Hollywood star of the Sixties.", route: "beruehmte-elke-sommer" },

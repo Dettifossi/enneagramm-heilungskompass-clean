@@ -309,6 +309,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-happy-anderson", label: "Neues EN-Porträt: Happy Anderson" },
   { hash: "#beruehmte-robbie-coltrane", label: "Neues Porträt: Robbie Coltrane" },
   { hash: "en/#beruehmte-robbie-coltrane", label: "Neues EN-Porträt: Robbie Coltrane" },
+  { hash: "#beruehmte-method-man", label: "Neues Porträt: Method Man" },
+  { hash: "en/#beruehmte-method-man", label: "Neues EN-Porträt: Method Man" },
   { hash: "#beruehmte-john-cusack", label: "Neues Porträt: John Cusack" },
   { hash: "en/#beruehmte-john-cusack", label: "Neues EN-Porträt: John Cusack" },
   { hash: "#beruehmte-mireille-mathieu", label: "Neues Porträt: Mireille Mathieu" },

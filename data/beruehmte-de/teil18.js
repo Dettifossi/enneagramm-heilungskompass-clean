@@ -3184,3 +3184,72 @@ export function gertrudHoehlerPortraitPage() {
     </div>
   `);
 }
+
+export function methodManPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-method-man-portrait.jpg" alt="Method Man – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-method-man-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Method Man</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Rapper und Schauspieler (Clifford Smith), geb. 1971 &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Das Flusspferd: der Junge, der zwischen zwei Zuhause pendelte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Flusspferd</strong> wirkt träge und freundlich, bis jemand sein Revier berührt; dann zeigt sich, wie viel Kraft in dem massigen Körper steckt. Clifford Smith Jr. wurde am 2. März 1971 in Hempstead auf Long Island geboren (die Quellen nennen auch andere Daten). Er wuchs zwischen dem Haus seines Vaters auf Long Island und dem seiner Mutter auf Staten Island auf; überwiegend zogen ihn und seine beiden Schwestern die Mutter in den Park-Hill-Siedlungen auf Staten Island groß. Er spielte Lacrosse und besuchte die New Dorp High School.</p>
+          <p class="vb-intro">Auf Staten Island lernte er den späteren RZA, GZA und Ol&rsquo; Dirty Bastard kennen, mit denen er schon als Jugendlicher rappte. Seinen Künstlernamen entlehnte er einem Kampfsportfilm von 1979, ›The Fearless Young Boxer‹ (›Der furchtlose junge Boxer‹), der in den USA als ›Method Man‹ in die Kinos kam. Er nannte sich auch Johnny Blaze, Tical und Iron Lung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: der Clan als engster Kreis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo gab der selbsterhaltenden Zwei das Stichwort ›Me First‹ (›Ich zuerst‹, im Deutschen oft ›Privileg‹): Zuwendung gilt zuerst dem engsten Kreis, und das Gefühl, dort unentbehrlich zu sein, sichert die eigene Grundlage. Bei Method Man ist dieser Kreis der Wu-Tang Clan, schon im Namen ein Familienverband. Auf dem Debütalbum ›Enter the Wu-Tang (36 Chambers)‹ (1993) war er neben GZA das einzige Mitglied mit einem eigenen Solostück, ›Method Man‹, und wurde damit zum Gesicht der Gruppe, ohne sie zu verlassen. Sein Soloalbum ›Tical‹ (1994) stieg auf Platz 4 der Billboard 200 ein.</p>
+          <p class="vb-intro">Auch privat bindet er sich eng: 2001 heiratete er Tamika Smith, das Paar hat drei Kinder. Das Muster der selbsterhaltenden Zwei zeigt sich hier als Verwurzelung im eigenen Terrain, nicht als Flucht aus ihm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: der Gastgeber, der überall Gast ist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso und Russ Hudson nennen die Zwei mit Dreierflügel ›Den Gastgeber‹. Der <strong>Dreierflügel (w3)</strong> gibt der Zuwendung Glanz und Wirkung. Method Man verband die Wärme des Clans mit Auftritten weit über den Rap hinaus: Für das Duett ›I&rsquo;ll Be There for You/You&rsquo;re All I Need to Get By‹ mit Mary J. Blige erhielt er 1996 einen Grammy, mit Redman gründete er ein eigenes Duo (›Blackout!‹, 1999, Platin) und drehte den Film ›How High‹ (2001), später die Fox-Serie ›Method &amp; Red‹. Dazu kamen Rollen in ›Oz‹ (als Tug Daniels), in ›The Wire‹ (als Cheese), ›The Deuce‹ und ›Power Book II: Ghost‹, Filme wie ›Belly‹ (1998), ›Garden State‹ (2004), ›Keanu‹ (2016) und ›Bad Shabbos‹ (2024), die Moderation von ›Drop the Mic‹ und 2025 ein Auftritt in der 13. Staffel von ›The Masked Singer‹ als ›Stud Muffin‹.</p>
+          <p class="vb-intro">Der Gastgeber teilt die Bühne gern: Fast jede dieser Stationen ist eine Zusammenarbeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: die raue Stimme und der Hook, der sitzt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Method Man unter den neun Wu-Tang-Stimmen heraushebt, ist eine häufig als rau beschriebene, heisere Stimme mit einer Art, Refrains zu setzen, die sich sofort einprägen. Wo andere Mitglieder des Clans auf dichte, verschachtelte Texte setzen, funktioniert er über Charisma und Wiedererkennbarkeit: Seine Strophen und Hooks tragen Gäste und Duette (wie das mit Blige) ebenso gut wie die Gruppenstücke. Das erklärt, warum ausgerechnet er der Rapper aus dem Clan wurde, der die Brücke zum breiten Publikum schlug, zu Pop-Duetten, Film und Fernsehen.</p>
+          <p class="vb-intro">Bemerkenswert ist die Ausdauer: Seit den frühen Neunzigern ist er im Geschäft, hat Soloalben bis ›The Meth Lab‹ (2015) veröffentlicht und ein weiteres, ›Crystal Meth‹, als letztes Studioalbum angekündigt, ohne bisher einen Termin zu nennen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Carlos Santana</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-carlos-santana">Carlos Santana (SE2w3)</a> ist die naheliegende Parallele: ein Musiker, der aus einem engen familiären und musikalischen Kreis kam, über Kooperationen mit jüngeren Künstlern wieder Relevanz erlangte und seine Wurzeln nie verleugnete. Beide zeigen den Dreierflügel als Lust, die eigene Gemeinschaft nach außen sichtbar zu machen.</p>
+          <p class="vb-intro">Der Unterschied: Santana trägt sein Handwerk als persönlich weitergegebene Tradition, Method Man sein Charisma als Teil eines Kollektivs.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Zwei mit Dreierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell sind die Treue zu den Wurzeln, die Fähigkeit, sich in viele Zusammenhänge einzufügen, und die Wärme, mit der er zwischen Rap, Film und Fernsehen wechselt, ohne die Verbindung zum Clan zu verlieren.</p>
+          <p class="vb-intro">Die Schattenseite liegt dort, wo der Kreis zuerst kommt. Wer die eigene Grundlage sichert, kann dabei die Regeln außerhalb des Kreises aus dem Blick verlieren: 2010 bekannte sich Method Man der Steuerhinterziehung schuldig und zahlte nach Angaben von Wikipedia 106.000 Dollar Strafe. Dieses Porträt hält das als Tatsache fest, ohne es weiter zu deuten. Der Dreierflügel kann zudem dazu verleiten, immer neue Rollen zu übernehmen, weil sie Zuwendung sichern; ob das bei ihm zutrifft, lässt sich von außen nicht sagen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: die Hall of Fame</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Method Man ist (Stand 29. Oktober 2026) 55 Jahre alt. Der Wu-Tang Clan gehört zu den Aufnahmen 2026 in die Rock and Roll Hall of Fame; die Zeremonie wird am 14. November 2026 im Peacock Theater in Los Angeles aufgezeichnet und im Dezember bei ABC und Disney+ gezeigt. Nach der Bekanntgabe schrieb Method Man auf X: ›We made it. THANK YOU!!!!‹ (›Wir haben es geschafft. DANKE!!!!‹). Das Wort ›Wir‹ in diesem Satz passt zu seinem Muster.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se2", label:"Lebensmusterkompass: SE2 – Flusspferd"},
+        {route:"beruehmte-carlos-santana", label:"Porträt: Carlos Santana (SE2w3)"},
+      ])}
+    </div>
+  `);
+}

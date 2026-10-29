@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=456";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=457";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -295,6 +295,7 @@ const adeleNeuhauserPortraitPage = () => _lazyPage("./data/beruehmte-en/teil4.js
 const angelaMerkelPortraitPage = () => _lazyPage("./data/beruehmte-en/teil4.js", "angelaMerkelPortraitPage");
 const michelFoucaultPortraitPage = () => _lazyPage("./data/beruehmte-en/teil4.js", "michelFoucaultPortraitPage");
 const billGatesPortraitPage = () => _lazyPage("./data/beruehmte-en/teil4.js", "billGatesPortraitPage");
+const methodManPortraitPage = () => _lazyPage("./data/beruehmte-en/teil8.js", "methodManPortraitPage");
 const carlosSantanaPortraitPage = () => _lazyPage("./data/beruehmte-en/teil4.js", "carlosSantanaPortraitPage");
 const clemensArvayPortraitPage = () => _lazyPage("./data/beruehmte-en/teil4.js", "clemensArvayPortraitPage");
 const dieterBohlenPortraitPage = () => _lazyPage("./data/beruehmte-en/teil4.js", "dieterBohlenPortraitPage");
@@ -2956,6 +2957,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ai Weiwei – Self-Preservation Type 2",
     teaser:"SP2w3 · b. 1957. Chinese artist and activist, Sunflower Seeds, Human Flow, 81 days detained in 2011. The hippopotamus defends its territory – publicly, fearlessly, with an eye on reaching as many people as possible. Animal correspondence: Hippopotamus.",
     land:"China", tags:["Art","Activism"], gender:"m"},
+{ route:"beruehmte-method-man", name:"Method Man", added:"2026-10-29", subtyp:"SE2w3",
+    heading:"Method Man \u2013 Self-Preservation Type 2",
+    teaser:"SP2w3 \u00b7 born 1971 on Long Island. American rapper and actor (Wu-Tang Clan, \u2018Tical\u2019, \u2018The Wire\u2019). The Hippopotamus who made the clan his innermost circle and from there took on film, television and pop duets.",
+    land:"USA", tags:["Music"], gender:"m"},
 { route:"beruehmte-carlos-santana", name:"Carlos Santana", added:"2026-08-24", subtyp:"SE2w3",
     heading:"Carlos Santana – Self-Preservation Type 2",
     teaser:"SP2w3 · b. 1947. Mexican-American guitarist, Woodstock 1969, Supernatural comeback 1999 (9 Grammys). Craft passed down directly from his father, combined with a constant need to be rediscovered. Animal correspondence: Hippopotamus.",
@@ -48015,7 +48020,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-nero": neroPortraitPage,
       "beruehmte-ai-weiwei": aiWeiweiPortraitPage,
       "beruehmte-fiona-harvey": fionaHarveyPortraitPage,
-      "beruehmte-carlos-santana": carlosSantanaPortraitPage,
+      "beruehmte-method-man": methodManPortraitPage, "beruehmte-carlos-santana": carlosSantanaPortraitPage,
       "beruehmte-harald-gloeockler": haraldGloeocklerPortraitPage, "beruehmte-madison-chock": madisonChockPortraitPage, "beruehmte-andre-duqum": andreDuqumPortraitPage,
       "beruehmte-harnaam-kaur": harnaamKaurPortraitPage,
       "beruehmte-ice-cube": iceCubePortraitPage,
