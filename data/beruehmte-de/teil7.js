@@ -3076,3 +3076,72 @@ export function mariaSchaumayerPortraitPage() {
     </div>
   `);
 }
+
+export function mireilleMathieuPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-mireille-mathieu-portrait.jpg" alt="Mireille Mathieu – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-mireille-mathieu-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Mireille Mathieu</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Französische Chansonsängerin, geb. 1946 &ndash; der ›Spatz von Avignon‹ &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Waschbär: das Steinmetzkind, das zweimal verlor und dranblieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Waschbär</strong> betastet jeden Fund mit seinen geschickten Händen, bevor er ihn gebraucht, und gibt nicht auf, wenn der Deckel zunächst nicht aufgeht. Mireille Mathieu kam am 22. Juli 1946 in Avignon als älteste Tochter einer Familie mit vierzehn Kindern zur Welt. Der Vater Roger führte einen Steinmetzbetrieb, die Mutter Marcelle-Sophie war 1944 als Kriegsflüchtling nach Avignon gekommen. Das Mädchen hatte Legasthenie, verließ die Schule mit vierzehn ohne Abschluss und arbeitete in einer Fabrik in Montfavet, um zum Familieneinkommen beizutragen und Gesangsunterricht zu bezahlen.</p>
+          <p class="vb-intro">Gesungen hatte sie schon mit vier: Auf der Christmette 1950 bekam sie dafür einen Lutscher. Entscheidend wurde das Fernsehbild von Édith Piaf, das sie als Kind nicht mehr losließ. Beim Nachwuchswettbewerb ›On chante dans mon quartier‹ (›Man singt in meinem Viertel‹) in Avignon verlor sie 1962 und 1963 und gewann 1964 mit ›La Vie en rose‹ (›Das Leben in Rosa‹). Zwei Niederlagen, Fabrikarbeit und ein dritter Anlauf: Das ist ein Weg der kleinen, regelmäßigen Schritte, nicht des Wunderkinds.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Sicherheit durch Dranbleiben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo nannte die selbsterhaltende Drei den Kontratyp der Drei und gab ihr das Stichwort ›Sicherheit‹: Wert zieht sie aus verlässlicher Leistung, weniger aus dem Glanz des Auftritts. Bei Mathieu lässt sich das an der Art ablesen, wie sie ihre Laufbahn absicherte. Am 21. November 1965 trat sie in der Fernsehshow ›Jeu de la Chance‹ (›Glücksspiel‹) an, lag nach einem Gleichstand mit der fünfmaligen Siegerin Georgette Lemaire gleichauf und gewann in der Woche darauf. In dieser Nacht wurde Johnny Stark ihr Manager, der sie bis zu seinem Tod 1989 begleitete. Am 20. Dezember unterschrieb sie beim Besitzer des Pariser Olympia, Bruno Coquatrix; die Presse taufte sie ›Piaf d&rsquo;Avignon‹.</p>
+          <p class="vb-intro">Auch später sorgte sie für festen Boden: 1974 gründete sie den Musikverlag Abilene Music, 1983 das Label Abilene Disc, und im Dezember 2013 gewann sie einen Prozess um Tantiemen für ein Lied von 1967, das im Film ›Casino Royale‹ verwendet worden war. Die Sicherheit des Waschbären liegt im Eigenen, das er sich erarbeitet und dann behält.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Dank ans Publikum und der Rückhalt der Familie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso und Russ Hudson nennen die Drei mit Zweierflügel ›Den Charmeur‹. Der <strong>Zweierflügel (w2)</strong> bringt Wärme und Zugewandtheit in den Leistungswillen. Bei Mathieu zeigt er sich im Verhältnis zur Familie und zum Publikum. Ihren 80. Geburtstag am 22. Juli 2026 feierte sie privat in Avignon im Kreis der Familie, nach Berichten mit vierzehn Angehörigen; ihr Herzensort, sagte sie, sei ihre Familie. Als Stark 1989 starb, übernahm ihre Schwester Monique das Geschäftliche. Sie ist gläubige Katholin, geht mit der Familie zur Messe, und vor jedem Auftritt bekreuzigt sie sich.</p>
+          <p class="vb-intro">Die Tournee, mit der sie sich verabschiedet, begründet sie mit dem Wunsch, dem Publikum zu danken. Solange sie singen könne, wolle sie ihre Leidenschaft mit den Zuhörern teilen, sagte sie in einem Interview (indirekt wiedergegeben nach schlager.de). Der Flügel trägt also die zweite Hälfte ihres Selbstbildes: Leistung ist für sie auch eine Gabe an andere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: eine Stimme mit Piaf-Schärfe für ein deutsches Publikum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Mireille Mathieu außergewöhnlich macht, ist die Verbindung aus kleiner Gestalt und großer Stimme, von der auch ihr deutscher Beiname ›Spatz von Avignon‹ erzählt. Ihre Stimme ist kräftig, mit einem leichten Tremolo, und ihre Diktion ist auffallend genau. Diese Klarheit wird oft mit der von Édith Piaf verglichen, ihrem frühen Vorbild. Sie nahm über 1.200 Lieder in elf Sprachen auf, darunter viele auf Deutsch, was ihr eine zweite, eigene Karriere eröffnete: In Frankreich war ihre Single ›Mon Crédo‹ (›Mein Glaubensbekenntnis‹, 1966) der erste Nummer-eins-Hit, in Deutschland begann der Erfolg 1969 mit ›Hinter den Kulissen von Paris‹, und ›La Paloma adé‹ erreichte 1973 Platz eins. Ein Autounfall im Februar 1968 mit einem Wirbelbruch hielt sie rund drei Monate von der Bühne fern.</p>
+          <p class="vb-intro">Dazu kamen Auszeichnungen: der Bambi (1972, 1973 und 1987), das Bundesverdienstkreuz (1984), das französische Offizierskreuz der Ehrenlegion (2011) und 2018 die Ehrendoktorwürde der Moskauer Staatlichen Universität. Wichtiger als jede Ehrung ist für die Zuordnung die Kontinuität: mehr als 3.500 Konzerte, und der Spatz singt weiter.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Enrico Caruso</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-enrico-caruso">Enrico Caruso (SE3w2)</a> wuchs ebenfalls in einer armen, kinderreichen Familie auf, arbeitete früh und machte aus einer seltenen Stimme durch Disziplin ein Lebenswerk. Wie bei Mathieu stand bei ihm die Verlässlichkeit gegenüber dem Publikum an erster Stelle, und der Zweierflügel zeigte sich in Großzügigkeit.</p>
+          <p class="vb-intro">Der Unterschied: Carusos Pflichtgefühl kostete ihn am Ende die Gesundheit. Bei Mathieu zeigt sich dasselbe Muster mit einem anderen Verlauf: Sie ist mit achtzig noch unterwegs und gibt zu, dass das Lampenfieber mit den Jahren eher größer als kleiner geworden ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Drei mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell sind die Treue zu den eigenen Wurzeln, das jahrzehntelange Dranbleiben und der echte Dank an das Publikum. Wer aus einer Familie mit vierzehn Kindern kommt und Gesangsstunden mit Fabrikarbeit bezahlt, hat Verlässlichkeit nicht gelernt, sondern erlebt.</p>
+          <p class="vb-intro">Die Schattenseite zeigt sich dort, wo Verlässlichkeit und Dankbarkeit gegenüber Gastgebern den Blick auf Politisches enger machen. Ihr Auftritt in Moskau am 1. November 2008 als Gast Wladimir Putins, ihre Treffen mit Putin und mit Muammar al-Gaddafi (2008) und die russische Freundschaftsmedaille 2010 brachten ihr Kritik ein. Dieses Porträt hält das als Tatsache fest und deutet es nicht weiter; es lässt sich mit dem Muster einer Drei in Verbindung bringen, die Anerkennung dankbar annimmt. Mehr als diese Verbindung gibt die Quellenlage nicht her.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: die Abschiedstournee</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mireille Mathieu ist (Stand 29. Oktober 2026) 80 Jahre alt. Seit dem 28. Oktober 2026 ist sie mit ›Goodbye my Love Goodbye – Das Finale der Welt-Abschiedstournee‹ unterwegs: dreizehn letzte Konzerte in Deutschland und Österreich, von Chemnitz bis Leipzig am 17. November, mit Stationen unter anderem in Berlin, Frankfurt, Hannover, Nürnberg, München und Dresden. Sie hat zugleich angedeutet, auch danach gelegentlich auftreten zu wollen. Ihr Lebensgefühl zu diesem Abschied lässt sich am ehesten mit ihrem eigenen Satz verbinden, sie wolle singen, solange sie könne.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se3", label:"Lebensmusterkompass: SE3 – Waschbär"},
+        {route:"beruehmte-enrico-caruso", label:"Porträt: Enrico Caruso (SE3w2)"},
+      ])}
+    </div>
+  `);
+}

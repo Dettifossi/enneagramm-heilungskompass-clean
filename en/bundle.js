@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=453";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=454";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -150,6 +150,7 @@ const jeanMaraisPortraitPage = () => _lazyPage("./data/beruehmte-en/teil17.js", 
 const martinaGedeckPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "martinaGedeckPortraitPage");
 const joeVitalePortraitPage = () => _lazyPage("./data/beruehmte-en/teil2.js", "joeVitalePortraitPage");
 const klausMariaBrandauerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "klausMariaBrandauerPortraitPage");
+const mireilleMathieuPortraitPage = () => _lazyPage("./data/beruehmte-en/teil9.js", "mireilleMathieuPortraitPage");
 const elkeSommerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil5.js", "elkeSommerPortraitPage");
 const rosalieThomassPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "rosalieThomassPortraitPage");
 const robbieColtranePortraitPage = () => _lazyPage("./data/beruehmte-en/teil5.js", "robbieColtranePortraitPage");
@@ -2007,6 +2008,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Klaus Maria Brandauer \u2013 Sexual Type 7",
     teaser:"SX7w8 \u00b7 born 1943 in Bad Aussee. Austrian actor and director (\u2018Mephisto\u2019, \u2018Out of Africa\u2019, Burgtheater, Jedermann). The Chimpanzee who throws himself completely into his roles.",
     land:"Austria", tags:["Schauspiel"], gender:"m"},
+{ route:"beruehmte-mireille-mathieu", name:"Mireille Mathieu", added:"2026-10-29", subtyp:"SE3w2",
+    heading:"Mireille Mathieu \u2013 Self-Preservation Type 3",
+    teaser:"SP3w2 \u00b7 born 1946 in Avignon. French chanson singer, the \u2018Sparrow of Avignon\u2019 (\u2018Hinter den Kulissen von Paris\u2019, \u2018La Paloma ad\u00e9\u2019). The Raccoon who as a stonemason\u2019s child lost twice, saved from factory work for singing lessons and goes on a farewell tour at eighty.",
+    land:"France", tags:["Music"], gender:"f"},
 { route:"beruehmte-elke-sommer", name:"Elke Sommer", added:"2026-10-29", subtyp:"SX7w6",
     heading:"Elke Sommer \u2013 Sexual Type 7",
     teaser:"SX7w6 \u00b7 1940\u20132026. German actress, singer and painter (\u2018The Prize\u2019, \u2018A Shot in the Dark\u2019). The Chimpanzee who leapt from the parsonage to Hollywood and carried her zest for life into old age.",
@@ -47556,6 +47561,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-martina-gedeck": martinaGedeckPortraitPage,
       "beruehmte-joe-vitale": joeVitalePortraitPage,
       "beruehmte-klaus-maria-brandauer": klausMariaBrandauerPortraitPage,
+      "beruehmte-mireille-mathieu": mireilleMathieuPortraitPage,
       "beruehmte-elke-sommer": elkeSommerPortraitPage,
       "beruehmte-rosalie-thomass": rosalieThomassPortraitPage,
       "beruehmte-robbie-coltrane": robbieColtranePortraitPage,

@@ -3121,3 +3121,72 @@ export function artGarfunkelPortraitPage() {
     </div>
   `);
 }
+
+export function mireilleMathieuPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-mireille-mathieu-portrait.jpg" alt="Mireille Mathieu – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-mireille-mathieu-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Mireille Mathieu</p>
+        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">French chanson singer, b. 1946 &ndash; the &lsquo;Sparrow of Avignon&rsquo; &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Raccoon: the stonemason&rsquo;s child who lost twice and kept going</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>raccoon</strong> feels every find with its clever hands before it uses it, and does not give up when the lid will not open at first. Mireille Mathieu was born on 22 July 1946 in Avignon, the eldest daughter in a family of fourteen children. Her father Roger ran a stonemason&rsquo;s business, her mother Marcelle-Sophie had come to Avignon in 1944 as a war refugee. The girl was dyslexic, left school at fourteen without a diploma and worked in a factory in Montfavet to add to the family income and pay for singing lessons.</p>
+          <p class="vb-intro">She had sung already at four: at Midnight Mass in 1950 she was paid for it with a lollipop. What decided her was the television image of Édith Piaf, which never left her as a child. In the Avignon talent contest &lsquo;On chante dans mon quartier&rsquo; (&lsquo;We sing in my neighborhood&rsquo;) she lost in 1962 and 1963 and won in 1964 with &lsquo;La Vie en rose&rsquo; (&lsquo;Life in Pink&rsquo;). Two defeats, factory work and a third attempt: this is a path of small, regular steps, not of a child prodigy.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: security through staying with it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo called the Self-Preservation Three the countertype of the Three and gave it the keyword &lsquo;security&rsquo;: it draws its worth from reliable achievement, less from the glamour of the appearance. In Mathieu this can be read from how she secured her career. On 21 November 1965 she competed on the television show &lsquo;Jeu de la Chance&rsquo; (&lsquo;Game of Chance&rsquo;), finished level with five-time winner Georgette Lemaire and won the following week. That night Johnny Stark became her manager and stayed with her until his death in 1989. On 20 December she signed with the owner of the Paris Olympia, Bruno Coquatrix; the press christened her &lsquo;Piaf d&rsquo;Avignon&rsquo;.</p>
+          <p class="vb-intro">Later too she made sure of firm ground: in 1974 she founded the music publisher Abilene Music, in 1983 the label Abilene Disc, and in December 2013 she won a lawsuit over royalties for a 1967 song used in the film &lsquo;Casino Royale&rsquo;. The raccoon&rsquo;s security lies in what is its own, which it works for and then keeps.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: thanks to the audience and the support of family</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso and Russ Hudson call the Three with a Two-wing &lsquo;The Charmer&rsquo;. The <strong>Two-wing (w2)</strong> brings warmth and attentiveness into the drive to achieve. In Mathieu it shows in her relationship with family and audience. She celebrated her 80th birthday on 22 July 2026 privately in Avignon among her family, reportedly with fourteen relatives; her favorite place, she said, is her family. When Stark died in 1989 her sister Monique took over the business side. She is a devout Catholic, goes to Mass with her family, and crosses herself before every performance.</p>
+          <p class="vb-intro">The tour with which she says goodbye she justifies with the wish to thank her audience. As long as she can sing, she wants to share her passion with the listeners, she said in an interview (reported indirectly via schlager.de). The wing carries the second half of her self-image: achievement is for her also a gift to others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: a voice with Piaf&rsquo;s sharpness for a German audience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What makes Mireille Mathieu exceptional is the combination of a small frame and a big voice, which her German nickname &lsquo;Spatz von Avignon&rsquo; (&lsquo;Sparrow of Avignon&rsquo;) also tells of. Her voice is strong, with a slight tremolo, and her diction is strikingly precise. This clarity is often compared with that of Édith Piaf, her early role model. She recorded over 1,200 songs in eleven languages, many of them in German, which opened a second career of its own: in France her single &lsquo;Mon Crédo&rsquo; (&lsquo;My Creed&rsquo;, 1966) was her first number-one hit, in Germany success began in 1969 with &lsquo;Hinter den Kulissen von Paris&rsquo; (&lsquo;Behind the Scenes of Paris&rsquo;), and &lsquo;La Paloma adé&rsquo; (&lsquo;La Paloma, Farewell&rsquo;) reached number one in 1973. A car accident in February 1968 with a fractured vertebra kept her off the stage for about three months.</p>
+          <p class="vb-intro">Honors followed: the Bambi (1972, 1973 and 1987), the German Federal Cross of Merit (1984), the French Legion of Honour at officer rank (2011) and in 2018 an honorary doctorate from Moscow State University. More important than any honor for the classification is continuity: more than 3,500 concerts, and the sparrow keeps singing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Enrico Caruso</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-enrico-caruso">Enrico Caruso (SP3w2)</a> likewise grew up in a poor family with many children, worked early and turned a rare voice into a life&rsquo;s work through discipline. As with Mathieu, reliability toward the audience came first for him, and the Two-wing showed in generosity.</p>
+          <p class="vb-intro">The difference: Caruso&rsquo;s sense of duty cost him his health in the end. In Mathieu the same pattern takes a different course: she is on the road at eighty and admits that stage fright has grown rather than shrunk over the years.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the Self-Preservation Three with Two-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright are the loyalty to her roots, the decades of staying with it and the sincere thanks to the audience. Someone who comes from a family of fourteen children and pays for singing lessons with factory work has not learned reliability but lived it.</p>
+          <p class="vb-intro">The shadow side shows where reliability and gratitude toward hosts narrow the view of political matters. Her performance in Moscow on 1 November 2008 as a guest of Vladimir Putin, her meetings with Putin and with Muammar al-Gaddafi (2008) and the Russian Medal of Friendship in 2010 drew criticism. This portrait records that as fact and does not interpret it further; it can be connected with the pattern of a Three who accepts recognition gratefully. The sources allow no more than that.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: the farewell tour</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mireille Mathieu is (as of 29 October 2026) 80 years old. Since 28 October 2026 she has been on the road with &lsquo;Goodbye my Love Goodbye – Das Finale der Welt-Abschiedstournee&rsquo; (&lsquo;The Finale of the World Farewell Tour&rsquo;): thirteen last concerts in Germany and Austria, from Chemnitz to Leipzig on 17 November, with stops including Berlin, Frankfurt, Hanover, Nuremberg, Munich and Dresden. She has also hinted that she wants to perform occasionally afterwards. Her attitude to this farewell is best connected with her own sentence that she wants to sing as long as she can.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SP3 – Raccoon"},
+        {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SP3w2)"},
+      ])}
+    </div>
+  `);
+}
