@@ -58693,7 +58693,19 @@ function sucheNachLiebePage() {
 }
 
 function humorDer9TypenPage() {
-  const HUMOR_IMG = "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/stille-sounds/humor-elefanten-schaubild.jpg";
+  const BILD = {
+    1: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-1.jpg", alt: "Perfektionisten-Rüssel: ein Elefant mit Kehrschaufel und Fehlerliste", text: "Im Bild kommt der ›Perfektionisten-Rüssel‹ mit Kehrschaufel und Fehlerliste daher. Der satirische Humor dieses Typs lässt sich mit genau diesem Blick für das Unstimmige in Verbindung bringen, verbunden mit der Fähigkeit, darüber zu schmunzeln." },
+    2: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-2.jpg", alt: "Allzeit-Bereit-Rüssel: ein Elefant mit Suppentopf und Hilfeliste", text: "Suppe, Genesungskarte und eine Hilfeliste: Der ›Allzeit-Bereit-Rüssel‹ zeigt, wie herzlicher Humor Nähe herstellt. Mit einem Augenzwinkern nimmt er dabei auch das eigene Dauer-Helfen aufs Korn." },
+    3: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-3.jpg", alt: "Erfolgs-Rüssel: ein Elefant zwischen Pokal und Wachstumskurve", text: "Zwischen Pokal und Wachstumskurve bleibt der ›Erfolgs-Rüssel‹ schlagfertig. Sein Humor lässt ihn im Gespräch souverän dastehen und lässt zugleich Raum für einen Seitenhieb auf die eigene Außenwirkung." },
+    4: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-4.jpg", alt: "Gefühls-Rüssel: ein Elefant mit Tagebuch und Feder", text: "Tagebuch, Feder und ein Gefühlsprotokoll: Der ›Gefühls-Rüssel‹ macht aus Schmerz eine ironische Pointe. Sein melancholischer Humor sagt oft das Ungesagte, mit einem leisen Lächeln über die eigene Dramatik." },
+    5: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-5.jpg", alt: "Wissens-Rüssel: ein Elefant zwischen Büchern und Bauplänen", text: "Der ›Wissens-Rüssel‹ zerlegt erst, dann lacht er. Sein trockener Humor steckt in der Pointe, die man erst beim zweiten Nachdenken versteht." },
+    6: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-6.jpg", alt: "Sicherheits-Rüssel: ein Elefant mit Katastrophenvorsorge-System", text: "Ein Katastrophenvorsorge-System und dazu ein Backup für das Backup: Beim ›Sicherheits-Rüssel‹ wird die Vorsicht so groß, dass sie komisch wird. Dort sitzt sein absurder Humor, er überspitzt die eigene Sorge, bis man lachen kann." },
+    7: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-7.jpg", alt: "Erlebnis-Rüssel: ein Elefant mit Abenteuer-Liste", text: "Eine Abenteuer-Liste mit Ballonfahrt über den Mars: Der ›Erlebnis-Rüssel‹ hat immer noch eine Idee mehr. Sein verspielter Humor sprudelt aus dieser Begeisterung und steckt andere an." },
+    8: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-8.jpg", alt: "Macht-Rüssel: ein Elefant mit verschränkten Armen", text: "Der ›Macht-Rüssel‹ verschränkt die Arme und gibt die Richtung vor. Sein provokativer, oft schwarzer Humor prüft, wie viel Gegenwind jemand aushält, und kann dabei erstaunlich ehrlich sein." },
+    9: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-9.jpg", alt: "Friedlicher Elefant: gelassen mit offener Hand", text: "Der friedliche Elefant geht die Dinge gern ohne Druck an: Ein bisschen Ruhe ist doch auch schön. Sein selbstironischer Humor nimmt die Spannung aus der Situation, vor allem die eigene." },
+  };
+
+  const THUMB = (n) => "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-" + n + "-s.jpg";
   const typen = [
     { nr:1, col:"#5f5f5f", titel:"Zorn: Der satirische Humor",
       art:"Satire wird oft genutzt, um Missst\u00e4nde anzuprangern und auf scheinbar \u201efalsches\u201c Verhalten hinzuweisen. Satiriker f\xfchlen sich h\xe4ufig von einem Sinn f\xfcr das \u201eRichtige\u201c oder \u201eGerechte\u201c angetrieben.",
@@ -58728,8 +58740,10 @@ function humorDer9TypenPage() {
     <div style="margin-bottom:2rem;padding:1.5rem 1.8rem;background:var(--surface-2,rgba(0,0,0,0.03));border-radius:14px;border-left:4px solid ${t.col};">
       <p style="font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:${t.col};font-weight:700;margin:0 0 .2rem;">Typ ${t.nr}</p>
       <p style="font-size:1rem;font-weight:700;color:${t.col};margin:0 0 .9rem;">${t.titel}</p>
+      <img src="${BILD[t.nr].img}" alt="${BILD[t.nr].alt}" style="width:100%;max-width:480px;display:block;margin:0 auto 1.1rem;border-radius:12px;" loading="lazy" />
       <p style="font-size:.9rem;line-height:1.7;color:var(--muted);margin:0 0 .7rem;font-style:italic;">${t.art}</p>
-      <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;">${t.typ}</p>
+      <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0 0 .9rem;">${t.typ}</p>
+      <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;">${BILD[t.nr].text}</p>
     </div>
   `).join("");
 
@@ -58754,8 +58768,9 @@ function humorDer9TypenPage() {
         </div>
       </div>
 
-      <img src="${HUMOR_IMG}" alt="Die 9 Enneagramm-Elefanten &mdash; humorvolles Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2.5rem;border-radius:14px;" loading="lazy" />
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;max-width:680px;margin:0 auto 2.5rem;">
+        ${[1,2,3,4,5,6,7,8,9].map(n => `<img src="${THUMB(n)}" alt="${BILD[n].alt}" style="width:100%;display:block;border-radius:8px;" loading="lazy" />`).join("")}
+      </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h2 style="font-size:1.1rem;font-weight:700;color:var(--ink);text-align:center;margin:0 0 1.5rem;">Die Humor-Stile der 9 Typen</h2>
