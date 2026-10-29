@@ -62,6 +62,7 @@ const _VS = {
   "wh": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-weihnachten-en.mp4", name: "Christmas-The-mask-may-fall.mp4", title: "Christmas: The mask may fall", text: "Christmas: The mask may fall. Nine types, nine wishes. Which mask will you set aside? More in the Enneagram Healing Compass: https://kompass.verlagshausrathmer.com/en/", yt: "https://youtu.be/qhfCtimz3cA" },
   "hu": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-humor-en.mp4", name: "Humor-of-the-9-Types.mp4", title: "Humor of the 9 Types", text: "Humor of the 9 types: nine elephants, nine styles of humor. Which humor is yours? More in the Enneagram Healing Compass: https://kompass.verlagshausrathmer.com/en/", yt: "https://youtu.be/hXrm-xLZa5w" },
   "ge": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-geschenk-en-v2.mp4", name: "Gift-Ideas-for-the-9-Types.mp4", title: "Gift Ideas for the 9 Types", text: "Which gift for which type? Nine types, nine gift ideas. More in the Enneagram Healing Compass: https://kompass.verlagshausrathmer.com/en/", yt: "https://youtu.be/BsUHTfzDUxw" },
+  "sp": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-sprache-en.mp4", name: "Speech-Styles-of-the-9-Types.mp4", title: "Speech Styles of the 9 Types", text: "How can you tell a type? Often by how they speak. Which sentence runs in your head? More in the Enneagram Healing Compass: https://kompass.verlagshausrathmer.com/en/", yt: "" },
 };
 const _vsState = {};
 async function _vsClick(btn) {
@@ -39471,6 +39472,16 @@ function sprachstile9TypenPage() {
         <p class="vb-intro">As with every typing feature, the same applies here: the speech style is an indicator, not proof. A single rhetorical trait – a warning phrase or a poetic expression, for instance – can appear situationally in anyone. Only the <strong>consistent pattern</strong> across many conversational situations, combined with the characteristic vocabulary and the recurring inner motto, turns speech style into a reliable building block for typing.</p>
 
         <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">You don't only hear what someone says – you hear which genre they say it in. &ndash; Detlef Rathmer</blockquote>
+
+        <div style="margin:2rem 0 0;text-align:center;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .3rem;color:var(--ink);">The speech styles as a short film</h2>
+          <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">About 70 seconds, with sound: nine types, nine speech styles, nine inner sentences. The button below sends a version with a link to the compass to friends and acquaintances, even if they do not have the app yet.</p>
+          <video controls playsinline preload="none" poster="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/sprache-en-poster.jpg" aria-label="Short film on the speech styles of the 9 types" style="display:block;width:100%;max-width:340px;margin:0 auto;border-radius:14px;background:#111;box-shadow:0 4px 18px rgba(0,0,0,.18);">
+            <source src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/sprache-en.mp4" type="video/mp4">
+          </video>
+          <div style="margin:.9rem 0 0;"><button type="button" data-share-video="sp" style="font:inherit;font-weight:700;font-size:.95rem;padding:.65rem 1.3rem;border:2px solid var(--copper);border-radius:999px;background:var(--paper);color:var(--copper);cursor:pointer;">&#8599; Share video</button></div>
+          <p style="font-size:.8rem;color:var(--muted);margin:.7rem 0 0;">Music: &lsaquo;Caf&eacute; Conversations&rsaquo; by Detlef Rathmer</p>
+        </div>
 
         ${bookTip("wer-du-wirklich-bist-band-1", "The nine types with their typical communication patterns, fixations, and paths of development in detail.", "Who You Really Are &ndash; Volume 1")}
         ${relatedLinks([

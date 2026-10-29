@@ -5,7 +5,7 @@ description: Use when making a new short film (Kurzfilm/Video/Reel/Short) for th
 
 # Neues Kurzfilm-Projekt (DE + EN)
 
-Stand: 29.10.2026. Entstanden: **Rote Pille, blauer Avatar** (Praxistipp), **Montagmorgen-Gedanken** (Schaubild), **Weihnachten: Die Maske darf fallen** (Schaubild Weihnachtswünsche), **Humor der 9 Typen** (Elefanten-Kacheln, Song »Bourbon Street Bounce«), **Geschenkideen** (Schaubild, Song »Christmas«, zweite Version). Die Vorlagen liegen in `vorlagen/` neben dieser Datei. Der Nutzer hat an dieser Arbeit viel Freude und will insgesamt etwa **10 Themen** (nicht endlos).
+Stand: 29.10.2026. Entstanden: **Rote Pille, blauer Avatar** (Praxistipp), **Montagmorgen-Gedanken** (Schaubild), **Weihnachten: Die Maske darf fallen** (Schaubild Weihnachtswünsche), **Humor der 9 Typen** (Elefanten-Kacheln, Song »Bourbon Street Bounce«), **Geschenkideen** (Schaubild, Song »Christmas«, zweite Version), **Sprachstile der 9 Typen** (Schaubild, Song »Café Conversations«). Die Vorlagen liegen in `vorlagen/` neben dieser Datei. Der Nutzer hat an dieser Arbeit viel Freude und will insgesamt etwa **10 Themen** (nicht endlos).
 
 ## 0. Grundsätze (vom Nutzer so gewünscht)
 - **Themenwahl:** Alltagssituation, die jeder kennt (Montagmorgen, Weihnachten, Urlaub, Arzt …), jeder Typ reagiert anders, Humor, kein Fachwort, am Ende Frage wie »Welche Stimme war Ihre?« und Hinweis auf den Kompass. Schwere Themen (Filme, Spiritualität) sind Nischen-Beiträge. Rangliste noch offen: Urlaub, beim Doktor (Songs vorhanden, Schaubild in der App ungeprüft), Kaffeearten/Sprachstile der 9 Typen.
@@ -25,6 +25,7 @@ Stand: 29.10.2026. Entstanden: **Rote Pille, blauer Avatar** (Praxistipp), **Mon
    - `anim_weihnachten.html`: neun Typ-Szenen mit Maske, die abfällt, dann Geschenk; Schnee, Baum, Frage-Ring.
    - `anim_rote-pille.html`: fünf Themen-Szenen (Matrix-Code, Avatar-Partikel …).
    - `anim_geschenke.html`: neun Szenen mit **Geschenkpaket** (fällt herein, wackelt, Deckel fliegt ab, Sterne), danach Geschenkname und Begründung; Paket-Raster 3×3 für Einstieg und Schlussfrage; Schnee.
+   - `anim_sprachstile.html`: neun Szenen mit **Sprechblase**, deren Satz je Typ in eigener Schrift und Bewegung erscheint (Predigt streng, Klagelied als Schreibschrift, Vortrag getippt …), Symbol-Plakette und Textfeld; Mini-Sprechblasen-Raster für Einstieg und Schlussfrage.
    - `anim_humor.html`: neun Szenen mit **eigenen Bildkacheln** (Polaroid-Karten, gleiten abwechselnd von links/rechts herein), Mosaik 3×3 für Einstieg und Schlussfrage; Kacheln als `t1.jpg`…`t9.jpg` im Arbeitsordner (liegen in `~/Documents/Marketing/Video-Werkstatt/humor-kacheln/`, Typ 1 und Typ 9 in korrigierter Fassung als `humor-typ-1-v2.jpg`/`humor-typ-9-v2.jpg` auf R2). Bei Bildern mit deutscher Beschriftung im EN-Video die englische Übersetzung als Bildunterschrift setzen.
    Texte (DE/EN-Objekte), Motive und die Zeitachse `S[]` anpassen. Die Seite ist eine reine Funktion `draw(t)` (Canvas 2D). Modi per URL-Hash: kein Hash = 1080×1920 DE, `#land` = 1920×1080 DE, `#en` = Hochformat EN, `#land-en`.
 4. **App-Bildschirme für den Werbeblock** (Handy-Mockup): lokaler Server `python3 -m http.server 4174` im Repo-Root, dann `node shots.mjs` bzw. `node shots.mjs en`; Seiten in `pages` anpassen. Das Skript setzt `kompass:onboarding-done` und `enneagramm-kompass:tier=heilwissen` und entfernt das »Impuls für heute«-Fenster. Ergebnis `app_<name>.jpg` / `app_<name>_en.jpg`.
@@ -47,6 +48,9 @@ Stand: 29.10.2026. Entstanden: **Rote Pille, blauer Avatar** (Praxistipp), **Mon
 11. **Links der Querformate** (YouTube) vom Nutzer erhalten, per `https://www.youtube.com/oembed?url=<link>&format=json` den Titel prüfen und zuordnen, in `_VS.yt` eintragen. Übersicht aller Links: Memory `reference_youtube_kurzfilme_links`.
 
 ## 2. Lehren (real aufgetreten)
+- **Länge/Tempo:** Bei textlastigen Themen (Geschenkideen, Sprachstile) wünscht der Nutzer ausdrücklich ruhiges Tempo: **ca. 6,5–7 s pro Szene, Gesamtlänge ca. 70–76 s**. Das Montagmorgen-Video (4,6 s pro Szene) war dafür zu schnell. Szenen als 12–14 Takte planen.
+- **Parallele Aufnahme:** Bei vielen gleichzeitigen Chrome-Prozessen kann ein Bild noch den Vorgängerstand zeigen. `cap.mjs` wartet deshalb 45 ms vor jedem Screenshot und meldet Zeichenfehler (`exceptionDetails`); nach dem Rendern immer Stichproben als Kontaktbogen prüfen (jede Szene mindestens einmal).
+- **Beschriftungen prüfen:** Überschriften über Textfeldern auf Sinn prüfen (»Der Redestil« statt »Der innere Satz« kostete einen kompletten Neurender).
 - **YouTube Shorts überdecken unten (~ein Viertel) und rechts** die Bildmitte (Titel, Beschreibung, Knöpfe). Unsere 9:16-Layouts sind **nicht** Shorts-sicher (Link, Schlusszeile, Denkblasen liegen unten). Deshalb Querformat bei YouTube hochladen lassen. Wer Shorts will: eigenes Layout mit Inhalt in der oberen/mittleren Zone bauen, Link-Zeile weglassen.
 - Der Werbeblock (»Link in der Beschreibung ↓«) passt nur für Social Media, **nicht** in die App und nicht auf die Homepage → dort die Fassung ohne App-Block.
 - Chat-Anhänge spielen ohne Ton; der Nutzer hörte zuerst nichts. Immer Finder öffnen (`open -R`).
