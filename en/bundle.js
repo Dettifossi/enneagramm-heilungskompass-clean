@@ -63,6 +63,7 @@ const _VS = {
   "hu": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-humor-en-v2.mp4", name: "Humor-of-the-9-Types.mp4", title: "Humor of the 9 Types", text: "Humor of the 9 types: nine elephants, nine styles of humor. Which humor is yours? More in the Enneagram Healing Compass: https://kompass.verlagshausrathmer.com/en/", yt: "https://youtu.be/hXrm-xLZa5w" },
   "ge": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-geschenk-en-v2.mp4", name: "Gift-Ideas-for-the-9-Types.mp4", title: "Gift Ideas for the 9 Types", text: "Which gift for which type? Nine types, nine gift ideas. More in the Enneagram Healing Compass: https://kompass.verlagshausrathmer.com/en/", yt: "https://youtu.be/BsUHTfzDUxw" },
   "sp": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-sprache-en-v2.mp4", name: "Speech-Styles-of-the-9-Types.mp4", title: "Speech Styles of the 9 Types", text: "How can you tell a type? Often by how they speak. Which sentence runs in your head? More in the Enneagram Healing Compass: https://kompass.verlagshausrathmer.com/en/", yt: "https://youtu.be/sRRzIJWUU24" },
+  "li": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-liebe-en.mp4", name: "The-Search-for-True-Love.mp4", title: "The Search for True Love", text: "Everyone seeks love. Each in their own way. Where do you seek it? More in the Enneagram Healing Compass: https://kompass.verlagshausrathmer.com/en/", yt: "" },
 };
 const _vsState = {};
 async function _vsClick(btn) {
@@ -38267,6 +38268,16 @@ function sucheNachLiebePage() {
           <p style="font-size:0.88rem;line-height:1.7;color:var(--anthracite);margin:0;">${t.text}</p>
         </div>
       `).join("")}
+
+      <div style="margin:2rem 0 0;text-align:center;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .3rem;color:var(--ink);">The search for love as a short film</h2>
+        <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">About 65 seconds, with sound: nine types, nine substitutes and the love behind them. The button below sends a version with a link to the compass to friends and acquaintances, even if they do not have the app yet.</p>
+        <video controls playsinline preload="none" poster="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/liebe-en-poster.jpg" aria-label="Short film on the search for true love" style="display:block;width:100%;max-width:340px;margin:0 auto;border-radius:14px;background:#111;box-shadow:0 4px 18px rgba(0,0,0,.18);">
+          <source src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/liebe-en.mp4" type="video/mp4">
+        </video>
+        <div style="margin:.9rem 0 0;"><button type="button" data-share-video="li" style="font:inherit;font-weight:700;font-size:.95rem;padding:.65rem 1.3rem;border:2px solid var(--copper);border-radius:999px;background:var(--paper);color:var(--copper);cursor:pointer;">&#8599; Share video</button></div>
+        <p style="font-size:.8rem;color:var(--muted);margin:.7rem 0 0;">Music: &lsaquo;Love Like a Lantern&rsaquo; by Detlef Rathmer</p>
+      </div>
 
       ${bookTip("die-sprache-unserer-beziehungen", "Cultivating intimacy with the Enneagram &ndash; how the nine types experience, seek, and sometimes avoid love.", "Die Sprache unserer Beziehungen")}
       ${bookTip("die-sprache-unserer-sexualitaet", "In partners, we often search for the love we will not find there &ndash; an honest look at desire, attachment, and what we truly seek.", "Die Sprache unserer Sexualität")}
