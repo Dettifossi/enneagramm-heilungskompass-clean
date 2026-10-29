@@ -43,7 +43,7 @@ function _needData(key) {
 // yt: YouTube-Link (wenn gesetzt, wird er statt der R2-Adresse als Link geteilt/kopiert)
 const _VS = {
   "rp": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-rote-pille-de.mp4", name: "Rote-Pille-blauer-Avatar.mp4", title: "Rote Pille, blauer Avatar", text: "Rote Pille, blauer Avatar: Was Matrix, Avatar, Inception und The Game über das Enneagramm verraten. Mehr im Enneagramm-Heilungskompass: https://kompass.verlagshausrathmer.com", yt: "https://youtube.com/shorts/biLZrdpEkzo" },
-  "mm": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-montagmorgen-de.mp4", name: "Montagmorgen-Gedanken.mp4", title: "Montagmorgen-Gedanken der 9 Typen", text: "Montagmorgen-Gedanken der 9 Enneagrammtypen: Welche Stimme war Ihre? Mehr im Enneagramm-Heilungskompass: https://kompass.verlagshausrathmer.com", yt: "" },
+  "mm": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-montagmorgen-de.mp4", name: "Montagmorgen-Gedanken.mp4", title: "Montagmorgen-Gedanken der 9 Typen", text: "Montagmorgen-Gedanken der 9 Enneagrammtypen: Welche Stimme war Ihre? Mehr im Enneagramm-Heilungskompass: https://kompass.verlagshausrathmer.com", yt: "https://youtube.com/shorts/n-kfTJCIZAQ" },
 };
 const _vsState = {};
 async function _vsClick(btn) {
