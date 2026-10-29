@@ -3189,3 +3189,73 @@ export function micheleLamyPortraitPage() {
     </div>
   `);
 }
+
+export function johnCusackPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-john-cusack-portrait.jpg" alt="John Cusack – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-john-cusack-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">John Cusack</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">American actor, producer and writer, b. 1966 &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Beaver: the boy from Evanston who reached the rehearsal stage at nine</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>beaver</strong> rarely builds for itself alone: its dam creates a pond in which many others live. John Cusack was born on 28 June 1966 in Evanston, Illinois, a suburb of Chicago, into an Irish Catholic family. His father Dick Cusack (1925&ndash;2003) was a writer, actor, producer and documentary filmmaker, his mother Nancy (1929&ndash;2022) a mathematics teacher. His sisters Ann and Joan also became actresses, and there are the siblings Bill and Susie.</p>
+          <p class="vb-intro">At nine he followed his older sisters into the Piven Theatre Workshop in Evanston, a theater school founded in 1974 by Byrne and Joyce Piven and run by family friends. After graduating from Evanston Township High School in 1984, where he met Jeremy Piven, he spent a year at New York University and dropped out; by his own account he had &lsquo;too much fire in the belly and not enough smarts in the brain&rsquo;. By then he already had film roles behind him: &lsquo;Class&rsquo; (1983) and &lsquo;Sixteen Candles&rsquo; (1984), and with &lsquo;The Sure Thing&rsquo; (1985) came the breakthrough.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Seven: non-gluttony in the service of the story</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo described the social Seven as the countertype of the Seven, as &lsquo;non-gluttony&rsquo;: its enthusiasm turns inward and into the service of a cause, an ideal or a group. In Cusack this can be read from the characters that made him known. Lloyd Dobler in &lsquo;Say Anything...&rsquo; (1989), Cameron Crowe&rsquo;s first film as director, stands not for conquest but for loyalty to a feeling: the man with the boombox outside the window holds on to a conviction instead of maneuvering cleverly. For the character Cusack drew, by his own account, on the bands The Clash and The Replacements.</p>
+          <p class="vb-intro">It is striking that he built his own vehicles. Through his company New Crime Productions he co-wrote &lsquo;Grosse Pointe Blank&rsquo; (1997) and played the lead; on &lsquo;High Fidelity&rsquo; (2000) he co-wrote the screenplay, produced, and received a Golden Globe nomination for his performance. The beaver does not wait for someone to build a house for it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: loyalty to his own circle and wariness of negotiation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> brings loyalty and a certain watchfulness into the Seven&rsquo;s enthusiasm. In Cusack the loyalty shows in the circle he comes from: a family of actors, the theater school of his childhood, a school friend like Jeremy Piven. The watchfulness shows later, in how he talks about the film business. In the Guardian in 2020 he said it had been hard in recent years to get projects financed.</p>
+          <p class="vb-intro">In July 2026 at San Diego Comic-Con he explained why he moved from acting to writing: &lsquo;I wanted to tell a story, but I didn&rsquo;t want to negotiate telling a story.&rsquo; Anyone who asks investors for $20 or $30 million, as he put it in essence, gets people who want a say.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the man who uses his irony like a handrail</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What made Cusack unmistakable was a style of dry wit, quick speech and a vulnerability that stays visible behind the irony. In &lsquo;High Fidelity&rsquo; he speaks directly to the camera as record-store owner Rob Gordon and lets the audience share in his failures in love. In &lsquo;Grosse Pointe Blank&rsquo; he joins a contract killer with a class reunion, in &lsquo;Being John Malkovich&rsquo; (1999) he plays a puppeteer in Spike Jonze&rsquo;s world from Charlie Kaufman&rsquo;s script. Later came roles as Edgar Allan Poe in &lsquo;The Raven&rsquo; (2012), as Richard Nixon in &lsquo;The Butler&rsquo; and as Brian Wilson in &lsquo;Love &amp; Mercy&rsquo;; for &lsquo;Maps to the Stars&rsquo; he received a Canadian Screen Award.</p>
+          <p class="vb-intro">About the Poe role he said: &lsquo;You have to get yourself as close to insanity as you can, but yet, be able to not go insane.&rsquo; The sentence describes the craft of the Seven who seeks intensity and wants to keep it under control at the same time. Off screen he has trained in kickboxing for over twenty years and holds a black belt in Ukidokan kickboxing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Billy Bob Thornton and Sigourney Weaver</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-billy-bob-thornton">Billy Bob Thornton (SO7w6)</a> shares with Cusack the dutiful variety of genres between drama and comedy and the writing of his own material. <a href="#beruehmte-sigourney-weaver">Sigourney Weaver (SO7w6)</a> shows how the same social Seven energy looks in an actress who understands roles as an obligation toward a cause.</p>
+          <p class="vb-intro">The difference: Weaver and Thornton stayed in the Hollywood system, Cusack left it, by his own account, to tell stories independently.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social Seven with Six-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright are self-irony and endurance. In October 2026 Cusack said on the podcast &lsquo;Happy Sad Confused&rsquo; that &lsquo;Say Anything...&rsquo; would not have the same effect today and that Lloyd Dobler might be seen as intrusive: someone who can look at his own role from such a distance does not cling to an image.</p>
+          <p class="vb-intro">The shadow side of the Seven lies where the ideal makes compromise hard. Anyone who understands every story as an obligation toward the cause finds it hard to negotiate it, and accepts that projects without backers do not come into being. The social Seven&rsquo;s pattern of always building something new and never quite finishing fits a career of over ninety films and the present move to the book. This portrait records what he himself said and does not interpret the reasons further.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: from film to comics</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">John Cusack is (as of 29 October 2026) 60 years old. Most recently he appeared, among other things, in the series &lsquo;Utopia&rsquo; and in the films &lsquo;Detective Chinatown 1900&rsquo; and &lsquo;Fog of War&rsquo; (both 2025). On 24 July 2026 he presented his graphic novel &lsquo;Momo&rsquo; at San Diego Comic-Con, a heist and road-trip story from 1972 with an extraterrestrial twist, drawn by Ignacio Noé. In his words nobody changed anything in the text or the drawings; he hinted at a second volume.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
+        {route:"beruehmte-billy-bob-thornton", label:"Portrait: Billy Bob Thornton (SO7w6)"},
+        {route:"beruehmte-sigourney-weaver", label:"Portrait: Sigourney Weaver (SO7w6)"},
+      ])}
+    </div>
+  `);
+}

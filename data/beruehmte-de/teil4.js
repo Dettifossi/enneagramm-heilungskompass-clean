@@ -3203,3 +3203,73 @@ export function micheleLamyPortraitPage() {
     </div>
   `);
 }
+
+export function johnCusackPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-john-cusack-portrait.jpg" alt="John Cusack – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-john-cusack-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">John Cusack</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Schauspieler, Produzent und Autor, geb. 1966 &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Biber: der Junge aus Evanston, der mit neun auf die Probebühne kam</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Biber</strong> baut selten für sich allein: Sein Damm schafft einen Teich, in dem viele andere leben. John Cusack wurde am 28. Juni 1966 in Evanston, Illinois, geboren, einem Vorort von Chicago, in eine irisch-katholische Familie. Der Vater Dick Cusack (1925&ndash;2003) war Autor, Schauspieler, Produzent und Dokumentarfilmer, die Mutter Nancy (1929&ndash;2022) Mathematiklehrerin. Die Schwestern Ann und Joan wurden ebenfalls Schauspielerinnen, dazu kommen die Geschwister Bill und Susie.</p>
+          <p class="vb-intro">Mit neun Jahren folgte er seinen älteren Schwestern in den Piven Theatre Workshop in Evanston, eine Theaterschule, die Byrne und Joyce Piven 1974 gegründet hatten und die von Familienfreunden geleitet wurde. Nach dem Abschluss der Evanston Township High School 1984, wo er Jeremy Piven kennenlernte, verbrachte er ein Jahr an der New York University und brach ab; nach eigener Aussage hatte er ›zu viel Feuer im Bauch und nicht genug Verstand im Kopf‹. Da hatte er schon Filmrollen hinter sich: ›Class‹ (1983) und ›Sixteen Candles‹ (1984), mit ›The Sure Thing‹ (1985) kam der Durchbruch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der soziale Siebener: Nicht-Völlerei im Dienst der Geschichte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo beschrieb den sozialen Siebener als Kontratyp der Sieben, als ›Non-Gluttony‹ (Nicht-Völlerei): Seine Begeisterung wendet sich nach innen und in den Dienst einer Sache, eines Ideals oder einer Gruppe. Bei Cusack lässt sich das an den Figuren ablesen, die ihn bekannt machten. Lloyd Dobler in ›Say Anything...‹ (1989), Cameron Crowes erstem Film als Regisseur, steht nicht für Eroberung, sondern für Treue zu einem Gefühl: Der Mann mit dem Ghettoblaster vor dem Fenster hält an einer Überzeugung fest, statt klug zu taktieren. Für die Figur schöpfte Cusack nach eigener Darstellung aus den Bands The Clash und The Replacements.</p>
+          <p class="vb-intro">Auffällig ist, dass er sich seine Vehikel selbst baute. Über seine Firma New Crime Productions schrieb er ›Grosse Pointe Blank‹ (1997) mit und spielte die Hauptrolle; bei ›High Fidelity‹ (2000) schrieb er am Drehbuch mit, produzierte und erhielt eine Golden-Globe-Nominierung für seine Darstellung. Der Biber wartet nicht, bis jemand ein Haus für ihn baut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Treue zum eigenen Kreis und Misstrauen gegenüber Verhandlungen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> bringt Loyalität und eine gewisse Wachsamkeit in die Begeisterung der Sieben. Bei Cusack zeigt sich die Loyalität im Kreis, aus dem er kommt: eine Familie von Schauspielern, die Theaterschule seiner Kindheit, ein Schulfreund wie Jeremy Piven. Die Wachsamkeit zeigt sich später, in der Art, wie er über das Filmgeschäft spricht. Im Guardian sagte er 2020, es sei ihm in den letzten Jahren schwergefallen, Projekte finanziert zu bekommen.</p>
+          <p class="vb-intro">Im Juli 2026 beim San Diego Comic-Con erklärte er, warum er sich vom Schauspielen zum Schreiben bewegt hat: ›I wanted to tell a story, but I didn&rsquo;t want to negotiate telling a story‹ (›Ich wollte eine Geschichte erzählen, aber ich wollte nicht darüber verhandeln, sie zu erzählen‹). Wer 20 oder 30 Millionen Dollar von Geldgebern verlangt, so sinngemäß seine Worte, bekomme Menschen, die mitreden wollen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: der Mann, der seine Ironie wie ein Geländer benutzt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Cusack unverwechselbar machte, war ein Spielstil aus trockenem Witz, schneller Sprache und einer Verletzlichkeit, die hinter der Ironie sichtbar bleibt. In ›High Fidelity‹ spricht er als Plattenhändler Rob Gordon direkt in die Kamera und lässt das Publikum an seinem Scheitern in Liebesdingen teilhaben. In ›Grosse Pointe Blank‹ verbindet er einen Auftragskiller mit dem Klassentreffen, in ›Being John Malkovich‹ (1999) spielt er einen Puppenspieler in Spike Jonzes Welt nach Charlie Kaufmans Drehbuch. Später folgten Rollen als Edgar Allan Poe in ›The Raven‹ (2012), als Richard Nixon in ›The Butler‹ und als Brian Wilson in ›Love &amp; Mercy‹; für ›Maps to the Stars‹ erhielt er einen Canadian Screen Award.</p>
+          <p class="vb-intro">Über die Poe-Rolle sagte er: ›You have to get yourself as close to insanity as you can, but yet, be able to not go insane‹ (›Man muss sich so nah an den Wahnsinn bringen wie möglich und doch in der Lage sein, nicht verrückt zu werden‹). Der Satz beschreibt das Handwerk des Siebeners, der Intensität sucht und sie zugleich unter Kontrolle halten will. Außerhalb der Leinwand trainiert er seit über zwanzig Jahren Kickboxen und trägt einen schwarzen Gürtel im Ukidokan-Kickboxen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Billy Bob Thornton und Sigourney Weaver</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-billy-bob-thornton">Billy Bob Thornton (SO7w6)</a> teilt mit Cusack die pflichtbewusste Genre-Vielfalt zwischen Drama und Komödie und das Schreiben der eigenen Stoffe. <a href="#beruehmte-sigourney-weaver">Sigourney Weaver (SO7w6)</a> zeigt, wie dieselbe soziale Siebener-Energie bei einer Schauspielerin aussieht, die Rollen als Verpflichtung gegenüber einer Sache versteht.</p>
+          <p class="vb-intro">Der Unterschied: Weaver und Thornton blieben im Hollywood-System, Cusack hat es nach eigener Darstellung verlassen, um unabhängig zu erzählen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten des sozialen Siebeners mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell sind Selbstironie und Ausdauer. Im Oktober 2026 sagte Cusack im Podcast ›Happy Sad Confused‹, ›Say Anything...‹ würde heute nicht mehr dieselbe Wirkung haben, und Lloyd Dobler würde vielleicht als aufdringlich gelten: Wer die eigene Rolle so mit Abstand ansehen kann, hängt nicht an einem Bild.</p>
+          <p class="vb-intro">Die Schattenseite der Sieben liegt dort, wo das Ideal Kompromisse schwer macht. Wer jede Geschichte als Verpflichtung gegenüber der Sache versteht, tut sich schwer, sie zu verhandeln, und nimmt in Kauf, dass Projekte ohne Geldgeber nicht entstehen. Das Muster des sozialen Siebeners, immer etwas Neues zu bauen und nie wirklich fertig zu sein, passt zu einer Laufbahn von über neunzig Filmen und dem jetzigen Wechsel zum Buch. Dieses Porträt hält fest, was er selbst gesagt hat, und deutet die Gründe nicht weiter aus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: vom Film zum Comic</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">John Cusack ist (Stand 29. Oktober 2026) 60 Jahre alt. Zuletzt stand er unter anderem in der Serie ›Utopia‹ und in den Filmen ›Detective Chinatown 1900‹ und ›Fog of War‹ (beide 2025) vor der Kamera. Am 24. Juli 2026 stellte er beim San Diego Comic-Con seine Graphic Novel ›Momo‹ vor, einen Heist- und Roadtrip-Stoff aus dem Jahr 1972 mit außerirdischem Einschlag, gezeichnet von Ignacio Noé. Nach seinen Worten hat niemand an dem Text oder den Zeichnungen etwas geändert; er deutete einen zweiten Band an.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
+        {route:"beruehmte-billy-bob-thornton", label:"Porträt: Billy Bob Thornton (SO7w6)"},
+        {route:"beruehmte-sigourney-weaver", label:"Porträt: Sigourney Weaver (SO7w6)"},
+      ])}
+    </div>
+  `);
+}
