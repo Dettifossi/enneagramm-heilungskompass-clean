@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=456";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=457";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -138,6 +138,7 @@ const jeanMaraisPortraitPage = () => _lazyPage("./data/beruehmte-de/teil14.js", 
 const martinaGedeckPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "martinaGedeckPortraitPage");
 const joeVitalePortraitPage = () => _lazyPage("./data/beruehmte-de/teil15.js", "joeVitalePortraitPage");
 const klausMariaBrandauerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil7.js", "klausMariaBrandauerPortraitPage");
+const mireilleMathieuPortraitPage = () => _lazyPage("./data/beruehmte-de/teil7.js", "mireilleMathieuPortraitPage");
 const elkeSommerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil14.js", "elkeSommerPortraitPage");
 const rosalieThomassPortraitPage = () => _lazyPage("./data/beruehmte-de/teil11.js", "rosalieThomassPortraitPage");
 const robbieColtranePortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "robbieColtranePortraitPage");
@@ -27758,6 +27759,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Klaus Maria Brandauer \u2013 Sexueller Typ 7",
     teaser:"SX7w8 \u00b7 geb. 1943 in Bad Aussee. \u00d6sterreichischer Schauspieler und Regisseur (\u203aMephisto\u2039, \u203aOut of Africa\u2039, Burgtheater, Jedermann). Der Schimpanse, der sich ganz in seine Rollen wirft.",
     land:"\u00d6sterreich", tags:["Schauspiel"], gender:"m"},
+  { route:"beruehmte-mireille-mathieu", name:"Mireille Mathieu", added:"2026-10-29", subtyp:"SE3w2",
+    heading:"Mireille Mathieu \u2013 Selbsterhaltender Typ 3",
+    teaser:"SE3w2 \u00b7 geb. 1946 in Avignon. Franz\u00f6sische Chansons\u00e4ngerin, der \u203aSpatz von Avignon\u2039 (\u203aHinter den Kulissen von Paris\u2039, \u203aLa Paloma ad\u00e9\u2039). Der Waschb\u00e4r, der als Steinmetzkind zweimal verlor, in der Fabrik f\u00fcr Gesangsstunden sparte und mit achtzig auf Abschiedstournee geht.",
+    land:"Frankreich", tags:["Musik"], gender:"f"},
   { route:"beruehmte-elke-sommer", name:"Elke Sommer", added:"2026-10-29", subtyp:"SX7w6",
     heading:"Elke Sommer \u2013 Sexueller Typ 7",
     teaser:"SX7w6 \u00b7 1940\u20132026. Deutsche Schauspielerin, S\u00e4ngerin und Malerin (\u203aDer Preis\u2039, \u203aEin Schuss im Dunkeln\u2039). Der Schimpanse, der aus dem Pfarrhaus nach Hollywood sprang und seine Lebenslust bis ins hohe Alter trug.",
@@ -67718,6 +67723,7 @@ const ROUTES = {
       "beruehmte-martina-gedeck": martinaGedeckPortraitPage,
       "beruehmte-joe-vitale": joeVitalePortraitPage,
       "beruehmte-klaus-maria-brandauer": klausMariaBrandauerPortraitPage,
+      "beruehmte-mireille-mathieu": mireilleMathieuPortraitPage,
       "beruehmte-elke-sommer": elkeSommerPortraitPage,
       "beruehmte-rosalie-thomass": rosalieThomassPortraitPage,
       "beruehmte-robbie-coltrane": robbieColtranePortraitPage,
