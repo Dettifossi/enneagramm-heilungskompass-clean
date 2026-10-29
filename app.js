@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=454";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=455";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -122,6 +122,7 @@ const karinThalerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil4.js", 
 const arzneimittelbilderPage = () => _lazyPage("./data/wissen-de/arzneimittelbilder.js", "arzneimittelbilderPage");
 const spirituellesEnneagrammPage = () => _lazyPage("./data/wissen-de/spirituelles-enneagramm.js", "spirituellesEnneagrammPage");
 const endeDerSuchePage = () => _lazyPage("./data/praxistipps-de/ende-der-suche.js", "endeDerSuchePage");
+const kinoErwachenPage = () => _lazyPage("./data/praxistipps-de/kino-erwachen.js", "kinoErwachenPage");
 const albertBrooksPortraitPage = () => _lazyPage("./data/beruehmte-de/teil8.js", "albertBrooksPortraitPage");
 const emilyBluntPortraitPage = () => _lazyPage("./data/beruehmte-de/teil13.js", "emilyBluntPortraitPage");
 const rjMittePortraitPage = () => _lazyPage("./data/beruehmte-de/teil9.js", "rjMittePortraitPage");
@@ -34506,6 +34507,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"chakra-kern-uebung", titel:"Der Chakra-Kern Ihres Enneagrammtyps", teaser:"Die neun Enneagrammtypen, neun K\u00f6rperzentren und die passenden hom\u00f6opathischen Konstitutionsmittel \u2013 und eine kurze \u00dcbung, um die eigene Zone bewusst zu sp\u00fcren.", img:"./assets/schaubilder/chakra-kern-uebung/chakra-kern-uebung.jpg", kategorie:"geist" },
     { slug:"dein-wille-geschehe", titel:"›Dein Wille geschehe‹: Hingabe statt Ego-Wille", teaser:"Was Christentum, Taoismus, Zen und Sufismus über den Eigenwillen sagen – und wie sich das ›Mein Wille geschehe‹ bei allen 27 Enneagramm-Subtypen zeigt, mit der Hingabe als Gegenstück.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/dein-wille-geschehe/dein-wille-geschehe.jpg", kategorie:"geist" },
     { slug:"ende-der-suche", titel:"Wenn die Suche still wird: Das Ende der Suche und die 13 Illusionen des spirituellen Suchers", teaser:"Warum nichts hinzugefügt werden muss, um vollständig zu sein – 13 Illusionen vom Subjekt bis zum Leiden, jeweils mit Übungen zur Selbstbeobachtung.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/ende-der-suche/ende-der-suche.jpg", kategorie:"geist" },
+    { slug:"kino-erwachen", titel:"Rote Pille, blauer Avatar: Was Matrix, Avatar, Inception und The Game über die Enneagramm-Fixierung verraten", teaser:"Vier Filme, ein Gedanke: Das Muster ist ein Betriebssystem, nicht das Wesen. Mit Kacheln zu Matrix, Avatar, Inception und The Game, den neun Programmen der Typen und einer kleinen Totem-Übung für den Alltag.", img:"", kategorie:"geist" },
   ];
   const TIPP_KATEGORIEN = [
     { id:"koerper", label:"K\u00f6rper & Bewegung", icon:"\ud83e\udded" },
@@ -34573,6 +34575,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "ende-der-suche") {
     return endeDerSuchePage();
+  }
+  if (param === "kino-erwachen") {
+    return kinoErwachenPage();
   }
 
   return shell(`
