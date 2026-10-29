@@ -19825,6 +19825,25 @@ function heilungswegPage() {
         </div>
 
       </div>
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">The Chart in Text: Essence, Holy Ideas, Ego Motivations, Passions, Instinctual Variants</h2>
+        <p class="vb-intro"><strong>Essence of the 9 Enneatypes (9 Holy Ideas or ways):</strong> universal love in the 9 facets of unity.</p>
+        <p class="vb-intro">Already in early childhood we seemingly lose this essence. In truth, the growing ego of the 9 Enneatypes increasingly covers up the true essence, because the person looks for happiness outside, where, as is well known, it is never to be found. This hopeless attempt sometimes lasts a whole life, from the cradle to the grave, and every person has to live through this separation from Being in this world of polarity as part of human development. Sometimes, however, a person wakes up at some point on their life path to their true nature, their true core of being, and discovers their hidden essence deep within, which was never lost but only waited there to be rediscovered. Until then, they are on detours, motivated by the search for true love, for themselves, in the outside world in 9 different ways:</p>
+        <ul class="sp-list" style="list-style:none;padding-left:0;">
+          <li><strong>Type 1:</strong> Holy Perfection &middot; seeks Perfection &amp; correctness instead of love &middot; passion: Anger</li>
+          <li><strong>Type 2:</strong> Holy Will, Holy Freedom &middot; seeks Helping &amp; giving instead of love &middot; passion: Pride</li>
+          <li><strong>Type 3:</strong> Holy Law, Holy Hope &middot; seeks Success &amp; achievement instead of love &middot; passion: Vanity</li>
+          <li><strong>Type 4:</strong> Holy Origin &middot; seeks Individuality &amp; creativity instead of love &middot; passion: Envy</li>
+          <li><strong>Type 5:</strong> Holy Omniscience, Holy Transparency &middot; seeks Knowledge &amp; observation instead of love &middot; passion: Avarice</li>
+          <li><strong>Type 6:</strong> Holy Strength, Holy Faith &middot; seeks Security &amp; loyalty instead of love &middot; passion: Fear</li>
+          <li><strong>Type 7:</strong> Holy Work, Holy Plan &middot; seeks Fun &amp; joy instead of love &middot; passion: Gluttony</li>
+          <li><strong>Type 8:</strong> Holy Truth &middot; seeks Power &amp; control instead of love &middot; passion: Lust</li>
+          <li><strong>Type 9:</strong> Holy Love &middot; seeks Harmony &amp; self-forgetting instead of love &middot; passion: Sloth</li>
+        </ul>
+        <p class="vb-intro">This eternal search of the human being is fueled by the 9 passions inherent in every Enneagram type.</p>
+        <p class="vb-intro">The 3 differently pronounced instinctual variants give the 9 passions the necessary energy: <strong>the self-preservation instinct, the social instinct and the relationship instinct.</strong></p>
+        <p class="vb-intro">The homeopathic Enneagram remedy has a balancing effect on instincts and passions and thereby brings about healing.</p>
+      </div>
       ${relatedLinks([
         {route:"leidenschaft-und-wunde", label:"Passion & Wound"},
         {route:"wunden", label:"Wounds & Protective Strategies"},
@@ -40021,7 +40040,7 @@ function verwechslungenPage() {
   return shell(`
     ${pageHeader("verwechslungen")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
-      <p class="eyebrow">Charts \xb7 Typisierung</p>
+      <p class="eyebrow">Charts \xb7 Typing</p>
       <h1 class="section-title">Type Confusions</h1>
       <p class="psycho-intro">Ego strength or essence? The most consequential trap in Enneagram typing.</p>
       <img
