@@ -38227,7 +38227,19 @@ function sucheNachLiebePage() {
 }
 
 function humorDer9TypenPage() {
-  const HUMOR_IMG = "https://res.cloudinary.com/ymooybdl/image/upload/v1783720175/kompass/stille-sounds/humor-elefanten-schaubild.jpg";
+  const BILD = {
+    1: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-1.jpg", alt: "Perfectionist Trunk: an elephant with a dustpan and a list of faults", text: "In the picture, the ‘Perfectionist Trunk’ arrives with a dustpan and a list of faults. The satirical humor of this type can be linked to exactly this eye for what is off, combined with the ability to smile about it.", q: "‘I’m not critical. I just see how it could be better! (And please don’t step here!)’" },
+    2: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-2.jpg", alt: "Always-Ready Trunk: an elephant with a soup pot and a help list", text: "Soup, a get-well card and a help list: the ‘Always-Ready Trunk’ shows how warm humor creates closeness. With a wink, it also pokes fun at its own constant helping.", q: "‘Just a little something to keep you going! (And if you need anything else, I’m always here!)’" },
+    3: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-3.jpg", alt: "Success Trunk: an elephant between a trophy and a growth chart", text: "Between trophy and growth chart, the ‘Success Trunk’ stays quick-witted. Its humor lets it stand confidently in conversation and leaves room for a jab at its own image.", q: "‘Of course I help, but the main thing is that it looks perfect from the outside! (And where are the masterpieces?)’" },
+    4: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-4.jpg", alt: "Feelings Trunk: an elephant with a diary and a quill", text: "Diary, quill and a feelings log: the ‘Feelings Trunk’ turns pain into an ironic punchline. Its melancholic humor often says the unsaid, with a quiet smile at its own drama.", q: "‘I’m not just sad. I feel everything so much more deeply than everyone else! (And why does no one understand me?)’" },
+    5: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-5.jpg", alt: "Knowledge Trunk: an elephant among books and blueprints", text: "The ‘Knowledge Trunk’ takes things apart first, then it laughs. Its dry humor lives in the punchline you only get on second thought.", q: "‘I’m not just interested. I have to take everything apart and understand it before I can even think about it!’" },
+    6: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-6.jpg", alt: "Safety Trunk: an elephant with a disaster-preparedness system", text: "A disaster-preparedness system, plus a backup for the backup: with the ‘Safety Trunk’, caution grows so large that it becomes comical. That is where its absurd humor sits: it exaggerates its own worry until you can laugh.", q: "‘I’ve thought about it… thoroughly! But what if the plan doesn’t work?’" },
+    7: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-7.jpg", alt: "Adventure Trunk: an elephant with an adventure list", text: "An adventure list with a balloon ride over Mars: the ‘Adventure Trunk’ always has one more idea. Its playful humor bubbles up from this enthusiasm and infects others.", q: "‘I’ve got an idea… and another… and another! We have to try everything at once!’" },
+    8: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-8.jpg", alt: "Power Trunk: an elephant with crossed arms", text: "The ‘Power Trunk’ crosses its arms and sets the direction. Its provocative, often dark humor tests how much headwind someone can take, and can be surprisingly honest.", q: "‘Enough talk! Time to act! And I’m the one who says which way we go! (Adventures are only good if they deliver results!)’" },
+    9: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-9.jpg", alt: "Peaceful elephant: relaxed with an open hand", text: "The peaceful elephant likes to approach things without pressure: a little calm is nice too. Its self-deprecating humor takes the tension out of the situation, especially its own.", q: "‘Closing customers the Type 9 way? Hmm… well, why not. It doesn’t always have to be so exhausting. A little bit is nice too!’" },
+  };
+
+  const THUMB = (n) => "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-" + n + "-s.jpg";
   const typen = [
     { nr:1, col:"#5f5f5f", titel:"Anger: Satirical Humor",
       art:"Satire is often used to denounce grievances and point out seemingly “wrong” behavior. Satirists frequently feel driven by a sense of what is “right” or “just.”",
@@ -38262,8 +38274,11 @@ function humorDer9TypenPage() {
     <div style="margin-bottom:2rem;padding:1.5rem 1.8rem;background:var(--surface-2,rgba(0,0,0,0.03));border-radius:14px;border-left:4px solid ${t.col};">
       <p style="font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:${t.col};font-weight:700;margin:0 0 .2rem;">Type ${t.nr}</p>
       <p style="font-size:1rem;font-weight:700;color:${t.col};margin:0 0 .9rem;">${t.titel}</p>
+      <img src="${BILD[t.nr].img}" alt="${BILD[t.nr].alt}" style="width:100%;max-width:480px;display:block;margin:0 auto .5rem;border-radius:12px;" loading="lazy" />
+      <p style="font-size:.78rem;line-height:1.5;color:var(--muted);margin:0 0 1rem;text-align:center;">The German speech bubble, translated: ${BILD[t.nr].q}</p>
       <p style="font-size:.9rem;line-height:1.7;color:var(--muted);margin:0 0 .7rem;font-style:italic;">${t.art}</p>
-      <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;">${t.typ}</p>
+      <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0 0 .9rem;">${t.typ}</p>
+      <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;">${BILD[t.nr].text}</p>
     </div>
   `).join("");
 
@@ -38288,8 +38303,9 @@ function humorDer9TypenPage() {
         </div>
       </div>
 
-      <img src="${HUMOR_IMG}" alt="Die 9 Enneagramm-Elefanten &mdash; humorvolles Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2.5rem;border-radius:14px;" loading="lazy" />
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;max-width:680px;margin:0 auto 2.5rem;">
+        ${[1,2,3,4,5,6,7,8,9].map(n => `<img src="${THUMB(n)}" alt="${BILD[n].alt}" style="width:100%;display:block;border-radius:8px;" loading="lazy" />`).join("")}
+      </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h2 style="font-size:1.1rem;font-weight:700;color:var(--ink);text-align:center;margin:0 0 1.5rem;">The Humor Styles of the 9 Types</h2>
