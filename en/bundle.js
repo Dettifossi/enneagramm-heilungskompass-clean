@@ -22107,6 +22107,28 @@ function egoPersoenlichkeitPage() {
       </div>
 
       ${bookTip("der-code-deiner-persoenlichkeit", "Step by step, recognizing one's own type and finding paths to personal development.", "Der Code deiner Persönlichkeit")}
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">The Nine Ego Structures at a Glance (text of the chart)</h2>
+        <p class="vb-intro">The chart shows three directions of the ego&rsquo;s reaction: <strong>Attack</strong> (separation = against the others!), <strong>Deception</strong> (image = toward the others!) and <strong>Flight</strong> (fear = away from the others!).</p>
+        <p class="vb-intro"><strong>Attack (Types 8, 9, 1)</strong></p>
+        <ul class="sp-list" style="margin:0 0 1rem;">
+          <li><strong>Type 8 &ndash; Ego-Revenge:</strong> becomes angry about the loss of support and fights with the environment in order to gain justice and to take revenge for the injury.</li>
+          <li><strong>Type 9 &ndash; Ego-Inertia:</strong> tries to smooth over and gloss over everything in the environment, acting as if all were well, in order to live life in a mechanical and unexcited way.</li>
+          <li><strong>Type 1 &ndash; Ego-Resentment:</strong> tries to create the missing support through self-improvement and the improvement of others, going it alone.</li>
+        </ul>
+        <p class="vb-intro"><strong>Deception (Types 2, 3, 4)</strong></p>
+        <ul class="sp-list" style="margin:0 0 1rem;">
+          <li><strong>Type 2 &ndash; Ego-Flattery:</strong> tries to deny the need for support, yet manipulates and seduces the environment so that it gives support.</li>
+          <li><strong>Type 3 &ndash; Ego-Vanity:</strong> denies the need to be held, but pretends at the same time: &lsquo;I can do it alone, I take care of my own development myself.&rsquo;</li>
+          <li><strong>Type 4 &ndash; Ego-Melancholy:</strong> defends against the loss of being held by denying the separation from Being. At the same time, they try to create a holding environment by controlling both the environment and themselves.</li>
+        </ul>
+        <p class="vb-intro"><strong>Flight (Types 5, 6, 7)</strong></p>
+        <ul class="sp-list" style="margin:0;">
+          <li><strong>Type 5 &ndash; Ego-Avarice:</strong> avoids the actual feeling of loss, the feeling of missing support, by withdrawing, isolating, and thereby evading the situation.</li>
+          <li><strong>Type 6 &ndash; Ego-Cowardice:</strong> uses the strategy of staying in contact with fear and mistrust and of behaving defensively and paranoid toward the environment.</li>
+          <li><strong>Type 7 &ndash; Ego-Planning:</strong> plans how to find the way back &lsquo;into paradise&rsquo; instead of having to feel the pain of the loss of support.</li>
+        </ul>
+      </div>
       ${relatedLinks([
         {route:"grundformel", label:"Core Formula"},
         {route:"kerneberzeugungen", label:"Core Beliefs"},

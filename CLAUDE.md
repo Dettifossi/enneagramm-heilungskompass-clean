@@ -141,6 +141,10 @@ done
 ```
 Jeder ausgegebene Treffer ist ein Rückstand und muss vor Abschluss der Arbeit an diesem Porträt behoben werden — nicht erst, wenn der Nutzer danach fragt.
 
+## Schaubild-Bilder: Inhalt immer auch als englischer Text (Nutzerwunsch 29.10.2026)
+
+Schaubilder liegen oft nur als **deutsche Bilder** vor; englische Bilder will der Nutzer vorerst nicht herstellen. Damit englischsprachige Nutzer nicht benachteiligt sind, muss jede englische Seite mit einem Schaubild-Bild **den Inhalt des Bildes (große Überschriften, Texte zu den neun Typen, Gruppen/Triaden) zusätzlich als englischen Text** enthalten. Bei neuen Schaubild-Seiten sofort mitliefern; bei der Humor-Seite stehen unter den Kacheln englische Übersetzungen der Sprechblasen. Prüfung bestehender Seiten: EN-Seitenfunktion lesen, Bild ansehen (liegt unter `assets/schaubilder/…`) und vergleichen. Geprüft/ergänzt: `ego-persoenlichkeit` (ergänzt), `schutzdefizite`, `bewaeltigungsstrategie`, `60-sekunden-scan` (in Ordnung). Weitere EN-Seiten mit Bild und wenig Typen-Text stehen noch zur Prüfung (u. a. nicht-verbundene-typen, prinzipien, ego-fixierungen, gifte-des-geistes, edelsteine, wann-entsteht-der-typ, leidenschaft-und-wunde, identifikation, verwechslungen, naehe, heilungsweg, horney-triaden, tritypen).
+
 ## NEU-Kennzeichnung (30 Tage) — automatisch über den Changelog
 
 Menüpunkte (Wissen, Praxis, Schaubilder …) erhalten seit 04.10.2026 automatisch das Badge **NEU** (und der Reiter einen kleinen Punkt), solange ein Changelog-Eintrag mit `route: "<route-des-Menüpunkts>"` jünger als 30 Tage ist **und sein Text mit »Neu…« beginnt** (z. B. »Neuer Wissensartikel: …«, »Neues Schaubild: …«, »Neu: …«). Bei jeder neuen Seite/Rubrik deshalb den Changelog-Eintrag so formulieren und die `route` setzen — mehr ist nicht nötig. Für Porträts gilt weiterhin das Feld `added:` im Array-Eintrag. `SCHAUBILDER_NEU` bleibt nur als manuelle Übersteuerung.
