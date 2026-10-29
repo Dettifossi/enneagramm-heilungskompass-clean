@@ -46,7 +46,7 @@ const _VS = {
   "mm": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-montagmorgen-de.mp4", name: "Montagmorgen-Gedanken.mp4", title: "Montagmorgen-Gedanken der 9 Typen", text: "Montagmorgen-Gedanken der 9 Enneagrammtypen: Welche Stimme war Ihre? Mehr im Enneagramm-Heilungskompass: https://kompass.verlagshausrathmer.com", yt: "https://youtu.be/jZtQjD8EAF0" },
   "wh": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-weihnachten-de.mp4", name: "Weihnachten-Die-Maske-darf-fallen.mp4", title: "Weihnachten: Die Maske darf fallen", text: "Weihnachten: Die Maske darf fallen. Neun Typen, neun Wünsche. Welche Maske legen Sie ab? Mehr im Enneagramm-Heilungskompass: https://kompass.verlagshausrathmer.com", yt: "https://youtu.be/QGFgtMDsZiM" },
   "hu": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-humor-de.mp4", name: "Humor-der-9-Typen.mp4", title: "Humor der 9 Typen", text: "Humor der 9 Typen: Neun Elefanten, neun Humor-Stile. Welcher Humor ist Ihrer? Mehr im Enneagramm-Heilungskompass: https://kompass.verlagshausrathmer.com", yt: "https://youtu.be/Ca2Oerbtq4U" },
-  "ge": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-geschenk-de.mp4", name: "Geschenkideen-fuer-die-9-Typen.mp4", title: "Geschenkideen für die 9 Typen", text: "Was schenke ich meinem Typ? Neun Typen, neun Geschenkideen. Mehr im Enneagramm-Heilungskompass: https://kompass.verlagshausrathmer.com", yt: "" },
+  "ge": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-geschenk-de-v2.mp4", name: "Geschenkideen-fuer-die-9-Typen.mp4", title: "Geschenkideen für die 9 Typen", text: "Was schenke ich welchem Typ? Neun Typen, neun Geschenkideen. Mehr im Enneagramm-Heilungskompass: https://kompass.verlagshausrathmer.com", yt: "" },
 };
 const _vsState = {};
 async function _vsClick(btn) {
@@ -42893,9 +42893,9 @@ function geschenkideenPage() {
 
       <div style="margin:2rem 0 0;text-align:center;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .3rem;color:var(--ink);">Die Geschenkideen als Kurzfilm</h2>
-        <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">Rund 45 Sekunden, mit Ton: neun Typen, neun Geschenkideen. Über den Knopf unten geht eine Fassung mit Link zum Kompass an Freunde und Bekannte, auch wenn diese die App noch nicht haben.</p>
-        <video controls playsinline preload="none" poster="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/geschenk-de-poster.jpg" aria-label="Kurzfilm zu den Geschenkideen für die 9 Typen" style="display:block;width:100%;max-width:340px;margin:0 auto;border-radius:14px;background:#111;box-shadow:0 4px 18px rgba(0,0,0,.18);">
-          <source src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/geschenk-de.mp4" type="video/mp4">
+        <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">Rund 70 Sekunden, mit Ton: neun Typen, neun Geschenkideen. Über den Knopf unten geht eine Fassung mit Link zum Kompass an Freunde und Bekannte, auch wenn diese die App noch nicht haben.</p>
+        <video controls playsinline preload="none" poster="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/geschenk-de-v2-poster.jpg" aria-label="Kurzfilm zu den Geschenkideen für die 9 Typen" style="display:block;width:100%;max-width:340px;margin:0 auto;border-radius:14px;background:#111;box-shadow:0 4px 18px rgba(0,0,0,.18);">
+          <source src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/geschenk-de-v2.mp4" type="video/mp4">
         </video>
         <div style="margin:.9rem 0 0;"><button type="button" data-share-video="ge" style="font:inherit;font-weight:700;font-size:.95rem;padding:.65rem 1.3rem;border:2px solid var(--copper);border-radius:999px;background:var(--paper);color:var(--copper);cursor:pointer;">&#8599; Video teilen</button></div>
         <p style="font-size:.8rem;color:var(--muted);margin:.7rem 0 0;">Musik: ›Christmas‹ von Detlef Rathmer</p>
