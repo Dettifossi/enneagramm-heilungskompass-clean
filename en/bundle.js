@@ -39382,6 +39382,15 @@ function montagmorgenGedanken9TypenPage() {
 
         <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Before the day begins to shape us, the first thought already reveals who we are. &ndash; Detlef Rathmer</blockquote>
 
+        <div style="margin:2rem 0 0;text-align:center;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .3rem;color:var(--ink);">The diagram as a short film</h2>
+          <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">About 50 seconds, with sound: the nine thoughts one after the other, to recognise yourself and to share.</p>
+          <video controls playsinline preload="none" poster="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/montagmorgen-en-poster.jpg" aria-label="Short film of the Monday morning thoughts of the 9 types" style="display:block;width:100%;max-width:340px;margin:0 auto;border-radius:14px;background:#111;box-shadow:0 4px 18px rgba(0,0,0,.18);">
+            <source src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/montagmorgen-en.mp4" type="video/mp4">
+          </video>
+          <p style="font-size:.8rem;color:var(--muted);margin:.7rem 0 0;">Music: &lsaquo;Dawn&rsquo;s Swinging Revelation&rsaquo; by Detlef Rathmer</p>
+        </div>
+
         ${bookTip("wer-du-wirklich-bist-band-1", "The nine types with their typical thought patterns, fixations, and paths of development in detail.", "Who You Really Are &ndash; Volume 1")}
         ${relatedLinks([
           {route:"hilfreiche-hinweise-9-typen", label:"Helpful Pointers for the 9 Types"},
