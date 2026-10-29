@@ -54,6 +54,49 @@ function _needData(key) {
   return shell(`<div class="page-container"><p class="suche-hint" role="status" aria-live="polite">Loading content …</p></div>`);
 }
 
+// ---- Kurzfilme in Artikeln teilen (Web-Share mit Datei, sonst Link) ----
+// yt: YouTube-Link (wenn gesetzt, wird er statt der R2-Adresse als Link geteilt/kopiert)
+const _VS = {
+  "rp": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-rote-pille-en.mp4", name: "Red-Pill-Blue-Avatar.mp4", title: "Red Pill, Blue Avatar", text: "Red Pill, Blue Avatar: What The Matrix, Avatar, Inception and The Game reveal about the Enneagram. More in the Enneagram Healing Compass: https://kompass.verlagshausrathmer.com/en/", yt: "" },
+  "mm": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-montagmorgen-en.mp4", name: "Monday-Morning-Thoughts.mp4", title: "Monday Morning Thoughts of the 9 Types", text: "Monday Morning Thoughts of the 9 Enneagram Types: Which voice was yours? More in the Enneagram Healing Compass: https://kompass.verlagshausrathmer.com/en/", yt: "" },
+};
+const _vsState = {};
+async function _vsClick(btn) {
+  const key = btn.getAttribute("data-share-video"), v = _VS[key + ""];
+  if (!v) return;
+  const st = _vsState[key] || (_vsState[key] = {});
+  const idle = "\u2197 Share video";
+  const link = v.yt || v.file;
+  const copyLink = async () => {
+    try { await navigator.clipboard.writeText(v.text + " " + link); btn.textContent = "Link copied \u2713"; }
+    catch (e) { window.prompt("Link:", link); }
+    setTimeout(() => { btn.textContent = idle; }, 2500);
+  };
+  try {
+    if (st.file) {
+      try { await navigator.share({ files: [st.file], title: v.title, text: v.text }); st.file = null; btn.textContent = idle; }
+      catch (e) { if (e && e.name === "AbortError") { btn.textContent = "\u2197 Send now"; } else { st.file = null; await copyLink(); } }
+      return;
+    }
+    if (st.loading) return;
+    if (typeof File !== "undefined" && navigator.canShare && navigator.share) {
+      st.loading = true; btn.textContent = "Preparing \u2026";
+      const r = await fetch(v.file); const b = await r.blob();
+      const f = new File([b], v.name, { type: "video/mp4" });
+      st.loading = false;
+      if (navigator.canShare({ files: [f] })) { st.file = f; btn.textContent = "\u2197 Send now"; return; }
+    }
+    if (navigator.share) {
+      try { await navigator.share({ title: v.title, text: v.text, url: link }); } catch (e) { if (!(e && e.name === "AbortError")) await copyLink(); }
+      btn.textContent = idle;
+    } else { await copyLink(); }
+  } catch (e) { st.loading = false; await copyLink(); }
+}
+document.addEventListener("click", (e) => {
+  const b = e.target && e.target.closest && e.target.closest("[data-share-video]");
+  if (b) { e.preventDefault(); _vsClick(b); }
+});
+
 function _lazyPage(spec, name) {
   const rec = _lazyMods.get(spec);
   if (rec && rec.mod) return rec.mod[name]();
@@ -39384,10 +39427,11 @@ function montagmorgenGedanken9TypenPage() {
 
         <div style="margin:2rem 0 0;text-align:center;">
           <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .3rem;color:var(--ink);">The diagram as a short film</h2>
-          <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">About 50 seconds, with sound: the nine thoughts one after the other, to recognise yourself and to share.</p>
+          <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">About 50 seconds, with sound: the nine thoughts one after the other. The button below sends a version with a link to the compass to friends and acquaintances, even if they do not have the app yet.</p>
           <video controls playsinline preload="none" poster="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/montagmorgen-en-poster.jpg" aria-label="Short film of the Monday morning thoughts of the 9 types" style="display:block;width:100%;max-width:340px;margin:0 auto;border-radius:14px;background:#111;box-shadow:0 4px 18px rgba(0,0,0,.18);">
             <source src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/montagmorgen-en.mp4" type="video/mp4">
           </video>
+          <div style="margin:.9rem 0 0;"><button type="button" data-share-video="mm" style="font:inherit;font-weight:700;font-size:.95rem;padding:.65rem 1.3rem;border:2px solid var(--copper);border-radius:999px;background:var(--paper);color:var(--copper);cursor:pointer;">&#8599; Share video</button></div>
           <p style="font-size:.8rem;color:var(--muted);margin:.7rem 0 0;">Music: &lsaquo;Dawn&rsquo;s Swinging Revelation&rsaquo; by Detlef Rathmer</p>
         </div>
 

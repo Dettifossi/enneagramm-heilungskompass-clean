@@ -147,10 +147,11 @@ export function kinoErwachenPage() {
 
       <div style="margin:2rem 0 0;text-align:center;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .3rem;color:var(--ink);">Der Artikel als Kurzfilm</h2>
-        <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">Rund 45 Sekunden, mit Ton, zum Weitergeben an alle, die neugierig auf das Thema sind.</p>
+        <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">Rund 45 Sekunden, mit Ton. Über den Knopf unten geht eine Fassung mit Link zum Kompass an Freunde und Bekannte, auch wenn diese die App noch nicht haben.</p>
         <video controls playsinline preload="none" poster="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/kino-erwachen-de-poster.jpg" aria-label="Kurzfilm zum Praxistipp Rote Pille, blauer Avatar" style="display:block;width:100%;max-width:340px;margin:0 auto;border-radius:14px;background:#111;box-shadow:0 4px 18px rgba(0,0,0,.18);">
           <source src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/kino-erwachen-de.mp4" type="video/mp4">
         </video>
+        <div style="margin:.9rem 0 0;"><button type="button" data-share-video="rp" style="font:inherit;font-weight:700;font-size:.95rem;padding:.65rem 1.3rem;border:2px solid var(--copper);border-radius:999px;background:var(--paper);color:var(--copper);cursor:pointer;">&#8599; Video teilen</button></div>
         <p style="font-size:.8rem;color:var(--muted);margin:.7rem 0 0;">Musik: ›Nine Gazes, Nine Words‹ von Detlef Rathmer</p>
       </div>
 

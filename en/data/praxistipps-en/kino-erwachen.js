@@ -147,10 +147,11 @@ export function kinoErwachenPage() {
 
       <div style="margin:2rem 0 0;text-align:center;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .3rem;color:var(--ink);">The article as a short film</h2>
-        <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">About 45 seconds, with sound, to share with anyone curious about the topic.</p>
+        <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">About 45 seconds, with sound. The button below sends a version with a link to the compass to friends and acquaintances, even if they do not have the app yet.</p>
         <video controls playsinline preload="none" poster="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/kino-erwachen-en-poster.jpg" aria-label="Short film for the practice tip Red Pill, Blue Avatar" style="display:block;width:100%;max-width:340px;margin:0 auto;border-radius:14px;background:#111;box-shadow:0 4px 18px rgba(0,0,0,.18);">
           <source src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/kino-erwachen-en.mp4" type="video/mp4">
         </video>
+        <div style="margin:.9rem 0 0;"><button type="button" data-share-video="rp" style="font:inherit;font-weight:700;font-size:.95rem;padding:.65rem 1.3rem;border:2px solid var(--copper);border-radius:999px;background:var(--paper);color:var(--copper);cursor:pointer;">&#8599; Share video</button></div>
         <p style="font-size:.8rem;color:var(--muted);margin:.7rem 0 0;">Music: &lsaquo;Nine Gazes, Nine Words&rsaquo; by Detlef Rathmer</p>
       </div>
 
