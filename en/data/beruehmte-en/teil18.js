@@ -2644,9 +2644,10 @@ export function edithPiafPortraitPage() {
           <p class="vb-intro">What actually set Piaf apart was a highly distinctive vocal technique that she never acquired through classical training, but developed as an autodidact on the street and in small Parisian music halls: an intense, almost raw vibrato, an uncompromisingly clear French diction that made every line understandable even to non-native speakers, and a dynamic contrast between near-whispered passages and full chest voice that gave every song theatrical tension without relying on exaggerated gesture. Contemporaries described her small, slight stature (barely 1.47 meters) in stark contrast to a voice that filled entire concert halls on its own weight &ndash; a professional substance that went far beyond mere talent and was shaped by decades of daily stage practice.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Parallel within the same subtype: Adele</h2>
+        <h2 class="vb-section">5. Parallel within the same subtype: Adele &ndash; and an echo from Avignon</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Among the portraits in this compass, <a href="#beruehmte-adele">Adele (SP4w3)</a> offers an obvious parallel: both singers transformed deep personal pain &ndash; for Adele breakups and self-doubt, for Piaf loss, addiction, and physical decline &ndash; not into public complaint, but into disciplined, composed songs that became universal precisely because of that discipline. Both show the characteristic SP4w3 contrast between quiet, often barely perceptible inner distress and a stage presence that reaches millions.</p>
+          <p class="vb-intro">An echo reaches as far as Avignon: <a href="#beruehmte-mireille-mathieu">Mireille Mathieu (SP3w2)</a> saw Piaf on television as a child, called her an early role model, and the press christened her &lsquo;Piaf d&rsquo;Avignon&rsquo;. Both are self-preservation subtypes with a small frame and a strong, clear voice, yet the pattern runs differently: the Self-Preservation Four with a Three-wing turns pain into art, the Self-Preservation Three with a Two-wing turns reliability into service to the audience. Piaf stood on stage until shortly before her death despite her decline; Mathieu goes on her farewell tour at eighty.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Light and shadow of the Self-Preservation Four</h2>
@@ -2669,6 +2670,7 @@ export function edithPiafPortraitPage() {
         {route:"subtype/se4", label:"SP4 – The Dove: subtype profile"},
         {route:"lebensmusterkompass/se4", label:"Life Pattern Compass: SP4 – Dove"},
         {route:"beruehmte-adele", label:"Portrait: Adele (SP4w3) – also quiet, disciplined pain shaped into universal songs"},
+        {route:"beruehmte-mireille-mathieu", label:"Portrait: Mireille Mathieu (SP3w2) – the 'Piaf d\'Avignon' of the next generation"},
         {route:"krankheitsportraets-edith-piaf", label:"Illness Portrait: Édith Piaf (SP4w3)"},
       ])}
     </div>

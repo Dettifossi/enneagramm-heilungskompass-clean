@@ -2708,9 +2708,10 @@ export function edithPiafPortraitPage() {
           <p class="vb-intro">Was Piaf tatsächlich auszeichnete, war eine höchst eigenständige Gesangstechnik, die sie sich nie in einer klassischen Gesangsausbildung aneignete, sondern auf der Straße und in kleinen Pariser Music-Halls autodidaktisch entwickelte: ein intensives, fast raues Vibrato, eine kompromisslos klare französische Diktion, die jede Zeile auch für Nicht-Muttersprachler verständlich machte, und ein dynamischer Kontrast zwischen fast geflüsterten Passagen und voller Bruststimme, der jedem Lied eine theatralische Spannung gab, ohne auf übertriebene Gestik angewiesen zu sein. Zeitgenossen beschrieben ihre kleine, zierliche Statur (knapp 1,47 Meter) im Kontrast zu einer Stimme, die ganze Konzertsäle allein mit ihrem Gewicht füllte – eine fachliche Substanz, die weit über bloßes Talent hinausging und von Jahrzehnten täglicher Bühnenpraxis geformt wurde.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Parallele im selben Subtyp: Adele</h2>
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Adele – und ein Echo aus Avignon</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Unter den Porträts dieses Kompasses findet sich mit <a href="#beruehmte-adele">Adele (SE4w3)</a> eine naheliegende Parallele: Beide Sängerinnen verwandelten tiefen persönlichen Schmerz – bei Adele Trennungen und Selbstzweifel, bei Piaf Verlust, Sucht und körperlichen Verfall – nicht in öffentliche Klage, sondern in diszipliniert komponierte Lieder, die genau dadurch universell wurden. Beide zeigen den charakteristischen SE4w3-Kontrast zwischen stiller, oft von Außenstehenden kaum wahrgenommener innerer Not und einer Bühnenpräsenz, die Millionen erreicht.</p>
+          <p class="vb-intro">Ein Echo reicht bis nach Avignon: <a href="#beruehmte-mireille-mathieu">Mireille Mathieu (SE3w2)</a> sah als Kind Piaf im Fernsehen, nannte sie ihr frühes Vorbild, und die Presse taufte sie ›Piaf d&rsquo;Avignon‹. Beide sind selbsterhaltende Subtypen mit kleiner Gestalt und kräftiger, klarer Stimme, doch das Muster läuft verschieden: Die selbsterhaltende Vier mit Dreierflügel verwandelt Schmerz in Kunst, die selbsterhaltende Drei mit Zweierflügel verwandelt Verlässlichkeit in Dienst am Publikum. Piaf stand trotz ihres Verfalls bis kurz vor ihrem Tod auf der Bühne; Mathieu geht mit achtzig auf ihre Abschiedstournee.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Vier</h2>
@@ -2733,6 +2734,7 @@ export function edithPiafPortraitPage() {
         {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
         {route:"lebensmusterkompass/se4", label:"Lebensmusterkompass: SE4 – Taube"},
         {route:"beruehmte-adele", label:"Porträt: Adele (SE4w3) – ebenfalls stiller, diszipliniert geformter Schmerz in universellen Liedern"},
+        {route:"beruehmte-mireille-mathieu", label:"Porträt: Mireille Mathieu (SE3w2) – der ›Piaf d'Avignon‹ der nächsten Generation"},
         {route:"krankheitsportraets-edith-piaf", label:"Krankheitsporträt: Édith Piaf (SE4w3)"},
       ])}
     </div>

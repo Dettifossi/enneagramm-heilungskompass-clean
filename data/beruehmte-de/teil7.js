@@ -3115,10 +3115,11 @@ export function mireilleMathieuPortraitPage() {
           <p class="vb-intro">Dazu kamen Auszeichnungen: der Bambi (1972, 1973 und 1987), das Bundesverdienstkreuz (1984), das französische Offizierskreuz der Ehrenlegion (2011) und 2018 die Ehrendoktorwürde der Moskauer Staatlichen Universität. Zu den Verkaufszahlen schwanken die Angaben je nach Quelle stark; anlässlich der Abschiedstournee nannten Medien rund 170 Millionen verkaufte Tonträger, so auch die 20-Uhr-Nachrichten der ARD am 29. Oktober 2026. Wichtiger als jede Ehrung ist für die Zuordnung die Kontinuität: mehr als 3.500 Konzerte, und der Spatz singt weiter.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Parallele im selben Subtyp: Enrico Caruso</h2>
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Enrico Caruso &ndash; und das Vorbild Édith Piaf</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro"><a href="#beruehmte-enrico-caruso">Enrico Caruso (SE3w2)</a> wuchs ebenfalls in einer armen, kinderreichen Familie auf, arbeitete früh und machte aus einer seltenen Stimme durch Disziplin ein Lebenswerk. Wie bei Mathieu stand bei ihm die Verlässlichkeit gegenüber dem Publikum an erster Stelle, und der Zweierflügel zeigte sich in Großzügigkeit.</p>
           <p class="vb-intro">Der Unterschied: Carusos Pflichtgefühl kostete ihn am Ende die Gesundheit. Bei Mathieu zeigt sich dasselbe Muster mit einem anderen Verlauf: Sie ist mit achtzig noch unterwegs und gibt zu, dass das Lampenfieber mit den Jahren eher größer als kleiner geworden ist.</p>
+          <p class="vb-intro">Ein zweites Gegenüber ist ihr Vorbild <a href="#beruehmte-edith-piaf">Édith Piaf (SE4w3)</a>, nach der die Presse sie ›Piaf d&rsquo;Avignon‹ nannte. Beide sind selbsterhaltende Subtypen, klein von Gestalt und mit großer, klarer Stimme, und doch läuft das Muster verschieden: Die selbsterhaltende Vier mit Dreierflügel verwandelt Schmerz in Kunst, die selbsterhaltende Drei mit Zweierflügel verwandelt Verlässlichkeit in Dienst am Publikum. Gerade das macht das Paar aufschlussreich: Vier und Drei sind Nachbarn auf dem Enneagramm, die Vier trägt einen Dreierflügel, die Drei einen Zweierflügel &ndash; zwei verschiedene Antworten auf dieselbe Bühne.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Drei mit Zweierflügel</h2>
@@ -3141,6 +3142,7 @@ export function mireilleMathieuPortraitPage() {
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
         {route:"lebensmusterkompass/se3", label:"Lebensmusterkompass: SE3 – Waschbär"},
         {route:"beruehmte-enrico-caruso", label:"Porträt: Enrico Caruso (SE3w2)"},
+        {route:"beruehmte-edith-piaf", label:"Porträt: Édith Piaf (SE4w3) – das große Vorbild"},
       ])}
     </div>
   `);

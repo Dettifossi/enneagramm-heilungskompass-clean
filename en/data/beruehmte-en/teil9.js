@@ -3160,10 +3160,11 @@ export function mireilleMathieuPortraitPage() {
           <p class="vb-intro">Honors followed: the Bambi (1972, 1973 and 1987), the German Federal Cross of Merit (1984), the French Legion of Honour at officer rank (2011) and in 2018 an honorary doctorate from Moscow State University. Figures for her sales vary widely by source; on the occasion of the farewell tour, media reported around 170 million records sold, among them the 8 p.m. news of the ARD (German public television) on 29 October 2026. More important than any honor for the classification is continuity: more than 3,500 concerts, and the sparrow keeps singing.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Parallel in the same subtype: Enrico Caruso</h2>
+        <h2 class="vb-section">5. Parallel in the same subtype: Enrico Caruso &ndash; and her model Édith Piaf</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro"><a href="#beruehmte-enrico-caruso">Enrico Caruso (SP3w2)</a> likewise grew up in a poor family with many children, worked early and turned a rare voice into a life&rsquo;s work through discipline. As with Mathieu, reliability toward the audience came first for him, and the Two-wing showed in generosity.</p>
           <p class="vb-intro">The difference: Caruso&rsquo;s sense of duty cost him his health in the end. In Mathieu the same pattern takes a different course: she is on the road at eighty and admits that stage fright has grown rather than shrunk over the years.</p>
+          <p class="vb-intro">A second counterpart is her role model <a href="#beruehmte-edith-piaf">Édith Piaf (SP4w3)</a>, after whom the press called her &lsquo;Piaf d&rsquo;Avignon&rsquo;. Both are self-preservation subtypes, small in frame and with a big, clear voice, and yet the pattern runs differently: the Self-Preservation Four with a Three-wing turns pain into art, the Self-Preservation Three with a Two-wing turns reliability into service to the audience. That is what makes the pair revealing: Four and Three are neighbors on the Enneagram, the Four carries a Three-wing, the Three a Two-wing &ndash; two different answers to the same stage.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Light and shadow of the Self-Preservation Three with Two-wing</h2>
@@ -3186,6 +3187,7 @@ export function mireilleMathieuPortraitPage() {
         {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
         {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SP3 – Raccoon"},
         {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SP3w2)"},
+        {route:"beruehmte-edith-piaf", label:"Portrait: Édith Piaf (SP4w3) – the great role model"},
       ])}
     </div>
   `);
