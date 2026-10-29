@@ -58724,6 +58724,51 @@ function sucheNachLiebePage() {
         <p class="qs-q">Welche Zeile berührt Sie?</p>
       </div>
 
+      <div class="qs-wrap qs-sub">
+        <style>
+          .qs-sub details{margin:0 0 .7rem;}
+          .qs-sub summary{cursor:pointer;list-style:none;font-weight:700;font-size:.95rem;letter-spacing:.06em;text-transform:uppercase;background:#2a2320;color:#f6e7c8;border-radius:30px;padding:.55rem 1.1rem;text-align:center;}
+          .qs-sub summary::-webkit-details-marker{display:none}
+          .qs-sub details[open] summary{margin-bottom:.7rem;}
+        </style>
+        <h2>Quintessenz für die Subtypen</h2>
+        <p class="qs-intro">Auch der Instinkt färbt, womit Liebe ersetzt wird. Dieselbe Umkehrung, nach Instinkt geordnet. Die Begriffe sind Annäherungen aus den Subtyp-Texten, keine festen Etiketten.</p>
+        <details><summary>Selbsterhaltung (SE)</summary>
+          <div class="qs-row" style="--c:#5f5f5f"><span class="qs-num">1</span><div class="qs-txt"><div class="qs-cap">SE1 &middot; Perfektionist</div><div class="qs-l1">Disziplin statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Disziplin</div></div></div>
+          <div class="qs-row" style="--c:#7a2fa8"><span class="qs-num">2</span><div class="qs-txt"><div class="qs-cap">SE2 &middot; Helfer</div><div class="qs-l1">Fürsorge statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Fürsorge</div></div></div>
+          <div class="qs-row" style="--c:#1fa688"><span class="qs-num">3</span><div class="qs-txt"><div class="qs-cap">SE3 &middot; Dynamiker</div><div class="qs-l1">Effizienz statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Effizienz</div></div></div>
+          <div class="qs-row" style="--c:#3cbf1f"><span class="qs-num">4</span><div class="qs-txt"><div class="qs-cap">SE4 &middot; Individualist</div><div class="qs-l1">Durchhalten statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Durchhalten</div></div></div>
+          <div class="qs-row" style="--c:#124fcc"><span class="qs-num">5</span><div class="qs-txt"><div class="qs-cap">SE5 &middot; Denker</div><div class="qs-l1">Rückzug statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Rückzug</div></div></div>
+          <div class="qs-row" style="--c:#8a5222"><span class="qs-num">6</span><div class="qs-txt"><div class="qs-cap">SE6 &middot; Loyaler Skeptiker</div><div class="qs-l1">Verbündete statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Verbündete</div></div></div>
+          <div class="qs-row" style="--c:#d4a800"><span class="qs-num">7</span><div class="qs-txt"><div class="qs-cap">SE7 &middot; Optimist</div><div class="qs-l1">Genuss statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Genuss</div></div></div>
+          <div class="qs-row" style="--c:#a00802"><span class="qs-num">8</span><div class="qs-txt"><div class="qs-cap">SE8 &middot; Herausforderer</div><div class="qs-l1">Autonomie statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Autonomie</div></div></div>
+          <div class="qs-row" style="--c:#cc6e00"><span class="qs-num">9</span><div class="qs-txt"><div class="qs-cap">SE9 &middot; Friedlicher</div><div class="qs-l1">Komfort statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Komfort</div></div></div>
+        </details>
+        <details><summary>Sozial (SO)</summary>
+          <div class="qs-row" style="--c:#5f5f5f"><span class="qs-num">1</span><div class="qs-txt"><div class="qs-cap">SO1 &middot; Perfektionist</div><div class="qs-l1">Prinzipien statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Prinzipien</div></div></div>
+          <div class="qs-row" style="--c:#7a2fa8"><span class="qs-num">2</span><div class="qs-txt"><div class="qs-cap">SO2 &middot; Helfer</div><div class="qs-l1">Engagement statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Engagement</div></div></div>
+          <div class="qs-row" style="--c:#1fa688"><span class="qs-num">3</span><div class="qs-txt"><div class="qs-cap">SO3 &middot; Dynamiker</div><div class="qs-l1">Anerkennung statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Anerkennung</div></div></div>
+          <div class="qs-row" style="--c:#3cbf1f"><span class="qs-num">4</span><div class="qs-txt"><div class="qs-cap">SO4 &middot; Individualist</div><div class="qs-l1">Besonderheit statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Besonderheit</div></div></div>
+          <div class="qs-row" style="--c:#124fcc"><span class="qs-num">5</span><div class="qs-txt"><div class="qs-cap">SO5 &middot; Denker</div><div class="qs-l1">Verstehen statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Verstehen</div></div></div>
+          <div class="qs-row" style="--c:#8a5222"><span class="qs-num">6</span><div class="qs-txt"><div class="qs-cap">SO6 &middot; Loyaler Skeptiker</div><div class="qs-l1">Pflicht statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Pflicht</div></div></div>
+          <div class="qs-row" style="--c:#d4a800"><span class="qs-num">7</span><div class="qs-txt"><div class="qs-cap">SO7 &middot; Optimist</div><div class="qs-l1">Ideale statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Ideale</div></div></div>
+          <div class="qs-row" style="--c:#a00802"><span class="qs-num">8</span><div class="qs-txt"><div class="qs-cap">SO8 &middot; Herausforderer</div><div class="qs-l1">Verantwortung statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Verantwortung</div></div></div>
+          <div class="qs-row" style="--c:#cc6e00"><span class="qs-num">9</span><div class="qs-txt"><div class="qs-cap">SO9 &middot; Friedlicher</div><div class="qs-l1">Zugehörigkeit statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Zugehörigkeit</div></div></div>
+        </details>
+        <details><summary>Sexuell (SX)</summary>
+          <div class="qs-row" style="--c:#5f5f5f"><span class="qs-num">1</span><div class="qs-txt"><div class="qs-cap">SX1 &middot; Perfektionist</div><div class="qs-l1">Vollkommenheit statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Vollkommenheit</div></div></div>
+          <div class="qs-row" style="--c:#7a2fa8"><span class="qs-num">2</span><div class="qs-txt"><div class="qs-cap">SX2 &middot; Helfer</div><div class="qs-l1">Verführung statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Verführung</div></div></div>
+          <div class="qs-row" style="--c:#1fa688"><span class="qs-num">3</span><div class="qs-txt"><div class="qs-cap">SX3 &middot; Dynamiker</div><div class="qs-l1">Ausstrahlung statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Ausstrahlung</div></div></div>
+          <div class="qs-row" style="--c:#3cbf1f"><span class="qs-num">4</span><div class="qs-txt"><div class="qs-cap">SX4 &middot; Individualist</div><div class="qs-l1">Leidenschaft statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Leidenschaft</div></div></div>
+          <div class="qs-row" style="--c:#124fcc"><span class="qs-num">5</span><div class="qs-txt"><div class="qs-cap">SX5 &middot; Denker</div><div class="qs-l1">Idealisierung statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Idealisierung</div></div></div>
+          <div class="qs-row" style="--c:#8a5222"><span class="qs-num">6</span><div class="qs-txt"><div class="qs-cap">SX6 &middot; Loyaler Skeptiker</div><div class="qs-l1">Mut statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Mut</div></div></div>
+          <div class="qs-row" style="--c:#d4a800"><span class="qs-num">7</span><div class="qs-txt"><div class="qs-cap">SX7 &middot; Optimist</div><div class="qs-l1">Begeisterung statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Begeisterung</div></div></div>
+          <div class="qs-row" style="--c:#a00802"><span class="qs-num">8</span><div class="qs-txt"><div class="qs-cap">SX8 &middot; Herausforderer</div><div class="qs-l1">Rebellion statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Rebellion</div></div></div>
+          <div class="qs-row" style="--c:#cc6e00"><span class="qs-num">9</span><div class="qs-txt"><div class="qs-cap">SX9 &middot; Friedlicher</div><div class="qs-l1">Verschmelzung statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Verschmelzung</div></div></div>
+        </details>
+        <p class="qs-q">Welche Zeile berührt Sie?</p>
+      </div>
+
       <div style="margin:2rem 0 0;text-align:center;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .3rem;color:var(--ink);">Die Suche nach Liebe als Kurzfilm</h2>
         <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">Rund 65 Sekunden, mit Ton: neun Typen, neun Ersatzwege und die Liebe dahinter. Über den Knopf unten geht eine Fassung mit Link zum Kompass an Freunde und Bekannte, auch wenn diese die App noch nicht haben.</p>
