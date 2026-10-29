@@ -145,6 +145,15 @@ export function kinoErwachenPage() {
         <p class="vb-intro" style="margin-bottom:0;">The Matrix shows the operating system, Avatar the pilot in the pod, Inception the totem as a touchstone and The Game the shock therapy one should wish on nobody. Long before cinema, Plato's cave, the mystics and Dante told the same story. For the Enneagram a calm thought follows: the pattern is a tool one can live well with for a long time. Whoever recognizes it need not get rid of it but gains something larger than any fixation, namely the possibility of pausing briefly between stimulus and response.</p>
       </div>
 
+      <div style="margin:2rem 0 0;text-align:center;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .3rem;color:var(--ink);">The article as a short film</h2>
+        <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">About 45 seconds, with sound, to share with anyone curious about the topic.</p>
+        <video controls playsinline preload="none" poster="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/kino-erwachen-en-poster.jpg" aria-label="Short film for the practice tip Red Pill, Blue Avatar" style="display:block;width:100%;max-width:340px;margin:0 auto;border-radius:14px;background:#111;box-shadow:0 4px 18px rgba(0,0,0,.18);">
+          <source src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/kino-erwachen-en.mp4" type="video/mp4">
+        </video>
+        <p style="font-size:.8rem;color:var(--muted);margin:.7rem 0 0;">Music: &lsaquo;Nine Gazes, Nine Words&rsaquo; by Detlef Rathmer</p>
+      </div>
+
       <p style="font-size:.85rem;color:var(--muted);margin:1.4rem 0 0;">This tip does not replace medical or therapeutic treatment. The film images are food for thought, not statements about reality. Anyone who feels that the world seems unreal or as if behind glass, or who suffers from persistent anxiety or low mood, should seek medical or therapeutic help instead of deepening such images alone. Crises should never be brought about deliberately, as happens in the film.</p>
 
       <div style="margin-top:2rem;">

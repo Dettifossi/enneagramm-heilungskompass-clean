@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2700", date: "2026-10-29", text: "Neuer Kurzfilm zum Praxistipp ›Rote Pille, blauer Avatar‹ – der Artikel in 45 Sekunden, mit Ton, direkt unter dem Beitrag.", text_en: "New short film for the practice tip ‹Red Pill, Blue Avatar› – the article in 45 seconds, with sound, right below the post.", route: "praxistipps-heilpraktiker/kino-erwachen" },
     { version: "v2699", date: "2026-10-29", text: "Neuer Praxistipp vom Heilpraktiker: ›Rote Pille, blauer Avatar‹ – was Matrix, Avatar, Inception und The Game über die Enneagramm-Fixierung verraten, mit Filmkacheln, den neun Programmen der Typen und einer Totem-Übung.", text_en: "New practical tip from the naturopath: ‘Red Pill, Blue Avatar’ – what The Matrix, Avatar, Inception and The Game reveal about the Enneagram fixation, with film tiles, the nine programs of the types and a totem exercise.", route: "praxistipps-heilpraktiker/kino-erwachen" },
     { version: "v2698", date: "2026-10-29", text: "Neues Porträt: Clint Eastwood (SX1w9) – Schauspieler und Regisseur.", text_en: "New portrait: Clint Eastwood (SX1w9) – actor and director.", route: "beruehmte-clint-eastwood" },
     { version: "v2697", date: "2026-10-28", text: "Neues Porträt: Ayn Rand (SX1w9) – Schriftstellerin und Philosophin.", text_en: "New portrait: Ayn Rand (SX1w9) – novelist and philosopher.", route: "beruehmte-ayn-rand" },

@@ -145,6 +145,15 @@ export function kinoErwachenPage() {
         <p class="vb-intro" style="margin-bottom:0;">Matrix zeigt das Betriebssystem, Avatar den Piloten in der Kapsel, Inception das Totem als Prüfstein und The Game die Schocktherapie, die man niemandem wünschen sollte. Dasselbe erzählten lange vor dem Kino Platons Höhle, die Mystiker und Dante. Für das Enneagramm folgt daraus ein ruhiger Gedanke: Das Muster ist ein Werkzeug, mit dem man lange gut leben kann. Wer es erkennt, muss es nicht loswerden, sondern gewinnt etwas, das größer ist als jede Fixierung, nämlich die Möglichkeit, zwischen Reiz und Antwort kurz innezuhalten.</p>
       </div>
 
+      <div style="margin:2rem 0 0;text-align:center;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .3rem;color:var(--ink);">Der Artikel als Kurzfilm</h2>
+        <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">Rund 45 Sekunden, mit Ton, zum Weitergeben an alle, die neugierig auf das Thema sind.</p>
+        <video controls playsinline preload="none" poster="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/kino-erwachen-de-poster.jpg" aria-label="Kurzfilm zum Praxistipp Rote Pille, blauer Avatar" style="display:block;width:100%;max-width:340px;margin:0 auto;border-radius:14px;background:#111;box-shadow:0 4px 18px rgba(0,0,0,.18);">
+          <source src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/kino-erwachen-de.mp4" type="video/mp4">
+        </video>
+        <p style="font-size:.8rem;color:var(--muted);margin:.7rem 0 0;">Musik: ›Nine Gazes, Nine Words‹ von Detlef Rathmer</p>
+      </div>
+
       <p style="font-size:.85rem;color:var(--muted);margin:1.4rem 0 0;">Dieser Tipp ersetzt keine ärztliche oder therapeutische Behandlung. Die Filmbilder sind Denkanstöße, keine Aussagen über die Wirklichkeit. Wer das Gefühl hat, dass die Welt unwirklich oder wie hinter Glas erscheint, oder wer unter anhaltender Angst oder Niedergeschlagenheit leidet, sollte ärztliche oder therapeutische Hilfe suchen, statt solche Bilder im Alleingang zu vertiefen. Krisen sollten nie absichtlich herbeigeführt werden, wie es im Film geschieht.</p>
 
       <div style="margin-top:2rem;">
