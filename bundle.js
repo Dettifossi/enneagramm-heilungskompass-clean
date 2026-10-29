@@ -45,6 +45,7 @@ const _VS = {
   "rp": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-rote-pille-de.mp4", name: "Rote-Pille-blauer-Avatar.mp4", title: "Rote Pille, blauer Avatar", text: "Rote Pille, blauer Avatar: Was Matrix, Avatar, Inception und The Game über das Enneagramm verraten. Mehr im Enneagramm-Heilungskompass: https://kompass.verlagshausrathmer.com", yt: "https://youtu.be/h54JL_zahN0" },
   "mm": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-montagmorgen-de.mp4", name: "Montagmorgen-Gedanken.mp4", title: "Montagmorgen-Gedanken der 9 Typen", text: "Montagmorgen-Gedanken der 9 Enneagrammtypen: Welche Stimme war Ihre? Mehr im Enneagramm-Heilungskompass: https://kompass.verlagshausrathmer.com", yt: "https://youtu.be/jZtQjD8EAF0" },
   "wh": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-weihnachten-de.mp4", name: "Weihnachten-Die-Maske-darf-fallen.mp4", title: "Weihnachten: Die Maske darf fallen", text: "Weihnachten: Die Maske darf fallen. Neun Typen, neun Wünsche. Welche Maske legen Sie ab? Mehr im Enneagramm-Heilungskompass: https://kompass.verlagshausrathmer.com", yt: "https://youtu.be/QGFgtMDsZiM" },
+  "hu": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-humor-de.mp4", name: "Humor-der-9-Typen.mp4", title: "Humor der 9 Typen", text: "Humor der 9 Typen: Neun Elefanten, neun Humor-Stile. Welcher Humor ist Ihrer? Mehr im Enneagramm-Heilungskompass: https://kompass.verlagshausrathmer.com", yt: "" },
 };
 const _vsState = {};
 async function _vsClick(btn) {
@@ -58776,6 +58777,16 @@ function humorDer9TypenPage() {
         <h2 style="font-size:1.1rem;font-weight:700;color:var(--ink);text-align:center;margin:0 0 1.5rem;">Die Humor-Stile der 9 Typen</h2>
         ${typenHTML}
         <p style="font-size:0.92rem;line-height:1.75;color:var(--anthracite);margin:1.5rem 0 0;padding:1.2rem 1.4rem;background:rgba(0,0,0,0.03);border-radius:12px;">Diese <em>humoristische Typologie des Enneagramms</em> zeigt, wie die spezifischen Pers\xf6nlichkeitsmuster in Form von Humor Ausdruck finden k\xf6nnen. Humor bietet f\xfcr jeden Typ die M\xf6glichkeit, innere Spannungen abzubauen, seine Leidenschaften zu kanalisieren und mit der Umwelt auf eine Weise zu interagieren, die seiner grundlegenden Lebenshaltung entspricht &mdash; eine Br\xfccke zur inneren Balance und zum Selbstausdruck.</p>
+      </div>
+
+      <div style="margin:2rem 0 0;text-align:center;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .3rem;color:var(--ink);">Der Humor der 9 Typen als Kurzfilm</h2>
+        <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">Rund 50 Sekunden, mit Ton: neun Elefanten, neun Humor-Stile. Über den Knopf unten geht eine Fassung mit Link zum Kompass an Freunde und Bekannte, auch wenn diese die App noch nicht haben.</p>
+        <video controls playsinline preload="none" poster="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/humor-de-poster.jpg" aria-label="Kurzfilm zum Humor der 9 Typen" style="display:block;width:100%;max-width:340px;margin:0 auto;border-radius:14px;background:#111;box-shadow:0 4px 18px rgba(0,0,0,.18);">
+          <source src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/humor-de.mp4" type="video/mp4">
+        </video>
+        <div style="margin:.9rem 0 0;"><button type="button" data-share-video="hu" style="font:inherit;font-weight:700;font-size:.95rem;padding:.65rem 1.3rem;border:2px solid var(--copper);border-radius:999px;background:var(--paper);color:var(--copper);cursor:pointer;">&#8599; Video teilen</button></div>
+        <p style="font-size:.8rem;color:var(--muted);margin:.7rem 0 0;">Musik: ›Bourbon Street Bounce‹ von Detlef Rathmer</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1rem;">

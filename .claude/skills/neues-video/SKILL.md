@@ -5,7 +5,7 @@ description: Use when making a new short film (Kurzfilm/Video/Reel/Short) for th
 
 # Neues Kurzfilm-Projekt (DE + EN)
 
-Stand: 29.10.2026. Entstanden: **Rote Pille, blauer Avatar** (Praxistipp), **Montagmorgen-Gedanken** (Schaubild), **Weihnachten: Die Maske darf fallen** (Schaubild Weihnachtswünsche). Die Vorlagen liegen in `vorlagen/` neben dieser Datei. Der Nutzer hat an dieser Arbeit viel Freude und will insgesamt etwa **10 Themen** (nicht endlos).
+Stand: 29.10.2026. Entstanden: **Rote Pille, blauer Avatar** (Praxistipp), **Montagmorgen-Gedanken** (Schaubild), **Weihnachten: Die Maske darf fallen** (Schaubild Weihnachtswünsche), **Humor der 9 Typen** (Elefanten-Kacheln, Song »Bourbon Street Bounce«). Die Vorlagen liegen in `vorlagen/` neben dieser Datei. Der Nutzer hat an dieser Arbeit viel Freude und will insgesamt etwa **10 Themen** (nicht endlos).
 
 ## 0. Grundsätze (vom Nutzer so gewünscht)
 - **Themenwahl:** Alltagssituation, die jeder kennt (Montagmorgen, Weihnachten, Urlaub, Arzt …), jeder Typ reagiert anders, Humor, kein Fachwort, am Ende Frage wie »Welche Stimme war Ihre?« und Hinweis auf den Kompass. Schwere Themen (Filme, Spiritualität) sind Nischen-Beiträge. Rangliste noch offen: Urlaub, beim Doktor (Songs vorhanden, Schaubild in der App ungeprüft), Kaffeearten/Sprachstile der 9 Typen.
@@ -24,6 +24,7 @@ Stand: 29.10.2026. Entstanden: **Rote Pille, blauer Avatar** (Praxistipp), **Mon
    - `anim_montagmorgen.html`: neun Typ-Szenen mit Farbfläche, Bildmotiv und Denkblase (Wort für Wort).
    - `anim_weihnachten.html`: neun Typ-Szenen mit Maske, die abfällt, dann Geschenk; Schnee, Baum, Frage-Ring.
    - `anim_rote-pille.html`: fünf Themen-Szenen (Matrix-Code, Avatar-Partikel …).
+   - `anim_humor.html`: neun Szenen mit **eigenen Bildkacheln** (Polaroid-Karten, gleiten abwechselnd von links/rechts herein), Mosaik 3×3 für Einstieg und Schlussfrage; Kacheln als `t1.jpg`…`t9.jpg` im Arbeitsordner (liegen in `~/Documents/Marketing/Video-Werkstatt/humor-kacheln/`, Typ 1 und Typ 9 in korrigierter Fassung als `humor-typ-1-v2.jpg`/`humor-typ-9-v2.jpg` auf R2). Bei Bildern mit deutscher Beschriftung im EN-Video die englische Übersetzung als Bildunterschrift setzen.
    Texte (DE/EN-Objekte), Motive und die Zeitachse `S[]` anpassen. Die Seite ist eine reine Funktion `draw(t)` (Canvas 2D). Modi per URL-Hash: kein Hash = 1080×1920 DE, `#land` = 1920×1080 DE, `#en` = Hochformat EN, `#land-en`.
 4. **App-Bildschirme für den Werbeblock** (Handy-Mockup): lokaler Server `python3 -m http.server 4174` im Repo-Root, dann `node shots.mjs` bzw. `node shots.mjs en`; Seiten in `pages` anpassen. Das Skript setzt `kompass:onboarding-done` und `enneagramm-kompass:tier=heilwissen` und entfernt das »Impuls für heute«-Fenster. Ergebnis `app_<name>.jpg` / `app_<name>_en.jpg`.
 5. **Einzelbilder prüfen**, bevor alles gerendert wird: ein paar Frames mit `node cap.mjs <f> <f+1> <Port> port` rendern und als Kontaktbogen ansehen (ffmpeg `hstack/xstack`). Typische Fehler: Text läuft über den Rand, Überlappungen, Variable zu spät definiert (JS-Fehler lässt das Bild leer, nur Hintergrund sichtbar).
