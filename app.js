@@ -59847,6 +59847,15 @@ function montagmorgenGedanken9TypenPage() {
 
         <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Bevor der Tag beginnt, uns zu formen, verrät der erste Gedanke bereits, wer wir sind. &ndash; Detlef Rathmer</blockquote>
 
+        <div style="margin:2rem 0 0;text-align:center;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .3rem;color:var(--ink);">Das Schaubild als Kurzfilm</h2>
+          <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">Rund 50 Sekunden, mit Ton: die neun Gedanken nacheinander, zum Wiedererkennen und Weitergeben.</p>
+          <video controls playsinline preload="none" poster="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/montagmorgen-de-poster.jpg" aria-label="Kurzfilm zu den Montagmorgen-Gedanken der 9 Typen" style="display:block;width:100%;max-width:340px;margin:0 auto;border-radius:14px;background:#111;box-shadow:0 4px 18px rgba(0,0,0,.18);">
+            <source src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/montagmorgen-de.mp4" type="video/mp4">
+          </video>
+          <p style="font-size:.8rem;color:var(--muted);margin:.7rem 0 0;">Musik: ›Dawn’s Swinging Revelation‹ von Detlef Rathmer</p>
+        </div>
+
         ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen mit ihren typischen Denkmustern, Fixierungen und Entwicklungswegen im Detail.", "Wer du wirklich bist &ndash; Band 1")}
         ${relatedLinks([
           {route:"hilfreiche-hinweise-9-typen", label:"Hilfreiche Hinweise für die 9 Typen"},
