@@ -108,7 +108,7 @@ export function kinoErwachenPage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Die neun Matrix-Programme</h2>
-        <p class="vb-intro">Jede Fixierung baut ihre eigene Mini-Matrix. Die folgenden Karten zeigen, wie ein Programm denkt, wie es sich als ›Programmzeile‹ lesen ließe und welcher Satz den Riss im Programm markiert. Die Programmzeile ist ein bewusst zugespitzter Scherz. Kein Mensch besteht aus einer einzigen Zeile, und jede Person kann Anteile mehrerer Muster zeigen. Gemeint sind Muster, die man hat, nicht Menschen, die man ist.</p>
+        <p class="vb-intro">Jede Fixierung baut ihre eigene Mini-Matrix. Die folgenden Karten zeigen, wie ein Programm denkt, wie es sich als ›Programmzeile‹ lesen ließe und welcher Satz den Riss im Programm markiert. Die Programmzeile ist ein bewusst zugespitzter Scherz. Kein Mensch besteht aus einer einzigen Zeile, und jede Person kann Anteile mehrerer Muster zeigen. Gemeint sind Muster, die man hat, und nicht der Mensch, der man ist.</p>
         <ul class="sp-typen">${typen}</ul>
       </div>
 

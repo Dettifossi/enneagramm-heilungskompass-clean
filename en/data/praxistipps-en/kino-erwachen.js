@@ -108,7 +108,7 @@ export function kinoErwachenPage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">The Nine Matrix Programs</h2>
-        <p class="vb-intro">Each fixation builds its own mini-matrix. The cards below show how a program thinks, how it could be read as a ‘program line’, and which sentence marks the crack in the program. The program line is a deliberately pointed joke. No human consists of a single line, and anyone can show parts of several patterns. What is meant are patterns one has, not people one is.</p>
+        <p class="vb-intro">Each fixation builds its own mini-matrix. The cards below show how a program thinks, how it could be read as a ‘program line’, and which sentence marks the crack in the program. The program line is a deliberately pointed joke. No human consists of a single line, and anyone can show parts of several patterns. What is meant are patterns one has, and not the person one is.</p>
         <ul class="sp-typen">${typen}</ul>
       </div>
 
