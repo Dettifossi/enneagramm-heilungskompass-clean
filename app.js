@@ -58685,14 +58685,17 @@ function sucheNachLiebePage() {
         style="width:100%;border-radius:8px;margin:1.75rem 0 2rem;"
       />
 
-      ${typen.map(t => `
-        <div style="background:var(--cream);border-left:3px solid var(--gold);border-radius:0 8px 8px 0;padding:1.25rem 1.5rem;margin-bottom:1.25rem;">
-          <p style="font-size:0.72rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--gold-dark);margin:0 0 0.2rem;">Typ ${t.nr}</p>
-          <p style="font-family:'EB Garamond',serif;font-size:1.05rem;font-weight:600;color:var(--anthracite);margin:0 0 0.25rem;">${t.ersatz}</p>
-          <p style="font-size:0.82rem;color:var(--gray-mid);font-style:italic;margin:0 0 0.6rem;">${t.halt}</p>
-          <p style="font-size:0.88rem;line-height:1.7;color:var(--anthracite);margin:0;">${t.text}</p>
+      ${typen.map(t => { const c = typeColor(t.nr); return `
+        <div style="background:linear-gradient(90deg,${c}24,var(--cream) 60%);border-left:6px solid ${c};border-radius:0 12px 12px 0;padding:1.15rem 1.35rem 1.2rem 1.1rem;margin-bottom:1.25rem;box-shadow:0 2px 8px rgba(0,0,0,0.05);display:flex;gap:1rem;align-items:flex-start;">
+          <span style="flex:0 0 2.6rem;height:2.6rem;border-radius:50%;background:${c};color:#fff;font-weight:700;font-size:1.25rem;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 6px rgba(0,0,0,0.2);">${t.nr}</span>
+          <div style="flex:1;min-width:0;">
+            <p style="font-size:0.72rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:${c};filter:brightness(0.8);margin:0 0 0.2rem;">Typ ${t.nr}</p>
+            <p style="font-family:'EB Garamond',serif;font-size:1.12rem;font-weight:600;color:var(--anthracite);margin:0 0 0.25rem;"><span style="border-bottom:3px solid ${c};padding-bottom:1px;">${t.ersatz}</span></p>
+            <p style="font-size:0.82rem;color:var(--gray-mid);font-style:italic;margin:0.35rem 0 0.6rem;">${t.halt}</p>
+            <p style="font-size:0.88rem;line-height:1.7;color:var(--anthracite);margin:0;">${t.text}</p>
+          </div>
         </div>
-      `).join("")}
+      `; }).join("")}
 
       <div class="qs-wrap">
         <style>
