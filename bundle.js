@@ -58694,6 +58694,33 @@ function sucheNachLiebePage() {
         </div>
       `).join("")}
 
+      <div class="qs-wrap">
+        <style>
+          .qs-wrap{margin:2.4rem 0 0;padding:1.6rem 1.1rem 1.4rem;background:linear-gradient(180deg,#fbf6ec,#f2e9d8);border:1px solid #d8c7a6;border-radius:18px;}
+          .qs-wrap h2{font-size:1.25rem;margin:0 0 .5rem;text-align:center;color:var(--ink);}
+          .qs-intro{font-size:.92rem;line-height:1.65;color:#6b5a48;text-align:center;margin:0 0 1.1rem;}
+          .qs-row{display:flex;align-items:center;gap:.8rem;background:rgba(255,255,255,.78);border-left:6px solid var(--c);border-radius:12px;padding:.6rem .8rem .6rem .6rem;margin-bottom:.55rem;box-shadow:0 3px 10px rgba(90,60,30,.08);}
+          .qs-num{flex:0 0 2.5rem;height:2.5rem;border-radius:50%;background:var(--c);color:#fff;font-weight:700;font-size:1.2rem;display:flex;align-items:center;justify-content:center;}
+          .qs-cap{font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--c);filter:brightness(.78);margin-bottom:.1rem;}
+          .qs-l1{font-size:.98rem;color:#7a6c62;line-height:1.25;}
+          .qs-l2{font-size:1.1rem;font-weight:600;color:#2a2320;line-height:1.3;}
+          .qs-lv{color:#b3801f;font-weight:700;}
+          .qs-q{text-align:center;font-style:italic;color:#8a6a4c;margin:.9rem 0 0;font-size:1.05rem;}
+        </style>
+        <h2>Quintessenz: Einmal andersherum gelesen</h2>
+        <p class="qs-intro">Jede Zeile beschreibt, was ein Muster an die Stelle der Liebe setzt. Andersherum gelesen zeigt dieselbe Zeile die Richtung, in die sich etwas lösen kann: die Liebe wieder an die erste Stelle zu setzen.</p>
+          <div class="qs-row" style="--c:#5f5f5f"><span class="qs-num">1</span><div class="qs-txt"><div class="qs-cap">Typ 1 &middot; Perfektionist</div><div class="qs-l1">Perfektion statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Perfektion</div></div></div>
+          <div class="qs-row" style="--c:#7a2fa8"><span class="qs-num">2</span><div class="qs-txt"><div class="qs-cap">Typ 2 &middot; Helfer</div><div class="qs-l1">Geben statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Geben</div></div></div>
+          <div class="qs-row" style="--c:#1fa688"><span class="qs-num">3</span><div class="qs-txt"><div class="qs-cap">Typ 3 &middot; Dynamiker</div><div class="qs-l1">Erfolg statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Erfolg</div></div></div>
+          <div class="qs-row" style="--c:#3cbf1f"><span class="qs-num">4</span><div class="qs-txt"><div class="qs-cap">Typ 4 &middot; Individualist</div><div class="qs-l1">Individualität statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Individualität</div></div></div>
+          <div class="qs-row" style="--c:#124fcc"><span class="qs-num">5</span><div class="qs-txt"><div class="qs-cap">Typ 5 &middot; Denker</div><div class="qs-l1">Wissen statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Wissen</div></div></div>
+          <div class="qs-row" style="--c:#8a5222"><span class="qs-num">6</span><div class="qs-txt"><div class="qs-cap">Typ 6 &middot; Loyaler Skeptiker</div><div class="qs-l1">Sicherheit statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Sicherheit</div></div></div>
+          <div class="qs-row" style="--c:#d4a800"><span class="qs-num">7</span><div class="qs-txt"><div class="qs-cap">Typ 7 &middot; Optimist</div><div class="qs-l1">Spaß statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Spaß</div></div></div>
+          <div class="qs-row" style="--c:#a00802"><span class="qs-num">8</span><div class="qs-txt"><div class="qs-cap">Typ 8 &middot; Herausforderer</div><div class="qs-l1">Macht statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Macht</div></div></div>
+          <div class="qs-row" style="--c:#cc6e00"><span class="qs-num">9</span><div class="qs-txt"><div class="qs-cap">Typ 9 &middot; Friedlicher</div><div class="qs-l1">Harmonie statt Liebe</div><div class="qs-l2"><em class="qs-lv">Liebe</em> statt Harmonie</div></div></div>
+        <p class="qs-q">Welche Zeile berührt Sie?</p>
+      </div>
+
       <div style="margin:2rem 0 0;text-align:center;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .3rem;color:var(--ink);">Die Suche nach Liebe als Kurzfilm</h2>
         <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">Rund 65 Sekunden, mit Ton: neun Typen, neun Ersatzwege und die Liebe dahinter. Über den Knopf unten geht eine Fassung mit Link zum Kompass an Freunde und Bekannte, auch wenn diese die App noch nicht haben.</p>

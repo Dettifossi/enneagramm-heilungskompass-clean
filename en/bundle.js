@@ -38269,6 +38269,33 @@ function sucheNachLiebePage() {
         </div>
       `).join("")}
 
+      <div class="qs-wrap">
+        <style>
+          .qs-wrap{margin:2.4rem 0 0;padding:1.6rem 1.1rem 1.4rem;background:linear-gradient(180deg,#fbf6ec,#f2e9d8);border:1px solid #d8c7a6;border-radius:18px;}
+          .qs-wrap h2{font-size:1.25rem;margin:0 0 .5rem;text-align:center;color:var(--ink);}
+          .qs-intro{font-size:.92rem;line-height:1.65;color:#6b5a48;text-align:center;margin:0 0 1.1rem;}
+          .qs-row{display:flex;align-items:center;gap:.8rem;background:rgba(255,255,255,.78);border-left:6px solid var(--c);border-radius:12px;padding:.6rem .8rem .6rem .6rem;margin-bottom:.55rem;box-shadow:0 3px 10px rgba(90,60,30,.08);}
+          .qs-num{flex:0 0 2.5rem;height:2.5rem;border-radius:50%;background:var(--c);color:#fff;font-weight:700;font-size:1.2rem;display:flex;align-items:center;justify-content:center;}
+          .qs-cap{font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--c);filter:brightness(.78);margin-bottom:.1rem;}
+          .qs-l1{font-size:.98rem;color:#7a6c62;line-height:1.25;}
+          .qs-l2{font-size:1.1rem;font-weight:600;color:#2a2320;line-height:1.3;}
+          .qs-lv{color:#b3801f;font-weight:700;}
+          .qs-q{text-align:center;font-style:italic;color:#8a6a4c;margin:.9rem 0 0;font-size:1.05rem;}
+        </style>
+        <h2>Essence: Read it the other way round</h2>
+        <p class="qs-intro">Each line describes what a pattern puts in the place of love. Read the other way round, the same line shows the direction in which something can loosen: putting love first again.</p>
+          <div class="qs-row" style="--c:#5f5f5f"><span class="qs-num">1</span><div class="qs-txt"><div class="qs-cap">Type 1 &middot; Perfectionist</div><div class="qs-l1">Perfection instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of perfection</div></div></div>
+          <div class="qs-row" style="--c:#7a2fa8"><span class="qs-num">2</span><div class="qs-txt"><div class="qs-cap">Type 2 &middot; Helper</div><div class="qs-l1">Giving instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of giving</div></div></div>
+          <div class="qs-row" style="--c:#1fa688"><span class="qs-num">3</span><div class="qs-txt"><div class="qs-cap">Type 3 &middot; Dynamic One</div><div class="qs-l1">Success instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of success</div></div></div>
+          <div class="qs-row" style="--c:#3cbf1f"><span class="qs-num">4</span><div class="qs-txt"><div class="qs-cap">Type 4 &middot; Individualist</div><div class="qs-l1">Individuality instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of individuality</div></div></div>
+          <div class="qs-row" style="--c:#124fcc"><span class="qs-num">5</span><div class="qs-txt"><div class="qs-cap">Type 5 &middot; Thinker</div><div class="qs-l1">Knowledge instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of knowledge</div></div></div>
+          <div class="qs-row" style="--c:#8a5222"><span class="qs-num">6</span><div class="qs-txt"><div class="qs-cap">Type 6 &middot; Loyal Skeptic</div><div class="qs-l1">Security instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of security</div></div></div>
+          <div class="qs-row" style="--c:#d4a800"><span class="qs-num">7</span><div class="qs-txt"><div class="qs-cap">Type 7 &middot; Optimist</div><div class="qs-l1">Fun instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of fun</div></div></div>
+          <div class="qs-row" style="--c:#a00802"><span class="qs-num">8</span><div class="qs-txt"><div class="qs-cap">Type 8 &middot; Challenger</div><div class="qs-l1">Power instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of power</div></div></div>
+          <div class="qs-row" style="--c:#cc6e00"><span class="qs-num">9</span><div class="qs-txt"><div class="qs-cap">Type 9 &middot; Peaceful One</div><div class="qs-l1">Harmony instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of harmony</div></div></div>
+        <p class="qs-q">Which line touches you?</p>
+      </div>
+
       <div style="margin:2rem 0 0;text-align:center;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .3rem;color:var(--ink);">The search for love as a short film</h2>
         <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">About 65 seconds, with sound: nine types, nine substitutes and the love behind them. The button below sends a version with a link to the compass to friends and acquaintances, even if they do not have the app yet.</p>
