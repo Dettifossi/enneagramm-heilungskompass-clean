@@ -3209,3 +3209,74 @@ export function jamesStewartPortraitPage() {
     </div>
   `);
 }
+
+export function elkeSommerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-elke-sommer-portrait.jpg" alt="Elke Sommer – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-elke-sommer-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Elke Sommer</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexueller Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Deutsche Schauspielerin, Sängerin und Malerin, 1940&ndash;2026 &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Schimpanse: das Pastorenkind, das nach Hollywood sprang</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wer einem jungen <strong>Schimpansen</strong> zusieht, merkt schnell, dass er die Welt als Spielplatz liest: Was neu ist, wird angefasst, und sobald es langweilt, geht es weiter. Elke Sommer wurde am 5. November 1940 in Berlin als Elke Schletz geboren, als Tochter eines lutherischen Pastors. Die Familie wurde im Krieg nach Franken evakuiert, in ein Dorf bei Erlangen. 1957 verließ sie die Schule und ging nach London, wo sie als Au-pair arbeitete und ein Sprachinstitut besuchte.</p>
+          <p class="vb-intro">Von dort an ging es schnell. Nach den vorliegenden Berichten wurde sie beim Urlaub in Italien vom Regisseur Vittorio De Sica entdeckt (andere Darstellungen nennen einen Schönheitswettbewerb); ab 1958 drehte sie in Italien und nahm den Namen Sommer an. Bald darauf zog sie nach Hollywood. Aus einem protestantischen Pfarrhaus in die Filmwelt der Sechzigerjahre: Das ist ein Sprung, wie ihn nur jemand wagt, den das Neue mehr lockt als das Vertraute.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der sexuelle Siebener: Begeisterung für das, was gerade ruft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo beschrieb den sexuellen Siebener mit dem Stichwort ›Suggestibilität‹: eine Begeisterungsfähigkeit, die sich mit Haut und Haar auf das wirft, was gerade fasziniert. Bei Elke Sommer lässt sich das an den Etappen ihres Lebens ablesen. Auf die italienischen Anfänge folgte Hollywood, auf die Leinwand das Fernsehen, dazu kamen Alben als Sängerin, in den Achtzigerjahren eine eigene Sendung (›The Exciting World of Speed and Beauty‹, ›Die aufregende Welt von Tempo und Schönheit‹) und seit den Neunzigerjahren zunehmend die Malerei. Die Wikipedia-Fassung ihrer Biografie verbindet sie dabei mit dem Einfluss von Marc Chagall.</p>
+          <p class="vb-intro">Die Sieben sucht Begeisterung dort, wo andere Nähe und Tiefe suchen. Im Kompass lässt sich das als Gegenüber lesen: ›Begeisterung statt Liebe‹ ist das Muster, ›Liebe statt Begeisterung‹ die Richtung (siehe <a href="#suche-nach-liebe">Suche nach der wahren Liebe</a>). Dass ihre Ehe mit Wolf Walther über Jahrzehnte hielt, passt zu dieser Richtung und nicht zu dem Klischee, das man ihr früh aufklebte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Treue, Heimat und Humor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso und Russ Hudson nennen die Sieben mit Sechserflügel ›Den Entertainer‹. Der <strong>Sechserflügel (w6)</strong> bringt Verbindlichkeit in die Beweglichkeit. Bei Sommer zeigt er sich in der Bindung: Ihre zweite Ehe mit Wolf Walther, den sie 1989 bei der Aufführung des Theaterstücks ›Tamara‹ kennenlernte und am 29. August 1993 in Franken heiratete, hielt über drei Jahrzehnte. Nach ihren eigenen Worten waren es ›40 wundervolle Jahre mit meinem Papabär‹ (so ihre Formulierung gegenüber web.de, gerechnet ab dem Kennenlernen). Auch Franken blieb ihr Rückhalt: Sie malte oft in ihrem Garten dort, und Ministerpräsident Markus Söder sagte, ihre Kindheit in Franken habe sie immer im Herzen behalten.</p>
+          <p class="vb-intro">Zum Flügel passt auch der Umgang mit dem Etikett, das ihr die Presse anhängte. Eine US-Zeitung nannte sie ›Sauerkraut-Bardot‹, und sie sagte der ›Bunte‹ amüsiert, sie sei ein Sexsymbol, ›das in seinem Leben gerade mal vier Männer hatte‹. Wer so über das eigene Image spricht, trägt es mit Selbstironie und lässt sich davon nicht festlegen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: das deutsche ›Fräuleinwunder‹ im internationalen Kino</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Elke Sommer gehörte zu den wenigen deutschsprachigen Schauspielerinnen, die in den Sechzigerjahren eine internationale Karriere aufbauten. Sie drehte rund hundert Kinofilme, an der Seite von Paul Newman, Peter Sellers, Dean Martin, Alain Delon, Glenn Ford und Sharon Tate. Für ›The Prize‹ (›Der Preis‹, 1963) mit Paul Newman erhielt sie 1964 den Golden Globe als beste Nachwuchsdarstellerin. In ›A Shot in the Dark‹ (›Ein Schuss im Dunkeln‹, 1964), dem zweiten Film der Rosaroten-Panther-Reihe, spielt sie neben Peter Sellers als Inspector Clouseau das Zimmermädchen Maria Gambrelli, die unter Mordverdacht steht: eine Rolle zwischen Reiz, Unschuld und Komik. Später kamen unter anderem ›The Wrecking Crew‹ (wörtlich ›Abrisstrupp‹, 1968) an der Seite von Dean Martin, ›Zeppelin‹ (1971) und der Agatha-Christie-Film ›And Then There Were None‹ (›Und dann war keiner mehr da‹, 1974) hinzu.</p>
+          <p class="vb-intro">Dazu kam eine Präsenz, die weniger auf dramatischer Tiefe als auf Leichtigkeit, Timing und Charme beruhte. Zehnmal war sie zu Gast in der ›Tonight Show‹ mit Johnny Carson, sie trat in der ›Muppet Show‹ auf, posierte 1964 und 1967 für den ›Playboy‹ und wurde in der britischen Reihe ›Carry On‹ (›Carry On Behind‹, 1975) zu einer der bestbezahlten Darstellerinnen. ZDF heute hält fest, dass der ganz große Durchbruch in der obersten Liga ausblieb. Das Etikett des Sexsymbols blieb an ihr haften, auch wenn sie eine Komödiantin mit Selbstironie war. Als die große Zeit vorbei war, malte, sang und moderierte sie weiter. Gegen Zsa Zsa Gabor, mit der sie seit 1984 im Streit lag, gewann sie 1993 in einem Verleumdungsprozess 3,3 Millionen Dollar. 2001 erhielt sie einen Stern auf dem Walk of Stars in Palm Springs.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Johannes Heesters und Thomas Gottschalk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-johannes-heesters">Johannes Heesters (SX7w6)</a> zog von Amsterdam über Wien und Berlin bis nach Hollywood und blieb bis ins hohe Alter auf der Bühne. Wie Sommer verband er Charme mit Beweglichkeit und lebte sein Publikum, statt sich darauf vorzubereiten. <a href="#beruehmte-thomas-gottschalk">Thomas Gottschalk (SX7w6)</a> teilt mit ihr die Lust an der Pointe über sich selbst und die Fähigkeit, ein Publikum durch Gegenwärtigkeit zu gewinnen.</p>
+          <p class="vb-intro">Der Unterschied: Heesters und Gottschalk wurden von ihrem Publikum als Gastgeber erlebt, Sommer vor allem als Erscheinung. Das Bild von außen war bei ihr enger, als sie selbst war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten des sexuellen Siebeners mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell sind die Lebenslust, die Selbstironie und die Treue, mit der sie über Jahrzehnte beim selben Mann blieb. Ihren Lebensmut beschrieb sie selbst so: ›Ich war immer lebenslustig.‹ Über ihr langes Leben sagte sie, sie sei ›dankbar für die 85 Jahre, die ich geschenkt bekommen habe‹. Das ist eine bemerkenswerte Haltung für jemanden, dessen Muster Vorfreude und Bewegung sind.</p>
+          <p class="vb-intro">Die Schattenseite der Sieben liegt dort, wo Bewegung und Genuss als Ausweg wegfallen. Etwa ein Jahr vor ihrem Tod sagte sie der ›Bunten‹, sie habe nach den Krankheiten der letzten Jahre ihren Lebensmut verloren. Ihr Mann Wolf Walther starb im Juli 2026 nach langer Krankheit. Wer sein Leben aus Freude, Gesellschaft und Leichtigkeit gebaut hat, steht vor einem besonders leeren Raum, wenn Krankheit und Verlust diese Wege schließen. Dieses Porträt gibt das wieder, was sie selbst öffentlich gesagt hat, und bleibt dabei zurückhaltend.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Abschied in Bel Air</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Elke Sommer starb (Stand 29. Oktober 2026) am Abend des 28. Oktober 2026 im Alter von 85 Jahren in ihrem Haus in Bel Air, Kalifornien; ZDF heute beruft sich auf einen Vertrauten, weitere Berichte nennen als Ursache Herzversagen. Kulturstaatsminister Wolfram Weimer würdigte sie als ›Botschafterin des deutschen Films in Hollywood‹. Was von ihr bleibt, ist ein Gesicht der Sechzigerjahre, ein Lachen und eine Lebenslust, die auch ihre eigenen Worte noch tragen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx7", label:"Lebensmusterkompass: SX7 – Schimpanse"},
+        {route:"suche-nach-liebe", label:"Suche nach der wahren Liebe"},
+        {route:"beruehmte-johannes-heesters", label:"Porträt: Johannes Heesters (SX7w6)"},
+        {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
+      ])}
+    </div>
+  `);
+}

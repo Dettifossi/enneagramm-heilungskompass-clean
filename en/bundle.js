@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=452";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=453";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -150,6 +150,7 @@ const jeanMaraisPortraitPage = () => _lazyPage("./data/beruehmte-en/teil17.js", 
 const martinaGedeckPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "martinaGedeckPortraitPage");
 const joeVitalePortraitPage = () => _lazyPage("./data/beruehmte-en/teil2.js", "joeVitalePortraitPage");
 const klausMariaBrandauerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "klausMariaBrandauerPortraitPage");
+const elkeSommerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil5.js", "elkeSommerPortraitPage");
 const rosalieThomassPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "rosalieThomassPortraitPage");
 const robbieColtranePortraitPage = () => _lazyPage("./data/beruehmte-en/teil5.js", "robbieColtranePortraitPage");
 const happyAndersonPortraitPage = () => _lazyPage("./data/beruehmte-en/teil8.js", "happyAndersonPortraitPage");
@@ -2006,6 +2007,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Klaus Maria Brandauer \u2013 Sexual Type 7",
     teaser:"SX7w8 \u00b7 born 1943 in Bad Aussee. Austrian actor and director (\u2018Mephisto\u2019, \u2018Out of Africa\u2019, Burgtheater, Jedermann). The Chimpanzee who throws himself completely into his roles.",
     land:"Austria", tags:["Schauspiel"], gender:"m"},
+{ route:"beruehmte-elke-sommer", name:"Elke Sommer", added:"2026-10-29", subtyp:"SX7w6",
+    heading:"Elke Sommer \u2013 Sexual Type 7",
+    teaser:"SX7w6 \u00b7 1940\u20132026. German actress, singer and painter (\u2018The Prize\u2019, \u2018A Shot in the Dark\u2019). The Chimpanzee who leapt from the parsonage to Hollywood and carried her zest for life into old age.",
+    land:"Germany", tags:["Schauspiel"], gender:"f"},
 { route:"beruehmte-rosalie-thomass", name:"Rosalie Thomass", added:"2026-10-25", subtyp:"SX7w8",
     heading:"Rosalie Thomass \u2013 Sexual Type 7",
     teaser:"SX7w8 \u00b7 born 1987 in Munich. German actress and screenwriter (\u2018Eine unerh\u00f6rte Frau\u2019, \u2018L\u00fcgen \u00fcber meine Mutter\u2019, Franconia Tatort). The Chimpanzee who tries many things at once and uses anger as strength.",
@@ -47551,6 +47556,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-martina-gedeck": martinaGedeckPortraitPage,
       "beruehmte-joe-vitale": joeVitalePortraitPage,
       "beruehmte-klaus-maria-brandauer": klausMariaBrandauerPortraitPage,
+      "beruehmte-elke-sommer": elkeSommerPortraitPage,
       "beruehmte-rosalie-thomass": rosalieThomassPortraitPage,
       "beruehmte-robbie-coltrane": robbieColtranePortraitPage,
       "beruehmte-happy-anderson": happyAndersonPortraitPage,

@@ -3124,3 +3124,74 @@ export function jamesStewartPortraitPage() {
     </div>
   `);
 }
+
+export function elkeSommerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-elke-sommer-portrait.jpg" alt="Elke Sommer – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-elke-sommer-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Elke Sommer</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">German actress, singer and painter, 1940&ndash;2026 &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Chimpanzee: the pastor&rsquo;s child who leapt to Hollywood</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Watch a young <strong>chimpanzee</strong> and you see a creature that reads the world as a playground: what is new gets touched, and once it bores, the game moves on. Elke Sommer was born on 5 November 1940 in Berlin as Elke Schletz, the daughter of a Lutheran pastor. During the war the family was evacuated to Franconia, to a village near Erlangen. In 1957 she left school and went to London, where she worked as an au pair and attended a language institute.</p>
+          <p class="vb-intro">From there things moved fast. According to the available reports she was spotted on holiday in Italy by the director Vittorio De Sica (other accounts name a beauty contest); from 1958 she filmed in Italy and took the name Sommer. Soon after she moved to Hollywood. From a Protestant parsonage into the film world of the Sixties: that is a leap only someone dares who is drawn more by the new than by the familiar.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Seven: enthusiasm for whatever calls</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo described the sexual Seven with the keyword &lsquo;suggestibility&rsquo;: an enthusiasm that throws itself body and soul into whatever fascinates at the moment. In Elke Sommer this can be read from the stages of her life. The Italian beginnings were followed by Hollywood, the screen by television, then came albums as a singer, in the Eighties a show of her own (&lsquo;The Exciting World of Speed and Beauty&rsquo;) and, from the Nineties, increasingly painting. The Wikipedia version of her biography links this with the influence of Marc Chagall.</p>
+          <p class="vb-intro">The Seven looks for enthusiasm where others look for closeness and depth. In the compass this can be read as a counterpart: &lsquo;enthusiasm instead of love&rsquo; is the pattern, &lsquo;love instead of enthusiasm&rsquo; the direction (see <a href="#suche-nach-liebe">The search for true love</a>). That her marriage to Wolf Walther lasted for decades fits this direction and not the cliché pinned on her early.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: loyalty, home and humor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso and Russ Hudson call the Seven with a Six-wing &lsquo;The Entertainer&rsquo;. The <strong>Six-wing (w6)</strong> brings commitment into the mobility. In Sommer it shows in bonding: her second marriage to Wolf Walther, whom she met in 1989 during the stage play &lsquo;Tamara&rsquo; and married in Franconia on 29 August 1993, lasted over three decades. In her own words they were &lsquo;40 wonderful years with my Papabär&rsquo; (her phrasing to web.de, counted from when they met; &lsquo;Papabär&rsquo; means &lsquo;Papa Bear&rsquo;). Franconia also remained her anchor: she often painted in her garden there, and Minister-President Markus Söder said she had always kept her childhood in Franconia in her heart.</p>
+          <p class="vb-intro">The way she handled the label the press gave her fits the wing as well. A US newspaper called her &lsquo;Sauerkraut Bardot&rsquo;, and she told &lsquo;Bunte&rsquo; with amusement that she was a sex symbol &lsquo;who had had just four men in her life&rsquo;. Someone who speaks about her own image like that wears it with self-irony and does not let it pin her down.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the German &lsquo;Fräuleinwunder&rsquo; in international cinema</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Elke Sommer was one of the few German-speaking actresses who built an international career in the Sixties. She made around a hundred feature films, alongside Paul Newman, Peter Sellers, Dean Martin, Alain Delon, Glenn Ford and Sharon Tate. For &lsquo;The Prize&rsquo; (1963) with Paul Newman she won the 1964 Golden Globe as most promising newcomer. In &lsquo;A Shot in the Dark&rsquo; (1964), the second film of the Pink Panther series, she plays, opposite Peter Sellers as Inspector Clouseau, the chambermaid Maria Gambrelli, who is under suspicion of murder: a role between allure, innocence and comedy. Later came, among others, &lsquo;The Wrecking Crew&rsquo; (1968) with Dean Martin, &lsquo;Zeppelin&rsquo; (1971) and the Agatha Christie film &lsquo;And Then There Were None&rsquo; (1974).</p>
+          <p class="vb-intro">Added to this was a presence that rested less on dramatic depth than on lightness, timing and charm. Ten times she was a guest on &lsquo;The Tonight Show&rsquo; with Johnny Carson, she appeared on &lsquo;The Muppet Show&rsquo;, posed for &lsquo;Playboy&rsquo; in 1964 and 1967 and became one of the best-paid performers of the British &lsquo;Carry On&rsquo; series (&lsquo;Carry On Behind&rsquo;, 1975). ZDF heute notes that the very big breakthrough into the top league did not come. The label of the sex symbol stuck to her even though she was a comedienne with self-irony. When the big years were over she kept painting, singing and presenting. Against Zsa Zsa Gabor, with whom she had been feuding since 1984, she won $3.3 million in a libel case in 1993. In 2001 she received a star on the Palm Springs Walk of Stars.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Johannes Heesters and Thomas Gottschalk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-johannes-heesters">Johannes Heesters (SX7w6)</a> moved from Amsterdam via Vienna and Berlin all the way to Hollywood and stayed on stage into old age. Like Sommer he combined charm with mobility and lived his audience instead of preparing for it. <a href="#beruehmte-thomas-gottschalk">Thomas Gottschalk (SX7w6)</a> shares with her the delight in a punchline at her own expense and the ability to win an audience through presence.</p>
+          <p class="vb-intro">The difference: Heesters and Gottschalk were experienced by their audiences as hosts, Sommer mainly as an apparition. The picture from outside was narrower in her case than she was herself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Seven with Six-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright are the zest for life, the self-irony and the loyalty with which she stayed with the same man for decades. She described her own spirit like this: &lsquo;I was always full of life&rsquo; (German: &lsquo;Ich war immer lebenslustig&rsquo;). About her long life she said she was &lsquo;grateful for the 85 years I was given&rsquo;. That is a remarkable attitude for someone whose pattern is anticipation and movement.</p>
+          <p class="vb-intro">The shadow side of the Seven lies where movement and enjoyment drop away as an escape. About a year before her death she told &lsquo;Bunte&rsquo; that after the illnesses of recent years she had lost her will to live. Her husband Wolf Walther died in July 2026 after a long illness. Someone who built a life from joy, company and lightness faces an especially empty space when illness and loss close those paths. This portrait reproduces what she herself said publicly and stays reserved.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: farewell in Bel Air</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Elke Sommer died (as of 29 October 2026) on the evening of 28 October 2026 at the age of 85 in her home in Bel Air, California; ZDF heute cites a confidant, other reports give heart failure as the cause. Minister of State for Culture Wolfram Weimer paid tribute to her as an &lsquo;ambassador of German film in Hollywood&rsquo;. What remains of her is a face of the Sixties, a laugh and a zest for life that even her own words still carry.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
+        {route:"suche-nach-liebe", label:"The search for true love"},
+        {route:"beruehmte-johannes-heesters", label:"Portrait: Johannes Heesters (SX7w6)"},
+        {route:"beruehmte-thomas-gottschalk", label:"Portrait: Thomas Gottschalk (SX7w6)"},
+      ])}
+    </div>
+  `);
+}
