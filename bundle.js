@@ -58702,10 +58702,10 @@ function humorDer9TypenPage() {
     6: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-6.jpg", alt: "Sicherheits-Rüssel: ein Elefant mit Katastrophenvorsorge-System", text: "Ein Katastrophenvorsorge-System und dazu ein Backup für das Backup: Beim ›Sicherheits-Rüssel‹ wird die Vorsicht so groß, dass sie komisch wird. Dort sitzt sein absurder Humor, er überspitzt die eigene Sorge, bis man lachen kann." },
     7: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-7.jpg", alt: "Erlebnis-Rüssel: ein Elefant mit Abenteuer-Liste", text: "Eine Abenteuer-Liste mit Ballonfahrt über den Mars: Der ›Erlebnis-Rüssel‹ hat immer noch eine Idee mehr. Sein verspielter Humor sprudelt aus dieser Begeisterung und steckt andere an." },
     8: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-8.jpg", alt: "Macht-Rüssel: ein Elefant mit verschränkten Armen", text: "Der ›Macht-Rüssel‹ verschränkt die Arme und gibt die Richtung vor. Sein provokativer, oft schwarzer Humor prüft, wie viel Gegenwind jemand aushält, und kann dabei erstaunlich ehrlich sein." },
-    9: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-9.jpg", alt: "Friedlicher Elefant: gelassen mit offener Hand", text: "Der friedliche Elefant geht die Dinge gern ohne Druck an: Ein bisschen Ruhe ist doch auch schön. Sein selbstironischer Humor nimmt die Spannung aus der Situation, vor allem die eigene." },
+    9: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-9-v2.jpg", alt: "Friedens-Rüssel: ein meditierender Elefant mit Tasse und Friedenssymbol", text: "Im Schneidersitz, mit Tasse und einem Strategieplan namens ›Ruhe bewahren‹: Der ›Friedens-Rüssel‹ geht die Dinge gern ohne Druck an. Sein selbstironischer Humor nimmt die Spannung aus der Situation, vor allem die eigene." },
   };
 
-  const THUMB = (n) => "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-" + n + "-s.jpg";
+  const THUMB = (n) => BILD[n].img.replace(".jpg", "-s.jpg");
   const typen = [
     { nr:1, col:"#5f5f5f", titel:"Zorn: Der satirische Humor",
       art:"Satire wird oft genutzt, um Missst\u00e4nde anzuprangern und auf scheinbar \u201efalsches\u201c Verhalten hinzuweisen. Satiriker f\xfchlen sich h\xe4ufig von einem Sinn f\xfcr das \u201eRichtige\u201c oder \u201eGerechte\u201c angetrieben.",
