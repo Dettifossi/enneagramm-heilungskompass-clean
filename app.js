@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=459";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=460";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -278,6 +278,7 @@ const rosaLuxemburgPortraitPage = () => _lazyPage("./data/beruehmte-de/teil3.js"
 const adeleNeuhauserPortraitPage = () => _lazyPage("./data/beruehmte-de/teil4.js", "adeleNeuhauserPortraitPage");
 const angelaMerkelPortraitPage = () => _lazyPage("./data/beruehmte-de/teil4.js", "angelaMerkelPortraitPage");
 const billGatesPortraitPage = () => _lazyPage("./data/beruehmte-de/teil4.js", "billGatesPortraitPage");
+const methodManPortraitPage = () => _lazyPage("./data/beruehmte-de/teil18.js", "methodManPortraitPage");
 const carlosSantanaPortraitPage = () => _lazyPage("./data/beruehmte-de/teil4.js", "carlosSantanaPortraitPage");
 const donMcleanPortraitPage = () => _lazyPage("./data/beruehmte-de/teil4.js", "donMcleanPortraitPage");
 const christophKolumbusPortraitPage = () => _lazyPage("./data/beruehmte-de/teil4.js", "christophKolumbusPortraitPage");
@@ -28679,6 +28680,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ai Weiwei – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1957. Chinesischer Künstler und Aktivist, Sunflower Seeds, Human Flow, 81 Tage Haft 2011. Das Flusspferd verteidigt sein Revier – öffentlich, unerschrocken, mit dem Blick auf möglichst viele Menschen. Tierentsprechung: Flusspferd.",
     land:"China", tags:["Kunst","Aktivismus"], gender:"m"},
+  { route:"beruehmte-method-man", name:"Method Man", added:"2026-10-29", subtyp:"SE2w3",
+    heading:"Method Man \u2013 Selbsterhaltender Typ 2",
+    teaser:"SE2w3 \u00b7 geb. 1971 auf Long Island. US-amerikanischer Rapper und Schauspieler (Wu-Tang Clan, \u203aTical\u2039, \u203aThe Wire\u2039). Das Flusspferd, das den Clan zum engsten Kreis machte und von dort aus Film, Fernsehen und Pop-Duette eroberte.",
+    land:"USA", tags:["Musik"], gender:"m"},
   { route:"beruehmte-carlos-santana", name:"Carlos Santana", added:"2026-08-24", subtyp:"SE2w3",
     heading:"Carlos Santana – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1947. Mexikanisch-US-amerikanischer Gitarrist, Woodstock 1969, Supernatural-Comeback 1999 (9 Grammys). Vom Vater direkt weitergegebenes Handwerk, verbunden mit dem stetigen Bedürfnis, neu entdeckt zu werden. Tierentsprechung: Flusspferd.",
@@ -67882,7 +67887,7 @@ const ROUTES = {
       "beruehmte-nero": neroPortraitPage,
       "beruehmte-ai-weiwei": aiWeiweiPortraitPage,
       "beruehmte-fiona-harvey": fionaHarveyPortraitPage,
-      "beruehmte-carlos-santana": carlosSantanaPortraitPage,
+      "beruehmte-method-man": methodManPortraitPage, "beruehmte-carlos-santana": carlosSantanaPortraitPage,
       "beruehmte-harald-gloeockler": haraldGloeocklerPortraitPage, "beruehmte-madison-chock": madisonChockPortraitPage, "beruehmte-andre-duqum": andreDuqumPortraitPage,
       "beruehmte-harnaam-kaur": harnaamKaurPortraitPage,
       "beruehmte-ice-cube": iceCubePortraitPage,
