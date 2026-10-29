@@ -48,6 +48,7 @@ const _VS = {
   "hu": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-humor-de-v2.mp4", name: "Humor-der-9-Typen.mp4", title: "Humor der 9 Typen", text: "Humor der 9 Typen: Neun Elefanten, neun Humor-Stile. Welcher Humor ist Ihrer? Mehr im Enneagramm-Heilungskompass: https://kompass.verlagshausrathmer.com", yt: "https://youtu.be/Ca2Oerbtq4U" },
   "ge": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-geschenk-de-v2.mp4", name: "Geschenkideen-fuer-die-9-Typen.mp4", title: "Geschenkideen für die 9 Typen", text: "Was schenke ich welchem Typ? Neun Typen, neun Geschenkideen. Mehr im Enneagramm-Heilungskompass: https://kompass.verlagshausrathmer.com", yt: "https://youtu.be/Vozf79q3298" },
   "sp": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-sprache-de-v2.mp4", name: "Sprachstile-der-9-Typen.mp4", title: "Sprachstile der 9 Typen", text: "Woran erkennt man einen Typ? Oft schon am Reden. Welcher Satz läuft bei Ihnen mit? Mehr im Enneagramm-Heilungskompass: https://kompass.verlagshausrathmer.com", yt: "https://youtu.be/iKUI88d4x7o" },
+  "li": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-liebe-de.mp4", name: "Die-Suche-nach-der-wahren-Liebe.mp4", title: "Die Suche nach der wahren Liebe", text: "Alle suchen Liebe. Jeder auf seine Weise. Wo suchen Sie? Mehr im Enneagramm-Heilungskompass: https://kompass.verlagshausrathmer.com", yt: "" },
 };
 const _vsState = {};
 async function _vsClick(btn) {
@@ -58692,6 +58693,16 @@ function sucheNachLiebePage() {
           <p style="font-size:0.88rem;line-height:1.7;color:var(--anthracite);margin:0;">${t.text}</p>
         </div>
       `).join("")}
+
+      <div style="margin:2rem 0 0;text-align:center;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .3rem;color:var(--ink);">Die Suche nach Liebe als Kurzfilm</h2>
+        <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">Rund 65 Sekunden, mit Ton: neun Typen, neun Ersatzwege und die Liebe dahinter. Über den Knopf unten geht eine Fassung mit Link zum Kompass an Freunde und Bekannte, auch wenn diese die App noch nicht haben.</p>
+        <video controls playsinline preload="none" poster="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/liebe-de-poster.jpg" aria-label="Kurzfilm zur Suche nach der wahren Liebe" style="display:block;width:100%;max-width:340px;margin:0 auto;border-radius:14px;background:#111;box-shadow:0 4px 18px rgba(0,0,0,.18);">
+          <source src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/liebe-de.mp4" type="video/mp4">
+        </video>
+        <div style="margin:.9rem 0 0;"><button type="button" data-share-video="li" style="font:inherit;font-weight:700;font-size:.95rem;padding:.65rem 1.3rem;border:2px solid var(--copper);border-radius:999px;background:var(--paper);color:var(--copper);cursor:pointer;">&#8599; Video teilen</button></div>
+        <p style="font-size:.8rem;color:var(--muted);margin:.7rem 0 0;">Musik: ›Love Like a Lantern‹ von Detlef Rathmer</p>
+      </div>
 
       ${bookTip("die-sprache-unserer-beziehungen", "Mit dem Enneagramm N\u00e4he gestalten &ndash; wie die neun Typen Liebe erleben, suchen und manchmal meiden.", "Die Sprache unserer Beziehungen")}
       ${bookTip("die-sprache-unserer-sexualitaet", "In Partnern suchen wir oft die Liebe, die wir dort nicht finden werden &ndash; ein ehrlicher Blick auf Begehren, Bindung und das, was wir wirklich suchen.", "Die Sprache unserer Sexualit\u00e4t")}
