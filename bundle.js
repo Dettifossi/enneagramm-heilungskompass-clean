@@ -42,8 +42,8 @@ function _needData(key) {
 // ---- Kurzfilme in Artikeln teilen (Web-Share mit Datei, sonst Link) ----
 // yt: YouTube-Link (wenn gesetzt, wird er statt der R2-Adresse als Link geteilt/kopiert)
 const _VS = {
-  "rp": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-rote-pille-de.mp4", name: "Rote-Pille-blauer-Avatar.mp4", title: "Rote Pille, blauer Avatar", text: "Rote Pille, blauer Avatar: Was Matrix, Avatar, Inception und The Game über das Enneagramm verraten. Mehr im Enneagramm-Heilungskompass: https://kompass.verlagshausrathmer.com", yt: "https://youtube.com/shorts/biLZrdpEkzo" },
-  "mm": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-montagmorgen-de.mp4", name: "Montagmorgen-Gedanken.mp4", title: "Montagmorgen-Gedanken der 9 Typen", text: "Montagmorgen-Gedanken der 9 Enneagrammtypen: Welche Stimme war Ihre? Mehr im Enneagramm-Heilungskompass: https://kompass.verlagshausrathmer.com", yt: "https://youtube.com/shorts/n-kfTJCIZAQ" },
+  "rp": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-rote-pille-de.mp4", name: "Rote-Pille-blauer-Avatar.mp4", title: "Rote Pille, blauer Avatar", text: "Rote Pille, blauer Avatar: Was Matrix, Avatar, Inception und The Game über das Enneagramm verraten. Mehr im Enneagramm-Heilungskompass: https://kompass.verlagshausrathmer.com", yt: "https://youtu.be/h54JL_zahN0" },
+  "mm": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-montagmorgen-de.mp4", name: "Montagmorgen-Gedanken.mp4", title: "Montagmorgen-Gedanken der 9 Typen", text: "Montagmorgen-Gedanken der 9 Enneagrammtypen: Welche Stimme war Ihre? Mehr im Enneagramm-Heilungskompass: https://kompass.verlagshausrathmer.com", yt: "https://youtu.be/jZtQjD8EAF0" },
 };
 const _vsState = {};
 async function _vsClick(btn) {

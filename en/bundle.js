@@ -57,8 +57,8 @@ function _needData(key) {
 // ---- Kurzfilme in Artikeln teilen (Web-Share mit Datei, sonst Link) ----
 // yt: YouTube-Link (wenn gesetzt, wird er statt der R2-Adresse als Link geteilt/kopiert)
 const _VS = {
-  "rp": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-rote-pille-en.mp4", name: "Red-Pill-Blue-Avatar.mp4", title: "Red Pill, Blue Avatar", text: "Red Pill, Blue Avatar: What The Matrix, Avatar, Inception and The Game reveal about the Enneagram. More in the Enneagram Healing Compass: https://kompass.verlagshausrathmer.com/en/", yt: "https://youtube.com/shorts/lKHHQdsM-CA" },
-  "mm": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-montagmorgen-en.mp4", name: "Monday-Morning-Thoughts.mp4", title: "Monday Morning Thoughts of the 9 Types", text: "Monday Morning Thoughts of the 9 Enneagram Types: Which voice was yours? More in the Enneagram Healing Compass: https://kompass.verlagshausrathmer.com/en/", yt: "https://youtube.com/shorts/IXZ68myzHF0" },
+  "rp": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-rote-pille-en.mp4", name: "Red-Pill-Blue-Avatar.mp4", title: "Red Pill, Blue Avatar", text: "Red Pill, Blue Avatar: What The Matrix, Avatar, Inception and The Game reveal about the Enneagram. More in the Enneagram Healing Compass: https://kompass.verlagshausrathmer.com/en/", yt: "https://youtu.be/vWy6UM4rb9Q" },
+  "mm": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-montagmorgen-en.mp4", name: "Monday-Morning-Thoughts.mp4", title: "Monday Morning Thoughts of the 9 Types", text: "Monday Morning Thoughts of the 9 Enneagram Types: Which voice was yours? More in the Enneagram Healing Compass: https://kompass.verlagshausrathmer.com/en/", yt: "https://youtu.be/-5GPY2cVdgM" },
 };
 const _vsState = {};
 async function _vsClick(btn) {
