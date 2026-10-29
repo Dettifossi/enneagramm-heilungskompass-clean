@@ -4,9 +4,9 @@
 const LAND=location.hash.indexOf('land')>=0, EN=/en$/.test(location.hash);
 const W=LAND?1920:1080,H=LAND?1080:1920;const cv=document.getElementById('c');cv.width=W;cv.height=H;const g=cv.getContext('2d');
 const B=60/107.7,P=0.09;
-const S=[0];for(let i=1;i<=9;i++)S.push(P+B*(6+8*(i-1)));       // S[1..9] Typ 1..9
-S.push(P+B*78);                                                    // S[10] Frage (6 Schlaege)
-const APP=S[10]+6*B;                                               // App-Block (12 Schlaege)
+const S=[0];for(let i=1;i<=9;i++)S.push(P+B*(8+12*(i-1)));       // S[1..9] Typ 1..9
+S.push(P+B*116);                                                    // S[10] Frage (6 Schlaege)
+const APP=S[10]+8*B;                                               // App-Block (12 Schlaege)
 S.push(APP+12*B);const T=S[11],SCN=11;
 function rnd(n){const x=Math.sin(n*127.1+311.7)*43758.5453;return x-Math.floor(x);}
 const ease=x=>1-Math.pow(1-Math.min(1,Math.max(0,x)),3);
@@ -21,18 +21,18 @@ const DE={
  gift:[null,'Tagesplaner','Wellness-Tag','Etwas Wertvolles','Etwas mit Erinnerungswert','Ein wirklich interessantes Buch','Eine gemeinsame Erfahrung','Ein Geschenk mit Erlebniswert','Ein Geldgeschenk','Etwas, das früher erwähnt wurde'],
  why:[null,'Ein Werkzeug für Ordnung gilt als echte Wertschätzung.','Endlich steht einmal sie selbst im Mittelpunkt.','Hochwertiges zeigt: Der Einsatz wird gesehen.','Eine persönliche Geschichte zählt mehr als der Marktwert.','Ein Buch öffnet neue Gedanken und erweitert die innere Welt.','Geteilte Zeit schafft Vertrauen, das Worte nicht schaffen.','Neue Möglichkeiten treffen die Lust am Leben.','Geld respektiert: Sie entscheidet selbst, ohne Umweg.','Wer sich an Beiläufiges erinnert, zeigt echte Aufmerksamkeit.'],
  ask:'Was passt?', type:'TYP ', pill:'Link in der Beschreibung ↓', tag:'Aus der Schmiede des Verlagshauses Rathmer', lbl:'DAS GESCHENK',
- intro:{k:'Geschenkideen',t:['Was schenke ich','meinem Typ?'],c:'Neun Typen, neun Geschenkideen.'},
+ intro:{k:'Geschenkideen',t:['Was schenke ich','welchem Typ?'],c:'Neun Typen, neun Geschenkideen.'},
  q:{k:'Enneagramm',t:['Wer bekommt','was von Ihnen?'],c:'Das passende Geschenk beginnt mit dem Typ.'},
- app:{k:'Enneagramm-Heilungskompass',t:['Mehr Ideen','im Kompass'],c:'Geschenkideen, Porträts, Praxistipps und Musik in einer App.'}
+ app:{k:'Enneagramm-Heilungskompass',t:['Ein Geschenk','für alle Typen'],c:'Der Enneagramm-Heilungskompass passt zu allen neun Typen.'}
 };
 const ENG={
  nm:[null,'The Perfectionist','The Helper','The Dynamic One','The Individualist','The Thinker','The Loyal Skeptic','The Optimist','The Challenger','The Peaceful One'],
  gift:[null,'A daily planner','A wellness day','Something valuable','Something with sentimental value','A genuinely interesting book','A shared experience','A gift with experiential value','A cash gift','Something they mentioned earlier'],
  why:[null,'A tool that brings order feels like genuine appreciation.','For once, they are the one at the center.','Quality shows that their effort is seen.','A personal story counts more than market value.','A book opens new ideas and expands their inner world.','Shared time builds trust that words cannot.','New possibilities speak to the appetite for life.','Cash respects it: they decide for themselves.','Remembering a casual remark shows real attention.'],
  ask:'What fits?', type:'TYPE ', pill:'Link in the description ↓', tag:'From the workshop of Verlagshaus Rathmer', lbl:'THE GIFT',
- intro:{k:'Gift ideas',t:['What do I give','my type?'],c:'Nine types, nine gift ideas.'},
+ intro:{k:'Gift ideas',t:['Which gift','for which type?'],c:'Nine types, nine gift ideas.'},
  q:{k:'Enneagram',t:['Who gets','what from you?'],c:'The right gift starts with the type.'},
- app:{k:'Enneagram Healing Compass',t:['More ideas','in the compass'],c:'Gift ideas, portraits, practice tips and music in one app.'}
+ app:{k:'Enneagram Healing Compass',t:['A gift for','all types'],c:'The Enneagram Healing Compass suits all nine types.'}
 };
 const TX_=EN?ENG:DE;
 const IM={};const SHOTS=['geschenk','start'];
@@ -71,23 +71,23 @@ function typeScene(n,s,t,p){
  snow(t);
  // Paket faellt herein, wackelt, oeffnet sich
  const drop=bounce(s/0.6);const y=-(1-drop)*700;
- const shake=(s>1.5&&s<2.1)?Math.sin(s*60)*0.05*((s-1.5)/0.6):0;
- const o=ease((s-2.1)/0.5);
+ const shake=(s>2.4&&s<3.0)?Math.sin(s*60)*0.05*((s-2.4)/0.6):0;
+ const o=ease((s-3.0)/0.5);
  g.save();g.translate(L.mx,L.my+y+(LAND?0:40));const z=(LAND?1.25:1.5)*(1+p*0.02);g.scale(z,z);g.rotate(shake);box(c,o,s,p,n);g.restore();
  // Textfeld
  const pf=ease((s-0.2)/0.4);
  g.save();g.globalAlpha=pf;g.fillStyle='rgba(8,12,28,.58)';rr(L.px,L.py,L.pw,L.ph,44);g.fill();g.restore();
  const cx=L.px+L.pw/2;g.textAlign='center';const fs=LAND?52:60;
  // Phase 1: Typ + Frage
- const a=Math.min(1,Math.max(0,(s-0.5)/0.3))*(1-Math.min(1,Math.max(0,(s-2.3)/0.3)));
+ const a=Math.min(1,Math.max(0,(s-0.5)/0.3))*(1-Math.min(1,Math.max(0,(s-3.0)/0.3)));
  if(a>0){g.save();g.globalAlpha=a;g.font=`700 ${LAND?36:40}px -apple-system,Helvetica`;g.fillStyle='#ffe9a8';g.fillText((TX_.type+n).split('').join(' '),cx,L.py+L.ph*0.3);
   g.font=`700 ${LAND?66:76}px Georgia,serif`;g.fillStyle='#fff';g.shadowColor='#000';g.shadowBlur=12;g.fillText(TX_.nm[n],cx,L.py+L.ph*0.52);
   g.font=`500 ${LAND?46:52}px -apple-system,Helvetica`;g.fillStyle='#f3e9dc';g.shadowBlur=0;g.fillText(TX_.ask,cx,L.py+L.ph*0.74);g.restore();}
  // Phase 2: Geschenk + Begruendung
- const b=Math.min(1,Math.max(0,(s-2.5)/0.35));
+ const b=Math.min(1,Math.max(0,(s-3.4)/0.35));
  if(b>0){g.save();g.globalAlpha=b;g.font=`700 ${LAND?32:36}px -apple-system,Helvetica`;g.fillStyle='#ffe9a8';g.fillText(TX_.lbl.split('').join(' '),cx,L.py+(LAND?70:78));
   g.font=`700 ${LAND?60:68}px Georgia,serif`;g.fillStyle='#fff';g.shadowColor='#000';g.shadowBlur=12;const ls=wrapLines(TX_.gift[n],L.pw-80);ls.forEach((ln,i)=>g.fillText(ln.join(' '),cx,L.py+(LAND?160:170)+i*(LAND?70:78)));g.shadowBlur=0;
-  const a2=Math.min(1,Math.max(0,(s-3.1)/0.4));g.globalAlpha=b*a2;g.font=`500 ${LAND?40:44}px -apple-system,Helvetica`;g.fillStyle='#f3e9dc';const w2=wrapLines(TX_.why[n],L.pw-100);const y2=L.py+(LAND?160:170)+ls.length*(LAND?70:78)+(LAND?60:66);w2.forEach((ln,i)=>g.fillText(ln.join(' '),cx,y2+i*(LAND?54:58)));g.restore();}
+  const a2=Math.min(1,Math.max(0,(s-4.1)/0.4));g.globalAlpha=b*a2;g.font=`500 ${LAND?40:44}px -apple-system,Helvetica`;g.fillStyle='#f3e9dc';const w2=wrapLines(TX_.why[n],L.pw-100);const y2=L.py+(LAND?160:170)+ls.length*(LAND?70:78)+(LAND?60:66);w2.forEach((ln,i)=>g.fillText(ln.join(' '),cx,y2+i*(LAND?54:58)));g.restore();}
 }
 function boxes(s,t,p,hi){
  const cx=LAND?470:540,cy=LAND?560:650,size=LAND?800:860,gap=size*0.04,ts=(size-2*gap)/3;

@@ -61,7 +61,7 @@ const _VS = {
   "mm": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-montagmorgen-en.mp4", name: "Monday-Morning-Thoughts.mp4", title: "Monday Morning Thoughts of the 9 Types", text: "Monday Morning Thoughts of the 9 Enneagram Types: Which voice was yours? More in the Enneagram Healing Compass: https://kompass.verlagshausrathmer.com/en/", yt: "https://youtu.be/-5GPY2cVdgM" },
   "wh": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-weihnachten-en.mp4", name: "Christmas-The-mask-may-fall.mp4", title: "Christmas: The mask may fall", text: "Christmas: The mask may fall. Nine types, nine wishes. Which mask will you set aside? More in the Enneagram Healing Compass: https://kompass.verlagshausrathmer.com/en/", yt: "https://youtu.be/qhfCtimz3cA" },
   "hu": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-humor-en.mp4", name: "Humor-of-the-9-Types.mp4", title: "Humor of the 9 Types", text: "Humor of the 9 types: nine elephants, nine styles of humor. Which humor is yours? More in the Enneagram Healing Compass: https://kompass.verlagshausrathmer.com/en/", yt: "https://youtu.be/hXrm-xLZa5w" },
-  "ge": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-geschenk-en.mp4", name: "Gift-Ideas-for-the-9-Types.mp4", title: "Gift Ideas for the 9 Types", text: "What do I give my type? Nine types, nine gift ideas. More in the Enneagram Healing Compass: https://kompass.verlagshausrathmer.com/en/", yt: "" },
+  "ge": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-geschenk-en-v2.mp4", name: "Gift-Ideas-for-the-9-Types.mp4", title: "Gift Ideas for the 9 Types", text: "Which gift for which type? Nine types, nine gift ideas. More in the Enneagram Healing Compass: https://kompass.verlagshausrathmer.com/en/", yt: "" },
 };
 const _vsState = {};
 async function _vsClick(btn) {
@@ -21697,9 +21697,9 @@ function geschenkideenPage() {
 
       <div style="margin:2rem 0 0;text-align:center;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .3rem;color:var(--ink);">The gift ideas as a short film</h2>
-        <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">About 45 seconds, with sound: nine types, nine gift ideas. The button below sends a version with a link to the compass to friends and acquaintances, even if they do not have the app yet.</p>
-        <video controls playsinline preload="none" poster="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/geschenk-en-poster.jpg" aria-label="Short film on gift ideas for the 9 types" style="display:block;width:100%;max-width:340px;margin:0 auto;border-radius:14px;background:#111;box-shadow:0 4px 18px rgba(0,0,0,.18);">
-          <source src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/geschenk-en.mp4" type="video/mp4">
+        <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">About 70 seconds, with sound: nine types, nine gift ideas. The button below sends a version with a link to the compass to friends and acquaintances, even if they do not have the app yet.</p>
+        <video controls playsinline preload="none" poster="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/geschenk-en-v2-poster.jpg" aria-label="Short film on gift ideas for the 9 types" style="display:block;width:100%;max-width:340px;margin:0 auto;border-radius:14px;background:#111;box-shadow:0 4px 18px rgba(0,0,0,.18);">
+          <source src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/geschenk-en-v2.mp4" type="video/mp4">
         </video>
         <div style="margin:.9rem 0 0;"><button type="button" data-share-video="ge" style="font:inherit;font-weight:700;font-size:.95rem;padding:.65rem 1.3rem;border:2px solid var(--copper);border-radius:999px;background:var(--paper);color:var(--copper);cursor:pointer;">&#8599; Share video</button></div>
         <p style="font-size:.8rem;color:var(--muted);margin:.7rem 0 0;">Music: &lsaquo;Christmas&rsaquo; by Detlef Rathmer</p>
