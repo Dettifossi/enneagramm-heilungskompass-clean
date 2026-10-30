@@ -6283,7 +6283,7 @@ text.nav = [
     { route: "warum-nur-9-heilmittel", label: "Why Only 9 Enneagram Remedies and Not 27?" },
     { route: "enneagramm-reflexzonentherapie", label: "Enneagram Meets Reflexology" },
     { route: "enneagramm-akupunktur", label: "Enneagram Meets Acupuncture" },
-    { route: "enneagramm-ayurveda", label: "Enneagram meets Ayurveda" },
+    { route: "enneagramm-ayurveda", label: "Enneagram Meets Ayurveda" },
     { route: "enneagramm-handanalyse", label: "Enneagram Meets Hand Analysis" },
     { route: "enneagramm-meets-jin-shin-jyutsu", label: "Enneagram Meets Jin Shin Jyutsu" },
     { route: "enneagramm-zahnpsychosomatik", label: "Enneagram Meets Dental Psychosomatics" },
