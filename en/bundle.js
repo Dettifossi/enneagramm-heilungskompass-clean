@@ -26740,6 +26740,7 @@ function songTieferMasken(satz) {
           <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
             <iframe src="https://www.youtube.com/embed/A6xBEHS5F1c?rel=0&playsinline=1" title="Tiefer als die Masken (Deeper Than the Masks) – a tribute to Enneagram homeopathy" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
           </div>
+          <p style="font-size:.8rem;color:var(--muted);margin:.7rem 0 0;">A song by Detlef Rathmer</p>
         </div>`;
 }
 
@@ -26774,6 +26775,7 @@ function warumNeunHeilmittelPage() {
           <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
             <iframe src="https://www.youtube.com/embed/A6xBEHS5F1c?rel=0&playsinline=1" title="Tiefer als die Masken (Deeper Than the Masks) – a tribute to Enneagram homeopathy" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
           </div>
+          <p style="font-size:.8rem;color:var(--muted);margin:.7rem 0 0;">A song by Detlef Rathmer</p>
         </div>
         ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
         ${bookTip("der-code-deiner-persoenlichkeit", "How the Enneagram type develops &ndash; and what it reveals about our deepest imprints.", "Der Code deiner Persönlichkeit")}
