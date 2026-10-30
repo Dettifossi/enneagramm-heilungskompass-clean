@@ -6,7 +6,7 @@ const SP_TILES = [
   { id: "zwei-landkarten", farbe: "#8a6aa8", titel: "Two maps for self-knowledge",
     html: `
       <p class="sp-p">The path to self-knowledge often leads through several systems of wisdom. Two of them seem at first glance to come from different worlds: the Enneagram and Ayurveda. The <em>Enneagram</em> describes nine basic patterns of attention and motivation. <em>Ayurveda</em> sees the human being as part of nature and describes constitution through the five elements and the three doshas (Vata, Pitta, Kapha).</p>
-      <p class="sp-p">The Enneagram in its present form is much younger than Ayurveda (beginning in the 1960s, Oscar Ichazo and Claudio Naranjo), while the experiential knowledge about the human being contained in it is far older (see <a href="#spirituelles-enneagramm">The Spiritual Enneagram</a>).</p>
+      <p class="sp-p">The Enneagram is younger in its present written form (beginning in the 1960s, Oscar Ichazo and Claudio Naranjo). Its roots and the experiential knowledge about the human being contained in it, however, can be traced back over centuries to millennia (see <a href="#wurzeln-des-enneagramms">The Roots of the Enneagram</a> and <a href="#spirituelles-enneagramm">The Spiritual Enneagram</a>).</p>
       <p class="sp-p">This article places both systems side by side and asks where their patterns resemble each other. An honest classification matters: this is an interpretive offer from practice and not a scientifically proven system of assignment. It invites observation and replaces neither medical nor Ayurvedic advice.</p>` },
   { id: "fundamente", farbe: "#c47f6b", titel: "The foundations at a glance",
     html: `
@@ -120,6 +120,7 @@ export function enneagrammAyurvedaPage() {
       ${relatedLinks([
         {route:"persoenlichkeitsmodelle-vergleich", label:"Enneagram vs. Other Personality Models"},
         {route:"typ-aendert-sich-nicht", label:"Does the Type Change Over a Lifetime?"},
+        {route:"wurzeln-des-enneagramms", label:"Roots of the Enneagram"},
         {route:"spirituelles-enneagramm", label:"The Spiritual Enneagram: Psychology, Spirituality or Both?"},
         {route:"tcm", label:"TCM & Meridians"},
         {route:"enneagramm-autopoese", label:"The Enneagram as an Autopoietic System (Self-Preservation)"},
