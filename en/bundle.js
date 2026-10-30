@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=457";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=458";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -184,7 +184,8 @@ const karinThalerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil6.js", 
 const arzneimittelbilderPage = () => _lazyPage("./data/wissen-en/arzneimittelbilder.js", "arzneimittelbilderPage");
 const spirituellesEnneagrammPage = () => _lazyPage("./data/wissen-en/spirituelles-enneagramm.js", "spirituellesEnneagrammPage");
 const endeDerSuchePage = () => _lazyPage("./data/praxistipps-en/ende-der-suche.js", "endeDerSuchePage");
-const kinoErwachenPage = () => _lazyPage("./data/praxistipps-en/kino-erwachen.js", "kinoErwachenPage");
+const wasIstLiebePage = () => _lazyPage("./data/praxistipps-en/was-ist-liebe.js", "wasIstLiebePage");
+ _lazyPage("./data/praxistipps-en/kino-erwachen.js", "kinoErwachenPage");
 const albertBrooksPortraitPage = () => _lazyPage("./data/beruehmte-en/teil18.js", "albertBrooksPortraitPage");
 const emilyBluntPortraitPage = () => _lazyPage("./data/beruehmte-en/teil7.js", "emilyBluntPortraitPage");
 const rjMittePortraitPage = () => _lazyPage("./data/beruehmte-en/teil13.js", "rjMittePortraitPage");
@@ -9743,6 +9744,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"dein-wille-geschehe", titel:"‘Thy Will Be Done’: Surrender Instead of Ego-Will", teaser:"What Christianity, Taoism, Zen and Sufism say about self-will – and how ‘My will be done’ shows in all 27 Enneagram subtypes, with surrender as its counterpart.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/dein-wille-geschehe/dein-wille-geschehe.jpg", kategorie:"geist" },
     { slug:"ende-der-suche", titel:"When the Search Falls Silent: The End of the Search and the 13 Illusions of the Spiritual Seeker", teaser:"Why nothing needs to be added to be complete – 13 illusions from the subject to suffering, each with exercises for self-observation.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/ende-der-suche/ende-der-suche.jpg", kategorie:"geist" },
     { slug:"kino-erwachen", titel:"Red Pill, Blue Avatar: What The Matrix, Avatar, Inception and The Game Reveal About the Enneagram Fixation", teaser:"Four films, one idea: the pattern is an operating system, not the being. With tiles for The Matrix, Avatar, Inception and The Game, the nine programs of the types and a small totem exercise for everyday life.", img:"", kategorie:"geist" },
+    { slug:"was-ist-liebe", titel:"What Is Love? From Substitute Strategies to Essence", teaser:"How the concept of love has changed, what the nine types substitute for love (love instead of perfection, giving, success \u2026), what mysticism and Eckhart Tolle understand by love \u2013 with a small exercise and the short film.", img:"", kategorie:"geist" },
   ];
   const TIPP_KATEGORIEN = [
     { id:"koerper", label:"Body & Movement", icon:"🧭" },
@@ -9807,6 +9809,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "kino-erwachen") {
     return kinoErwachenPage();
+  }
+  if (param === "was-ist-liebe") {
+    return wasIstLiebePage();
   }
   if (param === "das-ewige-ich-bin") {
     return dasEwigeIchBinPage();
@@ -38267,6 +38272,7 @@ function sucheNachLiebePage() {
       <p class="eyebrow">Charts &middot; Relationships &middot; Development</p>
       <h1 class="section-title">The Search for True Love</h1>
       <p class="psycho-intro">All nine types seek love. But each seeks it in their own way &ndash; and each has developed their own way of standing in their own way.</p>
+      <div style="margin:1.25rem 0;padding:1rem 1.2rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);border-radius:8px;font-size:0.95rem;line-height:1.7;color:var(--anthracite);"><strong>What is love?</strong> Love here is not wanting to have, but attention and connection without conditions: the other is not needed for something but seen as a person, with the same wish for life and connection one knows in oneself. Where love is tied to conditions (&lsquo;I love you if &hellip;&rsquo;), a strategy usually replaces it. The long version is in the <a href="#praxistipps-heilpraktiker/was-ist-liebe">practical tip &lsquo;What Is Love?&rsquo;</a>.</div>
 
       <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1.25rem 0;">That sounds paradoxical, but it isn't. Every Enneagram type experienced early in life that love &ndash; affection, being seen, connection &ndash; seemed attached to certain conditions. And so they developed a strategy: replacing the original with something achievable. Perfection instead of love. Achievement instead of love. Control instead of love.</p>
 
@@ -38378,6 +38384,7 @@ function sucheNachLiebePage() {
       ${bookTip("die-sprache-unserer-sexualitaet", "In partners, we often search for the love we will not find there &ndash; an honest look at desire, attachment, and what we truly seek.", "Die Sprache unserer Sexualität")}
       ${bookTip("wer-du-wirklich-bist-band-1", "The core structure of the nine types &ndash; from passion to essence.", "Wer du wirklich bist")}
       ${relatedLinks([
+        {route:"praxistipps-heilpraktiker/was-ist-liebe", label:"Practical tip: What Is Love? From Substitute Strategies to Essence"},
         {route:"beziehungen-schaubild", label:"Relationships – Love and Protection"},
         {route:"leidenschaft-und-wunde", label:"Passion & Wound"},
         {route:"mangelgefuehle", label:"Feelings of Lack"},

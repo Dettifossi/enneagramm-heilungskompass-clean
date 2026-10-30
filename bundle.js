@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=460";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=461";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -172,7 +172,8 @@ const karinThalerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil4.js", 
 const arzneimittelbilderPage = () => _lazyPage("./data/wissen-de/arzneimittelbilder.js", "arzneimittelbilderPage");
 const spirituellesEnneagrammPage = () => _lazyPage("./data/wissen-de/spirituelles-enneagramm.js", "spirituellesEnneagrammPage");
 const endeDerSuchePage = () => _lazyPage("./data/praxistipps-de/ende-der-suche.js", "endeDerSuchePage");
-const kinoErwachenPage = () => _lazyPage("./data/praxistipps-de/kino-erwachen.js", "kinoErwachenPage");
+const wasIstLiebePage = () => _lazyPage("./data/praxistipps-de/was-ist-liebe.js", "wasIstLiebePage");
+ _lazyPage("./data/praxistipps-de/kino-erwachen.js", "kinoErwachenPage");
 const albertBrooksPortraitPage = () => _lazyPage("./data/beruehmte-de/teil8.js", "albertBrooksPortraitPage");
 const emilyBluntPortraitPage = () => _lazyPage("./data/beruehmte-de/teil13.js", "emilyBluntPortraitPage");
 const rjMittePortraitPage = () => _lazyPage("./data/beruehmte-de/teil9.js", "rjMittePortraitPage");
@@ -34576,6 +34577,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"dein-wille-geschehe", titel:"›Dein Wille geschehe‹: Hingabe statt Ego-Wille", teaser:"Was Christentum, Taoismus, Zen und Sufismus über den Eigenwillen sagen – und wie sich das ›Mein Wille geschehe‹ bei allen 27 Enneagramm-Subtypen zeigt, mit der Hingabe als Gegenstück.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/dein-wille-geschehe/dein-wille-geschehe.jpg", kategorie:"geist" },
     { slug:"ende-der-suche", titel:"Wenn die Suche still wird: Das Ende der Suche und die 13 Illusionen des spirituellen Suchers", teaser:"Warum nichts hinzugefügt werden muss, um vollständig zu sein – 13 Illusionen vom Subjekt bis zum Leiden, jeweils mit Übungen zur Selbstbeobachtung.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/ende-der-suche/ende-der-suche.jpg", kategorie:"geist" },
     { slug:"kino-erwachen", titel:"Rote Pille, blauer Avatar: Was Matrix, Avatar, Inception und The Game über die Enneagramm-Fixierung verraten", teaser:"Vier Filme, ein Gedanke: Das Muster ist ein Betriebssystem, nicht das Wesen. Mit Kacheln zu Matrix, Avatar, Inception und The Game, den neun Programmen der Typen und einer kleinen Totem-Übung für den Alltag.", img:"", kategorie:"geist" },
+    { slug:"was-ist-liebe", titel:"Was ist Liebe? Vom Ersatzhandel zur Essenz", teaser:"Wie sich der Liebesbegriff gewandelt hat, womit die neun Typen Liebe ersetzen (Liebe statt Perfektion, Geben, Erfolg \u2026), was Mystik und Eckhart Tolle unter Liebe verstehen \u2013 mit einer kleinen Übung und dem Kurzfilm.", img:"", kategorie:"geist" },
   ];
   const TIPP_KATEGORIEN = [
     { id:"koerper", label:"K\u00f6rper & Bewegung", icon:"\ud83e\udded" },
@@ -34646,6 +34648,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "kino-erwachen") {
     return kinoErwachenPage();
+  }
+  if (param === "was-ist-liebe") {
+    return wasIstLiebePage();
   }
 
   return shell(`
@@ -58692,6 +58697,7 @@ function sucheNachLiebePage() {
       <p class="eyebrow">Schaubilder &middot; Beziehungen &middot; Entwicklung</p>
       <h1 class="section-title">Die Suche nach der wahren Liebe</h1>
       <p class="psycho-intro">Alle neun Typen suchen Liebe. Aber jeder sucht sie auf seine Weise &ndash; und jeder hat eine eigene Art entwickelt, sich dabei im Weg zu stehen.</p>
+      <div style="margin:1.25rem 0;padding:1rem 1.2rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);border-radius:8px;font-size:0.95rem;line-height:1.7;color:var(--anthracite);"><strong>Was ist Liebe?</strong> Liebe ist hier kein Haben-Wollen, sondern Zuwendung und Verbundenheit ohne Bedingung: Der andere wird nicht f\u00fcr etwas gebraucht, sondern als Mensch gesehen, mit demselben Wunsch nach Leben und Verbundenheit, den man bei sich selbst kennt. Wo Liebe an Bedingungen gekn\u00fcpft ist (&rsaquo;Ich liebe dich, wenn &hellip;&lsaquo;), ersetzt meist eine Strategie sie. Die Langfassung steht im <a href="#praxistipps-heilpraktiker/was-ist-liebe">Praxistipp &rsaquo;Was ist Liebe?&lsaquo;</a>.</div>
 
       <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1.25rem 0;">Das klingt paradox, ist es aber nicht. Jeder Enneagrammtyp hat fr\u00fch im Leben die Erfahrung gemacht, dass Liebe &ndash; Zuwendung, Gesehensein, Verbindung &ndash; an bestimmte Bedingungen gekn\u00fcpft schien. Und so entwickelte er eine Strategie: Er ersetzte das Urspr\u00fcngliche durch etwas Erreichbares. Perfektion statt Liebe. Leistung statt Liebe. Kontrolle statt Liebe.</p>
 
@@ -58803,6 +58809,7 @@ function sucheNachLiebePage() {
       ${bookTip("die-sprache-unserer-sexualitaet", "In Partnern suchen wir oft die Liebe, die wir dort nicht finden werden &ndash; ein ehrlicher Blick auf Begehren, Bindung und das, was wir wirklich suchen.", "Die Sprache unserer Sexualit\u00e4t")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Die Grundstruktur der neun Typen &ndash; von der Leidenschaft bis zur Essenz.", "Wer du wirklich bist")}
       ${relatedLinks([
+        {route:"praxistipps-heilpraktiker/was-ist-liebe", label:"Praxistipp: Was ist Liebe? Vom Ersatzhandel zur Essenz"},
         {route:"beziehungen-schaubild", label:"Beziehungen \u2013 Liebe und Schutz"},
         {route:"leidenschaft-und-wunde", label:"Leidenschaft & Wunde"},
         {route:"mangelgefuehle", label:"Mangelgef\u00fchle"},

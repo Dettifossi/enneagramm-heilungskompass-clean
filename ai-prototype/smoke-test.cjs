@@ -135,6 +135,8 @@ const ROUTES = [
   { hash: "en/#yogi-tee-kompass", label: "Neu EN: Yogi Tea Compass" },
   { hash: "#praxistipps-heilpraktiker/ende-der-suche", label: "Neuer Praxistipp: Wenn die Suche still wird" },
   { hash: "en/#praxistipps-heilpraktiker/ende-der-suche", label: "Neuer EN-Praxistipp: When the Search Falls Silent" },
+  { hash: "#praxistipps-heilpraktiker/was-ist-liebe", label: "Neuer Praxistipp: Was ist Liebe?" },
+  { hash: "en/#praxistipps-heilpraktiker/was-ist-liebe", label: "Neuer EN-Praxistipp: What Is Love?" },
   { hash: "#praxistipps-heilpraktiker/kino-erwachen", label: "Neuer Praxistipp: Rote Pille, blauer Avatar" },
   { hash: "en/#praxistipps-heilpraktiker/kino-erwachen", label: "Neuer EN-Praxistipp: Red Pill, Blue Avatar" },
   { hash: "#praxistipps-heilpraktiker/dein-wille-geschehe", label: "Neuer Praxistipp: Dein Wille geschehe" },
