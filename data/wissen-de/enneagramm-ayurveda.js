@@ -86,10 +86,10 @@ const SP_TILES = [
     html: `
       <p class="sp-p">Die Stärke der Kombination liegt darin, dass sie Geist und Körper verbindet:</p>
       <ul class="sp-list">
-        <li><strong>Erkenntnis (Enneagramm):</strong> Das eigene mentale Betriebssystem verstehen: warum man so reagiert, welche Glaubenssätze und Ängste das Verhalten steuern, was die Passion antreibt.</li>
+        <li><strong>Erkenntnis (Enneagramm):</strong> Das eigene mentale Betriebssystem verstehen: warum man so reagiert, welche Glaubenssätze und Ängste das Verhalten steuern, was die Leidenschaft antreibt.</li>
         <li><strong>Regulation (Ayurveda):</strong> Die körperlich-energetische Basis verstehen: wie man den Körper nährt, welche Speisen, Tagesroutinen und Sinneseindrücke stabilisieren oder aus dem Gleichgewicht bringen.</li>
       </ul>
-      <p class="sp-p">Das Enneagramm zeigt die Richtung der inneren Entwicklung, der Ayurveda liefert Werkzeuge für den Alltag. Beide laden dazu ein, sich nicht zu bekämpfen, sondern zu beobachten.</p>` },
+      <p class="sp-p">Das Enneagramm zeigt die Richtung der inneren Entwicklung, der Ayurveda liefert Werkzeuge für den Alltag. Beide laden dazu ein, die eigenen Muster nicht zu bekämpfen, sondern zu beobachten.</p>` },
   { id: "fazit", farbe: "#607468", titel: "Fazit",
     html: `
       <p class="sp-p">Enneagramm und Ayurveda ergänzen sich zu einem Kompass für persönliches Wachstum. Sie zeigen, dass psychologische Prägungen keine zufälligen Macken sind, sondern Teil eines größeren Musters, das sich in Motivation, Körper und Alltag zugleich zeigt. Wer beide Blickwinkel verbindet, lernt sich nicht nur tiefer kennen, sondern findet auch Wege, Körper und Geist in Einklang zu bringen.</p>

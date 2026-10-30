@@ -89,7 +89,7 @@ const SP_TILES = [
         <li><strong>Insight (Enneagram):</strong> understanding one&rsquo;s own mental operating system: why one reacts the way one does, which beliefs and fears steer behavior, what drives the passion.</li>
         <li><strong>Regulation (Ayurveda):</strong> understanding the bodily-energetic basis: how to nourish the body, which foods, daily routines and sense impressions stabilize or unbalance.</li>
       </ul>
-      <p class="sp-p">The Enneagram shows the direction of inner development, Ayurveda supplies tools for everyday life. Both invite us not to fight ourselves but to observe.</p>` },
+      <p class="sp-p">The Enneagram shows the direction of inner development, Ayurveda supplies tools for everyday life. Both invite us not to fight our own patterns but to observe them.</p>` },
   { id: "fazit", farbe: "#607468", titel: "Conclusion",
     html: `
       <p class="sp-p">The Enneagram and Ayurveda complement each other into a compass for personal growth. They show that psychological imprints are not random quirks but part of a larger pattern that shows itself in motivation, body and everyday life at once. Whoever joins both viewpoints not only comes to know themselves more deeply but also finds ways to bring body and mind into harmony.</p>
