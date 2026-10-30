@@ -38,9 +38,9 @@ const SP_TILES = [
       <p class="sp-p">The three centers follow a clear pattern that also organizes the connection to Ayurveda. In each triad there is a <strong>core type</strong> in the middle: the 3 in the heart center, the 6 in the head center and the 9 in the body center. In this type the energy of its own center is <em>blocked</em>, described in the chart as &lsquo;denial of heart, head or body energy&rsquo;. The core type cannot reach its own center energy directly and gets its theme through the other two centers. Precisely for that reason it shows the theme of its center in its purest form.</p>
       <p class="sp-p">The two neighboring types to the left and right are variations of this core theme:</p>
       <ul class="sp-typen">
-        <li style="--tc:#c47f6b;"><b>Heart triad:</b> Type 2 uses heart energy <em>in excess</em>, Type 3 uses it <em>blocked</em>, Type 4 uses it <em>transformed</em>.</li>
-        <li style="--tc:#4f86a8;"><b>Head triad:</b> Type 5 uses head energy <em>in excess</em>, Type 6 uses it <em>blocked</em>, Type 7 uses it <em>transformed</em>.</li>
-        <li style="--tc:#8aa06a;"><b>Body triad:</b> Type 8 uses body energy <em>in excess</em>, Type 9 uses it <em>blocked</em>, Type 1 uses it <em>transformed</em>.</li>
+        <li style="--tc:#c47f6b;"><b>Heart triad:</b> Type 2 uses heart energy <em>in excess</em>, Type 3 <em>denies</em> it, Type 4 uses it <em>transformed</em>.</li>
+        <li style="--tc:#4f86a8;"><b>Head triad:</b> Type 5 uses head energy <em>in excess</em>, Type 6 <em>denies</em> it, Type 7 uses it <em>transformed</em>.</li>
+        <li style="--tc:#8aa06a;"><b>Body triad:</b> Type 8 uses body energy <em>in excess</em>, Type 9 <em>denies</em> it, Type 1 uses it <em>transformed</em>.</li>
       </ul>
       <p class="sp-p">For Ayurveda this means: the three core types are the &lsquo;purest&rsquo; representatives of their center and each stands closest to one dosha (Type 3 Pitta, Type 6 Vata, Type 9 Kapha). The neighboring types show variations of this theme, and mixed forms therefore appear there more often, for example Pitta with Kapha or Pitta with Vata. This is an interpretive offer, not a rule. The detailed presentation of the centers is in the chart <a href="#energiestatus-triadenenergien">Energy Status of the Triad Energies</a>.</p>` },
   { id: "kopf-vata", farbe: "#7a8f9e", titel: "The head center (Types 5, 6, 7) and the Vata principle",
