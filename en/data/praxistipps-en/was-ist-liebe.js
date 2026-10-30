@@ -52,7 +52,7 @@ export function wasIstLiebePage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">2. The substitute strategies of the nine types: love instead of &hellip;</h2>
-        <p class="vb-intro">The Enneagram describes nine basic patterns of how contact with one&rsquo;s own essence was lost. Each pattern replaces love with a strategy that was clever early in life. The wording follows the chart <a href="#suche-nach-liebe">The Search for True Love</a>. The cards show the substitute and the way back (&lsquo;love instead of &hellip;&rsquo;). They describe patterns one has, not what one is.</p>
+        <p class="vb-intro">The Enneagram describes nine basic patterns of how contact with one&rsquo;s own essence was lost. Each pattern replaces love with a strategy that was clever early in life. The wording follows the chart <a href="#suche-nach-liebe">The Search for True Love</a>. The cards show the substitute and the way back (&lsquo;love instead of &hellip;&rsquo;). They describe patterns we have, not what we are.</p>
         <ul class="sp-typen">${karten}</ul>
         <p class="vb-intro" style="margin-top:1rem;">All nine strategies start from a lack. They whisper unconsciously: &lsquo;Basically I am not complete. I have to achieve, be or control something to be worthy of love.&rsquo; That is the love of the ego: clinging, conditional and tied to something in return. What lies beneath is shown by the quintessences for <a href="#suche-nach-liebe">the types and the 27 subtypes</a>.</p>
       </div>

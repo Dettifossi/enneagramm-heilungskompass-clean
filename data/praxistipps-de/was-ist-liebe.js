@@ -52,7 +52,7 @@ export function wasIstLiebePage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">2. Die Ersatzstrategien der neun Typen: Liebe statt …</h2>
-        <p class="vb-intro">Das Enneagramm beschreibt neun Grundmuster, wie der Kontakt zum eigenen Wesen verloren ging. Jedes Muster ersetzt Liebe durch eine Strategie, die früh im Leben klug war. Die Formulierungen entsprechen dem Schaubild <a href="#suche-nach-liebe">Die Suche nach der wahren Liebe</a>. Die Karten zeigen den Ersatz und den Weg zurück (›Liebe statt …‹). Gemeint sind Muster, die man hat, und nicht, die man ist.</p>
+        <p class="vb-intro">Das Enneagramm beschreibt neun Grundmuster, wie der Kontakt zum eigenen Wesen verloren ging. Jedes Muster ersetzt Liebe durch eine Strategie, die früh im Leben klug war. Die Formulierungen entsprechen dem Schaubild <a href="#suche-nach-liebe">Die Suche nach der wahren Liebe</a>. Die Karten zeigen den Ersatz und den Weg zurück (›Liebe statt …‹). Gemeint sind Muster, die wir haben, und nicht das, was wir sind.</p>
         <ul class="sp-typen">${karten}</ul>
         <p class="vb-intro" style="margin-top:1rem;">Alle neun Strategien gehen von einem Mangel aus. Sie flüstern unbewusst: ›Ich bin im Grunde nicht vollständig. Ich muss etwas leisten, sein oder kontrollieren, um Liebe wert zu sein.‹ Das ist die Liebe des Egos: klammernd, bedingt und an Gegenleistungen geknüpft. Was darunter liegt, zeigen die Quintessenzen für <a href="#suche-nach-liebe">die Typen und die 27 Subtypen</a>.</p>
       </div>
