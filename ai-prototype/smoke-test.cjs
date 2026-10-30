@@ -233,6 +233,8 @@ const ROUTES = [
   { hash: "en/#mindmap-belladonna", label: "EN Mindmap Belladonna" },
   { hash: "en/#mindmap-veratrum", label: "EN Mindmap Veratrum album" },
   { hash: "en/#mindmap-cannabis", label: "EN Mindmap Cannabis indica" },
+  { hash: "#enneagramm-ayurveda", label: "Neu: Enneagramm meets Ayurveda" },
+  { hash: "en/#enneagramm-ayurveda", label: "Neu EN: Enneagramm meets Ayurveda" },
   { hash: "#spirituelles-enneagramm", label: "Neu: Das spirituelle Enneagramm" },
   { hash: "en/#spirituelles-enneagramm", label: "Neu EN: Das spirituelle Enneagramm" },
   { hash: "#beruehmte-ayn-rand", label: "Neues Porträt: Ayn Rand" },

@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=461";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=462";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -170,6 +170,7 @@ const jamesDeanPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "j
 const steveMcQueenPortraitPage = () => _lazyPage("./data/beruehmte-de/teil3.js", "steveMcQueenPortraitPage");
 const karinThalerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil4.js", "karinThalerPortraitPage");
 const arzneimittelbilderPage = () => _lazyPage("./data/wissen-de/arzneimittelbilder.js", "arzneimittelbilderPage");
+const enneagrammAyurvedaPage = () => _lazyPage("./data/wissen-de/enneagramm-ayurveda.js", "enneagrammAyurvedaPage");
 const spirituellesEnneagrammPage = () => _lazyPage("./data/wissen-de/spirituelles-enneagramm.js", "spirituellesEnneagrammPage");
 const endeDerSuchePage = () => _lazyPage("./data/praxistipps-de/ende-der-suche.js", "endeDerSuchePage");
 const wasIstLiebePage = () => _lazyPage("./data/praxistipps-de/was-ist-liebe.js", "wasIstLiebePage");
@@ -17157,6 +17158,7 @@ const uiText = {
       { route: "enneagramm-rad", label: "Enneagramm-Rad (interaktives Symbol)" },
       { route: "bewusstseinsgrad-normalverteilung", label: "Bewusstseinsgrad & Gaußsche Normalverteilungskurve" },
       { route: "persoenlichkeitsmodelle-vergleich", label: "Enneagramm vs. andere Persönlichkeitsmodelle" },
+      { route: "enneagramm-ayurveda", label: "Enneagramm meets Ayurveda: Persönlichkeit und innere Balance" },
       { route: "klassische-vs-enneagramm-homoeopathie", label: "Klassische Homöopathie und Enneagramm-Homöopathie im Vergleich" },
       { route: "wahnideen-nicht-reale-vorstellungen", label: "Nicht reale Vorstellungen: Wahnideen im Enneagramm und in der Homöopathie" },
       { route: "mindmaps-single-rubriken", label: "Mindmaps der Single-Rubriken (Homöopathie)" },
@@ -67635,6 +67637,7 @@ const ROUTES = {
     "claudio-naranjo-lehrer": claudioNaranjoLehrerPage,
     "david-daniels-gesetze": davidDanielsGesetzePage,
     "tugenden-enneagramm": tugendenEnneagrammPage,
+    "enneagramm-ayurveda": enneagrammAyurvedaPage,
     "spirituelles-enneagramm": spirituellesEnneagrammPage,
     "kindheitspraegungen-enneagramm": kindheitspraegungenPage,
     "befreiende-fragen": befreiendeFragenPage,
