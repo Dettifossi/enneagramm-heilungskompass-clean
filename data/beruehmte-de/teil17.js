@@ -2973,7 +2973,7 @@ export function patrickStewartPortraitPage() {
         </div>
         <p class="krim-portrait-name">Sir Patrick Stewart</p>
         <p class="krim-portrait-typ">SX7w8 &middot; Sexueller Typ 7 mit Achterflügel</p>
-        <p class="krim-portrait-subtitle">Britischer Schauspieler, geb. 1940 &ndash; Tierentsprechung: Schimpanse</p>
+        <p class="krim-portrait-subtitle">Britischer Schauspieler, 1940&ndash;2026 &ndash; Tierentsprechung: Schimpanse</p>
       </div>
       <div class="page-content">
         <h2 class="vb-section">1. Der Schimpanse: der Junge aus Mirfield</h2>
@@ -2991,13 +2991,13 @@ export function patrickStewartPortraitPage() {
         <h2 class="vb-section">3. Der Achterflügel: der Realist</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Don Richard Riso und Russ Hudson nennen die Sieben mit Achterflügel ›Der Realist‹ und die Sieben mit Sechserflügel ›Der Entertainer‹. Der <strong>Achterflügel (w8)</strong> verleiht der Sieben Durchsetzung, Nüchternheit und einen Kommandoton. Bei Stewart passt das zu dem, was er als Schlüssel seiner Kindheit beschreibt: ›Violence is a choice, and it’s a choice a man makes.‹ (›Gewalt ist eine Entscheidung, und es ist eine Entscheidung, die ein Mann trifft.‹) Man kann die Gewalt des Vaters so lesen, dass sie ihm das Unbeschwerte austrieb und der Achterflügel zum Schutz wurde.</p>
-          <p class="vb-intro">Dieser Zug zeigt sich in seinem Engagement: Er ist Schirmherr der Organisation Refuge gegen häusliche Gewalt, drehte ein Video für Amnesty International zu diesem Thema und unterstützt Combat Stress (Hilfe für traumatisierte Soldaten), die UN-Vereinigung Großbritanniens und Dignity in Dying (für das Recht auf ein selbstbestimmtes Lebensende). Er beschreibt sich selbst als Sozialist, Feminist und Atheist.</p>
+          <p class="vb-intro">Dieser Zug zeigt sich in seinem Engagement: Er war Schirmherr der Organisation Refuge gegen häusliche Gewalt, drehte ein Video für Amnesty International zu diesem Thema und unterstützte Combat Stress (Hilfe für traumatisierte Soldaten), die UN-Vereinigung Großbritanniens und Dignity in Dying (für das Recht auf ein selbstbestimmtes Lebensende). Er beschrieb sich selbst als Sozialist, Feminist und Atheist.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: Autorität mit Handwerk</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Weltweit bekannt wurde Stewart als Captain Jean-Luc Picard in ›Star Trek: The Next Generation‹ (1987 bis 1994). Er zögerte, den Sechsjahresvertrag zu unterschreiben, weil er erwartete, dass die Serie scheitern würde. Nach eigener Erinnerung sagte er der Besetzung anfangs sogar: ›We’re not here… to have fun!‹ (›Wir sind nicht zum Spaß hier!‹). Picard prägte das Bild eines ernsten, überlegten Anführers. Es folgten Professor Charles Xavier in sieben X-Men-Filmen (2000 bis 2017), die Rückkehr als Picard in ›Star Trek: Picard‹ (2020 bis 2023) und ein Auftritt im Marvel-Film ›Doctor Strange in the Multiverse of Madness‹ (2022).</p>
-          <p class="vb-intro">Daneben zeigt er die komische Seite, die in der Sieben angelegt ist: in der Serie ›Extras‹ (2005, für einen Emmy nominiert), als Stimme von Avery Bullock in ›American Dad!‹ (seit 2005) und in der Serie ›Blunt Talk‹ (2015 bis 2016). Mit Ian McKellen spielte er ›Waiting for Godot‹ und ›No Man’s Land‹, und die verspielten Werbefotos der beiden mit Melonenhüten verschoben 2014 sein öffentliches Bild Richtung Humor.</p>
+          <p class="vb-intro">Daneben zeigte er die komische Seite, die in der Sieben angelegt ist: in der Serie ›Extras‹ (2005, für einen Emmy nominiert), als Stimme von Avery Bullock in ›American Dad!‹ (seit 2005) und in der Serie ›Blunt Talk‹ (2015 bis 2016). Mit Ian McKellen spielte er ›Waiting for Godot‹ und ›No Man’s Land‹, und die verspielten Werbefotos der beiden mit Melonenhüten verschoben 2014 sein öffentliches Bild Richtung Humor.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Parallele im selben Subtyp: Christian Kohlund, John Travolta und Thomas Gottschalk</h2>
@@ -3008,13 +3008,13 @@ export function patrickStewartPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der sexuellen Sieben mit Achterflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Stark ist die Verbindung von Hingabe und Haltung: Wer 60 Jahre lang Shakespeare und Science-Fiction mit derselben Sorgfalt spielt, nimmt beides ernst. Dass er das Thema Gewalt in der Familie öffentlich anspricht, zeigt, was die Sieben im Achterflügel an Mut gewinnt.</p>
-          <p class="vb-intro">Die Schattenseite liegt im Stress: Die Sieben geht unter Druck zur Eins, ihrem Stresspunkt. Dann wirkt sie streng, pflichtbewusst und unnachgiebig, ohne in der Eins ihren Kern zu haben. Bei Stewart könnten der ernste Picard-Ton, die moralische Klarheit und der Anspruch an sich selbst auch so zu lesen sein, als Zug, der aus der Belastung der Kindheit und den hohen Rollen erwächst. Ein sichtbarer Unterschied zur Eins im Kern: Er belehrt nicht und will andere nicht ändern, er erzählt Geschichten.</p>
+          <p class="vb-intro">Stark ist die Verbindung von Hingabe und Haltung: Wer 60 Jahre lang Shakespeare und Science-Fiction mit derselben Sorgfalt spielt, nimmt beides ernst. Dass er das Thema Gewalt in der Familie öffentlich ansprach, zeigt, was die Sieben im Achterflügel an Mut gewinnt.</p>
+          <p class="vb-intro">Die Schattenseite liegt im Stress: Die Sieben geht unter Druck zur Eins, ihrem Stresspunkt. Dann wirkt sie streng, pflichtbewusst und unnachgiebig, ohne in der Eins ihren Kern zu haben. Bei Stewart könnten der ernste Picard-Ton, die moralische Klarheit und der Anspruch an sich selbst auch so zu lesen sein, als Zug, der aus der Belastung der Kindheit und den hohen Rollen erwächst. Ein sichtbarer Unterschied zur Eins im Kern: Er belehrte nicht und wollte andere nicht ändern, er erzählte Geschichten.</p>
         </blockquote>
 
-        <h2 class="vb-section">7. Stand: ein Erzähler mit Alterswerk</h2>
+        <h2 class="vb-section">7. Abschied: ein Erzähler mit Alterswerk</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 24. Oktober 2026) ist Patrick Stewart 86 Jahre alt. Er wurde 2001 zum OBE (Officer des Order of the British Empire, einer britischen Ehrung für besondere Verdienste) ernannt und 2010 zum Ritter geschlagen, hat zwei Olivier Awards und einen Grammy (für die Erzählung von ›Peter und der Wolf‹), und er teilt mit Hugh Jackman den Guinness-Rekord für die längste Karriere als Realdarsteller eines Marvel-Superhelden. 2023 erschien seine Autobiografie ›Making It So‹, 2026 das Hörbuch aller Sonette Shakespeares in seiner Lesung und der Film ›The Sheep Detectives‹. Er ist seit 2013 in dritter Ehe mit der Sängerin Sunny Ozell verheiratet und Tierschützer: Er nimmt über eine Rettungsorganisation in Los Angeles Hunde auf und setzt sich für Pitbulls ein.</p>
+          <p class="vb-intro">Patrick Stewart starb (Stand 30. Oktober 2026) am Mittwoch, dem 28. Oktober 2026, im Alter von 86 Jahren in seinem Haus in Los Angeles. Seine Sprecherin Kelly Bush Novak teilte mit, er sei an einer Alzheimer-Erkrankung gestorben und habe laut ihren Angaben zusätzlich an einer Lewy-Körperchen-Demenz gelitten; der Tagesspiegel nennt den Verlauf ›kurz und heftig‹. Zu den Würdigungen zählten William Shatner, Hugh Jackman und George Takei. Sein letzter Film, ›Avengers: Doomsday‹, soll im Dezember 2026 mit ihm als Professor Xavier in die Kinos kommen. Er wurde 2001 zum OBE (Officer des Order of the British Empire, einer britischen Ehrung für besondere Verdienste) ernannt und 2010 zum Ritter geschlagen, hat zwei Olivier Awards und einen Grammy (für die Erzählung von ›Peter und der Wolf‹), und er teilt mit Hugh Jackman den Guinness-Rekord für die längste Karriere als Realdarsteller eines Marvel-Superhelden. 2023 erschien seine Autobiografie ›Making It So‹, 2026 das Hörbuch aller Sonette Shakespeares in seiner Lesung und der Film ›The Sheep Detectives‹. Er war seit 2013 in dritter Ehe mit der Sängerin Sunny Ozell verheiratet, die laut Tagesspiegel bis zuletzt an seiner Seite war, und Tierschützer: Er nahm über eine Rettungsorganisation in Los Angeles Hunde auf und setzte sich für Pitbulls ein.</p>
         </blockquote>
 
       </div>

@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=460";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=461";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -2257,7 +2257,7 @@ const BERUEHMT_PORTRAITS = [
   land:"Germany", tags:["Sport"], gender:"m"},
 { route:"beruehmte-patrick-stewart", name:"Sir Patrick Stewart", added:"2026-10-24", subtyp:"SX7w8",
   heading:"Sir Patrick Stewart \u2013 Sexual Type 7",
-  teaser:"SX7w8 \u00b7 b. 1940. British actor (Captain Picard, Professor X, Shakespeare). The chimpanzee as Realist, who turned the flight from violence at home into devotion to transformation.",
+  teaser:"SX7w8 \u00b7 1940\u20132026. British actor (Captain Picard, Professor X, Shakespeare). The chimpanzee as Realist, who turned the flight from violence at home into devotion to transformation.",
   land:"United Kingdom", tags:["Schauspiel","Film"], gender:"m"},
 { route:"beruehmte-mike-tyson", name:"Mike Tyson", added:"2026-10-24", subtyp:"SE7w8",
   heading:"Mike Tyson \u2013 Self-Preservation Type 7",

@@ -2767,7 +2767,7 @@ export function rudiCarrellPortraitPage() {
         {route:"beruehmte-johannes-heesters", label:"Portrait: Johannes Heesters (SX7w6)"},
         {route:"beruehmte-thomas-gottschalk", label:"Portrait: Thomas Gottschalk (SX7w6)"},
         {route:"beruehmte-jerry-lewis", label:"Portrait: Jerry Lewis (SX7w6)"},
-        {route:"beruehmte-atze-schroeder", label:"Portrait: Atze Schröder (SE7w6)"},
+        {route:"beruehmte-atze-schroeder", label:"Portrait: Atze Schröder (SX7w6)"},
       ])}
     </div>
   `);

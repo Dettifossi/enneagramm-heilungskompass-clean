@@ -2910,7 +2910,7 @@ export function patrickStewartPortraitPage() {
         </div>
         <p class="krim-portrait-name">Sir Patrick Stewart</p>
         <p class="krim-portrait-typ">SX7w8 &middot; Sexual Type 7 with Eight-wing</p>
-        <p class="krim-portrait-subtitle">British actor, b. 1940 &ndash; Animal correspondence: Chimpanzee</p>
+        <p class="krim-portrait-subtitle">British actor, 1940&ndash;2026 &ndash; Animal correspondence: Chimpanzee</p>
       </div>
       <div class="page-content">
         <h2 class="vb-section">1. The Chimpanzee: the boy from Mirfield</h2>
@@ -2928,13 +2928,13 @@ export function patrickStewartPortraitPage() {
         <h2 class="vb-section">3. The Eight-wing: the Realist</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Don Richard Riso and Russ Hudson call the Seven with an Eight-wing &lsquo;The Realist&rsquo; and the Seven with a Six-wing &lsquo;The Entertainer&rsquo;. The <strong>Eight-wing (w8)</strong> lends the Seven assertiveness, sobriety and a commanding tone. In Stewart this fits what he describes as the key of his childhood: &lsquo;Violence is a choice, and it&rsquo;s a choice a man makes.&rsquo; One can read his father&rsquo;s violence as having driven out his lightness, with the Eight-wing becoming protection.</p>
-          <p class="vb-intro">This trait shows in his commitment: he is a patron of the organization Refuge against domestic violence, made a video for Amnesty International on the subject and supports Combat Stress (help for traumatized soldiers), the UN Association UK and Dignity in Dying (for the right to a self-determined end of life). He describes himself as a socialist, feminist and atheist.</p>
+          <p class="vb-intro">This trait shows in his commitment: he was a patron of the organization Refuge against domestic violence, made a video for Amnesty International on the subject and supported Combat Stress (help for traumatized soldiers), the UN Association UK and Dignity in Dying (for the right to a self-determined end of life). He described himself as a socialist, feminist and atheist.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The substance: authority with craft</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Stewart became known worldwide as Captain Jean-Luc Picard in &lsquo;Star Trek: The Next Generation&rsquo; (1987 to 1994). He hesitated to sign the six-year contract because he expected the series to fail. By his own recollection he even told the cast at the start: &lsquo;We&rsquo;re not here&hellip; to have fun!&rsquo; Picard shaped the image of a serious, thoughtful leader. Professor Charles Xavier in seven X-Men films (2000 to 2017) followed, the return as Picard in &lsquo;Star Trek: Picard&rsquo; (2020 to 2023) and an appearance in the Marvel film &lsquo;Doctor Strange in the Multiverse of Madness&rsquo; (2022).</p>
-          <p class="vb-intro">He also shows the comic side that is laid out in the Seven: in the series &lsquo;Extras&rsquo; (2005, Emmy-nominated), as the voice of Avery Bullock in &lsquo;American Dad!&rsquo; (since 2005) and in the series &lsquo;Blunt Talk&rsquo; (2015 to 2016). With Ian McKellen he played &lsquo;Waiting for Godot&rsquo; and &lsquo;No Man&rsquo;s Land&rsquo;, and their playful promotional photos in bowler hats shifted his public image toward humor in 2014.</p>
+          <p class="vb-intro">He also showed the comic side that is laid out in the Seven: in the series &lsquo;Extras&rsquo; (2005, Emmy-nominated), as the voice of Avery Bullock in &lsquo;American Dad!&rsquo; (since 2005) and in the series &lsquo;Blunt Talk&rsquo; (2015 to 2016). With Ian McKellen he played &lsquo;Waiting for Godot&rsquo; and &lsquo;No Man&rsquo;s Land&rsquo;, and their playful promotional photos in bowler hats shifted his public image toward humor in 2014.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Parallel in the same subtype: Christian Kohlund, John Travolta and Thomas Gottschalk</h2>
@@ -2945,13 +2945,13 @@ export function patrickStewartPortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow of the sexual Seven with Eight-wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Strong is the combination of devotion and stance: someone who plays Shakespeare and science fiction with the same care for 60 years takes both seriously. That he speaks publicly about domestic violence shows what courage the Seven gains from the Eight-wing.</p>
-          <p class="vb-intro">The shadow side lies in stress: under pressure the Seven goes to the One, its stress point. Then it appears strict, dutiful and unyielding without having its core in the One. In Stewart the serious Picard tone, the moral clarity and the demand on himself could also be read this way, as a trait that arises from the burden of childhood and demanding roles. A visible difference from the One at the core: he does not lecture and does not want to change others, he tells stories.</p>
+          <p class="vb-intro">Strong is the combination of devotion and stance: someone who plays Shakespeare and science fiction with the same care for 60 years takes both seriously. That he spoke publicly about domestic violence shows what courage the Seven gains from the Eight-wing.</p>
+          <p class="vb-intro">The shadow side lies in stress: under pressure the Seven goes to the One, its stress point. Then it appears strict, dutiful and unyielding without having its core in the One. In Stewart the serious Picard tone, the moral clarity and the demand on himself could also be read this way, as a trait that arises from the burden of childhood and demanding roles. A visible difference from the One at the core: he did not lecture and did not want to change others, he told stories.</p>
         </blockquote>
 
-        <h2 class="vb-section">7. Where things stand: a storyteller with late work</h2>
+        <h2 class="vb-section">7. Farewell: a storyteller with late work</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to the available information (as of 24 October 2026) Patrick Stewart is 86 years old. He was appointed OBE (Officer of the Order of the British Empire, a British honor for special services) in 2001 and knighted in 2010, has two Olivier Awards and a Grammy (for narrating &lsquo;Peter and the Wolf&rsquo;), and shares the Guinness record for the longest career as a live-action Marvel superhero with Hugh Jackman. His memoir &lsquo;Making It So&rsquo; appeared in 2023, in 2026 the audiobook of all Shakespeare sonnets in his reading and the film &lsquo;The Sheep Detectives&rsquo;. He has been married to the singer Sunny Ozell since 2013, his third marriage, and is an animal welfare advocate: he fosters dogs through a rescue organization in Los Angeles and campaigns for pit bulls.</p>
+          <p class="vb-intro">Patrick Stewart died (as of 30 October 2026) on Wednesday, 28 October 2026, aged 86, at his home in Los Angeles. His spokesperson Kelly Bush Novak said he died of Alzheimer&rsquo;s disease and, according to her, had also suffered from Lewy body dementia; the Tagesspiegel describes the course as &lsquo;short and severe&rsquo;. Tributes came from, among others, William Shatner, Hugh Jackman and George Takei. His last film, &lsquo;Avengers: Doomsday&rsquo;, is due in cinemas in December 2026 with him as Professor Xavier. He was appointed OBE (Officer of the Order of the British Empire, a British honor for special services) in 2001 and knighted in 2010, has two Olivier Awards and a Grammy (for narrating &lsquo;Peter and the Wolf&rsquo;), and shares the Guinness record for the longest career as a live-action Marvel superhero with Hugh Jackman. His memoir &lsquo;Making It So&rsquo; appeared in 2023, in 2026 the audiobook of all Shakespeare sonnets in his reading and the film &lsquo;The Sheep Detectives&rsquo;. He had been married to the singer Sunny Ozell since 2013, his third marriage, who according to the Tagesspiegel was at his side to the end, and he was an animal welfare advocate: he fostered dogs through a rescue organization in Los Angeles and campaigned for pit bulls.</p>
         </blockquote>
 
       </div>

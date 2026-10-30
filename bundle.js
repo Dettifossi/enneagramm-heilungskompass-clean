@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=463";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=464";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -28009,7 +28009,7 @@ const BERUEHMT_PORTRAITS = [
     land:"Deutschland", tags:["Sport"], gender:"m"},
   { route:"beruehmte-patrick-stewart", name:"Sir Patrick Stewart", added:"2026-10-24", subtyp:"SX7w8",
     heading:"Sir Patrick Stewart \u2013 Sexueller Typ 7",
-    teaser:"SX7w8 \u00b7 geb. 1940. Britischer Schauspieler (Captain Picard, Professor X, Shakespeare). Der Schimpanse als Realist, der die Flucht vor der Gewalt im Elternhaus in Hingabe an die Verwandlung verwandelte.",
+    teaser:"SX7w8 \u00b7 1940\u20132026. Britischer Schauspieler (Captain Picard, Professor X, Shakespeare). Der Schimpanse als Realist, der die Flucht vor der Gewalt im Elternhaus in Hingabe an die Verwandlung verwandelte.",
     land:"Gro\u00dfbritannien", tags:["Schauspiel","Film"], gender:"m"},
   { route:"beruehmte-mike-tyson", name:"Mike Tyson", added:"2026-10-24", subtyp:"SE7w8",
     heading:"Mike Tyson \u2013 Selbsterhaltender Typ 7",
