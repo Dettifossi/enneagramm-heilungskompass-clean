@@ -6,7 +6,7 @@ const SP_TILES = [
   { id: "zwei-landkarten", farbe: "#8a6aa8", titel: "Zwei Landkarten für die Selbsterkenntnis",
     html: `
       <p class="sp-p">Der Weg zur Selbsterkenntnis führt oft durch mehrere Systeme der Weisheit. Zwei davon wirken auf den ersten Blick wie aus verschiedenen Welten: das Enneagramm und der Ayurveda. Das <em>Enneagramm</em> beschreibt neun Grundmuster der Aufmerksamkeit und Motivation. Der <em>Ayurveda</em> betrachtet den Menschen als Teil der Natur und beschreibt seine Konstitution mit den fünf Elementen und den drei Doshas (Vata, Pitta, Kapha).</p>
-      <p class="sp-p">Der Ayurveda gehört zu den ältesten Heilsystemen der Welt. Sein Name setzt sich aus den Sanskritwörtern <em>ayus</em> (Leben) und <em>veda</em> (Wissen) zusammen, also ›das Wissen vom Leben‹. Schriftlich überliefert ist er unter anderem in der Charaka Samhita und der Sushruta Samhita. Das Enneagramm in seiner heutigen Form ist deutlich jünger (Beginn in den 1960er-Jahren, Oscar Ichazo und Claudio Naranjo), während das Erfahrungswissen über den Menschen, das darin steckt, viel älter ist (siehe <a href="#spirituelles-enneagramm">Das spirituelle Enneagramm</a>).</p>
+      <p class="sp-p">Das Enneagramm in seiner heutigen Form ist deutlich jünger als der Ayurveda (Beginn in den 1960er-Jahren, Oscar Ichazo und Claudio Naranjo), während das Erfahrungswissen über den Menschen, das darin steckt, viel älter ist (siehe <a href="#spirituelles-enneagramm">Das spirituelle Enneagramm</a>).</p>
       <p class="sp-p">Dieser Artikel stellt beide Systeme nebeneinander und fragt, wo sich ihre Muster ähneln. Wichtig ist eine ehrliche Einordnung: Das ist ein Deutungsangebot aus der Praxis und kein wissenschaftlich belegtes Zuordnungssystem. Es lädt zum Beobachten ein und ersetzt weder eine ärztliche noch eine ayurvedische Beratung.</p>` },
   { id: "fundamente", farbe: "#c47f6b", titel: "Die Fundamente im Überblick",
     html: `
@@ -104,6 +104,12 @@ export function enneagrammAyurvedaPage() {
         <p class="eyebrow">Wissen · Persönlichkeit und Konstitution</p>
         <h1 class="section-title">Enneagramm meets Ayurveda</h1>
         <p class="lead-small">Das Enneagramm beschreibt, warum wir so handeln, der Ayurveda, wie sich unsere Konstitution anfühlt. Im Folgenden wird dargestellt, wo sich beide Muster ähneln und was sich daraus für den Alltag ableiten lässt.</p>
+        <div class="vb-section" style="max-width:100%;margin:0 0 1.2rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
+          <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">Kurz erklärt: Woher kommt der Ayurveda?</h2>
+          <p class="vb-intro" style="margin:0 0 .6rem;">Der Ayurveda stammt aus Indien und gehört zu den ältesten Gesundheits- und Lebenslehren der Welt. Sein Name setzt sich aus den Sanskritwörtern <em>ayus</em> (Leben) und <em>veda</em> (Wissen) zusammen, also ›das Wissen vom Leben‹.</p>
+          <p class="vb-intro" style="margin:0 0 .6rem;">Seine Wurzeln reichen in die vedische Zeit zurück. Als klassische Lehrtexte gelten die <em>Charaka Samhita</em> (Innere Medizin) und die <em>Sushruta Samhita</em> (Chirurgie), die meist in die Jahrhunderte um die Zeitenwende datiert werden. Im Mittelpunkt steht die Idee, dass der Mensch Teil der Natur ist und Gesundheit aus dem Gleichgewicht von Körper, Geist und Umwelt entsteht.</p>
+          <p class="vb-intro" style="margin:0;">Im deutschsprachigen Raum wird der Ayurveda meist als ergänzende Lebens- und Gesundheitslehre genutzt, etwa für Ernährung, Tagesrhythmus und Selbstfürsorge.</p>
+        </div>
         <figure class="sp-hero"><img src="${IMG}" alt="Neun Menschen meditieren im Kreis um einen steinernen Enneagramm-Stern auf einem Berggipfel bei Sonnenaufgang, jeweils umgeben von einem Element: Nebel, Wasser, Feuer, Pflanzen und Licht." loading="lazy" /></figure>
         <div id="ay-top" class="ab-nav" role="navigation" aria-label="Themen dieses Artikels">${nav}</div>
         ${sektionen}

@@ -6,7 +6,7 @@ const SP_TILES = [
   { id: "zwei-landkarten", farbe: "#8a6aa8", titel: "Two maps for self-knowledge",
     html: `
       <p class="sp-p">The path to self-knowledge often leads through several systems of wisdom. Two of them seem at first glance to come from different worlds: the Enneagram and Ayurveda. The <em>Enneagram</em> describes nine basic patterns of attention and motivation. <em>Ayurveda</em> sees the human being as part of nature and describes constitution through the five elements and the three doshas (Vata, Pitta, Kapha).</p>
-      <p class="sp-p">Ayurveda is one of the oldest healing systems in the world. Its name combines the Sanskrit words <em>ayus</em> (life) and <em>veda</em> (knowledge), so &lsquo;the knowledge of life&rsquo;. It is handed down in writing, among others, in the Charaka Samhita and the Sushruta Samhita. The Enneagram in its present form is much younger (beginning in the 1960s, Oscar Ichazo and Claudio Naranjo), while the experiential knowledge about the human being contained in it is far older (see <a href="#spirituelles-enneagramm">The Spiritual Enneagram</a>).</p>
+      <p class="sp-p">The Enneagram in its present form is much younger than Ayurveda (beginning in the 1960s, Oscar Ichazo and Claudio Naranjo), while the experiential knowledge about the human being contained in it is far older (see <a href="#spirituelles-enneagramm">The Spiritual Enneagram</a>).</p>
       <p class="sp-p">This article places both systems side by side and asks where their patterns resemble each other. An honest classification matters: this is an interpretive offer from practice and not a scientifically proven system of assignment. It invites observation and replaces neither medical nor Ayurvedic advice.</p>` },
   { id: "fundamente", farbe: "#c47f6b", titel: "The foundations at a glance",
     html: `
@@ -104,6 +104,12 @@ export function enneagrammAyurvedaPage() {
         <p class="eyebrow">Knowledge · Personality and Constitution</p>
         <h1 class="section-title">Enneagram meets Ayurveda</h1>
         <p class="lead-small">The Enneagram describes why we act the way we do, Ayurveda how our constitution feels. What follows shows where both patterns resemble each other and what can be drawn from that for everyday life.</p>
+        <div class="vb-section" style="max-width:100%;margin:0 0 1.2rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
+          <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">In brief: where does Ayurveda come from?</h2>
+          <p class="vb-intro" style="margin:0 0 .6rem;">Ayurveda comes from India and is one of the oldest systems of health and life in the world. Its name combines the Sanskrit words <em>ayus</em> (life) and <em>veda</em> (knowledge), so &lsquo;the knowledge of life&rsquo;.</p>
+          <p class="vb-intro" style="margin:0 0 .6rem;">Its roots go back to the Vedic period. The classical teaching texts are the <em>Charaka Samhita</em> (internal medicine) and the <em>Sushruta Samhita</em> (surgery), usually dated to the centuries around the turn of the era. At its center is the idea that the human being is part of nature and that health arises from the balance of body, mind and environment.</p>
+          <p class="vb-intro" style="margin:0;">In the German-speaking world Ayurveda is mostly used as a complementary teaching on life and health, for example for nutrition, daily rhythm and self-care.</p>
+        </div>
         <figure class="sp-hero"><img src="${IMG}" alt="Nine people meditate in a circle around a stone Enneagram star on a mountaintop at sunrise, each surrounded by an element: mist, water, fire, plants and light." loading="lazy" /></figure>
         <div id="ay-top" class="ab-nav" role="navigation" aria-label="Topics of this article">${nav}</div>
         ${sektionen}
