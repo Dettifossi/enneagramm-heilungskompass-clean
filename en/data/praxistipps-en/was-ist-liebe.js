@@ -29,6 +29,10 @@ export function wasIstLiebePage() {
       <h1 class="h1--tip">What Is Love? From Substitute Strategies to Essence</h1>
       <p class="lead-small">Love is one of the most used and most misunderstood words. This tip asks what it can mean: how the concept has changed over the centuries, which substitute strategies the Enneagram shows in the nine types, and what mystics and teachers such as Eckhart Tolle understand by love.</p>
 
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/was-ist-liebe/was-ist-liebe-en.jpg" alt="Nine tiles in the type colors: love instead of perfection, giving, success, individuality, knowledge, security, fun, power, harmony, with a red heart." class="psycho-img" loading="lazy" />
+      </div>
+
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">What is love? A working definition</h2>
         <p class="vb-intro">Love, in the sense meant here, is less a feeling of wanting to have than an attitude of attention and connection: the other is not needed for something but seen as a person, with the same wish for life and connection one knows in oneself. Being in love, care, longing and bonding can be expressions of it. Where they are tied to conditions (&lsquo;I love you if &hellip;&rsquo;), it is mostly a substitute strategy.</p>

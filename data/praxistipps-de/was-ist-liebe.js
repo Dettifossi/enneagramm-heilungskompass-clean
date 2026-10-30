@@ -29,6 +29,10 @@ export function wasIstLiebePage() {
       <h1 class="h1--tip">Was ist Liebe? Vom Ersatzhandel zur Essenz</h1>
       <p class="lead-small">Liebe ist eines der am häufigsten benutzten und am meisten missverstandenen Wörter. Dieser Tipp fragt, was damit gemeint sein kann: wie sich der Begriff im Lauf der Jahrhunderte gewandelt hat, welche Ersatzstrategien das Enneagramm bei den neun Typen zeigt und was Mystiker und Lehrer wie Eckhart Tolle unter Liebe verstehen.</p>
 
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/was-ist-liebe/was-ist-liebe.jpg" alt="Neun Kacheln in den Typ-Farben: Liebe statt Perfektion, Geben, Erfolg, Individualität, Wissen, Sicherheit, Spaß, Macht, Harmonie, dazu ein rotes Herz." class="psycho-img" loading="lazy" />
+      </div>
+
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Was ist Liebe? Eine Arbeitsdefinition</h2>
         <p class="vb-intro">Liebe ist im hier gemeinten Sinn weniger ein Gefühl des Habenwollens als eine Haltung der Zuwendung und Verbundenheit: Der andere wird nicht für etwas gebraucht, sondern als Mensch gesehen, mit demselben Wunsch nach Leben und Verbundenheit, den man auch bei sich selbst kennt. Verliebtheit, Fürsorge, Sehnsucht und Bindung können Ausdrucksformen davon sein. Wo sie an Bedingungen geknüpft sind (›Ich liebe dich, wenn …‹), ist es meist eine Ersatzstrategie.</p>
