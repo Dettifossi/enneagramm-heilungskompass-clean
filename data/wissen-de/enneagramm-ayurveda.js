@@ -33,30 +33,43 @@ const SP_TILES = [
         <li><strong>Gemeint sind Muster, die wir haben, und nicht das, was wir sind.</strong> Beide Systeme beschreiben Tendenzen, nie den ganzen Menschen.</li>
       </ul>
       <p class="sp-p">Im Folgenden werden Parallelen vorgeschlagen, entlang der drei Zentren. Sie sind Beobachtungen, die sich in der Praxis oft zeigen, und keine Regeln.</p>` },
+  { id: "kerntypen", farbe: "#8a6aa8", titel: "Kerntyp und Nachbartypen: das Prinzip der Triaden",
+    html: `
+      <p class="sp-p">Die drei Zentren folgen einem klaren Muster, das auch die Verbindung zum Ayurveda ordnet. In jeder Triade gibt es einen <strong>Kerntyp</strong> in der Mitte: die 3 im Herz-Zentrum, die 6 im Kopf-Zentrum und die 9 im Bauch-Zentrum. Bei ihm ist die Energie des eigenen Zentrums <em>blockiert</em>, im Schaubild als ›Verleugnung der Herz-, Kopf- oder Bauchenergie‹ beschrieben. Der Kerntyp kommt an seine eigene Zentrumsenergie nicht direkt heran und holt sich ihr Thema über die beiden anderen Zentren. Gerade deshalb stellt er das Thema seines Zentrums am reinsten dar.</p>
+      <p class="sp-p">Die beiden Nachbartypen links und rechts sind Abwandlungen dieses Kernthemas:</p>
+      <ul class="sp-typen">
+        <li style="--tc:#c47f6b;"><b>Herz-Triade:</b> Typ 2 setzt die Herzenergie <em>überschießend</em> ein, Typ 3 hat sie <em>blockiert</em>, Typ 4 hat sie <em>umgewandelt</em>.</li>
+        <li style="--tc:#4f86a8;"><b>Kopf-Triade:</b> Typ 5 setzt die Kopfenergie <em>überschießend</em> ein, Typ 6 hat sie <em>blockiert</em>, Typ 7 hat sie <em>umgewandelt</em>.</li>
+        <li style="--tc:#8aa06a;"><b>Bauch-Triade:</b> Typ 8 setzt die Bauchenergie <em>überschießend</em> ein, Typ 9 hat sie <em>blockiert</em>, Typ 1 hat sie <em>umgewandelt</em>.</li>
+      </ul>
+      <p class="sp-p">Für den Ayurveda heißt das: Die drei Kerntypen sind die ›reinsten‹ Vertreter ihres Zentrums und stehen jeweils einem Dosha am nächsten (Typ 3 Pitta, Typ 6 Vata, Typ 9 Kapha). Die Nachbartypen zeigen Abwandlungen dieses Themas, und dort treten deshalb häufiger Mischformen auf, zum Beispiel Pitta mit Kapha oder Pitta mit Vata. Das ist ein Deutungsangebot, keine Regel. Die ausführliche Darstellung der Zentren steht im Schaubild <a href="#energiestatus-triadenenergien">Energiestatus der 9 Enneagrammtypen nach ihren Triadenenergien</a>.</p>` },
   { id: "kopf-vata", farbe: "#7a8f9e", titel: "Das Kopf-Zentrum (Typ 5, 6, 7) und das Vata-Prinzip",
     html: `
       <p class="sp-p"><em>Die Denker, Planer und Rastlosen.</em> Die Typen des Kopf-Zentrums leben vor allem im Geist: Sie analysieren, antizipieren und suchen im Denken nach Sicherheit. Das erinnert an die Qualitäten von Vata: beweglich, leicht, kühl und leicht aus dem Gleichgewicht zu bringen.</p>
+      <p class="sp-p"><strong>Kerntyp und Nachbarn:</strong> In dieser Triade ist die 6 der Kerntyp: Ihre Kopfenergie ist blockiert (im Schaubild ›Verleugnung der Kopfenergie‹). Die 5 setzt die Kopfenergie überschießend ein, die 7 hat sie umgewandelt. Die 6 steht dem Vata-Prinzip deshalb am nächsten, 5 und 7 sind Abwandlungen davon.</p>
       <ul class="sp-typen">
         <li style="--tc:#124fcc;"><b>Typ 5 (Der Beobachter):</b> Er zieht sich zurück, um Energie zu sparen und die Welt zu verstehen. Das teilt viele Züge mit einem unausgeglichenen Vata: geistige Erschöpfung, das Gefühl, ›nicht genug Energie‹ zu haben, und die Neigung, sich zu isolieren.</li>
-        <li style="--tc:#8a5222;"><b>Typ 6 (Der Loyale):</b> Mentale Wachsamkeit, Zukunftsszenarien und innere Unsicherheit. Hier zeigt sich die Vata-typische Nervosität und das Bedürfnis nach Verlässlichkeit, um das ›Vata-Flugzeug‹ am Boden zu halten.</li>
+        <li style="--tc:#8a5222;"><b>Typ 6 (Der Loyale, Kerntyp der Kopf-Triade):</b> Mentale Wachsamkeit, Zukunftsszenarien und innere Unsicherheit. Hier zeigt sich die Vata-typische Nervosität und das Bedürfnis nach Verlässlichkeit, um das ›Vata-Flugzeug‹ am Boden zu halten.</li>
         <li style="--tc:#d4a800;"><b>Typ 7 (Der Enthusiast):</b> Er springt von Idee zu Idee, liebt Vielfalt und meidet Langeweile und Schmerz. Das ist die klassische Vata-Dynamik: schnell, sprunghaft, kreativ, mit der Gefahr der Überreizung und inneren Unruhe.</li>
       </ul>
       <p class="sp-p"><strong>Der ayurvedische Ansatz zur Balance:</strong> Wenn Vata überwiegt, empfiehlt die Tradition vor allem Erdung und Regelmäßigkeit: warme, nährende Speisen, feste Tagesroutinen, ausreichend Ruhe, Ölmassagen (<em>Abhyanga</em>) und Meditation, um den ruhelosen Geist zu beruhigen. Das sind allgemeine Anregungen zur Lebensführung, keine Heilversprechen.</p>` },
   { id: "herz-pitta", farbe: "#c0652b", titel: "Das Herz-Zentrum (Typ 2, 3, 4) und das Pitta-Prinzip",
     html: `
       <p class="sp-p"><em>Die Macher, Fühler und Leistungsbezogenen.</em> Das Herz-Zentrum dreht sich um Wertschätzung, Image, Leistung und emotionale Tiefe. Besonders stark klingen hier die feurigen, zielgerichteten Qualitäten von Pitta an.</p>
+      <p class="sp-p"><strong>Kerntyp und Nachbarn:</strong> In dieser Triade ist die 3 der Kerntyp: Ihre Herzenergie ist blockiert (›Verleugnung der Herzenergie‹). Die 2 setzt die Herzenergie überschießend ein, die 4 hat sie umgewandelt. Die 3 steht dem Pitta-Prinzip deshalb am nächsten, 2 und 4 sind Abwandlungen davon, mit Anteilen der Nachbar-Doshas.</p>
       <ul class="sp-typen">
-        <li style="--tc:#1fa688;"><b>Typ 3 (Der Erfolgreiche):</b> Effizienz, Erfolg, Zielstrebigkeit und das Vermeiden von Misserfolg stehen im Vordergrund. Das passt gut zum Pitta-Bild: wettbewerbsorientiert, leistungsbezogen, mit der Neigung, sich über die Arbeit zu definieren.</li>
         <li style="--tc:#7a2fa8;"><b>Typ 2 (Der Helfer):</b> Er richtet seine Energie nach außen, um geliebt zu werden. Oft zeigt sich eine Mischung aus Pitta-Wärme und Kapha-Fürsorge.</li>
+        <li style="--tc:#1fa688;"><b>Typ 3 (Der Erfolgreiche, Kerntyp der Herz-Triade):</b> Effizienz, Erfolg, Zielstrebigkeit und das Vermeiden von Misserfolg stehen im Vordergrund. Das passt gut zum Pitta-Bild: wettbewerbsorientiert, leistungsbezogen, mit der Neigung, sich über die Arbeit zu definieren.</li>
         <li style="--tc:#3cbf1f;"><b>Typ 4 (Der Individualist):</b> Er taucht tief in Gefühle und Authentizität ein und sucht nach Bedeutung. Das erinnert an eine feurige, empfindsame Pitta-Vata-Mischung.</li>
       </ul>
       <p class="sp-p"><strong>Der ayurvedische Ansatz zur Balance:</strong> Pitta-betonte Muster neigen nach ayurvedischer Lehre zu Perfektionismus, Überhitzung und Reizbarkeit. Die Tradition empfiehlt Kühlung, Maßhalten, Pausen und Tätigkeiten ohne Leistungsanspruch, etwa einen Spaziergang in der Natur ohne Ziel.</p>` },
   { id: "bauch-kapha", farbe: "#8aa06a", titel: "Das Bauch-Zentrum (Typ 8, 9, 1) und das Kapha-Prinzip",
     html: `
       <p class="sp-p"><em>Die Erdigen, Kontrollierenden und Bewahrenden.</em> Das Bauch-Zentrum wurzelt in Instinkt, Autonomie, Grenzen und dem Umgang mit Wut. Hier finden sich Verbindungen zum stabilen Kapha (Erdung, Beständigkeit, Trägheit), bei Wut und Strenge aber auch zur Schärfe von Pitta.</p>
+      <p class="sp-p"><strong>Kerntyp und Nachbarn:</strong> In dieser Triade ist die 9 der Kerntyp: Ihre Bauchenergie ist blockiert (›Verleugnung der Bauchenergie‹). Die 8 setzt die Bauchenergie überschießend ein, die 1 hat sie umgewandelt. Die 9 steht dem Kapha-Prinzip deshalb am nächsten, 8 und 1 sind Abwandlungen davon, mit der Schärfe von Pitta.</p>
       <ul class="sp-typen">
         <li style="--tc:#a00802;"><b>Typ 8 (Der Herausforderer):</b> Kraftvoll, direkt, schützend, konfrontierend. Das verbindet die Standfestigkeit von Kapha (Erde) mit der Durchsetzungskraft von Pitta (Feuer).</li>
-        <li style="--tc:#cc6e00;"><b>Typ 9 (Der Friedensstifter):</b> Er sucht Harmonie, vermeidet Konflikte und neigt zur Trägheit und zum Aufschieben. Das spiegelt ein unausgeglichenes Kapha: Widerstand gegen Veränderung, Gemütlichkeit, aber auch eine tiefe, wohltuende Sanftmut.</li>
+        <li style="--tc:#cc6e00;"><b>Typ 9 (Der Friedensstifter, Kerntyp der Bauch-Triade):</b> Er sucht Harmonie, vermeidet Konflikte und neigt zur Trägheit und zum Aufschieben. Das spiegelt ein unausgeglichenes Kapha: Widerstand gegen Veränderung, Gemütlichkeit, aber auch eine tiefe, wohltuende Sanftmut.</li>
         <li style="--tc:#5f5f5f;"><b>Typ 1 (Der Perfektionist):</b> Streng, prinzipientreu und reformorientiert. Die innere Anspannung und der hohe moralische Anspruch erinnern an die transformierende Schärfe von Pitta, verbunden mit der Struktur von Kapha.</li>
       </ul>
       <p class="sp-p"><strong>Der ayurvedische Ansatz zur Balance:</strong> Wenn Kapha überwiegt, empfiehlt die Tradition sanfte Anregung, Bewegung, leichte Kost und Abwechslung, um die natürliche Trägheit zu überwinden und ins Handeln zu kommen. Wo Pitta-Schärfe (Wut, Strenge) im Spiel ist, gelten wieder Kühlung und Maßhalten.</p>` },
@@ -120,6 +133,7 @@ export function enneagrammAyurvedaPage() {
       ${relatedLinks([
         {route:"persoenlichkeitsmodelle-vergleich", label:"Enneagramm vs. andere Persönlichkeitsmodelle"},
         {route:"typ-aendert-sich-nicht", label:"Ändert sich der Typ im Laufe des Lebens?"},
+        {route:"energiestatus-triadenenergien", label:"Schaubild: Energiestatus der 9 Enneagrammtypen nach ihren Triadenenergien"},
         {route:"wurzeln-des-enneagramms", label:"Die Wurzeln des Enneagramms"},
         {route:"spirituelles-enneagramm", label:"Das spirituelle Enneagramm: Psychologie, Spiritualität oder beides?"},
         {route:"tcm", label:"TCM & Meridiane"},
