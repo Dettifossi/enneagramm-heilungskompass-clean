@@ -89,7 +89,7 @@ export function wasIstLiebePage() {
         <div class="sp-tile__head"><span class="sp-tile__num">✦</span><h2 class="sp-tile__title">To take along: noticing the substitute</h2></div>
         <p class="sp-p">The exercise takes one to two minutes each time and can be done in any conversation.</p>
         <div class="sp-ex"><ul class="sp-list">
-          <li>Name your own substitute word from section 2 (for example perfection, giving, achievement, knowledge, security, fun, strength, harmony).</li>
+          <li>Name your own substitute word from section 2 (for example perfection, giving, achievement, individuality, knowledge, security, fun, strength, harmony).</li>
           <li>Pause briefly in a conversation and check: is something being expected right now (recognition, security, peace), or is someone listening?</li>
           <li>Look at the other person for one breath without a role, not as spouse, colleague or child, but as a human being with the same wish for life and connection.</li>
           <li>Complete the sentence &lsquo;love instead of &hellip;&rsquo; once inwardly with your own substitute word, without having to change anything about it.</li>

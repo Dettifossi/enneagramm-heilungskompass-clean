@@ -89,7 +89,7 @@ export function wasIstLiebePage() {
         <div class="sp-tile__head"><span class="sp-tile__num">✦</span><h2 class="sp-tile__title">Zum Mitnehmen: Den Ersatz bemerken</h2></div>
         <p class="sp-p">Die Übung dauert pro Anwendung ein bis zwei Minuten und lässt sich in jedem Gespräch machen.</p>
         <div class="sp-ex"><ul class="sp-list">
-          <li>Das eigene Ersatzwort aus Abschnitt 2 benennen (zum Beispiel Perfektion, Geben, Leistung, Wissen, Sicherheit, Spaß, Stärke, Harmonie).</li>
+          <li>Das eigene Ersatzwort aus Abschnitt 2 benennen (zum Beispiel Perfektion, Geben, Leistung, Individualität, Wissen, Sicherheit, Spaß, Stärke, Harmonie).</li>
           <li>In einem Gespräch kurz innehalten und prüfen: Wird gerade etwas erwartet (Anerkennung, Sicherheit, Frieden), oder wird zugehört?</li>
           <li>Das Gegenüber einen Atemzug lang ohne Rolle ansehen, nicht als Ehepartner, Kollegin oder Kind, sondern als Mensch mit demselben Wunsch nach Leben und Verbundenheit.</li>
           <li>Den Satz ›Liebe statt …‹ mit dem eigenen Ersatzwort innerlich einmal vervollständigen, ohne etwas daran ändern zu müssen.</li>
