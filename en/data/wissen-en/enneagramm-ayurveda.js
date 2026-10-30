@@ -35,7 +35,7 @@ const SP_TILES = [
       <p class="sp-p">In what follows, parallels are suggested along the three centers. They are observations that often show up in practice, not rules.</p>` },
   { id: "kerntypen", farbe: "#8a6aa8", titel: "Core type and neighbors: the principle of the triads",
     html: `
-      <p class="sp-p">The three centers follow a clear pattern that also organizes the connection to Ayurveda. In each triad there is a <strong>core type</strong> in the middle: the 3 in the heart center, the 6 in the head center and the 9 in the body center. In this type the energy of its own center is <em>blocked</em>, described in the chart as &lsquo;denial of heart, head or body energy&rsquo;. The core type cannot reach its own center energy directly and gets its theme through the other two centers. Precisely for that reason it shows the theme of its center in its purest form.</p>
+      <p class="sp-p">The three centers follow a clear pattern that also organizes the connection to Ayurveda. In each triad there is a <strong>core type</strong> in the middle: the 3 in the heart center, the 6 in the head center and the 9 in the body center. In this type the energy of its own center is <em>denied</em>, described in the chart as &lsquo;denial of heart, head or body energy&rsquo; (one can also speak of blocked energy). The core type cannot reach its own center energy directly and gets its theme through the other two centers. Precisely for that reason it shows the theme of its center in its purest form.</p>
       <p class="sp-p">The two neighboring types to the left and right are variations of this core theme:</p>
       <ul class="sp-typen">
         <li style="--tc:#c47f6b;"><b>Heart triad:</b> Type 2 uses heart energy <em>in excess</em>, Type 3 <em>denies</em> it, Type 4 uses it <em>transformed</em>.</li>
@@ -46,7 +46,7 @@ const SP_TILES = [
   { id: "kopf-vata", farbe: "#7a8f9e", titel: "The head center (Types 5, 6, 7) and the Vata principle",
     html: `
       <p class="sp-p"><em>The thinkers, planners and restless ones.</em> The types of the head center live mostly in the mind: they analyze, anticipate and look for security in thinking. This recalls the qualities of Vata: mobile, light, cool and easily thrown out of balance.</p>
-      <p class="sp-p"><strong>Core type and neighbors:</strong> In this triad the 6 is the core type: its head energy is blocked (in the chart &lsquo;denial of head energy&rsquo;). The 5 uses head energy in excess, the 7 uses it transformed. The 6 is therefore closest to the Vata principle, 5 and 7 are variations of it.</p>
+      <p class="sp-p"><strong>Core type and neighbors:</strong> In this triad the 6 is the core type: its head energy is denied (in the chart &lsquo;denial of head energy&rsquo;). The 5 uses head energy in excess, the 7 uses it transformed. The 6 is therefore closest to the Vata principle, 5 and 7 are variations of it.</p>
       <ul class="sp-typen">
         <li style="--tc:#124fcc;"><b>Type 5 (The Observer):</b> withdraws to save energy and to understand the world. This shares many traits with an unbalanced Vata: mental exhaustion, the feeling of &lsquo;not having enough energy&rsquo; and the tendency to isolate.</li>
         <li style="--tc:#8a5222;"><b>Type 6 (The Loyalist, core type of the head triad):</b> mental vigilance, future scenarios and inner insecurity. Here the Vata-typical nervousness and the need for reliability show, to keep the &lsquo;Vata airplane&rsquo; on the ground.</li>
@@ -56,7 +56,7 @@ const SP_TILES = [
   { id: "herz-pitta", farbe: "#c0652b", titel: "The heart center (Types 2, 3, 4) and the Pitta principle",
     html: `
       <p class="sp-p"><em>The doers, feelers and achievers.</em> The heart center revolves around appreciation, image, achievement and emotional depth. The fiery, goal-directed qualities of Pitta resonate especially strongly here.</p>
-      <p class="sp-p"><strong>Core type and neighbors:</strong> In this triad the 3 is the core type: its heart energy is blocked (&lsquo;denial of heart energy&rsquo;). The 2 uses heart energy in excess, the 4 uses it transformed. The 3 is therefore closest to the Pitta principle, 2 and 4 are variations of it, with shares of the neighboring doshas.</p>
+      <p class="sp-p"><strong>Core type and neighbors:</strong> In this triad the 3 is the core type: its heart energy is denied (in the chart &lsquo;denial of heart energy&rsquo;). The 2 uses heart energy in excess, the 4 uses it transformed. The 3 is therefore closest to the Pitta principle, 2 and 4 are variations of it, with shares of the neighboring doshas.</p>
       <ul class="sp-typen">
         <li style="--tc:#7a2fa8;"><b>Type 2 (The Helper):</b> directs energy outward to be loved. Often a mixture of Pitta warmth and Kapha caring shows.</li>
         <li style="--tc:#1fa688;"><b>Type 3 (The Achiever, core type of the heart triad):</b> efficiency, success, determination and the avoidance of failure are in the foreground. That fits the Pitta picture well: competitive, performance-oriented, inclined to define oneself through work.</li>
@@ -66,7 +66,7 @@ const SP_TILES = [
   { id: "bauch-kapha", farbe: "#8aa06a", titel: "The body center (Types 8, 9, 1) and the Kapha principle",
     html: `
       <p class="sp-p"><em>The earthy, controlling and preserving ones.</em> The body center is rooted in instinct, autonomy, boundaries and the handling of anger. Here we find connections to the steady Kapha (grounding, constancy, inertia), but with anger and strictness also to the sharpness of Pitta.</p>
-      <p class="sp-p"><strong>Core type and neighbors:</strong> In this triad the 9 is the core type: its body energy is blocked (&lsquo;denial of body energy&rsquo;). The 8 uses body energy in excess, the 1 uses it transformed. The 9 is therefore closest to the Kapha principle, 8 and 1 are variations of it, with the sharpness of Pitta.</p>
+      <p class="sp-p"><strong>Core type and neighbors:</strong> In this triad the 9 is the core type: its body energy is denied (in the chart &lsquo;denial of body energy&rsquo;). The 8 uses body energy in excess, the 1 uses it transformed. The 9 is therefore closest to the Kapha principle, 8 and 1 are variations of it, with the sharpness of Pitta.</p>
       <ul class="sp-typen">
         <li style="--tc:#a00802;"><b>Type 8 (The Challenger):</b> powerful, direct, protective, confrontational. This combines the steadiness of Kapha (earth) with the assertiveness of Pitta (fire).</li>
         <li style="--tc:#cc6e00;"><b>Type 9 (The Peacemaker, core type of the body triad):</b> seeks harmony, avoids conflict and tends toward inertia and procrastination. This mirrors an unbalanced Kapha: resistance to change, coziness, but also a deep, wholesome gentleness.</li>

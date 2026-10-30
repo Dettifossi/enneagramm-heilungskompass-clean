@@ -35,7 +35,7 @@ const SP_TILES = [
       <p class="sp-p">Im Folgenden werden Parallelen vorgeschlagen, entlang der drei Zentren. Sie sind Beobachtungen, die sich in der Praxis oft zeigen, und keine Regeln.</p>` },
   { id: "kerntypen", farbe: "#8a6aa8", titel: "Kerntyp und Nachbartypen: das Prinzip der Triaden",
     html: `
-      <p class="sp-p">Die drei Zentren folgen einem klaren Muster, das auch die Verbindung zum Ayurveda ordnet. In jeder Triade gibt es einen <strong>Kerntyp</strong> in der Mitte: die 3 im Herz-Zentrum, die 6 im Kopf-Zentrum und die 9 im Bauch-Zentrum. Bei ihm ist die Energie des eigenen Zentrums <em>blockiert</em>, im Schaubild als ›Verleugnung der Herz-, Kopf- oder Bauchenergie‹ beschrieben. Der Kerntyp kommt an seine eigene Zentrumsenergie nicht direkt heran und holt sich ihr Thema über die beiden anderen Zentren. Gerade deshalb stellt er das Thema seines Zentrums am reinsten dar.</p>
+      <p class="sp-p">Die drei Zentren folgen einem klaren Muster, das auch die Verbindung zum Ayurveda ordnet. In jeder Triade gibt es einen <strong>Kerntyp</strong> in der Mitte: die 3 im Herz-Zentrum, die 6 im Kopf-Zentrum und die 9 im Bauch-Zentrum. Bei ihm wird die Energie des eigenen Zentrums <em>verleugnet</em>, im Schaubild als ›Verleugnung der Herz-, Kopf- oder Bauchenergie‹ beschrieben (man kann auch von blockierter Energie sprechen). Der Kerntyp kommt an seine eigene Zentrumsenergie nicht direkt heran und holt sich ihr Thema über die beiden anderen Zentren. Gerade deshalb stellt er das Thema seines Zentrums am reinsten dar.</p>
       <p class="sp-p">Die beiden Nachbartypen links und rechts sind Abwandlungen dieses Kernthemas:</p>
       <ul class="sp-typen">
         <li style="--tc:#c47f6b;"><b>Herz-Triade:</b> Typ 2 setzt die Herzenergie <em>überschießend</em> ein, Typ 3 <em>verleugnet</em> sie, Typ 4 setzt sie <em>umgewandelt</em> ein.</li>
@@ -46,7 +46,7 @@ const SP_TILES = [
   { id: "kopf-vata", farbe: "#7a8f9e", titel: "Das Kopf-Zentrum (Typ 5, 6, 7) und das Vata-Prinzip",
     html: `
       <p class="sp-p"><em>Die Denker, Planer und Rastlosen.</em> Die Typen des Kopf-Zentrums leben vor allem im Geist: Sie analysieren, antizipieren und suchen im Denken nach Sicherheit. Das erinnert an die Qualitäten von Vata: beweglich, leicht, kühl und leicht aus dem Gleichgewicht zu bringen.</p>
-      <p class="sp-p"><strong>Kerntyp und Nachbarn:</strong> In dieser Triade ist die 6 der Kerntyp: Ihre Kopfenergie ist blockiert (im Schaubild ›Verleugnung der Kopfenergie‹). Die 5 setzt die Kopfenergie überschießend ein, die 7 setzt sie umgewandelt ein. Die 6 steht dem Vata-Prinzip deshalb am nächsten, 5 und 7 sind Abwandlungen davon.</p>
+      <p class="sp-p"><strong>Kerntyp und Nachbarn:</strong> In dieser Triade ist die 6 der Kerntyp: Ihre Kopfenergie wird verleugnet (im Schaubild ›Verleugnung der Kopfenergie‹). Die 5 setzt die Kopfenergie überschießend ein, die 7 setzt sie umgewandelt ein. Die 6 steht dem Vata-Prinzip deshalb am nächsten, 5 und 7 sind Abwandlungen davon.</p>
       <ul class="sp-typen">
         <li style="--tc:#124fcc;"><b>Typ 5 (Der Beobachter):</b> Er zieht sich zurück, um Energie zu sparen und die Welt zu verstehen. Das teilt viele Züge mit einem unausgeglichenen Vata: geistige Erschöpfung, das Gefühl, ›nicht genug Energie‹ zu haben, und die Neigung, sich zu isolieren.</li>
         <li style="--tc:#8a5222;"><b>Typ 6 (Der Loyale, Kerntyp der Kopf-Triade):</b> Mentale Wachsamkeit, Zukunftsszenarien und innere Unsicherheit. Hier zeigt sich die Vata-typische Nervosität und das Bedürfnis nach Verlässlichkeit, um das ›Vata-Flugzeug‹ am Boden zu halten.</li>
@@ -56,7 +56,7 @@ const SP_TILES = [
   { id: "herz-pitta", farbe: "#c0652b", titel: "Das Herz-Zentrum (Typ 2, 3, 4) und das Pitta-Prinzip",
     html: `
       <p class="sp-p"><em>Die Macher, Fühler und Leistungsbezogenen.</em> Das Herz-Zentrum dreht sich um Wertschätzung, Image, Leistung und emotionale Tiefe. Besonders stark klingen hier die feurigen, zielgerichteten Qualitäten von Pitta an.</p>
-      <p class="sp-p"><strong>Kerntyp und Nachbarn:</strong> In dieser Triade ist die 3 der Kerntyp: Ihre Herzenergie ist blockiert (›Verleugnung der Herzenergie‹). Die 2 setzt die Herzenergie überschießend ein, die 4 setzt sie umgewandelt ein. Die 3 steht dem Pitta-Prinzip deshalb am nächsten, 2 und 4 sind Abwandlungen davon, mit Anteilen der Nachbar-Doshas.</p>
+      <p class="sp-p"><strong>Kerntyp und Nachbarn:</strong> In dieser Triade ist die 3 der Kerntyp: Ihre Herzenergie wird verleugnet (im Schaubild ›Verleugnung der Herzenergie‹). Die 2 setzt die Herzenergie überschießend ein, die 4 setzt sie umgewandelt ein. Die 3 steht dem Pitta-Prinzip deshalb am nächsten, 2 und 4 sind Abwandlungen davon, mit Anteilen der Nachbar-Doshas.</p>
       <ul class="sp-typen">
         <li style="--tc:#7a2fa8;"><b>Typ 2 (Der Helfer):</b> Er richtet seine Energie nach außen, um geliebt zu werden. Oft zeigt sich eine Mischung aus Pitta-Wärme und Kapha-Fürsorge.</li>
         <li style="--tc:#1fa688;"><b>Typ 3 (Der Erfolgreiche, Kerntyp der Herz-Triade):</b> Effizienz, Erfolg, Zielstrebigkeit und das Vermeiden von Misserfolg stehen im Vordergrund. Das passt gut zum Pitta-Bild: wettbewerbsorientiert, leistungsbezogen, mit der Neigung, sich über die Arbeit zu definieren.</li>
@@ -66,7 +66,7 @@ const SP_TILES = [
   { id: "bauch-kapha", farbe: "#8aa06a", titel: "Das Bauch-Zentrum (Typ 8, 9, 1) und das Kapha-Prinzip",
     html: `
       <p class="sp-p"><em>Die Erdigen, Kontrollierenden und Bewahrenden.</em> Das Bauch-Zentrum wurzelt in Instinkt, Autonomie, Grenzen und dem Umgang mit Wut. Hier finden sich Verbindungen zum stabilen Kapha (Erdung, Beständigkeit, Trägheit), bei Wut und Strenge aber auch zur Schärfe von Pitta.</p>
-      <p class="sp-p"><strong>Kerntyp und Nachbarn:</strong> In dieser Triade ist die 9 der Kerntyp: Ihre Bauchenergie ist blockiert (›Verleugnung der Bauchenergie‹). Die 8 setzt die Bauchenergie überschießend ein, die 1 setzt sie umgewandelt ein. Die 9 steht dem Kapha-Prinzip deshalb am nächsten, 8 und 1 sind Abwandlungen davon, mit der Schärfe von Pitta.</p>
+      <p class="sp-p"><strong>Kerntyp und Nachbarn:</strong> In dieser Triade ist die 9 der Kerntyp: Ihre Bauchenergie wird verleugnet (im Schaubild ›Verleugnung der Bauchenergie‹). Die 8 setzt die Bauchenergie überschießend ein, die 1 setzt sie umgewandelt ein. Die 9 steht dem Kapha-Prinzip deshalb am nächsten, 8 und 1 sind Abwandlungen davon, mit der Schärfe von Pitta.</p>
       <ul class="sp-typen">
         <li style="--tc:#a00802;"><b>Typ 8 (Der Herausforderer):</b> Kraftvoll, direkt, schützend, konfrontierend. Das verbindet die Standfestigkeit von Kapha (Erde) mit der Durchsetzungskraft von Pitta (Feuer).</li>
         <li style="--tc:#cc6e00;"><b>Typ 9 (Der Friedensstifter, Kerntyp der Bauch-Triade):</b> Er sucht Harmonie, vermeidet Konflikte und neigt zur Trägheit und zum Aufschieben. Das spiegelt ein unausgeglichenes Kapha: Widerstand gegen Veränderung, Gemütlichkeit, aber auch eine tiefe, wohltuende Sanftmut.</li>
