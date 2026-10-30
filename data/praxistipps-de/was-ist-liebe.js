@@ -1,4 +1,4 @@
-const { shell, pageHeader, relatedLinks, bookTip } = window.__kh;
+const { shell, pageHeader, relatedLinks, bookTip, songTieferMasken } = window.__kh;
 
 const TYP_FARBEN = ["#5f5f5f", "#7a2fa8", "#1fa688", "#3cbf1f", "#124fcc", "#8a5222", "#d4a800", "#a00802", "#cc6e00"];
 
@@ -124,6 +124,8 @@ export function wasIstLiebePage() {
           </div>
         </details>
       </div>
+
+      ${songTieferMasken("Hinter den Ersatzstrategien liegt die Sehnsucht nach Liebe. Der Song erzählt, dass die Enneagramm-Homöopathie tiefer schaut als das Verhalten, nämlich auf die Motivation dahinter.")}
 
       ${relatedLinks([
         {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},

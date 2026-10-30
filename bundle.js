@@ -43333,6 +43333,7 @@ function egoPersoenlichkeitPage() {
       </div>
 
       ${bookTip("der-code-deiner-persoenlichkeit", "Schritt f\u00fcr Schritt den eigenen Typ erkennen und Wege zur pers\u00f6nlichen Entwicklung finden.", "Der Code deiner Pers\u00f6nlichkeit")}
+      ${songTieferMasken("Die Persönlichkeit ist die Maske, die man trägt, meist ohne es zu merken. Der Song fragt, was tiefer liegt.")}
       ${relatedLinks([
         {route:"grundformel", label:"Grundformel"},
         {route:"kerneberzeugungen", label:"Kern\u00fcberzeugungen"},
@@ -49289,7 +49290,8 @@ function enneagrammHomoeopathiePage() {
 
         ${bookTip("enneagramm-homoeopathie-band-1", "Das Grundlagenwerk der Enneagramm-Hom\u00f6opathie \u2013 wie Pers\u00f6nlichkeitstyp und Heilmittelwahl auf der tiefsten Ebene zusammenh\u00e4ngen.", "Enneagramm-Hom\u00f6opathie \u2013 Band 1")}
         ${bookTip("enneagramm-homoeopathie-band-2", "Weitere Fallberichte und Vertiefung der Enneagramm-Hom\u00f6opathie in Band 2.", "Enneagramm-Hom\u00f6opathie \u2013 Band 2")}
-        ${relatedLinks([
+        ${songTieferMasken("Die Patientenfälle zeigen es: Die Maske gehört zum Typ, das Mittel setzt an der Leidenschaft dahinter an. Genau davon erzählt der Song ›Tiefer als die Masken‹.")}
+      ${relatedLinks([
           {route:"heilungsweg", label:"Schaubild: Heilungsweg des Menschen"},
           {route:"homoeopathie", label:"Hom\xf6opathie \u2013 Heilmittel\xfcbersicht"},
           {route:"wunden", label:"Die 9 Wunden der Enneagrammtypen"},
@@ -49466,6 +49468,17 @@ function signaturenlehreEnneagrammHeilmittelPage() {
   `);
 }
 
+function songTieferMasken(satz) {
+  return `
+        <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .5rem;color:var(--ink);">Der Song dazu: ›Tiefer als die Masken‹</h2>
+          <p class="vb-intro" style="margin:0 0 .8rem;">${satz}</p>
+          <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+            <iframe src="https://www.youtube.com/embed/A6xBEHS5F1c?rel=0&playsinline=1" title="Tiefer als die Masken – Hommage an die Enneagramm-Homöopathie" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </div>`;
+}
+
 function warumNeunHeilmittelPage() {
   const sec = (h, ps) => `<div class="vb-section" style="max-width:100%;margin-top:1.6rem;"><h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .7rem;color:var(--ink);">${h}</h2>${ps.map((p, i) => `<p class="vb-intro"${i ? ' style="margin-top:1rem;"' : ""}>${p}</p>`).join("")}</div>`;
   return shell(`
@@ -49582,7 +49595,8 @@ function klassischeVsEnneagrammHomoeopathiePage() {
 
         ${bookTip("enneagramm-homoeopathie-band-1", "Das Grundlagenwerk der Enneagramm-Homöopathie – wie Persönlichkeitstyp und Heilmittelwahl auf der tiefsten Ebene zusammenhängen.", "Enneagramm-Homöopathie – Band 1")}
         ${bookTip("enneagramm-homoeopathie-band-2", "Weitere Fallberichte und Vertiefung der Enneagramm-Homöopathie in Band 2.", "Enneagramm-Homöopathie – Band 2")}
-        ${relatedLinks([
+        ${songTieferMasken("Klassische Homöopathie schaut auf die Symptome, die Enneagramm-Homöopathie noch eine Ebene tiefer, auf die Motivation hinter dem Verhalten. Davon erzählt der Song.")}
+      ${relatedLinks([
           {route:"enneagramm-homoeopathie", label:"Enneagramm meets Hom\xf6opathie – 9 Patientenf\xe4lle"},
           {route:"heilungsweg", label:"Schaubild: Heilungsweg des Menschen"},
           {route:"homoeopathie", label:"Hom\xf6opathie – Heilmittel\xfcbersicht"},
@@ -58808,6 +58822,7 @@ function sucheNachLiebePage() {
       ${bookTip("die-sprache-unserer-beziehungen", "Mit dem Enneagramm N\u00e4he gestalten &ndash; wie die neun Typen Liebe erleben, suchen und manchmal meiden.", "Die Sprache unserer Beziehungen")}
       ${bookTip("die-sprache-unserer-sexualitaet", "In Partnern suchen wir oft die Liebe, die wir dort nicht finden werden &ndash; ein ehrlicher Blick auf Begehren, Bindung und das, was wir wirklich suchen.", "Die Sprache unserer Sexualit\u00e4t")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Die Grundstruktur der neun Typen &ndash; von der Leidenschaft bis zur Essenz.", "Wer du wirklich bist")}
+      ${songTieferMasken("Perfektion statt Liebe, Geben statt Liebe, Macht statt Liebe: Hinter jeder Maske liegt dieselbe Sehnsucht. Der Song erzählt, wie tief die Enneagramm-Homöopathie schaut: nicht auf das Verhalten, sondern auf die Motivation dahinter.")}
       ${relatedLinks([
         {route:"praxistipps-heilpraktiker/was-ist-liebe", label:"Praxistipp: Was ist Liebe? Vom Ersatzhandel zur Essenz"},
         {route:"beziehungen-schaubild", label:"Beziehungen \u2013 Liebe und Schutz"},
@@ -60496,7 +60511,8 @@ function leidenschaftUndWundePage() {
 
         ${bookTip("hinter-der-leidenschaft", "Die neun Wunden des Enneagramms &ndash; woher sie stammen, wie sie das Leben pr\xe4gen und welche Heilmittel ihnen entsprechen.", "Hinter der Leidenschaft &ndash; Die neun Wunden des Enneagramms")}
         ${bookTip("leidenschaft-und-heilung", "Leidenschaften, Tugenden und Heilungswege aller 27 Subtypen &ndash; direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
-        ${relatedLinks([
+        ${songTieferMasken("Die Leidenschaft liegt tiefer als das sichtbare Verhalten, die Wunde noch tiefer. Der Song erzählt davon, dass die Enneagramm-Homöopathie an dieser Tiefe ansetzt und nicht an der Maske.")}
+      ${relatedLinks([
           {route:"wunden", label:"Wunden & Schutzstrategien"},
           {route:"die-neuen-enneagramm-typen", label:"Die neuen Enneagramm-Typen"},
           {route:"gaslighting-enneagramm", label:"Gaslighting & Enneagramm"},
@@ -69802,4 +69818,4 @@ function _switchLangVoice(evt, url, audioFile) {
 window._switchLangVoice = _switchLangVoice;
 
 // Hilfsfunktionen für die nachgeladenen Porträt-Dateien (statt zirkulärem Import von dieser Datei)
-window.__kh = { psychogrammDaten, animalResearcherMatchBlock, bookTip, pageHeader, relatedLinks, shell, tierAvatarLeft, tierAvatarTop };
+window.__kh = { songTieferMasken, psychogrammDaten, animalResearcherMatchBlock, bookTip, pageHeader, relatedLinks, shell, tierAvatarLeft, tierAvatarTop };

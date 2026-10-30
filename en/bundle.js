@@ -22187,6 +22187,7 @@ function egoPersoenlichkeitPage() {
           <li><strong>Type 7 &ndash; Ego-Planning:</strong> plans how to find the way back &lsquo;into paradise&rsquo; instead of having to feel the pain of the loss of support.</li>
         </ul>
       </div>
+      ${songTieferMasken("The personality is the mask one wears, mostly without noticing. The song asks what lies deeper (song in German).")}
       ${relatedLinks([
         {route:"grundformel", label:"Core Formula"},
         {route:"kerneberzeugungen", label:"Core Beliefs"},
@@ -26731,6 +26732,17 @@ function enneagrammAutopoesePage() {
   `);
 }
 
+function songTieferMasken(satz) {
+  return `
+        <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .5rem;color:var(--ink);">The song for it: ‘Tiefer als die Masken’</h2>
+          <p class="vb-intro" style="margin:0 0 .8rem;">${satz}</p>
+          <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+            <iframe src="https://www.youtube.com/embed/A6xBEHS5F1c?rel=0&playsinline=1" title="Tiefer als die Masken (Deeper Than the Masks) – a tribute to Enneagram homeopathy" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </div>`;
+}
+
 function warumNeunHeilmittelPage() {
   const sec = (h, ps) => `<div class="vb-section" style="max-width:100%;margin-top:1.6rem;"><h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .7rem;color:var(--ink);">${h}</h2>${ps.map((p, i) => `<p class="vb-intro"${i ? ' style="margin-top:1rem;"' : ""}>${p}</p>`).join("")}</div>`;
   return shell(`
@@ -27215,7 +27227,8 @@ function klassischeVsEnneagrammHomoeopathiePage() {
 
         ${bookTip("enneagramm-homoeopathie-band-1", "The foundation of Enneagram homeopathy – how personality type and remedy selection are connected, easy to follow even for laypeople.", "Enneagramm-Homöopathie – Band 1")}
         ${bookTip("enneagramm-homoeopathie-band-2", "Further case reports and deepening of Enneagram homeopathy in Volume 2.", "Enneagramm-Homöopathie – Band 2")}
-        ${relatedLinks([
+        ${songTieferMasken("Classical homeopathy looks at the symptoms, Enneagram homeopathy one level deeper, at the motivation behind the behavior. The song tells of this (song in German).")}
+      ${relatedLinks([
           {route:"enneagramm-homoeopathie", label:"Enneagram Meets Homeopathy – 9 Patient Cases"},
           {route:"heilungsweg", label:"Chart: Path of Healing"},
           {route:"homoeopathie", label:"Homeopathy – Remedy Overview"},
@@ -27265,7 +27278,8 @@ function enneagrammHomoeopathiePage() {
 
         ${bookTip("enneagramm-homoeopathie-band-1", "The foundational work of Enneagram Homeopathy – how personality type and remedy selection are connected on the deepest level.", "Enneagramm-Homöopathie – Band 1")}
         ${bookTip("enneagramm-homoeopathie-band-2", "Additional case studies and deeper insights into Enneagram Homeopathy in Volume 2.", "Enneagramm-Homöopathie – Band 2")}
-        ${relatedLinks([
+        ${songTieferMasken("The patient cases show it: the mask belongs to the type, the remedy works on the passion behind it. This is what the song is about (song in German).")}
+      ${relatedLinks([
           {route:"heilungsweg", label:"Chart: The Human Healing Path"},
           {route:"homoeopathie", label:"Homeopathy – Remedy Overview"},
           {route:"wunden", label:"The 9 Wounds of the Enneagram Types"},
@@ -38383,6 +38397,7 @@ function sucheNachLiebePage() {
       ${bookTip("die-sprache-unserer-beziehungen", "Cultivating intimacy with the Enneagram &ndash; how the nine types experience, seek, and sometimes avoid love.", "Die Sprache unserer Beziehungen")}
       ${bookTip("die-sprache-unserer-sexualitaet", "In partners, we often search for the love we will not find there &ndash; an honest look at desire, attachment, and what we truly seek.", "Die Sprache unserer Sexualität")}
       ${bookTip("wer-du-wirklich-bist-band-1", "The core structure of the nine types &ndash; from passion to essence.", "Wer du wirklich bist")}
+      ${songTieferMasken("Perfection instead of love, giving instead of love, power instead of love: behind every mask lies the same longing. The song tells how deep Enneagram homeopathy looks: not at the behavior but at the motivation behind it (song in German).")}
       ${relatedLinks([
         {route:"praxistipps-heilpraktiker/was-ist-liebe", label:"Practical tip: What Is Love? From Substitute Strategies to Essence"},
         {route:"beziehungen-schaubild", label:"Relationships – Love and Protection"},
@@ -40130,7 +40145,8 @@ function leidenschaftUndWundePage() {
       </div>
         ${bookTip("hinter-der-leidenschaft", "The nine wounds of the Enneagram – where they originate, how they shape life, and which remedies correspond to them.", "Hinter der Leidenschaft &ndash; Die neun Wunden des Enneagramms")}
         ${bookTip("leidenschaft-und-heilung", "Passions, virtues, and paths of healing of all 27 Subtypes – directly from therapeutic practice.", "Leidenschaft und Heilung")}
-        ${relatedLinks([
+        ${songTieferMasken("The passion lies deeper than the visible behavior, the wound deeper still. The song tells how Enneagram homeopathy works at this depth and not at the mask (song in German).")}
+      ${relatedLinks([
           {route:"wunden", label:"Wunden & Schutzstrategien"},
           {route:"die-neuen-enneagramm-typen", label:"The New Enneagram Types"},
           {route:"gaslighting-enneagramm", label:"Gaslighting & Enneagramm"},
@@ -49626,4 +49642,4 @@ function _switchLangVoice(evt, url, audioFile) {
 }
 
 // Hilfsfunktionen für die nachgeladenen Porträt-Dateien (statt zirkulärem Import von dieser Datei)
-window.__kh = { psychogrammDaten, animalResearcherMatchBlock, bookTip, pageHeader, relatedLinks, shell, tierAvatarLeft, tierAvatarTop };
+window.__kh = { songTieferMasken, psychogrammDaten, animalResearcherMatchBlock, bookTip, pageHeader, relatedLinks, shell, tierAvatarLeft, tierAvatarTop };

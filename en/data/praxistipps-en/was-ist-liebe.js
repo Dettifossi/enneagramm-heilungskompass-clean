@@ -1,4 +1,4 @@
-const { shell, pageHeader, relatedLinks, bookTip } = window.__kh;
+const { shell, pageHeader, relatedLinks, bookTip, songTieferMasken } = window.__kh;
 
 const TYP_FARBEN = ["#5f5f5f", "#7a2fa8", "#1fa688", "#3cbf1f", "#124fcc", "#8a5222", "#d4a800", "#a00802", "#cc6e00"];
 
@@ -124,6 +124,8 @@ export function wasIstLiebePage() {
           </div>
         </details>
       </div>
+
+      ${songTieferMasken("Behind the substitute strategies lies the longing for love. The song tells how Enneagram homeopathy looks deeper than behavior, namely at the motivation behind it (song in German).")}
 
       ${relatedLinks([
         {route:"praxistipps-heilpraktiker", label:"All practical tips"},
