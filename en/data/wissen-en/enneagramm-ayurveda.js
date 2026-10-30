@@ -102,8 +102,8 @@ export function enneagrammAyurvedaPage() {
       ${pageHeader("enneagramm-ayurveda")}
       <div class="page-content sp-page">
         <p class="eyebrow">Knowledge · Personality and Constitution</p>
-        <h1 class="section-title">Enneagram meets Ayurveda: Personality and Inner Balance</h1>
-        <p class="lead-small">The Enneagram describes why we act the way we do, Ayurveda how our constitution feels. Here you can see where both patterns resemble each other and what follows from that for everyday life.</p>
+        <h1 class="section-title">Enneagram meets Ayurveda</h1>
+        <p class="lead-small">The Enneagram describes why we act the way we do, Ayurveda how our constitution feels. What follows shows where both patterns resemble each other and what can be drawn from that for everyday life.</p>
         <figure class="sp-hero"><img src="${IMG}" alt="Nine people meditate in a circle around a stone Enneagram star on a mountaintop at sunrise, each surrounded by an element: mist, water, fire, plants and light." loading="lazy" /></figure>
         <div id="ay-top" class="ab-nav" role="navigation" aria-label="Topics of this article">${nav}</div>
         ${sektionen}

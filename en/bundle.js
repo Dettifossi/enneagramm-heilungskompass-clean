@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=459";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=460";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -6262,7 +6262,7 @@ text.nav = [
     { route: "enneagramm-rad", label: "Enneagram Wheel (interactive symbol)" },
     { route: "bewusstseinsgrad-normalverteilung", label: "Levels of Consciousness & the Gaussian Normal Distribution" },
     { route: "persoenlichkeitsmodelle-vergleich", label: "Enneagram vs. Other Personality Models" },
-    { route: "enneagramm-ayurveda", label: "Enneagram meets Ayurveda: Personality and Inner Balance" },
+    { route: "enneagramm-ayurveda", label: "Enneagram meets Ayurveda" },
     { route: "wahnideen-nicht-reale-vorstellungen", label: "Unreal Ideas: Delusions in the Enneagram and in Homeopathy" },
     { route: "mindmaps-single-rubriken", label: "Mind maps of the single rubrics (Homeopathy)" },
     { route: "arzneimittelbilder-9-typen", label: "Remedy pictures and descriptions of the nine types" },

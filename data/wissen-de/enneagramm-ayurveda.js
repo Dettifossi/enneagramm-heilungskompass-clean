@@ -102,8 +102,8 @@ export function enneagrammAyurvedaPage() {
       ${pageHeader("enneagramm-ayurveda")}
       <div class="page-content sp-page">
         <p class="eyebrow">Wissen · Persönlichkeit und Konstitution</p>
-        <h1 class="section-title">Enneagramm meets Ayurveda: Persönlichkeit und innere Balance</h1>
-        <p class="lead-small">Das Enneagramm beschreibt, warum wir so handeln, der Ayurveda, wie sich unsere Konstitution anfühlt. Hier steht, wo sich beide Muster ähneln und was sich daraus für den Alltag ableiten lässt.</p>
+        <h1 class="section-title">Enneagramm meets Ayurveda</h1>
+        <p class="lead-small">Das Enneagramm beschreibt, warum wir so handeln, der Ayurveda, wie sich unsere Konstitution anfühlt. Im Folgenden wird dargestellt, wo sich beide Muster ähneln und was sich daraus für den Alltag ableiten lässt.</p>
         <figure class="sp-hero"><img src="${IMG}" alt="Neun Menschen meditieren im Kreis um einen steinernen Enneagramm-Stern auf einem Berggipfel bei Sonnenaufgang, jeweils umgeben von einem Element: Nebel, Wasser, Feuer, Pflanzen und Licht." loading="lazy" /></figure>
         <div id="ay-top" class="ab-nav" role="navigation" aria-label="Themen dieses Artikels">${nav}</div>
         ${sektionen}

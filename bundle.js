@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=462";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=463";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -17158,7 +17158,7 @@ const uiText = {
       { route: "enneagramm-rad", label: "Enneagramm-Rad (interaktives Symbol)" },
       { route: "bewusstseinsgrad-normalverteilung", label: "Bewusstseinsgrad & Gaußsche Normalverteilungskurve" },
       { route: "persoenlichkeitsmodelle-vergleich", label: "Enneagramm vs. andere Persönlichkeitsmodelle" },
-      { route: "enneagramm-ayurveda", label: "Enneagramm meets Ayurveda: Persönlichkeit und innere Balance" },
+      { route: "enneagramm-ayurveda", label: "Enneagramm meets Ayurveda" },
       { route: "klassische-vs-enneagramm-homoeopathie", label: "Klassische Homöopathie und Enneagramm-Homöopathie im Vergleich" },
       { route: "wahnideen-nicht-reale-vorstellungen", label: "Nicht reale Vorstellungen: Wahnideen im Enneagramm und in der Homöopathie" },
       { route: "mindmaps-single-rubriken", label: "Mindmaps der Single-Rubriken (Homöopathie)" },
