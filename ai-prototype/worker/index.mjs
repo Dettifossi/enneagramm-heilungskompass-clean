@@ -610,6 +610,10 @@ async function handleStripeWebhook(request, env) {
     case "checkout.session.async_payment_succeeded":
     case "checkout.session.completed": {
       const session = event.data.object;
+      // Dasselbe Stripe-Konto verkauft auch Rathmer's Repertorium (eigener Dienst).
+      // Dessen Einmalzahlungen (Listenpreis 119,50 / 149,50 EUR) dürfen hier keine Jahreslizenz auslösen.
+      if (session.mode !== "subscription" && [11950, 14950].includes(session.amount_subtotal)) break;
+      if (session.payment_link && String(env.IGNORE_PAYMENT_LINKS || "").split(",").map((x) => x.trim()).includes(session.payment_link)) break;
       // Bei verzögerten Zahlarten (z. B. SEPA) meldet Stripe "completed" schon vor
       // dem Zahlungseingang. Freigeschaltet wird erst, wenn bezahlt ist.
       if (session.payment_status !== "paid" && session.payment_status !== "no_payment_required") break;
