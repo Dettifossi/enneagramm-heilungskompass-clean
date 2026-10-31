@@ -2955,6 +2955,13 @@ export function patrickStewartPortraitPage() {
         </blockquote>
 
       </div>
+      <div style="margin:2rem 0 0;text-align:center;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .3rem;color:var(--ink);">Sir Patrick Stewart &ndash; short video</h2>
+        <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">A short video clip, about 15 seconds, with sound.</p>
+        <video controls playsinline preload="none" poster="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/patrick-stewart-poster.jpg" aria-label="Short video about Sir Patrick Stewart" style="display:block;width:100%;max-width:340px;margin:0 auto;border-radius:12px;background:#000;">
+          <source src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/patrick-stewart.mp4" type="video/mp4">
+        </video>
+      </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
