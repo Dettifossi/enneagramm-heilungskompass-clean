@@ -38775,6 +38775,12 @@ function typesPage() {
   `);
 }
 
+const TYP_MITTEL = {1:["Platina","Plat."],2:["Hyoscyamus","Hyos."],3:["Tarentula","Tarent."],4:["Ignatia","Ign."],5:["Stramonium","Stram."],6:["Opium","Op."],7:["Belladonna","Bell."],8:["Veratrum","Verat."],9:["Cannabis indica","Cann-i."]};
+function typMittelBlock(t, c) {
+  const m = TYP_MITTEL[t.num]; if (!m) return "";
+  return `<p class="typ-mittel" style="margin:1rem 0 0"><span class="typ-meta__chip" style="border-color:${c};color:${c}">Heilmittel in der Enneagramm-Homöopathie: <strong>${m[0]} (${m[1]})</strong></span> <a href="https://www.verlagshausrathmer.com/enneagramm-repertorium.html" target="_blank" rel="noopener" style="color:${c};font-size:.9rem">Rubriken und Mittelbild im Enneagramm-Homöopathie-Repertorium →</a></p>`;
+}
+
 function typePage(num) {
   const t = GRUNDTYPEN.find(x => x.num === parseInt(num));
   if (!t) return typesPage();
@@ -38806,6 +38812,7 @@ function typePage(num) {
         <span class="typ-meta__chip" style="border-color:${c};color:${c}">Leidenschaft: <strong>${t.leidenschaft}</strong></span>
         <span class="typ-meta__chip" style="border-color:${c};color:${c}">Tier: <strong>${t.tier}</strong></span>
       </div>
+      ${typMittelBlock(t, c)}
       ${impulseBlock(TYP_IMPULSE[t.num], c)}
     </section>
     <section class="subtypen-liste">${subtypenHtml}</section>
