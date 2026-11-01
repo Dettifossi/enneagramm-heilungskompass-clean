@@ -3200,3 +3200,72 @@ export function mariaSchaumayerPortraitPage() {
     </div>
   `);
 }
+
+export function violetJessopPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-violet-jessop-portrait.jpg" alt="Violet Jessop – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Violet Jessop</p>
+        <p class="krim-portrait-typ">SP1w2 &middot; Self-Preservation Type 1 with a Two wing</p>
+        <p class="krim-portrait-subtitle">Stewardess and nurse, 1887&ndash;1971 &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle that held its post on a sinking ship</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eagle</strong> is the emblem of the self-preservation One &ndash; it looks for no stage and no approval, it holds its post. Violet Constance Jessop held hers on three ships that met disaster: the <em>Olympic</em>, the <em>Titanic</em> and the <em>Britannic</em>. Popular accounts therefore call her &lsquo;Miss Unsinkable&rsquo;. The nickname does not come from the scholarly sources, but it describes accurately what is on record: she survived all three events and went back to sea afterwards.</p>
+          <p class="vb-intro">She was born on 2 October 1887 near Bah&iacute;a Blanca in Argentina, the eldest of nine children of Irish immigrants; six of the children survived. As a child she fell ill with what was believed to be tuberculosis, and the doctors did not expect her to live &ndash; she did. Her father died when she was sixteen; the family moved to England, where her mother worked as a ship&rsquo;s stewardess. In 1908, at twenty-one, Violet herself entered service as a stewardess with the Royal Mail Line, on the <em>Orinoco</em>. According to a widespread account she deliberately kept a plain appearance in order to be taken seriously &ndash; this rests on secondary sources only.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation One: responsibility as a form of survival</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> carries the demand on itself inward. In Naranjo this subtype is called <em>Worry</em>: the quiet, constant question of whether one is really fulfilling one&rsquo;s task. Security does not come from luck but from duty, from discipline and from being able to rely on oneself.</p>
+          <p class="vb-intro">This logic can be read in Jessop&rsquo;s life story. As the eldest of nine siblings, after her father&rsquo;s early death, with a mother who herself worked at sea, working on ships was not an adventure but the way to carry responsibility. That she stayed in the same profession for decades &ndash; from 1908 until her retirement in 1950, with interruptions &ndash; shows a steadiness that is typical of the SP1: not the grand appearance, but carrying on.</p>
+          <p class="vb-intro">Any classification remains an interpretation: the documented facts show the outside of a life, not its inner world. What Jessop felt when she took up a duty roster again after a disaster, we know only from her late memoirs and from the accounts of others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two wing: care as a profession</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two wing (w2)</strong> gives the One the warmth that opens it outward: it stays strict with itself but becomes helpful to others. A stewardess lives on exactly this mixture &ndash; service to the guest, attention to the other person&rsquo;s needs, reliability without fuss. In the First World War Jessop joined this service to nursing: she worked as a nurse in the Voluntary Aid Detachment (a volunteer organisation of the Red Cross) and was thus aboard the <em>Britannic</em>, which sailed as a hospital ship.</p>
+          <p class="vb-intro">On the <em>Titanic</em>, too, the Two wing shows in a scene recorded by several sources: in lifeboat 16 Sixth Officer James Paul Moody handed her a baby to look after. She took it. After the rescue by the <em>Carpathia</em>, according to the accounts handed down, the child was taken back by its mother.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: three disasters and a working life at sea</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The distinctive thing about Jessop&rsquo;s biography lies not in an achievement she accomplished but in a steadiness that is documented. On 20 September 1911 the <em>Olympic</em>, after leaving Southampton, collided with the warship HMS <em>Hawke</em>; there were no fatalities and the ship returned to port under its own power. On 10 April 1912 she boarded the <em>Titanic</em> at the age of twenty-four. The ship sank on 14 April, about two hours and forty minutes after striking the iceberg; she was rescued in boat 16, and the survivors reached New York aboard the <em>Carpathia</em> on 18 April.</p>
+          <p class="vb-intro">On 21 November 1916 the hospital ship <em>Britannic</em> sank in the Aegean after striking a German mine. She went down in about 55 minutes; of the 1,066 people aboard, 30 died. Jessop jumped from a lifeboat to avoid being drawn into the ship&rsquo;s propellers and suffered a head injury. In her memoirs she described it this way: &lsquo;I leapt into the water but was sucked under the ship&rsquo;s keel which struck my head&rsquo;. She survived; according to one account, a doctor found years later that she had once fractured her skull.</p>
+          <p class="vb-intro">Afterwards she carried on. In 1920 she returned to the White Star Line, worked for the Red Star Line, where she took part in two round-the-world cruises on the <em>Belgenland</em>, and later again for the Royal Mail Line. In 1923 she married the White Star steward John James Lewis; the marriage ended in divorce in 1924. In 1950 she retired to Great Ashfield in Suffolk, where she died on 5 May 1971, aged eighty-three, of congestive heart failure. Her memoirs appeared only in 1997 under the title <em>Titanic Survivor</em>, edited and annotated by John Maxtone-Graham.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the self-preservation One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP1 shows in what remains of Jessop&rsquo;s work: reliability under pressure and the ability to keep being there for others in an emergency. The Eagle does not panic; it stays where it is and does what has to be done.</p>
+          <p class="vb-intro">The shadow is quieter. The driving force of the One is <strong>anger</strong> &ndash; in the SP1 mostly directed inward, as strictness toward oneself and as the tension of never being allowed to let up. Whether Jessop experienced it this way, the sources do not tell. What can be observed is the danger this subtype generally knows: that functioning becomes the only form of security, and that the price for it is paid, unasked, in the body and in exhaustion.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The path of healing: from functioning to being allowed</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">For the One the path of healing leads from anger to serenity &ndash; from the question <em>Did I do everything right?</em> to the experience <em>It is enough as it is</em>. For the SP1 this means no longer drawing security from duty alone, but also from the trust that one is held.</p>
+          <p class="vb-intro">That Jessop&rsquo;s memoirs appeared as a book only decades after her death is a sign of how long her story lived on quietly. What she herself wanted to express in them is left to the reader &ndash; the fact that she wrote everything down suggests that it mattered to her not only to survive but also to bear witness.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: Subtype profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SP1 – Eagle"},
+        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
+        {route:"beruehmte-alain-delon", label:"Portrait: Alain Delon (SP1w2)"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SP1w9)"},
+      ])}
+    </div>
+  `);
+}

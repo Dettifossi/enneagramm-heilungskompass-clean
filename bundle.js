@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=464";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=465";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -114,6 +114,7 @@ const bastianPastewkaPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.j
 const byronKatiePortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "byronKatiePortraitPage");
 const knutHamsunPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "knutHamsunPortraitPage");
 const christophWaltzPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "christophWaltzPortraitPage");
+const violetJessopPortraitPage = () => _lazyPage("./data/beruehmte-de/teil5.js", "violetJessopPortraitPage");
 const dhapanbalYunupinguPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "dhapanbalYunupinguPortraitPage");
 const editaGruberovaPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "editaGruberovaPortraitPage");
 const fayeDunawayPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "fayeDunawayPortraitPage");
@@ -28687,6 +28688,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Method Man \u2013 Selbsterhaltender Typ 2",
     teaser:"SE2w3 \u00b7 geb. 1971 auf Long Island. US-amerikanischer Rapper und Schauspieler (Wu-Tang Clan, \u203aTical\u2039, \u203aThe Wire\u2039). Das Flusspferd, das den Clan zum engsten Kreis machte und von dort aus Film, Fernsehen und Pop-Duette eroberte.",
     land:"USA", tags:["Musik"], gender:"m"},
+  { route:"beruehmte-violet-jessop", name:"Violet Jessop", added:"2026-11-02", subtyp:"SE1w2",
+    heading:"Violet Jessop \u2013 Selbsterhaltender Typ 1",
+    teaser:"SE1w2 \u00b7 1887\u20131971. Stewardess und Krankenschwester, \u203aMiss Unsinkable\u2039: \u00fcberlebte die Unf\u00e4lle von Olympic, Titanic und Britannic und fuhr danach weiter zur See. Der Adler, der seinen Posten hielt.",
+    land:"Argentinien", tags:["Geschichte"], gender:"f"},
   { route:"beruehmte-carlos-santana", name:"Carlos Santana", added:"2026-08-24", subtyp:"SE2w3",
     heading:"Carlos Santana – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1947. Mexikanisch-US-amerikanischer Gitarrist, Woodstock 1969, Supernatural-Comeback 1999 (9 Grammys). Vom Vater direkt weitergegebenes Handwerk, verbunden mit dem stetigen Bedürfnis, neu entdeckt zu werden. Tierentsprechung: Flusspferd.",
@@ -67803,7 +67808,7 @@ const ROUTES = {
       "beruehmte-ayn-rand": aynRandPortraitPage,
       "beruehmte-clint-eastwood": clintEastwoodPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
-      "beruehmte-christoph-waltz": christophWaltzPortraitPage,
+      "beruehmte-violet-jessop": violetJessopPortraitPage, "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,
       "beruehmte-arnold-schwarzenegger": arnoldSchwarzeneggerPortraitPage, "beruehmte-john-cusack": johnCusackPortraitPage, "beruehmte-sigourney-weaver": sigourneyWeaverPortraitPage, "beruehmte-jessica-biel": jessicaBielPortraitPage, "beruehmte-justin-timberlake": justinTimberlakePortraitPage, "beruehmte-nico-rosberg": nicoRosbergPortraitPage, "beruehmte-lewis-hamilton": lewisHamiltonPortraitPage, "beruehmte-niki-lauda": nikiLaudaPortraitPage, "beruehmte-johannes-gutenberg": johannesGutenbergPortraitPage, "beruehmte-konrad-zuse": konradZusePortraitPage, "beruehmte-javier-tebas": javierTebasPortraitPage, "beruehmte-philippe-sands": philippeSandsPortraitPage, "beruehmte-sean-sherman": seanShermanPortraitPage, "beruehmte-billie-lourd": billieLourdPortraitPage, "beruehmte-ruby-true": rubyTruePortraitPage, "beruehmte-caroline-wozniacki": carolineWozniackiPortraitPage, "beruehmte-kennerly-kitt": kennerlyKittPortraitPage, "beruehmte-camille-kitt": camilleKittPortraitPage, "beruehmte-werner-ablass": wernerAblassPortraitPage, "beruehmte-hubert-benoit": hubertBenoitPortraitPage, "beruehmte-eleanor-roosevelt": eleanorRooseveltPortraitPage, "beruehmte-bruno-groening": brunoGroeningPortraitPage, "beruehmte-joel-goldsmith": joelGoldsmithPortraitPage, "beruehmte-maria-treben": mariaTrebenPortraitPage, "beruehmte-susan-polgar": susanPolgarPortraitPage, "beruehmte-jens-riewa": jensRiewaPortraitPage, "beruehmte-marleen-lohse": marleenLohsePortraitPage, "beruehmte-andrea-sawatzki": andreaSawatzkiPortraitPage, "beruehmte-senta-berger": sentaBergerPortraitPage, "beruehmte-robert-greene": robertGreenePortraitPage, "beruehmte-sofia-polgar": sofiaPolgarPortraitPage, "beruehmte-dieter-thomas-heck": dieterThomasHeckPortraitPage, "beruehmte-ramana-maharshi": ramanaMaharshiPortraitPage, "beruehmte-luke-nichols": lukeNicholsPortraitPage, "beruehmte-matthias-reim": matthiasReimPortraitPage,
       "beruehmte-guenther-krabbenhoeft": guentherKrabbenhoeftPortraitPage,

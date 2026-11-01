@@ -3105,3 +3105,72 @@ export function jamesBluntPortraitPage() {
     </div>
   `);
 }
+
+export function violetJessopPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-violet-jessop-portrait.jpg" alt="Violet Jessop – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Violet Jessop</p>
+        <p class="krim-portrait-typ">SE1w2 &middot; Selbsterhaltender Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Stewardess und Krankenschwester, 1887&ndash;1971 &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler, der auf dem sinkenden Schiff seinen Posten hielt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Wappentier der selbsterhaltenden Eins &ndash; er sucht keine Bühne und keine Zustimmung, er hält seinen Posten. Violet Constance Jessop hielt ihn auf drei Schiffen, die ein Unglück erlitten: der <em>Olympic</em>, der <em>Titanic</em> und der <em>Britannic</em>. In populären Darstellungen heißt sie deshalb ›Miss Unsinkable‹ (›Fräulein Unsinkbar‹). Dieser Beiname stammt nicht aus den wissenschaftlichen Quellen, er beschreibt aber treffend, was überliefert ist: Sie überlebte alle drei Ereignisse und fuhr danach weiter zur See.</p>
+          <p class="vb-intro">Geboren wurde sie am 2. Oktober 1887 bei Bahía Blanca in Argentinien als ältestes von neun Kindern irischer Einwanderer; sechs der Kinder überlebten. Als Kind erkrankte sie an einer Krankheit, die als Tuberkulose galt und die ihr die Ärzte nicht überleben lassen wollten &ndash; sie überlebte. Als der Vater starb, war sie sechzehn; die Familie zog nach England, wo die Mutter als Stewardess auf Schiffen arbeitete. 1908, mit einundzwanzig, trat Violet selbst als Stewardess in den Dienst der Royal Mail Line, auf dem Schiff <em>Orinoco</em>. Einer verbreiteten Überlieferung zufolge trat sie dabei bewusst unauffällig auf, um ernst genommen zu werden &ndash; belegt ist das nur durch Sekundärquellen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Verantwortung als Überlebensform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> trägt den Anspruch an sich selbst nach innen. Bei Naranjo heißt dieser Subtyp <em>Worry</em> &ndash; Besorgnis: die stille, ständige Frage, ob man seine Aufgabe wirklich erfüllt. Sicherheit entsteht für ihn nicht aus Glück, sondern aus Pflichterfüllung, aus Disziplin und daraus, dass man sich auf sich selbst verlassen kann.</p>
+          <p class="vb-intro">Genau diese Logik lässt sich in Jessops Lebenslauf ablesen. Als Älteste von neun Geschwistern, nach dem frühen Tod des Vaters, mit einer Mutter, die selbst auf See arbeitete, war die Arbeit auf den Schiffen kein Abenteuer, sondern der Weg, Verantwortung zu tragen. Dass sie über Jahrzehnte im selben Beruf blieb &ndash; 1908 bis zum Ruhestand 1950, mit Unterbrechungen &ndash; zeigt eine Beständigkeit, die für die SE1 typisch ist: nicht der große Auftritt, sondern das Weitermachen.</p>
+          <p class="vb-intro">Eine Einordnung bleibt eine Deutung: Aus den überlieferten Tatsachen lässt sich die Außenseite eines Lebens ablesen, nicht seine innere Welt. Was Jessop empfand, wenn sie nach einem Unglück wieder einen Dienstplan annahm, wissen wir nur aus ihren späten Erinnerungen und aus den Berichten anderer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Fürsorge als Beruf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der Eins die Wärme, die sie nach außen öffnet: Sie bleibt streng gegen sich, wird aber hilfsbereit gegenüber anderen. Eine Stewardess lebt von genau dieser Mischung &ndash; Dienst am Gast, Aufmerksamkeit für den Bedarf des anderen, Verlässlichkeit ohne Aufhebens. Im Ersten Weltkrieg verband Jessop diesen Dienst mit der Krankenpflege: Sie arbeitete als Krankenschwester im Voluntary Aid Detachment (einer freiwilligen Hilfsorganisation des Roten Kreuzes) und war so an Bord der <em>Britannic</em>, die als Lazarettschiff fuhr.</p>
+          <p class="vb-intro">Auch auf der <em>Titanic</em> zeigt sich der Zweierflügel in einer Szene, die in mehreren Quellen überliefert ist: In Rettungsboot 16 übergab ihr der Sechste Offizier James Paul Moody ein Baby, um das sie sich kümmern sollte. Sie nahm es an. Nach der Rettung durch die <em>Carpathia</em> wurde das Kind nach den überlieferten Schilderungen von seiner Mutter zurückgenommen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Drei Unglücke und ein Berufsleben auf See</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Besonderheit von Jessops Biografie liegt nicht in einer Leistung, die sie vollbrachte, sondern in einer Beständigkeit, die dokumentiert ist. Am 20. September 1911 stieß die <em>Olympic</em> nach dem Auslaufen aus Southampton mit dem Kriegsschiff HMS <em>Hawke</em> zusammen; es gab keine Todesopfer, das Schiff kehrte aus eigener Kraft in den Hafen zurück. Am 10. April 1912 ging sie als Vierundzwanzigjährige an Bord der <em>Titanic</em>. Das Schiff sank am 14. April, rund zwei Stunden und vierzig Minuten nach dem Zusammenstoß mit dem Eisberg; sie wurde in Boot 16 gerettet, die Überlebenden kamen mit der <em>Carpathia</em> am 18. April in New York an.</p>
+          <p class="vb-intro">Am 21. November 1916 sank das Lazarettschiff <em>Britannic</em> in der Ägäis, nachdem es auf eine deutsche Mine gelaufen war. Es ging in etwa 55 Minuten unter; von 1.066 Menschen an Bord starben 30. Jessop sprang aus einem Rettungsboot, um nicht von den Schiffsschrauben erfasst zu werden, und zog sich dabei eine Kopfverletzung zu. In ihren Erinnerungen beschrieb sie es so: ›I leapt into the water but was sucked under the ship's keel which struck my head‹ &ndash; ›Ich sprang ins Wasser, wurde aber unter den Schiffskiel gezogen, der mich am Kopf traf‹. Sie überlebte; einer Schilderung zufolge stellte Jahre später ein Arzt fest, dass sie sich einmal den Schädel gebrochen hatte.</p>
+          <p class="vb-intro">Danach fuhr sie weiter. 1920 kehrte sie zur White Star Line zurück, arbeitete für die Red Star Line, wo sie zwei Weltreisen auf der <em>Belgenland</em> mitmachte, und später wieder für die Royal Mail Line. 1923 heiratete sie den White-Star-Steward John James Lewis; die Ehe wurde 1924 geschieden. 1950 ging sie in den Ruhestand nach Great Ashfield in Suffolk, wo sie am 5. Mai 1971 mit dreiundachtzig Jahren an einer Herzinsuffizienz starb. Ihre Erinnerungen erschienen erst 1997 unter dem Titel <em>Titanic Survivor</em>, herausgegeben und kommentiert von John Maxtone-Graham.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1 zeigt sich in dem, was von Jessops Arbeit bleibt: Verlässlichkeit unter Druck und die Fähigkeit, in einer Notlage weiter für andere da zu sein. Der Adler gerät nicht in Panik; er bleibt an seinem Platz und tut, was zu tun ist.</p>
+          <p class="vb-intro">Der Schatten ist leiser. Der Antrieb der Eins ist der <strong>Zorn</strong> &ndash; bei der SE1 meist nach innen gerichtet, als Strenge gegen sich selbst und als Spannung, nie nachlassen zu dürfen. Ob Jessop das so erlebt hat, geben die Quellen nicht her. Was sich beobachten lässt, ist die Gefahr, die dieser Subtyp allgemein kennt: dass das Funktionieren zur einzigen Form von Sicherheit wird und der Preis dafür, ungefragt, im Körper und in der Erschöpfung bezahlt wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Funktionieren zum Dürfen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Für die Eins führt der Heilungsweg vom Zorn zur Gelassenheit &ndash; von der Frage <em>Habe ich alles richtig gemacht?</em> zur Erfahrung <em>Es ist genug, so wie es ist</em>. Für die SE1 heißt das, Sicherheit nicht länger nur aus Pflicht zu beziehen, sondern auch aus dem Vertrauen, dass man gehalten wird.</p>
+          <p class="vb-intro">Dass Jessops Erinnerungen erst Jahrzehnte nach ihrem Tod als Buch erschienen, ist ein Hinweis darauf, wie lange ihre Geschichte im Stillen weiterlebte. Was sie selbst darin ausdrücken wollte, bleibt dem Leser überlassen &ndash; die Tatsache, dass sie alles aufgeschrieben hat, spricht dafür, dass es ihr wichtig war, nicht nur zu überleben, sondern auch zu bezeugen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se1", label:"Lebensmusterkompass: SE1 – Adler"},
+        {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
+        {route:"beruehmte-alain-delon", label:"Porträt: Alain Delon (SE1w2)"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Porträt: Queen Elizabeth II. (SE1w9)"},
+      ])}
+    </div>
+  `);
+}

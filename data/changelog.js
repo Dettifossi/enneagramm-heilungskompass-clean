@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2720", date: "2026-11-02", text: "Neues Porträt: Violet Jessop (SE1w2) – Stewardess und Krankenschwester, überlebte die Unglücke von Olympic, Titanic und Britannic.", text_en: "New portrait: Violet Jessop (SP1w2) – stewardess and nurse, survivor of the Olympic, Titanic and Britannic disasters.", route: "beruehmte-violet-jessop" },
     { version: "v2719", date: "2026-10-31", text: "Neues Kurzvideo im Porträt von Sir Patrick Stewart (SX7w8) – direkt unten im Beitrag, rund 15 Sekunden, mit Ton.", text_en: "New short video in the portrait of Sir Patrick Stewart (SX7w8) – right at the bottom of the article, about 15 seconds, with sound.", route: "beruehmte-patrick-stewart" },
     { version: "v2718", date: "2026-10-30", text: "Sir Patrick Stewart (SX7w8) ist am 28. Oktober 2026 im Alter von 86 Jahren gestorben.", text_en: "Sir Patrick Stewart (SX7w8) died on 28 October 2026 at the age of 86.", route: "beruehmte-patrick-stewart" },
     { version: "v2717", date: "2026-10-30", text: "Neuer Wissensartikel: Enneagramm meets Ayurveda. Kopf-, Herz- und Bauch-Zentrum im Spiegel von Vata, Pitta und Kapha, mit Hinweisen zur Balance im Alltag.", text_en: "New knowledge article: Enneagram meets Ayurveda. Head, heart and body center in the mirror of Vata, Pitta and Kapha, with hints for balance in everyday life.", route: "enneagramm-ayurveda" },
