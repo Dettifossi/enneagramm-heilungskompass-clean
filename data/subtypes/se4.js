@@ -3,7 +3,7 @@ export const se4 = {
     lebensthema:
       "Du trägst dein Inneres still. Was andere vielleicht dramatisch nach außen bringen würden, hältst du in dir — differenziert, reflektiert, und mit einer stillen Härte gegen dich selbst. Dr. Claudio Naranjo nannte diesen Subtyp die „stoische Zähigkeit“ — eine bemerkenswerte Fähigkeit, Schmerz, Enttäuschung und Sehnsucht auszuhalten, ohne zu zerbrechen. Als Kontratyp wirkst du nach außen oft ruhiger und gefasster, als du dich innen erlebst. Dein innerer Weg führt nicht dazu, weniger zu fühlen — sondern zu vertrauen, dass du mit deiner Tiefe auch im Kontakt mit anderen sein kannst.",
     grundstrategie:
-      "Die selbsterhaltende Vier reguliert innere Spannung durch Selbstkontrolle, Rückzug und stillen Durchhaltewillen. Emotionale Intensität bleibt innen — sie wird selektiv, nur dann geteilt, wenn echter Vertrauen entsteht. Die innere Grundfrage lautet: „Kann ich das still tragen — bin ich stark genug, um damit allein zu sein?“",
+      "Die selbsterhaltende Vier reguliert innere Spannung durch Selbstkontrolle, Rückzug und stillen Durchhaltewillen. Emotionale Intensität bleibt innen — sie wird selektiv, nur dann geteilt, wenn echtes Vertrauen entsteht. Die innere Grundfrage lautet: „Kann ich das still tragen — bin ich stark genug, um damit allein zu sein?“",
     staerken: [
       "außergewöhnliche innere Ausdauer und stille Stärke",
       "differenzierte, tiefe Selbstwahrnehmung",
@@ -30,30 +30,30 @@ export const se4 = {
   },
   meinKompass_en: {
     lebensthema:
-      "You carry your inner world quietly. What others might express dramatically outward, you hold within — differentiated, reflective, and with a quiet toughness toward yourself. Claudio Naranjo called this subtype stoic endurance — a remarkable ability to bear pain, disappointment, and longing without breaking. As the counter-type, you appear calmer and more composed outwardly than you experience yourself inwardly. Your inner path does not lead to feeling less — but to trusting that you can be in contact with others from your depth.",
+      "You carry your inner life quietly. What others might bring outward dramatically, you hold within — differentiated, reflective, and with a quiet hardness toward yourself. Dr. Claudio Naranjo called this subtype ‘stoic toughness’ — a remarkable ability to endure pain, disappointment and longing without breaking. As the countertype, you often appear calmer and more composed on the outside than you experience yourself on the inside. Your inner path does not lead to feeling less — but to trusting that you can be with others too, with your depth.",
     grundstrategie:
-      "The self-preservation Four regulates inner tension through self-control, withdrawal, and quiet perseverance. Emotional intensity stays inward — it is selectively expressed.",
+      "The self-preservation Four regulates inner tension through self-control, withdrawal and quiet perseverance. Emotional intensity stays inside — it is shared selectively, only when genuine trust arises. The inner core question is: ‘Can I carry this quietly — am I strong enough to be alone with it?’",
     staerken: [
-      "Inner resilience",
-      "Depth and sensitivity",
-      "Reflective capacity",
-      "Ability to endure difficulty",
-      "Quiet integrity",
+      "exceptional inner endurance and quiet strength",
+      "differentiated, deep self-perception",
+      "genuine reliability in close, trusting relationships",
+      "high emotional intelligence and empathy",
+      "aesthetic sensibility and connection with beauty",
+      "strong intuition and a sense for what is essential",
+      "the capacity for deep, meaningful connection",
     ],
     herausforderungen: [
-      "Self-criticism and inner harshness",
-      "Withdrawing rather than connecting",
-      "Suppressed longing",
-      "Feeling perpetually not enough",
-      "Difficulty expressing vulnerability",
+      "Carrying pain and longing quietly, without being able to share them",
+      "Hiding inner injury rather than showing it — and becoming emotionally exhausted in the process",
+      "Isolating oneself emotionally when closeness needs security",
+      "Difficulty making one's own depth accessible in contact",
     ],
     entwicklungspotenzial: [
-      "that their depth is a gift, not a burden",
-      "that vulnerability can create connection",
-      "that they deserve to be seen as they are",
-      "that their inner world has value even when not expressed",
+      "Developing trust, showing emotional depth in contact as well.",
+      "Allowing support, warmth and genuine closeness.",
+      "Letting genuine connection arise from quiet inner strength.",
     ],
-    wandlung: "From endurance comes openness. From self-sufficiency comes trust. From silent suffering comes shared depth.",
+    wandlung: "Perseverance becomes self-acceptance. Quiet suffering becomes inner relief. Withdrawal becomes connection. A sense of lack becomes inner fullness.",
     gedankeFuerHeute:
       "What would change if today you allowed one person to truly see how things are with you?",
   },

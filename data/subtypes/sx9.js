@@ -1,7 +1,9 @@
 export const sx9 = {
   meinKompass: {
-    lebensthema: "Du sehnst dich nach Verschmelzung — danach, mit einem geliebten Menschen, einer Aufgabe oder dem Leben selbst ganz eins zu werden. Als Verstärkungstyp unter den Neunern lebst du die Selbstvergessenheit am tiefsten: Du gehst im Anderen auf, nimmst seine Wünsche, Stimmungen und Welt so sehr in dich auf, dass deine eigene Kontur verschwimmt. Wie das Faultier hängst du dich liebevoll an das, womit du verbunden bist. Deine Hingabe ist eine echte Gabe — doch die Falle ist der Selbstverlust: Über die Verschmelzung vergisst du, wer du selbst bist und was du willst. Dein innerer Weg führt dorthin, Nähe zuzulassen, ohne dich aufzugeben.",
-    grundstrategie: "Die sexuelle Neun sucht ihren Frieden in der Verschmelzung mit einem Anderen — als Verstärkungstyp lebt sie die Trägheit als Selbstvergessenheit: Sie geht in der Verbindung auf und opfert dabei die eigene Klarheit und Kontur.",
+    lebensthema:
+      "Du sehnst dich nach Verschmelzung — danach, mit einem geliebten Menschen, einer Aufgabe oder dem Leben selbst ganz eins zu werden. Als Verstärkungstyp unter den Neunern lebst du die Selbstvergessenheit am tiefsten: Du gehst im Anderen auf, nimmst seine Wünsche, Stimmungen und Welt so sehr in dich auf, dass deine eigene Kontur verschwimmt. Wie das Faultier hängst du dich liebevoll an das, womit du verbunden bist. Deine Hingabe ist eine echte Gabe — doch die Falle ist der Selbstverlust: Über die Verschmelzung vergisst du, wer du selbst bist und was du willst. Dein innerer Weg führt dorthin, Nähe zuzulassen, ohne dich aufzugeben.",
+    grundstrategie:
+      "Die sexuelle Neun sucht ihren Frieden in der Verschmelzung mit einem Anderen — als Verstärkungstyp lebt sie die Trägheit als Selbstvergessenheit: Sie geht in der Verbindung auf und opfert dabei die eigene Klarheit und Kontur.",
     staerken: [
       "hingebungsvoll und liebevoll",
       "mitfühlend und einfühlsam",
@@ -23,34 +25,35 @@ export const sx9 = {
       "Ruhe wird zu stabiler Kraft, die echte Nähe ermöglicht.",
     ],
     wandlung: "Aus Verschmelzung wird Begegnung. Aus Selbstverlust wird Selbstkontakt. Aus Anpassung wird klare, liebevolle Präsenz.",
-    gedankeFuerHeute: "Wenn Verschmelzung nicht zum Selbstverlust führt, kann Liebe wirklich zur Begegnung werden.",
+    gedankeFuerHeute:
+      "Wenn Verschmelzung nicht zum Selbstverlust führt, kann Liebe wirklich zur Begegnung werden.",
   },
   meinKompass_en: {
     lebensthema:
-      "You long for merging — to become completely one with a beloved person, a task, or life itself. As the amplifier type among the Nines, you live self-forgetting most deeply: you dissolve in the other, absorb their wishes, moods, and world so thoroughly that your own contour blurs. Your surrender is a genuine gift — yet the trap is self-loss: through merging, you forget who you yourself are and what you want. Your inner path leads toward allowing closeness without giving yourself up.",
+      "You long for merging — for becoming completely one with a beloved person, a task or life itself. As the amplifier type among the Nines, you live self-forgetting most deeply: you dissolve into the other, taking in their wishes, moods and world so much that your own contour blurs. Like the sloth, you lovingly cling to what you are connected with. Your devotion is a genuine gift — but the trap is loss of self: through merging you forget who you yourself are and what you want. Your inner path leads to allowing closeness without giving yourself up.",
     grundstrategie:
-      "The sexual Nine seeks peace in merging with another — as the amplifier type, they live sloth as complete self-surrender to the beloved.",
+      "The sexual Nine seeks their peace in merging with another — as the amplifier type they live sloth as self-forgetting: they dissolve into the connection and sacrifice their own clarity and contour in the process.",
     staerken: [
-      "Deep capacity for connection",
-      "Empathy",
-      "Ability to make others feel accepted",
-      "Gentle presence",
-      "Gift for creating harmony",
+      "devoted and loving",
+      "compassionate and empathic",
+      "peaceful and gentle",
+      "deeply capable of connection",
+      "accepting and warm-hearted",
+      "a fine sense for others",
+      "capable of genuine closeness",
     ],
     herausforderungen: [
-      "Loss of own identity in relationships",
-      "Difficulty knowing own wishes",
-      "Passive-aggressiveness instead of direct expression",
-      "Becoming whoever the other needs them to be",
-      "Deep tiredness from constant merging",
+      "Losing oneself in the other in order to feel connection",
+      "Avoiding inner tensions instead of feeling them",
+      "One's own impulses, wishes and boundaries blur",
+      "Energy appears sluggish, decisions are delayed",
     ],
     entwicklungspotenzial: [
-      "that they can be close without disappearing",
-      "that their own wishes are part of the relationship",
-      "that a clear self-position deepens rather than threatens love",
-      "that their presence is a gift, not a burden",
+      "Staying in living contact with oneself and with others.",
+      "Taking one's own place without dissolving into the other.",
+      "Calm becomes a stable strength that makes genuine closeness possible.",
     ],
-    wandlung: "From merging comes genuine meeting. From self-surrender comes self-presence. From disappearing in love comes loving as oneself.",
+    wandlung: "Merging becomes encounter. Loss of self becomes self-contact. Adaptation becomes clear, loving presence.",
     gedankeFuerHeute:
       "What do you want right now — not what would make the other happy, not what the situation demands — but what you, in this moment, truly want?",
   },

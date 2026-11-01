@@ -1,7 +1,9 @@
 export const se6 = {
   meinKompass: {
-    lebensthema: "Du spürst Gefahr, bevor andere sie sehen — und du suchst Halt, bevor der Boden wackelt. Als Verstärkungstyp unter den Sechsern lebst du die ängstliche, phobische Seite des Typs am deutlichsten: nicht die kämpferische, sondern die wärmesuchende. Du bindest dich, suchst Schutz, Verbündete und Verlässlichkeit, und du wirkst dabei oft freundlich, vorsichtig und loyal. Dein Blick scannt die Umgebung wie das Kaninchen, das jede Bewegung registriert. Was darunter liegt, ist nicht Schwäche, sondern ein feiner Sinn für Sicherheit. Dein innerer Weg führt nicht dorthin, alle Risiken auszuschalten — sondern zu erfahren, dass du auch dann standhältst, wenn nicht alles abgesichert ist.",
-    grundstrategie: "Die selbsterhaltende Sechs sichert sich durch Bindung, Schutz und das Suchen verlässlicher Verbündeter — als phobischer Verstärkungstyp begegnet sie der Angst nicht mit Kampf, sondern mit Wärme, Vorsicht und dem Wunsch, nicht allein dazustehen.",
+    lebensthema:
+      "Du spürst Gefahr, bevor andere sie sehen — und du suchst Halt, bevor der Boden wackelt. Als Verstärkungstyp unter den Sechsern lebst du die ängstliche, phobische Seite des Typs am deutlichsten: nicht die kämpferische, sondern die wärmesuchende. Du bindest dich, suchst Schutz, Verbündete und Verlässlichkeit, und du wirkst dabei oft freundlich, vorsichtig und loyal. Dein Blick scannt die Umgebung wie das Kaninchen, das jede Bewegung registriert. Was darunter liegt, ist nicht Schwäche, sondern ein feiner Sinn für Sicherheit. Dein innerer Weg führt nicht dorthin, alle Risiken auszuschalten — sondern zu erfahren, dass du auch dann standhältst, wenn nicht alles abgesichert ist.",
+    grundstrategie:
+      "Die selbsterhaltende Sechs sichert sich durch Bindung, Schutz und das Suchen verlässlicher Verbündeter — als phobischer Verstärkungstyp begegnet sie der Angst nicht mit Kampf, sondern mit Wärme, Vorsicht und dem Wunsch, nicht allein dazustehen.",
     staerken: [
       "feines Gespür für Sicherheit und Gefahr",
       "wärmesuchend, bindungsfähig und loyal",
@@ -23,34 +25,35 @@ export const se6 = {
       "Sicherheit von innen tragen, nicht nur von außen suchen.",
     ],
     wandlung: "Aus Vorsicht wird Vertrauen. Aus Absicherung wird innere Ruhe. Aus gesuchtem Schutz wird eigene Standfestigkeit.",
-    gedankeFuerHeute: "Ich darf dem Leben vertrauen — und halte auch dann stand, wenn nicht alles sicher ist.",
+    gedankeFuerHeute:
+      "Ich darf dem Leben vertrauen — und halte auch dann stand, wenn nicht alles sicher ist.",
   },
   meinKompass_en: {
     lebensthema:
-      "You sense danger before others see it — and you seek support before the ground starts shaking. As the amplifier type among the Sixes, you live the anxious, phobic side of the type most clearly: not the combative, but the warmth-seeking. You bind, seek protection, allies, and reliability, and in doing so you often appear friendly, cautious, and loyal. What lies beneath is not weakness, but a fine sense for safety. Your inner path does not lead to eliminating all risks — but to experiencing that you can hold steady even when not everything is secured.",
+      "You sense danger before others see it — and you look for support before the ground shakes. As the amplifier type among the Sixes, you live the anxious, phobic side of the type most clearly: not the combative but the warmth-seeking one. You bond, seek protection, allies and reliability, and you often come across as friendly, careful and loyal. Your gaze scans the surroundings like the rabbit that registers every movement. What lies beneath is not weakness but a fine sense of safety. Your inner path does not lead to eliminating all risks — but to experiencing that you hold firm even when not everything is secured.",
     grundstrategie:
-      "The self-preservation Six secures through binding, protection, and seeking reliable relationships and systems.",
+      "The self-preservation Six secures themselves through bonding, protection and the search for reliable allies — as the phobic amplifier type they meet fear not with a fight but with warmth, caution and the wish not to stand alone.",
     staerken: [
-      "Loyalty",
-      "Warmheartedness",
-      "Reliability",
-      "Anticipatory care",
-      "Fine instinct for trustworthiness",
+      "a fine sense for safety and danger",
+      "warmth-seeking, capable of bonding and loyal",
+      "careful and reliable",
+      "attentive vigilance for details",
+      "caring toward their own people",
+      "modest and attentive",
+      "quietly responsible",
     ],
     herausforderungen: [
-      "Anxiety and worry",
-      "Dependency on reassurance",
-      "Difficulty trusting own judgment",
-      "Hesitation and self-doubt",
-      "Tendency to catastrophize",
+      "Recognising dangers early and wanting to secure oneself permanently",
+      "Inner tension is secured rather than soothed",
+      "Protection is sought outside rather than within oneself",
+      "Energy appears tense, cautious and easily exhausted",
     ],
     entwicklungspotenzial: [
-      "that they can trust their own inner voice",
-      "that uncertainty is not the same as danger",
-      "that they are stronger than their anxiety suggests",
-      "that support is available even without constant seeking",
+      "Meeting uncertainty without having to secure oneself permanently.",
+      "Trusting one's own perception and inner stability.",
+      "Carrying security from within, not only seeking it from outside.",
     ],
-    wandlung: "From anxiety comes trust. From seeking protection comes inner stability. From doubt comes grounded knowing.",
+    wandlung: "Caution becomes trust. Securing becomes inner calm. Sought protection becomes one's own steadfastness.",
     gedankeFuerHeute:
       "What is one thing you know to be true right now — without needing anyone to confirm it?",
   },

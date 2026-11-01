@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "../data/de.js?v=2026-07-31-cloudinary-v2";
+import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "../data/de.js?v=2026-11-01-typen-v1";
 import { TYP_IMPULSE, TYP_IMPULSE_EN, SUBTYP_IMPULSE_EN as SUBTYP_IMPULSE } from "../data/impulse.js?v=4";
 import { TAGESIMPULSE_EN } from "../data/tagesimpulse_en.js?v=1";
 import { TRIADEN_EN as TRIADEN, TYPFRAGEN_EN as TYPFRAGEN, TYPNAMEN_EN as TYPNAMEN, TYPKURZ_EN as TYPKURZ, INSTINKTE_EN as INSTINKTE } from "../data/typentest_en.js?v=1";
@@ -6808,7 +6808,7 @@ const DAILY_STEP_EN = {
 };
 const ORGANISM_Q_EN = {
   "Wie kann ich richtig sein und Fehler vermeiden?": "How can I be right and avoid making mistakes?",
-  "Bin ich liebenswert, wenn ich für andere da bin?": "Am I loveable if I am there for others?",
+  "Bin ich liebenswert, wenn ich für andere da bin?": "Am I lovable if I am there for others?",
   "Wie kann ich erfolgreich sein und dabei meinen Wert beweisen?": "How can I be successful and prove my worth in the process?",
   "Wer bin ich wirklich und was macht mich einzigartig?": "Who am I really, and what makes me unique?",
   "Wie kann ich verstehen und sicher sein, dass ich kompetent bin?": "How can I understand and be certain that I am competent?",

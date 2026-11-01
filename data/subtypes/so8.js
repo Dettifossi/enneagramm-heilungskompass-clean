@@ -1,7 +1,9 @@
 export const so8 = {
   meinKompass: {
-    lebensthema: "Du stellst dich schützend vor die, die dir wichtig sind. Als Kontratyp unter den Achtern richtet sich deine Kraft nach außen, in den Dienst anderer: Du übernimmst Verantwortung, kämpfst für Gerechtigkeit und stehst loyal für deine Gruppe ein. Wie der Löwe schützt du dein Rudel — das macht dich zur sanfteren, sozialeren Acht, deren Aggression sich in Fürsorge und Führung verwandelt. Die Falle liegt darin, dass Schutz unmerklich in Kontrolle und Besitz kippen kann und deine eigene Verletzlichkeit hinter der Rolle des Starken verborgen bleibt. Dein innerer Weg führt dorthin, zu führen, ohne besitzen zu müssen.",
-    grundstrategie: "Die soziale Acht stellt ihre Kraft in den Dienst der Gemeinschaft — als Kontratyp wandelt sie Aggression in Schutz, Loyalität und Verantwortung für andere, kann dabei aber Fürsorge in Kontrolle und Besitz verwandeln.",
+    lebensthema:
+      "Du stellst dich schützend vor die, die dir wichtig sind. Als Kontratyp unter den Achtern richtet sich deine Kraft nach außen, in den Dienst anderer: Du übernimmst Verantwortung, kämpfst für Gerechtigkeit und stehst loyal für deine Gruppe ein. Wie der Löwe schützt du dein Rudel — das macht dich zur sanfteren, sozialeren Acht, deren Aggression sich in Fürsorge und Führung verwandelt. Die Falle liegt darin, dass Schutz unmerklich in Kontrolle und Besitz kippen kann und deine eigene Verletzlichkeit hinter der Rolle des Starken verborgen bleibt. Dein innerer Weg führt dorthin, zu führen, ohne besitzen zu müssen.",
+    grundstrategie:
+      "Die soziale Acht stellt ihre Kraft in den Dienst der Gemeinschaft — als Kontratyp wandelt sie Aggression in Schutz, Loyalität und Verantwortung für andere, kann dabei aber Fürsorge in Kontrolle und Besitz verwandeln.",
     staerken: [
       "führungsstark und verantwortungsbewusst",
       "gerecht und prinzipientreu",
@@ -23,34 +25,35 @@ export const so8 = {
       "Autorität aus Vertrauen leben statt aus Dominanz.",
     ],
     wandlung: "Aus Kontrolle wird Vertrauen. Aus Besitz wird echter Schutz. Aus Dominanz wird Führung, die trägt.",
-    gedankeFuerHeute: "Wenn Schutz nicht Besitz wird, entsteht starke, gerechte und vertrauensvolle Führung.",
+    gedankeFuerHeute:
+      "Wenn Schutz nicht Besitz wird, entsteht starke, gerechte und vertrauensvolle Führung.",
   },
   meinKompass_en: {
     lebensthema:
-      "You place yourself protectively before those who matter to you. As the counter-type among the Eights, your strength is directed outward in service of others: you take responsibility, fight for justice, and stand loyally for your group. This makes you the gentler, more social Eight, whose aggression transforms into care and leadership. The trap lies in protection imperceptibly tipping into control and possession, and your own vulnerability remaining hidden behind the role of the strong one. Your inner path leads toward leading without needing to possess.",
+      "You place yourself protectively in front of those who matter to you. As the countertype among the Eights, your strength is directed outward, in the service of others: you take responsibility, fight for justice and stand loyally by your group. Like the lion, you protect your pride — this makes you the gentler, more social Eight, whose aggression turns into care and leadership. The trap lies in the fact that protection can imperceptibly tip into control and possession, and your own vulnerability stays hidden behind the role of the strong one. Your inner path leads to leading without having to possess.",
     grundstrategie:
-      "The social Eight places their strength in service of the community — as the counter-type, they transform aggression into protection, loyalty, and responsibility.",
+      "The social Eight places their strength in the service of the community — as the countertype they transform aggression into protection, loyalty and responsibility for others, but can turn care into control and possession in the process.",
     staerken: [
-      "Protective strength",
-      "Loyalty",
-      "Leadership",
-      "Sense of justice",
-      "Ability to advocate for others",
+      "strong in leadership and responsible",
+      "just and true to principles",
+      "protective and loyal",
+      "organised and assertive",
+      "courageous in standing up for others",
+      "generous and energetic",
+      "authority that gives security",
     ],
     herausforderungen: [
-      "Difficulty distinguishing protection from control",
-      "Possessiveness in relationships",
-      "Suppressing own vulnerability behind strength",
-      "Tendency toward dominance even in service",
-      "Difficulty allowing others their autonomy",
+      "Protection and responsibility easily tip into control and possession",
+      "Relationships and situations are steered unconsciously",
+      "One's own vulnerability stays hidden behind the strong role",
+      "Energy appears dominant and demanding, inner tension finds it hard to rest",
     ],
     entwicklungspotenzial: [
-      "that genuine leadership includes letting others lead",
-      "that protection does not require control",
-      "that their vulnerability makes them more trustworthy",
-      "that caring and possessing are not the same thing",
+      "Taking responsibility and leadership without having to control others.",
+      "Combining strength with compassion and inner openness.",
+      "Living authority from trust instead of from dominance.",
     ],
-    wandlung: "From control comes trust. From protection comes freedom. From strength as armor comes strength as presence.",
+    wandlung: "Control becomes trust. Possession becomes genuine protection. Dominance becomes leadership that sustains.",
     gedankeFuerHeute:
       "Who in your life needs not your protection today — but simply your presence?",
   },

@@ -1482,7 +1482,7 @@ const se4 = {
     lebensthema:
       "Du tr\u00e4gst dein Inneres still. Was andere vielleicht dramatisch nach au\u00dfen bringen w\u00fcrden, h\u00e4ltst du in dir \u2014 differenziert, reflektiert, und mit einer stillen H\u00e4rte gegen dich selbst. Dr. Claudio Naranjo nannte diesen Subtyp die \u201estoische Z\u00e4higkeit\u201c \u2014 eine bemerkenswerte F\u00e4higkeit, Schmerz, Entt\u00e4uschung und Sehnsucht auszuhalten, ohne zu zerbrechen. Als Kontratyp wirkst du nach au\u00dfen oft ruhiger und gefasster, als du dich innen erlebst. Dein innerer Weg f\u00fchrt nicht dazu, weniger zu f\u00fchlen \u2014 sondern zu vertrauen, dass du mit deiner Tiefe auch im Kontakt mit anderen sein kannst.",
     grundstrategie:
-      "Die selbsterhaltende Vier reguliert innere Spannung durch Selbstkontrolle, R\u00fcckzug und stillen Durchhaltewillen. Emotionale Intensit\u00e4t bleibt innen \u2014 sie wird selektiv, nur dann geteilt, wenn echter Vertrauen entsteht. Die innere Grundfrage lautet: \u201eKann ich das still tragen \u2014 bin ich stark genug, um damit allein zu sein?\u201c",
+      "Die selbsterhaltende Vier reguliert innere Spannung durch Selbstkontrolle, R\u00fcckzug und stillen Durchhaltewillen. Emotionale Intensit\u00e4t bleibt innen \u2014 sie wird selektiv, nur dann geteilt, wenn echtes Vertrauen entsteht. Die innere Grundfrage lautet: \u201eKann ich das still tragen \u2014 bin ich stark genug, um damit allein zu sein?\u201c",
     staerken: [
       "au\u00dfergew\u00f6hnliche innere Ausdauer und stille St\u00e4rke",
       "differenzierte, tiefe Selbstwahrnehmung",
@@ -1885,7 +1885,7 @@ const se9 = {
 const so1 = {
   meinKompass: {
     lebensthema:
-      "Du sp\u00fcrst eine tiefe innere Verpflichtung \u2014 nicht nur dein eigenes Leben in Ordnung zu halten, sondern auch das der Gemeinschaft um dich herum. Missst\u00e4nde, Ungerechtigkeiten oder Widerspr\u00fcche zwischen Anspruch und Wirklichkeit siehst du fr\u00fch und deutlich. Oft entsteht daraus der Impuls, etwas zu ver\u00e4ndern, Klarheit einzufordern oder Verantwortung zu \u00fcbernehmen, wo andere es nicht tun. Dein innerer Weg f\u00fchrt nicht darin, diesen Sinn f\u00fcr Gerechtigkeit aufzugeben \u2014 sondern ihn mit mehr Menschlichkeit und innerer Weite zu verbinden.",
+      "Du sp\u00fcrst eine tiefe innere Verpflichtung \u2014 nicht nur dein eigenes Leben in Ordnung zu halten, sondern auch das der Gemeinschaft um dich herum. Missst\u00e4nde, Ungerechtigkeiten oder Widerspr\u00fcche zwischen Anspruch und Wirklichkeit siehst du fr\u00fch und deutlich. Oft entsteht daraus der Impuls, etwas zu ver\u00e4ndern, Klarheit einzufordern oder Verantwortung zu \u00fcbernehmen, wo andere es nicht tun. Dein innerer Weg besteht nicht darin, diesen Sinn f\u00fcr Gerechtigkeit aufzugeben \u2014 sondern ihn mit mehr Menschlichkeit und innerer Weite zu verbinden.",
     grundstrategie:
       "Die soziale Eins orientiert sich an moralischen und sozialen Ma\u00dfst\u00e4ben und sucht Stabilit\u00e4t durch das Eintreten f\u00fcr Werte und Prinzipien \u2014 im eigenen Leben und im sozialen Umfeld. Die innere Grundfrage lautet h\u00e4ufig: \u201eWird hier nach richtigen Ma\u00dfst\u00e4ben gehandelt \u2014 und tue ich genug daf\u00fcr?\u201c",
     staerken: [
@@ -2094,7 +2094,7 @@ const so3 = {
 const so4 = {
   meinKompass: {
     lebensthema:
-      "Du wei\u00dft sehr genau, wie es sich anf\u00fchlt, nicht ganz dazuzugeh\u00f6ren. Dein Blick richtet sich oft dorthin, was andere haben und was dir zu fehlen scheint \u2014 Leichtigkeit, Anerkennung, einen festen Platz. Als Verst\u00e4rkungstyp lebst du die Vier-Dynamik besonders deutlich: Neid wird hier zu einem klar sp\u00fcrbaren, innerlich fast unausweichlichen Bewegung des Vergleichens. Das Schwere daran ist: Je mehr du vergleichst, desto mehr entfernst du dich von dem, was du wirklich schon bist. Dein innerer Weg f\u00fchrt nicht dazu, aufzuh\u00f6ren, tief zu f\u00fchlen \u2014 sondern aufzuh\u00f6ren, deinen Wert im Spiegel anderer zu suchen.",
+      "Du wei\u00dft sehr genau, wie es sich anf\u00fchlt, nicht ganz dazuzugeh\u00f6ren. Dein Blick richtet sich oft dorthin, was andere haben und was dir zu fehlen scheint \u2014 Leichtigkeit, Anerkennung, einen festen Platz. Als Verst\u00e4rkungstyp lebst du die Vier-Dynamik besonders deutlich: Neid wird hier zu einer klar sp\u00fcrbaren, innerlich fast unausweichlichen Bewegung des Vergleichens. Das Schwere daran ist: Je mehr du vergleichst, desto mehr entfernst du dich von dem, was du wirklich schon bist. Dein innerer Weg f\u00fchrt nicht dazu, aufzuh\u00f6ren, tief zu f\u00fchlen \u2014 sondern aufzuh\u00f6ren, deinen Wert im Spiegel anderer zu suchen.",
     grundstrategie:
       "Die soziale Vier sichert Zugeh\u00f6rigkeit und Bedeutung \u00fcber Besonderheit, emotionale Tiefe und das Sichtbarmachen von Anderssein im sozialen Raum. Sie beobachtet fein, wie andere wirken \u2014 und f\u00fchlt gleichzeitig, was ihr zu fehlen scheint. Die innere Grundfrage lautet: \u201eGeh\u00f6re ich wirklich dazu \u2014 oder sieht man mir an, dass ich nicht gen\u00fcge?\u201c",
     staerken: [
@@ -11993,7 +11993,7 @@ const subtypeProfiles = {
     deficit: "Vertrauensdefizit",
     passion: "Angst",
     essence: "Mut, Vertrauen, Courage, Standhaftigkeit",
-    focus: "Vertrauen statt Kontrolle",
+    focus: "Ich w\u00e4hle Vertrauen statt Angst und Verbindung statt Kontrolle.",
     organismQuestion:
       "Wie kann ich sicher sein, dass ich nicht bedroht bin und Unterst\u00fctzung habe?",
     coreSentence:
@@ -13319,7 +13319,7 @@ const subtypeProfiles = {
     deficit: "Wertlosigkeitsdefizit",
     passion: "Eitelkeit",
     essence: "charismatische Wirksamkeit, charismatische Pr\u00e4senz, klare Zielorientierung, soziale Kompetenz",
-    focus: "Ich nutze meine F\u00e4higkeiten zum Wohl des Ganzen und inspiriere andere durch \u2026",
+    focus: "Ich nutze meine F\u00e4higkeiten zum Wohl des Ganzen und inspiriere andere durch mein echtes Sein.",
     organismQuestion: "Wie kann ich erfolgreich sein und dabei meinen Wert beweisen?",
     coreSentence: "Wenn du nicht gl\u00e4nzen musst, wird deine Wirkung wahrhaftig, menschlich und stark.",
     title_en: "The Achiever",
@@ -13805,7 +13805,7 @@ const subtypeProfiles = {
     deficit: "Identit\u00e4tsdefizit",
     passion: "Neid",
     essence: "emotionale Echtheit, emotionale Echtheit, tiefe Verbindung, wertsch\u00e4tzende Ehrlichkeit",
-    focus: "Ich bin wertvoll, genau so, wie ich bin. In Echtheit inspiriere ich echte \u2026",
+    focus: "Ich bin wertvoll, genau so, wie ich bin. In Echtheit inspiriere ich echte Verbindung.",
     organismQuestion: "Wer bin ich wirklich und was macht mich einzigartig?",
     coreSentence: "Wenn du deinen Mangel nicht festh\u00e4ltst, entsteht Zugeh\u00f6rigkeit, Selbstannahme und stille W\u00fcrde.",
     title_en: "The Sufferer",
@@ -15571,7 +15571,7 @@ const subtypeProfiles = {
     deficit: "Verletzlichkeitsdefizit",
     passion: "Wollust",
     essence: "f\u00fchrungsstark, gerecht, besch\u00fctzend, organisiert",
-    focus: "Ich nutze meine Kraft weise, um zu sch\u00fctzen, zu f\u00fchren und das Leben zu \u2026",
+    focus: "Ich nutze meine Kraft weise, um zu sch\u00fctzen, zu f\u00fchren und das Leben zu gestalten.",
     organismQuestion: "Wie kann ich meine Grenzen wahren, f\u00fcr mich einstehen und sch\u00fctzen, was mir wichtig ist?",
     coreSentence: "Wenn Schutz nicht Besitz wird, entsteht starke, gerechte und vertrauensvolle F\u00fchrung.",
     title_en: "The Protector",
@@ -15729,7 +15729,7 @@ const subtypeProfiles = {
     deficit: "Verletzlichkeitsdefizit",
     passion: "Wollust",
     essence: "magnetisch, intensiv, leidenschaftlich, souver\u00e4n",
-    focus: "Ich nutze meine magnetische Kraft, um zu lieben, zu sch\u00fctzen und das Leben in \u2026",
+    focus: "Ich nutze meine magnetische Kraft, um zu lieben, zu sch\u00fctzen und das Leben in seiner Tiefe zu erfahren.",
     organismQuestion: "Wie kann ich meine Grenzen wahren, f\u00fcr mich einstehen und sch\u00fctzen, was mir wichtig ist?",
     coreSentence: "Wenn du Intensit\u00e4t nicht mit Kampf verwechselst, entsteht N\u00e4he und Vertrauen ohne Machtprobe.",
     title_en: "The Challenger",
@@ -15887,7 +15887,7 @@ const subtypeProfiles = {
     deficit: "Pr\u00e4senzdefizit",
     passion: "Tr\u00e4gheit",
     essence: "ruhig, geerdet, standhaft, weise",
-    focus: "Ich nutze meine Kraft, um in innerem Frieden zu leben und das Leben bewusst \u2026",
+    focus: "Ich nutze meine Kraft, um in innerem Frieden zu leben und das Leben bewusst zu gestalten.",
     organismQuestion: "Wie kann ich in Frieden bleiben und Harmonie bewahren, in mir und um mich herum?",
     coreSentence: "Wenn du dich selbst wichtig nimmst und nicht bet\u00e4ubst, entsteht lebendige innere Pr\u00e4senz.",
     title_en: "The Comfort-Seeker",
@@ -16045,7 +16045,7 @@ const subtypeProfiles = {
     deficit: "Pr\u00e4senzdefizit",
     passion: "Tr\u00e4gheit",
     essence: "verbindend, gelassen, standhaft, ausgleichend",
-    focus: "Ich nutze meine Kraft, um in Verbindung zu leben und das Leben bewusst zu \u2026",
+    focus: "Ich nutze meine Kraft, um in Verbindung zu leben und das Leben bewusst zu gestalten.",
     organismQuestion: "Wie kann ich in Frieden bleiben und Harmonie bewahren, in mir und um mich herum?",
     coreSentence: "Wenn Zugeh\u00f6rigkeit nicht Selbstvergessenheit bedeutet, entsteht echte und stabile Gemeinschaft.",
     title_en: "The Benefactor",
@@ -16203,7 +16203,7 @@ const subtypeProfiles = {
     deficit: "Pr\u00e4senzdefizit",
     passion: "Tr\u00e4gheit",
     essence: "hingebungsvoll, mitf\u00fchlend, friedlich, verbunden",
-    focus: "Ich nutze meine Kraft, um Liebe, Mitgef\u00fchl und Weisheit zu leben und das \u2026",
+    focus: "Ich nutze meine Kraft, um Liebe, Mitgef\u00fchl und Weisheit zu leben und das Leben in seiner Einheit zu ehren.",
     organismQuestion: "Wie kann ich in Frieden bleiben und Harmonie bewahren, in mir und um mich herum?",
     coreSentence: "Wenn Verschmelzung nicht zum Selbstverlust f\u00fchrt, kann Liebe wirklich zur Begegnung werden.",
     title_en: "The Merging One",

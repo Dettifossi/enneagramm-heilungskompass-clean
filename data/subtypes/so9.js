@@ -1,7 +1,9 @@
 export const so9 = {
   meinKompass: {
-    lebensthema: "Du gibst dich hin an die Gemeinschaft — du sorgst dafür, dass alle zusammenhalten, dass niemand außen vor bleibt, dass die Stimmung gut ist. Als Kontratyp unter den Neunern ist deine Trägheit überraschend aktiv: Statt zu ruhen, arbeitest du hart für die Gruppe, übernimmst Aufgaben und stellst dich in den Dienst des Ganzen, um wirklich dazuzugehören. Wie der Büffel trägst du verlässlich deinen Teil zur Herde bei. Die Falle: Im Einsatz für die Gemeinschaft vergisst du dich selbst — deine eigene Position, Meinung und Müdigkeit verschwinden hinter dem Mitmachen. Dein innerer Weg führt dorthin, dazuzugehören, ohne dich dabei zu verlieren.",
-    grundstrategie: "Die soziale Neun sucht ihren Frieden in der Zugehörigkeit zur Gruppe — als Kontratyp wendet sie die Trägheit nach außen: Sie arbeitet engagiert für die Gemeinschaft und ordnet die eigene Position dem Zusammenhalt unter.",
+    lebensthema:
+      "Du gibst dich hin an die Gemeinschaft — du sorgst dafür, dass alle zusammenhalten, dass niemand außen vor bleibt, dass die Stimmung gut ist. Als Kontratyp unter den Neunern ist deine Trägheit überraschend aktiv: Statt zu ruhen, arbeitest du hart für die Gruppe, übernimmst Aufgaben und stellst dich in den Dienst des Ganzen, um wirklich dazuzugehören. Wie der Büffel trägst du verlässlich deinen Teil zur Herde bei. Die Falle: Im Einsatz für die Gemeinschaft vergisst du dich selbst — deine eigene Position, Meinung und Müdigkeit verschwinden hinter dem Mitmachen. Dein innerer Weg führt dorthin, dazuzugehören, ohne dich dabei zu verlieren.",
+    grundstrategie:
+      "Die soziale Neun sucht ihren Frieden in der Zugehörigkeit zur Gruppe — als Kontratyp wendet sie die Trägheit nach außen: Sie arbeitet engagiert für die Gemeinschaft und ordnet die eigene Position dem Zusammenhalt unter.",
     staerken: [
       "verbindend und gemeinschaftsstiftend",
       "gelassen und ausgleichend",
@@ -23,34 +25,35 @@ export const so9 = {
       "Zugehörigkeit aus Selbstständigkeit leben statt aus Selbstvergessenheit.",
     ],
     wandlung: "Aus Anpassung wird eigene Position. Aus Mitmachen wird echte Teilhabe. Aus Selbstvergessenheit wird klare Präsenz.",
-    gedankeFuerHeute: "Wenn Zugehörigkeit nicht Selbstvergessenheit bedeutet, entsteht echte und stabile Gemeinschaft.",
+    gedankeFuerHeute:
+      "Wenn Zugehörigkeit nicht Selbstvergessenheit bedeutet, entsteht echte und stabile Gemeinschaft.",
   },
   meinKompass_en: {
     lebensthema:
-      "You give yourself to the community — you make sure everyone stays together, that no one is left out, that the mood is good. As the counter-type among the Nines, your sloth is surprisingly active: instead of resting, you work hard for the group, take on tasks, and place yourself in service of the whole in order to truly belong. The trap: in the effort for the community, you forget yourself — your own position, opinion, and tiredness disappear behind the joining in. Your inner path leads toward belonging without losing yourself in it.",
+      "You devote yourself to the community — you make sure that everyone sticks together, that no one is left out, that the mood is good. As the countertype among the Nines, your sloth is surprisingly active: instead of resting, you work hard for the group, take on tasks and put yourself in the service of the whole in order to truly belong. Like the buffalo, you reliably carry your part for the herd. The trap: in your commitment to the community you forget yourself — your own position, opinion and tiredness disappear behind going along. Your inner path leads to belonging without losing yourself in the process.",
     grundstrategie:
-      "The social Nine seeks their peace in belonging to the group — as the counter-type, they turn their sloth outward, working hard to secure their place.",
+      "The social Nine seeks their peace in belonging to the group — as the countertype they turn sloth outward: they work with dedication for the community and subordinate their own position to cohesion.",
     staerken: [
-      "Community spirit",
-      "Reliability",
-      "Ability to mediate",
-      "Inclusive warmth",
-      "Willingness to contribute",
+      "connecting and community-building",
+      "composed and balancing",
+      "reliable and ready to help",
+      "mediating and reconciling",
+      "patient and generous",
+      "a sense for what is essential to the group",
+      "creates trust and stability",
     ],
     herausforderungen: [
-      "Self-erasure for the sake of the group",
-      "Difficulty asserting own opinion",
-      "Exhaustion from constant giving",
-      "Resentment that is never expressed",
-      "Confusing belonging with self-abandonment",
+      "Putting one's own position behind cohesion",
+      "Smoothing over inner tension instead of naming it clearly",
+      "Losing one's own voice by going along",
+      "Energy appears diffuse, adapted and little focused",
     ],
     entwicklungspotenzial: [
-      "that they can belong and still have a position",
-      "that their opinion strengthens the group",
-      "that genuine rest is part of their contribution",
-      "that saying no is also a form of care",
+      "Staying connected without losing one's own position.",
+      "Bringing in opinions, wishes and boundaries more clearly.",
+      "Living belonging from independence instead of from self-forgetting.",
     ],
-    wandlung: "From self-erasure comes self-inclusion. From serving comes contributing. From merging comes genuine belonging.",
+    wandlung: "Adaptation becomes one's own position. Going along becomes genuine participation. Self-forgetting becomes clear presence.",
     gedankeFuerHeute:
       "What would you say today if you knew your opinion truly mattered to the group?",
   },

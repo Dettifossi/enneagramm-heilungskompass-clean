@@ -1,7 +1,7 @@
 export const so4 = {
   meinKompass: {
     lebensthema:
-      "Du weißt sehr genau, wie es sich anfühlt, nicht ganz dazuzugehören. Dein Blick richtet sich oft dorthin, was andere haben und was dir zu fehlen scheint — Leichtigkeit, Anerkennung, einen festen Platz. Als Verstärkungstyp lebst du die Vier-Dynamik besonders deutlich: Neid wird hier zu einem klar spürbaren, innerlich fast unausweichlichen Bewegung des Vergleichens. Das Schwere daran ist: Je mehr du vergleichst, desto mehr entfernst du dich von dem, was du wirklich schon bist. Dein innerer Weg führt nicht dazu, aufzuhören, tief zu fühlen — sondern aufzuhören, deinen Wert im Spiegel anderer zu suchen.",
+      "Du weißt sehr genau, wie es sich anfühlt, nicht ganz dazuzugehören. Dein Blick richtet sich oft dorthin, was andere haben und was dir zu fehlen scheint — Leichtigkeit, Anerkennung, einen festen Platz. Als Verstärkungstyp lebst du die Vier-Dynamik besonders deutlich: Neid wird hier zu einer klar spürbaren, innerlich fast unausweichlichen Bewegung des Vergleichens. Das Schwere daran ist: Je mehr du vergleichst, desto mehr entfernst du dich von dem, was du wirklich schon bist. Dein innerer Weg führt nicht dazu, aufzuhören, tief zu fühlen — sondern aufzuhören, deinen Wert im Spiegel anderer zu suchen.",
     grundstrategie:
       "Die soziale Vier sichert Zugehörigkeit und Bedeutung über Besonderheit, emotionale Tiefe und das Sichtbarmachen von Anderssein im sozialen Raum. Sie beobachtet fein, wie andere wirken — und fühlt gleichzeitig, was ihr zu fehlen scheint. Die innere Grundfrage lautet: „Gehöre ich wirklich dazu — oder sieht man mir an, dass ich nicht genüge?“",
     staerken: [
@@ -30,30 +30,30 @@ export const so4 = {
   },
   meinKompass_en: {
     lebensthema:
-      "You know very well what it feels like not quite to belong. Your gaze often turns toward what others have and what seems to be missing for you — ease, recognition, a fixed place. As the amplifier type, you live the Four dynamic most clearly: envy becomes an almost inescapable inner movement of comparison. The difficult part: the more you compare, the further you move from what you already truly are. Your inner path does not lead to stopping feeling deeply — but to stopping searching for your worth in the mirror of others.",
+      "You know very well what it feels like not quite to belong. Your gaze often turns toward what others have and what seems to be missing for you — ease, recognition, a fixed place. As the amplifier type, you live the Four dynamic most clearly: envy becomes a clearly felt, almost inescapable inner movement of comparison. The difficult part is: the more you compare, the further you move from what you already truly are. Your inner path does not lead to ceasing to feel deeply — but to ceasing to look for your worth in the mirror of others.",
     grundstrategie:
-      "The social Four secures belonging and significance through uniqueness, emotional depth, and making visible their differentness in the social space.",
+      "The social Four secures belonging and significance through distinctiveness, emotional depth and making otherness visible in the social space. They observe finely how others come across — and at the same time feel what seems to be missing for them. The inner core question is: ‘Do I truly belong — or can people see that I am not enough?’",
     staerken: [
-      "Emotional depth",
-      "Authenticity",
-      "Sensitivity to beauty and meaning",
-      "Empathy",
-      "Creative self-expression",
+      "fine perception of human vulnerability and shame",
+      "deep compassion and genuine listening",
+      "aesthetic sensibility and a sense for meaning",
+      "emotional differentiation and self-reflection",
+      "authentic expression and creative depth",
+      "connection with what is essential in life",
+      "a touchability that truly reaches others",
     ],
     herausforderungen: [
-      "Envy and comparison",
-      "Feeling of fundamental insufficiency",
-      "Social withdrawal or dramatic attention-seeking",
-      "Idealizing what is absent",
-      "Difficulty accepting ordinary belonging",
+      "Regulating one's own worth strongly through comparison with others",
+      "The feeling of exclusion and shame is intensified by the social context",
+      "Cultivating inner sadness and a sense of lack rather than transforming them",
+      "Losing access to one's own worth when social response is missing",
     ],
     entwicklungspotenzial: [
-      "that they already belong as they are",
-      "that envy can be a compass toward their own desires",
-      "that ordinary moments have depth",
-      "that their worth is not relative to others",
+      "Experiencing one's own worth without constantly searching in the mirror of others.",
+      "Belonging arises from self-acceptance — not from recognition.",
+      "Depth and dignity are already there — they do not have to be earned first.",
     ],
-    wandlung: "From comparison comes self-recognition. From envy comes longing. From longing comes direction.",
+    wandlung: "Comparison becomes self-worth. Shame becomes dignity. The feeling of being an outsider becomes belonging. A sense of lack becomes inner fullness.",
     gedankeFuerHeute:
       "What is already there — in you, in your life — that you have not yet truly seen?",
   },

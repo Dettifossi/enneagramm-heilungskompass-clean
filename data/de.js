@@ -18,16 +18,16 @@ export const subtypeProfiles = {
     deficit: "Vertrauensdefizit",
     passion: "Angst",
     essence: "Mut, Vertrauen, Courage, Standhaftigkeit",
-    focus: "Vertrauen statt Kontrolle",
+    focus: "Ich wähle Vertrauen statt Angst und Verbindung statt Kontrolle.",
     organismQuestion:
       "Wie kann ich sicher sein, dass ich nicht bedroht bin und Unterstützung habe?",
     coreSentence:
       "Wenn du nicht kämpfen musst, um sicher zu sein, entsteht Mut und Vertrauen.",
     title_en: "The Fighter",
     subtitle_en: "Sexual Instinct / Relational Instinct",
-    coreSentence_en: "When you no longer have to fight to feel safe, courage and trust emerge naturally.",
+    coreSentence_en: "When you do not have to fight to be safe, courage and trust arise.",
     archetype_en: "Wolf",
-    focus_en: "Courage instead of control",
+    focus_en: "I choose trust instead of fear and connection instead of control.",
     daily: {
       topic: "Vertrauen wächst im nächsten Schritt",
       impulse: [
@@ -215,9 +215,9 @@ export const subtypeProfiles = {
     coreSentence: "Wenn du Ordnung zulässt, ohne dich zu verhärten, entsteht innere Sicherheit und echte Stabilität.",
     title_en: "The Perfectionist",
     subtitle_en: "Self-Preservation Instinct",
-    coreSentence_en: "When you no longer need everything to be perfect, life becomes lighter and more trustworthy.",
+    coreSentence_en: "When you allow order without hardening yourself, inner security and genuine stability arise.",
     archetype_en: "Eagle",
-    focus_en: "Trust instead of control",
+    focus_en: "Order arises from presence, not from control.",
     daily: {
       topic: "Integrität & Ordnung",
       impulse: [
@@ -377,9 +377,9 @@ export const subtypeProfiles = {
     coreSentence: "Wenn du Vorbild bist, ohne zu richten, entsteht Würde, Klarheit und natürliche Autorität.",
     title_en: "The Principled One",
     subtitle_en: "Social Instinct",
-    coreSentence_en: "When your standards serve connection rather than judgment, your values become a gift to the world.",
+    coreSentence_en: "When you are a role model without judging, dignity, clarity and natural authority arise.",
     archetype_en: "Goose",
-    focus_en: "Principles as a gift, not a verdict",
+    focus_en: "True change arises from wisdom, not from judgement.",
     daily: {
       topic: "Integrität & Ordnung",
       impulse: [
@@ -539,9 +539,9 @@ export const subtypeProfiles = {
     coreSentence: "Wenn du dein Feuer nicht bekämpfst, sondern bewusst führst, wird Leidenschaft klar und heilsam.",
     title_en: "The Zealot",
     subtitle_en: "Sexual Instinct / Relational Instinct",
-    coreSentence_en: "When your fire fuels creation rather than correction, your passion becomes a transformative force.",
+    coreSentence_en: "When you do not fight your fire but guide it consciously, passion becomes clear and healing.",
     archetype_en: "Black Mamba",
-    focus_en: "Fire that creates rather than corrects",
+    focus_en: "True change begins when passion serves a higher purpose.",
     daily: {
       topic: "Integrität & Ordnung",
       impulse: [
@@ -701,9 +701,9 @@ export const subtypeProfiles = {
     coreSentence: "Wenn du deine eigenen Bedürfnisse ernst nimmst, entsteht Nähe ohne Erwartung.",
     title_en: "The Caretaker",
     subtitle_en: "Self-Preservation Instinct",
-    coreSentence_en: "When you allow yourself to receive care, you discover that your needs matter just as much as others'.",
+    coreSentence_en: "When you take your own needs seriously, closeness without expectation arises.",
     archetype_en: "Hippopotamus",
-    focus_en: "Receiving as well as giving",
+    focus_en: "I am a source of care who nourishes myself first.",
     daily: {
       topic: "Liebe & Fürsorge",
       impulse: [
@@ -863,9 +863,9 @@ export const subtypeProfiles = {
     coreSentence: "Wenn du nicht gebraucht werden musst, wird deine Liebe frei, großzügig und liebevoll.",
     title_en: "The Helper",
     subtitle_en: "Social Instinct",
-    coreSentence_en: "When you give from fullness rather than need, your generosity becomes truly free.",
+    coreSentence_en: "When you do not need to be needed, your love becomes free, generous and loving.",
     archetype_en: "Golden Retriever",
-    focus_en: "Generosity from fullness",
+    focus_en: "I give out of love — and receive with an open heart.",
     daily: {
       topic: "Liebe & Fürsorge",
       impulse: [
@@ -1025,9 +1025,9 @@ export const subtypeProfiles = {
     coreSentence: "Wenn du Liebe nicht erobern musst, kann echte Verbundenheit dich wirklich erreichen.",
     title_en: "The Passionate One",
     subtitle_en: "Sexual Instinct / Relational Instinct",
-    coreSentence_en: "When you love without needing to be indispensable, your warmth becomes a gift rather than a claim.",
+    coreSentence_en: "When you do not have to conquer love, genuine connection can truly reach you.",
     archetype_en: "Camel",
-    focus_en: "Love without conditions",
+    focus_en: "I give myself fully and receive genuine connection.",
     daily: {
       topic: "Liebe & Fürsorge",
       impulse: [
@@ -1187,9 +1187,9 @@ export const subtypeProfiles = {
     coreSentence: "Wenn du aufhörst, nur zu funktionieren, erscheint dein Wert ohne Leistung und Anpassung.",
     title_en: "The Pragmatist",
     subtitle_en: "Self-Preservation Instinct",
-    coreSentence_en: "When you no longer need achievement to feel worthy, your competence becomes effortless.",
+    coreSentence_en: "When you stop merely functioning, your worth appears without achievement and adaptation.",
     archetype_en: "Raccoon",
-    focus_en: "Worth without performance",
+    focus_en: "I adapt without losing myself and find support within myself.",
     daily: {
       topic: "Leistung & Erfolg",
       impulse: [
@@ -1344,14 +1344,14 @@ export const subtypeProfiles = {
     deficit: "Wertlosigkeitsdefizit",
     passion: "Eitelkeit",
     essence: "charismatische Wirksamkeit, charismatische Präsenz, klare Zielorientierung, soziale Kompetenz",
-    focus: "Ich nutze meine Fähigkeiten zum Wohl des Ganzen und inspiriere andere durch …",
+    focus: "Ich nutze meine Fähigkeiten zum Wohl des Ganzen und inspiriere andere durch mein echtes Sein.",
     organismQuestion: "Wie kann ich erfolgreich sein und dabei meinen Wert beweisen?",
     coreSentence: "Wenn du nicht glänzen musst, wird deine Wirkung wahrhaftig, menschlich und stark.",
     title_en: "The Achiever",
     subtitle_en: "Social Instinct",
-    coreSentence_en: "When your success serves the whole rather than your image, your effectiveness truly inspires.",
+    coreSentence_en: "When you do not have to shine, your impact becomes truthful, human and strong.",
     archetype_en: "Cheetah",
-    focus_en: "Success that serves the whole",
+    focus_en: "I use my abilities for the good of the whole and inspire others through my genuine being.",
     daily: {
       topic: "Leistung & Erfolg",
       impulse: [
@@ -1511,9 +1511,9 @@ export const subtypeProfiles = {
     coreSentence: "Wenn du dich nicht inszenieren musst, entsteht echte Ausstrahlung aus innerem Wert.",
     title_en: "The Radiant One",
     subtitle_en: "Sexual Instinct / Relational Instinct",
-    coreSentence_en: "When you no longer need to perform to be seen, authentic charisma emerges from within.",
+    coreSentence_en: "When you do not have to stage yourself, genuine radiance arises from inner worth.",
     archetype_en: "Peacock",
-    focus_en: "Authentic radiance from within",
+    focus_en: "I am enough, even when I do not perform – my genuine radiance attracts.",
     daily: {
       topic: "Leistung & Erfolg",
       impulse: [
@@ -1673,9 +1673,9 @@ export const subtypeProfiles = {
     coreSentence: "Wenn du Schmerz nicht still beweisen musst, entsteht würdevolle Lebendigkeit und innere Kraft.",
     title_en: "The Quiet Endurer",
     subtitle_en: "Self-Preservation Instinct",
-    coreSentence_en: "When you let your depth be seen without shame, your sensitivity becomes a source of strength.",
+    coreSentence_en: "When you do not have to silently prove your pain, dignified aliveness and inner strength arise.",
     archetype_en: "Dove",
-    focus_en: "Depth as strength",
+    focus_en: "Peace arises when you stop denying yourself.",
     daily: {
       topic: "Tiefe & Gefühl",
       impulse: [
@@ -1830,14 +1830,14 @@ export const subtypeProfiles = {
     deficit: "Identitätsdefizit",
     passion: "Neid",
     essence: "emotionale Echtheit, emotionale Echtheit, tiefe Verbindung, wertschätzende Ehrlichkeit",
-    focus: "Ich bin wertvoll, genau so, wie ich bin. In Echtheit inspiriere ich echte …",
+    focus: "Ich bin wertvoll, genau so, wie ich bin. In Echtheit inspiriere ich echte Verbindung.",
     organismQuestion: "Wer bin ich wirklich und was macht mich einzigartig?",
     coreSentence: "Wenn du deinen Mangel nicht festhältst, entsteht Zugehörigkeit, Selbstannahme und stille Würde.",
     title_en: "The Sufferer",
     subtitle_en: "Social Instinct",
-    coreSentence_en: "When you allow joy without guilt, your emotional depth opens into genuine connection.",
+    coreSentence_en: "When you do not hold on to your lack, belonging, self-acceptance and quiet dignity arise.",
     archetype_en: "Armadillo",
-    focus_en: "Joy without guilt",
+    focus_en: "I am worthy exactly as I am. In authenticity I inspire genuine connection.",
     daily: {
       topic: "Tiefe und Zugehörigkeit",
       impulse: [
@@ -1997,9 +1997,9 @@ export const subtypeProfiles = {
     coreSentence: "Wenn du Intensität nicht erzwingen musst, wird Tiefe zu Liebe ohne Drama.",
     title_en: "The Passionate Individualist",
     subtitle_en: "Sexual Instinct / Relational Instinct",
-    coreSentence_en: "When your longing becomes presence rather than pursuit, you find what you have always sought.",
+    coreSentence_en: "When you do not have to force intensity, depth becomes love without drama.",
     archetype_en: "Chihuahua",
-    focus_en: "Longing becomes presence",
+    focus_en: "I am unique – and exactly in this lies my connection to the world.",
     daily: {
       topic: "Intensität und emotionale Tiefe",
       impulse: [
@@ -2159,9 +2159,9 @@ export const subtypeProfiles = {
     coreSentence: "Wenn du dem Leben wieder Zugang gewährst, entsteht Sicherheit ohne ständigen Rückzug.",
     title_en: "The Observer",
     subtitle_en: "Self-Preservation Instinct",
-    coreSentence_en: "When you step into life rather than just watching it, your understanding becomes wisdom in action.",
+    coreSentence_en: "When you give life access again, security arises without constant withdrawal.",
     archetype_en: "Owl",
-    focus_en: "Understanding through participation",
+    focus_en: "I trust in my knowledge and choose what truly serves me.",
     daily: {
       topic: "Wissen & Weisheit",
       impulse: [
@@ -2321,9 +2321,9 @@ export const subtypeProfiles = {
     coreSentence: "Wenn Wissen nicht über Menschen steht, entsteht wirkliche Weisheit und lebendiger Kontakt.",
     title_en: "The Professor",
     subtitle_en: "Social Instinct",
-    coreSentence_en: "When you share your knowledge as a bridge rather than a boundary, you become a true guide.",
+    coreSentence_en: "When knowledge does not stand above people, true wisdom and living contact arise.",
     archetype_en: "Octopus",
-    focus_en: "Knowledge as a bridge",
+    focus_en: "I share my knowledge in connection and thereby strengthen the whole.",
     daily: {
       topic: "Wissen & Weisheit",
       impulse: [
@@ -2483,9 +2483,9 @@ export const subtypeProfiles = {
     coreSentence: "Wenn du dich nicht nur im Geheimen öffnest, wird Nähe tragfähig und frei.",
     title_en: "The Confidant",
     subtitle_en: "Sexual Instinct / Relational Instinct",
-    coreSentence_en: "When you trust that connection nourishes rather than depletes you, intimacy becomes possible.",
+    coreSentence_en: "When you do not open yourself only in secret, closeness becomes sustainable and free.",
     archetype_en: "Hedgehog",
-    focus_en: "Intimacy that nourishes",
+    focus_en: "I may show myself and connect without losing myself.",
     daily: {
       topic: "Wissen & Weisheit",
       impulse: [
@@ -2645,9 +2645,9 @@ export const subtypeProfiles = {
     coreSentence: "Wenn du deinem Körper vertraust, entsteht Ruhe, auch wenn nicht alles sicher ist.",
     title_en: "The Anxious One",
     subtitle_en: "Self-Preservation Instinct",
-    coreSentence_en: "When you discover that safety can grow from within, anxiety loses its grip on your life.",
+    coreSentence_en: "When you trust your body, calm arises, even when not everything is certain.",
     archetype_en: "Rabbit",
-    focus_en: "Safety grows from within",
+    focus_en: "I choose trust instead of fear and courage instead of control.",
     daily: {
       topic: "Angst & Treue",
       impulse: [
@@ -2807,9 +2807,9 @@ export const subtypeProfiles = {
     coreSentence: "Wenn Regeln nicht dein Gewissen ersetzen, entsteht innere Standfestigkeit und Freiheit.",
     title_en: "The Loyalist",
     subtitle_en: "Social Instinct",
-    coreSentence_en: "When your loyalty flows from trust rather than fear, your commitment becomes a conscious choice.",
+    coreSentence_en: "When rules do not replace your conscience, inner steadfastness and freedom arise.",
     archetype_en: "Meerkat",
-    focus_en: "Loyalty from trust, not fear",
+    focus_en: "I choose trust instead of fear and connection instead of control.",
     daily: {
       topic: "Angst & Zugehörigkeit",
       impulse: [
@@ -2969,9 +2969,9 @@ export const subtypeProfiles = {
     coreSentence: "Wenn du genug hast, ohne mehr zu brauchen, entsteht wirklicher Genuss und innere Ruhe.",
     title_en: "The Sensualist",
     subtitle_en: "Self-Preservation Instinct",
-    coreSentence_en: "When you allow yourself to stay with what is, pleasure deepens into genuine satisfaction.",
+    coreSentence_en: "When you have enough without needing more, genuine enjoyment and inner calm arise.",
     archetype_en: "Gorilla",
-    focus_en: "Presence deepens pleasure",
+    focus_en: "I choose life in all its depth and give my joy to the world.",
     daily: {
       topic: "Begeisterung & Fülle",
       impulse: [
@@ -3127,9 +3127,9 @@ export const subtypeProfiles = {
     coreSentence: "Wenn du nicht gut sein musst, wird deine Freude ehrlich, frei und nahbar.",
     title_en: "The Visionary",
     subtitle_en: "Social Instinct",
-    coreSentence_en: "When your vision serves the whole rather than your own escape, your enthusiasm becomes truly inspiring.",
+    coreSentence_en: "When you do not have to be good, your joy becomes honest, free and approachable.",
     archetype_en: "Beaver",
-    focus_en: "Vision that serves the whole",
+    focus_en: "I choose life in all its depth and give my joy to the world.",
     daily: {
       topic: "Begeisterung & Fülle",
       impulse: [
@@ -3285,9 +3285,9 @@ export const subtypeProfiles = {
     coreSentence: "Wenn du Tiefe zulässt, statt das Besondere zu jagen, entsteht echte Erfüllung.",
     title_en: "The Adventurer",
     subtitle_en: "Sexual Instinct / Relational Instinct",
-    coreSentence_en: "When you meet depth without fleeing, your joy becomes real rather than restless.",
+    coreSentence_en: "When you allow depth instead of chasing the special, genuine fulfilment arises.",
     archetype_en: "Chimpanzee",
-    focus_en: "Joy through depth",
+    focus_en: "I dive deep into life and allow myself genuine connection.",
     daily: {
       topic: "Begeisterung & Fülle",
       impulse: [
@@ -3443,9 +3443,9 @@ export const subtypeProfiles = {
     coreSentence: "Wenn du Kontrolle loslässt, bleibt deine Kraft lebendig, klar und ohne Härte.",
     title_en: "The Survivor",
     subtitle_en: "Self-Preservation Instinct",
-    coreSentence_en: "When you no longer need to fight to feel powerful, your strength becomes a force for protection.",
+    coreSentence_en: "When you let go of control, your strength stays alive, clear and without hardness.",
     archetype_en: "Orangutan",
-    focus_en: "Strength that protects",
+    focus_en: "I use my strength to protect, to shape and to strengthen life.",
     daily: {
       topic: "Macht & Kontrolle",
       impulse: [
@@ -3596,14 +3596,14 @@ export const subtypeProfiles = {
     deficit: "Verletzlichkeitsdefizit",
     passion: "Wollust",
     essence: "führungsstark, gerecht, beschützend, organisiert",
-    focus: "Ich nutze meine Kraft weise, um zu schützen, zu führen und das Leben zu …",
+    focus: "Ich nutze meine Kraft weise, um zu schützen, zu führen und das Leben zu gestalten.",
     organismQuestion: "Wie kann ich meine Grenzen wahren, für mich einstehen und schützen, was mir wichtig ist?",
     coreSentence: "Wenn Schutz nicht Besitz wird, entsteht starke, gerechte und vertrauensvolle Führung.",
     title_en: "The Protector",
     subtitle_en: "Social Instinct",
-    coreSentence_en: "When your power serves justice rather than dominance, your strength becomes a true shelter.",
+    coreSentence_en: "When protection does not become possession, strong, just and trusting leadership arises.",
     archetype_en: "Lion",
-    focus_en: "Power in service of justice",
+    focus_en: "I use my strength wisely, to protect, to lead and to shape life.",
     daily: {
       topic: "Macht & Kontrolle",
       impulse: [
@@ -3754,14 +3754,14 @@ export const subtypeProfiles = {
     deficit: "Verletzlichkeitsdefizit",
     passion: "Wollust",
     essence: "magnetisch, intensiv, leidenschaftlich, souverän",
-    focus: "Ich nutze meine magnetische Kraft, um zu lieben, zu schützen und das Leben in …",
+    focus: "Ich nutze meine magnetische Kraft, um zu lieben, zu schützen und das Leben in seiner Tiefe zu erfahren.",
     organismQuestion: "Wie kann ich meine Grenzen wahren, für mich einstehen und schützen, was mir wichtig ist?",
     coreSentence: "Wenn du Intensität nicht mit Kampf verwechselst, entsteht Nähe und Vertrauen ohne Machtprobe.",
     title_en: "The Challenger",
     subtitle_en: "Sexual Instinct / Relational Instinct",
-    coreSentence_en: "When your intensity meets tenderness, your power becomes the ground for genuine union.",
+    coreSentence_en: "When you do not confuse intensity with fighting, closeness and trust arise without a test of power.",
     archetype_en: "Crocodile",
-    focus_en: "Intensity meets tenderness",
+    focus_en: "I use my magnetic strength to love, to protect and to experience life in its depth.",
     daily: {
       topic: "Macht & Kontrolle",
       impulse: [
@@ -3912,14 +3912,14 @@ export const subtypeProfiles = {
     deficit: "Präsenzdefizit",
     passion: "Trägheit",
     essence: "ruhig, geerdet, standhaft, weise",
-    focus: "Ich nutze meine Kraft, um in innerem Frieden zu leben und das Leben bewusst …",
+    focus: "Ich nutze meine Kraft, um in innerem Frieden zu leben und das Leben bewusst zu gestalten.",
     organismQuestion: "Wie kann ich in Frieden bleiben und Harmonie bewahren, in mir und um mich herum?",
     coreSentence: "Wenn du dich selbst wichtig nimmst und nicht betäubst, entsteht lebendige innere Präsenz.",
     title_en: "The Comfort-Seeker",
     subtitle_en: "Self-Preservation Instinct",
-    coreSentence_en: "When you discover that your presence matters, the need to disappear quietly fades away.",
+    coreSentence_en: "When you take yourself seriously and do not numb yourself, living inner presence arises.",
     archetype_en: "Elephant",
-    focus_en: "Your presence matters",
+    focus_en: "I use my strength to live in inner peace and to shape life consciously.",
     daily: {
       topic: "Weisheit & Gerechtigkeit",
       impulse: [
@@ -4070,14 +4070,14 @@ export const subtypeProfiles = {
     deficit: "Präsenzdefizit",
     passion: "Trägheit",
     essence: "verbindend, gelassen, standhaft, ausgleichend",
-    focus: "Ich nutze meine Kraft, um in Verbindung zu leben und das Leben bewusst zu …",
+    focus: "Ich nutze meine Kraft, um in Verbindung zu leben und das Leben bewusst zu gestalten.",
     organismQuestion: "Wie kann ich in Frieden bleiben und Harmonie bewahren, in mir und um mich herum?",
     coreSentence: "Wenn Zugehörigkeit nicht Selbstvergessenheit bedeutet, entsteht echte und stabile Gemeinschaft.",
     title_en: "The Benefactor",
     subtitle_en: "Social Instinct",
-    coreSentence_en: "When you include yourself in the harmony you create, your peace becomes complete.",
+    coreSentence_en: "When belonging does not mean self-forgetting, genuine and stable community arises.",
     archetype_en: "Buffalo",
-    focus_en: "Include yourself in the harmony",
+    focus_en: "I use my strength to live in connection and to shape life consciously.",
     daily: {
       topic: "Harmonie & Ausgleich",
       impulse: [
@@ -4228,14 +4228,14 @@ export const subtypeProfiles = {
     deficit: "Präsenzdefizit",
     passion: "Trägheit",
     essence: "hingebungsvoll, mitfühlend, friedlich, verbunden",
-    focus: "Ich nutze meine Kraft, um Liebe, Mitgefühl und Weisheit zu leben und das …",
+    focus: "Ich nutze meine Kraft, um Liebe, Mitgefühl und Weisheit zu leben und das Leben in seiner Einheit zu ehren.",
     organismQuestion: "Wie kann ich in Frieden bleiben und Harmonie bewahren, in mir und um mich herum?",
     coreSentence: "Wenn Verschmelzung nicht zum Selbstverlust führt, kann Liebe wirklich zur Begegnung werden.",
     title_en: "The Merging One",
     subtitle_en: "Sexual Instinct / Relational Instinct",
-    coreSentence_en: "When you stay with yourself while opening to another, union becomes possible without losing yourself.",
+    coreSentence_en: "When merging does not lead to loss of self, love can truly become encounter.",
     archetype_en: "Sloth",
-    focus_en: "Union without losing yourself",
+    focus_en: "I use my strength to live love, compassion and wisdom and to honour life in its unity.",
     daily: {
       topic: "Verschmelzung & Frieden",
       impulse: [
@@ -5119,7 +5119,7 @@ export const werkRegister = [
 // ---------------------------------------------------------------------------
 //  subtypeDetails — aufgeteilt in data/subtypes/<key>.js
 // ---------------------------------------------------------------------------
-export { subtypeDetails } from './subtypes/index.js?v=2026-07-17-archetype-v1';
+export { subtypeDetails } from './subtypes/index.js?v=2026-11-01-typen-v1';
 
 
 export const uiText = {

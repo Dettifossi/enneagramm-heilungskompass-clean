@@ -1,7 +1,9 @@
 export const sx8 = {
   meinKompass: {
-    lebensthema: "Du willst das Leben ganz — intensiv, echt, ohne Halbheiten. Als Verstärkungstyp unter den Achtern lebst du die Kraft am leidenschaftlichsten: Du rebellierst gegen Konventionen, ziehst an, was du begehrst, und gibst dich dem Moment ganz hin. Wie das Krokodil bist du fasziniert von Intensität und Macht — du willst besitzen, herausfordern, das Echte spüren. Deine magnetische Ausstrahlung zieht andere in deinen Bann. Die Falle: Nähe kann zur Machtprobe werden, und Intensität verwechselt sich leicht mit Kampf. Dein innerer Weg führt nicht dorthin, zahmer zu werden — sondern zu erfahren, dass echte Nähe ohne Eroberung tiefer trägt.",
-    grundstrategie: "Die sexuelle Acht sucht Lebendigkeit in Intensität, Rebellion und leidenschaftlicher Hingabe — als Verstärkungstyp lebt sie die Kraft am sichtbarsten: besitzergreifend, herausfordernd, magnetisch, auf der Suche nach dem ganz Echten.",
+    lebensthema:
+      "Du willst das Leben ganz — intensiv, echt, ohne Halbheiten. Als Verstärkungstyp unter den Achtern lebst du die Kraft am leidenschaftlichsten: Du rebellierst gegen Konventionen, ziehst an, was du begehrst, und gibst dich dem Moment ganz hin. Wie das Krokodil bist du fasziniert von Intensität und Macht — du willst besitzen, herausfordern, das Echte spüren. Deine magnetische Ausstrahlung zieht andere in deinen Bann. Die Falle: Nähe kann zur Machtprobe werden, und Intensität verwechselt sich leicht mit Kampf. Dein innerer Weg führt nicht dorthin, zahmer zu werden — sondern zu erfahren, dass echte Nähe ohne Eroberung tiefer trägt.",
+    grundstrategie:
+      "Die sexuelle Acht sucht Lebendigkeit in Intensität, Rebellion und leidenschaftlicher Hingabe — als Verstärkungstyp lebt sie die Kraft am sichtbarsten: besitzergreifend, herausfordernd, magnetisch, auf der Suche nach dem ganz Echten.",
     staerken: [
       "magnetisch und mitreißend",
       "leidenschaftlich und lebenshungrig",
@@ -23,34 +25,35 @@ export const sx8 = {
       "Erfahren, dass Nähe ohne Eroberung tiefer trägt.",
     ],
     wandlung: "Aus Kampf wird Begegnung. Aus Besitz wird freie Verbindung. Aus Eroberung wird Herzensnähe.",
-    gedankeFuerHeute: "Wenn ich Intensität nicht mit Kampf verwechsle, entsteht Nähe ohne Machtprobe.",
+    gedankeFuerHeute:
+      "Wenn ich Intensität nicht mit Kampf verwechsle, entsteht Nähe ohne Machtprobe.",
   },
   meinKompass_en: {
     lebensthema:
-      "You want life completely — intensely, authentically, without half-measures. As the amplifier type among the Eights, you live strength most passionately: you rebel against conventions, pull toward what you desire, and give yourself wholly to the moment. Your magnetic presence draws others in. The trap: closeness can become a power struggle, and intensity easily confuses itself with combat. Your inner path does not lead to becoming tamer — but to experiencing that genuine closeness without conquest runs deeper.",
+      "You want life whole — intense, real, without half measures. As the amplifier type among the Eights, you live strength most passionately: you rebel against conventions, draw in what you desire and give yourself fully to the moment. Like the crocodile, you are fascinated by intensity and power — you want to possess, to challenge, to feel what is real. Your magnetic radiance draws others under your spell. The trap: closeness can become a test of power, and intensity is easily confused with fighting. Your inner path does not lead to becoming tamer — but to experiencing that genuine closeness without conquest carries deeper.",
     grundstrategie:
-      "The sexual Eight seeks aliveness in intensity, rebellion, and passionate surrender — as the amplifier type, they live the Eight dynamic most powerfully.",
+      "The sexual Eight seeks aliveness in intensity, rebellion and passionate devotion — as the amplifier type they live strength most visibly: possessive, challenging, magnetic, in search of what is wholly real.",
     staerken: [
-      "Magnetic presence",
-      "Passion",
-      "Courage to go all in",
-      "Authenticity",
-      "Ability to awaken others",
+      "magnetic and stirring",
+      "passionate and hungry for life",
+      "courageous and uncompromisingly real",
+      "sovereign and present",
+      "loyal and protective in closeness",
+      "capable of deep, intense bonding",
+      "strength that sets others in motion",
     ],
     herausforderungen: [
-      "Difficulty with vulnerability in closeness",
-      "Tendency toward dominance in relationships",
-      "Intensity that can overwhelm others",
-      "Difficulty sustaining gentle contact",
-      "Confusing conquest with genuine union",
+      "Intensity is easily confused with fighting and confrontation",
+      "Closeness becomes a test of power; boundaries are crossed",
+      "Wanting to possess instead of free connection",
+      "Energy appears overwhelming, impulsive and hard to regulate",
     ],
     entwicklungspotenzial: [
-      "that depth is possible without dominance",
-      "that genuine encounter requires allowing the other to be other",
-      "that surrender is also a form of strength",
-      "that intensity can be gentle",
+      "Meeting others powerfully without having to create pressure or dominance.",
+      "Staying open to closeness, trust and emotional honesty.",
+      "Experiencing that closeness without conquest carries deeper.",
     ],
-    wandlung: "From conquest comes encounter. From dominance comes presence. From passionate possession comes genuine union.",
+    wandlung: "Fighting becomes encounter. Possession becomes free connection. Conquest becomes closeness of the heart.",
     gedankeFuerHeute:
       "What would it feel like today to be fully present with someone — without needing to win?",
   },

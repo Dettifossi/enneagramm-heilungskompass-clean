@@ -1,7 +1,9 @@
 export const se8 = {
   meinKompass: {
-    lebensthema: "Du sorgst dafür, dass du überlebst und dir niemand zu nahe kommt. Als Normaltyp unter den Achtern lebst du die Kraft am direktesten und unprätentiösesten: Es geht um Autonomie, ums Bekommen, was du brauchst, und darum, von niemandem abhängig zu sein. Wie der Orang-Utan brauchst du dein Revier, deine Unabhängigkeit, deine handfeste Sicherheit. Du redest nicht viel über Stärke — du lebst sie einfach, praktisch und kompromisslos. Was darunter besonders stark geschützt wird, ist die Verletzlichkeit, die jeder Achter in sich trägt. Dein innerer Weg führt nicht dorthin, schwächer zu werden — sondern zu erfahren, dass du auch dann sicher bist, wenn du dich öffnest.",
-    grundstrategie: "Die selbsterhaltende Acht sichert sich über Autonomie, Selbstbehauptung und das handfeste Erfüllen der eigenen Bedürfnisse — als Normaltyp lebt sie die Kraft am direktesten: unabhängig, kompromisslos, auf das eigene Überleben und Revier bedacht.",
+    lebensthema:
+      "Du sorgst dafür, dass du überlebst und dir niemand zu nahe kommt. Als Normaltyp unter den Achtern lebst du die Kraft am direktesten und unprätentiösesten: Es geht um Autonomie, ums Bekommen, was du brauchst, und darum, von niemandem abhängig zu sein. Wie der Orang-Utan brauchst du dein Revier, deine Unabhängigkeit, deine handfeste Sicherheit. Du redest nicht viel über Stärke — du lebst sie einfach, praktisch und kompromisslos. Was darunter besonders stark geschützt wird, ist die Verletzlichkeit, die jeder Achter in sich trägt. Dein innerer Weg führt nicht dorthin, schwächer zu werden — sondern zu erfahren, dass du auch dann sicher bist, wenn du dich öffnest.",
+    grundstrategie:
+      "Die selbsterhaltende Acht sichert sich über Autonomie, Selbstbehauptung und das handfeste Erfüllen der eigenen Bedürfnisse — als Normaltyp lebt sie die Kraft am direktesten: unabhängig, kompromisslos, auf das eigene Überleben und Revier bedacht.",
     staerken: [
       "selbstbestimmt und unabhängig",
       "standhaft und durchsetzungsstark",
@@ -23,34 +25,35 @@ export const se8 = {
       "Erfahren, dass Sich-Öffnen nicht schwächt, sondern verbindet.",
     ],
     wandlung: "Aus Kontrolle wird Vertrauen. Aus Härte wird lebendige Kraft. Aus Autonomie wird echte Verbundenheit.",
-    gedankeFuerHeute: "Wenn ich Kontrolle loslasse, bleibt meine Kraft lebendig, klar und ohne Härte.",
+    gedankeFuerHeute:
+      "Wenn ich Kontrolle loslasse, bleibt meine Kraft lebendig, klar und ohne Härte.",
   },
   meinKompass_en: {
     lebensthema:
-      "You make sure you survive and that no one gets too close. As the standard type among the Eights, you live strength most directly and unpretentiously: it is about autonomy, getting what you need, and not being dependent on anyone. You do not talk much about strength — you simply live it, practically and without compromise. What is especially strongly protected beneath is the vulnerability that every Eight carries. Your inner path does not lead to becoming weaker — but to experiencing that you are also safe when you open up.",
+      "You make sure that you survive and that no one gets too close. As the normal type among the Eights, you live strength most directly and unpretentiously: it is about autonomy, about getting what you need, and about depending on no one. Like the orangutan, you need your territory, your independence, your solid security. You do not talk much about strength — you simply live it, practically and uncompromisingly. What is protected especially strongly beneath this is the vulnerability that every Eight carries within. Your inner path does not lead to becoming weaker — but to experiencing that you are safe even when you open up.",
     grundstrategie:
-      "The self-preservation Eight secures through autonomy, self-assertion, and concretely fulfilling their own needs.",
+      "The self-preservation Eight secures themselves through autonomy, self-assertion and the solid fulfilment of their own needs — as the normal type they live strength most directly: independent, uncompromising, concerned with their own survival and territory.",
     staerken: [
-      "Self-sufficiency",
-      "Directness",
-      "Practical strength",
-      "Courage",
-      "Ability to assert clear boundaries",
+      "self-determined and independent",
+      "steadfast and assertive",
+      "practical and capable of action",
+      "courageous and uncompromising",
+      "reliable for their own people",
+      "clear, unpretentious directness",
+      "strength that gives security",
     ],
     herausforderungen: [
-      "Difficulty with vulnerability",
-      "Tendency toward isolation",
-      "Distrust",
-      "Dominance in relationships",
-      "Difficulty asking for help",
+      "Autonomy and control in order to avoid dependence",
+      "Cutting off access to soft, vulnerable sides",
+      "Finding it hard to accept support or to show neediness",
+      "Energy appears hard, dominant and constantly tense",
     ],
     entwicklungspotenzial: [
-      "that vulnerability is also a form of strength",
-      "that support does not mean losing autonomy",
-      "that trust can be built gradually",
-      "that closeness does not have to threaten independence",
+      "Using strength without constantly having to control or fight.",
+      "Allowing trust, openness and genuine vulnerability.",
+      "Experiencing that opening up does not weaken but connects.",
     ],
-    wandlung: "From isolation comes chosen connection. From self-sufficiency comes shared strength. From protection comes openness.",
+    wandlung: "Control becomes trust. Hardness becomes living strength. Autonomy becomes genuine connection.",
     gedankeFuerHeute:
       "What would you allow today — from someone you trust — that you usually handle alone?",
   },

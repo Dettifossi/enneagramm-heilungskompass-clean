@@ -1,7 +1,9 @@
 export const se7 = {
   meinKompass: {
-    lebensthema: "Du liebst das Leben in seiner Fülle — und du sorgst praktisch dafür, dass es dir an nichts fehlt. Als Normaltyp unter den Siebenern lebst du die Völlerei am bodenständigsten: Du genießt, planst, vernetzt dich und schaffst dir Verbündete und Annehmlichkeiten, die das Leben angenehm machen. Wo andere Siebener in Ideen schwärmen, bist du der genussvolle Macher, der weiß, wie man sich ein gutes Leben einrichtet. Was darunter manchmal verborgen liegt: dieselbe Angst vor Mangel und Leere wie bei allen Siebenern, nur in praktische Fülle übersetzt. Dein innerer Weg führt nicht dorthin, weniger zu genießen — sondern zu erfahren, dass auch Stille und Begrenzung genug sein können.",
-    grundstrategie: "Die selbsterhaltende Sieben sichert sich über praktischen Genuss, gute Planung und nützliche Verbündete — als Normaltyp übersetzt sie die Völlerei in konkrete Fülle: angenehme Erfahrungen, Netzwerke und Vorsorge, damit es nie an etwas mangelt.",
+    lebensthema:
+      "Du liebst das Leben in seiner Fülle — und du sorgst praktisch dafür, dass es dir an nichts fehlt. Als Normaltyp unter den Siebenern lebst du die Völlerei am bodenständigsten: Du genießt, planst, vernetzt dich und schaffst dir Verbündete und Annehmlichkeiten, die das Leben angenehm machen. Wo andere Siebener in Ideen schwärmen, bist du der genussvolle Macher, der weiß, wie man sich ein gutes Leben einrichtet. Was darunter manchmal verborgen liegt: dieselbe Angst vor Mangel und Leere wie bei allen Siebenern, nur in praktische Fülle übersetzt. Dein innerer Weg führt nicht dorthin, weniger zu genießen — sondern zu erfahren, dass auch Stille und Begrenzung genug sein können.",
+    grundstrategie:
+      "Die selbsterhaltende Sieben sichert sich über praktischen Genuss, gute Planung und nützliche Verbündete — als Normaltyp übersetzt sie die Völlerei in konkrete Fülle: angenehme Erfahrungen, Netzwerke und Vorsorge, damit es nie an etwas mangelt.",
     staerken: [
       "lebensfroh und genussfähig",
       "praktisch und vorausschauend planend",
@@ -23,34 +25,35 @@ export const se7 = {
       "Erfahren, dass weniger genug sein kann.",
     ],
     wandlung: "Aus Anhäufen wird Genügsamkeit. Aus Reizsuche wird Präsenz. Aus äußerer Fülle wird innere Ruhe.",
-    gedankeFuerHeute: "Wenn ich genug habe, ohne mehr zu brauchen, entsteht wirklicher Genuss.",
+    gedankeFuerHeute:
+      "Wenn ich genug habe, ohne mehr zu brauchen, entsteht wirklicher Genuss.",
   },
   meinKompass_en: {
     lebensthema:
-      "You love life in its fullness — and you take care practically to ensure you lack nothing. As the standard type among the Sevens, you live gluttony most grounded: you enjoy, plan, network, and create allies and comforts that make life pleasant. What is sometimes hidden beneath: the same fear of lack and emptiness as all Sevens, only translated into practical fullness. Your inner path does not lead to enjoying less — but to experiencing that stillness and limitation can also be enough.",
+      "You love life in its fullness — and you see to it, practically, that you lack nothing. As the normal type among the Sevens, you live gluttony most down to earth: you enjoy, plan, network and create allies and comforts that make life pleasant. Where other Sevens rave about ideas, you are the pleasure-loving doer who knows how to set up a good life. What sometimes lies hidden beneath: the same fear of lack and emptiness as in all Sevens, only translated into practical abundance. Your inner path does not lead to enjoying less — but to experiencing that stillness and limitation can also be enough.",
     grundstrategie:
-      "The self-preservation Seven secures through practical enjoyment, good planning, and networks of pleasure — as the standard type, they live the gluttony most tangibly.",
+      "The self-preservation Seven secures themselves through practical enjoyment, good planning and useful allies — as the normal type they translate gluttony into concrete abundance: pleasant experiences, networks and provisions, so that nothing is ever lacking.",
     staerken: [
-      "Enjoyment of life",
-      "Practical planning",
-      "Networking",
-      "Optimism",
-      "Ability to create comfort and pleasure",
+      "full of the joy of life and able to enjoy",
+      "practical and forward-planning",
+      "warm-hearted and connecting",
+      "resourceful and inventive",
+      "optimistic and energetic",
+      "down to earth in implementation",
+      "generous in sharing joy",
     ],
     herausforderungen: [
-      "Avoiding depth and pain through pleasure",
-      "Overindulgence and excess",
-      "Difficulty with commitment",
-      "Fear of deprivation",
-      "Restlessness when stillness arrives",
+      "Seeking security by accumulating comforts and possibilities",
+      "Covering unpleasant feelings and inner emptiness with enjoyment",
+      "Finding it hard to have enough without wanting more",
+      "Energy appears restless, scattered and permanently stimulated",
     ],
     entwicklungspotenzial: [
-      "that limitation can also feel abundant",
-      "that stillness is not emptiness",
-      "that discomfort does not last forever",
-      "that depth is reachable without losing lightness",
+      "Enjoying without avoiding the present moment.",
+      "Allowing stillness, limitation and depth as well.",
+      "Experiencing that less can be enough.",
     ],
-    wandlung: "From seeking more comes finding enough. From planning ahead comes being present. From fullness outside comes fullness within.",
+    wandlung: "Accumulating becomes contentment. The search for stimulation becomes presence. Outer abundance becomes inner calm.",
     gedankeFuerHeute:
       "What is already here — right now — that is truly enough?",
   },
