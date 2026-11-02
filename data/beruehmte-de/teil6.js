@@ -491,6 +491,7 @@ export function elvisPresleyPortraitPage() {
         {route:"beruehmte-giacomo-casanova", label:"Porträt: Giacomo Casanova (SX2w3)"},
         {route:"beruehmte-mata-hari", label:"Porträt: Mata Hari (SX2w3)"},
         {route:"enneagramm-homoeopathie", label:"Enneagramm &amp; Homöopathie"},
+        {route:"beruehmte-karin-thaler", label:"Porträt: Karin Thaler (SX2w3)"},
       ])}
     </div>
   `);
@@ -2312,7 +2313,7 @@ export function sigourneyWeaverPortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Sieben: Vielfalt als Verpflichtung, nicht als Vergnügen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> ist im Enneagramm ein Kontratyp: Während die selbsterhaltende und die sexuelle Sieben ihre Maßlosigkeit relativ offen ausleben, wendet die soziale Sieben dieselbe Energie nach innen um – Naranjo nannte sie die „Non-Gluttony", die Nicht-Völlerei. Nicht Genuss um seiner selbst willen treibt sie an, sondern das Gefühl, der Gruppe, dem Werk oder der Sache etwas schuldig zu sein – Idealismus, der sich in Pflichterfüllung übersetzt, oft bis zur Selbstaufopferung.</p>
+          <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> ist im Enneagramm ein Kontratyp: Während die selbsterhaltende und die sexuelle Sieben ihre Maßlosigkeit relativ offen ausleben, wendet die soziale Sieben dieselbe Energie nach innen um – Naranjo nannte sie die „Kontra-Völlerei". Nicht Genuss um seiner selbst willen treibt sie an, sondern das Gefühl, der Gruppe, dem Werk oder der Sache etwas schuldig zu sein – Idealismus, der sich in Pflichterfüllung übersetzt, oft bis zur Selbstaufopferung.</p>
           <p class="vb-intro">Bei Weaver zeigt sich das in einer Karriere, die über fünfzig Jahre bewusst zwischen Extremen pendelt, statt sich in einem Genre zu wiederholen: Body-Horror in „Alien", Primatenforschung in „Gorillas im Nebel" (mit körperlicher Annäherung an echte Berggorillas monatelang vor Ort), scharfe Komödie in „Ghostbusters" und „Galaxy Quest", Bühnenarbeit am Broadway parallel zu Hollywood-Blockbustern. Keine Verlegenheitsentscheidung, sondern das gezielte Bespielen möglichst vieler Facetten des eigenen Handwerks – eine stimmliche und körperliche Bandbreite, die sie ebenso glaubwürdig eine außerirdische Bedrohung anschreien wie eine satirische Randfigur komödiantisch timen lässt.</p>
         </blockquote>
 
@@ -3052,6 +3053,155 @@ export function martinaGedeckPortraitPage() {
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
         {route:"beruehmte-catherine-deneuve", label:"Porträt: Catherine Deneuve (SE3w4)"},
         {route:"beruehmte-caren-miosga", label:"Porträt: Caren Miosga (SE3w4)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
+
+// ZURÜCKGESTELLT (27.10.2026): Porträt unveröffentlicht – nicht in Route-Map, Array, Register, Changelog. Wiederherstellung: siehe Memory project_kachelmann_zurueckgestellt.
+export function joergKachelmannPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-joerg-kachelmann-portrait.jpg" alt="Jörg Kachelmann – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jörg Kachelmann</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Sozialer Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Schweizer Meteorologe und Moderator, geb. 1958 &ndash; Tierentsprechung: Büffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Büffel: der Mann, der das Wetter erklärt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Büffel</strong> lebt in der Herde und kennt das Wetter besser als jeder andere in ihr: Er spürt den Wechsel, lange bevor die Wolken kommen. Jörg Kachelmann kam am 15. Juli 1958 in Lörrach zur Welt. Sein Vater war Bahnbeamter aus Franken, seine Mutter stammte aus Ostpreußen. Er wuchs in Schaffhausen in der Schweiz auf und erhielt mit 20 Jahren die Schweizer Staatsbürgerschaft.</p>
+          <p class="vb-intro">An der Universität Zürich studierte er Geografie, Mathematik und Physik mit Meteorologie als Nebenfach und verließ sie 1983 kurz vor den Prüfungen. Er begann als Volontär beim ›SonntagsBlick‹, arbeitete für Radio Munot, das Schweizer Fernsehen und die ›Schweizer Illustrierte‹, wo er 1988 stellvertretender Chefredakteur wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Teilhabe durch ein gemeinsames Thema</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bei der sozialen Neun richtet sich das Streben nach Verbundenheit auf die Gemeinschaft; Claudio Naranjo nannte den Subtyp die Teilhabe. Die Neun findet ihren Platz, indem sie mit anderen an einer gemeinsamen Sache teilnimmt. Bei Kachelmann lässt sich das mit dem Thema verbinden, das jeden betrifft: dem Wetter. Es braucht keine Einladung, es gehört allen, und wer es verständlich macht, gehört dazu.</p>
+          <p class="vb-intro">Seit 1994 präsentierte er das Wetter in der ARD (›Das Wetter im Ersten‹), moderierte Talkshows wie ›Riverboat‹ und eine eigene Sendung beim MDR, und von 2019 bis 2022 war er wieder Co-Moderator bei ›Riverboat‹. Das Gesicht auf der Zeichnung wirkt zugewandt und gelassen, mit einem leisen Lächeln, das zur Rolle des Erklärers passt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Genauigkeit, Kritik und der Anspruch, dass es stimmt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der Neun einen inneren Maßstab: Es soll richtig sein. Bei Kachelmann zeigt sich das im Streit um Genauigkeit. Er kritisierte 2002 die Warnungen des Deutschen Wetterdienstes, und 2006 gab es eine gerichtliche Auseinandersetzung mit der Behörde. Zusammen mit dem Journalisten Christoph Drösser schrieb er das ›Lexikon der Wetterirrtümer‹ (2006), das verbreitete Wettermythen zurechtrückt. Er wendet sich auch gegen Chemtrail-Theorien und kritisiert das Wolkenimpfen zur Hagelverhütung.</p>
+          <p class="vb-intro">In Debatten über Klimawandel und Waldbrände vertritt er Positionen, denen Klimaforscher widersprechen. Das gehört zum Bild eines Mannes, der Genauigkeit einfordert und dabei selbst gern das letzte Wort behalten will.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: ein eigenes Wetterhaus gebaut</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1990 gründete er die Wetterfirma Meteomedia AG, die er 2013 an MeteoGroup verkaufte; Anfang 2013 schied er dort aus und arbeitete freiberuflich als Berater. Seit 2005 führt er in Oklahoma die Wetterfirma WeatherOK, Inc. Nach 2011 kehrte er mit regionalen Radio- und Fernsehbeiträgen, Wetterinhalten für YouTube und einer eigenen Wetterplattform zurück. Er verbindet damit das, was die soziale Neun auszeichnet, mit dem, was der Einserflügel verlangt: etwas, das alle nutzen, und das korrekt ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Jens Riewa, Dieter Thomas Heck und Hans Sigl</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-jens-riewa">Jens Riewa (SO9w1)</a> ist wie Kachelmann ein Fernsehgesicht, das der Gemeinschaft Nachrichten erklärt, und <a href="#beruehmte-dieter-thomas-heck">Dieter Thomas Heck (SO9w1)</a> hielt als Moderator über Jahrzehnte ein Publikum zusammen. <a href="#beruehmte-hans-sigl">Hans Sigl (SO9w1)</a> zeigt dieselbe Konstellation als Schauspieler. Bei Kachelmann kommt der Streit um die Genauigkeit hinzu, den der Einserflügel stärker färbt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Verfahren von 2010 und 2011 (Stand 26. Oktober 2026)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im März 2010 wurde Kachelmann wegen eines Vergewaltigungsvorwurfs festgenommen und im Mai 2010 angeklagt. Das Landgericht Mannheim sprach ihn am 31. Mai 2011 frei. Staatsanwaltschaft und Nebenklägerin zogen ihre Rechtsmittel zurück, der Freispruch wurde im Oktober 2011 rechtskräftig. Dieses Porträt wertet den Vorwurf nicht, sondern hält fest, dass das Verfahren mit dem Freispruch endete.</p>
+          <p class="vb-intro">Danach folgten weitere Verfahren: 2016 gewann er einen Kostenprozess gegen seine frühere Partnerin, und von Axel Springer erhielt er Schadensersatz, den ein Gericht in der Berufung verringerte. 2019 erging zudem ein Urteil des Europäischen Gerichtshofs für Menschenrechte zu einem von der ›Bild‹-Zeitung veröffentlichten Foto. Mit seiner Frau Miriam schrieb er das Buch ›Recht und Gerechtigkeit. Ein Märchen aus der Provinz‹ (2012). Er heiratete sie 2011, sie leben in der Schweiz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Was bleibt: ein Erklärer, der sich einmischt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die soziale Neun mit Einserflügel gleicht Spannungen im Gemeinsamen aus und hat dabei einen strengen inneren Richter. Heilsam wäre für diesen Subtyp, die eigene Stimme auch dann zu behalten, wenn nicht gleich alle zustimmen, und den Anspruch auf Richtigkeit nicht allein zu tragen. Dass Kachelmann nach 2011 öffentlich blieb und wieder in der Gemeinschaft des Fernsehpublikums auftrat, lässt sich in diesem Sinn lesen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
+        {route:"beruehmte-jens-riewa", label:"Porträt: Jens Riewa (SO9w1)"},
+        {route:"beruehmte-dieter-thomas-heck", label:"Porträt: Dieter Thomas Heck (SO9w1)"},
+        {route:"beruehmte-hans-sigl", label:"Porträt: Hans Sigl (SO9w1)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
+
+export function heinoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-heino-portrait.jpg" alt="Heino – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Heino</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexueller Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Sänger (Volkslieder und Schlager), geb. 1938 &ndash; ›Blau blüht der Enzian‹ &ndash; Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Pfau: der Bäckerlehrling aus Düsseldorf-Oberbilk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> schlägt sein Rad nicht für sich allein, sondern dann, wenn jemand zusieht. Heino wurde am 13. Dezember 1938 in Düsseldorf-Oberbilk als Heinz Georg Kramm geboren. Sein Vater, der Zahnarzt Heinrich Fritz Kramm, fiel am 2. August 1941 im Krieg; seine Mutter Franziska zog ihn und seine Schwester auf. Die Familie lebte bis 1945 in Pommern, wohin sie evakuiert worden war, und kehrte nach Kriegsende nach Düsseldorf zurück.</p>
+          <p class="vb-intro">Die Mutter kaufte ihm ein Akkordeon, bestand aber auf einer Berufsausbildung: Ab August 1952 machte er eine Lehre als Bäcker und Konditor, im Juni 1955 legte er die Gesellenprüfung ab. 1961 sang er im Trio ›OK Singers‹ mit nur mäßigem Erfolg. 1965 entdeckte ihn in Quakenbrück der Produzent Ralf Bendix, der ihn rund zwanzig Jahre lang betreute; die B-Seite seiner ersten Single, ›Jenseits des Tales‹, verkaufte sich über 100.000-mal.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: eine Darbietung, die für das Gegenüber gemacht ist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> fasst die sexuelle Drei als ›Charisma‹: die besondere Art, durch persönliche Ausstrahlung Bewunderung zu wecken. In der Enneagramm-Überlieferung wird sie bildhaft auch als der Star oder Movie Star beschrieben, der seine Wirkung ganz auf das Gegenüber richtet. Bei Heino lässt sich das mit der Kunstfigur verbinden, die er über Jahrzehnte aufrechterhalten hat: Aus dem Toupet macht er kein Geheimnis, und die dunkle Sonnenbrille trägt er seit den 1970er-Jahren, nach Berichten wegen hervortretender Augen durch Morbus Basedow. Selbst auf dem Personalausweis (Bad Münstereifel, 2009) trägt er sie.</p>
+          <p class="vb-intro">Die Zeichnung zeigt dichtes, helles, zerzaust gelegtes Haar, eine hohe Stirn mit Querfalten und eine dunkle, eckige Brille mit getönten Gläsern, hinter denen große, wache Augen mit Fältchen und Tränensäcken zu sehen sind. Der Mund ist zu einem breiten Lächeln geöffnet, die Zähne sind sichtbar. Er trägt einen weißen Hemdkragen und ein dunkles Sakko. Der Blick geht gerade nach vorn und wirkt zugewandt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Zuwendung an das Publikum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der Drei Zuwendung und Beziehungsfreude. Bei Heino zeigt sich das in einer höflichen, zugewandten Art, mit der er auf Menschen und sein Publikum zugeht. Er war über 40-mal in der ZDF-Hitparade zu Gast und hatte von 1977 bis 1979 die ZDF-Serie ›Sing mit Heino‹ (14 Folgen), die das Publikum zum Mitsingen einlud. Nach eigener Darstellung fühlt er sich der katholischen Kirche seit der Kindheit verbunden und zündet in jeder neuen Stadt zuerst in einer Kirche eine Kerze an. Im Januar 2026 empfing ihn Papst Leo XIV. zu einer Privataudienz; Heino sprach von einer ›Sternstunde seines Lebens‹.</p>
+          <p class="vb-intro">Seine dritte Frau, die Sängerin und Schauspielerin Hannelore Kramm, lernte er 1973 bei der Wahl zur Miss Austria in Kitzbühel kennen, wo beide in der Jury saßen. Sie heirateten im April 1979. Hannelore Kramm starb am 8. November 2023 in Kitzbühel; nach Presseberichten kehrte Heino bald danach auf die Bühne zurück.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Stimme, Repertoire und die Verwandlung von 2013</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Heino sang deutsche Volkslieder im Schlagerstil mit einer tiefen, dunkel gefärbten Stimme, dazu klassische Stücke wie ›Ave Maria‹ und ›Ave verum‹ und später das Kirchenlieder-Album ›Frieden auf Ewigkeit‹ (November 2024). Mitte der 1970er-Jahre standen ›Blau blüht der Enzian‹ (auch Titel eines Films von 1973) und ›Die schwarze Barbara‹ im Mittelpunkt. Nach Wikipedia verkaufte er über 55 Millionen Tonträger. Er erhielt unter anderem sechsmal die ›Goldene Europa‹ (1972 bis 1989) und 2000 sowie 2006 die ›Krone der Volksmusik‹.</p>
+          <p class="vb-intro">Am 1. Februar 2013 erschien sein Coveralbum ›Mit freundlichen Grüßen‹ mit zwölf Fassungen von Pop-, Hip-Hop- und Rocksongs; es erreichte Platz 1 der deutschen Charts. Am 1. August 2013 trat er beim Wacken Open Air mit Rammstein auf (›Sonne‹), 2014 folgte ›Schwarz blüht der Enzian‹ mit Metal-Neuinterpretationen (Platz 11). Rap-Fassungen von ›Enzian‹ und ›Schwarzbraun ist die Haselnuss‹ hatte es schon 1989 gegeben. 2015 erhielt er den Karl-Valentin-Orden, 2019 wurde er Ehrenbürger von Bad Münstereifel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Helene Fischer, Vicky Leandros und Dieter Bohlen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-helene-fischer">Helene Fischer (SX3w2)</a> teilt mit Heino Subtyp und Flügel: Beide richten die Wirkung auf den einen Moment mit dem Publikum, bei ihr als akrobatische Show, bei ihm als Kunstfigur mit Mitsing-Charakter. <a href="#beruehmte-vicky-leandros">Vicky Leandros (SX3w2)</a> ist ebenfalls Schlagersängerin mit Zweierflügel. <a href="#beruehmte-dieter-bohlen">Dieter Bohlen (SX3w4)</a> hat denselben Subtyp mit Viererflügel; bei ihm steht die Pose im Vordergrund, bei Heino die Höflichkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Verlust und Weitermachen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Heino hatte eine Tochter, Petra, die 1968 außerhalb einer Ehe geboren wurde; nach Presseberichten erfuhr er erst Jahre nach ihrer Geburt von ihr. Im November 2003 nahm sich Petra im Alter von 35 Jahren das Leben. Die Nachricht erreichte ihn auf einer Mittelmeer-Kreuzfahrt an Bord der ›Costa Victoria‹, auf der er für Auftritte gebucht war. Er blieb an Bord und stand fünf Tage später wieder auf der Bühne. Er sagte, er habe den Auftritt durchgezogen, weil ihm nichts anderes übrig geblieben sei, und: ›Ich glaube, meine Tochter hätte auch gewollt, dass ich singe.‹ Kritik an diesem Schritt ließ er nach eigener Aussage an sich abprallen. Zum zehnten Todestag 2013 nannte er ihren Tod den schlimmsten Tag seines Lebens; in einer Dokumentation von 2026 spricht er ausführlich darüber.</p>
+          <p class="vb-intro">Dass er weitermachte, lässt sich mit dem Muster der Drei verbinden, die auch im Verlust handlungsfähig bleibt und den Auftritt vor das Gefühl stellt. Ob das Schutz oder Verdrängung war, kann ein Blick von außen nicht entscheiden; er selbst beschreibt es als Pflicht und als das, was seine Tochter gewollt hätte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Reibung und Kontroversen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Heino ist wiederholt kritisiert worden; die wichtigsten Punkte stehen hier mit Datum und, soweit bekannt, mit Ausgang. 1983 und 1986 trat er trotz UN-Embargo und Kulturboykott in Südafrika auf. 1978 nahm er auf Bitte des baden-württembergischen Ministerpräsidenten Hans Filbinger alle drei Strophen des Deutschlandlieds für Unterrichtszwecke auf; nach Kritik in der Sendung ›Kennzeichen D‹ sagte er, er habe sich vorher bei Anwälten und Politikern abgesichert. Im November 2011 gab er seinen Bambi aus Protest gegen die Auszeichnung des Rappers Bushido zurück.</p>
+          <p class="vb-intro">Im April 2014 bezeichnete ihn der Musiker Jan Delay in einem Interview als ›Nazi‹; Heino erstattete Anzeige, der Streit endete außergerichtlich, nach Zeit Online verpflichtete sich Delay zu 20.000 Euro Schadensersatz. Im März 2018 schenkte Heino der nordrhein-westfälischen Heimatministerin Ina Scharrenbach eine Liederplatte, deren Titel teils auch im SS-Liederbuch standen; er sagte, die Lieder könnten nichts dafür, wenn sie instrumentalisiert worden seien. Am 11. September 2024 sagte er nach einer Konzertreise durch die USA in einem Instagram-Video, das auch die ›Bild‹ aufgriff: ›Deutschland braucht einen Trump, der für sein Volk da ist‹. Trump sei zwar laut, liebe aber sein Land; seine Hoffnung setzte er auf <a href="#beruehmte-friedrich-merz">Friedrich Merz (SO1w9)</a> und <a href="#beruehmte-markus-soeder">Markus Söder (SX8w9)</a>. t-online verwies darauf, dass er sich zuvor nicht politisch äußern wollte. 2026 ging er juristisch gegen Wahlwerbung der AfD mit seinem Namen vor und sagte, er wolle sich von keiner politischen Kraft vor den Wagen spannen lassen. Die Darstellung gibt Positionen wieder und bewertet sie nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Stand und Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Heino ist mit 87 Jahren weiter aktiv: Die Tournee ›Made in Germany‹ umfasst rund 100 Auftritte in 2025 und 2026, eine Fortsetzung ist für 2027 geplant, dazu kommen Auftritte im Bierkönig auf Mallorca (Stand 28. Oktober 2026).</p>
+          <p class="vb-intro">Für die sexuelle Drei mit Zweierflügel liegt ein Entwicklungsweg darin, dass die Wirkung nicht allein an der Rolle hängt, sondern auch dort trägt, wo keine Bühne ist. Bei Heino lässt sich das mit zwei Einschnitten verbinden: 2003 stand er fünf Tage nach dem Tod seiner Tochter wieder auf der Bühne, 2023 kehrte er nach dem Tod seiner Frau bald zurück. Beide Male zeigt sich das Weitermachen, das zur Drei gehört: Die Hingabe an das Publikum trägt, und zugleich bleibt die Frage, was diese Hingabe trägt, wenn der Mensch hinter der Figur getroffen ist.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+        {route:"beruehmte-helene-fischer", label:"Porträt: Helene Fischer (SX3w2)"},
+        {route:"beruehmte-vicky-leandros", label:"Porträt: Vicky Leandros (SX3w2)"},
+        {route:"beruehmte-dieter-bohlen", label:"Porträt: Dieter Bohlen (SX3w4)"},
         {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
       ])}
     </div>

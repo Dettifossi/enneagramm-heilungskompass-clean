@@ -320,11 +320,11 @@ export function catStevensPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-reinhard-mey", label:"Porträt: Reinhard Mey (SO4w5)"},
         {route:"beruehmte-michael-jackson", label:"Porträt: Michael Jackson (SO4w3)"},
         {route:"beruehmte-til-schweiger", label:"Porträt: Til Schweiger (SO4w3)"},
         {route:"beruehmte-romy-schneider", label:"Porträt: Romy Schneider (SO4w3)"},
         {route:"beruehmte-alan-watts", label:"Porträt: Alan Watts (SO4w3) – ebenfalls eine radikale spirituelle Neuerfindung"},
-        {route:"beruehmte-reinhard-mey", label:"Porträt: Reinhard Mey (SO4w3)"},
       ])}
     </div>
   `);
@@ -719,9 +719,9 @@ export function hughGrantPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-reinhard-mey", label:"Porträt: Reinhard Mey (SO4w5)"},
         {route:"beruehmte-johnny-depp", label:"Portr\xe4t: Johnny Depp (SO4w3)"},
         {route:"beruehmte-til-schweiger", label:"Portr\xe4t: Til Schweiger (SO4w3)"},
-        {route:"beruehmte-reinhard-mey", label:"Porträt: Reinhard Mey (SO4w3)"},
       ])}
     </div>
   `);
@@ -3048,6 +3048,149 @@ export function rosalieThomassPortraitPage() {
         {route:"beruehmte-klaus-maria-brandauer", label:"Porträt: Klaus Maria Brandauer (SX7w8)"},
         {route:"beruehmte-christian-kohlund", label:"Porträt: Christian Kohlund (SX7w8)"},
         {route:"beruehmte-adriano-celentano", label:"Porträt: Adriano Celentano (SX7w8)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
+
+export function marieleMillowitschPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-mariele-millowitsch-portrait.jpg" alt="Mariele Millowitsch – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mariele Millowitsch</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Deutsche Schauspielerin und Tierärztin, geb. 1955 &ndash; ›Nikola‹, ›girl friends – Freundschaft mit Herz‹, ›Marie Brand‹ &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier: die Jüngste im Haus des Volksschauspielers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> hängt ruhig im Geäst und nimmt wahr, was um es herum geschieht. Marie-Luise Millowitsch, genannt Mariele, kam am 23. November 1955 in Köln als viertes und jüngstes Kind des Volksschauspielers Willy Millowitsch und seiner Frau Gerda zur Welt. Das Familientheater an der Aachener Straße gehörte zum Alltag; schon als Kind stand sie dort auf der Bühne, nach den Berichten zum ersten Mal 1962 im Schwank ›Drei kölsche Jungs‹ (›Drei Kölner Jungs‹).</p>
+          <p class="vb-intro">Die Kindheit beschreibt sie selbst nicht als nur sonnig: ›Alles drehte sich um den Vater‹, der launisch gewesen sei, und es habe auch Angstmomente gegeben. Das Herumbrüllen konnte sie als Kind nicht ertragen, und sie kann es bis heute nicht. Zugleich erinnert sie sich an einen Vater, der bei schlechten Zeugnissen nicht drängte, sondern mit ›Wird scho‹ tröstete, und an eine Mutter, die sich ihm unterordnete. Dass sie früh lernte, die Stimmung im Haus zu lesen und Spannung zu meiden, lässt sich mit dem Muster der Neun in Verbindung bringen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: die eine Bindung und die Kunst, Harmonie zu halten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo beschrieb die sexuelle Neun als den Subtyp der Vereinigung: Die Energie gilt nicht der Gruppe, sondern dem einzelnen Gegenüber, dem Werk oder der Rolle, in der die Person ganz aufgeht. Bei Millowitsch lässt sich das mit ihrer Treue zu wenigen Dingen in Verbindung bringen. Dazu gehören die Rolle, die sie über Jahre trägt, und die Hunde, die sie als ihre zweite große Liebe bezeichnet; ihr Mischling Luigi durfte mit an das Set von ›Marie Brand‹. Seit ihrer Münchner Studienzeit lebte sie mit einem Rauhaardackel. Ein weitgespanntes Netz ist es nicht, was sie trägt, sondern die Geschwister und ein Kreis langjähriger Freunde.</p>
+          <p class="vb-intro">Zur Neun gehört, dass sie Ruhe über Konflikt stellt. Die Abneigung gegen lautes Streiten, die sie aus der Kindheit mitnahm, passt dazu. Auf die Frage nach eigenen Kindern sagte sie in einem Interview: ›Die Tür ist zu, dann ist sie halt zu.‹ Sie wirkt damit nicht verbittert, sondern gelassen; seit 2021 sagt sie, sie sei Single und damit sehr zufrieden. Das Foto zeigt ein breites, offenes Lächeln mit sichtbaren Zähnen, tiefe Lachfalten um die Augen, einen weichen, warmen Blick und zerzaustes Haar mit einer seitlichen Strähne in der Stirn. Der Kopf ist leicht geneigt, als höre sie gerade zu.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Gründlichkeit, Pflicht und ein Maßstab für das Richtige</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der Neun Gründlichkeit und ein Gefühl für das, was getan werden muss. Statt der Schauspielschule, die die Eltern nach dem Abitur vorgesehen hatten, studierte Millowitsch an der Ludwig-Maximilians-Universität München Veterinärmedizin, nach den Berichten auf Distanz zum Theatermilieu der Familie. 1983 nahm sie kurz vor dem Studienende ein Angebot an, am Düsseldorfer Kom(m)ödchen zu spielen; Ende der 1980er-Jahre führte sie das Studium zu Ende und wurde 1991 zur Dr. med. vet. promoviert. Die Dissertation behandelte die perkutane partielle Diskektomie, ein Verfahren bei Bandscheibenvorfällen von Hunden, die vor allem Dackel betreffen. Als Tierärztin praktiziert hat sie nie.</p>
+          <p class="vb-intro">Die Pflicht zeigt sich auch außerhalb der Bühne. Sie ist Mitglied bei Ärzte ohne Grenzen, unterstützt ein Gesundheitszentrum in Jattaba in Gambia und übernahm die Schirmherrschaft über die Patientinnentage des Brustzentrums Holweide in Köln. Als Delegierte der SPD war sie 2017 Mitglied der Bundesversammlung. Auch ihre Rollen tragen den Zug des Einserflügels: Die Kommissarin Marie Brand sucht die Wahrheit hinter Fällen, die Bewährungshelferin Klara Sonntag steht zwischen Recht und Menschlichkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: die Frau von nebenan, die komisch und glaubwürdig zugleich sein kann</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bekannt wurde Millowitsch im Fernsehen. Von 1995 bis 2004 spielte sie Marie Malek in der ZDF-Serie ›girl friends – Freundschaft mit Herz‹ (69 Folgen, neben Walter Sittler), von 1996 bis 2005 die Titelrolle der RTL-Comedyserie ›Nikola‹ (110 Folgen). Für ›girl friends‹ erhielt sie 1996 den Goldenen Löwen, für ›Nikola‹ 1998 den Adolf-Grimme-Preis, 2002 den Bayerischen Fernsehpreis und 2003 den Deutschen Fernsehpreis als beste Schauspielerin in einer Sitcom; 2000 bekam sie die Goldene Kamera für beide Serien. Dazu kommen die Ratemitgliedschaft in Harald Schmidts Spielshow ›Pssst …‹ (1990–1995), die Thrillerrolle in ›Die Stimmen‹ (2003) und ›Die Familienanwältin‹ (2005–2006).</p>
+          <p class="vb-intro">Seit 2008 ermittelt sie als Kölner Kommissarin Marie Brand in der ZDF-Krimireihe, die die FAZ als ›gut geschrieben, gut gespielt und gut gemacht‹ lobte; seit 2021 spielt sie die Titelrolle in der ARD-Reihe um die Bewährungshelferin Klara Sonntag. Die Bandbreite zwischen Sitcom, Familienanwältin und Krimi, getragen von einer Natürlichkeit, die auf dem Kölner Bühnenhandwerk der Familie ruht, ist ihre fachliche Substanz. Bemerkenswert ist, dass sie nach dem Umweg über das Studium nicht viele Projekte nebeneinander verfolgt, sondern sich an wenige, lang laufende Rollen bindet. Daneben liest sie: aus Annie Ernaux' ›Die Jahre‹ (2017), szenisch mit Walter Sittler in ›Alte Liebe‹, und sie sprach das Hörbuch ›Am Ende des Schweigens‹ von Charlotte Link (Gold-Auszeichnung).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Richy Müller, Kris Marshall und Helge Schneider</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-richy-mueller">Richy Müller (SX9w1)</a> verkörpert seit 2008 dieselbe Tatort-Figur, genau wie Millowitsch seit 2008 Marie Brand: eine Rolle, die über Jahre wächst, statt gewechselt zu werden. <a href="#beruehmte-kris-marshall">Kris Marshall (SX9w1)</a> blieb elf Jahre lang derselben Figur in ›My Family‹ treu. <a href="#beruehmte-helge-schneider">Helge Schneider (SX9w1)</a>, ebenfalls Jahrgang 1955, zeigt dieselbe Gelassenheit in der Komik: Das Publikum nimmt ihn als entspannt wahr, während dahinter jahrzehntelange Disziplin steht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Familie und Privates: Schutz statt Schlagzeile</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ihr Bruder Peter leitete das Millowitsch-Theater von 1998 bis 2018; sie selbst fand nach dem Studium ihren eigenen Platz davor und daneben. Ihre letzte öffentlich bekannte Beziehung endete 2009 einvernehmlich, beide wohnten danach in getrennten Wohnungen im selben Haus. Als Tante und Patentante sieht sie sich in einer guten Rolle: ›Es muss auch Tanten und Patentanten geben.‹ Über Privates spricht sie sparsam und freundlich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand und Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mariele Millowitsch lebt in Köln und ist weiter aktiv; zuletzt war sie im Kinofilm ›Von uns wird es keiner sein‹ (2024) und in ›Weihnachten im Olymp‹ (2025) zu sehen (Stand 27. Oktober 2026).</p>
+          <p class="vb-intro">Für die sexuelle Neun mit Einserflügel liegt der Weg darin, dass die eigene Stimme neben der Bindung zählt und dass Ruhe keine Pflicht ist, die den Streit ersetzen muss. Bei Millowitsch lässt sich die Gelassenheit, die man ihr auf dem Bildschirm abnimmt, mit diesem Weg verbinden: Aus der lauten Welt des Vaters wurde ein eigener, ruhiger Ton.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"beruehmte-richy-mueller", label:"Porträt: Richy Müller (SX9w1)"},
+        {route:"beruehmte-kris-marshall", label:"Porträt: Kris Marshall (SX9w1)"},
+        {route:"beruehmte-helge-schneider", label:"Porträt: Helge Schneider (SX9w1)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
+
+export function clintEastwoodPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-clint-eastwood-portrait.jpg" alt="Clint Eastwood – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Clint Eastwood</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexueller Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Amerikanischer Schauspieler und Regisseur, geb. 1930 &ndash; Dirty Harry, Unforgiven &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba: der schweigsame Junge aus Kalifornien</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> verschwendet keine Bewegung: Sie wartet, beobachtet und handelt erst, wenn es sich lohnt. Clinton Eastwood Jr. wurde am 31. Mai 1930 in San Francisco geboren. Sein Vater Clinton Sr. (1906–1970) war Buchhalter und hielt sich in den Jahren der Wirtschaftskrise mit wechselnden Stellungen über Wasser, unter anderem als Tankwart; die Familie zog mehrfach um und ließ sich in Oakland und im benachbarten Piedmont nieder. Seine Mutter Margaret Ruth Runner (1909–2006) und die jüngere Schwester Jeanne (geb. 1934) bildeten den engsten Kreis. In der Jugend galt er als schüchtern und zurückhaltend.</p>
+          <p class="vb-intro">Er schloss 1949 die Oakland Technical High School ab. Im Koreakrieg wurde er zur Armee eingezogen und war in Fort Ord in Kalifornien unter anderem als Schwimmlehrer eingesetzt; im Februar 1953 wurde er entlassen. 1954 unterschrieb er bei Universal einen Vertrag über 100 Dollar pro Woche, den das Studio im Oktober 1955 wieder beendete.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Eifer für das Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bei <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> trägt die sexuelle Eins den Namen <em>Zeal</em> (Eifer) und gilt als Kontratyp der Eins: Der Ernst dient nicht der Regel der Gemeinschaft, sondern einer einzelnen Sache, der man sich mit ganzer Intensität widmet. Bei Eastwood lässt sich das mit seinem Verhältnis zur Arbeit verbinden. Mitarbeiter beschreiben seine Sets als ruhig und straff: Er ruft nach diesen Berichten weder ›Action‹ noch ›Cut‹, sondern sagt leise ›Go ahead‹ (›Los geht's‹), und er dreht häufig mit sehr wenigen Takes. Bei ›Breezy‹ (1973) lag er nach der Darstellung der englischen Wikipedia eine Million Dollar unter dem Budget und drei Tage vor dem Zeitplan. Als Matt Damon bei den Dreharbeiten zu ›Invictus‹ um eine weitere Einstellung bat, soll Eastwood gefragt haben, ob er die Zeit aller verschwenden wolle; so wird es berichtet.</p>
+          <p class="vb-intro">Die Zeichnung zeigt dichtes, nach hinten gestrichenes Haar mit einzelnen losen Strähnen, eine hohe Stirn mit tiefen Querfalten, steil zusammengezogene Brauen mit einer senkrechten Falte dazwischen, enge, leicht zusammengekniffene Augen unter schweren Lidern, die frontal in die Betrachtung gehen, eine kräftige Nase und einen schmalen, fest geschlossenen Mund über einem breiten Kinn. Er trägt ein dunkles Jackett mit weißem Hemd und Krawatte. Der Blick ist streng und unnachgiebig, ohne Lächeln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: die leise Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> dämpft die Eins nach außen. Bei Eastwood lässt sich das mit der Wortkargheit verbinden und mit der unaufgeregten Art, Autorität auszuüben: kein Anschreien, kein Auftritt vor dem Team. Laura Linney erklärte das Fehlen der Rufe mit der Erfahrung aus den Western: Wo Pferde im Bild sind, schrecken laute Rufe sie auf, also bleibt es still. Ein zweiter Rückzugsort ist der Jazz. Eastwood spielt Klavier, drehte 1988 mit ›Bird‹ ein Porträt des Saxofonisten Charlie Parker (dafür erhielt er einen Golden Globe für die Regie) und schreibt seit den 1980er-Jahren gelegentlich selbst Filmmusik, etwa für ›Mystic River‹, ›Million Dollar Baby‹ und ›J. Edgar‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: der Mann ohne Namen, der Regisseur und die Abrechnung mit dem Western</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Von 1959 bis 1965 spielte Eastwood in der Fernsehserie ›Rawhide‹ (217 Folgen) den Cowboy Rowdy Yates. Der Durchbruch kam mit Sergio Leones ›A Fistful of Dollars‹ (1964), für den er 15.000 Dollar erhielt, und der Dollar-Trilogie: eine Figur, die kaum spricht und durch Blick, Haltung und das zusammengekniffene Auge wirkt. Mit dem Geld der Trilogie gründete er 1967 seine Firma Malpaso Productions, die fast alle seine amerikanischen Filme produzierte. ›Dirty Harry‹ (1971) spielte allein in den USA und Kanada 22 Millionen Dollar ein; 1972 und 1973 führte Eastwood die Liste der erfolgreichsten Kinostars an. Der Film wurde zugleich als Verherrlichung der Selbstjustiz kritisiert.</p>
+          <p class="vb-intro">Sein Regiedebüt gab er 1971 mit ›Play Misty for Me‹. Den Wendepunkt bildet ›Unforgiven‹ (1992): ein Western, der den Western auseinandernimmt, weil er Gewalt mit ihren Folgen zeigt und die Legende nicht mit dem deckt, was geschah. Der Film erhielt die Oscars für den besten Film und die beste Regie, ebenso 2005 ›Million Dollar Baby‹; mit 74 Jahren war Eastwood damals der älteste Gewinner des Regie-Oscars. Insgesamt hat er vier Oscars. Es folgten ›Mystic River‹ (2003), ›Letters from Iwo Jima‹ (2006), ›Gran Torino‹ (2008), ›American Sniper‹ (2014), ›The Mule‹ (2018), ›Cry Macho‹ (2021) und ›Juror #2‹ (2024), seine 41. Regiearbeit. In vielen späten Filmen spielt er alte Männer, deren Härte an ihre Grenzen stößt.</p>
+          <p class="vb-intro"><a href="#beruehmte-morgan-freeman">Morgan Freeman (SX7w6)</a> stand für ›Unforgiven‹ und ›Million Dollar Baby‹ vor seiner Kamera und spielte in ›Invictus‹ (2009) unter seiner Regie Nelson Mandela.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Linda Hamilton und Klaus Kinski</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-linda-hamilton">Linda Hamilton (SX1w9)</a> steht wie Eastwood im Zentrum einer Figur, die für Härte steht: Sarah Connor bei ihr, Harry Callahan und der Mann ohne Namen bei ihm. Bei beiden gehört zum Muster auch die Ruhe abseits davon. <a href="#beruehmte-klaus-kinski">Klaus Kinski (SX1w9)</a> lebte denselben Eifer als offene Eruption, die auch seine Mitarbeiter traf. Eastwood legt ihn in die Form der Arbeit: wenige Takes, leise Anweisungen, ein Team, das weiß, was zu tun ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Ehen, Kinder und das Amt in Carmel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1953 heiratete Eastwood Margaret ›Maggie‹ Johnson; die Ehe wurde 1984 geschieden. Von 1975 bis 1989 lebte er mit der Schauspielerin Sondra Locke zusammen, von 1990 bis 1995 mit Frances Fisher (Tochter Francesca, geb. 1993). 1996 heiratete er Dina Ruiz; die Ehe wurde 2014 geschieden. Ab 2014 war Christina Sandera seine Partnerin, bis zu ihrem Tod 2024. Insgesamt hat er mindestens acht Kinder von mehreren Frauen, von denen einige lange nicht öffentlich bekannt waren.</p>
+          <p class="vb-intro">Von 1986 bis 1988 war er Bürgermeister von Carmel-by-the-Sea, gewählt mit 72 Prozent der Stimmen. Politisch bezeichnet er sich als libertär. Beobachter betonen das Vertrauen, das er seiner Crew entgegenbringt; im Privatleben wechselten die Partnerschaften mehrfach.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand und Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Stand Oktober 2026 ist Eastwood 96 Jahre alt und gilt als im Ruhestand; seine letzte Regiearbeit ist ›Juror #2‹, die er mit 94 Jahren ins Kino brachte. Er hat vier Oscars, den Irving G. Thalberg Memorial Award (1995), den AFI Life Achievement Award, den Goldenen Löwen für das Lebenswerk und die Ehrenpalme von Cannes.</p>
+          <p class="vb-intro">Für die sexuelle Eins mit Neunerflügel liegt ein Entwicklungsweg darin, dass die Strenge gegen die Arbeit auch Raum für Nähe lässt. Bei Eastwood lässt sich das mit den späten Filmen verbinden, in denen er die Härte seiner früheren Figuren selbst befragt, in ›Unforgiven‹ und ›Gran Torino‹ etwa. Dass ein Mann mit diesem Muster mit 94 noch einen Film dreht, lässt sich mit der Beharrlichkeit des Neunerflügels in Verbindung bringen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-linda-hamilton", label:"Porträt: Linda Hamilton (SX1w9)"},
+        {route:"beruehmte-klaus-kinski", label:"Porträt: Klaus Kinski (SX1w9)"},
+        {route:"beruehmte-morgan-freeman", label:"Porträt: Morgan Freeman (SX7w6)"},
         {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
       ])}
     </div>

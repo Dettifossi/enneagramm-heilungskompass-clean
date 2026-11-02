@@ -1,7 +1,9 @@
 export const so5 = {
   meinKompass: {
-    lebensthema: "Du verstehst Zusammenhänge — und du liebst es, tief in Systeme, Wissen und Strukturen einzutauchen. Als Normaltyp unter den Fünfern ist dein Rückzug oft weniger vollständig als der der selbsterhaltenden Fünf: Du findest Verbindung zur Welt über das, was du weißt und durchschaust. Dein Oktopusblick erfasst viele Felder gleichzeitig — Wissen wird für dich zur Brücke, zur Eintrittskarte, zur Art, dazuzugehören. Was manchmal fehlt: der direkte, spontane Kontakt — das Teilen von dem, was du bereits weißt, ohne es erst vollständig durchdringen zu müssen. Dein innerer Weg führt von kluger Distanz hin zu echter Teilhabe.",
-    grundstrategie: "Die soziale Fünf gewinnt Sicherheit über intellektuelles Verstehen, Systemkompetenz und den Überblick über das Große Ganze — als Normaltyp findet sie über Wissen und Klarheit Zugang zur sozialen Welt, hält dabei aber Gefühle und direkte Nähe häufig auf Distanz.",
+    lebensthema:
+      "Du verstehst Zusammenhänge — und du liebst es, tief in Systeme, Wissen und Strukturen einzutauchen. Als Normaltyp unter den Fünfern ist dein Rückzug oft weniger vollständig als der der selbsterhaltenden Fünf: Du findest Verbindung zur Welt über das, was du weißt und durchschaust. Dein Oktopusblick erfasst viele Felder gleichzeitig — Wissen wird für dich zur Brücke, zur Eintrittskarte, zur Art, dazuzugehören. Was manchmal fehlt: der direkte, spontane Kontakt — das Teilen von dem, was du bereits weißt, ohne es erst vollständig durchdringen zu müssen. Dein innerer Weg führt von kluger Distanz hin zu echter Teilhabe.",
+    grundstrategie:
+      "Die soziale Fünf gewinnt Sicherheit über intellektuelles Verstehen, Systemkompetenz und den Überblick über das Große Ganze — als Normaltyp findet sie über Wissen und Klarheit Zugang zur sozialen Welt, hält dabei aber Gefühle und direkte Nähe häufig auf Distanz.",
     staerken: [
       "weitsichtiger, vernetzter Blick",
       "systemisches Denken und Überblick",
@@ -23,34 +25,35 @@ export const so5 = {
       "Weisheit entsteht aus gelebter Teilnahme am Leben.",
     ],
     wandlung: "Aus Verstehen wird Verbindung. Aus Beobachten wird Mitwirken. Aus Distanz wird lebendiger Austausch.",
-    gedankeFuerHeute: "Ich teile mein Wissen in Verbindung und stärke damit das Ganze.",
+    gedankeFuerHeute:
+      "Ich teile mein Wissen in Verbindung und stärke damit das Ganze.",
   },
   meinKompass_en: {
     lebensthema:
-      "You understand connections — and you love diving deep into systems, knowledge, and structures. As the standard type among the Fives, your withdrawal is often less complete: you find connection to the world through what you know and understand. Your gaze encompasses many fields at once — knowledge becomes your bridge, your entry ticket, your way of belonging. What is sometimes missing: direct, spontaneous contact — sharing what you already know without first having to penetrate it completely. Your inner path leads from clever distance toward genuine participation.",
+      "You understand connections — and you love to dive deep into systems, knowledge and structures. As the normal type among the Fives, your withdrawal is often less complete than that of the self-preservation Five: you find connection to the world through what you know and see through. Your octopus gaze takes in many fields at once — knowledge becomes for you a bridge, an entry ticket, a way of belonging. What is sometimes missing: direct, spontaneous contact — sharing what you already know without first having to penetrate it completely. Your inner path leads from clever distance to genuine participation.",
     grundstrategie:
-      "The social Five gains security through intellectual understanding, systems competence, and an overview of the big picture — as the standard type, they find belonging through knowledge.",
+      "The social Five gains security through intellectual understanding, systems competence and an overview of the big picture — as the normal type they find access to the social world through knowledge and clarity, but often keep feelings and direct closeness at a distance.",
     staerken: [
-      "Systems thinking",
-      "Breadth of knowledge",
-      "Strategic overview",
-      "Intellectual generosity",
-      "Ability to make complex things accessible",
+      "a farsighted, networked view",
+      "systemic thinking and overview",
+      "deep listening and calm presence",
+      "clear, well-considered communication",
+      "analytical sharpness",
+      "a structured approach",
+      "reliable depth in topics and projects",
     ],
     herausforderungen: [
-      "Using knowledge as a substitute for direct contact",
-      "Difficulty with emotional spontaneity",
-      "Remaining in the observer role",
-      "Withdrawing behind expertise",
-      "Postponing participation until fully prepared",
+      "Using knowledge and observation as a substitute for genuine participation",
+      "Protecting oneself behind intellectual distance or systems overview",
+      "Emotional presence and human accessibility come with difficulty",
+      "Connection arises in the head, but not always in genuine contact",
     ],
     entwicklungspotenzial: [
-      "that belonging is possible even without complete understanding",
-      "that sharing feels different from losing",
-      "that intellectual presence is also a form of connection",
-      "that the gap between knowing and being can be bridged",
+      "Sharing knowledge — and staying in genuine connection while doing so.",
+      "Taking part before everything is fully understood.",
+      "Wisdom arises from lived participation in life.",
     ],
-    wandlung: "From understanding comes participation. From overview comes encounter. From theory comes lived experience.",
+    wandlung: "Understanding becomes connection. Observing becomes taking part. Distance becomes living exchange.",
     gedankeFuerHeute:
       "What do you know that someone around you needs to hear — and what is stopping you from simply saying it?",
   },

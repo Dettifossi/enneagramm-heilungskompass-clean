@@ -1,7 +1,9 @@
 export const sx7 = {
   meinKompass: {
-    lebensthema: "Du willst das Leben in seiner höchsten Intensität — leuchtend, grenzenlos, voller Möglichkeit. Als Verstärkungstyp unter den Siebenern lebst du die Begeisterung am glühendsten: Du idealisierst, schwärmst, malst dir das Außergewöhnliche aus und reißt andere mit deiner Euphorie mit. Wie der Schimpanse springst du voller Lebenslust von einem Funken zum nächsten. Die Welt erscheint dir oft schöner in der Vorstellung als in der nüchternen Wirklichkeit — und genau dort liegt die feine Falle: Die Begeisterung für das, was sein könnte, kann von dem ablenken, was gerade ist. Dein innerer Weg führt nicht dorthin, weniger zu leuchten — sondern zu erfahren, dass echte Tiefe erfüllender ist als das gejagte Besondere.",
-    grundstrategie: "Die sexuelle Sieben sucht Sicherheit in intensiver Begeisterung, Idealisierung und außergewöhnlichen Erfahrungen — als Verstärkungstyp lebt sie die Völlerei euphorisch und schwärmerisch und entfernt sich dabei leicht von der nüchternen Gegenwart.",
+    lebensthema:
+      "Du willst das Leben in seiner höchsten Intensität — leuchtend, grenzenlos, voller Möglichkeit. Als Verstärkungstyp unter den Siebenern lebst du die Begeisterung am glühendsten: Du idealisierst, schwärmst, malst dir das Außergewöhnliche aus und reißt andere mit deiner Euphorie mit. Wie der Schimpanse springst du voller Lebenslust von einem Funken zum nächsten. Die Welt erscheint dir oft schöner in der Vorstellung als in der nüchternen Wirklichkeit — und genau dort liegt die feine Falle: Die Begeisterung für das, was sein könnte, kann von dem ablenken, was gerade ist. Dein innerer Weg führt nicht dorthin, weniger zu leuchten — sondern zu erfahren, dass echte Tiefe erfüllender ist als das gejagte Besondere.",
+    grundstrategie:
+      "Die sexuelle Sieben sucht Sicherheit in intensiver Begeisterung, Idealisierung und außergewöhnlichen Erfahrungen — als Verstärkungstyp lebt sie die Völlerei euphorisch und schwärmerisch und entfernt sich dabei leicht von der nüchternen Gegenwart.",
     staerken: [
       "leidenschaftlich und mitreißend",
       "magnetisch und begeisterungsfähig",
@@ -23,34 +25,35 @@ export const sx7 = {
       "Erfahren, dass Tiefe erfüllender ist als das gejagte Besondere.",
     ],
     wandlung: "Aus Idealisierung wird Wirklichkeit. Aus Euphorie wird Präsenz. Aus dem Jagen des Besonderen wird echte, tiefe Verbundenheit.",
-    gedankeFuerHeute: "Wenn ich Tiefe zulasse, statt das Besondere zu jagen, entsteht echte Erfüllung.",
+    gedankeFuerHeute:
+      "Wenn ich Tiefe zulasse, statt das Besondere zu jagen, entsteht echte Erfüllung.",
   },
   meinKompass_en: {
     lebensthema:
-      "You want life at its highest intensity — glowing, boundless, full of possibility. As the amplifier type among the Sevens, you live enthusiasm most ardently: you idealize, are captivated, and sweep others along with your euphoria. The world often appears more beautiful in imagination than in sober reality — and exactly there lies the subtle trap: enthusiasm for what could be can distract from what is right now. Your inner path does not lead to shining less — but to experiencing that real depth is more fulfilling than the chased extraordinary.",
+      "You want life at its highest intensity — radiant, boundless, full of possibility. As the amplifier type among the Sevens, you live enthusiasm most gloriously: you idealise, rave, picture the extraordinary and carry others away with your euphoria. Like the chimpanzee, you leap full of zest for life from one spark to the next. The world often appears more beautiful to you in imagination than in sober reality — and exactly there lies the fine trap: enthusiasm for what could be can distract from what is. Your inner path does not lead to shining less — but to experiencing that genuine depth is more fulfilling than the special that is chased.",
     grundstrategie:
-      "The sexual Seven seeks security in intensity, idealization, and inspiring personal connections.",
+      "The sexual Seven seeks security in intense enthusiasm, idealisation and extraordinary experiences — as the amplifier type they live gluttony euphorically and dreamily and easily move away from the sober present.",
     staerken: [
-      "Infectious enthusiasm",
-      "Creative imagination",
-      "Ability to inspire",
-      "Openness to the new",
-      "Visionary joy of life",
+      "passionate and stirring",
+      "magnetic and capable of enthusiasm",
+      "imaginative and full of ideas",
+      "adventurous and courageous",
+      "sensual and hungry for life",
+      "inspiring for others",
+      "open to the extraordinary",
     ],
     herausforderungen: [
-      "Difficulty sustaining commitment",
-      "Idealization followed by disillusionment",
-      "Avoiding ordinariness and depth",
-      "Chasing novelty at the expense of presence",
-      "Difficulty with painful reality",
+      "Idealisation and euphoria cover over sober reality",
+      "Easily moving away from the present moment into fantasies",
+      "Disillusionment and limitation are avoided",
+      "Energy becomes euphoric, erratic and hard to centre",
     ],
     entwicklungspotenzial: [
-      "that depth is more fulfilling than breadth",
-      "that the ordinary can also glow",
-      "that real encounter includes disappointment",
-      "that staying is sometimes the greatest adventure",
+      "Experiencing intensity without losing oneself in fantasies or possibilities.",
+      "Staying connected to the body and the present moment.",
+      "Experiencing that depth is more fulfilling than the special that is chased.",
     ],
-    wandlung: "From the chased extraordinary comes the found ordinary. From euphoria comes presence. From idealization comes real encounter.",
+    wandlung: "Idealisation becomes reality. Euphoria becomes presence. Chasing the special becomes genuine, deep connection.",
     gedankeFuerHeute:
       "What is here right now — not in the vision of what could be — that is worth your full presence?",
   },

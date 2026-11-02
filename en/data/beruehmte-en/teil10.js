@@ -548,6 +548,7 @@ export function evaMendesPortraitPage() {
         {route:"beruehmte-olena-zelenska", label:"Portrait: Olena Zelenska (SX6w7)"},
         {route:"beruehmte-louise-hay", label:"Portrait: Louise Hay (SX6w7) – also the same subtype"},
         {route:"beruehmte-julie-benz", label:"Portrait: Julie Benz (SX6w7)"},
+        {route:"beruehmte-steve-mcqueen", label:"Portrait: Steve McQueen (SX6w7)"},
       ])}
     </div>
   `);
@@ -677,6 +678,7 @@ export function gustavMahlerPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       <p class="vb-intro">The heart valve infection diagnosed in 1907 and its immediate imprint on his late work – from Das Lied von der Erde to the Ninth Symphony – are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-gustav-mahler">Illness Portrait of Mahler</a>.</p>
       ${relatedLinks([
+        {route:"beruehmte-john-neumeier", label:"Portrait: John Neumeier (SP4w5) – choreographed Mahler&rsquo;s music"},
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
         {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
@@ -2765,7 +2767,7 @@ export function rudiCarrellPortraitPage() {
         {route:"beruehmte-johannes-heesters", label:"Portrait: Johannes Heesters (SX7w6)"},
         {route:"beruehmte-thomas-gottschalk", label:"Portrait: Thomas Gottschalk (SX7w6)"},
         {route:"beruehmte-jerry-lewis", label:"Portrait: Jerry Lewis (SX7w6)"},
-        {route:"beruehmte-atze-schroeder", label:"Portrait: Atze Schröder (SE7w6)"},
+        {route:"beruehmte-atze-schroeder", label:"Portrait: Atze Schröder (SX7w6)"},
       ])}
     </div>
   `);
@@ -2980,6 +2982,150 @@ export function klausMariaBrandauerPortraitPage() {
         {route:"beruehmte-christian-kohlund", label:"Portrait: Christian Kohlund (SX7w8)"},
         {route:"beruehmte-adriano-celentano", label:"Portrait: Adriano Celentano (SX7w8)"},
         {route:"beruehmte-john-travolta", label:"Portrait: John Travolta (SX7w8)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}
+
+// ZURÜCKGESTELLT (27.10.2026): Porträt unveröffentlicht – nicht in Route-Map, Array, Register, Changelog. Wiederherstellung: siehe Memory project_kachelmann_zurueckgestellt.
+export function joergKachelmannPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-joerg-kachelmann-portrait.jpg" alt="Jörg Kachelmann – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jörg Kachelmann</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Social Type 9 with a One wing</p>
+        <p class="krim-portrait-subtitle">Swiss meteorologist and broadcaster, b. 1958 &ndash; animal counterpart: buffalo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The buffalo: the man who explains the weather</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>buffalo</strong> lives in the herd and knows the weather better than anyone in it: it senses the change long before the clouds come. Jörg Kachelmann was born on 15 July 1958 in Lörrach. His father was a railway official from Franconia, his mother came from East Prussia. He grew up in Schaffhausen, Switzerland, and received Swiss citizenship at 20.</p>
+          <p class="vb-intro">At the University of Zurich he studied geography, mathematics and physics with meteorology as a minor and left in 1983 shortly before the exams. He began as a trainee at ‘SonntagsBlick’ and worked for Radio Munot, Swiss television and the ‘Schweizer Illustrierte’, where he became deputy editor-in-chief in 1988.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Nine: participation through a shared subject</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the social Nine the striving for connection is directed at the community; Claudio Naranjo called the subtype Participation. The Nine finds a place by taking part in a shared cause. In Kachelmann this can be linked to the subject that concerns everyone: the weather. It needs no invitation, it belongs to all, and whoever makes it understandable belongs.</p>
+          <p class="vb-intro">From 1994 he presented the weather on ARD (‘Das Wetter im Ersten’), hosted talk shows such as ‘Riverboat’ and his own show on MDR, and from 2019 to 2022 he was again co-host of ‘Riverboat’. The face in the drawing looks turned toward the viewer and calm, with a quiet smile that suits the role of the explainer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One wing: precision, criticism and the demand that it be right</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One wing (w1)</strong> gives the Nine an inner standard: it should be right. In Kachelmann this shows in the dispute over accuracy. In 2002 he criticized the warnings of the German Weather Service, and in 2006 there was a court dispute with the agency. Together with the journalist Christoph Drösser he wrote the ‘Lexikon der Wetterirrtümer’ (‘Dictionary of Weather Misconceptions’, 2006), which corrects widespread weather myths. He also opposes chemtrail theories and criticizes cloud seeding for hail prevention.</p>
+          <p class="vb-intro">In debates on climate change and wildfires he takes positions that climate scientists contradict. This belongs to the picture of a man who demands accuracy and likes to keep the last word himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: building a weather house of his own</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1990 he founded the weather company Meteomedia AG, which he sold to MeteoGroup in 2013; he left in early 2013 and worked as a freelance adviser. Since 2005 he has run the weather company WeatherOK, Inc. in Oklahoma. After 2011 he returned with regional radio and television contributions, weather content for YouTube and a weather platform of his own. In this he combines what marks the social Nine with what the One wing demands: something everyone uses, and that is correct.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Jens Riewa, Dieter Thomas Heck and Hans Sigl</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-jens-riewa">Jens Riewa (SO9w1)</a> is, like Kachelmann, a television face who explains the news to the community, and <a href="#beruehmte-dieter-thomas-heck">Dieter Thomas Heck (SO9w1)</a> held an audience together for decades as a presenter. <a href="#beruehmte-hans-sigl">Hans Sigl (SO9w1)</a> shows the same constellation as an actor. In Kachelmann the dispute over accuracy is added, which the One wing colors more strongly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The proceedings of 2010 and 2011 (as of 26 October 2026)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In March 2010 Kachelmann was arrested on a rape allegation and charged in May 2010. The Regional Court of Mannheim acquitted him on 31 May 2011. The prosecution and the joint plaintiff withdrew their appeals, and the acquittal became final in October 2011. This portrait does not assess the allegation but notes that the proceedings ended with the acquittal.</p>
+          <p class="vb-intro">Further proceedings followed: in 2016 he won a costs case against his former partner, and he received damages from Axel Springer, which a court reduced on appeal. In 2019 the European Court of Human Rights also issued a ruling on a photo published by the newspaper ‘Bild’. With his wife Miriam he wrote the book ‘Recht und Gerechtigkeit. Ein Märchen aus der Provinz’ (‘Law and Justice. A Fairy Tale from the Provinces’, 2012). He married her in 2011, and they live in Switzerland.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. What remains: an explainer who gets involved</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The social Nine with a One wing balances tensions in the shared and has a strict inner judge while doing so. What would heal this subtype is to keep one's own voice even when not everyone agrees at once, and not to carry the demand for rightness alone. That Kachelmann stayed public after 2011 and appeared again within the community of the television audience can be read in this sense.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so9", label:"SO9 – The Buffalo: subtype profile"},
+        {route:"beruehmte-jens-riewa", label:"Portrait: Jens Riewa (SO9w1)"},
+        {route:"beruehmte-dieter-thomas-heck", label:"Portrait: Dieter Thomas Heck (SO9w1)"},
+        {route:"beruehmte-hans-sigl", label:"Portrait: Hans Sigl (SO9w1)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}
+
+// ZURÜCKGESTELLT (28.10.2026): Porträt unveröffentlicht – nicht in Route-Map, Array, Register, Changelog, Kompass. Typisierung SE1w9 offen (evtl. SX1w9). Wiederherstellung: siehe Memory project_victor_hugo_zurueckgestellt
+export function victorHugoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-victor-hugo-portrait.jpg" alt="Victor Hugo – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Victor Hugo</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with a Nine wing</p>
+        <p class="krim-portrait-subtitle">French poet, novelist and politician, 1802&ndash;1885 &ndash; ‘Les Misérables’ &ndash; animal counterpart: eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The eagle: the general's son who became a poet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>eagle</strong> keeps watch from a height it has chosen for itself and never lets its territory out of sight. Victor Hugo was born on 26 February 1802 in Besançon, the youngest of three sons. His father Joseph Léopold Sigisbert Hugo became a general under <a href="#beruehmte-napoleon-bonaparte">Napoleon Bonaparte (SO2w3)</a>; his mother Sophie Trébuchet came from Brittany. The parents grew estranged and the childhood stayed unsettled: Hugo lived mostly in Paris, for a time with his father in Naples (1808) and in Madrid (1811/12).</p>
+          <p class="vb-intro">From 1812 he lived with his mother in Paris, later in a boarding school, and attended the Lycée Louis-le-Grand. He probably began writing at about ten; at 16 he began studying law. In 1822 his first volume of poems appeared, ‘Odes et poésies diverses’ (Odes and Various Poems), and in the same year he married his childhood friend Adèle Foucher. A child died shortly after birth in 1823; Léopoldine (1824), Charles (1826), François-Victor (1828) and Adèle (1830) followed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation One: worry turned outward</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> the self-preservation One is called <em>worry</em>: the inner constant question whether one is doing justice to what is right. In Hugo this worry turns outward. ‘Le dernier jour d'un condamné’ (The Last Day of a Condemned Man, 1829) is a plea against the death penalty; ‘Les Misérables’ (1862) turns the gaze on the poor and the rightless. He was active in the animal protection society, spoke out against vivisection and campaigned together with <a href="#beruehmte-honore-de-balzac">Honoré de Balzac (SP4w3)</a> for copyright.</p>
+          <p class="vb-intro">The photo shows dense white hair brushed upward, a high forehead with deep horizontal lines and two vertical furrows between the heavy brows, deep-set, serious eyes with heavy lids, a strong nose and a full white moustache and beard that almost hides the mouth. The gaze is probing, the brows slightly drawn together, and there is no smile. He wears a dark coat with a white shirt collar.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine wing: the steadfastness of the patriarch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine wing (w9)</strong> gives the One persistence and a calm centre that is hardly there of itself with a weakly developed Nine wing. After Louis-Napoléon's coup of 2 December 1851 Hugo went into exile, first to Jersey (1852–1855), then to Guernsey, where he stayed until 1870 and lived at Hauteville House. In ‘Les Châtiments’ (The Punishments, 1853), the volume of poems against the new emperor, he wrote: ‘Et s'il n'en reste qu'un, je serai celui-là’ (‘And if only one is left, I will be that one’). He returned to Paris on 5 September 1870 after the fall of the empire.</p>
+          <p class="vb-intro">This trait also shows in private life: in 1833 he met the actress Juliette Drouet, and the relationship lasted until her death in 1883. He tolerated for a long time the affair of his wife Adèle with the critic Sainte-Beuve.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: manifesto, novel, poem and drawing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hugo was poet, dramatist and novelist in one. The preface to his play ‘Cromwell’ (1827) became the manifesto of Romanticism; the premiere of ‘Hernani’ on 25 February 1830 set off the ‘Battle of Hernani’ between Classicists and Romantics. ‘Notre-Dame de Paris’ (The Hunchback of Notre-Dame, 1831) is set in the year 1482 and drew attention to the decaying cathedral. In exile he wrote ‘Les Contemplations’ (The Contemplations, 1856), ‘La Légende des siècles’ (The Legend of the Ages, 1859) and ‘Les Misérables’ (1862); later came ‘Les Travailleurs de la mer’ (Toilers of the Sea, 1866), ‘L'Homme qui rit’ (The Man Who Laughs, 1869) and ‘Quatre-vingt-treize’ (Ninety-Three, 1874).</p>
+          <p class="vb-intro">Politically he was made a peer by Louis-Philippe in 1845, turned to republicanism in 1846, was elected a deputy in 1848 and to the Senate in 1876. He left about 3,500 drawings, mostly from the exile years.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype and on the theme of justice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-john-brown">John Brown (SX1w9)</a> shares the Nine wing; for him Hugo tried from exile in December 1859 to obtain a pardon and warned of civil war in an open letter. <a href="#beruehmte-queen-elizabeth-ii">Queen Elizabeth II (SP1w9)</a> shares subtype and wing; in her duty shows itself in silence, in Hugo in the public word.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Loss and grief</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Léopoldine, the eldest daughter, drowned in 1843 with her husband in a boating accident near Villequier; she was 19. Of the children only Adèle outlived Hugo. The poems about Léopoldine's death appear in ‘Les Contemplations’ (1856). This worry, turning into grief and tenderness, belongs to the same pattern as his public commitment.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Death and how to place it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After a stroke in 1878 his creative power declined. Hugo died on 22 May 1885 in Paris. The state funeral on 1 June 1885 took him to the Panthéon, where he was laid to rest in a tomb of honour in the crypt.</p>
+          <p class="vb-intro">For the self-preservation One with a Nine wing, one path of development lies in translating the constant worry not only into accusation and duty but also into comfort and closeness. In Hugo this can be read in the poems for his dead daughter: the same vigilance that saw the injustice of the world was also directed at the pain in his own house.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se1", label:"SP1 – The eagle: subtype profile"},
+        {route:"beruehmte-john-brown", label:"Portrait: John Brown (SX1w9)"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SP1w9)"},
+        {route:"beruehmte-honore-de-balzac", label:"Portrait: Honoré de Balzac (SP4w3)"},
+        {route:"beruehmte-napoleon-bonaparte", label:"Portrait: Napoleon Bonaparte (SO2w3)"},
         {route:"lebensmusterkompass", label:"Life Pattern Compass"},
       ])}
     </div>

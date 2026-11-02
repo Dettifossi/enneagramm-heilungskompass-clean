@@ -1,7 +1,9 @@
 export const se9 = {
   meinKompass: {
-    lebensthema: "Du findest Frieden im Vertrauten — in Routinen, kleinen Annehmlichkeiten, im behaglichen Rhythmus des Alltags. Als Normaltyp unter den Neunern lebst du die Trägheit am bodenständigsten: Du machst es dir gemütlich, hältst Gewohntes aufrecht und beruhigst innere Spannung mit Ersatzbefriedigungen — Essen, Fernsehen, Beschäftigungen, die nicht wehtun. Wie der Elefant bist du ruhig, geerdet und schwer aus der Bahn zu bringen. Die Falle: Über dem Bewahren der äußeren Ruhe verlierst du leicht den Kontakt zu dem, was du wirklich willst und brauchst. Dein innerer Weg führt nicht dorthin, deine Ruhe aufzugeben — sondern dich selbst darin nicht zu vergessen.",
-    grundstrategie: "Die selbsterhaltende Neun sichert ihren Frieden über Komfort, Routinen und vertraute Gewohnheiten — als Normaltyp betäubt sie innere Spannung mit konkreten Ersatzbefriedigungen, statt die eigenen Bedürfnisse und Impulse wirklich zu spüren.",
+    lebensthema:
+      "Du findest Frieden im Vertrauten — in Routinen, kleinen Annehmlichkeiten, im behaglichen Rhythmus des Alltags. Als Normaltyp unter den Neunern lebst du die Trägheit am bodenständigsten: Du machst es dir gemütlich, hältst Gewohntes aufrecht und beruhigst innere Spannung mit Ersatzbefriedigungen — Essen, Fernsehen, Beschäftigungen, die nicht wehtun. Wie der Elefant bist du ruhig, geerdet und schwer aus der Bahn zu bringen. Die Falle: Über dem Bewahren der äußeren Ruhe verlierst du leicht den Kontakt zu dem, was du wirklich willst und brauchst. Dein innerer Weg führt nicht dorthin, deine Ruhe aufzugeben — sondern dich selbst darin nicht zu vergessen.",
+    grundstrategie:
+      "Die selbsterhaltende Neun sichert ihren Frieden über Komfort, Routinen und vertraute Gewohnheiten — als Normaltyp betäubt sie innere Spannung mit konkreten Ersatzbefriedigungen, statt die eigenen Bedürfnisse und Impulse wirklich zu spüren.",
     staerken: [
       "ruhig, geerdet und beständig",
       "gelassen und ausgleichend",
@@ -23,34 +25,35 @@ export const se9 = {
       "Innere Ruhe mit Klarheit und Handlungskraft verbinden.",
     ],
     wandlung: "Aus Gewohnheit wird lebendige Präsenz. Aus Betäubung wird Selbstkontakt. Aus Trägheit wird ruhige Handlungskraft.",
-    gedankeFuerHeute: "Wenn ich mich selbst wichtig nehme und nicht betäube, entsteht lebendige innere Präsenz.",
+    gedankeFuerHeute:
+      "Wenn ich mich selbst wichtig nehme und nicht betäube, entsteht lebendige innere Präsenz.",
   },
   meinKompass_en: {
     lebensthema:
-      "You find peace in the familiar — in routines, small comforts, in the pleasant rhythm of everyday life. As the standard type among the Nines, you live sloth most grounded: you make yourself comfortable, maintain what is familiar, and soothe inner tension with substitute satisfactions. Like the elephant, you are calm, grounded, and hard to derail. The trap: in maintaining outer calm, you easily lose contact with what you truly want and need. Your inner path does not lead to giving up your calm — but to not forgetting yourself within it.",
+      "You find peace in the familiar — in routines, small comforts, in the cosy rhythm of everyday life. As the normal type among the Nines, you live sloth most down to earth: you make yourself comfortable, keep up what is familiar and soothe inner tension with substitute satisfactions — eating, television, activities that do not hurt. Like the elephant, you are calm, grounded and hard to throw off course. The trap: in preserving outer calm, you easily lose contact with what you really want and need. Your inner path does not lead to giving up your calm — but to not forgetting yourself in it.",
     grundstrategie:
-      "The self-preservation Nine secures their peace through comfort, routines, and familiar habits — as the standard type, they live the sloth most tangibly.",
+      "The self-preservation Nine secures their peace through comfort, routines and familiar habits — as the normal type they numb inner tension with concrete substitute satisfactions instead of truly feeling their own needs and impulses.",
     staerken: [
-      "Steadiness",
-      "Warmth",
-      "Ability to create comfort",
-      "Reliability in the everyday",
-      "Grounding presence for others",
+      "calm, grounded and steady",
+      "composed and balancing",
+      "practical and frugal",
+      "reliable and patient",
+      "accepting and uncomplicated",
+      "creates cosy stability",
+      "natural, quiet presence",
     ],
     herausforderungen: [
-      "Inertia and procrastination",
-      "Substitute satisfactions instead of real contact",
-      "Loss of own priorities",
-      "Difficulty with change",
-      "Numbing rather than feeling",
+      "Keeping up what is familiar in order to avoid tension",
+      "Numbing inner tension with substitute satisfactions instead of feeling it",
+      "Losing contact with one's own wishes and impulses",
+      "Energy appears sluggish, passive and reserved",
     ],
     entwicklungspotenzial: [
-      "that their own wishes deserve space",
-      "that small steps count",
-      "that discomfort passes",
-      "that presence in their own life is the real home",
+      "Staying calm without losing oneself in habit or passivity.",
+      "Consciously perceiving one's own impulses and needs.",
+      "Combining inner calm with clarity and the power to act.",
     ],
-    wandlung: "From numbing comes feeling. From habit comes choice. From comfort comes aliveness.",
+    wandlung: "Habit becomes living presence. Numbing becomes self-contact. Sloth becomes calm capacity for action.",
     gedankeFuerHeute:
       "What is one small thing you have been postponing — and what would it feel like to simply begin it today?",
   },

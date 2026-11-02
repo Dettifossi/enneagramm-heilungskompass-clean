@@ -1,7 +1,9 @@
 export const se5 = {
   meinKompass: {
-    lebensthema: "Du trägst Ruhe in dir — eine Stille, die von außen wie Abstand wirken kann, aber für dich oft der einzige Weg ist, klarer zu denken und sicher zu bleiben. Als Verstärkungstyp unter den Fünfern lebst du die Grundstrategie des Typs am reinsten: Du ziehst dich zurück, beobachtest, sparst Energie. Dein Eulenblick bleibt ruhig und wissend, selbst wenn du dich innerlich bereits weit zurückgezogen hast. Was von außen wie Bedürfnislosigkeit wirkt, ist oft ein sorgfältig gebauter Schutzraum. Dein innerer Weg führt nicht dorthin, dich mehr zu verausgaben — sondern zu erfahren, dass Lebendigkeit nicht erschöpft, sondern nährt.",
-    grundstrategie: "Die selbsterhaltende Fünf sichert sich durch maximalen Rückzug, Selbstgenügsamkeit und Energiesparen — als Verstärkungstyp zeigt sie die Fünfer-Strategie in ihrer reinsten Form: Rückzug, Distanz und das Schützen jedes inneren Vorrats.",
+    lebensthema:
+      "Du trägst Ruhe in dir — eine Stille, die von außen wie Abstand wirken kann, aber für dich oft der einzige Weg ist, klarer zu denken und sicher zu bleiben. Als Verstärkungstyp unter den Fünfern lebst du die Grundstrategie des Typs am reinsten: Du ziehst dich zurück, beobachtest, sparst Energie. Dein Eulenblick bleibt ruhig und wissend, selbst wenn du dich innerlich bereits weit zurückgezogen hast. Was von außen wie Bedürfnislosigkeit wirkt, ist oft ein sorgfältig gebauter Schutzraum. Dein innerer Weg führt nicht dorthin, dich mehr zu verausgaben — sondern zu erfahren, dass Lebendigkeit nicht erschöpft, sondern nährt.",
+    grundstrategie:
+      "Die selbsterhaltende Fünf sichert sich durch maximalen Rückzug, Selbstgenügsamkeit und Energiesparen — als Verstärkungstyp zeigt sie die Fünfer-Strategie in ihrer reinsten Form: Rückzug, Distanz und das Schützen jedes inneren Vorrats.",
     staerken: [
       "tiefe Ruhe und innere Sammlung",
       "durchdringender, wissender Blick",
@@ -23,34 +25,35 @@ export const se5 = {
       "Aus der Beobachterposition in echte Teilnahme wechseln.",
     ],
     wandlung: "Aus Rückzug wird Kontakt. Aus Energiesparen wird Lebendigkeit. Aus Selbstgenügsamkeit wird echte Verbundenheit.",
-    gedankeFuerHeute: "Ich vertraue darauf, dass Lebendigkeit mich nicht erschöpft — sie nährt mich.",
+    gedankeFuerHeute:
+      "Ich vertraue darauf, dass Lebendigkeit mich nicht erschöpft — sie nährt mich.",
   },
   meinKompass_en: {
     lebensthema:
-      "You carry stillness within you — a quiet that can look like distance from outside, but for you is often the only way to think more clearly and stay safe. As the amplifier type among the Fives, you live the basic strategy of the type most purely: you withdraw, observe, conserve energy. What looks like needlessness from outside is often a carefully constructed protected space. Your inner path does not lead to exhausting yourself more — but to experiencing that aliveness nourishes rather than depletes.",
+      "You carry calm within you — a stillness that can look like distance from the outside, but for you is often the only way to think more clearly and stay safe. As the amplifier type among the Fives, you live the core strategy of the type most purely: you withdraw, observe, save energy. Your owl gaze stays calm and knowing, even when you have already withdrawn far inside. What looks from the outside like having no needs is often a carefully built protective space. Your inner path does not lead to expending yourself more — but to experiencing that aliveness does not exhaust but nourishes.",
     grundstrategie:
-      "The self-preservation Five secures through maximum withdrawal, self-sufficiency, and energy conservation — as the amplifier type, they live the Five dynamics most clearly.",
+      "The self-preservation Five secures themselves through maximum withdrawal, self-sufficiency and saving energy — as the amplifier type they show the Five strategy in its purest form: withdrawal, distance and protecting every inner reserve.",
     staerken: [
-      "Keen observation",
-      "Analytical depth",
-      "Self-sufficiency",
-      "Calm in crises",
-      "Ability to think independently",
+      "deep calm and inner collectedness",
+      "a penetrating, knowing gaze",
+      "clear, structured thinking",
+      "economical energy management",
+      "self-sufficiency and independence",
+      "precise powers of observation",
+      "deep reliability in quiet ways",
     ],
     herausforderungen: [
-      "Social withdrawal and isolation",
-      "Hoarding information, time, and energy",
-      "Difficulty with spontaneous sharing",
-      "Emotional detachment",
-      "Living theoretically rather than actually",
+      "Withdrawal as a way of life that can easily become isolation",
+      "Closeness and aliveness appear as something that exhausts rather than nourishes",
+      "The inner experience often remains invisible to others",
+      "Energy appears so sparing that warmth and contact arise only with difficulty",
     ],
     entwicklungspotenzial: [
-      "that sharing knowledge creates connection",
-      "that contact gives energy as well as taking it",
-      "that enough is already enough",
-      "that life does not need to be completely understood to be lived",
+      "Showing oneself — and experiencing that energy flows through contact instead of being lost.",
+      "Combining inner stillness with lively participation.",
+      "Moving from the observer position into genuine participation.",
     ],
-    wandlung: "From withdrawal comes presence. From accumulation comes sharing. From observation comes participation.",
+    wandlung: "Withdrawal becomes contact. Saving energy becomes aliveness. Self-sufficiency becomes genuine connection.",
     gedankeFuerHeute:
       "What do you already know — that you could share with one person today, even before it feels complete?",
   },

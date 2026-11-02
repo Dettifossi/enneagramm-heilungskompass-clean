@@ -1553,7 +1553,7 @@ export function thomasGottschalkPortraitPage() {
         {route:"beruehmte-wietske-van-tongeren", label:"Portrait: Wietske van Tongeren (SX7w6)"},
         {route:"beruehmte-volker-rosin", label:"Portrait: Volker Rosin (SX7w6)"},
         {route:"beruehmte-rudi-carrell", label:"Portrait: Rudi Carrell (SX7w6)"},
-        {route:"beruehmte-atze-schroeder", label:"Portrait: Atze Schröder (SE7w6)"},
+        {route:"beruehmte-atze-schroeder", label:"Portrait: Atze Schröder (SX7w6)"},
         {route:"beruehmte-patrick-stewart", label:"Portrait: Sir Patrick Stewart (SX7w8)"},
         {route:"beruehmte-joerg-pilawa", label:"Portrait: Jörg Pilawa (SX7w6)"},
       ])}
@@ -3072,6 +3072,151 @@ export function svenPlattePortraitPage() {
         {route:"beruehmte-franziska-van-almsick", label:"Portrait: Franziska van Almsick (SO3w4)"},
         {route:"beruehmte-johann-lechner", label:"Portrait: Dr. Johann Lechner (SO7w6)"},
         {route:"beruehmte-bruce-lee", label:"Portrait: Bruce Lee (SO3w4)"},
+      ])}
+    </div>
+  `);
+}
+
+export function johnNeumeierPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-john-neumeier-portrait.jpg" alt="John Neumeier – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">John Neumeier</p>
+        <p class="krim-portrait-typ">SP4w5 &middot; Self-Preservation Type 4 with Five-wing &middot; Countertype of the Four</p>
+        <p class="krim-portrait-subtitle">Choreographer and ballet director, born 1939 in Milwaukee &ndash; Hamburg Ballet 1973&ndash;2024 &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Dove: a child who wanted to become only one thing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Dove</strong> is an animal of return: it finds its way home over great distances and carries what it carries without noise. John Neumeier was born on 24 February 1939 in Milwaukee, Wisconsin. Of his path he said: &lsquo;As long as I can remember, I wanted to become a dancer.&rsquo; According to reports his mother took him to the cinema early, and a musical film awoke in the small boy the wish to imitate the dances. His parents at first did not understand the wish. According to the German Wikipedia a Nijinsky biography from the public library awoke his interest in ballet, and his first ballet lessons were with Sheila Reilly in Milwaukee.</p>
+          <p class="vb-intro">He studied English literature and theatre studies at Marquette University (bachelor&rsquo;s 1961), took lessons in Chicago and then went to Copenhagen and the Royal Ballet School in London, among others to Vera Volkova. Remarkable is the thoroughness: the way to dance led through books, language and craft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Four: quiet carrying, not display</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In Naranjo this subtype is called <em>Tenacity</em>: the self-preservation Four carries her deep feeling without displaying it and stays tough and loyal. It is called the countertype of the Four because it shows little outwardly of what one expects of a Four (drama, self-staging). It often seems serious, controlled and disciplined, and the depth gathers in the work.</p>
+          <p class="vb-intro">In Neumeier this fits on two levels. First in his manner: he gives very rare interviews because, according to a portrait in &lsquo;Der Hamburger&rsquo;, it is not about his person, and he once called himself a &lsquo;controlled romantic&rsquo;. Second in endurance: from 1973 to 2024 he led the Hamburg Ballet, more than fifty years in one place, with the same standard and the same themes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: scholar and collector of dance history</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> lends the Four distance, a love of study and the tendency to gather and order knowledge. Neumeier&rsquo;s ballets are often based on literature: Shakespeare (&lsquo;Romeo and Juliet&rsquo;, &lsquo;A Midsummer Night&rsquo;s Dream&rsquo;), Dumas (&lsquo;The Lady of the Camellias&rsquo;, 1978), Tennessee Williams (&lsquo;A Streetcar Named Desire&rsquo;, 1983), Chekhov (&lsquo;The Seagull&rsquo;, 2002) and Ferenc Molnár (&lsquo;Liliom&rsquo;, 2011). Then there is music: Mahler&rsquo;s &lsquo;Third Symphony&rsquo; (1975), the &lsquo;St Matthew Passion&rsquo; (1981) and later many further scores.</p>
+          <p class="vb-intro">According to the German Wikipedia the John Neumeier Foundation (2006) secures his dance collection and life&rsquo;s work for Hamburg. That he preserves studies, books and keepsakes belongs to the nature of this wing. With the Five-wing the reserve with which he speaks about himself can also be connected.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: Nijinsky, Mahler and the depth of feeling</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What made Neumeier special was the union of narrative ballet and psychological exactness. He created more than 170 works, many of them full-length, and returned again and again to two figures: the dancer Vaslav Nijinsky, who had once awakened his interest in dance (&lsquo;Nijinsky&rsquo;, 2000), and the composer <a href="#beruehmte-gustav-mahler">Gustav Mahler (SO4w5)</a>. Both stand for what the Four knows: artists at the edge of their own strength, longing, loss, art as expression of the unsayable.</p>
+          <p class="vb-intro">His principle reads: &lsquo;A choreographer works with the most important and most precious material there is: the human being.&rsquo; And about his creativity he said: &lsquo;I think it is because I actually do it out of love.&rsquo; It fits that he understands every piece with every new cast as new and individual, because other people carry it differently.</p>
+          <p class="vb-intro">In 1978 he founded the school of the Hamburg Ballet, and according to Wikipedia he has been since 2011 also general director and artistic supervisor of the German National Youth Ballet. His farewell in 2024 with the ballet &lsquo;Epilog&rsquo; at the Hamburg Ballet Days followed the sentence: &lsquo;One has to let go at some point.&rsquo; The direction passed to Demis Volpi.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Paul Simon and Paul McCartney</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A similarly quietly carried depth is shown by <a href="#beruehmte-paul-simon">Paul Simon (SP4w5)</a>, whose songs do not display sadness but give it form. <a href="#beruehmte-paul-mccartney">Paul McCartney (SP4w5)</a> and <a href="#beruehmte-don-mclean">Don McLean (SP4w5)</a> also belong to this subtype with Five-wing. Neumeier shares with them the constancy over decades and the working out of an inner seriousness.</p>
+          <p class="vb-intro">Striking is his lifelong turn to <a href="#beruehmte-gustav-mahler">Gustav Mahler (SO4w5)</a>, who was also a Four with a Five-wing, only in the social variant. That Neumeier choreographed Mahler&rsquo;s symphonies and songs again and again can be connected with the idea that he hears in his music a kindred basic mood, probably without being aware of it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Private life and honours</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Neumeier holds American and German citizenship. According to Wikipedia he married the cardiac surgeon Hermann Reichenspurner in 2018 after 14 years together; the two live in Hamburg. His honours include the German Dance Prize (1988 and 2008), the Herbert von Karajan Music Prize and honorary citizenship of Hamburg (2007), the Grand Cross of Merit (2011), the Kyoto Prize (2015), the Life Achievement Award of the Prix de Lausanne (2017), the Pour le Mérite (2023) and the Order of the Rising Sun (2024).</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Shadow and path of healing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The shadow of the self-preservation Four lies in the tendency to take everything inward and to say only in the work what moves her. Neumeier himself reveals little about this, and that is where this portrait leaves it. The path of the Four leads from longing for what is missing to gratitude for what is there. When he says he &lsquo;always has the feeling of standing at the beginning&rsquo;, this can be read as a hint of how he has kept his wonder.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-paul-simon", label:"Portrait: Paul Simon (SP4w5)"},
+        {route:"beruehmte-martha-graham", label:"Portrait: Martha Graham (SO4w3) – choreographer"},
+        {route:"beruehmte-gustav-mahler", label:"Portrait: Gustav Mahler (SO4w5)"},
+        {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SP4w5)"},
+        {route:"beruehmte-don-mclean", label:"Portrait: Don McLean (SP4w5)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}
+
+export function lindaHamiltonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-linda-hamilton-portrait.jpg" alt="Linda Hamilton – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Linda Hamilton</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexual Type 1 with a Nine wing</p>
+        <p class="krim-portrait-subtitle">American actress, b. 1956 &ndash; Sarah Connor in ‘The Terminator’ &ndash; animal counterpart: black mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The black mamba: the girl who lost her father early</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>black mamba</strong> likes to withdraw into stillness and is most alert there. Linda Hamilton was born on 26 September 1956 in Salisbury, Maryland. Her father (1928–1962) died when she was five; her mother (1931–2019) later married a police chief. She had an identical twin sister, Leslie Hamilton Freas (1956–2020), who doubled for her in a few scenes of ‘Terminator 2’.</p>
+          <p class="vb-intro">She attended Wicomico High School and spent two years at Washington College in Chestertown, Maryland. She then studied acting in New York and took workshops with Lee Strasberg. She made her film debut in 1979 in ‘Night-Flowers’.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual One: obsession with the one role</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo called the sexual One <em>zeal</em>, the countertype of the One: the strictness is directed not at the rules of the community but with great intensity at a single task or counterpart. In Hamilton this can be linked to Sarah Connor, whom she played in 1984, 1991 and 2019. For ‘Terminator 2’ (1991) she trained hard to show the character's transformation over the seven years since the first film. She said she hated her trainer most of the time; he yelled at her and threw tennis balls while she fired weapons blindfolded. She cried briefly in the bathroom and then went back to work.</p>
+          <p class="vb-intro">Director James Cameron said his more troubled version of the character was inspired by Hamilton, who told him: ‘I want to be crazy.’ In 1995 she said Connor had stayed with her, a lasting presence in her mind. The photo shows long, straight, centre-parted hair, a high forehead with horizontal lines and fine lines around the eyes. The eyes are attentive and slightly narrowed, the mouth forms a crooked smile with teeth showing. Deep lines, the nasolabial folds (from Latin nasus, nose, and labium, lip), run from the nose to the corners of the mouth.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine wing: withdrawal, calm and simplicity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine wing (w9)</strong> gives the One calm and withdrawal. In Hamilton this can be linked to the way she protects her private life. Before ‘Terminator: Dark Fate’ (2019) she said she valued her private life and did not want her neighbours to treat her differently. In 2019 she also said: ‘I love my alone time like no one you've ever met.’ She is described as an advocate of natural ageing.</p>
+          <p class="vb-intro">Her career decisions, too, seem restrained rather than busy: she asked to be written out of ‘Beauty and the Beast’ during its third season when she became pregnant. In a 2025 interview she said she had considered retiring because of a long-standing hip problem before she agreed to ‘Stranger Things’.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the woman who made hardness credible</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In ‘The Terminator’ (1984) she plays Sarah Connor, a waitress whose life changes abruptly. The film was made with modest expectations and became a surprise hit. In 1984 critics praised her ‘tremendous resiliency’ (The Hollywood Reporter) and her engrossing performance. In ‘Terminator 2: Judgment Day’ (1991) she showed a hardened Connor; Derek Malcolm of The Guardian singled out her ‘formidable sweaty intensity’.</p>
+          <p class="vb-intro">From 1987 to 1990 she played Catherine Chandler in the series ‘Beauty and the Beast’, from 2010 to 2012 Mary Elizabeth Bartowski in ‘Chuck’, and from 2021 General McCallister in ‘Resident Alien’. In 2019 she returned as Sarah Connor in ‘Terminator: Dark Fate’; in the fifth and final season of ‘Stranger Things’, which premiered in November 2025, she plays Dr. Kay. In September 2026 she was announced for the sports comedy ‘Hot Curlers’. She received two Saturn Awards, two MTV Movie Awards, a Satellite Award and a Romy, and was nominated for three Golden Globes and one Emmy. In 1997 she said she was mostly offered police officers, military officers and lesbian characters; director Roger Donaldson told her she had never played a normal part.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Marie-Agnes Strack-Zimmermann and Jamie Lee Curtis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-marie-agnes-strack-zimmermann">Marie-Agnes Strack-Zimmermann (SX1w9)</a> shares the Nine wing with Hamilton: the sharpness comes with persistence rather than a taste for the stage. <a href="#beruehmte-jamie-lee-curtis">Jamie Lee Curtis (SX1w2)</a> is likewise an actress, here with a Two wing, which brings more attentiveness into play.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Vulnerability: loss, addiction and a diagnosis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2005 Hamilton spoke openly on ‘Larry King Live’ about her bipolar disorder and later said she had received therapy and medication. She said the illness contributed to the failure of both her marriages. She has also spoken of early struggles with drugs, alcohol, cocaine and binge eating. These statements come from her herself; they are not a judgement on her type.</p>
+          <p class="vb-intro">She was married to the actor Bruce Abbott from 1982 to 1989; their son Dalton was born in 1989. She was with the director James Cameron from 1991; their daughter was born in 1993, and they married in 1997 and divorced in 1999.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where she stands and how to place it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With ‘Stranger Things’ (November 2025) Hamilton was most recently seen in a major series; in September 2026 ‘Hot Curlers’ was announced (as of 28 October 2026).</p>
+          <p class="vb-intro">For the sexual One with a Nine wing the path lies in strength not having to be armour and withdrawal not being flight. In Hamilton this can be linked to her saying she loves her time alone: the hardness of the role and the stillness of private life belong together in her.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx1", label:"SX1 – The black mamba: subtype profile"},
+        {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Portrait: Marie-Agnes Strack-Zimmermann (SX1w9)"},
+        {route:"beruehmte-jamie-lee-curtis", label:"Portrait: Jamie Lee Curtis (SX1w2)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
       ])}
     </div>
   `);

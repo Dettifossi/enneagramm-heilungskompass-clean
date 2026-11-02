@@ -5007,3 +5007,126 @@ export function paulBocuseKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function robbieColtraneKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-robbie-coltrane-portrait.jpg" alt="Robbie Coltrane" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Robbie Coltrane</p>
+        <p class="krim-portrait-typ">SE9w8 · Selbsterhaltender Typ 9 mit Achterflügel · 1950–2022</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Elefant</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Tierentsprechung: Elefant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE9")};left:${tierAvatarLeft("SE9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Robbie Coltrane</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-robbie-coltrane">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort nur kurz vorkommt: dem
+        langsamen Verlauf seiner Gelenk- und Stoffwechselerkrankungen und dem Tod am 14. Oktober
+        2022. Es stützt sich auf Presseberichte und seine eigenen Interviewaussagen; eine ärztliche
+        Dokumentation liegt nicht vor.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Coltrane</strong> ist der <strong>selbsterhaltenden Neun mit Achterflügel</strong>
+        zugeordnet. Claudio Naranjo nannte den Subtyp den Appetit: Ruhe und Sicherheit im
+        Konkreten, in Essen, Gewohnheit und Bequemlichkeit. Der Achterflügel bringt Gewicht und Direktheit
+        hinzu. Genau diese Verbindung aus Fülle und Gelassenheit prägt auch Coltranes Umgang
+        mit seiner Krankheit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein Knie, das schon lange schmerzte:</strong>
+        Coltrane sprach in den Jahren vor seinem Tod offen über Gelenkschmerzen. 2016 sagte er nach einem Bericht des ›Daily Star‹, er habe ›den ganzen Tag über ständige Schmerzen‹ (›constant pain all day‹), und musste zeitweise Gehhilfen und einen Rollstuhl benutzen, weil im Knie der Knorpel verloren gegangen war.</p>
+        <p class="vb-intro"><strong>b) Eine Untersuchung mit deutlichem Befund:</strong>
+        Nach einer Probeoperation (Exploration des Gelenks) fanden die Ärzte nach seinen Worten ›keinen Knorpel mehr‹ in einem seiner Knie. Er sprach von Knochen auf Knochen. Diese Angaben stammen aus einem Interview von 2020, wie es die Presse wiedergab.</p>
+        <p class="vb-intro"><strong>c) Ein Beruf, der Bewegung verlangt:</strong>
+        Die Schmerzen begleiteten ihn nach eigenen Angaben schon während der Dreharbeiten zu ›National Treasure‹ (2016) und ›Great Expectations‹ (Fernsehserie). Er arbeitete weiter.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Arthrose als Hauptleiden:</strong>
+        Laut Wikipedia litt er an Arthrose und benutzte ab 2019 einen Rollstuhl. Wo eine Krankheit schleichend zunimmt, ist selten ein einzelner Tag der Anfang.</p>
+        <p class="vb-intro"><strong>b) Weitere Diagnosen:</strong>
+        Dazu kam ein Typ-2-Diabetes. Auf der Sterbeurkunde stehen später außerdem Adipositas (starkes Übergewicht) und ein Herzblock (Störung der Erregungsleitung im Herzen).</p>
+        <p class="vb-intro"><strong>c) Hilfe aus Amerika:</strong>
+        Nach seiner Aussage von 2020 verschaffte ihm eine Gelenkoperation in den USA etwas Linderung. Die Quellen nennen keine weiteren Eingriffe.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Kein Klagen im Rampenlicht:</strong>
+        Öffentlich blieb Coltrane auch in den späten Jahren der Mann mit dem trockenen Humor. Die Schmerzen kamen vor allem in Interviews zur Sprache, nicht in seinen Rollen.</p>
+        <p class="vb-intro"><strong>b) Die Rolle des Hagrid bis zum Schluss:</strong>
+        Der Kinderfreund Rubeus Hagrid, den er von 2001 bis 2011 in den ›Harry Potter‹-Filmen spielte, blieb sein bekanntestes Gesicht. Nach dem Tod nannte J. K. Rowling ihn nach Pressemeldungen ›einmalig‹ (›one of a kind‹).</p>
+        <p class="vb-intro"><strong>c) Ein Körper, der mitspielte, bis er nicht mehr konnte:</strong>
+        Er stand bis ins Alter vor der Kamera. Wie sehr ihn die Krankheit im Alltag einschränkte, ist nur aus wenigen Äußerungen bekannt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Rund zwei Jahre krank:</strong>
+        Nach den Berichten war er die letzten etwa zwei Jahre vor seinem Tod gesundheitlich angeschlagen.</p>
+        <p class="vb-intro"><strong>b) Tod am 14. Oktober 2022:</strong>
+        Robbie Coltrane starb im Forth Valley Royal Hospital in Larbert im Alter von 72 Jahren. Nach der Sterbeurkunde, wie sie der ›Mirror‹ wiedergab, nannte man Multiorganversagen, Sepsis (Blutvergiftung), eine Infektion der unteren Atemwege, Typ-2-Diabetes, einen Herzblock und Adipositas.</p>
+        <p class="vb-intro"><strong>c) Ein Abschied mit vielen Stimmen:</strong>
+        Stephen Fry, sein Kollege aus ›Alfresco‹, schrieb: ›Farewell, old fellow. You’ll be so dreadfully missed.‹ (›Leb wohl, alter Freund. Du wirst so schrecklich fehlen.‹). Seine Agentin nannte ihn ein ›einzigartiges Talent‹. Die Familie dankte dem Krankenhauspersonal.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Gelassenheit nach außen:</strong>
+        Wer sich als Neun über Jahre mit Schmerzen arrangiert, wirkt von außen ruhig. Das erklärt vielleicht, warum seine Krankheit in der Öffentlichkeit kaum Thema war.</p>
+        <p class="vb-intro"><strong>b) Der Humor als Schutz:</strong>
+        Seine Komik, vom ›Comic Strip‹ bis ›Cracker‹, kann als Art gelesen werden, Schwere leicht zu tragen; das bleibt eine Lesart.</p>
+        <p class="vb-intro"><strong>c) Wenig Aufhebens:</strong>
+        Er ging offenbar nicht in die Offensive, um Anteilnahme zu bekommen, sondern sprach das Notwendige aus und arbeitete weiter.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Leben der Fülle und der Bequemlichkeit:</strong>
+        Die selbsterhaltende Neun sucht Ruhe im Konkreten, in Essen, Gewohnheit und kleinen Freuden (Naranjo: Appetit). Coltrane verkörperte die Fülle, körperlich und im Wesen, und das machte einen Teil seines Reizes aus. Der Körper trägt solche Fülle über Jahrzehnte, bis die Gelenke die Last nicht mehr zu tragen vermögen.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im selben Subtyp:</strong>
+        <a href=\"javascript:void(0)\" data-route=\"krankheitsportraets-charles-laughton\">Charles Laughton</a> (SE9w8), ebenfalls ein Schauspieler von großer körperlicher Präsenz, bemerkte seine schwere Krankheit über einen vermeintlich harmlosen Anlass spät. Beide zeigen das SE9-Muster, Beschwerden lange nicht zum Thema zu machen. Mehr dazu im <a href=\"javascript:void(0)\" data-route=\"krankheitsportraets-charles-laughton\">Krankheitsporträt zu Charles Laughton</a>.</p>
+        <p class="vb-intro"><strong>c) Weitermachen statt Hilfe zu suchen:</strong>
+        Dass Coltrane trotz ständiger Schmerzen vor der Kamera stand, passt zu einer Neun, die ihr eigenes Bedürfnis zurückstellt, um den Betrieb und die Stimmung nicht zu stören.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet Gelenke und Stoffwechsel?</strong>
+        Für eine selbsterhaltende Neun, die Genuss und Beständigkeit sucht und dabei die eigenen Grenzen weniger spürt, liegt eine Deutung nahe: Die Last, die der Körper trägt, wächst leise, und die Warnung kommt in Form von Gelenkverschleiß und Zuckerstoffwechsel. Das ist eine mögliche Deutung, kein belegter Zusammenhang; Arthrose und Diabetes haben viele Ursachen, auch Veranlagung und Zufall. Ausführlicher stehen sie im <a href=\"javascript:void(0)\" data-route=\"psychosomatik/arthrose\">Psychosomatik-Register zur Arthrose</a> und im <a href=\"javascript:void(0)\" data-route=\"psychosomatik/diabetes_typ_2\">Register zum Diabetes Typ 2</a>.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass die selbsterhaltende Neun mit Achterflügel zwangsläufig Arthrose oder Diabetes bekommt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Coltranes Fall zeigt ein Muster, das bei Menschen mit großer körperlicher Gelassenheit auffällt, und ist eine von mehreren möglichen Erklärungen, kein Urteil.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Die meisten Menschen kennen ihr Enneagramm-Muster nicht, und von Coltrane ist nicht überliefert, dass er es kannte. Die Neigung der selbsterhaltenden Neun, eigene Beschwerden kleinzureden und im Alltag weiterzumachen, lässt sich mit seinem Verlauf in Verbindung bringen. Wer das eigene Muster nicht kennt, nimmt Warnzeichen oft erst ernst, wenn sie sich nicht mehr überhören lassen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        In <strong>Coltranes</strong> Geschichte zeigt sich die selbsterhaltende Neun mit Achterflügel
+        in ihrer ruhigsten Form: ein Leiden, das über Jahre zunahm, ohne zum öffentlichen Thema zu
+        werden, ein Mann, der trotz Schmerzen weiterarbeitete, und ein Abschied, der die
+        Öffentlichkeit überraschte, obwohl er zwei Jahre krank war. Der Elefant, der seine Last
+        trug, bis sie ihn nicht mehr trug.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-robbie-coltrane", label:"Porträt: Robbie Coltrane (SE9w8) – Lebenswerk"},
+        {route:"krankheitsportraets-charles-laughton", label:"Krankheitsporträt: Charles Laughton (SE9w8) – gleicher Subtyp"},
+        {route:"psychosomatik/arthrose", label:"Psychosomatik: Arthrose"},
+        {route:"psychosomatik/diabetes_typ_2", label:"Psychosomatik: Diabetes Typ 2"},
+        {route:"subtype/se9", label:"Subtyp-Profil SE9"},
+      ])}
+    </div>
+  `);
+}

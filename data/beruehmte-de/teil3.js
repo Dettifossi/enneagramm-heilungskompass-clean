@@ -2299,7 +2299,7 @@ export function leonGoretzkaPortraitPage() {
         {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
         {route:"beruehmte-pedro-alonso", label:"Porträt: Pedro Alonso (SO3w4)"},
         {route:"beruehmte-virgil-van-dijk", label:"Porträt: Virgil van Dijk (SO3w2)"},
-        {route:"beruehmte-george-vithoulkas", label:"Porträt: Prof. George Vithoulkas (SO3w4)"},
+        {route:"beruehmte-george-vithoulkas", label:"Porträt: Prof. George Vithoulkas (SO5w4)"},
         {route:"beruehmte-franziska-van-almsick", label:"Porträt: Franziska van Almsick (SO3w4)"},
         {route:"beruehmte-bruce-lee", label:"Porträt: Bruce Lee (SO3w4)"},
       ])}
@@ -3007,6 +3007,150 @@ export function svenPlattePortraitPage() {
         {route:"beruehmte-franziska-van-almsick", label:"Porträt: Franziska van Almsick (SO3w4)"},
         {route:"beruehmte-johann-lechner", label:"Porträt: Dr. Johann Lechner (SO7w6)"},
         {route:"beruehmte-bruce-lee", label:"Porträt: Bruce Lee (SO3w4)"},
+      ])}
+    </div>
+  `);
+}
+
+export function steveMcQueenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-steve-mcqueen-portrait.jpg" alt="Steve McQueen – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Steve McQueen</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerflügel &middot; Kontratyp der Sechs</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Schauspieler und Rennfahrer, 1930&ndash;1980 &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf: ein Kind, das früh niemandem trauen konnte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> wächst in einem Rudel auf, das ihn nicht schützt, und lernt, selbst Wache zu halten. Steve McQueen kam am 24. März 1930 in Beech Grove in Indiana zur Welt. Sein Vater, ein Stuntpilot, verließ die Familie, als er etwa sechs Monate alt war. 1933 ließ ihn seine Mutter bei den Großeltern zurück; später lebte er auf der Farm seines Großonkels Claude. Mit acht oder neun holte seine Mutter ihn nach Indianapolis, der Stiefvater schlug ihn, und mit neun lebte er auf der Straße. Legasthenie und eine teilweise Taubheit machten ihm die Schule schwer.</p>
+          <p class="vb-intro">Als Jugendlicher schloss er sich in Los Angeles einer Gang an, wurde beim Stehlen von Radkappen erwischt und drohte nach einer Auseinandersetzung seinem Stiefvater, ihn zu töten. Ein Gericht schickte ihn als ›unverbesserlich‹ (incorrigible) in die Boys Republic in Chino Hills, ein Jugendheim. Dort wurde er mit der Zeit zum Vorbild und in den Rat der Jungen gewählt. Später sagte er: ›When a kid doesn't have any love when he's small, he begins to wonder if he's good enough.‹ – wenn ein Kind als Kleinkind keine Liebe bekommt, beginnt es zu zweifeln, ob es gut genug ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Stärke als Schutzschild</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die sexuelle Sechs ist nach Claudio Naranjo der Kontratyp der Sechs: Die Angst zeigt sich nicht als Zögern, sondern als Gegenbewegung, als Härte, Mut und die Bereitschaft, auf das Gefährliche zuzugehen. Bei McQueen lässt sich das mit seinem Weg in die Marines in Verbindung bringen, in denen er ab 1947 diente. Er wurde nach den Angaben mehrfach degradiert, saß 41 Tage im Arrest, soll aber später fünf Kameraden aus einem im Eis eingebrochenen Panzer gerettet haben.</p>
+          <p class="vb-intro">Dass unter der Härte Wachsamkeit lag, zeigt eine Episode von 1969: Nach den Tate-Morden, bei denen seine Freunde Sharon Tate und Jay Sebring starben, meldeten Medien, die Polizei habe eine Todesliste mit seinem Namen gefunden. Nach Angaben seiner ersten Frau trug er danach in der Öffentlichkeit ständig eine Handfeuerwaffe, selbst bei Sebrings Beerdigung. Das lässt sich als Deutung mit dem Muster in Verbindung bringen, Angst nicht zu zeigen, sondern zu bewaffnen. Auch der Blick auf der Zeichnung ist wach und prüfend, der Mund fest geschlossen: ein Gesicht, das erst einmal abwartet, bevor es jemanden an sich heranlässt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Tempo, Rausch und das Auf-Achse-Sein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Riso und Hudson nennen die Sechs mit Siebenerflügel ›Den Kumpel‹ (The Buddy). Der <strong>Siebenerflügel (w7)</strong> bringt Lust am Tempo, an Abenteuer und am Rausch. Bei McQueen zeigt sich das in den Motorrädern und Autos: Er besaß rund 100 Motorräder, eine große Autosammlung und flog mehrere historische Flugzeuge. 1970 gewann er mit Peter Revson in einem Porsche 908 bei den 12 Stunden von Sebring die Klasse bis drei Liter und verpasste den Gesamtsieg um 21,1 Sekunden. Bei Geländerennen wie der Baja 1000 fuhr er unter dem Namen ›Harvey Mushman‹.</p>
+          <p class="vb-intro">Zum Rausch gehörten auch Substanzen: Nach dem Fotografen William Claxton rauchte er fast täglich Marihuana, der Biograf Marc Eliot spricht von viel Kokain Anfang der 1970er Jahre, und 1972 wurde er in Anchorage wegen Trunkenheit am Steuer festgenommen. Dazu kam ein tägliches Zwei-Stunden-Trainingsprogramm mit Gewichten und zeitweise Laufen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: der Mann, der weniger sagte und mehr zeigte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bekannt wurde McQueen als Kopfgeldjäger Josh Randall in der Westernserie ›Wanted: Dead or Alive‹ (94 Folgen, 1958 bis 1961). Es folgten ›The Magnificent Seven‹ (1960), ›The Great Escape‹ (1963), ›The Sand Pebbles‹ (1966, seine einzige Oscar-Nominierung) und ›Bullitt‹ (1968) mit der berühmten Verfolgungsjagd. Aus dem Auftreten wurde sein Etikett: der ›King of Cool‹ (›König der Coolness‹), ein Antiheld, der wenig sprach und viel zeigte.</p>
+          <p class="vb-intro">Zu seinem Selbstbild gehörte, dass er seinen Anteil nicht überhöhte: Als Johnny Carson ihm für den Motorradsprung in ›The Great Escape‹ gratulierte, sagte er: ›It wasn't me. That was Bud Ekins.‹ – ›Das war nicht ich. Das war Bud Ekins.‹ Der Stuntfahrer war ein enger Freund. In ›The Towering Inferno‹ (1974) wollte er die Rolle des Feuerwehrchefs, fragte aber nach mehr Text, um gegenüber Paul Newman gleichzuziehen, und erhielt eine Million Dollar plus Gewinnbeteiligung. Mit seiner Firma Solar Productions finanzierte er den Dokumentarfilm ›On Any Sunday‹ (1971). Beim Rennfilm ›Le Mans‹ (1971) wollte er selbst beim 24-Stunden-Rennen mitfahren, entschied sich aber für den Film, weil die Geldgeber sonst ihre Unterstützung zurückziehen wollten.</p>
+          <p class="vb-intro">1974 verschwand er aus der Öffentlichkeit und zog mit Wohnmobil und alten Indian-Motorrädern durchs Land. Erst 1978 kam er mit ›An Enemy of the People‹ zurück, als bärtiger Arzt in einem Ibsen-Stück, gegen sein Image besetzt. Seine letzten Filme waren ›Tom Horn‹ und ›The Hunter‹ (beide 1980).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp und im Umfeld</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-nick-nolte">Nick Nolte (SX6w5)</a> zeigt als Schauspieler eine ähnlich raue, ungeschützte Härte, und auch bei ihm gilt, dass die Kraft aus dem Umgang mit der Angst kommt. <a href="#beruehmte-eva-mendes">Eva Mendes (SX6w7)</a> gehört zum selben Subtyp und demselben Flügel und zeigt, wie breit sich diese Konstellation äußern kann. Mit <a href="#beruehmte-bruce-lee">Bruce Lee (SO3w4)</a> verbindet ihn eine Freundschaft: Beim Begräbnis 1973 war McQueen einer der Sargträger.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Wo die Stärke trägt und wo sie schützt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach seinem größten Kassenerfolg zog er sich 1974 lieber zurück, als sich weiter zu zeigen. Dem Jugendheim blieb er über Jahrzehnte verbunden: Er besuchte die Jungen und gab ihnen Dinge, die er von Studios verlangt hatte (Rasierer, Jeans). Seine Ehen mit Neile Adams (1956 bis 1972), Ali MacGraw (1973 bis 1978) und Barbara Minty (Januar 1980) lassen sich als Hinweis lesen, dass Nähe für ihn schwer zu halten war. Sein enger Freund Pat Johnson nannte MacGraw die große Liebe seines Lebens.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Ende und die Frage nach Vertrauen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Dezember 1979 stellten Ärzte ein Mesotheliom fest, eine Krebsart, die mit Asbest zusammenhängt. McQueen suchte nach dem Rat der US-Ärzte, sie könnten nichts mehr tun, Hilfe in Mexiko bei dem als Scharlatan geltenden William Donald Kelley und reiste im Oktober 1980 unter dem Namen Samuel Sheppard zu einer Operation nach Ciudad Juárez. Er starb dort am 7. November 1980 mit 50 Jahren an einem Herzinfarkt. In seinen letzten Jahren wandte er sich dem Glauben zu; kurz vor seinem Tod besuchte ihn der Prediger Billy Graham.</p>
+          <p class="vb-intro">Für die sexuelle Sechs liegt der Heilungsweg im Vertrauen: nicht länger beweisen zu müssen, dass man vor nichts Angst hat, sondern dass jemand da sein darf, der bleibt. Dass der misstrauische Rebell am Ende nach Glauben und einem Menschen suchte, dem er trauen konnte, lässt sich in diesem Sinn lesen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-nick-nolte", label:"Porträt: Nick Nolte (SX6w5)"},
+        {route:"beruehmte-eva-mendes", label:"Porträt: Eva Mendes (SX6w7)"},
+        {route:"beruehmte-bruce-lee", label:"Porträt: Bruce Lee (SO3w4)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+        {route:"beruehmte-james-dean", label:"Porträt: James Dean (SX4w3) – die andere Rebellen-Ikone"},
+      ])}
+    </div>
+  `);
+}
+
+export function johnBrownPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-john-brown-portrait.jpg" alt="John Brown – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">John Brown</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexueller Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Amerikanischer Abolitionist, 1800&ndash;1859 &ndash; Überfall auf Harpers Ferry &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba: der Gerber, Landvermesser und Schafzüchter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> bleibt unauffällig, bis sie sich entschlossen hat, und dann ist die Entscheidung unwiderruflich. John Brown wurde am 9. Mai 1800 in Torrington, Connecticut, geboren, als viertes Kind. Sein Vater Owen Brown (1771–1856) war Gerber und wohlhabender Bürger von Hudson, Ohio, wo Brown aufwuchs. Seine Mutter Ruth Mills starb im Dezember 1808, als er acht Jahre alt war. Er war evangelikaler Christ und stark vom puritanischen Glauben seiner Kindheit geprägt.</p>
+          <p class="vb-intro">Er arbeitete als Gerber, brachte sich das Landvermessen selbst bei, war Postmeister in Randolph Township (Pennsylvania) und wurde Wollexperte und Schafzüchter. 1820 heiratete er Dianthe Lusk († 1832), mit der er sieben Kinder hatte, 1833 Mary Ann Day, mit der er 13 weitere Kinder hatte; mehrere starben früh. Am 28. September 1842 meldete er Bankrott an.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Eifer, der zur Tat wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Seit 1834 kämpfte Brown als Abolitionist gegen die Sklaverei: So nannte man die Gegner der Sklaverei, die ihre vollständige Abschaffung forderten (von lateinisch abolere, abschaffen). In den 1850er-Jahren kam er zu dem Schluss, dass sie nur durch einen gewaltsamen Aufstand der Versklavten beendet werden könne. <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> nannte die sexuelle Eins <em>Zeal</em> (Eifer), den Kontratyp der Eins: eine Strenge, die sich mit großer Intensität auf eine einzelne Sache richtet. Bei Brown lässt sich das mit der Konsequenz verbinden, mit der er dieser Sache vieles unterordnete; seine geschäftlichen Unternehmungen scheiterten nach der Darstellung der Quelle auch deshalb, weil er sie dem Kampf gegen die Sklaverei nachordnete.</p>
+          <p class="vb-intro">Das Foto zeigt kurzes, dunkles, borstig aufgerichtetes Haar, eine hohe, gefurchte Stirn mit Querfalten, tief liegende helle Augen, die frontal in die Kamera gehen, eine kräftige Nase und einen schmalen, fest geschlossenen Mund. Das Gesicht ist glatt rasiert und hager. Er trägt einen dunklen Rock mit weißem Kragen. Der Blick ist ruhig und fest, ohne Lächeln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: ruhige Fassade, unbeirrbare Beharrlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der Eins Gelassenheit nach außen und Beharrlichkeit. Riso und Hudson nennen die Eins mit Neunerflügel ›den Idealisten‹. Bei Brown zeigt sich das in seiner Haltung nach der Gefangennahme: Er lehnte Fluchtangebote ab und verstand sich als Märtyrer, dessen Beispiel den Kampf gegen die Sklaverei voranbringen würde. Nach der Urteilsverkündung sagte er vor Gericht, wenn es nötig sei, dass er sein Leben für die Ziele der Gerechtigkeit hingebe und sein Blut mit dem Blut von Millionen in diesem Sklavenland vermische, dann gelte ›let it be done‹ (›so soll es geschehen‹).</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: vom Gewissen zur Organisation und zur Gewalt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach dem Fugitive Slave Act von 1850, der die Rückführung geflohener Versklavter vorschrieb, gründete Brown die ›League of Gileadites‹. 1855 zog er mit mehreren Söhnen und einem Schwiegersohn nach Kansas und wurde rasch zu einem Anführer der Abolitionisten. In der Nacht vom 24. auf den 25. Mai 1856 tötete er mit sieben Männern, darunter vier seiner Söhne, bei Pottawatomie fünf Siedler, die die Sklaverei befürworteten; sie wurden aus ihren Häusern geholt und mit Schwertern erschlagen. Haftbefehle wurden nicht vollstreckt. Danach führte er einen kleinen bewaffneten Trupp in den Gefechten von Black Jack (2. Juni 1856) und Osawatomie (30. August 1856).</p>
+          <p class="vb-intro">Am 10. Mai 1858 berief er in Chatham (Ontario) eine Versammlung ein, die aus 34 Schwarzen und 12 Weißen bestand; sie nahm seine ›Provisional Constitution‹ (vorläufige Verfassung) an und wählte ihn zum Oberbefehlshaber. Mit dem Abolitionisten Frederick Douglass besprach er seine Pläne mehrfach, zuletzt im März 1859 in Detroit. Douglass hielt den Plan für einen Selbstmord und lehnte die Teilnahme ab.</p>
+          <p class="vb-intro">Vom 16. bis 18. Oktober 1859 griff Brown mit etwa 20 Männern das Waffenarsenal der US-Armee in Harpers Ferry an. Er wollte einen Aufstand der Versklavten auslösen und sie bewaffnen; nach der Darstellung der Quelle schloss sich keiner freiwillig an. Eine Kompanie US-Marines unter Oberstleutnant Robert E. Lee stürmte in der Nacht das Arsenal. Siebzehn Menschen starben, darunter zehn von Browns Männern (zwei seiner Söhne), vier Anwohner, zwei Versklavte, die sich Brown angeschlossen hatten, und ein Marine. Brown wurde verwundet gefangen genommen, wegen Mordes, Anstiftung zum Sklavenaufstand und Hochverrats verurteilt und am 2. Dezember 1859 in Charles Town (Virginia) gehängt. An diesem Tag schrieb er: ›I, John Brown, am now quite certain that the crimes of this guilty land will never be purged away but with blood‹ (›Ich, John Brown, bin jetzt ganz sicher, dass die Verbrechen dieses schuldigen Landes nur mit Blut getilgt werden‹).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Johannes der Täufer und Martin Luther</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#bibel-johannes-der-taeufer">Johannes der Täufer (SX1w9)</a> stand wie Brown mit unbeirrbarer Überzeugung gegen die Mächtigen seiner Zeit und bezahlte dafür mit dem Leben. <a href="#beruehmte-martin-luther">Martin Luther (SX1w2)</a> verband wie Brown Gewissen und religiöse Überzeugung mit dem Widerstand gegen die Obrigkeit; bei Luther blieb es beim Wort, bei Brown wurde daraus bewaffnete Tat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Held, Märtyrer, Mörder: eine widersprüchliche Nachwirkung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Brown wurde schon zu Lebzeiten gegensätzlich beurteilt. Henry David Thoreau verteidigte ihn in einer Rede und in Essays. Frederick Douglass lehnte die Teilnahme am Überfall ab. Herman Melville nannte ihn einen ›meteor of war‹ (Meteor des Krieges), Nathaniel Hawthorne sagte, nie sei ein Mann mit mehr Recht gehängt worden. Victor Hugo versuchte vom Exil auf Guernsey aus, eine Begnadigung zu erreichen, und warnte in einem offenen Brief vor einem Bürgerkrieg. Im Norden galt Brown als Held und Märtyrer, die meisten Weißen im Süden sahen in ihm einen Verbrecher und Mörder.</p>
+          <p class="vb-intro">Die Geschichtsschreibung ist bis heute uneins: Manche beschreiben ihn als heldenhaften Märtyrer und Visionär, andere als Wahnsinnigen oder Terroristen. Das Lied ›John Brown's Body‹ wurde zum beliebten Marschlied der Unionstruppen; seine Melodie trägt auch die ›Battle Hymn of the Republic‹. Die Darstellung hier gibt die Positionen wieder und bewertet sie nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Überfall brachte die Frage der Sklaverei in das Zentrum der nationalen Aufmerksamkeit, vertiefte den Gegensatz zwischen Nord und Süd und gilt als eines der Ereignisse, die zum Bürgerkrieg führten. Brown starb im Alter von 59 Jahren.</p>
+          <p class="vb-intro">Für die sexuelle Eins mit Neunerflügel liegt ein Entwicklungsweg darin, dass die Gewissheit, im Recht zu sein, den Blick auf die Folgen für andere nicht verdrängt. Bei Brown trugen sie auch seine Söhne; zwei von ihnen starben in Harpers Ferry. Das lässt sich mit dem Muster verbinden, ohne es zu bewerten: Wo der Eifer allein die Richtung bestimmt, bleibt wenig Raum für das, was er kostet.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"bibel-johannes-der-taeufer", label:"Porträt: Johannes der Täufer (SX1w9)"},
+        {route:"beruehmte-martin-luther", label:"Porträt: Martin Luther (SX1w2)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
       ])}
     </div>
   `);

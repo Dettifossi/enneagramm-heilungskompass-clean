@@ -2077,7 +2077,7 @@ export function jerryLewisPortraitPage() {
         {route:"beruehmte-volker-rosin", label:"Portrait: Volker Rosin (SX7w6)"},
         {route:"beruehmte-johannes-heesters", label:"Portrait: Johannes Heesters (SX7w6)"},
         {route:"beruehmte-rudi-carrell", label:"Portrait: Rudi Carrell (SX7w6)"},
-        {route:"beruehmte-atze-schroeder", label:"Portrait: Atze Schröder (SE7w6)"},
+        {route:"beruehmte-atze-schroeder", label:"Portrait: Atze Schröder (SX7w6)"},
       ])}
     </div>
   `);
@@ -2910,6 +2910,8 @@ export function viggoMortensenPortraitPage() {
         {route:"beruehmte-mads-mikkelsen", label:"Portrait: Mads Mikkelsen (SX9w1)"},
         {route:"beruehmte-willie-nelson", label:"Portrait: Willie Nelson (SX9w1)"},
         {route:"beruehmte-dominik-krause", label:"Portrait: Dominik Krause (SX9w1)"},
+        {route:"beruehmte-gary-cooper", label:"Portrait: Gary Cooper (SX9w1)"},
+        {route:"beruehmte-james-stewart", label:"Portrait: James Stewart (SX9w1)"},
       ])}
     </div>
   `);
@@ -3057,7 +3059,151 @@ export function bruceLeePortraitPage() {
         {route:"beruehmte-sean-connery", label:"Portrait: Sean Connery (SO3w4)"},
         {route:"beruehmte-leon-goretzka", label:"Portrait: Leon Goretzka (SO3w4)"},
         {route:"beruehmte-sven-platte", label:"Portrait: Sven Platte (SO3w4)"},
+        {route:"krankheitsportraets-bruce-lee", label:"Illness Portrait: Bruce Lee (SO3w4) – cerebral edema and death 1973"},
+        {route:"beruehmte-steve-mcqueen", label:"Portrait: Steve McQueen (SX6w7) – friend and pallbearer"},
             ])}
+    </div>
+  `);
+}
+
+export function sulliPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sulli-portrait.jpg" alt="Sulli – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sulli</p>
+        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with a Two wing &middot; Countertype of the Three</p>
+        <p class="krim-portrait-subtitle">South Korean singer and actress (Choi Jin-ri), 1994&ndash;2019 &ndash; animal counterpart: raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The raccoon: a girl who moved to Seoul alone</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> feels everything out with its own paws and relies on what it has understood itself. Sulli was born Choi Jin-ri on 29 March 1994 in Busan. In 2004, in fourth grade, she moved to Seoul on her own to attend the MTM Academy, a theatre school. She received her stage name at SM Entertainment; she herself later explained it as ‘pear blossoms in the snow’.</p>
+          <p class="vb-intro">At eleven she made her debut in 2005 in the SBS drama ‘Ballad of Seodong’ as the young Princess Seonhwa of Silla. Roles followed in ‘Drama City’, the film ‘Vacation’ (2006) and ‘Punch Lady’ (2007), her first substantial role. Someone who stands on her own feet that early learns to secure herself long before anyone else does it for her.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Three: security, but not through gloss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Enneagram teacher Claudio Naranjo called this subtype ‘Security’ and singled it out as the countertype of the Three: the Three's energy remains, but it seeks less the polished outer effect than what holds. In Sulli this can be linked to her public handling of the idol image, which is carefully cultivated in South Korea. She showed herself unmade-up on social media, reportedly went without a bra on purpose and said she wanted to make ‘people's prejudices disappear’ (‘I wanted people's prejudices to disappear’, according to English Wikipedia).</p>
+          <p class="vb-intro">One would expect a Three to optimize the image; Sulli put it at risk. Behind this one can detect the urge to feel safe by no longer playing what others want to see. That remains a reading: the sources call her ‘unconventional’ and say nothing about a subtype.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two wing: warmth, fans, attention to others</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two wing (w2)</strong> makes the Three relationship-oriented and receptive to how others see her. In Sulli one can recognize the side for which the audience's response was not a matter of indifference: according to Wikipedia she stepped away from show business in 2014 because she was exhausted by malicious comments and rumors, including false pregnancy rumors. The same warmth shows in the way she responded to abuse in 2019 as host of the JTBC2 show ‘The Night of Hate Comments’: so cheerfully that she was called ‘the nuclear bomb of hate comments’.</p>
+          <p class="vb-intro">From the show comes her sentence: ‘I wish people would look at me and think, ‘Well, someone like that exists!’ Accept the difference.’</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: child actress, f(x), a voice of her own</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">On 5 September 2009 Sulli debuted with the group f(x) and the single ‘La Cha Ta’. The group had four Korean number-one singles and was the first K-pop act to perform at SXSW. As an actress she won the New Star Award at the 2012 SBS Drama Awards for ‘To the Beautiful You’; for the role she cut 60 centimeters of her hair. ‘The Pirates’ and ‘Fashion King’ followed (both 2014).</p>
+          <p class="vb-intro">After the break she officially left f(x) in August 2015 and turned to acting and advertising. In 2017 she played in the neo-noir thriller ‘Real’ opposite Kim Soo-hyun; that year she was the most Googled person in South Korea. In June 2019 her first single album ‘Goblin’ appeared, whose tracks she co-wrote and co-produced according to Wikipedia. She was cast as the lead in the second season of the Netflix series ‘Persona’ when she died.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Hong Chau and Maria Callas</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With <a href="#beruehmte-hong-chau">Hong Chau (SP3w2)</a> Sulli shares an Asian background and an early start in working life, but Chau works in the ensemble and in the background while Sulli stood in the glare of the spotlight. <a href="#beruehmte-maria-callas">Maria Callas (SP3w2)</a> shows how the same constellation can be worn down in a public life in which performance, image and private life are constantly negotiated.</p>
+          <p class="vb-intro">That both women stood in the spotlight even though the subtype actually seeks inconspicuous substance is itself part of the pattern: the raccoon is not always allowed into the role that suits it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The end and what followed</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sulli died in mid-October 2019 (sources give 13 or 14 October) in Seongnam at the age of 25. The police treated it as a suicide and found no signs of foul play. By her own account she had lived with panic disorder and social anxiety since childhood (October 2018), and according to Wikipedia she was suffering from severe depression before her death. Several media linked her death to the cyberbullying she faced; the causes of a suicide are always complex, and a single trigger cannot be named with certainty.</p>
+          <p class="vb-intro">A broad debate on hate comments followed in South Korea: there were petitions for tougher penalties and a real-name system (the discussion around a proposal called the ‘Sulli Act’), and the internet company Kakao switched off comments under entertainment news for a year. In 2023 the documentary ‘Dear Jinri’ was released as part of ‘Persona: Sulli’ on Netflix.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. What remains: being different may be visible</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The self-preservation Three with a Two wing carries a great deal as long as the other side looks back kindly. Someone who, like Sulli, is public and at the same time refuses to fulfill the expected image often pays a high price. What would heal this subtype is the experience that support does not first arise through stance but already lies in mere existence. Her sentence ‘Accept the difference’ remains a quiet task for everyone who watches.</p>
+          <p class="vb-intro"><strong>Note:</strong> If you are in an emotional crisis or thinking about suicide, help is available around the clock and free of charge. In the US call or text 988; elsewhere see findahelpline.com.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: subtype profile"},
+        {route:"beruehmte-hong-chau", label:"Portrait: Hong Chau (SP3w2)"},
+        {route:"beruehmte-maria-callas", label:"Portrait: Maria Callas (SP3w2)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}
+
+export function yvesSaintLaurentPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-yves-saint-laurent-portrait.jpg" alt="Yves Saint Laurent – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Yves Saint Laurent</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexual Type 1 with a Two wing</p>
+        <p class="krim-portrait-subtitle">French fashion designer, 1936&ndash;2008 &ndash; ‘Le Smoking’, Mondrian dress, Rive Gauche &ndash; animal counterpart: black mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The black mamba: the boy with the miniature theatre</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>black mamba</strong> seems to rest within itself and is directed at the finest detail. Yves Saint Laurent was born on 1 August 1936 in Oran, Algeria, the eldest of three children of French parents. At a strict Catholic school he was bullied because he was seen as unmasculine. He built miniature theatres, designed costumes and at 13 copied out and illustrated books; in 1949 and 1950 he wrote two children's books.</p>
+          <p class="vb-intro">In 1953 he won third prize in a young designers' competition in Paris, and first prize in 1954. In 1955 he graduated top of his class from the school of the Parisian couture guild. Michel de Brunhoff introduced him to Christian Dior, who hired him on the spot.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual One: strictness for the one craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo called the sexual One <em>zeal</em>, the countertype of the One: the strictness is directed not at the rules of the community but with great intensity at a single task. In Saint Laurent this can be linked to fashion, to which he devoted himself completely. In 1957 Dior died, and the then 21-year-old became head designer of the house. In 1958 he showed the ‘Trapeze’ line, in 1960 a controversial ‘Beat Look’ collection, his last for Dior.</p>
+          <p class="vb-intro">In August 1960, during his military service in the Algerian War, he suffered a breakdown and was admitted to a clinic, where he was treated with electroshock. He himself traced his later mental health problems and addictions to this period. He sued Dior for breach of contract and won. The photo shows thick, black, angular glasses, strong, swept-up wavy hair and a forehead with horizontal lines. The gaze goes seriously and slightly sideways past the camera, the mouth is firmly closed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two wing: clothes for others and a partnership</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two wing (w2)</strong> gives the One attentiveness. In Saint Laurent it shows in the question of how clothing serves others. In 1966 he presented ‘Le Smoking’, a tuxedo for women, and opened the first Rive Gauche boutique with prêt-à-porter (ready-to-wear); in 1968 followed the first Rive Gauche shop in the US on Madison Avenue, in 1969 his first men's ready-to-wear collection. He founded the house in 1961 with his partner Pierre Bergé. The romantic relationship ended in 1976, the business partnership remained.</p>
+          <p class="vb-intro">In 1966 he travelled to Marrakech for the first time and later said: ‘Everything was black before Marrakech.’ He kept a chihuahua named Hazel and a succession of French bulldogs named Moujik.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the cut that showed women differently</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1962 he showed his first collection on Rue Spontini; in 1965 followed the Mondrian collection, in 1966 ‘Le Smoking’. His spring collection of 1971, with references to the 1940s, was highly controversial, and he briefly threatened to end haute couture (handmade made-to-measure fashion). In 1976 followed the ‘Russian Peasant’ collection, in 1978 the ‘Broadway Suit’, credited with popularising padded shoulders. In the 1980s he concentrated on couture. In 1987, after the Black Monday stock market crash, he handed ready-to-wear to assistants; in 1993 the company was sold to Sanofi, and in 2002 he stopped.</p>
+          <p class="vb-intro">He received the CFDA International Fashion Award in 1982 and in 1983 became the first living fashion designer to have a solo exhibition at the Metropolitan Museum of Art. In 1985 followed the ‘Oscar de la mode’ (‘Fashion Oscar’), in 1999 the CFDA Lifetime Achievement Award. In 2001 he became Commander and in 2007 Grand Officer of the Legion of Honour. In 2004 he founded a foundation in Paris with Bergé, and in 2017 museums opened in Paris and Marrakech.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Michèle Lamy and Annie Lennox</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-michele-lamy">Michèle Lamy (SX1w2)</a> likewise works in fashion and, like Saint Laurent, lives a very personal style with consistency. <a href="#beruehmte-annie-lennox">Annie Lennox (SX1w2)</a> shows how an unmistakable image and a clear stance can belong together.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Vulnerability: the burden behind the glamour</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From the mid-1970s alcohol and drug use increased; at some shows he needed the support of models to walk the runway. In 1973 and 1974 he had a brief affair with Jacques de Bascher, which Bergé ended. Places gave him support: from 1974 he acquired several houses in Morocco, including the Majorelle Garden in 1980, and in 1983 he bought the Château Gabriel near Deauville. These details are historically documented and are not a judgement on his type.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The end and what remains</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Saint Laurent died on 1 June 2008 at the age of 71 in his home in Paris of brain cancer. A few days earlier he and Bergé had entered a civil partnership (PACS). His ashes were scattered in the Majorelle Garden in Marrakech.</p>
+          <p class="vb-intro">For the sexual One with a Two wing the path lies in not confusing strictness towards one's own work with strictness towards oneself, and in attention being possible without achievement. In Saint Laurent this can be linked to the places where he found peace, such as Marrakech.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx1", label:"SX1 – The black mamba: subtype profile"},
+        {route:"beruehmte-michele-lamy", label:"Portrait: Michèle Lamy (SX1w2)"},
+        {route:"beruehmte-annie-lennox", label:"Portrait: Annie Lennox (SX1w2)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
     </div>
   `);
 }

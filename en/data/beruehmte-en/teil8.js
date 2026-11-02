@@ -1340,10 +1340,10 @@ export function reinhardMeyPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-reinhard-mey-portrait.jpg" alt="Reinhard Mey" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-reinhard-mey-v2-portrait.jpg" alt="Reinhard Mey" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Reinhard Mey</p>
-        <p class="krim-portrait-typ">SO4w3 &middot; Social Type 4 with Three-Wing</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Social Type 4 with Five-Wing</p>
         <p class="krim-portrait-subtitle">German singer-songwriter, b. 1942 in Berlin &ndash; Animal correspondence: Armadillo</p>
       </div>
       <div class="page-content">
@@ -1351,48 +1351,48 @@ export function reinhardMeyPortraitPage() {
         <h2 class="vb-section">1. The Armadillo with a Guitar</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four: a hard shell on the outside, an exceptionally sensitive interior underneath. Reinhard Mey fits this image: for over five decades one of the most successful German singer-songwriters, he nevertheless keeps his private life behind a dense shell while the sensitive side lies open in his songs.</p>
-          <p class="vb-intro">Reinhard Mey was born on 21 December 1942 in Berlin and attended the French Gymnasium. In the 1960s he first sang chansons, appeared in France as Frédérik Mey and only from there returned to German lyrics. The breakthrough came in the early 1970s, with songs like "Mein Achtel Lorbeerblatt" ("My Eighth of a Laurel Leaf," 1972) and "Über den Wolken" ("Above the Clouds," 1974), which a ZDF poll ranked fourth among the best songs of the century. He wrote more than 500 songs and is regarded as a lone figure among German singer-songwriters.</p>
+          <p class="vb-intro">Reinhard Mey was born on 21 December 1942 in Berlin and attended the French Gymnasium (a secondary school with French as its language of instruction). In the 1960s he first sang chansons, appeared in France as Frédérik Mey and only from there returned to German lyrics. The breakthrough came in the early 1970s, with songs like "Mein Achtel Lorbeerblatt" ("My Eighth of a Laurel Leaf," 1972) and "Über den Wolken" ("Above the Clouds," 1974), which a ZDF poll ranked fourth among the best songs of the century. He wrote more than 500 songs and is regarded as a lone figure among German singer-songwriters.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social Four: Being Different Within the Community</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to Naranjo, the <strong>social Four (SO4)</strong> carries <em>Shame</em>: the feeling of not quite belonging, together with the wish to be seen by the community after all. In Mey this shows in his role as a loner in the business: he never fitted the Schlager world, never served the taste of the day and remained, with guitar, long lines of text and quiet irony, a solitary figure who still reached a large audience across generations.</p>
+          <p class="vb-intro">Dr. Claudio Naranjo described the <strong>social Four (SO4)</strong> with the keyword <em>Shame</em>: the feeling of not quite belonging, together with the wish to be seen by the community after all. In Mey this shows in his place in the business: he never fitted the Schlager world (German pop of the sentimental, easy-listening kind), never served the taste of the day and remained, with guitar, long lines of text and quiet irony, a solitary figure who still reached a large audience across generations.</p>
           <p class="vb-intro">Even his protest song "Nein, meine Söhne geb' ich nicht" ("No, I Won't Give Up My Sons," 1986) is not a slogan for the crowd but a very personal statement: protecting his own children from war and the state's grasp. His otherness is aimed at authority and bureaucracy, as in the "Antrag auf Erteilung eines Antragsformulars" ("Application for Issuing an Application Form"), and stays turned toward the community.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Three-Wing: Craft, Preparation and Success</h2>
+        <h2 class="vb-section">3. The Five-Wing: Distance, Precision and Preparation</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing</strong> brings achievement and impact into play, and in Mey it shows as craft. He arrives about five hours before a big performance, does a thorough soundcheck and then plays the entire concert programme through once, alone. He speaks of stage fright that has never eased: "It's there every evening. It's the engine that drives me … the contest with myself, the free fall, the triumph over fear."</p>
-          <p class="vb-intro">Success is the visible side of the Three-wing: roughly every two to three years he goes on an extended tour, a live album appears from each, and in 1973 he even acquired a private pilot's licence, three years later the instrument rating. Flying, which carried him to "Über den Wolken," is achievement and freedom at once.</p>
+          <p class="vb-intro">The <strong>Five-wing</strong> gives the Four distance and the tendency to penetrate and master a matter before it goes outward. Mey's way of working can be linked with this: he arrives about five hours before a big performance, does a thorough soundcheck and then plays the entire concert programme through once, alone. He steps in front of the audience only when everything has been checked.</p>
+          <p class="vb-intro">The precision of his lyrics fits this, with their long lines and play on language. Flying, which carried him to "Über den Wolken," is likewise no mere daydream for him: in 1973 he acquired a private pilot's licence, three years later the instrument rating, that is, the ability to navigate by instruments and rules. The stage fright remains nevertheless: "It's there every evening. It's the engine that drives me … the contest with myself, the free fall, the triumph over fear."</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The Loss of a Son: The Shell and the Sensitivity Beneath</h2>
+        <h2 class="vb-section">4. The Loss of a Son: What Remains Behind the Shell</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In 2009, Mey's son Maximilian suffered severe pneumonia that left him in a coma; he died in 2014 at age 32, never having regained consciousness. Mey never made the loss a recurring public topic but processed it in the song "Du bist ein Riese, Max!" ("You Are a Giant, Max!"), including the thought of how parents often make their children small rather than great through upbringing. This is the armadillo: the deeply personal stays protected, yet in art it may become visible.</p>
+          <p class="vb-intro">In 2009, Mey's son Maximilian suffered severe pneumonia that left him in a coma; he died in 2014 at age 32, never having regained consciousness. Mey never made the loss a recurring public topic but processed it in the song "Du bist ein Riese, Max!" ("You Are a Giant, Max!"), including the thought of how parents often make their children small rather than great through upbringing. The deeply personal stayed protected; in art it was allowed to become visible.</p>
           <p class="vb-intro">His stated parenting principle of leaving his sons plenty of freedom and "letting them be" suits a Four who values his own otherness and grants it to others.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and Shadow of the Social Four with a Three-Wing</h2>
+        <h2 class="vb-section">5. Closeness and Withdrawal</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light shows in the union of depth and reach: "Gute Nacht, Freunde" ("Good Night, Friends"), "Über den Wolken" and many more became fixtures of the German-language song repertoire because real feeling and careful craft meet in them.</p>
-          <p class="vb-intro">The shadow lies in the tension behind the success: even after thousands of concerts the stage fright remains as strong as ever, and the demand to measure up in his own eyes must be met anew before every performance. The wish to be seen and the protection of the private stand side by side.</p>
+          <p class="vb-intro">The bright side in Mey is the union of depth and reach: "Gute Nacht, Freunde" ("Good Night, Friends"), "Über den Wolken" and many more became fixtures of the German-language song repertoire because real feeling and careful work meet in them.</p>
+          <p class="vb-intro">The tension behind it is the other part: even after thousands of concerts the stage fright remains as strong as ever, and the demand to measure up in his own eyes must be met anew before every performance. The wish to be seen and the protection of the private stand side by side, as one would expect of a social Four with a Five-wing.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Three Social Fours Who Turned Their Otherness into Success</h2>
+        <h2 class="vb-section">6. Singer-Songwriters in the Same Subtype</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">A revealing comparison within the same subtype is <a href="javascript:void(0)" data-route="beruehmte-cat-stevens">Cat Stevens / Yusuf Islam</a> (SO4w3): he too is a singer-songwriter with a gentle, very personal voice who had great success yet showed himself all his life as an outsider and seeker. In both, the Three-wing joins sensitivity with the ability to reach a large audience.</p>
-          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-hugh-grant">Hugh Grant</a> (SO4w3) also shows how the social Four with a Three-wing combines success with distance from his own fame: the shell stays, even when the stage is big.</p>
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-leonard-cohen">Leonard Cohen</a> (SO4w5) shares the Five-wing with Mey: with him too the text stands at the centre, and he too kept his distance from the business although his songs reached millions.</p>
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-cat-stevens">Cat Stevens / Yusuf Islam</a> (SO4w3) forms an instructive counterpart: likewise a singer-songwriter with a gentle, very personal voice, but with the Three-wing aiming more strongly at impact and the pursuit of success, whereas Mey stays with preparation and precision.</p>
         </blockquote>
 
       </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
-        {route:"beruehmte-cat-stevens", label:"Portrait: Cat Stevens / Yusuf Islam (SO4w3) – same subtype"},
-        {route:"beruehmte-hugh-grant", label:"Portrait: Hugh Grant (SO4w3)"},
+        {route:"beruehmte-leonard-cohen", label:"Portrait: Leonard Cohen (SO4w5) – same subtype"},
+        {route:"beruehmte-cat-stevens", label:"Portrait: Cat Stevens / Yusuf Islam (SO4w3)"},
       ])}
     </div>
   `);
@@ -2947,6 +2947,7 @@ export function wolfgangNiedeckenPortraitPage() {
         {route:"beruehmte-juergen-klopp", label:"Portrait: Jürgen Klopp (SO1w2)"},
         {route:"beruehmte-brian-wilson", label:"Portrait: Brian Wilson (SO1w2)"},
         {route:"beruehmte-bradley-cooper", label:"Portrait: Bradley Cooper (SO1w2)"},
+        {route:"krankheitsportraets-wolfgang-niedecken", label:"Illness Portrait: Wolfgang Niedecken (SP1w2) – stroke"},
             ])}
     </div>
   `);
@@ -3088,6 +3089,146 @@ export function happyAndersonPortraitPage() {
         {route:"beruehmte-charles-laughton", label:"Portrait: Charles Laughton (SP9w8)"},
         {route:"beruehmte-dietmar-baer", label:"Portrait: Dietmar Bär (SP9w8)"},
         {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}
+
+export function marieleMillowitschPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-mariele-millowitsch-portrait.jpg" alt="Mariele Millowitsch – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mariele Millowitsch</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with a One wing</p>
+        <p class="krim-portrait-subtitle">German actress and veterinarian, b. 1955 &ndash; ‘Nikola’, ‘girl friends – Freundschaft mit Herz’, ‘Marie Brand’ &ndash; animal counterpart: sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The sloth: the youngest in the house of a folk actor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sloth</strong> hangs quietly in the branches and notices what goes on around it. Marie-Luise Millowitsch, known as Mariele, was born on 23 November 1955 in Cologne, the fourth and youngest child of the folk actor Willy Millowitsch and his wife Gerda. The family theatre on Aachener Straße was part of everyday life; even as a child she stood on its stage, according to reports for the first time in 1962 in the farce ‘Drei kölsche Jungs’ (‘Three Cologne Boys’).</p>
+          <p class="vb-intro">She herself does not describe her childhood as simply sunny: ‘Everything revolved around the father,’ who was moody, and there were also moments of fear. As a child she could not bear shouting, and she still cannot. At the same time she remembers a father who did not push when school reports were bad but comforted with ‘Wird scho’ (‘It'll be fine’), and a mother who subordinated herself to him. That she learned early to read the mood in the house and to avoid tension can be linked to the pattern of the Nine.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Nine: the one bond and the art of keeping harmony</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo described the sexual Nine as the subtype of union: the energy goes not to the group but to the single counterpart, the work or the role in which the person is completely absorbed. In Millowitsch this can be linked to her loyalty to a few things: the role she carries for years, and the dogs she calls her second great love; her mixed-breed Luigi was allowed on the set of ‘Marie Brand’. Since her student days in Munich she lived with a wire-haired dachshund. What carries her is not a wide network but her siblings and a circle of long-standing friends.</p>
+          <p class="vb-intro">It belongs to the Nine to put calm above conflict. The aversion to loud quarrelling that she took from childhood fits this. Asked about children of her own, she said in an interview: ‘The door is closed, so it's closed.’ She seems not bitter but serene; since 2021 she has said she is single and very content with it. The photo shows a broad, open smile with visible teeth, deep laugh lines around the eyes, a soft, warm gaze and tousled hair with a side strand across the forehead. The head is slightly tilted, as if she were listening.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One wing: thoroughness, duty and a standard for what is right</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One wing (w1)</strong> gives the Nine thoroughness and a sense of what has to be done. Instead of the drama school her parents had in mind after school, Millowitsch studied veterinary medicine at Ludwig Maximilian University in Munich, reportedly at a distance from the family's theatre milieu. In 1983, shortly before finishing her studies, she accepted an offer to perform at the Düsseldorf Kom(m)ödchen cabaret; at the end of the 1980s she completed her studies and in 1991 received her doctorate in veterinary medicine. The dissertation dealt with percutaneous partial discectomy, a procedure for slipped discs in dogs, which mainly affect dachshunds. She never practised as a veterinarian.</p>
+          <p class="vb-intro">Duty also shows outside the stage. She is a member of Doctors Without Borders, supports a health centre in Jattaba in the Gambia and became patron of the patients' days of the breast centre in Cologne-Holweide. As a delegate of the SPD she was a member of the Federal Convention in 2017. Her roles carry the One-wing trait too: Commissioner Marie Brand looks for the truth behind her cases, and the probation officer Klara Sonntag stands between law and humanity.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the woman next door who can be funny and credible at once</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Millowitsch became known through television. From 1995 to 2004 she played Marie Malek in the ZDF series ‘girl friends – Freundschaft mit Herz’ (‘girl friends – Friendship with Heart’; 69 episodes, alongside Walter Sittler), and from 1996 to 2005 the title role in the RTL comedy series ‘Nikola’ (110 episodes). For ‘girl friends’ she received the Goldener Löwe (Golden Lion) in 1996; for ‘Nikola’ the Adolf Grimme Award in 1998, the Bavarian TV Award in 2002 and in 2003 the Deutscher Fernsehpreis as best sitcom actress; in 2000 she won the Goldene Kamera for both series. Added to this are her place on the panel of Harald Schmidt's game show ‘Pssst …’ (1990–1995), the thriller role in ‘Die Stimmen’ (‘The Voices’, 2003) and ‘Die Familienanwältin’ (‘The Family Lawyer’, 2005–2006).</p>
+          <p class="vb-intro">Since 2008 she has played the Cologne detective Marie Brand in the ZDF crime series, which the FAZ praised as ‘gut geschrieben, gut gespielt und gut gemacht’ (well written, well acted and well made); since 2021 she has played the title role in the ARD series about the probation officer Klara Sonntag. The range between sitcom, family lawyer and crime drama, carried by a naturalness that rests on the family's Cologne stage craft, is her professional substance. It is notable that after the detour through her studies she does not pursue many projects side by side but binds herself to a few long-running roles. She also reads aloud: from Annie Ernaux's ‘The Years’ (2017), in a staged reading with Walter Sittler titled ‘Alte Liebe’ (‘Old Love’), and she narrated the audiobook ‘Am Ende des Schweigens’ (‘At the End of Silence’) by Charlotte Link (gold award).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Richy Müller, Kris Marshall and Helge Schneider</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-richy-mueller">Richy Müller (SX9w1)</a> has embodied the same Tatort character since 2008, just as Millowitsch has played Marie Brand since 2008: a role that grows over the years instead of being swapped. <a href="#beruehmte-kris-marshall">Kris Marshall (SX9w1)</a> stayed with the same character in ‘My Family’ for eleven years. <a href="#beruehmte-helge-schneider">Helge Schneider (SX9w1)</a>, also born in 1955, shows the same ease in comedy: the audience sees him as relaxed, while decades of discipline stand behind it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Family and private life: protection instead of headlines</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Her brother Peter ran the Millowitsch Theatre from 1998 to 2018; after her studies she herself found her own place in front of it and beside it. Her last publicly known relationship ended amicably in 2009, and the two then lived in separate flats in the same house. As an aunt and godmother she sees herself in a good role: ‘There have to be aunts and godmothers too.’ She speaks sparingly and kindly about private matters.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where she stands and how to place it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mariele Millowitsch lives in Cologne and is still active; most recently she was seen in the cinema film ‘Von uns wird es keiner sein’ (‘None of Us Will Be It’, 2024) and in ‘Weihnachten im Olymp’ (‘Christmas on Olympus’, 2025) (as of 27 October 2026).</p>
+          <p class="vb-intro">For the sexual Nine with a One wing the path lies in letting one's own voice count beside the bond, and in seeing that calm is not a duty that has to replace the quarrel. In Millowitsch the serenity one believes of her on screen can be linked to this path: out of the father's loud world came a quiet voice of her own.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx9", label:"SX9 – The sloth: subtype profile"},
+        {route:"beruehmte-richy-mueller", label:"Portrait: Richy Müller (SX9w1)"},
+        {route:"beruehmte-kris-marshall", label:"Portrait: Kris Marshall (SX9w1)"},
+        {route:"beruehmte-helge-schneider", label:"Portrait: Helge Schneider (SX9w1)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}
+
+export function methodManPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-method-man-portrait.jpg" alt="Method Man – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-method-man-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Method Man</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">American rapper and actor (Clifford Smith), b. 1971 &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Hippopotamus: the boy who commuted between two homes</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>hippopotamus</strong> looks sluggish and friendly until someone touches its territory; then it shows how much strength is in the massive body. Clifford Smith Jr. was born on 2 March 1971 in Hempstead on Long Island (sources also give other dates). He grew up between his father&rsquo;s house on Long Island and his mother&rsquo;s on Staten Island; mostly his mother raised him and his two sisters in the Park Hill housing projects on Staten Island. He played lacrosse and attended New Dorp High School.</p>
+          <p class="vb-intro">On Staten Island he got to know the later RZA, GZA and Ol&rsquo; Dirty Bastard, with whom he was already rapping as a teenager. He borrowed his stage name from a 1979 martial-arts film, &lsquo;The Fearless Young Boxer&rsquo;, released in the US as &lsquo;Method Man&rsquo;. He also went by Johnny Blaze, Tical and Iron Lung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: the clan as innermost circle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo gave the Self-Preservation Two the keyword &lsquo;Me First&rsquo; (often rendered &lsquo;privilege&rsquo;): care goes first to the innermost circle, and the feeling of being indispensable there secures one&rsquo;s own ground. For Method Man that circle is the Wu-Tang Clan, a family association already in its name. On the debut album &lsquo;Enter the Wu-Tang (36 Chambers)&rsquo; (1993) he and GZA were the only members with a solo track of their own, &lsquo;Method Man&rsquo;, which made him the face of the group without his leaving it. His solo album &lsquo;Tical&rsquo; (1994) entered the Billboard 200 at number 4.</p>
+          <p class="vb-intro">Privately too he binds himself closely: in 2001 he married Tamika Smith, and the couple has three children. The pattern of the Self-Preservation Two shows here as rootedness in one&rsquo;s own territory, not as flight from it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-wing: the host who is a guest everywhere</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso and Russ Hudson call the Two with a Three-wing &lsquo;The Host&rsquo;. The <strong>Three-wing (w3)</strong> gives the care shine and impact. Method Man combined the warmth of the clan with appearances far beyond rap: for the duet &lsquo;I&rsquo;ll Be There for You/You&rsquo;re All I Need to Get By&rsquo; with Mary J. Blige he received a Grammy in 1996, with Redman he formed a duo of his own (&lsquo;Blackout!&rsquo;, 1999, platinum) and made the film &lsquo;How High&rsquo; (2001), later the Fox series &lsquo;Method &amp; Red&rsquo;. Added to that came roles in &lsquo;Oz&rsquo; (as Tug Daniels), in &lsquo;The Wire&rsquo; (as Cheese), &lsquo;The Deuce&rsquo; and &lsquo;Power Book II: Ghost&rsquo;, films such as &lsquo;Belly&rsquo; (1998), &lsquo;Garden State&rsquo; (2004), &lsquo;Keanu&rsquo; (2016) and &lsquo;Bad Shabbos&rsquo; (2024), hosting &lsquo;Drop the Mic&rsquo; and in 2025 an appearance in season 13 of &lsquo;The Masked Singer&rsquo; as &lsquo;Stud Muffin&rsquo;.</p>
+          <p class="vb-intro">The host likes to share the stage: almost every one of these stations is a collaboration.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the raspy voice and the hook that sticks</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What sets Method Man apart among the nine Wu-Tang voices is a voice often described as raspy and husky, with a way of setting refrains that lodge in the memory at once. Where other members of the clan rely on dense, interlocking lyrics, he works through charisma and recognizability: his verses and hooks carry guest features and duets (like the one with Blige) as well as the group tracks. That explains why he of all the clan became the rapper who built the bridge to the broad public, to pop duets, film and television.</p>
+          <p class="vb-intro">Remarkable is the staying power: he has been in the business since the early Nineties, has released solo albums up to &lsquo;The Meth Lab&rsquo; (2015) and announced another, &lsquo;Crystal Meth&rsquo;, as his final studio album, without so far naming a date.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Carlos Santana</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-carlos-santana">Carlos Santana (SP2w3)</a> is the obvious parallel: a musician who came from a close family and musical circle, regained relevance through collaborations with younger artists and never disowned his roots. Both show the Three-wing as the desire to make their own community visible to the outside.</p>
+          <p class="vb-intro">The difference: Santana carries his craft as a tradition passed on personally, Method Man his charisma as part of a collective.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the Self-Preservation Two with Three-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright are the loyalty to his roots, the ability to fit into many contexts and the warmth with which he moves between rap, film and television without losing the bond with the clan.</p>
+          <p class="vb-intro">The shadow side lies where the circle comes first. Someone who secures his own ground can lose sight of the rules outside the circle: in 2010 Method Man pleaded guilty to tax evasion and, according to Wikipedia, paid a $106,000 fine. This portrait records that as fact without interpreting it further. The Three-wing can also tempt one to take on ever new roles because they secure attention; whether that applies to him cannot be said from outside.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: the Hall of Fame</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Method Man is (as of 29 October 2026) 55 years old. The Wu-Tang Clan is among the 2026 inductees of the Rock and Roll Hall of Fame; the ceremony will be taped on 14 November 2026 at the Peacock Theater in Los Angeles and shown in December on ABC and Disney+. After the announcement Method Man wrote on X: &lsquo;We made it. THANK YOU!!!!&rsquo; The word &lsquo;we&rsquo; in that sentence fits his pattern.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"lebensmusterkompass/se2", label:"Life Pattern Compass: SP2 – Hippopotamus"},
+        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
       ])}
     </div>
   `);

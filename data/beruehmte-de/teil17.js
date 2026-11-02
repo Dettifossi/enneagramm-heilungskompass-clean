@@ -2335,7 +2335,7 @@ export function pedroAlonsoPortraitPage() {
         {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
         {route:"beruehmte-dmitri-hvorostovsky", label:"Porträt: Dmitri Hvorostovsky (SO3w2)"},
         {route:"beruehmte-leon-goretzka", label:"Porträt: Leon Goretzka (SO3w4)"},
-        {route:"beruehmte-george-vithoulkas", label:"Porträt: Prof. George Vithoulkas (SO3w4)"},
+        {route:"beruehmte-george-vithoulkas", label:"Porträt: Prof. George Vithoulkas (SO5w4)"},
       ])}
     </div>
   `);
@@ -2708,9 +2708,10 @@ export function edithPiafPortraitPage() {
           <p class="vb-intro">Was Piaf tatsächlich auszeichnete, war eine höchst eigenständige Gesangstechnik, die sie sich nie in einer klassischen Gesangsausbildung aneignete, sondern auf der Straße und in kleinen Pariser Music-Halls autodidaktisch entwickelte: ein intensives, fast raues Vibrato, eine kompromisslos klare französische Diktion, die jede Zeile auch für Nicht-Muttersprachler verständlich machte, und ein dynamischer Kontrast zwischen fast geflüsterten Passagen und voller Bruststimme, der jedem Lied eine theatralische Spannung gab, ohne auf übertriebene Gestik angewiesen zu sein. Zeitgenossen beschrieben ihre kleine, zierliche Statur (knapp 1,47 Meter) im Kontrast zu einer Stimme, die ganze Konzertsäle allein mit ihrem Gewicht füllte – eine fachliche Substanz, die weit über bloßes Talent hinausging und von Jahrzehnten täglicher Bühnenpraxis geformt wurde.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Parallele im selben Subtyp: Adele</h2>
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Adele – und ein Echo aus Avignon</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Unter den Porträts dieses Kompasses findet sich mit <a href="#beruehmte-adele">Adele (SE4w3)</a> eine naheliegende Parallele: Beide Sängerinnen verwandelten tiefen persönlichen Schmerz – bei Adele Trennungen und Selbstzweifel, bei Piaf Verlust, Sucht und körperlichen Verfall – nicht in öffentliche Klage, sondern in diszipliniert komponierte Lieder, die genau dadurch universell wurden. Beide zeigen den charakteristischen SE4w3-Kontrast zwischen stiller, oft von Außenstehenden kaum wahrgenommener innerer Not und einer Bühnenpräsenz, die Millionen erreicht.</p>
+          <p class="vb-intro">Ein Echo reicht bis nach Avignon: <a href="#beruehmte-mireille-mathieu">Mireille Mathieu (SE3w2)</a> sah als Kind Piaf im Fernsehen, nannte sie ihr frühes Vorbild, und die Presse taufte sie ›Piaf d&rsquo;Avignon‹. Beide sind selbsterhaltende Subtypen mit kleiner Gestalt und kräftiger, klarer Stimme, doch das Muster läuft verschieden: Die selbsterhaltende Vier mit Dreierflügel verwandelt Schmerz in Kunst, die selbsterhaltende Drei mit Zweierflügel verwandelt Verlässlichkeit in Dienst am Publikum. Piaf stand trotz ihres Verfalls bis kurz vor ihrem Tod auf der Bühne; Mathieu geht mit achtzig auf ihre Abschiedstournee.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Vier</h2>
@@ -2733,6 +2734,7 @@ export function edithPiafPortraitPage() {
         {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
         {route:"lebensmusterkompass/se4", label:"Lebensmusterkompass: SE4 – Taube"},
         {route:"beruehmte-adele", label:"Porträt: Adele (SE4w3) – ebenfalls stiller, diszipliniert geformter Schmerz in universellen Liedern"},
+        {route:"beruehmte-mireille-mathieu", label:"Porträt: Mireille Mathieu (SE3w2) – der ›Piaf d'Avignon‹ der nächsten Generation"},
         {route:"krankheitsportraets-edith-piaf", label:"Krankheitsporträt: Édith Piaf (SE4w3)"},
       ])}
     </div>
@@ -2971,7 +2973,7 @@ export function patrickStewartPortraitPage() {
         </div>
         <p class="krim-portrait-name">Sir Patrick Stewart</p>
         <p class="krim-portrait-typ">SX7w8 &middot; Sexueller Typ 7 mit Achterflügel</p>
-        <p class="krim-portrait-subtitle">Britischer Schauspieler, geb. 1940 &ndash; Tierentsprechung: Schimpanse</p>
+        <p class="krim-portrait-subtitle">Britischer Schauspieler, 1940&ndash;2026 &ndash; Tierentsprechung: Schimpanse</p>
       </div>
       <div class="page-content">
         <h2 class="vb-section">1. Der Schimpanse: der Junge aus Mirfield</h2>
@@ -2989,13 +2991,13 @@ export function patrickStewartPortraitPage() {
         <h2 class="vb-section">3. Der Achterflügel: der Realist</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Don Richard Riso und Russ Hudson nennen die Sieben mit Achterflügel ›Der Realist‹ und die Sieben mit Sechserflügel ›Der Entertainer‹. Der <strong>Achterflügel (w8)</strong> verleiht der Sieben Durchsetzung, Nüchternheit und einen Kommandoton. Bei Stewart passt das zu dem, was er als Schlüssel seiner Kindheit beschreibt: ›Violence is a choice, and it’s a choice a man makes.‹ (›Gewalt ist eine Entscheidung, und es ist eine Entscheidung, die ein Mann trifft.‹) Man kann die Gewalt des Vaters so lesen, dass sie ihm das Unbeschwerte austrieb und der Achterflügel zum Schutz wurde.</p>
-          <p class="vb-intro">Dieser Zug zeigt sich in seinem Engagement: Er ist Schirmherr der Organisation Refuge gegen häusliche Gewalt, drehte ein Video für Amnesty International zu diesem Thema und unterstützt Combat Stress (Hilfe für traumatisierte Soldaten), die UN-Vereinigung Großbritanniens und Dignity in Dying (für das Recht auf ein selbstbestimmtes Lebensende). Er beschreibt sich selbst als Sozialist, Feminist und Atheist.</p>
+          <p class="vb-intro">Dieser Zug zeigt sich in seinem Engagement: Er war Schirmherr der Organisation Refuge gegen häusliche Gewalt, drehte ein Video für Amnesty International zu diesem Thema und unterstützte Combat Stress (Hilfe für traumatisierte Soldaten), die UN-Vereinigung Großbritanniens und Dignity in Dying (für das Recht auf ein selbstbestimmtes Lebensende). Er beschrieb sich selbst als Sozialist, Feminist und Atheist.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: Autorität mit Handwerk</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Weltweit bekannt wurde Stewart als Captain Jean-Luc Picard in ›Star Trek: The Next Generation‹ (1987 bis 1994). Er zögerte, den Sechsjahresvertrag zu unterschreiben, weil er erwartete, dass die Serie scheitern würde. Nach eigener Erinnerung sagte er der Besetzung anfangs sogar: ›We’re not here… to have fun!‹ (›Wir sind nicht zum Spaß hier!‹). Picard prägte das Bild eines ernsten, überlegten Anführers. Es folgten Professor Charles Xavier in sieben X-Men-Filmen (2000 bis 2017), die Rückkehr als Picard in ›Star Trek: Picard‹ (2020 bis 2023) und ein Auftritt im Marvel-Film ›Doctor Strange in the Multiverse of Madness‹ (2022).</p>
-          <p class="vb-intro">Daneben zeigt er die komische Seite, die in der Sieben angelegt ist: in der Serie ›Extras‹ (2005, für einen Emmy nominiert), als Stimme von Avery Bullock in ›American Dad!‹ (seit 2005) und in der Serie ›Blunt Talk‹ (2015 bis 2016). Mit Ian McKellen spielte er ›Waiting for Godot‹ und ›No Man’s Land‹, und die verspielten Werbefotos der beiden mit Melonenhüten verschoben 2014 sein öffentliches Bild Richtung Humor.</p>
+          <p class="vb-intro">Daneben zeigte er die komische Seite, die in der Sieben angelegt ist: in der Serie ›Extras‹ (2005, für einen Emmy nominiert), als Stimme von Avery Bullock in ›American Dad!‹ (seit 2005) und in der Serie ›Blunt Talk‹ (2015 bis 2016). Mit Ian McKellen spielte er ›Waiting for Godot‹ und ›No Man’s Land‹, und die verspielten Werbefotos der beiden mit Melonenhüten verschoben 2014 sein öffentliches Bild Richtung Humor.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Parallele im selben Subtyp: Christian Kohlund, John Travolta und Thomas Gottschalk</h2>
@@ -3006,15 +3008,22 @@ export function patrickStewartPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der sexuellen Sieben mit Achterflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Stark ist die Verbindung von Hingabe und Haltung: Wer 60 Jahre lang Shakespeare und Science-Fiction mit derselben Sorgfalt spielt, nimmt beides ernst. Dass er das Thema Gewalt in der Familie öffentlich anspricht, zeigt, was die Sieben im Achterflügel an Mut gewinnt.</p>
-          <p class="vb-intro">Die Schattenseite liegt im Stress: Die Sieben geht unter Druck zur Eins, ihrem Stresspunkt. Dann wirkt sie streng, pflichtbewusst und unnachgiebig, ohne in der Eins ihren Kern zu haben. Bei Stewart könnten der ernste Picard-Ton, die moralische Klarheit und der Anspruch an sich selbst auch so zu lesen sein, als Zug, der aus der Belastung der Kindheit und den hohen Rollen erwächst. Ein sichtbarer Unterschied zur Eins im Kern: Er belehrt nicht und will andere nicht ändern, er erzählt Geschichten.</p>
+          <p class="vb-intro">Stark ist die Verbindung von Hingabe und Haltung: Wer 60 Jahre lang Shakespeare und Science-Fiction mit derselben Sorgfalt spielt, nimmt beides ernst. Dass er das Thema Gewalt in der Familie öffentlich ansprach, zeigt, was die Sieben im Achterflügel an Mut gewinnt.</p>
+          <p class="vb-intro">Die Schattenseite liegt im Stress: Die Sieben geht unter Druck zur Eins, ihrem Stresspunkt. Dann wirkt sie streng, pflichtbewusst und unnachgiebig, ohne in der Eins ihren Kern zu haben. Bei Stewart könnten der ernste Picard-Ton, die moralische Klarheit und der Anspruch an sich selbst auch so zu lesen sein, als Zug, der aus der Belastung der Kindheit und den hohen Rollen erwächst. Ein sichtbarer Unterschied zur Eins im Kern: Er belehrte nicht und wollte andere nicht ändern, er erzählte Geschichten.</p>
         </blockquote>
 
-        <h2 class="vb-section">7. Stand: ein Erzähler mit Alterswerk</h2>
+        <h2 class="vb-section">7. Abschied: ein Erzähler mit Alterswerk</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 24. Oktober 2026) ist Patrick Stewart 86 Jahre alt. Er wurde 2001 zum OBE (Officer des Order of the British Empire, einer britischen Ehrung für besondere Verdienste) ernannt und 2010 zum Ritter geschlagen, hat zwei Olivier Awards und einen Grammy (für die Erzählung von ›Peter und der Wolf‹), und er teilt mit Hugh Jackman den Guinness-Rekord für die längste Karriere als Realdarsteller eines Marvel-Superhelden. 2023 erschien seine Autobiografie ›Making It So‹, 2026 das Hörbuch aller Sonette Shakespeares in seiner Lesung und der Film ›The Sheep Detectives‹. Er ist seit 2013 in dritter Ehe mit der Sängerin Sunny Ozell verheiratet und Tierschützer: Er nimmt über eine Rettungsorganisation in Los Angeles Hunde auf und setzt sich für Pitbulls ein.</p>
+          <p class="vb-intro">Patrick Stewart starb (Stand 30. Oktober 2026) am Mittwoch, dem 28. Oktober 2026, im Alter von 86 Jahren in seinem Haus in Los Angeles. Seine Sprecherin Kelly Bush Novak teilte mit, er sei an einer Alzheimer-Erkrankung gestorben und habe laut ihren Angaben zusätzlich an einer Lewy-Körperchen-Demenz gelitten; der Tagesspiegel nennt den Verlauf ›kurz und heftig‹. Zu den Würdigungen zählten William Shatner, Hugh Jackman und George Takei. Sein letzter Film, ›Avengers: Doomsday‹, soll im Dezember 2026 mit ihm als Professor Xavier in die Kinos kommen. Er wurde 2001 zum OBE (Officer des Order of the British Empire, einer britischen Ehrung für besondere Verdienste) ernannt und 2010 zum Ritter geschlagen, hat zwei Olivier Awards und einen Grammy (für die Erzählung von ›Peter und der Wolf‹), und er teilt mit Hugh Jackman den Guinness-Rekord für die längste Karriere als Realdarsteller eines Marvel-Superhelden. 2023 erschien seine Autobiografie ›Making It So‹, 2026 das Hörbuch aller Sonette Shakespeares in seiner Lesung und der Film ›The Sheep Detectives‹. Er war seit 2013 in dritter Ehe mit der Sängerin Sunny Ozell verheiratet, die laut Tagesspiegel bis zuletzt an seiner Seite war, und Tierschützer: Er nahm über eine Rettungsorganisation in Los Angeles Hunde auf und setzte sich für Pitbulls ein.</p>
         </blockquote>
 
+      </div>
+      <div style="margin:2rem 0 0;text-align:center;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .3rem;color:var(--ink);">Sir Patrick Stewart &ndash; als Kurzvideo</h2>
+        <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">Ein kurzer Videoausschnitt, rund 15 Sekunden, mit Ton.</p>
+        <video controls playsinline preload="none" poster="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/patrick-stewart-poster.jpg" aria-label="Kurzvideo zu Sir Patrick Stewart" style="display:block;width:100%;max-width:340px;margin:0 auto;border-radius:12px;background:#000;">
+          <source src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/patrick-stewart.mp4" type="video/mp4">
+        </video>
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -3162,6 +3171,7 @@ export function paulSimonPortraitPage() {
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
+        {route:"beruehmte-john-neumeier", label:"Porträt: John Neumeier (SE4w5)"},
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
         {route:"beruehmte-art-garfunkel", label:"Porträt: Art Garfunkel (SX9w1) – Simon & Garfunkel"},
@@ -3238,6 +3248,78 @@ export function artGarfunkelPortraitPage() {
         {route:"beruehmte-paul-simon", label:"Porträt: Paul Simon (SE4w5) – Simon & Garfunkel"},
         {route:"beruehmte-bruce-springsteen", label:"Porträt: Bruce Springsteen (SX9w1)"},
         {route:"beruehmte-willie-nelson", label:"Porträt: Willie Nelson (SX9w1)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+        {route:"beruehmte-gary-cooper", label:"Porträt: Gary Cooper (SX9w1)"},
+        {route:"beruehmte-james-stewart", label:"Porträt: James Stewart (SX9w1)"},
+      ])}
+    </div>
+  `);
+}
+
+export function ninaRugePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-nina-ruge-portrait.jpg" alt="Nina Ruge – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Nina Ruge</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Deutsche Fernsehmoderatorin und Autorin, geb. 1956 &ndash; ›Alles wird gut‹ &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf: die Studienrätin, die in die Welt hinausging</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> jagt im Rudel und geht auf das zu, was andere meiden. Nina Ruge wurde am 24. August 1956 in München geboren. Sie stammt aus einer deutsch-jüdischen Familie; ihr Vorfahr Gabriel Riesser war Abgeordneter in der Paulskirche. Ihr Vater Jürgen Ruge war Professor für Maschinenbau an der Technischen Universität Braunschweig. Er wurde in der Zeit des Nationalsozialismus als ›Halbjude‹ (so der Begriff der Nationalsozialisten) verfolgt und konnte aus einem Lager in Frankreich entkommen. Nach ihrer Geburt kam sie wegen der Krebsbehandlung ihrer Mutter in ein Säuglingsheim.</p>
+          <p class="vb-intro">Sie machte 1974 Abitur an der Ina-Seidel-Schule in Braunschweig und studierte Germanistik und Biologie für das Lehramt, 1979 schloss sie ab. Von 1980 bis 1987 war sie Referendarin und dann Studienrätin am Gymnasium Kreuzheide in Wolfsburg und arbeitete nebenbei frei für den NDR-Hörfunk in Braunschweig.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der sexuelle Sechser: Mut als Antwort auf die Angst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der sexuelle Sechser ist bei <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> der Kontratyp der Sechs: Er begegnet der Angst nicht mit Vorsicht, sondern geht ihr kraftvoll entgegen. Bei Ruge lässt sich das mit ihrem Seitenwechsel von 1987 verbinden: Sie gab die sichere Laufbahn als Studienrätin auf, ging nach Berlin und arbeitete beim Film als Garderobiere, Scriptgirl und Regieassistentin, dann als Redakteurin beim SFB und ab 1988 beim RIAS-TV. Am 9. Oktober 1989 moderierte sie erstmals das ›heute-journal‹ im ZDF.</p>
+          <p class="vb-intro">Die Zeichnung zeigt langes, glattes Haar, das sich in der Mitte teilt und nach vorn fällt, eine hohe Stirn mit feinen Querfalten, lebhafte Augen mit langen Wimpern und Lachfältchen an den Außenwinkeln und ein breites, offenes Lächeln mit sichtbaren Zähnen. Der Blick geht direkt in die Kamera, zugewandt und offensiv freundlich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Zuversicht als Beruf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der Sechs Leichtigkeit, Optimismus und viele Interessen. Riso und Hudson nennen die Sechs mit Siebenerflügel ›den Kameraden‹. Bei Ruge zeigt sich das in der Zuversicht, die ihr Markenzeichen wurde: Ihr Buch ›Alles wird gut‹ erschien 2002, es folgten ›Alles wird gut im Job‹ und ›Alles wird gut in der Liebe‹ (beide 2005), und im Sommer 2007 startete im ZDF die Talkshow ›Nina Ruge: Alles wird gut‹. Daneben reicht ihr Themenspektrum von Gesundheit und Selbstheilung über Stille (›Stille – Balsam für Herz und Seele‹, 2010) bis zum Kochen und zum Film (›Wer liebt, dem wachsen Flügel‹, 1999; ›Sophie kocht‹, 2015).</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Vermittlerin zwischen Wissenschaft und Publikum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ruge war von 1989 bis 1994 Co-Moderatorin des ›heute-journals‹, von Oktober 1994 bis 1997 die erste Moderatorin von ›heute nacht‹ und von 1997 bis zum 3. Februar 2007 Moderatorin von ›Leute heute‹. Danach moderierte sie ›Unter vier Augen‹ (BR, 2007 bis 2016), ›Forum Manager‹ (phoenix, 2010 bis 2014) und das ›Wissenschaftsforum Petersberg‹ (phoenix, bis 2009). Sie hat über 20 Bücher verfasst oder herausgegeben; zuletzt erschienen zu Longevity und Verjüngung, gemeinsam mit Dominik Duscher, ›Altern wird heilbar‹ (2020) und ›Verjüngung ist möglich‹ (2021), dann ›Das Verjüngungs-Kochbuch‹ (2022), ›Der Verjüngungs-Plan‹ (2023) und 2025 ›Verjüngung – Der Ernährungsplan‹ und ›Ab morgen jünger!‹.</p>
+          <p class="vb-intro">Sie ist seit 1994 UNICEF-Repräsentantin und seit 2012 UNICEF-Deutschland-Botschafterin, seit 2010 Patin des Kinderhospizes Bethel und Botschafterin des Jane-Goodall-Instituts Deutschland. Zu ihren Auszeichnungen gehören der Felix Burda Award (2008), die Bayerische Staatsmedaille für soziale Verdienste (2009) und das Bundesverdienstkreuz am Bande (2013).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Louise Hay, Anke Engelke und Byron Katie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-louise-hay">Louise Hay (SX6w7)</a> teilt mit Ruge das Thema Selbstheilung und die Zuversicht als Botschaft. <a href="#beruehmte-anke-engelke">Anke Engelke (SX6w7)</a> ist wie Ruge eine bekannte Fernsehfrau mit offener, direkter Art. <a href="#beruehmte-byron-katie">Byron Katie (SX6w7)</a> lässt sich mit Ruge im Interesse an innerer Klärung verbinden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Privates</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ruges erste Ehe wurde nach vier Jahren geschieden, von 1995 bis 1998 war sie mit dem Fernsehproduzenten Stefan Voss verheiratet. Seit 1998 ist sie mit Wolfgang Reitzle liiert, seit 2001 sind sie verheiratet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand und Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zuletzt erschien 2026 ihr Buch ›Alles wird gut, aber nicht von alleine!‹ (Stand 28. Oktober 2026).</p>
+          <p class="vb-intro">Für den sexuellen Sechser mit Siebenerflügel liegt ein Entwicklungsweg darin, dass Zuversicht nicht erst gegen die Angst erkämpft werden muss. Bei Ruge lässt sich das am Titel von 2026 ablesen: Der Zusatz ›aber nicht von alleine‹ nimmt die Zuversicht in die eigene Verantwortung, ohne sie zurückzunehmen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-louise-hay", label:"Porträt: Louise Hay (SX6w7)"},
+        {route:"beruehmte-anke-engelke", label:"Porträt: Anke Engelke (SX6w7)"},
+        {route:"beruehmte-byron-katie", label:"Porträt: Byron Katie (SX6w7)"},
         {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
       ])}
     </div>

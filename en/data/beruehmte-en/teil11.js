@@ -320,11 +320,11 @@ export function catStevensPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-reinhard-mey", label:"Portrait: Reinhard Mey (SO4w5)"},
         {route:"beruehmte-michael-jackson", label:"Portrait: Michael Jackson (SO4w3)"},
         {route:"beruehmte-til-schweiger", label:"Portrait: Til Schweiger (SO4w3)"},
         {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
         {route:"beruehmte-alan-watts", label:"Portrait: Alan Watts (SO4w3) – also a radical spiritual reinvention"},
-        {route:"beruehmte-reinhard-mey", label:"Portrait: Reinhard Mey (SO4w3)"},
       ])}
     </div>
   `);
@@ -719,9 +719,9 @@ export function hughGrantPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-reinhard-mey", label:"Portrait: Reinhard Mey (SO4w5)"},
         {route:"beruehmte-johnny-depp", label:"Portrait: Johnny Depp (SO4w3)"},
         {route:"beruehmte-til-schweiger", label:"Portrait: Til Schweiger (SO4w3)"},
-        {route:"beruehmte-reinhard-mey", label:"Portrait: Reinhard Mey (SO4w3)"},
       ])}
     </div>
   `);
@@ -3056,6 +3056,150 @@ export function simoneMennePortraitPage() {
         {route:"beruehmte-roger-akelius", label:"Portrait: Roger Akelius (SP5w6)"},
         {route:"beruehmte-juliane-koepcke", label:"Portrait: Juliane Koepcke (SP5w6)"},
             ])}
+    </div>
+  `);
+}
+
+export function steveMcQueenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-steve-mcqueen-portrait.jpg" alt="Steve McQueen – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Steve McQueen</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with a Seven wing &middot; Countertype of the Six</p>
+        <p class="krim-portrait-subtitle">American actor and racing driver, 1930&ndash;1980 &ndash; animal counterpart: wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The wolf: a child who could trust no one early on</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>wolf</strong> grows up in a pack that does not protect him and learns to keep watch himself. Steve McQueen was born on 24 March 1930 in Beech Grove, Indiana. His father, a stunt pilot, left the family when he was about six months old. In 1933 his mother left him with his grandparents; later he lived on the farm of his great-uncle Claude. At eight or nine his mother took him to Indianapolis, his stepfather beat him, and at nine he was living on the streets. Dyslexia and partial deafness made school hard for him.</p>
+          <p class="vb-intro">As a teenager he joined a gang in Los Angeles, was caught stealing hubcaps and, after a confrontation, threatened to kill his stepfather. A court sent him as ‘incorrigible’ to the Boys Republic in Chino Hills, a reform school. There he gradually became a role model and was elected to the boys' council. Later he said: ‘When a kid doesn't have any love when he's small, he begins to wonder if he's good enough.’</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Six: strength as a shield</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Claudio Naranjo the sexual Six is the countertype of the Six: the fear shows not as hesitation but as counter-movement, as toughness, courage and the readiness to go toward what is dangerous. In McQueen this can be linked to his path into the Marines, where he served from 1947. According to the accounts he was demoted several times and spent 41 days in the brig, but is said to have later rescued five comrades from a tank that broke through Arctic ice.</p>
+          <p class="vb-intro">That watchfulness lay beneath the toughness is shown by an episode from 1969: after the Tate murders, in which his friends Sharon Tate and Jay Sebring died, media reported that police had found a hit list with his name on it. According to his first wife he then carried a handgun at all times in public, even at Sebring's funeral. As an interpretation this can be linked to the pattern of not showing fear but arming it. The gaze in the drawing, too, is alert and probing, the mouth firmly closed: a face that waits first before letting anyone close.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven wing: speed, thrill and being on the move</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Riso and Hudson call the Six with a Seven wing ‘The Buddy’. The <strong>Seven wing (w7)</strong> brings a taste for speed, adventure and thrill. In McQueen this shows in the motorcycles and cars: he owned about 100 motorcycles and a large car collection and flew several vintage aircraft. In 1970, with Peter Revson in a Porsche 908, he won the three-liter class at the 12 Hours of Sebring and missed the overall win by 21.1 seconds. In off-road races such as the Baja 1000 he rode under the name ‘Harvey Mushman’.</p>
+          <p class="vb-intro">The thrill also included substances: according to the photographer William Claxton he smoked marijuana almost daily, the biographer Marc Eliot speaks of a lot of cocaine in the early 1970s, and in 1972 he was arrested for drunk driving in Anchorage. In addition there was a daily two-hour training program with weights and at times running.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the man who said less and showed more</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">McQueen became known as the bounty hunter Josh Randall in the Western series ‘Wanted: Dead or Alive’ (94 episodes, 1958 to 1961). ‘The Magnificent Seven’ (1960), ‘The Great Escape’ (1963), ‘The Sand Pebbles’ (1966, his only Oscar nomination) and ‘Bullitt’ (1968) with its famous car chase followed. His manner became his label: the ‘King of Cool’, an antihero who spoke little and showed much.</p>
+          <p class="vb-intro">Part of his self-image was that he did not inflate his own share: when Johnny Carson congratulated him on the motorcycle jump in ‘The Great Escape’, he said: ‘It wasn't me. That was Bud Ekins.’ The stunt rider was a close friend. In ‘The Towering Inferno’ (1974) he wanted the role of the fire chief but asked for more dialogue to match Paul Newman, and received one million dollars plus a share of the gross. With his company Solar Productions he financed the documentary ‘On Any Sunday’ (1971). For the racing film ‘Le Mans’ (1971) he wanted to drive in the 24-hour race himself but chose the film, because the backers would otherwise have withdrawn their support.</p>
+          <p class="vb-intro">In 1974 he vanished from public view and toured the country with a motor home and vintage Indian motorcycles. Only in 1978 did he return, with ‘An Enemy of the People’, as a bearded doctor in an Ibsen play, cast against his image. His last films were ‘Tom Horn’ and ‘The Hunter’ (both 1980).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype and in his circle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-nick-nolte">Nick Nolte (SX6w5)</a> shows a similarly rough, unprotected toughness as an actor, and for him too the strength comes from dealing with fear. <a href="#beruehmte-eva-mendes">Eva Mendes (SX6w7)</a> belongs to the same subtype and wing and shows how broadly this constellation can express itself. With <a href="#beruehmte-bruce-lee">Bruce Lee (SO3w4)</a> he shared a friendship: at the funeral in 1973 McQueen was one of the pallbearers.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Where strength carries and where it protects</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After his biggest box-office success he preferred in 1974 to withdraw rather than keep showing himself. He stayed connected to the reform school for decades: he visited the boys and gave them things he had demanded from studios (razors, jeans). His marriages to Neile Adams (1956 to 1972), Ali MacGraw (1973 to 1978) and Barbara Minty (January 1980) can be read as a sign that closeness was hard for him to hold. His close friend Pat Johnson called MacGraw the one true love of his life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The end and the question of trust</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In December 1979 doctors diagnosed mesothelioma, a cancer linked to asbestos. After US doctors told him they could do nothing more, McQueen sought help in Mexico from William Donald Kelley, who was widely regarded as a quack, and in October 1980 traveled under the name Samuel Sheppard to Ciudad Juárez for an operation. He died there on 7 November 1980, aged 50, of a heart attack. In his last years he turned to faith; shortly before his death the evangelist Billy Graham visited him.</p>
+          <p class="vb-intro">For the sexual Six the path of healing lies in trust: no longer having to prove that one is afraid of nothing, but allowing someone to be there who stays. That the mistrustful rebel in the end looked for faith and for someone he could trust can be read in this sense.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: subtype profile"},
+        {route:"beruehmte-nick-nolte", label:"Portrait: Nick Nolte (SX6w5)"},
+        {route:"beruehmte-eva-mendes", label:"Portrait: Eva Mendes (SX6w7)"},
+        {route:"beruehmte-bruce-lee", label:"Portrait: Bruce Lee (SO3w4)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+        {route:"beruehmte-james-dean", label:"Portrait: James Dean (SX4w3) – the other rebel icon"},
+      ])}
+    </div>
+  `);
+}
+
+export function johnBrownPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-john-brown-portrait.jpg" alt="John Brown – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">John Brown</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexual Type 1 with a Nine wing</p>
+        <p class="krim-portrait-subtitle">American abolitionist, 1800&ndash;1859 &ndash; the raid on Harpers Ferry &ndash; animal counterpart: black mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The black mamba: the tanner, surveyor and sheep farmer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>black mamba</strong> stays inconspicuous until it has made up its mind, and then the decision is irrevocable. John Brown was born on 9 May 1800 in Torrington, Connecticut, the fourth child. His father Owen Brown (1771–1856) was a tanner and a prosperous citizen of Hudson, Ohio, where Brown grew up. His mother Ruth Mills died in December 1808, when he was eight. He was an evangelical Christian, strongly shaped by the Puritan faith of his childhood.</p>
+          <p class="vb-intro">He worked as a tanner, taught himself surveying, was postmaster in Randolph Township (Pennsylvania) and became a wool expert and sheep farmer. In 1820 he married Dianthe Lusk (d. 1832), with whom he had seven children, and in 1833 Mary Ann Day, with whom he had 13 more; several died young. On 28 September 1842 he declared bankruptcy.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual One: zeal that became action</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From 1834 Brown fought slavery as an abolitionist: the name for opponents of slavery who demanded its complete abolition (from Latin abolere, to abolish). In the 1850s he concluded that it could only be ended by a violent uprising of the enslaved. <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> called the sexual One <em>zeal</em>, the countertype of the One: a strictness directed with great intensity at a single cause. In Brown this can be linked to the consistency with which he subordinated much to that cause; according to the source his business ventures failed in part because he put them second to the fight against slavery.</p>
+          <p class="vb-intro">The photo shows short, dark, bristly hair standing upright, a high, furrowed forehead with horizontal lines, deep-set light eyes looking straight into the camera, a strong nose and a narrow, firmly closed mouth. The face is clean-shaven and gaunt. He wears a dark coat with a white collar. The gaze is calm and firm, without a smile.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine wing: a calm facade, unshakeable persistence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine wing (w9)</strong> gives the One composure on the outside and persistence. Riso and Hudson call the One with a Nine wing ‘the Idealist’. In Brown it shows in his stance after his capture: he refused offers of escape and saw himself as a martyr whose example would advance the fight against slavery. After the sentence was pronounced he told the court that if it was necessary to forfeit his life for the ends of justice and to mingle his blood with the blood of millions in this slave country, he said, ‘let it be done’.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: from conscience to organisation and violence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After the Fugitive Slave Act of 1850, which required the return of escaped enslaved people, Brown founded the ‘League of Gileadites’. In 1855 he moved to Kansas with several sons and a son-in-law and quickly became a leader among abolitionists. On the night of 24–25 May 1856 he and seven men, four of them his sons, killed five pro-slavery settlers at Pottawatomie; they were taken from their homes and killed with swords. Arrest warrants were not enforced. He then led a small armed band in the clashes at Black Jack (2 June 1856) and Osawatomie (30 August 1856).</p>
+          <p class="vb-intro">On 10 May 1858 he convened a meeting in Chatham, Ontario, made up of 34 Black and 12 white participants; it adopted his ‘Provisional Constitution’ and elected him commander-in-chief. He discussed his plans with the abolitionist Frederick Douglass several times, most recently in Detroit in March 1859. Douglass thought the plan suicidal and declined to take part.</p>
+          <p class="vb-intro">From 16 to 18 October 1859 Brown attacked the US Army arsenal at Harpers Ferry with about 20 men. He wanted to trigger an uprising of the enslaved and arm them; according to the source, none joined voluntarily. A company of US Marines under Lieutenant Colonel Robert E. Lee stormed the arsenal during the night. Seventeen people died, among them ten of Brown's men (two of his sons), four local residents, two enslaved men who had joined Brown, and one Marine. Brown was captured wounded, convicted of murder, incitement to slave rebellion and treason, and hanged on 2 December 1859 in Charles Town, Virginia. That day he wrote: ‘I, John Brown, am now quite certain that the crimes of this guilty land will never be purged away but with blood.’</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: John the Baptist and Martin Luther</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#bibel-johannes-der-taeufer">John the Baptist (SX1w9)</a>, like Brown, stood with unshakeable conviction against the powerful of his time and paid for it with his life. <a href="#beruehmte-martin-luther">Martin Luther (SX1w2)</a>, like Brown, joined conscience and religious conviction to resistance against authority; with Luther it stayed with the word, with Brown it turned into armed action.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Hero, martyr, murderer: a contradictory legacy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Brown was judged in opposite ways even in his lifetime. Henry David Thoreau defended him in a speech and in essays. Frederick Douglass declined to take part in the raid. Herman Melville called him a ‘meteor of war’, and Nathaniel Hawthorne said no man was ever hanged with more justice. Victor Hugo tried from exile on Guernsey to obtain a pardon and warned of civil war in an open letter. In the North Brown was regarded as a hero and martyr; most white Southerners saw him as a criminal and murderer.</p>
+          <p class="vb-intro">Historians remain divided to this day: some describe him as a heroic martyr and visionary, others as a madman or terrorist. The song ‘John Brown's Body’ became a favourite marching song of Union troops; its melody also carries the ‘Battle Hymn of the Republic’. The account here reports the positions and does not evaluate them.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. How to place it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The raid brought the question of slavery to the centre of national attention, deepened the divide between North and South and is regarded as one of the events that led to the Civil War. Brown died at the age of 59.</p>
+          <p class="vb-intro">For the sexual One with a Nine wing, one path of development lies in the certainty of being right not displacing the view of the consequences for others. In Brown they were also borne by his sons; two of them died at Harpers Ferry. This can be linked to the pattern without evaluating it: where zeal alone sets the direction, little room is left for what it costs.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx1", label:"SX1 – The black mamba: subtype profile"},
+        {route:"bibel-johannes-der-taeufer", label:"Portrait: John the Baptist (SX1w9)"},
+        {route:"beruehmte-martin-luther", label:"Portrait: Martin Luther (SX1w2)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
     </div>
   `);
 }

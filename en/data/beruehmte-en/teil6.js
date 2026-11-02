@@ -491,6 +491,7 @@ export function elvisPresleyPortraitPage() {
         {route:"beruehmte-giacomo-casanova", label:"Portrait: Giacomo Casanova (SX2w3)"},
         {route:"beruehmte-mata-hari", label:"Portrait: Mata Hari (SX2w3)"},
         {route:"enneagramm-homoeopathie", label:"Enneagram &amp; Homeopathy"},
+        {route:"beruehmte-karin-thaler", label:"Portrait: Karin Thaler (SX2w3)"},
       ])}
     </div>
   `);
@@ -2312,7 +2313,7 @@ export function sigourneyWeaverPortraitPage() {
 
         <h2 class="vb-section">2. The Social Seven: Variety as Obligation, Not as Pleasure</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>social Seven (SO7)</strong> is a countertype in the Enneagram: while the self-preservation and sexual Sevens live out their gluttony fairly openly, the social Seven turns that same energy inward — Naranjo called it "Non-Gluttony." Not pleasure for its own sake drives it, but the feeling of owing something to the group, the work, or the cause — idealism translated into duty, often to the point of self-sacrifice.</p>
+          <p class="vb-intro">The <strong>social Seven (SO7)</strong> is a countertype in the Enneagram: while the self-preservation and sexual Sevens live out their gluttony fairly openly, the social Seven turns that same energy inward — Naranjo called it "Counter-Gluttony." Not pleasure for its own sake drives it, but the feeling of owing something to the group, the work, or the cause — idealism translated into duty, often to the point of self-sacrifice.</p>
           <p class="vb-intro">In Weaver this shows in a career that has deliberately swung between extremes for over fifty years instead of repeating itself in one genre: body horror in "Alien," primate research in "Gorillas in the Mist" (with months of real physical proximity to mountain gorillas on location), sharp comedy in "Ghostbusters" and "Galaxy Quest," stage work on Broadway running parallel to Hollywood blockbusters. Not an indecisive drift, but a deliberate cultivation of as many facets of her craft as possible — a vocal and physical range that lets her scream at an alien threat as convincingly as she times a satirical supporting role for comedic effect.</p>
         </blockquote>
 
@@ -2624,6 +2625,8 @@ export function nickNoltePortraitPage() {
         {route:"subtype/sx6", label:"SX6 – The Wolf: subtype profile"},
         {route:"beruehmte-natalie-dormer", label:"Portrait: Natalie Dormer (SX6w5) – same subtype and wing"},
         {route:"beruehmte-bobby-fischer", label:"Portrait: Bobby Fischer (SX6w5) – same subtype and wing, another field"},
+        {route:"beruehmte-emily-blunt", label:"Portrait: Emily Blunt (SX6w5)"},
+        {route:"beruehmte-steve-mcqueen", label:"Portrait: Steve McQueen (SX6w7)"},
       ])}
     </div>
   `);
@@ -3056,6 +3059,212 @@ export function larrySangerPortraitPage() {
         {route:"beruehmte-roger-akelius", label:"Portrait: Roger Akelius (SP5w6)"},
         {route:"beruehmte-jimmy-wales", label:"Portrait: Jimmy Wales (SO5w6)"},
         {route:"beruehmte-juliane-koepcke", label:"Portrait: Juliane Koepcke (SP5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+export function karinThalerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-karin-thaler-portrait.jpg" alt="Karin Thaler – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Karin Thaler</p>
+        <p class="krim-portrait-typ">SX2w3 &middot; Sexual Type 2 with a Three wing</p>
+        <p class="krim-portrait-subtitle">German actress, b. 1965 in Deggendorf &ndash; animal counterpart: camel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The camel: carrying without complaint</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>camel</strong> carries its load over long distances without making much of it. Karin Thaler was born on 12 June 1965 in Deggendorf in Lower Bavaria. Her television debut was in 1986 with ‘Gundas Vater’ (‘Gunda's Father’), for which, according to Wikipedia, she received the Goldener Gong; she has worked in the theater since 1987. Her first cinema film, ‘Das schreckliche Mädchen’ (‘The Nasty Girl’, 1990), was nominated for an Oscar.</p>
+          <p class="vb-intro">A large audience knows her as Marie Hofer in the ZDF series ‘Die Rosenheim-Cops’ (‘The Rosenheim Cops’), in which she has appeared since the early seasons. From 2011 to 2017 she was seen in ‘Hubert und Staller’ (and its spin-off), as well as in ‘Unser Charly’ as Inka Lenz and in ‘Der Landarzt’, ‘Ein Bayer auf Rügen’ and ‘Der Bergdoktor’.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Two: the one relationship that determines everything</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo named the sexual Two ‘Aggressiveness/Seduction’, meaning an active moving toward the other that closes the distance. For this Two it is not the group that counts but a single person for whom one gives everything. In Karin Thaler this can be linked to her relationship with her mother, about which she wrote a book in 2026: ‘Stark, weil ich stark sein musste – Die Doppelrolle meines Lebens’ (‘Strong because I had to be strong – The double role of my life’, Knaur, published on 1 April 2026).</p>
+          <p class="vb-intro">According to the publisher, it is about her beloved mother, who had a gambling addiction and whose life increasingly fell apart while Thaler's career grew. Thaler lost closeness to her and suffered from the double life between film set and family worries. According to reports she also helped settle her mother's debts. With this book she spoke publicly about this relationship for the first time.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three wing: achievement and composure outward</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three wing (w3)</strong> gives the Two drive and the will to function outwardly. In Thaler it can be seen in what she herself calls the ‘double role’: in front of the camera the reliable Marie Hofer, in private the daughter with the burden. According to the Wochenspiegel (26 August 2026) she said: ‘I acted in front of and behind the camera.’ For a long time she withstood the demands of both sides at once. For more than a decade, according to the report, she suffered from severe heart rhythm disturbances, which the article attributes to the enormous pressure.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: reliability as a craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">That someone remains a fixed character in a series like ‘Die Rosenheim-Cops’ over decades is a skill of its own: Marie Hofer must stay consistent week after week without becoming dull. In this Thaler embodies a reliability that appeals to viewers. The role of the forensic pathologist in ‘Hubert und Staller’ shows a second side of her work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: RJ Mitte and Elvis Presley</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-rj-mitte">RJ Mitte (SX2w3)</a> took on responsibility for his family early; in him too the camel carried more than is due a child. <a href="#beruehmte-elvis-presley">Elvis Presley (SX2w3)</a> described his mother Gladys's love as his safest ground; in Thaler the mother relationship is likewise the core, except that it was difficult and burdened.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Processing: writing and forgiving</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After her mother's death in 2022 Thaler found her 129-page account of her life, which moved her deeply; her book came about in eleven months with a ghostwriter. She attributes her resilience, according to the report, to inner strength and to people at her side, above all her husband, the musician Milos Malesevic, and her best friend. About strength she says: ‘It was a burden to have to be strong. But I grew from it.’ And: ‘Forgiving is the key to happiness.’</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. What remains: strength that may also be carried</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The camel gives for a long time before it asks for water. For the sexual Two, healing means that one's own load may also be shared and that love does not depend on carrying everything. That Thaler tells her story and describes herself today as having arrived shows this step; she says she is ‘good to myself and my inner child’.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx2", label:"SX2 – The Camel: subtype profile"},
+        {route:"beruehmte-rj-mitte", label:"Portrait: RJ Mitte (SX2w3)"},
+        {route:"beruehmte-elvis-presley", label:"Portrait: Elvis Presley (SX2w3)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}
+
+export function mariaSchaumayerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-maria-schaumayer-portrait.jpg" alt="Maria Schaumayer – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Maria Schaumayer</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexual Type 1 with a Nine wing</p>
+        <p class="krim-portrait-subtitle">Austrian economist, banker and politician, 1931&ndash;2013 &ndash; the world's first female central bank president &ndash; animal counterpart: black mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The black mamba: the daughter whose father would not join the party</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>black mamba</strong> keeps its target in view and does not let go of it, without making any noise. Maria Schaumayer was born on 7 October 1931 in Graz. Her mother was a school principal; her father directed a viticulture school near Leibnitz and was forced into early retirement in 1939 because he refused to join the NSDAP (the Nazi Party).</p>
+          <p class="vb-intro">In 1949 she passed her school-leaving exam with distinction, studied in Vienna and Innsbruck and took her doctorate in economics in 1954.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual One: zeal for the task that is not finished</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo called the sexual One <em>zeal</em>, the countertype of the One: the strictness is directed not at the rules of the community as a whole but with great intensity at a single task. In Schaumayer this can be linked to her two great assignments: running the Austrian National Bank and compensating Nazi-era forced labourers. That her father refused to join the party can be understood as an early example of how an inner standard was held in her family even against pressure.</p>
+          <p class="vb-intro">The photo shows short, wavy, dark-grey hair in set waves, strong brows, horizontal lines on the forehead and bags under the eyes. The gaze goes calmly and slightly sideways past the camera, the mouth is slightly open and hints at a smile. A microphone reaches into the picture on the left; she is evidently speaking at an event or a hearing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine wing: persistence instead of performance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine wing (w9)</strong> gives the One calm and staying power. In Schaumayer this can be linked to her negotiating style: obituaries describe great professional competence, political instinct and charm combined with toughness when the matter demanded it. She earned respect across party lines. A memorial programme on the radio channel Ö1 (ORF) was titled ‘Versöhnung braucht Beharrlichkeit’ (‘Reconciliation Needs Persistence’).</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the first woman at the head of a central bank</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Schaumayer worked at the Creditanstalt bank and became an authorised signatory there in 1961. From 1965 to 1973 she was a Vienna city councillor, then until 1982 a member of the Vienna state parliament (for the ÖVP, the Austrian People's Party). In 1974 she joined the board of Kommunalkredit, and from 1982 to 1989 she was finance director of ÖMV (Österreichische Mineralölverwaltung, today OMV, an oil and gas company). From 1990 to 1995 she was president of the Oesterreichische Nationalbank and thus, according to the sources, the first woman in such a role worldwide; in 1995 she declined to stand again.</p>
+          <p class="vb-intro">Her term coincided with Austria's accession to the European Union. Nine days after accession the country could also join the exchange rate mechanism with its currency, regarded as a forerunner of the euro; she saw this as a success she had been able to contribute to.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Marie-Agnes Strack-Zimmermann and Linda Hamilton</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-marie-agnes-strack-zimmermann">Marie-Agnes Strack-Zimmermann (SX1w9)</a> is likewise a politician with a Nine wing: sharp on substance and persistent, not out for performance. <a href="#beruehmte-linda-hamilton">Linda Hamilton (SX1w9)</a> shows the same mixture of hardness in the task and calm in private.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Icebreaker and reparation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1991 Schaumayer founded a foundation to promote women's careers and encouraged women throughout her life. She rejected statutory quotas. She said in essence that she had always seen herself as an icebreaker clearing the way for successors.</p>
+          <p class="vb-intro">From 2000 she was the government commissioner for compensating victims of Nazi-era forced labour. She helped in negotiations with several European states and the USA, facing the chief negotiator Stuart Eizenstat. The resulting fund benefited about 132,000 former forced labourers.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Honours, death and remembrance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Schaumayer became an honorary citizen of Vienna in 1996, in 2006 the first woman to be an honorary member of the Austrian Academy of Sciences, and in 2007 received the Great Leopold Kunschak Prize. She died on 23 January 2013 in Vienna and was buried in February 2013 at the Döbling cemetery. In 2014 a square in Vienna was named after her; since 2016 it has been called Maria-Schaumayer-Platz.</p>
+          <p class="vb-intro">For the sexual One with a Nine wing the path lies in persistence being able to carry even without hardness. In Schaumayer this can be linked to the relationship of expertise and charm that contemporaries described in her negotiating.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx1", label:"SX1 – The black mamba: subtype profile"},
+        {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Portrait: Marie-Agnes Strack-Zimmermann (SX1w9)"},
+        {route:"beruehmte-linda-hamilton", label:"Portrait: Linda Hamilton (SX1w9)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}
+
+export function violetJessopPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-violet-jessop-portrait.jpg" alt="Violet Jessop – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Violet Jessop</p>
+        <p class="krim-portrait-typ">SP1w2 &middot; Self-Preservation Type 1 with a Two wing</p>
+        <p class="krim-portrait-subtitle">Stewardess and nurse, 1887&ndash;1971 &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle that held its post on a sinking ship</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eagle</strong> is the emblem of the self-preservation One &ndash; it looks for no stage and no approval, it holds its post. Violet Constance Jessop held hers on three ships that met disaster: the <em>Olympic</em>, the <em>Titanic</em> and the <em>Britannic</em>. Popular accounts therefore call her &lsquo;Miss Unsinkable&rsquo;. The nickname does not come from the scholarly sources, but it describes accurately what is on record: she survived all three events and went back to sea afterwards.</p>
+          <p class="vb-intro">She was born on 2 October 1887 near Bah&iacute;a Blanca in Argentina, the eldest of nine children of Irish immigrants; six of the children survived. As a child she fell ill with what was believed to be tuberculosis, and the doctors predicted she would soon die &ndash; yet she survived. Her father died when she was sixteen; the family moved to England, where her mother worked as a ship&rsquo;s stewardess. In 1908, at twenty-one, Violet herself entered service as a stewardess with the Royal Mail Line, on the <em>Orinoco</em>. According to a widespread account she deliberately kept a plain appearance in order to be taken seriously &ndash; this rests on secondary sources only.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation One: responsibility as a form of survival</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> carries the demand on itself inward. In Naranjo this subtype is called <em>Worry</em>: the quiet, constant question of whether one is really fulfilling one&rsquo;s task. Security does not come from luck but from duty, from discipline and from being able to rely on oneself.</p>
+          <p class="vb-intro">This logic can be read in Jessop&rsquo;s life story. As the eldest of nine siblings, after her father&rsquo;s early death, with a mother who herself worked at sea, working on ships was not an adventure but the way to carry responsibility. That she stayed in the same profession for decades &ndash; from 1908 until her retirement in 1950, with interruptions &ndash; shows a steadiness that is typical of the SP1: not the grand appearance, but carrying on.</p>
+          <p class="vb-intro">Any classification remains an interpretation: the documented facts show the outside of a life, not its inner world. What Jessop felt when she took up a duty roster again after a disaster, we know only from her late memoirs and from the accounts of others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two wing: care as a profession</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two wing (w2)</strong> gives the One the warmth that opens it outward: it stays strict with itself but becomes helpful to others. A stewardess lives on exactly this mixture &ndash; service to the guest, attention to the other person&rsquo;s needs, reliability without fuss. In the First World War Jessop joined this service to nursing: she worked as a nurse in the Voluntary Aid Detachment (a volunteer organisation of the Red Cross) and was thus aboard the <em>Britannic</em>, which sailed as a hospital ship.</p>
+          <p class="vb-intro">On the <em>Titanic</em>, too, the Two wing shows in a scene recorded by several sources: in lifeboat 16 Sixth Officer James Paul Moody handed her a baby to look after. She took it. After the rescue by the <em>Carpathia</em>, according to the accounts handed down, the child was taken back by its mother.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: three disasters and a working life at sea</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The distinctive thing about Jessop&rsquo;s biography lies not in an achievement she accomplished but in a steadiness that is documented. On 20 September 1911 the <em>Olympic</em>, after leaving Southampton, collided with the warship HMS <em>Hawke</em>; there were no fatalities and the ship returned to port under its own power. On 10 April 1912 she boarded the <em>Titanic</em> at the age of twenty-four. The ship sank on 14 April, about two hours and forty minutes after striking the iceberg; she was rescued in boat 16, and the survivors reached New York aboard the <em>Carpathia</em> on 18 April.</p>
+          <p class="vb-intro">On 21 November 1916 the hospital ship <em>Britannic</em> sank in the Aegean after striking a German mine. She went down in about 55 minutes; of the 1,066 people aboard, 30 died. Jessop jumped from a lifeboat to avoid being drawn into the ship&rsquo;s propellers and suffered a head injury. In her memoirs she described it this way: &lsquo;I leapt into the water but was sucked under the ship&rsquo;s keel which struck my head&rsquo;. She survived; according to one account, a doctor found years later that she had once fractured her skull.</p>
+          <p class="vb-intro">Afterwards she carried on. In 1920 she returned to the White Star Line, worked for the Red Star Line, where she took part in two round-the-world cruises on the <em>Belgenland</em>, and later again for the Royal Mail Line. In 1923 she married the White Star steward John James Lewis; the marriage ended in divorce in 1924. In 1950 she retired to Great Ashfield in Suffolk, where she died on 5 May 1971, aged eighty-three, of congestive heart failure. Her memoirs appeared only in 1997 under the title <em>Titanic Survivor</em>, edited and annotated by John Maxtone-Graham.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the self-preservation One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP1 shows in what remains of Jessop&rsquo;s work: reliability under pressure and the ability to keep being there for others in an emergency. The Eagle does not panic; it stays where it is and does what has to be done.</p>
+          <p class="vb-intro">The shadow is quieter. The driving force of the One is <strong>anger</strong> &ndash; in the SP1 mostly directed inward, as strictness toward oneself and as the tension of never being allowed to let up. Whether Jessop experienced it this way, the sources do not tell. What can be observed is the danger this subtype generally knows: that functioning becomes the only form of security, and that the price for it is paid, unasked, in the body and in exhaustion.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The path of healing: from functioning to being allowed</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">For the One the path of healing leads from anger to serenity &ndash; from the question <em>Did I do everything right?</em> to the experience <em>It is enough as it is</em>. For the SP1 this means no longer drawing security from duty alone, but also from the trust that one is held.</p>
+          <p class="vb-intro">That Jessop&rsquo;s memoirs appeared as a book only decades after her death is a sign of how long her story lived on quietly. What she herself wanted to express in them is left to the reader &ndash; the fact that she wrote everything down suggests that it mattered to her not only to survive but also to bear witness.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: Subtype profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SP1 – Eagle"},
+        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
+        {route:"beruehmte-alain-delon", label:"Portrait: Alain Delon (SP1w2)"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SP1w9)"},
       ])}
     </div>
   `);

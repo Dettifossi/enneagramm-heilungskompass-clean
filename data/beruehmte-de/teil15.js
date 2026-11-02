@@ -1380,7 +1380,7 @@ export function romulusWhitakerPortraitPage() {
 
         <h2 class="vb-section">2. Die sexuelle Eins: F\xfcnfzig Jahre eine Mission</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> nannte Naranjo <em>Eifersucht</em> oder <em>Zeal</em> &ndash; eine Leidenschaft, die sich mit missionarischer Intensit\xe4t auf eine einzige Sache konzentriert. Whitaker gr\xfcndete \xfcber f\xfcnf Jahrzehnte hinweg eine Institution nach der anderen, immer um dasselbe Grundthema: 1969 den Madras Snake Park, Indiens ersten seiner Art, mit einem Eintrittspreis von 25 Paise; 1976 gemeinsam mit seiner damaligen Frau Zai Whitaker die Madras Crocodile Bank Trust; 2005 schlie\xdflich die Agumbe Rainforest Research Station.</p>
+          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> nannte Naranjo <em>Eifersucht</em> oder <em>Zeal</em> (Eifer) &ndash; eine Leidenschaft, die sich mit missionarischer Intensit\xe4t auf eine einzige Sache konzentriert. Whitaker gr\xfcndete \xfcber f\xfcnf Jahrzehnte hinweg eine Institution nach der anderen, immer um dasselbe Grundthema: 1969 den Madras Snake Park, Indiens ersten seiner Art, mit einem Eintrittspreis von 25 Paise; 1976 gemeinsam mit seiner damaligen Frau Zai Whitaker die Madras Crocodile Bank Trust; 2005 schlie\xdflich die Agumbe Rainforest Research Station.</p>
           <p class="vb-intro">Sein eigenes Credo bringt die SX1-Haltung auf den Punkt: &bdquo;Follow your dream. Unwavering passion and dedication are key.&ldquo; Und wie bei Thea Litschka-Koen (SX1w2) richtet sich seine Mission nicht gegen die gef\xe4hrlichen Tiere, sondern f\xfcr Aufkl\xe4rung und Koexistenz &ndash; statt Ausrottung propagiert er wissenschaftliches Verst\xe4ndnis. Eine feste moralische \xdcberzeugung, aus der eine unbeirrbare Lebenspraxis folgt.</p>
         </blockquote>
 
@@ -2660,6 +2660,7 @@ export function charlieChaplinPortraitPage() {
         {route:"beruehmte-prince-rogers-nelson", label:"Porträt: Prince Rogers Nelson (SX4w3) – derselbe Subtyp und Flügel, Bühne und Kontrolle"},
         {route:"beruehmte-voltaire", label:"Porträt: Voltaire (SX4w3) – derselbe Subtyp, Satire gegen die Mächtigen"},
         {route:"krankheitsportraets-freddie-mercury", label:"Krankheitsporträt: Freddie Mercury (SX4w3)"},
+        {route:"beruehmte-james-dean", label:"Porträt: James Dean (SX4w3)"},
       ])}
     </div>
   `);
@@ -3094,6 +3095,148 @@ export function joeVitalePortraitPage() {
         {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
         {route:"beruehmte-camille-fritsch", label:"Porträt: Dr. Camille Fritsch (SE2w1)"},
         {route:"beruehmte-sean-sherman", label:"Porträt: Sean Sherman (SE2w1)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
+
+export function annieLennoxPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-annie-lennox-portrait.jpg" alt="Annie Lennox – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Annie Lennox</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexueller Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schottische Sängerin, Songwriterin und Aktivistin, geb. 1954 &ndash; Eurythmics, ›Sweet Dreams (Are Made of This)‹, ›Diva‹ &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba: das Mädchen aus Torry</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> bewegt sich selten ohne Grund, und wenn sie es tut, dann mit ganzer Kraft. Annie Lennox wurde am 25. Dezember 1954 im Stadtteil Torry in Aberdeen in Schottland geboren. Ihre Eltern waren Dorothy Farquharson (1930–2003) und Thomas Allison Lennox (1925–1986); beide starben an Krebs. Sie besuchte die Aberdeen High School for Girls und lernte Flöte und Klavier.</p>
+          <p class="vb-intro">Ab 1971 studierte sie an der Royal Academy of Music in London, beendete das Studium aber nicht. 1976 spielte sie Flöte bei der Band Dragon's Playground, von 1977 bis 1980 war sie Leadsängerin der Tourists, und dort begann die Zusammenarbeit mit Dave Stewart.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Eifer für das eine Gegenüber und die eine Sache</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo nannte die sexuelle Eins <em>Zeal</em> (Eifer), den Kontratyp der Eins: Die Strenge richtet sich nicht auf die ganze Welt, sondern mit großer Intensität auf einzelne Menschen und Anliegen. Bei Lennox lässt sich das mit der Partnerschaft mit Dave Stewart verbinden, aus der in den 1980er-Jahren die Eurythmics wurden, und später mit ihren Kampagnen, die jeweils einer klar umrissenen Gruppe gelten, etwa Frauen und Kindern, die von HIV und Aids betroffen sind.</p>
+          <p class="vb-intro">Das Foto zeigt sehr kurzes Haar mit einer seitlich gelegten Strähne, ein breites, offenes Lächeln mit vielen sichtbaren Zähnen, weit geöffnete, leicht nach oben gerichtete Augen, Stirnfalten und tiefe Lachfalten. Große Kreolen hängen an den Ohren. Der Ausdruck ist lebhaft und zugleich gesammelt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Fürsorge als Aufgabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der Eins Zuwendung. Bei Lennox zeigt er sich darin, dass sie ihre Bekanntheit in den Dienst anderer stellt. Sie gründete die SING Campaign, die sich um Frauen und Kinder kümmert, die von HIV und Aids betroffen sind, und 2008 die Frauenorganisation The Circle. 2010 wurde sie UNESCO-Sonderbotschafterin für Aids. Sie unterstützt außerdem Amnesty International, Greenpeace und LGBT-Rechte; 2011 wurde sie für ihre Wohltätigkeitskampagnen und ihren Einsatz für humanitäre Anliegen zum OBE ernannt, einem britischen Verdienstorden (Officer of the Order of the British Empire). Im Oktober 2023 unterzeichnete sie einen offenen Brief, der einen Waffenstillstand in Gaza forderte.</p>
+          <p class="vb-intro">Von 2017 bis 2024 war sie Kanzlerin der Glasgow Caledonian University; ein Gebäude dort trägt ihren Namen. 2025 sprach sie sich gegen die Kürzung der britischen Auslandshilfe aus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: eine dunkle Stimme und ein unverwechselbares Bild</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kritiker beschreiben ihre Stimme als Alt (contralto), eine tiefe Frauenstimme, die im Pop selten ist. Mit den Eurythmics hatte sie in den 1980er-Jahren Hits wie ›Sweet Dreams (Are Made of This)‹ (1983), ›There Must Be an Angel (Playing with My Heart)‹ und ›Here Comes the Rain Again‹. Ihr androgynes Erscheinungsbild gehörte zu ihrem Auftritt jener Jahre und wurde zu einem Markenzeichen.</p>
+          <p class="vb-intro">1992 erschien ihr Solodebüt ›Diva‹, das in Großbritannien Platz 1 erreichte; 1995 folgte ›Medusa‹, ein Album mit Coverversionen. 2004 gewann sie den Oscar für den besten Filmsong für ›Into the West‹. Sie hat acht Brit Awards gewonnen, darunter einen Rekord von sechs als beste britische Künstlerin, außerdem vier Grammys. 2020 wurde sie in die Songwriters Hall of Fame aufgenommen, 2022 mit Dave Stewart in die Rock and Roll Hall of Fame.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Robbie Williams und Udo Lindenberg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-robbie-williams">Robbie Williams (SX1w2)</a> ist ebenfalls Sänger mit Zweierflügel und zeigt wie Lennox, dass sich Musik und offene Haltung verbinden lassen. <a href="#beruehmte-udo-lindenberg">Udo Lindenberg (SX1w9)</a> nutzt seine Bühne ebenfalls für eine klare Haltung, mit ruhigerem Neunerflügel statt der Zugewandtheit des Zweierflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Verluste und Verletzlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lennox war dreimal verheiratet: mit Radha Raman (1984–1985), Uri Fruchtmann (1988–2000) und seit 2012 mit Mitch Besser. Sie hat zwei Töchter, Lola und Tali; ihr Sohn Daniel kam 1988 tot zur Welt. Mit 70 Jahren wurde bei ihr nach Angaben der genutzten Quelle ADHS diagnostiziert. Die Eltern verlor sie 1986 und 2003.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand und Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2024 trat Lennox beim Gershwin-Preis-Tribut an Elton John und Bernie Taupin auf. 2025 spielte sie in der Royal Albert Hall das Konzert ›Sisters: Annie Lennox and Friends‹, ihren ersten Live-Auftritt seit sechs Jahren (Stand 28. Oktober 2026).</p>
+          <p class="vb-intro">Für die sexuelle Eins mit Zweierflügel liegt der Weg darin, dass der Eifer nicht jede Not der Welt tragen muss und Zuwendung auch ohne Kampagne möglich ist. Bei Lennox lässt sich das mit dem Wechsel zwischen Bühne und stillem Klavierprogramm verbinden, etwa in der EP (Extended Play, einem Kurzalbum) ›Lepidoptera‹ mit Klavierliedern (2019).</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-robbie-williams", label:"Porträt: Robbie Williams (SX1w2)"},
+        {route:"beruehmte-udo-lindenberg", label:"Porträt: Udo Lindenberg (SX1w9)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
+
+export function aynRandPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ayn-rand-portrait.jpg" alt="Ayn Rand – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ayn Rand</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexueller Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Russisch-amerikanische Schriftstellerin und Philosophin, 1905&ndash;1982 &ndash; ›Der ewige Quell‹, ›Atlas Shrugged‹ &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba: das Mädchen aus Sankt Petersburg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> bleibt unbewegt, bis sie ihr Ziel gewählt hat, und gibt es dann nicht mehr her. Ayn Rand wurde am 20. Januar (julianisch), nach unserer Zeitrechnung am 2. Februar 1905, in Sankt Petersburg als Alissa Sinowjewna Rosenbaum geboren. Ihre Eltern waren russische Juden, der Vater ein Apotheker aus Brest-Litowsk, die Mutter stammte aus Sankt Petersburg. Mit neun Jahren beschloss sie, Schriftstellerin zu werden. Nach den Revolutionen von 1917 wurde das Eigentum der Familie beschlagnahmt, die Familie verarmte.</p>
+          <p class="vb-intro">1921 beendete sie die Schule auf der Krim und studierte Philosophie und Geschichte an der Staatlichen Universität Petrograd, ab 1924 Drehbuchschreiben an einem staatlichen Filminstitut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Eifer für eine Überzeugung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> nannte die sexuelle Eins <em>Zeal</em> (Eifer), den Kontratyp der Eins: eine Strenge, die sich mit großer Intensität auf eine einzelne Sache richtet. Bei Rand lässt sich das mit der Entschiedenheit verbinden, mit der sie ihr Leben um eine einzige Überzeugung baute. Am 17. Januar 1926 verließ sie Petrograd mit einem Visum für einen kurzen Besuch bei Verwandten in den USA und kehrte nie zurück. Sie kam am 19. Februar 1926 in Manhattan an, wohnte bei Verwandten in Chicago und zog dann nach Hollywood, wo sie als Statistin in Cecil B. DeMilles ›The King of Kings‹ (1927) arbeitete und später für ihn schrieb. Bei RKO Pictures arbeitete sie in der Kostümabteilung; ihr erstes Drehbuch ›Red Pawn‹ verkaufte sie 1932 an Universal, 1934 hatte ihr Stück ›Woman on Trial‹ Premiere. 1931 wurde sie US-Bürgerin.</p>
+          <p class="vb-intro">Die Zeichnung zeigt dunkles, glänzendes Haar, das aus der Stirn nach hinten und zur Seite gekämmt ist, eine hohe Stirn mit feinen Querfalten und kräftigen Brauen und große, dunkle, wache Augen mit Fältchen und Tränensäcken, die gerade und prüfend schauen. Die Nase ist kräftig, der Mund geschlossen mit einem schmalen, leicht schiefen, wissenden Lächeln. Sie trägt ein dunkles Jackett über einem weißen Kragen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Beharrlichkeit und ein fester Anker</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der Eins Beharrlichkeit und eine ruhige Mitte. Bei Rand zeigt sich das in der Dauer: Sie heiratete am 15. April 1929 den Schauspieler Frank O'Connor, die Ehe dauerte bis zu seinem Tod am 7. November 1979. Auch ihre Philosophie blieb über Jahrzehnte dieselbe: Der Objektivismus, den sie ab den 1940er-Jahren in ihren Romanen und später in Essays entfaltete, blieb im Kern bis zu ihrem Tod derselbe.</p>
+          <p class="vb-intro">Ihre Beziehung zu dem Psychologen Nathaniel Branden, die nach Berichten 1954 begann, belastete die Ehe und endete 1968 im Bruch, als Rand erfuhr, dass Branden eine weitere Beziehung verschwiegen hatte; das Nathaniel Branden Institute wurde danach geschlossen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: vom Roman zur Philosophie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Rand schrieb ihre Philosophie zuerst als Roman. ›We the Living‹ (Wir Lebenden, 1936) schöpft aus ihrer russischen Jugend und kritisiert Kollektivismus und Sowjetunion. ›Anthem‹ (Die Hymne, 1938) ist eine Novelle. ›The Fountainhead‹ (Der ewige Quell, 1943) erzählt von dem individualistischen Architekten Howard Roark, wurde ein Bestseller und 1949 mit <a href="#beruehmte-gary-cooper">Gary Cooper (SX9w1)</a> verfilmt. Ihr Hauptwerk ›Atlas Shrugged‹ (wörtlich: Atlas zuckt mit den Schultern, 1957) fragt nach der Rolle philosophischer Grundsätze in der Gesellschaft. Es folgten die Essays ›For the New Intellectual‹ (1961) und ›The Virtue of Selfishness‹ (Die Tugend des Egoismus, 1964, mit Nathaniel Branden).</p>
+          <p class="vb-intro">Der Objektivismus nimmt an, dass die Wirklichkeit unabhängig vom Bewusstsein besteht und durch Vernunft erkennbar ist. Die Vernunft gilt als höchste Tugend, das menschliche Leben als höchster Wert. Der ›rationale Egoismus‹ verlangt produktives Eigeninteresse unter Achtung der Rechte anderer auf Leben, Freiheit und Eigentum; der Staat soll nur diese Rechte schützen. Rand trat für einen ungezügelten Kapitalismus ein, lehnte Religion und Mystik ab und befürwortete das Recht auf Abtreibung. Sie bewunderte <a href="#beruehmte-aristoteles">Aristoteles (SE1w9)</a> und lehnte Kant ab; in einem Interview mit Mike Wallace 1959 sagte sie, ihre einzige philosophische Schuld gelte Aristoteles.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Peter Thiel und Robert Greene</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-peter-thiel">Peter Thiel (SX1w9)</a> teilt mit Rand Subtyp und Flügel. Ihre Ideen haben nach der Wikipedia den US-Libertarismus und Kreise der Tea-Party-Bewegung beeinflusst. <a href="#beruehmte-robert-greene">Robert Greene (SX1w9)</a> teilt den Subtyp und die Verbindung von scharfer Beobachtung mit einem eigenen Lehrgebäude.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Reibung und Gegenwind</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Berufsphilosophen ignorieren oder kritisieren ihr Werk überwiegend; Michael Huemer, Robert H. Bass und Robert Nozick haben Schwächen in ihrer Argumentation benannt. Kritiker verglichen das Verhalten mancher Anhänger mit dem einer Sekte. Rand war langjährige Raucherin und wurde 1974 wegen Lungenkrebs operiert; 1976 wurde sie über die Sozialarbeiterin ihres Anwalts unter dem Namen ›Ann O'Connor‹ in die Sozialversicherung und in Medicare aufgenommen, obwohl sie staatliche Leistungen ablehnte. Die Darstellung gibt Positionen wieder und bewertet sie nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Tod und Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ayn Rand starb am 6. März 1982 in New York an einem Herzinfarkt. Alan Greenspan, der später Präsident der amerikanischen Notenbank wurde, war ein enger Freund und trug zu ihren Büchern bei. Das Ayn Rand Institute ist politisch aktiv und hat jährliche Spenden von über sechs Millionen Dollar.</p>
+          <p class="vb-intro">Für die sexuelle Eins mit Neunerflügel liegt ein Entwicklungsweg darin, dass die Überzeugung auch ein Gegenüber trägt, das ihr nicht folgt. Bei Rand lässt sich das mit dem Bruch von 1968 verbinden: Wo der Eifer ein geschlossenes System bildet, wird jeder Widerspruch zur Frage der Zugehörigkeit.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-peter-thiel", label:"Porträt: Peter Thiel (SX1w9)"},
+        {route:"beruehmte-robert-greene", label:"Porträt: Robert Greene (SX1w9)"},
+        {route:"beruehmte-gary-cooper", label:"Porträt: Gary Cooper (SX9w1)"},
+        {route:"beruehmte-aristoteles", label:"Porträt: Aristoteles (SE1w9)"},
         {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
       ])}
     </div>

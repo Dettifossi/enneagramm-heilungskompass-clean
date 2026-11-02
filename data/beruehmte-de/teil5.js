@@ -243,7 +243,7 @@ export function billHaastPortraitPage() {
 
         <h2 class="vb-section">2. Die sexuelle Eins: Ein Gesetz ohne Ausnahme</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> nannte Naranjo <em>Eifersucht</em> oder <em>Zeal</em> &ndash; eine Leidenschaft, die sich mit missionarischer Intensit\xe4t auf eine einzige Sache konzentriert und dort keine Kompromisse duldet. Ab September 1948 begann Haast, sich selbst wöchentlich mit steigenden Dosen von Schlangengift aus \xfcber drei\xdfig Arten zu injizieren &ndash; ein Selbstversuch, den er \xfcber Jahrzehnte hinweg ohne Unterbrechung fortsetzte, um Immunit\xe4t aufzubauen.</p>
+          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> nannte Naranjo <em>Eifersucht</em> oder <em>Zeal</em> (Eifer) &ndash; eine Leidenschaft, die sich mit missionarischer Intensit\xe4t auf eine einzige Sache konzentriert und dort keine Kompromisse duldet. Ab September 1948 begann Haast, sich selbst wöchentlich mit steigenden Dosen von Schlangengift aus \xfcber drei\xdfig Arten zu injizieren &ndash; ein Selbstversuch, den er \xfcber Jahrzehnte hinweg ohne Unterbrechung fortsetzte, um Immunit\xe4t aufzubauen.</p>
           <p class="vb-intro">Er extrahierte au\xdferdem systematisch Gift von seinen Schlangen f\xfcr die medizinische Forschung und die Herstellung von Gegengiften &ndash; in den 1960er Jahren belieferte er rund f\xfcnfzig Forschungskunden, darunter Wyeth, den f\xfchrenden US-Hersteller von Gegengiften, dem er half, das weltweit erste Gegengift gegen den Biss der Korallenschlange zu entwickeln. Sein eigenes, antik\xf6rperreiches Blut wurde in mindestens einundzwanzig F\xe4llen genutzt, um Schlangenbissopfer zu retten, f\xfcr die kein passendes Gegengift verf\xfcgbar war.</p>
         </blockquote>
 
@@ -2960,6 +2960,217 @@ export function peterThielPortraitPage() {
         {route:"beruehmte-gunther-von-hagens", label:"Porträt: Gunther von Hagens (SX1w9)"},
         {route:"beruehmte-curtis-yarvin", label:"Porträt: Curtis Yarvin (SO1w9)"},
             ])}
+    </div>
+  `);
+}
+
+export function marthaGrahamPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-martha-graham-portrait.jpg" alt="Martha Graham – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Martha Graham</p>
+        <p class="krim-portrait-typ">SO4w3 &middot; Sozialer Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Tänzerin und Choreografin, 1894&ndash;1991 &ndash; Mutter des modernen Tanzes &ndash; Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier: ein Panzer um ein empfindliches Innere</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> trägt seine Rüstung am Körper und rollt sich bei Gefahr ein, und doch ist darunter eine weiche, verletzliche Haut. Martha Graham wurde am 11. Mai 1894 in Allegheny City geboren, heute ein Stadtteil von Pittsburgh. Ihr Vater war nach den Angaben Arzt für psychische Leiden, die Familie zog später nach Kalifornien. 1911 sah sie zum ersten Mal eine Tanzvorstellung, einen Auftritt von Ruth St. Denis, und fand darin ihren Weg. Ab 1916 lernte sie an der Denishawn-Schule in Los Angeles und gehörte der gleichnamigen Kompanie an.</p>
+          <p class="vb-intro">Auffällig ist, wie entschlossen sie ihren eigenen Weg ging. Sie sagte später: »Alles, was ich tat, war von Denishawn beeinflusst« (im Original: ›Everything I did was influenced by Denishawn‹). Doch sie löste sich von dieser Schule und baute eine Sprache, die mit dem Ballett kaum noch etwas gemein hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Schmerz vor Publikum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo, Lehrer des Autors, nannte den Subtyp der sozialen Vier <em>Scham</em>: Sie empfindet sich als unzulänglich oder anders und sucht doch gerade die Gruppe, um ihre Einzigartigkeit sichtbar zu machen. Sie leidet nicht im Verborgenen, sondern trägt die Andersartigkeit in die Öffentlichkeit. Im Lebensmusterkompass dieser App steht dafür das Bild des harten Panzers nach außen und eines empfindsamen Inneren darunter.</p>
+          <p class="vb-intro">Bei Graham ist dieser Zug im Werk selbst zu sehen. Sie stellte nicht das Schöne und Leichte des Balletts auf die Bühne, sondern Trauer, Schuld, Wut und Tod. In ›Lamentation‹ (1930) steckt die Tänzerin in einem gedehnten Stoffschlauch, aus dem heraus sich Schmerz nur als Spannung des Körpers zeigt. In ›Night Journey‹ (1947) erzählt sie die Geschichte des Ödipus aus der Sicht der Jokaste. Hier wird die tragische Andersartigkeit vor Publikum gelebt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: die Wirkung, die Bühne, der Ruhm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> verleiht der Vier Tatkraft und das Gespür für Wirkung. Graham gründete 1926 in New York ihr eigenes Ensemble und gab ihren ersten eigenen Abend. Daraus wurde die Martha Graham Dance Company, nach Wikipedia die älteste Tanzkompanie der USA (2026 feierte sie ihr hundertjähriges Bestehen). Sie schuf 181 Werke und entwarf selbst für 135 davon die Kostüme. Darin zeigt sich der Dreierflügel: Sie wollte nicht nur den Tanz erneuern, sondern das ganze Bild auf der Bühne gestalten.</p>
+          <p class="vb-intro">Auch öffentlich nahm sie Platz ein: Ende der 1930er Jahre trat sie als erste Tänzerin im Weißen Haus auf (die Quellen nennen 1937 und 1938), 1976 erhielt sie die Presidential Medal of Freedom und 1979 den Kennedy-Center-Preis. Sie sagte nein, wenn es um ihre Überzeugung ging: Zu den Olympischen Spielen 1936 in Berlin ging sie nicht, und ihr Stück ›Chronicle‹ (1936) war ein Tanz gegen den Krieg.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: die Technik der Atmung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Graham wirklich einzigartig machte, ist die Graham-Technik. Sie beruht auf »Contraction and Release« (Zusammenziehen und Loslassen), einem Prinzip, das sich aus der Atmung ableitet und aus Becken und Rumpf heraus wirkt. Der Körper wird nicht wie im Ballett nach oben gestreckt, sondern zieht sich zusammen und öffnet sich, wie ein Atemzug oder ein Schluchzen. Damit gab sie dem Tanz ein Mittel, Gefühl als Bewegung des Inneren zu zeigen.</p>
+          <p class="vb-intro">Zu ihren großen Werken zählen ›American Document‹ (1938), ›Appalachian Spring‹ (1944, Musik von Aaron Copland, Bühne von Isamu Noguchi) und ›Night Journey‹ (1947). Zu ihren Schülern gehörten Merce Cunningham, Paul Taylor und Twyla Tharp. So entstand nicht nur ein Werk, sondern eine Schule, aus der sich der moderne Tanz entwickelte. Man nannte sie den ›Picasso des Tanzes‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp und unter den Choreografen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im selben Subtyp mit demselben Flügel steht <a href="#beruehmte-michael-jackson">Michael Jackson (SO4w3)</a>, ebenfalls ein Künstler, der Schmerz und Andersartigkeit auf die große Bühne trug. <a href="#beruehmte-gustav-mahler">Gustav Mahler (SO4w5)</a> zeigt denselben Subtyp mit Fünferflügel. Als Choreograf verbindet sie mit <a href="#beruehmte-john-neumeier">John Neumeier (SE4w5)</a> der Beruf und der Subtyp der Vier: Beide erzählen im Tanz von innerer Not und Sehnsucht, sie mit dem Panzer der Scham und der Wucht der Bühne, er stiller und tragender. Und mit <a href="#beruehmte-isadora-duncan">Isadora Duncan (SX2w3)</a> teilt Graham den Willen, den Tanz von den Fesseln des klassischen Balletts zu befreien.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Ehe, Krise und Wiederkehr</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Erick Hawkins war der erste männliche Tänzer ihrer Kompanie. Mit ihm war sie von 1948 bis 1954 verheiratet. Nach dem Ende ihrer Bühnenkarriere, das die Quellen auf 1968, 1969 oder 1970 datieren, fiel sie in eine tiefe Krise mit Depression und starkem Alkoholkonsum, bis ihre Gesundheit zusammenbrach. 1972 hörte sie mit dem Trinken auf, kehrte ins Studio zurück und schuf noch rund zehn weitere Stücke. Sie starb am 1. April 1991 in New York mit 96 Jahren. Ihre Autobiografie erschien 1991 (›Blood Memory‹, ›Blutgedächtnis‹), die deutsche Ausgabe trägt den Titel ›Der Tanz, mein Leben‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Schatten und Heilungsweg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Schatten der sozialen Vier liegt darin, dass der Wert ganz am Ausdruck hängt: Wenn die Bühne wegfällt, droht die Leere. Das zeigt sich bei Graham nach dem Abschied vom Tanzen. Der Weg der Vier führt vom Gefühl, anders und mangelhaft zu sein, zur Erfahrung, dass das eigene Wesen genügt. Dass sie nach der Krise zurückkehrte und noch einmal Neues schuf, lässt sich als solcher Weg lesen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-john-neumeier", label:"Porträt: John Neumeier (SE4w5) – Choreograf"},
+        {route:"beruehmte-michael-jackson", label:"Porträt: Michael Jackson (SO4w3)"},
+        {route:"beruehmte-gustav-mahler", label:"Porträt: Gustav Mahler (SO4w5)"},
+        {route:"beruehmte-isadora-duncan", label:"Porträt: Isadora Duncan (SX2w3)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
+
+export function jamesBluntPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-james-blunt-portrait.jpg" alt="James Blunt – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">James Blunt</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Sozialer Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Britischer Singer-Songwriter und ehemaliger Offizier, geb. 1974 &ndash; ›You're Beautiful‹, ›Back to Bedlam‹ &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans: der Offizierssohn, der überall neu anfing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> geht aufrecht voran und hält die Formation zusammen, auch wenn der Wind von vorn kommt. James Hillier Blount, wie Blunt rechtlich noch heißt, kam am 22. Februar 1974 im Militärkrankenhaus des Tidworth Camp zur Welt, als ältestes von drei Kindern mit zwei Schwestern. Sein Vater Charles Blount war früher Kavallerieoffizier und Hubschrauberpilot und wurde Oberst im Army Air Corps; die Mutter Jane leitete eine Firma für Skichalets im französischen Méribel. Die Familie führt ihre Militärtradition auf dänische Vorfahren zurück, die im 10. Jahrhundert nach England kamen.</p>
+          <p class="vb-intro">Aufgewachsen ist er überwiegend in St Mary Bourne in Hampshire, doch die Versetzungen des Vaters führten die Familie nach Middle Wallop, Netheravon, York, ins zyprische Nikosia und nach Soest in Deutschland. Er besuchte die Elstree School und die Harrow School, machte dort Abitur in Physik, Chemie und Wirtschaft und erwarb mit 16 einen Privatpilotenschein. An der Universität Bristol begann er mit Bauingenieurwesen und schloss 1996 in Soziologie ab; ein Stipendium der britischen Armee verpflichtete ihn zu mindestens vier Dienstjahren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: ein Befehl, den er nicht ausgeführt hätte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo beschrieb die soziale Eins als den Subtyp der Unangepasstheit: Die Eins misst die Gemeinschaft und sich selbst an einem hohen Maßstab, fühlt sich nicht ganz zugehörig und steht gerade deshalb für das Richtige ein. Bei Blunt lässt sich das mit einer Episode aus seinem Dienst verbinden. Er trat in Sandhurst ein, wurde in die Life Guards übernommen und stieg zum Hauptmann auf. 1999 meldete er sich freiwillig zu einer Schwadron der Blues and Royals, die mit der NATO in den Kosovo verlegt wurde.</p>
+          <p class="vb-intro">Am 12. Juni 1999, nachdem russische Truppen den Flughafen Pristina besetzt hatten, soll der US-Befehlshaber Wesley Clark angeordnet haben, ihn mit Gewalt zu nehmen. Der britische General Mike Jackson weigerte sich nach den Berichten und sagte, man werde nicht für ihn den Dritten Weltkrieg anfangen. Blunt selbst sagt, er hätte einen solchen Befehl verweigert, wenn Jackson ihn nicht gestoppt hätte. Im Kosovo schrieb er das Lied ›No Bravery‹; später unterstützte er Ärzte ohne Grenzen, die er dort kennengelernt hatte, und drehte die Dokumentation ›Return to Kosovo‹. Das Foto zeigt dichtes, dunkles, welliges Haar mit einer aufstehenden Strähne, die rechte Hand hinter dem Ohr, einen wachen, direkten Blick unter leicht angehobenen Brauen und ein schmales, schiefes Lächeln mit leichtem Bartschatten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Wärme, Selbstironie und Hilfe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der Eins Zuwendung. Bei Blunt zeigt er sich in der Hilfsbereitschaft nach dem Dienst: Er war Schirmherr von Help for Heroes, einer Wohltätigkeitsorganisation für verwundete britische Soldaten, und gab Benefizkonzerte für sie. Er wirkte am Wohltätigkeitssong ›Everybody Hurts‹ für die Haiti-Hilfe 2010 mit und trat 2007 bei Live Earth auf. Seine Selbstironie, mit der er auf Twitter über zwei Millionen Menschen unterhält, lässt sich als Zweierzug verstehen: Wer über sich selbst lacht, nimmt anderen die Scheu.</p>
+          <p class="vb-intro">Auch die Freundschaften sprechen davon. Carrie Fisher war Patin seines älteren Sohnes, <a href="#beruehmte-ed-sheeran">Ed Sheeran (SX9w1)</a> ist dessen Pate. Im September 2014 heiratete er Sofia Wellesley, eine Enkelin des 8. Duke of Wellington; das Paar hat zwei Söhne. Über den Verlust eines Kindes durch eine Fehlgeburt schrieb er das Lied ›The Girl That Never Was‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Lieder aus der Kaserne und ein Welthit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Blunt schrieb schon im Dienst Lieder. Nach einem Hinweis soll Elton Johns Manager Todd Interland den Wagen angehalten und ihn angerufen haben, als er auf einem Demo ›Goodbye My Lover‹ hörte. Plattenfirmen hielten seine vornehme Sprechstimme in der klassengeteilten britischen Gesellschaft zunächst für ein Hindernis. Linda Perry nahm ihn nach einem Auftritt beim SXSW 2003 bei ihrem Label Custard Records unter Vertrag. Die Kritik verglich ihn mit Damien Rice und David Gray; die Journalistin Liz Hoggard schrieb, es sei unmöglich, sich Blunts ›troubadour yearning‹ (›Sehnsucht eines Troubadours‹) zu entziehen.</p>
+          <p class="vb-intro">Sein Debütalbum ›Back to Bedlam‹ (2004), produziert von Tom Rothrock, erreichte Platz 1 in Großbritannien und Platz 2 in den USA und war das meistverkaufte britische Album der 2000er-Jahre. ›You're Beautiful‹ erreichte in 13 Ländern Platz 1 und war 2006 der erste britische Nummer-eins-Hit in den US-Billboard-Charts seit fast einem Jahrzehnt. 2006 gewann er zwei Brit Awards und zwei Ivor Novello Awards; er wurde fünfmal für den Grammy nominiert und erhielt 2016 die Ehrendoktorwürde der Universität Bristol. Danach folgten ›All the Lost Souls‹ (2007), ›Some Kind of Trouble‹ (2010), ›Moon Landing‹ (2013), ›The Afterlove‹ (2017), ›Once Upon a Mind‹ (2019) und ›Who We Used to Be‹ (2023). Seine Tweets sammelte er 2020 im Buch ›How to Be a Complete and Utter Blunt‹; 2023 erschien ›Loosely Based on a Made-Up Story: A Non-Memoir‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Wolfgang Niedecken und Justin Timberlake</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-wolfgang-niedecken">Wolfgang Niedecken (SO1w2)</a> bezieht als Musiker öffentlich Position, wo ihm etwas nicht richtig erscheint, so wie Blunt einen Befehl nicht ausgeführt hätte. Beide verbinden eine feste Haltung mit Wärme. <a href="#beruehmte-justin-timberlake">Justin Timberlake (SO1w2)</a> ist ebenfalls Sänger und Songwriter mit Zweierflügel; bei Blunt kommen Selbstironie und der Offiziershintergrund hinzu.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zuhause: Ibiza, Verbier und ein Skilift</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Blunt lebt überwiegend auf Ibiza und besitzt ein Chalet in Verbier in der Schweiz, wo ein Skilift nach ihm benannt ist. Das Lied ›1973‹ ist von Nächten im Pacha auf Ibiza inspiriert. 2012 eröffnete er mit dem Motorradrennfahrer Carl Fogarty und dem Rugbyspieler Lawrence Dallaglio das Restaurant La Vache in Verbier. Im selben Jahr war er Opfer des Abhörskandals bei News International und reichte Zivilklage ein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand und Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2025 war Blunt mit der Tour zum 20. Jubiläum von ›Back to Bedlam‹ unterwegs. Sein achtes Studioalbum ›Airplane Mode‹ erscheint am 6. November 2026 bei Atlantic Records; die gleichnamige Tour beginnt 2027, unter anderem mit Konzerten in Deutschland, Österreich und der Schweiz. Im Herbst 2026 ist er in der zweiten Staffel der BBC-Sendung ›The Celebrity Traitors‹ zu sehen (Stand 27. Oktober 2026).</p>
+          <p class="vb-intro">Für die soziale Eins mit Zweierflügel liegt der Weg darin, dass der hohe Maßstab nicht zur Uniform werden muss und Zugehörigkeit auch ohne Rang möglich ist. Bei Blunt lässt sich das mit dem Wechsel von der Kaserne auf die Bühne verbinden, wo er zeigen konnte, wie viel Empfindsamkeit hinter der straffen Haltung lag.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"beruehmte-wolfgang-niedecken", label:"Porträt: Wolfgang Niedecken (SO1w2)"},
+        {route:"beruehmte-justin-timberlake", label:"Porträt: Justin Timberlake (SO1w2)"},
+        {route:"beruehmte-ed-sheeran", label:"Porträt: Ed Sheeran (SX9w1)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
+
+export function violetJessopPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-violet-jessop-portrait.jpg" alt="Violet Jessop – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Violet Jessop</p>
+        <p class="krim-portrait-typ">SE1w2 &middot; Selbsterhaltender Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Stewardess und Krankenschwester, 1887&ndash;1971 &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler, der auf dem sinkenden Schiff seinen Posten hielt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Wappentier der selbsterhaltenden Eins &ndash; er sucht keine Bühne und keine Zustimmung, er hält seinen Posten. Violet Constance Jessop hielt ihn auf drei Schiffen, die ein Unglück erlitten: der <em>Olympic</em>, der <em>Titanic</em> und der <em>Britannic</em>. In populären Darstellungen heißt sie deshalb ›Miss Unsinkable‹ (›Fräulein Unsinkbar‹). Dieser Beiname stammt nicht aus den wissenschaftlichen Quellen, er beschreibt aber treffend, was überliefert ist: Sie überlebte alle drei Ereignisse und fuhr danach weiter zur See.</p>
+          <p class="vb-intro">Geboren wurde sie am 2. Oktober 1887 bei Bahía Blanca in Argentinien als ältestes von neun Kindern irischer Einwanderer; sechs der Kinder überlebten. Als Kind erkrankte sie an einer Krankheit, die man für Tuberkulose hielt. Die Ärzte sagten ihr den baldigen Tod voraus &ndash; doch sie überlebte. Als der Vater starb, war sie sechzehn; die Familie zog nach England, wo die Mutter als Stewardess auf Schiffen arbeitete. 1908, mit einundzwanzig, trat Violet selbst als Stewardess in den Dienst der Royal Mail Line, auf dem Schiff <em>Orinoco</em>. Einer verbreiteten Überlieferung zufolge trat sie dabei bewusst unauffällig auf, um ernst genommen zu werden &ndash; belegt ist das nur durch Sekundärquellen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Verantwortung als Überlebensform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> trägt den Anspruch an sich selbst nach innen. Bei Naranjo heißt dieser Subtyp <em>Worry</em> &ndash; Besorgnis: die stille, ständige Frage, ob man seine Aufgabe wirklich erfüllt. Sicherheit entsteht für ihn nicht aus Glück, sondern aus Pflichterfüllung, aus Disziplin und daraus, dass man sich auf sich selbst verlassen kann.</p>
+          <p class="vb-intro">Genau diese Logik lässt sich in Jessops Lebenslauf ablesen. Als Älteste von neun Geschwistern, nach dem frühen Tod des Vaters, mit einer Mutter, die selbst auf See arbeitete, war die Arbeit auf den Schiffen kein Abenteuer, sondern der Weg, Verantwortung zu tragen. Dass sie über Jahrzehnte im selben Beruf blieb &ndash; 1908 bis zum Ruhestand 1950, mit Unterbrechungen &ndash; zeigt eine Beständigkeit, die für die SE1 typisch ist: nicht der große Auftritt, sondern das Weitermachen.</p>
+          <p class="vb-intro">Eine Einordnung bleibt eine Deutung: Aus den überlieferten Tatsachen lässt sich die Außenseite eines Lebens ablesen, nicht seine innere Welt. Was Jessop empfand, wenn sie nach einem Unglück wieder einen Dienstplan annahm, wissen wir nur aus ihren späten Erinnerungen und aus den Berichten anderer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Fürsorge als Beruf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der Eins die Wärme, die sie nach außen öffnet: Sie bleibt streng gegen sich, wird aber hilfsbereit gegenüber anderen. Eine Stewardess lebt von genau dieser Mischung &ndash; Dienst am Gast, Aufmerksamkeit für den Bedarf des anderen, Verlässlichkeit ohne Aufhebens. Im Ersten Weltkrieg verband Jessop diesen Dienst mit der Krankenpflege: Sie arbeitete als Krankenschwester im Voluntary Aid Detachment (einer freiwilligen Hilfsorganisation des Roten Kreuzes) und war so an Bord der <em>Britannic</em>, die als Lazarettschiff fuhr.</p>
+          <p class="vb-intro">Auch auf der <em>Titanic</em> zeigt sich der Zweierflügel in einer Szene, die in mehreren Quellen überliefert ist: In Rettungsboot 16 übergab ihr der Sechste Offizier James Paul Moody ein Baby, um das sie sich kümmern sollte. Sie nahm es an. Nach der Rettung durch die <em>Carpathia</em> wurde das Kind nach den überlieferten Schilderungen von seiner Mutter zurückgenommen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Drei Unglücke und ein Berufsleben auf See</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Besonderheit von Jessops Biografie liegt nicht in einer Leistung, die sie vollbrachte, sondern in einer Beständigkeit, die dokumentiert ist. Am 20. September 1911 stieß die <em>Olympic</em> nach dem Auslaufen aus Southampton mit dem Kriegsschiff HMS <em>Hawke</em> zusammen; es gab keine Todesopfer, das Schiff kehrte aus eigener Kraft in den Hafen zurück. Am 10. April 1912 ging sie als Vierundzwanzigjährige an Bord der <em>Titanic</em>. Das Schiff sank am 14. April, rund zwei Stunden und vierzig Minuten nach dem Zusammenstoß mit dem Eisberg; sie wurde in Boot 16 gerettet, die Überlebenden kamen mit der <em>Carpathia</em> am 18. April in New York an.</p>
+          <p class="vb-intro">Am 21. November 1916 sank das Lazarettschiff <em>Britannic</em> in der Ägäis, nachdem es auf eine deutsche Mine gelaufen war. Es ging in etwa 55 Minuten unter; von 1.066 Menschen an Bord starben 30. Jessop sprang aus einem Rettungsboot, um nicht von den Schiffsschrauben erfasst zu werden, und zog sich dabei eine Kopfverletzung zu. In ihren Erinnerungen beschrieb sie es so: ›I leapt into the water but was sucked under the ship's keel which struck my head‹ &ndash; ›Ich sprang ins Wasser, wurde aber unter den Schiffskiel gezogen, der mich am Kopf traf‹. Sie überlebte; einer Schilderung zufolge stellte Jahre später ein Arzt fest, dass sie sich einmal den Schädel gebrochen hatte.</p>
+          <p class="vb-intro">Danach fuhr sie weiter. 1920 kehrte sie zur White Star Line zurück, arbeitete für die Red Star Line, wo sie zwei Weltreisen auf der <em>Belgenland</em> mitmachte, und später wieder für die Royal Mail Line. 1923 heiratete sie den White-Star-Steward John James Lewis; die Ehe wurde 1924 geschieden. 1950 ging sie in den Ruhestand nach Great Ashfield in Suffolk, wo sie am 5. Mai 1971 mit dreiundachtzig Jahren an einer Herzinsuffizienz starb. Ihre Erinnerungen erschienen erst 1997 unter dem Titel <em>Titanic Survivor</em>, herausgegeben und kommentiert von John Maxtone-Graham.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1 zeigt sich in dem, was von Jessops Arbeit bleibt: Verlässlichkeit unter Druck und die Fähigkeit, in einer Notlage weiter für andere da zu sein. Der Adler gerät nicht in Panik; er bleibt an seinem Platz und tut, was zu tun ist.</p>
+          <p class="vb-intro">Der Schatten ist leiser. Der Antrieb der Eins ist der <strong>Zorn</strong> &ndash; bei der SE1 meist nach innen gerichtet, als Strenge gegen sich selbst und als Spannung, nie nachlassen zu dürfen. Ob Jessop das so erlebt hat, geben die Quellen nicht her. Was sich beobachten lässt, ist die Gefahr, die dieser Subtyp allgemein kennt: dass das Funktionieren zur einzigen Form von Sicherheit wird und der Preis dafür, ungefragt, im Körper und in der Erschöpfung bezahlt wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Funktionieren zum Dürfen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Für die Eins führt der Heilungsweg vom Zorn zur Gelassenheit &ndash; von der Frage <em>Habe ich alles richtig gemacht?</em> zur Erfahrung <em>Es ist genug, so wie es ist</em>. Für die SE1 heißt das, Sicherheit nicht länger nur aus Pflicht zu beziehen, sondern auch aus dem Vertrauen, dass man gehalten wird.</p>
+          <p class="vb-intro">Dass Jessops Erinnerungen erst Jahrzehnte nach ihrem Tod als Buch erschienen, ist ein Hinweis darauf, wie lange ihre Geschichte im Stillen weiterlebte. Was sie selbst darin ausdrücken wollte, bleibt dem Leser überlassen &ndash; die Tatsache, dass sie alles aufgeschrieben hat, spricht dafür, dass es ihr wichtig war, nicht nur zu überleben, sondern auch zu bezeugen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se1", label:"Lebensmusterkompass: SE1 – Adler"},
+        {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
+        {route:"beruehmte-alain-delon", label:"Porträt: Alain Delon (SE1w2)"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Porträt: Queen Elizabeth II. (SE1w9)"},
+      ])}
     </div>
   `);
 }

@@ -3088,3 +3088,143 @@ export function rosalieThomassPortraitPage() {
     </div>
   `);
 }
+
+export function annieLennoxPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-annie-lennox-portrait.jpg" alt="Annie Lennox – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Annie Lennox</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexual Type 1 with a Two wing</p>
+        <p class="krim-portrait-subtitle">Scottish singer, songwriter and activist, b. 1954 &ndash; Eurythmics, ‘Sweet Dreams (Are Made of This)’, ‘Diva’ &ndash; animal counterpart: black mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The black mamba: the girl from Torry</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>black mamba</strong> rarely moves without reason, and when it does, it moves with its whole strength. Annie Lennox was born on 25 December 1954 in the Torry district of Aberdeen in Scotland. Her parents were Dorothy Farquharson (1930–2003) and Thomas Allison Lennox (1925–1986); both died of cancer. She attended Aberdeen High School for Girls and learned flute and piano.</p>
+          <p class="vb-intro">From 1971 she studied at the Royal Academy of Music in London but did not finish the course. In 1976 she played flute with the band Dragon's Playground, from 1977 to 1980 she was lead singer of the Tourists, and there her collaboration with Dave Stewart began.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual One: zeal for the one counterpart and the one cause</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo called the sexual One <em>zeal</em>, the countertype of the One: the strictness is directed not at the whole world but with great intensity at individual people and concerns. In Lennox this can be linked to the partnership with Dave Stewart, from which the Eurythmics emerged in the 1980s, and later to her campaigns, each devoted to a clearly defined group, such as women and children affected by HIV and AIDS.</p>
+          <p class="vb-intro">The photo shows very short hair with a side-swept strand, a broad, open smile with many teeth showing, wide eyes directed slightly upward, forehead lines and deep laugh lines. Large hoop earrings hang from the ears. The expression is lively and collected at the same time.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two wing: care as a task</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two wing (w2)</strong> gives the One attentiveness. In Lennox it shows in her putting her fame at the service of others. She founded the SING Campaign, which supports women and children affected by HIV and AIDS, and in 2008 the women's organisation The Circle. In 2010 she became UNESCO Goodwill Ambassador for AIDS. She also supports Amnesty International, Greenpeace and LGBT rights; in 2011 she was appointed OBE (Officer of the Order of the British Empire, a British honour) for her charity campaigns and her championing of humanitarian causes. In October 2023 she signed an open letter calling for a ceasefire in Gaza.</p>
+          <p class="vb-intro">From 2017 to 2024 she was Chancellor of Glasgow Caledonian University; a building there bears her name. In 2025 she spoke out against the cuts to UK foreign aid.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: a dark voice and an unmistakable image</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Critics describe her voice as a contralto, a low female voice that is rare in pop. With the Eurythmics she had hits in the 1980s such as ‘Sweet Dreams (Are Made of This)’ (1983), ‘There Must Be an Angel (Playing with My Heart)’ and ‘Here Comes the Rain Again’. Her androgynous appearance was part of her act in those years and became a trademark.</p>
+          <p class="vb-intro">Her solo debut ‘Diva’ appeared in 1992 and reached No. 1 in Britain; in 1995 followed ‘Medusa’, an album of cover versions. In 2004 she won the Academy Award for Best Original Song for ‘Into the West’. She has won eight Brit Awards, including a record six as best British female artist, and four Grammys. In 2020 she was inducted into the Songwriters Hall of Fame, and in 2022, with Dave Stewart, into the Rock and Roll Hall of Fame.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Robbie Williams and Udo Lindenberg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-robbie-williams">Robbie Williams (SX1w2)</a> is likewise a singer with a Two wing and shows, like Lennox, that music and an open stance can go together. <a href="#beruehmte-udo-lindenberg">Udo Lindenberg (SX1w9)</a> likewise uses his stage for a clear stance, with a calmer Nine wing instead of the attentiveness of the Two wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Losses and vulnerability</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lennox has been married three times: to Radha Raman (1984–1985), Uri Fruchtmann (1988–2000) and, since 2012, Mitch Besser. She has two daughters, Lola and Tali; her son Daniel was stillborn in 1988. At 70 she was diagnosed with ADHD, according to the source used. She lost her parents in 1986 and 2003.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where she stands and how to place it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2024 Lennox performed at the Gershwin Prize tribute to Elton John and Bernie Taupin. In 2025 she played the concert ‘Sisters: Annie Lennox and Friends’ at the Royal Albert Hall, her first live show in six years (as of 28 October 2026).</p>
+          <p class="vb-intro">For the sexual One with a Two wing the path lies in letting the zeal not have to carry every need of the world, and in attention being possible without a campaign. In Lennox this can be linked to the alternation between the stage and quiet piano songs, for example in the EP (extended play, a short album) ‘Lepidoptera’ (2019).</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx1", label:"SX1 – The black mamba: subtype profile"},
+        {route:"beruehmte-robbie-williams", label:"Portrait: Robbie Williams (SX1w2)"},
+        {route:"beruehmte-udo-lindenberg", label:"Portrait: Udo Lindenberg (SX1w9)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}
+
+export function ninaRugePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-nina-ruge-portrait.jpg" alt="Nina Ruge – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Nina Ruge</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with a Seven wing</p>
+        <p class="krim-portrait-subtitle">German television presenter and author, b. 1956 &ndash; ‘Alles wird gut’ (Everything Will Be Fine) &ndash; animal counterpart: wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The wolf: the teacher who went out into the world</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>wolf</strong> hunts in a pack and moves toward what others avoid. Nina Ruge was born on 24 August 1956 in Munich. She comes from a German-Jewish family; her ancestor Gabriel Riesser was a deputy in the Paulskirche parliament. Her father Jürgen Ruge was a professor of mechanical engineering at the Technical University of Braunschweig. During the Nazi period he was persecuted as a ‘half-Jew’ (the Nazis' term) and managed to escape from a camp in France. After her birth she was placed in an infants' home because of her mother's cancer treatment.</p>
+          <p class="vb-intro">She took her school-leaving exam in 1974 at the Ina-Seidel-Schule in Braunschweig and studied German and biology for teaching, graduating in 1979. From 1980 to 1987 she was a trainee teacher and then a secondary-school teacher at the Gymnasium Kreuzheide in Wolfsburg and worked on the side as a freelancer for NDR radio in Braunschweig.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Six: courage as the answer to fear</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> the sexual Six is the countertype of the Six: it meets fear not with caution but goes toward it with strength. In Ruge this can be linked to her change of sides in 1987: she gave up the secure career as a teacher, went to Berlin and worked in film as a wardrobe assistant, script girl and assistant director, then as an editor at SFB and from 1988 at RIAS-TV. On 9 October 1989 she presented the ZDF ‘heute-journal’ for the first time.</p>
+          <p class="vb-intro">The drawing shows long, straight hair parted in the middle and falling forward, a high forehead with fine horizontal lines, lively eyes with long lashes and laugh lines at the outer corners, and a broad, open smile with visible teeth. The gaze goes straight into the camera, attentive and openly friendly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven wing: confidence as a profession</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven wing (w7)</strong> gives the Six lightness, optimism and many interests. Riso and Hudson call the Six with a Seven wing ‘the Buddy’. In Ruge it shows in the confidence that became her trademark: her book ‘Alles wird gut’ (Everything Will Be Fine) appeared in 2002, followed by ‘Alles wird gut im Job’ (… at Work) and ‘Alles wird gut in der Liebe’ (… in Love), both 2005, and in summer 2007 the ZDF talk show ‘Nina Ruge: Alles wird gut’ began. Her range of topics also extends from health and self-healing through silence (‘Stille – Balsam für Herz und Seele’, Silence – Balm for Heart and Soul, 2010) to cooking and film (‘Wer liebt, dem wachsen Flügel’, Whoever Loves Grows Wings, 1999; ‘Sophie kocht’, Sophie Cooks, 2015).</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: a mediator between science and the public</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ruge was co-presenter of the ‘heute-journal’ (today journal) from 1989 to 1994, from October 1994 to 1997 the first presenter of ‘heute nacht’ (today tonight) and from 1997 until 3 February 2007 presenter of ‘Leute heute’ (People Today). After that she presented ‘Unter vier Augen’ (Face to Face, BR, 2007 to 2016), ‘Forum Manager’ (phoenix, 2010 to 2014) and the ‘Wissenschaftsforum Petersberg’ (Petersberg Science Forum, phoenix, until 2009). She has written or edited more than 20 books; most recently, on longevity and rejuvenation, appeared with Dominik Duscher ‘Altern wird heilbar’ (Ageing Becomes Curable, 2020) and ‘Verjüngung ist möglich’ (Rejuvenation Is Possible, 2021), then ‘Das Verjüngungs-Kochbuch’ (The Rejuvenation Cookbook, 2022), ‘Der Verjüngungs-Plan’ (The Rejuvenation Plan, 2023) and in 2025 ‘Verjüngung – Der Ernährungsplan’ (… The Nutrition Plan) and ‘Ab morgen jünger!’ (Younger from Tomorrow!).</p>
+          <p class="vb-intro">She has been a UNICEF representative since 1994 and UNICEF Germany ambassador since 2012, patron of the Bethel children's hospice since 2010 and ambassador of the Jane Goodall Institute Germany. Her awards include the Felix Burda Award (2008), the Bavarian State Medal for Social Services (2009) and the Federal Cross of Merit on ribbon (2013).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Louise Hay, Anke Engelke and Byron Katie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-louise-hay">Louise Hay (SX6w7)</a> shares with Ruge the theme of self-healing and confidence as a message. <a href="#beruehmte-anke-engelke">Anke Engelke (SX6w7)</a> is, like Ruge, a well-known television woman with an open, direct manner. <a href="#beruehmte-byron-katie">Byron Katie (SX6w7)</a> can be linked with Ruge in the interest in inner clarification.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Private life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ruge's first marriage was dissolved after four years; from 1995 to 1998 she was married to the television producer Stefan Voss. Since 1998 she has been in a relationship with Wolfgang Reitzle, and they have been married since 2001.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where she stands and how to place it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Most recently her book ‘Alles wird gut, aber nicht von alleine!’ (Everything Will Be Fine, But Not by Itself!) appeared in 2026 (as of 28 October 2026).</p>
+          <p class="vb-intro">For the sexual Six with a Seven wing, one path of development lies in confidence not having to be fought for against fear first. In Ruge this can be read in the title of 2026: the addition ‘but not by itself’ takes the confidence into one's own responsibility without withdrawing it.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx6", label:"SX6 – The wolf: subtype profile"},
+        {route:"beruehmte-louise-hay", label:"Portrait: Louise Hay (SX6w7)"},
+        {route:"beruehmte-anke-engelke", label:"Portrait: Anke Engelke (SX6w7)"},
+        {route:"beruehmte-byron-katie", label:"Portrait: Byron Katie (SX6w7)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}

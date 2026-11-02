@@ -2109,6 +2109,7 @@ export function natalieDormerPortraitPage() {
         {route:"beruehmte-avril-lavigne", label:"Porträt: Avril Lavigne (SX6w7)"},
         {route:"beruehmte-nick-nolte", label:"Porträt: Nick Nolte (SX6w5)"},
         {route:"beruehmte-veronica-ferres", label:"Porträt: Veronica Ferres (SX6w5)"},
+        {route:"beruehmte-emily-blunt", label:"Porträt: Emily Blunt (SX6w5)"},
       ])}
     </div>
   `);
@@ -2657,6 +2658,8 @@ export function nickNoltePortraitPage() {
         {route:"lebensmusterkompass/sx6", label:"Lebensmusterkompass: SX6 – Wolf"},
         {route:"beruehmte-natalie-dormer", label:"Porträt: Natalie Dormer (SX6w5) – derselbe Subtyp und Flügel"},
         {route:"beruehmte-bobby-fischer", label:"Porträt: Bobby Fischer (SX6w5) – derselbe Subtyp und Flügel, ein anderes Feld"},
+        {route:"beruehmte-emily-blunt", label:"Porträt: Emily Blunt (SX6w5)"},
+        {route:"beruehmte-steve-mcqueen", label:"Porträt: Steve McQueen (SX6w7)"},
       ])}
     </div>
   `);
@@ -3094,6 +3097,150 @@ export function simoneMennePortraitPage() {
         {route:"beruehmte-roger-akelius", label:"Porträt: Roger Akelius (SE5w6)"},
         {route:"beruehmte-juliane-koepcke", label:"Porträt: Juliane Koepcke (SE5w6)"},
             ])}
+    </div>
+  `);
+}
+
+export function jamesDeanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-james-dean-portrait.jpg" alt="James Dean – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">James Dean</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexueller Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Schauspieler, 1931&ndash;1955 &ndash; ›East of Eden‹, ›Rebel Without a Cause‹, ›Giant‹ &ndash; Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua: ein Junge, dem die einzige Vertraute fehlte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist klein und hat ein gewaltiges Temperament, und er verteidigt seinen Platz, als wäre er ein Wolf. James Byron Dean kam am 8. Februar 1931 in Marion in Indiana zur Welt. Seine Mutter Mildred, die nach einer Biografie die einzige war, die ihn wirklich verstand, starb 1938 an Gebärmutterkrebs, als er neun war. Der Vater Winton konnte den Sohn nicht allein großziehen und schickte ihn zu Tante Ortense und Onkel Marcus Winslow auf die Farm in Fairmount, wo er in einer Quäkerfamilie aufwuchs.</p>
+          <p class="vb-intro">In der Schule war er nach den Angaben unauffällig, aber beliebt: Er spielte Baseball und Basketball, studierte Drama und trat bei Redewettbewerben an. Mit dem methodistischen Pastor James DeWeerd hatte er einen Mentor, der nach der Wikipedia-Seite sein Interesse an Stierkampf, Autorennen und Philosophie geprägt haben soll. 1949 zog er zum Vater nach Kalifornien, schrieb sich am Santa Monica College (einer zweijährigen staatlichen Hochschule) und dann an der UCLA ein (der University of California, Los Angeles, einer großen staatlichen Universität) und brach 1951 das Studium ab, um Schauspieler zu werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: der Konkurrenzneid und die Sehnsucht nach dem, was fehlt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo sah in der sexuellen Vier den Subtyp des Konkurrenzneids: Die Sehnsucht nach dem, was man nicht bekommen hat, wird nicht still getragen, sondern im Vergleich mit anderen ausgetragen. Bei Dean lässt sich das mit einem Satz verbinden, den er nach der Wikipedia-Seite zu einem Journalisten sagte: ›I've made a study of Marlon Brando. And I've made a study of poor Jimmy Dean.‹ – ›Ich habe Marlon Brando studiert, und ich habe den armen Jimmy Dean studiert.‹ Er verglich sich offen mit dem anderen großen jungen Schauspieler seiner Zeit.</p>
+          <p class="vb-intro">Dazu passt, wie er mit Kritik umging: Als Lee Strasberg im Actors Studio (der berühmten New Yorker Schauspielschule für das Method Acting, bei dem Darsteller auf eigene Erinnerungen und Gefühle zurückgreifen) nach Deans einziger Soloarbeit seinen Auftritt scharf kritisierte, stürmte er hinaus. Er besuchte danach weiter den Unterricht, legte aber nie wieder Arbeiten zur Kritik vor. Wer sich so verletzlich zeigt, schützt sich nach einem Hieb lieber vor dem nächsten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Wirkung, Tempo und das bewusst gebaute Bild</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der Vier Tatkraft und den Blick für die eigene Wirkung. Dean wusste, was seine Figur auslöste: ›We're sullen, we're broodin', we're something of a menace […] I know you can't be sexy if you smile. You can't be a rebel if you grin.‹ – ›Wir sind mürrisch, wir brüten, wir sind eine Art Bedrohung […] Man kann nicht sexy sein, wenn man lächelt. Man kann kein Rebell sein, wenn man grinst.‹ Das ist eine nüchterne Analyse der eigenen Wirkung. Auf der Zeichnung sucht der Blick den Betrachter, die Zigarette im Mundwinkel gehört zur Pose.</p>
+          <p class="vb-intro">Der Weg war zielstrebig: 1950 kam sein Fernsehdebüt in einem Pepsi-Spot, dann die Rolle des Apostels Johannes im Osterfilm ›Hill Number One‹, den nach einer Angabe rund 42 Millionen Menschen sahen. Es folgten kleine Filmrollen, Aufnahme in das Actors Studio, Fernsehspiele, 1954 die Bühne mit André Gides ›The Immoralist‹ (›Der Immoralist‹), die den Anruf des Regisseurs Elia Kazan auslöste. Seine Beziehung zu Pier Angeli sah sein Freund William Bast großenteils als Publicity-Schöpfung, und Warner vermarktete ihn als begehrten Junggesellen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: der Schauspieler, der Verletzlichkeit nicht versteckte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dean spielte in nur drei großen Filmen und prägte damit ein Jahrzehnt. In ›East of Eden‹ (1955, ›Jenseits von Eden‹) spielte er Cal Trask, den ungeliebten Sohn in Steinbecks Familiengeschichte. Kazan beschreibt, wie Dean improvisierte, etwa bei der Umarmung des Vaters. In ›Rebel Without a Cause‹ (1955, ›…denn sie wissen nicht, was sie tun‹) war er der entwurzelte Teenager Jim Stark, in ›Giant‹ (1956) der Farmarbeiter und spätere Ölmagnat Jett Rink.</p>
+          <p class="vb-intro">Das Besondere war der Ton: François Truffaut beschrieb Deans Wirkung als Rebellion gegen die psychologisch geglättete Schauspielkunst, David Thomson nannte sein Spiel feinfühlig und verletzlich (›sensitivity and vulnerability‹). Für ›East of Eden‹ war er als erster Schauspieler überhaupt posthum für den Oscar als bester Hauptdarsteller nominiert, für ›Giant‹ ein zweites Mal, als einziger Schauspieler mit zwei posthumen Nominierungen. 1960 erhielt er einen Stern auf dem Hollywood Walk of Fame. Das American Film Institute reihte ihn 1999 auf Platz 18 der größten männlichen Filmstars des goldenen Hollywood.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-charlie-chaplin">Charlie Chaplin (SX4w3)</a> machte sich ebenfalls aus einer Kindheit ohne Halt zum Künstler, der alles an sich zog, doch während Chaplin sein Werk bis ins Letzte kontrollierte, zeigte sich Dean roh und ungeschützt. <a href="#beruehmte-prince-rogers-nelson">Prince (SX4w3)</a> teilt mit ihm Subtyp und Flügel und die Selbstinszenierung, die Verletzlichkeit und Drang nach Wirkung zusammenbringt. Als zweite große Rebellen-Ikone der Zeit steht <a href="#beruehmte-steve-mcqueen">Steve McQueen (SX6w7)</a> neben ihm, in einem anderen Subtyp, aber mit ähnlicher Wirkung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der letzte Tag: Tempo, das keine Warnung abwartete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dean liebte das Rennen. 1955 fuhr er einen Porsche Speedster und gewann bei den Palm Springs Road Races die Novizenklasse; Regisseur George Stevens untersagte ihm während der Dreharbeiten zu ›Giant‹ das Fahren. Dann tauschte er den Wagen gegen einen neuen, stärkeren Porsche 550 Spyder, den er ›Little Bastard‹ nannte, und meldete sich zum Rennen in Salinas für den 2. Oktober an.</p>
+          <p class="vb-intro">Am 30. September 1955 fuhr er mit dem Porsche-Mechaniker Rolf Wütherich dorthin. Um 15:30 Uhr bekam er einen Strafzettel wegen zu schnellen Fahrens, gegen 17:45 Uhr stieß er bei Cholame in Kalifornien mit dem Ford eines Studenten zusammen, der nach links abbog. Wütherich wurde aus dem Wagen geschleudert, Dean blieb eingeklemmt und starb mit 24 Jahren an den Verletzungen, darunter ein gebrochenes Genick. ›Rebel Without a Cause‹ kam erst nach seinem Tod ins Kino. Er sagte einmal: ›My whole life has been spent in a dramatic display of expression.‹ – ›Mein ganzes Leben bestand aus einer dramatischen Zurschaustellung von Ausdruck.‹</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Was bleibt: die Sehnsucht, die zum Bild wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dean blieb 24 Jahre alt, und gerade das hat sein Bild festgehalten: der Junge, der etwas verloren hat und es nie ganz bekam. Für die sexuelle Vier mit Dreierflügel wäre es heilsam, zu erleben, dass sie auch ohne Bühne gesehen wird und dass die Sehnsucht nicht vorgeführt werden muss, um echt zu sein. Dass er in seinen Filmen genau diese Sehnsucht sichtbar machte, erklärt, warum sich Generationen von Jugendlichen in ihm wiedererkannten.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"beruehmte-charlie-chaplin", label:"Porträt: Charlie Chaplin (SX4w3)"},
+        {route:"beruehmte-prince-rogers-nelson", label:"Porträt: Prince (SX4w3)"},
+        {route:"beruehmte-steve-mcqueen", label:"Porträt: Steve McQueen (SX6w7)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
+
+// ZURÜCKGESTELLT (28.10.2026): Porträt unveröffentlicht – nicht in Route-Map, Array, Register, Changelog, Kompass. Typisierung SE1w9 offen (evtl. SX1w9). Wiederherstellung: siehe Memory project_victor_hugo_zurueckgestellt
+export function victorHugoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-victor-hugo-portrait.jpg" alt="Victor Hugo – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Victor Hugo</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Französischer Dichter, Romancier und Politiker, 1802&ndash;1885 &ndash; ›Les Misérables‹ &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler: der Generalssohn, der Dichter wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> hält Wacht von einer Höhe aus, die er sich selbst gesucht hat, und lässt sein Revier nicht aus den Augen. Victor Hugo wurde am 26. Februar 1802 in Besançon geboren, als jüngster von drei Söhnen. Sein Vater Joseph Léopold Sigisbert Hugo wurde unter <a href="#beruehmte-napoleon-bonaparte">Napoleon Bonaparte (SO2w3)</a> General, seine Mutter Sophie Trébuchet stammte aus der Bretagne. Die Eltern entfremdeten sich, die Kindheit blieb unruhig: Hugo lebte überwiegend in Paris, zeitweise beim Vater in Neapel (1808) und in Madrid (1811/12).</p>
+          <p class="vb-intro">Ab 1812 wohnte er bei der Mutter in Paris, später in einem Pensionat und besuchte das Lycée Louis-le-Grand. Er begann vermutlich mit etwa zehn Jahren zu schreiben; mit 16 nahm er ein Jurastudium auf. 1822 erschien sein erster Gedichtband, ›Odes et poésies diverses‹ (Oden und verschiedene Gedichte), im selben Jahr heiratete er die Jugendfreundin Adèle Foucher. Ein Kind starb 1823 kurz nach der Geburt; Léopoldine (1824), Charles (1826), François-Victor (1828) und Adèle (1830) folgten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Besorgnis, die sich nach außen wendet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bei <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> trägt die selbsterhaltende Eins den Namen <em>Worry</em> (Besorgnis): die innere Dauerfrage, ob man dem Richtigen gerecht wird. Bei Hugo wendet sich diese Besorgnis nach außen. ›Le dernier jour d'un condamné‹ (Der letzte Tag eines Verurteilten, 1829) ist ein Plädoyer gegen die Todesstrafe; ›Les Misérables‹ (Die Elenden, 1862) richtet den Blick auf die Armen und Rechtlosen. Er war in der Tierschutzgesellschaft aktiv, sprach sich gegen Vivisektion aus und setzte sich gemeinsam mit <a href="#beruehmte-honore-de-balzac">Honoré de Balzac (SE4w3)</a> für ein Urheberrecht ein.</p>
+          <p class="vb-intro">Das Foto zeigt dichtes weißes Haar, das nach oben gestrichen ist, eine hohe Stirn mit tiefen Querfalten und zwei senkrechten Furchen zwischen den schweren Brauen, tief liegende, ernste Augen mit schweren Lidern, eine kräftige Nase und einen vollen weißen Schnurrbart und Bart, der den Mund fast verdeckt. Der Blick ist prüfend, die Brauen sind leicht zusammengezogen, ein Lächeln fehlt. Er trägt einen dunklen Rock mit weißem Hemdkragen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: die Standhaftigkeit des Patriarchen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der Eins Beharrlichkeit und eine ruhige Mitte, die bei schwach ausgeprägtem Neunerflügel kaum von selbst da ist. Nach dem Staatsstreich von Louis-Napoléon vom 2. Dezember 1851 ging Hugo ins Exil, zuerst nach Jersey (1852–1855), dann nach Guernsey, wo er bis 1870 blieb und im Hauteville House lebte. In ›Les Châtiments‹ (Die Züchtigungen, 1853), dem Gedichtband gegen den neuen Kaiser, schrieb er: ›Et s'il n'en reste qu'un, je serai celui-là‹ (›Und wenn nur einer bleibt, werde ich dieser eine sein‹). Er kehrte am 5. September 1870 nach dem Sturz des Kaiserreichs nach Paris zurück.</p>
+          <p class="vb-intro">Auch im Privaten zeigt sich dieser Zug: Er lernte 1833 die Schauspielerin Juliette Drouet kennen, die Beziehung dauerte bis zu ihrem Tod 1883. Das Verhältnis seiner Frau Adèle mit dem Kritiker Sainte-Beuve duldete er lange.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Manifest, Roman, Gedicht und Zeichnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hugo war Dichter, Dramatiker und Romancier in einem. Das Vorwort zu seinem Drama ›Cromwell‹ (1827) wurde zum Manifest der Romantik; die Uraufführung von ›Hernani‹ am 25. Februar 1830 löste die ›Schlacht um Hernani‹ zwischen Klassizisten und Romantikern aus. ›Notre-Dame de Paris‹ (Der Glöckner von Notre-Dame, 1831) spielt im Jahr 1482 und lenkte den Blick auf die verfallende Kathedrale. In der Exilzeit entstanden ›Les Contemplations‹ (Die Betrachtungen, 1856), ›La Légende des siècles‹ (Die Legende der Jahrhunderte, 1859) und ›Les Misérables‹ (1862); später folgten ›Les Travailleurs de la mer‹ (Die Arbeiter des Meeres, 1866), ›L'Homme qui rit‹ (Der Mann, der lacht, 1869) und ›Quatre-vingt-treize‹ (Dreiundneunzig, 1874).</p>
+          <p class="vb-intro">Politisch wurde er 1845 von Louis-Philippe zum Pair ernannt, wandte sich 1846 dem Republikanismus zu, wurde 1848 zum Abgeordneten gewählt und 1876 in den Senat. Er hinterließ rund 3500 Zeichnungen, vor allem aus der Exilzeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp und beim Thema Gerechtigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-john-brown">John Brown (SX1w9)</a> teilt den Neunerflügel; für ihn versuchte Hugo im Dezember 1859 vom Exil aus eine Begnadigung zu erreichen und warnte in einem offenen Brief vor einem Bürgerkrieg. <a href="#beruehmte-queen-elizabeth-ii">Queen Elizabeth II. (SE1w9)</a> teilt Subtyp und Flügel; bei ihr zeigt sich die Pflicht im Schweigen, bei Hugo im öffentlichen Wort.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Verlust und Trauer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Léopoldine, die älteste Tochter, ertrank 1843 mit ihrem Ehemann bei einem Bootsunglück bei Villequier; sie war 19 Jahre alt. Von den Kindern überlebte Hugo nur Adèle. Die Gedichte über Léopoldines Tod stehen in ›Les Contemplations‹ (1856). Diese Besorgnis, die sich in Trauer und Zärtlichkeit wendet, gehört zum selben Muster wie sein öffentlicher Einsatz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Tod und Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach einem Schlaganfall 1878 ließ seine Schaffenskraft nach. Hugo starb am 22. Mai 1885 in Paris. Das Staatsbegräbnis am 1. Juni 1885 führte ihn ins Panthéon, wo er in einem Ehrengrab in der Krypta beigesetzt wurde.</p>
+          <p class="vb-intro">Für die selbsterhaltende Eins mit Neunerflügel liegt ein Entwicklungsweg darin, die Dauersorge nicht nur in Anklage und Pflicht zu übersetzen, sondern auch in Trost und Nähe. Bei Hugo lässt sich das an den Gedichten für die tote Tochter ablesen: Dieselbe Wachsamkeit, die das Unrecht der Welt sah, richtete sich auch auf den Schmerz im eigenen Haus.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"beruehmte-john-brown", label:"Porträt: John Brown (SX1w9)"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Porträt: Queen Elizabeth II. (SE1w9)"},
+        {route:"beruehmte-honore-de-balzac", label:"Porträt: Honoré de Balzac (SE4w3)"},
+        {route:"beruehmte-napoleon-bonaparte", label:"Porträt: Napoleon Bonaparte (SO2w3)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
     </div>
   `);
 }

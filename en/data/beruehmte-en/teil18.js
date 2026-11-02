@@ -1711,6 +1711,7 @@ export function sammyDavisJrPortraitPage() {
         {route:"beruehmte-isadora-duncan", label:"Portrait: Isadora Duncan (SX2w3)"},
         {route:"beruehmte-pamela-reif", label:"Portrait: Pamela Reif (SX2w3)"},
         {route:"beruehmte-braco", label:"Portrait: Braco (SX2w3)"},
+        {route:"beruehmte-rj-mitte", label:"Portrait: RJ Mitte (SX2w3)"},
       ])}
     </div>
   `);
@@ -2336,46 +2337,51 @@ export function georgeVithoulkasPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-george-vithoulkas-portrait.jpg" alt="Prof. George Vithoulkas – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Prof. George Vithoulkas</p>
-        <p class="krim-portrait-typ">SO3w4 · Social Type 3 with Four-wing</p>
-        <p class="krim-portrait-subtitle">Greek homeopath, b. 1932 – Animal correspondence: Cheetah</p>
+        <p class="krim-portrait-typ">SO5w4 &middot; Social Type 5 with a Four wing</p>
+        <p class="krim-portrait-subtitle">Greek homeopath, b. 1932 &ndash; animal counterpart: octopus</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Cheetah Who Re-founded an Entire Discipline</h2>
+        <h2 class="vb-section">1. The octopus: the teacher who withdrew to an island</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Cheetah</strong> is the emblem of the social Three – fast, striking, built for the one decisive moment that carries an entire career. George Vithoulkas, born 1932 in Athens, studied homeopathy in South Africa and received his diploma from the Indian Institute of Homeopathy in 1966. Back in Greece, he began teaching a small group of doctors classical homeopathy – the therapeutic success of these first doctors quickly attracted further attention. In recognition of his life's work, the Greek University of the Aegean appointed him Honorary Professor in 2011, and he also holds several honorary doctorates, including from the medical academies of Kyiv and Moscow – since then he has consistently been referred to as Professor Vithoulkas.</p>
-          <p class="vb-intro">In 1970, this grew into the Athenian School of Homeopathic Medicine, and in 1994 he founded the International Academy for Classical Homeopathy on the Greek island of Alonissos for the postgraduate training of physicians, homeopathic practitioners, and other interested professionals from around the world – with a clear emphasis on physicians, since there are far more medical doctors than dedicated homeopathic practitioners worldwide (that specific profession, in the German sense of "Heilpraktiker," is largely a German peculiarity). Numerous American homeopaths traveled specifically to the remote island to learn what became known as the "Vithoulkas method" directly from him. The cheetah used the one moment when his knowledge proved effective to build an international institution out of it.</p>
+          <p class="vb-intro">An <strong>octopus</strong> withdraws into a den and orders its territory from there. George Vithoulkas, born in 1932 in Athens, studied homeopathy in South Africa and received his diploma from the Indian Institute of Homeopathy in 1966. Back in Greece, he began teaching a small group of doctors classical homeopathy – the therapeutic success of these first doctors quickly attracted further attention. In recognition of his life's work, the Greek University of the Aegean appointed him Honorary Professor in 2011, and he also holds several honorary doctorates, including from the medical academies of Kyiv and Moscow – since then he has consistently been referred to as Professor Vithoulkas.</p>
+          <p class="vb-intro">In 1970 this grew into the Athenian School of Homeopathic Medicine, and in 1994 he founded the International Academy for Classical Homeopathy on the Greek island of Alonissos for the postgraduate training of physicians, homeopathic practitioners and other interested professionals from around the world – with a clear emphasis on physicians, since there are far more medical doctors than dedicated homeopathic practitioners worldwide (that profession, in the German sense of ‘Heilpraktiker’, is largely a German peculiarity). Numerous American homeopaths travelled specifically to the remote island to learn what became known as the ‘Vithoulkas method’ directly from him.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Social Three: Worldwide Recognition for a Marginal Discipline</h2>
+        <h2 class="vb-section">2. The social Five: a body of theory as a shared emblem</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>social Three (SO3)</strong> looks for success not in a protected niche, but in the broadest, most publicly visible recognition possible – even when her own field is socially contested. In 1996, Vithoulkas was honored in Stockholm with the Right Livelihood Award, often called the "alternative Nobel Prize," for his outstanding contribution to the revival of homeopathic knowledge and to the education of homeopaths at the highest level.</p>
-          <p class="vb-intro">His books were translated into twenty languages and significantly shaped the worldwide practice of homeopathy – not as a regional footnote, but as an internationally recognized life's work, deliberately built for global visibility.</p>
+          <p class="vb-intro">‘Totem’ is how <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> described the aim of the social Five: a sign that binds the knowers of a group. In Vithoulkas this can be linked to his body of theory: the ‘Levels of Health’ and the ‘Vithoulkas method’ became a reference point by which homeopaths in many countries oriented their approach. In 1996 he was honoured in Stockholm with the Right Livelihood Award, often called the ‘alternative Nobel Prize’, for his contribution to the revival of homeopathic knowledge and to the education of homeopaths at the highest level.</p>
+          <p class="vb-intro">His books were translated into twenty languages and are regarded by many practitioners as reference works to orient themselves by.</p>
+          <p class="vb-intro">The drawing shows full, brushed-back, slightly tousled grey hair with high temples, a high forehead with horizontal lines, calm brows and deep-set, somewhat heavy lids with bags beneath. The gaze is gentle, direct and a little turned inward. The nose is broad, the mouth closed with a slightly crooked, mild smile. He wears a dark jacket over a white collar.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Four-wing: Consciousness Development Instead of Pure Symptom Doctrine</h2>
+        <h2 class="vb-section">3. The Four wing: consciousness development instead of pure symptom doctrine</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Four-wing (w4)</strong> brings the social Three a depth that goes beyond professional competence. Vithoulkas explicitly linked humanity's spiritual evolution to its state of health, holding that without this connection, physicians could not achieve truly radical, lasting cure – a vision in which consciousness and body are inseparably bound together.</p>
-          <p class="vb-intro">His conversations with the philosopher Jiddu Krishnamurti and his own theory of "Levels of Health" – a twelve-stage system for classifying a patient's state of health, developed over 57 years – show the same Four-wing depth: a highly individual, decades-refined intellectual construction that reaches far beyond craft-level symptom doctrine. That he deliberately located his academy on a remote island rather than bringing it to a major city for mass-market reach fits this search for depth over sheer scale.</p>
+          <p class="vb-intro">The <strong>Four wing (w4)</strong> gives the Five a personal depth that goes beyond professional knowledge. Vithoulkas explicitly linked humanity's spiritual evolution to its state of health, holding that without this connection physicians could not achieve truly radical, lasting cure – a vision in which consciousness and body are inseparably bound together.</p>
+          <p class="vb-intro">His conversations with the philosopher Jiddu Krishnamurti and his own theory of ‘Levels of Health’ – a twelve-stage system for classifying a patient's state of health, developed over 57 years – show the same Four-wing depth: a highly individual, decades-refined intellectual construction that reaches far beyond craft-level symptom doctrine. That he deliberately located his academy on a remote island rather than bringing it to a major city for mass-market reach fits this search for depth and the Five's retreat to a place from which it can put things in order.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The Actual Achievement: A Systematic Body of Theory</h2>
+        <h2 class="vb-section">4. The actual achievement: a systematic body of theory</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">What actually distinguishes Vithoulkas is the systematization of a field that had previously been strongly experience-based and inconsistent: his main work "The Science of Homeopathy" (1977) and the later, fully developed theory of "Levels of Health" provide written, traceable criteria for classifying a patient's state of health and assessing the prognosis of homeopathic treatment – an attempt to give a field rules and predictability that had barely been systematically described before.</p>
+          <p class="vb-intro">What actually distinguishes Vithoulkas is the systematisation of a field that had previously been strongly experience-based and inconsistent: his main work ‘The Science of Homeopathy’ (1977) and the later, fully developed theory of ‘Levels of Health’ provide written, traceable criteria for classifying a patient's state of health and assessing the prognosis of homeopathic treatment – an attempt to give a field rules and predictability that had barely been systematically described before.</p>
           <p class="vb-intro">This substance explains why his books are regarded worldwide as reference works: not merely a personal philosophy, but a set of tools other practitioners can use to work with and classify their own cases.</p>
-          <p class="vb-intro">His approach also found practical expression in RadarOpus, the world's leading homeopathic software system: a dedicated add-on module, the "Vithoulkas Expert System," was built specifically to digitally reproduce his characteristic thought process for symptom analysis and remedy selection – a sign of how deeply his approach has entered the everyday practice of homeopaths worldwide. The same software also carries, as its own separate add-on module, "Rathmer's Repertorium" – with well over 20,000 mind/emotion rubrics the most comprehensive reference work on psychological homeopathy, written by this compass's own author, Detlef Rathmer.</p>
+          <p class="vb-intro">His approach also found practical expression in RadarOpus, the world's leading homeopathic software system: a dedicated add-on module, the ‘Vithoulkas Expert System’, was built specifically to digitally reproduce his characteristic thought process for symptom analysis and remedy selection – a sign of how deeply his approach has entered the everyday practice of homeopaths worldwide. The same software also carries, as its own separate add-on module, ‘Rathmer's Repertorium’ – with well over 20,000 mind/emotion rubrics the most comprehensive reference work on psychological homeopathy, written by this compass's own author, Detlef Rathmer.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and Shadow</h2>
+        <h2 class="vb-section">5. Parallels in the same subtype: Dr. Rajan Sankaran and Dr. Claudio Naranjo</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In the light, Vithoulkas's SO3w4 shows someone who did not seek public recognition at the expense of professional depth, but consistently combined the two for decades – international visibility for a body of work that remained highly personal and individually shaped at the same time.</p>
-          <p class="vb-intro">The shadow of the Three shows in the fact that a life's work so strongly centered on one's own theory and person also carries the risk of making it harder to admit criticism or alternative views within one's own discipline – a pattern not uncommon among founders of their own comprehensive theoretical framework, when their own interpretive authority becomes a central part of the public image.</p>
+          <p class="vb-intro"><a href="#beruehmte-rajan-sankaran">Dr. Rajan Sankaran (SO5w6)</a>, like Vithoulkas, cast case-taking into a system of levels, his seven levels of experience, and trained students in many countries in it; in him the Six wing carries loyalty to tradition, in Vithoulkas the Four wing carries personal depth. <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> shares the Four wing with him: both combined professional knowledge with a teaching about inner growth.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The Healing Path</h2>
+        <h2 class="vb-section">6. Light and shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Three's healing path leads from the question <em>Am I only valuable through what I achieve and how it is perceived?</em> to the realization <em>I am valuable, even beyond public recognition.</em> That Vithoulkas explicitly linked his teaching to "laws of spiritual growth," rather than cultivating pure professional authority, points to a mature side of the same pattern: success becomes a means toward a deeper question that reaches beyond himself.</p>
-          <p class="vb-intro">The cheetah who used its speed not only to shine itself, but to put an entire discipline on a new, systematic foundation – and who never stopped asking about the depth behind the pure symptomatology.</p>
+          <p class="vb-intro">In the light, Vithoulkas's SO5w4 shows someone who did not keep his knowledge to himself but poured it into a system others can use – depth and passing-on were consistently combined for decades, with a body of work that remained highly personal at the same time.</p>
+          <p class="vb-intro">The shadow of the Five shows in the fact that a life's work so strongly centred on one's own theory and person also carries the risk of making it harder to admit criticism or alternative views within one's own discipline – a pattern not uncommon among founders of their own comprehensive theoretical framework, when their own interpretive authority becomes a central part of the public image.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The healing path</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The social Five's path of development leads from the question <em>Do I belong because I know and put things in order?</em> to the realisation <em>I belong, even without displaying my knowledge.</em> That Vithoulkas explicitly linked his teaching to ‘laws of spiritual growth’, rather than cultivating pure professional authority, points to a mature side of the same pattern: knowledge becomes a means toward a deeper question that reaches beyond himself.</p>
         </blockquote>
 
       </div>
@@ -2384,9 +2390,9 @@ export function georgeVithoulkasPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/so3", label:"SO3 – The Cheetah: subtype profile"},
-        {route:"beruehmte-pedro-alonso", label:"Portrait: Pedro Alonso (SO3w4)"},
-        {route:"beruehmte-leon-goretzka", label:"Portrait: Leon Goretzka (SO3w4)"},
+        {route:"subtype/so5", label:"SO5 – The octopus: subtype profile"},
+        {route:"beruehmte-rajan-sankaran", label:"Portrait: Dr. Rajan Sankaran (SO5w6)"},
+        {route:"beruehmte-claudio-naranjo", label:"Portrait: Dr. Claudio Naranjo (SO5w4)"},
         {route:"beruehmte-samuel-hahnemann", label:"Portrait: Dr. Samuel Hahnemann (SO1w9) – founder of homeopathy"},
       ])}
     </div>
@@ -2638,9 +2644,10 @@ export function edithPiafPortraitPage() {
           <p class="vb-intro">What actually set Piaf apart was a highly distinctive vocal technique that she never acquired through classical training, but developed as an autodidact on the street and in small Parisian music halls: an intense, almost raw vibrato, an uncompromisingly clear French diction that made every line understandable even to non-native speakers, and a dynamic contrast between near-whispered passages and full chest voice that gave every song theatrical tension without relying on exaggerated gesture. Contemporaries described her small, slight stature (barely 1.47 meters) in stark contrast to a voice that filled entire concert halls on its own weight &ndash; a professional substance that went far beyond mere talent and was shaped by decades of daily stage practice.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Parallel within the same subtype: Adele</h2>
+        <h2 class="vb-section">5. Parallel within the same subtype: Adele &ndash; and an echo from Avignon</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Among the portraits in this compass, <a href="#beruehmte-adele">Adele (SP4w3)</a> offers an obvious parallel: both singers transformed deep personal pain &ndash; for Adele breakups and self-doubt, for Piaf loss, addiction, and physical decline &ndash; not into public complaint, but into disciplined, composed songs that became universal precisely because of that discipline. Both show the characteristic SP4w3 contrast between quiet, often barely perceptible inner distress and a stage presence that reaches millions.</p>
+          <p class="vb-intro">An echo reaches as far as Avignon: <a href="#beruehmte-mireille-mathieu">Mireille Mathieu (SP3w2)</a> saw Piaf on television as a child, called her an early role model, and the press christened her &lsquo;Piaf d&rsquo;Avignon&rsquo;. Both are self-preservation subtypes with a small frame and a strong, clear voice, yet the pattern runs differently: the Self-Preservation Four with a Three-wing turns pain into art, the Self-Preservation Three with a Two-wing turns reliability into service to the audience. Piaf stood on stage until shortly before her death despite her decline; Mathieu goes on her farewell tour at eighty.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Light and shadow of the Self-Preservation Four</h2>
@@ -2663,6 +2670,7 @@ export function edithPiafPortraitPage() {
         {route:"subtype/se4", label:"SP4 – The Dove: subtype profile"},
         {route:"lebensmusterkompass/se4", label:"Life Pattern Compass: SP4 – Dove"},
         {route:"beruehmte-adele", label:"Portrait: Adele (SP4w3) – also quiet, disciplined pain shaped into universal songs"},
+        {route:"beruehmte-mireille-mathieu", label:"Portrait: Mireille Mathieu (SP3w2) – the 'Piaf d\'Avignon' of the next generation"},
         {route:"krankheitsportraets-edith-piaf", label:"Illness Portrait: Édith Piaf (SP4w3)"},
       ])}
     </div>
@@ -2902,7 +2910,7 @@ export function patrickStewartPortraitPage() {
         </div>
         <p class="krim-portrait-name">Sir Patrick Stewart</p>
         <p class="krim-portrait-typ">SX7w8 &middot; Sexual Type 7 with Eight-wing</p>
-        <p class="krim-portrait-subtitle">British actor, b. 1940 &ndash; Animal correspondence: Chimpanzee</p>
+        <p class="krim-portrait-subtitle">British actor, 1940&ndash;2026 &ndash; Animal correspondence: Chimpanzee</p>
       </div>
       <div class="page-content">
         <h2 class="vb-section">1. The Chimpanzee: the boy from Mirfield</h2>
@@ -2920,13 +2928,13 @@ export function patrickStewartPortraitPage() {
         <h2 class="vb-section">3. The Eight-wing: the Realist</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Don Richard Riso and Russ Hudson call the Seven with an Eight-wing &lsquo;The Realist&rsquo; and the Seven with a Six-wing &lsquo;The Entertainer&rsquo;. The <strong>Eight-wing (w8)</strong> lends the Seven assertiveness, sobriety and a commanding tone. In Stewart this fits what he describes as the key of his childhood: &lsquo;Violence is a choice, and it&rsquo;s a choice a man makes.&rsquo; One can read his father&rsquo;s violence as having driven out his lightness, with the Eight-wing becoming protection.</p>
-          <p class="vb-intro">This trait shows in his commitment: he is a patron of the organization Refuge against domestic violence, made a video for Amnesty International on the subject and supports Combat Stress (help for traumatized soldiers), the UN Association UK and Dignity in Dying (for the right to a self-determined end of life). He describes himself as a socialist, feminist and atheist.</p>
+          <p class="vb-intro">This trait shows in his commitment: he was a patron of the organization Refuge against domestic violence, made a video for Amnesty International on the subject and supported Combat Stress (help for traumatized soldiers), the UN Association UK and Dignity in Dying (for the right to a self-determined end of life). He described himself as a socialist, feminist and atheist.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The substance: authority with craft</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Stewart became known worldwide as Captain Jean-Luc Picard in &lsquo;Star Trek: The Next Generation&rsquo; (1987 to 1994). He hesitated to sign the six-year contract because he expected the series to fail. By his own recollection he even told the cast at the start: &lsquo;We&rsquo;re not here&hellip; to have fun!&rsquo; Picard shaped the image of a serious, thoughtful leader. Professor Charles Xavier in seven X-Men films (2000 to 2017) followed, the return as Picard in &lsquo;Star Trek: Picard&rsquo; (2020 to 2023) and an appearance in the Marvel film &lsquo;Doctor Strange in the Multiverse of Madness&rsquo; (2022).</p>
-          <p class="vb-intro">He also shows the comic side that is laid out in the Seven: in the series &lsquo;Extras&rsquo; (2005, Emmy-nominated), as the voice of Avery Bullock in &lsquo;American Dad!&rsquo; (since 2005) and in the series &lsquo;Blunt Talk&rsquo; (2015 to 2016). With Ian McKellen he played &lsquo;Waiting for Godot&rsquo; and &lsquo;No Man&rsquo;s Land&rsquo;, and their playful promotional photos in bowler hats shifted his public image toward humor in 2014.</p>
+          <p class="vb-intro">He also showed the comic side that is laid out in the Seven: in the series &lsquo;Extras&rsquo; (2005, Emmy-nominated), as the voice of Avery Bullock in &lsquo;American Dad!&rsquo; (since 2005) and in the series &lsquo;Blunt Talk&rsquo; (2015 to 2016). With Ian McKellen he played &lsquo;Waiting for Godot&rsquo; and &lsquo;No Man&rsquo;s Land&rsquo;, and their playful promotional photos in bowler hats shifted his public image toward humor in 2014.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Parallel in the same subtype: Christian Kohlund, John Travolta and Thomas Gottschalk</h2>
@@ -2937,15 +2945,22 @@ export function patrickStewartPortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow of the sexual Seven with Eight-wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Strong is the combination of devotion and stance: someone who plays Shakespeare and science fiction with the same care for 60 years takes both seriously. That he speaks publicly about domestic violence shows what courage the Seven gains from the Eight-wing.</p>
-          <p class="vb-intro">The shadow side lies in stress: under pressure the Seven goes to the One, its stress point. Then it appears strict, dutiful and unyielding without having its core in the One. In Stewart the serious Picard tone, the moral clarity and the demand on himself could also be read this way, as a trait that arises from the burden of childhood and demanding roles. A visible difference from the One at the core: he does not lecture and does not want to change others, he tells stories.</p>
+          <p class="vb-intro">Strong is the combination of devotion and stance: someone who plays Shakespeare and science fiction with the same care for 60 years takes both seriously. That he spoke publicly about domestic violence shows what courage the Seven gains from the Eight-wing.</p>
+          <p class="vb-intro">The shadow side lies in stress: under pressure the Seven goes to the One, its stress point. Then it appears strict, dutiful and unyielding without having its core in the One. In Stewart the serious Picard tone, the moral clarity and the demand on himself could also be read this way, as a trait that arises from the burden of childhood and demanding roles. A visible difference from the One at the core: he did not lecture and did not want to change others, he told stories.</p>
         </blockquote>
 
-        <h2 class="vb-section">7. Where things stand: a storyteller with late work</h2>
+        <h2 class="vb-section">7. Farewell: a storyteller with late work</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to the available information (as of 24 October 2026) Patrick Stewart is 86 years old. He was appointed OBE (Officer of the Order of the British Empire, a British honor for special services) in 2001 and knighted in 2010, has two Olivier Awards and a Grammy (for narrating &lsquo;Peter and the Wolf&rsquo;), and shares the Guinness record for the longest career as a live-action Marvel superhero with Hugh Jackman. His memoir &lsquo;Making It So&rsquo; appeared in 2023, in 2026 the audiobook of all Shakespeare sonnets in his reading and the film &lsquo;The Sheep Detectives&rsquo;. He has been married to the singer Sunny Ozell since 2013, his third marriage, and is an animal welfare advocate: he fosters dogs through a rescue organization in Los Angeles and campaigns for pit bulls.</p>
+          <p class="vb-intro">Patrick Stewart died (as of 30 October 2026) on Wednesday, 28 October 2026, aged 86, at his home in Los Angeles. His spokesperson Kelly Bush Novak said he died of Alzheimer&rsquo;s disease and, according to her, had also suffered from Lewy body dementia; the Tagesspiegel describes the course as &lsquo;short and severe&rsquo;. Tributes came from, among others, William Shatner, Hugh Jackman and George Takei. His last film, &lsquo;Avengers: Doomsday&rsquo;, is due in cinemas in December 2026 with him as Professor Xavier. He was appointed OBE (Officer of the Order of the British Empire, a British honor for special services) in 2001 and knighted in 2010, has two Olivier Awards and a Grammy (for narrating &lsquo;Peter and the Wolf&rsquo;), and shares the Guinness record for the longest career as a live-action Marvel superhero with Hugh Jackman. His memoir &lsquo;Making It So&rsquo; appeared in 2023, in 2026 the audiobook of all Shakespeare sonnets in his reading and the film &lsquo;The Sheep Detectives&rsquo;. He had been married to the singer Sunny Ozell since 2013, his third marriage, who according to the Tagesspiegel was at his side to the end, and he was an animal welfare advocate: he fostered dogs through a rescue organization in Los Angeles and campaigned for pit bulls.</p>
         </blockquote>
 
+      </div>
+      <div style="margin:2rem 0 0;text-align:center;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .3rem;color:var(--ink);">Sir Patrick Stewart &ndash; short video</h2>
+        <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">A short video clip, about 15 seconds, with sound.</p>
+        <video controls playsinline preload="none" poster="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/patrick-stewart-poster.jpg" aria-label="Short video about Sir Patrick Stewart" style="display:block;width:100%;max-width:340px;margin:0 auto;border-radius:12px;background:#000;">
+          <source src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/patrick-stewart.mp4" type="video/mp4">
+        </video>
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -3029,6 +3044,149 @@ export function sarahPaulsonPortraitPage() {
         {route:"beruehmte-bella-thorne", label:"Portrait: Bella Thorne (SO3w4)"},
         {route:"beruehmte-franziska-van-almsick", label:"Portrait: Franziska van Almsick (SO3w4)"},
             ])}
+    </div>
+  `);
+}
+
+export function albertBrooksPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-albert-brooks-portrait.jpg" alt="Albert Brooks – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Albert Brooks</p>
+        <p class="krim-portrait-typ">SO6w7 &middot; Social Type 6 with a Seven wing</p>
+        <p class="krim-portrait-subtitle">American comedian, director and actor, b. 1947 &ndash; animal counterpart: meerkat</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The meerkat: one who keeps watch over the situation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>meerkat</strong> stands upright on two legs and scans in every direction so the group can feed safely. Albert Brooks was born Albert Lawrence Einstein on 22 July 1947 in Beverly Hills into a Jewish show business family. His mother was the actress Thelma Leeds, his father the radio comedian Harry Einstein, who performed as ‘Parkyakarkus’. He was the youngest of three sons; his brothers include the comedian Bob Einstein.</p>
+          <p class="vb-intro">At Beverly Hills High School he knew Richard Dreyfuss and Rob Reiner. He then went to the Carnegie Institute of Technology in Pittsburgh, where Michael McKean and David L. Lander were among his classmates, but he left after one year to pursue comedy. By 19 he called himself Albert Brooks and joked that ‘the real Albert Einstein changed his name to sound more intelligent’.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Six: fear as a group matter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Six (SO6)</strong> seeks safety in the group, in rules and duty; Claudio Naranjo called this subtype ‘Duty’. In Albert Brooks this can be linked to his stage persona: according to Wikipedia he played the egotistical, nervous, self-aware showbiz insider, a man who constantly feels watched and makes his own insecurity the subject. In the late 1960s and early 1970s he appeared regularly on television shows, including Johnny Carson's ‘The Tonight Show’, and worked on early material for the comedy group The Credibility Gap with McKean, Lander and Harry Shearer.</p>
+          <p class="vb-intro">That he co-wrote most of his films with the same collaborator, Monica Johnson, fits a subtype that has its base in reliable working relationships. His comedy lives from putting the group's anxiety on display instead of hiding it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven wing: wit as an answer to worry</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven wing (w7)</strong> gives the Six lightness, inventiveness and humor. In Brooks it can be recognized in how he turns his own worry into punchlines. When he was not nominated for an Oscar for his role in ‘Drive’ (2011), he wrote on Twitter: ‘You don't like me. You really don't like me.’ The line alludes to a famous acceptance speech and turns the wish to be liked into a joke.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: director, actor, voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1975 he directed six short films for the first season of ‘Saturday Night Live’. As a director he made ‘Real Life’ (1979), a satire of the documentary series ‘An American Family’ often seen as a precursor of reality television, ‘Modern Romance’ (1981), ‘Lost in America’ (1985), usually considered his best work, ‘Defending Your Life’ (1991) with Meryl Streep, ‘Mother’ (1996) with Debbie Reynolds, ‘The Muse’ (1999) and ‘Looking for Comedy in the Muslim World’ (2005). For the screenplays of ‘Lost in America’ and ‘Mother’ he received National Society of Film Critics awards.</p>
+          <p class="vb-intro">As an actor he began in 1976 with Martin Scorsese in ‘Taxi Driver’, where he was allowed to improvise much of his dialogue. For ‘Broadcast News’ (1987), as an insecure, decent television reporter, he was nominated for the Oscar for best supporting actor. In ‘Drive’ (2011) he played the gangster Bernie Rose, which brought him numerous critics' awards, and he voiced Marlin in ‘Finding Nemo’ (2003) and ‘Finding Dory’ (2016). On ‘The Simpsons’ (credited as ‘A. Brooks’) he is known as a guest voice, including as Hank Scorpio. In 2011 his novel ‘2030: The Real Story of What Happens to America’ appeared. In 2023 the documentary ‘Albert Brooks: Defending My Life’ (directed by Rob Reiner) was released.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype and among comedians: Jonah Hill and Woody Allen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-jonah-hill">Jonah Hill (SO6w7)</a> shares subtype and wing with Brooks and the comedy that arises from the insecurity of the group person. <a href="#beruehmte-woody-allen">Woody Allen (SP6w7)</a> is the obvious comparison among neurotic comedians: for him too the anxiety is the raw material of the punchline, except that he withdraws into self-absorption while Brooks draws the group, the audience and the industry in.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Private life (as of 26 October 2026)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Since 1997 Brooks has been married to the artist Kimberly Shlain, daughter of the surgeon and author Leonard Shlain. They have two children, Jacob and Claire, and live in Santa Monica.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. What remains: fear that can be shared</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Brooks has turned the mistrust and worry of the group creature into an art form, and the audience recognizes itself in it. What would heal the social Six with a Seven wing is the experience that belonging does not depend on constant self-examination. His film ‘Defending Your Life’, whose plot, as is well known, revolves around the question of whether one has overcome fear in one's life, can be read as his own theme.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so6", label:"SO6 – The Meerkat: subtype profile"},
+        {route:"beruehmte-jonah-hill", label:"Portrait: Jonah Hill (SO6w7)"},
+        {route:"beruehmte-woody-allen", label:"Portrait: Woody Allen (SP6w7)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}
+
+export function christineLagardePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-christine-lagarde-portrait.jpg" alt="Christine Lagarde – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Christine Lagarde</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexual Type 1 with a Two wing</p>
+        <p class="krim-portrait-subtitle">French lawyer, politician and central banker, b. 1956 &ndash; first woman to lead the IMF and the ECB &ndash; animal counterpart: black mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The black mamba: from Le Havre to the top of the central bank</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>black mamba</strong> is the fastest venomous snake in Africa, rarely attacks, and strikes precisely when it does. Christine Lagarde was born Christine Lallouette in Paris on 1 January 1956 and grew up in Le Havre. She is the eldest of four children; her father Robert Lallouette, a lecturer in literature at the University of Rouen, died in 1973, and her mother Nicole taught Latin.</p>
+          <p class="vb-intro">After the baccalauréat at the Lycée Claude Monet she spent a year in 1974 on an AFS scholarship at the Holton-Arms School in Bethesda, Maryland, and worked in the office of Senator William Cohen. She studied law in Aix-en-Provence and Nanterre (a master's in English, labour law) but did not pass the entrance exam of the elite school ENA. She was a member of the French national synchronised swimming team and won a bronze medal at the French championships.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual One: zeal for the cause, tamed by form</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo coined the term <em>zeal</em> for the sexual One, the countertype of the One: the strictness is directed less at rules for everyone than at the cause and the people someone commits to with intensity. In Lagarde this can be linked to the emphasis with which she held positions. Her phrase ‘Lehman Sisters’ (2010) asked how the financial crisis might have gone with more women in leadership. In 2012, as head of the IMF, she said she thought more of the schoolchildren in a village in Niger than of the people in Athens, and urged the Greeks to pay their taxes. According to reports she traces her discipline to synchronised swimming.</p>
+          <p class="vb-intro">The drawing shows short hair with a long side fringe falling onto the forehead, a forehead with horizontal lines and large, alert eyes with slightly raised brows. The gaze goes a little upward and to the side, as if she were listening and weighing things up. The smile is narrow and closed. A small pearl stud sits on the ear. In press photos the same expression appears: a probing sideways glance with the mouth closed and, when she speaks, a precise pointing gesture with thumb and index finger.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two wing: the advocate who wins people over</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two wing (w2)</strong> gives the One attentiveness. Riso and Hudson call the One with a Two wing ‘the Advocate’, a fitting word for a lawyer. In 1981 Lagarde joined the Paris office of the law firm Baker McKenzie; there, according to the firm’s account, she pushed a ‘client first’ approach. In 1999 she became the first woman to chair the firm’s executive committee, and from 2004 she led its global strategy committee in Chicago.</p>
+          <p class="vb-intro">At the IMF she made the role of women in the economy a priority; in 2013 it published the study ‘Women, Work, and the Economy’. According to a Foreign Policy profile she avoids jargon and speaks almost flawless English, and in official photos she smiles and turns toward the camera. The strictness of the One comes with charm and with the ability to win people over for a project.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: lawyer, crisis leader, central banker</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lagarde is not an economist but a lawyer and negotiator. From 2005 to 2007 she was trade minister, briefly agriculture minister in 2007, and from June 2007 to June 2011 minister for the economy, finance and industry. In 2009 the Financial Times named her the best finance minister in the eurozone. On 5 July 2011 she succeeded Dominique Strauss-Kahn as Managing Director of the International Monetary Fund, the first woman in that office; in 2016 she was confirmed for a second term as the only candidate and stayed until September 2019.</p>
+          <p class="vb-intro">On 1 November 2019 she became President of the European Central Bank, the first woman and the first lawyer in the role, succeeding Mario Draghi. Critics pointed out that she had never led a national central bank. In March 2020, early in the pandemic, she said the ECB was not there to close spreads; she then launched the pandemic emergency purchase programme PEPP, initially 750 billion euros and later raised to 1,850 billion euros, and said there were no limits to the commitment to the euro. From July 2022 the ECB raised the deposit rate from minus 0.5 per cent to 4 per cent by September 2023. In 2019 Forbes ranked her second on its list of the most powerful women in the world, behind <a href="#beruehmte-angela-merkel">Angela Merkel (SP9w8)</a>.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same type: Maria Schaumayer, Michèle Lamy, Gertrud Höhler and Emmanuel Macron</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-maria-schaumayer">Maria Schaumayer (SX1w9)</a> was the first woman to head a central bank; as with Lagarde, professional firmness combines with a winning manner. <a href="#beruehmte-michele-lamy">Michèle Lamy (SX1w2)</a> is also French with a legal education and gave up the profession, while Lagarde made it her route to the top. <a href="#beruehmte-gertrud-hoehler">Prof. Gertrud Höhler (SX1w2)</a> shares the Two wing and likewise worked between business and politics, as adviser and author rather than office-holder. <a href="#beruehmte-emmanuel-macron">Emmanuel Macron (SO1w9)</a> shows the counterpole as a social One: his standard applies to order for everyone, while in Lagarde it burns for the individual cause without getting loud.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The standard applied to herself: the Tapie affair</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As economy minister in 2008 Lagarde agreed to arbitration in the dispute with the businessman Bernard Tapie, which concerned around 403 million euros in connection with the sale of Adidas shares to the bank Crédit Lyonnais. She said she wanted to prevent another lawsuit. In 2011 the Court of Justice of the Republic opened an investigation for abuse of office. In December 2016 it found her guilty of negligence in handling public funds and imposed no penalty, although the defence and the prosecution had called for an acquittal. She remained IMF Managing Director.</p>
+          <p class="vb-intro">This case can be linked to the One because a person with a high standard is measured against her own fallibility. How she dealt with it inwardly is not publicly documented.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where she stands and how to place it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lagarde has been President of the ECB since 1 November 2019; her regular term runs until October 2027 (as of 28 October 2026). In February 2026 the Financial Times reported that she was considering leaving early so that <a href="#beruehmte-emmanuel-macron">Emmanuel Macron (SO1w9)</a> and <a href="#beruehmte-friedrich-merz">Friedrich Merz (SO1w9)</a> could help shape the succession. In September 2026 she told the newspaper La Croix that she did not rule out stepping down a few months before the end of her term but had announced nothing concrete, and that she would still be there in 2027. She ruled out running in the presidential election.</p>
+          <p class="vb-intro">For the sexual One with a Two wing, one path of development lies in zeal finding support not only in perfect form but also in carrying mistakes such as the one in the Tapie case as part of responsibility, without hardening one’s own stance. In Lagarde this can be seen in how she adjusted course in March 2020 and stayed in office.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx1", label:"SX1 – The black mamba: subtype profile"},
+        {route:"beruehmte-maria-schaumayer", label:"Portrait: Maria Schaumayer (SX1w9)"},
+        {route:"beruehmte-michele-lamy", label:"Portrait: Michèle Lamy (SX1w2)"},
+        {route:"beruehmte-gertrud-hoehler", label:"Portrait: Prof. Gertrud Höhler (SX1w2)"},
+        {route:"beruehmte-emmanuel-macron", label:"Portrait: Emmanuel Macron (SO1w9)"},
+        {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SP9w8)"},
+        {route:"beruehmte-friedrich-merz", label:"Portrait: Friedrich Merz (SO1w9)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
     </div>
   `);
 }

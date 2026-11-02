@@ -1604,7 +1604,7 @@ export function samuelHahnemannPortraitPage() {
         {route:"enneagramm-homoeopathie", label:"Enneagramm meets Hom\u00f6opathie \u2013 9 Praxisf\u00e4lle"},
         {route:"beruehmte-adam-smith", label:"Portr\u00e4t: Adam Smith (SO1w9)"},
         {route:"beruehmte-friedrich-merz", label:"Portr\u00e4t: Friedrich Merz (SO1w9)"},
-        {route:"beruehmte-george-vithoulkas", label:"Portr\u00e4t: Prof. George Vithoulkas (SO3w4) \u2013 bedeutender Hom\u00f6opath des 20. Jahrhunderts"},
+        {route:"beruehmte-george-vithoulkas", label:"Portr\u00e4t: Prof. George Vithoulkas (SO5w4) \u2013 bedeutender Hom\u00f6opath des 20. Jahrhunderts"},
         {route:"beruehmte-bruno-groening", label:"Porträt: Bruno Gröning (SO1w2)"},
         {route:"beruehmte-roald-amundsen", label:"Porträt: Roald Amundsen (SO1w9)"},
       ])}
@@ -2930,6 +2930,219 @@ export function klausMariaBrandauerPortraitPage() {
         {route:"beruehmte-adriano-celentano", label:"Porträt: Adriano Celentano (SX7w8)"},
         {route:"beruehmte-john-travolta", label:"Porträt: John Travolta (SX7w8)"},
         {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
+
+export function sulliPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sulli-portrait.jpg" alt="Sulli – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sulli</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierflügel &middot; Kontratyp der Drei</p>
+        <p class="krim-portrait-subtitle">Südkoreanische Sängerin und Schauspielerin (Choi Jin-ri), 1994&ndash;2019 &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär: ein Mädchen, das allein nach Seoul zog</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> tastet alles mit den eigenen Pfoten ab und verlässt sich auf das, was er selbst begriffen hat. Sulli wurde als Choi Jin-ri am 29. März 1994 in Busan geboren. 2004, in der vierten Klasse, zog sie allein nach Seoul, um dort die Schauspielschule MTM Academy zu besuchen. Ihren Künstlernamen bekam sie bei SM Entertainment; sie selbst deutete ihn später als »Birnenblüten im Schnee«.</p>
+          <p class="vb-intro">Mit elf Jahren debütierte sie 2005 in der SBS-Serie ›Ballad of Seodong‹ als junge Prinzessin Seonhwa von Silla. Es folgten Rollen in ›Drama City‹, im Film ›Vacation‹ (2006) und in ›Punch Lady‹ (2007), ihrer ersten größeren Rolle. Wer so früh auf eigenen Füßen steht, lernt, sich selbst abzusichern, lange bevor andere es für einen tun.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Sicherheit, aber nicht durch Glanz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Enneagramm-Lehrer Claudio Naranjo sprach bei diesem Subtyp von ›Sicherheit‹ und stellte ihn als Kontratyp der Drei heraus: Die Energie der Drei bleibt, aber sie sucht weniger die polierte Außenwirkung als das, was trägt. Bei Sulli lässt sich das mit ihrem öffentlichen Umgang mit dem Idol-Bild in Verbindung bringen, das in Südkorea sorgfältig gepflegt wird. Sie zeigte sich ungeschminkt in sozialen Medien, trug nach den Berichten bewusst keinen BH und sagte, sie wolle damit ›Vorurteile verschwinden lassen‹ (›I wanted people's prejudices to disappear‹, nach der englischen Wikipedia).</p>
+          <p class="vb-intro">Man würde von einer Drei erwarten, das Bild zu optimieren; Sulli setzte es aufs Spiel. Dahinter lässt sich der Zug erkennen, sich sicher zu fühlen, indem man nicht mehr spielt, was andere sehen wollen. Das bleibt eine Lesart: Die Quellen nennen sie ›unkonventionell‹, von einem Subtyp sprechen sie nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Wärme, Fans, Zuwendung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> macht die Drei beziehungsorientiert und empfänglich dafür, wie andere sie sehen. Bei Sulli kann man darin die Seite erkennen, der die Reaktion des Publikums nicht gleichgültig war: Sie meldete sich nach der Wikipedia-Seite 2014 aus dem Showgeschäft ab, weil sie von böswilligen Kommentaren und Gerüchten erschöpft war, darunter falsche Schwangerschaftsgerüchte. Dieselbe Wärme zeigt sich in der Haltung, mit der sie 2019 als Moderatorin der JTBC2-Sendung ›The Night of Hate Comments‹ (›Die Nacht der Hasskommentare‹) auf Beschimpfungen reagierte: so heiter, dass man sie ›die Atombombe der Hasskommentare‹ nannte.</p>
+          <p class="vb-intro">Aus der Sendung stammt ihr Satz: ›I wish people would look at me and think, ›Well, someone like that exists!‹ Accept the difference.‹ – »Ich wünschte, die Leute sähen mich an und dächten: ›Na, so jemand gibt es also!‹ Akzeptiert den Unterschied.«</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Kinderschauspielerin, f(x), eigene Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am 5. September 2009 debütierte Sulli mit der Gruppe f(x) und der Single ›La Cha Ta‹. Die Gruppe hatte vier koreanische Nummer-eins-Singles und war die erste K-Pop-Gruppe, die beim SXSW-Festival auftrat. Als Schauspielerin gewann sie 2012 für ›To the Beautiful You‹ den New Star Award der SBS Drama Awards; für die Rolle schnitt sie sich 60 Zentimeter Haar ab. Es folgten ›The Pirates‹ und ›Fashion King‹ (beide 2014).</p>
+          <p class="vb-intro">Nach der Pause trat sie im August 2015 offiziell aus f(x) aus und wandte sich der Schauspielerei und Werbung zu. 2017 spielte sie im Neo-Noir-Thriller ›Real‹ an der Seite von Kim Soo-hyun; in diesem Jahr war sie die in Südkorea am häufigsten gegoogelte Person. Im Juni 2019 erschien ihre erste Single-EP ›Goblin‹, deren Stücke sie nach Wikipedia mitgeschrieben und mitproduziert hat. Für die zweite Staffel der Netflix-Serie ›Persona‹ war sie als Hauptrolle besetzt, als sie starb.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Hong Chau und Maria Callas</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit <a href="#beruehmte-hong-chau">Hong Chau (SE3w2)</a> teilt Sulli die Herkunft aus einem asiatischen Umfeld und den frühen Weg ins Berufsleben, doch Chau arbeitet im Ensemble und im Hintergrund, Sulli stand im grellen Licht. <a href="#beruehmte-maria-callas">Maria Callas (SE3w2)</a> zeigt, wie dieselbe Konstellation sich in einem öffentlichen Leben aufreiben kann, in dem Leistung, Image und Privates ständig verhandelt werden.</p>
+          <p class="vb-intro">Dass beide Frauen im Rampenlicht standen, obwohl der Subtyp eigentlich die unauffällige Substanz sucht, ist selbst ein Teil des Musters: Der Waschbär wird nicht immer in die Rolle gelassen, die zu ihm passt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Ende und was danach geschah</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sulli starb Mitte Oktober 2019 (die Quellen nennen den 13. oder 14. Oktober) in Seongnam im Alter von 25 Jahren. Die Polizei ging von einem Suizid aus und fand keine Hinweise auf Fremdeinwirkung. Sie hatte nach eigenen Angaben seit ihrer Kindheit mit einer Panikstörung und sozialen Ängsten gelebt (Oktober 2018) und litt laut Wikipedia vor ihrem Tod unter einer schweren Depression. Mehrere Medien verknüpften ihren Tod mit dem Cybermobbing, dem sie ausgesetzt war; Ursachen eines Suizids sind immer vielschichtig, und ein einzelner Auslöser lässt sich nicht sicher benennen.</p>
+          <p class="vb-intro">In Südkorea folgte eine breite Debatte über Hasskommentare: Es gab Petitionen für härtere Strafen und eine Klarnamenpflicht (die Diskussion um einen ›Sulli-Gesetz‹ genannten Entwurf), und der Internetkonzern Kakao schaltete die Kommentare unter Unterhaltungsnachrichten für ein Jahr ab. 2023 erschien die Dokumentation ›Dear Jinri‹ (›Liebe Jinri‹) als Teil von ›Persona: Sulli‹ bei Netflix.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Was bleibt: Anderssein darf sichtbar sein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die selbsterhaltende Drei mit Zweierflügel trägt viel, solange das Gegenüber freundlich zurückschaut. Wer wie Sulli zugleich öffentlich ist und sich weigert, das erwartete Bild zu erfüllen, zahlt dafür oft einen hohen Preis. Heilsam wäre für diesen Subtyp die Erfahrung, dass Halt nicht erst durch Haltung entsteht, sondern schon im bloßen Dasein liegt. Ihr Satz ›Accept the difference‹ (›Akzeptiert den Unterschied‹) bleibt ein stiller Auftrag an alle, die zuschauen.</p>
+          <p class="vb-intro"><strong>Hinweis:</strong> Wer selbst in einer seelischen Krise steckt oder an Suizid denkt, findet in Deutschland rund um die Uhr und kostenlos Hilfe bei der Telefonseelsorge (0800 111 0 111, 0800 111 0 222 oder 116 123).</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-hong-chau", label:"Porträt: Hong Chau (SE3w2)"},
+        {route:"beruehmte-maria-callas", label:"Porträt: Maria Callas (SE3w2)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
+
+export function mariaSchaumayerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-maria-schaumayer-portrait.jpg" alt="Maria Schaumayer – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Maria Schaumayer</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexueller Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Österreichische Ökonomin, Bankerin und Politikerin, 1931&ndash;2013 &ndash; erste Nationalbankpräsidentin der Welt &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba: die Tochter, deren Vater nicht in die Partei eintrat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> behält ihr Ziel im Blick und lässt es nicht mehr los, ohne dabei Lärm zu machen. Maria Schaumayer wurde am 7. Oktober 1931 in Graz geboren. Ihre Mutter war Schulleiterin; ihr Vater leitete eine Weinbauschule bei Leibnitz und wurde 1939 in den vorzeitigen Ruhestand gezwungen, weil er sich weigerte, der NSDAP (der Partei der Nationalsozialisten) beizutreten.</p>
+          <p class="vb-intro">1949 legte sie die Matura mit Auszeichnung ab, studierte in Wien und Innsbruck und wurde 1954 zur Doktorin der Wirtschaftswissenschaften promoviert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Eifer für die Aufgabe, die nicht abgeschlossen ist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo nannte die sexuelle Eins <em>Zeal</em> (Eifer), den Kontratyp der Eins: Die Strenge richtet sich nicht auf die Regeln der Gemeinschaft im Ganzen, sondern mit großer Intensität auf eine einzelne Aufgabe. Bei Schaumayer lässt sich das mit ihren zwei großen Aufträgen verbinden: der Leitung der Oesterreichischen Nationalbank und der Entschädigung der NS-Zwangsarbeiter. Dass ihr Vater sich weigerte, in die Partei einzutreten, lässt sich als frühes Beispiel dafür verstehen, wie in ihrer Familie ein innerer Maßstab auch gegen Druck gehalten wurde.</p>
+          <p class="vb-intro">Das Foto zeigt kurzes, gewelltes, dunkelgraues Haar in gelegten Wellen, kräftige Brauen, Querfalten auf der Stirn und Tränensäcke unter den Augen. Der Blick geht ruhig und leicht seitlich an der Kamera vorbei, der Mund ist leicht geöffnet und deutet ein Lächeln an. Links im Bild ragt ein Mikrofon herein; sie spricht offenbar bei einer Veranstaltung oder Anhörung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Beharrlichkeit statt Auftritt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der Eins Ruhe und Ausdauer. Bei Schaumayer lässt sich das mit ihrem Verhandlungsstil verbinden: Nachrufe beschreiben hohe Fachkompetenz, politischen Spürsinn und Charme, verbunden mit Härte, wenn die Sache sie verlangte. Sie erntete Respekt über Parteigrenzen hinweg. Eine Gedenksendung des Radiosenders Ö1 (ORF) trug den Titel ›Versöhnung braucht Beharrlichkeit‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: die erste Frau an der Spitze einer Nationalbank</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Schaumayer arbeitete bei der Creditanstalt und wurde dort 1961 Prokuristin. Von 1965 bis 1973 war sie Wiener Gemeinderätin, danach bis 1982 im Wiener Landtag (für die ÖVP, die Österreichische Volkspartei). 1974 kam sie in den Vorstand der Kommunalkredit, von 1982 bis 1989 war sie Finanzvorstand der ÖMV (Österreichische Mineralölverwaltung, heute OMV, ein Öl- und Gaskonzern). Von 1990 bis 1995 war sie Präsidentin der Oesterreichischen Nationalbank und damit nach dem Stand der Quellen weltweit die erste Frau in dieser Funktion; 1995 verzichtete sie auf eine weitere Kandidatur.</p>
+          <p class="vb-intro">Ihr Amt fiel in die Zeit, in der Österreich der Europäischen Union beitrat. Neun Tage nach dem Beitritt konnte das Land mit seiner Währung auch dem Wechselkursmechanismus beitreten, der als Vorstufe des Euro galt; das sah sie als Erfolg, an dem sie mitwirken konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Marie-Agnes Strack-Zimmermann und Linda Hamilton</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-marie-agnes-strack-zimmermann">Marie-Agnes Strack-Zimmermann (SX1w9)</a> ist ebenfalls Politikerin mit Neunerflügel: scharf in der Sache und beharrlich, nicht auf Auftritt aus. <a href="#beruehmte-linda-hamilton">Linda Hamilton (SX1w9)</a> zeigt dieselbe Mischung aus Härte in der Aufgabe und Ruhe im Privaten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Eisbrecherin und Wiedergutmachung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1991 gründete Schaumayer eine Stiftung zur Förderung von Frauenkarrieren und ermutigte Frauen ihr Leben lang. Gesetzliche Quoten lehnte sie ab. Sie sagte sinngemäß, sie habe sich immer als Eisbrecherin verstanden, die den Weg für Nachfolgerinnen freimacht.</p>
+          <p class="vb-intro">Ab 2000 war sie Regierungsbeauftragte für die Entschädigung der Opfer der NS-Zwangsarbeit. Sie half bei Verhandlungen mit mehreren europäischen Staaten und den USA; dem Verhandlungsführer Stuart Eizenstat stand sie dabei gegenüber. Der daraus entstandene Fonds kam rund 132.000 ehemaligen Zwangsarbeitern zugute.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Ehrungen, Tod und Erinnerung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Schaumayer wurde 1996 Ehrenbürgerin von Wien, 2006 als erste Frau Ehrenmitglied der Österreichischen Akademie der Wissenschaften und erhielt 2007 den Großen Leopold-Kunschak-Preis. Sie starb am 23. Jänner 2013 in Wien und wurde im Februar 2013 auf dem Döblinger Friedhof beigesetzt. 2014 wurde ein Platz in Wien nach ihr benannt, seit 2016 heißt er Maria-Schaumayer-Platz.</p>
+          <p class="vb-intro">Für die sexuelle Eins mit Neunerflügel liegt der Weg darin, dass Beharrlichkeit auch ohne Härte tragen kann. Bei Schaumayer lässt sich das mit dem Verhältnis von Fachlichkeit und Charme verbinden, das Zeitgenossen an ihrer Verhandlungsführung beschrieben.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Porträt: Marie-Agnes Strack-Zimmermann (SX1w9)"},
+        {route:"beruehmte-linda-hamilton", label:"Porträt: Linda Hamilton (SX1w9)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
+
+export function mireilleMathieuPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-mireille-mathieu-portrait.jpg" alt="Mireille Mathieu – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-mireille-mathieu-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Mireille Mathieu</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Französische Chansonsängerin, geb. 1946 &ndash; der ›Spatz von Avignon‹ &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Waschbär: das Steinmetzkind, das zweimal verlor und dranblieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Waschbär</strong> betastet jeden Fund mit seinen geschickten Händen, bevor er ihn gebraucht, und gibt nicht auf, wenn der Deckel zunächst nicht aufgeht. Mireille Mathieu kam am 22. Juli 1946 in Avignon als älteste Tochter einer Familie mit vierzehn Kindern zur Welt. Der Vater Roger führte einen Steinmetzbetrieb, die Mutter Marcelle-Sophie war 1944 als Kriegsflüchtling nach Avignon gekommen. Das Mädchen hatte Legasthenie, verließ die Schule mit vierzehn ohne Abschluss und arbeitete in einer Fabrik in Montfavet, um zum Familieneinkommen beizutragen und Gesangsunterricht zu bezahlen.</p>
+          <p class="vb-intro">Gesungen hatte sie schon mit vier: Auf der Christmette 1950 bekam sie dafür einen Lutscher. Entscheidend wurde das Fernsehbild von Édith Piaf, das sie als Kind nicht mehr losließ. Beim Nachwuchswettbewerb ›On chante dans mon quartier‹ (›Man singt in meinem Viertel‹) in Avignon verlor sie 1962 und 1963 und gewann 1964 mit ›La Vie en rose‹ (›Das Leben in Rosa‹). Zwei Niederlagen, Fabrikarbeit und ein dritter Anlauf: Das ist ein Weg der kleinen, regelmäßigen Schritte, nicht des Wunderkinds.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Sicherheit durch Dranbleiben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo nannte die selbsterhaltende Drei den Kontratyp der Drei und gab ihr das Stichwort ›Sicherheit‹: Wert zieht sie aus verlässlicher Leistung, weniger aus dem Glanz des Auftritts. Bei Mathieu lässt sich das an der Art ablesen, wie sie ihre Laufbahn absicherte. Am 21. November 1965 trat sie in der Fernsehshow ›Jeu de la Chance‹ (›Glücksspiel‹) an, lag nach einem Gleichstand mit der fünfmaligen Siegerin Georgette Lemaire gleichauf und gewann in der Woche darauf. In dieser Nacht wurde Johnny Stark ihr Manager, der sie bis zu seinem Tod 1989 begleitete. Am 20. Dezember unterschrieb sie beim Besitzer des Pariser Olympia, Bruno Coquatrix; die Presse taufte sie ›Piaf d&rsquo;Avignon‹.</p>
+          <p class="vb-intro">Auch später sorgte sie für festen Boden: 1974 gründete sie den Musikverlag Abilene Music, 1983 das Label Abilene Disc, und im Dezember 2013 gewann sie einen Prozess um Tantiemen für ein Lied von 1967, das im Film ›Casino Royale‹ verwendet worden war. Die Sicherheit des Waschbären liegt im Eigenen, das er sich erarbeitet und dann behält.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Dank ans Publikum und der Rückhalt der Familie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso und Russ Hudson nennen die Drei mit Zweierflügel ›Den Charmeur‹. Der <strong>Zweierflügel (w2)</strong> bringt Wärme und Zugewandtheit in den Leistungswillen. Bei Mathieu zeigt er sich im Verhältnis zur Familie und zum Publikum. Ihren 80. Geburtstag am 22. Juli 2026 feierte sie privat in Avignon im Kreis der Familie, nach Berichten mit vierzehn Angehörigen; ihr Herzensort, sagte sie, sei ihre Familie. Als Stark 1989 starb, übernahm ihre Schwester Monique das Geschäftliche. Sie ist gläubige Katholin, geht mit der Familie zur Messe, und vor jedem Auftritt bekreuzigt sie sich.</p>
+          <p class="vb-intro">Die Tournee, mit der sie sich verabschiedet, begründet sie mit dem Wunsch, dem Publikum zu danken. Solange sie singen könne, wolle sie ihre Leidenschaft mit den Zuhörern teilen, sagte sie in einem Interview (indirekt wiedergegeben nach schlager.de). Der Flügel trägt also die zweite Hälfte ihres Selbstbildes: Leistung ist für sie auch eine Gabe an andere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: eine Stimme mit Piaf-Schärfe für ein deutsches Publikum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Mireille Mathieu außergewöhnlich macht, ist die Verbindung aus kleiner Gestalt und großer Stimme, von der auch ihr deutscher Beiname ›Spatz von Avignon‹ erzählt. Ihre Stimme ist kräftig, mit einem leichten Tremolo, und ihre Diktion ist auffallend genau. Diese Klarheit wird oft mit der von Édith Piaf verglichen, ihrem frühen Vorbild. Sie nahm über 1.200 Lieder in elf Sprachen auf, darunter viele auf Deutsch, was ihr eine zweite, eigene Karriere eröffnete: In Frankreich war ihre Single ›Mon Crédo‹ (›Mein Glaubensbekenntnis‹, 1966) der erste Nummer-eins-Hit, in Deutschland begann der Erfolg 1969 mit ›Hinter den Kulissen von Paris‹, und ›La Paloma adé‹ erreichte 1973 Platz eins. Ein Autounfall im Februar 1968 mit einem Wirbelbruch hielt sie rund drei Monate von der Bühne fern.</p>
+          <p class="vb-intro">Dazu kamen Auszeichnungen: der Bambi (1972, 1973 und 1987), das Bundesverdienstkreuz (1984), das französische Offizierskreuz der Ehrenlegion (2011) und 2018 die Ehrendoktorwürde der Moskauer Staatlichen Universität. Zu den Verkaufszahlen schwanken die Angaben je nach Quelle stark; anlässlich der Abschiedstournee nannten Medien rund 170 Millionen verkaufte Tonträger, so auch die 20-Uhr-Nachrichten der ARD am 29. Oktober 2026. Wichtiger als jede Ehrung ist für die Zuordnung die Kontinuität: mehr als 3.500 Konzerte, und der Spatz singt weiter.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Enrico Caruso &ndash; und das Vorbild Édith Piaf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-enrico-caruso">Enrico Caruso (SE3w2)</a> wuchs ebenfalls in einer armen, kinderreichen Familie auf, arbeitete früh und machte aus einer seltenen Stimme durch Disziplin ein Lebenswerk. Wie bei Mathieu stand bei ihm die Verlässlichkeit gegenüber dem Publikum an erster Stelle, und der Zweierflügel zeigte sich in Großzügigkeit.</p>
+          <p class="vb-intro">Der Unterschied: Carusos Pflichtgefühl kostete ihn am Ende die Gesundheit. Bei Mathieu zeigt sich dasselbe Muster mit einem anderen Verlauf: Sie ist mit achtzig noch unterwegs und gibt zu, dass das Lampenfieber mit den Jahren eher größer als kleiner geworden ist.</p>
+          <p class="vb-intro">Ein zweites Gegenüber ist ihr Vorbild <a href="#beruehmte-edith-piaf">Édith Piaf (SE4w3)</a>, nach der die Presse sie ›Piaf d&rsquo;Avignon‹ nannte. Beide sind selbsterhaltende Subtypen, klein von Gestalt und mit großer, klarer Stimme, und doch läuft das Muster verschieden: Die selbsterhaltende Vier mit Dreierflügel verwandelt Schmerz in Kunst, die selbsterhaltende Drei mit Zweierflügel verwandelt Verlässlichkeit in Dienst am Publikum. Gerade das macht das Paar aufschlussreich: Vier und Drei sind Nachbarn auf dem Enneagramm, die Vier trägt einen Dreierflügel, die Drei einen Zweierflügel &ndash; zwei verschiedene Antworten auf dieselbe Bühne.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Drei mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell sind die Treue zu den eigenen Wurzeln, das jahrzehntelange Dranbleiben und der echte Dank an das Publikum. Wer aus einer Familie mit vierzehn Kindern kommt und Gesangsstunden mit Fabrikarbeit bezahlt, hat Verlässlichkeit nicht gelernt, sondern erlebt.</p>
+          <p class="vb-intro">Die Schattenseite der selbsterhaltenden Drei mit Zweierflügel liegt im Maß: Wer Sicherheit und Wertschätzung aus Leistung zieht und dazu vom Publikum lebt, merkt oft zu spät, wann es genug ist. Das Muster neigt dazu, sich zu überarbeiten und immer wieder in Erschöpfung zu landen. Auch der Charme, den der Zweierflügel dem Auftreten gibt, kann zur Fixierung werden, weil er Zuwendung sichern soll. Bei Mathieu lässt sich das mit dem Autounfall vom Februar 1968 in Verbindung bringen, der sie für rund drei Monate aus dem Berufsleben nahm; ob Überlastung dabei eine Rolle spielte, ist nicht belegt. Das Lampenfieber, das mit den Jahren eher größer als kleiner wurde, passt in dieselbe Richtung: Der Anspruch an den eigenen Auftritt lässt nicht nach.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: die Abschiedstournee</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mireille Mathieu ist (Stand 29. Oktober 2026) 80 Jahre alt. Seit dem 28. Oktober 2026 ist sie mit ›Goodbye my Love Goodbye – Das Finale der Welt-Abschiedstournee‹ unterwegs: dreizehn letzte Konzerte in Deutschland und Österreich, von Chemnitz bis Leipzig am 17. November, mit Stationen unter anderem in Berlin, Frankfurt, Hannover, Nürnberg, München und Dresden. Sie hat zugleich angedeutet, auch danach gelegentlich auftreten zu wollen. Ihr Lebensgefühl zu diesem Abschied lässt sich am ehesten mit ihrem eigenen Satz verbinden, sie wolle singen, solange sie könne.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se3", label:"Lebensmusterkompass: SE3 – Waschbär"},
+        {route:"beruehmte-enrico-caruso", label:"Porträt: Enrico Caruso (SE3w2)"},
+        {route:"beruehmte-edith-piaf", label:"Porträt: Édith Piaf (SE4w3) – das große Vorbild"},
       ])}
     </div>
   `);

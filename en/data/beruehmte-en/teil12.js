@@ -1352,6 +1352,7 @@ export function paulMccartneyPortraitPage() {
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
+        {route:"beruehmte-john-neumeier", label:"Portrait: John Neumeier (SP4w5)"},
         {route:"beruehmte-paul-simon", label:"Portrait: Paul Simon (SP4w5)"},
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
@@ -2375,6 +2376,7 @@ export function donMcleanPortraitPage() {
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
+        {route:"beruehmte-john-neumeier", label:"Portrait: John Neumeier (SP4w5)"},
         {route:"beruehmte-paul-simon", label:"Portrait: Paul Simon (SP4w5)"},
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
@@ -3063,6 +3065,152 @@ export function julianeKoepckePortraitPage() {
         {route:"beruehmte-larry-sanger", label:"Portrait: Larry Sanger (SP5w6)"},
         {route:"beruehmte-simone-menne", label:"Portrait: Simone Menne (SP5w6)"},
         {route:"enneagramm-homoeopathie", label:"Enneagram &amp; Homeopathy"},
+      ])}
+    </div>
+  `);
+}
+
+export function garyCooperPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-gary-cooper-v2-portrait.jpg" alt="Gary Cooper – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gary Cooper</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with a One wing</p>
+        <p class="krim-portrait-subtitle">American actor, 1901&ndash;1961 &ndash; ‘High Noon’, ‘Sergeant York’ &ndash; animal counterpart: sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The sloth: long stillness and then the sure movement</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sloth</strong> hangs motionless in the tree for a long time and then moves with astonishing certainty. Gary Cooper was born Frank James Cooper on 7 May 1901 in Helena, Montana. His father Charles was a lawyer, rancher and later a justice of the Montana Supreme Court; his mother Alice, like him, was of English descent. The family spent the summers on the Seven-Bar-Nine ranch, where he learned to ride, hunt and fish.</p>
+          <p class="vb-intro">In 1909 his mother sent him and his brother to Dunstable Grammar School in England. He adapted to English school discipline but never got used to the stiff Eton collars. At 15 he injured his hip in a car accident; the riding therapy on the ranch left the stiff, slightly off-balanced gait and the slightly angled riding style that later became his trademark. He left high school in 1918 and worked as a cowboy, attended Grinnell College until 1924 without a degree and went to Los Angeles in November 1924. There he worked as an extra and stunt rider; the rodeo rider Jay ‘Slim’ Talbot, with whom he became friends, was his stand-in for over thirty years.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Nine: union with the one</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Claudio Naranjo the sexual Nine is the subtype of Union: it seeks not the group but a single counterpart, a person or a work, and dissolves into it. In Cooper this can be linked to his close bonds. Before his marriage he had a series of relationships with actresses, beginning in 1927 with Clara Bow, who also helped him professionally. When sudden fame left him lonely and downcast, he went to Italy for a year in 1931 and lived with Countess Dorothy di Frasso, who showed him art, good food and wines and took him on a ten-week safari on Mount Kenya.</p>
+          <p class="vb-intro">The friendships, too, were close and few: with Ernest Hemingway he shared for years hunting and skiing in Sun Valley. In 1933 he married Veronica ‘Rocky’ Balfe, and his friends report that the marriage did him good. The photo shows a calm, open gaze with slightly raised brows and a closed mouth that smiles barely perceptibly: a face that listens.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Self-forgetting as a gift for acting</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Nine forgets itself: it takes in the wishes and moods of its surroundings until its own outline recedes. In the sexual Nine, the ‘intensifying’ subtype of the Nine, this inner forgetting is especially pronounced. That explains why precisely these Nines can be good actors: they let themselves fall completely into a role and merge with it. In Cooper this can be linked, as an interpretation, with what Wikipedia writes about his effect: his ability to project his own personality onto the characters contributed to his natural and authentic appearance. He did not play a role, he dissolved into it.</p>
+          <p class="vb-intro">His own remark on naturalness fits: ‘you find out what people expect of your type of character and then you give them what they want.’ According to a biographer he largely shaped the image of the shy Western hero himself with ‘The Virginian’ (1929). Outwardly he remained, as the New York Times wrote in 1941 about his ‘John Doe’ in ‘Meet John Doe’, ‘shy, bewildered, nonaggressive, but a veritable tiger when aroused’.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The One wing: decency, standard and a good conscience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One wing (w1)</strong> gives the Nine an inner standard: one does what is right. In Cooper this shows as decency. Hemingway once said: ‘If you made up a character like Coop, nobody would believe it. He's just too good to be true.’ He kept a copy of Rudyard Kipling's poem ‘If—’ in his dressing room, and Wikipedia calls him modest and without any claim to special treatment. He turned down the role of Rhett Butler in ‘Gone with the Wind’ because he did not see himself as that dashing (‘I didn't see myself as quite that dashing’).</p>
+          <p class="vb-intro">It fits that he hardly ever quarreled. His friend Joel McCrea said: ‘Coop never fought, he never got mad, he never told anybody off that I know of; everybody [who] worked with him liked him.’ And yet one tells of a moment on the set of ‘Morocco’ (1930): when the director Josef von Sternberg yelled at him and went on giving directions in German, the 6-foot-3 actor lifted the smaller man by the collar and said that whoever wanted to work in this country should speak the language used here.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The substance: showing less, being more</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As an actor Cooper was famous for a restrained, natural tone. He himself said: ‘If others have more interesting things to say than I have, I keep quiet.’ With ‘The Virginian’, his first sound film, he became a star; his voice was regarded as deep, clear and pleasantly drawling. His films include ‘Morocco’ (1930), ‘A Farewell to Arms’ (1932, after Hemingway), ‘Mr. Deeds Goes to Town’ (1936), ‘Sergeant York’ (1941), ‘For Whom the Bell Tolls’ (1943) and ‘High Noon’ (1952).</p>
+          <p class="vb-intro">For ‘Sergeant York’ and ‘High Noon’ he won the Oscar for best actor. When he received the first award from his friend James Stewart, he said: ‘It was Sergeant Alvin York who won this award. Shucks, I've been in the business 16 years and sometimes dreamed I might get one of these. Funny when I was dreaming I always made a better speech.’ In all he played the lead in 84 films; the American Film Institute ranks him number 11 among the 50 greatest screen legends.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallels in the same subtype and under pressure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-viggo-mortensen">Viggo Mortensen (SX9w1)</a> shares with Cooper the quiet presence and the love of open spaces and of a life beyond the spotlight. <a href="#beruehmte-willie-nelson">Willie Nelson (SX9w1)</a> shows the same constellation as a musician, and <a href="#beruehmte-art-garfunkel">Art Garfunkel (SX9w1)</a> made the merging with his own voice his life theme. In Cooper the toughness of the Western hero is added, which shows as action when decency is violated.</p>
+          <p class="vb-intro">The Nine's stress point is the Six. In Cooper this can be linked to the fact that under pressure he showed complaints physically: during the filming of ‘High Noon’ he suffered from stomach ulcers. In 1931 he was exhausted by too many films, lonely and downcast, and fled Hollywood. Around 1951 he separated from his wife after his relationship with the actress Patricia Neal became known; the formal reconciliation followed in February 1954. In 1943 he visited the troops in the South West Pacific on a 23,000-mile tour.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The end: quiet acceptance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After the trip to Rome in 1953, which marked the beginning of the reconciliation with his wife, he began to reflect on his mortality and was baptized a Catholic on 9 April 1959. In 1960 prostate cancer was diagnosed, which had spread to the colon. On 27 February 1961 he learned that he was dying and told his family: ‘We'll pray for a miracle; but if not, and that's God's will, that's all right, too.’ On 17 April he watched on television as James Stewart accepted the honorary award for lifetime achievement for him. He died on 13 May 1961 in Los Angeles at the age of 60.</p>
+          <p class="vb-intro">For the sexual Nine with a One wing the path lies in keeping one's own voice even when others have more to say, and in not living the bond to the one at the expense of one's own measure. That Cooper in the end did not fight but accepted what came fits the calm attitude with which he lived his life.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: subtype profile"},
+        {route:"beruehmte-viggo-mortensen", label:"Portrait: Viggo Mortensen (SX9w1)"},
+        {route:"beruehmte-willie-nelson", label:"Portrait: Willie Nelson (SX9w1)"},
+        {route:"beruehmte-art-garfunkel", label:"Portrait: Art Garfunkel (SX9w1)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+        {route:"beruehmte-james-stewart", label:"Portrait: James Stewart (SX9w1) – close friend"},
+      ])}
+    </div>
+  `);
+}
+
+export function clintEastwoodPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-clint-eastwood-portrait.jpg" alt="Clint Eastwood – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Clint Eastwood</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexual Type 1 with a Nine wing</p>
+        <p class="krim-portrait-subtitle">American actor and director, b. 1930 &ndash; Dirty Harry, Unforgiven &ndash; animal counterpart: black mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The black mamba: the quiet boy from California</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>black mamba</strong> wastes no movement: it waits, watches and acts only when it pays to. Clinton Eastwood Jr. was born on 31 May 1930 in San Francisco. His father Clinton Sr. (1906–1970) was an accountant who kept the family afloat through the Depression years with changing jobs, among them gas station attendant; the family moved several times and settled in Oakland and neighbouring Piedmont. His mother Margaret Ruth Runner (1909–2006) and his younger sister Jeanne (b. 1934) formed the inner circle. In his youth he was considered shy and reserved.</p>
+          <p class="vb-intro">He graduated from Oakland Technical High School in 1949. During the Korean War he was drafted into the Army and served at Fort Ord in California, among other things as a swimming instructor; he was discharged in February 1953. In 1954 he signed a contract with Universal at 100 dollars a week, which the studio ended in October 1955.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual One: zeal for the craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a>'s system the sexual One is called <em>Zeal</em> and counts as the countertype of the One: the seriousness serves not the rules of the community but a single cause to which one devotes oneself with full intensity. In Eastwood this can be connected with his relationship to work. Colleagues describe his sets as quiet and tight: according to these accounts he calls neither ‘Action’ nor ‘Cut’ but says quietly ‘Go ahead’, and he often shoots with very few takes. On ‘Breezy’ (1973) he came in one million dollars under budget and three days ahead of schedule, according to English Wikipedia. When Matt Damon asked for another take on ‘Invictus’, Eastwood is reported to have asked whether he wanted to waste everyone's time.</p>
+          <p class="vb-intro">The drawing shows thick, swept-back hair with a few loose strands, a high forehead with deep horizontal lines, steeply drawn-together brows with a vertical crease between them, narrow, slightly squinting eyes under heavy lids that look straight at the viewer, a strong nose and a thin, firmly closed mouth above a broad chin. He wears a dark jacket with a white shirt and tie. The gaze is stern and unyielding, without a smile.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine wing: the quiet voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine wing (w9)</strong> softens the One on the outside. In Eastwood this can be connected with his few words and the unexcited way he exercises authority: no shouting, no speech to the crew. Laura Linney explained the absence of calls with the experience from his Westerns: where horses are in the frame, loud calls startle them, so it stays quiet. A second place of retreat is jazz. Eastwood plays the piano, made ‘Bird’ (1988), a portrait of the saxophonist Charlie Parker (for which he received a Golden Globe for directing), and has occasionally written film music himself since the 1980s, for ‘Mystic River’, ‘Million Dollar Baby’ and ‘J. Edgar’, among others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the man with no name, the director and the reckoning with the Western</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From 1959 to 1965 Eastwood played the cowboy Rowdy Yates in the TV series ‘Rawhide’ (217 episodes). The breakthrough came with Sergio Leone's ‘A Fistful of Dollars’ (1964), for which he was paid 15,000 dollars, and the Dollar trilogy: a figure who hardly speaks and works through gaze, posture and the narrowed eye. With the trilogy's earnings he founded Malpaso Productions in 1967, which produced nearly all his American films. ‘Dirty Harry’ (1971) took 22 million dollars in the US and Canada alone; in 1972 and 1973 Eastwood topped the list of the most successful box-office stars. The film was also criticised as glorifying vigilante justice.</p>
+          <p class="vb-intro">He made his directing debut in 1971 with ‘Play Misty for Me’. The turning point is ‘Unforgiven’ (1992): a Western that takes the Western apart, because it shows violence with its consequences and the legend does not match what happened. The film won the Oscars for best picture and best director, as did ‘Million Dollar Baby’ in 2005; at 74 Eastwood was then the oldest winner of the directing Oscar. He has four Oscars in all. ‘Mystic River’ (2003), ‘Letters from Iwo Jima’ (2006), ‘Gran Torino’ (2008), ‘American Sniper’ (2014), ‘The Mule’ (2018), ‘Cry Macho’ (2021) and ‘Juror #2’ (2024), his 41st film as director, followed. In many late films he plays old men whose toughness reaches its limits.</p>
+          <p class="vb-intro"><a href="#beruehmte-morgan-freeman">Morgan Freeman (SX7w6)</a> stood in front of his camera for ‘Unforgiven’ and ‘Million Dollar Baby’ and played Nelson Mandela under his direction in ‘Invictus’ (2009).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Linda Hamilton and Klaus Kinski</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-linda-hamilton">Linda Hamilton (SX1w9)</a> stands, like Eastwood, at the centre of a figure that stands for toughness: Sarah Connor for her, Harry Callahan and the man with no name for him. For both, the pattern also includes calm away from that. <a href="#beruehmte-klaus-kinski">Klaus Kinski (SX1w9)</a> lived the same zeal as open eruption, which also hit his colleagues. Eastwood puts it into the form of the work: few takes, quiet instructions, a team that knows what to do.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Marriages, children and the office in Carmel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1953 Eastwood married Margaret ‘Maggie’ Johnson; the marriage was dissolved in 1984. From 1975 to 1989 he lived with the actress Sondra Locke, from 1990 to 1995 with Frances Fisher (daughter Francesca, b. 1993). In 1996 he married Dina Ruiz; the marriage ended in divorce in 2014. From 2014 Christina Sandera was his partner until her death in 2024. He has at least eight children by several women, some of whom were not publicly known for a long time.</p>
+          <p class="vb-intro">From 1986 to 1988 he was mayor of Carmel-by-the-Sea, elected with 72 percent of the vote. Politically he describes himself as libertarian. Observers stress the trust he places in his crew; in his private life the partnerships changed several times.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand, and the pattern</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As of October 2026 Eastwood is 96 and considered retired; his last film as director is ‘Juror #2’, which he brought to cinemas at 94. He has four Oscars, the Irving G. Thalberg Memorial Award (1995), the AFI Life Achievement Award, the Golden Lion for Lifetime Achievement and an honorary Palme d'Or.</p>
+          <p class="vb-intro">For the sexual One with a Nine wing, one path of development lies in letting the strictness toward work leave room for closeness. In Eastwood this can be connected with the late films in which he questions the toughness of his earlier figures himself, in ‘Unforgiven’ and ‘Gran Torino’, for instance. That a man with this pattern still directs a film at 94 can be linked with the persistence of the Nine wing.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx1", label:"SX1 – The black mamba: subtype profile"},
+        {route:"beruehmte-linda-hamilton", label:"Portrait: Linda Hamilton (SX1w9)"},
+        {route:"beruehmte-klaus-kinski", label:"Portrait: Klaus Kinski (SX1w9)"},
+        {route:"beruehmte-morgan-freeman", label:"Portrait: Morgan Freeman (SX7w6)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
       ])}
     </div>
   `);

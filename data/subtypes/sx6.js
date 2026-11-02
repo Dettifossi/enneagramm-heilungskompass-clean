@@ -1,7 +1,9 @@
 export const sx6 = {
   meinKompass: {
-    lebensthema: "Wo andere bei Angst zurückweichen, gehst du nach vorn. Als Kontratyp unter den Sechsern begegnest du der Angst nicht mit Vorsicht, sondern mit Stärke — du suchst die Herausforderung, um dir selbst zu beweisen, dass du nicht ängstlich bist. Dein Wolfsblick ist intensiv, prüfend und kampfbereit; du spürst Bedrohung früh und stellst dich ihr. In Beziehungen suchst du Intensität, Treue und absolute Verlässlichkeit — und testest sie zugleich. Was unter dem Mut liegt, ist dieselbe Angst wie bei allen Sechsern, nur nach außen gewendet. Dein innerer Weg führt nicht dorthin, härter zu werden — sondern zu erfahren, dass echte Stärke aus Vertrauen entsteht, nicht aus Kampf.",
-    grundstrategie: "Die sexuelle Sechs überwindet Angst durch Mut, Stärke und intensive Bindung — als gegenphobischer Kontratyp wendet sie sich der Bedrohung kämpferisch zu, statt ihr auszuweichen, und verdeckt die innere Unsicherheit hinter Entschlossenheit und Kraft.",
+    lebensthema:
+      "Wo andere bei Angst zurückweichen, gehst du nach vorn. Als Kontratyp unter den Sechsern begegnest du der Angst nicht mit Vorsicht, sondern mit Stärke — du suchst die Herausforderung, um dir selbst zu beweisen, dass du nicht ängstlich bist. Dein Wolfsblick ist intensiv, prüfend und kampfbereit; du spürst Bedrohung früh und stellst dich ihr. In Beziehungen suchst du Intensität, Treue und absolute Verlässlichkeit — und testest sie zugleich. Was unter dem Mut liegt, ist dieselbe Angst wie bei allen Sechsern, nur nach außen gewendet. Dein innerer Weg führt nicht dorthin, härter zu werden — sondern zu erfahren, dass echte Stärke aus Vertrauen entsteht, nicht aus Kampf.",
+    grundstrategie:
+      "Die sexuelle Sechs überwindet Angst durch Mut, Stärke und intensive Bindung — als gegenphobischer Kontratyp wendet sie sich der Bedrohung kämpferisch zu, statt ihr auszuweichen, und verdeckt die innere Unsicherheit hinter Entschlossenheit und Kraft.",
     staerken: [
       "mutig und entschlossen",
       "intensiv wachsam und scharfsinnig",
@@ -23,34 +25,35 @@ export const sx6 = {
       "Offen für Vertrauen und echte Verletzlichkeit bleiben.",
     ],
     wandlung: "Aus Gegenangriff wird Vertrauen. Aus Härte wird Herzenskontakt. Aus Kampf wird innerer Frieden.",
-    gedankeFuerHeute: "Echte Stärke entsteht aus Vertrauen — ich muss nicht kämpfen, um sicher zu sein.",
+    gedankeFuerHeute:
+      "Echte Stärke entsteht aus Vertrauen — ich muss nicht kämpfen, um sicher zu sein.",
   },
   meinKompass_en: {
     lebensthema:
-      "Where others retreat at fear, you move forward. As the counter-type among the Sixes, you meet fear not with caution but with strength — you seek the challenge to prove to yourself that you are not afraid. Your gaze is intense, probing, and ready for battle; you sense threat early and face it. In relationships you seek intensity, loyalty, and absolute reliability — and simultaneously test them. What lies beneath the courage is the same anxiety as in all Sixes, only turned outward. Your inner path does not lead to becoming harder — but to experiencing that true strength arises from trust, not from combat.",
+      "Where others retreat from fear, you move forward. As the countertype among the Sixes, you meet fear not with caution but with strength — you seek the challenge to prove to yourself that you are not afraid. Your wolf gaze is intense, testing and ready to fight; you sense threat early and face it. In relationships you seek intensity, faithfulness and absolute reliability — and test them at the same time. What lies beneath the courage is the same fear as in all Sixes, only turned outward. Your inner path does not lead to becoming harder — but to experiencing that genuine strength arises from trust, not from fighting.",
     grundstrategie:
-      "The sexual Six overcomes anxiety through courage, strength, and intense bonding — as the counter-phobic type, they meet danger head-on rather than avoiding it.",
+      "The sexual Six overcomes fear through courage, strength and intense bonding — as the counterphobic countertype they turn toward the threat combatively instead of avoiding it, and cover inner insecurity with determination and strength.",
     staerken: [
-      "Courage",
-      "Intensity in relationships",
-      "Loyalty and commitment",
-      "Direct and honest communication",
-      "Ability to face what others avoid",
+      "courageous and determined",
+      "intensely vigilant and sharp-witted",
+      "protective and loyal to the utmost",
+      "passionate and assertive",
+      "strategic intelligence under pressure",
+      "endurance and fighting spirit",
+      "powerful and present",
     ],
     herausforderungen: [
-      "Aggression and provocativeness",
-      "Difficulty trusting completely",
-      "Testing the loyalty of others to the breaking point",
-      "Confusing strength with hardness",
-      "Suppressing the very fear that drives them",
+      "Tackling fear by showing strength and resistance",
+      "Easily losing access to one's own vulnerability",
+      "Closeness is tested through fighting and confrontation",
+      "Energy appears combative, impulsive and permanently under tension",
     ],
     entwicklungspotenzial: [
-      "that genuine strength includes vulnerability",
-      "that trust does not require testing",
-      "that courage is also the courage to be afraid",
-      "that safety can be built rather than fought for",
+      "Using strength without constantly having to fight or prove oneself.",
+      "Perceiving fear without having to fight it.",
+      "Staying open to trust and genuine vulnerability.",
     ],
-    wandlung: "From combat comes trust. From testing comes acceptance. From proving strength comes being at peace with it.",
+    wandlung: "Counterattack becomes trust. Hardness becomes heart contact. Fighting becomes inner peace.",
     gedankeFuerHeute:
       "What would you risk today if you knew you were truly safe?",
   },

@@ -5724,6 +5724,7 @@ h1, h2, h3, .vb-section, .section-title { text-wrap: balance; }
 p, li, .vb-intro { text-wrap: pretty; }
 /* Silbentrennung nur in langen Fließtexten; Untertitel, Teaser, Karten, Listen und Namen bleiben ungetrennt */
 :lang(de) .vb-intro, :lang(de) .psycho-intro, :lang(de) .lead-small, :lang(de) .vb-anmerkung, :lang(de) .typentest-intro, :lang(de) .vb-typ__text { hyphens: auto; hyphenate-limit-chars: 7 3 3; }
+.nohy { hyphens: manual; -webkit-hyphens: manual; }
 .krim-portrait-name, .krim-portrait-typ, .krim-portrait-subtitle, .krim-portrait-sub { hyphens: manual; -webkit-hyphens: manual; text-wrap: balance; }
 
 /* ── Touch: größere Treffer­flächen für kleine Bedienelemente (Layout bleibt gleich) ─ */
@@ -5778,3 +5779,101 @@ p, li, .vb-intro { text-wrap: pretty; }
 .mm-branch summary::after { content: "+"; float: right; font-weight: 700; color: var(--muted); }
 .mm-branch[open] summary::after { content: "\2013"; }
 .mm-chev { color: var(--muted); margin: 0 0.15rem; }
+
+/* ── Tugenden-Artikel (26.10.2026): Kacheln pro Enneagrammtyp ─────────────────── */
+.tug-page { max-width: 980px; }
+.tug-intro { background: var(--paper); border: 1px solid var(--line); border-left: 4px solid var(--copper); border-radius: 12px; padding: 1.1rem 1.3rem; margin: 1.2rem 0 0.4rem; box-shadow: var(--shadow-soft); }
+.tug-intro h2 { font-size: 1.05rem; margin: 0 0 0.6rem; color: var(--bronze); }
+.tug-intro ul { margin: 0; padding-left: 1.2rem; line-height: 1.65; font-size: 0.97rem; }
+.tug-intro li { margin: 0.3rem 0; }
+.tug-h2 { margin-top: 2.2rem; }
+.tug-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 0.9rem; margin: 1rem 0 0.4rem; }
+.tug-card { background: var(--paper); border: 1px solid var(--line); border-top: 5px solid var(--tc, var(--copper)); border-radius: 14px; padding: 0.95rem 1rem 1.05rem; box-shadow: var(--shadow-soft); display: flex; flex-direction: column; gap: 0.6rem; }
+.tug-card__top { display: flex; align-items: center; gap: 0.6rem; }
+.tug-card__num { display: inline-flex; align-items: center; justify-content: center; width: 2rem; height: 2rem; border-radius: 50%; background: var(--tc, var(--copper)); color: #fff; font-weight: 700; font-size: 0.95rem; flex-shrink: 0; }
+.tug-card__role { font-weight: 700; font-size: 1rem; color: var(--ink); }
+.tug-flow { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; }
+.tug-pill { display: inline-block; padding: 0.22rem 0.6rem; border-radius: 999px; font-size: 0.8rem; line-height: 1.3; }
+.tug-pill--passion { background: rgba(40, 36, 31, 0.07); color: var(--muted); }
+.tug-pill--virtue { background: color-mix(in srgb, var(--tc, var(--copper)) 16%, white); color: var(--ink); font-weight: 700; border: 1px solid color-mix(in srgb, var(--tc, var(--copper)) 45%, white); }
+.tug-arrow { color: var(--muted); }
+.tug-card__text { margin: 0; font-size: 0.93rem; line-height: 1.6; color: var(--ink); }
+.tug-steps { list-style: none; padding: 0; margin: 1rem 0; display: grid; gap: 0.8rem; }
+.tug-step { display: flex; gap: 0.9rem; background: var(--paper); border: 1px solid var(--line); border-radius: 12px; padding: 0.9rem 1rem; }
+.tug-step__num { flex-shrink: 0; width: 2.1rem; height: 2.1rem; border-radius: 50%; background: var(--copper); color: #fff; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; }
+.tug-step h3 { margin: 0 0 0.3rem; font-size: 1.02rem; color: var(--bronze); }
+.tug-step p { margin: 0; font-size: 0.96rem; line-height: 1.65; }
+.tug-quote { margin: 1.2rem 0; padding: 1rem 1.3rem; border-left: 4px solid var(--sage); background: var(--shell); border-radius: 0 12px 12px 0; }
+.tug-quote p { margin: 0; font-size: 1.12rem; font-style: italic; line-height: 1.55; color: var(--moss); }
+.tug-quote footer { margin-top: 0.5rem; font-size: 0.82rem; color: var(--muted); }
+.tug-ex-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0.8rem; margin: 1rem 0; align-items: start; }
+.tug-ex { background: var(--paper); border: 1px solid var(--line); border-left: 5px solid var(--tc, var(--copper)); border-radius: 12px; overflow: hidden; }
+.tug-ex summary { cursor: pointer; list-style: none; display: flex; align-items: center; gap: 0.7rem; padding: 0.8rem 0.9rem; }
+.tug-ex summary::-webkit-details-marker { display: none; }
+.tug-ex summary::after { content: "+"; margin-left: auto; font-size: 1.3rem; color: var(--muted); }
+.tug-ex[open] summary::after { content: "–"; }
+.tug-ex__title { display: flex; flex-direction: column; font-weight: 700; line-height: 1.25; }
+.tug-ex__title small { font-weight: 400; color: var(--muted); font-size: 0.8rem; }
+.tug-ex__body { padding: 0 0.95rem 0.9rem; font-size: 0.93rem; line-height: 1.6; }
+.tug-ex__body p { margin: 0.45rem 0; }
+.tug-ex__hold { background: color-mix(in srgb, var(--tc, var(--copper)) 10%, white); border-radius: 8px; padding: 0.5rem 0.6rem; }
+.tug-fazit { background: linear-gradient(135deg, var(--shell), var(--paper)); border: 1px solid var(--line); border-radius: 14px; padding: 1.2rem 1.4rem; margin: 1.8rem 0 1rem; }
+.tug-fazit h2 { margin: 0 0 0.6rem; font-size: 1.1rem; color: var(--moss); }
+.tug-fazit p { margin: 0 0 0.8rem; line-height: 1.7; font-size: 0.97rem; }
+@media (max-width: 520px) {
+  .tug-grid, .tug-ex-grid { grid-template-columns: 1fr; }
+  .tug-step { flex-direction: column; gap: 0.5rem; }
+}
+.tug-hero { margin: 1.2rem 0 0.4rem; }
+.tug-hero img { display: block; width: 100%; height: auto; border-radius: 16px; box-shadow: var(--shadow-soft); }
+.tug-hero figcaption { margin-top: 0.5rem; font-size: 0.85rem; color: var(--muted); text-align: center; }
+.kp-energy { margin: 0; font-size: 0.8rem; font-style: italic; color: var(--muted); }
+.kp-steps { list-style: none; padding: 0; margin: 1rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 0.7rem; counter-reset: kp; }
+.kp-steps li { counter-increment: kp; background: var(--paper); border: 1px solid var(--line); border-top: 4px solid var(--copper); border-radius: 12px; padding: 0.8rem 0.9rem; display: flex; flex-direction: column; gap: 0.3rem; }
+.kp-steps li::before { content: counter(kp); font-weight: 700; color: var(--copper); font-size: 1.1rem; }
+.kp-steps span { font-size: 0.9rem; line-height: 1.5; color: var(--muted); }
+.kp-note { font-size: 0.88rem; color: var(--muted); }
+
+.ab-chip { display:inline-flex; align-items:center; gap:.4rem; padding:.35rem .7rem; border-radius:999px; border:1px solid var(--line); border-left:5px solid var(--tc); background:var(--paper); color:var(--ink); font-size:.85rem; text-decoration:none; }
+.ab-chip__n { font-weight:700; color:var(--tc); }
+.ab-nav { display:flex; flex-wrap:wrap; gap:.5rem; margin:1.2rem 0 1.6rem; }
+.ab-p { font-size:.98rem; line-height:1.75; margin:0 0 .9rem; }
+.ab-typ { border:1px solid var(--line); border-top:6px solid var(--tc); border-radius:16px; background:var(--paper); padding:1.1rem 1.2rem; margin:1.4rem 0; scroll-margin-top:5rem; }
+.ab-typ__head { display:flex; gap:.9rem; align-items:flex-start; margin-bottom:.8rem; }
+.ab-typ__num { flex:none; width:2.6rem; height:2.6rem; border-radius:50%; background:var(--tc); color:#fff; display:grid; place-items:center; font-weight:700; font-size:1.2rem; }
+.ab-typ__mittel { margin:0; font-size:.8rem; letter-spacing:.04em; text-transform:uppercase; color:var(--muted); }
+.ab-typ__title { margin:.15rem 0; font-size:1.2rem; }
+.ab-typ__sub { margin:0; font-weight:600; color:var(--tc); filter:brightness(.8); }
+.ab-det { border:1px solid var(--line); border-radius:12px; margin:.6rem 0; padding:.5rem .8rem; }
+.ab-det summary { cursor:pointer; font-weight:600; }
+.ab-det summary span { color:var(--muted); font-weight:400; }
+.ab-list { margin:.7rem 0 .3rem; padding-left:1.3rem; }
+.ab-list li { margin-bottom:.55rem; line-height:1.6; font-size:.94rem; }
+.ab-list em { display:block; color:var(--muted); font-size:.88rem; }
+.ab-fazit { margin:.9rem 0 .4rem; padding:.7rem .9rem; border-left:4px solid var(--tc); background:rgba(127,127,127,.08); border-radius:0 10px 10px 0; line-height:1.65; }
+.ab-links { margin:.4rem 0 0; font-size:.9rem; }
+.ab-note { margin:1.6rem 0; padding:.8rem 1rem; border:1px dashed var(--line); border-radius:12px; font-size:.88rem; color:var(--muted); }
+.ab-table-wrap { overflow-x:auto; margin:1rem 0; }
+.ab-table { border-collapse:collapse; width:100%; font-size:.88rem; }
+.ab-table th, .ab-table td { border:1px solid var(--line); padding:.4rem .6rem; text-align:left; vertical-align:top; }
+.ab-table thead th { background:rgba(127,127,127,.1); }
+.ab-links { display:flex; flex-wrap:wrap; gap:.4rem 1.2rem; justify-content:space-between; }
+.ab-top { font-weight:600; }
+
+/* Spirituelles Enneagramm */
+.sp-page { max-width: 880px; }
+.sp-hero { margin: 1.2rem 0 .4rem; text-align: center; }
+.sp-hero img { display: block; width: 100%; max-width: 440px; height: auto; margin: 0 auto; border-radius: 16px; box-shadow: var(--shadow-soft); }
+.sp-tile { border:1px solid var(--line); border-top:6px solid var(--tc); border-radius:16px; background:var(--paper); padding:1.1rem 1.2rem; margin:1.4rem 0; scroll-margin-top:5rem; }
+.sp-tile__head { display:flex; gap:.9rem; align-items:center; margin-bottom:.8rem; }
+.sp-tile__num { flex:none; width:2.4rem; height:2.4rem; border-radius:50%; background:var(--tc); color:#fff; display:grid; place-items:center; font-weight:700; }
+.sp-tile__title { margin:0; font-size:1.2rem; }
+.sp-p { font-size:.98rem; line-height:1.75; margin:0 0 .9rem; }
+.sp-h3 { font-size:1rem; margin:1rem 0 .4rem; color:var(--bronze); }
+.sp-list { margin:.4rem 0 .9rem; padding-left:1.3rem; }
+.sp-list li { margin-bottom:.45rem; line-height:1.6; font-size:.95rem; }
+.sp-typen { list-style:none; padding:0; margin:1rem 0 .4rem; display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:.7rem; }
+.sp-typen li { border:1px solid var(--line); border-left:5px solid var(--tc); border-radius:12px; padding:.7rem .85rem; font-size:.93rem; line-height:1.55; background:rgba(127,127,127,.05); }
+.sp-top { margin:1rem 0 0; font-size:.9rem; font-weight:600; text-align:right; }
+.sp-ex { margin:.5rem 0 .9rem; padding:.55rem .9rem .2rem; border-left:4px solid var(--tc); background:rgba(127,127,127,.08); border-radius:0 10px 10px 0; }
+.sp-ex .sp-list { margin:.2rem 0 .4rem; }

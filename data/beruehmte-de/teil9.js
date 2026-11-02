@@ -2886,6 +2886,7 @@ export function wolfgangNiedeckenPortraitPage() {
         {route:"beruehmte-juergen-klopp", label:"Porträt: Jürgen Klopp (SO1w2)"},
         {route:"beruehmte-brian-wilson", label:"Porträt: Brian Wilson (SO1w2)"},
         {route:"beruehmte-bradley-cooper", label:"Porträt: Bradley Cooper (SO1w2)"},
+        {route:"krankheitsportraets-wolfgang-niedecken", label:"Krankheitsporträt: Wolfgang Niedecken (SO1w2) – Schlaganfall"},
             ])}
     </div>
   `);
@@ -2957,7 +2958,156 @@ export function bruceLeePortraitPage() {
         {route:"beruehmte-sean-connery", label:"Porträt: Sean Connery (SO3w4)"},
         {route:"beruehmte-leon-goretzka", label:"Porträt: Leon Goretzka (SO3w4)"},
         {route:"beruehmte-sven-platte", label:"Porträt: Sven Platte (SO3w4)"},
+        {route:"krankheitsportraets-bruce-lee", label:"Krankheitsporträt: Bruce Lee (SO3w4) – Hirnödem und Tod 1973"},
+        {route:"beruehmte-steve-mcqueen", label:"Porträt: Steve McQueen (SX6w7) – Freund und Sargträger"},
             ])}
+    </div>
+  `);
+}
+
+export function rjMittePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-rj-mitte-portrait.jpg" alt="RJ Mitte – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">RJ Mitte</p>
+        <p class="krim-portrait-typ">SX2w3 &middot; Sexueller Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Schauspieler (Walter White Jr. in ›Breaking Bad‹), 1992&ndash;2026 &ndash; Tierentsprechung: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kamel: gebaut für die lange Strecke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong> ist kein Tier des kurzen Sprints, es trägt über lange Wege und bleibt dabei ruhig. RJ Mitte wurde als Roy Frank Mitte III am 21. August 1992 in Jackson, Mississippi, geboren, nach einem Notkaiserschnitt, bei dem er nicht atmete; es blieb ein dauerhafter Hirnschaden. Wenige Wochen später wurde er adoptiert, mit drei Jahren wurde eine Zerebralparese (Cerebral Palsy) diagnostiziert. Als Kind lagen seine Beine sechs Monate in Gips, er ging mit Beinschienen und an Krücken.</p>
+          <p class="vb-intro">Er wuchs überwiegend bei seiner Mutter auf, abwechselnd in Lafayette (Louisiana) und Austin (Texas); seine erste Sprache war Spanisch, weil die Mutter eine nur spanischsprachige Babysitterin eingestellt hatte. Nach einem Autounfall, bei dem seine Mutter gelähmt wurde, übernahm er mit 13 Jahren die finanzielle Verantwortung für die Familie. In der Schule wurde er nach den Angaben gemobbt, einmal wurde ihm die Hand gebrochen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Zwei: Zugehen auf den anderen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo benannte die sexuelle Zwei mit ›Aggressivität/Verführung‹, gemeint als aktives Zugehen auf den anderen, was die Distanz verkleinert. Bei RJ Mitte lässt sich das mit der Unmittelbarkeit in Verbindung bringen, mit der er als Jugendlicher in die Öffentlichkeit trat: 2006 zog er mit seiner Familie nach Los Angeles, begann mit Statistenrollen, unter anderem in ›Hannah Montana‹, und nahm Schauspielunterricht. Wer so früh Verantwortung trägt, lernt, sich auf Menschen einzustellen und sie für sich zu gewinnen.</p>
+          <p class="vb-intro">Die Rolle, die ihn bekannt machte, war Walter White Jr. in ›Breaking Bad‹ (2008 bis 2013), ein Junge mit Zerebralparese. Serienschöpfer Vince Gilligan hatte die Figur nach einem Freund mit derselben Erkrankung angelegt. Die Zuschauer begegneten dort einem Teenager, der seine Behinderung ohne Selbstmitleid trug, und Mitte selbst war darin nicht als Fremder besetzt, sondern brachte die eigene Erfahrung mit. Die Kritik von Variety nannte seine Leistung nach der Wikipedia-Seite ›a breakthrough for disability representation‹ (einen Durchbruch für die Darstellung von Behinderung).</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Sichtbarkeit, Leistung, Auftrag</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der Zwei Tatkraft und den Sinn für Wirkung. Bei Mitte lässt sich das an der Art sehen, wie er seine Bekanntheit nutzte: 2013 erhielt er den Harold Russell Award der Schauspielergewerkschaft SAG-AFTRA für seine Rolle, er war Sprecher für Darsteller mit Behinderung, ab 2014 Botschafter von Shriners Children's, 2015 von United Cerebral Palsy und Präsident der Mitte Foundation, die sein Großvater und seine Großmutter gegründet hatten und die Inklusion fördert.</p>
+          <p class="vb-intro">Dass ihm die Wirkung wichtig war und zugleich zur Last wurde, zeigt sein Satz über die Rolle: Sie habe ›really high standards‹ gesetzt, ›that I can never meet‹ (ungefähr: so hohe Maßstäbe, dass er sie nie erfüllen könne). Ein Zweier mit Dreierflügel will den Erwartungen an ihn gerecht werden, auch wenn sie unerreichbar hoch liegen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: mehr als eine Rolle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Neben ›Breaking Bad‹ war Mitte in ›Switched at Birth‹ (2014) zu sehen, in den Filmen ›Who's Driving Doug‹ (2016), ›Time Share‹ (2018), ›Standing Up for Sunny‹ (2019), ›The Oak Room‹ (2020), ›Triumph‹ (2021, als ausführender Produzent), ›The Unseen‹ (2023) und ›Westhampton‹ (2025) sowie in der Serie ›The Guardians of Justice‹ (2022). 2014 war er das Gesicht einer Gap-Kampagne, 2015 lief er bei einer Show von Vivienne Westwood und zierte das Cover von ›Neurology Now‹, und 2016 moderierte er für Channel 4 die Paralympics in Rio.</p>
+          <p class="vb-intro">Für 2026 sind ›Talking to Strangers‹ und ›One Eye Open‹ gelistet, die er kurz vor seinem Tod noch beworben haben soll.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Sammy Davis Jr. und Ryan Gosling</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-sammy-davis-jr">Sammy Davis Jr. (SX2w3)</a> stand als Entertainer vor Hindernissen, die ihm seine Zeit auferlegte, und gewann das Publikum durch Wärme und volle Präsenz. Auch Mitte machte aus einer Hürde eine Bühne für andere. <a href="#beruehmte-ryan-gosling">Ryan Gosling (SX2w3)</a> zeigt dieselbe Konstellation in der Intimität der Kamera: Der Blick gilt dem Gegenüber, nicht der Pose.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Ende (Stand 26. Oktober 2026)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">RJ Mitte starb am 12. Oktober 2026 im Alter von 34 Jahren in Brownsville, Texas. Sein Vertreter bestätigte nach den Berichten von Variety und The Hollywood Reporter einen Suizid. Die Trauerfeier fand am 16. Oktober in Brownsville statt, eine Gedenkfeier folgte am 25. Oktober in Albuquerque. Aus der Besetzung von ›Breaking Bad‹ kamen viele Nachrufe; Bryan Cranston schrieb nach der Wikipedia-Seite, Mitte habe die Herausforderung der Zerebralparese ›never – ever – allowed‹ (nie, wirklich nie) zu einer Entschuldigung werden lassen.</p>
+          <p class="vb-intro">Warum er starb, wissen nur die, die ihm nahe standen; ein Suizid hat nie einen einzigen Grund, und Außenstehende können ihn nicht sicher erklären. Dieses Porträt versucht deshalb nicht, den Tod zu deuten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Was bleibt: das Tragen und das Getragenwerden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die sexuelle Zwei gibt viel und fragt selten, was sie selbst braucht. Wer schon als Kind für andere sorgt, kann lernen, dass Geben ein Wert ist, und später kaum noch bemerken, wann das eigene Maß erreicht ist. Heilsam wäre für diesen Subtyp, Hilfe nicht als Schwäche zu erleben, sondern als Teil einer Beziehung, in der auch das Kamel getragen wird.</p>
+          <p class="vb-intro"><strong>Hinweis:</strong> Wer selbst in einer seelischen Krise steckt oder an Suizid denkt, findet in Deutschland rund um die Uhr und kostenlos Hilfe bei der Telefonseelsorge (0800 111 0 111, 0800 111 0 222 oder 116 123).</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
+        {route:"beruehmte-sammy-davis-jr", label:"Porträt: Sammy Davis Jr. (SX2w3)"},
+        {route:"beruehmte-ryan-gosling", label:"Porträt: Ryan Gosling (SX2w3)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+        {route:"beruehmte-karin-thaler", label:"Porträt: Karin Thaler (SX2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+export function christineLagardePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-christine-lagarde-portrait.jpg" alt="Christine Lagarde – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Christine Lagarde</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexueller Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Französische Juristin, Politikerin und Notenbankerin, geb. 1956 &ndash; erste Frau an der Spitze von IWF und EZB &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba: von Le Havre an die Spitze der Notenbank</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist die schnellste Giftschlange Afrikas, greift selten an und trifft dann genau. Christine Lagarde wurde am 1. Januar 1956 als Christine Lallouette in Paris geboren und wuchs in Le Havre auf. Sie ist die älteste von vier Kindern; ihr Vater Robert Lallouette, Literaturdozent an der Universität Rouen, starb 1973, ihre Mutter Nicole unterrichtete Latein.</p>
+          <p class="vb-intro">Nach dem Abitur am Lycée Claude Monet verbrachte sie 1974 mit einem AFS-Stipendium ein Jahr an der Holton-Arms School in Bethesda (Maryland) und arbeitete im Büro des Senators William Cohen. Sie studierte Recht in Aix-en-Provence und Nanterre (Master in Englisch, Arbeitsrecht), bestand die Aufnahmeprüfung der Elitehochschule ENA aber nicht. Sie gehörte der französischen Nationalmannschaft im Synchronschwimmen an und gewann eine Bronzemedaille bei den französischen Meisterschaften.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Eifer für die Sache, gebändigt durch Form</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Auf Dr. Claudio Naranjo geht die Bezeichnung <em>Zeal</em> (Eifer) für die sexuelle Eins zurück, den Kontratyp der Eins: Die Strenge gilt weniger den Regeln für alle als der Sache und den Menschen, für die sich jemand mit Intensität einsetzt. Bei Lagarde lässt sich das mit dem Nachdruck verbinden, mit dem sie Positionen vertrat. Ihr Satz ›Lehman Sisters‹ (2010) stellte die Frage, wie die Finanzkrise mit mehr Frauen in Führung verlaufen wäre. 2012 sagte sie als IWF-Chefin, sie denke mehr an die Schulkinder in einem Dorf im Niger als an die Menschen in Athen, und forderte die Griechen auf, ihre Steuern zu zahlen. Ihre Disziplin führt sie nach Berichten auf das Synchronschwimmen zurück.</p>
+          <p class="vb-intro">Die Zeichnung zeigt kurzes Haar mit einer langen Seitenfranse, die in die Stirn fällt, eine Stirn mit Querfalten und große, wache Augen mit leicht angehobenen Brauen. Der Blick geht ein wenig nach oben und zur Seite, als höre sie zu und wäge ab. Das Lächeln ist schmal und geschlossen. Am Ohr sitzt ein kleiner Perlenstecker. Auf Pressefotos zeigt sich derselbe Ausdruck: ein prüfender Seitenblick bei geschlossenem Mund und beim Sprechen eine präzise Zeigegeste mit Daumen und Zeigefinger.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: die Anwältin, die gewinnt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der Eins Zuwendung. Riso und Hudson nennen die Eins mit Zweierflügel ›den Anwalt‹, bei einer Juristin ein passendes Wort. 1981 trat Lagarde in das Pariser Büro der Kanzlei Baker McKenzie ein; dort setzte sie nach der Darstellung der Kanzlei auf einen ›Client first‹-Ansatz (der Kunde zuerst). 1999 wurde sie als erste Frau Präsidentin der Geschäftsführung, ab 2004 leitete sie das Strategiekomitee in Chicago.</p>
+          <p class="vb-intro">Beim IWF machte sie die Rolle der Frauen in der Wirtschaft zu einem Schwerpunkt; 2013 erschien dort die Studie ›Women, Work, and the Economy‹ (Frauen, Arbeit und Wirtschaft). Nach einem Porträt der Zeitschrift Foreign Policy meidet sie Fachjargon und spricht fast fehlerfrei Englisch, und auf offiziellen Fotos lächelt sie und wendet sich der Kamera zu. Die Strenge der Eins kommt bei ihr mit Charme und mit der Fähigkeit, Menschen für ein Vorhaben zu gewinnen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Juristin, Krisenführerin, Notenbankerin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lagarde ist keine Ökonomin, sondern Juristin und Verhandlerin. Von 2005 bis 2007 war sie Handelsministerin, 2007 kurz Landwirtschaftsministerin und von Juni 2007 bis Juni 2011 Ministerin für Wirtschaft, Finanzen und Industrie. 2009 wählte die Financial Times sie zur besten Finanzministerin der Eurozone. Am 5. Juli 2011 folgte sie Dominique Strauss-Kahn als Geschäftsführende Direktorin des Internationalen Währungsfonds und war die erste Frau in diesem Amt; 2016 wurde sie als einzige Kandidatin für eine zweite Amtszeit bestätigt und blieb bis September 2019.</p>
+          <p class="vb-intro">Am 1. November 2019 wurde sie Präsidentin der Europäischen Zentralbank, als erste Frau und als erste Juristin in diesem Amt, Nachfolgerin von Mario Draghi. Kritiker bemängelten, dass sie zuvor keine nationale Notenbank geleitet hatte. In die Pandemie fiel im März 2020 ein Satz, die EZB sei nicht da, um Zinsabstände zu schließen; danach legte sie das Pandemie-Notkaufprogramm PEPP auf, zunächst 750 Milliarden Euro, später auf 1.850 Milliarden Euro erhöht, und sagte, es gebe keine Grenzen für das Bekenntnis zum Euro. Ab Juli 2022 hob die EZB den Einlagenzins von minus 0,5 Prozent bis September 2023 auf 4 Prozent an. 2019 führte Forbes sie auf Platz zwei der mächtigsten Frauen der Welt, hinter <a href="#beruehmte-angela-merkel">Angela Merkel (SE9w8)</a>.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Typ: Maria Schaumayer, Michèle Lamy, Gertrud Höhler und Emmanuel Macron</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-maria-schaumayer">Maria Schaumayer (SX1w9)</a> war die erste Frau an der Spitze einer Notenbank; wie bei Lagarde verbindet sich fachliche Härte mit einem gewinnenden Auftreten. <a href="#beruehmte-michele-lamy">Michèle Lamy (SX1w2)</a> ist ebenfalls Französin mit juristischer Ausbildung und gab den Beruf auf, während Lagarde ihn zum Weg an die Spitze machte. <a href="#beruehmte-gertrud-hoehler">Prof. Gertrud Höhler (SX1w2)</a> teilt den Zweierflügel und wirkte ebenfalls zwischen Wirtschaft und Politik, als Beraterin und Autorin statt als Amtsträgerin. <a href="#beruehmte-emmanuel-macron">Emmanuel Macron (SO1w9)</a> zeigt als soziale Eins den Gegenpol: Sein Maßstab gilt der Ordnung für alle, bei Lagarde brennt er für die einzelne Sache, ohne dass es laut wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Maßstab gegen sich selbst: die Affäre Tapie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als Wirtschaftsministerin ließ sich Lagarde 2008 im Streit mit dem Unternehmer Bernard Tapie auf ein Schiedsverfahren ein; es ging um rund 403 Millionen Euro im Zusammenhang mit dem Verkauf von Adidas-Anteilen an die Bank Crédit Lyonnais. Sie sagte, sie habe damit einen weiteren Rechtsstreit verhindern wollen. 2011 leitete der Gerichtshof der Republik ein Ermittlungsverfahren wegen Amtsmissbrauchs ein. Im Dezember 2016 sprach er sie des fahrlässigen Umgangs mit öffentlichen Geldern schuldig und verhängte keine Strafe, obwohl Verteidigung und Staatsanwaltschaft einen Freispruch gefordert hatten. Sie blieb IWF-Direktorin.</p>
+          <p class="vb-intro">Dieser Fall lässt sich mit der Eins verbinden, weil ein Mensch mit hohem Maßstab an der eigenen Fehlbarkeit gemessen wird. Wie sie damit innerlich umging, ist öffentlich nicht belegt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand und Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lagarde ist seit 1. November 2019 Präsidentin der EZB; ihre reguläre Amtszeit läuft bis Oktober 2027 (Stand 28. Oktober 2026). Im Februar 2026 berichtete die Financial Times, sie erwäge einen früheren Abgang, damit <a href="#beruehmte-emmanuel-macron">Emmanuel Macron (SO1w9)</a> und <a href="#beruehmte-friedrich-merz">Friedrich Merz (SO1w9)</a> die Nachfolge mitbestimmen können. Im September 2026 sagte sie der Zeitung La Croix, sie schließe einen Rücktritt einige Monate vor Ablauf nicht aus, habe aber nichts Konkretes angekündigt, und 2027 werde sie noch da sein. Eine Kandidatur bei der Präsidentschaftswahl schloss sie aus.</p>
+          <p class="vb-intro">Für die sexuelle Eins mit Zweierflügel liegt ein Entwicklungsweg darin, dass der Eifer nicht nur in der perfekten Form Halt findet, sondern auch Fehler wie den im Fall Tapie als Teil der Verantwortung tragen kann, ohne die eigene Haltung zu verhärten. Bei Lagarde lässt sich das an der Art sehen, wie sie im März 2020 nachsteuerte und im Amt blieb.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-maria-schaumayer", label:"Porträt: Maria Schaumayer (SX1w9)"},
+        {route:"beruehmte-michele-lamy", label:"Porträt: Michèle Lamy (SX1w2)"},
+        {route:"beruehmte-gertrud-hoehler", label:"Porträt: Prof. Gertrud Höhler (SX1w2)"},
+        {route:"beruehmte-emmanuel-macron", label:"Porträt: Emmanuel Macron (SO1w9)"},
+        {route:"beruehmte-angela-merkel", label:"Porträt: Angela Merkel (SE9w8)"},
+        {route:"beruehmte-friedrich-merz", label:"Porträt: Friedrich Merz (SO1w9)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
     </div>
   `);
 }

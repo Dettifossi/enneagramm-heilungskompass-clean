@@ -1925,6 +1925,7 @@ export function karlLagerfeldKrankheitsportraetPage() {
         {route:"krankheitsportraets-michael-jackson", label:"Michael Jackson (SO4w3) – Krankheitsporträt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so3", label:"Subtyp-Profil SO3"},
+        {route:"krankheitsportraets-bruce-lee", label:"Krankheitsporträt: Bruce Lee (SO3w4) – gleicher Subtyp"},
       ])}
     </div>
   `);

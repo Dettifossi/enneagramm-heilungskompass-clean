@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "../data/de.js?v=2026-07-31-cloudinary-v2";
+import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "../data/de.js?v=2026-11-01-typen-v1";
 import { TYP_IMPULSE, TYP_IMPULSE_EN, SUBTYP_IMPULSE_EN as SUBTYP_IMPULSE } from "../data/impulse.js?v=4";
 import { TAGESIMPULSE_EN } from "../data/tagesimpulse_en.js?v=1";
 import { TRIADEN_EN as TRIADEN, TYPFRAGEN_EN as TYPFRAGEN, TYPNAMEN_EN as TYPNAMEN, TYPKURZ_EN as TYPKURZ, INSTINKTE_EN as INSTINKTE } from "../data/typentest_en.js?v=1";
@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=402";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=462";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -54,6 +54,54 @@ function _needData(key) {
   return shell(`<div class="page-container"><p class="suche-hint" role="status" aria-live="polite">Loading content …</p></div>`);
 }
 
+// ---- Kurzfilme in Artikeln teilen (Web-Share mit Datei, sonst Link) ----
+// yt: YouTube-Link (wenn gesetzt, wird er statt der R2-Adresse als Link geteilt/kopiert)
+const _VS = {
+  "rp": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-rote-pille-en.mp4", name: "Red-Pill-Blue-Avatar.mp4", title: "Red Pill, Blue Avatar", text: "Red Pill, Blue Avatar: What The Matrix, Avatar, Inception and The Game reveal about the Enneagram. More in the Enneagram Healing Compass: https://kompass.verlagshausrathmer.com/en/", yt: "https://youtu.be/vWy6UM4rb9Q" },
+  "mm": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-montagmorgen-en.mp4", name: "Monday-Morning-Thoughts.mp4", title: "Monday Morning Thoughts of the 9 Types", text: "Monday Morning Thoughts of the 9 Enneagram Types: Which voice was yours? More in the Enneagram Healing Compass: https://kompass.verlagshausrathmer.com/en/", yt: "https://youtu.be/-5GPY2cVdgM" },
+  "wh": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-weihnachten-en.mp4", name: "Christmas-The-mask-may-fall.mp4", title: "Christmas: The mask may fall", text: "Christmas: The mask may fall. Nine types, nine wishes. Which mask will you set aside? More in the Enneagram Healing Compass: https://kompass.verlagshausrathmer.com/en/", yt: "https://youtu.be/qhfCtimz3cA" },
+  "hu": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-humor-en-v2.mp4", name: "Humor-of-the-9-Types.mp4", title: "Humor of the 9 Types", text: "Humor of the 9 types: nine elephants, nine styles of humor. Which humor is yours? More in the Enneagram Healing Compass: https://kompass.verlagshausrathmer.com/en/", yt: "https://youtu.be/hXrm-xLZa5w" },
+  "ge": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-geschenk-en-v2.mp4", name: "Gift-Ideas-for-the-9-Types.mp4", title: "Gift Ideas for the 9 Types", text: "Which gift for which type? Nine types, nine gift ideas. More in the Enneagram Healing Compass: https://kompass.verlagshausrathmer.com/en/", yt: "https://youtu.be/BsUHTfzDUxw" },
+  "sp": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-sprache-en-v2.mp4", name: "Speech-Styles-of-the-9-Types.mp4", title: "Speech Styles of the 9 Types", text: "How can you tell a type? Often by how they speak. Which sentence runs in your head? More in the Enneagram Healing Compass: https://kompass.verlagshausrathmer.com/en/", yt: "https://youtu.be/sRRzIJWUU24" },
+  "li": { file: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/share-liebe-en.mp4", name: "The-Search-for-True-Love.mp4", title: "The Search for True Love", text: "Everyone seeks love. Each in their own way. Where do you seek it? More in the Enneagram Healing Compass: https://kompass.verlagshausrathmer.com/en/", yt: "https://youtu.be/F4skEXmUgro" },
+};
+const _vsState = {};
+async function _vsClick(btn) {
+  const key = btn.getAttribute("data-share-video"), v = _VS[key + ""];
+  if (!v) return;
+  const st = _vsState[key] || (_vsState[key] = {});
+  const idle = "\u2197 Share video";
+  const link = v.yt || v.file;
+  const copyLink = async () => {
+    try { await navigator.clipboard.writeText(v.text + " " + link); btn.textContent = "Link copied \u2713"; }
+    catch (e) { window.prompt("Link:", link); }
+    setTimeout(() => { btn.textContent = idle; }, 2500);
+  };
+  try {
+    if (st.file) {
+      try { await navigator.share({ files: [st.file], title: v.title, text: v.text }); st.file = null; btn.textContent = idle; }
+      catch (e) { if (e && e.name === "AbortError") { btn.textContent = "\u2197 Send now"; } else { st.file = null; await copyLink(); } }
+      return;
+    }
+    if (st.loading) return;
+    if (typeof File !== "undefined" && navigator.canShare && navigator.share) {
+      st.loading = true; btn.textContent = "Preparing \u2026";
+      const r = await fetch(v.file); const b = await r.blob();
+      const f = new File([b], v.name, { type: "video/mp4" });
+      st.loading = false;
+      if (navigator.canShare({ files: [f] })) { st.file = f; btn.textContent = "\u2197 Send now"; return; }
+    }
+    if (navigator.share) {
+      try { await navigator.share({ title: v.title, text: v.text, url: link }); } catch (e) { if (!(e && e.name === "AbortError")) await copyLink(); }
+      btn.textContent = idle;
+    } else { await copyLink(); }
+  } catch (e) { st.loading = false; await copyLink(); }
+}
+document.addEventListener("click", (e) => {
+  const b = e.target && e.target.closest && e.target.closest("[data-share-video]");
+  if (b) { e.preventDefault(); _vsClick(b); }
+});
+
 function _lazyPage(spec, name) {
   const rec = _lazyMods.get(spec);
   if (rec && rec.mod) return rec.mod[name]();
@@ -81,6 +129,7 @@ const bastianPastewkaPortraitPage = () => _lazyPage("./data/beruehmte-en/teil1.j
 const bryanJohnsonPortraitPage = () => _lazyPage("./data/beruehmte-en/teil1.js", "bryanJohnsonPortraitPage");
 const byronKatiePortraitPage = () => _lazyPage("./data/beruehmte-en/teil1.js", "byronKatiePortraitPage");
 const christophWaltzPortraitPage = () => _lazyPage("./data/beruehmte-en/teil1.js", "christophWaltzPortraitPage");
+const violetJessopPortraitPage = () => _lazyPage("./data/beruehmte-en/teil6.js", "violetJessopPortraitPage");
 const dhapanbalYunupinguPortraitPage = () => _lazyPage("./data/beruehmte-en/teil1.js", "dhapanbalYunupinguPortraitPage");
 const editaGruberovaPortraitPage = () => _lazyPage("./data/beruehmte-en/teil1.js", "editaGruberovaPortraitPage");
 const franzLisztPortraitPage = () => _lazyPage("./data/beruehmte-en/teil1.js", "franzLisztPortraitPage");
@@ -102,11 +151,49 @@ const jeanMaraisPortraitPage = () => _lazyPage("./data/beruehmte-en/teil17.js", 
 const martinaGedeckPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "martinaGedeckPortraitPage");
 const joeVitalePortraitPage = () => _lazyPage("./data/beruehmte-en/teil2.js", "joeVitalePortraitPage");
 const klausMariaBrandauerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "klausMariaBrandauerPortraitPage");
+const mireilleMathieuPortraitPage = () => _lazyPage("./data/beruehmte-en/teil9.js", "mireilleMathieuPortraitPage");
+const elkeSommerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil5.js", "elkeSommerPortraitPage");
 const rosalieThomassPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "rosalieThomassPortraitPage");
 const robbieColtranePortraitPage = () => _lazyPage("./data/beruehmte-en/teil5.js", "robbieColtranePortraitPage");
 const happyAndersonPortraitPage = () => _lazyPage("./data/beruehmte-en/teil8.js", "happyAndersonPortraitPage");
 const paulSimonPortraitPage = () => _lazyPage("./data/beruehmte-en/teil9.js", "paulSimonPortraitPage");
 const artGarfunkelPortraitPage = () => _lazyPage("./data/beruehmte-en/teil9.js", "artGarfunkelPortraitPage");
+const jamesStewartPortraitPage = () => _lazyPage("./data/beruehmte-en/teil5.js", "jamesStewartPortraitPage");
+const marieleMillowitschPortraitPage = () => _lazyPage("./data/beruehmte-en/teil8.js", "marieleMillowitschPortraitPage");
+const georgPreussePortraitPage = () => _lazyPage("./data/beruehmte-en/teil2.js", "georgPreussePortraitPage");
+const jamesBluntPortraitPage = () => _lazyPage("./data/beruehmte-en/teil17.js", "jamesBluntPortraitPage");
+const gertrudHoehlerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil1.js", "gertrudHoehlerPortraitPage");
+const annieLennoxPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "annieLennoxPortraitPage");
+const lindaHamiltonPortraitPage = () => _lazyPage("./data/beruehmte-en/teil14.js", "lindaHamiltonPortraitPage");
+const mariaSchaumayerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil6.js", "mariaSchaumayerPortraitPage");
+const micheleLamyPortraitPage = () => _lazyPage("./data/beruehmte-en/teil13.js", "micheleLamyPortraitPage");
+const yvesSaintLaurentPortraitPage = () => _lazyPage("./data/beruehmte-en/teil4.js", "yvesSaintLaurentPortraitPage");
+const christineLagardePortraitPage = () => _lazyPage("./data/beruehmte-en/teil18.js", "christineLagardePortraitPage");
+const rajanSankaranPortraitPage = () => _lazyPage("./data/beruehmte-en/teil7.js", "rajanSankaranPortraitPage");
+const johnBrownPortraitPage = () => _lazyPage("./data/beruehmte-en/teil11.js", "johnBrownPortraitPage");
+const heinoPortraitPage = () => _lazyPage("./data/beruehmte-en/teil3.js", "heinoPortraitPage");
+const michaelDouglasPortraitPage = () => _lazyPage("./data/beruehmte-en/teil2.js", "michaelDouglasPortraitPage");
+const ninaRugePortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "ninaRugePortraitPage");
+const aynRandPortraitPage = () => _lazyPage("./data/beruehmte-en/teil17.js", "aynRandPortraitPage");
+const clintEastwoodPortraitPage = () => _lazyPage("./data/beruehmte-en/teil12.js", "clintEastwoodPortraitPage");
+const victorHugoPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "victorHugoPortraitPage");
+const garyCooperPortraitPage = () => _lazyPage("./data/beruehmte-en/teil12.js", "garyCooperPortraitPage");
+const joergKachelmannPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "joergKachelmannPortraitPage");
+const jamesDeanPortraitPage = () => _lazyPage("./data/beruehmte-en/teil3.js", "jamesDeanPortraitPage");
+const steveMcQueenPortraitPage = () => _lazyPage("./data/beruehmte-en/teil11.js", "steveMcQueenPortraitPage");
+const karinThalerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil6.js", "karinThalerPortraitPage");
+const arzneimittelbilderPage = () => _lazyPage("./data/wissen-en/arzneimittelbilder.js", "arzneimittelbilderPage");
+const enneagrammAyurvedaPage = () => _lazyPage("./data/wissen-en/enneagramm-ayurveda.js", "enneagrammAyurvedaPage");
+const spirituellesEnneagrammPage = () => _lazyPage("./data/wissen-en/spirituelles-enneagramm.js", "spirituellesEnneagrammPage");
+const endeDerSuchePage = () => _lazyPage("./data/praxistipps-en/ende-der-suche.js", "endeDerSuchePage");
+const wasIstLiebePage = () => _lazyPage("./data/praxistipps-en/was-ist-liebe.js", "wasIstLiebePage");
+ _lazyPage("./data/praxistipps-en/kino-erwachen.js", "kinoErwachenPage");
+const albertBrooksPortraitPage = () => _lazyPage("./data/beruehmte-en/teil18.js", "albertBrooksPortraitPage");
+const emilyBluntPortraitPage = () => _lazyPage("./data/beruehmte-en/teil7.js", "emilyBluntPortraitPage");
+const rjMittePortraitPage = () => _lazyPage("./data/beruehmte-en/teil13.js", "rjMittePortraitPage");
+const sulliPortraitPage = () => _lazyPage("./data/beruehmte-en/teil4.js", "sulliPortraitPage");
+const johnNeumeierPortraitPage = () => _lazyPage("./data/beruehmte-en/teil14.js", "johnNeumeierPortraitPage");
+const marthaGrahamPortraitPage = () => _lazyPage("./data/beruehmte-en/teil1.js", "marthaGrahamPortraitPage");
 const ruthBaderGinsburgPortraitPage = () => _lazyPage("./data/beruehmte-en/teil1.js", "ruthBaderGinsburgPortraitPage");
 const stephenHawkingPortraitPage = () => _lazyPage("./data/beruehmte-en/teil1.js", "stephenHawkingPortraitPage");
 const timCluttonBrockPortraitPage = () => _lazyPage("./data/beruehmte-en/teil1.js", "timCluttonBrockPortraitPage");
@@ -211,6 +298,7 @@ const adeleNeuhauserPortraitPage = () => _lazyPage("./data/beruehmte-en/teil4.js
 const angelaMerkelPortraitPage = () => _lazyPage("./data/beruehmte-en/teil4.js", "angelaMerkelPortraitPage");
 const michelFoucaultPortraitPage = () => _lazyPage("./data/beruehmte-en/teil4.js", "michelFoucaultPortraitPage");
 const billGatesPortraitPage = () => _lazyPage("./data/beruehmte-en/teil4.js", "billGatesPortraitPage");
+const methodManPortraitPage = () => _lazyPage("./data/beruehmte-en/teil8.js", "methodManPortraitPage");
 const carlosSantanaPortraitPage = () => _lazyPage("./data/beruehmte-en/teil4.js", "carlosSantanaPortraitPage");
 const clemensArvayPortraitPage = () => _lazyPage("./data/beruehmte-en/teil4.js", "clemensArvayPortraitPage");
 const dieterBohlenPortraitPage = () => _lazyPage("./data/beruehmte-en/teil4.js", "dieterBohlenPortraitPage");
@@ -317,6 +405,7 @@ const stringerDavisPortraitPage = () => _lazyPage("./data/beruehmte-en/teil6.js"
 const oliverHardyPortraitPage = () => _lazyPage("./data/beruehmte-en/teil6.js", "oliverHardyPortraitPage");
 const ellenMoonsPortraitPage = () => _lazyPage("./data/beruehmte-en/teil6.js", "ellenMoonsPortraitPage");
 const arnoldSchwarzeneggerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil6.js", "arnoldSchwarzeneggerPortraitPage");
+const johnCusackPortraitPage = () => _lazyPage("./data/beruehmte-en/teil13.js", "johnCusackPortraitPage");
 const sigourneyWeaverPortraitPage = () => _lazyPage("./data/beruehmte-en/teil6.js", "sigourneyWeaverPortraitPage");
 const lorneGreenePortraitPage = () => _lazyPage("./data/beruehmte-en/teil6.js", "lorneGreenePortraitPage");
 const veronicaFerresPortraitPage = () => _lazyPage("./data/beruehmte-en/teil6.js", "veronicaFerresPortraitPage");
@@ -1169,6 +1258,9 @@ const williamJamesKrankheitsportraetPage = () => _lazyPage("./data/krankheitspor
 const helmutSchmidtKrankheitsportraetPage = () => _lazyPage("./data/krankheitsportraets-en/teil6.js", "helmutSchmidtKrankheitsportraetPage");
 const wimThoelkeKrankheitsportraetPage = () => _lazyPage("./data/krankheitsportraets-en/teil6.js", "wimThoelkeKrankheitsportraetPage");
 const johannesPaulIIKrankheitsportraetPage = () => _lazyPage("./data/krankheitsportraets-en/teil6.js", "johannesPaulIIKrankheitsportraetPage");
+const bruceLeeKrankheitsportraetPage = () => _lazyPage("./data/krankheitsportraets-en/teil2.js", "bruceLeeKrankheitsportraetPage");
+const robbieColtraneKrankheitsportraetPage = () => _lazyPage("./data/krankheitsportraets-en/teil1.js", "robbieColtraneKrankheitsportraetPage");
+const wolfgangNiedeckenKrankheitsportraetPage = () => _lazyPage("./data/krankheitsportraets-en/teil2.js", "wolfgangNiedeckenKrankheitsportraetPage");
 const nikiLaudaKrankheitsportraetPage = () => _lazyPage("./data/krankheitsportraets-en/teil6.js", "nikiLaudaKrankheitsportraetPage");
 const eleanorRooseveltKrankheitsportraetPage = () => _lazyPage("./data/krankheitsportraets-en/teil6.js", "eleanorRooseveltKrankheitsportraetPage");
 const princeKrankheitsportraetPage = () => _lazyPage("./data/krankheitsportraets-en/teil6.js", "princeKrankheitsportraetPage");
@@ -1572,7 +1664,7 @@ const KRIMINAL_PORTRAITS = [
 // way would be tactless and would contradict the app's own disclaimer of "no determinism").
 const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-moliere", name:"Molière", subtyp:"SO7w6", heading:"Molière – Social Type 7", krankheit:"Chronic Lung Disease (presumably Tuberculosis)", teaser:"SO7w6 – French playwright and actor, 1622–1673. Creator of Tartuffe, The Misanthrope, and The Imaginary Invalid. Collapsed on stage during the fourth performance of The Imaginary Invalid – in the role of a hypochondriac – and died hours later of a lung ailment he had concealed for years." , land:"France", gender:"m", jahre:"1622–1673"},
-  { route:"krankheitsportraets-sigmund-freud", name:"Sigmund Freud", subtyp:"SO6w5", heading:"Sigmund Freud – Social Type 6", krankheit:"Oral and Jaw Cancer", teaser:"SO6w5 – founder of psychoanalysis, 1856–1939. Diagnosed with jaw cancer in 1923, over 30 surgeries in 16 years, kept smoking cigars despite the diagnosis and refused effective painkillers for years to stay mentally clear. Died in 1939 in London exile through physician-assisted death." , land:"Austria", gender:"m", jahre:"1856–1939"},
+  { route:"krankheitsportraets-sigmund-freud", name:"Dr. Sigmund Freud", subtyp:"SO6w5", heading:"Sigmund Freud – Social Type 6", krankheit:"Oral and Jaw Cancer", teaser:"SO6w5 – founder of psychoanalysis, 1856–1939. Diagnosed with jaw cancer in 1923, over 30 surgeries in 16 years, kept smoking cigars despite the diagnosis and refused effective painkillers for years to stay mentally clear. Died in 1939 in London exile through physician-assisted death." , land:"Austria", gender:"m", jahre:"1856–1939"},
   { route:"krankheitsportraets-marie-curie", name:"Marie Curie", subtyp:"SE5w6", heading:"Marie Curie – Self-Preservation Type 5", krankheit:"Aplastic Anemia from Chronic Radiation Exposure", teaser:"SP5w6 – physicist and chemist, 1867–1934. Decades of unprotected work with radioactive materials, radium samples carried in her coat pocket, notebooks still radioactive today. Died in 1934 of aplastic anemia, a direct consequence of the radiation exposure whose dangers she herself helped to uncover." , land:"Poland/France", gender:"f", jahre:"1867–1934"},
   { route:"krankheitsportraets-charles-darwin", name:"Charles Darwin", subtyp:"SE5w6", heading:"Charles Darwin – Self-Preservation Type 5", krankheit:"Chronic, Never Clearly Diagnosed Digestive and Exhaustion Complaints", teaser:"SP5w6 – naturalist and founder of the theory of evolution, 1809–1882. Nearly forty years of nausea, vomiting, heart palpitations, and exhaustion, never clearly diagnosed. Proposed causes range from Chagas disease to a psychosomatic origin rooted in radical withdrawal from the outside world." , land:"United Kingdom", gender:"m", jahre:"1809–1882"},
   { route:"krankheitsportraets-winston-churchill", name:"Winston Churchill", subtyp:"SE8w9", heading:"Winston Churchill – Self-Preservation Type 8", krankheit:"Lifelong Depression (\"the black dog\") and a Concealed Stroke While in Office", teaser:"SP8w9 – British statesman, Prime Minister 1940–1945 & 1951–1955, 1874–1965. Suffered a severe stroke while in office in 1953, which he kept concealed from the public and much of his own cabinet for weeks, and lived with recurring depression his entire life." , land:"United Kingdom", gender:"m", jahre:"1874–1965"},
@@ -1596,9 +1688,12 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-franz-kafka", name:"Franz Kafka", subtyp:"SE5w4", heading:"Franz Kafka – Self-Preservation Type 5", krankheit:"Laryngeal Tuberculosis", teaser:"SP5w4 – writer, 1883–1924. Diagnosed with tuberculosis in 1917, which eventually spread to his larynx and made speech impossible. Died in 1924 at age 40, communicating in his final weeks only through handwritten notes." , land:"Czechia/Austria-Hungary", gender:"m", jahre:"1883–1924"},
   { route:"krankheitsportraets-ronald-reagan", name:"Ronald Reagan", subtyp:"SO9w8", heading:"Ronald Reagan – Social Type 9", krankheit:"Alzheimer's Disease", teaser:"SO9w8 – 40th US President 1981–1989, 1911–2004. Announced his Alzheimer's diagnosis in 1994 in a handwritten letter to the American public, then withdrew almost entirely from public life for the following ten years." , land:"USA", gender:"m", jahre:"1911–2004"},
   { route:"krankheitsportraets-david-bowie", name:"David Bowie", subtyp:"SO1w2", heading:"David Bowie – Social Type 1", krankheit:"Liver Cancer", teaser:"SO1w2 – musician and artist, 1947–2016. Fought liver cancer in secret for 18 months and transformed the diagnosis into his final work, the album Blackstar, released two days before his death." , land:"United Kingdom", gender:"m", jahre:"1947–2016"},
+  { route:"krankheitsportraets-bruce-lee", name:"Bruce Lee", subtyp:"SO3w4", heading:"Bruce Lee – Social Type 3", krankheit:"Cerebral edema after a collapse in May 1973, death on 20 July 1973 (cause disputed to this day)", teaser:"SO3w4 – actor and martial arts teacher, 1940–1973. Collapsed with cerebral edema on 10 May 1973, kept working and died ten weeks later aged 32. Officially ‘death by misadventure’ after a reaction to a painkiller; later interpretations name heat stroke, hyponatremia or epilepsy." , land:"Hong Kong/USA", gender:"m", jahre:"1940–1973"},
+  { route:"krankheitsportraets-robbie-coltrane", name:"Robbie Coltrane", subtyp:"SE9w8", heading:"Robbie Coltrane – Self-Preservation Type 9", krankheit:"Osteoarthritis with cartilage loss in the knee, type 2 diabetes, death from multiple organ failure", teaser:"SE9w8 – actor (Hagrid, ‘Cracker’), 1950–2022. Lived for years with constant knee pain, in a wheelchair from 2019, kept working and died on 14 October 2022 aged 72 of multiple organ failure after sepsis – an elephant that carried its load without talking much about it." , land:"Scotland", gender:"m", jahre:"1950–2022"},
+  { route:"krankheitsportraets-wolfgang-niedecken", name:"Wolfgang Niedecken", subtyp:"SO1w2", heading:"Wolfgang Niedecken – Social Type 1", krankheit:"Stroke with massive speech disturbances (2011)", teaser:"SO1w2 – rock musician (BAP), b. 1951. Suffered a stroke on 2 November 2011 after a year full of obligations, at first had massive speech disturbances and returned to the stage in 2012 with the rescheduled tour. He called his book about it ‘Zugabe’ (‘Encore’) – a life divided into a before and an after." , land:"Germany", gender:"m", jahre:"b. 1951"},
   { route:"krankheitsportraets-niki-lauda", name:"Niki Lauda", subtyp:"SO1w2", heading:"Niki Lauda – Social Type 1", krankheit:"Burns and lung damage after the Nürburgring crash, kidney failure, lung transplant", teaser:"SO1w2 – racing driver and entrepreneur. Survived a fiery crash in 1976, returned after six weeks and then lived with two kidney transplants and a lung transplant until 2019 – a body treated by a standard of its own." , land:"Austria", gender:"m", jahre:"1949–2019"},
   { route:"krankheitsportraets-eleanor-roosevelt", name:"Eleanor Roosevelt", subtyp:"SO9w1", heading:"Eleanor Roosevelt – Social Type 9", krankheit:"Aplastic anaemia and disseminated tuberculosis", teaser:"SO9w1 – First Lady, diplomat and human rights advocate. Two last years with aplastic anaemia and a tuberculosis found late; a life for the cause that ended in a dispute over pills and tests for her own say." , land:"USA", gender:"f", jahre:"1884–1962"},
-  { route:"krankheitsportraets-prince", name:"Prince", subtyp:"SX4w3", heading:"Prince – Sexual Type 4", krankheit:"Accidental fentanyl overdose after years of pain", teaser:"SX4w3 – musician. Died in 2016 at 57 of an accidental fentanyl overdose, probably believing he was taking an ordinary painkiller; a case of pain that stayed hidden." , land:"USA", gender:"m", jahre:"1958–2016"},
+  { route:"krankheitsportraets-prince", name:"Prince Rogers Nelson", subtyp:"SX4w3", heading:"Prince Rogers Nelson – Sexual Type 4", krankheit:"Accidental fentanyl overdose after years of pain", teaser:"SX4w3 – musician. Died in 2016 at 57 of an accidental fentanyl overdose, probably believing he was taking an ordinary painkiller; a case of pain that stayed hidden." , land:"USA", gender:"m", jahre:"1958–2016"},
   { route:"krankheitsportraets-william-james-sidis", name:"William James Sidis", subtyp:"SO4w5", heading:"William James Sidis – Social Type 4", krankheit:"Cerebral haemorrhage at 46", teaser:"SO4w5 – mathematical prodigy. Withdrew after early fame and died in 1944 at 46 of a cerebral haemorrhage, like his father; sources on his health are thin." , land:"USA", gender:"m", jahre:"1898–1944"},
   { route:"krankheitsportraets-florence-nightingale", name:"Florence Nightingale", subtyp:"SO2w1", heading:"Florence Nightingale – Social Type 2", krankheit:"Crimean fever and chronic illness (brucellosis disputed)", teaser:"SO2w1 – founder of modern nursing, 1820–1910. Ill for decades after the fever of 1855, at times bedridden; from her room she planned hospitals and drove reforms. Readings range from brucellosis to bipolar disorder to post-traumatic stress disorder." , land:"United Kingdom", gender:"f", jahre:"1820–1910"},
   { route:"krankheitsportraets-camille-claudel", name:"Camille Claudel", subtyp:"SX4w5", heading:"Camille Claudel – Sexual Type 4", krankheit:"Mental illness and thirty years in asylums", teaser:"SX4w5 – French sculptor, 1864–1943. Withdrawal into a barricaded studio from about 1905, committal in March 1913 at the family's initiative and thirty years in asylums, although doctors in the 1920s considered discharge justifiable; the portrait holds illness and custody side by side as separate questions." , land:"France", gender:"f", jahre:"1864–1943"},
@@ -1609,7 +1704,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", subtyp:"SE2w3", heading:"Wolfgang Amadeus Mozart – Self-Preservation Type 2", krankheit:"Febrile Illness with Kidney Failure (likely following a streptococcal infection)", teaser:"SP2w3 – Austrian composer, 1756–1791. A lifelong chain of feverish illnesses since childhood (smallpox, typhoid fever, recurring scarlet fever) preceded his death at 35 after a two-week illness with fever and generalized swelling – while he was working on three major works at once, including the unfinished Requiem." , land:"Austria", gender:"m", jahre:"1756–1791"},
   { route:"krankheitsportraets-nusrat-fateh-ali-khan", name:"Nusrat Fateh Ali Khan", subtyp:"SE2w3", heading:"Nusrat Fateh Ali Khan – Self-Preservation Type 2", krankheit:"Diabetes with progressive kidney failure and liver damage from contaminated dialysis", teaser:"SP2w3 – Pakistani Qawwali singer, 1948–1997. Years of untreated, progressing diabetes and significant weight gain led to kidney failure and twice-weekly dialysis. Died in 1997 at age 48 from acute cardiac arrest following a hepatitis infection contracted through contaminated dialysis equipment, on the way to a planned kidney transplant." , land:"Pakistan", gender:"m", jahre:"1948–1997"},
   { route:"krankheitsportraets-marilyn-monroe", name:"Marilyn Monroe", subtyp:"SX3w4", heading:"Marilyn Monroe – Sexual Type 3", krankheit:"Fatal combination of barbiturates (Nembutal) and chloral hydrate, officially classified as probable suicide", teaser:"SX3w4 – actress, 1926–1962. Endometriosis hidden for years behind a flawless image, escalating dependency on sleeping pills, a forced psychiatric hospitalization in 1961. Died in 1962 at 36 – the exact circumstances of her death remain disputed to this day." , land:"USA", gender:"f", jahre:"1926–1962"},
-  { route:"krankheitsportraets-albert-einstein", name:"Albert Einstein", subtyp:"SO5w4", heading:"Albert Einstein – Social Type 5", krankheit:"Abdominal aortic aneurysm, known for over six and a half years and only palliatively stabilized, fatal rupture in 1955", teaser:"SO5w4 – physicist, Nobel laureate, 1879–1955. Diagnosed in 1948, he lived for years with a known, never curatively treated threat. In 1955 he deliberately declined a further operation and died days later of the ruptured aneurysm – working until the end." , land:"Germany/USA", gender:"m", jahre:"1879–1955"},
+  { route:"krankheitsportraets-albert-einstein", name:"Dr. Albert Einstein", subtyp:"SO5w4", heading:"Albert Einstein – Social Type 5", krankheit:"Abdominal aortic aneurysm, known for over six and a half years and only palliatively stabilized, fatal rupture in 1955", teaser:"SO5w4 – physicist, Nobel laureate, 1879–1955. Diagnosed in 1948, he lived for years with a known, never curatively treated threat. In 1955 he deliberately declined a further operation and died days later of the ruptured aneurysm – working until the end." , land:"Germany/USA", gender:"m", jahre:"1879–1955"},
   { route:"krankheitsportraets-hannah-arendt", name:"Hannah Arendt", subtyp:"SO5w4", heading:"Hannah Arendt – Social Type 5", krankheit:"Coronary artery disease from decades of smoking, second heart attack fatal", teaser:"SO5w4 – political theorist, 1906–1975. Lifelong chain smoker, nearly fatal first heart attack in 1974, continued smoking despite medical warning. Died on December 4, 1975, of a second heart attack while serving coffee to guests.", land:"Germany/USA", gender:"f", jahre:"1906–1975"},
   { route:"krankheitsportraets-david-hockney", name:"David Hockney", subtyp:"SO5w4", heading:"David Hockney – Social Type 5", krankheit:"Progressive hearing loss since the 1970s, 2012 stroke with temporary speech impairment", teaser:"SO5w4 – painter, 1937–2026. Gradual hearing loss over decades, 2012 stroke (noticed through unfinished sentences), recovered and kept working unabated into old age. Died in 2026 at age 88, cause of death not officially confirmed.", land:"United Kingdom", gender:"m", jahre:"1937–2026"},
   { route:"krankheitsportraets-dmitri-schostakowitsch", name:"Dmitri Shostakovich", subtyp:"SO5w4", heading:"Dmitri Shostakovich – Social Type 5", krankheit:"Nerve disorder of the right hand progressing over two decades and never reliably diagnosed, several heart attacks, lung cancer of a lifelong smoker", teaser:"SO5w4 – Soviet composer, 1906–1975. From the mid-1950s a weakening right hand (a pianist), changing diagnoses from polio to motor neuron disease, heart attacks from 1966, treatment under Ilizarov in Kurgan in 1970, smoking and vodka to the end. Kept composing – Symphony No. 14 in hospital, Viola Sonata five weeks before his death on 9 August 1975.", land:"Soviet Union", gender:"m", jahre:"1906–1975"},
@@ -1728,13 +1823,13 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-morgan-freeman", name:"Morgan Freeman", subtyp:"SX7w6", heading:"Morgan Freeman – Sexual Type 7", krankheit:"Fibromyalgia with chronic nerve pain in the left arm since 2008", teaser:"SX7w6 – actor, b. 1937. Severe car accident in 2008 with nerve damage to the left hand, subsequent fibromyalgia diagnosis with chronic pain, since then a publicly visible compression glove." , land:"USA", gender:"m", jahre:"b. 1937"},
   { route:"krankheitsportraets-junko-tabei", name:"Junko Tabei", subtyp:"SE7w6", heading:"Junko Tabei – Self-Preservation Type 7", krankheit:"Peritoneal cancer, continued mountaineering until death", teaser:"SP7w6 – mountaineer, first woman to summit Mount Everest, 1939–2016. Peritoneal cancer diagnosis in 2012, still climbed mountains worldwide until 2015 and continued her commitment to young people from Fukushima. Died in 2016 at age 77." , land:"Japan", gender:"f", jahre:"1939–2016"},
   { route:"krankheitsportraets-mariah-carey", name:"Mariah Carey", subtyp:"SE7w8", heading:"Mariah Carey – Self-Preservation Type 7", krankheit:"Bipolar II disorder, diagnosed 2001, made public 2018", teaser:"SP7w8 – singer, b. 1969. Diagnosed with bipolar II disorder in 2001 after a psychological breakdown and hospitalizations, kept the diagnosis secret for 17 years, made it public in 2018." , land:"USA", gender:"f", jahre:"b. 1969"},
-  { route:"krankheitsportraets-christiaan-barnard", name:"Christiaan Barnard", subtyp:"SO3w2", heading:"Christiaan Barnard – Social Type 3", krankheit:"Rheumatoid arthritis in the hands since 1956, ended surgical career in 1983", teaser:"SO3w2 – heart surgeon, first successful heart transplant in 1967, 1922–2001. Rheumatoid arthritis since 1956, increasing involvement of the hands forced him to retire from surgery in 1983. Died in 2001 at age 78." , land:"South Africa", gender:"m", jahre:"1922–2001"},
+  { route:"krankheitsportraets-christiaan-barnard", name:"Dr. Christiaan Barnard", subtyp:"SO3w2", heading:"Christiaan Barnard – Social Type 3", krankheit:"Rheumatoid arthritis in the hands since 1956, ended surgical career in 1983", teaser:"SO3w2 – heart surgeon, first successful heart transplant in 1967, 1922–2001. Rheumatoid arthritis since 1956, increasing involvement of the hands forced him to retire from surgery in 1983. Died in 2001 at age 78." , land:"South Africa", gender:"m", jahre:"1922–2001"},
   { route:"krankheitsportraets-anthony-hopkins", name:"Anthony Hopkins", subtyp:"SE1w9", heading:"Anthony Hopkins – Self-Preservation Type 1", krankheit:"Alcoholism, sober since 1975", teaser:"SP1w9 – actor, b. 1937. Severe alcohol addiction until a turning point in 1975, by his own account continuously sober ever since – over five decades." , land:"United Kingdom/USA", gender:"m", jahre:"b. 1937"},
   { route:"krankheitsportraets-byron-katie", name:"Byron Katie", subtyp:"SX6w7", heading:"Byron Katie – Sexual Type 6", krankheit:"Ten years of severe depression and agoraphobia, turning point in 1986", teaser:"SX6w7 – author, founder of 'The Work,' b. 1942. Roughly ten years of severe depression and agoraphobia, a decisive turning point in a facility in 1986, from which her later method emerged." , land:"USA", gender:"f", jahre:"b. 1942"},
   { route:"krankheitsportraets-drew-barrymore", name:"Drew Barrymore", subtyp:"SO7w8", heading:"Drew Barrymore – Social Type 7", krankheit:"Childhood addiction, clinic admission in 1988 at age 13", teaser:"SO7w8 – actress, b. 1975. Alcohol and drug addiction beginning already in childhood, admitted to a rehabilitation clinic in 1988 at age 13, legally emancipated from her parents at 14." , land:"USA", gender:"f", jahre:"b. 1975"},
   { route:"krankheitsportraets-neil-armstrong", name:"Neil Armstrong", subtyp:"SE6w5", heading:"Neil Armstrong – Self-Preservation Type 6", krankheit:"Over two decades of coronary heart disease, death after bypass surgery", teaser:"SP6w5 – astronaut, first man on the moon, 1930–2012. Heart attack in 1991, over two decades of progressive coronary heart disease, emergency quadruple bypass surgery in August 2012, died a few days later from complications." , land:"USA", gender:"m", jahre:"1930–2012"},
   { route:"krankheitsportraets-robbie-williams", name:"Robbie Williams", subtyp:"SX1w2", heading:"Robbie Williams – Sexual Type 1", krankheit:"Decades of depression and addiction (alcohol, cocaine, ecstasy)", teaser:"SX1w2 – musician, b. 1974. Severe depression and addiction since the early 1990s, multiple rehab treatments, processed in detail in a four-part Netflix documentary in 2023." , land:"United Kingdom", gender:"m", jahre:"b. 1974"},
-  { route:"krankheitsportraets-frans-de-waal", name:"Frans de Waal", subtyp:"SX7w6", heading:"Frans de Waal – Sexual Type 7", krankheit:"Stomach cancer, continued working until a few months before death", teaser:"SX7w6 – primatologist, 1948–2024. Stomach cancer diagnosis in August 2023, remained publicly and scientifically active, died on March 14, 2024, at age 75." , land:"Netherlands/USA", gender:"m", jahre:"1948–2024"},
+  { route:"krankheitsportraets-frans-de-waal", name:"Prof. Dr. Frans de Waal", subtyp:"SX7w6", heading:"Frans de Waal – Sexual Type 7", krankheit:"Stomach cancer, continued working until a few months before death", teaser:"SX7w6 – primatologist, 1948–2024. Stomach cancer diagnosis in August 2023, remained publicly and scientifically active, died on March 14, 2024, at age 75." , land:"Netherlands/USA", gender:"m", jahre:"1948–2024"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Self-Preservation Type 8", krankheit:"Kidney failure, stroke", teaser:"SP8w9 – boss of Cosa Nostra, 1930–2017. Progressive kidney failure, a stroke in 2017, repeatedly denied requests for release on medical grounds. Died on November 17, 2017, in the hospital wing of Parma prison." , land:"Italy", gender:"m", jahre:"1930–2017"},
   { route:"krankheitsportraets-dolly-parton", name:"Dolly Parton", subtyp:"SX3w4", heading:"Dolly Parton – Sexual Type 3", krankheit:"Endometriosis since the early 1980s, later cancer", teaser:"SX3w4 – singer, songwriter, 1946–2026. Endometriosis diagnosed in the early 1980s with a partial hysterectomy in 1985, decades of recurring health crises. Died on August 25, 2026, following a brief battle with cancer. Connected to Marilyn Monroe (also SX3w4, also endometriosis)." , land:"USA", gender:"f", jahre:"1946–2026"},
   { route:"krankheitsportraets-brigitte-bardot", name:"Brigitte Bardot", subtyp:"SX3w2", heading:"Brigitte Bardot – Sexual Type 3", krankheit:"Never publicly named cancer diagnosis, two surgeries in 2025, decades of chronic back pain", teaser:"SX3w2 – actress and animal-rights activist, 1934–2025. Hospitalized in October 2025 and personally denied death rumors, died of cancer in December 2025 – diagnosis confirmed by her husband but never publicly named." , land:"France", gender:"f", jahre:"1934–2025"},
@@ -1918,6 +2013,14 @@ const BERUEHMT_PORTRAITS = [
     heading:"Klaus Maria Brandauer \u2013 Sexual Type 7",
     teaser:"SX7w8 \u00b7 born 1943 in Bad Aussee. Austrian actor and director (\u2018Mephisto\u2019, \u2018Out of Africa\u2019, Burgtheater, Jedermann). The Chimpanzee who throws himself completely into his roles.",
     land:"Austria", tags:["Schauspiel"], gender:"m"},
+{ route:"beruehmte-mireille-mathieu", name:"Mireille Mathieu", added:"2026-10-29", subtyp:"SE3w2",
+    heading:"Mireille Mathieu \u2013 Self-Preservation Type 3",
+    teaser:"SP3w2 \u00b7 born 1946 in Avignon. French chanson singer, the \u2018Sparrow of Avignon\u2019 (\u2018Hinter den Kulissen von Paris\u2019, \u2018La Paloma ad\u00e9\u2019). The Raccoon who as a stonemason\u2019s child lost twice, saved from factory work for singing lessons and goes on a farewell tour at eighty.",
+    land:"France", tags:["Music"], gender:"f"},
+{ route:"beruehmte-elke-sommer", name:"Elke Sommer", added:"2026-10-29", subtyp:"SX7w6",
+    heading:"Elke Sommer \u2013 Sexual Type 7",
+    teaser:"SX7w6 \u00b7 1940\u20132026. German actress, singer and painter (\u2018The Prize\u2019, \u2018A Shot in the Dark\u2019). The Chimpanzee who leapt from the parsonage to Hollywood and carried her zest for life into old age.",
+    land:"Germany", tags:["Schauspiel"], gender:"f"},
 { route:"beruehmte-rosalie-thomass", name:"Rosalie Thomass", added:"2026-10-25", subtyp:"SX7w8",
     heading:"Rosalie Thomass \u2013 Sexual Type 7",
     teaser:"SX7w8 \u00b7 born 1987 in Munich. German actress and screenwriter (\u2018Eine unerh\u00f6rte Frau\u2019, \u2018L\u00fcgen \u00fcber meine Mutter\u2019, Franconia Tatort). The Chimpanzee who tries many things at once and uses anger as strength.",
@@ -1938,6 +2041,118 @@ const BERUEHMT_PORTRAITS = [
     heading:"Art Garfunkel \u2013 Sexual Type 9",
     teaser:"SX9w1 \u00b7 born 1941 in New York. American singer, poet and actor (Simon & Garfunkel, \u2018Bright Eyes\u2019). The Sloth who moves calmly in the duo and on long walks.",
     land:"USA", tags:["Musik"], gender:"m"},
+{ route:"beruehmte-john-neumeier", name:"John Neumeier", added:"2026-10-26", subtyp:"SE4w5",
+    heading:"John Neumeier \u2013 Self-Preservation Type 4",
+    teaser:"SP4w5 \u00b7 born 1939 in Milwaukee. Choreographer and ballet director, Hamburg Ballet 1973\u20132024 (\u2018Nijinsky\u2019, \u2018The Lady of the Camellias\u2019). The Dove who puts her depth quietly into works.",
+    land:"USA/Germany", tags:["Tanz"], gender:"m"},
+{ route:"beruehmte-ayn-rand", name:"Ayn Rand", added:"2026-10-28", subtyp:"SX1w9",
+    heading:"Ayn Rand – Sexual Type 1",
+    teaser:"SX1w9 · 1905–1982. Russian-American novelist and philosopher (‘The Fountainhead’, ‘Atlas Shrugged’), founder of Objectivism. The black mamba that built her life around a single conviction.",
+    land:"Russland/USA", tags:["Literatur","Wissenschaft"], gender:"f"},
+  { route:"beruehmte-clint-eastwood", name:"Clint Eastwood", added:"2026-10-29", subtyp:"SX1w9",
+    heading:"Clint Eastwood – Sexual Type 1",
+    teaser:"SX1w9 · b. 1930. American actor and director (‘Dirty Harry’, ‘Unforgiven’, ‘Million Dollar Baby’). The black mamba that quietly says ‘Go ahead’ and shoots with few takes.",
+    land:"USA", tags:["Film","Regie"], gender:"m"},
+{ route:"beruehmte-nina-ruge", name:"Nina Ruge", added:"2026-10-28", subtyp:"SX6w7",
+    heading:"Nina Ruge – Sexual Type 6",
+    teaser:"SX6w7 · b. 1956 in Munich. German television presenter and author (‘heute-journal’, ‘Leute heute’, ‘Alles wird gut’), UNICEF ambassador. The wolf that traded the secure teaching career for the world of media.",
+    land:"Deutschland", tags:["Medien"], gender:"f"},
+{ route:"beruehmte-michael-douglas", name:"Michael Douglas", added:"2026-10-28", subtyp:"SO1w9",
+    heading:"Michael Douglas – Social Type 1",
+    teaser:"SO1w9 · b. 1944 in New Brunswick. American actor and producer (‘Wall Street’, ‘One Flew Over the Cuckoo's Nest’), UN Messenger of Peace since 1998. The goose that put stories about institutions and conscience on the screen.",
+    land:"USA", tags:["Schauspiel","Film"], gender:"m"},
+{ route:"beruehmte-heino", name:"Heino", added:"2026-10-28", subtyp:"SX3w2",
+    heading:"Heino – Sexual Type 3",
+    teaser:"SX3w2 · b. 1938 in Düsseldorf. German singer (‘Blau blüht der Enzian’), over 55 million records, a stage persona with sunglasses. The peacock who invites his audience to sing along and is still on tour at 87.",
+    land:"Deutschland", tags:["Musik"], gender:"m"},
+{ route:"beruehmte-john-brown", name:"John Brown", added:"2026-10-28", subtyp:"SX1w9",
+    heading:"John Brown – Sexual Type 1",
+    teaser:"SX1w9 · 1800–1859. American abolitionist, leader of the raid on Harpers Ferry, hanged in 1859. The Black Mamba whose zeal became armed action; judged to this day as hero and as terrorist.",
+    land:"USA", tags:["Politik"], gender:"m"},
+{ route:"beruehmte-rajan-sankaran", name:"Dr. Rajan Sankaran", added:"2026-10-28", subtyp:"SO5w6",
+    heading:"Rajan Sankaran – Social Type 5",
+    teaser:"SO5w6 · b. 1960 in Mumbai. Indian homeopath, founder of the Sensation Method (seven levels, kingdoms, miasms). The octopus with the map for case-taking.",
+    land:"Indien", tags:["Homöopathie"], gender:"m"},
+{ route:"beruehmte-gertrud-hoehler", name:"Prof. Gertrud Höhler", added:"2026-10-28", subtyp:"SX1w2",
+    heading:"Gertrud Höhler – Sexual Type 1",
+    teaser:"SX1w2 · b. 1941 in Wuppertal. Literary scholar, author and consultant (‘Die Patin’, ‘Baden-Badener Disput’). The Black Mamba that carried its zeal into conversation and advice.",
+    land:"Deutschland", tags:["Literatur","Politik"], gender:"f"},
+{ route:"beruehmte-christine-lagarde", name:"Christine Lagarde", added:"2026-10-28", subtyp:"SX1w2",
+    heading:"Christine Lagarde \u2013 Sexual Type 1",
+    teaser:"SX1w2 \u00b7 b. 1956 in Paris. Lawyer, politician and central banker, the first woman to lead the IMF and the ECB. The Black Mamba whose zeal lies in negotiation and form.",
+    land:"Frankreich", tags:["Politik","Wirtschaft"], gender:"f"},
+{ route:"beruehmte-yves-saint-laurent", name:"Yves Saint Laurent", added:"2026-10-28", subtyp:"SX1w2",
+    heading:"Yves Saint Laurent \u2013 Sexual Type 1",
+    teaser:"SX1w2 \u00b7 1936\u20132008. French fashion designer (\u2018Le Smoking\u2019, Mondrian dress, Rive Gauche). The Black Mamba that put its strictness entirely into one craft and dressed women anew.",
+    land:"Frankreich", tags:["Mode"], gender:"m"},
+{ route:"beruehmte-michele-lamy", name:"Mich\u00e8le Lamy", added:"2026-10-28", subtyp:"SX1w2",
+    heading:"Mich\u00e8le Lamy \u2013 Sexual Type 1",
+    teaser:"SX1w2 \u00b7 b. 1944 in the Jura. French-American artist, host and fashion designer (Lamyland, Owenscorp). The Black Mamba that lives its lifestyle without compromise and gathers people around it.",
+    land:"Frankreich/USA", tags:["Kunst","Mode"], gender:"f"},
+{ route:"beruehmte-maria-schaumayer", name:"Maria Schaumayer", added:"2026-10-28", subtyp:"SX1w9",
+    heading:"Maria Schaumayer \u2013 Sexual Type 1",
+    teaser:"SX1w9 \u00b7 1931\u20132013. Austrian economist, banker and politician, the world\u2019s first female central bank president. The Black Mamba that saw its tasks through with persistence and charm.",
+    land:"\u00d6sterreich", tags:["Politik","Wirtschaft"], gender:"f"},
+{ route:"beruehmte-linda-hamilton", name:"Linda Hamilton", added:"2026-10-28", subtyp:"SX1w9",
+    heading:"Linda Hamilton \u2013 Sexual Type 1",
+    teaser:"SX1w9 \u00b7 b. 1956 in Salisbury, Maryland. American actress (Sarah Connor in \u2018The Terminator\u2019). The Black Mamba that carried its hardness in the role and sought stillness in private.",
+    land:"USA", tags:["Schauspiel","Film"], gender:"f"},
+{ route:"beruehmte-annie-lennox", name:"Annie Lennox", added:"2026-10-28", subtyp:"SX1w2",
+    heading:"Annie Lennox \u2013 Sexual Type 1",
+    teaser:"SX1w2 \u00b7 b. 1954 in Aberdeen. Scottish singer, songwriter and activist (Eurythmics, \u2018Sweet Dreams\u2019). The Black Mamba that puts its dark voice and its fame at the service of clearly defined causes.",
+    land:"Gro\u00dfbritannien", tags:["Musik"], gender:"f"},
+{ route:"beruehmte-james-blunt", name:"James Blunt", added:"2026-10-27", subtyp:"SO1w2",
+    heading:"James Blunt \u2013 Social Type 1",
+    teaser:"SO1w2 \u00b7 b. 1974. British singer-songwriter and former army officer (\u2018You\u2019re Beautiful\u2019). The Goose that would have refused an order and carried its stance with self-irony and warmth.",
+    land:"Gro\u00dfbritannien", tags:["Musik"], gender:"m"},
+{ route:"beruehmte-georg-preusse", name:"Georg Preusse (Mary)", added:"2026-10-27", subtyp:"SX2w3",
+    heading:"Georg Preusse (\u2018Mary\u2019) \u2013 Sexual Type 2",
+    teaser:"SX2w3 \u00b7 b. 1950 in Ankum. Actor and drag performer (\u2018Mary & Gordy\u2019, \u2018Mary\u2019). The Camel that, as a rejected son, created affection for a whole hall on stage and later moved into spoken theatre.",
+    land:"Deutschland/Schweiz", tags:["Schauspiel","Film"], gender:"m"},
+{ route:"beruehmte-mariele-millowitsch", name:"Mariele Millowitsch", added:"2026-10-27", subtyp:"SX9w1",
+    heading:"Mariele Millowitsch \u2013 Sexual Type 9",
+    teaser:"SX9w1 \u00b7 b. 1955 in Cologne. Actress and veterinarian (\u2018Nikola\u2019, \u2018girl friends\u2019, \u2018Marie Brand\u2019). The Sloth that binds itself to a few long-running roles and to dogs, and carried calm out of the folk actor\u2019s loud house.",
+    land:"Deutschland", tags:["Schauspiel","Film"], gender:"f"},
+{ route:"beruehmte-james-stewart", name:"James Stewart", added:"2026-10-26", subtyp:"SX9w1",
+    heading:"James Stewart \u2013 Sexual Type 9",
+    teaser:"SX9w1 \u00b7 1908\u20131997. American actor and pilot (\u2018Mr. Smith Goes to Washington\u2019, \u2018It\u2019s a Wonderful Life\u2019). The Sloth who turned into the decent everyman and showed his vulnerability in the quiet.",
+    land:"USA", tags:["Schauspiel","Film"], gender:"m"},
+{ route:"beruehmte-gary-cooper", name:"Gary Cooper", added:"2026-10-26", subtyp:"SX9w1",
+    heading:"Gary Cooper \u2013 Sexual Type 9",
+    teaser:"SX9w1 \u00b7 1901\u20131961. American actor (\u2018High Noon\u2019, \u2018Sergeant York\u2019). The Sloth who let himself fall into his roles and became a legend as the calm, decent Western hero.",
+    land:"USA", tags:["Schauspiel","Film"], gender:"m"},
+{ route:"beruehmte-james-dean", name:"James Dean", added:"2026-10-26", subtyp:"SX4w3",
+    heading:"James Dean \u2013 Sexual Type 4",
+    teaser:"SX4w3 \u00b7 1931\u20131955. American actor (\u2018East of Eden\u2019, \u2018Rebel Without a Cause\u2019, \u2018Giant\u2019). The Chihuahua who turned longing and vulnerability into the image of a generation and died at 24.",
+    land:"USA", tags:["Schauspiel","Film"], gender:"m"},
+{ route:"beruehmte-steve-mcqueen", name:"Steve McQueen", added:"2026-10-26", subtyp:"SX6w7",
+    heading:"Steve McQueen \u2013 Sexual Type 6",
+    teaser:"SX6w7 \u00b7 1930\u20131980. American actor and racing driver (\u2018Bullitt\u2019, \u2018The Great Escape\u2019). The Wolf who as an abandoned child made strength his shield and became the \u2018King of Cool\u2019.",
+    land:"USA", tags:["Schauspiel","Film"], gender:"m"},
+{ route:"beruehmte-karin-thaler", name:"Karin Thaler", added:"2026-10-26", subtyp:"SX2w3",
+    heading:"Karin Thaler \u2013 Sexual Type 2",
+    teaser:"SX2w3 \u00b7 born 1965 in Deggendorf. German actress (Marie Hofer in \u2018Die Rosenheim-Cops\u2019, \u2018Hubert und Staller\u2019). The Camel who carried a double role as daughter and actress.",
+    land:"Germany", tags:["Schauspiel"], gender:"f"},
+{ route:"beruehmte-albert-brooks", name:"Albert Brooks", added:"2026-10-26", subtyp:"SO6w7",
+    heading:"Albert Brooks \u2013 Social Type 6",
+    teaser:"SO6w7 \u00b7 born 1947 in Beverly Hills. American comedian, director and actor (\u2018Lost in America\u2019, \u2018Broadcast News\u2019, \u2018Drive\u2019). The Meerkat who turns the group's anxiety into a punchline.",
+    land:"USA", tags:["Schauspiel","Film","Regie"], gender:"m"},
+{ route:"beruehmte-emily-blunt", name:"Emily Blunt", added:"2026-10-26", subtyp:"SX6w5",
+    heading:"Emily Blunt \u2013 Sexual Type 6",
+    teaser:"SX6w5 \u00b7 born 1983 in London. British-American actress (\u2018The Devil Wears Prada\u2019, \u2018A Quiet Place\u2019, \u2018Oppenheimer\u2019). The Wolf who as a stammering child took the road onto the stage.",
+    land:"UK/USA", tags:["Schauspiel","Film"], gender:"f"},
+{ route:"beruehmte-rj-mitte", name:"RJ Mitte", added:"2026-10-26", subtyp:"SX2w3",
+    heading:"RJ Mitte \u2013 Sexual Type 2",
+    teaser:"SX2w3 \u00b7 1992\u20132026. American actor (Walter White Jr. in \u2018Breaking Bad\u2019), advocate for inclusion. The Camel who took on responsibility early and made disability visible without self-pity.",
+    land:"USA", tags:["Schauspiel","Film"], gender:"m"},
+{ route:"beruehmte-sulli", name:"Sulli", added:"2026-10-26", subtyp:"SE3w2",
+    heading:"Sulli \u2013 Self-Preservation Type 3",
+    teaser:"SP3w2 \u00b7 1994\u20132019. South Korean singer and actress (f(x), \u2018Real\u2019, \u2018Goblin\u2019). The Raccoon who put the expected idol image at risk and wanted otherness to be visible.",
+    land:"South Korea", tags:["Musik","Schauspiel"], gender:"f"},
+{ route:"beruehmte-martha-graham", name:"Martha Graham", added:"2026-10-26", subtyp:"SO4w3",
+    heading:"Martha Graham \u2013 Social Type 4",
+    teaser:"SO4w3 \u00b7 1894\u20131991. Dancer and choreographer, mother of modern dance (\u2018Lamentation\u2019, \u2018Appalachian Spring\u2019). The Armadillo who carries pain and otherness onto the big stage.",
+    land:"USA", tags:["Tanz"], gender:"f"},
 { route:"beruehmte-christoph-waltz", name:"Christoph Waltz", subtyp:"SE1w2",
     heading:"Christoph Waltz – Self-Preservation Type 1",
     teaser:"SP1w2 · “The Eagle”, born 1956. Two-time Oscar winner for Inglourious Basterds and Django Unchained. Fifty years of craft, a lifetime of inner precision – then the moment the eagle had been waiting for. Animal correspondence: Eagle.",
@@ -1950,6 +2165,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Arnold Schwarzenegger – Self-Preservation Type 1",
     teaser:"SP1w2 · born 1947 in Thal, Austria. Seven-time Mr. Olympia champion, Hollywood star, Governor of California 2003–2011. Iron self-discipline across three completely different careers. The eagle who built his own body.",
     land:"Austria/USA", tags:["Sport","Acting","Politics","Bodybuilding"], gender:"m"},
+{ route:"beruehmte-john-cusack", name:"John Cusack", added:"2026-10-29", subtyp:"SO7w6",
+    heading:"John Cusack \u2013 Social Type 7",
+    teaser:"SO7w6 \u00b7 born 1966 in Evanston. American actor, producer and writer (\u2018Say Anything...\u2019, \u2018High Fidelity\u2019, \u2018Grosse Pointe Blank\u2019). The Beaver who built his own vehicles and moved from studio film to the graphic novel.",
+    land:"USA", tags:["Schauspiel"], gender:"m"},
 { route:"beruehmte-sigourney-weaver", name:"Sigourney Weaver", added:"2026-09-24", subtyp:"SO7w6",
     heading:"Sigourney Weaver – Social Type 7",
     teaser:"SO7w6 · born 1949 in New York City. Actress, Ellen Ripley in four \"Alien\" films, decades-long commitment to mountain gorillas and ocean conservation. The beaver who lives variety as duty.",
@@ -2039,7 +2258,7 @@ const BERUEHMT_PORTRAITS = [
   land:"Germany", tags:["Sport"], gender:"m"},
 { route:"beruehmte-patrick-stewart", name:"Sir Patrick Stewart", added:"2026-10-24", subtyp:"SX7w8",
   heading:"Sir Patrick Stewart \u2013 Sexual Type 7",
-  teaser:"SX7w8 \u00b7 b. 1940. British actor (Captain Picard, Professor X, Shakespeare). The chimpanzee as Realist, who turned the flight from violence at home into devotion to transformation.",
+  teaser:"SX7w8 \u00b7 1940\u20132026. British actor (Captain Picard, Professor X, Shakespeare). The chimpanzee as Realist, who turned the flight from violence at home into devotion to transformation.",
   land:"United Kingdom", tags:["Schauspiel","Film"], gender:"m"},
 { route:"beruehmte-mike-tyson", name:"Mike Tyson", added:"2026-10-24", subtyp:"SE7w8",
   heading:"Mike Tyson \u2013 Self-Preservation Type 7",
@@ -2741,6 +2960,14 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ai Weiwei – Self-Preservation Type 2",
     teaser:"SP2w3 · b. 1957. Chinese artist and activist, Sunflower Seeds, Human Flow, 81 days detained in 2011. The hippopotamus defends its territory – publicly, fearlessly, with an eye on reaching as many people as possible. Animal correspondence: Hippopotamus.",
     land:"China", tags:["Art","Activism"], gender:"m"},
+{ route:"beruehmte-method-man", name:"Method Man", added:"2026-10-29", subtyp:"SE2w3",
+    heading:"Method Man \u2013 Self-Preservation Type 2",
+    teaser:"SP2w3 \u00b7 born 1971 on Long Island. American rapper and actor (Wu-Tang Clan, \u2018Tical\u2019, \u2018The Wire\u2019). The Hippopotamus who made the clan his innermost circle and from there took on film, television and pop duets.",
+    land:"USA", tags:["Music"], gender:"m"},
+{ route:"beruehmte-violet-jessop", name:"Violet Jessop", added:"2026-11-02", subtyp:"SE1w2",
+    heading:"Violet Jessop \u2013 Self-Preservation Type 1",
+    teaser:"SP1w2 \u00b7 1887\u20131971. Stewardess and nurse, \u2018Miss Unsinkable\u2019: survived the disasters of the Olympic, the Titanic and the Britannic and went back to sea. The Eagle that held its post.",
+    land:"Argentina", tags:["History"], gender:"f"},
 { route:"beruehmte-carlos-santana", name:"Carlos Santana", added:"2026-08-24", subtyp:"SE2w3",
     heading:"Carlos Santana – Self-Preservation Type 2",
     teaser:"SP2w3 · b. 1947. Mexican-American guitarist, Woodstock 1969, Supernatural comeback 1999 (9 Grammys). Craft passed down directly from his father, combined with a constant need to be rediscovered. Animal correspondence: Hippopotamus.",
@@ -2885,9 +3112,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leon Goretzka – Social Type 3",
     teaser:"SO3w4 · b. 1995 in Bochum. Professional footballer, FC Bayern Munich, co-founder of \"We Kick Corona.\" Formed a heart for the Hungarian fan section after his Euro 2020 equalizer – peak performance and a personal statement in one gesture.",
     land:"Germany", tags:["Sport","Soccer"], gender:"m"},
-{ route:"beruehmte-george-vithoulkas", name:"Prof. George Vithoulkas", added:"2026-09-20", subtyp:"SO3w4",
-    heading:"Prof. George Vithoulkas – Social Type 3",
-    teaser:"SO3w4 · b. 1932 in Athens. Homeopath, 1996 Right Livelihood Award laureate (\"alternative Nobel Prize\"), founder of the \"Levels of Health\" theory. Linked homeopathic practice to his own consciousness philosophy, developed over 57 years.",
+{ route:"beruehmte-george-vithoulkas", name:"Prof. George Vithoulkas", added:"2026-09-20", subtyp:"SO5w4",
+    heading:"Prof. George Vithoulkas – Social Type 5",
+    teaser:"SO5w4 · b. 1932 in Athens. Homeopath, 1996 Right Livelihood Award laureate (\"alternative Nobel Prize\"), founder of the \"Levels of Health\" theory. Linked homeopathic practice to his own consciousness philosophy, developed over 57 years.",
     land:"Greece", tags:["Homeopathy"], gender:"m"},
 { route:"beruehmte-pedro-alonso", name:"Pedro Alonso", added:"2026-09-20", subtyp:"SO3w4",
     heading:"Pedro Alonso – Social Type 3",
@@ -3681,9 +3908,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Gustav Mahler – Social Type 4",
     teaser:"SO4w5 · 1860–1911. Austrian composer and conductor, director of the Vienna Court Opera. Symphonies, Kindertotenlieder, Das Lied von der Erde. The armadillo that translated existential loss into monumental, all-encompassing soundscapes.",
     land:"Austria", tags:["Music"], gender:"m"},
-{ route:"beruehmte-reinhard-mey", name:"Reinhard Mey", added:"2026-08-25", subtyp:"SO4w3",
+{ route:"beruehmte-reinhard-mey", name:"Reinhard Mey", added:"2026-08-25", subtyp:"SO4w5",
     heading:"Reinhard Mey – Social Type 4",
-    teaser:"SO4w3 · born 1942. German singer-songwriter, on stage for over five decades. An outsider in the music business who reached several generations, meticulous preparation and never-fading stage fright, an extremely guarded private life, word-dense, gently ironic songs against bureaucracy and war. The armadillo with the Three-wing: a hard shell, sensitivity beneath, and great success.",
+    teaser:"SO4w5 · born 1942. German singer-songwriter, on stage for over five decades. An outsider in the music business who reached several generations, meticulous preparation and never-fading stage fright, an extremely guarded private life, text-heavy, gently ironic songs against bureaucracy and war. The armadillo with a Five-wing: hard shell, sensitivity beneath it and precise preparation.",
     land:"Germany", tags:["Music"], gender:"m"},
 { route:"beruehmte-marcel-proust", name:"Marcel Proust", added:"2026-08-09", subtyp:"SO4w5",
     heading:"Marcel Proust – Social Type 4",
@@ -5879,7 +6106,7 @@ function _neuAktiv(route) {
   return !!d && (new Date() - new Date(d)) < 30 * 864e5;
 }
 
-const HEILWISSEN_ROUTES = new Set(["wann-entsteht-der-typ", "kroetenschlucken", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "nicht-reale-vorstellungen", "wahnideen-nicht-reale-vorstellungen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9, "mindmaps-single-rubriken", "mindmap-platin", "mindmap-ignatia", "mindmap-hyoscyamus", "mindmap-tarentula", "mindmap-stramonium", "mindmap-opium", "mindmap-belladonna", "mindmap-veratrum", "mindmap-cannabis", "claudio-naranjo-lehrer"].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["wann-entsteht-der-typ", "kroetenschlucken", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "nicht-reale-vorstellungen", "wahnideen-nicht-reale-vorstellungen", "arzneimittelbilder-9-typen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9, "mindmaps-single-rubriken", "mindmap-platin", "mindmap-ignatia", "mindmap-hyoscyamus", "mindmap-tarentula", "mindmap-stramonium", "mindmap-opium", "mindmap-belladonna", "mindmap-veratrum", "mindmap-cannabis", "claudio-naranjo-lehrer", "david-daniels-gesetze", "tugenden-enneagramm", "kindheitspraegungen-enneagramm"].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -6020,6 +6247,10 @@ text.nav = [
     { heading: "Portraits & Patterns" },
     { route: "knowledge", label: "Knowledge Base" },
     { route: "claudio-naranjo-lehrer", label: "Claudio Naranjo: Teacher and Pioneer of the Subtypes" },
+    { route: "david-daniels-gesetze", label: "David Daniels: The Three Energy–Attention Laws" },
+    { route: "tugenden-enneagramm", label: "The Virtues in the Enneagram" },
+    { route: "spirituelles-enneagramm", label: "The Spiritual Enneagram: Psychology, Spirituality or Both?" },
+    { route: "kindheitspraegungen-enneagramm", label: "Childhood Imprints and Autobiographical Key Themes" },
     { route: "beruehmte-persoenlichkeiten", label: "Famous Personalities" },
     { route: "kriminalpsychologie", label: "Fascinating Criminal Cases (Criminal Psychology)" },
     { route: "krankheitsportraets", label: "Illness Portraits" },
@@ -6038,6 +6269,7 @@ text.nav = [
     { route: "persoenlichkeitsmodelle-vergleich", label: "Enneagram vs. Other Personality Models" },
     { route: "wahnideen-nicht-reale-vorstellungen", label: "Unreal Ideas: Delusions in the Enneagram and in Homeopathy" },
     { route: "mindmaps-single-rubriken", label: "Mind maps of the single rubrics (Homeopathy)" },
+    { route: "arzneimittelbilder-9-typen", label: "Remedy pictures and descriptions of the nine types" },
     { route: "tritypen", label: "The 27 Tritypes of the Enneagram (for Advanced Learners)" },
     { heading: "Gaze & Animals" },
     { route: "blickqualitaeten-atlas", label: "Gaze Quality Atlas (27 Subtypes)" },
@@ -6056,6 +6288,7 @@ text.nav = [
     { route: "warum-nur-9-heilmittel", label: "Why Only 9 Enneagram Remedies and Not 27?" },
     { route: "enneagramm-reflexzonentherapie", label: "Enneagram Meets Reflexology" },
     { route: "enneagramm-akupunktur", label: "Enneagram Meets Acupuncture" },
+    { route: "enneagramm-ayurveda", label: "Enneagram Meets Ayurveda" },
     { route: "enneagramm-handanalyse", label: "Enneagram Meets Hand Analysis" },
     { route: "enneagramm-meets-jin-shin-jyutsu", label: "Enneagram Meets Jin Shin Jyutsu" },
     { route: "enneagramm-zahnpsychosomatik", label: "Enneagram Meets Dental Psychosomatics" },
@@ -6580,7 +6813,7 @@ const DAILY_STEP_EN = {
 };
 const ORGANISM_Q_EN = {
   "Wie kann ich richtig sein und Fehler vermeiden?": "How can I be right and avoid making mistakes?",
-  "Bin ich liebenswert, wenn ich für andere da bin?": "Am I loveable if I am there for others?",
+  "Bin ich liebenswert, wenn ich für andere da bin?": "Am I lovable if I am there for others?",
   "Wie kann ich erfolgreich sein und dabei meinen Wert beweisen?": "How can I be successful and prove my worth in the process?",
   "Wer bin ich wirklich und was macht mich einzigartig?": "Who am I really, and what makes me unique?",
   "Wie kann ich verstehen und sicher sein, dass ich kompetent bin?": "How can I understand and be certain that I am competent?",
@@ -7082,7 +7315,7 @@ function inhaltsübersichtPage() {
             Everything in a Single App
           </p>
           <p style="font-size:0.86rem;color:var(--muted);margin:0 0 1.1rem;line-height:1.55;">
-            One-time purchase &middot; Lifetime access &middot; Constantly growing
+            One-time purchase &middot; Access guaranteed for at least 5 years &middot; Constantly growing
           </p>
           <button data-route="freischalt"
             style="background:var(--gold-dark);color:var(--copper);border:3px solid #8a5a1a;
@@ -7358,7 +7591,7 @@ function onboardingOverlay() {
             <div style="min-width:2rem;height:2rem;border-radius:50%;background:var(--gold,#c4a456);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.9rem;color:#1a1208;flex-shrink:0;">3</div>
             <div>
               <strong style="color:var(--ink);font-size:0.95rem;">Unlock full access</strong>
-              <p style="margin:0.2rem 0 0;font-size:0.84rem;color:var(--muted);line-height:1.5;">For all 27 subtype profiles · Remedies &amp; natural healing · Hundreds of charts · Portraits of famous personalities · Enneagram profiling · Music &amp; sound · Practical applications · regular expansion · lifetime access.</p>
+              <p style="margin:0.2rem 0 0;font-size:0.84rem;color:var(--muted);line-height:1.5;">For all 27 subtype profiles · Remedies &amp; natural healing · Hundreds of charts · Portraits of famous personalities · Enneagram profiling · Music &amp; sound · Practical applications · regular expansion · access guaranteed for at least 5 years.</p>
             </div>
           </div>
         </div>
@@ -9516,6 +9749,9 @@ function praxistippsHeilpraktikerPage() {
     { slug:"das-ewige-ich-bin", titel:"The Eternal ›I Am‹: The Enneagram Healing Compass Beyond Fixation", teaser:"How Judaism, Christianity, Hinduism, Buddhism, Islam, and Taoism describe the same silent ground of being – and what that means for Enneagram work.", img:"../assets/schaubilder/das-ewige-ich-bin/das-ewige-ich-bin-en.jpg", kategorie:"geist" },
     { slug:"chakra-kern-uebung", titel:"The Chakra Core of Your Enneagram Type", teaser:"The nine Enneagram types, nine body centers and the matching homeopathic constitutional remedies – and a short exercise to sense your own zone deliberately.", img:"../assets/schaubilder/chakra-kern-uebung/chakra-kern-uebung.jpg", kategorie:"geist" },
     { slug:"dein-wille-geschehe", titel:"‘Thy Will Be Done’: Surrender Instead of Ego-Will", teaser:"What Christianity, Taoism, Zen and Sufism say about self-will – and how ‘My will be done’ shows in all 27 Enneagram subtypes, with surrender as its counterpart.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/dein-wille-geschehe/dein-wille-geschehe.jpg", kategorie:"geist" },
+    { slug:"ende-der-suche", titel:"When the Search Falls Silent: The End of the Search and the 13 Illusions of the Spiritual Seeker", teaser:"Why nothing needs to be added to be complete – 13 illusions from the subject to suffering, each with exercises for self-observation.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/ende-der-suche/ende-der-suche.jpg", kategorie:"geist" },
+    { slug:"kino-erwachen", titel:"Red Pill, Blue Avatar: What The Matrix, Avatar, Inception and The Game Reveal About the Enneagram Fixation", teaser:"Four films, one idea: the pattern is an operating system, not the being. With tiles for The Matrix, Avatar, Inception and The Game, the nine programs of the types and a small totem exercise for everyday life.", img:"", kategorie:"geist" },
+    { slug:"was-ist-liebe", titel:"What Is Love? From Substitute Strategies to Essence", teaser:"How the concept of love has changed, what the nine types substitute for love (love instead of perfection, giving, success \u2026), what mysticism and Eckhart Tolle understand by love \u2013 with a small exercise and the short film.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/was-ist-liebe/was-ist-liebe-en.jpg", kategorie:"geist" },
   ];
   const TIPP_KATEGORIEN = [
     { id:"koerper", label:"Body & Movement", icon:"🧭" },
@@ -9574,6 +9810,15 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "dein-wille-geschehe") {
     return deinWilleGeschehePage();
+  }
+  if (param === "ende-der-suche") {
+    return endeDerSuchePage();
+  }
+  if (param === "kino-erwachen") {
+    return kinoErwachenPage();
+  }
+  if (param === "was-ist-liebe") {
+    return wasIstLiebePage();
   }
   if (param === "das-ewige-ich-bin") {
     return dasEwigeIchBinPage();
@@ -11189,8 +11434,8 @@ function kaufenPage() {
         </ul>
         <h3>Who is this for?</h3>
         <p>For everyone who already knows their Enneagram type and wants to go deeper. For therapists, counsellors and coaches. For people who want to truly understand themselves — not superficially, but really.</p>
-        <h3>One-time purchase — lifetime access:</h3>
-        <p>$ 89 — one-time, no subscription. All future updates included.</p>
+        <h3>One-time purchase — access guaranteed for at least 5 years:</h3>
+        <p>$ 89 — one-time, no subscription. All updates during the term included.</p>
  <p>There are two ways in: <strong>full access</strong> ($ 89) or, as an easy start, the <strong>Portrait Edition</strong> ($ 44, further down). Switching is possible at any time, your $ 44 is credited.</p>
       </div>
     </section>
@@ -11208,7 +11453,7 @@ function kaufenPage() {
           <li>✓ ${KRIMINAL_PORTRAITS.length} criminal portraits – Enneagram depth analysis of famous cases</li>
           <li>✓ 100+ charts &amp; gallery</li>
           <li>✓ Complete library with 60+ books</li>
-          <li>✓ All future updates included</li>
+          <li>✓ All updates during the term included</li>
         </ul>
         
         <a href="https://buy.stripe.com/aFa9AT8oM4GedxMfHJ4gg3G" target="_blank" rel="noopener"
@@ -11228,7 +11473,7 @@ function kaufenPage() {
  <li>✓ Over ${(Math.floor((BERUEHMT_PORTRAITS.length + KRANKHEITS_PORTRAITS.length + KRIMINAL_PORTRAITS.length + ASTROLOGIE_PORTRAITS.length + BIBEL_PORTRAITS.length) / 100) * 100).toLocaleString("en-US")} portraits: famous personalities, criminal cases, illness, astrology and Bible portraits</li>
  <li>✓ Life, illness and crime pattern compasses</li>
  <li>✓ Enneagram Memory</li>
- <li>✓ Lifetime access, new portraits included</li>
+ <li>✓ Access guaranteed for at least 5 years, new portraits in that time included</li>
  <li>✓ Upgrade to full access at any time, your $ 44 is credited</li>
  </ul>
  <p style="font-size:.88rem;color:var(--muted);line-height:1.5;margin:0 0 1.2rem;">Not included: the 27 subtype profiles, the remedies, the type tests, and the charts and tools. These come with full access.</p>
@@ -11253,7 +11498,7 @@ function wegweiserPremiumPage() {
       <p class="eyebrow">Wegweiser Premium</p>
       <h1 style="font-size:2rem;margin-bottom:.5rem;">More than 40 books, right in the conversation</h1>
       <p class="lead-small" style="margin-bottom:.8rem;">The Guide is the AI assistant built into the Enneagram Healing Compass. Normally it only searches the app's content – with Premium, it also draws on Detlef Rathmer's entire published body of work.</p>
-      <p style="font-size:.85rem;color:var(--muted,#886);background:var(--cream,#f9f6f0);border-radius:10px;padding:.7rem 1rem;margin-bottom:2rem;">ℹ️ This is an optional add-on subscription for the Guide's book expansion – your one-time app purchase ($89) is unaffected and stays valid for life, with or without Premium.</p>
+      <p style="font-size:.85rem;color:var(--muted,#886);background:var(--cream,#f9f6f0);border-radius:10px;padding:.7rem 1rem;margin-bottom:2rem;">ℹ️ This is an optional add-on subscription for the Guide's book expansion – your one-time app purchase ($89) is unaffected and stays valid, with access guaranteed for at least 5 years, with or without Premium.</p>
     </section>
     <section class="narrow" style="padding:0 1rem 1.5rem;">
       <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:1.5rem;margin-bottom:1.5rem;font-size:.97rem;line-height:1.7;">
@@ -11406,10 +11651,11 @@ function libraryPage() {
 
 // Text-volume estimate (section 2 below) – recalculate TEXTUMFANG_STAND and update the date
 // once several hundred more portraits have been added.
-const TEXTUMFANG_STAND = { datum: "Oct 24, 2026", woerterMio: "2.1", normseiten: "7,980", buecher: "27" };
-// PRAXISTIPPS_ANZAHL is maintained manually (the TIPPS array is local to praxistippsHeilpraktikerPage) –
-// count it up whenever a new practice tip is added.
-const PRAXISTIPPS_ANZAHL = 19;
+// Method 28 Oct 2026: state of 24 Oct (2.1 million) plus the counted growth of running-text words (<p> texts) in the DE portrait files since then (about 54,000); 1 standard page is about 263 words, 1 book = 300 standard pages.
+const TEXTUMFANG_STAND = { datum: "Oct 28, 2026", woerterMio: "2.15", normseiten: "8,190", buecher: "27" };
+// PRAXISTIPPS_ANZAHL is counted from the register (every practice tip has an entry
+// praxistipps-heilpraktiker/<slug>) – no manual counting needed any more.
+const PRAXISTIPPS_ANZAHL = registerEntriesEN.filter(e => String(e.route).startsWith("praxistipps-heilpraktiker/")).length;
 
 function zahlenFaktenPage() {
   const beruehmt = BERUEHMT_PORTRAITS.length;
@@ -12207,7 +12453,7 @@ function _bqaSeite(typDigit) {
 function _bqaInstinktName(pfx) {
   return pfx === "SE" ? "Self-Preservation" : pfx === "SO" ? "Social" : "Sexual";
 }
-const BQA_IMG_MAP = {"krankheitsportraets-rudi-carrell":"beruehmte-rudi-carrell","krankheitsportraets-johannes-heesters":"beruehmte-johannes-heesters","kriminalpsychologie-frank-hanebuth":"kriminalpsychologie-frank-hanebuth","krankheitsportraets-florence-nightingale":"beruehmte-florence-nightingale","krankheitsportraets-camille-claudel":"beruehmte-camille-claudel","krankheitsportraets-edith-piaf":"beruehmte-edith-piaf","kriminalpsychologie-rodney-alcala":"kriminalpsychologie-rodney-alcala","kriminalpsychologie-rex-heuermann":"kriminalpsychologie-rex-heuermann","kriminalpsychologie-lindsay-clancy":"kriminalpsychologie-lindsay-clancy","kriminalpsychologie-beate-zschaepe":"kriminalpsychologie-beate-zschaepe","kriminalpsychologie-gert-postel":"beruehmte-gert-postel","krankheitsportraets-ramana-maharshi":"beruehmte-ramana-maharshi","krankheitsportraets-niki-lauda":"beruehmte-niki-lauda","krankheitsportraets-eleanor-roosevelt":"beruehmte-eleanor-roosevelt","krankheitsportraets-prince":"beruehmte-prince-rogers-nelson","krankheitsportraets-william-james-sidis":"beruehmte-william-james-sidis","krankheitsportraets-johannes-paul-ii":"beruehmte-johannes-paul-ii","krankheitsportraets-mette-marit":"beruehmte-mette-marit","krankheitsportraets-brian-wilson":"beruehmte-brian-wilson","beruehmte-serena-williams":"beruehmte-serena-williams","beruehmte-oliver-kahn":"beruehmte-oliver-kahn","beruehmte-owen-wilson":"beruehmte-owen-wilson","beruehmte-aylin-tezel":"beruehmte-aylin-tezel","beruehmte-coco-chanel":"beruehmte-coco-chanel","beruehmte-mutter-teresa":"beruehmte-mutter-teresa","beruehmte-lana-del-rey":"beruehmte-lana-del-rey","beruehmte-willie-nelson":"beruehmte-willie-nelson","beruehmte-bella-hadid":"beruehmte-bella-hadid","kriminalpsychologie-juana-barraza":"kriminalpsychologie-juana-barraza","beruehmte-henry-shukman":"beruehmte-henry-shukman","beruehmte-madison-chock":"beruehmte-madison-chock","beruehmte-andre-duqum":"beruehmte-andre-duqum","beruehmte-wim-thoelke":"beruehmte-wim-thoelke","krankheitsportraets-wim-thoelke":"beruehmte-wim-thoelke","krankheitsportraets-andy-warhol":"beruehmte-andy-warhol","krankheitsportraets-paul-bocuse":"beruehmte-paul-bocuse","kriminalpsychologie-charles-starkweather":"kriminalpsychologie-charles-starkweather","kriminalpsychologie-bernard-eugene-giles":"kriminalpsychologie-bernard-eugene-giles","beruehmte-joe-dispenza":"beruehmte-joe-dispenza","kriminalpsychologie-james-dusty-rhodes":"kriminalpsychologie-james-dusty-rhodes","beruehmte-viktor-frankl":"beruehmte-viktor-frankl","beruehmte-evan-bates":"beruehmte-evan-bates","krankheitsportraets-gunther-von-hagens":"beruehmte-gunther-von-hagens","beruehmte-floyd-mayweather":"beruehmte-floyd-mayweather","beruehmte-sigourney-weaver":"beruehmte-sigourney-weaver","kriminalpsychologie-peter-moore":"kriminalpsychologie-peter-moore","beruehmte-henning-baum":"beruehmte-henning-baum","beruehmte-gert-scobel":"beruehmte-gert-scobel","beruehmte-peter-sage":"beruehmte-peter-sage","beruehmte-lewis-howes":"beruehmte-lewis-howes","beruehmte-vanessa-goecking":"beruehmte-vanessa-goecking","beruehmte-ingmar-bergman":"beruehmte-ingmar-bergman","beruehmte-michael-mina":"beruehmte-michael-mina","beruehmte-gordon-ramsay":"beruehmte-gordon-ramsay","beruehmte-paul-bocuse":"beruehmte-paul-bocuse","beruehmte-johann-lafer":"beruehmte-johann-lafer","beruehmte-steffen-henssler":"beruehmte-steffen-henssler","beruehmte-adriano-celentano":"beruehmte-adriano-celentano","beruehmte-ulrich-ott":"beruehmte-ulrich-ott","beruehmte-markus-soeder":"beruehmte-markus-soeder","beruehmte-cg-jung":"beruehmte-cg-jung","beruehmte-archimedes":"beruehmte-archimedes","beruehmte-bryan-johnson":"beruehmte-bryan-johnson","beruehmte-clara-loesel":"beruehmte-clara-loesel","kriminalpsychologie-arwed-imiela":"kriminalpsychologie-arwed-imiela","kriminalpsychologie-amelia-dyer":"amelia-dyer","krankheitsportraets-helmut-schmidt":"helmut-schmidt","krankheitsportraets-david-hockney":"beruehmte-david-hockney","krankheitsportraets-dmitri-hvorostovsky":"beruehmte-dmitri-hvorostovsky","krankheitsportraets-knut-hamsun":"beruehmte-knut-hamsun","krankheitsportraets-cg-jung":"beruehmte-cg-jung","beruehmte-george-vithoulkas":"beruehmte-george-vithoulkas","beruehmte-oliver-pocher":"beruehmte-oliver-pocher","beruehmte-leon-goretzka":"beruehmte-leon-goretzka","beruehmte-pedro-alonso":"beruehmte-pedro-alonso","beruehmte-dmitri-hvorostovsky":"beruehmte-dmitri-hvorostovsky","beruehmte-lea-michele":"beruehmte-lea-michele","beruehmte-cornelia-funke":"beruehmte-cornelia-funke","beruehmte-gabi-garcia":"beruehmte-gabi-garcia","beruehmte-abd-al-fattah-as-sisi":"beruehmte-abd-al-fattah-as-sisi","beruehmte-abida-parveen":"beruehmte-abida-parveen","beruehmte-adam-smith":"beruehmte-adam-smith","beruehmte-adele":"beruehmte-adele","beruehmte-adele-neuhauser":"beruehmte-adele-neuhauser","beruehmte-ai-weiwei":"beruehmte-ai-weiwei","beruehmte-ajeet-kaur":"beruehmte-ajeet-kaur","beruehmte-alan-mcelligott":"beruehmte-alan-mcelligott","beruehmte-alan-turing":"beruehmte-alan-turing","beruehmte-alan-watts":"alan-watts","beruehmte-albert-einstein":"beruehmte-albert-einstein","beruehmte-albert-schweitzer":"beruehmte-albert-schweitzer","beruehmte-alberto-marini":"beruehmte-alberto-marini","beruehmte-alexander-bommes":"beruehmte-alexander-bommes","beruehmte-alexander-der-grosse":"beruehmte-alexander-der-grosse","beruehmte-alexander-gerst":"beruehmte-alexander-gerst","beruehmte-ali-wong":"beruehmte-ali-wong","beruehmte-alice-schwarzer":"beruehmte-alice-schwarzer","beruehmte-alicia-keys":"beruehmte-alicia-keys","beruehmte-amelia-earhart":"beruehmte-amelia-earhart","beruehmte-ana-de-armas":"beruehmte-ana-de-armas","beruehmte-ana-salceda":"beruehmte-ana-salceda","beruehmte-anastasia-barner":"beruehmte-anastasia-barner","beruehmte-anastasiia-metelkina":"beruehmte-anastasiia-metelkina","beruehmte-andre-agassi":"beruehmte-andre-agassi","beruehmte-andy-reid":"beruehmte-andy-reid","beruehmte-angela-merkel":"beruehmte-angela-merkel","beruehmte-angelina-jolie":"beruehmte-angelina-jolie","beruehmte-anke-engelke":"beruehmte-anke-engelke","beruehmte-anna-anderson":"beruehmte-anna-anderson","beruehmte-anna-netrebko":"beruehmte-anna-netrebko","beruehmte-barbara-bleisch":"beruehmte-barbara-bleisch","beruehmte-michel-foucault":"beruehmte-michel-foucault","beruehmte-don-mclean":"beruehmte-don-mclean","beruehmte-vincenzo-califano":"beruehmte-vincenzo-califano","beruehmte-gunther-von-hagens":"beruehmte-gunther-von-hagens","beruehmte-joseph-beuys":"beruehmte-joseph-beuys","beruehmte-knut-hamsun":"beruehmte-knut-hamsun","beruehmte-volker-gerhardt":"beruehmte-volker-gerhardt","beruehmte-anne-mcbride":"beruehmte-anne-mcbride","beruehmte-annika-von-mutius":"beruehmte-annika-von-mutius","beruehmte-anthony-hopkins":"beruehmte-anthony-hopkins","beruehmte-aristoteles":"beruehmte-aristoteles","beruehmte-armin-mueller-stahl":"beruehmte-armin-mueller-stahl","beruehmte-armin-rohde":"beruehmte-armin-rohde","beruehmte-arthur-rimbaud":"beruehmte-arthur-rimbaud","beruehmte-ashton-kutcher":"beruehmte-ashton-kutcher","beruehmte-astrid-lindgren":"beruehmte-astrid-lindgren","beruehmte-augustinus-von-hippo":"beruehmte-augustinus-von-hippo","beruehmte-ayo-edebiri":"beruehmte-ayo-edebiri","beruehmte-baerbel-bas":"beruehmte-baerbel-bas","beruehmte-barack-obama":"beruehmte-barack-obama","beruehmte-bastian-pastewka":"beruehmte-bastian-pastewka","beruehmte-bastian-schweinsteiger":"beruehmte-bastian-schweinsteiger","beruehmte-beatrice-chebet":"beruehmte-beatrice-chebet","beruehmte-katie-couric":"beruehmte-katie-couric","beruehmte-bella-thorne":"beruehmte-bella-thorne","beruehmte-sonoya-mizuno":"beruehmte-sonoya-mizuno","beruehmte-benjamin-disraeli":"beruehmte-benjamin-disraeli","beruehmte-bernard-faye":"beruehmte-bernard-faye","beruehmte-bill-gates":"beruehmte-bill-gates","beruehmte-bill-haast":"beruehmte-bill-haast","beruehmte-bill-kaulitz":"beruehmte-bill-kaulitz","beruehmte-billie-eilish":"beruehmte-billie-eilish","beruehmte-billy-bob-thornton":"beruehmte-billy-bob-thornton","beruehmte-birute-galdikas":"beruehmte-birute-galdikas","beruehmte-blaise-pascal":"beruehmte-blaise-pascal","beruehmte-bob-marley":"beruehmte-bob-marley","beruehmte-boris-becker":"./assets/portraits/astrologie-boris-becker-foto.jpg","beruehmte-braco":"beruehmte-braco","beruehmte-brad-pitt":"beruehmte-brad-pitt","beruehmte-lenny-kravitz":"beruehmte-lenny-kravitz","beruehmte-brigitte-bardot":"beruehmte-brigitte-bardot","beruehmte-brigitte-macron":"brigitte-macron","beruehmte-bruno-mars":"beruehmte-bruno-mars","beruehmte-bryn-kenney":"beruehmte-bryn-kenney","beruehmte-bud-spencer":"beruehmte-bud-spencer","beruehmte-gunter-gabriel":"beruehmte-gunter-gabriel","beruehmte-buddha":"beruehmte-buddha","beruehmte-byron-katie":"beruehmte-byron-katie","beruehmte-camille-fritsch":"beruehmte-camille-fritsch","beruehmte-caren-miosga":"beruehmte-caren-miosga","beruehmte-carl-friedrich-gauss":"beruehmte-carl-friedrich-gauss","beruehmte-carl-rogers":"beruehmte-carl-rogers","beruehmte-carl-tanzler":"beruehmte-carl-tanzler","beruehmte-carl-weathers":"beruehmte-carl-weathers","beruehmte-carlos-santana":"beruehmte-carlos-santana","beruehmte-carmen-goglin":"beruehmte-carmen-goglin","beruehmte-carolin-kebekus":"beruehmte-carolin-kebekus","beruehmte-caroline-peters":"beruehmte-caroline-peters","beruehmte-carsten-stahl":"beruehmte-carsten-stahl","beruehmte-cat-stevens":"beruehmte-cat-stevens","beruehmte-cecily-brown":"beruehmte-cecily-brown","beruehmte-changpeng-zhao":"beruehmte-changpeng-zhao","beruehmte-charles-darwin":"beruehmte-charles-darwin","beruehmte-charlotte-wells":"beruehmte-charlotte-wells","beruehmte-mara-wilson":"beruehmte-mara-wilson","beruehmte-barney-fishwick":"beruehmte-barney-fishwick","beruehmte-neil-harbisson":"beruehmte-neil-harbisson","beruehmte-connie-chiu":"beruehmte-connie-chiu","beruehmte-cheyenne-ochsenknecht":"beruehmte-cheyenne-ochsenknecht","beruehmte-christiaan-barnard":"beruehmte-christiaan-barnard","beruehmte-will-yun-lee":"beruehmte-will-yun-lee","beruehmte-virgil-van-dijk":"beruehmte-virgil-van-dijk","beruehmte-zoe-kravitz":"beruehmte-zoe-kravitz","beruehmte-christian-drosten":"beruehmte-christian-drosten","beruehmte-christian-raetsch":"beruehmte-christian-raetsch","beruehmte-christoph-kolumbus":"beruehmte-christoph-kolumbus","beruehmte-christoph-waltz":"beruehmte-christoph-waltz","beruehmte-christophe-boesch":"beruehmte-christophe-boesch","beruehmte-claude-debussy":"beruehmte-claude-debussy","beruehmte-claudio-naranjo":"beruehmte-claudio-naranjo","beruehmte-clemens-arvay":"beruehmte-clemens-arvay","beruehmte-cleopatra":"beruehmte-cleopatra","beruehmte-clueso":"beruehmte-clueso","beruehmte-craig-foster":"beruehmte-craig-foster","beruehmte-cristiano-ronaldo":"beruehmte-cristiano-ronaldo","beruehmte-cynthia-lummis":"beruehmte-cynthia-lummis","beruehmte-cynthia-moss":"beruehmte-cynthia-moss","beruehmte-dakota-johnson":"beruehmte-dakota-johnson","beruehmte-dan-brown":"beruehmte-dan-brown","beruehmte-dante-alighieri":"beruehmte-dante-alighieri","beruehmte-david-bowie":"beruehmte-david-bowie","beruehmte-david-hume":"beruehmte-david-hume","beruehmte-david-l-rathmer":"beruehmte-david-l-rathmer","beruehmte-david-lurey":"beruehmte-david-lurey","beruehmte-david-mech":"beruehmte-david-mech","beruehmte-derek-goodwin":"beruehmte-derek-goodwin","beruehmte-dhapanbal-yunupingu":"beruehmte-dhapanbal-yunupingu","beruehmte-dian-fossey":"beruehmte-dian-fossey","beruehmte-diego-velazquez":"beruehmte-diego-velazquez","beruehmte-dieter-bohlen":"beruehmte-dieter-bohlen","beruehmte-dieter-lange":"beruehmte-dieter-lange","beruehmte-dieter-nuhr":"beruehmte-dieter-nuhr","beruehmte-dietland-mueller-schwarze":"beruehmte-dietland-mueller-schwarze","beruehmte-dietmar-baer":"beruehmte-dietmar-baer","beruehmte-diogenes":"beruehmte-diogenes","beruehmte-dirk-rossmann":"beruehmte-dirk-rossmann","beruehmte-dolly-parton":"beruehmte-dolly-parton","beruehmte-donald-trump":"beruehmte-donald-trump","beruehmte-donata-hopfen":"beruehmte-donata-hopfen","beruehmte-douglas-rushkoff":"beruehmte-douglas-rushkoff","beruehmte-douglas-smith":"beruehmte-douglas-smith","beruehmte-dr-dre":"beruehmte-dr-dre","beruehmte-drew-barrymore":"beruehmte-drew-barrymore","beruehmte-eckhard-freise":"beruehmte-eckhard-freise","beruehmte-anton-zeilinger":"beruehmte-anton-zeilinger","beruehmte-maria-callas":"beruehmte-maria-callas","beruehmte-david-hockney":"beruehmte-david-hockney","beruehmte-eckhart-tolle":"beruehmte-eckhart-tolle","beruehmte-kim-eng":"beruehmte-kim-eng","beruehmte-ed-sheeran":"beruehmte-ed-sheeran","beruehmte-jon-bon-jovi":"beruehmte-jon-bon-jovi","beruehmte-david-guetta":"beruehmte-david-guetta","beruehmte-adam-sandler":"beruehmte-adam-sandler","beruehmte-juergen-drews":"beruehmte-juergen-drews","beruehmte-edgar-allan-poe":"beruehmte-edgar-allan-poe","beruehmte-edita-gruberova":"beruehmte-edita-gruberova","beruehmte-edvard-munch":"edvard-munch","beruehmte-edward-snowden":"beruehmte-edward-snowden","beruehmte-eli-jaxon-bear":"beruehmte-eli-jaxon-bear","beruehmte-elizabeth-barrett-browning":"beruehmte-elizabeth-barrett-browning","beruehmte-elon-musk":"beruehmte-elon-musk","beruehmte-elvis-presley":"beruehmte-elvis-presley","beruehmte-eminem":"beruehmte-eminem","beruehmte-emmanuel-macron":"emmanuel-macron","beruehmte-enya":"beruehmte-enya","beruehmte-epikur":"beruehmte-epikur","beruehmte-olena-zelenska":"beruehmte-olena-zelenska","beruehmte-eva-mendes":"beruehmte-eva-mendes","beruehmte-eva-peron":"beruehmte-eva-peron","beruehmte-faye-dunaway":"beruehmte-faye-dunaway","beruehmte-fiona-apple":"beruehmte-fiona-apple","beruehmte-fjodor-dostojewski":"beruehmte-fjodor-dostojewski","beruehmte-francis-bacon":"beruehmte-francis-bacon","beruehmte-francisco-de-goya":"beruehmte-francisco-de-goya","beruehmte-frank-rosell":"beruehmte-frank-rosell","beruehmte-frank-schaetzing":"beruehmte-frank-schaetzing","beruehmte-franka-potente":"beruehmte-franka-potente","beruehmte-frans-de-waal":"beruehmte-frans-de-waal","beruehmte-franz-kafka":"beruehmte-franz-kafka","beruehmte-franz-liszt":"beruehmte-franz-liszt","beruehmte-franz-schubert":"beruehmte-franz-schubert","beruehmte-franz-von-assisi":"beruehmte-franz-von-assisi","beruehmte-freddie-mercury":"beruehmte-freddie-mercury","beruehmte-frederic-chopin":"beruehmte-frederic-chopin","beruehmte-frida-kahlo":"beruehmte-frida-kahlo","beruehmte-friedrich-merz":"beruehmte-friedrich-merz","beruehmte-friedrich-nietzsche":"beruehmte-friedrich-nietzsche","beruehmte-friedrich-schiller":"beruehmte-friedrich-schiller","beruehmte-fritz-perls":"beruehmte-fritz-perls","beruehmte-jon-hamm":"beruehmte-jon-hamm","beruehmte-fritz-wepper":"beruehmte-fritz-wepper","beruehmte-gangaji":"beruehmte-gangaji","beruehmte-genesis-p-orridge":"beruehmte-genesis-p-orridge","beruehmte-georg-wilhelm-friedrich-hegel":"beruehmte-georg-wilhelm-friedrich-hegel","beruehmte-george-gershwin":"beruehmte-george-gershwin","beruehmte-gerhard-schroeder":"beruehmte-gerhard-schroeder","beruehmte-gertrude-elion":"beruehmte-gertrude-elion","beruehmte-giacomo-casanova":"beruehmte-giacomo-casanova","beruehmte-giacomo-puccini":"beruehmte-giacomo-puccini","beruehmte-gianna-nannini":"beruehmte-gianna-nannini","beruehmte-gina-rinehart":"beruehmte-gina-rinehart","beruehmte-giorgia-meloni":"giorgia-meloni","beruehmte-gloria-von-thurn-und-taxis":"beruehmte-gloria-von-thurn-und-taxis","beruehmte-golda-meir":"beruehmte-golda-meir","beruehmte-gottfried-wilhelm-leibniz":"beruehmte-gottfried-wilhelm-leibniz","beruehmte-grahame-webb":"beruehmte-grahame-webb","beruehmte-gregor-gysi":"beruehmte-gregor-gysi","beruehmte-greta-garbo":"beruehmte-greta-garbo","beruehmte-greta-thunberg":"beruehmte-greta-thunberg","beruehmte-guenther-jauch":"beruehmte-guenther-jauch","beruehmte-gustav-mahler":"beruehmte-gustav-mahler","beruehmte-hannah-arendt":"beruehmte-hannah-arendt","beruehmte-hannah-emde":"beruehmte-hannah-emde","beruehmte-hans-christian-andersen":"beruehmte-hans-christian-andersen","beruehmte-hans-dietrich-genscher":"beruehmte-hans-dietrich-genscher","beruehmte-hans-zimmer":"beruehmte-hans-zimmer","beruehmte-harald-gloeockler":"beruehmte-harald-gloeockler","beruehmte-harnaam-kaur":"beruehmte-harnaam-kaur","beruehmte-hazel-brugger":"beruehmte-hazel-brugger","beruehmte-heather-thomas":"beruehmte-heather-thomas","beruehmte-heidi-klum":"beruehmte-heidi-klum","beruehmte-heike-makatsch":"beruehmte-heike-makatsch","beruehmte-heinrich-heine":"beruehmte-heinrich-heine","beruehmte-helene-fischer":"beruehmte-helene-fischer","beruehmte-helmut-kohl":"beruehmte-helmut-kohl","beruehmte-helmut-schmidt":"helmut-schmidt","beruehmte-heraklit":"beruehmte-heraklit","beruehmte-herbert-groenemeyer":"beruehmte-herbert-groenemeyer","beruehmte-herbert-kickl":"beruehmte-herbert-kickl","beruehmte-herman-van-veen":"beruehmte-herman-van-veen","beruehmte-hermann-hesse":"beruehmte-hermann-hesse","beruehmte-hippokrates-von-kos":"beruehmte-hippokrates-von-kos","beruehmte-honore-de-balzac":"beruehmte-honore-de-balzac","beruehmte-horst-tappert":"beruehmte-horst-tappert","beruehmte-huang-yong-ping":"beruehmte-huang-yong-ping","beruehmte-hugh-grant":"beruehmte-hugh-grant","beruehmte-hugh-warwick":"beruehmte-hugh-warwick","beruehmte-hundertwasser":"beruehmte-hundertwasser","beruehmte-francois-damiens":"beruehmte-francois-damiens","beruehmte-michael-berryman":"beruehmte-michael-berryman","beruehmte-ice-cube":"beruehmte-ice-cube","beruehmte-iga-swiatek":"beruehmte-iga-swiatek","beruehmte-immanuel-kant":"beruehmte-immanuel-kant","beruehmte-ina-mueller":"beruehmte-ina-mueller","beruehmte-indila":"beruehmte-indila","beruehmte-indra-nooyi":"beruehmte-indra-nooyi","beruehmte-ingo-zimmermann":"beruehmte-ingo-zimmermann","beruehmte-iris-berben":"beruehmte-iris-berben","beruehmte-isaac-newton":"beruehmte-isaac-newton","beruehmte-isabella-briggs":"beruehmte-isabel-briggs-myers","beruehmte-isadora-duncan":"beruehmte-isadora-duncan","beruehmte-jack-black":"beruehmte-jack-black","beruehmte-jack-ma":"beruehmte-jack-ma","beruehmte-jacqueline-mars":"beruehmte-jacqueline-mars","beruehmte-jamaica-kincaid":"beruehmte-jamaica-kincaid","beruehmte-james-corden":"beruehmte-james-corden","beruehmte-james-levine":"beruehmte-james-levine","beruehmte-jamie-lee-curtis":"beruehmte-jamie-lee-curtis","beruehmte-jan-ullrich":"beruehmte-jan-ullrich","beruehmte-jane-goodall":"beruehmte-jane-goodall","beruehmte-jasmin-paolini":"beruehmte-jasmine-paolini","beruehmte-javier-parisi":"beruehmte-javier-parisi","beruehmte-jean-jacques-rousseau":"beruehmte-jean-jacques-rousseau","beruehmte-jean-paul-sartre":"beruehmte-jean-paul-sartre","beruehmte-jeanne-calment":"beruehmte-jeanne-calment","beruehmte-jeanne-marie-guyon":"beruehmte-jeanne-marie-guyon","beruehmte-jenna-ortega":"beruehmte-jenna-ortega","beruehmte-jennifer-aniston":"beruehmte-jennifer-aniston","beruehmte-jennifer-mather":"beruehmte-jennifer-mather","beruehmte-jesus-christus":"beruehmte-jesus-christus","beruehmte-jill-pruetz":"beruehmte-jill-pruetz","beruehmte-jimi-blue-ochsenknecht":"beruehmte-jimi-blue-ochsenknecht","beruehmte-jj-liu":"beruehmte-jj-liu","beruehmte-joachim-llambi":"beruehmte-joachim-llambi","beruehmte-jodie-foster":"beruehmte-jodie-foster","beruehmte-joe-navarro":"beruehmte-joe-navarro","beruehmte-johann-sebastian-bach":"beruehmte-johann-sebastian-bach","beruehmte-johann-wolfgang-von-goethe":"beruehmte-johann-wolfgang-von-goethe","beruehmte-johannes-brahms":"beruehmte-johannes-brahms","beruehmte-john-ioannidis":"beruehmte-john-ioannidis","beruehmte-john-lennon":"beruehmte-john-lennon","beruehmte-john-wayne":"beruehmte-john-wayne","beruehmte-johnny-cash":"beruehmte-johnny-cash","beruehmte-johnny-depp":"beruehmte-johnny-depp","beruehmte-jonathan-groff":"beruehmte-jonathan-groff","beruehmte-jordan-peterson":"beruehmte-jordan-peterson","beruehmte-joseph-aoun":"beruehmte-joseph-aoun","beruehmte-joseph-haydn":"beruehmte-joseph-haydn","beruehmte-enrico-caruso":"beruehmte-enrico-caruso","beruehmte-judit-polgar":"beruehmte-judit-polgar","beruehmte-juergen-klopp":"beruehmte-juergen-klopp","beruehmte-jules-verne":"beruehmte-jules-verne","beruehmte-julian-assange":"beruehmte-julian-assange","beruehmte-julius-caesar":"beruehmte-julius-caesar","beruehmte-june-carter-cash":"beruehmte-june-carter-cash","beruehmte-junko-tabei":"beruehmte-junko-tabei","beruehmte-kai-pflaume":"beruehmte-kai-pflaume","beruehmte-kamala-harris":"beruehmte-kamala-harris","beruehmte-karl-lagerfeld":"beruehmte-karl-lagerfeld","beruehmte-karl-lauterbach":"beruehmte-karl-lauterbach","beruehmte-karl-marx":"beruehmte-karl-marx","beruehmte-karoline-herfurth":"beruehmte-karoline-herfurth","beruehmte-katharina-tempel":"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-katharina-tempel-portrait.jpg?v=2","beruehmte-kathrin-bauerfeind":"beruehmte-kathrin-bauerfeind","beruehmte-katja-riemann":"beruehmte-katja-riemann","beruehmte-keanu-reeves":"beruehmte-keanu-reeves","beruehmte-ken-follett":"beruehmte-ken-follett","beruehmte-kevin-costner":"beruehmte-kevin-costner","beruehmte-kevin-james":"beruehmte-kevin-james","beruehmte-kim-jong-un":"beruehmte-kim-jong-un","beruehmte-klara-von-assisi":"beruehmte-klara-von-assisi","beruehmte-klaus-j-behrendt":"beruehmte-klaus-j-behrendt","beruehmte-klaus-kinski":"beruehmte-klaus-kinski","beruehmte-klemens-von-metternich":"beruehmte-klemens-von-metternich","beruehmte-kollegah":"beruehmte-kollegah","beruehmte-konfuzius":"beruehmte-konfuzius","beruehmte-konrad-adenauer":"beruehmte-konrad-adenauer","beruehmte-konrad-lorenz":"beruehmte-konrad-lorenz","beruehmte-kris-marshall":"beruehmte-kris-marshall","beruehmte-kurt-georg-kiesinger":"kurt-georg-kiesinger","beruehmte-lady-diana":"beruehmte-lady-diana","beruehmte-lang-lang":"beruehmte-lang-lang","beruehmte-laozi":"beruehmte-laozi","beruehmte-larry-king":"beruehmte-larry-king","beruehmte-lauren-gardner":"beruehmte-lauren-gardner","beruehmte-laurence-frank":"beruehmte-laurence-frank","beruehmte-laurie-marker":"beruehmte-laurie-marker","beruehmte-lebo-m":"beruehmte-lebo-m","beruehmte-lena-meyer-landrut":"beruehmte-lena-meyer-landrut","beruehmte-lena-urzendowsky":"beruehmte-lena-urzendowsky","beruehmte-sebastian-urzendowsky":"beruehmte-sebastian-urzendowsky","beruehmte-leo-tolstoi":"beruehmte-leo-tolstoi","beruehmte-leonard-bernstein":"beruehmte-leonard-bernstein","beruehmte-leonard-cohen":"beruehmte-leonard-cohen","beruehmte-leonardo-da-vinci":"beruehmte-leonardo-da-vinci","beruehmte-leonardo-dicaprio":"beruehmte-leonardo-dicaprio","beruehmte-linda-evans":"beruehmte-linda-evans","beruehmte-linda-leinweber":"beruehmte-linda-leinweber","beruehmte-lionel-boyce":"beruehmte-lionel-boyce","beruehmte-lisa-antoni":"beruehmte-lisa-antoni","beruehmte-loi":"beruehmte-loi","beruehmte-loni-hui":"beruehmte-loni-hui","beruehmte-loris-assadian":"beruehmte-loris-assadian","beruehmte-lucy-cooke":"beruehmte-lucy-cooke","beruehmte-ludwig-erhard":"beruehmte-ludwig-erhard","beruehmte-ludwig-goeransson":"beruehmte-ludwig-goeransson","beruehmte-ludwig-van-beethoven":"beruehmte-ludwig-van-beethoven","beruehmte-ludwig-wittgenstein":"beruehmte-ludwig-wittgenstein","beruehmte-ludwig-xiv":"beruehmte-ludwig-xiv","beruehmte-madame-tussaud":"beruehmte-madame-tussaud","beruehmte-madeline-stuart":"beruehmte-madeline-stuart","beruehmte-magnus-carlsen":"beruehmte-magnus-carlsen","beruehmte-mahatma-gandhi":"beruehmte-mahatma-gandhi","beruehmte-malaika-mihambo":"beruehmte-malaika-mihambo","beruehmte-marcel-proust":"beruehmte-marcel-proust","beruehmte-marcel-reich-ranicki":"beruehmte-marcel-reich-ranicki","beruehmte-margaret-rutherford":"beruehmte-margaret-rutherford","beruehmte-charles-laughton":"beruehmte-charles-laughton","beruehmte-margot-friedlaender":"beruehmte-margot-friedlaender","beruehmte-mariacarla-boscono":"beruehmte-mariacarla-boscono","beruehmte-mariah-carey":"beruehmte-mariah-carey","beruehmte-marie-agnes-strack-zimmermann":"beruehmte-marie-agnes-strack-zimmermann","beruehmte-marie-antoinette":"beruehmte-marie-antoinette","beruehmte-marie-curie":"beruehmte-marie-curie","beruehmte-marie-kondo":"beruehmte-marie-kondo","beruehmte-mariella-superina":"beruehmte-mariella-superina","beruehmte-marilyn-monroe":"beruehmte-marilyn-monroe","beruehmte-mario-barth":"beruehmte-mario-barth","beruehmte-marisa-abela":"beruehmte-marisa-abela","beruehmte-mark-zuckerberg":"beruehmte-mark-zuckerberg","beruehmte-markus-lanz":"beruehmte-markus-lanz","beruehmte-marlene-zuk":"beruehmte-marlene-zuk","beruehmte-marquis-de-sade":"beruehmte-marquis-de-sade","beruehmte-marta-manser":"beruehmte-marta-manser","beruehmte-martin-luther":"beruehmte-martin-luther","beruehmte-mata-hari":"beruehmte-mata-hari","beruehmte-matthew-mcconaughey":"beruehmte-matthew-mcconaughey","beruehmte-matthias-schweighoefer":"beruehmte-matthias-schweighoefer","beruehmte-tobias-beck":"beruehmte-tobias-beck","beruehmte-meg-ryan":"beruehmte-meg-ryan","beruehmte-melanie-kreis":"beruehmte-melanie-kreis","beruehmte-michael-dell":"beruehmte-michael-dell","beruehmte-michael-jackson":"beruehmte-michael-jackson","beruehmte-michael-schumacher":"beruehmte-michael-schumacher","beruehmte-michelle-obama":"beruehmte-michelle-obama","beruehmte-mickey-rourke":"beruehmte-mickey-rourke","beruehmte-micky-beisenherz":"beruehmte-micky-beisenherz","beruehmte-miguel-de-unamuno":"beruehmte-miguel-de-unamuno","beruehmte-milarepa":"beruehmte-milarepa","beruehmte-miley-cyrus":"beruehmte-miley-cyrus","beruehmte-milow":"beruehmte-milow","beruehmte-mira-murati":"mira-murati","beruehmte-mohammed":"beruehmte-mohammed","beruehmte-monica-simpson":"beruehmte-monica-simpson","beruehmte-monika-gruber":"beruehmte-monika-gruber","beruehmte-morgan-freeman":"beruehmte-morgan-freeman","beruehmte-moritz-bleibtreu":"beruehmte-moritz-bleibtreu","beruehmte-moses":"beruehmte-moses","beruehmte-mr-t":"beruehmte-mr-t","beruehmte-muhammad-ali":"beruehmte-muhammad-ali","beruehmte-mutter-meera":"beruehmte-mutter-meera","beruehmte-napoleon-bonaparte":"beruehmte-napoleon-bonaparte","beruehmte-natascha-kampusch":"beruehmte-natascha-kampusch","beruehmte-natascha-ochsenknecht":"beruehmte-natascha-ochsenknecht","beruehmte-nate-dogg":"beruehmte-nate-dogg","beruehmte-neil-armstrong":"beruehmte-neil-armstrong","beruehmte-nero":"beruehmte-nero","beruehmte-nicolas-cage":"beruehmte-nicolas-cage","beruehmte-nikola-tesla":"beruehmte-nikola-tesla","beruehmte-nina-chuba":"beruehmte-nina-chuba","beruehmte-norah-jones":"beruehmte-norah-jones","beruehmte-nusrat-fateh-ali-khan":"beruehmte-nusrat-fateh-ali-khan","beruehmte-oliver-hardy":"beruehmte-oliver-hardy","beruehmte-omar-sy":"beruehmte-omar-sy","beruehmte-oprah-winfrey":"beruehmte-oprah-winfrey","beruehmte-osho":"beruehmte-osho","beruehmte-otto-von-bismarck":"beruehmte-otto-von-bismarck","beruehmte-pablo-picasso":"beruehmte-pablo-picasso","beruehmte-pamela-reif":"beruehmte-pamela-reif","beruehmte-paris-hilton":"beruehmte-paris-hilton","beruehmte-paul-gauguin":"beruehmte-paul-gauguin","beruehmte-paul-mccartney":"beruehmte-paul-mccartney","beruehmte-penelope-cruz":"beruehmte-penelope-cruz","beruehmte-audrey-tautou":"beruehmte-audrey-tautou","beruehmte-halle-berry":"beruehmte-halle-berry","beruehmte-peter-falk":"beruehmte-peter-falk","beruehmte-peter-gabriel":"beruehmte-peter-gabriel","beruehmte-peter-lustig":"beruehmte-peter-lustig","beruehmte-peter-sharpe":"beruehmte-peter-sharpe","beruehmte-pharrell-williams":"beruehmte-pharrell-williams","beruehmte-pierce-brosnan":"beruehmte-pierce-brosnan","beruehmte-platon":"beruehmte-platon","beruehmte-pythagoras":"beruehmte-pythagoras","beruehmte-queen-elizabeth-ii":"beruehmte-queen-elizabeth-ii","beruehmte-quentin-tarantino":"beruehmte-quentin-tarantino","beruehmte-ranga-yogeshwar":"beruehmte-ranga-yogeshwar","beruehmte-rasputin":"beruehmte-rasputin","beruehmte-reinhard-mey":"beruehmte-reinhard-mey","beruehmte-reinhold-messner":"beruehmte-reinhold-messner","beruehmte-reinhold-wuerth":"beruehmte-reinhold-wuerth","beruehmte-rene-descartes":"beruehmte-rene-descartes","beruehmte-richard-david-precht":"beruehmte-richard-david-precht","beruehmte-rihanna":"beruehmte-rihanna","beruehmte-roald-amundsen":"beruehmte-roald-amundsen","beruehmte-robbie-williams":"beruehmte-robbie-williams","beruehmte-robert-crumb":"beruehmte-robert-crumb","beruehmte-robert-de-niro":"beruehmte-robert-de-niro","beruehmte-robert-oppenheimer":"beruehmte-robert-oppenheimer","beruehmte-robert-schumann":"beruehmte-robert-schumann","beruehmte-romulus-whitaker":"beruehmte-romulus-whitaker","beruehmte-romy-schneider":"beruehmte-romy-schneider","beruehmte-ronald-reagan":"beruehmte-ronald-reagan","beruehmte-rosa-parks":"beruehmte-rosa-parks","beruehmte-indira-gandhi":"beruehmte-indira-gandhi","beruehmte-rowan-atkinson":"beruehmte-rowan-atkinson","beruehmte-rupert-spira":"beruehmte-rupert-spira","beruehmte-ruth-bader-ginsburg":"beruehmte-ruth-bader-ginsburg","beruehmte-ryan-gosling":"beruehmte-ryan-gosling","beruehmte-sadhguru":"beruehmte-sadhguru","beruehmte-sahra-wagenknecht":"beruehmte-sahra-wagenknecht","beruehmte-sally-rooney":"beruehmte-sally-rooney","beruehmte-sam-altman":"beruehmte-sam-altman","beruehmte-sammy-davis-jr":"beruehmte-sammy-davis-jr","beruehmte-samuel-hahnemann":"beruehmte-samuel-hahnemann","beruehmte-sandra-hueller":"beruehmte-sandra-hueller","beruehmte-scarlett-johansson":"beruehmte-scarlett-johansson","beruehmte-sean-connery":"beruehmte-sean-connery","beruehmte-sean-penn":"beruehmte-sean-penn","beruehmte-serdar-somuncu":"beruehmte-serdar-somuncu","beruehmte-shakira":"beruehmte-shakira","beruehmte-sigmund-freud":"beruehmte-sigmund-freud","beruehmte-simone-de-beauvoir":"beruehmte-simone-de-beauvoir","beruehmte-skylar-grey":"beruehmte-skylar-grey","beruehmte-soeren-kierkegaard":"beruehmte-soeren-kierkegaard","beruehmte-sokrates":"beruehmte-sokrates","beruehmte-sophie-marceau":"beruehmte-sophie-marceau","beruehmte-helge-schneider":"beruehmte-helge-schneider","beruehmte-spinoza":"beruehmte-spinoza","beruehmte-stan-laurel":"beruehmte-stan-laurel","beruehmte-ellen-degeneres":"beruehmte-ellen-degeneres","beruehmte-steffi-graf":"beruehmte-steffi-graf","beruehmte-stephen-hawking":"beruehmte-stephen-hawking","beruehmte-sterling-north":"beruehmte-sterling-north","beruehmte-sting":"beruehmte-sting","beruehmte-storm-reid":"beruehmte-storm-reid","beruehmte-stringer-davis":"beruehmte-stringer-davis","beruehmte-stromae":"beruehmte-stromae","beruehmte-sucharit-bhakdi":"beruehmte-sucharit-bhakdi","beruehmte-sundar-pichai":"beruehmte-sundar-pichai","beruehmte-suzan-lori-parks":"beruehmte-suzan-lori-parks","beruehmte-t-e-lawrence":"beruehmte-t-e-lawrence","beruehmte-taddl":"beruehmte-taddl","beruehmte-takashi-murakami":"beruehmte-takashi-murakami","beruehmte-taylor-swift":"beruehmte-taylor-swift","beruehmte-teresa-von-avila":"beruehmte-teresa-von-avila","beruehmte-thea-litschka-koen":"beruehmte-thea-litschka-koen","beruehmte-thomas-chaanhing":"beruehmte-thomas-chaanhing","beruehmte-thomas-mann":"beruehmte-thomas-mann","beruehmte-thomas-gottschalk":"beruehmte-thomas-gottschalk","beruehmte-horst-lichter":"beruehmte-horst-lichter","beruehmte-thomas-von-aquin":"beruehmte-thomas-von-aquin","beruehmte-til-schweiger":"beruehmte-til-schweiger","beruehmte-tilda-swinton":"beruehmte-tilda-swinton","beruehmte-tim-bendzko":"beruehmte-tim-bendzko","beruehmte-michael-david-rosenberg":"beruehmte-michael-david-rosenberg","beruehmte-tim-clutton-brock":"beruehmte-tim-clutton-brock","beruehmte-tim-maelzer":"beruehmte-tim-maelzer","beruehmte-tom-hanks":"tom-hanks","beruehmte-tom-kaulitz":"beruehmte-tom-kaulitz","beruehmte-toni-morrison":"beruehmte-toni-morrison","beruehmte-tony-shalhoub":"beruehmte-tony-shalhoub","beruehmte-tracie-d-hall":"beruehmte-tracie-d-hall","beruehmte-truman-capote":"beruehmte-truman-capote","beruehmte-tutty-tran":"beruehmte-tutty-tran","beruehmte-udo-juergens":"beruehmte-udo-juergens","beruehmte-udo-lindenberg":"beruehmte-udo-lindenberg","beruehmte-uli-hoeness":"beruehmte-uli-hoeness","beruehmte-umberto-eco":"beruehmte-umberto-eco","beruehmte-ursula-von-der-leyen":"beruehmte-ursula-von-der-leyen","beruehmte-usher":"beruehmte-usher","beruehmte-uwe-ochsenknecht":"beruehmte-uwe-ochsenknecht","beruehmte-alec-baldwin":"beruehmte-alec-baldwin","beruehmte-vera-birkenbihl":"beruehmte-vera-birkenbihl","beruehmte-vincent-van-gogh":"beruehmte-vincent-van-gogh","beruehmte-virginia-woolf":"beruehmte-virginia-woolf","beruehmte-voltaire":"beruehmte-voltaire","beruehmte-wallace-shawn":"beruehmte-wallace-shawn","beruehmte-warren-buffett":"beruehmte-warren-buffett","beruehmte-will-smith":"beruehmte-will-smith","beruehmte-william-shakespeare":"beruehmte-william-shakespeare","beruehmte-willy-brandt":"beruehmte-willy-brandt","beruehmte-juergen-von-der-lippe":"beruehmte-juergen-von-der-lippe","beruehmte-carlo-ancelotti":"beruehmte-carlo-ancelotti","beruehmte-sergio-bambaren":"beruehmte-sergio-bambaren","beruehmte-wilma-mankiller":"beruehmte-wilma-mankiller","beruehmte-wilson-gonzalez-ochsenknecht":"beruehmte-wilson-gonzalez-ochsenknecht","beruehmte-winifred-charlesworth":"beruehmte-winifred-charlesworth","beruehmte-winston-churchill":"beruehmte-winston-churchill","beruehmte-wladimir-putin":"beruehmte-wladimir-putin","beruehmte-wolfgang-amadeus-mozart":"beruehmte-wolfgang-amadeus-mozart","beruehmte-wolodymyr-selenskyj":"beruehmte-wolodymyr-selenskyj","beruehmte-woody-allen":"beruehmte-woody-allen","beruehmte-xanthippe":"beruehmte-xanthippe","beruehmte-xu-bing":"beruehmte-xu-bing","beruehmte-yayoi-kusama":"beruehmte-yayoi-kusama","beruehmte-zoe-saldana":"beruehmte-zoe-saldana","krankheitsportraets-adam-smith":"beruehmte-adam-smith","krankheitsportraets-adele":"beruehmte-adele","krankheitsportraets-ai-weiwei":"beruehmte-ai-weiwei","krankheitsportraets-alan-turing":"beruehmte-alan-turing","krankheitsportraets-albert-einstein":"beruehmte-albert-einstein","krankheitsportraets-alexander-der-grosse":"beruehmte-alexander-der-grosse","krankheitsportraets-angelina-jolie":"beruehmte-angelina-jolie","krankheitsportraets-anthony-hopkins":"beruehmte-anthony-hopkins","krankheitsportraets-arthur-rimbaud":"beruehmte-arthur-rimbaud","krankheitsportraets-ashton-kutcher":"beruehmte-ashton-kutcher","krankheitsportraets-astrid-lindgren":"beruehmte-astrid-lindgren","krankheitsportraets-bernie-madoff":"bernie-madoff","krankheitsportraets-billie-eilish":"beruehmte-billie-eilish","krankheitsportraets-blaise-pascal":"beruehmte-blaise-pascal","krankheitsportraets-bob-marley":"beruehmte-bob-marley","krankheitsportraets-brigitte-bardot":"beruehmte-brigitte-bardot","krankheitsportraets-byron-katie":"beruehmte-byron-katie","krankheitsportraets-charles-darwin":"beruehmte-charles-darwin","krankheitsportraets-charles-manson":"charles-manson","krankheitsportraets-christiaan-barnard":"beruehmte-christiaan-barnard","krankheitsportraets-christoph-kolumbus":"beruehmte-christoph-kolumbus","krankheitsportraets-claude-debussy":"beruehmte-claude-debussy","krankheitsportraets-claudio-naranjo":"beruehmte-claudio-naranjo","krankheitsportraets-david-bowie":"beruehmte-david-bowie","krankheitsportraets-david-hume":"beruehmte-david-hume","krankheitsportraets-diego-velazquez":"beruehmte-diego-velazquez","krankheitsportraets-dolly-parton":"beruehmte-dolly-parton","krankheitsportraets-drew-barrymore":"beruehmte-drew-barrymore","krankheitsportraets-edgar-allan-poe":"beruehmte-edgar-allan-poe","krankheitsportraets-edvard-munch":"edvard-munch","krankheitsportraets-elizabeth-barrett-browning":"beruehmte-elizabeth-barrett-browning","krankheitsportraets-elon-musk":"beruehmte-elon-musk","krankheitsportraets-elvis-presley":"beruehmte-elvis-presley","krankheitsportraets-epikur":"beruehmte-epikur","krankheitsportraets-fjodor-dostojewski":"beruehmte-fjodor-dostojewski","krankheitsportraets-francis-bacon":"beruehmte-francis-bacon","krankheitsportraets-francisco-de-goya":"beruehmte-francisco-de-goya","krankheitsportraets-frans-de-waal":"beruehmte-frans-de-waal","krankheitsportraets-franz-kafka":"beruehmte-franz-kafka","krankheitsportraets-franz-liszt":"beruehmte-franz-liszt","krankheitsportraets-franz-schubert":"beruehmte-franz-schubert","krankheitsportraets-franz-von-assisi":"beruehmte-franz-von-assisi","krankheitsportraets-freddie-mercury":"beruehmte-freddie-mercury","krankheitsportraets-frederic-chopin":"beruehmte-frederic-chopin","krankheitsportraets-frida-kahlo":"beruehmte-frida-kahlo","krankheitsportraets-friedrich-nietzsche":"beruehmte-friedrich-nietzsche","krankheitsportraets-friedrich-schiller":"beruehmte-friedrich-schiller","krankheitsportraets-fritz-perls":"beruehmte-fritz-perls","krankheitsportraets-genesis-p-orridge":"beruehmte-genesis-p-orridge","krankheitsportraets-george-gershwin":"beruehmte-george-gershwin","krankheitsportraets-giacomo-casanova":"beruehmte-giacomo-casanova","krankheitsportraets-giacomo-puccini":"beruehmte-giacomo-puccini","krankheitsportraets-golda-meir":"beruehmte-golda-meir","krankheitsportraets-greta-thunberg":"beruehmte-greta-thunberg","krankheitsportraets-gustav-mahler":"beruehmte-gustav-mahler","krankheitsportraets-hannah-arendt":"beruehmte-hannah-arendt","krankheitsportraets-hans-christian-andersen":"beruehmte-hans-christian-andersen","krankheitsportraets-hans-dietrich-genscher":"beruehmte-hans-dietrich-genscher","krankheitsportraets-heinrich-heine":"beruehmte-heinrich-heine","krankheitsportraets-helmut-kohl":"beruehmte-helmut-kohl","krankheitsportraets-hermann-hesse":"beruehmte-hermann-hesse","krankheitsportraets-honore-de-balzac":"beruehmte-honore-de-balzac","krankheitsportraets-hundertwasser":"beruehmte-hundertwasser","krankheitsportraets-immanuel-kant":"beruehmte-immanuel-kant","krankheitsportraets-isaac-newton":"beruehmte-isaac-newton","krankheitsportraets-james-levine":"beruehmte-james-levine","krankheitsportraets-jamie-lee-curtis":"beruehmte-jamie-lee-curtis","krankheitsportraets-jean-jacques-rousseau":"beruehmte-jean-jacques-rousseau","krankheitsportraets-jean-paul-sartre":"beruehmte-jean-paul-sartre","krankheitsportraets-johann-sebastian-bach":"beruehmte-johann-sebastian-bach","krankheitsportraets-johannes-brahms":"beruehmte-johannes-brahms","krankheitsportraets-john-gotti":"john-gotti","krankheitsportraets-john-wayne":"beruehmte-john-wayne","krankheitsportraets-jordan-peterson":"beruehmte-jordan-peterson","krankheitsportraets-joseph-haydn":"beruehmte-joseph-haydn","krankheitsportraets-enrico-caruso":"beruehmte-enrico-caruso","krankheitsportraets-jules-verne":"beruehmte-jules-verne","krankheitsportraets-julian-assange":"beruehmte-julian-assange","krankheitsportraets-julius-caesar":"beruehmte-julius-caesar","krankheitsportraets-junko-tabei":"beruehmte-junko-tabei","krankheitsportraets-karl-lagerfeld":"beruehmte-karl-lagerfeld","krankheitsportraets-karl-marx":"beruehmte-karl-marx","krankheitsportraets-klara-von-assisi":"beruehmte-klara-von-assisi","krankheitsportraets-klaus-kinski":"beruehmte-klaus-kinski","krankheitsportraets-konrad-adenauer":"beruehmte-konrad-adenauer","krankheitsportraets-lady-diana":"beruehmte-lady-diana","krankheitsportraets-larry-king":"beruehmte-larry-king","krankheitsportraets-leonard-bernstein":"beruehmte-leonard-bernstein","krankheitsportraets-leonard-cohen":"beruehmte-leonard-cohen","krankheitsportraets-leonardo-da-vinci":"beruehmte-leonardo-da-vinci","krankheitsportraets-ludwig-van-beethoven":"beruehmte-ludwig-van-beethoven","krankheitsportraets-ludwig-wittgenstein":"beruehmte-ludwig-wittgenstein","krankheitsportraets-ludwig-xiv":"beruehmte-ludwig-xiv","krankheitsportraets-marcel-proust":"beruehmte-marcel-proust","krankheitsportraets-margaret-rutherford":"beruehmte-margaret-rutherford","krankheitsportraets-charles-laughton":"beruehmte-charles-laughton","krankheitsportraets-mariah-carey":"beruehmte-mariah-carey","krankheitsportraets-marie-curie":"beruehmte-marie-curie","krankheitsportraets-marilyn-monroe":"beruehmte-marilyn-monroe","krankheitsportraets-martin-luther":"beruehmte-martin-luther","krankheitsportraets-michael-jackson":"beruehmte-michael-jackson","krankheitsportraets-michael-schumacher":"beruehmte-michael-schumacher","krankheitsportraets-moliere":"moliere","krankheitsportraets-morgan-freeman":"beruehmte-morgan-freeman","krankheitsportraets-mr-t":"beruehmte-mr-t","krankheitsportraets-muhammad-ali":"beruehmte-muhammad-ali","krankheitsportraets-napoleon-bonaparte":"beruehmte-napoleon-bonaparte","krankheitsportraets-natascha-kampusch":"beruehmte-natascha-kampusch","krankheitsportraets-neil-armstrong":"beruehmte-neil-armstrong","krankheitsportraets-nikola-tesla":"beruehmte-nikola-tesla","krankheitsportraets-nusrat-fateh-ali-khan":"beruehmte-nusrat-fateh-ali-khan","krankheitsportraets-oj-simpson":"oj-simpson","krankheitsportraets-oprah-winfrey":"beruehmte-oprah-winfrey","krankheitsportraets-osho":"beruehmte-osho","krankheitsportraets-otto-von-bismarck":"beruehmte-otto-von-bismarck","krankheitsportraets-paul-gauguin":"beruehmte-paul-gauguin","krankheitsportraets-peter-falk":"beruehmte-peter-falk","krankheitsportraets-richard-ramirez":"richard-ramirez","krankheitsportraets-robbie-williams":"beruehmte-robbie-williams","krankheitsportraets-robert-de-niro":"beruehmte-robert-de-niro","krankheitsportraets-robert-schumann":"beruehmte-robert-schumann","krankheitsportraets-romy-schneider":"beruehmte-romy-schneider","krankheitsportraets-ronald-reagan":"beruehmte-ronald-reagan","krankheitsportraets-ruth-bader-ginsburg":"beruehmte-ruth-bader-ginsburg","krankheitsportraets-sadhguru":"beruehmte-sadhguru","krankheitsportraets-salvatore-riina":"salvatore-riina","krankheitsportraets-sammy-davis-jr":"beruehmte-sammy-davis-jr","krankheitsportraets-sean-connery":"beruehmte-sean-connery","krankheitsportraets-sigmund-freud":"beruehmte-sigmund-freud","krankheitsportraets-spinoza":"beruehmte-spinoza","krankheitsportraets-stephen-hawking":"beruehmte-stephen-hawking","krankheitsportraets-t-e-lawrence":"beruehmte-t-e-lawrence","krankheitsportraets-teresa-von-avila":"beruehmte-teresa-von-avila","krankheitsportraets-truman-capote":"beruehmte-truman-capote","krankheitsportraets-umberto-eco":"beruehmte-umberto-eco","krankheitsportraets-vincent-van-gogh":"beruehmte-vincent-van-gogh","krankheitsportraets-voltaire":"beruehmte-voltaire","krankheitsportraets-warren-buffett":"beruehmte-warren-buffett","krankheitsportraets-willy-brandt":"beruehmte-willy-brandt","krankheitsportraets-wilma-mankiller":"beruehmte-wilma-mankiller","krankheitsportraets-winston-churchill":"beruehmte-winston-churchill","krankheitsportraets-wolfgang-amadeus-mozart":"beruehmte-wolfgang-amadeus-mozart","krankheitsportraets-woody-allen":"beruehmte-woody-allen","krankheitsportraets-yayoi-kusama":"beruehmte-yayoi-kusama","kriminalpsychologie-adolf-eichmann":"adolf-eichmann","kriminalpsychologie-adolf-hitler":"adolf-hitler","kriminalpsychologie-aileen-wuornos":"aileen-wuornos","kriminalpsychologie-alex-murdaugh":"alex-murdaugh","kriminalpsychologie-alfons-schuhbeck":"alfons-schuhbeck","kriminalpsychologie-anders-breivik":"anders-breivik","kriminalpsychologie-andreas-baader":"andreas-baader","kriminalpsychologie-andrei-tschikatilo":"andrei-tschikatilo","kriminalpsychologie-andrew-cunanan":"andrew-cunanan","kriminalpsychologie-angel-resendez":"angel-resendez","kriminalpsychologie-anna-delvey":"anna-delvey","kriminalpsychologie-armin-meiwes":"armin-meiwes","kriminalpsychologie-arno-funke":"arno-funke","kriminalpsychologie-belle-gunness":"belle-gunness","kriminalpsychologie-bernie-madoff":"bernie-madoff","kriminalpsychologie-bonnie-parker":"bonnie-parker","kriminalpsychologie-elizabeth-bathory":"elizabeth-bathory","kriminalpsychologie-boris-becker":"./assets/portraits/astrologie-boris-becker-foto.jpg","kriminalpsychologie-buster-murdaugh":"buster-murdaugh","kriminalpsychologie-cedric-maake":"cedric-maake","kriminalpsychologie-charles-manson":"charles-manson","kriminalpsychologie-chris-watts":"chris-watts","kriminalpsychologie-clyde-barrow":"clyde-barrow","kriminalpsychologie-david-berkowitz":"david-berkowitz","kriminalpsychologie-dennis-nilsen":"dennis-nilsen","kriminalpsychologie-dennis-rader":"dennis-rader","kriminalpsychologie-diane-downs":"diane-downs","kriminalpsychologie-susan-wright":"susan-wright","kriminalpsychologie-dieter-zlof":"dieter-zlof","kriminalpsychologie-dorothea-puente":"dorothea-puente","kriminalpsychologie-ed-gein":"kriminalpsychologie-ed-gein","kriminalpsychologie-elliot-rodger":"elliot-rodger","kriminalpsychologie-frank-abagnale-jr":"frank-abagnale","kriminalpsychologie-fritz-haarmann":"fritz-haarmann","kriminalpsychologie-fritz-honka":"fritz-honka","kriminalpsychologie-gary-ridgway":"gary-ridgway","kriminalpsychologie-gennadi-mikhasevich":"gennadi-mikhasevich","kriminalpsychologie-griselda-blanco":"griselda-blanco","kriminalpsychologie-gudrun-ensslin":"gudrun-ensslin","kriminalpsychologie-harold-shipman":"harold-shipman","kriminalpsychologie-harvey-weinstein":"harvey-weinstein","kriminalpsychologie-heinrich-pommerenke":"heinrich-pommerenke","kriminalpsychologie-henri-landru":"henri-landru","kriminalpsychologie-jack-unterweger":"jack-unterweger","kriminalpsychologie-jeanne-weber":"jeanne-weber","kriminalpsychologie-jeffrey-dahmer":"jeffrey-dahmer","kriminalpsychologie-jeffrey-epstein":"jeffrey-epstein","kriminalpsychologie-jim-jones":"jim-jones","kriminalpsychologie-joachim-kroll":"joachim-kroll","kriminalpsychologie-joel-rifkin":"joel-rifkin","kriminalpsychologie-john-gotti":"john-gotti","kriminalpsychologie-john-hinckley-jr":"kriminalpsychologie-john-hinckley-jr","kriminalpsychologie-john-list":"john-list","kriminalpsychologie-john-mcafee":"john-mcafee","kriminalpsychologie-john-wayne-gacy":"john-wayne-gacy","kriminalpsychologie-jonathan-meijer":"jonathan-meijer","kriminalpsychologie-josef-fritzl":"josef-fritzl","kriminalpsychologie-karla-homolka":"karla-homolka","kriminalpsychologie-leslie-van-houten":"leslie-van-houten","kriminalpsychologie-luka-magnotta":"luka-magnotta","kriminalpsychologie-mary-ann-cotton":"mary-ann-cotton","kriminalpsychologie-michael-franzese":"michael-franzese","kriminalpsychologie-michail-popkow":"michail-popkow","kriminalpsychologie-nick-leeson":"nick-leeson","kriminalpsychologie-niels-hoegel":"niels-hoegel","kriminalpsychologie-oj-simpson":"oj-simpson","kriminalpsychologie-osama-bin-laden":"osama-bin-laden","kriminalpsychologie-otto-muehl":"kriminalpsychologie-otto-muehl","kriminalpsychologie-p-diddy":"p-diddy","kriminalpsychologie-pablo-escobar":"pablo-escobar","kriminalpsychologie-pamela-smart":"pamela-smart","kriminalpsychologie-paul-bernardo":"paul-bernardo","kriminalpsychologie-paul-ogorzow":"paul-ogorzow","kriminalpsychologie-pedro-alonso-lopez":"pedro-alonso-lopez","kriminalpsychologie-peter-sutcliffe":"peter-sutcliffe","kriminalpsychologie-richard-ramirez":"richard-ramirez","kriminalpsychologie-ronnie-biggs":"ronnie-biggs","kriminalpsychologie-rudolf-pleil":"rudolf-pleil","kriminalpsychologie-ruja-ignatova":"ruja-ignatova","kriminalpsychologie-salvatore-riina":"salvatore-riina","kriminalpsychologie-samuel-bankman-fried":"samuel-bankman-fried","kriminalpsychologie-sebastian-greenwood":"sebastian-greenwood","kriminalpsychologie-ted-bundy":"./assets/ted-bundy-portrait-neu.png","kriminalpsychologie-ted-kaczynski":"ted-kaczynski","kriminalpsychologie-tom-keating":"tom-keating","kriminalpsychologie-tommy-lynn-sells":"tommy-lynn-sells","kriminalpsychologie-ulrike-meinhof":"ulrike-meinhof","kriminalpsychologie-victor-lustig":"victor-lustig","kriminalpsychologie-vincenzo-peruggia":"vincenzo-peruggia","kriminalpsychologie-wade-wilson":"wade-wilson","kriminalpsychologie-werner-gladow":"werner-gladow","kriminalpsychologie-wolfgang-beltracchi":"wolfgang-beltracchi","beruehmte-alain-delon":"beruehmte-alain-delon","beruehmte-alice-miller":"beruehmte-alice-miller","beruehmte-anne-applebaum":"beruehmte-anne-applebaum","beruehmte-anne-will":"beruehmte-anne-will","beruehmte-arnold-schwarzenegger":"beruehmte-arnold-schwarzenegger","beruehmte-avril-lavigne":"beruehmte-avril-lavigne","beruehmte-benny-safdie":"beruehmte-benny-safdie","beruehmte-josh-safdie":"beruehmte-josh-safdie","beruehmte-ben-berndt":"beruehmte-ben-berndt","beruehmte-bobby-fischer":"beruehmte-bobby-fischer","beruehmte-boris-grundl":"beruehmte-boris-grundl","beruehmte-brian-fennell":"beruehmte-brian-fennell","beruehmte-chester-bennington":"beruehmte-chester-bennington","beruehmte-dalai-lama":"beruehmte-dalai-lama","beruehmte-david-garrett":"beruehmte-david-garrett","beruehmte-dustin-hoffman":"beruehmte-dustin-hoffman","beruehmte-eddie-redmayne":"beruehmte-eddie-redmayne","beruehmte-ellen-moons":"beruehmte-ellen-moons","beruehmte-elton-john":"beruehmte-elton-john","beruehmte-fabian-kahl":"beruehmte-fabian-kahl","beruehmte-galarrwuy-yunupingu":"beruehmte-galarrwuy-yunupingu","beruehmte-grit-strassenberger":"beruehmte-grit-strassenberger","beruehmte-guenther-krabbenhoeft":"beruehmte-guenther-krabbenhoeft","beruehmte-harald-lesch":"beruehmte-harald-lesch","beruehmte-harald-v":"beruehmte-harald-v","beruehmte-herfried-muenkler":"beruehmte-herfried-muenkler","beruehmte-ida-pfeiffer":"beruehmte-ida-pfeiffer","beruehmte-jerry-lewis":"beruehmte-jerry-lewis","beruehmte-joachim-loew":"beruehmte-joachim-loew","beruehmte-jonah-hill":"beruehmte-jonah-hill","beruehmte-lise-meitner":"beruehmte-lise-meitner","beruehmte-louise-hay":"beruehmte-louise-hay","beruehmte-madonna":"beruehmte-madonna","beruehmte-michael-stipe":"beruehmte-michael-stipe","beruehmte-natalie-dormer":"beruehmte-natalie-dormer","beruehmte-nina-dobrev":"beruehmte-nina-dobrev","beruehmte-ole-nymoen":"beruehmte-ole-nymoen","beruehmte-peter-maffay":"beruehmte-peter-maffay","beruehmte-heinz-ruehmann":"beruehmte-heinz-ruehmann","beruehmte-phil-collins":"beruehmte-phil-collins","beruehmte-phil-taylor":"beruehmte-phil-taylor","beruehmte-ringo-starr":"beruehmte-ringo-starr","beruehmte-ryke-geerd-hamer":"beruehmte-ryke-geerd-hamer","beruehmte-stefan-homburg":"beruehmte-stefan-homburg","beruehmte-steve-jobs":"beruehmte-steve-jobs","beruehmte-susan-link":"beruehmte-susan-link","beruehmte-tim-cook":"beruehmte-tim-cook","beruehmte-usain-bolt":"beruehmte-usain-bolt","beruehmte-william-james":"beruehmte-william-james","beruehmte-wolfgang-joop":"beruehmte-wolfgang-joop","krankheitsportraets-alain-delon":"beruehmte-alain-delon","krankheitsportraets-arnold-schwarzenegger":"beruehmte-arnold-schwarzenegger","krankheitsportraets-avril-lavigne":"beruehmte-avril-lavigne","krankheitsportraets-connie-chiu":"beruehmte-connie-chiu","krankheitsportraets-elton-john":"beruehmte-elton-john","krankheitsportraets-fiona-apple":"beruehmte-fiona-apple","krankheitsportraets-galarrwuy-yunupingu":"beruehmte-galarrwuy-yunupingu","krankheitsportraets-juergen-drews":"beruehmte-juergen-drews","krankheitsportraets-michael-berryman":"beruehmte-michael-berryman","krankheitsportraets-phil-collins":"beruehmte-phil-collins","krankheitsportraets-steve-jobs":"beruehmte-steve-jobs","krankheitsportraets-virginia-woolf":"beruehmte-virginia-woolf","krankheitsportraets-william-james":"beruehmte-william-james","kriminalpsychologie-bryan-kohberger":"bryan-kohberger","kriminalpsychologie-gesche-gottfried":"gesche-gottfried","beruehmte-harrison-ford":"beruehmte-harrison-ford","beruehmte-juergen-klinsmann":"beruehmte-juergen-klinsmann","beruehmte-wolfgang-wodarg":"beruehmte-wolfgang-wodarg","beruehmte-riku-miura":"beruehmte-riku-miura","beruehmte-lorne-greene":"beruehmte-lorne-greene","beruehmte-palina-rojinski":"beruehmte-palina-rojinski","beruehmte-andy-warhol":"beruehmte-andy-warhol","beruehmte-raul-aguayo-krauthausen":"beruehmte-raul-aguayo-krauthausen","beruehmte-michaela-benthaus":"beruehmte-michaela-benthaus","beruehmte-mads-mikkelsen":"beruehmte-mads-mikkelsen","beruehmte-fiona-harvey":"beruehmte-fiona-harvey","beruehmte-dmitri-schostakowitsch":"beruehmte-dmitri-schostakowitsch","beruehmte-allie-sherlock":"beruehmte-allie-sherlock","beruehmte-ursula-lyon":"beruehmte-ursula-lyon","krankheitsportraets-dmitri-schostakowitsch":"beruehmte-dmitri-schostakowitsch"};
+const BQA_IMG_MAP = {"beruehmte-james-stewart":"beruehmte-james-stewart-v2","beruehmte-gary-cooper":"beruehmte-gary-cooper-v2","beruehmte-reinhard-mey":"beruehmte-reinhard-mey-v2","krankheitsportraets-bruce-lee":"beruehmte-bruce-lee","krankheitsportraets-wolfgang-niedecken":"beruehmte-wolfgang-niedecken","krankheitsportraets-robbie-coltrane":"beruehmte-robbie-coltrane","krankheitsportraets-rudi-carrell":"beruehmte-rudi-carrell","krankheitsportraets-johannes-heesters":"beruehmte-johannes-heesters","kriminalpsychologie-frank-hanebuth":"kriminalpsychologie-frank-hanebuth","krankheitsportraets-florence-nightingale":"beruehmte-florence-nightingale","krankheitsportraets-camille-claudel":"beruehmte-camille-claudel","krankheitsportraets-edith-piaf":"beruehmte-edith-piaf","kriminalpsychologie-rodney-alcala":"kriminalpsychologie-rodney-alcala","kriminalpsychologie-rex-heuermann":"kriminalpsychologie-rex-heuermann","kriminalpsychologie-lindsay-clancy":"kriminalpsychologie-lindsay-clancy","kriminalpsychologie-beate-zschaepe":"kriminalpsychologie-beate-zschaepe","kriminalpsychologie-gert-postel":"beruehmte-gert-postel","krankheitsportraets-ramana-maharshi":"beruehmte-ramana-maharshi","krankheitsportraets-niki-lauda":"beruehmte-niki-lauda","krankheitsportraets-eleanor-roosevelt":"beruehmte-eleanor-roosevelt","krankheitsportraets-prince":"beruehmte-prince-rogers-nelson","krankheitsportraets-william-james-sidis":"beruehmte-william-james-sidis","krankheitsportraets-johannes-paul-ii":"beruehmte-johannes-paul-ii","krankheitsportraets-mette-marit":"beruehmte-mette-marit","krankheitsportraets-brian-wilson":"beruehmte-brian-wilson","beruehmte-serena-williams":"beruehmte-serena-williams","beruehmte-oliver-kahn":"beruehmte-oliver-kahn","beruehmte-owen-wilson":"beruehmte-owen-wilson","beruehmte-aylin-tezel":"beruehmte-aylin-tezel","beruehmte-coco-chanel":"beruehmte-coco-chanel","beruehmte-mutter-teresa":"beruehmte-mutter-teresa","beruehmte-lana-del-rey":"beruehmte-lana-del-rey","beruehmte-willie-nelson":"beruehmte-willie-nelson","beruehmte-bella-hadid":"beruehmte-bella-hadid","kriminalpsychologie-juana-barraza":"kriminalpsychologie-juana-barraza","beruehmte-henry-shukman":"beruehmte-henry-shukman","beruehmte-madison-chock":"beruehmte-madison-chock","beruehmte-andre-duqum":"beruehmte-andre-duqum","beruehmte-wim-thoelke":"beruehmte-wim-thoelke","krankheitsportraets-wim-thoelke":"beruehmte-wim-thoelke","krankheitsportraets-andy-warhol":"beruehmte-andy-warhol","krankheitsportraets-paul-bocuse":"beruehmte-paul-bocuse","kriminalpsychologie-charles-starkweather":"kriminalpsychologie-charles-starkweather","kriminalpsychologie-bernard-eugene-giles":"kriminalpsychologie-bernard-eugene-giles","beruehmte-joe-dispenza":"beruehmte-joe-dispenza","kriminalpsychologie-james-dusty-rhodes":"kriminalpsychologie-james-dusty-rhodes","beruehmte-viktor-frankl":"beruehmte-viktor-frankl","beruehmte-evan-bates":"beruehmte-evan-bates","krankheitsportraets-gunther-von-hagens":"beruehmte-gunther-von-hagens","beruehmte-floyd-mayweather":"beruehmte-floyd-mayweather","beruehmte-sigourney-weaver":"beruehmte-sigourney-weaver","kriminalpsychologie-peter-moore":"kriminalpsychologie-peter-moore","beruehmte-henning-baum":"beruehmte-henning-baum","beruehmte-gert-scobel":"beruehmte-gert-scobel","beruehmte-peter-sage":"beruehmte-peter-sage","beruehmte-lewis-howes":"beruehmte-lewis-howes","beruehmte-vanessa-goecking":"beruehmte-vanessa-goecking","beruehmte-ingmar-bergman":"beruehmte-ingmar-bergman","beruehmte-michael-mina":"beruehmte-michael-mina","beruehmte-gordon-ramsay":"beruehmte-gordon-ramsay","beruehmte-paul-bocuse":"beruehmte-paul-bocuse","beruehmte-johann-lafer":"beruehmte-johann-lafer","beruehmte-steffen-henssler":"beruehmte-steffen-henssler","beruehmte-adriano-celentano":"beruehmte-adriano-celentano","beruehmte-ulrich-ott":"beruehmte-ulrich-ott","beruehmte-markus-soeder":"beruehmte-markus-soeder","beruehmte-cg-jung":"beruehmte-cg-jung","beruehmte-archimedes":"beruehmte-archimedes","beruehmte-bryan-johnson":"beruehmte-bryan-johnson","beruehmte-clara-loesel":"beruehmte-clara-loesel","kriminalpsychologie-arwed-imiela":"kriminalpsychologie-arwed-imiela","kriminalpsychologie-amelia-dyer":"amelia-dyer","krankheitsportraets-helmut-schmidt":"helmut-schmidt","krankheitsportraets-david-hockney":"beruehmte-david-hockney","krankheitsportraets-dmitri-hvorostovsky":"beruehmte-dmitri-hvorostovsky","krankheitsportraets-knut-hamsun":"beruehmte-knut-hamsun","krankheitsportraets-cg-jung":"beruehmte-cg-jung","beruehmte-george-vithoulkas":"beruehmte-george-vithoulkas","beruehmte-oliver-pocher":"beruehmte-oliver-pocher","beruehmte-leon-goretzka":"beruehmte-leon-goretzka","beruehmte-pedro-alonso":"beruehmte-pedro-alonso","beruehmte-dmitri-hvorostovsky":"beruehmte-dmitri-hvorostovsky","beruehmte-lea-michele":"beruehmte-lea-michele","beruehmte-cornelia-funke":"beruehmte-cornelia-funke","beruehmte-gabi-garcia":"beruehmte-gabi-garcia","beruehmte-abd-al-fattah-as-sisi":"beruehmte-abd-al-fattah-as-sisi","beruehmte-abida-parveen":"beruehmte-abida-parveen","beruehmte-adam-smith":"beruehmte-adam-smith","beruehmte-adele":"beruehmte-adele","beruehmte-adele-neuhauser":"beruehmte-adele-neuhauser","beruehmte-ai-weiwei":"beruehmte-ai-weiwei","beruehmte-ajeet-kaur":"beruehmte-ajeet-kaur","beruehmte-alan-mcelligott":"beruehmte-alan-mcelligott","beruehmte-alan-turing":"beruehmte-alan-turing","beruehmte-alan-watts":"alan-watts","beruehmte-albert-einstein":"beruehmte-albert-einstein","beruehmte-albert-schweitzer":"beruehmte-albert-schweitzer","beruehmte-alberto-marini":"beruehmte-alberto-marini","beruehmte-alexander-bommes":"beruehmte-alexander-bommes","beruehmte-alexander-der-grosse":"beruehmte-alexander-der-grosse","beruehmte-alexander-gerst":"beruehmte-alexander-gerst","beruehmte-ali-wong":"beruehmte-ali-wong","beruehmte-alice-schwarzer":"beruehmte-alice-schwarzer","beruehmte-alicia-keys":"beruehmte-alicia-keys","beruehmte-amelia-earhart":"beruehmte-amelia-earhart","beruehmte-ana-de-armas":"beruehmte-ana-de-armas","beruehmte-ana-salceda":"beruehmte-ana-salceda","beruehmte-anastasia-barner":"beruehmte-anastasia-barner","beruehmte-anastasiia-metelkina":"beruehmte-anastasiia-metelkina","beruehmte-andre-agassi":"beruehmte-andre-agassi","beruehmte-andy-reid":"beruehmte-andy-reid","beruehmte-angela-merkel":"beruehmte-angela-merkel","beruehmte-angelina-jolie":"beruehmte-angelina-jolie","beruehmte-anke-engelke":"beruehmte-anke-engelke","beruehmte-anna-anderson":"beruehmte-anna-anderson","beruehmte-anna-netrebko":"beruehmte-anna-netrebko","beruehmte-barbara-bleisch":"beruehmte-barbara-bleisch","beruehmte-michel-foucault":"beruehmte-michel-foucault","beruehmte-don-mclean":"beruehmte-don-mclean","beruehmte-vincenzo-califano":"beruehmte-vincenzo-califano","beruehmte-gunther-von-hagens":"beruehmte-gunther-von-hagens","beruehmte-joseph-beuys":"beruehmte-joseph-beuys","beruehmte-knut-hamsun":"beruehmte-knut-hamsun","beruehmte-volker-gerhardt":"beruehmte-volker-gerhardt","beruehmte-anne-mcbride":"beruehmte-anne-mcbride","beruehmte-annika-von-mutius":"beruehmte-annika-von-mutius","beruehmte-anthony-hopkins":"beruehmte-anthony-hopkins","beruehmte-aristoteles":"beruehmte-aristoteles","beruehmte-armin-mueller-stahl":"beruehmte-armin-mueller-stahl","beruehmte-armin-rohde":"beruehmte-armin-rohde","beruehmte-arthur-rimbaud":"beruehmte-arthur-rimbaud","beruehmte-ashton-kutcher":"beruehmte-ashton-kutcher","beruehmte-astrid-lindgren":"beruehmte-astrid-lindgren","beruehmte-augustinus-von-hippo":"beruehmte-augustinus-von-hippo","beruehmte-ayo-edebiri":"beruehmte-ayo-edebiri","beruehmte-baerbel-bas":"beruehmte-baerbel-bas","beruehmte-barack-obama":"beruehmte-barack-obama","beruehmte-bastian-pastewka":"beruehmte-bastian-pastewka","beruehmte-bastian-schweinsteiger":"beruehmte-bastian-schweinsteiger","beruehmte-beatrice-chebet":"beruehmte-beatrice-chebet","beruehmte-katie-couric":"beruehmte-katie-couric","beruehmte-bella-thorne":"beruehmte-bella-thorne","beruehmte-sonoya-mizuno":"beruehmte-sonoya-mizuno","beruehmte-benjamin-disraeli":"beruehmte-benjamin-disraeli","beruehmte-bernard-faye":"beruehmte-bernard-faye","beruehmte-bill-gates":"beruehmte-bill-gates","beruehmte-bill-haast":"beruehmte-bill-haast","beruehmte-bill-kaulitz":"beruehmte-bill-kaulitz","beruehmte-billie-eilish":"beruehmte-billie-eilish","beruehmte-billy-bob-thornton":"beruehmte-billy-bob-thornton","beruehmte-birute-galdikas":"beruehmte-birute-galdikas","beruehmte-blaise-pascal":"beruehmte-blaise-pascal","beruehmte-bob-marley":"beruehmte-bob-marley","beruehmte-boris-becker":"./assets/portraits/astrologie-boris-becker-foto.jpg","beruehmte-braco":"beruehmte-braco","beruehmte-brad-pitt":"beruehmte-brad-pitt","beruehmte-lenny-kravitz":"beruehmte-lenny-kravitz","beruehmte-brigitte-bardot":"beruehmte-brigitte-bardot","beruehmte-brigitte-macron":"brigitte-macron","beruehmte-bruno-mars":"beruehmte-bruno-mars","beruehmte-bryn-kenney":"beruehmte-bryn-kenney","beruehmte-bud-spencer":"beruehmte-bud-spencer","beruehmte-gunter-gabriel":"beruehmte-gunter-gabriel","beruehmte-buddha":"beruehmte-buddha","beruehmte-byron-katie":"beruehmte-byron-katie","beruehmte-camille-fritsch":"beruehmte-camille-fritsch","beruehmte-caren-miosga":"beruehmte-caren-miosga","beruehmte-carl-friedrich-gauss":"beruehmte-carl-friedrich-gauss","beruehmte-carl-rogers":"beruehmte-carl-rogers","beruehmte-carl-tanzler":"beruehmte-carl-tanzler","beruehmte-carl-weathers":"beruehmte-carl-weathers","beruehmte-carlos-santana":"beruehmte-carlos-santana","beruehmte-carmen-goglin":"beruehmte-carmen-goglin","beruehmte-carolin-kebekus":"beruehmte-carolin-kebekus","beruehmte-caroline-peters":"beruehmte-caroline-peters","beruehmte-carsten-stahl":"beruehmte-carsten-stahl","beruehmte-cat-stevens":"beruehmte-cat-stevens","beruehmte-cecily-brown":"beruehmte-cecily-brown","beruehmte-changpeng-zhao":"beruehmte-changpeng-zhao","beruehmte-charles-darwin":"beruehmte-charles-darwin","beruehmte-charlotte-wells":"beruehmte-charlotte-wells","beruehmte-mara-wilson":"beruehmte-mara-wilson","beruehmte-barney-fishwick":"beruehmte-barney-fishwick","beruehmte-neil-harbisson":"beruehmte-neil-harbisson","beruehmte-connie-chiu":"beruehmte-connie-chiu","beruehmte-cheyenne-ochsenknecht":"beruehmte-cheyenne-ochsenknecht","beruehmte-christiaan-barnard":"beruehmte-christiaan-barnard","beruehmte-will-yun-lee":"beruehmte-will-yun-lee","beruehmte-virgil-van-dijk":"beruehmte-virgil-van-dijk","beruehmte-zoe-kravitz":"beruehmte-zoe-kravitz","beruehmte-christian-drosten":"beruehmte-christian-drosten","beruehmte-christian-raetsch":"beruehmte-christian-raetsch","beruehmte-christoph-kolumbus":"beruehmte-christoph-kolumbus","beruehmte-christoph-waltz":"beruehmte-christoph-waltz","beruehmte-christophe-boesch":"beruehmte-christophe-boesch","beruehmte-claude-debussy":"beruehmte-claude-debussy","beruehmte-claudio-naranjo":"beruehmte-claudio-naranjo","beruehmte-clemens-arvay":"beruehmte-clemens-arvay","beruehmte-cleopatra":"beruehmte-cleopatra","beruehmte-clueso":"beruehmte-clueso","beruehmte-craig-foster":"beruehmte-craig-foster","beruehmte-cristiano-ronaldo":"beruehmte-cristiano-ronaldo","beruehmte-cynthia-lummis":"beruehmte-cynthia-lummis","beruehmte-cynthia-moss":"beruehmte-cynthia-moss","beruehmte-dakota-johnson":"beruehmte-dakota-johnson","beruehmte-dan-brown":"beruehmte-dan-brown","beruehmte-dante-alighieri":"beruehmte-dante-alighieri","beruehmte-david-bowie":"beruehmte-david-bowie","beruehmte-david-hume":"beruehmte-david-hume","beruehmte-david-l-rathmer":"beruehmte-david-l-rathmer","beruehmte-david-lurey":"beruehmte-david-lurey","beruehmte-david-mech":"beruehmte-david-mech","beruehmte-derek-goodwin":"beruehmte-derek-goodwin","beruehmte-dhapanbal-yunupingu":"beruehmte-dhapanbal-yunupingu","beruehmte-dian-fossey":"beruehmte-dian-fossey","beruehmte-diego-velazquez":"beruehmte-diego-velazquez","beruehmte-dieter-bohlen":"beruehmte-dieter-bohlen","beruehmte-dieter-lange":"beruehmte-dieter-lange","beruehmte-dieter-nuhr":"beruehmte-dieter-nuhr","beruehmte-dietland-mueller-schwarze":"beruehmte-dietland-mueller-schwarze","beruehmte-dietmar-baer":"beruehmte-dietmar-baer","beruehmte-diogenes":"beruehmte-diogenes","beruehmte-dirk-rossmann":"beruehmte-dirk-rossmann","beruehmte-dolly-parton":"beruehmte-dolly-parton","beruehmte-donald-trump":"beruehmte-donald-trump","beruehmte-donata-hopfen":"beruehmte-donata-hopfen","beruehmte-douglas-rushkoff":"beruehmte-douglas-rushkoff","beruehmte-douglas-smith":"beruehmte-douglas-smith","beruehmte-dr-dre":"beruehmte-dr-dre","beruehmte-drew-barrymore":"beruehmte-drew-barrymore","beruehmte-eckhard-freise":"beruehmte-eckhard-freise","beruehmte-anton-zeilinger":"beruehmte-anton-zeilinger","beruehmte-maria-callas":"beruehmte-maria-callas","beruehmte-david-hockney":"beruehmte-david-hockney","beruehmte-eckhart-tolle":"beruehmte-eckhart-tolle","beruehmte-kim-eng":"beruehmte-kim-eng","beruehmte-ed-sheeran":"beruehmte-ed-sheeran","beruehmte-jon-bon-jovi":"beruehmte-jon-bon-jovi","beruehmte-david-guetta":"beruehmte-david-guetta","beruehmte-adam-sandler":"beruehmte-adam-sandler","beruehmte-juergen-drews":"beruehmte-juergen-drews","beruehmte-edgar-allan-poe":"beruehmte-edgar-allan-poe","beruehmte-edita-gruberova":"beruehmte-edita-gruberova","beruehmte-edvard-munch":"edvard-munch","beruehmte-edward-snowden":"beruehmte-edward-snowden","beruehmte-eli-jaxon-bear":"beruehmte-eli-jaxon-bear","beruehmte-elizabeth-barrett-browning":"beruehmte-elizabeth-barrett-browning","beruehmte-elon-musk":"beruehmte-elon-musk","beruehmte-elvis-presley":"beruehmte-elvis-presley","beruehmte-eminem":"beruehmte-eminem","beruehmte-emmanuel-macron":"emmanuel-macron","beruehmte-enya":"beruehmte-enya","beruehmte-epikur":"beruehmte-epikur","beruehmte-olena-zelenska":"beruehmte-olena-zelenska","beruehmte-eva-mendes":"beruehmte-eva-mendes","beruehmte-eva-peron":"beruehmte-eva-peron","beruehmte-faye-dunaway":"beruehmte-faye-dunaway","beruehmte-fiona-apple":"beruehmte-fiona-apple","beruehmte-fjodor-dostojewski":"beruehmte-fjodor-dostojewski","beruehmte-francis-bacon":"beruehmte-francis-bacon","beruehmte-francisco-de-goya":"beruehmte-francisco-de-goya","beruehmte-frank-rosell":"beruehmte-frank-rosell","beruehmte-frank-schaetzing":"beruehmte-frank-schaetzing","beruehmte-franka-potente":"beruehmte-franka-potente","beruehmte-frans-de-waal":"beruehmte-frans-de-waal","beruehmte-franz-kafka":"beruehmte-franz-kafka","beruehmte-franz-liszt":"beruehmte-franz-liszt","beruehmte-franz-schubert":"beruehmte-franz-schubert","beruehmte-franz-von-assisi":"beruehmte-franz-von-assisi","beruehmte-freddie-mercury":"beruehmte-freddie-mercury","beruehmte-frederic-chopin":"beruehmte-frederic-chopin","beruehmte-frida-kahlo":"beruehmte-frida-kahlo","beruehmte-friedrich-merz":"beruehmte-friedrich-merz","beruehmte-friedrich-nietzsche":"beruehmte-friedrich-nietzsche","beruehmte-friedrich-schiller":"beruehmte-friedrich-schiller","beruehmte-fritz-perls":"beruehmte-fritz-perls","beruehmte-jon-hamm":"beruehmte-jon-hamm","beruehmte-fritz-wepper":"beruehmte-fritz-wepper","beruehmte-gangaji":"beruehmte-gangaji","beruehmte-genesis-p-orridge":"beruehmte-genesis-p-orridge","beruehmte-georg-wilhelm-friedrich-hegel":"beruehmte-georg-wilhelm-friedrich-hegel","beruehmte-george-gershwin":"beruehmte-george-gershwin","beruehmte-gerhard-schroeder":"beruehmte-gerhard-schroeder","beruehmte-gertrude-elion":"beruehmte-gertrude-elion","beruehmte-giacomo-casanova":"beruehmte-giacomo-casanova","beruehmte-giacomo-puccini":"beruehmte-giacomo-puccini","beruehmte-gianna-nannini":"beruehmte-gianna-nannini","beruehmte-gina-rinehart":"beruehmte-gina-rinehart","beruehmte-giorgia-meloni":"giorgia-meloni","beruehmte-gloria-von-thurn-und-taxis":"beruehmte-gloria-von-thurn-und-taxis","beruehmte-golda-meir":"beruehmte-golda-meir","beruehmte-gottfried-wilhelm-leibniz":"beruehmte-gottfried-wilhelm-leibniz","beruehmte-grahame-webb":"beruehmte-grahame-webb","beruehmte-gregor-gysi":"beruehmte-gregor-gysi","beruehmte-greta-garbo":"beruehmte-greta-garbo","beruehmte-greta-thunberg":"beruehmte-greta-thunberg","beruehmte-guenther-jauch":"beruehmte-guenther-jauch","beruehmte-gustav-mahler":"beruehmte-gustav-mahler","beruehmte-hannah-arendt":"beruehmte-hannah-arendt","beruehmte-hannah-emde":"beruehmte-hannah-emde","beruehmte-hans-christian-andersen":"beruehmte-hans-christian-andersen","beruehmte-hans-dietrich-genscher":"beruehmte-hans-dietrich-genscher","beruehmte-hans-zimmer":"beruehmte-hans-zimmer","beruehmte-harald-gloeockler":"beruehmte-harald-gloeockler","beruehmte-harnaam-kaur":"beruehmte-harnaam-kaur","beruehmte-hazel-brugger":"beruehmte-hazel-brugger","beruehmte-heather-thomas":"beruehmte-heather-thomas","beruehmte-heidi-klum":"beruehmte-heidi-klum","beruehmte-heike-makatsch":"beruehmte-heike-makatsch","beruehmte-heinrich-heine":"beruehmte-heinrich-heine","beruehmte-helene-fischer":"beruehmte-helene-fischer","beruehmte-helmut-kohl":"beruehmte-helmut-kohl","beruehmte-helmut-schmidt":"helmut-schmidt","beruehmte-heraklit":"beruehmte-heraklit","beruehmte-herbert-groenemeyer":"beruehmte-herbert-groenemeyer","beruehmte-herbert-kickl":"beruehmte-herbert-kickl","beruehmte-herman-van-veen":"beruehmte-herman-van-veen","beruehmte-hermann-hesse":"beruehmte-hermann-hesse","beruehmte-hippokrates-von-kos":"beruehmte-hippokrates-von-kos","beruehmte-honore-de-balzac":"beruehmte-honore-de-balzac","beruehmte-horst-tappert":"beruehmte-horst-tappert","beruehmte-huang-yong-ping":"beruehmte-huang-yong-ping","beruehmte-hugh-grant":"beruehmte-hugh-grant","beruehmte-hugh-warwick":"beruehmte-hugh-warwick","beruehmte-hundertwasser":"beruehmte-hundertwasser","beruehmte-francois-damiens":"beruehmte-francois-damiens","beruehmte-michael-berryman":"beruehmte-michael-berryman","beruehmte-ice-cube":"beruehmte-ice-cube","beruehmte-iga-swiatek":"beruehmte-iga-swiatek","beruehmte-immanuel-kant":"beruehmte-immanuel-kant","beruehmte-ina-mueller":"beruehmte-ina-mueller","beruehmte-indila":"beruehmte-indila","beruehmte-indra-nooyi":"beruehmte-indra-nooyi","beruehmte-ingo-zimmermann":"beruehmte-ingo-zimmermann","beruehmte-iris-berben":"beruehmte-iris-berben","beruehmte-isaac-newton":"beruehmte-isaac-newton","beruehmte-isabella-briggs":"beruehmte-isabel-briggs-myers","beruehmte-isadora-duncan":"beruehmte-isadora-duncan","beruehmte-jack-black":"beruehmte-jack-black","beruehmte-jack-ma":"beruehmte-jack-ma","beruehmte-jacqueline-mars":"beruehmte-jacqueline-mars","beruehmte-jamaica-kincaid":"beruehmte-jamaica-kincaid","beruehmte-james-corden":"beruehmte-james-corden","beruehmte-james-levine":"beruehmte-james-levine","beruehmte-jamie-lee-curtis":"beruehmte-jamie-lee-curtis","beruehmte-jan-ullrich":"beruehmte-jan-ullrich","beruehmte-jane-goodall":"beruehmte-jane-goodall","beruehmte-jasmin-paolini":"beruehmte-jasmine-paolini","beruehmte-javier-parisi":"beruehmte-javier-parisi","beruehmte-jean-jacques-rousseau":"beruehmte-jean-jacques-rousseau","beruehmte-jean-paul-sartre":"beruehmte-jean-paul-sartre","beruehmte-jeanne-calment":"beruehmte-jeanne-calment","beruehmte-jeanne-marie-guyon":"beruehmte-jeanne-marie-guyon","beruehmte-jenna-ortega":"beruehmte-jenna-ortega","beruehmte-jennifer-aniston":"beruehmte-jennifer-aniston","beruehmte-jennifer-mather":"beruehmte-jennifer-mather","beruehmte-jesus-christus":"beruehmte-jesus-christus","beruehmte-jill-pruetz":"beruehmte-jill-pruetz","beruehmte-jimi-blue-ochsenknecht":"beruehmte-jimi-blue-ochsenknecht","beruehmte-jj-liu":"beruehmte-jj-liu","beruehmte-joachim-llambi":"beruehmte-joachim-llambi","beruehmte-jodie-foster":"beruehmte-jodie-foster","beruehmte-joe-navarro":"beruehmte-joe-navarro","beruehmte-johann-sebastian-bach":"beruehmte-johann-sebastian-bach","beruehmte-johann-wolfgang-von-goethe":"beruehmte-johann-wolfgang-von-goethe","beruehmte-johannes-brahms":"beruehmte-johannes-brahms","beruehmte-john-ioannidis":"beruehmte-john-ioannidis","beruehmte-john-lennon":"beruehmte-john-lennon","beruehmte-john-wayne":"beruehmte-john-wayne","beruehmte-johnny-cash":"beruehmte-johnny-cash","beruehmte-johnny-depp":"beruehmte-johnny-depp","beruehmte-jonathan-groff":"beruehmte-jonathan-groff","beruehmte-jordan-peterson":"beruehmte-jordan-peterson","beruehmte-joseph-aoun":"beruehmte-joseph-aoun","beruehmte-joseph-haydn":"beruehmte-joseph-haydn","beruehmte-enrico-caruso":"beruehmte-enrico-caruso","beruehmte-judit-polgar":"beruehmte-judit-polgar","beruehmte-juergen-klopp":"beruehmte-juergen-klopp","beruehmte-jules-verne":"beruehmte-jules-verne","beruehmte-julian-assange":"beruehmte-julian-assange","beruehmte-julius-caesar":"beruehmte-julius-caesar","beruehmte-june-carter-cash":"beruehmte-june-carter-cash","beruehmte-junko-tabei":"beruehmte-junko-tabei","beruehmte-kai-pflaume":"beruehmte-kai-pflaume","beruehmte-kamala-harris":"beruehmte-kamala-harris","beruehmte-karl-lagerfeld":"beruehmte-karl-lagerfeld","beruehmte-karl-lauterbach":"beruehmte-karl-lauterbach","beruehmte-karl-marx":"beruehmte-karl-marx","beruehmte-karoline-herfurth":"beruehmte-karoline-herfurth","beruehmte-katharina-tempel":"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-katharina-tempel-portrait.jpg?v=2","beruehmte-kathrin-bauerfeind":"beruehmte-kathrin-bauerfeind","beruehmte-katja-riemann":"beruehmte-katja-riemann","beruehmte-keanu-reeves":"beruehmte-keanu-reeves","beruehmte-ken-follett":"beruehmte-ken-follett","beruehmte-kevin-costner":"beruehmte-kevin-costner","beruehmte-kevin-james":"beruehmte-kevin-james","beruehmte-kim-jong-un":"beruehmte-kim-jong-un","beruehmte-klara-von-assisi":"beruehmte-klara-von-assisi","beruehmte-klaus-j-behrendt":"beruehmte-klaus-j-behrendt","beruehmte-klaus-kinski":"beruehmte-klaus-kinski","beruehmte-klemens-von-metternich":"beruehmte-klemens-von-metternich","beruehmte-kollegah":"beruehmte-kollegah","beruehmte-konfuzius":"beruehmte-konfuzius","beruehmte-konrad-adenauer":"beruehmte-konrad-adenauer","beruehmte-konrad-lorenz":"beruehmte-konrad-lorenz","beruehmte-kris-marshall":"beruehmte-kris-marshall","beruehmte-kurt-georg-kiesinger":"kurt-georg-kiesinger","beruehmte-lady-diana":"beruehmte-lady-diana","beruehmte-lang-lang":"beruehmte-lang-lang","beruehmte-laozi":"beruehmte-laozi","beruehmte-larry-king":"beruehmte-larry-king","beruehmte-lauren-gardner":"beruehmte-lauren-gardner","beruehmte-laurence-frank":"beruehmte-laurence-frank","beruehmte-laurie-marker":"beruehmte-laurie-marker","beruehmte-lebo-m":"beruehmte-lebo-m","beruehmte-lena-meyer-landrut":"beruehmte-lena-meyer-landrut","beruehmte-lena-urzendowsky":"beruehmte-lena-urzendowsky","beruehmte-sebastian-urzendowsky":"beruehmte-sebastian-urzendowsky","beruehmte-leo-tolstoi":"beruehmte-leo-tolstoi","beruehmte-leonard-bernstein":"beruehmte-leonard-bernstein","beruehmte-leonard-cohen":"beruehmte-leonard-cohen","beruehmte-leonardo-da-vinci":"beruehmte-leonardo-da-vinci","beruehmte-leonardo-dicaprio":"beruehmte-leonardo-dicaprio","beruehmte-linda-evans":"beruehmte-linda-evans","beruehmte-linda-leinweber":"beruehmte-linda-leinweber","beruehmte-lionel-boyce":"beruehmte-lionel-boyce","beruehmte-lisa-antoni":"beruehmte-lisa-antoni","beruehmte-loi":"beruehmte-loi","beruehmte-loni-hui":"beruehmte-loni-hui","beruehmte-loris-assadian":"beruehmte-loris-assadian","beruehmte-lucy-cooke":"beruehmte-lucy-cooke","beruehmte-ludwig-erhard":"beruehmte-ludwig-erhard","beruehmte-ludwig-goeransson":"beruehmte-ludwig-goeransson","beruehmte-ludwig-van-beethoven":"beruehmte-ludwig-van-beethoven","beruehmte-ludwig-wittgenstein":"beruehmte-ludwig-wittgenstein","beruehmte-ludwig-xiv":"beruehmte-ludwig-xiv","beruehmte-madame-tussaud":"beruehmte-madame-tussaud","beruehmte-madeline-stuart":"beruehmte-madeline-stuart","beruehmte-magnus-carlsen":"beruehmte-magnus-carlsen","beruehmte-mahatma-gandhi":"beruehmte-mahatma-gandhi","beruehmte-malaika-mihambo":"beruehmte-malaika-mihambo","beruehmte-marcel-proust":"beruehmte-marcel-proust","beruehmte-marcel-reich-ranicki":"beruehmte-marcel-reich-ranicki","beruehmte-margaret-rutherford":"beruehmte-margaret-rutherford","beruehmte-charles-laughton":"beruehmte-charles-laughton","beruehmte-margot-friedlaender":"beruehmte-margot-friedlaender","beruehmte-mariacarla-boscono":"beruehmte-mariacarla-boscono","beruehmte-mariah-carey":"beruehmte-mariah-carey","beruehmte-marie-agnes-strack-zimmermann":"beruehmte-marie-agnes-strack-zimmermann","beruehmte-marie-antoinette":"beruehmte-marie-antoinette","beruehmte-marie-curie":"beruehmte-marie-curie","beruehmte-marie-kondo":"beruehmte-marie-kondo","beruehmte-mariella-superina":"beruehmte-mariella-superina","beruehmte-marilyn-monroe":"beruehmte-marilyn-monroe","beruehmte-mario-barth":"beruehmte-mario-barth","beruehmte-marisa-abela":"beruehmte-marisa-abela","beruehmte-mark-zuckerberg":"beruehmte-mark-zuckerberg","beruehmte-markus-lanz":"beruehmte-markus-lanz","beruehmte-marlene-zuk":"beruehmte-marlene-zuk","beruehmte-marquis-de-sade":"beruehmte-marquis-de-sade","beruehmte-marta-manser":"beruehmte-marta-manser","beruehmte-martin-luther":"beruehmte-martin-luther","beruehmte-mata-hari":"beruehmte-mata-hari","beruehmte-matthew-mcconaughey":"beruehmte-matthew-mcconaughey","beruehmte-matthias-schweighoefer":"beruehmte-matthias-schweighoefer","beruehmte-tobias-beck":"beruehmte-tobias-beck","beruehmte-meg-ryan":"beruehmte-meg-ryan","beruehmte-melanie-kreis":"beruehmte-melanie-kreis","beruehmte-michael-dell":"beruehmte-michael-dell","beruehmte-michael-jackson":"beruehmte-michael-jackson","beruehmte-michael-schumacher":"beruehmte-michael-schumacher","beruehmte-michelle-obama":"beruehmte-michelle-obama","beruehmte-mickey-rourke":"beruehmte-mickey-rourke","beruehmte-micky-beisenherz":"beruehmte-micky-beisenherz","beruehmte-miguel-de-unamuno":"beruehmte-miguel-de-unamuno","beruehmte-milarepa":"beruehmte-milarepa","beruehmte-miley-cyrus":"beruehmte-miley-cyrus","beruehmte-milow":"beruehmte-milow","beruehmte-mira-murati":"mira-murati","beruehmte-mohammed":"beruehmte-mohammed","beruehmte-monica-simpson":"beruehmte-monica-simpson","beruehmte-monika-gruber":"beruehmte-monika-gruber","beruehmte-morgan-freeman":"beruehmte-morgan-freeman","beruehmte-moritz-bleibtreu":"beruehmte-moritz-bleibtreu","beruehmte-moses":"beruehmte-moses","beruehmte-mr-t":"beruehmte-mr-t","beruehmte-muhammad-ali":"beruehmte-muhammad-ali","beruehmte-mutter-meera":"beruehmte-mutter-meera","beruehmte-napoleon-bonaparte":"beruehmte-napoleon-bonaparte","beruehmte-natascha-kampusch":"beruehmte-natascha-kampusch","beruehmte-natascha-ochsenknecht":"beruehmte-natascha-ochsenknecht","beruehmte-nate-dogg":"beruehmte-nate-dogg","beruehmte-neil-armstrong":"beruehmte-neil-armstrong","beruehmte-nero":"beruehmte-nero","beruehmte-nicolas-cage":"beruehmte-nicolas-cage","beruehmte-nikola-tesla":"beruehmte-nikola-tesla","beruehmte-nina-chuba":"beruehmte-nina-chuba","beruehmte-norah-jones":"beruehmte-norah-jones","beruehmte-nusrat-fateh-ali-khan":"beruehmte-nusrat-fateh-ali-khan","beruehmte-oliver-hardy":"beruehmte-oliver-hardy","beruehmte-omar-sy":"beruehmte-omar-sy","beruehmte-oprah-winfrey":"beruehmte-oprah-winfrey","beruehmte-osho":"beruehmte-osho","beruehmte-otto-von-bismarck":"beruehmte-otto-von-bismarck","beruehmte-pablo-picasso":"beruehmte-pablo-picasso","beruehmte-pamela-reif":"beruehmte-pamela-reif","beruehmte-paris-hilton":"beruehmte-paris-hilton","beruehmte-paul-gauguin":"beruehmte-paul-gauguin","beruehmte-paul-mccartney":"beruehmte-paul-mccartney","beruehmte-penelope-cruz":"beruehmte-penelope-cruz","beruehmte-audrey-tautou":"beruehmte-audrey-tautou","beruehmte-halle-berry":"beruehmte-halle-berry","beruehmte-peter-falk":"beruehmte-peter-falk","beruehmte-peter-gabriel":"beruehmte-peter-gabriel","beruehmte-peter-lustig":"beruehmte-peter-lustig","beruehmte-peter-sharpe":"beruehmte-peter-sharpe","beruehmte-pharrell-williams":"beruehmte-pharrell-williams","beruehmte-pierce-brosnan":"beruehmte-pierce-brosnan","beruehmte-platon":"beruehmte-platon","beruehmte-pythagoras":"beruehmte-pythagoras","beruehmte-queen-elizabeth-ii":"beruehmte-queen-elizabeth-ii","beruehmte-quentin-tarantino":"beruehmte-quentin-tarantino","beruehmte-ranga-yogeshwar":"beruehmte-ranga-yogeshwar","beruehmte-rasputin":"beruehmte-rasputin","beruehmte-reinhard-mey":"beruehmte-reinhard-mey","beruehmte-reinhold-messner":"beruehmte-reinhold-messner","beruehmte-reinhold-wuerth":"beruehmte-reinhold-wuerth","beruehmte-rene-descartes":"beruehmte-rene-descartes","beruehmte-richard-david-precht":"beruehmte-richard-david-precht","beruehmte-rihanna":"beruehmte-rihanna","beruehmte-roald-amundsen":"beruehmte-roald-amundsen","beruehmte-robbie-williams":"beruehmte-robbie-williams","beruehmte-robert-crumb":"beruehmte-robert-crumb","beruehmte-robert-de-niro":"beruehmte-robert-de-niro","beruehmte-robert-oppenheimer":"beruehmte-robert-oppenheimer","beruehmte-robert-schumann":"beruehmte-robert-schumann","beruehmte-romulus-whitaker":"beruehmte-romulus-whitaker","beruehmte-romy-schneider":"beruehmte-romy-schneider","beruehmte-ronald-reagan":"beruehmte-ronald-reagan","beruehmte-rosa-parks":"beruehmte-rosa-parks","beruehmte-indira-gandhi":"beruehmte-indira-gandhi","beruehmte-rowan-atkinson":"beruehmte-rowan-atkinson","beruehmte-rupert-spira":"beruehmte-rupert-spira","beruehmte-ruth-bader-ginsburg":"beruehmte-ruth-bader-ginsburg","beruehmte-ryan-gosling":"beruehmte-ryan-gosling","beruehmte-sadhguru":"beruehmte-sadhguru","beruehmte-sahra-wagenknecht":"beruehmte-sahra-wagenknecht","beruehmte-sally-rooney":"beruehmte-sally-rooney","beruehmte-sam-altman":"beruehmte-sam-altman","beruehmte-sammy-davis-jr":"beruehmte-sammy-davis-jr","beruehmte-samuel-hahnemann":"beruehmte-samuel-hahnemann","beruehmte-sandra-hueller":"beruehmte-sandra-hueller","beruehmte-scarlett-johansson":"beruehmte-scarlett-johansson","beruehmte-sean-connery":"beruehmte-sean-connery","beruehmte-sean-penn":"beruehmte-sean-penn","beruehmte-serdar-somuncu":"beruehmte-serdar-somuncu","beruehmte-shakira":"beruehmte-shakira","beruehmte-sigmund-freud":"beruehmte-sigmund-freud","beruehmte-simone-de-beauvoir":"beruehmte-simone-de-beauvoir","beruehmte-skylar-grey":"beruehmte-skylar-grey","beruehmte-soeren-kierkegaard":"beruehmte-soeren-kierkegaard","beruehmte-sokrates":"beruehmte-sokrates","beruehmte-sophie-marceau":"beruehmte-sophie-marceau","beruehmte-helge-schneider":"beruehmte-helge-schneider","beruehmte-spinoza":"beruehmte-spinoza","beruehmte-stan-laurel":"beruehmte-stan-laurel","beruehmte-ellen-degeneres":"beruehmte-ellen-degeneres","beruehmte-steffi-graf":"beruehmte-steffi-graf","beruehmte-stephen-hawking":"beruehmte-stephen-hawking","beruehmte-sterling-north":"beruehmte-sterling-north","beruehmte-sting":"beruehmte-sting","beruehmte-storm-reid":"beruehmte-storm-reid","beruehmte-stringer-davis":"beruehmte-stringer-davis","beruehmte-stromae":"beruehmte-stromae","beruehmte-sucharit-bhakdi":"beruehmte-sucharit-bhakdi","beruehmte-sundar-pichai":"beruehmte-sundar-pichai","beruehmte-suzan-lori-parks":"beruehmte-suzan-lori-parks","beruehmte-t-e-lawrence":"beruehmte-t-e-lawrence","beruehmte-taddl":"beruehmte-taddl","beruehmte-takashi-murakami":"beruehmte-takashi-murakami","beruehmte-taylor-swift":"beruehmte-taylor-swift","beruehmte-teresa-von-avila":"beruehmte-teresa-von-avila","beruehmte-thea-litschka-koen":"beruehmte-thea-litschka-koen","beruehmte-thomas-chaanhing":"beruehmte-thomas-chaanhing","beruehmte-thomas-mann":"beruehmte-thomas-mann","beruehmte-thomas-gottschalk":"beruehmte-thomas-gottschalk","beruehmte-horst-lichter":"beruehmte-horst-lichter","beruehmte-thomas-von-aquin":"beruehmte-thomas-von-aquin","beruehmte-til-schweiger":"beruehmte-til-schweiger","beruehmte-tilda-swinton":"beruehmte-tilda-swinton","beruehmte-tim-bendzko":"beruehmte-tim-bendzko","beruehmte-michael-david-rosenberg":"beruehmte-michael-david-rosenberg","beruehmte-tim-clutton-brock":"beruehmte-tim-clutton-brock","beruehmte-tim-maelzer":"beruehmte-tim-maelzer","beruehmte-tom-hanks":"tom-hanks","beruehmte-tom-kaulitz":"beruehmte-tom-kaulitz","beruehmte-toni-morrison":"beruehmte-toni-morrison","beruehmte-tony-shalhoub":"beruehmte-tony-shalhoub","beruehmte-tracie-d-hall":"beruehmte-tracie-d-hall","beruehmte-truman-capote":"beruehmte-truman-capote","beruehmte-tutty-tran":"beruehmte-tutty-tran","beruehmte-udo-juergens":"beruehmte-udo-juergens","beruehmte-udo-lindenberg":"beruehmte-udo-lindenberg","beruehmte-uli-hoeness":"beruehmte-uli-hoeness","beruehmte-umberto-eco":"beruehmte-umberto-eco","beruehmte-ursula-von-der-leyen":"beruehmte-ursula-von-der-leyen","beruehmte-usher":"beruehmte-usher","beruehmte-uwe-ochsenknecht":"beruehmte-uwe-ochsenknecht","beruehmte-alec-baldwin":"beruehmte-alec-baldwin","beruehmte-vera-birkenbihl":"beruehmte-vera-birkenbihl","beruehmte-vincent-van-gogh":"beruehmte-vincent-van-gogh","beruehmte-virginia-woolf":"beruehmte-virginia-woolf","beruehmte-voltaire":"beruehmte-voltaire","beruehmte-wallace-shawn":"beruehmte-wallace-shawn","beruehmte-warren-buffett":"beruehmte-warren-buffett","beruehmte-will-smith":"beruehmte-will-smith","beruehmte-william-shakespeare":"beruehmte-william-shakespeare","beruehmte-willy-brandt":"beruehmte-willy-brandt","beruehmte-juergen-von-der-lippe":"beruehmte-juergen-von-der-lippe","beruehmte-carlo-ancelotti":"beruehmte-carlo-ancelotti","beruehmte-sergio-bambaren":"beruehmte-sergio-bambaren","beruehmte-wilma-mankiller":"beruehmte-wilma-mankiller","beruehmte-wilson-gonzalez-ochsenknecht":"beruehmte-wilson-gonzalez-ochsenknecht","beruehmte-winifred-charlesworth":"beruehmte-winifred-charlesworth","beruehmte-winston-churchill":"beruehmte-winston-churchill","beruehmte-wladimir-putin":"beruehmte-wladimir-putin","beruehmte-wolfgang-amadeus-mozart":"beruehmte-wolfgang-amadeus-mozart","beruehmte-wolodymyr-selenskyj":"beruehmte-wolodymyr-selenskyj","beruehmte-woody-allen":"beruehmte-woody-allen","beruehmte-xanthippe":"beruehmte-xanthippe","beruehmte-xu-bing":"beruehmte-xu-bing","beruehmte-yayoi-kusama":"beruehmte-yayoi-kusama","beruehmte-zoe-saldana":"beruehmte-zoe-saldana","krankheitsportraets-adam-smith":"beruehmte-adam-smith","krankheitsportraets-adele":"beruehmte-adele","krankheitsportraets-ai-weiwei":"beruehmte-ai-weiwei","krankheitsportraets-alan-turing":"beruehmte-alan-turing","krankheitsportraets-albert-einstein":"beruehmte-albert-einstein","krankheitsportraets-alexander-der-grosse":"beruehmte-alexander-der-grosse","krankheitsportraets-angelina-jolie":"beruehmte-angelina-jolie","krankheitsportraets-anthony-hopkins":"beruehmte-anthony-hopkins","krankheitsportraets-arthur-rimbaud":"beruehmte-arthur-rimbaud","krankheitsportraets-ashton-kutcher":"beruehmte-ashton-kutcher","krankheitsportraets-astrid-lindgren":"beruehmte-astrid-lindgren","krankheitsportraets-bernie-madoff":"bernie-madoff","krankheitsportraets-billie-eilish":"beruehmte-billie-eilish","krankheitsportraets-blaise-pascal":"beruehmte-blaise-pascal","krankheitsportraets-bob-marley":"beruehmte-bob-marley","krankheitsportraets-brigitte-bardot":"beruehmte-brigitte-bardot","krankheitsportraets-byron-katie":"beruehmte-byron-katie","krankheitsportraets-charles-darwin":"beruehmte-charles-darwin","krankheitsportraets-charles-manson":"charles-manson","krankheitsportraets-christiaan-barnard":"beruehmte-christiaan-barnard","krankheitsportraets-christoph-kolumbus":"beruehmte-christoph-kolumbus","krankheitsportraets-claude-debussy":"beruehmte-claude-debussy","krankheitsportraets-claudio-naranjo":"beruehmte-claudio-naranjo","krankheitsportraets-david-bowie":"beruehmte-david-bowie","krankheitsportraets-david-hume":"beruehmte-david-hume","krankheitsportraets-diego-velazquez":"beruehmte-diego-velazquez","krankheitsportraets-dolly-parton":"beruehmte-dolly-parton","krankheitsportraets-drew-barrymore":"beruehmte-drew-barrymore","krankheitsportraets-edgar-allan-poe":"beruehmte-edgar-allan-poe","krankheitsportraets-edvard-munch":"edvard-munch","krankheitsportraets-elizabeth-barrett-browning":"beruehmte-elizabeth-barrett-browning","krankheitsportraets-elon-musk":"beruehmte-elon-musk","krankheitsportraets-elvis-presley":"beruehmte-elvis-presley","krankheitsportraets-epikur":"beruehmte-epikur","krankheitsportraets-fjodor-dostojewski":"beruehmte-fjodor-dostojewski","krankheitsportraets-francis-bacon":"beruehmte-francis-bacon","krankheitsportraets-francisco-de-goya":"beruehmte-francisco-de-goya","krankheitsportraets-frans-de-waal":"beruehmte-frans-de-waal","krankheitsportraets-franz-kafka":"beruehmte-franz-kafka","krankheitsportraets-franz-liszt":"beruehmte-franz-liszt","krankheitsportraets-franz-schubert":"beruehmte-franz-schubert","krankheitsportraets-franz-von-assisi":"beruehmte-franz-von-assisi","krankheitsportraets-freddie-mercury":"beruehmte-freddie-mercury","krankheitsportraets-frederic-chopin":"beruehmte-frederic-chopin","krankheitsportraets-frida-kahlo":"beruehmte-frida-kahlo","krankheitsportraets-friedrich-nietzsche":"beruehmte-friedrich-nietzsche","krankheitsportraets-friedrich-schiller":"beruehmte-friedrich-schiller","krankheitsportraets-fritz-perls":"beruehmte-fritz-perls","krankheitsportraets-genesis-p-orridge":"beruehmte-genesis-p-orridge","krankheitsportraets-george-gershwin":"beruehmte-george-gershwin","krankheitsportraets-giacomo-casanova":"beruehmte-giacomo-casanova","krankheitsportraets-giacomo-puccini":"beruehmte-giacomo-puccini","krankheitsportraets-golda-meir":"beruehmte-golda-meir","krankheitsportraets-greta-thunberg":"beruehmte-greta-thunberg","krankheitsportraets-gustav-mahler":"beruehmte-gustav-mahler","krankheitsportraets-hannah-arendt":"beruehmte-hannah-arendt","krankheitsportraets-hans-christian-andersen":"beruehmte-hans-christian-andersen","krankheitsportraets-hans-dietrich-genscher":"beruehmte-hans-dietrich-genscher","krankheitsportraets-heinrich-heine":"beruehmte-heinrich-heine","krankheitsportraets-helmut-kohl":"beruehmte-helmut-kohl","krankheitsportraets-hermann-hesse":"beruehmte-hermann-hesse","krankheitsportraets-honore-de-balzac":"beruehmte-honore-de-balzac","krankheitsportraets-hundertwasser":"beruehmte-hundertwasser","krankheitsportraets-immanuel-kant":"beruehmte-immanuel-kant","krankheitsportraets-isaac-newton":"beruehmte-isaac-newton","krankheitsportraets-james-levine":"beruehmte-james-levine","krankheitsportraets-jamie-lee-curtis":"beruehmte-jamie-lee-curtis","krankheitsportraets-jean-jacques-rousseau":"beruehmte-jean-jacques-rousseau","krankheitsportraets-jean-paul-sartre":"beruehmte-jean-paul-sartre","krankheitsportraets-johann-sebastian-bach":"beruehmte-johann-sebastian-bach","krankheitsportraets-johannes-brahms":"beruehmte-johannes-brahms","krankheitsportraets-john-gotti":"john-gotti","krankheitsportraets-john-wayne":"beruehmte-john-wayne","krankheitsportraets-jordan-peterson":"beruehmte-jordan-peterson","krankheitsportraets-joseph-haydn":"beruehmte-joseph-haydn","krankheitsportraets-enrico-caruso":"beruehmte-enrico-caruso","krankheitsportraets-jules-verne":"beruehmte-jules-verne","krankheitsportraets-julian-assange":"beruehmte-julian-assange","krankheitsportraets-julius-caesar":"beruehmte-julius-caesar","krankheitsportraets-junko-tabei":"beruehmte-junko-tabei","krankheitsportraets-karl-lagerfeld":"beruehmte-karl-lagerfeld","krankheitsportraets-karl-marx":"beruehmte-karl-marx","krankheitsportraets-klara-von-assisi":"beruehmte-klara-von-assisi","krankheitsportraets-klaus-kinski":"beruehmte-klaus-kinski","krankheitsportraets-konrad-adenauer":"beruehmte-konrad-adenauer","krankheitsportraets-lady-diana":"beruehmte-lady-diana","krankheitsportraets-larry-king":"beruehmte-larry-king","krankheitsportraets-leonard-bernstein":"beruehmte-leonard-bernstein","krankheitsportraets-leonard-cohen":"beruehmte-leonard-cohen","krankheitsportraets-leonardo-da-vinci":"beruehmte-leonardo-da-vinci","krankheitsportraets-ludwig-van-beethoven":"beruehmte-ludwig-van-beethoven","krankheitsportraets-ludwig-wittgenstein":"beruehmte-ludwig-wittgenstein","krankheitsportraets-ludwig-xiv":"beruehmte-ludwig-xiv","krankheitsportraets-marcel-proust":"beruehmte-marcel-proust","krankheitsportraets-margaret-rutherford":"beruehmte-margaret-rutherford","krankheitsportraets-charles-laughton":"beruehmte-charles-laughton","krankheitsportraets-mariah-carey":"beruehmte-mariah-carey","krankheitsportraets-marie-curie":"beruehmte-marie-curie","krankheitsportraets-marilyn-monroe":"beruehmte-marilyn-monroe","krankheitsportraets-martin-luther":"beruehmte-martin-luther","krankheitsportraets-michael-jackson":"beruehmte-michael-jackson","krankheitsportraets-michael-schumacher":"beruehmte-michael-schumacher","krankheitsportraets-moliere":"moliere","krankheitsportraets-morgan-freeman":"beruehmte-morgan-freeman","krankheitsportraets-mr-t":"beruehmte-mr-t","krankheitsportraets-muhammad-ali":"beruehmte-muhammad-ali","krankheitsportraets-napoleon-bonaparte":"beruehmte-napoleon-bonaparte","krankheitsportraets-natascha-kampusch":"beruehmte-natascha-kampusch","krankheitsportraets-neil-armstrong":"beruehmte-neil-armstrong","krankheitsportraets-nikola-tesla":"beruehmte-nikola-tesla","krankheitsportraets-nusrat-fateh-ali-khan":"beruehmte-nusrat-fateh-ali-khan","krankheitsportraets-oj-simpson":"oj-simpson","krankheitsportraets-oprah-winfrey":"beruehmte-oprah-winfrey","krankheitsportraets-osho":"beruehmte-osho","krankheitsportraets-otto-von-bismarck":"beruehmte-otto-von-bismarck","krankheitsportraets-paul-gauguin":"beruehmte-paul-gauguin","krankheitsportraets-peter-falk":"beruehmte-peter-falk","krankheitsportraets-richard-ramirez":"richard-ramirez","krankheitsportraets-robbie-williams":"beruehmte-robbie-williams","krankheitsportraets-robert-de-niro":"beruehmte-robert-de-niro","krankheitsportraets-robert-schumann":"beruehmte-robert-schumann","krankheitsportraets-romy-schneider":"beruehmte-romy-schneider","krankheitsportraets-ronald-reagan":"beruehmte-ronald-reagan","krankheitsportraets-ruth-bader-ginsburg":"beruehmte-ruth-bader-ginsburg","krankheitsportraets-sadhguru":"beruehmte-sadhguru","krankheitsportraets-salvatore-riina":"salvatore-riina","krankheitsportraets-sammy-davis-jr":"beruehmte-sammy-davis-jr","krankheitsportraets-sean-connery":"beruehmte-sean-connery","krankheitsportraets-sigmund-freud":"beruehmte-sigmund-freud","krankheitsportraets-spinoza":"beruehmte-spinoza","krankheitsportraets-stephen-hawking":"beruehmte-stephen-hawking","krankheitsportraets-t-e-lawrence":"beruehmte-t-e-lawrence","krankheitsportraets-teresa-von-avila":"beruehmte-teresa-von-avila","krankheitsportraets-truman-capote":"beruehmte-truman-capote","krankheitsportraets-umberto-eco":"beruehmte-umberto-eco","krankheitsportraets-vincent-van-gogh":"beruehmte-vincent-van-gogh","krankheitsportraets-voltaire":"beruehmte-voltaire","krankheitsportraets-warren-buffett":"beruehmte-warren-buffett","krankheitsportraets-willy-brandt":"beruehmte-willy-brandt","krankheitsportraets-wilma-mankiller":"beruehmte-wilma-mankiller","krankheitsportraets-winston-churchill":"beruehmte-winston-churchill","krankheitsportraets-wolfgang-amadeus-mozart":"beruehmte-wolfgang-amadeus-mozart","krankheitsportraets-woody-allen":"beruehmte-woody-allen","krankheitsportraets-yayoi-kusama":"beruehmte-yayoi-kusama","kriminalpsychologie-adolf-eichmann":"adolf-eichmann","kriminalpsychologie-adolf-hitler":"adolf-hitler","kriminalpsychologie-aileen-wuornos":"aileen-wuornos","kriminalpsychologie-alex-murdaugh":"alex-murdaugh","kriminalpsychologie-alfons-schuhbeck":"alfons-schuhbeck","kriminalpsychologie-anders-breivik":"anders-breivik","kriminalpsychologie-andreas-baader":"andreas-baader","kriminalpsychologie-andrei-tschikatilo":"andrei-tschikatilo","kriminalpsychologie-andrew-cunanan":"andrew-cunanan","kriminalpsychologie-angel-resendez":"angel-resendez","kriminalpsychologie-anna-delvey":"anna-delvey","kriminalpsychologie-armin-meiwes":"armin-meiwes","kriminalpsychologie-arno-funke":"arno-funke","kriminalpsychologie-belle-gunness":"belle-gunness","kriminalpsychologie-bernie-madoff":"bernie-madoff","kriminalpsychologie-bonnie-parker":"bonnie-parker","kriminalpsychologie-elizabeth-bathory":"elizabeth-bathory","kriminalpsychologie-boris-becker":"./assets/portraits/astrologie-boris-becker-foto.jpg","kriminalpsychologie-buster-murdaugh":"buster-murdaugh","kriminalpsychologie-cedric-maake":"cedric-maake","kriminalpsychologie-charles-manson":"charles-manson","kriminalpsychologie-chris-watts":"chris-watts","kriminalpsychologie-clyde-barrow":"clyde-barrow","kriminalpsychologie-david-berkowitz":"david-berkowitz","kriminalpsychologie-dennis-nilsen":"dennis-nilsen","kriminalpsychologie-dennis-rader":"dennis-rader","kriminalpsychologie-diane-downs":"diane-downs","kriminalpsychologie-susan-wright":"susan-wright","kriminalpsychologie-dieter-zlof":"dieter-zlof","kriminalpsychologie-dorothea-puente":"dorothea-puente","kriminalpsychologie-ed-gein":"kriminalpsychologie-ed-gein","kriminalpsychologie-elliot-rodger":"elliot-rodger","kriminalpsychologie-frank-abagnale-jr":"frank-abagnale","kriminalpsychologie-fritz-haarmann":"fritz-haarmann","kriminalpsychologie-fritz-honka":"fritz-honka","kriminalpsychologie-gary-ridgway":"gary-ridgway","kriminalpsychologie-gennadi-mikhasevich":"gennadi-mikhasevich","kriminalpsychologie-griselda-blanco":"griselda-blanco","kriminalpsychologie-gudrun-ensslin":"gudrun-ensslin","kriminalpsychologie-harold-shipman":"harold-shipman","kriminalpsychologie-harvey-weinstein":"harvey-weinstein","kriminalpsychologie-heinrich-pommerenke":"heinrich-pommerenke","kriminalpsychologie-henri-landru":"henri-landru","kriminalpsychologie-jack-unterweger":"jack-unterweger","kriminalpsychologie-jeanne-weber":"jeanne-weber","kriminalpsychologie-jeffrey-dahmer":"jeffrey-dahmer","kriminalpsychologie-jeffrey-epstein":"jeffrey-epstein","kriminalpsychologie-jim-jones":"jim-jones","kriminalpsychologie-joachim-kroll":"joachim-kroll","kriminalpsychologie-joel-rifkin":"joel-rifkin","kriminalpsychologie-john-gotti":"john-gotti","kriminalpsychologie-john-hinckley-jr":"kriminalpsychologie-john-hinckley-jr","kriminalpsychologie-john-list":"john-list","kriminalpsychologie-john-mcafee":"john-mcafee","kriminalpsychologie-john-wayne-gacy":"john-wayne-gacy","kriminalpsychologie-jonathan-meijer":"jonathan-meijer","kriminalpsychologie-josef-fritzl":"josef-fritzl","kriminalpsychologie-karla-homolka":"karla-homolka","kriminalpsychologie-leslie-van-houten":"leslie-van-houten","kriminalpsychologie-luka-magnotta":"luka-magnotta","kriminalpsychologie-mary-ann-cotton":"mary-ann-cotton","kriminalpsychologie-michael-franzese":"michael-franzese","kriminalpsychologie-michail-popkow":"michail-popkow","kriminalpsychologie-nick-leeson":"nick-leeson","kriminalpsychologie-niels-hoegel":"niels-hoegel","kriminalpsychologie-oj-simpson":"oj-simpson","kriminalpsychologie-osama-bin-laden":"osama-bin-laden","kriminalpsychologie-otto-muehl":"kriminalpsychologie-otto-muehl","kriminalpsychologie-p-diddy":"p-diddy","kriminalpsychologie-pablo-escobar":"pablo-escobar","kriminalpsychologie-pamela-smart":"pamela-smart","kriminalpsychologie-paul-bernardo":"paul-bernardo","kriminalpsychologie-paul-ogorzow":"paul-ogorzow","kriminalpsychologie-pedro-alonso-lopez":"pedro-alonso-lopez","kriminalpsychologie-peter-sutcliffe":"peter-sutcliffe","kriminalpsychologie-richard-ramirez":"richard-ramirez","kriminalpsychologie-ronnie-biggs":"ronnie-biggs","kriminalpsychologie-rudolf-pleil":"rudolf-pleil","kriminalpsychologie-ruja-ignatova":"ruja-ignatova","kriminalpsychologie-salvatore-riina":"salvatore-riina","kriminalpsychologie-samuel-bankman-fried":"samuel-bankman-fried","kriminalpsychologie-sebastian-greenwood":"sebastian-greenwood","kriminalpsychologie-ted-bundy":"./assets/ted-bundy-portrait-neu.png","kriminalpsychologie-ted-kaczynski":"ted-kaczynski","kriminalpsychologie-tom-keating":"tom-keating","kriminalpsychologie-tommy-lynn-sells":"tommy-lynn-sells","kriminalpsychologie-ulrike-meinhof":"ulrike-meinhof","kriminalpsychologie-victor-lustig":"victor-lustig","kriminalpsychologie-vincenzo-peruggia":"vincenzo-peruggia","kriminalpsychologie-wade-wilson":"wade-wilson","kriminalpsychologie-werner-gladow":"werner-gladow","kriminalpsychologie-wolfgang-beltracchi":"wolfgang-beltracchi","beruehmte-alain-delon":"beruehmte-alain-delon","beruehmte-alice-miller":"beruehmte-alice-miller","beruehmte-anne-applebaum":"beruehmte-anne-applebaum","beruehmte-anne-will":"beruehmte-anne-will","beruehmte-arnold-schwarzenegger":"beruehmte-arnold-schwarzenegger","beruehmte-avril-lavigne":"beruehmte-avril-lavigne","beruehmte-benny-safdie":"beruehmte-benny-safdie","beruehmte-josh-safdie":"beruehmte-josh-safdie","beruehmte-ben-berndt":"beruehmte-ben-berndt","beruehmte-bobby-fischer":"beruehmte-bobby-fischer","beruehmte-boris-grundl":"beruehmte-boris-grundl","beruehmte-brian-fennell":"beruehmte-brian-fennell","beruehmte-chester-bennington":"beruehmte-chester-bennington","beruehmte-dalai-lama":"beruehmte-dalai-lama","beruehmte-david-garrett":"beruehmte-david-garrett","beruehmte-dustin-hoffman":"beruehmte-dustin-hoffman","beruehmte-eddie-redmayne":"beruehmte-eddie-redmayne","beruehmte-ellen-moons":"beruehmte-ellen-moons","beruehmte-elton-john":"beruehmte-elton-john","beruehmte-fabian-kahl":"beruehmte-fabian-kahl","beruehmte-galarrwuy-yunupingu":"beruehmte-galarrwuy-yunupingu","beruehmte-grit-strassenberger":"beruehmte-grit-strassenberger","beruehmte-guenther-krabbenhoeft":"beruehmte-guenther-krabbenhoeft","beruehmte-harald-lesch":"beruehmte-harald-lesch","beruehmte-harald-v":"beruehmte-harald-v","beruehmte-herfried-muenkler":"beruehmte-herfried-muenkler","beruehmte-ida-pfeiffer":"beruehmte-ida-pfeiffer","beruehmte-jerry-lewis":"beruehmte-jerry-lewis","beruehmte-joachim-loew":"beruehmte-joachim-loew","beruehmte-jonah-hill":"beruehmte-jonah-hill","beruehmte-lise-meitner":"beruehmte-lise-meitner","beruehmte-louise-hay":"beruehmte-louise-hay","beruehmte-madonna":"beruehmte-madonna","beruehmte-michael-stipe":"beruehmte-michael-stipe","beruehmte-natalie-dormer":"beruehmte-natalie-dormer","beruehmte-nina-dobrev":"beruehmte-nina-dobrev","beruehmte-ole-nymoen":"beruehmte-ole-nymoen","beruehmte-peter-maffay":"beruehmte-peter-maffay","beruehmte-heinz-ruehmann":"beruehmte-heinz-ruehmann","beruehmte-phil-collins":"beruehmte-phil-collins","beruehmte-phil-taylor":"beruehmte-phil-taylor","beruehmte-ringo-starr":"beruehmte-ringo-starr","beruehmte-ryke-geerd-hamer":"beruehmte-ryke-geerd-hamer","beruehmte-stefan-homburg":"beruehmte-stefan-homburg","beruehmte-steve-jobs":"beruehmte-steve-jobs","beruehmte-susan-link":"beruehmte-susan-link","beruehmte-tim-cook":"beruehmte-tim-cook","beruehmte-usain-bolt":"beruehmte-usain-bolt","beruehmte-william-james":"beruehmte-william-james","beruehmte-wolfgang-joop":"beruehmte-wolfgang-joop","krankheitsportraets-alain-delon":"beruehmte-alain-delon","krankheitsportraets-arnold-schwarzenegger":"beruehmte-arnold-schwarzenegger","krankheitsportraets-avril-lavigne":"beruehmte-avril-lavigne","krankheitsportraets-connie-chiu":"beruehmte-connie-chiu","krankheitsportraets-elton-john":"beruehmte-elton-john","krankheitsportraets-fiona-apple":"beruehmte-fiona-apple","krankheitsportraets-galarrwuy-yunupingu":"beruehmte-galarrwuy-yunupingu","krankheitsportraets-juergen-drews":"beruehmte-juergen-drews","krankheitsportraets-michael-berryman":"beruehmte-michael-berryman","krankheitsportraets-phil-collins":"beruehmte-phil-collins","krankheitsportraets-steve-jobs":"beruehmte-steve-jobs","krankheitsportraets-virginia-woolf":"beruehmte-virginia-woolf","krankheitsportraets-william-james":"beruehmte-william-james","kriminalpsychologie-bryan-kohberger":"bryan-kohberger","kriminalpsychologie-gesche-gottfried":"gesche-gottfried","beruehmte-harrison-ford":"beruehmte-harrison-ford","beruehmte-juergen-klinsmann":"beruehmte-juergen-klinsmann","beruehmte-wolfgang-wodarg":"beruehmte-wolfgang-wodarg","beruehmte-riku-miura":"beruehmte-riku-miura","beruehmte-lorne-greene":"beruehmte-lorne-greene","beruehmte-palina-rojinski":"beruehmte-palina-rojinski","beruehmte-andy-warhol":"beruehmte-andy-warhol","beruehmte-raul-aguayo-krauthausen":"beruehmte-raul-aguayo-krauthausen","beruehmte-michaela-benthaus":"beruehmte-michaela-benthaus","beruehmte-mads-mikkelsen":"beruehmte-mads-mikkelsen","beruehmte-fiona-harvey":"beruehmte-fiona-harvey","beruehmte-dmitri-schostakowitsch":"beruehmte-dmitri-schostakowitsch","beruehmte-allie-sherlock":"beruehmte-allie-sherlock","beruehmte-ursula-lyon":"beruehmte-ursula-lyon","krankheitsportraets-dmitri-schostakowitsch":"beruehmte-dmitri-schostakowitsch"};
 function _bqaPortraitsForCode(code) {
   const all = []
     .concat(typeof BERUEHMT_PORTRAITS !== "undefined" ? BERUEHMT_PORTRAITS : [])
@@ -16606,6 +16852,12 @@ function typesPage() {
   `);
 }
 
+const TYP_MITTEL = {1:["Platina","Plat."],2:["Hyoscyamus","Hyos."],3:["Tarentula","Tarent."],4:["Ignatia","Ign."],5:["Stramonium","Stram."],6:["Opium","Op."],7:["Belladonna","Bell."],8:["Veratrum","Verat."],9:["Cannabis indica","Cann-i."]};
+function typMittelBlock(t, c) {
+  const m = TYP_MITTEL[t.num]; if (!m) return "";
+  return `<p class="typ-mittel" style="margin:1rem 0 0"><span class="typ-meta__chip" style="border-color:${c};color:${c}">Remedy in Enneagram homeopathy: <strong>${m[0]} (${m[1]})</strong></span> <a href="https://www.verlagshausrathmer.com/enneagram-repertory.html" target="_blank" rel="noopener" style="color:${c};font-size:.9rem">Rubrics and remedy picture in the Enneagram Homeopathy Repertory →</a></p>`;
+}
+
 function typePage(num) {
   const t = GRUNDTYPEN.find(x => x.num === parseInt(num));
   if (!t) return typesPage();
@@ -16637,6 +16889,7 @@ function typePage(num) {
         <span class="typ-meta__chip" style="border-color:${c};color:${c}">Passion: <strong>${t.leidenschaft}</strong></span>
         <span class="typ-meta__chip" style="border-color:${c};color:${c}">Animal: <strong>${t.tier}</strong></span>
       </div>
+      ${typMittelBlock(t, c)}
       ${impulseBlock(TYP_IMPULSE_EN[t.num] || TYP_IMPULSE[t.num], c)}
     </section>
     <section class="subtypen-liste">${subtypenHtml}</section>
@@ -19615,6 +19868,25 @@ function heilungswegPage() {
         </div>
 
       </div>
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">The Chart in Text: Essence, Holy Ideas, Ego Motivations, Passions, Instinctual Variants</h2>
+        <p class="vb-intro"><strong>Essence of the 9 Enneatypes (9 Holy Ideas or ways):</strong> universal love in the 9 facets of unity.</p>
+        <p class="vb-intro">Already in early childhood we seemingly lose this essence. In truth, the growing ego of the 9 Enneatypes increasingly covers up the true essence, because the person looks for happiness outside, where, as is well known, it is never to be found. This hopeless attempt sometimes lasts a whole life, from the cradle to the grave, and every person has to live through this separation from Being in this world of polarity as part of human development. Sometimes, however, a person wakes up at some point on their life path to their true nature, their true core of being, and discovers their hidden essence deep within, which was never lost but only waited there to be rediscovered. Until then, they are on detours, motivated by the search for true love, for themselves, in the outside world in 9 different ways:</p>
+        <ul class="sp-list" style="list-style:none;padding-left:0;">
+          <li><strong>Type 1:</strong> Holy Perfection &middot; seeks Perfection &amp; correctness instead of love &middot; passion: Anger</li>
+          <li><strong>Type 2:</strong> Holy Will, Holy Freedom &middot; seeks Helping &amp; giving instead of love &middot; passion: Pride</li>
+          <li><strong>Type 3:</strong> Holy Law, Holy Hope &middot; seeks Success &amp; achievement instead of love &middot; passion: Vanity</li>
+          <li><strong>Type 4:</strong> Holy Origin &middot; seeks Individuality &amp; creativity instead of love &middot; passion: Envy</li>
+          <li><strong>Type 5:</strong> Holy Omniscience, Holy Transparency &middot; seeks Knowledge &amp; observation instead of love &middot; passion: Avarice</li>
+          <li><strong>Type 6:</strong> Holy Strength, Holy Faith &middot; seeks Security &amp; loyalty instead of love &middot; passion: Fear</li>
+          <li><strong>Type 7:</strong> Holy Work, Holy Plan &middot; seeks Fun &amp; joy instead of love &middot; passion: Gluttony</li>
+          <li><strong>Type 8:</strong> Holy Truth &middot; seeks Power &amp; control instead of love &middot; passion: Lust</li>
+          <li><strong>Type 9:</strong> Holy Love &middot; seeks Harmony &amp; self-forgetting instead of love &middot; passion: Sloth</li>
+        </ul>
+        <p class="vb-intro">This eternal search of the human being is fueled by the 9 passions inherent in every Enneagram type.</p>
+        <p class="vb-intro">The 3 differently pronounced instinctual variants give the 9 passions the necessary energy: <strong>the self-preservation instinct, the social instinct and the relationship instinct.</strong></p>
+        <p class="vb-intro">The homeopathic Enneagram remedy has a balancing effect on instincts and passions and thereby brings about healing.</p>
+      </div>
       ${relatedLinks([
         {route:"leidenschaft-und-wunde", label:"Passion & Wound"},
         {route:"wunden", label:"Wounds & Protective Strategies"},
@@ -19888,7 +20160,7 @@ function kerneberzeugungPage() {
       <p class="lead-small">Every Enneagram type carries an often unconscious core belief about themselves and the world &ndash; it arose in childhood and has governed thinking, feeling, and acting ever since. This overview shows the core belief of each of the 9 types in connection with the triad structure.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="../assets/schaubilder/kerneberzeugungen/kerneberzeugungen.jpg"
-             alt="Die tiefsten Kernüberzeugungen der 9 Enneagrammtypen"
+             alt="The deepest core beliefs of the 9 Enneagram types"
              class="psycho-img" />
       </div>
 
@@ -20195,11 +20467,11 @@ function schutzdefizitePage() {
     ${pageHeader("schutzdefizite")}
     <section class="narrow">
       <p class="eyebrow">Charts &middot; Triads</p>
-      <h1>Schutz-Defizite der Triaden</h1>
+      <h1>Protection Deficits of the Triads</h1>
       <p class="lead-small">The gut, heart, and head triads each carry a characteristic protection deficit: the gut triad fears restriction, the heart triad loss of love, the head triad loss of trust. These unconscious deficits shape the behavior of all three types within a triad.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="../assets/schaubilder/schutzdefizite/schutzdefizite.jpg"
-             alt="Die Schutz-Defizite der Bauch-, Herz- und Kopftriade"
+             alt="The protection deficits of the gut, heart and head triads"
              class="psycho-img" />
       </div>
       <div style="margin:2.5rem 0 0;">
@@ -20231,7 +20503,7 @@ function lasterTugendenAffirmationenPage() {
     ${pageHeader("laster-tugenden-affirmationen")}
     <section class="narrow">
       <p class="eyebrow">Charts &middot; Vices &middot; Virtues &middot; Affirmations</p>
-      <h1>Laster, Tugenden & Affirmationen der 9 Enneagrammtypen</h1>
+      <h1>Vices, Virtues &amp; Affirmations of the 9 Enneagram Types</h1>
       <p class="lead-small">Every Enneagram type has a characteristic vice (the concentrated passion) and a virtue as its healing counterpart. The affirmations speak directly to the deepest need of each type.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="../assets/schaubilder/laster-tugenden-affirmationen/laster-tugenden-affirmationen.jpg"
@@ -20281,7 +20553,7 @@ function spirituelleUebungenPage() {
       <p class="lead-small">Every Enneagram type has their own spiritual longing &mdash; and thus also their own spiritual practice. This overview shows which inner movement carries each type on their path to self-knowledge.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="../assets/schaubilder/spirituelle-uebungen/spirituelle-uebungen.jpg"
-             alt="Spezielle spirituelle Übungen für die 9 Enneagrammtypen"
+             alt="Special spiritual exercises for the 9 Enneagram types"
              class="psycho-img" />
       </div>
 
@@ -21218,7 +21490,7 @@ function homoeopathieSongsPage() {
 
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="${CDN}schaubilder/enneagramm-homoeopathie-songs.png"
-             alt="Enneagramm-Homöopathie-Songs"
+             alt="Enneagram homeopathy songs"
              class="psycho-img" />
       </div>
 
@@ -21464,6 +21736,16 @@ function geschenkideenPage() {
         <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">Important for all nine categories: they describe a typical tendency, not a guarantee. The fastest route to a truly fitting gift stays the same as with any person – listening carefully to what someone actually needs, rather than relying on a type label alone.</p>
       </div>
 
+      <div style="margin:2rem 0 0;text-align:center;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .3rem;color:var(--ink);">The gift ideas as a short film</h2>
+        <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">About 70 seconds, with sound: nine types, nine gift ideas. The button below sends a version with a link to the compass to friends and acquaintances, even if they do not have the app yet.</p>
+        <video controls playsinline preload="none" poster="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/geschenk-en-v2-poster.jpg" aria-label="Short film on gift ideas for the 9 types" style="display:block;width:100%;max-width:340px;margin:0 auto;border-radius:14px;background:#111;box-shadow:0 4px 18px rgba(0,0,0,.18);">
+          <source src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/geschenk-en-v2.mp4" type="video/mp4">
+        </video>
+        <div style="margin:.9rem 0 0;"><button type="button" data-share-video="ge" style="font:inherit;font-weight:700;font-size:.95rem;padding:.65rem 1.3rem;border:2px solid var(--copper);border-radius:999px;background:var(--paper);color:var(--copper);cursor:pointer;">&#8599; Share video</button></div>
+        <p style="font-size:.8rem;color:var(--muted);margin:.7rem 0 0;">Music: &lsaquo;Christmas&rsaquo; by Detlef Rathmer</p>
+      </div>
+
       ${bookTip("die-sprache-unserer-beziehungen", "Each type has its own language of appreciation – discover how closeness truly lands with every type.", "The Language of Our Relationships")}
       ${relatedLinks([
         {route:"weihnachtsgeschenke", label:"The 9 Gifts of the Types to the World"},
@@ -21480,11 +21762,11 @@ function weihnachtsgeschenkePage() {
     ${pageHeader("weihnachtsgeschenke")}
     <section class="narrow">
       <p class="eyebrow">Charts &middot; Christmas</p>
-      <h1>Die 9 Geschenke der Enneagrammtypen an die Welt</h1>
+      <h1>The 9 Gifts of the Enneagram Types to the World</h1>
       <p class="lead-small">Each of the 9 Enneagram types brings a unique gift &mdash; a special contribution they naturally carry into the world. This festive overview shows what each type has to give to the world.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="../assets/schaubilder/weihnachtsgeschenke/weihnachtsgeschenke.jpg"
-             alt="Die 9 Enneagrammtypen und ihre Geschenke an die Welt"
+             alt="The 9 Enneagram types and their gifts to the world"
              class="psycho-img" />
       </div>
 
@@ -21508,7 +21790,7 @@ function weihnachtsgeschenkePage() {
         <p class="lead-small" style="margin-bottom:1.2rem;">At Christmas, the mask may finally fall. This heartfelt wish is addressed to each of the 9 types &mdash; with an invitation to let go of oneself a little.</p>
         <div class="psycho-img-wrap">
           <img src="../assets/schaubilder/weihnachtsgeschenke/weihnachtswuensche.jpg"
-               alt="Weihnachtswünsche an alle 9 Enneagrammtypen"
+               alt="Christmas wishes to all 9 Enneagram types"
                class="psycho-img" />
         </div>
         <div class="vb-section" style="max-width:100%;margin-top:1.2rem;">
@@ -21525,6 +21807,16 @@ function weihnachtsgeschenkePage() {
           </div>
         </div>
       </div>
+  <div style="margin:2rem 0 0;text-align:center;">
+    <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .3rem;color:var(--ink);">The mask may fall &ndash; as a short film</h2>
+    <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">About 45 seconds, with sound: nine Christmas wishes, nine gifts. The button below sends a version with a link to the compass to friends and acquaintances, even if they do not have the app yet.</p>
+    <video controls playsinline preload="none" poster="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/weihnachten-en-poster.jpg" aria-label="Short film of the Christmas wishes to all 9 types" style="display:block;width:100%;max-width:340px;margin:0 auto;border-radius:14px;background:#111;box-shadow:0 4px 18px rgba(0,0,0,.18);">
+      <source src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/weihnachten-en.mp4" type="video/mp4">
+    </video>
+    <div style="margin:.9rem 0 0;"><button type="button" data-share-video="wh" style="font:inherit;font-weight:700;font-size:.95rem;padding:.65rem 1.3rem;border:2px solid var(--copper);border-radius:999px;background:var(--paper);color:var(--copper);cursor:pointer;">&#8599; Share video</button></div>
+    <p style="font-size:.8rem;color:var(--muted);margin:.7rem 0 0;">Music: &lsaquo;Christmas&rsaquo; by Detlef Rathmer</p>
+  </div>
+
       ${bookTip("die-sprache-unserer-beziehungen", "Every type has a unique gift for relationships &ndash; discover the language of intimacy.", "Die Sprache unserer Beziehungen")}
       ${relatedLinks([
         {route:"geschenkideen", label:"Gift Ideas for the 9 Types"},
@@ -21871,7 +22163,7 @@ function egoPersoenlichkeitPage() {
       <p class="lead-small">The 9 Enneagram types fundamentally possess a specific ego personality structure that implicitly contains a fundamental mistrust toward reality. Due to the failure of the holding environment, the child already lacks basic trust &ndash; which leads to a disconnection from Being and to the activation of the ego, within which the person learns to feel &bdquo;safe.&ldquo; The Enneagram points out the different variations of how the ego of the individual types develops to cope with the shocks, fractures, and disruptions of the holding environment.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="../assets/schaubilder/ego-persoenlichkeit/ego-persoenlichkeit.jpg"
-             alt="Die Entwicklung der Ego-Persönlichkeit der 9 Enneagrammtypen"
+             alt="The development of the ego personality of the 9 Enneagram types"
              class="psycho-img" />
       </div>
       <div style="margin:2.5rem 0 0;">
@@ -21887,6 +22179,29 @@ function egoPersoenlichkeitPage() {
       </div>
 
       ${bookTip("der-code-deiner-persoenlichkeit", "Step by step, recognizing one's own type and finding paths to personal development.", "Der Code deiner Persönlichkeit")}
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">The Nine Ego Structures at a Glance (text of the chart)</h2>
+        <p class="vb-intro">The chart shows three directions of the ego&rsquo;s reaction: <strong>Attack</strong> (separation = against the others!), <strong>Deception</strong> (image = toward the others!) and <strong>Flight</strong> (fear = away from the others!).</p>
+        <p class="vb-intro"><strong>Attack (Types 8, 9, 1)</strong></p>
+        <ul class="sp-list" style="margin:0 0 1rem;">
+          <li><strong>Type 8 &ndash; Ego-Revenge:</strong> becomes angry about the loss of support and fights with the environment in order to gain justice and to take revenge for the injury.</li>
+          <li><strong>Type 9 &ndash; Ego-Inertia:</strong> tries to smooth over and gloss over everything in the environment, acting as if all were well, in order to live life in a mechanical and unexcited way.</li>
+          <li><strong>Type 1 &ndash; Ego-Resentment:</strong> tries to create the missing support through self-improvement and the improvement of others, going it alone.</li>
+        </ul>
+        <p class="vb-intro"><strong>Deception (Types 2, 3, 4)</strong></p>
+        <ul class="sp-list" style="margin:0 0 1rem;">
+          <li><strong>Type 2 &ndash; Ego-Flattery:</strong> tries to deny the need for support, yet manipulates and seduces the environment so that it gives support.</li>
+          <li><strong>Type 3 &ndash; Ego-Vanity:</strong> denies the need to be held, but pretends at the same time: &lsquo;I can do it alone, I take care of my own development myself.&rsquo;</li>
+          <li><strong>Type 4 &ndash; Ego-Melancholy:</strong> defends against the loss of being held by denying the separation from Being. At the same time, they try to create a holding environment by controlling both the environment and themselves.</li>
+        </ul>
+        <p class="vb-intro"><strong>Flight (Types 5, 6, 7)</strong></p>
+        <ul class="sp-list" style="margin:0;">
+          <li><strong>Type 5 &ndash; Ego-Avarice:</strong> avoids the actual feeling of loss, the feeling of missing support, by withdrawing, isolating, and thereby evading the situation.</li>
+          <li><strong>Type 6 &ndash; Ego-Cowardice:</strong> uses the strategy of staying in contact with fear and mistrust and of behaving defensively and paranoid toward the environment.</li>
+          <li><strong>Type 7 &ndash; Ego-Planning:</strong> plans how to find the way back &lsquo;into paradise&rsquo; instead of having to feel the pain of the loss of support.</li>
+        </ul>
+      </div>
+      ${songTieferMasken("The personality is the mask one wears, mostly without noticing. The song asks what lies deeper (song in German).")}
       ${relatedLinks([
         {route:"grundformel", label:"Core Formula"},
         {route:"kerneberzeugungen", label:"Core Beliefs"},
@@ -21975,11 +22290,11 @@ function dreiZentrenPage() {
     ${pageHeader("drei-zentren")}
     <section class="narrow">
       <p class="eyebrow">Charts &middot; Three Centers</p>
-      <h1>Die drei Intelligenzzentren der 9 Enneagrammtypen</h1>
+      <h1>The Three Intelligence Centers of the 9 Enneagram Types</h1>
       <p class="lead-small">Head, heart, and gut &mdash; each Enneagram type uses these three intelligence centers in their own way. This overview shows how their usage differs at worst and at best.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="../assets/schaubilder/drei-zentren/drei-zentren.jpg"
-             alt="Die drei Intelligenzzentren der 9 Enneagrammtypen"
+             alt="The Three Intelligence Centers of the 9 Enneagram Types"
              class="psycho-img" />
       </div>
 
@@ -22463,7 +22778,7 @@ function fuehrungsstilePage() {
       <p class="lead-small">Every Enneagram type leads in their own unique way &mdash; shaped by their passion, strengths, and blind spot. This overview shows the typical leadership styles of the 9 types from their own perspective.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="../assets/schaubilder/fuehrungsstile/fuehrungsstile.jpg"
-             alt="Die Führungsstile der 9 Enneagrammtypen"
+             alt="The leadership styles of the 9 Enneagram types"
              class="psycho-img" />
       </div>
 
@@ -22480,7 +22795,7 @@ function fuehrungsstilePage() {
           <div><span style="font-weight:700;color:#cc6e00;">Type 9 &ndash; The Peaceful One:</span> Leadership through consensus, agreement, unity.<br><span style="color:var(--muted);font-size:.85rem;">Strength under pressure: actively takes a position instead of avoiding conflict through withdrawal.</span></div>
         </div>
         <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">"From humility grows responsible leadership." (Laozi, presumably 6th century BC)</p>
-        <p class="vb-intro" style="margin-top:1.2rem;">How each type really reacts under responsibility, conflict, and time pressure &ndash; and how that becomes mature, effective leadership &ndash; is explored by David L. Rathmer in the section <a href="javascript:void(0)" data-route="david-rathmer-fuehrung-mit-fundament">Führung mit Fundament</a>.</p>
+        <p class="vb-intro" style="margin-top:1.2rem;">How each type really reacts under responsibility, conflict, and time pressure &ndash; and how that becomes mature, effective leadership &ndash; is explored by David L. Rathmer in the section <a href="javascript:void(0)" data-route="david-rathmer-fuehrung-mit-fundament">Führung mit Fundament (Leadership with a Foundation)</a>.</p>
       </div>
       ${bookTip("fuehrung-mit-fundament", "632 pages of depth psychology for leaders: the nine leadership types, their blind spots, and the path to mature, effective leadership.", "Führung mit Fundament")}
       ${bookTip("meta-intelligenz", "Meta-Intelligence: How the Enneagram strengthens leaders in their deepest effectiveness.", "Meta-Intelligenz")}
@@ -22976,7 +23291,7 @@ function tierentsprechungenPage() {
       <p class="psycho-intro">Characteristic animals are assigned to each of the 27 subtypes, whose nature, behavior, and survival strategies mirror the respective subtype. The image shows the visual overview; the table below systematically lists all correspondences by type and instinct (SP &middot; SO &middot; SX).</p>
       <img
         src="../assets/tierentsprechungen-kreis.jpg"
-        alt="Tierentsprechungen Enneagramm-Kreis"
+        alt="Animal equivalents on the Enneagram circle"
         style="width:100%;border-radius:12px;margin-bottom:1.8rem;display:block;"
       />
       <h2 style="font-size:1rem;font-weight:700;margin-bottom:.9rem;color:var(--ink);">All 27 Subtypes at a Glance</h2>
@@ -22993,7 +23308,7 @@ function tierentsprechungenPage() {
       </div>
       <img
         src="../assets/tierentsprechungen-portraits.png"
-        alt="Tierportr\xe4ts aller 27 Enneagramm-Subtypes"
+        alt="Animal portraits of all 27 Enneagram subtypes"
         style="width:100%;border-radius:12px;margin-bottom:1.8rem;display:block;"
       />
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(195px,1fr));gap:.75rem;margin-bottom:2rem;">
@@ -23056,18 +23371,30 @@ let _memoryState = null;
 let _memoryLastLevel = 1;
 const _memoryImgCache = {};
 
-function _memoryImgFor(route) {
+async function _memoryImgFor(route) {
   if (_memoryImgCache[route] !== undefined) return _memoryImgCache[route];
   let src = null;
-  try {
-    const fn = _appRoutesRef && _appRoutesRef[route];
-    if (fn) {
-      const html = fn();
-      const m = html.match(/<img\s+src="([^"]+)"[^>]*class="krim-portrait-img"/);
-      if (m) src = m[1];
-    }
-  } catch (e) {}
-  _memoryImgCache[route] = src;
+  let pending = false;
+  // Porträtseiten werden lazy geladen: beim ersten Aufruf kommt nur der
+  // Platzhalter. Dann auf das Laden warten und erneut lesen, statt "kein Bild"
+  // zu cachen. _currentRoute wird kurz geleert, damit kein Re-Render ausgelöst wird.
+  for (let attempt = 0; attempt < 2; attempt++) {
+    pending = false;
+    const savedRoute = window._currentRoute;
+    try {
+      const fn = _appRoutesRef && _appRoutesRef[route];
+      if (fn) {
+        window._currentRoute = null;
+        const html = fn();
+        const m = html.match(/<img\s+src="([^"]+)"[^>]*class="krim-portrait-img"/);
+        if (m) { src = m[1]; break; }
+        if (html.indexOf("suche-hint") !== -1) pending = true;
+      }
+    } catch (e) {} finally { window._currentRoute = savedRoute; }
+    if (!pending) break;
+    await Promise.all([..._lazyMods.values()].map(r => r.p).filter(Boolean));
+  }
+  if (src || !pending) _memoryImgCache[route] = src;
   return src;
 }
 
@@ -23121,7 +23448,7 @@ function _memoryShuffle(arr) {
 async function _memoryFindValidPortrait(candidates, usedRoutes) {
   for (const p of candidates) {
     if (usedRoutes.has(p.route)) continue;
-    const img = _memoryImgFor(p.route);
+    const img = await _memoryImgFor(p.route);
     if (!img) continue;
     const ok = await _memoryValidateImg(img);
     if (ok) return { route: p.route, subtyp: p.subtyp, name: p.name, img };
@@ -26419,6 +26746,18 @@ function enneagrammAutopoesePage() {
   `);
 }
 
+function songTieferMasken(satz) {
+  return `
+        <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .5rem;color:var(--ink);">The song for it: ‘Tiefer als die Masken’</h2>
+          <p class="vb-intro" style="margin:0 0 .8rem;">${satz}</p>
+          <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+            <iframe src="https://www.youtube.com/embed/A6xBEHS5F1c?rel=0&playsinline=1" title="Tiefer als die Masken (Deeper Than the Masks) – a tribute to Enneagram homeopathy" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+          <p style="font-size:.8rem;color:var(--muted);margin:.7rem 0 0;">A song by Detlef Rathmer</p>
+        </div>`;
+}
+
 function warumNeunHeilmittelPage() {
   const sec = (h, ps) => `<div class="vb-section" style="max-width:100%;margin-top:1.6rem;"><h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .7rem;color:var(--ink);">${h}</h2>${ps.map((p, i) => `<p class="vb-intro"${i ? ' style="margin-top:1rem;"' : ""}>${p}</p>`).join("")}</div>`;
   return shell(`
@@ -26450,6 +26789,7 @@ function warumNeunHeilmittelPage() {
           <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
             <iframe src="https://www.youtube.com/embed/A6xBEHS5F1c?rel=0&playsinline=1" title="Tiefer als die Masken (Deeper Than the Masks) – a tribute to Enneagram homeopathy" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
           </div>
+          <p style="font-size:.8rem;color:var(--muted);margin:.7rem 0 0;">A song by Detlef Rathmer</p>
         </div>
         ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
         ${bookTip("der-code-deiner-persoenlichkeit", "How the Enneagram type develops &ndash; and what it reveals about our deepest imprints.", "Der Code deiner Persönlichkeit")}
@@ -26903,7 +27243,8 @@ function klassischeVsEnneagrammHomoeopathiePage() {
 
         ${bookTip("enneagramm-homoeopathie-band-1", "The foundation of Enneagram homeopathy – how personality type and remedy selection are connected, easy to follow even for laypeople.", "Enneagramm-Homöopathie – Band 1")}
         ${bookTip("enneagramm-homoeopathie-band-2", "Further case reports and deepening of Enneagram homeopathy in Volume 2.", "Enneagramm-Homöopathie – Band 2")}
-        ${relatedLinks([
+        ${songTieferMasken("Classical homeopathy looks at the symptoms, Enneagram homeopathy one level deeper, at the motivation behind the behavior. The song tells of this (song in German).")}
+      ${relatedLinks([
           {route:"enneagramm-homoeopathie", label:"Enneagram Meets Homeopathy – 9 Patient Cases"},
           {route:"heilungsweg", label:"Chart: Path of Healing"},
           {route:"homoeopathie", label:"Homeopathy – Remedy Overview"},
@@ -26953,7 +27294,8 @@ function enneagrammHomoeopathiePage() {
 
         ${bookTip("enneagramm-homoeopathie-band-1", "The foundational work of Enneagram Homeopathy – how personality type and remedy selection are connected on the deepest level.", "Enneagramm-Homöopathie – Band 1")}
         ${bookTip("enneagramm-homoeopathie-band-2", "Additional case studies and deeper insights into Enneagram Homeopathy in Volume 2.", "Enneagramm-Homöopathie – Band 2")}
-        ${relatedLinks([
+        ${songTieferMasken("The patient cases show it: the mask belongs to the type, the remedy works on the passion behind it. This is what the song is about (song in German).")}
+      ${relatedLinks([
           {route:"heilungsweg", label:"Chart: The Human Healing Path"},
           {route:"homoeopathie", label:"Homeopathy – Remedy Overview"},
           {route:"wunden", label:"The 9 Wounds of the Enneagram Types"},
@@ -28432,12 +28774,17 @@ const KRANKHEITSMUSTERKOMPASS = {
   SO1: {
     tier: "Goose",
     kernthema: "Small sample so far – the first discernible line: a very deliberate, often preventive decision in how one handles one's own health.",
-    beispiele: ["David Bowie", "Dr. Jordan Peterson", "Angelina Jolie", "Adam Smith", "Steve Jobs", "Helmut Schmidt", "Brian Wilson", "Niki Lauda"],
+    beispiele: ["Wolfgang Niedecken", "David Bowie", "Dr. Jordan Peterson", "Angelina Jolie", "Adam Smith", "Steve Jobs", "Helmut Schmidt", "Brian Wilson", "Niki Lauda"],
     fingerabdruecke: [
       {
         titel: "Principled decisions even in the face of one's own illness",
         beschreibung: "With few cases so far but a strikingly consistent pattern, the social One shows a very deliberate, almost principled stance toward its own health – decisions are not left to chance but made by clear standards of its own.",
         beleg: "Angelina Jolie, who, after testing positive for the BRCA1 gene mutation, chose preventive double mastectomy and removal of her ovaries and fallopian tubes before any disease was present; David Bowie, who turned his liver cancer diagnosis into the deliberate basis for a final, consciously composed work (\"Blackstar\") rather than concealing or dramatizing it; Adam Smith, who shortly before his death had almost all his unpublished manuscripts burned, fearing they would not meet his own high standard – an equally principled and final decision in the face of his own mortality; Steve Jobs, who for nine months after his 2003 cancer diagnosis chose a self-assembled alternative treatment approach over the medically recommended surgery – a decision he later called a mistake himself, but reached by the same personal principles with which he shaped every Apple product; Jordan Peterson, whose severe benzodiazepine dependency culminated in an artificially induced withdrawal coma in Russia in 2019/2020, after Western clinics could no longer help him; Helmut Schmidt, who kept smoking despite a 1981 cardiac arrest, a pacemaker, and progressive vascular disease with several toe amputations, almost to the end of his life – by his own, never-questioned standard, not from denial, but from the same consistency with which he managed political crises; Niki Lauda, who returned to the cockpit only six weeks after the fiery 1976 crash at the Nürburgring, withdrew in the rain at the Fuji title decider by his own standard and later accepted two kidney transplants and a lung transplant in 2018 matter-of-factly."
+      },
+      {
+        titel: "After the acute break, back to the task first",
+        beschreibung: "In some of the social Ones portrayed so far, a sudden, life-threatening event is followed not by a long withdrawal but by a swift return to the familiar task, with differing outcomes. This is a tendency in a small sample, not a prediction.",
+        beleg: "Niki Lauda, who was back in the cockpit six weeks after the 1976 fire accident although his body had not yet recovered; Wolfgang Niedecken, who after the 2011 stroke asked for his guitar at the sickbed, played the rescheduled tour in May 2012 and in retrospect classes the stroke as a ‘yellow card’ that made him more patient."
       }
     ]
   },
@@ -28524,7 +28871,7 @@ const KRANKHEITSMUSTERKOMPASS = {
   SO3: {
     tier: "Cheetah",
     kernthema: "Illness behind a closed door – in hardly any other group is one's own illness kept so consistently from the public image, often until shortly before death.",
-    beispiele: ["Teresa of Ávila", "Karl Lagerfeld", "Louis XIV", "O.J. Simpson", "Christiaan Barnard", "Sean Connery", "William James", "Dmitri Hvorostovsky"],
+    beispiele: ["Bruce Lee", "Teresa of Ávila", "Karl Lagerfeld", "Louis XIV", "O.J. Simpson", "Christiaan Barnard", "Sean Connery", "William James", "Dmitri Hvorostovsky"],
     fingerabdruecke: [
       {
         titel: "Concealment of one's own illness until shortly before death",
@@ -28534,7 +28881,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Publicly known diagnosis, but the stage remains the dominant image",
         beschreibung: "Unlike full concealment, the illness here is made publicly known – yet the active return to one's own stage stays so consistent that the diagnosis never becomes the sole public image of the final years.",
-        beleg: "Dmitri Hvorostovsky, who made his glioblastoma diagnosis public in June 2015, returned to the Metropolitan Opera just three months later, and still appeared unannounced at the 2017 Met gala – a formal farewell to the stage never took place; the career ended the way it began, with a public performance."
+        beleg: "Dmitri Hvorostovsky, who made his glioblastoma diagnosis public in June 2015, returned to the Metropolitan Opera just three months later, and still appeared unannounced at the 2017 Met gala – a formal farewell to the stage never took place; the career ended the way it began, with a public performance.; Bruce Lee, who after the collapse with cerebral edema in May 1973 kept working without any noticeable pause and died ten weeks later"
       },
       {
         titel: "A severe physical crisis as the origin of an entirely new life path",
@@ -28818,12 +29165,12 @@ const KRANKHEITSMUSTERKOMPASS = {
   SE9: {
     tier: "Elephant",
     kernthema: "Slowly progressing, for years barely addressed chronic afflictions – in this group the illness often stays in the background of outward life for a long time.",
-    beispiele: ["James Levine", "David Hume", "Johannes Brahms", "Hans-Dietrich Genscher", "Margaret Rutherford", "Charles Laughton"],
+    beispiele: ["Robbie Coltrane", "James Levine", "David Hume", "Johannes Brahms", "Hans-Dietrich Genscher", "Margaret Rutherford", "Charles Laughton"],
     fingerabdruecke: [
       {
         titel: "Slowly progressing afflictions barely addressed publicly for a long time",
         beschreibung: "In the self-preservation Nine, the illness frequently progresses very slowly over years and remains remarkably in the background of public life for a long time before it becomes unmistakable.",
-        beleg: "James Levine, whose Parkinson's disease developed progressively over decades, accompanied by severe back injuries; David Hume with a chronic bowel disease that steadily progressed over a good four years without a clear diagnosis ever being made; Johannes Brahms, who died of the same liver cancer that had already killed his father; Margaret Rutherford, whose lifelong severe depression stayed almost entirely hidden behind her warm stage persona before a progressive dementia set in during her final decade; Hans-Dietrich Genscher with a years-long, publicly barely addressed heart condition, from which he died in 2016; Charles Laughton, whose visibly declining health could already be observed in 1959 during his Lear in Stratford, while the underlying, already far-advanced kidney and bladder cancer was only discovered in 1962 via a presumed slipped disc."
+        beleg: "James Levine, whose Parkinson's disease developed progressively over decades, accompanied by severe back injuries; David Hume with a chronic bowel disease that steadily progressed over a good four years without a clear diagnosis ever being made; Johannes Brahms, who died of the same liver cancer that had already killed his father; Margaret Rutherford, whose lifelong severe depression stayed almost entirely hidden behind her warm stage persona before a progressive dementia set in during her final decade; Hans-Dietrich Genscher with a years-long, publicly barely addressed heart condition, from which he died in 2016; Charles Laughton, whose visibly declining health could already be observed in 1959 during his Lear in Stratford, while the underlying, already far-advanced kidney and bladder cancer was only discovered in 1962 via a presumed slipped disc.; Robbie Coltrane, who lived for years with constant knee pain and cartilage loss, used a wheelchair from 2019 and kept working without the illness ever becoming a public topic"
       }
     ]
   },
@@ -34627,7 +34974,7 @@ function hochsensibilitaetDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Hochsensibilität der 9 Typen", "Charts · Archetypen")}
       <p class="psycho-intro">These traits are frequently pronounced in a strong form in highly sensitive people, as the universal primal principles manifest themselves within a person in an excessively one-sidedly intense way. These qualities can be both a blessing and a curse in individual cases.</p>
-      <img src="../assets/hochsensibilitaet-der-9-typen.jpg" alt="Hochsensibilität der 9 Enneagrammtypen – Schaubild"
+      <img src="../assets/hochsensibilitaet-der-9-typen.jpg" alt="High sensitivity of the 9 Enneagram types – chart"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -37344,7 +37691,7 @@ function schaubilderAlsSpiegelPage() {
       <p class="psycho-intro">How we react to a presentation often reveals more about us than the presentation itself. No one absorbs charts neutrally &ndash; everyone reads and interprets them through their own structure.</p>
       <img
         src="../assets/schaubilder-als-spiegel.jpg"
-        alt="Charts als Spiegel der inneren Struktur"
+        alt="Charts as mirrors of the inner structure"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
 
@@ -37372,7 +37719,7 @@ function schaubilderAlsSpiegelPage() {
         <h2 style="font-family:'EB Garamond',serif;font-size:1.4rem;color:var(--anthracite);margin:0 0 0.75rem;">Not a Judgment &ndash; A Mirror</h2>
         <img
           src="../assets/enneagramm-als-spiegel.jpg"
-          alt="Das Enneagramm ist ein Spiegel, kein Urteil. Wer mit Typen etikettiert, verletzt die Freiheit des Anderen."
+          alt="The Enneagram is a mirror, not a verdict. Whoever labels others with types violates their freedom."
           style="width:100%;border-radius:8px;margin:0.75rem 0 1.25rem;"
         />
         <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1rem 0;">The Enneagram is an instrument for self-knowledge &ndash; not a classification system for others. This distinction sounds self-evident but is frequently blurred in everyday life. Anyone who assigns a type to someone based on a first impression, who dismisses reactions from friends or colleagues as &bdquo;typical Seven&ldquo; or &bdquo;that's just the Eight in him,&ldquo; is using the Enneagram as a judgment &ndash; and is thus doing exactly what it is supposed to prevent.</p>
@@ -37511,7 +37858,7 @@ function interessanteErkenntnissePage() {
       <p class="psycho-intro">What many people believe they know about the nine Enneagram types &ndash; and what is really behind it. Nine observations from decades of therapeutic and diagnostic practice.</p>
       <img
         src="../assets/interessante-erkenntnisse.jpg"
-        alt="Neun interessante Erkenntnisse zu den Enneagrammtypen"
+        alt="Nine interesting insights about the Enneagram types"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
 
@@ -37568,7 +37915,7 @@ function bedeutungSubtypesPage() {
       <p class="psycho-intro">Anyone who seriously engages with the Enneagram cannot bypass the 27 subtypes. It is a fundamental misconception to believe that one can initially &bdquo;just start with the nine types&ldquo; and add the subtypes later &ndash; because without them, the picture remains too crude for serious typing.</p>
       <img
         src="../assets/bedeutung-27-subtypen.jpg"
-        alt="Die Bedeutung der 27 Subtypes im Enneagramm"
+        alt="The meaning of the 27 subtypes in the Enneagram"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
 
@@ -37625,7 +37972,7 @@ function identifikationPage() {
 
         <p class="vb-intro">This sentence contains a paradox that is not immediately obvious at first. When someone asks: »How do you break free from your pattern?«, the obvious answer is often: »By working on yourself.« But the Enneagram shows something different – and deeper: The pattern does not become quieter through effort, but through changing distance.</p>
 
-        <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:1.6rem 0 .5rem;">Was Identifikation bedeutet</h2>
+        <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:1.6rem 0 .5rem;">What Identification Means</h2>
         <p class="vb-intro">Identification means: I mistake the pattern for myself. I do not experience my passion as something happening within me – but as who I am. The Type Two person does not say: »I notice that I tend to help unasked.« They experience helping as their core, as their worth, as their identity. The Type Eight person does not experience their power as a pattern manifesting – but as who they are.</p>
         <p class="vb-intro">As long as I identify with the pattern, there is no observer for it. And without an observer, there is no freedom.</p>
 
@@ -37941,7 +38288,7 @@ function sucheNachLiebePage() {
     { nr: 1, ersatz: "Perfection & correctness instead of love", halt: "Held together by self- and other-improvement.", text: "Type 1 believes that love may only exist once everything is right &ndash; themselves, circumstances, others. So the search for love becomes a search for flawlessness. But love does not wait for perfection." },
     { nr: 2, ersatz: "Conditional love & giving instead of love", halt: "Held together by manipulating and charming their surroundings.", text: "Type 2 gives so that they will be loved &ndash; and calls it love. But giving as a strategy is not yet love. As long as they twist themselves into shape to be needed, true affection never truly arrives." },
     { nr: 3, ersatz: "Success & achievement instead of love", halt: "Held together by deceiving themselves and others into believing they can manage alone.", text: "Type 3 works, performs, achieves &ndash; and hopes that it counts. They deceive others about their true face, sometimes themselves too. But love is not an award for performance." },
-    { nr: 4, ersatz: "Individuality & creativity instead of love", halt: "Held together by denying the separation from being, and by controlling self and others.", text: "Type 4 longs for love more intensely than most others &ndash; and suffers more deeply from its absence. The separation from being, from what originally sustained them, is denied. Creativity and uniqueness become a substitute for the connection they truly seek." },
+    { nr: 4, ersatz: "Individuality & creativity instead of love", halt: "Held together by suppressing the pain of separation from being, and by controlling self and others.", text: "Type 4 longs for love more intensely than most others &ndash; and suffers more deeply from its absence. The separation from being, from what originally sustained them, is not allowed in: its pain is pushed away. Creativity and uniqueness become a substitute for the connection they truly seek." },
     { nr: 5, ersatz: "Knowledge & observation instead of love", halt: "Held together by not feeling, by withdrawal, isolation, and avoidance.", text: "Type 5 keeps their distance &ndash; even from love. Knowledge protects, observing keeps them safe. What they might feel, they keep at arm's length. The warmth of connection appears as a threat to their inner autonomy." },
     { nr: 6, ersatz: "Security & loyalty instead of love", halt: "Held together by fear, mistrust, and defensive, paranoid behavior.", text: "Type 6 seeks, above all, security in love. But fear and mistrust poison the very thing they are meant to protect. They test, doubt, hedge their bets &ndash; and don't notice that real love needs no safety net." },
     { nr: 7, ersatz: "Fun & joy instead of love", halt: "Held together by planning to make everything right again (the return to paradise lost).", text: "Type 7 flees the pain of longing into pleasure and distraction. Joy is meant to replace what's missing. The idea that everything can still be made right keeps them in motion &ndash; and prevents the stillness in which love could grow." },
@@ -37955,6 +38302,7 @@ function sucheNachLiebePage() {
       <p class="eyebrow">Charts &middot; Relationships &middot; Development</p>
       <h1 class="section-title">The Search for True Love</h1>
       <p class="psycho-intro">All nine types seek love. But each seeks it in their own way &ndash; and each has developed their own way of standing in their own way.</p>
+      <div style="margin:1.25rem 0;padding:1rem 1.2rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);border-radius:8px;font-size:0.95rem;line-height:1.7;color:var(--anthracite);"><strong>What is love?</strong> Love here is not wanting to have, but attention and connection without conditions: the other is not needed for something but seen as a person, with the same wish for life and connection one knows in oneself. Where love is tied to conditions (&lsquo;I love you if &hellip;&rsquo;), a strategy usually replaces it. The long version is in the <a href="#praxistipps-heilpraktiker/was-ist-liebe">practical tip &lsquo;What Is Love?&rsquo;</a>.</div>
 
       <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1.25rem 0;">That sounds paradoxical, but it isn't. Every Enneagram type experienced early in life that love &ndash; affection, being seen, connection &ndash; seemed attached to certain conditions. And so they developed a strategy: replacing the original with something achievable. Perfection instead of love. Achievement instead of love. Control instead of love.</p>
 
@@ -37964,23 +38312,110 @@ function sucheNachLiebePage() {
 
       <img
         src="../assets/suche-nach-liebe.jpg"
-        alt="Die Search nach der wahren Liebe – alle 9 Enneagrammtypen"
+        alt="The search for true love – all 9 Enneagram types"
         style="width:100%;border-radius:8px;margin:1.75rem 0 2rem;"
       />
 
-      ${typen.map(t => `
-        <div style="background:var(--cream);border-left:3px solid var(--gold);border-radius:0 8px 8px 0;padding:1.25rem 1.5rem;margin-bottom:1.25rem;">
-          <p style="font-size:0.72rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--gold-dark);margin:0 0 0.2rem;">Type ${t.nr}</p>
-          <p style="font-family:'EB Garamond',serif;font-size:1.05rem;font-weight:600;color:var(--anthracite);margin:0 0 0.25rem;">${t.ersatz}</p>
-          <p style="font-size:0.82rem;color:var(--gray-mid);font-style:italic;margin:0 0 0.6rem;">${t.halt}</p>
-          <p style="font-size:0.88rem;line-height:1.7;color:var(--anthracite);margin:0;">${t.text}</p>
+      ${typen.map(t => { const c = typeColor(t.nr); return `
+        <div style="background:linear-gradient(90deg,${c}24,var(--cream) 60%);border-left:6px solid ${c};border-radius:0 12px 12px 0;padding:1.15rem 1.35rem 1.2rem 1.1rem;margin-bottom:1.25rem;box-shadow:0 2px 8px rgba(0,0,0,0.05);display:flex;gap:1rem;align-items:flex-start;">
+          <span style="flex:0 0 2.6rem;height:2.6rem;border-radius:50%;background:${c};color:#fff;font-weight:700;font-size:1.25rem;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 6px rgba(0,0,0,0.2);">${t.nr}</span>
+          <div style="flex:1;min-width:0;">
+            <p style="font-size:0.72rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:${c};filter:brightness(0.8);margin:0 0 0.2rem;">Type ${t.nr}</p>
+            <p style="font-family:'EB Garamond',serif;font-size:1.12rem;font-weight:600;color:var(--anthracite);margin:0 0 0.25rem;"><span style="border-bottom:3px solid ${c};padding-bottom:1px;">${t.ersatz}</span></p>
+            <p style="font-size:0.82rem;color:var(--gray-mid);font-style:italic;margin:0.35rem 0 0.6rem;">${t.halt}</p>
+            <p style="font-size:0.88rem;line-height:1.7;color:var(--anthracite);margin:0;">${t.text}</p>
+          </div>
         </div>
-      `).join("")}
+      `; }).join("")}
+
+      <div class="qs-wrap">
+        <style>
+          .qs-wrap{margin:2.4rem 0 0;padding:1.6rem 1.1rem 1.4rem;background:linear-gradient(180deg,#fbf6ec,#f2e9d8);border:1px solid #d8c7a6;border-radius:18px;}
+          .qs-wrap h2{font-size:1.25rem;margin:0 0 .5rem;text-align:center;color:var(--ink);}
+          .qs-intro{font-size:.92rem;line-height:1.65;color:#6b5a48;text-align:center;margin:0 0 1.1rem;}
+          .qs-row{display:flex;align-items:center;gap:.8rem;background:rgba(255,255,255,.78);border-left:6px solid var(--c);border-radius:12px;padding:.6rem .8rem .6rem .6rem;margin-bottom:.55rem;box-shadow:0 3px 10px rgba(90,60,30,.08);}
+          .qs-num{flex:0 0 2.5rem;height:2.5rem;border-radius:50%;background:var(--c);color:#fff;font-weight:700;font-size:1.2rem;display:flex;align-items:center;justify-content:center;}
+          .qs-cap{font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--c);filter:brightness(.78);margin-bottom:.1rem;}
+          .qs-l1{font-size:.98rem;color:#7a6c62;line-height:1.25;}
+          .qs-l2{font-size:1.1rem;font-weight:600;color:#2a2320;line-height:1.3;}
+          .qs-lv{color:#b3801f;font-weight:700;}
+          .qs-q{text-align:center;font-style:italic;color:#8a6a4c;margin:.9rem 0 0;font-size:1.05rem;}
+        </style>
+        <h2>Essence: Read it the other way round</h2>
+        <p class="qs-intro">Each line describes what a pattern puts in the place of love. Read the other way round, the same line shows the direction in which something can loosen: putting love first again.</p>
+          <div class="qs-row" style="--c:#5f5f5f"><span class="qs-num">1</span><div class="qs-txt"><div class="qs-cap">Type 1 &middot; Perfectionist</div><div class="qs-l1">Perfection instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of perfection</div></div></div>
+          <div class="qs-row" style="--c:#7a2fa8"><span class="qs-num">2</span><div class="qs-txt"><div class="qs-cap">Type 2 &middot; Helper</div><div class="qs-l1">Giving instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of giving</div></div></div>
+          <div class="qs-row" style="--c:#1fa688"><span class="qs-num">3</span><div class="qs-txt"><div class="qs-cap">Type 3 &middot; Dynamic One</div><div class="qs-l1">Success instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of success</div></div></div>
+          <div class="qs-row" style="--c:#3cbf1f"><span class="qs-num">4</span><div class="qs-txt"><div class="qs-cap">Type 4 &middot; Individualist</div><div class="qs-l1">Individuality instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of individuality</div></div></div>
+          <div class="qs-row" style="--c:#124fcc"><span class="qs-num">5</span><div class="qs-txt"><div class="qs-cap">Type 5 &middot; Thinker</div><div class="qs-l1">Knowledge instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of knowledge</div></div></div>
+          <div class="qs-row" style="--c:#8a5222"><span class="qs-num">6</span><div class="qs-txt"><div class="qs-cap">Type 6 &middot; Loyal Skeptic</div><div class="qs-l1">Security instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of security</div></div></div>
+          <div class="qs-row" style="--c:#d4a800"><span class="qs-num">7</span><div class="qs-txt"><div class="qs-cap">Type 7 &middot; Optimist</div><div class="qs-l1">Fun instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of fun</div></div></div>
+          <div class="qs-row" style="--c:#a00802"><span class="qs-num">8</span><div class="qs-txt"><div class="qs-cap">Type 8 &middot; Challenger</div><div class="qs-l1">Power instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of power</div></div></div>
+          <div class="qs-row" style="--c:#cc6e00"><span class="qs-num">9</span><div class="qs-txt"><div class="qs-cap">Type 9 &middot; Peaceful One</div><div class="qs-l1">Harmony instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of harmony</div></div></div>
+        <p class="qs-q">Which line touches you?</p>
+      </div>
+
+      <div class="qs-wrap qs-sub">
+        <style>
+          .qs-sub details{margin:0 0 .7rem;}
+          .qs-sub summary{cursor:pointer;list-style:none;font-weight:700;font-size:.95rem;letter-spacing:.06em;text-transform:uppercase;background:#2a2320;color:#f6e7c8;border-radius:30px;padding:.55rem 1.1rem;text-align:center;}
+          .qs-sub summary::-webkit-details-marker{display:none}
+          .qs-sub details[open] summary{margin-bottom:.7rem;}
+        </style>
+        <h2>Essence for the subtypes</h2>
+        <p class="qs-intro">The instinct also colors what takes the place of love. The same reversal, ordered by instinct. The terms are approximations drawn from the subtype texts, not fixed labels.</p>
+        <details><summary>Self-preservation (SP)</summary>
+          <div class="qs-row" style="--c:#5f5f5f"><span class="qs-num">1</span><div class="qs-txt"><div class="qs-cap">SP1 &middot; Perfectionist</div><div class="qs-l1">Discipline instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of discipline</div></div></div>
+          <div class="qs-row" style="--c:#7a2fa8"><span class="qs-num">2</span><div class="qs-txt"><div class="qs-cap">SP2 &middot; Helper</div><div class="qs-l1">Care instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of care</div></div></div>
+          <div class="qs-row" style="--c:#1fa688"><span class="qs-num">3</span><div class="qs-txt"><div class="qs-cap">SP3 &middot; Dynamic One</div><div class="qs-l1">Efficiency instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of efficiency</div></div></div>
+          <div class="qs-row" style="--c:#3cbf1f"><span class="qs-num">4</span><div class="qs-txt"><div class="qs-cap">SP4 &middot; Individualist</div><div class="qs-l1">Perseverance instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of perseverance</div></div></div>
+          <div class="qs-row" style="--c:#124fcc"><span class="qs-num">5</span><div class="qs-txt"><div class="qs-cap">SP5 &middot; Thinker</div><div class="qs-l1">Withdrawal instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of withdrawal</div></div></div>
+          <div class="qs-row" style="--c:#8a5222"><span class="qs-num">6</span><div class="qs-txt"><div class="qs-cap">SP6 &middot; Loyal Skeptic</div><div class="qs-l1">Allies instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of allies</div></div></div>
+          <div class="qs-row" style="--c:#d4a800"><span class="qs-num">7</span><div class="qs-txt"><div class="qs-cap">SP7 &middot; Optimist</div><div class="qs-l1">Pleasure instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of pleasure</div></div></div>
+          <div class="qs-row" style="--c:#a00802"><span class="qs-num">8</span><div class="qs-txt"><div class="qs-cap">SP8 &middot; Challenger</div><div class="qs-l1">Autonomy instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of autonomy</div></div></div>
+          <div class="qs-row" style="--c:#cc6e00"><span class="qs-num">9</span><div class="qs-txt"><div class="qs-cap">SP9 &middot; Peaceful One</div><div class="qs-l1">Comfort instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of comfort</div></div></div>
+        </details>
+        <details><summary>Social (SO)</summary>
+          <div class="qs-row" style="--c:#5f5f5f"><span class="qs-num">1</span><div class="qs-txt"><div class="qs-cap">SO1 &middot; Perfectionist</div><div class="qs-l1">Principles instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of principles</div></div></div>
+          <div class="qs-row" style="--c:#7a2fa8"><span class="qs-num">2</span><div class="qs-txt"><div class="qs-cap">SO2 &middot; Helper</div><div class="qs-l1">Engagement instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of engagement</div></div></div>
+          <div class="qs-row" style="--c:#1fa688"><span class="qs-num">3</span><div class="qs-txt"><div class="qs-cap">SO3 &middot; Dynamic One</div><div class="qs-l1">Recognition instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of recognition</div></div></div>
+          <div class="qs-row" style="--c:#3cbf1f"><span class="qs-num">4</span><div class="qs-txt"><div class="qs-cap">SO4 &middot; Individualist</div><div class="qs-l1">Being special instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of being special</div></div></div>
+          <div class="qs-row" style="--c:#124fcc"><span class="qs-num">5</span><div class="qs-txt"><div class="qs-cap">SO5 &middot; Thinker</div><div class="qs-l1">Understanding instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of understanding</div></div></div>
+          <div class="qs-row" style="--c:#8a5222"><span class="qs-num">6</span><div class="qs-txt"><div class="qs-cap">SO6 &middot; Loyal Skeptic</div><div class="qs-l1">Duty instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of duty</div></div></div>
+          <div class="qs-row" style="--c:#d4a800"><span class="qs-num">7</span><div class="qs-txt"><div class="qs-cap">SO7 &middot; Optimist</div><div class="qs-l1">Ideals instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of ideals</div></div></div>
+          <div class="qs-row" style="--c:#a00802"><span class="qs-num">8</span><div class="qs-txt"><div class="qs-cap">SO8 &middot; Challenger</div><div class="qs-l1">Responsibility instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of responsibility</div></div></div>
+          <div class="qs-row" style="--c:#cc6e00"><span class="qs-num">9</span><div class="qs-txt"><div class="qs-cap">SO9 &middot; Peaceful One</div><div class="qs-l1">Belonging instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of belonging</div></div></div>
+        </details>
+        <details><summary>Sexual (SX)</summary>
+          <div class="qs-row" style="--c:#5f5f5f"><span class="qs-num">1</span><div class="qs-txt"><div class="qs-cap">SX1 &middot; Perfectionist</div><div class="qs-l1">Perfection instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of perfection</div></div></div>
+          <div class="qs-row" style="--c:#7a2fa8"><span class="qs-num">2</span><div class="qs-txt"><div class="qs-cap">SX2 &middot; Helper</div><div class="qs-l1">Seduction instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of seduction</div></div></div>
+          <div class="qs-row" style="--c:#1fa688"><span class="qs-num">3</span><div class="qs-txt"><div class="qs-cap">SX3 &middot; Dynamic One</div><div class="qs-l1">Charisma instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of charisma</div></div></div>
+          <div class="qs-row" style="--c:#3cbf1f"><span class="qs-num">4</span><div class="qs-txt"><div class="qs-cap">SX4 &middot; Individualist</div><div class="qs-l1">Passion instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of passion</div></div></div>
+          <div class="qs-row" style="--c:#124fcc"><span class="qs-num">5</span><div class="qs-txt"><div class="qs-cap">SX5 &middot; Thinker</div><div class="qs-l1">Idealization instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of idealization</div></div></div>
+          <div class="qs-row" style="--c:#8a5222"><span class="qs-num">6</span><div class="qs-txt"><div class="qs-cap">SX6 &middot; Loyal Skeptic</div><div class="qs-l1">Courage instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of courage</div></div></div>
+          <div class="qs-row" style="--c:#d4a800"><span class="qs-num">7</span><div class="qs-txt"><div class="qs-cap">SX7 &middot; Optimist</div><div class="qs-l1">Enthusiasm instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of enthusiasm</div></div></div>
+          <div class="qs-row" style="--c:#a00802"><span class="qs-num">8</span><div class="qs-txt"><div class="qs-cap">SX8 &middot; Challenger</div><div class="qs-l1">Rebellion instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of rebellion</div></div></div>
+          <div class="qs-row" style="--c:#cc6e00"><span class="qs-num">9</span><div class="qs-txt"><div class="qs-cap">SX9 &middot; Peaceful One</div><div class="qs-l1">Merging instead of love</div><div class="qs-l2"><em class="qs-lv">Love</em> instead of merging</div></div></div>
+        </details>
+        <p class="qs-q">Which line touches you?</p>
+      </div>
+
+      <div style="margin:2rem 0 0;text-align:center;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .3rem;color:var(--ink);">The search for love as a short film</h2>
+        <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">About 65 seconds, with sound: nine types, nine substitutes and the love behind them. The button below sends a version with a link to the compass to friends and acquaintances, even if they do not have the app yet.</p>
+        <video controls playsinline preload="none" poster="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/liebe-en-poster.jpg" aria-label="Short film on the search for true love" style="display:block;width:100%;max-width:340px;margin:0 auto;border-radius:14px;background:#111;box-shadow:0 4px 18px rgba(0,0,0,.18);">
+          <source src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/liebe-en.mp4" type="video/mp4">
+        </video>
+        <div style="margin:.9rem 0 0;"><button type="button" data-share-video="li" style="font:inherit;font-weight:700;font-size:.95rem;padding:.65rem 1.3rem;border:2px solid var(--copper);border-radius:999px;background:var(--paper);color:var(--copper);cursor:pointer;">&#8599; Share video</button></div>
+        <p style="font-size:.8rem;color:var(--muted);margin:.7rem 0 0;">Music: &lsaquo;Love Like a Lantern&rsaquo; by Detlef Rathmer</p>
+      </div>
 
       ${bookTip("die-sprache-unserer-beziehungen", "Cultivating intimacy with the Enneagram &ndash; how the nine types experience, seek, and sometimes avoid love.", "Die Sprache unserer Beziehungen")}
       ${bookTip("die-sprache-unserer-sexualitaet", "In partners, we often search for the love we will not find there &ndash; an honest look at desire, attachment, and what we truly seek.", "Die Sprache unserer Sexualität")}
       ${bookTip("wer-du-wirklich-bist-band-1", "The core structure of the nine types &ndash; from passion to essence.", "Wer du wirklich bist")}
+      ${songTieferMasken("Perfection instead of love, giving instead of love, power instead of love: behind every mask lies the same longing. The song tells how deep Enneagram homeopathy looks: not at the behavior but at the motivation behind it (song in German).")}
       ${relatedLinks([
+        {route:"praxistipps-heilpraktiker/was-ist-liebe", label:"Practical tip: What Is Love? From Substitute Strategies to Essence"},
         {route:"beziehungen-schaubild", label:"Relationships – Love and Protection"},
         {route:"leidenschaft-und-wunde", label:"Passion & Wound"},
         {route:"mangelgefuehle", label:"Feelings of Lack"},
@@ -37990,7 +38425,19 @@ function sucheNachLiebePage() {
 }
 
 function humorDer9TypenPage() {
-  const HUMOR_IMG = "https://res.cloudinary.com/ymooybdl/image/upload/v1783720175/kompass/stille-sounds/humor-elefanten-schaubild.jpg";
+  const BILD = {
+    1: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-1-v2.jpg", alt: "Perfectionist Trunk: an elephant with a dustpan and a list of faults", text: "In the picture, the ‘Perfectionist Trunk’ arrives with a dustpan and a list of faults. The satirical humor of this type can be linked to exactly this eye for what is off, combined with the ability to smile about it.", q: "‘I’m not critical. I just see how it could be better! (And please don’t step here!)’" },
+    2: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-2.jpg", alt: "Always-Ready Trunk: an elephant with a soup pot and a help list", text: "Soup, a get-well card and a help list: the ‘Always-Ready Trunk’ shows how warm humor creates closeness. With a wink, it also pokes fun at its own constant helping.", q: "‘Just a little something to keep you going! (And if you need anything else, I’m always here!)’" },
+    3: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-3.jpg", alt: "Success Trunk: an elephant between a trophy and a growth chart", text: "Between trophy and growth chart, the ‘Success Trunk’ stays quick-witted. Its humor lets it stand confidently in conversation and leaves room for a jab at its own image.", q: "‘Of course I help, but the main thing is that it looks perfect from the outside! (And where are the masterpieces?)’" },
+    4: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-4.jpg", alt: "Feelings Trunk: an elephant with a diary and a quill", text: "Diary, quill and a feelings log: the ‘Feelings Trunk’ turns pain into an ironic punchline. Its melancholic humor often says the unsaid, with a quiet smile at its own drama.", q: "‘I’m not just sad. I feel everything so much more deeply than everyone else! (And why does no one understand me?)’" },
+    5: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-5.jpg", alt: "Knowledge Trunk: an elephant among books and blueprints", text: "The ‘Knowledge Trunk’ takes things apart first, then it laughs. Its dry humor lives in the punchline you only get on second thought.", q: "‘I’m not just interested. I have to take everything apart and understand it before I can even think about it!’" },
+    6: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-6.jpg", alt: "Safety Trunk: an elephant with a disaster-preparedness system", text: "A disaster-preparedness system, plus a backup for the backup: with the ‘Safety Trunk’, caution grows so large that it becomes comical. That is where its absurd humor sits: it exaggerates its own worry until you can laugh.", q: "‘I’ve thought about it… thoroughly! But what if the plan doesn’t work?’" },
+    7: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-7.jpg", alt: "Adventure Trunk: an elephant with an adventure list", text: "An adventure list with a balloon ride over Mars: the ‘Adventure Trunk’ always has one more idea. Its playful humor bubbles up from this enthusiasm and infects others.", q: "‘I’ve got an idea… and another… and another! We have to try everything at once!’" },
+    8: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-8.jpg", alt: "Power Trunk: an elephant with crossed arms", text: "The ‘Power Trunk’ crosses its arms and sets the direction. Its provocative, often dark humor tests how much headwind someone can take, and can be surprisingly honest.", q: "‘Enough talk! Time to act! And I’m the one who says which way we go! (Adventures are only good if they deliver results!)’" },
+    9: { img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/humor/humor-typ-9-v2.jpg", alt: "Peace Trunk: a meditating elephant with a mug and a peace symbol", text: "Cross-legged, with a mug and a strategy plan called ‘keep calm’: the ‘Peace Trunk’ likes to approach things without pressure. Its self-deprecating humor takes the tension out of the situation, especially its own.", q: "‘It doesn’t always have to be so exhausting. A little peace and quiet is nice too!’" },
+  };
+
+  const THUMB = (n) => BILD[n].img.replace(".jpg", "-s.jpg");
   const typen = [
     { nr:1, col:"#5f5f5f", titel:"Anger: Satirical Humor",
       art:"Satire is often used to denounce grievances and point out seemingly “wrong” behavior. Satirists frequently feel driven by a sense of what is “right” or “just.”",
@@ -38025,8 +38472,11 @@ function humorDer9TypenPage() {
     <div style="margin-bottom:2rem;padding:1.5rem 1.8rem;background:var(--surface-2,rgba(0,0,0,0.03));border-radius:14px;border-left:4px solid ${t.col};">
       <p style="font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:${t.col};font-weight:700;margin:0 0 .2rem;">Type ${t.nr}</p>
       <p style="font-size:1rem;font-weight:700;color:${t.col};margin:0 0 .9rem;">${t.titel}</p>
+      <img src="${BILD[t.nr].img}" alt="${BILD[t.nr].alt}" style="width:100%;max-width:480px;display:block;margin:0 auto .5rem;border-radius:12px;" loading="lazy" />
+      <p style="font-size:.78rem;line-height:1.5;color:var(--muted);margin:0 0 1rem;text-align:center;">The German speech bubble, translated: ${BILD[t.nr].q}</p>
       <p style="font-size:.9rem;line-height:1.7;color:var(--muted);margin:0 0 .7rem;font-style:italic;">${t.art}</p>
-      <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;">${t.typ}</p>
+      <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0 0 .9rem;">${t.typ}</p>
+      <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;">${BILD[t.nr].text}</p>
     </div>
   `).join("");
 
@@ -38051,13 +38501,24 @@ function humorDer9TypenPage() {
         </div>
       </div>
 
-      <img src="${HUMOR_IMG}" alt="Die 9 Enneagramm-Elefanten &mdash; humorvolles Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2.5rem;border-radius:14px;" loading="lazy" />
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;max-width:680px;margin:0 auto 2.5rem;">
+        ${[1,2,3,4,5,6,7,8,9].map(n => `<img src="${THUMB(n)}" alt="${BILD[n].alt}" style="width:100%;display:block;border-radius:8px;" loading="lazy" />`).join("")}
+      </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h2 style="font-size:1.1rem;font-weight:700;color:var(--ink);text-align:center;margin:0 0 1.5rem;">The Humor Styles of the 9 Types</h2>
         ${typenHTML}
         <p style="font-size:0.92rem;line-height:1.75;color:var(--anthracite);margin:1.5rem 0 0;padding:1.2rem 1.4rem;background:rgba(0,0,0,0.03);border-radius:12px;">This <em>humorous typology of the Enneagram</em> shows how specific personality patterns can find expression in the form of humor. For each type, humor offers the opportunity to release inner tensions, channel passions, and interact with the environment in a way that corresponds to their fundamental stance on life &mdash; a bridge to inner balance and self-expression.</p>
+      </div>
+
+      <div style="margin:2rem 0 0;text-align:center;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .3rem;color:var(--ink);">The humor of the 9 types as a short film</h2>
+        <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">About 50 seconds, with sound: nine elephants, nine styles of humor. The button below sends a version with a link to the compass to friends and acquaintances, even if they do not have the app yet.</p>
+        <video controls playsinline preload="none" poster="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/humor-en-poster.jpg" aria-label="Short film on the humor of the 9 types" style="display:block;width:100%;max-width:340px;margin:0 auto;border-radius:14px;background:#111;box-shadow:0 4px 18px rgba(0,0,0,.18);">
+          <source src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/humor-en-v2.mp4" type="video/mp4">
+        </video>
+        <div style="margin:.9rem 0 0;"><button type="button" data-share-video="hu" style="font:inherit;font-weight:700;font-size:.95rem;padding:.65rem 1.3rem;border:2px solid var(--copper);border-radius:999px;background:var(--paper);color:var(--copper);cursor:pointer;">&#8599; Share video</button></div>
+        <p style="font-size:.8rem;color:var(--muted);margin:.7rem 0 0;">Music: &lsaquo;Bourbon Street Bounce&rsaquo; by Detlef Rathmer</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1rem;">
@@ -38815,7 +39276,7 @@ function rumiZitatePage() {
 
       <img
         src="../assets/rumi-zitate.jpg"
-        alt="Rumi-Zitate für die 9 Enneagrammtypen"
+        alt="Rumi quotes for the 9 Enneagram types"
         style="width:100%;border-radius:8px;margin:1.75rem 0 2rem;"
       />
 
@@ -38931,11 +39392,11 @@ function verantwortungPage() {
     ${pageHeader("verantwortung")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts &middot; Profiling &middot; Self-Knowledge</p>
-      <h1 class="section-title">Verantwortung im Enneagramm</h1>
+      <h1 class="section-title">Responsibility in the Enneagram</h1>
       <p class="psycho-intro">Knowing your own type is the beginning. Truly seeing it &ndash; without defending it &ndash; that is the actual step.</p>
       <img
         src="../assets/verantwortung.jpg"
-        alt="Verantwortung im Enneagramm"
+        alt="Responsibility in the Enneagram"
         style="width:100%;border-radius:8px;margin:1.5rem 0;"
       />
 
@@ -38986,39 +39447,39 @@ function hunderassenPage() {
       <div class="vb-section" style="max-width:100%;">
         <p class="vb-intro">Dogs show us what we rarely see so directly in ourselves: the unmasked core movement of a character. No dog makes excuses, none plays a role. What it is, it shows &ndash; in posture, gaze, and behavior. Exactly why dog breeds are so well-suited as living mirrors of the nine Enneagram principles.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Typ 1 &ndash; Der Perfektionist &middot; <em>Terrier</em></h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Type 1 &ndash; The Perfectionist &middot; <em>Terrier</em></h2>
         <p style="font-size:0.82rem;color:var(--copper);margin:0 0 0.5rem;font-weight:600;">Alert &middot; Correct &middot; Responsive</p>
         <p class="vb-intro">The terrier was bred to accomplish one thing perfectly &ndash; and it does not let go until it is done. Once set on a trail, distraction is unthinkable. Its upright, tense posture signals: Here is someone who is always ready to do the right thing &ndash; and who knows precisely what that is. It scarcely tolerates mistakes, neither in itself nor in others.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Typ 2 &ndash; Der Helfer &middot; <em>Bernhardiner</em></h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Type 2 &ndash; The Helper &middot; <em>Bernhardiner</em></h2>
         <p style="font-size:0.82rem;color:var(--copper);margin:0 0 0.5rem;font-weight:600;">Caring &middot; Approachable &middot; Protective</p>
         <p class="vb-intro">The St. Bernard was bred over centuries to rescue people in distress &ndash; a helper through and through. Its massive body size stands in astonishing contrast to its gentle, almost tender aura. It gives everything without asking whether it was called. Proximity to humans is not a duty for it, but a calling &ndash; and its entire being radiates that.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Typ 3 &ndash; Der Macher &middot; <em>Labrador</em></h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Type 3 &ndash; The Achiever &middot; <em>Labrador</em></h2>
         <p style="font-size:0.82rem;color:var(--copper);margin:0 0 0.5rem;font-weight:600;">Active &middot; Capable &middot; Friendly</p>
         <p class="vb-intro">The Labrador is one of the most highly trained working dogs in the world &ndash; guide dog, rescue dog, therapy dog. It is always geared toward success, eager to learn, and adaptable, while radiating a lightness that almost feels like joy. This mix of performance and charm makes it the perfect image of the Three: It delivers &ndash; and looks effortlessly good doing it.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Typ 4 &ndash; Der Romantiker &middot; <em>Basset Hound</em></h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Type 4 &ndash; The Romantic &middot; <em>Basset Hound</em></h2>
         <p style="font-size:0.82rem;color:var(--copper);margin:0 0 0.5rem;font-weight:600;">Sensitive &middot; Deep &middot; Melancholic</p>
         <p class="vb-intro">The Basset Hound carries its melancholy on its face &ndash; drooping ears, heavy gaze, calm dignity. It is a dog that feels deeply and does not hide it. Not a dog that gets excited quickly, but one that is loyally and deeply connected to what it loves. Its slowness is not sluggishness, but the gesture of a creature that takes things seriously &ndash; perhaps a bit too seriously.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Typ 5 &ndash; Der Denker &middot; <em>Chow Chow</em></h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Type 5 &ndash; The Thinker &middot; <em>Chow Chow</em></h2>
         <p style="font-size:0.82rem;color:var(--copper);margin:0 0 0.5rem;font-weight:600;">Withdrawn &middot; Independent &middot; Observant</p>
         <p class="vb-intro">The Chow Chow is among the oldest and most independent dog breeds in the world. It seeks no validation, no constant contact &ndash; it observes, thinks, and decides for itself when it shows itself. Its distanced nature is often misunderstood as coldness, but is an expression of deep interiority. It does not easily give away parts of itself &ndash; and precisely that makes it enigmatic and fascinating at once.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Typ 6 &ndash; Der Pflichtbewusste &middot; <em>Schäferhund</em></h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Type 6 &ndash; The Dutiful One &middot; <em>German Shepherd</em></h2>
         <p style="font-size:0.82rem;color:var(--copper);margin:0 0 0.5rem;font-weight:600;">Loyal &middot; Vigilant &middot; Security-Oriented</p>
         <p class="vb-intro">The German Shepherd is the born guardian &ndash; loyal, vigilant, and profoundly geared toward security. It needs clear structures and trustworthy leadership; without them, it grows restless and suspicious. Its probing gazes are no sign of aggression, but of unremitting attention: It wants to ensure everything is in order. And when it is, there is no more faithful companion.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Typ 7 &ndash; Der Spaßmacher &middot; <em>Mops</em></h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Type 7 &ndash; The Fun-Maker &middot; <em>Mops</em></h2>
         <p style="font-size:0.82rem;color:var(--copper);margin:0 0 0.5rem;font-weight:600;">Playful &middot; Vibrant &middot; Pleasure-Oriented</p>
         <p class="vb-intro">The Pug is an epicurean. It loves life, needs little, but wants to experience everything &ndash; preferably with an audience. Its expressive, almost human face and effervescent temperament make it a born entertainer. Boredom is the worst thing imaginable to it &ndash; and it makes sure it never arises in the first place. What is missing is simply invented.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Typ 8 &ndash; Der Beschützer &middot; <em>Rottweiler</em></h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Type 8 &ndash; The Protector &middot; <em>Rottweiler</em></h2>
         <p style="font-size:0.82rem;color:var(--copper);margin:0 0 0.5rem;font-weight:600;">Powerful &middot; Assertive &middot; Dominant</p>
         <p class="vb-intro">The Rottweiler is power, clarity, and presence combined. It is not an aggressive dog &ndash; it is a self-confident dog. It marks its space, protects its pack, and shows everyone immediately who is in charge. Its quiet strength is the opposite of impulsivity: It is conscious might. Whoever truly knows it knows that beneath the hardness lies an extraordinary protector.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Typ 9 &ndash; Der Friedliebende &middot; <em>Beagle</em></h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 0.6rem;color:var(--ink);">Type 9 &ndash; The Peace-Lover &middot; <em>Beagle</em></h2>
         <p style="font-size:0.82rem;color:var(--copper);margin:0 0 0.5rem;font-weight:600;">Relaxed &middot; Friendly &middot; Connecting</p>
         <p class="vb-intro">The Beagle is a dog for everyone &ndash; accessible, friendly, conflict-avoidant. It seeks harmony within the pack and possesses the extraordinary ability to connect different groups. Its open, soft nature makes it universally popular &ndash; and universally underestimated. For the Beagle also has a strong will; it just never shows it as confrontation, but as silent persistence.</p>
 
@@ -39156,6 +39617,16 @@ function sprachstile9TypenPage() {
 
         <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">You don't only hear what someone says – you hear which genre they say it in. &ndash; Detlef Rathmer</blockquote>
 
+        <div style="margin:2rem 0 0;text-align:center;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .3rem;color:var(--ink);">The speech styles as a short film</h2>
+          <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">About 70 seconds, with sound: nine types, nine speech styles, nine inner sentences. The button below sends a version with a link to the compass to friends and acquaintances, even if they do not have the app yet.</p>
+          <video controls playsinline preload="none" poster="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/sprache-en-poster.jpg" aria-label="Short film on the speech styles of the 9 types" style="display:block;width:100%;max-width:340px;margin:0 auto;border-radius:14px;background:#111;box-shadow:0 4px 18px rgba(0,0,0,.18);">
+            <source src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/sprache-en-v2.mp4" type="video/mp4">
+          </video>
+          <div style="margin:.9rem 0 0;"><button type="button" data-share-video="sp" style="font:inherit;font-weight:700;font-size:.95rem;padding:.65rem 1.3rem;border:2px solid var(--copper);border-radius:999px;background:var(--paper);color:var(--copper);cursor:pointer;">&#8599; Share video</button></div>
+          <p style="font-size:.8rem;color:var(--muted);margin:.7rem 0 0;">Music: &lsaquo;Caf&eacute; Conversations&rsaquo; by Detlef Rathmer</p>
+        </div>
+
         ${bookTip("wer-du-wirklich-bist-band-1", "The nine types with their typical communication patterns, fixations, and paths of development in detail.", "Who You Really Are &ndash; Volume 1")}
         ${relatedLinks([
           {route:"montagmorgen-gedanken-9-typen", label:"Monday Morning Thoughts of the 9 Types"},
@@ -39198,6 +39669,16 @@ function montagmorgenGedanken9TypenPage() {
         <p class="vb-intro">The value of this diagram lies in illuminating a moment in which no one is putting on a front. Over the course of the day, many conscious and learned behaviors layer on top of each other – in the waking moment, little of that is yet present. Whoever clearly recognizes themselves in one of these nine inner monologues gets a very direct, hard-to-fake indication of their own type – closer to the raw structure of the passion than most conscious self-descriptions.</p>
 
         <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Before the day begins to shape us, the first thought already reveals who we are. &ndash; Detlef Rathmer</blockquote>
+
+        <div style="margin:2rem 0 0;text-align:center;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .3rem;color:var(--ink);">The diagram as a short film</h2>
+          <p style="font-size:.9rem;color:var(--muted);margin:0 0 .9rem;">About 50 seconds, with sound: the nine thoughts one after the other. The button below sends a version with a link to the compass to friends and acquaintances, even if they do not have the app yet.</p>
+          <video controls playsinline preload="none" poster="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/montagmorgen-en-poster.jpg" aria-label="Short film of the Monday morning thoughts of the 9 types" style="display:block;width:100%;max-width:340px;margin:0 auto;border-radius:14px;background:#111;box-shadow:0 4px 18px rgba(0,0,0,.18);">
+            <source src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/videos/montagmorgen-en.mp4" type="video/mp4">
+          </video>
+          <div style="margin:.9rem 0 0;"><button type="button" data-share-video="mm" style="font:inherit;font-weight:700;font-size:.95rem;padding:.65rem 1.3rem;border:2px solid var(--copper);border-radius:999px;background:var(--paper);color:var(--copper);cursor:pointer;">&#8599; Share video</button></div>
+          <p style="font-size:.8rem;color:var(--muted);margin:.7rem 0 0;">Music: &lsaquo;Dawn&rsquo;s Swinging Revelation&rsaquo; by Detlef Rathmer</p>
+        </div>
 
         ${bookTip("wer-du-wirklich-bist-band-1", "The nine types with their typical thought patterns, fixations, and paths of development in detail.", "Who You Really Are &ndash; Volume 1")}
         ${relatedLinks([
@@ -39443,6 +39924,40 @@ function egoFixierungenPage() {
 
         ${bookTip("hinter-der-leidenschaft", "From Ego Fixation to Essence: the nine wounds and their remedies according to the Rathmer Enneagram.", "Hinter der Leidenschaft &ndash; Die neun Wunden des Enneagramms")}
         ${bookTip("heilung-als-erinnerung", "Healing as a Return to Essence &ndash; the spiritual dimension of the Enneagram in practice.", "Heilung als Erinnerung")}
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">The Chart in Text: The 9 Ego Fixations at a Glance</h2>
+        <p class="vb-intro">According to Ichazo, every human being is shaped by a fundamental ego fixation. These fixations are not personality traits but distortions of consciousness that separate us from our true essence and presence.</p>
+        <p class="vb-intro"><strong>The basic assumption according to Ichazo</strong></p>
+        <ul class="sp-list">
+          <li>Every type is a strategy of the ego to secure survival.</li>
+          <li>These strategies arise from a lack of Being (loss of essence).</li>
+          <li>The goal is not to become a better type, but to see through the fixation and return to presence (essence).</li>
+        </ul>
+        <p class="vb-intro"><strong>The 3 centers of the intelligence apparatus</strong></p>
+        <ul class="sp-list">
+          <li>Head center &ndash; thinking: Types 5, 6, 7. Distortion: fear.</li>
+          <li>Heart center &ndash; feeling: Types 2, 3, 4. Distortion: identification.</li>
+          <li>Gut center &ndash; instinct: Types 8, 9, 1. Distortion: anger / inertia.</li>
+        </ul>
+        <p class="vb-intro"><strong>The theory of prototypes</strong><br>The 9 ego fixations are prototypes (archetypal patterns) that the ego uses to assert itself. They are universal, timeless and present in every human being as a possibility. Through becoming aware, a person can transcend the fixation and return to their essence (true Being).</p>
+        <p class="vb-intro"><strong>The nine fixations</strong></p>
+        <ul class="sp-list" style="list-style:none;padding-left:0;">
+          <li style="margin-bottom:.8rem;"><strong>9 &ndash; Inertia (Forgetting)</strong><br>Fixation: I forget my essence.<br>Basic mechanism: Avoidance &middot; Basic emotion: Inertia<br>Distortion: Identification with uniformity<br>Illusion: &lsquo;I must not disturb anyone and want nothing.&rsquo;<br>Liberation: Presence and inner alertness</li>
+          <li style="margin-bottom:.8rem;"><strong>8 &ndash; Justice (Lust)</strong><br>Fixation: I must be strong.<br>Basic mechanism: Confrontation &middot; Basic emotion: Lust (dominance)<br>Distortion: Control and power<br>Illusion: &lsquo;If I rule, I am safe.&rsquo;<br>Liberation: Gentleness and receptivity</li>
+          <li style="margin-bottom:.8rem;"><strong>7 &ndash; Idealism (Planning)</strong><br>Fixation: I must be happy.<br>Basic mechanism: Avoidance &middot; Basic emotion: Greed / dissatisfaction<br>Distortion: Distraction<br>Illusion: &lsquo;If I plan everything, I avoid pain.&rsquo;<br>Liberation: Presence and simplicity</li>
+          <li style="margin-bottom:.8rem;"><strong>6 &ndash; Security (Cowardice)</strong><br>Fixation: I need security.<br>Basic mechanism: Fear &middot; Basic emotion: Fear<br>Distortion: Doubt and projection<br>Illusion: &lsquo;If I am safe, I am protected.&rsquo;<br>Liberation: Trust and inner support</li>
+          <li style="margin-bottom:.8rem;"><strong>5 &ndash; Avarice (Avaritia)</strong><br>Fixation: I withdraw.<br>Basic mechanism: Withdrawal &middot; Basic emotion: Avarice (energy)<br>Distortion: Isolation<br>Illusion: &lsquo;If I need nothing, I am safe.&rsquo;<br>Liberation: Participation and generosity</li>
+          <li style="margin-bottom:.8rem;"><strong>4 &ndash; Authenticity (Envy)</strong><br>Fixation: I must be special.<br>Basic mechanism: Identification &middot; Basic emotion: Envy<br>Distortion: Awareness of lack<br>Illusion: &lsquo;If I am unique, I will be accepted.&rsquo;<br>Liberation: Wholeness and fullness</li>
+          <li style="margin-bottom:.8rem;"><strong>3 &ndash; Efficiency (Vanity)</strong><br>Fixation: I must be successful.<br>Basic mechanism: Adaptation &middot; Basic emotion: Vanity / shame<br>Distortion: Identification with performance<br>Illusion: &lsquo;If I perform, I am worthy.&rsquo;<br>Liberation: Genuineness and inner worth</li>
+          <li style="margin-bottom:.8rem;"><strong>2 &ndash; Help (Pride)</strong><br>Fixation: I must be needed.<br>Basic mechanism: Dependency &middot; Basic emotion: Pride<br>Distortion: I give in order to receive<br>Illusion: &lsquo;If I help, I am lovable.&rsquo;<br>Liberation: Unconditional love</li>
+          <li style="margin-bottom:.8rem;"><strong>1 &ndash; Perfection (Resentment)</strong><br>Fixation: I must be right.<br>Basic mechanism: Control &middot; Basic emotion: Anger (suppressed)<br>Distortion: Moral superiority<br>Illusion: &lsquo;If I am perfect, I am good and safe.&rsquo;<br>Liberation: Acceptance and compassion</li>
+        </ul>
+        <p class="vb-intro"><strong>The goal according to Ichazo:</strong> return to essence beyond the fixation. Presence instead of identification. Being instead of strategy.</p>
+        <p class="vb-intro"><strong>Essence (true Being):</strong> Essence is our original state: unity, wisdom, love, peace and clarity. It is not something we must achieve, but something to be recognized and allowed again.</p>
+        <p class="vb-intro"><strong>The fixation:</strong> Through early identifications and emotional injuries, a fixation arises. The ego builds a strategy to avoid pain and to protect itself. This strategy becomes habit and separates us from our essence.</p>
+        <p class="vb-intro"><strong>The path:</strong> becoming aware of the fixation &middot; recognizing the illusion &middot; letting go of identification &middot; returning to presence &middot; integrating all parts.</p>
+        <p class="vb-intro"><strong>The 3 forces (according to Ichazo):</strong> every person has three fundamental forces: will (rising upward), love (connecting from the center) and intelligence (descending downward). Their balance leads to essence.</p>
+      </div>
         ${relatedLinks([
           {route:"grundformel", label:"Basic Formula of the Rathmer Enneagram"},
           {route:"wunden", label:"Wounds & Protective Strategies"},
@@ -39536,7 +40051,7 @@ function dieNeuenEnneagrammTypenPage() {
       <p class="vb-anmerkung" style="font-style:italic;color:var(--muted);font-size:0.9rem;margin:-1rem 0 1.8rem;">A note on the title: the nine types themselves are ancient, not new. "The New Enneagram Types" refers to the new, deeper perspective this chart offers. The core belief as a mediating level was already known within the Enneagram; what's new is primarily the underlying <strong>wound</strong> itself: it is the result of Detlef Rathmer's own therapeutic research over the past ten years, presented in full in his book "Hinter der Leidenschaft" ("Behind the Passion"). The wound adds a previously undescribed, deeper dimension to the classic picture of the nine passions.</p>
       <div class="vb-section" style="max-width:100%;">
         <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">Three levels instead of two</h2>
-        <p class="vb-intro">The chart <a href="javascript:void(0)" data-route="leidenschaft-und-wunde">Leidenschaft und Wunde</a> (Passion and Wound) sets the visible passion against the deep-lying wound. This chart goes one step further and inserts a third, mediating level in between: the <strong>core belief</strong> – the sentence with which the mind justifies the passion in everyday life, before it ever becomes visible which wound actually lies behind it.</p>
+        <p class="vb-intro">The chart <a href="javascript:void(0)" data-route="leidenschaft-und-wunde">Passion and Wound</a> sets the visible passion against the deep-lying wound. This chart goes one step further and inserts a third, mediating level in between: the <strong>core belief</strong> – the sentence with which the mind justifies the passion in everyday life, before it ever becomes visible which wound actually lies behind it.</p>
         <p class="vb-intro">This creates a chain that reads the same way for each of the nine types: the <strong>passion</strong> is what becomes visible from the outside – a recurring behavioral pattern. "Underneath" lies the <strong>core belief</strong>, which makes this behavior feel logical and necessary to the type itself. "Deeper still" lies the actual <strong>wound</strong> – the earliest, mostly unconscious basic assumption about oneself and the world from which everything else first arises.</p>
 
         <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Why the order matters</h2>
@@ -39616,7 +40131,7 @@ function leidenschaftUndWundePage() {
         <p class="vb-intro">In the Enneagram, we distinguish between two levels that together form the picture of a type: the passion and the wound. Both belong together inextricably – and yet they are fundamentally different. The passion is what we can see from the outside: a behavioral pattern, a primary emotional tint, a recurring reaction. The wound, on the other hand, is what underlies this passion – a deep inner conviction, usually arising from an early experience, that has sunk into the unconscious.</p>
         <p class="vb-intro">Whoever sees only the passion sees the symptom. Whoever understands the wound understands the person.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Die Leidenschaft: sichtbare Ebene</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">The Passion: The Visible Level</h2>
         <p class="vb-intro">Passion is not a positive concept in the Enneagram. It denotes that central soul energy that repeatedly pulls a type's thinking, feeling, and acting in a certain direction – often without the person noticing it themselves. The resentment of the One, the pride of the Two, the vanity of the Three – these are not character flaws, but deeply engraved orientation reactions. They once arose as an answer to a difficult inner reality. Today, they operate largely automatically.</p>
         <p class="vb-intro">The diagram shows for each of the nine types how this passion manifests concretely – in a sentence that captures the inner experience succinctly: The world is not as it should be. Or: I want to experience everything and miss out on nothing. Or: I want life fully, strongly, and without restriction. These are sentences that many people immediately recognize in their type – sometimes startled, sometimes relieved.</p>
 
@@ -39624,15 +40139,30 @@ function leidenschaftUndWundePage() {
         <p class="vb-intro">Behind every passion lies a wound – a core assumption about oneself and the world that has engraved itself so deeply that it is no longer perceived as a conviction, but as reality. The Two does not merely believe they must not have needs – they experience it that way. The Three does not experience it as an opinion, but as a fact, that their being is not enough. The Six does not experience trust as something that might be possible – but as something they once lost and that will not return.</p>
         <p class="vb-intro">These wounds are not rationally accessible. They cannot simply be thought away or positive-thought away. They require a different kind of work: compassion, attention, time – and the Enneagram as a guidebook that shows where to look in the first place.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Vom Symptom zur Wurzel</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">From Symptom to Root</h2>
         <p class="vb-intro">The real power of this diagram lies in the juxtaposition. Whoever reads their own sentence in the passion column and then sees the corresponding wound sentence beside it often experiences a quiet inner moment. Not because something new is said – but because something familiar, which one has felt for a long time but never seen so clearly, is suddenly put into words.</p>
         <p class="vb-intro">Healing in the Enneagram begins right there: not with the attempt to suppress the passion, but with the loving understanding of the wound behind it. For whoever understands the root no longer has to fight against the branch.</p>
 
         <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Passion is the language of the wound. Whoever understands it stops judging &ndash; and begins to heal. &ndash; Detlef Rathmer</blockquote>
 
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">The Chart in Text: Passion and Wound of the 9 Types</h2>
+        <ul class="sp-list" style="list-style:none;padding-left:0;">
+          <li style="margin-bottom:.7rem;"><strong>Type 1 &ndash; Reformer / Perfectionist</strong><br>Passion (visible level): <strong>Resentment / Anger</strong> &ndash; &lsquo;The world is not the way it should be.&rsquo;<br>Wound (deep inner conviction): The world is not in order. I have to correct it, otherwise everything goes wrong.</li>
+          <li style="margin-bottom:.7rem;"><strong>Type 2 &ndash; Helper / Giver</strong><br>Passion (visible level): <strong>Pride</strong> &ndash; &lsquo;I am important because I am needed.&rsquo;<br>Wound (deep inner conviction): I must not have needs, otherwise I lose love and significance.</li>
+          <li style="margin-bottom:.7rem;"><strong>Type 3 &ndash; Achiever / Performer</strong><br>Passion (visible level): <strong>Vanity / Self-deception</strong> &ndash; &lsquo;I am only valuable if I am successful.&rsquo;<br>Wound (deep inner conviction): My being is not enough. I am only lovable if I achieve something.</li>
+          <li style="margin-bottom:.7rem;"><strong>Type 4 &ndash; Individualist / Romantic</strong><br>Passion (visible level): <strong>Envy</strong> &ndash; &lsquo;Something essential is missing in me.&rsquo;<br>Wound (deep inner conviction): I am separated from love and connectedness. I feel lost.</li>
+          <li style="margin-bottom:.7rem;"><strong>Type 5 &ndash; Observer / Thinker</strong><br>Passion (visible level): <strong>Avarice</strong> &ndash; &lsquo;I do not have enough resources.&rsquo;<br>Wound (deep inner conviction): I do not have enough, inwardly and outwardly, for the demands of life.</li>
+          <li style="margin-bottom:.7rem;"><strong>Type 6 &ndash; Loyalist / Skeptic</strong><br>Passion (visible level): <strong>Fear</strong> &ndash; &lsquo;I need security outside of myself.&rsquo;<br>Wound (deep inner conviction): I have lost trust. The world is not reliable.</li>
+          <li style="margin-bottom:.7rem;"><strong>Type 7 &ndash; Enthusiast / Optimist</strong><br>Passion (visible level): <strong>Gluttony / Intemperance</strong> &ndash; &lsquo;I want to experience everything and miss nothing.&rsquo;<br>Wound (deep inner conviction): I did not get enough. I run away from pain.</li>
+          <li style="margin-bottom:.7rem;"><strong>Type 8 &ndash; Doer / Boss</strong><br>Passion (visible level): <strong>Lust / Intensity</strong> &ndash; &lsquo;I want life whole, strong and without limits.&rsquo;<br>Wound (deep inner conviction): I must never be powerless again. Only strength protects me.</li>
+          <li style="margin-bottom:.7rem;"><strong>Type 9 &ndash; Peacemaker / Mediator</strong><br>Passion (visible level): <strong>Sloth / Self-forgetting</strong> &ndash; &lsquo;I adapt and forget myself.&rsquo;<br>Wound (deep inner conviction): My will and my space are not allowed to exist fully.</li>
+        </ul>
+      </div>
         ${bookTip("hinter-der-leidenschaft", "The nine wounds of the Enneagram – where they originate, how they shape life, and which remedies correspond to them.", "Hinter der Leidenschaft &ndash; Die neun Wunden des Enneagramms")}
         ${bookTip("leidenschaft-und-heilung", "Passions, virtues, and paths of healing of all 27 Subtypes – directly from therapeutic practice.", "Leidenschaft und Heilung")}
-        ${relatedLinks([
+        ${songTieferMasken("The passion lies deeper than the visible behavior, the wound deeper still. The song tells how Enneagram homeopathy works at this depth and not at the mask (song in German).")}
+      ${relatedLinks([
           {route:"wunden", label:"Wunden & Schutzstrategien"},
           {route:"die-neuen-enneagramm-typen", label:"The New Enneagram Types"},
           {route:"gaslighting-enneagramm", label:"Gaslighting & Enneagramm"},
@@ -39688,7 +40218,7 @@ function verwechslungenPage() {
   return shell(`
     ${pageHeader("verwechslungen")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
-      <p class="eyebrow">Charts \xb7 Typisierung</p>
+      <p class="eyebrow">Charts \xb7 Typing</p>
       <h1 class="section-title">Type Confusions</h1>
       <p class="psycho-intro">Ego strength or essence? The most consequential trap in Enneagram typing.</p>
       <img
@@ -40356,7 +40886,7 @@ function gifteDesGeistesPage() {
       <p class="lead-small">The Tibetan Buddhist tradition knows three &bdquo;poisons of the mind&ldquo; (greed, hatred, ignorance) that must come to rest so that inner peace can arise. The Enneagram assigns the 9 passions to these three core movements.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="../assets/schaubilder/gifte-des-geistes/gifte-des-geistes.jpg"
-             alt="Die 3 Gifte des Geistes und die 9 Enneagramm-Leidenschaften"
+             alt="The 3 poisons of the mind and the 9 Enneagram passions"
              class="psycho-img" />
       </div>
       <div style="margin-top:2rem; display:flex; flex-direction:column; gap:1rem;">
@@ -40380,6 +40910,25 @@ function gifteDesGeistesPage() {
         </div>
       </div>
       ${bookTip("leidenschaft-und-heilung", "The 9 Passions and Their Buddhist Roots &ndash; with paths of healing from homeopathic practice.", "Leidenschaft und Heilung")}
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">The Chart in Text: The Nine Passions and Their Energies</h2>
+        <p class="vb-intro">The three &lsquo;poisons of the mind&rsquo; are three movements of the mind that must come to rest so that the 9 passions do not arise in the first place &ndash; what one could then call inner peace. Peace arises when mindfulness allows a &lsquo;fourth movement&rsquo; to appear that is no movement at all, but a non-movement in the mind, a mental stillness.</p>
+        <ul class="sp-list">
+          <li><strong>Type 9 &ndash; Sloth / Self-forgetfulness:</strong> Blocked gut energy leads to ignorance toward self-assertion.</li>
+          <li><strong>Type 1 &ndash; Anger / Resentment:</strong> Transformed gut energy leads to hatred toward lack of structure.</li>
+          <li><strong>Type 2 &ndash; Pride / Self-complacency:</strong> Excess heart energy leads to craving for love.</li>
+          <li><strong>Type 3 &ndash; Vanity / Deception:</strong> Blocked heart energy leads to ignorance toward feelings.</li>
+          <li><strong>Type 4 &ndash; Envy / Ill will:</strong> Transformed heart energy leads to hatred toward uniformity.</li>
+          <li><strong>Type 5 &ndash; Avarice / Acquisitiveness:</strong> Excess head energy leads to craving for time.</li>
+          <li><strong>Type 6 &ndash; Fear, anxiety / Doubt:</strong> Blocked head energy leads to ignorance of what is new.</li>
+          <li><strong>Type 7 &ndash; Gluttony / Intemperance:</strong> Transformed head energy leads to hatred toward monotony.</li>
+          <li><strong>Type 8 &ndash; Lust / Greed:</strong> Excess gut energy leads to craving for action.</li>
+        </ul>
+        <p class="vb-intro">The three poisons are the underlying emotional movements of the triangles: <strong>anger, rage, resentment</strong> (gut), <strong>sadness, grief over a loss, emotional pain</strong> (heart) and <strong>fear, dread, insecurity</strong> (head).</p>
+        <p class="vb-intro">All three mental movements are movements away from myself. When the three mental movements come to rest, I rest in myself.</p>
+        <p class="vb-intro">Our entire human being is steered, more or less unconsciously, by these three &lsquo;poisons of the mind&rsquo;. Tibetan medicine assigns them as the basis of the physiological body humors: wind (greed), bile (hatred) and phlegm (delusion). Their harmonious balance is responsible for health or illness.</p>
+        <p class="vb-intro">The three Buddhist &lsquo;poisons of the mind&rsquo; (greed, hatred, delusion) are also called &lsquo;mental defilements&rsquo; or &lsquo;roots of the unhealed&rsquo;, which points to the fundamental purifiability, or original otherness, of the mind. Their counterparts are freedom from greed, freedom from hatred and freedom from delusion.</p>
+      </div>
       ${relatedLinks([
         {route:"neun-logismoi", label:"9 Logismoi according to Evagrius"},
         {route:"leidenschaft-und-wunde", label:"Passion & Wound"},
@@ -40453,6 +41002,443 @@ function claudioNaranjoLehrerPage() {
         {route:"beruehmte-claudio-naranjo", label:"Portrait: Dr. Claudio Naranjo (SO5w4)"},
         {route:"krankheitsportraets-claudio-naranjo", label:"Illness portrait: Claudio Naranjo"},
         {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}
+
+function davidDanielsGesetzePage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("david-daniels-gesetze")}
+      <div class="page-content">
+        <p class="eyebrow">Knowledge · Portraits & Patterns</p>
+        <h1 class="section-title">The Three Laws of Dr. David Daniels</h1>
+        <p class="lead-small">Dr. David Daniels (1934–2017) was a psychiatrist and one of the first-generation Enneagram teachers. The author never met him personally but read a great deal of his work, and types him as a self-preservation Six (SP6); nothing reliable is known about his wing. Below are Daniels’ three energy–attention laws, presented with commentary by Detlef Rathmer, translated from the German original pages. The original pages (in German) can be unfolded at the end.</p>
+        <figure style="margin:0 0 1.2rem;"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/daniels/v2/daniels-seite-280.jpg" alt="Enneagram teacher Dr. David Daniels (1934–2017), SP6" loading="lazy" style="width:100%;height:auto;border-radius:8px;" /></figure>
+        <h2 class="vb-section" style="margin-top:1.8rem;">About the person</h2>
+        <ul style="font-size:0.98rem;line-height:1.7;padding-left:1.3rem;margin:0 0 0.4rem;"><li style="margin:0.25rem 0;">Born on 30 August 1934, died on 26 May 2017 in Palo Alto, California.</li><li style="margin:0.25rem 0;">Psychiatrist; studied at Stanford University School of Medicine and taught there as an adjunct clinical professor.</li><li style="margin:0.25rem 0;">In 1988 he co-founded the Enneagram Professional Training Program (EPTP) with Helen Palmer and was a co-founder of the International Enneagram Association.</li><li style="margin:0.25rem 0;">Co-author of <em>The Essential Enneagram</em>.</li></ul>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0 0 1rem;">Based on an obituary and author page; his biography will be deepened in a portrait if needed.</p>
+        <h2 class="vb-section" style="margin-top:1.8rem;">Behavior says little about motivation</h2>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">Behavior is visible and can therefore be observed. But, as we often hear from other people, it is also hard to interpret, because one behaves differently in one situation than in another. So: behavior depends on the situation. That is why it is not effective to take behavior as the object of self-observation, even though almost all of humanity practices this daily and, in doing so, keeps trying to actively change this behavior without being able to identify the cause behind it (<em>‘The road to hell is paved with good intentions, as we know!’</em>). After all, individual behavior differs from situation to situation.</p>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">People who recognize themselves in one and the same type, that is, in its inner psychological (defense) mechanisms, often express this differently in their behavior. Conversely, two people who recognize themselves in different Enneagram types may well behave similarly. In this case, different motivations or driving forces lead to the same behavior. The difference can be shown with a short example:</p>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;"><strong>Cannabia</strong> (Type 9), <strong>Platina</strong> (Type 1) and <strong>Belladonna</strong> (Type 7) are among those people who do not tackle conflicts head-on but tend to prefer to avoid them. Such people are also called conflict avoiders. The reasons why they avoid conflict are, however, different: <strong>Cannabia</strong>, for example, is afraid of endangering or even destroying the relationship with the person opposite her. In <strong>Platina’s</strong> system of norms, ‘conflicts simply are not done’. <strong>Belladonna</strong> does not find conflicts funny but painful and simply does not want to experience such a thing. These are all different motives, yet they lead to the same behavior. That is why, with the Enneagram, we do not look at behavior but at the inner unconscious driving forces as the deeper cause of the visible behavior on the surface of human action. In the Enneagram we consider the underlying motivation or driving force more important than behavior, because recognizing this drive is the point at which further development can begin; with situation-dependent behavior it is almost hopeless. The starting point for learning to deal with conflicts differently is a different one for each of the three women described. For them it is not about the situational handling of conflicts at the level of behavior as such, but about the actual deeper cause of why these three ladies avoid conflicts.</p>
+        <h2 class="vb-section" style="margin-top:1.8rem;">The three laws at a glance</h2>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">In the Enneagram we therefore explore what, as a rule, lies unconsciously behind or beneath the respective behavior. Why does someone behave in a certain way? In the Enneagram this is called the unconscious driving force or underlying motivation. Dr. David Daniels formulated three ‘small laws’ for this. These laws are three rules of thumb that support one in exploring personality. In brief, the three ‘energy–attention laws’ according to David Daniels are:</p>
+        <ol style="font-size:0.98rem;line-height:1.7;padding-left:1.3rem;margin:0 0 1rem;"><li style="margin:0.35rem 0;font-weight:600;">Energy flows where attention goes.</li><li style="margin:0.35rem 0;font-weight:600;">Managing attention and energy requires the ability to observe oneself.</li><li style="margin:0.35rem 0;font-weight:600;">Self-observation can be learned, but it never becomes a natural habit and must be actively practiced again and again.</li></ol>
+        <h2 class="vb-section" style="margin-top:1.8rem;">Attention matters</h2>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">At the word ‘attention’ one first thinks of receiving attention or giving attention, for example to one’s own children, to work or to one’s loved one. We are more or less aware of attention at this level. It is important to pay attention to things that mean something to us. Just think of what happens when certain things are not sufficiently noticed. Then something can go wrong, from failure in a professional project to problems in the relationship with our fellow human beings. This kind of attention is also called <em>‘attention in action’</em>: having, giving, receiving attention. Something one does outwardly within the framework of one’s own life circumstances.</p>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">By the attention we talk about in relation to our inner work and personality development with the Enneagram, we mean ‘inner’ attention in relation to ourselves. This is attention at a higher level and means a certain looking inward, not outward. As a rule, we are not aware of this kind of attention unless we discover it in ourselves. This attention lies at the level of our hidden steering mechanisms, that is, our underlying driving forces and motivations. This is where the things lie on which one usually directs one’s attention unconsciously and automatically, because one finds them very important, even without being aware of it. Exploring this inner attention (awareness, watchfulness) and the unconscious goals it is directed at is one of the most important aspects of one’s own personality development with the help of the Enneagram. One pillar of Enneagram practice is attention training, which nowadays is also commonly called mindfulness, awareness and so on.</p>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">Monks who observed themselves over decades of meditation and in doing so discovered a great deal about the inner psychological defense mechanisms of their inner life have handed down the following to us:</p>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">1. We cannot ‘not’ direct our attention at something. Our attention always has a target. We are not aware of it; it simply happens. The ‘something’ our attention is directed at we call the object of attention.</p>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">2. Our attention is always directed at only one object. The monks’ observations are confirmed by neurobiological research of recent years: at best we can jump back and forth between things very quickly, so quickly that it looks as if we direct our attention at everything at once. Brain research shows, however, that we switch very quickly in doing so. So we direct our attention at only one thing at a time.</p>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">3. Our attention wanders automatically from one object to the next. It seems difficult to keep our attention directed at one object for a longer time. As soon as the next object passes by, our attention flies to it automatically. We get distracted. When we keep our attention directed at one object for a longer time, we call that concentration. It requires training. When we can hold an object (a thing or a person) in our thoughts, perhaps even visualize it, we call that object constancy.</p>
+        <h2 class="vb-section" style="margin-top:1.8rem;">Love is attention, attention is love</h2>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">Attention is a way of expressing love. When something or someone is very important to us, so important that one can call it love, then this something or someone is also at the center of our attention; the focus of attention lies on something or someone. The love we feel for something or someone can express itself in our explicitly giving them attention, for example by doing things for them. Sometimes it is less the doing itself than the way one lets this something or someone receive attention. For many, one’s own children are surely the best example. Studies have shown that mothers recognize the crying of their own child among several crying babies. In the crowd on the schoolyard, parents spot their own children immediately. The attention consists in loving parents really seeing and really hearing the child. In turn, the child feels seen and heard. This is love expressed in attention, and love can be recognized from this attention.</p>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">In the Enneagram we regard this as pure attention, which arises from a person being connected with themselves, that is, well anchored in their own inner attention, and therefore also coming into contact with others in just as good a way. This is attention at another, higher level: not doing but being; this is conscious attention (being mode instead of having mode). Every healthy person can learn this, to train conscious being, to develop conscious attention and to give it away lovingly. The first step is to see where our attention is unconsciously directed. When one recognizes in oneself which Enneagram type best describes our pattern of thinking, feeling and acting, this offers us an uniquely good basis for observing the unconscious objects of our attention. The place on which attention is directed is mostly one that causes concern to the type in question (and to the person behind it).</p>
+        <h2 class="vb-section" style="margin-top:1.8rem;">Underlying driving force or unconscious intrinsic motivation</h2>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">Every Enneagram type thus has, unconsciously and involuntarily, a preferred object on which its attention is directed unconsciously and automatically. People who observe and study themselves report this. The target of attention is the core of the type mechanism. It forms the basis of the whole automatic pattern of thinking, feeling and acting of the respective type. What is unconsciously regarded as so important we call the underlying driving force or the unconscious intrinsic motivation. In the Enneagram it is about getting to know our mental patterns of attention and exploring our individual emotional programming, which ensures that we act reflexively in certain situations. When we react and act in a reflex of our attention pattern, the autopilot is steering us. Working with the Enneagram aims at making the autopilot conscious to us and, on the basis of this awareness, gradually taking back full leadership for ourselves, the direction of our own life.</p>
+        <h2 class="vb-section" style="margin-top:1.8rem;">Energy follows attention</h2>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">At Christmastime the house of <strong>Tarentella</strong> (Type 3) is always the most beautifully decorated one on the street, perhaps in the city, the federal state or even the whole country itself. Every year she reaps a lot of praise for it, and that does her good. It gives her a good feeling, but unfortunately it does not last long. Once the praise has been collected, she immediately feels the urge to make an effort for something else that again brings her applause. For she has found out that applause is important to her and always does her very good in the short term. One could perhaps argue now: <em>What is wrong with someone enjoying decorating the house nicely for Christmas?</em> Nothing, of course. I like that myself, and perhaps you do too. But the question is whether one does it of one’s own free will, simply because it is fun, or entirely out of the ‘compulsion’ of the Enneagram fixation. <strong>Tarentella</strong> has found out that with her it is the latter. Sometimes she resolves to pull out fewer stops this year, but she finds it hard to limit herself.</p>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">This is a small example of <strong><em>unconscious patterns of thinking, feeling and acting</em></strong>. These three aspects in us cannot be separated from one another. <strong>Tarentella</strong> began at some point (unconsciously) to believe that achievement is the prerequisite for being seen and loved. That is important to her, because applause gives her a good feeling. Because it gives her a good feeling, her attention and energy are unconsciously directed at getting this applause. In this way thinking and feeling influence each other and are turned into action, in this case into an activity meant to bring applause. Many of us like to receive applause. But there are people like <strong>Tarentella</strong> (Type 3) for whom applause for their achievement plays an overpowering role in daily life. Her antenna for applause is, so to speak, switched on to receive all the time. This driving force forms the pattern for her thinking, feeling and acting and gives her life content and her an identity. The Enneagram knows nine such driving forces, each forming the basis of a particular automatic pattern.</p>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">Another example: <strong>Platina’s</strong> attention (Type 1) is directed unconsciously and automatically at whether things are correct and appropriate. That is why she simply always sees immediately when something is not quite fitting or right. This costs her no effort. As a consequence she tends to improve what is wrong. Her attention is thus directed at pointing out what is correct and what is not. Her energy follows attention and corrects what is not right. We call this an automatism, her natural tendency to correct. One can see this as a strength of <strong>Platina</strong> (Type 1). But it is also a weakness. For when we ask whether Platina is free in her actions, we come to the conclusion that she is by no means free in this respect. The correcting happens so unconsciously and automatically that one could call it compulsive.</p>
+        <h2 class="vb-section" style="margin-top:1.8rem;">Recognizing where attention goes (1st law according to Dr. David Daniels)</h2>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">It is of course difficult to begin with self-observation when one does not know what to look out for, and that is exactly what regular study of the Enneagram is for. <strong>Tarentella</strong> (Type 3) discovered her most important underlying driving force after she had been occupied with the Enneagram for a while, observing and reflecting on herself. Gradually, a number of things then became clearer and more comprehensible to her.</p>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">So let us begin here as follows: where does attention go? In the left column of the following table we find a list of aspects on which we may be directing our attention. In the right column are examples of where our energy flows in that case.</p>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">Here the question also arises: do we recognize what our attention is automatically directed at and into which things we unconsciously put our energy?</p>
+        <div style="overflow-x:auto;margin:0 0 1.2rem;"><table style="border-collapse:collapse;width:100%;font-size:0.92rem;line-height:1.5;"><thead><tr><th style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;">Type</th><th style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;">Attention is directed at …</th><th style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;">Energy goes into</th></tr></thead><tbody><tr><td style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;font-weight:700;">1</td><td style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;">what is not correct, not fitting, faulty</td><td style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;">improving, order</td></tr><tr><td style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;font-weight:700;">2</td><td style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;">needs of others</td><td style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;">giving, helping</td></tr><tr><td style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;font-weight:700;">3</td><td style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;">what brings applause/approval and points</td><td style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;">reaching goals, fulfilling tasks, achieving something</td></tr><tr><td style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;font-weight:700;">4</td><td style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;">what is missing</td><td style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;">comparing, longing</td></tr><tr><td style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;font-weight:700;">5</td><td style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;">expectations of others</td><td style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;">observing, being reserved/little involved</td></tr><tr><td style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;font-weight:700;">6</td><td style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;">threats, risks, dangers</td><td style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;">being watchful, recognizing and avoiding risks</td></tr><tr><td style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;font-weight:700;">7</td><td style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;">what restricts, what is no fun</td><td style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;">keeping options/possibilities open, having fun</td></tr><tr><td style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;font-weight:700;">8</td><td style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;">those in need of protection, seat of power &amp; strength</td><td style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;">being strong, protecting, fighting</td></tr><tr><td style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;font-weight:700;">9</td><td style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;">(dis)harmony, opposing wishes, plans and viewpoints</td><td style="border:1px solid var(--line);padding:0.45rem 0.6rem;text-align:left;vertical-align:top;">integrating, merging with others, avoiding and preventing conflicts</td></tr></tbody></table></div>
+        <h2 class="vb-section" style="margin-top:1.8rem;">Managing attention and energy (2nd law according to Dr. David Daniels)</h2>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">What we do not see or recognize in ourselves we cannot manage either. The things we do not like in our inner life we also do not want to see. From this a habit develops, as a kind of self-protection (psychological defense mechanism), and we actually do not see the things. They become so-called <em>blind spots</em> of our own unconscious shadow parts. The first step toward self-management therefore consists in nevertheless looking at oneself closely. Anyone can learn this ability of self-observation. Of course it is easier with guidance or a coach/companion. In this way one gradually learns to question oneself systematically with the aim of interpreting one’s own perception. We observe something in doing so, but what does what we see and notice in ourselves mean? What might it point to? We call this systematic questioning self-reflection; some also call it inner dialogue.</p>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">The descriptions of the Enneagram types serve us here as a kind of mirror. They tell us a lot about our unconscious driving forces (intrinsic motivations and hidden intentions) and their function. When we look into this mirror of the Enneagram, we will at first recognize certain things in ourselves, others perhaps not (yet). In this context self-reflection helps to make the unconscious conscious.</p>
+        <h2 class="vb-section" style="margin-top:1.8rem;">Self-observation – a natural habit? (3rd law according to Dr. David Daniels)</h2>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">Natural habits are, for example, eating when one is hungry and sleeping when one is tired. There are also habits that have crept into our lives and that we find so pleasant that we immediately miss them when we deviate from them once. These are rituals such as ‘walking the dog’ or ‘watching the sports show’. Self-observation, by contrast, will never become a habit, no matter how much we benefit from it. <em>Georges Ivanovitch Gurdjieff</em>, who brought the Enneagram to the West, says on this subject that people are robots. We act purely mechanically and are programmed for automatic reactions. We are asleep, as Gurdjieff put it. We are mostly unaware of ourselves, just as unaware of our effect on others or the effect of others on us. Normally we are largely without will and only ever react. Survival is a way of reacting to the environment. Gurdjieff speaks of self-forgetting: we even forget our resolutions. Gurdjieff, as a Type 8 (SX8), was searching for the truth all his life. In doing so he traveled a great deal and spent much time with spiritual groups whose wisdom he explored. The idea of self-forgetting, of our ‘deep sleep’, is found in many traditions; it is not an invention of Gurdjieff in particular. The Buddha, for example, is also called the Awakened One.</p>
+        <details style="margin:1.6rem 0;border:1px solid var(--line);border-radius:12px;padding:0.8rem 1.1rem;"><summary style="cursor:pointer;font-weight:700;">View original pages (German)</summary><div style="margin-top:1rem;">
+        <figure style="margin:0 0 1.2rem;"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/daniels/v2/daniels-seite-281.jpg" alt="The three laws: behavior and motivation, example Cannabia, Platina and Belladonna" loading="lazy" style="width:100%;height:auto;border-radius:8px;" /></figure>
+        <figure style="margin:0 0 1.2rem;"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/daniels/v2/daniels-seite-282.jpg" alt="The three energy–attention laws according to David Daniels" loading="lazy" style="width:100%;height:auto;border-radius:8px;" /></figure>
+        <figure style="margin:0 0 1.2rem;"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/daniels/v2/daniels-seite-283.jpg" alt="Attention matters" loading="lazy" style="width:100%;height:auto;border-radius:8px;" /></figure>
+        <figure style="margin:0 0 1.2rem;"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/daniels/v2/daniels-seite-284.jpg" alt="The monks’ observations; love is attention" loading="lazy" style="width:100%;height:auto;border-radius:8px;" /></figure>
+        <figure style="margin:0 0 1.2rem;"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/daniels/v2/daniels-seite-285.jpg" alt="Pure attention and conscious being" loading="lazy" style="width:100%;height:auto;border-radius:8px;" /></figure>
+        <figure style="margin:0 0 1.2rem;"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/daniels/v2/daniels-seite-286.jpg" alt="Unconscious driving force; example Tarentella" loading="lazy" style="width:100%;height:auto;border-radius:8px;" /></figure>
+        <figure style="margin:0 0 1.2rem;"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/daniels/v2/daniels-seite-287.jpg" alt="Unconscious patterns of thinking, feeling and acting" loading="lazy" style="width:100%;height:auto;border-radius:8px;" /></figure>
+        <figure style="margin:0 0 1.2rem;"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/daniels/v2/daniels-seite-288.jpg" alt="Example Platina; 1st law: recognizing where attention goes" loading="lazy" style="width:100%;height:auto;border-radius:8px;" /></figure>
+        <figure style="margin:0 0 1.2rem;"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/daniels/v2/daniels-seite-289.jpg" alt="Table of the types; 2nd law: managing attention and energy" loading="lazy" style="width:100%;height:auto;border-radius:8px;" /></figure>
+        <figure style="margin:0 0 1.2rem;"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/daniels/v2/daniels-seite-290.jpg" alt="3rd law: self-observation, Gurdjieff" loading="lazy" style="width:100%;height:auto;border-radius:8px;" /></figure>
+        </div></details>
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"claudio-naranjo-lehrer", label:"Claudio Naranjo: Teacher and Pioneer of the Subtypes"},
+        {route:"praxistipps-heilpraktiker/vierter-weg-selbsterinnerung", label:"The Fourth Way According to Gurdjieff: Self-Remembering"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}
+
+function tugendenEnneagrammPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("tugenden-enneagramm")}
+      <div class="page-content tug-page">
+        <p class="eyebrow">Knowledge · Practice and Attitude</p>
+        <h1 class="section-title">The Virtues in the Enneagram</h1>
+        <p class="lead-small">In the Enneagram a virtue is not a moral task but what arises when the passion of a type is transformed through awareness. Here are the nine virtues, the way to them and nine examples of the moment of pausing.</p>
+        <figure class="tug-hero"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/tugenden-enneagramm.jpg" alt="A winding path through nine garden scenes: doves and lanterns, a vineyard, a lemon tree, a still pond, a lotus in two hands, a crystal between mirrors, a waterfall, a library under stars and a castle gate behind sunflowers" loading="lazy" /><figcaption>The way of the virtues: nine places, one shared path.</figcaption></figure>
+        <div class="tug-intro"><h2>What is a virtue in the Enneagram?</h2><ul><li>It is <strong>not</strong> the moral counterpart of the passion but a <strong>quality of being</strong> that arises by itself through inner work and awareness.</li><li>It is the <strong>transformed energy</strong> of the respective passion or fixation.</li><li>The descriptions of <strong>Claudio Naranjo</strong>, the author's Enneagram teacher, give the passions vivid images and so make the way to virtue clearer.</li></ul></div>
+        <h2 class="vb-section tug-h2">Nine passions, nine virtues</h2>
+        <div class="tug-grid">
+          <article class="tug-card" style="--tc:#607468;">
+            <div class="tug-card__top"><span class="tug-card__num">1</span><span class="tug-card__role">The Reformer</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion" title="Naranjo: Anger">Anger, resentment</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">Serenity · Composure</span></div>
+            <p class="tug-card__text">Being at peace with oneself even when irritation and the drive for perfection are present, without constantly fighting them.</p>
+          </article>
+          <article class="tug-card" style="--tc:#c47f6b;">
+            <div class="tug-card__top"><span class="tug-card__num">2</span><span class="tug-card__role">The Helper</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion" title="Naranjo: Pride">Pride, arrogance</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">Humility</span></div>
+            <p class="tug-card__text">Giving love without noticing it and without being compared: a wise letting go of the need to be loved oneself.</p>
+          </article>
+          <article class="tug-card" style="--tc:#c9a84c;">
+            <div class="tug-card__top"><span class="tug-card__num">3</span><span class="tug-card__role">The Achiever</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion" title="Naranjo: Vanity">Vanity, self-deception</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">Truthfulness · Authenticity</span></div>
+            <p class="tug-card__text">Taking off the mask and living who one is, beyond image, gestures of success and attributions.</p>
+          </article>
+          <article class="tug-card" style="--tc:#7a5c8a;">
+            <div class="tug-card__top"><span class="tug-card__num">4</span><span class="tug-card__role">The Individualist</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion" title="Naranjo: Envy">Envy, begrudging</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">Equanimity</span></div>
+            <p class="tug-card__text">Being able to feel deeply without being flooded. This is not indifference but freedom from the tyranny of moods and from the illusion that something essential is missing in me.</p>
+          </article>
+          <article class="tug-card" style="--tc:#4a7f91;">
+            <div class="tug-card__top"><span class="tug-card__num">5</span><span class="tug-card__role">The Observer</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion" title="Naranjo: Avarice">Avarice, greed</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">Non-attachment · Detachment</span></div>
+            <p class="tug-card__text">Observing with inner spaciousness without dwelling in thoughts: being in knowing without losing oneself in the world of concepts.</p>
+          </article>
+          <article class="tug-card" style="--tc:#8a6a3f;">
+            <div class="tug-card__top"><span class="tug-card__num">6</span><span class="tug-card__role">The Loyalist</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion" title="Naranjo: Fear">Fear, doubt, mistrust</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">Courage</span></div>
+            <p class="tug-card__text">Courage is not the absence of fear but the ability to take the next step despite fear, trusting oneself and life.</p>
+          </article>
+          <article class="tug-card" style="--tc:#d98c3a;">
+            <div class="tug-card__top"><span class="tug-card__num">7</span><span class="tug-card__role">The Enthusiast</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion" title="Naranjo: Gluttony">Gluttony, excess</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">Sobriety · Temperance</span></div>
+            <p class="tug-card__text">Experiencing the moment calmly without fleeing. In this way life can be enjoyed without being lost in it.</p>
+          </article>
+          <article class="tug-card" style="--tc:#a5433a;">
+            <div class="tug-card__top"><span class="tug-card__num">8</span><span class="tug-card__role">The Challenger</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion" title="Naranjo: Lust">Lust, greed, control</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">Innocence · Purity of heart</span></div>
+            <p class="tug-card__text">Being powerful without dominating others: a strong heart that stays rooted in compassion.</p>
+          </article>
+          <article class="tug-card" style="--tc:#6b8f5a;">
+            <div class="tug-card__top"><span class="tug-card__num">9</span><span class="tug-card__role">The Peacemaker</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion" title="Naranjo: Sloth">Sloth, self-forgetting</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">Right action · Drive</span></div>
+            <p class="tug-card__text">Acting consciously from inner presence: rising up, without pause, in encounter, without losing one's own center.</p>
+          </article>
+        </div>
+        <h2 class="vb-section tug-h2">The way: not through doing but through being</h2>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">You cannot get rid of a fixation through effort. It loosens when one sees it and for once does not follow it. That is exactly where the difficulty lies.</p>
+        <ol class="tug-steps">
+          <li class="tug-step"><span class="tug-step__num">1</span><div><h3>You are not your fixation</h3><p>Personality is a survival pattern, not your essence. It reacts automatically, like an autopilot. “That's just how I am” is mostly only the sound of compensation strategies learned early.</p></div></li>
+          <li class="tug-step"><span class="tug-step__num">2</span><div><h3>Recognize the autopilot and pause</h3><p>As soon as you see what is reacting in you, for instance the wounded child, the driver, the know-it-all or the escape type, and you do not react automatically but pause, you have already done the decisive thing.</p></div></li>
+          <li class="tug-step"><span class="tug-step__num">3</span><div><h3>Stillness is the end of resistance</h3><p>You do not have to do anything, only stop doing: not analyzing, not judging, not searching, not avoiding. Like a stirred-up body of water that simply comes to rest. In the stillness you see the bottom of your inner waters; before that you saw only mud and reflections, your ego, your drama, your fixation cinema.</p></div></li>
+          <li class="tug-step"><span class="tug-step__num">4</span><div><h3>Transcendence does not mean “I am better now”</h3><p>But: “I recognize the pattern and do not follow it this time.” It is quiet. You see the mechanism of your passion and do not have to act now.</p></div></li>
+          <li class="tug-step"><span class="tug-step__num">5</span><div><h3>What is hard about it</h3><p>Not the technique, which is radically simple: be still, look, do not react. What is hard is that our world is a constant trigger. It lives on your not pausing: that you click, buy, compare, react, get outraged and defend yourself at once. The way therefore needs courage for emptiness, courage for slowness, courage to be alone with yourself.</p></div></li>
+          <li class="tug-step"><span class="tug-step__num">6</span><div><h3>What happens when you really do it</h3><p>You see your patterns instead of confusing yourself with them. You stop justifying yourself. You feel pain, but without drama. You are free to choose instead of functioning automatically; here your real “free will” begins. Then virtue begins to work, not as a concept but as a natural quality: equanimity, humility, authenticity, courage arise by themselves when the storm settles.</p></div></li>
+        </ol>
+        <blockquote class="tug-quote"><p>Between stimulus and response there is a space in which freedom becomes possible.</p><footer>A sentence often attributed to Viktor Frankl; the exact source is unclear.</footer></blockquote>
+        <h2 class="vb-section tug-h2">Pausing in everyday life: nine examples</h2>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">The focus is on the moment of pausing in which a type recognizes its fixation, does not react automatically and thereby opens the way into virtue. Tap a type to open the example.</p>
+        <div class="tug-ex-grid">
+          <details class="tug-ex" style="--tc:#607468;">
+            <summary><span class="tug-card__num">1</span><span class="tug-ex__title">The Reformer<small>Virtue: Serenity · Composure</small></span></summary>
+            <div class="tug-ex__body">
+              <p class="tug-ex__fix"><strong>Fixation:</strong> Perfectionism, self-righteousness, suppressed anger</p>
+              <p><strong>Example:</strong> A colleague does something “wrong”, for instance files it incorrectly. You are already about to start: “Honestly, that's not how it's done …”</p>
+              <p class="tug-ex__hold"><strong>Pausing:</strong> <em>Breathe. Feel how it boils inside you. And say inwardly: “It's okay. I don't have to correct everything. I can simply let it be.”</em></p>
+              <p><strong>Effect:</strong> Suddenly there is peace. You stop imposing your inner rulebook on the world.</p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#c47f6b;">
+            <summary><span class="tug-card__num">2</span><span class="tug-ex__title">The Helper<small>Virtue: Humility</small></span></summary>
+            <div class="tug-ex__body">
+              <p class="tug-ex__fix"><strong>Fixation:</strong> Neediness, helper syndrome, pride</p>
+              <p><strong>Example:</strong> You helped someone and secretly expect thanks. It does not come. You feel disappointment and a slight hurt.</p>
+              <p class="tug-ex__hold"><strong>Pausing:</strong> <em>Observe: “I didn't just want to help. I wanted to be seen and personally recognized.”</em></p>
+              <p><strong>Effect:</strong> You accept your neediness without condemning yourself for it. You help or you don't, but free of hidden expectations.</p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#c9a84c;">
+            <summary><span class="tug-card__num">3</span><span class="tug-ex__title">The Achiever<small>Virtue: Truthfulness · Authenticity</small></span></summary>
+            <div class="tug-ex__body">
+              <p class="tug-ex__fix"><strong>Fixation:</strong> Image, success, adaptation</p>
+              <p><strong>Example:</strong> In a group you talk about a professional success and notice you are exaggerating a little. You act cooler than you are.</p>
+              <p class="tug-ex__hold"><strong>Pausing:</strong> <em>“Wait … why am I actually telling it this way? Do I really have to shine?”</em></p>
+              <p><strong>Effect:</strong> You are ready to show yourself as you are, weaknesses included. It feels more real, and closer.</p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#7a5c8a;">
+            <summary><span class="tug-card__num">4</span><span class="tug-ex__title">The Individualist<small>Virtue: Equanimity</small></span></summary>
+            <div class="tug-ex__body">
+              <p class="tug-ex__fix"><strong>Fixation:</strong> Envy, sense of lack, self-staging</p>
+              <p><strong>Example:</strong> You scroll through Instagram, see a colleague on a reading tour and think: “Great. She gets everything. And me? Left behind again.”</p>
+              <p class="tug-ex__hold"><strong>Pausing:</strong> <em>“Ah … there is that feeling again that something is missing. It is only a feeling, not the truth.”</em></p>
+              <p><strong>Effect:</strong> You feel the pull in the heart but do not go into it; you stay conscious. And you notice: you are complete. Now.</p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#4a7f91;">
+            <summary><span class="tug-card__num">5</span><span class="tug-ex__title">The Observer<small>Virtue: Non-attachment · Detachment</small></span></summary>
+            <div class="tug-ex__body">
+              <p class="tug-ex__fix"><strong>Fixation:</strong> Withdrawal, stinginess with energy, isolation</p>
+              <p><strong>Example:</strong> A friend calls and wants to talk. You have no nerves for it. Your first impulse: don't pick up, you “need your peace”.</p>
+              <p class="tug-ex__hold"><strong>Pausing:</strong> <em>“Wait, what am I avoiding right now? Closeness? Loss of energy? Or is it simply fear of being overwhelmed?”</em></p>
+              <p><strong>Effect:</strong> You notice the inner defense. Perhaps you call back, perhaps not, but you decide freely and not out of reflex.</p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#8a6a3f;">
+            <summary><span class="tug-card__num">6</span><span class="tug-ex__title">The Loyalist<small>Virtue: Courage</small></span></summary>
+            <div class="tug-ex__body">
+              <p class="tug-ex__fix"><strong>Fixation:</strong> Fear, doubt, control</p>
+              <p><strong>Example:</strong> You are supposed to make a decision, such as changing jobs. You have thought it through many times, but you don't dare.</p>
+              <p class="tug-ex__hold"><strong>Pausing:</strong> <em>“I am waiting for security. But it will not come. I can go anyway.”</em></p>
+              <p><strong>Effect:</strong> Courage is there, quiet but there. You feel the fear and go on anyway. No security, but clarity.</p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#d98c3a;">
+            <summary><span class="tug-card__num">7</span><span class="tug-ex__title">The Enthusiast<small>Virtue: Sobriety · Temperance</small></span></summary>
+            <div class="tug-ex__body">
+              <p class="tug-ex__fix"><strong>Fixation:</strong> Distraction, planning, avoidance of pain</p>
+              <p><strong>Example:</strong> You received an unpleasant message. Your impulse: plan something nice, distract, Netflix, chat, book a trip.</p>
+              <p class="tug-ex__hold"><strong>Pausing:</strong> <em>“Wait. I am fleeing right now. What if I simply stay still and feel what is there?”</em></p>
+              <p><strong>Effect:</strong> You stay. It hurts, and it passes. No escape route, but inner space arises.</p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#a5433a;">
+            <summary><span class="tug-card__num">8</span><span class="tug-ex__title">The Challenger<small>Virtue: Innocence · Purity of heart</small></span></summary>
+            <div class="tug-ex__body">
+              <p class="tug-ex__fix"><strong>Fixation:</strong> Control, hardness, dominance</p>
+              <p><strong>Example:</strong> In a discussion someone contradicts you. You immediately want to push back and sharpen the tone.</p>
+              <p class="tug-ex__hold"><strong>Pausing:</strong> <em>“I feel attacked. But perhaps I can simply listen for once.”</em></p>
+              <p><strong>Effect:</strong> You stay strong but soft. You don't have to fight, you can connect. You lose nothing, you gain closeness.</p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#6b8f5a;">
+            <summary><span class="tug-card__num">9</span><span class="tug-ex__title">The Peacemaker<small>Virtue: Right action · Drive</small></span></summary>
+            <div class="tug-ex__body">
+              <p class="tug-ex__fix"><strong>Fixation:</strong> Self-forgetting, sloth, avoidance of conflict</p>
+              <p><strong>Example:</strong> You notice you have again been absorbed in the internet for hours. Your tasks pile up. You think: “Oh, later …”</p>
+              <p class="tug-ex__hold"><strong>Pausing:</strong> <em>“I am avoiding again. I am numbing myself. But now I am here. I can decide now.”</em></p>
+              <p><strong>Effect:</strong> You get up, just like that, without drama, and set off. Small step, big effect.</p>
+            </div>
+          </details>
+        </div>
+        <div class="tug-fazit"><h2>Conclusion</h2><p>You do not have to become anything. You only have to stop constantly being someone. In stillness the recognizing happens by itself, and with the recognizing begins the change, the true blossoming into who you really are, beyond your psychological defense mechanisms and learned beliefs. This is not a technique. It is the radically simple, radically uncomfortable path to freedom.</p><p>Transcendence, that is, awareness toward life, begins with the first conscious pause. You do not have to do anything special, only interrupt what is automatic. Then you see, and conscious seeing alone is already change. It always happens only in the present, in the here and now, the one space that is real. Everything else is thoughts, feelings and distorted perceptions as reflections of our fixation that feel deceptively real.</p></div>
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("leidenschaft-und-heilung", "The 9 passions behind these avoided emotions &ndash; with paths of healing from homeopathic practice.", "Leidenschaft und Heilung")}
+      ${bookTip("hinter-der-leidenschaft", "Behind passion, the deeper wounds – the path to transformation of the Enneagram type.", "Hinter der Leidenschaft – die neun Wunden")}
+      ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Seven practical steps toward getting closer to yourself – no detours, no sugarcoating, direct and clear.", "7 Wege zu Dir selbst")}
+      ${bookTip("nichts-und-alles", "A quiet book on looking inward &ndash; awareness, space, and inner freedom.", "Nichts und Alles")}
+      ${bookTip("der-raum-hinter-allem", "The space that remains when identification recedes – a meditative work on consciousness and freedom.", "Der Raum hinter allem")}
+      ${bookTip("sei-still-und-wisse-ich-bin-gott", "A spiritual book on the deepest stillness within us and the experience of transcendence beyond all concepts.", "Sei still und wisse – ich bin Gott!")}
+      ${bookTip("heilung-als-erinnerung", "Healing as remembrance of what we fundamentally are – beyond symptom and diagnosis.", "Heilung als Erinnerung")}
+      ${bookTip("meta-intelligenz", "Meta-Intelligence – the intelligence that unites all other intelligences and unlocks the full potential of consciousness.", "Meta-Intelligence")}
+      ${bookTip("meta-intelligenz-das-hoerbuch", "Meta-Intelligence as an audiobook – ideal for on the go or for meditative listening.", "Meta-Intelligenz (Hörbuch)")}
+      ${relatedLinks([
+        {route:"claudio-naranjo-lehrer", label:"Claudio Naranjo: Teacher and Pioneer of the Subtypes"},
+        {route:"david-daniels-gesetze", label:"David Daniels: The Three Energy–Attention Laws"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}
+
+function kindheitspraegungenPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("kindheitspraegungen-enneagramm")}
+      <div class="page-content tug-page">
+        <p class="eyebrow">Knowledge · Childhood and Imprinting</p>
+        <h1 class="section-title">Autobiographical Key Themes and Childhood Imprints</h1>
+        <p class="lead-small">Temperament comes into the world with us; imprinting is added to it. Here is what research says about innate dispositions, and how an early wound turns an open child into an Enneagram type.</p>
+        <figure class="tug-hero"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/kindheitspraegungen-deckblatt.jpg" alt="Chapter 6: Autobiographical Key Themes and Childhood Imprints" loading="lazy" /></figure>
+        <h2 class="vb-section tug-h2">Innate temperament: the study by Thomas, Chess and Birch</h2>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">Alexander Thomas (1914–2003), Stella Chess (1914–2007) and Herbert G. Birch (1918–1973) described in 1970, in a 14-year study of 141 children from 85 families, the innate temperament of infants, toddlers and children. They identified nine central temperaments as innate personality styles. The striking thing: these are directly related to the nine personality styles of the Enneagram. The researchers were professors of child psychiatry and pediatrics at New York University School of Medicine (Thomas, Chess) and at Albert Einstein College of Medicine in New York (Birch) and had no knowledge of the Enneagram.</p>
+        <figure class="tug-hero"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/kindheitspraegungen-uebersicht.jpg" alt="The childhood temperaments according to Thomas/Chess and the nine Enneagram types (overview)." loading="lazy" /><figcaption>The childhood temperaments according to Thomas/Chess and the nine Enneagram types (overview).</figcaption></figure>
+        <h2 class="vb-section tug-h2">Nine temperaments, nine types</h2>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">In the overview each type is assigned to a temperament and linked to a form of energy: exuberant and outward, blocked and suppressed, or transformed and turned toward the self, each in gut, heart or head.</p>
+        <div class="tug-grid">
+          <article class="tug-card" style="--tc:#607468;">
+            <div class="tug-card__top"><span class="tug-card__num">1</span><span class="tug-card__role">Rhythmicity · regularity</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion">Anger</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">seeks perfection and completeness</span></div>
+            <p class="tug-card__text">Wish for regularity, evenness, order, structure, rhythm, orientation and repetition; fear of change that is too fast.</p>
+            <p class="kp-energy">Gut energy, transformed and turned toward the self</p>
+          </article>
+          <article class="tug-card" style="--tc:#c47f6b;">
+            <div class="tug-card__top"><span class="tug-card__num">2</span><span class="tug-card__role">Approval · withdrawal</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion">Pride</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">seeks love and being loved</span></div>
+            <p class="tug-card__text">Phases of open, warm response to the new alternate with phases of negative response and withdrawal.</p>
+            <p class="kp-energy">Heart energy, exuberant, active and directed outward</p>
+          </article>
+          <article class="tug-card" style="--tc:#c9a84c;">
+            <div class="tug-card__top"><span class="tug-card__num">3</span><span class="tug-card__role">High activity level</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion">Vanity</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">seeks success and achievement</span></div>
+            <p class="tug-card__text">High motor activity: the child cannot sit still and shows markedly more activity than any other child in the study.</p>
+            <p class="kp-energy">Heart energy, blocked and suppressed</p>
+          </article>
+          <article class="tug-card" style="--tc:#7a5c8a;">
+            <div class="tug-card__top"><span class="tug-card__num">4</span><span class="tug-card__role">Labile quality of mood</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion">Envy</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">seeks individuality and uniqueness</span></div>
+            <p class="tug-card__text">A high degree of emotional behavior: the toddler expresses the most varied emotions, and mood changes quickly and capriciously.</p>
+            <p class="kp-energy">Heart energy, transformed and turned toward the self</p>
+          </article>
+          <article class="tug-card" style="--tc:#4a7f91;">
+            <div class="tug-card__top"><span class="tug-card__num">5</span><span class="tug-card__role">Low threshold of responsiveness</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion">Avarice</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">seeks knowledge and wisdom</span></div>
+            <p class="tug-card__text">It does not take much to stimulate the child, as if it had very thin skin: too sensitive for this world, with quick emotional withdrawal.</p>
+            <p class="kp-energy">Head energy, exuberant, active and directed outward</p>
+          </article>
+          <article class="tug-card" style="--tc:#8a6a3f;">
+            <div class="tug-card__top"><span class="tug-card__num">6</span><span class="tug-card__role">Attention span persistence</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion">Fear</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">seeks safety and trust</span></div>
+            <p class="tug-card__text">A high ability to sustain concentration and to look out for what might happen: watchfulness and discipline of mind.</p>
+            <p class="kp-energy">Head energy, blocked and suppressed</p>
+          </article>
+          <article class="tug-card" style="--tc:#d98c3a;">
+            <div class="tug-card__top"><span class="tug-card__num">7</span><span class="tug-card__role">Distractibility</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion">Gluttony</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">seeks joy of life, lightness and happiness</span></div>
+            <p class="tug-card__text">Response to outer influences: the direction of attention and behavior changes constantly, quickly and suddenly.</p>
+            <p class="kp-energy">Head energy, transformed and turned toward the self</p>
+          </article>
+          <article class="tug-card" style="--tc:#a5433a;">
+            <div class="tug-card__top"><span class="tug-card__num">8</span><span class="tug-card__role">Intensity of response</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion">Lust · greed</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">seeks power and control</span></div>
+            <p class="tug-card__text">A high energy level in response to stimuli, regardless of their quality and direction.</p>
+            <p class="kp-energy">Gut energy, exuberant, active and directed outward</p>
+          </article>
+          <article class="tug-card" style="--tc:#6b8f5a;">
+            <div class="tug-card__top"><span class="tug-card__num">9</span><span class="tug-card__role">Adaptability</span></div>
+            <div class="tug-flow"><span class="tug-pill tug-pill--passion">Sloth</span><span class="tug-arrow" aria-hidden="true">→</span><span class="tug-pill tug-pill--virtue">seeks harmony and peace</span></div>
+            <p class="tug-card__text">The ease of adapting to the stimuli of the environment, right up to merging in an osmotic personality process.</p>
+            <p class="kp-energy">Gut energy, blocked and suppressed</p>
+          </article>
+        </div>
+        <h2 class="vb-section tug-h2">How the child became a type</h2>
+        <p style="font-size:0.98rem;line-height:1.75;margin:0 0 0.9rem;">The author's nine stories follow a common pattern. They are archetypal narratives, not diagnoses: the experience of an individual person is always more multilayered.</p>
+        <ol class="kp-steps"><li><strong>The open child</strong><span>comes into the world with a basic disposition and an openness</span></li><li><strong>The wound</strong><span>an experience in which a need goes unanswered</span></li><li><strong>The strategy</strong><span>the child finds a way to cope</span></li><li><strong>The price</strong><span>the strategy turns into an autopilot and costs something real</span></li></ol>
+        <div class="tug-ex-grid">
+          <details class="tug-ex" style="--tc:#607468;">
+            <summary><span class="tug-card__num">1</span><span class="tug-ex__title">Type 1<small>Anger</small></span></summary>
+            <div class="tug-ex__body">
+              <p><strong>The child:</strong> Spontaneous and light; it experienced the completeness of life and wanted to appreciate it.</p>
+              <p><strong>The wound:</strong> Early on the feeling of being criticized and judged, and the pressure to conform.</p>
+              <p><strong>The strategy:</strong> Getting ahead of the judgment: monitoring and improving oneself, internalizing others' standards, always being good and doing the right thing.</p>
+              <p><strong>What was lost:</strong> Contact with instincts, feelings, creativity and spontaneity. The anger is hidden and comes out only as stamping or sarcasm; he ‘falls asleep into his own goodness’.</p>
+              <p class="tug-ex__hold"><strong>The image at the end:</strong> <em>a polite, proper, rule-following zombie</em></p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#c47f6b;">
+            <summary><span class="tug-card__num">2</span><span class="tug-ex__title">Type 2<small>Pride</small></span></summary>
+            <div class="tug-ex__body">
+              <p><strong>The child:</strong> Happy and full of love, sensitive, with a great need for affection.</p>
+              <p><strong>The wound:</strong> Needs went unmet: no one fed it when it was hungry, and no one comforted it when it was hurt.</p>
+              <p><strong>The strategy:</strong> Showing love in order to receive love: attuning to others' feelings, giving, pleasing and asking nothing for oneself, out of fear of a no.</p>
+              <p><strong>What was lost:</strong> His own needs and feelings. He begins to steer unnoticed, cannot say no and can no longer accept what is offered to him as love.</p>
+              <p class="tug-ex__hold"><strong>The image at the end:</strong> <em>a friendly, generous, helpful zombie</em></p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#c9a84c;">
+            <summary><span class="tug-card__num">3</span><span class="tug-ex__title">Type 3<small>Vanity</small></span></summary>
+            <div class="tug-ex__body">
+              <p><strong>The child:</strong> Soft, emotional and open-hearted, with a pure, genuine heart.</p>
+              <p><strong>The wound:</strong> It was praised for its achievements, not for its being; when it was sad or hurt, no one noticed. It felt lonely.</p>
+              <p><strong>The strategy:</strong> Sensing what others value and becoming exactly that: a chameleon that uses success as a substitute for love and must never stop.</p>
+              <p><strong>What was lost:</strong> The sense of who he really is, and his real feelings. In the end he lies exhausted in bed for two weeks and then returns all the same to the full appointment calendar.</p>
+              <p class="tug-ex__hold"><strong>The image at the end:</strong> <em>a successful, attractive, impressive zombie</em></p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#7a5c8a;">
+            <summary><span class="tug-card__num">4</span><span class="tug-ex__title">Type 4<small>Envy</small></span></summary>
+            <div class="tug-ex__body">
+              <p><strong>The child:</strong> Felt connected and valued by its parents.</p>
+              <p><strong>The wound:</strong> A sibling was born, and he was no longer the center. He read it as his own fault.</p>
+              <p><strong>The strategy:</strong> Winning the connection back by showing uniqueness or suffering: he draws, sings sad songs, tells of his pain. Sadness becomes a familiar friend.</p>
+              <p><strong>What was lost:</strong> The sense of deserving love. He cannot accept it and pushes people away so that they cannot leave him.</p>
+              <p class="tug-ex__hold"><strong>The image at the end:</strong> <em>an authentic, compassionate, emotional zombie</em></p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#4a7f91;">
+            <summary><span class="tug-card__num">5</span><span class="tug-ex__title">Type 5<small>Avarice</small></span></summary>
+            <div class="tug-ex__body">
+              <p><strong>The child:</strong> Came to connect deeply with everything.</p>
+              <p><strong>The wound:</strong> The caregivers intruded when it wanted to be alone and were missing when it needed closeness.</p>
+              <p><strong>The strategy:</strong> Withdrawing and experiencing being alone as safety; thinking, learning and researching become home. He becomes self-sufficient, collects knowledge and avoids the spotlight.</p>
+              <p><strong>What was lost:</strong> The ability for closeness and awareness of his need for connection. A dream shows him his love for people, but the next day he carries on as usual, alone.</p>
+              <p class="tug-ex__hold"><strong>The image at the end:</strong> <em>a private, withdrawn, quiet zombie</em></p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#8a6a3f;">
+            <summary><span class="tug-card__num">6</span><span class="tug-ex__title">Type 6<small>Fear</small></span></summary>
+            <div class="tug-ex__body">
+              <p><strong>The child:</strong> Courageous, lively and free; it did what it wanted without much thought.</p>
+              <p><strong>The wound:</strong> Frightening experiences (a mother who did not pick it up; a film), plus pressure to perform at school and growing self-doubt.</p>
+              <p><strong>The strategy:</strong> Anticipating the worst possibilities in thought, a first-aid kit, studying harder and watching people closely to see whether they have something up their sleeve.</p>
+              <p><strong>What was lost:</strong> Lightness and trust. He is paralyzed by fears and doubts, and planning for the worst case becomes the main occupation.</p>
+              <p class="tug-ex__hold"><strong>The image at the end:</strong> <em>a cautious, diligent, safety-conscious zombie</em></p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#d98c3a;">
+            <summary><span class="tug-card__num">7</span><span class="tug-ex__title">Type 7<small>Gluttony</small></span></summary>
+            <div class="tug-ex__body">
+              <p><strong>The child:</strong> Curious, wondering, with true joy in discovery and deep concentration.</p>
+              <p><strong>The wound:</strong> A bee sting; the father got angry (‘disappear’), the mother had ‘no time’. The pain was too much.</p>
+              <p><strong>The strategy:</strong> Withdrawing into the imagination and directing attention to what is pleasant. When the best friend moves away, he is already thinking of new friends.</p>
+              <p><strong>What was lost:</strong> True joy, which also knows sorrow and depth. His happiness stays superficial because he avoids pain.</p>
+              <p class="tug-ex__hold"><strong>The image at the end:</strong> <em>a very happy, high-spirited zombie</em></p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#a5433a;">
+            <summary><span class="tug-card__num">8</span><span class="tug-ex__title">Type 8<small>Lust · greed</small></span></summary>
+            <div class="tug-ex__body">
+              <p><strong>The child:</strong> Sensitive, sweet and innocent, with plenty of energy and hunger to learn.</p>
+              <p><strong>The wound:</strong> It needed protection and no one was there; older children hurt it. It learned: I must look after myself.</p>
+              <p><strong>The strategy:</strong> Becoming big and strong quickly, spreading fear through sheer presence, using anger as energy, protecting the weak and needing no one.</p>
+              <p><strong>What was lost:</strong> Sensitivity and innocence, because they remind him how small and weak he once was. Beneath the mask of strength remains a quiet loneliness.</p>
+              <p class="tug-ex__hold"><strong>The image at the end:</strong> <em>an energetic, unstoppable, unapproachable zombie</em></p>
+            </div>
+          </details>
+          <details class="tug-ex" style="--tc:#6b8f5a;">
+            <summary><span class="tug-card__num">9</span><span class="tug-ex__title">Type 9<small>Sloth</small></span></summary>
+            <div class="tug-ex__body">
+              <p><strong>The child:</strong> Felt connected with everything and everyone, in peace and love.</p>
+              <p><strong>The wound:</strong> It woke up alone and separate; its protest went unheard, the others were louder and more important.</p>
+              <p><strong>The strategy:</strong> Adapting and going along, attending to others' wishes, avoiding conflict and staying inwardly calm and outwardly comfortable.</p>
+              <p><strong>What was lost:</strong> His own opinion, his own wishes and his own voice. He walks through life as if asleep, and the anger stays unconscious.</p>
+              <p class="tug-ex__hold"><strong>The image at the end:</strong> <em>a peaceful, carefree, comfort-loving zombie</em></p>
+            </div>
+          </details>
+        </div>
+        <div class="tug-fazit"><p>At the end of each story stands the same image: the child has become a ‘zombie’, someone who functions automatically, even very well in his own way, but no longer lives from his own center. This is not a verdict but a description of the autopilot.</p><p class="kp-note">Anyone who wants to work with their own imprints does so best with therapeutic support. The stories describe patterns, not individual experience.</p></div>
+      </div>
+      ${bookTip("der-code-deiner-persoenlichkeit", "How the Enneagram type arises – and what it reveals about our deepest imprints.", "Der Code deiner Persönlichkeit")}
+      ${bookTip("hinter-der-leidenschaft", "The nine wounds of the Enneagram – an in-depth analysis of the primal wound behind each passion, with concrete paths of healing for all 9 types.", "Hinter der Leidenschaft")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("heilung-als-erinnerung", "Healing not as repair but as remembering what we actually are – a profound look at health and wholeness.", "Heilung als Erinnerung")}
+      ${bookTip("du-bist-nicht-dein-zweifel", "Recognizing and letting go of core beliefs – a guide to inner freedom for all 9 types.", "Du bist nicht dein Zweifel")}
+      ${bookTip("leidenschaft-und-heilung", "The 9 passions behind these avoided emotions &ndash; with paths of healing from homeopathic practice.", "Leidenschaft und Heilung")}
+      ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Seven practical steps toward getting closer to yourself – no detours, no sugarcoating, direct and clear.", "7 Wege zu Dir selbst")}
+      ${bookTip("nichts-und-alles", "A quiet book on looking inward &ndash; awareness, space, and inner freedom.", "Nichts und Alles")}
+      ${bookTip("der-raum-hinter-allem", "The space that remains when identification recedes – a meditative work on consciousness and freedom.", "Der Raum hinter allem")}
+      ${bookTip("sei-still-und-wisse-ich-bin-gott", "A spiritual book on the deepest stillness within us and the experience of transcendence beyond all concepts.", "Sei still und wisse – ich bin Gott!")}
+      ${bookTip("meta-intelligenz", "Meta-Intelligence – the intelligence that unites all other intelligences and unlocks the full potential of consciousness.", "Meta-Intelligence")}
+      ${bookTip("meta-intelligenz-das-hoerbuch", "Meta-Intelligence as an audiobook – ideal for on the go or for meditative listening.", "Meta-Intelligenz (Hörbuch)")}
+      ${relatedLinks([
+        {route:"kindheit", label:"The Childhood Traumas of the 9 Types"},
+        {route:"kindliche-temperamente", label:"Diagram: Childhood Temperaments"},
+        {route:"kindheitsperspektiven", label:"Diagram: Childhood Perspectives"},
+        {route:"wunden", label:"Wounds & Protective Strategies"},
+        {route:"wann-entsteht-der-typ", label:"When Does the Type Arise?"},
+        {route:"tugenden-enneagramm", label:"The Virtues in the Enneagram"},
       ])}
     </div>
   `);
@@ -40703,7 +41689,7 @@ function nichtRealeVorstellungenPage() {
 
         <h2 style="font-size:1.05rem;font-weight:700;margin:2rem 0 1rem;color:var(--ink);">How the Image Shows in Life Stories</h2>
         <p class="vb-intro">In the portraits of Famous Personalities one can read how the main idea of a type returns in a life thread, outwardly in events, inwardly in a life theme. According to the author's observation the image of the wilderness shows most purely in the self-preservation Five, in whom it is about pure self-preservation. Sections exist for these portraits:</p>
-        <ul style="margin:0.6rem 0 0.6rem 1.1rem;line-height:1.8;"><li><strong>Type 1:</strong> <a href="#beruehmte-marcel-reich-ranicki">Marcel Reich-Ranicki</a>, <a href="#beruehmte-steve-jobs">Steve Jobs</a></li><li><strong>Type 2:</strong> <a href="#beruehmte-jesus-christus">Jesus Christus</a>, <a href="#beruehmte-elvis-presley">Elvis Presley</a></li><li><strong>Type 3:</strong> <a href="#beruehmte-harry-houdini">Harry Houdini</a>, <a href="#beruehmte-william-shakespeare">William Shakespeare</a></li><li><strong>Type 4:</strong> <a href="#beruehmte-leonard-cohen">Leonard Cohen</a>, <a href="#beruehmte-hippokrates-von-kos">Hippokrates von Kos</a></li><li><strong>Type 5:</strong> <a href="#beruehmte-juliane-koepcke">Juliane Koepcke</a>, <a href="#beruehmte-jean-jacques-rousseau">Jean-Jacques Rousseau</a>, <a href="#beruehmte-hermann-hesse">Hermann Hesse</a>, <a href="#beruehmte-edward-snowden">Edward Snowden</a>, <a href="#beruehmte-hannah-arendt">Hannah Arendt</a>, <a href="#beruehmte-lise-meitner">Lise Meitner</a>, <a href="#beruehmte-blaise-pascal">Blaise Pascal</a>, <a href="#beruehmte-franz-kafka">Franz Kafka</a></li><li><strong>Type 6:</strong> <a href="#beruehmte-fjodor-dostojewski">Fjodor Dostojewski</a></li><li><strong>Type 7:</strong> <a href="#beruehmte-jeanne-marie-guyon">Madame Guyon</a></li><li><strong>Type 8:</strong> <a href="#beruehmte-gerhard-schroeder">Gerhard Schröder</a>, <a href="#beruehmte-helmut-kohl">Helmut Kohl</a>, <a href="#beruehmte-franz-josef-strauss">Franz Josef Strau&szlig;</a>, <a href="#beruehmte-john-wayne">John Wayne</a></li><li><strong>Type 9:</strong> <a href="#beruehmte-eleanor-roosevelt">Eleanor Roosevelt</a></li></ul>
+        <ul style="margin:0.6rem 0 0.6rem 1.1rem;line-height:1.8;"><li><strong>Type 1:</strong> <a href="#beruehmte-marcel-reich-ranicki">Marcel Reich-Ranicki</a>, <a href="#beruehmte-steve-jobs">Steve Jobs</a></li><li><strong>Type 2:</strong> <a href="#beruehmte-jesus-christus">Jesus Christus</a>, <a href="#beruehmte-elvis-presley">Elvis Presley</a></li><li><strong>Type 3:</strong> <a href="#beruehmte-harry-houdini">Harry Houdini</a>, <a href="#beruehmte-william-shakespeare">William Shakespeare</a></li><li><strong>Type 4:</strong> <a href="#beruehmte-leonard-cohen">Leonard Cohen</a>, <a href="#beruehmte-hippokrates-von-kos">Hippocrates of Kos</a></li><li><strong>Type 5:</strong> <a href="#beruehmte-juliane-koepcke">Juliane Koepcke</a>, <a href="#beruehmte-jean-jacques-rousseau">Jean-Jacques Rousseau</a>, <a href="#beruehmte-hermann-hesse">Hermann Hesse</a>, <a href="#beruehmte-edward-snowden">Edward Snowden</a>, <a href="#beruehmte-hannah-arendt">Hannah Arendt</a>, <a href="#beruehmte-lise-meitner">Lise Meitner</a>, <a href="#beruehmte-blaise-pascal">Blaise Pascal</a>, <a href="#beruehmte-franz-kafka">Franz Kafka</a></li><li><strong>Type 6:</strong> <a href="#beruehmte-fjodor-dostojewski">Fjodor Dostojewski</a></li><li><strong>Type 7:</strong> <a href="#beruehmte-jeanne-marie-guyon">Madame Guyon</a></li><li><strong>Type 8:</strong> <a href="#beruehmte-gerhard-schroeder">Gerhard Schröder</a>, <a href="#beruehmte-helmut-kohl">Helmut Kohl</a>, <a href="#beruehmte-franz-josef-strauss">Franz Josef Strau&szlig;</a>, <a href="#beruehmte-john-wayne">John Wayne</a></li><li><strong>Type 9:</strong> <a href="#beruehmte-eleanor-roosevelt">Eleanor Roosevelt</a></li></ul>
 
         <p class="vb-intro">The rubric details refer to James Tyler Kent's "Repertory of the Homœopathic Materia Medica" (digital edition by Homéopathe International; individual rubrics such as "vow" and "wilderness" appear only in later editions, not in the first edition of 1897).</p>
 
@@ -40964,11 +41950,11 @@ function aufmerksamkeitsfokusPage() {
     ${pageHeader("aufmerksamkeitsfokus")}
     <section class="narrow">
       <p class="eyebrow">Charts &middot; Focus of Attention</p>
-      <h1>Aufmerksamkeitsfokus & Blindheit der 9 Enneagrammtypen</h1>
+      <h1>Focus of Attention &amp; Blind Spots of the 9 Enneagram Types</h1>
       <p class="lead-small">Every Enneagram type unconsciously directs their focus of attention toward certain aspects of life &mdash; while fading out others. This overview shows what each type pays special attention to and what consequently remains in their blind spot.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="../assets/schaubilder/aufmerksamkeitsfokus/aufmerksamkeitsfokus.jpg"
-             alt="Aufmerksamkeitsfokus und Blindheit der 9 Enneagrammtypen"
+             alt="Focus of attention and blind spots of the 9 Enneagram types"
              class="psycho-img" />
       </div>
 
@@ -42903,7 +43889,7 @@ function freischaltPage() {
           <li><strong style="color:var(--ink);">Hundreds of charts</strong> – Enneagram, spirituality, philosophy, music & more</li>
           <li><strong style="color:var(--ink);">All 3 type tests</strong> – diagnosis, structure & motivation test with personal evaluation</li>
           <li><strong style="color:var(--ink);">Interactive learning games</strong> – Enneagram Memory, Flashcards, Compatibility Check & Growth Journal</li>
-          <li><strong style="color:var(--ink);">One-time purchase</strong> – lifetime access, constantly growing</li>
+          <li><strong style="color:var(--ink);">One-time purchase</strong> – access guaranteed for at least 5 years, constantly growing</li>
         </ul>
 
         <div class="freischalt-card__angebote" style="justify-content:center;">
@@ -45529,7 +46515,7 @@ function _stilleInit() {
 const SUBTYPE_SONGS = {
   SE1: { de: "XHB8xTxJtHY", en: "NWj3sLpqm1s" },
   SO1: { de: "eOJAkd-QohU", en: "DkkZS4FkZbA" },
-  SX1: { de: "s1AQHS_gOHg", en: "NWj3sLpqm1s" },
+  SX1: { de: "s1AQHS_gOHg", en: "oA6r5OSxR6c" },
   SE2: { de: "Gxgr9xOtKaQ", en: "OT19G0XQsak" },
   SO2: { de: "tLMBN_8wH9g", en: "SaMqeT32TmQ" },
   SX2: { de: "JCoUFccskX0", en: "aTFl_G-AE3E" },
@@ -46492,6 +47478,7 @@ function subtypeSchaubilderPage() {
     "schatten-projektionen-miasmen": schattenProjektionenMiasmenPage,
     "nicht-reale-vorstellungen": nichtRealeVorstellungenPage,
     "wahnideen-nicht-reale-vorstellungen": wahnideenNichtRealeVorstellungenPage,
+    "arzneimittelbilder-9-typen": arzneimittelbilderPage,
     "mindmap-platin": platinMindmapPage,
     "mindmap-ignatia": ignatiaMindmapPage,
     "mindmap-hyoscyamus": hyoscyamusMindmapPage,
@@ -46503,6 +47490,11 @@ function subtypeSchaubilderPage() {
     "mindmap-cannabis": cannabisMindmapPage,
     "mindmaps-single-rubriken": mindmapsUebersichtPage,
     "claudio-naranjo-lehrer": claudioNaranjoLehrerPage,
+    "david-daniels-gesetze": davidDanielsGesetzePage,
+    "tugenden-enneagramm": tugendenEnneagrammPage,
+    "enneagramm-ayurveda": enneagrammAyurvedaPage,
+    "spirituelles-enneagramm": spirituellesEnneagrammPage,
+    "kindheitspraegungen-enneagramm": kindheitspraegungenPage,
     "befreiende-fragen": befreiendeFragenPage,
     "fuehrungsstile": fuehrungsstilePage,
     "gifte-des-geistes": gifteDesGeistesPage,
@@ -46619,14 +47611,44 @@ function subtypeSchaubilderPage() {
       "beruehmte-martina-gedeck": martinaGedeckPortraitPage,
       "beruehmte-joe-vitale": joeVitalePortraitPage,
       "beruehmte-klaus-maria-brandauer": klausMariaBrandauerPortraitPage,
+      "beruehmte-mireille-mathieu": mireilleMathieuPortraitPage,
+      "beruehmte-elke-sommer": elkeSommerPortraitPage,
       "beruehmte-rosalie-thomass": rosalieThomassPortraitPage,
       "beruehmte-robbie-coltrane": robbieColtranePortraitPage,
       "beruehmte-happy-anderson": happyAndersonPortraitPage,
       "beruehmte-paul-simon": paulSimonPortraitPage,
       "beruehmte-art-garfunkel": artGarfunkelPortraitPage,
-      "beruehmte-christoph-waltz": christophWaltzPortraitPage,
+      "beruehmte-john-neumeier": johnNeumeierPortraitPage,
+      "beruehmte-sulli": sulliPortraitPage,
+      "beruehmte-rj-mitte": rjMittePortraitPage,
+      "beruehmte-emily-blunt": emilyBluntPortraitPage,
+      "beruehmte-albert-brooks": albertBrooksPortraitPage,
+      "beruehmte-karin-thaler": karinThalerPortraitPage,
+      "beruehmte-steve-mcqueen": steveMcQueenPortraitPage,
+      "beruehmte-james-dean": jamesDeanPortraitPage,
+      "beruehmte-gary-cooper": garyCooperPortraitPage,
+      "beruehmte-james-stewart": jamesStewartPortraitPage,
+      "beruehmte-mariele-millowitsch": marieleMillowitschPortraitPage,
+      "beruehmte-georg-preusse": georgPreussePortraitPage,
+      "beruehmte-james-blunt": jamesBluntPortraitPage,
+      "beruehmte-annie-lennox": annieLennoxPortraitPage,
+      "beruehmte-linda-hamilton": lindaHamiltonPortraitPage,
+      "beruehmte-maria-schaumayer": mariaSchaumayerPortraitPage,
+      "beruehmte-michele-lamy": micheleLamyPortraitPage,
+      "beruehmte-yves-saint-laurent": yvesSaintLaurentPortraitPage,
+      "beruehmte-christine-lagarde": christineLagardePortraitPage,
+      "beruehmte-gertrud-hoehler": gertrudHoehlerPortraitPage,
+      "beruehmte-rajan-sankaran": rajanSankaranPortraitPage,
+      "beruehmte-john-brown": johnBrownPortraitPage,
+      "beruehmte-heino": heinoPortraitPage,
+      "beruehmte-michael-douglas": michaelDouglasPortraitPage,
+      "beruehmte-nina-ruge": ninaRugePortraitPage,
+      "beruehmte-ayn-rand": aynRandPortraitPage,
+      "beruehmte-clint-eastwood": clintEastwoodPortraitPage,
+      "beruehmte-martha-graham": marthaGrahamPortraitPage,
+      "beruehmte-violet-jessop": violetJessopPortraitPage, "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,
-      "beruehmte-katharina-koenig": katharinaKoenigPortraitPage, "beruehmte-hong-chau": hongChauPortraitPage, "beruehmte-lance-oppenheim": lanceOppenheimPortraitPage, "beruehmte-darren-aronofsky": darrenAronofskyPortraitPage, "beruehmte-robert-mccollum": robertMcCollumPortraitPage, "beruehmte-sheila-de-liz": sheilaDeLizPortraitPage, "beruehmte-wolfgang-niedecken": wolfgangNiedeckenPortraitPage, "beruehmte-johann-lechner": johannLechnerPortraitPage, "beruehmte-hagen-rether": hagenRetherPortraitPage, "beruehmte-thylane-blondeau": thylaneBlondeauPortraitPage, "beruehmte-vitali-klitschko": vitaliKlitschkoPortraitPage, "beruehmte-wladimir-klitschko": wladimirKlitschkoPortraitPage, "beruehmte-henry-maske": henryMaskePortraitPage, "beruehmte-patrick-stewart": patrickStewartPortraitPage, "beruehmte-mike-tyson": mikeTysonPortraitPage, "beruehmte-max-schmeling": maxSchmelingPortraitPage, "beruehmte-julia-koschitz": juliaKoschitzPortraitPage, "beruehmte-dominik-krause": dominikKrausePortraitPage, "beruehmte-curtis-yarvin": curtisYarvinPortraitPage, "beruehmte-peter-thiel": peterThielPortraitPage, "beruehmte-karolina-lodyga": karolinaLodygaPortraitPage, "beruehmte-christiane-hoerbiger": christianeHoerbigerPortraitPage, "beruehmte-danielle-vasinova": danielleVasinovaPortraitPage, "beruehmte-franziska-van-almsick": franziskaVanAlmsickPortraitPage, "beruehmte-johannes-b-kerner": johannesBKernerPortraitPage, "beruehmte-joerg-pilawa": joergPilawaPortraitPage, "beruehmte-sven-platte": svenPlattePortraitPage, "beruehmte-bruce-lee": bruceLeePortraitPage, "beruehmte-falco": falcoPortraitPage, "beruehmte-sarah-paulson": sarahPaulsonPortraitPage, "beruehmte-romina-palm": rominaPalmPortraitPage, "beruehmte-roger-akelius": rogerAkeliusPortraitPage, "beruehmte-larry-sanger": larrySangerPortraitPage, "beruehmte-jimmy-wales": jimmyWalesPortraitPage, "beruehmte-juliane-koepcke": julianeKoepckePortraitPage, "beruehmte-simone-menne": simoneMennePortraitPage, "beruehmte-bradley-cooper": bradleyCooperPortraitPage, "beruehmte-richy-mueller": richyMuellerPortraitPage, "beruehmte-dagi-bee": dagiBeePortraitPage, "beruehmte-viggo-mortensen": viggoMortensenPortraitPage, "beruehmte-jon-erik-hexum": jonErikHexumPortraitPage, "beruehmte-sidney-lumet": sidneyLumetPortraitPage, "beruehmte-vicky-leandros": vickyLeandrosPortraitPage, "beruehmte-christina-plate": christinaPlatePortraitPage, "beruehmte-rolf-zuckowski": rolfZuckowskiPortraitPage, "beruehmte-atze-schroeder": atzeSchroederPortraitPage, "beruehmte-heinz-rudolf-kunze": heinzRudolfKunzePortraitPage, "beruehmte-joshua-richards": joshuaRichardsPortraitPage, "beruehmte-knossi": knossiPortraitPage, "beruehmte-rudi-carrell": rudiCarrellPortraitPage, "beruehmte-johannes-heesters": johannesHeestersPortraitPage, "beruehmte-volker-rosin": volkerRosinPortraitPage, "beruehmte-christian-kohlund": christianKohlundPortraitPage, "beruehmte-isabell-gerschke": isabellGerschkePortraitPage, "beruehmte-ulrich-selz": ulrichSelzPortraitPage, "beruehmte-andreas-gruber": andreasGruberPortraitPage, "beruehmte-duncan-haldane": duncanHaldanePortraitPage, "beruehmte-helene-spilling-odegaard": heleneSpillingOedegaardPortraitPage, "beruehmte-wietske-van-tongeren": wietskeVanTongerenPortraitPage, "beruehmte-john-travolta": johnTravoltaPortraitPage, "beruehmte-michael-greger": michaelGregerPortraitPage, "beruehmte-thomas-schmelzer": thomasSchmelzerPortraitPage, "beruehmte-milan-peschel": milanPeschelPortraitPage, "beruehmte-carlo-masala": carloMasalaPortraitPage, "beruehmte-kevin-kuehnert": kevinKuehnertPortraitPage, "beruehmte-gerald-hoerhan": geraldHoerhanPortraitPage, "beruehmte-heiko-maas": heikoMaasPortraitPage, "beruehmte-fabrice-luchini": fabriceLuchiniPortraitPage, "beruehmte-catherine-deneuve": catherineDeneuvePortraitPage, "beruehmte-6ix9ine": sixNinePortraitPage, "beruehmte-hans-sigl": hansSiglPortraitPage, "beruehmte-don-king": donKingPortraitPage, "beruehmte-arnold-schwarzenegger": arnoldSchwarzeneggerPortraitPage, "beruehmte-russell-means": russellMeansPortraitPage, "beruehmte-nick-nolte": nickNoltePortraitPage, "beruehmte-dietrich-mateschitz": dietrichMateschitzPortraitPage, "beruehmte-wolfgang-grupp": wolfgangGruppPortraitPage, "beruehmte-dany-boon": danyBoonPortraitPage, "beruehmte-wayne-dyer": wayneDyerPortraitPage, "beruehmte-auguste-rodin": augusteRodinPortraitPage, "beruehmte-harry-houdini": harryHoudiniPortraitPage, "beruehmte-ada-lovelace": adaLovelacePortraitPage, "beruehmte-camille-claudel": camilleClaudelPortraitPage, "beruehmte-charlie-chaplin": charlieChaplinPortraitPage, "beruehmte-franz-peter-tebartz-van-elst": franzPeterTebartzVanElstPortraitPage, "beruehmte-sigourney-weaver": sigourneyWeaverPortraitPage, "beruehmte-jessica-biel": jessicaBielPortraitPage, "beruehmte-justin-timberlake": justinTimberlakePortraitPage, "beruehmte-nico-rosberg": nicoRosbergPortraitPage, "beruehmte-lewis-hamilton": lewisHamiltonPortraitPage, "beruehmte-niki-lauda": nikiLaudaPortraitPage, "beruehmte-johannes-gutenberg": johannesGutenbergPortraitPage, "beruehmte-konrad-zuse": konradZusePortraitPage, "beruehmte-javier-tebas": javierTebasPortraitPage, "beruehmte-philippe-sands": philippeSandsPortraitPage, "beruehmte-sean-sherman": seanShermanPortraitPage, "beruehmte-billie-lourd": billieLourdPortraitPage, "beruehmte-ruby-true": rubyTruePortraitPage, "beruehmte-caroline-wozniacki": carolineWozniackiPortraitPage, "beruehmte-kennerly-kitt": kennerlyKittPortraitPage, "beruehmte-camille-kitt": camilleKittPortraitPage, "beruehmte-werner-ablass": wernerAblassPortraitPage, "beruehmte-hubert-benoit": hubertBenoitPortraitPage, "beruehmte-eleanor-roosevelt": eleanorRooseveltPortraitPage, "beruehmte-bruno-groening": brunoGroeningPortraitPage, "beruehmte-joel-goldsmith": joelGoldsmithPortraitPage, "beruehmte-maria-treben": mariaTrebenPortraitPage, "beruehmte-susan-polgar": susanPolgarPortraitPage, "beruehmte-jens-riewa": jensRiewaPortraitPage, "beruehmte-marleen-lohse": marleenLohsePortraitPage, "beruehmte-andrea-sawatzki": andreaSawatzkiPortraitPage, "beruehmte-senta-berger": sentaBergerPortraitPage, "beruehmte-robert-greene": robertGreenePortraitPage, "beruehmte-sofia-polgar": sofiaPolgarPortraitPage, "beruehmte-dieter-thomas-heck": dieterThomasHeckPortraitPage, "beruehmte-ramana-maharshi": ramanaMaharshiPortraitPage, "beruehmte-luke-nichols": lukeNicholsPortraitPage, "beruehmte-matthias-reim": matthiasReimPortraitPage, "beruehmte-prince-rogers-nelson": princeRogersNelsonPortraitPage, "beruehmte-gert-postel": gertPostelPortraitPage,
+      "beruehmte-katharina-koenig": katharinaKoenigPortraitPage, "beruehmte-hong-chau": hongChauPortraitPage, "beruehmte-lance-oppenheim": lanceOppenheimPortraitPage, "beruehmte-darren-aronofsky": darrenAronofskyPortraitPage, "beruehmte-robert-mccollum": robertMcCollumPortraitPage, "beruehmte-sheila-de-liz": sheilaDeLizPortraitPage, "beruehmte-wolfgang-niedecken": wolfgangNiedeckenPortraitPage, "beruehmte-johann-lechner": johannLechnerPortraitPage, "beruehmte-hagen-rether": hagenRetherPortraitPage, "beruehmte-thylane-blondeau": thylaneBlondeauPortraitPage, "beruehmte-vitali-klitschko": vitaliKlitschkoPortraitPage, "beruehmte-wladimir-klitschko": wladimirKlitschkoPortraitPage, "beruehmte-henry-maske": henryMaskePortraitPage, "beruehmte-patrick-stewart": patrickStewartPortraitPage, "beruehmte-mike-tyson": mikeTysonPortraitPage, "beruehmte-max-schmeling": maxSchmelingPortraitPage, "beruehmte-julia-koschitz": juliaKoschitzPortraitPage, "beruehmte-dominik-krause": dominikKrausePortraitPage, "beruehmte-curtis-yarvin": curtisYarvinPortraitPage, "beruehmte-peter-thiel": peterThielPortraitPage, "beruehmte-karolina-lodyga": karolinaLodygaPortraitPage, "beruehmte-christiane-hoerbiger": christianeHoerbigerPortraitPage, "beruehmte-danielle-vasinova": danielleVasinovaPortraitPage, "beruehmte-franziska-van-almsick": franziskaVanAlmsickPortraitPage, "beruehmte-johannes-b-kerner": johannesBKernerPortraitPage, "beruehmte-joerg-pilawa": joergPilawaPortraitPage, "beruehmte-sven-platte": svenPlattePortraitPage, "beruehmte-bruce-lee": bruceLeePortraitPage, "beruehmte-falco": falcoPortraitPage, "beruehmte-sarah-paulson": sarahPaulsonPortraitPage, "beruehmte-romina-palm": rominaPalmPortraitPage, "beruehmte-roger-akelius": rogerAkeliusPortraitPage, "beruehmte-larry-sanger": larrySangerPortraitPage, "beruehmte-jimmy-wales": jimmyWalesPortraitPage, "beruehmte-juliane-koepcke": julianeKoepckePortraitPage, "beruehmte-simone-menne": simoneMennePortraitPage, "beruehmte-bradley-cooper": bradleyCooperPortraitPage, "beruehmte-richy-mueller": richyMuellerPortraitPage, "beruehmte-dagi-bee": dagiBeePortraitPage, "beruehmte-viggo-mortensen": viggoMortensenPortraitPage, "beruehmte-jon-erik-hexum": jonErikHexumPortraitPage, "beruehmte-sidney-lumet": sidneyLumetPortraitPage, "beruehmte-vicky-leandros": vickyLeandrosPortraitPage, "beruehmte-christina-plate": christinaPlatePortraitPage, "beruehmte-rolf-zuckowski": rolfZuckowskiPortraitPage, "beruehmte-atze-schroeder": atzeSchroederPortraitPage, "beruehmte-heinz-rudolf-kunze": heinzRudolfKunzePortraitPage, "beruehmte-joshua-richards": joshuaRichardsPortraitPage, "beruehmte-knossi": knossiPortraitPage, "beruehmte-rudi-carrell": rudiCarrellPortraitPage, "beruehmte-johannes-heesters": johannesHeestersPortraitPage, "beruehmte-volker-rosin": volkerRosinPortraitPage, "beruehmte-christian-kohlund": christianKohlundPortraitPage, "beruehmte-isabell-gerschke": isabellGerschkePortraitPage, "beruehmte-ulrich-selz": ulrichSelzPortraitPage, "beruehmte-andreas-gruber": andreasGruberPortraitPage, "beruehmte-duncan-haldane": duncanHaldanePortraitPage, "beruehmte-helene-spilling-odegaard": heleneSpillingOedegaardPortraitPage, "beruehmte-wietske-van-tongeren": wietskeVanTongerenPortraitPage, "beruehmte-john-travolta": johnTravoltaPortraitPage, "beruehmte-michael-greger": michaelGregerPortraitPage, "beruehmte-thomas-schmelzer": thomasSchmelzerPortraitPage, "beruehmte-milan-peschel": milanPeschelPortraitPage, "beruehmte-carlo-masala": carloMasalaPortraitPage, "beruehmte-kevin-kuehnert": kevinKuehnertPortraitPage, "beruehmte-gerald-hoerhan": geraldHoerhanPortraitPage, "beruehmte-heiko-maas": heikoMaasPortraitPage, "beruehmte-fabrice-luchini": fabriceLuchiniPortraitPage, "beruehmte-catherine-deneuve": catherineDeneuvePortraitPage, "beruehmte-6ix9ine": sixNinePortraitPage, "beruehmte-hans-sigl": hansSiglPortraitPage, "beruehmte-don-king": donKingPortraitPage, "beruehmte-arnold-schwarzenegger": arnoldSchwarzeneggerPortraitPage, "beruehmte-russell-means": russellMeansPortraitPage, "beruehmte-nick-nolte": nickNoltePortraitPage, "beruehmte-dietrich-mateschitz": dietrichMateschitzPortraitPage, "beruehmte-wolfgang-grupp": wolfgangGruppPortraitPage, "beruehmte-dany-boon": danyBoonPortraitPage, "beruehmte-wayne-dyer": wayneDyerPortraitPage, "beruehmte-auguste-rodin": augusteRodinPortraitPage, "beruehmte-harry-houdini": harryHoudiniPortraitPage, "beruehmte-ada-lovelace": adaLovelacePortraitPage, "beruehmte-camille-claudel": camilleClaudelPortraitPage, "beruehmte-charlie-chaplin": charlieChaplinPortraitPage, "beruehmte-franz-peter-tebartz-van-elst": franzPeterTebartzVanElstPortraitPage, "beruehmte-john-cusack": johnCusackPortraitPage, "beruehmte-sigourney-weaver": sigourneyWeaverPortraitPage, "beruehmte-jessica-biel": jessicaBielPortraitPage, "beruehmte-justin-timberlake": justinTimberlakePortraitPage, "beruehmte-nico-rosberg": nicoRosbergPortraitPage, "beruehmte-lewis-hamilton": lewisHamiltonPortraitPage, "beruehmte-niki-lauda": nikiLaudaPortraitPage, "beruehmte-johannes-gutenberg": johannesGutenbergPortraitPage, "beruehmte-konrad-zuse": konradZusePortraitPage, "beruehmte-javier-tebas": javierTebasPortraitPage, "beruehmte-philippe-sands": philippeSandsPortraitPage, "beruehmte-sean-sherman": seanShermanPortraitPage, "beruehmte-billie-lourd": billieLourdPortraitPage, "beruehmte-ruby-true": rubyTruePortraitPage, "beruehmte-caroline-wozniacki": carolineWozniackiPortraitPage, "beruehmte-kennerly-kitt": kennerlyKittPortraitPage, "beruehmte-camille-kitt": camilleKittPortraitPage, "beruehmte-werner-ablass": wernerAblassPortraitPage, "beruehmte-hubert-benoit": hubertBenoitPortraitPage, "beruehmte-eleanor-roosevelt": eleanorRooseveltPortraitPage, "beruehmte-bruno-groening": brunoGroeningPortraitPage, "beruehmte-joel-goldsmith": joelGoldsmithPortraitPage, "beruehmte-maria-treben": mariaTrebenPortraitPage, "beruehmte-susan-polgar": susanPolgarPortraitPage, "beruehmte-jens-riewa": jensRiewaPortraitPage, "beruehmte-marleen-lohse": marleenLohsePortraitPage, "beruehmte-andrea-sawatzki": andreaSawatzkiPortraitPage, "beruehmte-senta-berger": sentaBergerPortraitPage, "beruehmte-robert-greene": robertGreenePortraitPage, "beruehmte-sofia-polgar": sofiaPolgarPortraitPage, "beruehmte-dieter-thomas-heck": dieterThomasHeckPortraitPage, "beruehmte-ramana-maharshi": ramanaMaharshiPortraitPage, "beruehmte-luke-nichols": lukeNicholsPortraitPage, "beruehmte-matthias-reim": matthiasReimPortraitPage, "beruehmte-prince-rogers-nelson": princeRogersNelsonPortraitPage, "beruehmte-gert-postel": gertPostelPortraitPage,
       "beruehmte-guenther-krabbenhoeft": guentherKrabbenhoeftPortraitPage,
       "beruehmte-dan-brown": danBrownPortraitPage,
       "beruehmte-gianna-nannini": giannaNanniniPortraitPage,
@@ -47038,7 +48060,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-nero": neroPortraitPage,
       "beruehmte-ai-weiwei": aiWeiweiPortraitPage,
       "beruehmte-fiona-harvey": fionaHarveyPortraitPage,
-      "beruehmte-carlos-santana": carlosSantanaPortraitPage,
+      "beruehmte-method-man": methodManPortraitPage, "beruehmte-carlos-santana": carlosSantanaPortraitPage,
       "beruehmte-harald-gloeockler": haraldGloeocklerPortraitPage, "beruehmte-madison-chock": madisonChockPortraitPage, "beruehmte-andre-duqum": andreDuqumPortraitPage,
       "beruehmte-harnaam-kaur": harnaamKaurPortraitPage,
       "beruehmte-ice-cube": iceCubePortraitPage,
@@ -47397,7 +48419,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-helmut-schmidt": helmutSchmidtKrankheitsportraetPage,
       "krankheitsportraets-joseph-haydn": josephHaydnKrankheitsportraetPage,
       "krankheitsportraets-enrico-caruso": enricoCarusoKrankheitsportraetPage,
-      "krankheitsportraets-brian-wilson": brianWilsonKrankheitsportraetPage, "krankheitsportraets-niki-lauda": nikiLaudaKrankheitsportraetPage, "krankheitsportraets-eleanor-roosevelt": eleanorRooseveltKrankheitsportraetPage, "krankheitsportraets-prince": princeKrankheitsportraetPage, "krankheitsportraets-william-james-sidis": williamJamesSidisKrankheitsportraetPage, "krankheitsportraets-florence-nightingale": florenceNightingaleKrankheitsportraetPage, "krankheitsportraets-camille-claudel": camilleClaudelKrankheitsportraetPage, "krankheitsportraets-edith-piaf": edithPiafKrankheitsportraetPage, "krankheitsportraets-ramana-maharshi": ramanaMaharshiKrankheitsportraetPage,
+      "krankheitsportraets-brian-wilson": brianWilsonKrankheitsportraetPage, "krankheitsportraets-niki-lauda": nikiLaudaKrankheitsportraetPage, "krankheitsportraets-wolfgang-niedecken": wolfgangNiedeckenKrankheitsportraetPage, "krankheitsportraets-robbie-coltrane": robbieColtraneKrankheitsportraetPage, "krankheitsportraets-bruce-lee": bruceLeeKrankheitsportraetPage, "krankheitsportraets-eleanor-roosevelt": eleanorRooseveltKrankheitsportraetPage, "krankheitsportraets-prince": princeKrankheitsportraetPage, "krankheitsportraets-william-james-sidis": williamJamesSidisKrankheitsportraetPage, "krankheitsportraets-florence-nightingale": florenceNightingaleKrankheitsportraetPage, "krankheitsportraets-camille-claudel": camilleClaudelKrankheitsportraetPage, "krankheitsportraets-edith-piaf": edithPiafKrankheitsportraetPage, "krankheitsportraets-ramana-maharshi": ramanaMaharshiKrankheitsportraetPage,
       "krankheitsportraets-john-gotti": johnGottiKrankheitsportraetPage,
       "krankheitsportraets-jordan-peterson": jordanPetersonKrankheitsportraetPage,
       "krankheitsportraets-hundertwasser": hundertwasserKrankheitsportraetPage,
@@ -48637,4 +49659,4 @@ function _switchLangVoice(evt, url, audioFile) {
 }
 
 // Hilfsfunktionen für die nachgeladenen Porträt-Dateien (statt zirkulärem Import von dieser Datei)
-window.__kh = { psychogrammDaten, animalResearcherMatchBlock, bookTip, pageHeader, relatedLinks, shell, tierAvatarLeft, tierAvatarTop };
+window.__kh = { songTieferMasken, psychogrammDaten, animalResearcherMatchBlock, bookTip, pageHeader, relatedLinks, shell, tierAvatarLeft, tierAvatarTop };

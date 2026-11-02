@@ -1649,6 +1649,7 @@ export function woodyAllenPortraitPage() {
         {route:"beruehmte-gerald-hoerhan", label:"Portrait: Gerald H\u00f6rhan (SP6w7)"},
         {route:"beruehmte-kevin-kuehnert", label:"Portrait: Kevin K\u00fchnert (SP6w7)"},
         {route:"beruehmte-thomas-schmelzer", label:"Portrait: Thomas Schmelzer (SO5w6)"},
+        {route:"beruehmte-albert-brooks", label:"Portrait: Albert Brooks (SO6w7)"},
       ])}
     </div>
   `);
@@ -2313,7 +2314,7 @@ export function leonGoretzkaPortraitPage() {
         {route:"subtype/so3", label:"SO3 – The Cheetah: subtype profile"},
         {route:"beruehmte-pedro-alonso", label:"Portrait: Pedro Alonso (SO3w4)"},
         {route:"beruehmte-virgil-van-dijk", label:"Portrait: Virgil van Dijk (SO3w2)"},
-        {route:"beruehmte-george-vithoulkas", label:"Portrait: Prof. George Vithoulkas (SO3w4)"},
+        {route:"beruehmte-george-vithoulkas", label:"Portrait: Prof. George Vithoulkas (SO5w4)"},
         {route:"beruehmte-franziska-van-almsick", label:"Portrait: Franziska van Almsick (SO3w4)"},
         {route:"beruehmte-bruce-lee", label:"Portrait: Bruce Lee (SO3w4)"},
       ])}
@@ -2603,6 +2604,7 @@ export function charlieChaplinPortraitPage() {
         {route:"beruehmte-prince-rogers-nelson", label:"Portrait: Prince Rogers Nelson (SX4w3) – same subtype and wing, stage and control"},
         {route:"beruehmte-voltaire", label:"Portrait: Voltaire (SX4w3) – same subtype, satire against the powerful"},
         {route:"krankheitsportraets-freddie-mercury", label:"Illness portrait: Freddie Mercury (SX4w3)"},
+        {route:"beruehmte-james-dean", label:"Portrait: James Dean (SX4w3)"},
       ])}
     </div>
   `);
@@ -2898,6 +2900,7 @@ export function hongChauPortraitPage() {
         {route:"beruehmte-susan-polgar", label:"Portrait: Susan Polgár (SP3w2)"},
         {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SP3w2)"},
         {route:"beruehmte-andre-agassi", label:"Portrait: André Agassi (SP3w2)"},
+        {route:"beruehmte-sulli", label:"Portrait: Sulli (SP3w2)"},
       ])}
     </div>
   `);
@@ -3041,6 +3044,218 @@ export function rominaPalmPortraitPage() {
         {route:"beruehmte-johannes-b-kerner", label:"Portrait: Johannes B. Kerner (SO3w2)"},
         {route:"beruehmte-thylane-blondeau", label:"Portrait: Thylane Blondeau (SX3w4)"},
             ])}
+    </div>
+  `);
+}
+
+export function rjMittePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-rj-mitte-portrait.jpg" alt="RJ Mitte – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">RJ Mitte</p>
+        <p class="krim-portrait-typ">SX2w3 &middot; Sexual Type 2 with a Three wing</p>
+        <p class="krim-portrait-subtitle">American actor (Walter White Jr. in ‘Breaking Bad’), 1992&ndash;2026 &ndash; animal counterpart: camel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The camel: built for the long stretch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>camel</strong> is no animal of the short sprint; it carries over long distances and stays calm doing so. RJ Mitte was born Roy Frank Mitte III on 21 August 1992 in Jackson, Mississippi, after an emergency C-section in which he was not breathing; permanent brain damage remained. A few weeks later he was adopted, and at three he was diagnosed with cerebral palsy. As a child his legs were in casts for six months and he used leg braces and crutches.</p>
+          <p class="vb-intro">He grew up mainly with his mother, alternating between Lafayette, Louisiana, and Austin, Texas; his first language was Spanish because his mother had hired a Spanish-only babysitter. After a car accident left his mother paralyzed, he took on financial responsibility for the family at 13. At school he was bullied according to the accounts, and on one occasion his hand was broken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Two: moving toward the other</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo named the sexual Two ‘Aggressiveness/Seduction’, meaning an active moving toward the other that closes the distance. In Mitte this can be linked to the directness with which he stepped into public life as a teenager: in 2006 he moved to Los Angeles with his family, began with extra roles, including on ‘Hannah Montana’, and took acting lessons. Someone who carries responsibility that early learns to attune to people and win them over.</p>
+          <p class="vb-intro">The role that made him known was Walter White Jr. in ‘Breaking Bad’ (2008 to 2013), a boy with cerebral palsy. Series creator Vince Gilligan had based the character on a friend with the same condition. Viewers met a teenager who carried his disability without self-pity, and Mitte was not cast there as an outsider but brought his own experience. Variety called his performance, according to Wikipedia, ‘a breakthrough for disability representation’.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three wing: visibility, achievement, mission</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three wing (w3)</strong> gives the Two drive and a sense for impact. In Mitte this can be seen in the way he used his fame: in 2013 he received the Screen Actors Guild's Harold Russell Award for the role, he was a spokesman for actors with disabilities, from 2014 an ambassador for Shriners Children's, in 2015 for United Cerebral Palsy and president of the Mitte Foundation, founded by his grandparents and promoting inclusion.</p>
+          <p class="vb-intro">That the impact mattered to him and at the same time became a burden shows in his remark about the role: it had set ‘really high standards that I can never meet’. A Two with a Three wing wants to live up to expectations even when they lie unreachably high.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: more than one role</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Besides ‘Breaking Bad’, Mitte appeared in ‘Switched at Birth’ (2014), in the films ‘Who's Driving Doug’ (2016), ‘Time Share’ (2018), ‘Standing Up for Sunny’ (2019), ‘The Oak Room’ (2020), ‘Triumph’ (2021, as executive producer), ‘The Unseen’ (2023) and ‘Westhampton’ (2025), and in the series ‘The Guardians of Justice’ (2022). In 2014 he was the face of a Gap campaign, in 2015 he walked in a Vivienne Westwood show and appeared on the cover of ‘Neurology Now’, and in 2016 he presented the Rio Paralympics for Channel 4.</p>
+          <p class="vb-intro">‘Talking to Strangers’ and ‘One Eye Open’ are listed for 2026; he is said to have been promoting them shortly before his death.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Sammy Davis Jr. and Ryan Gosling</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-sammy-davis-jr">Sammy Davis Jr. (SX2w3)</a> faced obstacles his time imposed on him as an entertainer and won the audience through warmth and full presence. Mitte, too, turned a hurdle into a stage for others. <a href="#beruehmte-ryan-gosling">Ryan Gosling (SX2w3)</a> shows the same constellation in the intimacy of the camera: the gaze is for the person opposite, not for the pose.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The end (as of 26 October 2026)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">RJ Mitte died on 12 October 2026 at the age of 34 in Brownsville, Texas. His representative confirmed a suicide, according to reports by Variety and The Hollywood Reporter. The funeral was held on 16 October in Brownsville, and a celebration of life followed on 25 October in Albuquerque. Many tributes came from the ‘Breaking Bad’ cast; Bryan Cranston wrote, according to Wikipedia, that Mitte ‘never – ever – allowed’ the challenge of cerebral palsy to be an excuse for anything.</p>
+          <p class="vb-intro">Why he died is known only to those close to him; a suicide never has a single reason, and outsiders cannot explain it with certainty. This portrait therefore does not attempt to interpret his death.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. What remains: carrying and being carried</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The sexual Two gives a great deal and rarely asks what she or he needs. Someone who cares for others as a child can learn that giving is a value, and later barely notice when their own limit is reached. What would heal this subtype is to experience help not as weakness but as part of a relationship in which the camel, too, is carried.</p>
+          <p class="vb-intro"><strong>Note:</strong> If you are in an emotional crisis or thinking about suicide, help is available around the clock and free of charge. In the US call or text 988; elsewhere see findahelpline.com.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx2", label:"SX2 – The Camel: subtype profile"},
+        {route:"beruehmte-sammy-davis-jr", label:"Portrait: Sammy Davis Jr. (SX2w3)"},
+        {route:"beruehmte-ryan-gosling", label:"Portrait: Ryan Gosling (SX2w3)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+        {route:"beruehmte-karin-thaler", label:"Portrait: Karin Thaler (SX2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+export function micheleLamyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michele-lamy-portrait.jpg" alt="Michèle Lamy – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michèle Lamy</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexual Type 1 with a Two wing</p>
+        <p class="krim-portrait-subtitle">French-American artist, host and fashion designer, b. 1944 &ndash; Lamyland, Owenscorp &ndash; animal counterpart: black mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The black mamba: from the Jura to the nights of Los Angeles</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>black mamba</strong> is dark, slim and moves noiselessly through rooms that others avoid. Michèle Lamy was born on 20 April 1944 in the Jura in France. Her grandfather made accessories for the couturier Paul Poiret; her family owns an eyewear company. As a teenager she performed as a stripper at fairs, according to the source.</p>
+          <p class="vb-intro">She studied law and worked as a criminal defence lawyer in the 1960s and 1970s while studying with the philosopher Gilles Deleuze. She gave up the profession because she was more interested in the defendants than in the lawyers.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual One: zeal for the people she gathers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo called the sexual One <em>zeal</em>, the countertype of the One: the strictness is directed not at the rules of the community but with great intensity at individual people and projects. In Lamy this can be linked to the lifestyle she lives without compromise: she wears dark clothing, gold teeth, ringed and tattooed fingers that she dips in black paint, and she speaks out against cosmetic surgery. By her own account she has black tea and cigarettes for breakfast.</p>
+          <p class="vb-intro">The photo shows long, dark, stringy hair, a high forehead with horizontal lines and large, wide-open eyes under strong brows. The mouth is slightly open, and several earrings hang from the ears. The gaze goes straight into the camera.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two wing: the host and the companion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two wing (w2)</strong> gives the One attentiveness. In Lamy it shows in her role as host and companion. With her first husband, the experimental filmmaker Richard Newton, she ran the nightclubs Café des Artistes and Les Deux Cafés; Madonna, Joni Mitchell and Sharon Stone frequented Les Deux. In 1990 she hired Rick Owens as a pattern cutter; he became her business partner, then her companion and husband. Owens says she is more his ‘mate’ than his muse.</p>
+          <p class="vb-intro">In 2013 she reopened Café des Artistes in Venice, California, and in 2018 the boxing gym Lamyland in the London department store Selfridges. Her daughter, the artist Scarlett Rouge, says of her: ‘She didn't let anything get her down or stop her from moving on with life.’</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: fashion, furniture, performance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1979 Lamy moved to New York, made plastic jewellery and lived at the Hotel Chelsea. In Los Angeles she built up a fashion line and a shop in the Beverly Center and in 1984 founded her own label, Lamy. In 2001 she moved to Paris with Owens, in 2004 they founded Owenscorp, and in 2006 they married. She produces the furniture bearing the Owens name and designs jewellery with Loree Rodkin.</p>
+          <p class="vb-intro">As an artist she became visible at the Venice Biennale: in 2015 she turned a container ship into a floating saloon, and in 2019 she showed the boxing installation ‘What Are We Fighting For?’. With the choreographer Cecilia Bengolea she presented ‘Before We Die’ at Performa 19; with Katya Bankowsky she made the short-film series ‘Battle Royale’ in 2020. She appeared in videos by FKA twigs and Black Asteroid and formed the band Lavascar with the artist Nico Vascellari and her daughter. She collects works by Barry X Ball, Arthur Jafa and Joel-Peter Witkin.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Annie Lennox and Linda Hamilton</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-annie-lennox">Annie Lennox (SX1w2)</a>, like Lamy, has an appearance that belongs to her performance and puts it at the service of causes. <a href="#beruehmte-linda-hamilton">Linda Hamilton (SX1w9)</a>, like Lamy, is described as an advocate of natural ageing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Living without retreat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">At over 80 Lamy remains active in projects. In 2026 she was a guest judge on an episode of ‘RuPaul's Drag Race UK’, series 8. She smokes and says she has black tea and cigarettes for breakfast. This lifestyle is her own choice; it is described here, not recommended.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where she stands and how to place it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lamy moved to Paris with Rick Owens in 2001; the source names an appearance as a guest judge in 2026 and gives nothing on further projects (as of 28 October 2026).</p>
+          <p class="vb-intro">For the sexual One with a Two wing the path lies in letting consistency in one's own image not be directed against others, and in attention being possible without staging. In Lamy this can be linked to the word ‘mate’ with which Owens describes the relationship: equality instead of veneration.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx1", label:"SX1 – The black mamba: subtype profile"},
+        {route:"beruehmte-annie-lennox", label:"Portrait: Annie Lennox (SX1w2)"},
+        {route:"beruehmte-linda-hamilton", label:"Portrait: Linda Hamilton (SX1w9)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}
+
+export function johnCusackPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-john-cusack-portrait.jpg" alt="John Cusack – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-john-cusack-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">John Cusack</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">American actor, producer and writer, b. 1966 &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Beaver: the boy from Evanston who reached the rehearsal stage at nine</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>beaver</strong> rarely builds for itself alone: its dam creates a pond in which many others live. John Cusack was born on 28 June 1966 in Evanston, Illinois, a suburb of Chicago, into an Irish Catholic family. His father Dick Cusack (1925&ndash;2003) was a writer, actor, producer and documentary filmmaker, his mother Nancy (1929&ndash;2022) a mathematics teacher. His sisters Ann and Joan also became actresses, and there are the siblings Bill and Susie.</p>
+          <p class="vb-intro">At nine he followed his older sisters into the Piven Theatre Workshop in Evanston, a theater school founded in 1974 by Byrne and Joyce Piven and run by family friends. After graduating from Evanston Township High School in 1984, where he met Jeremy Piven, he spent a year at New York University and dropped out; by his own account he had &lsquo;too much fire in the belly and not enough smarts in the brain&rsquo;. By then he already had film roles behind him: &lsquo;Class&rsquo; (1983) and &lsquo;Sixteen Candles&rsquo; (1984), and with &lsquo;The Sure Thing&rsquo; (1985) came the breakthrough.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Seven: counter-gluttony in the service of the story</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo described the social Seven as the countertype of the Seven, as &lsquo;counter-gluttony&rsquo;: its enthusiasm turns inward and into the service of a cause, an ideal or a group. In Cusack this can be read from the characters that made him known. Lloyd Dobler in &lsquo;Say Anything...&rsquo; (1989), Cameron Crowe&rsquo;s first film as director, stands not for conquest but for loyalty to a feeling: the man with the boombox outside the window holds on to a conviction instead of maneuvering cleverly. For the character Cusack drew, by his own account, on the bands The Clash and The Replacements.</p>
+          <p class="vb-intro">It is striking that he built his own vehicles. Through his company New Crime Productions he co-wrote &lsquo;Grosse Pointe Blank&rsquo; (1997) and played the lead; on &lsquo;High Fidelity&rsquo; (2000) he co-wrote the screenplay, produced, and received a Golden Globe nomination for his performance. The beaver does not wait for someone to build a house for it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: loyalty to his own circle and wariness of negotiation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> brings loyalty and a certain watchfulness into the Seven&rsquo;s enthusiasm. In Cusack the loyalty shows in the circle he comes from: a family of actors, the theater school of his childhood, a school friend like Jeremy Piven. The watchfulness shows later, in how he talks about the film business. In the Guardian in 2020 he said it had been hard in recent years to get projects financed.</p>
+          <p class="vb-intro">In July 2026 at San Diego Comic-Con he explained why he moved from acting to writing: &lsquo;I wanted to tell a story, but I didn&rsquo;t want to negotiate telling a story.&rsquo; Anyone who asks investors for $20 or $30 million, as he put it in essence, gets people who want a say.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the man who uses his irony like a handrail</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What made Cusack unmistakable was a style of dry wit, quick speech and a vulnerability that stays visible behind the irony. In &lsquo;High Fidelity&rsquo; he speaks directly to the camera as record-store owner Rob Gordon and lets the audience share in his failures in love. In &lsquo;Grosse Pointe Blank&rsquo; he joins a contract killer with a class reunion, in &lsquo;Being John Malkovich&rsquo; (1999) he plays a puppeteer in Spike Jonze&rsquo;s world from Charlie Kaufman&rsquo;s script. Later came roles as Edgar Allan Poe in &lsquo;The Raven&rsquo; (2012), as Richard Nixon in &lsquo;The Butler&rsquo; and as Brian Wilson in &lsquo;Love &amp; Mercy&rsquo;; for &lsquo;Maps to the Stars&rsquo; he received a Canadian Screen Award.</p>
+          <p class="vb-intro">About the Poe role he said: &lsquo;You have to get yourself as close to insanity as you can, but yet, be able to not go insane.&rsquo; The sentence describes the craft of the Seven who seeks intensity and wants to keep it under control at the same time. Off screen he has trained in kickboxing for over twenty years and holds a black belt in Ukidokan kickboxing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Billy Bob Thornton and Sigourney Weaver</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-billy-bob-thornton">Billy Bob Thornton (SO7w6)</a> shares with Cusack the dutiful variety of genres between drama and comedy and the writing of his own material. <a href="#beruehmte-sigourney-weaver">Sigourney Weaver (SO7w6)</a> shows how the same social Seven energy looks in an actress who understands roles as an obligation toward a cause.</p>
+          <p class="vb-intro">The difference: Weaver and Thornton stayed in the Hollywood system, Cusack left it, by his own account, to tell stories independently.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social Seven with Six-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright are self-irony and endurance. In October 2026 Cusack said on the podcast &lsquo;Happy Sad Confused&rsquo; that &lsquo;Say Anything...&rsquo; would not have the same effect today and that Lloyd Dobler might be seen as intrusive: someone who can look at his own role from such a distance does not cling to an image.</p>
+          <p class="vb-intro">The shadow side of the Seven lies where the ideal makes compromise hard. Anyone who understands every story as an obligation toward the cause finds it hard to negotiate it, and accepts that projects without backers do not come into being. The social Seven&rsquo;s pattern of always building something new and never quite finishing fits a career of over ninety films and the present move to the book. This portrait records what he himself said and does not interpret the reasons further.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: from film to comics</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">John Cusack is (as of 29 October 2026) 60 years old. Most recently he appeared, among other things, in the series &lsquo;Utopia&rsquo; and in the films &lsquo;Detective Chinatown 1900&rsquo; and &lsquo;Fog of War&rsquo; (both 2025). On 24 July 2026 he presented his graphic novel &lsquo;Momo&rsquo; at San Diego Comic-Con, a heist and road-trip story from 1972 with an extraterrestrial twist, drawn by Ignacio Noé. In his words nobody changed anything in the text or the drawings; he hinted at a second volume.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
+        {route:"beruehmte-billy-bob-thornton", label:"Portrait: Billy Bob Thornton (SO7w6)"},
+        {route:"beruehmte-sigourney-weaver", label:"Portrait: Sigourney Weaver (SO7w6)"},
+      ])}
     </div>
   `);
 }

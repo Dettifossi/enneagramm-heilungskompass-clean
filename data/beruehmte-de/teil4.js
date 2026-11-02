@@ -2333,6 +2333,7 @@ export function donMcleanPortraitPage() {
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
+        {route:"beruehmte-john-neumeier", label:"Porträt: John Neumeier (SE4w5)"},
         {route:"beruehmte-paul-simon", label:"Porträt: Paul Simon (SE4w5)"},
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se4", label:"SE4 – Die Haustaube: Subtyp-Profil"},
@@ -2918,6 +2919,7 @@ export function hongChauPortraitPage() {
         {route:"beruehmte-susan-polgar", label:"Porträt: Susan Polgár (SE3w2)"},
         {route:"beruehmte-enrico-caruso", label:"Porträt: Enrico Caruso (SE3w2)"},
         {route:"beruehmte-andre-agassi", label:"Porträt: André Agassi (SE3w2)"},
+        {route:"beruehmte-sulli", label:"Porträt: Sulli (SE3w2)"},
       ])}
     </div>
   `);
@@ -3061,6 +3063,213 @@ export function jimmyWalesPortraitPage() {
         {route:"beruehmte-larry-sanger", label:"Porträt: Larry Sanger (SE5w6)"},
         {route:"beruehmte-thomas-schmelzer", label:"Porträt: Thomas Schmelzer (SO5w6)"},
             ])}
+    </div>
+  `);
+}
+
+export function karinThalerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-karin-thaler-portrait.jpg" alt="Karin Thaler – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Karin Thaler</p>
+        <p class="krim-portrait-typ">SX2w3 &middot; Sexueller Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Deutsche Schauspielerin, geb. 1965 in Deggendorf &ndash; Tierentsprechung: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kamel: tragen, ohne zu klagen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong> trägt seine Last über weite Strecken, ohne viel Aufhebens davon zu machen. Karin Thaler wurde am 12. Juni 1965 in Deggendorf in Niederbayern geboren. Ihr Fernsehdebüt hatte sie 1986 mit ›Gundas Vater‹, dafür erhielt sie nach der Wikipedia-Seite den Goldenen Gong; seit 1987 arbeitet sie am Theater. Ihr erster Kinofilm, ›Das schreckliche Mädchen‹ (1990), wurde für den Oscar nominiert.</p>
+          <p class="vb-intro">Einem großen Publikum wurde sie als Marie Hofer in der ZDF-Serie ›Die Rosenheim-Cops‹ bekannt, in der sie seit den frühen Staffeln mitspielt. Von 2011 bis 2017 war sie in ›Hubert und Staller‹ (und dessen Ableger) zu sehen, dazu in ›Unser Charly‹ als Inka Lenz sowie in ›Der Landarzt‹, ›Ein Bayer auf Rügen‹ und ›Der Bergdoktor‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Zwei: die eine Beziehung, die alles bestimmt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo benannte die sexuelle Zwei mit ›Aggressivität/Verführung‹, gemeint als aktives Zugehen auf den anderen, was die Distanz verkleinert. Bei dieser Zwei zählt nicht die Gruppe, sondern ein einzelner Mensch, für den man alles gibt. Bei Karin Thaler lässt sich das mit der Beziehung zu ihrer Mutter in Verbindung bringen, über die sie 2026 ein Buch schrieb: ›Stark, weil ich stark sein musste – Die Doppelrolle meines Lebens‹ (Knaur, erschienen am 1. April 2026).</p>
+          <p class="vb-intro">Nach den Angaben des Verlags ging es darin um die geliebte, spielsüchtige Mutter, deren Leben mehr und mehr aus den Fugen geriet, während Thalers Karriere wuchs. Thaler habe die Nähe zu ihr verloren und unter dem Doppelleben zwischen Filmset und Familiensorgen gelitten. Nach Berichten half sie auch, Schulden der Mutter zu begleichen. Mit diesem Buch sprach sie erstmals öffentlich über diese Beziehung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Leistung und Haltung nach außen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der Zwei Tatkraft und den Willen, nach außen zu funktionieren. Bei Thaler kann man ihn in dem sehen, was sie selbst ›Doppelrolle‹ nennt, vor der Kamera die verlässliche Marie Hofer, im Privaten die Tochter mit der Last. Laut Wochenspiegel (26. August 2026) sagte sie: ›Ich spielte vor und hinter der Kamera.‹ Die Anforderungen beider Seiten hielt sie lange zugleich aus. Über ein Jahrzehnt litt sie nach dem Bericht an schweren Herzrhythmusstörungen, die der Artikel auf den enormen Druck zurückführt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Verlässlichkeit als Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dass jemand über Jahrzehnte in einer Serie wie den ›Rosenheim-Cops‹ eine feste Figur bleibt, ist ein eigenes Können: Marie Hofer muss Woche für Woche stimmig bleiben, ohne langweilig zu werden. Thaler verkörpert damit eine Verlässlichkeit, die Zuschauer anspricht. Die Rolle der Gerichtsmedizinerin in ›Hubert und Staller‹ zeigt eine zweite Seite ihres Könnens.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: RJ Mitte und Elvis Presley</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-rj-mitte">RJ Mitte (SX2w3)</a> übernahm früh die Verantwortung für seine Familie, auch bei ihm trug das Kamel mehr, als einem Kind zusteht. <a href="#beruehmte-elvis-presley">Elvis Presley (SX2w3)</a> wiederum beschrieb die Liebe seiner Mutter Gladys als seinen sichersten Boden; bei Thaler ist die Mutterbeziehung ebenfalls der Kern, nur dass sie schwierig und belastet war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Verarbeiten: Schreiben und Vergeben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach dem Tod ihrer Mutter 2022 fand Thaler deren 129-seitige Lebensbeschreibung, die sie tief berührte; ihr Buch entstand in elf Monaten mit einer Ghostwriterin. Ihre Widerstandskraft führt sie nach dem Bericht auf innere Stärke und auf Menschen an ihrer Seite zurück, vor allem ihren Mann, den Musiker Milos Malesevic, und ihre beste Freundin. Über Stärke sagt sie: ›Es war eine Belastung, stark sein zu müssen. Aber ich bin daran gewachsen.‹ Und: ›Vergeben ist der Schlüssel zum Glück.‹</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Was bleibt: Stärke, die auch getragen werden darf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Kamel gibt lange, bevor es nach Wasser fragt. Für die sexuelle Zwei heißt Heilung, dass die eigene Last auch geteilt werden darf, und dass Liebe nicht daran hängt, alles zu tragen. Dass Thaler ihre Geschichte erzählt und sich heute als angekommen beschreibt, zeigt diesen Schritt; sie sagt, sie sei ›gut zu mir und meinem inneren Kind‹.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
+        {route:"beruehmte-rj-mitte", label:"Porträt: RJ Mitte (SX2w3)"},
+        {route:"beruehmte-elvis-presley", label:"Porträt: Elvis Presley (SX2w3)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
+
+export function micheleLamyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michele-lamy-portrait.jpg" alt="Michèle Lamy – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michèle Lamy</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexueller Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Französisch-amerikanische Künstlerin, Gastgeberin und Modemacherin, geb. 1944 &ndash; Lamyland, Owenscorp &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba: vom Jura in die Nächte von Los Angeles</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist dunkel, schlank und bewegt sich geräuschlos durch Räume, die andere meiden. Michèle Lamy wurde am 20. April 1944 im Jura in Frankreich geboren. Ihr Großvater fertigte Accessoires für den Couturier Paul Poiret, ihre Familie besitzt ein Brillenunternehmen. Als Jugendliche trat sie nach der Quelle auf Jahrmärkten als Stripperin auf.</p>
+          <p class="vb-intro">Sie studierte Jura und arbeitete in den 1960er- und 1970er-Jahren als Strafverteidigerin, während sie beim Philosophen Gilles Deleuze studierte. Sie gab den Beruf auf, weil sie sich mehr für die Angeklagten interessierte als für die Anwälte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Eifer für die Menschen, die sie versammelt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo nannte die sexuelle Eins <em>Zeal</em> (Eifer), den Kontratyp der Eins: Die Strenge richtet sich nicht auf die Regeln der Gemeinschaft, sondern mit großer Intensität auf einzelne Menschen und Vorhaben. Bei Lamy lässt sich das mit ihrem Lebensstil verbinden, den sie ohne Abstriche vertritt: Sie trägt dunkle Kleidung, Goldzähne, beringte und tätowierte Finger, die sie in schwarze Farbe taucht, und sie spricht sich gegen Schönheitsoperationen aus. Nach eigener Aussage frühstückt sie schwarzen Tee und Zigaretten.</p>
+          <p class="vb-intro">Das Foto zeigt langes, dunkles, strähniges Haar, eine hohe Stirn mit Querfalten und große, weit geöffnete Augen unter kräftigen Brauen. Der Mund ist leicht geöffnet, und mehrere Ohrringe hängen an den Ohren. Der Blick geht frontal in die Kamera.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: die Gastgeberin und die Weggefährtin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der Eins Zuwendung. Bei Lamy zeigt er sich in ihrer Rolle als Gastgeberin und Begleiterin. Mit ihrem ersten Mann, dem Experimentalfilmer Richard Newton, führte sie die Nachtclubs Café des Artistes und Les Deux Cafés; im Les Deux verkehrten Madonna, Joni Mitchell und Sharon Stone. 1990 stellte sie Rick Owens als Schnittmacher ein; er wurde ihr Geschäftspartner, dann ihr Lebensgefährte und Ehemann. Owens sagt, sie sei eher seine ›mate‹ (Kumpanin) als seine Muse.</p>
+          <p class="vb-intro">2013 eröffnete sie das Café des Artistes in Venice (Kalifornien) neu, 2018 das Boxstudio Lamyland im Londoner Kaufhaus Selfridges. Ihre Tochter, die Künstlerin Scarlett Rouge, sagt über sie: ›She didn't let anything get her down or stop her from moving on with life.‹ (›Sie ließ sich von nichts unterkriegen oder davon abhalten, mit dem Leben weiterzumachen.‹)</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Mode, Möbel, Performance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1979 zog Lamy nach New York, fertigte Plastikschmuck und lebte im Hotel Chelsea. In Los Angeles baute sie eine Modelinie und ein Geschäft im Beverly Center auf und gründete 1984 das eigene Label Lamy. 2001 zog sie mit Owens nach Paris, 2004 gründeten sie Owenscorp, 2006 heirateten sie. Sie produziert die Möbel, die den Namen Owens tragen, und entwirft mit Loree Rodkin Schmuck.</p>
+          <p class="vb-intro">Als Künstlerin wurde sie auf der Biennale von Venedig sichtbar: 2015 verwandelte sie einen Containerfrachter in einen schwimmenden Saloon, 2019 zeigte sie die Boxinstallation ›What Are We Fighting For?‹. Mit der Choreografin Cecilia Bengolea zeigte sie ›Before We Die‹ bei Performa 19; mit Katya Bankowsky drehte sie 2020 die Kurzfilmreihe ›Battle Royale‹. Sie trat in Videos von FKA twigs und Black Asteroid auf und gründete mit dem Künstler Nico Vascellari und ihrer Tochter die Band Lavascar. Sie sammelt Werke von Barry X Ball, Arthur Jafa und Joel-Peter Witkin.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Annie Lennox und Linda Hamilton</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-annie-lennox">Annie Lennox (SX1w2)</a> hat wie Lamy ein Erscheinungsbild, das zu ihrem Auftritt gehört, und stellt es in den Dienst von Anliegen. <a href="#beruehmte-linda-hamilton">Linda Hamilton (SX1w9)</a> gilt wie Lamy als Befürworterin natürlichen Alterns.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Leben ohne Rückzug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lamy ist mit über 80 Jahren weiter in Projekten aktiv. 2026 war sie Gastjurorin in einer Folge von ›RuPaul's Drag Race UK‹, Staffel 8. Sie raucht und sagt, sie frühstücke schwarzen Tee und Zigaretten. Dieser Lebensstil ist ihre Entscheidung; er wird hier beschrieben, nicht empfohlen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand und Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lamy zog 2001 mit Rick Owens nach Paris; die Quelle nennt für 2026 einen Auftritt als Gastjurorin, zu weiteren Projekten gibt sie nichts an (Stand 28. Oktober 2026).</p>
+          <p class="vb-intro">Für die sexuelle Eins mit Zweierflügel liegt der Weg darin, dass die Konsequenz im eigenen Bild nicht gegen andere gerichtet sein muss und Zuwendung auch ohne Inszenierung möglich ist. Bei Lamy lässt sich das mit dem Wort ›mate‹ verbinden, mit dem Owens die Beziehung beschreibt: Gleichrangigkeit statt Verehrung.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-annie-lennox", label:"Porträt: Annie Lennox (SX1w2)"},
+        {route:"beruehmte-linda-hamilton", label:"Porträt: Linda Hamilton (SX1w9)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
+
+export function johnCusackPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-john-cusack-portrait.jpg" alt="John Cusack – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-john-cusack-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">John Cusack</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Schauspieler, Produzent und Autor, geb. 1966 &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Biber: der Junge aus Evanston, der mit neun auf die Probebühne kam</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Biber</strong> baut selten für sich allein: Sein Damm schafft einen Teich, in dem viele andere leben. John Cusack wurde am 28. Juni 1966 in Evanston, Illinois, geboren, einem Vorort von Chicago, in eine irisch-katholische Familie. Der Vater Dick Cusack (1925&ndash;2003) war Autor, Schauspieler, Produzent und Dokumentarfilmer, die Mutter Nancy (1929&ndash;2022) Mathematiklehrerin. Die Schwestern Ann und Joan wurden ebenfalls Schauspielerinnen, dazu kommen die Geschwister Bill und Susie.</p>
+          <p class="vb-intro">Mit neun Jahren folgte er seinen älteren Schwestern in den Piven Theatre Workshop in Evanston, eine Theaterschule, die Byrne und Joyce Piven 1974 gegründet hatten und die von Familienfreunden geleitet wurde. Nach dem Abschluss der Evanston Township High School 1984, wo er Jeremy Piven kennenlernte, verbrachte er ein Jahr an der New York University und brach ab; nach eigener Aussage hatte er ›zu viel Feuer im Bauch und nicht genug Verstand im Kopf‹. Da hatte er schon Filmrollen hinter sich: ›Class‹ (1983) und ›Sixteen Candles‹ (1984), mit ›The Sure Thing‹ (1985) kam der Durchbruch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der soziale Siebener: Kontra-Völlerei im Dienst der Geschichte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo beschrieb den sozialen Siebener als Kontratyp der Sieben, als ›Kontra-Völlerei‹: Seine Begeisterung wendet sich nach innen und in den Dienst einer Sache, eines Ideals oder einer Gruppe. Bei Cusack lässt sich das an den Figuren ablesen, die ihn bekannt machten. Lloyd Dobler in ›Say Anything...‹ (1989), Cameron Crowes erstem Film als Regisseur, steht nicht für Eroberung, sondern für Treue zu einem Gefühl: Der Mann mit dem Ghettoblaster vor dem Fenster hält an einer Überzeugung fest, statt klug zu taktieren. Für die Figur schöpfte Cusack nach eigener Darstellung aus den Bands The Clash und The Replacements.</p>
+          <p class="vb-intro">Auffällig ist, dass er sich seine Vehikel selbst baute. Über seine Firma New Crime Productions schrieb er ›Grosse Pointe Blank‹ (1997) mit und spielte die Hauptrolle; bei ›High Fidelity‹ (2000) schrieb er am Drehbuch mit, produzierte und erhielt eine Golden-Globe-Nominierung für seine Darstellung. Der Biber wartet nicht, bis jemand ein Haus für ihn baut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Treue zum eigenen Kreis und Misstrauen gegenüber Verhandlungen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> bringt Loyalität und eine gewisse Wachsamkeit in die Begeisterung der Sieben. Bei Cusack zeigt sich die Loyalität im Kreis, aus dem er kommt: eine Familie von Schauspielern, die Theaterschule seiner Kindheit, ein Schulfreund wie Jeremy Piven. Die Wachsamkeit zeigt sich später, in der Art, wie er über das Filmgeschäft spricht. Im Guardian sagte er 2020, es sei ihm in den letzten Jahren schwergefallen, Projekte finanziert zu bekommen.</p>
+          <p class="vb-intro">Im Juli 2026 beim San Diego Comic-Con erklärte er, warum er sich vom Schauspielen zum Schreiben bewegt hat: ›I wanted to tell a story, but I didn&rsquo;t want to negotiate telling a story‹ (›Ich wollte eine Geschichte erzählen, aber ich wollte nicht darüber verhandeln, sie zu erzählen‹). Wer 20 oder 30 Millionen Dollar von Geldgebern verlangt, so sinngemäß seine Worte, bekomme Menschen, die mitreden wollen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: der Mann, der seine Ironie wie ein Geländer benutzt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Cusack unverwechselbar machte, war ein Spielstil aus trockenem Witz, schneller Sprache und einer Verletzlichkeit, die hinter der Ironie sichtbar bleibt. In ›High Fidelity‹ spricht er als Plattenhändler Rob Gordon direkt in die Kamera und lässt das Publikum an seinem Scheitern in Liebesdingen teilhaben. In ›Grosse Pointe Blank‹ verbindet er einen Auftragskiller mit dem Klassentreffen, in ›Being John Malkovich‹ (1999) spielt er einen Puppenspieler in Spike Jonzes Welt nach Charlie Kaufmans Drehbuch. Später folgten Rollen als Edgar Allan Poe in ›The Raven‹ (2012), als Richard Nixon in ›The Butler‹ und als Brian Wilson in ›Love &amp; Mercy‹; für ›Maps to the Stars‹ erhielt er einen Canadian Screen Award.</p>
+          <p class="vb-intro">Über die Poe-Rolle sagte er: ›You have to get yourself as close to insanity as you can, but yet, be able to not go insane‹ (›Man muss sich so nah an den Wahnsinn bringen wie möglich und doch in der Lage sein, nicht verrückt zu werden‹). Der Satz beschreibt das Handwerk des Siebeners, der Intensität sucht und sie zugleich unter Kontrolle halten will. Außerhalb der Leinwand trainiert er seit über zwanzig Jahren Kickboxen und trägt einen schwarzen Gürtel im Ukidokan-Kickboxen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Billy Bob Thornton und Sigourney Weaver</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-billy-bob-thornton">Billy Bob Thornton (SO7w6)</a> teilt mit Cusack die pflichtbewusste Genre-Vielfalt zwischen Drama und Komödie und das Schreiben der eigenen Stoffe. <a href="#beruehmte-sigourney-weaver">Sigourney Weaver (SO7w6)</a> zeigt, wie dieselbe soziale Siebener-Energie bei einer Schauspielerin aussieht, die Rollen als Verpflichtung gegenüber einer Sache versteht.</p>
+          <p class="vb-intro">Der Unterschied: Weaver und Thornton blieben im Hollywood-System, Cusack hat es nach eigener Darstellung verlassen, um unabhängig zu erzählen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten des sozialen Siebeners mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell sind Selbstironie und Ausdauer. Im Oktober 2026 sagte Cusack im Podcast ›Happy Sad Confused‹, ›Say Anything...‹ würde heute nicht mehr dieselbe Wirkung haben, und Lloyd Dobler würde vielleicht als aufdringlich gelten: Wer die eigene Rolle so mit Abstand ansehen kann, hängt nicht an einem Bild.</p>
+          <p class="vb-intro">Die Schattenseite der Sieben liegt dort, wo das Ideal Kompromisse schwer macht. Wer jede Geschichte als Verpflichtung gegenüber der Sache versteht, tut sich schwer, sie zu verhandeln, und nimmt in Kauf, dass Projekte ohne Geldgeber nicht entstehen. Das Muster des sozialen Siebeners, immer etwas Neues zu bauen und nie wirklich fertig zu sein, passt zu einer Laufbahn von über neunzig Filmen und dem jetzigen Wechsel zum Buch. Dieses Porträt hält fest, was er selbst gesagt hat, und deutet die Gründe nicht weiter aus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: vom Film zum Comic</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">John Cusack ist (Stand 29. Oktober 2026) 60 Jahre alt. Zuletzt stand er unter anderem in der Serie ›Utopia‹ und in den Filmen ›Detective Chinatown 1900‹ und ›Fog of War‹ (beide 2025) vor der Kamera. Am 24. Juli 2026 stellte er beim San Diego Comic-Con seine Graphic Novel ›Momo‹ vor, einen Heist- und Roadtrip-Stoff aus dem Jahr 1972 mit außerirdischem Einschlag, gezeichnet von Ignacio Noé. Nach seinen Worten hat niemand an dem Text oder den Zeichnungen etwas geändert; er deutete einen zweiten Band an.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
+        {route:"beruehmte-billy-bob-thornton", label:"Porträt: Billy Bob Thornton (SO7w6)"},
+        {route:"beruehmte-sigourney-weaver", label:"Porträt: Sigourney Weaver (SO7w6)"},
+      ])}
     </div>
   `);
 }

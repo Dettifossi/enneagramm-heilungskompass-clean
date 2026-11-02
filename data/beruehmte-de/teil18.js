@@ -1708,6 +1708,7 @@ export function sammyDavisJrPortraitPage() {
         {route:"beruehmte-isadora-duncan", label:"Porträt: Isadora Duncan (SX2w3)"},
         {route:"beruehmte-pamela-reif", label:"Porträt: Pamela Reif (SX2w3)"},
         {route:"beruehmte-braco", label:"Porträt: Braco (SX2w3)"},
+        {route:"beruehmte-rj-mitte", label:"Porträt: RJ Mitte (SX2w3)"},
       ])}
     </div>
   `);
@@ -2334,46 +2335,51 @@ export function georgeVithoulkasPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-george-vithoulkas-portrait.jpg" alt="Prof. George Vithoulkas – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Prof. George Vithoulkas</p>
-        <p class="krim-portrait-typ">SO3w4 · Sozialer Typ 3 mit Viererflügel</p>
-        <p class="krim-portrait-subtitle">Griechischer Homöopath, geb. 1932 – Tierentsprechung: Gepard</p>
+        <p class="krim-portrait-typ">SO5w4 &middot; Sozialer Typ 5 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Griechischer Homöopath, geb. 1932 &ndash; Tierentsprechung: Oktopus</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. Der Gepard, der eine ganze Disziplin neu begründete</h2>
+        <h2 class="vb-section">1. Der Oktopus: der Lehrer, der sich auf eine Insel zurückzog</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Gepard</strong> ist die tierische Entsprechung der sozialen Drei – schnell, auffällig, gebaut für den einen entscheidenden Moment, der eine ganze Karriere trägt. George Vithoulkas, 1932 in Athen geboren, studierte Homöopathie in Südafrika und erhielt 1966 sein Diplom am Indian Institute of Homeopathy. Zurück in Griechenland begann er, eine kleine Gruppe von Ärzten in klassischer Homöopathie zu unterrichten – der therapeutische Erfolg dieser ersten Ärzte zog rasch weitere Aufmerksamkeit an sich. Für sein Lebenswerk wurde er 2011 von der griechischen Universität der Ägäis zum Ehrenprofessor ernannt, hinzu kommen mehrere Ehrendoktorwürden, etwa der medizinischen Akademien in Kiew und Moskau – seither wird er durchgehend als Professor Vithoulkas geführt.</p>
-          <p class="vb-intro">1970 entstand daraus die Athener Schule für Homöopathische Medizin, 1994 gründete er auf der griechischen Insel Alonissos die International Academy for Classical Homeopathy für die postgraduale Ausbildung von Ärzten, Heilpraktikern und weiteren Interessierten aus aller Welt – mit deutlichem Schwerpunkt auf Ärzten, da es weltweit weit mehr Mediziner als Heilpraktiker gibt (der Heilpraktiker-Beruf in dieser Form ist vor allem eine deutsche Besonderheit). Zahlreiche amerikanische Homöopathen reisten eigens auf die abgelegene Insel, um dort direkt bei ihm die als ›Vithoulkas-Methode‹ bekannte Herangehensweise zu erlernen. Der Gepard nutzte den einen Moment, in dem sich sein Wissen als wirksam erwies, um daraus eine internationale Institution zu bauen.</p>
+          <p class="vb-intro">Ein <strong>Oktopus</strong> zieht sich in eine Höhle zurück und ordnet von dort aus sein Revier. George Vithoulkas, 1932 in Athen geboren, studierte Homöopathie in Südafrika und erhielt 1966 sein Diplom am Indian Institute of Homeopathy. Zurück in Griechenland begann er, eine kleine Gruppe von Ärzten in klassischer Homöopathie zu unterrichten – der therapeutische Erfolg dieser ersten Ärzte zog rasch weitere Aufmerksamkeit an sich. Für sein Lebenswerk wurde er 2011 von der griechischen Universität der Ägäis zum Ehrenprofessor ernannt, hinzu kommen mehrere Ehrendoktorwürden, etwa der medizinischen Akademien in Kiew und Moskau – seither wird er durchgehend als Professor Vithoulkas geführt.</p>
+          <p class="vb-intro">1970 entstand daraus die Athener Schule für Homöopathische Medizin, 1994 gründete er auf der griechischen Insel Alonissos die International Academy for Classical Homeopathy für die postgraduale Ausbildung von Ärzten, Heilpraktikern und weiteren Interessierten aus aller Welt – mit deutlichem Schwerpunkt auf Ärzten, da es weltweit weit mehr Mediziner als Heilpraktiker gibt (der Heilpraktiker-Beruf in dieser Form ist vor allem eine deutsche Besonderheit). Zahlreiche amerikanische Homöopathen reisten eigens auf die abgelegene Insel, um dort direkt bei ihm die als ›Vithoulkas-Methode‹ bekannte Herangehensweise zu erlernen.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. Die soziale Drei: Weltweite Anerkennung für eine Randdisziplin</h2>
+        <h2 class="vb-section">2. Der soziale Fünfer: ein Theoriegebäude als gemeinsames Wahrzeichen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> sucht Erfolg nicht in einer geschützten Nische, sondern in möglichst breiter, öffentlich sichtbarer Anerkennung – selbst dann, wenn das eigene Fachgebiet gesellschaftlich umstritten ist. 1996 wurde Vithoulkas in Stockholm mit dem Right Livelihood Award geehrt, oft als ›alternativer Nobelpreis‹ bezeichnet, für seinen außergewöhnlichen Beitrag zur Wiederbelebung homöopathischen Wissens und zur Ausbildung von Homöopathen auf höchstem Niveau.</p>
-          <p class="vb-intro">Seine Bücher wurden in zwanzig Sprachen übersetzt und prägten die weltweite Praxis der Homöopathie maßgeblich – nicht als regionale Fußnote, sondern als international anerkanntes Lebenswerk, das gezielt auf globale Sichtbarkeit angelegt war.</p>
+          <p class="vb-intro">Als ›Totem‹ beschrieb <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> das Ziel des sozialen Fünfers: ein Zeichen, das die Wissenden einer Gruppe verbindet. Bei Vithoulkas lässt sich das mit seinem Theoriegebäude verbinden: Die ›Levels of Health‹ (Gesundheitsstufen) und die ›Vithoulkas-Methode‹ wurden zu einem Bezugspunkt, an dem Homöopathen in vielen Ländern ihr Vorgehen ausrichteten. 1996 wurde er in Stockholm mit dem Right Livelihood Award geehrt, oft als ›alternativer Nobelpreis‹ bezeichnet, für seinen Beitrag zur Wiederbelebung homöopathischen Wissens und zur Ausbildung von Homöopathen auf höchstem Niveau.</p>
+          <p class="vb-intro">Seine Bücher wurden in zwanzig Sprachen übersetzt und gelten vielen Praktizierenden als Nachschlagewerke, an denen sie sich orientieren.</p>
+          <p class="vb-intro">Die Zeichnung zeigt volles, nach hinten gestrichenes, leicht zerzaustes graues Haar mit hohen Schläfen, eine hohe Stirn mit Querfalten, ruhige Brauen und tief liegende, etwas schwere Lider mit Tränensäcken darunter. Der Blick ist sanft, direkt und ein wenig nach innen gekehrt. Die Nase ist breit, der Mund geschlossen mit einem leicht schiefen, milden Lächeln. Er trägt ein dunkles Jackett über einem weißen Kragen.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Viererflügel: Bewusstseinsentwicklung statt reiner Symptomlehre</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der sozialen Drei eine Tiefe, die über fachliche Kompetenz hinausreicht. Vithoulkas verknüpfte die geistige Evolution des Menschen ausdrücklich mit dessen Gesundheitszustand und vertrat die Überzeugung, ohne diese Verbindung könnten Ärzte keine wirklich radikale, dauerhafte Heilung bewirken – eine Vision, in der Bewusstsein und Körper untrennbar zusammengehören.</p>
-          <p class="vb-intro">Seine Gespräche mit dem Philosophen Jiddu Krishnamurti und seine eigene, über 57 Jahre entwickelte Theorie der ›Gesundheitsstufen‹ – ein zwölfstufiges System zur Einordnung des Gesundheitszustands eines Patienten – zeigen dieselbe Vierertiefe: eine höchst individuelle, jahrzehntelang verfeinerte geistige Konstruktion, die weit über handwerkliche Symptomlehre hinausgeht. Dass er seine Akademie bewusst auf einer abgelegenen Insel ansiedelte, statt sie in einer Großstadt zu massentauglicher Breitenwirkung zu bringen, passt zu dieser Suche nach Tiefe statt bloßer Reichweite.</p>
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt dem Fünfer eine persönliche Tiefe, die über Fachwissen hinausreicht. Vithoulkas verknüpfte die geistige Evolution des Menschen ausdrücklich mit dessen Gesundheitszustand und vertrat die Überzeugung, ohne diese Verbindung könnten Ärzte keine wirklich radikale, dauerhafte Heilung bewirken – eine Vision, in der Bewusstsein und Körper untrennbar zusammengehören.</p>
+          <p class="vb-intro">Seine Gespräche mit dem Philosophen Jiddu Krishnamurti und seine eigene, über 57 Jahre entwickelte Theorie der ›Gesundheitsstufen‹ – ein zwölfstufiges System zur Einordnung des Gesundheitszustands eines Patienten – zeigen dieselbe Vierertiefe: eine höchst individuelle, jahrzehntelang verfeinerte geistige Konstruktion, die weit über handwerkliche Symptomlehre hinausgeht. Dass er seine Akademie bewusst auf einer abgelegenen Insel ansiedelte, statt sie in einer Großstadt zu massentauglicher Breitenwirkung zu bringen, passt zu dieser Suche nach Tiefe und zum Rückzug des Fünfers an einen Ort, von dem aus er ordnen kann.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die tatsächliche Leistung: Ein systematisches Theoriewerk</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Vithoulkas tatsächlich auszeichnet, ist die Systematisierung eines bis dahin stark erfahrungsbasierten, uneinheitlichen Feldes: Sein Hauptwerk ›The Science of Homeopathy‹ (1977) und die später ausgearbeitete Theorie der ›Levels of Health‹ liefern niedergelegte, nachvollziehbare Kriterien dafür, wie sich der Gesundheitszustand eines Patienten einordnen und eine homöopathische Behandlung prognostisch einschätzen lässt – ein Versuch, ein Feld mit Regeln und Vorhersagbarkeit zu versehen, die zuvor kaum systematisch beschrieben waren.</p>
+          <p class="vb-intro">Was Vithoulkas tatsächlich auszeichnet, ist die Systematisierung eines bis dahin stark erfahrungsbasierten, uneinheitlichen Feldes: Sein Hauptwerk ›The Science of Homeopathy‹ (Die Wissenschaft der Homöopathie, 1977) und die später ausgearbeitete Theorie der ›Levels of Health‹ liefern niedergelegte, nachvollziehbare Kriterien dafür, wie sich der Gesundheitszustand eines Patienten einordnen und eine homöopathische Behandlung prognostisch einschätzen lässt – ein Versuch, ein Feld mit Regeln und Vorhersagbarkeit zu versehen, die zuvor kaum systematisch beschrieben waren.</p>
           <p class="vb-intro">Diese Substanz erklärt, warum seine Bücher weltweit als Referenzwerke gelten: nicht bloß eine persönliche Philosophie, sondern ein Instrumentarium, mit dem andere Praktizierende arbeiten und ihre eigenen Fälle einordnen können.</p>
           <p class="vb-intro">Sein Ansatz fand auch praktischen Eingang in RadarOpus, das weltweit führende homöopathische Softwaresystem: Dort wurde eigens das ›Vithoulkas Expert System‹ als eigenständiges Zusatzmodul integriert, das seine charakteristische Denkweise bei Symptomanalyse und Mittelwahl digital nachbildet – ein Zeichen dafür, wie tief sein Ansatz in die alltägliche Praxis von Homöopathen weltweit eingegangen ist. In derselben Software findet sich, ebenfalls als eigenständiges Zusatzmodul, ›Rathmer's Repertorium‹ – das mit weit über 20.000 Geist-Gemüts-Rubriken umfangreichste Nachschlagewerk zur psychologischen Homöopathie, verfasst vom Autor dieses Kompasses, Detlef Rathmer.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Dr. Rajan Sankaran und Dr. Claudio Naranjo</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Als Stärke zeigt sich bei Vithoulkas die SO3w4 als jemand, der öffentliche Anerkennung nicht auf Kosten fachlicher Tiefe suchte, sondern beides über Jahrzehnte konsequent miteinander verband – internationale Sichtbarkeit für ein Werk, das gleichzeitig hochgradig persönlich und individuell durchdrungen blieb.</p>
-          <p class="vb-intro">Der Schatten der Drei zeigt sich darin, dass ein derart stark auf die eigene Theorie und Person zentriertes Lebenswerk auch das Risiko birgt, Kritik oder alternative Sichtweisen innerhalb der eigenen Disziplin schwerer zuzulassen – ein Muster, das bei Begründern eines eigenen, umfassenden Theoriegebäudes nicht selten auftritt, wenn die eigene Deutungshoheit zum zentralen Teil des öffentlichen Bildes wird.</p>
+          <p class="vb-intro"><a href="#beruehmte-rajan-sankaran">Dr. Rajan Sankaran (SO5w6)</a> hat wie Vithoulkas die Fallaufnahme in ein Stufensystem gefasst, seine sieben Erfahrungsebenen, und Schüler in vielen Ländern darin ausgebildet; bei ihm trägt der Sechserflügel die Treue zur Überlieferung, bei Vithoulkas der Viererflügel die persönliche Tiefe. <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> teilt mit ihm den Viererflügel: Beide verbanden Fachwissen mit einer Lehre vom inneren Wachstum.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Der Heilungsweg</h2>
+        <h2 class="vb-section">6. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Entwicklungsweg der Drei führt von der Frage <em>Bin ich nur wertvoll durch das, was ich leiste und wie es wahrgenommen wird?</em> zur Erkenntnis <em>Ich bin wertvoll, auch jenseits der öffentlichen Anerkennung.</em> Dass Vithoulkas seine Lehrtätigkeit ausdrücklich mit ›Gesetzen des geistigen Wachstums‹ verband, statt reine fachliche Autorität zu kultivieren, deutet auf eine reife Seite desselben Musters hin: Erfolg wird zum Mittel für eine tiefere, über die eigene Person hinausreichende Frage.</p>
-          <p class="vb-intro">Der Gepard, der seine Geschwindigkeit nicht nur nutzte, um selbst zu glänzen, sondern um eine ganze Disziplin auf ein neues, systematisches Fundament zu stellen – und der dabei nie aufhörte, nach der Tiefe hinter der reinen Symptomatik zu fragen.</p>
+          <p class="vb-intro">Als Stärke zeigt sich bei Vithoulkas der SO5w4 als jemand, der sein Wissen nicht für sich behielt, sondern in ein System goss, das andere benutzen können – Tiefe und Weitergabe wurden über Jahrzehnte konsequent miteinander verbunden, mit einem Werk, das zugleich hochgradig persönlich durchdrungen blieb.</p>
+          <p class="vb-intro">Der Schatten des Fünfers zeigt sich darin, dass ein derart stark auf die eigene Theorie und Person zentriertes Lebenswerk auch das Risiko birgt, Kritik oder alternative Sichtweisen innerhalb der eigenen Disziplin schwerer zuzulassen – ein Muster, das bei Begründern eines eigenen, umfassenden Theoriegebäudes nicht selten auftritt, wenn die eigene Deutungshoheit zum zentralen Teil des öffentlichen Bildes wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Der Heilungsweg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Entwicklungsweg des sozialen Fünfers führt von der Frage <em>Gehöre ich dazu, weil ich weiß und ordne?</em> zur Erkenntnis <em>Ich gehöre dazu, auch ohne mein Wissen vorzuführen.</em> Dass Vithoulkas seine Lehrtätigkeit ausdrücklich mit ›Gesetzen des geistigen Wachstums‹ verband, statt reine fachliche Autorität zu kultivieren, deutet auf eine reife Seite desselben Musters hin: Wissen wird zum Mittel für eine tiefere, über die eigene Person hinausreichende Frage.</p>
         </blockquote>
 
       </div>
@@ -2382,9 +2388,9 @@ export function georgeVithoulkasPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
-        {route:"beruehmte-pedro-alonso", label:"Porträt: Pedro Alonso (SO3w4)"},
-        {route:"beruehmte-leon-goretzka", label:"Porträt: Leon Goretzka (SO3w4)"},
+        {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
+        {route:"beruehmte-rajan-sankaran", label:"Porträt: Dr. Rajan Sankaran (SO5w6)"},
+        {route:"beruehmte-claudio-naranjo", label:"Porträt: Dr. Claudio Naranjo (SO5w4)"},
         {route:"beruehmte-samuel-hahnemann", label:"Porträt: Dr. Samuel Hahnemann (SO1w9) – Begründer der Homöopathie"},
       ])}
     </div>
@@ -3104,6 +3110,145 @@ export function julianeKoepckePortraitPage() {
         {route:"beruehmte-larry-sanger", label:"Porträt: Larry Sanger (SE5w6)"},
         {route:"beruehmte-simone-menne", label:"Porträt: Simone Menne (SE5w6)"},
         {route:"enneagramm-homoeopathie", label:"Enneagramm &amp; Homöopathie"},
+      ])}
+    </div>
+  `);
+}
+
+export function gertrudHoehlerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-gertrud-hoehler-portrait.jpg" alt="Gertrud Höhler – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Gertrud Höhler</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexueller Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Literaturwissenschaftlerin, Publizistin und Beraterin, geb. 1941 &ndash; ›Die Patin‹, ›Baden-Badener Disput‹ &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba: die Pfarrerstochter aus Wuppertal</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist lang, schlank und wach und wählt ihr Ziel genau, bevor sie sich bewegt. Gertrud Höhler wurde am 10. Januar 1941 in Wuppertal geboren, als zweites von vier Kindern des evangelischen Pfarrers Heinrich Höhler und seiner Frau Helene, geborene Horn. Ihr Großvater mütterlicherseits war der Theologe Fritz Horn; ihr Bruder wurde der Architekt Ernst Höhler. Nach dem Abitur am Helmholtz-Gymnasium in Wuppertal studierte sie von 1960 bis 1966 Literaturwissenschaft und Kunstgeschichte in Bonn, Berlin, Zürich und Mannheim.</p>
+          <p class="vb-intro">Schon 1964 erhielt sie den Eduard-von-der-Heydt-Kulturpreis als Lyrik-Förderpreis. 1967 wurde sie in Mannheim mit einer Arbeit über das Bibelzitat in einem Roman Wilhelm Raabes promoviert. In den 1960er-Jahren stand sie dem links-subkulturellen Milieu nahe und war unter anderem mit den Schriftstellern Jörg Fauser und Bernward Vesper befreundet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Eifer für das Gegenüber</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo nannte die sexuelle Eins <em>Zeal</em> (Eifer), den Kontratyp der Eins: Die Strenge richtet sich nicht auf die ganze Welt, sondern mit großer Intensität auf einzelne Menschen und Aufgaben. Bei Höhler lässt sich das mit ihrer Art verbinden, Einzelne zu erreichen: Sie wirkte als Beraterin von Entscheidern in Wirtschaft und Politik und wandte sich in Büchern und im Fernsehen an ein breites Publikum. 1987 bis 1989 beriet sie Alfred Herrhausen, den Sprecher des Vorstands der Deutschen Bank. Nach eigenen Angaben beriet sie später auch Politiker. Verlagsprofile nennen <a href="#beruehmte-helmut-kohl">Helmut Kohl (SE8w9)</a> als Klienten, der Politikwissenschaftler Gerd Langguth zweifelte eine Beratung Kohls dagegen an.</p>
+          <p class="vb-intro">Die Zeichnung zeigt lange, offen fallende, gewellte Haare, eine hohe Stirn mit Querfalten und einer senkrechten Furche zwischen den kräftigen, dunklen Brauen (Glabellafalte, nach lateinisch glabella, der unbehaarten Stelle zwischen den Augenbrauen), wache Augen mit Fältchen und Tränensäcken darunter und einen halb geöffneten Mund mit einem schiefen Lächeln und sichtbaren Zähnen. Der Blick wirkt wach und zugleich ein wenig müde, das Lächeln ist dem Betrachter zugewandt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Gespräch, Zuwendung und Wirkung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der Eins Zuwendung und Kontaktfreude. Bei Höhler zeigt er sich im Gespräch als Beruf: Von 1988 bis 2000 moderierte sie die Talkshow ›Baden-Badener Disput‹ (58 Folgen), sie hielt Vorträge und war als Gast in vielen Sendungen zu sehen. Schon die Titel ihrer Bücher deuten auf Themen wie Vertrauen, Gier und Sinn im Zusammenspiel von Menschen hin: ›Warum Vertrauen siegt‹ (2003), ›Jenseits der Gier‹ (2005), ›Die Sinn-Macher‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: von Raabe zum Management</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Höhler ist Literaturwissenschaftlerin. 1972 wurde sie Akademische Rätin im Gründungssenat der Universität Paderborn, von 1976 bis 1993 lehrte sie dort als Professorin für Germanistik und Allgemeine Literaturwissenschaft. Das Besondere an ihrem Weg ist der Übergang von der Textkunde zur Wirtschafts- und Politikberatung: Wer Texte lesen kann, kann auch Sprache, Bilder und Erzählungen in Unternehmen und Politik deuten. Zu ihren Büchern zählen ›Wölfin unter Wölfen‹ und ›Götzendämmerung‹ (2010).</p>
+          <p class="vb-intro">Bekannt wurde sie breit durch ›Die Patin. Wie Angela Merkel Deutschland umbaut‹ (2012), ein Buch, in dem sie das Regierungshandeln der Kanzlerin <a href="#beruehmte-angela-merkel">Angela Merkel (SE9w8)</a> hart kritisiert. Es folgten ›Demokratie im Sinkflug‹ (2017), ›Angela Merkel – Das Requiem‹ (2020) und ›Die Corona-Bilanz‹ (2020). Ihre Auszeichnungen reichen vom Konrad-Adenauer-Preis der Deutschland-Stiftung und dem ›Orden wider den tierischen Ernst‹ (beide 1988) über das Bundesverdienstkreuz 1. Klasse (1999) bis zum Deutschen Fairnesspreis (2002).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Martin Luther, Marie-Agnes Strack-Zimmermann und Christine Lagarde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-martin-luther">Martin Luther (SX1w2)</a> teilt mit Höhler die Verbindung von Wort und Haltung: Beide begannen im Raum der Kirche beziehungsweise des Pfarrhauses und wirkten später mit Sprache auf Öffentlichkeit und Mächtige. <a href="#beruehmte-marie-agnes-strack-zimmermann">Marie-Agnes Strack-Zimmermann (SX1w9)</a> zeigt als Politikerin die scharfe, beharrliche Seite der sexuellen Eins im deutschen Politikbetrieb, mit ruhigerem Neunerflügel statt der Zugewandtheit des Zweierflügels. <a href="#beruehmte-christine-lagarde">Christine Lagarde (SX1w2)</a> teilt den Zweierflügel und den Weg zwischen Wirtschaft und Politik: Beide werben mit Gespräch und Auftritt für ihre Positionen, Höhler als Autorin und Moderatorin, Lagarde als Verhandlerin an der Spitze von Institutionen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Reibung und Gegenwind</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ihre öffentliche Rolle brachte auch Kritik. 1992 sorgte eine Werbekampagne von American Express mit ihrem Porträt für Aufsehen; ein Spottartikel darüber führte zu einem Rechtsstreit. 1993 legte sie die Professur in Paderborn nieder und sprach von Mobbing, während Professoren und Studierende ihr eine Vernachlässigung der Lehrpflicht vorgeworfen hatten. 2007 geriet sie als Mitglied des Hochschulrats in die Kritik, weil sie ein Haus in Zwickau an einen NPD-Landtagsabgeordneten vermietet hatte; sie räumte später ein, den Hintergrund gekannt zu haben. Die Darstellung hier gibt Positionen wieder und bewertet sie nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand und Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Höhler ist ledig und hat einen Sohn, der als Berater arbeitet. Die jüngsten Veröffentlichungen, die die genutzten Quellen nennen, stammen von 2020; zum aktuellen Stand gibt es dort keine Angaben (Stand 28. Oktober 2026).</p>
+          <p class="vb-intro">Für die sexuelle Eins mit Zweierflügel liegt der Weg darin, dass der Eifer nicht jedes Gegenüber überzeugen muss und Zuwendung auch ohne Wirkungsabsicht möglich ist.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-martin-luther", label:"Porträt: Martin Luther (SX1w2)"},
+        {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Porträt: Marie-Agnes Strack-Zimmermann (SX1w9)"},
+        {route:"beruehmte-christine-lagarde", label:"Porträt: Christine Lagarde (SX1w2)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
+
+export function methodManPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-method-man-portrait.jpg" alt="Method Man – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-method-man-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Method Man</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Rapper und Schauspieler (Clifford Smith), geb. 1971 &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Das Flusspferd: der Junge, der zwischen zwei Zuhause pendelte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Flusspferd</strong> wirkt träge und freundlich, bis jemand sein Revier berührt; dann zeigt sich, wie viel Kraft in dem massigen Körper steckt. Clifford Smith Jr. wurde am 2. März 1971 in Hempstead auf Long Island geboren (die Quellen nennen auch andere Daten). Er wuchs zwischen dem Haus seines Vaters auf Long Island und dem seiner Mutter auf Staten Island auf; überwiegend zogen ihn und seine beiden Schwestern die Mutter in den Park-Hill-Siedlungen auf Staten Island groß. Er spielte Lacrosse und besuchte die New Dorp High School.</p>
+          <p class="vb-intro">Auf Staten Island lernte er den späteren RZA, GZA und Ol&rsquo; Dirty Bastard kennen, mit denen er schon als Jugendlicher rappte. Seinen Künstlernamen entlehnte er einem Kampfsportfilm von 1979, ›The Fearless Young Boxer‹ (›Der furchtlose junge Boxer‹), der in den USA als ›Method Man‹ in die Kinos kam. Er nannte sich auch Johnny Blaze, Tical und Iron Lung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: der Clan als engster Kreis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo gab der selbsterhaltenden Zwei das Stichwort ›Me First‹ (›Ich zuerst‹, im Deutschen oft ›Privileg‹): Zuwendung gilt zuerst dem engsten Kreis, und das Gefühl, dort unentbehrlich zu sein, sichert die eigene Grundlage. Bei Method Man ist dieser Kreis der Wu-Tang Clan, schon im Namen ein Familienverband. Auf dem Debütalbum ›Enter the Wu-Tang (36 Chambers)‹ (1993) war er neben GZA das einzige Mitglied mit einem eigenen Solostück, ›Method Man‹, und wurde damit zum Gesicht der Gruppe, ohne sie zu verlassen. Sein Soloalbum ›Tical‹ (1994) stieg auf Platz 4 der Billboard 200 ein.</p>
+          <p class="vb-intro">Auch privat bindet er sich eng: 2001 heiratete er Tamika Smith, das Paar hat drei Kinder. Das Muster der selbsterhaltenden Zwei zeigt sich hier als Verwurzelung im eigenen Terrain, nicht als Flucht aus ihm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: der Gastgeber, der überall Gast ist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso und Russ Hudson nennen die Zwei mit Dreierflügel ›Den Gastgeber‹. Der <strong>Dreierflügel (w3)</strong> gibt der Zuwendung Glanz und Wirkung. Method Man verband die Wärme des Clans mit Auftritten weit über den Rap hinaus: Für das Duett ›I&rsquo;ll Be There for You/You&rsquo;re All I Need to Get By‹ mit Mary J. Blige erhielt er 1996 einen Grammy, mit Redman gründete er ein eigenes Duo (›Blackout!‹, 1999, Platin) und drehte den Film ›How High‹ (2001), später die Fox-Serie ›Method &amp; Red‹. Dazu kamen Rollen in ›Oz‹ (als Tug Daniels), in ›The Wire‹ (als Cheese), ›The Deuce‹ und ›Power Book II: Ghost‹, Filme wie ›Belly‹ (1998), ›Garden State‹ (2004), ›Keanu‹ (2016) und ›Bad Shabbos‹ (2024), die Moderation von ›Drop the Mic‹ und 2025 ein Auftritt in der 13. Staffel von ›The Masked Singer‹ als ›Stud Muffin‹.</p>
+          <p class="vb-intro">Der Gastgeber teilt die Bühne gern: Fast jede dieser Stationen ist eine Zusammenarbeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: die raue Stimme und der Hook, der sitzt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Method Man unter den neun Wu-Tang-Stimmen heraushebt, ist eine häufig als rau beschriebene, heisere Stimme mit einer Art, Refrains zu setzen, die sich sofort einprägen. Wo andere Mitglieder des Clans auf dichte, verschachtelte Texte setzen, funktioniert er über Charisma und Wiedererkennbarkeit: Seine Strophen und Hooks tragen Gäste und Duette (wie das mit Blige) ebenso gut wie die Gruppenstücke. Das erklärt, warum ausgerechnet er der Rapper aus dem Clan wurde, der die Brücke zum breiten Publikum schlug, zu Pop-Duetten, Film und Fernsehen.</p>
+          <p class="vb-intro">Bemerkenswert ist die Ausdauer: Seit den frühen Neunzigern ist er im Geschäft, hat Soloalben bis ›The Meth Lab‹ (2015) veröffentlicht und ein weiteres, ›Crystal Meth‹, als letztes Studioalbum angekündigt, ohne bisher einen Termin zu nennen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Carlos Santana</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-carlos-santana">Carlos Santana (SE2w3)</a> ist die naheliegende Parallele: ein Musiker, der aus einem engen familiären und musikalischen Kreis kam, über Kooperationen mit jüngeren Künstlern wieder Relevanz erlangte und seine Wurzeln nie verleugnete. Beide zeigen den Dreierflügel als Lust, die eigene Gemeinschaft nach außen sichtbar zu machen.</p>
+          <p class="vb-intro">Der Unterschied: Santana trägt sein Handwerk als persönlich weitergegebene Tradition, Method Man sein Charisma als Teil eines Kollektivs.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Zwei mit Dreierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell sind die Treue zu den Wurzeln, die Fähigkeit, sich in viele Zusammenhänge einzufügen, und die Wärme, mit der er zwischen Rap, Film und Fernsehen wechselt, ohne die Verbindung zum Clan zu verlieren.</p>
+          <p class="vb-intro">Die Schattenseite liegt dort, wo der Kreis zuerst kommt. Wer die eigene Grundlage sichert, kann dabei die Regeln außerhalb des Kreises aus dem Blick verlieren: 2010 bekannte sich Method Man der Steuerhinterziehung schuldig und zahlte nach Angaben von Wikipedia 106.000 Dollar Strafe. Dieses Porträt hält das als Tatsache fest, ohne es weiter zu deuten. Der Dreierflügel kann zudem dazu verleiten, immer neue Rollen zu übernehmen, weil sie Zuwendung sichern; ob das bei ihm zutrifft, lässt sich von außen nicht sagen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: die Hall of Fame</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Method Man ist (Stand 29. Oktober 2026) 55 Jahre alt. Der Wu-Tang Clan gehört zu den Aufnahmen 2026 in die Rock and Roll Hall of Fame; die Zeremonie wird am 14. November 2026 im Peacock Theater in Los Angeles aufgezeichnet und im Dezember bei ABC und Disney+ gezeigt. Nach der Bekanntgabe schrieb Method Man auf X: ›We made it. THANK YOU!!!!‹ (›Wir haben es geschafft. DANKE!!!!‹). Das Wort ›Wir‹ in diesem Satz passt zu seinem Muster.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se2", label:"Lebensmusterkompass: SE2 – Flusspferd"},
+        {route:"beruehmte-carlos-santana", label:"Porträt: Carlos Santana (SE2w3)"},
       ])}
     </div>
   `);

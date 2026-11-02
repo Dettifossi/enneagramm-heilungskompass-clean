@@ -1662,6 +1662,7 @@ export function woodyAllenPortraitPage() {
         {route:"beruehmte-gerald-hoerhan", label:"Porträt: Gerald H\u00f6rhan (SE6w7)"},
         {route:"beruehmte-kevin-kuehnert", label:"Porträt: Kevin K\u00fchnert (SE6w7)"},
         {route:"beruehmte-thomas-schmelzer", label:"Porträt: Thomas Schmelzer (SO5w6)"},
+        {route:"beruehmte-albert-brooks", label:"Porträt: Albert Brooks (SO6w7)"},
       ])}
     </div>
   `);
@@ -3040,6 +3041,145 @@ export function larrySangerPortraitPage() {
         {route:"beruehmte-roger-akelius", label:"Porträt: Roger Akelius (SE5w6)"},
         {route:"beruehmte-jimmy-wales", label:"Porträt: Jimmy Wales (SO5w6)"},
         {route:"beruehmte-juliane-koepcke", label:"Porträt: Juliane Koepcke (SE5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+export function emilyBluntPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-emily-blunt-portrait.jpg" alt="Emily Blunt – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Emily Blunt</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexueller Typ 6 mit Fünferflügel &middot; Kontratyp der Sechs</p>
+        <p class="krim-portrait-subtitle">Britisch-amerikanische Schauspielerin, geb. 1983 in London &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf: ein Kind, das nicht sprechen konnte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> geht auf das zu, wovor andere ausweichen, und tut es mit gesenktem Kopf und wachen Augen. Emily Olivia Laura Blunt kam am 23. Februar 1983 in London zur Welt, als zweites von vier Kindern; ihr Vater Oliver Blunt war Anwalt, ihre Mutter Joanna Mackie Englischlehrerin und frühere Schauspielerin. Zwischen dem siebten und vierzehnten Lebensjahr stotterte sie am stärksten. Sie beschrieb das Stottern als ›like an imposter living in your body‹ (wie ein Hochstapler, der im eigenen Körper wohnt).</p>
+          <p class="vb-intro">Eine Lehrerin ermutigte sie, in Schulstücken mitzuspielen. Dort stellte sie fest, dass sie flüssig sprach, wenn sie mit verstellter Stimme sprach. Nach ihren Angaben hat sich das Stottern im Erwachsenenalter weitgehend zurückgezogen, kehrt aber unter Stress zuweilen wieder.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Angst nicht umgehen, sondern ansteuern</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo sah in der sexuellen Sechs den Kontratyp der Sechs: Die Angst ist da, aber sie zeigt sich als Gegenbewegung, als Zugehen auf das, was bedroht. Bei Emily Blunt lässt sich das mit der Wahl ihres Berufs in Verbindung bringen. Ein Kind, das am meisten Mühe mit dem Sprechen hatte, wurde Schauspielerin, also jemand, dessen Beruf aus Sprechen vor Publikum besteht.</p>
+          <p class="vb-intro">Mit 18 Jahren debütierte sie 2001 im Londoner West End in ›The Royal Family‹ unter der Regie von Peter Hall und wurde vom ›Evening Standard‹ als beste Newcomerin ausgezeichnet. Zuvor hatte sie ein Agent entdeckt, nachdem sie bei einem Schulstück auf dem Edinburgh Festival aufgetreten war. Die Angst blieb der Ausgangspunkt, aber sie bestimmte nicht mehr den Weg.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Zurückhaltung und Genauigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der Sechs Beobachtungsgabe, Reserve und das Bedürfnis, eine Sache gründlich zu verstehen, bevor sie handelt. Bei Blunt kann man das in der Rollenwahl erkennen: Sie spielte überwiegend keine Glamourfiguren, sondern Königin Victoria in ›The Young Victoria‹ (2009), eine Soldatin in ›Edge of Tomorrow‹ (2014), eine FBI-Agentin in ›Sicario‹ (2015) und eine Mutter, die ihre Familie in ›A Quiet Place‹ (2018) durch eine Welt ohne Lärm führt. In allen vier Fällen stehen Genauigkeit und kontrollierte Kraft im Vordergrund. Für ›Oppenheimer‹ (2023) nahm sie nach den Berichten eine Gagenkürzung hin, um in Christopher Nolans Film mitzuspielen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: von ›My Summer of Love‹ bis ›Oppenheimer‹</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ihr Filmdebüt war ›My Summer of Love‹ (2004), das ihr den Evening Standard British Film Award als vielversprechendste Newcomerin einbrachte. 2006 folgte der Durchbruch: Für ›Gideon's Daughter‹ erhielt sie einen Golden Globe als beste Nebendarstellerin in einem Fernsehfilm, und in ›The Devil Wears Prada‹ spielte sie die Assistentin Emily Charlton; der Film spielte 326 Millionen Dollar ein und brachte ihr eine Golden-Globe- und eine BAFTA-Nominierung. 2009 erhielt sie für ›The Young Victoria‹ eine Golden-Globe-Nominierung als beste Hauptdarstellerin und den BAFTA Britannia Award als britische Künstlerin des Jahres.</p>
+          <p class="vb-intro">Es folgten ›The Adjustment Bureau‹ und ›Salmon Fishing in the Yemen‹ (beide 2011), ›Looper‹ (2012), ›Into the Woods‹ (2014), ›The Girl on the Train‹ (2016) und ›Mary Poppins Returns‹ (2018). Für ›A Quiet Place‹, bei dem ihr Ehemann John Krasinski Regie führte, gewann sie den Actor Award als beste Nebendarstellerin. Für ›Oppenheimer‹ (2023), in dem sie Katherine Oppenheimer spielt, erhielt sie ihre erste Oscar-Nominierung als beste Nebendarstellerin; der Film spielte mehr als 950 Millionen Dollar ein. Am 30. April 2026 erhielt sie einen Stern auf dem Hollywood Walk of Fame, ›The Devil Wears Prada 2‹ kam am 1. Mai 2026 in die Kinos.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Natalie Dormer und Nick Nolte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-natalie-dormer">Natalie Dormer (SX6w5)</a> ist ebenfalls eine britische Schauspielerin, die starke, kontrollierte Frauenfiguren spielt, und zeigt dieselbe Konstellation aus Wachsamkeit und Härte nach außen. <a href="#beruehmte-nick-nolte">Nick Nolte (SX6w5)</a> trägt sie rauer und ungeschützter, doch auch bei ihm gilt: Die Kraft entsteht aus dem Umgang mit der Angst, nicht aus ihrer Abwesenheit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Privates und Engagement</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Seit November 2008 war sie mit dem Schauspieler und Regisseur John Krasinski zusammen; sie verlobten sich im August 2009 und heirateten im Juli 2010 in Como. Sie haben zwei Töchter (2014 und 2016 geboren). 2015 erhielt sie die US-Staatsbürgerschaft und ist seither britisch-amerikanische Doppelstaatlerin.</p>
+          <p class="vb-intro">Seit 2006 arbeitet sie mit dem American Institute for Stuttering zusammen, gehört dessen Vorstand an und gibt jährlich eine Benefizgala, deren Erlös Stipendien für Sprechtherapie finanziert. Sie unterstützt außerdem den Malala Fund für Mädchenbildung und Family Reach für Familien, die von Krebs betroffen sind. Das Stottern, das sie einmal als Hochstapler im eigenen Körper erlebte, ist damit zu einem Thema geworden, für das sie öffentlich einsteht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Was bleibt: Mut als Antwort auf Angst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die sexuelle Sechs verwandelt Angst in Vorwärtsbewegung, und das kann viel leisten, solange die Kraft nicht zur Pflicht wird, nie unsicher sein zu dürfen. Heilsam wäre für diesen Subtyp die Erfahrung, dass auch Momente erlaubt sind, in denen die Stimme wieder stockt, ohne dass das Gesamtbild einstürzt. Dass Blunt über das Stottern spricht und anderen dabei hilft, zeigt einen Ausweg: Die Angst wird nicht mehr bekämpft, sondern geteilt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-natalie-dormer", label:"Porträt: Natalie Dormer (SX6w5)"},
+        {route:"beruehmte-nick-nolte", label:"Porträt: Nick Nolte (SX6w5)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
+
+export function yvesSaintLaurentPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-yves-saint-laurent-portrait.jpg" alt="Yves Saint Laurent – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Yves Saint Laurent</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexueller Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Französischer Modeschöpfer, 1936&ndash;2008 &ndash; ›Le Smoking‹, Mondrian-Kleid, Rive Gauche &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba: der Junge mit dem Miniaturtheater</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> wirkt in sich ruhend und ist dabei auf das Feinste gerichtet. Yves Saint Laurent wurde am 1. August 1936 in Oran in Algerien als ältestes von drei Kindern französischer Eltern geboren. In einer strengen katholischen Schule wurde er gemobbt, weil er als unmännlich galt. Er baute Miniaturtheater, entwarf Kostüme und schrieb mit 13 Jahren Bücher ab und illustrierte sie; 1949 und 1950 verfasste er zwei Kinderbücher.</p>
+          <p class="vb-intro">1953 gewann er bei einem Wettbewerb junger Designer in Paris den dritten Preis, 1954 den ersten. 1955 schloss er als Jahrgangsbester die Fachschule der Pariser Couture ab. Michel de Brunhoff stellte ihn Christian Dior vor, der ihn auf der Stelle einstellte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Strenge für das eine Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo nannte die sexuelle Eins <em>Zeal</em> (Eifer), den Kontratyp der Eins: Die Strenge richtet sich nicht auf die Regeln der Gemeinschaft, sondern mit großer Intensität auf eine einzelne Aufgabe. Bei Saint Laurent lässt sich das mit der Mode verbinden, der er sich ganz widmete. 1957 starb Dior, und der damals 21-Jährige wurde Chefdesigner des Hauses. 1958 zeigte er die Linie ›Trapeze‹, 1960 eine umstrittene ›Beat Look‹-Kollektion, seine letzte für Dior.</p>
+          <p class="vb-intro">Im August 1960 erlitt er während seines Militärdiensts im Algerienkrieg einen Zusammenbruch und wurde in eine Klinik eingewiesen, wo er mit Elektroschocks behandelt wurde. Er führte seine späteren psychischen Probleme und Abhängigkeiten selbst auf diese Zeit zurück. Er verklagte Dior wegen Vertragsbruchs und gewann. Das Foto zeigt eine dicke, schwarze, eckige Brille, kräftiges, nach oben gestrichenes welliges Haar und eine Stirn mit Querfalten. Der Blick geht ernst und etwas seitlich an der Kamera vorbei, der Mund ist fest geschlossen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Kleidung für andere und eine Partnerschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der Eins Zuwendung. Bei Saint Laurent zeigt er sich in der Frage, wie Kleidung anderen dient. 1966 stellte er ›Le Smoking‹ vor, einen Smoking für Frauen, und eröffnete die erste Rive-Gauche-Boutique mit Prêt-à-porter (Konfektionsmode von der Stange); 1968 folgte der erste Rive-Gauche-Laden in den USA auf der Madison Avenue, 1969 seine erste Herren-Konfektionskollektion. Das Haus gründete er 1961 mit seinem Partner Pierre Bergé. Die Liebesbeziehung endete 1976, die Geschäftspartnerschaft blieb.</p>
+          <p class="vb-intro">1966 reiste er zum ersten Mal nach Marrakesch und sagte später: ›Everything was black before Marrakech.‹ (›Vor Marrakesch war alles schwarz.‹) Er hielt einen Chihuahua namens Hazel und nacheinander mehrere Französische Bulldoggen namens Moujik.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: der Schnitt, der Frauen anders zeigte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1962 zeigte er seine erste Kollektion in der Rue Spontini; 1965 folgte die Mondrian-Kollektion, 1966 ›Le Smoking‹. Seine Frühjahrskollektion 1971 mit Anleihen bei den 1940er-Jahren war hoch umstritten, und er drohte kurz, die Haute Couture (die handgefertigte Maßmode) zu beenden. 1976 folgte die Kollektion ›Russian Peasant‹, 1978 der ›Broadway Suit‹, dem die Verbreitung gepolsterter Schultern zugeschrieben wird. In den 1980er-Jahren konzentrierte er sich auf die Couture. 1987, nach dem Börsencrash vom Schwarzen Montag, übergab er die Konfektion an Assistenten; 1993 wurde das Unternehmen an Sanofi verkauft, und 2002 hörte er auf.</p>
+          <p class="vb-intro">Er erhielt 1982 den CFDA International Fashion Award und 1983 als erster lebender Modeschöpfer eine Einzelausstellung im Metropolitan Museum of Art. 1985 folgte der ›Oscar de la mode‹ (›Oscar der Mode‹), 1999 der CFDA-Preis für das Lebenswerk. 2001 wurde er Kommandeur, 2007 Großoffizier der Ehrenlegion. 2004 gründete er mit Bergé eine Stiftung in Paris, 2017 eröffneten Museen in Paris und Marrakesch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Michèle Lamy und Annie Lennox</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-michele-lamy">Michèle Lamy (SX1w2)</a> arbeitet ebenfalls in der Mode und lebt, wie Saint Laurent, einen sehr eigenen Stil mit Konsequenz. <a href="#beruehmte-annie-lennox">Annie Lennox (SX1w2)</a> zeigt, wie ein unverwechselbares Bild und eine klare Haltung zusammengehören können.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Verletzlichkeit: die Last hinter dem Glanz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ab Mitte der 1970er-Jahre nahmen Alkohol und Drogen zu; bei manchen Schauen brauchte er die Stütze von Models, um über den Laufsteg zu gehen. 1973 und 1974 hatte er eine kurze Affäre mit Jacques de Bascher, die Bergé beendete. Orte gaben ihm Halt: Er erwarb ab 1974 mehrere Häuser in Marokko, darunter 1980 den Majorelle-Garten, und kaufte 1983 das Château Gabriel bei Deauville. Diese Angaben sind historisch belegt und kein Urteil über seinen Typ.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Ende und was bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Saint Laurent starb am 1. Juni 2008 im Alter von 71 Jahren in seinem Haus in Paris an einem Hirntumor. Wenige Tage zuvor waren er und Bergé eine eingetragene Partnerschaft (PACS) eingegangen. Seine Asche wurde im Majorelle-Garten in Marrakesch verstreut.</p>
+          <p class="vb-intro">Für die sexuelle Eins mit Zweierflügel liegt der Weg darin, dass Strenge gegenüber dem eigenen Werk nicht mit Strenge gegen sich selbst verwechselt werden muss und Zuwendung auch ohne Leistung möglich ist. Bei Saint Laurent lässt sich das mit den Orten verbinden, an denen er Ruhe fand, wie Marrakesch.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-michele-lamy", label:"Porträt: Michèle Lamy (SX1w2)"},
+        {route:"beruehmte-annie-lennox", label:"Porträt: Annie Lennox (SX1w2)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
       ])}
     </div>
   `);

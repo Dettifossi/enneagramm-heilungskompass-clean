@@ -593,6 +593,7 @@ export function willieNelsonPortraitPage() {
         {route:"beruehmte-ed-sheeran", label:"Portrait: Ed Sheeran (SX9w1)"},
         {route:"beruehmte-owen-wilson", label:"Portrait: Owen Wilson (SX9w1)"},
         {route:"beruehmte-viggo-mortensen", label:"Portrait: Viggo Mortensen (SX9w1)"},
+        {route:"beruehmte-gary-cooper", label:"Portrait: Gary Cooper (SX9w1)"},
       ])}
     </div>
   `);
@@ -2292,6 +2293,7 @@ export function ryanGoslingPortraitPage() {
         {route:"beruehmte-eva-mendes", label:"Portrait: Eva Mendes (SX6w7) – wife"},
         {route:"beruehmte-mata-hari", label:"Portrait: Mata Hari (SX2w3)"},
         {route:"beruehmte-giacomo-casanova", label:"Portrait: Giacomo Casanova (SX2w3)"},
+        {route:"beruehmte-rj-mitte", label:"Portrait: RJ Mitte (SX2w3)"},
       ])}
     </div>
   `);
@@ -2712,6 +2714,7 @@ export function jonahHillPortraitPage() {
         {route:"beruehmte-donata-hopfen", label:"Portrait: Donata Hopfen (SO6w7)"},
         {route:"beruehmte-herbert-groenemeyer", label:"Portrait: Herbert Grönemeyer (SO6w7)"},
         {route:"beruehmte-james-corden", label:"Portrait: James Corden (SO6w7)"},
+        {route:"beruehmte-albert-brooks", label:"Portrait: Albert Brooks (SO6w7)"},
       ])}
     </div>
   `);
@@ -3117,6 +3120,145 @@ export function joeVitalePortraitPage() {
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-camille-fritsch", label:"Portrait: Dr. Camille Fritsch (SP2w1)"},
         {route:"beruehmte-sean-sherman", label:"Portrait: Sean Sherman (SP2w1)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}
+
+export function georgPreussePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-georg-preusse-portrait.jpg" alt="Georg Preusse – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Georg Preusse (‘Mary’)</p>
+        <p class="krim-portrait-typ">SX2w3 &middot; Sexual Type 2 with a Three wing</p>
+        <p class="krim-portrait-subtitle">German-Swiss actor and drag performer, b. 1950 in Ankum &ndash; stage figure ‘Mary’, ‘Mary &amp; Gordy’ &ndash; animal counterpart: camel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The camel: a boy who learned early to hide and still keep walking</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>camel</strong> carries heavy loads through barren land and needs little for it. Georg Wilhelm Johannes Preuße (nowadays usually spelled Preusse) was born on 24 August 1950 in Ankum in the Osnabrück region and first became a radio and television technician, a solid trade. Alongside his job he began performing in clubs as a drag artist at a young age and created the figure ‘Mary Morgan’ there.</p>
+          <p class="vb-intro">The road there was not easy. According to a report in the Swiss newspaper Blick, his parents rejected his homosexuality; his father thought him ill and sent him to a psychiatrist, and when he announced he would perform in women's clothes, they threw him out of the house. Looking back, he sees this expulsion as the start of his stage career. His autobiography ‘Mary – Mein Leben in ihrem Schatten’ (‘Mary – My Life in Her Shadow’) tells, among other things, of this difficult childhood.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Two: a figure smiling at the whole hall</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo called the sexual Two ‘aggression/seduction’: an active approach to the other that is meant to create closeness. In Preusse this can be linked to the figure ‘Mary’, a glamorous, warm and very attentive stage personality who filled halls. The audience was not only entertained but addressed personally. That a person who was rejected at home received so much affection on stage can be linked to the Two's need to be loved.</p>
+          <p class="vb-intro">An earlier relationship ended in violence, according to the Blick report: his partner at the time, Gerd, seven years older, injured him so badly that his lower jaw was shattered. Anyone who turns completely towards another person carries this risk; the contrast with the long, reliable bond with Jack Amsler is clear. The one supporting bond in private life today is his husband Jack Amsler, the Swiss man who was also his manager and with whom, according to Blick, he has been together for almost fifty years; the couple married in July 2002 and live in Ringwil in the canton of Zurich. The photo shows an older man with swept-back, grey-streaked hair, a high forehead furrowed across, raised eyebrows and warm eyes with laugh lines. The broad smile shows the upper teeth and looks open and welcoming.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three wing: transformation, craft and stage diligence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three wing (w3)</strong> gives the Two drive, outward impact and the will to transform into something that carries. In Preusse the figure ‘Mary’ itself stands for this: a carefully built image with costumes, hairstyles and appearances. By his own account around 800 show costumes are stored in his cellar. It also belongs to the Three that he did not stay with revue but moved into acting, a risk for someone known as Mary.</p>
+          <p class="vb-intro">Awards document the outward impact: in 1999 the Berliner Bär (B.Z. culture prize), three times the Goldener Vorhang (Golden Curtain) as Berlin's most popular actor, in 2004 the Peter Frankenfeld Prize. At times he advertised jam and had his own shows on German television.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: from the drag stage to spoken theatre</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the early 1980s he performed as a duo with Reiner Kohler as ‘Mary &amp; Gordy’. The two made six television shows (1981–1986), toured widely and in 1987 received the Goldene Kamera of the magazine Hörzu. When Kohler ended his career in 1987 for health reasons, Preusse carried on alone as ‘Mary’, with tours and his own television shows; he filled large halls such as the Hallenstadion in Zurich.</p>
+          <p class="vb-intro">Then came the step that makes his ability visible: he played theatre. In the musical ‘Cabaret’ (1993–1994) he was the Master of Ceremonies, before that in ‘Narrenkäfig’ (‘Fools' Cage’, 1991–1993), later in Brecht's ‘Die Dreigroschenoper’ (‘The Threepenny Opera’, 2005–2006), in Borchert's ‘Draußen vor der Tür’ (‘The Man Outside’, 2002) and in Hochhuth's ‘Der Stellvertreter’ (‘The Deputy’, 2018); in Hofmannsthal's ‘Jedermann’ (‘Everyman’) he appeared from 2000 to 2014. Television roles followed, such as in ‘Derrick’ (1997) and ‘SOKO München’ (2018). His ability lies in not letting himself be limited to the mask but carrying an audience without it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Sammy Davis Jr. and Elvis Presley</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-sammy-davis-jr">Sammy Davis Jr. (SX2w3)</a> gave himself to the audience with all his versatility and also began in an ensemble, in a trio with his father and a partner; for Preusse it was the duo ‘Mary &amp; Gordy’. Both are entertainers who turn their warmth into stage presence. <a href="#beruehmte-elvis-presley">Elvis Presley (SX2w3)</a> is another example of a stage personality whose warmth is directed at the whole hall.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The hidden and the shown</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the Blick report ‘Mary’ now belongs to the past. That he dedicated a book to the figure in which she appears as a ‘shadow’ can be read as him keeping mask and person apart himself. For the Two this is an important step: affection is meant not only for the role but also for the person behind it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where he stands and how to place it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">On 20 March 2022 Preusse celebrated his 40th stage anniversary as ‘Mary’ with the charity single ‘Noch singe ich’ (‘I'm Still Singing’). He is an ambassador of the initiative ‘Superhelden fliegen vor’ (‘Superheroes Fly Ahead’), which supports young terminally ill people. He holds a Swiss passport; the couple like to travel by motorhome, with Jack planning the routes. He wants to live to 93 and has drawn up a will and a living will with his husband: ‘Ich möchte niemandem zur Last fallen’ (‘I don't want to be a burden to anyone’). (As of 27 October 2026).</p>
+          <p class="vb-intro">For the sexual Two with a Three wing the path lies in allowing affection to be received without something having to be achieved first. The wish not to be a burden to anyone can be linked to the pattern of the Two; his wish to be able to go ‘once lightly and with a clear conscience’ can be connected to the image of the camel that carried for a long time.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx2", label:"SX2 – The camel: subtype profile"},
+        {route:"beruehmte-sammy-davis-jr", label:"Portrait: Sammy Davis Jr. (SX2w3)"},
+        {route:"beruehmte-elvis-presley", label:"Portrait: Elvis Presley (SX2w3)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}
+
+export function michaelDouglasPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michael-douglas-portrait.jpg" alt="Michael Douglas – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michael Douglas</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with a Nine wing</p>
+        <p class="krim-portrait-subtitle">American actor and producer, b. 1944 &ndash; ‘Wall Street’ &ndash; animal counterpart: goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The goose: the son in his father's shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>goose</strong> keeps watch for the group and raises the alarm when something is wrong. Michael Douglas was born on 25 September 1944 in New Brunswick, New Jersey, the son of the actor Kirk Douglas and his first wife Diana Dill; the parents separated in 1951. His younger brother Joel became a producer. He attended the Eaglebrook School in Deerfield (Massachusetts) and studied at the University of California in Santa Barbara.</p>
+          <p class="vb-intro">In the mid-1960s he went to New York and trained at the Neighborhood Playhouse and the American Place Theater. His film debut was ‘Hail, Hero!’ (1969), which earned him a Golden Globe nomination. From 1972 to 1977 he played the lead role of Steve Heller alongside Karl Malden in the television series ‘The Streets of San Francisco’.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social One: responsibility for the collective</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> the social One is called <em>non-adaptability</em>: a standard that applies to the community and does not adapt when the community does not follow it. In Douglas this can be linked to his work as a producer. In 1975 he produced ‘One Flew Over the Cuckoo's Nest’, which won the Oscar for best picture in 1976, in 1979 ‘The China Syndrome’, a film about the safety of nuclear power plants, and later ‘Romancing the Stone’ (1984) and ‘The Jewel of the Nile’ (1985). He put stories about institutions and responsibility on the screen and worked as part of an ensemble.</p>
+          <p class="vb-intro">The drawing shows full, wavy, brushed-back hair with individual strands, a high forehead with horizontal lines and a deep vertical furrow between the strong brows, large eyes with heavy lids and bags, and a strong nose. The mouth is closed, with a faint, slightly crooked hint of a smile. He wears a dark jacket over a white collar. The gaze is serious, attentive and directed straight ahead.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine wing: composure and quiet persistence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine wing (w9)</strong> gives the One composure on the outside and persistence. In Douglas this can be linked to how he dealt with his cancer: he made it public in 2010, was treated with radiation and chemotherapy and said in 2011 that the tumour was gone. Since July 1998 he has worked as a UN Messenger of Peace for disarmament, among other things for the non-proliferation of nuclear weapons and against the illegal trade in small arms; according to a report in Global Magazin his commitment goes back to the Cold War arms race of his childhood.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: Gordon Gekko and a career in waves</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">For the role of the stockbroker Gordon Gekko in ‘Wall Street’ (1987) he received the Oscar for best actor. ‘Basic Instinct’ (1992), ‘Falling Down’ (1993) and in 2000 ‘Traffic’ and ‘Wonder Boys’ followed. In 2013 he played the pianist Liberace in ‘Behind the Candelabra’ and won an Emmy and a Golden Globe, from 2015 the physicist Hank Pym in ‘Ant-Man’, and for the Netflix series ‘The Kominsky Method’ he received a Golden Globe in early 2019.</p>
+          <p class="vb-intro">In 2004 he was given the Cecil B. DeMille Award, in 2009 the Life Achievement Award of the American Film Institute and in 2023 the Honorary Palme d'Or at Cannes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Navi Pillay and Helmut Schmidt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-navi-pillay">Navi Pillay (SO1w9)</a> shares with Douglas work within the United Nations: she was UN High Commissioner for Human Rights, he has been a Messenger of Peace since 1998. <a href="#beruehmte-helmut-schmidt">Helmut Schmidt (SO1w9)</a>, like Douglas, stands for a calm, cultivated fulfilment of duty that puts itself in the service of the community.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Family and legacy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From 1977 to 2000 Douglas was married to Diandra Luker, with whom he has a son, Cameron (b. 1978). Since 18 November 2000 he has been married to the actress Catherine Zeta-Jones, with whom he has two children, a son and a daughter. His father Kirk Douglas died on 5 February 2020 at the age of 103.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where he stands and how to place it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In July 2025 Douglas said he had deliberately not taken any roles since 2022; the publication of his memoirs, written with Michael Fleming, was announced for autumn 2026 (as of 28 October 2026).</p>
+          <p class="vb-intro">For the social One with a Nine wing, one path of development lies in carrying responsibility for the group even where one is no longer in the spotlight. In Douglas this can be linked to the move from role to retrospect: someone who stood for stories about institutions and conscience now writes down his own story.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so1", label:"SO1 – The goose: subtype profile"},
+        {route:"beruehmte-navi-pillay", label:"Portrait: Navi Pillay (SO1w9)"},
+        {route:"beruehmte-helmut-schmidt", label:"Portrait: Helmut Schmidt (SO1w9)"},
         {route:"lebensmusterkompass", label:"Life Pattern Compass"},
       ])}
     </div>

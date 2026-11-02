@@ -1421,10 +1421,10 @@ export function reinhardMeyPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-reinhard-mey-portrait.jpg" alt="Reinhard Mey" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-reinhard-mey-v2-portrait.jpg" alt="Reinhard Mey" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Reinhard Mey</p>
-        <p class="krim-portrait-typ">SO4w3 &middot; Sozialer Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Sozialer Typ 4 mit Fünferflügel</p>
         <p class="krim-portrait-subtitle">Deutscher Liedermacher, geb. 1942 in Berlin &ndash; Tierentsprechung: Gürteltier</p>
       </div>
       <div class="page-content">
@@ -1437,32 +1437,32 @@ export function reinhardMeyPortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Vier: Anderssein innerhalb der Gemeinschaft</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> trägt nach Naranjo die Scham: das Gefühl, nicht ganz dazuzugehören, und zugleich den Wunsch, von der Gemeinschaft doch gesehen zu werden. Bei Mey zeigt sich das in seiner Stellung im Musikgeschäft: Er passte nie in die Schlagerwelt, bediente nicht den Zeitgeschmack und blieb mit Gitarre, langen Textzeilen und leiser Ironie ein Einzelgänger, der trotzdem ein großes Publikum erreichte, über Generationen hinweg.</p>
+          <p class="vb-intro">Dr. Claudio Naranjo beschrieb die <strong>soziale Vier (SO4)</strong> mit dem Stichwort Scham: das Gefühl, nicht ganz dazuzugehören, bei gleichzeitigem Wunsch, von der Gemeinschaft doch gesehen zu werden. Bei Mey zeigt sich das in seiner Stellung im Musikgeschäft: Er passte nie in die Schlagerwelt, bediente nicht den Zeitgeschmack und blieb mit Gitarre, langen Textzeilen und leiser Ironie ein Einzelgänger, der trotzdem ein großes Publikum erreichte, über Generationen hinweg.</p>
           <p class="vb-intro">Auch sein Protestlied &sbquo;Nein, meine Söhne geb&lsquo; ich nicht&lsquo; (1986) ist keine Parole für die Menge, sondern ein sehr persönliches Bekenntnis: Der Schutz der eigenen Kinder vor Krieg und staatlichem Zugriff. Das Anderssein richtet sich gegen Obrigkeit und Behörde, etwa im &sbquo;Antrag auf Erteilung eines Antragsformulars&lsquo;, und bleibt dabei der Gemeinschaft zugewandt.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. Der Dreierflügel: Handwerk, Vorbereitung und Erfolg</h2>
+        <h2 class="vb-section">3. Der Fünferflügel: Abstand, Genauigkeit und Vorbereitung</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel</strong> bringt Leistung und Wirkung ins Spiel, und das zeigt sich bei Mey als Handwerk. Er erscheint rund fünf Stunden vor einem großen Auftritt in der Halle, macht einen gründlichen Soundcheck und spielt danach allein das gesamte Konzertprogramm einmal durch. Er spricht von einem Lampenfieber, das nie nachgelassen habe: &sbquo;Es ist jeden Abend da. Es ist der Motor, der mich antreibt … der Wettkampf mit mir selbst, der freie Fall, der Triumph über die Angst.&lsquo;</p>
-          <p class="vb-intro">Der Erfolg ist die sichtbare Seite des Dreierflügels: Etwa alle zwei bis drei Jahre geht er auf eine ausgedehnte Tournee, von jeder erscheint ein Live-Album, und 1973 erwarb er sogar die Privatpilotenlizenz, drei Jahre später die Instrumentenflugberechtigung. Das Fliegen, das ihn zu &sbquo;Über den Wolken&lsquo; trug, ist Leistung und Freiheit zugleich.</p>
+          <p class="vb-intro">Der <strong>Fünferflügel</strong> gibt der Vier Abstand und den Hang, eine Sache erst zu durchdringen und zu beherrschen, bevor sie nach außen geht. Bei Mey lässt sich damit seine Arbeitsweise in Verbindung bringen: Er erscheint rund fünf Stunden vor einem großen Auftritt in der Halle, macht einen gründlichen Soundcheck und spielt danach allein das gesamte Konzertprogramm einmal durch. Vor das Publikum tritt er erst, wenn alles geprüft ist.</p>
+          <p class="vb-intro">Dazu passt die Genauigkeit seiner Texte, die oft lange Zeilen haben und mit Sprache spielen. Auch das Fliegen, das ihn zu &sbquo;Über den Wolken&lsquo; trug, ist bei ihm keine bloße Schwärmerei: 1973 erwarb er die Privatpilotenlizenz, drei Jahre später die Instrumentenflugberechtigung, also die Fähigkeit, nach Instrumenten und Regeln zu navigieren. Das Lampenfieber bleibt trotzdem: &sbquo;Es ist jeden Abend da. Es ist der Motor, der mich antreibt … der Wettkampf mit mir selbst, der freie Fall, der Triumph über die Angst.&lsquo;</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Der Verlust des Sohnes: Der Panzer und das Empfindsame darunter</h2>
+        <h2 class="vb-section">4. Der Verlust des Sohnes: Was hinter dem Panzer bleibt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">2009 erlitt Meys Sohn Maximilian eine schwere Lungenentzündung, die ihn ins Koma versetzte; er starb 2014 im Alter von 32 Jahren, ohne das Bewusstsein wiedererlangt zu haben. Mey machte den Verlust nie zum öffentlichen Dauerthema, verarbeitete ihn aber in dem Lied &sbquo;Du bist ein Riese, Max!&lsquo;, auch mit dem Gedanken, wie Eltern ihre Kinder durch Erziehung oft klein statt groß werden lassen. Das ist das Gürteltier: das zutiefst Persönliche bleibt geschützt, aber in der Kunst darf es sichtbar werden.</p>
+          <p class="vb-intro">2009 erlitt Meys Sohn Maximilian eine schwere Lungenentzündung, die ihn ins Koma versetzte; er starb 2014 im Alter von 32 Jahren, ohne das Bewusstsein wiedererlangt zu haben. Mey machte den Verlust nie zum öffentlichen Dauerthema, verarbeitete ihn aber in dem Lied &sbquo;Du bist ein Riese, Max!&lsquo;, auch mit dem Gedanken, wie Eltern ihre Kinder durch Erziehung oft klein statt groß werden lassen. Das zutiefst Persönliche blieb geschützt, in der Kunst durfte es sichtbar werden.</p>
           <p class="vb-intro">Sein erklärtes erzieherisches Prinzip, den Söhnen viel Freiraum zu lassen und sie &sbquo;sein zu lassen&lsquo;, passt zu einer Vier, die das eigene Anderssein schätzt und es anderen zugesteht.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Licht und Schatten der sozialen Vier mit Dreierflügel</h2>
+        <h2 class="vb-section">5. Nähe und Rückzug</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht zeigt sich in der Verbindung von Tiefe und Reichweite: &sbquo;Gute Nacht, Freunde&lsquo;, &sbquo;Über den Wolken&lsquo; und viele weitere wurden fester Bestandteil des deutschsprachigen Liedguts, weil in ihnen echtes Gefühl und sorgfältiges Handwerk zusammenkommen.</p>
-          <p class="vb-intro">Die Schattenseite liegt in der Anspannung hinter dem Gelingen: Auch nach Tausenden Konzerten bleibt das Lampenfieber unverändert stark, und der Anspruch, vor sich selbst zu bestehen, muss vor jedem Auftritt neu eingelöst werden. Der Wunsch, gesehen zu werden, und der Schutz des Privaten stehen dabei nebeneinander.</p>
+          <p class="vb-intro">Hell ist bei Mey die Verbindung von Tiefe und Reichweite: &sbquo;Gute Nacht, Freunde&lsquo;, &sbquo;Über den Wolken&lsquo; und viele weitere wurden fester Bestandteil des deutschsprachigen Liedguts, weil in ihnen echtes Gefühl und sorgfältige Arbeit zusammenkommen.</p>
+          <p class="vb-intro">Die Anspannung dahinter ist der andere Teil: Auch nach Tausenden Konzerten bleibt das Lampenfieber unverändert stark, und der Anspruch, vor sich selbst zu bestehen, muss vor jedem Auftritt neu eingelöst werden. Der Wunsch, gesehen zu werden, und der Schutz des Privaten stehen dabei nebeneinander, wie es bei einer sozialen Vier mit Fünferflügel zu erwarten ist.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Drei soziale Vierer, die ihr Anderssein in Erfolg verwandelten</h2>
+        <h2 class="vb-section">6. Liedermacher im selben Subtyp</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Ein aufschlussreicher Vergleich innerhalb desselben Subtyps ist <a href="javascript:void(0)" data-route="beruehmte-cat-stevens">Cat Stevens / Yusuf Islam</a> (SO4w3): Auch er ist ein Liedermacher mit sanfter, sehr persönlicher Stimme, der großen Erfolg hatte und sich dennoch zeitlebens als Außenseiter und Suchender zeigte. Bei beiden verbindet der Dreierflügel die Empfindsamkeit mit der Fähigkeit, ein großes Publikum zu erreichen.</p>
-          <p class="vb-intro">Auch <a href="javascript:void(0)" data-route="beruehmte-hugh-grant">Hugh Grant</a> (SO4w3) zeigt, wie die soziale Vier mit Dreierflügel Erfolg und Distanz zum eigenen Ruhm verbindet: Der Panzer bleibt, auch wenn die Bühne groß ist.</p>
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-leonard-cohen">Leonard Cohen</a> (SO4w5) teilt mit Mey den Fünferflügel: Auch bei ihm steht der Text im Mittelpunkt, und auch er hielt Abstand zum Betrieb, obwohl seine Lieder Millionen erreichten.</p>
+          <p class="vb-intro">Einen aufschlussreichen Gegenpol bildet <a href="javascript:void(0)" data-route="beruehmte-cat-stevens">Cat Stevens / Yusuf Islam</a> (SO4w3): ebenfalls ein Liedermacher mit sanfter, sehr persönlicher Stimme, bei dem aber der Dreierflügel stärker auf Wirkung und Suche nach Erfolg zielt, während Mey bei Vorbereitung und Genauigkeit bleibt.</p>
         </blockquote>
 
       </div>
@@ -1472,8 +1472,8 @@ export function reinhardMeyPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
-        {route:"beruehmte-cat-stevens", label:"Porträt: Cat Stevens / Yusuf Islam (SO4w3) – derselbe Subtyp"},
-        {route:"beruehmte-hugh-grant", label:"Porträt: Hugh Grant (SO4w3)"},
+        {route:"beruehmte-leonard-cohen", label:"Porträt: Leonard Cohen (SO4w5) – derselbe Subtyp"},
+        {route:"beruehmte-cat-stevens", label:"Porträt: Cat Stevens / Yusuf Islam (SO4w3)"},
       ])}
     </div>
   `);
@@ -3053,6 +3053,144 @@ export function rogerAkeliusPortraitPage() {
         {route:"beruehmte-peter-lustig", label:"Porträt: Peter Lustig (SE5w6)"},
         {route:"beruehmte-larry-sanger", label:"Porträt: Larry Sanger (SE5w6)"},
         {route:"beruehmte-simone-menne", label:"Porträt: Simone Menne (SE5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+export function albertBrooksPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-albert-brooks-portrait.jpg" alt="Albert Brooks – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Albert Brooks</p>
+        <p class="krim-portrait-typ">SO6w7 &middot; Sozialer Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Komiker, Regisseur und Schauspieler, geb. 1947 &ndash; Tierentsprechung: Erdmännchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Erdmännchen: einer, der die Lage im Blick behält</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Erdmännchen</strong> steht aufrecht auf zwei Beinen und späht in alle Richtungen, damit die Gruppe sicher fressen kann. Albert Brooks kam am 22. Juli 1947 als Albert Lawrence Einstein in Beverly Hills zur Welt, in eine jüdische Familie des Showgeschäfts. Seine Mutter war die Schauspielerin Thelma Leeds, sein Vater der Radiokomiker Harry Einstein, der als ›Parkyakarkus‹ auftrat. Er war der jüngste von drei Söhnen; zu seinen Brüdern gehört der Komiker Bob Einstein.</p>
+          <p class="vb-intro">An der Beverly Hills High School kannte er Richard Dreyfuss und Rob Reiner. Danach ging er ans Carnegie Institute of Technology in Pittsburgh, wo Michael McKean und David L. Lander zu seinen Kommilitonen zählten, brach aber nach einem Jahr ab, um Komiker zu werden. Mit 19 nannte er sich Albert Brooks und scherzte: ›the real Albert Einstein changed his name to sound more intelligent‹ – der echte Albert Einstein habe seinen Namen geändert, um klüger zu klingen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sechs: Angst als Gruppenthema</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sechs (SO6)</strong> sucht Sicherheit in der Gruppe, in Regeln und Pflicht; Claudio Naranjo nannte diesen Subtyp ›Pflicht‹. Bei Albert Brooks lässt sich das mit seiner Bühnenfigur in Verbindung bringen: Er spielte nach der Wikipedia-Seite den egozentrischen, nervösen, selbstbewussten Insider des Showgeschäfts, einen Mann, der sich ständig beobachtet fühlt und seine Unsicherheit selbst zum Thema macht. Er trat in den späten 1960er und frühen 1970er Jahren regelmäßig in Fernsehshows auf, auch in Johnny Carsons ›The Tonight Show‹, und arbeitete für die Kabarettgruppe The Credibility Gap mit McKean, Lander und Harry Shearer.</p>
+          <p class="vb-intro">Dass er die meisten seiner Filme gemeinsam mit derselben Autorin schrieb, mit Monica Johnson, passt zu einem Subtyp, der in verlässlichen Arbeitsbeziehungen seine Basis hat. Seine Komik lebt davon, die Angst der Gruppe vorzuführen, statt sie zu verstecken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Witz als Antwort auf die Sorge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der Sechs Leichtigkeit, Einfallsreichtum und Humor. Bei Brooks kann man ihn darin erkennen, wie er die eigene Sorge in Pointen verwandelt. Als er für seine Rolle in ›Drive‹ (2011) nicht für den Oscar nominiert wurde, schrieb er auf Twitter: ›You don't like me. You really don't like me.‹ – ›Ihr mögt mich nicht. Ihr mögt mich wirklich nicht.‹ Der Satz spielt auf eine berühmte Dankesrede an und macht aus dem Wunsch, gemocht zu werden, einen Scherz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Regisseur, Schauspieler, Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1975 drehte er sechs Kurzfilme für die erste Staffel von ›Saturday Night Live‹. Als Regisseur schuf er ›Real Life‹ (1979), eine Satire auf die Dokuserie ›An American Family‹ und oft als Vorläufer des Reality-Fernsehens gesehen, ›Modern Romance‹ (1981), ›Lost in America‹ (1985), meist als sein bestes Werk gerühmt, ›Defending Your Life‹ (1991) mit Meryl Streep, ›Mother‹ (1996) mit Debbie Reynolds, ›The Muse‹ (1999) und ›Looking for Comedy in the Muslim World‹ (2005). Für die Drehbücher zu ›Lost in America‹ und ›Mother‹ erhielt er Preise der National Society of Film Critics.</p>
+          <p class="vb-intro">Als Schauspieler begann er 1976 mit Martin Scorsese in ›Taxi Driver‹, wo er viel improvisieren durfte. Für ›Broadcast News‹ (1987), als unsicherer, anständiger Fernsehreporter, wurde er für den Oscar als bester Nebendarsteller nominiert. In ›Drive‹ (2011) spielte er den Gangster Bernie Rose, was ihm zahlreiche Kritikerpreise einbrachte, und er sprach Marlin in ›Finding Nemo‹ (2003) und ›Finding Dory‹ (2016). In der Serie ›The Simpsons‹ (unter dem Namen ›A. Brooks‹) ist er als Gaststimme bekannt, unter anderem als Hank Scorpio. 2011 erschien sein Roman ›2030: The Real Story of What Happens to America‹. 2023 kam die Dokumentation ›Albert Brooks: Defending My Life‹ (Regie: Rob Reiner) heraus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp und unter Komikern: Jonah Hill und Woody Allen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-jonah-hill">Jonah Hill (SO6w7)</a> teilt mit Brooks Subtyp und Flügel und die Komik, die aus der Unsicherheit des Gruppenmenschen entsteht. <a href="#beruehmte-woody-allen">Woody Allen (SE6w7)</a> ist der naheliegende Vergleich unter den neurotischen Komikern: Auch bei ihm ist die Angst das Material der Pointe, nur zieht er sich in die Selbstbezogenheit zurück, während Brooks die Gruppe, das Publikum und die Branche mit hineinzieht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Privates (Stand 26. Oktober 2026)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Seit 1997 ist Brooks mit der Künstlerin Kimberly Shlain verheiratet, der Tochter des Chirurgen und Autors Leonard Shlain. Sie haben zwei Kinder, Jacob und Claire, und leben in Santa Monica.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Was bleibt: Angst, die man teilen kann</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Brooks hat aus dem Misstrauen und der Sorge des Gruppenwesens eine Kunstform gemacht, und das Publikum erkennt sich darin wieder. Heilsam wäre für die soziale Sechs mit Siebenerflügel die Erfahrung, dass Zugehörigkeit nicht von der ständigen Selbstprüfung abhängt. Sein Film ›Defending Your Life‹ (›Verteidige dein Leben‹) kreist, wie die Handlung bekannt ist, um die Frage, ob man die Angst in seinem Leben überwunden hat, und lässt sich als sein eigenes Thema lesen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so6", label:"SO6 – Das Erdmännchen: Subtyp-Profil"},
+        {route:"beruehmte-jonah-hill", label:"Porträt: Jonah Hill (SO6w7)"},
+        {route:"beruehmte-woody-allen", label:"Porträt: Woody Allen (SE6w7)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
+
+export function rajanSankaranPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-rajan-sankaran-portrait.jpg" alt="Rajan Sankaran – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Rajan Sankaran</p>
+        <p class="krim-portrait-typ">SO5w6 &middot; Sozialer Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Indischer Homöopath, geb. 1960 &ndash; Begründer der Sensationsmethode &ndash; Tierentsprechung: Oktopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Oktopus: der Sohn eines Homöopathen aus Mumbai</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Oktopus</strong> erkundet sein Revier mit acht Armen, jeder Arm prüft für sich, und das Tier merkt sich, was es gefunden hat. Rajan Sankaran wurde am 24. Mai 1960 in Mumbai (damals Bombay) geboren, als Sohn des Homöopathen Dr. P. Sankaran. 1981 schloss er sein Studium am Bombay Homoeopathic Medical College mit Auszeichnung ab; seit diesem Jahr praktiziert er in Mumbai. Später gab er die Schriften seines Vaters in zwei Bänden heraus.</p>
+          <p class="vb-intro">Heute leitet er in Mumbai die Akademie ›The Other Song – The International Academy of Advanced Homeopathy‹ (Das andere Lied, Internationale Akademie für fortgeschrittene Homöopathie). Er ist stellvertretender Vorsitzender des International Council for Classical Homoeopathy und Herausgeber der asiatischen Ausgabe der Zeitschrift ›Homoeopathic Links‹. Seine Seminare und Vorlesungen hält er weltweit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der soziale Fünfer: eine Landkarte als gemeinsames Wahrzeichen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Wort ›Totem‹, mit dem <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> den sozialen Fünfer beschrieb, meint ein gemeinsames Wahrzeichen, das das Wissen einer Gruppe bündelt. Bei Sankaran lässt sich das mit seinem Schema verbinden: Schüler in vielen Ländern arbeiten mit denselben Ebenen, Reichen und Miasmen und verständigen sich darüber wie über eine gemeinsame Sprache.</p>
+          <p class="vb-intro">Die Zeichnung zeigt dichtes, gewelltes, nach hinten gestrichenes Haar mit grauen Strähnen, eine hohe Stirn mit feinen Querfalten, eine rechteckige Brille mit dunklem Rand und wache, freundliche Augen mit Fältchen an den Außenwinkeln. Der Mund ist geschlossen und lächelt leicht, die Wangen sind rund. Am Rand ist ein heller Hemdkragen zu sehen. Der Blick geht gerade nach vorn, aufmerksam und ruhig.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Treue zur Überlieferung, Vorsicht bei der Auslegung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt dem Fünfer den Sinn für Verlässlichkeit und für das, was eine Gruppe trägt. Bei Sankaran zeigt er sich im Bezug auf Überlieferung: Er gab die Schriften seines Vaters heraus. Seine Methode versteht sich nach seiner eigenen Darstellung als Ergänzung zu Repertorium und Materia Medica, nicht als Ersatz, und sie bleibt unizistisch, das heißt, es wird jeweils ein Mittel gegeben. Außerdem hält er fest, dass man in der Fallaufnahme nur so tief gehen soll, wie der Patient es zulässt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Ebenen, Reiche und Miasmen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Sankaran auszeichnet, ist eine Ordnung für den Weg von der Erzählung des Patienten zum Mittel. Sie entstand in mehreren Schritten. In ›The Spirit of Homoeopathy‹ (Das geistige Prinzip der Homöopathie, 1991) beschreibt er Krankheit als falsche Wahrnehmung der Wirklichkeit, als ›Delusion‹ (Wahnvorstellung im homöopathischen Sinn). In ›The Substance of Homoeopathy‹ (Die Substanz der Homöopathie, 1994) ordnet er Mittel nach Pflanze, Tier und Mineral und fasst die Miasmen neu. Die deutsche Ausgabe der ›Substanz‹ erschien 1996, ›Die Seele der Heilmittel‹ im Jahr 2000, ›Das System der Homöopathie‹ 2003.</p>
+          <p class="vb-intro">In ›The Sensation in Homoeopathy‹ (Die Empfindung in der Homöopathie, 2004) führt er die sieben Erfahrungsebenen ein: Name, Fakt, Emotion, Delusion, Sensation, Energie und eine siebte Ebene, die er unbenannt lässt. Mit der ›Vital Sensation‹ (der zentralen Empfindung, die Geist und Körper gemeinsam durchzieht) beschreibt er den Kern eines Falls. Mit ›An Insight into Plants‹ (Einblicke ins Pflanzenreich) ordnet er botanischen Familien eine Sensation zu. Die Kette lautet: Sensation, Reich, Unterreich oder Familie, Quelle. Die Miasmen fasst er als zehn Zustände nach Tempo und Tiefe, von akut bis syphilitisch. 2012 und 2013 folgen ›The Synergy in Homoeopathy‹ (Das Zusammenwirken in der Homöopathie) und ›From Similia to Synergy‹ (Vom Ähnlichkeitsprinzip zur Synergie), Darstellungen, die die Methode als Ergänzung zur klassischen Fallaufnahme einordnen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen: Prof. George Vithoulkas, Dr. Samuel Hahnemann und Dr. Claudio Naranjo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-george-vithoulkas">Prof. George Vithoulkas (SO5w4)</a> hat wie Sankaran ein Stufensystem entworfen, die ›Levels of Health‹ (Gesundheitsstufen), und baute dafür eine eigene Akademie auf; beide ordneten ihr Fach, bei Vithoulkas trägt der Viererflügel die persönliche Tiefe, bei Sankaran der Sechserflügel die Treue zur Überlieferung. <a href="#beruehmte-samuel-hahnemann">Dr. Samuel Hahnemann (SO1w9)</a> legte die Grundregeln der Fallaufnahme fest, auf die Sankaran sich bezieht und die er ergänzt. <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> kartografierte die 27 Subtypen, Sankaran kartografiert Reiche und Familien; beide gaben ihren Schülern eine Landkarte an die Hand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Reichweite durch Lehre und Werkzeuge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sankarans Wirkung geht über seine Praxis hinaus. Er entwickelte ein IT-Programm zur Fallanalyse und eine Struktur für die Materia Medica, schrieb ›Sankaran's Schema‹ und mehrere Bücher für die Praxis, darunter ›Homeopathy for Today's World‹ (Homöopathie für die Welt von heute), das die Methode für ein breites Publikum erklärt. Seine Seminare und Lehrgänge sind international gut besucht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand und Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sankaran lebt und lehrt in Mumbai; die genutzten Quellen nennen als Einrichtung die Akademie ›The Other Song‹, zu Terminen oder neuen Büchern im Jahr 2026 geben sie nichts an (Stand 28. Oktober 2026).</p>
+          <p class="vb-intro">Für den sozialen Fünfer mit Sechserflügel liegt ein Weg darin, Wissen nicht nur als gemeinsame Sprache weiterzugeben, sondern auch in der Begegnung selbst zu sein. Bei Sankaran lässt sich das mit seiner Regel verbinden, nur so tief zu gehen, wie das Gegenüber es zulässt: ein Maß, das dem Wissen die Nähe zum Menschen zur Seite stellt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
+        {route:"beruehmte-george-vithoulkas", label:"Porträt: Prof. George Vithoulkas (SO5w4)"},
+        {route:"beruehmte-samuel-hahnemann", label:"Porträt: Dr. Samuel Hahnemann (SO1w9)"},
+        {route:"beruehmte-claudio-naranjo", label:"Porträt: Dr. Claudio Naranjo (SO5w4)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
       ])}
     </div>
   `);

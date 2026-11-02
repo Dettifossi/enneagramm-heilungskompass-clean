@@ -478,6 +478,7 @@ export function evaMendesPortraitPage() {
         {route:"beruehmte-olena-zelenska", label:"Porträt: Olena Zelenska (SX6w7)"},
         {route:"beruehmte-louise-hay", label:"Porträt: Louise Hay (SX6w7) – ebenfalls derselbe Subtyp"},
         {route:"beruehmte-julie-benz", label:"Porträt: Julie Benz (SX6w7)"},
+        {route:"beruehmte-steve-mcqueen", label:"Porträt: Steve McQueen (SX6w7)"},
       ])}
     </div>
   `);
@@ -607,6 +608,7 @@ export function gustavMahlerPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       <p class="vb-intro">Die 1907 diagnostizierte Herzklappenentz\u00fcndung und ihr unmittelbarer Niederschlag im Sp\u00e4twerk \u2013 von \u201eDas Lied von der Erde\u201c bis zur Neunten Sinfonie \u2013 werden ausf\u00fchrlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-gustav-mahler">Krankheitsportr\u00e4t zu Mahler</a> gedeutet.</p>
       ${relatedLinks([
+        {route:"beruehmte-john-neumeier", label:"Porträt: John Neumeier (SE4w5) – choreografierte Mahlers Musik"},
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so4", label:"SO4 \u2013 Das G\u00fcrteltier: Subtyp-Profil"},
         {route:"beruehmte-john-lennon", label:"Portr\xe4t: John Lennon (SO4w5)"},
@@ -2538,6 +2540,7 @@ export function princeRogersNelsonPortraitPage() {
         {route:"krankheitsportraets-prince", label:"Krankheitsporträt: Prince (SX4w3)"},
         {route:"beruehmte-charlie-chaplin", label:"Porträt: Charlie Chaplin (SX4w3)"},
         {route:"beruehmte-freddie-mercury", label:"Porträt: Freddie Mercury (SX4w3)"},
+        {route:"beruehmte-james-dean", label:"Porträt: James Dean (SX4w3)"},
       ])}
     </div>
   `);
@@ -2836,6 +2839,8 @@ export function viggoMortensenPortraitPage() {
         {route:"beruehmte-mads-mikkelsen", label:"Porträt: Mads Mikkelsen (SX9w1)"},
         {route:"beruehmte-willie-nelson", label:"Porträt: Willie Nelson (SX9w1)"},
         {route:"beruehmte-dominik-krause", label:"Porträt: Dominik Krause (SX9w1)"},
+        {route:"beruehmte-gary-cooper", label:"Porträt: Gary Cooper (SX9w1)"},
+        {route:"beruehmte-james-stewart", label:"Porträt: James Stewart (SX9w1)"},
       ])}
     </div>
   `);
@@ -2982,6 +2987,151 @@ export function sarahPaulsonPortraitPage() {
         {route:"beruehmte-bella-thorne", label:"Porträt: Bella Thorne (SO3w4)"},
         {route:"beruehmte-franziska-van-almsick", label:"Porträt: Franziska van Almsick (SO3w4)"},
             ])}
+    </div>
+  `);
+}
+
+export function johnNeumeierPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-john-neumeier-portrait.jpg" alt="John Neumeier – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">John Neumeier</p>
+        <p class="krim-portrait-typ">SE4w5 &middot; Selbsterhaltender Typ 4 mit Fünferflügel &middot; Kontratyp der Vier</p>
+        <p class="krim-portrait-subtitle">Choreograf und Ballettdirektor, geb. 1939 in Milwaukee &ndash; Hamburg Ballett 1973&ndash;2024 &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube: ein Kind, das nur eines werden wollte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist ein Tier der Rückkehr: Sie findet über große Entfernungen heim und trägt dabei, was sie trägt, ohne Lärm. John <span class="nohy">Neumeier</span> wurde am 24. Februar 1939 in Milwaukee im US-Bundesstaat Wisconsin geboren. Zu seinem Weg sagte er: »Solange ich mich erinnern kann, wollte ich Tänzer werden.« Nach Berichten nahm ihn seine Mutter früh ins Kino mit, und ein Musicalfilm löste bei dem kleinen Jungen den Wunsch aus, die Tänze nachzumachen. Seine Eltern verstanden den Wunsch zunächst nicht. Nach der deutschen Wikipedia weckte eine Nijinsky-Biografie aus der Stadtbibliothek sein Interesse am Ballett, und der erste Ballettunterricht fand bei Sheila Reilly in Milwaukee statt.</p>
+          <p class="vb-intro">Er studierte Englische Literatur und Theaterwissenschaft an der Marquette University (Bachelor 1961), nahm Unterricht in Chicago und ging dann nach Kopenhagen und an die Royal Ballet School in London, unter anderem zu Vera Volkova. Bemerkenswert ist die Gründlichkeit: Der Weg zum Tanz führte über Bücher, Sprache und Handwerk.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: stilles Tragen, nicht Zurschaustellen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bei Naranjo heißt dieser Subtyp <em>Tenacity</em> (Beharrlichkeit): Die selbsterhaltende Vier trägt ihr tiefes Gefühl, ohne es auszustellen, und bleibt dabei zäh und treu. Man nennt sie den Kontratyp der Vier, weil sie von dem, was man bei einer Vier erwartet (Dramatik, Selbstinszenierung), wenig nach außen zeigt. Sie wirkt oft ernst, beherrscht und diszipliniert, und die Tiefe sammelt sich im Werk.</p>
+          <p class="vb-intro">Zu <span class="nohy">Neumeier</span> passt das auf zwei Ebenen. Zum einen im Auftreten: Er gibt sehr selten Interviews, weil es ihm nach einem Porträt im ›Hamburger‹ nicht um seine Person gehe, und er bezeichnete sich einmal selbst als »kontrollierten Romantiker«. Zum anderen in der Ausdauer: Von 1973 bis 2024 leitete er das Hamburg Ballett, mehr als fünfzig Jahre an einem Ort, mit demselben Anspruch und denselben Themen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Gelehrter und Sammler der Tanzgeschichte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verleiht der Vier Abstand, Studierlust und den Hang, Wissen anzusammeln und zu ordnen. <span class="nohy">Neumeiers</span> Ballette beruhen häufig auf Literatur: Shakespeare (›Romeo und Julia‹, ›Ein Sommernachtstraum‹), Dumas (›Die Kameliendame‹, 1978), Tennessee Williams (›Endstation Sehnsucht‹, 1983), Tschechow (›Die Möwe‹, 2002) und Ferenc Molnár (›Liliom‹, 2011). Dazu kommt die Musik: Mahlers ›Dritte Sinfonie‹ (1975), die ›Matthäus-Passion‹ (1981) und später viele weitere Partituren.</p>
+          <p class="vb-intro">Die Stiftung John <span class="nohy">Neumeier</span> (2006) sichert nach der deutschen Wikipedia seine Tanzsammlung und sein Lebenswerk für Hamburg. Dass er Studien, Bücher und Erinnerungsstücke bewahrt, gehört zum Wesen dieses Flügels. Mit dem Fünferflügel lässt sich auch die Zurückhaltung in Verbindung bringen, mit der er über sich spricht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Nijinsky, Mahler und die Tiefe des Gefühls</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was <span class="nohy">Neumeier</span> besonders machte, war die Verbindung aus erzählendem Ballett und seelischer Genauigkeit. Er schuf mehr als 170 Werke, viele davon abendfüllend, und kehrte immer wieder zu zwei Gestalten zurück: dem Tänzer Vaslav Nijinsky, der sein Interesse am Tanz einst geweckt hatte (›Nijinsky‹, 2000), und dem Komponisten <a href="#beruehmte-gustav-mahler">Gustav Mahler (SO4w5)</a>. Beide stehen für das, was die Vier kennt: Künstler am Rand der eigenen Kraft, Sehnsucht, Verlust, Kunst als Ausdruck des Unsagbaren.</p>
+          <p class="vb-intro">Sein Grundsatz lautet: »Ein Choreograf arbeitet mit dem wichtigsten und kostbarsten Material, das es gibt: dem Menschen.« Und über seine Schöpferkraft sagte er: »Ich denke, es liegt daran, dass ich es eigentlich aus Liebe mache.« Dazu passt, dass er jedes Stück mit jeder neuen Besetzung als neu und individuell begreift, weil andere Menschen es anders tragen.</p>
+          <p class="vb-intro">1978 gründete er die Ballettschule des Hamburg Balletts, nach Wikipedia ist er seit 2011 auch Generaldirektor und künstlerischer Leiter des Bundesjugendballetts. Sein Abschied 2024 mit dem Ballett ›Epilog‹ bei den Hamburger Ballett-Tagen folgte dem Satz: »Man muss irgendwann loslassen.« Die Leitung übernahm Demis Volpi.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Paul Simon und Paul McCartney</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ähnlich still getragene Tiefe zeigt <a href="#beruehmte-paul-simon">Paul Simon (SE4w5)</a>, dessen Lieder die Trauer nicht ausstellen, sondern in Form bringen. Auch <a href="#beruehmte-paul-mccartney">Paul McCartney (SE4w5)</a> und <a href="#beruehmte-don-mclean">Don McLean (SE4w5)</a> gehören zu diesem Subtyp mit Fünferflügel. <span class="nohy">Neumeier</span> teilt mit ihnen die Beständigkeit über Jahrzehnte und das Arbeiten aus einem inneren Ernst heraus.</p>
+          <p class="vb-intro">Auffällig ist seine lebenslange Hinwendung zu <a href="#beruehmte-gustav-mahler">Gustav Mahler (SO4w5)</a>, der ebenfalls eine Vier mit Fünferflügel war, nur in der sozialen Variante. Dass <span class="nohy">Neumeier</span> Mahlers Sinfonien und Lieder immer wieder choreografierte, lässt sich damit in Verbindung bringen, dass er in dessen Musik eine verwandte Grundstimmung hört, vermutlich ohne sich dessen bewusst zu sein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Privates und Ehrungen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><span class="nohy">Neumeier</span> besitzt die amerikanische und die deutsche Staatsbürgerschaft. Nach Wikipedia heiratete er 2018 nach 14 gemeinsamen Jahren den Herzchirurgen Hermann Reichenspurner, die beiden leben in Hamburg. Zu seinen Ehrungen zählen der Deutsche Tanzpreis (1988 und 2008), der Herbert-von-Karajan-Musikpreis und die Ehrenbürgerwürde Hamburgs (2007), das Große Bundesverdienstkreuz (2011), der Kyoto-Preis (2015), der Lebenswerk-Preis des Prix de Lausanne (2017), der Orden Pour le Mérite (2023) und der Orden der Aufgehenden Sonne (2024).</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Schatten und Heilungsweg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Schatten der selbsterhaltenden Vier liegt in der Neigung, alles nach innen zu nehmen und nur im Werk zu sagen, was sie bewegt. <span class="nohy">Neumeier</span> selbst gibt dazu wenig preis, und dabei soll es hier bleiben. Der Weg der Vier führt von der Sehnsucht nach dem, was fehlt, zur Dankbarkeit für das, was da ist. Wenn er sagt, er habe »immer das Gefühl, am Anfang zu stehen«, kann man das als Hinweis lesen, wie er sich das Staunen bewahrt hat.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-paul-simon", label:"Porträt: Paul Simon (SE4w5)"},
+        {route:"beruehmte-martha-graham", label:"Porträt: Martha Graham (SO4w3) – Choreografin"},
+        {route:"beruehmte-gustav-mahler", label:"Porträt: Gustav Mahler (SO4w5)"},
+        {route:"beruehmte-paul-mccartney", label:"Porträt: Paul McCartney (SE4w5)"},
+        {route:"beruehmte-don-mclean", label:"Porträt: Don McLean (SE4w5)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
+
+export function lindaHamiltonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-linda-hamilton-portrait.jpg" alt="Linda Hamilton – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Linda Hamilton</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexueller Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanische Schauspielerin, geb. 1956 &ndash; Sarah Connor in ›The Terminator‹ &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba: das Mädchen, das früh den Vater verlor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> zieht sich gern in die Stille zurück und ist gerade dort am wachsten. Linda Hamilton wurde am 26. September 1956 in Salisbury in Maryland geboren. Ihr Vater (1928–1962) starb, als sie fünf war; ihre Mutter (1931–2019) heiratete später einen Polizeichef. Sie hatte eine eineiige Zwillingsschwester, Leslie Hamilton Freas (1956–2020), die in einigen Szenen von ›Terminator 2‹ für sie einsprang.</p>
+          <p class="vb-intro">Sie besuchte die Wicomico High School und zwei Jahre das Washington College in Chestertown in Maryland. Danach studierte sie Schauspiel in New York und nahm dort an Workshops von Lee Strasberg teil. Ihr Filmdebüt gab sie 1979 in ›Night-Flowers‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Besessenheit für die eine Rolle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo nannte die sexuelle Eins <em>Zeal</em> (Eifer), den Kontratyp der Eins: Die Strenge richtet sich nicht auf Regeln der Gemeinschaft, sondern mit großer Intensität auf eine einzelne Aufgabe oder ein Gegenüber. Bei Hamilton lässt sich das mit Sarah Connor verbinden, die sie 1984, 1991 und 2019 spielte. Für ›Terminator 2‹ (1991) trainierte sie hart, um die Verwandlung der Figur in den sieben Jahren seit dem ersten Film zu zeigen. Sie sagte über ihren Trainer, sie habe ihn die meiste Zeit gehasst; er habe sie angeschrien und ihr Tennisbälle zugeworfen, während sie mit verbundenen Augen Waffen abfeuerte. Sie weinte kurz im Bad und kehrte dann an die Arbeit zurück.</p>
+          <p class="vb-intro">Regisseur James Cameron sagte, seine verstörtere Version der Figur sei von Hamilton angeregt worden, die ihm gesagt habe: ›I want to be crazy.‹ (›Ich will verrückt sein.‹) 1995 sagte sie, Connor sei ihr geblieben, eine bleibende Präsenz in ihrem Kopf. Das Foto zeigt lange, glatte, in der Mitte gescheitelte Haare, eine hohe Stirn mit Querfalten und feine Fältchen um die Augen. Die Augen sind aufmerksam und leicht zusammengezogen, der Mund bildet ein schiefes Lächeln mit sichtbaren Zähnen. Tiefe Linien, die Nasolabialfalten (lateinisch nasus, Nase, und labium, Lippe), ziehen von der Nase zu den Mundwinkeln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Rückzug, Ruhe und Schlichtheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der Eins Ruhe und Rückzug. Bei Hamilton lässt sich das in ihrer Art verbinden, ihr Privatleben zu schützen. Vor ›Terminator: Dark Fate‹ (2019) sagte sie, sie schätze ihr Privatleben und wolle nicht, dass die Nachbarn sie anders behandelten. 2019 sagte sie außerdem: ›I love my alone time like no one you've ever met.‹ (›Ich liebe meine Zeit allein wie sonst niemand, dem du je begegnet bist.‹) Sie gilt als Befürworterin natürlichen Alterns.</p>
+          <p class="vb-intro">Auch ihre Karriereentscheidungen wirken eher zurückgenommen als betriebsam: Sie bat darum, während der dritten Staffel von ›Beauty and the Beast‹ aus der Serie geschrieben zu werden, als sie schwanger wurde. In einem Interview von 2025 sagte sie, sie habe wegen eines langjährigen Hüftproblems erwogen, sich zurückzuziehen, bevor sie bei ›Stranger Things‹ zusagte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: die Frau, die die Härte glaubhaft machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In ›The Terminator‹ (1984) spielt sie Sarah Connor, eine Kellnerin, deren Leben sich schlagartig verändert. Der Film entstand mit bescheidenen Erwartungen und wurde ein Überraschungserfolg. Die Kritik lobte 1984 ihre ›tremendous resiliency‹ (›enorme Widerstandskraft‹, The Hollywood Reporter) und ihr fesselndes Spiel. In ›Terminator 2: Judgment Day‹ (1991) zeigte sie eine gehärtete Connor; Derek Malcolm vom Guardian hob ihre ›formidable sweaty intensity‹ (›gewaltige, schweißnasse Intensität‹) hervor.</p>
+          <p class="vb-intro">Von 1987 bis 1990 spielte sie Catherine Chandler in der Serie ›Beauty and the Beast‹, 2010 bis 2012 Mary Elizabeth Bartowski in ›Chuck‹, ab 2021 General McCallister in ›Resident Alien‹. 2019 kehrte sie in ›Terminator: Dark Fate‹ als Sarah Connor zurück; in der fünften und letzten Staffel von ›Stranger Things‹, die im November 2025 anlief, spielt sie Dr. Kay. Im September 2026 wurde sie für die Sportkomödie ›Hot Curlers‹ angekündigt. Sie erhielt zwei Saturn Awards, zwei MTV Movie Awards, einen Satellite Award und einen Romy und wurde für drei Golden Globes und einen Emmy nominiert. 1997 sagte sie, man biete ihr meist Polizistinnen, Offizierinnen und lesbische Figuren an; Regisseur Roger Donaldson habe ihr gesagt, sie habe nie eine normale Rolle gespielt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Marie-Agnes Strack-Zimmermann und Jamie Lee Curtis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-marie-agnes-strack-zimmermann">Marie-Agnes Strack-Zimmermann (SX1w9)</a> teilt mit Hamilton den Neunerflügel: die Schärfe geht mit Beharrlichkeit statt mit Auftrittslust einher. <a href="#beruehmte-jamie-lee-curtis">Jamie Lee Curtis (SX1w2)</a> ist ebenfalls Schauspielerin, hier mit Zweierflügel, bei dem mehr Zuwendung ins Spiel kommt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Verletzlichkeit: Verlust, Sucht und eine Diagnose</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hamilton sprach 2005 in ›Larry King Live‹ offen über ihre bipolare Störung und sagte später, sie habe Therapie und Medikamente erhalten. Sie sagte, die Erkrankung habe zum Scheitern ihrer beiden Ehen beigetragen. Sie hat außerdem von frühen Kämpfen mit Drogen, Alkohol, Kokain und Essanfällen gesprochen. Diese Angaben stammen von ihr selbst; sie sind kein Urteil über ihren Typ.</p>
+          <p class="vb-intro">Sie war von 1982 bis 1989 mit dem Schauspieler Bruce Abbott verheiratet, ihr gemeinsamer Sohn Dalton wurde 1989 geboren. Mit dem Regisseur James Cameron war sie ab 1991 zusammen; die gemeinsame Tochter wurde 1993 geboren, sie heirateten 1997 und ließen sich 1999 scheiden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand und Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit ›Stranger Things‹ (November 2025) war Hamilton zuletzt in einer großen Serie zu sehen; im September 2026 wurde ›Hot Curlers‹ angekündigt (Stand 28. Oktober 2026).</p>
+          <p class="vb-intro">Für die sexuelle Eins mit Neunerflügel liegt der Weg darin, dass Stärke nicht Panzer sein muss und Rückzug nicht Flucht. Bei Hamilton lässt sich das mit dem Satz verbinden, sie liebe ihre Zeit allein: Die Härte der Rolle und die Stille des Privatlebens gehören bei ihr zusammen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Porträt: Marie-Agnes Strack-Zimmermann (SX1w9)"},
+        {route:"beruehmte-jamie-lee-curtis", label:"Porträt: Jamie Lee Curtis (SX1w2)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
     </div>
   `);
 }

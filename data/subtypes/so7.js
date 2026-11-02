@@ -1,7 +1,9 @@
 export const so7 = {
   meinKompass: {
-    lebensthema: "Du brennst für das, was sein könnte — für Visionen, Projekte und eine bessere Zukunft, die du gemeinsam mit anderen erschaffst. Als Kontratyp unter den Siebenern hältst du deine Völlerei bewusst zurück: Statt nur zu genießen, stellst du deine Begeisterung in den Dienst eines größeren Ziels, einer Gruppe, einer Sache. Wie der Biber baust du unermüdlich am Gemeinsamen. Das wirkt edel und ist es oft auch — doch darunter kann die alte Fluchtbewegung weiterlaufen: Im Dienst an der Vision lässt sich Tiefe, Schmerz und Begrenzung ebenso umgehen wie im reinen Genuss. Dein innerer Weg führt dorthin, nicht „gut“ sein zu müssen, um dazuzugehören.",
-    grundstrategie: "Die soziale Sieben verzichtet auf den unmittelbaren Genuss zugunsten eines Ideals — als Kontratyp stellt sie ihre Begeisterung in den Dienst von Gruppe, Vision und Zukunft, kann dabei aber Tiefe und Begrenzung hinter Idealismus und Aktivität umgehen.",
+    lebensthema:
+      "Du brennst für das, was sein könnte — für Visionen, Projekte und eine bessere Zukunft, die du gemeinsam mit anderen erschaffst. Als Kontratyp unter den Siebenern hältst du deine Völlerei bewusst zurück: Statt nur zu genießen, stellst du deine Begeisterung in den Dienst eines größeren Ziels, einer Gruppe, einer Sache. Wie der Biber baust du unermüdlich am Gemeinsamen. Das wirkt edel und ist es oft auch — doch darunter kann die alte Fluchtbewegung weiterlaufen: Im Dienst an der Vision lässt sich Tiefe, Schmerz und Begrenzung ebenso umgehen wie im reinen Genuss. Dein innerer Weg führt dorthin, nicht „gut“ sein zu müssen, um dazuzugehören.",
+    grundstrategie:
+      "Die soziale Sieben verzichtet auf den unmittelbaren Genuss zugunsten eines Ideals — als Kontratyp stellt sie ihre Begeisterung in den Dienst von Gruppe, Vision und Zukunft, kann dabei aber Tiefe und Begrenzung hinter Idealismus und Aktivität umgehen.",
     staerken: [
       "visionär und zukunftsgewandt",
       "kontaktfreudig und vernetzend",
@@ -23,34 +25,35 @@ export const so7 = {
       "Freude und Zugehörigkeit ohne den Druck, „gut“ sein zu müssen.",
     ],
     wandlung: "Aus Idealismus wird gelebte Tiefe. Aus Aktivität wird Präsenz. Aus dem Dienst an der Vision wird echte Verbindung.",
-    gedankeFuerHeute: "Ich muss nicht gut sein, um dazuzugehören — meine Freude darf ehrlich und nahbar sein.",
+    gedankeFuerHeute:
+      "Ich muss nicht gut sein, um dazuzugehören — meine Freude darf ehrlich und nahbar sein.",
   },
   meinKompass_en: {
     lebensthema:
-      "You burn for what could be — for visions, projects, and a better future that you create together with others. As the counter-type among the Sevens, you consciously hold back your gluttony: instead of only enjoying, you put your enthusiasm in service of a larger goal, a group, a cause. This looks noble and often is — yet beneath it the old escape movement can continue: in service to the vision, depth, pain, and limitation can be avoided just as well as in pure enjoyment. Your inner path leads toward not needing to be good to belong.",
+      "You burn for what could be — for visions, projects and a better future that you create together with others. As the countertype among the Sevens, you consciously hold back your gluttony: instead of merely enjoying, you place your enthusiasm in the service of a larger goal, a group, a cause. Like the beaver, you tirelessly build on what is shared. This looks noble and often is — yet beneath it the old movement of escape can continue: in the service of the vision, depth, pain and limitation can be avoided just as in pure enjoyment. Your inner path leads to not having to be ‘good’ in order to belong.",
     grundstrategie:
-      "The social Seven forgoes immediate enjoyment in favor of an ideal — as the counter-type, they channel their enthusiasm into serving a larger vision.",
+      "The social Seven gives up immediate enjoyment in favour of an ideal — as the countertype they place their enthusiasm in the service of group, vision and future, but can avoid depth and limitation behind idealism and activity.",
     staerken: [
-      "Visionary thinking",
-      "Enthusiasm for shared projects",
-      "Selflessness",
-      "Ability to inspire and organize",
-      "Commitment to meaningful causes",
+      "visionary and future-oriented",
+      "sociable and networking",
+      "full of ideas and inspiring",
+      "committed to what is shared",
+      "enthusiastic and stirring",
+      "cooperative and generous",
+      "a sense for the larger whole",
     ],
     herausforderungen: [
-      "Using idealism to avoid personal pain",
-      "Difficulty with own needs in the context of larger goals",
-      "Tendency toward burnout from over-commitment",
-      "Postponing personal pleasure indefinitely",
-      "Fear of appearing selfish",
+      "Enthusiasm for ideals can become the finer form of escape",
+      "Inner insecurity is covered over socially instead of integrated",
+      "Enjoyment is sacrificed without genuine depth arising",
+      "Energy appears restless, superficial and permanently busy",
     ],
     entwicklungspotenzial: [
-      "that serving a vision does not require self-sacrifice",
-      "that their own pleasure is also a contribution",
-      "that belonging does not require earning it through sacrifice",
-      "that the present moment is also worthy of their presence",
+      "Contributing inspiration without losing oneself in activity.",
+      "Staying present and committed in contact.",
+      "Joy and belonging without the pressure of having to be ‘good’.",
     ],
-    wandlung: "From self-sacrifice comes self-inclusion. From serving the vision comes living it. From belonging through giving comes belonging through being.",
+    wandlung: "Idealism becomes lived depth. Activity becomes presence. Service to the vision becomes genuine connection.",
     gedankeFuerHeute:
       "What do you want — not for the project, not for the group — but just for yourself, today?",
   },

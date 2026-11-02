@@ -1,0 +1,10 @@
+# Eigennamen und Fachwörter, die LanguageTool nicht kennt (klein geschrieben)
+zerebralparese
+naranjo
+sag-aftra
+sxsw
+sulli
+mitte
+cerebral
+palsy
+gap-kampagne

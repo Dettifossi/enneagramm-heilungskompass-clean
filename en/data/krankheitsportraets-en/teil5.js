@@ -4364,6 +4364,7 @@ export function charlesLaughtonKrankheitsportraetPage() {
         {route:"krankheitsportraets-david-hume", label:"Illness Portrait: David Hume (SP9w8) – same subtype"},
         {route:"krankheitsportraets-hans-dietrich-genscher", label:"Illness Portrait: Hans-Dietrich Genscher (SP9w8) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"krankheitsportraets-robbie-coltrane", label:"Illness Portrait: Robbie Coltrane (SP9w8) – same subtype"},
       ])}
     </div>
   `);

@@ -2301,7 +2301,7 @@ export function pedroAlonsoPortraitPage() {
         {route:"subtype/so3", label:"SO3 – The Cheetah: subtype profile"},
         {route:"beruehmte-dmitri-hvorostovsky", label:"Portrait: Dmitri Hvorostovsky (SO3w2)"},
         {route:"beruehmte-leon-goretzka", label:"Portrait: Leon Goretzka (SO3w4)"},
-        {route:"beruehmte-george-vithoulkas", label:"Portrait: Prof. George Vithoulkas (SO3w4)"},
+        {route:"beruehmte-george-vithoulkas", label:"Portrait: Prof. George Vithoulkas (SO5w4)"},
       ])}
     </div>
   `);
@@ -3024,6 +3024,155 @@ export function jimmyWalesPortraitPage() {
         {route:"beruehmte-larry-sanger", label:"Portrait: Larry Sanger (SP5w6)"},
         {route:"beruehmte-thomas-schmelzer", label:"Portrait: Thomas Schmelzer (SO5w6)"},
             ])}
+    </div>
+  `);
+}
+
+export function jamesDeanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-james-dean-portrait.jpg" alt="James Dean – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">James Dean</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexual Type 4 with a Three wing</p>
+        <p class="krim-portrait-subtitle">American actor, 1931&ndash;1955 &ndash; ‘East of Eden’, ‘Rebel Without a Cause’, ‘Giant’ &ndash; animal counterpart: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chihuahua: a boy who lost his only confidante</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Chihuahua</strong> is small and has an enormous temperament, and it defends its place as if it were a wolf. James Byron Dean was born on 8 February 1931 in Marion, Indiana. His mother Mildred, who according to a biography was the only one who truly understood him, died of uterine cancer in 1938 when he was nine. His father Winton could not raise his son alone and sent him to Aunt Ortense and Uncle Marcus Winslow on the farm in Fairmount, where he grew up in a Quaker household.</p>
+          <p class="vb-intro">At school he was, according to the accounts, unremarkable but popular: he played baseball and basketball, studied drama and competed in public speaking. In the Methodist pastor James DeWeerd he had a mentor who, according to Wikipedia, is said to have shaped his interest in bullfighting, car racing and philosophy. In 1949 he moved to his father in California, enrolled at Santa Monica College (a two-year public college) and then at UCLA (the University of California, Los Angeles, a large public university), and dropped out in 1951 to become an actor.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Four: competitive envy and the longing for what is missing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo saw in the sexual Four the subtype of competitive envy: the longing for what one did not get is not carried quietly but played out in comparison with others. In Dean this can be linked to a remark he made, according to Wikipedia, to a journalist: ‘I've made a study of Marlon Brando. And I've made a study of poor Jimmy Dean.’ He compared himself openly with the other great young actor of his time.</p>
+          <p class="vb-intro">How he dealt with criticism fits this: when Lee Strasberg sharply criticized his performance at the Actors Studio (the famous New York acting school for method acting, in which performers draw on their own memories and feelings) after Dean's only solo presentation, he stormed out. He kept attending classes afterwards but never again submitted work for critique. Whoever shows themselves so vulnerably prefers, after a blow, to protect themselves from the next.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three wing: impact, pace and the consciously built image</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three wing (w3)</strong> gives the Four drive and an eye for their own effect. Dean knew what his figure triggered: ‘We're sullen, we're broodin', we're something of a menace […] I know you can't be sexy if you smile. You can't be a rebel if you grin.’ That is a sober analysis of one's own impact. In the drawing the gaze seeks the viewer; the cigarette in the corner of the mouth belongs to the pose.</p>
+          <p class="vb-intro">The path was purposeful: in 1950 came his television debut in a Pepsi commercial, then the role of the apostle John in the Easter special ‘Hill Number One’, which according to one figure some 42 million people watched. Small film parts followed, admission to the Actors Studio, television plays and, in 1954, the stage in André Gide's ‘The Immoralist’, which prompted the call from director Elia Kazan. His relationship with Pier Angeli was seen by his friend William Bast largely as a publicity creation, and Warner marketed him as an eligible bachelor.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the actor who did not hide vulnerability</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dean played in only three major films and shaped a decade with them. In ‘East of Eden’ (1955) he played Cal Trask, the unloved son in Steinbeck's family story. Kazan describes how Dean improvised, for instance in the embrace of his father. In ‘Rebel Without a Cause’ (1955) he was the uprooted teenager Jim Stark, in ‘Giant’ (1956) the ranch hand turned oil tycoon Jett Rink.</p>
+          <p class="vb-intro">What was special was the tone: François Truffaut described Dean's effect as a rebellion against psychologically smoothed acting, and David Thomson called his acting sensitive and vulnerable (‘sensitivity and vulnerability’). For ‘East of Eden’ he was the first actor ever nominated posthumously for the Oscar for best actor, and for ‘Giant’ a second time, the only actor with two posthumous nominations. In 1960 he received a star on the Hollywood Walk of Fame. The American Film Institute ranked him in 1999 at number 18 among the greatest male stars of Golden Age Hollywood.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-charlie-chaplin">Charlie Chaplin (SX4w3)</a> likewise made himself, out of a childhood without support, an artist who drew everything to himself, yet while Chaplin controlled his work down to the last detail, Dean showed himself raw and unprotected. <a href="#beruehmte-prince-rogers-nelson">Prince (SX4w3)</a> shares subtype and wing with him and the self-staging that brings vulnerability and drive for impact together. As the second great rebel icon of the time stands <a href="#beruehmte-steve-mcqueen">Steve McQueen (SX6w7)</a>, in a different subtype but with a similar effect.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The last day: pace that waited for no warning</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dean loved racing. In 1955 he drove a Porsche Speedster and won the novice class at the Palm Springs Road Races; director George Stevens forbade him to drive during the filming of ‘Giant’. Then he traded the car for a new, more powerful Porsche 550 Spyder, which he nicknamed ‘Little Bastard’, and entered the Salinas race for 2 October.</p>
+          <p class="vb-intro">On 30 September 1955 he drove there with the Porsche mechanic Rolf Wütherich. At 3:30 p.m. he was ticketed for speeding; at about 5:45 p.m. he collided near Cholame, California, with the Ford of a student who was turning left. Wütherich was thrown from the car, Dean remained trapped and died at 24 of his injuries, including a broken neck. ‘Rebel Without a Cause’ reached cinemas only after his death. He once said: ‘My whole life has been spent in a dramatic display of expression.’</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. What remains: the longing that became an image</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dean stayed 24 years old, and that is exactly what has held his image in place: the boy who lost something and never quite got it back. For the sexual Four with a Three wing it would be healing to experience being seen even without a stage, and that longing does not have to be displayed to be real. That in his films he made exactly this longing visible explains why generations of young people recognized themselves in him.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx4", label:"SX4 – The Chihuahua: subtype profile"},
+        {route:"beruehmte-charlie-chaplin", label:"Portrait: Charlie Chaplin (SX4w3)"},
+        {route:"beruehmte-prince-rogers-nelson", label:"Portrait: Prince (SX4w3)"},
+        {route:"beruehmte-steve-mcqueen", label:"Portrait: Steve McQueen (SX6w7)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}
+
+export function heinoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-heino-portrait.jpg" alt="Heino – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Heino</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexual Type 3 with a Two wing</p>
+        <p class="krim-portrait-subtitle">German singer (folk songs and schlager), b. 1938 &ndash; ‘Blau blüht der Enzian’ &ndash; animal counterpart: peacock</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The peacock: the baker's apprentice from Düsseldorf-Oberbilk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>peacock</strong> does not spread its tail for itself alone but when someone is watching. Heino was born on 13 December 1938 in Düsseldorf-Oberbilk as Heinz Georg Kramm. His father, the dentist Heinrich Fritz Kramm, fell in the war on 2 August 1941; his mother Franziska raised him and his sister. The family lived until 1945 in Pomerania, where it had been evacuated, and returned to Düsseldorf after the war.</p>
+          <p class="vb-intro">His mother bought him an accordion but insisted on vocational training: from August 1952 he trained as a baker and confectioner, and in June 1955 he passed his journeyman's exam. In 1961 he sang in the trio ‘OK Singers’ with only moderate success. In 1965 the producer Ralf Bendix discovered him in Quakenbrück and looked after him for about twenty years; the B-side of his first single, ‘Jenseits des Tales’ (Beyond the Valley), sold over 100,000 copies.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Three: a performance made for the person opposite</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> grasps the sexual Three as ‘charisma’: the particular way of winning admiration through personal radiance. In Enneagram tradition it is also described pictorially as the star or movie star who directs the whole effect at the person opposite. In Heino this can be linked to the stage persona he has maintained for decades: he makes no secret of his toupee, and he has worn dark sunglasses since the 1970s, according to reports because of protruding eyes caused by Graves' disease (Morbus Basedow). He wears them even on his identity card (Bad Münstereifel, 2009).</p>
+          <p class="vb-intro">The drawing shows dense, light, tousled hair, a high forehead with horizontal lines and dark, angular glasses with tinted lenses, behind which large, alert eyes with creases and bags can be seen. The mouth is open in a broad smile, the teeth are visible. He wears a white shirt collar and a dark jacket. The gaze goes straight ahead and seems attentive to the viewer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two wing: attention to the audience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two wing (w2)</strong> gives the Three attentiveness and joy in relationship. In Heino it shows in a polite, attentive manner with which he approaches people and his audience. He was a guest on the ZDF Hitparade more than 40 times and from 1977 to 1979 had the ZDF series ‘Sing mit Heino’ (Sing Along with Heino, 14 episodes), which invited the audience to sing along. By his own account he has felt tied to the Catholic Church since childhood and lights a candle in a church first in every new city. In January 2026 Pope Leo XIV received him in a private audience; Heino spoke of a ‘highlight of his life’.</p>
+          <p class="vb-intro">He met his third wife, the singer and actress Hannelore Kramm, in 1973 at the Miss Austria contest in Kitzbühel, where both sat on the jury. They married in April 1979. Hannelore Kramm died on 8 November 2023 in Kitzbühel; according to press reports Heino returned to the stage soon afterwards.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: voice, repertoire and the transformation of 2013</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Heino sang German folk songs in schlager style with a deep, dark-coloured voice, along with classical pieces such as ‘Ave Maria’ and ‘Ave verum’ and later the church-song album ‘Frieden auf Ewigkeit’ (Peace for Eternity, November 2024). In the mid-1970s ‘Blau blüht der Enzian’ (Blue Blooms the Gentian; also the title of a 1973 film) and ‘Die schwarze Barbara’ (Black Barbara) were at the centre. According to Wikipedia he sold over 55 million records. Among other honours he received the ‘Goldene Europa’ (Golden Europe) six times (1972 to 1989) and the ‘Krone der Volksmusik’ (Crown of Folk Music) in 2000 and 2006.</p>
+          <p class="vb-intro">On 1 February 2013 his cover album ‘Mit freundlichen Grüßen’ (Yours Sincerely) appeared with twelve versions of pop, hip-hop and rock songs; it reached number 1 in the German charts. On 1 August 2013 he appeared with Rammstein at Wacken Open Air (‘Sonne’, Sun), and in 2014 came ‘Schwarz blüht der Enzian’ (Black Blooms the Gentian) with metal reinterpretations (number 11). Rap versions of ‘Enzian’ and ‘Schwarzbraun ist die Haselnuss’ (Dark Brown Is the Hazelnut) had already existed in 1989. In 2015 he received the Karl Valentin Order, and in 2019 he became an honorary citizen of Bad Münstereifel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Helene Fischer, Vicky Leandros and Dieter Bohlen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-helene-fischer">Helene Fischer (SX3w2)</a> shares subtype and wing with Heino: both direct the effect at the one moment with the audience, in her case as an acrobatic show, in his as a stage persona with a sing-along character. <a href="#beruehmte-vicky-leandros">Vicky Leandros (SX3w2)</a> is also a schlager singer with a Two wing. <a href="#beruehmte-dieter-bohlen">Dieter Bohlen (SX3w4)</a> has the same subtype with a Four wing; in him the pose is in the foreground, in Heino politeness.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Loss and carrying on</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Heino had a daughter, Petra, born in 1968 outside a marriage; according to press reports he learned of her only years after her birth. In November 2003 Petra took her own life at the age of 35. The news reached him on a Mediterranean cruise aboard the ‘Costa Victoria’, where he was booked to perform. He stayed on board and was back on stage five days later. He said he had carried the performance through because there was nothing else for him to do, and: ‘I believe my daughter would have wanted me to sing, too.’ By his own account he let the criticism of this step bounce off him. On the tenth anniversary in 2013 he called her death the worst day of his life; in a documentary of 2026 he speaks about it at length.</p>
+          <p class="vb-intro">That he carried on can be linked to the pattern of the Three, who stays capable of action even in loss and puts the performance before the feeling. Whether that was protection or repression cannot be decided from the outside; he himself describes it as duty and as what his daughter would have wanted.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Friction and controversies</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Heino has been criticised repeatedly; the main points are listed here with dates and, where known, outcomes. In 1983 and 1986 he performed in South Africa despite the UN embargo and cultural boycott. In 1978, at the request of Baden-Württemberg's minister-president Hans Filbinger, he recorded all three verses of the German anthem for teaching purposes; after criticism in the programme ‘Kennzeichen D’, he said he had secured himself beforehand with lawyers and politicians. In November 2011 he returned his Bambi in protest at the award given to the rapper Bushido.</p>
+          <p class="vb-intro">In April 2014 the musician Jan Delay called him a ‘Nazi’ in an interview; Heino filed a complaint, the dispute ended out of court, and according to Zeit Online Delay undertook to pay 20,000 euros in damages. In March 2018 Heino gave the North Rhine-Westphalian minister for home affairs Ina Scharrenbach a record of songs, some of whose titles were also in the SS songbook; he said the songs were not to blame if they had been instrumentalised. On 11 September 2024, after a concert trip through the USA, he said in an Instagram video that the ‘Bild’ newspaper also picked up: ‘Germany needs a Trump who is there for his people’. Trump was loud, he said, but loved his country; he placed his hopes on <a href="#beruehmte-friedrich-merz">Friedrich Merz (SO1w9)</a> and <a href="#beruehmte-markus-soeder">Markus Söder (SX8w9)</a>. t-online noted that he had earlier said he did not want to comment politically. In 2026 he took legal action against AfD election advertising using his name and said he did not want to be hitched to the wagon of any political force. The account here reports positions and does not evaluate them.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Where he stands and how to place it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">At 87 Heino remains active: the tour ‘Made in Germany’ comprises about 100 appearances in 2025 and 2026, a continuation is planned for 2027, and there are performances at the Bierkönig on Mallorca (as of 28 October 2026).</p>
+          <p class="vb-intro">For the sexual Three with a Two wing, one path of development lies in the effect not hanging on the role alone but carrying even where there is no stage. In Heino this can be linked to two turning points: in 2003 he was back on stage five days after his daughter's death, and in 2023 he returned soon after the death of his wife. Both times show the carrying on that belongs to the Three: the devotion to the audience carries, and at the same time the question remains what carries this devotion when the person behind the figure is hit.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx3", label:"SX3 – The peacock: subtype profile"},
+        {route:"beruehmte-helene-fischer", label:"Portrait: Helene Fischer (SX3w2)"},
+        {route:"beruehmte-vicky-leandros", label:"Portrait: Vicky Leandros (SX3w2)"},
+        {route:"beruehmte-dieter-bohlen", label:"Portrait: Dieter Bohlen (SX3w4)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
     </div>
   `);
 }

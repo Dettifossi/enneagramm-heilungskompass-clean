@@ -2539,6 +2539,7 @@ export function princeRogersNelsonPortraitPage() {
         {route:"krankheitsportraets-prince", label:"Illness Portrait: Prince (SX4w3)"},
         {route:"beruehmte-charlie-chaplin", label:"Portrait: Charlie Chaplin (SX4w3)"},
         {route:"beruehmte-freddie-mercury", label:"Portrait: Freddie Mercury (SX4w3)"},
+        {route:"beruehmte-james-dean", label:"Portrait: James Dean (SX4w3)"},
       ])}
     </div>
   `);
@@ -3046,6 +3047,150 @@ export function robbieColtranePortraitPage() {
         {route:"beruehmte-dietmar-baer", label:"Portrait: Dietmar Bär (SP9w8)"},
         {route:"beruehmte-kevin-james", label:"Portrait: Kevin James (SP9w8)"},
         {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+        {route:"krankheitsportraets-robbie-coltrane", label:"Illness Portrait: Robbie Coltrane (SP9w8) – osteoarthritis and diabetes"},
+      ])}
+    </div>
+  `);
+}
+
+export function jamesStewartPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-james-stewart-v2-portrait.jpg" alt="James Stewart – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">James Stewart</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with a One wing</p>
+        <p class="krim-portrait-subtitle">American actor and pilot, 1908&ndash;1997 &ndash; ‘Mr. Smith Goes to Washington’, ‘It's a Wonderful Life’ &ndash; animal counterpart: sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The sloth: a quiet child in the workshop</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sloth</strong> moves slowly and sees more than one gives it credit for. James Maitland Stewart was born on 20 May 1908 in Indiana, Pennsylvania, the eldest child and only son of Elizabeth and Alexander Stewart. His father ran the family hardware store and hoped his son would take it over. He was a deeply religious Presbyterian and shaped his son's faith; Stewart remained a devout churchgoer for much of his life. His mother played the piano, and Stewart learned the accordion, which later became a companion on film sets.</p>
+          <p class="vb-intro">He was a shy child who after school worked in the basement on model airplanes, mechanical drawings and chemistry, with a dream of aviation. At school he was average to weak, according to his teachers not for lack of intelligence but because he was creative and prone to daydreaming. At Princeton University he began acting, went to the stage after graduating and made his Broadway debut in 1932.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Nine: the one connection and the art of vanishing into the role</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Claudio Naranjo the sexual Nine is the subtype of Union: it seeks not the group but the single counterpart, the person or the work, and dissolves into it. In Stewart this can be seen in his bonds. His friendship with Henry Fonda lasted 50 years; it began in New York when Fonda invited him as a third roommate to share the rent. Both men's children recount that their fathers liked best to sit quietly together. In 1949 he married Gloria Hatrick McLean; the marriage lasted until her death in 1994, and since 1951 the couple lived in the same house in Beverly Hills.</p>
+          <p class="vb-intro">That the Nine forgets itself makes it a gifted actor, and in the sexual Nine, the intensifying subtype, this is especially strong. In Stewart this can be linked, as an interpretation, to his hesitant, drawling tone that made him the symbol of the simple, decent man: he did not play the everyman, he was so completely at home in the role that the line disappeared. At the same time he remained private and closed. The director John Ford said: ‘You don't get to know Jimmy Stewart; Jimmy Stewart gets to know you.’ The photo shows a calm, peaceful gaze: the head slightly turned, the eyes light and open, the forehead smooth, the mouth soft with a barely perceptible crooked smile.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One wing: decency, duty and an inner standard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One wing (w1)</strong> gives the Nine an inner standard. In Stewart it shows as a sense of duty. With his pilot's skills he sought combat duty in World War II although he was at first rejected for low weight. He enlisted in February 1941; at almost 33 he was too old for regular pilot training and received his commission on 1 January 1942 as a college graduate and licensed commercial pilot. He flew B-24 bombers, became deputy commander of a bombardment wing and rose in four years from private to colonel. He received the Distinguished Flying Cross, the French Croix de Guerre with palm and the Air Medal with three oak leaf clusters.</p>
+          <p class="vb-intro">He rarely spoke about the war and commented only once, in the television documentary ‘The World at War’ (1974), on the costly 1943 mission against Schweinfurt. He remained in the Air Force Reserve for 27 years in all and became a brigadier general in 1959, the highest-ranking actor in American military history. In 1966 he flew as an observer in a B-52 over Vietnam. The moral element on screen also belongs to the One wing: in Frank Capra's ‘Mr. Smith Goes to Washington’ (1939) he plays a decent senator who stands up against corruption.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the everyman who could show fear and doubt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Stewart appeared in 80 films and was known for his drawl and his everyman effect. The breakthrough came with Capra's ‘You Can't Take It with You’ (1938); he won the Oscar for best actor for ‘The Philadelphia Story’ (1940). After the war he considered returning to the family store; Frank Capra, in his words, gave him a new beginning with ‘It's a Wonderful Life’ (1946). Even during that film he doubted his abilities and thought of retiring from film.</p>
+          <p class="vb-intro">In four films by Alfred Hitchcock (‘Rope’, ‘Rear Window’, ‘The Man Who Knew Too Much’, ‘Vertigo’) and in ‘Anatomy of a Murder’ (1959) and ‘The Man Who Shot Liberty Valance’ (1962) he showed how much insecurity and vulnerability could lie beneath the decency. In 1999 the American Film Institute ranked him number three among the greatest American male actors. Among other honors he received the AFI Life Achievement Award in 1980, the Kennedy Center Honors in 1983 and in 1985 the honorary Oscar presented to him by Cary Grant, and the Presidential Medal of Freedom.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Gary Cooper, Viggo Mortensen and Art Garfunkel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-gary-cooper">Gary Cooper (SX9w1)</a> was his close friend. When Cooper was too ill in 1961, Stewart accepted the honorary Oscar for him, and 19 years earlier he had presented him with his first Oscar. Both share the quiet way of speaking, the decency and the ability to dissolve into a role; Cooper was the more taciturn, Stewart the more hesitant and vulnerable. <a href="#beruehmte-viggo-mortensen">Viggo Mortensen (SX9w1)</a> and <a href="#beruehmte-art-garfunkel">Art Garfunkel (SX9w1)</a> show the same constellation in other professions.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Loss and stillness: the personal stays protected</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Stewart adopted Gloria's two sons Ronald and Michael, and with her he had twin daughters, Judy and Kelly, in 1951. Ronald fell on 8 June 1969, aged 24, as a lieutenant in the Marine Corps in Vietnam. Here, too, Stewart spoke little about his feelings; according to his biographer Scott Eyman he avoided in interviews the emotional connection he was known for on screen. When Henry Fonda died in 1982, he reportedly said: ‘I've just lost my best friend.’</p>
+          <p class="vb-intro">That on Johnny Carson's talk show he recited poems he had written at different times in his life, and that they were published in 1989 as ‘Jimmy Stewart and His Poems’, shows where tenderness found a place in him: in the small and the quiet. Under pressure the Nine's stress point, the Six, can be linked with his self-doubt during ‘It's a Wonderful Life’.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The end and what remains</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Later his hearing declined, and he repeatedly stumbled over his lines. In 1991 he lent his voice to Sheriff Wylie Burp in the animated film ‘An American Tail: Fievel Goes West’. He died on 2 July 1997 at the age of 89.</p>
+          <p class="vb-intro">For the sexual Nine with a One wing the path lies in one's own voice counting alongside the bond to the one, and in doubt not being a sign of lacking decency. That Stewart played his vulnerability in so many characters shows how much room it had in him.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: subtype profile"},
+        {route:"beruehmte-gary-cooper", label:"Portrait: Gary Cooper (SX9w1) – close friend"},
+        {route:"beruehmte-viggo-mortensen", label:"Portrait: Viggo Mortensen (SX9w1)"},
+        {route:"beruehmte-art-garfunkel", label:"Portrait: Art Garfunkel (SX9w1)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}
+
+export function elkeSommerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-elke-sommer-portrait.jpg" alt="Elke Sommer – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-elke-sommer-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Elke Sommer</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">German actress, singer and painter, 1940&ndash;2026 &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Chimpanzee: the pastor&rsquo;s child who leapt to Hollywood</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Watch a young <strong>chimpanzee</strong> and you see a creature that reads the world as a playground: what is new gets touched, and once it bores, the game moves on. Elke Sommer was born on 5 November 1940 in Berlin as Elke Schletz, the daughter of a Lutheran pastor. During the war the family was evacuated to Franconia, to a village near Erlangen. In 1957 she left school and went to London, where she worked as an au pair and attended a language institute.</p>
+          <p class="vb-intro">From there things moved fast. According to the available reports she was spotted on holiday in Italy by the director Vittorio De Sica (other accounts name a beauty contest); from 1958 she filmed in Italy and took the name Sommer. Soon after she moved to Hollywood. From a Protestant parsonage into the film world of the Sixties: that is a leap only someone dares who is drawn more by the new than by the familiar.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Seven: enthusiasm for whatever calls</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo described the sexual Seven with the keyword &lsquo;suggestibility&rsquo;: an enthusiasm that throws itself body and soul into whatever fascinates at the moment. In Elke Sommer this can be read from the stages of her life. The Italian beginnings were followed by Hollywood, the screen by television, then came albums as a singer, in the Eighties a show of her own (&lsquo;The Exciting World of Speed and Beauty&rsquo;) and, from the Nineties, increasingly painting. The Wikipedia version of her biography links this with the influence of Marc Chagall.</p>
+          <p class="vb-intro">The Seven looks for enthusiasm where others look for closeness and depth. In the compass this can be read as a counterpart: &lsquo;enthusiasm instead of love&rsquo; is the pattern, &lsquo;love instead of enthusiasm&rsquo; the direction (see <a href="#suche-nach-liebe">The search for true love</a>). That her marriage to Wolf Walther lasted for decades fits this direction and not the cliché pinned on her early.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: loyalty, home and humor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don Richard Riso and Russ Hudson call the Seven with a Six-wing &lsquo;The Entertainer&rsquo;. The <strong>Six-wing (w6)</strong> brings commitment into the mobility. In Sommer it shows in bonding: her second marriage to Wolf Walther, whom she met in 1989 during the stage play &lsquo;Tamara&rsquo; and married in Franconia on 29 August 1993, lasted over three decades. In her own words they were &lsquo;40 wonderful years with my Papabär&rsquo; (her phrasing to web.de, counted from when they met; &lsquo;Papabär&rsquo; means &lsquo;Papa Bear&rsquo;). Franconia also remained her anchor: she often painted in her garden there, and Minister-President Markus Söder said she had always kept her childhood in Franconia in her heart.</p>
+          <p class="vb-intro">The way she handled the label the press gave her fits the wing as well. A US newspaper called her &lsquo;Sauerkraut Bardot&rsquo;, and she told &lsquo;Bunte&rsquo; with amusement that she was a sex symbol &lsquo;who had had just four men in her life&rsquo;. Someone who speaks about her own image like that wears it with self-irony and does not let it pin her down.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the German &lsquo;Fräuleinwunder&rsquo; in international cinema</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Elke Sommer was one of the few German-speaking actresses who built an international career in the Sixties. She made around a hundred feature films, alongside Paul Newman, Peter Sellers, Dean Martin, Alain Delon, Glenn Ford and Sharon Tate. For &lsquo;The Prize&rsquo; (1963) with Paul Newman she won the 1964 Golden Globe as most promising newcomer. In &lsquo;A Shot in the Dark&rsquo; (1964), the second film of the Pink Panther series, she plays, opposite Peter Sellers as Inspector Clouseau, the chambermaid Maria Gambrelli, who is under suspicion of murder: a role between allure, innocence and comedy. Later came, among others, &lsquo;The Wrecking Crew&rsquo; (1968) with Dean Martin, &lsquo;Zeppelin&rsquo; (1971) and the Agatha Christie film &lsquo;And Then There Were None&rsquo; (1974).</p>
+          <p class="vb-intro">Added to this was a presence that rested less on dramatic depth than on lightness, timing and charm. Ten times she was a guest on &lsquo;The Tonight Show&rsquo; with Johnny Carson, she appeared on &lsquo;The Muppet Show&rsquo;, posed for &lsquo;Playboy&rsquo; in 1964 and 1967 and became one of the best-paid performers of the British &lsquo;Carry On&rsquo; series (&lsquo;Carry On Behind&rsquo;, 1975). ZDF heute notes that the very big breakthrough into the top league did not come. The label of the sex symbol stuck to her even though she was a comedienne with self-irony. When the big years were over she kept painting, singing and presenting. Against Zsa Zsa Gabor, with whom she had been feuding since 1984, she won $3.3 million in a libel case in 1993. In 2001 she received a star on the Palm Springs Walk of Stars.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Johannes Heesters and Thomas Gottschalk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-johannes-heesters">Johannes Heesters (SX7w6)</a> moved from Amsterdam via Vienna and Berlin all the way to Hollywood and stayed on stage into old age. Like Sommer he combined charm with mobility and lived his audience instead of preparing for it. <a href="#beruehmte-thomas-gottschalk">Thomas Gottschalk (SX7w6)</a> shares with her the delight in a punchline at her own expense and the ability to win an audience through presence.</p>
+          <p class="vb-intro">The difference: Heesters and Gottschalk were experienced by their audiences as hosts, Sommer mainly as an apparition. The picture from outside was narrower in her case than she was herself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Seven with Six-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright are the zest for life, the self-irony and the loyalty with which she stayed with the same man for decades. She described her own spirit like this: &lsquo;I was always full of life&rsquo; (German: &lsquo;Ich war immer lebenslustig&rsquo;). About her long life she said she was &lsquo;grateful for the 85 years I was given&rsquo;. That is a remarkable attitude for someone whose pattern is anticipation and movement.</p>
+          <p class="vb-intro">The shadow side of the Seven lies where movement and enjoyment drop away as an escape. About a year before her death she told &lsquo;Bunte&rsquo; that after the illnesses of recent years she had lost her will to live. Her husband Wolf Walther died in July 2026 after a long illness. Someone who built a life from joy, company and lightness faces an especially empty space when illness and loss close those paths. This portrait reproduces what she herself said publicly and stays reserved.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: farewell in Bel Air</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Elke Sommer died (as of 29 October 2026) on the evening of 28 October 2026 at the age of 85 in her home in Bel Air, California; ZDF heute cites a confidant, other reports give heart failure as the cause. Minister of State for Culture Wolfram Weimer paid tribute to her as an &lsquo;ambassador of German film in Hollywood&rsquo;. What remains of her is a face of the Sixties, a laugh and a zest for life that even her own words still carry.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
+        {route:"suche-nach-liebe", label:"The search for true love"},
+        {route:"beruehmte-johannes-heesters", label:"Portrait: Johannes Heesters (SX7w6)"},
+        {route:"beruehmte-thomas-gottschalk", label:"Portrait: Thomas Gottschalk (SX7w6)"},
       ])}
     </div>
   `);

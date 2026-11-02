@@ -2173,6 +2173,7 @@ export function natalieDormerPortraitPage() {
         {route:"beruehmte-avril-lavigne", label:"Portrait: Avril Lavigne (SX6w7)"},
         {route:"beruehmte-nick-nolte", label:"Portrait: Nick Nolte (SX6w5)"},
         {route:"beruehmte-veronica-ferres", label:"Portrait: Veronica Ferres (SX6w5)"},
+        {route:"beruehmte-emily-blunt", label:"Portrait: Emily Blunt (SX6w5)"},
       ])}
     </div>
   `);
@@ -3034,6 +3035,147 @@ export function falcoPortraitPage() {
         {route:"beruehmte-dmitri-hvorostovsky", label:"Portrait: Dmitri Hvorostovsky (SO3w2)"},
         {route:"beruehmte-udo-juergens", label:"Portrait: Udo Jürgens (SE1w2)"},
             ])}
+    </div>
+  `);
+}
+
+export function marthaGrahamPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-martha-graham-portrait.jpg" alt="Martha Graham – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Martha Graham</p>
+        <p class="krim-portrait-typ">SO4w3 &middot; Social Type 4 with a Three wing</p>
+        <p class="krim-portrait-subtitle">Dancer and choreographer, 1894&ndash;1991 &ndash; mother of modern dance &ndash; animal counterpart: armadillo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The armadillo: armor around a tender interior</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>armadillo</strong> wears its armor on its body and rolls up when danger comes, yet underneath lies soft, vulnerable skin. Martha Graham was born on 11 May 1894 in Allegheny City, today part of Pittsburgh. Her father is described as a physician for mental illness, and the family later moved to California. In 1911 she saw a dance performance for the first time, a show by Ruth St. Denis, and found her path in it. From 1916 she trained at the Denishawn school in Los Angeles and joined the company of the same name.</p>
+          <p class="vb-intro">What stands out is how determined she was to go her own way. She later said: ‘Everything I did was influenced by Denishawn.’ Yet she broke away from that school and built a language that had little left in common with ballet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Four: pain before an audience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo, the author's teacher, called the social Four's subtype <em>Shame</em>: it feels inadequate or different and yet seeks out the group precisely to make its uniqueness visible. It does not suffer in hiding but carries its otherness into public view. The Life Pattern Compass in this app describes this as a hard shell outside and a very sensitive inner life beneath.</p>
+          <p class="vb-intro">In Graham this trait can be seen in the work itself. She did not put the beautiful and light side of ballet on stage but grief, guilt, rage and death. In ‘Lamentation’ (1930) the dancer is wrapped in a stretched tube of fabric from which pain shows only as tension of the body. In ‘Night Journey’ (1947) she tells the story of Oedipus from the perspective of Jocasta. Here tragic otherness is lived out in front of an audience.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three wing: effect, stage, fame</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three wing (w3)</strong> gives the Four drive and a sense for impact. In 1926 Graham founded her own ensemble in New York and gave her first evening of her own work. From it grew the Martha Graham Dance Company, according to Wikipedia the oldest dance company in the United States (it marked its hundredth anniversary in 2026). She created 181 works and designed the costumes for 135 of them herself. This is where the Three shows: she wanted not only to renew dance but to shape the whole picture on stage.</p>
+          <p class="vb-intro">She also took up space publicly: in the late 1930s she became the first dancer to perform at the White House (sources give 1937 and 1938), in 1976 she received the Presidential Medal of Freedom and in 1979 the Kennedy Center Honors. She said no when it came to her convictions: she declined to take part in the 1936 Olympic Games in Berlin, and her piece ‘Chronicle’ (1936) was a dance against war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: the technique of breath</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What truly made Graham unique is the Graham technique. It rests on ‘contraction and release’, a principle derived from breathing that works from the pelvis and torso. The body is not stretched upward as in ballet but contracts and opens, like a breath or a sob. This gave dance a means of showing feeling as movement of the interior.</p>
+          <p class="vb-intro">Her major works include ‘American Document’ (1938), ‘Appalachian Spring’ (1944, music by Aaron Copland, set by Isamu Noguchi) and ‘Night Journey’ (1947). Her students included Merce Cunningham, Paul Taylor and Twyla Tharp. What emerged was not just a body of work but a school from which modern dance developed. She was called the ‘Picasso of dance’.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype and among choreographers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the same subtype with the same wing stands <a href="#beruehmte-michael-jackson">Michael Jackson (SO4w3)</a>, also an artist who carried pain and otherness onto the big stage. <a href="#beruehmte-gustav-mahler">Gustav Mahler (SO4w5)</a> shows the same subtype with a Five wing. As a choreographer she shares with <a href="#beruehmte-john-neumeier">John Neumeier (SP4w5)</a> both the profession and the Four: both tell of inner need and longing through dance, she with the armor of shame and the force of the stage, he more quietly and in a carrying way. And with <a href="#beruehmte-isadora-duncan">Isadora Duncan (SX2w3)</a> Graham shares the will to free dance from the constraints of classical ballet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Marriage, crisis and return</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Erick Hawkins was the first male dancer of her company. She was married to him from 1948 to 1954. After the end of her stage career, which sources date to 1968, 1969 or 1970, she fell into a deep crisis with depression and heavy drinking until her health collapsed. In 1972 she stopped drinking, returned to the studio and created about ten more pieces. She died on 1 April 1991 in New York at the age of 96. Her autobiography appeared in 1991 (‘Blood Memory’).</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Shadow and path of healing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The shadow of the social Four is that worth hangs entirely on expression: when the stage falls away, emptiness threatens. This showed in Graham after she stopped dancing. The Four's path leads from the feeling of being different and lacking to the experience that one's own being is enough. That she came back after the crisis and created something new once more can be read as such a path.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: subtype profile"},
+        {route:"beruehmte-john-neumeier", label:"Portrait: John Neumeier (SP4w5) – choreographer"},
+        {route:"beruehmte-michael-jackson", label:"Portrait: Michael Jackson (SO4w3)"},
+        {route:"beruehmte-gustav-mahler", label:"Portrait: Gustav Mahler (SO4w5)"},
+        {route:"beruehmte-isadora-duncan", label:"Portrait: Isadora Duncan (SX2w3)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
+    </div>
+  `);
+}
+
+export function gertrudHoehlerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-gertrud-hoehler-portrait.jpg" alt="Gertrud Höhler – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Gertrud Höhler</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexual Type 1 with a Two wing</p>
+        <p class="krim-portrait-subtitle">Literary scholar, author and consultant, b. 1941 &ndash; ‘Die Patin’ (‘The Godmother’), ‘Baden-Badener Disput’ &ndash; animal counterpart: black mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The black mamba: the pastor's daughter from Wuppertal</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>black mamba</strong> is long, slim and alert and chooses its target precisely before it moves. Gertrud Höhler was born on 10 January 1941 in Wuppertal, the second of four children of the Protestant pastor Heinrich Höhler and his wife Helene, née Horn. Her maternal grandfather was the theologian Fritz Horn; her brother became the architect Ernst Höhler. After her school-leaving exam at the Helmholtz-Gymnasium in Wuppertal she studied literature and art history in Bonn, Berlin, Zurich and Mannheim from 1960 to 1966.</p>
+          <p class="vb-intro">As early as 1964 she received the Eduard von der Heydt Culture Prize as a poetry encouragement award. In 1967 she took her doctorate in Mannheim with a thesis on the Bible quotation in a novel by Wilhelm Raabe. In the 1960s she was close to the left-wing subcultural milieu and was friends with the writers Jörg Fauser and Bernward Vesper, among others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual One: zeal for the counterpart</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo called the sexual One <em>zeal</em>, the countertype of the One: the strictness is directed not at the whole world but with great intensity at individual people and tasks. In Höhler this can be linked to her way of reaching individuals: she worked as an adviser to decision-makers in business and politics and addressed a broad public in books and on television. From 1987 to 1989 she advised Alfred Herrhausen, the spokesman of the board of Deutsche Bank. By her own account she later also advised politicians. Publisher profiles name <a href="#beruehmte-helmut-kohl">Helmut Kohl (SP8w9)</a> as a client, whereas the political scientist Gerd Langguth doubted that she advised Kohl.</p>
+          <p class="vb-intro">The drawing shows long, loose, wavy hair, a high forehead with horizontal lines and a vertical furrow between the strong, dark brows (the glabellar fold, from Latin glabella, the hairless spot between the eyebrows), alert eyes with creases and bags beneath them, and a half-open mouth with a crooked smile and visible teeth. The gaze is alert and a little tired at the same time, and the smile is turned toward the viewer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two wing: conversation, attention and impact</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two wing (w2)</strong> gives the One attentiveness and sociability. In Höhler it shows in conversation as a profession: from 1988 to 2000 she hosted the talk show ‘Baden-Badener Disput’ (58 episodes), gave talks and appeared as a guest on many programmes. The titles of her books alone point to themes such as trust, greed and meaning in how people interact: ‘Warum Vertrauen siegt’ (‘Why Trust Wins’, 2003), ‘Jenseits der Gier’ (‘Beyond Greed’, 2005), ‘Die Sinn-Macher’ (‘The Meaning-Makers’).</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: from Raabe to management</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Höhler is a literary scholar. In 1972 she became an academic councillor in the founding senate of the University of Paderborn, and from 1976 to 1993 she taught there as professor of German studies and general literary studies. What is distinctive about her path is the transition from textual scholarship to business and political consulting: whoever can read texts can also interpret language, images and narratives in companies and politics. Her books include ‘Wölfin unter Wölfen’ (‘She-Wolf among Wolves’) and ‘Götzendämmerung’ (‘Twilight of the Idols’, 2010).</p>
+          <p class="vb-intro">She became widely known through ‘Die Patin. Wie Angela Merkel Deutschland umbaut’ (‘The Godmother. How Angela Merkel Is Remodelling Germany’, 2012), a book in which she sharply criticises the government action of Chancellor <a href="#beruehmte-angela-merkel">Angela Merkel (SP9w8)</a>. It was followed by ‘Demokratie im Sinkflug’ (‘Democracy in Descent’, 2017), ‘Angela Merkel – Das Requiem’ (‘Angela Merkel – The Requiem’, 2020) and ‘Die Corona-Bilanz’ (‘The Corona Balance Sheet’, 2020). Her awards range from the Konrad Adenauer Prize of the Deutschland-Stiftung and the ‘Orden wider den tierischen Ernst’ (‘Order Against Deadly Seriousness’, both 1988) through the Federal Cross of Merit 1st Class (1999) to the German Fairness Prize (2002).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallels in the same subtype: Martin Luther, Marie-Agnes Strack-Zimmermann and Christine Lagarde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-martin-luther">Martin Luther (SX1w2)</a> shares with Höhler the link between word and stance: both began in the world of the church or the parsonage and later used language to reach the public and the powerful. <a href="#beruehmte-marie-agnes-strack-zimmermann">Marie-Agnes Strack-Zimmermann (SX1w9)</a> shows, as a politician, the sharp, persistent side of the sexual One in German politics, with a calmer Nine wing instead of the attentiveness of the Two wing. <a href="#beruehmte-christine-lagarde">Christine Lagarde (SX1w2)</a> shares the Two wing and the path between business and politics: both promote their positions through conversation and public appearance, Höhler as author and host, Lagarde as negotiator at the head of institutions.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Friction and headwind</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Her public role also brought criticism. In 1992 an American Express advertising campaign with her portrait caused a stir; a satirical article about it led to a legal dispute. In 1993 she resigned her professorship in Paderborn and spoke of mobbing, while professors and students had accused her of neglecting her teaching duties. In 2007, as a member of the university council, she came under criticism for renting a house in Zwickau to an NPD state parliament member; she later admitted that she had known the background. This account reports positions and does not judge them.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where she stands and how to place it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Höhler is unmarried and has a son who works as a consultant. The most recent publications named in the sources used date from 2020; they give no information on her current situation (as of 28 October 2026).</p>
+          <p class="vb-intro">For the sexual One with a Two wing the path lies in letting the zeal not have to convince every counterpart, and in attention being possible without an intention to have an effect.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx1", label:"SX1 – The black mamba: subtype profile"},
+        {route:"beruehmte-martin-luther", label:"Portrait: Martin Luther (SX1w2)"},
+        {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Portrait: Marie-Agnes Strack-Zimmermann (SX1w9)"},
+        {route:"beruehmte-christine-lagarde", label:"Portrait: Christine Lagarde (SX1w2)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass"},
+      ])}
     </div>
   `);
 }
