@@ -198,6 +198,10 @@ async function sendMail(to, { subject, html }) {
 
 const shell = (inner) => `<div style="font-family:Georgia,serif;max-width:560px;margin:0 auto;padding:1.5rem;color:#28241f;line-height:1.6;">${inner}</div>`;
 
+const repertTip = (en) => en
+  ? `<p>As a thank-you: <strong>10% off</strong> <em>Rathmer’s Repertory</em>, the repertorization software for homeopaths, with the code <strong>REPERT10</strong> (enter it at checkout, valid until 31 December 2027). <a href="https://www.verlagshausrathmer.com/repertory.html">Learn more</a></p>`
+  : `<p>Als Dankeschön: <strong>10 % Rabatt</strong> auf <em>Rathmer’s Repertorium</em>, die Repertorisations-Software für Homöopathen, mit dem Code <strong>REPERT10</strong> (an der Kasse eingeben, gültig bis 31. Dezember 2027). <a href="https://www.verlagshausrathmer.com/repertorium.html">Mehr erfahren</a></p>`;
+
 function renderWelcomeMail({ email, name, password, isEnglish, full }) {
   const appUrl = isEnglish ? "https://kompass.verlagshausrathmer.com/en/" : "https://kompass.verlagshausrathmer.com/";
   const product = full
@@ -210,7 +214,7 @@ function renderWelcomeMail({ email, name, password, isEnglish, full }) {
         <p>Your access to <strong>${esc(product)}</strong> is ready.</p>
         <p><strong>Email:</strong> ${esc(email)}<br><strong>Password:</strong> ${esc(password)}</p>
         <p>Open the app: <a href="${appUrl}">${appUrl}</a> – go to “Unlock”, enter your email and password.</p>
-        <p>You can upgrade to full access at any time; your payment is credited.</p>`),
+        <p>You can upgrade to full access at any time; your payment is credited.</p>${repertTip(true)}`),
     };
   }
   return {
@@ -219,7 +223,7 @@ function renderWelcomeMail({ email, name, password, isEnglish, full }) {
       <p>Ihr Zugang zu <strong>${esc(product)}</strong> ist bereit.</p>
       <p><strong>E-Mail:</strong> ${esc(email)}<br><strong>Passwort:</strong> ${esc(password)}</p>
       <p>App öffnen: <a href="${appUrl}">${appUrl}</a> – dort auf „Freischalten“ gehen und E-Mail-Adresse und Passwort eingeben.</p>
-      <p>Ein Wechsel auf den Vollzugang ist jederzeit möglich, Ihre Zahlung wird angerechnet.</p>`),
+      <p>Ein Wechsel auf den Vollzugang ist jederzeit möglich, Ihre Zahlung wird angerechnet.</p>${repertTip(false)}`),
   };
 }
 
@@ -232,7 +236,7 @@ function renderUpgradeMail({ email, name, password, isEnglish }) {
         <p>Your upgrade to full access is active. All areas are now unlocked.</p>
         <p><strong>Your new login details:</strong><br>Email: ${esc(email)}<br>Password: ${esc(password)}</p>
         <p>Your previous password is no longer valid. Open the app (<a href="${appUrl}">${appUrl}</a>), go to “Unlock” and sign in with the details above.</p>
-        <p>Questions? <a href="mailto:detlefrathmer@t-online.de">detlefrathmer@t-online.de</a></p>`),
+        <p>Questions? <a href="mailto:detlefrathmer@t-online.de">detlefrathmer@t-online.de</a></p>${repertTip(true)}`),
     };
   }
   return {
@@ -241,6 +245,6 @@ function renderUpgradeMail({ email, name, password, isEnglish }) {
       <p>Ihr Upgrade auf den Vollzugang ist aktiv. Alle Bereiche sind jetzt freigeschaltet.</p>
       <p><strong>Ihre neuen Zugangsdaten:</strong><br>E-Mail: ${esc(email)}<br>Passwort: ${esc(password)}</p>
       <p>Ihr bisheriges Passwort ist ab sofort nicht mehr gültig. Öffnen Sie die App (<a href="${appUrl}">${appUrl}</a>), gehen Sie auf „Freischalten“ und melden Sie sich mit den obigen Daten an.</p>
-      <p>Bei Fragen: <a href="mailto:detlefrathmer@t-online.de">detlefrathmer@t-online.de</a></p>`),
+      <p>Bei Fragen: <a href="mailto:detlefrathmer@t-online.de">detlefrathmer@t-online.de</a></p>${repertTip(false)}`),
   };
 }
