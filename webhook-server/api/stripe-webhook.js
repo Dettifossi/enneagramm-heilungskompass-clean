@@ -189,6 +189,11 @@ function renderGermanMail(email, name, password, appUrl) {
     </p>
   </div>
 
+  <p style="color:#555;font-size:.92rem;line-height:1.6;background:#faf6ec;border:1px solid #e0d8c8;border-radius:8px;padding:.8rem 1rem;margin:0 0 1.2rem;">
+    Als Dankeschön: <strong>10 % Rabatt</strong> auf <em>Rathmer’s Repertorium</em>, die Repertorisations-Software für Homöopathen, mit dem Code <strong>REPERT10</strong> (an der Kasse eingeben, gültig bis 31. Dezember 2027).
+    <a href="https://www.verlagshausrathmer.com/repertorium.html" style="color:#8a6a1a;">Mehr erfahren</a>
+  </p>
+
   <p style="color:#888;font-size:.85rem;line-height:1.6;border-top:1px solid #e0d8c8;padding-top:1rem;margin:0;">
     Bei Fragen oder Problemen schreiben Sie uns gerne:<br>
     <a href="mailto:detlefrathmer@t-online.de" style="color:#8a6a1a;">detlefrathmer@t-online.de</a>
@@ -266,6 +271,11 @@ function renderEnglishMail(email, name, password, appUrl) {
       The app will then open directly from your home screen, without a browser bar.
     </p>
   </div>
+
+  <p style="color:#555;font-size:.92rem;line-height:1.6;background:#faf6ec;border:1px solid #e0d8c8;border-radius:8px;padding:.8rem 1rem;margin:0 0 1.2rem;">
+    As a thank-you: <strong>10% off</strong> <em>Rathmer’s Repertory</em>, the repertorization software for homeopaths, with the code <strong>REPERT10</strong> (enter it at checkout, valid until 31 December 2027).
+    <a href="https://www.verlagshausrathmer.com/repertory.html" style="color:#8a6a1a;">Learn more</a>
+  </p>
 
   <p style="color:#888;font-size:.85rem;line-height:1.6;border-top:1px solid #e0d8c8;padding-top:1rem;margin:0;">
     Questions or issues? Just email us:<br>
