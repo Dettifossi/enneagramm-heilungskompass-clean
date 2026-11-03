@@ -3207,3 +3207,73 @@ export function yvesSaintLaurentPortraitPage() {
     </div>
   `);
 }
+
+export function tomHardyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-tom-hardy-portrait.jpg" alt="Tom Hardy – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-tom-hardy-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Tom Hardy</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">British actor, producer and musician, b. 1977 &ndash; Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Wolf: the loner from East Sheen who looked for footing in the crowd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>wolf</strong> tests every closeness before surrendering to it, and stays loyal afterwards. Edward Thomas Hardy was born on 15 September 1977 in Hammersmith, London, and grew up as an only child in East Sheen. His father, Edward &lsquo;Chips&rsquo; Hardy, is a novelist and comedy writer, his mother, Anne Hardy, an artist. He attended Reed&rsquo;s School among others and later the Drama Centre London.</p>
+          <p class="vb-intro">His youth was hard. Hardy has said publicly that as a young man he drank heavily and used crack; in 2003 he went into rehab. By then he had roles in &lsquo;Band of Brothers&rsquo; and the war film &lsquo;Black Hawk Down&rsquo; (both 2001) behind him. Anyone who numbs fear early instead of naming it has to work out a different way of handling it later; in Hardy it became discipline.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Six: the body as the answer to fear</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo described the sexual Six as the countertype of the Six: it answers insecurity with toughness, courage and attack. In Hardy this pattern is visible in his work. In &lsquo;Bronson&rsquo; (2008) he plays the notorious British prisoner Charles Bronson with a built-up body and theatrical violence, in &lsquo;Warrior&rsquo; (2011) a fighter in a mixed-martial-arts tournament, in &lsquo;The Dark Knight Rises&rsquo; (2012) the villain Bane, whose face almost disappears behind a mask so that body and voice have to carry everything.</p>
+          <p class="vb-intro">Outside the screen too he seeks direct combat: for years he has trained Brazilian jiu-jitsu, won competitions, including the UMAC Open in 2022, and has held the brown belt since 2026. Anyone who meets fear by exposing himself, one round after another, to an opponent&rsquo;s hold has made it a craft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-wing: play, music and dogs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> brings love of play, wordplay and variety into the Six&rsquo;s watchfulness. Hardy performs as a rapper under the name Frankie Pulitzer, recorded a mixtape as early as 1999 that only appeared in 2018, and has worked with the hip-hop group Czarface since 2016; in August 2026 the joint album &lsquo;Czarface Meets Frankie Pulitzer&rsquo; came out. He plays gangsters, kings and aliens with the same pleasure in transformation.</p>
+          <p class="vb-intro">His affection for dogs is well known; he publicly mourned his rescue dog Woodstock, who died in June 2017. By his own account he said at New York Comic Con in 2024 that he is autistic. This portrait gives that only as his own statement and draws no further conclusions from it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the actor who builds whole characters with body and voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What makes Hardy unmistakable is the ability to build a character from the outside in. In &lsquo;Locke&rsquo; (2013) he carries an entire film alone in a car, with only voice and face. In &lsquo;Legend&rsquo; (2015) he plays both Kray twins, the calculating Reggie and the unpredictable Ronnie, and makes them credible side by side in the same frame. As Alfie Solomons in &lsquo;Peaky Blinders&rsquo; (2014&ndash;2022) he shapes from mumbling and sudden friendliness a gangster boss who becomes dangerous mainly through language. For &lsquo;The Revenant&rsquo; (2015) he received an Oscar nomination for best supporting actor.</p>
+          <p class="vb-intro">With &lsquo;Taboo&rsquo; (2017) he created the series together with his father and the writer Steven Knight, co-produced it and played the lead. On &lsquo;Venom&rsquo; (2018) and its sequel he contributed to the story. For his services to drama he was appointed Commander of the Order of the British Empire (CBE) in 2018.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Steve McQueen and Alec Baldwin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-steve-mcqueen">Steve McQueen (SX6w7)</a> turned a childhood without protection into toughness as a shield and found support in racing and a circle of friends; in Hardy the jiu-jitsu mats and the collaboration with Nolan, Knight and his father take that role. <a href="#beruehmte-alec-baldwin">Alec Baldwin (SX6w7)</a> shares the mix of force and humor that gives the Six with Seven-wing access to big roles.</p>
+          <p class="vb-intro">The difference: McQueen stayed distrustful of closeness all his life, while Hardy has opened up in relationships and family. In 2014 he married the actress Charlotte Riley; the two have two sons, and he also has an older son from an earlier relationship.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Six with Seven-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright are loyalty and commitment to the vulnerable. Hardy has been an ambassador of The Prince&rsquo;s Trust (now The King&rsquo;s Trust), which helps young people into work, since 2010, and with his wife a patron of Bowel Cancer UK since 2012. He is also lead ambassador of the REORG Brazilian Jiu-Jitsu Foundation. Someone who knows from within what an abyss feels like can help concretely here.</p>
+          <p class="vb-intro">The shadow side of the Six with Seven-wing lies in flight forward: numbing instead of naming fear, tempo instead of standing still. His history of addiction is the most visible form of it; what he made of it is shown by his later path. This portrait records what he has said himself and interprets no further.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: gangsters in London and New York</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Tom Hardy is (as of 3 November 2026) 49 years old. In 2024 &lsquo;Venom: The Last Dance&rsquo; ended the Venom series. In 2025 he appeared in Guy Ritchie&rsquo;s series &lsquo;MobLand&rsquo; (Paramount+) and in the Netflix film &lsquo;Havoc&rsquo;. For the future, among others, a film about the war photographer Don McCullin and a Shackleton film are named; both are so far announcements.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"lebensmusterkompass/sx6", label:"Life Pattern Compass: SX6 – Wolf"},
+        {route:"beruehmte-steve-mcqueen", label:"Portrait: Steve McQueen (SX6w7)"},
+        {route:"beruehmte-alec-baldwin", label:"Portrait: Alec Baldwin (SX6w7)"},
+      ])}
+    </div>
+  `);
+}

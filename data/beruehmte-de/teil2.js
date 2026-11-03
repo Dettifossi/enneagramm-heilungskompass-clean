@@ -3220,3 +3220,73 @@ export function garyCooperPortraitPage() {
     </div>
   `);
 }
+
+export function tomHardyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-tom-hardy-portrait.jpg" alt="Tom Hardy – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-tom-hardy-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Tom Hardy</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Britischer Schauspieler, Produzent und Musiker, geb. 1977 &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Wolf: der Einzelgänger aus East Sheen, der in der Menge Halt suchte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Wolf</strong> prüft jede Nähe, bevor er sich ihr überlässt, und bleibt ihr danach treu. Edward Thomas Hardy wurde am 15. September 1977 in Hammersmith, London, geboren und wuchs als einziges Kind in East Sheen auf. Der Vater Edward ›Chips‹ Hardy ist Romanautor und Komödienschreiber, die Mutter Anne Hardy Künstlerin. Er besuchte unter anderem das Reed&rsquo;s School und später die Drama Centre London.</p>
+          <p class="vb-intro">Die Jugend verlief hart. Hardy hat öffentlich erzählt, dass er als junger Mann viel trank und Crack konsumierte; 2003 ging er in eine Entzugsklinik. Er hatte da schon Rollen in ›Band of Brothers‹ und im Kriegsfilm ›Black Hawk Down‹ (beide 2001) hinter sich. Wer die eigene Angst früh betäubt, statt sie zu benennen, muss sich später einen anderen Umgang mit ihr erarbeiten; bei Hardy wurde es Disziplin.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der sexuelle Sechser: der Körper als Antwort auf die Angst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo beschrieb den sexuellen Sechser als Kontratyp der Sechs: Er antwortet auf Unsicherheit mit Härte, Mut und Angriff. Bei Hardy ist dieses Muster im Beruf sichtbar. In ›Bronson‹ (2008) spielt er den berüchtigten britischen Häftling Charles Bronson mit aufgebautem Körper und theaterhafter Gewalt, in ›Warrior‹ (2011) einen Kämpfer in einem Mixed-Martial-Arts-Turnier, in ›The Dark Knight Rises‹ (2012) den Gegenspieler Bane, dessen Gesicht fast ganz hinter einer Maske verschwindet, sodass Körper und Stimme alles tragen müssen.</p>
+          <p class="vb-intro">Auch außerhalb der Leinwand sucht er den direkten Kampf: Seit Jahren trainiert er brasilianisches Jiu-Jitsu, gewann Wettkämpfe, darunter 2022 die UMAC Open, und trägt seit 2026 den braunen Gürtel. Wer der Angst begegnet, indem er sich der Reihe nach dem Griff des Gegners aussetzt, hat sie zum Handwerk gemacht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Spieltrieb, Musik und Hunde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> bringt Lust am Spiel, Wortwitz und Abwechslung in die Wachsamkeit des Sechsers. Hardy tritt unter dem Namen Frankie Pulitzer als Rapper auf, nahm schon 1999 ein Mixtape auf, das erst 2018 erschien, und arbeitet seit 2016 mit der Hip-Hop-Gruppe Czarface zusammen; im August 2026 erschien das gemeinsame Album ›Czarface Meets Frankie Pulitzer‹. Er spielt Gangster, Könige und Außerirdische mit gleicher Lust an der Verwandlung.</p>
+          <p class="vb-intro">Seine Zuneigung zu Hunden ist bekannt; die Rettungshündin Woodstock, die im Juni 2017 starb, hat er öffentlich betrauert. Nach eigenen Angaben sprach er 2024 bei der New York Comic Con darüber, dass er Autist ist. Diese Angabe nennt dieses Porträt nur als seine Selbstauskunft und zieht daraus keine weiteren Schlüsse.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: der Schauspieler, der mit Körper und Stimme ganze Figuren baut</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Hardy unverwechselbar macht, ist die Fähigkeit, eine Figur von außen nach innen zu bauen. In ›Locke‹ (2013) bestreitet er einen ganzen Film allein in einem Auto, nur mit Stimme und Gesicht. In ›Legend‹ (2015) spielt er beide Kray-Zwillinge, den kalkulierenden Reggie und den unberechenbaren Ronnie, und lässt sie im selben Bild nebeneinander glaubhaft wirken. Als Alfie Solomons in ›Peaky Blinders‹ (2014&ndash;2022) formt er aus Gemurmel und plötzlicher Freundlichkeit einen Gangsterboss, der vor allem durch Sprache gefährlich wird. Für ›The Revenant‹ (2015) erhielt er eine Oscar-Nominierung als bester Nebendarsteller.</p>
+          <p class="vb-intro">Mit ›Taboo‹ (2017) schuf er die Serie gemeinsam mit seinem Vater und dem Autor Steven Knight, produzierte sie mit und spielte die Hauptrolle. Bei ›Venom‹ (2018) und dessen Fortsetzung war er an der Geschichte beteiligt. Für seine Verdienste um das Schauspiel wurde er 2018 zum Commander of the Order of the British Empire (CBE) ernannt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Steve McQueen und Alec Baldwin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-steve-mcqueen">Steve McQueen (SX6w7)</a> machte aus einer Kindheit ohne Schutz Härte zum Schild und fand Halt im Rennsport und im Freundeskreis; bei Hardy übernehmen jiu-jitsu-Matten und die Zusammenarbeit mit Nolan, Knight und seinem Vater diese Rolle. <a href="#beruehmte-alec-baldwin">Alec Baldwin (SX6w7)</a> teilt die Mischung aus Wucht und Humor, die dem Sechser mit Siebenerflügel Zugang zu großen Rollen gibt.</p>
+          <p class="vb-intro">Der Unterschied: McQueen blieb zeitlebens misstrauisch gegenüber Nähe, Hardy hat sich in Beziehungen und Familie geöffnet. 2014 heiratete er die Schauspielerin Charlotte Riley; die beiden haben zwei Söhne, dazu kommt ein älterer Sohn aus einer früheren Beziehung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten des sexuellen Sechsers mit Siebenerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell sind Loyalität und Einsatz für Schwächere. Hardy ist seit 2010 Botschafter von The Prince&rsquo;s Trust (heute The King&rsquo;s Trust), der jungen Menschen beim Berufseinstieg hilft, und seit 2012 gemeinsam mit seiner Frau Schirmherr von Bowel Cancer UK. Er ist außerdem führender Botschafter der REORG Brazilian Jiu-Jitsu Foundation. Wer selbst weiß, wie sich Abgrund anfühlt, kann hier konkret helfen.</p>
+          <p class="vb-intro">Die Schattenseite des Sechsers mit Siebenerflügel liegt in der Flucht nach vorn: Betäubung statt Benennen der Angst, Tempo statt Stillstand. Seine Suchtgeschichte ist die sichtbarste Form davon; was er daraus gemacht hat, zeigt sein späterer Weg. Dieses Porträt hält fest, was er selbst erzählt hat, und deutet nicht mehr aus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Gangster in London und New York</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Tom Hardy ist (Stand 3. November 2026) 49 Jahre alt. 2024 beendete ›Venom: The Last Dance‹ die Venom-Reihe. 2025 spielte er in Guy Ritchies Serie ›MobLand‹ (Paramount+) und im Netflix-Film ›Havoc‹. Für die Zukunft werden unter anderem ein Film über den Kriegsfotografen Don McCullin und ein Shackleton-Film genannt; beides sind bislang Ankündigungen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx6", label:"Lebensmusterkompass: SX6 – Wolf"},
+        {route:"beruehmte-steve-mcqueen", label:"Porträt: Steve McQueen (SX6w7)"},
+        {route:"beruehmte-alec-baldwin", label:"Porträt: Alec Baldwin (SX6w7)"},
+      ])}
+    </div>
+  `);
+}

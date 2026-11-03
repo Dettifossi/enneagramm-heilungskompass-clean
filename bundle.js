@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=466";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=467";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -393,6 +393,7 @@ const wilmaMankillerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js
 const arnoldSchwarzeneggerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "arnoldSchwarzeneggerPortraitPage");
 const johnCusackPortraitPage = () => _lazyPage("./data/beruehmte-de/teil4.js", "johnCusackPortraitPage");
 const mattDamonPortraitPage = () => _lazyPage("./data/beruehmte-de/teil13.js", "mattDamonPortraitPage");
+const tomHardyPortraitPage = () => _lazyPage("./data/beruehmte-de/teil2.js", "tomHardyPortraitPage");
 const sigourneyWeaverPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "sigourneyWeaverPortraitPage");
 const nicoleKidmanPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "nicoleKidmanPortraitPage");
 const naomiCampbellPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "naomiCampbellPortraitPage");
@@ -27918,6 +27919,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Arnold Schwarzenegger – Selbsterhaltender Typ 1",
     teaser:"SE1w2 · geb. 1947 in Thal, Österreich. Siebenfacher Mister-Olympia-Sieger, Hollywood-Star, Gouverneur von Kalifornien 2003–2011. Eiserne Selbstdisziplin in drei völlig verschiedenen Karrieren. Der Adler, der sich seinen Körper selbst erschuf.",
     land:"Österreich/USA", tags:["Sport","Schauspiel","Politik","Bodybuilding"], gender:"m"},
+  { route:"beruehmte-tom-hardy", name:"Tom Hardy", added:"2026-11-03", subtyp:"SX6w7",
+    heading:"Tom Hardy \u2013 Sexueller Typ 6",
+    teaser:"SX6w7 \u00b7 geb. 1977 in London. Britischer Schauspieler, Produzent und Rapper (\u203aBronson\u2039, \u203aMad Max: Fury Road\u2039, \u203aPeaky Blinders\u2039, \u203aVenom\u2039). Der Wolf, der seine Angst erst betäubte und dann in Kampfkunst und Verwandlung umsetzte.",
+    land:"Gro\u00dfbritannien", tags:["Schauspiel","Film"], gender:"m"},
   { route:"beruehmte-matt-damon", name:"Matt Damon", added:"2026-11-03", subtyp:"SX6w5",
     heading:"Matt Damon \u2013 Sexueller Typ 6",
     teaser:"SX6w5 \u00b7 geb. 1970 in Cambridge, Massachusetts. US-amerikanischer Schauspieler, Drehbuchautor und Produzent (\u203aGood Will Hunting\u2039, \u203aBourne\u2039, \u203aThe Martian\u2039, \u203aOppenheimer\u2039). Der Wolf, der mit seinem Jugendfreund Ben Affleck ein Rudel f\u00fcrs Leben bildete.",
@@ -67815,7 +67820,7 @@ const ROUTES = {
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
       "beruehmte-violet-jessop": violetJessopPortraitPage, "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,
-      "beruehmte-arnold-schwarzenegger": arnoldSchwarzeneggerPortraitPage, "beruehmte-john-cusack": johnCusackPortraitPage, "beruehmte-matt-damon": mattDamonPortraitPage, "beruehmte-sigourney-weaver": sigourneyWeaverPortraitPage, "beruehmte-jessica-biel": jessicaBielPortraitPage, "beruehmte-justin-timberlake": justinTimberlakePortraitPage, "beruehmte-nico-rosberg": nicoRosbergPortraitPage, "beruehmte-lewis-hamilton": lewisHamiltonPortraitPage, "beruehmte-niki-lauda": nikiLaudaPortraitPage, "beruehmte-johannes-gutenberg": johannesGutenbergPortraitPage, "beruehmte-konrad-zuse": konradZusePortraitPage, "beruehmte-javier-tebas": javierTebasPortraitPage, "beruehmte-philippe-sands": philippeSandsPortraitPage, "beruehmte-sean-sherman": seanShermanPortraitPage, "beruehmte-billie-lourd": billieLourdPortraitPage, "beruehmte-ruby-true": rubyTruePortraitPage, "beruehmte-caroline-wozniacki": carolineWozniackiPortraitPage, "beruehmte-kennerly-kitt": kennerlyKittPortraitPage, "beruehmte-camille-kitt": camilleKittPortraitPage, "beruehmte-werner-ablass": wernerAblassPortraitPage, "beruehmte-hubert-benoit": hubertBenoitPortraitPage, "beruehmte-eleanor-roosevelt": eleanorRooseveltPortraitPage, "beruehmte-bruno-groening": brunoGroeningPortraitPage, "beruehmte-joel-goldsmith": joelGoldsmithPortraitPage, "beruehmte-maria-treben": mariaTrebenPortraitPage, "beruehmte-susan-polgar": susanPolgarPortraitPage, "beruehmte-jens-riewa": jensRiewaPortraitPage, "beruehmte-marleen-lohse": marleenLohsePortraitPage, "beruehmte-andrea-sawatzki": andreaSawatzkiPortraitPage, "beruehmte-senta-berger": sentaBergerPortraitPage, "beruehmte-robert-greene": robertGreenePortraitPage, "beruehmte-sofia-polgar": sofiaPolgarPortraitPage, "beruehmte-dieter-thomas-heck": dieterThomasHeckPortraitPage, "beruehmte-ramana-maharshi": ramanaMaharshiPortraitPage, "beruehmte-luke-nichols": lukeNicholsPortraitPage, "beruehmte-matthias-reim": matthiasReimPortraitPage,
+      "beruehmte-arnold-schwarzenegger": arnoldSchwarzeneggerPortraitPage, "beruehmte-john-cusack": johnCusackPortraitPage, "beruehmte-matt-damon": mattDamonPortraitPage, "beruehmte-tom-hardy": tomHardyPortraitPage, "beruehmte-sigourney-weaver": sigourneyWeaverPortraitPage, "beruehmte-jessica-biel": jessicaBielPortraitPage, "beruehmte-justin-timberlake": justinTimberlakePortraitPage, "beruehmte-nico-rosberg": nicoRosbergPortraitPage, "beruehmte-lewis-hamilton": lewisHamiltonPortraitPage, "beruehmte-niki-lauda": nikiLaudaPortraitPage, "beruehmte-johannes-gutenberg": johannesGutenbergPortraitPage, "beruehmte-konrad-zuse": konradZusePortraitPage, "beruehmte-javier-tebas": javierTebasPortraitPage, "beruehmte-philippe-sands": philippeSandsPortraitPage, "beruehmte-sean-sherman": seanShermanPortraitPage, "beruehmte-billie-lourd": billieLourdPortraitPage, "beruehmte-ruby-true": rubyTruePortraitPage, "beruehmte-caroline-wozniacki": carolineWozniackiPortraitPage, "beruehmte-kennerly-kitt": kennerlyKittPortraitPage, "beruehmte-camille-kitt": camilleKittPortraitPage, "beruehmte-werner-ablass": wernerAblassPortraitPage, "beruehmte-hubert-benoit": hubertBenoitPortraitPage, "beruehmte-eleanor-roosevelt": eleanorRooseveltPortraitPage, "beruehmte-bruno-groening": brunoGroeningPortraitPage, "beruehmte-joel-goldsmith": joelGoldsmithPortraitPage, "beruehmte-maria-treben": mariaTrebenPortraitPage, "beruehmte-susan-polgar": susanPolgarPortraitPage, "beruehmte-jens-riewa": jensRiewaPortraitPage, "beruehmte-marleen-lohse": marleenLohsePortraitPage, "beruehmte-andrea-sawatzki": andreaSawatzkiPortraitPage, "beruehmte-senta-berger": sentaBergerPortraitPage, "beruehmte-robert-greene": robertGreenePortraitPage, "beruehmte-sofia-polgar": sofiaPolgarPortraitPage, "beruehmte-dieter-thomas-heck": dieterThomasHeckPortraitPage, "beruehmte-ramana-maharshi": ramanaMaharshiPortraitPage, "beruehmte-luke-nichols": lukeNicholsPortraitPage, "beruehmte-matthias-reim": matthiasReimPortraitPage,
       "beruehmte-guenther-krabbenhoeft": guentherKrabbenhoeftPortraitPage,
       "beruehmte-marie-kondo": marieKondoPortraitPage,
       "beruehmte-dan-brown": danBrownPortraitPage,
