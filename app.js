@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=464";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=467";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -114,6 +114,7 @@ const bastianPastewkaPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.j
 const byronKatiePortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "byronKatiePortraitPage");
 const knutHamsunPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "knutHamsunPortraitPage");
 const christophWaltzPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "christophWaltzPortraitPage");
+const violetJessopPortraitPage = () => _lazyPage("./data/beruehmte-de/teil5.js", "violetJessopPortraitPage");
 const dhapanbalYunupinguPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "dhapanbalYunupinguPortraitPage");
 const editaGruberovaPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "editaGruberovaPortraitPage");
 const fayeDunawayPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "fayeDunawayPortraitPage");
@@ -391,6 +392,8 @@ const tracieDHallPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", 
 const wilmaMankillerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "wilmaMankillerPortraitPage");
 const arnoldSchwarzeneggerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "arnoldSchwarzeneggerPortraitPage");
 const johnCusackPortraitPage = () => _lazyPage("./data/beruehmte-de/teil4.js", "johnCusackPortraitPage");
+const mattDamonPortraitPage = () => _lazyPage("./data/beruehmte-de/teil13.js", "mattDamonPortraitPage");
+const tomHardyPortraitPage = () => _lazyPage("./data/beruehmte-de/teil2.js", "tomHardyPortraitPage");
 const sigourneyWeaverPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "sigourneyWeaverPortraitPage");
 const nicoleKidmanPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "nicoleKidmanPortraitPage");
 const naomiCampbellPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "naomiCampbellPortraitPage");
@@ -1482,7 +1485,7 @@ const se4 = {
     lebensthema:
       "Du tr\u00e4gst dein Inneres still. Was andere vielleicht dramatisch nach au\u00dfen bringen w\u00fcrden, h\u00e4ltst du in dir \u2014 differenziert, reflektiert, und mit einer stillen H\u00e4rte gegen dich selbst. Dr. Claudio Naranjo nannte diesen Subtyp die \u201estoische Z\u00e4higkeit\u201c \u2014 eine bemerkenswerte F\u00e4higkeit, Schmerz, Entt\u00e4uschung und Sehnsucht auszuhalten, ohne zu zerbrechen. Als Kontratyp wirkst du nach au\u00dfen oft ruhiger und gefasster, als du dich innen erlebst. Dein innerer Weg f\u00fchrt nicht dazu, weniger zu f\u00fchlen \u2014 sondern zu vertrauen, dass du mit deiner Tiefe auch im Kontakt mit anderen sein kannst.",
     grundstrategie:
-      "Die selbsterhaltende Vier reguliert innere Spannung durch Selbstkontrolle, R\u00fcckzug und stillen Durchhaltewillen. Emotionale Intensit\u00e4t bleibt innen \u2014 sie wird selektiv, nur dann geteilt, wenn echter Vertrauen entsteht. Die innere Grundfrage lautet: \u201eKann ich das still tragen \u2014 bin ich stark genug, um damit allein zu sein?\u201c",
+      "Die selbsterhaltende Vier reguliert innere Spannung durch Selbstkontrolle, R\u00fcckzug und stillen Durchhaltewillen. Emotionale Intensit\u00e4t bleibt innen \u2014 sie wird selektiv, nur dann geteilt, wenn echtes Vertrauen entsteht. Die innere Grundfrage lautet: \u201eKann ich das still tragen \u2014 bin ich stark genug, um damit allein zu sein?\u201c",
     staerken: [
       "au\u00dfergew\u00f6hnliche innere Ausdauer und stille St\u00e4rke",
       "differenzierte, tiefe Selbstwahrnehmung",
@@ -1885,7 +1888,7 @@ const se9 = {
 const so1 = {
   meinKompass: {
     lebensthema:
-      "Du sp\u00fcrst eine tiefe innere Verpflichtung \u2014 nicht nur dein eigenes Leben in Ordnung zu halten, sondern auch das der Gemeinschaft um dich herum. Missst\u00e4nde, Ungerechtigkeiten oder Widerspr\u00fcche zwischen Anspruch und Wirklichkeit siehst du fr\u00fch und deutlich. Oft entsteht daraus der Impuls, etwas zu ver\u00e4ndern, Klarheit einzufordern oder Verantwortung zu \u00fcbernehmen, wo andere es nicht tun. Dein innerer Weg f\u00fchrt nicht darin, diesen Sinn f\u00fcr Gerechtigkeit aufzugeben \u2014 sondern ihn mit mehr Menschlichkeit und innerer Weite zu verbinden.",
+      "Du sp\u00fcrst eine tiefe innere Verpflichtung \u2014 nicht nur dein eigenes Leben in Ordnung zu halten, sondern auch das der Gemeinschaft um dich herum. Missst\u00e4nde, Ungerechtigkeiten oder Widerspr\u00fcche zwischen Anspruch und Wirklichkeit siehst du fr\u00fch und deutlich. Oft entsteht daraus der Impuls, etwas zu ver\u00e4ndern, Klarheit einzufordern oder Verantwortung zu \u00fcbernehmen, wo andere es nicht tun. Dein innerer Weg besteht nicht darin, diesen Sinn f\u00fcr Gerechtigkeit aufzugeben \u2014 sondern ihn mit mehr Menschlichkeit und innerer Weite zu verbinden.",
     grundstrategie:
       "Die soziale Eins orientiert sich an moralischen und sozialen Ma\u00dfst\u00e4ben und sucht Stabilit\u00e4t durch das Eintreten f\u00fcr Werte und Prinzipien \u2014 im eigenen Leben und im sozialen Umfeld. Die innere Grundfrage lautet h\u00e4ufig: \u201eWird hier nach richtigen Ma\u00dfst\u00e4ben gehandelt \u2014 und tue ich genug daf\u00fcr?\u201c",
     staerken: [
@@ -2094,7 +2097,7 @@ const so3 = {
 const so4 = {
   meinKompass: {
     lebensthema:
-      "Du wei\u00dft sehr genau, wie es sich anf\u00fchlt, nicht ganz dazuzugeh\u00f6ren. Dein Blick richtet sich oft dorthin, was andere haben und was dir zu fehlen scheint \u2014 Leichtigkeit, Anerkennung, einen festen Platz. Als Verst\u00e4rkungstyp lebst du die Vier-Dynamik besonders deutlich: Neid wird hier zu einem klar sp\u00fcrbaren, innerlich fast unausweichlichen Bewegung des Vergleichens. Das Schwere daran ist: Je mehr du vergleichst, desto mehr entfernst du dich von dem, was du wirklich schon bist. Dein innerer Weg f\u00fchrt nicht dazu, aufzuh\u00f6ren, tief zu f\u00fchlen \u2014 sondern aufzuh\u00f6ren, deinen Wert im Spiegel anderer zu suchen.",
+      "Du wei\u00dft sehr genau, wie es sich anf\u00fchlt, nicht ganz dazuzugeh\u00f6ren. Dein Blick richtet sich oft dorthin, was andere haben und was dir zu fehlen scheint \u2014 Leichtigkeit, Anerkennung, einen festen Platz. Als Verst\u00e4rkungstyp lebst du die Vier-Dynamik besonders deutlich: Neid wird hier zu einer klar sp\u00fcrbaren, innerlich fast unausweichlichen Bewegung des Vergleichens. Das Schwere daran ist: Je mehr du vergleichst, desto mehr entfernst du dich von dem, was du wirklich schon bist. Dein innerer Weg f\u00fchrt nicht dazu, aufzuh\u00f6ren, tief zu f\u00fchlen \u2014 sondern aufzuh\u00f6ren, deinen Wert im Spiegel anderer zu suchen.",
     grundstrategie:
       "Die soziale Vier sichert Zugeh\u00f6rigkeit und Bedeutung \u00fcber Besonderheit, emotionale Tiefe und das Sichtbarmachen von Anderssein im sozialen Raum. Sie beobachtet fein, wie andere wirken \u2014 und f\u00fchlt gleichzeitig, was ihr zu fehlen scheint. Die innere Grundfrage lautet: \u201eGeh\u00f6re ich wirklich dazu \u2014 oder sieht man mir an, dass ich nicht gen\u00fcge?\u201c",
     staerken: [
@@ -11993,7 +11996,7 @@ const subtypeProfiles = {
     deficit: "Vertrauensdefizit",
     passion: "Angst",
     essence: "Mut, Vertrauen, Courage, Standhaftigkeit",
-    focus: "Vertrauen statt Kontrolle",
+    focus: "Ich w\u00e4hle Vertrauen statt Angst und Verbindung statt Kontrolle.",
     organismQuestion:
       "Wie kann ich sicher sein, dass ich nicht bedroht bin und Unterst\u00fctzung habe?",
     coreSentence:
@@ -13319,7 +13322,7 @@ const subtypeProfiles = {
     deficit: "Wertlosigkeitsdefizit",
     passion: "Eitelkeit",
     essence: "charismatische Wirksamkeit, charismatische Pr\u00e4senz, klare Zielorientierung, soziale Kompetenz",
-    focus: "Ich nutze meine F\u00e4higkeiten zum Wohl des Ganzen und inspiriere andere durch \u2026",
+    focus: "Ich nutze meine F\u00e4higkeiten zum Wohl des Ganzen und inspiriere andere durch mein echtes Sein.",
     organismQuestion: "Wie kann ich erfolgreich sein und dabei meinen Wert beweisen?",
     coreSentence: "Wenn du nicht gl\u00e4nzen musst, wird deine Wirkung wahrhaftig, menschlich und stark.",
     title_en: "The Achiever",
@@ -13805,7 +13808,7 @@ const subtypeProfiles = {
     deficit: "Identit\u00e4tsdefizit",
     passion: "Neid",
     essence: "emotionale Echtheit, emotionale Echtheit, tiefe Verbindung, wertsch\u00e4tzende Ehrlichkeit",
-    focus: "Ich bin wertvoll, genau so, wie ich bin. In Echtheit inspiriere ich echte \u2026",
+    focus: "Ich bin wertvoll, genau so, wie ich bin. In Echtheit inspiriere ich echte Verbindung.",
     organismQuestion: "Wer bin ich wirklich und was macht mich einzigartig?",
     coreSentence: "Wenn du deinen Mangel nicht festh\u00e4ltst, entsteht Zugeh\u00f6rigkeit, Selbstannahme und stille W\u00fcrde.",
     title_en: "The Sufferer",
@@ -15571,7 +15574,7 @@ const subtypeProfiles = {
     deficit: "Verletzlichkeitsdefizit",
     passion: "Wollust",
     essence: "f\u00fchrungsstark, gerecht, besch\u00fctzend, organisiert",
-    focus: "Ich nutze meine Kraft weise, um zu sch\u00fctzen, zu f\u00fchren und das Leben zu \u2026",
+    focus: "Ich nutze meine Kraft weise, um zu sch\u00fctzen, zu f\u00fchren und das Leben zu gestalten.",
     organismQuestion: "Wie kann ich meine Grenzen wahren, f\u00fcr mich einstehen und sch\u00fctzen, was mir wichtig ist?",
     coreSentence: "Wenn Schutz nicht Besitz wird, entsteht starke, gerechte und vertrauensvolle F\u00fchrung.",
     title_en: "The Protector",
@@ -15729,7 +15732,7 @@ const subtypeProfiles = {
     deficit: "Verletzlichkeitsdefizit",
     passion: "Wollust",
     essence: "magnetisch, intensiv, leidenschaftlich, souver\u00e4n",
-    focus: "Ich nutze meine magnetische Kraft, um zu lieben, zu sch\u00fctzen und das Leben in \u2026",
+    focus: "Ich nutze meine magnetische Kraft, um zu lieben, zu sch\u00fctzen und das Leben in seiner Tiefe zu erfahren.",
     organismQuestion: "Wie kann ich meine Grenzen wahren, f\u00fcr mich einstehen und sch\u00fctzen, was mir wichtig ist?",
     coreSentence: "Wenn du Intensit\u00e4t nicht mit Kampf verwechselst, entsteht N\u00e4he und Vertrauen ohne Machtprobe.",
     title_en: "The Challenger",
@@ -15887,7 +15890,7 @@ const subtypeProfiles = {
     deficit: "Pr\u00e4senzdefizit",
     passion: "Tr\u00e4gheit",
     essence: "ruhig, geerdet, standhaft, weise",
-    focus: "Ich nutze meine Kraft, um in innerem Frieden zu leben und das Leben bewusst \u2026",
+    focus: "Ich nutze meine Kraft, um in innerem Frieden zu leben und das Leben bewusst zu gestalten.",
     organismQuestion: "Wie kann ich in Frieden bleiben und Harmonie bewahren, in mir und um mich herum?",
     coreSentence: "Wenn du dich selbst wichtig nimmst und nicht bet\u00e4ubst, entsteht lebendige innere Pr\u00e4senz.",
     title_en: "The Comfort-Seeker",
@@ -16045,7 +16048,7 @@ const subtypeProfiles = {
     deficit: "Pr\u00e4senzdefizit",
     passion: "Tr\u00e4gheit",
     essence: "verbindend, gelassen, standhaft, ausgleichend",
-    focus: "Ich nutze meine Kraft, um in Verbindung zu leben und das Leben bewusst zu \u2026",
+    focus: "Ich nutze meine Kraft, um in Verbindung zu leben und das Leben bewusst zu gestalten.",
     organismQuestion: "Wie kann ich in Frieden bleiben und Harmonie bewahren, in mir und um mich herum?",
     coreSentence: "Wenn Zugeh\u00f6rigkeit nicht Selbstvergessenheit bedeutet, entsteht echte und stabile Gemeinschaft.",
     title_en: "The Benefactor",
@@ -16203,7 +16206,7 @@ const subtypeProfiles = {
     deficit: "Pr\u00e4senzdefizit",
     passion: "Tr\u00e4gheit",
     essence: "hingebungsvoll, mitf\u00fchlend, friedlich, verbunden",
-    focus: "Ich nutze meine Kraft, um Liebe, Mitgef\u00fchl und Weisheit zu leben und das \u2026",
+    focus: "Ich nutze meine Kraft, um Liebe, Mitgef\u00fchl und Weisheit zu leben und das Leben in seiner Einheit zu ehren.",
     organismQuestion: "Wie kann ich in Frieden bleiben und Harmonie bewahren, in mir und um mich herum?",
     coreSentence: "Wenn Verschmelzung nicht zum Selbstverlust f\u00fchrt, kann Liebe wirklich zur Begegnung werden.",
     title_en: "The Merging One",
@@ -27916,6 +27919,14 @@ const BERUEHMT_PORTRAITS = [
     heading:"Arnold Schwarzenegger – Selbsterhaltender Typ 1",
     teaser:"SE1w2 · geb. 1947 in Thal, Österreich. Siebenfacher Mister-Olympia-Sieger, Hollywood-Star, Gouverneur von Kalifornien 2003–2011. Eiserne Selbstdisziplin in drei völlig verschiedenen Karrieren. Der Adler, der sich seinen Körper selbst erschuf.",
     land:"Österreich/USA", tags:["Sport","Schauspiel","Politik","Bodybuilding"], gender:"m"},
+  { route:"beruehmte-tom-hardy", name:"Tom Hardy", added:"2026-11-03", subtyp:"SX6w7",
+    heading:"Tom Hardy \u2013 Sexueller Typ 6",
+    teaser:"SX6w7 \u00b7 geb. 1977 in London. Britischer Schauspieler, Produzent und Rapper (\u203aBronson\u2039, \u203aMad Max: Fury Road\u2039, \u203aPeaky Blinders\u2039, \u203aVenom\u2039). Der Wolf, der seine Angst erst betäubte und dann in Kampfkunst und Verwandlung umsetzte.",
+    land:"Gro\u00dfbritannien", tags:["Schauspiel","Film"], gender:"m"},
+  { route:"beruehmte-matt-damon", name:"Matt Damon", added:"2026-11-03", subtyp:"SX6w5",
+    heading:"Matt Damon \u2013 Sexueller Typ 6",
+    teaser:"SX6w5 \u00b7 geb. 1970 in Cambridge, Massachusetts. US-amerikanischer Schauspieler, Drehbuchautor und Produzent (\u203aGood Will Hunting\u2039, \u203aBourne\u2039, \u203aThe Martian\u2039, \u203aOppenheimer\u2039). Der Wolf, der mit seinem Jugendfreund Ben Affleck ein Rudel f\u00fcrs Leben bildete.",
+    land:"USA", tags:["Schauspiel","Film"], gender:"m"},
   { route:"beruehmte-john-cusack", name:"John Cusack", added:"2026-10-29", subtyp:"SO7w6",
     heading:"John Cusack \u2013 Sozialer Typ 7",
     teaser:"SO7w6 \u00b7 geb. 1966 in Evanston. US-amerikanischer Schauspieler, Produzent und Autor (\u203aSay Anything...\u2039, \u203aHigh Fidelity\u2039, \u203aGrosse Pointe Blank\u2039). Der Biber, der sich seine Vehikel selbst baute und vom Studiofilm zur Graphic Novel wechselte.",
@@ -28687,6 +28698,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Method Man \u2013 Selbsterhaltender Typ 2",
     teaser:"SE2w3 \u00b7 geb. 1971 auf Long Island. US-amerikanischer Rapper und Schauspieler (Wu-Tang Clan, \u203aTical\u2039, \u203aThe Wire\u2039). Das Flusspferd, das den Clan zum engsten Kreis machte und von dort aus Film, Fernsehen und Pop-Duette eroberte.",
     land:"USA", tags:["Musik"], gender:"m"},
+  { route:"beruehmte-violet-jessop", name:"Violet Jessop", added:"2026-11-02", subtyp:"SE1w2",
+    heading:"Violet Jessop \u2013 Selbsterhaltender Typ 1",
+    teaser:"SE1w2 \u00b7 1887\u20131971. Stewardess und Krankenschwester, \u203aMiss Unsinkable\u2039: \u00fcberlebte die Unf\u00e4lle von Olympic, Titanic und Britannic und fuhr danach weiter zur See. Der Adler, der seinen Posten hielt.",
+    land:"Argentinien", tags:["Geschichte"], gender:"f"},
   { route:"beruehmte-carlos-santana", name:"Carlos Santana", added:"2026-08-24", subtyp:"SE2w3",
     heading:"Carlos Santana – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1947. Mexikanisch-US-amerikanischer Gitarrist, Woodstock 1969, Supernatural-Comeback 1999 (9 Grammys). Vom Vater direkt weitergegebenes Handwerk, verbunden mit dem stetigen Bedürfnis, neu entdeckt zu werden. Tierentsprechung: Flusspferd.",
@@ -34059,6 +34074,7 @@ export function relatedLinks(links) {
     <div style="margin-top:2rem;padding-top:1.25rem;border-top:1px solid var(--border);">
       <p style="font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 .6rem;">&#10022;&nbsp;${heading}</p>
       <div style="display:flex;flex-wrap:wrap;gap:.5rem;">${buttons}</div>
+      <button type="button" onclick="window.scrollTo({top:0,behavior:'smooth'})" style="display:block;margin:1.4rem auto 0;background:none;border:1px solid var(--line);border-radius:20px;padding:.4rem 1.1rem;font-size:.8rem;color:var(--muted);cursor:pointer;">\u2191 Nach oben</button>
     </div>
   `;
 }
@@ -38775,6 +38791,12 @@ function typesPage() {
   `);
 }
 
+const TYP_MITTEL = {1:["Platina","Plat."],2:["Hyoscyamus","Hyos."],3:["Tarentula","Tarent."],4:["Ignatia","Ign."],5:["Stramonium","Stram."],6:["Opium","Op."],7:["Belladonna","Bell."],8:["Veratrum","Verat."],9:["Cannabis indica","Cann-i."]};
+function typMittelBlock(t, c) {
+  const m = TYP_MITTEL[t.num]; if (!m) return "";
+  return `<p class="typ-mittel" style="margin:1rem 0 0"><span class="typ-meta__chip" style="border-color:${c};color:${c}">Heilmittel in der Enneagramm-Homöopathie: <strong>${m[0]} (${m[1]})</strong></span> <a href="https://www.verlagshausrathmer.com/enneagramm-repertorium.html" target="_blank" rel="noopener" style="color:${c};font-size:.9rem">Rubriken und Mittelbild im Enneagramm-Homöopathie-Repertorium →</a></p>`;
+}
+
 function typePage(num) {
   const t = GRUNDTYPEN.find(x => x.num === parseInt(num));
   if (!t) return typesPage();
@@ -38806,6 +38828,7 @@ function typePage(num) {
         <span class="typ-meta__chip" style="border-color:${c};color:${c}">Leidenschaft: <strong>${t.leidenschaft}</strong></span>
         <span class="typ-meta__chip" style="border-color:${c};color:${c}">Tier: <strong>${t.tier}</strong></span>
       </div>
+      ${typMittelBlock(t, c)}
       ${impulseBlock(TYP_IMPULSE[t.num], c)}
     </section>
     <section class="subtypen-liste">${subtypenHtml}</section>
@@ -67796,9 +67819,9 @@ const ROUTES = {
       "beruehmte-ayn-rand": aynRandPortraitPage,
       "beruehmte-clint-eastwood": clintEastwoodPortraitPage,
       "beruehmte-martha-graham": marthaGrahamPortraitPage,
-      "beruehmte-christoph-waltz": christophWaltzPortraitPage,
+      "beruehmte-violet-jessop": violetJessopPortraitPage, "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,
-      "beruehmte-arnold-schwarzenegger": arnoldSchwarzeneggerPortraitPage, "beruehmte-john-cusack": johnCusackPortraitPage, "beruehmte-sigourney-weaver": sigourneyWeaverPortraitPage, "beruehmte-jessica-biel": jessicaBielPortraitPage, "beruehmte-justin-timberlake": justinTimberlakePortraitPage, "beruehmte-nico-rosberg": nicoRosbergPortraitPage, "beruehmte-lewis-hamilton": lewisHamiltonPortraitPage, "beruehmte-niki-lauda": nikiLaudaPortraitPage, "beruehmte-johannes-gutenberg": johannesGutenbergPortraitPage, "beruehmte-konrad-zuse": konradZusePortraitPage, "beruehmte-javier-tebas": javierTebasPortraitPage, "beruehmte-philippe-sands": philippeSandsPortraitPage, "beruehmte-sean-sherman": seanShermanPortraitPage, "beruehmte-billie-lourd": billieLourdPortraitPage, "beruehmte-ruby-true": rubyTruePortraitPage, "beruehmte-caroline-wozniacki": carolineWozniackiPortraitPage, "beruehmte-kennerly-kitt": kennerlyKittPortraitPage, "beruehmte-camille-kitt": camilleKittPortraitPage, "beruehmte-werner-ablass": wernerAblassPortraitPage, "beruehmte-hubert-benoit": hubertBenoitPortraitPage, "beruehmte-eleanor-roosevelt": eleanorRooseveltPortraitPage, "beruehmte-bruno-groening": brunoGroeningPortraitPage, "beruehmte-joel-goldsmith": joelGoldsmithPortraitPage, "beruehmte-maria-treben": mariaTrebenPortraitPage, "beruehmte-susan-polgar": susanPolgarPortraitPage, "beruehmte-jens-riewa": jensRiewaPortraitPage, "beruehmte-marleen-lohse": marleenLohsePortraitPage, "beruehmte-andrea-sawatzki": andreaSawatzkiPortraitPage, "beruehmte-senta-berger": sentaBergerPortraitPage, "beruehmte-robert-greene": robertGreenePortraitPage, "beruehmte-sofia-polgar": sofiaPolgarPortraitPage, "beruehmte-dieter-thomas-heck": dieterThomasHeckPortraitPage, "beruehmte-ramana-maharshi": ramanaMaharshiPortraitPage, "beruehmte-luke-nichols": lukeNicholsPortraitPage, "beruehmte-matthias-reim": matthiasReimPortraitPage,
+      "beruehmte-arnold-schwarzenegger": arnoldSchwarzeneggerPortraitPage, "beruehmte-john-cusack": johnCusackPortraitPage, "beruehmte-matt-damon": mattDamonPortraitPage, "beruehmte-tom-hardy": tomHardyPortraitPage, "beruehmte-sigourney-weaver": sigourneyWeaverPortraitPage, "beruehmte-jessica-biel": jessicaBielPortraitPage, "beruehmte-justin-timberlake": justinTimberlakePortraitPage, "beruehmte-nico-rosberg": nicoRosbergPortraitPage, "beruehmte-lewis-hamilton": lewisHamiltonPortraitPage, "beruehmte-niki-lauda": nikiLaudaPortraitPage, "beruehmte-johannes-gutenberg": johannesGutenbergPortraitPage, "beruehmte-konrad-zuse": konradZusePortraitPage, "beruehmte-javier-tebas": javierTebasPortraitPage, "beruehmte-philippe-sands": philippeSandsPortraitPage, "beruehmte-sean-sherman": seanShermanPortraitPage, "beruehmte-billie-lourd": billieLourdPortraitPage, "beruehmte-ruby-true": rubyTruePortraitPage, "beruehmte-caroline-wozniacki": carolineWozniackiPortraitPage, "beruehmte-kennerly-kitt": kennerlyKittPortraitPage, "beruehmte-camille-kitt": camilleKittPortraitPage, "beruehmte-werner-ablass": wernerAblassPortraitPage, "beruehmte-hubert-benoit": hubertBenoitPortraitPage, "beruehmte-eleanor-roosevelt": eleanorRooseveltPortraitPage, "beruehmte-bruno-groening": brunoGroeningPortraitPage, "beruehmte-joel-goldsmith": joelGoldsmithPortraitPage, "beruehmte-maria-treben": mariaTrebenPortraitPage, "beruehmte-susan-polgar": susanPolgarPortraitPage, "beruehmte-jens-riewa": jensRiewaPortraitPage, "beruehmte-marleen-lohse": marleenLohsePortraitPage, "beruehmte-andrea-sawatzki": andreaSawatzkiPortraitPage, "beruehmte-senta-berger": sentaBergerPortraitPage, "beruehmte-robert-greene": robertGreenePortraitPage, "beruehmte-sofia-polgar": sofiaPolgarPortraitPage, "beruehmte-dieter-thomas-heck": dieterThomasHeckPortraitPage, "beruehmte-ramana-maharshi": ramanaMaharshiPortraitPage, "beruehmte-luke-nichols": lukeNicholsPortraitPage, "beruehmte-matthias-reim": matthiasReimPortraitPage,
       "beruehmte-guenther-krabbenhoeft": guentherKrabbenhoeftPortraitPage,
       "beruehmte-marie-kondo": marieKondoPortraitPage,
       "beruehmte-dan-brown": danBrownPortraitPage,

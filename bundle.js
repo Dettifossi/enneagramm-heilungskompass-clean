@@ -34074,6 +34074,7 @@ export function relatedLinks(links) {
     <div style="margin-top:2rem;padding-top:1.25rem;border-top:1px solid var(--border);">
       <p style="font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 .6rem;">&#10022;&nbsp;${heading}</p>
       <div style="display:flex;flex-wrap:wrap;gap:.5rem;">${buttons}</div>
+      <button type="button" onclick="window.scrollTo({top:0,behavior:'smooth'})" style="display:block;margin:1.4rem auto 0;background:none;border:1px solid var(--line);border-radius:20px;padding:.4rem 1.1rem;font-size:.8rem;color:var(--muted);cursor:pointer;">\u2191 Nach oben</button>
     </div>
   `;
 }
