@@ -3195,3 +3195,73 @@ export function rajanSankaranPortraitPage() {
     </div>
   `);
 }
+
+export function katyOBrianPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-katy-obrian-portrait.jpg" alt="Katy O&rsquo;Brian – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-katy-obrian-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Katy O&rsquo;Brian</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanische Schauspielerin und Kampfkünstlerin &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Wolf: das Kind aus Indiana, das mit fünf zur Kampfkunst kam</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Wolf</strong> trainiert, bevor die Gefahr kommt, und trägt sein Rudel mit sich. Katy O&rsquo;Brian stammt aus dem Raum Indianapolis in Indiana; Datenbanken nennen als Geburtsjahr 1989, die Wikipedia nennt kein Datum. Sie beschreibt sich selbst als gemischter Herkunft, mit schwarzen und weißen Vorfahren. Mit fünf Jahren begann sie mit Kampfsport, mit neun trug sie den braunen Gürtel in Shorei-Goju-Ryu-Karate. Außerdem spielte sie in Musikprogrammen Schlagzeug.</p>
+          <p class="vb-intro">An der Indiana University in Bloomington studierte sie Psychologie und Germanistik, war frühes Mitglied der Improvisationsgruppe Hoosonfirst und absolvierte über das Cadet Officer Program der Universität eine Polizeiausbildung. Später erwarb sie über die US Hapkido Federation den schwarzen Gürtel in Hapkido.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der sexuelle Sechser: Gefahr suchen, um sie zu beherrschen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo beschrieb den sexuellen Sechser als Kontratyp der Sechs: Er antwortet auf Angst mit Stärke und geht auf das Bedrohliche zu. Bei O&rsquo;Brian lässt sich das am Lebenslauf ablesen. Sieben Jahre arbeitete sie bei der Polizei von Carmel, Indiana, auch im Crisis Intervention Team, das mit Menschen in akuten Krisen spricht. Daneben legte sie die Prüfung als Personal Trainerin ab und trat 2014 und 2015 zweimal bei Figure-Bodybuilding-Wettkämpfen an. Aufgehört hat sie nach eigener Darstellung wegen der Kosten und weil sie keine Steroide nehmen wollte.</p>
+          <p class="vb-intro">2016 ging sie nach Los Angeles, unterrichtete im Kampfkunstprogramm der UCLA Hapkido und lernte dort Muay Thai und brasilianisches Jiu-Jitsu. Wer die eigene Angst vor Kontrollverlust mit Technik, Training und Krisengesprächen beantwortet, hat sie zum Beruf gemacht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Improvisation, Vielfalt und der Wunsch nach Komödie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> bringt Spiellust und Abwechslung in die Wachsamkeit. Bei O&rsquo;Brian zeigt er sich in der Improvisationsgruppe der Studienzeit und in der Bandbreite ihrer Rollen: Science-Fiction in ›The Mandalorian‹ und ›Z Nation‹, Marvel in ›Ant-Man and the Wasp: Quantumania‹ (2023), Katastrophenfilm in ›Twisters‹ (2024), Horror-Komödie in ›Queens of the Dead‹ und Romantikkomödie in ›Maintenance Required‹ (beide 2025). Sie sagt, sie wolle frische Geschichten erzählen, mehr Komödie und Drama spielen und träume von einem Kampfkunstfilm im Stil der klassischen Kung-Fu-Filme.</p>
+          <p class="vb-intro">Auch das Schreiben gehört dazu: Sie arbeitet nach eigener Aussage gemeinsam mit ihrer Frau Kylie Chi an Stoffen. Das Paar lernte sich in Los Angeles bei einem Studentenfilm kennen und heiratete im Juli 2020.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: die Schauspielerin, deren Körper nicht gespielt ist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was O&rsquo;Brian unverwechselbar macht, ist die Verbindung aus echter körperlicher Fertigkeit und Spielwitz. Ihre erste große Filmrolle war Jackie Cleaver in ›Love Lies Bleeding‹ (A24, 8. März 2024), eine Bodybuilderin an der Seite von Kristen Stewart. Für die Rolle trainierte sie nach eigenen Angaben stundenlang am Tag bei strenger Diät, obwohl sie an Morbus Crohn leidet; die Darmoperation, die sie brauchte, schob sie bis nach den Dreharbeiten auf. Die Rolle erhielt ihr 2024 den Astra Midseason Movie Award als beste Nebendarstellerin.</p>
+          <p class="vb-intro">Danach folgten ›Mission: Impossible – The Final Reckoning‹ (2025) als Marinetaucherin Kodiak, ›The Running Man‹ (2025, mit Glen Powell) und ›Christy‹ (2025) mit Sydney Sweeney.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Tom Hardy und Steve McQueen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-tom-hardy">Tom Hardy (SX6w7)</a> trainiert ebenfalls Jiu-Jitsu, spielt körperlich fordernde Rollen und trägt dieselbe Mischung aus Wucht und Spieltrieb. <a href="#beruehmte-steve-mcqueen">Steve McQueen (SX6w7)</a> machte Härte zum Schild und fand Halt im Freundeskreis und im Rennsport.</p>
+          <p class="vb-intro">Der Unterschied: Hardy und McQueen wählten den Körper als Antwort auf Zerrissenheit, O&rsquo;Brian kam aus der Polizeiarbeit, aus Krisengesprächen und aus der Kampfkunst, die schon mit fünf begann, also aus einem Berufsfeld, in dem der Umgang mit Angst Teil der Arbeit war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten des sexuellen Sechsers mit Siebenerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell sind Beharrlichkeit und Offenheit. O&rsquo;Brian lebt offen als lesbische Frau und beschreibt ihr Coming-out als schrittweisen Prozess; auf die Frage von Freunden, ob sie denn nun schwul sei, antwortete sie irgendwann mit Ja, und die Freude der Freunde sei groß gewesen. Auch ihre Krankheit versteckt sie nicht.</p>
+          <p class="vb-intro">Die Schattenseite des Sechsers mit Siebenerflügel liegt im Dauereinsatz: Wer aus dem Körper Kraft zieht, geht mit ihm auch über Grenzen, wie die zurückgestellte Operation zeigt. Dieses Porträt hält fest, was sie selbst gesagt hat, und deutet nicht weiter aus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Hollywood-Karriere im Aufbau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Katy O&rsquo;Brian lebt (Stand 4. November 2026) mit ihrer Frau in Los Angeles. Zuletzt waren 2025 ihre Filme ›The Running Man‹, ›Christy‹ und ›Mission: Impossible – The Final Reckoning‹ zu sehen. Für 2027 ist ›A Quiet Place Part III‹ angekündigt, der nach den vorliegenden Quellen gerade gedreht wird.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx6", label:"Lebensmusterkompass: SX6 – Wolf"},
+        {route:"beruehmte-tom-hardy", label:"Porträt: Tom Hardy (SX6w7)"},
+        {route:"beruehmte-steve-mcqueen", label:"Porträt: Steve McQueen (SX6w7)"},
+      ])}
+    </div>
+  `);
+}

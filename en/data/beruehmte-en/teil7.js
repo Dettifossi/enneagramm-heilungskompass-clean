@@ -3155,3 +3155,73 @@ export function rajanSankaranPortraitPage() {
     </div>
   `);
 }
+
+export function katyOBrianPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-katy-obrian-portrait.jpg" alt="Katy O&rsquo;Brian – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-katy-obrian-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Katy O&rsquo;Brian</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">American actress and martial artist &ndash; Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Wolf: the child from Indiana who came to martial arts at five</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>wolf</strong> trains before danger arrives and carries its pack with it. Katy O&rsquo;Brian comes from the Indianapolis area in Indiana; databases give 1989 as her birth year, Wikipedia gives no date. She describes herself as mixed race, with Black and white ancestry. She began martial arts at five and held a brown belt in Shorei Goju Ryu karate at nine. She also played percussion in music programs.</p>
+          <p class="vb-intro">At Indiana University Bloomington she studied psychology and Germanic studies, was an early member of the improv troupe Hoosonfirst and completed law-enforcement training through the university&rsquo;s Cadet Officer Program. Later she earned a hapkido black belt through the US Hapkido Federation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Six: seeking out danger in order to master it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo described the sexual Six as the countertype of the Six: it answers fear with strength and moves toward what is threatening. In O&rsquo;Brian this can be read from her résumé. For seven years she worked for the Carmel, Indiana, Police Department, including its Crisis Intervention Team, which talks with people in acute crisis. Alongside that she qualified as a personal trainer and in 2014 and 2015 competed twice in figure bodybuilding. By her own account she stopped because of the cost and because she did not want to take steroids.</p>
+          <p class="vb-intro">In 2016 she moved to Los Angeles, taught hapkido in the UCLA martial arts program and learned Muay Thai and Brazilian jiu-jitsu there. Anyone who answers her own fear of losing control with technique, training and crisis conversations has made it a profession.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-wing: improvisation, variety and the wish for comedy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> brings playfulness and variety into the watchfulness. In O&rsquo;Brian it shows in the improv troupe of her student days and in the range of her roles: science fiction in &lsquo;The Mandalorian&rsquo; and &lsquo;Z Nation&rsquo;, Marvel in &lsquo;Ant-Man and the Wasp: Quantumania&rsquo; (2023), a disaster film in &lsquo;Twisters&rsquo; (2024), horror comedy in &lsquo;Queens of the Dead&rsquo; and romantic comedy in &lsquo;Maintenance Required&rsquo; (both 2025). She says she wants to tell fresh stories, play more comedy and drama, and dreams of a martial-arts film in the style of classic kung fu movies.</p>
+          <p class="vb-intro">Writing is part of it too: by her own account she works on stories together with her wife, Kylie Chi. The couple met in Los Angeles on a student film and married in July 2020.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the actress whose body is not acted</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What makes O&rsquo;Brian unmistakable is the combination of real physical skill and playfulness. Her first major film role was Jackie Cleaver in &lsquo;Love Lies Bleeding&rsquo; (A24, 8 March 2024), a bodybuilder opposite Kristen Stewart. For the part she trained hours a day on a strict diet, by her own account, even though she has Crohn&rsquo;s disease; the bowel surgery she needed she postponed until after filming. The role earned her the 2024 Astra Midseason Movie Award for best supporting actress.</p>
+          <p class="vb-intro">After that came &lsquo;Mission: Impossible – The Final Reckoning&rsquo; (2025) as the Navy diver Kodiak, &lsquo;The Running Man&rsquo; (2025, with Glen Powell) and &lsquo;Christy&rsquo; (2025) with Sydney Sweeney.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Tom Hardy and Steve McQueen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-tom-hardy">Tom Hardy (SX6w7)</a> also trains jiu-jitsu, plays physically demanding roles and carries the same mix of force and playfulness. <a href="#beruehmte-steve-mcqueen">Steve McQueen (SX6w7)</a> made toughness his shield and found support in a circle of friends and in racing.</p>
+          <p class="vb-intro">The difference: Hardy and McQueen chose the body as an answer to inner turmoil, while O&rsquo;Brian came from police work, crisis conversations and martial arts that began at five, a field in which handling fear was part of the job.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Six with Seven-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright are perseverance and openness. O&rsquo;Brian lives openly as a lesbian woman and describes her coming out as a gradual process; when friends asked whether she was gay yet, she eventually said yes, and the joy on their faces was great. She does not hide her illness either.</p>
+          <p class="vb-intro">The shadow side of the Six with Seven-wing lies in constant deployment: anyone who draws strength from the body also goes past limits with it, as the postponed surgery shows. This portrait records what she has said herself and interprets no further.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: a Hollywood career under construction</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Katy O&rsquo;Brian lives (as of 4 November 2026) in Los Angeles with her wife. Most recently, in 2025, her films &lsquo;The Running Man&rsquo;, &lsquo;Christy&rsquo; and &lsquo;Mission: Impossible – The Final Reckoning&rsquo; were released. &lsquo;A Quiet Place Part III&rsquo; is announced for 2027 and, according to the sources available, is currently being filmed.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"lebensmusterkompass/sx6", label:"Life Pattern Compass: SX6 – Wolf"},
+        {route:"beruehmte-tom-hardy", label:"Portrait: Tom Hardy (SX6w7)"},
+        {route:"beruehmte-steve-mcqueen", label:"Portrait: Steve McQueen (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
