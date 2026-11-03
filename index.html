@@ -141,9 +141,9 @@
     </main></div>
     <script src="data/quiz.js?v=2"></script>
     <script src="data/zitate.js?v=1"></script>
-    <script src="data/changelog.js?v=1647"></script>
+    <script src="data/changelog.js?v=1648"></script>
     <script src="a11y.js?v=4" defer></script>
-    <script type="module" src="bundle.js?v=inhalt-v3372"></script>
+    <script type="module" src="bundle.js?v=inhalt-v3373"></script>
     <script>
       if ("serviceWorker" in navigator) {
         // Nur neu laden wenn vorher schon ein SW aktiv war (nicht beim ersten Start nach Cache-Leerung)
@@ -217,6 +217,7 @@
       // Auto-Reload beim Start oben bleibt unverändert.
       (function () {
         var TXT = "Neue Version verfügbar.", BTN = "Aktualisieren", bar = null, busy = false, baseSw = null, last = 0;
+        if (/[?&]upd=/.test(location.search)) { try { history.replaceState(null, '', location.pathname + location.hash); } catch (e) {} }
         var bundleEl = document.querySelector('script[src*="bundle.js"]');
         if (!bundleEl || !window.fetch) return;
         var dir = new URL('./', bundleEl.src).href;
@@ -236,8 +237,10 @@
           bar.appendChild(sp); bar.appendChild(bt); document.body.appendChild(bar);
         }
         function apply() {
-          var done = function () { window.location.reload(); };
-          fetch(dir + 'index.html', { cache: 'reload' }).catch(function () {}).then(function () {
+          var done = function () { window.location.replace(location.pathname + '?upd=' + Date.now() + location.hash); };
+          (window.caches ? caches.keys().then(function (k) { return Promise.all(k.map(function (n) { return caches.delete(n); })); }) : Promise.resolve()).catch(function () {}).then(function () {
+            return fetch(dir + 'index.html', { cache: 'reload' });
+          }).catch(function () {}).then(function () {
             if (!navigator.serviceWorker) return;
             return navigator.serviceWorker.getRegistration().then(function (reg) {
               if (!reg) return;

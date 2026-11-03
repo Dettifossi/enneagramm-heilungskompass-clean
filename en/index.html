@@ -110,9 +110,9 @@
     </main></div>
     <script src="../data/quiz_en.js?v=2"></script>
     <script src="../data/zitate_en.js?v=2"></script>
-    <script src="../data/changelog.js?v=1498"></script>
+    <script src="../data/changelog.js?v=1499"></script>
     <script src="../a11y.js?v=4" defer></script>
-    <script type="module" src="./bundle.js?v=inhalt-v2842"></script>
+    <script type="module" src="./bundle.js?v=inhalt-v2843"></script>
     <script>
       if ("serviceWorker" in navigator) {
         const hadController = !!navigator.serviceWorker.controller;
@@ -173,6 +173,7 @@
       // Auto-Reload beim Start oben bleibt unverändert.
       (function () {
         var TXT = "A new version is available.", BTN = "Update", bar = null, busy = false, baseSw = null, last = 0;
+        if (/[?&]upd=/.test(location.search)) { try { history.replaceState(null, '', location.pathname + location.hash); } catch (e) {} }
         var bundleEl = document.querySelector('script[src*="bundle.js"]');
         if (!bundleEl || !window.fetch) return;
         var dir = new URL('./', bundleEl.src).href;
@@ -192,8 +193,10 @@
           bar.appendChild(sp); bar.appendChild(bt); document.body.appendChild(bar);
         }
         function apply() {
-          var done = function () { window.location.reload(); };
-          fetch(dir + 'index.html', { cache: 'reload' }).catch(function () {}).then(function () {
+          var done = function () { window.location.replace(location.pathname + '?upd=' + Date.now() + location.hash); };
+          (window.caches ? caches.keys().then(function (k) { return Promise.all(k.map(function (n) { return caches.delete(n); })); }) : Promise.resolve()).catch(function () {}).then(function () {
+            return fetch(dir + 'index.html', { cache: 'reload' });
+          }).catch(function () {}).then(function () {
             if (!navigator.serviceWorker) return;
             return navigator.serviceWorker.getRegistration().then(function (reg) {
               if (!reg) return;
