@@ -3179,3 +3179,73 @@ export function gertrudHoehlerPortraitPage() {
     </div>
   `);
 }
+
+export function mattDamonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-matt-damon-portrait.jpg" alt="Matt Damon – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-matt-damon-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Matt Damon</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexual Type 6 with Five-wing</p>
+        <p class="krim-portrait-subtitle">American actor, screenwriter and producer, b. 1970 &ndash; Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Wolf: the boy from the shared house in Cambridge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>wolf</strong> lives in a pack and first tests whom it can trust. Matthew Paige Damon was born on 8 October 1970 in Cambridge, Massachusetts. His father, Kent Damon, worked as a stockbroker; his mother, Nancy Carlsson-Paige, is a professor of early childhood education. His parents separated when he was two. He grew up with his brother Kyle, later a sculptor, in a house shared by six families, and attended the Cambridge Alternative School and Cambridge Rindge and Latin School.</p>
+          <p class="vb-intro">There he met his schoolmate Ben Affleck, with whom he is still friends today. In 1988 he began studying at Harvard, where he and Affleck wrote the first scenes of what became &lsquo;Good Will Hunting&rsquo;, and he left a semester before graduating to act in &lsquo;Geronimo: An American Legend&rsquo;. A child who experienced early on that home can change looks for a fixed circle. In Damon that circle has visibly been the same for more than forty years.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Six: counter-fear with teeth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo described the sexual Six as the countertype of the Six: it meets its own insecurity not with adaptation but with strength and attack. In Damon this shows less in poses than in decisions. In 1997 he and Affleck, two young actors without big roles, had a script of their own that they did not want to hand over. By their own account they insisted on playing in it themselves. &lsquo;Good Will Hunting&rsquo; won both of them the Oscar for best original screenplay, and Damon also a nomination for best actor; he was 27.</p>
+          <p class="vb-intro">Later too he went toward roles in which the body has to take part. For &lsquo;Courage Under Fire&rsquo; (1996) he reportedly lost about 40 pounds, and for the Bourne films (2002&ndash;2016) he practiced close-combat techniques, including Filipino martial arts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: the mind behind the seriousness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the sexual Six observation, preparation and a tendency to withdraw into the matter at hand. In Damon it is striking how often he plays people who hold their ground through knowledge: the mathematically gifted janitor Will Hunting, the botanist-astronaut Mark Watney in &lsquo;The Martian&rsquo; (2015), who stays alive on Mars by calculating and trying things out, General Leslie Groves in &lsquo;Oppenheimer&rsquo; (2023). And the impostor Tom Ripley (1999), who uses knowledge and observation as a weapon.</p>
+          <p class="vb-intro">The wing also works in private life: Damon has been married to Luciana Barroso since 2005, the couple has three daughters together, and he keeps the family largely out of the public eye.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the man whose everyman you believe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What makes Damon unmistakable is a manner of acting without flourishes. He rarely plays the charmer and almost never the dandy; his characters seem like people you know and trust with something. In &lsquo;The Talented Mr. Ripley&rsquo; he uses exactly that: the friendly face belongs to a man who slips into other people&rsquo;s lives. Jason Bourne made him an action star without reducing the role to muscle, because an amnesiac who distrusts everyone carries the character through gaze and tempo. For &lsquo;Invictus&rsquo; (2009) he received an Oscar nomination for best supporting actor, for &lsquo;The Martian&rsquo; a Golden Globe and another Oscar nomination for best actor.</p>
+          <p class="vb-intro">Beside the screen stand the companies he founded with Affleck: LivePlanet (2000), Pearl Street Films (2010) and Artists Equity (2022). &lsquo;Air&rsquo; (2023), directed by Affleck, with Damon in the lead and as producer, confirmed this model: actors take responsibility for their material instead of waiting for offers.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Nick Nolte and Emily Blunt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-nick-nolte">Nick Nolte (SX6w5)</a> shows the same basic attitude in a rougher form: the frontal gaze, the scars under the toughness, the wolf that does not dodge fear. <a href="#beruehmte-emily-blunt">Emily Blunt (SX6w5)</a> stood in front of the camera with Damon in &lsquo;The Adjustment Bureau&rsquo; (2011) and in &lsquo;Oppenheimer&rsquo;; in her the wolf appears more quietly, in him more down-to-earth.</p>
+          <p class="vb-intro">The difference: Nolte lived out his intensity openly and unchecked, while Damon has channeled his into discipline, preparation and long collaboration with the same people.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Six with Five-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright are constancy and commitment to others. In 2006 Damon co-founded the H2O Africa Foundation with Gary White, which merged with WaterPartners in 2009 to become Water.org; on 30 July 2025 he won one million dollars for that organization on the quiz show &lsquo;Who Wants to Be a Millionaire&rsquo;. He also supports the ONE Campaign and co-founded the Not On Our Watch Project against mass atrocities.</p>
+          <p class="vb-intro">The shadow side of the Six lies where direct speech comes too fast. In December 2017 he commented on the MeToo debate in an interview in a way that drew heavy criticism; on 17 January 2018 he apologized on the &lsquo;Today Show&rsquo;. In 2021 he advertised for Crypto.com with the slogan &lsquo;Fortune favors the brave&rsquo; and was sharply attacked for it. In 2021 he also said in the &lsquo;Sunday Times&rsquo; that he would no longer use a slur he had used in the past. A pattern is visible: first an appearance with conviction, then headwind, then clarification or apology. This portrait records what is documented and does not interpret the motives further.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: Odysseus for Nolan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Matt Damon is (as of 3 November 2026) 56 years old. In July 2026 Christopher Nolan&rsquo;s &lsquo;The Odyssey&rsquo; reached cinemas, in which he plays Odysseus. The film opened with about 264 million dollars worldwide on its first weekend and, according to media reports, passed 1.1 billion dollars in late summer. Before that, &lsquo;The Instigators&rsquo;, a comedy with Casey Affleck, appeared on Apple TV+ in 2024.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"lebensmusterkompass/sx6", label:"Life Pattern Compass: SX6 – Wolf"},
+        {route:"beruehmte-nick-nolte", label:"Portrait: Nick Nolte (SX6w5)"},
+        {route:"beruehmte-emily-blunt", label:"Portrait: Emily Blunt (SX6w5)"},
+      ])}
+    </div>
+  `);
+}

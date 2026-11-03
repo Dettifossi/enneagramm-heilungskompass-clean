@@ -3184,3 +3184,73 @@ export function yvesSaintLaurentPortraitPage() {
     </div>
   `);
 }
+
+export function mattDamonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-matt-damon-portrait.jpg" alt="Matt Damon – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-matt-damon-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Matt Damon</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexueller Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Schauspieler, Drehbuchautor und Produzent, geb. 1970 &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Wolf: der Junge aus dem Gemeinschaftshaus in Cambridge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Wolf</strong> lebt im Rudel und prüft zuerst, wem er trauen kann. Matthew Paige Damon wurde am 8. Oktober 1970 in Cambridge, Massachusetts, geboren. Der Vater Kent Damon arbeitete als Börsenmakler, die Mutter Nancy Carlsson-Paige ist Professorin für frühkindliche Bildung. Die Eltern trennten sich, als er zwei Jahre alt war. Er wuchs mit seinem Bruder Kyle, der später Bildhauer wurde, in einem Haus auf, das sich sechs Familien teilten, und besuchte die Cambridge Alternative School und die Cambridge Rindge and Latin School.</p>
+          <p class="vb-intro">Dort lernte er den Mitschüler Ben Affleck kennen, mit dem er bis heute befreundet ist. 1988 begann er ein Studium in Harvard, schrieb dort mit Affleck die ersten Szenen dessen, was später ›Good Will Hunting‹ wurde, und verließ die Universität ein Semester vor dem Abschluss, um in ›Geronimo: An American Legend‹ zu spielen. Ein Kind, das früh erlebt hat, dass das Zuhause sich verändert, sucht sich einen festen Kreis. Bei Damon ist dieser Kreis seit über vierzig Jahren erkennbar derselbe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der sexuelle Sechser: Kontra-Angst mit Biss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo beschrieb den sexuellen Sechser als Kontratyp der Sechs: Er begegnet der eigenen Unsicherheit nicht mit Anpassung, sondern mit Stärke und Angriff nach vorn. Bei Damon zeigt sich das weniger in Posen als in Entscheidungen. 1997 hatten er und Affleck, zwei junge Schauspieler ohne große Rollen, ein selbst geschriebenes Drehbuch, das sie nicht aus der Hand geben wollten. Nach ihrer Darstellung bestanden sie darauf, selbst zu spielen. ›Good Will Hunting‹ brachte beiden den Oscar für das beste Originaldrehbuch ein, Damon zusätzlich eine Nominierung als bester Hauptdarsteller; er war damals 27.</p>
+          <p class="vb-intro">Auch später ging er auf Rollen zu, bei denen der Körper mitspielen muss. Für ›Courage Under Fire‹ (1996) nahm er nach Berichten rund 18 Kilo ab, für die Bourne-Filme (2002&ndash;2016) übte er Nahkampftechniken, darunter philippinische Kampfkunst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: der Kopf hinter dem Ernst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt dem sexuellen Sechser Beobachtungsgabe, Vorbereitung und einen Hang zum Rückzug in die Sache. Bei Damon fällt auf, wie oft er Menschen spielt, die sich über Wissen behaupten: den rechnenden Putzmann Will Hunting, den Botaniker und Astronauten Mark Watney in ›The Martian‹ (2015), der sich auf dem Mars durch Rechnen und Ausprobieren am Leben hält, den General Leslie Groves in ›Oppenheimer‹ (2023). Und den Hochstapler Tom Ripley (1999), der Wissen und Beobachtung als Waffe einsetzt.</p>
+          <p class="vb-intro">Auch im Privaten wirkt der Flügel mit: Damon ist seit 2005 mit Luciana Barroso verheiratet, das Paar hat drei gemeinsame Töchter, und er hält die Familie weitgehend aus der Öffentlichkeit heraus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: der Mann, dem man den Durchschnittstyp glaubt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Damon unverwechselbar macht, ist eine Spielweise ohne Schnörkel. Er spielt selten den Charmeur und fast nie den Dandy; seine Figuren wirken wie Menschen, die man kennt und denen man etwas zutraut. In ›The Talented Mr. Ripley‹ nutzt er genau das: Das freundliche Gesicht gehört einem Mann, der sich in fremde Leben schiebt. Jason Bourne machte ihn zum Actionstar, ohne dass er die Rolle auf Muskeln reduzierte, denn ein Amnesiker, der misstraut, trägt die Figur durch Blick und Tempo. Für ›Invictus‹ (2009) erhielt er eine Oscar-Nominierung als bester Nebendarsteller, für ›The Martian‹ einen Golden Globe und eine weitere Oscar-Nominierung als bester Hauptdarsteller.</p>
+          <p class="vb-intro">Neben der Leinwand stehen die Firmen, die er mit Affleck gründete: LivePlanet (2000), Pearl Street Films (2010) und Artists Equity (2022). Mit ›Air‹ (2023), von Affleck inszeniert, mit Damon in der Hauptrolle und als Produzent, bestätigte sich dieses Modell: Schauspieler übernehmen Verantwortung für ihre Stoffe, statt auf Angebote zu warten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Nick Nolte und Emily Blunt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-nick-nolte">Nick Nolte (SX6w5)</a> zeigt dieselbe Grundhaltung in rauerer Form: der frontale Blick, die Narben unter der Härte, der Wolf, der der Angst nicht ausweicht. <a href="#beruehmte-emily-blunt">Emily Blunt (SX6w5)</a> stand mit Damon in ›The Adjustment Bureau‹ (2011) und in ›Oppenheimer‹ vor der Kamera; bei ihr tritt der Wolf leiser auf, bei ihm eher bodenständig.</p>
+          <p class="vb-intro">Der Unterschied: Nolte lebte seine Intensität offen und ungebremst aus, Damon hat sie in Disziplin, Vorbereitung und ein langes Zusammenarbeiten mit denselben Menschen gelenkt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten des sexuellen Sechsers mit Fünferflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell sind Beständigkeit und Einsatz für andere. Damon gründete 2006 mit Gary White die H2O Africa Foundation, die 2009 mit WaterPartners zu Water.org verschmolz; am 30. Juli 2025 gewann er in der Quizshow ›Who Wants to Be a Millionaire‹ eine Million Dollar für diese Organisation. Er unterstützt außerdem die ONE Campaign und war Mitgründer des Not On Our Watch Project gegen Massenverbrechen.</p>
+          <p class="vb-intro">Die Schattenseite des Sechsers liegt dort, wo die direkte Rede zu schnell kommt. Im Dezember 2017 äußerte er sich in einem Interview zur MeToo-Debatte so, dass es heftige Kritik gab; am 17. Januar 2018 entschuldigte er sich in der ›Today Show‹. 2021 warb er für Crypto.com mit dem Slogan ›Fortune favors the brave‹ (›Das Glück begünstigt die Mutigen‹) und wurde dafür stark angegriffen. 2021 erklärte er in der ›Sunday Times‹ außerdem, er werde ein früher von ihm benutztes Schimpfwort nicht mehr verwenden. Ein Muster ist erkennbar: erst ein Auftritt mit Überzeugung, dann Gegenwind, danach Klarstellung oder Entschuldigung. Dieses Porträt hält fest, was belegt ist, und deutet die Beweggründe nicht weiter aus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Odysseus bei Nolan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Matt Damon ist (Stand 3. November 2026) 56 Jahre alt. Im Juli 2026 kam ›The Odyssey‹ von Christopher Nolan in die Kinos, in dem er den Odysseus spielt. Der Film startete mit rund 264 Millionen Dollar weltweit am ersten Wochenende und überschritt nach Medienberichten im Spätsommer 1,1 Milliarden Dollar. Zuvor erschien 2024 bei Apple TV+ ›The Instigators‹, eine Komödie mit Casey Affleck.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx6", label:"Lebensmusterkompass: SX6 – Wolf"},
+        {route:"beruehmte-nick-nolte", label:"Porträt: Nick Nolte (SX6w5)"},
+        {route:"beruehmte-emily-blunt", label:"Porträt: Emily Blunt (SX6w5)"},
+      ])}
+    </div>
+  `);
+}

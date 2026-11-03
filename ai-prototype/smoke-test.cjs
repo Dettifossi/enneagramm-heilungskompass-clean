@@ -319,6 +319,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-violet-jessop", label: "Neues EN-Porträt: Violet Jessop" },
   { hash: "#beruehmte-john-cusack", label: "Neues Porträt: John Cusack" },
   { hash: "en/#beruehmte-john-cusack", label: "Neues EN-Porträt: John Cusack" },
+  { hash: "#beruehmte-matt-damon", label: "Neues Porträt: Matt Damon" },
+  { hash: "en/#beruehmte-matt-damon", label: "Neues EN-Porträt: Matt Damon" },
   { hash: "#beruehmte-mireille-mathieu", label: "Neues Porträt: Mireille Mathieu" },
   { hash: "en/#beruehmte-mireille-mathieu", label: "Neues EN-Porträt: Mireille Mathieu" },
   { hash: "#beruehmte-elke-sommer", label: "Neues Porträt: Elke Sommer" },
