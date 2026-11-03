@@ -5177,7 +5177,7 @@ export function steveMcQueenKrankheitsportraetPage() {
         <p class="vb-intro"><strong>a) Die Spur des Asbests:</strong>
         McQueen führte seine Erkrankung selbst auf Asbest zurück. Er vermutete Isoliermaterial in Filmstudios sowie Rennanzüge und Helme, hielt aber das Entfernen von Asbest-Rohrisolierung auf einem Truppentransporter während seiner Zeit bei den Marines für die wahrscheinlichste Quelle. Beim Mesotheliom liegen oft Jahrzehnte zwischen der Belastung und der Erkrankung; welche Quelle tatsächlich ausschlaggebend war, lässt sich nicht mehr klären.</p>
         <p class="vb-intro"><strong>b) Ein Behandler ohne Zulassung:</strong>
-        Kelleys einzige Lizenz, die für Kieferorthopädie, war 1976 entzogen worden; er galt weithin als Scharlatan. Seine Zusage einer vollständigen Heilung widerlegte McQueens Zustand.</p>
+        Kelleys einzige Lizenz, die für Kieferorthopädie, war 1976 entzogen worden; er galt weithin als Scharlatan. McQueens Zustand widersprach seiner Zusage einer vollständigen Heilung.</p>
         <p class="vb-intro"><strong>c) Glaube am Ende:</strong>
         Nach den Angaben seiner Frau Barbara Minty wurde McQueen gegen Ende evangelikaler Christ, beeinflusst von seinem Fluglehrer Sammy Mason und dessen Sohn Pete. Er besuchte die Ventura Missionary Church, und kurz vor seinem Tod kam der Prediger Billy Graham zu Besuch. Diese Darstellung stammt von Minty selbst.</p>
       </div>
