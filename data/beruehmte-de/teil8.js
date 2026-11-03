@@ -3242,7 +3242,7 @@ export function katyOBrianPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten des sexuellen Sechsers mit Siebenerflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Hell sind Beharrlichkeit und Offenheit. O&rsquo;Brian lebt offen als lesbische Frau und beschreibt ihr Coming-out als schrittweisen Prozess; auf die Frage von Freunden, ob sie denn nun schwul sei, antwortete sie irgendwann mit Ja, und die Freude der Freunde sei groß gewesen. Auch ihre Krankheit versteckt sie nicht.</p>
+          <p class="vb-intro">Hell sind Beharrlichkeit und Offenheit. O&rsquo;Brian lebt offen als lesbische Frau und beschreibt ihr Coming-out als schrittweisen Prozess; auf die Frage von Freunden, ob sie denn nun endlich lesbisch sei, antwortete sie irgendwann mit Ja, und die Freude der Freunde sei groß gewesen. Auch ihre Krankheit versteckt sie nicht.</p>
           <p class="vb-intro">Die Schattenseite des Sechsers mit Siebenerflügel liegt im Dauereinsatz: Wer aus dem Körper Kraft zieht, geht mit ihm auch über Grenzen, wie die zurückgestellte Operation zeigt. Dieses Porträt hält fest, was sie selbst gesagt hat, und deutet nicht weiter aus.</p>
         </blockquote>
 
