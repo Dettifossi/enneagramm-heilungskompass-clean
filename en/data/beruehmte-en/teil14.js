@@ -3238,7 +3238,7 @@ export function lauraAblaPortraitPage() {
       <div class="page-content">
         <h2 class="vb-section">1. The Wolf: the East Frisian who got her name in Turkey</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">A <strong>wolf</strong> moves to where its pack is and examines every bond closely. Laura Abla, born Laura Schmitt, comes from East Frisia and, according to press reports from July 2026, was 27 years old. The name Abla, Turkish for &lsquo;big sister&rsquo;, she received in Turkey, where according to those reports she lived in an earlier marriage. After the separation she returned to Germany. Through modeling jobs she later came to Barcelona.</p>
+          <p class="vb-intro">A <strong>wolf</strong> moves to where its pack is and examines every bond closely. Laura Abla, born Laura Schmitt, comes from East Frisia and, according to press reports from July 2026, is 27 years old. The name Abla, Turkish for &lsquo;big sister&rsquo;, she received in Turkey, where according to those reports she lived in an earlier marriage. After the separation she returned to Germany. Through modeling jobs she later came to Barcelona.</p>
           <p class="vb-intro">The path of a young woman between East Frisia, Turkey and Spain becomes a life line of departures. By her own account in podcast conversations (for example &lsquo;Fake it till you make it&rsquo;) it was not the comfortable route: separation, a move and a fresh start are part of it.</p>
         </blockquote>
 

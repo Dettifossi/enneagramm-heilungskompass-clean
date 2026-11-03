@@ -3152,7 +3152,7 @@ export function lauraAblaPortraitPage() {
       <div class="page-content">
         <h2 class="vb-section">1. Der Wolf: die Ostfriesin, die ihren Namen in der Türkei bekam</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Ein <strong>Wolf</strong> zieht dorthin, wo sein Rudel ist, und prüft jede Bindung genau. Laura Abla, bürgerlich Laura Schmitt, stammt aus Ostfriesland und war laut Presseberichten vom Juli 2026 27 Jahre alt. Den Namen Abla, türkisch für ›große Schwester‹, bekam sie in der Türkei, wo sie nach diesen Berichten in einer früheren Ehe lebte. Nach der Trennung kehrte sie nach Deutschland zurück. Über Modelaufträge kam sie später nach Barcelona.</p>
+          <p class="vb-intro">Ein <strong>Wolf</strong> zieht dorthin, wo sein Rudel ist, und prüft jede Bindung genau. Laura Abla, bürgerlich Laura Schmitt, stammt aus Ostfriesland und ist laut Presseberichten vom Juli 2026 27 Jahre alt. Den Namen Abla, türkisch für ›große Schwester‹, bekam sie in der Türkei, wo sie nach diesen Berichten in einer früheren Ehe lebte. Nach der Trennung kehrte sie nach Deutschland zurück. Über Modelaufträge kam sie später nach Barcelona.</p>
           <p class="vb-intro">Aus dem Weg einer jungen Frau zwischen Ostfriesland, der Türkei und Spanien wird so eine Lebenslinie aus Aufbrüchen. Nach eigener Darstellung in Podcast-Gesprächen (etwa ›Fake it till you make it‹, auf Deutsch sinngemäß ›Tu so, als ob, bis es klappt‹) war es nicht der bequeme Weg: Trennung, Umzug und ein Neuanfang gehören dazu.</p>
         </blockquote>
 
