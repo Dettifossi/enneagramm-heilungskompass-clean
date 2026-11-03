@@ -3135,3 +3135,73 @@ export function lindaHamiltonPortraitPage() {
     </div>
   `);
 }
+
+export function lauraAblaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-laura-abla-portrait.jpg" alt="Laura Abla – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-laura-abla-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Laura Abla</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Deutsche Content Creatorin, Model und Podcasterin &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Der Wolf: die Ostfriesin, die ihren Namen in der Türkei bekam</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein <strong>Wolf</strong> zieht dorthin, wo sein Rudel ist, und prüft jede Bindung genau. Laura Abla, bürgerlich Laura Schmitt, stammt aus Ostfriesland und war laut Presseberichten vom Juli 2026 27 Jahre alt. Den Namen Abla, türkisch für ›große Schwester‹, bekam sie in der Türkei, wo sie nach diesen Berichten in einer früheren Ehe lebte. Nach der Trennung kehrte sie nach Deutschland zurück. Über Modelaufträge kam sie später nach Barcelona.</p>
+          <p class="vb-intro">Aus dem Weg einer jungen Frau zwischen Ostfriesland, der Türkei und Spanien wird so eine Lebenslinie aus Aufbrüchen. Nach eigener Darstellung in Podcast-Gesprächen (etwa ›Fake it till you make it‹, auf Deutsch sinngemäß ›Tu so, als ob, bis es klappt‹) war es nicht der bequeme Weg: Trennung, Umzug und ein Neuanfang gehören dazu.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der sexuelle Sechser: Offenheit als Gegenmittel gegen die Angst vor Ablehnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo beschrieb den sexuellen Sechser als Kontratyp der Sechs: Er antwortet auf Unsicherheit nicht mit Rückzug, sondern mit Stärke, Auftritt und direkter Ansprache. Bei Abla zeigt sich das in der Art, wie sie über sich redet. Sie spricht in Podcasts und Interviews offen über Selbstbild, Selbstvertrauen und frühere Beziehungen; eine Episode von ›InStyle GenZ‹ trägt im Titel ›toxische Beziehungen‹. Wer die eigene Verletzlichkeit selbst auf den Tisch legt, nimmt anderen den Hebel aus der Hand.</p>
+          <p class="vb-intro">Dazu passt, was sie im Interview mit dem Magazin Numéro sagte: Sie habe aufgehört, etwas sein zu wollen, was sie nicht ist (im Original: ›I stopped trying to be something I&rsquo;m not‹). Im Cosmopolitan sagte sie, sie sei ›zu 1000 Prozent‹ sie selbst. Das Muster ist nicht Verteidigung, sondern Vorwärtsgang.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Spaß, Vielfalt, der Popstar-Traum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> ist bei Abla deutlich ausgeprägt. Sie sagt von sich, sie habe immer Spaß haben wollen und nehme nicht alles zu ernst. Sie wechselt zwischen Lifestyle, Beauty, Pilates, Mode und Podcast, experimentiert mit Looks gemeinsam mit ihrer Stylistin und ist offen für Unternehmertum und Musik; den Popstar-Traum nennt sie noch lebendig (im Original: ›the pop star dream is still alive‹). Das ist typische Siebener-Energie: Möglichkeiten statt Festlegung.</p>
+          <p class="vb-intro">Ein schwach ausgeprägter Fünferflügel zeigt sich allenfalls in einem Satz: Sie müsse nicht alles teilen und arbeite noch daran. Das ist ein Zug von Zurückhaltung, aber kein Schwerpunkt; die Quellen zeigen vor allem Kontaktfreude, Humor und Tempo.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: die Frau, die Nähe zum Format macht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Abla ausmacht, ist die Verbindung aus Mode und Alltagston. Sie wird von einer Agentur vertreten und arbeitet nach eigenen Angaben für Häuser wie Dior, L&rsquo;Oréal Paris, Armani und H&amp;M; sie zeigt Vintage-Stücke wegen ihrer Geschichten, Schnitte und Stoffe und verbindet Mode mit Stimmung und Lebensphase. Zugleich bleibt sie im Ton direkt und komisch. Marken-Kooperationen schätzt sie dann, wenn man ihr zutraut, die Produkte auf ihre Weise der Community zu zeigen.</p>
+          <p class="vb-intro">Ein Beispiel aus dem Sommer 2026: Zur Fußball-Weltmeisterschaft begleitete sie ihren Partner, den spanischen Nationalspieler Dani Olmo. Zum Viertelfinale gegen Belgien trug sie ein weißes Tanktop mit einem Kinderfoto von Olmo, zum Halbfinale gegen Frankreich ein T-Shirt mit dem Spruch ›My Roommate is a 10 (literally)‹ (›Mein Mitbewohner ist eine 10, im wörtlichen Sinn‹, denn Olmo trägt die Nummer 10), dazu als Glücksbringer eine Fußballkette von Chanel. Das Magazin L&rsquo;Officiel schrieb über sie, sie definiere die Match-Day-Mode neu. Ihr Podcast, den sie nach Angaben des Magazins Numéro mitmoderiert, gehört dort zu den meistgehörten in Deutschland; sie sagt, er habe ihr gezeigt, dass echte Menschen zuhören.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Dagi Bee und Eva Mendes</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-dagi-bee">Dagi Bee (SX6w7)</a> machte wie Abla Nähe und Alltag zum Format und baute ein großes Publikum auf, mit dem sie wie mit einem Rudel lebt. <a href="#beruehmte-eva-mendes">Eva Mendes (SX6w7)</a> zeigt dieselbe Mischung aus Schönheitsbranche, Selbstbewusstsein und bewusster Abgrenzung des Privaten.</p>
+          <p class="vb-intro">Der Unterschied: Dagi Bee machte aus dem Alltag ein Unternehmen mit Familie im Zentrum, Abla bewegt sich stärker zwischen Mode-Welt, Fußball-Bühne und Gesprächs-Podcast.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten des sexuellen Sechsers mit Siebenerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell sind Ehrlichkeit und Selbstbehauptung. Abla sagt, sie wolle sich nicht als ›Fußballerpartnerin‹ verlieren; zu Hause legten beide die Rollen als Fußballer und Influencerin ab. Ihre Beziehung zu Olmo, seit Sommer 2023 ein Paar und seit dem Jahreswechsel 2023/2024 öffentlich, nannte sie im Cosmopolitan ihre erste gesunde Beziehung. Wer so spricht, weiß, wo der eigene Maßstab liegt.</p>
+          <p class="vb-intro">Die Schattenseite des Sechsers mit Siebenerflügel liegt dort, wo Öffentlichkeit und Schutz einander in die Quere kommen: Wer vor hunderttausenden Menschen offen redet, setzt sich Urteilen aus und muss entscheiden, was privat bleibt. Dieses Porträt zieht keine Schlüsse über Beweggründe und hält nur fest, was sie selbst öffentlich gesagt hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Weltmeisterschaft und Zukunftspläne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Laura Abla hat (Stand 4. November 2026) laut Presseberichten rund 435.000 Follower. Im Sommer 2026 war sie bei der Weltmeisterschaft in den Stadien und in den Medien präsent. Sie nennt sich offen für Unternehmertum und Musik, konkrete Projekte werden in den ausgewerteten Quellen nicht genannt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx6", label:"Lebensmusterkompass: SX6 – Wolf"},
+        {route:"beruehmte-dagi-bee", label:"Porträt: Dagi Bee (SX6w7)"},
+        {route:"beruehmte-eva-mendes", label:"Porträt: Eva Mendes (SX6w7)"},
+      ])}
+    </div>
+  `);
+}

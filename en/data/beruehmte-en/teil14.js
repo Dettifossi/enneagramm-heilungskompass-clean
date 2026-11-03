@@ -3221,3 +3221,73 @@ export function lindaHamiltonPortraitPage() {
     </div>
   `);
 }
+
+export function lauraAblaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-laura-abla-portrait.jpg" alt="Laura Abla – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-laura-abla-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Laura Abla</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">German content creator, model and podcaster &ndash; Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Wolf: the East Frisian who got her name in Turkey</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A <strong>wolf</strong> moves to where its pack is and examines every bond closely. Laura Abla, born Laura Schmitt, comes from East Frisia and, according to press reports from July 2026, was 27 years old. The name Abla, Turkish for &lsquo;big sister&rsquo;, she received in Turkey, where according to those reports she lived in an earlier marriage. After the separation she returned to Germany. Through modeling jobs she later came to Barcelona.</p>
+          <p class="vb-intro">The path of a young woman between East Frisia, Turkey and Spain becomes a life line of departures. By her own account in podcast conversations (for example &lsquo;Fake it till you make it&rsquo;) it was not the comfortable route: separation, a move and a fresh start are part of it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Six: openness as the antidote to fear of rejection</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dr. Claudio Naranjo described the sexual Six as the countertype of the Six: it answers insecurity not with withdrawal but with strength, presence and direct address. In Abla this shows in how she talks about herself. In podcasts and interviews she speaks openly about self-image, confidence and past relationships; an episode of &lsquo;InStyle GenZ&rsquo; carries &lsquo;toxic relationships&rsquo; in its title (in German, &lsquo;toxische Beziehungen&rsquo;). Anyone who puts her own vulnerability on the table takes the lever out of other people&rsquo;s hands.</p>
+          <p class="vb-intro">That fits what she told Numéro: &lsquo;I stopped trying to be something I&rsquo;m not.&rsquo; In Cosmopolitan she said she is &lsquo;1000 percent&rsquo; herself (in German, &lsquo;zu 1000 Prozent ich&rsquo;). The pattern is not defense but forward gear.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-wing: fun, variety, the pop-star dream</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> is clearly pronounced in Abla. She says she has always wanted to have fun and does not take everything too seriously. She moves between lifestyle, beauty, Pilates, fashion and podcast, experiments with looks together with her stylist and is open to entrepreneurship and music; she calls the pop-star dream still alive. That is typical Seven energy: possibilities instead of commitment.</p>
+          <p class="vb-intro">A weakly pronounced Five-wing shows at most in one sentence: she does not have to share everything and is still working on that. It is a trace of reserve, but not the main emphasis; the sources show above all sociability, humor and tempo.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the woman who turns closeness into a format</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What defines Abla is the combination of fashion and an everyday tone. She is represented by an agency and, by her own account, works for houses such as Dior, L&rsquo;Oréal Paris, Armani and H&amp;M; she shows vintage pieces for their stories, cuts and fabrics and connects fashion with mood and phase of life. At the same time she stays direct and funny in tone. She values brand collaborations when she is trusted to present the products to her community in her own way.</p>
+          <p class="vb-intro">An example from summer 2026: at the football World Cup she accompanied her partner, the Spanish international Dani Olmo. For the quarter-final against Belgium she wore a white tank top with a childhood photo of Olmo, for the semi-final against France a T-shirt reading &lsquo;My Roommate is a 10 (literally)&rsquo; (Olmo wears number 10), plus a Chanel football necklace as a lucky charm. L&rsquo;Officiel wrote that she is redefining match-day fashion. Her podcast, which according to Numéro she co-hosts, is among the most popular in Germany; she says it taught her that real people listen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Dagi Bee and Eva Mendes</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-dagi-bee">Dagi Bee (SX6w7)</a>, like Abla, turned closeness and everyday life into a format and built a large audience with which she lives like with a pack. <a href="#beruehmte-eva-mendes">Eva Mendes (SX6w7)</a> shows the same mix of beauty industry, self-assurance and deliberate separation of the private.</p>
+          <p class="vb-intro">The difference: Dagi Bee turned everyday life into a business with her family at the center, while Abla moves more between the fashion world, the football stage and a conversation podcast.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Six with Seven-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright are honesty and self-assertion. Abla says she does not want to lose herself as a &lsquo;footballer&rsquo;s partner&rsquo;; at home both drop the roles of footballer and influencer. Her relationship with Olmo, a couple since summer 2023 and public since the turn of 2023/2024, she called in Cosmopolitan her first healthy relationship. Someone who speaks this way knows where her own yardstick lies.</p>
+          <p class="vb-intro">The shadow side of the Six with Seven-wing lies where publicity and protection get in each other&rsquo;s way: anyone who speaks openly before hundreds of thousands of people exposes herself to judgment and has to decide what stays private. This portrait draws no conclusions about motives and records only what she has said publicly herself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand: World Cup and plans</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Laura Abla has (as of 4 November 2026), according to press reports, around 435,000 followers. In summer 2026 she was present at the World Cup in the stadiums and in the media. She calls herself open to entrepreneurship and music; the sources reviewed name no concrete projects.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"lebensmusterkompass/sx6", label:"Life Pattern Compass: SX6 – Wolf"},
+        {route:"beruehmte-dagi-bee", label:"Portrait: Dagi Bee (SX6w7)"},
+        {route:"beruehmte-eva-mendes", label:"Portrait: Eva Mendes (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
