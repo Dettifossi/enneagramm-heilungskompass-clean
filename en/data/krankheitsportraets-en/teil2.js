@@ -4050,6 +4050,7 @@ export function avrilLavigneKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-avril-lavigne", label:"Portrait: Avril Lavigne (SX6w7) – life's work"},
+        {route:"krankheitsportraets-steve-mcqueen", label:"Illness Portrait: Steve McQueen (SX6w7) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx6", label:"Subtype Profile SX6"},
       ])}

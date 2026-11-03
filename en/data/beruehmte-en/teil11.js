@@ -3128,6 +3128,7 @@ export function steveMcQueenPortraitPage() {
         {route:"beruehmte-bruce-lee", label:"Portrait: Bruce Lee (SO3w4)"},
         {route:"lebensmusterkompass", label:"Life Pattern Compass"},
         {route:"beruehmte-james-dean", label:"Portrait: James Dean (SX4w3) – the other rebel icon"},
+        {route:"krankheitsportraets-steve-mcqueen", label:"Illness Portrait: Steve McQueen (SX6w7) – mesothelioma and death in 1980"},
       ])}
     </div>
   `);

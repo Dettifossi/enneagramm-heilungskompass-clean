@@ -5097,3 +5097,125 @@ export function johannesHeestersKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function steveMcQueenKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-steve-mcqueen-portrait.jpg" alt="Steve McQueen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Steve McQueen</p>
+        <p class="krim-portrait-typ">SX6w7 · Sexueller Typ 6 mit Siebenerflügel · 1930–1980</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Wolf</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx6.jpg" alt="Tierentsprechung: Wolf" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX6")};left:${tierAvatarLeft("SX6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Steve McQueen</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-steve-mcqueen">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um Kindheit, Rennsport, Filme und seine Typstruktur im
+        Allgemeinen. Dieses Porträt widmet sich dem letzten Kapitel, das dort nur kurz vorkommt:
+        dem Husten ab 1978, der Diagnose eines Mesothelioms am 22. Dezember 1979, der Behandlung in
+        Mexiko und dem Tod am 7. November 1980.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>McQueen</strong> ist der <strong>sexuellen Sechs mit Siebenerflügel</strong>
+        zugeordnet. Die SX6 ist nach Claudio Naranjo der Kontratyp der Sechs: Angst wird nicht
+        vermieden, sondern mit Stärke beantwortet. Der Siebenerflügel bringt Tempo und Rausch hinzu.
+        Diese Verbindung aus Härte, Misstrauen und Freiheitsdrang prägt auch, wie McQueen mit seiner
+        Krankheit umging.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein Husten, der nicht aufhörte:</strong>
+        Nach der Darstellung der englischen Wikipedia begann McQueens Husten schon Anfang 1978. Er gab das Rauchen auf und nahm Antibiotika, der Husten besserte sich nicht.</p>
+        <p class="vb-intro"><strong>b) Zunehmende Atemnot:</strong>
+        Die Atemnot wurde schlimmer. McQueen arbeitete trotzdem weiter und drehte 1979 noch ›Tom Horn‹ und ›The Hunter‹.</p>
+        <p class="vb-intro"><strong>c) Die Diagnose:</strong>
+        Am 22. Dezember 1979 ergab eine Biopsie nach den Dreharbeiten zu ›The Hunter‹ ein Pleuramesotheliom, einen bösartigen Tumor des Brustfells, der mit Asbest zusammenhängt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Streuung des Tumors:</strong>
+        Im Februar 1980 fanden die Ärzte Hinweise auf eine ausgedehnte Metastasierung.</p>
+        <p class="vb-intro"><strong>b) Der Versuch, es geheim zu halten:</strong>
+        McQueen wollte die Erkrankung für sich behalten. Am 11. März 1980 berichtete trotzdem der ›National Enquirer‹, er habe ›terminal cancer‹ (›unheilbaren Krebs‹).</p>
+        <p class="vb-intro"><strong>c) Eine Hochzeit mittendrin:</strong>
+        Am 16. Januar 1980, weniger als vier Wochen nach der Diagnose, heiratete er das Model Barbara Minty.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Der Weg nach Mexiko:</strong>
+        Nachdem die US-Ärzte erklärt hatten, sie könnten sein Leben nicht mehr verlängern, reiste McQueen im Juli 1980 nach Rosarito Beach in Mexiko. Dort behandelte ihn William Donald Kelley, der eine Variante der Gerson-Therapie vertrat.</p>
+        <p class="vb-intro"><strong>b) Die Behandlung:</strong>
+        Dazu gehörten Kaffeeeinläufe, Injektionen von zellhaltiger Flüssigkeit aus Rindern und Schafen, Massagen und Laetril. McQueen soll bar bezahlt haben, mehr als 40.000 Dollar im Monat, über drei Monate.</p>
+        <p class="vb-intro"><strong>c) Die Rückkehr:</strong>
+        Anfang Oktober 1980 kehrte er in die USA zurück. Kelley hatte öffentlich erklärt, McQueen werde vollständig geheilt; tatsächlich verschlechterte sich sein Zustand, große Tumoren im Bauchraum entwickelten sich.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Die Operation:</strong>
+        Ende Oktober 1980 flog McQueen nach Ciudad Juárez, um einen etwa 2,3 Kilogramm schweren Tumor im Bereich der Leber entfernen zu lassen. US-Ärzte hatten gewarnt, das sei nicht operabel und sein Herz halte den Eingriff nicht aus. Er meldete sich in einer kleinen Klinik unter dem Namen Samuel Sheppard an, das Personal wusste nicht, wer er war.</p>
+        <p class="vb-intro"><strong>b) Der Eingriff:</strong>
+        Bei der Operation wurden zahlreiche Metastasen im Hals- und Bauchbereich entfernt oder verkleinert.</p>
+        <p class="vb-intro"><strong>c) Der Tod:</strong>
+        McQueen starb am 7. November 1980 um 3:45 Uhr an einem Herzinfarkt, etwa zwölf Stunden nach der Operation, im Alter von 50 Jahren. Eine andere Darstellung spricht von wenigen Stunden; die Zeitangaben weichen also voneinander ab. Er wurde eingeäschert, die Asche im Pazifik verstreut.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Die Spur des Asbests:</strong>
+        McQueen führte seine Erkrankung selbst auf Asbest zurück. Er vermutete Isoliermaterial in Filmstudios sowie Rennanzüge und Helme, hielt aber das Entfernen von Asbest-Rohrisolierung auf einem Truppentransporter während seiner Zeit bei den Marines für die wahrscheinlichste Quelle. Beim Mesotheliom liegen oft Jahrzehnte zwischen der Belastung und der Erkrankung; welche Quelle tatsächlich ausschlaggebend war, lässt sich nicht mehr klären.</p>
+        <p class="vb-intro"><strong>b) Ein Behandler ohne Zulassung:</strong>
+        Kelleys einzige Lizenz, die für Kieferorthopädie, war 1976 entzogen worden; er galt weithin als Scharlatan. Seine Zusage einer vollständigen Heilung widerlegte McQueens Zustand.</p>
+        <p class="vb-intro"><strong>c) Glaube am Ende:</strong>
+        Nach den Angaben seiner Frau Barbara Minty wurde McQueen gegen Ende evangelikaler Christ, beeinflusst von seinem Fluglehrer Sammy Mason und dessen Sohn Pete. Er besuchte die Ventura Missionary Church, und kurz vor seinem Tod kam der Prediger Billy Graham zu Besuch. Diese Darstellung stammt von Minty selbst.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Wolf, der den unsichtbaren Gegner nicht sah:</strong>
+        Die sexuelle Sechs geht der Gefahr entgegen: McQueen fuhr Rennen, flog historische Flugzeuge und diente bei den Marines. Doch die Ursache seiner Krankheit war keine Gefahr, der man ins Gesicht sehen kann. Asbest wirkt unbemerkt, und sein Körper meldete sich erst Jahrzehnte später mit Husten und Atemnot. Gegen Asbest hilft die Härte des Wolfs nicht; die Krankheit selbst hat mit seinem Typ nichts zu tun.</p>
+        <p class="vb-intro"><strong>b) Parallelen im selben Subtyp:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-avril-lavigne">Avril Lavigne</a> (SX6w7) schwieg nach ihrer Borreliose zunächst, legte sie dann aber offen und machte daraus ein Album und eine Stiftung. McQueen versuchte ebenfalls, seine Krankheit geheim zu halten, doch ein Boulevardblatt kam ihm zuvor. <a href="javascript:void(0)" data-route="krankheitsportraets-friedrich-schiller">Friedrich Schiller</a> (SX6w5) arbeitete vierzehn Jahre gegen den eigenen Verfall an; McQueen drehte seine letzten Filme mit schon spürbaren Symptomen. Bei beiden gehört das Weitermachen zur Haltung, Schwäche nicht zu zeigen.</p>
+        <p class="vb-intro"><strong>c) Das Image als Schutzschild: der Weg zum Stresspunkt:</strong>
+        Wer lange unter hohem Druck steht, bewegt sich nach Riso und Hudson auf der Stresslinie zum Stresspunkt, bei der Sechs ist das die Drei. Das ist hier erkennbar: McQueen, der ›King of Cool‹, wollte das Bild des unverwundbaren Mannes nicht beschädigen und versuchte die Krankheit zu verbergen; auch das Weiterarbeiten bis zuletzt und die rasche Heirat tragen Züge einer Drei. Sein Kerntyp bleibt dabei die sexuelle Sechs mit Siebenerflügel.</p>
+        <p class="vb-intro"><strong>d) Misstrauen gegenüber dem Rat der Ärzte:</strong>
+        Dass McQueen nach dem Urteil der US-Ärzte nach Mexiko ging, passt zu einer Sechs, die Autoritäten prüft und ihnen nur bedingt traut. Das Misstrauen, das ihn als Kind schützte, machte ihn hier angreifbar: Er geriet an einen Behandler, der Heilung versprach und sie nicht liefern konnte. Dass ein Mensch in dieser Lage nach einem Ausweg sucht, ist zutiefst menschlich und kein Zeichen von Dummheit; es zeigt, wie groß der Wunsch war, die Kontrolle zurückzubekommen.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass die sexuelle Sechs mit Siebenerflügel zu einem Mesotheliom neigt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Ursache der Krankheit war nach allem, was bekannt ist, Asbest. Das Enneagramm erklärt nicht, warum er erkrankte, sondern nur, wie er mit der Diagnose umging.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Die meisten Menschen kennen ihr Enneagramm-Muster nicht, und von McQueen ist nicht überliefert, dass er das Enneagramm kannte. Das Bedürfnis der Sechs, sich selbst zu beweisen, dass sie vor nichts Angst hat, ließ ihn Gefahren aufsuchen und die Krankheit zunächst allein tragen. Wer das eigene Muster nicht kennt, hält Misstrauen und Härte für bloße Vernunft und erkennt kaum, wann Vertrauen die bessere Antwort gewesen wäre.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>McQueens</strong> letzte zwei Jahre zeigen den Wolf, der gegen etwas kämpft, das sich
+        nicht anfassen lässt: ein Tumor, der Jahrzehnte nach der Belastung auftrat, ein Wunsch nach
+        Kontrolle, der ihn aus den Krankenhäusern in eine Klinik ohne Zulassung führte, und am Ende
+        ein Mann, der sich am Ende dem Glauben zuwandte. Die Geschichte endet in einem
+        kleinen Krankenzimmer in Juárez, unter falschem Namen.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-steve-mcqueen", label:"Porträt: Steve McQueen (SX6w7) – Lebenswerk"},
+        {route:"krankheitsportraets-avril-lavigne", label:"Krankheitsporträt: Avril Lavigne (SX6w7) – gleicher Subtyp"},
+        {route:"krankheitsportraets-friedrich-schiller", label:"Krankheitsporträt: Friedrich Schiller (SX6w5) – gleicher Subtyp"},
+        {route:"psychosomatik/lungenkrebs", label:"Psychosomatik: Lungenkrebs"},
+        {route:"subtype/sx6", label:"Subtyp-Profil SX6"},
+      ])}
+    </div>
+  `);
+}

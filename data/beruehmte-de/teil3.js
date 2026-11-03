@@ -3080,6 +3080,7 @@ export function steveMcQueenPortraitPage() {
         {route:"beruehmte-bruce-lee", label:"Porträt: Bruce Lee (SO3w4)"},
         {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
         {route:"beruehmte-james-dean", label:"Porträt: James Dean (SX4w3) – die andere Rebellen-Ikone"},
+        {route:"krankheitsportraets-steve-mcqueen", label:"Krankheitsporträt: Steve McQueen (SX6w7) – Mesotheliom und Tod 1980"},
       ])}
     </div>
   `);

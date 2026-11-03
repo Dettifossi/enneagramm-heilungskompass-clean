@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2726", date: "2026-11-04", text: "Neues Krankheitsporträt: Steve McQueen (SX6w7) – Mesotheliom, die Behandlung in Mexiko und der Tod 1980.", text_en: "New illness portrait: Steve McQueen (SX6w7) – mesothelioma, the treatment in Mexico and his death in 1980.", route: "krankheitsportraets-steve-mcqueen" },
     { version: "v2725", date: "2026-11-04", text: "Neues Porträt: Katy O'Brian (SX6w7) – Schauspielerin und Kampfkünstlerin (Love Lies Bleeding, Mission: Impossible), früher Polizistin und Bodybuilderin.", text_en: "New portrait: Katy O'Brian (SX6w7) – actress and martial artist (Love Lies Bleeding, Mission: Impossible), formerly a police officer and bodybuilder.", route: "beruehmte-katy-obrian" },
     { version: "v2724", date: "2026-11-04", text: "Neues Porträt: Laura Abla (SX6w7) – Content Creatorin, Model und Podcasterin, bei der WM 2026 mit Match-Day-Looks.", text_en: "New portrait: Laura Abla (SX6w7) – content creator, model and podcaster, known for match-day looks at the 2026 World Cup.", route: "beruehmte-laura-abla" },
     { version: "v2723", date: "2026-11-03", text: "Neues Porträt: Tom Hardy (SX6w7) – Schauspieler (Bronson, Peaky Blinders, Venom), Rapper und Jiu-Jitsu-Kämpfer.", text_en: "New portrait: Tom Hardy (SX6w7) – actor (Bronson, Peaky Blinders, Venom), rapper and jiu-jitsu fighter.", route: "beruehmte-tom-hardy" },

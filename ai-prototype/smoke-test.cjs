@@ -101,6 +101,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-caroline-wozniacki", label: "Neues EN-Porträt: Caroline Wozniacki" },
   { hash: "#beruehmte-kennerly-kitt", label: "Neues Porträt: Kennerly Kitt" },
   { hash: "en/#beruehmte-kennerly-kitt", label: "Neues EN-Porträt: Kennerly Kitt" },
+  { hash: "#krankheitsportraets-steve-mcqueen", label: "Neues Krankheitsporträt: Steve McQueen" },
+  { hash: "en/#krankheitsportraets-steve-mcqueen", label: "Neues EN-Krankheitsporträt: Steve McQueen" },
   { hash: "#krankheitsportraets-bruce-lee", label: "Neues Krankheitsporträt: Bruce Lee" },
   { hash: "en/#krankheitsportraets-bruce-lee", label: "Neues EN-Krankheitsporträt: Bruce Lee" },
   { hash: "#krankheitsportraets-robbie-coltrane", label: "Neues Krankheitsporträt: Robbie Coltrane" },
