@@ -3310,7 +3310,7 @@ export function beltracchiMalerPortraitPage() {
 
         <h2 class="vb-section">4. The substance: hearing styles and thinking them further</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">What made Beltracchi unmistakable was a rare combination: a sure eye for a painter&rsquo;s inner structure and the hand to continue it convincingly. By his own account, around 300 such works in the style of earlier masters arose over some forty years. Art experts and auction houses took many of them to be genuine for a long time, which shows how deeply he had entered these pictorial languages.</p>
+          <p class="vb-intro">What makes Beltracchi unmistakable is a rare combination: a sure eye for a painter&rsquo;s inner structure and the hand to continue it convincingly. By his own account, around 300 such works in the style of earlier masters arose over some forty years. Art experts and auction houses took many of them to be genuine for a long time, which shows how deeply he had entered these pictorial languages.</p>
           <p class="vb-intro">This way of working is a chapter of its own, legally and morally, treated in the criminal portrait: <a href="#kriminalpsychologie-wolfgang-beltracchi">Wolfgang Beltracchi as a criminal portrait</a>. This portrait sticks to the painter and the person behind him.</p>
         </blockquote>
 

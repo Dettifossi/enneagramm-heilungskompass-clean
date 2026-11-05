@@ -46608,6 +46608,8 @@ function naranjoSchattenprofileDetailPage(codeRaw) {
           <p class="vb-intro" style="margin:0;"><strong>Wandlung:</strong> ${d.wandlung}</p>
         </blockquote>
 
+        <div style="text-align:center;margin:1.2rem 0 1.6rem;"><button class="secondary" type="button" onclick="window.scrollTo({top:0,behavior:'smooth'})">&uarr; Nach oben</button></div>
+
         ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
         ${relatedLinks([

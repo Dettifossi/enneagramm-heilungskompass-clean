@@ -29358,6 +29358,8 @@ function naranjoSchattenprofileDetailPage(codeRaw) {
           <p class="vb-intro" style="margin:0;"><strong>Transformation:</strong> ${d.wandlung}</p>
         </blockquote>
 
+        <div style="text-align:center;margin:1.2rem 0 1.6rem;"><button class="secondary" type="button" onclick="window.scrollTo({top:0,behavior:'smooth'})">&uarr; Back to top</button></div>
+
         ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
         ${relatedLinks([

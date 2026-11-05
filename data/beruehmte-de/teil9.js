@@ -3217,7 +3217,7 @@ export function beltracchiMalerPortraitPage() {
 
         <h2 class="vb-section">4. Die Substanz: Stile hören und weiterdenken</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Beltracchi unverwechselbar machte, war eine seltene Verbindung: ein sicheres Auge für den inneren Aufbau eines Malers und die Hand, ihn glaubwürdig weiterzuführen. Nach seinen eigenen Worten entstanden über rund vierzig Jahre etwa 300 solcher Werke im Stil früherer Meister. Kunstkenner und Auktionshäuser hielten viele davon lange für echt, was zeigt, wie tief er in diese Bildsprachen eingedrungen war.</p>
+          <p class="vb-intro">Was Beltracchi unverwechselbar macht, ist eine seltene Verbindung: ein sicheres Auge für den inneren Aufbau eines Malers und die Hand, ihn glaubwürdig weiterzuführen. Nach seinen eigenen Worten entstanden über rund vierzig Jahre etwa 300 solcher Werke im Stil früherer Meister. Kunstkenner und Auktionshäuser hielten viele davon lange für echt, was zeigt, wie tief er in diese Bildsprachen eingedrungen war.</p>
           <p class="vb-intro">Diese Arbeitsweise ist rechtlich und moralisch ein eigenes Kapitel, das im Kriminalporträt behandelt wird: <a href="#kriminalpsychologie-wolfgang-beltracchi">Wolfgang Beltracchi als Kriminalporträt</a>. Dieses Porträt hält sich an den Maler und den Menschen dahinter.</p>
         </blockquote>
 
