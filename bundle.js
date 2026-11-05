@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=473";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=474";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -549,6 +549,7 @@ const robertCrumbPortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js",
 const seanConneryPortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", "seanConneryPortraitPage");
 const stanLaurelPortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", "stanLaurelPortraitPage");
 const tELawrencePortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", "tELawrencePortraitPage");
+const hubertAiwangerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "hubertAiwangerPortraitPage");
 const timCookPortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", "timCookPortraitPage");
 const udoLindenbergPortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", "udoLindenbergPortraitPage");
 const wladimirPutinPortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", "wladimirPutinPortraitPage");
@@ -27670,6 +27671,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Phil Collins \u2013 Selbsterhaltender Typ 1",
     teaser:"SE1w9 \u00b7 geb. 1951. Musiker, Schlagzeuger und S\u00e4nger von Genesis, gefeierter Solok\u00fcnstler. Spielte trotz schwerer Nervensch\u00e4digung und Wirbels\u00e4ulenverletzung sitzend weiter Konzerte. Der Adler, der weiterspielte, als seine H\u00e4nde es nicht mehr konnten.",
     land:"Gro\u00dfbritannien", tags:["Musik"], gender:"m"},
+  { route:"beruehmte-hubert-aiwanger", name:"Hubert Aiwanger", added:"2026-11-06", subtyp:"SE1w9",
+    heading:"Hubert Aiwanger \u2013 Selbsterhaltender Typ 1",
+    teaser:"SE1w9 \u00b7 geb. 1971 in Ergoldsbach, am 4. November 2026 in Berlin gestorben. Landwirt, Freie-W\u00e4hler-Chef, stellvertretender bayerischer Ministerpr\u00e4sident und Wirtschaftsminister. Der Adler, der eine Rathausgruppe in die Regierung f\u00fchrte.",
+    land:"Deutschland", tags:["Politik","Wirtschaft"], gender:"m"},
   { route:"beruehmte-tim-cook", name:"Tim Cook", added:"2026-09-12", subtyp:"SE1w9",
     heading:"Tim Cook \u2013 Selbsterhaltender Typ 1",
     teaser:"SE1w9 \u00b7 geb. 1960. CEO von Apple seit 2011. Rettete als Logistikchef die Lieferkette, f\u00fchrte das Unternehmen zum ersten Billionen-Dollar-Wert der Geschichte. Der Adler, der die Fabrik selbst um drei Uhr morgens anrief.",
@@ -68543,7 +68548,7 @@ const ROUTES = {
       "beruehmte-soeren-kierkegaard": soerenKierkegaardPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-phil-collins": philCollinsPortraitPage,
-      "beruehmte-tim-cook": timCookPortraitPage,
+      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage,
       "beruehmte-harald-v": haraldVPortraitPage,
       "beruehmte-carl-xvi-gustaf": carlXVIGustafPortraitPage,
       "beruehmte-johannes-paul-ii": johannesPaulIIPortraitPage,

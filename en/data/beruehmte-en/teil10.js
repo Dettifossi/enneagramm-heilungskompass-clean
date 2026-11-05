@@ -3131,3 +3131,73 @@ export function victorHugoPortraitPage() {
     </div>
   `);
 }
+
+export function hubertAiwangerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-hubert-aiwanger-portrait.jpg" alt="Hubert Aiwanger – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-hubert-aiwanger-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Hubert Aiwanger</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Bavarian politician (Free Voters), born 1971 in Ergoldsbach, died on 4 November 2026 in Berlin &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle who rose from the farm to the cabinet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>eagle</strong> is the animal correspondence of the self-preservation One: a guardian who knows his territory exactly and defends it. Hubert Aiwanger was born on 26 January 1971 in Ergoldsbach and grew up in Rahstorf near Rottenburg an der Laaber, the son of a farmer, with an older brother and a younger sister. Since his school days he was called &lsquo;Hubsi&rsquo;. After his Abitur in 1990 at the Burkhart-Gymnasium in Mallersdorf-Pfaffenberg and his basic military service, he studied agriculture from 1991 to 1995 at the Weihenstephan University of Applied Sciences and graduated as Diplom-Agraringenieur (agricultural engineer), with a scholarship from the Hanns Seidel Foundation.</p>
+          <p class="vb-intro">He helped run his parents&rsquo; farm with dairy cattle and breeding sows and, from 2004, headed the Rottenburg district group of the Bavarian Hunting Association as a volunteer. Whoever starts like this knows politics from below: he joined the Free Voters in 2001, ran for the Rottenburg town council in 2002 and became district chairman in Landshut from 2004.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation One: worry about what sustains</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> directs its strictness at what sustains life: livelihood, property, order. According to Claudio Naranjo, its keyword is <em>Worry</em>, the concern that something is wrong or not enough. In Aiwanger this shows in his themes: the small and medium-sized business sector, agriculture, energy, bureaucracy, rural areas. Again and again he appeared where he saw livelihoods threatened and set the language of the farm against administrative logic.</p>
+          <p class="vb-intro">The One&rsquo;s anger is also recognisable here, as morally coloured indignation: on 10 June 2023 he gave a speech at a demonstration in Erding against the Building Energy Act that drew much criticism, and on 4 July 2023 he called the law an example of a &lsquo;formal democracy&rsquo;. The assignment to this subtype is an interpretation; it explains why his indignation was so often carried by a feeling of responsibility for the &lsquo;ordinary people&rsquo;.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-wing: down-to-earthness and beer-tent warmth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> makes the One more down-to-earth and approachable. Aiwanger presented himself as someone who went to the people: the farmer, the hunter, the man people called &lsquo;Hubsi&rsquo;. He combined the One&rsquo;s strictness of principle with the manner of a conversation partner at the regulars&rsquo; table and in the beer tent. That explains why his hard sentences often came in a cosy tone.</p>
+          <p class="vb-intro">In private he was Catholic, lived with his partner Tanja Schweiger and had two sons (born 2012 and 2016). This too belongs to the picture: the Nine seeks support in a manageable circle of family and homeland.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the Free Voters from the town council into government</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What distinguished Aiwanger politically was building a movement long regarded as a town-hall group. In 2006 he became state chairman of the Free Voters in Bavaria. In 2008 the party entered the Landtag with 10.2 percent and he became parliamentary group leader, until 2018. In 2010 he founded the federal association of the Free Voters and later led it as federal chairman. After the 2018 state election the Free Voters entered a coalition with the CSU, and Aiwanger became deputy minister-president and State Minister for Economic Affairs, Regional Development and Energy.</p>
+          <p class="vb-intro">In 2023 he won the direct mandate in the Landshut constituency with 37.2 percent of the first votes. In 2025 he ran in the federal election as lead candidate and direct candidate in the Rottal-Inn constituency and lost to the CSU candidate. That a party of municipal origin carried responsibility in a state government for years is largely his achievement.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. A parallel in the same subtype and wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As a politician with principles and ties to his homeland, <a href="#beruehmte-konrad-adenauer">Konrad Adenauer (SP1w9)</a> stands close to him: a man who understood responsibility as duty and wanted to give the country order. <a href="#beruehmte-wolfgang-grupp">Wolfgang Grupp (SP1w9)</a> and <a href="#beruehmte-reinhold-wuerth">Reinhold W&uuml;rth (SP1w9)</a> share the combination of stance and responsibility for their own business. The difference: Aiwanger voiced his principles more loudly and in a more folksy way in public, where those named showed rather quiet reliability.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The bright side is the closeness to the people he represented and the persistence with which he led a party from the town hall into government. The shadow of the One shows where moral certainty tips into harshness of language. On 25 August 2023 the Süddeutsche Zeitung reported that he had written an antisemitic leaflet as a pupil in the 1987/88 school year. Aiwanger denied this, his older brother declared himself the author, and Aiwanger apologised for what had happened in his school days. Minister-President Söder stood by him. His statements on the heating law and on the Greens, for instance on 8 May 2024, also drew sharp criticism. This portrait records what is documented and does not judge intentions.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The last days</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Aiwanger died on 4 November 2026 in Berlin, aged 55. He was due to speak that afternoon at the opening of a Berlin capital office of the Free Voters, cancelled for health reasons and could not be reached afterwards; in the early evening he was found dead in a room of the Hotel Neuer Fritz in Berlin-Mitte. The Berlin public prosecutor&rsquo;s office opened a death investigation and stated that the autopsy had found no indications of third-party fault; further examinations are continuing (as of 6 November 2026). The party conference of the Free Voters planned for 14 November 2026 was postponed to 2027. Minister-President Markus Söder was deeply shaken.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SP1 – Eagle"},
+        {route:"beruehmte-konrad-adenauer", label:"Portrait: Konrad Adenauer (SP1w9)"},
+        {route:"beruehmte-wolfgang-grupp", label:"Portrait: Wolfgang Grupp (SP1w9)"},
+        {route:"beruehmte-reinhold-wuerth", label:"Portrait: Reinhold Würth (SP1w9)"},
+      ])}
+    </div>
+  `);
+}

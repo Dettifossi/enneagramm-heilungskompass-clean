@@ -3244,3 +3244,73 @@ export function victorHugoPortraitPage() {
     </div>
   `);
 }
+
+export function hubertAiwangerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-hubert-aiwanger-portrait.jpg" alt="Hubert Aiwanger – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-hubert-aiwanger-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Hubert Aiwanger</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Bayerischer Politiker (Freie Wähler), 1971 in Ergoldsbach geboren, am 4. November 2026 in Berlin gestorben &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler, der vom Bauernhof bis ins Kabinett kam</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist die tierische Entsprechung der selbsterhaltenden Eins: ein Wächter, der sein Revier genau kennt und es verteidigt. Hubert Aiwanger wurde am 26. Januar 1971 in Ergoldsbach geboren und wuchs in Rahstorf bei Rottenburg an der Laaber auf, als Sohn eines Landwirts und mit einem älteren Bruder und einer jüngeren Schwester. Seit der Schulzeit hieß er ›Hubsi‹. Nach dem Abitur 1990 am Burkhart-Gymnasium in Mallersdorf-Pfaffenberg und dem Grundwehrdienst studierte er von 1991 bis 1995 Landwirtschaft an der Fachhochschule Weihenstephan und schloss als Diplom-Agraringenieur ab, mit einem Stipendium der Hanns-Seidel-Stiftung.</p>
+          <p class="vb-intro">Er bewirtschaftete den elterlichen Hof mit Milchvieh und Zuchtsauen mit und führte ab 2004 ehrenamtlich die Kreisgruppe Rottenburg des Bayerischen Jagdverbands. Wer so beginnt, kennt die Politik von unten: Er trat 2001 den Freien Wählern bei, kandidierte 2002 für den Stadtrat von Rottenburg und wurde ab 2004 Kreisvorsitzender in Landshut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Sorge um das, was trägt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihre Strenge auf das, was das Leben trägt: Existenz, Besitz, Ordnung. Nach Claudio Naranjo ist ihr Schlüsselwort <em>Worry</em>, die Sorge, dass etwas nicht stimmt oder nicht reicht. Bei Aiwanger zeigt sich das in seinen Themen: Mittelstand, Landwirtschaft, Energie, Bürokratie, der ländliche Raum. Immer wieder trat er dort auf, wo er Existenzgrundlagen bedroht sah, und setzte der Verwaltungslogik die Sprache des Hofes entgegen.</p>
+          <p class="vb-intro">Auch der Zorn der Eins ist hier erkennbar, als moralisch gefärbte Entrüstung: Am 10. Juni 2023 hielt er bei einer Demonstration in Erding gegen das Gebäudeenergiegesetz eine Rede, die viel Kritik auslöste, und nannte das Gesetz am 4. Juli 2023 ein Beispiel für eine ›formale Demokratie‹. Die Zuordnung zu diesem Subtyp ist eine Deutung; sie erklärt, warum die Empörung bei ihm so oft vom Gefühl der Verantwortung für die ›Normalen‹ getragen war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Bodenständigkeit und Bierzeltwärme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> macht die Eins bodenständiger und zugänglicher. Aiwanger gab sich als einer, der zu den Leuten ging: der Landwirt, der Jäger, der Mann, dem man ›Hubsi‹ zurief. Er verband die Prinzipienstrenge der Eins mit dem Auftreten eines Gesprächspartners am Stammtisch und im Bierzelt. Das erklärt, warum seine harten Sätze oft in einem gemütlichen Ton fielen.</p>
+          <p class="vb-intro">Privat war er katholisch, lebte mit seiner Partnerin Tanja Schweiger und hatte zwei Söhne (geboren 2012 und 2016). Auch das gehört zum Bild: Die Neun sucht Rückhalt in einem überschaubaren Kreis von Familie und Heimat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: die Freien Wähler vom Gemeinderat in die Regierung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Aiwanger politisch auszeichnete, war der Aufbau einer Bewegung, die lange als Rathaus-Gruppe galt. 2006 wurde er Landesvorsitzender der Freien Wähler in Bayern. 2008 zog die Partei mit 10,2 Prozent in den Landtag ein, und er wurde Fraktionsvorsitzender, bis 2018. 2010 gründete er die Bundesvereinigung der Freien Wähler und führte sie später als Bundesvorsitzender. Nach der Landtagswahl 2018 gingen die Freien Wähler in eine Koalition mit der CSU, und Aiwanger wurde stellvertretender Ministerpräsident und Staatsminister für Wirtschaft, Landesentwicklung und Energie.</p>
+          <p class="vb-intro">2023 gewann er das Direktmandat im Stimmkreis Landshut mit 37,2 Prozent der Erststimmen. 2025 trat er bei der Bundestagswahl als Spitzenkandidat und Direktkandidat im Wahlkreis Rottal-Inn an und unterlag dem CSU-Kandidaten. Dass eine Partei kommunaler Herkunft über Jahre Verantwortung in einer Landesregierung trug, ist zu großen Teilen seine Leistung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp und Flügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als Politiker mit Prinzipien und Heimatbindung steht ihm <a href="#beruehmte-konrad-adenauer">Konrad Adenauer (SE1w9)</a> nahe: ein Mann, der Verantwortung als Pflicht verstand und dem Land Ordnung geben wollte. <a href="#beruehmte-wolfgang-grupp">Wolfgang Grupp (SE1w9)</a> und <a href="#beruehmte-reinhold-wuerth">Reinhold Würth (SE1w9)</a> teilen die Verbindung aus Haltung und Verantwortung für den eigenen Betrieb. Der Unterschied: Aiwanger vertrat seine Prinzipien in der Öffentlichkeit lauter und volkstümlicher, dort, wo die genannten eher stille Verlässlichkeit zeigten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Nähe zu den Menschen, die er vertrat, und die Beharrlichkeit, mit der er eine Partei aus dem Rathaus bis in die Regierung führte. Der Schatten der Eins zeigt sich dort, wo moralische Gewissheit in Härte der Sprache kippt. Am 25. August 2023 berichtete die Süddeutsche Zeitung, er habe als Schüler im Schuljahr 1987/88 ein antisemitisches Flugblatt verfasst. Aiwanger bestritt das, sein älterer Bruder erklärte sich als Urheber, Aiwanger entschuldigte sich für das, was in seiner Schulzeit geschehen war. Ministerpräsident Söder hielt an ihm fest. Auch seine Äußerungen zum Heizungsgesetz und zu den Grünen, etwa am 8. Mai 2024, fanden scharfe Kritik. Dieses Porträt hält fest, was belegt ist, und urteilt nicht über Absichten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Die letzten Tage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Aiwanger starb am 4. November 2026 in Berlin, im Alter von 55 Jahren. Er sollte am Nachmittag bei der Eröffnung eines Hauptstadtbüros der Freien Wähler sprechen, sagte aus gesundheitlichen Gründen ab und war danach nicht mehr erreichbar; am frühen Abend fand man ihn tot in einem Zimmer des Hotels Neuer Fritz in Berlin-Mitte. Die Berliner Staatsanwaltschaft leitete ein Todesermittlungsverfahren ein und teilte mit, die Obduktion habe keine Anhaltspunkte für ein Fremdverschulden ergeben; weitere Untersuchungen laufen (Stand 6. November 2026). Der für den 14. November 2026 geplante Parteitag der Freien Wähler wurde auf 2027 verschoben. Ministerpräsident Markus Söder zeigte sich zutiefst erschüttert.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se1", label:"Lebensmusterkompass: SE1 – Adler"},
+        {route:"beruehmte-konrad-adenauer", label:"Porträt: Konrad Adenauer (SE1w9)"},
+        {route:"beruehmte-wolfgang-grupp", label:"Porträt: Wolfgang Grupp (SE1w9)"},
+        {route:"beruehmte-reinhold-wuerth", label:"Porträt: Reinhold Würth (SE1w9)"},
+      ])}
+    </div>
+  `);
+}

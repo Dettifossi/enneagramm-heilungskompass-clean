@@ -327,6 +327,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-tom-hardy", label: "Neues EN-Porträt: Tom Hardy" },
   { hash: "#beruehmte-laura-abla", label: "Neues Porträt: Laura Abla" },
   { hash: "en/#beruehmte-laura-abla", label: "Neues EN-Porträt: Laura Abla" },
+  { hash: "#beruehmte-hubert-aiwanger", label: "Neues Porträt: Hubert Aiwanger" },
+  { hash: "en/#beruehmte-hubert-aiwanger", label: "Neues EN-Porträt: Hubert Aiwanger" },
   { hash: "#naranjo-schattenprofile", label: "Schattenprofile nach Naranjo" },
   { hash: "#naranjo-schattenprofile/sx7", label: "Schattenprofil SX7" },
   { hash: "en/#naranjo-schattenprofile", label: "EN Schattenprofile nach Naranjo" },

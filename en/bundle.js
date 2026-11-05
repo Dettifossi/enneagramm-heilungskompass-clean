@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=470";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=471";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -559,6 +559,7 @@ const parisHiltonPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js",
 const reneDescartesPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "reneDescartesPortraitPage");
 const seanConneryPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "seanConneryPortraitPage");
 const tELawrencePortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "tELawrencePortraitPage");
+const hubertAiwangerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "hubertAiwangerPortraitPage");
 const timCookPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "timCookPortraitPage");
 const udoLindenbergPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "udoLindenbergPortraitPage");
 const wladimirPutinPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "wladimirPutinPortraitPage");
@@ -1897,6 +1898,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Phil Collins – Self-Preservation Type 1",
     teaser:"SP1w9 · b. 1951. Musician, drummer and singer of Genesis, celebrated solo artist. Kept performing seated despite severe nerve damage and a spinal injury. The eagle who kept playing after his hands no longer could.",
     land:"United Kingdom", tags:["Music"], gender:"m"},
+{ route:"beruehmte-hubert-aiwanger", name:"Hubert Aiwanger", added:"2026-11-06", subtyp:"SE1w9",
+    heading:"Hubert Aiwanger \u2013 Self-Preservation Type 1",
+    teaser:"SP1w9 \u00b7 b. 1971 in Ergoldsbach, died on 4 November 2026 in Berlin. Farmer, Free Voters leader, deputy Bavarian minister-president and economics minister. The eagle who led a town-hall group into government.",
+    land:"Germany", tags:["Politics","Business"], gender:"m"},
 { route:"beruehmte-tim-cook", name:"Tim Cook", added:"2026-09-12", subtyp:"SE1w9",
     heading:"Tim Cook – Self-Preservation Type 1",
     teaser:"SP1w9 · b. 1960. CEO of Apple since 2011. Saved the supply chain as head of operations, led the company to the first trillion-dollar valuation in history. The eagle who called the factory himself at three in the morning.",
@@ -48418,7 +48423,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-pamela-reif": pamelaReifPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-phil-collins": philCollinsPortraitPage,
-      "beruehmte-tim-cook": timCookPortraitPage,
+      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage,
       "beruehmte-harald-v": haraldVPortraitPage,
       "beruehmte-carl-xvi-gustaf": carlXVIGustafPortraitPage,
       "beruehmte-johannes-paul-ii": johannesPaulIIPortraitPage,
