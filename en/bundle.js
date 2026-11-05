@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=467";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=468";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -157,6 +157,7 @@ const rosalieThomassPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.j
 const robbieColtranePortraitPage = () => _lazyPage("./data/beruehmte-en/teil5.js", "robbieColtranePortraitPage");
 const happyAndersonPortraitPage = () => _lazyPage("./data/beruehmte-en/teil8.js", "happyAndersonPortraitPage");
 const paulSimonPortraitPage = () => _lazyPage("./data/beruehmte-en/teil9.js", "paulSimonPortraitPage");
+const janoschPortraitPage = () => _lazyPage("./data/beruehmte-en/teil11.js", "janoschPortraitPage");
 const artGarfunkelPortraitPage = () => _lazyPage("./data/beruehmte-en/teil9.js", "artGarfunkelPortraitPage");
 const jamesStewartPortraitPage = () => _lazyPage("./data/beruehmte-en/teil5.js", "jamesStewartPortraitPage");
 const marieleMillowitschPortraitPage = () => _lazyPage("./data/beruehmte-en/teil8.js", "marieleMillowitschPortraitPage");
@@ -2043,6 +2044,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Paul Simon \u2013 Self-Preservation Type 4",
     teaser:"SP4w5 \u00b7 born 1941 in Newark, New Jersey. American singer-songwriter (Simon & Garfunkel, \u2018Graceland\u2019, \u2018Seven Psalms\u2019). The Dove who puts deep sadness quietly into songs.",
     land:"USA", tags:["Musik"], gender:"m"},
+{ route:"beruehmte-janosch", name:"Janosch", added:"2026-11-05", subtyp:"SX9w1",
+    heading:"Janosch \u2013 Sexual Type 9",
+    teaser:"SX9w1 \u00b7 Horst Eckert, born 1931 in Hindenburg (Upper Silesia), died in November 2026 on Tenerife. Children\u2019s author and illustrator (\u2018Oh, wie sch\u00f6n ist Panama\u2019, Tigerente). The Sloth who found his happiness for two in his own house.",
+    land:"Germany", tags:["Literature","Children\u2019s books","Art"], gender:"m"},
 { route:"beruehmte-art-garfunkel", name:"Art Garfunkel", added:"2026-10-26", subtyp:"SX9w1",
     heading:"Art Garfunkel \u2013 Sexual Type 9",
     teaser:"SX9w1 \u00b7 born 1941 in New York. American singer, poet and actor (Simon & Garfunkel, \u2018Bright Eyes\u2019). The Sloth who moves calmly in the duo and on long walks.",
@@ -47645,7 +47650,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-robbie-coltrane": robbieColtranePortraitPage,
       "beruehmte-happy-anderson": happyAndersonPortraitPage,
       "beruehmte-paul-simon": paulSimonPortraitPage,
-      "beruehmte-art-garfunkel": artGarfunkelPortraitPage,
+      "beruehmte-art-garfunkel": artGarfunkelPortraitPage, "beruehmte-janosch": janoschPortraitPage,
       "beruehmte-john-neumeier": johnNeumeierPortraitPage,
       "beruehmte-sulli": sulliPortraitPage,
       "beruehmte-rj-mitte": rjMittePortraitPage,

@@ -3111,3 +3111,73 @@ export function christineLagardePortraitPage() {
     </div>
   `);
 }
+
+export function janoschPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-janosch-portrait.jpg" alt="Janosch – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-janosch-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Janosch (Horst Eckert)</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Kinderbuchautor, Illustrator und Schriftsteller, 1931 in Hindenburg (Oberschlesien) geboren, im November 2026 auf Teneriffa gestorben &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier: der Mann, der Panama im eigenen Haus fand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> hängt nicht herum, weil es nichts kann, sondern weil es mit seiner Kraft haushaltet und lieber ankommt als rennt. Horst Eckert wurde am 11. März 1931 in Hindenburg in Oberschlesien (heute Zabrze, Polen) geboren und wuchs zu einem guten Teil bei den Großeltern in einem Bergarbeiterhaus auf, einem ›Familok‹. Der Vater, Stahlarbeiter, trank und schlug. Der Junge gehörte einer Jesuiten-Jugendgruppe und der Marianischen Kongregation an, begann 1944 eine Schmiedelehre, die er später als seine wichtigste Zeit bezeichnete, und floh nach der Rückkehr des Vaters 1946 mit der Familie nach Niedersachsen.</p>
+          <p class="vb-intro">Es folgten Jahre in Textilfabriken in Nordhorn und Bad Zwischenahn, die Werkkunstschule in Krefeld und ab 1953 die Kunstakademie in München, die er nach wenigen Semestern wegen ›mangelnder Begabung‹ wieder verließ. Das Pseudonym ›Janosch‹ ging auf einen Vorschlag seines Verlegers Georg Lentz zurück. Wer so seinen Anfang nimmt, hat früh gelernt, Gefahr durch Rückzug, Stille und Bescheidenheit abzufedern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: das Paar statt der Menge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach Claudio Naranjo ist die sexuelle Neun der Subtyp der <em>Vereinigung</em>: Sie sucht nicht die Gruppe, sondern ein einzelnes Gegenüber, einen Menschen oder ein Werk, und geht darin auf. Bei Janosch ist das Bild fast zu schön, um nicht gedeutet zu werden: Sein berühmtestes Werk handelt von zwei Freunden. ›Oh, wie schön ist Panama‹ erzählt von Tiger und Bär, die sich auf den Weg ins Land ihrer Träume machen und am Ende, ohne es zu merken, wieder vor ihrem eigenen Haus stehen. Das Glück liegt dort, wo man zu zweit zu Hause ist. In ›Post für den Tiger‹ und ›Ich mach dich gesund, sagte der Bär‹ setzt sich dieses Paar fort: der eine sorgt, der andere lässt sich versorgen.</p>
+          <p class="vb-intro">Dazu passt, was von seinem Leben bekannt ist: 1980 zog er sich, zunächst um eine Krankheit auszukurieren, in ein Haus in den Bergen Teneriffas zurück und blieb dort. 2013 heiratete er Ines Striewe; 2021 gründeten die beiden die Naturstiftung Canarina. Er sagte von sich, er sei ›Autist‹ und würde am liebsten unsichtbar sein. Diese Selbstbeschreibung ist seine eigene Deutung und keine Diagnose; zum Subtyp passt sie als Ausdruck eines Menschen, der sich im Nahen, Kleinen und Überschaubaren sicherer fühlt als im Rampenlicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Handwerk, Haltung und der Zorn auf die Frömmelei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der Neun Maßstab und Rückgrat. Bei Janosch zeigt er sich zuerst im Handwerklichen: Die Schmiedelehre nannte er seine wichtigste Zeit, und das Werk, über 150 Bücher in mehr als 30 Sprachen, entstand durch stetige, unaufgeregte Arbeit. Er zeigt sich auch in der Haltung: Er wandte sich von der frommen Religiosität seiner Kindheit ab und gehörte dem Beirat der Giordano-Bruno-Stiftung an. Zu seinen wiederkehrenden Themen zählen der Wert von Familie und Freundschaft, der Sinn des Lebens und die Ablehnung salbungsvoller Frömmigkeit.</p>
+          <p class="vb-intro">Auch das Ordnungsbewusste im Geschäftlichen lässt sich so lesen: Seit den frühen 2000er Jahren bündelte er seine Urheberrechte in der Janosch film &amp; medien AG und verkaufte seine eigenen Anteile schrittweise.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Zeichnung, Sprache und die leise Philosophie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Janosch einzigartig machte, war die Verbindung von schlichter, fast kindlich wirkender Zeichnung mit knapper, trockener Sprache und einer Philosophie, die ohne Zeigefinger auskommt. Seine Aquarelle sind farbig und lose, seine Figuren stehen in kleinen Häusern am Wasser, und ihre Dialoge sind so kurz, dass jeder Satz nachhallt. Erwachsene lesen in Tiger und Bär Fragen nach Glück, Freundschaft und Genügsamkeit, Kinder lesen eine Abenteuergeschichte; beides stimmt.</p>
+          <p class="vb-intro">Sein erstes Kinderbuch, ›Die Geschichte von Valek dem Pferd‹, erschien 1960. 1970 folgte mit ›Cholonek oder Der liebe Gott aus Lehm‹ sein erster Roman, in dem er die oberschlesische Kindheit verarbeitete. Die ARD verfilmte seine Geschichten 1985 und 1989 als ›Janoschs Traumstunde‹, und die Tigerente wurde zu einer der bekanntesten deutschen Spielzeug- und Kinderfiguren. 2010 kündigte er an, keine Bücher mehr zu schreiben, kehrte aber 2013 mit einer wöchentlichen Kolumne im ZEITmagazin zurück, die bis November 2019 lief. Das Bundesverdienstkreuz 1. Klasse erhielt er 1993, den Bayerischen Poetentaler 2002.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp und Flügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-peter-maffay">Peter Maffay (SX9w1)</a> schuf mit dem Drachen Tabaluga eine Kinderfigur, die wie Tiger und Bär mehrere Generationen begleitet. <a href="#beruehmte-helge-schneider">Helge Schneider (SX9w1)</a> baut sich eine eigene, fast kindlich-skurrile Welt und lässt sie sich nicht ausreden. <a href="#beruehmte-craig-foster">Craig Foster (SX9w1)</a> verschmolz im Wortsinn mit einem Gegenüber, einem wilden Tintenfisch, und fand darin seinen Weg. Gemeinsam ist ihnen das Aufgehen in einem einzelnen Gegenüber oder Werk; Janosch tat es mit einem Paar, das er sein Leben lang zeichnete.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Fähigkeit, Schweres leicht zu erzählen: Ein Mann, der in Gewalt aufwuchs, schrieb über Freunde, die einander verpflegen, trösten und gesund pflegen. Der Schatten der Neun liegt im Rückzug und im Verschwimmen der eigenen Person hinter dem Werk, sichtbar in dem Wunsch, unsichtbar zu sein. Der Einserflügel kann das in Strenge und Abwehr kippen lassen. Über sein Innenleben jenseits dessen, was er selbst gesagt hat, will dieses Porträt nicht spekulieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Der Heilungsweg: vom Verschwinden zur eigenen Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Weg der Neun führt vom Aufgehen im anderen zur eigenen, hörbaren Stimme. Bei Janosch lässt sich die späte Kolumne so lesen: Der Mann, der unsichtbar sein wollte, sprach mit Anfang achtzig jede Woche in eigenem Namen zu seinem Publikum. Das ist eine Deutung, kein Beleg für seine Gründe. Er starb im November 2026 im Alter von 95 Jahren auf Teneriffa.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx9", label:"Lebensmusterkompass: SX9 – Faultier"},
+        {route:"beruehmte-peter-maffay", label:"Porträt: Peter Maffay (SX9w1)"},
+        {route:"beruehmte-helge-schneider", label:"Porträt: Helge Schneider (SX9w1)"},
+        {route:"beruehmte-craig-foster", label:"Porträt: Craig Foster (SX9w1)"},
+      ])}
+    </div>
+  `);
+}

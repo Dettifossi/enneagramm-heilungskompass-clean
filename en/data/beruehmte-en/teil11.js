@@ -3204,3 +3204,73 @@ export function johnBrownPortraitPage() {
     </div>
   `);
 }
+
+export function janoschPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-janosch-portrait.jpg" alt="Janosch – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-janosch-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Janosch (Horst Eckert)</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">German children&rsquo;s author, illustrator and novelist, born 1931 in Hindenburg (Upper Silesia), died in November 2026 on Tenerife &ndash; Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Sloth: the man who found Panama in his own house</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sloth</strong> does not hang about because it cannot do anything; it manages its strength and would rather arrive than run. Horst Eckert was born on 11 March 1931 in Hindenburg in Upper Silesia (today Zabrze, Poland) and grew up largely with his grandparents in a miners&rsquo; house, a &lsquo;Familok&rsquo;. His father, a steelworker, drank and was violent. The boy belonged to a Jesuit youth group and the Marian Congregation, began a blacksmith apprenticeship in 1944 that he later called the most important time of his life, and fled with his family to Lower Saxony in 1946 after his father&rsquo;s return.</p>
+          <p class="vb-intro">Years in textile factories in Nordhorn and Bad Zwischenahn followed, then the Werkkunstschule in Krefeld and, from 1953, the Academy of Fine Arts in Munich, which he left after a few semesters citing &lsquo;lack of talent&rsquo;. The pen name &lsquo;Janosch&rsquo; was suggested by his publisher Georg Lentz. Someone who begins like this has learned early to cushion danger with retreat, quiet and modesty.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Nine: the pair rather than the crowd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Claudio Naranjo, the sexual Nine is the subtype of <em>union</em>: it seeks not the group but a single counterpart, a person or a work, and dissolves into it. With Janosch the image is almost too fitting not to read: his most famous work is about two friends. &lsquo;Oh, wie schön ist Panama&rsquo; (&lsquo;Oh, How Beautiful Panama Is&rsquo;) tells of Tiger and Bear, who set out for the land of their dreams and end up, without noticing, back in front of their own house. Happiness lies where one is at home with another. In &lsquo;Post für den Tiger&rsquo; (&lsquo;Mail for the Tiger&rsquo;) and &lsquo;Ich mach dich gesund, sagte der Bär&rsquo; (&lsquo;I&rsquo;ll Make You Well, Said the Bear&rsquo;) the pair carries on: one cares, the other lets himself be cared for.</p>
+          <p class="vb-intro">This matches what is known of his life: in 1980 he withdrew to a house in the mountains of Tenerife, at first to recover from an illness, and stayed. In 2013 he married Ines Striewe; in 2021 the two founded the nature foundation Canarina. He said of himself that he was &lsquo;autistic&rsquo; and would most like to be invisible. This self-description is his own interpretation, not a diagnosis; it fits the subtype as the expression of a person who feels safer in the close, small and manageable than in the spotlight.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-wing: craft, stance and anger at sanctimony</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the Nine a measure and a backbone. In Janosch it shows first in craftsmanship: he called the blacksmith apprenticeship his most important time, and his work, over 150 books in more than 30 languages, grew from steady, unhurried effort. It also shows in his stance: he turned away from the pious religiosity of his childhood and sat on the advisory board of the Giordano Bruno Foundation. His recurring themes include the value of family and friendship, the meaning of life and the rejection of unctuous piety.</p>
+          <p class="vb-intro">Even his sense of order in business can be read this way: from the early 2000s he bundled his copyrights in Janosch film &amp; medien AG and gradually sold his own shares.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: drawing, language and a quiet philosophy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What made Janosch unique was the combination of plain, almost childlike drawing with terse, dry language and a philosophy that needs no raised finger. His watercolours are colourful and loose, his figures live in small houses, and their dialogue is so short that every sentence lingers. Adults read in Tiger and Bear questions about happiness, friendship and contentment; children read an adventure story; both are right.</p>
+          <p class="vb-intro">His first children&rsquo;s book, &lsquo;Die Geschichte von Valek dem Pferd&rsquo; (&lsquo;The Story of Valek the Horse&rsquo;), appeared in 1960. In 1970 followed his first novel, &lsquo;Cholonek oder Der liebe Gott aus Lehm&rsquo; (&lsquo;Cholonek, or The Dear Lord Made of Clay&rsquo;), in which he worked through his Upper Silesian childhood. The ARD broadcaster adapted his stories in 1985 and 1989 as &lsquo;Janoschs Traumstunde&rsquo; (&lsquo;Janosch&rsquo;s Dream Hour&rsquo;), and the Tigerente (&lsquo;Tiger Duck&rsquo;) became one of the best-known German toy and children&rsquo;s figures. In 2010 he announced that he would write no more books, but in 2013 he returned with a weekly column in ZEITmagazin that ran until November 2019. He received the Federal Cross of Merit 1st Class in 1993 and the Bavarian Poetentaler in 2002.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. A parallel in the same subtype and wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-peter-maffay">Peter Maffay (SX9w1)</a> created the dragon Tabaluga, a children&rsquo;s figure that, like Tiger and Bear, has accompanied several generations. <a href="#beruehmte-helge-schneider">Helge Schneider (SX9w1)</a> builds a world of his own, almost childlike and quirky, and will not be talked out of it. <a href="#beruehmte-craig-foster">Craig Foster (SX9w1)</a> literally merged with a counterpart, a wild octopus, and found his path in it. What they share is dissolving into a single counterpart or work; Janosch did it with a pair he drew all his life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The bright side is the ability to tell heavy things lightly: a man who grew up with violence wrote about friends who feed, comfort and nurse one another. The shadow of the Nine lies in withdrawal and in the blurring of the person behind the work, visible in the wish to be invisible. The One-wing can tip this into severity and defensiveness. This portrait does not speculate about his inner life beyond what he said himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The path of healing: from disappearing to one&rsquo;s own voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The path of the Nine leads from dissolving into the other to a voice of one&rsquo;s own that can be heard. With Janosch the late column can be read this way: the man who wanted to be invisible spoke to his readers every week in his own name in his early eighties. This is an interpretation, not evidence of his reasons. He died in November 2026, aged 95, on Tenerife.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
+        {route:"lebensmusterkompass/sx9", label:"Life Pattern Compass: SX9 – Sloth"},
+        {route:"beruehmte-peter-maffay", label:"Portrait: Peter Maffay (SX9w1)"},
+        {route:"beruehmte-helge-schneider", label:"Portrait: Helge Schneider (SX9w1)"},
+        {route:"beruehmte-craig-foster", label:"Portrait: Craig Foster (SX9w1)"},
+      ])}
+    </div>
+  `);
+}
