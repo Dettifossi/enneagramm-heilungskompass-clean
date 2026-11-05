@@ -1549,8 +1549,8 @@ export const TAGESIMPULSE_EN = [
   },
   {
     titel: "What Routine Gives Us",
-    text: "Routine has a bad reputation. Yet it is what makes freedom possible in the first place.\nWhen you don't have to decide every day what to do in the morning, when to work, or how to eat – you have capacity for what matters most.\nThe most creative people often lived by strict routines. Not in spite of them – because of them.",
-    impuls: "What part of your daily routine serves you well – and what drains your energy? What could you change just for today?",
+    text: "Routine has a bad reputation. Yet it takes many small decisions off our hands.\nWhen you don't have to work out every morning anew what to do, when to work and what to eat, you keep your strength for what really matters.\nMany creative people therefore order their days firmly – not out of rigidity, but to keep their attention free.",
+    impuls: "Which habit in your day gives you calm and strength? And which one just runs along without giving you anything?",
   },
   {
     titel: "What Recurrence Means",

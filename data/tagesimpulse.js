@@ -3083,12 +3083,12 @@ Doch wer sich dauerhaft nicht mag, lebt in Feindschaft mit sich selbst. Diese Fe
 
   {
     titel: "Was Routine gibt",
-    text: `Routine hat einen schlechten Ruf. Dabei ist sie das, was Freiheit erst möglich macht.
+    text: `Routine hat einen schlechten Ruf. Dabei nimmt sie uns viele kleine Entscheidungen ab.
 
-Wer nicht täglich entscheiden muss, was er morgens tut, wann er arbeitet, wie er isst – der hat Kapazität für das Wesentliche.
+Wer nicht jeden Morgen neu überlegen muss, was er tut, wann er arbeitet und was er isst, behält Kraft für das, was wirklich zählt.
 
-Die besten kreativen Menschen lebten meistens in strenger Routine. Nicht trotz – wegen.`,
-    impuls: `Was an deiner täglichen Routine dient dir gut – und was raubt dir Energie? Was könntest du heute einmal verändern?`,
+Viele kreative Menschen haben ihre Tage deshalb fest geordnet – nicht aus Starrheit, sondern um ihre Aufmerksamkeit freizuhalten.`,
+    impuls: `Welche Gewohnheit in deinem Tag schenkt dir Ruhe und Kraft? Und welche läuft nur noch mit, ohne dass sie dir etwas gibt?`,
   },
   {
     titel: "Was Wiederkehr bedeutet",
