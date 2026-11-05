@@ -47050,6 +47050,35 @@ function _toggleFav(r, label) {
 }
 
 // Seite teilen (Web Share API, Fallback: Text kopieren). Das Emblem wird vorab geladen, damit das Teilen sofort nach dem Tipp startet.
+// Menüpfad einer Route für Weiterleiten-Texte (z. B. »Wissen › Muster-Kompasse › Lebensmusterkompass«); löst auch Unterseiten (Porträts, subtype/xyz) zur übergeordneten Menüseite auf
+function _menuPfad(r) {
+  try {
+    const find = (rr) => {
+      for (const n of text.nav) {
+        if (n.route === rr) return n.label;
+        if (n.dropdown) {
+          let h = "";
+          for (const d of n.dropdown) {
+            if (d.heading) { h = d.heading; continue; }
+            if (d.route === rr) return n.label + " \u203a " + (h ? h + " \u203a " : "") + d.label;
+          }
+        }
+      }
+      return "";
+    };
+    const cands = [r];
+    const base = r.split("/")[0];
+    if (base !== r) cands.push(base);
+    const fam = [[BERUEHMT_PORTRAITS, "beruehmte-persoenlichkeiten"], [KRIMINAL_PORTRAITS, "kriminalpsychologie"], [KRANKHEITS_PORTRAITS, "krankheitsportraets"], [BIBEL_PORTRAITS, "enneagramm-bibel"], [ASTROLOGIE_PORTRAITS, "enneagramm-astrologie"]];
+    for (const f of fam) { try { if (f[0].some(p => p.route === r)) cands.push(f[1]); } catch (e) {} }
+    const pf = [["beruehmte-", "beruehmte-persoenlichkeiten"], ["kriminalpsychologie-", "kriminalpsychologie"], ["krankheitsportraets-", "krankheitsportraets"], ["bibel-", "enneagramm-bibel"], ["mindmap-", "mindmaps-single-rubriken"]];
+    for (const q of pf) { if (r.startsWith(q[0])) cands.push(q[1]); }
+    if (r.startsWith("subtype/")) cands.push("dashboard");
+    for (const c of cands) { const p = find(c); if (p) return p; }
+  } catch (e) {}
+  return "";
+}
+window._menuPfad = _menuPfad;
 let _shareFile = null;
 setTimeout(function() {
   fetch("/share-image.png").then(function(r) { return r.blob(); }).then(function(bl) {
@@ -47063,25 +47092,8 @@ document.addEventListener("click", function(ev) {
   let lbl = "";
   try { const re = typeof registerEntriesEN !== "undefined" && registerEntriesEN.find(e => e.route === r); lbl = (re && re.term) || _favLabel(r) || ""; } catch (e) {}
   if (!lbl) lbl = (document.querySelector("h1") || {}).textContent || document.title;
-  const _pfad = (function() {
-    try {
-      let rr = r;
-      const pf = [["beruehmte-", "beruehmte-persoenlichkeiten"], ["kriminalpsychologie-", "kriminalpsychologie"], ["krankheitsportraets-", "krankheitsportraets"], ["mindmap-", "mindmaps-single-rubriken"]];
-      for (const q of pf) { if (rr.startsWith(q[0]) && rr !== q[1]) { rr = q[1]; break; } }
-      for (const n of text.nav) {
-        if (n.route === rr && !n.dropdown) return n.label;
-        if (n.dropdown) {
-          let h = "";
-          for (const d of n.dropdown) {
-            if (d.heading) { h = d.heading; continue; }
-            if (d.route === rr) return n.label + " \u203a " + (h ? h + " \u203a " : "") + d.label;
-          }
-        }
-      }
-    } catch (e) {}
-    return "";
-  })();
-  const msg = "Take a look in the Enneagram Healing Compass: an interesting article.\n\n\u2018" + lbl + "\u2019\n\n" + (_pfad ? "Find it in the app menu under:\n" + _pfad : "Just search for the title in the app.");
+  const _pfad = _menuPfad(r);
+  const msg = "Take a look in the Enneagram Healing Compass: an interesting article.\n\n\u2018" + lbl + "\u2019\n\n" + (_pfad ? "Find it in the app menu under:\n" + _pfad : "Quickest way: use the search field at the top of the app and search for the title.");
   if (navigator.share) {
     if (_shareFile && navigator.canShare && navigator.canShare({ files: [_shareFile] })) {
       navigator.share({ files: [_shareFile], text: msg }).catch(function(e) { if (e && e.name !== "AbortError") navigator.share({ text: msg }).catch(function() {}); });
