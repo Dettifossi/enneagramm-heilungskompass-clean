@@ -49821,3 +49821,20 @@ function _switchLangVoice(evt, url, audioFile) {
 
 // Hilfsfunktionen für die nachgeladenen Porträt-Dateien (statt zirkulärem Import von dieser Datei)
 window.__kh = { songTieferMasken, psychogrammDaten, animalResearcherMatchBlock, bookTip, pageHeader, relatedLinks, shell, tierAvatarLeft, tierAvatarTop };
+
+// Lösch-Knopf (×) in den Suchfeldern: erscheint nur, wenn Text im Feld steht
+function _suchX(root) {
+  root.querySelectorAll('input.suche-input, input.nav-dropdown__search').forEach(inp => {
+    if (inp.dataset.x) return;
+    inp.dataset.x = '1';
+    const b = document.createElement('button');
+    b.type = 'button'; b.className = 'search-x'; b.textContent = '\u00d7'; b.hidden = !inp.value;
+    b.setAttribute('aria-label', 'Clear search');
+    b.addEventListener('mousedown', e => e.preventDefault());
+    b.addEventListener('click', () => { inp.value = ''; inp.dispatchEvent(new Event('input', { bubbles: true })); b.hidden = true; inp.focus(); });
+    inp.addEventListener('input', () => { b.hidden = !inp.value; });
+    inp.after(b);
+  });
+}
+_suchX(document);
+new MutationObserver(() => _suchX(document)).observe(document.body, { childList: true, subtree: true });

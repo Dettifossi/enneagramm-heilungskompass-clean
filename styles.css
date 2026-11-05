@@ -5877,3 +5877,10 @@ p, li, .vb-intro { text-wrap: pretty; }
 .sp-top { margin:1rem 0 0; font-size:.9rem; font-weight:600; text-align:right; }
 .sp-ex { margin:.5rem 0 .9rem; padding:.55rem .9rem .2rem; border-left:4px solid var(--tc); background:rgba(127,127,127,.08); border-radius:0 10px 10px 0; }
 .sp-ex .sp-list { margin:.2rem 0 .4rem; }
+
+/* Lösch-Knopf (×) in Suchfeldern */
+.search-x { flex: none; width: 1.5rem; height: 1.5rem; border: 0; border-radius: 50%; background: rgba(120,120,128,.3); color: var(--surface, #fff); font-size: 1.1rem; line-height: 1.5rem; padding: 0; cursor: pointer; }
+.search-x[hidden] { display: none; }
+.nav-dropdown__search-wrap { position: relative; }
+.nav-dropdown__search-wrap .search-x { position: absolute; right: .6rem; top: 50%; transform: translateY(-50%); }
+.nav-dropdown__search-wrap .nav-dropdown__search { padding-right: 2.2rem; }
