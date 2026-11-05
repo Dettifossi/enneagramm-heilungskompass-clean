@@ -3123,7 +3123,7 @@ export function janoschPortraitPage() {
         </div>
         <p class="krim-portrait-name">Janosch (Horst Eckert)</p>
         <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
-        <p class="krim-portrait-subtitle">Deutscher Kinderbuchautor, Illustrator und Schriftsteller, 1931 in Hindenburg (Oberschlesien) geboren, im November 2026 auf Teneriffa gestorben &ndash; Tierentsprechung: Faultier</p>
+        <p class="krim-portrait-subtitle">Deutscher Kinderbuchautor, Illustrator und Schriftsteller, 1931 in Hindenburg (Oberschlesien) geboren, am 3. November 2026 auf Teneriffa gestorben &ndash; Tierentsprechung: Faultier</p>
       </div>
       <div class="page-content">
 
@@ -3164,7 +3164,7 @@ export function janoschPortraitPage() {
 
         <h2 class="vb-section">7. Der Heilungsweg: vom Verschwinden zur eigenen Stimme</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Weg der Neun führt vom Aufgehen im anderen zur eigenen, hörbaren Stimme. Bei Janosch lässt sich die späte Kolumne so lesen: Der Mann, der unsichtbar sein wollte, sprach mit Anfang achtzig jede Woche in eigenem Namen zu seinem Publikum. Das ist eine Deutung, kein Beleg für seine Gründe. Er starb im November 2026 im Alter von 95 Jahren auf Teneriffa.</p>
+          <p class="vb-intro">Der Weg der Neun führt vom Aufgehen im anderen zur eigenen, hörbaren Stimme. Bei Janosch lässt sich die späte Kolumne so lesen: Der Mann, der unsichtbar sein wollte, sprach mit Anfang achtzig jede Woche in eigenem Namen zu seinem Publikum. Das ist eine Deutung, kein Beleg für seine Gründe. Er starb am 3. November 2026 im Alter von 95 Jahren auf Teneriffa.</p>
         </blockquote>
 
       </div>

@@ -3216,7 +3216,7 @@ export function janoschPortraitPage() {
         </div>
         <p class="krim-portrait-name">Janosch (Horst Eckert)</p>
         <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with One-wing</p>
-        <p class="krim-portrait-subtitle">German children&rsquo;s author, illustrator and novelist, born 1931 in Hindenburg (Upper Silesia), died in November 2026 on Tenerife &ndash; Animal correspondence: Sloth</p>
+        <p class="krim-portrait-subtitle">German children&rsquo;s author, illustrator and novelist, born 1931 in Hindenburg (Upper Silesia), died on 3 November 2026 on Tenerife &ndash; Animal correspondence: Sloth</p>
       </div>
       <div class="page-content">
 
@@ -3257,7 +3257,7 @@ export function janoschPortraitPage() {
 
         <h2 class="vb-section">7. The path of healing: from disappearing to one&rsquo;s own voice</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The path of the Nine leads from dissolving into the other to a voice of one&rsquo;s own that can be heard. With Janosch the late column can be read this way: the man who wanted to be invisible spoke to his readers every week in his own name in his early eighties. This is an interpretation, not evidence of his reasons. He died in November 2026, aged 95, on Tenerife.</p>
+          <p class="vb-intro">The path of the Nine leads from dissolving into the other to a voice of one&rsquo;s own that can be heard. With Janosch the late column can be read this way: the man who wanted to be invisible spoke to his readers every week in his own name in his early eighties. This is an interpretation, not evidence of his reasons. He died on 3 November 2026, aged 95, on Tenerife.</p>
         </blockquote>
 
       </div>

@@ -2046,7 +2046,7 @@ const BERUEHMT_PORTRAITS = [
     land:"USA", tags:["Musik"], gender:"m"},
 { route:"beruehmte-janosch", name:"Janosch", added:"2026-11-05", subtyp:"SX9w1",
     heading:"Janosch \u2013 Sexual Type 9",
-    teaser:"SX9w1 \u00b7 Horst Eckert, born 1931 in Hindenburg (Upper Silesia), died in November 2026 on Tenerife. Children\u2019s author and illustrator (\u2018Oh, wie sch\u00f6n ist Panama\u2019, Tigerente). The Sloth who found his happiness for two in his own house.",
+    teaser:"SX9w1 \u00b7 Horst Eckert, born 1931 in Hindenburg (Upper Silesia), died on 3 November 2026 on Tenerife. Children\u2019s author and illustrator (\u2018Oh, wie sch\u00f6n ist Panama\u2019, Tigerente). The Sloth who found his happiness for two in his own house.",
     land:"Germany", tags:["Literature","Children\u2019s books","Art"], gender:"m"},
 { route:"beruehmte-art-garfunkel", name:"Art Garfunkel", added:"2026-10-26", subtyp:"SX9w1",
     heading:"Art Garfunkel \u2013 Sexual Type 9",

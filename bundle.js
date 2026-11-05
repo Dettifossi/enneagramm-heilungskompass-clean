@@ -27926,7 +27926,7 @@ const BERUEHMT_PORTRAITS = [
     land:"Österreich/USA", tags:["Sport","Schauspiel","Politik","Bodybuilding"], gender:"m"},
   { route:"beruehmte-janosch", name:"Janosch", added:"2026-11-05", subtyp:"SX9w1",
     heading:"Janosch \u2013 Sexueller Typ 9",
-    teaser:"SX9w1 \u00b7 Horst Eckert, 1931 in Hindenburg (Oberschlesien) geboren, im November 2026 auf Teneriffa gestorben. Kinderbuchautor und Illustrator (\u203aOh, wie sch\u00f6n ist Panama\u2039, Tigerente). Das Faultier, das sein Glück zu zweit im eigenen Haus fand.",
+    teaser:"SX9w1 \u00b7 Horst Eckert, 1931 in Hindenburg (Oberschlesien) geboren, am 3. November 2026 auf Teneriffa gestorben. Kinderbuchautor und Illustrator (\u203aOh, wie sch\u00f6n ist Panama\u2039, Tigerente). Das Faultier, das sein Glück zu zweit im eigenen Haus fand.",
     land:"Deutschland", tags:["Literatur","Kinderbuch","Kunst"], gender:"m"},
   { route:"beruehmte-katy-obrian", name:"Katy O\u2019Brian", added:"2026-11-04", subtyp:"SX6w7",
     heading:"Katy O\u2019Brian \u2013 Sexueller Typ 6",
