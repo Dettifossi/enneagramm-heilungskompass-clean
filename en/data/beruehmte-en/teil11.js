@@ -3247,7 +3247,7 @@ export function janoschPortraitPage() {
 
         <h2 class="vb-section">5. A parallel in the same subtype and wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="#beruehmte-peter-maffay">Peter Maffay (SX9w1)</a> created the dragon Tabaluga, a children&rsquo;s figure that, like Tiger and Bear, has accompanied several generations. <a href="#beruehmte-helge-schneider">Helge Schneider (SX9w1)</a> builds a world of his own, almost childlike and quirky, and will not be talked out of it. <a href="#beruehmte-craig-foster">Craig Foster (SX9w1)</a> literally merged with a counterpart, a wild octopus, and found his path in it. What they share is dissolving into a single counterpart or work; Janosch did it with a pair he drew all his life.</p>
+          <p class="vb-intro"><a href="#beruehmte-peter-maffay">Peter Maffay (SX9w1)</a> created the dragon Tabaluga, a children&rsquo;s figure that, like Tiger and Bear, has accompanied several generations. <a href="#beruehmte-helge-schneider">Helge Schneider (SX9w1)</a> builds a world of his own, almost childlike and quirky, and will not be talked out of it. Closest to him as a painter is <a href="#kriminalpsychologie-wolfgang-beltracchi">Wolfgang Beltracchi (SX9w1)</a>, who painted tirelessly and dissolved completely into the pictorial worlds of other artists. Both live by merging with their own work, both have worked for decades with brush and colour, and both are people who would rather vanish into the studio than stand in the spotlight. The difference lies in the direction: Beltracchi merged with the styles of the masters and was convicted as an art forger in 2011, while Janosch merged with his own pair of Tiger and Bear and made an unmistakable signature of it. What they share is the subtype, not the behaviour.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Light and shadow</h2>
@@ -3270,7 +3270,7 @@ export function janoschPortraitPage() {
         {route:"lebensmusterkompass/sx9", label:"Life Pattern Compass: SX9 – Sloth"},
         {route:"beruehmte-peter-maffay", label:"Portrait: Peter Maffay (SX9w1)"},
         {route:"beruehmte-helge-schneider", label:"Portrait: Helge Schneider (SX9w1)"},
-        {route:"beruehmte-craig-foster", label:"Portrait: Craig Foster (SX9w1)"},
+        {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Criminal Portrait: Wolfgang Beltracchi (SX9w1)"},
       ])}
     </div>
   `);

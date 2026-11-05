@@ -3154,7 +3154,7 @@ export function janoschPortraitPage() {
 
         <h2 class="vb-section">5. Parallele im selben Subtyp und Flügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="#beruehmte-peter-maffay">Peter Maffay (SX9w1)</a> schuf mit dem Drachen Tabaluga eine Kinderfigur, die wie Tiger und Bär mehrere Generationen begleitet. <a href="#beruehmte-helge-schneider">Helge Schneider (SX9w1)</a> baut sich eine eigene, fast kindlich-skurrile Welt und lässt sie sich nicht ausreden. <a href="#beruehmte-craig-foster">Craig Foster (SX9w1)</a> verschmolz im Wortsinn mit einem Gegenüber, einem wilden Tintenfisch, und fand darin seinen Weg. Gemeinsam ist ihnen das Aufgehen in einem einzelnen Gegenüber oder Werk; Janosch tat es mit einem Paar, das er sein Leben lang zeichnete.</p>
+          <p class="vb-intro"><a href="#beruehmte-peter-maffay">Peter Maffay (SX9w1)</a> schuf mit dem Drachen Tabaluga eine Kinderfigur, die wie Tiger und Bär mehrere Generationen begleitet. <a href="#beruehmte-helge-schneider">Helge Schneider (SX9w1)</a> baut sich eine eigene, fast kindlich-skurrile Welt und lässt sie sich nicht ausreden. Am nächsten kommt ihm als Maler <a href="#kriminalpsychologie-wolfgang-beltracchi">Wolfgang Beltracchi (SX9w1)</a>, der unermüdlich malte und dabei völlig in der Bildwelt anderer Künstler aufging. Beide leben von der Verschmelzung mit dem eigenen Werk, beide arbeiten über Jahrzehnte mit Pinsel und Farbe, beide gelten als Menschen, die lieber im Atelier verschwinden als im Rampenlicht zu stehen. Der Unterschied liegt in der Richtung: Beltracchi verschmolz mit den Stilen der Meister und wurde 2011 als Kunstfälscher verurteilt, Janosch verschmolz mit seinem eigenen Paar aus Tiger und Bär und machte daraus eine unverwechselbare Handschrift. Die Gemeinsamkeit liegt im Subtyp, nicht im Verhalten.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Licht und Schatten</h2>
@@ -3177,7 +3177,7 @@ export function janoschPortraitPage() {
         {route:"lebensmusterkompass/sx9", label:"Lebensmusterkompass: SX9 – Faultier"},
         {route:"beruehmte-peter-maffay", label:"Porträt: Peter Maffay (SX9w1)"},
         {route:"beruehmte-helge-schneider", label:"Porträt: Helge Schneider (SX9w1)"},
-        {route:"beruehmte-craig-foster", label:"Porträt: Craig Foster (SX9w1)"},
+        {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Kriminalporträt: Wolfgang Beltracchi (SX9w1)"},
       ])}
     </div>
   `);
