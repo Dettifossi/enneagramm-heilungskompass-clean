@@ -3162,7 +3162,7 @@ export function hubertAiwangerPortraitPage() {
         <h2 class="vb-section">3. The Nine-wing: down-to-earthness and beer-tent warmth</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Nine-wing (w9)</strong> makes the One more down-to-earth and approachable. Aiwanger presented himself as someone who went to the people: the farmer, the hunter, the man people called &lsquo;Hubsi&rsquo;. He combined the One&rsquo;s strictness of principle with the manner of a conversation partner at the regulars&rsquo; table and in the beer tent. That explains why his hard sentences often came in a cosy tone.</p>
-          <p class="vb-intro">In private he was Catholic, lived with his partner Tanja Schweiger and had two sons (born 2012 and 2016). This too belongs to the picture: the Nine seeks support in a manageable circle of family and homeland.</p>
+          <p class="vb-intro">In private he was Catholic, lived with his partner Tanja Schweiger and had two sons (born 2012 and 2016). This too belongs to the picture: the Nine-wing seeks support in a manageable circle of family and homeland.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The substance: the Free Voters from the town council into government</h2>

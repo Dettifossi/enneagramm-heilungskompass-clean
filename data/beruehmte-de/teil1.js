@@ -3275,7 +3275,7 @@ export function hubertAiwangerPortraitPage() {
         <h2 class="vb-section">3. Der Neunerflügel: Bodenständigkeit und Bierzeltwärme</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> macht die Eins bodenständiger und zugänglicher. Aiwanger gab sich als einer, der zu den Leuten ging: der Landwirt, der Jäger, der Mann, dem man ›Hubsi‹ zurief. Er verband die Prinzipienstrenge der Eins mit dem Auftreten eines Gesprächspartners am Stammtisch und im Bierzelt. Das erklärt, warum seine harten Sätze oft in einem gemütlichen Ton fielen.</p>
-          <p class="vb-intro">Privat war er katholisch, lebte mit seiner Partnerin Tanja Schweiger und hatte zwei Söhne (geboren 2012 und 2016). Auch das gehört zum Bild: Die Neun sucht Rückhalt in einem überschaubaren Kreis von Familie und Heimat.</p>
+          <p class="vb-intro">Privat war er katholisch, lebte mit seiner Partnerin Tanja Schweiger und hatte zwei Söhne (geboren 2012 und 2016). Auch das gehört zum Bild: Der Neunerflügel sucht Rückhalt in einem überschaubaren Kreis von Familie und Heimat.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: die Freien Wähler vom Gemeinderat in die Regierung</h2>
