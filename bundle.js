@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=472";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=473";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -17156,6 +17156,7 @@ const uiText = {
       { route: "enneagramm-bibel", label: "Enneagramm im Spiegel des Neuen Testaments" },
       { heading: "Muster-Kompasse" },
       { route: "lebensmusterkompass", label: "Lebensmusterkompass (Biografische Fingerabdrücke)" },
+      { route: "naranjo-schattenprofile", label: "Schattenprofile nach Naranjo (27 Subtypen)" },
       { route: "krankheitsmusterkompass", label: "Krankheitsmusterkompass (Muster in den Krankheitsporträts)" },
       { route: "kriminalmusterkompass", label: "Kriminalmusterkompass (Muster in den Kriminalpsychologie-Porträts)" },
       { route: "musterradar", label: "Musterradar (Flügel & Instinkte im Querschnitt)" },
@@ -46027,6 +46028,8 @@ const MUSTERRADAR_INSTINCT_THEMES = {
 
 let LEBENSMUSTERKOMPASS = null;
 _LAZY_DATA.lebensmuster = { spec: "./data/lazy/lebensmusterkompass.js", assign: m => { LEBENSMUSTERKOMPASS = m.LEBENSMUSTERKOMPASS; } };
+let SCHATTENPROFILE = null;
+_LAZY_DATA.schattenprofile = { spec: "./data/lazy/schattenprofile.js", assign: m => { SCHATTENPROFILE = m.SCHATTENPROFILE; } };
 
 // ---------------------------------------------------------------------------
 // Krankheitsmusterkompass: analog zum Lebensmusterkompass, aber ausschließlich
@@ -46502,6 +46505,121 @@ const KRANKHEITSMUSTERKOMPASS = {
     ]
   }
 };
+
+// ---------------------------------------------------------------------------
+// Schattenprofile nach Naranjo: je Subtyp 9 zugespitzte Punkte (Daten: data/lazy/schattenprofile.js)
+// ---------------------------------------------------------------------------
+function naranjoSchattenprofilePage() {
+  { const _w = _needData("schattenprofile"); if (_w) return _w; }
+  const codes = ["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"];
+  const buttons = codes.map(code => {
+    const d = SCHATTENPROFILE[code];
+    const col = typeColorFromCode(code);
+    return `
+      <button
+        data-route="naranjo-schattenprofile/${code.toLowerCase()}"
+        style="display:flex;flex-direction:column;align-items:center;gap:.35rem;background:linear-gradient(160deg, ${col}22, ${col}0d);border:2px solid ${col};border-radius:10px;padding:.6rem .3rem;cursor:pointer;"
+        title="${d.tier} (${code})"
+      >
+        <div style="position:relative;width:40px;height:40px;border-radius:50%;overflow:hidden;flex-shrink:0;border:2px solid ${col};">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${code.toLowerCase()}.jpg" alt="${d.tier}" loading="lazy" style="position:absolute;top:${tierAvatarTop(code)};left:${tierAvatarLeft(code)};width:140%;height:140%;object-fit:cover;border-radius:0;" />
+        </div>
+        <span style="font-size:.75rem;font-weight:700;color:${col};letter-spacing:.04em;">${code}</span>
+        <span style="font-size:.68rem;color:var(--muted);text-align:center;line-height:1.2;">${d.tier}</span>
+      </button>
+    `;
+  }).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; Muster-Kompasse</p>
+        <h1 class="section-title">Schattenprofile nach Naranjo</h1>
+        <p class="psycho-intro">Claudio Naranjos Charakterlehre beschreibt zu jedem der 27 Subtypen nicht nur Stärken, sondern auch die Strategien und Selbsttäuschungen, mit denen das Muster sich schützt. Diese Seiten zeigen je Subtyp neun solcher Schattenzüge, jeweils mit einer bewusst zugespitzten Formulierung.</p>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro"><strong>Wichtiger Hinweis:</strong> Die Beschreibungen folgen Naranjos Charakterlehre, sind aber bewusst zugespitzt formuliert und keine wörtlichen Zitate. Sie beschreiben die Schattenseite eines Musters, keine Diagnose und nicht den ganzen Menschen. Die meisten Menschen leben ein Muster nur in Spuren. Die ›Zugespitzt‹-Sätze sind Denkanstöße zum Erkennen, keine Urteile.</p>
+        </blockquote>
+
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:0.8rem;margin:2rem 0;">
+          ${buttons}
+        </div>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${relatedLinks([
+          {route:"lebensmusterkompass", label:"Lebensmusterkompass (Biografische Fingerabdrücke)"},
+          {route:"tierlexikon", label:"Tierlexikon der 27 Subtypen"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function naranjoSchattenprofileDetailPage(codeRaw) {
+  { const _w = _needData("schattenprofile"); if (_w) return _w; }
+  const code = (codeRaw || "").toUpperCase();
+  const d = SCHATTENPROFILE[code];
+  if (!d) {
+    return shell(`
+      <div class="page-container">
+        ${pageHeader("wissen")}
+        <div class="page-content">
+          <h1 class="section-title">Noch nicht verfügbar</h1>
+          <p class="psycho-intro">Das Schattenprofil für ${code} ist noch in Arbeit.</p>
+          ${relatedLinks([{route:"naranjo-schattenprofile", label:"Zurück zu den Schattenprofilen"}])}
+        </div>
+      </div>
+    `);
+  }
+  const col = typeColorFromCode(code);
+  const cards = d.punkte.map((p, i) => `
+    <div class="vb-blockquote" style="margin-bottom:1.1rem;">
+      <div style="display:flex;align-items:center;gap:0.8rem;margin-bottom:0.6rem;">
+        <span style="background:${col};color:#fff;font-size:0.72rem;font-weight:700;padding:0.25rem 0.65rem;border-radius:6px;letter-spacing:0.06em;white-space:nowrap;text-shadow:0 1px 2px rgba(0,0,0,0.35);">${i + 1}</span>
+        <strong style="font-size:1.02rem;color:var(--ink);">${p[0]}</strong>
+      </div>
+      <p style="margin:0 0 0.6rem;font-size:0.9rem;line-height:1.6;">${p[1]}</p>
+      <p style="margin:0;font-size:0.87rem;line-height:1.55;font-style:italic;color:var(--muted);"><span style="font-size:0.72rem;font-weight:700;letter-spacing:0.07em;color:var(--copper);text-transform:uppercase;font-style:normal;">Zugespitzt</span> &nbsp;${p[2]}</p>
+    </div>
+  `).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; Schattenprofile nach Naranjo</p>
+        <h1 class="section-title" style="display:flex;align-items:center;gap:0.7rem;flex-wrap:wrap;">
+          <div style="position:relative;width:44px;height:44px;border-radius:50%;overflow:hidden;flex-shrink:0;border:2px solid ${col};">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${code.toLowerCase()}.jpg" alt="${d.tier}" loading="lazy" style="position:absolute;top:${tierAvatarTop(code)};left:${tierAvatarLeft(code)};width:140%;height:140%;object-fit:cover;border-radius:0;" />
+          </div>
+          <span style="color:${col};">${code} &middot; ${d.tier}: ${d.name}</span>
+        </h1>
+        <p class="psycho-intro"><strong>Naranjos Schlüsselwort: ${d.schluessel}.</strong> ${d.kurz}</p>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro" style="margin-bottom:0;"><strong>Hinweis:</strong> Die Beschreibungen folgen Naranjos Charakterlehre, sind bewusst zugespitzt und keine wörtlichen Zitate. Sie zeigen die Schattenseite eines Musters, keine Diagnose und nicht den ganzen Menschen.</p>
+        </blockquote>
+
+        ${cards}
+
+        <blockquote class="vb-blockquote" style="margin:1.6rem 0;border-left-color:${col};">
+          <p class="vb-intro" style="margin:0;"><strong>Wandlung:</strong> ${d.wandlung}</p>
+        </blockquote>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${relatedLinks([
+          {route:"naranjo-schattenprofile", label:"Zurück zu den Schattenprofilen"},
+          {route:`subtype/${code.toLowerCase()}`, label:`${code} – ${d.tier}: Subtyp-Profil`},
+          {route:`lebensmusterkompass/${code.toLowerCase()}`, label:`Lebensmusterkompass: ${code} – ${d.tier}`},
+          {route:"tierlexikon", label:"Tierlexikon der 27 Subtypen"},
+        ])}
+      </div>
+    </div>
+  `);
+}
 
 function lebensmusterkompassPage() {
   { const _w = _needData("lebensmuster"); if (_w) return _w; }
@@ -67718,6 +67836,7 @@ const ROUTES = {
     "enneagramm-memory": enneagrammMemoryPage,
     "tierlexikon": tierlexikonPage,
     "lebensmusterkompass": lebensmusterkompassPage,
+    "naranjo-schattenprofile": naranjoSchattenprofilePage,
     "krankheitsmusterkompass": krankheitsmusterkompassPage,
     "kriminalmusterkompass": kriminalmusterkompassPage,
     "musterradar": musterradarPage,
@@ -68978,6 +69097,8 @@ function render(opts) {
       app.innerHTML = tierlexikonDetailPage(param);
     } else if (base === "lebensmusterkompass" && param) {
       app.innerHTML = lebensmusterkompassDetailPage(param);
+    } else if (base === "naranjo-schattenprofile" && param) {
+      app.innerHTML = naranjoSchattenprofileDetailPage(param);
     } else if (base === "krankheitsmusterkompass" && param) {
       app.innerHTML = krankheitsmusterkompassDetailPage(param);
     } else if (base === "kriminalmusterkompass" && param) {
