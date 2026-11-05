@@ -327,6 +327,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-tom-hardy", label: "Neues EN-Porträt: Tom Hardy" },
   { hash: "#beruehmte-laura-abla", label: "Neues Porträt: Laura Abla" },
   { hash: "en/#beruehmte-laura-abla", label: "Neues EN-Porträt: Laura Abla" },
+  { hash: "#beruehmte-wolfgang-beltracchi", label: "Neues Porträt: Wolfgang Beltracchi" },
+  { hash: "en/#beruehmte-wolfgang-beltracchi", label: "Neues EN-Porträt: Wolfgang Beltracchi" },
   { hash: "#beruehmte-janosch", label: "Neues Porträt: Janosch" },
   { hash: "en/#beruehmte-janosch", label: "Neues EN-Porträt: Janosch" },
   { hash: "#beruehmte-katy-obrian", label: "Neues Porträt: Katy O'Brian" },

@@ -3247,7 +3247,7 @@ export function janoschPortraitPage() {
 
         <h2 class="vb-section">5. A parallel in the same subtype and wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="#beruehmte-peter-maffay">Peter Maffay (SX9w1)</a> created the dragon Tabaluga, a children&rsquo;s figure that, like Tiger and Bear, has accompanied several generations. <a href="#beruehmte-helge-schneider">Helge Schneider (SX9w1)</a> builds a world of his own, almost childlike and quirky, and will not be talked out of it. Closest to him as a painter is <a href="#kriminalpsychologie-wolfgang-beltracchi">Wolfgang Beltracchi (SX9w1)</a>, who painted tirelessly and dissolved completely into the pictorial worlds of other artists. Both live by merging with their own work, both have worked for decades with brush and colour, and both are people who would rather vanish into the studio than stand in the spotlight. The difference lies in the direction: Beltracchi merged with the styles of the masters and was convicted as an art forger in 2011, while Janosch merged with his own pair of Tiger and Bear and made an unmistakable signature of it. What they share is the subtype, not the behaviour.</p>
+          <p class="vb-intro"><a href="#beruehmte-peter-maffay">Peter Maffay (SX9w1)</a> created the dragon Tabaluga, a children&rsquo;s figure that, like Tiger and Bear, has accompanied several generations. <a href="#beruehmte-helge-schneider">Helge Schneider (SX9w1)</a> builds a world of his own, almost childlike and quirky, and will not be talked out of it. Closest to him as a painter is <a href="#beruehmte-wolfgang-beltracchi">Wolfgang Beltracchi (SX9w1)</a>, who painted tirelessly and dissolved completely into the pictorial worlds of other artists. Both live by merging with their own work, both have worked for decades with brush and colour, and both are people who would rather vanish into the studio than stand in the spotlight. The difference lies in the direction: Beltracchi merged with the styles of other masters, while Janosch merged with his own pair of Tiger and Bear and made an unmistakable signature of it. What they share is the subtype, not the behaviour.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Light and shadow</h2>
@@ -3270,7 +3270,76 @@ export function janoschPortraitPage() {
         {route:"lebensmusterkompass/sx9", label:"Life Pattern Compass: SX9 – Sloth"},
         {route:"beruehmte-peter-maffay", label:"Portrait: Peter Maffay (SX9w1)"},
         {route:"beruehmte-helge-schneider", label:"Portrait: Helge Schneider (SX9w1)"},
-        {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Criminal Portrait: Wolfgang Beltracchi (SX9w1)"},
+        {route:"beruehmte-wolfgang-beltracchi", label:"Portrait: Wolfgang Beltracchi (SX9w1)"},
+      ])}
+    </div>
+  `);
+}
+
+export function beltracchiMalerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/wolfgang-beltracchi-portrait.jpg" alt="Wolfgang Beltracchi – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wolfgang Beltracchi</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">German painter, born 1951 in H&ouml;xter &ndash; Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Sloth: the painter who disappears into the picture</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sloth</strong> works without haste and yet is always in motion, just at its own pace. Wolfgang Beltracchi was born Wolfgang Fischer in H&ouml;xter on 4 February 1951, the youngest of five children of a church painter and restorer. At 17 he was expelled from grammar school, he left the Werkkunstschule in Aachen, and afterwards he lived for some years in shared houses and communes.</p>
+          <p class="vb-intro">He took the name Beltracchi only later: in 1992 he met Helene, in 1993 they married, and he adopted her family name. In 1995 the couple moved with their children to the south of France near Montpellier, and in 2005 they bought a house in Freiburg-Herdern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Nine: the couple and the pictorial world</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Claudio Naranjo, the sexual Nine is the subtype of <em>union</em>: it seeks a single counterpart, a person or a work, and dissolves into it. In Beltracchi there are two counterparts. One is Helene, with whom he shares his life and whose name he bears. The other is the pictorial world of the early twentieth-century painters, into which he put himself so deeply that he could paint new pictures that looked as if Heinrich Campendonk, Max Ernst, Max Pechstein or Fernand L&eacute;ger had painted them himself.</p>
+          <p class="vb-intro">This is the fusion of the subtype in its purest form: not copying individual pictures, but immersing oneself in a hand until one&rsquo;s own disappears.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-wing: craft and precision</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> brings measure and care into devotion. Beltracchi was the son of a church painter and restorer and so grew up in an environment where paint, material and technique were taken seriously as a craft; it fits that his work rested on stylistic and technical exactness. Whoever paints like this must know the pigments, canvas and brushwork of an era, and that demands patience, discipline and a fine sense of what &lsquo;rings true&rsquo;.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: hearing styles and thinking them further</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What made Beltracchi unmistakable was a rare combination: a sure eye for a painter&rsquo;s inner structure and the hand to continue it convincingly. By his own account, around 300 such works in the style of earlier masters arose over some forty years. Art experts and auction houses took many of them to be genuine for a long time, which shows how deeply he had entered these pictorial languages.</p>
+          <p class="vb-intro">This way of working is a chapter of its own, legally and morally, treated in the criminal portrait: <a href="#kriminalpsychologie-wolfgang-beltracchi">Wolfgang Beltracchi as a criminal portrait</a>. This portrait sticks to the painter and the person behind him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The painter under his own name</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After his imprisonment, from which he was released early on 9 January 2015, Beltracchi works as a painter under his own name. There were exhibitions in Bern in 2014 (&lsquo;Der Jahrhundertf&auml;lscher&rsquo;, &lsquo;The Forger of the Century&rsquo;), in several cities in 2018 and 2019 (&lsquo;Kairos&rsquo;) and in Zurich in 2021 (&lsquo;The Greats &ndash; Salvator Mundi&rsquo;). With Helene he wrote the autobiography &lsquo;Selbstportr&auml;t&rsquo; (&lsquo;Self-Portrait&rsquo;, 2014). The documentary &lsquo;Beltracchi &ndash; Die Kunst der F&auml;lschung&rsquo; (&lsquo;Beltracchi &ndash; The Art of Forgery&rsquo;) won the German Film Award for best documentary in 2014, and television showed him in the 3sat series &lsquo;Der Meisterf&auml;lscher&rsquo; (&lsquo;The Master Forger&rsquo;). According to the available sources he lives in Meggen near Lucerne.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. A parallel in the same subtype and wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As a painter and draughtsman <a href="#beruehmte-janosch">Janosch (SX9w1)</a> is closest to him: both left academic paths early, both dissolved into their own pictorial work, and both stayed in the studio rather than in the spotlight. Janosch merged with his pair of Tiger and Bear, Beltracchi with the pictorial worlds of other painters. As with Janosch, there is the fusion with a counterpart, the happiness that comes from devotion, and the risk of losing oneself in it. Related in attitude is also <a href="#beruehmte-art-garfunkel">Art Garfunkel (SX9w1)</a>, who dissolved into the second voice of a duo.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Light and shadow, path of healing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The bright side is the capacity for deep devotion and the craft skill that grows from it. The shadow of the Nine lies in the disappearance of one&rsquo;s own position behind the counterpart, and the One-wing can persuade itself that everything is in order. The path of healing leads from dissolving into the foreign to one&rsquo;s own hand: that Beltracchi now paints and signs under his own name can be read as a step in this direction. This is an interpretation, not evidence of his motives.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
+        {route:"lebensmusterkompass/sx9", label:"Life Pattern Compass: SX9 – Sloth"},
+        {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Criminal Psychology: Wolfgang Beltracchi (SX9w1)"},
+        {route:"beruehmte-janosch", label:"Portrait: Janosch (SX9w1)"},
+        {route:"beruehmte-art-garfunkel", label:"Portrait: Art Garfunkel (SX9w1)"},
       ])}
     </div>
   `);

@@ -3154,7 +3154,7 @@ export function janoschPortraitPage() {
 
         <h2 class="vb-section">5. Parallele im selben Subtyp und Flügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="#beruehmte-peter-maffay">Peter Maffay (SX9w1)</a> schuf mit dem Drachen Tabaluga eine Kinderfigur, die wie Tiger und Bär mehrere Generationen begleitet. <a href="#beruehmte-helge-schneider">Helge Schneider (SX9w1)</a> baut sich eine eigene, fast kindlich-skurrile Welt und lässt sie sich nicht ausreden. Am nächsten kommt ihm als Maler <a href="#kriminalpsychologie-wolfgang-beltracchi">Wolfgang Beltracchi (SX9w1)</a>, der unermüdlich malte und dabei völlig in der Bildwelt anderer Künstler aufging. Beide leben von der Verschmelzung mit dem eigenen Werk, beide arbeiten über Jahrzehnte mit Pinsel und Farbe, beide gelten als Menschen, die lieber im Atelier verschwinden als im Rampenlicht zu stehen. Der Unterschied liegt in der Richtung: Beltracchi verschmolz mit den Stilen der Meister und wurde 2011 als Kunstfälscher verurteilt, Janosch verschmolz mit seinem eigenen Paar aus Tiger und Bär und machte daraus eine unverwechselbare Handschrift. Die Gemeinsamkeit liegt im Subtyp, nicht im Verhalten.</p>
+          <p class="vb-intro"><a href="#beruehmte-peter-maffay">Peter Maffay (SX9w1)</a> schuf mit dem Drachen Tabaluga eine Kinderfigur, die wie Tiger und Bär mehrere Generationen begleitet. <a href="#beruehmte-helge-schneider">Helge Schneider (SX9w1)</a> baut sich eine eigene, fast kindlich-skurrile Welt und lässt sie sich nicht ausreden. Am nächsten kommt ihm als Maler <a href="#beruehmte-wolfgang-beltracchi">Wolfgang Beltracchi (SX9w1)</a>, der unermüdlich malte und dabei völlig in der Bildwelt anderer Künstler aufging. Beide leben von der Verschmelzung mit dem eigenen Werk, beide arbeiten über Jahrzehnte mit Pinsel und Farbe, beide gelten als Menschen, die lieber im Atelier verschwinden als im Rampenlicht zu stehen. Der Unterschied liegt in der Richtung: Beltracchi verschmolz mit den Stilen anderer Meister, Janosch verschmolz mit seinem eigenen Paar aus Tiger und Bär und machte daraus eine unverwechselbare Handschrift. Die Gemeinsamkeit liegt im Subtyp, nicht im Verhalten.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Licht und Schatten</h2>
@@ -3177,7 +3177,76 @@ export function janoschPortraitPage() {
         {route:"lebensmusterkompass/sx9", label:"Lebensmusterkompass: SX9 – Faultier"},
         {route:"beruehmte-peter-maffay", label:"Porträt: Peter Maffay (SX9w1)"},
         {route:"beruehmte-helge-schneider", label:"Porträt: Helge Schneider (SX9w1)"},
-        {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Kriminalporträt: Wolfgang Beltracchi (SX9w1)"},
+        {route:"beruehmte-wolfgang-beltracchi", label:"Porträt: Wolfgang Beltracchi (SX9w1)"},
+      ])}
+    </div>
+  `);
+}
+
+export function beltracchiMalerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/wolfgang-beltracchi-portrait.jpg" alt="Wolfgang Beltracchi – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wolfgang Beltracchi</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Maler, geb. 1951 in Höxter &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier: der Maler, der im Bild verschwindet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> arbeitet ohne Hast und ist doch ständig in Bewegung, nur eben im eigenen Takt. Wolfgang Beltracchi kam am 4. Februar 1951 als Wolfgang Fischer in Höxter zur Welt, als jüngstes von fünf Kindern eines Kirchenmalers und Restaurators. Mit 17 wurde er vom Gymnasium verwiesen, die Werkkunstschule in Aachen verließ er, und danach lebte er einige Jahre in Wohngemeinschaften und Kommunen.</p>
+          <p class="vb-intro">Den Namen Beltracchi nahm er erst später an: 1992 lernte er Helene kennen, 1993 heirateten sie, und er übernahm ihren Familiennamen. 1995 zog das Paar mit den Kindern nach Südfrankreich in die Nähe von Montpellier, 2005 kauften die beiden ein Haus in Freiburg-Herdern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: das Paar und die Bildwelt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach Claudio Naranjo ist die sexuelle Neun der Subtyp der <em>Vereinigung</em>: Sie sucht ein einzelnes Gegenüber, einen Menschen oder ein Werk, und geht darin auf. Bei Beltracchi sind es zwei Gegenüber. Zum einen Helene, mit der er sein Leben teilt und deren Namen er trägt. Zum anderen die Bildwelt der Maler des frühen 20. Jahrhunderts, in die er sich so tief hineinversetzte, dass er neue Bilder malen konnte, die aussahen, als hätten Heinrich Campendonk, Max Ernst, Max Pechstein oder Fernand Léger sie selbst gemalt.</p>
+          <p class="vb-intro">Das ist die Verschmelzung des Subtyps in ihrer reinsten Form: nicht das Kopieren einzelner Bilder, sondern das Eintauchen in eine Handschrift, bis die eigene verschwindet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Handwerk und Genauigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> bringt Maßstab und Sorgfalt in die Hingabe. Beltracchi war der Sohn eines Kirchenmalers und Restaurators und wuchs damit in einem Umfeld auf, in dem Farbe, Material und Technik als Handwerk ernst genommen wurden; dazu passt, dass seine Arbeit auf stilistischer und handwerklicher Genauigkeit beruhte. Wer so malt, muss Pigmente, Leinwand und Pinselführung einer Epoche kennen, und das verlangt Geduld, Disziplin und ein feines Gespür dafür, was ›stimmt‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Stile hören und weiterdenken</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Beltracchi unverwechselbar machte, war eine seltene Verbindung: ein sicheres Auge für den inneren Aufbau eines Malers und die Hand, ihn glaubwürdig weiterzuführen. Nach seinen eigenen Worten entstanden über rund vierzig Jahre etwa 300 solcher Werke im Stil früherer Meister. Kunstkenner und Auktionshäuser hielten viele davon lange für echt, was zeigt, wie tief er in diese Bildsprachen eingedrungen war.</p>
+          <p class="vb-intro">Diese Arbeitsweise ist rechtlich und moralisch ein eigenes Kapitel, das im Kriminalporträt behandelt wird: <a href="#kriminalpsychologie-wolfgang-beltracchi">Wolfgang Beltracchi als Kriminalporträt</a>. Dieses Porträt hält sich an den Maler und den Menschen dahinter.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Maler unter eigenem Namen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach der Haft, aus der er am 9. Januar 2015 vorzeitig entlassen wurde, arbeitet Beltracchi als Maler unter eigenem Namen. Ausstellungen gab es unter anderem 2014 in Bern (›Der Jahrhundertfälscher‹), 2018 und 2019 in mehreren Städten (›Kairos‹) und 2021 in Zürich (›The Greats – Salvator Mundi‹). Er schrieb mit Helene die Autobiografie ›Selbstporträt‹ (2014). Der Dokumentarfilm ›Beltracchi – Die Kunst der Fälschung‹ erhielt 2014 den Deutschen Filmpreis als bester Dokumentarfilm, und das Fernsehen zeigte ihn in der 3sat-Reihe ›Der Meisterfälscher‹. Nach den vorliegenden Quellen lebt er in Meggen bei Luzern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallele im selben Subtyp und Flügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als Maler und Zeichner ist ihm <a href="#beruehmte-janosch">Janosch (SX9w1)</a> am nächsten: Beide gingen früh aus akademischen Bahnen hinaus, beide gingen im eigenen Bildwerk auf, beide blieben lieber im Atelier als im Rampenlicht. Janosch verschmolz mit seinem Paar aus Tiger und Bär, Beltracchi mit den Bildwelten anderer Maler. Wie bei Janosch steht auch hier die Verschmelzung mit einem Gegenüber, das Glück, das aus der Hingabe kommt, und das Risiko, sich darin zu verlieren. Verwandt in der Haltung ist auch <a href="#beruehmte-art-garfunkel">Art Garfunkel (SX9w1)</a>, der als zweite Stimme eines Duos aufging.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Licht und Schatten, Heilungsweg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Fähigkeit zu tiefer Hingabe und das handwerkliche Können, das daraus entsteht. Der Schatten der Neun liegt im Verschwinden der eigenen Position hinter dem Gegenüber, und der Einserflügel kann sich dabei einreden, es sei alles in Ordnung. Der Heilungsweg führt vom Aufgehen im Fremden zur eigenen Handschrift: Dass Beltracchi heute unter seinem Namen malt und signiert, lässt sich als Schritt in diese Richtung lesen. Das ist eine Deutung, kein Beleg für seine Beweggründe.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx9", label:"Lebensmusterkompass: SX9 – Faultier"},
+        {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Kriminalpsychologie: Wolfgang Beltracchi (SX9w1)"},
+        {route:"beruehmte-janosch", label:"Porträt: Janosch (SX9w1)"},
+        {route:"beruehmte-art-garfunkel", label:"Porträt: Art Garfunkel (SX9w1)"},
       ])}
     </div>
   `);
