@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=482";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=483";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -552,6 +552,7 @@ const tELawrencePortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", 
 const lisaKauffPortraitPage = () => _lazyPage("./data/beruehmte-de/teil15.js", "lisaKauffPortraitPage");
 const mariaHasbolatPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "mariaHasbolatPortraitPage");
 const leonieBeneschPortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "leonieBeneschPortraitPage");
+const ilseAignerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "ilseAignerPortraitPage");
 const grandmaMosesPortraitPage = () => _lazyPage("./data/beruehmte-de/teil3.js", "grandmaMosesPortraitPage");
 const paulRonzheimerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil18.js", "paulRonzheimerPortraitPage");
 const lewisCapaldiPortraitPage = () => _lazyPage("./data/beruehmte-de/teil3.js", "lewisCapaldiPortraitPage");
@@ -27686,6 +27687,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonie Benesch \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w3 \u00b7 geb. 1991 in Hamburg. Schauspielerin, \u00bbDas Lehrerzimmer\u00ab, \u00bbHeldin\u00ab, \u00bbBabylon Berlin\u00ab. Die Taube, die Druck ohne gro\u00dfe Gesten sichtbar macht. Tierentsprechung: Taube.",
     land:"Deutschland", tags:["Schauspiel"], gender:"f"},
+  { route:"beruehmte-ilse-aigner", name:"Ilse Aigner", added:"2026-11-06", subtyp:"SE1w2",
+    heading:"Ilse Aigner \u2013 Selbsterhaltender Typ 1",
+    teaser:"SE1w2 \u00b7 geb. 1964 in Feldkirchen-Westerham. Pr\u00e4sidentin des Bayerischen Landtags (CSU), fr\u00fcher Bundesministerin. Gelernte Radio- und Fernsehtechnikerin, bei Eurocopter. Der Adler, der Demokratie als Aufgabe versteht. Tierentsprechung: Adler.",
+    land:"Deutschland", tags:["Politik"], gender:"f"},
   { route:"beruehmte-grandma-moses", name:"Grandma Moses", added:"2026-11-06", subtyp:"SE1w9",
     heading:"Grandma Moses \u2013 Selbsterhaltender Typ 1",
     teaser:"SE1w9 \u00b7 1860\u20131961. Amerikanische Malerin (Anna Mary Robertson Moses). Mit Mitte siebzig zu malen begonnen, mit 80 in New York ber\u00fchmt, rund 1.500 Gem\u00e4lde bis zum Tod mit 101. Der Adler, der nach getaner Arbeit ein ganzes Landleben festhielt. Tierentsprechung: Adler.",
@@ -68591,7 +68596,7 @@ const ROUTES = {
       "beruehmte-soeren-kierkegaard": soerenKierkegaardPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-phil-collins": philCollinsPortraitPage,
-      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
+      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
       "beruehmte-harald-v": haraldVPortraitPage,
       "beruehmte-carl-xvi-gustaf": carlXVIGustafPortraitPage,
       "beruehmte-johannes-paul-ii": johannesPaulIIPortraitPage,

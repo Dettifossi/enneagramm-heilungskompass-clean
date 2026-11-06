@@ -331,6 +331,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-maria-hasbolat", label: "Neues EN-Porträt: Maria Hasbolat" },
   { hash: "#beruehmte-leonie-benesch", label: "Neues Porträt: Leonie Benesch" },
   { hash: "en/#beruehmte-leonie-benesch", label: "Neues EN-Porträt: Leonie Benesch" },
+  { hash: "#beruehmte-ilse-aigner", label: "Neues Porträt: Ilse Aigner" },
+  { hash: "en/#beruehmte-ilse-aigner", label: "Neues EN-Porträt: Ilse Aigner" },
   { hash: "#beruehmte-grandma-moses", label: "Neues Porträt: Grandma Moses" },
   { hash: "en/#beruehmte-grandma-moses", label: "Neues EN-Porträt: Grandma Moses" },
   { hash: "#beruehmte-paul-ronzheimer", label: "Neues Porträt: Paul Ronzheimer" },

@@ -3291,3 +3291,71 @@ export function lauraAblaPortraitPage() {
     </div>
   `);
 }
+
+export function ilseAignerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ilse-aigner-portrait.jpg" alt="Ilse Aigner – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-ilse-aigner-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Ilse Aigner</p>
+        <p class="krim-portrait-typ">SP1w2 &middot; Self-Preservation Type 1 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Bavarian politician (CSU), President of the Bavarian Landtag, born 1964 in Feldkirchen-Westerham &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle from Feldkirchen-Westerham</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>eagle</strong> is the animal correspondence of the self-preservation One: a guardian who knows her territory exactly and keeps it in order. Ilse Aigner was born on 7 December 1964 in Feldkirchen-Westerham in Upper Bavaria and grew up with three older sisters. Her parents ran a medium-sized electrical trade business, and her father was also a municipal councillor: craft and local politics belonged together at the kitchen table.</p>
+          <p class="vb-intro">After her Mittlere Reife (1981) she trained as a radio and television technician in the family business and then worked three years as a journeyman. In 1990 she qualified as a state-certified electrical engineering technician and until 1994 developed electrical systems for helicopters at Eurocopter, a field in which a faulty cable is not forgiven. She joined the Junge Union in 1983 and the CSU in 1985.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation One: care as life insurance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> directs her strictness at what keeps life going: reliability, order, precaution. According to Claudio Naranjo her key word is <em>worry</em>, the concern that something is not right or not enough. The job of a helicopter electrician fits this pattern: whoever builds systems on which lives depend checks twice. In politics the same attitude shows in the sentence from her inaugural speech as president of the Landtag in 2018: &lsquo;Democracy is never just a gift, it always remains a task&rsquo; (&lsquo;Demokratie ist nie nur Gabe, sie bleibt immer Aufgabe&rsquo;). A gift that is not cared for is lost; that is precaution in the language of the One.</p>
+          <p class="vb-intro">This includes her warning against a &lsquo;mood democracy&rsquo; (&lsquo;Stimmungsdemokratie&rsquo;) and her call for respectful conduct. The classification is an interpretation, not a diagnosis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: service, encouragement, reliability</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> brings warmth and the wish to be useful. As minister she worked, in her own words, &lsquo;always constructively with the opposition parties on substance&rsquo;. She actively encourages women to stand for election and be elected, and says her office gives her &lsquo;a lot of joy&rsquo; and that she fulfils it &lsquo;with great inner conviction&rsquo; (Sonntagsblatt, February 2020). She started volunteering early: from 2001 to 2009 she headed the water rescue service of the Bavarian Red Cross. About the attacks on her as a young candidate for mayor (she was asked about her family circumstances) she said: &lsquo;I saw it as a sport at the time.&rsquo; That is the composure of a One who borrows flexibility from the Two-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: from helicopter wiring to the chair of parliament</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Aigner is one of those politicians who convinced voters directly: from 1998 to 2013 she was a member of the Bundestag for Starnberg and won her constituency with an absolute majority in 1998, 2002, 2005 and 2009. In October 2008 Angela Merkel appointed her Federal Minister of Food, Agriculture and Consumer Protection; she held the post until September 2013. In that time she stood for consumer and data protection: in 2010 she wrote an open letter to Facebook chief Mark Zuckerberg, in 2011 she asked federal ministers not to use Facebook for public relations, and in 2011 she oversaw the response to the dioxin scandal with stricter feed safety standards.</p>
+          <p class="vb-intro">In 2013 she moved to Bavarian politics: deputy minister-president and State Minister for Economic Affairs, Media, Energy and Technology. On 17 December 2013 she became the first woman to chair a meeting of the Bavarian state government. From 14 to 16 March 2018 she was acting minister-president, and until November 2018 she was State Minister for Housing, Construction and Transport. On 5 November 2018 the Landtag elected her president with 198 of 205 votes, and on 30 October 2023 it confirmed her with 164 of 200 votes. Since 2011 she has also chaired the CSU Upper Bavaria.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is the reliability of a woman who understands offices as service and receives support for it across party lines: according to media reports even CDU members praise her as integrative and close to citizens. The shadow of the self-preservation One is a faithfulness to principle that can look like inflexibility from outside. There has been criticism of her: in 2009 she wanted to suspend the publication of agricultural subsidy recipients for data protection reasons, whereupon the EU agriculture commissioner threatened legal action; in 2012 NABU gave her its negative award &lsquo;Dinosaur of the Year&rsquo; with the accusation of clientele politics, which the ministry rejected. This portrait records what is documented and does not judge her politics.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallels in the same subtype</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A Bavarian politician of the same subtype is <a href="#beruehmte-hubert-aiwanger">Hubert Aiwanger (SP1w9)</a>: he too is shaped by craft and down-to-earth roots, but with a Nine-wing he is more at home at the regulars&rsquo; table and in the beer tent, where Aigner with her Two-wing shows reliability more in committees. <a href="#beruehmte-robert-oppenheimer">J. Robert Oppenheimer (SP1w2)</a> shares the Two-wing and the feeling of carrying responsibility for the whole with knowledge, albeit in a very different field.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The question of Bellevue Palace</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As of 6 November 2026: Aigner remains president of the Bavarian Landtag. Since 2025 she has been named as a possible successor to Federal President Frank-Walter Steinmeier. The Federal Convention is to vote on 30 January 2027; according to ZDFheute of 23 October 2026 there are no official candidates yet. Markus Söder said on 26 July 2026: &lsquo;I think she would be a very good candidate.&rsquo; Friedrich Merz said on 2 August 2026 that he could imagine her candidacy, and the SPD politician Dirk Wiese declared on 18 October 2026 that a woman should take the office. According to the sources named, Aigner has not said whether she will run; that remains open.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SP1 – Eagle"},
+        {route:"beruehmte-hubert-aiwanger", label:"Portrait: Hubert Aiwanger (SP1w9)"},
+        {route:"beruehmte-robert-oppenheimer", label:"Portrait: J. Robert Oppenheimer (SP1w2)"},
+      ])}
+    </div>
+  `);
+}

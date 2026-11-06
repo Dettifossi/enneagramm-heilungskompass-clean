@@ -3314,3 +3314,71 @@ export function hubertAiwangerPortraitPage() {
     </div>
   `);
 }
+
+export function ilseAignerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ilse-aigner-portrait.jpg" alt="Ilse Aigner – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-ilse-aigner-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Ilse Aigner</p>
+        <p class="krim-portrait-typ">SE1w2 &middot; Selbsterhaltender Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Bayerische Politikerin (CSU), Präsidentin des Bayerischen Landtags, 1964 in Feldkirchen-Westerham geboren &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler aus Feldkirchen-Westerham</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist die tierische Entsprechung der selbsterhaltenden Eins: ein Wächter, der sein Revier genau kennt und es in Ordnung hält. Ilse Aigner wurde am 7. Dezember 1964 in Feldkirchen-Westerham in Oberbayern geboren und wuchs mit drei älteren Schwestern auf. Ihre Eltern führten einen mittelständischen Elektro-Handwerksbetrieb, ihr Vater war zudem Gemeinderat: Handwerk und Gemeindepolitik gehörten schon am Küchentisch zusammen.</p>
+          <p class="vb-intro">Nach der Mittleren Reife (1981) machte sie im elterlichen Betrieb eine Ausbildung zur Radio- und Fernsehtechnikerin und arbeitete danach drei Jahre als Gesellin. 1990 legte sie die Prüfung zur staatlich geprüften Elektrotechnikerin ab und entwickelte bis 1994 bei Eurocopter elektrische Systeme für Hubschrauber, ein Bereich, in dem ein Fehler im Kabel nicht verziehen wird. 1983 trat sie in die Junge Union ein, 1985 in die CSU.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Sorgfalt als Lebensversicherung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihre Strenge auf das, was das Leben trägt: Verlässlichkeit, Ordnung, Vorsorge. Nach Claudio Naranjo ist ihr Schlüsselwort <em>Worry</em>, die Sorge, dass etwas nicht stimmt oder nicht reicht. Das Berufsbild der Hubschrauber-Elektrikerin passt zu diesem Muster: Wer Systeme baut, an denen Leben hängt, prüft doppelt. In der Politik zeigt sich dieselbe Haltung im Satz aus ihrer Antrittsrede als Landtagspräsidentin 2018: ›Demokratie ist nie nur Gabe, sie bleibt immer Aufgabe.‹ Eine Gabe, die man nicht pflegt, geht verloren; das ist Vorsorge in der Sprache der Eins.</p>
+          <p class="vb-intro">Dazu gehört ihre Warnung vor einer ›Stimmungsdemokratie‹ und die Forderung nach respektvollem Umgang. Die Zuordnung ist eine Deutung, keine Diagnose.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Dienst, Ermutigung, Verbindlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> bringt Wärme und den Wunsch, nützlich zu sein. Aigner arbeitete als Ministerin nach eigenen Worten ›stets mit den Oppositionsparteien auf der Sachebene konstruktiv‹ zusammen. Sie ermutigt Frauen aktiv, zu kandidieren und gewählt zu werden, und sagt, ihr Amt mache ihr ›richtig viel Freude‹ und sie erfülle es ›mit großer innerer Überzeugung‹ (Sonntagsblatt, Februar 2020). Mit dem Ehrenamt hat sie früh angefangen: Von 2001 bis 2009 leitete sie die Wasserwacht des Bayerischen Roten Kreuzes. Zu den Angriffen, die ihr als junger Bürgermeisterkandidatin galten (man fragte sie nach ihren Familienverhältnissen), sagte sie: ›Ich habe das damals sportlich gesehen.‹ Das ist die Gelassenheit einer Eins, die sich vom Zweierflügel Beweglichkeit leiht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: vom Hubschrauberkabel zum Parlamentsvorsitz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Aigner gehört zu den Politikerinnen, die ihre Wähler direkt überzeugt haben: Von 1998 bis 2013 war sie Mitglied des Bundestags für Starnberg und gewann ihren Wahlkreis 1998, 2002, 2005 und 2009 mit absoluter Mehrheit. Im Oktober 2008 berief Angela Merkel sie zur Bundesministerin für Ernährung, Landwirtschaft und Verbraucherschutz; sie blieb es bis September 2013. In dieser Zeit stand sie für Verbraucher- und Datenschutz: 2010 schrieb sie in einem offenen Brief an den Facebook-Chef Mark Zuckerberg, 2011 bat sie Bundesminister, Facebook nicht für Öffentlichkeitsarbeit zu nutzen, und sie betreute 2011 die Reaktion auf den Dioxin-Skandal mit strengeren Futtermittel-Standards.</p>
+          <p class="vb-intro">2013 wechselte sie nach Bayern: stellvertretende Ministerpräsidentin und Staatsministerin für Wirtschaft, Medien, Energie und Technologie. Am 17. Dezember 2013 leitete sie als erste Frau eine Sitzung der bayerischen Staatsregierung. Vom 14. bis 16. März 2018 führte sie als Ministerpräsidentin im Amt die Geschäfte, danach war sie bis November 2018 Staatsministerin für Wohnen, Bau und Verkehr. Am 5. November 2018 wählte der Landtag sie mit 198 von 205 Stimmen zur Präsidentin, am 30. Oktober 2023 bestätigte er sie mit 164 von 200 Stimmen. Seit 2011 ist sie außerdem Vorsitzende der CSU Oberbayern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Verbindlichkeit einer Frau, die Ämter als Dienst begreift und dafür über Parteigrenzen hinweg Zuspruch erfährt: Nach Medienberichten loben sie auch Abgeordnete der CDU als integrierend und bürgernah. Der Schatten der selbsterhaltenden Eins ist die Prinzipientreue, die von außen wie Unnachgiebigkeit wirken kann. Es gab Kritik an ihr: 2009 wollte sie die Veröffentlichung der Agrarsubventionsempfänger aus Datenschutzgründen aussetzen, worauf der EU-Agrarkommissar mit rechtlichen Schritten drohte; 2012 verlieh ihr der NABU den Negativpreis ›Dinosaurier des Jahres‹ mit dem Vorwurf der Klientelpolitik, den das Ministerium zurückwies. Dieses Porträt hält fest, was belegt ist, und urteilt nicht über ihre Politik.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallelen im selben Subtyp</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein bayerischer Politiker desselben Subtyps ist <a href="#beruehmte-hubert-aiwanger">Hubert Aiwanger (SE1w9)</a>: auch er handwerklich-bodenständig geprägt, aber mit Neunerflügel eher bei Stammtisch und Bierzelt zu Hause, wo Aigner mit ihrem Zweierflügel eher in Gremien und Ausschüssen Verbindlichkeit zeigt. <a href="#beruehmte-robert-oppenheimer">J. Robert Oppenheimer (SE1w2)</a> teilt den Zweierflügel und das Gefühl, mit Wissen Verantwortung für das Ganze zu tragen, wenn auch in einem ganz anderen Feld.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Die Frage nach Schloss Bellevue</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Stand 6. November 2026: Aigner ist weiterhin Präsidentin des Bayerischen Landtags. Seit 2025 wird sie als mögliche Nachfolgerin von Bundespräsident Frank-Walter Steinmeier genannt. Die Bundesversammlung soll am 30. Januar 2027 wählen; nach ZDFheute vom 23. Oktober 2026 gibt es noch keine offiziellen Kandidaten. Markus Söder sagte am 26. Juli 2026: ›Ich glaube, sie wäre eine sehr gute Kandidatin.‹ Friedrich Merz konnte sich am 2. August 2026 ihre Kandidatur vorstellen, und der SPD-Politiker Dirk Wiese erklärte am 18. Oktober 2026, eine Frau solle das Amt übernehmen. Ob Aigner kandidiert, hat sie nach den genannten Quellen nicht erklärt; das bleibt offen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se1", label:"Lebensmusterkompass: SE1 – Adler"},
+        {route:"beruehmte-hubert-aiwanger", label:"Porträt: Hubert Aiwanger (SE1w9)"},
+        {route:"beruehmte-robert-oppenheimer", label:"Porträt: J. Robert Oppenheimer (SE1w2)"},
+      ])}
+    </div>
+  `);
+}
