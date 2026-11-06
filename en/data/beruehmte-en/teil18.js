@@ -3240,7 +3240,7 @@ export function lewisCapaldiPortraitPage() {
           <p class="vb-intro">Another singer of this subtype who turned private pain into world hits is <a href="#beruehmte-adele">Adele (SP4w3)</a>: she too withdrew after huge success and returned after a long pause. <a href="#beruehmte-tim-bendzko">Tim Bendzko (SP4w3)</a> shares the gentle, melancholy songwriting without a big pose. The difference: Capaldi uses humour as armour more openly and more loudly than the others, who protect themselves with silence.</p>
         </blockquote>
 
-        <h2 class="vb-section">7. Where things stand (as of 6 November 2026)</h2>
+        <h2 class="vb-section">7. Where he stands today (as of 6 November 2026)</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In June 2025 Capaldi returned with a surprise set at Glastonbury, his first public performance since the break. The comeback single &lsquo;Survive&rsquo; reached number one in the UK; the EP <em>Survive</em> followed on 14 November 2025. In summer 2026 he played, among others, TRNSMT, the Isle of Wight Festival and BST Hyde Park. According to his own statements a third studio album is in progress, and he plans to step back from the spotlight after the summer to work on it.</p>
         </blockquote>
