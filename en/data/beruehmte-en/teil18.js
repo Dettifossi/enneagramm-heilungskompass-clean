@@ -3220,7 +3220,7 @@ export function lewisCapaldiPortraitPage() {
 
         <h2 class="vb-section">3. The Three-wing: the stage, the charts, the pressure</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Four visibility and drive. Capaldi did not only want to feel; he wanted his songs to land. The result was extraordinary success within two years, and with it the pressure of having to deliver. The Netflix documentary <em>How I&rsquo;m Feeling Now</em> (5 April 2023) shows him anxious in front of the second album and before performing on stage, searching, in the film&rsquo;s words, for a safe place to land. The Three in him wants to deliver, the Four in him fears that it is not enough.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Four visibility and drive. Capaldi did not only want to feel; he wanted his songs to land. The result was extraordinary success within two years, and with it the pressure of having to deliver. The Netflix documentary <em>How I&rsquo;m Feeling Now</em> (5 April 2023) shows him anxious in front of the second album and before performing on stage, searching, in the film&rsquo;s words, for a safe place to land. The Three-wing wants to deliver, the core of the Four fears that it is not enough.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The substance: a voice that breaks open and holds</h2>

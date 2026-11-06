@@ -3186,7 +3186,7 @@ export function lewisCapaldiPortraitPage() {
 
         <h2 class="vb-section">3. Der Dreierflügel: Bühne, Charts, Druck</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der Vier Sichtbarkeit und Antrieb. Capaldi wollte nicht nur fühlen, er wollte, dass seine Lieder ankommen. Das Ergebnis war ein außergewöhnlicher Erfolg binnen zwei Jahren und mit ihm der Druck, liefern zu müssen. Die Netflix-Dokumentation <em>How I’m Feeling Now</em> (5. April 2023) zeigt ihn ängstlich vor dem zweiten Album und vor Auftritten, auf der Suche, so der Film, nach einem sicheren Ort zum Landen. Die Drei in ihm will liefern, die Vier in ihm fürchtet, dass es nicht reicht.</p>
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der Vier Sichtbarkeit und Antrieb. Capaldi wollte nicht nur fühlen, er wollte, dass seine Lieder ankommen. Das Ergebnis war ein außergewöhnlicher Erfolg binnen zwei Jahren und mit ihm der Druck, liefern zu müssen. Die Netflix-Dokumentation <em>How I’m Feeling Now</em> (5. April 2023) zeigt ihn ängstlich vor dem zweiten Album und vor Auftritten, auf der Suche, so der Film, nach einem sicheren Ort zum Landen. Der Dreierflügel will liefern, der Kern der Vier fürchtet, dass es nicht reicht.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: eine Stimme, die aufbricht und trägt</h2>
