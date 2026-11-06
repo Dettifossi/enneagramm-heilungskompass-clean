@@ -3225,3 +3225,77 @@ export function lewisCapaldiPortraitPage() {
     </div>
   `);
 }
+
+export function grandmaMosesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-grandma-moses-portrait.jpg?v=2" alt="Grandma Moses – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-grandma-moses-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Grandma Moses</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Amerikanische Malerin (Anna Mary Robertson Moses), 1860 bei Greenwich, New York, geboren, am 13. Dezember 1961 in Hoosick Falls gestorben &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler aus Greenwich</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist die tierische Entsprechung der selbsterhaltenden Eins: ein Wächter, der sein Revier genau kennt und es in Ordnung hält. Anna Mary Robertson, später Anna Mary Moses und weltweit ›Grandma Moses‹, wurde am 7. September 1860 bei Greenwich im Bundesstaat New York geboren, als eines von zehn Kindern. Ihr Vater förderte ihr Zeichnen; sie malte mit Beerensaft und Zimmermannskreide. Schule gab es für Mädchen nur im Sommerhalbjahr, also wenig. Mit etwa zwölf Jahren ging sie als ›hired girl‹ (Hausmädchen auf Zeit) zu einem älteren Ehepaar und später zu anderen Familien, insgesamt rund fünfzehn Jahre lang.</p>
+          <p class="vb-intro">Am 9. November 1887 heiratete sie den Landwirt Thomas Salmon Moses. Das Paar bewirtschaftete Farmen in Virginia, bevor es 1905 in Eagle Bridge im Staat New York eine eigene Farm kaufte. Zehn Kinder kamen zur Welt, fünf starben als Säuglinge. Ihr Mann starb am 15. Januar 1927; ihr Sohn Hugh zog mit seiner Frau auf die Farm, und sie nahm Pensionsgäste auf und hielt Hühner.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Sorge ums Auskommen und um das Richtige</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihre Strenge auf das, was das Leben trägt: Existenz, Ordnung, Verlässlichkeit. Nach Claudio Naranjo ist ihr Schlüsselwort <em>Worry</em>, die Sorge, dass etwas nicht stimmt oder nicht reicht. Moses sorgte für das Auskommen buchstäblich: Sie verkaufte Butter, zeitweise rund 160 Pfund pro Woche, stellte Kartoffelchips her und verlieh, wie ein Lexikon vermerkt, Geld an ihren Mann gegen Zinsen. Eine Frau, die ein Geschäft führt und dabei Haushalt und Kinder trägt, handelt nicht aus Bequemlichkeit, sondern aus dem Gefühl, dass es richtig gemacht werden muss.</p>
+          <p class="vb-intro">Das Richtige galt auch für die Malerei: ›Ich male nichts, wovon wir nichts wissen‹ (›I’ll not paint something we know nothing about‹), wird ihr zugeschrieben. Sie malte nur, was sie erlebt hatte. Ihr Leitsatz ›Malen ist nicht wichtig. Wichtig ist, beschäftigt zu bleiben‹ (›Painting’s not important. The important thing is to keep busy‹) und ihr Rückblick ›Ich sehe auf mein Leben zurück wie auf einen guten Arbeitstag‹ (›I look back on my life like a good day’s work‹) zeigen die Pflichtethik der Eins: Wert entsteht durch Arbeit, nicht durch Ruhm. Beide Sätze stammen aus einem Essay, nicht aus der Originalquelle. Die Zuordnung ist eine Deutung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Gelassenheit vor dem Ruhm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> macht die Eins ruhiger und bodenständiger. Moses ließ sich vom Ruhm nicht aus der Fassung bringen: Sie bekam Tee bei Präsident Truman im Weißen Haus, wurde von <em>Time</em>, <em>Life</em> und Edward R. Murrow interviewt und blieb nach einem Essay ›unflustered‹ (ungerührt). Zur Eröffnung ihrer ersten New Yorker Einzelschau kam sie nicht, sie kenne ja alle Bilder. Ihre Bilder zeigen dieselbe Haltung: friedliche Jahreszeiten, Gemeinschaft, Ordnung, kaum Konflikt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: aus dem Gedächtnis eine verschwundene Welt malen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Moses einzigartig machte, war weniger ihr Alter als ihr Blick. Sie malte aus dem Gedächtnis Szenen aus dem Landleben, vor allem die vier Jahreszeiten, darunter das Ahornzuckersieden. Ihre Bilder zeigen von oben gesehene Landschaften mit vielen kleinen Menschen, die gleichzeitig etwas tun; der Winter ist weiß, der Frühling hellgrün, der Sommer tiefgrün, der Herbst braun und gelb. Auf den Schnee streute sie trotz Einwänden Glitzer, weil Schnee im Sonnenlicht glitzere. Sie arbeitete auf Hartfaserplatten, die sie mit Leinöl und drei Schichten weißer Farbe vorbereitete, und malte von oben nach unten: Himmel, Berge, Hügel, Bäume, Häuser, Vieh, zuletzt die Menschen. Dazu steckte sie Ausschnitte aus Zeitschriften und Postkarten mit Nadeln zusammen und wiederholte Motive, um sie zu verbessern; Anregungen holte sie auch bei den Drucken von Currier &amp; Ives. Ihr Atelier war ein kleiner Raum neben der Farmküche, wo sie auf einem durchgesessenen Drehstuhl saß, auf zwei Kissen.</p>
+          <p class="vb-intro">Kritiker ordneten sie als naive oder primitive Malerin ein und verglichen ihre Winterbilder mit Breughel und ihren Stil mit Henri Rousseau; sie kannte beide nach einem Essay nicht und malte weiter. Moderne Elemente wie Traktoren oder Telefonmasten ließ sie meist weg. Insgesamt entstanden rund 1.500 bis 1.600 Gemälde (andere Quellen nennen bis zu 2.000), etwa 25 davon nach ihrem hundertsten Geburtstag.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der späte Beginn und der Durchbruch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Vorarbeit gab es lange: 1918 bemalte sie ein Kaminblech, später ein Kabinenfenster und eine Tischplatte, ab 1932 stickte sie Wollbilder. Als Rheuma oder Arthritis das Sticken schmerzhaft machte, riet ihre Schwester zum Malen. Nach dem Tod ihrer Tochter Anna 1932 half sie bei der Erziehung der Enkel in Vermont; 1935, mit 75 Jahren, kehrte sie nach Eagle Bridge zurück und begann ernsthaft zu malen (Quellen nennen 76 bis 78 Jahre).</p>
+          <p class="vb-intro">Im Frühjahr 1938 entdeckte der Sammler Louis J. Caldor ihre Bilder im Schaufenster einer Apotheke in Hoosick Falls, wo sie für etwa drei bis fünf Dollar hingen; die Frau des Apothekers hatte sie über eine Frauen-Verkaufsstelle ausgestellt. Er kaufte sie auf und suchte die Malerin. Im September 1939 hingen drei ihrer Bilder im Museum of Modern Art in der Gruppenschau ›Contemporary Unknown American Painters‹ (›Zeitgenössische unbekannte amerikanische Maler‹). Vom 9. bis 31. Oktober 1940 zeigte die Galerie St. Etienne ihre erste Einzelschau ›What a Farm Wife Painted‹ (›Was eine Bäuerin malte‹); im selben Monat stand der Name ›Grandma Moses‹ erstmals in der <em>New York Herald Tribune</em>. Sie war damals 80.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Unbeirrbarkeit einer Frau, die ihr Können als selbstverständlich nahm und trotzdem jeden Tag arbeitete, sowie die Großzügigkeit, mit der sie ihre Bilder oft verschenkte. Der Schatten der Eins zeigt sich in der Strenge des Auswählens: Sie malte nur, was sie kannte, und ließ weg, was nicht dazu passte. Das ergibt Stimmigkeit, aber auch eine verklärte Welt ohne Konflikt. Die Nachfrage führte zu vielen Bildern ähnlichen Titels, und der Ruhm brachte Vermarktung, die sie mit derselben Gelassenheit annahm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Parallelen im selben Subtyp und Flügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als später Höhepunkt eines langen Pflichtlebens steht ihr <a href="#beruehmte-konrad-adenauer">Konrad Adenauer (SE1w9)</a> nahe: ein Mann, der seine größte Rolle erst im hohen Alter erreichte und sie mit Ordnungssinn ausfüllte. <a href="#beruehmte-queen-elizabeth-ii">Queen Elizabeth II. (SE1w9)</a> teilt die Verbindung aus Pflichterfüllung und Gelassenheit bis ins hohe Alter. Der Unterschied: Adenauer und die Queen wirkten im Amt, Moses nach getaner Arbeit in der eigenen Küche.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Das letzte Jahr und was blieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1960, zu ihrem hundertsten Geburtstag, erklärte der Gouverneur von New York, Nelson Rockefeller, den ›Grandma Moses Day‹, und sie war auf dem Titel von <em>Life</em>. Im Sommer 1961 kam sie nach einem Sturz in ein Pflegeheim, wo sie nicht mehr malen durfte, eine große Enttäuschung. Am 13. Dezember 1961 starb sie in Hoosick Falls mit 101 Jahren an einer Herzerkrankung. Präsident Kennedy sagte: ›Alle Amerikaner trauern um sie‹ (›All Americans mourn her loss‹). 1969 erschien eine US-Briefmarke mit ihrem Bild <em>July Fourth</em>; 2006 wurde <em>Sugaring Off</em> (1943) bei Christie’s für rund 1,36 Millionen Dollar versteigert, ihr Auktionsrekord. Das Bennington Museum besitzt die größte Sammlung ihrer Werke in den USA.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se1", label:"Lebensmusterkompass: SE1 – Adler"},
+        {route:"beruehmte-konrad-adenauer", label:"Porträt: Konrad Adenauer (SE1w9)"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Porträt: Queen Elizabeth II. (SE1w9)"},
+      ])}
+    </div>
+  `);
+}

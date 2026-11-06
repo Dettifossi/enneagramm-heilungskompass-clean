@@ -3259,3 +3259,77 @@ export function lewisCapaldiPortraitPage() {
     </div>
   `);
 }
+
+export function grandmaMosesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-grandma-moses-portrait.jpg?v=2" alt="Grandma Moses – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-grandma-moses-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Grandma Moses</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">American painter (Anna Mary Robertson Moses), born 1860 near Greenwich, New York, died on 13 December 1961 in Hoosick Falls &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle from Greenwich</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>eagle</strong> is the animal correspondence of the self-preservation One: a guardian who knows her territory exactly and keeps it in order. Anna Mary Robertson, later Anna Mary Moses and worldwide &lsquo;Grandma Moses&rsquo;, was born on 7 September 1860 near Greenwich in New York State, one of ten children. Her father encouraged her drawing; she painted with berry juice and carpenter&rsquo;s chalk. Girls had school only in the summer term, so schooling was limited. At about twelve she went as a hired girl to an elderly couple and later to other families, for about fifteen years in all.</p>
+          <p class="vb-intro">On 9 November 1887 she married the farmer Thomas Salmon Moses. The couple worked farms in Virginia before buying their own in Eagle Bridge, New York, in 1905. Ten children were born and five died in infancy. Her husband died on 15 January 1927; her son Hugh and his wife moved onto the farm, and she took in boarders and kept chickens.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation One: worry about a livelihood and about getting it right</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> directs her strictness at what keeps life going: livelihood, order, reliability. According to Claudio Naranjo her key word is <em>worry</em>, the concern that something is not right or not enough. Moses provided for the household literally: she sold butter, at one point about 160 pounds a week, made potato chips and, as one encyclopedia notes, lent money to her husband at interest. A woman who runs a business while carrying household and children does not act from comfort but from the feeling that it has to be done properly.</p>
+          <p class="vb-intro">The same went for painting: &lsquo;I&rsquo;ll not paint something we know nothing about&rsquo;, she is quoted as saying. She painted only what she had lived. Her maxim &lsquo;Painting&rsquo;s not important. The important thing is to keep busy&rsquo; and her look back &lsquo;I look back on my life like a good day&rsquo;s work&rsquo; show the One&rsquo;s ethic of duty: worth comes from work, not from fame. Both sentences come from an essay, not from the original source. The classification is an interpretation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-wing: calm in the face of fame</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> makes the One calmer and more down-to-earth. Moses was not thrown by fame: she had tea with President Truman at the White House, was interviewed by <em>Time</em>, <em>Life</em> and Edward R. Murrow, and remained, according to an essay, unflustered. She did not attend the opening of her first New York solo show, saying she knew all the paintings. Her pictures show the same attitude: peaceful seasons, community, order, hardly any conflict.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: painting a vanished world from memory</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What made Moses unique was less her age than her way of seeing. She painted from memory scenes of rural life, above all the four seasons, among them sugaring off (boiling maple sap). Her pictures show landscapes seen from above with many small people all doing something at once; winter is white, spring light green, summer deep green, autumn brown and yellow. Despite objections she sprinkled glitter on the snow, because snow glitters in sunlight. She worked on Masonite boards prepared with linseed oil and three coats of flat white paint, and painted from top to bottom: sky, mountains, hills, trees, houses, cattle, last the people. She pinned clippings from magazines and postcards together with needles and repeated motifs to improve them; she also drew on Currier &amp; Ives prints. Her studio was a small room beside the farm kitchen, where she sat in a battered swivel chair on two pillows.</p>
+          <p class="vb-intro">Critics classed her as a naive or primitive painter and compared her winter scenes to Breughel and her style to Henri Rousseau; according to an essay she knew neither and kept painting. Modern elements such as tractors or telephone poles she mostly left out. In all she produced about 1,500 to 1,600 paintings (other sources say up to 2,000), about 25 of them after her hundredth birthday.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The late start and the breakthrough</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">There was long preparation: in 1918 she painted a fireboard, later a caboose window and a tabletop, and from 1932 she embroidered yarn pictures. When rheumatism or arthritis made embroidery painful, her sister suggested painting. After the death of her daughter Anna in 1932 she helped raise the grandchildren in Vermont; in 1935, at 75, she returned to Eagle Bridge and began painting seriously (sources give 76 to 78).</p>
+          <p class="vb-intro">In spring 1938 the collector Louis J. Caldor discovered her pictures in the window of a drugstore in Hoosick Falls, where they hung for about three to five dollars; the druggist&rsquo;s wife had shown them through a women&rsquo;s exchange. He bought them up and looked for the painter. In September 1939 three of her pictures hung in the Museum of Modern Art in the group show &lsquo;Contemporary Unknown American Painters&rsquo;. From 9 to 31 October 1940 Galerie St. Etienne showed her first solo exhibition, &lsquo;What a Farm Wife Painted&rsquo;; in the same month the name &lsquo;Grandma Moses&rsquo; first appeared in print in the <em>New York Herald Tribune</em>. She was 80.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is the steadfastness of a woman who took her skill for granted and still worked every day, and the generosity with which she often gave pictures away. The shadow of the One shows in the strictness of selection: she painted only what she knew and left out what did not fit. That gives coherence, but also a transfigured world without conflict. The demand led to many pictures with similar titles, and fame brought merchandising, which she accepted with the same calm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Parallels in the same subtype and wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As the late peak of a long life of duty, <a href="#beruehmte-konrad-adenauer">Konrad Adenauer (SP1w9)</a> is close to her: a man who reached his greatest role only in old age and filled it with a sense of order. <a href="#beruehmte-queen-elizabeth-ii">Queen Elizabeth II (SP1w9)</a> shares the combination of duty and calm into great age. The difference: Adenauer and the Queen acted in office, Moses after the day&rsquo;s work in her own kitchen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. The last year and what remained</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1960, for her hundredth birthday, New York Governor Nelson Rockefeller proclaimed &lsquo;Grandma Moses Day&rsquo;, and she was on the cover of <em>Life</em>. In summer 1961 she went into a nursing home after a fall, where she was no longer allowed to paint, a great disappointment. She died on 13 December 1961 in Hoosick Falls at 101, of heart disease. President Kennedy said: &lsquo;All Americans mourn her loss.&rsquo; In 1969 a US stamp appeared with her picture <em>July Fourth</em>; in 2006 <em>Sugaring Off</em> (1943) sold at Christie&rsquo;s for about 1.36 million dollars, her auction record. The Bennington Museum holds the largest collection of her works in the US.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SP1 – Eagle"},
+        {route:"beruehmte-konrad-adenauer", label:"Portrait: Konrad Adenauer (SP1w9)"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SP1w9)"},
+      ])}
+    </div>
+  `);
+}

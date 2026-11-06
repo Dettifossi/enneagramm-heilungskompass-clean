@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=478";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=479";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -562,6 +562,7 @@ const tELawrencePortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", 
 const lisaKauffPortraitPage = () => _lazyPage("./data/beruehmte-en/teil17.js", "lisaKauffPortraitPage");
 const mariaHasbolatPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "mariaHasbolatPortraitPage");
 const leonieBeneschPortraitPage = () => _lazyPage("./data/beruehmte-en/teil2.js", "leonieBeneschPortraitPage");
+const grandmaMosesPortraitPage = () => _lazyPage("./data/beruehmte-en/teil18.js", "grandmaMosesPortraitPage");
 const paulRonzheimerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "paulRonzheimerPortraitPage");
 const lewisCapaldiPortraitPage = () => _lazyPage("./data/beruehmte-en/teil18.js", "lewisCapaldiPortraitPage");
 const hubertAiwangerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "hubertAiwangerPortraitPage");
@@ -1911,6 +1912,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonie Benesch \u2013 Self-Preservation Type 4",
     teaser:"SP4w3 \u00b7 b. 1991 in Hamburg. Actress, \u2018The Teachers\u2019 Lounge\u2019, \u2018Late Shift\u2019, \u2018Babylon Berlin\u2019. The dove who makes pressure visible without big gestures. Animal correspondence: Dove.",
     land:"Germany", tags:["Acting"], gender:"f"},
+{ route:"beruehmte-grandma-moses", name:"Grandma Moses", added:"2026-11-06", subtyp:"SE1w9",
+    heading:"Grandma Moses \u2013 Self-Preservation Type 1",
+    teaser:"SP1w9 \u00b7 1860\u20131961. American painter (Anna Mary Robertson Moses). Began painting in her mid-seventies, famous in New York at 80, about 1,500 paintings until her death at 101. The eagle who captured a whole rural life after the day\u2019s work. Animal correspondence: Eagle.",
+    land:"USA", tags:["Art"], gender:"f"},
 { route:"beruehmte-paul-ronzheimer", name:"Paul Ronzheimer", added:"2026-11-06", subtyp:"SO7w6",
     heading:"Paul Ronzheimer \u2013 Social Type 7",
     teaser:"SP7w6 \u00b7 b. 1985 in Aurich. War reporter and journalist (Bild, podcast \u2018Ronzheimer\u2019), Ukraine, Afghanistan, Middle East. The beaver who builds where others cannot go. Animal correspondence: Beaver.",
@@ -48461,7 +48466,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-pamela-reif": pamelaReifPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-phil-collins": philCollinsPortraitPage,
-      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
+      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
       "beruehmte-harald-v": haraldVPortraitPage,
       "beruehmte-carl-xvi-gustaf": carlXVIGustafPortraitPage,
       "beruehmte-johannes-paul-ii": johannesPaulIIPortraitPage,
