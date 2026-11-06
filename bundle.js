@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=480";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=481";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -552,6 +552,7 @@ const tELawrencePortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", 
 const lisaKauffPortraitPage = () => _lazyPage("./data/beruehmte-de/teil15.js", "lisaKauffPortraitPage");
 const mariaHasbolatPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "mariaHasbolatPortraitPage");
 const leonieBeneschPortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "leonieBeneschPortraitPage");
+const paulRonzheimerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil18.js", "paulRonzheimerPortraitPage");
 const lewisCapaldiPortraitPage = () => _lazyPage("./data/beruehmte-de/teil3.js", "lewisCapaldiPortraitPage");
 const hubertAiwangerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "hubertAiwangerPortraitPage");
 const timCookPortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", "timCookPortraitPage");
@@ -27684,6 +27685,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonie Benesch \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w3 \u00b7 geb. 1991 in Hamburg. Schauspielerin, \u00bbDas Lehrerzimmer\u00ab, \u00bbHeldin\u00ab, \u00bbBabylon Berlin\u00ab. Die Taube, die Druck ohne gro\u00dfe Gesten sichtbar macht. Tierentsprechung: Taube.",
     land:"Deutschland", tags:["Schauspiel"], gender:"f"},
+  { route:"beruehmte-paul-ronzheimer", name:"Paul Ronzheimer", added:"2026-11-06", subtyp:"SO7w6",
+    heading:"Paul Ronzheimer \u2013 Sozialer Typ 7",
+    teaser:"SO7w6 \u00b7 geb. 1985 in Aurich. Kriegsreporter und Journalist (Bild, Podcast \u203aRonzheimer\u2039), Ukraine, Afghanistan, Nahost. Der Biber, der dort baut, wo andere nicht hinkommen. Tierentsprechung: Biber.",
+    land:"Deutschland", tags:["Medien"], gender:"m"},
   { route:"beruehmte-lewis-capaldi", name:"Lewis Capaldi", added:"2026-11-06", subtyp:"SE4w3",
     heading:"Lewis Capaldi \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w3 \u00b7 geb. 1996 in Glasgow. Schottischer S\u00e4nger und Songwriter, \u00bbSomeone You Loved\u00ab, Brit Awards 2020, Tourette-Diagnose \u00f6ffentlich gemacht. Die Taube, die Schmerz ohne Pose singt und sich mit Humor sch\u00fctzt. Tierentsprechung: Taube.",
@@ -68581,7 +68586,7 @@ const ROUTES = {
       "beruehmte-soeren-kierkegaard": soerenKierkegaardPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-phil-collins": philCollinsPortraitPage,
-      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
+      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
       "beruehmte-harald-v": haraldVPortraitPage,
       "beruehmte-carl-xvi-gustaf": carlXVIGustafPortraitPage,
       "beruehmte-johannes-paul-ii": johannesPaulIIPortraitPage,

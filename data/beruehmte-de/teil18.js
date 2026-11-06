@@ -3253,3 +3253,72 @@ export function methodManPortraitPage() {
     </div>
   `);
 }
+
+export function paulRonzheimerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-paul-ronzheimer-portrait.jpg" alt="Paul Ronzheimer – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-paul-ronzheimer-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Paul Ronzheimer</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Journalist und Kriegsreporter, 1985 in Aurich geboren &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber aus Ostfriesland</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist die tierische Entsprechung der sozialen Sieben: ein Baumeister, der rastlos am Damm arbeitet, von dem die ganze Gemeinschaft profitiert. Paul Ronzheimer wurde am 26. Juli 1985 in Aurich geboren und wuchs in Ostfriesland auf. Nach dem Abitur am Gymnasium Ulricianum in Aurich volontierte er bei der <em>Emder Zeitung</em> und arbeitete dort ab 2005 als Redakteur, also im Lokalen, wo man jede Woche dieselben Leute wiedertrifft. 2008 wechselte er an die Axel Springer Akademie, von 2009 bis 2011 war er Parlamentskorrespondent der <em>Bild</em> in Berlin.</p>
+          <p class="vb-intro">Den Weg zum Kriegsreporter hat er nie geplant. Er sagt, es sei ›einfach passiert‹: Er wollte eine Revolution begleiten und stand plötzlich im Graben. Das erste Mal unter kriegsähnlichen Bedingungen war er in Ägypten, im Umfeld des Sturzes von Mohammed Mursi; 2013 folgte der Maidan in Kiew, 2014 die Krim und der Donbass. Seit 2012 war er Chefreporter für Politik bei <em>Bild</em> und berichtete unter anderem aus Griechenland, der Ukraine, Libyen, der Türkei, Syrien, Afghanistan, dem Irak und Bergkarabach.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: rastloses Bauen im Dienst der anderen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> ist der Kontratyp der Sieben: Sie wirkt ernster, verantwortungsvoller und pflichtbewusster, als man von einer Sieben erwartet, und stellt ihre Rastlosigkeit in den Dienst einer Gemeinschaft. Nach Naranjo findet sie Erfüllung im Dienst an anderen statt im eigenen Vergnügen. Bei Ronzheimer ist die Gemeinschaft das Publikum und das Team: Er geht dorthin, wo andere nicht hinkönnen, damit die Geschichten ankommen. Auf Vorwürfe, einzelne Berichte schadeten dem Ansehen der Ukraine in Deutschland, antwortete er sinngemäß: Wer anfange, seine Berichterstattung zu hinterfragen, habe ein Problem. Er trennt klar zwischen seiner Haltung, Russland sei der Aggressor, und der unabhängigen Berichterstattung.</p>
+          <p class="vb-intro">Die Sieben zeigt sich an Details. Als ihm 2014 im Donbass ein Kollege erzählte, der ukrainische Geheimdienst habe seinen Namen auf einer russischen Todesliste gefunden, soll seine Rückfrage gewesen sein: ›An welcher Stelle?‹ und dann, wer auf Platz eins stehe. Er beschreibt sich als ›totalen Optimisten‹ und sagt, das liege auch an den Menschen, die er trifft. Die Zuordnung ist eine Deutung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Team, Absicherung, Vorsicht in der Gefahr</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der Sieben Bindung, Loyalität und ein Gespür für Gefahr. Ronzheimer reist nicht allein: Zu seinem Team gehören Kameraleute wie Jorgos, der zwei Wochen vor dem Einmarsch Vater wurde, was nach einem Bericht von 2026 die Entscheidungen des Teams über Risiken veränderte. Im Juni 2022 geriet das Team in Lyssytschansk unter Beschuss, alle blieben unverletzt. Dazu gehört auch, dass er sich Rat bei Kolleginnen und Kollegen holt, die Ähnliches erlebt haben: Über seine Einsätze spricht er eher mit anderen Reportern als mit Freunden. Der Sechserflügel erklärt zugleich die Prüfung von Quellen: Als ihm die ukrainische Armee 2022 eine Geschichte über russische Soldaten anbot, die Gefangenen Zähne zogen, fand sein Team heraus, dass ein örtlicher Zahnarzt Goldzähne gezogen hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: nah dran, live und mit offenen Karten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Ronzheimer von vielen Reportern unterscheidet, ist die Nähe: Er berichtet aus der Mitte des Geschehens und zeigt es. 2015 begleitete er syrische Flüchtlinge auf ihrem Weg durch Europa und sendete Interviews live. Im Februar und März 2022 war er in Kiew, interviewte Präsident Selenskyj und die Brüder Klitschko, und er gehörte zu den ersten Reportern in Butscha; <em>Bild</em> zeigte viele Bilder unverpixelt. Im April 2024 führte er ein Exklusivinterview mit Selenskyj, im März 2024 sprach er mit Benjamin Netanjahu. 2021 saß er in Afghanistan einem Taliban-Richter gegenüber; er sagt, in solchen Momenten könne er ganz in die Reporterrolle gehen und das Erlebte entkoppeln.</p>
+          <p class="vb-intro">Er hat Formate geschaffen, die über die Zeitung hinausgehen: <em>Bild</em>-TV-Sendungen von August 2021 bis zur Einstellung des Senders im Dezember 2023, seit August 2023 den Podcast <em>Ronzheimer</em> und seit 2024 die Reportagereihe <em>Ronzheimer – wie geht’s, Deutschland?</em> auf Sat.1 und Joyn (zweite Staffel ab 24. Februar 2026), in der er nach Jahren im Ausland die Themen im eigenen Land aufsucht. Er kritisiert Creator, die für Klicks in Krisengebiete fahren, und beschreibt die ›Smartphonisierung der Kriegsgebiete‹, weil Soldaten selbst filmen. Freien Fotografen in Krisenregionen würden oft nur 200 bis 300 Euro pro Bild gezahlt, was er für viel zu wenig hält. Dazu gehören Auszeichnungen: Herbert-Quandt-Medienpreis (2011), Axel-Springer-Preis (2016), Journalist des Jahres 2022 des <em>medium magazins</em> (mit Katrin Eigendorf), Werner-Holzer-Preis (2024), Bambi in der Kategorie Podcast (2025) und der Preis der MVFP für Pressefreiheit (2025, mit Susanne Koelbl). 2018 erschien seine Biografie <em>Sebastian Kurz. Die Biografie</em>.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist der Mut, der zugleich Handwerk ist, und die Offenheit, mit der er darüber spricht, was der Beruf kostet: Albträume kämen häufiger, er wache teils schweißgebadet auf und träume, russische Soldaten stünden vor seiner Tür. Er habe ›vieles verdrängt‹, was nicht der beste Weg gewesen sei, sagt er, und wolle mit einer Psychologin arbeiten. Nach längeren Einsätzen spricht er bewusst wenig über das Erlebte; in der knappen Freizeit will er nicht über Weltpolitik reden. Das ist der Schatten der Sieben: nach vorn gehen und das Belastende verdrängen.</p>
+          <p class="vb-intro">Der Name seines Arbeitgebers polarisiert, und er benennt das selbst: In Deutschland rufe der Name <em>Bild</em> Reaktionen hervor, im Ausland spiele er kaum eine Rolle und öffne in Krisengebieten Türen. Es gab Kritik an einzelnen Auftritten, etwa 2021, als er live in <em>Bild</em> TV aus Textnachrichten von Politikern während der Koalitionsverhandlungen berichtete, was die CDU-Politikerin Karin Prien kritisierte. Dieses Porträt hält fest, was belegt ist, und urteilt nicht über seine Arbeit. Er ist offen schwul; im Juni 2019 fragte er den iranischen Außenminister Zarif bei einer Pressekonferenz, warum in Iran Homosexuelle hingerichtet würden. Über sein Coming-out in einem Dorf, ›in dem es keine Schwulen gab‹, hat er öffentlich gesprochen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als Berichterstatter, der Gerechtigkeit für andere sucht, steht ihm <a href="#beruehmte-philippe-sands">Philippe Sands (SO7w6)</a> nahe: ein Jurist, der sein Handwerk ständig für Gruppen einsetzt, die ohne ihn schwerer Gehör fänden, und der Verfahren, Bücher und Auftritte nebeneinander baut. <a href="#beruehmte-alexander-bommes">Alexander Bommes (SO7w6)</a> teilt als Journalist und Moderator die Vielseitigkeit auf festem Grund. Der Unterschied: Sands arbeitet mit Akten und Gerichtssälen, Bommes mit der Bühne, Ronzheimer mit der Frontlinie.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Vom Vize-Chefredakteur zum Creator</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Stand 6. November 2026: Ronzheimer hat nach Berichten von Fachmedien seine Funktion als stellvertretender Chefredakteur von <em>Bild</em> aufgegeben und ist der erste Journalist im neuen Programm ›Axel Springer Creators‹, das am 19. Oktober 2026 angekündigt wurde. Er soll seinen Podcast ausbauen und neue journalistische Formate entwickeln; seine Reportagen und Recherchen sollen weiter bei <em>Bild</em>, <em>Welt</em> und <em>Politico</em> erscheinen, und er bleibt Mitglied des Global Reporters Network. Eine Originalmitteilung des Konzerns habe ich nicht gefunden. Ende September 2024 hatten Behörden im Libanon ihn und sein Team einen Tag nach der Tötung von Hassan Nasrallah festgenommen: Sie wurden mit Handschellen gefesselt, die Augen verbunden und verhört, später am selben Tag kamen sie frei. <em>Bild</em> hielt den Vorfall geheim, bis er das Land verlassen hatte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
+        {route:"beruehmte-philippe-sands", label:"Porträt: Philippe Sands (SO7w6)"},
+        {route:"beruehmte-alexander-bommes", label:"Porträt: Alexander Bommes (SO7w6)"},
+      ])}
+    </div>
+  `);
+}

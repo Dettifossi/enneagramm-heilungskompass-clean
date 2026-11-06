@@ -3201,3 +3201,72 @@ export function hubertAiwangerPortraitPage() {
     </div>
   `);
 }
+
+export function paulRonzheimerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-paul-ronzheimer-portrait.jpg" alt="Paul Ronzheimer – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-paul-ronzheimer-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Paul Ronzheimer</p>
+        <p class="krim-portrait-typ">SP7w6 &middot; Social Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">German journalist and war reporter, born 1985 in Aurich &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Beaver from East Frisia</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>beaver</strong> is the animal correspondence of the social Seven: a builder who works restlessly on the dam from which the whole community benefits. Paul Ronzheimer was born on 26 July 1985 in Aurich and grew up in East Frisia. After his Abitur at the Gymnasium Ulricianum in Aurich he did a traineeship at the <em>Emder Zeitung</em> and worked there as an editor from 2005, that is in local reporting, where you meet the same people every week. In 2008 he joined the Axel Springer Academy, and from 2009 to 2011 he was parliamentary correspondent for <em>Bild</em> in Berlin.</p>
+          <p class="vb-intro">He never planned his way to war reporting. He says it &lsquo;simply happened&rsquo;: he wanted to cover a revolution and suddenly found himself in a trench. His first war-like conditions came in Egypt, around the fall of Mohammed Morsi; the Maidan in Kyiv followed in 2013, Crimea and the Donbas in 2014. From 2012 he was chief reporter for politics at <em>Bild</em> and reported, among other places, from Greece, Ukraine, Libya, Turkey, Syria, Afghanistan, Iraq and Nagorno-Karabakh.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Seven: restless building in the service of others</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Seven (SP7)</strong> is the counter-type of the Seven: she appears more serious, responsible and dutiful than one expects from a Seven, and puts her restlessness into the service of a community. According to Naranjo she finds fulfilment in serving others rather than in her own pleasure. With Ronzheimer the community is the audience and the team: he goes where others cannot go, so that the stories arrive. To complaints that individual reports harmed Ukraine&rsquo;s reputation in Germany he replied, in essence: the moment you start second-guessing your reporting, you have a problem. He clearly separates his stance that Russia is the aggressor from independent reporting.</p>
+          <p class="vb-intro">The Seven shows in details. When a colleague told him in 2014 in the Donbas that Ukraine&rsquo;s secret service had found his name on a Russian death list, his reply is said to have been: &lsquo;In what place?&rsquo; and then who was first. He describes himself as a &lsquo;totally optimistic person&rsquo; and says this is partly due to the people he meets. The classification is an interpretation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: team, backup, caution in danger</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Seven bonding, loyalty and a feel for danger. Ronzheimer does not travel alone: his team includes camera operators such as Jorgos, who became a father two weeks before the invasion, which, according to a 2026 report, changed the team&rsquo;s decisions about risk. In June 2022 the team came under fire in Lysychansk; everyone was unharmed. He also seeks advice from colleagues who have experienced similar things: he talks about his assignments more with other reporters than with friends. The Six-wing also explains the checking of sources: when the Ukrainian army offered him a story in 2022 about Russian soldiers pulling prisoners&rsquo; teeth, his team found that a local dentist had extracted gold teeth.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: close up, live and with open cards</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What sets Ronzheimer apart from many reporters is proximity: he reports from the middle of events and shows it. In 2015 he accompanied Syrian refugees on their way through Europe and broadcast interviews live. In February and March 2022 he was in Kyiv, interviewed President Zelensky and the Klitschko brothers, and was among the first reporters in Bucha; <em>Bild</em> showed many images unblurred. In April 2024 he conducted an exclusive interview with Zelensky, and in March 2024 he spoke with Benjamin Netanyahu. In 2021 he sat opposite a Taliban judge in Afghanistan; he says that in such moments he can go fully into the reporter role and detach from what he experiences.</p>
+          <p class="vb-intro">He has created formats that go beyond the newspaper: <em>Bild</em> TV programmes from August 2021 until the channel was discontinued in December 2023, since August 2023 the podcast <em>Ronzheimer</em>, and since 2024 the reportage series <em>Ronzheimer &ndash; wie geht&rsquo;s, Deutschland?</em> on Sat.1 and Joyn (second season from 24 February 2026), in which after years abroad he seeks out the issues in his own country. He criticises creators who go to crisis zones for clicks and describes the &lsquo;smartphonisation of war zones&rsquo; as soldiers film themselves. Freelance photographers in crisis regions, he says, are often paid only 200 to 300 euros per picture, far too little in his view. Recognition includes the Herbert Quandt Media Prize (2011), the Axel Springer Prize (2016), Journalist of the Year 2022 from <em>medium magazin</em> (with Katrin Eigendorf), the Werner Holzer Prize (2024), a Bambi in the podcast category (2025) and the MVFP Press Freedom Prize (2025, with Susanne Koelbl). In 2018 his biography <em>Sebastian Kurz. Die Biografie</em> appeared.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is a courage that is also craft, and the openness with which he speaks about what the job costs: nightmares come more often, he sometimes wakes up drenched in sweat and dreams that Russian soldiers are at his door. He says he &lsquo;suppressed a lot&rsquo;, which was not the best way, and wants to work with a psychologist. After longer assignments he deliberately says little about what he experienced; in his scarce free time he does not want to talk about world politics. This is the shadow of the Seven: going forward and suppressing what weighs.</p>
+          <p class="vb-intro">The name of his employer polarises, and he says so himself: in Germany the name <em>Bild</em> provokes reactions, abroad it hardly matters and opens doors in crisis areas. There was criticism of individual appearances, for example in 2021, when he reported live on <em>Bild</em> TV from politicians&rsquo; text messages during coalition negotiations, which the CDU politician Karin Prien criticised. This portrait records what is documented and does not judge his work. He is openly gay; in June 2019 he asked Iran&rsquo;s foreign minister Zarif at a press conference why homosexuals are executed in Iran. He has spoken publicly about his coming out in a village &lsquo;where there were no gays&rsquo;.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As a reporter who seeks justice for others, <a href="#beruehmte-philippe-sands">Philippe Sands (SP7w6)</a> is close to him: a lawyer who constantly uses his craft for groups that would struggle to be heard without him, and who builds cases, books and appearances side by side. <a href="#beruehmte-alexander-bommes">Alexander Bommes (SP7w6)</a> shares, as a journalist and presenter, versatility on firm ground. The difference: Sands works with files and courtrooms, Bommes with the stage, Ronzheimer with the front line.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. From deputy editor-in-chief to creator</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As of 6 November 2026: according to trade media reports, Ronzheimer has given up his role as deputy editor-in-chief of <em>Bild</em> and is the first journalist in the new &lsquo;Axel Springer Creators&rsquo; programme, announced on 19 October 2026. He is to expand his podcast and develop new journalistic formats; his reports and investigations are to continue to appear in <em>Bild</em>, <em>Welt</em> and <em>Politico</em>, and he remains a member of the Global Reporters Network. I found no original statement from the company. At the end of September 2024 authorities in Lebanon had detained him and his team the day after the killing of Hassan Nasrallah: they were handcuffed, blindfolded and interrogated, and released later the same day. <em>Bild</em> kept the incident secret until he had left the country.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so7", label:"SP7 – The Beaver: Subtype Profile"},
+        {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SP7 – Beaver"},
+        {route:"beruehmte-philippe-sands", label:"Portrait: Philippe Sands (SP7w6)"},
+        {route:"beruehmte-alexander-bommes", label:"Portrait: Alexander Bommes (SP7w6)"},
+      ])}
+    </div>
+  `);
+}
