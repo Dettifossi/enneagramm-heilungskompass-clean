@@ -147,9 +147,9 @@ async function tierCard(lang, card) {
   const img = await loadImg((card.querySelector("img") || {}).src);
   const { c, x, W, H } = frame(tx);
   x.fillStyle = MUTED; x.font = `italic 34px ${FONT}`; x.fillText(tx.mineTier, W / 2, 140);
-  const r = 210, cx = W / 2, cy = 400;
+  const r = 235, cx = W / 2, cy = 420;
   x.save(); x.beginPath(); x.arc(cx, cy, r, 0, Math.PI * 2); x.clip();
-  if (img) { const sc = Math.max(2 * r / img.naturalWidth, 2 * r / img.naturalHeight) * 1.05; x.drawImage(img, cx - img.naturalWidth * sc / 2, cy - img.naturalHeight * sc / 2, img.naturalWidth * sc, img.naturalHeight * sc); }
+  if (img) { x.drawImage(img, cx - r, cy - r, 2 * r, 2 * r); }
   else { x.fillStyle = LINE; x.fillRect(cx - r, cy - r, 2 * r, 2 * r); }
   x.restore(); x.strokeStyle = COPPER; x.lineWidth = 6; x.beginPath(); x.arc(cx, cy, r, 0, Math.PI * 2); x.stroke();
   let y = cy + r + 110;
@@ -169,15 +169,19 @@ async function subtypeTierCard(lang, hero, code) {
   const sentence = (e.kernthema || "").replace(/\s*\([^)]*\)\s*$/, "").replace(/\s+/g, " ").trim();
   const name = txt(hero.querySelector("h1"));
   const shown = lang === "en" ? code.toUpperCase().replace(/^SE/, "SP") : code.toUpperCase();
-  const img = await loadImg(new URL("../assets/" + code.toLowerCase() + "-tier.jpg", import.meta.url).href);
+  // Tierbild: bevorzugt der zugeschnittene Avatar (Gesicht mittig, wie in der App), sonst das Bild aus dem Repo, mittig hineingezoomt
+  const R2AV = "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-240/" + code.toLowerCase() + ".jpg";
+  const av = await loadImg(R2AV);
+  const loc = av ? null : await loadImg(new URL("../assets/" + code.toLowerCase() + "-tier.jpg", import.meta.url).href);
   const { c, x, W, H } = frame(tx);
   x.fillStyle = MUTED; x.font = `italic 34px ${FONT}`; x.fillText(tx.archetype, W / 2, 140);
-  const r = 210, cx = W / 2, cy = 400;
+  const r = 235, cx = W / 2, cy = 420;
   x.save(); x.beginPath(); x.arc(cx, cy, r, 0, Math.PI * 2); x.clip();
-  if (img) { const sc = Math.max(2 * r / img.naturalWidth, 2 * r / img.naturalHeight) * 1.12; x.drawImage(img, cx - img.naturalWidth * sc / 2, cy - img.naturalHeight * sc / 2, img.naturalWidth * sc, img.naturalHeight * sc); }
+  if (av) { x.drawImage(av, cx - r, cy - r, 2 * r, 2 * r); }
+  else if (loc) { const d = 2 * r * 1.4; x.drawImage(loc, cx - d / 2 + 0.01 * d, cy - d / 2, d, d); }
   else { x.fillStyle = LINE; x.fillRect(cx - r, cy - r, 2 * r, 2 * r); }
-  x.restore(); x.strokeStyle = COPPER; x.lineWidth = 6; x.beginPath(); x.arc(cx, cy, r, 0, Math.PI * 2); x.stroke();
-  let y = cy + r + 110;
+  x.restore(); x.strokeStyle = COPPER; x.lineWidth = 5; x.beginPath(); x.arc(cx, cy, r, 0, Math.PI * 2); x.stroke();
+  let y = cy + r + 105;
   x.fillStyle = INK; x.font = `bold 84px ${FONT}`; x.fillText(tier, W / 2, y); y += 62;
   x.fillStyle = COPPER; x.font = `bold 34px ${FONT}`; x.fillText(name + " (" + shown + ")", W / 2, y); y += 66;
   x.fillStyle = INK; wrapLines(x, sentence, `32px ${FONT}`, W - 170).slice(0, 5).forEach(l => { x.font = `32px ${FONT}`; x.fillText(l, W / 2, y); y += 46; });
