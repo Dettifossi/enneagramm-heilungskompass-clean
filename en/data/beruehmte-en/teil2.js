@@ -3379,7 +3379,7 @@ export function bruceDarnellPortraitPage() {
 
         <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">As an entertainer who seeks closeness to the audience, <a href="#beruehmte-sammy-davis-jr">Sammy Davis Jr. (SP2w3)</a> is close to him: a stage person who needs applause also as affection. <a href="#beruehmte-elvis-presley">Elvis Presley (SP2w3)</a> shows the same mix of devotion to the individual in the room and effect on the masses. The difference: Davis and Presley remained stage figures, while Darnell turns the stage into a storytelling hour for viewers whom he addresses directly.</p>
+          <p class="vb-intro">As an entertainer who seeks closeness to the audience, <a href="#beruehmte-sammy-davis-jr">Sammy Davis Jr. (SP2w3)</a> is close to him: a stage person who needed applause also as affection. <a href="#beruehmte-elvis-presley">Elvis Presley (SP2w3)</a> showed the same mix of devotion to the individual in the room and effect on the masses. The difference: Davis and Presley remained stage figures, while Darnell turns the stage into a storytelling hour for viewers whom he addresses directly.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Celebrity baking, Supertalent and the question of the next stage</h2>

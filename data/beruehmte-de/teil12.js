@@ -3350,7 +3350,7 @@ export function bruceDarnellPortraitPage() {
 
         <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Als Entertainer, der Nähe zum Publikum sucht, steht ihm <a href="#beruehmte-sammy-davis-jr">Sammy Davis Jr. (SX2w3)</a> nahe: ein Bühnenmensch, der den Applaus auch als Zuwendung braucht. <a href="#beruehmte-elvis-presley">Elvis Presley (SX2w3)</a> zeigt dieselbe Mischung aus Hingabe an den einzelnen Menschen im Raum und der Wirkung auf Massen. Der Unterschied: Davis und Presley blieben Bühnenfiguren, Darnell macht aus der Bühne eine Erzählstunde für Zuschauer, die er direkt anspricht.</p>
+          <p class="vb-intro">Als Entertainer, der Nähe zum Publikum sucht, steht ihm <a href="#beruehmte-sammy-davis-jr">Sammy Davis Jr. (SX2w3)</a> nahe: ein Bühnenmensch, der den Applaus auch als Zuwendung brauchte. <a href="#beruehmte-elvis-presley">Elvis Presley (SX2w3)</a> zeigte dieselbe Mischung aus Hingabe an den einzelnen Menschen im Raum und der Wirkung auf Massen. Der Unterschied: Davis und Presley blieben Bühnenfiguren, Darnell macht aus der Bühne eine Erzählstunde für Zuschauer, die er direkt anspricht.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Promibacken, Supertalent und die Frage nach der nächsten Bühne</h2>
