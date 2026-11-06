@@ -3342,3 +3342,70 @@ export function leaBoscoPortraitPage() {
     </div>
   `);
 }
+
+export function rolandTrettlPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-roland-trettl-portrait.jpg" alt="Roland Trettl – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-roland-trettl-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Roland Trettl</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Koch, Kochbuchautor und Fernsehmoderator, geboren 1971 in Bozen &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär aus Bozen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist die tierische Entsprechung der selbsterhaltenden Drei: findig, geschickt, ein Wesen, das mit den Händen arbeitet und aus Vorhandenem etwas Brauchbares macht. Roland Trettl wurde am 3. Juli 1971 in Bozen in Südtirol geboren. Sein Vater Christian Trettl war Präsident des Südtiroler Eissportverbands. Mit sechzehn, 1987, begann er seine Kochlehre im Parkhotel Holzner in Oberbozen am Ritten und ging danach ins Restaurant Amadé in Bozen.</p>
+          <p class="vb-intro">Der entscheidende Schritt kam danach: Er arbeitete bei Eckart Witzigmann in der Münchner Aubergine und im Tantris, damals eine der prägenden Adressen der deutschen Spitzenküche, kehrte noch einmal ins Amadé zurück und wurde von 1997 bis 2001 Küchenchef im Restaurant Ca&rsquo;s Puers auf Mallorca, das im Jahr 2000 einen Michelin-Stern erhielt. Es folgten ein halbes Jahr in Tokio und ab Mai 2003 zehn Jahre als Executive Chef des Restaurants Ikarus im Hangar-7 am Salzburger Flughafen, das 2004 einen Michelin-Stern bekam.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Können als Fundament</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei: Sie strebt nicht nach der großen Bühne, sondern danach, dass etwas verlässlich funktioniert. Naranjo nennt diese Spielart ›Sicherheit‹. Bei Trettl zeigt sich das an einer Laufbahn, die über Handwerk und Küchenhierarchie lief: Lehre, Stationen bei einem der bekanntesten deutschsprachigen Köche seiner Zeit, Küchenchef mit Anfang dreißig, Sternerestaurant. Erst danach kam das Fernsehen. Die Küche ist ein Ort, an dem Leistung unmittelbar prüfbar ist: Der Teller stimmt oder er stimmt nicht.</p>
+          <p class="vb-intro">Bemerkenswert ist, wie diese Drei zur Sichtbarkeit kam: nicht über Selbstdarstellung, sondern über Kompetenz, die sich im Fernsehen vorführen ließ. Seine Bücher folgen derselben Linie, vom Hangar-7-Kochbuch <em>Kulinarische Überflieger</em> (2007) über <em>Smart Food</em> (2010) bis <em>Nachschlag</em> (2019).</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Gastgeber statt Star</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> bringt Zugewandtheit und Gastgeberqualität. Das passt zu dem Mann, der seit 2018 bei <em>First Dates</em> (VOX) Paare am Restauranttisch zusammenbringt, also die Rolle des freundlichen, ein wenig ironischen Gastgebers hat, und der bei <em>The Taste</em> als Juror auftrat (Gastjuror 2013, 2015, 2021, 2023 und 2025; von 2016 bis 2018 als Nachfolger von Tim Mälzer). Bei <em>Kitchen Impossible</em> trat er ab 2016 gegen Mälzer an. Dass ein Spitzenkoch seine Autorität gegen Charme und Mitspielen eintauscht, ist ein Zug des Zweierflügels: Das Gegenüber soll sich wohlfühlen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Vom Küchenchef zum Gewürzunternehmer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Trettl auszeichnet, ist der Weg vom Koch zum Unternehmer und Vermittler. Seit 2018 ist er Miteigentümer der Gewürzmanufaktur Spiceworld in Salzburg, seit August 2021 wirbt er für die Getränkemarke Kloster Kitchen. Seine Bücher reichen von Fachkochbüchern über <em>Fashion Food</em> (2008) und <em>Kulinarische Festspiele</em> (2008, mit Gérard Depardieu) bis zu <em>Serviert</em> und <em>Das Erlebnis Käse</em> (beide 2015). 2025 tanzte er drei Folgen lang bei <em>Let&rsquo;s Dance</em> (RTL, 18. Staffel) und schied dann aus. Wer so breit arbeitet, folgt dem Muster der Drei, aus einem Können immer neue funktionierende Formen zu bauen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Verlässlichkeit eines Mannes, der Spitzenküche, Fernsehen und eigene Produkte unter einen Hut bringt. Der Schatten der Drei ist das Tempo. Trettl hat selbst erzählt, dass er um 2009 ein Burnout erlitt: rund hundert Arbeitsstunden pro Woche, kaum Schlaf, drei Schachteln Zigaretten am Tag. Nach seiner Schilderung in einem Interview (<em>Gala</em>, zitiert 2022) sei er ›wahnsinnig streng‹ mit sich gewesen, bis der Körper ›rebellierte‹. Das ist die klassische Verschiebung der Drei in die Überlastung: Wer über Leistung funktioniert, merkt die Grenze erst, wenn der Körper sie setzt.</p>
+          <p class="vb-intro">Der Zweierflügel zeigt sich auch hier: Seine damalige Frau war nach seinen Worten sein ›persönlicher Tacho‹, der ihm sagt, wenn er zu schnell fährt. Als Gegengewicht nennt er Gespräche und Yoga sowie seinen Sohn, der 2012 geboren wurde. Die Ehe, 2010 geschlossen, endete nach zwölf Jahren: Im Januar 2023 gab er die Trennung bekannt, im Januar 2025 machte er seine Beziehung zur Moderatorin Miriam Höller öffentlich. Für eine selbsterhaltende Drei mit Zweierflügel ist die Bindung an eine Person, die bremsen darf, ein typisches Element des Gleichgewichts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-tim-maelzer">Tim Mälzer (SE3w2)</a> ist der naheliegendste Vergleich, schon wegen <em>Kitchen Impossible</em>: Auch er ist Koch, Fernsehgesicht und Unternehmer und macht aus handwerklichem Können ein breites Angebot. Der Unterschied: Mälzer setzt auf das Laute und Derbe, Trettl auf Eleganz und feine Ironie. Beide zeigen aber den Kontratyp der Drei, bei dem das Können vor dem Glanz steht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Zwischen Salzburg, Fernsehstudio und Tanzparkett</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Stand 6. November 2026: Nach den vorliegenden Angaben lebt Trettl in Salzburg, ist weiterhin Gastgeber von <em>First Dates</em> und Miteigentümer der Gewürzmanufaktur Spiceworld. Für 2026 gemeldete Fernsehprojekte konnte ich nicht sicher bestätigen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se3", label:"Lebensmusterkompass: SE3 – Waschbär"},
+        {route:"beruehmte-tim-maelzer", label:"Porträt: Tim Mälzer (SE3w2)"},
+      ])}
+    </div>
+  `);
+}

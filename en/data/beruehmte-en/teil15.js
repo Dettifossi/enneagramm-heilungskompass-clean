@@ -3363,3 +3363,70 @@ export function leaBoscoPortraitPage() {
     </div>
   `);
 }
+
+export function rolandTrettlPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-roland-trettl-portrait.jpg" alt="Roland Trettl – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-roland-trettl-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Roland Trettl</p>
+        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Chef, cookbook author and television host, born 1971 in Bolzano &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon from Bolzano</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal correspondence of the self-preservation Three: resourceful, skilful, a creature that works with its hands and makes something useful from what is at hand. Roland Trettl was born on 3 July 1971 in Bolzano in South Tyrol. His father, Christian Trettl, was president of the South Tyrolean ice sports federation. At sixteen, in 1987, he began his cooking apprenticeship at the Parkhotel Holzner in Oberbozen on the Ritten and then moved to the restaurant Amadé in Bolzano.</p>
+          <p class="vb-intro">The decisive step came next: he worked for Eckart Witzigmann at the Aubergine and the Tantris in Munich, then among the formative addresses of German haute cuisine, returned once more to the Amadé and from 1997 to 2001 was head chef of the restaurant Ca&rsquo;s Puers on Mallorca, which received a Michelin star in 2000. Half a year in Tokyo followed, and from May 2003 ten years as executive chef of the restaurant Ikarus in Hangar-7 at Salzburg airport, which received a Michelin star in 2004.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Three: skill as foundation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> is the counter-type of the Three: it does not seek the big stage but wants something to work reliably. Naranjo calls this variant &lsquo;security&rsquo;. With Trettl this shows in a career that ran through craft and kitchen hierarchy: apprenticeship, stations with one of the best-known German-speaking chefs of his time, head chef in his early thirties, a starred restaurant. Only afterwards came television. The kitchen is a place where performance can be checked at once: the plate is right or it is not.</p>
+          <p class="vb-intro">Remarkable is how this Three arrived at visibility: not through self-presentation but through competence that could be shown on television. His books follow the same line, from the Hangar-7 cookbook <em>Kulinarische Überflieger</em> (&lsquo;Culinary High Flyers&rsquo;, 2007) via <em>Smart Food</em> (2010) to <em>Nachschlag</em> (&lsquo;Second Helping&rsquo;, 2019).</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: host instead of star</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> brings warmth and the quality of a host. That suits the man who since 2018 has brought couples together at a restaurant table on <em>First Dates</em> (VOX), in the role of the friendly, slightly ironic host, and who appeared as a judge on <em>The Taste</em> (guest judge in 2013, 2015, 2021, 2023 and 2025; from 2016 to 2018 as successor to Tim Mälzer). On <em>Kitchen Impossible</em> he faced Mälzer from 2016. That a top chef trades his authority for charm and playing along is a trait of the Two-wing: the other person should feel at ease.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: from head chef to spice entrepreneur</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What distinguishes Trettl is the path from cook to entrepreneur and mediator. Since 2018 he has been co-owner of the spice manufactory Spiceworld in Salzburg, and since August 2021 he has promoted the drinks brand Kloster Kitchen. His books range from professional cookbooks via <em>Fashion Food</em> (2008) and <em>Kulinarische Festspiele</em> (&lsquo;Culinary Festival&rsquo;, 2008, with Gérard Depardieu) to <em>Serviert</em> (&lsquo;Served&rsquo;) and <em>Das Erlebnis Käse</em> (&lsquo;The Cheese Experience&rsquo;, both 2015). In 2025 he danced for three episodes on <em>Let&rsquo;s Dance</em> (RTL, season 18) and was then eliminated. Anyone who works this broadly follows the pattern of the Three, building ever new working forms from one skill.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is the reliability of a man who combines haute cuisine, television and his own products. The shadow of the Three is tempo. Trettl has said himself that around 2009 he suffered a burnout: roughly a hundred working hours a week, hardly any sleep, three packs of cigarettes a day. By his account in an interview (<em>Gala</em>, quoted in 2022) he was &lsquo;insanely strict&rsquo; with himself until his body &lsquo;rebelled&rsquo;. This is the classic shift of the Three into overload: whoever functions through performance notices the limit only when the body sets it.</p>
+          <p class="vb-intro">The Two-wing shows here too: his then wife was, in his words, his &lsquo;personal speedometer&rsquo; who tells him when he is going too fast. As counterweights he names conversations and yoga as well as his son, born in 2012. The marriage, concluded in 2010, ended after twelve years: in January 2023 he announced the separation, and in January 2025 he made his relationship with the presenter Miriam Höller public. For a self-preservation Three with a Two-wing, the bond with a person who may brake him is a typical element of balance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-tim-maelzer">Tim Mälzer (SP3w2)</a> is the most obvious comparison, if only because of <em>Kitchen Impossible</em>: he too is a chef, television face and entrepreneur and turns craft skill into a broad offering. The difference: Mälzer goes for the loud and the earthy, Trettl for elegance and fine irony. Both show the counter-type of the Three, in which skill comes before glamour.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Between Salzburg, television studio and dance floor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As of 6 November 2026: according to the available information Trettl lives in Salzburg, remains host of <em>First Dates</em> and co-owner of the spice manufactory Spiceworld. I could not reliably confirm television projects reported for 2026.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SP3 – Raccoon"},
+        {route:"beruehmte-tim-maelzer", label:"Portrait: Tim Mälzer (SP3w2)"},
+      ])}
+    </div>
+  `);
+}
