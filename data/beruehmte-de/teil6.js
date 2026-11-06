@@ -3409,3 +3409,71 @@ export function rolandTrettlPortraitPage() {
     </div>
   `);
 }
+
+export function kidaKhodrRamadanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-kida-khodr-ramadan-portrait.jpg" alt="Kida Khodr Ramadan – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-kida-khodr-ramadan-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Kida Khodr Ramadan</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Vierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler und Regisseur, geboren 1976 in Beirut, aufgewachsen in Berlin &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär, der in Berlin sein Revier fand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist die tierische Entsprechung der selbsterhaltenden Drei: anpassungsfähig, findig, ein Tier, das auch in der Großstadt ein Revier für sich findet. Kida Khodr Ramadan wurde am 8. Oktober 1976 in Burj el Barajneh, einem Vorort von Beirut, geboren, als fünftes Kind einer Mhallami-Familie. Der Bürgerkrieg trieb die Familie in den Westen: Sie floh nach West-Berlin und lebte zuerst in einem Asylheim in Kreuzberg.</p>
+          <p class="vb-intro">Er besuchte die Hector-Peterson-Gesamtschule und verließ die Hauptschule ohne Abschluss. Statt Schule gab es die Hip-Hop- und Breakdance-Szene seines Viertels; er trat auf der Straße auf, auch vor Touristen auf dem Kurfürstendamm. 1996 heiratete er Meryem in der Türkei, das Paar hat sechs Kinder. Der Weg zur Schauspielerei begann 2003 zufällig: In einem Sommercamp für Berliner Jugendliche lernte er den Regisseur Neco Çelik kennen, der gerade den Film <em>Alltag</em> vorbereitete. Das war sein Filmdebüt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Sicherheit durch Leistung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei: Sie sucht Sicherheit und Versorgung, nicht Applaus, und beweist sich durch Verlässlichkeit. Bei Ramadan passt das zu einem Mann, der als Flüchtlingskind ohne Schulabschluss aufwuchs und sich über Arbeit ein Standbein baute: kleine Rollen, dann der Durchbruch 2006 in Detlev Bucks <em>Knallhart</em> als schweigsames Mitglied einer Jugendgang, später die Hauptrolle. Dazu die eigene Familie mit sechs Kindern und 2018 ein Friseursalon in der Berliner Wrangelstraße, der den Namen seiner berühmtesten Figur trägt: ›Toni Hamady‹.</p>
+          <p class="vb-intro">Als Darsteller wirkt er nach einer Kritik des <em>Tagesspiegel</em> vor allem durch Präsenz und Mimik, weniger durch Dialog. Das ist die Wirkung eines Menschen, der nicht erklärt, sondern da ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Vierflügel: Schwere, Tiefe, Eigenart</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Vierflügel (w4)</strong> bringt Tiefe, Schwermut und den Anspruch, etwas Eigenes zu zeigen. Er zeigt sich bei Ramadan in der Rollenwahl und in seiner Regiearbeit: Sein erster eigener Film als Regisseur, <em>In Berlin wächst kein Orangenbaum</em> (Premiere im Juli 2020 beim Filmfest München, Drehbuch gemeinsam mit Juri Sternburg), handelt von einem todkranken verurteilten Mörder, der nach seiner Begnadigung alte Schuld und eine Tochter aufarbeiten muss. Das ist kein Gangsterfilm, sondern ein Schuld- und Versöhnungsstoff. Dazu passt das Buch <em>Zusammen sind wir Könige</em> (2018), das er gemeinsam mit seinem Schauspielkollegen Frederick Lau schrieb.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: ›4 Blocks‹ und die Wucht einer Rolle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Von 2017 bis 2019 spielte Ramadan in <em>4 Blocks</em> (19 Folgen) den Clanchef Ali ›Toni‹ Hamady, einen Mann, der zwischen Familie, Loyalität und dem Wunsch nach einem bürgerlichen Leben steht. Die Rolle trug ihm den Preis der internationalen Presse beim Festival Séries Mania (April 2017, bester Hauptdarsteller), den Deutschen Fernsehpreis als bester Schauspieler (Januar 2018) und den Grimme-Preis (März 2018) ein. Die Substanz liegt in der Spannung: Ramadan spielt keine Karikatur, sondern einen Menschen, der Macht ausübt und daran zerbricht, und er bringt dafür etwas mit, das sich nicht lernen lässt, nämlich Erfahrung mit dem Milieu, aus dem die Figur stammt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Überlebensleistung eines Kindes aus dem Bürgerkrieg, das ohne Abschluss zu einem der bekanntesten Schauspieler des deutschen Fernsehens wurde. Der Schatten der selbsterhaltenden Drei ist der Druck, nie nachlassen zu dürfen, und die Neigung, Regeln für andere gelten zu lassen und sich selbst auszunehmen. Im Februar 2022 wurde Ramadan zu zehn Monaten Freiheitsstrafe auf Bewährung verurteilt, weil er wiederholt ohne Führerschein gefahren war, dazu zu einer Geldauflage von 20.000 Euro zugunsten zweier gemeinnütziger Organisationen. Als die Auflage nicht bezahlt wurde, widerrief das Amtsgericht Berlin-Tiergarten die Bewährung; im Juni 2023 wurde außerdem ein Insolvenzverfahren eröffnet. Von August 2024 bis zum 4. August 2025 verbüßte er die Strafe im offenen Vollzug.</p>
+          <p class="vb-intro">2024 berichtete die NDR-Dokumentation <em>Gegen das Schweigen</em> über Machtmissbrauch in der Branche; Kollegen schilderten darin Wutausbrüche am Set von <em>4 Blocks</em> und <em>Asbest</em>. Ramadan kündigte eine Therapie an und sagte, er schäme sich für sein Verhalten. Beides sind Berichte und Selbstaussagen, keine Urteile, und das Porträt bewertet sie nicht. Typologisch lässt sich festhalten: Wer nur über Leistung und Stärke Sicherheit findet, hat wenig Spielraum für Schwäche, und was nicht zugegeben werden darf, bricht sich Bahn. Im Interview mit der Deutschen Presse-Agentur (September 2025, Beirut) erzählte er, in der Haft sei er je nach Lage als Deutscher oder als Libanese gesehen worden, und fasste seine Identität in einem Satz zusammen: ›I am Kreuzberg Berlin Lebanese‹ – ich bin Kreuzberger, Berliner, Libanese.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-johnny-cash">Johnny Cash (SE3w4)</a> ist die naheliegende Parallele: Auch er kam aus einfachen Verhältnissen, hatte Abstürze und eine Schattenseite und sang trotzdem in Gefängnissen für die Häftlinge selbst, glaubhaft, weil er die Härte kannte. <a href="#beruehmte-russell-means">Russell Means (SE3w4)</a> war Aktivist und später Schauspieler, ebenfalls einer, der aus Außenseiterposition Gewicht gewann und sich mit der Autorität des Betroffenen äußerte. Beide sind verstorben; ihre Biografien zeigen, wie dieser Subtyp Härte und Verletzlichkeit verbindet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Zurück nach Beirut, vorerst ohne Gangsterrolle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Stand 6. November 2026: Zuletzt berichtete Ramadan im September 2025 von neuen internationalen Plänen, darunter einem Kinoprojekt im Libanon im Folgejahr, und davon, im Inland vorerst keinen Gangster mehr zu spielen; im Ausland würde er es wieder tun. Er lebt mit seiner Familie in Berlin. Neuere Angaben liegen nicht vor.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se3", label:"Lebensmusterkompass: SE3 – Waschbär"},
+        {route:"beruehmte-johnny-cash", label:"Porträt: Johnny Cash (SE3w4)"},
+        {route:"beruehmte-russell-means", label:"Porträt: Russell Means (SE3w4)"},
+      ])}
+    </div>
+  `);
+}

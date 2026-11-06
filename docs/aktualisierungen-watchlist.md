@@ -5,6 +5,7 @@ Zweck: Porträts lebender Personen enthalten manchmal einen »Stand«-Abschnitt,
 | Porträt | Was ist offen | Prüfen ab | Stand |
 |---|---|---|---|
 | Ilse Aigner (`beruehmte-ilse-aigner`) | Nominierung der Union als Bundespräsidentin; Verkündung für Mo 09.11.2026 erwartet; Wahl durch Bundesversammlung 30.01.2027 | 09.11.2026, danach 30.01.2027 | offen |
+| Kida Khodr Ramadan (`beruehmte-kida-khodr-ramadan`) | Kinoprojekt im Libanon (laut dpa-Interview 09/2025 für 2026 geplant), Rückkehr zu Rollen im Inland | Januar 2027 | offen |
 | Paul Ronzheimer (`beruehmte-paul-ronzheimer`) | Wechsel zu »Axel Springer Creators« (nach Fachmedien, 19.10.2026), keine Originalmitteilung gefunden | Dezember 2026 | offen |
 
 ## Sterbefälle

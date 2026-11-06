@@ -3430,3 +3430,71 @@ export function rolandTrettlPortraitPage() {
     </div>
   `);
 }
+
+export function kidaKhodrRamadanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-kida-khodr-ramadan-portrait.jpg" alt="Kida Khodr Ramadan – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-kida-khodr-ramadan-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Kida Khodr Ramadan</p>
+        <p class="krim-portrait-typ">SP3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Actor and director, born 1976 in Beirut, raised in Berlin &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon who found his territory in Berlin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal correspondence of the self-preservation Three: adaptable, resourceful, an animal that finds a territory of its own even in the big city. Kida Khodr Ramadan was born on 8 October 1976 in Burj el Barajneh, a suburb of Beirut, the fifth child of a Mhallami family. The civil war drove the family west: they fled to West Berlin and first lived in an asylum hostel in Kreuzberg.</p>
+          <p class="vb-intro">He attended the Hector-Peterson comprehensive school and left Hauptschule without a diploma. Instead of school there was the hip-hop and breakdance scene of his neighbourhood; he performed on the street, including for tourists on the Kurfürstendamm. In 1996 he married Meryem in Turkey; the couple has six children. The path to acting began by chance in 2003: at a summer camp for Berlin youth he met the director Neco Çelik, who was preparing the film <em>Alltag</em> (&lsquo;Everyday Life&rsquo;). It was his film debut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Three: security through performance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> is the counter-type of the Three: it seeks security and provision, not applause, and proves itself through reliability. With Ramadan this fits a man who grew up as a refugee child without a school diploma and built a footing through work: small roles, then the breakthrough in 2006 in Detlev Buck&rsquo;s <em>Knallhart</em> (&lsquo;Tough Enough&rsquo;) as a taciturn member of a youth gang, later the lead role. Add his own family with six children and, in 2018, a hair salon on Berlin&rsquo;s Wrangelstraße named after his most famous character: &lsquo;Toni Hamady&rsquo;.</p>
+          <p class="vb-intro">As a performer he works, according to a <em>Tagesspiegel</em> review, mainly through presence and facial expression rather than dialogue. That is the effect of someone who does not explain but is simply there.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: weight, depth, individuality</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> brings depth, melancholy and the wish to show something of one&rsquo;s own. With Ramadan it shows in his choice of roles and in his directing: his first own film as director, <em>In Berlin wächst kein Orangenbaum</em> (&lsquo;No Orange Tree Grows in Berlin&rsquo;; premiere in July 2020 at the Munich film festival, screenplay with Juri Sternburg), is about a terminally ill convicted murderer who, after being pardoned, has to confront old guilt and a daughter. It is not a gangster film but a story of guilt and reconciliation. The book <em>Zusammen sind wir Könige</em> (&lsquo;Together We Are Kings&rsquo;, 2018), which he wrote with his colleague Frederick Lau, fits the same picture.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: &lsquo;4 Blocks&rsquo; and the force of a role</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From 2017 to 2019 Ramadan played the clan boss Ali &lsquo;Toni&rsquo; Hamady in <em>4 Blocks</em> (19 episodes), a man caught between family, loyalty and the wish for a bourgeois life. The role earned him the international press prize at the Séries Mania festival (April 2017, best lead actor), the German Television Award for best actor (January 2018) and the Grimme Prize (March 2018). The substance lies in the tension: Ramadan does not play a caricature but a man who wields power and breaks under it, and he brings something that cannot be learned, namely experience of the milieu the character comes from.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is the survival achievement of a child from the civil war who, without a diploma, became one of the best-known actors of German television. The shadow of the self-preservation Three is the pressure never to let up, and the tendency to let rules apply to others and to exempt oneself. In February 2022 Ramadan was sentenced to ten months&rsquo; imprisonment, suspended, for repeatedly driving without a licence, together with a 20,000-euro payment to two charities. When the payment was not made, the Amtsgericht Berlin-Tiergarten revoked the suspension; in June 2023 insolvency proceedings were also opened. From August 2024 until 4 August 2025 he served the sentence in open custody.</p>
+          <p class="vb-intro">In 2024 the NDR documentary <em>Gegen das Schweigen</em> (&lsquo;Against the Silence&rsquo;) reported on abuse of power in the industry; colleagues described outbursts on the sets of <em>4 Blocks</em> and <em>Asbest</em>. Ramadan announced therapy and said he was ashamed of his behaviour. Both are reports and self-statements, not verdicts, and this portrait does not judge them. Typologically one can say: whoever finds security only through performance and strength has little room for weakness, and what may not be admitted breaks out. In an interview with the German Press Agency (September 2025, Beirut) he said that in custody he was seen as German or as Lebanese depending on the situation, and summed up his identity in one sentence: &lsquo;I am Kreuzberg Berlin Lebanese&rsquo;.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-johnny-cash">Johnny Cash (SP3w4)</a> is the obvious parallel: he too came from simple circumstances, had falls and a shadow side, and still sang in prisons for the inmates themselves, credible because he knew the hardness. <a href="#beruehmte-russell-means">Russell Means (SP3w4)</a> was an activist and later an actor, also someone who gained weight from an outsider position and spoke with the authority of the affected. Both have died; their biographies show how this subtype combines hardness and vulnerability.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Back to Beirut, for now without a gangster role</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As of 6 November 2026: Ramadan last reported in September 2025 on new international plans, including a cinema project in Lebanon the following year, and said he would for the time being not play a gangster at home; abroad he would do it again. He lives with his family in Berlin. No newer information is available.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SP3 – Raccoon"},
+        {route:"beruehmte-johnny-cash", label:"Portrait: Johnny Cash (SP3w4)"},
+        {route:"beruehmte-russell-means", label:"Portrait: Russell Means (SP3w4)"},
+      ])}
+    </div>
+  `);
+}

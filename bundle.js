@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=486";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=487";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -552,6 +552,7 @@ const tELawrencePortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", 
 const lisaKauffPortraitPage = () => _lazyPage("./data/beruehmte-de/teil15.js", "lisaKauffPortraitPage");
 const mariaHasbolatPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "mariaHasbolatPortraitPage");
 const leonieBeneschPortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "leonieBeneschPortraitPage");
+const kidaKhodrRamadanPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "kidaKhodrRamadanPortraitPage");
 const rolandTrettlPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "rolandTrettlPortraitPage");
 const leaBoscoPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "leaBoscoPortraitPage");
 const bruceDarnellPortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "bruceDarnellPortraitPage");
@@ -27690,6 +27691,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonie Benesch \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w3 \u00b7 geb. 1991 in Hamburg. Schauspielerin, \u00bbDas Lehrerzimmer\u00ab, \u00bbHeldin\u00ab, \u00bbBabylon Berlin\u00ab. Die Taube, die Druck ohne gro\u00dfe Gesten sichtbar macht. Tierentsprechung: Taube.",
     land:"Deutschland", tags:["Schauspiel"], gender:"f"},
+  { route:"beruehmte-kida-khodr-ramadan", name:"Kida Khodr Ramadan", added:"2026-11-06", subtyp:"SE3w4",
+    heading:"Kida Khodr Ramadan \u2013 Selbsterhaltender Typ 3",
+    teaser:"SE3w4 \u00b7 geb. 1976 in Beirut. Schauspieler und Regisseur (\u203a4 Blocks\u2039, \u203aIn Berlin w\u00e4chst kein Orangenbaum\u2039). Der Waschb\u00e4r, der in Berlin sein Revier fand. Tierentsprechung: Waschb\u00e4r.",
+    land:"Deutschland", tags:["Schauspiel"], gender:"m"},
   { route:"beruehmte-roland-trettl", name:"Roland Trettl", added:"2026-11-06", subtyp:"SE3w2",
     heading:"Roland Trettl \u2013 Selbsterhaltender Typ 3",
     teaser:"SE3w2 \u00b7 geb. 1971 in Bozen. Koch, Kochbuchautor und Fernsehmoderator (\u203aFirst Dates\u2039, \u203aKitchen Impossible\u2039). Der Waschb\u00e4r, der aus K\u00f6nnen ein breites Angebot baut. Tierentsprechung: Waschb\u00e4r.",
@@ -68611,7 +68616,7 @@ const ROUTES = {
       "beruehmte-soeren-kierkegaard": soerenKierkegaardPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-phil-collins": philCollinsPortraitPage,
-      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-lea-bosco": leaBoscoPortraitPage, "beruehmte-roland-trettl": rolandTrettlPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
+      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-lea-bosco": leaBoscoPortraitPage, "beruehmte-roland-trettl": rolandTrettlPortraitPage, "beruehmte-kida-khodr-ramadan": kidaKhodrRamadanPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
       "beruehmte-harald-v": haraldVPortraitPage,
       "beruehmte-carl-xvi-gustaf": carlXVIGustafPortraitPage,
       "beruehmte-johannes-paul-ii": johannesPaulIIPortraitPage,
