@@ -3275,3 +3275,69 @@ export function mariaHasbolatPortraitPage() {
     </div>
   `);
 }
+
+export function leaBoscoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-lea-bosco-portrait.jpg" alt="Léa Bosco – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-lea-bosco-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Léa Bosco</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Französische Schauspielerin, Regisseurin und Autorin, Jahrgang 1978 &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf, der früh auf die Bühne trat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist die tierische Entsprechung der sexuellen Sechs: ein Wesen, das Angst nicht meidet, sondern ihr entgegengeht. Léa Bosco ist eine französische Schauspielerin, nach einem Schauspielerverzeichnis Jahrgang 1978. Sie spielt seit fast dreißig Jahren. Ihr Weg begann am Theater: Robert Hossein, der französische Regisseur großer Volksspektakel, entdeckte sie. Sie stand 1995 in seiner Inszenierung <em>Angélique Marquise des Anges</em> (›Angélique, Marquise der Engel‹) auf der Bühne und 2000 in <em>Jésus, la résurrection</em> (›Jesus, die Auferstehung‹).</p>
+          <p class="vb-intro">Mit neunzehn bekam sie ihre erste Fernseh-Hauptrolle, in der Saga <em>La Bastide Blanche</em> (Regie Miguel Courtois). Danach ging es in europäische Koproduktionen: <em>Tristan et Iseult</em> (auf Englisch gedreht), <em>Michel Strogoff</em>, <em>Anna Karenina</em> und <em>Die Schöne und das Biest</em>, im Kino <em>Buddenbrooks</em> von Heinrich Breloer und <em>99 Euros</em>, der 2003 im Wettbewerb von Locarno lief.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Angst als Spielfeld</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist der Kontratyp der Sechs: Sie wirkt nicht ängstlich, sondern stark, direkt, manchmal herausfordernd, und geht auf das zu, was Angst macht. Bei Naranjo heißt dieser Subtyp ›Stärke und Schönheit‹. Bei Bosco zeigt sich das an ihrer Laufbahn: Sie wechselt immer wieder in Felder, in denen man sich ausliefert, vom Theater unter einem berühmten Regisseur über englischsprachige Koproduktionen bis zur Regie. Ihre eigene Seite nennt die Regie ein ›neues Spielfeld‹ mit ›nouveaux défis‹ (›neuen Herausforderungen‹) und die Rollen ›autant de cadeaux‹ (›so viele Geschenke‹). Die Zuordnung ist eine Deutung, keine Diagnose.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Vielseitigkeit mit Augenzwinkern</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> bringt Spielfreude, Vielfalt und Humor. Bosco nennt sich selbst auf ihrer Seite <em>comédienne, autrice, menteuse en scène</em>: Schauspielerin, Autorin, ›Lügnerin auf der Bühne‹, ein Wortspiel, das das französische ›metteuse en scène‹ (Regisseurin) verdreht. Sie spielt in Fernsehserien wie <em>Commissaire Magellan</em>, <em>Section de recherches</em>, <em>Infidèle</em> und <em>La Faute à Rousseau</em>, inszeniert Musicals (<em>This is us</em>, 2023, und <em>La Music&rsquo;all</em>) und Boulevardtheater (<em>1, 2, 3 Sardines</em>, 2024; <em>Huit femmes</em> von Robert Thomas). Vielseitigkeit ist hier kein Ausweichen, sondern ihr Stil.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: vom Spielen zum Erzählen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Bosco auszeichnet, ist der Schritt von der Darstellerin zur Urheberin. Ihren ersten Kurzfilm, <em>Conversation avec sa maîtresse</em> (›Gespräch mit seiner Geliebten‹), schrieb sie gemeinsam mit Sylvie Audcoeur und inszenierte ihn selbst; er gewann den Drehbuchpreis beim Festival in Valenciennes und den Publikumspreis beim Festival in Albi. Nach ihrer Seite leitet sie seit einigen Jahren Schauspiel- und Theaterworkshops und trainiert Menschen im freien Sprechen. Wer als Schauspielerin gelernt hat, mit Lampenfieber zu leben, kann anderen zeigen, wie man vor Publikum steht: Das ist ein Gedanke, der zu einer sexuellen Sechs passt, die ihre Angst nicht abschafft, sondern bespielbar macht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Beweglichkeit einer Frau, die nach Jahrzehnten im Geschäft immer neue Rollen für sich findet: Darstellerin, Regisseurin, Autorin, Lehrerin. Der Schatten der sexuellen Sechs ist der Zwang, sich zu beweisen: Wer Angst bekämpft, kann sich schwer erlauben, sie zu zeigen. Ein Blick auf ihre eigene Darstellung zeigt dagegen eher Gelassenheit und Humor. Dieses Porträt stützt sich auf ihre eigenen Seiten und auf Datenbanken, öffentliche Interviews habe ich nicht gefunden, und Privates lasse ich bewusst weg.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-tom-hardy">Tom Hardy (SX6w7)</a> ist ein weiterer Schauspieler dieses Subtyps und zeigt, wie sich Verwandlungslust mit einer Offenheit für Risiko verbindet. <a href="#beruehmte-steve-mcqueen">Steve McQueen (SX6w7)</a> war Schauspieler und Rennfahrer, jemand, der der Gefahr nicht auswich. Der Unterschied: Hardy und McQueen stehen vor allem vor der Kamera, Bosco geht den Weg in die Regie und in die Vermittlung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Zwischen Bühne, Regie und Workshop</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Stand 6. November 2026: Nach den Angaben auf ihrer Seite arbeitet Bosco weiter als Schauspielerin, Regisseurin und Workshopleiterin. Ihre jüngsten Inszenierungen sind <em>This is us</em> (2023) und <em>1, 2, 3 Sardines</em> (2024); in Serien ist sie zuletzt unter anderem in <em>La Faute à Rousseau</em> (2022) verzeichnet. Aktuelle neue Projekte für 2026 habe ich nicht gefunden.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx6", label:"Lebensmusterkompass: SX6 – Wolf"},
+        {route:"beruehmte-tom-hardy", label:"Porträt: Tom Hardy (SX6w7)"},
+        {route:"beruehmte-steve-mcqueen", label:"Porträt: Steve McQueen (SX6w7)"},
+      ])}
+    </div>
+  `);
+}

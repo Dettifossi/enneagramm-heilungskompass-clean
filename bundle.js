@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=484";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=485";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -552,6 +552,7 @@ const tELawrencePortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", 
 const lisaKauffPortraitPage = () => _lazyPage("./data/beruehmte-de/teil15.js", "lisaKauffPortraitPage");
 const mariaHasbolatPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "mariaHasbolatPortraitPage");
 const leonieBeneschPortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "leonieBeneschPortraitPage");
+const leaBoscoPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "leaBoscoPortraitPage");
 const bruceDarnellPortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "bruceDarnellPortraitPage");
 const ilseAignerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "ilseAignerPortraitPage");
 const grandmaMosesPortraitPage = () => _lazyPage("./data/beruehmte-de/teil3.js", "grandmaMosesPortraitPage");
@@ -27688,6 +27689,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonie Benesch \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w3 \u00b7 geb. 1991 in Hamburg. Schauspielerin, \u00bbDas Lehrerzimmer\u00ab, \u00bbHeldin\u00ab, \u00bbBabylon Berlin\u00ab. Die Taube, die Druck ohne gro\u00dfe Gesten sichtbar macht. Tierentsprechung: Taube.",
     land:"Deutschland", tags:["Schauspiel"], gender:"f"},
+  { route:"beruehmte-lea-bosco", name:"L\u00e9a Bosco", added:"2026-11-06", subtyp:"SX6w7",
+    heading:"L\u00e9a Bosco \u2013 Sexueller Typ 6",
+    teaser:"SX6w7 \u00b7 Jahrgang 1978. Franz\u00f6sische Schauspielerin, Regisseurin und Autorin (\u203aBuddenbrooks\u2039, \u203aLa Bastide Blanche\u2039). Der Wolf, der Angst zum Spielfeld macht. Tierentsprechung: Wolf.",
+    land:"Frankreich", tags:["Schauspiel"], gender:"f"},
   { route:"beruehmte-bruce-darnell", name:"Bruce Darnell", added:"2026-11-06", subtyp:"SX2w3",
     heading:"Bruce Darnell \u2013 Sexueller Typ 2",
     teaser:"SX2w3 \u00b7 geb. 1957 in Colorado. Fernsehjuror, Model-Coach und Choreograf (\u203aGermany\u2019s Next Topmodel\u2039, \u203aDas Supertalent\u2039). Das Kamel, das ein ganzes Studio in eine pers\u00f6nliche Begegnung verwandelt. Tierentsprechung: Kamel.",
@@ -68601,7 +68606,7 @@ const ROUTES = {
       "beruehmte-soeren-kierkegaard": soerenKierkegaardPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-phil-collins": philCollinsPortraitPage,
-      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
+      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-lea-bosco": leaBoscoPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
       "beruehmte-harald-v": haraldVPortraitPage,
       "beruehmte-carl-xvi-gustaf": carlXVIGustafPortraitPage,
       "beruehmte-johannes-paul-ii": johannesPaulIIPortraitPage,

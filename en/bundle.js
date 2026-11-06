@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=481";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=482";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -562,6 +562,7 @@ const tELawrencePortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", 
 const lisaKauffPortraitPage = () => _lazyPage("./data/beruehmte-en/teil17.js", "lisaKauffPortraitPage");
 const mariaHasbolatPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "mariaHasbolatPortraitPage");
 const leonieBeneschPortraitPage = () => _lazyPage("./data/beruehmte-en/teil2.js", "leonieBeneschPortraitPage");
+const leaBoscoPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "leaBoscoPortraitPage");
 const bruceDarnellPortraitPage = () => _lazyPage("./data/beruehmte-en/teil2.js", "bruceDarnellPortraitPage");
 const ilseAignerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil14.js", "ilseAignerPortraitPage");
 const grandmaMosesPortraitPage = () => _lazyPage("./data/beruehmte-en/teil18.js", "grandmaMosesPortraitPage");
@@ -1914,6 +1915,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonie Benesch \u2013 Self-Preservation Type 4",
     teaser:"SP4w3 \u00b7 b. 1991 in Hamburg. Actress, \u2018The Teachers\u2019 Lounge\u2019, \u2018Late Shift\u2019, \u2018Babylon Berlin\u2019. The dove who makes pressure visible without big gestures. Animal correspondence: Dove.",
     land:"Germany", tags:["Acting"], gender:"f"},
+{ route:"beruehmte-lea-bosco", name:"L\u00e9a Bosco", added:"2026-11-06", subtyp:"SX6w7",
+    heading:"L\u00e9a Bosco \u2013 Sexual Type 6",
+    teaser:"SP6w7 \u00b7 b. 1978. French actress, director and author (\u2018Buddenbrooks\u2019, \u2018La Bastide Blanche\u2019). The wolf who turns fear into a playing field. Animal correspondence: Wolf.",
+    land:"France", tags:["Acting"], gender:"f"},
 { route:"beruehmte-bruce-darnell", name:"Bruce Darnell", added:"2026-11-06", subtyp:"SX2w3",
     heading:"Bruce Darnell \u2013 Sexual Type 2",
     teaser:"SP2w3 \u00b7 b. 1957 in Colorado. TV judge, model coach and choreographer (\u2018Germany\u2019s Next Topmodel\u2019, \u2018Das Supertalent\u2019). The camel who turns a whole studio into a personal encounter. Animal correspondence: Camel.",
@@ -48476,7 +48481,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-pamela-reif": pamelaReifPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-phil-collins": philCollinsPortraitPage,
-      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
+      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-lea-bosco": leaBoscoPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
       "beruehmte-harald-v": haraldVPortraitPage,
       "beruehmte-carl-xvi-gustaf": carlXVIGustafPortraitPage,
       "beruehmte-johannes-paul-ii": johannesPaulIIPortraitPage,
