@@ -70080,7 +70080,7 @@ new MutationObserver(() => _suchX(document)).observe(document.body, { childList:
 let _pdfMod = null;
 function _pdfMount() {
   if (!document.querySelector('.krim-portrait-wrap:not([data-pdf])')) return;
-  (_pdfMod || (_pdfMod = import("./data/pdf-share.js?v=11"))).then(m => m.mountPdfButton("de")).catch(() => {});
+  (_pdfMod || (_pdfMod = import("./data/pdf-share.js?v=12"))).then(m => m.mountPdfButton("de")).catch(() => {});
 }
 let _sbMod = null;
 function _sbMount() {

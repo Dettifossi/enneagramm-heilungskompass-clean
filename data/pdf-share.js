@@ -140,6 +140,7 @@ class Doc {
     c.width = Math.round(PAGE_W * S); c.height = Math.round(PAGE_H * S);
     const x = c.getContext("2d");
     x.scale(S, S); x.fillStyle = "#ffffff"; x.fillRect(0, 0, PAGE_W, PAGE_H);
+    x.strokeStyle = "#cdb8a2"; x.lineWidth = 0.8; x.strokeRect(22, 22, PAGE_W - 44, PAGE_H - 44);   // zarter Rahmen
     this.ctx = x; this.cv = c; this.pages.push({ cv: c, links: [] });
     this.y = MARGIN; this.pageIndex = this.pages.length - 1;
     this.header();
@@ -159,7 +160,7 @@ class Doc {
     this.pages.forEach((p, i) => {
       const x = p.cv.getContext("2d");
       x.fillStyle = MUTED; x.font = `9px ${FONT}`; x.textAlign = "center"; x.textBaseline = "alphabetic";
-      x.fillText(`${this.tx.page} ${i + 1} / ${this.pages.length}`, PAGE_W / 2, PAGE_H - 28);
+      x.fillText(`${this.tx.page} ${i + 1} / ${this.pages.length}`, PAGE_W / 2, PAGE_H - 34);
     });
   }
   font(b, i, size) { return `${i ? "italic " : ""}${b ? "bold " : ""}${size}px ${FONT}`; }
@@ -243,12 +244,12 @@ async function build(lang, route) {
   doc.paragraph([{ t: data.sub }], 11.5, 16, MUTED, { x: tX, width: tW, italic: true });
   doc.y = Math.max(doc.y, heroTop + imgSz) + 14;
 
-  if (data.intro) { doc.paragraph(data.intro, 13, 22, INK); doc.y += 9; }
+  if (data.intro) { doc.paragraph(data.intro, 12, 18.5, INK); doc.y += 7; }
   pickSections(data.sections).forEach(sec => {
-    doc.need(70);
-    doc.y += 12;
-    if (sec.title) { doc.paragraph([{ t: sec.title }], 16, 22, COPPER, { bold: true }); doc.y += 4; }
-    sec.paras.forEach(p => { doc.paragraph(p, 13, 22, INK); doc.y += 9; });
+    doc.need(60);
+    doc.y += 10;
+    if (sec.title) { doc.paragraph([{ t: sec.title }], 15, 20, COPPER, { bold: true }); doc.y += 3; }
+    sec.paras.forEach(p => { doc.paragraph(p, 12, 18.5, INK); doc.y += 7; });
   });
 
   // Hinweiskasten
