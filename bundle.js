@@ -70088,5 +70088,10 @@ function _sbMount() {
   if (!e || !/^(Schaubild|Chart|Diagram)/i.test(e.textContent.trim())) return;
   (_sbMod || (_sbMod = import("./data/schaubild-share.js?v=7"))).then(m => m.mountSchaubildButtons("de")).catch(() => {});
 }
-new MutationObserver(() => { _pdfMount(); _sbMount(); }).observe(document.body, { childList: true, subtree: true });
-_pdfMount(); _sbMount();
+let _rsMod = null;
+function _rsMount() {
+  if (!document.querySelector(".typentest-card--result:not([data-share])")) return;
+  (_rsMod || (_rsMod = import("./data/result-share.js?v=1"))).then(m => m.mountResultShare("de")).catch(() => {});
+}
+new MutationObserver(() => { _pdfMount(); _sbMount(); _rsMount(); }).observe(document.body, { childList: true, subtree: true });
+_pdfMount(); _sbMount(); _rsMount();
