@@ -138,20 +138,28 @@ function footer(x, W, H, tx, line1) {
   x.fillStyle = COPPER; x.font = `bold 30px ${FONT}`; x.fillText(tx.base.replace("https://", ""), W / 2, H - 24);
 }
 
+// Tierbild aus dem Repo (gleiche Herkunft wie die Seite, keine CORS-Probleme). Alle Bilder haben dieselbe Schablone:
+// Kreis mit farbigem Rand, Mittelpunkt (135,5 | 158,5), Radius ca. 134 in einem 310-px-Quadrat.
+function localTierUrl(code) { return new URL("../assets/" + String(code).toLowerCase().replace(/^sp/, "se") + "-tier.jpg", import.meta.url).href; }
+function drawTierCircle(x, img, cx, cy, r) {
+  x.save(); x.beginPath(); x.arc(cx, cy, r, 0, Math.PI * 2); x.clip();
+  if (img) { const s = r / 133.5; x.drawImage(img, cx - 135.5 * s, cy - 158.5 * s, img.naturalWidth * s, img.naturalHeight * s); }
+  else { x.fillStyle = LINE; x.fillRect(cx - r, cy - r, 2 * r, 2 * r); }
+  x.restore();
+}
+
 // Tierquiz: Tierbild, Tiername, Subtyp, Kurzbeschreibung
 async function tierCard(lang, card) {
   const tx = T[lang];
   const name = txt(card.querySelector("h1, h2"));
   const line = txt([...card.querySelectorAll("p")].find(p => /\(S[EPOX]\d\)/.test(p.textContent)));
   const body = txt([...card.querySelectorAll("p")].find(p => /text-align:\s*left/.test(p.getAttribute("style") || "") && p.textContent.length > 60));
-  const img = await loadImg((card.querySelector("img") || {}).src);
+  const codeM = line.match(/\((S[EPOX]\d)\)/i);
+  const img = (codeM && await loadImg(localTierUrl(codeM[1]))) || await loadImg((card.querySelector("img") || {}).src);
   const { c, x, W, H } = frame(tx);
   x.fillStyle = MUTED; x.font = `italic 34px ${FONT}`; x.fillText(tx.mineTier, W / 2, 140);
   const r = 235, cx = W / 2, cy = 420;
-  x.save(); x.beginPath(); x.arc(cx, cy, r, 0, Math.PI * 2); x.clip();
-  if (img) { x.drawImage(img, cx - r, cy - r, 2 * r, 2 * r); }
-  else { x.fillStyle = LINE; x.fillRect(cx - r, cy - r, 2 * r, 2 * r); }
-  x.restore(); x.strokeStyle = COPPER; x.lineWidth = 6; x.beginPath(); x.arc(cx, cy, r, 0, Math.PI * 2); x.stroke();
+  drawTierCircle(x, img, cx, cy, r);
   let y = cy + r + 110;
   x.fillStyle = INK; x.font = `bold 84px ${FONT}`; x.fillText(name, W / 2, y); y += 62;
   x.fillStyle = COPPER; x.font = `bold 34px ${FONT}`; x.fillText(line, W / 2, y); y += 66;
@@ -169,18 +177,11 @@ async function subtypeTierCard(lang, hero, code) {
   const sentence = (e.kernthema || "").replace(/\s*\([^)]*\)\s*$/, "").replace(/\s+/g, " ").trim();
   const name = txt(hero.querySelector("h1"));
   const shown = lang === "en" ? code.toUpperCase().replace(/^SE/, "SP") : code.toUpperCase();
-  // Tierbild: bevorzugt der zugeschnittene Avatar (Gesicht mittig, wie in der App), sonst das Bild aus dem Repo, mittig hineingezoomt
-  const R2AV = "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-240/" + code.toLowerCase() + ".jpg";
-  const av = await loadImg(R2AV);
-  const loc = av ? null : await loadImg(new URL("../assets/" + code.toLowerCase() + "-tier.jpg", import.meta.url).href);
+  const img = await loadImg(localTierUrl(code));
   const { c, x, W, H } = frame(tx);
   x.fillStyle = MUTED; x.font = `italic 34px ${FONT}`; x.fillText(tx.archetype, W / 2, 140);
   const r = 235, cx = W / 2, cy = 420;
-  x.save(); x.beginPath(); x.arc(cx, cy, r, 0, Math.PI * 2); x.clip();
-  if (av) { x.drawImage(av, cx - r, cy - r, 2 * r, 2 * r); }
-  else if (loc) { const d = 2 * r * 1.4; x.drawImage(loc, cx - d / 2 + 0.01 * d, cy - d / 2, d, d); }
-  else { x.fillStyle = LINE; x.fillRect(cx - r, cy - r, 2 * r, 2 * r); }
-  x.restore(); x.strokeStyle = COPPER; x.lineWidth = 5; x.beginPath(); x.arc(cx, cy, r, 0, Math.PI * 2); x.stroke();
+  drawTierCircle(x, img, cx, cy, r);
   let y = cy + r + 105;
   x.fillStyle = INK; x.font = `bold 84px ${FONT}`; x.fillText(tier, W / 2, y); y += 62;
   x.fillStyle = COPPER; x.font = `bold 34px ${FONT}`; x.fillText(name + " (" + shown + ")", W / 2, y); y += 66;
