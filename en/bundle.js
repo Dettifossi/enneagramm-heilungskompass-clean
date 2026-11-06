@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=471";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=472";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -6276,7 +6276,8 @@ text.nav = [
     { heading: "Your Own Practice" },
     { route: "practice", label: "Tools" },
     { route: "wachstumstagebuch", label: "Growth Journal (daily ritual with streak tracking)" },
-    { route: "gemerkte-impulse", label: "My Saved Impulses" },
+    { route: "impuls-heute", label: "Today's Impulse" },
+      { route: "gemerkte-impulse", label: "My Saved Impulses" },
     { route: "praxistipps-heilpraktiker", label: "Naturopath's Practical Tips" },
     { route: "differenzierung", label: "Differentiation" },
   ]},
@@ -44187,10 +44188,10 @@ function _saveImpuls(impuls, dateStr) {
   return true;
 }
 
-function showTagesimpuls() {
+function showTagesimpuls(force) {
   const IMPULS_KEY = "enneagramm-kompass:tagesimpuls";
   const today = new Date().toISOString().slice(0, 10);
-  if (localStorage.getItem(IMPULS_KEY) === today) return;
+  if (!force && localStorage.getItem(IMPULS_KEY) === today) return;
   const dayOfYear = Math.floor((Date.now() - new Date(new Date().getFullYear(), 0, 0)) / 86400000);
   const impuls = TAGESIMPULSE_EN[dayOfYear % TAGESIMPULSE_EN.length];
   if (!impuls) return;
@@ -47153,6 +47154,22 @@ function favoritenPage() {
   );
 }
 
+window.showTagesimpuls = showTagesimpuls;
+function impulsHeutePage() {
+  setTimeout(() => showTagesimpuls(true), 60);
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("gemerkte-impulse")}
+      <div class="page-content">
+        <p class="eyebrow">Practice &middot; Today's Impulse</p>
+        <h1 class="section-title">Today's Impulse</h1>
+        <p class="psycho-intro">Today's impulse, to read and share again at any time.</p>
+        <button class="fav-clear-btn" onclick="showTagesimpuls(true)">Open impulse</button>
+      </div>
+    </div>
+  `);
+}
+
 function gemerkteImpulsePage() {
   const items = _getGemerkteImpulse();
   const emptyMsg = '<p class="vb-intro" style="color:var(--muted);padding:1rem 0;">'
@@ -48700,6 +48717,7 @@ function subtypeSchaubilderPage() {
       "kriminalpsychologie-paul-ogorzow": paulOgorzowPortraitPage,
       "kriminalpsychologie-frank-abagnale-jr": frankAbagnalePortraitPage,
     "favoriten": favoritenPage,
+    "impuls-heute": impulsHeutePage,
     "gemerkte-impulse": gemerkteImpulsePage,
       "kriminalpsychologie-heinrich-pommerenke": heinrichPommerenkePortraitPage,
       "kriminalpsychologie-gesche-gottfried": gescheGottfriedPortraitPage,

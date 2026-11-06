@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=474";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=475";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -17139,6 +17139,7 @@ const uiText = {
       { heading: "Eigene Praxis" },
       { route: "practice", label: "Werkzeuge" },
       { route: "wachstumstagebuch", label: "Wachstumstagebuch (tägliches Ritual mit Serien-Tracking)" },
+      { route: "impuls-heute", label: "Impuls von heute" },
       { route: "gemerkte-impulse", label: "Meine gemerkten Impulse" },
       { route: "praxistipps-heilpraktiker", label: "Praxistipps vom Heilpraktiker" },
       { route: "differenzierung", label: "Differenzierung" },
@@ -64400,10 +64401,10 @@ function _saveImpuls(impuls, dateStr) {
   return true;
 }
 
-function showTagesimpuls() {
+function showTagesimpuls(force) {
   const IMPULS_KEY = "enneagramm-kompass:tagesimpuls";
   const today = new Date().toISOString().slice(0, 10);
-  if (localStorage.getItem(IMPULS_KEY) === today) return;
+  if (!force && localStorage.getItem(IMPULS_KEY) === today) return;
   const dayOfYear = Math.floor((Date.now() - new Date(new Date().getFullYear(), 0, 0)) / 86400000);
   const impuls = TAGESIMPULSE[dayOfYear % TAGESIMPULSE.length];
   if (!impuls) return;
@@ -64452,6 +64453,22 @@ function showTagesimpuls() {
     else { window.open("https://wa.me/?text=" + encodeURIComponent(shareText), "_blank"); }
   });
   card.addEventListener("click", e => { if (e.target === card) close(); });
+}
+
+window.showTagesimpuls = showTagesimpuls;
+function impulsHeutePage() {
+  setTimeout(() => showTagesimpuls(true), 60);
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("gemerkte-impulse")}
+      <div class="page-content">
+        <p class="eyebrow">Praxis &middot; Impuls von heute</p>
+        <h1 class="section-title">Impuls von heute</h1>
+        <p class="psycho-intro">Der Impuls des Tages, jederzeit erneut zum Lesen und Teilen.</p>
+        <button class="fav-clear-btn" onclick="showTagesimpuls(true)">Impuls öffnen</button>
+      </div>
+    </div>
+  `);
 }
 
 function gemerkteImpulsePage() {
@@ -68861,6 +68878,7 @@ const ROUTES = {
       "kriminalpsychologie-paul-ogorzow": paulOgorzowPortraitPage,
       "kriminalpsychologie-frank-abagnale-jr": frankAbagnalePortraitPage,
     "favoriten": favoritenPage,
+    "impuls-heute": impulsHeutePage,
     "gemerkte-impulse": gemerkteImpulsePage,
       "kriminalpsychologie-heinrich-pommerenke": heinrichPommerenkePortraitPage,
       "kriminalpsychologie-gesche-gottfried": gescheGottfriedPortraitPage,
