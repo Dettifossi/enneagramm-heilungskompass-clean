@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=475";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=476";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -559,6 +559,7 @@ const parisHiltonPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js",
 const reneDescartesPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "reneDescartesPortraitPage");
 const seanConneryPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "seanConneryPortraitPage");
 const tELawrencePortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "tELawrencePortraitPage");
+const lisaKauffPortraitPage = () => _lazyPage("./data/beruehmte-en/teil17.js", "lisaKauffPortraitPage");
 const mariaHasbolatPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "mariaHasbolatPortraitPage");
 const leonieBeneschPortraitPage = () => _lazyPage("./data/beruehmte-en/teil2.js", "leonieBeneschPortraitPage");
 const lewisCapaldiPortraitPage = () => _lazyPage("./data/beruehmte-en/teil18.js", "lewisCapaldiPortraitPage");
@@ -1901,6 +1902,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Phil Collins – Self-Preservation Type 1",
     teaser:"SP1w9 · b. 1951. Musician, drummer and singer of Genesis, celebrated solo artist. Kept performing seated despite severe nerve damage and a spinal injury. The eagle who kept playing after his hands no longer could.",
     land:"United Kingdom", tags:["Music"], gender:"m"},
+{ route:"beruehmte-lisa-kauff", name:"Lisa Kauff", added:"2026-11-06", subtyp:"SE1w2",
+    heading:"Lisa Kauff \u2013 Self-Preservation Type 1",
+    teaser:"SP1w2 \u00b7 Founder of Monkey Yoga, yoga teacher and entrepreneur from Nagold. From corporate controlling to yoga, Pilates and pelvic floor training for women in everyday life. The eagle who turns worry into structure. Animal correspondence: Eagle.",
+    land:"Germany", tags:["Business"], gender:"f"},
 { route:"beruehmte-maria-hasbolat", name:"Maria Hasbolat", added:"2026-11-06", subtyp:"SE3w2",
     heading:"Maria Hasbolat \u2013 Self-Preservation Type 3",
     teaser:"SP3w2 \u00b7 German teacher and online language coach (\u2018Dein Sprachcoach\u2019), W\u00f6rth am Rhein. Pronunciation with humour. The raccoon who builds a working offering out of craft. Animal correspondence: Raccoon.",
@@ -48455,7 +48460,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-pamela-reif": pamelaReifPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-phil-collins": philCollinsPortraitPage,
-      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
+      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage, "beruehmte-lisa-kauff": lisaKauffPortraitPage,
       "beruehmte-harald-v": haraldVPortraitPage,
       "beruehmte-carl-xvi-gustaf": carlXVIGustafPortraitPage,
       "beruehmte-johannes-paul-ii": johannesPaulIIPortraitPage,

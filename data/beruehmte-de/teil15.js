@@ -3242,3 +3242,70 @@ export function aynRandPortraitPage() {
     </div>
   `);
 }
+
+export function lisaKauffPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-lisa-kauff-portrait.jpg" alt="Lisa Kauff – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-lisa-kauff-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Lisa Kauff</p>
+        <p class="krim-portrait-typ">SE1w2 &middot; Selbsterhaltender Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Gründerin von Monkey Yoga, Yogalehrerin und Unternehmerin aus Nagold im Schwarzwald &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler aus dem Schwarzwald</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist die tierische Entsprechung der selbsterhaltenden Eins: ein Wächter, der sein Revier genau kennt und in Ordnung hält. Lisa Kauff studierte Internationale Betriebswirtschaft in Mainz (Diplom 2008) und begann ihre Laufbahn bei einer der großen Prüfungsgesellschaften. Insgesamt verbrachte sie etwa zehn Jahre in Konzernen, in Revision, Strategie und Controlling. Sie lebt mit ihrer Familie in Nagold im nördlichen Schwarzwald.</p>
+          <p class="vb-intro">Ihre eigene Schilderung dieser Zeit ist klar: ständiges Reisen, lange Arbeitstage, Dauerstress. Mit etwa dreißig fand sie zufällig zum Yoga; eine wöchentliche Stunde wurde zum Anker. 2015 fühlte sie sich ausgebrannt und begann, ihren Kurs zu hinterfragen. Sie ließ sich 2015/2016 bei Unit Yoga in Wiesbaden zur Yogalehrerin ausbilden und gründete 2016 Monkey Yoga.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Sorge, die zur Struktur wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihre Strenge auf das, was das Leben trägt: Gesundheit, Ordnung, Verlässlichkeit. Nach Claudio Naranjo ist ihr Schlüsselwort <em>Worry</em>, die Sorge, dass etwas nicht stimmt oder nicht reicht. Ihr Weg passt dazu: aus der Welt von Revision und Controlling, wo Ordnung die Aufgabe ist, in ein Feld, in dem sie anderen hilft, die eigene Ordnung wiederzufinden, im Körper und im Kopf. Auch der Markenname zeigt das Thema: Der ›Monkey Mind‹ ist der unruhige, springende Gedanke, den Yoga beruhigen soll. Die Zuordnung ist eine Deutung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Hilfe, die freundlich bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> bringt Wärme und den Wunsch, nützlich zu sein. Kauff baut ihr Angebot für Frauen im echten Alltag: Programme für Schwangerschaft und Rückbildung, Beckenbodentraining, Pilates und später auch Yoga für Kinder. Ihre Schlussbotschaft in einem Interview 2024 lautete, achtsamer und freundlicher mit sich selbst umzugehen. Bei einer Eins spricht hier der Zweierflügel: Strenge, die durch Fürsorge weicher wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: eine Struktur, die in einen vollen Alltag passt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ihr Angebot zeichnet die Verbindung aus Methode und Alltagstauglichkeit aus. Monkey Yoga vereint Yoga, Pilates und Beckenbodenarbeit in Online-Kursen, die Frauen in den Tag einbauen können, und stützt sich auf solide Ausbildung: Yogalehrerin RYT 500, Schwangerschaftsyoga-Lehrerin (2017), Pilates-Trainerin (2022), Kursleiterin für Beckenboden (2022), Kinderyoga (2023) und seit 2025 Kursleiterin für Präventionskurse, die Krankenkassen bezuschussen können.</p>
+          <p class="vb-intro">Laut eigener Website hat sie mehr als 20.000 Kundinnen in Online-Programmen und mehr als 800.000 Follower über alle Kanäle; diese Zahlen sind eigene Angaben und nicht unabhängig geprüft. Eine Regionalzeitung beschrieb sie 2021 als ›auf der Überholspur‹. In einer Anekdote, die sie selbst erzählt, erkannte sie auf einem Gipfel in Österreich eine junge Mutter und sagte, ihre Online-Kurse hätten sie durch Schwangerschaft und Rückbildung begleitet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Glaubwürdigkeit von jemandem, der den Stress selbst erlebt hat, den sie heute anderen abnehmen hilft. Der Schatten der selbsterhaltenden Eins ist der innere Druck, der aus Ruhe eine weitere Aufgabe machen kann. Kauff nennt ihre eigene Schwäche offen: Sie arbeitet zu schnell, und dann passieren Flüchtigkeitsfehler. Das Porträt hält nur fest, was sie öffentlich sagt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-marie-kondo">Marie Kondo (SE1w2)</a> ist eine enge Parallele: auch sie brachte Ordnung in den Alltag vieler Menschen und baute darauf ein internationales Geschäft auf. <a href="#beruehmte-pierce-brosnan">Pierce Brosnan (SE1w2)</a> zeigt dieselbe Disziplin als Handwerk in einem anderen Feld. Der Unterschied: Kauff arbeitet mit Körper und Atem, wo Kondo mit Dingen arbeitet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Zehn Jahre Monkey Yoga und neue Kurse</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Stand 6. November 2026: Kauff ist seit etwa zehn Jahren selbstständig. Zum Team gehört eine Kollegin für Online-Marketing und Social Media. Ziele, die sie für 2025 nannte, waren der erste Alleinurlaub seit der Geburt ihrer ersten Tochter, eine Alpenüberquerung zu Fuß oder mit dem Mountainbike und neue Kurse in Pilates und Kinderyoga.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se1", label:"Lebensmusterkompass: SE1 – Adler"},
+        {route:"beruehmte-marie-kondo", label:"Porträt: Marie Kondo (SE1w2)"},
+        {route:"beruehmte-pierce-brosnan", label:"Porträt: Pierce Brosnan (SE1w2)"},
+      ])}
+    </div>
+  `);
+}

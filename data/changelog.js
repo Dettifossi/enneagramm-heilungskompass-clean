@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2735", date: "2026-11-06", text: "Neues Porträt: Lisa Kauff (SE1w2) – Gründerin von Monkey Yoga, vom Konzern-Controlling zum Yoga.", text_en: "New portrait: Lisa Kauff (SP1w2) – founder of Monkey Yoga, from corporate controlling to yoga.", route: "beruehmte-lisa-kauff" },
     { version: "v2734", date: "2026-11-06", text: "Neues Porträt: Maria Hasbolat (SE3w2) – Sprachcoachin, die Deutsch mit Humor und Aussprache leicht macht.", text_en: "New portrait: Maria Hasbolat (SP3w2) – language coach who makes German easy with humour and pronunciation.", route: "beruehmte-maria-hasbolat" },
     { version: "v2733", date: "2026-11-06", text: "Neues Porträt: Leonie Benesch (SE4w3) – Schauspielerin, die Druck ohne große Gesten sichtbar macht.", text_en: "New portrait: Leonie Benesch (SP4w3) – actress who makes pressure visible without big gestures.", route: "beruehmte-leonie-benesch" },
     { version: "v2732", date: "2026-11-06", text: "Neues Porträt: Lewis Capaldi (SE4w3) – schottischer Sänger und Songwriter, der Schmerz ohne Pose singt.", text_en: "New portrait: Lewis Capaldi (SP4w3) – Scottish singer-songwriter who sings pain without a pose.", route: "beruehmte-lewis-capaldi" },

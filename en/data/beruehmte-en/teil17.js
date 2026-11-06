@@ -3200,3 +3200,70 @@ export function aynRandPortraitPage() {
     </div>
   `);
 }
+
+export function lisaKauffPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-lisa-kauff-portrait.jpg" alt="Lisa Kauff – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-lisa-kauff-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Lisa Kauff</p>
+        <p class="krim-portrait-typ">SP1w2 &middot; Self-Preservation Type 1 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Founder of Monkey Yoga, yoga teacher and entrepreneur from Nagold in the Black Forest &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle from the Black Forest</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>eagle</strong> is the animal correspondence of the self-preservation One: a guardian who knows her territory exactly and keeps it in order. Lisa Kauff studied International Business Administration in Mainz (diploma 2008) and started her career at one of the large auditing firms. In all she spent about ten years in large corporations, in internal audit, strategy and controlling. She lives with her family in Nagold in the Northern Black Forest.</p>
+          <p class="vb-intro">Her own account of that time is clear: constant travelling, long hours, permanent stress. Around the age of thirty she found yoga by chance; a weekly class became an anchor. By 2015 she felt burned out and began to question her course. She trained as a yoga teacher in 2015/2016 at Unit Yoga in Wiesbaden and founded Monkey Yoga in 2016.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation One: worry turned into structure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> directs her strictness at what keeps life going: health, order, reliability. According to Claudio Naranjo her key word is <em>worry</em>, the concern that something is not right or not enough. Her path fits this: from the world of audit and controlling, where order is the job, to a field in which she helps others restore their own order, in body and head. The name of her brand points to the same theme: the &lsquo;monkey mind&rsquo; is the restless, jumping thought that yoga is meant to calm. The classification is an interpretation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: help that stays kind</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> adds warmth and the wish to be of use. Kauff builds her offer for women in real life: programmes for pregnancy and the time after birth, pelvic floor training, Pilates and later also yoga for children. Her closing message in an interview in 2024 was to be more mindful and kinder with oneself. For a One this is the Two-wing speaking: strictness softened by care.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: a structure that fits into a busy life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What sets her offer apart is the combination of method and everyday suitability. Monkey Yoga unites yoga, Pilates and pelvic floor work in online courses that women can fit into their day, and it sits on solid training: RYT 500 yoga teacher, prenatal yoga teacher (2017), Pilates trainer (2022), pelvic floor course leader (2022), children&rsquo;s yoga course leader (2023) and, since 2025, a course leader for prevention courses that health insurers may co-fund.</p>
+          <p class="vb-intro">According to her own website she has more than 20,000 customers in online programmes and more than 800,000 followers across channels; these figures are self-reported and not independently verified. A regional newspaper described her in 2021 as being on the fast track. In an anecdote she tells herself, a young mother on a summit in Austria recognised her and said her online courses had guided her through pregnancy and the time after birth.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is the credibility of someone who has lived the stress she now helps others reduce. The shadow of the self-preservation One is the inner pressure that can turn calm into yet another task. Kauff names her own weakness frankly: she works too fast, and then careless mistakes happen. The portrait records only what she says in public.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-marie-kondo">Marie Kondo (SP1w2)</a> is a close parallel: she too brought order into the everyday life of many people and built an international business on it. <a href="#beruehmte-pierce-brosnan">Pierce Brosnan (SP1w2)</a> shows the same discipline as craft in another field. The difference: Kauff works with the body and with breath, where Kondo works with things.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Ten years of Monkey Yoga and new courses</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As of 6 November 2026, Kauff has been self-employed for about ten years. Her team includes a colleague for online marketing and social media. Goals she named for 2025 were a first solo holiday since the birth of her first daughter, a crossing of the Alps on foot or by mountain bike, and new courses in Pilates and children&rsquo;s yoga.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SP1 – Eagle"},
+        {route:"beruehmte-marie-kondo", label:"Portrait: Marie Kondo (SP1w2)"},
+        {route:"beruehmte-pierce-brosnan", label:"Portrait: Pierce Brosnan (SP1w2)"},
+      ])}
+    </div>
+  `);
+}
