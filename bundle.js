@@ -21662,7 +21662,7 @@ Viele kreative Menschen haben ihre Tage deshalb fest geordnet \u2013 nicht aus S
 
 Das ist keine Niederlage. Es ist die Einladung zum n\u00e4chsten Lernen.
 
-Jede Wiederkehr eines alten Themas ist die Chance, es diesmal anders zu begegnen. Bewusster. Kl\u00fcger. Freundlicher.`,
+Jede Wiederkehr eines alten Themas ist die Chance, ihm diesmal anders zu begegnen. Bewusster. Kl\u00fcger. Freundlicher.`,
     impuls: `Welches Thema kehrt in deinem Leben immer wieder \u2013 und zeigt sich gerade wieder? Wie k\u00f6nntest du ihm diesmal anders begegnen als zuletzt?`,
   },
   {

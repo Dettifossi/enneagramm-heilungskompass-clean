@@ -3096,7 +3096,7 @@ Viele kreative Menschen haben ihre Tage deshalb fest geordnet – nicht aus Star
 
 Das ist keine Niederlage. Es ist die Einladung zum nächsten Lernen.
 
-Jede Wiederkehr eines alten Themas ist die Chance, es diesmal anders zu begegnen. Bewusster. Klüger. Freundlicher.`,
+Jede Wiederkehr eines alten Themas ist die Chance, ihm diesmal anders zu begegnen. Bewusster. Klüger. Freundlicher.`,
     impuls: `Welches Thema kehrt in deinem Leben immer wieder – und zeigt sich gerade wieder? Wie könntest du ihm diesmal anders begegnen als zuletzt?`,
   },
   {
