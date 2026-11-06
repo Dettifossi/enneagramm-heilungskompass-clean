@@ -3276,9 +3276,9 @@ export function mariaHasbolatPortraitPage() {
           <p class="vb-intro">Another media professional of this subtype and wing is <a href="#beruehmte-susan-link">Susan Link (SP3w2)</a>, who found her way in every studio. <a href="#beruehmte-hagen-rether">Hagen Rether (SP3w2)</a> shows the same craft-first attitude on a different stage: an empty stage, a black piano, long staying power. Hasbolat applies it to a very different field: language.</p>
         </blockquote>
 
-        <h2 class="vb-section">7. Where she stands today (as of 6 November 2026)</h2>
+        <h2 class="vb-section">7. Still teaching German, still with humour</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Hasbolat continues to run <em>Dein Sprachcoach</em> as an online German offering with courses, videos and a presence on Instagram, TikTok and YouTube. Public information on her current projects is limited, so this portrait does not go beyond the sources named.</p>
+          <p class="vb-intro">As of 6 November 2026: Hasbolat continues to run <em>Dein Sprachcoach</em> as an online German offering with courses, videos and a presence on Instagram, TikTok and YouTube. Public information on her current projects is limited, so this portrait does not go beyond the sources named.</p>
         </blockquote>
 
       </div>

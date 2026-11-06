@@ -3255,9 +3255,9 @@ export function mariaHasbolatPortraitPage() {
           <p class="vb-intro">Eine weitere Medienprofi dieses Subtyps und Flügels ist <a href="#beruehmte-susan-link">Susan Link (SE3w2)</a>, die sich in jedem Studio zurechtfand. <a href="#beruehmte-hagen-rether">Hagen Rether (SE3w2)</a> zeigt dieselbe Handwerkshaltung auf einer anderen Bühne: leere Bühne, schwarzer Flügel, langer Atem. Hasbolat wendet sie auf ein ganz anderes Feld an: die Sprache.</p>
         </blockquote>
 
-        <h2 class="vb-section">7. Wo sie heute steht (Stand 6. November 2026)</h2>
+        <h2 class="vb-section">7. Weiter Deutsch lernen, weiter mit Humor</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Hasbolat betreibt <em>Dein Sprachcoach</em> weiter als Online-Deutschangebot mit Kursen, Videos und einer Präsenz auf Instagram, TikTok und YouTube. Öffentliche Angaben zu ihren aktuellen Vorhaben sind spärlich, deshalb geht dieses Porträt nicht über die genannten Quellen hinaus.</p>
+          <p class="vb-intro">Stand 6. November 2026: Hasbolat betreibt <em>Dein Sprachcoach</em> weiter als Online-Deutschangebot mit Kursen, Videos und einer Präsenz auf Instagram, TikTok und YouTube. Öffentliche Angaben zu ihren aktuellen Vorhaben sind spärlich, deshalb geht dieses Porträt nicht über die genannten Quellen hinaus.</p>
         </blockquote>
 
       </div>

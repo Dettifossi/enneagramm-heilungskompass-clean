@@ -3312,9 +3312,9 @@ export function leonieBeneschPortraitPage() {
           <p class="vb-intro">Another actor of this subtype is <a href="#beruehmte-sebastian-urzendowsky">Sebastian Urzendowsky (SP4w3)</a>, who also works with reduced, serious intensity. <a href="#beruehmte-nicolas-cage">Nicolas Cage (SP4w3)</a> shows the opposite style: the same inner depth, but expressed in big, risky gestures. Benesch, by contrast, stays small and precise.</p>
         </blockquote>
 
-        <h2 class="vb-section">7. Where she stands today (as of 6 November 2026)</h2>
+        <h2 class="vb-section">7. From quiet roles to a gun in her hand</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Benesch works across Europe and Hollywood. In interviews in 2026 she said that the most exciting film projects are now being made in Europe. After <em>Late Shift</em> she is seen in the series <em>Prisoner</em> as Nina Drâgus, in a role far from the quiet characters of her earlier films.</p>
+          <p class="vb-intro">As of 6 November 2026: Benesch works across Europe and Hollywood. In interviews in 2026 she said that the most exciting film projects are now being made in Europe. After <em>Late Shift</em> she is seen in the series <em>Prisoner</em> as Nina Drâgus, in a role far from the quiet characters of her earlier films.</p>
         </blockquote>
 
       </div>

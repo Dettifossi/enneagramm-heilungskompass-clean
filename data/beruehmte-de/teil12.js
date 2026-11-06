@@ -3283,9 +3283,9 @@ export function leonieBeneschPortraitPage() {
           <p class="vb-intro">Ein weiterer Schauspieler dieses Subtyps ist <a href="#beruehmte-sebastian-urzendowsky">Sebastian Urzendowsky (SE4w3)</a>, der ebenfalls mit zurückgenommener, ernster Intensität arbeitet. <a href="#beruehmte-nicolas-cage">Nicolas Cage (SE4w3)</a> zeigt den entgegengesetzten Stil: dieselbe innere Tiefe, aber in großen, riskanten Gesten ausgedrückt. Benesch dagegen bleibt klein und genau.</p>
         </blockquote>
 
-        <h2 class="vb-section">7. Wo sie heute steht (Stand 6. November 2026)</h2>
+        <h2 class="vb-section">7. Von den leisen Rollen zur Waffe in der Hand</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Benesch arbeitet in ganz Europa und in Hollywood. In Interviews 2026 sagte sie, die spannendsten Filmprojekte entstünden heute in Europa. Nach <em>Heldin</em> ist sie in der Serie <em>Prisoner</em> als Nina Drâgus zu sehen, in einer Rolle weit entfernt von den leisen Figuren ihrer früheren Filme.</p>
+          <p class="vb-intro">Stand 6. November 2026: Benesch arbeitet in ganz Europa und in Hollywood. In Interviews 2026 sagte sie, die spannendsten Filmprojekte entstünden heute in Europa. Nach <em>Heldin</em> ist sie in der Serie <em>Prisoner</em> als Nina Drâgus zu sehen, in einer Rolle weit entfernt von den leisen Figuren ihrer früheren Filme.</p>
         </blockquote>
 
       </div>
