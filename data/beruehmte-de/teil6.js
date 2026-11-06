@@ -3315,6 +3315,7 @@ export function leaBoscoPortraitPage() {
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Hell ist die Beweglichkeit einer Frau, die nach Jahrzehnten im Geschäft immer neue Rollen für sich findet: Darstellerin, Regisseurin, Autorin, Lehrerin. Der Schatten der sexuellen Sechs ist der Zwang, sich zu beweisen: Wer Angst bekämpft, kann sich schwer erlauben, sie zu zeigen. Ein Blick auf ihre eigene Darstellung zeigt dagegen eher Gelassenheit und Humor.</p>
+          <p class="vb-intro">Auffällig ist, wie wenig Privates über sie öffentlich bekannt ist: keine Angaben zu Partner, Familie oder Wohnort, keine Interviews, in denen sie darüber spricht. Das ist keine Aussage über ihr Leben, sondern über ihre Sichtbarkeit, und die Deutung bleibt vorsichtig. Zur sexuellen Sechs passt ein solches Muster aber gut: Sie prüft zuerst, wem sie vertraut, und lässt Nähe nicht öffentlich verhandeln. Gerade der Wolf zeigt sein Revier nicht jedem, und dieser Subtyp ist oft im Beruf sehr präsent und im Privaten sehr verschlossen. Bei Bosco steht die Arbeit im Licht, die Person dahinter bleibt weitgehend im Schatten.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>

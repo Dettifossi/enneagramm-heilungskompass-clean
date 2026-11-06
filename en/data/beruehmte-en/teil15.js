@@ -3336,6 +3336,7 @@ export function leaBoscoPortraitPage() {
         <h2 class="vb-section">5. Light and shadow</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Bright is the agility of a woman who after decades in the business keeps finding new roles for herself: performer, director, author, teacher. The shadow of the sexual Six is the compulsion to prove oneself: whoever fights fear can hardly allow herself to show it. Her own presentation, by contrast, shows rather composure and humour.</p>
+          <p class="vb-intro">What stands out is how little private information about her is public: nothing on a partner, family or home, no interviews in which she speaks about it. This is no statement about her life but about her visibility, and the reading stays cautious. Such a pattern fits the sexual Six well: she first tests whom to trust and does not negotiate closeness in public. The wolf does not show its territory to everyone, and this subtype is often very present in the profession and very reserved in private. With Bosco the work stands in the light, the person behind it remains largely in the shadow.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
