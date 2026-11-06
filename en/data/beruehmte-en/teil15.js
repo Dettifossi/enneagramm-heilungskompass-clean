@@ -3228,3 +3228,70 @@ export function ninaRugePortraitPage() {
     </div>
   `);
 }
+
+export function mariaHasbolatPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-maria-hasbolat-portrait.jpg" alt="Maria Hasbolat – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-maria-hasbolat-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Maria Hasbolat</p>
+        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">German-language teacher and online creator (&lsquo;Dein Sprachcoach&rsquo;), lives in Wörth am Rhein &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon from the Rhine</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal correspondence of the self-preservation Three: resourceful, dexterous, able to build something that works out of little. Maria Hasbolat is a native of Russia; according to a business magazine she came to Germany at the age of 22 and lives in Wörth am Rhein. She worked for years as a lecturer in German as a foreign language at a language school, including in integration courses.</p>
+          <p class="vb-intro">Her start as an entrepreneur was step by step: she took an online course herself, saw its potential and developed her idea for online German lessons, using the Karlsruhe EXI start-up voucher and the advice that came with it. The account <em>@dein_sprachcoach</em> on Instagram became her blog and her shop window at the same time.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Three: security through craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> is the counter-type of the Three: she does not look like a Three. Instead of show she values security, competence and a working system. According to Claudio Naranjo her key word is <em>security</em>. This matches how Hasbolat started: she kept her job as a lecturer while building the online offering on the side, planned her days carefully and treated income and workload as practical questions. Her measure of success is not applause but what her students achieve.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: warmth, humour, service</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the Three warmth and the wish to be useful. Hasbolat teaches with fun: her one-line pitch is &lsquo;online German lessons with lots of fun&rsquo;, and her motto is that life is serious enough already. She answers learners, moderates online meetings and has built a network in which learners from around the world talk to one another. This is the Two-wing: usefulness that is personal and friendly, not cool.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: pronunciation made light</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What sets her offering apart is the focus on pronunciation. She argues that a strong accent can raise reservations even when grammar and vocabulary are good, and she builds short, entertaining units for Instagram, TikTok and YouTube, explaining idioms and giving motivation tips. Learning &lsquo;unnoticed&rsquo; through humour is her method. Her online conversation courses were well received early on, and further courses were planned: writing, video courses, audio books.</p>
+          <p class="vb-intro">Recognition followed: in 2019 the project was placed second in the Initiative für Integration Rheinland-Pfalz (according to a video title of the initiative). Figures such as a daily reach of more than 700,000 people come from a promotional article and are not independently confirmed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is the combination of seriousness and lightness: someone who knows how hard German is and makes it enjoyable. The shadow of the self-preservation Three is overwork: the risk of carrying teaching, content, courses and customer care alone. This portrait records only what is publicly known about her professional work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Another media professional of this subtype and wing is <a href="#beruehmte-susan-link">Susan Link (SP3w2)</a>, who found her way in every studio. <a href="#beruehmte-hagen-rether">Hagen Rether (SP3w2)</a> shows the same craft-first attitude on a different stage: an empty stage, a black piano, long staying power. Hasbolat applies it to a very different field: language.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where she stands today (as of 6 November 2026)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hasbolat continues to run <em>Dein Sprachcoach</em> as an online German offering with courses, videos and a presence on Instagram, TikTok and YouTube. Public information on her current projects is limited, so this portrait does not go beyond the sources named.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SP3 – Raccoon"},
+        {route:"beruehmte-susan-link", label:"Portrait: Susan Link (SP3w2)"},
+        {route:"beruehmte-hagen-rether", label:"Portrait: Hagen Rether (SP3w2)"},
+      ])}
+    </div>
+  `);
+}

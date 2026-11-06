@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=477";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=478";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -549,6 +549,7 @@ const robertCrumbPortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js",
 const seanConneryPortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", "seanConneryPortraitPage");
 const stanLaurelPortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", "stanLaurelPortraitPage");
 const tELawrencePortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", "tELawrencePortraitPage");
+const mariaHasbolatPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "mariaHasbolatPortraitPage");
 const leonieBeneschPortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "leonieBeneschPortraitPage");
 const lewisCapaldiPortraitPage = () => _lazyPage("./data/beruehmte-de/teil3.js", "lewisCapaldiPortraitPage");
 const hubertAiwangerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "hubertAiwangerPortraitPage");
@@ -27674,6 +27675,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Phil Collins \u2013 Selbsterhaltender Typ 1",
     teaser:"SE1w9 \u00b7 geb. 1951. Musiker, Schlagzeuger und S\u00e4nger von Genesis, gefeierter Solok\u00fcnstler. Spielte trotz schwerer Nervensch\u00e4digung und Wirbels\u00e4ulenverletzung sitzend weiter Konzerte. Der Adler, der weiterspielte, als seine H\u00e4nde es nicht mehr konnten.",
     land:"Gro\u00dfbritannien", tags:["Musik"], gender:"m"},
+  { route:"beruehmte-maria-hasbolat", name:"Maria Hasbolat", added:"2026-11-06", subtyp:"SE3w2",
+    heading:"Maria Hasbolat \u2013 Selbsterhaltender Typ 3",
+    teaser:"SE3w2 \u00b7 Deutschlehrerin und Online-Sprachcoach (\u203aDein Sprachcoach\u2039), Wörth am Rhein. Aussprache mit Humor. Der Waschb\u00e4r, der aus K\u00f6nnen ein funktionierendes Angebot baut. Tierentsprechung: Waschb\u00e4r.",
+    land:"Deutschland", tags:["Medien"], gender:"f"},
   { route:"beruehmte-leonie-benesch", name:"Leonie Benesch", added:"2026-11-06", subtyp:"SE4w3",
     heading:"Leonie Benesch \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w3 \u00b7 geb. 1991 in Hamburg. Schauspielerin, \u00bbDas Lehrerzimmer\u00ab, \u00bbHeldin\u00ab, \u00bbBabylon Berlin\u00ab. Die Taube, die Druck ohne gro\u00dfe Gesten sichtbar macht. Tierentsprechung: Taube.",
@@ -68575,7 +68580,7 @@ const ROUTES = {
       "beruehmte-soeren-kierkegaard": soerenKierkegaardPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-phil-collins": philCollinsPortraitPage,
-      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage,
+      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
       "beruehmte-harald-v": haraldVPortraitPage,
       "beruehmte-carl-xvi-gustaf": carlXVIGustafPortraitPage,
       "beruehmte-johannes-paul-ii": johannesPaulIIPortraitPage,

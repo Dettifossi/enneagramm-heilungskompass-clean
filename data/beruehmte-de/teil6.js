@@ -3207,3 +3207,70 @@ export function heinoPortraitPage() {
     </div>
   `);
 }
+
+export function mariaHasbolatPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-maria-hasbolat-portrait.jpg" alt="Maria Hasbolat – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-maria-hasbolat-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Maria Hasbolat</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Deutschlehrerin und Online-Sprachcoach (›Dein Sprachcoach‹), lebt in Wörth am Rhein &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär vom Rhein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist die tierische Entsprechung der selbsterhaltenden Drei: findig, geschickt, fähig, aus Wenigem etwas zu bauen, das funktioniert. Maria Hasbolat stammt aus Russland; laut einem Wirtschaftsmagazin kam sie mit 22 Jahren nach Deutschland und lebt in Wörth am Rhein. Sie arbeitete über Jahre als Dozentin für Deutsch als Fremdsprache an einer Sprachschule, unter anderem in Integrationskursen.</p>
+          <p class="vb-intro">Ihr Weg in die Selbstständigkeit verlief in Schritten: Sie belegte selbst einen Online-Kurs, erkannte dessen Potenzial und entwickelte ihre Idee für Online-Deutschunterricht, mit dem Karlsruher EXI-Gründungsgutschein und der dazugehörigen Beratung. Das Konto <em>@dein_sprachcoach</em> auf Instagram wurde zugleich ihr Blog und ihr Schaufenster.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Sicherheit durch Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei: Sie sieht nicht aus wie eine Drei. Statt Show zählen Sicherheit, Können und ein System, das funktioniert. Nach Claudio Naranjo ist ihr Schlüsselwort <em>Sicherheit</em>. Das passt zu Hasbolats Start: Sie behielt ihre Stelle als Dozentin, während sie das Online-Angebot nebenher aufbaute, plante ihre Tage genau und behandelte Einnahmen und Arbeitslast als praktische Fragen. Ihr Maßstab für Erfolg ist nicht Applaus, sondern das, was ihre Lernenden erreichen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Wärme, Humor, Dienst am anderen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der Drei Wärme und den Wunsch, nützlich zu sein. Hasbolat unterrichtet mit Spaß: Ihr Ein-Satz-Angebot heißt ›Online-Deutschunterricht mit ganz viel Spaß‹, und ihr Motto lautet, das Leben sei schon ernst genug. Sie beantwortet Anfragen, moderiert Online-Treffen und hat ein Netzwerk aufgebaut, in dem Lernende aus aller Welt miteinander sprechen. Das ist der Zweierflügel: Nützlichkeit, die persönlich und freundlich ist, nicht kühl.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Aussprache leicht gemacht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ihr Angebot unterscheidet der Schwerpunkt auf Aussprache. Sie argumentiert, dass ein starker Akzent Vorbehalte wecken kann, auch wenn Grammatik und Wortschatz gut sind, und baut kurze, unterhaltsame Einheiten für Instagram, TikTok und YouTube, erklärt Redewendungen und gibt Motivationstipps. Lernen ›unbemerkt‹ über Humor ist ihre Methode. Ihre Online-Konversationskurse kamen früh gut an, weitere Kurse waren geplant: Schreiben, Videokurse, Hörbücher.</p>
+          <p class="vb-intro">Anerkennung folgte: 2019 wurde das Projekt bei der Initiative für Integration Rheinland-Pfalz auf Platz zwei geführt (laut Videotitel der Initiative). Zahlen wie eine tägliche Reichweite von mehr als 700.000 Menschen stammen aus einem Werbeartikel und sind nicht unabhängig bestätigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Verbindung von Ernst und Leichtigkeit: jemand, der weiß, wie schwer Deutsch ist, und es angenehm macht. Der Schatten der selbsterhaltenden Drei ist Überarbeitung: die Gefahr, Unterricht, Inhalte, Kurse und Kundenpflege allein zu tragen. Dieses Porträt hält nur fest, was über ihre berufliche Arbeit öffentlich bekannt ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine weitere Medienprofi dieses Subtyps und Flügels ist <a href="#beruehmte-susan-link">Susan Link (SE3w2)</a>, die sich in jedem Studio zurechtfand. <a href="#beruehmte-hagen-rether">Hagen Rether (SE3w2)</a> zeigt dieselbe Handwerkshaltung auf einer anderen Bühne: leere Bühne, schwarzer Flügel, langer Atem. Hasbolat wendet sie auf ein ganz anderes Feld an: die Sprache.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Wo sie heute steht (Stand 6. November 2026)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hasbolat betreibt <em>Dein Sprachcoach</em> weiter als Online-Deutschangebot mit Kursen, Videos und einer Präsenz auf Instagram, TikTok und YouTube. Öffentliche Angaben zu ihren aktuellen Vorhaben sind spärlich, deshalb geht dieses Porträt nicht über die genannten Quellen hinaus.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se3", label:"Lebensmusterkompass: SE3 – Waschbär"},
+        {route:"beruehmte-susan-link", label:"Porträt: Susan Link (SE3w2)"},
+        {route:"beruehmte-hagen-rether", label:"Porträt: Hagen Rether (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
