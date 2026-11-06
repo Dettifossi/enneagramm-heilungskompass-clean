@@ -3334,3 +3334,69 @@ export function leonieBeneschPortraitPage() {
     </div>
   `);
 }
+
+export function bruceDarnellPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-bruce-darnell-portrait.jpg" alt="Bruce Darnell – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-bruce-darnell-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Bruce Darnell</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Sexual Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">TV judge, model coach and choreographer, born 1957 in Colorado, lives in Germany &ndash; Animal correspondence: Camel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Camel from Colorado</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>camel</strong> is the animal correspondence of the sexual Two: frugal and enduring where it concerns its own needs, and generous where others need something. Bruce Darnell was born on 19 July 1957 in Colorado and grew up in a large family with nine siblings. In his own words in an interview he was the only son of his father who was not his biological child, and he was excluded in the family. It was a hard childhood that he later described publicly.</p>
+          <p class="vb-intro">In 1974 he volunteered for the US Army after school and served six years as a paratrooper with the 82nd Airborne Division at Fort Bragg, North Carolina; on an army scholarship he studied sociology. He then moved to Germany because his stepfather was stationed in Augsburg and worked as a waiter in Munich discotheques, where a model scout approached him. In 1983 he began as a model and later walked for designers such as Kenzo, Issey Miyake and Hermès; since 1990 he has worked as a choreographer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Two: turning a whole audience into one encounter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Two (SP2)</strong> directs the Two&rsquo;s energy not at the large group but at the direct, personal space between two people. In Naranjo this subtype is called aggressiveness/seduction: an active, forward-moving approach to the other. Darnell&rsquo;s television personality lives on exactly this: he addresses a contestant, a viewer, a camera as if she were the only one in the room. His trademark is affection and feeling, not strictness: he cries openly on television and defends it. In the documentary <em>Absolut Bruce Darnell</em> (2019) he said: &lsquo;Today there are only two options: you can play a role or you can stay yourself.&rsquo; The classification is an interpretation, not a diagnosis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-wing: runway, camera, brand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> adds achievement, stage and visibility. Darnell built a brand out of modelling, choreography and coaching: the expressive eye-roll and the American accent, and the phrase &lsquo;Drama, Baby, Drama!&rsquo;. In 2006 Heidi Klum brought him in as runway coach and judge for <em>Germany&rsquo;s Next Topmodel</em>. Then came the daytime show <em>Bruce</em> (early 2008, ARD, ended after 20 episodes because of weak ratings), the jury of <em>Das Supertalent</em> (2008 to 2010, 2013 to 2020 and 2024 to 2025), <em>Deutschland sucht den Superstar</em> (2012), the book <em>Drama, Baby, Drama!</em> (2008, a bestseller), a perfume (2009), advertising for C&amp;A and Fonic, and in 2021 his show <em>Surprise! Die Bruce Darnell Show</em> on ProSieben, which was not continued.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: posture, devotion, an honest appearance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What sets Darnell apart from many television juries is the combination of craft and heart. As a model and choreographer he knows exactly how posture, step and gaze work, and he can explain it, with humour and body: &lsquo;The handbag must be alive!&rsquo; is a line from his lessons that many Germans know. In the jury he takes, in my reading, the role that rarely anyone else takes: the person who openly rejoices or openly sympathises. The sentence that one can play a role or stay oneself is his programme.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is the warmth that has kept him on television for two decades, and the openness with which he talks about himself. In <em>stern</em> in 2010 he said: &lsquo;Actually I have been struggling with depression my whole life.&rsquo; After a severe crisis involving a car accident, which he says he survived by a miracle, he underwent about a year of psychotherapy. The shadow of the Two with a Three-wing is that care and performance flow into each other: whoever wants to be needed and liked has a hard time when the show ends. Both appear in his career: the daytime show cancelled in 2008 and the prime-time show not continued in 2021 alongside many years in fixed roles. The portrait records what he has said publicly himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As an entertainer who seeks closeness to the audience, <a href="#beruehmte-sammy-davis-jr">Sammy Davis Jr. (SP2w3)</a> is close to him: a stage person who needs applause also as affection. <a href="#beruehmte-elvis-presley">Elvis Presley (SP2w3)</a> shows the same mix of devotion to the individual in the room and effect on the masses. The difference: Davis and Presley remained stage figures, while Darnell turns the stage into a storytelling hour for viewers whom he addresses directly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Celebrity baking, Supertalent and the question of the next stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As of 6 November 2026: Darnell was back on the <em>Supertalent</em> jury in 2024 and 2025. On <em>Das große Promibacken</em> (Sat.1, season 9, from 19 February 2025) he had to give up after week five after injuring himself with a hand blender; in a Joyn interview he was optimistic about returning to the baking tent. In September 2025 he was a guest judge at the coach special of <em>Grill den Henssler</em> on RTL. According to his Wikipedia biography he lived near Aachen and, after an appearance in 2026, on Ibiza, where he runs an interior design business. I found no concrete new projects for 2026.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx2", label:"SP2 – The Camel: Subtype Profile"},
+        {route:"lebensmusterkompass/sx2", label:"Life Pattern Compass: SP2 – Camel"},
+        {route:"beruehmte-sammy-davis-jr", label:"Portrait: Sammy Davis Jr. (SP2w3)"},
+        {route:"beruehmte-elvis-presley", label:"Portrait: Elvis Presley (SP2w3)"},
+      ])}
+    </div>
+  `);
+}

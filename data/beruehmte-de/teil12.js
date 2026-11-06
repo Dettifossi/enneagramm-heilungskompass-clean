@@ -3305,3 +3305,69 @@ export function leonieBeneschPortraitPage() {
     </div>
   `);
 }
+
+export function bruceDarnellPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-bruce-darnell-portrait.jpg" alt="Bruce Darnell – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-bruce-darnell-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Bruce Darnell</p>
+        <p class="krim-portrait-typ">SX2w3 &middot; Sexueller Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Fernsehjuror, Model-Coach und Choreograf, 1957 in Colorado geboren, lebt in Deutschland &ndash; Tierentsprechung: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kamel aus Colorado</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong> ist die tierische Entsprechung der sexuellen Zwei: genügsam und ausdauernd, wo es um den eigenen Bedarf geht, und großzügig dort, wo andere etwas brauchen. Bruce Darnell wurde am 19. Juli 1957 in Colorado geboren und wuchs in einer großen Familie auf, mit neun Geschwistern. Nach seinen eigenen Worten in einem Interview war er der einzige Sohn seines Vaters, der nicht dessen leibliches Kind war, und wurde in der Familie ausgegrenzt. Eine schwere Kindheit, die er später öffentlich beschrieb.</p>
+          <p class="vb-intro">1974 meldete er sich nach der Schule freiwillig zur US-Armee und diente sechs Jahre als Fallschirmjäger bei der 82. Luftlandedivision in Fort Bragg, North Carolina; mit einem Stipendium der Armee studierte er Soziologie. Danach zog er wegen seines in Augsburg stationierten Stiefvaters nach Deutschland und arbeitete in Münchner Diskotheken als Kellner. Dort sprach ihn ein Model-Scout an. 1983 begann er als Model und lief später für Designer wie Kenzo, Issey Miyake und Hermès; seit 1990 arbeitet er als Choreograf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Zwei: ein ganzes Publikum in eine Begegnung verwandeln</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Zwei (SX2)</strong> richtet die Energie der Zwei nicht auf die große Gruppe, sondern auf den direkten, persönlichen Raum zwischen zwei Menschen. Bei Naranjo heißt dieser Subtyp Aggressivität/Verführung: ein aktives, vorwärtsdrängendes Zugehen auf den anderen. Darnells Fernsehpersönlichkeit lebt genau davon: Er spricht eine Kandidatin, einen Zuschauer, eine Kamera an, als wäre sie die einzige im Raum. Sein Markenzeichen sind Zuwendung und Gefühl, nicht Strenge: Er weint im Fernsehen offen und verteidigt das. In der Dokumentation <em>Absolut Bruce Darnell</em> (2019) sagte er: ›Es gibt heute nur zwei Möglichkeiten: Du kannst eine Rolle spielen oder du selbst bleiben.‹ Die Zuordnung ist eine Deutung, keine Diagnose.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Laufsteg, Kamera, Marke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> bringt Leistung, Bühne und Sichtbarkeit dazu. Darnell hat sich aus dem Modeln, dem Choreografieren und dem Coaching eine Marke gebaut: das ausdrucksstarke Augenrollen, den amerikanischen Akzent, den Satz ›Drama, Baby, Drama!‹. 2006 holte ihn Heidi Klum als Laufsteg-Coach und Juror zu <em>Germany&rsquo;s Next Topmodel</em>. Es folgten die Daytime-Show <em>Bruce</em> (Anfang 2008, ARD, nach 20 Folgen wegen schwacher Quoten beendet), die Jury bei <em>Das Supertalent</em> (2008 bis 2010, 2013 bis 2020 und 2024 bis 2025), <em>Deutschland sucht den Superstar</em> (2012), das Buch <em>Drama, Baby, Drama!</em> (2008, ein Bestseller), ein Parfüm (2009), Werbung für C&amp;A und Fonic und 2021 seine Show <em>Surprise! Die Bruce Darnell Show</em> bei ProSieben, die nicht fortgesetzt wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Haltung, Hingabe, ein ehrlicher Auftritt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Darnell von vielen Fernsehjurys unterscheidet, ist die Verbindung aus Handwerk und Herz. Als Model und Choreograf weiß er genau, wie Haltung, Schritt und Blick wirken, und er kann es erklären, mit Humor und Körper: ›Die Handtasche muss lebendig sein!‹ ist ein Satz aus dem Unterricht, den viele Deutsche kennen. In der Jury nimmt er nach meiner Einordnung die Rolle ein, die sonst selten jemand übernimmt: die Person, die sich offen freut oder offen mitleidet. Der Satz, man könne eine Rolle spielen oder man selbst bleiben, ist sein Programm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Wärme, die ihn über zwei Jahrzehnte im Fernsehen gehalten hat, und die Offenheit, mit der er über sich spricht. Im stern sagte er 2010: ›Eigentlich kämpfe ich schon mein ganzes Leben lang mit Depressionen.‹ Nach einer schweren Krise mit einem Autounfall, von dem er sagt, es sei ein Wunder gewesen, dass er überlebte, machte er etwa ein Jahr lang eine Psychotherapie. Der Schatten der Zwei mit Dreierflügel ist, dass Zuwendung und Auftritt ineinanderfließen: Wer gebraucht und gemocht werden will, hat es schwer, wenn die Show endet. Beides zeigt sich in seiner Laufbahn: die abgesetzte Daytime-Show 2008 und die nicht fortgesetzte Prime-Time-Show 2021 neben vielen Jahren in festen Rollen. Das Porträt hält fest, was er selbst öffentlich gesagt hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als Entertainer, der Nähe zum Publikum sucht, steht ihm <a href="#beruehmte-sammy-davis-jr">Sammy Davis Jr. (SX2w3)</a> nahe: ein Bühnenmensch, der den Applaus auch als Zuwendung braucht. <a href="#beruehmte-elvis-presley">Elvis Presley (SX2w3)</a> zeigt dieselbe Mischung aus Hingabe an den einzelnen Menschen im Raum und der Wirkung auf Massen. Der Unterschied: Davis und Presley blieben Bühnenfiguren, Darnell macht aus der Bühne eine Erzählstunde für Zuschauer, die er direkt anspricht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Promibacken, Supertalent und die Frage nach der nächsten Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Stand 6. November 2026: Darnell war 2024 und 2025 wieder in der <em>Supertalent</em>-Jury. Bei <em>Das große Promibacken</em> (Sat.1, Staffel 9, ab 19. Februar 2025) musste er nach der fünften Woche aufgeben, nachdem er sich mit einem Pürierstab verletzt hatte; im Joyn-Interview zeigte er sich optimistisch für eine Rückkehr in die Backstube. Im September 2025 war er Gastjuror beim Coach-Special von <em>Grill den Henssler</em> bei RTL. Nach Angaben in seiner Wikipedia-Biografie lebte er zuletzt bei Aachen und nach einem Auftritt 2026 auf Ibiza, wo er ein Einrichtungsgeschäft führt. Konkrete neue Projekte für 2026 habe ich nicht gefunden.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx2", label:"Lebensmusterkompass: SX2 – Kamel"},
+        {route:"beruehmte-sammy-davis-jr", label:"Porträt: Sammy Davis Jr. (SX2w3)"},
+        {route:"beruehmte-elvis-presley", label:"Porträt: Elvis Presley (SX2w3)"},
+      ])}
+    </div>
+  `);
+}

@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=483";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=484";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -552,6 +552,7 @@ const tELawrencePortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", 
 const lisaKauffPortraitPage = () => _lazyPage("./data/beruehmte-de/teil15.js", "lisaKauffPortraitPage");
 const mariaHasbolatPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "mariaHasbolatPortraitPage");
 const leonieBeneschPortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "leonieBeneschPortraitPage");
+const bruceDarnellPortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "bruceDarnellPortraitPage");
 const ilseAignerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "ilseAignerPortraitPage");
 const grandmaMosesPortraitPage = () => _lazyPage("./data/beruehmte-de/teil3.js", "grandmaMosesPortraitPage");
 const paulRonzheimerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil18.js", "paulRonzheimerPortraitPage");
@@ -27687,6 +27688,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonie Benesch \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w3 \u00b7 geb. 1991 in Hamburg. Schauspielerin, \u00bbDas Lehrerzimmer\u00ab, \u00bbHeldin\u00ab, \u00bbBabylon Berlin\u00ab. Die Taube, die Druck ohne gro\u00dfe Gesten sichtbar macht. Tierentsprechung: Taube.",
     land:"Deutschland", tags:["Schauspiel"], gender:"f"},
+  { route:"beruehmte-bruce-darnell", name:"Bruce Darnell", added:"2026-11-06", subtyp:"SX2w3",
+    heading:"Bruce Darnell \u2013 Sexueller Typ 2",
+    teaser:"SX2w3 \u00b7 geb. 1957 in Colorado. Fernsehjuror, Model-Coach und Choreograf (\u203aGermany\u2019s Next Topmodel\u2039, \u203aDas Supertalent\u2039). Das Kamel, das ein ganzes Studio in eine pers\u00f6nliche Begegnung verwandelt. Tierentsprechung: Kamel.",
+    land:"USA / Deutschland", tags:["Medien"], gender:"m"},
   { route:"beruehmte-ilse-aigner", name:"Ilse Aigner", added:"2026-11-06", subtyp:"SE1w2",
     heading:"Ilse Aigner \u2013 Selbsterhaltender Typ 1",
     teaser:"SE1w2 \u00b7 geb. 1964 in Feldkirchen-Westerham. Pr\u00e4sidentin des Bayerischen Landtags (CSU), fr\u00fcher Bundesministerin. Gelernte Radio- und Fernsehtechnikerin, bei Eurocopter. Der Adler, der Demokratie als Aufgabe versteht. Tierentsprechung: Adler.",
@@ -68596,7 +68601,7 @@ const ROUTES = {
       "beruehmte-soeren-kierkegaard": soerenKierkegaardPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-phil-collins": philCollinsPortraitPage,
-      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
+      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
       "beruehmte-harald-v": haraldVPortraitPage,
       "beruehmte-carl-xvi-gustaf": carlXVIGustafPortraitPage,
       "beruehmte-johannes-paul-ii": johannesPaulIIPortraitPage,
