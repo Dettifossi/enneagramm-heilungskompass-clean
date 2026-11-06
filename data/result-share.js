@@ -7,16 +7,18 @@ const COPPER = "#9a5b34", INK = "#2a2420", MUTED = "#6b625a", LINE = "#d9cdbd", 
 
 const T = {
   de: { brand: "Enneagramm-Heilungskompass", mine: "Mein Tipp-Typ im Enneagramm", tier: "Mein Tier", find: "Finde deinen Typ im Enneagramm-Heilungskompass",
-        note: "Selbsteinschätzung – ein Orientierungshinweis, kein Urteil.", mineTier: "Mein Enneagramm-Tier", beat: "Schaffst du mehr?", tryIt: "Probier es im Enneagramm-Heilungskompass", btn: "Ergebnis als Bild teilen", busy: "Wird erstellt …", err: "Die Karte konnte nicht erstellt werden.",
+        note: "Selbsteinschätzung – ein Orientierungshinweis, kein Urteil.", mineTier: "Mein Enneagramm-Tier", archetype: "Der Tierarchetyp", btnTier: "Tierkarte teilen", beat: "Schaffst du mehr?", tryIt: "Probier es im Enneagramm-Heilungskompass", btn: "Ergebnis als Bild teilen", busy: "Wird erstellt …", err: "Die Karte konnte nicht erstellt werden.",
         base: SITE + "/", msg: (t, tier) => "Mein Tipp-Typ im Enneagramm: " + t + (tier ? " – " + tier : "") + ".\nFinde deinen Typ: " + SITE + "/",
         lazy: "./lazy/lebensmusterkompass.js",
         msgTier: (tier, line) => "Mein Enneagramm-Tier: " + tier + (line ? " (" + line + ")" : "") + ".\nFinde dein Tier: " + SITE + "/",
+        msgSub: (n, tier, code) => "Der Tierarchetyp: " + n + " – " + tier + " (" + code + ").\nMehr dazu: " + SITE + "/subtype/" + code.toLowerCase() + "/",
         msgScore: (lab, s) => "Subtyp-Quiz – " + lab + ": " + s + ".\nSchaffst du mehr? " + SITE + "/" },
   en: { brand: "Enneagram Healing Compass", mine: "My Enneagram type guess", tier: "My animal", find: "Find your type in the Enneagram Healing Compass",
-        note: "Self-assessment – an orientation, not a verdict.", mineTier: "My Enneagram animal", beat: "Can you beat that?", tryIt: "Try it in the Enneagram Healing Compass", btn: "Share result as image", busy: "Creating …", err: "The card could not be created.",
+        note: "Self-assessment – an orientation, not a verdict.", mineTier: "My Enneagram animal", archetype: "The animal archetype", btnTier: "Share animal card", beat: "Can you beat that?", tryIt: "Try it in the Enneagram Healing Compass", btn: "Share result as image", busy: "Creating …", err: "The card could not be created.",
         base: SITE + "/en/", msg: (t, tier) => "My Enneagram type guess: " + t + (tier ? " – " + tier : "") + ".\nFind your type: " + SITE + "/en/",
         lazy: "../en/data/lazy/lebensmusterkompass.js",
         msgTier: (tier, line) => "My Enneagram animal: " + tier + (line ? " (" + line + ")" : "") + ".\nFind yours: " + SITE + "/en/",
+        msgSub: (n, tier, code) => "The animal archetype: " + n + " – " + tier + " (" + code + ").\nRead more: " + SITE + "/en/subtype/" + code.toLowerCase() + "/",
         msgScore: (lab, s) => "Enneagram quiz – " + lab + ": " + s + ".\nCan you beat that? " + SITE + "/en/" }
 };
 
@@ -158,6 +160,31 @@ async function tierCard(lang, card) {
   return { blob: await new Promise(r2 => c.toBlob(r2, "image/jpeg", 0.92)), text: tx.msgTier(name, line.replace(/.*\((S[EPOX]\d)\).*/, "$1")), title: tx.mineTier, fname: lang === "en" ? "my-enneagram-animal.jpg" : "mein-enneagramm-tier.jpg" };
 }
 
+// Subtyp-Seite: Tierkarte (Tierbild, Tiername, Subtyp, ein Satz zum Wesen)
+async function subtypeTierCard(lang, hero, code) {
+  const tx = T[lang];
+  const mod = await import(tx.lazy);
+  const e = (mod.LEBENSMUSTERKOMPASS || {})[code.toUpperCase()] || {};
+  const tier = e.tier || "";
+  const sentence = (e.kernthema || "").replace(/\s*\([^)]*\)\s*$/, "").replace(/\s+/g, " ").trim();
+  const name = txt(hero.querySelector("h1"));
+  const shown = lang === "en" ? code.toUpperCase().replace(/^SE/, "SP") : code.toUpperCase();
+  const img = await loadImg(new URL("../assets/" + code.toLowerCase() + "-tier.jpg", import.meta.url).href);
+  const { c, x, W, H } = frame(tx);
+  x.fillStyle = MUTED; x.font = `italic 34px ${FONT}`; x.fillText(tx.archetype, W / 2, 140);
+  const r = 210, cx = W / 2, cy = 400;
+  x.save(); x.beginPath(); x.arc(cx, cy, r, 0, Math.PI * 2); x.clip();
+  if (img) { const sc = Math.max(2 * r / img.naturalWidth, 2 * r / img.naturalHeight) * 1.12; x.drawImage(img, cx - img.naturalWidth * sc / 2, cy - img.naturalHeight * sc / 2, img.naturalWidth * sc, img.naturalHeight * sc); }
+  else { x.fillStyle = LINE; x.fillRect(cx - r, cy - r, 2 * r, 2 * r); }
+  x.restore(); x.strokeStyle = COPPER; x.lineWidth = 6; x.beginPath(); x.arc(cx, cy, r, 0, Math.PI * 2); x.stroke();
+  let y = cy + r + 110;
+  x.fillStyle = INK; x.font = `bold 84px ${FONT}`; x.fillText(tier, W / 2, y); y += 62;
+  x.fillStyle = COPPER; x.font = `bold 34px ${FONT}`; x.fillText(name + " (" + shown + ")", W / 2, y); y += 66;
+  x.fillStyle = INK; wrapLines(x, sentence, `32px ${FONT}`, W - 170).slice(0, 5).forEach(l => { x.font = `32px ${FONT}`; x.fillText(l, W / 2, y); y += 46; });
+  footer(x, W, H, tx, tx.brand);
+  return { blob: await new Promise(r2 => c.toBlob(r2, "image/jpeg", 0.92)), text: tx.msgSub(name, tier, shown === code.toUpperCase() ? code.toUpperCase() : code.toUpperCase()), title: tier + " – " + name, fname: code.toLowerCase() + (lang === "en" ? "-animal-card.jpg" : "-tierkarte.jpg") };
+}
+
 // Quiz-Punktestand: große Zahl und Herausforderung
 async function scoreCard(lang, page) {
   const tx = T[lang];
@@ -177,15 +204,15 @@ async function scoreCard(lang, page) {
   return { blob: await new Promise(r => c.toBlob(r, "image/jpeg", 0.92)), text: tx.msgScore(label, score), title: label, fname: lang === "en" ? "my-quiz-score.jpg" : "mein-quiz-ergebnis.jpg" };
 }
 
-function addButton(lang, anchor, builder, container, place) {
+function addButton(lang, anchor, builder, container, place, label, extra) {
   const tx = T[lang];
   const row = document.createElement("div"); row.className = "schaubild-share";
-  const b = document.createElement("button"); b.type = "button"; b.className = "pdf-share-btn"; b.textContent = tx.btn;
+  const b = document.createElement("button"); b.type = "button"; b.className = "pdf-share-btn"; b.textContent = label || tx.btn;
   b.addEventListener("click", async () => {
     const old = b.textContent; b.disabled = true; b.textContent = tx.busy;
     try {
       if (document.fonts && document.fonts.ready) await document.fonts.ready;
-      const r = await builder(lang, container);
+      const r = await builder(lang, container, extra);
       await finish(r.blob, r.fname, "image/jpeg", tx, r.title, r.text);
     } catch (e) { console.error(e); alert(tx.err); }
     finally { b.disabled = false; b.textContent = old; }
@@ -213,6 +240,10 @@ function mountOthers(lang) {
   // Tierquiz-Ergebnis (hat bereits einen Textknopf »Ergebnis teilen«, wir ergänzen die Bildkarte)
   const tq = document.querySelector('button[onclick*="_tqShare"]:not([data-share])');
   if (tq) { tq.dataset.share = "1"; const c2 = tq.closest(".typentest-card") || tq.parentElement; addButton(lang, tq, tierCard, c2, "after"); }
+  // Subtyp-Seite: Tierkarte
+  const hero = document.querySelector("section.subtype-hero:not([data-share])");
+  const sm = location.hash.match(/^#subtype\/(s[eopx][1-9])$/i);
+  if (hero && sm) { hero.dataset.share = "1"; addButton(lang, hero, subtypeTierCard, hero, "after", T[lang].btnTier, sm[1]); }
   // Quiz-Punktestand (Subtyp-Motivationsquiz und Comic-Quiz)
   const sq = document.querySelector('button.flash-btn[onclick*="Restart"]:not([data-share])');
   if (sq && /\d+\D+\d+/.test(txt((sq.closest(".page-content") || document).querySelector("h1")))) { sq.dataset.share = "1"; addButton(lang, sq, scoreCard, sq.closest(".page-content"), "before"); }
