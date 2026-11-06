@@ -27,6 +27,41 @@ const { registerEntries, registerEntriesEN } = await import(
 
 const SITE = "https://kompass.verlagshausrathmer.com";
 
+
+// Porträtbilder für die Link-Vorschau: liegen auf R2, die Datei wird einmal per HEAD geprüft und in
+// ai-prototype/og-images.json gemerkt (Route -> URL oder null), damit keine kaputten Vorschaubilder entstehen.
+const R2 = "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/";
+const ogCachePath = path.join(__dirname, "og-images.json");
+const ogCache = fs.existsSync(ogCachePath) ? JSON.parse(fs.readFileSync(ogCachePath, "utf-8")) : {};
+// Liefert 200, 404 oder 0 (Netzwerkfehler/Drosselung): nur 200/404 sind belastbar, alles andere wird nicht gemerkt.
+async function headStatus(url) {
+  for (let i = 0; i < 3; i++) {
+    try {
+      const r = await fetch(url, { method: "HEAD" });
+      if (r.status === 200 || r.status === 404) return r.status;
+    } catch {}
+    await new Promise(res => setTimeout(res, 400 * (i + 1)));
+  }
+  return 0;
+}
+{
+  const routes = [...new Set([...registerEntries, ...registerEntriesEN].map(e => e.route))]
+    .filter(r => /^(beruehmte|krankheitsportraets|kriminalpsychologie)-/.test(r) && !(r in ogCache));
+  for (let i = 0; i < routes.length; i += 8) {
+    await Promise.all(routes.slice(i, i + 8).map(async r => {
+      const slug = r.replace(/^[a-z]+-/, "");
+      let unsure = false;
+      for (const name of [r, "beruehmte-" + slug]) {
+        const s = await headStatus(R2 + name + "-portrait.jpg");
+        if (s === 200) { ogCache[r] = R2 + name + "-portrait.jpg"; return; }
+        if (s === 0) unsure = true;
+      }
+      if (!unsure) ogCache[r] = null;
+    }));
+  }
+  if (routes.length) fs.writeFileSync(ogCachePath, JSON.stringify(ogCache, null, 1), "utf-8");
+}
+
 function sanitizeRoute(route) {
   // Nur a-z0-9-/ erlauben, keine .. o.ä. - Register-Routen sind alle sauber,
   // aber sicherheitshalber verifizieren statt blind vertrauen.
@@ -36,7 +71,7 @@ function sanitizeRoute(route) {
   return route;
 }
 
-function buildPage(template, { route, title, description, canonical, base }) {
+function buildPage(template, { route, title, description, canonical, base, ogImage }) {
   let html = template;
 
   html = html.replace(/<head>/, `<head>\n    <base href="${base}">`);
@@ -61,6 +96,13 @@ function buildPage(template, { route, title, description, canonical, base }) {
     /<meta property="og:url" content="[^"]*"\s*\/?>/,
     `<meta property="og:url" content="${canonical}" />`
   );
+  // Link-Vorschau (Facebook, WhatsApp ...): bei Porträts das Porträtbild statt des allgemeinen Bildes
+  if (ogImage) {
+    html = html.replace(/<meta property="og:image" content="[^"]*"\s*\/?>/, `<meta property="og:image" content="${ogImage}" />`);
+    html = html.replace(/<meta name="twitter:image" content="[^"]*"\s*\/?>/, `<meta name="twitter:image" content="${ogImage}" />`);
+    html = html.replace(/\s*<meta property="og:image:width" content="[^"]*"\s*\/?>/, "");
+    html = html.replace(/\s*<meta property="og:image:height" content="[^"]*"\s*\/?>/, "");
+  }
   html = html.replace(
     /<link rel="canonical" href="[^"]*"\s*\/?>/,
     `<link rel="canonical" href="${canonical}" />`
@@ -95,7 +137,8 @@ let unchanged = 0;
 function metaOf(html) {
   const title = (html.match(/<title>([\s\S]*?)<\/title>/) || [])[1] || "";
   const desc = (html.match(/<meta name="description" content="([^"]*)"/) || [])[1] || "";
-  return title + "|" + desc;
+  const og = (html.match(/<meta property="og:image" content="([^"]*)"/) || [])[1] || "";
+  return title + "|" + desc + "|" + og;
 }
 function writePage(outDir, html) {
   const file = path.join(outDir, "index.html");
@@ -143,6 +186,7 @@ function run() {
         description: entry.description,
         canonical,
         base: `${SITE}/`,
+        ogImage: ogCache[route] || null,
       });
       writePage(path.join(rootDir, route), html);
       generatedRoutes.de.push(route);
@@ -162,6 +206,7 @@ function run() {
         description: entry.description,
         canonical,
         base: `${SITE}/en/`,
+        ogImage: ogCache[route] || null,
       });
       writePage(path.join(rootDir, "en", route), html);
       generatedRoutes.en.push(route);
