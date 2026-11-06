@@ -49914,8 +49914,8 @@ function _sbMount() {
 }
 let _rsMod = null;
 function _rsMount() {
-  if (!document.querySelector(".typentest-card--result:not([data-share])")) return;
-  (_rsMod || (_rsMod = import("../data/result-share.js?v=1"))).then(m => m.mountResultShare("en")).catch(() => {});
+  if (!document.querySelector('.typentest-card--result:not([data-share]), button[onclick*="_tqShare"]:not([data-share]), button.flash-btn[onclick*="Restart"]:not([data-share])')) return;
+  (_rsMod || (_rsMod = import("../data/result-share.js?v=2"))).then(m => m.mountResultShare("en")).catch(() => {});
 }
 new MutationObserver(() => { _pdfMount(); _sbMount(); _rsMount(); }).observe(document.body, { childList: true, subtree: true });
 _pdfMount(); _sbMount(); _rsMount();
