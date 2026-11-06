@@ -3344,6 +3344,7 @@ export function bruceDarnellPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
+          <p class="vb-intro">Für die sexuelle Zwei ist der eine Mensch der Mittelpunkt. Bei Darnell zeigt sich das an seinem langjährigen Partner. Nach Medienberichten waren sie mehr als 25 Jahre zusammen; er pflegte ihn etwa zweieinhalb Jahre zu Hause, als dieser an Krebs erkrankt war, und begleitete ihn bis zum Tod. Darüber sprach er erstmals im Juli 2023 in der NDR Talk Show und 2026 in der Online-Sendung ›Böhmi brutzelt‹; dort nannte er es sinngemäß ›einen schönen Tod‹, weil er bei ihm sein konnte. Er habe, sagte er früher, zehn Jahre gebraucht, um darüber hinwegzukommen, und fühle sich dem Verstorbenen weiter verbunden. Der Partner wird hier bewusst nicht namentlich genannt.</p>
           <p class="vb-intro">Hell ist die Wärme, die ihn über zwei Jahrzehnte im Fernsehen gehalten hat, und die Offenheit, mit der er über sich spricht. Im stern sagte er 2010: ›Eigentlich kämpfe ich schon mein ganzes Leben lang mit Depressionen.‹ Nach einer schweren Krise mit einem Autounfall, von dem er sagt, es sei ein Wunder gewesen, dass er überlebte, machte er etwa ein Jahr lang eine Psychotherapie. Der Schatten der Zwei mit Dreierflügel ist, dass Zuwendung und Auftritt ineinanderfließen: Wer gebraucht und gemocht werden will, hat es schwer, wenn die Show endet. Beides zeigt sich in seiner Laufbahn: die abgesetzte Daytime-Show 2008 und die nicht fortgesetzte Prime-Time-Show 2021 neben vielen Jahren in festen Rollen. Das Porträt hält fest, was er selbst öffentlich gesagt hat.</p>
         </blockquote>
 
@@ -3354,7 +3355,7 @@ export function bruceDarnellPortraitPage() {
 
         <h2 class="vb-section">7. Promibacken, Supertalent und die Frage nach der nächsten Bühne</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Stand 6. November 2026: Darnell war 2024 und 2025 wieder in der <em>Supertalent</em>-Jury. Bei <em>Das große Promibacken</em> (Sat.1, Staffel 9, ab 19. Februar 2025) musste er nach der fünften Woche aufgeben, nachdem er sich mit einem Pürierstab verletzt hatte; im Joyn-Interview zeigte er sich optimistisch für eine Rückkehr in die Backstube. Im September 2025 war er Gastjuror beim Coach-Special von <em>Grill den Henssler</em> bei RTL. Nach Angaben in seiner Wikipedia-Biografie lebte er zuletzt bei Aachen und nach einem Auftritt 2026 auf Ibiza, wo er ein Einrichtungsgeschäft führt. Konkrete neue Projekte für 2026 habe ich nicht gefunden.</p>
+          <p class="vb-intro">Stand 6. November 2026: Darnell war 2024 und 2025 wieder in der <em>Supertalent</em>-Jury. Bei <em>Das große Promibacken</em> (Sat.1, Staffel 9, ab 19. Februar 2025) musste er nach der fünften Woche aufgeben, nachdem er sich mit einem Pürierstab verletzt hatte; im Joyn-Interview zeigte er sich optimistisch für eine Rückkehr in die Backstube. Im September 2025 war er Gastjuror beim Coach-Special von <em>Grill den Henssler</em> bei RTL. In der Online-Sendung ›Böhmi brutzelt‹ (2026) sagte er nach Medienberichten, er lebe allein auf Ibiza in einem kleinen, bescheidenen Haus und werde nie in Rente gehen; laut Wikipedia führt er dort ein Einrichtungsbüro. Konkrete neue Projekte für 2026 habe ich nicht gefunden.</p>
         </blockquote>
 
       </div>

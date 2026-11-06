@@ -3373,6 +3373,7 @@ export function bruceDarnellPortraitPage() {
 
         <h2 class="vb-section">5. Light and shadow</h2>
         <blockquote class="vb-blockquote">
+          <p class="vb-intro">For the sexual Two the one person is the centre. With Darnell this shows in his long-term partner. According to media reports they were together for more than 25 years; he nursed him at home for about two and a half years when he had cancer and accompanied him to the end. He first spoke about it in July 2023 on the NDR Talk Show and in 2026 in the online show &lsquo;Böhmi brutzelt&rsquo;; there he called it, in essence, &lsquo;a beautiful death&rsquo; because he could be with him. He said earlier that it took him ten years to get over it, and he still feels connected to the deceased. The partner is deliberately not named here.</p>
           <p class="vb-intro">Bright is the warmth that has kept him on television for two decades, and the openness with which he talks about himself. In <em>stern</em> in 2010 he said: &lsquo;Actually I have been struggling with depression my whole life.&rsquo; After a severe crisis involving a car accident, which he says he survived by a miracle, he underwent about a year of psychotherapy. The shadow of the Two with a Three-wing is that care and performance flow into each other: whoever wants to be needed and liked has a hard time when the show ends. Both appear in his career: the daytime show cancelled in 2008 and the prime-time show not continued in 2021 alongside many years in fixed roles. The portrait records what he has said publicly himself.</p>
         </blockquote>
 
@@ -3383,7 +3384,7 @@ export function bruceDarnellPortraitPage() {
 
         <h2 class="vb-section">7. Celebrity baking, Supertalent and the question of the next stage</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">As of 6 November 2026: Darnell was back on the <em>Supertalent</em> jury in 2024 and 2025. On <em>Das große Promibacken</em> (Sat.1, season 9, from 19 February 2025) he had to give up after week five after injuring himself with a hand blender; in a Joyn interview he was optimistic about returning to the baking tent. In September 2025 he was a guest judge at the coach special of <em>Grill den Henssler</em> on RTL. According to his Wikipedia biography he lived near Aachen and, after an appearance in 2026, on Ibiza, where he runs an interior design business. I found no concrete new projects for 2026.</p>
+          <p class="vb-intro">As of 6 November 2026: Darnell was back on the <em>Supertalent</em> jury in 2024 and 2025. On <em>Das große Promibacken</em> (Sat.1, season 9, from 19 February 2025) he had to give up after week five after injuring himself with a hand blender; in a Joyn interview he was optimistic about returning to the baking tent. In September 2025 he was a guest judge at the coach special of <em>Grill den Henssler</em> on RTL. In the online show &lsquo;Böhmi brutzelt&rsquo; (2026) he said, according to media reports, that he lives alone on Ibiza in a small, modest house and will never retire; according to Wikipedia he runs an interior design office there. I found no concrete new projects for 2026.</p>
         </blockquote>
 
       </div>
