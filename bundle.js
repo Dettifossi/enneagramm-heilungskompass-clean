@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=475";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=476";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -549,6 +549,7 @@ const robertCrumbPortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js",
 const seanConneryPortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", "seanConneryPortraitPage");
 const stanLaurelPortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", "stanLaurelPortraitPage");
 const tELawrencePortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", "tELawrencePortraitPage");
+const lewisCapaldiPortraitPage = () => _lazyPage("./data/beruehmte-de/teil3.js", "lewisCapaldiPortraitPage");
 const hubertAiwangerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil1.js", "hubertAiwangerPortraitPage");
 const timCookPortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", "timCookPortraitPage");
 const udoLindenbergPortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", "udoLindenbergPortraitPage");
@@ -27671,6 +27672,10 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-phil-collins", name:"Phil Collins", added:"2026-09-12", subtyp:"SE1w9",
     heading:"Phil Collins \u2013 Selbsterhaltender Typ 1",
     teaser:"SE1w9 \u00b7 geb. 1951. Musiker, Schlagzeuger und S\u00e4nger von Genesis, gefeierter Solok\u00fcnstler. Spielte trotz schwerer Nervensch\u00e4digung und Wirbels\u00e4ulenverletzung sitzend weiter Konzerte. Der Adler, der weiterspielte, als seine H\u00e4nde es nicht mehr konnten.",
+    land:"Gro\u00dfbritannien", tags:["Musik"], gender:"m"},
+  { route:"beruehmte-lewis-capaldi", name:"Lewis Capaldi", added:"2026-11-06", subtyp:"SE4w3",
+    heading:"Lewis Capaldi \u2013 Selbsterhaltender Typ 4",
+    teaser:"SE4w3 \u00b7 geb. 1996 in Glasgow. Schottischer S\u00e4nger und Songwriter, \u00bbSomeone You Loved\u00ab, Brit Awards 2020, Tourette-Diagnose \u00f6ffentlich gemacht. Die Taube, die Schmerz ohne Pose singt und sich mit Humor sch\u00fctzt. Tierentsprechung: Taube.",
     land:"Gro\u00dfbritannien", tags:["Musik"], gender:"m"},
   { route:"beruehmte-hubert-aiwanger", name:"Hubert Aiwanger", added:"2026-11-06", subtyp:"SE1w9",
     heading:"Hubert Aiwanger \u2013 Selbsterhaltender Typ 1",
@@ -68565,7 +68570,7 @@ const ROUTES = {
       "beruehmte-soeren-kierkegaard": soerenKierkegaardPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-phil-collins": philCollinsPortraitPage,
-      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage,
+      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage,
       "beruehmte-harald-v": haraldVPortraitPage,
       "beruehmte-carl-xvi-gustaf": carlXVIGustafPortraitPage,
       "beruehmte-johannes-paul-ii": johannesPaulIIPortraitPage,

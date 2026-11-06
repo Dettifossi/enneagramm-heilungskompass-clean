@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2732", date: "2026-11-06", text: "Neues Porträt: Lewis Capaldi (SE4w3) – schottischer Sänger und Songwriter, der Schmerz ohne Pose singt.", text_en: "New portrait: Lewis Capaldi (SP4w3) – Scottish singer-songwriter who sings pain without a pose.", route: "beruehmte-lewis-capaldi" },
     { version: "v2731", date: "2026-11-06", text: "Neu: Impuls von heute – der Tagesimpuls lässt sich jederzeit erneut öffnen und teilen (Praxis).", text_en: "New: Today's Impulse – reopen and share the daily impulse at any time (Practice).", route: "impuls-heute" },
     { version: "v2730", date: "2026-11-06", text: "Neues Porträt: Hubert Aiwanger (SE1w9) – bayerischer Politiker der Freien Wähler, am 4. November 2026 in Berlin gestorben.", text_en: "New portrait: Hubert Aiwanger (SE1w9) – Bavarian Free Voters politician, died on 4 November 2026 in Berlin.", route: "beruehmte-hubert-aiwanger" },
     { version: "v2729", date: "2026-11-05", text: "Neu: Schattenprofile nach Naranjo – zu allen 27 Subtypen je neun zugespitzte Schattenzüge mit Wandlung (unter Wissen, Muster-Kompasse).", text_en: "New: Shadow Profiles after Naranjo – nine sharpened shadow traits with transformation for each of the 27 subtypes (under Knowledge, Pattern Compasses).", route: "naranjo-schattenprofile" },

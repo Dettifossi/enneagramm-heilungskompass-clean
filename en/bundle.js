@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=472";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=473";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -559,6 +559,7 @@ const parisHiltonPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js",
 const reneDescartesPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "reneDescartesPortraitPage");
 const seanConneryPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "seanConneryPortraitPage");
 const tELawrencePortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "tELawrencePortraitPage");
+const lewisCapaldiPortraitPage = () => _lazyPage("./data/beruehmte-en/teil18.js", "lewisCapaldiPortraitPage");
 const hubertAiwangerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "hubertAiwangerPortraitPage");
 const timCookPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "timCookPortraitPage");
 const udoLindenbergPortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", "udoLindenbergPortraitPage");
@@ -1897,6 +1898,10 @@ const BERUEHMT_PORTRAITS = [
 { route:"beruehmte-phil-collins", name:"Phil Collins", added:"2026-09-12", subtyp:"SE1w9",
     heading:"Phil Collins – Self-Preservation Type 1",
     teaser:"SP1w9 · b. 1951. Musician, drummer and singer of Genesis, celebrated solo artist. Kept performing seated despite severe nerve damage and a spinal injury. The eagle who kept playing after his hands no longer could.",
+    land:"United Kingdom", tags:["Music"], gender:"m"},
+{ route:"beruehmte-lewis-capaldi", name:"Lewis Capaldi", added:"2026-11-06", subtyp:"SE4w3",
+    heading:"Lewis Capaldi \u2013 Self-Preservation Type 4",
+    teaser:"SP4w3 \u00b7 b. 1996 in Glasgow. Scottish singer-songwriter, \u2018Someone You Loved\u2019, 2020 Brit Awards, made his Tourette diagnosis public. The dove who sings pain without a pose and protects himself with humour. Animal correspondence: Dove.",
     land:"United Kingdom", tags:["Music"], gender:"m"},
 { route:"beruehmte-hubert-aiwanger", name:"Hubert Aiwanger", added:"2026-11-06", subtyp:"SE1w9",
     heading:"Hubert Aiwanger \u2013 Self-Preservation Type 1",
@@ -48440,7 +48445,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-pamela-reif": pamelaReifPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-phil-collins": philCollinsPortraitPage,
-      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage,
+      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage,
       "beruehmte-harald-v": haraldVPortraitPage,
       "beruehmte-carl-xvi-gustaf": carlXVIGustafPortraitPage,
       "beruehmte-johannes-paul-ii": johannesPaulIIPortraitPage,

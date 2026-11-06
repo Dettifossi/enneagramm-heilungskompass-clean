@@ -3156,3 +3156,72 @@ export function johnBrownPortraitPage() {
     </div>
   `);
 }
+
+export function lewisCapaldiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-lewis-capaldi-portrait.jpg" alt="Lewis Capaldi – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-lewis-capaldi-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Lewis Capaldi</p>
+        <p class="krim-portrait-typ">SE4w3 &middot; Selbsterhaltender Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Schottischer Sänger und Songwriter, 1996 in Glasgow geboren &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube aus West Lothian</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist die tierische Entsprechung der selbsterhaltenden Vier: zart in der Erscheinung, aber zäh und fähig, den Weg auch über weite Strecken zurückzufinden. Lewis Marc Capaldi wurde am 7. Oktober 1996 in Glasgow geboren und zog mit vier Jahren nach East Whitburn in West Lothian. Er hat schottische, irische und italienische Vorfahren und drei ältere Geschwister; mit dem Schauspieler Peter Capaldi ist er entfernt verwandt (Cousin zweiten Grades, eine Generation versetzt). Mit neun lernte er Gitarre, spielte als Jugendlicher in Pubs und schloss 2016 am New College Lanarkshire ein Musikstudium (HND) ab.</p>
+          <p class="vb-intro">Sein Start war fast zufällig: Sein späterer Manager Ryan Walter entdeckte ihn über einen SoundCloud-Upload, eine iPhone-Aufnahme aus dem Kinderzimmer. Im März 2017 erschien ›Bruises‹ in Eigenregie, später folgten der Plattenvertrag und die EP <em>Breach</em>.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Schmerz aushalten, ohne ihn zu inszenieren</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> trägt ihr tiefes Gefühlsleben still und stellt es nicht zur Schau. Nach Claudio Naranjo ist ihr Schlüsselwort <em>Dauntlessness</em>, die Unerschrockenheit, das eigene Leiden auszuhalten, ohne es zur Schau zu stellen. Bei Capaldi wird das Leiden zum Lied, aber es wird nicht verziert: Die großen Balladen handeln von Liebeskummer und Verlust, und ›Someone You Loved‹ soll nach Medienberichten nach dem Tod seiner Großmutter entstanden sein. Er stellt Trauer schlicht dar, fast ohne Pose.</p>
+          <p class="vb-intro">Typisch für diesen Subtyp ist, was er drumherum tut. Er macht sich klein, bevor andere es tun: In Interviews und im Netz macht er sich über sein Aussehen, seine Lieder und sich selbst lustig. Dieser selbstironische Humor wirkt wie ein Schutzschild; er lässt die innere Tiefe privat und gibt der Öffentlichkeit jemanden, mit dem man lachen kann. Die Zuordnung ist eine Deutung, keine Diagnose.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Bühne, Charts, Druck</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der Vier Sichtbarkeit und Antrieb. Capaldi wollte nicht nur fühlen, er wollte, dass seine Lieder ankommen. Das Ergebnis war ein außergewöhnlicher Erfolg binnen zwei Jahren und mit ihm der Druck, liefern zu müssen. Die Netflix-Dokumentation <em>How I’m Feeling Now</em> (5. April 2023) zeigt ihn ängstlich vor dem zweiten Album und vor Auftritten, auf der Suche, so der Film, nach einem sicheren Ort zum Landen. Die Drei in ihm will liefern, die Vier in ihm fürchtet, dass es nicht reicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: eine Stimme, die aufbricht und trägt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Einzigartig machte Capaldi zuerst die Stimme: heiser, rau, mit Kante, zwischen fast geflüstertem Beginn der Strophe und einem offenen Ausbruch im Refrain. Es klingt, als koste jeder Ton etwas, und genau deshalb glauben ihm die Hörer. Dazu kommen schlicht gebaute Lieder mit direkter Sprache, die sagen, was sie meinen.</p>
+          <p class="vb-intro">Die Zahlen zeigen, wie gut das funktionierte. ›Someone You Loved‹ (auf <em>Breach</em>, November 2018) war 2019 sieben Wochen auf Platz eins der britischen Charts und die meistverkaufte britische Single des Jahres; in den USA erreichte sie Platz eins der Billboard Hot 100, als erster schottischer Solokünstler seit Sheena Easton 1981. Sie brachte eine Grammy-Nominierung als Song des Jahres. Sein Debütalbum <em>Divinely Uninspired to a Hellish Extent</em> (17. Mai 2019) stieg in Großbritannien auf Platz eins ein und war 2019 und 2020 das meistverkaufte Album des Landes. Bei den Brit Awards 2020 gewann er als bester Newcomer und mit dem Song des Jahres. Das zweite Album, <em>Broken by Desire to Be Heavenly Sent</em> (2023), brachte die Nummer-eins-Singles ›Forget Me‹, ›Pointless‹ und ›Wish You the Best‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Offenheit, mit der er in einer auf Glanz getrimmten Branche über Angst und Zweifel spricht. Im September 2022 machte er sein Tourette-Syndrom öffentlich. Am 24. Juni 2023 beeinträchtigten Tics bei Glastonbury seine Stimme während ›Someone You Loved‹, das Publikum sang den Rest des Liedes. Wenige Tage später kündigte er eine Tourpause auf unbestimmte Zeit an, um sich auf die Folgen der Erkrankung einzustellen. Tourette ist eine neurologische Erkrankung und keine Folge seines Typs; das Porträt hält nur fest, wie er damit umging: ohne es zu verstecken.</p>
+          <p class="vb-intro">Der Schatten der Vier mit Dreierflügel ist der Druck, sich beweisen zu müssen und sich dabei unwürdig zu fühlen. Der Rückzug war die Antwort, die ihn schützte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine weitere Sängerin dieses Subtyps, die privaten Schmerz in Welthits verwandelte, ist <a href="#beruehmte-adele">Adele (SE4w3)</a>: auch sie zog sich nach riesigem Erfolg zurück und kehrte nach langer Pause wieder. <a href="#beruehmte-tim-bendzko">Tim Bendzko (SE4w3)</a> teilt das sanfte, melancholische Liedermachen ohne große Pose. Der Unterschied: Capaldi setzt Humor als Rüstung offener und lauter ein als die anderen, die sich mit Schweigen schützen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Wo es steht (Stand 6. November 2026)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Juni 2025 kehrte Capaldi mit einem Überraschungsauftritt in Glastonbury zurück, seinem ersten öffentlichen Auftritt seit der Pause. Die Comeback-Single ›Survive‹ erreichte Platz eins in Großbritannien; am 14. November 2025 folgte die EP <em>Survive</em>. Im Sommer 2026 trat er unter anderem bei TRNSMT, beim Isle of Wight Festival und beim BST Hyde Park auf. Nach eigenen Angaben arbeitet er an einem dritten Studioalbum und will sich nach dem Sommer dafür aus dem Rampenlicht zurückziehen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se4", label:"Lebensmusterkompass: SE4 – Taube"},
+        {route:"beruehmte-adele", label:"Porträt: Adele (SE4w3)"},
+        {route:"beruehmte-tim-bendzko", label:"Porträt: Tim Bendzko (SE4w3)"},
+      ])}
+    </div>
+  `);
+}

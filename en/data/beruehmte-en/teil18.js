@@ -3190,3 +3190,72 @@ export function christineLagardePortraitPage() {
     </div>
   `);
 }
+
+export function lewisCapaldiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-lewis-capaldi-portrait.jpg" alt="Lewis Capaldi – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-lewis-capaldi-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Lewis Capaldi</p>
+        <p class="krim-portrait-typ">SP4w3 &middot; Self-Preservation Type 4 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Scottish singer-songwriter, born 1996 in Glasgow &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Dove from West Lothian</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>dove</strong> is the animal correspondence of the self-preservation Four: soft in appearance, but tough, and able to find its way back over long distances. Lewis Marc Capaldi was born on 7 October 1996 in Glasgow and moved at the age of four to East Whitburn in West Lothian. He has Scottish, Irish and Italian ancestry and three older siblings; the actor Peter Capaldi is a second cousin once removed. He learned guitar at nine, played pub gigs as a teenager and finished a Higher National Diploma in Music at New College Lanarkshire in 2016.</p>
+          <p class="vb-intro">His start was almost accidental: his later manager Ryan Walter found him through a SoundCloud upload, an iPhone recording made in his bedroom. In March 2017 he released &lsquo;Bruises&rsquo; independently; later came the major-label deal and the EP <em>Breach</em>.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Four: enduring pain without staging it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Four (SP4)</strong> carries a deep emotional life quietly and does not put it on display. According to Claudio Naranjo her key word is <em>dauntlessness</em>: the ability to endure one&rsquo;s own suffering without making a show of it. With Capaldi the suffering becomes song, but it is not decorated: the big ballads are about heartbreak and loss, and &lsquo;Someone You Loved&rsquo; is widely reported to have been written after the death of his grandmother. He presents grief plainly, almost without a pose.</p>
+          <p class="vb-intro">Typical for this subtype is what he does around it. He makes himself small before others can: in interviews and online he mocks his looks, his songs and himself. This self-deprecating humour reads as a shield; it lets the inner depth remain private while the public gets someone to laugh with. The classification is an interpretation, not a diagnosis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-wing: the stage, the charts, the pressure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Four visibility and drive. Capaldi did not only want to feel; he wanted his songs to land. The result was extraordinary success within two years, and with it the pressure of having to deliver. The Netflix documentary <em>How I&rsquo;m Feeling Now</em> (5 April 2023) shows him anxious in front of the second album and before performing on stage, searching, in the film&rsquo;s words, for a safe place to land. The Three in him wants to deliver, the Four in him fears that it is not enough.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: a voice that breaks open and holds</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What made Capaldi unique is first of all the voice: hoarse, raw, with an edge, moving between a near-whisper in the verse and an open-throated outburst in the chorus. It sounds as if each note costs something, and that is exactly why listeners believe it. Added to that are songs of plain construction and direct language that say what they mean.</p>
+          <p class="vb-intro">The numbers show how well this worked. &lsquo;Someone You Loved&rsquo; (from <em>Breach</em>, November 2018) was number one in the UK for seven weeks in 2019 and the best-selling UK single of that year; in the USA it reached number one on the Billboard Hot 100, as the first Scottish solo artist since Sheena Easton in 1981. It brought a Grammy nomination for Song of the Year. His debut album <em>Divinely Uninspired to a Hellish Extent</em> (17 May 2019) went straight to number one in the UK and was the best-selling UK album of 2019 and 2020. At the 2020 Brit Awards he won Best New Artist and Song of the Year. The second album, <em>Broken by Desire to Be Heavenly Sent</em> (2023), produced the number-one singles &lsquo;Forget Me&rsquo;, &lsquo;Pointless&rsquo; and &lsquo;Wish You the Best&rsquo;.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is the openness with which he speaks of fear and doubt in an industry that rewards polish. In September 2022 he made his Tourette syndrome public. On 24 June 2023 his tics affected his voice at Glastonbury during &lsquo;Someone You Loved&rsquo;, and the audience sang the rest of the song. A few days later he announced an indefinite break from touring to adjust to the impact of the condition. Tourette&rsquo;s is a neurological condition and not a result of his type; the portrait only records how he dealt with it: without hiding it.</p>
+          <p class="vb-intro">The shadow of the Four with a Three-wing is the pressure to prove oneself while feeling unworthy. Withdrawal was the answer that protected him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Another singer of this subtype who turned private pain into world hits is <a href="#beruehmte-adele">Adele (SP4w3)</a>: she too withdrew after huge success and returned after a long pause. <a href="#beruehmte-tim-bendzko">Tim Bendzko (SP4w3)</a> shares the gentle, melancholy songwriting without a big pose. The difference: Capaldi uses humour as armour more openly and more loudly than the others, who protect themselves with silence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where things stand (as of 6 November 2026)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In June 2025 Capaldi returned with a surprise set at Glastonbury, his first public performance since the break. The comeback single &lsquo;Survive&rsquo; reached number one in the UK; the EP <em>Survive</em> followed on 14 November 2025. In summer 2026 he played, among others, TRNSMT, the Isle of Wight Festival and BST Hyde Park. According to his own statements a third studio album is in progress, and he plans to step back from the spotlight after the summer to work on it.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"lebensmusterkompass/se4", label:"Life Pattern Compass: SP4 – Dove"},
+        {route:"beruehmte-adele", label:"Portrait: Adele (SP4w3)"},
+        {route:"beruehmte-tim-bendzko", label:"Portrait: Tim Bendzko (SP4w3)"},
+      ])}
+    </div>
+  `);
+}
