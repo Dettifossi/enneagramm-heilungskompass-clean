@@ -21,6 +21,7 @@ const T = {
     footMed: " Keine medizinische Aussage.",
     shareTitle: "Porträt als PDF weitergeben",
     btn: "Als PDF weitergeben",
+    btnImg: "Als Bild teilen",
     busy: "PDF wird erstellt …",
     err: "Das PDF konnte nicht erstellt werden.",
     page: "Seite",
@@ -38,6 +39,7 @@ const T = {
     footMed: " Not a medical statement.",
     shareTitle: "Share portrait as PDF",
     btn: "Share as PDF",
+    btnImg: "Share as image",
     busy: "Creating PDF …",
     err: "The PDF could not be created.",
     page: "Page",
@@ -328,6 +330,72 @@ async function toPdf(doc, title, W = PAGE_W, H = PAGE_H) {
 
 export function pagesToPdf(pages, title, W, H) { return toPdf({ pages }, title, W, H); }
 
+function plain(runs) { return runs.map(r => r.t || "").join("").replace(/\s+/g, " ").trim(); }
+function excerpt(data) {
+  let txt = data.intro ? plain(data.intro) : "";
+  const s = data.sections.find(x => x.paras.length);
+  if (s) for (const p of s.paras) { if (txt.length >= 380) break; txt += (txt ? " " : "") + plain(p); }
+  if (txt.length <= 520) return txt;
+  const cut = txt.slice(0, 520), p = Math.max(cut.lastIndexOf(". "), cut.lastIndexOf("! "), cut.lastIndexOf("? "));
+  return p > 260 ? cut.slice(0, p + 1) : cut.replace(/\s+\S*$/, "") + " …";
+}
+
+// Bildkarte 1080 x 1350 (4:5) zum Teilen, z. B. für Facebook und Instagram (dort sind PDFs nicht möglich)
+async function buildCard(lang, route) {
+  const tx = T[lang], data = readPage(lang);
+  if (!data) throw new Error("no page");
+  const W = 1080, H = 1350;
+  const c = document.createElement("canvas"); c.width = W; c.height = H;
+  const x = c.getContext("2d");
+  x.fillStyle = PAPER; x.fillRect(0, 0, W, H);
+  x.fillStyle = COPPER; x.fillRect(0, 0, W, 12);
+  x.textBaseline = "alphabetic"; x.textAlign = "center";
+  x.fillStyle = COPPER; x.font = `600 26px ${FONT}`; x.letterSpacing = "3px"; x.fillText(tx.brand.toUpperCase(), W / 2, 62); x.letterSpacing = "0px";
+  const img = await loadImage(data.imgSrc);
+  const sz = 560, ix = (W - sz) / 2, iy = 92;
+  if (img) {
+    x.save(); x.beginPath(); x.rect(ix, iy, sz, sz); x.clip();
+    const sc = Math.max(sz / img.naturalWidth, sz / img.naturalHeight), w = img.naturalWidth * sc, h = img.naturalHeight * sc;
+    x.drawImage(img, ix + (sz - w) / 2, iy + (sz - h) / 2, w, h); x.restore();
+    x.strokeStyle = LINE; x.lineWidth = 2; x.strokeRect(ix, iy, sz, sz);
+  }
+  let y = iy + sz + 70;
+  const wrapLines = (txt, font, maxW) => { x.font = font; const ws = txt.split(" "), ls = []; let cur = ""; ws.forEach(w => { const t2 = cur ? cur + " " + w : w; if (x.measureText(t2).width > maxW && cur) { ls.push(cur); cur = w; } else cur = t2; }); if (cur) ls.push(cur); return ls; };
+  x.fillStyle = INK; wrapLines(data.name, `bold 54px ${FONT}`, W - 140).slice(0, 2).forEach(l => { x.font = `bold 54px ${FONT}`; x.fillText(l, W / 2, y); y += 62; });
+  x.fillStyle = COPPER; wrapLines(data.typ, `bold 32px ${FONT}`, W - 140).slice(0, 2).forEach(l => { x.font = `bold 32px ${FONT}`; x.fillText(l, W / 2, y); y += 40; });
+  y += 14;
+  x.fillStyle = INK;
+  wrapLines(excerpt(data), `30px ${FONT}`, W - 150).slice(0, 8).forEach(l => { x.font = `30px ${FONT}`; x.fillText(l, W / 2, y); y += 42; });
+  // Fuß
+  x.fillStyle = COPPER; x.fillRect(0, H - 92, W, 3);
+  x.fillStyle = MUTED; x.font = `24px ${FONT}`; x.fillText(tx.full.replace(/:$/, ""), W / 2, H - 56);
+  x.fillStyle = COPPER; x.font = `bold 26px ${FONT}`; x.fillText((tx.base + route + "/").replace("https://", ""), W / 2, H - 22);
+  const blob = await new Promise(r => c.toBlob(r, "image/jpeg", 0.92));
+  return { blob, name: data.name };
+}
+
+export async function sharePortraitCard(lang, route, btn) {
+  const tx = T[lang];
+  const label = btn ? btn.textContent : "";
+  if (btn) { btn.disabled = true; btn.textContent = tx.busy; }
+  try {
+    if (document.fonts && document.fonts.ready) await document.fonts.ready;
+    const { blob, name } = await buildCard(lang, route);
+    const fname = route.replace(/^[a-z]+-/, "") + (lang === "en" ? "-card" : "-karte") + ".jpg";
+    const file = new File([blob], fname, { type: "image/jpeg" });
+    const text = name + " – " + tx.brand + "\n" + tx.base + route + "/";
+    if (window.__pdfTest) { window.__pdfTest(blob, fname); return; }
+    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+      try { await navigator.share({ files: [file], title: name, text }); return; }
+      catch (e) { if (e && e.name === "AbortError") return; }
+    }
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a"); a.href = url; a.download = fname; document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 30000);
+  } catch (e) { console.error(e); alert(tx.err); }
+  finally { if (btn) { btn.disabled = false; btn.textContent = label; } }
+}
+
 export async function sharePortraitPdf(lang, route, btn) {
   const tx = T[lang];
   const label = btn ? btn.textContent : "";
@@ -360,8 +428,9 @@ export function mountPdfButton(lang) {
   wrap.dataset.pdf = "1";
   if (!isShareable(route)) return;
   const tx = T[lang];
-  const b = document.createElement("button");
-  b.type = "button"; b.className = "pdf-share-btn"; b.textContent = tx.btn;
-  b.addEventListener("click", () => sharePortraitPdf(lang, route, b));
-  wrap.appendChild(b);
+  const row = document.createElement("div"); row.className = "schaubild-share";
+  const mk = (label, fn) => { const b = document.createElement("button"); b.type = "button"; b.className = "pdf-share-btn"; b.textContent = label; b.addEventListener("click", () => fn(lang, route, b)); return b; };
+  row.appendChild(mk(tx.btn, sharePortraitPdf));
+  row.appendChild(mk(tx.btnImg, sharePortraitCard));
+  wrap.appendChild(row);
 }

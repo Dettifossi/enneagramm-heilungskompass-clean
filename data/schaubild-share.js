@@ -1,8 +1,9 @@
 // Schaubilder zum Weitergeben: Bild mit Markenband (JPEG) oder als PDF mit anklickbarem Link.
 // Erscheint nur auf Schaubild-Seiten mit genau einem Hauptbild. Wird erst bei Bedarf nachgeladen.
-import { pagesToPdf } from "./pdf-share.js?v=6";
+import { pagesToPdf } from "./pdf-share.js?v=8";
 
 const SITE = "https://kompass.verlagshausrathmer.com";
+const MIN_WIDTH = 1200;   // Mindestbreite des Originalbilds in Pixeln
 const FONT = 'Georgia, "Times New Roman", serif';
 const COPPER = "#9a5b34", INK = "#2a2420", MUTED = "#6b625a", LINE = "#d9cdbd", PAPER = "#faf6ef";
 
@@ -107,6 +108,9 @@ export async function mountSchaubildButtons(lang) {
   if (cand.length < 1 || cand.length > 2) return;          // Galerien mit vielen Bildern: kein Knopf
   const main = cand[0];
   if (document.querySelector(".schaubild-share")) return;
+  // Nur scharfe Schaubilder weitergeben: zu kleine Bilder wirken beim Teilen und Drucken unscharf (schlechte Werbung)
+  const probe = await loadImg(main.currentSrc || main.src);
+  if (!probe || probe.naturalWidth < MIN_WIDTH) return;
   const route = location.hash.replace(/^#/, "").split("?")[0];
   if (!route || route.includes("/")) return;
   const tx = T[lang];

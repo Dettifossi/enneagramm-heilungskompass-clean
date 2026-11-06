@@ -70080,13 +70080,13 @@ new MutationObserver(() => _suchX(document)).observe(document.body, { childList:
 let _pdfMod = null;
 function _pdfMount() {
   if (!document.querySelector('.krim-portrait-wrap:not([data-pdf])')) return;
-  (_pdfMod || (_pdfMod = import("./data/pdf-share.js?v=6"))).then(m => m.mountPdfButton("de")).catch(() => {});
+  (_pdfMod || (_pdfMod = import("./data/pdf-share.js?v=8"))).then(m => m.mountPdfButton("de")).catch(() => {});
 }
 let _sbMod = null;
 function _sbMount() {
   const e = document.querySelector(".eyebrow:not([data-sbs])");
   if (!e || !/^(Schaubild|Chart|Diagram)/i.test(e.textContent.trim())) return;
-  (_sbMod || (_sbMod = import("./data/schaubild-share.js?v=6"))).then(m => m.mountSchaubildButtons("de")).catch(() => {});
+  (_sbMod || (_sbMod = import("./data/schaubild-share.js?v=7"))).then(m => m.mountSchaubildButtons("de")).catch(() => {});
 }
 new MutationObserver(() => { _pdfMount(); _sbMount(); }).observe(document.body, { childList: true, subtree: true });
 _pdfMount(); _sbMount();
