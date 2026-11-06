@@ -3280,41 +3280,43 @@ export function leonieBeneschPortraitPage() {
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Dove from Tübingen</h2>
+        <h2 class="vb-section">1. The Dove who often changed cities</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>dove</strong> is the animal correspondence of the self-preservation Four: soft in appearance, but tough, and able to find its way over long distances. Leonie Benesch was born on 22 April 1991 in Hamburg, grew up in Tübingen as the oldest of four children and later trained at the Guildhall School of Music and Drama in London.</p>
-          <p class="vb-intro">Her start came early: at seventeen she played Eva in Michael Haneke&rsquo;s <em>The White Ribbon</em> (2009), which won the Palme d&rsquo;Or in Cannes. Critics called her performance a discovery.</p>
+          <p class="vb-intro">The <strong>dove</strong> is the animal correspondence of the self-preservation Four: soft in appearance, but tough, and able to find its way over long distances. Leonie Benesch was born on 22 April 1991 in Hamburg. Her father, a physicist, became a pastor of the Christengemeinschaft (Christian Community); the family therefore moved often and she attended Waldorf and Rudolf Steiner schools in Göppingen, Tübingen and Bielefeld. Growing up like this teaches you early to find your way in new surroundings and to show little of it.</p>
+          <p class="vb-intro">At twenty she went to Berlin, and from 2013 to 2016 she trained at the Guildhall School of Music and Drama in London. By then she had already shot what most actresses never get: at eighteen she played Eva in Michael Haneke&rsquo;s <em>The White Ribbon</em> (2009), which won the Palme d&rsquo;Or in Cannes. She shared the New Faces Award for it and received a Young Artist Award. Looking back, she says she did not feel protected then and did not know how to handle the situation well.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The self-preservation Four: carrying pressure quietly</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation Four (SP4)</strong> carries a deep emotional life quietly and does not put it on display. According to Claudio Naranjo her key word is <em>dauntlessness</em>: the ability to endure one&rsquo;s own suffering without making a show of it. This fits the roles she is known for: people under pressure who hold on instead of exploding. The Four in her work is not the loud, theatrical one but the one who carries the weight and lets it show only in the face. The classification is an interpretation.</p>
+          <p class="vb-intro">The <strong>self-preservation Four (SP4)</strong> carries a deep emotional life quietly and does not put it on display. According to Claudio Naranjo her key word is <em>dauntlessness</em>: the ability to endure one&rsquo;s own suffering without making a show of it. With Benesch this shows in what she plays and how she talks about it: characters who are under pressure and hold on instead of exploding, and an actress who, under pressure, prefers to stay entirely with herself and her own contribution.</p>
+          <p class="vb-intro">She keeps her private life out of the public eye; the only thing publicly known is that she lives in Berlin. This reserve belongs to the subtype: the depth goes into the work, not into talking about it. The classification is an interpretation.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Three-wing: work, craft, international reach</h2>
+        <h2 class="vb-section">3. The Three-wing: training, reach, change of genre</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> adds drive and professionalism. After the early success she did not retreat: she studied in London, worked in German and British productions and built a career across languages, from <em>Babylon Berlin</em> (Greta Overbeck, 2017&ndash;2020; German Acting Prize) to the BBC series <em>Around the World in 80 Days</em> (2021). In 2026 she plays a hitman in the series <em>Prisoner</em>, her first action role; she trained with former Marines for it and spent hours at the shooting range. A Four with a Three-wing takes on such a step as craft, not as self-display.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> adds drive and professionalism. After the early success she did not rest on it: she trained in London and built a career across languages: <em>Babylon Berlin</em> (Greta Overbeck, 2017&ndash;2020, German Acting Prize 2018), three episodes of <em>The Crown</em> as Princess Cecilie of Greece, the BBC series <em>Around the World in 80 Days</em> (2021), <em>The Swarm</em> (2023). For <em>September 5</em> (2024) she received a second German Film Award, this time as best supporting actress.</p>
+          <p class="vb-intro">Her latest step is her biggest change of genre: in the ARD Degeto series <em>Prisoner</em> (2026, with Sky as production partner) she plays the contract killer Nina Drâgus, her first action role. She trained with former Marines and for the first time stood at a shooting range with a weapon, an assault rifle. Her verdict in an interview of 18 June 2026 is the headline above the conversation: &lsquo;It&rsquo;s really fun &ndash; it was creepy.&rsquo; A Four with a Three-wing takes on such a step as craft, not as self-display.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The substance: pressure made visible without big gestures</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">What sets Benesch apart is a restrained, precise way of acting: she shows inner pressure through small things, a held breath, a look, a pause. In <em>The Teachers&rsquo; Lounge</em> (2023) she plays the teacher Carla Nowak, whose attempt to clear up a theft at her school slowly escalates and closes in on her. For this role she won the German Film Award for Best Actress; the film was nominated for the Oscar for Best International Feature in 2024. She herself called the film&rsquo;s success a complete surprise.</p>
-          <p class="vb-intro">In <em>Late Shift</em> (German title <em>Heldin</em>, 2025) she plays a nurse on a single overburdened shift in a Swiss hospital. The film was shown at the Berlinale as a Special Gala and brought her a nomination for the European Film Award for Best Actress. Director Petra Volpe was initially hesitant to invite her to audition because of the similarity to <em>The Teachers&rsquo; Lounge</em>; Benesch got the part anyway.</p>
+          <p class="vb-intro">What sets Benesch apart is a restrained, precise way of acting: she shows inner pressure through small things, a held breath, a look, a pause. In <em>The Teachers&rsquo; Lounge</em> (2023, directed by İlker Çatak) she plays the teacher Carla Nowak, whose attempt to clear up a series of thefts at her school slowly escalates and closes in on her. Almost the whole film is set in the school building; the tension comes from faces, not plot. For this she won the German Film Award for best actress; the film was nominated for the Oscar for Best International Feature in 2024. She called its success a complete surprise; after completion the film had stayed unsold for months.</p>
+          <p class="vb-intro">In <em>Late Shift</em> (German title <em>Heldin</em>, 2025, directed by Petra Volpe) she plays the nurse Floria in a single overburdened shift on a Swiss ward. The film was shown as a Special Gala at the Berlinale and brought her a nomination for the European Film Award. To prepare she talked to real nurses, who described &lsquo;a great deal of anger and complete exhaustion&rsquo;; many said they might last only another year. Even the position of a blood pressure monitor took long discussions, because the script was filmed almost word for word. Asked whether Floria is a perfectionist, she says perhaps, but that it is not a negative trait; Floria can forgive herself for mistakes. Nursing feels more natural to her than teaching, Benesch says, because there is something very practical about taking care of other people. Director Volpe was at first hesitant to invite her to audition because of the similarity to <em>The Teachers&rsquo; Lounge</em>.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Bright is the credibility she gives to ordinary people who carry too much: a teacher, a nurse. The shadow of this type would be the risk of being typecast as the one who holds out, and of holding out too long. This portrait records no private details: she keeps her private life out of the public eye, which fits the subtype.</p>
+          <p class="vb-intro">Bright is the credibility she gives to ordinary people who carry too much: a teacher, a nurse. Her sentence about Floria is also information about herself: being able to forgive mistakes is not a given for a Four with a Three-wing, because the Three-wing measures performance. The shadow of this type would be the risk of being typecast as the one who holds out, and of holding out too long. Her answer to it is recognisable: she looks for roles outside that drawer, most recently a killer.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Another actor of this subtype is <a href="#beruehmte-sebastian-urzendowsky">Sebastian Urzendowsky (SP4w3)</a>, who also works with reduced, serious intensity. <a href="#beruehmte-nicolas-cage">Nicolas Cage (SP4w3)</a> shows the opposite style: the same inner depth, but expressed in big, risky gestures. Benesch, by contrast, stays small and precise.</p>
+          <p class="vb-intro">Another actor of this subtype is <a href="#beruehmte-sebastian-urzendowsky">Sebastian Urzendowsky (SP4w3)</a>, who also works with reduced, serious intensity. <a href="#beruehmte-nicolas-cage">Nicolas Cage (SP4w3)</a> shows the opposite style: the same inner depth, but expressed in big, risky gestures. With <a href="#beruehmte-adele">Adele (SP4w3)</a> too, the dove carries vulnerability through a public career for years. Benesch stays small and precise where Cage gets loud and Adele sings.</p>
         </blockquote>
 
         <h2 class="vb-section">7. From quiet roles to a gun in her hand</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">As of 6 November 2026: Benesch works across Europe and Hollywood. In interviews in 2026 she said that the most exciting film projects are now being made in Europe. After <em>Late Shift</em> she is seen in the series <em>Prisoner</em> as Nina Drâgus, in a role far from the quiet characters of her earlier films.</p>
+          <p class="vb-intro">As of 6 November 2026: Benesch works across Europe and Hollywood. In interviews in 2026 she said that the most exciting film projects are now being made in Europe. After <em>Late Shift</em> she is seen in <em>Prisoner</em> as Nina Drâgus (broadcast in summer 2026 on ARD), in a role far from the quiet characters of her earlier films.</p>
         </blockquote>
 
       </div>
@@ -3327,6 +3329,7 @@ export function leonieBeneschPortraitPage() {
         {route:"lebensmusterkompass/se4", label:"Life Pattern Compass: SP4 – Dove"},
         {route:"beruehmte-sebastian-urzendowsky", label:"Portrait: Sebastian Urzendowsky (SP4w3)"},
         {route:"beruehmte-nicolas-cage", label:"Portrait: Nicolas Cage (SP4w3)"},
+        {route:"beruehmte-adele", label:"Portrait: Adele (SP4w3)"},
       ])}
     </div>
   `);

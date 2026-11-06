@@ -3246,29 +3246,30 @@ export function mariaHasbolatPortraitPage() {
 
         <h2 class="vb-section">1. The Raccoon from the Rhine</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>raccoon</strong> is the animal correspondence of the self-preservation Three: resourceful, dexterous, able to build something that works out of little. Maria Hasbolat is a native of Russia; according to a business magazine she came to Germany at the age of 22 and lives in Wörth am Rhein. She worked for years as a lecturer in German as a foreign language at a language school, including in integration courses.</p>
-          <p class="vb-intro">Her start as an entrepreneur was step by step: she took an online course herself, saw its potential and developed her idea for online German lessons, using the Karlsruhe EXI start-up voucher and the advice that came with it. The account <em>@dein_sprachcoach</em> on Instagram became her blog and her shop window at the same time.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal correspondence of the self-preservation Three: resourceful, dexterous, able to build something that works out of little. Maria Hasbolat is a native of Russia; she studied at Vyatka State University and, according to a business magazine, came to Germany at the age of 22 (2007, according to the same article). She lives in Wörth am Rhein. For years she worked as a lecturer in German as a foreign language at a language school, including in integration courses, and kept training.</p>
+          <p class="vb-intro">Her way into self-employment went in steps. She wanted, as she said in 2019, a new challenge without leaving her field. She took an online course herself and saw its potential. Then she sought advice: she used the Karlsruhe EXI start-up voucher, took the counselling and arrived with a finished idea for which she only needed practical tips. The account <em>@dein_sprachcoach</em> on Instagram became her blog and shop window at once.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The self-preservation Three: security through craft</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> is the counter-type of the Three: she does not look like a Three. Instead of show she values security, competence and a working system. According to Claudio Naranjo her key word is <em>security</em>. This matches how Hasbolat started: she kept her job as a lecturer while building the online offering on the side, planned her days carefully and treated income and workload as practical questions. Her measure of success is not applause but what her students achieve.</p>
+          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> is the counter-type of the Three: she does not look like a Three. Instead of show, security, competence and a system that works count. According to Claudio Naranjo her key word is <em>security</em>. This matches Hasbolat&rsquo;s start: she kept her job as a lecturer while building the online offering and had to plan her days carefully, as she says herself. She handles enquiries, advertising, partnerships, texts, video recordings, stories, photo editing and the moderation of online meetings herself. Her measure of success is not applause but what her students achieve; sales exceeded her expectations, stated soberly.</p>
+          <p class="vb-intro">Her advice to her earlier self is never to give up on a goal you truly want and to surround yourself with people who motivate you. The classification is an interpretation.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two-wing: warmth, humour, service</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the Three warmth and the wish to be useful. Hasbolat teaches with fun: her one-line pitch is &lsquo;online German lessons with lots of fun&rsquo;, and her motto is that life is serious enough already. She answers learners, moderates online meetings and has built a network in which learners from around the world talk to one another. This is the Two-wing: usefulness that is personal and friendly, not cool.</p>
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the Three warmth and the wish to be useful. Hasbolat teaches with fun: her one-line pitch is &lsquo;online German lessons with lots of fun&rsquo;, and her motto is that life is serious enough already. That one learns or practises &lsquo;without noticing&rsquo; is her explanation of why tongue twisters work. She has also built a network in which learners from around the world talk to one another, and her online conversation courses by video call were well received early on. This is the Two-wing: usefulness that is personal and friendly, not cool.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The substance: pronunciation made light</h2>
+        <h2 class="vb-section">4. The substance: pronunciation that can be practised</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">What sets her offering apart is the focus on pronunciation. She argues that a strong accent can raise reservations even when grammar and vocabulary are good, and she builds short, entertaining units for Instagram, TikTok and YouTube, explaining idioms and giving motivation tips. Learning &lsquo;unnoticed&rsquo; through humour is her method. Her online conversation courses were well received early on, and further courses were planned: writing, video courses, audio books.</p>
-          <p class="vb-intro">Recognition followed: in 2019 the project was placed second in the Initiative für Integration Rheinland-Pfalz (according to a video title of the initiative). Figures such as a daily reach of more than 700,000 people come from a promotional article and are not independently confirmed.</p>
+          <p class="vb-intro">What sets her offer apart is the focus on pronunciation. She justifies it by saying that a strong accent can raise reservations even when grammar and vocabulary are good, and that language schools have little time for it and few textbooks use tongue twisters. In an interview for Tongue Twister Day (14 November 2021) she becomes concrete: people from Eastern Europe or Spanish-speaking countries often use too much force on the German &lsquo;r&rsquo;; the sounds &lsquo;p&rsquo;, &lsquo;t&rsquo; and &lsquo;k&rsquo; are hard for learners, and a slip of paper held in front of the mouth, which should move slightly when speaking, serves as a simple check. Adults can understand the background of articulation but need more time; as a rule of thumb she names about 90 days until a habit settles.</p>
+          <p class="vb-intro">Her three tips: keep the fun and do not be forced to practise, first speak cleanly and then increase the speed, and practise regularly, a few minutes a day, like sport. In addition there are short units for Instagram, TikTok and YouTube, explanations of idioms such as &lsquo;am Ball bleiben&rsquo; (&lsquo;to stay on the ball&rsquo;) and motivation tips. A writing course, video courses and audio books were planned. In 2019 the project was placed second in the Initiative für Integration Rheinland-Pfalz (according to a video title of the initiative). A daily reach of more than 700,000 people comes from a promotional article of 2022 and is not independently confirmed.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Bright is the combination of seriousness and lightness: someone who knows how hard German is and makes it enjoyable. The shadow of the self-preservation Three is overwork: the risk of carrying teaching, content, courses and customer care alone. This portrait records only what is publicly known about her professional work.</p>
+          <p class="vb-intro">Bright is the combination of seriousness and lightness: someone who knows how hard German is and makes it enjoyable. Bright too is that she credibly embodies her own learning as a speaker of another language. The shadow of the self-preservation Three is overwork: teaching, content, courses and customer care lie largely in one pair of hands, and anyone reading her feels how tightly the days are planned. This portrait records only what is publicly known about her professional work.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
@@ -3278,7 +3279,7 @@ export function mariaHasbolatPortraitPage() {
 
         <h2 class="vb-section">7. Still teaching German, still with humour</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">As of 6 November 2026: Hasbolat continues to run <em>Dein Sprachcoach</em> as an online German offering with courses, videos and a presence on Instagram, TikTok and YouTube. Public information on her current projects is limited, so this portrait does not go beyond the sources named.</p>
+          <p class="vb-intro">As of 6 November 2026: Hasbolat continues to run <em>Dein Sprachcoach</em> as an online German offering with courses, videos and a presence on Instagram, TikTok and YouTube; her website includes a pronunciation crash course. Public information on her current projects is limited, so this portrait does not go beyond the sources named.</p>
         </blockquote>
 
       </div>
