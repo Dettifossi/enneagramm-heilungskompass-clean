@@ -12,11 +12,12 @@ const COPPER = "#9a5b34", INK = "#2a2420", MUTED = "#6b625a", LINE = "#d9cdbd", 
 const T = {
   de: {
     brand: "Enneagramm-Heilungskompass",
-    rubric: { beruehmte: "Berühmte Persönlichkeiten · Auszug", krankheitsportraets: "Krankheitsporträts · Auszug", kriminalpsychologie: "Kriminalpsychologie · Auszug" },
+    rubric: { beruehmte: "Berühmte Persönlichkeiten", krankheitsportraets: "Krankheitsporträts", kriminalpsychologie: "Kriminalpsychologie" },
     eyebrow: "Porträt",
     ctaTitle: "Mehr entdecken:",
-    ctaText: "Dieses Porträt ist ein Auszug aus dem Enneagramm-Heilungskompass. Dort finden Sie das vollständige Porträt, Parallelen zu anderen Persönlichkeiten desselben Subtyps, den Lebensmusterkompass und über 1.100 weitere Porträts zu allen 27 Subtypen.",
-    full: "Das vollständige Porträt finden Sie unter:",
+    ctaText: "Dieses Porträt stammt aus dem Enneagramm-Heilungskompass. Dort finden Sie über 1.100 weitere Porträts, die Parallelen zu anderen Persönlichkeiten desselben Subtyps, den Lebensmusterkompass und alle 27 Subtypen.",
+    full: "Dieses Porträt in der App ansehen:",
+    fullCard: "Das vollständige Porträt finden Sie unter:",
     all: "Alle Porträts und die App:",
     foot: "Ein Enneagramm-Subtypen-Porträt von Detlef Rathmer. Die Zuordnung zu einem Subtyp ist eine Deutung und keine Diagnose.",
     footMed: " Keine medizinische Aussage.",
@@ -30,11 +31,12 @@ const T = {
   },
   en: {
     brand: "Enneagram Healing Compass",
-    rubric: { beruehmte: "Famous Personalities · Excerpt", krankheitsportraets: "Illness Portraits · Excerpt", kriminalpsychologie: "Criminal Psychology · Excerpt" },
+    rubric: { beruehmte: "Famous Personalities", krankheitsportraets: "Illness Portraits", kriminalpsychologie: "Criminal Psychology" },
     eyebrow: "Portrait",
     ctaTitle: "Discover more:",
-    ctaText: "This portrait is an excerpt from the Enneagram Healing Compass. There you will find the full portrait, parallels to other personalities of the same subtype, the Life Pattern Compass and over 1,100 more portraits across all 27 subtypes.",
-    full: "You will find the full portrait at:",
+    ctaText: "This portrait comes from the Enneagram Healing Compass. There you will find over 1,100 more portraits, the parallels to other personalities of the same subtype, the Life Pattern Compass and all 27 subtypes.",
+    full: "View this portrait in the app:",
+    fullCard: "You will find the full portrait at:",
     all: "All portraits and the app:",
     foot: "An Enneagram subtype portrait by Detlef Rathmer. The assignment to a subtype is an interpretation, not a diagnosis.",
     footMed: " Not a medical statement.",
@@ -105,14 +107,10 @@ function readPage(lang) {
   return { name: q(".krim-portrait-name"), typ: q(".krim-portrait-typ"), sub: q(".krim-portrait-subtitle"), imgSrc: img ? (img.getAttribute("src") || "") : "", intro, sections };
 }
 
+// Das PDF enthält das ganze Porträt (alle Abschnitte, auch »Parallelen« mit anklickbaren Links).
 function pickSections(sections) {
   const box = sections.filter(s => !s.title).slice(0, 1);
-  const headed = sections.filter(s => s.title);
-  if (headed.length <= 3) return [...box, ...headed];
-  const out = [...box, headed[0], headed[1]];
-  const last = headed[headed.length - 1];
-  if (!/Parallel|Verwandt|Related/i.test(last.title)) out.push(last);
-  return out;
+  return [...box, ...sections.filter(s => s.title)];
 }
 
 function loadImage(src) {
@@ -381,7 +379,7 @@ async function buildCard(lang, route) {
   const url = tx.base + route + "/";
   x.fillStyle = COPPER; x.fillRect(0, H - 262, W, 3);
   drawQr(x, url, W / 2 - 80, H - 250, 160);
-  x.textAlign = "center"; x.fillStyle = MUTED; x.font = `24px ${FONT}`; x.fillText(tx.full.replace(/:$/, ""), W / 2, H - 62);
+  x.textAlign = "center"; x.fillStyle = MUTED; x.font = `24px ${FONT}`; x.fillText(tx.fullCard.replace(/:$/, ""), W / 2, H - 62);
   let fs = 26; x.font = `bold ${fs}px ${FONT}`; while (x.measureText(url.replace("https://", "")).width > W - 80 && fs > 16) { fs--; x.font = `bold ${fs}px ${FONT}`; }
   x.fillStyle = COPPER; x.fillText(url.replace("https://", ""), W / 2, H - 24);
   const blob = await new Promise(r => c.toBlob(r, "image/jpeg", 0.92));
@@ -418,7 +416,7 @@ export async function sharePortraitPdf(lang, route, btn) {
     if (document.fonts && document.fonts.ready) await document.fonts.ready;
     const { doc, name } = await build(lang, route);
     const blob = await toPdf(doc, name + " – " + tx.brand);
-    const fname = route.replace(/^[a-z]+-/, "") + (lang === "en" ? "-excerpt" : "-auszug") + ".pdf";
+    const fname = route.replace(/^[a-z]+-/, "") + (lang === "en" ? "-portrait" : "-portraet") + ".pdf";
     const file = new File([blob], fname, { type: "application/pdf" });
     if (window.__pdfTest) { window.__pdfTest(blob, fname); return; }
     if (navigator.canShare && navigator.canShare({ files: [file] })) {
