@@ -3235,3 +3235,70 @@ export function michaelDouglasPortraitPage() {
     </div>
   `);
 }
+
+export function leonieBeneschPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-leonie-benesch-portrait.jpg" alt="Leonie Benesch – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-leonie-benesch-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Leonie Benesch</p>
+        <p class="krim-portrait-typ">SE4w3 &middot; Selbsterhaltender Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Deutsche Schauspielerin, 1991 in Hamburg geboren &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube aus Tübingen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist die tierische Entsprechung der selbsterhaltenden Vier: zart in der Erscheinung, aber zäh und fähig, den Weg auch über weite Strecken zu finden. Leonie Benesch wurde am 22. April 1991 in Hamburg geboren, wuchs als Älteste von vier Geschwistern in Tübingen auf und ließ sich später an der Guildhall School of Music and Drama in London ausbilden.</p>
+          <p class="vb-intro">Ihr Start kam früh: Mit siebzehn spielte sie die Eva in Michael Hanekes <em>Das weiße Band</em> (2009), das die Goldene Palme in Cannes gewann. Die Kritik nannte ihre Leistung eine Entdeckung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Druck still tragen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> trägt ihr tiefes Gefühlsleben still und stellt es nicht zur Schau. Nach Claudio Naranjo ist ihr Schlüsselwort <em>Dauntlessness</em>, die Unerschrockenheit, das eigene Leiden auszuhalten, ohne es zur Schau zu stellen. Das passt zu den Rollen, für die sie bekannt ist: Menschen unter Druck, die durchhalten, statt zu explodieren. Die Vier in ihrem Werk ist nicht die laute, theatralische, sondern die, die das Gewicht trägt und es nur im Gesicht zeigt. Die Zuordnung ist eine Deutung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Handwerk, Arbeit, internationale Reichweite</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> bringt Antrieb und Professionalität dazu. Nach dem frühen Erfolg zog sie sich nicht zurück: Sie studierte in London, arbeitete in deutschen und britischen Produktionen und baute eine Laufbahn über Sprachgrenzen hinweg auf, von <em>Babylon Berlin</em> (Greta Overbeck, 2017&ndash;2020; Deutscher Schauspielpreis) bis zur BBC-Serie <em>Around the World in 80 Days</em> (2021). 2026 spielt sie in der Serie <em>Prisoner</em> eine Auftragskillerin, ihre erste Actionrolle; dafür trainierte sie mit ehemaligen Marines und verbrachte Stunden auf dem Schießstand. Eine Vier mit Dreierflügel geht einen solchen Schritt als Handwerk an, nicht als Selbstdarstellung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Druck sichtbar machen, ohne große Gesten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Benesch zeichnet eine zurückgenommene, genaue Spielweise aus: Sie zeigt inneren Druck durch Kleinigkeiten, einen angehaltenen Atem, einen Blick, eine Pause. In <em>Das Lehrerzimmer</em> (2023) spielt sie die Lehrerin Carla Nowak, deren Versuch, an ihrer Schule einen Diebstahl aufzuklären, langsam eskaliert und sich um sie zuzieht. Dafür gewann sie den Deutschen Filmpreis als beste Hauptdarstellerin; der Film wurde 2024 für den Oscar als bester internationaler Film nominiert. Sie selbst nannte den Erfolg des Films eine völlige Überraschung.</p>
+          <p class="vb-intro">In <em>Heldin</em> (englisch <em>Late Shift</em>, 2025) spielt sie eine Pflegekraft in einer einzigen überlasteten Schicht in einem Schweizer Krankenhaus. Der Film lief als Special Gala bei der Berlinale und brachte ihr eine Nominierung für den Europäischen Filmpreis als beste Hauptdarstellerin. Regisseurin Petra Volpe hatte zunächst Hemmungen, sie wegen der Ähnlichkeit zum <em>Lehrerzimmer</em> zum Vorsprechen einzuladen; Benesch bekam die Rolle trotzdem.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Glaubwürdigkeit, die sie gewöhnlichen Menschen gibt, die zu viel tragen: einer Lehrerin, einer Pflegekraft. Der Schatten dieses Typs wäre die Gefahr, auf die festzulegen, die durchhält, und zu lange durchzuhalten. Dieses Porträt hält keine privaten Einzelheiten fest: Ihr Privatleben hält sie aus der Öffentlichkeit heraus, was zum Subtyp passt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein weiterer Schauspieler dieses Subtyps ist <a href="#beruehmte-sebastian-urzendowsky">Sebastian Urzendowsky (SE4w3)</a>, der ebenfalls mit zurückgenommener, ernster Intensität arbeitet. <a href="#beruehmte-nicolas-cage">Nicolas Cage (SE4w3)</a> zeigt den entgegengesetzten Stil: dieselbe innere Tiefe, aber in großen, riskanten Gesten ausgedrückt. Benesch dagegen bleibt klein und genau.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Wo sie heute steht (Stand 6. November 2026)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Benesch arbeitet in ganz Europa und in Hollywood. In Interviews 2026 sagte sie, die spannendsten Filmprojekte entstünden heute in Europa. Nach <em>Heldin</em> ist sie in der Serie <em>Prisoner</em> als Nina Drâgus zu sehen, in einer Rolle weit entfernt von den leisen Figuren ihrer früheren Filme.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se4", label:"Lebensmusterkompass: SE4 – Taube"},
+        {route:"beruehmte-sebastian-urzendowsky", label:"Porträt: Sebastian Urzendowsky (SE4w3)"},
+        {route:"beruehmte-nicolas-cage", label:"Porträt: Nicolas Cage (SE4w3)"},
+      ])}
+    </div>
+  `);
+}

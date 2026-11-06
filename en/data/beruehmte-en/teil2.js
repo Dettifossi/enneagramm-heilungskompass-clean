@@ -3264,3 +3264,70 @@ export function michaelDouglasPortraitPage() {
     </div>
   `);
 }
+
+export function leonieBeneschPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-leonie-benesch-portrait.jpg" alt="Leonie Benesch – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-leonie-benesch-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Leonie Benesch</p>
+        <p class="krim-portrait-typ">SP4w3 &middot; Self-Preservation Type 4 with Three-wing</p>
+        <p class="krim-portrait-subtitle">German actress, born 1991 in Hamburg &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Dove from Tübingen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>dove</strong> is the animal correspondence of the self-preservation Four: soft in appearance, but tough, and able to find its way over long distances. Leonie Benesch was born on 22 April 1991 in Hamburg, grew up in Tübingen as the oldest of four children and later trained at the Guildhall School of Music and Drama in London.</p>
+          <p class="vb-intro">Her start came early: at seventeen she played Eva in Michael Haneke&rsquo;s <em>The White Ribbon</em> (2009), which won the Palme d&rsquo;Or in Cannes. Critics called her performance a discovery.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Four: carrying pressure quietly</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Four (SP4)</strong> carries a deep emotional life quietly and does not put it on display. According to Claudio Naranjo her key word is <em>dauntlessness</em>: the ability to endure one&rsquo;s own suffering without making a show of it. This fits the roles she is known for: people under pressure who hold on instead of exploding. The Four in her work is not the loud, theatrical one but the one who carries the weight and lets it show only in the face. The classification is an interpretation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-wing: work, craft, international reach</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> adds drive and professionalism. After the early success she did not retreat: she studied in London, worked in German and British productions and built a career across languages, from <em>Babylon Berlin</em> (Greta Overbeck, 2017&ndash;2020; German Acting Prize) to the BBC series <em>Around the World in 80 Days</em> (2021). In 2026 she plays a hitman in the series <em>Prisoner</em>, her first action role; she trained with former Marines for it and spent hours at the shooting range. A Four with a Three-wing takes on such a step as craft, not as self-display.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: pressure made visible without big gestures</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What sets Benesch apart is a restrained, precise way of acting: she shows inner pressure through small things, a held breath, a look, a pause. In <em>The Teachers&rsquo; Lounge</em> (2023) she plays the teacher Carla Nowak, whose attempt to clear up a theft at her school slowly escalates and closes in on her. For this role she won the German Film Award for Best Actress; the film was nominated for the Oscar for Best International Feature in 2024. She herself called the film&rsquo;s success a complete surprise.</p>
+          <p class="vb-intro">In <em>Late Shift</em> (German title <em>Heldin</em>, 2025) she plays a nurse on a single overburdened shift in a Swiss hospital. The film was shown at the Berlinale as a Special Gala and brought her a nomination for the European Film Award for Best Actress. Director Petra Volpe was initially hesitant to invite her to audition because of the similarity to <em>The Teachers&rsquo; Lounge</em>; Benesch got the part anyway.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is the credibility she gives to ordinary people who carry too much: a teacher, a nurse. The shadow of this type would be the risk of being typecast as the one who holds out, and of holding out too long. This portrait records no private details: she keeps her private life out of the public eye, which fits the subtype.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Another actor of this subtype is <a href="#beruehmte-sebastian-urzendowsky">Sebastian Urzendowsky (SP4w3)</a>, who also works with reduced, serious intensity. <a href="#beruehmte-nicolas-cage">Nicolas Cage (SP4w3)</a> shows the opposite style: the same inner depth, but expressed in big, risky gestures. Benesch, by contrast, stays small and precise.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Where she stands today (as of 6 November 2026)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Benesch works across Europe and Hollywood. In interviews in 2026 she said that the most exciting film projects are now being made in Europe. After <em>Late Shift</em> she is seen in the series <em>Prisoner</em> as Nina Drâgus, in a role far from the quiet characters of her earlier films.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"lebensmusterkompass/se4", label:"Life Pattern Compass: SP4 – Dove"},
+        {route:"beruehmte-sebastian-urzendowsky", label:"Portrait: Sebastian Urzendowsky (SP4w3)"},
+        {route:"beruehmte-nicolas-cage", label:"Portrait: Nicolas Cage (SP4w3)"},
+      ])}
+    </div>
+  `);
+}
