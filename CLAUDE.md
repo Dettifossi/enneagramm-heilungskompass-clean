@@ -114,6 +114,10 @@ print(f'Fehlend im Register: {len(miss)}')
 "
 ```
 
+## PDF-Auszug zum Weitergeben — nur verstorbene Personen (seit 06.11.2026)
+
+Unter Porträts aus Berühmte Persönlichkeiten, Krankheitsporträts und Kriminalpsychologie erscheint der Knopf »Als PDF weitergeben« (`data/pdf-share.js`, nachgeladen per `import("./data/pdf-share.js?v=N")` am Ende von `bundle.js`/`en/bundle.js`; bei Änderung `?v=` in **beiden** Bundles hochzählen). Der Knopf erscheint nur, wenn die Route in `data/verstorben.js` steht (Liste automatisch aus den Teasern erzeugt; unklare Fälle fehlen absichtlich). **Bei jedem neuen Porträt einer bereits verstorbenen Person die Route in `data/verstorben.js` ergänzen** (Import-Query `verstorben.js?v=` in `pdf-share.js` mit hochzählen). Lebende Personen bekommen keinen Knopf. Das PDF enthält nur einen Auszug (erste zwei Abschnitte plus letzter, ohne »Parallelen«) und anklickbare Links zur Porträt-Landingpage; das Layout (13 pt, großzügig) bewusst gut lesbar für ältere Leser.
+
 ## DE/EN-Übersetzungsparität — Pflichtschritt bei jedem neuen Porträt
 
 **Jedes neue Porträt (Berühmte Persönlichkeiten, Krankheitsporträts, Kriminalpsychologie) MUSS zeitnah auch ins Englische übersetzt und in `en/bundle.js` verdrahtet werden** — nicht „irgendwann nachziehen", sondern im selben oder im unmittelbar folgenden Arbeitsschritt. Bei Krankheitsporträts und Kriminalpsychologie wurde das bislang zuverlässig eingehalten; bei „Berühmte Persönlichkeiten" ist genau das über Monate nicht passiert und erst am 2026-10-08 auf Hinweis des Nutzers nachträglich aufgefallen (6 fehlende EN-Porträts) — ein Rückstand, der unbemerkt wuchs, weil es dafür anders als beim Register keinen festen Kontrollbefehl gab.

@@ -32,6 +32,9 @@ Kürzeste Teil-Datei wählen (`wc -c`), Funktion ans Ende anhängen (`export fun
 8. Musterkompass des Subtyps: `LEBENSMUSTERKOMPASS` (Berühmte), `KRIMINAL-`/`KRANKHEITSMUSTERKOMPASS` (je Rubrik). Beispiel eintragen, passenden Beleg oder neuen Einzelfall-Eintrag; keine exakten Porträtzahlen.
 9. Bild: `sips -Z 1200 -s format jpeg -s formatOptions 85 <in> --out <name>-portrait.jpg`, dann `npx wrangler r2 object put kompass-assets/assets/portraits/<route>-portrait.jpg --file … --content-type image/jpeg --remote`. Bilder nie ins Repo.
 
+### PDF-Weitergabe
+Ist die porträtierte Person verstorben: Route in `data/verstorben.js` ergänzen (dann erscheint der Knopf »Als PDF weitergeben«), `verstorben.js?v=` in `data/pdf-share.js` hochzählen. Lebende: nichts eintragen.
+
 ## 4. Cache-Busting (Pflicht, siehe CLAUDE.md §1a)
 `index.html` (`bundle.js?v=inhalt-vNNNN`, `changelog.js?v=`), `en/index.html`, `sw.js` und `en/sw.js` (`SW_VERSION`, `BUNDLE_VERSION`), bei `register.js`-Änderung `register.js?v=` in beiden Bundles. Vorher per `grep` die aktuellen Zähler lesen.
 

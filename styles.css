@@ -5884,3 +5884,13 @@ p, li, .vb-intro { text-wrap: pretty; }
 .nav-dropdown__search-wrap { position: relative; }
 .nav-dropdown__search-wrap .search-x { position: absolute; right: .6rem; top: 50%; transform: translateY(-50%); }
 .nav-dropdown__search-wrap .nav-dropdown__search { padding-right: 2.2rem; }
+
+/* PDF-Auszug-Knopf unter dem Porträtbild */
+.pdf-share-btn {
+  margin: 0.9rem auto 0; display: block; padding: 0.7rem 1.3rem; min-height: 44px;
+  background: transparent; color: var(--copper, #9a5b34); border: 1.5px solid var(--copper, #9a5b34);
+  border-radius: 999px; font: 600 0.95rem/1 Inter, system-ui, sans-serif; cursor: pointer;
+}
+.pdf-share-btn:hover { background: var(--copper, #9a5b34); color: #fff; }
+.pdf-share-btn:disabled { opacity: 0.6; cursor: progress; }
+@media print { .pdf-share-btn { display: none; } }

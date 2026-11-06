@@ -49899,3 +49899,12 @@ function _suchX(root) {
 }
 _suchX(document);
 new MutationObserver(() => _suchX(document)).observe(document.body, { childList: true, subtree: true });
+
+// PDF-Auszug zum Weitergeben (nur verstorbene Personen): Knopf unter dem Porträtbild, Modul wird erst bei Bedarf geladen.
+let _pdfMod = null;
+function _pdfMount() {
+  if (!document.querySelector('.krim-portrait-wrap:not([data-pdf])')) return;
+  (_pdfMod || (_pdfMod = import("../data/pdf-share.js?v=5"))).then(m => m.mountPdfButton("en")).catch(() => {});
+}
+new MutationObserver(_pdfMount).observe(document.body, { childList: true, subtree: true });
+_pdfMount();
