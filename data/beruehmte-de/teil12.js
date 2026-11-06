@@ -3275,7 +3275,7 @@ export function leonieBeneschPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Hell ist die Glaubwürdigkeit, die sie gewöhnlichen Menschen gibt, die zu viel tragen: einer Lehrerin, einer Pflegekraft. Der Schatten dieses Typs wäre die Gefahr, auf die festzulegen, die durchhält, und zu lange durchzuhalten. Dieses Porträt hält keine privaten Einzelheiten fest: Ihr Privatleben hält sie aus der Öffentlichkeit heraus, was zum Subtyp passt.</p>
+          <p class="vb-intro">Hell ist die Glaubwürdigkeit, die sie gewöhnlichen Menschen gibt, die zu viel tragen: einer Lehrerin, einer Pflegekraft. Der Schatten dieses Typs wäre die Gefahr, sie auf die Rolle der Durchhaltenden festzulegen und dass sie selbst zu lange durchhält. Dieses Porträt hält keine privaten Einzelheiten fest: Ihr Privatleben hält sie aus der Öffentlichkeit heraus, was zum Subtyp passt.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>
