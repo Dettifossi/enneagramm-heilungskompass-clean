@@ -49904,7 +49904,7 @@ new MutationObserver(() => _suchX(document)).observe(document.body, { childList:
 let _pdfMod = null;
 function _pdfMount() {
   if (!document.querySelector('.krim-portrait-wrap:not([data-pdf])')) return;
-  (_pdfMod || (_pdfMod = import("../data/pdf-share.js?v=8"))).then(m => m.mountPdfButton("en")).catch(() => {});
+  (_pdfMod || (_pdfMod = import("../data/pdf-share.js?v=10"))).then(m => m.mountPdfButton("en")).catch(() => {});
 }
 let _sbMod = null;
 function _sbMount() {
@@ -49915,7 +49915,7 @@ function _sbMount() {
 let _rsMod = null;
 function _rsMount() {
   if (!document.querySelector('.typentest-card--result:not([data-share]), button[onclick*="_tqShare"]:not([data-share]), button.flash-btn[onclick*="Restart"]:not([data-share]), section.subtype-hero:not([data-share])')) return;
-  (_rsMod || (_rsMod = import("../data/result-share.js?v=7"))).then(m => m.mountResultShare("en")).catch(() => {});
+  (_rsMod || (_rsMod = import("../data/result-share.js?v=8"))).then(m => m.mountResultShare("en")).catch(() => {});
 }
 new MutationObserver(() => { _pdfMount(); _sbMount(); _rsMount(); }).observe(document.body, { childList: true, subtree: true });
 _pdfMount(); _sbMount(); _rsMount();

@@ -1,6 +1,7 @@
 // Schaubilder zum Weitergeben: Bild mit Markenband (JPEG) oder als PDF mit anklickbarem Link.
 // Erscheint nur auf Schaubild-Seiten mit genau einem Hauptbild. Wird erst bei Bedarf nachgeladen.
-import { pagesToPdf } from "./pdf-share.js?v=8";
+import { pagesToPdf } from "./pdf-share.js?v=10";
+import { drawQr } from "./qr-draw.js?v=1";
 
 const SITE = "https://kompass.verlagshausrathmer.com";
 const MIN_WIDTH = 1200;   // Mindestbreite des Originalbilds in Pixeln
@@ -31,7 +32,7 @@ function wrap(ctx, text, maxW) {
 
 async function imageCard(img, tx, route) {
   const W = Math.min(img.naturalWidth, 2000), s = W / img.naturalWidth, H0 = Math.round(img.naturalHeight * s);
-  const band = Math.max(96, Math.round(W * 0.075));
+  const band = Math.max(160, Math.round(W * 0.115));
   const c = document.createElement("canvas"); c.width = W; c.height = H0 + band;
   const x = c.getContext("2d");
   x.fillStyle = "#fff"; x.fillRect(0, 0, W, c.height);
@@ -41,9 +42,10 @@ async function imageCard(img, tx, route) {
   const pad = Math.round(band * 0.4);
   x.textBaseline = "middle"; x.textAlign = "left";
   x.fillStyle = COPPER; x.font = `bold ${Math.round(band * 0.30)}px ${FONT}`;
-  x.fillText(tx.brand, pad, H0 + band * 0.40);
+  x.fillText(tx.brand, pad, H0 + band * 0.42);
   x.fillStyle = MUTED; x.font = `${Math.round(band * 0.22)}px ${FONT}`;
   x.fillText(tx.base.replace("https://", "") + route + "/", pad, H0 + band * 0.72);
+  const qs = Math.round(band * 0.86); drawQr(x, tx.base + route + "/", W - qs - Math.round(band * 0.1), H0 + Math.round((band - qs) / 2), qs);
   return await new Promise(r => c.toBlob(r, "image/jpeg", 0.95));
 }
 
@@ -68,9 +70,11 @@ async function pdfBlob(img, title, tx, route) {
   x.drawImage(img, M + (aw - iw) / 2, top + (ah - ih) / 2, iw, ih);
   const links = [];
   let fy = H - M - footH + 30;
+  const QRS = 74;
   x.fillStyle = PAPER; x.fillRect(M, bottom + 8, W - 2 * M, footH - 8);
   x.strokeStyle = COPPER; x.lineWidth = 1.2; x.strokeRect(M, bottom + 8, W - 2 * M, footH - 8);
   const full = tx.base + route + "/";
+  drawQr(x, full, W - M - 14 - QRS, bottom + 8 + 15, QRS);
   [[tx.online, full], [tx.all, tx.base]].forEach(([label, url]) => {
     x.fillStyle = INK; x.font = `11.5px ${FONT}`; x.fillText(label, M + 14, fy);
     const lw = x.measureText(label + " ").width;

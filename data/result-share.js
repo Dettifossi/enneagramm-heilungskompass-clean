@@ -1,6 +1,7 @@
 // Testergebnis als Bildkarte weitergeben (Typentest, Motivations-Schnelltest, Diagnosetest ...).
 // Erscheint auf Ergebnisseiten mit der Karte .typentest-card--result. Nur Typ, Name, Tier und Kurztext:
 // kein Ersatz für die App, sondern ein Anreiz, selbst zu testen. Wird erst bei Bedarf nachgeladen.
+import { drawQr } from "./qr-draw.js?v=1";
 const SITE = "https://kompass.verlagshausrathmer.com";
 const FONT = 'Georgia, "Times New Roman", serif';
 const COPPER = "#9a5b34", INK = "#2a2420", MUTED = "#6b625a", LINE = "#d9cdbd", PAPER = "#faf6ef";
@@ -76,11 +77,7 @@ async function buildCard(lang, card) {
   x.fillStyle = INK;
   const maxLines = tier ? 6 : 8;
   wrapLines(x, body, `32px ${FONT}`, W - 170).slice(0, maxLines).forEach(l => { x.font = `32px ${FONT}`; x.fillText(l, W / 2, y); y += 44; });
-  // Fuß
-  x.fillStyle = COPPER; x.fillRect(0, H - 150, W, 3);
-  x.fillStyle = MUTED; x.font = `24px ${FONT}`; x.fillText(tx.note, W / 2, H - 112);
-  x.fillStyle = INK; x.font = `28px ${FONT}`; x.fillText(tx.find, W / 2, H - 66);
-  x.fillStyle = COPPER; x.font = `bold 30px ${FONT}`; x.fillText(tx.base.replace("https://", ""), W / 2, H - 24);
+  footer(x, W, H, tx, tx.note, tx.base);
   const blob = await new Promise(r => c.toBlob(r, "image/jpeg", 0.92));
   return { blob, tier, label: (badgeText + " " + title).trim() };
 }
@@ -131,11 +128,14 @@ function frame(tx, color) {
   x.fillStyle = COPPER; x.font = `600 26px ${FONT}`; x.letterSpacing = "3px"; x.fillText(tx.brand.toUpperCase(), W / 2, 66); x.letterSpacing = "0px";
   return { c, x, W, H };
 }
-function footer(x, W, H, tx, line1) {
-  x.fillStyle = COPPER; x.fillRect(0, H - 150, W, 3);
-  x.fillStyle = MUTED; x.font = `24px ${FONT}`; x.fillText(line1, W / 2, H - 112);
-  x.fillStyle = INK; x.font = `28px ${FONT}`; x.fillText(tx.find, W / 2, H - 66);
-  x.fillStyle = COPPER; x.font = `bold 30px ${FONT}`; x.fillText(tx.base.replace("https://", ""), W / 2, H - 24);
+function footer(x, W, H, tx, line1, url) {
+  x.fillStyle = COPPER; x.fillRect(0, H - 170, W, 3);
+  drawQr(x, url || tx.base, W - 175, H - 160, 140);
+  x.textAlign = "left";
+  x.fillStyle = MUTED; x.font = `24px ${FONT}`; x.fillText(line1, 60, H - 112);
+  x.fillStyle = INK; x.font = `28px ${FONT}`; x.fillText(tx.find, 60, H - 66);
+  x.fillStyle = COPPER; x.font = `bold 30px ${FONT}`; x.fillText((url || tx.base).replace("https://", ""), 60, H - 24);
+  x.textAlign = "center";
 }
 
 // Tierbild aus dem Repo (gleiche Herkunft wie die Seite, keine CORS-Probleme). Alle Bilder haben dieselbe Schablone:
@@ -186,7 +186,7 @@ async function subtypeTierCard(lang, hero, code) {
   x.fillStyle = INK; x.font = `bold 84px ${FONT}`; x.fillText(tier, W / 2, y); y += 62;
   x.fillStyle = COPPER; x.font = `bold 34px ${FONT}`; x.fillText(name + " (" + shown + ")", W / 2, y); y += 66;
   x.fillStyle = INK; wrapLines(x, sentence, `32px ${FONT}`, W - 170).slice(0, 5).forEach(l => { x.font = `32px ${FONT}`; x.fillText(l, W / 2, y); y += 46; });
-  footer(x, W, H, tx, tx.brand);
+  footer(x, W, H, tx, tx.brand, tx.base + "subtype/" + code.toLowerCase() + "/");
   return { blob: await new Promise(r2 => c.toBlob(r2, "image/jpeg", 0.92)), text: tx.msgSub(name, tier, shown === code.toUpperCase() ? code.toUpperCase() : code.toUpperCase()), title: tier + " – " + name, fname: code.toLowerCase() + (lang === "en" ? "-animal-card.jpg" : "-tierkarte.jpg") };
 }
 

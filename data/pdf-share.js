@@ -2,6 +2,7 @@
 // Wird erst beim ersten Porträt-Aufruf nachgeladen. Layout per Canvas, Ausgabe als PDF mit
 // anklickbaren Links (kein Fremdcode nötig). Aufbau: Kopfzeile, Bild, Name, Typ, ausgewählte Abschnitte, Hinweiskasten.
 import { VERSTORBEN } from "./verstorben.js?v=1";
+import { drawQr } from "./qr-draw.js?v=1";
 
 const SITE = "https://kompass.verlagshausrathmer.com";
 const PAGE_W = 595.28, PAGE_H = 841.89, MARGIN = 56.7, S = 2.0;          // S = Canvas-Pixel je PDF-Punkt
@@ -253,7 +254,8 @@ async function build(lang, route) {
   });
 
   // Hinweiskasten
-  const boxW = PAGE_W - 2 * MARGIN - 36;
+  const QR = 84;
+  const boxW = PAGE_W - 2 * MARGIN - 36 - QR - 14;
   const full = tx.base + route + "/";
   // Höhe vorab messen: Seitenumbruch erzwingen, wenn wenig Platz
   doc.need(275);
@@ -272,6 +274,7 @@ async function build(lang, route) {
     const cx = doc.pages[boxPage].cv.getContext("2d");
     cx.save(); cx.globalCompositeOperation = "destination-over"; cx.fillStyle = PAPER; cx.fillRect(MARGIN, boxTop, PAGE_W - 2 * MARGIN, doc.y - boxTop); cx.restore();
     cx.strokeStyle = COPPER; cx.lineWidth = 1.2; cx.strokeRect(MARGIN, boxTop, PAGE_W - 2 * MARGIN, doc.y - boxTop);
+    drawQr(cx, full, PAGE_W - MARGIN - 18 - QR, boxTop + 18, QR);
   }
   doc.y += 12;
   const foot = tx.foot + (rubric === "krankheitsportraets" ? tx.footMed : "");
@@ -365,11 +368,22 @@ async function buildCard(lang, route) {
   x.fillStyle = COPPER; wrapLines(data.typ, `bold 32px ${FONT}`, W - 140).slice(0, 2).forEach(l => { x.font = `bold 32px ${FONT}`; x.fillText(l, W / 2, y); y += 40; });
   y += 14;
   x.fillStyle = INK;
-  wrapLines(excerpt(data), `30px ${FONT}`, W - 150).slice(0, 8).forEach(l => { x.font = `30px ${FONT}`; x.fillText(l, W / 2, y); y += 42; });
-  // Fuß
-  x.fillStyle = COPPER; x.fillRect(0, H - 92, W, 3);
-  x.fillStyle = MUTED; x.font = `24px ${FONT}`; x.fillText(tx.full.replace(/:$/, ""), W / 2, H - 56);
-  x.fillStyle = COPPER; x.font = `bold 26px ${FONT}`; x.fillText((tx.base + route + "/").replace("https://", ""), W / 2, H - 22);
+  {
+    const all = wrapLines(excerpt(data), `30px ${FONT}`, W - 150), room = Math.max(1, Math.floor((H - 290 - y) / 42));
+    let lines = all.slice(0, room);
+    if (all.length > room) {
+      const joined = lines.join(" "), p = Math.max(joined.lastIndexOf(". "), joined.lastIndexOf("! "), joined.lastIndexOf("? "));
+      lines = p > joined.length * 0.5 ? wrapLines(joined.slice(0, p + 1), `30px ${FONT}`, W - 150) : wrapLines(joined.replace(/[\s,;:]+\S*$/, "") + " …", `30px ${FONT}`, W - 150);
+    }
+    lines.forEach(l => { x.font = `30px ${FONT}`; x.fillText(l, W / 2, y); y += 42; });
+  }
+  // Fuß mit QR-Code
+  const url = tx.base + route + "/";
+  x.fillStyle = COPPER; x.fillRect(0, H - 262, W, 3);
+  drawQr(x, url, W / 2 - 80, H - 250, 160);
+  x.textAlign = "center"; x.fillStyle = MUTED; x.font = `24px ${FONT}`; x.fillText(tx.full.replace(/:$/, ""), W / 2, H - 62);
+  let fs = 26; x.font = `bold ${fs}px ${FONT}`; while (x.measureText(url.replace("https://", "")).width > W - 80 && fs > 16) { fs--; x.font = `bold ${fs}px ${FONT}`; }
+  x.fillStyle = COPPER; x.fillText(url.replace("https://", ""), W / 2, H - 24);
   const blob = await new Promise(r => c.toBlob(r, "image/jpeg", 0.92));
   return { blob, name: data.name };
 }
