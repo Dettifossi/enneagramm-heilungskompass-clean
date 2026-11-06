@@ -8113,6 +8113,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://kompass.verlagshausrathmer.com/beruehmte-maria-hasbolat/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://kompass.verlagshausrathmer.com/beruehmte-leonie-benesch/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
@@ -13634,6 +13640,12 @@
   </url>
   <url>
     <loc>https://kompass.verlagshausrathmer.com/en/beruehmte-phil-collins/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kompass.verlagshausrathmer.com/en/beruehmte-maria-hasbolat/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
