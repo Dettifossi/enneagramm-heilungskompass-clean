@@ -43253,7 +43253,7 @@ function bachbluetenPage() {
             <span style="font-size:.75rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;">Passion Flower</span>
             <p style="font-family:var(--serif);font-size:1.35rem;color:var(--copper);margin:.2rem 0 0;font-style:italic;">${d.leidenschaftsBl}</p>
           </div>
-          ${sameBl ? `<p style="font-size:.8rem;color:var(--muted);margin:.8rem 0 0;padding-top:.8rem;border-top:1px solid var(--line);">Passion flower and wound flower are identical.</p>` : `
+          ${sameBl ? `<p style="font-size:.8rem;color:var(--muted);margin:.8rem 0 0;padding-top:.8rem;border-top:1px solid var(--line);">Wound flower: also ${d.wundeBl} \u2013 the same flower addresses both passion and wound.</p>` : `
           <div style="padding-top:1rem;border-top:1px solid var(--line);">
             <span style="font-size:.75rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;">Wound Flower</span>
             <p style="font-family:var(--serif);font-size:1.35rem;color:var(--copper);margin:.2rem 0 0;font-style:italic;">${d.wundeBl}</p>
@@ -43314,10 +43314,10 @@ function bachbluetenPage() {
               <span style="font-size:.7rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;display:block;margin-bottom:.15rem;">Passion Flower</span>
               <span style="font-family:var(--serif);font-size:1.05rem;color:var(--copper);font-style:italic;">${d.leidenschaftsBl}</span>
             </div>
-            ${sameBl ? "" : `
+            ${`
             <div style="margin-bottom:.5rem;padding-top:.5rem;border-top:1px solid var(--line);">
               <span style="font-size:.7rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;display:block;margin-bottom:.15rem;">Wound Flower</span>
-              <span style="font-family:var(--serif);font-size:1.05rem;color:var(--copper);font-style:italic;">${d.wundeBl}</span>
+              <span style="font-family:var(--serif);font-size:1.05rem;color:var(--copper);font-style:italic;">${sameBl ? "also " : ""}${d.wundeBl}</span>
             </div>`}
             ${d.wirkungsfeld ? `<p style="font-size:.7rem;color:var(--muted);margin:.5rem 0 0;line-height:1.4;">${d.wirkungsfeld}</p>` : ""}
           </div>

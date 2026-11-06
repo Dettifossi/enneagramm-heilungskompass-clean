@@ -5898,3 +5898,10 @@ p, li, .vb-intro { text-wrap: pretty; }
 .schaubild-share { display: flex; gap: 0.6rem; justify-content: center; flex-wrap: wrap; margin: 0.9rem 0 1.4rem; }
 .schaubild-share .pdf-share-btn { margin: 0; display: inline-block; }
 @media print { .schaubild-share { display: none; } }
+
+/* Bachblueten-/Oel-Uebersichten: Karten mit Abstand */
+.oils-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
