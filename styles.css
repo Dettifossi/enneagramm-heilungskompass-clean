@@ -5894,3 +5894,7 @@ p, li, .vb-intro { text-wrap: pretty; }
 .pdf-share-btn:hover { background: var(--copper, #9a5b34); color: #fff; }
 .pdf-share-btn:disabled { opacity: 0.6; cursor: progress; }
 @media print { .pdf-share-btn { display: none; } }
+
+.schaubild-share { display: flex; gap: 0.6rem; justify-content: center; flex-wrap: wrap; margin: 0.9rem 0 1.4rem; }
+.schaubild-share .pdf-share-btn { margin: 0; display: inline-block; }
+@media print { .schaubild-share { display: none; } }

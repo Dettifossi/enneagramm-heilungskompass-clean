@@ -49904,7 +49904,13 @@ new MutationObserver(() => _suchX(document)).observe(document.body, { childList:
 let _pdfMod = null;
 function _pdfMount() {
   if (!document.querySelector('.krim-portrait-wrap:not([data-pdf])')) return;
-  (_pdfMod || (_pdfMod = import("../data/pdf-share.js?v=5"))).then(m => m.mountPdfButton("en")).catch(() => {});
+  (_pdfMod || (_pdfMod = import("../data/pdf-share.js?v=6"))).then(m => m.mountPdfButton("en")).catch(() => {});
 }
-new MutationObserver(_pdfMount).observe(document.body, { childList: true, subtree: true });
-_pdfMount();
+let _sbMod = null;
+function _sbMount() {
+  const e = document.querySelector(".eyebrow:not([data-sbs])");
+  if (!e || !/^(Schaubild|Chart|Diagram)/i.test(e.textContent.trim())) return;
+  (_sbMod || (_sbMod = import("../data/schaubild-share.js?v=6"))).then(m => m.mountSchaubildButtons("en")).catch(() => {});
+}
+new MutationObserver(() => { _pdfMount(); _sbMount(); }).observe(document.body, { childList: true, subtree: true });
+_pdfMount(); _sbMount();

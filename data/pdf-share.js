@@ -288,7 +288,7 @@ function concat(chunks) {
 const enc = new TextEncoder();
 function esc(s) { return s.replace(/[\\()]/g, m => "\\" + m); }
 
-async function toPdf(doc, title) {
+async function toPdf(doc, title, W = PAGE_W, H = PAGE_H) {
   const jpegs = [];
   for (const p of doc.pages) {
     const blob = await new Promise(r => p.cv.toBlob(r, "image/jpeg", 0.82));
@@ -300,10 +300,10 @@ async function toPdf(doc, title) {
   const add = parts => { const id = nextId++; objs.push({ id, parts }); return id; };
   doc.pages.forEach((p, i) => {
     const imgId = add([enc.encode(`<< /Type /XObject /Subtype /Image /Width ${p.cv.width} /Height ${p.cv.height} /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /DCTDecode /Length ${jpegs[i].length} >>\nstream\n`), jpegs[i], enc.encode("\nendstream")]);
-    const cs = `q ${PAGE_W} 0 0 ${PAGE_H} 0 0 cm /Im0 Do Q`;
+    const cs = `q ${W} 0 0 ${H} 0 0 cm /Im0 Do Q`;
     const csId = add([enc.encode(`<< /Length ${cs.length} >>\nstream\n${cs}\nendstream`)]);
-    const annIds = p.links.map(l => add([enc.encode(`<< /Type /Annot /Subtype /Link /Rect [${l.x1.toFixed(2)} ${(PAGE_H - l.y2).toFixed(2)} ${l.x2.toFixed(2)} ${(PAGE_H - l.y1).toFixed(2)}] /Border [0 0 0] /A << /S /URI /URI (${esc(l.href)}) >> >>`)]));
-    const pageId = add([enc.encode(`<< /Type /Page /Parent 2 0 R /MediaBox [0 0 ${PAGE_W} ${PAGE_H}] /Resources << /XObject << /Im0 ${imgId} 0 R >> >> /Contents ${csId} 0 R${annIds.length ? " /Annots [" + annIds.map(a => a + " 0 R").join(" ") + "]" : ""} >>`)]);
+    const annIds = p.links.map(l => add([enc.encode(`<< /Type /Annot /Subtype /Link /Rect [${l.x1.toFixed(2)} ${(H - l.y2).toFixed(2)} ${l.x2.toFixed(2)} ${(H - l.y1).toFixed(2)}] /Border [0 0 0] /A << /S /URI /URI (${esc(l.href)}) >> >>`)]));
+    const pageId = add([enc.encode(`<< /Type /Page /Parent 2 0 R /MediaBox [0 0 ${W} ${H}] /Resources << /XObject << /Im0 ${imgId} 0 R >> >> /Contents ${csId} 0 R${annIds.length ? " /Annots [" + annIds.map(a => a + " 0 R").join(" ") + "]" : ""} >>`)]);
     pageIds.push(pageId);
   });
   const infoId = add([enc.encode(`<< /Title (${esc(title.replace(/[^\x20-\x7eÀ-ÿ]/g, ""))}) /Creator (Enneagramm-Heilungskompass) >>`)]);
@@ -325,6 +325,8 @@ async function toPdf(doc, title) {
   const trailer = `trailer\n<< /Size ${total} /Root 1 0 R /Info ${infoId} 0 R >>\nstartxref\n${pos}\n%%EOF`;
   return new Blob([concat([...head, ...body, enc.encode(xref + trailer)])], { type: "application/pdf" });
 }
+
+export function pagesToPdf(pages, title, W, H) { return toPdf({ pages }, title, W, H); }
 
 export async function sharePortraitPdf(lang, route, btn) {
   const tx = T[lang];
