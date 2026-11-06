@@ -1564,7 +1564,7 @@ const BIBEL_PORTRAITS = [
 ];
 
 const KRIMINAL_PORTRAITS = [
-  { route:"kriminalpsychologie-dennis-nilsen",        name:"Dennis Nilsen",                       subtyp:"SE1w2",  heading:"Dennis Nilsen – Self-Preservation Type 1",                               teaser:"SP1w2 – 'The Killer of Melrose Avenue', born 1945. 15 murders of young men in London 1978–1983. Civil servant, trade union activist, correct neighbor – and a perpetrator who kept his victims in his apartment for weeks after death. Eagle energy: control through care, loneliness as murder motive. Animal correspondence: Eagle." , land:"United Kingdom", tags:["Serienmord","Missbrauch"], gender:"m"},
+  { route:"kriminalpsychologie-dennis-nilsen",        name:"Dennis Nilsen",                       subtyp:"SE1w2",  heading:"Dennis Nilsen – Self-Preservation Type 1",                               teaser:"SP1w2 – 'The Killer of Melrose Avenue', 1945\u20132018. 15 murders of young men in London 1978–1983. Civil servant, trade union activist, correct neighbor – and a perpetrator who kept his victims in his apartment for weeks after death. Eagle energy: control through care, loneliness as murder motive. Animal correspondence: Eagle." , land:"United Kingdom", tags:["Serienmord","Missbrauch"], gender:"m"},
   { route:"kriminalpsychologie-dorothea-puente",     name:"Dorothea Puente",                     subtyp:"SE1w2",  heading:"Dorothea Puente – Self-Preservation Type 1",                              teaser:"SP1w2 – 'The Landlady of Death', 1929–2011. At least 9 murders of seniors and disabled persons in Sacramento, 1982–1988. Operator of a boarding house, community benefactress – and a perpetrator who buried her victims in the garden and collected their social security checks. Eagle energy: moral order as facade, care as control. Animal correspondence: Eagle." , land:"USA", tags:["Serienmord"], gender:"f"},
   { route:"kriminalpsychologie-michail-popkow",        name:"Michail Popkow",                   subtyp:"SE1w9",  heading:"Michail Popkow – Self-Preservation Type 1",                          teaser:"SP1w9 – Serial killer, born 1964. At least 86 victims in the Siberian city of Angarsk between 1992 and 2010. Police officer, family man, neighborhood figure – and the man who understood his murders as moral cleansing." , land:"Russia", tags:["Serienmord"], gender:"m"},
   { route:"kriminalpsychologie-dennis-rader",         name:"Dennis Rader",                     subtyp:"SE1w9",  heading:"Dennis Rader – Self-Preservation Type 1",                               teaser:"SP1w9 – BTK Killer, born 1945. Ten murders between 1974 and 1991. Church council chairman, compliance officer, family man – and the man who signed his crimes with a self-coined label and craved recognition for decades." , land:"USA", tags:["Serienmord"], gender:"m"},
@@ -49909,7 +49909,7 @@ new MutationObserver(() => _suchX(document)).observe(document.body, { childList:
 let _pdfMod = null;
 function _pdfMount() {
   if (!document.querySelector('.krim-portrait-wrap:not([data-pdf])')) return;
-  (_pdfMod || (_pdfMod = import("../data/pdf-share.js?v=12"))).then(m => m.mountPdfButton("en")).catch(() => {});
+  (_pdfMod || (_pdfMod = import("../data/pdf-share.js?v=13"))).then(m => m.mountPdfButton("en")).catch(() => {});
 }
 let _sbMod = null;
 function _sbMount() {

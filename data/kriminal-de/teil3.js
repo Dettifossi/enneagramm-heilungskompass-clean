@@ -764,7 +764,7 @@ export function dennisNilsenPortraitPage() {
         </div>
         <p class="krim-portrait-name">Dennis Nilsen</p>
         <p class="krim-portrait-typ">SE1w2 \u00b7 Selbsterhaltender Typ 1 mit Zweierfl\u00fcgel</p>
-        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">\u201eDer M\u00f6rder von Melrose Avenue" \u2013 London 1978\u20131983</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">\u201eDer M\u00f6rder von Melrose Avenue" \u2013 London 1978\u20131983 \u00b7 1945\u20132018</p>
       </div>
       <p class="psycho-intro">
         <strong>Dennis Andrew Nilsen</strong>, geboren 1945 in Fraserburgh, Schottland,

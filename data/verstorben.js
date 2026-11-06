@@ -465,6 +465,7 @@ export const VERSTORBEN = new Set([
   "kriminalpsychologie-charles-starkweather",
   "kriminalpsychologie-clyde-barrow",
   "kriminalpsychologie-david-berkowitz",
+  "kriminalpsychologie-dennis-nilsen",
   "kriminalpsychologie-dorothea-puente",
   "kriminalpsychologie-ed-gein",
   "kriminalpsychologie-elizabeth-bathory",

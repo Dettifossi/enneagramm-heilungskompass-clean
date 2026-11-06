@@ -8,7 +8,7 @@ Zweck: Porträts lebender Personen enthalten manchmal einen »Stand«-Abschnitt,
 | Paul Ronzheimer (`beruehmte-paul-ronzheimer`) | Wechsel zu »Axel Springer Creators« (nach Fachmedien, 19.10.2026), keine Originalmitteilung gefunden | Dezember 2026 | offen |
 
 ## Sterbefälle
-Verstorbene Personen: im Porträt das Todesdatum ergänzen, die Route in `data/verstorben.js` eintragen (dann erscheint der PDF-/Bildkarten-Knopf) und die Lebensmusterkompass-Texte prüfen. Aktuelle Beispiele: Hubert Aiwanger (4.11.2026), Janosch (3.11.2026).
+Verstorbene Personen (Bericht: `docs/todesfall-bericht.md`, erzeugt von `node ai-prototype/check-deaths.mjs`): (1) die Zeile unter dem Foto ändern, also Lebensdaten mit Todesdatum (»geboren … – gestorben am …«), (2) einen Schlusssatz im Porträt ergänzen (»… starb am … im Alter von … Jahren«), DE und EN, (3) die Route in `data/verstorben.js` eintragen (dann erscheint der PDF-/Bildkarten-Knopf), (4) Teaser, Register und Lebensmusterkompass-Texte prüfen, (5) Cache-Zähler hochzählen. Aktuelle Beispiele: Hubert Aiwanger (4.11.2026), Janosch (3.11.2026).
 
 ## Regelmäßige Prüfung
-Einmal jährlich zum 1.1. (siehe Memory »Jährlicher Update-Check«); bei Bedarf früher für Personen mit Eintrag in der Tabelle oben.
+Das Skript `ai-prototype/check-deaths.mjs` prüft bei Wikidata, ob bei den als lebend geführten Personen inzwischen ein Todesdatum steht, und listet fällige Einträge dieser Tabelle. Es ändert nichts selbst. Zusätzlich einmal jährlich zum 1.1. die inhaltliche Prüfung (siehe Memory »Jährlicher Update-Check«).

@@ -530,7 +530,7 @@ export function dennisNilsenPortraitPage() {
         </div>
         <p class="krim-portrait-name">Dennis Nilsen</p>
         <p class="krim-portrait-typ">SP1w2 · Self-Preservation Type 1 with Two-wing</p>
-        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">"The Muswell Hill Murderer" – London 1978–1983</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">"The Muswell Hill Murderer" – London 1978–1983 · 1945–2018</p>
       </div>
       <p class="psycho-intro">
         Dennis Andrew Nilsen, born in 1945 in Fraserburgh, Scotland, murdered at least 15 young men in London between 1978 and 1983. He met his victims almost exclusively in pubs and bars in London's West End—many of them homeless individuals, runaways, men without a social support system, some gay like Nilsen himself. He invited them to his home, killed them while they slept or by strangulation, and kept their bodies in his apartment—sometimes for weeks—washing them, dressing them, and holding conversations with them. He was discovered by chance in 1983 when a plumber investigated blocked drains and came across human remains. Nilsen confessed immediately. He died in prison in 2018. What makes his case so extraordinary: He did not kill out of hatred, nor out of lust, nor out of a desire for control in the conventional sense—he killed so as not to be alone. The Enneagram reveals the forces at work behind it.
