@@ -3314,7 +3314,7 @@ export function leaBoscoPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Hell ist die Beweglichkeit einer Frau, die nach Jahrzehnten im Geschäft immer neue Rollen für sich findet: Darstellerin, Regisseurin, Autorin, Lehrerin. Der Schatten der sexuellen Sechs ist der Zwang, sich zu beweisen: Wer Angst bekämpft, kann sich schwer erlauben, sie zu zeigen. Ein Blick auf ihre eigene Darstellung zeigt dagegen eher Gelassenheit und Humor. Dieses Porträt stützt sich auf ihre eigenen Seiten und auf Datenbanken, öffentliche Interviews habe ich nicht gefunden, und Privates lasse ich bewusst weg.</p>
+          <p class="vb-intro">Hell ist die Beweglichkeit einer Frau, die nach Jahrzehnten im Geschäft immer neue Rollen für sich findet: Darstellerin, Regisseurin, Autorin, Lehrerin. Der Schatten der sexuellen Sechs ist der Zwang, sich zu beweisen: Wer Angst bekämpft, kann sich schwer erlauben, sie zu zeigen. Ein Blick auf ihre eigene Darstellung zeigt dagegen eher Gelassenheit und Humor.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>

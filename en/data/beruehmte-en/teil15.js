@@ -3335,7 +3335,7 @@ export function leaBoscoPortraitPage() {
 
         <h2 class="vb-section">5. Light and shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Bright is the agility of a woman who after decades in the business keeps finding new roles for herself: performer, director, author, teacher. The shadow of the sexual Six is the compulsion to prove oneself: whoever fights fear can hardly allow herself to show it. Her own presentation, by contrast, shows rather composure and humour. This portrait relies on her own pages and on databases; I found no public interviews, and I deliberately leave private matters out.</p>
+          <p class="vb-intro">Bright is the agility of a woman who after decades in the business keeps finding new roles for herself: performer, director, author, teacher. The shadow of the sexual Six is the compulsion to prove oneself: whoever fights fear can hardly allow herself to show it. Her own presentation, by contrast, shows rather composure and humour.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
