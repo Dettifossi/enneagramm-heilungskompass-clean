@@ -3888,3 +3888,71 @@ export function henriRousseauPortraitPage() {
     </div>
   `);
 }
+
+export function rainerHunoldPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-rainer-hunold-portrait.jpg" alt="Rainer Hunold – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-rainer-hunold-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Rainer Hunold</p>
+        <p class="krim-portrait-typ">SE9w1 &middot; Selbsterhaltender Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler und Bildhauer, geboren 1949 in Braunschweig &ndash; Tierentsprechung: Elefant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Elefant aus Braunschweig</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Elefant</strong> bewegt sich ruhig und mit Gewicht, drängt sich nicht auf und ist doch nicht zu übersehen. Rainer Hunold wurde am 1. November 1949 in Braunschweig geboren. Nach dem Abitur studierte er einige Semester Kunstpädagogik, Germanistik und Bildhauerei, bevor er sich 1975 für zwei Jahre an der Max-Reinhardt-Schule für Schauspiel in Berlin ausbilden ließ.</p>
+          <p class="vb-intro">1978 kam seine erste große Fernsehrolle in <em>Vorhang auf, wir spielen Mord</em>, im selben Jahr hatte er einen Auftritt im <em>Tatort</em> und eine Rolle in der ZDF-Miniserie <em>Ein Mann will nach oben</em>.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der selbsterhaltende Neuner: ruhige Präsenz über Jahrzehnte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>selbsterhaltende Neuner (SE9)</strong> wirkt durch ruhige, gewichtige Präsenz statt durch Lautstärke. Hunolds Laufbahn ist dafür ein Beleg: Von 1980 bis 1986 spielte er wiederkehrend in <em>Der Alte</em>, von 1988 bis 1997 war er in 89 Folgen von <em>Ein Fall für zwei</em> der Rechtsanwalt Dr. Rainer Franck, von 1994 bis 1997 Thomas Wissmann in <em>Wie Pech und Schwefel</em>, von 1997 bis 2004 Dr. Sommerfeld in <em>Dr. Sommerfeld – Neues vom Bülowbogen</em>, und von 2005 bis 2025 war er in <em>Der Staatsanwalt</em> der Oberstaatsanwalt Bernd Reuther. Das sind fast vierzig Jahre durchgehend auf dem Bildschirm, ohne je zum Skandalthema zu werden.</p>
+          <p class="vb-intro">Dazu passt der Fingerabdruck der selbsterhaltenden Neun im Lebensmusterkompass: Wer einmal in Bewegung ist, bleibt dabei.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Recht, Haltung, Engagement</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der Neun Haltung und ein Gefühl für das Richtige. Es zeigt sich zuerst in den Figuren: Anwalt, Staatsanwalt, Arzt, immer Menschen, die für Ordnung und Anstand stehen. Es zeigt sich aber auch in seinem Engagement. Hunold ist seit vielen Jahren Botschafter der SOS-Kinderdörfer und hat Projekte in Eswatini und Indien besucht; außerdem unterstützt er den Verein Gesicht Zeigen! gegen Rechtsextremismus und Rassismus. 1992 erhielt er zusammen mit Heinrich Breloer und Monika Bednarz-Rauschenbach den Adolf-Grimme-Preis in Gold für <em>Kollege Otto</em>.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Autorität mit menschlichem Gesicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Hunold auszeichnet, ist die Kunst, Autorität nicht streng, sondern zugänglich zu spielen. Seine Anwälte, Ärzte und Staatsanwälte haben Gewicht, aber sie bleiben Menschen, denen man zuhört. Das Publikum belohnte das über Jahrzehnte. Hinter der Kamera arbeitet er als Bildhauer, das Studium aus jungen Jahren hat er nie aufgegeben: Eine Skulptur aus seiner Serie ›Protections‹ (›Schutzräume‹) stiftete er für eine stille Auktion zugunsten der SOS-Kinderdörfer.</p>
+          <p class="vb-intro">Er hat auch ein Buch geschrieben, <em>Ich bin nun mal dick – Ein Wohlfühlbuch</em>, in dem es darum geht, Übergewicht anzunehmen. Das ist eine seltene Offenheit für einen Fernsehstar und passt zu dem Appetit und Genuss, den die Neun als Lebensfreude lebt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist eine Gelassenheit, die nicht schwach ist: Hunold verbiegt sich weder vor der Kamera noch in der Öffentlichkeit, und das Publikum vertraut ihm. Der Schatten der Neun liegt im Einrichten im Vertrauten und im Verzicht auf den Streit. Wer fast vierzig Jahre in ähnlichen Rollen erfolgreich ist, hat wenig Anlass, sich zu riskieren, und die Frage bleibt offen, was hinter der freundlichen Autorität liegt. Dazu kommt Hunolds öffentliche Haltung gegen Rassismus als Zeichen, dass die Neun im Ernstfall durchaus Stellung bezieht. Die Typisierung bleibt eine Deutung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-cynthia-moss">Dr. Cynthia Moss (SE9w1)</a> widmete ihr Berufsleben der Erforschung der Elefanten, dem Tier ihres eigenen Subtyps, und ist wie Hunold ein Beispiel für Ausdauer ohne Lautstärke. <a href="#beruehmte-ludwig-erhard">Ludwig Erhard (SE9w1)</a>, der Wirtschaftsminister und Kanzler mit der Zigarre, stand für Ruhe und Gewicht statt Pose. Beide sind Beispiele dafür, wie die selbsterhaltende Neun im Beruf Verlässlichkeit ausstrahlt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Abschied von der Rolle, nicht vom Engagement</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Stand 6. November 2026: Im Januar 2024 kündigte Hunold an, dass er <em>Der Staatsanwalt</em> nach der 20. Staffel 2025 verlassen werde; die Serie endete mit seinem Abschied. Als Grund nannte er sein Alter und wollte die Glaubwürdigkeit der Figur wahren, da für Richter und Staatsanwälte eine gesetzliche Altersgrenze gilt. Er ist verheiratet, hat zwei Adoptivkinder und lebt in Berlin-Frohnau. Als Botschafter der SOS-Kinderdörfer und für Gesicht Zeigen! bleibt er öffentlich aktiv.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se9", label:"Lebensmusterkompass: SE9 – Elefant"},
+        {route:"beruehmte-cynthia-moss", label:"Porträt: Dr. Cynthia Moss (SE9w1)"},
+        {route:"beruehmte-ludwig-erhard", label:"Porträt: Ludwig Erhard (SE9w1)"},
+      ])}
+    </div>
+  `);
+}

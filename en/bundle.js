@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=491";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=492";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -562,6 +562,7 @@ const tELawrencePortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", 
 const lisaKauffPortraitPage = () => _lazyPage("./data/beruehmte-en/teil17.js", "lisaKauffPortraitPage");
 const mariaHasbolatPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "mariaHasbolatPortraitPage");
 const leonieBeneschPortraitPage = () => _lazyPage("./data/beruehmte-en/teil2.js", "leonieBeneschPortraitPage");
+const rainerHunoldPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "rainerHunoldPortraitPage");
 const henriRousseauPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "henriRousseauPortraitPage");
 const harlandSandersPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "harlandSandersPortraitPage");
 const carmenHerreraPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "carmenHerreraPortraitPage");
@@ -1923,6 +1924,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonie Benesch \u2013 Self-Preservation Type 4",
     teaser:"SP4w3 \u00b7 b. 1991 in Hamburg. Actress, \u2018The Teachers\u2019 Lounge\u2019, \u2018Late Shift\u2019, \u2018Babylon Berlin\u2019. The dove who makes pressure visible without big gestures. Animal correspondence: Dove.",
     land:"Germany", tags:["Acting"], gender:"f"},
+{ route:"beruehmte-rainer-hunold", name:"Rainer Hunold", added:"2026-11-07", subtyp:"SE9w1",
+    heading:"Rainer Hunold \u2013 Self-Preservation Type 9",
+    teaser:"SP9w1 \u00b7 b. 1949 in Braunschweig. Actor and sculptor (\u2018Ein Fall f\u00fcr zwei\u2019, \u2018Der Staatsanwalt\u2019). The elephant with calm weight. Animal correspondence: Elephant.",
+    land:"Germany", tags:["Acting"], gender:"m"},
 { route:"beruehmte-henri-rousseau", name:"Henri Rousseau", added:"2026-11-07", subtyp:"SX9w1",
     heading:"Henri Rousseau \u2013 Sexual Type 9",
     teaser:"SX9w1 \u00b7 1844\u20131910. Painter (Le Douanier), a toll clerk who began to paint in his early forties and held his style despite ridicule. The sloth that hangs on to one thing. Animal correspondence: Sloth.",
@@ -48521,7 +48526,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-pamela-reif": pamelaReifPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-phil-collins": philCollinsPortraitPage,
-      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-lea-bosco": leaBoscoPortraitPage, "beruehmte-roland-trettl": rolandTrettlPortraitPage, "beruehmte-kida-khodr-ramadan": kidaKhodrRamadanPortraitPage, "beruehmte-maryam-zaree": maryamZareePortraitPage, "beruehmte-rauand-taleb": rauandTalebPortraitPage, "beruehmte-steven-krueger": stevenKruegerPortraitPage, "beruehmte-carmen-herrera": carmenHerreraPortraitPage, "beruehmte-harland-sanders": harlandSandersPortraitPage, "beruehmte-henri-rousseau": henriRousseauPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
+      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-lea-bosco": leaBoscoPortraitPage, "beruehmte-roland-trettl": rolandTrettlPortraitPage, "beruehmte-kida-khodr-ramadan": kidaKhodrRamadanPortraitPage, "beruehmte-maryam-zaree": maryamZareePortraitPage, "beruehmte-rauand-taleb": rauandTalebPortraitPage, "beruehmte-steven-krueger": stevenKruegerPortraitPage, "beruehmte-carmen-herrera": carmenHerreraPortraitPage, "beruehmte-harland-sanders": harlandSandersPortraitPage, "beruehmte-henri-rousseau": henriRousseauPortraitPage, "beruehmte-rainer-hunold": rainerHunoldPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
       "beruehmte-harald-v": haraldVPortraitPage,
       "beruehmte-carl-xvi-gustaf": carlXVIGustafPortraitPage,
       "beruehmte-johannes-paul-ii": johannesPaulIIPortraitPage,

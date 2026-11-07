@@ -3909,3 +3909,71 @@ export function henriRousseauPortraitPage() {
     </div>
   `);
 }
+
+export function rainerHunoldPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-rainer-hunold-portrait.jpg" alt="Rainer Hunold – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-rainer-hunold-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Rainer Hunold</p>
+        <p class="krim-portrait-typ">SP9w1 &middot; Self-Preservation Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">Actor and sculptor, born 1949 in Braunschweig &ndash; Animal correspondence: Elephant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Elephant from Braunschweig</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>elephant</strong> moves calmly and with weight, does not push itself forward and yet cannot be overlooked. Rainer Hunold was born on 1 November 1949 in Braunschweig. After his Abitur he studied art education, German literature and sculpture for a few semesters before training for two years from 1975 at the Max Reinhardt School for acting in Berlin.</p>
+          <p class="vb-intro">In 1978 came his first major television role in <em>Vorhang auf, wir spielen Mord</em> (&lsquo;Curtain Up, We&rsquo;re Playing Murder&rsquo;); in the same year he appeared in the <em>Tatort</em> and in the ZDF miniseries <em>Ein Mann will nach oben</em> (&lsquo;A Man Wants to Rise&rsquo;).</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Nine: calm presence over decades</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Nine (SP9)</strong> works through calm, weighty presence rather than volume. Hunold&rsquo;s career is evidence of this: from 1980 to 1986 he appeared recurrently in <em>Der Alte</em>, from 1988 to 1997 he was in 89 episodes of <em>Ein Fall für zwei</em> the lawyer Dr. Rainer Franck, from 1994 to 1997 Thomas Wissmann in <em>Wie Pech und Schwefel</em>, from 1997 to 2004 Dr. Sommerfeld in <em>Dr. Sommerfeld – Neues vom Bülowbogen</em>, and from 2005 to 2025 he was the chief public prosecutor Bernd Reuther in <em>Der Staatsanwalt</em>. That is almost forty years on screen without ever becoming a scandal topic.</p>
+          <p class="vb-intro">This fits the fingerprint of the self-preservation Nine in the Life Pattern Compass: whoever is once in motion stays with it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-wing: law, stance, commitment</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the Nine stance and a sense of what is right. It shows first in the characters: lawyer, prosecutor, doctor, always people who stand for order and decency. But it also shows in his commitment. Hunold has been an ambassador of SOS Children&rsquo;s Villages for many years and has visited projects in Eswatini and India; he also supports the association Gesicht Zeigen! (&lsquo;Show Your Face!&rsquo;) against right-wing extremism and racism. In 1992, together with Heinrich Breloer and Monika Bednarz-Rauschenbach, he received the Adolf Grimme Prize in gold for <em>Kollege Otto</em> (&lsquo;Colleague Otto&rsquo;).</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: authority with a human face</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What distinguishes Hunold is the art of playing authority not sternly but approachably. His lawyers, doctors and prosecutors have weight, but they remain people one listens to. The audience rewarded this over decades. Behind the camera he works as a sculptor; he never gave up the study of his youth: he donated a sculpture from his series &lsquo;Protections&rsquo; for a silent auction in favour of SOS Children&rsquo;s Villages.</p>
+          <p class="vb-intro">He has also written a book, <em>Ich bin nun mal dick – Ein Wohlfühlbuch</em> (&lsquo;I Am Fat, Like It or Not – A Feel-Good Book&rsquo;), about accepting overweight. That is a rare openness for a television star and fits the appetite and enjoyment the Nine lives as joy of life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is a composure that is not weak: Hunold does not bend, neither in front of the camera nor in public, and the audience trusts him. The shadow of the Nine lies in settling into the familiar and in avoiding conflict. Whoever is successful in similar roles for almost forty years has little reason to take risks, and the question remains open what lies behind the friendly authority. Added to this is Hunold&rsquo;s public stance against racism as a sign that the Nine does take a position when it matters. The typing remains an interpretation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-cynthia-moss">Dr. Cynthia Moss (SP9w1)</a> devoted her working life to researching elephants, the animal of her own subtype, and is like Hunold an example of endurance without volume. <a href="#beruehmte-ludwig-erhard">Ludwig Erhard (SP9w1)</a>, the economics minister and chancellor with the cigar, stood for calm and weight rather than pose. Both are examples of how the self-preservation Nine radiates reliability in a profession.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Farewell to the role, not to the commitment</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As of 6 November 2026: in January 2024 Hunold announced that he would leave <em>Der Staatsanwalt</em> after the 20th season in 2025; the series ended with his departure. As a reason he named his age and wanted to preserve the credibility of the character, since a legal age limit applies to judges and prosecutors. He is married, has two adopted children and lives in Berlin-Frohnau. As an ambassador of SOS Children&rsquo;s Villages and for Gesicht Zeigen! he remains publicly active.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se9", label:"SP9 – The Elephant: Subtype Profile"},
+        {route:"lebensmusterkompass/se9", label:"Life Pattern Compass: SP9 – Elephant"},
+        {route:"beruehmte-cynthia-moss", label:"Portrait: Dr. Cynthia Moss (SP9w1)"},
+        {route:"beruehmte-ludwig-erhard", label:"Portrait: Ludwig Erhard (SP9w1)"},
+      ])}
+    </div>
+  `);
+}
