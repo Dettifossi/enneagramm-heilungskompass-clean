@@ -3865,7 +3865,7 @@ export function henriRousseauPortraitPage() {
 
         <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="#beruehmte-diego-velazquez">Diego Velázquez (SX9w1)</a> war ebenfalls ein Maler, bei dem Motiv, Maler und Betrachter ineinanderfließen; sein Weg verlief aber über den Hof und ein Standesstreben, das Rousseau fremd war. <a href="#beruehmte-janosch">Janosch (SX9w1)</a> fand wie Rousseau einen unverwechselbaren, kindlich klaren Bildstil und blieb ihm treu.</p>
+          <p class="vb-intro"><a href="#beruehmte-diego-velazquez">Diego Velázquez (SX9w1)</a> war ebenfalls ein Maler, bei dem Motiv, Maler und Betrachter ineinanderfließen; sein Weg verlief aber über den Hof und ein Standesstreben, das Rousseau fremd war. <a href="#beruehmte-janosch">Janosch (SX9w1)</a> fand wie Rousseau einen unverwechselbaren, kindlich klaren Bildstil und blieb ihm treu. <a href="#beruehmte-wolfgang-beltracchi">Wolfgang Beltracchi (SX9w1)</a>, geboren 1951 in Höxter als Sohn eines Kirchenmalers, ging so weit in den Bildwelten großer Maler auf, dass er als Kunstfälscher bekannt wurde, und malt heute unter eigenem Namen. Er ist ein Gegenpol zu Rousseau: Der eine verschwand mit Absicht in fremden Stilen, der andere stolperte naiv in einen Betrugsverdacht.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Vom Spott zum Bankett</h2>
@@ -3883,6 +3883,7 @@ export function henriRousseauPortraitPage() {
         {route:"lebensmusterkompass/sx9", label:"Lebensmusterkompass: SX9 – Faultier"},
         {route:"beruehmte-diego-velazquez", label:"Porträt: Diego Velázquez (SX9w1)"},
         {route:"beruehmte-janosch", label:"Porträt: Janosch (SX9w1)"},
+        {route:"beruehmte-wolfgang-beltracchi", label:"Porträt: Wolfgang Beltracchi (SX9w1)"},
       ])}
     </div>
   `);

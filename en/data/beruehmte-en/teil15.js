@@ -3886,7 +3886,7 @@ export function henriRousseauPortraitPage() {
 
         <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="#beruehmte-diego-velazquez">Diego Velázquez (SX9w1)</a> was likewise a painter in whom motif, painter and viewer flow into one another; his path, however, ran through the court and a striving for rank that was foreign to Rousseau. <a href="#beruehmte-janosch">Janosch (SX9w1)</a> found, like Rousseau, an unmistakable, childlike-clear pictorial style and stayed true to it.</p>
+          <p class="vb-intro"><a href="#beruehmte-diego-velazquez">Diego Velázquez (SX9w1)</a> was likewise a painter in whom motif, painter and viewer flow into one another; his path, however, ran through the court and a striving for rank that was foreign to Rousseau. <a href="#beruehmte-janosch">Janosch (SX9w1)</a> found, like Rousseau, an unmistakable, childlike-clear pictorial style and stayed true to it. <a href="#beruehmte-wolfgang-beltracchi">Wolfgang Beltracchi (SX9w1)</a>, born in 1951 in Höxter as the son of a church painter, immersed himself so far in the pictorial worlds of great painters that he became known as an art forger, and today paints under his own name. He is a counterpole to Rousseau: the one vanished deliberately into foreign styles, the other stumbled naively into suspicion of fraud.</p>
         </blockquote>
 
         <h2 class="vb-section">7. From ridicule to banquet</h2>
@@ -3904,6 +3904,7 @@ export function henriRousseauPortraitPage() {
         {route:"lebensmusterkompass/sx9", label:"Life Pattern Compass: SX9 – Sloth"},
         {route:"beruehmte-diego-velazquez", label:"Portrait: Diego Velázquez (SX9w1)"},
         {route:"beruehmte-janosch", label:"Portrait: Janosch (SX9w1)"},
+        {route:"beruehmte-wolfgang-beltracchi", label:"Portrait: Wolfgang Beltracchi (SX9w1)"},
       ])}
     </div>
   `);
