@@ -3616,3 +3616,71 @@ export function rauandTalebPortraitPage() {
     </div>
   `);
 }
+
+export function stevenKruegerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-steven-krueger-portrait.jpg" alt="Steven Krueger – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-steven-krueger-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Steven Krueger</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, geboren 1989 in Appleton (Wisconsin) &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär aus Wisconsin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> kommt überall zurecht und greift lieber zu, als dass er sich in Szene setzt. Steven Krueger wurde am 25. Mai 1989 in Appleton im US-Bundesstaat Wisconsin geboren und wuchs in Sarasota in Florida auf. Er studierte an der University of Virginia. Wie er erzählt, ermutigte ihn seine Mutter in der Highschool, einen Schauspielkurs zu besuchen. Der erste Auftritt auf einer Bühne weckte etwas in ihm, doch zunächst hielt er eine Laufbahn für unrealistisch und sah das Spielen als Hobby. Am Ende, so sagt er, habe sein Herz mehr gewusst als sein Kopf.</p>
+          <p class="vb-intro">2009 zog er nach Los Angeles, und noch im selben Jahr stand er zum ersten Mal vor der Kamera, in einer Folge von <em>90210</em>.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Können statt Glänzen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei: Sie sucht nicht den Glanz, sondern arbeitet verlässlich, bis das Können für sich spricht. Kruegers Laufbahn ist die eines Charakterdarstellers. Von 2010 bis 2013 spielte er Gast- und wiederkehrende Rollen, unter anderem in <em>Pretty Little Liars</em>, <em>Workaholics</em>, <em>Parenthood</em> und <em>Two and a Half Men</em>. 2013 kam <em>The Originals</em>, das Spin-off von <em>The Vampire Diaries</em>: Als Joshua ›Josh‹ Rosza spielte er die erste schwule Figur der Serie, die zum Fanliebling wurde. E! News zählte ihn Ende 2013 zu den besten Szenendieben des Jahres. In den Staffeln 1 bis 4 war er wiederkehrend dabei, in der fünften und letzten (2018) gehörte er zur Hauptbesetzung.</p>
+          <p class="vb-intro">Das ist die Handschrift dieses Subtyps: Er gewinnt nicht durch den großen Auftritt, sondern durch Präsenz in der zweiten Reihe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Wärme im Ensemble</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> bringt Zuwendung und den Wunsch, gebraucht zu werden. Er zeigt sich in den Figuren, für die Krueger bekannt ist: der warmherzige, humorvolle Josh in <em>The Originals</em> und vor allem Coach Ben Scott in <em>Yellowjackets</em> (Showtime, seit November 2021), ein sanfter Betreuer, der sich um ein Team kümmert, das auf sich gestellt ist. Auch seine Haltung zur Arbeit klingt nach dem Zweierflügel: Er sagt, er sei dankbar, mitten in der Laufbahn noch so viel Freude am Beruf zu haben, und er plädiert dafür, Kreativen mehr zu vertrauen als Daten und Algorithmen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: der Charakterdarsteller</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Krueger auszeichnet, ist eine Spanne, die er mit genauem Spiel füllt. Vom Fanliebling Josh über Rollen in <em>Roswell, New Mexico</em> (Heath Tuchman, 2021 und 2022), <em>NCIS</em> und <em>Good Trouble</em> bis zu Kino und Horror wie <em>Goosebumps</em> (2015) und <em>Satanic</em> (2016) bleibt er als Typ erkennbar und füllt die Rolle doch immer neu. Zu <em>Yellowjackets</em> berichtete er, wie die Rolle des Coach Ben ihn körperlich forderte, weil die Figur nach einer schweren Verletzung oft einbeinig spielen muss.</p>
+          <p class="vb-intro">Hinter der Kamera ist er auch angekommen: Seinen Kurzfilm <em>Leaving the Light</em> inszenierte er selbst, nach seiner Aussage eine der herausforderndsten Aufgaben seiner Laufbahn, die er trotzdem sehr genossen habe. Besonders beeindruckt habe ihn die Postproduktion. Das ist der Schritt von der Darstellung zur Urheberschaft, den auch andere dieses Subtyps gehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Verlässlichkeit eines Darstellers, der sich in jedem Ensemble zu Hause fühlt und dem Ganzen dient. Der Schatten der selbsterhaltenden Drei ist die Sicherheit: Wer Verlässlichkeit zum Maßstab macht, bleibt leicht im Bekannten. Krueger scheint das zu wissen: Seine besten Arbeiten, sagt er, entstünden außerhalb seiner Komfortzone, und er wolle künftig Projekte annehmen, die Grenzen verschieben. Die Typisierung bleibt eine Deutung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-hong-chau">Hong Chau (SE3w2)</a> ist ebenfalls eine Schauspielerin, die durch genaue Rollen in der zweiten Reihe wirkte, bevor das Publikum den Namen kannte. <a href="#beruehmte-maryam-zaree">Maryam Zaree (SE3w2)</a> verbindet das Spiel im Ensemble mit eigener Urheberschaft als Autorin und Regisseurin, ein Schritt, den auch Krueger mit seinem Kurzfilm geht. Alle drei leben, daher steht ihr Weg in der Gegenwart.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Zwischen Wildnis-Set und Regiestuhl</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Stand 6. November 2026: Krueger spielt weiterhin die Rolle in <em>Yellowjackets</em>, die ihn seit 2021 begleitet. Sein Kurzfilm <em>Leaving the Light</em> ist laut den vorliegenden Angaben noch in Arbeit. Zum Privaten ist öffentlich bekannt, dass er mit der Schauspielerin Candice King verheiratet ist.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se3", label:"Lebensmusterkompass: SE3 – Waschbär"},
+        {route:"beruehmte-hong-chau", label:"Porträt: Hong Chau (SE3w2)"},
+        {route:"beruehmte-maryam-zaree", label:"Porträt: Maryam Zaree (SE3w2)"},
+      ])}
+    </div>
+  `);
+}

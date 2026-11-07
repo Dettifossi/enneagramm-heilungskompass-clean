@@ -3637,3 +3637,71 @@ export function rauandTalebPortraitPage() {
     </div>
   `);
 }
+
+export function stevenKruegerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-steven-krueger-portrait.jpg" alt="Steven Krueger – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-steven-krueger-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Steven Krueger</p>
+        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Actor, born 1989 in Appleton (Wisconsin) &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon from Wisconsin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> gets by everywhere and prefers to pitch in rather than put itself on show. Steven Krueger was born on 25 May 1989 in Appleton, Wisconsin, and grew up in Sarasota, Florida. He studied at the University of Virginia. As he tells it, his mother encouraged him in high school to take an acting class. His first appearance on stage stirred something in him, but at first he thought a career unrealistic and saw acting as a hobby. In the end, he says, his heart knew more than his head.</p>
+          <p class="vb-intro">In 2009 he moved to Los Angeles, and in the same year he stood in front of the camera for the first time, in an episode of <em>90210</em>.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Three: skill over glamour</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> is the counter-type of the Three: it does not seek glamour but works reliably until the skill speaks for itself. Krueger&rsquo;s career is that of a character actor. From 2010 to 2013 he played guest and recurring roles, among others in <em>Pretty Little Liars</em>, <em>Workaholics</em>, <em>Parenthood</em> and <em>Two and a Half Men</em>. In 2013 came <em>The Originals</em>, the spin-off of <em>The Vampire Diaries</em>: as Joshua &lsquo;Josh&rsquo; Rosza he played the series&rsquo; first gay character, who became a fan favourite. E! News counted him among the best scene stealers of the year at the end of 2013. In seasons 1 to 4 he was recurring, and in the fifth and last (2018) he was part of the main cast.</p>
+          <p class="vb-intro">This is the signature of this subtype: it wins not through the big entrance but through presence in the second row.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: warmth in the ensemble</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> brings warmth and the wish to be needed. It shows in the characters Krueger is known for: the warm, humorous Josh in <em>The Originals</em> and above all Coach Ben Scott in <em>Yellowjackets</em> (Showtime, since November 2021), a gentle caretaker looking after a team left to fend for itself. His attitude to work also sounds like the Two-wing: he says he is grateful to still have so much joy in his profession in the middle of his career, and he argues for trusting creatives more than data and algorithms.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the character actor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What distinguishes Krueger is a range he fills with precise acting. From the fan favourite Josh through roles in <em>Roswell, New Mexico</em> (Heath Tuchman, 2021 and 2022), <em>NCIS</em> and <em>Good Trouble</em> to cinema and horror such as <em>Goosebumps</em> (2015) and <em>Satanic</em> (2016), he remains recognisable as a type yet always fills the role anew. On <em>Yellowjackets</em> he reported how the role of Coach Ben was physically demanding, because after a serious injury the character often has to act on one leg.</p>
+          <p class="vb-intro">He has also arrived behind the camera: he directed his short film <em>Leaving the Light</em> himself, by his account one of the most challenging tasks of his career, which he nevertheless greatly enjoyed. Post-production especially impressed him. This is the step from performance to authorship that others of this subtype take too.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is the reliability of a performer who feels at home in every ensemble and serves the whole. The shadow of the self-preservation Three is security: whoever makes reliability the measure easily stays in the familiar. Krueger seems to know this: his best work, he says, comes from outside his comfort zone, and he wants to take on projects that push boundaries in future. The typing remains an interpretation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-hong-chau">Hong Chau (SP3w2)</a> is likewise an actress who made an impact through precise roles in the second row before the audience knew the name. <a href="#beruehmte-maryam-zaree">Maryam Zaree (SP3w2)</a> combines playing in the ensemble with authorship of her own as writer and director, a step Krueger also takes with his short film. All three are living, so their paths are in the present tense.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Between the wilderness set and the director&rsquo;s chair</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As of 6 November 2026: Krueger continues to play the role in <em>Yellowjackets</em> that has accompanied him since 2021. His short film <em>Leaving the Light</em> is, according to the available information, still in progress. On the private side it is publicly known that he is married to the actress Candice King.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SP3 – Raccoon"},
+        {route:"beruehmte-hong-chau", label:"Portrait: Hong Chau (SP3w2)"},
+        {route:"beruehmte-maryam-zaree", label:"Portrait: Maryam Zaree (SP3w2)"},
+      ])}
+    </div>
+  `);
+}

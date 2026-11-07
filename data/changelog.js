@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2754", date: "2026-11-07", text: "Neues Porträt: Steven Krueger (SE3w2) – Schauspieler (The Originals, Yellowjackets), der in der zweiten Reihe glänzt.", text_en: "New portrait: Steven Krueger (SP3w2) – actor (The Originals, Yellowjackets) who shines in the second row.", route: "beruehmte-steven-krueger" },
     { version: "v2753", date: "2026-11-07", text: "Neues Porträt: Rauand Taleb (SO3w2) – Schauspieler (4 Blocks, Nur eine Frau), der als Flüchtlingskind nach Deutschland kam.", text_en: "New portrait: Rauand Taleb (SO3w2) – actor (4 Blocks, A Regular Woman) who came to Germany as a refugee child.", route: "beruehmte-rauand-taleb" },
     { version: "v2752", date: "2026-11-07", text: "Neues Porträt: Maryam Zaree (SE3w2) – Schauspielerin, Autorin und Regisseurin (Born in Evin), die aus einer verschwiegenen Geschichte einen Film machte.", text_en: "New portrait: Maryam Zaree (SP3w2) – actress, author and director (Born in Evin) who turned a hushed-up story into a film.", route: "beruehmte-maryam-zaree" },
     { version: "v2750", date: "2026-11-06", text: "Neues Porträt: Kida Khodr Ramadan (SE3w4) – Schauspieler und Regisseur (4 Blocks), der in Berlin sein Revier fand.", text_en: "New portrait: Kida Khodr Ramadan (SP3w4) – actor and director (4 Blocks) who found his territory in Berlin.", route: "beruehmte-kida-khodr-ramadan" },
