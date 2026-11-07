@@ -3752,3 +3752,71 @@ export function carmenHerreraPortraitPage() {
     </div>
   `);
 }
+
+export function harlandSandersPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-harland-sanders-portrait.jpg" alt="Harland Sanders – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-harland-sanders-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Harland Sanders</p>
+        <p class="krim-portrait-typ">SX8w7 &middot; Sexueller Typ 8 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Unternehmer, Gründer von Kentucky Fried Chicken, 1890&ndash;1980 &ndash; Tierentsprechung: Krokodil</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Krokodil aus Henryville</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Krokodil</strong> liegt reglos im Wasser, scheinbar ohne Absicht, und schlägt dann vollständig und blitzschnell zu. Harland Sanders wurde am 9. September 1890 in Henryville im US-Bundesstaat Indiana geboren, als ältestes von drei Kindern. 1895 starb sein Vater. Der Junge kochte früh für seine Geschwister, mit etwa sieben Jahren schon Brot und Gemüse. Mit zwölf verließ er die siebte Klasse. 1906 fälschte er mit sechzehn sein Geburtsdatum, trat in die US-Armee ein und fuhr als Fuhrmann auf Kuba, 1907 wurde er ehrenhaft entlassen.</p>
+          <p class="vb-intro">Das Muster dieses Lebens steht schon hier: früh Verantwortung, kein Schulabschluss, keine Absicherung von außen. Wer so beginnt, lernt, dass niemand etwas schenkt und dass man sich nehmen muss, was man braucht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der sexuelle Achter: Besitz und Zugriff</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>sexuelle Achter (SX8)</strong> hat nach Naranjo das Thema ›Besitzergreifung‹: Kraft zeigt sich nicht in ständiger Aktivität, sondern im Warten, gefolgt von einem vollständigen Zugriff. Sanders&rsquo; Weg bis 1930 ist eine Kette von Anläufen: Eisenbahnarbeiter und Heizer auf Dampflokomotiven, 1909 verheiratet mit Josephine King, später Fernstudium der Rechtswissenschaft und etwa drei Jahre Anwalt in Little Rock, bis ein Eklat im Gerichtssaal die Laufbahn beendete, ein Streit mit dem eigenen Mandanten. 1916 wurde er als Versicherungsvertreter wegen Widerspenstigkeit entlassen. 1920 gründete er eine Fährgesellschaft auf dem Ohio River, um 1922 eine Lampenfirma, die scheiterte. 1924 verlor er die Stelle bei Michelin und betrieb danach eine Tankstelle in Nicholasville.</p>
+          <p class="vb-intro">Sein Biograf John Ed Pearce nennt als Ursachen früher Rückschläge unter anderem Sturheit und fehlende Selbstbeherrschung. Typologisch ist das die Kehrseite derselben Kraft: Wer sich nichts sagen lässt, eckt an, und wer zugreift, lässt nicht los.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Verkäufer, Zuversicht, Neuanfang</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> bringt Beweglichkeit, Zuversicht und den Hang zum Neuanfang. Er zeigt sich in der Zahl der Berufe, in der Selbstverständlichkeit, mit der Sanders nach jedem Scheitern etwas anderes anfing, und im Talent zum Verkaufen. 1930 übernahm er eine Shell-Tankstelle in North Corbin in Kentucky und begann, Hähnchen und andere Gerichte zu servieren. 1935 ernannte ihn der Gouverneur Ruby Laffoon zum Kentucky Colonel, ein Ehrentitel und kein Militärrang. Sanders machte daraus eine Rolle: Ab 1950 trug er Ziegenbart, weißen Anzug und schwarze Fliege und stellte sich als ›Colonel‹ vor.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Druckfritteuse, Rezept und Franchise</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Sanders einzigartig machte, ist keine Idee im Ungefähren, sondern ein konkretes Verfahren. 1939 nahm der Feinschmecker Duncan Hines sein Lokal in seinen Restaurantführer auf. 1940 perfektionierte Sanders sein ›Geheimrezept‹ und das Hähnchen im Druckfritteusen-Verfahren, das es schnell und gleichmäßig gar macht. 1962 ließ er das Druckfrittieren patentieren, 1963 den Slogan ›Finger Lickin&rsquo; Good‹ schützen.</p>
+          <p class="vb-intro">Der entscheidende Zugriff kam spät. 1952 vergab er die erste Franchise-Lizenz an Pete Harman in South Salt Lake in Utah. Um 1955, mit 65 Jahren, verkaufte er das Lokal in North Corbin, weil eine neue Autobahn die Kundschaft abzog, und lebte danach von Ersparnissen und Sozialversicherung. Statt aufzugeben, zog er mit dem Rezept über Land und warb Franchisenehmer. 1964 verkaufte er das Unternehmen für 2 Millionen Dollar an John Y. Brown Jr. und Jack C. Massey, blieb aber als bezahlter Markenbotschafter und behielt das Kanada-Geschäft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist ein Antrieb, der selbst Armut und Absagen nicht löschte: Ein Mann, der mit 65 so gut wie von vorn anfing, baute ein weltweites System auf. Der Schatten des sexuellen Achters ist das Nicht-Loslassen. Nach dem Verkauf geriet Sanders mit den neuen Eigentümern wiederholt aneinander. 1973 und 1975 kam es zu Rechtsstreitigkeiten mit Heublein, der damaligen Muttergesellschaft von KFC, um die Bildrechte und die Soße, und 1979 kritisierte er bei Überraschungsbesuchen das Essen scharf und nannte die Soße ›God-damned slop‹ (etwa ›gottverdammter Schlamm‹). Der Biograf Josh Ozersky schreibt, es sei ihm unmöglich gewesen, das Produkt loszulassen, das ihn definierte. Eine Acht sagt, was sie denkt, auch gegen das eigene Markenbild.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-pablo-picasso">Pablo Picasso (SX8w7)</a> hatte denselben unermüdlichen Hunger nach Wirkung, der mit dem Alter nicht nachließ. <a href="#beruehmte-diogenes">Diogenes von Sinope (SX8w7)</a> lebte die radikale, ungeschützte Öffentlichkeit, die auch bei Sanders auffällt: Er musste keinem gefallen, auch nicht seinem eigenen Konzern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Der Colonel im weißen Anzug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Juni 1980 wurde bei Sanders Leukämie festgestellt, am 16. Dezember 1980 starb er in Louisville mit 90 Jahren an einer Lungenentzündung. Er wurde in seinem weißen Anzug auf dem Cave Hill Cemetery beigesetzt. Zu seinem Todeszeitpunkt gab es rund 6.000 KFC-Filialen in 48 Ländern. Der Colonel war eine Rolle, die er sich selbst gegeben hatte, und er trug sie bis ins Grab.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx8", label:"SX8 – Das Krokodil: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx8", label:"Lebensmusterkompass: SX8 – Krokodil"},
+        {route:"beruehmte-pablo-picasso", label:"Porträt: Pablo Picasso (SX8w7)"},
+        {route:"beruehmte-diogenes", label:"Porträt: Diogenes von Sinope (SX8w7)"},
+      ])}
+    </div>
+  `);
+}

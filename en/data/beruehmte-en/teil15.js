@@ -3773,3 +3773,71 @@ export function carmenHerreraPortraitPage() {
     </div>
   `);
 }
+
+export function harlandSandersPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-harland-sanders-portrait.jpg" alt="Harland Sanders – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-harland-sanders-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Harland Sanders</p>
+        <p class="krim-portrait-typ">SX8w7 &middot; Sexual Type 8 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">Entrepreneur, founder of Kentucky Fried Chicken, 1890&ndash;1980 &ndash; Animal correspondence: Crocodile</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Crocodile from Henryville</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>crocodile</strong> lies motionless in the water, seemingly without intent, and then strikes completely and in a flash. Harland Sanders was born on 9 September 1890 in Henryville, Indiana, the eldest of three children. His father died in 1895. The boy cooked for his siblings early, at about seven already bread and vegetables. At twelve he left the seventh grade. In 1906, at sixteen, he falsified his birth date, joined the US Army and drove a wagon in Cuba; in 1907 he was honourably discharged.</p>
+          <p class="vb-intro">The pattern of this life is already visible here: early responsibility, no diploma, no support from outside. Whoever begins like this learns that nobody gives anything away and that one must take what one needs.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Eight: possession and seizure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Eight (SX8)</strong> has, according to Naranjo, the theme of &lsquo;possession&rsquo;: strength shows not in constant activity but in waiting, followed by a complete seizure. Sanders&rsquo; path until 1930 is a chain of starts: railway worker and fireman on steam locomotives, in 1909 married to Josephine King, later a law degree by correspondence and about three years as a lawyer in Little Rock, until a scandal in the courtroom, a quarrel with his own client, ended the career. In 1916 he was dismissed as an insurance salesman for insubordination. In 1920 he founded a ferry company on the Ohio River, around 1922 a lamp company, which failed. In 1924 he lost his job at Michelin and afterwards ran a gas station in Nicholasville.</p>
+          <p class="vb-intro">His biographer John Ed Pearce names stubbornness and a lack of self-control among the causes of early setbacks. Typologically this is the flip side of the same strength: whoever lets nobody tell him anything collides with others, and whoever seizes does not let go.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-wing: salesman, confidence, new start</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> brings mobility, confidence and the tendency to start anew. It shows in the number of occupations, in the matter-of-factness with which Sanders began something else after each failure, and in the talent for selling. In 1930 he took over a Shell gas station in North Corbin, Kentucky, and began serving chicken and other dishes. In 1935 Governor Ruby Laffoon made him a Kentucky Colonel, an honorary title and not a military rank. Sanders made it a role: from 1950 he wore a goatee, white suit and black bow tie and introduced himself as &lsquo;Colonel&rsquo;.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: pressure fryer, recipe and franchise</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What made Sanders unique is not a vague idea but a concrete procedure. In 1939 the gourmet Duncan Hines included his restaurant in his restaurant guide. In 1940 Sanders perfected his &lsquo;secret recipe&rsquo; and the chicken in the pressure-fryer method, which cooks it quickly and evenly. In 1962 he had pressure frying patented, in 1963 the slogan &lsquo;Finger Lickin&rsquo; Good&rsquo; protected.</p>
+          <p class="vb-intro">The decisive seizure came late. In 1952 he granted the first franchise licence to Pete Harman in South Salt Lake, Utah. Around 1955, at 65, he sold the restaurant in North Corbin because a new highway drew the customers away, and afterwards lived on savings and Social Security. Instead of giving up he travelled the country with the recipe and recruited franchisees. In 1964 he sold the company for 2 million dollars to John Y. Brown Jr. and Jack C. Massey, but stayed on as a paid brand ambassador and kept the Canadian business.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is a drive that neither poverty nor rejections extinguished: a man who at 65 practically started over built a worldwide system. The shadow of the sexual Eight is not letting go. After the sale Sanders repeatedly clashed with the new owners. In 1973 and 1975 there were legal disputes with Heublein, then KFC&rsquo;s parent company, over image rights and the gravy, and in 1979 on surprise visits he sharply criticised the food and called the gravy &lsquo;God-damned slop&rsquo;. The biographer Josh Ozersky writes that it was impossible for him to relinquish the product that defined him. An Eight says what it thinks, even against its own brand image.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-pablo-picasso">Pablo Picasso (SX8w7)</a> had the same tireless hunger for impact that did not fade with age. <a href="#beruehmte-diogenes">Diogenes of Sinope (SX8w7)</a> lived the radical, unprotected publicity that also stands out with Sanders: he did not have to please anyone, not even his own corporation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Colonel in the white suit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In June 1980 leukaemia was diagnosed in Sanders; on 16 December 1980 he died in Louisville at the age of 90 of pneumonia. He was buried in his white suit at Cave Hill Cemetery. At the time of his death there were around 6,000 KFC outlets in 48 countries. The Colonel was a role he had given himself, and he wore it to the grave.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
+        {route:"lebensmusterkompass/sx8", label:"Life Pattern Compass: SX8 – Crocodile"},
+        {route:"beruehmte-pablo-picasso", label:"Portrait: Pablo Picasso (SX8w7)"},
+        {route:"beruehmte-diogenes", label:"Portrait: Diogenes of Sinope (SX8w7)"},
+      ])}
+    </div>
+  `);
+}
