@@ -39,7 +39,7 @@ export function wenigerIstMehrPage() {
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">5. Typmittel sind keine Nahrungsergänzung</h2>
-        <p class="vb-intro">Das Enneagramm selbst ordnet keinem Typ Mittel zu. Erst die Enneagramm-Heilkunst hat Mittel mit den Typen verbunden: zuerst Dr. Peter Hegemann mit der Enneagramm-Homöopathie, die mit neun Mitteln für das Modell der neun Typen arbeitete. Der Autor hat sie nach der Lehre von Claudio Naranjo auf 27 Subtypen erweitert und die Möglichkeiten der Typbestimmung verfeinert, denn die Typisierung entscheidet am Ende über das passende Mittel. In den Forschungen der letzten dreißig Jahre kamen durch den Autor die Enneagramm-Bachblütentherapie und die Enneagramm-Biochemie hinzu, die Schüßler-Salze nach dem Enneagramm. Das beschreibt Muster, die in der Praxis hilfreich sein können. Es ist keine Verordnung und kein Dauerprogramm. Wer sein Typmittel jeden Tag wie ein Vitamin nimmt, setzt immer denselben Impuls und lernt nicht, wann er etwas bewirkt und wann nicht mehr.</p>
+        <p class="vb-intro">Das Enneagramm selbst ordnet keinem Typ Mittel zu. Erst die Enneagramm-Heilkunst hat Mittel mit den Typen verbunden: zuerst Dr. Peter Hegemann mit der Enneagramm-Homöopathie, die mit neun Mitteln für das Modell der neun Typen arbeitete. Ich habe sie nach der Lehre von Claudio Naranjo auf 27 Subtypen erweitert und die Möglichkeiten der Typbestimmung verfeinert, denn die Typisierung entscheidet am Ende über das passende Mittel. In meinen weiteren Forschungen der letzten dreißig Jahre sind die Enneagramm-Bachblütentherapie und die Enneagramm-Biochemie entstanden, die Schüßler-Salze nach dem Enneagramm. Beide stammen von mir. Das beschreibt Muster, die in der Praxis hilfreich sein können. Es ist keine Verordnung und kein Dauerprogramm. Wer sein Typmittel jeden Tag wie ein Vitamin nimmt, setzt immer denselben Impuls und lernt nicht, wann er etwas bewirkt und wann nicht mehr.</p>
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">6. Sensibilität im Alltag: weniger ist mehr</h2>
@@ -59,10 +59,22 @@ export function wenigerIstMehrPage() {
         <p class="vb-intro" style="margin-bottom:0;">Dieser Tipp möchte keine Angst machen, sondern Aufmerksamkeit wecken. Die Aussagen beruhen auf der Lehre der Homöopathie und auf Erfahrung aus der Praxis, nicht auf Studien. Wer Mittel gezielt und mit Begleitung einsetzt, hat die Chance, den Impuls zu erleben, statt ihn im Dauergebrauch zu überdecken.</p>
       </div>
 
-      <div style="margin-top:1.6rem;">
-        ${bookTip("enneagramm-bachblueten-therapie", "Die neun Enneagrammtypen verbunden mit den Bachblüten nach Dr. Edward Bach – Leidenschafts- und Wunden-Blüten aus der therapeutischen Praxis.", "Enneagramm-Bachblüten-Therapie")}
-        <div style="margin-top:.8rem;">${bookTip("enneagramm-homoeopathie-band-1", "Die Grundlage der Enneagramm-Homöopathie – wie Persönlichkeitstyp und Heilmittelwahl zusammenhängen, auch für Laien gut verständlich.", "Enneagramm-Homöopathie – Band 1")}</div>
-        <div style="margin-top:.8rem;">${bookTip("enneagramm-biochemie", "Die neun Regulationsmuster des Enneagramms, verbunden mit den biochemischen Mineralsalzen nach Dr. Schüßler – auch für Laien gut verständlich.", "Enneagramm-Biochemie")}</div>
+      <div style="margin-top:2rem;">
+        <details style="border:1px solid var(--line);border-radius:12px;overflow:hidden;">
+          <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
+                          background:var(--paper);list-style:none;user-select:none;font-weight:700;
+                          font-size:0.95rem;color:var(--ink);">
+            <span style="font-size:1.2rem;color:var(--copper);">&#9672;</span>
+            <span style="flex:1;">Vertiefende Literatur von Detlef Rathmer</span>
+            <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
+          </summary>
+          <div style="padding:1rem 1.2rem 1.2rem;">
+            ${bookTip("enneagramm-homoeopathie-band-1", "Die Grundlage der Enneagramm-Homöopathie – wie Persönlichkeitstyp und Heilmittelwahl zusammenhängen, auch für Laien gut verständlich.", "Enneagramm-Homöopathie – Band 1")}
+            <div style="margin-top:.8rem;">${bookTip("enneagramm-homoeopathie-band-2", "Vertiefung und Erweiterung: Die 27 Subtypen und ihre individuellen homöopathischen Heilmittel.", "Enneagramm-Homöopathie – Band 2")}</div>
+            <div style="margin-top:.8rem;">${bookTip("enneagramm-bachblueten-therapie", "Die neun Enneagrammtypen verbunden mit den Bachblüten nach Dr. Edward Bach – Leidenschafts- und Wunden-Blüten aus der therapeutischen Praxis.", "Enneagramm-Bachblüten-Therapie")}</div>
+            <div style="margin-top:.8rem;">${bookTip("enneagramm-biochemie", "Die neun Regulationsmuster des Enneagramms, verbunden mit den biochemischen Mineralsalzen nach Dr. Schüßler – auch für Laien gut verständlich.", "Enneagramm-Biochemie")}</div>
+          </div>
+        </details>
       </div>
 
       ${relatedLinks([

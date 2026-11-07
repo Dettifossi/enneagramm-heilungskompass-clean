@@ -39,7 +39,7 @@ export function wenigerIstMehrPage() {
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">5. Type remedies are not dietary supplements</h2>
-        <p class="vb-intro">The Enneagram itself assigns no remedies to any type. It was Enneagram healing art that first connected remedies with the types: first Dr. Peter Hegemann with Enneagram Homeopathy, which worked with nine remedies for the model of the nine types. The author extended it, following the teaching of Claudio Naranjo, to 27 subtypes and refined the possibilities of typing, because the typing in the end decides on the fitting remedy. In the research of the last thirty years the author added Enneagram Bach Flower Therapy and Enneagram Biochemistry, the Schüßler salts according to the Enneagram. This describes patterns that can be helpful in practice. It is no prescription and no permanent programme. Whoever takes his type remedy every day like a vitamin always sets the same impulse and does not learn when it does something and when no longer.</p>
+        <p class="vb-intro">The Enneagram itself assigns no remedies to any type. It was Enneagram healing art that first connected remedies with the types: first Dr. Peter Hegemann with Enneagram Homeopathy, which worked with nine remedies for the model of the nine types. I extended it, following the teaching of Claudio Naranjo, to 27 subtypes and refined the possibilities of typing, because the typing in the end decides on the fitting remedy. In my further research of the last thirty years Enneagram Bach Flower Therapy and Enneagram Biochemistry came into being, the Schüßler salts according to the Enneagram. Both are my own. This describes patterns that can be helpful in practice. It is no prescription and no permanent programme. Whoever takes his type remedy every day like a vitamin always sets the same impulse and does not learn when it does something and when no longer.</p>
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">6. Sensitivity in everyday life: less is more</h2>
@@ -59,10 +59,22 @@ export function wenigerIstMehrPage() {
         <p class="vb-intro" style="margin-bottom:0;">This tip does not want to frighten but to awaken attention. The statements rest on the doctrine of homeopathy and on experience from practice, not on studies. Whoever uses remedies deliberately and with guidance has the chance to experience the impulse instead of covering it with continuous use.</p>
       </div>
 
-      <div style="margin-top:1.6rem;">
-        ${bookTip("enneagramm-bachblueten-therapie", "The nine Enneagram types connected with the Bach flowers according to Dr. Edward Bach – passion and wound flowers from therapeutic practice.", "Enneagramm-Bachblüten-Therapie")}
-        <div style="margin-top:.8rem;">${bookTip("enneagramm-homoeopathie-band-1", "The foundation of Enneagram-Homeopathy – how personality type and remedy selection are connected, accessible for lay readers as well.", "Enneagramm-Homöopathie – Band 1")}</div>
-        <div style="margin-top:.8rem;">${bookTip("enneagramm-biochemie", "The nine regulation patterns of the Enneagram, connected with the biochemical mineral salts according to Dr. Schüßler – accessible for lay readers as well.", "Enneagramm-Biochemie")}</div>
+      <div style="margin-top:2rem;">
+        <details style="border:1px solid var(--line);border-radius:12px;overflow:hidden;">
+          <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
+                          background:var(--paper);list-style:none;user-select:none;font-weight:700;
+                          font-size:0.95rem;color:var(--ink);">
+            <span style="font-size:1.2rem;color:var(--copper);">&#9672;</span>
+            <span style="flex:1;">Further reading by Detlef Rathmer</span>
+            <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
+          </summary>
+          <div style="padding:1rem 1.2rem 1.2rem;">
+            ${bookTip("enneagramm-homoeopathie-band-1", "The foundation of Enneagram-Homeopathy – how personality type and remedy selection are connected, accessible for lay readers as well.", "Enneagramm-Homöopathie – Band 1")}
+            <div style="margin-top:.8rem;">${bookTip("enneagramm-homoeopathie-band-2", "Deepening and expansion: The 27 Subtypes and their individual homeopathic remedies.", "Enneagramm-Homöopathie – Band 2")}</div>
+            <div style="margin-top:.8rem;">${bookTip("enneagramm-bachblueten-therapie", "The nine Enneagram types connected with the Bach flowers according to Dr. Edward Bach – passion and wound flowers from therapeutic practice.", "Enneagramm-Bachblüten-Therapie")}</div>
+            <div style="margin-top:.8rem;">${bookTip("enneagramm-biochemie", "The nine regulation patterns of the Enneagram, connected with the biochemical mineral salts according to Dr. Schüßler – accessible for lay readers as well.", "Enneagramm-Biochemie")}</div>
+          </div>
+        </details>
       </div>
 
       ${relatedLinks([
