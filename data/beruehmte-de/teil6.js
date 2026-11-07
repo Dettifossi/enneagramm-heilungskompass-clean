@@ -3477,3 +3477,72 @@ export function kidaKhodrRamadanPortraitPage() {
     </div>
   `);
 }
+
+export function maryamZareePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-maryam-zaree-portrait.jpg" alt="Maryam Zaree – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-maryam-zaree-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Maryam Zaree</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, Autorin und Regisseurin, geboren 1983 in Teheran &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär, der in Evin zur Welt kam</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist ein Überlebenskünstler: Er findet in jeder Umgebung etwas, womit sich arbeiten lässt, im Wald wie in der Großstadt, und er arbeitet mit den Händen. Maryam Zaree wurde am 22. Juli 1983 im Evin-Gefängnis in Teheran geboren, einem politischen Gefängnis, in dem ihre Mutter Nargess Eskandari als Regimegegnerin inhaftiert war. Ihre Eltern überlebten die Verfolgung nach der Revolution von 1979. 1985 floh die Mutter mit der kleinen Tochter nach Deutschland, Maryam wuchs in Frankfurt am Main auf.</p>
+          <p class="vb-intro">Von 2004 bis 2008 studierte sie Schauspiel an der Hochschule für Film und Fernsehen ›Konrad Wolf‹ in Potsdam-Babelsberg. Schon die Frage, wie aus einer Geburt im Gefängnis ein Leben auf der Bühne und vor der Kamera wird, enthält das Grundmuster dieses Porträts: Aus einem schwierigen Anfang wird Arbeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Können statt Glänzen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei: Sie sucht nicht den großen Auftritt, sondern will, dass die Arbeit trägt. Zarees Laufbahn lässt sich so lesen. 2009 spielte sie die Hauptrolle in <em>Shahada</em> (Regie Burhan Qurbani), der 2010 im Berlinale-Wettbewerb lief und ihr unter anderem den Preis als beste Schauspielerin in Monterrey einbrachte. Von 2015 bis 2019 war sie die Gerichtsmedizinerin Nasrin Reza im Berliner <em>Tatort</em>, 2017 bis 2019 spielte sie in <em>4 Blocks</em> die Khalila (Grimme-Preis 2018), dazu Rollen bei Christian Petzold in <em>Transit</em> (2018) und <em>Undine</em> (2020). Es sind genaue, ernsthafte Rollen im Ensemble, kaum Posen.</p>
+          <p class="vb-intro">Auch hinter der Kamera arbeitet sie wie jemand, der Substanz vor Wirkung stellt: Sie schreibt, inszeniert und recherchiert, bevor sie etwas zeigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Stimme für andere</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> bringt Zuwendung, Solidarität und das Bedürfnis, für andere da zu sein. Das zeigt sich bei Zaree im Theater, wo sie als Gast am Maxim-Gorki-Theater, an der Schaubühne und am Ballhaus Naunynstraße arbeitete, und in ihrem Engagement: 2020 war sie Jurymitglied beim Amnesty-International-Filmpreis der Berlinale. Vor allem aber zeigt es sich in ihrem ersten eigenen Film, in dem es nicht nur um sie geht. Für <em>Born in Evin</em> suchte sie vier Jahre lang nach Menschen, die ihre Geschichte teilen. Vielen Betroffenen fiel das Sprechen schwer; vor der Kamera äußerte sich am Ende nur eine Gleichaltrige, die ebenfalls als Kind in Evin gelebt hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: ›Born in Evin‹</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Born in Evin (2019) ist Zarees Regiedebüt, ein Dokumentarfilm von 95 Minuten, zu dem sie auch das Drehbuch schrieb. Sie forscht darin nach ihrer Herkunft und den Umständen ihrer Geburt im Gefängnis, über die in der Familie kaum gesprochen wurde. Ihre einzige eigene, verschüttete Erinnerung ist ein Schweißausbruch beim Hören von Koranversen, die im Gefängnis ununterbrochen abgespielt wurden. Der Film lief 2019 auf der Berlinale in der Sektion ›Perspektive Deutsches Kino‹ und erhielt dort den Kompass-Perspektive-Preis; dazu kamen der Hessische Filmpreis (Newcomerpreis) und der Dokumentarfilmpreis des Fünf Seen Filmfestivals. Die Kritik hob hervor, dass die Tränen der Regisseurin im Film bleiben.</p>
+          <p class="vb-intro">Parallel arbeitet Zaree als Autorin: Ihr Stück <em>Kluge Gefühle</em> gewann 2017 den AutorenPreis des Heidelberger Stückemarkts und 2019 den Förderpreis des Schiller-Gedächtnispreises; 2019 war sie Autorenresidentin am Londoner Royal Court Theatre, 2024 schrieb sie das Drehbuch der Serie <em>A Better Place</em>.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Beharrlichkeit, mit der Zaree eine verschwiegene Geschichte nicht liegen ließ. Der Schatten der selbsterhaltenden Drei ist der Hang, Schmerz in Leistung zu verwandeln: Aus einem Trauma wird ein Projekt, und ein Projekt lässt sich führen, planen und abschließen. Das ist eine Stärke, aber auch ein Schutz, denn was sich in Arbeit übersetzen lässt, muss nicht ungeordnet gefühlt werden. Dass der Film ihre Tränen nicht herausschneidet, zeigt, wie weit sie diesen Schutz geöffnet hat. Die Deutung bleibt eine Deutung, kein Urteil über ihr Innenleben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-hong-chau">Hong Chau (SE3w2)</a> ist eine Schauspielerin, die als Kind vietnamesischer Flüchtlinge in den USA aufwuchs und ihre Laufbahn über genaue Nebenrollen aufbaute, ein ähnlicher Weg vom Rand zur Substanz. Auch <a href="#beruehmte-roland-trettl">Roland Trettl (SE3w2)</a> bringt Können vor Auftritt. Mit <a href="#beruehmte-kida-khodr-ramadan">Kida Khodr Ramadan (SE3w4)</a> stand Zaree in <em>4 Blocks</em> vor der Kamera: zwei Menschen mit Fluchtgeschichte und demselben Subtyp, aber anderem Flügel, Ramadan mit der Schwere des Vierflügels, Zaree mit der Zuwendung des Zweierflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Von Evin auf die Berlinale und weiter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Stand 6. November 2026: Zuletzt ist die Drehbucharbeit an der Serie <em>A Better Place</em> (2024) verzeichnet. Neuere Angaben zu laufenden Projekten liegen nicht vor.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se3", label:"Lebensmusterkompass: SE3 – Waschbär"},
+        {route:"beruehmte-hong-chau", label:"Porträt: Hong Chau (SE3w2)"},
+        {route:"beruehmte-roland-trettl", label:"Porträt: Roland Trettl (SE3w2)"},
+        {route:"beruehmte-kida-khodr-ramadan", label:"Porträt: Kida Khodr Ramadan (SE3w4)"},
+      ])}
+    </div>
+  `);
+}

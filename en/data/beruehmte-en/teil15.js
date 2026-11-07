@@ -3498,3 +3498,72 @@ export function kidaKhodrRamadanPortraitPage() {
     </div>
   `);
 }
+
+export function maryamZareePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-maryam-zaree-portrait.jpg" alt="Maryam Zaree – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-maryam-zaree-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Maryam Zaree</p>
+        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Actress, author and director, born 1983 in Tehran &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon who was born in Evin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is a survivalist: it finds something to work with in every environment, in the forest as in the big city, and it works with its hands. Maryam Zaree was born on 22 July 1983 in Evin prison in Tehran, a political prison in which her mother Nargess Eskandari was held as an opponent of the regime. Her parents survived the persecution after the revolution of 1979. In 1985 her mother fled with the little daughter to Germany, and Maryam grew up in Frankfurt am Main.</p>
+          <p class="vb-intro">From 2004 to 2008 she studied acting at the Konrad Wolf Film University in Potsdam-Babelsberg. The very question of how a birth in prison becomes a life on stage and in front of the camera contains the basic pattern of this portrait: a difficult beginning becomes work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Three: skill over glamour</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> is the counter-type of the Three: it does not seek the big appearance but wants the work to hold. Zaree&rsquo;s career can be read this way. In 2009 she played the lead in <em>Shahada</em> (directed by Burhan Qurbani), which ran in the Berlinale competition in 2010 and won her, among others, the prize for best actress in Monterrey. From 2015 to 2019 she was the forensic pathologist Nasrin Reza in the Berlin <em>Tatort</em>, from 2017 to 2019 she played Khalila in <em>4 Blocks</em> (Grimme Prize 2018), plus roles for Christian Petzold in <em>Transit</em> (2018) and <em>Undine</em> (2020). They are precise, serious roles within ensembles, hardly any poses.</p>
+          <p class="vb-intro">Behind the camera too she works like someone who puts substance before effect: she writes, directs and researches before she shows anything.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: a voice for others</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> brings warmth, solidarity and the need to be there for others. With Zaree this shows in the theatre, where she worked as a guest at the Maxim Gorki Theater, the Schaubühne and the Ballhaus Naunynstraße, and in her commitment: in 2020 she was a jury member of the Amnesty International Film Prize at the Berlinale. Above all it shows in her first own film, which is not only about her. For <em>Born in Evin</em> she searched for four years for people who share her story. Many of those affected found speaking hard; in the end only one person of her own age, who had also lived in Evin as a child, spoke before the camera.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: &lsquo;Born in Evin&rsquo;</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><em>Born in Evin</em> (2019) is Zaree&rsquo;s directing debut, a 95-minute documentary for which she also wrote the screenplay. In it she researches her origins and the circumstances of her birth in prison, of which little was spoken in the family. Her only own memory, buried, is a fit of sweating on hearing verses of the Koran that were played continuously in the prison. The film ran in 2019 at the Berlinale in the section &lsquo;Perspektive Deutsches Kino&rsquo; and won the Kompass Perspektive Prize there; to this came the Hessian Film Prize (newcomer award) and the documentary prize of the Fünf Seen Film Festival. Critics highlighted that the director&rsquo;s tears stay in the film.</p>
+          <p class="vb-intro">In parallel Zaree works as an author: her play <em>Kluge Gefühle</em> (&lsquo;Clever Feelings&rsquo;) won the author&rsquo;s prize of the Heidelberger Stückemarkt in 2017 and the promotion prize of the Schiller Memorial Prize in 2019; in 2019 she was author in residence at London&rsquo;s Royal Court Theatre, and in 2024 she wrote the screenplay for the series <em>A Better Place</em>.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is the persistence with which Zaree did not let a hushed-up story lie. The shadow of the self-preservation Three is the tendency to turn pain into achievement: a trauma becomes a project, and a project can be led, planned and completed. This is a strength but also a protection, because what can be translated into work does not have to be felt in disorder. That the film does not cut out her tears shows how far she has opened this protection. The reading remains a reading, no verdict on her inner life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-hong-chau">Hong Chau (SP3w2)</a> is an actress who grew up as the child of Vietnamese refugees in the USA and built her career through precise supporting roles, a similar path from the margin to substance. <a href="#beruehmte-roland-trettl">Roland Trettl (SP3w2)</a> too puts skill before appearance. With <a href="#beruehmte-kida-khodr-ramadan">Kida Khodr Ramadan (SP3w4)</a> Zaree stood before the camera in <em>4 Blocks</em>: two people with a history of flight and the same subtype but a different wing, Ramadan with the weight of the Four-wing, Zaree with the warmth of the Two-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. From Evin to the Berlinale and beyond</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As of 6 November 2026: most recently the screenplay work on the series <em>A Better Place</em> (2024) is recorded. No newer information on current projects is available.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SP3 – Raccoon"},
+        {route:"beruehmte-hong-chau", label:"Portrait: Hong Chau (SP3w2)"},
+        {route:"beruehmte-roland-trettl", label:"Portrait: Roland Trettl (SP3w2)"},
+        {route:"beruehmte-kida-khodr-ramadan", label:"Portrait: Kida Khodr Ramadan (SP3w4)"},
+      ])}
+    </div>
+  `);
+}
