@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2761", date: "2026-11-07", text: "Neues Porträt: Claus Theo Gärtner (SE1w9) – Schauspieler, der über 32 Jahre Matula in Ein Fall für zwei spielte.", text_en: "New portrait: Claus Theo Gärtner (SP1w9) – actor who played Matula in Ein Fall für zwei for 32 years.", route: "beruehmte-claus-theo-gaertner" },
     { version: "v2760", date: "2026-11-07", text: "Meilenstein: Der Kompass enthält jetzt über 1.200 Porträts, verteilt auf Berühmte Persönlichkeiten, Kriminalpsychologie, Krankheitsporträts, Astrologie und Bibel.", text_en: "Milestone: The Compass now holds over 1,200 portraits, spread across Famous Personalities, Criminal Psychology, Illness Portraits, Astrology and the Bible.", route: "beruehmte-persoenlichkeiten" },
     { version: "v2759", date: "2026-11-07", text: "Neues Porträt: Heinz Erhardt (SE7w6) – Komiker, Musiker und Dichter, der den Raum mit Ruhe füllte.", text_en: "New portrait: Heinz Erhardt (SP7w6) – comedian, musician and poet who filled the room with calm.", route: "beruehmte-heinz-erhardt" },
     { version: "v2758", date: "2026-11-07", text: "Neues Porträt: Rainer Hunold (SE9w1) – Schauspieler und Bildhauer (Ein Fall für zwei, Der Staatsanwalt) mit ruhiger Präsenz.", text_en: "New portrait: Rainer Hunold (SP9w1) – actor and sculptor (Ein Fall für zwei, Der Staatsanwalt) with calm presence.", route: "beruehmte-rainer-hunold" },

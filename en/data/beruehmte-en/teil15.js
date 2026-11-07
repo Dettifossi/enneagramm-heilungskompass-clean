@@ -4046,3 +4046,71 @@ export function heinzErhardtPortraitPage() {
     </div>
   `);
 }
+
+export function clausTheoGaertnerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-claus-theo-gaertner-portrait.jpg" alt="Claus Theo Gärtner – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-claus-theo-gaertner-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Claus Theo Gärtner</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Actor (Matula), born 1943 in Berlin &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle from Oberhausen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>eagle</strong> looks closely from above and acts only when the matter is clear. Claus Theo Gärtner was born on 19 April 1943 in Berlin and grew up in Oberhausen, where he had his first stage experiences at the children&rsquo;s theatre. He spent part of his youth in Austria, the USA and Southeast Asia. He studied music and acting in Braunschweig and Hanover and was active in the Socialist German Student Union in Göttingen.</p>
+          <p class="vb-intro">In 1966 he made his debut at the Deutsches Theater Göttingen under Heinz Hilpert. Engagements followed in Hanover, Braunschweig, Oldenburg and at the Berlin Schaubühne.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation One: exactness and persistence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> works on its own preparation and integrity and carries a cause with quiet exactness over decades. Gärtner&rsquo;s path is an example: in 1971 he played his first film role in the thriller <em>Zoff</em> (&lsquo;Trouble&rsquo;) and received the Federal Film Award for best newcomer in 1972. From 1981 to 2013 he was in <em>Ein Fall für zwei</em> (&lsquo;A Case for Two&rsquo;) the private detective Josef Matula, for 300 episodes, and directed some episodes himself. From 2017 to 2019 followed three films of the <em>Matula</em> series.</p>
+          <p class="vb-intro">Physicality belongs to the exactness: Gärtner is a works driver for Mercedes-Benz, has raced cars since 1967 and today drives classic-car tours, and he performed the car stunts in <em>Ein Fall für zwei</em> himself. Whoever drives like that needs discipline and measure, not show.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-wing: no top dog</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the One composure and an aversion to fuss. Gärtner says he always tried not to appear as the top dog on the set although Matula was the centre of the series. About seeing himself on television he says it is not unpleasant to him but he does not dwell on it. That he will always remain Matula for the audience he accepts. The role, he tells, was a blank sheet at the start that he filled with his idea of a detective, &lsquo;and of course a lot of me is in it&rsquo;. That is the attitude of the Nine: little claim to attention and much constancy.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: Matula</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What distinguishes Gärtner is a character he carried for three decades without it tiring: Josef Matula, the unconventional detective at the side of the lawyer, loyal, direct, with a sense for injustice and no respect for formalities. For this work Gärtner received in 1988 the title &lsquo;Detective of the Year&rsquo; from the Federal Association of German Detectives, in 2004 the Hessian Television Award, in 2006 the Federal Cross of Merit on ribbon and in 2017 the Askania Award for lifetime achievement.</p>
+          <p class="vb-intro">In 1999 the band Superpunk dedicated the song &lsquo;Matula, hau mich raus&rsquo; (&lsquo;Matula, Get Me Out&rsquo;) to him, and in 2016 his autobiography appeared under the same title, written with Sarah Gärtner. That the character became a song and a phrase shows how deeply Matula has arrived in the audience&rsquo;s everyday life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is the reliability: a man who made over 50 film and television productions and stayed in one role for 32 years without a break. The shadow of the self-preservation One lies in holding on to a measure and in avoiding risk. With Gärtner it shows rather from outside: he remains, as he says himself, Matula, whatever he plays. That as a young actor he postponed retirement planning to &lsquo;someday&rsquo; is a small trace of the Nine: what does not press is not tackled. The typing remains an interpretation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-carmen-herrera">Carmen Herrera (SP1w9)</a> worked on her cause for seven decades without anyone seeing it. <a href="#beruehmte-astrid-lindgren">Astrid Lindgren (SP1w9)</a> understood discipline as a daily ritual. With Gärtner both share the composure that is not indifference but fidelity to one&rsquo;s own work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The man who remained what he was</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As of 6 November 2026: the Matula films ended in 2019, and their cancellation was announced in February 2020. Gärtner lives in Basel and partly in Berlin, has been married since 2008 to the Swiss assistant director Sarah Würgler and has been an ambassador of the children&rsquo;s aid organisation Kinderzukunft since 2007. In 2013 he gave up his flat in Wiesbaden. Matula remained his name, and he has come to terms with it.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SP1 – Eagle"},
+        {route:"beruehmte-carmen-herrera", label:"Portrait: Carmen Herrera (SP1w9)"},
+        {route:"beruehmte-astrid-lindgren", label:"Portrait: Astrid Lindgren (SP1w9)"},
+      ])}
+    </div>
+  `);
+}

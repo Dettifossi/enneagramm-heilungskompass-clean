@@ -4025,3 +4025,71 @@ export function heinzErhardtPortraitPage() {
     </div>
   `);
 }
+
+export function clausTheoGaertnerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-claus-theo-gaertner-portrait.jpg" alt="Claus Theo Gärtner – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-claus-theo-gaertner-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Claus Theo Gärtner</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler (Matula), geboren 1943 in Berlin &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler aus Oberhausen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> sieht von oben genau hin und handelt erst, wenn die Sache klar ist. Claus Theo Gärtner wurde am 19. April 1943 in Berlin geboren und wuchs in Oberhausen auf, wo er am Kindertheater die ersten Bühnenerfahrungen machte. Seine Jugend verbrachte er zum Teil in Österreich, den USA und Südostasien. Er studierte Musik und Schauspiel in Braunschweig und Hannover und engagierte sich im Sozialistischen Deutschen Studentenbund in Göttingen.</p>
+          <p class="vb-intro">1966 debütierte er am Deutschen Theater Göttingen unter Heinz Hilpert. Es folgten Engagements in Hannover, Braunschweig, Oldenburg und an der Berliner Schaubühne.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der selbsterhaltende Einser: Genauigkeit und Beharrlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>selbsterhaltende Einser (SE1)</strong> arbeitet an der eigenen Vorbereitung und Integrität und trägt eine Sache mit stiller Genauigkeit über Jahrzehnte. Gärtners Weg ist ein Beispiel: 1971 spielte er seine erste Filmrolle im Thriller <em>Zoff</em> und erhielt dafür 1972 den Bundesfilmpreis als bester Nachwuchsdarsteller. Von 1981 bis 2013 war er in <em>Ein Fall für zwei</em> der Privatdetektiv Josef Matula, 300 Folgen lang, und führte bei einzelnen Folgen selbst Regie. 2017 bis 2019 folgten drei Filme der Reihe <em>Matula</em>.</p>
+          <p class="vb-intro">Zur Genauigkeit gehört auch die Körperlichkeit: Gärtner ist Werksfahrer für Mercedes-Benz, fährt seit 1967 Autorennen und heute Oldtimer-Touren, und die Autostunts in <em>Ein Fall für zwei</em> führte er selbst aus. Wer so fährt, braucht Disziplin und Maß, nicht Show.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: kein Platzhirsch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt dem Einser Gelassenheit und eine Abneigung gegen Aufhebens. Gärtner sagt, er habe sich am Drehort immer bemüht, nie als Platzhirsch aufzutreten, obwohl Matula der Mittelpunkt der Serie war. Über sein Spiegelbild im Fernsehen sagt er, es sei ihm nicht unangenehm, aber er bleibe auch nicht daran hängen. Dass er für das Publikum immer Matula bleiben wird, nimmt er hin. Die Rolle, erzählt er, sei am Anfang ein weißes Blatt gewesen, das er mit seiner Vorstellung eines Detektivs gefüllt habe, ›und da ist natürlich eine Menge von mir drin‹. Das ist die Haltung der Neun: wenig Anspruch auf Aufmerksamkeit und viel Beständigkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Matula</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Gärtner auszeichnet, ist eine Figur, die er über drei Jahrzehnte trug, ohne dass sie ermüdete: Josef Matula, der unkonventionelle Detektiv an der Seite des Rechtsanwalts, loyal, direkt, mit Gespür für das Unrecht und ohne Respekt vor Förmlichkeit. Für diese Arbeit erhielt Gärtner 1988 den Titel ›Detektiv des Jahres‹ des Bundesverbandes Deutscher Detektive, 2004 den Hessischen Fernsehpreis, 2006 das Bundesverdienstkreuz am Bande und 2017 den Askania Award für das Lebenswerk.</p>
+          <p class="vb-intro">1999 widmete ihm die Band Superpunk das Lied ›Matula, hau mich raus‹, 2016 erschien seine Autobiografie unter demselben Titel, geschrieben mit Sarah Gärtner. Dass die Figur zum Lied und zum Satz wurde, zeigt, wie tief Matula im Alltag des Publikums angekommen ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Verlässlichkeit: Ein Mann, der über 50 Film- und Fernsehproduktionen drehte und in einer Rolle 32 Jahre lang ohne Bruch blieb. Der Schatten der selbsterhaltenden Eins liegt im Festhalten an einem Maß und im Verzicht auf das Risiko. Bei Gärtner zeigt er sich eher von außen: Er bleibt, wie er selbst sagt, Matula, was er auch spielt. Dass er als junger Schauspieler die Altersvorsorge auf ›irgendwann‹ schob, ist eine kleine Spur der Neun: Was nicht drängt, wird nicht angepackt. Die Typisierung bleibt eine Deutung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-carmen-herrera">Carmen Herrera (SE1w9)</a> arbeitete über sieben Jahrzehnte an ihrer Sache, ohne dass es jemand sah. <a href="#beruehmte-astrid-lindgren">Astrid Lindgren (SE1w9)</a> verstand Disziplin als tägliches Ritual. Mit Gärtner teilen beide die Gelassenheit, die nicht Gleichgültigkeit ist, sondern Treue zur eigenen Arbeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Der Mann, der blieb, was er war</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Stand 6. November 2026: Die Matula-Filme endeten 2019, im Februar 2020 wurde ihre Einstellung bekanntgegeben. Gärtner lebt in Basel und teilweise in Berlin, ist seit 2008 mit der Schweizer Regieassistentin Sarah Würgler verheiratet und seit 2007 Botschafter der Kinderhilfsorganisation Kinderzukunft. 2013 gab er seine Wohnung in Wiesbaden auf. Matula blieb sein Name, und er hat sich damit abgefunden.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se1", label:"Lebensmusterkompass: SE1 – Adler"},
+        {route:"beruehmte-carmen-herrera", label:"Porträt: Carmen Herrera (SE1w9)"},
+        {route:"beruehmte-astrid-lindgren", label:"Porträt: Astrid Lindgren (SE1w9)"},
+      ])}
+    </div>
+  `);
+}
