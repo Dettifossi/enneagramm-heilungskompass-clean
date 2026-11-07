@@ -3,7 +3,7 @@
 ## Die drei Säulen (gleichgewichtet, im Wechsel)
 1. **Enneagramm-Heilungskompass (App)** — kompass.verlagshausrathmer.com (DE) + /en/ (EN)
    - Freemium: Gratis-Einstieg, Vollversion 29/49 €
-   - Zugpferde: 27 Tier-Archetypen, 108 Promi-Porträts, Kriminalpsychologie, Quiz
+   - Zugpferde: 27 Tier-Archetypen, über 1.200 Porträts, Kriminalpsychologie, Quiz
 2. **Bücher** — verlagshausrathmer.com (Enneagramm, Homöopathie, persönliche Entwicklung)
 3. **Naturheilpraxis Rathmer** — regional, Homöopathie & Naturheilkunde
 

@@ -23,7 +23,7 @@ Nur bei Instagram, optional als 1. Kommentar: #enneagramm #persönlichkeitsentwi
 
 [2–3 Sätze Teaser aus dem Porträt — die überraschendste Erkenntnis, nicht alles verraten.]
 
-Das ganze Porträt (+ 107 weitere) im Enneagramm-Heilungskompass:
+Das ganze Porträt (+ über 1.100 weitere) im Enneagramm-Heilungskompass:
 https://kompass.verlagshausrathmer.com
 ```
 Nur bei Instagram, optional als 1. Kommentar: #enneagramm #[promi-name] #typologie #persönlichkeit
