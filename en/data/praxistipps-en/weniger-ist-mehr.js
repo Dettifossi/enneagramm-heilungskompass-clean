@@ -43,20 +43,20 @@ export function wenigerIstMehrPage() {
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">6. Sensitivity in everyday life: less is more</h2>
-        <p class="vb-intro">Whoever uses Bach flowers, Schüßler salts or homeopathic remedies can keep the following in mind:</p>
+        <p class="vb-intro">Whoever uses Bach flowers, Schüßler salts or homeopathic remedies should urgently bear the following in mind:</p>
         <ul class="sp-list" style="margin-top:.8rem;">
-          <li><strong>As little as necessary, not as much as possible.</strong> An impulse needs no repetition every hour.</li>
-          <li><strong>Observe.</strong> Pay attention to mood, sleep, body and relationships: what moves, what becomes clearer?</li>
-          <li><strong>Pause at a clear change.</strong> If an improvement comes but also restlessness, tiredness or strong feelings, that is a reason to wait and not to add more.</li>
-          <li><strong>Stop and plan breaks.</strong> Stop after an improvement; breaks of days to weeks are normal.</li>
-          <li><strong>Do not take the same type remedy for years</strong> merely because it belongs to your type.</li>
-          <li><strong>Mind the alcohol.</strong> Bach flower drops contain alcohol. For children, in pregnancy and with alcohol problems, seek professional advice first.</li>
-          <li><strong>Illnesses and medication.</strong> Never stop medication on your own, and with persistent complaints consult a doctor or a naturopath.</li>
+          <li><strong>As little as necessary, not as much as possible.</strong> An impulse does not demand repetition every hour, it demands attention.</li>
+          <li><strong>Observe.</strong> Attend closely to mood, sleep, body and relationships: what comes into motion, what becomes clearer, what changes?</li>
+          <li><strong>Pause at a clear change.</strong> If, besides an improvement, restlessness, tiredness or a surfacing of strong feelings appears, that is the moment to wait instead of adding more.</li>
+          <li><strong>Stop and plan breaks.</strong> Once an improvement has set in, the remedy is ended. Breaks of days to weeks belong to the treatment.</li>
+          <li><strong>No years-long type remedy.</strong> A remedy does not become more right because it belongs to one's own type. Taking it permanently turns the impulse into a habit.</li>
+          <li><strong>Consider the alcohol.</strong> Bach flower drops contain alcohol. For children, in pregnancy and with alcohol problems, seek professional advice beforehand.</li>
+          <li><strong>Illnesses and medication.</strong> Never stop medication on your own. With persistent complaints the clarification belongs in medical or naturopathic hands.</li>
         </ul>
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">7. Putting it in perspective</h2>
-        <p class="vb-intro" style="margin-bottom:0;">This tip does not want to frighten but to awaken attention. The statements rest on the doctrine of homeopathy and on experience from practice, not on studies. Whoever uses remedies deliberately and with guidance has the chance to experience the impulse instead of covering it with continuous use.</p>
+        <p class="vb-intro" style="margin-bottom:0;">This tip does not wish to alarm but to sharpen attention. Its statements rest on the doctrine of homeopathy and on experience from practice, not on studies. Whoever uses remedies deliberately and under professional guidance has the opportunity to experience the impulse instead of covering it with continuous use.</p>
       </div>
 
       <div style="margin-top:2rem;">

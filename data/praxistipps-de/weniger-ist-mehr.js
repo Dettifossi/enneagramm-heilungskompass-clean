@@ -43,20 +43,20 @@ export function wenigerIstMehrPage() {
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">6. Sensibilität im Alltag: weniger ist mehr</h2>
-        <p class="vb-intro">Wer Bachblüten, Schüßler-Salze oder homöopathische Mittel anwendet, kann Folgendes beachten:</p>
+        <p class="vb-intro">Wer Bachblüten, Schüßler-Salze oder homöopathische Mittel anwendet, sollte Folgendes dringend beachten:</p>
         <ul class="sp-list" style="margin-top:.8rem;">
-          <li><strong>So wenig wie nötig, nicht so viel wie möglich.</strong> Ein Impuls braucht keine Wiederholung im Stundentakt.</li>
-          <li><strong>Beobachten.</strong> Stimmung, Schlaf, Körper und Beziehungen aufmerksam wahrnehmen: Was bewegt sich, was wird deutlicher?</li>
-          <li><strong>Bei deutlicher Veränderung pausieren.</strong> Tritt eine Besserung ein, aber auch Unruhe, Müdigkeit oder starke Gefühle, ist das ein Grund zu warten und nicht nachzulegen.</li>
-          <li><strong>Absetzen und Pausen einplanen.</strong> Nach einer Besserung aufhören; Pausen von Tagen bis Wochen sind normal.</li>
-          <li><strong>Nicht jahrelang dasselbe Typmittel</strong> nehmen, nur weil es zum eigenen Typ gehört.</li>
-          <li><strong>Alkohol beachten.</strong> Bachblüten-Tropfen enthalten Alkohol. Bei Kindern, in der Schwangerschaft und bei Alkoholproblemen vorher fachlichen Rat einholen.</li>
-          <li><strong>Erkrankungen und Medikamente.</strong> Nie eigenmächtig Medikamente absetzen und bei anhaltenden Beschwerden eine Ärztin, einen Arzt oder eine Heilpraktikerin, einen Heilpraktiker aufsuchen.</li>
+          <li><strong>So wenig wie nötig, nicht so viel wie möglich.</strong> Ein Impuls verlangt keine Wiederholung im Stundentakt, er verlangt Aufmerksamkeit.</li>
+          <li><strong>Beobachten.</strong> Stimmung, Schlaf, Körper und Beziehungen aufmerksam wahrnehmen: Was kommt in Bewegung, was wird deutlicher, was verändert sich?</li>
+          <li><strong>Bei deutlicher Veränderung innehalten.</strong> Stellt sich neben einer Besserung auch Unruhe, Müdigkeit oder das Aufbrechen starker Gefühle ein, ist das der Moment zu warten, statt nachzulegen.</li>
+          <li><strong>Absetzen und Pausen einplanen.</strong> Ist eine Besserung eingetreten, wird das Mittel beendet. Pausen von Tagen bis Wochen gehören zur Behandlung.</li>
+          <li><strong>Kein jahrelanges Typmittel.</strong> Ein Mittel wird nicht dadurch richtiger, dass es zum eigenen Typ gehört. Es dauerhaft einzunehmen, macht aus dem Impuls eine Gewohnheit.</li>
+          <li><strong>Den Alkohol bedenken.</strong> Bachblüten-Tropfen enthalten Alkohol. Bei Kindern, in der Schwangerschaft und bei Alkoholproblemen zuvor fachlichen Rat einholen.</li>
+          <li><strong>Erkrankungen und Medikamente.</strong> Medikamente niemals eigenmächtig absetzen. Bei anhaltenden Beschwerden gehört die Abklärung in ärztliche oder heilpraktische Hände.</li>
         </ul>
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">7. Einordnung</h2>
-        <p class="vb-intro" style="margin-bottom:0;">Dieser Tipp möchte keine Angst machen, sondern Aufmerksamkeit wecken. Die Aussagen beruhen auf der Lehre der Homöopathie und auf Erfahrung aus der Praxis, nicht auf Studien. Wer Mittel gezielt und mit Begleitung einsetzt, hat die Chance, den Impuls zu erleben, statt ihn im Dauergebrauch zu überdecken.</p>
+        <p class="vb-intro" style="margin-bottom:0;">Dieser Tipp will nicht ängstigen, sondern die Aufmerksamkeit schärfen. Seine Aussagen beruhen auf der Lehre der Homöopathie und auf Erfahrung aus der Praxis, nicht auf Studien. Wer Mittel gezielt und unter fachlicher Begleitung einsetzt, hat die Möglichkeit, den Impuls zu erleben, statt ihn im Dauergebrauch zu überdecken.</p>
       </div>
 
       <div style="margin-top:2rem;">
