@@ -3592,7 +3592,7 @@ export function rauandTalebPortraitPage() {
 
         <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="#beruehmte-christiaan-barnard">Christiaan Barnard (SO3w2)</a> wagte 1967 die erste Herztransplantation, ein einziger öffentlicher Sprung statt langsamer Annäherung, wie ihn dieser Subtyp liebt. <a href="#beruehmte-harry-houdini">Harry Houdini (SO3w2)</a> machte aus einem Scheitern ein Lebenswerk der öffentlichen Wagnisse. Beide sind verstorben und stehen deshalb in der Vergangenheitsform. Mit <a href="#beruehmte-kida-khodr-ramadan">Kida Khodr Ramadan (SE3w4)</a> und <a href="#beruehmte-maryam-zaree">Maryam Zaree (SE3w2)</a> stand Taleb in <em>4 Blocks</em> vor der Kamera: dreimal Typ 3 in derselben Serie, dreimal ein anderer Subtyp, Ramadan und Zaree selbsterhaltend, Taleb sozial.</p>
+          <p class="vb-intro"><a href="#beruehmte-christiaan-barnard">Christiaan Barnard (SO3w2)</a> wagte 1967 die erste Herztransplantation, ein einziger öffentlicher Sprung statt langsamer Annäherung, wie ihn dieser Subtyp liebt. <a href="#beruehmte-harry-houdini">Harry Houdini (SO3w2)</a> machte aus einem Scheitern ein Lebenswerk der öffentlichen Wagnisse. Mit <a href="#beruehmte-kida-khodr-ramadan">Kida Khodr Ramadan (SE3w4)</a> und <a href="#beruehmte-maryam-zaree">Maryam Zaree (SE3w2)</a> stand Taleb in <em>4 Blocks</em> vor der Kamera: dreimal Typ 3 in derselben Serie, dreimal ein anderer Subtyp, Ramadan und Zaree selbsterhaltend, Taleb sozial.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Zwischen Nürnberg, Berlin und dem Set</h2>
@@ -3662,7 +3662,7 @@ export function stevenKruegerPortraitPage() {
 
         <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="#beruehmte-hong-chau">Hong Chau (SE3w2)</a> ist ebenfalls eine Schauspielerin, die durch genaue Rollen in der zweiten Reihe wirkte, bevor das Publikum den Namen kannte. <a href="#beruehmte-maryam-zaree">Maryam Zaree (SE3w2)</a> verbindet das Spiel im Ensemble mit eigener Urheberschaft als Autorin und Regisseurin, ein Schritt, den auch Krueger mit seinem Kurzfilm geht. Alle drei leben, daher steht ihr Weg in der Gegenwart.</p>
+          <p class="vb-intro"><a href="#beruehmte-hong-chau">Hong Chau (SE3w2)</a> ist ebenfalls eine Schauspielerin, die durch genaue Rollen in der zweiten Reihe wirkte, bevor das Publikum den Namen kannte. <a href="#beruehmte-maryam-zaree">Maryam Zaree (SE3w2)</a> verbindet das Spiel im Ensemble mit eigener Urheberschaft als Autorin und Regisseurin, ein Schritt, den auch Krueger mit seinem Kurzfilm geht.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Zwischen Wildnis-Set und Regiestuhl</h2>

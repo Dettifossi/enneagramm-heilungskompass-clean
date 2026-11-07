@@ -3613,7 +3613,7 @@ export function rauandTalebPortraitPage() {
 
         <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="#beruehmte-christiaan-barnard">Christiaan Barnard (SO3w2)</a> dared the first heart transplant in 1967, a single public leap instead of slow approach, as this subtype loves it. <a href="#beruehmte-harry-houdini">Harry Houdini (SO3w2)</a> turned a failure into a life&rsquo;s work of public daring. Both have died and are therefore in the past tense. With <a href="#beruehmte-kida-khodr-ramadan">Kida Khodr Ramadan (SP3w4)</a> and <a href="#beruehmte-maryam-zaree">Maryam Zaree (SP3w2)</a> Taleb stood before the camera in <em>4 Blocks</em>: three Threes in the same series, three different subtypes, Ramadan and Zaree self-preservation, Taleb social.</p>
+          <p class="vb-intro"><a href="#beruehmte-christiaan-barnard">Christiaan Barnard (SO3w2)</a> dared the first heart transplant in 1967, a single public leap instead of slow approach, as this subtype loves it. <a href="#beruehmte-harry-houdini">Harry Houdini (SO3w2)</a> turned a failure into a life&rsquo;s work of public daring. With <a href="#beruehmte-kida-khodr-ramadan">Kida Khodr Ramadan (SP3w4)</a> and <a href="#beruehmte-maryam-zaree">Maryam Zaree (SP3w2)</a> Taleb stood before the camera in <em>4 Blocks</em>: three Threes in the same series, three different subtypes, Ramadan and Zaree self-preservation, Taleb social.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Between Nuremberg, Berlin and the set</h2>
@@ -3683,7 +3683,7 @@ export function stevenKruegerPortraitPage() {
 
         <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="#beruehmte-hong-chau">Hong Chau (SP3w2)</a> is likewise an actress who made an impact through precise roles in the second row before the audience knew the name. <a href="#beruehmte-maryam-zaree">Maryam Zaree (SP3w2)</a> combines playing in the ensemble with authorship of her own as writer and director, a step Krueger also takes with his short film. All three are living, so their paths are in the present tense.</p>
+          <p class="vb-intro"><a href="#beruehmte-hong-chau">Hong Chau (SP3w2)</a> is likewise an actress who made an impact through precise roles in the second row before the audience knew the name. <a href="#beruehmte-maryam-zaree">Maryam Zaree (SP3w2)</a> combines playing in the ensemble with authorship of her own as writer and director, a step Krueger also takes with his short film.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Between the wilderness set and the director&rsquo;s chair</h2>

@@ -1262,7 +1262,7 @@ export function nikolaTeslaPortraitPage() {
 
         <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="#beruehmte-derek-goodwin">Derek Goodwin (SE4w5)</a> war Ornithologe am Natural History Museum in London und schrieb Standardwerke über Tauben: ein Leben im Hintergrund, gewidmet ausgerechnet dem eigenen archetypischen Tier. Wie Tesla zog er sich in Sachkenntnis zurück, aber bei ihm wurde der Rückzug zur ruhigen, erfüllten Forschungsarbeit. Im <a href="#krankheitsportraets-vincent-van-gogh">Krankheitsporträt von Vincent van Gogh (SE4w5)</a> zeigt sich ein anderer Ausgang desselben Subtyps: die Empfindsamkeit, die sich in Krisen entlädt. Beide sind verstorben und stehen deshalb in der Vergangenheitsform.</p>
+          <p class="vb-intro"><a href="#beruehmte-derek-goodwin">Derek Goodwin (SE4w5)</a> war Ornithologe am Natural History Museum in London und schrieb Standardwerke über Tauben: ein Leben im Hintergrund, gewidmet ausgerechnet dem eigenen archetypischen Tier. Wie Tesla zog er sich in Sachkenntnis zurück, aber bei ihm wurde der Rückzug zur ruhigen, erfüllten Forschungsarbeit. Im <a href="#krankheitsportraets-vincent-van-gogh">Krankheitsporträt von Vincent van Gogh (SE4w5)</a> zeigt sich ein anderer Ausgang desselben Subtyps: die Empfindsamkeit, die sich in Krisen entlädt.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Der Mann, der den Strom schenkte und eine Taube behielt</h2>

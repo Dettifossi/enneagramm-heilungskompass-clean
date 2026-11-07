@@ -1264,7 +1264,7 @@ export function nikolaTeslaPortraitPage() {
 
         <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="#beruehmte-derek-goodwin">Derek Goodwin (SP4w5)</a> was an ornithologist at the Natural History Museum in London and wrote standard works on pigeons: a life in the background, devoted, of all things, to his own archetypal animal. Like Tesla he withdrew into expertise, but for him the withdrawal became calm, fulfilled research. In the <a href="#krankheitsportraets-vincent-van-gogh">illness portrait of Vincent van Gogh (SP4w5)</a> a different outcome of the same subtype shows: sensitivity that discharges in crises. Both have died and are therefore in the past tense.</p>
+          <p class="vb-intro"><a href="#beruehmte-derek-goodwin">Derek Goodwin (SP4w5)</a> was an ornithologist at the Natural History Museum in London and wrote standard works on pigeons: a life in the background, devoted, of all things, to his own archetypal animal. Like Tesla he withdrew into expertise, but for him the withdrawal became calm, fulfilled research. In the <a href="#krankheitsportraets-vincent-van-gogh">illness portrait of Vincent van Gogh (SP4w5)</a> a different outcome of the same subtype shows: sensitivity that discharges in crises.</p>
         </blockquote>
 
         <h2 class="vb-section">7. The man who gave away electricity and kept a pigeon</h2>
