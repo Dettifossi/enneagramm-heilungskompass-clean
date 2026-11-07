@@ -331,6 +331,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-maria-hasbolat", label: "Neues EN-Porträt: Maria Hasbolat" },
   { hash: "#beruehmte-leonie-benesch", label: "Neues Porträt: Leonie Benesch" },
   { hash: "en/#beruehmte-leonie-benesch", label: "Neues EN-Porträt: Leonie Benesch" },
+  { hash: "#beruehmte-heinz-erhardt", label: "Neues Porträt: Heinz Erhardt" },
+  { hash: "en/#beruehmte-heinz-erhardt", label: "Neues EN-Porträt: Heinz Erhardt" },
   { hash: "#beruehmte-rainer-hunold", label: "Neues Porträt: Rainer Hunold" },
   { hash: "en/#beruehmte-rainer-hunold", label: "Neues EN-Porträt: Rainer Hunold" },
   { hash: "#beruehmte-henri-rousseau", label: "Neues Porträt: Henri Rousseau" },

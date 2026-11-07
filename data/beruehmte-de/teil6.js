@@ -3956,3 +3956,71 @@ export function rainerHunoldPortraitPage() {
     </div>
   `);
 }
+
+export function heinzErhardtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-heinz-erhardt-portrait.jpg" alt="Heinz Erhardt – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-heinz-erhardt-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Heinz Erhardt</p>
+        <p class="krim-portrait-typ">SE7w6 &middot; Selbsterhaltender Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Komiker, Musiker und Dichter, 1909&ndash;1979 &ndash; Tierentsprechung: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gorilla aus Riga</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist massig und sanft, er baut sich einen eigenen, geschützten Kreis und füllt den Raum mit Ruhe. Heinz Erhardt wurde am 20. Februar 1909 in Riga geboren. Sein Vater war Kapellmeister und Komponist, er selbst wuchs größtenteils bei den Großeltern mütterlicherseits auf, die ein Musikhaus führten. Ab 1919 lebte er in Deutschland und besuchte Schulen in Hannover und Riga; 1926 verließ er das Gymnasium ohne Abschluss.</p>
+          <p class="vb-intro">Von 1926 bis 1928 studierte er Klavier und Komposition am Leipziger Konservatorium. Sein Großvater wollte jedoch, dass er einen kaufmännischen Beruf lernte, und stellte ihn 1928 im Musikhaus an, wo er bis 1938 blieb.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der selbsterhaltende Siebener: ein eigenes Revier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>selbsterhaltende Siebener (SE7)</strong> baut sich ein geschütztes, familienähnliches System, statt auf einer fremden Karriereleiter aufzusteigen. Erhardt tat genau das: Statt Kaufmann zu bleiben, ging er 1938 an das Berliner Kabarett der Komiker, wurde 1941 zur Kriegsmarine eingezogen (nach zwei nicht bestandenen Musterungen kam er nach Stralsund, wo man einen Pianisten für das Orchester suchte) und baute nach 1945 in Hamburg beim NWDR ein eigenes Feld aus Radio, Bühne und Kino auf. Ab 1957 machten ihn Filmkomödien wie <em>Der müde Theodor</em> und <em>Witwer mit fünf Töchtern</em> bekannt.</p>
+          <p class="vb-intro">Das Revier, das er sich schuf, war zuerst die Familie: 1935 heiratete er Gilda Zanetti, das Paar hatte vier Kinder. Sein Sohn Gero wurde Kameramann und Regisseur und stand 1978 und 1979 bei der Fernsehfassung von <em>Noch &rsquo;ne Oper</em> hinter der Kamera.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Lampenfieber, Genauigkeit, Rückhalt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> bringt Wachsamkeit, Genauigkeit und das Bedürfnis nach Rückhalt. Erhardt hatte Lampenfieber, und sein Markenzeichen, die dicke Hornbrille, trug er nach den Berichten, um die Angst vor dem Publikum zu mildern. Eine verschmitzte Schüchternheit gehört zu seinem Bild. Als Perfektionist feilte er mit Akribie an seinen Texten. Sein Sohn Gero beschrieb ihn nach einem Zeitungsbericht privat als still und in sich gekehrt. Das ist nicht die Haltung des herrischen Achterflügels, sondern die eines Siebeners, der sich absichert, wo er sich zeigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: das verdrehte Wort</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Erhardt einzigartig machte, ist eine Sprachkunst: Wortspiele, verdrehte Redewendungen und gereimte Pointen, vorgetragen mit großer Ruhe. Seine Sätze funktionierten nur, wenn jedes Wort saß, und er feilte mit Akribie an ihnen. Ein Beispiel aus seinem Repertoire: ›Humor ist der Schwimmgürtel auf dem Strom des Lebens.‹</p>
+          <p class="vb-intro">Sein <em>Das große Heinz Erhardt Buch</em> (1970) wurde mit über drei Millionen verkauften Exemplaren ein Bestseller, und 2007 wählten ihn die Zuschauer der ZDF-Sendung <em>Unsere Besten</em> auf den zweiten Platz der besten deutschsprachigen Komiker.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist ein Humor ohne Bosheit, der die Menschen eher aufnimmt, als ihn abgrenzt: Ein Zeitzeuge nannte ihn den »ruhigen Dicken«, der den Raum mit Gelassenheit füllte, statt ihn zu erobern. Eine streitbare Seite ist belegt: Als er seinen Vermieter im Radio verspottete, folgte ein Prozess. Der Schatten liegt in der Anspannung hinter der Ruhe, im Lampenfieber und in der Schüchternheit, die auch im Erfolg blieben. Der Siebener bleibt heiter, wo der Sechserflügel Angst trägt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-larry-king">Larry King (SE7w6)</a> machte das Wort zu seinem Revier: Er füllte als Moderator den Raum mit Ruhe und genauen Fragen. <a href="#beruehmte-jeanne-calment">Jeanne Calment (SE7w6)</a> verband Genuss mit Gelassenheit und lebte so lange wie kein anderer Mensch, dessen Alter belegt ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Der Komiker des Wortes, dem das Wort genommen wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am 11. Dezember 1971 erlitt Erhardt einen Schlaganfall, der sein Sprachzentrum schädigte; er konnte danach nicht mehr sprechen und schreiben. Ausgerechnet der Komiker des verdrehten Wortes verlor die Sprache. Er starb am 5. Juni 1979 in Hamburg-Wellingsbüttel im Alter von 70 Jahren und wurde auf dem Friedhof Ohlsdorf beigesetzt. Sein Humor wirkt bis heute, weil er nie laut war.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se7", label:"Lebensmusterkompass: SE7 – Gorilla"},
+        {route:"beruehmte-larry-king", label:"Porträt: Larry King (SE7w6)"},
+        {route:"beruehmte-jeanne-calment", label:"Porträt: Jeanne Calment (SE7w6)"},
+      ])}
+    </div>
+  `);
+}

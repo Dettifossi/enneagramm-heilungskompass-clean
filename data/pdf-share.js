@@ -1,7 +1,7 @@
 // PDF-Auszug zum Weitergeben (nur Porträts verstorbener Personen, siehe data/verstorben.js).
 // Wird erst beim ersten Porträt-Aufruf nachgeladen. Layout per Canvas, Ausgabe als PDF mit
 // anklickbaren Links (kein Fremdcode nötig). Aufbau: Kopfzeile, Bild, Name, Typ, ausgewählte Abschnitte, Hinweiskasten.
-import { VERSTORBEN } from "./verstorben.js?v=5";
+import { VERSTORBEN } from "./verstorben.js?v=6";
 import { drawQr } from "./qr-draw.js?v=1";
 
 const SITE = "https://kompass.verlagshausrathmer.com";

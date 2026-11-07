@@ -3977,3 +3977,71 @@ export function rainerHunoldPortraitPage() {
     </div>
   `);
 }
+
+export function heinzErhardtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-heinz-erhardt-portrait.jpg" alt="Heinz Erhardt – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-heinz-erhardt-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Heinz Erhardt</p>
+        <p class="krim-portrait-typ">SP7w6 &middot; Self-Preservation Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Comedian, musician and poet, 1909&ndash;1979 &ndash; Animal correspondence: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Gorilla from Riga</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>gorilla</strong> is massive and gentle, builds itself a protected circle of its own and fills the space with calm. Heinz Erhardt was born on 20 February 1909 in Riga. His father was a conductor and composer; he himself grew up largely with his maternal grandparents, who ran a music shop. From 1919 he lived in Germany and attended schools in Hanover and Riga; in 1926 he left grammar school without a diploma.</p>
+          <p class="vb-intro">From 1926 to 1928 he studied piano and composition at the Leipzig Conservatory. His grandfather, however, wanted him to learn a business trade and took him on at the music shop in 1928, where he stayed until 1938.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Seven: a territory of his own</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Seven (SP7)</strong> builds a protected, family-like system instead of climbing someone else&rsquo;s career ladder. Erhardt did exactly that: instead of remaining a merchant he went in 1938 to the Berlin cabaret Kabarett der Komiker, was drafted into the navy in 1941 (after two failed medical examinations he was sent to Stralsund, where a pianist was wanted for the orchestra) and after 1945 built a field of his own in Hamburg at the NWDR from radio, stage and cinema. From 1957 film comedies such as <em>Der müde Theodor</em> (&lsquo;Tired Theodor&rsquo;) and <em>Witwer mit fünf Töchtern</em> (&lsquo;Widower with Five Daughters&rsquo;) made him known.</p>
+          <p class="vb-intro">The territory he created was first of all the family: in 1935 he married Gilda Zanetti; the couple had four children. His son Gero became a cinematographer and director and stood behind the camera in 1978 and 1979 on the television version of <em>Noch &rsquo;ne Oper</em> (&lsquo;Another Opera&rsquo;).</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: stage fright, exactness, support</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> brings vigilance, exactness and the need for support. Erhardt had stage fright, and according to reports he wore his trademark thick horn-rimmed glasses to ease his fear of the audience. A roguish shyness belongs to his image. As a perfectionist he polished his texts with meticulous care. According to a newspaper report, his son Gero described him in private as quiet and withdrawn. This is not the attitude of the domineering Eight-wing but that of a Seven who secures himself where he shows himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the twisted word</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What made Erhardt unique is a language art: puns, twisted idioms and rhymed punchlines, delivered with great calm. His sentences worked only if every word sat, and he polished them with meticulous care. An example from his repertoire: &lsquo;Humour is the life belt on the river of life.&rsquo;</p>
+          <p class="vb-intro">His <em>Das große Heinz Erhardt Buch</em> (&lsquo;The Big Heinz Erhardt Book&rsquo;, 1970) became a bestseller with over three million copies sold, and in 2007 viewers of the ZDF programme <em>Unsere Besten</em> voted him second place among the best German-language comedians.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is a humour without malice that takes people in rather than excluding them: a contemporary witness called him the &lsquo;calm fat man&rsquo; who filled the room with composure instead of conquering it. A quarrelsome side is documented: when he mocked his landlord on the radio, a lawsuit followed. The shadow lies in the tension behind the calm, in the stage fright and the shyness that stayed even in success. The Seven stays cheerful where the Six-wing carries fear.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-larry-king">Larry King (SP7w6)</a> made the word his territory: as a host he filled the room with calm and exact questions. <a href="#beruehmte-jeanne-calment">Jeanne Calment (SP7w6)</a> combined enjoyment with composure and lived longer than any other person whose age is documented.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The comedian of the word, from whom the word was taken</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">On 11 December 1971 Erhardt suffered a stroke that damaged his speech centre; afterwards he could no longer speak or write. Of all people, the comedian of the twisted word lost language. He died on 5 June 1979 in Hamburg-Wellingsbüttel at the age of 70 and was buried at the Ohlsdorf cemetery. His humour works to this day because it was never loud.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
+        {route:"lebensmusterkompass/se7", label:"Life Pattern Compass: SP7 – Gorilla"},
+        {route:"beruehmte-larry-king", label:"Portrait: Larry King (SP7w6)"},
+        {route:"beruehmte-jeanne-calment", label:"Portrait: Jeanne Calment (SP7w6)"},
+      ])}
+    </div>
+  `);
+}

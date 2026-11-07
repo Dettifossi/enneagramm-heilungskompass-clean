@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=495";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=496";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -552,6 +552,7 @@ const tELawrencePortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", 
 const lisaKauffPortraitPage = () => _lazyPage("./data/beruehmte-de/teil15.js", "lisaKauffPortraitPage");
 const mariaHasbolatPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "mariaHasbolatPortraitPage");
 const leonieBeneschPortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "leonieBeneschPortraitPage");
+const heinzErhardtPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "heinzErhardtPortraitPage");
 const rainerHunoldPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "rainerHunoldPortraitPage");
 const henriRousseauPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "henriRousseauPortraitPage");
 const harlandSandersPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "harlandSandersPortraitPage");
@@ -27698,6 +27699,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonie Benesch \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w3 \u00b7 geb. 1991 in Hamburg. Schauspielerin, \u00bbDas Lehrerzimmer\u00ab, \u00bbHeldin\u00ab, \u00bbBabylon Berlin\u00ab. Die Taube, die Druck ohne gro\u00dfe Gesten sichtbar macht. Tierentsprechung: Taube.",
     land:"Deutschland", tags:["Schauspiel"], gender:"f"},
+  { route:"beruehmte-heinz-erhardt", name:"Heinz Erhardt", added:"2026-11-07", subtyp:"SE7w6",
+    heading:"Heinz Erhardt \u2013 Selbsterhaltender Typ 7",
+    teaser:"SE7w6 \u00b7 1909\u20131979. Komiker, Musiker und Dichter aus Riga, K\u00f6nig des verdrehten Wortes. Der Gorilla, der den Raum mit Ruhe f\u00fcllt. Tierentsprechung: Gorilla.",
+    land:"Lettland/Deutschland", tags:["Schauspiel","Film"], gender:"m"},
   { route:"beruehmte-rainer-hunold", name:"Rainer Hunold", added:"2026-11-07", subtyp:"SE9w1",
     heading:"Rainer Hunold \u2013 Selbsterhaltender Typ 9",
     teaser:"SE9w1 \u00b7 geb. 1949 in Braunschweig. Schauspieler und Bildhauer (\u203aEin Fall f\u00fcr zwei\u2039, \u203aDer Staatsanwalt\u2039). Der Elefant, der ruhig Gewicht hat. Tierentsprechung: Elefant.",
@@ -68651,7 +68656,7 @@ const ROUTES = {
       "beruehmte-soeren-kierkegaard": soerenKierkegaardPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-phil-collins": philCollinsPortraitPage,
-      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-lea-bosco": leaBoscoPortraitPage, "beruehmte-roland-trettl": rolandTrettlPortraitPage, "beruehmte-kida-khodr-ramadan": kidaKhodrRamadanPortraitPage, "beruehmte-maryam-zaree": maryamZareePortraitPage, "beruehmte-rauand-taleb": rauandTalebPortraitPage, "beruehmte-steven-krueger": stevenKruegerPortraitPage, "beruehmte-carmen-herrera": carmenHerreraPortraitPage, "beruehmte-harland-sanders": harlandSandersPortraitPage, "beruehmte-henri-rousseau": henriRousseauPortraitPage, "beruehmte-rainer-hunold": rainerHunoldPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
+      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-lea-bosco": leaBoscoPortraitPage, "beruehmte-roland-trettl": rolandTrettlPortraitPage, "beruehmte-kida-khodr-ramadan": kidaKhodrRamadanPortraitPage, "beruehmte-maryam-zaree": maryamZareePortraitPage, "beruehmte-rauand-taleb": rauandTalebPortraitPage, "beruehmte-steven-krueger": stevenKruegerPortraitPage, "beruehmte-carmen-herrera": carmenHerreraPortraitPage, "beruehmte-harland-sanders": harlandSandersPortraitPage, "beruehmte-henri-rousseau": henriRousseauPortraitPage, "beruehmte-rainer-hunold": rainerHunoldPortraitPage, "beruehmte-heinz-erhardt": heinzErhardtPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
       "beruehmte-harald-v": haraldVPortraitPage,
       "beruehmte-carl-xvi-gustaf": carlXVIGustafPortraitPage,
       "beruehmte-johannes-paul-ii": johannesPaulIIPortraitPage,
@@ -70140,13 +70145,13 @@ new MutationObserver(() => _suchX(document)).observe(document.body, { childList:
 let _pdfMod = null;
 function _pdfMount() {
   if (!document.querySelector('.krim-portrait-wrap:not([data-pdf])')) return;
-  (_pdfMod || (_pdfMod = import("./data/pdf-share.js?v=16"))).then(m => m.mountPdfButton("de")).catch(() => {});
+  (_pdfMod || (_pdfMod = import("./data/pdf-share.js?v=17"))).then(m => m.mountPdfButton("de")).catch(() => {});
 }
 let _sbMod = null;
 function _sbMount() {
   const e = document.querySelector(".eyebrow:not([data-sbs])");
   if (!e || !/^(Schaubild|Chart|Diagram)/i.test(e.textContent.trim())) return;
-  (_sbMod || (_sbMod = import("./data/schaubild-share.js?v=11"))).then(m => m.mountSchaubildButtons("de")).catch(() => {});
+  (_sbMod || (_sbMod = import("./data/schaubild-share.js?v=12"))).then(m => m.mountSchaubildButtons("de")).catch(() => {});
 }
 let _rsMod = null;
 function _rsMount() {
