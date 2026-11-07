@@ -4,7 +4,7 @@ import { pagesToPdf } from "./pdf-share.js?v=13";
 import { drawQr } from "./qr-draw.js?v=1";
 
 const SITE = "https://kompass.verlagshausrathmer.com";
-const MIN_WIDTH = 1200;   // Mindestbreite des Originalbilds in Pixeln
+const MIN_WIDTH = 1000;   // Mindestbreite des Originalbilds in Pixeln
 const FONT = 'Georgia, "Times New Roman", serif';
 const COPPER = "#9a5b34", INK = "#2a2420", MUTED = "#6b625a", LINE = "#d9cdbd", PAPER = "#faf6ef";
 

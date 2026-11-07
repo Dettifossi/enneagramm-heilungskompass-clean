@@ -49950,7 +49950,7 @@ let _sbMod = null;
 function _sbMount() {
   const e = document.querySelector(".eyebrow:not([data-sbs])");
   if (!e || !/^(Schaubild|Chart|Diagram)/i.test(e.textContent.trim())) return;
-  (_sbMod || (_sbMod = import("../data/schaubild-share.js?v=7"))).then(m => m.mountSchaubildButtons("en")).catch(() => {});
+  (_sbMod || (_sbMod = import("../data/schaubild-share.js?v=8"))).then(m => m.mountSchaubildButtons("en")).catch(() => {});
 }
 let _rsMod = null;
 function _rsMount() {
