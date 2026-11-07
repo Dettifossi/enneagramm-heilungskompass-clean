@@ -2464,7 +2464,7 @@ export function nikolaTeslaKrankheitsportraetPage() {
         <p class="vb-intro"><strong>b) The Five-wing and the system as a final refuge:</strong>
         His compulsive behaviors – the counting, the divisibility by three, the avoidance of germs – were no random quirks but an ever more tightly meshed system for controlling a world that felt increasingly threatening to him. Where a healthy Five-wing turns withdrawal into concentrated expertise and independence, in Tesla the system of numbers and cleanliness itself became the only reliable hold.</p>
         <p class="vb-intro"><strong>c) A single bond instead of many relationships:</strong>
-        It is typical of the self-preservation Four not to put feeling on display but to keep it in a few deep bonds. Tesla replaced his whole human network of relationships not with a new community but with a single, extraordinarily intense bond – the white dove, of all animals the emblem of the self-preservation Four, carried the whole weight of what makes up an entire social life for other people.</p>
+        It is typical of the self-preservation Four not to put feeling on display but to keep it in a few deep bonds. Tesla replaced his whole human network of relationships not with a new community but with a single, extraordinarily intense bond – the white dove, of all animals the emblem of the self-preservation Four (assigned so in the summer of 2023 in Panama, without thinking of Tesla), carried the whole weight of what makes up an entire social life for other people.</p>
       </div>
 
       <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
