@@ -3705,3 +3705,71 @@ export function stevenKruegerPortraitPage() {
     </div>
   `);
 }
+
+export function carmenHerreraPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-carmen-herrera-portrait.jpg" alt="Carmen Herrera – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-carmen-herrera-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Carmen Herrera</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Painter, 1915&ndash;2022 &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle that circled for decades</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>eagle</strong> circles high over its territory for a long time before it strikes. Carmen Herrera was born on 31 May 1915 in Havana. Her father was an army captain and newspaper editor, her mother a journalist and feminist. At 14, in 1929, she went to the Marymount school in Paris, and in 1938 she studied architecture for a year at the University of Havana until political unrest ended her studies.</p>
+          <p class="vb-intro">In 1939 she married Jesse Loewenthal and moved with him to New York. From 1943 to 1947 she studied at the Art Students League. From 1948 until the early 1950s she lived in Paris, where her geometric, sharp-edged hand developed, and from about 1953 again in New York. A solo exhibition in Havana (1950) found hardly any response.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation One: order as an inner task</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> does not work itself up on the world but on its own preparation and integrity. Herrera&rsquo;s painting is a textbook example: clear lines, few colours, planes of white and green, nothing decorative. In 1994 she said in an interview, in substance, that she wanted to set order against the chaos of the world; in 1985 she described the starting point of her work as a process of organisation that follows the laws of reason.</p>
+          <p class="vb-intro">This fits the subtype&rsquo;s fingerprint in the Life Pattern Compass, &lsquo;quiet precision without show&rsquo;: whoever works this way needs no performance but a measure against which every line is tested.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-wing: patience without bitterness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> brings composure, persistence and the ability to carry on at one&rsquo;s own rhythm without waiting for applause. Herrera kept painting for decades although the art world hardly noticed her. At 101, asked about her late success, she said drily: &lsquo;It was about time&rsquo;. That sounds neither hurt nor triumphant. Her advice to young artists consisted of a single sentence: &lsquo;Paciencia, querida, paciencia&rsquo; (&lsquo;Patience, dear, patience&rsquo;).</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: Blanco y Verde and reduction</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What made Herrera unique is a concrete artistic achievement: she reduced painting to a few shapes and colours without the picture looking empty. In 1959 she began the series <em>Blanco y Verde</em> (&lsquo;White and Green&rsquo;), which she herself considered her most important work: sharply set edges, planes that tip between surface and space. Spatial works followed later, most recently the <em>Estructuras Monumentales</em> (&lsquo;Monumental Structures&rsquo;), shown in 2019 in City Hall Park in New York.</p>
+          <p class="vb-intro">The discovery came late: in 2004 the gallerist Frederico Sève saw her works in an exhibition of women geometric painters. At 89 she sold her first painting, after almost seventy years of work. In 2016 the Lisson Gallery and the Whitney Museum showed her work, in 2019 she was elected Honorary Royal Academician; the film <em>The 100 Years Show</em> (2015) tells her life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is the fidelity to her own cause over decades, without a market, without response and without bitterness. The shadow of the self-preservation One lies in waiting: whoever measures only against their own standard can do without outside judgement for a long time, and yet the question remains whether the silence of the world does not hurt too. Why Herrera went unnoticed for so long cannot be said with certainty. That she kept working is the core of this subtype: discipline was not a means to success but the point.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-grandma-moses">Grandma Moses (SP1w9)</a> likewise painted without an audience and was seen by the art world only late. With her it was a late start, with Herrera a very long wait. <a href="#beruehmte-astrid-lindgren">Astrid Lindgren (SP1w9)</a> understood discipline as a daily ritual. What connects all three is a composure that is not indifference but fidelity to one&rsquo;s own work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The woman who kept on drawing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Carmen Herrera died on 12 February 2022 in New York at the age of 106. In 2023 her mural at the Blanton Museum in Austin opened posthumously, and in 2024 her work was shown at the 60th Venice Biennale. She never told her story as a triumph but as a story of patience.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SP1 – Eagle"},
+        {route:"beruehmte-grandma-moses", label:"Portrait: Grandma Moses (SP1w9)"},
+        {route:"beruehmte-astrid-lindgren", label:"Portrait: Astrid Lindgren (SP1w9)"},
+      ])}
+    </div>
+  `);
+}

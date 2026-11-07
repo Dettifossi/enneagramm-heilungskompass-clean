@@ -3684,3 +3684,71 @@ export function stevenKruegerPortraitPage() {
     </div>
   `);
 }
+
+export function carmenHerreraPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-carmen-herrera-portrait.jpg" alt="Carmen Herrera – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-carmen-herrera-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Carmen Herrera</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Malerin, 1915&ndash;2022 &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler, der über Jahrzehnte kreiste</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> kreist lange hoch über seinem Revier, bevor er stößt. Carmen Herrera wurde am 31. Mai 1915 in Havanna geboren. Ihr Vater war Armeehauptmann und Zeitungsherausgeber, ihre Mutter Journalistin und Feministin. Mit 14 Jahren kam sie 1929 auf die Marymount-Schule in Paris, 1938 studierte sie ein Jahr lang Architektur an der Universität Havanna, bis die politischen Unruhen das Studium beendeten.</p>
+          <p class="vb-intro">1939 heiratete sie Jesse Loewenthal und zog mit ihm nach New York. Von 1943 bis 1947 studierte sie an der Art Students League. Von 1948 bis in die frühen 1950er-Jahre lebte sie in Paris, wo sich ihre geometrische, scharfkantige Handschrift ausbildete, und ab etwa 1953 wieder in New York. Eine Einzelausstellung in Havanna (1950) fand kaum Resonanz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Ordnung als innere Aufgabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> arbeitet sich nicht an der Welt ab, sondern an der eigenen Vorbereitung und Integrität. Herreras Malerei ist ein Lehrbeispiel dafür: klare Linien, wenige Farben, Flächen aus Weiß und Grün, nichts Dekoratives. 1994 sagte sie in einem Interview sinngemäß, sie wolle dem Chaos der Welt Ordnung entgegensetzen; 1985 beschrieb sie als Ausgangspunkt ihrer Arbeit einen Prozess der Organisation, der den Gesetzen der Vernunft folgt.</p>
+          <p class="vb-intro">Dazu passt der Fingerabdruck des Subtyps im Lebensmusterkompass, die ›stille Präzision ohne Show‹: Wer so arbeitet, braucht keinen Auftritt, sondern ein Maß, an dem jede Linie geprüft wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Geduld ohne Bitterkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> bringt Gelassenheit, Beharrlichkeit und eine Fähigkeit, im eigenen Rhythmus weiterzumachen, ohne auf Beifall zu warten. Herrera malte über Jahrzehnte weiter, obwohl die Kunstwelt sie kaum beachtete. Mit 101 Jahren sagte sie auf die Frage nach ihrem späten Erfolg trocken: ›It was about time‹ – es wurde Zeit. Das klingt weder gekränkt noch triumphierend. Ihr Rat an junge Künstler bestand aus einem einzigen Satz: ›Paciencia, querida, paciencia‹ (›Geduld, Liebes, Geduld‹).</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Blanco y Verde und die Reduktion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Herrera einzigartig machte, ist eine konkrete künstlerische Leistung: Sie reduzierte Malerei auf wenige Formen und Farben, ohne dass das Bild leer wirkte. 1959 begann sie die Serie <em>Blanco y Verde</em> (›Weiß und Grün‹), die sie selbst für ihr wichtigstes Werk hielt: scharf gesetzte Kanten, Flächen, die zwischen Fläche und Raum kippen. Später folgten räumliche Arbeiten, zuletzt die <em>Estructuras Monumentales</em> (›Monumentale Strukturen‹), die 2019 im City Hall Park in New York gezeigt wurden.</p>
+          <p class="vb-intro">Die Entdeckung kam spät: 2004 sah der Galerist Frederico Sève ihre Arbeiten in einer Ausstellung geometrischer Malerinnen. Mit 89 Jahren verkaufte sie ihr erstes Bild, nach fast siebzig Jahren Arbeit. 2016 zeigten das Lisson Gallery und das Whitney Museum ihr Werk, 2019 wurde sie zum Ehrenmitglied der Royal Academy gewählt; der Film <em>The 100 Years Show</em> (2015) erzählt ihr Leben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Treue zur eigenen Sache über Jahrzehnte hinweg, ohne Markt, ohne Resonanz und ohne Bitterkeit. Der Schatten der selbsterhaltenden Eins liegt im Warten: Wer sich nur am eigenen Maß misst, kann lange auf ein Urteil von außen verzichten, und doch bleibt die Frage, ob das Schweigen der Welt nicht auch wehtut. Warum Herrera so lange unbeachtet blieb, lässt sich nicht eindeutig sagen. Dass sie weiterarbeitete, ist der Kern dieses Subtyps: Die Disziplin war nicht Mittel zum Erfolg, sondern der Sinn.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-grandma-moses">Grandma Moses (SE1w9)</a> malte ebenfalls ohne Zuschauer und wurde erst spät von der Kunstwelt gesehen. Bei ihr war es ein später Anfang, bei Herrera ein sehr langes Warten. <a href="#beruehmte-astrid-lindgren">Astrid Lindgren (SE1w9)</a> verstand Disziplin als tägliches Ritual. Alle drei verbindet eine Gelassenheit, die nicht Gleichgültigkeit ist, sondern Treue zur eigenen Arbeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Die Frau, die immer weiterzeichnete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Carmen Herrera starb am 12. Februar 2022 in New York im Alter von 106 Jahren. 2023 eröffnete posthum ihr Wandbild im Blanton Museum in Austin, 2024 wurde ihr Werk bei der 60. Biennale von Venedig gezeigt. Sie hat ihre Geschichte nie als Triumph erzählt, sondern als eine Geschichte der Geduld.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se1", label:"Lebensmusterkompass: SE1 – Adler"},
+        {route:"beruehmte-grandma-moses", label:"Porträt: Grandma Moses (SE1w9)"},
+        {route:"beruehmte-astrid-lindgren", label:"Porträt: Astrid Lindgren (SE1w9)"},
+      ])}
+    </div>
+  `);
+}

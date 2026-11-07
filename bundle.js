@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=491";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=492";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -552,6 +552,7 @@ const tELawrencePortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", 
 const lisaKauffPortraitPage = () => _lazyPage("./data/beruehmte-de/teil15.js", "lisaKauffPortraitPage");
 const mariaHasbolatPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "mariaHasbolatPortraitPage");
 const leonieBeneschPortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "leonieBeneschPortraitPage");
+const carmenHerreraPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "carmenHerreraPortraitPage");
 const stevenKruegerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "stevenKruegerPortraitPage");
 const rauandTalebPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "rauandTalebPortraitPage");
 const maryamZareePortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "maryamZareePortraitPage");
@@ -27694,6 +27695,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonie Benesch \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w3 \u00b7 geb. 1991 in Hamburg. Schauspielerin, \u00bbDas Lehrerzimmer\u00ab, \u00bbHeldin\u00ab, \u00bbBabylon Berlin\u00ab. Die Taube, die Druck ohne gro\u00dfe Gesten sichtbar macht. Tierentsprechung: Taube.",
     land:"Deutschland", tags:["Schauspiel"], gender:"f"},
+  { route:"beruehmte-carmen-herrera", name:"Carmen Herrera", added:"2026-11-07", subtyp:"SE1w9",
+    heading:"Carmen Herrera \u2013 Selbsterhaltender Typ 1",
+    teaser:"SE1w9 \u00b7 1915\u20132022. Kubanisch-amerikanische Malerin, erstes Bild verkauft mit 89 Jahren, Durchbruch jenseits der 100. Der Adler, der Jahrzehnte kreiste. Tierentsprechung: Adler.",
+    land:"Kuba/USA", tags:["Kunst"], gender:"f"},
   { route:"beruehmte-steven-krueger", name:"Steven Krueger", added:"2026-11-07", subtyp:"SE3w2",
     heading:"Steven Krueger \u2013 Selbsterhaltender Typ 3",
     teaser:"SE3w2 \u00b7 geb. 1989 in Appleton (Wisconsin). Schauspieler (\u203aThe Originals\u2039, \u203aYellowjackets\u2039). Der Waschb\u00e4r, der in der zweiten Reihe gl\u00e4nzt. Tierentsprechung: Waschb\u00e4r.",
@@ -68631,7 +68636,7 @@ const ROUTES = {
       "beruehmte-soeren-kierkegaard": soerenKierkegaardPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-phil-collins": philCollinsPortraitPage,
-      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-lea-bosco": leaBoscoPortraitPage, "beruehmte-roland-trettl": rolandTrettlPortraitPage, "beruehmte-kida-khodr-ramadan": kidaKhodrRamadanPortraitPage, "beruehmte-maryam-zaree": maryamZareePortraitPage, "beruehmte-rauand-taleb": rauandTalebPortraitPage, "beruehmte-steven-krueger": stevenKruegerPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
+      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-lea-bosco": leaBoscoPortraitPage, "beruehmte-roland-trettl": rolandTrettlPortraitPage, "beruehmte-kida-khodr-ramadan": kidaKhodrRamadanPortraitPage, "beruehmte-maryam-zaree": maryamZareePortraitPage, "beruehmte-rauand-taleb": rauandTalebPortraitPage, "beruehmte-steven-krueger": stevenKruegerPortraitPage, "beruehmte-carmen-herrera": carmenHerreraPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
       "beruehmte-harald-v": haraldVPortraitPage,
       "beruehmte-carl-xvi-gustaf": carlXVIGustafPortraitPage,
       "beruehmte-johannes-paul-ii": johannesPaulIIPortraitPage,
@@ -70120,13 +70125,13 @@ new MutationObserver(() => _suchX(document)).observe(document.body, { childList:
 let _pdfMod = null;
 function _pdfMount() {
   if (!document.querySelector('.krim-portrait-wrap:not([data-pdf])')) return;
-  (_pdfMod || (_pdfMod = import("./data/pdf-share.js?v=13"))).then(m => m.mountPdfButton("de")).catch(() => {});
+  (_pdfMod || (_pdfMod = import("./data/pdf-share.js?v=14"))).then(m => m.mountPdfButton("de")).catch(() => {});
 }
 let _sbMod = null;
 function _sbMount() {
   const e = document.querySelector(".eyebrow:not([data-sbs])");
   if (!e || !/^(Schaubild|Chart|Diagram)/i.test(e.textContent.trim())) return;
-  (_sbMod || (_sbMod = import("./data/schaubild-share.js?v=8"))).then(m => m.mountSchaubildButtons("de")).catch(() => {});
+  (_sbMod || (_sbMod = import("./data/schaubild-share.js?v=9"))).then(m => m.mountSchaubildButtons("de")).catch(() => {});
 }
 let _rsMod = null;
 function _rsMount() {
