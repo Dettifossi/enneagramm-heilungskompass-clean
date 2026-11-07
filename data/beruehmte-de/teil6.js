@@ -3987,6 +3987,7 @@ export function heinzErhardtPortraitPage() {
         <h2 class="vb-section">3. Der Sechserflügel: Lampenfieber, Genauigkeit, Rückhalt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> bringt Wachsamkeit, Genauigkeit und das Bedürfnis nach Rückhalt. Erhardt hatte Lampenfieber, und sein Markenzeichen, die dicke Hornbrille, trug er nach den Berichten, um die Angst vor dem Publikum zu mildern. Eine verschmitzte Schüchternheit gehört zu seinem Bild. Als Perfektionist feilte er mit Akribie an seinen Texten. Sein Sohn Gero beschrieb ihn nach einem Zeitungsbericht privat als still und in sich gekehrt. Das ist nicht die Haltung des herrischen Achterflügels, sondern die eines Siebeners, der sich absichert, wo er sich zeigt.</p>
+          <p class="vb-intro">Nach der Beobachtung des Autors wirkt die selbsterhaltende Sieben nach außen manchmal wie eine Acht; schon Naranjo habe sie als eine ›versteckte Acht‹ gesehen. Bei Erhardt zeigt sich das in der raumfüllenden Ruhe und im Gewicht seiner Erscheinung, nicht in Härte oder Dominanz. Die Flügelfrage ändert das nicht: Der Sechserflügel steckt im Lampenfieber, in der Akribie und im Bedürfnis nach Rückhalt.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: das verdrehte Wort</h2>

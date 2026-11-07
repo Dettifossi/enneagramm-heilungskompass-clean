@@ -4008,6 +4008,7 @@ export function heinzErhardtPortraitPage() {
         <h2 class="vb-section">3. The Six-wing: stage fright, exactness, support</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Six-wing (w6)</strong> brings vigilance, exactness and the need for support. Erhardt had stage fright, and according to reports he wore his trademark thick horn-rimmed glasses to ease his fear of the audience. A roguish shyness belongs to his image. As a perfectionist he polished his texts with meticulous care. According to a newspaper report, his son Gero described him in private as quiet and withdrawn. This is not the attitude of the domineering Eight-wing but that of a Seven who secures himself where he shows himself.</p>
+          <p class="vb-intro">According to the author&rsquo;s observation, the self-preservation Seven sometimes looks like an Eight from outside; Naranjo himself is said to have seen it as a &lsquo;hidden Eight&rsquo;. With Erhardt this shows in the room-filling calm and the weight of his presence, not in hardness or dominance. The wing question does not change this: the Six-wing lies in the stage fright, the meticulousness and the need for support.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The substance: the twisted word</h2>
