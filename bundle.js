@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=497";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=498";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -175,6 +175,7 @@ const enneagrammAyurvedaPage = () => _lazyPage("./data/wissen-de/enneagramm-ayur
 const spirituellesEnneagrammPage = () => _lazyPage("./data/wissen-de/spirituelles-enneagramm.js", "spirituellesEnneagrammPage");
 const endeDerSuchePage = () => _lazyPage("./data/praxistipps-de/ende-der-suche.js", "endeDerSuchePage");
 const wasIstLiebePage = () => _lazyPage("./data/praxistipps-de/was-ist-liebe.js", "wasIstLiebePage");
+const wenigerIstMehrPage = () => _lazyPage("./data/praxistipps-de/weniger-ist-mehr.js", "wenigerIstMehrPage");
  _lazyPage("./data/praxistipps-de/kino-erwachen.js", "kinoErwachenPage");
 const albertBrooksPortraitPage = () => _lazyPage("./data/beruehmte-de/teil8.js", "albertBrooksPortraitPage");
 const emilyBluntPortraitPage = () => _lazyPage("./data/beruehmte-de/teil13.js", "emilyBluntPortraitPage");
@@ -34721,6 +34722,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"ende-der-suche", titel:"Wenn die Suche still wird: Das Ende der Suche und die 13 Illusionen des spirituellen Suchers", teaser:"Warum nichts hinzugefügt werden muss, um vollständig zu sein – 13 Illusionen vom Subjekt bis zum Leiden, jeweils mit Übungen zur Selbstbeobachtung.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/ende-der-suche/ende-der-suche.jpg", kategorie:"geist" },
     { slug:"kino-erwachen", titel:"Rote Pille, blauer Avatar: Was Matrix, Avatar, Inception und The Game über die Enneagramm-Fixierung verraten", teaser:"Vier Filme, ein Gedanke: Das Muster ist ein Betriebssystem, nicht das Wesen. Mit Kacheln zu Matrix, Avatar, Inception und The Game, den neun Programmen der Typen und einer kleinen Totem-Übung für den Alltag.", img:"", kategorie:"geist" },
     { slug:"was-ist-liebe", titel:"Was ist Liebe? Vom Ersatzhandel zur Essenz", teaser:"Wie sich der Liebesbegriff gewandelt hat, womit die neun Typen Liebe ersetzen (Liebe statt Perfektion, Geben, Erfolg \u2026), was Mystik und Eckhart Tolle unter Liebe verstehen \u2013 mit einer kleinen Übung und dem Kurzfilm.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/was-ist-liebe/was-ist-liebe.jpg", kategorie:"geist" },
+    { slug:"weniger-ist-mehr", titel:"Weniger ist mehr: Impulse brauchen Zeit", teaser:"Bachblüten, Schüßler-Salze und homöopathische Mittel gelten als harmlos. Warum es sich lohnt, bei der Häufigkeit zurückhaltend zu sein: Information statt Stoff, Bachs eigene Regel, ein auffälliger Widerspruch und Hinweise zur Sensibilität im Alltag.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/weniger-ist-mehr/weniger-ist-mehr.jpg", kategorie:"koerper" },
   ];
   const TIPP_KATEGORIEN = [
     { id:"koerper", label:"K\u00f6rper & Bewegung", icon:"\ud83e\udded" },
@@ -34794,6 +34796,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "was-ist-liebe") {
     return wasIstLiebePage();
+  }
+  if (param === "weniger-ist-mehr") {
+    return wenigerIstMehrPage();
   }
 
   return shell(`
