@@ -1172,7 +1172,7 @@ export function miguelDeUnamunoPortraitPage() {
         {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
         {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
         {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5)"},
-        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SP4w5)"},
         {route:"beruehmte-sally-rooney", label:"Portrait: Sally Rooney (SP4w5)"},
       ])}
     </div>

@@ -1609,7 +1609,7 @@ export function vincentVanGoghPortraitPage() {
         {route:"beruehmte-don-mclean", label:"Porträt: Don McLean (SE4w5) – widmete ihm den Song ›Vincent‹, gleicher Subtyp"},
         {route:"beruehmte-knut-hamsun", label:"Porträt: Knut Hamsun (SE4w5)"},
         {route:"beruehmte-leo-tolstoi", label:"Porträt: Leo Tolstoi (SE4w5)"},
-        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SE4w5)"},
         {route:"beruehmte-sam-altman", label:"Porträt: Sam Altman (SE4w5)"},
         {route:"beruehmte-loris-assadian", label:"Porträt: Loris Assadian (SE4w5)"},
         {route:"beruehmte-paul-gauguin", label:"Porträt: Paul Gauguin (SX8w7) – der Konflikt in Arles"},

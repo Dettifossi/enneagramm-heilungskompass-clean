@@ -528,7 +528,7 @@ export function franzVonAssisiPortraitPage() {
         {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
         {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
         {route:"beruehmte-epikur", label:"Porträt: Epikur (SO7w6)"},
-        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SE4w5)"},
         {route:"beruehmte-george-gershwin", label:"Porträt: George Gershwin (SO7w6)"},
         {route:"beruehmte-henry-shukman", label:"Porträt: Henry Shukman (SO7w6) – Zen-Lehrer"},
         {route:"krankheitsportraets-moliere", label:"Krankheitsporträt: Molière (SO7w6)"},

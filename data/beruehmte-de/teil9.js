@@ -479,7 +479,7 @@ export function epikurPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
         {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
-        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SE4w5)"},
         {route:"beruehmte-rowan-atkinson", label:"Porträt: Rowan Atkinson (SO7w6)"},
         {route:"beruehmte-franz-von-assisi", label:"Porträt: Franz von Assisi (SO7w6)"},
         {route:"beruehmte-george-gershwin", label:"Porträt: George Gershwin (SO7w6)"},

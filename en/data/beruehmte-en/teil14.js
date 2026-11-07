@@ -610,7 +610,7 @@ export function georgeGershwinPortraitPage() {
         {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
         {route:"beruehmte-epikur", label:"Portrait: Epicurus (SO7w6)"},
         {route:"beruehmte-franz-von-assisi", label:"Portrait: Francis of Assisi (SO7w6)"},
-        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SP4w5)"},
       ])}
     </div>
   `);

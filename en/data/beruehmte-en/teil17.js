@@ -1609,7 +1609,7 @@ export function vincentVanGoghPortraitPage() {
         {route:"beruehmte-don-mclean", label:"Portrait: Don McLean (SP4w5) – dedicated the song \"Vincent\" to him, same subtype"},
         {route:"beruehmte-knut-hamsun", label:"Portrait: Knut Hamsun (SP4w5)"},
         {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
-        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SP4w5)"},
         {route:"beruehmte-sam-altman", label:"Portrait: Sam Altman (SP4w5)"},
         {route:"beruehmte-loris-assadian", label:"Portrait: Loris Assadian (SP4w5)"},
         {route:"beruehmte-paul-gauguin", label:"Portrait: Paul Gauguin (SX8w7) – the conflict in Arles"},
@@ -2881,9 +2881,9 @@ export function johannLechnerPortraitPage() {
           <p class="vb-intro">Whether teeth and jaw are a cause or rather an expression of an imbalance in the whole person is judged differently. This Compass takes no position on it and does not make teeth the sole cause of everything; it contains no healing claim and no treatment recommendation. Anyone with health questions should consult their dentist or physician. In 2008 Lechner also received a patent for a method of contactless information transfer.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Parallel in the same subtype: Nikola Tesla and Prof. Dr. John Ioannidis</h2>
+        <h2 class="vb-section">5. Related patterns: Nikola Tesla and Prof. Dr. John Ioannidis</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="#beruehmte-nikola-tesla">Nikola Tesla (SO7w6)</a> shares with Lechner the appetite for new methods and patents and the conviction of serving the community with them. For Tesla it was energy, for Lechner the jaw.</p>
+          <p class="vb-intro"><a href="#beruehmte-nikola-tesla">Nikola Tesla (SP4w5)</a> shares with Lechner the appetite for new methods and patents, even though he belongs to a different subtype. For Tesla it was energy, for Lechner the jaw.</p>
           <p class="vb-intro"><a href="#beruehmte-john-ioannidis">Prof. Dr. John Ioannidis (SO7w6)</a> shares with him the questioning of the majority view in medicine. The difference: Ioannidis examines studies with the methods of statistics, Lechner works in practice.</p>
         </blockquote>
 
@@ -2908,7 +2908,7 @@ export function johannLechnerPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
         {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
-        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SP4w5)"},
         {route:"beruehmte-john-ioannidis", label:"Portrait: Prof. Dr. John Ioannidis (SO7w6)"},
         {route:"beruehmte-christian-drosten", label:"Portrait: Prof. Dr. Christian Drosten (SO7w6)"},
         {route:"enneagramm-zahnpsychosomatik", label:"Enneagram Meets Dental Psychosomatics"},

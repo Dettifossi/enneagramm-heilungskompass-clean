@@ -2671,9 +2671,9 @@ export function adaLovelacePortraitPage() {
           <p class="vb-intro">The darker side lies where the building is never finished and the risk is no longer cushioned. Much remained plan, the bets left debts, and the dependence on her mother lasted to the end. Ada Lovelace died on 27 November 1852, aged 36, in Marylebone in London of cervical cancer, then called uterine cancer. At her request she was buried beside her father in Hucknall, Nottinghamshire.</p>
         </blockquote>
 
-        <h2 class="vb-section">7. Related patterns: Tesla, Verne and Musk</h2>
+        <h2 class="vb-section">7. Related patterns: Verne and Musk</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The combination of wealth of ideas, service to a larger whole and a building never finished appears in <a href="javascript:void(0)" data-route="beruehmte-nikola-tesla">Nikola Tesla</a> (SO7w6), who designed inventions for the public, and in <a href="javascript:void(0)" data-route="beruehmte-jules-verne">Jules Verne</a> (SO7w6), whose novels anticipated a technical future, and in <a href="javascript:void(0)" data-route="beruehmte-elon-musk">Elon Musk</a> (SO7w6), who drives rockets, electric cars and ever new large-scale ventures forward at the same time. As a later pioneer of computer science, <a href="javascript:void(0)" data-route="beruehmte-alan-turing">Alan Turing</a> (SX5w4) appears in this compass, a different type with a similar subject, and <a href="javascript:void(0)" data-route="beruehmte-konrad-zuse">Konrad Zuse</a> (SP1w9) later built a programmable computer himself with the Z3.</p>
+          <p class="vb-intro">The combination of wealth of ideas, service to a larger whole and a building never finished appears in <a href="javascript:void(0)" data-route="beruehmte-jules-verne">Jules Verne</a> (SO7w6), whose novels anticipated a technical future, and in <a href="javascript:void(0)" data-route="beruehmte-elon-musk">Elon Musk</a> (SO7w6), who drives rockets, electric cars and ever new large-scale ventures forward at the same time. <a href="javascript:void(0)" data-route="beruehmte-nikola-tesla">Nikola Tesla</a> (SP4w5), whose name Musk's company carries, shares the inventive drive but belongs to a different subtype: he withdrew where Musk seeks the stage. As a later pioneer of computer science, <a href="javascript:void(0)" data-route="beruehmte-alan-turing">Alan Turing</a> (SX5w4) appears in this compass, a different type with a similar subject, and <a href="javascript:void(0)" data-route="beruehmte-konrad-zuse">Konrad Zuse</a> (SP1w9) later built a programmable computer himself with the Z3.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
@@ -2684,7 +2684,7 @@ export function adaLovelacePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so7", label:"SO7 – The Beaver: subtype profile"},
         {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
-        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6) – same subtype and wing"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SP4w5) – same subtype and wing"},
         {route:"beruehmte-jules-verne", label:"Portrait: Jules Verne (SO7w6) – same subtype and wing"},
         {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6) – same subtype and wing"},
         {route:"beruehmte-alan-turing", label:"Portrait: Alan Turing (SX5w4) – pioneer of computer science"},

@@ -1209,7 +1209,7 @@ export function georgeGershwinKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-george-gershwin", label:"Porträt: George Gershwin (SO7w6) – Lebenswerk"},
-        {route:"krankheitsportraets-nikola-tesla", label:"Krankheitsporträt: Nikola Tesla (SO7w6) – gleicher Subtyp, entgegengesetzter Verlauf"},
+        {route:"krankheitsportraets-nikola-tesla", label:"Krankheitsporträt: Nikola Tesla (SE4w5) – gleicher Subtyp, entgegengesetzter Verlauf"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so7", label:"Subtyp-Profil SO7"},
       ])}
@@ -2431,11 +2431,11 @@ export function nikolaTeslaKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-nikola-tesla-portrait.jpg" alt="Nikola Tesla" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Nikola Tesla</p>
-        <p class="krim-portrait-typ">SO7w6 · Sozialer Typ 7 mit Sechserflügel · 1856–1943</p>
+        <p class="krim-portrait-typ">SE4w5 · Selbsterhaltender Typ 4 mit Fünferflügel · 1856–1943</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Biber</span>
+          <span>Tierentsprechung: Taube</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so7.jpg" alt="Tierentsprechung: Biber" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO7")};left:${tierAvatarLeft("SO7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Tierentsprechung: Taube" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -2451,15 +2451,7 @@ export function nikolaTeslaKrankheitsportraetPage() {
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Tesla</strong> ist dem <strong>sozialen Typ 7 mit Sechserflügel</strong>
-        zugeordnet. Die SO7 stellt die eigene Genusssucht zurück, um einer größeren Mission zu
-        dienen – bei Tesla war das eine kostenlose Energieversorgung der gesamten Menschheit;
-        der Sechserflügel übersetzt Wachsamkeit und Sorge in Kontrolle, Ordnung und Rituale.
-        Genau diese Kombination bestimmte auch, wie sich seine fortschreitende Zwangsstörung
-        entwickelte: nicht als plötzlicher Einbruch, sondern als immer strengeres, selbst
-        auferlegtes System zur Kontrolle einer als überfordernd erlebten Außenwelt – und als
-        Verschiebung Richtung des Stresspunkts der Sieben, der Eins: aus rastloser
-        Erfindungslust wurde zunehmend starre Rigidität.</p>
+        <strong>Tesla</strong> ist der <strong>selbsterhaltenden Vier mit Fünferflügel</strong> zugeordnet. Die SE4 trägt ein tiefes Gefühlsleben still, zäh und beharrlich, ohne es zur Schau zu stellen; der Fünferflügel gibt dem Innenleben Sachlichkeit, Distanz und den Hang, die Welt über Wissen und Systeme zu ordnen. Bei Tesla zeigt sich das in den vollständig im Kopf gebauten Maschinen, in einem Lebenswerk, das er gegen alle Widerstände weiterverfolgte, und in einer Zwangsstörung, die nicht plötzlich einbrach, sondern als immer strengeres, selbst auferlegtes System zur Kontrolle einer als überfordernd erlebten Außenwelt wuchs. Unter anhaltendem Stress bewegt sich die Vier Richtung Zwei, zu Fürsorge und Hingabe – bei Tesla galt sie keinem Menschen, sondern den Tauben.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -2529,77 +2521,44 @@ export function nikolaTeslaKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Die Mission bis zur völligen Isolation verteidigt:</strong>
-        Dieselbe radikale Konsequenz, mit der Tesla an seiner Vision einer kostenlosen
-        Energieversorgung für die ganze Menschheit festhielt, bestimmte auch, wie vollständig
-        er sich am Ende von jeder menschlichen Nähe abschnitt – die SO7 hält an der eigenen
-        Mission fest, auch wenn der Preis dafür die eigene Verbindung zur Welt ist.</p>
-        <p class="vb-intro"><strong>b) Der Sechserflügel und das System als letzter Schutzraum:</strong>
-        Seine Zwangshandlungen – das Zählen, die Teilbarkeit durch drei, die Keimvermeidung
-        – waren keine zufälligen Marotten, sondern ein immer engmaschigeres System zur
-        Kontrolle einer Welt, die für ihn zunehmend bedrohlich wurde. Wo der gesunde
-        Sechserflügel Wachsamkeit in verlässliche Loyalität zur eigenen Sache übersetzt, wurde
-        bei Tesla das Kontrollsystem selbst zum einzigen verlässlichen Halt.</p>
-        <p class="vb-intro"><strong>c) Eine einzelne Bindung statt eines Gemeinschaftsprojekts:</strong>
-        Anders als es für die soziale Sieben typisch wäre – Sinn und Bindung über ein
-        gemeinsames Projekt oder eine Gruppe zu finden –, ersetzte Tesla das gesamte
-        menschliche Beziehungsnetz nicht durch eine neue Gemeinschaft, sondern durch eine
-        einzige, außergewöhnlich intensive Bindung – die weiße Taube trug das gesamte
-        Gewicht dessen, was für andere Menschen ein ganzes soziales Leben ausmacht.</p>
+        <p class="vb-intro"><strong>a) Die Vision bis zur völligen Isolation getragen:</strong>
+        Dieselbe Zähigkeit, mit der Tesla an seiner Vision einer kostenlosen Energieversorgung festhielt, bestimmte auch, wie vollständig er sich am Ende von jeder menschlichen Nähe abschnitt – die SE4 trägt ihre Last still und beharrlich weiter, auch wenn der Preis die eigene Verbindung zur Welt ist.</p>
+        <p class="vb-intro"><strong>b) Der Fünferflügel und das System als letzter Schutzraum:</strong>
+        Seine Zwangshandlungen – das Zählen, die Teilbarkeit durch drei, die Keimvermeidung – waren keine zufälligen Marotten, sondern ein immer engmaschigeres System zur Kontrolle einer Welt, die für ihn zunehmend bedrohlich wurde. Wo der gesunde Fünferflügel Rückzug in konzentrierte Sachkenntnis und Unabhängigkeit verwandelt, wurde bei Tesla das System aus Zahlen und Reinheit selbst zum einzigen verlässlichen Halt.</p>
+        <p class="vb-intro"><strong>c) Eine einzelne Bindung statt vieler Beziehungen:</strong>
+        Für die selbsterhaltende Vier ist es typisch, Gefühl nicht zur Schau zu stellen, sondern in wenigen tiefen Bindungen zu bewahren. Tesla ersetzte sein gesamtes menschliches Beziehungsnetz nicht durch eine neue Gemeinschaft, sondern durch eine einzige, außergewöhnlich intensive Bindung – die weiße Taube, ausgerechnet das Tier der selbsterhaltenden Vier, trug das gesamte Gewicht dessen, was für andere Menschen ein ganzes soziales Leben ausmacht.</p>
       </div>
 
       <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
         <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Ein Geist, der sich vor dem Verlust seiner Mission schützte:</strong>
-        Teslas gesamtes Leben war von der Überzeugung geprägt, dass seine Vision einer
-        Energieversorgung für die ganze Menschheit schutzbedürftig war – seine Zwangsstörung
-        lässt sich als das immer strengere System lesen, mit dem er diesen Schutz
-        aufrechtzuerhalten versuchte, bis das System selbst zur Isolation wurde.</p>
+        <p class="vb-intro"><strong>a) Ein Geist, der sein Werk vor dem Verlust schützte:</strong>
+        Teslas gesamtes Leben war von der Überzeugung geprägt, dass sein Werk schutzbedürftig war und kaum jemand es so verstand wie er – seine Zwangsstörung lässt sich als das immer strengere System lesen, mit dem er diesen Schutz aufrechtzuerhalten versuchte, bis das System selbst zur Isolation wurde.</p>
         <p class="vb-intro"><strong>b) Kontrolle über die eigene Umgebung als Ersatz für Kontrolle über Nähe:</strong>
         Ein Mann, der intime menschliche Nähe explizit als Bedrohung seiner Konzentration
         beschrieb, entwickelte stattdessen eine immer detailliertere Kontrolle über seine
         physische Umgebung – Zahlen, Keime, Rituale –, die genau jene Sicherheit versprach,
         die menschliche Beziehungen ihm nicht bieten konnten.</p>
         <p class="vb-intro"><strong>c) Warum ausgerechnet der Kontakt zur Außenwelt?</strong>
-        Für eine soziale Sieben mit Sechserflügel, deren gesamte Kraft auf einer Mission für
-        die Menschheit als Ganzes beruhte, liegt eine Deutung nahe: Ausgerechnet der
-        unmittelbare körperliche Kontakt zur Außenwelt – Türklinken, Handschläge, andere
-        Menschen – wurde zum Schauplatz der Angst, während die innere, selbst konstruierte
-        Gedankenwelt der einzige Ort blieb, an dem er sich vollständig sicher fühlte. Das ist eine plausible Deutung, kein belegter historischer Kausalzusammenhang. Ausführlicher steht sie im Psychosomatik-Register dieses Kompasses.</p>
+        Für eine selbsterhaltende Vier mit Fünferflügel, die ihr Gefühl nach innen trägt und die Welt über Gedanken und Systeme ordnet, liegt eine Deutung nahe: Ausgerechnet der unmittelbare körperliche Kontakt zur Außenwelt – Türklinken, Handschläge, andere Menschen – wurde zum Schauplatz der Angst, während die innere, selbst konstruierte Gedankenwelt der einzige Ort blieb, an dem er sich vollständig sicher fühlte. Das ist eine plausible Deutung, kein belegter historischer Kausalzusammenhang. Ausführlicher steht sie im Psychosomatik-Register dieses Kompasses.</p>
         <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sozialen Sieben zwangsläufig zu
-        Zwangsstörungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
-        unabhängig vom Subtyp.</strong> Was sich an Teslas Fall zeigen lässt, ist ein Muster
-        im Umgang mit fortschreitender psychischer Isolation, das bei einer ausgeprägten
-        sozialen Sieben mit Sechserflügel unter chronischem Stress immer wieder auffällt –
-        eine von vielen möglichen Deutungen, kein Urteil. Ausführlich beschrieben ist das Krankheitsbild im Psychosomatik-Register dieses Kompasses unter <a href="javascript:void(0)" data-route="psychosomatik/zwangsstoerung_ocd">Zwangsstörung (OCD)</a>.</p>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Vier zwangsläufig zu Zwangsstörungen führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich an Teslas Fall zeigen lässt, ist ein Muster im Umgang mit fortschreitender psychischer Isolation, das bei einer ausgeprägten selbsterhaltenden Vier mit Fünferflügel unter chronischem Stress immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil. Ausführlich beschrieben ist das Krankheitsbild im Psychosomatik-Register dieses Kompasses unter <a href="javascript:void(0)" data-route="psychosomatik/zwangsstoerung_ocd">Zwangsstörung (OCD)</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Tesla kannte sein eigenes Muster nicht – die soziale Sieben mit Sechserflügel
-        verteidigt reflexhaft die eigene Mission gegen jede als bedrohlich erlebte Störung,
-        statt die eigene Isolation je als Muster zu erkennen, und genau dieses Muster lebte er
-        bis zu seinem einsamen Tod unverändert aus. Wer die eigene Notwendigkeit, die eigene
-        Mission um jeden Preis zu schützen, nicht als Muster erkennt, kann sie auch angesichts
-        der eigenen Vereinsamung nicht ablegen.</p>
+        Tesla kannte sein eigenes Muster nicht – die selbsterhaltende Vier mit Fünferflügel trägt ihre Last reflexhaft still weiter und schützt das Innenleben vor jeder als bedrohlich erlebten Störung, statt die eigene Isolation je als Muster zu erkennen, und genau dieses Muster lebte er bis zu seinem einsamen Tod unverändert aus. Wer die eigene Neigung, Leid zu ertragen und Nähe zu meiden, nicht als Muster erkennt, kann sie auch angesichts der eigenen Vereinsamung nicht ablegen.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        Die soziale Sieben mit Sechserflügel erklärt bei <strong>Tesla</strong> vieles
-        am Verlauf seiner eigenen Erkrankung: ein Mann, dessen gesamte Kraft auf einer Mission
-        für die ganze Menschheit beruhte, verteidigte diese Mission so konsequent, dass am
-        Ende kein Mensch mehr nah genug herankam – der Biber, der der ganzen Menschheit
-        unbegrenzte Energie schenken wollte, und dessen eigenes Herz zuletzt nur noch an
-        einem einzigen Vogel hing.</p>
+        Die selbsterhaltende Vier mit Fünferflügel erklärt bei <strong>Tesla</strong> vieles am Verlauf seiner Erkrankung: ein Mann, der sein Gefühl und seine Vision still und zäh trug, schützte beides so konsequent, dass am Ende kein Mensch mehr nah genug herankam. Zuletzt hing sein Herz an einem einzigen Vogel, an der Taube, die zugleich das Tier der selbsterhaltenden Vier ist.</p>
       </div>
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6) – Erfinder"},
-        {route:"krankheitsportraets-moliere", label:"Krankheitsporträt: Molière (SO7w6) – gleicher Subtyp"},
-        {route:"krankheitsportraets-george-gershwin", label:"Krankheitsporträt: George Gershwin (SO7w6) – gleicher Subtyp, entgegengesetzter Verlauf"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SE4w5) – Erfinder"},
+        {route:"krankheitsportraets-vincent-van-gogh", label:"Krankheitsporträt: Vincent van Gogh (SE4w5) – gleicher Subtyp"},
+        {route:"krankheitsportraets-virginia-woolf", label:"Krankheitsporträt: Virginia Woolf (SE4w5) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/so7", label:"Subtyp-Profil SO7"},
+        {route:"subtype/se4", label:"Subtyp-Profil SE4"},
       ])}
     </div>
   `);

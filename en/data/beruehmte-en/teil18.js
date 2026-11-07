@@ -386,7 +386,7 @@ export function derekGoodwinPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
         {route:"lebensmusterkompass/se4", label:"Life Pattern Compass: SP4 – Dove"},
-        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SP4w5)"},
         {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoi (SP4w5)"},
         {route:"beruehmte-loris-assadian", label:"Portrait: Loris Assadian (SP4w5) – also a quiet connection to animals"},
       ])}
@@ -1223,76 +1223,67 @@ export function nikolaTeslaPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-nikola-tesla-portrait.jpg" alt="Nikola Tesla – Portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-nikola-tesla-portrait.jpg" alt="Nikola Tesla – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-nikola-tesla-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Nikola Tesla</p>
-        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
-        <p class="krim-portrait-subtitle">Inventor, engineer, 1856&ndash;1943 &ndash; Animal correspondence: Beaver</p>
+        <p class="krim-portrait-typ">SP4w5 &middot; Self-Preservation Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Inventor, engineer, 1856&ndash;1943 &ndash; Animal correspondence: Dove</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The beaver that wanted to give the whole of humanity energy</h2>
+        <h2 class="vb-section">1. The Dove from Smiljan</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>beaver</strong> stands as the animal of the Social Seven &ndash; it does not build for itself, but for a system larger than itself, and it is never truly finished: no sooner does one dam stand than the next project begins. Nikola Tesla embodied this principle to an almost alarming degree: the AC induction motor, the transformer, radio technology, the foundations of radar, remote control &ndash; he left behind more than 300 patents, plus dozens of parallel large-scale projects that were never fully completed. Every invention was at the same time the prelude to the next.</p>
-          <p class="vb-intro">The Serbian-American inventor Nikola Tesla was born in 1856 in Smiljan, in present-day Croatia, the son of a Serbian Orthodox priest. Even as a child, he later reported, he had spontaneous, flash-like inner images of machines that he could construct in complete detail in his mind's eye before ever picking up a tool &ndash; an abundance of ideas that, from early on, went far beyond what a single life could ever realize.</p>
+          <p class="vb-intro">The <strong>dove</strong> is the animal correspondence of the self-preservation Four: a quiet, faithful animal that finds its own way and needs no performance for it. Nikola Tesla was born in 1856 in Smiljan, in present-day Croatia, the son of a Serbian Orthodox priest. As a child, as he later reported, he saw flashes of inner images of machines which he built in his head down to the last detail before he ever touched a tool. His older brother Dane died early in an accident; Tesla later described how deeply this loss marked him.</p>
+          <p class="vb-intro">In 1884 he went to New York with little money. The outsider became one of the great inventors of his age: the alternating-current motor, high-frequency technology, radio technology, remote control, and over 300 patents. Yet his inner life remained, even at the height of his fame, a place he shared with no one.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Social Seven: invention in service of humanity</h2>
+        <h2 class="vb-section">2. The self-preservation Four: feeling in hiding</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Claudio Naranjo called the Social Type Seven the <strong>Sacrifice</strong> or <strong>Martyr</strong> &ndash; this subtype sets aside its own pleasure-seeking to devote itself to a larger idea, group, or mission. Tesla explicitly framed his entire life's work as service to humanity, not to himself: his greatest goal was a worldwide system for the wireless transmission of energy and information &ndash; free, accessible to all people, not just those who could pay for it.</p>
-          <p class="vb-intro">How seriously he meant this is shown by one of the most consequential decisions of his life: George Westinghouse, who had bought the AC patent rights from Tesla, ran into financial trouble in the early 1890s because of the royalty payments owed to Tesla under their agreement. Tesla voluntarily tore up the contract that could have made him the richest man in the world, in order to save Westinghouse and, with it, the spread of the AC system itself &ndash; precisely the sacrifice Claudio Naranjo had in mind for the social Seven: his own material advantage mattered less than the larger cause.</p>
+          <p class="vb-intro">The <strong>self-preservation Four (SP4)</strong> carries a deep emotional life not on display but quietly, tenaciously and persistently. With Tesla this shows in three traits. First, he built his machines completely in his head before stepping outward: by his own account he let them run in thought and tested them there before making anything. Second, tenacity despite vulnerability: after the fire at his New York laboratory in March 1895 he carried on, and he held to his vision of wireless power transmission when all financiers turned away. Third, solitude: Tesla never married and described closeness as a disturbance of his concentration.</p>
+          <p class="vb-intro">The kinship with the Four lies in the feeling of not belonging to the ordinary world. Tesla was a man who as a child withdrew into inner images, felt misunderstood, and never turned that feeling into self-display but into work.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Six-Wing: vigilance, turned into order</h2>
+        <h2 class="vb-section">3. The Five-wing: knowledge, distance, system</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Six-wing (w6)</strong> lends the Social Seven an inner vigilance and a need for control that does not show itself as open fear, but is channeled into systems, rituals, and loyalty to one's own mission. In Tesla this showed in pronounced compulsive behaviors: he counted his steps while walking, calculated the volume of his soup before eating it, and worked almost exclusively with numbers divisible by three &ndash; deviations from this caused him massive discomfort. An extreme fear of germs made him avoid doorknobs and handshakes.</p>
-          <p class="vb-intro">His relationship to competitors carried the same watchful, mistrustful note: in the "War of the Currents" with Thomas Edison over direct versus alternating current, he kept many of his designs secret, fearing they would be stolen &ndash; yet unlike someone with a pronounced Eight-wing, he never sought open confrontation or personal victory over Edison, but withdrew instead into his own, controlled work. The Six-wing does not turn the Seven into a fighter, but into a loyal, cautious servant of its own mission.</p>
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> makes the Four not louder but more matter-of-fact. It lends the inner life rigour and distance: numbers, calculations, secrecy about one&rsquo;s own designs, independence from others. Tesla counted his steps, calculated the volume of his soup before eating it, and preferred working with numbers divisible by three. In the &lsquo;War of the Currents&rsquo; with Thomas Edison he held back many designs, fearing they might be stolen, and withdrew into his own controlled work instead of seeking confrontation.</p>
+          <p class="vb-intro">Even his famous public demonstrations, in which he let tubes glow in his hand, were demonstrations of a cause and not of his own person. The Five-wing explains why Tesla&rsquo;s sensitivity became not emotional expression but knowledge, mathematics and systems.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The Wardenclyffe Tower</h2>
+        <h2 class="vb-section">4. The substance: the rotating field and the tower</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">When J.P. Morgan, the main financier of Tesla's greatest project, the Wardenclyffe Tower on Long Island, learned that Tesla planned to distribute wireless energy to all of humanity for free rather than bill for it, he withdrew his support &ndash; the tower was never completed, and Tesla lost his life's work as a result. He nonetheless remained convinced to the end that his idea had been right.</p>
-          <p class="vb-intro">This shows the Social Seven at its most uncompromising: sooner lose one's own fortune and reputation for a utopian communal project than abandon an idea meant to serve the whole of humanity. Not a retreat into pure privacy, but a failure in the name of a vision larger than one's own success.</p>
+          <p class="vb-intro">What made Tesla unique is a concrete achievement: he recognised that two or more time-shifted alternating currents can produce a rotating magnetic field, and from it built in 1888 the alternating-current induction motor, the motor that still runs in pumps, machines and railways today. Added to this were the Tesla coil for high voltages and frequencies, on which large parts of early radio technology rest, and in 1898 a remote-controlled boat which he demonstrated in New York long before anyone spoke of remote control. How far ahead of his time he was shows in the Wardenclyffe Tower on Long Island, with which he wanted to send energy and messages wirelessly around the world.</p>
+          <p class="vb-intro">George Westinghouse fell into financial trouble in the early 1890s because of the agreed royalties for Tesla&rsquo;s patents. Tesla thereupon tore up the contract that would have made him very rich. That is less a sacrifice in the service of humanity than an indifference to money that suits a Four with a Five-wing: what mattered was the cause, not possession. When J. P. Morgan, the tower&rsquo;s financier, learned that Tesla wanted to distribute the energy free of charge, he withdrew. The tower stayed unfinished, Tesla lost his life&rsquo;s work and still held his idea to be right to the end.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SO7w6 is its ability to <strong>put a nearly boundless abundance of ideas in service of a utopian communal goal</strong> &ndash; Tesla's AC system still powers billions of households worldwide today, and his work laid the foundation for radio, radar, and wireless communication. His drive was never primarily his own fame, but a vision he wanted to realize for the whole of humanity.</p>
-          <p class="vb-intro">The shadow showed in growing isolation: in his final decades, Tesla withdrew completely from society, lived alone in New York hotel rooms, and found his most intense and lasting emotional bond no longer with a human being, but with a single white dove, which he treated as one would treat a beloved person. Under chronic stress the Social Seven moves toward One &ndash; and that is exactly the arc traceable in Tesla: restless, world-facing inventive drive turned, over time, into rigid, isolated inflexibility; vigilance turned into compulsion.</p>
+          <p class="vb-intro">Bright is a tenacity few people can muster: a man who after a fire, bankruptcy and the loss of his life&rsquo;s work went on thinking and constructing. The shadow is the price. In his last decades Tesla lived impoverished in hotel rooms, counted, calculated, and avoided doorknobs and handshakes out of fear of germs. His obsessive-compulsive disorder is described in the <a href="#krankheitsportraets-nikola-tesla">illness portrait</a>. Under lasting stress the Four moves towards Two, towards care and devotion. With Tesla it was for no human being: he tended injured pigeons, spent much money on it despite poverty, and in the end was attached to a single white pigeon whom, by his own statement, he treated like the love of his life.</p>
+          <p class="vb-intro">That the dove, of all animals the emblem of the self-preservation Four, appears in this life so early and so deeply is no proof but a fitting image: a man who could not show feeling gave it to an animal.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The beaver whose last construction was a single dove</h2>
+        <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">What Tesla gave the world is literally the backbone of modern civilization. Whether he received the recognition his work deserved is an open question. That he changed the world forever is not.</p>
-          <p class="vb-intro">It is worth noting whom posterity chose as his best-known namesake: the electric car company Tesla Motors, founded in 2003, deliberately carries his name in his honor &ndash; and its present-day public face, <a href="#beruehmte-elon-musk">Elon Musk (SO7w6)</a>, happens to share, probably without meaning it in Enneagram terms, the exact same subtype and wing. Both are driven by the same restless, never-quite-finished building drive in service of a utopian vision, both combine inventive genius with a watchful, controlling note &ndash; except that where Tesla withdrew, Musk seeks the open stage and public dispute. Two beavers, one name, two very different ways of building the same dam.</p>
-          <p class="vb-intro">And yet, at the end of this life, one image remains that could hardly stand more vividly for the Social Seven with a Six-wing: a man who wanted to give all of humanity unlimited energy &ndash; and whose own heart, in the end, belonged only to a single white dove, the last and smallest of all his unfinished constructions.</p>
+          <p class="vb-intro"><a href="#beruehmte-derek-goodwin">Derek Goodwin (SP4w5)</a> was an ornithologist at the Natural History Museum in London and wrote standard works on pigeons: a life in the background, devoted, of all things, to his own archetypal animal. Like Tesla he withdrew into expertise, but for him the withdrawal became calm, fulfilled research. In the <a href="#krankheitsportraets-vincent-van-gogh">illness portrait of Vincent van Gogh (SP4w5)</a> a different outcome of the same subtype shows: sensitivity that discharges in crises. Both have died and are therefore in the past tense.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The man who gave away electricity and kept a pigeon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Tesla gave the world is the backbone of modern civilisation: his alternating-current system still supplies billions of households. Whether he received the recognition he deserved is open; that he changed the world is not. On 7 January 1943 he died at 86, alone in his room at the Hotel New Yorker, in debt and largely forgotten. The FBI seized his papers the same day.</p>
+          <p class="vb-intro">The company Tesla Motors, founded in 2003, honours the inventor, and its present face, <a href="#beruehmte-elon-musk">Elon Musk (SO7w6)</a>, is a different subtype: Musk seeks the stage and public dispute where Tesla withdrew. In the end there is one image: a man who wanted to give humanity unlimited energy and whose own heart in the end hung on a single white pigeon.</p>
         </blockquote>
 
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${bookTip("enneagramm-zoo", "27 Animal Portraits – each Subtype animal with character, biology and Enneagram connection.", "Enneagramm-Zoo")}
-      ${bookTip("archetypen-der-tiere-im-enneagramm", "The archetypal animals of the 9 types as an inner map – images that work instantly.", "Archetypen der Tiere im Enneagramm")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
-        {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
-        {route:"beruehmte-rowan-atkinson", label:"Portrait: Rowan Atkinson (SO7w6)"},
-        {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6) – named his company after Tesla"},
-        {route:"beruehmte-george-gershwin", label:"Portrait: George Gershwin (SO7w6)"},
-        {route:"krankheitsportraets-moliere", label:"Illness Portrait: Molière (SO7w6)"},
-        {route:"krankheitsportraets-nikola-tesla", label:"Illness Portrait: Nikola Tesla (SO7w6) – obsessive-compulsive disorder and isolation"},
-        {route:"beruehmte-john-ioannidis", label:"Portrait: Prof. Dr. John Ioannidis (SO7w6)"},
-        {route:"beruehmte-christian-drosten", label:"Portrait: Prof. Dr. Christian Drosten (SO7w6)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"lebensmusterkompass/se4", label:"Life Pattern Compass: SP4 – Dove"},
         {route:"beruehmte-derek-goodwin", label:"Portrait: Derek Goodwin (SP4w5)"},
-        {route:"beruehmte-epikur", label:"Portrait: Epicurus (SO7w6)"},
-        {route:"beruehmte-franz-von-assisi", label:"Portrait: Francis of Assisi (SO7w6)"},
-        {route:"beruehmte-jules-verne", label:"Portrait: Jules Verne (SO7w6)"},
-        {route:"beruehmte-miguel-de-unamuno", label:"Portrait: Miguel de Unamuno (SP4w5)"},
-        {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5)"},
-        {route:"beruehmte-virginia-woolf", label:"Portrait: Virginia Woolf (SP4w5)"},
-        {route:"beruehmte-ada-lovelace", label:"Portrait: Ada Lovelace (SO7w6)"},
+        {route:"krankheitsportraets-nikola-tesla", label:"Illness Portrait: Nikola Tesla (SP4w5) – obsessive-compulsive disorder and isolation"},
+        {route:"krankheitsportraets-vincent-van-gogh", label:"Illness Portrait: Vincent van Gogh (SP4w5)"},
+        {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6) – his company is named after Tesla"},
       ])}
     </div>
   `);
@@ -1431,7 +1422,7 @@ export function rowanAtkinsonPortraitPage() {
         {route:"beruehmte-dieter-nuhr", label:"Portrait: Dieter Nuhr (SO7w8)"},
         {route:"beruehmte-epikur", label:"Portrait: Epicurus (SO7w6)"},
         {route:"beruehmte-guenther-krabbenhoeft", label:"Portrait: Günther Krabbenhöft (SO7w6)"},
-        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SP4w5)"},
         ])}
       </div>
     </div>
@@ -1636,7 +1627,7 @@ export function virginiaWoolfPortraitPage() {
         {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
         {route:"beruehmte-sally-rooney", label:"Portrait: Sally Rooney (SP4w5)"},
         {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
-        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SP4w5)"},
         {route:"beruehmte-vanessa-goecking", label:"Portrait: Vanessa Göcking (SP4w5)"},
         {route:"krankheitsportraets-virginia-woolf", label:"Illness Portrait: Virginia Woolf (SP4w5)"},
         {route:"beruehmte-ingmar-bergman", label:"Portrait: Ingmar Bergman (SP4w5)"},

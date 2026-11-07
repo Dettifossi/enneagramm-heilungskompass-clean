@@ -1172,7 +1172,7 @@ export function miguelDeUnamunoPortraitPage() {
         {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
         {route:"beruehmte-leo-tolstoi", label:"Porträt: Leo Tolstoi (SE4w5)"},
         {route:"beruehmte-vincent-van-gogh", label:"Porträt: Vincent van Gogh (SE4w5)"},
-        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SE4w5)"},
         {route:"beruehmte-sally-rooney", label:"Porträt: Sally Rooney (SE4w5)"},
       ])}
     </div>

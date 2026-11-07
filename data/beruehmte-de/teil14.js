@@ -608,7 +608,7 @@ export function georgeGershwinPortraitPage() {
         {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
         {route:"beruehmte-epikur", label:"Porträt: Epikur (SO7w6)"},
         {route:"beruehmte-franz-von-assisi", label:"Porträt: Franz von Assisi (SO7w6)"},
-        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SE4w5)"},
       ])}
     </div>
   `);

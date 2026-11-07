@@ -1871,7 +1871,7 @@ export function johnIoannidisPortraitPage() {
         ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
-        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SP4w5)"},
         {route:"beruehmte-frank-rosell", label:"Portrait: Prof. Dr. Frank Rosell (SO7w6)"},
         {route:"beruehmte-christian-drosten", label:"Portrait: Prof. Dr. Christian Drosten (SO7w6) – the counterpoint in the same crisis"},
         {route:"beruehmte-rupert-spira", label:"Portrait: Rupert Spira (SO7w6)"},

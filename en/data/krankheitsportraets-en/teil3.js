@@ -1187,7 +1187,7 @@ export function georgeGershwinKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-george-gershwin", label:"Portrait: George Gershwin (SO7w6) – life's work"},
-        {route:"krankheitsportraets-nikola-tesla", label:"Illness Portrait: Nikola Tesla (SO7w6) – same subtype, opposite course"},
+        {route:"krankheitsportraets-nikola-tesla", label:"Illness Portrait: Nikola Tesla (SP4w5) – same subtype, opposite course"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so7", label:"Subtype Profile SO7"},
       ])}
@@ -2375,11 +2375,11 @@ export function nikolaTeslaKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-nikola-tesla-portrait.jpg" alt="Nikola Tesla" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Nikola Tesla</p>
-        <p class="krim-portrait-typ">SO7w6 · Social Type 7 with Six-wing · 1856–1943</p>
+        <p class="krim-portrait-typ">SP4w5 · Self-Preservation Type 4 with Five-wing · 1856–1943</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Animal correspondence: Beaver</span>
+          <span>Animal correspondence: Dove</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so7.jpg" alt="Animal correspondence: Beaver" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO7")};left:${tierAvatarLeft("SO7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Animal correspondence: Dove" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -2394,15 +2394,7 @@ export function nikolaTeslaKrankheitsportraetPage() {
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
-        <strong>Tesla</strong> is assigned to the <strong>Social Type 7 with
-        Six-wing</strong>. SO7 sets aside its own pleasure-seeking to serve a larger mission –
-        for Tesla that was free energy for the whole of humanity; the Six-wing translates
-        vigilance and worry into control, order, and ritual. This same combination also
-        determined how his progressive obsessive-compulsive disorder developed: not as a
-        sudden collapse, but as an ever more tightly meshed, self-imposed system for
-        controlling a world that felt increasingly overwhelming – and as a shift toward the
-        Seven's stress point, One: restless inventive drive turned, over time, into rigid
-        inflexibility.</p>
+        <strong>Tesla</strong> is assigned to the <strong>self-preservation Four with a Five-wing</strong>. SP4 carries a deep emotional life quietly, tenaciously and persistently, without putting it on display; the Five-wing lends the inner life objectivity, distance and the tendency to order the world through knowledge and systems. With Tesla this shows in machines built entirely in his head, in a life&rsquo;s work he pursued against all resistance, and in an obsessive-compulsive disorder that did not break in suddenly but grew as an ever stricter, self-imposed system for controlling an outside world he experienced as overwhelming. Under lasting stress the Four moves towards Two, towards care and devotion – with Tesla it was for no human being but for the pigeons.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -2467,77 +2459,44 @@ export function nikolaTeslaKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
-        <p class="vb-intro"><strong>a) The mission defended into complete isolation:</strong>
-        The same radical consistency with which Tesla held to his vision of free energy for
-        the whole of humanity also determined how completely he cut himself off from human
-        closeness in the end – SO7 clings to its own mission, even when the price is its own
-        connection to the world.</p>
-        <p class="vb-intro"><strong>b) The Six-wing and the system as a final refuge:</strong>
-        His compulsive behaviors – counting, divisibility by three, avoiding germs – were not
-        random quirks, but an increasingly tightly meshed system for controlling a world that
-        felt ever more threatening to him. Where a healthy Six-wing translates vigilance into
-        reliable loyalty to one's own cause, in Tesla the control system itself became the
-        only reliable anchor.</p>
-        <p class="vb-intro"><strong>c) A single bond instead of a shared project:</strong>
-        Unlike what would be typical for the Social Seven – finding meaning and belonging
-        through a shared project or a group – Tesla did not replace his entire human
-        relationship network with a new community, but with a single, extraordinarily intense
-        bond – the white dove carried the entire weight of what constitutes an entire social
-        life for other people.</p>
+        <p class="vb-intro"><strong>a) The vision carried into complete isolation:</strong>
+        The same tenacity with which Tesla held to his vision of free energy supply determined how completely he cut himself off from all human closeness in the end – SP4 carries its burden quietly and persistently, even when the price is its own connection to the world.</p>
+        <p class="vb-intro"><strong>b) The Five-wing and the system as a final refuge:</strong>
+        His compulsive behaviors – the counting, the divisibility by three, the avoidance of germs – were no random quirks but an ever more tightly meshed system for controlling a world that felt increasingly threatening to him. Where a healthy Five-wing turns withdrawal into concentrated expertise and independence, in Tesla the system of numbers and cleanliness itself became the only reliable hold.</p>
+        <p class="vb-intro"><strong>c) A single bond instead of many relationships:</strong>
+        It is typical of the self-preservation Four not to put feeling on display but to keep it in a few deep bonds. Tesla replaced his whole human network of relationships not with a new community but with a single, extraordinarily intense bond – the white dove, of all animals the emblem of the self-preservation Four, carried the whole weight of what makes up an entire social life for other people.</p>
       </div>
 
       <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
         <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
-        <p class="vb-intro"><strong>a) A mind that protected itself from losing its mission:</strong>
-        Tesla's entire life was shaped by the conviction that his vision of an energy supply
-        for the whole of humanity needed protection – his obsessive-compulsive disorder can
-        be read as the ever-stricter system with which he tried to maintain this protection,
-        until the system itself became isolation.</p>
+        <p class="vb-intro"><strong>a) A mind that protected its work from being lost:</strong>
+        Tesla&rsquo;s whole life was marked by the conviction that his work needed protection and that hardly anyone understood it as he did – his obsessive-compulsive disorder can be read as the ever stricter system with which he tried to maintain this protection, until the system itself became isolation.</p>
         <p class="vb-intro"><strong>b) Control over his environment as a substitute for control over closeness:</strong>
         A man who explicitly described intimate human closeness as a threat to his
         concentration instead developed an ever more detailed control over his physical
         environment – numbers, germs, rituals – that promised exactly the security human
         relationships could not offer him.</p>
         <p class="vb-intro"><strong>c) Why contact with the outside world, of all things?</strong>
-        For a Social Seven with Six-wing whose entire strength rested on a mission for
-        humanity as a whole, one interpretation suggests itself: precisely direct physical
-        contact with the outside world – doorknobs, handshakes, other people – became the
-        site of fear, while his inner, self-constructed world of thought remained the only
-        place he felt completely safe. This interpretation is a plausible reading, not a
-        documented historical causal link, and is developed further in this Compass's
-        psychosomatics register.</p>
+        For a self-preservation Four with a Five-wing, who carries feeling inward and orders the world through thought and systems, one interpretation suggests itself: precisely direct physical contact with the outside world – doorknobs, handshakes, other people – became the stage of fear, while the inner, self-constructed world of thought remained the only place where he felt completely safe. This is a plausible reading, not a documented historical causal link. It is covered in more detail in this Compass&rsquo;s Psychosomatics Register.</p>
         <p class="vb-intro"><strong>d) Placing this without determinism:</strong>
-        This does not mean the pattern of the Social Seven inevitably leads to
-        obsessive-compulsive disorder – <strong>anyone can develop any illness, regardless of
-        subtype.</strong> What Tesla's case shows is a pattern in how a pronounced Social
-        Seven with Six-wing, under chronic stress, repeatedly deals with progressive
-        psychological isolation – one possible reading among many, not a verdict. The illness has its own entry in this Compass's Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/zwangsstoerung_ocd">Obsessive-Compulsive Disorder (OCD)</a>.</p>
+        This does not mean the pattern of the self-preservation Four inevitably leads to obsessive-compulsive disorder – <strong>anyone can develop any illness, regardless of subtype.</strong> What Tesla&rsquo;s case can show is a pattern in dealing with progressive psychological isolation that a pronounced self-preservation Four with a Five-wing, under chronic stress, repeatedly shows – one possible reading among many, not a verdict. The illness has its own entry in this Compass&rsquo;s Psychosomatics Register: <a href="javascript:void(0)" data-route="psychosomatik/zwangsstoerung_ocd">Obsessive-Compulsive Disorder (OCD)</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
-        Tesla did not know his own pattern – Social Seven with Six-wing reflexively defends
-        its own mission against any disruption experienced as threatening, rather than ever
-        recognizing its own isolation as a pattern, and he lived out exactly this pattern
-        unchanged until his lonely death. Whoever does not recognize their own need to
-        protect their mission at any cost as a pattern cannot set it aside even in the face
-        of their own loneliness.</p>
+        Tesla did not know his own pattern – the self-preservation Four with a Five-wing reflexively carries its burden on quietly and shields the inner life from every disturbance it experiences as threatening, instead of ever recognising its own isolation as a pattern, and exactly this pattern he lived out unchanged until his lonely death. Whoever does not recognise the tendency to endure suffering and avoid closeness as a pattern cannot put it down even in the face of loneliness.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        Social Seven with Six-wing explains much about the course of
-        <strong>Tesla's</strong> own illness: a man whose entire strength rested on a mission
-        for the whole of humanity defended that mission so consistently that in the end no
-        one could get close enough – the beaver that wanted to give unlimited energy to all
-        of humanity, and whose own heart in the end depended on a single bird.</p>
+        The self-preservation Four with a Five-wing explains much about the course of <strong>Tesla</strong>&rsquo;s own illness: a man who carried his feeling and his vision quietly and tenaciously protected both so consistently that in the end no one could get close enough. In the end his heart hung on a single bird, the dove, which is also the animal of the self-preservation Four.</p>
       </div>
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6) – inventor"},
-        {route:"krankheitsportraets-moliere", label:"Illness Portrait: Molière (SO7w6) – same subtype"},
-        {route:"krankheitsportraets-george-gershwin", label:"Illness Portrait: George Gershwin (SO7w6) – same subtype, opposite course"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SP4w5) – inventor"},
+        {route:"krankheitsportraets-vincent-van-gogh", label:"Illness Portrait: Vincent van Gogh (SP4w5) – same subtype"},
+        {route:"krankheitsportraets-virginia-woolf", label:"Illness Portrait: Virginia Woolf (SP4w5) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
-        {route:"subtype/so7", label:"Subtype Profile SO7"},
+        {route:"subtype/se4", label:"Subtype Profile SP4"},
       ])}
     </div>
   `);

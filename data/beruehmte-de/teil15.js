@@ -2924,9 +2924,9 @@ export function johannLechnerPortraitPage() {
           <p class="vb-intro">Ob die Zähne und der Kiefer Ursache oder eher Ausdruck eines Ungleichgewichts im ganzen Menschen sind, wird unterschiedlich beurteilt. Dieser Kompass nimmt dazu keine Stellung und macht die Zähne nicht zur alleinigen Ursache von allem; er enthält keine Heilaussage und keine Therapieempfehlung. Wer gesundheitliche Fragen hat, sollte sich an die behandelnde Zahnärztin oder den behandelnden Arzt wenden. 2008 erhielt Lechner außerdem ein Patent für ein Verfahren zur berührungslosen Informationsübertragung.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Parallele im selben Subtyp: Nikola Tesla und Prof. Dr. John Ioannidis</h2>
+        <h2 class="vb-section">5. Verwandte Muster: Nikola Tesla und Prof. Dr. John Ioannidis</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="#beruehmte-nikola-tesla">Nikola Tesla (SO7w6)</a> verbindet mit Lechner die Lust an neuen Verfahren und Patenten und die Überzeugung, damit der Gemeinschaft zu dienen. Bei Tesla war es die Energie, bei Lechner der Kiefer.</p>
+          <p class="vb-intro"><a href="#beruehmte-nikola-tesla">Nikola Tesla (SE4w5)</a> verbindet mit Lechner die Lust an neuen Verfahren und Patenten, auch wenn er einem anderen Subtyp angehört. Bei Tesla war es die Energie, bei Lechner der Kiefer.</p>
           <p class="vb-intro"><a href="#beruehmte-john-ioannidis">Prof. Dr. John Ioannidis (SO7w6)</a> teilt mit ihm das Hinterfragen der Mehrheitsmeinung in der Medizin. Der Unterschied: Ioannidis prüft Studien mit den Methoden der Statistik, Lechner arbeitet in der Praxis.</p>
         </blockquote>
 
@@ -2951,7 +2951,7 @@ export function johannLechnerPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
         {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
-        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SE4w5)"},
         {route:"beruehmte-john-ioannidis", label:"Porträt: Prof. Dr. John Ioannidis (SO7w6)"},
         {route:"beruehmte-christian-drosten", label:"Porträt: Prof. Dr. Christian Drosten (SO7w6)"},
         {route:"enneagramm-zahnpsychosomatik", label:"Enneagramm meets Zahnpsychosomatik"},

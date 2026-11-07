@@ -2704,9 +2704,9 @@ export function adaLovelacePortraitPage() {
           <p class="vb-intro">Die Schattenseite liegt dort, wo das Bauen nie fertig wird und das Wagnis nicht mehr aufgefangen ist. Vieles blieb Plan, die Wetten hinterließen Schulden, und die Abhängigkeit von der Mutter blieb bis zum Ende. Ada Lovelace starb am 27. November 1852 im Alter von 36 Jahren in Marylebone in London an Gebärmutterhalskrebs, damals Gebärmutterkrebs genannt. Auf ihren Wunsch wurde sie neben ihrem Vater in Hucknall in Nottinghamshire beigesetzt.</p>
         </blockquote>
 
-        <h2 class="vb-section">7. Verwandte Muster: Tesla, Verne und Musk</h2>
+        <h2 class="vb-section">7. Verwandte Muster: Verne und Musk</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Verbindung aus Ideenreichtum, Dienst an einem größeren Ganzen und nie fertigem Bau zeigt sich bei <a href="javascript:void(0)" data-route="beruehmte-nikola-tesla">Nikola Tesla</a> (SO7w6), der Erfindungen für die Allgemeinheit entwarf, und bei <a href="javascript:void(0)" data-route="beruehmte-jules-verne">Jules Verne</a> (SO7w6), dessen Romane technische Zukunft vorwegnahmen, und bei <a href="javascript:void(0)" data-route="beruehmte-elon-musk">Elon Musk</a> (SO7w6), der Raketen, Elektroautos und immer neue Großvorhaben gleichzeitig vorantreibt. Als spätere Pionierin der Informatik steht <a href="javascript:void(0)" data-route="beruehmte-alan-turing">Alan Turing</a> (SX5w4) in diesem Kompass, ein anderer Typ mit ähnlichem Gegenstand, und <a href="javascript:void(0)" data-route="beruehmte-konrad-zuse">Konrad Zuse</a> (SE1w9) baute mit der Z3 später selbst einen programmierbaren Rechner.</p>
+          <p class="vb-intro">Die Verbindung aus Ideenreichtum, Dienst an einem größeren Ganzen und nie fertigem Bau zeigt sich bei <a href="javascript:void(0)" data-route="beruehmte-jules-verne">Jules Verne</a> (SO7w6), dessen Romane technische Zukunft vorwegnahmen, und bei <a href="javascript:void(0)" data-route="beruehmte-elon-musk">Elon Musk</a> (SO7w6), der Raketen, Elektroautos und immer neue Großvorhaben gleichzeitig vorantreibt. <a href="javascript:void(0)" data-route="beruehmte-nikola-tesla">Nikola Tesla</a> (SE4w5), dessen Namen Musks Firma trägt, teilt die Erfinderlust, gehört aber einem anderen Subtyp an: Er zog sich zurück, wo Musk die Bühne sucht. Als spätere Pionierin der Informatik steht <a href="javascript:void(0)" data-route="beruehmte-alan-turing">Alan Turing</a> (SX5w4) in diesem Kompass, ein anderer Typ mit ähnlichem Gegenstand, und <a href="javascript:void(0)" data-route="beruehmte-konrad-zuse">Konrad Zuse</a> (SE1w9) baute mit der Z3 später selbst einen programmierbaren Rechner.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
@@ -2717,7 +2717,7 @@ export function adaLovelacePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
         {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
-        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6) – derselbe Subtyp und Flügel"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SE4w5) – Namensgeber von Musks Firma"},
         {route:"beruehmte-jules-verne", label:"Porträt: Jules Verne (SO7w6) – derselbe Subtyp und Flügel"},
         {route:"beruehmte-elon-musk", label:"Porträt: Elon Musk (SO7w6) – derselbe Subtyp und Flügel"},
         {route:"beruehmte-alan-turing", label:"Porträt: Alan Turing (SX5w4) – Pionier der Informatik"},

@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2751", date: "2026-11-07", text: "Überarbeitet: Nikola Tesla – neu als selbsterhaltende Vier mit Fünferflügel (SE4w5) eingeordnet, in Berühmte Persönlichkeiten und im Krankheitsporträt.", text_en: "Revised: Nikola Tesla – now classified as self-preservation Four with a Five-wing (SP4w5), in Famous Personalities and in the illness portrait.", route: "beruehmte-nikola-tesla" },
     { version: "v2750", date: "2026-11-06", text: "Neues Porträt: Kida Khodr Ramadan (SE3w4) – Schauspieler und Regisseur (4 Blocks), der in Berlin sein Revier fand.", text_en: "New portrait: Kida Khodr Ramadan (SP3w4) – actor and director (4 Blocks) who found his territory in Berlin.", route: "beruehmte-kida-khodr-ramadan" },
     { version: "v2749", date: "2026-11-06", text: "Neues Porträt: Roland Trettl (SE3w2) – Koch, Kochbuchautor und Fernsehmoderator, der aus Können ein breites Angebot baut.", text_en: "New portrait: Roland Trettl (SP3w2) – chef, cookbook author and television host who builds a broad offering from skill.", route: "beruehmte-roland-trettl" },
     { version: "v2748", date: "2026-11-06", text: "Neues Porträt: Léa Bosco (SX6w7) – französische Schauspielerin, Regisseurin und Autorin, die Angst zum Spielfeld macht.", text_en: "New portrait: Léa Bosco (SP6w7) – French actress, director and author who turns fear into a playing field.", route: "beruehmte-lea-bosco" },
