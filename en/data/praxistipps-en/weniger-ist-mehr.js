@@ -21,7 +21,7 @@ export function wenigerIstMehrPage() {
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">1. What this is about</h2>
         <p class="vb-intro">Bach flowers and Schüßler salts are regarded as remedies one cannot overdose: &lsquo;It does no harm, you can take as much as you like.&rsquo; This tip wants to question exactly this attitude. Whoever keeps taking a remedy simply because it seems harmless overlooks that he is setting an impulse that needs time to work and to be observed.</p>
-        <p class="vb-intro" style="margin-top:.8rem;margin-bottom:0;">I have experienced this myself. For a long time I regularly took the Bach flowers of my Enneagram type because that is customary. When I once did so consistently over a few days, I noticed: I cannot go on. I now suspect that for years I supplied myself with them too often out of habit. This is an experience report and not a study, but it sharpened my attention.</p>
+        <p class="vb-intro" style="margin-top:.8rem;margin-bottom:0;">I have observed this for decades in my practice with my patients: less is more. One has to pay very close attention to how often and how long a remedy is taken. I have also experienced it myself when I once took the Bach flowers of my Enneagram type consistently over a few days and noticed: I cannot go on. This is experience from practice and not a study, but over many years it is the same again and again.</p>
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">2. The common core: information instead of substance</h2>
