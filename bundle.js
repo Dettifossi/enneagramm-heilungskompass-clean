@@ -63367,7 +63367,8 @@ function homoeopathiePage() {
         </div>` : ""}
         ${AFFILIATE_LINKS.homoeopathie[d.leidenschaftsMittel] ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml("homoeopathie", d.leidenschaftsMittel)}</div>` : ""}
         ${(!sameMittel && AFFILIATE_LINKS.homoeopathie[d.wundeMittel]) ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml("homoeopathie", d.wundeMittel)}</div>` : ""}
-        <p style="font-size:.8rem;color:var(--muted);font-style:italic;max-width:580px;">Anwendung nur in therapeutischer R\u00fccksprache. Die Zuordnungen gelten f\u00fcr den Kerntypus &ndash; im Einzelfall kommen je nach Fl\u00fcgel-, Stress- und Entspannungsrichtung weitere Mittel in Betracht.</p>
+        <div style="margin:1.25rem 0;padding:1rem 1.2rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);border-radius:8px;font-size:0.95rem;line-height:1.7;color:var(--anthracite);max-width:580px;margin-left:auto;margin-right:auto;"><strong>Weniger ist mehr.</strong> Typmittel sind keine Dauermedikation. Nach homöopathischem Verständnis setzen sie einen Impuls, der Zeit braucht: sparsam einsetzen, die Reaktion beobachten, bei Veränderung pausieren und sich begleiten lassen. <a href="javascript:void(0)" data-route="praxistipps-heilpraktiker/weniger-ist-mehr" style="color:var(--copper);font-weight:600;">Mehr dazu im Praxistipp</a></div>
+    <p style="font-size:.8rem;color:var(--muted);font-style:italic;max-width:580px;">Anwendung nur in therapeutischer R\u00fccksprache. Die Zuordnungen gelten f\u00fcr den Kerntypus &ndash; im Einzelfall kommen je nach Fl\u00fcgel-, Stress- und Entspannungsrichtung weitere Mittel in Betracht.</p>
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
           <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtyp-Detail &middot; Heilmittel-Kompass</p>
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
@@ -63421,6 +63422,7 @@ function homoeopathiePage() {
         </article>`;
       }).join("")}
     </section>
+    <div style="margin:1.25rem 0;padding:1rem 1.2rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);border-radius:8px;font-size:0.95rem;line-height:1.7;color:var(--anthracite);max-width:580px;margin-left:auto;margin-right:auto;"><strong>Weniger ist mehr.</strong> Typmittel sind keine Dauermedikation. Nach homöopathischem Verständnis setzen sie einen Impuls, der Zeit braucht: sparsam einsetzen, die Reaktion beobachten, bei Veränderung pausieren und sich begleiten lassen. <a href="javascript:void(0)" data-route="praxistipps-heilpraktiker/weniger-ist-mehr" style="color:var(--copper);font-weight:600;">Mehr dazu im Praxistipp</a></div>
     <p style="font-size:.8rem;color:var(--muted);font-style:italic;text-align:center;padding:0 1rem 2rem;max-width:580px;margin:0 auto;">Anwendung nur in therapeutischer R\u00fccksprache. Die Zuordnungen gelten f\u00fcr den Kerntypus.</p>
   `);
 }
@@ -63473,7 +63475,8 @@ function mineralstoffePage() {
         </div>` : ""}
         ${AFFILIATE_LINKS.schuessler[d.leidenschaftsSalz] ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml("schuessler", d.leidenschaftsSalz)}</div>` : ""}
         ${(!sameSalz && AFFILIATE_LINKS.schuessler[d.wundeSalz]) ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml("schuessler", d.wundeSalz)}</div>` : ""}
-        <p style="font-size:.8rem;color:var(--muted);font-style:italic;max-width:580px;">Anwendung nur in therapeutischer R&uuml;cksprache. Die Zuordnungen gelten f&uuml;r den Kerntypus &ndash; im Einzelfall kommen je nach Fl&uuml;gel-, Stress- und Entspannungsrichtung weitere Mittel in Betracht.</p>
+        <div style="margin:1.25rem 0;padding:1rem 1.2rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);border-radius:8px;font-size:0.95rem;line-height:1.7;color:var(--anthracite);max-width:580px;margin-left:auto;margin-right:auto;"><strong>Weniger ist mehr.</strong> Typmittel sind keine Dauermedikation. Nach homöopathischem Verständnis setzen sie einen Impuls, der Zeit braucht: sparsam einsetzen, die Reaktion beobachten, bei Veränderung pausieren und sich begleiten lassen. <a href="javascript:void(0)" data-route="praxistipps-heilpraktiker/weniger-ist-mehr" style="color:var(--copper);font-weight:600;">Mehr dazu im Praxistipp</a></div>
+    <p style="font-size:.8rem;color:var(--muted);font-style:italic;max-width:580px;">Anwendung nur in therapeutischer R&uuml;cksprache. Die Zuordnungen gelten f&uuml;r den Kerntypus &ndash; im Einzelfall kommen je nach Fl&uuml;gel-, Stress- und Entspannungsrichtung weitere Mittel in Betracht.</p>
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
           <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtyp-Detail &middot; Heilmittel-Kompass</p>
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
@@ -63530,6 +63533,7 @@ function mineralstoffePage() {
     <div style="max-width:580px;margin:0 auto;padding:0 1rem;">
       ${bookTip("enneagramm-biochemie", "Die neun Regulationsmuster des Enneagramms, verbunden mit den biochemischen Mineralsalzen nach Dr. Sch\u00fc\u00dfler \u2013 Orientierung f\u00fcr Therapeuten, Berater und interessierte Leser.", "Enneagramm-Biochemie")}
     </div>
+    <div style="margin:1.25rem 0;padding:1rem 1.2rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);border-radius:8px;font-size:0.95rem;line-height:1.7;color:var(--anthracite);max-width:580px;margin-left:auto;margin-right:auto;"><strong>Weniger ist mehr.</strong> Typmittel sind keine Dauermedikation. Nach homöopathischem Verständnis setzen sie einen Impuls, der Zeit braucht: sparsam einsetzen, die Reaktion beobachten, bei Veränderung pausieren und sich begleiten lassen. <a href="javascript:void(0)" data-route="praxistipps-heilpraktiker/weniger-ist-mehr" style="color:var(--copper);font-weight:600;">Mehr dazu im Praxistipp</a></div>
     <p style="font-size:.8rem;color:var(--muted);font-style:italic;text-align:center;padding:0 1rem 2rem;max-width:580px;margin:0 auto;">Anwendung nur in therapeutischer R&uuml;cksprache. Die Zuordnungen gelten f&uuml;r den Kerntypus.</p>
   `);
 }
@@ -63581,7 +63585,8 @@ function bachbluetenPage() {
         </div>` : ""}
         ${AFFILIATE_LINKS.bachbluete[d.leidenschaftsBl] ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml("bachbluete", d.leidenschaftsBl)}</div>` : ""}
         ${(!sameBl && AFFILIATE_LINKS.bachbluete[d.wundeBl]) ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml("bachbluete", d.wundeBl)}</div>` : ""}
-        <p style="font-size:.8rem;color:var(--muted);font-style:italic;max-width:580px;">Anwendung nur in therapeutischer R&uuml;cksprache. Die Zuordnungen gelten f&uuml;r den Kerntypus &ndash; im Einzelfall kommen je nach Fl&uuml;gel-, Stress- und Entspannungsrichtung weitere Mittel in Betracht.</p>
+        <div style="margin:1.25rem 0;padding:1rem 1.2rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);border-radius:8px;font-size:0.95rem;line-height:1.7;color:var(--anthracite);max-width:580px;margin-left:auto;margin-right:auto;"><strong>Weniger ist mehr.</strong> Typmittel sind keine Dauermedikation. Nach homöopathischem Verständnis setzen sie einen Impuls, der Zeit braucht: sparsam einsetzen, die Reaktion beobachten, bei Veränderung pausieren und sich begleiten lassen. <a href="javascript:void(0)" data-route="praxistipps-heilpraktiker/weniger-ist-mehr" style="color:var(--copper);font-weight:600;">Mehr dazu im Praxistipp</a></div>
+    <p style="font-size:.8rem;color:var(--muted);font-style:italic;max-width:580px;">Anwendung nur in therapeutischer R&uuml;cksprache. Die Zuordnungen gelten f&uuml;r den Kerntypus &ndash; im Einzelfall kommen je nach Fl&uuml;gel-, Stress- und Entspannungsrichtung weitere Mittel in Betracht.</p>
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
           <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtyp-Detail &middot; Heilmittel-Kompass</p>
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
@@ -63638,6 +63643,7 @@ function bachbluetenPage() {
     <div style="max-width:580px;margin:0 auto;padding:0 1rem;">
       ${bookTip("enneagramm-bachblueten-therapie", "Die neun Enneagrammtypen verbunden mit den Bachbl\u00fcten nach Dr. Edward Bach \u2013 Leidenschafts- und Wunden-Bl\u00fcten aus der therapeutischen Praxis.", "Enneagramm-Bachbl\u00fcten-Therapie")}
     </div>
+    <div style="margin:1.25rem 0;padding:1rem 1.2rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);border-radius:8px;font-size:0.95rem;line-height:1.7;color:var(--anthracite);max-width:580px;margin-left:auto;margin-right:auto;"><strong>Weniger ist mehr.</strong> Typmittel sind keine Dauermedikation. Nach homöopathischem Verständnis setzen sie einen Impuls, der Zeit braucht: sparsam einsetzen, die Reaktion beobachten, bei Veränderung pausieren und sich begleiten lassen. <a href="javascript:void(0)" data-route="praxistipps-heilpraktiker/weniger-ist-mehr" style="color:var(--copper);font-weight:600;">Mehr dazu im Praxistipp</a></div>
     <p style="font-size:.8rem;color:var(--muted);font-style:italic;text-align:center;padding:0 1rem 2rem;max-width:580px;margin:0 auto;">Anwendung nur in therapeutischer R&uuml;cksprache. Die Zuordnungen gelten f&uuml;r den Kerntypus.</p>
   `);
 }

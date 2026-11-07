@@ -43106,7 +43106,8 @@ function homoeopathiePage() {
         </div>` : ""}
         ${AFFILIATE_LINKS.homoeopathie[d.leidenschaftsMittel] ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml("homoeopathie", d.leidenschaftsMittel)}</div>` : ""}
         ${(!sameMittel && AFFILIATE_LINKS.homoeopathie[d.wundeMittel]) ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml("homoeopathie", d.wundeMittel)}</div>` : ""}
-        <p style="font-size:.8rem;color:var(--muted);font-style:italic;max-width:580px;">For use in therapeutic consultation only. The assignments apply to the core type – individual cases may call for additional remedies depending on wing, stress and integration direction.</p>
+        <div style="margin:1.25rem 0;padding:1rem 1.2rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);border-radius:8px;font-size:0.95rem;line-height:1.7;color:var(--anthracite);max-width:580px;margin-left:auto;margin-right:auto;"><strong>Less is more.</strong> Type remedies are not a permanent medication. In the homeopathic understanding they set an impulse that needs time: use sparingly, observe the reaction, pause at a change and accept guidance. <a href="javascript:void(0)" data-route="praxistipps-heilpraktiker/weniger-ist-mehr" style="color:var(--copper);font-weight:600;">More in the practice tip</a></div>
+    <p style="font-size:.8rem;color:var(--muted);font-style:italic;max-width:580px;">For use in therapeutic consultation only. The assignments apply to the core type – individual cases may call for additional remedies depending on wing, stress and integration direction.</p>
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
           <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtype Detail · Remedies Compass</p>
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
@@ -43160,6 +43161,7 @@ function homoeopathiePage() {
         </article>`;
       }).join("")}
     </section>
+    <div style="margin:1.25rem 0;padding:1rem 1.2rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);border-radius:8px;font-size:0.95rem;line-height:1.7;color:var(--anthracite);max-width:580px;margin-left:auto;margin-right:auto;"><strong>Less is more.</strong> Type remedies are not a permanent medication. In the homeopathic understanding they set an impulse that needs time: use sparingly, observe the reaction, pause at a change and accept guidance. <a href="javascript:void(0)" data-route="praxistipps-heilpraktiker/weniger-ist-mehr" style="color:var(--copper);font-weight:600;">More in the practice tip</a></div>
     <p style="font-size:.8rem;color:var(--muted);font-style:italic;text-align:center;padding:0 1rem 2rem;max-width:580px;margin:0 auto;">For use in therapeutic consultation only. The assignments apply to the core type.</p>
   `);
 }
@@ -43212,7 +43214,8 @@ function mineralstoffePage() {
         </div>` : ""}
         ${AFFILIATE_LINKS.schuessler[d.leidenschaftsSalz] ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml("schuessler", d.leidenschaftsSalz)}</div>` : ""}
         ${(!sameSalz && AFFILIATE_LINKS.schuessler[d.wundeSalz]) ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml("schuessler", d.wundeSalz)}</div>` : ""}
-        <p style="font-size:.8rem;color:var(--muted);font-style:italic;max-width:580px;">For use in therapeutic consultation only. The assignments apply to the core type – individual cases may call for additional remedies depending on wing, stress and integration direction.</p>
+        <div style="margin:1.25rem 0;padding:1rem 1.2rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);border-radius:8px;font-size:0.95rem;line-height:1.7;color:var(--anthracite);max-width:580px;margin-left:auto;margin-right:auto;"><strong>Less is more.</strong> Type remedies are not a permanent medication. In the homeopathic understanding they set an impulse that needs time: use sparingly, observe the reaction, pause at a change and accept guidance. <a href="javascript:void(0)" data-route="praxistipps-heilpraktiker/weniger-ist-mehr" style="color:var(--copper);font-weight:600;">More in the practice tip</a></div>
+    <p style="font-size:.8rem;color:var(--muted);font-style:italic;max-width:580px;">For use in therapeutic consultation only. The assignments apply to the core type – individual cases may call for additional remedies depending on wing, stress and integration direction.</p>
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
           <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtype Detail · Remedies Compass</p>
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
@@ -43269,6 +43272,7 @@ function mineralstoffePage() {
     <div style="max-width:580px;margin:0 auto;padding:0 1rem;">
       ${bookTip("enneagramm-biochemie", "The nine regulation patterns of the Enneagram, connected with the biochemical mineral salts according to Dr. Schüßler – guidance for therapists, counselors, and interested readers.", "Enneagramm-Biochemie")}
     </div>
+    <div style="margin:1.25rem 0;padding:1rem 1.2rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);border-radius:8px;font-size:0.95rem;line-height:1.7;color:var(--anthracite);max-width:580px;margin-left:auto;margin-right:auto;"><strong>Less is more.</strong> Type remedies are not a permanent medication. In the homeopathic understanding they set an impulse that needs time: use sparingly, observe the reaction, pause at a change and accept guidance. <a href="javascript:void(0)" data-route="praxistipps-heilpraktiker/weniger-ist-mehr" style="color:var(--copper);font-weight:600;">More in the practice tip</a></div>
     <p style="font-size:.8rem;color:var(--muted);font-style:italic;text-align:center;padding:0 1rem 2rem;max-width:580px;margin:0 auto;">For use in therapeutic consultation only. The assignments apply to the core type.</p>
   `);
 }
@@ -43320,7 +43324,8 @@ function bachbluetenPage() {
         </div>` : ""}
         ${AFFILIATE_LINKS.bachbluete[d.leidenschaftsBl] ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml("bachbluete", d.leidenschaftsBl)}</div>` : ""}
         ${(!sameBl && AFFILIATE_LINKS.bachbluete[d.wundeBl]) ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml("bachbluete", d.wundeBl)}</div>` : ""}
-        <p style="font-size:.8rem;color:var(--muted);font-style:italic;max-width:580px;">For use in therapeutic consultation only. The assignments apply to the core type – individual cases may call for additional remedies depending on wing, stress and integration direction.</p>
+        <div style="margin:1.25rem 0;padding:1rem 1.2rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);border-radius:8px;font-size:0.95rem;line-height:1.7;color:var(--anthracite);max-width:580px;margin-left:auto;margin-right:auto;"><strong>Less is more.</strong> Type remedies are not a permanent medication. In the homeopathic understanding they set an impulse that needs time: use sparingly, observe the reaction, pause at a change and accept guidance. <a href="javascript:void(0)" data-route="praxistipps-heilpraktiker/weniger-ist-mehr" style="color:var(--copper);font-weight:600;">More in the practice tip</a></div>
+    <p style="font-size:.8rem;color:var(--muted);font-style:italic;max-width:580px;">For use in therapeutic consultation only. The assignments apply to the core type – individual cases may call for additional remedies depending on wing, stress and integration direction.</p>
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
           <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtype Detail · Remedies Compass</p>
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
@@ -43377,6 +43382,7 @@ function bachbluetenPage() {
     <div style="max-width:580px;margin:0 auto;padding:0 1rem;">
       ${bookTip("enneagramm-bachblueten-therapie", "The nine Enneagram types connected with the Bach flowers according to Dr. Edward Bach – passion and wound flowers from therapeutic practice.", "Enneagramm-Bachblüten-Therapie")}
     </div>
+    <div style="margin:1.25rem 0;padding:1rem 1.2rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);border-radius:8px;font-size:0.95rem;line-height:1.7;color:var(--anthracite);max-width:580px;margin-left:auto;margin-right:auto;"><strong>Less is more.</strong> Type remedies are not a permanent medication. In the homeopathic understanding they set an impulse that needs time: use sparingly, observe the reaction, pause at a change and accept guidance. <a href="javascript:void(0)" data-route="praxistipps-heilpraktiker/weniger-ist-mehr" style="color:var(--copper);font-weight:600;">More in the practice tip</a></div>
     <p style="font-size:.8rem;color:var(--muted);font-style:italic;text-align:center;padding:0 1rem 2rem;max-width:580px;margin:0 auto;">For use in therapeutic consultation only. The assignments apply to the core type.</p>
   `);
 }
