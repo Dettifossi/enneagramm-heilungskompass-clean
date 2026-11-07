@@ -511,4 +511,5 @@ export const VERSTORBEN = new Set([
   "kriminalpsychologie-werner-gladow",
   "beruehmte-carmen-herrera",
   "beruehmte-harland-sanders",
+  "beruehmte-henri-rousseau",
 ]);

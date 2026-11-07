@@ -1,6 +1,6 @@
 // Schaubilder zum Weitergeben: Bild mit Markenband (JPEG) oder als PDF mit anklickbarem Link.
 // Erscheint nur auf Schaubild-Seiten mit genau einem Hauptbild. Wird erst bei Bedarf nachgeladen.
-import { pagesToPdf } from "./pdf-share.js?v=15";
+import { pagesToPdf } from "./pdf-share.js?v=16";
 import { drawQr } from "./qr-draw.js?v=1";
 
 const SITE = "https://kompass.verlagshausrathmer.com";

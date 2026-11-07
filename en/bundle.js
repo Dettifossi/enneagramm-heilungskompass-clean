@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=490";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=491";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -562,6 +562,7 @@ const tELawrencePortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", 
 const lisaKauffPortraitPage = () => _lazyPage("./data/beruehmte-en/teil17.js", "lisaKauffPortraitPage");
 const mariaHasbolatPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "mariaHasbolatPortraitPage");
 const leonieBeneschPortraitPage = () => _lazyPage("./data/beruehmte-en/teil2.js", "leonieBeneschPortraitPage");
+const henriRousseauPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "henriRousseauPortraitPage");
 const harlandSandersPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "harlandSandersPortraitPage");
 const carmenHerreraPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "carmenHerreraPortraitPage");
 const stevenKruegerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "stevenKruegerPortraitPage");
@@ -1922,6 +1923,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonie Benesch \u2013 Self-Preservation Type 4",
     teaser:"SP4w3 \u00b7 b. 1991 in Hamburg. Actress, \u2018The Teachers\u2019 Lounge\u2019, \u2018Late Shift\u2019, \u2018Babylon Berlin\u2019. The dove who makes pressure visible without big gestures. Animal correspondence: Dove.",
     land:"Germany", tags:["Acting"], gender:"f"},
+{ route:"beruehmte-henri-rousseau", name:"Henri Rousseau", added:"2026-11-07", subtyp:"SX9w1",
+    heading:"Henri Rousseau \u2013 Sexual Type 9",
+    teaser:"SX9w1 \u00b7 1844\u20131910. Painter (Le Douanier), a toll clerk who began to paint in his early forties and held his style despite ridicule. The sloth that hangs on to one thing. Animal correspondence: Sloth.",
+    land:"France", tags:["Art"], gender:"m"},
 { route:"beruehmte-harland-sanders", name:"Harland Sanders", added:"2026-11-07", subtyp:"SX8w7",
     heading:"Harland Sanders \u2013 Sexual Type 8",
     teaser:"SX8w7 \u00b7 1890\u20131980. Founder of Kentucky Fried Chicken, practically started over at 65, sold the company at 73 for 2 million dollars. The crocodile that waits long and then strikes. Animal correspondence: Crocodile.",
@@ -48516,7 +48521,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-pamela-reif": pamelaReifPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-phil-collins": philCollinsPortraitPage,
-      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-lea-bosco": leaBoscoPortraitPage, "beruehmte-roland-trettl": rolandTrettlPortraitPage, "beruehmte-kida-khodr-ramadan": kidaKhodrRamadanPortraitPage, "beruehmte-maryam-zaree": maryamZareePortraitPage, "beruehmte-rauand-taleb": rauandTalebPortraitPage, "beruehmte-steven-krueger": stevenKruegerPortraitPage, "beruehmte-carmen-herrera": carmenHerreraPortraitPage, "beruehmte-harland-sanders": harlandSandersPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
+      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-lea-bosco": leaBoscoPortraitPage, "beruehmte-roland-trettl": rolandTrettlPortraitPage, "beruehmte-kida-khodr-ramadan": kidaKhodrRamadanPortraitPage, "beruehmte-maryam-zaree": maryamZareePortraitPage, "beruehmte-rauand-taleb": rauandTalebPortraitPage, "beruehmte-steven-krueger": stevenKruegerPortraitPage, "beruehmte-carmen-herrera": carmenHerreraPortraitPage, "beruehmte-harland-sanders": harlandSandersPortraitPage, "beruehmte-henri-rousseau": henriRousseauPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
       "beruehmte-harald-v": haraldVPortraitPage,
       "beruehmte-carl-xvi-gustaf": carlXVIGustafPortraitPage,
       "beruehmte-johannes-paul-ii": johannesPaulIIPortraitPage,
@@ -49954,13 +49959,13 @@ new MutationObserver(() => _suchX(document)).observe(document.body, { childList:
 let _pdfMod = null;
 function _pdfMount() {
   if (!document.querySelector('.krim-portrait-wrap:not([data-pdf])')) return;
-  (_pdfMod || (_pdfMod = import("../data/pdf-share.js?v=15"))).then(m => m.mountPdfButton("en")).catch(() => {});
+  (_pdfMod || (_pdfMod = import("../data/pdf-share.js?v=16"))).then(m => m.mountPdfButton("en")).catch(() => {});
 }
 let _sbMod = null;
 function _sbMount() {
   const e = document.querySelector(".eyebrow:not([data-sbs])");
   if (!e || !/^(Schaubild|Chart|Diagram)/i.test(e.textContent.trim())) return;
-  (_sbMod || (_sbMod = import("../data/schaubild-share.js?v=10"))).then(m => m.mountSchaubildButtons("en")).catch(() => {});
+  (_sbMod || (_sbMod = import("../data/schaubild-share.js?v=11"))).then(m => m.mountSchaubildButtons("en")).catch(() => {});
 }
 let _rsMod = null;
 function _rsMount() {

@@ -3841,3 +3841,70 @@ export function harlandSandersPortraitPage() {
     </div>
   `);
 }
+
+export function henriRousseauPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-henri-rousseau-portrait.jpg" alt="Henri Rousseau – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-henri-rousseau-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Henri Rousseau</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">Painter (Le Douanier), 1844&ndash;1910 &ndash; Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Sloth from the edge of Paris</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sloth</strong> seems sluggish and is in truth sparing with its strength: it hangs on to one thing and does not let go. Henri Rousseau was born on 21 May 1844 in Laval in the département of Mayenne into a family of plumbers. He served four years in the army and after his father&rsquo;s death moved to Paris to support his widowed mother as an employee. In 1868 he married Clémence Boitard; the couple had six children. In 1871 he became an official at the Paris city toll, the octroi, and remained one for over two decades. Hence his nickname &lsquo;Le Douanier&rsquo; (&lsquo;the customs officer&rsquo;).</p>
+          <p class="vb-intro">He had no training as a painter, no studio and no teacher to promote him. According to the usual accounts he began to paint seriously around 1885, in his early forties, on the side, after work and at weekends.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Nine: the one devotion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Nine (SX9)</strong> does not merge with a group but with a single work, creature or style. With Rousseau it was his own unmistakable way of painting. From 1886 he exhibited at the Salon des Indépendants, a jury-free exhibition anyone could visit, and stayed loyal to that stage. His career followed no plan; it expanded slowly and unforced over decades, as the Life Pattern Compass describes for this subtype.</p>
+          <p class="vb-intro">The fingerprint of the biographical break fits too: in 1888 his first wife Clémence died, in 1893 he retired, moved to Montparnasse and from then on painted full-time. The devotion that had been a sideline became his life&rsquo;s purpose.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-wing: earnestness, honesty, exactness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the Nine earnestness and the need to do things right. Rousseau took himself and his painting completely seriously. That critics ridiculed his flat, seemingly childlike manner of painting bounced off him. Several scholars assume he often took sarcastic remarks for praise. This is the composure of the Nine, which does not fight but carries on, combined with the honesty of the One, which feels in the right without having to prove it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: jungle without a journey</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What made Rousseau unique is a pictorial style that had not existed before: flat, without perspective, every leaf set individually, of a childlike-seeming clarity that is at the same time uncompromisingly exact. The painter Félix Vallotton praised the picture <em>Tiger in a Tropical Storm (Surprised!)</em> of 1891. In 1897 came <em>The Sleeping Gypsy</em>, in 1905 he showed at the Salon <em>The Hungry Lion Throws Itself on the Antelope</em>, in 1907 followed the commission for <em>The Snake Charmer</em>, and his last picture <em>The Dream</em> was shown in March 1910. He painted his jungles without ever having been in the tropics: from imagination, magazine pictures and visits to the botanical garden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is the steadfastness with which Rousseau kept painting for decades although hardly anyone took him seriously. The shadow of the Nine lies in the trust that sees no danger. In 1907 he got caught up in a bank fraud: he is said to have obtained cheques under a false identity and tried to withdraw 21,000 francs. Whether he was deceived by an acquaintance or took part knowingly is unclear according to the sources. By one account he was convicted of complicity in 1909, but the sentence was suspended because of his age and his apparent failure to understand his own role. The Barnes Foundation reports that at the trial his pictures were shown as evidence of his innocence. The typing remains an interpretation, no judgement of his character.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-diego-velazquez">Diego Velázquez (SX9w1)</a> was likewise a painter in whom motif, painter and viewer flow into one another; his path, however, ran through the court and a striving for rank that was foreign to Rousseau. <a href="#beruehmte-janosch">Janosch (SX9w1)</a> found, like Rousseau, an unmistakable, childlike-clear pictorial style and stayed true to it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. From ridicule to banquet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In November 1908 Pablo Picasso gave the &lsquo;Banquet Rousseau&rsquo; in his studio, attended among others by Guillaume Apollinaire, Max Jacob and Marie Laurencin. It had something of a joke about it and yet introduced Rousseau to the Parisian avant-garde. Henri Rousseau died on 2 September 1910 in Paris after an operation for gangrene and a blood clot. His work later influenced Picasso and the Surrealists, and the smile of the critics of the time turned around.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
+        {route:"lebensmusterkompass/sx9", label:"Life Pattern Compass: SX9 – Sloth"},
+        {route:"beruehmte-diego-velazquez", label:"Portrait: Diego Velázquez (SX9w1)"},
+        {route:"beruehmte-janosch", label:"Portrait: Janosch (SX9w1)"},
+      ])}
+    </div>
+  `);
+}

@@ -3820,3 +3820,70 @@ export function harlandSandersPortraitPage() {
     </div>
   `);
 }
+
+export function henriRousseauPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-henri-rousseau-portrait.jpg" alt="Henri Rousseau – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-henri-rousseau-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Henri Rousseau</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Maler (Le Douanier), 1844&ndash;1910 &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier vom Stadtrand von Paris</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> wirkt träge und ist in Wahrheit sparsam mit seiner Kraft: Es hängt sich an eine Sache und lässt sie nicht mehr los. Henri Rousseau wurde am 21. Mai 1844 in Laval im Département Mayenne in einer Klempnerfamilie geboren. Er diente vier Jahre beim Militär und zog nach dem Tod seines Vaters nach Paris, um die verwitwete Mutter als Angestellter zu unterstützen. 1868 heiratete er Clémence Boitard, das Paar hatte sechs Kinder. 1871 wurde er Beamter am Pariser Stadtzoll, dem octroi, und blieb es über zwei Jahrzehnte. Daher kam sein Spitzname ›Le Douanier‹ (›der Zöllner‹).</p>
+          <p class="vb-intro">Er hatte keine Ausbildung zum Maler, kein Atelier und keinen Lehrer, der ihn förderte. Nach den üblichen Darstellungen begann er um 1885, mit Anfang vierzig, ernsthaft zu malen, nebenher, nach dem Dienst und am Wochenende.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der sexuelle Neuner: die eine Hingabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>sexuelle Neuner (SX9)</strong> verschmilzt nicht mit einer Gruppe, sondern mit einem einzelnen Werk, Wesen oder Stil. Bei Rousseau war es seine eigene, unverwechselbare Malweise. Seit 1886 stellte er im Salon des Indépendants aus, einer Ausstellung ohne Jury, die jeder besuchen durfte, und blieb dieser Bühne treu. Seine Karriere folgte keinem Plan, sie dehnte sich langsam und unforciert über Jahrzehnte aus, so wie es der Lebensmusterkompass für diesen Subtyp beschreibt.</p>
+          <p class="vb-intro">Auch der Fingerabdruck der biografischen Zäsur passt: 1888 starb seine erste Frau Clémence, 1893 ließ er sich pensionieren, zog nach Montparnasse und malte von da an hauptberuflich. Die Hingabe, die vorher ein Nebenher war, wurde zum Lebensinhalt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Ernst, Redlichkeit, Genauigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der Neun Ernsthaftigkeit und das Bedürfnis, etwas richtig zu machen. Rousseau nahm sich und seine Malerei vollkommen ernst. Dass die Kritiker seine flache, scheinbar kindliche Malweise verspotteten, prallte an ihm ab. Mehrere Forscher nehmen an, dass er sarkastische Bemerkungen oft für Lob hielt. Das ist die Gelassenheit der Neun, die nicht kämpft, sondern weitermacht, verbunden mit der Redlichkeit der Eins, die sich im Recht fühlt, ohne es beweisen zu müssen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Dschungel ohne Reise</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Rousseau einzigartig machte, ist ein Bildstil, den es vorher nicht gab: flächig, ohne Perspektive, mit jedem Blatt einzeln gesetzt, von einer kindlich wirkenden Klarheit, die zugleich kompromisslos genau ist. Das Bild <em>Tiger in a Tropical Storm (Surprised!)</em> (›Tiger im tropischen Sturm (Überrascht!)‹) von 1891 lobte der Maler Félix Vallotton. 1897 entstand <em>The Sleeping Gypsy</em> (›Die schlafende Zigeunerin‹), 1905 zeigte er im Salon <em>The Hungry Lion Throws Itself on the Antelope</em> (›Der hungrige Löwe stürzt sich auf die Antilope‹), 1907 folgte der Auftrag für <em>The Snake Charmer</em> (›Die Schlangenbeschwörerin‹), sein letztes Bild <em>The Dream</em> (›Der Traum‹) wurde im März 1910 gezeigt. Seine Dschungel malte er, ohne je in den Tropen gewesen zu sein: aus Fantasie, Zeitschriftenbildern und Besuchen im Botanischen Garten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist die Unbeirrbarkeit, mit der Rousseau über Jahrzehnte weitermalte, obwohl ihn kaum jemand ernst nahm. Der Schatten der Neun liegt im Vertrauen, das keine Gefahr sieht. 1907 geriet er in einen Bankbetrug: Er soll unter falscher Identität Schecks besorgt und versucht haben, 21.000 Francs abzuheben. Ob er von einem Bekannten getäuscht wurde oder bewusst mitmachte, ist nach den Quellen unklar. Nach einer Darstellung wurde er 1909 wegen Beihilfe verurteilt, die Strafe aber wegen seines Alters und seines offenbaren Unverständnisses für die eigene Rolle zur Bewährung ausgesetzt. Die Barnes Foundation berichtet, im Prozess seien seine Bilder als Beleg seiner Unschuld vorgezeigt worden. Die Typisierung bleibt eine Deutung, kein Urteil über seinen Charakter.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-diego-velazquez">Diego Velázquez (SX9w1)</a> war ebenfalls ein Maler, bei dem Motiv, Maler und Betrachter ineinanderfließen; sein Weg verlief aber über den Hof und ein Standesstreben, das Rousseau fremd war. <a href="#beruehmte-janosch">Janosch (SX9w1)</a> fand wie Rousseau einen unverwechselbaren, kindlich klaren Bildstil und blieb ihm treu.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Vom Spott zum Bankett</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im November 1908 gab Pablo Picasso in seinem Atelier das ›Banquet Rousseau‹, zu dem unter anderen Guillaume Apollinaire, Max Jacob und Marie Laurencin kamen. Es hatte etwas von einem Scherz und führte Rousseau doch in die Pariser Avantgarde ein. Henri Rousseau starb am 2. September 1910 in Paris nach einer Operation wegen Wundbrands und eines Blutgerinnsels. Sein Werk beeinflusste später Picasso und die Surrealisten, und das Lächeln der Kritiker von damals kehrte sich um.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx9", label:"Lebensmusterkompass: SX9 – Faultier"},
+        {route:"beruehmte-diego-velazquez", label:"Porträt: Diego Velázquez (SX9w1)"},
+        {route:"beruehmte-janosch", label:"Porträt: Janosch (SX9w1)"},
+      ])}
+    </div>
+  `);
+}

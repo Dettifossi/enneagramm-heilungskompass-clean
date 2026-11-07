@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2757", date: "2026-11-07", text: "Neues Porträt: Henri Rousseau (SX9w1) – Maler (Le Douanier), der mit Anfang vierzig zu malen begann und trotz Spott seinen Stil hielt.", text_en: "New portrait: Henri Rousseau (SX9w1) – painter (Le Douanier) who began to paint in his early forties and held his style despite ridicule.", route: "beruehmte-henri-rousseau" },
     { version: "v2756", date: "2026-11-07", text: "Neues Porträt: Harland Sanders (SX8w7) – Gründer von Kentucky Fried Chicken, der mit 65 praktisch neu anfing.", text_en: "New portrait: Harland Sanders (SX8w7) – founder of Kentucky Fried Chicken who practically started over at 65.", route: "beruehmte-harland-sanders" },
     { version: "v2755", date: "2026-11-07", text: "Neues Porträt: Carmen Herrera (SE1w9) – Malerin, die über sieben Jahrzehnte weitermalte, ehe die Kunstwelt sie entdeckte.", text_en: "New portrait: Carmen Herrera (SP1w9) – painter who kept painting for seven decades before the art world discovered her.", route: "beruehmte-carmen-herrera" },
     { version: "v2754", date: "2026-11-07", text: "Neues Porträt: Steven Krueger (SE3w2) – Schauspieler (The Originals, Yellowjackets), der in der zweiten Reihe glänzt.", text_en: "New portrait: Steven Krueger (SP3w2) – actor (The Originals, Yellowjackets) who shines in the second row.", route: "beruehmte-steven-krueger" },
