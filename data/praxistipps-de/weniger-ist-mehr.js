@@ -39,7 +39,7 @@ export function wenigerIstMehrPage() {
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">5. Typmittel sind keine Nahrungsergänzung</h2>
-        <p class="vb-intro">Im Enneagramm sind jedem Typ Mittel zugeordnet: eine Bachblüte, ein Schüßler-Salz, ein homöopathisches Mittel. Das beschreibt ein Muster. Es ist keine Verordnung und kein Dauerprogramm. Wer sein Typmittel jeden Tag wie ein Vitamin nimmt, setzt immer denselben Impuls und lernt nicht, wann er etwas bewirkt und wann nicht mehr.</p>
+        <p class="vb-intro">Das Enneagramm selbst ordnet keinem Typ Mittel zu. Erst die Enneagramm-Heilkunst hat Mittel mit den Typen verbunden: zuerst Dr. Peter Hegemann mit der Enneagramm-Homöopathie, danach in den Forschungen der letzten dreißig Jahre durch den Autor die Enneagramm-Bachblütentherapie und die Enneagramm-Biochemie, die Schüßler-Salze nach dem Enneagramm. Das beschreibt Muster, die in der Praxis hilfreich sein können. Es ist keine Verordnung und kein Dauerprogramm. Wer sein Typmittel jeden Tag wie ein Vitamin nimmt, setzt immer denselben Impuls und lernt nicht, wann er etwas bewirkt und wann nicht mehr.</p>
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">6. Sensibilität im Alltag: weniger ist mehr</h2>
@@ -62,6 +62,7 @@ export function wenigerIstMehrPage() {
       <div style="margin-top:1.6rem;">
         ${bookTip("enneagramm-bachblueten-therapie", "Die neun Enneagrammtypen verbunden mit den Bachblüten nach Dr. Edward Bach – Leidenschafts- und Wunden-Blüten aus der therapeutischen Praxis.", "Enneagramm-Bachblüten-Therapie")}
         <div style="margin-top:.8rem;">${bookTip("enneagramm-homoeopathie-band-1", "Die Grundlage der Enneagramm-Homöopathie – wie Persönlichkeitstyp und Heilmittelwahl zusammenhängen, auch für Laien gut verständlich.", "Enneagramm-Homöopathie – Band 1")}</div>
+        <div style="margin-top:.8rem;">${bookTip("enneagramm-biochemie", "Die neun Regulationsmuster des Enneagramms, verbunden mit den biochemischen Mineralsalzen nach Dr. Schüßler – auch für Laien gut verständlich.", "Enneagramm-Biochemie")}</div>
       </div>
 
       ${relatedLinks([

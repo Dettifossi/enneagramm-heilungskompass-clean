@@ -39,7 +39,7 @@ export function wenigerIstMehrPage() {
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">5. Type remedies are not dietary supplements</h2>
-        <p class="vb-intro">In the Enneagram each type is assigned remedies: a Bach flower, a Schüßler salt, a homeopathic remedy. This describes a pattern. It is no prescription and no permanent programme. Whoever takes his type remedy every day like a vitamin always sets the same impulse and does not learn when it does something and when no longer.</p>
+        <p class="vb-intro">The Enneagram itself assigns no remedies to any type. It was Enneagram healing art that first connected remedies with the types: first Dr. Peter Hegemann with Enneagram Homeopathy, then in the research of the last thirty years by the author Enneagram Bach Flower Therapy and Enneagram Biochemistry, the Schüßler salts according to the Enneagram. This describes patterns that can be helpful in practice. It is no prescription and no permanent programme. Whoever takes his type remedy every day like a vitamin always sets the same impulse and does not learn when it does something and when no longer.</p>
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">6. Sensitivity in everyday life: less is more</h2>
@@ -62,6 +62,7 @@ export function wenigerIstMehrPage() {
       <div style="margin-top:1.6rem;">
         ${bookTip("enneagramm-bachblueten-therapie", "The nine Enneagram types connected with the Bach flowers according to Dr. Edward Bach – passion and wound flowers from therapeutic practice.", "Enneagramm-Bachblüten-Therapie")}
         <div style="margin-top:.8rem;">${bookTip("enneagramm-homoeopathie-band-1", "The foundation of Enneagram-Homeopathy – how personality type and remedy selection are connected, accessible for lay readers as well.", "Enneagramm-Homöopathie – Band 1")}</div>
+        <div style="margin-top:.8rem;">${bookTip("enneagramm-biochemie", "The nine regulation patterns of the Enneagram, connected with the biochemical mineral salts according to Dr. Schüßler – accessible for lay readers as well.", "Enneagramm-Biochemie")}</div>
       </div>
 
       ${relatedLinks([
