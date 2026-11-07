@@ -10,7 +10,7 @@ export function wenigerIstMehrPage() {
       <p class="lead-small">Bachblüten, Schüßler-Salze und homöopathische Mittel gelten als sanft und harmlos, deshalb wird oft viel und lange eingenommen. Dieser Tipp möchte sensibilisieren: Wer mit Impulsen arbeitet, braucht Beobachtung und Geduld, nicht Menge.</p>
 
       <div class="psycho-img-wrap" style="margin-top:1rem;">
-        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/weniger-ist-mehr/weniger-ist-mehr.jpg" alt="Illustration: Links ein Bach im Wald mit Glasflaschen, in der Mitte eine Blumenwiese mit einer Glasschale und goldenen Tropfen, rechts eine Felswand mit Mineralkristallen im Licht der aufgehenden Sonne" class="psycho-img" loading="lazy" />
+        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/weniger-ist-mehr/weniger-ist-mehr-2.jpg" alt="Illustration: Links ein Bach im Wald mit Glasflaschen, in der Mitte eine Blumenwiese mit einer Glasschale und goldenen Tropfen, rechts eine Felswand mit Mineralkristallen im Licht der aufgehenden Sonne" class="psycho-img" loading="lazy" />
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">

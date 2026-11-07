@@ -10,7 +10,7 @@ export function wenigerIstMehrPage() {
       <p class="lead-small">Bach flowers, Schüßler salts and homeopathic remedies are considered gentle and harmless, so they are often taken a lot and for long. This tip wants to raise awareness: whoever works with impulses needs observation and patience, not quantity.</p>
 
       <div class="psycho-img-wrap" style="margin-top:1rem;">
-        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/weniger-ist-mehr/weniger-ist-mehr.jpg" alt="Illustration: on the left a stream in the forest with glass bottles, in the middle a flower meadow with a glass bowl and golden drops, on the right a rock face with mineral crystals in the light of the rising sun" class="psycho-img" loading="lazy" />
+        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/weniger-ist-mehr/weniger-ist-mehr-2.jpg" alt="Illustration: on the left a stream in the forest with glass bottles, in the middle a flower meadow with a glass bowl and golden drops, on the right a rock face with mineral crystals in the light of the rising sun" class="psycho-img" loading="lazy" />
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
