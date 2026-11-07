@@ -2460,7 +2460,7 @@ export function nikolaTeslaKrankheitsportraetPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
         <p class="vb-intro"><strong>a) The vision carried into complete isolation:</strong>
-        The same tenacity with which Tesla held to his vision of free energy supply determined how completely he cut himself off from all human closeness in the end – SP4 carries its burden quietly and persistently, even when the price is its own connection to the world.</p>
+        The same tenacity with which Tesla held to his vision of free energy supply determined how completely he cut himself off from all human closeness in the end – SP4 carries its burden quietly and persistently, even when the price is its own connection to the world. Asking for help contradicts this Four's self-image: coping alone is part of its identity.</p>
         <p class="vb-intro"><strong>b) The Five-wing and the system as a final refuge:</strong>
         His compulsive behaviors – the counting, the divisibility by three, the avoidance of germs – were no random quirks but an ever more tightly meshed system for controlling a world that felt increasingly threatening to him. Where a healthy Five-wing turns withdrawal into concentrated expertise and independence, in Tesla the system of numbers and cleanliness itself became the only reliable hold.</p>
         <p class="vb-intro"><strong>c) A single bond instead of many relationships:</strong>

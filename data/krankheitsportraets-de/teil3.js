@@ -2522,7 +2522,7 @@ export function nikolaTeslaKrankheitsportraetPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
         <p class="vb-intro"><strong>a) Die Vision bis zur völligen Isolation getragen:</strong>
-        Dieselbe Zähigkeit, mit der Tesla an seiner Vision einer kostenlosen Energieversorgung festhielt, bestimmte auch, wie vollständig er sich am Ende von jeder menschlichen Nähe abschnitt – die SE4 trägt ihre Last still und beharrlich weiter, auch wenn der Preis die eigene Verbindung zur Welt ist.</p>
+        Dieselbe Zähigkeit, mit der Tesla an seiner Vision einer kostenlosen Energieversorgung festhielt, bestimmte auch, wie vollständig er sich am Ende von jeder menschlichen Nähe abschnitt – die SE4 trägt ihre Last still und beharrlich weiter, auch wenn der Preis die eigene Verbindung zur Welt ist. Um Hilfe zu bitten widerspricht dem Selbstbild dieser Vier: Allein zurechtzukommen gehört zu ihrer Identität.</p>
         <p class="vb-intro"><strong>b) Der Fünferflügel und das System als letzter Schutzraum:</strong>
         Seine Zwangshandlungen – das Zählen, die Teilbarkeit durch drei, die Keimvermeidung – waren keine zufälligen Marotten, sondern ein immer engmaschigeres System zur Kontrolle einer Welt, die für ihn zunehmend bedrohlich wurde. Wo der gesunde Fünferflügel Rückzug in konzentrierte Sachkenntnis und Unabhängigkeit verwandelt, wurde bei Tesla das System aus Zahlen und Reinheit selbst zum einzigen verlässlichen Halt.</p>
         <p class="vb-intro"><strong>c) Eine einzelne Bindung statt vieler Beziehungen:</strong>
