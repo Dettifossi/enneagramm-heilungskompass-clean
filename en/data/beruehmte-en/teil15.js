@@ -3567,3 +3567,73 @@ export function maryamZareePortraitPage() {
     </div>
   `);
 }
+
+export function rauandTalebPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-rauand-taleb-portrait.jpg" alt="Rauand Taleb – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-rauand-taleb-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Rauand Taleb</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Social Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Actor, born 1992 in Sulaymaniyah (Iraq) &ndash; Animal correspondence: Cheetah</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Cheetah from Sulaymaniyah</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>cheetah</strong> hunts not from strength but from speed and daring: it accelerates over a short distance and decides the moment. Rauand Taleb was born on 20 February 1992 in Sulaymaniyah in the Autonomous Region of Kurdistan in Iraq. In 1998 his family fled to Germany and applied for asylum there.</p>
+          <p class="vb-intro">From 2010 to 2013 he attended the Neue Schauspielschule Nürnberg. Already then he stood out: in 2012 there was an award at the Bavarian Youth Film Festival, and in 2014, aged 22, he sat on the jury of the German Human Rights Film Prize. On stage he worked, among others, at the Tafelhalle Nürnberg, the Theater am Kurfürstendamm and the Deutsche Oper Berlin.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Three: the visible leap</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Three (SO3)</strong> lives from the image others have of it and from the moment in which something is decided. Taleb&rsquo;s path can be read this way: from 2015 he appeared in several <em>Tatort</em> episodes (2015, 2017, 2018, 2019), in 2018 and 2019 he was part of the ensemble of <em>4 Blocks</em> across three seasons, and in 2020 he received the German Actors&rsquo; Award for best supporting actor for that series. Each of these steps was publicly visible, and none needed a long run-up.</p>
+          <p class="vb-intro">The trait of the social Three that success is not limited to one field fits here too. Taleb works at once for television, cinema, theatre and radio drama (<em>Einstiegskurs</em>, &lsquo;Introductory Course&rsquo;, SWR, 2018).</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: service to the scene</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> brings warmth and the wish to be needed. With Taleb it shows in that his award concerns a supporting role: whoever is honoured for serving the scene and the partners has achieved impact through support, not through dominance. The jury work at the Human Rights Film Prize in his early twenties fits this trait too. The Two-wing makes the Three warmer and more community-minded than its image suggests.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: roles with weight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Taleb takes on roles with weight. In <em>Nur eine Frau</em> (&lsquo;A Regular Woman&rsquo;, 2019) he played Nuri, who kills his sister, one of the hardest conceivable characters, demanding precision rather than effect. Added to this are appearances in <em>8 Zeugen</em> (&lsquo;8 Witnesses&rsquo;, 2021) and <em>Die Kaiserin</em> (&lsquo;The Empress&rsquo;, 2022), <em>Operation White Christmas</em> (2023) and <em>Das Märchen von der silbernen Brücke</em> (&lsquo;The Fairy Tale of the Silver Bridge&rsquo;, 2024). The range thus runs from the milieu of police series and clan series to the fairy-tale film.</p>
+          <p class="vb-intro">As is often observed with actors of his background, the danger lies in being typecast; the breadth of his roles is a counter-draft to that.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bright is a path few walk: a child who came to Germany as a refugee at six stands in award-winning productions in his mid-thirties. The shadow of the social Three lies in the image: whoever defines himself through the recognition of the group can hardly afford not to deliver. Little about his private life is public, and this portrait sticks to what is documented. The typing remains an interpretation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-christiaan-barnard">Christiaan Barnard (SO3w2)</a> dared the first heart transplant in 1967, a single public leap instead of slow approach, as this subtype loves it. <a href="#beruehmte-harry-houdini">Harry Houdini (SO3w2)</a> turned a failure into a life&rsquo;s work of public daring. Both have died and are therefore in the past tense. With <a href="#beruehmte-kida-khodr-ramadan">Kida Khodr Ramadan (SP3w4)</a> and <a href="#beruehmte-maryam-zaree">Maryam Zaree (SP3w2)</a> Taleb stood before the camera in <em>4 Blocks</em>: three Threes in the same series, three different subtypes, Ramadan and Zaree self-preservation, Taleb social.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Between Nuremberg, Berlin and the set</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As of 6 November 2026: most recently recorded are <em>Operation White Christmas</em> (2023) and <em>Das Märchen von der silbernen Brücke</em> (2024). No newer information on current projects is available.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
+        {route:"lebensmusterkompass/so3", label:"Life Pattern Compass: SO3 – Cheetah"},
+        {route:"beruehmte-christiaan-barnard", label:"Portrait: Christiaan Barnard (SO3w2)"},
+        {route:"beruehmte-harry-houdini", label:"Portrait: Harry Houdini (SO3w2)"},
+        {route:"beruehmte-kida-khodr-ramadan", label:"Portrait: Kida Khodr Ramadan (SP3w4)"},
+        {route:"beruehmte-maryam-zaree", label:"Portrait: Maryam Zaree (SP3w2)"},
+      ])}
+    </div>
+  `);
+}

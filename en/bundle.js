@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=486";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=487";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -562,6 +562,7 @@ const tELawrencePortraitPage = () => _lazyPage("./data/beruehmte-en/teil10.js", 
 const lisaKauffPortraitPage = () => _lazyPage("./data/beruehmte-en/teil17.js", "lisaKauffPortraitPage");
 const mariaHasbolatPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "mariaHasbolatPortraitPage");
 const leonieBeneschPortraitPage = () => _lazyPage("./data/beruehmte-en/teil2.js", "leonieBeneschPortraitPage");
+const rauandTalebPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "rauandTalebPortraitPage");
 const maryamZareePortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "maryamZareePortraitPage");
 const kidaKhodrRamadanPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "kidaKhodrRamadanPortraitPage");
 const rolandTrettlPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "rolandTrettlPortraitPage");
@@ -1918,6 +1919,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonie Benesch \u2013 Self-Preservation Type 4",
     teaser:"SP4w3 \u00b7 b. 1991 in Hamburg. Actress, \u2018The Teachers\u2019 Lounge\u2019, \u2018Late Shift\u2019, \u2018Babylon Berlin\u2019. The dove who makes pressure visible without big gestures. Animal correspondence: Dove.",
     land:"Germany", tags:["Acting"], gender:"f"},
+{ route:"beruehmte-rauand-taleb", name:"Rauand Taleb", added:"2026-11-07", subtyp:"SO3w2",
+    heading:"Rauand Taleb \u2013 Social Type 3",
+    teaser:"SO3w2 \u00b7 b. 1992 in Sulaymaniyah (Iraq). Actor (\u20184 Blocks\u2019, \u2018A Regular Woman\u2019), German Actors\u2019 Award 2020. The cheetah who decides moments. Animal correspondence: Cheetah.",
+    land:"Germany", tags:["Acting"], gender:"m"},
 { route:"beruehmte-maryam-zaree", name:"Maryam Zaree", added:"2026-11-07", subtyp:"SE3w2",
     heading:"Maryam Zaree \u2013 Self-Preservation Type 3",
     teaser:"SP3w2 \u00b7 b. 1983 in Tehran. Actress, author and director (\u2018Born in Evin\u2019, \u20184 Blocks\u2019). The raccoon who turned a hushed-up story into a film. Animal correspondence: Raccoon.",
@@ -48496,7 +48501,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-pamela-reif": pamelaReifPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-phil-collins": philCollinsPortraitPage,
-      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-lea-bosco": leaBoscoPortraitPage, "beruehmte-roland-trettl": rolandTrettlPortraitPage, "beruehmte-kida-khodr-ramadan": kidaKhodrRamadanPortraitPage, "beruehmte-maryam-zaree": maryamZareePortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
+      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-lea-bosco": leaBoscoPortraitPage, "beruehmte-roland-trettl": rolandTrettlPortraitPage, "beruehmte-kida-khodr-ramadan": kidaKhodrRamadanPortraitPage, "beruehmte-maryam-zaree": maryamZareePortraitPage, "beruehmte-rauand-taleb": rauandTalebPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
       "beruehmte-harald-v": haraldVPortraitPage,
       "beruehmte-carl-xvi-gustaf": carlXVIGustafPortraitPage,
       "beruehmte-johannes-paul-ii": johannesPaulIIPortraitPage,

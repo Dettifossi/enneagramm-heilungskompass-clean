@@ -3546,3 +3546,73 @@ export function maryamZareePortraitPage() {
     </div>
   `);
 }
+
+export function rauandTalebPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-rauand-taleb-portrait.jpg" alt="Rauand Taleb – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-rauand-taleb-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Rauand Taleb</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Sozialer Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, geboren 1992 in Sulaimaniyya (Irak) &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gepard aus Sulaimaniyya</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> jagt nicht aus Kraft, sondern aus Tempo und Wagemut: Er beschleunigt auf kurzer Strecke und entscheidet den Augenblick. Rauand Taleb wurde am 20. Februar 1992 in Sulaimaniyya in der Autonomen Region Kurdistan im Irak geboren. 1998 floh seine Familie nach Deutschland und stellte dort einen Asylantrag.</p>
+          <p class="vb-intro">Von 2010 bis 2013 besuchte er die Neue Schauspielschule Nürnberg. Schon in dieser Zeit fiel er auf: 2012 gab es eine Auszeichnung beim Bayerischen Jugendfilmfestival, 2014, mit 22 Jahren, saß er in der Jury des Deutschen Menschenrechts-Filmpreises. Auf der Bühne arbeitete er unter anderem an der Tafelhalle Nürnberg, am Theater am Kurfürstendamm und an der Deutschen Oper Berlin.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: der sichtbare Sprung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> lebt vom Bild, das andere von ihr haben, und vom Augenblick, in dem sich etwas entscheidet. Talebs Weg lässt sich so lesen: Ab 2015 spielte er in mehreren <em>Tatort</em>-Folgen (2015, 2017, 2018, 2019), 2018 und 2019 gehörte er in drei Staffeln zum Ensemble von <em>4 Blocks</em>, und 2020 bekam er für diese Serie den Deutschen Schauspielpreis als bester Nebendarsteller. Jeder dieser Schritte war öffentlich sichtbar, und keiner brauchte lange Anlaufzeit.</p>
+          <p class="vb-intro">Dazu passt das Merkmal der sozialen Drei, dass der Erfolg nicht auf ein Feld begrenzt bleibt. Taleb arbeitet zugleich fürs Fernsehen, fürs Kino, fürs Theater und fürs Hörspiel (<em>Einstiegskurs</em>, SWR, 2018).</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Dienst an der Szene</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> bringt Zugewandtheit und den Wunsch, gebraucht zu werden. Er zeigt sich bei Taleb darin, dass seine Auszeichnung eine Nebenrolle betrifft: Wer dafür geehrt wird, dass er der Szene und den Partnern dient, hat Wirkung durch Zuarbeit erzielt, nicht durch Dominanz. Auch die Jurytätigkeit beim Menschenrechts-Filmpreis, mit Anfang zwanzig, passt zu diesem Zug. Der Zweierflügel macht die Drei wärmer und gemeinschaftsbezogener, als es ihr Bild vermuten lässt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Rollen mit Gewicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Taleb besetzt Rollen mit Gewicht. In <em>Nur eine Frau</em> (2019) spielte er Nuri, der seine Schwester tötet, eine der schwersten denkbaren Figuren, die Genauigkeit statt Effekt verlangt. Dazu kommen Auftritte in <em>8 Zeugen</em> (2021) und <em>Die Kaiserin</em> (2022), <em>Operation White Christmas</em> (2023) und <em>Das Märchen von der silbernen Brücke</em> (2024). Die Spanne reicht damit vom Milieu der Polizeireihen und Clan-Serien bis zum Märchenfilm.</p>
+          <p class="vb-intro">Wie bei Schauspielern mit seiner Herkunft oft zu beobachten, liegt die Gefahr in der Festlegung auf bestimmte Figuren; die Bandbreite seiner Rollen ist ein Gegenentwurf dazu.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hell ist ein Weg, den wenige gehen: Ein Kind, das mit sechs Jahren als Flüchtling nach Deutschland kam, steht mit Mitte dreißig in preisgekrönten Produktionen. Der Schatten der sozialen Drei liegt im Bild: Wer sich über Anerkennung der Gruppe definiert, kann es sich schwer erlauben, nicht zu liefern. Über das Privatleben ist öffentlich kaum etwas bekannt, und dieses Porträt hält sich an das Belegte. Die Typisierung bleibt eine Deutung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-christiaan-barnard">Christiaan Barnard (SO3w2)</a> wagte 1967 die erste Herztransplantation, ein einziger öffentlicher Sprung statt langsamer Annäherung, wie ihn dieser Subtyp liebt. <a href="#beruehmte-harry-houdini">Harry Houdini (SO3w2)</a> machte aus einem Scheitern ein Lebenswerk der öffentlichen Wagnisse. Beide sind verstorben und stehen deshalb in der Vergangenheitsform. Mit <a href="#beruehmte-kida-khodr-ramadan">Kida Khodr Ramadan (SE3w4)</a> und <a href="#beruehmte-maryam-zaree">Maryam Zaree (SE3w2)</a> stand Taleb in <em>4 Blocks</em> vor der Kamera: dreimal Typ 3 in derselben Serie, dreimal ein anderer Subtyp, Ramadan und Zaree selbsterhaltend, Taleb sozial.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Zwischen Nürnberg, Berlin und dem Set</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Stand 6. November 2026: Zuletzt verzeichnet sind <em>Operation White Christmas</em> (2023) und <em>Das Märchen von der silbernen Brücke</em> (2024). Neuere Angaben zu laufenden Projekten liegen nicht vor.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so3", label:"Lebensmusterkompass: SO3 – Gepard"},
+        {route:"beruehmte-christiaan-barnard", label:"Porträt: Dr. Christiaan Barnard (SO3w2)"},
+        {route:"beruehmte-harry-houdini", label:"Porträt: Harry Houdini (SO3w2)"},
+        {route:"beruehmte-kida-khodr-ramadan", label:"Porträt: Kida Khodr Ramadan (SE3w4)"},
+        {route:"beruehmte-maryam-zaree", label:"Porträt: Maryam Zaree (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
