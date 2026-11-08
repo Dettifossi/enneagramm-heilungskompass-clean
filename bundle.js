@@ -36554,6 +36554,7 @@ function libraryPage() {
         <p style="color:rgba(245,233,208,0.45);font-size:0.78rem;margin:0.5rem 0 0;">Laufzeit ca. 22 Minuten \u00b7 Verlagshaus Rathmer</p>
       </div>
     </section>
+    <div style="text-align:center;margin:1.6rem 0 2rem;"><button class="secondary" type="button" onclick="window.scrollTo({top:0,behavior:'smooth'})">&uarr; Nach oben</button></div>
   `);
 }
 

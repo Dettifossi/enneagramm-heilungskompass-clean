@@ -11787,6 +11787,7 @@ function libraryPage() {
     </section>
     ${werkSection()}
 
+    <div style="text-align:center;margin:1.6rem 0 2rem;"><button class="secondary" type="button" onclick="window.scrollTo({top:0,behavior:'smooth'})">&uarr; Back to top</button></div>
   `);
 }
 
