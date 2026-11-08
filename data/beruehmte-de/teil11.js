@@ -3135,20 +3135,20 @@ export function clintEastwoodPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-clint-eastwood-portrait.jpg" alt="Clint Eastwood – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Clint Eastwood</p>
-        <p class="krim-portrait-typ">SX1w9 &middot; Sexueller Typ 1 mit Neunerflügel</p>
-        <p class="krim-portrait-subtitle">Amerikanischer Schauspieler und Regisseur, geb. 1930 &ndash; Dirty Harry, Unforgiven &ndash; Tierentsprechung: Schwarze Mamba</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Amerikanischer Schauspieler und Regisseur, geb. 1930 &ndash; Dirty Harry, Unforgiven &ndash; Tierentsprechung: Gans</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. Die Schwarze Mamba: der schweigsame Junge aus Kalifornien</h2>
+        <h2 class="vb-section">1. Die Gans: der schweigsame Junge aus Kalifornien</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> verschwendet keine Bewegung: Sie wartet, beobachtet und handelt erst, wenn es sich lohnt. Clinton Eastwood Jr. wurde am 31. Mai 1930 in San Francisco geboren. Sein Vater Clinton Sr. (1906–1970) war Buchhalter und hielt sich in den Jahren der Wirtschaftskrise mit wechselnden Stellungen über Wasser, unter anderem als Tankwart; die Familie zog mehrfach um und ließ sich in Oakland und im benachbarten Piedmont nieder. Seine Mutter Margaret Ruth Runner (1909–2006) und die jüngere Schwester Jeanne (geb. 1934) bildeten den engsten Kreis. In der Jugend galt er als schüchtern und zurückhaltend.</p>
+          <p class="vb-intro">Die <strong>Gans</strong> hält den Verband zusammen und bleibt dabei wachsam: Sie ordnet sich ein, übernimmt ihren Platz in der Formation und wird erst laut, wenn etwas den Zusammenhalt bedroht. Clinton Eastwood Jr. wurde am 31. Mai 1930 in San Francisco geboren. Sein Vater Clinton Sr. (1906–1970) war Buchhalter und hielt sich in den Jahren der Wirtschaftskrise mit wechselnden Stellungen über Wasser, unter anderem als Tankwart; die Familie zog mehrfach um und ließ sich in Oakland und im benachbarten Piedmont nieder. Seine Mutter Margaret Ruth Runner (1909–2006) und die jüngere Schwester Jeanne (geb. 1934) bildeten den engsten Kreis. In der Jugend galt er als schüchtern und zurückhaltend.</p>
           <p class="vb-intro">Er schloss 1949 die Oakland Technical High School ab. Im Koreakrieg wurde er zur Armee eingezogen und war in Fort Ord in Kalifornien unter anderem als Schwimmlehrer eingesetzt; im Februar 1953 wurde er entlassen. 1954 unterschrieb er bei Universal einen Vertrag über 100 Dollar pro Woche, den das Studio im Oktober 1955 wieder beendete.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. Die sexuelle Eins: Eifer für das Handwerk</h2>
+        <h2 class="vb-section">2. Die soziale Eins: ein Maßstab für die Gemeinschaft, auch gegen die Branche</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Bei <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> trägt die sexuelle Eins den Namen <em>Zeal</em> (Eifer) und gilt als Kontratyp der Eins: Der Ernst dient nicht der Regel der Gemeinschaft, sondern einer einzelnen Sache, der man sich mit ganzer Intensität widmet. Bei Eastwood lässt sich das mit seinem Verhältnis zur Arbeit verbinden. Mitarbeiter beschreiben seine Sets als ruhig und straff: Er ruft nach diesen Berichten weder ›Action‹ noch ›Cut‹, sondern sagt leise ›Go ahead‹ (›Los geht's‹), und er dreht häufig mit sehr wenigen Takes. Bei ›Breezy‹ (1973) lag er nach der Darstellung der englischen Wikipedia eine Million Dollar unter dem Budget und drei Tage vor dem Zeitplan. Als Matt Damon bei den Dreharbeiten zu ›Invictus‹ um eine weitere Einstellung bat, soll Eastwood gefragt haben, ob er die Zeit aller verschwenden wolle; so wird es berichtet.</p>
+          <p class="vb-intro">Die soziale Eins trägt bei <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a> den Namen <em>Non-Adaptability</em> (Unangepasstheit): ein Maßstab, der für die Gemeinschaft gilt und sich nicht anpasst, wenn sie ihm nicht folgt. Bei Eastwood lässt sich das mit seiner Art verbinden, ein Team zu führen und eine eigene Ordnung neben dem Studiosystem aufzubauen. Mit Malpaso Productions schuf er 1967 einen festen Kreis, in dem fast alle seine amerikanischen Filme entstanden. Mitarbeiter beschreiben seine Sets als ruhig und straff: Er ruft nach diesen Berichten weder ›Action‹ noch ›Cut‹, sondern sagt leise ›Go ahead‹ (›Los geht's‹), und er dreht häufig mit sehr wenigen Takes. Bei ›Breezy‹ (1973) lag er nach der Darstellung der englischen Wikipedia eine Million Dollar unter dem Budget und drei Tage vor dem Zeitplan. Als Matt Damon bei den Dreharbeiten zu ›Invictus‹ um eine weitere Einstellung bat, soll Eastwood gefragt haben, ob er die Zeit aller verschwenden wolle; so wird es berichtet.</p>
           <p class="vb-intro">Die Zeichnung zeigt dichtes, nach hinten gestrichenes Haar mit einzelnen losen Strähnen, eine hohe Stirn mit tiefen Querfalten, steil zusammengezogene Brauen mit einer senkrechten Falte dazwischen, enge, leicht zusammengekniffene Augen unter schweren Lidern, die frontal in die Betrachtung gehen, eine kräftige Nase und einen schmalen, fest geschlossenen Mund über einem breiten Kinn. Er trägt ein dunkles Jackett mit weißem Hemd und Krawatte. Der Blick ist streng und unnachgiebig, ohne Lächeln.</p>
         </blockquote>
 
@@ -3164,9 +3164,9 @@ export function clintEastwoodPortraitPage() {
           <p class="vb-intro"><a href="#beruehmte-morgan-freeman">Morgan Freeman (SX7w6)</a> stand für ›Unforgiven‹ und ›Million Dollar Baby‹ vor seiner Kamera und spielte in ›Invictus‹ (2009) unter seiner Regie Nelson Mandela.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Parallelen im selben Subtyp: Linda Hamilton und Klaus Kinski</h2>
+        <h2 class="vb-section">5. Parallelen im selben Subtyp: Michael Douglas und Helmut Schmidt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="#beruehmte-linda-hamilton">Linda Hamilton (SX1w9)</a> steht wie Eastwood im Zentrum einer Figur, die für Härte steht: Sarah Connor bei ihr, Harry Callahan und der Mann ohne Namen bei ihm. Bei beiden gehört zum Muster auch die Ruhe abseits davon. <a href="#beruehmte-klaus-kinski">Klaus Kinski (SX1w9)</a> lebte denselben Eifer als offene Eruption, die auch seine Mitarbeiter traf. Eastwood legt ihn in die Form der Arbeit: wenige Takes, leise Anweisungen, ein Team, das weiß, was zu tun ist.</p>
+          <p class="vb-intro"><a href="#beruehmte-michael-douglas">Michael Douglas (SO1w9)</a> ist wie Eastwood Schauspieler, Produzent und Oscar-Gewinner und stellte Geschichten über Institutionen und Verantwortung auf die Leinwand; beide arbeiteten im Ensemble statt als Solisten. <a href="#beruehmte-helmut-schmidt">Helmut Schmidt (SO1w9)</a> teilt mit ihm die nüchterne, knappe Art, Autorität auszuüben. Bei allen dreien kommt der Maßstab ohne laute Auftritte aus.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Ehen, Kinder und das Amt in Carmel</h2>
@@ -3178,7 +3178,7 @@ export function clintEastwoodPortraitPage() {
         <h2 class="vb-section">7. Stand und Einordnung</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Stand Oktober 2026 ist Eastwood 96 Jahre alt und gilt als im Ruhestand; seine letzte Regiearbeit ist ›Juror #2‹, die er mit 94 Jahren ins Kino brachte. Er hat vier Oscars, den Irving G. Thalberg Memorial Award (1995), den AFI Life Achievement Award, den Goldenen Löwen für das Lebenswerk und die Ehrenpalme von Cannes.</p>
-          <p class="vb-intro">Für die sexuelle Eins mit Neunerflügel liegt ein Entwicklungsweg darin, dass die Strenge gegen die Arbeit auch Raum für Nähe lässt. Bei Eastwood lässt sich das mit den späten Filmen verbinden, in denen er die Härte seiner früheren Figuren selbst befragt, in ›Unforgiven‹ und ›Gran Torino‹ etwa. Dass ein Mann mit diesem Muster mit 94 noch einen Film dreht, lässt sich mit der Beharrlichkeit des Neunerflügels in Verbindung bringen.</p>
+          <p class="vb-intro">Für die soziale Eins mit Neunerflügel liegt ein Entwicklungsweg darin, dass der Maßstab für die Gemeinschaft auch Raum für Nähe im Einzelnen lässt. Bei Eastwood lässt sich das mit den späten Filmen verbinden, in denen er die Härte seiner früheren Figuren selbst befragt, in ›Unforgiven‹ und ›Gran Torino‹ etwa. Dass ein Mann mit diesem Muster mit 94 noch einen Film dreht, lässt sich mit der Beharrlichkeit des Neunerflügels in Verbindung bringen.</p>
         </blockquote>
 
       </div>
@@ -3187,9 +3187,9 @@ export function clintEastwoodPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
-        {route:"beruehmte-linda-hamilton", label:"Porträt: Linda Hamilton (SX1w9)"},
-        {route:"beruehmte-klaus-kinski", label:"Porträt: Klaus Kinski (SX1w9)"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"beruehmte-michael-douglas", label:"Porträt: Michael Douglas (SO1w9)"},
+        {route:"beruehmte-helmut-schmidt", label:"Porträt: Helmut Schmidt (SO1w9)"},
         {route:"beruehmte-morgan-freeman", label:"Porträt: Morgan Freeman (SX7w6)"},
         {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
       ])}

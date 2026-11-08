@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=498";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=499";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -27913,9 +27913,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ayn Rand – Sexueller Typ 1",
     teaser:"SX1w9 · 1905–1982. Russisch-amerikanische Schriftstellerin und Philosophin (›Der ewige Quell‹, ›Atlas Shrugged‹), Begründerin des Objektivismus. Die Schwarze Mamba, die ihr Leben um eine einzige Überzeugung baute.",
     land:"Russland/USA", tags:["Literatur","Wissenschaft"], gender:"f"},
-  { route:"beruehmte-clint-eastwood", name:"Clint Eastwood", added:"2026-10-29", subtyp:"SX1w9",
-    heading:"Clint Eastwood – Sexueller Typ 1",
-    teaser:"SX1w9 · geb. 1930. Amerikanischer Schauspieler und Regisseur (›Dirty Harry‹, ›Unforgiven‹, ›Million Dollar Baby‹). Die Schwarze Mamba, die leise ›Go ahead‹ sagt und mit wenigen Takes dreht.",
+  { route:"beruehmte-clint-eastwood", name:"Clint Eastwood", added:"2026-10-29", subtyp:"SO1w9",
+    heading:"Clint Eastwood – Sozialer Typ 1",
+    teaser:"SO1w9 · geb. 1930. Amerikanischer Schauspieler und Regisseur (›Dirty Harry‹, ›Unforgiven‹, ›Million Dollar Baby‹). Die Gans, die leise ›Go ahead‹ sagt und mit wenigen Takes dreht.",
     land:"USA", tags:["Film","Regie"], gender:"m"},
   { route:"beruehmte-nina-ruge", name:"Nina Ruge", added:"2026-10-28", subtyp:"SX6w7",
     heading:"Nina Ruge – Sexueller Typ 6",

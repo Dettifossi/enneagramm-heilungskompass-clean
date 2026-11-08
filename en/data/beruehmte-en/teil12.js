@@ -3154,20 +3154,20 @@ export function clintEastwoodPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-clint-eastwood-portrait.jpg" alt="Clint Eastwood – portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Clint Eastwood</p>
-        <p class="krim-portrait-typ">SX1w9 &middot; Sexual Type 1 with a Nine wing</p>
-        <p class="krim-portrait-subtitle">American actor and director, b. 1930 &ndash; Dirty Harry, Unforgiven &ndash; animal counterpart: black mamba</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with a Nine wing</p>
+        <p class="krim-portrait-subtitle">American actor and director, b. 1930 &ndash; Dirty Harry, Unforgiven &ndash; animal counterpart: goose</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The black mamba: the quiet boy from California</h2>
+        <h2 class="vb-section">1. The goose: the quiet boy from California</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>black mamba</strong> wastes no movement: it waits, watches and acts only when it pays to. Clinton Eastwood Jr. was born on 31 May 1930 in San Francisco. His father Clinton Sr. (1906–1970) was an accountant who kept the family afloat through the Depression years with changing jobs, among them gas station attendant; the family moved several times and settled in Oakland and neighbouring Piedmont. His mother Margaret Ruth Runner (1909–2006) and his younger sister Jeanne (b. 1934) formed the inner circle. In his youth he was considered shy and reserved.</p>
+          <p class="vb-intro">The <strong>goose</strong> holds the flock together and stays watchful: it takes its place in the formation and grows loud only when something threatens the cohesion. Clinton Eastwood Jr. was born on 31 May 1930 in San Francisco. His father Clinton Sr. (1906–1970) was an accountant who kept the family afloat through the Depression years with changing jobs, among them gas station attendant; the family moved several times and settled in Oakland and neighbouring Piedmont. His mother Margaret Ruth Runner (1909–2006) and his younger sister Jeanne (b. 1934) formed the inner circle. In his youth he was considered shy and reserved.</p>
           <p class="vb-intro">He graduated from Oakland Technical High School in 1949. During the Korean War he was drafted into the Army and served at Fort Ord in California, among other things as a swimming instructor; he was discharged in February 1953. In 1954 he signed a contract with Universal at 100 dollars a week, which the studio ended in October 1955.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The sexual One: zeal for the craft</h2>
+        <h2 class="vb-section">2. The social One: a standard for the community, even against the industry</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a>'s system the sexual One is called <em>Zeal</em> and counts as the countertype of the One: the seriousness serves not the rules of the community but a single cause to which one devotes oneself with full intensity. In Eastwood this can be connected with his relationship to work. Colleagues describe his sets as quiet and tight: according to these accounts he calls neither ‘Action’ nor ‘Cut’ but says quietly ‘Go ahead’, and he often shoots with very few takes. On ‘Breezy’ (1973) he came in one million dollars under budget and three days ahead of schedule, according to English Wikipedia. When Matt Damon asked for another take on ‘Invictus’, Eastwood is reported to have asked whether he wanted to waste everyone's time.</p>
+          <p class="vb-intro">In <a href="#beruehmte-claudio-naranjo">Dr. Claudio Naranjo (SO5w4)</a>'s system the social One is called <em>Non-Adaptability</em>: a standard that holds for the community and does not bend when the community does not follow it. In Eastwood this can be connected with the way he leads a team and builds an order of his own beside the studio system. With Malpaso Productions he created a fixed circle in 1967 in which almost all of his American films were made. Colleagues describe his sets as quiet and tight: according to these accounts he calls neither ‘Action’ nor ‘Cut’ but says quietly ‘Go ahead’, and he often shoots with very few takes. On ‘Breezy’ (1973) he came in one million dollars under budget and three days ahead of schedule, according to English Wikipedia. When Matt Damon asked for another take on ‘Invictus’, Eastwood is reported to have asked whether he wanted to waste everyone's time.</p>
           <p class="vb-intro">The drawing shows thick, swept-back hair with a few loose strands, a high forehead with deep horizontal lines, steeply drawn-together brows with a vertical crease between them, narrow, slightly squinting eyes under heavy lids that look straight at the viewer, a strong nose and a thin, firmly closed mouth above a broad chin. He wears a dark jacket with a white shirt and tie. The gaze is stern and unyielding, without a smile.</p>
         </blockquote>
 
@@ -3183,9 +3183,9 @@ export function clintEastwoodPortraitPage() {
           <p class="vb-intro"><a href="#beruehmte-morgan-freeman">Morgan Freeman (SX7w6)</a> stood in front of his camera for ‘Unforgiven’ and ‘Million Dollar Baby’ and played Nelson Mandela under his direction in ‘Invictus’ (2009).</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Parallels in the same subtype: Linda Hamilton and Klaus Kinski</h2>
+        <h2 class="vb-section">5. Parallels in the same subtype: Michael Douglas and Helmut Schmidt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><a href="#beruehmte-linda-hamilton">Linda Hamilton (SX1w9)</a> stands, like Eastwood, at the centre of a figure that stands for toughness: Sarah Connor for her, Harry Callahan and the man with no name for him. For both, the pattern also includes calm away from that. <a href="#beruehmte-klaus-kinski">Klaus Kinski (SX1w9)</a> lived the same zeal as open eruption, which also hit his colleagues. Eastwood puts it into the form of the work: few takes, quiet instructions, a team that knows what to do.</p>
+          <p class="vb-intro"><a href="#beruehmte-michael-douglas">Michael Douglas (SO1w9)</a> is, like Eastwood, an actor, producer and Oscar winner who put stories about institutions and responsibility on the screen; both worked in an ensemble rather than as soloists. <a href="#beruehmte-helmut-schmidt">Helmut Schmidt (SO1w9)</a> shares with him the sober, terse way of exercising authority. In all three the standard comes without loud performances.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Marriages, children and the office in Carmel</h2>
@@ -3197,7 +3197,7 @@ export function clintEastwoodPortraitPage() {
         <h2 class="vb-section">7. Where things stand, and the pattern</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">As of October 2026 Eastwood is 96 and considered retired; his last film as director is ‘Juror #2’, which he brought to cinemas at 94. He has four Oscars, the Irving G. Thalberg Memorial Award (1995), the AFI Life Achievement Award, the Golden Lion for Lifetime Achievement and an honorary Palme d'Or.</p>
-          <p class="vb-intro">For the sexual One with a Nine wing, one path of development lies in letting the strictness toward work leave room for closeness. In Eastwood this can be connected with the late films in which he questions the toughness of his earlier figures himself, in ‘Unforgiven’ and ‘Gran Torino’, for instance. That a man with this pattern still directs a film at 94 can be linked with the persistence of the Nine wing.</p>
+          <p class="vb-intro">For the social One with a Nine wing, one path of development lies in letting the standard held for the community leave room for closeness with individuals. In Eastwood this can be connected with the late films in which he questions the toughness of his earlier figures himself, in ‘Unforgiven’ and ‘Gran Torino’, for instance. That a man with this pattern still directs a film at 94 can be linked with the persistence of the Nine wing.</p>
         </blockquote>
 
       </div>
@@ -3206,9 +3206,9 @@ export function clintEastwoodPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/sx1", label:"SX1 – The black mamba: subtype profile"},
-        {route:"beruehmte-linda-hamilton", label:"Portrait: Linda Hamilton (SX1w9)"},
-        {route:"beruehmte-klaus-kinski", label:"Portrait: Klaus Kinski (SX1w9)"},
+        {route:"subtype/so1", label:"SO1 – The goose: subtype profile"},
+        {route:"beruehmte-michael-douglas", label:"Portrait: Michael Douglas (SO1w9)"},
+        {route:"beruehmte-helmut-schmidt", label:"Portrait: Helmut Schmidt (SO1w9)"},
         {route:"beruehmte-morgan-freeman", label:"Portrait: Morgan Freeman (SX7w6)"},
         {route:"lebensmusterkompass", label:"Life Pattern Compass"},
       ])}
