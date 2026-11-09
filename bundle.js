@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=499";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=500";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -17233,6 +17233,7 @@ const uiText = {
       { heading: "Nachschlagen" },
       { route: "library", label: "Bibliothek" },
       { route: "zahlen-fakten", label: "Der Kompass in Zahlen" },
+      { route: "meinen-typ-finden", label: "Meinen Typ finden" },
       { route: "register", label: "Register" },
     ]},
     { route: "schaubilder", label: "Schaubilder", dropdown: [
@@ -33573,6 +33574,10 @@ function startPage() {
               <span class="start-path__test-label">Motivations-Schnelltest</span>
               <span class="start-path__test-sub">10 Fragen &middot; 3&ndash;5 Minuten &middot; Fokus: das innere Warum</span>
             </button>
+            <button class="start-path__btn start-path__btn--test" data-route="meinen-typ-finden">
+              <span class="start-path__test-label">Meinen Typ finden</span>
+              <span class="start-path__test-sub">Suchen &amp; Rubriken &middot; Sätze sammeln &middot; ohne Fragebogen</span>
+            </button>
             <button class="start-path__btn start-path__btn--test start-path__btn--diag${hasHeilwissen() ? "" : " is-locked"}" data-route="${hasHeilwissen() ? "diagnosetest" : "freischalt/heilwissen"}">
               <span class="start-path__test-label">Diagnose-Test${hasHeilwissen() ? "" : " \ud83d\udd12"}</span>
               <span class="start-path__test-sub">Schnelleinstieg \u00b7 9 Profile</span>
@@ -40229,6 +40234,9 @@ function bindEvents() {
   if (state.route === "motivations-schnelltest") {
     bindSchnelltest();
   }
+  if (state.route === "meinen-typ-finden") {
+    bindTypFinden();
+  }
   bindOnboarding();
 }
 
@@ -40355,6 +40363,19 @@ let schnellState = (() => {
 })();
 function _saveSchnellState() {
   try { localStorage.setItem("kompass:schnellState", JSON.stringify(schnellState)); } catch(e) {}
+}
+
+// Meinen Typ finden: Nachschlagen (Suche und Rubriken, Ich-Sätze). Inhalt und Logik liegen in data/typ-nachschlagen.js
+function meinenTypFindenPage() {
+  return shell(`
+    ${pageHeader("meinen-typ-finden")}
+    <section class="narrow"><div id="tn-root"><p class="suche-hint" role="status">Lade …</p></div></section>
+  `);
+}
+function bindTypFinden() {
+  const r = document.getElementById("tn-root");
+  if (!r) return;
+  import("/data/typ-nachschlagen.js?v=3").then(m => m.mount(r, "de")).catch(err => { console.error(err); r.textContent = "Konnte nicht geladen werden. Bitte die Verbindung prüfen und die Seite neu laden."; });
 }
 
 function motivationsSchnelltestPage() {
@@ -67908,6 +67929,7 @@ const ROUTES = {
     typentest: typentestPage,
     "typentest-motivational": typentestMotivationalPage,
     "motivations-schnelltest": motivationsSchnelltestPage,
+    "meinen-typ-finden": meinenTypFindenPage,
     psychogramme: psychogrammePage,
     "heilungsweg": heilungswegPage,
     "kindliche-temperamente": kindlicheTemperamentePage,
@@ -69226,7 +69248,7 @@ function render(opts) {
     }
     // Zugangsschutz
     if (!hasHeilwissen() && base !== "freischalt" && base !== "start") { try { localStorage.setItem("kompass:returnRoute", state.route); } catch (e) {} }
-    if (!hasHeilwissen() && !(hasPortraits() && portraitEditionRoutes().has(base)) && base !== "start" && base !== "admin" && base !== "admin-wegweiser" && base !== "leseprobe" && base !== "inhaltsverzeichnis" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "gesichts-scan" && base !== "updates" && base !== "kaufen" && base !== "register" && base !== "wegweiser-premium") {
+    if (!hasHeilwissen() && !(hasPortraits() && portraitEditionRoutes().has(base)) && base !== "start" && base !== "admin" && base !== "admin-wegweiser" && base !== "leseprobe" && base !== "inhaltsverzeichnis" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "gesichts-scan" && base !== "updates" && base !== "kaufen" && base !== "register" && base !== "meinen-typ-finden" && base !== "wegweiser-premium") {
       app.innerHTML = freischaltPage();
       bindEvents();
       requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; }));
