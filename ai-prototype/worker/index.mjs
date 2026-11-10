@@ -595,6 +595,11 @@ async function handleBillingPortal(request, env) {
   return jsonResponse(request, { url: data.url });
 }
 
+const IGNORED_PAYMENT_LINKS = [
+  "plink_1UZanpHPQz587pegdx6BaCOq", // Stille & Weite (eigene App)
+  "plink_1Ua6OWHPQz587pegj5UFqzD2", // Neun Seelenblüten (eigene App)
+];
+
 async function handleStripeWebhook(request, env) {
   if (!env.STRIPE_WEBHOOK_SECRET) {
     return jsonResponse(request, { error: "Webhook noch nicht aktiv." }, 501);
@@ -613,6 +618,7 @@ async function handleStripeWebhook(request, env) {
       // Dasselbe Stripe-Konto verkauft auch Rathmer's Repertorium (eigener Dienst).
       // Dessen Einmalzahlungen (Listenpreis 119,50 / 149,50 EUR; Enneagramm-Ausgabe 79,50 / 99,50 EUR) dürfen hier keine Jahreslizenz auslösen.
       if (session.mode !== "subscription" && [11950, 14950, 7950, 9950].includes(session.amount_subtotal)) break;
+      if (IGNORED_PAYMENT_LINKS.includes(session.payment_link)) break;
       if (session.payment_link && String(env.IGNORE_PAYMENT_LINKS || "").split(",").map((x) => x.trim()).includes(session.payment_link)) break;
       // Bei verzögerten Zahlarten (z. B. SEPA) meldet Stripe "completed" schon vor
       // dem Zahlungseingang. Freigeschaltet wird erst, wenn bezahlt ist.
