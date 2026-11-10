@@ -36559,6 +36559,19 @@ function libraryPage() {
         <p style="color:rgba(245,233,208,0.45);font-size:0.78rem;margin:0.5rem 0 0;">Laufzeit ca. 22 Minuten \u00b7 Verlagshaus Rathmer</p>
       </div>
     </section>
+    <section class="narrow" style="margin-top:2rem;">
+      <p class="eyebrow">Weiterführend</p>
+      <div style="display:grid;gap:.8rem;">
+        <a href="https://www.verlagshausrathmer.com/neun-seelenblueten.html" target="_blank" rel="noopener" style="display:block;border:1px solid var(--line);border-radius:10px;padding:.9rem 1rem;text-decoration:none;color:inherit;">
+          <strong>Neun Seelenblüten</strong><br><span style="font-size:.82rem;color:var(--copper);">Zu jedem Typ eine Bachblüte</span>
+          <p style="margin:.4rem 0 0;font-size:.9rem;color:var(--muted);line-height:1.55;">Ihre App für die neun Blüten der neun Typen.</p>
+        </a>
+        <a href="https://www.verlagshausrathmer.com/stille-und-weite.html" target="_blank" rel="noopener" style="display:block;border:1px solid var(--line);border-radius:10px;padding:.9rem 1rem;text-decoration:none;color:inherit;">
+          <strong>Stille &amp; Weite</strong><br><span style="font-size:.82rem;color:var(--copper);">Vertiefend im spirituellen Bereich</span>
+          <p style="margin:.4rem 0 0;font-size:.9rem;color:var(--muted);line-height:1.55;">Ihre App für Stille, Klänge und Bewusstheit im Alltag: Übungen, Wege und Musik.</p>
+        </a>
+      </div>
+    </section>
     <div style="text-align:center;margin:1.6rem 0 2rem;"><button class="secondary" type="button" onclick="window.scrollTo({top:0,behavior:'smooth'})">&uarr; Nach oben</button></div>
   `);
 }
