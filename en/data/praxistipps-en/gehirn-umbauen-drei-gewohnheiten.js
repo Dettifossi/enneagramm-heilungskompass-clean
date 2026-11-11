@@ -10,7 +10,7 @@ export function gehirnUmbauenDreiGewohnheitenPage() {
       <p class="lead-small">The brain is not a fixed structure. It changes with what we repeat, attend to and feel every day. This tip shows three simple habits with which everyday life can be shaped consciously toward contentment.</p>
 
       <div class="psycho-img-wrap" style="margin-top:1rem;">
-        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gehirn-umbauen-drei-gewohnheiten/gehirn-umbauen-drei-gewohnheiten-1-en.jpg" alt="Three-part illustration: Repeating (stacked photos from day 1 to day 21, foundation), Feeling (a young woman places her hand on her heart, times 10 to 40 seconds), Directing attention (she looks at a cornflower in the garden through a magnifying glass)." class="psycho-img" loading="lazy" />
+        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gehirn-umbauen-drei-gewohnheiten/gehirn-umbauen-drei-gewohnheiten-2-en.jpg" alt="Three-part illustration: Repeating (stacked photos from day 1 to day 21, foundation), Feeling (a young woman places her hand on her heart, times 10 to 40 seconds), Directing attention (she looks at a cornflower in the garden through a magnifying glass)." class="psycho-img" loading="lazy" />
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
