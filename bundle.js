@@ -34818,8 +34818,9 @@ function praxistippsHeilpraktikerPage() {
       <h1>Praxistipps vom Heilpraktiker</h1>
       <p class="lead-small">Konkrete Impulse aus der heilpraktischen Praxis von Detlef Rathmer \u2013 k\u00f6rperorientierte \u00dcbungen ebenso wie Tee-Empfehlungen, kleine Rituale und Alltagshilfen. Diese Rubrik wird laufend um neue Themen erweitert.</p>
 
-      <div style="margin:1.5rem 0 0;padding:1.1rem 1.3rem;background:color-mix(in srgb, var(--copper) 6%, var(--paper));border:1px solid var(--line);border-radius:10px;">
-        <p style="font-size:.82rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.04em;margin:0 0 .3rem;">Wichtiger Hinweis &amp; pers\u00f6nliche Anmerkung</p>
+      <details style="margin:1.5rem 0 0;background:color-mix(in srgb, var(--copper) 6%, var(--paper));border:1px solid var(--line);border-radius:10px;">
+        <summary style="padding:.9rem 1.3rem;cursor:pointer;font-size:.82rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.04em;list-style:none;">Wichtiger Hinweis &amp; pers\u00f6nliche Anmerkung <span style="font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted);">\u2013 aufklappen \u25be</span></summary>
+        <div style="padding:0 1.3rem 1.1rem;">
         <p style="font-size:.82rem;color:var(--muted);margin:0 0 .7rem;">von Ihrem Heilpraktiker (\u00fcber 30 Jahre Praxiserfahrung)</p>
         <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0 0 .8rem;">Liebe Nutzerinnen und Nutzer, die Tipps in dieser Rubrik sind aus meiner jahrzehntelangen Praxis entstanden. Sie eignen sich hervorragend zur schnellen Selbsthilfe im Alltag, um kleinere Akutbeschwerden sanft zu lindern und den K\u00f6rper ganzheitlich zu unterst\u00fctzen \u2013 besonders dann, wenn gerade kein Therapeut greifbar ist. Bitte beachten Sie jedoch:</p>
         <ol style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0 0 .8rem;padding-left:1.2rem;">
@@ -34828,7 +34829,8 @@ function praxistippsHeilpraktikerPage() {
           <li><strong>Die K\u00f6nigsdisziplin:</strong> Aus meiner langj\u00e4hrigen Erfahrung bleibt die klassische hom\u00f6opathische Konstitutionstherapie die K\u00f6nigsdisziplin der ganzheitlichen Heilkunde. Als Informationstherapie setzt sie an den tiefsten Ebenen des Organismus an und regt die Selbstheilungskr\u00e4fte grundlegend an.</li>
         </ol>
         <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;">Nutzen Sie diese Praxistipps gerne als wertvolle Begleiter im Alltag \u2013 und wenden Sie sich bei chronischen oder komplexen Themen vertrauensvoll an einen versierten Therapeuten/Hom\u00f6opathen zwecks fundierter hom\u00f6opathischer Konstitutionsbehandlung.</p>
-      </div>
+        </div>
+      </details>
 
       <div style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:1.5rem;">
         ${TIPP_KATEGORIEN.map(k => `
