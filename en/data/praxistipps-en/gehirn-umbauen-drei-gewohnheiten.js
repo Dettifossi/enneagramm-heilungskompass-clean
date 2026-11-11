@@ -9,6 +9,10 @@ export function gehirnUmbauenDreiGewohnheitenPage() {
       <h1 class="h1--tip">The Brain Shapes Along: Repeat, Feel, Direct Attention</h1>
       <p class="lead-small">The brain is not a fixed structure. It changes with what we repeat, attend to and feel every day. This tip shows three simple habits with which everyday life can be shaped consciously toward contentment.</p>
 
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gehirn-umbauen-drei-gewohnheiten/gehirn-umbauen-drei-gewohnheiten-1-en.jpg" alt="Three-part illustration: Repeating (stacked photos from day 1 to day 21, foundation), Feeling (a young woman places her hand on her heart, times 10 to 40 seconds), Directing attention (she looks at a cornflower in the garden through a magnifying glass)." class="psycho-img" loading="lazy" />
+      </div>
+
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Important note</h2>
         <p class="vb-intro" style="margin-bottom:0;">This tip describes self-help exercises for everyday life. It does not replace medical, psychotherapeutic or naturopathic treatment. Positive thinking is no substitute for help with depression or anxiety: persistent low mood lasting more than two weeks belongs in professional hands; with thoughts of self-harm, seek medical help or emergency services immediately.</p>
