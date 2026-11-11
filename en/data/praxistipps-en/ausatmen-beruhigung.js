@@ -80,6 +80,13 @@ export function ausatmenBeruhigungPage() {
           </summary>
           <div style="padding:1rem 1.2rem 1.2rem;">
             ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Seven practical ways to more calm and clarity in everyday life, with observing the exhale as the first exercise.", "7 Wege zu dir selbst")}
+            <div style="margin-top:.8rem;">${bookTip("sei-still-und-wisse-ich-bin-gott", "A spiritual book on the deepest stillness within us and the experience of transcendence beyond all concepts.", "Sei still und wisse – ich bin Gott!")}</div>
+            <div style="margin-top:.8rem;">${bookTip("nichts-und-alles", "A book on the nature of consciousness – between emptiness and fullness, between the nothing and the everything of life.", "Nichts und Alles")}</div>
+            <div style="margin-top:.8rem;">${bookTip("der-raum-hinter-allem", "An exploration of consciousness beyond thought – on the silent space that lies behind all experience.", "Der Raum hinter allem")}</div>
+            <div style="margin-top:.8rem;">${bookTip("heilung-als-erinnerung", "Healing not as repair, but as remembering what we truly are – a profound look at health and wholeness.", "Heilung als Erinnerung")}</div>
+            <div style="margin-top:.8rem;">${bookTip("in-der-tiefe-der-zeit", "A book on consciousness, time and the silent dimension behind all experience.", "In der Tiefe der Zeit")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz", "Meta-Intelligence – the intelligence that unites all other intelligences and unlocks the full potential of consciousness.", "Meta-Intelligence")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Meta-Intelligence as an audiobook – ideal for on the go or for meditative listening.", "Meta-Intelligenz (Hörbuch)")}</div>
           </div>
         </details>
       </div>
