@@ -9,6 +9,10 @@ export function gefuehleAnnehmenAlteLastenPage() {
       <h1 class="h1--tip">Gefühle annehmen, alte Lasten loslassen: sieben Wege aus dem Grübeln</h1>
       <p class="lead-small">Viele Menschen spielen alte Szenen immer wieder durch, oft mit dem Gefühl, dass sie das eigentlich hinter sich lassen müssten. Dieser Tipp zeigt sieben einfache Wege, den Gefühlen Raum zu geben, ohne in ihnen hängen zu bleiben.</p>
 
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gefuehle-annehmen-alte-lasten/gefuehle-annehmen-alte-lasten-1-de.jpg" alt="Siebenteilige Illustration: Annehmen (junge Frau hält ein Herbstblatt), Benennen (Hand aufs Herz), Körper einbeziehen (vier Menschen in Bewegungsübung im Garten), Aufschreiben (Notizbuch auf einem Stein), Selbstmitgefühl (ältere Frau legt die Hand aufs Herz), Neues (Lupe und Orchidee), Schlaf (schlafende Frau)." class="psycho-img" loading="lazy" />
+      </div>
+
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Wichtiger Hinweis</h2>
         <p class="vb-intro" style="margin-bottom:0;">Dieser Tipp beschreibt Selbsthilfe-Übungen für den Alltag. Er ersetzt weder ärztliche noch psychotherapeutische oder heilpraktische Behandlung. Bei schweren oder traumatischen Erlebnissen, bei Albträumen, Panik oder anhaltender Niedergeschlagenheit gehört das Aufarbeiten in fachliche, therapeutische Begleitung. Alte schwere Erinnerungen nicht allein gezielt wieder aufrufen. Bei Gedanken an Selbstverletzung sofort ärztliche Hilfe oder den Notruf 112 in Anspruch nehmen.</p>

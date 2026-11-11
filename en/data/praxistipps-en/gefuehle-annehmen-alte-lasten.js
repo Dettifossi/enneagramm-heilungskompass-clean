@@ -9,6 +9,10 @@ export function gefuehleAnnehmenAlteLastenPage() {
       <h1 class="h1--tip">Accepting Feelings, Letting Go of Old Burdens: Seven Ways Out of Brooding</h1>
       <p class="lead-small">Many people replay old scenes again and again, often feeling that they should have put them behind them long ago. This tip shows seven simple ways to give feelings room without getting stuck in them.</p>
 
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gefuehle-annehmen-alte-lasten/gefuehle-annehmen-alte-lasten-1-en.jpg" alt="Seven-part illustration: acceptance (young woman holding an autumn leaf), naming (hand on heart), body integration (four people doing a movement exercise in the garden), journaling (notebook on a stone), self-compassion (older woman with hand on heart), novelty (magnifying glass and orchid), sleep (sleeping woman)." class="psycho-img" loading="lazy" />
+      </div>
+
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Important note</h2>
         <p class="vb-intro" style="margin-bottom:0;">This tip describes self-help exercises for everyday life. It does not replace medical, psychotherapeutic or naturopathic treatment. With severe or traumatic experiences, nightmares, panic or persistent low mood, working through them belongs in professional, therapeutic hands. Do not deliberately call up heavy old memories on your own. With thoughts of self-harm, seek medical help or emergency services immediately.</p>
