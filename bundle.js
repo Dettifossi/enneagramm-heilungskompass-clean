@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=503";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=504";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -179,6 +179,7 @@ const wenigerIstMehrPage = () => _lazyPage("./data/praxistipps-de/weniger-ist-me
 const ausatmenBeruhigungPage = () => _lazyPage("./data/praxistipps-de/ausatmen-beruhigung.js", "ausatmenBeruhigungPage");
 const guteStimmungVierSchalterPage = () => _lazyPage("./data/praxistipps-de/gute-stimmung-vier-schalter.js", "guteStimmungVierSchalterPage");
 const morgenroutineFuenfGewohnheitenPage = () => _lazyPage("./data/praxistipps-de/morgenroutine-fuenf-gewohnheiten.js", "morgenroutineFuenfGewohnheitenPage");
+const gehirnUmbauenDreiGewohnheitenPage = () => _lazyPage("./data/praxistipps-de/gehirn-umbauen-drei-gewohnheiten.js", "gehirnUmbauenDreiGewohnheitenPage");
  _lazyPage("./data/praxistipps-de/kino-erwachen.js", "kinoErwachenPage");
 const albertBrooksPortraitPage = () => _lazyPage("./data/beruehmte-de/teil8.js", "albertBrooksPortraitPage");
 const emilyBluntPortraitPage = () => _lazyPage("./data/beruehmte-de/teil13.js", "emilyBluntPortraitPage");
@@ -34734,6 +34735,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"ausatmen-beruhigung", titel:"Der Beruhigungsschalter: länger ausatmen, summen, Sicherheit melden", teaser:"Eine kurze Atemübung für unter einer Minute: Die Ausatmung doppelt so lang wie die Einatmung, ein leises Summen und körperliche Sicherheitssignale. Mit Bild, Hinweisen und dem Bezug zu Übung 1 aus »7 Wege zu dir selbst«.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/ausatmen-beruhigung/ausatmen-beruhigung-1.jpg", kategorie:"geist" },
     { slug:"gute-stimmung-vier-schalter", titel:"Vier kleine Schalter für die Stimmung: Abschließen, Würdigen, Lachen, Verbinden", teaser:"Vier einfache Alltagsübungen für wenige Minuten: Kleines abschließen, sich selbst würdigen, lachen und einem Menschen persönlich schreiben. Mit Überblick, Tagesplan und Hinweisen.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gute-stimmung-vier-schalter/gute-stimmung-vier-schalter-1.jpg", kategorie:"geist" },
     { slug:"morgenroutine-fuenf-gewohnheiten", titel:"Fünf Gewohnheiten vor neun Uhr: der gute Start in den Tag", teaser:"Fünf kleine Morgengewohnheiten ohne frühes Aufstehen: fünf Minuten ohne Handy, Tageslicht, kurze Bewegung, ein echter Kontakt und eine Absicht für den Tag. Mit Überblick und Morgenplan.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/morgenroutine-fuenf-gewohnheiten/morgenroutine-fuenf-gewohnheiten-1-de.jpg", kategorie:"geist" },
+    { slug:"gehirn-umbauen-drei-gewohnheiten", titel:"Das Gehirn formt sich mit: Wiederholen, Fühlen, Aufmerksamkeit lenken", teaser:"Drei einfache Gewohnheiten, mit denen sich der Alltag bewusst in Richtung Zufriedenheit prägen lässt: einen guten Gedanken wiederholen, Gutes ganz fühlen und die Aufmerksamkeit zum Guten lenken. Mit Überblick und Tagesablauf.", img:"", kategorie:"geist" },
   ];
   const TIPP_KATEGORIEN = [
     { id:"koerper", label:"K\u00f6rper & Bewegung", icon:"\ud83e\udded" },
@@ -34819,6 +34821,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "morgenroutine-fuenf-gewohnheiten") {
     return morgenroutineFuenfGewohnheitenPage();
+  }
+  if (param === "gehirn-umbauen-drei-gewohnheiten") {
+    return gehirnUmbauenDreiGewohnheitenPage();
   }
 
   return shell(`
