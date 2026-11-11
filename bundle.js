@@ -65474,6 +65474,7 @@ function stillePage() {
           <iframe src="https://www.youtube.com/embed/LcLK3dPagZQ?playsinline=1" title="Achtsamkeits\u00fcbung: Den Ausatem beobachten" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
         </div>
         <p style="font-size:0.82rem;color:var(--muted);margin-top:0.6rem;text-align:center;">\u00dcber 25 Minuten \u2013 eine ausf\u00fchrliche Anleitung von Detlef Rathmer zur Ausatem-Achtsamkeit.</p>
+        <div style="text-align:center;margin-top:.9rem;"><button class="secondary" data-route="praxistipps-heilpraktiker/ausatmen-beruhigung" style="font-size:0.9rem;">Dazu der Praxistipp: Der Beruhigungsschalter \u2192</button></div>
       </div>
 
       ${bookTip("meta-intelligenz", "Wie der Geist lernt, die eigenen Gedanken zu beobachten &ndash; elf Kapitel \u00fcber Bewusstsein, Abstand und innere Klarheit.", "Meta-Intelligenz")}

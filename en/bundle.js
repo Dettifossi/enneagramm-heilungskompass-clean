@@ -45165,6 +45165,7 @@ function stillePage() {
           <iframe src="https://www.youtube.com/embed/LcLK3dPagZQ?playsinline=1" title="Mindfulness Exercise: Observing the Exhale" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
         </div>
         <p style="font-size:0.82rem;color:var(--muted);margin-top:0.6rem;text-align:center;">Over 25 minutes – a detailed guide by Detlef Rathmer on exhale-based mindfulness.</p>
+        <div style="text-align:center;margin-top:.9rem;"><button class="secondary" data-route="praxistipps-heilpraktiker/ausatmen-beruhigung" style="font-size:0.9rem;">See the practice tip: The Calm Switch \u2192</button></div>
       </div>
 
       <div style="margin-top:2.5rem;padding:1.2rem 1.4rem;background:var(--paper);border-radius:14px;border-left:3px solid var(--copper);max-width:480px;margin-left:auto;margin-right:auto;">
