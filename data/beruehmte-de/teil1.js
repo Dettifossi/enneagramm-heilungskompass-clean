@@ -326,7 +326,6 @@ export function christophWaltzPortraitPage() {
         {route:"beruehmte-pierce-brosnan", label:"Portr\u00e4t: Pierce Brosnan (SE1w2)"},
         {route:"beruehmte-alain-delon", label:"Porträt: Alain Delon (SE1w2)"},
         {route:"beruehmte-angelina-jolie", label:"Porträt: Angelina Jolie (SO1w2)"},
-        {route:"beruehmte-anne-will", label:"Porträt: Anne Will (SE1w2)"},
         {route:"beruehmte-arnold-schwarzenegger", label:"Porträt: Arnold Schwarzenegger (SE1w2)"},
         {route:"beruehmte-ben-berndt", label:"Porträt: Ben Berndt (SE1w2)"},
         {route:"beruehmte-dan-brown", label:"Porträt: Dan Brown (SE1w2)"},
@@ -2145,7 +2144,6 @@ export function benBerndtPortraitPage() {
         <h2 class="vb-section">3. Der Zweierflügel: Der freundliche Gastgeber statt der distanzierte Interviewer</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> zeigt sich in genau dieser Selbstbeschreibung als "freundlicher Gastgeber" statt als distanzierter Fragender. Eine selbsterhaltende Eins mit schwach ausgeprägtem Zweierflügel – oder gar eine selbsterhaltende Eins mit Neunerflügel – würde eher auf sachliche Korrektheit pochen und sich stärker zurücknehmen; der Zweierflügel öffnet Berndts Format für die persönliche, oft stundenlange Nähe zum Gast, die "ungeskriptet" von klassischem Interview-Journalismus unterscheidet.</p>
-          <p class="vb-intro">Dieselbe Flügelfärbung – Disziplin und strenger Prinzipienanspruch nach innen, Wärme und persönliche Nähe nach außen – findet sich bei Anne Will (SE1w2): auch dort ein selbst auferlegter Ehrenkodex, kombiniert mit dem Motto, "persönlich zu fragen" statt nur sachlich zu berichten.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Vom Kampfring zur Ruhe: Die Sorge, die sich nicht mehr nach außen richtet</h2>
@@ -2175,7 +2173,6 @@ export function benBerndtPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
-        {route:"beruehmte-anne-will", label:"Porträt: Anne Will (SE1w2)"},
         {route:"beruehmte-alain-delon", label:"Porträt: Alain Delon (SE1w2)"},
         {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
       ])}

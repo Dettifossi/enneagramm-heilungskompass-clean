@@ -2797,45 +2797,49 @@ export function anneWillPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-anne-will-portrait.jpg" alt="Anne Will" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Anne Will</p>
-        <p class="krim-portrait-typ">SP1w2 &middot; Self-Preservation One with a Two-Wing</p>
-        <p class="krim-portrait-subtitle">Journalist &amp; Talk Show Host, born 1966 &ndash; Animal correspondence: Eagle</p>
+        <p class="krim-portrait-typ">SP3w4 &middot; Self-Preservation Three with a Four-Wing</p>
+        <p class="krim-portrait-subtitle">Journalist &amp; talk show host, b. 1966 &ndash; Animal correspondence: Raccoon</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Eagle That Corrects Its Own Flight Path Before Anyone Else Can</h2>
+        <h2 class="vb-section">1. The Raccoon That Works Its Way to a Territory</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>eagle</strong> does not fly wildly or without a plan, but in a controlled, straight line, with a constant eye on its own trajectory. Anne Will, born in 1966 in Cologne, has embodied this straightness for decades: from the "Tagesthemen" news broadcast to "Sportschau" to her own political talk show "Anne Will" (2007–2023, 553 episodes), her path ran remarkably consistently – a rise built on discipline and preparation, not spectacular breaks.</p>
-          <p class="vb-intro">Telling is how she describes her own moderating style: reserved, not centered on herself but on the topic. This is no coincidence but method – the eagle of the Self-Preservation One directs its energy not toward its own stage presence, but toward the flawless execution of its own task.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal correspondence of the Self-Preservation Three: no performance for the gallery, but skilled, persistent work that builds a safe territory. Anne Will, born on 18 March 1966 in Cologne, trained as a volunteer at Sender Freies Berlin and presented the ›Sportschau‹ from 1999, according to turi2 as the first woman in that format. From April 2001 to June 2007 she was on camera for the ›Tagesthemen‹ news, alternating with Ulrich Wickert and later Tom Buhrow. On 14 September 2007 her own political talk show ›Anne Will‹ began on Das Erste, running until the last episode on 3 December 2023, 553 episodes in all.</p>
+          <p class="vb-intro">This path looks like a ladder climbed rung by rung: sport, news, political talk, each step built on the skill of the one before. The raccoon tests before it grabs and holds on to what it has once found secure.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. Worry: One's Own Correctness as the Standard, Not Others'</h2>
+        <h2 class="vb-section">2. The Self-Preservation Three: Competence as Security</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Claudio Naranjo called the Self-Preservation One <strong>Worry</strong> – the inner critic is directed first and foremost against one's own imperfection, not primarily outward. A moment from a ZDF "Til Tonight" interview captures this precisely: Will delivered sharp self-criticism, describing her own on-air language as "overstated, extra correct, super announced" – and called that herself "highly unsympathetic."</p>
-          <p class="vb-intro">This is the Self-Preservation One at its purest: not reprimanding others for a lack of correctness (that would be more the Social One), but recognizing and naming one's own overcorrectness as the flaw. Her own self-description – "I'm a calm type anyway," "calm, composure, journalistic competence, and good preparation" – reads like a commitment to living up to her own work, not a demand placed on others.</p>
+          <p class="vb-intro">The <strong>Self-Preservation Three (SP3)</strong> is the countertype of the Three, the form of the type that looks least like vanity. It does not seek applause but the security that comes from reliable skill. Will's own description fits: ›Ich bin sowieso ein ruhiger Typ‹ (›I am a calm type anyway‹), and she names calm, composure, journalistic competence and good preparation as her strengths. That is the self-presentation of a professional, not of an entertainer. The picture of herself that the Three cultivates is here that of a professional who masters the craft and leaves nothing to chance.</p>
+          <p class="vb-intro">That in 1999 she entered a field then shaped by men, sports journalism, and held her ground there fits the same logic. A place won by demonstrable performance is safer than one won by charm.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Two-Wing: Asking Personal Questions, Not Only Thinking Politically</h2>
+        <h2 class="vb-section">3. The Four-Wing: Self-Observation and the Question About the Person</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> shows in the motto of her own show: "Thinking politically, asking personally." A Self-Preservation One with a weakly developed two-wing would stay purely factual; the two-wing opens the interviewing style toward the personal, relational dimension – not only what position a guest holds, but who the person behind the position is.</p>
-          <p class="vb-intro">The same wing coloring appears in Alain Delon (SP1w2): a controlled, disciplined facade beneath which lies genuine but carefully measured attentiveness to others – in Will's case visible in journalistic curiosity about the person behind the office, not in public emotionality.</p>
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the Self-Preservation Three a tendency to look at oneself from outside and to seek what is distinctive. A moment from the ZDF show ›Til Tonight‹ shows it: Will criticized her own language there as ›übersteigert, extra korrekt, superangesagt‹ (›exaggerated, extra correct, super trendy‹) and called that herself ›hochunsympathisch‹ (›highly unsympathetic‹). Someone who puts herself in view that ironically has a mirror that the Three's plain focus on the task does not bring along. In this shows the self-questioning of the Four-wing.</p>
+          <p class="vb-intro">The motto of her show, ›Politisch denken, persönlich fragen‹ (›think politically, ask personally‹), carries the same coloring: beside the position, she is interested in who the person behind the office is. A Self-Preservation Three with a weakly developed Four-wing would more likely stay with pure objectivity; here the quiet personal question is added.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The Stage She Never Wanted</h2>
+        <h2 class="vb-section">4. The Stage She Did Not Want</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">"I felt completely uncomfortable in front of the camera," Will said, looking back on her early years. This is not a contradiction to her public career but typical for the Self-Preservation One: the stage is not sought because it promises attention, but accepted because the task – correct, serious political information – demands it. The discipline serves the cause, not one's own appearance.</p>
-          <p class="vb-intro">This exact tension – having to be publicly visible even though one's own inclination pulls toward reserve – reads as the typical friction of the Self-Preservation One in a public-facing profession: one's own insecurity is compensated through even more preparation, even more control, not through withdrawal.</p>
+          <p class="vb-intro">›Ich habe mich vor der Kamera total unwohl gefühlt‹ (›I felt completely uncomfortable in front of the camera‹), Will said, looking back on her early years. For a Self-Preservation Three that is consistent: the stage belongs to the job, but feeling at ease on it is not the goal. The insecurity is answered not by withdrawal but by still more preparation, still more reliability. Someone who prepares every show so thoroughly that no question falls flat protects herself from the fear of failing in front of everyone.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation One with a Two-Wing</h2>
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three with a Four-Wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP1w2 shows in Will's journalistic reliability across more than two decades – a host trusted to be thoroughly prepared and fair on any topic, precisely because she took her own fallibility seriously instead of suppressing it.</p>
-          <p class="vb-intro">The shadow lies in exactly the self-criticism she herself exposed: the risk that one's own correctness hardens into a facade perceived as unsympathetic or distant – a strictness toward oneself that reads colder from the outside than it is meant.</p>
+          <p class="vb-intro">The light lies in reliability over more than two decades: a host trusted to be prepared and fair on any topic. The strictness toward herself that she described publicly is no foreign body here but the reverse side of her skill.</p>
+          <p class="vb-intro">The shadow belongs to the Three's pattern. Its passion is vanity, and in the Self-Preservation Three it hides in the look of objectivity: whoever appears ›extra correct‹ is also cultivating an image. Will named this herself. The risk remains that correctness becomes a facade that reads colder than it is meant.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The Eagle That Would Rather Be Too Correct Than Too Casual</h2>
+        <h2 class="vb-section">6. Two Raccoons on the Same Broadcast Slot</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">What remains is the image of a journalist who recognized and openly voiced her own overcorrectness – a rare moment in which the Self-Preservation One quotes her own inner critic publicly, instead of letting it work only in silence.</p>
-          <p class="vb-intro">A straight-line rise, meticulous preparation, public reserve despite decades of visibility – this is the Self-Preservation One with a two-wing, who would rather be remembered as too correct than as too casual.</p>
+          <p class="vb-intro">The last episode of ›Anne Will‹ aired on 3 December 2023, signed off with the words ›Danke, danke, danke‹ (›thank you, thank you, thank you‹). Her Sunday-evening slot on Das Erste was taken over by <a href="javascript:void(0)" data-route="beruehmte-caren-miosga">Caren Miosga (SP3w4)</a>, likewise a raccoon with a four-wing. Both stand for competence over glamor; Miosga's portrait describes how her calmer tone differs from Will's way of conducting interviews. The same basic stance can show itself in different styles within one subtype.</p>
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-kathrin-bauerfeind">Kathrin Bauerfeind (SP3w4)</a> also belongs in this line: journalists who built their standing on demonstrable skill.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Woman Who Saw Through Her Own Correctness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In retrospect, what remains is a journalist who earned her place and openly voiced her own overcorrectness. The typing remains an interpretation: it rests on Will's own statements and her career, not on knowledge of her inner life.</p>
         </blockquote>
 
       </div>
@@ -2844,11 +2848,9 @@ export function anneWillPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
-        {route:"beruehmte-alain-delon", label:"Portrait: Alain Delon (SP1w2)"},
-        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
-        {route:"beruehmte-ben-berndt", label:"Portrait: Ben Berndt (SP1w2)"},
-        {route:"beruehmte-herfried-muenkler", label:"Portrait: Herfried Münkler (SO6w7)"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-caren-miosga", label:"Portrait: Caren Miosga (SP3w4)"},
+        {route:"beruehmte-kathrin-bauerfeind", label:"Portrait: Kathrin Bauerfeind (SP3w4)"},
         {route:"beruehmte-jens-riewa", label:"Portrait: Jens Riewa (SO9w1)"},
       ])}
     </div>

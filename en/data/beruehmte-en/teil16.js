@@ -3965,7 +3965,7 @@ export function jensRiewaPortraitPage() {
         <h2 class="vb-section">6. Three Faces of Reliability: Riewa, Hanks and Will</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-tom-hanks">Tom Hanks</a> (SO9w1), Riewa shares the subtype: both stand for reliability, both have a calming effect on the audience, and both combine a calm basic attitude with the One-wing that watches quality. Hanks does it as an actor, Riewa as the voice of the news.</p>
-          <p class="vb-intro">A counter-image is <a href="javascript:void(0)" data-route="beruehmte-anne-will">Anne Will</a> (SP1w2): she too presented for the ARD, but as a self-preservation One with a Two-wing the exact, probing engagement stood in the foreground, in Riewa as a social Nine it is the calm presence for the community.</p>
+          <p class="vb-intro">A counter-image is <a href="javascript:void(0)" data-route="beruehmte-anne-will">Anne Will</a> (SP3w4): she too presented for the ARD, but as a self-preservation Three with a Four-wing a probing way of interviewing built on preparation and skill stood in the foreground, in Riewa as a social Nine it is the calm presence for the community.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
@@ -3977,7 +3977,7 @@ export function jensRiewaPortraitPage() {
         {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
         {route:"lebensmusterkompass/so9", label:"Life Pattern Compass: SO9 – Buffalo"},
         {route:"beruehmte-tom-hanks", label:"Portrait: Tom Hanks (SO9w1) – same subtype, reliability as a trademark"},
-        {route:"beruehmte-anne-will", label:"Portrait: Anne Will (SP1w2) – presenter, different subtype"},
+        {route:"beruehmte-anne-will", label:"Portrait: Anne Will (SP3w4) – presenter, different subtype"},
         {route:"beruehmte-dieter-thomas-heck", label:"Portrait: Dieter Thomas Heck (SO9w1)"},
         {route:"beruehmte-hans-sigl", label:"Portrait: Hans Sigl (SO9w1)"},
       ])}

@@ -2167,7 +2167,6 @@ export function benBerndtPortraitPage() {
         <h2 class="vb-section">3. The Two-Wing: The Friendly Host, Not the Detached Interviewer</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Two-wing (w2)</strong> shows in exactly this self-description as a "friendly host" rather than a detached questioner. A Self-Preservation One with a weakly developed two-wing – or even a Self-Preservation One with a nine-wing – would more likely insist on strict factual correctness and hold back more; the two-wing opens Berndt's format toward the personal, often hours-long closeness to the guest that sets "ungeskriptet" apart from classical interview journalism.</p>
-          <p class="vb-intro">The same wing coloring – discipline and strict principle turned inward, warmth and personal closeness turned outward – appears in Anne Will (SP1w2): here too a self-imposed code of honor, combined with a motto of "asking personally" rather than merely reporting factually.</p>
         </blockquote>
 
         <h2 class="vb-section">4. From the Fight Ring to Calm: Worry No Longer Directed Outward</h2>
@@ -2197,7 +2196,6 @@ export function benBerndtPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
-        {route:"beruehmte-anne-will", label:"Portrait: Anne Will (SP1w2)"},
         {route:"beruehmte-alain-delon", label:"Portrait: Alain Delon (SP1w2)"},
         {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
       ])}

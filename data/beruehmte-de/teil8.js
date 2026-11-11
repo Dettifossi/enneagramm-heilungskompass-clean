@@ -2198,7 +2198,6 @@ export function alainDelonPortraitPage() {
         {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
         {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
         {route:"beruehmte-arnold-schwarzenegger", label:"Porträt: Arnold Schwarzenegger (SE1w2)"},
-        {route:"beruehmte-anne-will", label:"Porträt: Anne Will (SE1w2)"},
         {route:"beruehmte-queen-elizabeth-ii", label:"Porträt: Queen Elizabeth II. (SE1w9)"},
         {route:"beruehmte-tim-cook", label:"Porträt: Tim Cook (SE1w9)"},
         {route:"krankheitsportraets-alain-delon", label:"Krankheitsporträt: Alain Delon (SE1w2)"},
@@ -2218,45 +2217,49 @@ export function anneWillPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-anne-will-portrait.jpg" alt="Anne Will" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Anne Will</p>
-        <p class="krim-portrait-typ">SE1w2 &middot; Selbsterhaltende Eins mit Zweierflügel</p>
-        <p class="krim-portrait-subtitle">Journalistin &amp; Moderatorin, geb. 1966 &ndash; Tierentsprechung: Adler</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltende Drei mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Journalistin &amp; Moderatorin, geb. 1966 &ndash; Tierentsprechung: Waschbär</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. Der Adler, der die eigene Flugbahn korrigiert, bevor jemand anderes es tut</h2>
+        <h2 class="vb-section">1. Der Waschbär, der sich sein Territorium erarbeitet</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Adler</strong> fliegt nicht wild und ungeplant, sondern kontrolliert, geradlinig, mit ständigem Blick auf die eigene Flugbahn. Anne Will, 1966 in Köln geboren, verkörpert diese Geradlinigkeit seit Jahrzehnten: von den "Tagesthemen" über die "Sportschau" bis zur eigenen politischen Talkshow "Anne Will" (2007–2023, 553 Folgen) verlief ihr Weg bemerkenswert konsequent – ein Aufstieg durch Disziplin und Vorbereitung, nicht durch spektakuläre Brüche.</p>
-          <p class="vb-intro">Bezeichnend ist, wie sie ihren eigenen Moderationsstil beschreibt: zurückhaltend, nicht auf sich selbst, sondern auf die Sache konzentriert. Das ist kein Zufall, sondern Methode – der Adler der selbsterhaltenden Eins lenkt seine Energie nicht auf die eigene Bühnenpräsenz, sondern auf die makellose Ausführung der eigenen Aufgabe.</p>
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist die Tierentsprechung der selbsterhaltenden Drei: kein Auftritt für die Galerie, sondern geschickte, beharrliche Arbeit, mit der er sich ein sicheres Revier schafft. Anne Will, am 18. März 1966 in Köln geboren, volontierte beim Sender Freies Berlin und moderierte ab 1999 die ›Sportschau‹, nach Angaben von turi2 als erste Frau in diesem Format. Von April 2001 bis Juni 2007 stand sie bei den ›Tagesthemen‹ vor der Kamera, abwechselnd mit Ulrich Wickert und später Tom Buhrow. Am 14. September 2007 startete ihre eigene politische Talkshow ›Anne Will‹ im Ersten, die bis zur letzten Ausgabe am 3. Dezember 2023 lief, 553 Folgen lang.</p>
+          <p class="vb-intro">Dieser Weg wirkt wie eine Leiter, die Sprosse für Sprosse erklommen wurde: Sport, Nachrichten, politischer Talk, jeder Schritt auf das Können des vorigen gebaut. Der Waschbär prüft, bevor er greift, und hält fest, was er einmal als sicher erkannt hat.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. Die Sorge: Die eigene Korrektheit als Maßstab, nicht die der anderen</h2>
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Kompetenz als Sicherheit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Claudio Naranjo nannte die selbsterhaltende Eins die <strong>Sorge</strong> – der innere Kritiker richtet sich nicht primär nach außen, sondern zuerst gegen die eigene Unvollkommenheit. Ein Interview-Moment bei ZDF "Til Tonight" bringt das auf den Punkt: Will übte scharfe Selbstkritik und beschrieb ihre eigene Sprache als "übersteigert, extra korrekt, superangesagt" – und nannte das selbst "hochunsympathisch".</p>
-          <p class="vb-intro">Hier zeigt sich die selbsterhaltende Eins in Reinform: nicht andere für mangelnde Korrektheit rügen (das wäre eher die soziale Eins), sondern die eigene Überkorrektheit selbst als Fehler erkennen und benennen. Ihre eigene Beschreibung – "ich bin sowieso ein ruhiger Typ", "Ruhe, Souveränität, journalistische Kompetenz und gute Vorbereitung" – liest sich wie eine Selbstverpflichtung, der eigenen Arbeit gerecht zu werden, nicht wie ein Anspruch an andere.</p>
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei, also die Form des Typs, die am wenigsten nach Eitelkeit aussieht. Sie sucht nicht den Applaus, sondern die Sicherheit, die aus verlässlichem Können kommt. Wills eigene Beschreibung klingt entsprechend: ›Ich bin sowieso ein ruhiger Typ‹, und als ihre Stärken nennt sie Ruhe, Souveränität, journalistische Kompetenz und gute Vorbereitung. Das ist die Selbstdarstellung einer Fachfrau, nicht einer Entertainerin. Das Bild von sich selbst, das die Drei pflegt, ist hier das einer Fachfrau, die ihr Handwerk beherrscht und nichts dem Zufall überlässt.</p>
+          <p class="vb-intro">Dass sie 1999 in einem damals von Männern geprägten Feld, dem Sportjournalismus, antrat und dort bestand, passt zur selben Logik. Ein Platz, der durch nachweisbare Leistung erobert ist, ist sicherer als einer, der durch Charme gewonnen wurde.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. Der Zweierflügel: Persönlich fragen, nicht nur politisch denken</h2>
+        <h2 class="vb-section">3. Der Viererflügel: Selbstbeobachtung und die Frage nach der Person</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> zeigt sich im Motto ihrer eigenen Sendung: "Politisch denken, persönlich fragen". Eine selbsterhaltende Eins mit schwach ausgeprägtem Zweierflügel würde beim rein Sachlichen bleiben; der Zweierflügel öffnet die Interviewführung für die persönliche, beziehungsorientierte Dimension – nicht nur, welche Position ein Gast vertritt, sondern wer die Person hinter der Position ist.</p>
-          <p class="vb-intro">Dieselbe Flügelfärbung findet sich bei Alain Delon (SE1w2): eine kontrollierte, disziplinierte Fassade, unter der eine echte, aber sorgfältig dosierte Zuwendung zu anderen liegt – bei Will sichtbar in der journalistischen Neugier auf den Menschen hinter dem Amt, nicht in öffentlicher Emotionalität.</p>
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der selbsterhaltenden Drei die Neigung, sich selbst von außen zu betrachten und Unverwechselbares zu suchen. Ein Moment aus der ZDF-Sendung ›Til Tonight‹ zeigt das: Will kritisierte dort ihre eigene Sprache als ›übersteigert, extra korrekt, superangesagt‹ und nannte das selbst ›hochunsympathisch‹. Wer sich so ironisch in den Blick nimmt, hat einen Spiegel, den die reine Sachorientierung der Drei allein nicht mitbringt. Darin zeigt sich die Selbstbefragung des Viererflügels.</p>
+          <p class="vb-intro">Auch das Motto ihrer Sendung, ›Politisch denken, persönlich fragen‹, trägt diese Färbung: Neben der Sachposition interessiert sie, wer die Person hinter dem Amt ist. Eine selbsterhaltende Drei mit schwach ausgeprägtem Viererflügel bliebe eher bei der reinen Sachlichkeit; hier kommt die leise persönliche Frage hinzu.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Bühne, die sie nicht wollte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">"Ich habe mich vor der Kamera total unwohl gefühlt", sagte Will rückblickend über ihre frühen Jahre. Das ist kein Widerspruch zur öffentlichen Karriere, sondern typisch für die selbsterhaltende Eins: Die Bühne wird nicht gesucht, weil sie Aufmerksamkeit verspricht, sondern in Kauf genommen, weil die Aufgabe – korrekte, seriöse politische Information – es verlangt. Die Disziplin gilt der Sache, nicht dem eigenen Auftritt.</p>
-          <p class="vb-intro">Genau diese Spannung – öffentlich sichtbar sein müssen, obwohl die eigene Neigung zur Zurückhaltung drängt – lässt sich als die typische Reibung der selbsterhaltenden Eins in einem sozialen Beruf lesen: die eigene Unsicherheit wird durch noch mehr Vorbereitung, noch mehr Kontrolle kompensiert, nicht durch Rückzug.</p>
+          <p class="vb-intro">›Ich habe mich vor der Kamera total unwohl gefühlt‹, sagte Will rückblickend über ihre frühen Jahre. Für eine selbsterhaltende Drei ist das stimmig: Die Bühne gehört zum Beruf, aber das Wohlgefühl auf ihr ist nicht das Ziel. Die Unsicherheit wird nicht durch Rückzug beantwortet, sondern durch noch mehr Vorbereitung, noch mehr Verlässlichkeit. Wer jede Sendung so gründlich vorbereitet, dass keine Frage ins Leere geht, schützt sich vor der Angst, vor aller Augen zu scheitern.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Eins mit Zweierflügel</h2>
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei mit Viererflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Beste an der SE1w2 zeigt sich in Wills journalistischer Verlässlichkeit über mehr als zwei Jahrzehnte hinweg – eine Moderatorin, der man zutraute, bei jedem Thema gründlich vorbereitet und fair zu sein, gerade weil sie die eigene Fehlbarkeit ernst nahm, statt sie zu verdrängen.</p>
-          <p class="vb-intro">Der Schatten liegt in genau der Selbstkritik, die sie selbst offenlegte: die Gefahr, dass die eigene Korrektheit zur Fassade gerinnt, die als unsympathisch oder unnahbar wahrgenommen wird – eine Strenge gegen sich selbst, die nach außen kälter wirkt, als sie gemeint ist.</p>
+          <p class="vb-intro">Das Licht liegt in der Verlässlichkeit über mehr als zwei Jahrzehnte: Eine Moderatorin, der man zutraute, bei jedem Thema vorbereitet und fair zu sein. Die Strenge gegen sich selbst, die sie öffentlich beschrieb, ist dabei kein Fremdkörper, sondern die Rückseite des Könnens.</p>
+          <p class="vb-intro">Der Schatten gehört zum Muster der Drei. Ihre Leidenschaft ist die Eitelkeit, und bei der selbsterhaltenden Drei versteckt sie sich im Auftreten der Sachlichkeit: Wer ›extra korrekt‹ erscheint, pflegt auch ein Bild. Will hat das selbst benannt. Die Gefahr bleibt, dass die Korrektheit zur Fassade wird, die kühler wirkt, als sie gemeint ist.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Der Adler, der lieber zu korrekt als zu lässig sein wollte</h2>
+        <h2 class="vb-section">6. Zwei Waschbären auf demselben Sendeplatz</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Am Ende bleibt das Bild einer Journalistin, die ihre eigene Überkorrektheit selbst erkannt und offen ausgesprochen hat – ein seltener Moment, in dem die selbsterhaltende Eins ihren eigenen inneren Kritiker öffentlich zitiert, statt ihn nur im Stillen wirken zu lassen.</p>
-          <p class="vb-intro">Geradliniger Aufstieg, akribische Vorbereitung, öffentliche Zurückhaltung trotz jahrzehntelanger Sichtbarkeit – darin zeigt sich die selbsterhaltende Eins mit Zweierflügel, die lieber als zu korrekt denn als zu lässig in Erinnerung bleiben wollte.</p>
+          <p class="vb-intro">Am 3. Dezember 2023 lief die letzte Ausgabe von ›Anne Will‹, verabschiedet mit den Worten ›Danke, danke, danke‹. Ihren Sonntagabend-Sendeplatz im Ersten übernahm <a href="javascript:void(0)" data-route="beruehmte-caren-miosga">Caren Miosga (SE3w4)</a>, ebenfalls Waschbär mit Viererflügel. Beide stehen für Kompetenz statt Glanz; im Porträt Miosgas ist beschrieben, wie sich ihr ruhigerer Ton von Wills Gesprächsführung unterscheidet. Dieselbe Grundhaltung kann sich im selben Subtyp in verschiedenen Stilen zeigen.</p>
+          <p class="vb-intro">Auch <a href="javascript:void(0)" data-route="beruehmte-kathrin-bauerfeind">Kathrin Bauerfeind (SE3w4)</a> gehört in diese Reihe: Journalistinnen, die ihre Stellung über nachweisbares Können aufgebaut haben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Die Frau, die ihre eigene Korrektheit durchschaute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Rückblick bleibt eine Journalistin, die sich ihren Platz erarbeitet und ihre eigene Überkorrektheit offen ausgesprochen hat. Die Typisierung bleibt eine Deutung: Sie stützt sich auf Wills eigene Aussagen und auf die Laufbahn, nicht auf Kenntnis ihres Innenlebens.</p>
         </blockquote>
 
       </div>
@@ -2265,11 +2268,9 @@ export function anneWillPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
-        {route:"beruehmte-alain-delon", label:"Porträt: Alain Delon (SE1w2)"},
-        {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
-        {route:"beruehmte-ben-berndt", label:"Porträt: Ben Berndt (SE1w2)"},
-        {route:"beruehmte-herfried-muenkler", label:"Porträt: Herfried Münkler (SO6w7)"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-caren-miosga", label:"Porträt: Caren Miosga (SE3w4)"},
+        {route:"beruehmte-kathrin-bauerfeind", label:"Porträt: Kathrin Bauerfeind (SE3w4)"},
         {route:"beruehmte-jens-riewa", label:"Porträt: Jens Riewa (SO9w1)"},
       ])}
     </div>

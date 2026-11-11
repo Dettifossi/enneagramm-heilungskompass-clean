@@ -2117,7 +2117,6 @@ export function alainDelonPortraitPage() {
         {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
         {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
         {route:"beruehmte-arnold-schwarzenegger", label:"Portrait: Arnold Schwarzenegger (SP1w2)"},
-        {route:"beruehmte-anne-will", label:"Portrait: Anne Will (SP1w2)"},
         {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SP1w9)"},
         {route:"beruehmte-tim-cook", label:"Portrait: Tim Cook (SP1w9)"},
         {route:"krankheitsportraets-alain-delon", label:"Illness Portrait: Alain Delon (SP1w2)"},
@@ -2189,7 +2188,6 @@ export function herfriedMuenklerPortraitPage() {
         {route:"beruehmte-anne-applebaum", label:"Portrait: Anne Applebaum (SO6w7)"},
         {route:"beruehmte-donata-hopfen", label:"Portrait: Donata Hopfen (SO6w7)"},
         {route:"beruehmte-wolfram-eilenberger", label:"Portrait: Wolfram Eilenberger (SO6w7) – same watch, different danger"},
-        {route:"beruehmte-anne-will", label:"Portrait: Anne Will (SP1w2)"},
         {route:"beruehmte-heinz-rudolf-kunze", label:"Portrait: Heinz Rudolf Kunze (SE6w7)"},
       ])}
     </div>

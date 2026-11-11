@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=506";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=507";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -30302,9 +30302,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Wolfram Eilenberger – Sozialer Typ 6",
     teaser:"SO6w7 · geb. 1972. Philosoph, Gründungschefredakteur des Philosophie Magazins, Autor des Bestsellers ›Zeit der Zauberer‹ über Cassirer, Heidegger, Wittgenstein und Benjamin. Trägt Ideengeschichte mit hohem Tempo aus dem Seminarraum in die breite Öffentlichkeit. Tierentsprechung: Erdmännchen.",
     land:"Deutschland", tags:["Wissenschaft","Kultur"], gender:"m"},
-  { route:"beruehmte-anne-will", name:"Anne Will", added:"2026-09-16", subtyp:"SE1w2",
-    heading:"Anne Will – Selbsterhaltende Eins",
-    teaser:"SE1w2 · geb. 1966. Journalistin und Moderatorin, u. a. Tagesthemen und die politische Talkshow ›Anne Will‹ (2007–2023). Bekannt für akribische Vorbereitung und strikte Neutralität, übte öffentlich Selbstkritik an der eigenen Überkorrektheit. Tierentsprechung: Adler.",
+  { route:"beruehmte-anne-will", name:"Anne Will", added:"2026-09-16", subtyp:"SE3w4",
+    heading:"Anne Will – Selbsterhaltende Drei",
+    teaser:"SE3w4 · geb. 1966. Journalistin und Moderatorin, u. a. Sportschau, Tagesthemen und die politische Talkshow ›Anne Will‹ (2007–2023). Kompetenz durch Vorbereitung, übte öffentlich Selbstkritik an der eigenen Überkorrektheit. Tierentsprechung: Waschbär.",
     land:"Deutschland", tags:["Medien"], gender:"f"},
   { route:"beruehmte-ben-berndt", name:"Ben Berndt", added:"2026-09-16", subtyp:"SE1w2",
     heading:"Ben Berndt – Selbsterhaltende Eins",

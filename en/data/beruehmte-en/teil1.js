@@ -326,7 +326,6 @@ export function christophWaltzPortraitPage() {
         {route:"beruehmte-pierce-brosnan", label:"Portrait: Pierce Brosnan (SP1w2)"},
         {route:"beruehmte-alain-delon", label:"Portrait: Alain Delon (SP1w2)"},
         {route:"beruehmte-angelina-jolie", label:"Portrait: Angelina Jolie (SO1w2)"},
-        {route:"beruehmte-anne-will", label:"Portrait: Anne Will (SP1w2)"},
         {route:"beruehmte-arnold-schwarzenegger", label:"Portrait: Arnold Schwarzenegger (SP1w2)"},
         {route:"beruehmte-ben-berndt", label:"Portrait: Ben Berndt (SP1w2)"},
         {route:"beruehmte-dan-brown", label:"Portrait: Dan Brown (SP1w2)"},

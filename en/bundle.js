@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=503";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=504";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -4492,9 +4492,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Wolfram Eilenberger – Social Type 6",
     teaser:"SO6w7 · b. 1972. Philosopher, founding editor-in-chief of the Philosophie Magazin, author of the bestseller ›Time of the Magicians‹ about Cassirer, Heidegger, Wittgenstein and Benjamin. Carries intellectual history out of the seminar room into the broad public at high speed. Animal correspondence: Meerkat.",
     land:"Germany", tags:["Wissenschaft","Kultur"], gender:"m"},
-{ route:"beruehmte-anne-will", name:"Anne Will", added:"2026-09-16", subtyp:"SE1w2",
-    heading:"Anne Will – Self-Preservation One",
-    teaser:"SP1w2 · b. 1966. Journalist and talk show host, including Tagesthemen news and the political talk show ›Anne Will‹ (2007–2023). Known for meticulous preparation and strict neutrality, publicly self-critical about her own overcorrectness. Animal correspondence: Eagle.",
+{ route:"beruehmte-anne-will", name:"Anne Will", added:"2026-09-16", subtyp:"SE3w4",
+    heading:"Anne Will – Self-Preservation Three",
+    teaser:"SP3w4 · b. 1966. Journalist and talk show host, including Sportschau, Tagesthemen news and the political talk show ›Anne Will‹ (2007–2023). Competence through preparation, publicly self-critical about her own overcorrectness. Animal correspondence: Raccoon.",
     land:"Germany", tags:["Medien"], gender:"f"},
 { route:"beruehmte-ben-berndt", name:"Ben Berndt", added:"2026-09-16", subtyp:"SE1w2",
     heading:"Ben Berndt – Self-Preservation One",
