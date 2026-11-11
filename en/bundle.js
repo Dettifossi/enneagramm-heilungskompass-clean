@@ -6248,7 +6248,7 @@ function _neuAktiv(route) {
   return !!d && (new Date() - new Date(d)) < 30 * 864e5;
 }
 
-const HEILWISSEN_ROUTES = new Set(["sonntagsgeschichte", "wann-entsteht-der-typ", "kroetenschlucken", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "nicht-reale-vorstellungen", "wahnideen-nicht-reale-vorstellungen", "arzneimittelbilder-9-typen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9, "mindmaps-single-rubriken", "mindmap-platin", "mindmap-ignatia", "mindmap-hyoscyamus", "mindmap-tarentula", "mindmap-stramonium", "mindmap-opium", "mindmap-belladonna", "mindmap-veratrum", "mindmap-cannabis", "claudio-naranjo-lehrer", "david-daniels-gesetze", "tugenden-enneagramm", "kindheitspraegungen-enneagramm"].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["wann-entsteht-der-typ", "kroetenschlucken", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "nicht-reale-vorstellungen", "wahnideen-nicht-reale-vorstellungen", "arzneimittelbilder-9-typen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9, "mindmaps-single-rubriken", "mindmap-platin", "mindmap-ignatia", "mindmap-hyoscyamus", "mindmap-tarentula", "mindmap-stramonium", "mindmap-opium", "mindmap-belladonna", "mindmap-veratrum", "mindmap-cannabis", "claudio-naranjo-lehrer", "david-daniels-gesetze", "tugenden-enneagramm", "kindheitspraegungen-enneagramm"].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -6393,7 +6393,6 @@ text.nav = [
     { route: "david-daniels-gesetze", label: "David Daniels: The Three Energy–Attention Laws" },
     { route: "tugenden-enneagramm", label: "The Virtues in the Enneagram" },
     { route: "spirituelles-enneagramm", label: "The Spiritual Enneagram: Psychology, Spirituality or Both?" },
-    { route: "sonntagsgeschichte", label: "A Healing Enneagram Sunday Story" },
     { route: "kindheitspraegungen-enneagramm", label: "Childhood Imprints and Autobiographical Key Themes" },
     { route: "beruehmte-persoenlichkeiten", label: "Famous Personalities" },
     { route: "kriminalpsychologie", label: "Fascinating Criminal Cases (Criminal Psychology)" },
@@ -6421,6 +6420,13 @@ text.nav = [
     { route: "tierlexikon", label: "Animal Lexicon" },
     { route: "tierforscher-uebereinstimmung", label: "Animal-Researcher Correspondence" },
     { route: "subtyp-comicfiguren", label: "The 27 Subtypes as Comic Characters" },
+    { heading: "Reference" },
+    { route: "library", label: "Library" },
+    { route: "zahlen-fakten", label: "The Compass in Numbers" },
+    { route: "meinen-typ-finden", label: "Finding my type" },
+    { route: "register", label: "Index" },
+  ]},
+  { route: "entdecken", label: "Discover", dropdown: [
     { heading: "Practice & Play" },
     { route: "quiz", label: "Quiz" },
     { route: "enneagramm-memory", label: "Enneagram Memory (matching game, 3 levels)" },
@@ -6440,6 +6446,7 @@ text.nav = [
     { route: "enneagramm-astrologie", label: "Enneagram meets Astrology" },
     { route: "yogi-tee-kompass", label: "Yogi Tea Compass (teas for 9 types & 27 subtypes)" },
     { heading: "Enneagram in Culture & World" },
+    { route: "sonntagsgeschichte", label: "A Healing Enneagram Sunday Story" },
     { route: "ennead-enneagramm", label: "The Ennead of Heliopolis and the Enneagram" },
     { route: "navagraha-enneagramm", label: "Navagraha and the Enneagram" },
     { route: "enneagramm-odyssee", label: "Enneagram Meets the Odyssey" },
@@ -6451,11 +6458,6 @@ text.nav = [
     { route: "planetenzuordnungen", label: "Planets & Moons of the Solar System" },
     { route: "zitate", label: "Quotes of the Wise" },
     { route: "tischdialoge", label: "Table Dialogues of the 27 Subtypes" },
-    { heading: "Reference" },
-    { route: "library", label: "Library" },
-    { route: "zahlen-fakten", label: "The Compass in Numbers" },
-    { route: "meinen-typ-finden", label: "Finding my type" },
-    { route: "register", label: "Index" },
   ]},
   { route: "schaubilder", label: "Diagrams", dropdown: [
     { heading: "Foundations & Structure of the Enneagram" },
