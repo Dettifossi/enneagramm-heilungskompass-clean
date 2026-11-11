@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=504";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=505";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -180,6 +180,9 @@ const ausatmenBeruhigungPage = () => _lazyPage("./data/praxistipps-de/ausatmen-b
 const guteStimmungVierSchalterPage = () => _lazyPage("./data/praxistipps-de/gute-stimmung-vier-schalter.js", "guteStimmungVierSchalterPage");
 const morgenroutineFuenfGewohnheitenPage = () => _lazyPage("./data/praxistipps-de/morgenroutine-fuenf-gewohnheiten.js", "morgenroutineFuenfGewohnheitenPage");
 const gehirnUmbauenDreiGewohnheitenPage = () => _lazyPage("./data/praxistipps-de/gehirn-umbauen-drei-gewohnheiten.js", "gehirnUmbauenDreiGewohnheitenPage");
+const gefuehleAnnehmenAlteLastenPage = () => _lazyPage("./data/praxistipps-de/gefuehle-annehmen-alte-lasten.js", "gefuehleAnnehmenAlteLastenPage");
+const glueckKeineAnkunftPage = () => _lazyPage("./data/praxistipps-de/gluck-keine-ankunft.js", "glueckKeineAnkunftPage");
+const reizeFastenRuhetagPage = () => _lazyPage("./data/praxistipps-de/reize-fasten-ruhetag.js", "reizeFastenRuhetagPage");
  _lazyPage("./data/praxistipps-de/kino-erwachen.js", "kinoErwachenPage");
 const albertBrooksPortraitPage = () => _lazyPage("./data/beruehmte-de/teil8.js", "albertBrooksPortraitPage");
 const emilyBluntPortraitPage = () => _lazyPage("./data/beruehmte-de/teil13.js", "emilyBluntPortraitPage");
@@ -34736,6 +34739,9 @@ function praxistippsHeilpraktikerPage() {
     { slug:"gute-stimmung-vier-schalter", titel:"Vier kleine Schalter für die Stimmung: Abschließen, Würdigen, Lachen, Verbinden", teaser:"Vier einfache Alltagsübungen für wenige Minuten: Kleines abschließen, sich selbst würdigen, lachen und einem Menschen persönlich schreiben. Mit Überblick, Tagesplan und Hinweisen.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gute-stimmung-vier-schalter/gute-stimmung-vier-schalter-1.jpg", kategorie:"geist" },
     { slug:"morgenroutine-fuenf-gewohnheiten", titel:"Fünf Gewohnheiten vor neun Uhr: der gute Start in den Tag", teaser:"Fünf kleine Morgengewohnheiten ohne frühes Aufstehen: fünf Minuten ohne Handy, Tageslicht, kurze Bewegung, ein echter Kontakt und eine Absicht für den Tag. Mit Überblick und Morgenplan.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/morgenroutine-fuenf-gewohnheiten/morgenroutine-fuenf-gewohnheiten-1-de.jpg", kategorie:"geist" },
     { slug:"gehirn-umbauen-drei-gewohnheiten", titel:"Das Gehirn formt sich mit: Wiederholen, Fühlen, Aufmerksamkeit lenken", teaser:"Drei einfache Gewohnheiten, mit denen sich der Alltag bewusst in Richtung Zufriedenheit prägen lässt: einen guten Gedanken wiederholen, Gutes ganz fühlen und die Aufmerksamkeit zum Guten lenken. Mit Überblick und Tagesablauf.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gehirn-umbauen-drei-gewohnheiten/gehirn-umbauen-drei-gewohnheiten-1-de.jpg", kategorie:"geist" },
+    { slug:"gefuehle-annehmen-alte-lasten", titel:"Gefühle annehmen, alte Lasten loslassen: sieben Wege aus dem Grübeln", teaser:"Warum alte Erlebnisse so oft wiederkehren und was im Alltag hilft: Gefühle annehmen und benennen, den Körper einbeziehen, aufschreiben, Selbstmitgefühl, Neues ausprobieren und gut schlafen. Mit Überblick und kleinem Plan.", img:"", kategorie:"geist" },
+    { slug:"gluck-keine-ankunft", titel:"Glück ist keine Ankunft: warum ›Wenn erst …‹ nicht trägt", teaser:"Der häufigste Denkfehler beim Glück: es an eine künftige Bedingung zu knüpfen. Warum das Gehirn dabei mitspielt und wie sich die Aufmerksamkeit zurück in die Gegenwart lenken lässt, mit konkreter Dankbarkeit und einer einfachen Frage.", img:"", kategorie:"geist" },
+    { slug:"reize-fasten-ruhetag", titel:"Reize fasten: ein ruhiger Tag als Neustart für Antrieb und Aufmerksamkeit", teaser:"Wenn alles flach wirkt und das Handy spannender ist als die eigenen Ziele: ein ruhiger Tag mit wenig Reizen, sanften Tätigkeiten und der Reihenfolge Aufwand vor Belohnung, dazu Anregungen für den Alltag.", img:"", kategorie:"geist" },
   ];
   const TIPP_KATEGORIEN = [
     { id:"koerper", label:"K\u00f6rper & Bewegung", icon:"\ud83e\udded" },
@@ -34824,6 +34830,15 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "gehirn-umbauen-drei-gewohnheiten") {
     return gehirnUmbauenDreiGewohnheitenPage();
+  }
+  if (param === "gefuehle-annehmen-alte-lasten") {
+    return gefuehleAnnehmenAlteLastenPage();
+  }
+  if (param === "gluck-keine-ankunft") {
+    return glueckKeineAnkunftPage();
+  }
+  if (param === "reize-fasten-ruhetag") {
+    return reizeFastenRuhetagPage();
   }
 
   return shell(`

@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=501";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=502";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -194,6 +194,9 @@ const ausatmenBeruhigungPage = () => _lazyPage("./data/praxistipps-en/ausatmen-b
 const guteStimmungVierSchalterPage = () => _lazyPage("./data/praxistipps-en/gute-stimmung-vier-schalter.js", "guteStimmungVierSchalterPage");
 const morgenroutineFuenfGewohnheitenPage = () => _lazyPage("./data/praxistipps-en/morgenroutine-fuenf-gewohnheiten.js", "morgenroutineFuenfGewohnheitenPage");
 const gehirnUmbauenDreiGewohnheitenPage = () => _lazyPage("./data/praxistipps-en/gehirn-umbauen-drei-gewohnheiten.js", "gehirnUmbauenDreiGewohnheitenPage");
+const gefuehleAnnehmenAlteLastenPage = () => _lazyPage("./data/praxistipps-en/gefuehle-annehmen-alte-lasten.js", "gefuehleAnnehmenAlteLastenPage");
+const glueckKeineAnkunftPage = () => _lazyPage("./data/praxistipps-en/gluck-keine-ankunft.js", "glueckKeineAnkunftPage");
+const reizeFastenRuhetagPage = () => _lazyPage("./data/praxistipps-en/reize-fasten-ruhetag.js", "reizeFastenRuhetagPage");
  _lazyPage("./data/praxistipps-en/kino-erwachen.js", "kinoErwachenPage");
 const albertBrooksPortraitPage = () => _lazyPage("./data/beruehmte-en/teil18.js", "albertBrooksPortraitPage");
 const emilyBluntPortraitPage = () => _lazyPage("./data/beruehmte-en/teil7.js", "emilyBluntPortraitPage");
@@ -9903,6 +9906,9 @@ function praxistippsHeilpraktikerPage() {
     { slug:"gute-stimmung-vier-schalter", titel:"Four Small Switches for Your Mood: Finish, Acknowledge, Laugh, Connect", teaser:"Four simple everyday exercises for a few minutes: finish something small, acknowledge yourself, laugh and write one person personally. With overview, daily plan and notes.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gute-stimmung-vier-schalter/gute-stimmung-vier-schalter-2-en.jpg", kategorie:"geist" },
     { slug:"morgenroutine-fuenf-gewohnheiten", titel:"Five Habits Before Nine: A Good Start to the Day", teaser:"Five small morning habits without early rising: five minutes without the phone, daylight, brief movement, one real contact and an intention for the day. With overview and morning plan.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/morgenroutine-fuenf-gewohnheiten/morgenroutine-fuenf-gewohnheiten-1-en.jpg", kategorie:"geist" },
     { slug:"gehirn-umbauen-drei-gewohnheiten", titel:"The Brain Shapes Along: Repeat, Feel, Direct Attention", teaser:"Three simple habits for shaping everyday life consciously toward contentment: repeat one good thought, feel the good fully and direct attention toward it. With overview and daily routine.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gehirn-umbauen-drei-gewohnheiten/gehirn-umbauen-drei-gewohnheiten-2-en.jpg", kategorie:"geist" },
+    { slug:"gefuehle-annehmen-alte-lasten", titel:"Accepting Feelings, Letting Go of Old Burdens: Seven Ways Out of Brooding", teaser:"Why old experiences keep coming back and what helps in everyday life: accepting and naming feelings, involving the body, writing it down, self-compassion, trying something new and sleeping well. With overview and a small plan.", img:"", kategorie:"geist" },
+    { slug:"gluck-keine-ankunft", titel:"Happiness Is Not an Arrival: Why ‘Once I Have …’ Does Not Hold", teaser:"The most common thinking error about happiness: tying it to a future condition. Why the brain plays along and how attention can be turned back to the present, with concrete gratitude and one simple question.", img:"", kategorie:"geist" },
+    { slug:"reize-fasten-ruhetag", titel:"Fasting from Stimulation: A Quiet Day as a Restart for Drive and Attention", teaser:"When everything feels flat and the phone is more exciting than your own goals: a quiet day with little stimulation, gentle activities and the order effort before reward, plus suggestions for everyday life.", img:"", kategorie:"geist" },
   ];
   const TIPP_KATEGORIEN = [
     { id:"koerper", label:"Body & Movement", icon:"🧭" },
@@ -9985,6 +9991,15 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "gehirn-umbauen-drei-gewohnheiten") {
     return gehirnUmbauenDreiGewohnheitenPage();
+  }
+  if (param === "gefuehle-annehmen-alte-lasten") {
+    return gefuehleAnnehmenAlteLastenPage();
+  }
+  if (param === "gluck-keine-ankunft") {
+    return glueckKeineAnkunftPage();
+  }
+  if (param === "reize-fasten-ruhetag") {
+    return reizeFastenRuhetagPage();
   }
   if (param === "das-ewige-ich-bin") {
     return dasEwigeIchBinPage();
