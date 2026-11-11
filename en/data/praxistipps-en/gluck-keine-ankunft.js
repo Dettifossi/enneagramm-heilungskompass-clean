@@ -9,6 +9,10 @@ export function glueckKeineAnkunftPage() {
       <h1 class="h1--tip">Happiness Is Not an Arrival: Why ‘Once I Have …’ Does Not Hold</h1>
       <p class="lead-small">‘Once the goal is reached, once the problem is solved, once it is the weekend, then …’ Many people push happiness into the future and never feel it there. This tip shows why that is and what helps in everyday life instead.</p>
 
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gluck-keine-ankunft/gluck-keine-ankunft-1.jpg" alt="A young woman in a garden holds an open notebook with the keywords thinking error, notice the present, concrete gratitude and the question: what is already good now?" class="psycho-img" loading="lazy" />
+      </div>
+
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Important note</h2>
         <p class="vb-intro" style="margin-bottom:0;">This tip describes self-help exercises for everyday life. It does not replace medical, psychotherapeutic or naturopathic treatment. Anyone who feels empty, joyless or without drive for more than two weeks should seek professional advice. This has nothing to do with a lack of gratitude. With thoughts of self-harm, seek medical help or emergency services immediately.</p>

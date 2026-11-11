@@ -9,6 +9,10 @@ export function glueckKeineAnkunftPage() {
       <h1 class="h1--tip">Glück ist keine Ankunft: warum ›Wenn erst …‹ nicht trägt</h1>
       <p class="lead-small">›Wenn erst das Ziel erreicht ist, wenn erst das Problem gelöst ist, wenn erst Wochenende ist, dann …‹ Viele Menschen schieben das Glück in die Zukunft und spüren es dort nie. Dieser Tipp zeigt, warum das so ist und was stattdessen im Alltag hilft.</p>
 
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gluck-keine-ankunft/gluck-keine-ankunft-1.jpg" alt="Eine junge Frau im Garten hält ein aufgeschlagenes Notizbuch mit den Stichworten Denkfehler, Gegenwart bemerken, konkrete Dankbarkeit und der Frage: Was ist schon jetzt gut?" class="psycho-img" loading="lazy" />
+      </div>
+
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Wichtiger Hinweis</h2>
         <p class="vb-intro" style="margin-bottom:0;">Dieser Tipp beschreibt Selbsthilfe-Übungen für den Alltag. Er ersetzt weder ärztliche noch psychotherapeutische oder heilpraktische Behandlung. Wer sich über mehr als zwei Wochen leer, freudlos oder antriebslos fühlt, sollte fachlichen Rat einholen. Das hat nichts mit mangelnder Dankbarkeit zu tun. Bei Gedanken an Selbstverletzung sofort ärztliche Hilfe oder den Notruf 112 in Anspruch nehmen.</p>
