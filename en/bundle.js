@@ -49143,7 +49143,7 @@ function subtypeSchaubilderPage() {
     }
     // Zugangsschutz
     if (!hasHeilwissen() && base !== "freischalt" && base !== "start") { try { localStorage.setItem("kompass:returnRoute", state.route); } catch (e) {} }
-    if (!hasHeilwissen() && !(hasPortraits() && portraitEditionRoutes().has(base)) && base !== "start" && base !== "admin" && base !== "leseprobe" && base !== "table-of-contents" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "gesichts-scan" && base !== "updates" && base !== "kaufen" && base !== "register" && base !== "meinen-typ-finden" && base !== "wegweiser-premium") {
+    if (!hasHeilwissen() && !(hasPortraits() && portraitEditionRoutes().has(base)) && base !== "start" && base !== "admin" && base !== "leseprobe" && base !== "sonntagsgeschichte" && base !== "table-of-contents" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "gesichts-scan" && base !== "updates" && base !== "kaufen" && base !== "register" && base !== "meinen-typ-finden" && base !== "wegweiser-premium") {
       app.innerHTML = freischaltPage();
       bindEvents();
       requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; }));
@@ -50059,6 +50059,27 @@ function _suchX(root) {
 }
 _suchX(document);
 new MutationObserver(() => _suchX(document)).observe(document.body, { childList: true, subtree: true });
+
+// Sonntagsgeschichte: fertige PDF (R2) per Teilen-Dialog weitergeben, sonst herunterladen/öffnen.
+document.addEventListener("click", async (e) => {
+  const b = e.target.closest("[data-share-pdf]");
+  if (!b) return;
+  const url = "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/downloads/sonntagsgeschichte-en.pdf";
+  const label = b.textContent;
+  b.disabled = true; b.textContent = "Loading PDF …";
+  try {
+    const blob = await (await fetch(url)).blob();
+    const file = new File([blob], "sunday-story-en.pdf", { type: "application/pdf" });
+    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+      await navigator.share({ files: [file], title: "A Healing Enneagram Sunday Story", text: "A Healing Enneagram Sunday Story – Enneagramm-Heilungskompass\nhttps://kompass.verlagshausrathmer.com/en/sonntagsgeschichte/" });
+    } else {
+      const u = URL.createObjectURL(blob); const a = document.createElement("a"); a.href = u; a.download = "sunday-story-en.pdf"; document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(u), 30000);
+    }
+  } catch (err) {
+    if (!(err && err.name === "AbortError")) window.open(url, "_blank");
+  } finally { b.disabled = false; b.textContent = label; }
+});
 
 // PDF-Auszug zum Weitergeben (nur verstorbene Personen): Knopf unter dem Porträtbild, Modul wird erst bei Bedarf geladen.
 let _pdfMod = null;

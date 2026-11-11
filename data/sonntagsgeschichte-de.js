@@ -29,7 +29,9 @@ export function sonntagsgeschichtePage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
         <p class="vb-intro">Am Ende des Tages ist der Sonntag wie ein homöopathischer Impuls, den wir in den Fluss der Woche hineingeben. Wir setzen einmalig einen feinen, präzisen Reiz der Stille, des Innehaltens und des radikalen Druckrausnehmens. Wir tun für vierundzwanzig Stunden genau das, was die alten Meister der Heilkunst gelehrt haben: Wir tun nichts, wir greifen nicht ein, wir schauen einfach nur zu und lassen den Reiz im System wirken. Wer lernt, diesen einen Tag in seiner ganz eigenen, charakterlichen Dynamik zu meistern und die Waffen des Alltags wirklich sinken zu lassen, der gibt seiner Lebenskraft den Treibstoff, den sie für die kommenden sechs Tage im Hamsterrad so dringend braucht.</p>
-        <p class="vb-intro" style="margin-top:1rem;margin-bottom:0;">Herzliche Grüße sendet Ihnen<br><strong>Detlef Rathmer</strong></p>
+        <p class="vb-intro" style="margin-top:1rem;">Herzliche Grüße sendet Ihnen<br><strong>Detlef Rathmer</strong></p>
+        <p class="vb-intro" style="margin-top:1rem;margin-bottom:0;font-size:.9rem;color:var(--muted);">P.S.: Sollte Sie diese heilsame Geschichte berührt haben, freue ich mich, wenn Sie sie an Freunde und Bekannte weiterreichen, die vielleicht ebenfalls gerade auf der Suche nach ihrer eigenen (Sonntags-) Ruhe sind, vielen Dank!</p>
+        <div class="schaubild-share" style="margin-top:1rem;"><button type="button" class="pdf-share-btn" data-share-pdf="de">Als PDF weitergeben</button></div>
       </div>
 
       ${relatedLinks([
