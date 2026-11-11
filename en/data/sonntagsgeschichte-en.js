@@ -10,7 +10,7 @@ export function sonntagsgeschichtePage() {
       <p class="lead-small">How Sunday rest feels in nine living rooms: why rest is a capacity of the soul that has to be learned.</p>
 
       <div class="psycho-img-wrap" style="margin-top:1rem;">
-        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/sonntagsgeschichte/sonntagsgeschichte-1.jpg" alt="A cup of coffee on a saucer next to a book on a light bed: Sunday rest" loading="lazy">
+        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/sonntagsgeschichte/sonntagsgeschichte-1.jpg" alt="A cup of coffee on a saucer next to a book on a light bed: Sunday rest" class="psycho-img" style="max-width:360px;" loading="lazy">
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
