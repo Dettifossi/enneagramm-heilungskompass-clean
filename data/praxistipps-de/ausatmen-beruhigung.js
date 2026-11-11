@@ -9,6 +9,10 @@ export function ausatmenBeruhigungPage() {
       <h1 class="h1--tip">Der Beruhigungsschalter: länger ausatmen, summen, Sicherheit melden</h1>
       <p class="lead-small">Eine kurze Atemübung, die in unter einer Minute helfen kann, aus der Anspannung in die Ruhe zu finden. Sie beruht auf einem einfachen Zusammenhang: Die Ausatmung beruhigt, die Einatmung aktiviert.</p>
 
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/ausatmen-beruhigung/ausatmen-beruhigung-1.jpg" alt="Illustration: Eine junge Frau sitzt mit geschlossenen Augen im Schneidersitz auf einem Kissen in einem hellen Wohnzimmer, die Hände ruhen locker auf den Knien, daneben Pflanzen, eine Kerze und ein Meditationskissen." class="psycho-img" loading="lazy" />
+      </div>
+
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Wichtiger Hinweis</h2>
         <p class="vb-intro" style="margin-bottom:0;">Dieser Tipp beschreibt eine Selbsthilfe-Übung zur Entspannung. Er ersetzt weder ärztliche noch heilpraktische Beratung oder Behandlung. Bei Schwindel, Atemnot oder Beschwerden während der Übung sofort zur normalen Atmung zurückkehren. Bei anhaltender Angst, Panikattacken oder Herz- und Lungenerkrankungen vorab fachlichen Rat einholen.</p>
