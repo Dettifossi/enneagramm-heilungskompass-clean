@@ -3205,3 +3205,77 @@ export function lauraAblaPortraitPage() {
     </div>
   `);
 }
+
+export function michaelFassbenderPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michael-fassbender-portrait.jpg" alt="Michael Fassbender – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-michael-fassbender-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Michael Fassbender</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Sozialer Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler und Rennfahrer, geb. 1977 in Heidelberg &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans, die sich ihre Aufgaben selbst stellt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> wacht, bemerkt, was nicht stimmt, und gibt nicht nach. Michael Fassbender wurde am 2. April 1977 in Heidelberg geboren. Seine Mutter Adele stammt aus Larne in Nordirland, sein Vater Josef ist Deutscher und arbeitete als Koch. Als er zwei Jahre alt war, zog die Familie nach Killarney in der irischen Grafschaft Kerry, wo die Eltern das Restaurant ›West End House‹ führten. Er wuchs katholisch auf, war Messdiener und bezeichnet sich heute als nicht mehr praktizierend. Er hat einen deutschen Pass und sagt von sich, er fühle sich irisch und europäisch.</p>
+          <p class="vb-intro">Mit siebzehn beschloss er nach einer Rolle in einem Theaterstück, Schauspieler zu werden. Mit neunzehn ging er an das Drama Centre London, brach 1999 aber ab, um mit der Oxford Stage Company in Tschechows ›Drei Schwestern‹ auf Tournee zu gehen. Wer die Schule verlässt, um zu spielen, hat entschieden, dass das Handwerk dort wächst, wo man es ausübt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Unangepasstheit und Anspruch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> richtet ihren Anspruch auf die Sache und die Gemeinschaft, nimmt Verantwortung wahr und lässt sich nicht verbiegen. Claudio Naranjo sprach vom Subtyp der Unangepasstheit. Bei Fassbender zeigt sich das im Preis, den er für Genauigkeit zu zahlen bereit ist. Für den Film ›Hunger‹ (2008) von Steve McQueen hielt er eine Diät von rund 600 Kalorien am Tag und wog als Bobby Sands um die 57 Kilogramm. Er sagte, er habe einen Zeitplan einhalten müssen, und fand die Erfahrung auch ›befreiend‹. Zugleich sagte er später, er würde seinem Körper das nicht noch einmal antun.</p>
+          <p class="vb-intro">Dieselbe Haltung zeigt sich in der Wahl der Aufgaben: mit McQueen drehte er ›Hunger‹, ›Shame‹ (2011) und ›12 Years a Slave‹ (2013). Wer dem Regisseur wieder und wieder folgt, bindet sich an eine gemeinsame Sache und nicht an die eigene Bühne.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Dienst am Gast</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> bringt Zuwendung und die Bereitschaft, anderen zu dienen. Fassbender wuchs in einem Restaurant auf, wo Gastgeben Alltag war, und das lässt sich als Hintergrund für diese Färbung lesen. Er arbeitet im Ensemble, bleibt seinen Regisseuren treu und hält sein Privatleben weitgehend aus der Öffentlichkeit heraus. Ein schwach ausgeprägter Zweierflügel würde die Eins eher in der reinen Strenge belassen; hier kommt eine leise, dienende Wärme hinzu. Das bleibt eine Deutung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Körper, Kontrolle und Gefahr</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Fassbender auszeichnet, ist die Kombination aus äußerster Beherrschung und spürbarer Gefahr. In ›Hunger‹ spielte er den inhaftierten IRA-Hungerstreikenden Bobby Sands; der Kritiker Peter Bradshaw nannte die Darstellung ›ferociously convincing‹ (grimmig überzeugend). In ›Shame‹ verkörperte er einen Mann, der gegen eine Sexsucht kämpft, und gewann dafür 2011 den Preis als bester Darsteller (Coppa Volpi) beim Filmfestival Venedig. In ›Inglourious Basterds‹ (2009) war er der britische Offizier Archie Hicox, in den ›X-Men‹-Filmen ab 2011 der Magneto, in ›12 Years a Slave‹ der Sklavenhalter Edwin Epps, was ihm eine Oscar-Nominierung als bester Nebendarsteller einbrachte. 2015 folgte für ›Steve Jobs‹ (Regie Danny Boyle, Drehbuch Aaron Sorkin, die Rolle hatte zuvor Christian Bale innegehabt) die Nominierung als bester Hauptdarsteller.</p>
+          <p class="vb-intro">Seine Technik ist die Genauigkeit: Er zeigt Härte und Zerbrechlichkeit zugleich, ohne eines davon zu betonen. Das passt zur Eins, die ihren Anspruch nach innen richtet und ihn als Handwerk ausübt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Auch auf der Rennstrecke: die Disziplin der Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit vierzig begann Fassbender, Rennen zu fahren. ›Even before I started acting, I had a big dream to go racing.‹ (›Schon bevor ich mit dem Schauspielern anfing, hatte ich den großen Traum, Rennen zu fahren.‹) sagte er 2020. 2017 debütierte er in der Ferrari Challenge in Mugello und wurde Fünfzehnter, 2018 gewann er in Nordamerika den Saisonauftakt in Daytona und wurde Fünfter der Gesamtwertung. 2019 fuhr er den Porsche Carrera Cup Deutschland, begleitet von der Videoreihe ›Road to Le Mans‹. Von 2020 bis 2023 startete er für Proton Competition in der European Le Mans Series, mit Platz zwei in Portimão 2021 als erstem Podium. 2022 wurde er beim 24-Stunden-Rennen von Le Mans Sechzehnter seiner Klasse, 2023 schied er aus.</p>
+          <p class="vb-intro">Rennfahren verlangt Sorgfalt, Vorbereitung und die Bereitschaft, dieselbe Runde immer wieder zu verbessern. Das ist ein Feld, in dem die Eins ihre Beharrlichkeit sichtbar machen kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Eins mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Verlässlichkeit und im Mut zur Genauigkeit: ein Darsteller, der sich auf extreme Anforderungen einlässt und sie zu Ende führt. Der Schatten der Eins ist die Strenge gegen sich selbst. Der Körper bezahlt, was der Anspruch verlangt, und Fassbender sagte selbst, er würde die Hunger-Diät nicht wiederholen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Parallelen im selben Subtyp: Bradley Cooper und Niki Lauda</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-bradley-cooper">Bradley Cooper</a> (SO1w2) verbindet Fassbender der Anspruch an das eigene Handwerk und der Wille, sich über Jahre zu verändern, bei Cooper durch die Regie, bei Fassbender durch extreme Rollen. <a href="javascript:void(0)" data-route="beruehmte-niki-lauda">Niki Lauda</a> (SO1w2) teilt mit ihm die Rennstrecke: Beide gehören zu den Einsern, die im Rennsport Sorgfalt und Nüchternheit finden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Stand im November 2026</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Fassbender ist seit dem 14. Oktober 2017 mit der schwedischen Schauspielerin Alicia Vikander verheiratet, die beiden haben zwei Söhne und leben in Lissabon. Zuletzt war er in ›The Killer‹ (2023, David Fincher), ›Next Goal Wins‹ (2023, Taika Waititi) und ›Black Bag‹ (2025, Steven Soderbergh) zu sehen, dazu in der Serie ›The Agency‹ (seit 2024). Sein erklärtes Ziel im Rennsport ist die Rückkehr zum 24-Stunden-Rennen von Le Mans. Die Typisierung bleibt eine Deutung, gestützt auf öffentliche Aussagen und Laufbahn.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
+        {route:"beruehmte-bradley-cooper", label:"Porträt: Bradley Cooper (SO1w2)"},
+        {route:"beruehmte-niki-lauda", label:"Porträt: Niki Lauda (SO1w2)"},
+      ])}
+    </div>
+  `);
+}

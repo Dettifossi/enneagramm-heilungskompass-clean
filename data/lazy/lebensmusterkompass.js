@@ -88,7 +88,7 @@ export const LEBENSMUSTERKOMPASS = {
   SO8: {
     tier: "Löwe",
     kernthema: "Kraft, die nicht für sich selbst, sondern für das Rudel eingesetzt wird (Naranjo: Freundschaft und Bruderschaft)",
-    beispiele: ["Joshua Richards", "Sokrates", "Fritz Perls", "Michelle Obama", "Carsten Stahl", "Cynthia Lummis", "Bud Spencer", "Karl Marx", "Jamaica Kincaid", "Mohammed ibn Abdullah", "John Gotti", "Dr. Laurence Frank", "Natascha Ochsenknecht", "Der Hohepriester Kaiphas", "Jon Hamm", "Gunter Gabriel", "Gabi Garcia"],
+    beispiele: ["Oliver Reed", "Joshua Richards", "Sokrates", "Fritz Perls", "Michelle Obama", "Carsten Stahl", "Cynthia Lummis", "Bud Spencer", "Karl Marx", "Jamaica Kincaid", "Mohammed ibn Abdullah", "John Gotti", "Dr. Laurence Frank", "Natascha Ochsenknecht", "Der Hohepriester Kaiphas", "Jon Hamm", "Gunter Gabriel", "Gabi Garcia"],
     fingerabdruecke: [
       {
         titel: "Kraft, die nicht für sich selbst, sondern für das Rudel eingesetzt wird",
@@ -621,7 +621,7 @@ export const LEBENSMUSTERKOMPASS = {
   SO1: {
     tier: "Gans",
     kernthema: "Wachsame Verantwortung für die Ordnung der Gemeinschaft statt für sich allein",
-    beispiele: ["Michael Douglas", "Clint Eastwood", "James Blunt", "Curtis Yarvin", "Wolfgang Niedecken", "Bradley Cooper", "Ursula von der Leyen", "Friedrich Merz", "Angelina Jolie", "Konrad Lorenz", "Dr. Jordan Peterson", "David Bowie", "Jürgen Klopp", "Dr. Samuel Hahnemann", "Konfuzius (Kong Fuzi)", "Adam Smith", "Xanthippe", "Ted Bundy", "Heinrich Pommerenke", "Ruben, der Schriftgelehrte", "Roald Amundsen", "Markus Lanz", "Richard David Precht", "Helmut Schmidt", "Kurt Georg Kiesinger", "Giorgia Meloni", "Emmanuel Macron", "Marcel Reich-Ranicki", "Thomas Mann", "Steve Jobs", "Cornelia Funke", "Margaret Thatcher", "Rosa Luxemburg", "Oliver Pocher", "Prof. Dr. Volker Gerhardt", "Peter Sage", "Gert Scobel", "Dr. Wolfgang Wodarg", "Nicole Kidman", "Justin Timberlake", "Nico Rosberg", "Brian Wilson", "Alice Weidel", "Hillary Clinton", "Navi Pillay", "Niki Lauda", "Hubert Benoit", "Bruno Gröning", "Olaf Schubert"],
+    beispiele: ["Michael Fassbender", "Michael Douglas", "Clint Eastwood", "James Blunt", "Curtis Yarvin", "Wolfgang Niedecken", "Bradley Cooper", "Ursula von der Leyen", "Friedrich Merz", "Angelina Jolie", "Konrad Lorenz", "Dr. Jordan Peterson", "David Bowie", "Jürgen Klopp", "Dr. Samuel Hahnemann", "Konfuzius (Kong Fuzi)", "Adam Smith", "Xanthippe", "Ted Bundy", "Heinrich Pommerenke", "Ruben, der Schriftgelehrte", "Roald Amundsen", "Markus Lanz", "Richard David Precht", "Helmut Schmidt", "Kurt Georg Kiesinger", "Giorgia Meloni", "Emmanuel Macron", "Marcel Reich-Ranicki", "Thomas Mann", "Steve Jobs", "Cornelia Funke", "Margaret Thatcher", "Rosa Luxemburg", "Oliver Pocher", "Prof. Dr. Volker Gerhardt", "Peter Sage", "Gert Scobel", "Dr. Wolfgang Wodarg", "Nicole Kidman", "Justin Timberlake", "Nico Rosberg", "Brian Wilson", "Alice Weidel", "Hillary Clinton", "Navi Pillay", "Niki Lauda", "Hubert Benoit", "Bruno Gröning", "Olaf Schubert"],
     fingerabdruecke: [
       {
         titel: "Wachsame, unbestechliche Ordnungshüter-Haltung, die bei Verletzung abrupt hart reagiert",

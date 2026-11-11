@@ -3223,3 +3223,77 @@ export function katyOBrianPortraitPage() {
     </div>
   `);
 }
+
+export function michaelFassbenderPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michael-fassbender-portrait.jpg" alt="Michael Fassbender – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-michael-fassbender-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Michael Fassbender</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Social Type 1 with a Two-Wing</p>
+        <p class="krim-portrait-subtitle">Actor and racing driver, b. 1977 in Heidelberg &ndash; Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose That Sets Its Own Tasks</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>goose</strong> keeps watch, notices what is wrong and does not give way. Michael Fassbender was born on 2 April 1977 in Heidelberg. His mother Adele is from Larne in Northern Ireland, his father Josef is German and worked as a chef. When he was two the family moved to Killarney in Ireland's County Kerry, where his parents ran the restaurant ›West End House‹. He grew up Catholic, was an altar boy and now describes himself as lapsed. He holds a German passport and says he feels Irish and European.</p>
+          <p class="vb-intro">At seventeen, after a part in a school play, he decided to become an actor. At nineteen he went to the Drama Centre London, but in 1999 he dropped out to tour with the Oxford Stage Company in Chekhov's ›Three Sisters‹. Whoever leaves school to play has decided that the craft grows where it is practiced.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social One: Non-Adaptation and Standards</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social One (SO1)</strong> directs its standard at the cause and the community, takes responsibility and does not let itself be bent. Claudio Naranjo spoke of the subtype of non-adaptation. In Fassbender this shows in the price he is willing to pay for precision. For Steve McQueen's film ›Hunger‹ (2008) he kept to a diet of about 600 calories a day and weighed around 57 kilograms as Bobby Sands. He said he had to stick to a timetable, and also found the experience ›liberating‹. At the same time he later said he would not do that to his body again.</p>
+          <p class="vb-intro">The same stance shows in his choice of tasks: with McQueen he made ›Hunger‹, ›Shame‹ (2011) and ›12 Years a Slave‹ (2013). Whoever follows a director again and again binds himself to a shared cause rather than to his own stage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Serving the Guest</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> brings warmth and a willingness to serve others. Fassbender grew up in a restaurant where hosting was daily life, which can be read as a background to this coloring. He works in an ensemble, stays loyal to his directors and keeps his private life largely out of public view. A weakly developed Two-wing would leave the One more in plain strictness; here a quiet, serving warmth is added. That remains an interpretation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: Body, Control and Danger</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What marks Fassbender is the combination of utmost control and palpable danger. In ›Hunger‹ he played the imprisoned IRA hunger striker Bobby Sands; the critic Peter Bradshaw called the performance ›ferociously convincing‹. In ›Shame‹ he embodied a man struggling with sex addiction and won the Volpi Cup for Best Actor at the 2011 Venice Film Festival for it. In ›Inglourious Basterds‹ (2009) he was the British officer Archie Hicox, in the ›X-Men‹ films from 2011 Magneto, in ›12 Years a Slave‹ the slave owner Edwin Epps, which brought him an Oscar nomination for Best Supporting Actor. In 2015 came the nomination for Best Actor for ›Steve Jobs‹ (directed by Danny Boyle, written by Aaron Sorkin; the role had earlier been Christian Bale's).</p>
+          <p class="vb-intro">His technique is precision: he shows hardness and fragility at once without stressing either. That suits the One, which turns its standard inward and practices it as a craft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. On the Racetrack Too: the Discipline of the One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">At forty Fassbender began to race. ›Even before I started acting, I had a big dream to go racing.‹ he said in 2020. In 2017 he debuted in the Ferrari Challenge at Mugello and finished fifteenth; in 2018 he won the season opener at Daytona on the North American schedule and finished fifth in the standings. In 2019 he drove the Porsche Carrera Cup Germany, accompanied by the video series ›Road to Le Mans‹. From 2020 to 2023 he started for Proton Competition in the European Le Mans Series, with second place at Portimão in 2021 as his first podium. At the 2022 24 Hours of Le Mans he finished sixteenth in his class; in 2023 he retired.</p>
+          <p class="vb-intro">Racing demands care, preparation and the willingness to improve the same lap again and again. It is a field in which the One can make its persistence visible.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and Shadow of the Social One with a Two-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in reliability and in the courage for precision: a performer who takes on extreme demands and sees them through. The shadow of the One is strictness toward oneself. The body pays what the standard demands, and Fassbender himself said he would not repeat the Hunger diet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Parallels in the Same Subtype: Bradley Cooper and Niki Lauda</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-bradley-cooper">Bradley Cooper</a> (SO1w2) Fassbender shares a high standard for his own craft and the will to change over the years, in Cooper through directing, in Fassbender through extreme roles. <a href="javascript:void(0)" data-route="beruehmte-niki-lauda">Niki Lauda</a> (SO1w2) shares the racetrack with him: both are Ones who find care and sobriety in motor racing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Status in November 2026</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Fassbender has been married since 14 October 2017 to the Swedish actress Alicia Vikander; they have two sons and live in Lisbon. Most recently he appeared in ›The Killer‹ (2023, David Fincher), ›Next Goal Wins‹ (2023, Taika Waititi) and ›Black Bag‹ (2025, Steven Soderbergh), and in the series ›The Agency‹ (since 2024). His stated goal in racing is a return to the 24 Hours of Le Mans. The typing remains an interpretation, based on public statements and career.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+        {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
+        {route:"beruehmte-bradley-cooper", label:"Portrait: Bradley Cooper (SO1w2)"},
+        {route:"beruehmte-niki-lauda", label:"Portrait: Niki Lauda (SO1w2)"},
+      ])}
+    </div>
+  `);
+}

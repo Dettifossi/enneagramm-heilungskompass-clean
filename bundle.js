@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=507";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=508";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -562,6 +562,8 @@ const lisaKauffPortraitPage = () => _lazyPage("./data/beruehmte-de/teil15.js", "
 const mariaHasbolatPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "mariaHasbolatPortraitPage");
 const leonieBeneschPortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "leonieBeneschPortraitPage");
 const clausTheoGaertnerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "clausTheoGaertnerPortraitPage");
+const oliverReedPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "oliverReedPortraitPage");
+const michaelFassbenderPortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", "michaelFassbenderPortraitPage");
 const heinzErhardtPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "heinzErhardtPortraitPage");
 const rainerHunoldPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "rainerHunoldPortraitPage");
 const henriRousseauPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "henriRousseauPortraitPage");
@@ -27717,6 +27719,14 @@ const BERUEHMT_PORTRAITS = [
     heading:"Claus Theo G\u00e4rtner \u2013 Selbsterhaltender Typ 1",
     teaser:"SE1w9 \u00b7 geb. 1943 in Berlin. Schauspieler, 32 Jahre \u203aMatula\u2039 in \u203aEin Fall f\u00fcr zwei\u2039. Der Adler, der still genau hinsieht. Tierentsprechung: Adler.",
     land:"Deutschland", tags:["Schauspiel","Film"], gender:"m"},
+  { route:"beruehmte-oliver-reed", name:"Oliver Reed", added:"2026-11-12", subtyp:"SO8w9",
+    heading:"Oliver Reed \u2013 Sozialer Typ 8",
+    teaser:"SO8w9 \u00b7 1938\u20131999. Schauspieler, \u203aHellraiser\u2039 mit Wucht und Verletzlichkeit: Bill Sikes in \u203aOliver!\u2039, Gerald Crich in \u203aWomen in Love\u2039, Proximo in \u203aGladiator\u2039. Der L\u00f6we, der in der Runde Hof hielt. Tierentsprechung: L\u00f6we.",
+    land:"Gro\u00dfbritannien", tags:["Schauspiel","Film"], gender:"m"},
+  { route:"beruehmte-michael-fassbender", name:"Michael Fassbender", added:"2026-11-12", subtyp:"SO1w2",
+    heading:"Michael Fassbender \u2013 Sozialer Typ 1",
+    teaser:"SO1w2 \u00b7 geb. 1977 in Heidelberg. Schauspieler und Rennfahrer: \u203aHunger\u2039, \u203aShame\u2039, \u203a12 Years a Slave\u2039, \u203aSteve Jobs\u2039. Die Gans, die sich ihre Aufgaben selbst stellt. Tierentsprechung: Gans.",
+    land:"Deutschland / Irland", tags:["Schauspiel","Film","Sport"], gender:"m"},
   { route:"beruehmte-heinz-erhardt", name:"Heinz Erhardt", added:"2026-11-07", subtyp:"SE7w6",
     heading:"Heinz Erhardt \u2013 Selbsterhaltender Typ 7",
     teaser:"SE7w6 \u00b7 1909\u20131979. Komiker, Musiker und Dichter aus Riga, K\u00f6nig des verdrehten Wortes. Der Gorilla, der den Raum mit Ruhe f\u00fcllt. Tierentsprechung: Gorilla.",
@@ -68751,7 +68761,7 @@ const ROUTES = {
       "beruehmte-soeren-kierkegaard": soerenKierkegaardPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-phil-collins": philCollinsPortraitPage,
-      "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-lea-bosco": leaBoscoPortraitPage, "beruehmte-roland-trettl": rolandTrettlPortraitPage, "beruehmte-kida-khodr-ramadan": kidaKhodrRamadanPortraitPage, "beruehmte-maryam-zaree": maryamZareePortraitPage, "beruehmte-rauand-taleb": rauandTalebPortraitPage, "beruehmte-steven-krueger": stevenKruegerPortraitPage, "beruehmte-carmen-herrera": carmenHerreraPortraitPage, "beruehmte-harland-sanders": harlandSandersPortraitPage, "beruehmte-henri-rousseau": henriRousseauPortraitPage, "beruehmte-rainer-hunold": rainerHunoldPortraitPage, "beruehmte-heinz-erhardt": heinzErhardtPortraitPage, "beruehmte-claus-theo-gaertner": clausTheoGaertnerPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
+      "beruehmte-oliver-reed": oliverReedPortraitPage, "beruehmte-michael-fassbender": michaelFassbenderPortraitPage, "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-lea-bosco": leaBoscoPortraitPage, "beruehmte-roland-trettl": rolandTrettlPortraitPage, "beruehmte-kida-khodr-ramadan": kidaKhodrRamadanPortraitPage, "beruehmte-maryam-zaree": maryamZareePortraitPage, "beruehmte-rauand-taleb": rauandTalebPortraitPage, "beruehmte-steven-krueger": stevenKruegerPortraitPage, "beruehmte-carmen-herrera": carmenHerreraPortraitPage, "beruehmte-harland-sanders": harlandSandersPortraitPage, "beruehmte-henri-rousseau": henriRousseauPortraitPage, "beruehmte-rainer-hunold": rainerHunoldPortraitPage, "beruehmte-heinz-erhardt": heinzErhardtPortraitPage, "beruehmte-claus-theo-gaertner": clausTheoGaertnerPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
       "beruehmte-harald-v": haraldVPortraitPage,
       "beruehmte-carl-xvi-gustaf": carlXVIGustafPortraitPage,
       "beruehmte-johannes-paul-ii": johannesPaulIIPortraitPage,
@@ -70261,7 +70271,7 @@ document.addEventListener("click", async (e) => {
 let _pdfMod = null;
 function _pdfMount() {
   if (!document.querySelector('.krim-portrait-wrap:not([data-pdf])')) return;
-  (_pdfMod || (_pdfMod = import("./data/pdf-share.js?v=18"))).then(m => m.mountPdfButton("de")).catch(() => {});
+  (_pdfMod || (_pdfMod = import("./data/pdf-share.js?v=19"))).then(m => m.mountPdfButton("de")).catch(() => {});
 }
 let _sbMod = null;
 function _sbMount() {

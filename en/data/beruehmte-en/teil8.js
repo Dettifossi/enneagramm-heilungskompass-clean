@@ -3231,3 +3231,80 @@ export function methodManPortraitPage() {
     </div>
   `);
 }
+
+export function oliverReedPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-oliver-reed-portrait.jpg" alt="Oliver Reed – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-oliver-reed-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Oliver Reed</p>
+        <p class="krim-portrait-typ">SO8w9 &middot; Social Type 8 with a Nine-Wing</p>
+        <p class="krim-portrait-subtitle">Actor, 1938&ndash;1999 &ndash; Animal correspondence: Lion</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Lion Who Held Court in the Pub</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>lion</strong> does not need to roar to rule the room. Robert Oliver Reed was born on 13 February 1938 in Wimbledon. His father Peter was a sports journalist, his uncle Sir Carol Reed a film director, his grandfather the actor-manager Sir Herbert Beerbohm Tree. Stage and screen ran in the family, yet the boy failed at school: he attended fourteen different schools, including Ewell Castle School in Surrey. By Reed's own recollection his father thought him lazy and a dunce.</p>
+          <p class="vb-intro">He did national service in the Royal Army Medical Corps and later claimed to have worked as a boxer, bouncer, taxi driver and hospital porter. In the mid-1950s he began as an uncredited extra in films, and in 1959 came a BBC role as Richard of Gloucester in ›The Golden Spur‹. Anyone who starts like this has learned early to hold his ground physically where school marks do not help.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Eight: Solidarity in the Pack</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social Eight (SO8)</strong> puts its strength to work for the group: friends, comrades, the pack. Claudio Naranjo called this subtype <em>Solidarity</em>: strength that binds itself to others and stands up for them. In Reed this shows in the bonds that carried his life. He made six films with the director Michael Winner, beginning in 1964 with ›The System‹; of his career he said that Hammer gave him his start, Winner his bread and Ken Russell his art. That is gratitude in the language of a man who sorts loyalty into teachers and companions.</p>
+          <p class="vb-intro">The pub belonged to this pack as well. Reed did not drink alone but in company, with colleagues, friends and strangers who wanted to keep up. That he died in a bar in Valletta during a drinking contest with sailors fits a man who used the round as a place of belonging.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Pleasure, Numbing and Homesickness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the Eight composure, a capacity for enjoyment and a tendency to damp tension. A weakly developed Nine-wing would let the Eight appear more angular and pressing; in Reed it colors the manner broader, more comfortable, sociable. It fits that he did not chase Hollywood: according to the sources he remained a British patriot who preferred living in Britain, and in the end moved with his wife Josephine to Churchtown in County Cork, Ireland.</p>
+          <p class="vb-intro">The wing has a darker side too. The Nine dulls what becomes too much, and alcohol was one means of that for Reed. That remains an interpretation; the sources document the drinking, not its inner life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: Force with a Wound in It</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Reed's gift lay in a physical presence that radiated danger and still let vulnerability show through. He had his first lead in 1961 in Terence Fisher's Hammer film ›The Curse of the Werewolf‹, as a man fighting the beast within. In 1968 he played the brutal Bill Sikes in ›Oliver!‹, directed by his uncle Carol Reed, which won the Oscar for Best Picture. In ›Women in Love‹ (1969) he was the mine owner Gerald Crich under Ken Russell, in the famous wrestling scene with Alan Bates as much a fighter as a man in need of control. In Russell's ›The Devils‹ (1971) he carried, as the priest Grandier, the weight of a man who pays for his passions.</p>
+          <p class="vb-intro">British exhibitors voted him the fifth most popular star at the box office in 1971. Later came Athos in Richard Lester's Musketeers films, Uncle Frank in ›Tommy‹ (1975) and, as his last role, Proximo in ›Gladiator‹ (2000), which earned him a posthumous BAFTA nomination for Best Supporting Actor. His power was physical, but he used it so that behind the force a hurt remained legible. This is only an excerpt of Reed's work, yet it shows why directors cast him in roles where strength and damage appear together.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Passion: Lust and the Staged Mask</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Eight is <strong>lust</strong>, the craving for intensity, for more of everything. In Reed it became the reputation of the ›hellraiser‹: he himself called a handed-down anecdote about sixty gallons of beer in one evening ›highly exaggerated‹. His colleague Christopher Lee said that after about eight drinks Reed became ›a complete monster‹.</p>
+          <p class="vb-intro">Reed also said, however, that some of his television appearances were acted: the ›vodka was water‹ and he was paid to appear drunk (according to Wikipedia, one of his statements). Whoever talks like this separates the mask from the man. The intoxication was partly real, partly role, and the audience expected the role. Reed complained that his talk show appearances were about his drinking feats instead of his films. The mask of the Eight had become independent.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and Shadow of the Social Eight with a Nine-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in loyalty and presence. Reed stood by his directors, his face and stature carried films, and as an actor he managed to turn hardness into character. His weakness for company made him approachable.</p>
+          <p class="vb-intro">The shadow is that pack loyalty can turn against the individual. Whoever cannot say no in the round drinks to the end. The Nine-wing does not take warning signs seriously enough, and the Eight regards weakness as something one does not show.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Parallels in the Same Subtype: Bud Spencer, Gunter Gabriel and Joshua Richards</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-bud-spencer">Bud Spencer</a> (SO8w9) is the calm variant: he too stood for solidarity and family but used his force only when needed. Reed shows the same basic strength with the louder, more sociable side of the subtype. In <a href="javascript:void(0)" data-route="beruehmte-gunter-gabriel">Gunter Gabriel</a> (SO8w9) we find the pattern of the hard shell and the soft core, and <a href="javascript:void(0)" data-route="beruehmte-joshua-richards">Joshua Richards</a> (SO8w9) also stands for strength that is there for others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Where a Lion Left His Mark</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Oliver Reed died on 2 May 1999, aged 61, of a heart attack in Valletta, Malta, during a break in filming ›Gladiator‹. According to the screenwriter David Franzoni, sailors of HMS ›Cumberland‹ had challenged him to a drinking contest; he collapsed and died in the ambulance. His remaining scenes were completed with a double and computer effects. He is buried in Bruhenny Graveyard in Churchtown, County Cork. His gravestone reads ›He made the air move.‹ The typing remains an interpretation, based on the documented biography and his own statements.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
+        {route:"lebensmusterkompass/so8", label:"Life Pattern Compass: SO8 – Lion"},
+        {route:"beruehmte-bud-spencer", label:"Portrait: Bud Spencer (SO8w9)"},
+        {route:"beruehmte-gunter-gabriel", label:"Portrait: Gunter Gabriel (SO8w9)"},
+        {route:"beruehmte-joshua-richards", label:"Portrait: Joshua Richards (SO8w9)"},
+      ])}
+    </div>
+  `);
+}

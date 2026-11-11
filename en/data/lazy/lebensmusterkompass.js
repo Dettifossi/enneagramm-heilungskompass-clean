@@ -88,7 +88,7 @@ export const LEBENSMUSTERKOMPASS = {
   SO8: {
     tier: "Lion",
     kernthema: "Strength used not for oneself, but for the pride (Naranjo: Friendship and Brotherhood)",
-    beispiele: ["Joshua Richards", "Socrates", "Fritz Perls", "Michelle Obama", "Carsten Stahl", "Cynthia Lummis", "Bud Spencer", "Karl Marx", "Jamaica Kincaid", "Muhammad ibn Abdullah", "John Gotti", "Dr. Laurence Frank", "High Priest Caiaphas", "Jon Hamm", "Gunter Gabriel", "Gabi Garcia"],
+    beispiele: ["Oliver Reed", "Joshua Richards", "Socrates", "Fritz Perls", "Michelle Obama", "Carsten Stahl", "Cynthia Lummis", "Bud Spencer", "Karl Marx", "Jamaica Kincaid", "Muhammad ibn Abdullah", "John Gotti", "Dr. Laurence Frank", "High Priest Caiaphas", "Jon Hamm", "Gunter Gabriel", "Gabi Garcia"],
     fingerabdruecke: [
       {
         titel: "Strength used not for oneself, but for the pride",
@@ -621,7 +621,7 @@ export const LEBENSMUSTERKOMPASS = {
   SO1: {
     tier: "Goose",
     kernthema: "Watchful responsibility for the order of the community rather than for oneself alone",
-    beispiele: ["Michael Douglas", "Clint Eastwood", "James Blunt", "Curtis Yarvin", "Wolfgang Niedecken", "Bradley Cooper", "Ursula von der Leyen", "Friedrich Merz", "Angelina Jolie", "Konrad Lorenz", "Dr. Jordan Peterson", "David Bowie", "Jürgen Klopp", "Dr. Samuel Hahnemann", "Confucius", "Adam Smith", "Xanthippe", "Ted Bundy", "Heinrich Pommerenke", "Reuben the Scribe", "Roald Amundsen", "Markus Lanz", "Richard David Precht", "Helmut Schmidt", "Kurt Georg Kiesinger", "Giorgia Meloni", "Emmanuel Macron", "Marcel Reich-Ranicki", "Thomas Mann", "Steve Jobs", "Cornelia Funke", "Margaret Thatcher", "Rosa Luxemburg", "Oliver Pocher", "Prof. Dr. Volker Gerhardt", "Peter Sage", "Gert Scobel", "Dr. Wolfgang Wodarg", "Nicole Kidman", "Justin Timberlake", "Nico Rosberg", "Brian Wilson", "Alice Weidel", "Hillary Clinton", "Navi Pillay", "Niki Lauda", "Hubert Benoit", "Bruno Gröning"],
+    beispiele: ["Michael Fassbender", "Michael Douglas", "Clint Eastwood", "James Blunt", "Curtis Yarvin", "Wolfgang Niedecken", "Bradley Cooper", "Ursula von der Leyen", "Friedrich Merz", "Angelina Jolie", "Konrad Lorenz", "Dr. Jordan Peterson", "David Bowie", "Jürgen Klopp", "Dr. Samuel Hahnemann", "Confucius", "Adam Smith", "Xanthippe", "Ted Bundy", "Heinrich Pommerenke", "Reuben the Scribe", "Roald Amundsen", "Markus Lanz", "Richard David Precht", "Helmut Schmidt", "Kurt Georg Kiesinger", "Giorgia Meloni", "Emmanuel Macron", "Marcel Reich-Ranicki", "Thomas Mann", "Steve Jobs", "Cornelia Funke", "Margaret Thatcher", "Rosa Luxemburg", "Oliver Pocher", "Prof. Dr. Volker Gerhardt", "Peter Sage", "Gert Scobel", "Dr. Wolfgang Wodarg", "Nicole Kidman", "Justin Timberlake", "Nico Rosberg", "Brian Wilson", "Alice Weidel", "Hillary Clinton", "Navi Pillay", "Niki Lauda", "Hubert Benoit", "Bruno Gröning"],
     fingerabdruecke: [
       {
         titel: "Watchful, incorruptible guardianship of order that reacts abruptly and harshly when violated",

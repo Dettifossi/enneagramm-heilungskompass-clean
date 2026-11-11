@@ -3325,3 +3325,80 @@ export function ninaRugePortraitPage() {
     </div>
   `);
 }
+
+export function oliverReedPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-oliver-reed-portrait.jpg" alt="Oliver Reed – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-oliver-reed-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Oliver Reed</p>
+        <p class="krim-portrait-typ">SO8w9 &middot; Sozialer Typ 8 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, 1938&ndash;1999 &ndash; Tierentsprechung: Löwe</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Löwe, der in der Kneipe Hof hielt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Löwe</strong> muss nicht brüllen, um den Raum zu bestimmen. Robert Oliver Reed wurde am 13. Februar 1938 in Wimbledon geboren. Sein Vater Peter war Sportjournalist, sein Onkel Sir Carol Reed Regisseur, sein Großvater der Schauspieler und Theaterleiter Sir Herbert Beerbohm Tree. Die Familie hatte also Bühne und Leinwand im Blut, doch der Junge fiel durch die Schule: Er besuchte vierzehn verschiedene Schulen, darunter die Ewell Castle School in Surrey. Sein Vater hielt ihn nach Reeds eigener Erinnerung für faul und für einen Dummkopf.</p>
+          <p class="vb-intro">Er diente im Wehrdienst beim Royal Army Medical Corps und behauptete später, Boxer, Türsteher, Taxifahrer und Krankenhaus-Hilfskraft gewesen zu sein. Mitte der 1950er Jahre fing er als nicht genannter Statist beim Film an, 1959 folgte eine BBC-Rolle als Richard von Gloucester in ›The Golden Spur‹. Wer so beginnt, hat früh gelernt, sich körperlich zu behaupten, wo Schulnoten nicht weiterhelfen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Acht: Solidarität im Rudel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> setzt ihre Kraft für die Gruppe ein, für Freunde, Kameraden, die eigene Meute. Claudio Naranjo nannte diesen Subtyp die <em>Solidarität</em>: Kraft, die sich an andere bindet und für sie einsteht. Bei Reed zeigt sich das in den Bindungen, die sein Leben trugen. Mit dem Regisseur Michael Winner drehte er sechs Filme, beginnend 1964 mit ›The System‹; über Ken Russell sagte er, Hammer habe ihm seinen Anfang gegeben, Winner sein Brot und Russell seine Kunst. Das ist Dankbarkeit in der Sprache eines Mannes, der Gefolgschaft in Lehrer und Weggefährten einteilt.</p>
+          <p class="vb-intro">Auch die Kneipe gehörte zu diesem Rudel. Reed trank nicht allein, sondern in Gesellschaft, mit Kollegen, Freunden und Fremden, die mithalten wollten. Dass er am Ende in einer Bar in Valletta bei einem Trinkduell mit Matrosen starb, passt zu einem Mann, der die Runde als Ort der Zugehörigkeit nutzte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Genuss, Betäubung und das Heimweh</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der Acht Gelassenheit, Genussfähigkeit und die Neigung, Anspannung zu dämpfen. Ein schwach ausgeprägter Neunerflügel ließe die Acht kantiger und drängender auftreten; bei Reed färbt er das Auftreten breiter, behäbiger, gesellig. Dazu passt, dass er Hollywood nicht suchte: Er blieb nach den Quellen ein britischer Patriot, der lieber in Großbritannien lebte, und zog zuletzt mit seiner Frau Josephine in den Ort Churchtown in der Grafschaft Cork in Irland.</p>
+          <p class="vb-intro">Der Flügel hat auch eine dunklere Seite. Die Neun stumpft ab, was zu viel wird, und der Alkohol war für Reed ein Mittel dazu. Das bleibt eine Deutung; die Quellen belegen den Konsum, nicht dessen Innenleben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Wucht mit einer Wunde darin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Reeds Gabe lag in der körperlichen Gegenwart, die Gefahr ausstrahlte und trotzdem Verletzlichkeit durchscheinen ließ. Seine erste Hauptrolle hatte er 1961 in Terence Fishers Hammer-Film ›The Curse of the Werewolf‹ (›Der Fluch des Werwolfs‹), als Mann, der gegen das Tier in sich kämpft. 1968 spielte er in ›Oliver!‹, dem von seinem Onkel Carol Reed inszenierten Film, der den Oscar als bester Film gewann, den brutalen Bill Sikes. In ›Women in Love‹ (1969) war er unter Ken Russell der Bergwerksbesitzer Gerald Crich, in der berühmt gewordenen Ringkampfszene mit Alan Bates ebenso ein Kämpfer wie ein Kontrollbedürftiger. In Russells ›The Devils‹ (›Die Teufel‹, 1971) trug er als Priester Grandier die Last eines Mannes, der für seine Leidenschaften zahlt.</p>
+          <p class="vb-intro">Britische Kinobetreiber wählten ihn 1971 zum fünftbeliebtesten Star an der Kinokasse. Später kamen Athos in Richard Lesters Musketier-Filmen, der Onkel Frank in ›Tommy‹ (1975) und, als letzte Rolle, Proximo in ›Gladiator‹ (2000), die ihm posthum eine BAFTA-Nominierung als bester Nebendarsteller eintrug. Seine Kraft war körperlich, doch er setzte sie so ein, dass hinter der Wucht Verletztheit lesbar blieb. Das ist nur ein Auszug aus Reeds Werk, doch er zeigt, warum Regisseure mit ihm Rollen besetzten, in denen Stärke und Beschädigung zusammen auftreten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Leidenschaft: Wollust und die inszenierte Maske</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Acht ist die <strong>Wollust</strong>, das Verlangen nach Intensität, nach mehr von allem. Bei Reed wurde sie zum Ruf des ›Hellraisers‹ (Unruhestifter): Eine überlieferte Anekdote über sechzig Gallonen Bier an einem Abend nannte er selbst ›stark übertrieben‹. Sein Kollege Christopher Lee sagte, nach etwa acht Drinks sei Reed ›ein vollkommenes Monster‹ (›a complete monster‹) geworden.</p>
+          <p class="vb-intro">Reed erzählte allerdings auch, manche seiner Fernsehauftritte seien gespielt gewesen: Der ›Wodka sei Wasser‹ gewesen, und man habe ihn dafür bezahlt, betrunken zu wirken (nach Wikipedia eine seiner Aussagen). Wer so redet, trennt die Maske vom Mann. Der Rausch war teils Wirklichkeit, teils Rolle, und das Publikum erwartete die Rolle. Reed klagte, seine Talkshow-Auftritte drehten sich um seine Trinkleistungen statt um seine Filme. Die Maske der Acht hatte sich verselbständigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Acht mit Neunerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Treue und der Präsenz. Reed stand zu seinen Regisseuren, sein Gesicht und seine Statur haben Filme getragen, und als Schauspieler schaffte er es, aus Härte Charakter zu machen. Seine Schwäche für das Gesellige machte ihn zugänglich.</p>
+          <p class="vb-intro">Der Schatten ist, dass die Rudel-Loyalität sich gegen den Einzelnen wenden kann. Wer in der Runde nicht Nein sagen kann, trinkt bis zum Schluss mit. Der Neunerflügel nimmt die Warnsignale nicht ernst genug, und die Acht hält Schwäche für etwas, das man nicht zeigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Parallelen im selben Subtyp: Bud Spencer, Gunter Gabriel und Joshua Richards</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-bud-spencer">Bud Spencer</a> (SO8w9) ist die ruhige Variante: Auch er stand für Solidarität und Familie, setzte seine Wucht aber nur ein, wenn es nötig war. Reed zeigt dieselbe Grundkraft mit der lauteren, geselligeren Seite des Subtyps. Bei <a href="javascript:void(0)" data-route="beruehmte-gunter-gabriel">Gunter Gabriel</a> (SO8w9) findet sich das Muster der harten Schale und des weichen Kerns, und auch <a href="javascript:void(0)" data-route="beruehmte-joshua-richards">Joshua Richards</a> (SO8w9) steht für Kraft, die für andere da ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Wo ein Löwe seine Spur hinterlassen hat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Oliver Reed starb am 2. Mai 1999 im Alter von 61 Jahren in Valletta auf Malta, während einer Drehpause von ›Gladiator‹, an einem Herzinfarkt. Nach dem Drehbuchautor David Franzoni hatten Matrosen der HMS ›Cumberland‹ ihn zu einem Trinkwettstreit herausgefordert; er brach zusammen und starb im Krankenwagen. Seine fehlenden Szenen wurden mit einem Doppelgänger und Computertechnik vollendet. Er liegt auf dem Friedhof von Bruhenny in Churchtown, County Cork. Auf seinem Grabstein steht ›He made the air move.‹ (›Er brachte die Luft in Bewegung.‹). Die Typisierung bleibt eine Deutung, gestützt auf die belegte Biografie und seine eigenen Aussagen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so8", label:"Lebensmusterkompass: SO8 – Löwe"},
+        {route:"beruehmte-bud-spencer", label:"Porträt: Bud Spencer (SO8w9)"},
+        {route:"beruehmte-gunter-gabriel", label:"Porträt: Gunter Gabriel (SO8w9)"},
+        {route:"beruehmte-joshua-richards", label:"Porträt: Joshua Richards (SO8w9)"},
+      ])}
+    </div>
+  `);
+}
