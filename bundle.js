@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=502";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=503";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -178,6 +178,7 @@ const wasIstLiebePage = () => _lazyPage("./data/praxistipps-de/was-ist-liebe.js"
 const wenigerIstMehrPage = () => _lazyPage("./data/praxistipps-de/weniger-ist-mehr.js", "wenigerIstMehrPage");
 const ausatmenBeruhigungPage = () => _lazyPage("./data/praxistipps-de/ausatmen-beruhigung.js", "ausatmenBeruhigungPage");
 const guteStimmungVierSchalterPage = () => _lazyPage("./data/praxistipps-de/gute-stimmung-vier-schalter.js", "guteStimmungVierSchalterPage");
+const morgenroutineFuenfGewohnheitenPage = () => _lazyPage("./data/praxistipps-de/morgenroutine-fuenf-gewohnheiten.js", "morgenroutineFuenfGewohnheitenPage");
  _lazyPage("./data/praxistipps-de/kino-erwachen.js", "kinoErwachenPage");
 const albertBrooksPortraitPage = () => _lazyPage("./data/beruehmte-de/teil8.js", "albertBrooksPortraitPage");
 const emilyBluntPortraitPage = () => _lazyPage("./data/beruehmte-de/teil13.js", "emilyBluntPortraitPage");
@@ -34732,6 +34733,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"weniger-ist-mehr", titel:"Weniger ist mehr: Impulse brauchen Zeit", teaser:"Bachblüten, Schüßler-Salze und homöopathische Mittel gelten als harmlos. Warum es sich lohnt, bei der Häufigkeit zurückhaltend zu sein: Information statt Stoff, Bachs eigene Regel, ein auffälliger Widerspruch und Hinweise zur Sensibilität im Alltag.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/weniger-ist-mehr/weniger-ist-mehr-2.jpg", kategorie:"koerper" },
     { slug:"ausatmen-beruhigung", titel:"Der Beruhigungsschalter: länger ausatmen, summen, Sicherheit melden", teaser:"Eine kurze Atemübung für unter einer Minute: Die Ausatmung doppelt so lang wie die Einatmung, ein leises Summen und körperliche Sicherheitssignale. Mit Bild, Hinweisen und dem Bezug zu Übung 1 aus »7 Wege zu dir selbst«.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/ausatmen-beruhigung/ausatmen-beruhigung-1.jpg", kategorie:"geist" },
     { slug:"gute-stimmung-vier-schalter", titel:"Vier kleine Schalter für die Stimmung: Abschließen, Würdigen, Lachen, Verbinden", teaser:"Vier einfache Alltagsübungen für wenige Minuten: Kleines abschließen, sich selbst würdigen, lachen und einem Menschen persönlich schreiben. Mit Überblick, Tagesplan und Hinweisen.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gute-stimmung-vier-schalter/gute-stimmung-vier-schalter-1.jpg", kategorie:"geist" },
+    { slug:"morgenroutine-fuenf-gewohnheiten", titel:"Fünf Gewohnheiten vor neun Uhr: der gute Start in den Tag", teaser:"Fünf kleine Morgengewohnheiten ohne frühes Aufstehen: fünf Minuten ohne Handy, Tageslicht, kurze Bewegung, ein echter Kontakt und eine Absicht für den Tag. Mit Überblick und Morgenplan.", img:"", kategorie:"geist" },
   ];
   const TIPP_KATEGORIEN = [
     { id:"koerper", label:"K\u00f6rper & Bewegung", icon:"\ud83e\udded" },
@@ -34814,6 +34816,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "gute-stimmung-vier-schalter") {
     return guteStimmungVierSchalterPage();
+  }
+  if (param === "morgenroutine-fuenf-gewohnheiten") {
+    return morgenroutineFuenfGewohnheitenPage();
   }
 
   return shell(`

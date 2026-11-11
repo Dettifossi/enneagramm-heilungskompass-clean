@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=499";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=500";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -192,6 +192,7 @@ const wasIstLiebePage = () => _lazyPage("./data/praxistipps-en/was-ist-liebe.js"
 const wenigerIstMehrPage = () => _lazyPage("./data/praxistipps-en/weniger-ist-mehr.js", "wenigerIstMehrPage");
 const ausatmenBeruhigungPage = () => _lazyPage("./data/praxistipps-en/ausatmen-beruhigung.js", "ausatmenBeruhigungPage");
 const guteStimmungVierSchalterPage = () => _lazyPage("./data/praxistipps-en/gute-stimmung-vier-schalter.js", "guteStimmungVierSchalterPage");
+const morgenroutineFuenfGewohnheitenPage = () => _lazyPage("./data/praxistipps-en/morgenroutine-fuenf-gewohnheiten.js", "morgenroutineFuenfGewohnheitenPage");
  _lazyPage("./data/praxistipps-en/kino-erwachen.js", "kinoErwachenPage");
 const albertBrooksPortraitPage = () => _lazyPage("./data/beruehmte-en/teil18.js", "albertBrooksPortraitPage");
 const emilyBluntPortraitPage = () => _lazyPage("./data/beruehmte-en/teil7.js", "emilyBluntPortraitPage");
@@ -9899,6 +9900,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"weniger-ist-mehr", titel:"Less Is More: Impulses Need Time", teaser:"Bach flowers, Schüßler salts and homeopathic remedies are considered harmless. Why it pays to be restrained with frequency: information instead of substance, Bach's own rule, a striking contradiction and notes on sensitivity in everyday life.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/weniger-ist-mehr/weniger-ist-mehr-2.jpg", kategorie:"koerper" },
     { slug:"ausatmen-beruhigung", titel:"The Calm Switch: Longer Exhale, Hum, Signal Safety", teaser:"A short breathing exercise for under a minute: the exhale twice as long as the inhale, a soft hum and bodily safety signals. With a picture, notes and the link to exercise 1 from »7 Wege zu dir selbst«.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/ausatmen-beruhigung/ausatmen-beruhigung-1.jpg", kategorie:"geist" },
     { slug:"gute-stimmung-vier-schalter", titel:"Four Small Switches for Your Mood: Finish, Acknowledge, Laugh, Connect", teaser:"Four simple everyday exercises for a few minutes: finish something small, acknowledge yourself, laugh and write one person personally. With overview, daily plan and notes.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gute-stimmung-vier-schalter/gute-stimmung-vier-schalter-2-en.jpg", kategorie:"geist" },
+    { slug:"morgenroutine-fuenf-gewohnheiten", titel:"Five Habits Before Nine: A Good Start to the Day", teaser:"Five small morning habits without early rising: five minutes without the phone, daylight, brief movement, one real contact and an intention for the day. With overview and morning plan.", img:"", kategorie:"geist" },
   ];
   const TIPP_KATEGORIEN = [
     { id:"koerper", label:"Body & Movement", icon:"🧭" },
@@ -9975,6 +9977,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "gute-stimmung-vier-schalter") {
     return guteStimmungVierSchalterPage();
+  }
+  if (param === "morgenroutine-fuenf-gewohnheiten") {
+    return morgenroutineFuenfGewohnheitenPage();
   }
   if (param === "das-ewige-ich-bin") {
     return dasEwigeIchBinPage();
