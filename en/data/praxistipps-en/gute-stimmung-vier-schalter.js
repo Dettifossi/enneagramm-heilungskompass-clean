@@ -10,7 +10,7 @@ export function guteStimmungVierSchalterPage() {
       <p class="lead-small">Good mood does not depend on circumstances alone. It can be encouraged in everyday life with small, simple exercises, each taking a few minutes. This tip shows four of them and how to fit them into the day.</p>
 
       <div class="psycho-img-wrap" style="margin-top:1rem;">
-        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gute-stimmung-vier-schalter/gute-stimmung-vier-schalter-1-en.jpg" alt="Four-part illustration: Finish (a young woman sorts papers and boxes at a table), Acknowledge (two people look at an old family photo), Love (three people laughing on a sofa), Connect (people of different generations sit at a table in a community garden)." class="psycho-img" loading="lazy" />
+        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gute-stimmung-vier-schalter/gute-stimmung-vier-schalter-2-en.jpg" alt="Four-part illustration: Finish (a young woman sorts papers and boxes at a table), Acknowledge (two people look at an old family photo), Laugh (three people laughing on a sofa), Connect (people of different generations sit at a table in a community garden)." class="psycho-img" loading="lazy" />
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
