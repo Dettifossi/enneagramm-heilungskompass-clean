@@ -1,0 +1,88 @@
+const { shell, pageHeader, relatedLinks } = window.__kh;
+
+export function sonntagsgeschichtePage() {
+  return shell(`
+    ${pageHeader("sonntagsgeschichte")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="wissen" style="margin-bottom:1rem;">← Back to Knowledge</button>
+      <p class="eyebrow">Knowledge · A healing story</p>
+      <h1 class="h1--tip">A Healing Enneagram Sunday Story</h1>
+      <p class="lead-small">How Sunday rest feels in nine living rooms: why rest is a capacity of the soul that has to be learned.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/sonntagsgeschichte/sonntagsgeschichte-1.jpg" alt="A cup of coffee on a saucer next to a book on a light bed: Sunday rest" loading="lazy">
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
+        <p class="vb-intro">It is Sunday morning. The bells have rung in the day, the shops have pulled down their shutters, and out on the streets a quiet spreads that is almost tangible. For twenty-four hours the world collectively holds its breath to make room for something we call Sunday rest. But while the outer scenery switches perfectly to pause, the inner life of people often looks quite different. In there, the familiar program of the character structures simply keeps running, unbroken.</p>
+        <p class="vb-intro" style="margin-top:.8rem;margin-bottom:0;">It is a paradoxical truth that real rest is not a state you can force with a page of the calendar. It is a capacity of the soul, and it has to be learned. When we step into people's living rooms and minds on a day like this, Sunday rest becomes a developmental task of its own, a psychological one.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
+        <p class="eyebrow" style="margin:0 0 .3rem;">Type 1</p>
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">The drive for perfection</h2>
+        <p class="vb-intro" style="margin-bottom:0;">Take the drive for perfection, which does not sleep on Sunday either. You can see it in the person who is supposed to be sitting in the armchair reading, but whose gaze wanders restlessly over the unironed laundry or catches on the weeds that grow, outrageously, between the patio stones. The inner acidity of unconscious anger at the imperfection of the world cannot be switched off by a public holiday. For this person Sunday begins only at the moment they give the world and themselves permission to be, for today, as incomplete and flawed as it simply is. It is the step away from endless improving toward the deep sigh that for today, everything is good enough.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
+        <p class="eyebrow" style="margin:0 0 .3rem;">Type 3</p>
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">When standing still feels like a threat</h2>
+        <p class="vb-intro" style="margin-bottom:0;">Much the same happens to those who have tied their identity so closely to doing and achieving that standing still feels like an existential threat. When the phone is silent and no emails arrive, an emptiness opens up for the doer that at first feels like worthlessness. The impulse to stuff Sunday with useful projects, sports programs or planning the next working week is enormous. Here Sunday rest means a radical rethinking, from human doing to pure human being. It is the painful but endlessly liberating realization that today your worth is measured by nothing at all, least of all by a finished to-do list.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
+        <p class="eyebrow" style="margin:0 0 .3rem;">Type 2</p>
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">The eternal caregivers</h2>
+        <p class="vb-intro" style="margin-bottom:0;">A few houses further on we find the eternal caregivers, who are under an invisible, constant cramp even on the day of rest. They are in the kitchen early in the morning, baking cakes, cooking the perfect Sunday meal and spinning around nonstop to make everything right for the whole family. Their greatest fear is not being needed. For them Sunday rest means radically laying their hands in their lap and bearing that others look after them, or that they are simply loved for once without giving anything in return. It is the hard but healing lesson of not squandering one's own inner substance outwardly, but claiming the day for oneself.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
+        <p class="eyebrow" style="margin:0 0 .3rem;">Type 7</p>
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">The fireworks of plans</h2>
+        <p class="vb-intro" style="margin-bottom:0;">And while some spin outwardly, others flee a looming inner emptiness into a veritable fireworks display of plans, ideas and future pleasures. The Sunday morning is used to book the next three holidays or to be, in thought, already dancing at the party after next, just so as not to have to endure the present moment, which may seem a little uneventful and gray. For these fleeting spirits the true art of rest lies in stopping the engine, putting both feet on the floor, and feeling the deep satisfaction that comes when you have to be absolutely nowhere other than right here, in this one calm room.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
+        <p class="eyebrow" style="margin:0 0 .3rem;">Type 5</p>
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">The retreat into the fortress</h2>
+        <p class="vb-intro" style="margin-bottom:0;">Others use the day to withdraw deep into their fortress. They barricade themselves behind books, knowledge or screens, driven by a deep, often unconscious fear of being flooded and drained by the stimuli, demands and emotions of the environment. At first their Sunday rest is an escape, a cool retreat. But they find real recovery only when they sense that their inner boundaries are stable enough to leave the fortress now and then. When they lower the cool wall of the thinker a little and allow themselves to let the warmth of the day in unfiltered, without fear of losing themselves in the process.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
+        <p class="eyebrow" style="margin:0 0 .3rem;">Type 6</p>
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">The inner alarm system</h2>
+        <p class="vb-intro" style="margin-bottom:0;">Right next door sits someone whose mind will not rest either, though for a quite different reason. Here the inner alarm system runs at full speed. Instead of enjoying the free day, the mind keeps scanning the coming week for potential dangers, problems and risks. Every creak in the house, every careless remark becomes a potential source of crisis. For this skeptical mind, Sunday rest means consciously stopping the endless doubting and securing. True recovery lies here in the courage to trust, in the deep breath that signals to one's own nervous system that the world is safe in this moment, and that fate does not need to be controlled twenty-four hours in advance.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
+        <p class="eyebrow" style="margin:0 0 .3rem;">Type 4</p>
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">The Sunday blues</h2>
+        <p class="vb-intro" style="margin-bottom:0;">Sometimes failed Sunday rest also disguises itself as deep, heavy melancholy. It is that particular Sunday blues that overcomes you when you sit in the armchair with the dull feeling that something essential is missing in your life, while everyone else out there seems to live the perfect, happy life. You chew on old emotional wounds and get tangled in a longing that has no tangible name. Here rest turns into the task of courageously digesting the old backlog of grief inside, letting the dried-up tears flow, and accepting the moment in its simple, imperfect beauty instead of being paralyzed under the weight of the ideal.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
+        <p class="eyebrow" style="margin:0 0 .3rem;">Type 8</p>
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">The arena</h2>
+        <p class="vb-intro" style="margin-bottom:0;">At the other end of the spectrum stand the powerful, strong natures who actually need Sunday as a fight-free zone, but often misuse it as an arena. They challenge, set the program, want to keep control, and feel a latent, simmering energy even in stillness. Their Sunday rest begins with the melting of the iron armor. For them recovery means letting the weapons sink completely, giving up the compulsion to control, and feeling the permission to be, for a single day, simply vulnerable, soft and receptive, without it turning into a weakness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
+        <p class="eyebrow" style="margin:0 0 .3rem;">Type 9</p>
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">The deceptive calm</h2>
+        <p class="vb-intro" style="margin-bottom:0;">And finally there are those who seem to master Sunday perfectly, because they can stay on the sofa for hours without anything disturbing them. But this calm is often deceptive. It is not real recovery but an unconscious numbing, a fading away in the fog of conflict avoidance and comfort. They nod yes to everything to keep the peace, and inwardly switch off. They find their true Sunday rest only when they wake from this inertia and come into a lively, conscious presence. Only when they feel what they themselves actually want does passive lingering become real, powerful regeneration.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
+        <p class="vb-intro">At the end of the day, Sunday is like a homeopathic impulse that we give into the flow of the week. Once, we set a fine, precise stimulus of stillness, of pausing and of radically taking the pressure off. For twenty-four hours we do exactly what the old masters of the healing art taught: we do nothing, we do not intervene, we simply watch and let the stimulus work in the system. Whoever learns to master this one day in their own character dynamic, and to truly lay down the weapons of everyday life, gives their life force the fuel it urgently needs for the coming six days in the hamster wheel.</p>
+        <p class="vb-intro" style="margin-top:1rem;">With warm regards,<br><strong>Detlef Rathmer</strong></p>
+        <p class="vb-intro" style="margin-top:1rem;margin-bottom:0;font-size:.9rem;color:var(--muted);">P.S.: If this healing story has touched you, I would be glad if you passed it on to friends and acquaintances who may also be looking for their own (Sunday) rest. Thank you!</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"wissen", label:"Back to Knowledge"},
+        {route:"praxistipps-heilpraktiker", label:"Practice tips from the naturopath"},
+        {route:"aufmerksamkeitsfokus", label:"Attention focus of the nine types"},
+      ])}
+    </section>
+  `);
+}

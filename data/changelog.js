@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2772", date: "2026-11-11", text: "Neu: Eine heilsame Enneagramm-Sonntagsgeschichte – wie sich Sonntagsruhe in neun Wohnzimmern anfühlt. Zu finden unter Wissen.", text_en: "New: A Healing Enneagram Sunday Story – how Sunday rest feels in nine living rooms. Find it under Knowledge.", route: "sonntagsgeschichte" },
     { version: "v2771", date: "2026-11-11", text: "Neuer Praxistipp: Reize fasten – ein ruhiger Tag als Neustart für Antrieb und Aufmerksamkeit.", text_en: "New practice tip: Fasting from stimulation – a quiet day as a restart for drive and attention.", route: "praxistipps-heilpraktiker/reize-fasten-ruhetag" },
     { version: "v2770", date: "2026-11-11", text: "Neuer Praxistipp: Glück ist keine Ankunft – warum ›Wenn erst …‹ nicht trägt und wie Aufmerksamkeit und konkrete Dankbarkeit helfen.", text_en: "New practice tip: Happiness is not an arrival – why ‘once I have …’ does not hold and how attention and concrete gratitude help.", route: "praxistipps-heilpraktiker/gluck-keine-ankunft" },
     { version: "v2769", date: "2026-11-11", text: "Neuer Praxistipp: Gefühle annehmen, alte Lasten loslassen – sieben alltagstaugliche Wege aus dem Grübeln.", text_en: "New practice tip: Accepting feelings, letting go of old burdens – seven everyday ways out of brooding.", route: "praxistipps-heilpraktiker/gefuehle-annehmen-alte-lasten" },
