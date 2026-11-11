@@ -9,6 +9,10 @@ export function guteStimmungVierSchalterPage() {
       <h1 class="h1--tip">Four Small Switches for Your Mood: Finish, Acknowledge, Laugh, Connect</h1>
       <p class="lead-small">Good mood does not depend on circumstances alone. It can be encouraged in everyday life with small, simple exercises, each taking a few minutes. This tip shows four of them and how to fit them into the day.</p>
 
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gute-stimmung-vier-schalter/gute-stimmung-vier-schalter-1.jpg" alt="Four-part illustration with German captions: Abschließen (finish: a young woman sorts papers and boxes at a table), Würdigen (acknowledge: two people look at an old family photo), Lachen (laugh: three people laughing on a sofa), Verbinden (connect: people of different generations sit at a table in a community garden)." class="psycho-img" loading="lazy" />
+      </div>
+
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Important note</h2>
         <p class="vb-intro" style="margin-bottom:0;">This tip describes self-help exercises for everyday life. It does not replace medical, psychotherapeutic or naturopathic treatment. Persistent low mood, loss of joy or lack of drive lasting more than two weeks belongs in professional hands; with thoughts of self-harm, seek medical help or emergency services immediately.</p>

@@ -9,6 +9,10 @@ export function guteStimmungVierSchalterPage() {
       <h1 class="h1--tip">Vier kleine Schalter für die Stimmung: Abschließen, Würdigen, Lachen, Verbinden</h1>
       <p class="lead-small">Gute Stimmung hängt nicht nur von den Umständen ab. Sie lässt sich im Alltag mit kleinen, einfachen Übungen anregen, jede dauert wenige Minuten. Dieser Tipp zeigt vier davon und wie sie sich im Tagesablauf unterbringen lassen.</p>
 
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gute-stimmung-vier-schalter/gute-stimmung-vier-schalter-1.jpg" alt="Vierteilige Illustration: Abschließen (eine junge Frau ordnet Papiere und Schachteln am Tisch), Würdigen (zwei Menschen betrachten ein altes Familienfoto), Lachen (drei Menschen lachen auf dem Sofa), Verbinden (Menschen verschiedener Generationen sitzen an einem Tisch im Gemeinschaftsgarten)." class="psycho-img" loading="lazy" />
+      </div>
+
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Wichtiger Hinweis</h2>
         <p class="vb-intro" style="margin-bottom:0;">Dieser Tipp beschreibt Selbsthilfe-Übungen für den Alltag. Er ersetzt weder ärztliche noch psychotherapeutische oder heilpraktische Behandlung. Anhaltende Niedergeschlagenheit, Freudlosigkeit oder Antriebslosigkeit über mehr als zwei Wochen gehören in fachliche Hände, bei Gedanken an Selbstverletzung sofort ärztliche Hilfe oder den Notruf 112 in Anspruch nehmen.</p>
