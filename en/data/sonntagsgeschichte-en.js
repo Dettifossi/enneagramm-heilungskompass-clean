@@ -29,8 +29,7 @@ export function sonntagsgeschichtePage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
         <p class="vb-intro">At the end of the day, Sunday is like a homeopathic impulse that we give into the flow of the week. Once, we set a fine, precise stimulus of stillness, of pausing and of radically taking the pressure off. For twenty-four hours we do exactly what the old masters of the healing art taught: we do nothing, we do not intervene, we simply watch and let the stimulus work in the system. Whoever learns to master this one day in their own character dynamic, and to truly lay down the weapons of everyday life, gives their life force the fuel it urgently needs for the coming six days in the hamster wheel.</p>
-        <p class="vb-intro" style="margin-top:1rem;">With warm regards,<br><strong>Detlef Rathmer</strong></p>
-        <p class="vb-intro" style="margin-top:1rem;margin-bottom:0;font-size:.9rem;color:var(--muted);">P.S.: If this healing story has touched you, I would be glad if you passed it on to friends and acquaintances who may also be looking for their own (Sunday) rest. Thank you!</p>
+        <p class="vb-intro" style="margin-top:1rem;margin-bottom:0;">With warm regards,<br><strong>Detlef Rathmer</strong></p>
       </div>
 
       ${relatedLinks([
