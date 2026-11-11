@@ -9,6 +9,10 @@ export function morgenroutineFuenfGewohnheitenPage() {
       <h1 class="h1--tip">Fünf Gewohnheiten vor neun Uhr: der gute Start in den Tag</h1>
       <p class="lead-small">Die ersten Minuten und die erste Stunde nach dem Aufwachen prägen oft die Stimmung des ganzen Tages. Dieser Tipp zeigt fünf kleine Gewohnheiten, die ohne frühes Aufstehen und ohne lange Morgenroutine auskommen.</p>
 
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/morgenroutine-fuenf-gewohnheiten/morgenroutine-fuenf-gewohnheiten-1-de.jpg" alt="Fünfteilige Illustration: fünf Minuten ohne Handy (junge Frau sitzt still mit geschlossenen Augen), Tageslicht (sie tritt auf die Terrasse), kurze Bewegung (Dehnübung im Wohnzimmer), echter Kontakt (zwei Menschen mit Tasse am Tisch), Absicht für den Tag (sie schreibt in ein Notizbuch)." class="psycho-img" loading="lazy" />
+      </div>
+
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Wichtiger Hinweis</h2>
         <p class="vb-intro" style="margin-bottom:0;">Dieser Tipp beschreibt Selbsthilfe-Gewohnheiten für den Alltag. Er ersetzt weder ärztliche noch psychotherapeutische oder heilpraktische Behandlung. Bei Herz-Kreislauf-Erkrankungen oder Beschwerden vor der Bewegung ärztlichen Rat einholen. Beim Blick zum Himmel nie direkt in die Sonne schauen. Anhaltende Niedergeschlagenheit über mehr als zwei Wochen gehört in fachliche Hände.</p>

@@ -9,6 +9,10 @@ export function morgenroutineFuenfGewohnheitenPage() {
       <h1 class="h1--tip">Five Habits Before Nine: A Good Start to the Day</h1>
       <p class="lead-small">The first minutes and the first hour after waking often shape the mood of the whole day. This tip shows five small habits that need no early rising and no long morning routine.</p>
 
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/morgenroutine-fuenf-gewohnheiten/morgenroutine-fuenf-gewohnheiten-1-en.jpg" alt="Five-part illustration: five minutes without the phone (young woman sitting quietly with closed eyes), daylight (she steps onto the terrace), short movement (stretching in the living room), real contact (two people with a cup at a table), intention for the day (she writes in a notebook)." class="psycho-img" loading="lazy" />
+      </div>
+
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Important note</h2>
         <p class="vb-intro" style="margin-bottom:0;">This tip describes self-help habits for everyday life. It does not replace medical, psychotherapeutic or naturopathic treatment. With cardiovascular conditions or complaints, seek medical advice before the movement. When looking at the sky, never look directly at the sun. Persistent low mood lasting more than two weeks belongs in professional hands.</p>
