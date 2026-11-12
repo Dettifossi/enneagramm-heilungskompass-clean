@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=507";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=508";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -576,6 +576,7 @@ const leonieBeneschPortraitPage = () => _lazyPage("./data/beruehmte-en/teil2.js"
 const clausTheoGaertnerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "clausTheoGaertnerPortraitPage");
 const oliverReedPortraitPage = () => _lazyPage("./data/beruehmte-en/teil8.js", "oliverReedPortraitPage");
 const michaelFassbenderPortraitPage = () => _lazyPage("./data/beruehmte-en/teil7.js", "michaelFassbenderPortraitPage");
+const paulDanoPortraitPage = () => _lazyPage("./data/beruehmte-en/teil7.js", "paulDanoPortraitPage");
 const heinzErhardtPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "heinzErhardtPortraitPage");
 const rainerHunoldPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "rainerHunoldPortraitPage");
 const henriRousseauPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "henriRousseauPortraitPage");
@@ -1951,6 +1952,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Michael Fassbender \u2013 Social Type 1",
     teaser:"SO1w2 \u00b7 b. 1977 in Heidelberg. Actor and racing driver: \u2018Hunger\u2019, \u2018Shame\u2019, \u201812 Years a Slave\u2019, \u2018Steve Jobs\u2019. The goose that sets its own tasks. Animal correspondence: Goose.",
     land:"Germany / Ireland", tags:["Acting","Film","Sport"], gender:"m"},
+{ route:"beruehmte-paul-dano", name:"Paul Dano", added:"2026-11-12", subtyp:"SE4w3",
+    heading:"Paul Dano \u2013 Self-Preservation Type 4",
+    teaser:"SP4w3 \u00b7 b. 1984 in New York. Actor and director: \u2018Little Miss Sunshine\u2019, \u2018There Will Be Blood\u2019, \u2018Love & Mercy\u2019, \u2018Wildlife\u2019, \u2018The Batman\u2019. The dove that puts the inner life into the role. Animal correspondence: Dove.",
+    land:"USA", tags:["Acting","Film","Directing"], gender:"m"},
 { route:"beruehmte-heinz-erhardt", name:"Heinz Erhardt", added:"2026-11-07", subtyp:"SE7w6",
     heading:"Heinz Erhardt \u2013 Self-Preservation Type 7",
     teaser:"SP7w6 \u00b7 1909\u20131979. Comedian, musician and poet from Riga, king of the twisted word. The gorilla that fills the room with calm. Animal correspondence: Gorilla.",
@@ -48648,7 +48653,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-pamela-reif": pamelaReifPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-phil-collins": philCollinsPortraitPage,
-      "beruehmte-oliver-reed": oliverReedPortraitPage, "beruehmte-michael-fassbender": michaelFassbenderPortraitPage, "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-lea-bosco": leaBoscoPortraitPage, "beruehmte-roland-trettl": rolandTrettlPortraitPage, "beruehmte-kida-khodr-ramadan": kidaKhodrRamadanPortraitPage, "beruehmte-maryam-zaree": maryamZareePortraitPage, "beruehmte-rauand-taleb": rauandTalebPortraitPage, "beruehmte-steven-krueger": stevenKruegerPortraitPage, "beruehmte-carmen-herrera": carmenHerreraPortraitPage, "beruehmte-harland-sanders": harlandSandersPortraitPage, "beruehmte-henri-rousseau": henriRousseauPortraitPage, "beruehmte-rainer-hunold": rainerHunoldPortraitPage, "beruehmte-heinz-erhardt": heinzErhardtPortraitPage, "beruehmte-claus-theo-gaertner": clausTheoGaertnerPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
+      "beruehmte-oliver-reed": oliverReedPortraitPage, "beruehmte-michael-fassbender": michaelFassbenderPortraitPage, "beruehmte-paul-dano": paulDanoPortraitPage, "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-lea-bosco": leaBoscoPortraitPage, "beruehmte-roland-trettl": rolandTrettlPortraitPage, "beruehmte-kida-khodr-ramadan": kidaKhodrRamadanPortraitPage, "beruehmte-maryam-zaree": maryamZareePortraitPage, "beruehmte-rauand-taleb": rauandTalebPortraitPage, "beruehmte-steven-krueger": stevenKruegerPortraitPage, "beruehmte-carmen-herrera": carmenHerreraPortraitPage, "beruehmte-harland-sanders": harlandSandersPortraitPage, "beruehmte-henri-rousseau": henriRousseauPortraitPage, "beruehmte-rainer-hunold": rainerHunoldPortraitPage, "beruehmte-heinz-erhardt": heinzErhardtPortraitPage, "beruehmte-claus-theo-gaertner": clausTheoGaertnerPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
       "beruehmte-harald-v": haraldVPortraitPage,
       "beruehmte-carl-xvi-gustaf": carlXVIGustafPortraitPage,
       "beruehmte-johannes-paul-ii": johannesPaulIIPortraitPage,

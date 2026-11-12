@@ -3279,3 +3279,77 @@ export function michaelFassbenderPortraitPage() {
     </div>
   `);
 }
+
+export function paulDanoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-paul-dano-portrait.jpg" alt="Paul Dano – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-paul-dano-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Paul Dano</p>
+        <p class="krim-portrait-typ">SE4w3 &middot; Selbsterhaltender Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler und Regisseur, geb. 1984 in New York &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube, die leise bleibt, wenn der Film laut wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> kehrt zurück, trägt Last und macht kein Aufheben davon. Paul Dano wurde am 19. Juni 1984 in New York City geboren. Sein Vater arbeitete als Finanzberater, seine Mutter war Hausfrau, dazu kommt eine jüngere Schwester, Sarah. Er besuchte die Browning School in Manhattan, dann die Highschool in Wilton, Connecticut (Abschluss 2002) und das Eugene Lang College in New York.</p>
+          <p class="vb-intro">Auf der Bühne stand er früh: 1996 spielte er in der Uraufführung des Musicals ›Ragtime‹ in Toronto den kleinen Jungen Edgar, mit zwölf debütierte er am Broadway in der Neuauflage von ›Inherit the Wind‹ neben George C. Scott und Charles Durning. Sein Filmdebüt gab er mit sechzehn in ›L.I.E.‹ (2001) als Howie Blitzer, ein verschlossener Jugendlicher am Rand einer Gruppe, die ihn nicht sieht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: das Innenleben geht in die Rolle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> zeigt ihren Schmerz kaum nach außen. Ihre Tiefe wird still verarbeitet, oft über viele Jahre, und sucht keinen Applaus. Bei Dano zeigt sich das in der Auswahl der Figuren: in ›Little Miss Sunshine‹ (2006) der Teenager Dwayne, der aus Trotz und Verzweiflung monatelang kein Wort spricht; in ›There Will Be Blood‹ (2007) der junge Prediger Eli Sunday, der sich neben Daniel Day-Lewis behauptet; in ›Love &amp; Mercy‹ (2014) der junge Brian Wilson, ein Musiker, der an der eigenen Innenwelt zu zerbrechen droht; in ›The Batman‹ (2022) der Riddler, ein Mann, der sich unsichtbar fühlt und sichtbar werden will.</p>
+          <p class="vb-intro">Alle vier sind Menschen mit großem Innendruck und kleinem Ausdruck. Dano spielt sie ohne Ausstellungsgeste. Das passt zur Taube, die Gewicht trägt und dabei nicht klagt. Das bleibt eine Deutung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Handwerk, Plan und der Schritt hinter die Kamera</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> bringt Zielstrebigkeit und den Willen, etwas Vorzeigbares zu schaffen. Dano blieb nicht bei der Rolle des feinen Nebendarstellers. Er spielte in einer Band (Mook, Sänger und Leadgitarrist, 2007 bis 2016), schrieb mit ›The Riddler: Year One‹ (2022) einen Comic zur Figur, die er im Kino verkörperte, und drehte 2018 mit ›Wildlife‹ seinen ersten Film als Regisseur. Das Drehbuch schrieb er gemeinsam mit seiner Partnerin Zoe Kazan nach dem Roman von Richard Ford. Ein schwach ausgeprägter Dreierflügel würde die Vier eher im Innenraum lassen; bei Dano wird aus der Tiefe sichtbare Arbeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Spannung unter der Oberfläche</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dano spielt Menschen, in denen etwas arbeitet, das sie nicht aussprechen können. In ›There Will Be Blood‹ trug er als Paul und Eli Sunday eine Doppelrolle und bekam eine BAFTA-Nominierung als bester Nebendarsteller; das Magazin ›Texas Monthly‹ schrieb, seine Darstellung sei ›so electric that the movie sags whenever he's not around‹ (so elektrisierend, dass der Film durchhängt, wenn er nicht im Bild ist). In ›Love &amp; Mercy‹ gab er den jungen Brian Wilson und erhielt 2014 eine Golden-Globe-Nominierung als bester Nebendarsteller. Dazu kamen ›Prisoners‹ und ›12 Years a Slave‹ (beide 2013), ›Swiss Army Man‹ (2016) mit Daniel Radcliffe und in der Miniserie ›Escape at Dannemora‹ (2018) der Ausbrecher David Sweat, was ihm eine Emmy-Nominierung einbrachte. In ›The Fabelmans‹ (2022) spielte er Burt Fabelman, eine Version von Steven Spielbergs Vater Arnold.</p>
+          <p class="vb-intro">Seine Technik ist die Zurückhaltung. Er legt Druck in Blick, Pause und Körperspannung und lässt das Publikum den Rest selbst hören. Das ist das Gegenteil der lauten Verwandlung und passt zu einer Vier, die ihr Innenleben schützt, indem sie es genau dosiert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Familie als Stoff: ›Wildlife‹ und das, was nicht gesagt wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">›Wildlife‹ erzählt von einer Familie in Montana, die in den Sechzigerjahren auseinanderbricht, gesehen mit den Augen des vierzehnjährigen Sohnes. Der Film lief 2018 in Sundance, später auch in Cannes. Über seinen Antrieb sagte Dano: ›I have always wanted to make films and have always known I would make films about family.‹ (›Ich wollte immer Filme machen und wusste immer, dass ich Filme über Familie machen würde.‹)</p>
+          <p class="vb-intro">Auch das passt zur selbsterhaltenden Vier: Das Eigene wird nicht bekannt, sondern in eine Geschichte gelegt, die für sich steht. Die Regie gibt ihm Raum, den Ton selbst zu setzen, den er als Darsteller meist nur mittragen kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Vier mit Dreierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Genauigkeit und im Mut zu schwierigen, wenig gefälligen Figuren: Dano wählt Rollen, die sich nicht anbiedern, und führt sie zu Ende. Der Schatten der Vier wäre die Verschlossenheit, das Gefühl, nicht gesehen zu werden, und die Gefahr, das Innere so gut zu verbergen, dass es auch den Nächsten schwerfällt, es zu lesen. Ob und wie Dano das selbst erlebt, ist von außen nicht zu beurteilen; er spricht in Interviews über seine Arbeit, wenig über sich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Parallelen im selben Subtyp: Nicolas Cage und Leonie Benesch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-nicolas-cage">Nicolas Cage</a> (SE4w3) teilt mit Dano den Weg über ungewöhnliche, verletzliche Rollen; bei Cage wird das Innere laut, bei Dano bleibt es leise. <a href="javascript:void(0)" data-route="beruehmte-leonie-benesch">Leonie Benesch</a> (SE4w3) steht ihm in der Technik am nächsten: Beide machen Druck sichtbar, ohne eine große Geste zu brauchen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Stand im November 2026</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dano lebt mit der Schauspielerin und Autorin Zoe Kazan, mit der er seit 2007 zusammen ist, und den beiden Kindern (Tochter 2018, Sohn 2022) in Brooklyn. Zuletzt war er in ›Spaceman‹ (2024, Netflix, als Stimme), in der Serie ›Mr. &amp; Mrs. Smith‹ (2024, Emmy-Nominierung als Gastdarsteller) und in ›The Wizard of the Kremlin‹ (2025) zu sehen; weitere Projekte sind in Arbeit. Die Typisierung bleibt eine Deutung, basiert auf dem Lebenslauf und auf dem Enneagramm-Profiling-System von David L. Rathmer.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se4", label:"Lebensmusterkompass: SE4 – Taube"},
+        {route:"beruehmte-nicolas-cage", label:"Porträt: Nicolas Cage (SE4w3)"},
+        {route:"beruehmte-leonie-benesch", label:"Porträt: Leonie Benesch (SE4w3)"},
+      ])}
+    </div>
+  `);
+}
