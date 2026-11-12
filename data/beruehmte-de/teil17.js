@@ -3384,7 +3384,7 @@ export function oliverReedPortraitPage() {
 
         <h2 class="vb-section">8. Wo ein Löwe seine Spur hinterlassen hat</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Oliver Reed starb am 2. Mai 1999 im Alter von 61 Jahren in Valletta auf Malta, während einer Drehpause von ›Gladiator‹, an einem Herzinfarkt. Nach dem Drehbuchautor David Franzoni hatten Matrosen der HMS ›Cumberland‹ ihn zu einem Trinkwettstreit herausgefordert; er brach zusammen und starb im Krankenwagen. Seine fehlenden Szenen wurden mit einem Doppelgänger und Computertechnik vollendet. Er liegt auf dem Friedhof von Bruhenny in Churchtown, County Cork. Auf seinem Grabstein steht ›He made the air move.‹ (›Er brachte die Luft in Bewegung.‹). Die Typisierung bleibt eine Deutung, gestützt auf die belegte Biografie und seine eigenen Aussagen.</p>
+          <p class="vb-intro">Oliver Reed starb am 2. Mai 1999 im Alter von 61 Jahren in Valletta auf Malta, während einer Drehpause von ›Gladiator‹, an einem Herzinfarkt. Nach dem Drehbuchautor David Franzoni hatten Matrosen der HMS ›Cumberland‹ ihn zu einem Trinkwettstreit herausgefordert; er brach zusammen und starb im Krankenwagen. Seine fehlenden Szenen wurden mit einem Doppelgänger und Computertechnik vollendet. Er liegt auf dem Friedhof von Bruhenny in Churchtown, County Cork. Auf seinem Grabstein steht ›He made the air move.‹ (›Er brachte die Luft in Bewegung.‹). Die Typisierung bleibt eine Deutung, basiert auf dem belegten Lebenslauf und auf dem Enneagramm-Profiling-System von David L. Rathmer.</p>
         </blockquote>
 
       </div>

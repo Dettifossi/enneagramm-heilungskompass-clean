@@ -3290,7 +3290,7 @@ export function oliverReedPortraitPage() {
 
         <h2 class="vb-section">8. Where a Lion Left His Mark</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Oliver Reed died on 2 May 1999, aged 61, of a heart attack in Valletta, Malta, during a break in filming ›Gladiator‹. According to the screenwriter David Franzoni, sailors of HMS ›Cumberland‹ had challenged him to a drinking contest; he collapsed and died in the ambulance. His remaining scenes were completed with a double and computer effects. He is buried in Bruhenny Graveyard in Churchtown, County Cork. His gravestone reads ›He made the air move.‹ The typing remains an interpretation, based on the documented biography and his own statements.</p>
+          <p class="vb-intro">Oliver Reed died on 2 May 1999, aged 61, of a heart attack in Valletta, Malta, during a break in filming ›Gladiator‹. According to the screenwriter David Franzoni, sailors of HMS ›Cumberland‹ had challenged him to a drinking contest; he collapsed and died in the ambulance. His remaining scenes were completed with a double and computer effects. He is buried in Bruhenny Graveyard in Churchtown, County Cork. His gravestone reads ›He made the air move.‹ The typing remains an interpretation, based on the life story and on the Enneagram profiling system of David L. Rathmer.</p>
         </blockquote>
 
       </div>

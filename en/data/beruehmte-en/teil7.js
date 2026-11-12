@@ -3280,7 +3280,7 @@ export function michaelFassbenderPortraitPage() {
 
         <h2 class="vb-section">8. Status in November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Fassbender has been married since 14 October 2017 to the Swedish actress Alicia Vikander; they have two sons and live in Lisbon. Most recently he appeared in ›The Killer‹ (2023, David Fincher), ›Next Goal Wins‹ (2023, Taika Waititi) and ›Black Bag‹ (2025, Steven Soderbergh), and in the series ›The Agency‹ (since 2024). His stated goal in racing is a return to the 24 Hours of Le Mans. The typing remains an interpretation, based on public statements and career.</p>
+          <p class="vb-intro">Fassbender has been married since 14 October 2017 to the Swedish actress Alicia Vikander; they have two sons and live in Lisbon. Most recently he appeared in ›The Killer‹ (2023, David Fincher), ›Next Goal Wins‹ (2023, Taika Waititi) and ›Black Bag‹ (2025, Steven Soderbergh), and in the series ›The Agency‹ (since 2024). His stated goal in racing is a return to the 24 Hours of Le Mans. The typing remains an interpretation, based on the life story and on the Enneagram profiling system of David L. Rathmer.</p>
         </blockquote>
 
       </div>

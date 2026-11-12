@@ -2839,7 +2839,7 @@ export function anneWillPortraitPage() {
 
         <h2 class="vb-section">7. The Woman Who Saw Through Her Own Correctness</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In retrospect, what remains is a journalist who earned her place and openly voiced her own overcorrectness. The typing remains an interpretation: it rests on Will's own statements and her career, not on knowledge of her inner life.</p>
+          <p class="vb-intro">In retrospect, what remains is a journalist who earned her place and openly voiced her own overcorrectness. The typing remains an interpretation: it is based on the life story and on the Enneagram profiling system of David L. Rathmer, not on knowledge of her inner life.</p>
         </blockquote>
 
       </div>

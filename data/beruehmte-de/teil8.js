@@ -2259,7 +2259,7 @@ export function anneWillPortraitPage() {
 
         <h2 class="vb-section">7. Die Frau, die ihre eigene Korrektheit durchschaute</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Im Rückblick bleibt eine Journalistin, die sich ihren Platz erarbeitet und ihre eigene Überkorrektheit offen ausgesprochen hat. Die Typisierung bleibt eine Deutung: Sie stützt sich auf Wills eigene Aussagen und auf die Laufbahn, nicht auf Kenntnis ihres Innenlebens.</p>
+          <p class="vb-intro">Im Rückblick bleibt eine Journalistin, die sich ihren Platz erarbeitet und ihre eigene Überkorrektheit offen ausgesprochen hat. Die Typisierung bleibt eine Deutung: Sie basiert auf dem Lebenslauf und auf dem Enneagramm-Profiling-System von David L. Rathmer, nicht auf Kenntnis ihres Innenlebens.</p>
         </blockquote>
 
       </div>
