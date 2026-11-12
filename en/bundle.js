@@ -21234,9 +21234,11 @@ window.ytFacadePlay = function (el, id) {
 };
 
 function detlefRathmerJazzPage() {
+  const _t10esc = s => String(s).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+  const _t10star = (id, s, title) => `<button type="button" class="t10-star" data-t10="${id}|${s}" data-t10-t="${_t10esc(title)}" aria-pressed="false">\u2606</button>`;
   const kachel = (id, label, tracks, desc, langs) => `
     <div style="background:var(--paper);border-radius:14px;overflow:hidden;box-shadow:0 1px 6px rgba(0,0,0,0.08);">
-      <p style="margin:0;padding:0.7rem 1rem 0.5rem;font-size:0.88rem;font-weight:600;line-height:1.35;color:var(--ink);">${label}</p>
+      <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:.5rem;padding:0.7rem 0.8rem 0.5rem 1rem;"><p style="margin:0;font-size:0.88rem;font-weight:600;line-height:1.35;color:var(--ink);">${label}</p>${_t10star(id, 0, label)}</div>
       <div style="position:relative;aspect-ratio:16/9;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'${id}')">
         <img src="https://img.youtube.com/vi/${id}/hqdefault.jpg" loading="lazy" alt="${label}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">
         <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">
@@ -21261,7 +21263,7 @@ function detlefRathmerJazzPage() {
           ▶ All ${tracks.length} Songs
         </summary>
         <ol style="margin:0.4rem 0 0;padding-left:1.4rem;font-size:0.81rem;line-height:1.9;">
-          ${tracks.map(trk => typeof trk === "string" ? `<li style="color:var(--ink);">${trk}</li>` : `<li><a href="https://www.youtube.com/watch?v=${id}&t=${trk.s}s" target="_blank" rel="noopener" style="color:var(--ink);text-decoration:none;">${trk.t}</a></li>`).join("")}
+          ${tracks.map(trk => typeof trk === "string" ? `<li style="color:var(--ink);">${trk}</li>` : `<li><a href="https://www.youtube.com/watch?v=${id}&t=${trk.s}s" target="_blank" rel="noopener" style="color:var(--ink);text-decoration:none;">${trk.t}</a> ${_t10star(id, trk.s, trk.t + " \u00b7 " + label)}</li>`).join("")}
         </ol>
       </details>` : ""}
     </div>
@@ -21478,6 +21480,8 @@ const SPIRITUELL_TRACKS = {
         you will find my jazz albums, my Enneagram songs, and spiritual songs
         – everything I have composed and recorded over the years.
       </p>
+
+      <div id="t10-panel"></div>
 
       <!-- Abschnitts-Navigation -->
       <nav id="dr-top" style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-bottom:2.5rem;">
@@ -50116,5 +50120,10 @@ function _rsMount() {
   if (!document.querySelector('.typentest-card--result:not([data-share]), button[onclick*="_tqShare"]:not([data-share]), button.flash-btn[onclick*="Restart"]:not([data-share]), section.subtype-hero:not([data-share])')) return;
   (_rsMod || (_rsMod = import("../data/result-share.js?v=8"))).then(m => m.mountResultShare("en")).catch(() => {});
 }
-new MutationObserver(() => { _pdfMount(); _sbMount(); _rsMount(); }).observe(document.body, { childList: true, subtree: true });
-_pdfMount(); _sbMount(); _rsMount();
+let _t10Mod = null;
+function _t10Mount() {
+  if (!document.querySelector("#t10-panel:not([data-t10-ready]), .t10-star:not([data-t10-init])")) return;
+  (_t10Mod || (_t10Mod = import("../data/musik-top10.js?v=1"))).then(m => m.mountTop10("en")).catch(() => {});
+}
+new MutationObserver(() => { _pdfMount(); _sbMount(); _rsMount(); _t10Mount(); }).observe(document.body, { childList: true, subtree: true });
+_pdfMount(); _sbMount(); _rsMount(); _t10Mount();
