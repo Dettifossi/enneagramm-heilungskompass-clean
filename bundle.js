@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=509";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=510";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -183,6 +183,7 @@ const gehirnUmbauenDreiGewohnheitenPage = () => _lazyPage("./data/praxistipps-de
 const gefuehleAnnehmenAlteLastenPage = () => _lazyPage("./data/praxistipps-de/gefuehle-annehmen-alte-lasten.js", "gefuehleAnnehmenAlteLastenPage");
 const glueckKeineAnkunftPage = () => _lazyPage("./data/praxistipps-de/gluck-keine-ankunft.js", "glueckKeineAnkunftPage");
 const sonntagsgeschichtePage = () => _lazyPage("./data/sonntagsgeschichte-de.js", "sonntagsgeschichtePage");
+const stresslinienSymmetriePage = () => _lazyPage("./data/stresslinien-symmetrie-de.js", "stresslinienSymmetriePage");
 const reizeFastenRuhetagPage = () => _lazyPage("./data/praxistipps-de/reize-fasten-ruhetag.js", "reizeFastenRuhetagPage");
 const gluecklichDreiGewohnheitenPage = () => _lazyPage("./data/praxistipps-de/gluecklich-drei-gewohnheiten.js", "gluecklichDreiGewohnheitenPage");
  _lazyPage("./data/praxistipps-de/kino-erwachen.js", "kinoErwachenPage");
@@ -17197,6 +17198,7 @@ const uiText = {
       { heading: "Theorie und Dynamik" },
       { route: "typ-aendert-sich-nicht", label: "Ändert sich der Typ im Laufe des Lebens?" },
       { route: "linien-dynamik-beziehungen", label: "Linien-Dynamik in Beziehungen (Stress- & Entspannungspunkte)" },
+      { route: "stresslinien-symmetrie", label: "Wenn die Masken fallen: Symmetrie der Stresslinien" },
       { route: "enneagramm-autopoese", label: "Das Enneagramm als autopoietisches System (Selbsterhaltung)" },
       { route: "enneagramm-rad", label: "Enneagramm-Rad (interaktives Symbol)" },
       { route: "bewusstseinsgrad-normalverteilung", label: "Bewusstseinsgrad & Gaußsche Normalverteilungskurve" },
@@ -68042,6 +68044,7 @@ const ROUTES = {
     "david-daniels-gesetze": davidDanielsGesetzePage,
     "tugenden-enneagramm": tugendenEnneagrammPage,
     "sonntagsgeschichte": sonntagsgeschichtePage,
+    "stresslinien-symmetrie": stresslinienSymmetriePage,
     "enneagramm-ayurveda": enneagrammAyurvedaPage,
     "spirituelles-enneagramm": spirituellesEnneagrammPage,
     "kindheitspraegungen-enneagramm": kindheitspraegungenPage,

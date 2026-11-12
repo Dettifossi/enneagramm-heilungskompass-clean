@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=506";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=507";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -197,6 +197,7 @@ const gehirnUmbauenDreiGewohnheitenPage = () => _lazyPage("./data/praxistipps-en
 const gefuehleAnnehmenAlteLastenPage = () => _lazyPage("./data/praxistipps-en/gefuehle-annehmen-alte-lasten.js", "gefuehleAnnehmenAlteLastenPage");
 const glueckKeineAnkunftPage = () => _lazyPage("./data/praxistipps-en/gluck-keine-ankunft.js", "glueckKeineAnkunftPage");
 const sonntagsgeschichtePage = () => _lazyPage("./data/sonntagsgeschichte-en.js", "sonntagsgeschichtePage");
+const stresslinienSymmetriePage = () => _lazyPage("./data/stresslinien-symmetrie-en.js", "stresslinienSymmetriePage");
 const reizeFastenRuhetagPage = () => _lazyPage("./data/praxistipps-en/reize-fasten-ruhetag.js", "reizeFastenRuhetagPage");
 const gluecklichDreiGewohnheitenPage = () => _lazyPage("./data/praxistipps-en/gluecklich-drei-gewohnheiten.js", "gluecklichDreiGewohnheitenPage");
  _lazyPage("./data/praxistipps-en/kino-erwachen.js", "kinoErwachenPage");
@@ -6418,6 +6419,7 @@ text.nav = [
     { heading: "Theory & Dynamics" },
     { route: "typ-aendert-sich-nicht", label: "Does the Type Change Over a Lifetime?" },
     { route: "linien-dynamik-beziehungen", label: "Connecting-Line Dynamics in Relationships (Stress & Security Points)" },
+    { route: "stresslinien-symmetrie", label: "When the Masks Fall: Symmetry of the Stress Lines" },
     { route: "enneagramm-autopoese", label: "The Enneagram as an Autopoietic System (Self-Preservation)" },
     { route: "enneagramm-rad", label: "Enneagram Wheel (interactive symbol)" },
     { route: "bewusstseinsgrad-normalverteilung", label: "Levels of Consciousness & the Gaussian Normal Distribution" },
@@ -47885,6 +47887,7 @@ function subtypeSchaubilderPage() {
     "david-daniels-gesetze": davidDanielsGesetzePage,
     "tugenden-enneagramm": tugendenEnneagrammPage,
     "sonntagsgeschichte": sonntagsgeschichtePage,
+    "stresslinien-symmetrie": stresslinienSymmetriePage,
     "enneagramm-ayurveda": enneagrammAyurvedaPage,
     "spirituelles-enneagramm": spirituellesEnneagrammPage,
     "kindheitspraegungen-enneagramm": kindheitspraegungenPage,
