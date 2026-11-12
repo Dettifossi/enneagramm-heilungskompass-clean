@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=508";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=509";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -184,6 +184,7 @@ const gefuehleAnnehmenAlteLastenPage = () => _lazyPage("./data/praxistipps-de/ge
 const glueckKeineAnkunftPage = () => _lazyPage("./data/praxistipps-de/gluck-keine-ankunft.js", "glueckKeineAnkunftPage");
 const sonntagsgeschichtePage = () => _lazyPage("./data/sonntagsgeschichte-de.js", "sonntagsgeschichtePage");
 const reizeFastenRuhetagPage = () => _lazyPage("./data/praxistipps-de/reize-fasten-ruhetag.js", "reizeFastenRuhetagPage");
+const gluecklichDreiGewohnheitenPage = () => _lazyPage("./data/praxistipps-de/gluecklich-drei-gewohnheiten.js", "gluecklichDreiGewohnheitenPage");
  _lazyPage("./data/praxistipps-de/kino-erwachen.js", "kinoErwachenPage");
 const albertBrooksPortraitPage = () => _lazyPage("./data/beruehmte-de/teil8.js", "albertBrooksPortraitPage");
 const emilyBluntPortraitPage = () => _lazyPage("./data/beruehmte-de/teil13.js", "emilyBluntPortraitPage");
@@ -34756,6 +34757,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"gefuehle-annehmen-alte-lasten", titel:"Gefühle annehmen, alte Lasten loslassen: sieben Wege aus dem Grübeln", teaser:"Warum alte Erlebnisse so oft wiederkehren und was im Alltag hilft: Gefühle annehmen und benennen, den Körper einbeziehen, aufschreiben, Selbstmitgefühl, Neues ausprobieren und gut schlafen. Mit Überblick und kleinem Plan.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gefuehle-annehmen-alte-lasten/gefuehle-annehmen-alte-lasten-1-de.jpg", kategorie:"geist" },
     { slug:"gluck-keine-ankunft", titel:"Glück ist keine Ankunft: warum ›Wenn erst …‹ nicht trägt", teaser:"Der häufigste Denkfehler beim Glück: es an eine künftige Bedingung zu knüpfen. Warum das Gehirn dabei mitspielt und wie sich die Aufmerksamkeit zurück in die Gegenwart lenken lässt, mit konkreter Dankbarkeit und einer einfachen Frage.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gluck-keine-ankunft/gluck-keine-ankunft-1.jpg", kategorie:"geist" },
     { slug:"reize-fasten-ruhetag", titel:"Reize fasten: ein ruhiger Tag als Neustart für Antrieb und Aufmerksamkeit", teaser:"Wenn alles flach wirkt und das Handy spannender ist als die eigenen Ziele: ein ruhiger Tag mit wenig Reizen, sanften Tätigkeiten und der Reihenfolge Aufwand vor Belohnung, dazu Anregungen für den Alltag.", img:"https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/reize-fasten-ruhetag/reize-fasten-ruhetag-1-de.jpg", kategorie:"geist" },
+    { slug:"gluecklich-drei-gewohnheiten", titel:"Glück entsteht im Kleinen: Erfolge sammeln, Gutes auskosten, sich freuen", teaser:"Warum sich Zufriedenheit so schwer halten lässt und wie drei kleine Gewohnheiten helfen: drei kleine Erfolge am Abend, gute Momente 20 Sekunden festhalten, eine Vorfreude pro Woche.", img:"", kategorie:"geist" },
   ];
   const TIPP_KATEGORIEN = [
     { id:"koerper", label:"K\u00f6rper & Bewegung", icon:"\ud83e\udded" },
@@ -34853,6 +34855,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "reize-fasten-ruhetag") {
     return reizeFastenRuhetagPage();
+  }
+  if (param === "gluecklich-drei-gewohnheiten") {
+    return gluecklichDreiGewohnheitenPage();
   }
 
   return shell(`
