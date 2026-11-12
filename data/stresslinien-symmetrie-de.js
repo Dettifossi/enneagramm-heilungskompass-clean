@@ -60,13 +60,24 @@ export function stresslinienSymmetriePage() {
         <p class="vb-intro" style="margin-top:.8rem;">Wer diese Muster bei sich und anderen erkennt, verliert die Verurteilung des eigenen Stressverhaltens. Er gewinnt Selbsterkenntnis und die Möglichkeit, sich rechtzeitig aus der Sackgasse zu steuern. Die Gegenrichtung, den Entspannungspunkt, behandelt dieser Artikel nicht; sie ergänzt das Bild.</p>
       </div>
 
-      <p style="font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin:1.4rem 0 .2rem;">Für den Einstieg</p>
-      ${bookTip("der-code-deiner-persoenlichkeit", "Wie der Enneagrammtyp entsteht – und was er über unsere tiefsten Prägungen verrät.", "Der Code deiner Persönlichkeit")}
-      <p style="font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin:1.4rem 0 .2rem;">Zur Vertiefung</p>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      <p style="font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin:1.4rem 0 .2rem;">Für Fortgeschrittene</p>
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      <div style="margin-top:2rem;">
+        <details style="border:1px solid var(--line);border-radius:12px;overflow:hidden;">
+          <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;background:var(--paper);list-style:none;user-select:none;font-weight:700;font-size:0.95rem;color:var(--ink);">
+            <span style="font-size:1.2rem;color:var(--copper);">&#9672;</span>
+            <span style="flex:1;">Vertiefende Literatur von Detlef Rathmer</span>
+            <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
+          </summary>
+          <div style="padding:0 1.2rem 1.2rem;">
+            <p style="font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin:1rem 0 .2rem;">Für den Einstieg</p>
+            ${bookTip("der-code-deiner-persoenlichkeit", "Wie der Enneagrammtyp entsteht – und was er über unsere tiefsten Prägungen verrät.", "Der Code deiner Persönlichkeit")}
+            <p style="font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin:1rem 0 .2rem;">Zur Vertiefung</p>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+            <p style="font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin:1rem 0 .2rem;">Für Fortgeschrittene</p>
+            ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+            ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+          </div>
+        </details>
+      </div>
 
       ${relatedLinks([
         {route:"wissen", label:"Zurück zu Wissen"},

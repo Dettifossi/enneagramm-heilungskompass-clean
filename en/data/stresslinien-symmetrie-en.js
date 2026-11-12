@@ -60,13 +60,24 @@ export function stresslinienSymmetriePage() {
         <p class="vb-intro" style="margin-top:.8rem;">Whoever recognizes these patterns in themselves and others stops condemning their own stress behavior. They gain self-knowledge and the chance to steer out of the dead end in time. The opposite direction, the security point, is not covered in this article; it completes the picture.</p>
       </div>
 
-      <p style="font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin:1.4rem 0 .2rem;">For beginners</p>
-      ${bookTip("der-code-deiner-persoenlichkeit", "How the Enneagram type develops – and what it reveals about our deepest imprints.", "Der Code deiner Persönlichkeit")}
-      <p style="font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin:1.4rem 0 .2rem;">For going deeper</p>
-      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
-      <p style="font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin:1.4rem 0 .2rem;">For advanced readers</p>
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics – the handbook for precise self- and other-awareness in the Enneagram.", "The 27 Personalities of the Enneagram")}
+      <div style="margin-top:2rem;">
+        <details style="border:1px solid var(--line);border-radius:12px;overflow:hidden;">
+          <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;background:var(--paper);list-style:none;user-select:none;font-weight:700;font-size:0.95rem;color:var(--ink);">
+            <span style="font-size:1.2rem;color:var(--copper);">&#9672;</span>
+            <span style="flex:1;">Further reading by Detlef Rathmer</span>
+            <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
+          </summary>
+          <div style="padding:0 1.2rem 1.2rem;">
+            <p style="font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin:1rem 0 .2rem;">For beginners</p>
+            ${bookTip("der-code-deiner-persoenlichkeit", "How the Enneagram type develops – and what it reveals about our deepest imprints.", "Der Code deiner Persönlichkeit")}
+            <p style="font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin:1rem 0 .2rem;">For going deeper</p>
+            ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+            <p style="font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin:1rem 0 .2rem;">For advanced readers</p>
+            ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+            ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics – the handbook for precise self- and other-awareness in the Enneagram.", "The 27 Personalities of the Enneagram")}
+          </div>
+        </details>
+      </div>
 
       ${relatedLinks([
         {route:"wissen", label:"Back to Knowledge"},
