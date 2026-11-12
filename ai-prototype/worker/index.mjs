@@ -598,6 +598,7 @@ async function handleBillingPortal(request, env) {
 const IGNORED_PAYMENT_LINKS = [
   "plink_1UZanpHPQz587pegdx6BaCOq", // Stille & Weite (eigene App)
   "plink_1Ua6OWHPQz587pegj5UFqzD2", // Neun Seelenblüten (eigene App)
+  "plink_1UayRGHPQz587pegnK6C06hU", // Enneagramm Biochemie (eigene App)
 ];
 
 async function handleStripeWebhook(request, env) {
