@@ -92,6 +92,14 @@ export function gluecklichDreiGewohnheitenPage() {
         <p class="vb-intro" style="margin-top:.8rem;">Das sind Tendenzen, keine Schubladen. Die drei Gewohnheiten laden dazu ein, die eigene Aufmerksamkeit ein Stück bewusster zu führen.</p>
       </div>
 
+      <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">8. Zum Hören: der Song ›Glück‹</h2>
+        <p class="vb-intro" style="margin-bottom:0;">Zum Thema passt der Song ›Glück – Das Wesen des Glücks‹ von Detlef Rathmer. Er lässt sich nebenbei hören, etwa beim abendlichen Aufschreiben der drei kleinen Erfolge. Weitere Lieder dieser Art stehen unter <a href="#detlef-rathmer-jazz|dr-spirituell">Spirituelle Songs</a>.</p>
+        <div style="position:relative;width:100%;padding-top:56.25%;border-radius:12px;overflow:hidden;background:#000;margin-top:1rem;">
+          <iframe src="https://www.youtube.com/embed/lVFsolN5SEg?playsinline=1" title="Song ›Glück – Das Wesen des Glücks‹ von Detlef Rathmer" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+        </div>
+      </div>
+
       <div style="margin-top:2rem;">
         <details style="border:1px solid var(--line);border-radius:12px;overflow:hidden;">
           <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;background:var(--paper);list-style:none;user-select:none;font-weight:700;font-size:0.95rem;color:var(--ink);">
@@ -113,6 +121,7 @@ export function gluecklichDreiGewohnheitenPage() {
       </div>
 
       ${relatedLinks([
+        {route:"detlef-rathmer-jazz|dr-spirituell", label:"Spirituelle Songs von Detlef Rathmer"},
         {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
         {route:"praxistipps-heilpraktiker/gluck-keine-ankunft", label:"Glück ist keine Ankunft"},
         {route:"praxistipps-heilpraktiker/gehirn-umbauen-drei-gewohnheiten", label:"Das Gehirn formt sich mit"},
