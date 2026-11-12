@@ -88,7 +88,7 @@ export function gluecklichDreiGewohnheitenPage() {
 
 <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">7. Das Enneagramm im Hintergrund</h2>
-        <p class="vb-intro">Welche der drei Gewohnheiten schwerfällt, sagt oft etwas über das eigene Muster. Wer einen strengen inneren Kritiker hat, übersieht eigene Erfolge leicht, weil immer noch etwas besser sein könnte. Wer stark auf Leistung blickt, zählt nur das Große. Wer ständig plant, freut sich leicht auf Künftiges, kostet aber das Gegenwärtige kaum aus. Wer viel sorgt, findet im Guten schnell ein mögliches Aber. Und wer sich nach dem sehnt, was fehlt, übersieht, was da ist.</p>
+        <p class="vb-intro">Welche der drei Gewohnheiten schwerfällt, sagt oft etwas über das eigene Muster. Wer einen strengen inneren Kritiker hat, übersieht eigene Erfolge leicht, weil immer noch etwas besser sein könnte. Wer stark auf Leistung blickt, zählt nur das Große. Wer ständig plant, freut sich leicht auf Künftiges, kostet aber das Gegenwärtige kaum aus. Wer sich viel sorgt, findet im Guten schnell ein mögliches Aber. Und wer sich nach dem sehnt, was fehlt, übersieht, was da ist.</p>
         <p class="vb-intro" style="margin-top:.8rem;">Das sind Tendenzen, keine Schubladen. Die drei Gewohnheiten laden dazu ein, die eigene Aufmerksamkeit ein Stück bewusster zu führen.</p>
       </div>
 
