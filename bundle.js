@@ -70299,7 +70299,7 @@ function _rsMount() {
 let _t10Mod = null;
 function _t10Mount() {
   if (!document.querySelector("#t10-panel:not([data-t10-ready]), .t10-star:not([data-t10-init])")) return;
-  (_t10Mod || (_t10Mod = import("./data/musik-top10.js?v=1"))).then(m => m.mountTop10("de")).catch(() => {});
+  (_t10Mod || (_t10Mod = import("./data/musik-top10.js?v=2"))).then(m => m.mountTop10("de")).catch(() => {});
 }
 new MutationObserver(() => { _pdfMount(); _sbMount(); _rsMount(); _t10Mount(); }).observe(document.body, { childList: true, subtree: true });
 _pdfMount(); _sbMount(); _rsMount(); _t10Mount();

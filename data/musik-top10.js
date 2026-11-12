@@ -19,7 +19,11 @@ const T = {
     clear: "Liste leeren",
     confirm: "Die ganze Liste leeren?",
     local: "Nur auf diesem Gerät gespeichert.",
-    count: n => n + " von 10"
+    count: n => n + " von 10",
+    playing: "Läuft:",
+    close: "Player schließen",
+    next: "Nächster Titel",
+    hint: "Ein Tipp auf einen Titel spielt ihn hier in der App ab."
   },
   en: {
     title: "My Top 10",
@@ -34,7 +38,11 @@ const T = {
     clear: "Clear list",
     confirm: "Clear the whole list?",
     local: "Saved on this device only.",
-    count: n => n + " of 10"
+    count: n => n + " of 10",
+    playing: "Playing:",
+    close: "Close player",
+    next: "Next title",
+    hint: "Tap a title to play it here in the app."
   }
 };
 
@@ -71,7 +79,14 @@ function ensureStyle() {
     ".t10-act:disabled{opacity:.35;cursor:default;}" +
     ".t10-foot{display:flex;justify-content:space-between;align-items:center;gap:.6rem;margin-top:.7rem;font-size:.8rem;color:var(--muted,#6b5a46);}" +
     ".t10-clear{background:none;border:0;color:var(--copper,#9a5b34);cursor:pointer;font-size:.82rem;text-decoration:underline;padding:0;}" +
-    ".t10-msg{color:#a33;font-size:.85rem;margin:.4rem 0 0;}";
+    ".t10-msg{color:#a33;font-size:.85rem;margin:.4rem 0 0;}" +
+    ".t10-player{margin:.2rem 0 .9rem;}" +
+    ".t10-pframe{position:relative;width:100%;aspect-ratio:16/9;background:#000;border-radius:12px;overflow:hidden;}" +
+    ".t10-pframe iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}" +
+    ".t10-pbar{display:flex;align-items:center;gap:.5rem;margin:.45rem 0 0;font-size:.85rem;}" +
+    ".t10-pbar span{flex:1;min-width:0;color:var(--ink,#2b2118);font-weight:600;line-height:1.3;word-break:break-word;}" +
+    ".t10-list li.t10-now{background:rgba(180,120,0,.09);border-radius:8px;}" +
+    ".t10-list a::before{content:\"\\25B6\\00a0\";color:var(--copper,#9a5b34);font-size:.75rem;}";
   document.head.appendChild(st);
 }
 
@@ -87,32 +102,80 @@ function refreshStars(root) {
   });
 }
 
+let nowKey = null;
+
+function ensureShell(box) {
+  if (box.querySelector(".t10-body")) return;
+  box.className = "t10-box"; box.innerHTML = "";
+  const pl = document.createElement("div"); pl.className = "t10-player"; pl.hidden = true; box.appendChild(pl);
+  const body = document.createElement("div"); body.className = "t10-body"; box.appendChild(body);
+}
+
 function renderPanel(msg) {
   const box = document.getElementById("t10-panel");
   if (!box) return;
+  ensureShell(box);
+  const body = box.querySelector(".t10-body");
   const list = load(); const t = tx();
-  box.className = "t10-box";
-  box.innerHTML = "";
-  const h = document.createElement("h2"); h.textContent = "★ " + t.title; box.appendChild(h);
-  const p = document.createElement("p"); p.textContent = list.length ? t.lead : t.empty; box.appendChild(p);
+  body.innerHTML = "";
+  const h = document.createElement("h2"); h.textContent = "★ " + t.title; body.appendChild(h);
+  const p = document.createElement("p"); p.textContent = list.length ? t.lead + " " + t.hint : t.empty; body.appendChild(p);
   if (list.length) {
     const ol = document.createElement("ol"); ol.className = "t10-list";
     list.forEach((x, i) => {
-      const li = document.createElement("li");
-      const a = document.createElement("a"); a.href = "https://www.youtube.com/watch?v=" + x.id + (x.s ? "&t=" + x.s + "s" : ""); a.target = "_blank"; a.rel = "noopener"; a.textContent = x.t; li.appendChild(a);
+      const li = document.createElement("li"); if (nowKey === keyOf(x)) li.className = "t10-now";
+      const a = document.createElement("a"); a.href = "https://www.youtube.com/watch?v=" + x.id + (x.s ? "&t=" + x.s + "s" : ""); a.dataset.t10Play = String(i); a.textContent = x.t; li.appendChild(a);
       const mk = (txt, act, label, dis) => { const b = document.createElement("button"); b.type = "button"; b.className = "t10-act"; b.dataset.t10Act = act; b.dataset.t10I = String(i); b.textContent = txt; b.setAttribute("aria-label", label); b.title = label; if (dis) b.disabled = true; li.appendChild(b); };
       mk("▲", "up", t.up, i === 0); mk("▼", "down", t.down, i === list.length - 1); mk("✕", "rm", t.rm, false);
       ol.appendChild(li);
     });
-    box.appendChild(ol);
+    body.appendChild(ol);
     const foot = document.createElement("div"); foot.className = "t10-foot";
     const c = document.createElement("span"); c.textContent = t.count(list.length) + " · " + t.local; foot.appendChild(c);
     const cl = document.createElement("button"); cl.type = "button"; cl.className = "t10-clear"; cl.dataset.t10Act = "clear"; cl.textContent = t.clear; foot.appendChild(cl);
-    box.appendChild(foot);
+    body.appendChild(foot);
   }
-  if (msg) { const m = document.createElement("p"); m.className = "t10-msg"; m.setAttribute("role", "status"); m.textContent = msg; box.appendChild(m); }
+  if (msg) { const m = document.createElement("p"); m.className = "t10-msg"; m.setAttribute("role", "status"); m.textContent = msg; body.appendChild(m); }
   box.dataset.t10Ready = "1";
 }
+
+// Wiedergabe direkt in der App (eingebetteter Player), danach automatisch der nächste Titel.
+function playIndex(i) {
+  const box = document.getElementById("t10-panel"); if (!box) return;
+  const list = load(); const x = list[i]; if (!x) return;
+  ensureShell(box);
+  const pl = box.querySelector(".t10-player"); const t = tx();
+  nowKey = keyOf(x);
+  pl.hidden = false; pl.innerHTML = "";
+  const fr = document.createElement("div"); fr.className = "t10-pframe";
+  const ifr = document.createElement("iframe");
+  ifr.src = "https://www.youtube.com/embed/" + x.id + "?autoplay=1&playsinline=1&rel=0&enablejsapi=1" + (x.s ? "&start=" + x.s : "");
+  ifr.title = x.t; ifr.allow = "autoplay; encrypted-media; picture-in-picture"; ifr.allowFullscreen = true;
+  ifr.addEventListener("load", () => { try { ifr.contentWindow.postMessage(JSON.stringify({ event: "listening", id: 1, channel: "widget" }), "*"); } catch (e) {} });
+  fr.appendChild(ifr); pl.appendChild(fr);
+  const bar = document.createElement("div"); bar.className = "t10-pbar";
+  const s = document.createElement("span"); s.textContent = t.playing + " " + (i + 1) + ". " + x.t; bar.appendChild(s);
+  const nx = document.createElement("button"); nx.type = "button"; nx.className = "t10-act"; nx.dataset.t10Act = "next"; nx.textContent = "⏭"; nx.setAttribute("aria-label", t.next); nx.title = t.next; if (i >= list.length - 1) nx.disabled = true; bar.appendChild(nx);
+  const cx = document.createElement("button"); cx.type = "button"; cx.className = "t10-act"; cx.dataset.t10Act = "stop"; cx.textContent = "✕"; cx.setAttribute("aria-label", t.close); cx.title = t.close; bar.appendChild(cx);
+  pl.appendChild(bar);
+  renderPanel();
+  try { pl.scrollIntoView({ block: "nearest", behavior: "smooth" }); } catch (e) {}
+}
+function stopPlayer() {
+  const box = document.getElementById("t10-panel"); if (!box) return;
+  const pl = box.querySelector(".t10-player"); if (pl) { pl.innerHTML = ""; pl.hidden = true; }
+  nowKey = null; renderPanel();
+}
+function playNext() {
+  const list = load(); const i = list.findIndex(x => keyOf(x) === nowKey);
+  if (i >= 0 && i < list.length - 1) playIndex(i + 1); else stopPlayer();
+}
+window.addEventListener("message", e => {
+  if (!/youtube(-nocookie)?\.com$/.test((e.origin || "").replace(/^https?:\/\//, ""))) return;
+  let d = e.data; if (typeof d === "string") { try { d = JSON.parse(d); } catch (x) { return; } }
+  if (!d) return;
+  if ((d.event === "onStateChange" && d.info === 0) || (d.event === "infoDelivery" && d.info && d.info.playerState === 0)) playNext();
+});
 
 let wired = false;
 function wire() {
@@ -131,7 +194,11 @@ function wire() {
       renderPanel(msg); refreshStars();
       return;
     }
+    const pa = e.target.closest && e.target.closest("[data-t10-play]");
+    if (pa) { e.preventDefault(); playIndex(parseInt(pa.dataset.t10Play, 10)); return; }
     const act = e.target.closest && e.target.closest("[data-t10-act]");
+    if (act && act.dataset.t10Act === "next") { playNext(); return; }
+    if (act && act.dataset.t10Act === "stop") { stopPlayer(); return; }
     if (act) {
       const list = load(); const i = parseInt(act.dataset.t10I, 10);
       if (act.dataset.t10Act === "clear") { if (!window.confirm(tx().confirm)) return; save([]); }
