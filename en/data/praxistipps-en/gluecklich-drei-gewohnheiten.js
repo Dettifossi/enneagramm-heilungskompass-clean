@@ -9,6 +9,11 @@ export function gluecklichDreiGewohnheitenPage() {
       <h1 class="h1--tip">Happiness Grows in Small Things: Collect Wins, Savor Good Moments, Look Forward</h1>
       <p class="lead-small">Many people look for happiness in a distant goal and feel little of it in daily life. Often this has less to do with life than with attention: the brain notices problems more strongly than good things and quickly gets used to what has been achieved. This tip shows three simple habits that shift the view.</p>
 
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gluecklich-drei-gewohnheiten/gluecklich-drei-gewohnheiten-1.jpg" alt="Three scenes: a woman pins small badges on a board, a man enjoys a pastry at a café, a young man in a park raises his arms in joy" class="psycho-img" loading="lazy">
+      </div>
+
+
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Important note</h2>
         <p class="vb-intro" style="margin-bottom:0;">This tip describes self-help exercises for everyday life. It does not replace medical, psychotherapeutic or naturopathic treatment. Persistent low mood, joylessness or thoughts of harming yourself lasting more than two weeks belong in professional hands; in acute distress, contact emergency medical services or a crisis line. Never stop medication on your own.</p>

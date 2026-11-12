@@ -9,6 +9,11 @@ export function gluecklichDreiGewohnheitenPage() {
       <h1 class="h1--tip">Glück entsteht im Kleinen: Erfolge sammeln, Gutes auskosten, sich freuen</h1>
       <p class="lead-small">Viele Menschen suchen Glück in einem fernen Ziel und spüren im Alltag wenig davon. Oft liegt das weniger am Leben als an der Aufmerksamkeit: Das Gehirn beachtet Probleme stärker als Gutes und gewöhnt sich schnell an Erreichtes. Dieser Tipp zeigt drei einfache Gewohnheiten, die den Blick verschieben.</p>
 
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/schaubilder/gluecklich-drei-gewohnheiten/gluecklich-drei-gewohnheiten-1.jpg" alt="Drei Szenen: eine Frau steckt kleine Abzeichen an eine Pinnwand, ein Mann genießt ein Gebäckstück im Café, ein junger Mann im Park reißt jubelnd die Arme hoch" class="psycho-img" loading="lazy">
+      </div>
+
+
       <div class="vb-section" style="max-width:100%;margin-top:1.4rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Wichtiger Hinweis</h2>
         <p class="vb-intro" style="margin-bottom:0;">Dieser Tipp beschreibt Selbsthilfe-Übungen für den Alltag. Er ersetzt weder ärztliche noch psychotherapeutische oder heilpraktische Behandlung. Anhaltende Niedergeschlagenheit, Freudlosigkeit oder Gedanken, sich etwas anzutun, über mehr als zwei Wochen gehören in fachliche Hände, bei akuter Not an den ärztlichen Notdienst oder die Telefonseelsorge. Medikamente niemals eigenmächtig absetzen.</p>
