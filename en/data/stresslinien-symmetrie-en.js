@@ -60,7 +60,13 @@ export function stresslinienSymmetriePage() {
         <p class="vb-intro" style="margin-top:.8rem;">Whoever recognizes these patterns in themselves and others stops condemning their own stress behavior. They gain self-knowledge and the chance to steer out of the dead end in time. The opposite direction, the security point, is not covered in this article; it completes the picture.</p>
       </div>
 
+      <p style="font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin:1.4rem 0 .2rem;">For beginners</p>
+      ${bookTip("der-code-deiner-persoenlichkeit", "How the Enneagram type develops – and what it reveals about our deepest imprints.", "Der Code deiner Persönlichkeit")}
+      <p style="font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin:1.4rem 0 .2rem;">For going deeper</p>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      <p style="font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin:1.4rem 0 .2rem;">For advanced readers</p>
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics – the handbook for precise self- and other-awareness in the Enneagram.", "The 27 Personalities of the Enneagram")}
 
       ${relatedLinks([
         {route:"wissen", label:"Back to Knowledge"},
