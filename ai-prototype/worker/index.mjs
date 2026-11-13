@@ -6,7 +6,6 @@
 import knowledgeDE from "./knowledge.json";
 import knowledgeEN from "./knowledge-en.json";
 import { retrieveRelevantChunks } from "../retrieval.mjs";
-import { verifyFirebaseToken } from "./firebase-auth.mjs";
 
 const SYSTEM_INSTRUCTION_DE = `Du bist "Der Wegweiser", der Wissens-Assistent des Enneagramm-Heilungskompass von Detlef Rathmer.
 Beantworte Fragen AUSSCHLIESSLICH auf Basis der bereitgestellten Quellentexte.
@@ -717,7 +716,7 @@ function corsHeaders(request) {
   return {
     "Access-Control-Allow-Origin": allowOrigin,
     "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
-    "Access-Control-Allow-Headers": "Content-Type, X-Session-Token, X-Admin-Code, X-App-Token",
+    "Access-Control-Allow-Headers": "Content-Type, X-Session-Token, X-Admin-Code",
     Vary: "Origin",
   };
 }
@@ -773,17 +772,6 @@ async function handleAsk(request, env) {
   }
   if (question.length > MAX_QUESTION_LENGTH) {
     return jsonResponse(request, { error: "Frage zu lang." }, 400);
-  }
-
-  // Zugangsprüfung: Der Wegweiser antwortet nur mit App-Zugang (gültiges Firebase-Token der App)
-  // oder aktiver Wegweiser-Premium-Session. Ohne Zugang gibt es keine Typisierungen, nur den Hinweis.
-  const accessPremium = await resolvePremiumAccess(request, env);
-  const accessApp = await verifyFirebaseToken(request.headers.get("X-App-Token"), "enneagramm-heilungskompass");
-  if (!accessPremium && !accessApp) {
-    const locked = lang === "en"
-      ? "The Guide is unlocked with access to the Compass. It cannot be asked in the free trial. If you already have access, please reload the app and sign in."
-      : "Der Wegweiser wird mit dem Zugang zum Kompass freigeschaltet. Mit der Probeversion kann er nicht befragt werden. Falls Sie bereits Zugang haben: App neu laden und anmelden.";
-    return jsonResponse(request, { answer: locked, sources: [] });
   }
 
   const isEN = lang === "en";
