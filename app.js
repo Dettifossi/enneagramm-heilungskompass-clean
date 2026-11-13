@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=511";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=513";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -29282,9 +29282,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Sadhguru \u2013 Selbsterhaltender Typ 3",
     teaser:"SE3w2 \u00b7 geb. 1957. Yogi, Guru, Bestsellerautor. Gr\u00fcnder der Isha Foundation. Neun Millionen Freiwillige, 'Inner Engineering', Save Soil \u2013 der Waschb\u00e4r, der die W\u00fcste bepflanzt.",
     tags:["Sonstiges"], gender:"m"},
-  { route:"beruehmte-vincenzo-califano", name:"Vincenzo Califano", added:"2026-09-21", subtyp:"SO3w2",
-    heading:"Vincenzo Califano \u2013 Sozialer Typ 3",
-    teaser:"SE3w2 \u00b7 Spiritueller Lehrer (Advaita/Direkter Weg), Z\u00fcrich. Ehemaliger Unternehmer, \u00fcbersetzte die eigene Erwachens-Erfahrung in ein strukturiertes Lehrangebot \u2013 1:1-Begleitung, Inner Circle, w\u00f6chentliche Satsangs. Der Gepard, der auch die Lehre von der Aufl\u00f6sung des Selbst als verl\u00e4ssliches System aufbaut.",
+  { route:"beruehmte-vincenzo-califano", name:"Vincenzo Califano", added:"2026-09-21", subtyp:"SE3w2",
+    heading:"Vincenzo Califano \u2013 Selbsterhaltender Typ 3",
+    teaser:"SE3w2 \u00b7 Spiritueller Lehrer (Advaita/Direkter Weg), Z\u00fcrich. Ehemaliger Unternehmer, \u00fcbersetzte die eigene Erwachens-Erfahrung in ein strukturiertes Lehrangebot \u2013 1:1-Begleitung, Inner Circle, w\u00f6chentliche Satsangs. Der Waschbär, der auch die Lehre von der Aufl\u00f6sung des Selbst als verl\u00e4ssliches System aufbaut.",
     land:"Schweiz", tags:["Sonstiges"], gender:"m"},
   { route:"beruehmte-susan-link", name:"Susan Link", added:"2026-09-12", subtyp:"SE3w2",
     heading:"Susan Link \u2013 Selbsterhaltender Typ 3",
@@ -32773,6 +32773,74 @@ function inhalts\u00fcbersichtPage() {
   `);
 }
 
+// Probe der Woche: Gratis-Nutzer sehen nur den Anfang der Seite, dann Verlaufsblende und Freischalt-Knopf
+function _probeClip() {
+  try {
+    if (hasHeilwissen() || hasPortraits()) return;
+    if (!probeDerWoche().routes.has(state.route)) return;
+    const main = document.querySelector("main.app-shell");
+    if (!main) return;
+    main.querySelectorAll(".schaubild-share, .pdf-share-btn, .share-page-btn").forEach(e => { e.style.display = "none"; });
+    if (main.dataset.probeClip === state.route) return;
+    const bar = main.querySelector(".page-back-bar");
+    const box = bar && bar.nextElementSibling;
+    if (!box) return;
+    main.dataset.probeClip = state.route;
+    box.style.cssText += ";max-height:380px;overflow:hidden;position:relative;";
+    const ov = document.createElement("div");
+    ov.style.cssText = "position:absolute;left:0;right:0;bottom:0;height:200px;display:flex;align-items:flex-end;justify-content:center;padding-bottom:1rem;background:linear-gradient(to bottom,rgba(250,246,238,0),var(--paper,#faf6ee) 70%);";
+    ov.style.flexDirection = "column"; ov.style.alignItems = "center"; ov.style.gap = ".5rem";
+    ov.innerHTML = '<span style="font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted,#7a7468);">Vorschau: der Rest ist im Vollzugang</span><button type="button" data-route="freischalt" style="background:var(--gold,#c4a456);color:#1a1a1a;border:0;border-radius:10px;padding:.8rem 1.4rem;font-size:1rem;font-weight:700;cursor:pointer;font-family:inherit;">Weiterlesen im Vollzugang →</button>';
+    box.appendChild(ov);
+  } catch (e) {}
+}
+// Probe der Woche (wechselnd): je Woche ein Porträt, ein Schaubild, ein Praxistipp und ein Wissensartikel frei, der Rest bleibt gesperrt
+let _probeCache = null;
+function probeDerWoche() {
+  const wk = Math.floor((Date.now() + 3 * 864e5) / 6048e5);
+  if (_probeCache && _probeCache.wk === wk) return _probeCache;
+  const REG = registerEntries;
+  const pick = (a, s) => a[(wk * 11 + s) % a.length];
+  const IMG = "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/";
+  const SAFE_SCH = ["identifikation","nicht-reale-vorstellungen","ego-persoenlichkeit","ego-fixierungen","gifte-des-geistes","leidenschaft-und-wunde","heilungsweg","prinzipien","schutzdefizite","verantwortung","wann-entsteht-der-typ","verwechslungen","naehe","schmerzschutz","bewaeltigungsstrategie"];
+  const SAFE_TIP = ["praxistipps-heilpraktiker/chakra-kern-uebung","praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit","praxistipps-heilpraktiker/fussreflexzonen-aktivierung"];
+  const schR = REG.filter(e => SAFE_SCH.includes(e.route));
+  const sch = pick(schR, 3);
+  const sch2 = pick(schR.filter(e => e.route !== sch.route), 7);
+  const tip = pick(REG.filter(e => SAFE_TIP.includes(e.route)), 5);
+  const wisR = pick(["stresslinien-symmetrie", "drei-zentren"], 0);
+  const wis = REG.find(e => e.route === wisR) || { term: wisR, route: wisR };
+  const items = [
+    { kind: "Schaubild", route: sch.route, title: sch.term },
+    { kind: "Praxistipp", route: tip.route, title: tip.term },
+    { kind: "Wissensartikel", route: wis.route, title: wis.term },
+    { kind: "Schaubild", route: sch2.route, title: sch2.term },
+  ];
+  const n = BERUEHMT_PORTRAITS.length, st = (wk * 24) % n, tiles = [];
+  for (let i = 0; i < 24; i++) { const p = BERUEHMT_PORTRAITS[(st + i * 3) % n]; tiles.push({ route: p.route, name: p.name, img: IMG + p.route + "-portrait.jpg" }); }
+  _probeCache = { wk, items, routes: new Set(items.map(x => x.route)), tiles };
+  return _probeCache;
+}
+function probeBlockHtml() {
+  const P = probeDerWoche();
+  const total = Math.floor((BERUEHMT_PORTRAITS.length + KRANKHEITS_PORTRAITS.length + KRIMINAL_PORTRAITS.length + ASTROLOGIE_PORTRAITS.length + BIBEL_PORTRAITS.length) / 100) * 100;
+  const card = "background:var(--paper,#fff);border:1px solid var(--gold);border-radius:10px;padding:.7rem .8rem;text-align:left;cursor:pointer;font-family:inherit;color:var(--ink);";
+  const free = P.items.map(x => `<button data-route="${x.route}" style="${card}">${x.img ? `<img src="${x.img}" alt="" loading="lazy" style="width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:6px;margin-bottom:.5rem;" onerror="this.style.display='none'">` : ""}<span style="display:block;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin-bottom:.2rem;">${x.kind}</span><span style="font-size:.9rem;line-height:1.35;">${x.title}</span></button>`).join("");
+  const lock = P.tiles.map(x => `<button data-route="freischalt" style="position:relative;border:0;padding:0;background:none;cursor:pointer;border-radius:8px;overflow:hidden;" title="Gesperrt – im Vollzugang enthalten"><img src="${x.img}" alt="" loading="lazy" style="width:100%;aspect-ratio:4/5;object-fit:cover;display:block;filter:grayscale(.6) brightness(.8);" onerror="this.style.visibility='hidden'"><span style="position:absolute;left:0;right:0;bottom:0;padding:.35rem .3rem;background:rgba(0,0,0,.55);color:#fff;font-size:.7rem;line-height:1.25;">&#128274; ${x.name}</span></button>`).join("");
+  return `
+      <div style="background:rgba(180,120,0,0.06);border:1px solid var(--border);border-radius:12px;padding:1.4rem 1.4rem 1.2rem;margin-bottom:1.5rem;">
+        <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:0 0 .4rem;">Probe der Woche</h2>
+        <p style="font-size:.88rem;color:var(--muted);margin:0 0 1rem;line-height:1.55;">Jede Woche öffnen sich vier andere Seiten ganz: zwei Schaubilder, ein Praxistipp und ein Wissensartikel. Nächste Woche sind es neue.</p>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(135px,1fr));gap:.7rem;">${free}</div>
+      </div>
+      <div style="background:rgba(180,120,0,0.06);border:1px solid var(--border);border-radius:12px;padding:1.4rem 1.4rem 1.2rem;margin-bottom:1.5rem;">
+        <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:0 0 .4rem;">Ein Blick auf die Fülle</h2>
+        <p style="font-size:.88rem;color:var(--muted);margin:0 0 1rem;line-height:1.55;">Diese Titel sehen Sie, die Inhalte bleiben im Vollzugang. Insgesamt sind es über ${total} Porträts, dazu Schaubilder, Praxistipps und Wissensartikel. Der Kompass wird laufend erweitert.</p>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(88px,1fr));gap:.5rem;">${lock}</div>
+      </div>
+`;
+}
+
 function leseprobePage() {
   return shell(`
     ${pageHeader("leseprobe")}
@@ -32798,6 +32866,8 @@ function leseprobePage() {
         </div>
       </div>
 
+      <div style="text-align:center;margin:0 0 1.5rem;"><button type="button" data-share-probe style="background:none;border:1px solid var(--gold);color:var(--copper);border-radius:8px;padding:.5rem 1.1rem;font-size:.9rem;cursor:pointer;font-family:inherit;">&#8599; Probeversion teilen</button></div>
+${probeBlockHtml()}
       <!-- Ber\u00fchmte Pers\u00f6nlichkeiten -->
       <div style="background:rgba(180,120,0,0.06);border:1px solid var(--border);border-radius:12px;padding:1.4rem 1.4rem 1rem;margin-bottom:1.5rem;">
         <h2 style="font-family:'EB Garamond',serif;font-size:1.1rem;color:var(--ink);margin:0 0 0.4rem;">
@@ -37145,6 +37215,7 @@ function _sucheResults(q) {
   const empty = () => ({ subtypen: [], portraits: [], register: [], zitate: [], laender: [], fuzzy: false });
   if (!tokens.length) return empty();
 
+  const _fr = !hasHeilwissen() && !hasPortraits();
   const run = (fuzzy) => {
     const res = empty();
     const add = (list, obj, label, extra, item) => {
@@ -37158,16 +37229,17 @@ function _sucheResults(q) {
     });
 
     KRIMINAL_PORTRAITS.forEach(p => {
-      add(res.portraits, p, p.name, (p.beschreibung || "") + " " + (p.typ || ""), { label: p.name, sub: p.typ || "", route: p.route });
+      add(res.portraits, p, p.name, _fr ? "" : (p.beschreibung || "") + " " + (p.typ || ""), { label: p.name, sub: _fr ? "" : (p.typ || ""), route: p.route });
     });
 
     registerEntries.forEach(e => {
-      add(res.register, e, e.term, e.description || "", { label: e.term, sub: (e.description || "").slice(0, 80), route: e.route });
+      const _dsc = (_fr && /\bS[EOXP][1-9]|Portrait|Portr\u00e4t|Typ \d|Type \d/i.test(e.description || "")) ? "" : (e.description || "");
+      add(res.register, e, e.term, _dsc, { label: e.term, sub: _dsc.slice(0, 80), route: e.route });
     });
 
     (LAENDER_REGIONEN || []).forEach(r => {
       r.laender.forEach(l => {
-        add(res.laender, l, l.name, "", { label: l.name, sub: r.region + " · Typ " + l.typ, route: "laenderzuordnungen|ll-" + l.iso });
+        add(res.laender, l, l.name, "", { label: l.name, sub: r.region + (_fr ? "" : " · Typ " + l.typ), route: "laenderzuordnungen|ll-" + l.iso });
       });
     });
 
@@ -64469,6 +64541,11 @@ function freischaltPage() {
         <h1 class="freischalt-card__title">Enneagramm-Heilungskompass</h1>
         <p class="freischalt-card__desc">Das interaktive Navigationssystem f\u00fcr alle 27 Enneagramm-Subtypen \u2014 Blickqualit\u00e4ten, Profiling, Hom\u00f6opathie, Bachbl\u00fcten, Sch\u00fc\u00dfler-Salze, Edelsteine, Teeempfehlungen, TCM, Musik und vieles mehr.</p>
 
+        <div style="text-align:center;margin:0 0 1.4rem;">
+          <button type="button" data-route="leseprobe" style="display:block;width:100%;max-width:420px;margin:0 auto;background:var(--gold,#c4a456);color:#1a1a1a;border:0;border-radius:10px;padding:.95rem 1.2rem;font-size:1.05rem;font-weight:700;cursor:pointer;font-family:inherit;">Probeversion gratis ansehen \u2192</button>
+          <p style="margin:.5rem 0 0;font-size:.82rem;color:var(--muted);">Ohne Anmeldung: die Probe der Woche und ein Blick auf die Fülle.</p>
+        </div>
+
         <ul style="text-align:left;font-size:0.9rem;color:var(--muted);line-height:1.8;margin:0 0 1.4rem;padding-left:1.3rem;">
           <li><strong style="color:var(--ink);">Alle 27 Subtyp-Portraits</strong> \u2013 tiefenpsychologische Profile mit Tier, Heilungsweg & Naturheilkunde</li>
           <li><strong style="color:var(--ink);">\u00dcber ${(Math.floor((BERUEHMT_PORTRAITS.length + KRANKHEITS_PORTRAITS.length + KRIMINAL_PORTRAITS.length + ASTROLOGIE_PORTRAITS.length + BIBEL_PORTRAITS.length) / 100) * 100).toLocaleString("de-DE")} Portr\u00e4ts</strong> \u2013 ber\u00fchmte Pers\u00f6nlichkeiten, Kriminalf\u00e4lle, Krankheitsbilder, Astrologie & Bibel</li>
@@ -67854,6 +67931,17 @@ document.addEventListener("click", function(ev) {
   }
 });
 
+document.addEventListener("click", function(ev) {
+  const sp = ev.target.closest && ev.target.closest("[data-share-probe]");
+  if (!sp) return;
+  const data = { title: "Enneagramm-Heilungskompass: Probeversion gratis", text: "Ein Blick in den Enneagramm-Heilungskompass: die kostenlose Probeversion mit der Probe der Woche.", url: "https://kompass.verlagshausrathmer.com/leseprobe/" };
+  if (navigator.share) {
+    navigator.share(data).catch(function(e) { if (e && e.name !== "AbortError" && navigator.clipboard) navigator.clipboard.writeText(data.url); });
+  } else if (navigator.clipboard) {
+    navigator.clipboard.writeText(data.url).then(function() { sp.textContent = "\u2713 Link kopiert"; });
+  }
+});
+
 function _favLabel(r) {
   if (!r) return null;
   const k = KRIMINAL_PORTRAITS.find(p => p.route === r);
@@ -69331,7 +69419,7 @@ function render(opts) {
     }
     // Zugangsschutz
     if (!hasHeilwissen() && base !== "freischalt" && base !== "start") { try { localStorage.setItem("kompass:returnRoute", state.route); } catch (e) {} }
-    if (!hasHeilwissen() && !(hasPortraits() && portraitEditionRoutes().has(base)) && base !== "start" && base !== "admin" && base !== "admin-wegweiser" && base !== "leseprobe" && base !== "sonntagsgeschichte" && base !== "inhaltsverzeichnis" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "gesichts-scan" && base !== "updates" && base !== "kaufen" && base !== "register" && base !== "meinen-typ-finden" && base !== "wegweiser-premium") {
+    if (!hasHeilwissen() && !probeDerWoche().routes.has(state.route) && !(hasPortraits() && portraitEditionRoutes().has(base)) && base !== "start" && base !== "admin" && base !== "admin-wegweiser" && base !== "leseprobe" && base !== "sonntagsgeschichte" && base !== "inhaltsverzeichnis" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "gesichts-scan" && base !== "kaufen" && base !== "meinen-typ-finden" && base !== "wegweiser-premium") {
       app.innerHTML = freischaltPage();
       bindEvents();
       requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; }));
@@ -70027,12 +70115,14 @@ setTimeout(showTagesimpuls, 600);
     removeSuggestionChips();
     addMsg(question, "user");
     inputEl.value = "";
+    if (!hasHeilwissen() && !hasPortraits() && !getSessionToken()) { addMsg("Der Wegweiser wird mit dem Zugang zum Kompass freigeschaltet. Mit der Probeversion können Sie ihn noch nicht befragen. Zugang freischalten, dann steht er Ihnen zur Verfügung.", "meta"); return; }
     const loadingEl = addMsg("\u2026 denkt nach \u2026", "meta");
 
     try {
       const headers = { "Content-Type": "application/json" };
       const sessionToken = getSessionToken();
       if (sessionToken) headers["X-Session-Token"] = sessionToken;
+      try { if (typeof fbAuth !== "undefined" && fbAuth && fbAuth.currentUser) headers["X-App-Token"] = await fbAuth.currentUser.getIdToken(); } catch (e) {}
 
       const res = await fetch(WORKER_URL, {
         method: "POST",
@@ -70306,5 +70396,5 @@ function _t10Mount() {
   if (!document.querySelector("#t10-panel:not([data-t10-ready]), .t10-star:not([data-t10-init])")) return;
   (_t10Mod || (_t10Mod = import("./data/musik-top10.js?v=2"))).then(m => m.mountTop10("de")).catch(() => {});
 }
-new MutationObserver(() => { _pdfMount(); _sbMount(); _rsMount(); _t10Mount(); }).observe(document.body, { childList: true, subtree: true });
-_pdfMount(); _sbMount(); _rsMount(); _t10Mount();
+new MutationObserver(() => { _pdfMount(); _sbMount(); _rsMount(); _t10Mount(); _probeClip(); }).observe(document.body, { childList: true, subtree: true });
+_pdfMount(); _sbMount(); _rsMount(); _t10Mount(); _probeClip();
