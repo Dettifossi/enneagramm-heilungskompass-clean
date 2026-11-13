@@ -7510,19 +7510,22 @@ function probeDerWoche() {
   const REG = registerEntriesEN;
   const pick = (a, s) => a[(wk * 11 + s) % a.length];
   const IMG = "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/";
-  const por = pick(BERUEHMT_PORTRAITS, 1);
-  const sch = pick(REG.filter(e => /^(Schaubild|Diagram):/.test(e.description || "") && !String(e.route).startsWith("praxistipps-") && !String(e.route).includes("/")), 3);
-  const tip = pick(REG.filter(e => String(e.route).startsWith("praxistipps-heilpraktiker/")), 5);
-  const wisR = pick(["stresslinien-symmetrie", "linien-dynamik-beziehungen", "typ-aendert-sich-nicht", "drei-zentren"], 0);
+  const SAFE_SCH = ["identifikation","nicht-reale-vorstellungen","ego-persoenlichkeit","ego-fixierungen","gifte-des-geistes","leidenschaft-und-wunde","heilungsweg","prinzipien","schutzdefizite","verantwortung","wann-entsteht-der-typ","verwechslungen","naehe","schmerzschutz","bewaeltigungsstrategie"];
+  const SAFE_TIP = ["praxistipps-heilpraktiker/chakra-kern-uebung","praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit","praxistipps-heilpraktiker/fussreflexzonen-aktivierung"];
+  const schR = REG.filter(e => SAFE_SCH.includes(e.route));
+  const sch = pick(schR, 3);
+  const sch2 = pick(schR.filter(e => e.route !== sch.route), 7);
+  const tip = pick(REG.filter(e => SAFE_TIP.includes(e.route)), 5);
+  const wisR = pick(["stresslinien-symmetrie", "drei-zentren"], 0);
   const wis = REG.find(e => e.route === wisR) || { term: wisR, route: wisR };
   const items = [
-    { kind: "Portrait", route: por.route, title: por.name, img: IMG + por.route + "-portrait.jpg" },
     { kind: "Diagram", route: sch.route, title: sch.term },
     { kind: "Practice tip", route: tip.route, title: tip.term },
     { kind: "Knowledge article", route: wis.route, title: wis.term },
+    { kind: "Diagram", route: sch2.route, title: sch2.term },
   ];
   const n = BERUEHMT_PORTRAITS.length, st = (wk * 24) % n, tiles = [];
-  for (let i = 0; i < 24; i++) { const p = BERUEHMT_PORTRAITS[(st + i * 3) % n]; if (p.route !== por.route) tiles.push({ route: p.route, name: p.name, img: IMG + p.route + "-portrait.jpg" }); }
+  for (let i = 0; i < 24; i++) { const p = BERUEHMT_PORTRAITS[(st + i * 3) % n]; tiles.push({ route: p.route, name: p.name, img: IMG + p.route + "-portrait.jpg" }); }
   _probeCache = { wk, items, routes: new Set(items.map(x => x.route)), tiles };
   return _probeCache;
 }
@@ -7535,7 +7538,7 @@ function probeBlockHtml() {
   return `
       <div style="background:rgba(180,120,0,0.06);border:1px solid var(--border);border-radius:12px;padding:1.4rem 1.4rem 1.2rem;margin-bottom:1.5rem;">
         <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:0 0 .4rem;">Sample of the week</h2>
-        <p style="font-size:.88rem;color:var(--muted);margin:0 0 1rem;line-height:1.55;">Every week four different pages open completely: one portrait, one diagram, one practice tip and one knowledge article. Next week there will be new ones.</p>
+        <p style="font-size:.88rem;color:var(--muted);margin:0 0 1rem;line-height:1.55;">Every week four different pages open completely: two diagrams, one practice tip and one knowledge article. Next week there will be new ones.</p>
         <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(135px,1fr));gap:.7rem;">${free}</div>
       </div>
       <div style="background:rgba(180,120,0,0.06);border:1px solid var(--border);border-radius:12px;padding:1.4rem 1.4rem 1.2rem;margin-bottom:1.5rem;">
