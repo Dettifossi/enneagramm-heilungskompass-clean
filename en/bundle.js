@@ -7595,6 +7595,7 @@ function leseprobePage() {
         </div>
       </div>
 
+      <div style="text-align:center;margin:0 0 1.5rem;"><button type="button" data-share-probe style="background:none;border:1px solid var(--gold);color:var(--copper);border-radius:8px;padding:.5rem 1.1rem;font-size:.9rem;cursor:pointer;font-family:inherit;">&#8599; Share the free trial</button></div>
 ${probeBlockHtml()}
       <!-- Famous Personalities -->
       <div style="background:rgba(180,120,0,0.06);border:1px solid var(--border);border-radius:12px;padding:1.4rem 1.4rem 1rem;margin-bottom:1.5rem;">
@@ -47394,6 +47395,17 @@ document.addEventListener("click", function(ev) {
     }
   } else if (navigator.clipboard) {
     navigator.clipboard.writeText(msg).then(function() { b.title = "Text copied"; });
+  }
+});
+
+document.addEventListener("click", function(ev) {
+  const sp = ev.target.closest && ev.target.closest("[data-share-probe]");
+  if (!sp) return;
+  const data = { title: "Enneagram Healing Compass: free trial", text: "A look inside the Enneagram Healing Compass: the free trial with the sample of the week.", url: "https://kompass.verlagshausrathmer.com/en/#leseprobe" };
+  if (navigator.share) {
+    navigator.share(data).catch(function(e) { if (e && e.name !== "AbortError" && navigator.clipboard) navigator.clipboard.writeText(data.url); });
+  } else if (navigator.clipboard) {
+    navigator.clipboard.writeText(data.url).then(function() { sp.textContent = "\u2713 Link copied"; });
   }
 });
 
