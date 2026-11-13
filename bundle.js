@@ -32822,7 +32822,7 @@ function probeDerWoche() {
 }
 function probeBlockHtml() {
   const P = probeDerWoche();
-  const total = BERUEHMT_PORTRAITS.length + KRANKHEITS_PORTRAITS.length + KRIMINAL_PORTRAITS.length;
+  const total = Math.floor((BERUEHMT_PORTRAITS.length + KRANKHEITS_PORTRAITS.length + KRIMINAL_PORTRAITS.length + ASTROLOGIE_PORTRAITS.length + BIBEL_PORTRAITS.length) / 100) * 100;
   const card = "background:var(--paper,#fff);border:1px solid var(--gold);border-radius:10px;padding:.7rem .8rem;text-align:left;cursor:pointer;font-family:inherit;color:var(--ink);";
   const free = P.items.map(x => `<button data-route="${x.route}" style="${card}">${x.img ? `<img src="${x.img}" alt="" loading="lazy" style="width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:6px;margin-bottom:.5rem;" onerror="this.style.display='none'">` : ""}<span style="display:block;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin-bottom:.2rem;">${x.kind}</span><span style="font-size:.9rem;line-height:1.35;">${x.title}</span></button>`).join("");
   const lock = P.tiles.map(x => `<button data-route="freischalt" style="position:relative;border:0;padding:0;background:none;cursor:pointer;border-radius:8px;overflow:hidden;" title="Gesperrt – im Vollzugang enthalten"><img src="${x.img}" alt="" loading="lazy" style="width:100%;aspect-ratio:4/5;object-fit:cover;display:block;filter:grayscale(.6) brightness(.8);" onerror="this.style.visibility='hidden'"><span style="position:absolute;left:0;right:0;bottom:0;padding:.35rem .3rem;background:rgba(0,0,0,.55);color:#fff;font-size:.7rem;line-height:1.25;">&#128274; ${x.name}</span></button>`).join("");
