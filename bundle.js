@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=512";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=513";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -29282,9 +29282,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Sadhguru \u2013 Selbsterhaltender Typ 3",
     teaser:"SE3w2 \u00b7 geb. 1957. Yogi, Guru, Bestsellerautor. Gr\u00fcnder der Isha Foundation. Neun Millionen Freiwillige, 'Inner Engineering', Save Soil \u2013 der Waschb\u00e4r, der die W\u00fcste bepflanzt.",
     tags:["Sonstiges"], gender:"m"},
-  { route:"beruehmte-vincenzo-califano", name:"Vincenzo Califano", added:"2026-09-21", subtyp:"SO3w2",
-    heading:"Vincenzo Califano \u2013 Sozialer Typ 3",
-    teaser:"SE3w2 \u00b7 Spiritueller Lehrer (Advaita/Direkter Weg), Z\u00fcrich. Ehemaliger Unternehmer, \u00fcbersetzte die eigene Erwachens-Erfahrung in ein strukturiertes Lehrangebot \u2013 1:1-Begleitung, Inner Circle, w\u00f6chentliche Satsangs. Der Gepard, der auch die Lehre von der Aufl\u00f6sung des Selbst als verl\u00e4ssliches System aufbaut.",
+  { route:"beruehmte-vincenzo-califano", name:"Vincenzo Califano", added:"2026-09-21", subtyp:"SE3w2",
+    heading:"Vincenzo Califano \u2013 Selbsterhaltender Typ 3",
+    teaser:"SE3w2 \u00b7 Spiritueller Lehrer (Advaita/Direkter Weg), Z\u00fcrich. Ehemaliger Unternehmer, \u00fcbersetzte die eigene Erwachens-Erfahrung in ein strukturiertes Lehrangebot \u2013 1:1-Begleitung, Inner Circle, w\u00f6chentliche Satsangs. Der Waschbär, der auch die Lehre von der Aufl\u00f6sung des Selbst als verl\u00e4ssliches System aufbaut.",
     land:"Schweiz", tags:["Sonstiges"], gender:"m"},
   { route:"beruehmte-susan-link", name:"Susan Link", added:"2026-09-12", subtyp:"SE3w2",
     heading:"Susan Link \u2013 Selbsterhaltender Typ 3",
