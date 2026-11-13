@@ -70109,6 +70109,7 @@ setTimeout(showTagesimpuls, 600);
       const headers = { "Content-Type": "application/json" };
       const sessionToken = getSessionToken();
       if (sessionToken) headers["X-Session-Token"] = sessionToken;
+      try { if (typeof fbAuth !== "undefined" && fbAuth && fbAuth.currentUser) headers["X-App-Token"] = await fbAuth.currentUser.getIdToken(); } catch (e) {}
 
       const res = await fetch(WORKER_URL, {
         method: "POST",
