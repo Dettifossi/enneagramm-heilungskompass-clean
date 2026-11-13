@@ -7518,7 +7518,8 @@ function _probeClip() {
     box.style.cssText += ";max-height:380px;overflow:hidden;position:relative;";
     const ov = document.createElement("div");
     ov.style.cssText = "position:absolute;left:0;right:0;bottom:0;height:200px;display:flex;align-items:flex-end;justify-content:center;padding-bottom:1rem;background:linear-gradient(to bottom,rgba(250,246,238,0),var(--paper,#faf6ee) 70%);";
-    ov.innerHTML = '<button type="button" data-route="freischalt" style="background:var(--gold,#c4a456);color:#1a1a1a;border:0;border-radius:10px;padding:.8rem 1.4rem;font-size:1rem;font-weight:700;cursor:pointer;font-family:inherit;">Keep reading with full access →</button>';
+    ov.style.flexDirection = "column"; ov.style.alignItems = "center"; ov.style.gap = ".5rem";
+    ov.innerHTML = '<span style="font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted,#7a7468);">Preview: the rest is in full access</span><button type="button" data-route="freischalt" style="background:var(--gold,#c4a456);color:#1a1a1a;border:0;border-radius:10px;padding:.8rem 1.4rem;font-size:1rem;font-weight:700;cursor:pointer;font-family:inherit;">Keep reading with full access →</button>';
     box.appendChild(ov);
   } catch (e) {}
 }
