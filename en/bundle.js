@@ -7502,6 +7502,26 @@ function inhaltsübersichtPage() {
   `);
 }
 
+// Probe der Woche: Gratis-Nutzer sehen nur den Anfang der Seite, dann Verlaufsblende und Freischalt-Knopf
+function _probeClip() {
+  try {
+    if (hasHeilwissen() || hasPortraits()) return;
+    if (!probeDerWoche().routes.has(state.route)) return;
+    const main = document.querySelector("main.app-shell");
+    if (!main) return;
+    main.querySelectorAll(".schaubild-share, .pdf-share-btn, .share-page-btn").forEach(e => { e.style.display = "none"; });
+    if (main.dataset.probeClip === state.route) return;
+    const bar = main.querySelector(".page-back-bar");
+    const box = bar && bar.nextElementSibling;
+    if (!box) return;
+    main.dataset.probeClip = state.route;
+    box.style.cssText += ";max-height:380px;overflow:hidden;position:relative;";
+    const ov = document.createElement("div");
+    ov.style.cssText = "position:absolute;left:0;right:0;bottom:0;height:200px;display:flex;align-items:flex-end;justify-content:center;padding-bottom:1rem;background:linear-gradient(to bottom,rgba(250,246,238,0),var(--paper,#faf6ee) 70%);";
+    ov.innerHTML = '<button type="button" data-route="freischalt" style="background:var(--gold,#c4a456);color:#1a1a1a;border:0;border-radius:10px;padding:.8rem 1.4rem;font-size:1rem;font-weight:700;cursor:pointer;font-family:inherit;">Keep reading with full access →</button>';
+    box.appendChild(ov);
+  } catch (e) {}
+}
 // Probe der Woche (wechselnd): je Woche ein Porträt, ein Schaubild, ein Praxistipp und ein Wissensartikel frei, der Rest bleibt gesperrt
 let _probeCache = null;
 function probeDerWoche() {
@@ -50186,5 +50206,5 @@ function _t10Mount() {
   if (!document.querySelector("#t10-panel:not([data-t10-ready]), .t10-star:not([data-t10-init])")) return;
   (_t10Mod || (_t10Mod = import("../data/musik-top10.js?v=2"))).then(m => m.mountTop10("en")).catch(() => {});
 }
-new MutationObserver(() => { _pdfMount(); _sbMount(); _rsMount(); _t10Mount(); }).observe(document.body, { childList: true, subtree: true });
-_pdfMount(); _sbMount(); _rsMount(); _t10Mount();
+new MutationObserver(() => { _pdfMount(); _sbMount(); _rsMount(); _t10Mount(); _probeClip(); }).observe(document.body, { childList: true, subtree: true });
+_pdfMount(); _sbMount(); _rsMount(); _t10Mount(); _probeClip();
