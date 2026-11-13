@@ -70082,6 +70082,7 @@ setTimeout(showTagesimpuls, 600);
     removeSuggestionChips();
     addMsg(question, "user");
     inputEl.value = "";
+    if (!hasHeilwissen() && !hasPortraits() && !getSessionToken()) { addMsg("Der Wegweiser wird mit dem Zugang zum Kompass freigeschaltet. Mit der Probeversion können Sie ihn noch nicht befragen. Zugang freischalten, dann steht er Ihnen zur Verfügung.", "meta"); return; }
     const loadingEl = addMsg("\u2026 denkt nach \u2026", "meta");
 
     try {

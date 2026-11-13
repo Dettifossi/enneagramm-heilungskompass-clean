@@ -49908,6 +49908,7 @@ setTimeout(showTagesimpuls, 600);
     removeSuggestionChips();
     addMsg(question, "user");
     inputEl.value = "";
+    if (!hasHeilwissen() && !hasPortraits() && !getSessionToken()) { addMsg("The Guide is unlocked with access to the Compass. It cannot be asked in the free trial. Unlock access to use it.", "meta"); return; }
     const loadingEl = addMsg("… thinking …", "meta");
 
     try {
