@@ -44301,6 +44301,11 @@ function freischaltPage() {
         <h1 class="freischalt-card__title">Enneagram Healing Compass</h1>
         <p class="freischalt-card__desc">The interactive navigation system for all 27 Enneagram subtypes — gazing qualities, profiling, homeopathy, Bach flowers, Schuessler salts, gemstones, TCM, music and much more.</p>
 
+        <div style="text-align:center;margin:0 0 1.4rem;">
+          <button type="button" data-route="leseprobe" style="display:block;width:100%;max-width:420px;margin:0 auto;background:var(--gold,#c4a456);color:#1a1a1a;border:0;border-radius:10px;padding:.95rem 1.2rem;font-size:1.05rem;font-weight:700;cursor:pointer;font-family:inherit;">View the free trial →</button>
+          <p style="margin:.5rem 0 0;font-size:.82rem;color:var(--muted);">No sign-up: the sample of the week and a glimpse of the abundance.</p>
+        </div>
+
         <ul style="text-align:left;font-size:0.9rem;color:var(--muted);line-height:1.8;margin:0 0 1.4rem;padding-left:1.3rem;">
           <li><strong style="color:var(--ink);">All 27 subtype portraits</strong> – depth-psychological profiles with animal, healing path & natural medicine</li>
           <li><strong style="color:var(--ink);">${Math.floor((BERUEHMT_PORTRAITS.length + KRIMINAL_PORTRAITS.length + KRANKHEITS_PORTRAITS.length) / 100) * 100}+ portraits</strong> – famous personalities, criminal cases & illness portraits</li>

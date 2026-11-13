@@ -64514,6 +64514,11 @@ function freischaltPage() {
         <h1 class="freischalt-card__title">Enneagramm-Heilungskompass</h1>
         <p class="freischalt-card__desc">Das interaktive Navigationssystem f\u00fcr alle 27 Enneagramm-Subtypen \u2014 Blickqualit\u00e4ten, Profiling, Hom\u00f6opathie, Bachbl\u00fcten, Sch\u00fc\u00dfler-Salze, Edelsteine, Teeempfehlungen, TCM, Musik und vieles mehr.</p>
 
+        <div style="text-align:center;margin:0 0 1.4rem;">
+          <button type="button" data-route="leseprobe" style="display:block;width:100%;max-width:420px;margin:0 auto;background:var(--gold,#c4a456);color:#1a1a1a;border:0;border-radius:10px;padding:.95rem 1.2rem;font-size:1.05rem;font-weight:700;cursor:pointer;font-family:inherit;">Probeversion gratis ansehen \u2192</button>
+          <p style="margin:.5rem 0 0;font-size:.82rem;color:var(--muted);">Ohne Anmeldung: die Probe der Woche und ein Blick auf die Fülle.</p>
+        </div>
+
         <ul style="text-align:left;font-size:0.9rem;color:var(--muted);line-height:1.8;margin:0 0 1.4rem;padding-left:1.3rem;">
           <li><strong style="color:var(--ink);">Alle 27 Subtyp-Portraits</strong> \u2013 tiefenpsychologische Profile mit Tier, Heilungsweg & Naturheilkunde</li>
           <li><strong style="color:var(--ink);">\u00dcber ${(Math.floor((BERUEHMT_PORTRAITS.length + KRANKHEITS_PORTRAITS.length + KRIMINAL_PORTRAITS.length + ASTROLOGIE_PORTRAITS.length + BIBEL_PORTRAITS.length) / 100) * 100).toLocaleString("de-DE")} Portr\u00e4ts</strong> \u2013 ber\u00fchmte Pers\u00f6nlichkeiten, Kriminalf\u00e4lle, Krankheitsbilder, Astrologie & Bibel</li>
