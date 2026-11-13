@@ -32834,7 +32834,7 @@ function probeBlockHtml() {
       </div>
       <div style="background:rgba(180,120,0,0.06);border:1px solid var(--border);border-radius:12px;padding:1.4rem 1.4rem 1.2rem;margin-bottom:1.5rem;">
         <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:0 0 .4rem;">Ein Blick auf die Fülle</h2>
-        <p style="font-size:.88rem;color:var(--muted);margin:0 0 1rem;line-height:1.55;">Diese Titel sehen Sie, die Inhalte bleiben im Vollzugang. Insgesamt sind es über ${total} Porträts, dazu Schaubilder, Praxistipps und Wissensartikel.</p>
+        <p style="font-size:.88rem;color:var(--muted);margin:0 0 1rem;line-height:1.55;">Diese Titel sehen Sie, die Inhalte bleiben im Vollzugang. Insgesamt sind es über ${total} Porträts, dazu Schaubilder, Praxistipps und Wissensartikel. Der Kompass wird laufend erweitert.</p>
         <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(88px,1fr));gap:.5rem;">${lock}</div>
       </div>
 `;

@@ -7563,7 +7563,7 @@ function probeBlockHtml() {
       </div>
       <div style="background:rgba(180,120,0,0.06);border:1px solid var(--border);border-radius:12px;padding:1.4rem 1.4rem 1.2rem;margin-bottom:1.5rem;">
         <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:0 0 .4rem;">A glimpse of the abundance</h2>
-        <p style="font-size:.88rem;color:var(--muted);margin:0 0 1rem;line-height:1.55;">You can see these titles; the content stays in full access. In total there are over ${total} portraits, plus diagrams, practice tips and knowledge articles.</p>
+        <p style="font-size:.88rem;color:var(--muted);margin:0 0 1rem;line-height:1.55;">You can see these titles; the content stays in full access. In total there are over ${total} portraits, plus diagrams, practice tips and knowledge articles. The Compass is continuously expanded.</p>
         <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(88px,1fr));gap:.5rem;">${lock}</div>
       </div>
 `;
