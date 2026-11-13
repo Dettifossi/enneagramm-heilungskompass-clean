@@ -12382,6 +12382,7 @@ function _sucheResults(q) {
   const empty = () => ({ subtypen: [], portraits: [], register: [], zitate: [], laender: [], fuzzy: false });
   if (!tokens.length) return empty();
 
+  const _fr = !hasHeilwissen() && !hasPortraits();
   const run = (fuzzy) => {
     const res = empty();
     const add = (list, obj, label, extra, item) => {
@@ -12395,16 +12396,17 @@ function _sucheResults(q) {
     });
 
     KRIMINAL_PORTRAITS.forEach(p => {
-      add(res.portraits, p, p.name, (p.beschreibung || "") + " " + (p.typ || ""), { label: p.name, sub: p.typ || "", route: p.route });
+      add(res.portraits, p, p.name, _fr ? "" : (p.beschreibung || "") + " " + (p.typ || ""), { label: p.name, sub: _fr ? "" : (p.typ || ""), route: p.route });
     });
 
     registerEntriesEN.forEach(e => {
-      add(res.register, e, e.term, e.description || "", { label: e.term, sub: (e.description || "").slice(0, 80), route: e.route });
+      const _dsc = (_fr && /\bS[EOXP][1-9]|Portrait|Portr\u00e4t|Typ \d|Type \d/i.test(e.description || "")) ? "" : (e.description || "");
+      add(res.register, e, e.term, _dsc, { label: e.term, sub: _dsc.slice(0, 80), route: e.route });
     });
 
     (LAENDER_REGIONEN || []).forEach(r => {
       r.laender.forEach(l => {
-        add(res.laender, l, l.name, "", { label: l.name, sub: r.region + " · Type " + l.typ, route: "laenderzuordnungen|ll-" + l.iso });
+        add(res.laender, l, l.name, "", { label: l.name, sub: r.region + (_fr ? "" : " · Type " + l.typ), route: "laenderzuordnungen|ll-" + l.iso });
       });
     });
 
@@ -49223,7 +49225,7 @@ function subtypeSchaubilderPage() {
     }
     // Zugangsschutz
     if (!hasHeilwissen() && base !== "freischalt" && base !== "start") { try { localStorage.setItem("kompass:returnRoute", state.route); } catch (e) {} }
-    if (!hasHeilwissen() && !probeDerWoche().routes.has(state.route) && !(hasPortraits() && portraitEditionRoutes().has(base)) && base !== "start" && base !== "admin" && base !== "leseprobe" && base !== "sonntagsgeschichte" && base !== "table-of-contents" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "gesichts-scan" && base !== "updates" && base !== "kaufen" && base !== "register" && base !== "meinen-typ-finden" && base !== "wegweiser-premium") {
+    if (!hasHeilwissen() && !probeDerWoche().routes.has(state.route) && !(hasPortraits() && portraitEditionRoutes().has(base)) && base !== "start" && base !== "admin" && base !== "leseprobe" && base !== "sonntagsgeschichte" && base !== "table-of-contents" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "gesichts-scan" && base !== "kaufen" && base !== "meinen-typ-finden" && base !== "wegweiser-premium") {
       app.innerHTML = freischaltPage();
       bindEvents();
       requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; }));
