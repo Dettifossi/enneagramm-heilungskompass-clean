@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=511";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=512";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -67934,7 +67934,7 @@ document.addEventListener("click", function(ev) {
 document.addEventListener("click", function(ev) {
   const sp = ev.target.closest && ev.target.closest("[data-share-probe]");
   if (!sp) return;
-  const data = { title: "Enneagramm-Heilungskompass: Probeversion gratis", text: "Ein Blick in den Enneagramm-Heilungskompass: die kostenlose Probeversion mit der Probe der Woche.", url: "https://kompass.verlagshausrathmer.com/#leseprobe" };
+  const data = { title: "Enneagramm-Heilungskompass: Probeversion gratis", text: "Ein Blick in den Enneagramm-Heilungskompass: die kostenlose Probeversion mit der Probe der Woche.", url: "https://kompass.verlagshausrathmer.com/leseprobe/" };
   if (navigator.share) {
     navigator.share(data).catch(function(e) { if (e && e.name !== "AbortError" && navigator.clipboard) navigator.clipboard.writeText(data.url); });
   } else if (navigator.clipboard) {

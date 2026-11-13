@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=508";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=509";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -47401,7 +47401,7 @@ document.addEventListener("click", function(ev) {
 document.addEventListener("click", function(ev) {
   const sp = ev.target.closest && ev.target.closest("[data-share-probe]");
   if (!sp) return;
-  const data = { title: "Enneagram Healing Compass: free trial", text: "A look inside the Enneagram Healing Compass: the free trial with the sample of the week.", url: "https://kompass.verlagshausrathmer.com/en/#leseprobe" };
+  const data = { title: "Enneagram Healing Compass: free trial", text: "A look inside the Enneagram Healing Compass: the free trial with the sample of the week.", url: "https://kompass.verlagshausrathmer.com/en/leseprobe/" };
   if (navigator.share) {
     navigator.share(data).catch(function(e) { if (e && e.name !== "AbortError" && navigator.clipboard) navigator.clipboard.writeText(data.url); });
   } else if (navigator.clipboard) {
