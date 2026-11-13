@@ -32773,6 +32773,50 @@ function inhalts\u00fcbersichtPage() {
   `);
 }
 
+// Probe der Woche (wechselnd): je Woche ein Porträt, ein Schaubild, ein Praxistipp und ein Wissensartikel frei, der Rest bleibt gesperrt
+let _probeCache = null;
+function probeDerWoche() {
+  const wk = Math.floor((Date.now() + 3 * 864e5) / 6048e5);
+  if (_probeCache && _probeCache.wk === wk) return _probeCache;
+  const REG = registerEntries;
+  const pick = (a, s) => a[(wk * 11 + s) % a.length];
+  const IMG = "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/";
+  const por = pick(BERUEHMT_PORTRAITS, 1);
+  const sch = pick(REG.filter(e => /^(Schaubild|Diagram):/.test(e.description || "") && !String(e.route).startsWith("praxistipps-") && !String(e.route).includes("/")), 3);
+  const tip = pick(REG.filter(e => String(e.route).startsWith("praxistipps-heilpraktiker/")), 5);
+  const wisR = pick(["stresslinien-symmetrie", "linien-dynamik-beziehungen", "typ-aendert-sich-nicht", "drei-zentren"], 0);
+  const wis = REG.find(e => e.route === wisR) || { term: wisR, route: wisR };
+  const items = [
+    { kind: "Porträt", route: por.route, title: por.name, img: IMG + por.route + "-portrait.jpg" },
+    { kind: "Schaubild", route: sch.route, title: sch.term },
+    { kind: "Praxistipp", route: tip.route, title: tip.term },
+    { kind: "Wissensartikel", route: wis.route, title: wis.term },
+  ];
+  const n = BERUEHMT_PORTRAITS.length, st = (wk * 24) % n, tiles = [];
+  for (let i = 0; i < 24; i++) { const p = BERUEHMT_PORTRAITS[(st + i * 3) % n]; if (p.route !== por.route) tiles.push({ route: p.route, name: p.name, img: IMG + p.route + "-portrait.jpg" }); }
+  _probeCache = { wk, items, routes: new Set(items.map(x => x.route)), tiles };
+  return _probeCache;
+}
+function probeBlockHtml() {
+  const P = probeDerWoche();
+  const total = BERUEHMT_PORTRAITS.length + KRANKHEITS_PORTRAITS.length + KRIMINAL_PORTRAITS.length;
+  const card = "background:var(--paper,#fff);border:1px solid var(--gold);border-radius:10px;padding:.7rem .8rem;text-align:left;cursor:pointer;font-family:inherit;color:var(--ink);";
+  const free = P.items.map(x => `<button data-route="${x.route}" style="${card}">${x.img ? `<img src="${x.img}" alt="" loading="lazy" style="width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:6px;margin-bottom:.5rem;" onerror="this.style.display='none'">` : ""}<span style="display:block;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin-bottom:.2rem;">${x.kind}</span><span style="font-size:.9rem;line-height:1.35;">${x.title}</span></button>`).join("");
+  const lock = P.tiles.map(x => `<button data-route="freischalt" style="position:relative;border:0;padding:0;background:none;cursor:pointer;border-radius:8px;overflow:hidden;" title="Gesperrt – im Vollzugang enthalten"><img src="${x.img}" alt="" loading="lazy" style="width:100%;aspect-ratio:4/5;object-fit:cover;display:block;filter:grayscale(.6) brightness(.8);" onerror="this.style.visibility='hidden'"><span style="position:absolute;left:0;right:0;bottom:0;padding:.35rem .3rem;background:rgba(0,0,0,.55);color:#fff;font-size:.7rem;line-height:1.25;">&#128274; ${x.name}</span></button>`).join("");
+  return `
+      <div style="background:rgba(180,120,0,0.06);border:1px solid var(--border);border-radius:12px;padding:1.4rem 1.4rem 1.2rem;margin-bottom:1.5rem;">
+        <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:0 0 .4rem;">Probe der Woche</h2>
+        <p style="font-size:.88rem;color:var(--muted);margin:0 0 1rem;line-height:1.55;">Jede Woche öffnen sich vier andere Seiten ganz: ein Porträt, ein Schaubild, ein Praxistipp und ein Wissensartikel. Nächste Woche sind es neue.</p>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(135px,1fr));gap:.7rem;">${free}</div>
+      </div>
+      <div style="background:rgba(180,120,0,0.06);border:1px solid var(--border);border-radius:12px;padding:1.4rem 1.4rem 1.2rem;margin-bottom:1.5rem;">
+        <h2 style="font-family:'EB Garamond',serif;font-size:1.2rem;color:var(--ink);margin:0 0 .4rem;">Ein Blick auf die Fülle</h2>
+        <p style="font-size:.88rem;color:var(--muted);margin:0 0 1rem;line-height:1.55;">Diese Titel sehen Sie, die Inhalte bleiben im Vollzugang. Insgesamt sind es über ${total} Porträts, dazu Schaubilder, Praxistipps und Wissensartikel.</p>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(88px,1fr));gap:.5rem;">${lock}</div>
+      </div>
+`;
+}
+
 function leseprobePage() {
   return shell(`
     ${pageHeader("leseprobe")}
@@ -32798,6 +32842,7 @@ function leseprobePage() {
         </div>
       </div>
 
+${probeBlockHtml()}
       <!-- Ber\u00fchmte Pers\u00f6nlichkeiten -->
       <div style="background:rgba(180,120,0,0.06);border:1px solid var(--border);border-radius:12px;padding:1.4rem 1.4rem 1rem;margin-bottom:1.5rem;">
         <h2 style="font-family:'EB Garamond',serif;font-size:1.1rem;color:var(--ink);margin:0 0 0.4rem;">
@@ -69331,7 +69376,7 @@ function render(opts) {
     }
     // Zugangsschutz
     if (!hasHeilwissen() && base !== "freischalt" && base !== "start") { try { localStorage.setItem("kompass:returnRoute", state.route); } catch (e) {} }
-    if (!hasHeilwissen() && !(hasPortraits() && portraitEditionRoutes().has(base)) && base !== "start" && base !== "admin" && base !== "admin-wegweiser" && base !== "leseprobe" && base !== "sonntagsgeschichte" && base !== "inhaltsverzeichnis" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "gesichts-scan" && base !== "updates" && base !== "kaufen" && base !== "register" && base !== "meinen-typ-finden" && base !== "wegweiser-premium") {
+    if (!hasHeilwissen() && !probeDerWoche().routes.has(state.route) && !(hasPortraits() && portraitEditionRoutes().has(base)) && base !== "start" && base !== "admin" && base !== "admin-wegweiser" && base !== "leseprobe" && base !== "sonntagsgeschichte" && base !== "inhaltsverzeichnis" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "gesichts-scan" && base !== "updates" && base !== "kaufen" && base !== "register" && base !== "meinen-typ-finden" && base !== "wegweiser-premium") {
       app.innerHTML = freischaltPage();
       bindEvents();
       requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; }));
