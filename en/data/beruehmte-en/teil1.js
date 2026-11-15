@@ -3284,7 +3284,7 @@ export function alexanderDudaPortraitPage() {
         <h2 class="vb-section">4. The Substance: Authority With Warmth, One Character Over Two Decades</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What distinguishes Duda is the ability to play a superior so that the role does not freeze into a template. He first appeared in the series in 2003 as a guest, as the pharmacist Wolfgang Hartl in the episode ›Gefährliche Freundschaft‹ (›Dangerous Friendship‹), and returned in 2006 as Achtziger, a role he carried for about twenty years. At the same time he stayed true to the theatre and to the voice: as a dubbing artist one works with expression, rhythm and breath alone, and as a theatre director one guides others instead of standing in the centre oneself. Both fit a person who seeks impact through service to the whole.</p>
-          <p class="vb-intro">In 2017, together with his colleagues Marisa Burger and Max Müller, he received the Bavarian State Medal for Internal Security (›Stern der Sicherheit‹, ›Star of Security‹).</p>
+          <p class="vb-intro">In 2017, together with his colleagues <a href="javascript:void(0)" data-route="beruehmte-marisa-burger">Marisa Burger</a> and <a href="javascript:void(0)" data-route="beruehmte-max-mueller">Max Müller</a>, he received the Bavarian State Medal for Internal Security (›Stern der Sicherheit‹, ›Star of Security‹).</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Involuntary Farewell: Wanting to Stay</h2>
@@ -3318,6 +3318,8 @@ export function alexanderDudaPortraitPage() {
         {route:"lebensmusterkompass/se2", label:"Life Pattern Compass: SP2 – Hippopotamus"},
         {route:"beruehmte-joachim-llambi", label:"Portrait: Joachim Llambi (SP2w1)"},
         {route:"beruehmte-franka-potente", label:"Portrait: Franka Potente (SP2w1)"},
+        {route:"beruehmte-marisa-burger", label:"Portrait: Marisa Burger (SX3w2)"},
+        {route:"beruehmte-max-mueller", label:"Portrait: Max Müller (SO7w6)"},
       ])}
     </div>
   `);

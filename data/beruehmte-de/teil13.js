@@ -3290,7 +3290,7 @@ export function maxMuellerPortraitPage() {
         <h2 class="vb-section">4. Die Substanz: aus einer Nebenrolle die Rolle des Lebens gemacht</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Nach Medienberichten bewarb sich Müller ursprünglich für eine ganz andere Rolle, die des Kommissars an der Seite von Joseph Hannesschläger, und erhielt stattdessen die zunächst kleine Rolle eines Polizisten. Er machte daraus eine Figur, die über ein Vierteljahrhundert trägt: einen Polizisten, der im Ensemble als verlässlicher Rückhalt wirkt. Das ist handwerklich nicht trivial. Eine Figur, die nicht im Zentrum der Handlung steht, über Jahre lebendig zu halten, verlangt Genauigkeit im Kleinen: Timing, Wärme und ein Gespür dafür, wann man im Bild nur da sein darf.</p>
-          <p class="vb-intro">Dazu kommt seine musikalische Seite: Als ausgebildeter Bariton, der Klavier und Gitarre spielt, bringt er eine zweite Welt mit, die er neben der Serie pflegt. 2017 erhielt er gemeinsam mit seinen Kollegen Marisa Burger und Alexander Duda die Bayerische Staatsmedaille für Innere Sicherheit (›Stern der Sicherheit‹), 2019 nach Berichten außerdem eine Auszeichnung der Gewerkschaft der Polizei Hessen.</p>
+          <p class="vb-intro">Dazu kommt seine musikalische Seite: Als ausgebildeter Bariton, der Klavier und Gitarre spielt, bringt er eine zweite Welt mit, die er neben der Serie pflegt. 2017 erhielt er gemeinsam mit seinen Kollegen <a href="javascript:void(0)" data-route="beruehmte-marisa-burger">Marisa Burger</a> und <a href="javascript:void(0)" data-route="beruehmte-alexander-duda">Alexander Duda</a> die Bayerische Staatsmedaille für Innere Sicherheit (›Stern der Sicherheit‹), 2019 nach Berichten außerdem eine Auszeichnung der Gewerkschaft der Polizei Hessen.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Das Opfer für die Familie</h2>
@@ -3323,6 +3323,8 @@ export function maxMuellerPortraitPage() {
         {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
         {route:"beruehmte-rowan-atkinson", label:"Porträt: Rowan Atkinson (SO7w6)"},
         {route:"beruehmte-paul-ronzheimer", label:"Porträt: Paul Ronzheimer (SO7w6)"},
+        {route:"beruehmte-marisa-burger", label:"Porträt: Marisa Burger (SX3w2)"},
+        {route:"beruehmte-alexander-duda", label:"Porträt: Alexander Duda (SE2w1)"},
       ])}
     </div>
   `);

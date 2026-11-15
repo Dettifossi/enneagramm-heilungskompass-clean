@@ -3316,7 +3316,7 @@ export function alexanderDudaPortraitPage() {
         <h2 class="vb-section">4. Die Substanz: Autorität mit Wärme, eine Figur über zwei Jahrzehnte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Duda auszeichnet, ist die Fähigkeit, eine Vorgesetztenrolle so zu spielen, dass sie nicht zur Schablone erstarrt. Er trat 2003 zunächst als Gastdarsteller in der Serie auf, als Apotheker Wolfgang Hartl in der Folge ›Gefährliche Freundschaft‹, und kehrte 2006 als Achtziger zurück, eine Rolle, die er rund zwanzig Jahre trug. Zugleich blieb er dem Theater und der Stimme treu: Als Synchronsprecher arbeitet man allein mit Ausdruck, Rhythmus und Atem, und als Theaterregisseur lenkt man andere, statt selbst im Mittelpunkt zu stehen. Beides passt zu einem Menschen, der Wirkung über Dienst am Ganzen sucht.</p>
-          <p class="vb-intro">2017 erhielt er gemeinsam mit seinen Kollegen Marisa Burger und Max Müller die Bayerische Staatsmedaille für Innere Sicherheit (›Stern der Sicherheit‹).</p>
+          <p class="vb-intro">2017 erhielt er gemeinsam mit seinen Kollegen <a href="javascript:void(0)" data-route="beruehmte-marisa-burger">Marisa Burger</a> und <a href="javascript:void(0)" data-route="beruehmte-max-mueller">Max Müller</a> die Bayerische Staatsmedaille für Innere Sicherheit (›Stern der Sicherheit‹).</p>
         </blockquote>
 
         <h2 class="vb-section">5. Der unfreiwillige Abschied: Bleiben wollen</h2>
@@ -3350,6 +3350,8 @@ export function alexanderDudaPortraitPage() {
         {route:"lebensmusterkompass/se2", label:"Lebensmusterkompass: SE2 – Flusspferd"},
         {route:"beruehmte-joachim-llambi", label:"Porträt: Joachim Llambi (SE2w1)"},
         {route:"beruehmte-franka-potente", label:"Porträt: Franka Potente (SE2w1)"},
+        {route:"beruehmte-marisa-burger", label:"Porträt: Marisa Burger (SX3w2)"},
+        {route:"beruehmte-max-mueller", label:"Porträt: Max Müller (SO7w6)"},
       ])}
     </div>
   `);

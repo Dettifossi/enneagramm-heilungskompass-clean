@@ -3251,7 +3251,7 @@ export function maxMuellerPortraitPage() {
         <h2 class="vb-section">4. The Substance: Making the Role of a Lifetime From a Supporting Part</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">According to media reports, Müller originally applied for a quite different role, that of the inspector beside Joseph Hannesschläger, and was instead offered the initially small role of a police officer. He turned it into a character that has carried over a quarter of a century: a policeman who acts as a dependable support in the ensemble. That is no trivial craft. Keeping a character who is not at the centre of the plot alive over years demands precision in small things: timing, warmth and a sense of when one may simply be there in the frame.</p>
-          <p class="vb-intro">Added to this is his musical side: as a trained baritone who plays piano and guitar, he brings a second world that he cultivates alongside the series. In 2017, together with his colleagues Marisa Burger and Alexander Duda, he received the Bavarian State Medal for Internal Security (›Stern der Sicherheit‹, ›Star of Security‹), and in 2019, according to reports, also an award from the Police Union in Hesse.</p>
+          <p class="vb-intro">Added to this is his musical side: as a trained baritone who plays piano and guitar, he brings a second world that he cultivates alongside the series. In 2017, together with his colleagues <a href="javascript:void(0)" data-route="beruehmte-marisa-burger">Marisa Burger</a> and <a href="javascript:void(0)" data-route="beruehmte-alexander-duda">Alexander Duda</a>, he received the Bavarian State Medal for Internal Security (›Stern der Sicherheit‹, ›Star of Security‹), and in 2019, according to reports, also an award from the Police Union in Hesse.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Sacrifice for Family</h2>
@@ -3284,6 +3284,8 @@ export function maxMuellerPortraitPage() {
         {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
         {route:"beruehmte-rowan-atkinson", label:"Portrait: Rowan Atkinson (SO7w6)"},
         {route:"beruehmte-paul-ronzheimer", label:"Portrait: Paul Ronzheimer (SO7w6)"},
+        {route:"beruehmte-marisa-burger", label:"Portrait: Marisa Burger (SX3w2)"},
+        {route:"beruehmte-alexander-duda", label:"Portrait: Alexander Duda (SE2w1)"},
       ])}
     </div>
   `);

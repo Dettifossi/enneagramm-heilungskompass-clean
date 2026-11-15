@@ -3314,6 +3314,7 @@ export function marisaBurgerPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What distinguishes Burger is the instinct for keeping a supporting role alive over almost a quarter of a century. Frau Stockl is no investigator but the woman at the edge of the plot, and yet she became one of the series&rsquo; best-loved characters. This succeeds through timing, Bavarian warmth and the art of showing a whole attitude in small scenes, a glance, a sentence, a remark on the side. Added to this is her work as an audiobook narrator: here the voice alone, without costume and camera, carries warmth and atmosphere.</p>
           <p class="vb-intro">After years in the same role this is also a craft achievement: keeping a character fresh over so long a time without letting it become routine is not given to everyone.</p>
+          <p class="vb-intro">In 2017, together with her series colleagues <a href="javascript:void(0)" data-route="beruehmte-alexander-duda">Alexander Duda</a> and <a href="javascript:void(0)" data-route="beruehmte-max-mueller">Max Müller</a>, she received the Bavarian State Medal for Internal Security (›Stern der Sicherheit‹, ›Star of Security‹).</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Farewell: Courage to Change Roles</h2>
@@ -3346,6 +3347,8 @@ export function marisaBurgerPortraitPage() {
         {route:"lebensmusterkompass/sx3", label:"Life Pattern Compass: SX3 – Peacock"},
         {route:"beruehmte-christina-plate", label:"Portrait: Christina Plate (SX3w2)"},
         {route:"beruehmte-iris-berben", label:"Portrait: Iris Berben (SX3w2)"},
+        {route:"beruehmte-alexander-duda", label:"Portrait: Alexander Duda (SE2w1)"},
+        {route:"beruehmte-max-mueller", label:"Portrait: Max Müller (SO7w6)"},
       ])}
     </div>
   `);

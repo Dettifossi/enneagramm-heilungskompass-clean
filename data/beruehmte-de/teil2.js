@@ -3327,6 +3327,7 @@ export function marisaBurgerPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Burger auszeichnet, ist das Gespür dafür, eine Nebenrolle über ein knappes Vierteljahrhundert lebendig zu halten. Frau Stockl ist keine Ermittlerin, sondern die Frau am Rand der Handlung, und doch wurde sie zu einer der beliebtesten Figuren der Serie. Das gelingt über Timing, bayerische Wärme und die Kunst, in kleinen Szenen, einem Blick, einem Satz, einem Kommentar am Rand, eine ganze Haltung zu zeigen. Dazu kommt ihre Arbeit als Hörbuchsprecherin: Hier trägt allein die Stimme, ohne Kostüm und Kamera, Wärme und Atmosphäre.</p>
           <p class="vb-intro">Nach Jahren in derselben Rolle ist das auch eine handwerkliche Leistung: Eine Figur über so lange Zeit frisch zu halten, ohne sie zur Routine werden zu lassen, gelingt nicht jedem.</p>
+          <p class="vb-intro">2017 erhielt sie gemeinsam mit ihren Serienkollegen <a href="javascript:void(0)" data-route="beruehmte-alexander-duda">Alexander Duda</a> und <a href="javascript:void(0)" data-route="beruehmte-max-mueller">Max Müller</a> die Bayerische Staatsmedaille für Innere Sicherheit (›Stern der Sicherheit‹).</p>
         </blockquote>
 
         <h2 class="vb-section">5. Der Abschied: Mut zum Rollenwechsel</h2>
@@ -3359,6 +3360,8 @@ export function marisaBurgerPortraitPage() {
         {route:"lebensmusterkompass/sx3", label:"Lebensmusterkompass: SX3 – Pfau"},
         {route:"beruehmte-christina-plate", label:"Porträt: Christina Plate (SX3w2)"},
         {route:"beruehmte-iris-berben", label:"Porträt: Iris Berben (SX3w2)"},
+        {route:"beruehmte-alexander-duda", label:"Porträt: Alexander Duda (SE2w1)"},
+        {route:"beruehmte-max-mueller", label:"Porträt: Max Müller (SO7w6)"},
       ])}
     </div>
   `);
