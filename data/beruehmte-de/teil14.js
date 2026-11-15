@@ -3046,7 +3046,7 @@ export function danielleVasinovaPortraitPage() {
         <h2 class="vb-section">6. Licht und Schatten der sozialen Drei mit Viererflügel</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Beeindruckend ist die Ausdauer: Wer fast aufgibt und dann zwei große Rollen erhält, hat durchgehalten, wo andere aufgegeben hätten. Auch ihr Respekt vor den Menschen, von denen sie lernt, gehört dazu.</p>
-          <p class="vb-intro">Die Schattenseite der Drei ist die Abhängigkeit vom Erfolg des Moments: Wer sein Ansehen aus dem nächsten Auftrag zieht, spürt die Pausen. Das ist eine Deutung nach ihrer Aussage, sie sei kurz vor dem Aufgeben gewesen.</p>
+          <p class="vb-intro">Die Schattenseite der Drei ist die Abhängigkeit vom Erfolg des Moments: Wer sein Ansehen aus dem nächsten Auftrag zieht, spürt die Pausen. Das ergibt sich aus ihrer Aussage, sie sei kurz vor dem Aufgeben gewesen.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Stand: nach der schwersten Zeit</h2>

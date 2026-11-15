@@ -3266,7 +3266,7 @@ export function hubertAiwangerPortraitPage() {
         <h2 class="vb-section">2. Die selbsterhaltende Eins: Sorge um das, was trägt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihre Strenge auf das, was das Leben trägt: Existenz, Besitz, Ordnung. Nach Claudio Naranjo ist ihr Schlüsselwort <em>Worry</em>, die Sorge, dass etwas nicht stimmt oder nicht reicht. Bei Aiwanger zeigt sich das in seinen Themen: Mittelstand, Landwirtschaft, Energie, Bürokratie, der ländliche Raum. Immer wieder trat er dort auf, wo er Existenzgrundlagen bedroht sah, und setzte der Verwaltungslogik die Sprache des Hofes entgegen.</p>
-          <p class="vb-intro">Auch der Zorn der Eins ist hier erkennbar, als moralisch gefärbte Entrüstung: Am 10. Juni 2023 hielt er bei einer Demonstration in Erding gegen das Gebäudeenergiegesetz eine Rede, die viel Kritik auslöste, und nannte das Gesetz am 4. Juli 2023 ein Beispiel für eine ›formale Demokratie‹. Die Zuordnung zu diesem Subtyp ist eine Deutung; sie erklärt, warum die Empörung bei ihm so oft vom Gefühl der Verantwortung für die ›Normalen‹ getragen war.</p>
+          <p class="vb-intro">Auch der Zorn der Eins ist hier erkennbar, als moralisch gefärbte Entrüstung: Am 10. Juni 2023 hielt er bei einer Demonstration in Erding gegen das Gebäudeenergiegesetz eine Rede, die viel Kritik auslöste, und nannte das Gesetz am 4. Juli 2023 ein Beispiel für eine ›formale Demokratie‹. Die Zuordnung zu diesem Subtyp erklärt, warum die Empörung bei ihm so oft vom Gefühl der Verantwortung für die ›Normalen‹ getragen war.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Neunerflügel: Bodenständigkeit und Bierzeltwärme</h2>

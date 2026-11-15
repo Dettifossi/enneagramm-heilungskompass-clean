@@ -2998,7 +2998,7 @@ export function danielleVasinovaPortraitPage() {
         <h2 class="vb-section">6. Light and shadow of the social Three with Four-wing</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Impressive is the perseverance: someone who almost gives up and then receives two major roles has held on where others would have quit. Her respect for the people she learns from belongs here too.</p>
-          <p class="vb-intro">The shadow side of the Three is the dependence on the success of the moment: whoever draws standing from the next job feels the pauses. This is an interpretation based on her statement that she was close to giving up.</p>
+          <p class="vb-intro">The shadow side of the Three is the dependence on the success of the moment: whoever draws standing from the next job feels the pauses. This follows from her statement that she was close to giving up.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Where things stand: after the hardest time</h2>

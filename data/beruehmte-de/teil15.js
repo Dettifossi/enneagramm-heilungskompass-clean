@@ -3267,7 +3267,7 @@ export function lisaKauffPortraitPage() {
         <h2 class="vb-section">2. Die selbsterhaltende Eins: Sorge, die zur Struktur wird</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihre Strenge auf das, was das Leben trägt: Gesundheit, Ordnung, Verlässlichkeit. Nach Claudio Naranjo ist ihr Schlüsselwort <em>Worry</em>, die Sorge, dass etwas nicht stimmt oder nicht reicht. Ihr Weg passt dazu: aus der Welt von Revision und Controlling, wo Ordnung die Aufgabe ist, in ein Feld, in dem sie anderen hilft, die eigene Ordnung wiederzufinden, im Körper und im Kopf. Der Markenname zeigt das Thema: Der ›Monkey Mind‹ ist der unruhige, springende Gedanke, den Yoga beruhigen soll.</p>
-          <p class="vb-intro">Auch ihr Alltag trägt die Handschrift der Eins. Sie möchte abends und am Wochenende nicht mehr arbeiten, doch dringende Kundenmails ziehen sie nach eigener Aussage oft zurück: Pflichtgefühl gegen den eigenen Vorsatz. Ihr Mantra lautet ›Ich erlaube mir, langsamer zu werden‹, ein Satz, den man sich nur aufschreibt, wenn man das Gegenteil gut kennt. Die Zuordnung ist eine Deutung.</p>
+          <p class="vb-intro">Auch ihr Alltag trägt die Handschrift der Eins. Sie möchte abends und am Wochenende nicht mehr arbeiten, doch dringende Kundenmails ziehen sie nach eigener Aussage oft zurück: Pflichtgefühl gegen den eigenen Vorsatz. Ihr Mantra lautet ›Ich erlaube mir, langsamer zu werden‹, ein Satz, den man sich nur aufschreibt, wenn man das Gegenteil gut kennt.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Zweierflügel: Hilfe, die freundlich bleibt</h2>

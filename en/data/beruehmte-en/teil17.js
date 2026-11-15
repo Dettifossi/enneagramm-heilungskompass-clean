@@ -3225,7 +3225,7 @@ export function lisaKauffPortraitPage() {
         <h2 class="vb-section">2. The self-preservation One: worry turned into structure</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> directs her strictness at what keeps life going: health, order, reliability. According to Claudio Naranjo her key word is <em>worry</em>, the concern that something is not right or not enough. Her path fits: from the world of audit and controlling, where order is the job, to a field in which she helps others restore their own order, in body and head. The brand name shows the theme: the &lsquo;monkey mind&rsquo; is the restless, jumping thought that yoga is meant to calm.</p>
-          <p class="vb-intro">Her everyday life also bears the One&rsquo;s signature. She wants to stop working evenings and weekends, yet urgent customer emails often pull her back, by her own account: duty against her own resolve. Her mantra is &lsquo;I allow myself to slow down&rsquo;, a sentence one only writes down if one knows the opposite well. The classification is an interpretation.</p>
+          <p class="vb-intro">Her everyday life also bears the One&rsquo;s signature. She wants to stop working evenings and weekends, yet urgent customer emails often pull her back, by her own account: duty against her own resolve. Her mantra is &lsquo;I allow myself to slow down&rsquo;, a sentence one only writes down if one knows the opposite well.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two-wing: help that stays kind</h2>

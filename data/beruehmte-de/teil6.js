@@ -3232,7 +3232,7 @@ export function mariaHasbolatPortraitPage() {
         <h2 class="vb-section">2. Die selbsterhaltende Drei: Sicherheit durch Handwerk</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei: Sie sieht nicht aus wie eine Drei. Statt Show zählen Sicherheit, Können und ein System, das funktioniert. Nach Claudio Naranjo ist ihr Schlüsselwort <em>Sicherheit</em>. Das passt zu Hasbolats Start: Sie behielt ihre Stelle als Dozentin, während sie das Online-Angebot aufbaute, und musste ihre Tage, wie sie selbst sagt, genau planen. Sie erledigt Anfragen, Werbung, Kooperationen, Texte, Videoaufnahmen, Stories, Bildbearbeitung und die Moderation von Online-Treffen selbst. Ihr Maßstab für Erfolg ist nicht Applaus, sondern das, was ihre Lernenden erreichen; die Einnahmen übertrafen ihre Erwartungen, nüchtern festgestellt.</p>
-          <p class="vb-intro">Ihr Rat an ihr früheres Ich lautet, ein Ziel, das man wirklich will, nie aufzugeben und sich mit Menschen zu umgeben, die motivieren. Die Zuordnung ist eine Deutung.</p>
+          <p class="vb-intro">Ihr Rat an ihr früheres Ich lautet, ein Ziel, das man wirklich will, nie aufzugeben und sich mit Menschen zu umgeben, die motivieren.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Zweierflügel: Wärme, Humor, Dienst am anderen</h2>
@@ -3587,7 +3587,7 @@ export function rauandTalebPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Hell ist ein Weg, den wenige gehen: Ein Kind, das mit sechs Jahren als Flüchtling nach Deutschland kam, steht mit Mitte dreißig in preisgekrönten Produktionen. Der Schatten der sozialen Drei liegt im Bild: Wer sich über Anerkennung der Gruppe definiert, kann es sich schwer erlauben, nicht zu liefern. Über das Privatleben ist öffentlich kaum etwas bekannt, und dieses Porträt hält sich an das Belegte. Die Typisierung bleibt eine Deutung.</p>
+          <p class="vb-intro">Hell ist ein Weg, den wenige gehen: Ein Kind, das mit sechs Jahren als Flüchtling nach Deutschland kam, steht mit Mitte dreißig in preisgekrönten Produktionen. Der Schatten der sozialen Drei liegt im Bild: Wer sich über Anerkennung der Gruppe definiert, kann es sich schwer erlauben, nicht zu liefern. Über das Privatleben ist öffentlich kaum etwas bekannt, und dieses Porträt hält sich an das Belegte.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>
@@ -3657,7 +3657,7 @@ export function stevenKruegerPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Hell ist die Verlässlichkeit eines Darstellers, der sich in jedem Ensemble zu Hause fühlt und dem Ganzen dient. Der Schatten der selbsterhaltenden Drei ist die Sicherheit: Wer Verlässlichkeit zum Maßstab macht, bleibt leicht im Bekannten. Krueger scheint das zu wissen: Seine besten Arbeiten, sagt er, entstünden außerhalb seiner Komfortzone, und er wolle künftig Projekte annehmen, die Grenzen verschieben. Die Typisierung bleibt eine Deutung.</p>
+          <p class="vb-intro">Hell ist die Verlässlichkeit eines Darstellers, der sich in jedem Ensemble zu Hause fühlt und dem Ganzen dient. Der Schatten der selbsterhaltenden Drei ist die Sicherheit: Wer Verlässlichkeit zum Maßstab macht, bleibt leicht im Bekannten. Krueger scheint das zu wissen: Seine besten Arbeiten, sagt er, entstünden außerhalb seiner Komfortzone, und er wolle künftig Projekte annehmen, die Grenzen verschieben.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>
@@ -3929,7 +3929,7 @@ export function rainerHunoldPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Hell ist eine Gelassenheit, die nicht schwach ist: Hunold verbiegt sich weder vor der Kamera noch in der Öffentlichkeit, und das Publikum vertraut ihm. Der Schatten der Neun liegt im Einrichten im Vertrauten und im Verzicht auf den Streit. Wer fast vierzig Jahre in ähnlichen Rollen erfolgreich ist, hat wenig Anlass, sich zu riskieren, und die Frage bleibt offen, was hinter der freundlichen Autorität liegt. Dazu kommt Hunolds öffentliche Haltung gegen Rassismus als Zeichen, dass die Neun im Ernstfall durchaus Stellung bezieht. Die Typisierung bleibt eine Deutung.</p>
+          <p class="vb-intro">Hell ist eine Gelassenheit, die nicht schwach ist: Hunold verbiegt sich weder vor der Kamera noch in der Öffentlichkeit, und das Publikum vertraut ihm. Der Schatten der Neun liegt im Einrichten im Vertrauten und im Verzicht auf den Streit. Wer fast vierzig Jahre in ähnlichen Rollen erfolgreich ist, hat wenig Anlass, sich zu riskieren, und die Frage bleibt offen, was hinter der freundlichen Autorität liegt. Dazu kommt Hunolds öffentliche Haltung gegen Rassismus als Zeichen, dass die Neun im Ernstfall durchaus Stellung bezieht.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>
@@ -4066,7 +4066,7 @@ export function clausTheoGaertnerPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Hell ist die Verlässlichkeit: Ein Mann, der über 50 Film- und Fernsehproduktionen drehte und in einer Rolle 32 Jahre lang ohne Bruch blieb. Der Schatten der selbsterhaltenden Eins liegt im Festhalten an einem Maß und im Verzicht auf das Risiko. Bei Gärtner zeigt er sich eher von außen: Er bleibt, wie er selbst sagt, Matula, was er auch spielt. Dass er als junger Schauspieler die Altersvorsorge auf ›irgendwann‹ schob, ist eine kleine Spur der Neun: Was nicht drängt, wird nicht angepackt. Die Typisierung bleibt eine Deutung.</p>
+          <p class="vb-intro">Hell ist die Verlässlichkeit: Ein Mann, der über 50 Film- und Fernsehproduktionen drehte und in einer Rolle 32 Jahre lang ohne Bruch blieb. Der Schatten der selbsterhaltenden Eins liegt im Festhalten an einem Maß und im Verzicht auf das Risiko. Bei Gärtner zeigt er sich eher von außen: Er bleibt, wie er selbst sagt, Matula, was er auch spielt. Dass er als junger Schauspieler die Altersvorsorge auf ›irgendwann‹ schob, ist eine kleine Spur der Neun: Was nicht drängt, wird nicht angepackt.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Parallelen im selben Subtyp und Flügel</h2>

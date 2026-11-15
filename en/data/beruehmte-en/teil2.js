@@ -2839,7 +2839,7 @@ export function anneWillPortraitPage() {
 
         <h2 class="vb-section">7. The Woman Who Saw Through Her Own Correctness</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In retrospect, what remains is a journalist who earned her place and openly voiced her own overcorrectness. The typing remains an interpretation: it is based on the life story and on the Enneagram profiling system of David L. Rathmer, not on knowledge of her inner life.</p>
+          <p class="vb-intro">In retrospect, what remains is a journalist who earned her place and openly voiced her own overcorrectness. The typing is based on the life story and on the Enneagram profiling system of David L. Rathmer, not on knowledge of her inner life.</p>
         </blockquote>
 
       </div>
@@ -3291,7 +3291,7 @@ export function leonieBeneschPortraitPage() {
         <h2 class="vb-section">2. The self-preservation Four: carrying pressure quietly</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>self-preservation Four (SP4)</strong> carries a deep emotional life quietly and does not put it on display. According to Claudio Naranjo her key word is <em>dauntlessness</em>: the ability to endure one&rsquo;s own suffering without making a show of it. With Benesch this shows in what she plays and how she talks about it: characters who are under pressure and hold on instead of exploding, and an actress who, under pressure, prefers to stay entirely with herself and her own contribution.</p>
-          <p class="vb-intro">She keeps her private life out of the public eye; the only thing publicly known is that she lives in Berlin. This reserve belongs to the subtype: the depth goes into the work, not into talking about it. The classification is an interpretation.</p>
+          <p class="vb-intro">She keeps her private life out of the public eye; the only thing publicly known is that she lives in Berlin. This reserve belongs to the subtype: the depth goes into the work, not into talking about it.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Three-wing: training, reach, change of genre</h2>

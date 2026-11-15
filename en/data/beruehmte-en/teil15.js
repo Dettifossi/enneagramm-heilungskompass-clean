@@ -3253,7 +3253,7 @@ export function mariaHasbolatPortraitPage() {
         <h2 class="vb-section">2. The self-preservation Three: security through craft</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> is the counter-type of the Three: she does not look like a Three. Instead of show, security, competence and a system that works count. According to Claudio Naranjo her key word is <em>security</em>. This matches Hasbolat&rsquo;s start: she kept her job as a lecturer while building the online offering and had to plan her days carefully, as she says herself. She handles enquiries, advertising, partnerships, texts, video recordings, stories, photo editing and the moderation of online meetings herself. Her measure of success is not applause but what her students achieve; sales exceeded her expectations, stated soberly.</p>
-          <p class="vb-intro">Her advice to her earlier self is never to give up on a goal you truly want and to surround yourself with people who motivate you. The classification is an interpretation.</p>
+          <p class="vb-intro">Her advice to her earlier self is never to give up on a goal you truly want and to surround yourself with people who motivate you.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two-wing: warmth, humour, service</h2>
@@ -3608,7 +3608,7 @@ export function rauandTalebPortraitPage() {
 
         <h2 class="vb-section">5. Light and shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Bright is a path few walk: a child who came to Germany as a refugee at six stands in award-winning productions in his mid-thirties. The shadow of the social Three lies in the image: whoever defines himself through the recognition of the group can hardly afford not to deliver. Little about his private life is public, and this portrait sticks to what is documented. The typing remains an interpretation.</p>
+          <p class="vb-intro">Bright is a path few walk: a child who came to Germany as a refugee at six stands in award-winning productions in his mid-thirties. The shadow of the social Three lies in the image: whoever defines himself through the recognition of the group can hardly afford not to deliver. Little about his private life is public, and this portrait sticks to what is documented.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
@@ -3678,7 +3678,7 @@ export function stevenKruegerPortraitPage() {
 
         <h2 class="vb-section">5. Light and shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Bright is the reliability of a performer who feels at home in every ensemble and serves the whole. The shadow of the self-preservation Three is security: whoever makes reliability the measure easily stays in the familiar. Krueger seems to know this: his best work, he says, comes from outside his comfort zone, and he wants to take on projects that push boundaries in future. The typing remains an interpretation.</p>
+          <p class="vb-intro">Bright is the reliability of a performer who feels at home in every ensemble and serves the whole. The shadow of the self-preservation Three is security: whoever makes reliability the measure easily stays in the familiar. Krueger seems to know this: his best work, he says, comes from outside his comfort zone, and he wants to take on projects that push boundaries in future.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
@@ -3950,7 +3950,7 @@ export function rainerHunoldPortraitPage() {
 
         <h2 class="vb-section">5. Light and shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Bright is a composure that is not weak: Hunold does not bend, neither in front of the camera nor in public, and the audience trusts him. The shadow of the Nine lies in settling into the familiar and in avoiding conflict. Whoever is successful in similar roles for almost forty years has little reason to take risks, and the question remains open what lies behind the friendly authority. Added to this is Hunold&rsquo;s public stance against racism as a sign that the Nine does take a position when it matters. The typing remains an interpretation.</p>
+          <p class="vb-intro">Bright is a composure that is not weak: Hunold does not bend, neither in front of the camera nor in public, and the audience trusts him. The shadow of the Nine lies in settling into the familiar and in avoiding conflict. Whoever is successful in similar roles for almost forty years has little reason to take risks, and the question remains open what lies behind the friendly authority. Added to this is Hunold&rsquo;s public stance against racism as a sign that the Nine does take a position when it matters.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>
@@ -4087,7 +4087,7 @@ export function clausTheoGaertnerPortraitPage() {
 
         <h2 class="vb-section">5. Light and shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Bright is the reliability: a man who made over 50 film and television productions and stayed in one role for 32 years without a break. The shadow of the self-preservation One lies in holding on to a measure and in avoiding risk. With Gärtner it shows rather from outside: he remains, as he says himself, Matula, whatever he plays. That as a young actor he postponed retirement planning to &lsquo;someday&rsquo; is a small trace of the Nine: what does not press is not tackled. The typing remains an interpretation.</p>
+          <p class="vb-intro">Bright is the reliability: a man who made over 50 film and television productions and stayed in one role for 32 years without a break. The shadow of the self-preservation One lies in holding on to a measure and in avoiding risk. With Gärtner it shows rather from outside: he remains, as he says himself, Matula, whatever he plays. That as a young actor he postponed retirement planning to &lsquo;someday&rsquo; is a small trace of the Nine: what does not press is not tackled.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Parallels in the same subtype and wing</h2>

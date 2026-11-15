@@ -3260,7 +3260,7 @@ export function leonieBeneschPortraitPage() {
         <h2 class="vb-section">2. Die selbsterhaltende Vier: Druck still tragen</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> trägt ihr tiefes Gefühlsleben still und stellt es nicht zur Schau. Nach Claudio Naranjo ist ihr Schlüsselwort <em>Dauntlessness</em>, die Unerschrockenheit, das eigene Leiden auszuhalten, ohne es zur Schau zu stellen. Bei Benesch zeigt sich das an dem, was sie spielt und wie sie darüber spricht: Figuren, die unter Druck stehen und durchhalten, statt zu explodieren, und eine Darstellerin, die bei Druck, wie sie sagt, am liebsten ganz bei sich und ihrem eigenen Beitrag bleibt.</p>
-          <p class="vb-intro">Ihr Privatleben hält sie aus der Öffentlichkeit heraus; öffentlich bekannt ist nur, dass sie in Berlin lebt. Diese Zurückhaltung gehört zum Subtyp: Die Tiefe wird in die Arbeit gelegt, nicht in das Gespräch darüber. Die Zuordnung ist eine Deutung.</p>
+          <p class="vb-intro">Ihr Privatleben hält sie aus der Öffentlichkeit heraus; öffentlich bekannt ist nur, dass sie in Berlin lebt. Diese Zurückhaltung gehört zum Subtyp: Die Tiefe wird in die Arbeit gelegt, nicht in das Gespräch darüber.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Dreierflügel: Ausbildung, Reichweite, Genrewechsel</h2>
