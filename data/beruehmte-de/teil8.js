@@ -3284,7 +3284,7 @@ export function janJosefLiefersPortraitPage() {
 
         <h2 class="vb-section">1. Der Biber aus Dresden: erst das Handwerk, dann die Bühne</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Biber</strong> baut, und er baut mit dem Material, das er findet. Jan Josef Liefers wurde am 8. August 1964 in Dresden geboren. Bevor er Schauspieler wurde, machte er eine Tischlerlehre, ein Handwerk, in dem man aus rohem Holz etwas Brauchbares und Schönes fügt. Von 1983 bis 1987 folgte die Schauspielausbildung an der Hochschule für Schauspielkunst ›Ernst Busch‹ in Berlin.</p>
+          <p class="vb-intro">Der <strong>Biber</strong> baut, und er baut mit dem Material, das er findet. Jan Josef Liefers wurde am 8. August 1964 in Dresden geboren. Bevor er Schauspieler wurde, machte er eine Tischlerlehre, ein Handwerk, in dem man aus rohem Holz etwas Brauchbares und Schönes zusammenfügt. Von 1983 bis 1987 folgte die Schauspielausbildung an der Hochschule für Schauspielkunst ›Ernst Busch‹ in Berlin.</p>
           <p class="vb-intro">Aus dem Schauspieler wurde über die Jahre ein Mann mit mehreren Standbeinen: Film und Fernsehen, Theater, Regie, Produktion und Musik. Das passt zum Bild des Bibers, der nie nur ein Projekt hat, sondern ein ganzes Revier, an dem er baut.</p>
         </blockquote>
 
