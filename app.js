@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=513";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=518";
 import { psychogrammErklaerung, psychogrammDaten } from "./data/psychogramme-erklaerung.js?v=3";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -567,6 +567,11 @@ const clausTheoGaertnerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6
 const oliverReedPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "oliverReedPortraitPage");
 const michaelFassbenderPortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", "michaelFassbenderPortraitPage");
 const paulDanoPortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", "paulDanoPortraitPage");
+const axelPrahlPortraitPage = () => _lazyPage("./data/beruehmte-de/teil11.js", "axelPrahlPortraitPage");
+const marisaBurgerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil2.js", "marisaBurgerPortraitPage");
+const igorJefticPortraitPage = () => _lazyPage("./data/beruehmte-de/teil4.js", "igorJefticPortraitPage");
+const alexanderDudaPortraitPage = () => _lazyPage("./data/beruehmte-de/teil14.js", "alexanderDudaPortraitPage");
+const maxMuellerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil13.js", "maxMuellerPortraitPage");
 const heinzErhardtPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "heinzErhardtPortraitPage");
 const rainerHunoldPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "rainerHunoldPortraitPage");
 const henriRousseauPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", "henriRousseauPortraitPage");
@@ -27735,6 +27740,26 @@ const BERUEHMT_PORTRAITS = [
     heading:"Paul Dano \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w3 \u00b7 geb. 1984 in New York. Schauspieler und Regisseur: \u203aLittle Miss Sunshine\u2039, \u203aThere Will Be Blood\u2039, \u203aLove & Mercy\u2039, \u203aWildlife\u2039, \u203aThe Batman\u2039. Die Taube, die das Innenleben in die Rolle legt. Tierentsprechung: Taube.",
     land:"USA", tags:["Schauspiel","Film","Regie"], gender:"m"},
+  { route:"beruehmte-axel-prahl", name:"Axel Prahl", added:"2026-11-15", subtyp:"SE9w8",
+    heading:"Axel Prahl \u2013 Selbsterhaltender Typ 9",
+    teaser:"SE9w8 \u00b7 geb. 1960 in Eutin. Schauspieler und Musiker, seit 2002 Kommissar Thiel im M\u00fcnsteraner \u203aTatort\u2039, Dresen-Filme wie \u203aHalbe Treppe\u2039 und \u203aWillenbrock\u2039. Der Elefant, der gew\u00f6hnliche M\u00e4nner ohne Pose spielt. Tierentsprechung: Elefant.",
+    land:"Deutschland", tags:["Schauspiel","Film","Fernsehen","Musik"], gender:"m"},
+  { route:"beruehmte-marisa-burger", name:"Marisa Burger", added:"2026-11-15", subtyp:"SX3w2",
+    heading:"Marisa Burger \u2013 Sexueller Typ 3",
+    teaser:"SX3w2 \u00b7 geb. 1973 in Alt\u00f6tting. Schauspielerin und H\u00f6rbuchsprecherin, seit 2002 Frau Stockl in \u203aDie Rosenheim-Cops\u2039. Der Pfau, der Wirkung durch W\u00e4rme entfaltet und eine Nebenfigur zur Kultfigur machte. Tierentsprechung: Pfau.",
+    land:"Deutschland", tags:["Schauspiel","Fernsehen","Theater"], gender:"w"},
+  { route:"beruehmte-igor-jeftic", name:"Igor Jefti\u0107", added:"2026-11-15", subtyp:"SO1w2",
+    heading:"Igor Jefti\u0107 \u2013 Sozialer Typ 1",
+    teaser:"SO1w2 \u00b7 geb. 1971 im damaligen Jugoslawien. Schauspieler, seit 2009 Hauptkommissar Sven Hansen in \u203aDie Rosenheim-Cops\u2039. Die Gans, die Verantwortung im Ensemble tr\u00e4gt und am Sinn des eigenen Berufs zweifelt. Tierentsprechung: Gans.",
+    land:"Deutschland", tags:["Schauspiel","Fernsehen"], gender:"m"},
+  { route:"beruehmte-alexander-duda", name:"Alexander Duda", added:"2026-11-15", subtyp:"SE2w1",
+    heading:"Alexander Duda \u2013 Selbsterhaltender Typ 2",
+    teaser:"SE2w1 \u00b7 geb. 1955 in M\u00fcnchen. Schauspieler, Theaterregisseur und Synchronsprecher, seit 2006 Polizeidirektor Gert Achtziger in \u203aDie Rosenheim-Cops\u2039. Das Flusspferd, das an seinem Platz bleibt. Tierentsprechung: Flusspferd.",
+    land:"Deutschland", tags:["Schauspiel","Fernsehen","Theater"], gender:"m"},
+  { route:"beruehmte-max-mueller", name:"Max M\u00fcller", added:"2026-11-15", subtyp:"SO7w6",
+    heading:"Max M\u00fcller \u2013 Sozialer Typ 7",
+    teaser:"SO7w6 \u00b7 geb. 1965 in Klagenfurt. Schauspieler und Bariton, seit 2002 Polizeihauptmeister Michi Mohr in \u203aDie Rosenheim-Cops\u2039. Der Biber, der aus der zweiten Reihe dem Ganzen dient. Tierentsprechung: Biber.",
+    land:"\u00d6sterreich", tags:["Schauspiel","Fernsehen","Musik"], gender:"m"},
   { route:"beruehmte-heinz-erhardt", name:"Heinz Erhardt", added:"2026-11-07", subtyp:"SE7w6",
     heading:"Heinz Erhardt \u2013 Selbsterhaltender Typ 7",
     teaser:"SE7w6 \u00b7 1909\u20131979. Komiker, Musiker und Dichter aus Riga, K\u00f6nig des verdrehten Wortes. Der Gorilla, der den Raum mit Ruhe f\u00fcllt. Tierentsprechung: Gorilla.",
@@ -68866,7 +68891,7 @@ const ROUTES = {
       "beruehmte-soeren-kierkegaard": soerenKierkegaardPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-phil-collins": philCollinsPortraitPage,
-      "beruehmte-oliver-reed": oliverReedPortraitPage, "beruehmte-michael-fassbender": michaelFassbenderPortraitPage, "beruehmte-paul-dano": paulDanoPortraitPage, "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-lea-bosco": leaBoscoPortraitPage, "beruehmte-roland-trettl": rolandTrettlPortraitPage, "beruehmte-kida-khodr-ramadan": kidaKhodrRamadanPortraitPage, "beruehmte-maryam-zaree": maryamZareePortraitPage, "beruehmte-rauand-taleb": rauandTalebPortraitPage, "beruehmte-steven-krueger": stevenKruegerPortraitPage, "beruehmte-carmen-herrera": carmenHerreraPortraitPage, "beruehmte-harland-sanders": harlandSandersPortraitPage, "beruehmte-henri-rousseau": henriRousseauPortraitPage, "beruehmte-rainer-hunold": rainerHunoldPortraitPage, "beruehmte-heinz-erhardt": heinzErhardtPortraitPage, "beruehmte-claus-theo-gaertner": clausTheoGaertnerPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
+      "beruehmte-oliver-reed": oliverReedPortraitPage, "beruehmte-michael-fassbender": michaelFassbenderPortraitPage, "beruehmte-paul-dano": paulDanoPortraitPage, "beruehmte-axel-prahl": axelPrahlPortraitPage, "beruehmte-marisa-burger": marisaBurgerPortraitPage, "beruehmte-igor-jeftic": igorJefticPortraitPage, "beruehmte-alexander-duda": alexanderDudaPortraitPage, "beruehmte-max-mueller": maxMuellerPortraitPage, "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-lea-bosco": leaBoscoPortraitPage, "beruehmte-roland-trettl": rolandTrettlPortraitPage, "beruehmte-kida-khodr-ramadan": kidaKhodrRamadanPortraitPage, "beruehmte-maryam-zaree": maryamZareePortraitPage, "beruehmte-rauand-taleb": rauandTalebPortraitPage, "beruehmte-steven-krueger": stevenKruegerPortraitPage, "beruehmte-carmen-herrera": carmenHerreraPortraitPage, "beruehmte-harland-sanders": harlandSandersPortraitPage, "beruehmte-henri-rousseau": henriRousseauPortraitPage, "beruehmte-rainer-hunold": rainerHunoldPortraitPage, "beruehmte-heinz-erhardt": heinzErhardtPortraitPage, "beruehmte-claus-theo-gaertner": clausTheoGaertnerPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
       "beruehmte-harald-v": haraldVPortraitPage,
       "beruehmte-carl-xvi-gustaf": carlXVIGustafPortraitPage,
       "beruehmte-johannes-paul-ii": johannesPaulIIPortraitPage,
