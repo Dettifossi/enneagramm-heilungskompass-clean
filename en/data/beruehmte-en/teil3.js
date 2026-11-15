@@ -3232,7 +3232,7 @@ export function igorJefticPortraitPage() {
 
         <h2 class="vb-section">8. Status in November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Jeftić remains part of the ›Rosenheim-Cops‹ ensemble; rumours of an exit have not been confirmed according to the available reports. The typing remains an interpretation, based on the life story and on the Enneagram profiling system of David L. Rathmer. Biographical details come from media reports and agency profiles and are not consistently documented in every detail.</p>
+          <p class="vb-intro">Jeftić remains part of the ›Rosenheim-Cops‹ ensemble; rumours of an exit have not been confirmed according to the available reports. The classification as SO1w2 is a reasoned proposal, not a certainty: it draws on his life story and follows the Enneagram profiling system of David L. Rathmer. Place of birth, training and the custody anecdote come from press and agency profiles and do not agree everywhere.</p>
         </blockquote>
 
       </div>

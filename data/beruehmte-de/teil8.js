@@ -3307,7 +3307,7 @@ export function janJosefLiefersPortraitPage() {
 
         <h2 class="vb-section">5. Das Tandem: Thiel und Boerne, Prahl und Liefers</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Liefers' Gegenüber ist <a href="javascript:void(0)" data-route="beruehmte-axel-prahl">Axel Prahl</a> (SE9w8) als Kommissar Frank Thiel. Das Paar zeigt, wie zwei Enneagramm-Typen einander ergänzen: Prahls Thiel ist die selbsterhaltende Neun, ruhig, bodenständig, grummelig-herzlich; Liefers' Boerne ist der soziale Siebener, quirlig, redegewandt, immer in Bewegung. Die Neun bremst, die Sieben treibt; die Neun erdet, die Sieben hebt ab. Aus dieser Reibung entsteht die Komik, und weil beide seit über zwanzig Jahren miteinander spielen, wirkt die Beziehung auf dem Bildschirm echt. Das ist eine Deutung des Duos, keine Aussage über ihr Privatleben.</p>
+          <p class="vb-intro">Liefers' Gegenüber ist <a href="javascript:void(0)" data-route="beruehmte-axel-prahl">Axel Prahl</a> (SE9w8) als Kommissar Frank Thiel. Das Paar zeigt, wie zwei Enneagrammtypen einander ergänzen: Prahls Thiel ist die selbsterhaltende Neun, ruhig, bodenständig, grummelig-herzlich; Liefers' Boerne ist der soziale Siebener, quirlig, redegewandt, immer in Bewegung. Die Neun bremst, die Sieben treibt; die Neun erdet, die Sieben hebt ab. Aus dieser Reibung entsteht die Komik, und weil beide seit über zwanzig Jahren miteinander spielen, wirkt die Beziehung auf dem Bildschirm echt. Das ist eine Deutung des Duos, keine Aussage über ihr Privatleben.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der Sturm von 2021: ›#allesdichtmachen‹</h2>
@@ -3328,7 +3328,7 @@ export function janJosefLiefersPortraitPage() {
 
         <h2 class="vb-section">9. Stand im November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Liefers lebt mit Anna Loos in Berlin und ist weiterhin als Boerne im Münsteraner ›Tatort‹ zu sehen; nach Presseberichten wurden die Verträge mit ihm und Axel Prahl bis 2029 verlängert. Die Typisierung bleibt eine Deutung, basiert auf dem Lebenslauf und auf dem Enneagramm-Profiling-System von David L. Rathmer. Biografische Angaben stammen aus Medienberichten und Datenbanken und sind nicht in allen Details einheitlich belegt.</p>
+          <p class="vb-intro">Liefers lebt mit Anna Loos in Berlin und ist weiterhin als Boerne im Münsteraner ›Tatort‹ zu sehen; nach Presseberichten wurden die Verträge mit ihm und Axel Prahl bis 2029 verlängert. Die Einordnung als SO7w6 ist eine Deutung, abgeleitet aus Lebenslauf und öffentlichem Wirken nach dem Enneagramm-Profiling-System von David L. Rathmer. Die Angaben zu den Ereignissen von 2021 und zur Vertragslage beruhen auf Presseberichten.</p>
         </blockquote>
 
       </div>

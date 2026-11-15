@@ -3331,7 +3331,7 @@ export function janJosefLiefersPortraitPage() {
 
         <h2 class="vb-section">9. Status in November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Liefers lives in Berlin with Anna Loos and can still be seen as Boerne in the Münster ›Tatort‹; according to press reports, the contracts with him and Axel Prahl have been extended to 2029. The typing remains an interpretation, based on the life story and on the Enneagram profiling system of David L. Rathmer. Biographical details come from media reports and databases and are not consistently documented in every detail.</p>
+          <p class="vb-intro">Liefers lives in Berlin with Anna Loos and can still be seen as Boerne in the Münster ›Tatort‹; according to press reports, the contracts with him and Axel Prahl have been extended to 2029. The classification as SO7w6 is an interpretation, derived from his life story and public work according to the Enneagram profiling system of David L. Rathmer. The details of the events of 2021 and of his contract situation rest on press reports.</p>
         </blockquote>
 
       </div>

@@ -3337,7 +3337,7 @@ export function alexanderDudaPortraitPage() {
 
         <h2 class="vb-section">8. Stand im November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Duda ist weiterhin als Achtziger zu sehen; sein Ausstieg aus den ›Rosenheim-Cops‹ ist angekündigt, der genaue Sendetermin war bei der Recherche nicht bekannt. Zum Ensemble gehört auch <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> als Hauptkommissar Sven Hansen. Die Typisierung bleibt eine Deutung, basiert auf dem Lebenslauf und auf dem Enneagramm-Profiling-System von David L. Rathmer. Biografische Angaben stammen aus Medienberichten und Datenbanken und sind nicht in allen Details einheitlich belegt.</p>
+          <p class="vb-intro">Duda ist weiterhin als Achtziger zu sehen; sein Ausstieg aus den ›Rosenheim-Cops‹ ist angekündigt, der genaue Sendetermin war bei der Recherche nicht bekannt. Zum Ensemble gehört auch <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> als Hauptkommissar Sven Hansen. Gedeutet wird hier nach dem Enneagramm-Profiling-System von David L. Rathmer, gestützt auf Lebenslauf und Rollenwahl. Theaterstationen und Abschiedstermin stammen aus Presse und Datenbanken; hier kann sich noch etwas ändern.</p>
         </blockquote>
 
       </div>

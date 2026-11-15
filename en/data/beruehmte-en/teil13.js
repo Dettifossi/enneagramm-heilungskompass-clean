@@ -3317,7 +3317,7 @@ export function axelPrahlPortraitPage() {
 
         <h2 class="vb-section">8. Status in November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Prahl lives in Berlin and is married for the third time. He continues to play in the Münster ›Tatort‹; according to press reports, the contracts with him and Jan Josef Liefers have been extended to 2029. The typing remains an interpretation, based on the life story and on the Enneagram profiling system of David L. Rathmer.</p>
+          <p class="vb-intro">Prahl lives in Berlin and is married for the third time. He continues to play in the Münster ›Tatort‹; according to press reports, the contracts with him and Jan Josef Liefers have been extended to 2029. The classification as SP9w8 is an interpretation based on his life path and on the Enneagram profiling system of David L. Rathmer. The sources partly contradict each other on his training and early years, and the contract extension to 2029 rests on press reports.</p>
         </blockquote>
 
       </div>

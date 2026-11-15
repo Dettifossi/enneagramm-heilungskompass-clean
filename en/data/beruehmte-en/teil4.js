@@ -3334,7 +3334,7 @@ export function marisaBurgerPortraitPage() {
 
         <h2 class="vb-section">8. Status in November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Burger has been married for the second time since 2015 and is working in the theatre again. The ensemble also includes <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> as Chief Inspector Sven Hansen. The typing remains an interpretation, based on the life story and on the Enneagram profiling system of David L. Rathmer. Biographical details come from media reports and an agency profile and are not consistently documented in every detail.</p>
+          <p class="vb-intro">Burger has been married for the second time since 2015 and is working in the theatre again. The ensemble also includes <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> as Chief Inspector Sven Hansen. Like any typing, this one is a proposal, not a certainty. It rests on her life story and public presence and follows the Enneagram profiling system of David L. Rathmer. Training dates differ between sources and are therefore deliberately left open.</p>
         </blockquote>
 
       </div>

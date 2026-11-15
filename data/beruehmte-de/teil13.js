@@ -3310,7 +3310,7 @@ export function maxMuellerPortraitPage() {
 
         <h2 class="vb-section">8. Stand im November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Müller spielt weiterhin Michi Mohr, seit 2026 mit reduzierten Drehtagen. Zum Ensemble gehört auch <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> als Hauptkommissar Sven Hansen. Die Typisierung bleibt eine Deutung, basiert auf dem Lebenslauf und auf dem Enneagramm-Profiling-System von David L. Rathmer. Biografische Angaben stammen aus Medienberichten und Datenbanken und sind nicht in allen Details einheitlich belegt.</p>
+          <p class="vb-intro">Müller spielt weiterhin Michi Mohr, seit 2026 mit reduzierten Drehtagen. Zum Ensemble gehört auch <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> als Hauptkommissar Sven Hansen. Auch diese Typisierung ist eine Deutung nach dem Enneagramm-Profiling-System von David L. Rathmer, abgeleitet aus Lebenslauf und Rolle. Der Drehbeginn und einzelne Auszeichnungen werden in den Quellen nicht einheitlich angegeben.</p>
         </blockquote>
 
       </div>

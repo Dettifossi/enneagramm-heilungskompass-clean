@@ -3254,7 +3254,7 @@ export function axelPrahlPortraitPage() {
 
         <h2 class="vb-section">8. Stand im November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Prahl lebt in Berlin und ist in dritter Ehe verheiratet. Den Münsteraner ›Tatort‹ spielt er weiterhin; nach Presseberichten wurden die Verträge mit ihm und Jan Josef Liefers bis 2029 verlängert. Die Typisierung bleibt eine Deutung, basiert auf dem Lebenslauf und auf dem Enneagramm-Profiling-System von David L. Rathmer.</p>
+          <p class="vb-intro">Prahl lebt in Berlin und ist in dritter Ehe verheiratet. Den Münsteraner ›Tatort‹ spielt er weiterhin; nach Presseberichten wurden die Verträge mit ihm und Jan Josef Liefers bis 2029 verlängert. Die Zuordnung zu SE9w8 ist eine Deutung, die sich auf den Lebensweg und das Enneagramm-Profiling-System von David L. Rathmer stützt. Zu Ausbildung und Frühzeit liefern die Quellen teils widersprüchliche Angaben, und die Vertragsverlängerung bis 2029 beruht auf Presseberichten.</p>
         </blockquote>
 
       </div>

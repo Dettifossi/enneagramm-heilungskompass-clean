@@ -3305,7 +3305,7 @@ export function alexanderDudaPortraitPage() {
 
         <h2 class="vb-section">8. Status in November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Duda can still be seen as Achtziger; his exit from the ›Rosenheim-Cops‹ has been announced, and the exact broadcast date was not known at the time of research. The ensemble also includes <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> as Chief Inspector Sven Hansen. The typing remains an interpretation, based on the life story and on the Enneagram profiling system of David L. Rathmer. Biographical details come from media reports and databases and are not consistently documented in every detail.</p>
+          <p class="vb-intro">Duda can still be seen as Achtziger; his exit from the ›Rosenheim-Cops‹ has been announced, and the exact broadcast date was not known at the time of research. The ensemble also includes <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> as Chief Inspector Sven Hansen. The interpretation here follows the Enneagram profiling system of David L. Rathmer, based on his life story and choice of roles. Theatre engagements and the farewell date come from press and databases; things may still change.</p>
         </blockquote>
 
       </div>

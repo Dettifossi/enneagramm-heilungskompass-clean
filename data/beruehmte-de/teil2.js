@@ -3347,7 +3347,7 @@ export function marisaBurgerPortraitPage() {
 
         <h2 class="vb-section">8. Stand im November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Burger ist seit 2015 in zweiter Ehe verheiratet und arbeitet wieder am Theater. Zum Ensemble gehört auch <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> als Hauptkommissar Sven Hansen. Die Typisierung bleibt eine Deutung, basiert auf dem Lebenslauf und auf dem Enneagramm-Profiling-System von David L. Rathmer. Biografische Angaben stammen aus Medienberichten und einem Agenturprofil und sind nicht in allen Details einheitlich belegt.</p>
+          <p class="vb-intro">Burger ist seit 2015 in zweiter Ehe verheiratet und arbeitet wieder am Theater. Zum Ensemble gehört auch <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> als Hauptkommissar Sven Hansen. Wie jede Typisierung ist auch diese ein Vorschlag, keine Gewissheit. Sie gründet auf Lebenslauf und öffentlichem Auftreten und folgt dem Enneagramm-Profiling-System von David L. Rathmer. Ausbildungszeiten weichen in den Quellen voneinander ab und sind deshalb bewusst offen gelassen.</p>
         </blockquote>
 
       </div>

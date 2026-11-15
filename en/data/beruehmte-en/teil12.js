@@ -3271,7 +3271,7 @@ export function maxMuellerPortraitPage() {
 
         <h2 class="vb-section">8. Status in November 2026</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Müller continues to play Michi Mohr, with reduced shooting days since 2026. The ensemble also includes <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> as Chief Inspector Sven Hansen. The typing remains an interpretation, based on the life story and on the Enneagram profiling system of David L. Rathmer. Biographical details come from media reports and databases and are not consistently documented in every detail.</p>
+          <p class="vb-intro">Müller continues to play Michi Mohr, with reduced shooting days since 2026. The ensemble also includes <a href="javascript:void(0)" data-route="beruehmte-igor-jeftic">Igor Jeftić</a> as Chief Inspector Sven Hansen. This typing, too, is an interpretation following the Enneagram profiling system of David L. Rathmer, derived from his life story and role. The start of shooting and individual awards are not given consistently in the sources.</p>
         </blockquote>
 
       </div>
