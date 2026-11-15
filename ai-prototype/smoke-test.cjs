@@ -355,6 +355,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-jan-josef-liefers", label: "Neues EN-Porträt: Jan Josef Liefers" },
   { hash: "#beruehmte-anna-loos", label: "Neues Porträt: Anna Loos" },
   { hash: "en/#beruehmte-anna-loos", label: "Neues EN-Porträt: Anna Loos" },
+  { hash: "#beruehmte-otto-waalkes", label: "Neues Porträt: Otto Waalkes" },
+  { hash: "en/#beruehmte-otto-waalkes", label: "Neues EN-Porträt: Otto Waalkes" },
   { hash: "#beruehmte-heinz-erhardt", label: "Neues Porträt: Heinz Erhardt" },
   { hash: "en/#beruehmte-heinz-erhardt", label: "Neues EN-Porträt: Heinz Erhardt" },
   { hash: "#beruehmte-rainer-hunold", label: "Neues Porträt: Rainer Hunold" },

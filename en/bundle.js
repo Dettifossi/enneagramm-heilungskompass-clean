@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=517";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=518";
 import { psychogrammErklaerung, psychogrammDaten } from "../data/psychogramme-erklaerung.js?v=3";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -584,6 +584,7 @@ const alexanderDudaPortraitPage = () => _lazyPage("./data/beruehmte-en/teil1.js"
 const maxMuellerPortraitPage = () => _lazyPage("./data/beruehmte-en/teil12.js", "maxMuellerPortraitPage");
 const janJosefLiefersPortraitPage = () => _lazyPage("./data/beruehmte-en/teil6.js", "janJosefLiefersPortraitPage");
 const annaLoosPortraitPage = () => _lazyPage("./data/beruehmte-en/teil5.js", "annaLoosPortraitPage");
+const ottoWaalkesPortraitPage = () => _lazyPage("./data/beruehmte-en/teil9.js", "ottoWaalkesPortraitPage");
 const heinzErhardtPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "heinzErhardtPortraitPage");
 const rainerHunoldPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "rainerHunoldPortraitPage");
 const henriRousseauPortraitPage = () => _lazyPage("./data/beruehmte-en/teil15.js", "henriRousseauPortraitPage");
@@ -1991,6 +1992,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Anna Loos \u2013 Sexual Type 6",
     teaser:"SX6w7 \u00b7 b. 1970 in Brandenburg an der Havel. Actress and singer (\u2018Helen Dorn\u2019, \u2018Halt mich fest!\u2019), frontwoman of Silly. The wolf who crossed the border at seventeen. Animal correspondence: Wolf.",
     land:"Germany", tags:["Acting","Music","Television"], gender:"f"},
+{ route:"beruehmte-otto-waalkes", name:"Otto Waalkes", added:"2026-11-15", subtyp:"SO7w6",
+    heading:"Otto Waalkes \u2013 Social Type 7",
+    teaser:"SO7w6 \u00b7 b. 1948 in Emden. Comedian, singer, actor and draughtsman (\u2018Otto \u2013 Der Film\u2019, \u2018Ottifanten\u2019, \u20187 Zwerge\u2019). The beaver who builds comedy as a gift to the community. Animal correspondence: Beaver.",
+    land:"Germany", tags:["Film","Music","Art","Comedy"], gender:"m"},
 { route:"beruehmte-heinz-erhardt", name:"Heinz Erhardt", added:"2026-11-07", subtyp:"SE7w6",
     heading:"Heinz Erhardt \u2013 Self-Preservation Type 7",
     teaser:"SP7w6 \u00b7 1909\u20131979. Comedian, musician and poet from Riga, king of the twisted word. The gorilla that fills the room with calm. Animal correspondence: Gorilla.",
@@ -48776,7 +48781,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-pamela-reif": pamelaReifPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-phil-collins": philCollinsPortraitPage,
-      "beruehmte-oliver-reed": oliverReedPortraitPage, "beruehmte-michael-fassbender": michaelFassbenderPortraitPage, "beruehmte-paul-dano": paulDanoPortraitPage, "beruehmte-axel-prahl": axelPrahlPortraitPage, "beruehmte-marisa-burger": marisaBurgerPortraitPage, "beruehmte-igor-jeftic": igorJefticPortraitPage, "beruehmte-alexander-duda": alexanderDudaPortraitPage, "beruehmte-max-mueller": maxMuellerPortraitPage, "beruehmte-jan-josef-liefers": janJosefLiefersPortraitPage, "beruehmte-anna-loos": annaLoosPortraitPage, "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-lea-bosco": leaBoscoPortraitPage, "beruehmte-roland-trettl": rolandTrettlPortraitPage, "beruehmte-kida-khodr-ramadan": kidaKhodrRamadanPortraitPage, "beruehmte-maryam-zaree": maryamZareePortraitPage, "beruehmte-rauand-taleb": rauandTalebPortraitPage, "beruehmte-steven-krueger": stevenKruegerPortraitPage, "beruehmte-carmen-herrera": carmenHerreraPortraitPage, "beruehmte-harland-sanders": harlandSandersPortraitPage, "beruehmte-henri-rousseau": henriRousseauPortraitPage, "beruehmte-rainer-hunold": rainerHunoldPortraitPage, "beruehmte-heinz-erhardt": heinzErhardtPortraitPage, "beruehmte-claus-theo-gaertner": clausTheoGaertnerPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
+      "beruehmte-oliver-reed": oliverReedPortraitPage, "beruehmte-michael-fassbender": michaelFassbenderPortraitPage, "beruehmte-paul-dano": paulDanoPortraitPage, "beruehmte-axel-prahl": axelPrahlPortraitPage, "beruehmte-marisa-burger": marisaBurgerPortraitPage, "beruehmte-igor-jeftic": igorJefticPortraitPage, "beruehmte-alexander-duda": alexanderDudaPortraitPage, "beruehmte-max-mueller": maxMuellerPortraitPage, "beruehmte-jan-josef-liefers": janJosefLiefersPortraitPage, "beruehmte-anna-loos": annaLoosPortraitPage, "beruehmte-otto-waalkes": ottoWaalkesPortraitPage, "beruehmte-tim-cook": timCookPortraitPage, "beruehmte-hubert-aiwanger": hubertAiwangerPortraitPage, "beruehmte-lewis-capaldi": lewisCapaldiPortraitPage, "beruehmte-paul-ronzheimer": paulRonzheimerPortraitPage, "beruehmte-grandma-moses": grandmaMosesPortraitPage, "beruehmte-ilse-aigner": ilseAignerPortraitPage, "beruehmte-bruce-darnell": bruceDarnellPortraitPage, "beruehmte-lea-bosco": leaBoscoPortraitPage, "beruehmte-roland-trettl": rolandTrettlPortraitPage, "beruehmte-kida-khodr-ramadan": kidaKhodrRamadanPortraitPage, "beruehmte-maryam-zaree": maryamZareePortraitPage, "beruehmte-rauand-taleb": rauandTalebPortraitPage, "beruehmte-steven-krueger": stevenKruegerPortraitPage, "beruehmte-carmen-herrera": carmenHerreraPortraitPage, "beruehmte-harland-sanders": harlandSandersPortraitPage, "beruehmte-henri-rousseau": henriRousseauPortraitPage, "beruehmte-rainer-hunold": rainerHunoldPortraitPage, "beruehmte-heinz-erhardt": heinzErhardtPortraitPage, "beruehmte-claus-theo-gaertner": clausTheoGaertnerPortraitPage, "beruehmte-leonie-benesch": leonieBeneschPortraitPage, "beruehmte-maria-hasbolat": mariaHasbolatPortraitPage,
       "beruehmte-harald-v": haraldVPortraitPage,
       "beruehmte-carl-xvi-gustaf": carlXVIGustafPortraitPage,
       "beruehmte-johannes-paul-ii": johannesPaulIIPortraitPage,

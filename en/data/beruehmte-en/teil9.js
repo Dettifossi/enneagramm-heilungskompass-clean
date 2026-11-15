@@ -3192,3 +3192,77 @@ export function mireilleMathieuPortraitPage() {
     </div>
   `);
 }
+
+export function ottoWaalkesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-otto-waalkes-portrait.jpg" alt="Otto Waalkes – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-otto-waalkes-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Otto Waalkes</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with a Six-Wing</p>
+        <p class="krim-portrait-subtitle">Comedian, singer, actor and draughtsman, b. 1948 in Emden &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Beaver from East Frisia: The Draughtsman Becomes a Comedian</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>beaver</strong> builds without pause, and what it builds is there for everyone in the end. Otto Gerhard Waalkes was born on 22 July 1948 in Emden in East Frisia; according to reports, his parents were deeply religious Baptists. After his school-leaving exam in 1968, he studied art education in Hamburg from 1970, although he had actually wanted to study painting. He financed his studies with appearances as a guitarist and singer in small clubs, and there it soon became clear that his jokes went down better than the music.</p>
+          <p class="vb-intro">The path from budding art teacher to comedian thus ran through the audience itself: he did not seek a stage, he found one because people laughed. That fits a Seven who gives joy and finds his place in doing so.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Seven: Comedy as a Gift to the Community</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Seven</strong> is regarded as the <em>counter-type</em> of the Seven: the cheerfulness that otherwise serves one&rsquo;s own enjoyment is here put in the service of others. Claudio Naranjo spoke of <em>sacrifice</em>: pleasure is partly set aside in order to belong and to be there for others. In this app&rsquo;s Life Pattern Compass, this is the beaver, building restlessly in the service of a larger whole.</p>
+          <p class="vb-intro">In Waalkes&rsquo; case this shows in the fact that his comedy never seems directed against someone but made for the audience. He clowns so that others can laugh, and gladly puts himself at the centre of the mockery. This remains an interpretation from the outside.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Home and Belonging</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> brings loyalty, reliability and the need to be at home somewhere. In Waalkes&rsquo; case this is the attachment to East Frisia: although he lives in Hamburg-Blankenese today, in 2018 he became an honorary citizen of his home town Emden, where the museum ›Dat Otto Huus‹ (›The Otto House‹) has commemorated him and his work since 1987. In 2018 he also received the Federal Cross of Merit. Someone who stays so rooted in one place is no runaway but a person who wants to belong.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: Wit, Mimicry and a Figure That Lives</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What makes Waalkes unique is the mix of verbal wit, physical comedy and music. He plays with words and sounds, turns idioms around, parodies songs and thereby translates everyday moments into nonsense that nevertheless has its own logic. Added to this is his drawing talent: the ›Ottifanten‹ (›Ottiphants‹), his small elephant figures, first appeared on the cover of his first album and became a trademark that leads a life of its own. In 1993 they ran in an animated series of thirteen episodes on RTL and Super RTL, and in 2001 the film ›Kommando Störtebeker‹ followed.</p>
+          <p class="vb-intro">In cinema, ›Otto – Der Film‹ (›Otto – The Movie‹, 1985) was, according to reports, the most successful German film of the year. It was followed by ›Otto – Der neue Film‹ (›Otto – The New Movie‹, 1987), ›Otto – Der Außerfriesische‹ (›Otto – The Non-Frisian‹, 1989) and ›Otto – Der Liebesfilm‹ (›Otto – The Love Movie‹, 1992), later the ›7 Zwerge‹ (›7 Dwarfs‹) films. That he works as draughtsman, singer, actor and author at once makes him a builder in the literal sense: he erects a whole oeuvre from many parts, in which every figure carries every other.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Fool as Mirror: Why Laughter Connects</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">That Waalkes has made generations laugh over decades is linked to the openness of his figure: the ›Otto‹ on stage is a big, awkward, never malicious boy who does not take himself too seriously. Whoever laughs at him laughs with him. For the social Seven this is the supreme discipline: community arises not through instruction but through shared lightness.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and Shadow of the Social Seven with a Six-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the generosity of the humour, in diligence and constancy over half a century. The shadow of the Seven would be to gloss over the serious with a joke; the Six-wing can additionally feed the fear of rejection that drives the wish to belong. How far this applies to Waalkes cannot be judged from the outside.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Parallels in the Same Subtype: Rowan Atkinson and Jan Josef Liefers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-rowan-atkinson">Rowan Atkinson</a> (SO7w6) is the closest relative: he too turns perfection and the need to belong into comedy, except that his figures stay mute and he himself reserved. <a href="javascript:void(0)" data-route="beruehmte-jan-josef-liefers">Jan Josef Liefers</a> (SO7w6) shows the same pattern as actor, musician and bandleader who gets the circle going. Related, but with an Eight-wing, is <a href="javascript:void(0)" data-route="beruehmte-dieter-nuhr">Dieter Nuhr</a> (SO7w8), who likewise understands comedy as service to the public.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Status in November 2026</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Waalkes is 78 years old and lives in Hamburg-Blankenese. The classification as SO7w6 is a proposal that reads his life&rsquo;s work and stage presence through the Enneagram profiling system of David L. Rathmer. Dates and works come from film databases and encyclopaedias; what drives him inwardly remains interpretation.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
+        {route:"beruehmte-rowan-atkinson", label:"Portrait: Rowan Atkinson (SO7w6)"},
+        {route:"beruehmte-jan-josef-liefers", label:"Portrait: Jan Josef Liefers (SO7w6)"},
+        {route:"beruehmte-dieter-nuhr", label:"Portrait: Dieter Nuhr (SO7w8)"},
+      ])}
+    </div>
+  `);
+}

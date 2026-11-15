@@ -3147,3 +3147,77 @@ export function mireilleMathieuPortraitPage() {
     </div>
   `);
 }
+
+export function ottoWaalkesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-otto-waalkes-portrait.jpg" alt="Otto Waalkes – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-otto-waalkes-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Otto Waalkes</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Komiker, Sänger, Schauspieler und Zeichner, geb. 1948 in Emden &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber aus Ostfriesland: aus dem Zeichner wird ein Komiker</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> baut ohne Unterlass, und was er baut, steht am Ende für alle da. Otto Gerhard Waalkes wurde am 22. Juli 1948 in Emden in Ostfriesland geboren; seine Eltern waren nach Berichten tief religiöse Baptisten. Nach dem Abitur 1968 studierte er ab 1970 in Hamburg Kunstpädagogik, eigentlich hatte er Malerei studieren wollen. Sein Studium finanzierte er mit Auftritten als Gitarrist und Sänger in kleinen Clubs, und dort zeigte sich bald, dass seine Witze besser ankamen als die Musik.</p>
+          <p class="vb-intro">Der Weg vom angehenden Kunstpädagogen zum Komiker verlief also über das Publikum selbst: Er suchte keine Bühne, er fand sie, weil die Leute lachten. Das passt zu einem Siebener, der Freude schenkt und darin seinen Platz findet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der soziale Siebener: Komik als Gabe an die Gemeinschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>soziale Siebener</strong> gilt als der <em>Kontratyp</em> (Gegentyp) der Sieben: Der Frohsinn, der sonst eher dem eigenen Vergnügen dient, wird hier in den Dienst anderer gestellt. Claudio Naranjo sprach von <em>Opfer</em> (Sacrifice): Das Vergnügen wird teilweise zurückgestellt, um dazuzugehören und für andere da zu sein. Im Lebensmusterkompass dieser App steht dafür der Biber, der rastlos im Dienst eines größeren Ganzen baut.</p>
+          <p class="vb-intro">Bei Waalkes zeigt sich das darin, dass seine Komik nie gegen jemanden gerichtet scheint, sondern für das Publikum gemacht ist. Er blödelt, damit andere lachen können, und stellt dafür gern sich selbst in den Mittelpunkt des Spotts. Das bleibt eine Deutung aus der Außensicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Heimat und Zugehörigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> bringt Treue, Verlässlichkeit und das Bedürfnis, irgendwo zu Hause zu sein. Bei Waalkes ist das die Heimatverbundenheit zu Ostfriesland: Obwohl er heute in Hamburg-Blankenese lebt, wurde er 2018 Ehrenbürger seiner Heimatstadt Emden, wo seit 1987 das Museum ›Dat Otto Huus‹ an ihn und sein Werk erinnert. 2018 erhielt er außerdem das Bundesverdienstkreuz. Wer an einem Ort so verwurzelt bleibt, ist kein Ausreißer, sondern ein Mensch, der dazugehören will.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Wortwitz, Mimik und eine Figur, die lebt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Waalkes einzigartig macht, ist die Mischung aus Sprachwitz, Körperkomik und Musik. Er spielt mit Wörtern und Klängen, dreht Redewendungen um, parodiert Lieder und übersetzt dabei Alltagsmomente in Unsinn, der trotzdem eine eigene Logik hat. Dazu kommt sein Zeichentalent: Die ›Ottifanten‹, seine kleinen Elefantenfiguren, erschienen zuerst auf dem Cover seines ersten Albums und wurden zu einem Markenzeichen, das ein eigenes Leben führt. 1993 liefen sie in einer Zeichentrickserie mit dreizehn Folgen bei RTL und Super RTL, 2001 folgte der Kinofilm ›Kommando Störtebeker‹.</p>
+          <p class="vb-intro">Im Kino wurde ›Otto – Der Film‹ (1985) nach Berichten der erfolgreichste deutsche Film des Jahres. Es folgten ›Otto – Der neue Film‹ (1987), ›Otto – Der Außerfriesische‹ (1989) und ›Otto – Der Liebesfilm‹ (1992), später die ›7 Zwerge‹-Filme. Dass er dabei als Zeichner, Sänger, Schauspieler und Autor zugleich arbeitet, macht ihn zum Baumeister im Wortsinn: Er errichtet ein ganzes Werk aus vielen Teilen, in dem jede Figur jeden anderen trägt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Narr als Spiegel: warum das Lachen verbindet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dass Waalkes über Jahrzehnte Generationen zum Lachen gebracht hat, hängt mit der Offenheit seiner Figur zusammen: Der ›Otto‹ auf der Bühne ist ein großer, linkischer, nie bösartiger Junge, der sich selbst nicht zu ernst nimmt. Wer über ihn lacht, lacht mit ihm. Für den sozialen Siebener ist das die Königsdisziplin: Gemeinschaft entsteht nicht durch Belehrung, sondern durch geteilte Leichtigkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten des sozialen Siebeners mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Großzügigkeit des Humors, in Fleiß und Beständigkeit über ein halbes Jahrhundert. Der Schatten des Siebeners wäre, Ernstes mit einem Witz zu überspielen; der Sechserflügel kann zusätzlich die Furcht vor Ablehnung nähren, die den Wunsch nach Zugehörigkeit antreibt. Wie weit das auf Waalkes zutrifft, ist von außen nicht zu beurteilen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Parallelen im selben Subtyp: Rowan Atkinson und Jan Josef Liefers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-rowan-atkinson">Rowan Atkinson</a> (SO7w6) ist der engste Verwandte: Auch er verwandelt Perfektion und Zugehörigkeitsbedürfnis in Komik, nur dass seine Figuren stumm und er selbst zurückhaltend bleibt. <a href="javascript:void(0)" data-route="beruehmte-jan-josef-liefers">Jan Josef Liefers</a> (SO7w6) zeigt dasselbe Muster als Schauspieler, Musiker und Bandleader, der die Runde in Schwung bringt. Verwandt, aber mit Achterflügel, ist <a href="javascript:void(0)" data-route="beruehmte-dieter-nuhr">Dieter Nuhr</a> (SO7w8), der Komik ebenfalls als Dienst an der Öffentlichkeit versteht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Stand im November 2026</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Waalkes ist 78 Jahre alt und lebt in Hamburg-Blankenese. Die Einordnung als SO7w6 ist ein Vorschlag, der Lebenswerk und Bühnenauftritt nach dem Enneagramm-Profiling-System von David L. Rathmer liest. Daten und Werke stammen aus Filmdatenbanken und Lexika; was ihn im Innersten antreibt, bleibt Deutung.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
+        {route:"beruehmte-rowan-atkinson", label:"Porträt: Rowan Atkinson (SO7w6)"},
+        {route:"beruehmte-jan-josef-liefers", label:"Porträt: Jan Josef Liefers (SO7w6)"},
+        {route:"beruehmte-dieter-nuhr", label:"Porträt: Dieter Nuhr (SO7w8)"},
+      ])}
+    </div>
+  `);
+}
